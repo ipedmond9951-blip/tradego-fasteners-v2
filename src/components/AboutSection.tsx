@@ -1,11 +1,53 @@
+import Image from 'next/image';
+
 export default function AboutSection() {
   return (
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl lg:text-4xl font-bold text-center mb-12">
             Why Choose TradeGo Fasteners?
           </h2>
+          
+          {/* 场景图片展示 */}
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
+            <div className="relative aspect-video rounded-lg overflow-hidden shadow-md">
+              <Image
+                src="/images/scenarios/factory-environment.jpg"
+                alt="Modern manufacturing facility"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 33vw"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                <p className="text-white font-semibold">Modern Manufacturing</p>
+              </div>
+            </div>
+            <div className="relative aspect-video rounded-lg overflow-hidden shadow-md">
+              <Image
+                src="/images/scenarios/quality-control.jpg"
+                alt="Quality control inspection"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 33vw"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                <p className="text-white font-semibold">Quality Control</p>
+              </div>
+            </div>
+            <div className="relative aspect-video rounded-lg overflow-hidden shadow-md">
+              <Image
+                src="/images/scenarios/warehouse-management.jpg"
+                alt="Warehouse storage facility"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 33vw"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                <p className="text-white font-semibold">Global Warehouse</p>
+              </div>
+            </div>
+          </div>
           
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="text-center">
@@ -23,7 +65,7 @@ export default function AboutSection() {
             <div className="text-center">
               <div className="w-16 h-16 bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0 3-4.03 3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-2">Global Delivery</h3>

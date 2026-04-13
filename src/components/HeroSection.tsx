@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function HeroSection() {
@@ -46,8 +47,14 @@ export default function HeroSection() {
               <h3 className="text-2xl font-bold mb-4">Featured Products</h3>
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center text-blue-900 font-bold">
-                    D
+                  <div className="w-12 h-12 bg-yellow-400 rounded-lg overflow-hidden flex-shrink-0">
+                    <Image
+                      src="/images/products/drywall-screws-1.jpg"
+                      alt="Drywall Screws"
+                      width={48}
+                      height={48}
+                      className="object-cover"
+                    />
                   </div>
                   <div>
                     <h4 className="font-semibold">Drywall Screws</h4>
@@ -55,8 +62,14 @@ export default function HeroSection() {
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center text-blue-900 font-bold">
-                    S
+                  <div className="w-12 h-12 bg-yellow-400 rounded-lg overflow-hidden flex-shrink-0">
+                    <Image
+                      src="/images/products/self-drilling-screws-1.jpg"
+                      alt="Self-Drilling Screws"
+                      width={48}
+                      height={48}
+                      className="object-cover"
+                    />
                   </div>
                   <div>
                     <h4 className="font-semibold">Self-Drilling Screws</h4>
@@ -64,8 +77,14 @@ export default function HeroSection() {
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center text-blue-900 font-bold">
-                    B
+                  <div className="w-12 h-12 bg-yellow-400 rounded-lg overflow-hidden flex-shrink-0">
+                    <Image
+                      src="/images/products/bolts-nuts-1.jpg"
+                      alt="Bolts & Nuts"
+                      width={48}
+                      height={48}
+                      className="object-cover"
+                    />
                   </div>
                   <div>
                     <h4 className="font-semibold">Bolts & Nuts</h4>

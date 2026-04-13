@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Script from 'next/script';
 import Link from 'next/link';
 
@@ -11,7 +12,7 @@ const products = [
     coating: 'Phosphate, Zinc Plated',
     sizeRange: '3.5mm - 4.8mm diameter, 25mm - 100mm length',
     applications: ['Interior walls', 'Ceiling installation', 'Drywall to wood studs', 'Drywall to metal studs'],
-    image: '/products/drywall-screws.jpg',
+    image: '/images/products/drywall-screws-1.jpg',
     priceRange: '$0.50 - $2.00 per kg'
   },
   {
@@ -22,7 +23,7 @@ const products = [
     coating: 'Zinc Plated, Ruspert, Dacromet',
     sizeRange: '3.5mm - 6.3mm diameter, 19mm - 150mm length',
     applications: ['Metal roofing', 'Steel frame construction', 'HVAC ductwork', 'Automotive panels'],
-    image: '/products/self-drilling-screws.jpg',
+    image: '/images/products/self-drilling-screws-1.jpg',
     priceRange: '$1.00 - $3.50 per kg'
   },
   {
@@ -33,7 +34,7 @@ const products = [
     coating: 'Zinc Plated, Hot Dipped Galvanized, Black Oxide',
     sizeRange: 'M6 - M30 diameter, various lengths',
     applications: ['Construction', 'Machinery assembly', 'Automotive', 'Infrastructure projects'],
-    image: '/products/bolts-nuts.jpg',
+    image: '/images/products/bolts-nuts-1.jpg',
     priceRange: '$1.50 - $8.00 per kg'
   },
   {
@@ -44,7 +45,7 @@ const products = [
     coating: 'Galvanized',
     sizeRange: 'Various sizes available',
     applications: ['IBR roof sheeting', 'Corrugated roofing', 'Industrial roofing', 'Agricultural structures'],
-    image: '/products/ibr-nails.jpg',
+    image: '/images/products/ibr-nails-placeholder.jpg',
     priceRange: '$0.80 - $2.50 per kg'
   }
 ];
@@ -118,10 +119,14 @@ export default function ProductGrid() {
                 itemScope
                 itemType="https://schema.org/Product"
               >
-                <div className="aspect-square bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
-                  <span className="text-6xl font-bold text-gray-400">
-                    {product.name.charAt(0)}
-                  </span>
+                <div className="aspect-square bg-gradient-to-br from-gray-200 to-gray-300 relative overflow-hidden">
+                  <Image
+                    src={product.image}
+                    alt={product.name}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                  />
                 </div>
                 
                 <div className="p-6">
