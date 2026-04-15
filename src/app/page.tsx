@@ -33,9 +33,9 @@ const generateSEOData = () => {
         "contactPoint": [
           {
             "@type": "ContactPoint",
-            "telephone": "+86-21-1234-5678",
+            "telephone": "+86-135-6265-9951",
             "contactType": "sales",
-            "email": "sales@tradegofasteners.com",
+            "email": "aimingtrade@hotmail.com",
             "availableLanguage": ["English", "Chinese"]
           }
         ],

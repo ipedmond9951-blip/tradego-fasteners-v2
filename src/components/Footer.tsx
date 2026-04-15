@@ -12,8 +12,8 @@ export default function Footer() {
               Professional fastener manufacturer and supplier specializing in quality fasteners for global markets.
             </p>
             <div className="space-y-2 text-sm text-gray-400">
-              <p>📧 info@tradegofasteners.com</p>
-              <p>📞 +86-596-3409951</p>
+              <p>📧 aimingtrade@hotmail.com</p>
+              <p>📞 +86-135-6265-9951 | +86-159-6340-9951</p>
               <p>📍 Weifang, China</p>
             </div>
           </div>
