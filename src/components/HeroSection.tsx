@@ -1,6 +1,13 @@
+import Image from 'next/image'
 import { type Locale, t } from '@/i18n'
 
 interface HeroSectionProps { locale?: Locale }
+
+const heroProducts = [
+  { key: 'product1', src: '/images/products/drywall-screws-1.jpg', altEn: 'Drywall Screws' },
+  { key: 'product2', src: '/images/products/self-drilling-screws-1.jpg', altEn: 'Self-Drilling Screws' },
+  { key: 'product3', src: '/images/products/bolts-nuts-1.jpg', altEn: 'Bolts & Nuts' },
+]
 
 export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
   return (
@@ -31,13 +38,18 @@ export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
           </div>
         </div>
 
-        {/* Featured Products */}
+        {/* Featured Products with real images */}
         <div className="mt-16 grid md:grid-cols-3 gap-6">
           <h3 className="col-span-full text-xl font-semibold text-blue-200">{t(locale, 'hero.featured')}</h3>
-          {(['product1', 'product2', 'product3'] as const).map((p, i) => (
-            <div key={i} className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
-              <h4 className="font-semibold">{t(locale, `hero.${p}_name`)}</h4>
-              <p className="text-sm text-blue-200">{t(locale, `hero.${p}_desc`)}</p>
+          {heroProducts.map((p, i) => (
+            <div key={i} className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 flex items-center gap-3">
+              <div className="w-16 h-16 bg-yellow-400 rounded-lg overflow-hidden flex-shrink-0">
+                <Image src={p.src} alt={t(locale, `hero.${p.key}_name`)} width={64} height={64} className="object-cover w-full h-full" />
+              </div>
+              <div>
+                <h4 className="font-semibold text-sm">{t(locale, `hero.${p.key}_name`)}</h4>
+                <p className="text-xs text-blue-200">{t(locale, `hero.${p.key}_desc`)}</p>
+              </div>
             </div>
           ))}
         </div>

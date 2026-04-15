@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { type Locale, t } from '@/i18n'
 import { useCurrency } from '@/contexts/CurrencyContext'
 
@@ -8,7 +9,7 @@ interface ProductGridProps { locale?: Locale }
 const products = [
   {
     slug: 'drywall-screws',
-    image: '/images/drywall-screws.jpg',
+    image: '/images/products/drywall-screws-2.jpg',
     pricePerPiece: 0.02,
     nameKey: 'drywall',
     specs: { size: '3.5-4.8mm × 25-100mm', standard: 'DIN 7505 / GB/T 15856' },
@@ -16,7 +17,7 @@ const products = [
   },
   {
     slug: 'self-drilling-screws',
-    image: '/images/self-drilling-screws.jpg',
+    image: '/images/products/self-drilling-screws-1.jpg',
     pricePerPiece: 0.03,
     nameKey: 'selfdrilling',
     specs: { size: '4.2-6.3mm × 19-150mm', standard: 'DIN 7504 / ANSI' },
@@ -24,7 +25,7 @@ const products = [
   },
   {
     slug: 'bolts-nuts',
-    image: '/images/bolts-nuts.jpg',
+    image: '/images/products/bolts-nuts-2.jpg',
     pricePerPiece: 0.05,
     nameKey: 'bolts',
     specs: { size: 'M5-M30 × 20-300mm', standard: 'DIN 933/934 / ISO 4014' },
@@ -32,7 +33,7 @@ const products = [
   },
   {
     slug: 'ibr-nails',
-    image: '/images/ibr-nails.jpg',
+    image: '/images/products/ibr-nails-placeholder.jpg',
     pricePerPiece: 0.01,
     nameKey: 'ibr',
     specs: { size: '2.5-4.0mm × 30-100mm', standard: 'SABS 1195' },
@@ -119,8 +120,8 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
             const text = texts[product.nameKey] || productText.en[product.nameKey]
             return (
               <div key={product.slug} className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow">
-                <div className="relative h-48 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
-                  <span className="text-6xl opacity-30">🔩</span>
+                <div className="relative h-48 bg-gradient-to-br from-gray-100 to-gray-200">
+                  <Image src={product.image} alt={text.name} fill className="object-cover" sizes="(max-width: 768px) 100vw, 25vw" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-lg font-bold text-blue-900 mb-2">{text.name}</h3>

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { type Locale, t } from '@/i18n'
 
 interface AboutSectionProps { locale?: Locale }
@@ -11,9 +12,9 @@ export default function AboutSection({ locale = 'en' }: AboutSectionProps) {
   ]
 
   const scenes = [
-    { key: 'manufacturing', img: 'https://images.unsplash.com/photo-1565043666747-69f6646db940?w=400&h=300&fit=crop' },
-    { key: 'quality', img: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=300&fit=crop' },
-    { key: 'logistics', img: 'https://images.unsplash.com/photo-1494412574643-ff11b0a5eb19?w=400&h=300&fit=crop' },
+    { key: 'manufacturing', src: '/images/scenarios/factory-environment.jpg' },
+    { key: 'quality', src: '/images/scenarios/quality-control.jpg' },
+    { key: 'logistics', src: '/images/scenarios/warehouse-management.jpg' },
   ]
 
   return (
@@ -34,11 +35,13 @@ export default function AboutSection({ locale = 'en' }: AboutSectionProps) {
 
           <div className="grid md:grid-cols-3 gap-8">
             {scenes.map((scene) => (
-              <div key={scene.key} className="relative rounded-xl overflow-hidden shadow-lg group">
-                <img
-                  src={scene.img}
+              <div key={scene.key} className="relative aspect-video rounded-xl overflow-hidden shadow-lg group">
+                <Image
+                  src={scene.src}
                   alt={t(locale, `about.${scene.key}Alt`)}
-                  className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  sizes="(max-width: 768px) 100vw, 33vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
                   <p className="text-white font-semibold">{t(locale, `about.${scene.key}`)}</p>
