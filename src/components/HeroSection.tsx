@@ -18,51 +18,30 @@ export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        {/* Top: Text + CTA */}
-        <div className="flex flex-col lg:flex-row items-center gap-12 py-16 lg:py-20">
-          {/* Left: Copy */}
-          <div className="flex-1 max-w-xl">
-            <div className="flex flex-wrap items-center gap-3 mb-6">
-              <span className="bg-white/15 backdrop-blur-sm text-blue-100 px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">{t(locale, 'hero.iso')}</span>
-              <span className="bg-white/15 backdrop-blur-sm text-blue-100 px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">{t(locale, 'hero.global')}</span>
-              <span className="bg-white/15 backdrop-blur-sm text-blue-100 px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">{t(locale, 'hero.experience')}</span>
-            </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-5 leading-tight tracking-tight">
-              {t(locale, 'hero.title')}
-            </h1>
-            <p className="text-lg md:text-xl text-blue-100/90 mb-8 leading-relaxed">
-              {t(locale, 'hero.subtitle')}
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <a href={`/${locale}#inquiry`} className="inline-flex items-center bg-white text-blue-900 px-7 py-3.5 rounded-xl font-bold text-base hover:bg-blue-50 transition-all shadow-lg shadow-black/10 hover:shadow-xl hover:-translate-y-0.5">
-                {t(locale, 'hero.cta')} →
-              </a>
-              <a href={`/${locale}#products`} className="inline-flex items-center border-2 border-white/40 text-white px-7 py-3.5 rounded-xl font-bold text-base hover:bg-white/10 transition-all hover:border-white/60">
-                {t(locale, 'hero.ctaSecondary')}
-              </a>
-            </div>
+        {/* Centered Hero Text */}
+        <div className="text-center max-w-3xl mx-auto py-16 lg:py-20">
+          <div className="flex flex-wrap items-center justify-center gap-3 mb-6">
+            <span className="bg-white/15 backdrop-blur-sm text-blue-100 px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">{t(locale, 'hero.iso')}</span>
+            <span className="bg-white/15 backdrop-blur-sm text-blue-100 px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">{t(locale, 'hero.global')}</span>
+            <span className="bg-white/15 backdrop-blur-sm text-blue-100 px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">{t(locale, 'hero.experience')}</span>
           </div>
-
-          {/* Right: Hero Product Image */}
-          <div className="flex-1 relative hidden lg:block">
-            <div className="relative w-full aspect-square max-w-md mx-auto">
-              {/* Glow effect */}
-              <div className="absolute -inset-8 bg-gradient-to-r from-yellow-400/20 to-orange-400/20 rounded-full blur-3xl"></div>
-              <div className="relative bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20">
-                <Image
-                  src="/images/products/drywall-screws-2.jpg"
-                  alt={t(locale, 'hero.product1_name')}
-                  fill
-                  className="object-contain drop-shadow-2xl"
-                  sizes="(max-width: 1024px) 50vw, 45vw"
-                  priority
-                />
-              </div>
-            </div>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-5 leading-tight tracking-tight">
+            {t(locale, 'hero.title')}
+          </h1>
+          <p className="text-lg md:text-xl text-blue-100/90 mb-8 leading-relaxed max-w-2xl mx-auto">
+            {t(locale, 'hero.subtitle')}
+          </p>
+          <div className="flex items-center justify-center gap-4">
+            <a href={`/${locale}#inquiry`} className="inline-flex items-center bg-white text-blue-900 px-7 py-3.5 rounded-xl font-bold text-base hover:bg-blue-50 transition-all shadow-lg shadow-black/10 hover:shadow-xl hover:-translate-y-0.5">
+              {t(locale, 'hero.cta')} →
+            </a>
+            <a href={`/${locale}#products`} className="inline-flex items-center border-2 border-white/40 text-white px-7 py-3.5 rounded-xl font-bold text-base hover:bg-white/10 transition-all hover:border-white/60">
+              {t(locale, 'hero.ctaSecondary')}
+            </a>
           </div>
         </div>
 
-        {/* Bottom: Featured Products — Large Cards */}
+        {/* Featured Products — Large Cards */}
         <div className="pb-16 lg:pb-20">
           <h3 className="text-sm font-semibold uppercase tracking-widest text-blue-200/80 mb-6">{t(locale, 'hero.featured')}</h3>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
