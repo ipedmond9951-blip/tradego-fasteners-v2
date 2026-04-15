@@ -10,10 +10,14 @@ export const metadata: Metadata = {
   },
   description: 'TradeGo Fasteners is a leading manufacturer specializing in drywall screws, self-drilling screws, bolts, nuts, and IBR nails. 20+ years experience, ISO 9001 certified, global delivery.',
   keywords: ['fastener manufacturer', 'drywall screws', 'self-drilling screws', 'bolts', 'nuts', 'IBR nails', 'wholesale fasteners'],
-  metadataBase: new URL('https://tradego-fasteners.vercel.app'),
+  metadataBase: new URL('https://tradego-fasteners-h3wb.vercel.app'),
   alternates: {
     canonical: '/',
   },
+  verification: {
+    google: 'google-site-verification-code',
+  },
+  category: 'Industrial Manufacturing',
 };
 
 export default function RootLayout({

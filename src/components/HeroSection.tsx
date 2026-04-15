@@ -7,7 +7,7 @@ export default function HeroSection() {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
+            <h1 id="hero-title" className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
               Leading <span className="text-yellow-400">Fastener</span> Manufacturer
             </h1>
             <p className="text-xl lg:text-2xl mb-8 text-blue-100">
