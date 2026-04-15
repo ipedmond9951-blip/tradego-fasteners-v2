@@ -77,8 +77,8 @@ const generateProductSchema = (product: typeof products[0], locale: Locale) => {
   return {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": product.name[locale] || product.name.en,
-    "description": product.description[locale] || product.description.en,
+    "name": (product.name as Record<string,string>)[locale] || product.name.en,
+    "description": (product.description as Record<string,string>)[locale] || product.description.en,
     "image": `${BASE_URL}${product.image}`,
     "brand": { "@type": "Brand", "name": "TradeGo Fasteners" },
     "manufacturer": { "@type": "Organization", "name": "TradeGo Fasteners" },
@@ -129,7 +129,7 @@ export default function ProductGrid({ locale, messages }: ProductGridProps) {
                 <div className="aspect-square bg-gradient-to-br from-gray-200 to-gray-300 relative overflow-hidden">
                   <Image
                     src={product.image}
-                    alt={product.name[locale] || product.name.en}
+                    alt={(product.name as Record<string,string>)[locale] || product.name.en}
                     fill
                     className="object-cover"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
@@ -138,17 +138,17 @@ export default function ProductGrid({ locale, messages }: ProductGridProps) {
                 
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-2" itemProp="name">
-                    {product.name[locale] || product.name.en}
+                    {(product.name as Record<string,string>)[locale] || product.name.en}
                   </h3>
                   
                   <p className="text-gray-600 text-sm mb-4 line-clamp-3" itemProp="description">
-                    {product.description[locale] || product.description.en}
+                    {(product.description as Record<string,string>)[locale] || product.description.en}
                   </p>
                   
                   <div className="space-y-2 text-sm text-gray-600 mb-4">
                     <div className="flex items-start gap-2">
                       <span className="font-semibold min-w-[80px]">{locale === 'zh' ? '材质:' : 'Material:'}</span>
-                      <span>{product.material[locale] || product.material.en}</span>
+                      <span>{(product.material as Record<string,string>)[locale] || product.material.en}</span>
                     </div>
                     <div className="flex items-start gap-2">
                       <span className="font-semibold min-w-[80px]">{locale === 'zh' ? '规格:' : 'Size:'}</span>

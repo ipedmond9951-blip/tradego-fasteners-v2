@@ -6,7 +6,7 @@ interface AboutSectionProps {
   messages?: Record<string, unknown>;
 }
 
-const aboutText: Record<Locale, Record<string, string>> = {
+const aboutText: Partial<Record<Locale, Record<string, string>>> = {
   en: {
     title: 'Why Choose TradeGo Fasteners?',
     experience: '20+ Years Experience',
@@ -32,7 +32,7 @@ const aboutText: Record<Locale, Record<string, string>> = {
 };
 
 export default function AboutSection({ locale, messages }: AboutSectionProps) {
-  const t = aboutText[locale] || aboutText.en;
+  const t = aboutText[locale] || aboutText.en!;
 
   return (
     <section id="about-section" className="py-16 bg-gray-50">

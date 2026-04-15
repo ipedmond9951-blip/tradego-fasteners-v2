@@ -9,7 +9,7 @@ interface InquiryFormProps {
   productId?: string;
 }
 
-const labels: Record<Locale, Record<string, string>> = {
+const labels: Partial<Record<Locale, Record<string, string>>> = {
   en: {
     title: 'Request a Quote',
     name: 'Your Name',
@@ -44,7 +44,7 @@ const labels: Record<Locale, Record<string, string>> = {
 
 export default function InquiryForm({ locale = 'en', productId }: InquiryFormProps) {
   const { country } = useGeo();
-  const t = labels[locale] || labels.en;
+  const t = labels[locale] || labels.en!;
   
   const [form, setForm] = useState({
     name: '',

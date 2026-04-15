@@ -7,7 +7,7 @@ interface FAQSectionProps {
 }
 
 // FAQ data with translations
-const faqData: Record<Locale, Array<{ question: string; answer: string }>> = {
+const faqData: Partial<Record<Locale, Array<{ question: string; answer: string }>>> = {
   en: [
     {
       question: "What is a drywall screw and what is it used for?",
@@ -79,7 +79,7 @@ const faqData: Record<Locale, Array<{ question: string; answer: string }>> = {
 };
 
 // Generate FAQ Schema
-const generateFAQSchema = (faqs: typeof faqData.en) => {
+const generateFAQSchema = (faqs: Array<{ question: string; answer: string }>) => {
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -95,7 +95,7 @@ const generateFAQSchema = (faqs: typeof faqData.en) => {
 };
 
 export default function FAQSection({ locale }: FAQSectionProps) {
-  const faqs = faqData[locale] || faqData.en;
+  const faqs = (faqData[locale] || faqData.en) as Array<{ question: string; answer: string }>; 
   const title = locale === 'zh' ? '常见问题' : 'Frequently Asked Questions';
   const subtitle = locale === 'zh' 
     ? '查找关于我们紧固件和服务的常见问题解答' 

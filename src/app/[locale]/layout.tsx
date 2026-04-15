@@ -53,6 +53,14 @@ export default async function LocaleLayout({
         <meta name="theme-color" content="#1e3a8a" />
         <link rel="alternate" hrefLang="en" href="/en" />
         <link rel="alternate" hrefLang="zh" href="/zh" />
+        <link rel="alternate" hrefLang="es" href="/es" />
+        <link rel="alternate" hrefLang="ar" href="/ar" />
+        <link rel="alternate" hrefLang="fr" href="/fr" />
+        <link rel="alternate" hrefLang="pt" href="/pt" />
+        <link rel="alternate" hrefLang="ru" href="/ru" />
+        <link rel="alternate" hrefLang="ja" href="/ja" />
+        <link rel="alternate" hrefLang="de" href="/de" />
+        <link rel="alternate" hrefLang="hi" href="/hi" />
         <link rel="alternate" hrefLang="x-default" href="/en" />
       </head>
       <body className="antialiased">

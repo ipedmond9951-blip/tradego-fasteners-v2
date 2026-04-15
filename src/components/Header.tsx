@@ -9,13 +9,13 @@ interface HeaderProps {
   locale?: Locale;
 }
 
-const navText: Record<Locale, Record<string, string>> = {
+const navText: Partial<Record<Locale, Record<string, string>>> = {
   en: { home: 'Home', products: 'Products', faq: 'FAQ', about: 'About Us', contact: 'Get a Quote' },
   zh: { home: '首页', products: '产品', faq: '常见问题', about: '关于我们', contact: '获取报价' },
 };
 
 export default function Header({ locale = 'en' }: HeaderProps) {
-  const t = navText[locale] || navText.en;
+  const t = navText[locale] || navText.en || {};
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">

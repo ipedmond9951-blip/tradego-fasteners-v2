@@ -14,78 +14,35 @@
   },
   "products": {
     "title": "Our Products",
-    "subtitle": "High-quality fasteners for construction, industrial, and manufacturing applications",
-    "drywall_screws": {
-      "name": "Drywall Screws",
-      "desc": "Bugle head drywall screws for gypsum board installation. Coarse and fine thread options."
-    },
-    "self_drilling_screws": {
-      "name": "Self-Drilling Screws",
-      "desc": "Drill point screws for metal-to-metal applications. No pre-drilling required."
-    },
-    "bolts": {
-      "name": "Bolts",
-      "desc": "Hex bolts, carriage bolts, and flange bolts in various materials and grades."
-    },
-    "nuts": {
-      "name": "Nuts",
-      "desc": "Hex nuts, lock nuts, and flange nuts. Standard and custom specifications."
-    },
-    "ibr_nails": {
-      "name": "IBR Nails",
-      "desc": "Roofing nails for IBR and corrugated steel sheet fixing. Hot-dip galvanized."
-    },
+    "subtitle": "High-quality fasteners for construction and industrial applications",
     "inquiry": "Inquire Now"
   },
   "about": {
     "title": "Why Choose TradeGo Fasteners?",
-    "experience": "20+ Years",
-    "experienceDesc": "Manufacturing experience since 2004",
+    "experience": "20+ Years Experience",
     "certification": "ISO 9001:2015",
-    "certificationDesc": "Certified quality management system",
     "global": "50+ Countries",
-    "globalDesc": "Products exported worldwide",
-    "moq": "Low MOQ",
-    "moqDesc": "Flexible minimum order quantities"
-  },
-  "faq": {
-    "title": "Frequently Asked Questions",
-    "q1": { "q": "What is the minimum order quantity?", "a": "MOQ varies by product, typically 500kg for standard items. Custom orders may have higher MOQs." },
-    "q2": { "q": "What materials do you offer?", "a": "Carbon steel, stainless steel (304/316), and alloy steel. Various coatings: zinc-plated, galvanized, black oxide, and dacromet." },
-    "q3": { "q": "What standards do your products follow?", "a": "DIN, ANSI, JIS, GB, and ISO standards. Custom specifications are also available." },
-    "q4": { "q": "How long is the lead time?", "a": "Standard items: 15-20 days. Custom orders: 25-35 days depending on specifications." },
-    "q5": { "q": "Do you provide samples?", "a": "Yes, free samples are available for standard items. Sample shipping cost is borne by the buyer." },
-    "q6": { "q": "What payment terms do you accept?", "a": "T/T, L/C at sight, and Western Union. 30% deposit, 70% before shipment for T/T." }
+    "moq": "Low MOQ"
   },
   "inquiry": {
-    "title": "Send an Inquiry",
+    "title": "Request a Quote",
     "name": "Your Name",
-    "email": "Email Address",
-    "company": "Company Name",
-    "products": "Products Interested In",
-    "quantity": "Estimated Quantity",
-    "message": "Additional Details",
-    "submit": "Submit Inquiry",
-    "success": "Thank you! We'll get back to you within 24 hours.",
-    "whatsapp": "Chat on WhatsApp"
+    "email": "Email",
+    "company": "Company",
+    "products": "Products",
+    "quantity": "Quantity",
+    "message": "Message",
+    "submit": "Submit",
+    "success": "Thank you! We'll contact you within 24 hours.",
+    "whatsapp": "WhatsApp"
   },
   "chat": {
     "title": "TradeGo Assistant",
     "placeholder": "Ask about our products...",
-    "greeting": "Hi! 👋 How can I help you with our fastener products today?"
-  },
-  "geo": {
-    "us": { "promotion": "Free shipping on orders over $500", "shipping": "Delivery in 7-10 business days via sea freight" },
-    "za": { "promotion": "Bulk discount for Africa market — up to 15% off", "shipping": "Sea freight to Durban, 25-30 days" },
-    "eu": { "promotion": "CE certified products available", "shipping": "Delivery to EU ports in 20-25 days" },
-    "cn": { "promotion": "", "shipping": "" },
-    "default": { "promotion": "Competitive pricing for bulk orders", "shipping": "Global delivery — contact us for details" }
+    "greeting": "Hi! How can I help you?"
   },
   "footer": {
     "rights": "All rights reserved.",
-    "contact": "Contact Us",
-    "email": "Email",
-    "phone": "Phone",
-    "address": "Address"
+    "contact": "Contact Us"
   }
 }
