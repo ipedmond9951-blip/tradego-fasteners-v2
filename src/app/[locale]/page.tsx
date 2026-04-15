@@ -5,6 +5,7 @@ import AboutSection from '@/components/AboutSection'
 import ProductGrid from '@/components/ProductGrid'
 import FAQSection from '@/components/FAQSection'
 import InquiryForm from '@/components/InquiryForm'
+import TeamCard from '@/components/TeamCard'
 import { GeoPromotion } from '@/components/GeoContent'
 
 export function generateStaticParams() {
@@ -53,6 +54,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
         <GeoPromotion />
       </div>
 
+      <TeamCard locale={locale} />
       <AboutSection locale={locale} />
       <ProductGrid locale={locale} />
       <FAQSection locale={locale} />
