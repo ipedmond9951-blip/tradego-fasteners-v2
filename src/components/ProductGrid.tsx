@@ -7,41 +7,16 @@ import { useCurrency } from '@/contexts/CurrencyContext'
 interface ProductGridProps { locale?: Locale }
 
 const products = [
-  {
-    slug: 'drywall-screws',
-    image: '/images/products/drywall-screws-2.jpg',
-    pricePerPiece: 0.02,
-    nameKey: 'drywall',
-    specs: { size: '3.5-4.8mm × 25-100mm', standard: 'DIN 7505 / GB/T 15856' },
-    features: ['Sharp point', 'Bugle head', 'Phosphate/Black oxide'],
-  },
-  {
-    slug: 'self-drilling-screws',
-    image: '/images/products/self-drilling-screws-1.jpg',
-    pricePerPiece: 0.03,
-    nameKey: 'selfdrilling',
-    specs: { size: '4.2-6.3mm × 19-150mm', standard: 'DIN 7504 / ANSI' },
-    features: ['DR point', 'Hex/Phillips drive', 'Zinc/Ruspert coating'],
-  },
-  {
-    slug: 'bolts-nuts',
-    image: '/images/products/bolts-nuts-2.jpg',
-    pricePerPiece: 0.05,
-    nameKey: 'bolts',
-    specs: { size: 'M5-M30 × 20-300mm', standard: 'DIN 933/934 / ISO 4014' },
-    features: ['Grade 4.8/8.8/10.9', 'Full/Partial thread', 'Zinc/HDG/Black'],
-  },
-  {
-    slug: 'ibr-nails',
-    image: '/images/products/ibr-nails-placeholder.jpg',
-    pricePerPiece: 0.01,
-    nameKey: 'ibr',
-    specs: { size: '2.5-4.0mm × 30-100mm', standard: 'SABS 1195' },
-    features: ['Umbrella head', 'Smooth/Ring shank', 'Electro galvanized'],
-  },
+  { slug: 'drywall-screws', image: '/images/products/drywall-screws-2.jpg', pricePerPiece: 0.02, nameKey: 'drywall',
+    specs: { size: '3.5-4.8mm × 25-100mm', standard: 'DIN 7505 / GB/T 15856' } },
+  { slug: 'self-drilling-screws', image: '/images/products/self-drilling-screws-1.jpg', pricePerPiece: 0.03, nameKey: 'selfdrilling',
+    specs: { size: '4.2-6.3mm × 19-150mm', standard: 'DIN 7504 / ANSI' } },
+  { slug: 'bolts-nuts', image: '/images/products/bolts-nuts-2.jpg', pricePerPiece: 0.05, nameKey: 'bolts',
+    specs: { size: 'M5-M30 × 20-300mm', standard: 'DIN 933/934 / ISO 4014' } },
+  { slug: 'ibr-nails', image: '/images/products/ibr-nails-placeholder.jpg', pricePerPiece: 0.01, nameKey: 'ibr',
+    specs: { size: '2.5-4.0mm × 30-100mm', standard: 'SABS 1195' } },
 ]
 
-// Product names/descriptions per locale
 const productText: Record<string, Record<string, { name: string; desc: string }>> = {
   en: {
     drywall: { name: 'Drywall Screws', desc: 'Premium bugle head screws for drywall installation' },
@@ -110,31 +85,37 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
   const texts = productText[locale] || productText.en
 
   return (
-    <section id="products" className="py-20">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl lg:text-4xl font-bold text-center mb-4">{t(locale, 'products.title')}</h2>
-        <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">{t(locale, 'products.subtitle')}</p>
+    <section id="products" className="py-12 md:py-16 lg:py-20">
+      <div className="container mx-auto px-4 sm:px-6">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-3 md:mb-4">{t(locale, 'products.title')}</h2>
+        <p className="text-gray-600 text-center mb-8 md:mb-12 max-w-2xl mx-auto text-sm md:text-base">{t(locale, 'products.subtitle')}</p>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {/* Responsive grid: 1col sm → 2col md → 4col lg */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-8">
           {products.map((product) => {
             const text = texts[product.nameKey] || productText.en[product.nameKey]
             return (
-              <div key={product.slug} className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow">
-                <div className="relative h-48 bg-gradient-to-br from-gray-100 to-gray-200">
-                  <Image src={product.image} alt={text.name} fill className="object-cover" sizes="(max-width: 768px) 100vw, 25vw" />
+              <div key={product.slug} className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow flex flex-col">
+                {/* Image */}
+                <div className="relative h-40 sm:h-48 lg:h-52 bg-gradient-to-br from-gray-100 to-gray-200">
+                  <Image src={product.image} alt={text.name} fill className="object-cover" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" />
                 </div>
-                <div className="p-6">
-                  <h3 className="text-lg font-bold text-blue-900 mb-2">{text.name}</h3>
-                  <p className="text-gray-600 text-sm mb-4">{text.desc}</p>
-                  <div className="space-y-2 text-sm">
-                    <div className="flex justify-between"><span className="text-gray-500">{t(locale, 'products.specification')}:</span><span className="font-medium">{product.specs.size}</span></div>
-                    <div className="flex justify-between"><span className="text-gray-500">{t(locale, 'products.standard')}:</span><span className="font-medium text-xs">{product.specs.standard}</span></div>
+                
+                {/* Content */}
+                <div className="flex-1 p-4 md:p-6 flex flex-col">
+                  <h3 className="font-bold text-blue-900 text-sm md:text-base lg:text-lg mb-1">{text.name}</h3>
+                  <p className="text-gray-600 text-xs md:text-sm mb-3 line-clamp-2">{text.desc}</p>
+                  
+                  <div className="space-y-1.5 text-xs md:text-sm mt-auto">
+                    <div className="flex justify-between"><span className="text-gray-500">{t(locale, 'products.specification')}:</span><span className="font-medium text-right truncate ml-2" title={product.specs.size}>{product.specs.size}</span></div>
+                    <div className="flex justify-between"><span className="text-gray-500">{t(locale, 'products.standard')}:</span><span className="font-medium text-right truncate ml-2">{product.specs.standard}</span></div>
                     <div className="flex justify-between"><span className="text-gray-500">{t(locale, 'products.moq')}:</span><span className="font-medium">1 {locale === 'zh' ? '吨' : 'ton'}</span></div>
                     <div className="flex justify-between"><span className="text-gray-500">{t(locale, 'products.lead')}:</span><span className="font-medium">15-20 {locale === 'zh' ? '天' : 'days'}</span></div>
                   </div>
-                  <div className="mt-4 flex items-center justify-between">
-                    <span className="text-blue-900 font-bold text-lg">{formatPrice(product.pricePerPiece)}{t(locale, 'products.piece')}</span>
-                    <a href={`/${locale}#inquiry`} className="bg-blue-900 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-800 transition-colors">
+                  
+                  <div className="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between gap-2">
+                    <span className="text-blue-900 font-bold text-sm md:text-base whitespace-nowrap">{formatPrice(product.pricePerPiece)}{t(locale, 'products.piece')}</span>
+                    <a href={`/${locale}#inquiry`} className="bg-blue-900 text-white px-3 md:px-4 py-1.5 md:py-2 rounded-lg text-xs md:text-sm font-semibold hover:bg-blue-800 transition-colors whitespace-nowrap">
                       {t(locale, 'products.inquiry')}
                     </a>
                   </div>
