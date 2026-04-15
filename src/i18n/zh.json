@@ -1,9 +1,104 @@
 {
-  "hero": { "title": "全球市场专业紧固件供应商", "subtitle": "从中国到世界的优质紧固件 — 20余年制造经验", "cta": "获取报价", "ctaSecondary": "查看产品" },
-  "nav": { "home": "首页", "products": "产品", "faq": "常见问题", "about": "关于我们", "contact": "获取报价" },
-  "products": { "title": "产品中心", "subtitle": "建筑和工业用高品质紧固件", "inquiry": "立即询价" },
-  "about": { "title": "为什么选择TradeGo？", "experience": "20年经验", "certification": "ISO 9001:2015", "global": "50+国家", "moq": "低起订量" },
-  "inquiry": { "title": "获取报价", "name": "姓名", "email": "邮箱", "company": "公司", "products": "产品", "quantity": "数量", "message": "留言", "submit": "提交", "success": "感谢！我们将在24小时内联系您。", "whatsapp": "WhatsApp" },
-  "chat": { "title": "TradeGo客服", "placeholder": "咨询产品...", "greeting": "您好！有什么可以帮您？" },
-  "footer": { "rights": "版权所有", "contact": "联系我们" }
+  "hero": {
+    "title": "全球市场专业紧固件供应商",
+    "subtitle": "从中国到世界的优质紧固件 — 20余年制造经验",
+    "cta": "获取报价",
+    "ctaSecondary": "查看产品",
+    "iso": "ISO 9001 认证",
+    "global": "全球发货",
+    "experience": "20年经验",
+    "featured": "热门产品",
+    "product1_name": "干壁钉",
+    "product1_desc": "建筑专用高品质",
+    "product2_name": "自钻螺丝",
+    "product2_desc": "高效钻探性能",
+    "product3_name": "螺栓螺母",
+    "product3_desc": "工业级紧固件"
+  },
+  "nav": {
+    "home": "首页",
+    "products": "产品",
+    "faq": "常见问题",
+    "about": "关于我们",
+    "contact": "获取报价"
+  },
+  "products": {
+    "title": "产品中心",
+    "subtitle": "建筑和工业用高品质紧固件",
+    "inquiry": "立即询价",
+    "material": "材质",
+    "specification": "规格",
+    "finish": "表面处理",
+    "standard": "标准",
+    "moq": "起订量",
+    "lead": "交货期",
+    "samples": "免费样品",
+    "custom": "可定制",
+    "piece": "/件"
+  },
+  "about": {
+    "title": "为什么选择TradeGo？",
+    "experience": "20年经验",
+    "experienceDesc": "二十年制造经验，成熟的质量控制体系",
+    "certification": "ISO 9001:2015",
+    "certificationDesc": "国际认证质量管理体系，确保一致标准",
+    "global": "50+国家",
+    "globalDesc": "六大洲买家信赖的紧固件供应商",
+    "moq": "低起订量",
+    "moqDesc": "灵活订单量，支持各种规模企业",
+    "manufacturing": "现代制造",
+    "manufacturingAlt": "现代制造设施",
+    "quality": "质量检测",
+    "qualityAlt": "质量检测实验室",
+    "logistics": "全球物流",
+    "logisticsAlt": "全球集装箱运输"
+  },
+  "faq": {
+    "title": "常见问题",
+    "subtitle": "查找关于我们紧固件和服务的常见问题解答",
+    "contact": "还有其他问题？我们的专家团队随时为您解答。",
+    "contactCta": "联系我们"
+  },
+  "inquiry": {
+    "title": "获取报价",
+    "subtitle": "填写下方表单，我们将在24小时内回复",
+    "name": "姓名",
+    "email": "邮箱",
+    "company": "公司名称",
+    "country": "国家",
+    "products": "感兴趣的产品",
+    "quantity": "预估数量",
+    "message": "补充说明",
+    "submit": "提交询价",
+    "success": "感谢！我们将在24小时内联系您。",
+    "whatsapp": "WhatsApp咨询",
+    "selectProduct": "请选择产品...",
+    "selectCountry": "请选择国家..."
+  },
+  "chat": {
+    "title": "TradeGo智能客服",
+    "online": "在线",
+    "openChat": "打开客服",
+    "typing": "正在输入...",
+    "placeholder": "输入消息...",
+    "send": "发送",
+    "greeting": "您好！有什么可以帮您了解我们的紧固件产品？"
+  },
+  "footer": {
+    "company": "TradeGo紧固件",
+    "companyDesc": "专业紧固件制造商和供应商，专注全球市场高品质紧固件。",
+    "quickLinks": "快速链接",
+    "contactUs": "联系我们",
+    "rights": "版权所有",
+    "address": "中国大陆",
+    "email": "info@tradegofasteners.com"
+  },
+  "geo": {
+    "usPromo": "订单满$500免运费",
+    "usShipping": "海运7-10个工作日",
+    "zaPromo": "非洲市场批量折扣 — 最高15%优惠",
+    "zaShipping": "海运至德班，25-30天",
+    "mePromo": "中东市场特价",
+    "meShipping": "海运至杰贝阿里，18-22天"
+  }
 }

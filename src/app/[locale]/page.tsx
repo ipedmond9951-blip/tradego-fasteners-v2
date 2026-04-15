@@ -38,29 +38,25 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
             },
             contactPoint: {
               '@type': 'ContactPoint',
-              telephone: '+86-135-6265-9951',
+              telephone: '+86-159-6340-9951',
               contactType: 'sales',
-              email: 'aimingtrade@hotmail.com',
-              availableLanguage: ['English', 'Chinese'],
+              email: 'info@tradegofasteners.com',
+              availableLanguage: ['English', 'Chinese', 'Spanish', 'Arabic', 'French', 'Portuguese', 'Russian', 'Japanese', 'German', 'Hindi'],
             },
           }),
         }}
       />
 
-      <HeroSection locale={locale} messages={msgs} />
+      <HeroSection locale={locale} />
 
       <div className="container mx-auto px-4">
         <GeoPromotion />
       </div>
 
-      <AboutSection locale={locale} messages={msgs} />
-      <ProductGrid locale={locale} messages={msgs} />
-      <FAQSection locale={locale} messages={msgs} />
-
-      {/* Inquiry Section */}
-      <div id="inquiry">
-        <InquiryForm locale={locale} />
-      </div>
+      <AboutSection locale={locale} />
+      <ProductGrid locale={locale} />
+      <FAQSection locale={locale} />
+      <InquiryForm locale={locale} />
     </>
   )
 }

@@ -1,124 +1,47 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import { type Locale, type Messages } from '@/i18n';
+import { type Locale, t } from '@/i18n'
 
-interface HeroSectionProps {
-  locale: Locale;
-  messages: Messages;
-}
+interface HeroSectionProps { locale?: Locale }
 
-export default function HeroSection({ locale, messages }: HeroSectionProps) {
-  const hero = messages.hero || {
-    title: 'Leading Fastener Manufacturer',
-    subtitle: '20+ years experience, ISO 9001 certified, global delivery',
-    cta: 'Get a Quote',
-    ctaSecondary: 'View Products',
-  };
-
+export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
   return (
-    <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-20">
-      <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <h1 id="hero-title" className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
-              {locale === 'zh' ? (
-                <>
-                  <span className="text-yellow-400">专业紧固件</span>制造商
-                </>
-              ) : (
-                <>
-                  Leading <span className="text-yellow-400">Fastener</span> Manufacturer
-                </>
-              )}
-            </h1>
-            <p className="text-xl lg:text-2xl mb-8 text-blue-100">
-              {hero.subtitle}
-            </p>
-            <div className="flex flex-wrap gap-4 mb-8">
-              <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                <span className="text-sm">ISO 9001 {locale === 'zh' ? '认证' : 'Certified'}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                <span className="text-sm">{locale === 'zh' ? '全球发货' : 'Global Delivery'}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                <span className="text-sm">{locale === 'zh' ? '20年经验' : '20+ Years Experience'}</span>
-              </div>
-            </div>
-            <div className="flex gap-4">
-              <Link href={`/${locale}/contact`} className="bg-yellow-400 text-blue-900 px-8 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition-colors">
-                {hero.cta}
-              </Link>
-              <Link href={`/${locale}#products`} className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-900 transition-colors">
-                {hero.ctaSecondary}
-              </Link>
-            </div>
+    <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white">
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute inset-0" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")' }}></div>
+      </div>
+      <div className="container mx-auto px-4 py-20 relative z-10">
+        <div className="max-w-4xl">
+          <div className="flex items-center gap-4 mb-6">
+            <span className="bg-blue-600/50 text-blue-100 px-3 py-1 rounded-full text-sm font-medium">{t(locale, 'hero.iso')}</span>
+            <span className="bg-blue-600/50 text-blue-100 px-3 py-1 rounded-full text-sm font-medium">{t(locale, 'hero.global')}</span>
+            <span className="bg-blue-600/50 text-blue-100 px-3 py-1 rounded-full text-sm font-medium">{t(locale, 'hero.experience')}</span>
           </div>
-          <div className="relative">
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
-              <h3 className="text-2xl font-bold mb-4">
-                {locale === 'zh' ? '热门产品' : 'Featured Products'}
-              </h3>
-              <div className="space-y-3">
-                <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 bg-yellow-400 rounded-lg overflow-hidden flex-shrink-0">
-                    <Image
-                      src="/images/products/drywall-screws-1.jpg"
-                      alt="Drywall Screws"
-                      width={48}
-                      height={48}
-                      className="object-cover"
-                    />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold">{locale === 'zh' ? '干壁钉' : 'Drywall Screws'}</h4>
-                    <p className="text-sm text-blue-200">{locale === 'zh' ? '建筑专用' : 'Premium quality for construction'}</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 bg-yellow-400 rounded-lg overflow-hidden flex-shrink-0">
-                    <Image
-                      src="/images/products/self-drilling-screws-1.jpg"
-                      alt="Self-Drilling Screws"
-                      width={48}
-                      height={48}
-                      className="object-cover"
-                    />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold">{locale === 'zh' ? '自钻螺丝' : 'Self-Drilling Screws'}</h4>
-                    <p className="text-sm text-blue-200">{locale === 'zh' ? '高效钻探' : 'High performance drilling'}</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 bg-yellow-400 rounded-lg overflow-hidden flex-shrink-0">
-                    <Image
-                      src="/images/products/bolts-nuts-1.jpg"
-                      alt="Bolts & Nuts"
-                      width={48}
-                      height={48}
-                      className="object-cover"
-                    />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold">{locale === 'zh' ? '螺栓螺母' : 'Bolts & Nuts'}</h4>
-                    <p className="text-sm text-blue-200">{locale === 'zh' ? '工业级' : 'Industrial grade fasteners'}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+            {t(locale, 'hero.title')}
+          </h1>
+          <p className="text-xl text-blue-100 mb-8 max-w-2xl">
+            {t(locale, 'hero.subtitle')}
+          </p>
+          <div className="flex flex-wrap gap-4">
+            <a href={`/${locale}#inquiry`} className="bg-white text-blue-900 px-8 py-3 rounded-lg font-bold text-lg hover:bg-blue-50 transition-colors shadow-lg">
+              {t(locale, 'hero.cta')}
+            </a>
+            <a href={`/${locale}#products`} className="border-2 border-white text-white px-8 py-3 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors">
+              {t(locale, 'hero.ctaSecondary')}
+            </a>
           </div>
+        </div>
+
+        {/* Featured Products */}
+        <div className="mt-16 grid md:grid-cols-3 gap-6">
+          <h3 className="col-span-full text-xl font-semibold text-blue-200">{t(locale, 'hero.featured')}</h3>
+          {(['product1', 'product2', 'product3'] as const).map((p, i) => (
+            <div key={i} className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
+              <h4 className="font-semibold">{t(locale, `hero.${p}_name`)}</h4>
+              <p className="text-sm text-blue-200">{t(locale, `hero.${p}_desc`)}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
-  );
+  )
 }

@@ -1,160 +1,91 @@
-'use client';
+'use client'
 
-import { useState, useRef, useEffect } from 'react';
-import { type Locale } from '@/i18n';
+import { useState, useRef, useEffect } from 'react'
+import { type Locale, t } from '@/i18n'
 
-interface Message {
-  role: 'user' | 'assistant';
-  content: string;
-}
-
-interface AIChatWidgetProps {
-  locale?: Locale;
-}
-
-const placeholderResponses: Record<string, string> = {
-  en: "Thanks for your question! I'll connect you with our sales team shortly. In the meantime, you can reach us at aimingtrade@hotmail.com or WhatsApp: +86-135-6265-9951",
-  zh: "感谢您的咨询！我将尽快为您连接销售团队。您也可以直接联系我们：aimingtrade@hotmail.com 或 WhatsApp: +86-135-6265-9951",
-};
+interface AIChatWidgetProps { locale?: Locale }
 
 export default function AIChatWidget({ locale = 'en' }: AIChatWidgetProps) {
-  const [isOpen, setIsOpen] = useState(false);
-  const [messages, setMessages] = useState<Message[]>([]);
-  const [input, setInput] = useState('');
-  const [isLoading, setIsLoading] = useState(false);
-  const messagesEndRef = useRef<HTMLDivElement>(null);
-
-  const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  };
+  const [isOpen, setIsOpen] = useState(false)
+  const [messages, setMessages] = useState<{ role: string; content: string }[]>([])
+  const [input, setInput] = useState('')
+  const [loading, setLoading] = useState(false)
+  const chatRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    scrollToBottom();
-  }, [messages]);
+    if (chatRef.current) chatRef.current.scrollTop = chatRef.current.scrollHeight
+  }, [messages])
 
-  // Initial greeting
   useEffect(() => {
     if (isOpen && messages.length === 0) {
-      const greeting = locale === 'zh' 
-        ? '您好！我是TradeGo智能客服，有什么可以帮您的？'
-        : 'Hello! I\'m TradeGo AI assistant. How can I help you?';
-      setMessages([{ role: 'assistant', content: greeting }]);
+      setMessages([{ role: 'assistant', content: t(locale, 'chat.greeting') }])
     }
-  }, [isOpen, locale]);
+  }, [isOpen, locale])
 
-  const handleSend = async () => {
-    if (!input.trim()) return;
-    
-    const userMessage = input.trim();
-    setInput('');
-    setMessages(prev => [...prev, { role: 'user', content: userMessage }]);
-    setIsLoading(true);
-
+  const sendMessage = async () => {
+    if (!input.trim() || loading) return
+    const userMsg = input.trim()
+    setInput('')
+    setMessages(prev => [...prev, { role: 'user', content: userMsg }])
+    setLoading(true)
     try {
-      // Call API
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: userMessage, locale }),
-      });
-      
-      if (res.ok) {
-        const data = await res.json();
-        setMessages(prev => [...prev, { role: 'assistant', content: data.response }]);
-      } else {
-        // Fallback response
-        setMessages(prev => [...prev, { 
-          role: 'assistant', 
-          content: placeholderResponses[locale] || placeholderResponses.en 
-        }]);
-      }
+        body: JSON.stringify({ message: userMsg, locale }),
+      })
+      const data = await res.json()
+      setMessages(prev => [...prev, { role: 'assistant', content: data.response || 'Sorry, I could not process that.' }])
     } catch {
-      // Fallback on error
-      setMessages(prev => [...prev, { 
-        role: 'assistant', 
-        content: placeholderResponses[locale] || placeholderResponses.en 
-      }]);
+      setMessages(prev => [...prev, { role: 'assistant', content: 'Connection error. Please try again.' }])
     }
-    
-    setIsLoading(false);
-  };
+    setLoading(false)
+  }
 
   return (
     <>
-      {/* Chat Button */}
+      {/* Floating button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-blue-600 hover:bg-blue-700 rounded-full shadow-lg flex items-center justify-center transition-all"
-        aria-label={locale === 'zh' ? '打开客服' : 'Open chat'}
+        className="fixed bottom-6 right-6 w-14 h-14 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all z-50 flex items-center justify-center"
+        aria-label={t(locale, 'chat.openChat')}
       >
-        {isOpen ? (
-          <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-          </svg>
-        ) : (
-          <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-          </svg>
-        )}
+        {isOpen ? '✕' : '💬'}
       </button>
 
-      {/* Chat Window */}
+      {/* Chat panel */}
       {isOpen && (
-        <div className="fixed bottom-24 right-6 z-50 w-80 sm:w-96 h-96 bg-white rounded-lg shadow-2xl flex flex-col overflow-hidden border border-gray-200">
-          {/* Header */}
-          <div className="bg-blue-600 text-white px-4 py-3 flex items-center gap-3">
-            <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
-              <span className="text-sm font-bold">TG</span>
-            </div>
-            <div>
-              <p className="font-semibold text-sm">TradeGo {locale === 'zh' ? '智能客服' : 'AI Support'}</p>
-              <p className="text-xs text-blue-200">{locale === 'zh' ? '在线' : 'Online'}</p>
-            </div>
+        <div className="fixed bottom-24 right-6 w-80 bg-white rounded-xl shadow-2xl z-50 flex flex-col border border-gray-200" style={{ maxHeight: '70vh' }}>
+          <div className="bg-blue-600 text-white p-4 rounded-t-xl">
+            <p className="font-semibold text-sm">TradeGo {t(locale, 'chat.title')}</p>
+            <p className="text-xs text-blue-200">{t(locale, 'chat.online')}</p>
           </div>
-
-          {/* Messages */}
-          <div className="flex-1 overflow-y-auto p-4 space-y-3">
+          <div ref={chatRef} className="flex-1 overflow-y-auto p-4 space-y-3" style={{ minHeight: '200px' }}>
             {messages.map((msg, i) => (
               <div key={i} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
-                <div className={`max-w-[80%] rounded-lg px-3 py-2 text-sm ${
-                  msg.role === 'user' 
-                    ? 'bg-blue-600 text-white' 
-                    : 'bg-gray-100 text-gray-800'
+                <div className={`max-w-[80%] px-3 py-2 rounded-lg text-sm ${
+                  msg.role === 'user' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800'
                 }`}>
                   {msg.content}
                 </div>
               </div>
             ))}
-            {isLoading && (
-              <div className="flex justify-start">
-                <div className="bg-gray-100 rounded-lg px-3 py-2 text-sm text-gray-500">
-                  {locale === 'zh' ? '正在输入...' : 'Typing...'}
-                </div>
-              </div>
-            )}
-            <div ref={messagesEndRef} />
+            {loading && <p className="text-xs text-gray-400">{t(locale, 'chat.typing')}</p>}
           </div>
-
-          {/* Input */}
-          <div className="border-t p-3 flex gap-2">
+          <div className="p-3 border-t border-gray-100 flex gap-2">
             <input
-              type="text"
               value={input}
-              onChange={(e) => setInput(e.target.value)}
-              onKeyDown={(e) => e.key === 'Enter' && handleSend()}
-              placeholder={locale === 'zh' ? '输入消息...' : 'Type a message...'}
-              className="flex-1 border rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              onChange={e => setInput(e.target.value)}
+              onKeyDown={e => e.key === 'Enter' && sendMessage()}
+              placeholder={t(locale, 'chat.placeholder')}
+              className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm focus:ring-1 focus:ring-blue-500 focus:border-transparent"
             />
-            <button
-              onClick={handleSend}
-              disabled={!input.trim()}
-              className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed"
-            >
-              {locale === 'zh' ? '发送' : 'Send'}
+            <button onClick={sendMessage} className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700">
+              {t(locale, 'chat.send')}
             </button>
           </div>
         </div>
       )}
     </>
-  );
+  )
 }

@@ -1,9 +1,104 @@
 {
-  "hero": { "title": "Professionelle Befestigungsmittel für globale Märkte", "subtitle": "Qualitätsbefestigungen aus China — über 20 Jahre Fertigungsexzellenz", "cta": "Angebot anfordern", "ctaSecondary": "Produkte anzeigen" },
-  "nav": { "home": "Startseite", "products": "Produkte", "faq": "FAQ", "about": "Über uns", "contact": "Angebot" },
-  "products": { "title": "Unsere Produkte", "subtitle": "Hochwertige Befestigungsmittel für Bau und Industrie", "inquiry": "Anfragen" },
-  "about": { "title": "Warum TradeGo wählen?", "experience": "20+ Jahre", "certification": "ISO 9001:2015", "global": "50+ Länder", "moq": "Niedrige MOQ" },
-  "inquiry": { "title": "Angebot anfordern", "name": "Name", "email": "E-Mail", "company": "Firma", "products": "Produkte", "quantity": "Menge", "message": "Nachricht", "submit": "Senden", "success": "Danke! Wir kontaktieren Sie innerhalb von 24 Stunden.", "whatsapp": "WhatsApp" },
-  "chat": { "title": "TradeGo-Assistent", "placeholder": "Fragen Sie zu unseren Produkten...", "greeting": "Hallo! Wie können wir Ihnen helfen?" },
-  "footer": { "rights": "Alle Rechte vorbehalten.", "contact": "Kontakt" }
+  "hero": {
+    "title": "Professionelle Befestigungsmittel für globale Märkte",
+    "subtitle": "Qualitätsbefestigungen aus China — über 20 Jahre Fertigungsexzellenz",
+    "cta": "Angebot anfordern",
+    "ctaSecondary": "Produkte anzeigen",
+    "iso": "ISO 9001 zertifiziert",
+    "global": "Weltweite Lieferung",
+    "experience": "20+ Jahre Erfahrung",
+    "featured": "Empfohlene Produkte",
+    "product1_name": "Gipskartonschrauben",
+    "product1_desc": "Premium-Qualität für Bauwesen",
+    "product2_name": "Bohrschrauben",
+    "product2_desc": "Hohe Bohrleistung",
+    "product3_name": "Schrauben & Muttern",
+    "product3_desc": "Industrielle Befestigungen"
+  },
+  "nav": {
+    "home": "Startseite",
+    "products": "Produkte",
+    "faq": "FAQ",
+    "about": "Über uns",
+    "contact": "Angebot"
+  },
+  "products": {
+    "title": "Unsere Produkte",
+    "subtitle": "Hochwertige Befestigungsmittel für Bau und Industrie",
+    "inquiry": "Anfragen",
+    "material": "Material",
+    "specification": "Spezifikation",
+    "finish": "Oberfläche",
+    "standard": "Norm",
+    "moq": "Mindestbestellung",
+    "lead": "Lieferzeit",
+    "samples": "Kostenlose Muster",
+    "custom": "Anpassbar",
+    "piece": "/Stück"
+  },
+  "about": {
+    "title": "Warum TradeGo wählen?",
+    "experience": "20+ Jahre",
+    "experienceDesc": "Zwei Jahrzehnte Exzellenz mit bewährten Qualitätskontrollsystemen",
+    "certification": "ISO 9001:2015",
+    "certificationDesc": "International zertifiziertes Qualitätsmanagementsystem",
+    "global": "50+ Länder",
+    "globalDesc": "Vertraut von Käufern auf sechs Kontinenten",
+    "moq": "Niedrige MOQ",
+    "moqDesc": "Flexible Bestellmengen für Unternehmen jeder Größe",
+    "manufacturing": "Moderne Fertigung",
+    "manufacturingAlt": "Moderne Fertigungsanlage",
+    "quality": "Qualitätsprüfung",
+    "qualityAlt": "Qualitätsprüflabor",
+    "logistics": "Globale Logistik",
+    "logisticsAlt": "Weltweiter Containertransport"
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "subtitle": "Antworten zu unseren Befestigungen und Dienstleistungen",
+    "contact": "Weitere Fragen? Unser Expertenteam hilft Ihnen gerne.",
+    "contactCta": "Kontaktieren Sie uns"
+  },
+  "inquiry": {
+    "title": "Angebot anfordern",
+    "subtitle": "Füllen Sie das Formular aus, wir antworten innerhalb von 24 Stunden",
+    "name": "Name",
+    "email": "E-Mail",
+    "company": "Firma",
+    "country": "Land",
+    "products": "Interessante Produkte",
+    "quantity": "Geschätzte Menge",
+    "message": "Zusätzliche Details",
+    "submit": "Anfrage senden",
+    "success": "Danke! Wir kontaktieren Sie innerhalb von 24 Stunden.",
+    "whatsapp": "WhatsApp-Chat",
+    "selectProduct": "Produkt auswählen...",
+    "selectCountry": "Land auswählen..."
+  },
+  "chat": {
+    "title": "TradeGo-Support",
+    "online": "Online",
+    "openChat": "Chat öffnen",
+    "typing": "Tippt...",
+    "placeholder": "Nachricht eingeben...",
+    "send": "Senden",
+    "greeting": "Hallo! Wie können wir Ihnen bei unseren Produkten helfen?"
+  },
+  "footer": {
+    "company": "TradeGo Befestigungen",
+    "companyDesc": "Professioneller Hersteller von Befestigungsmitteln für globale Märkte.",
+    "quickLinks": "Schnelllinks",
+    "contactUs": "Kontakt",
+    "rights": "Alle Rechte vorbehalten.",
+    "address": "Festlandchina",
+    "email": "info@tradegofasteners.com"
+  },
+  "geo": {
+    "usPromo": "Kostenloser Versand ab $500",
+    "usShipping": "Lieferung per Seefracht in 7-10 Werktagen",
+    "zaPromo": "Mengenrabatt für Afrika — bis zu 15%",
+    "zaShipping": "Seefracht nach Durban, 25-30 Tage",
+    "mePromo": "Sonderpreise für Nahen Osten",
+    "meShipping": "Seefracht nach Jebel Ali, 18-22 Tage"
+  }
 }

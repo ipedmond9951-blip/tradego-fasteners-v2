@@ -1,9 +1,104 @@
 {
-  "hero": { "title": "グローバル市場向けプロフェッショナルファスナー", "subtitle": "中国から世界へ高品質ファスナー — 20年以上の製造実績", "cta": "見積もり", "ctaSecondary": "製品一覧" },
-  "nav": { "home": "ホーム", "products": "製品", "faq": "FAQ", "about": "会社概要", "contact": "見積もり" },
-  "products": { "title": "製品一覧", "subtitle": "建築・工業用高品質ファスナー", "inquiry": "お問い合わせ" },
-  "about": { "title": "TradeGoを選ぶ理由", "experience": "20年以上", "certification": "ISO 9001:2015", "global": "50カ国以上", "moq": "低MOQ" },
-  "inquiry": { "title": "見積もり依頼", "name": "名前", "email": "メール", "company": "会社名", "products": "製品", "quantity": "数量", "message": "メッセージ", "submit": "送信", "success": "ありがとうございます。24時間以内にご連絡いたします。", "whatsapp": "WhatsApp" },
-  "chat": { "title": "TradeGoアシスタント", "placeholder": "製品についてお問い合わせ...", "greeting": "こんにちは！お手伝いできますか？" },
-  "footer": { "rights": "全著作権所有", "contact": "お問い合わせ" }
+  "hero": {
+    "title": "グローバル市場向けプロフェッショナルファスナー",
+    "subtitle": "中国から世界へ高品質ファスナー — 20年以上の製造実績",
+    "cta": "見積もり",
+    "ctaSecondary": "製品一覧",
+    "iso": "ISO 9001 認証",
+    "global": "世界配送",
+    "experience": "20年以上の実績",
+    "featured": "おすすめ製品",
+    "product1_name": "石膏ボード用ネジ",
+    "product1_desc": "建築用プレミアム品質",
+    "product2_name": "タッピンねじ",
+    "product2_desc": "高性能穴あけ",
+    "product3_name": "ボルト・ナット",
+    "product3_desc": "工業用ファスナー"
+  },
+  "nav": {
+    "home": "ホーム",
+    "products": "製品",
+    "faq": "FAQ",
+    "about": "会社概要",
+    "contact": "見積もり"
+  },
+  "products": {
+    "title": "製品一覧",
+    "subtitle": "建築・工業用高品質ファスナー",
+    "inquiry": "お問い合わせ",
+    "material": "材質",
+    "specification": "仕様",
+    "finish": "表面処理",
+    "standard": "規格",
+    "moq": "最小注文量",
+    "lead": "納期",
+    "samples": "無料サンプル",
+    "custom": "カスタム対応",
+    "piece": "/個"
+  },
+  "about": {
+    "title": "TradeGoを選ぶ理由",
+    "experience": "20年以上",
+    "experienceDesc": "20年の実績と実証された品質管理システム",
+    "certification": "ISO 9001:2015",
+    "certificationDesc": "国際認証品質マネジメントシステム",
+    "global": "50カ国以上",
+    "globalDesc": "六大陸のバイヤーから信頼",
+    "moq": "低MOQ",
+    "moqDesc": "あらゆる規模のビジネスに対応する柔軟な注文量",
+    "manufacturing": "近代的製造",
+    "manufacturingAlt": "近代的製造施設",
+    "quality": "品質検査",
+    "qualityAlt": "品質検査ラボ",
+    "logistics": "グローバル物流",
+    "logisticsAlt": "コンテナ世界的輸送"
+  },
+  "faq": {
+    "title": "よくある質問",
+    "subtitle": "ファスナーサービスに関するよくある質問",
+    "contact": "他にも質問がありますか？専門チームがお手伝いします。",
+    "contactCta": "お問い合わせ"
+  },
+  "inquiry": {
+    "title": "見積もり依頼",
+    "subtitle": "フォームに記入いただければ24時間以内にご連絡いたします",
+    "name": "名前",
+    "email": "メール",
+    "company": "会社名",
+    "country": "国",
+    "products": "興味のある製品",
+    "quantity": "概算数量",
+    "message": "追加詳細",
+    "submit": "送信",
+    "success": "ありがとうございます。24時間以内にご連絡いたします。",
+    "whatsapp": "WhatsAppで相談",
+    "selectProduct": "製品を選択...",
+    "selectCountry": "国を選択..."
+  },
+  "chat": {
+    "title": "TradeGoアシスタント",
+    "online": "オンライン",
+    "openChat": "チャットを開く",
+    "typing": "入力中...",
+    "placeholder": "メッセージを入力...",
+    "send": "送信",
+    "greeting": "こんにちは！製品についてお手伝いできますか？"
+  },
+  "footer": {
+    "company": "TradeGoファスナー",
+    "companyDesc": "グローバル市場向けプロフェッショナルファスナーメーカー。",
+    "quickLinks": "クイックリンク",
+    "contactUs": "お問い合わせ",
+    "rights": "全著作権所有",
+    "address": "中国本土",
+    "email": "info@tradegofasteners.com"
+  },
+  "geo": {
+    "usPromo": "$500以上のご注文で送料無料",
+    "usShipping": "海上輸送7-10営業日",
+    "zaPromo": "アフリカ市場量大割引 — 最大15%",
+    "zaShipping": "ダーバンまで海上輸送、25-30日",
+    "mePromo": "中東市場特別価格",
+    "meShipping": "ジェベルアリまで海上輸送、18-22日"
+  }
 }

@@ -1,9 +1,104 @@
 {
-  "hero": { "title": "Fabricantes profesionales de fijaciones para mercados globales", "subtitle": "Fijaciones de calidad de China al mundo — más de 20 años de excelencia", "cta": "Solicitar cotización", "ctaSecondary": "Ver productos" },
-  "nav": { "home": "Inicio", "products": "Productos", "faq": "FAQ", "about": "Nosotros", "contact": "Cotización" },
-  "products": { "title": "Nuestros Productos", "subtitle": "Fijaciones de alta calidad para construcción e industria", "inquiry": "Consultar" },
-  "about": { "title": "¿Por qué elegir TradeGo?", "experience": "20+ Años", "certification": "ISO 9001:2015", "global": "50+ Países", "moq": "MOQ Bajo" },
-  "inquiry": { "title": "Solicitar Cotización", "name": "Nombre", "email": "Correo", "company": "Empresa", "products": "Productos", "quantity": "Cantidad", "message": "Mensaje", "submit": "Enviar", "success": "¡Gracias! Nos pondremos en contacto en 24 horas.", "whatsapp": "WhatsApp" },
-  "chat": { "title": "Asistente TradeGo", "placeholder": "Pregunte sobre productos...", "greeting": "¡Hola! ¿Cómo podemos ayudarle?" },
-  "footer": { "rights": "Todos los derechos reservados.", "contact": "Contáctenos" }
+  "hero": {
+    "title": "Fijaciones profesionales para mercados globales",
+    "subtitle": "Fijaciones de calidad de China al mundo — más de 20 años de excelencia",
+    "cta": "Solicitar cotización",
+    "ctaSecondary": "Ver productos",
+    "iso": "Certificado ISO 9001",
+    "global": "Entrega global",
+    "experience": "20+ años de experiencia",
+    "featured": "Productos destacados",
+    "product1_name": "Tornillos para tablaroca",
+    "product1_desc": "Calidad premium para construcción",
+    "product2_name": "Tornillos autorroscantes",
+    "product2_desc": "Alto rendimiento de perforación",
+    "product3_name": "Pernos y tuercas",
+    "product3_desc": "Fijaciones de grado industrial"
+  },
+  "nav": {
+    "home": "Inicio",
+    "products": "Productos",
+    "faq": "FAQ",
+    "about": "Nosotros",
+    "contact": "Cotización"
+  },
+  "products": {
+    "title": "Nuestros Productos",
+    "subtitle": "Fijaciones de alta calidad para construcción e industria",
+    "inquiry": "Consultar",
+    "material": "Material",
+    "specification": "Especificación",
+    "finish": "Acabado",
+    "standard": "Norma",
+    "moq": "Pedido mínimo",
+    "lead": "Plazo de entrega",
+    "samples": "Muestras gratis",
+    "custom": "Personalizable",
+    "piece": "/pieza"
+  },
+  "about": {
+    "title": "¿Por qué elegir TradeGo?",
+    "experience": "20+ Años",
+    "experienceDesc": "Dos décadas de excelencia con sistemas probados de control de calidad",
+    "certification": "ISO 9001:2015",
+    "certificationDesc": "Sistema de gestión de calidad certificado internacionalmente",
+    "global": "50+ Países",
+    "globalDesc": "Confianza de compradores en seis continentes",
+    "moq": "MOQ Bajo",
+    "moqDesc": "Cantidades flexibles para negocios de todos los tamaños",
+    "manufacturing": "Fabricación moderna",
+    "manufacturingAlt": "Instalación de fabricación moderna",
+    "quality": "Control de calidad",
+    "qualityAlt": "Laboratorio de pruebas de calidad",
+    "logistics": "Logística global",
+    "logisticsAlt": "Envío mundial en contenedores"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Encuentre respuestas sobre nuestras fijaciones y servicios",
+    "contact": "¿Más preguntas? Nuestro equipo de expertos está aquí para ayudar.",
+    "contactCta": "Contáctenos"
+  },
+  "inquiry": {
+    "title": "Solicitar Cotización",
+    "subtitle": "Complete el formulario y le responderemos en 24 horas",
+    "name": "Nombre",
+    "email": "Correo",
+    "company": "Empresa",
+    "country": "País",
+    "products": "Productos de interés",
+    "quantity": "Cantidad estimada",
+    "message": "Detalles adicionales",
+    "submit": "Enviar consulta",
+    "success": "¡Gracias! Nos pondremos en contacto en 24 horas.",
+    "whatsapp": "Chat por WhatsApp",
+    "selectProduct": "Seleccione un producto...",
+    "selectCountry": "Seleccione un país..."
+  },
+  "chat": {
+    "title": "Soporte TradeGo",
+    "online": "En línea",
+    "openChat": "Abrir chat",
+    "typing": "Escribiendo...",
+    "placeholder": "Escriba un mensaje...",
+    "send": "Enviar",
+    "greeting": "¡Hola! ¿Cómo podemos ayudarle con nuestros productos?"
+  },
+  "footer": {
+    "company": "TradeGo Fijaciones",
+    "companyDesc": "Fabricante profesional de fijaciones para mercados globales.",
+    "quickLinks": "Enlaces rápidos",
+    "contactUs": "Contáctenos",
+    "rights": "Todos los derechos reservados.",
+    "address": "China continental",
+    "email": "info@tradegofasteners.com"
+  },
+  "geo": {
+    "usPromo": "Envío gratis en pedidos mayores a $500",
+    "usShipping": "Entrega en 7-10 días hábiles por mar",
+    "zaPromo": "Descuento por volumen para África — hasta 15%",
+    "zaShipping": "Envío marítimo a Durban, 25-30 días",
+    "mePromo": "Precios especiales para Medio Oriente",
+    "meShipping": "Envío marítimo a Jebel Ali, 18-22 días"
+  }
 }

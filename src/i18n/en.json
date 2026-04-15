@@ -3,46 +3,96 @@
     "title": "Professional Fasteners for Global Markets",
     "subtitle": "Quality fasteners from China to the world — 20+ years of manufacturing excellence",
     "cta": "Get a Quote",
-    "ctaSecondary": "View Products"
+    "ctaSecondary": "View Products",
+    "iso": "ISO 9001 Certified",
+    "global": "Global Delivery",
+    "experience": "20+ Years Experience",
+    "featured": "Featured Products",
+    "product1_name": "Drywall Screws",
+    "product1_desc": "Premium quality for construction",
+    "product2_name": "Self-Drilling Screws",
+    "product2_desc": "High performance drilling",
+    "product3_name": "Bolts & Nuts",
+    "product3_desc": "Industrial grade fasteners"
   },
-  "nav": {
-    "home": "Home",
-    "products": "Products",
-    "faq": "FAQ",
-    "about": "About Us",
-    "contact": "Get a Quote"
-  },
+  "nav": { "home": "Home", "products": "Products", "faq": "FAQ", "about": "About Us", "contact": "Get a Quote" },
   "products": {
     "title": "Our Products",
     "subtitle": "High-quality fasteners for construction and industrial applications",
-    "inquiry": "Inquire Now"
+    "inquiry": "Inquire Now",
+    "material": "Material",
+    "specification": "Specification",
+    "finish": "Finish",
+    "standard": "Standard",
+    "moq": "MOQ",
+    "lead": "Lead Time",
+    "samples": "Free Samples",
+    "custom": "Custom Available",
+    "piece": "/piece"
   },
   "about": {
     "title": "Why Choose TradeGo Fasteners?",
     "experience": "20+ Years Experience",
+    "experienceDesc": "Two decades of manufacturing excellence with proven quality control systems",
     "certification": "ISO 9001:2015",
+    "certificationDesc": "Internationally certified quality management system ensuring consistent standards",
     "global": "50+ Countries",
-    "moq": "Low MOQ"
+    "globalDesc": "Trusted by buyers across six continents for reliable fastener supply",
+    "moq": "Low MOQ",
+    "moqDesc": "Flexible order quantities to support businesses of all sizes",
+    "manufacturing": "Modern Manufacturing",
+    "manufacturingAlt": "Modern manufacturing facility",
+    "quality": "Quality Testing",
+    "qualityAlt": "Quality testing laboratory",
+    "logistics": "Global Logistics",
+    "logisticsAlt": "Container shipping worldwide"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about our fasteners and services",
+    "contact": "Have more questions? Our expert team is here to help.",
+    "contactCta": "Contact Us"
   },
   "inquiry": {
     "title": "Request a Quote",
+    "subtitle": "Fill out the form below and our team will get back to you within 24 hours",
     "name": "Your Name",
-    "email": "Email",
-    "company": "Company",
-    "products": "Products",
-    "quantity": "Quantity",
-    "message": "Message",
-    "submit": "Submit",
+    "email": "Email Address",
+    "company": "Company Name",
+    "country": "Country",
+    "products": "Products Interested",
+    "quantity": "Estimated Quantity",
+    "message": "Additional Details",
+    "submit": "Submit Inquiry",
     "success": "Thank you! We'll contact you within 24 hours.",
-    "whatsapp": "WhatsApp"
+    "whatsapp": "Chat on WhatsApp",
+    "selectProduct": "Select a product...",
+    "selectCountry": "Select a country..."
   },
   "chat": {
-    "title": "TradeGo Assistant",
-    "placeholder": "Ask about our products...",
-    "greeting": "Hi! How can I help you?"
+    "title": "TradeGo AI Support",
+    "online": "Online",
+    "openChat": "Open chat",
+    "typing": "Typing...",
+    "placeholder": "Type a message...",
+    "send": "Send",
+    "greeting": "Hi! How can I help you with our fastener products?"
   },
   "footer": {
+    "company": "TradeGo Fasteners",
+    "companyDesc": "Professional fastener manufacturer and supplier, delivering high-quality fasteners to global markets.",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
     "rights": "All rights reserved.",
-    "contact": "Contact Us"
+    "address": "China Mainland",
+    "email": "info@tradegofasteners.com"
+  },
+  "geo": {
+    "usPromo": "Free shipping on orders over $500",
+    "usShipping": "Delivery in 7-10 business days via sea freight",
+    "zaPromo": "Bulk discount for Africa market — up to 15% off",
+    "zaShipping": "Sea freight to Durban, 25-30 days",
+    "mePromo": "Special pricing for Middle East market",
+    "meShipping": "Sea freight to Jebel Ali, 18-22 days"
   }
 }

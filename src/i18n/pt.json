@@ -1,9 +1,104 @@
 {
-  "hero": { "title": "Fixações profissionais para mercados globais", "subtitle": "Fixações de qualidade da China para o mundo — mais de 20 anos de excelência", "cta": "Solicitar orçamento", "ctaSecondary": "Ver produtos" },
-  "nav": { "home": "Início", "products": "Produtos", "faq": "FAQ", "about": "Sobre nós", "contact": "Orçamento" },
-  "products": { "title": "Nossos Produtos", "subtitle": "Fixações de alta qualidade para construção e indústria", "inquiry": "Consultar" },
-  "about": { "title": "Por que escolher TradeGo?", "experience": "20+ Anos", "certification": "ISO 9001:2015", "global": "50+ Países", "moq": "MOQ Baixo" },
-  "inquiry": { "title": "Solicitar Orçamento", "name": "Nome", "email": "Email", "company": "Empresa", "products": "Produtos", "quantity": "Quantidade", "message": "Mensagem", "submit": "Enviar", "success": "Obrigado! Entraremos em contato em 24 horas.", "whatsapp": "WhatsApp" },
-  "chat": { "title": "Assistente TradeGo", "placeholder": "Pergunte sobre nossos produtos...", "greeting": "Olá! Como podemos ajudar?" },
-  "footer": { "rights": "Todos os direitos reservados.", "contact": "Contate-nos" }
+  "hero": {
+    "title": "Fixações profissionais para mercados globais",
+    "subtitle": "Fixações de qualidade da China para o mundo — mais de 20 anos de excelência",
+    "cta": "Solicitar orçamento",
+    "ctaSecondary": "Ver produtos",
+    "iso": "Certificado ISO 9001",
+    "global": "Entrega global",
+    "experience": "20+ anos de experiência",
+    "featured": "Produtos em destaque",
+    "product1_name": "Parafusos para drywall",
+    "product1_desc": "Qualidade premium para construção",
+    "product2_name": "Parafusos autorroscantes",
+    "product2_desc": "Alto desempenho de perfuração",
+    "product3_name": "Parafusos e porcas",
+    "product3_desc": "Fixações de grau industrial"
+  },
+  "nav": {
+    "home": "Início",
+    "products": "Produtos",
+    "faq": "FAQ",
+    "about": "Sobre nós",
+    "contact": "Orçamento"
+  },
+  "products": {
+    "title": "Nossos Produtos",
+    "subtitle": "Fixações de alta qualidade para construção e indústria",
+    "inquiry": "Consultar",
+    "material": "Material",
+    "specification": "Especificação",
+    "finish": "Acabamento",
+    "standard": "Norma",
+    "moq": "Pedido mínimo",
+    "lead": "Prazo de entrega",
+    "samples": "Amostras grátis",
+    "custom": "Personalizável",
+    "piece": "/peça"
+  },
+  "about": {
+    "title": "Por que escolher TradeGo?",
+    "experience": "20+ Anos",
+    "experienceDesc": "Duas décadas de excelência com sistemas de qualidade comprovados",
+    "certification": "ISO 9001:2015",
+    "certificationDesc": "Sistema de gestão de qualidade certificado internacionalmente",
+    "global": "50+ Países",
+    "globalDesc": "Confiança de compradores em seis continentes",
+    "moq": "MOQ Baixo",
+    "moqDesc": "Quantidades flexíveis para negócios de todos os tamanhos",
+    "manufacturing": "Fabricação moderna",
+    "manufacturingAlt": "Instalação de fabricação moderna",
+    "quality": "Controle de qualidade",
+    "qualityAlt": "Laboratório de testes de qualidade",
+    "logistics": "Logística global",
+    "logisticsAlt": "Envio mundial em contêineres"
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "subtitle": "Encontre respostas sobre nossas fixações e serviços",
+    "contact": "Mais perguntas? Nossa equipe de especialistas está aqui para ajudar.",
+    "contactCta": "Contate-nos"
+  },
+  "inquiry": {
+    "title": "Solicitar Orçamento",
+    "subtitle": "Preencha o formulário e responderemos em 24 horas",
+    "name": "Nome",
+    "email": "Email",
+    "company": "Empresa",
+    "country": "País",
+    "products": "Produtos de interesse",
+    "quantity": "Quantidade estimada",
+    "message": "Detalhes adicionais",
+    "submit": "Enviar consulta",
+    "success": "Obrigado! Entraremos em contato em 24 horas.",
+    "whatsapp": "Chat no WhatsApp",
+    "selectProduct": "Selecione um produto...",
+    "selectCountry": "Selecione um país..."
+  },
+  "chat": {
+    "title": "Suporte TradeGo",
+    "online": "Online",
+    "openChat": "Abrir chat",
+    "typing": "Digitando...",
+    "placeholder": "Digite uma mensagem...",
+    "send": "Enviar",
+    "greeting": "Olá! Como podemos ajudar com nossos produtos?"
+  },
+  "footer": {
+    "company": "TradeGo Fixações",
+    "companyDesc": "Fabricante profissional de fixações para mercados globais.",
+    "quickLinks": "Links rápidos",
+    "contactUs": "Contate-nos",
+    "rights": "Todos os direitos reservados.",
+    "address": "China continental",
+    "email": "info@tradegofasteners.com"
+  },
+  "geo": {
+    "usPromo": "Frete grátis em pedidos acima de $500",
+    "usShipping": "Entrega em 7-10 dias úteis por mar",
+    "zaPromo": "Desconto por volume para África — até 15%",
+    "zaShipping": "Frete marítimo para Durban, 25-30 dias",
+    "mePromo": "Preços especiais para Oriente Médio",
+    "meShipping": "Frete marítimo para Jebel Ali, 18-22 dias"
+  }
 }
