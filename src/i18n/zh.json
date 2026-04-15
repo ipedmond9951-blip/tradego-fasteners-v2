@@ -1,0 +1,91 @@
+{
+  "hero": {
+    "title": "全球市场专业紧固件供应商",
+    "subtitle": "从中国到世界 — 20余年制造经验，品质保障",
+    "cta": "获取报价",
+    "ctaSecondary": "查看产品"
+  },
+  "nav": {
+    "home": "首页",
+    "products": "产品中心",
+    "faq": "常见问题",
+    "about": "关于我们",
+    "contact": "获取报价"
+  },
+  "products": {
+    "title": "产品中心",
+    "subtitle": "建筑、工业及制造应用的高品质紧固件",
+    "drywall_screws": {
+      "name": "干壁钉",
+      "desc": "喇叭头干壁钉，用于石膏板安装。粗牙和细牙可选。"
+    },
+    "self_drilling_screws": {
+      "name": "自钻螺丝",
+      "desc": "钻尾螺丝，用于金属对金属连接，无需预钻孔。"
+    },
+    "bolts": {
+      "name": "螺栓",
+      "desc": "六角螺栓、马车螺栓和法兰螺栓，多种材质和等级可选。"
+    },
+    "nuts": {
+      "name": "螺母",
+      "desc": "六角螺母、锁紧螺母和法兰螺母。标准和定制规格。"
+    },
+    "ibr_nails": {
+      "name": "IBR钉",
+      "desc": "用于IBR和波纹钢板固定的屋面钉。热镀锌处理。"
+    },
+    "inquiry": "立即询盘"
+  },
+  "about": {
+    "title": "为什么选择TradeGo紧固件？",
+    "experience": "20余年",
+    "experienceDesc": "2004年起制造经验",
+    "certification": "ISO 9001:2015",
+    "certificationDesc": "认证质量管理体系",
+    "global": "50+国家",
+    "globalDesc": "产品远销全球",
+    "moq": "低起订量",
+    "moqDesc": "灵活的最小起订量"
+  },
+  "faq": {
+    "title": "常见问题",
+    "q1": { "q": "最小起订量是多少？", "a": "起订量因产品而异，标准产品通常为500公斤。定制订单可能有更高的起订量。" },
+    "q2": { "q": "你们提供什么材质？", "a": "碳钢、不锈钢（304/316）和合金钢。多种涂层：镀锌、热镀锌、发黑和达克罗。" },
+    "q3": { "q": "产品遵循什么标准？", "a": "DIN、ANSI、JIS、GB和ISO标准。也可按客户规格生产。" },
+    "q4": { "q": "交货期多长？", "a": "标准产品：15-20天。定制产品：25-35天，视规格而定。" },
+    "q5": { "q": "提供样品吗？", "a": "是的，标准产品提供免费样品。样品运费由买方承担。" },
+    "q6": { "q": "接受什么付款方式？", "a": "T/T、即期信用证和西联汇款。T/T方式30%定金，70%发货前付清。" }
+  },
+  "inquiry": {
+    "title": "发送询盘",
+    "name": "您的姓名",
+    "email": "邮箱地址",
+    "company": "公司名称",
+    "products": "感兴趣的产品",
+    "quantity": "预估数量",
+    "message": "补充说明",
+    "submit": "提交询盘",
+    "success": "谢谢！我们将在24小时内回复您。",
+    "whatsapp": "WhatsApp咨询"
+  },
+  "chat": {
+    "title": "TradeGo助手",
+    "placeholder": "咨询我们的产品...",
+    "greeting": "您好！👋 请问有什么可以帮您的？"
+  },
+  "geo": {
+    "us": { "promotion": "", "shipping": "" },
+    "za": { "promotion": "", "shipping": "" },
+    "eu": { "promotion": "", "shipping": "" },
+    "cn": { "promotion": "国内客户享批发价，量大从优", "shipping": "国内包邮，3-5天送达" },
+    "default": { "promotion": "批量订单享优惠价格", "shipping": "全球配送——联系我们了解详情" }
+  },
+  "footer": {
+    "rights": "版权所有",
+    "contact": "联系我们",
+    "email": "邮箱",
+    "phone": "电话",
+    "address": "地址"
+  }
+}
