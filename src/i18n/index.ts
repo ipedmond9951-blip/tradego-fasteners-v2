@@ -15,7 +15,7 @@ export const defaultLocale: Locale = 'en'
 
 export type Messages = typeof en
 
-const messages: Record<Locale, Messages> = { en, zh, es, ar, fr, pt, ru, ja, de, hi }
+const messages = { en, zh, es, ar, fr, pt, ru, ja, de, hi } as Record<Locale, Messages>
 
 export function getMessages(locale: Locale): Messages {
   return messages[locale] || messages[defaultLocale]

@@ -15,7 +15,19 @@
     "product3_name": "Bolts & Nuts",
     "product3_desc": "Industrial grade fasteners"
   },
-  "nav": { "home": "Home", "products": "Products", "faq": "FAQ", "about": "About Us", "contact": "Get a Quote" },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "faq": "FAQ",
+    "about": "About Us",
+    "contact": "Get a Quote",
+    "industry": "Industry Insights",
+    "articles": "Articles",
+    "market": "Market Analysis",
+    "geoOptim": "Geo Optimization",
+    "uploadProduct": "Upload Product",
+    "newArticle": "New Article"
+  },
   "products": {
     "title": "Our Products",
     "subtitle": "High-quality fasteners for construction and industrial applications",
@@ -28,7 +40,11 @@
     "lead": "Lead Time",
     "samples": "Free Samples",
     "custom": "Custom Available",
-    "piece": "/piece"
+    "piece": "/piece",
+    "allProducts": "All Products",
+    "searchPlaceholder": "Search products...",
+    "category": "Category",
+    "viewDetails": "View Details"
   },
   "about": {
     "title": "Why Choose TradeGo Fasteners?",
@@ -94,5 +110,12 @@
     "zaShipping": "Sea freight to Durban, 25-30 days",
     "mePromo": "Special pricing for Middle East market",
     "meShipping": "Sea freight to Jebel Ali, 18-22 days"
+  },
+  "industry": {
+    "title": "Industry Insights",
+    "subtitle": "Latest news and analysis from the fastener industry",
+    "readMore": "Read More",
+    "publishedOn": "Published on",
+    "backToList": "← Back to Articles"
   }
 }
