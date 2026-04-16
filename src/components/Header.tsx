@@ -51,7 +51,7 @@ export default function Header({ locale = 'en' }: HeaderProps) {
                   onMouseEnter={() => setDropdown(item.label)}
                   onMouseLeave={() => setDropdown(null)}
                 >
-                  <button className="flex items-center gap-1 px-3 py-2 text-gray-600 hover:text-blue-600 font-medium text-sm rounded-lg hover:bg-gray-50 transition-colors">
+                  <button className="flex items-center gap-1 px-4 py-2.5 text-gray-700 hover:text-blue-700 font-semibold text-base rounded-lg hover:bg-gray-50 transition-colors">
                     {item.label}
                     <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7"/></svg>
                   </button>
@@ -71,7 +71,7 @@ export default function Header({ locale = 'en' }: HeaderProps) {
                   )}
                 </div>
               ) : (
-                <a key={item.href} href={item.href} className="px-3 py-2 text-gray-600 hover:text-blue-600 font-medium text-sm rounded-lg hover:bg-gray-50 transition-colors">{item.label}</a>
+                <a key={item.href} href={item.href} className="px-4 py-2.5 text-gray-700 hover:text-blue-700 font-semibold text-base rounded-lg hover:bg-gray-50 transition-colors">{item.label}</a>
               )
             ))}
           </div>
