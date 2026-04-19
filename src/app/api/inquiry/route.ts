@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-// Email configuration
-const INQUIRY_EMAIL = 'aimingtrade@hotmail.com';
+const INQUIRY_EMAIL = 'ipedmond9951@gmail.com';
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
+const WHATSAPP_WEBHOOK_URL = process.env.WHATSAPP_WEBHOOK_URL;
 
 interface InquiryData {
   name: string;
@@ -38,8 +38,9 @@ async function sendEmail(data: InquiryData, isHighValue: boolean): Promise<boole
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'inquiry@tradego-fasteners.com',
+        from: 'TradeGo Inquiry <onboarding@resend.dev>',
         to: INQUIRY_EMAIL,
+        replyTo: data.email,
         subject: `${isHighValue ? '⭐ HIGH VALUE ' : ''}Inquiry from ${data.company || data.name} (${data.country || 'Unknown'})`,
         html: `
           <h2>New Inquiry from TradeGo Website</h2>
@@ -67,11 +68,41 @@ async function sendEmail(data: InquiryData, isHighValue: boolean): Promise<boole
   }
 }
 
+async function sendWhatsAppNotification(data: InquiryData, isHighValue: boolean): Promise<boolean> {
+  if (!WHATSAPP_WEBHOOK_URL) {
+    console.log('WHATSAPP_WEBHOOK_URL not configured, skipping WhatsApp');
+    return false;
+  }
+
+  try {
+    const msg = isHighValue
+      ? `⭐ HIGH VALUE INQUIRY!\n`
+      : `📦 New Inquiry\n`;
+    const text = `${msg}From: ${data.name}${data.company ? ` (${data.company})` : ''}\n` +
+      `Email: ${data.email}\n` +
+      `Phone: ${data.phone || 'N/A'}\n` +
+      `Products: ${data.products}\n` +
+      `Quantity: ${data.quantity || 'N/A'}\n` +
+      `Country: ${data.country || 'Unknown'}\n` +
+      (data.message ? `Message: ${data.message}\n` : '');
+
+    const response = await fetch(WHATSAPP_WEBHOOK_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text, phone: '+8615963409951' }),
+    });
+
+    return response.ok;
+  } catch (error) {
+    console.error('WhatsApp notification error:', error);
+    return false;
+  }
+}
+
 export async function POST(request: NextRequest) {
   try {
     const data: InquiryData = await request.json();
     
-    // Validate required fields
     if (!data.name || !data.email || !data.products) {
       return NextResponse.json({ 
         error: 'Missing required fields: name, email, products' 
@@ -81,7 +112,6 @@ export async function POST(request: NextRequest) {
     const isHighValue = isInquiryHighValue(data.quantity);
     const timestamp = new Date().toISOString();
     
-    // Log inquiry (in production, send email)
     console.log('=== NEW INQUIRY ===');
     console.log(`Time: ${timestamp}`);
     console.log(`Name: ${data.name}`);
@@ -99,17 +129,9 @@ export async function POST(request: NextRequest) {
     const emailSent = await sendEmail(data, isHighValue);
     console.log(`Email sent: ${emailSent}`);
 
-    // Save to file for backup
-    const fs = await import('fs/promises');
-    const path = await import('path');
-    const inquiryLog = path.join(process.cwd(), 'inquiries.log');
-    const logEntry = `${timestamp} | ${data.name} | ${data.email} | ${data.company || '-'} | ${data.products} | ${data.quantity || '-'} | ${data.country || '-'} | ${isHighValue ? 'HIGH' : 'normal'} | email:${emailSent}\n`;
-    
-    try {
-      await fs.appendFile(inquiryLog, logEntry);
-    } catch {
-      // Ignore file write errors in production
-    }
+    // Send WhatsApp notification
+    const waSent = await sendWhatsAppNotification(data, isHighValue);
+    console.log(`WhatsApp sent: ${waSent}`);
 
     return NextResponse.json({ 
       success: true,
