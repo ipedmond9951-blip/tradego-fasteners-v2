@@ -23,10 +23,10 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Page Header */}
-      <section className="bg-gradient-to-br from-blue-800 to-blue-900 text-white py-12 md:py-16">
+      <section className="bg-gradient-to-br from-primary-800 to-primary-900 text-white py-12 md:py-16">
         <div className="container mx-auto px-4 sm:px-6">
           <h1 className="text-3xl md:text-4xl font-bold mb-3">{t(locale, 'products.allProducts')}</h1>
-          <p className="text-blue-200 text-base md:text-lg max-w-2xl">{t(locale, 'products.subtitle')}</p>
+          <p className="text-primary-200 text-base md:text-lg max-w-2xl">{t(locale, 'products.subtitle')}</p>
           {/* Search bar */}
           <div className="mt-8 max-w-xl">
             <div className="relative">
@@ -47,7 +47,7 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
           {/* Category filters */}
           <div className="flex flex-wrap gap-2 mb-8">
             {['All', 'Drywall Screws', 'Self-Drilling', 'Bolts & Nuts', 'IBR Nails'].map((cat) => (
-              <button key={cat} className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${cat === 'All' ? 'bg-blue-900 text-white' : 'bg-white text-gray-600 hover:bg-gray-100 border border-gray-200'}`}>
+              <button key={cat} className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${cat === 'All' ? 'bg-primary-700 text-white' : 'bg-white text-gray-600 hover:bg-gray-100 border border-gray-200'}`}>
                 {cat}
               </button>
             ))}
@@ -61,10 +61,10 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
                 <div key={product.slug} className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow group flex flex-col">
                   <div className="relative h-44 md:h-52 bg-gray-100 overflow-hidden">
                     <Image src={product.image} alt={text} fill className="object-cover group-hover:scale-105 transition-transform duration-500" sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 25vw" />
-                    <span className="absolute top-3 right-3 bg-blue-600 text-white text-xs font-bold px-2.5 py-1 rounded-full">${product.pricePerPiece.toFixed(3)}/pc</span>
+                    <span className="absolute top-3 right-3 bg-primary-600 text-white text-xs font-bold px-2.5 py-1 rounded-full">${product.pricePerPiece.toFixed(3)}/pc</span>
                   </div>
                   <div className="p-5 flex-1 flex flex-col">
-                    <h3 className="font-bold text-blue-900 text-lg mb-2">{text}</h3>
+                    <h3 className="font-bold text-primary-900 text-lg mb-2">{text}</h3>
                     
                     {/* Specs table */}
                     <div className="space-y-1.5 text-sm mb-4 mt-auto">
@@ -80,7 +80,7 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
                       ))}
                     </div>
 
-                    <a href={`/${locale}#inquiry`} className="block w-full text-center bg-blue-900 text-white py-2.5 rounded-lg font-semibold text-sm hover:bg-blue-800 transition-colors">
+                    <a href={`/${locale}#inquiry`} className="block w-full text-center bg-primary-700 text-white py-2.5 rounded-lg font-semibold text-sm hover:bg-primary-800 transition-colors">
                       {t(locale, 'products.inquiry')}
                     </a>
                   </div>

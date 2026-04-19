@@ -44,7 +44,7 @@ export default function CurrencySwitcher() {
     <div className="relative" ref={ref}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-1 px-2 py-1 text-sm border border-gray-300 rounded hover:border-blue-500 transition-colors bg-white"
+        className="flex items-center gap-1 px-2 py-1 text-sm border border-gray-300 rounded hover:border-primary-500 transition-colors bg-white"
       >
         <span>{currencySymbols[currency] || ''} {currency}</span>
         <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -63,8 +63,8 @@ export default function CurrencySwitcher() {
                 <button
                   key={c}
                   onClick={() => { setCurrency(c); setIsOpen(false) }}
-                  className={`w-full text-left px-3 py-1.5 hover:bg-blue-50 transition-colors ${
-                    currency === c ? 'bg-blue-50 text-blue-700 font-semibold' : 'text-gray-700'
+                  className={`w-full text-left px-3 py-1.5 hover:bg-primary-50 transition-colors ${
+                    currency === c ? 'bg-primary-50 text-primary-700 font-semibold' : 'text-gray-700'
                   }`}
                 >
                   {currencySymbols[c] || ''} {c}

@@ -42,7 +42,7 @@ export default function ProductUploadPage({ params }: { params: Promise<{ locale
               ? '我们的团队将在24小时内审核您的产品信息。'
               : 'Our team will review your product information within 24 hours.'}
           </p>
-          <a href={`/${locale}/products`} className="inline-flex items-center bg-blue-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-800 transition-colors">
+          <a href={`/${locale}/products`} className="inline-flex items-center bg-primary-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-800 transition-colors">
             ← {t(locale, 'products.allProducts')}
           </a>
         </div>
@@ -72,13 +72,13 @@ export default function ProductUploadPage({ params }: { params: Promise<{ locale
               <label className="block text-sm font-semibold text-gray-700 mb-1">
                 {locale === 'zh' ? '产品名称（英文）' : 'Product Name (EN)'} *
               </label>
-              <input name="nameEn" required className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-blue-500" placeholder="Drywall Screws" />
+              <input name="nameEn" required className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500" placeholder="Drywall Screws" />
             </div>
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-1">
                 {locale === 'zh' ? '产品名称（中文）' : 'Product Name (ZH)'}
               </label>
-              <input name="nameZh" className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-blue-500" placeholder="干壁钉" />
+              <input name="nameZh" className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500" placeholder="干壁钉" />
             </div>
           </div>
 
@@ -87,7 +87,7 @@ export default function ProductUploadPage({ params }: { params: Promise<{ locale
             <label className="block text-sm font-semibold text-gray-700 mb-1">
               {locale === 'zh' ? '产品分类' : 'Category'} *
             </label>
-            <select name="category" required className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-blue-500">
+            <select name="category" required className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500">
               <option value="">Select...</option>
               <option value="drywall-screws">Drywall Screws</option>
               <option value="self-drilling-screws">Self-Drilling Screws</option>
@@ -102,13 +102,13 @@ export default function ProductUploadPage({ params }: { params: Promise<{ locale
             <label className="block text-sm font-semibold text-gray-700 mb-1">
               {locale === 'zh' ? '产品描述（英文）' : 'Description (EN)'} *
             </label>
-            <textarea name="descEn" required rows={3} className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-blue-500" />
+            <textarea name="descEn" required rows={3} className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500" />
           </div>
           <div>
             <label className="block text-sm font-semibold text-gray-700 mb-1">
               {locale === 'zh' ? '产品描述（中文）' : 'Description (ZH)'}
             </label>
-            <textarea name="descZh" rows={3} className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-blue-500" />
+            <textarea name="descZh" rows={3} className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500" />
           </div>
 
           {/* Specifications */}
@@ -127,7 +127,7 @@ export default function ProductUploadPage({ params }: { params: Promise<{ locale
               ].map((spec) => (
                 <div key={spec.key}>
                   <label className="block text-xs font-medium text-gray-500 mb-1">{spec.label}</label>
-                  <input name={`spec_${spec.key}`} className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-blue-500" placeholder={spec.ph} />
+                  <input name={`spec_${spec.key}`} className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-primary-500" placeholder={spec.ph} />
                 </div>
               ))}
             </div>
@@ -150,7 +150,7 @@ export default function ProductUploadPage({ params }: { params: Promise<{ locale
                     const file = e.target.files?.[0]
                     if (file) setPreviewUrl(URL.createObjectURL(file))
                   }}
-                  className="w-full border-2 border-dashed border-gray-300 rounded-lg p-4 text-sm hover:border-blue-400 cursor-pointer"
+                  className="w-full border-2 border-dashed border-gray-300 rounded-lg p-4 text-sm hover:border-primary-400 cursor-pointer"
                 />
                 {previewUrl && (
                   <img src={previewUrl} alt="Preview" className="mt-3 w-32 h-32 object-cover rounded-lg border" />
@@ -163,7 +163,7 @@ export default function ProductUploadPage({ params }: { params: Promise<{ locale
                   name="images"
                   accept="image/*"
                   multiple
-                  className="w-full border-2 border-dashed border-gray-300 rounded-lg p-4 text-sm hover:border-blue-400 cursor-pointer"
+                  className="w-full border-2 border-dashed border-gray-300 rounded-lg p-4 text-sm hover:border-primary-400 cursor-pointer"
                 />
                 <p className="text-xs text-gray-400 mt-1">Max 5 images, JPG/PNG, each under 5MB</p>
               </div>
@@ -196,7 +196,7 @@ export default function ProductUploadPage({ params }: { params: Promise<{ locale
             <button
               type="submit"
               disabled={loading}
-              className="flex-1 bg-blue-900 text-white py-3 rounded-lg font-bold hover:bg-blue-800 disabled:opacity-50 text-base transition-colors"
+              className="flex-1 bg-primary-700 text-white py-3 rounded-lg font-bold hover:bg-primary-800 disabled:opacity-50 text-base transition-colors"
             >
               {loading ? '⏳ Submitting...' : '🚀 Submit Product'}
             </button>

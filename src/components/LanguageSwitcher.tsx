@@ -34,7 +34,7 @@ export default function LanguageSwitcher() {
     <div className="relative" ref={ref}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-1 px-2 py-1 text-sm border border-gray-300 rounded hover:border-blue-500 transition-colors bg-white"
+        className="flex items-center gap-1 px-2 py-1 text-sm border border-gray-300 rounded hover:border-primary-500 transition-colors bg-white"
       >
         <span>{current.nativeName}</span>
         <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -51,8 +51,8 @@ export default function LanguageSwitcher() {
                 key={locale}
                 href={switchLocale(locale)}
                 onClick={() => setIsOpen(false)}
-                className={`flex items-center justify-between px-3 py-2 text-sm hover:bg-blue-50 transition-colors ${
-                  currentLocale === locale ? 'bg-blue-50 text-blue-700 font-semibold' : 'text-gray-700'
+                className={`flex items-center justify-between px-3 py-2 text-sm hover:bg-primary-50 transition-colors ${
+                  currentLocale === locale ? 'bg-primary-50 text-primary-700 font-semibold' : 'text-gray-700'
                 }`}
               >
                 <span>{info.nativeName}</span>

@@ -5,7 +5,7 @@ interface FooterProps { locale?: Locale }
 
 export default function Footer({ locale = 'en' }: FooterProps) {
   return (
-    <footer className="bg-gray-900 text-white py-10 md:py-12">
+    <footer className="bg-primary-900 text-white py-10 md:py-12">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mb-8">
           {/* Company */}
@@ -35,14 +35,13 @@ export default function Footer({ locale = 'en' }: FooterProps) {
             </div>
           </div>
 
-          {/* Products */}
+          {/* Certifications & Standards */}
           <div>
-            <h4 className="font-semibold mb-3 text-sm">{t(locale, 'nav.products')}</h4>
-            <div className="space-y-1.5 text-xs md:text-sm text-gray-400">
-              <p>Drywall Screws</p>
-              <p>Self-Drilling Screws</p>
-              <p>Bolts & Nuts</p>
-              <p>IBR Nails</p>
+            <h4 className="font-semibold mb-3 text-sm">{t(locale, 'footer.certifications') || 'Certifications'}</h4>
+            <div className="space-y-1.5 text-xs md:text-sm">
+              <a href="https://www.iso.org/standard/62085.html" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-white">ISO 9001:2015</a>
+              <a href="https://www.din.de" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-white">DIN Standards</a>
+              <a href="https://www.iso.org/standard/76502.html" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-white">ISO 4014 / 4017</a>
             </div>
           </div>
         </div>

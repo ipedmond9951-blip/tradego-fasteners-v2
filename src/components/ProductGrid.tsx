@@ -19,16 +19,16 @@ const products = [
 
 const productText: Record<string, Record<string, { name: string; desc: string }>> = {
   en: {
-    drywall: { name: 'Drywall Screws', desc: 'Premium bugle head screws for drywall installation' },
-    selfdrilling: { name: 'Self-Drilling Screws', desc: 'High-performance drilling screws for metal and wood' },
-    bolts: { name: 'Bolts & Nuts', desc: 'Industrial grade hex bolts and nuts in various grades' },
-    ibr: { name: 'IBR Nails', desc: 'Umbrella head roofing nails for IBR/corrugated roofing' },
+    drywall: { name: 'Drywall Screws', desc: 'Premium bugle head screws for drywall installation. Coarse thread for wood studs, fine thread for metal studs. Available in 3.5-4.8mm × 25-100mm, zinc plated or black phosphate finish.' },
+    selfdrilling: { name: 'Self-Drilling Screws', desc: 'High-performance TEK screws for metal-to-metal fastening. Built-in drill point eliminates pre-drilling. EPDM washer options for waterproof roofing applications. DIN 7504 compliant.' },
+    bolts: { name: 'Bolts & Nuts', desc: 'Industrial grade hex bolts and nuts in Grade 4.8, 8.8, 10.9. Full thread and partial thread options. Zinc, hot-dip galvanized, and stainless steel finishes. DIN 933/934, ISO 4014/4017 compliant.' },
+    ibr: { name: 'IBR Nails', desc: 'Umbrella head roofing nails for IBR/corrugated roofing. SABS 1195 compliant for African markets. Smooth or ring shank options. Hot-dip galvanized for corrosion resistance.' },
   },
   zh: {
-    drywall: { name: '干壁钉', desc: '优质喇叭头干壁钉，专用于石膏板安装' },
-    selfdrilling: { name: '自钻螺丝', desc: '高性能自钻螺丝，适用于金属和木材' },
-    bolts: { name: '螺栓螺母', desc: '工业级六角螺栓螺母，多种强度等级' },
-    ibr: { name: 'IBR钉', desc: '伞头屋顶钉，适用于IBR/瓦楞板屋面' },
+    drywall: { name: '干壁钉', desc: '优质喇叭头干壁钉，专用于石膏板安装。粗牙适合木龙骨，细牙适合轻钢龙骨。规格3.5-4.8mm × 25-100mm，镀锌或黑磷化处理。' },
+    selfdrilling: { name: '自钻螺丝', desc: '高性能TEK自钻螺丝，金属对金属连接无需预钻孔。带EPDM垫片款适用于防水屋顶。符合DIN 7504标准。' },
+    bolts: { name: '螺栓螺母', desc: '工业级六角螺栓螺母，强度等级4.8、8.8、10.9可选。全丝、半丝规格齐全。镀锌、热镀锌、不锈钢表面处理。符合DIN 933/934、ISO 4014/4017。' },
+    ibr: { name: 'IBR钉', desc: '伞头屋顶钉，专用于IBR/瓦楞板屋面。符合SABS 1195南非标准。光钉/环纹钉可选，热镀锌防腐。' },
   },
   es: {
     drywall: { name: 'Tornillos para tablaroca', desc: 'Tornillos de cabeza avellanada para instalación de tablaroca' },
@@ -103,7 +103,7 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
                 
                 {/* Content */}
                 <div className="flex-1 p-4 md:p-6 flex flex-col">
-                  <h3 className="font-bold text-blue-900 text-sm md:text-base lg:text-lg mb-1">{text.name}</h3>
+                  <h3 className="font-bold text-primary-900 text-sm md:text-base lg:text-lg mb-1">{text.name}</h3>
                   <p className="text-gray-600 text-xs md:text-sm mb-3 line-clamp-2">{text.desc}</p>
                   
                   <div className="space-y-1.5 text-xs md:text-sm mt-auto">
@@ -114,8 +114,8 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
                   </div>
                   
                   <div className="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between gap-2">
-                    <span className="text-blue-900 font-bold text-sm md:text-base whitespace-nowrap">{formatPrice(product.pricePerPiece)}{t(locale, 'products.piece')}</span>
-                    <a href={`/${locale}#inquiry`} className="bg-blue-900 text-white px-3 md:px-4 py-1.5 md:py-2 rounded-lg text-xs md:text-sm font-semibold hover:bg-blue-800 transition-colors whitespace-nowrap">
+                    <span className="text-primary-900 font-bold text-sm md:text-base whitespace-nowrap">{formatPrice(product.pricePerPiece)}{t(locale, 'products.piece')}</span>
+                    <a href={`/${locale}#inquiry`} className="bg-primary-700 text-white px-3 md:px-4 py-1.5 md:py-2 rounded-lg text-xs md:text-sm font-semibold hover:bg-primary-800 transition-colors whitespace-nowrap">
                       {t(locale, 'products.inquiry')}
                     </a>
                   </div>

@@ -46,17 +46,17 @@ export function GeoPromotion() {
     const defaultShipping = t(locale, 'geo.default.shipping')
     if (!defaultPromo && !defaultShipping) return null
     return (
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
-        {defaultPromo && <p className="text-blue-800 font-medium">🎉 {defaultPromo}</p>}
-        {defaultShipping && <p className="text-blue-600 text-sm mt-1">🚢 {defaultShipping}</p>}
+      <div className="bg-primary-50 border border-primary-200 rounded-lg p-4 mb-6">
+        {defaultPromo && <p className="text-primary-800 font-medium">🎉 {defaultPromo}</p>}
+        {defaultShipping && <p className="text-primary-600 text-sm mt-1">🚢 {defaultShipping}</p>}
       </div>
     )
   }
 
   return (
-    <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
-      {content.promotion && <p className="text-blue-800 font-medium">🎉 {content.promotion}</p>}
-      {content.shipping && <p className="text-blue-600 text-sm mt-1">🚢 {content.shipping}</p>}
+    <div className="bg-primary-50 border border-primary-200 rounded-lg p-4 mb-6">
+      {content.promotion && <p className="text-primary-800 font-medium">🎉 {content.promotion}</p>}
+      {content.shipping && <p className="text-primary-600 text-sm mt-1">🚢 {content.shipping}</p>}
     </div>
   )
 }

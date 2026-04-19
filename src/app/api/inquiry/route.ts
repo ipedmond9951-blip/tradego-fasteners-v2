@@ -2,9 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 // Email configuration
 const INQUIRY_EMAIL = 'aimingtrade@hotmail.com';
-
-// For production, use Resend, SendGrid, or similar email service
-// This is a simplified version that logs inquiries
+const RESEND_API_KEY = process.env.RESEND_API_KEY;
 
 interface InquiryData {
   name: string;
@@ -23,7 +21,50 @@ function isInquiryHighValue(quantity?: string): boolean {
   const match = quantity.match(/[\d,]+/);
   if (!match) return false;
   const num = parseInt(match[0].replace(/,/g, ''), 10);
-  return num >= 10000 || num >= 5000; // 10,000+ pieces or 5000+ kg
+  return num >= 10000 || num >= 5000;
+}
+
+async function sendEmail(data: InquiryData, isHighValue: boolean): Promise<boolean> {
+  if (!RESEND_API_KEY) {
+    console.log('RESEND_API_KEY not configured, skipping email');
+    return false;
+  }
+
+  try {
+    const response = await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${RESEND_API_KEY}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        from: 'inquiry@tradego-fasteners.com',
+        to: INQUIRY_EMAIL,
+        subject: `${isHighValue ? '⭐ HIGH VALUE ' : ''}Inquiry from ${data.company || data.name} (${data.country || 'Unknown'})`,
+        html: `
+          <h2>New Inquiry from TradeGo Website</h2>
+          <table style="border-collapse: collapse; width: 100%;">
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Time</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${new Date().toISOString()}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Name</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.name}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Email</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.email}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Company</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.company || 'N/A'}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Phone</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.phone || 'N/A'}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Products</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.products}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Quantity</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.quantity || 'N/A'}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Country</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.country || 'Unknown'}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Message</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.message || 'N/A'}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Value</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${isHighValue ? '⭐ HIGH VALUE' : 'Normal'}</td></tr>
+          </table>
+          <p style="margin-top: 20px;">Reply to: <a href="mailto:${data.email}">${data.email}</a></p>
+        `,
+      }),
+    });
+
+    return response.ok;
+  } catch (error) {
+    console.error('Email send error:', error);
+    return false;
+  }
 }
 
 export async function POST(request: NextRequest) {
@@ -54,37 +95,15 @@ export async function POST(request: NextRequest) {
     console.log(`HIGH VALUE: ${isHighValue ? 'YES ⭐' : 'NO'}`);
     console.log('====================');
 
-    // In production, send email via Resend/SendGrid
-    // Example with Resend:
-    /*
-    if (process.env.RESEND_API_KEY) {
-      const resend = new Resend(process.env.RESEND_API_KEY);
-      await resend.emails.send({
-        from: 'inquiry@tradego-fasteners.com',
-        to: INQUIRY_EMAIL,
-        subject: `${isHighValue ? '⭐ HIGH VALUE ' : ''}Inquiry from ${data.company || data.name} (${data.country})`,
-        html: `
-          <h2>New Inquiry from TradeGo Website</h2>
-          <table>
-            <tr><td><strong>Name:</strong></td><td>${data.name}</td></tr>
-            <tr><td><strong>Email:</strong></td><td>${data.email}</td></tr>
-            <tr><td><strong>Company:</strong></td><td>${data.company || 'N/A'}</td></tr>
-            <tr><td><strong>Phone:</strong></td><td>${data.phone || 'N/A'}</td></tr>
-            <tr><td><strong>Products:</strong></td><td>${data.products}</td></tr>
-            <tr><td><strong>Quantity:</strong></td><td>${data.quantity || 'N/A'}</td></tr>
-            <tr><td><strong>Country:</strong></td><td>${data.country || 'Unknown'}</td></tr>
-            <tr><td><strong>Message:</strong></td><td>${data.message || 'N/A'}</td></tr>
-          </table>
-        `,
-      });
-    }
-    */
+    // Send email notification
+    const emailSent = await sendEmail(data, isHighValue);
+    console.log(`Email sent: ${emailSent}`);
 
-    // Save to file for now (development)
+    // Save to file for backup
     const fs = await import('fs/promises');
     const path = await import('path');
     const inquiryLog = path.join(process.cwd(), 'inquiries.log');
-    const logEntry = `${timestamp} | ${data.name} | ${data.email} | ${data.company || '-'} | ${data.products} | ${data.quantity || '-'} | ${data.country || '-'} | ${isHighValue ? 'HIGH' : 'normal'}\n`;
+    const logEntry = `${timestamp} | ${data.name} | ${data.email} | ${data.company || '-'} | ${data.products} | ${data.quantity || '-'} | ${data.country || '-'} | ${isHighValue ? 'HIGH' : 'normal'} | email:${emailSent}\n`;
     
     try {
       await fs.appendFile(inquiryLog, logEntry);

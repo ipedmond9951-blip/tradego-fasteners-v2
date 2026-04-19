@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1200px; height: 630px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.og {
+  width: 1200px; height: 630px;
+  background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 40%, #2563eb 100%);
+  display: flex; align-items: center; justify-content: center;
+  position: relative; overflow: hidden;
+}
+.og::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  opacity: 0.5;
+}
+.content {
+  position: relative; z-index: 1;
+  text-align: center; color: white;
+  padding: 60px;
+}
+.brand { font-size: 28px; font-weight: 300; letter-spacing: 4px; color: rgba(255,255,255,0.7); margin-bottom: 20px; }
+.title { font-size: 64px; font-weight: 800; line-height: 1.15; margin-bottom: 16px; }
+.title span { color: #facc15; }
+.subtitle { font-size: 24px; color: rgba(255,255,255,0.85); margin-bottom: 36px; font-weight: 400; }
+.badges { display: flex; gap: 24px; justify-content: center; }
+.badge {
+  background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2);
+  padding: 10px 24px; border-radius: 8px; font-size: 16px; font-weight: 600;
+  display: flex; align-items: center; gap: 8px;
+}
+.badge .check { color: #4ade80; font-size: 20px; }
+.cta {
+  margin-top: 36px;
+  background: #facc15; color: #1e3a8a;
+  padding: 14px 40px; border-radius: 10px;
+  font-size: 20px; font-weight: 800;
+  display: inline-block;
+}
+</style>
+</head>
+<body>
+<div class="og">
+  <div class="content">
+    <div class="brand">TRADEGO</div>
+    <div class="title">Leading <span>Fastener</span> Manufacturer</div>
+    <div class="subtitle">Drywall Screws · Self-Drilling Screws · Bolts & Nuts · IBR Nails</div>
+    <div class="badges">
+      <div class="badge"><span class="check">✓</span> ISO 9001 Certified</div>
+      <div class="badge"><span class="check">✓</span> 20+ Years Experience</div>
+      <div class="badge"><span class="check">✓</span> Global Delivery</div>
+    </div>
+    <div class="cta">Get a Quote →</div>
+  </div>
+</div>
+</body>
+</html>

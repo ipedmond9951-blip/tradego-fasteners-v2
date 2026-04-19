@@ -28,7 +28,7 @@ export default function AboutSection({ locale = 'en' }: AboutSectionProps) {
             {stats.map((stat) => (
               <div key={stat.key} className="text-center p-4 md:p-6 bg-white rounded-xl shadow-sm">
                 <div className="text-2xl md:text-3xl mb-1 md:mb-2">{stat.icon}</div>
-                <h3 className="font-bold text-blue-900 text-sm md:text-lg">{t(locale, `about.${stat.key}`)}</h3>
+                <h3 className="font-bold text-primary-900 text-sm md:text-lg">{t(locale, `about.${stat.key}`)}</h3>
                 <p className="text-gray-600 text-xs md:text-sm mt-1 hidden sm:block">{t(locale, `about.${stat.key}Desc`)}</p>
               </div>
             ))}

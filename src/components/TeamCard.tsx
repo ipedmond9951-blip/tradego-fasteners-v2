@@ -8,7 +8,7 @@ export default function TeamCard({ locale = 'en' }: TeamCardProps) {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="bg-white rounded-xl md:rounded-2xl shadow-md border border-gray-100 p-5 md:p-8 flex flex-col sm:flex-row items-start sm:items-center gap-4 md:gap-7">
           {/* TG Logo */}
-          <div className="flex-shrink-0 w-14 h-14 md:w-20 md:h-20 bg-blue-800 rounded-xl flex items-center justify-center shadow-sm">
+          <div className="flex-shrink-0 w-14 h-14 md:w-20 md:h-20 bg-primary-800 rounded-xl flex items-center justify-center shadow-sm">
             <span className="text-yellow-400 font-black text-xl md:text-3xl tracking-tight">TG</span>
           </div>
 
