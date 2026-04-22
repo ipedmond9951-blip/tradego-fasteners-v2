@@ -1,0 +1,60 @@
+{
+  "slug": "concrete-screws-anchors-guide",
+  "category": "Technical Guide",
+  "date": "2026-04-22",
+  "readTime": 6,
+  "image": "/images/products/concrete-screws.jpg",
+  "title": {
+    "en": "Concrete Screws & Anchors Guide: Secure Fastening to Concrete, Brick & Block",
+    "zh": "混凝土螺钉和锚栓指南：混凝土、砖块和砌块的安全固定",
+    "es": "Guía de tornillos y anclajes para concreto: fijación segura en concreto",
+    "ar": "دليل براغي المرساة للخرسانة: التثبيت الآمن للخرسانة والطوب",
+    "fr": "Guide des vis et ancrages pour béton: fixation sécurisée au béton",
+    "pt": "Guia de parafusos e chumbadores para concreto: fixação segura em concreto"
+  },
+  "description": {
+    "en": "Complete guide to concrete screws and anchors covering screw anchors, drop-in anchors, and shield anchors. Learn proper selection and installation for securing fixtures to concrete in African construction projects.",
+    "zh": "混凝土螺钉和锚栓完整指南，涵盖螺钉锚栓、膨胀锚栓和套管锚栓。了解非洲建筑项目中固定装置到混凝土的正确选型和安装。",
+    "es": "Guía completa de tornillos y anclajes para concreto que cubre anclajes de tornillo.",
+    "ar": "دليل شامل لبراغي المرساة للخرسانة يغطي مراسي البراغي والمراسي الأخرى.",
+    "fr": "Guide complet des vis et ancrages pour béton couvrant les ancrages à vis.",
+    "pt": "Guia completo de parafusos e chumbadores para concreto cobrindo chumbadores de parafuso."
+  },
+  "keywords": "concrete screws, concrete anchors, masonry anchors, screw anchors, construction anchors",
+  "sections": [
+    {
+      "id": "types",
+      "heading": { "en": "Types of Concrete Anchors" },
+      "body": { "en": "Concrete anchors come in several types: concrete screws (like Tapcon) are self-threading screws that tap their own threads into concrete; drop-in anchors are sleeve-type anchors that expand against the concrete when a bolt is inserted; shield anchors feature an internal plug that expands a metal shield against the hole wall; and wedge anchors expand against the concrete as the bolt is tightened." },
+      "table": {
+        "headers": ["Anchor Type", "Installation", "Load Capacity", "Best Applications"],
+        "rows": [
+          ["Concrete Screws", "Drill & drive", "Medium", "Electrical boxes, brackets"],
+          ["Drop-in Anchors", "Drill, insert, expand", "High", "Suspended ceilings, machinery"],
+          ["Shield Anchors", "Drill, insert, plug", "Medium", "Handrails, guardrails"],
+          ["Wedge Anchors", "Drill, insert, torque", "Very High", "Structural, machinery"]
+        ]
+      }
+    },
+    {
+      "id": "concrete-screws",
+      "heading": { "en": "Concrete Screws (Tapcon-style)" },
+      "body": { "en": "Concrete screws are the easiest to install and work well for medium-duty applications. They require a pre-drilled hole (using a masonry drill bit the same diameter as the screw) and are driven like a wood screw. They are not recommended for overhead applications or in cracked concrete. The blue coating (for Tapcon brand) indicates proper hardness for concrete fastening." }
+    },
+    {
+      "id": "applications",
+      "heading": { "en": "Common Applications in African Construction" },
+      "body": { "en": "Concrete anchors are used throughout African construction: electrical installation—mounting junction boxes and conduit straps; HVAC—securing ductwork and equipment; signage—attaching building signs and advertisements; safety equipment—handrails, guardrails, and fire protection systems; and machinery—securing equipment bases to concrete floors." }
+    },
+    {
+      "id": "installation",
+      "heading": { "en": "Installation Best Practices" },
+      "body": { "en": "Proper installation: use a hammer drill with masonry bit for drilling holes; clean the hole of dust and debris before insertion; follow minimum edge distance and spacing requirements; for concrete screws, use the correct drill bit size (match manufacturer specifications); and for expansion anchors, apply the correct torque specification to ensure proper expansion." }
+    },
+    {
+      "id": "selection",
+      "heading": { "en": "Selection Criteria" },
+      "body": { "en": "When selecting concrete anchors: determine the load requirements (tension, shear, or combined); consider the base material strength (standard concrete vs. lightweight concrete); evaluate environmental conditions (corrosion potential); check building code requirements for specific applications; and for structural applications, ensure anchors are ICC-ES or equivalent certified." }
+    }
+  ]
+}

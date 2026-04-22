@@ -1,0 +1,60 @@
+{
+  "slug": "lock-nuts-selflocking-nuts-guide",
+  "category": "Technical Guide",
+  "date": "2026-04-22",
+  "readTime": 6,
+  "image": "/images/products/lock-nuts.jpg",
+  "title": {
+    "en": "Lock Nuts & Self-Locking Nuts Guide: Preventing Loosening in Vibrating Environments",
+    "zh": "锁紧螺母和自锁螺母指南：防止振动环境中的松动",
+    "es": "Guía de tuercas de bloqueo y autlocantes: previniendo aflojamiento",
+    "ar": "دليل الصواميل المقفلة والصواميل ذات القفل الذاتي: منع الارتخاء",
+    "fr": "Guide des écrous de blocage et autoverrouillants: empêcher le desserrage",
+    "pt": "Guia de porcas de travamento e autotravantes: prevenindo afrouxamento"
+  },
+  "description": {
+    "en": "Complete guide to lock nuts and self-locking nuts including nylon insert lock nuts, spring-loaded lock nuts, and prevailing torque nuts. Essential for preventing loosening in vibrating machinery and equipment in African mining operations.",
+    "zh": "锁紧螺母和自锁螺母完整指南，包括尼龙嵌入锁紧螺母、弹簧加载锁紧螺母和预紧力矩螺母。对于防止非洲矿业运营中振动机械和设备的松动至关重要。",
+    "es": "Guía completa de tuercas de bloqueo y autlocantes incluyendo tuercas con inserto de nylon.",
+    "ar": "دليل شامل للصواميل المقفلة والصواميل ذات القفل الذاتي بما في ذلك صواميل القفل النايلون.",
+    "fr": "Guide complet des écrous de blocage et autoverrouillants incluant les écrous à insert nylon.",
+    "pt": "Guia completo de porcas de travamento e autotravantes incluindo porcas com inserto de nylon."
+  },
+  "keywords": "lock nuts, self-locking nuts, nylon insert nuts, prevailing torque nuts, vibration resistant fasteners",
+  "sections": [
+    {
+      "id": "problem",
+      "heading": { "en": "The Loosening Problem" },
+      "body": { "en": "Vibration causes fasteners to loosen over time, leading to joint failure, equipment damage, and safety hazards. In African mining and industrial applications, vibration from crushers, conveyors, generators, and heavy equipment makes lock nuts essential for maintaining joint integrity and preventing costly unplanned downtime." }
+    },
+    {
+      "id": "types",
+      "heading": { "en": "Types of Lock Nuts" },
+      "body": { "en": "Nylon insert lock nuts (DIN 985) feature a nylon collar that grips the bolt thread, providing friction to prevent loosening. Spring-loaded lock nuts have a free-spinning flange that applies constant pressure against the bolt face. Prevailing torque nuts (DIN 6796) are designed to create interference during installation, maintaining clamping force even after vibration." },
+      "table": {
+        "headers": ["Type", "Mechanism", "Reusability", "Temperature Limit"],
+        "rows": [
+          ["Nylon Insert (Nylon Lock)", "Friction grip", "Limited (thread wear)", "120°C"],
+          ["Spring Loaded Flange", "Spring pressure", "Yes", "250°C"],
+          ["Prevailing Torque", "Deformation", "No (one-time)", "300°C"],
+          ["All-Metal Lock", "Friction/dimensional", "Yes", "500°C+"]
+        ]
+      }
+    },
+    {
+      "id": "nylon-insert",
+      "heading": { "en": "Nylon Insert Lock Nuts (Nyloc)" },
+      "body": { "en": "Nylon insert lock nuts (commonly called Nyloc nuts) are the most widely used lock nut. The nylon collar at the top of the nut grips the bolt threads when installed. They are cost-effective and provide good vibration resistance for most applications. However, the nylon degrades with temperature and repeated installation cycles." }
+    },
+    {
+      "id": "mining-applications",
+      "heading": { "en": "Mining Applications in Africa" },
+      "body": { "en": "Lock nuts are critical in African mining: conveyor systems—securing belt tensioners and idler brackets; crushers—maintaining jaw crusher liner retention; generators—preventing loose bolts on vibrating equipment; pumps—maintaining impeller and housing connections; and vehicles—maintaining wheel studs and suspension components." }
+    },
+    {
+      "id": "selection",
+      "heading": { "en": "Selection Guide" },
+      "body": { "en": "When selecting lock nuts: for standard applications, nylon insert nuts offer cost-effective solution; for high temperature (above 120°C), use all-metal prevailing torque nuts; for critical structural applications, specify prevailing torque nuts with certification; and for food or medical applications, specify stainless steel with FDA-compliant materials." }
+    }
+  ]
+}

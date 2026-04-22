@@ -2,94 +2,59 @@
   "slug": "machine-screws-specifications",
   "category": "Technical Guide",
   "date": "2026-04-22",
-  "readTime": 10,
-  "image": "/images/products/machine-screws-1.jpg",
+  "readTime": 6,
+  "image": "/images/products/machine-screws.jpg",
   "title": {
-    "en": "Machine Screws Complete Guide: Specifications, Sizes & Applications in Equipment Manufacturing",
-    "zh": "机用螺钉完整指南：规格、尺寸与设备制造应用",
-    "es": "Guía completa de tornillos para máquina: especificaciones y aplicaciones",
-    "ar": "دليل شامل لبراغي الماكينات: المواصفات والتطبيقات",
-    "fr": "Guide complet des vis mécaniques : spécifications et applications",
-    "pt": "Guia completo de parafusos de máquina: especificações e aplicações",
-    "ru": "Полное руководство по машинным винтам: характеристики и применение",
-    "ja": "皿小ねじ完全ガイド：仕様、サイズ、機器製造用途",
-    "de": "Vollständiger Leitfaden zu Maschinenschrauben: Spezifikationen und Anwendungen",
-    "hi": "मशीन स्क्रू पूर्ण गाइड: विशिष्टियाँ, आकार और उपकरण निर्माण में अनुप्रयोग"
+    "en": "Machine Screws Complete Guide: Specifications, Head Types & Industrial Applications",
+    "zh": "机用螺钉完整指南：规格、头型与工业应用",
+    "es": "Guía completa de tornillos para máquina: especificaciones y tipos de cabeza",
+    "ar": "دليل شامل لبراغي الآلات: المواصفات وأنواع الرؤوس",
+    "fr": "Guide complet des vis machine: spécifications et types de tête",
+    "pt": "Guia completo de parafusos de máquina: especificações e tipos de cabeça"
   },
   "description": {
-    "en": "Complete guide to machine screws (cap screws): head types, thread specifications, materials, and applications in electrical panels, machinery, and equipment manufacturing across Africa.",
-    "zh": "机用螺钉完整指南：头型、螺纹规格、材料及非洲电气面板、机械设备制造应用。",
-    "es": "Guía completa de tornillos para máquina.",
-    "ar": "دليل شامل لبراغي الماكينات.",
-    "fr": "Guide complet des vis mécaniques.",
-    "pt": "Guia completo de parafusos de máquina.",
-    "ru": "Полное руководство по машинным винтам.",
-    "ja": "皿小ねじの完全ガイド。",
-    "de": "Vollständiger Leitfaden zu Maschinenschrauben.",
-    "hi": "मशीन स्क्रू पर पूर्ण गाइड"
+    "en": "Complete guide to machine screws covering specifications, head types, and industrial applications. Learn the difference between machine screws and sheet metal screws for precision fastening in African industrial settings.",
+    "zh": "机用螺钉完整指南，涵盖规格、头型和工业应用。了解机用螺钉与金属板螺钉的区别，适用于非洲工业环境的精密紧固。",
+    "es": "Guía completa de tornillos para máquina que cubre especificaciones y tipos de cabeza.",
+    "ar": "دليل شامل لبراغي الآلات يغطي المواصفات وأنواع الرؤوس.",
+    "fr": "Guide complet des vis machine couvrant les spécifications et les types de tête.",
+    "pt": "Guia completo de parafusos de máquina cobrindo especificações e tipos de cabeça."
   },
-  "keywords": "machine screws, cap screws, Phillips head, flat head screws, equipment screws, electrical panel screws, manufacturing fasteners",
+  "keywords": "machine screws, machine screw specifications, industrial fasteners, precision fastening, DIN 963, DIN 964",
   "sections": [
     {
       "id": "what-are-machine-screws",
       "heading": { "en": "What Are Machine Screws?" },
-      "body": { "en": "Machine screws are externally threaded fasteners designed to mate with a pre-machined female thread (tapped hole) in machinery, equipment, or structural components. Unlike self-tapping screws that create their own thread in soft materials, machine screws require a corresponding nut or threaded hole. They are the standard fasteners for assembling manufactured equipment — from electrical panels to motor housings to control cabinets. Machine screws range from M1.6 to M10 diameter and from 2mm to 200mm length, with standardized head types and drive styles." }
+      "body": { "en": "Machine screws are precision fasteners with internal threads designed to mate with a pre-tapped hole or nut. Unlike self-tapping screws, machine screws require a pre-drilled pilot hole with matching threads. They are typically made to tighter tolerances than sheet metal screws and are used in precision applications where alignment and thread fit are critical." }
     },
     {
       "id": "head-types",
-      "heading": { "en": "Head Types and Drive Styles" },
-      "body": { "en": "Machine screws come in numerous head configurations optimized for different assembly requirements: Pan head — provides a large bearing surface and good drive strength, most common for general equipment assembly. Flat head (countersunk) — sits flush with the material surface for a clean appearance, used in enclosures and covers. Round head — traditional appearance, used in older equipment and decorative applications. Binding head — has an enlarged head with a washer-like bearing surface, used in electrical and battery connections. Fillister head — has a deeper head with a small bearing surface, used where clearance is limited." },
+      "heading": { "en": "Head Types" },
+      "body": { "en": "Machine screws come in various head types: flat head (countersunk) sits flush with the material surface; round head provides a decorative appearance with good bearing surface; pan head offers high tightening torque capability; and button head (dome head) provides a rounded appearance with good strength." },
       "table": {
-        "headers": ["Head Type", "Drive Style", "Flush Mount", "Common Use"],
+        "headers": ["Head Type", "DIN Standard", "Drive Style", "Applications"],
         "rows": [
-          ["Pan head", "Phillips/Slotted/Hex", "No", "General equipment assembly"],
-          ["Flat head (CSK)", "Phillips/Slotted", "Yes", "Covers, enclosures"],
-          ["Round head", "Phillips/Slotted", "No", "Electrical panels, vintage equipment"],
-          ["Binding head", "Slotted", "No", "Battery terminals, electrical"],
-          ["Fillister head", "Phillips/Slotted/Hex", "No", "Tight clearance applications"]
+          ["Flat Head (Countersunk)", "DIN 963", "Slot/Phillips/Star", "Flush mounting, machine assembly"],
+          ["Round Head", "DIN 964", "Slot/Phillips", "Decorative, general assembly"],
+          ["Pan Head", "DIN 967", "Phillips/Star", "High torque applications"],
+          ["Button Head (Dome)", "DIN 966", "Phillips/Star", "Decorative, good strength"]
         ]
       }
     },
     {
-      "id": "thread-specs",
-      "heading": { "en": "Thread Specifications: Metric and Imperial" },
-      "body": { "en": "Machine screws use standardized thread forms. Metric machine screws use coarse thread (M×pitch) following ISO 261 and 965 standards: M2×0.4, M2.5×0.45, M3×0.5, M4×0.7, M5×0.8, M6×1.0, M8×1.25, M10×1.5 are the most common. Imperial (UNC/UNF) equivalents use Unified threads: #4-40, #6-32, #8-32, #10-32, #10-24, 1/4-20, 1/4-28, 5/16-18. For African procurement sourced primarily from China, metric sizes dominate. Always verify thread compatibility with the equipment's tapped holes before ordering." },
-      "table": {
-        "headers": ["Metric Size", "Thread Pitch", "Imperial Equivalent", "Typical Use"],
-        "rows": [
-          ["M2", "0.4mm", "#4-40", "Electronics, small devices"],
-          ["M2.5", "0.45mm", "#6-32", "Electronics, appliances"],
-          ["M3", "0.5mm", "#8-32", "Electrical panels, light equipment"],
-          ["M4", "0.7mm", "#10-24", "Control cabinets, enclosures"],
-          ["M5", "0.8mm", "#10-32", "Machinery, heavy panels"],
-          ["M6", "1.0mm", "1/4-20", "Heavy equipment, structural"]
-        ]
-      }
+      "id": "specifications",
+      "heading": { "en": "Common Specifications" },
+      "body": { "en": "Machine screws are available in metric sizes from M2 to M10 and in lengths from 3mm to 100mm. Thread types include coarse (standard) and fine pitch threads. Materials range from zinc-plated steel for basic applications to stainless steel A2 for corrosion resistance and brass for electrical applications." }
     },
     {
-      "id": "materials",
-      "heading": { "en": "Materials and Strength Classes" },
-      "body": { "en": "Machine screw material determines corrosion resistance and strength: Zinc-plated steel — most common, moderate corrosion resistance, cost-effective for indoor equipment. Hot-dip galvanized — improved corrosion resistance for outdoor and damp environments. Stainless steel 304 — excellent corrosion resistance for food processing, marine, and chemical environments. Stainless steel 316 — superior chloride resistance for coastal African environments. Nylon — for electrical insulation, food-grade, and lightweight applications. For strength, machine screws use property classes similar to bolts: 4.8 (most common, general use), 8.8 (higher strength), 10.9 (high-strength for mechanical joints)." }
+      "id": "applications",
+      "heading": { "en": "Industrial Applications in Africa" },
+      "body": { "en": "Machine screws are used in African industry: electrical panels—securing components in switchgear and distribution boards; machinery assembly—precision fastening in manufacturing equipment; telecommunications—mounting equipment in telecom shelters; and automotive—general assembly and repair applications." }
     },
     {
-      "id": "applications-africa",
-      "heading": { "en": "African Equipment Manufacturing Applications" },
-      "body": { "en": "Machine screws are the workhorse of equipment assembly across Africa: Electrical control panels — M3, M4, M5 zinc-plated screws for terminal blocks, DIN rails, and component mounting; Motor junction boxes — M4/M5 stainless or zinc-plated for weatherproofing; Solar inverter mounting — M6/M8 galvanized machine screws for wall mounting brackets; Water pump assemblies — zinc-plated or stainless for submersible pump housings; Generator sets — M5/M6 for control panel and accessory mounting; Switchgear and distribution boards — M4 nickel-plated for electrical contact surfaces." }
-    },
-    {
-      "id": "faq",
-      "heading": { "en": "Frequently Asked Questions" },
-      "faqItems": [
-        { "q": { "en": "What's the difference between a machine screw and a tapping screw?" }, "a": { "en": "Machine screws require a pre-threaded (tapped) hole or nut; they do not create their own thread. Tapping (self-tapping) screws cut or form a thread in soft materials like wood, plastic, or thin metal. For equipment with pre-tapped holes, use machine screws. For assembling sheet metal parts without pre-threading, use self-tapping screws." } },
-        { "q": { "en": "What does 'thread pitch' mean for machine screws?" }, "a": { "en": "Thread pitch is the distance between adjacent threads, measured in millimeters (metric) or threads per inch (imperial). Coarse pitch (e.g., M6×1.0) is standard for most machine screws. Fine pitch (e.g., M6×0.75) is used where higher tension strength or precise adjustment is needed, such as in automotive and aerospace." } },
-        { "q": { "en": "Can machine screws be used for structural connections?" }, "a": { "en": "No. Machine screws are designed for equipment assembly, not structural load-bearing connections. Their shear and tension strength is significantly lower than structural bolts (Grade 8.8 or 10.9 hex bolts). For structural connections, use appropriate structural fasteners." } }
-      ]
+      "id": "vs-sheet-metal",
+      "heading": { "en": "Machine Screws vs. Sheet Metal Screws" },
+      "body": { "en": "The key difference: machine screws require pre-tapped holes and nuts; sheet metal screws create their own threads. Machine screws offer better precision and can be repeatedly assembled/disassembled; sheet metal screws offer faster installation but can strip threads. Use machine screws when precision and repeated assembly are needed; use sheet metal screws for quick fastening in thin materials." }
     }
-  ],
-  "relatedProducts": ["machine-screws", "nuts", "washers"],
-  "cta": {
-    "text": { "en": "Need machine screws for your equipment? Get a factory quote from TradeGo.", "zh": "需要机用螺钉用于设备？从TradeGo获取工厂报价。" },
-    "buttonText": { "en": "Get Quote", "zh": "获取报价" },
-    "link": "/#inquiry"
-  }
+  ]
 }
