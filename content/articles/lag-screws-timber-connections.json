@@ -1,0 +1,109 @@
+{
+  "slug": "lag-screws-timber-connections",
+  "category": "Technical Guide",
+  "date": "2026-04-22",
+  "readTime": 10,
+  "image": "/images/products/lag-screws-1.jpg",
+  "title": {
+    "en": "Lag Screws for Timber Connections: Complete Selection Guide for Construction Professionals",
+    "zh": "木结构用方头螺钉（Lag Screws）完整选型指南：建筑专业人士必备",
+    "es": "Guía completa de selección de tornillos Larsen para conexiones de madera para profesionales de la construcción",
+    "ar": "دليل اختيار شامل لبراغي التأخر لتوصيلات الخشب للمحترفين في البناء",
+    "fr": "Guide complet de sélection des vis à tête hexagonale pour connexions bois pour professionnels de la construction",
+    "pt": "Guia completo de seleção de parafusos de lag para conexões de madeira para profissionais da construção",
+    "ru": "Полное руководство по выбору шурупов для деревянных соединений для профессионалов строительства",
+    "ja": "木構造用ラグスクリュー完全選択ガイド：建設プロフェッショナル向け",
+    "de": "Kompletter Auswahlleitfaden für Holzbauschrauben für Bau professionals",
+    "hi": "लकड़ी कनेक्शन के लिए लैग स्क्रू: निर्माण पेशेवरों के लिए पूर्ण चयन गाइड"
+  },
+  "description": {
+    "en": "Master lag screw selection for timber construction: dimensions, load capacity, installation techniques, and applications in African construction. Essential guide for structural timber projects.",
+    "zh": "掌握木结构方头螺钉选型：尺寸、承载力、安装技术及非洲建筑应用场景。",
+    "es": "Domine la selección de tornillos Larsen para construcción en madera.",
+    "ar": "إتقان اختيار براغي التأخر لبناء الخشب.",
+    "fr": "Maîtrisez la sélection des vis à bois pour construction en bois.",
+    "pt": "Domine a seleção de parafusos de lag para construção em madeira.",
+    "ru": "Освойте выбор шурупов для деревянного строительства.",
+    "ja": "木材建築用ラグスクリューの選択をマスター。",
+    "de": "Meistern Sie die Auswahl von Holzbauschrauben.",
+    "hi": "लकड़ी के निर्माण के लिए लैग स्क्रू का चयन मास्टर करें"
+  },
+  "keywords": "lag screws, timber screws, wood screws, lag bolt, wooden structure fasteners, construction screws",
+  "sections": [
+    {
+      "id": "what-are-lag-screws",
+      "heading": { "en": "What Are Lag Screws and Why Use Them?" },
+      "body": { "en": "Lag screws (also called lag bolts) are heavy-duty wood screws with a hex head and coarse thread, designed to create extremely strong wood-to-wood or wood-to-metal connections. Unlike ordinary wood screws, lag screws require pre-drilling and provide shear and withdrawal resistance comparable to bolted connections. For African timber construction — from trusses to deck subframes — lag screws are the preferred alternative to through-bolts where access is limited." }
+    },
+    {
+      "id": "sizes-specs",
+      "heading": { "en": "Sizes and Specifications" },
+      "body": { "en": "Lag screws range from 1/4\" to 1\" diameter and 1\" to 16\" length. The larger the diameter and length, the higher the load capacity. For structural timber connections in African construction, M8-M12 (5/16\"-1/2\") diameter is most common. Length selection depends on: at least 2x the side member thickness should penetrate the receiving member, plus adequate thread engagement in the main member." },
+      "table": {
+        "headers": ["Diameter", "Length Range", "Driver Size", "Common Application"],
+        "rows": [
+          ["1/4\" (M6)", "1\"-3\"", "3/8\" hex", "Light timber frames"],
+          ["5/16\" (M8)", "1.5\"-6\"", "1/2\" hex", "Decking, light framing"],
+          ["3/8\" (M10)", "2\"-8\"", "9/16\" hex", "Structural timber frames"],
+          ["1/2\" (M12)", "3\"-12\"", "3/4\" hex", "Heavy structural connections"],
+          ["5/8\" (M16)", "4\"-16\"", "15/16\" hex", "Marine, heavy load applications"],
+          ["3/4\" (M20)", "6\"-16\"", "1-1/8\" hex", "Bridge timber, special structures"]
+        ]
+      }
+    },
+    {
+      "id": "material-coatings",
+      "heading": { "en": "Materials and Coatings" },
+      "body": { "en": "For African environments, material selection is critical: Hot-dip galvanized (HDG) is the standard for outdoor and treated timber applications — the zinc coating protects against corrosion and is compatible with ACQ-treated lumber. Stainless steel 316 provides maximum corrosion resistance for coastal applications but is expensive. Plain (uncoated) steel is only suitable for indoor dry environments and must be protected from moisture. Coach screws (lag screws with a square head) are preferred in some African markets for manual installation without power tools." },
+      "table": {
+        "headers": ["Material/Coating", "Corrosion Resistance", "Cost", "Best Environment"],
+        "rows": [
+          ["Hot-dip galvanized", "High", "$$", "Outdoor, treated timber"],
+          ["Stainless steel 316", "Maximum", "$$$$", "Coastal marine"],
+          ["Stainless steel 304", "High", "$$$", "Inland outdoor"],
+          ["Plain steel", "Low", "$", "Indoor dry only"],
+          ["Zinc electroplated", "Moderate", "$", "Indoor/protected outdoor"]
+        ]
+      }
+    },
+    {
+      "id": "installation",
+      "heading": { "en": "Proper Installation Technique" },
+      "body": { "en": "Installation errors account for most lag screw failures. Critical steps: Pre-drill the pilot hole — use a bit 1/64\" smaller than the screw's minor diameter for the shank portion, and a smaller bit (接近 TAP drill) for the threaded portion. The pilot hole must be deep enough to accommodate the full screw length. Use a washer — always use a flat washer under the hex head to distribute load and prevent embedment into the wood. Apply lubricant sparingly — parafin wax or soap reduces torque and prevents thread stripping. Never over-torque — stop when the head is flush with the washer; over-torqueing causes thread stripping in the wood." }
+    },
+    {
+      "id": "load-capacity",
+      "heading": { "en": "Withdrawal and Shear Load Capacity" },
+      "body": { "en": "Lag screw load capacity depends on wood species, screw size, and penetration depth. As a general reference for Douglas Fir-Larch (common in African structural timber imports): a 3/8\"×4\" lag screw with 2.5\" thread engagement provides approximately 400-500 kg withdrawal resistance and 600-800 kg shear resistance. For pine species, reduce by 20-30%. Always use manufacturer load tables or have a structural engineer calculate for critical applications." },
+      "table": {
+        "headers": ["Screw Size", "Min Penetration", "Withdrawal (kg)", "Shear (kg)"],
+        "rows": [
+          ["M8×50mm", "35mm", "200-250", "300-400"],
+          ["M10×75mm", "50mm", "400-500", "600-800"],
+          ["M12×100mm", "65mm", "600-800", "900-1200"],
+          ["M16×125mm", "80mm", "900-1200", "1400-1800"]
+        ]
+      }
+    },
+    {
+      "id": "african-applications",
+      "heading": { "en": "African Construction Applications" },
+      "body": { "en": "For African timber projects, lag screws are widely used in: Roof truss connections — joining purlins to rafters using galvanized M10 lag screws; Decking subframes — attaching deck boards to bearers, using stainless or HDG M10×75mm; Fence construction — structural fence posts to rails; Formwork supports — temporary timber frame for concrete casting; Solar panel mounting — timber rail to steel frame connections (inland only, use HDG). For treated timber (kiln-dried, ACQ-treated), always use hot-dip galvanized lag screws — zinc-plated will corrode rapidly due to chemical reaction with the treatment." }
+    },
+    {
+      "id": "faq",
+      "heading": { "en": "Frequently Asked Questions" },
+      "faqItems": [
+        { "q": { "en": "What's the difference between a lag screw and a structural wood screw?" }, "a": { "en": "Lag screws have a tapered shank and coarse thread designed for wood, with a hex head requiring a wrench. Structural wood screws (like GRK, SPAX) are newer designs with reamer threads and no pre-drilling required, but are more expensive. For heavy timber connections, lag screws remain the most cost-effective choice." } },
+        { "q": { "en": "Can I use lag screws instead of bolts for timber connections?" }, "a": { "en": "Yes, for many applications lag screws are a valid alternative to through-bolts. They provide comparable load capacity without requiring access to both sides of the connection. However, for critical structural connections requiring inspection or where the joint may be disassembled, traditional through-bolts with plates are still preferred." } },
+        { "q": { "en": "Why do lag screws break during installation?" }, "a": { "en": "The most common cause is incorrect pilot hole sizing — too small causes high torque and snapping; too large prevents thread engagement. Always pre-drill with the correct bit size for shank and threaded portions. Also ensure the screw is perpendicular to the wood surface; angled installation creates bending stress." } }
+      ]
+    }
+  ],
+  "relatedProducts": ["lag-screws", "wood-screws", "structural-screws"],
+  "cta": {
+    "text": { "en": "Need lag screws for your timber project? Get a factory quote from TradeGo.", "zh": "需要方头木螺钉用于木结构项目？从TradeGo获取工厂报价。" },
+    "buttonText": { "en": "Get Quote", "zh": "获取报价" },
+    "link": "/#inquiry"
+  }
+}

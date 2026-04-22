@@ -1,0 +1,93 @@
+{
+  "slug": "lock-nuts-nyloc-self-locking",
+  "category": "Technical Guide",
+  "date": "2026-04-22",
+  "readTime": 9,
+  "image": "/images/products/lock-nuts-1.jpg",
+  "title": {
+    "en": "Lock Nuts & Nyloc Nuts: Complete Guide to Self-Locking Fasteners for Vibration Environments",
+    "zh": "锁紧螺母与尼龙嵌件螺母完整指南：振动环境专用自锁紧固件",
+    "es": "Guía completa de tuercas de bloqueo y tuercas Nyloc para ambientes con vibración",
+    "ar": "دليل شامل لصواميل القفل وصواميل النايلوك للبيئات التي تعاني من الاهتزاز",
+    "fr": "Guide complet des écrous de blocage et écrous Nyloc pour environnements vibrants",
+    "pt": "Guia completo de porcas de bloqueio e porcas Nyloc para ambientes com vibração",
+    "ru": "Полное руководство по стопорным гайкам и нейлоновым гайкам для вибрационных сред",
+    "ja": "ロックナット・ナイロックナットの完全ガイド：振動環境向け自己締め付け緩み止め金具",
+    "de": "Vollständiger Leitfaden zu Sicherungsmuttern und Nyloc-Muttern für Vibrationsumgebungen",
+    "hi": "लॉक नट और नायलॉक नट: कंपन वातावरण के लिए सेल्फ-लॉकिंग फास्टनर पूर्ण गाइड"
+  },
+  "description": {
+    "en": "Complete guide to lock nuts and Nyloc self-locking nuts. Learn how they work, when to use them, and how to select the right self-locking nut for machinery, vehicles, and vibrating equipment in African projects.",
+    "zh": "锁紧螺母和尼龙嵌件自锁螺母完整指南。了解工作原理、使用场景及非洲项目机械、车辆、振动设备的正确选型。",
+    "es": "Guía completa de tuercas de bloqueo y autotrabado.",
+    "ar": "دليل شامل لصواميل القفل الذاتي.",
+    "fr": "Guide complet des écrous à blocage automatique.",
+    "pt": "Guia completo de porcas de bloqueio automático.",
+    "ru": "Полное руководство по самоконтрящимся гайкам.",
+    "ja": "ロックナットと自己締め付け緩み止めナットの完全ガイド。",
+    "de": "Vollständiger Leitfaden zu selbstsichernden Muttern.",
+    "hi": "लॉक नट और सेल्फ-लॉकिंग नट पर पूर्ण गाइड"
+  },
+  "keywords": "lock nuts, Nyloc nuts, self-locking nuts, prevailing torque nuts, nylon insert nuts, vibration resistant fasteners",
+  "sections": [
+    {
+      "id": "why-need-locking",
+      "heading": { "en": "Why Standard Nuts Loosen Under Vibration" },
+      "body": { "en": "Standard nuts (hex nuts) rely entirely on friction between the threads to stay secured. Under vibration, cyclic loading, or thermal expansion-contraction cycles, this friction is gradually overcome — causing the nut to rotate and loosen. A loose fastener in critical machinery (conveyor systems, vibrating screens, vehicle suspension) can cause catastrophic failure. Self-locking nuts provide positive mechanical resistance to loosening, independent of friction." }
+    },
+    {
+      "id": "nyloc-nuts",
+      "heading": { "en": "Nylon Insert Lock Nuts (Nyloc)" },
+      "body": { "en": "Nylon insert nuts (commonly called Nyloc nuts) have a nylon ring pressed into the top of the nut that creates a friction interference with the bolt thread. The nylon provides prevailing torque — the nut resists rotation during assembly and disassembly. Key characteristics: Reusable — can be installed/removed multiple times, though locking performance degrades after 5-10 cycles; Temperature limited — nylon loses effectiveness above 250°C and becomes brittle below -40°C; Requires full thread engagement — the nylon ring must engage at least the full thread depth of the nut." },
+      "table": {
+        "headers": ["Temperature Range", "Prevailing Torque", "Reusability", "Best Use"],
+        "rows": [
+          ["-40°C to +120°C", "Medium", "Good (5-10 cycles)", "General machinery"],
+          ["-40°C to +200°C (HD nylon)", "Medium", "Moderate", "Higher temperature"],
+          ["-40°C to +250°C (metal insert)", "High", "Excellent", "Engines, turbines"],
+          ["All temperatures (all-metal)", "Very high", "Excellent", "Critical safety applications"]
+        ]
+      }
+    },
+    {
+      "id": "prevailing-torque-types",
+      "heading": { "en": "All-Metal Lock Nuts: Keke and Top Lock Types" },
+      "body": { "en": "For high-temperature environments (engines, exhaust systems, turbines) or where fire safety is critical, all-metal lock nuts are required. Two main designs: Keke (castle) nuts — have notches at the top that create deformation of the bolt thread; the deformed thread creates a mechanical interlock. Top-lock nuts — have a deformed area at the top that presses against the bolt shank. Both provide high prevailing torque but may damage threads if repeatedly removed." },
+      "table": {
+        "headers": ["Type", "Temperature Rating", "Reusability", "Application"],
+        "rows": [
+          ["Nylon Insert (Nyloc)", "Up to +120°C", "Good", "General machinery"],
+            ["All-Metal Keke", "Up to +300°C", "Limited", "Engines, turbines"],
+            ["Top Lock (stamped)", "Up to +200°C", "Moderate", "Automotive, appliances"],
+            ["Polymer Flange Lock", "Up to +150°C", "Good", "Mass production assembly"],
+            ["Detachable (floating)", "Up to +250°C", "Excellent", "Maintenance-heavy applications"]
+        ]
+      }
+    },
+    {
+      "id": "selection-guide",
+      "heading": { "en": "Selection Guide for African Applications" },
+      "body": { "en": "For African industrial and mining applications: Mining equipment (vibrating screens, crushers, conveyors) — use Nyloc nuts M10-M20 on all critical joints; specify zinc-nickel coated for underground moisture. Solar farm mounting — flange lock nuts on clamping bolts (reuse for seasonal adjustments); HDG or stainless for coastal sites. Automotive (trucks, tractors imported to Africa) — OEM uses nylon insert or stamped top-lock; use equivalent grade on repairs. Generators and compressors — all-metal Nyloc or keke nuts where temperatures exceed 150°C. Agricultural equipment — Nyloc nuts are standard on seed drills, combine harvesters, irrigation pumps." }
+    },
+    {
+      "id": "installation-tips",
+      "heading": { "en": "Installation Best Practices" },
+      "body": { "en": "Correct installation is essential for lock nuts to perform: Verify thread cleanliness — oil, dirt, or damaged threads reduce locking effectiveness. For Nyloc nuts, ensure the bolt thread is clean and undamaged. Do not use with lubricants — locking nuts are designed for dry thread conditions; lubricants reduce prevailing torque. Full engagement — the bolt must thread fully through the nylon insert; bottoming out indicates insufficient engagement. Torque correctly — use calibrated torque wrench; over-torqueing can deform the nylon insert or strip threads." }
+    },
+    {
+      "id": "faq",
+      "heading": { "en": "Frequently Asked Questions" },
+      "faqItems": [
+        { "q": { "en": "Can I reuse a Nyloc nut?" }, "a": { "en": "Yes, Nyloc nuts can typically be reused 5-10 times before significant degradation of the nylon insert. For critical applications (safety, heavy vibration), replace with a new Nyloc nut each service interval. If the nylon insert appears cracked, deformed, or glazed, replace immediately." } },
+        { "q": { "en": "What's better — Nyloc or spring lock washer?" }, "a": { "en": "For vibration applications, lock nuts outperform spring washers significantly. Spring washers (split lock washers) rely on spring tension and can lose effectiveness under sustained vibration. Nyloc nuts provide consistent prevailing torque throughout the joint's life. For critical joints, use both: Nyloc nut + flat washer." } },
+        { "q": { "en": "What does 'prevailing torque' mean?" }, "a": { "en": "Prevailing torque is the torque required to rotate the nut onto the bolt before the main tightening torque is applied. It is measured as the torque needed to overcome the locking mechanism's resistance. A quality Nyloc nut typically has prevailing torque of 0.5-2.0 N·m depending on size. This value must be verified in the product datasheet for engineering applications." } }
+      ]
+    }
+  ],
+  "relatedProducts": ["lock-nuts", "nyloc-nuts", "hex-nuts"],
+  "cta": {
+    "text": { "en": "Need self-locking nuts for your equipment? Get a factory quote from TradeGo.", "zh": "需要自锁螺母用于您的设备？从TradeGo获取工厂报价。" },
+    "buttonText": { "en": "Get Quote", "zh": "获取报价" },
+    "link": "/#inquiry"
+  }
+}
