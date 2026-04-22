@@ -1,0 +1,92 @@
+{
+  "slug": "high-tensile-structural-bolts-guide",
+  "category": "Technical Guide",
+  "date": "2026-04-22",
+  "readTime": 12,
+  "image": "/images/products/high-tensile-bolts-1.jpg",
+  "title": {
+    "en": "High-Tensile Structural Bolts Guide: A325, A490, and Grade 10.9 Bolts for Construction",
+    "zh": "高强度结构螺栓完整指南：A325、A490与10.9级螺栓在建筑中的应用",
+    "es": "Guía de pernos estructurales de alta resistencia: pernos A325, A490 y grado 10.9 para construcción",
+    "ar": "دليل البراغي الهيكلية عالية الشد: براغي A325 وA490 ودرجة 10.9 للبناء",
+    "fr": "Guide des boulons structurels haute résistance : boulons A325, A490 et grade 10.9 pour la construction",
+    "pt": "Guia de parafusos estruturais de alta resistência: parafusos A325, A490 e grau 10.9 para construção",
+    "ru": "Руководство по высокопрочным конструкционным болтам: болты A325, A490 и класса 10.9 для строительства",
+    "ja": "高強度構造ボルト完全ガイド：A325、A490、10.9級ボルトの建築用途",
+    "de": "Leitfaden zu hochfesten Strukturbolzen: A325-, A490- und Güte-10.9-Bolzen für den Bau",
+    "hi": "उच्च-तनाव संरचनात्मक बोल्ट गाइड: A325, A490 और ग्रेड 10.9 बोल्ट"
+  },
+  "description": {
+    "en": "Complete guide to high-tensile structural bolts covering ASTM A325, A490, and ISO Grade 10.9. Learn proper installation, tightening methods, and procurement specs for steel construction projects in Africa.",
+    "zh": "高强度结构螺栓完整指南，涵盖ASTM A325、A490和ISO 10.9级。了解正确的安装方法、紧固技术和非洲钢结构项目的采购规格。",
+    "es": "Guía completa de pernos estructurales de alta resistencia que cubre ASTM A325, A490 e ISO Grado 10.9.",
+    "ar": "دليل شامل للبراغي الهيكلية عالية الشد يغطي ASTM A325 وA490 وISO Grade 10.9.",
+    "fr": "Guide complet des boulons structurels haute résistance couvrant ASTM A325, A490 et ISO Grade 10.9.",
+    "pt": "Guia completo de parafusos estruturais de alta resistência cobrindo ASTM A325, A490 e ISO Grau 10.9.",
+    "ru": "Полное руководство по высокопрочным конструкционным болтам: ASTM A325, A490 и ISO класс 10.9.",
+    "ja": "ASTM A325、A490、ISO 10.9級をカバーする高強度構造ボルト完全ガイド。",
+    "de": "Vollständiger Leitfaden zu hochfesten Strukturbolzen: ASTM A325, A490 und ISO Güte 10.9.",
+    "hi": "ASTM A325, A490 और ISO Grade 10.9 को कवर करने वाले हाई-टेंसाइल स्ट्रक्चरल बोल्ट गाइड"
+  },
+  "keywords": "high tensile bolts, A325 bolts, A490 bolts, Grade 10.9 bolts, structural steel bolts, construction fasteners, preload bolts",
+  "sections": [
+    {
+      "id": "what-are-high-tensile",
+      "heading": { "en": "What Are High-Tensile Structural Bolts?" },
+      "body": { "en": "High-tensile structural bolts are engineered for load-bearing connections in steel structures. Unlike ordinary hex bolts, structural bolts are manufactured to exacting mechanical tolerances and are designed to be tightened to a specific preload (clamping force). They are the backbone of modern steel construction — from high-rise buildings to industrial warehouses in Africa's growing construction market." }
+    },
+    {
+      "id": "astm-standards",
+      "heading": { "en": "ASTM Standards: A325 vs A490" },
+      "body": { "en": "ASTM A325 bolts are heat-treated medium-carbon steel with minimum tensile strength of 825 MPa (120 ksi). They are the most widely used structural bolts in the world. ASTM A490 bolts are heat-treated alloy steel with minimum tensile strength of 1035 MPa (150 ksi), offering higher strength but with stricter installation controls and prohibition of hot-dip galvanizing." },
+      "table": {
+        "headers": ["Standard", "Material", "Tensile Strength", "Yield Strength", "Galvanizing"],
+        "rows": [
+          ["ASTM A325", "Medium carbon steel", "825 MPa", "635 MPa", "Allowed (mechanical or hot-dip)"],
+          ["ASTM A490", "Alloy steel", "1035 MPa", "895 MPa", "Not allowed"],
+          ["ISO 4014 Grade 10.9", "Alloy steel", "1000 MPa", "900 MPa", "Allowed"],
+          ["ISO 4014 Grade 8.8", "Medium carbon steel", "800 MPa", "640 MPa", "Allowed"]
+        ]
+      }
+    },
+    {
+      "id": "installation-methods",
+      "heading": { "en": "Proper Installation: Turn-of-Nut & DTI Methods" },
+      "body": { "en": "Structural bolts require controlled tightening to achieve the proper preload. The two most common methods are: Turn-of-Nut method — rotate the nut a calculated amount after snug-tightening (typically 1/2 to 3/4 turn depending on bolt length and diameter). Direct Tension Indicator (DTI) method — use specialized washers with protrusions that compress when proper preload is reached. For African construction, the Turn-of-Nut method is most common due to its simplicity and minimal equipment requirements." },
+      "table": {
+        "headers": ["Method", "Equipment Needed", "Accuracy", "Best For"],
+        "rows": [
+          ["Turn-of-Nut", "Spud wrench, marking pen", "Good", "Field installation"],
+          ["DTI Washers", "DTI washers, standard wrench", "Very good", "Critical connections"],
+          ["Torque Wrench", "Calibrated torque wrench", "Moderate", "Indoor/factory work"],
+          ["TC Bolts", "Twist-off bolts, special wrench", "Excellent", "High-volume production"]
+        ]
+      }
+    },
+    {
+      "id": "common-applications-africa",
+      "heading": { "en": "Applications in African Construction" },
+      "body": { "en": "In Africa's rapidly expanding construction sector, high-tensile structural bolts are essential for: Warehouse and industrial building construction — bolted connections are faster than welding for on-site assembly. Mining infrastructure — structural bolts in conveyor systems, processing plants, and storage silos. Solar panel mounting structures — ground screw foundations and rafter connections use 10.9 bolts. Telecom towers — monopoles and lattice towers rely on A325/A490 bolts for structural joints. Bridge construction — both A325 and high-strength A490 are used in bridge deck and truss connections." }
+    },
+    {
+      "id": "procurement-checklist",
+      "heading": { "en": "Procurement Checklist for African Projects" },
+      "body": { "en": "Before placing orders, verify: Material test reports (MTRs) — each batch should have certified chemistry and mechanical properties. Dimension verification — threads per ISO metric or UNC/UNF imperial as specified. Coating specification — hot-dip galvanized (80μm minimum per ISO 1461) for coastal projects; mechanical zinc for inland. Nut and washer compatibility — assemblies should be supplied as matched sets from the same manufacturer. Markings — A325 bolts are marked with 'A325' and manufacturer symbol; A490 bolts marked with 'A490'." }
+    },
+    {
+      "id": "faq",
+      "heading": { "en": "Frequently Asked Questions" },
+      "faqItems": [
+        { "q": { "en": "What's the difference between A325 and Grade 10.9 bolts?" }, "a": { "en": "A325 and Grade 10.9 are roughly equivalent in strength. A325 has a minimum tensile of 825 MPa while Grade 10.9 is 1000 MPa. However, A325 is specifically designed for structural applications with controlled installation requirements, while 10.9 is a general mechanical property class. For structural steel work, either is acceptable if specified by the engineer." } },
+        { "q": { "en": "Can A490 bolts be hot-dip galvanized?" }, "a": { "en": "No, ASTM A490 prohibits hot-dip galvanizing due to risk of hydrogen embrittlement. For corrosion resistance, A490 bolts must use alternative coatings such as zinc-flake (Geomet, Magni) or mechanically deposited zinc. This significantly increases cost compared to A325." } },
+        { "q": { "en": "What happens if structural bolts are under-tightened?" }, "a": { "en": "Under-tightened structural bolts act as ordinary bearing-type connections rather than friction-type connections. This reduces the load-carrying capacity of the joint and can lead to joint slippage, which may cause structural failure under dynamic or cyclic loading. Always follow the specified tightening procedure." } }
+      ]
+    }
+  ],
+  "relatedProducts": ["hex-bolts", "structural-bolts", "washers"],
+  "cta": {
+    "text": { "en": "Sourcing high-tensile structural bolts for your African project? Get a factory quote from TradeGo.", "zh": "为您的非洲项目采购高强度结构螺栓？从TradeGo获取工厂报价。" },
+    "buttonText": { "en": "Get Quote", "zh": "获取报价" },
+    "link": "/#inquiry"
+  }
+}
