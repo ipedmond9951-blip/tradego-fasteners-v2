@@ -1,0 +1,69 @@
+{
+  "slug": "timber-construction-fasteners-africa",
+  "category": "Technical Guide",
+  "date": "2026-04-22",
+  "readTime": 10,
+  "image": "/images/products/timber-fasteners-1.jpg",
+  "title": {
+    "en": "Timber Construction Fasteners in Africa: Structural Wood Connections, Trusses & Preservation",
+    "zh": "非洲木结构建筑紧固件：结构木材连接、桁架与防腐",
+    "es": "Guía de sujetadores para construcción en madera en África",
+    "ar": "دليل موانع البناء الخشبي في أفريقيا",
+    "fr": "Fixations pour construction bois en Afrique",
+    "pt": "Fixadores para construção em madeira na África",
+    "ru": "Крепеж для деревянного строительства в Африке",
+    "ja": "アフリカの木構造建築緩み止め金具：構造用木材接合・トラス・防腐",
+    "de": "Holzbau-Befestigungen in Afrika: Holzverbindungen, Dachstühle und Konservierung",
+    "hi": "अफ्रीकी लकड़ी निर्माण फास्टनर"
+  },
+  "description": {
+    "en": "Complete guide to timber construction fasteners in Africa: structural screws, nail plates, truss connections, and treated timber hardware. Essential for roof trusses, timber frames, and wooden building structures.",
+    "zh": "非洲木结构建筑紧固件完整指南：结构螺钉、钢板、桁架连接及防腐处理木材配件。适用于屋顶桁架、木框架和木结构建筑。",
+    "es": "Guía completa de sujetadores para construcción en madera en África.",
+    "ar": "دليل شامل لموانع البناء الخشبي في أفريقيا.",
+    "fr": "Guide complet des fixations pour construction bois en Afrique.",
+    "pt": "Guia completo de fixadores para construção em madeira na África.",
+    "ru": "Полное руководство по крепежу для деревянного строительства в Африке.",
+    "ja": "アフリカの木構造建築向け完全ガイド。",
+    "de": "Vollständiger Leitfaden zu Holzbau-Befestigungen in Afrika.",
+    "hi": "अफ्रीकी लकड़ी निर्माण फास्टनर पर पूर्ण गाइड"
+  },
+  "keywords": "timber construction fasteners, wood screws, nail plates, truss plates, structural timber, roof trusses, treated timber, African timber construction",
+  "sections": [
+    {
+      "id": "timber-fastener-types",
+      "heading": { "en": "Fastener Types for Structural Timber in Africa" },
+      "body": { "en": "Structural timber construction in Africa uses several specialized fastener types: Nail plates (gang-nail plates) — galvanized steel plates with stamped nail-like teeth on one face; pressed into timber joints at the factory; the primary fastener for prefabricated roof trusses; thickness typically 1.0-2.0mm galvanized; must be protected from moisture to prevent corrosion. Split rings — circular steel rings with a saw-tooth edge, inserted into pre-bored grooves in timber; provides shear resistance in wood-to-wood connections; used in heavy timber structures. Shear plate connectors — similar to split rings but installed in pairs on opposite faces of the timber; used in high-load moment connections. Coach screws (lag screws) — heavy wood screws with a square head; used for moment connections in post-and-beam construction." }
+    },
+    {
+      "id": "roof-truss-fasteners",
+      "heading": { "en": "Roof Truss Connection Hardware" },
+      "body": { "en": "Prefabricated timber roof trusses use specific connection hardware: Truss clips (toe-nail plates) — light galvanized steel plates connecting truss members at nodes; toe-nail pattern allows quick field installation; not structural moment connections, but transfers shear loads. Gusset plates — larger galvanized plates covering the intersection of truss members; pressed with hydraulic equipment at the factory; typically 2-3mm galvanized steel. Bolt plates — steel plates with pre-drilled holes for through-bolts; used where bolts are specified in the structural design. Hanger brackets — steel hangers supporting floor joists or purlins from beams or walls; use joist hangers with nail holes for wood-to-wood connections, or I-joist hangers for engineered wood products. Hurricane ties — galvanized steel straps connecting roof trusses to wall plates; essential in high-wind African coastal and storm-prone areas; specify Simpson Strong-Tie or equivalent." }
+    },
+    {
+      "id": "treated-timber",
+      "heading": { "en": "Fasteners for Treated Timber: ACQ and CCA" },
+      "body": { "en": "Treated timber (preserved wood) is standard in African construction for outdoor and structural applications, but the treatment chemicals create fastener compatibility challenges: ACQ (Alkaline Copper Quaternary) — the most common modern treatment; highly corrosive to standard steel, zinc-plated, and even HDG fasteners; requires stainless steel 316 or polymer-coated (e.g., zinc epoxy) fasteners. CCA (Chromated Copper Arsenate) — older treatment still found in existing structures; extremely corrosive to steel; requires HDG or stainless steel; do not use zinc-plated. Hot-dip galvanized fasteners work with CCA but not ACQ at the standard 45μm coating thickness. For ACQ-treated timber in outdoor applications, specify stainless steel 316 or minimum 45μm HDG (heavier HDG may work but is not guaranteed). Always verify the treatment type with the timber supplier and match fastener material accordingly." }
+    },
+    {
+      "id": "african-timber-species",
+      "heading": { "en": "African Timber Species and Fastener Holding" },
+      "body": { "en": "African timber species vary significantly in density and fastener-holding characteristics: Hardwoods (teak, African mahogany, iroko) — high density (600-900 kg/m³); excellent fastener holding but require pre-drilling; risk of splitting if drilled too close to edge. Pine species (imported or locally grown) — medium density (400-600 kg/m³); moderate fastener holding; the most common structural timber in African roof trusses; pre-drill for large fasteners. Eucalyptus species (grown in African plantations) — high density (700-900 kg/m³); excellent strength but difficult to nail; pre-drilling is recommended. For structural connections in hardwoods, specify lag screws or coach screws with pilot holes; standard nails may split the wood and provide inadequate pullout resistance. Always consult structural engineer for connection design in non-standard timber species." }
+    },
+    {
+      "id": "faq",
+      "heading": { "en": "Frequently Asked Questions" },
+      "faqItems": [
+        { "q": { "en": "Can I use standard HDG bolts with ACQ-treated timber?" }, "a": { "en": "No — ACQ (Alkaline Copper Quaternary) treated timber will rapidly corrode standard hot-dip galvanized fasteners. The high alkalinity of ACQ accelerates zinc corrosion, and once the zinc is consumed, the underlying steel corrodes. For outdoor ACQ-treated timber applications, specify stainless steel 316 or specialized ACQ-compatible coated fasteners. For indoor ACQ-treated timber (above ground, protected from direct moisture), some manufacturers claim HDG works, but SS316 remains the safer choice." } },
+        { "q": { "en": "What is the difference between a coach screw and a lag screw?" }, "a": { "en": "Technically, 'coach screw' and 'lag screw' are the same thing — a heavy wood screw with a hex head. In the UK and much of Africa, they are called coach screws; in North America, they are called lag screws. Both have a coarse thread designed for wood and require pre-drilling. The hex head is driven with a spanner or socket wrench. They are used for heavy timber connections where bolts are impractical." } },
+        { "q": { "en": "How do I prevent splitting when nailing near the end of timber?" }, "a": { "en": "Splitting is caused by the nail wedging the wood fibers apart. Prevention methods: Pre-drill pilot holes — for hardwoods and near end grain, drill a pilot hole slightly smaller than the nail diameter; for softwoods, pre-drilling is only needed near the end. Stagger nail positions — instead of driving two nails in a straight line, stagger them at slight angles; this reduces the splitting plane. Use nails with smaller diameter — spiral shank or annular ring shank nails split less than smooth shank. Nail to the side grain, not end grain where possible — end grain has much lower holding power and splits more easily. Maintain minimum edge distances — typically 2x nail diameter from the edge and 10x nail diameter from the end." } }
+      ]
+    }
+  ],
+  "relatedProducts": ["timber-fasteners", "structural-screws", "treated-timber-hardware"],
+  "cta": {
+    "text": { "en": "Need timber construction fasteners for your African project? Get a factory quote from TradeGo.", "zh": "需要木结构建筑紧固件？从TradeGo获取工厂报价。" },
+    "buttonText": { "en": "Get Quote", "zh": "获取报价" },
+    "link": "/#inquiry"
+  }
+}
