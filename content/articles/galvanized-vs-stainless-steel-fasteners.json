@@ -24,93 +24,288 @@
   "sections": [
     {
       "id": "the-wrong-choice-costs",
-      "heading": { "en": "The Wrong Choice Costs 10x More" },
-      "body": { "en": "Selecting the wrong corrosion protection for fasteners has compounding costs. Using zinc-plated screws in a coastal environment means replacement within 2-3 years — at 5-8x the original fastener cost when you factor in labor, downtime, and potential structural damage. Conversely, specifying 316 stainless steel for dry indoor applications wastes 6-8x budget with no performance benefit. This guide provides a systematic decision framework so you specify right the first time." }
+      "heading": {
+        "en": "The Wrong Choice Costs 10x More"
+      },
+      "body": {
+        "en": "Selecting the wrong corrosion protection for fasteners has compounding costs. Using zinc-plated screws in a coastal environment means replacement within 2-3 years — at 5-8x the original fastener cost when you factor in labor, downtime, and potential structural damage. Conversely, specifying 316 stainless steel for dry indoor applications wastes 6-8x budget with no performance benefit. This guide provides a systematic decision framework so you specify right the first time."
+      }
     },
     {
       "id": "galvanized-explained",
-      "heading": { "en": "Galvanized Fasteners: Types & Performance" },
-      "body": { "en": "Galvanizing applies a zinc coating that sacrifices itself to protect the base steel. Three main methods exist, each with different zinc thickness and performance characteristics." },
+      "heading": {
+        "en": "Galvanized Fasteners: Types & Performance"
+      },
+      "body": {
+        "en": "Galvanizing applies a zinc coating that sacrifices itself to protect the base steel. Three main methods exist, each with different zinc thickness and performance characteristics."
+      },
       "table": {
-        "headers": ["Method", "Zinc Thickness", "Salt Spray", "Cost Index", "Best For"],
+        "headers": [
+          "Method",
+          "Zinc Thickness",
+          "Salt Spray",
+          "Cost Index",
+          "Best For"
+        ],
         "rows": [
-          ["Electro-galvanized", "5-15 μm (Z12-Z27)", "24-72 hrs", "1.0x", "Dry indoor only"],
-          ["Mechanically galvanized", "15-75 μm (Z60-Z600)", "200-800 hrs", "1.5-2x", "Coastal / outdoor"],
-          ["Hot-dip galvanized", "45-85 μm (Z275-Z600)", "400-1000 hrs", "1.8-2.5x", "Heavy outdoor / marine-adjacent"]
+          [
+            "Electro-galvanized",
+            "5-15 μm (Z12-Z27)",
+            "24-72 hrs",
+            "1.0x",
+            "Dry indoor only"
+          ],
+          [
+            "Mechanically galvanized",
+            "15-75 μm (Z60-Z600)",
+            "200-800 hrs",
+            "1.5-2x",
+            "Coastal / outdoor"
+          ],
+          [
+            "Hot-dip galvanized",
+            "45-85 μm (Z275-Z600)",
+            "400-1000 hrs",
+            "1.8-2.5x",
+            "Heavy outdoor / marine-adjacent"
+          ]
         ]
       }
     },
     {
       "id": "stainless-explained",
-      "heading": { "en": "Stainless Steel Fasteners: Grades & Performance" },
-      "body": { "en": "Stainless steel fasteners form a self-healing chromium oxide layer that provides inherent corrosion resistance without any coating. The three common grades for fasteners each serve different environments." },
+      "heading": {
+        "en": "Stainless Steel Fasteners: Grades & Performance"
+      },
+      "body": {
+        "en": "Stainless steel fasteners form a self-healing chromium oxide layer that provides inherent corrosion resistance without any coating. The three common grades for fasteners each serve different environments."
+      },
       "table": {
-        "headers": ["Grade", "Chromium", "Nickel", "Salt Spray", "Cost Index", "Best For"],
+        "headers": [
+          "Grade",
+          "Chromium",
+          "Nickel",
+          "Salt Spray",
+          "Cost Index",
+          "Best For"
+        ],
         "rows": [
-          ["A2 (304)", "18%", "8%", "500+ hrs", "4-5x", "General outdoor, food processing"],
-          ["A4 (316)", "16%", "10% + 2% Mo", "1500+ hrs", "6-8x", "Marine, chemical, coastal"],
-          ["A5 (316L)", "16%", "10% + 2% Mo (low C)", "2000+ hrs", "7-9x", "Welded structures, extreme marine"]
+          [
+            "A2 (304)",
+            "18%",
+            "8%",
+            "500+ hrs",
+            "4-5x",
+            "General outdoor, food processing"
+          ],
+          [
+            "A4 (316)",
+            "16%",
+            "10% + 2% Mo",
+            "1500+ hrs",
+            "6-8x",
+            "Marine, chemical, coastal"
+          ],
+          [
+            "A5 (316L)",
+            "16%",
+            "10% + 2% Mo (low C)",
+            "2000+ hrs",
+            "7-9x",
+            "Welded structures, extreme marine"
+          ]
         ]
       }
     },
     {
       "id": "head-to-head",
-      "heading": { "en": "Head-to-Head Comparison" },
-      "body": { "en": "When galvanized and stainless go toe-to-toe, the trade-offs are clear. Galvanized wins on cost and mechanical strength. Stainless wins on longevity and zero maintenance." },
+      "heading": {
+        "en": "Head-to-Head Comparison"
+      },
+      "body": {
+        "en": "When galvanized and stainless go toe-to-toe, the trade-offs are clear. Galvanized wins on cost and mechanical strength. Stainless wins on longevity and zero maintenance."
+      },
       "table": {
-        "headers": ["Factor", "Galvanized", "Stainless Steel (304)", "Stainless Steel (316)"],
+        "headers": [
+          "Factor",
+          "Galvanized",
+          "Stainless Steel (304)",
+          "Stainless Steel (316)"
+        ],
         "rows": [
-          ["Cost per 1000 pcs (M8×40)", "$45-85", "$180-250", "$280-400"],
-          ["Expected life (inland)", "15-25 years", "50+ years", "50+ years"],
-          ["Expected life (coastal)", "5-8 years", "20-30 years", "40+ years"],
-          ["Expected life (marine)", "1-3 years", "8-15 years", "30+ years"],
-          ["Tensile strength (8.8 equiv)", "800 MPa", "700 MPa (A2-70)", "700 MPa (A4-70)"],
-          ["Hydrogen embrittlement risk", "Low (HDG)", "None", "None"],
-          ["Magnetic", "Yes", "Slightly", "Slightly"],
-          ["Installation damage", "Coating can chip", "Self-healing", "Self-healing"]
+          [
+            "Cost per 1000 pcs (M8×40)",
+            "$45-85",
+            "$180-250",
+            "$280-400"
+          ],
+          [
+            "Expected life (inland)",
+            "15-25 years",
+            "50+ years",
+            "50+ years"
+          ],
+          [
+            "Expected life (coastal)",
+            "5-8 years",
+            "20-30 years",
+            "40+ years"
+          ],
+          [
+            "Expected life (marine)",
+            "1-3 years",
+            "8-15 years",
+            "30+ years"
+          ],
+          [
+            "Tensile strength (8.8 equiv)",
+            "800 MPa",
+            "700 MPa (A2-70)",
+            "700 MPa (A4-70)"
+          ],
+          [
+            "Hydrogen embrittlement risk",
+            "Low (HDG)",
+            "None",
+            "None"
+          ],
+          [
+            "Magnetic",
+            "Yes",
+            "Slightly",
+            "Slightly"
+          ],
+          [
+            "Installation damage",
+            "Coating can chip",
+            "Self-healing",
+            "Self-healing"
+          ]
         ]
       }
     },
     {
       "id": "decision-framework",
-      "heading": { "en": "Decision Framework: 4 Questions to the Right Choice" },
-      "body": { "en": "Question 1: What is the environment? Dry indoor → electro-galvanized. Damp indoor/outdoor → hot-dip galvanized. Coastal (<5km from sea) → 316 stainless. Marine/immersion → 316L stainless minimum. Question 2: What is the service life requirement? <10 years → galvanized is fine. 10-25 years → hot-dip galvanized or 304 stainless. 25+ years → 316 stainless. Question 3: Is structural integrity critical? If bolt failure risks life/safety → stainless with periodic inspection. Galvanized bolts can fail suddenly when zinc is consumed. Question 4: What is the budget reality? If 316 is over budget → mechanical galvanizing (Z600) at 2x cost gives 80% of 304 performance at 40% of the price." }
+      "heading": {
+        "en": "Decision Framework: 4 Questions to the Right Choice"
+      },
+      "body": {
+        "en": "Question 1: What is the environment? Dry indoor → electro-galvanized. Damp indoor/outdoor → hot-dip galvanized. Coastal (<5km from sea) → 316 stainless. Marine/immersion → 316L stainless minimum. Question 2: What is the service life requirement? <10 years → galvanized is fine. 10-25 years → hot-dip galvanized or 304 stainless. 25+ years → 316 stainless. Question 3: Is structural integrity critical? If bolt failure risks life/safety → stainless with periodic inspection. Galvanized bolts can fail suddenly when zinc is consumed. Question 4: What is the budget reality? If 316 is over budget → mechanical galvanizing (Z600) at 2x cost gives 80% of 304 performance at 40% of the price."
+      }
     },
     {
       "id": "critical-mistakes",
-      "heading": { "en": "5 Critical Mistakes That Cause Premature Failure" },
-      "body": { "en": "Mistake 1: Mixing galvanized and stainless in the same assembly — galvanic corrosion accelerates zinc loss at contact points. Never pair a galvanized bolt with a stainless nut or vice versa. Mistake 2: Specifying electro-galvanized for outdoor use — the thin zinc layer (5-15μm) lasts only months in rain exposure. Always use hot-dip for outdoor. Mistake 3: Installing galvanized bolts into wet concrete — the alkaline environment accelerates zinc dissolution. Use stainless or epoxy-coated for concrete embedment. Mistake 4: Assuming all stainless is equal — 304 suffers pitting corrosion in chloride environments. Coastal projects MUST use 316 minimum. Mistake 5: Damaging the zinc coating during installation — overtightening with impact wrenches can chip the galvanized layer at threads, creating corrosion initiation points." }
+      "heading": {
+        "en": "5 Critical Mistakes That Cause Premature Failure"
+      },
+      "body": {
+        "en": "Mistake 1: Mixing galvanized and stainless in the same assembly — galvanic corrosion accelerates zinc loss at contact points. Never pair a galvanized bolt with a stainless nut or vice versa. Mistake 2: Specifying electro-galvanized for outdoor use — the thin zinc layer (5-15μm) lasts only months in rain exposure. Always use hot-dip for outdoor. Mistake 3: Installing galvanized bolts into wet concrete — the alkaline environment accelerates zinc dissolution. Use stainless or epoxy-coated for concrete embedment. Mistake 4: Assuming all stainless is equal — 304 suffers pitting corrosion in chloride environments. Coastal projects MUST use 316 minimum. Mistake 5: Damaging the zinc coating during installation — overtightening with impact wrenches can chip the galvanized layer at threads, creating corrosion initiation points."
+      }
     },
     {
       "id": "bimetallic-corrosion",
-      "heading": { "en": "Bimetallic Corrosion: The Hidden Killer" },
-      "body": { "en": "When two dissimilar metals are in electrical contact in the presence of moisture, galvanic corrosion occurs. The less noble metal (zinc/steel) corrodes sacrificially while the more noble metal (stainless/copper) is protected. This is devastating when galvanized fasteners contact stainless steel or copper components." },
+      "heading": {
+        "en": "Bimetallic Corrosion: The Hidden Killer"
+      },
+      "body": {
+        "en": "When two dissimilar metals are in electrical contact in the presence of moisture, galvanic corrosion occurs. The less noble metal (zinc/steel) corrodes sacrificially while the more noble metal (stainless/copper) is protected. This is devastating when galvanized fasteners contact stainless steel or copper components. For more information, also see our guides on [corrosion resistance](/en/industry/fastener-corrosion-resistance-guide), [coating comparison](/en/industry/zinc-plated-vs-black-phosphate-screws), [roofing applications](/en/industry/roofing-screws-epdm-washer-guide)."
+      },
       "table": {
-        "headers": ["Contact Pair", "Risk Level", "Acceleration Factor", "Mitigation"],
+        "headers": [
+          "Contact Pair",
+          "Risk Level",
+          "Acceleration Factor",
+          "Mitigation"
+        ],
         "rows": [
-          ["Galvanized + Stainless", "🔴 High", "5-10x", "Insulating washers + sleeve"],
-          ["Galvanized + Copper", "🔴 Very High", "10-20x", "Never combine"],
-          ["Galvanized + Aluminum", "🟡 Medium", "2-3x", "Acceptable with isolation"],
-          ["304 Stainless + 316 Stainless", "🟢 Low", "1x", "Safe to combine"],
-          ["Galvanized + Galvanized", "🟢 None", "1x", "Same metal — safe"]
+          [
+            "Galvanized + Stainless",
+            "🔴 High",
+            "5-10x",
+            "Insulating washers + sleeve"
+          ],
+          [
+            "Galvanized + Copper",
+            "🔴 Very High",
+            "10-20x",
+            "Never combine"
+          ],
+          [
+            "Galvanized + Aluminum",
+            "🟡 Medium",
+            "2-3x",
+            "Acceptable with isolation"
+          ],
+          [
+            "304 Stainless + 316 Stainless",
+            "🟢 Low",
+            "1x",
+            "Safe to combine"
+          ],
+          [
+            "Galvanized + Galvanized",
+            "🟢 None",
+            "1x",
+            "Same metal — safe"
+          ]
         ]
       }
     },
     {
       "id": "faq",
-      "heading": { "en": "Frequently Asked Questions" },
+      "heading": {
+        "en": "Frequently Asked Questions"
+      },
       "faqItems": [
-        { "q": { "en": "Can I paint over galvanized fasteners?" }, "a": { "en": "Yes, but proper surface preparation is essential. Use a zinc chromate or etching primer designed for galvanized surfaces. Standard primers will peel within months due to zinc's self-healing properties preventing adhesion." } },
-        { "q": { "en": "Why do stainless bolts sometimes rust?" }, "a": { "en": "Surface contamination (iron particles from manufacturing or installation) can create rust spots on stainless steel. This is not the stainless itself corroding — it's embedded iron rusting. Clean with passivation solution (nitric acid) or specialized stainless cleaner." } },
-        { "q": { "en": "Is hot-dip galvanizing safe for high-strength bolts?" }, "a": { "en": "For Grade 8.8 and below: yes. For Grade 10.9: proceed with caution — HDG temperatures (450°C) can affect heat treatment. For Grade 12.9: never hot-dip galvanize — use mechanical galvanizing instead." } },
-        { "q": { "en": "How do I specify the right galvanizing thickness?" }, "a": { "en": "Use the ISO 10684 standard designations: Z275 (275g/m², ~40μm) for general outdoor, Z600 (600g/m², ~85μm) for coastal/marine-adjacent. Always specify by zinc weight (g/m²), not just 'galvanized'." } }
+        {
+          "q": {
+            "en": "Can I paint over galvanized fasteners?"
+          },
+          "a": {
+            "en": "Yes, but proper surface preparation is essential. Use a zinc chromate or etching primer designed for galvanized surfaces. Standard primers will peel within months due to zinc's self-healing properties preventing adhesion."
+          }
+        },
+        {
+          "q": {
+            "en": "Why do stainless bolts sometimes rust?"
+          },
+          "a": {
+            "en": "Surface contamination (iron particles from manufacturing or installation) can create rust spots on stainless steel. This is not the stainless itself corroding — it's embedded iron rusting. Clean with passivation solution (nitric acid) or specialized stainless cleaner."
+          }
+        },
+        {
+          "q": {
+            "en": "Is hot-dip galvanizing safe for high-strength bolts?"
+          },
+          "a": {
+            "en": "For Grade 8.8 and below: yes. For Grade 10.9: proceed with caution — HDG temperatures (450°C) can affect heat treatment. For Grade 12.9: never hot-dip galvanize — use mechanical galvanizing instead."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I specify the right galvanizing thickness?"
+          },
+          "a": {
+            "en": "Use the ISO 10684 standard designations: Z275 (275g/m², ~40μm) for general outdoor, Z600 (600g/m², ~85μm) for coastal/marine-adjacent. Always specify by zinc weight (g/m²), not just 'galvanized'."
+          }
+        }
       ]
     }
   ],
-  "relatedProducts": ["drywall-screws", "self-drilling-screws", "bolts-nuts"],
+  "relatedProducts": [
+    "drywall-screws",
+    "self-drilling-screws",
+    "bolts-nuts"
+  ],
   "cta": {
-    "text": { "en": "Need help selecting the right corrosion protection? TradeGo's technical team advises on every project.", "zh": "需要防腐选型建议？TradeGo技术团队为每个项目提供指导。" },
-    "buttonText": { "en": "Get Technical Advice", "zh": "获取技术建议" },
+    "text": {
+      "en": "Need help selecting the right corrosion protection? TradeGo's technical team advises on every project.",
+      "zh": "需要防腐选型建议？TradeGo技术团队为每个项目提供指导。"
+    },
+    "buttonText": {
+      "en": "Get Technical Advice",
+      "zh": "获取技术建议"
+    },
     "link": "/#inquiry"
   }
 }

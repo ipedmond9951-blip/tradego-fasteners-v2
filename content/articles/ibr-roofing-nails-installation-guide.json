@@ -24,104 +24,319 @@
   "sections": [
     {
       "id": "africa-roofing-market",
-      "heading": { "en": "Africa's Roofing Market: Why IBR Nails Matter" },
-      "body": { "en": "Sub-Saharan Africa's construction sector is growing at 6.8% annually, with roofing representing 15-20% of total building material costs. IBR (Inverted Box Rib) sheeting is the dominant roofing profile across South Africa, Namibia, Botswana, Zimbabwe, and Mozambique — used in over 70% of new commercial and residential buildings. The demand for IBR-compatible roofing nails has grown 12% year-over-year, yet many projects fail due to incorrect nail selection. Using non-compliant nails voids insurance, reduces roof lifespan by 40-60%, and risks structural failure in high-wind regions." }
+      "heading": {
+        "en": "Africa's Roofing Market: Why IBR Nails Matter"
+      },
+      "body": {
+        "en": "Sub-Saharan Africa's construction sector is growing at 6.8% annually, with roofing representing 15-20% of total building material costs. IBR (Inverted Box Rib) sheeting is the dominant roofing profile across South Africa, Namibia, Botswana, Zimbabwe, and Mozambique — used in over 70% of new commercial and residential buildings. The demand for IBR-compatible roofing nails has grown 12% year-over-year, yet many projects fail due to incorrect nail selection. Using non-compliant nails voids insurance, reduces roof lifespan by 40-60%, and risks structural failure in high-wind regions."
+      }
     },
     {
       "id": "what-are-ibr-nails",
-      "heading": { "en": "What Are IBR Roofing Nails?" },
-      "body": { "en": "IBR roofing nails are specialized fasteners designed to secure IBR profile steel roofing sheets to timber or steel purlins. Unlike standard nails, IBR nails feature a large flat head (minimum 20mm diameter) that bridges the rib profile, a smooth or twisted shank for pull-out resistance, and a hardened point for penetrating steel sheeting. The critical distinction: IBR nails must be long enough to penetrate through the sheet rib AND embed at least 30mm into the purlin below." }
+      "heading": {
+        "en": "What Are IBR Roofing Nails?"
+      },
+      "body": {
+        "en": "IBR roofing nails are specialized fasteners designed to secure IBR profile steel roofing sheets to timber or steel purlins. Unlike standard nails, IBR nails feature a large flat head (minimum 20mm diameter) that bridges the rib profile, a smooth or twisted shank for pull-out resistance, and a hardened point for penetrating steel sheeting. The critical distinction: IBR nails must be long enough to penetrate through the sheet rib AND embed at least 30mm into the purlin below."
+      }
     },
     {
       "id": "sabs-1195-standards",
-      "heading": { "en": "SABS 1195 Compliance: Non-Negotiable for African Projects" },
-      "body": { "en": "SABS 1195 is the South African Bureau of Standards specification for roofing nails. Compliance is mandatory for: government-funded construction projects, insurance-covered buildings, and any structure requiring an occupation certificate. Key requirements: minimum head diameter of 20mm, shank diameter of 3.15mm (10 gauge) minimum, tensile strength of 400MPa minimum, and corrosion resistance per SABS 1215 (minimum 48-hour salt spray test)." },
+      "heading": {
+        "en": "SABS 1195 Compliance: Non-Negotiable for African Projects"
+      },
+      "body": {
+        "en": "SABS 1195 is the South African Bureau of Standards specification for roofing nails. Compliance is mandatory for: government-funded construction projects, insurance-covered buildings, and any structure requiring an occupation certificate. Key requirements: minimum head diameter of 20mm, shank diameter of 3.15mm (10 gauge) minimum, tensile strength of 400MPa minimum, and corrosion resistance per SABS 1215 (minimum 48-hour salt spray test)."
+      },
       "table": {
-        "headers": ["Requirement", "SABS 1195 Spec", "Common Non-Compliant Issue"],
+        "headers": [
+          "Requirement",
+          "SABS 1195 Spec",
+          "Common Non-Compliant Issue"
+        ],
         "rows": [
-          ["Head diameter", "≥ 20mm", "18mm heads — pull through sheet"],
-          ["Shank diameter", "≥ 3.15mm (10ga)", "2.5mm (12ga) — insufficient holding"],
-          ["Tensile strength", "≥ 400 MPa", "350 MPa — bending during driving"],
-          ["Corrosion resistance", "48hr salt spray (SABS 1215)", "No coating — rust within 2 years"],
-          ["Nail length", "Project-specific", "Too short — insufficient penetration"]
+          [
+            "Head diameter",
+            "≥ 20mm",
+            "18mm heads — pull through sheet"
+          ],
+          [
+            "Shank diameter",
+            "≥ 3.15mm (10ga)",
+            "2.5mm (12ga) — insufficient holding"
+          ],
+          [
+            "Tensile strength",
+            "≥ 400 MPa",
+            "350 MPa — bending during driving"
+          ],
+          [
+            "Corrosion resistance",
+            "48hr salt spray (SABS 1215)",
+            "No coating — rust within 2 years"
+          ],
+          [
+            "Nail length",
+            "Project-specific",
+            "Too short — insufficient penetration"
+          ]
         ]
       }
     },
     {
       "id": "nail-sizes-selection",
-      "heading": { "en": "IBR Nail Sizes: Complete Selection Chart" },
-      "body": { "en": "Correct nail length depends on IBR sheet profile height, purlin type, and required embedment depth. The formula: Nail Length = Sheet Profile Height + 30mm (minimum embedment). For IBR standard profile (28mm rib height): minimum 60mm nail for timber purlins, 75mm preferred for high-wind zones." },
+      "heading": {
+        "en": "IBR Nail Sizes: Complete Selection Chart"
+      },
+      "body": {
+        "en": "Correct nail length depends on IBR sheet profile height, purlin type, and required embedment depth. The formula: Nail Length = Sheet Profile Height + 30mm (minimum embedment). For IBR standard profile (28mm rib height): minimum 60mm nail for timber purlins, 75mm preferred for high-wind zones."
+      },
       "table": {
-        "headers": ["Nail Length", "Gauge", "Sheet Profile", "Purlin Type", "Application"],
+        "headers": [
+          "Nail Length",
+          "Gauge",
+          "Sheet Profile",
+          "Purlin Type",
+          "Application"
+        ],
         "rows": [
-          ["50mm (2\")", "10ga (3.15mm)", "Low profile (18mm)", "Timber", "Standard residential"],
-          ["60mm (2.4\")", "10ga (3.15mm)", "Standard IBR (28mm)", "Timber", "Most common — SA market"],
-          ["75mm (3\")", "10ga (3.15mm)", "Standard IBR (28mm)", "Timber", "High-wind / coastal zones"],
-          ["65mm (2.5\")", "8ga (4.0mm)", "Standard IBR (28mm)", "Steel", "Steel purlin with pre-drill"],
-          ["90mm (3.5\")", "8ga (4.0mm)", "Deep profile (38mm)", "Timber", "Industrial / warehouse"]
+          [
+            "50mm (2\")",
+            "10ga (3.15mm)",
+            "Low profile (18mm)",
+            "Timber",
+            "Standard residential"
+          ],
+          [
+            "60mm (2.4\")",
+            "10ga (3.15mm)",
+            "Standard IBR (28mm)",
+            "Timber",
+            "Most common — SA market"
+          ],
+          [
+            "75mm (3\")",
+            "10ga (3.15mm)",
+            "Standard IBR (28mm)",
+            "Timber",
+            "High-wind / coastal zones"
+          ],
+          [
+            "65mm (2.5\")",
+            "8ga (4.0mm)",
+            "Standard IBR (28mm)",
+            "Steel",
+            "Steel purlin with pre-drill"
+          ],
+          [
+            "90mm (3.5\")",
+            "8ga (4.0mm)",
+            "Deep profile (38mm)",
+            "Timber",
+            "Industrial / warehouse"
+          ]
         ]
       }
     },
     {
       "id": "head-types",
-      "heading": { "en": "Head Types: Flat vs Umbrella vs Washer" },
-      "body": { "en": "The head type determines weatherproofing and pull-through resistance. Flat head is the standard for IBR — minimum 20mm diameter, provides adequate bearing surface on sheet ribs. Umbrella head has a slightly domed shape, offers better weather deflection, popular in high-rainfall regions like KwaZulu-Natal. Washer head features an integral EPDM or neoprene washer, provides superior waterproofing, essential for pitches below 10 degrees." },
+      "heading": {
+        "en": "Head Types: Flat vs Umbrella vs Washer"
+      },
+      "body": {
+        "en": "The head type determines weatherproofing and pull-through resistance. Flat head is the standard for IBR — minimum 20mm diameter, provides adequate bearing surface on sheet ribs. Umbrella head has a slightly domed shape, offers better weather deflection, popular in high-rainfall regions like KwaZulu-Natal. Washer head features an integral EPDM or neoprene washer, provides superior waterproofing, essential for pitches below 10 degrees."
+      },
       "table": {
-        "headers": ["Head Type", "Diameter", "Waterproofing", "Best Region"],
+        "headers": [
+          "Head Type",
+          "Diameter",
+          "Waterproofing",
+          "Best Region"
+        ],
         "rows": [
-          ["Flat", "20-22mm", "Good", "Dry inland — Gauteng, Free State"],
-          ["Umbrella", "22-25mm", "Better", "Moderate rain — Western Cape"],
-          ["Washer (EPDM)", "25-30mm", "Best", "Heavy rain — KZN, tropical Africa"]
+          [
+            "Flat",
+            "20-22mm",
+            "Good",
+            "Dry inland — Gauteng, Free State"
+          ],
+          [
+            "Umbrella",
+            "22-25mm",
+            "Better",
+            "Moderate rain — Western Cape"
+          ],
+          [
+            "Washer (EPDM)",
+            "25-30mm",
+            "Best",
+            "Heavy rain — KZN, tropical Africa"
+          ]
         ]
       }
     },
     {
       "id": "corrosion-protection",
-      "heading": { "en": "Corrosion Protection: Surviving African Climates" },
-      "body": { "en": "Africa's diverse climates demand different corrosion protection levels. Inland regions (Johannesburg, Harare, Lusaka): hot-dip galvanized is sufficient. Coastal regions (Durban, Cape Town, Maputo, Mombasa): require minimum Z600 galvanizing or mechancially galvanized. Industrial/mining areas: consider stainless steel 304 for acid rain environments. Desert regions (Namibia, Sahel): UV degradation of coatings is the bigger concern — choose galvanized with UV-stable top coat." },
+      "heading": {
+        "en": "Corrosion Protection: Surviving African Climates"
+      },
+      "body": {
+        "en": "Africa's diverse climates demand different corrosion protection levels. Inland regions (Johannesburg, Harare, Lusaka): hot-dip galvanized is sufficient. Coastal regions (Durban, Cape Town, Maputo, Mombasa): require minimum Z600 galvanizing or mechancially galvanized. Industrial/mining areas: consider stainless steel 304 for acid rain environments. Desert regions (Namibia, Sahel): UV degradation of coatings is the bigger concern — choose galvanized with UV-stable top coat."
+      },
       "table": {
-        "headers": ["Coating", "Zinc Weight", "Salt Spray Hours", "Cost Index", "Zone"],
+        "headers": [
+          "Coating",
+          "Zinc Weight",
+          "Salt Spray Hours",
+          "Cost Index",
+          "Zone"
+        ],
         "rows": [
-          ["Electro-galvanized", "Z27 (70g/m²)", "24-48hr", "1x", "Dry inland only"],
-          ["Hot-dip galvanized", "Z275 (275g/m²)", "200-400hr", "1.5x", "Standard inland"],
-          ["Mechanically galvanized", "Z600 (600g/m²)", "500-800hr", "2x", "Coastal"],
-          ["Stainless 304", "N/A", "1000+hr", "5x", "Marine/industrial"],
-          ["Stainless 316", "N/A", "2000+hr", "7x", "Extreme marine"]
+          [
+            "Electro-galvanized",
+            "Z27 (70g/m²)",
+            "24-48hr",
+            "1x",
+            "Dry inland only"
+          ],
+          [
+            "Hot-dip galvanized",
+            "Z275 (275g/m²)",
+            "200-400hr",
+            "1.5x",
+            "Standard inland"
+          ],
+          [
+            "Mechanically galvanized",
+            "Z600 (600g/m²)",
+            "500-800hr",
+            "2x",
+            "Coastal"
+          ],
+          [
+            "Stainless 304",
+            "N/A",
+            "1000+hr",
+            "5x",
+            "Marine/industrial"
+          ],
+          [
+            "Stainless 316",
+            "N/A",
+            "2000+hr",
+            "7x",
+            "Extreme marine"
+          ]
         ]
       }
     },
     {
       "id": "installation-guide",
-      "heading": { "en": "Installation Best Practices" },
-      "body": { "en": "Proper IBR nail installation ensures 25+ year roof life. Nail placement: drive nails through the crest (top of rib), NEVER the valley — valley nailing creates leak points and voids SABS compliance. Spacing: end laps — 2 nails per sheet width at each purlin, intermediate purlins — 1 nail per sheet width. Edge fastening: 1 nail every 300mm along gable ends and ridges. Driving technique: use a roofing hammer or nail gun with depth control. Over-driving crushes the sheet profile; under-driving allows wind lift. Target: nail head flush with sheet surface, slightly compressing the rib without deforming it." }
+      "heading": {
+        "en": "Installation Best Practices"
+      },
+      "body": {
+        "en": "Proper IBR nail installation ensures 25+ year roof life. Nail placement: drive nails through the crest (top of rib), NEVER the valley — valley nailing creates leak points and voids SABS compliance. Spacing: end laps — 2 nails per sheet width at each purlin, intermediate purlins — 1 nail per sheet width. Edge fastening: 1 nail every 300mm along gable ends and ridges. Driving technique: use a roofing hammer or nail gun with depth control. Over-driving crushes the sheet profile; under-driving allows wind lift. Target: nail head flush with sheet surface, slightly compressing the rib without deforming it."
+      }
     },
     {
       "id": "wind-zones",
-      "heading": { "en": "Wind Zone Considerations for Southern Africa" },
-      "body": { "en": "Southern Africa has four wind zones per SANS 10160. Wind zones directly affect nail spacing and nail length requirements." },
+      "heading": {
+        "en": "Wind Zone Considerations for Southern Africa"
+      },
+      "body": {
+        "en": "Southern Africa has four wind zones per SANS 10160. Wind zones directly affect nail spacing and nail length requirements. For more information, also see our guides on [roofing screws with EPDM washers](/en/industry/roofing-screws-epdm-washer-guide), [African market](/en/industry/africa-fastener-market-opportunities-2026), [self-drilling screws](/en/industry/self-drilling-screws-selection-guide)."
+      },
       "table": {
-        "headers": ["Wind Zone", "Design Wind Speed", "Nail Spacing", "Regions"],
-        "rows": [["Zone 1 (Low)", "< 33 m/s", "Standard spacing", "Gauteng interior, Free State"],
-          ["Zone 2 (Moderate)", "33-38 m/s", "25% closer spacing", "Limpopo, North West"],
-          ["Zone 3 (High)", "38-44 m/s", "50% closer + 75mm nails", "Western Cape, KZN coast"],
-          ["Zone 4 (Extreme)", "> 44 m/s", "Engineered design required", "Cape Peninsula, exposed ridges"]]
+        "headers": [
+          "Wind Zone",
+          "Design Wind Speed",
+          "Nail Spacing",
+          "Regions"
+        ],
+        "rows": [
+          [
+            "Zone 1 (Low)",
+            "< 33 m/s",
+            "Standard spacing",
+            "Gauteng interior, Free State"
+          ],
+          [
+            "Zone 2 (Moderate)",
+            "33-38 m/s",
+            "25% closer spacing",
+            "Limpopo, North West"
+          ],
+          [
+            "Zone 3 (High)",
+            "38-44 m/s",
+            "50% closer + 75mm nails",
+            "Western Cape, KZN coast"
+          ],
+          [
+            "Zone 4 (Extreme)",
+            "> 44 m/s",
+            "Engineered design required",
+            "Cape Peninsula, exposed ridges"
+          ]
+        ]
       }
     },
     {
       "id": "faq",
-      "heading": { "en": "Frequently Asked Questions" },
+      "heading": {
+        "en": "Frequently Asked Questions"
+      },
       "faqItems": [
-        { "q": { "en": "Can I use screws instead of nails for IBR sheeting?" }, "a": { "en": "Yes, self-drilling roofing screws with EPDM washers are an excellent alternative, especially for steel purlins. They offer superior pull-out resistance and better waterproofing. However, they cost 3-5x more than nails and are slower to install on timber purlins." } },
-        { "q": { "en": "How do I verify SABS 1195 compliance?" }, "a": { "en": "Request the SABS test certificate from your supplier. Look for the SABS mark on the packaging. You can also verify on the SABS website (www.sabs.co.za) by searching the supplier's permit number." } },
-        { "q": { "en": "What causes IBR nails to pull out?" }, "a": { "en": "Common causes: undersized nail gauge (12ga instead of 10ga), insufficient embedment depth (less than 30mm into purlin), nailing through the valley instead of the crest, or corrosion weakening the shank. In high-wind zones, always use the longer nail option." } },
-        { "q": { "en": "How many nails per IBR sheet?" }, "a": { "en": "For a standard 0.5mm IBR sheet on timber purlins: 2 nails per sheet width at end purlins, 1 nail per sheet width at intermediate purlins. A typical 3m sheet on 5 purlins requires approximately 6-8 nails total." } }
+        {
+          "q": {
+            "en": "Can I use screws instead of nails for IBR sheeting?"
+          },
+          "a": {
+            "en": "Yes, self-drilling roofing screws with EPDM washers are an excellent alternative, especially for steel purlins. They offer superior pull-out resistance and better waterproofing. However, they cost 3-5x more than nails and are slower to install on timber purlins."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I verify SABS 1195 compliance?"
+          },
+          "a": {
+            "en": "Request the SABS test certificate from your supplier. Look for the SABS mark on the packaging. You can also verify on the SABS website (www.sabs.co.za) by searching the supplier's permit number."
+          }
+        },
+        {
+          "q": {
+            "en": "What causes IBR nails to pull out?"
+          },
+          "a": {
+            "en": "Common causes: undersized nail gauge (12ga instead of 10ga), insufficient embedment depth (less than 30mm into purlin), nailing through the valley instead of the crest, or corrosion weakening the shank. In high-wind zones, always use the longer nail option."
+          }
+        },
+        {
+          "q": {
+            "en": "How many nails per IBR sheet?"
+          },
+          "a": {
+            "en": "For a standard 0.5mm IBR sheet on timber purlins: 2 nails per sheet width at end purlins, 1 nail per sheet width at intermediate purlins. A typical 3m sheet on 5 purlins requires approximately 6-8 nails total."
+          }
+        }
       ]
     }
   ],
-  "relatedProducts": ["ibr-nails", "self-drilling-screws", "drywall-screws"],
+  "relatedProducts": [
+    "ibr-nails",
+    "self-drilling-screws",
+    "drywall-screws"
+  ],
   "cta": {
-    "text": { "en": "Need SABS-compliant IBR roofing nails in bulk? Get factory-direct pricing from TradeGo.", "zh": "需要SABS合规IBR屋面钉？获取TradeGo工厂直供报价。" },
-    "buttonText": { "en": "Get Quote", "zh": "获取报价" },
+    "text": {
+      "en": "Need SABS-compliant IBR roofing nails in bulk? Get factory-direct pricing from TradeGo.",
+      "zh": "需要SABS合规IBR屋面钉？获取TradeGo工厂直供报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
     "link": "/#inquiry"
   }
 }

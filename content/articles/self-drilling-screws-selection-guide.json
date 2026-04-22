@@ -24,83 +24,236 @@
   "sections": [
     {
       "id": "market-overview",
-      "heading": { "en": "Self-Drilling Screws Market: Growth & Opportunities" },
-      "body": { "en": "The global self-drilling screws market is experiencing robust growth, driven by expanding construction activity in emerging markets and the increasing adoption of steel framing in residential construction. The market is projected to grow at 6.2% CAGR through 2028. Key growth drivers include: rapid urbanization in Africa and Southeast Asia driving infrastructure demand, steel stud framing replacing traditional wood framing in many regions, pre-fabricated and modular construction requiring efficient fastening solutions, and rising labor costs making self-drilling screws more economical than separate drilling and fastening operations." }
+      "heading": {
+        "en": "Self-Drilling Screws Market: Growth & Opportunities"
+      },
+      "body": {
+        "en": "The global self-drilling screws market is experiencing robust growth, driven by expanding construction activity in emerging markets and the increasing adoption of steel framing in residential construction. The market is projected to grow at 6.2% CAGR through 2028. Key growth drivers include: rapid urbanization in Africa and Southeast Asia driving infrastructure demand, steel stud framing replacing traditional wood framing in many regions, pre-fabricated and modular construction requiring efficient fastening solutions, and rising labor costs making self-drilling screws more economical than separate drilling and fastening operations."
+      }
     },
     {
       "id": "what-are-self-drilling-screws",
-      "heading": { "en": "What Are Self-Drilling Screws?" },
-      "body": { "en": "Self-drilling screws (also known as Tek screws or drill screws) combine a drill bit and fastener in one unit. The drill point eliminates the need for pre-drilling, saving significant labor time in construction and manufacturing applications. Key advantages: no pre-drilling required — the screw drills its own pilot hole, consistent thread engagement — drill point ensures proper hole size, faster installation — up to 5x faster than drill-then-fasten method, and reduced tool inventory — one tool does both jobs." }
+      "heading": {
+        "en": "What Are Self-Drilling Screws?"
+      },
+      "body": {
+        "en": "Self-drilling screws (also known as Tek screws or drill screws) combine a drill bit and fastener in one unit. The drill point eliminates the need for pre-drilling, saving significant labor time in construction and manufacturing applications. Key advantages: no pre-drilling required — the screw drills its own pilot hole, consistent thread engagement — drill point ensures proper hole size, faster installation — up to 5x faster than drill-then-fasten method, and reduced tool inventory — one tool does both jobs."
+      }
     },
     {
       "id": "drill-points",
-      "heading": { "en": "Drill Point System: #1 Through #5 Explained" },
-      "body": { "en": "The drill point number indicates the thickness of steel the screw can drill through. Higher numbers mean longer drill points that can penetrate thicker material. Selecting the correct drill point is critical — too small and the screw won't penetrate; too large and it will spin out before the threads engage." },
+      "heading": {
+        "en": "Drill Point System: #1 Through #5 Explained"
+      },
+      "body": {
+        "en": "The drill point number indicates the thickness of steel the screw can drill through. Higher numbers mean longer drill points that can penetrate thicker material. Selecting the correct drill point is critical — too small and the screw won't penetrate; too large and it will spin out before the threads engage."
+      },
       "table": {
-        "headers": ["Drill Point", "Steel Thickness", "Drill Time", "Common Application"],
+        "headers": [
+          "Drill Point",
+          "Steel Thickness",
+          "Drill Time",
+          "Common Application"
+        ],
         "rows": [
-          ["#1", "0.030\" (0.76mm)", "~1 sec", "Light gauge steel studs"],
-          ["#2", "0.048\" (1.22mm)", "~2 sec", "Standard steel framing"],
-          ["#3", "0.075\" (1.91mm)", "~3 sec", "Heavy gauge steel"],
-          ["#4", "0.125\" (3.18mm)", "~5 sec", "Structural steel connections"],
-          ["#5", "0.187\" (4.76mm)", "~7 sec", "Very heavy structural steel"]
+          [
+            "#1",
+            "0.030\" (0.76mm)",
+            "~1 sec",
+            "Light gauge steel studs"
+          ],
+          [
+            "#2",
+            "0.048\" (1.22mm)",
+            "~2 sec",
+            "Standard steel framing"
+          ],
+          [
+            "#3",
+            "0.075\" (1.91mm)",
+            "~3 sec",
+            "Heavy gauge steel"
+          ],
+          [
+            "#4",
+            "0.125\" (3.18mm)",
+            "~5 sec",
+            "Structural steel connections"
+          ],
+          [
+            "#5",
+            "0.187\" (4.76mm)",
+            "~7 sec",
+            "Very heavy structural steel"
+          ]
         ]
       }
     },
     {
       "id": "head-styles",
-      "heading": { "en": "Head Styles & Drive Types" },
-      "body": { "en": "Self-drilling screws come in several head styles, each suited to different applications. Hex washer head is the most common for structural applications — provides excellent driving torque. Pan head offers a lower profile for non-structural connections. Flat head sits flush for a finished appearance. Bugle head distributes load over a wider area for softer materials." },
+      "heading": {
+        "en": "Head Styles & Drive Types"
+      },
+      "body": {
+        "en": "Self-drilling screws come in several head styles, each suited to different applications. Hex washer head is the most common for structural applications — provides excellent driving torque. Pan head offers a lower profile for non-structural connections. Flat head sits flush for a finished appearance. Bugle head distributes load over a wider area for softer materials."
+      },
       "table": {
-        "headers": ["Head Style", "Drive Type", "Bearing Surface", "Best Application"],
+        "headers": [
+          "Head Style",
+          "Drive Type",
+          "Bearing Surface",
+          "Best Application"
+        ],
         "rows": [
-          ["Hex Washer", "Hex socket", "Large (with washer)", "Structural steel-to-steel"],
-          ["Pan Head", "Phillips/Torx", "Moderate", "Non-structural metal panels"],
-          ["Flat Head", "Phillips/Torx", "Countersunk", "Finished surfaces"],
-          ["Bugle Head", "Phillips/Torx", "Wide distribution", "Metal-to-wood composite"]
+          [
+            "Hex Washer",
+            "Hex socket",
+            "Large (with washer)",
+            "Structural steel-to-steel"
+          ],
+          [
+            "Pan Head",
+            "Phillips/Torx",
+            "Moderate",
+            "Non-structural metal panels"
+          ],
+          [
+            "Flat Head",
+            "Phillips/Torx",
+            "Countersunk",
+            "Finished surfaces"
+          ],
+          [
+            "Bugle Head",
+            "Phillips/Torx",
+            "Wide distribution",
+            "Metal-to-wood composite"
+          ]
         ]
       }
     },
     {
       "id": "materials-coatings",
-      "heading": { "en": "Materials & Coatings for Every Environment" },
-      "body": { "en": "Material and coating selection directly impacts service life. Carbon steel with zinc plating covers 80% of applications. For harsh environments, consider stainless steel (304 or 316 grade) or specialized coatings. The new generation of ceramic-coated self-drilling screws offers salt spray resistance exceeding 1,000 hours at a fraction of stainless steel cost." },
+      "heading": {
+        "en": "Materials & Coatings for Every Environment"
+      },
+      "body": {
+        "en": "Material and coating selection directly impacts service life. Carbon steel with zinc plating covers 80% of applications. For harsh environments, consider stainless steel (304 or 316 grade) or specialized coatings. The new generation of ceramic-coated self-drilling screws offers salt spray resistance exceeding 1,000 hours at a fraction of stainless steel cost."
+      },
       "table": {
-        "headers": ["Material/Coating", "Salt Spray Hours", "Cost Index", "Environment"],
+        "headers": [
+          "Material/Coating",
+          "Salt Spray Hours",
+          "Cost Index",
+          "Environment"
+        ],
         "rows": [
-          ["Carbon Steel + Zinc", "24-72", "1x", "Dry indoor"],
-          ["Carbon Steel + Yellow Zinc", "72-120", "1.2x", "Damp indoor"],
-          ["Carbon Steel + Ceramic", "500-1500", "2x", "Outdoor/coastal"],
-          ["Stainless 304", "1000+", "4x", "Marine/chemical"],
-          ["Stainless 316", "2000+", "6x", "Extreme marine"]
+          [
+            "Carbon Steel + Zinc",
+            "24-72",
+            "1x",
+            "Dry indoor"
+          ],
+          [
+            "Carbon Steel + Yellow Zinc",
+            "72-120",
+            "1.2x",
+            "Damp indoor"
+          ],
+          [
+            "Carbon Steel + Ceramic",
+            "500-1500",
+            "2x",
+            "Outdoor/coastal"
+          ],
+          [
+            "Stainless 304",
+            "1000+",
+            "4x",
+            "Marine/chemical"
+          ],
+          [
+            "Stainless 316",
+            "2000+",
+            "6x",
+            "Extreme marine"
+          ]
         ]
       }
     },
     {
       "id": "application-guide",
-      "heading": { "en": "Application-Specific Recommendations" },
-      "body": { "en": "Metal roofing: Use #3 drill point hex washer head with EPDM washer, ceramic or stainless coating. Steel framing: Use #2 or #3 drill point hex washer head, minimum zinc plating. Metal siding: Use #1 or #2 drill point pan head, color-matched head available. HVAC ductwork: Use #1 drill point, flat or pan head, zinc plated. Wood-to-metal: Use winged self-drilling screws — wings enlarge the hole in wood to prevent thread engagement until reaching metal." }
+      "heading": {
+        "en": "Application-Specific Recommendations"
+      },
+      "body": {
+        "en": "Metal roofing: Use #3 drill point hex washer head with EPDM washer, ceramic or stainless coating. Steel framing: Use #2 or #3 drill point hex washer head, minimum zinc plating. Metal siding: Use #1 or #2 drill point pan head, color-matched head available. HVAC ductwork: Use #1 drill point, flat or pan head, zinc plated. Wood-to-metal: Use winged self-drilling screws — wings enlarge the hole in wood to prevent thread engagement until reaching metal."
+      }
     },
     {
       "id": "installation-tips",
-      "heading": { "en": "Installation Best Practices" },
-      "body": { "en": "Proper installation maximizes performance: Use the correct RPM — 2,500 RPM for #1 points, decreasing to 1,000 RPM for #5 points. Apply steady pressure — let the drill point do the work, don't force it. Stop driving when the washer compresses — over-driving damages the washer and reduces sealing. Maintain perpendicular alignment — angled driving reduces drill point effectiveness. Use magnetic socket holders for one-handed operation on ladders and scaffolding." }
+      "heading": {
+        "en": "Installation Best Practices"
+      },
+      "body": {
+        "en": "Proper installation maximizes performance: Use the correct RPM — 2,500 RPM for #1 points, decreasing to 1,000 RPM for #5 points. Apply steady pressure — let the drill point do the work, don't force it. Stop driving when the washer compresses — over-driving damages the washer and reduces sealing. Maintain perpendicular alignment — angled driving reduces drill point effectiveness. Use magnetic socket holders for one-handed operation on ladders and scaffolding. For more information, also see our guides on [drywall screws](/en/industry/drywall-screws-complete-guide), [roofing screws](/en/industry/roofing-screws-epdm-washer-guide), [material selection](/en/industry/galvanized-vs-stainless-steel-fasteners)."
+      }
     },
     {
       "id": "faq",
-      "heading": { "en": "Frequently Asked Questions" },
+      "heading": {
+        "en": "Frequently Asked Questions"
+      },
       "faqItems": [
-        { "q": { "en": "Can self-drilling screws be used in wood?" }, "a": { "en": "Standard self-drilling screws are designed for metal. For wood applications, use winged self-drilling screws which have reaming wings that clear wood fibers before the threads engage the metal substrate." } },
-        { "q": { "en": "What happens if I use a drill point that's too small?" }, "a": { "en": "The screw will stall or strip the drive socket before the threads engage. Always match the drill point number to the material thickness. When in doubt, go one size larger." } },
-        { "q": { "en": "Can I reuse a self-drilling screw?" }, "a": { "en": "No. Self-drilling screws are designed for single use. The drill point is consumed during installation. Reusing will result in poor thread engagement and potential failure." } },
-        { "q": { "en": "What's the difference between Tek and self-drilling screws?" }, "a": { "en": "Tek is a brand name that has become genericized. All Tek screws are self-drilling, but not all self-drilling screws are Tek brand. The drill point numbering system (#1-#5) originated with Tek and is now an industry standard." } }
+        {
+          "q": {
+            "en": "Can self-drilling screws be used in wood?"
+          },
+          "a": {
+            "en": "Standard self-drilling screws are designed for metal. For wood applications, use winged self-drilling screws which have reaming wings that clear wood fibers before the threads engage the metal substrate."
+          }
+        },
+        {
+          "q": {
+            "en": "What happens if I use a drill point that's too small?"
+          },
+          "a": {
+            "en": "The screw will stall or strip the drive socket before the threads engage. Always match the drill point number to the material thickness. When in doubt, go one size larger."
+          }
+        },
+        {
+          "q": {
+            "en": "Can I reuse a self-drilling screw?"
+          },
+          "a": {
+            "en": "No. Self-drilling screws are designed for single use. The drill point is consumed during installation. Reusing will result in poor thread engagement and potential failure."
+          }
+        },
+        {
+          "q": {
+            "en": "What's the difference between Tek and self-drilling screws?"
+          },
+          "a": {
+            "en": "Tek is a brand name that has become genericized. All Tek screws are self-drilling, but not all self-drilling screws are Tek brand. The drill point numbering system (#1-#5) originated with Tek and is now an industry standard."
+          }
+        }
       ]
     }
   ],
-  "relatedProducts": ["self-drilling-screws", "drywall-screws", "bolts-nuts"],
+  "relatedProducts": [
+    "self-drilling-screws",
+    "drywall-screws",
+    "bolts-nuts"
+  ],
   "cta": {
-    "text": { "en": "Need bulk self-drilling screws? Get factory-direct pricing from TradeGo.", "zh": "需要批量自钻螺丝？获取TradeGo工厂直供报价。" },
-    "buttonText": { "en": "Get Quote", "zh": "获取报价" },
+    "text": {
+      "en": "Need bulk self-drilling screws? Get factory-direct pricing from TradeGo.",
+      "zh": "需要批量自钻螺丝？获取TradeGo工厂直供报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
     "link": "/#inquiry"
   }
 }
