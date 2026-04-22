@@ -1,0 +1,60 @@
+{
+  "slug": "anchor-bolts-foundation-guide",
+  "category": "Technical Guide",
+  "date": "2026-04-22",
+  "readTime": 8,
+  "image": "/images/products/anchor-bolts.jpg",
+  "title": {
+    "en": "Anchor Bolts for Foundation: Complete Guide to Structural Anchoring in Construction",
+    "zh": "地脚螺栓基础安装完整指南：建筑结构锚固",
+    "es": "Guía completa de pernos de anclaje para cimentación",
+    "ar": "دليل شامل لبراغي المرساة للأساسات: الربط الهيكلي في البناء",
+    "fr": "Guide complet des boulons d'ancrage pour fondations",
+    "pt": "Guia completo de chumbadores para fundações"
+  },
+  "description": {
+    "en": "Complete guide to anchor bolts (foundation bolts) including J-bolts, L-bolts, and headed anchor bolts. Essential for securing structural steel, equipment, and machinery to concrete foundations in African construction projects.",
+    "zh": "地脚螺栓完整指南，包括J型螺栓、L型螺栓和头锚螺栓。适用于非洲建筑项目中将结构钢、设备和机械固定在混凝土基础上。",
+    "es": "Guía completa de pernos de anclaje incluyendo pernos en J, pernos en L.",
+    "ar": "دليل شامل لبراغي المرساة بما في ذلك براغي J وبراغي L.",
+    "fr": "Guide complet des boulons d'ancrage incluant les boulons en J et les boulons en L.",
+    "pt": "Guia completo de chumbadores incluindo chumbadores em J e chumbadores em L."
+  },
+  "keywords": "anchor bolts, foundation bolts, J-bolts, structural anchoring, concrete fasteners, construction",
+  "sections": [
+    {
+      "id": "what-are-anchor-bolts",
+      "heading": { "en": "What Are Anchor Bolts?" },
+      "body": { "en": "Anchor bolts (also called foundation bolts or J-bolts) are specialized fasteners used to attach structural steel, equipment, and machinery to concrete foundations. They are embedded in fresh concrete during pouring and cure with the concrete, creating a permanent structural connection essential for withstanding uplift forces, shear loads, and moment forces in buildings and infrastructure." }
+    },
+    {
+      "id": "types",
+      "heading": { "en": "Types of Anchor Bolts" },
+      "body": { "en": "L-bolts have an L-shaped bend at the embedded end, providing resistance against pull-out forces. J-bolts feature a J-shaped curve at the embedded end, similar to L-bolts but with a tighter radius. Headed anchor bolts have a forged head at the embedded end, offering maximum pull-out resistance. Threaded rods with plate washers and nuts at the embedded end allow on-site positioning adjustments." },
+      "table": {
+        "headers": ["Type", "Shape", "Pull-out Resistance", "Common Applications"],
+        "rows": [
+          ["L-Bolt", "L-shaped bend", "Good", "Column bases, light structural"],
+          ["J-Bolt", "J-shaped curve", "Good", "Column bases, equipment"],
+          ["Headed Bolt", "Forged head", "Excellent", "Heavy machinery, bridges"],
+          ["Threaded Rod", "Straight with plate", "Moderate", "Adjustable installations"]
+        ]
+      }
+    },
+    {
+      "id": "installation",
+      "heading": { "en": "Installation Best Practices" },
+      "body": { "en": "Proper installation is critical for structural integrity. Embedment depth should be at least 12 times the bolt diameter (12d) for standard applications. Use template plates to ensure accurate bolt positioning before concrete pour. Maintain minimum edge distance of 6 bolt diameters from concrete edges. Protect threads during concrete pour using sleeves or tape. Allow adequate concrete cure time (minimum 7 days for 75% strength) before applying loads." }
+    },
+    {
+      "id": "specifications",
+      "heading": { "en": "Common Specifications for African Projects" },
+      "body": { "en": "For African construction projects, anchor bolts typically comply with ASTM F1554 (weldable structural steel) or ISO 898 (mechanical properties). Common sizes range from M16 for light commercial to M36 for heavy industrial applications. Zinc-coated or hot-dip galvanized anchor bolts are essential for coastal African projects to prevent corrosion." }
+    },
+    {
+      "id": "applications",
+      "heading": { "en": "Applications in African Infrastructure" },
+      "body": { "en": "Anchor bolts are critical in African infrastructure: solar panel foundations—securing racking systems to concrete footings; telecommunications towers—anchoring tower bases to concrete foundations; mining equipment—securing crushers, conveyors, and processing equipment; commercial buildings—column base plates for steel structures; and bridges—securing bearing plates and expansion joints." }
+    }
+  ]
+}

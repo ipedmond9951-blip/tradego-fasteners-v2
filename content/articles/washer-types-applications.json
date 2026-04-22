@@ -1,0 +1,59 @@
+{
+  "slug": "washer-types-applications",
+  "category": "Technical Guide",
+  "date": "2026-04-22",
+  "readTime": 6,
+  "image": "/images/products/washers.jpg",
+  "title": {
+    "en": "Washers Types & Applications: Complete Guide for Construction Professionals in Africa",
+    "zh": "垫圈类型与应用：非洲建筑专业人员完整指南",
+    "es": "Tipos y aplicaciones de arandelas: guía completa para profesionales",
+    "ar": "أنواع وتطبيقات الغسالات: دليل شامل للمحترفين في أفريقيا",
+    "fr": "Types de rondelles et applications: guide complet pour professionnels",
+    "pt": "Tipos de arruelas e aplicações: guia completo para profissionais"
+  },
+  "description": {
+    "en": "Complete guide to washer types including flat washers, spring washers, and lock washers. Learn proper selection for construction, roofing, and industrial applications in African environments.",
+    "zh": "垫圈类型完整指南，包括平垫圈、弹簧垫圈和锁紧垫圈。了解非洲建筑、屋面和工业应用的正确选型。",
+    "es": "Guía completa de tipos de arandelas incluyendo arandelas planas, de resorte y de bloqueo.",
+    "ar": "دليل شامل لأنواع الغسالات بما في ذلك الغسالات المسطحة والغسالات الزنبركية.",
+    "fr": "Guide complet des types de rondelles incluant les rondelles plates, les rondelles ressorts.",
+    "pt": "Guia completo de tipos de arruelas incluindo arruelas planas, arruelas de molla."
+  },
+  "keywords": "washers, flat washers, spring washers, lock washers, construction fasteners, Africa fasteners",
+  "sections": [
+    {
+      "id": "washer-types",
+      "heading": { "en": "Types of Washers" },
+      "body": { "en": "Washers are essential components in bolted joints, serving multiple functions: load distribution across surfaces, protection of the mating material from damage, prevention of galvanic corrosion, and locking against loosening. The three main types are flat washers, spring washers, and lock washers." },
+      "table": {
+        "headers": ["Washer Type", "Function", "Best Applications"],
+        "rows": [
+          ["Flat Washer (Plain)", "Distribute load, protect surface", "General construction, roofing, machinery"],
+          ["Spring Washer (Split)", "Maintain bolt tension, compensate for settling", "Vibrating equipment, machinery, vehicles"],
+          ["Lock Washer (Star)", "Prevent loosening from vibration", "High-vibration applications, engines"]
+        ]
+      }
+    },
+    {
+      "id": "flat-washers",
+      "heading": { "en": "Flat Washers: The Workhorses of Construction" },
+      "body": { "en": "Flat washers (also called plain washers) are the most common washer type. They provide a smooth bearing surface that distributes the bolt load over a larger area, preventing damage to the mating material and reducing the chance of pull-through. USS flat washers have larger outer diameters while SAE washers have tighter tolerances." }
+    },
+    {
+      "id": "spring-washers",
+      "heading": { "en": "Spring Washers: Combatting Vibration" },
+      "body": { "en": "Spring washers (split lock washers) feature a radial slit that creates spring tension. This tension maintains bolt preload even when vibration causes the nut to rotate slightly. In African mining applications, spring washers are essential for equipment subject to constant vibration from crushers, conveyors, and generators." }
+    },
+    {
+      "id": "material-selection",
+      "heading": { "en": "Washer Material Selection for Africa" },
+      "body": { "en": "For African environments, material selection is critical. Stainless steel washers (A2/A4) offer excellent corrosion resistance for coastal applications in Ghana, Nigeria, and South Africa. Hot-dip galvanized washers are suitable for general outdoor use. Zinc-plated washers work for indoor applications." }
+    },
+    {
+      "id": "sizing",
+      "heading": { "en": "Washer Sizing Guide" },
+      "body": { "en": "Washers must be sized to match the bolt diameter. The washer inner diameter should slip over the bolt easily, while the outer diameter should provide adequate load distribution. For African construction projects, standard metric sizes from M6 to M24 cover most applications." }
+    }
+  ]
+}
