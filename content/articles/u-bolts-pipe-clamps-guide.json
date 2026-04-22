@@ -1,0 +1,85 @@
+{
+  "slug": "u-bolts-pipe-clamps-guide",
+  "category": "Technical Guide",
+  "date": "2026-04-22",
+  "readTime": 9,
+  "image": "/images/products/u-bolts-1.jpg",
+  "title": {
+    "en": "U-Bolts & Pipe Clamps Complete Guide: Selection, Installation & Applications for African Infrastructure",
+    "zh": "U型螺栓与管道夹完整指南：非洲基础设施选型、安装与应用",
+    "es": "Guía completa de pernos en U y abrazaderas de tubería para infraestructura africana",
+    "ar": "دليل شامل للبراغي على شكل حرف U ومشابك الأنابيب للبنية التحتية الأفريقية",
+    "fr": "Guide complet des boulons en U et colliers de tuyauterie pour infrastructure africaine",
+    "pt": "Guia completo de parafusos em U e braçadeiras de tubo para infraestrutura africana",
+    "ru": "Полное руководство по U-образным болтам и хомутам для африканской инфраструктуры",
+    "ja": "Uボルト・パイプラinspace.completeガイド：アフリカインフラ向け選定と設置",
+    "de": "Vollständiger Leitfaden zu U-Bolzen und Rohrschellen für afrikanische Infrastruktur",
+    "hi": "यू-बोल्ट और पाइप क्लैंप पूर्ण गाइड: अफ्रीकी बुनियादी ढांचे के लिए चयन, स्थापना और अनुप्रयोग"
+  },
+  "description": {
+    "en": "Complete guide to U-bolts and pipe clamps: types, load ratings, materials, and applications for pipe support, structural mounting, and infrastructure projects across Africa.",
+    "zh": "U型螺栓和管道夹完整指南：类型、承载力、材料及非洲管道支撑、结构安装和基础设施项目应用。",
+    "es": "Guía completa de pernos en U y abrazaderas de tubería.",
+    "ar": "دليل شامل للبراغي على شكل حرف U ومشابك الأنابيب.",
+    "fr": "Guide complet des boulons en U et colliers de tuyauterie.",
+    "pt": "Guia completo de parafusos em U e braçadeiras de tubo.",
+    "ru": "Полное руководство по U-образным болтам и хомутам.",
+    "ja": "Uボルトとパイプラinspaceの完全ガイド。",
+    "de": "Vollständiger Leitfaden zu U-Bolzen und Rohrschellen.",
+    "hi": "यू-बोल्ट और पाइप क्लैंप पर पूर्ण गाइड"
+  },
+  "keywords": "U-bolts, pipe clamps, pipe hangers, pipe support, infrastructure fasteners, structural clamps",
+  "sections": [
+    {
+      "id": "types-overview",
+      "heading": { "en": "Types of U-Bolts and Pipe Clamps" },
+      "body": { "en": "U-bolts and pipe clamps are specialized fasteners used to attach pipes, tubes, and round equipment to surfaces or structures. A U-bolt wraps around the pipe with two threaded legs that bolt to a mounting surface. Pipe clamps (often called pipe hangers or pipe clips) fully enclose the pipe with a clamp body and a bolted closure. The choice between U-bolts and pipe clamps depends on whether the pipe needs to be removable (clamps) or is fixed (U-bolt). For structural attachment to square/rectangular members, square U-bolts are used." },
+      "table": {
+        "headers": ["Type", "Pipe Enclosure", "Removable", "Typical Use"],
+        "rows": [
+          ["Standard U-bolt", "Partial (bottom half)", "Yes", "Pipe to beam/wall"],
+          ["Pipe clamp (2-bolt)", "Full", "Yes", "Suspended pipe runs"],
+          ["Pipe hanger (clevis)", "Full, with suspension", "Yes", "Vertical suspension"],
+          ["Saddle clamp", "Full with saddle", "Yes", "Heavy pipe, vibration"],
+          ["Square U-bolt", "Partial", "Yes", "Round pipe to square structure"],
+          ["Vibration clamp (rubber-lined)", "Full, rubber lined", "Yes", "Vibrating equipment"]
+        ]
+      }
+    },
+    {
+      "id": "size-selection",
+      "heading": { "en": "Size Selection: Matching Pipe OD" },
+      "body": { "en": "U-bolt size must match the outer diameter (OD) of the pipe or tube being mounted. For standard pipes (nominal bore), the U-bolt inner diameter should be approximately 2-3mm larger than the pipe OD to allow for insertion. For example: DN25 (33.7mm OD) pipe → use a 34-36mm U-bolt; DN50 (60.3mm OD) pipe → use a 60-63mm U-bolt; 2-inch (60.3mm OD) pipe → use a 60-63mm U-bolt. Always verify the actual pipe OD with a caliper before ordering — schedule 40 vs schedule 80 pipe of the same nominal size have different OD." }
+    },
+    {
+      "id": "materials-coatings",
+      "heading": { "en": "Materials and Coatings for African Environments" },
+      "body": { "en": "For African environments, material selection is critical for longevity: Hot-dip galvanized (HDG) steel — standard for outdoor and general use; zinc coating protects against corrosion; suitable for most environments including moderately humid coastal areas. Stainless steel 316 — for coastal areas within 5km of the ocean and for water/wastewater applications; the molybdenum provides chloride pitting resistance. Ductile iron — for heavy-duty applications (mining pipelines); higher strength than steel but typically painted rather than coated. Rubber-lined clamps — for vibration isolation, noise reduction, and to protect pipe coating; essential for slurry lines in mining." }
+    },
+    {
+      "id": "load-ratings",
+      "heading": { "en": "Load Ratings and Support Spacing" },
+      "body": { "en": "U-bolt load capacity depends on diameter and material. For structural design, always refer to manufacturer load tables. As a general reference: M10 HDG U-bolt (for 2-inch pipe) supports approximately 300-500 kg shear load per bolt pair; M12 HDG U-bolt (for 3-inch pipe) supports approximately 500-800 kg per bolt pair. Support spacing for horizontal pipes: DN15-DN50: 1.5-2.0m spacing; DN65-DN100: 2.0-3.0m spacing; DN125 and above: 3.0-4.0m spacing. These are guidelines only — for critical structural applications, have a qualified engineer calculate actual loads based on pipe content weight, pressure, and dynamic forces." },
+    },
+    {
+      "id": "african-applications",
+      "heading": { "en": "Common Applications in African Infrastructure" },
+      "body": { "en": "U-bolts and pipe clamps are ubiquitous in African construction and mining: Water supply pipelines — HDG U-bolts for mounting to concrete walls and steel structures in municipal water systems; Mining slurry pipelines — rubber-lined clamps for abrasion resistance and vibration damping in ore transport lines; Solar farm piping — HDG U-bolts for mounting HDPE pipes carrying water for panel cleaning; Electrical conduit support — two-bolt pipe clamps for mounting PVC conduit to structures; Wastewater treatment — stainless steel 316 clamps for corrosive media handling; Fire sprinkler systems — UL-listed fire sprinkler clamps for hanging sprinkler pipes in commercial buildings." }
+    },
+    {
+      "id": "faq",
+      "heading": { "en": "Frequently Asked Questions" },
+      "faqItems": [
+        { "q": { "en": "What's the difference between a U-bolt and a pipe clamp?" }, "a": { "en": "A U-bolt wraps around the bottom half of the pipe and requires a separate mounting surface; it does not fully enclose the pipe. A pipe clamp fully encloses the pipe and typically has a bolted closure for removal. Use U-bolts when the pipe rests on or is bolted to a surface. Use pipe clamps when the pipe is suspended or when a fully captive connection is needed." } },
+        { "q": { "en": "How do I prevent galvanic corrosion between U-bolts and pipes?" }, "a": { "en": "Galvanic corrosion occurs when dissimilar metals (e.g., HDG steel U-bolt on copper pipe) are in contact with an electrolyte (water). Prevention: use a rubber or plastic isolator (pipe wrap) between the U-bolt and the pipe; use nylon-coated U-bolts that provide a complete barrier; for critical applications, specify the same material for both pipe and clamp." } },
+        { "q": { "en": "What is a 'square U-bolt' and when is it used?" }, "a": { "en": "A square U-bolt has legs that extend perpendicular to the curved base, designed to mount round pipes or tubes to square or rectangular structural members (I-beams, square tubing, wooden beams). Standard U-bolts have legs that are parallel to each other and perpendicular to the base — these mount to flat surfaces. Always verify you have the correct shape for your mounting structure." } }
+      ]
+    }
+  ],
+  "relatedProducts": ["u-bolts", "pipe-clamps", "washers"],
+  "cta": {
+    "text": { "en": "Need U-bolts or pipe clamps for your project? Get a factory quote from TradeGo.", "zh": "需要U型螺栓或管道夹用于项目？从TradeGo获取工厂报价。" },
+    "buttonText": { "en": "Get Quote", "zh": "获取报价" },
+    "link": "/#inquiry"
+  }
+}
