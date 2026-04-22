@@ -3,7 +3,7 @@
   "category": "Industry Analysis",
   "date": "2026-04-22",
   "readTime": 8,
-  "image": "/images/articles/default.jpg",
+  "image": "/images/articles/fastener-packaging-shipping-guide.png",
   "title": {
     "en": "Fastener Packaging and Ocean Shipping Guide",
     "zh": "紧固件包装与海运指南",
@@ -32,50 +32,140 @@
   "sections": [
     {
       "id": "packaging-options",
-      "heading": {"en": "Standard Packaging Options for Fasteners", "zh": "紧固件标准包装方案"},
+      "heading": {
+        "en": "Standard Packaging Options for Fasteners",
+        "zh": "紧固件标准包装方案"
+      },
       "body": {
         "en": "Fastener packaging directly impacts product protection during transit, handling efficiency at destination, and overall landed cost. The three primary packaging formats are bulk cartons, plastic boxes, and bulk bags. Bulk cartons are the most common and economical — typically 20-25kg corrugated boxes with inner plastic liners. This format is ideal for construction projects where fasteners are dispensed on-site. Plastic boxes (retail packs) contain 50-500 pieces per box and are suitable for hardware retail distribution. Bulk bags (jumbo bags or FIBCs) hold 500-1000kg and are used for large-scale construction projects to minimize packaging waste. For ocean shipping to African ports, bulk cartons on pallets are the recommended format. Each carton should be clearly labeled with product description, size, quantity, material grade, surface finish, and lot number. Pallets should be heat-treated (ISPM 15 compliant) for phytosanitary requirements. Shrink-wrapping pallets prevents moisture damage and pilferage during transit and port storage.",
         "zh": "紧固件包装直接影响运输保护、目的地处理效率和总到岸成本。三种主要包装格式：散装箱、塑料盒和大包装袋。散装箱最常见最经济——通常20-25kg瓦楞纸箱内衬塑料袋。塑料盒（零售装）每盒50-500件，适合五金零售分销。大包装袋500-1000kg，用于大型建筑项目。海运到非洲港口推荐托盘散装箱。每个纸箱应清晰标注产品描述、尺寸、数量、材料等级、表面处理和批次号。托盘需热处理（ISPM 15合规）。收缩膜包裹防潮防盗。"
       },
       "table": {
-        "headers": ["Package Type", "Weight/Qty", "Best For", "Cost Impact"],
+        "headers": [
+          "Package Type",
+          "Weight/Qty",
+          "Best For",
+          "Cost Impact"
+        ],
         "rows": [
-          ["Bulk Carton", "20-25 kg", "Construction sites, distributors", "Baseline"],
-          ["Plastic Box", "50-500 pcs", "Hardware retail", "+15-25%"],
-          ["Bulk Bag (FIBC)", "500-1000 kg", "Large projects", "-5-10%"],
-          ["Custom Label Pack", "Varies", "Private label, OEM", "+10-20%"]
+          [
+            "Bulk Carton",
+            "20-25 kg",
+            "Construction sites, distributors",
+            "Baseline"
+          ],
+          [
+            "Plastic Box",
+            "50-500 pcs",
+            "Hardware retail",
+            "+15-25%"
+          ],
+          [
+            "Bulk Bag (FIBC)",
+            "500-1000 kg",
+            "Large projects",
+            "-5-10%"
+          ],
+          [
+            "Custom Label Pack",
+            "Varies",
+            "Private label, OEM",
+            "+10-20%"
+          ]
         ]
       }
     },
     {
       "id": "container-loading",
-      "heading": {"en": "Container Loading and Shipping Optimization", "zh": "集装箱装载与运输优化"},
+      "heading": {
+        "en": "Container Loading and Shipping Optimization",
+        "zh": "集装箱装载与运输优化"
+      },
       "body": {
         "en": "Efficient container loading is critical for minimizing per-unit shipping costs, especially on long routes from China to African and Middle Eastern ports. A standard 20-foot container (20' GP) has an internal volume of approximately 33 cubic meters and a payload capacity of about 22 tons. A 40-foot container (40' GP) offers 67 cubic meters and roughly 27 tons payload. For dense products like steel fasteners, the weight limit is reached before volume capacity. A 20' container typically holds 18-22 tons of fasteners in bulk cartons on pallets, while a 40' container holds 24-27 tons. The key to cost optimization is maximizing the weight loaded — every ton of unused capacity is wasted freight. For FCL (Full Container Load) shipments, aim for at least 95% weight utilization. LCL (Less than Container Load) is available for smaller orders but costs 30-50% more per ton. Major shipping routes to Africa include Shanghai/Ningbo to Durban (18-22 days), Mombasa (22-28 days), and Dar es Salaam (24-30 days). Freight rates fluctuate significantly, so locking in rates 2-4 weeks before shipment is advisable.",
         "zh": "高效集装箱装载对于最小化单位运输成本至关重要，特别是在中国到非洲和中东港口的长途航线上。20尺柜内容积约33立方米，载重约22吨。40尺柜67立方米，载重约27吨。钢制紧固件等高密度产品在达到体积容量前先达到重量限制。20尺柜通常装18-22吨，40尺柜24-27吨。FCL至少95%重量利用率。LCL每吨贵30-50%。主要航线：上海/宁波到德班18-22天，蒙巴萨22-28天，达累斯萨拉姆24-30天。"
       },
       "table": {
-        "headers": ["Container Type", "Volume (m³)", "Payload (tons)", "Fastener Load (tons)", "Est. Freight (USD)"],
+        "headers": [
+          "Container Type",
+          "Volume (m³)",
+          "Payload (tons)",
+          "Fastener Load (tons)",
+          "Est. Freight (USD)"
+        ],
         "rows": [
-          ["20' GP", "33", "22", "18-22", "1,200-2,500"],
-          ["40' GP", "67", "27", "24-27", "1,800-3,500"],
-          ["40' HC", "76", "27", "24-27", "2,000-3,800"]
+          [
+            "20' GP",
+            "33",
+            "22",
+            "18-22",
+            "1,200-2,500"
+          ],
+          [
+            "40' GP",
+            "67",
+            "27",
+            "24-27",
+            "1,800-3,500"
+          ],
+          [
+            "40' HC",
+            "76",
+            "27",
+            "24-27",
+            "2,000-3,800"
+          ]
         ]
       }
     },
     {
       "id": "customs-documentation",
-      "heading": {"en": "Customs Documentation and Import Requirements", "zh": "清关单证与进口要求"},
+      "heading": {
+        "en": "Customs Documentation and Import Requirements",
+        "zh": "清关单证与进口要求"
+      },
       "body": {
         "en": "Proper documentation is essential for smooth customs clearance at African ports. The minimum required documents include a commercial invoice, packing list, bill of lading, and certificate of origin. Many African countries require additional documentation: a Pre-Shipment Inspection (PSI) certificate (SGS, BV, or Cotecna) is mandatory for imports into Zimbabwe, Tanzania, and several West African nations. The HS code for most fasteners falls under Chapter 73 (articles of iron or steel), with specific subheadings for screws (7318.15), bolts (7318.16), nuts (7318.16), and washers (7318.22). Import duties for fasteners range from 0-25% depending on the country and whether trade agreements apply (COMESA, SADC, AGOA). Zimbabwe applies a standard 25% duty on most fasteners plus 15% VAT. South Africa charges 0-15% duty under SADC trade preferences. Always verify current duty rates and documentation requirements with a local clearing agent before shipment.",
         "zh": "正确单证对非洲港口顺利清关至关重要。最低要求包括商业发票、装箱单、提单和原产地证。许多非洲国家需要额外文件：津巴布韦、坦桑尼亚和几个西非国家强制要求装船前检验（PSI）证书。紧固件HS编码通常在第73章。进口关税0-25%不等。津巴布韦标准25%关税加15%增值税。南非在SADC贸易优惠下0-15%。出货前务必与当地清关代理确认当前税率和单证要求。"
       },
       "faqItems": [
-        {"q": {"en": "What is a Pre-Shipment Inspection (PSI) certificate?", "zh": "什么是装船前检验（PSI）证书？"}, "a": {"en": "PSI is a mandatory inspection conducted by approved agencies (SGS, BV, Cotecna) before goods are shipped to certain countries. It verifies product quantity, quality, and value. Costs are typically 0.5-1% of the FOB value.", "zh": "PSI是经批准机构在货物发往某些国家前进行的强制检验，验证产品数量、质量和价值。费用通常为FOB价值的0.5-1%。"}},
-        {"q": {"en": "How long does customs clearance take at African ports?", "zh": "非洲港口清关需要多长时间？"}, "a": {"en": "Clearance times vary: Durban 3-5 days, Mombasa 5-7 days, Dar es Salaam 5-10 days, Beira 7-14 days. Delays often result from incomplete documentation or PSI certificate issues.", "zh": "清关时间因港而异：德班3-5天，蒙巴萨5-7天，达累斯萨拉姆5-10天，贝拉7-14天。延误通常因单证不全或PSI证书问题。"}}
+        {
+          "q": {
+            "en": "What is a Pre-Shipment Inspection (PSI) certificate?",
+            "zh": "什么是装船前检验（PSI）证书？"
+          },
+          "a": {
+            "en": "PSI is a mandatory inspection conducted by approved agencies (SGS, BV, Cotecna) before goods are shipped to certain countries. It verifies product quantity, quality, and value. Costs are typically 0.5-1% of the FOB value.",
+            "zh": "PSI是经批准机构在货物发往某些国家前进行的强制检验，验证产品数量、质量和价值。费用通常为FOB价值的0.5-1%。"
+          }
+        },
+        {
+          "q": {
+            "en": "How long does customs clearance take at African ports?",
+            "zh": "非洲港口清关需要多长时间？"
+          },
+          "a": {
+            "en": "Clearance times vary: Durban 3-5 days, Mombasa 5-7 days, Dar es Salaam 5-10 days, Beira 7-14 days. Delays often result from incomplete documentation or PSI certificate issues.",
+            "zh": "清关时间因港而异：德班3-5天，蒙巴萨5-7天，达累斯萨拉姆5-10天，贝拉7-14天。延误通常因单证不全或PSI证书问题。"
+          }
+        }
       ]
     }
   ],
-  "relatedProducts": ["drywall-screws", "roofing-screws", "hex-bolts"],
-  "cta": {"text": {"en": "Planning a fastener import? Get packaging advice and shipping quotes from TradeGo Fasteners.", "zh": "计划进口紧固件？从TradeGo Fasteners获取包装建议和运输报价。"}, "buttonText": {"en": "Get Quote", "zh": "获取报价"}, "link": "/en#inquiry"}
+  "relatedProducts": [
+    "drywall-screws",
+    "roofing-screws",
+    "hex-bolts"
+  ],
+  "cta": {
+    "text": {
+      "en": "Planning a fastener import? Get packaging advice and shipping quotes from TradeGo Fasteners.",
+      "zh": "计划进口紧固件？从TradeGo Fasteners获取包装建议和运输报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/en#inquiry"
+  }
 }

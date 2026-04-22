@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-04-22",
   "readTime": 8,
-  "image": "/images/articles/default.jpg",
+  "image": "/images/articles/nylon-nuts-bolts-guide.png",
   "title": {
     "en": "Nylon Nuts and Bolts Guide: Properties and Applications",
     "zh": "尼龙螺母螺栓指南：性能与应用",
@@ -32,53 +32,154 @@
   "sections": [
     {
       "id": "nylon-material-properties",
-      "heading": {"en": "Nylon Material Properties for Fasteners", "zh": "紧固件用尼龙材料性能"},
+      "heading": {
+        "en": "Nylon Material Properties for Fasteners",
+        "zh": "紧固件用尼龙材料性能"
+      },
       "body": {
         "en": "Nylon (polyamide) fasteners, most commonly made from PA6 or PA6.6, offer a unique combination of properties that make them indispensable in specific applications. Nylon fasteners are approximately one-seventh the weight of steel equivalents, completely non-corrosive, electrically insulating, and non-magnetic. PA6.6 has a tensile strength of 75-85 MPa, which is roughly 10-15% of a Grade 4.6 steel bolt. The continuous service temperature range is -40°C to +120°C for PA6.6, with short-term exposure up to 160°C. Key advantages include excellent chemical resistance to oils, solvents, and many acids, self-lubricating properties that eliminate the need for thread lubricants, and vibration damping characteristics that reduce noise and prevent loosening. For buyers in the African mining and electrical sectors, nylon fasteners are essential for applications where metal fasteners could cause galvanic corrosion, electrical shorts, or spark hazards. Glass-filled nylon (PA6.6 GF30) offers 2-3 times higher strength and stiffness for more demanding structural applications.",
         "zh": "尼龙（聚酰胺）紧固件最常用PA6或PA6.6制造，具有独特的性能组合。尼龙紧固件重量约为钢的七分之一，完全不腐蚀、电绝缘、无磁性。PA6.6抗拉强度75-85 MPa，约为4.6级钢螺栓的10-15%。连续使用温度范围-40°C至+120°C。主要优势包括优异的耐油、溶剂和酸化学性、自润滑特性和减振特性。对于非洲采矿和电气行业的买家，尼龙紧固件在金属紧固件可能导致电偶腐蚀、电气短路或火花危险的场合必不可少。"
       },
       "table": {
-        "headers": ["Property", "PA6", "PA6.6", "PA6.6 GF30", "Steel (4.6)"],
+        "headers": [
+          "Property",
+          "PA6",
+          "PA6.6",
+          "PA6.6 GF30",
+          "Steel (4.6)"
+        ],
         "rows": [
-          ["Tensile Strength (MPa)", "70-80", "75-85", "150-180", "400"],
-          ["Density (g/cm³)", "1.13", "1.14", "1.35", "7.85"],
-          ["Max Service Temp (°C)", "100", "120", "140", "300+"],
-          ["Electrical Insulation", "Excellent", "Excellent", "Excellent", "None"],
-          ["Corrosion Resistance", "Excellent", "Excellent", "Excellent", "Poor (uncoated)"]
+          [
+            "Tensile Strength (MPa)",
+            "70-80",
+            "75-85",
+            "150-180",
+            "400"
+          ],
+          [
+            "Density (g/cm³)",
+            "1.13",
+            "1.14",
+            "1.35",
+            "7.85"
+          ],
+          [
+            "Max Service Temp (°C)",
+            "100",
+            "120",
+            "140",
+            "300+"
+          ],
+          [
+            "Electrical Insulation",
+            "Excellent",
+            "Excellent",
+            "Excellent",
+            "None"
+          ],
+          [
+            "Corrosion Resistance",
+            "Excellent",
+            "Excellent",
+            "Excellent",
+            "Poor (uncoated)"
+          ]
         ]
       }
     },
     {
       "id": "applications-and-limitations",
-      "heading": {"en": "Applications and Limitations of Nylon Fasteners", "zh": "尼龙紧固件的应用与限制"},
+      "heading": {
+        "en": "Applications and Limitations of Nylon Fasteners",
+        "zh": "尼龙紧固件的应用与限制"
+      },
       "body": {
         "en": "Nylon fasteners excel in applications where metal is unsuitable. In electrical installations, they prevent current leakage and eliminate spark risks in explosive atmospheres. In chemical processing, they resist corrosion from acids, alkalis, and solvents that would rapidly degrade steel. In food processing, they meet FDA requirements and will not contaminate products. In marine applications, they are immune to saltwater corrosion. However, nylon fasteners have significant limitations that must be respected. They cannot bear heavy structural loads — the maximum recommended clamping force is approximately 10-15% of an equivalent steel bolt. Creep is a concern under sustained loads, meaning nylon bolts gradually lose clamping force over time at elevated temperatures. UV exposure degrades unprotected nylon, so outdoor applications require UV-stabilized grades. Moisture absorption (up to 2.5% by weight for PA6.6) causes dimensional changes and reduces mechanical properties. For construction projects, nylon fasteners should be limited to non-structural applications such as cable tray supports, equipment enclosures, signage, and temporary fixtures.",
         "zh": "尼龙紧固件在金属不适用的场合表现出色。电气安装中防止漏电并消除爆炸环境中的火花风险。化工处理中耐酸碱和溶剂腐蚀。食品加工中满足FDA要求。海洋应用中免疫盐水腐蚀。但尼龙紧固件有显著限制：无法承受重结构载荷，蠕变在持续载荷下是关注点，UV照射降解未保护的尼龙，吸湿导致尺寸变化。建筑工程中应限制在非结构应用。"
       },
       "table": {
-        "headers": ["Application", "Advantage of Nylon", "Limitation to Watch"],
+        "headers": [
+          "Application",
+          "Advantage of Nylon",
+          "Limitation to Watch"
+        ],
         "rows": [
-          ["Electrical panels", "Insulation, no sparks", "Low clamp force"],
-          ["Chemical plant", "Corrosion resistance", "Temp limit 120°C"],
-          ["Food processing", "FDA compliant, no rust", "Creep under load"],
-          ["Marine fittings", "Saltwater immune", "UV degradation"],
-          ["Cable trays", "Lightweight, insulated", "Not structural"]
+          [
+            "Electrical panels",
+            "Insulation, no sparks",
+            "Low clamp force"
+          ],
+          [
+            "Chemical plant",
+            "Corrosion resistance",
+            "Temp limit 120°C"
+          ],
+          [
+            "Food processing",
+            "FDA compliant, no rust",
+            "Creep under load"
+          ],
+          [
+            "Marine fittings",
+            "Saltwater immune",
+            "UV degradation"
+          ],
+          [
+            "Cable trays",
+            "Lightweight, insulated",
+            "Not structural"
+          ]
         ]
       }
     },
     {
       "id": "sizing-and-procurement",
-      "heading": {"en": "Sizing, Standards, and Procurement Tips", "zh": "尺寸、标准与采购要点"},
+      "heading": {
+        "en": "Sizing, Standards, and Procurement Tips",
+        "zh": "尺寸、标准与采购要点"
+      },
       "body": {
         "en": "Nylon fasteners follow the same dimensional standards as metal fasteners — metric threads per ISO 261/262 and imperial threads per ASME B1.1. This means an M8 nylon bolt will thread into an M8 metal nut (though mixing materials is generally not recommended due to different thermal expansion rates). Common sizes range from M3 to M24 in metric and #4 to 1/2\" in imperial. Head styles include hex head, socket head cap screw, pan head, and countersunk. When ordering nylon fasteners, specify the polyamide grade (PA6 vs PA6.6), whether glass-filled, color (natural vs black UV-stabilized), and thread type. Black-colored nylon fasteners typically contain carbon black for UV resistance and cost 10-15% more than natural color. Minimum order quantities from Chinese manufacturers typically start at 5,000-10,000 pieces per size, though some suppliers offer smaller lots at higher unit prices. For African importers, ordering a range of popular sizes (M6, M8, M10, M12) in both hex bolt and hex nut configurations provides good stock coverage for electrical and light industrial applications.",
         "zh": "尼龙紧固件遵循与金属紧固件相同的尺寸标准。公制螺纹按ISO 261/262，英制按ASME B1.1。M8尼龙螺栓可拧入M8金属螺母（但因热膨胀率不同，一般不建议混用材质）。常见尺寸M3-M24。头部样式包括六角头、内六角、盘头和沉头。订购时指定聚酰胺等级、是否玻纤增强、颜色和螺纹类型。黑色尼龙含炭黑抗UV，贵10-15%。中国制造商最小起订量通常5,000-10,000件/规格。"
       },
       "faqItems": [
-        {"q": {"en": "Can nylon bolts be used outdoors?", "zh": "尼龙螺栓可以户外使用吗？"}, "a": {"en": "Only UV-stabilized (black) nylon fasteners should be used outdoors. Natural (white/cream) nylon degrades rapidly under UV exposure, becoming brittle within months. UV-stabilized grades last 3-5 years in direct sunlight.", "zh": "只有UV稳定（黑色）尼龙紧固件可用于户外。自然色尼龙在UV照射下迅速降解，数月内变脆。UV稳定级在直射阳光下可使用3-5年。"}},
-        {"q": {"en": "Are nylon fasteners food-safe?", "zh": "尼龙紧固件是否食品安全？"}, "a": {"en": "PA6 and PA6.6 in natural color (without additives) meet FDA 21 CFR requirements for food contact. Black/UV-stabilized grades may not be food-safe due to carbon black additives. Always confirm food compliance with the manufacturer.", "zh": "自然色（无添加剂）PA6和PA6.6满足FDA 21 CFR食品接触要求。黑色/UV稳定级因炭黑添加剂可能不安全。务必与制造商确认食品合规性。"}}
+        {
+          "q": {
+            "en": "Can nylon bolts be used outdoors?",
+            "zh": "尼龙螺栓可以户外使用吗？"
+          },
+          "a": {
+            "en": "Only UV-stabilized (black) nylon fasteners should be used outdoors. Natural (white/cream) nylon degrades rapidly under UV exposure, becoming brittle within months. UV-stabilized grades last 3-5 years in direct sunlight.",
+            "zh": "只有UV稳定（黑色）尼龙紧固件可用于户外。自然色尼龙在UV照射下迅速降解，数月内变脆。UV稳定级在直射阳光下可使用3-5年。"
+          }
+        },
+        {
+          "q": {
+            "en": "Are nylon fasteners food-safe?",
+            "zh": "尼龙紧固件是否食品安全？"
+          },
+          "a": {
+            "en": "PA6 and PA6.6 in natural color (without additives) meet FDA 21 CFR requirements for food contact. Black/UV-stabilized grades may not be food-safe due to carbon black additives. Always confirm food compliance with the manufacturer.",
+            "zh": "自然色（无添加剂）PA6和PA6.6满足FDA 21 CFR食品接触要求。黑色/UV稳定级因炭黑添加剂可能不安全。务必与制造商确认食品合规性。"
+          }
+        }
       ]
     }
   ],
-  "relatedProducts": ["nylon-nuts", "nylon-bolts", "nylon-washers"],
-  "cta": {"text": {"en": "Need nylon fasteners for electrical or chemical applications? Get specifications and pricing from TradeGo Fasteners.", "zh": "需要电气或化工用途的尼龙紧固件？从TradeGo Fasteners获取规格和价格。"}, "buttonText": {"en": "Get Quote", "zh": "获取报价"}, "link": "/en#inquiry"}
+  "relatedProducts": [
+    "nylon-nuts",
+    "nylon-bolts",
+    "nylon-washers"
+  ],
+  "cta": {
+    "text": {
+      "en": "Need nylon fasteners for electrical or chemical applications? Get specifications and pricing from TradeGo Fasteners.",
+      "zh": "需要电气或化工用途的尼龙紧固件？从TradeGo Fasteners获取规格和价格。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/en#inquiry"
+  }
 }

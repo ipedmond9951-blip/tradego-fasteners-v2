@@ -3,7 +3,7 @@
   "category": "Product Comparison",
   "date": "2026-04-22",
   "readTime": 8,
-  "image": "/images/articles/default.jpg",
+  "image": "/images/articles/zinc-plated-vs-black-phosphate-screws.png",
   "title": {
     "en": "Zinc Plated vs Black Phosphate Screws: Which to Choose?",
     "zh": "镀锌vs黑磷化螺丝：该选哪个？",
@@ -32,26 +32,60 @@
   "sections": [
     {
       "id": "finish-comparison",
-      "heading": {"en": "Zinc Plated vs Black Phosphate: Surface Treatment Comparison", "zh": "镀锌vs黑磷化：表面处理对比"},
+      "heading": {
+        "en": "Zinc Plated vs Black Phosphate: Surface Treatment Comparison",
+        "zh": "镀锌vs黑磷化：表面处理对比"
+      },
       "body": {
         "en": "Zinc plating and black phosphate are the two most common surface treatments for construction screws, each offering distinct advantages. Zinc plating (electroplating) deposits a thin layer of zinc onto the steel surface through an electrochemical process, providing a bright silver or yellow appearance. The zinc layer acts as a sacrificial barrier — it corrodes preferentially to protect the underlying steel. Typical zinc plating thickness ranges from 3-15 microns, offering 24-72 hours of salt spray resistance. Black phosphate coating, by contrast, creates a thin crystalline layer through a chemical reaction with the steel surface. It provides minimal standalone corrosion resistance (typically less than 12 hours salt spray) but excels as a base for additional coatings and offers superior paint adhesion. Black phosphate screws are often combined with oil for indoor applications. For B2B buyers in humid tropical markets, zinc plating is generally the better standalone choice, while black phosphate works well for dry indoor applications or as a pre-treatment before painting.",
         "zh": "镀锌和黑磷化是建筑螺丝最常见的两种表面处理。镀锌（电镀）通过电化学过程在钢表面沉积薄锌层，提供银亮或黄色外观。锌层作为牺牲屏障优先腐蚀以保护底层钢材。镀锌层厚度3-15微米，提供24-72小时盐雾抵抗。黑磷化通过化学反应在钢表面形成薄结晶层，独立耐腐蚀性较低（通常不到12小时盐雾），但作为额外涂层底漆和油漆附着力优异。对于潮湿热带市场的B2B买家，镀锌通常是更好的独立选择。"
       },
       "table": {
-        "headers": ["Property", "Zinc Plated", "Black Phosphate"],
+        "headers": [
+          "Property",
+          "Zinc Plated",
+          "Black Phosphate"
+        ],
         "rows": [
-          ["Salt Spray Resistance", "24-72 hours", "2-12 hours"],
-          ["Appearance", "Silver / Yellow", "Dark gray / Black"],
-          ["Paint Adhesion", "Moderate", "Excellent"],
-          ["Cost Premium", "+5-10%", "Baseline"],
-          ["Best Environment", "Indoor / Mild outdoor", "Dry indoor only"],
-          ["Thickness", "3-15 μm", "2-5 μm"]
+          [
+            "Salt Spray Resistance",
+            "24-72 hours",
+            "2-12 hours"
+          ],
+          [
+            "Appearance",
+            "Silver / Yellow",
+            "Dark gray / Black"
+          ],
+          [
+            "Paint Adhesion",
+            "Moderate",
+            "Excellent"
+          ],
+          [
+            "Cost Premium",
+            "+5-10%",
+            "Baseline"
+          ],
+          [
+            "Best Environment",
+            "Indoor / Mild outdoor",
+            "Dry indoor only"
+          ],
+          [
+            "Thickness",
+            "3-15 μm",
+            "2-5 μm"
+          ]
         ]
       }
     },
     {
       "id": "corrosion-performance",
-      "heading": {"en": "Corrosion Performance in Different Climates", "zh": "不同气候下的耐腐蚀表现"},
+      "heading": {
+        "en": "Corrosion Performance in Different Climates",
+        "zh": "不同气候下的耐腐蚀表现"
+      },
       "body": {
         "en": "The performance difference between zinc plated and black phosphate screws becomes most apparent in challenging climates. In the humid tropics of Southeast Asia and West Africa, where relative humidity regularly exceeds 80% and temperatures reach 35-40°C, zinc plated screws typically last 2-5 years before significant rust appears on the fastener head. Black phosphate screws in the same conditions may show surface rust within weeks. However, for dry indoor applications in arid regions like the Sahel or Middle Eastern deserts, black phosphate screws perform adequately at a lower cost. The key consideration is the cost-benefit ratio: zinc plating adds approximately 5-10% to the screw cost but can extend service life by 3-5 times in humid environments. For coastal projects where salt spray is a factor, neither finish is sufficient — consider upgrading to hot-dip galvanized or stainless steel fasteners.",
         "zh": "镀锌与黑磷化螺丝的性能差异在恶劣气候下最为明显。在东南亚和西非的潮湿热带地区，相对湿度经常超过80%，温度达35-40°C，镀锌螺丝通常可使用2-5年才出现明显锈蚀。黑磷化螺丝在同样条件下可能在数周内出现表面锈蚀。但在萨赫勒或中东沙漠等干旱地区的干燥室内应用中，黑磷化螺丝以更低成本表现足够。镀锌增加约5-10%成本，但在潮湿环境中可延长使用寿命3-5倍。沿海项目应升级为热浸镀锌或不锈钢。"
@@ -59,17 +93,52 @@
     },
     {
       "id": "cost-and-procurement",
-      "heading": {"en": "Cost Analysis and Procurement Recommendations", "zh": "成本分析与采购建议"},
+      "heading": {
+        "en": "Cost Analysis and Procurement Recommendations",
+        "zh": "成本分析与采购建议"
+      },
       "body": {
         "en": "When procuring screws in bulk for construction projects, the surface finish significantly impacts both unit cost and total project economics. Black phosphate screws are the baseline — they are the least expensive option and are widely available from manufacturers in China, India, and Taiwan. Zinc plated screws carry a 5-10% premium over black phosphate. Yellow zinc plating costs slightly more than clear zinc but offers marginally better corrosion resistance. For large-scale projects, the cost difference per unit is small, but the long-term maintenance savings from choosing zinc plating can be substantial. Consider the total cost of ownership: replacing corroded screws in a completed structure costs 5-10 times the original fastener price due to labor and access costs. Our recommendation for most African and Southeast Asian markets is to specify zinc plated screws as the minimum standard and reserve black phosphate for dry indoor applications where cost sensitivity is paramount.",
         "zh": "批量采购建筑螺丝时，表面处理显著影响单价和项目经济性。黑磷化螺丝是基准——最便宜，中国、印度和台湾制造商广泛供应。镀锌螺丝比黑磷化贵5-10%。黄锌比白锌稍贵但耐腐蚀性略好。大型项目中单价差异小，但镀锌带来的长期维护节省可观。考虑总拥有成本：完工结构中更换腐蚀螺丝的成本是原紧固件价格的5-10倍。建议大多数非洲和东南亚市场以镀锌为最低标准。"
       },
       "faqItems": [
-        {"q": {"en": "Can I paint over zinc plated screws?", "zh": "可以在镀锌螺丝上刷漆吗？"}, "a": {"en": "Yes, but you need a zinc-compatible primer. Standard primers may not adhere well to the smooth zinc surface. Use an etching primer or zinc chromate primer for best results.", "zh": "可以，但需要锌兼容底漆。标准底漆可能无法很好地附着在光滑锌面上。使用蚀刻底漆或锌铬酸盐底漆效果最佳。"}},
-        {"q": {"en": "Is yellow zinc better than clear zinc?", "zh": "黄锌比白锌好吗？"}, "a": {"en": "Yellow zinc (chromate passivated) offers slightly better corrosion resistance than clear zinc due to the chromate conversion coating. However, the difference is modest (roughly 20-30% improvement in salt spray hours) and yellow zinc contains hexavalent chromium, which is restricted under RoHS in some markets.", "zh": "黄锌（铬酸盐钝化）由于铬酸盐转化涂层，耐腐蚀性略优于白锌。但差异不大（盐雾时间提高约20-30%），且黄锌含六价铬，在某些市场受RoHS限制。"}}
+        {
+          "q": {
+            "en": "Can I paint over zinc plated screws?",
+            "zh": "可以在镀锌螺丝上刷漆吗？"
+          },
+          "a": {
+            "en": "Yes, but you need a zinc-compatible primer. Standard primers may not adhere well to the smooth zinc surface. Use an etching primer or zinc chromate primer for best results.",
+            "zh": "可以，但需要锌兼容底漆。标准底漆可能无法很好地附着在光滑锌面上。使用蚀刻底漆或锌铬酸盐底漆效果最佳。"
+          }
+        },
+        {
+          "q": {
+            "en": "Is yellow zinc better than clear zinc?",
+            "zh": "黄锌比白锌好吗？"
+          },
+          "a": {
+            "en": "Yellow zinc (chromate passivated) offers slightly better corrosion resistance than clear zinc due to the chromate conversion coating. However, the difference is modest (roughly 20-30% improvement in salt spray hours) and yellow zinc contains hexavalent chromium, which is restricted under RoHS in some markets.",
+            "zh": "黄锌（铬酸盐钝化）由于铬酸盐转化涂层，耐腐蚀性略优于白锌。但差异不大（盐雾时间提高约20-30%），且黄锌含六价铬，在某些市场受RoHS限制。"
+          }
+        }
       ]
     }
   ],
-  "relatedProducts": ["drywall-screws", "wood-screws", "self-drilling-screws"],
-  "cta": {"text": {"en": "Need the right screw finish for your climate? Contact TradeGo Fasteners for expert advice and bulk pricing.", "zh": "需要为您的气候选择合适的螺丝表面处理？联系TradeGo Fasteners获取专业建议和批量价格。"}, "buttonText": {"en": "Get Quote", "zh": "获取报价"}, "link": "/en#inquiry"}
+  "relatedProducts": [
+    "drywall-screws",
+    "wood-screws",
+    "self-drilling-screws"
+  ],
+  "cta": {
+    "text": {
+      "en": "Need the right screw finish for your climate? Contact TradeGo Fasteners for expert advice and bulk pricing.",
+      "zh": "需要为您的气候选择合适的螺丝表面处理？联系TradeGo Fasteners获取专业建议和批量价格。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/en#inquiry"
+  }
 }
