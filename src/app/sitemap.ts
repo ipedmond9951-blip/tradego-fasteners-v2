@@ -1,13 +1,19 @@
 import { locales } from '@/i18n'
 
 export default function sitemap() {
-  const baseUrl = 'https://tradego-fasteners-v2.vercel.app'
+  const baseUrl = 'https://tradego-fasteners.com'
   
   const staticPages = ['', '/products', '/industry', '/product-upload']
   
   const articleSlugs = [
-    'global-fastener-market-2026',
-    'self-drilling-screws-guide',
+    'drywall-screws-complete-guide',
+    'self-drilling-screws-selection-guide',
+    'ibr-roofing-nails-installation-guide',
+    'bolt-grade-markings-guide',
+    'africa-fastener-market-opportunities-2026',
+    'galvanized-vs-stainless-steel-fasteners',
+    'fastener-quality-control-iso9001',
+    'hex-bolt-dimensions-chart',
   ]
 
   const entries = []

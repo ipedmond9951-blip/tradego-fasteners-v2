@@ -38,7 +38,7 @@ async function sendEmail(data: InquiryData, isHighValue: boolean): Promise<boole
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'TradeGo Inquiry <onboarding@resend.dev>',
+        from: 'TradeGo Inquiry <inquiry@tradego-fasteners.com>',
         to: INQUIRY_EMAIL,
         replyTo: data.email,
         subject: `${isHighValue ? '⭐ HIGH VALUE ' : ''}Inquiry from ${data.company || data.name} (${data.country || 'Unknown'})`,

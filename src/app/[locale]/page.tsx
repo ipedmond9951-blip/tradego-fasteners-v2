@@ -16,7 +16,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
   const { locale: localeParam } = await params
   const locale = (localeParam as Locale) || 'en'
   const msgs = getMessages(locale)
-  const BASE_URL = 'https://tradego-fasteners-v2.vercel.app'
+  const BASE_URL = 'https://tradego-fasteners.com'
 
   return (
     <>

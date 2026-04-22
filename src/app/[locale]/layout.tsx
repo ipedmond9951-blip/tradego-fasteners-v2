@@ -14,7 +14,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
   const loc = (locale as Locale) || 'en'
-  const siteUrl = 'https://tradego-fasteners-v2.vercel.app'
+  const siteUrl = 'https://tradego-fasteners.com'
   
   const titles: Record<string, string> = {
     zh: '紧固件批发制造商 | 干墙螺丝·螺栓螺母',
@@ -75,8 +75,8 @@ export default async function LocaleLayout({
           "@context": "https://schema.org",
           "@type": "Organization",
           "name": "TradeGo Fasteners",
-          "url": "https://tradego-fasteners-v2.vercel.app",
-          "logo": "https://tradego-fasteners-v2.vercel.app/images/logo.png",
+          "url": "https://tradego-fasteners.com",
+          "logo": "https://tradego-fasteners.com/images/logo.png",
           "description": "Professional fastener manufacturer specializing in drywall screws, self-drilling screws, bolts, nuts, and IBR nails",
           "foundingDate": "2004",
           "address": { "@type": "PostalAddress", "addressCountry": "CN", "addressLocality": "Hebei" },
@@ -87,7 +87,7 @@ export default async function LocaleLayout({
           "@context": "https://schema.org",
           "@type": "WebSite",
           "name": "TradeGo Fasteners",
-          "url": "https://tradego-fasteners-v2.vercel.app"
+          "url": "https://tradego-fasteners.com"
         }) }} />
         <link rel="alternate" hrefLang="en" href="/en" />
         <link rel="alternate" hrefLang="zh" href="/zh" />
