@@ -14,6 +14,16 @@ export default function sitemap() {
     'galvanized-vs-stainless-steel-fasteners',
     'fastener-quality-control-iso9001',
     'hex-bolt-dimensions-chart',
+    'concrete-anchors-fasteners-guide',
+    'carriage-bolts-specifications',
+    'zinc-plated-vs-black-phosphate-screws',
+    'roofing-screws-epdm-washer-guide',
+    'fastener-packaging-shipping-guide',
+    'construction-fastener-standards-comparison',
+    'thread-types-guide-metric-imperial',
+    'flat-washers-vs-spring-washers',
+    'nylon-nuts-bolts-guide',
+    'fastener-corrosion-resistance-guide',
   ]
 
   const entries = []

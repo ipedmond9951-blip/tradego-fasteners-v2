@@ -1,0 +1,85 @@
+{
+  "slug": "flat-washers-vs-spring-washers",
+  "category": "Product Comparison",
+  "date": "2026-04-22",
+  "readTime": 8,
+  "image": "/images/articles/default.jpg",
+  "title": {
+    "en": "Flat Washers vs Spring Washers: Selection Guide",
+    "zh": "平垫圈vs弹簧垫圈选型指南",
+    "es": "Arandelas planas vs arandelas de resorte: guía de selección",
+    "ar": "حلقات مسطحة مقابل حلقات زنبرك: دليل الاختيار",
+    "fr": "Rondelles plates vs rondelles ressort : guide de sélection",
+    "pt": "Arruelas planas vs arruelas de mola: guia de seleção",
+    "ru": "Плоские шайбы vs пружинные шайбы: руководство по выбору",
+    "ja": "平ワッシャーvsスプリングワッシャー：選定ガイド",
+    "de": "Scheiben vs Federringe: Auswahllleitfaden",
+    "hi": "फ्लैट वॉशर बनाम स्प्रिंग वॉशर: चयन मार्गदर्शिका"
+  },
+  "description": {
+    "en": "Compare flat washers and spring washers — when to use each type, load distribution vs anti-loosening, standards, and selection criteria for construction fastener assemblies.",
+    "zh": "对比平垫圈和弹簧垫圈——各自适用场景、载荷分布vs防松、标准，以及建筑紧固件组合的选型标准。",
+    "es": "Compare arandelas planas y de resorte: cuándo usar cada tipo, distribución de carga vs antiaflojamiento y criterios de selección.",
+    "ar": "قارن الحلقات المسطحة والزنبركية: متى تستخدم كل نوع ومعايير الاختيار.",
+    "fr": "Comparez rondelles plates et ressort : quand utiliser chaque type et critères de sélection.",
+    "pt": "Compare arruelas planas e de mola: quando usar cada tipo e critérios de seleção.",
+    "ru": "Сравнение плоских и пружинных шайб: когда использовать каждый тип и критерии выбора.",
+    "ja": "平ワッシャーとスプリングワッシャーの比較—各タイプの使い分けと選定基準。",
+    "de": "Vergleich von Scheiben und Federringen: Wann welchen Typ verwenden und Auswahlkriterien.",
+    "hi": "फ्लैट वॉशर और स्प्रिंग वॉशर की तुलना—कब किसका उपयोग करें और चयन मानदंड।"
+  },
+  "keywords": "flat washers, spring washers, lock washers, DIN 125, DIN 127, washer selection guide",
+  "sections": [
+    {
+      "id": "washer-functions",
+      "heading": {"en": "Functions of Flat Washers vs Spring Washers", "zh": "平垫圈与弹簧垫圈的功能"},
+      "body": {
+        "en": "Flat washers and spring washers serve fundamentally different purposes in bolted assemblies, yet they are frequently confused or misapplied. Flat washers (DIN 125 / ISO 7089) distribute the clamping load over a larger surface area, protecting the base material from damage and preventing the bolt head or nut from digging into soft materials. They also provide a smooth bearing surface that helps achieve consistent clamp force. Spring washers (DIN 127 / ISO 7090), also called split lock washers, serve as an anti-loosening device. The split creates a spring action that maintains tension on the bolt even if some preload is lost. However, spring washers provide only moderate vibration resistance and are increasingly being replaced by more effective locking methods in critical applications. For construction projects in Africa, the common practice is to use a flat washer under both the bolt head and nut, with a spring washer added on the nut side when vibration is a concern. This combination provides both load distribution and some degree of anti-loosening protection.",
+        "zh": "平垫圈和弹簧垫圈在螺栓组合中服务于根本不同的目的。平垫圈（DIN 125/ISO 7089）将夹紧载荷分布在更大的表面积上，保护基材免受损坏。弹簧垫圈（DIN 127/ISO 7090）作为防松装置，切口产生弹簧作用，即使部分预紧力损失也能维持张力。但弹簧垫圈仅提供中等抗振性。非洲建筑项目的常见做法是在螺栓头和螺母下方都使用平垫圈，在担心振动时在螺母侧加弹簧垫圈。"
+      },
+      "table": {
+        "headers": ["Property", "Flat Washer", "Spring Washer"],
+        "rows": [
+          ["Primary Function", "Load distribution", "Anti-loosening"],
+          ["Standard", "DIN 125 / ISO 7089", "DIN 127 / ISO 7090"],
+          ["Material", "Steel, stainless, nylon", "Spring steel, stainless"],
+          ["Surface Protection", "Yes — prevents gouging", "No"],
+          ["Vibration Resistance", "None", "Moderate"],
+          ["Reusability", "Yes", "Limited (fatigue)"]
+        ]
+      }
+    },
+    {
+      "id": "flat-washer-types",
+      "heading": {"en": "Flat Washer Types and Specifications", "zh": "平垫圈类型与规格"},
+      "body": {
+        "en": "Flat washers come in several configurations suited to different applications. Standard flat washers (DIN 125 Form A) have a normal outside diameter and are used for general purposes. Form B washers have a larger outside diameter for soft materials or oversize holes. Hardened flat washers (DIN 6917) are used with structural bolts (Grade 8.8 and above) and have higher hardness ratings to prevent deformation under high clamping forces. Heavy-duty flat washers (DIN 433) have a smaller outside diameter and are used in confined spaces. Material choices include mild steel (standard), stainless steel (A2/A4 for corrosion resistance), brass (electrical applications), and nylon (non-conductive, lightweight). For construction in coastal African regions, stainless steel flat washers paired with stainless steel bolts and nuts provide the most durable assembly. When ordering flat washers in bulk, specify the standard, material, inside diameter, outside diameter, thickness, and surface finish.",
+        "zh": "平垫圈有多种配置。标准平垫圈（DIN 125 Form A）外径正常，用于一般用途。Form B外径更大，用于软材料或超大孔。硬化平垫圈（DIN 6917）配合结构螺栓（8.8级以上）。重型平垫圈（DIN 433）外径较小，用于空间受限处。材料选择包括低碳钢、不锈钢、黄铜和尼龙。非洲沿海地区建筑中，不锈钢平垫圈配不锈钢螺栓螺母提供最耐用的组合。"
+      },
+      "table": {
+        "headers": ["Bolt Size", "ID (mm)", "OD (mm) Form A", "Thickness (mm)", "Hardness (HV)"],
+        "rows": [
+          ["M6", "6.4", "12", "1.6", "140-200"],
+          ["M8", "8.4", "16", "1.6", "140-200"],
+          ["M10", "10.5", "20", "2.0", "140-200"],
+          ["M12", "13.0", "24", "2.5", "140-200"],
+          ["M16", "17.0", "30", "3.0", "140-200"]
+        ]
+      }
+    },
+    {
+      "id": "spring-washer-effectiveness",
+      "heading": {"en": "Spring Washer Effectiveness and Alternatives", "zh": "弹簧垫圈有效性与替代方案"},
+      "body": {
+        "en": "The effectiveness of spring washers as anti-loosening devices is a subject of ongoing debate in the engineering community. Research has shown that standard split helical spring washers provide limited vibration resistance under dynamic loading conditions. The spring force generated by a compressed split washer is typically only 5-10% of the bolt preload, which may be insufficient to prevent loosening in high-vibration environments. For applications requiring reliable anti-loosening, several alternatives outperform spring washers. Nord-Lock wedge lock washers use a cam mechanism that increases tension under vibration. Prevailing torque nuts (nylon insert or deformed thread) provide consistent locking force. Thread-locking adhesives (Loctite) create a chemical bond. For structural construction in seismic zones like parts of East Africa, double nut arrangements or castle nuts with cotter pins are specified. When spring washers are used, they should be installed between the nut and the flat washer, never directly against the base material. Replace spring washers after each disassembly as they lose elasticity with repeated compression cycles.",
+        "zh": "弹簧垫圈作为防松装置的有效性在工程界一直存在争议。研究表明标准开口弹簧垫圈在动态载荷条件下提供的抗振性有限。压缩开口垫圈产生的弹簧力通常仅为螺栓预紧力的5-10%。需要可靠防松的应用中，Nord-Lock楔入垫圈、施力螺母、螺纹锁固胶等替代方案优于弹簧垫圈。东非地震区的结构建筑指定双螺母或开槽螺母配开口销。弹簧垫圈应安装在螺母和平垫圈之间，不可直接接触基材。"
+      },
+      "faqItems": [
+        {"q": {"en": "Should I always use a spring washer with a nut?", "zh": "螺母是否总应搭配弹簧垫圈？"}, "a": {"en": "No. For static loads with no vibration, a flat washer alone is sufficient. Spring washers are only needed when vibration or dynamic loading is expected. Overuse of spring washers adds cost without benefit.", "zh": "不是。对于无振动的静态载荷，仅用平垫圈即可。弹簧垫圈仅在预期有振动或动态载荷时需要。过度使用弹簧垫圈增加成本而无益处。"}},
+        {"q": {"en": "Can I stack multiple spring washers for more locking force?", "zh": "可以叠加多个弹簧垫圈增加锁紧力吗？"}, "a": {"en": "Stacking spring washers is not recommended. It does not proportionally increase locking force and can create uneven bearing surfaces. Instead, use a more effective locking method such as a Nord-Lock washer or prevailing torque nut.", "zh": "不推荐叠加弹簧垫圈。它不会成比例增加锁紧力，还可能造成不均匀承压面。应使用更有效的锁紧方法如Nord-Lock垫圈或施力螺母。"}}
+      ]
+    }
+  ],
+  "relatedProducts": ["flat-washers", "spring-washers", "lock-nuts"],
+  "cta": {"text": {"en": "Need washers for your fastener assemblies? Get bulk pricing from TradeGo Fasteners.", "zh": "需要紧固件组合用垫圈？从TradeGo Fasteners获取批量价格。"}, "buttonText": {"en": "Get Quote", "zh": "获取报价"}, "link": "/en#inquiry"}
+}

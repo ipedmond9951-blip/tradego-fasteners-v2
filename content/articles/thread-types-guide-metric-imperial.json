@@ -1,0 +1,84 @@
+{
+  "slug": "thread-types-guide-metric-imperial",
+  "category": "Technical Guide",
+  "date": "2026-04-22",
+  "readTime": 8,
+  "image": "/images/articles/default.jpg",
+  "title": {
+    "en": "Thread Types Guide: Metric and Imperial Threads Explained",
+    "zh": "螺纹类型指南：公制与英制螺纹详解",
+    "es": "Guía de tipos de rosca: roscas métricas e imperiales explicadas",
+    "ar": "دليل أنواع الخيوط: شرح الخيوط المترية والإمبراطورية",
+    "fr": "Guide des types de filets : filets métriques et impériaux expliqués",
+    "pt": "Guia de tipos de rosca: roscas métricas e imperiais explicadas",
+    "ru": "Руководство по типам резьбы: метрическая и дюймовая резьба",
+    "ja": "ねじの種類ガイド：メートルねじとインチねじの解説",
+    "de": "Gewindetypen-Leitfaden: Metrische und Zollgewinde erklärt",
+    "hi": "थ्रेड प्रकार मार्गदर्शिका: मेट्रिक और इंपीरियल थ्रेड की व्याख्या"
+  },
+  "description": {
+    "en": "Understand metric and imperial thread types, pitch differences, compatibility rules, and how to specify the correct thread for construction fastener procurement.",
+    "zh": "了解公制和英制螺纹类型、螺距差异、兼容性规则，以及如何为建筑紧固件采购指定正确的螺纹。",
+    "es": "Comprenda los tipos de rosca métrica e imperial, diferencias de paso, reglas de compatibilidad y especificación correcta.",
+    "ar": "فهم أنواع الخيوط المترية والإمبراطورية واختلافات الخطوة وقواعد التوافق وكيفية تحديد الخيط الصحيح.",
+    "fr": "Comprenez les types de filets métriques et impériaux, différences de pas, règles de compatibilité et spécification correcte.",
+    "pt": "Entenda os tipos de rosca métrica e imperial, diferenças de passo, regras de compatibilidade e especificação correta.",
+    "ru": "Поймите типы метрической и дюймовой резьбы, разницу шагов, правила совместимости и правильную спецификацию.",
+    "ja": "メートルねじとインチねじの種類、ピッチの違い、互換性ルール、正しいねじの指定方法を理解する。",
+    "de": "Verstehen Sie metrische und Zoll-Gewindetypen, Teilungsunterschiede, Kompatibilitätsregeln und korrekte Spezifikation.",
+    "hi": "मेट्रिक और इंपीरियल थ्रेड प्रकारों, पिच अंतर, संगतता नियमों को समझें और सही थ्रेड निर्दिष्ट करें।"
+  },
+  "keywords": "metric thread, imperial thread, thread pitch, coarse fine thread, fastener thread types",
+  "sections": [
+    {
+      "id": "metric-vs-imperial",
+      "heading": {"en": "Metric vs Imperial Thread Systems", "zh": "公制vs英制螺纹体系"},
+      "body": {
+        "en": "The two dominant thread systems in global fastener supply are the metric system (ISO metric thread, designated M) and the imperial system (Unified thread, designated UNC/UNF). Metric threads are specified by nominal diameter and pitch in millimeters (e.g., M10 × 1.5), where 1.5mm is the distance between adjacent thread crests. Imperial threads are specified by nominal diameter in inches and threads per inch (TPI) (e.g., 3/8\"-16 UNC, meaning 16 threads per inch). Metric threads are the global standard for construction and are mandatory in most African, European, and Asian countries. Imperial threads remain common in North America, the Gulf states, and legacy installations worldwide. The two systems are fundamentally incompatible — an M10 bolt will not thread into a 3/8\" nut despite the similar nominal diameters (10mm vs 9.525mm). For procurement, always confirm which thread system the project requires. Mixing metric and imperial fasteners on the same project is a common and costly error that can compromise structural integrity.",
+        "zh": "全球紧固件供应中两个主导螺纹体系是公制（ISO公制螺纹，代号M）和英制（统一螺纹，代号UNC/UNF）。公制螺纹以毫米为单位指定公称直径和螺距（如M10×1.5）。英制螺纹以英寸为单位指定公称直径和每英寸牙数（如3/8\"-16 UNC）。公制螺纹是全球建筑标准。英制螺纹在北美、海湾国家和传统安装中仍常见。两个体系根本不兼容。采购时务必确认项目要求哪种螺纹体系。"
+      },
+      "table": {
+        "headers": ["Metric Size", "Pitch (mm)", "Imperial Equivalent", "TPI", "Compatible?"],
+        "rows": [
+          ["M6", "1.0", "1/4\"", "20", "No"],
+          ["M8", "1.25", "5/16\"", "18", "No"],
+          ["M10", "1.5", "3/8\"", "16", "No"],
+          ["M12", "1.75", "1/2\"", "13", "No"],
+          ["M16", "2.0", "5/8\"", "11", "No"]
+        ]
+      }
+    },
+    {
+      "id": "coarse-vs-fine",
+      "heading": {"en": "Coarse Thread vs Fine Thread", "zh": "粗牙vs细牙"},
+      "body": {
+        "en": "Within each thread system, both coarse and fine pitch variants exist. Coarse thread (M standard pitch / UNC) is the default for most construction applications. It offers faster assembly, better resistance to cross-threading, and performs well in materials prone to stripping such as aluminum, brass, and wood. Fine thread (M fine pitch / UNF) provides higher tensile strength due to the larger minor diameter, better vibration resistance, and finer adjustment capability. Fine threads are preferred for precision instruments, automotive applications, and situations where vibration loosening is a concern. For construction projects in Africa, coarse thread is recommended as the standard because it is more widely available, easier to install with basic tools, and more forgiving of field conditions. Fine thread fasteners should only be specified when there is a clear engineering justification, as they cost 10-20% more and are harder to source in local markets for replacement.",
+        "zh": "每个螺纹体系内都有粗牙和细牙变体。粗牙（M标准螺距/UNC）是大多数建筑应用的默认选择。它组装更快，抗错扣更好。细牙（M细螺距/UNF）因小径更大提供更高抗拉强度，抗振更好。非洲建筑项目推荐粗牙为标准，因为它更广泛可得，用基本工具更易安装。细牙仅在有明确工程理由时指定。"
+      },
+      "table": {
+        "headers": ["Size", "Coarse Pitch", "Fine Pitch", "Coarse Tensile Area (mm²)", "Fine Tensile Area (mm²)"],
+        "rows": [
+          ["M8", "1.25", "1.0", "36.6", "39.2"],
+          ["M10", "1.5", "1.25", "58.0", "61.2"],
+          ["M12", "1.75", "1.25", "84.3", "92.1"],
+          ["M16", "2.0", "1.5", "157", "167"],
+          ["M20", "2.5", "1.5", "245", "272"]
+        ]
+      }
+    },
+    {
+      "id": "thread-specification",
+      "heading": {"en": "How to Specify Threads Correctly in Procurement", "zh": "采购中如何正确指定螺纹"},
+      "body": {
+        "en": "Accurate thread specification is essential for avoiding procurement errors. A complete thread specification includes the thread system (metric or imperial), nominal diameter, pitch (coarse or fine with specific value), thread direction (right-hand is default, left-hand must be specified), thread length, and tolerance class. For metric threads, the tolerance class 6g/6H is standard for general construction. Class 4g/4H provides tighter tolerances for precision applications, while 8g/8H is used for rough construction threads. When writing purchase orders, use the full designation: M12 × 1.75 × 50 6g (diameter × pitch × length × tolerance). Omitting the pitch implies coarse thread, but explicit specification eliminates ambiguity. For imperial threads, specify: 1/2\"-13 UNC × 2\" Grade 5. Always confirm thread specifications with the project engineer before placing orders, especially when replacing fasteners in existing structures where both metric and imperial may have been used.",
+        "zh": "准确的螺纹规格对避免采购错误至关重要。完整螺纹规格包括螺纹体系、公称直径、螺距、旋向、螺纹长度和公差等级。公制螺纹6g/6H公差等级是建筑通用标准。采购订单使用完整标号：M12×1.75×50 6g。省略螺距暗示粗牙，但明确规格消除歧义。下订单前务必与项目工程师确认螺纹规格。"
+      },
+      "faqItems": [
+        {"q": {"en": "How can I identify whether an existing bolt is metric or imperial?", "zh": "如何识别现有螺栓是公制还是英制？"}, "a": {"en": "Use a thread gauge (also called a screw pitch gauge) to measure the thread pitch. If the pitch matches a metric value (e.g., 1.5mm), it's metric. If it matches a TPI value (e.g., 16 threads per inch), it's imperial. Calipers can confirm the nominal diameter.", "zh": "使用螺纹规测量螺距。如果螺距匹配公制值（如1.5mm），则为公制。如果匹配每英寸牙数值，则为英制。卡尺可确认公称直径。"}},
+        {"q": {"en": "Can I use a helicoil to convert imperial threads to metric?", "zh": "可以用螺纹嵌件将英制螺纹转换为公制吗？"}, "a": {"en": "Yes, helicoil inserts can repair damaged threads or convert between thread systems in non-structural applications. However, for structural connections, thread conversion is not recommended — use the original thread specification.", "zh": "可以，螺纹嵌件可修复损坏螺纹或在非结构应用中转换螺纹体系。但结构连接不建议转换，使用原始螺纹规格。"}}
+      ]
+    }
+  ],
+  "relatedProducts": ["hex-bolts", "threaded-rod", "hex-nuts"],
+  "cta": {"text": {"en": "Need help specifying the right thread type? Contact TradeGo Fasteners for expert guidance.", "zh": "需要帮助指定正确的螺纹类型？联系TradeGo Fasteners获取专业指导。"}, "buttonText": {"en": "Get Quote", "zh": "获取报价"}, "link": "/en#inquiry"}
+}
