@@ -12,6 +12,8 @@ import TeamCard from '@/components/TeamCard'
 import { GeoPromotion } from '@/components/GeoContent'
 import ShareButtons from '@/components/ShareButtons'
 import ManufacturingProcess from '@/components/ManufacturingProcess'
+import SteelFutures from '@/components/SteelFutures'
+import VideoSection from '@/components/VideoSection'
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -132,6 +134,8 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
 
       <AboutSection locale={locale} />
       <ManufacturingProcess locale={locale} />
+      <SteelFutures locale={locale} />
+      <VideoSection locale={locale} />
       <WhyChooseUs locale={locale} />
       <TeamCard locale={locale} />
       <ProductGrid locale={locale} />
