@@ -31,8 +31,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     en: 'China Wholesale Fastener Manufacturer - Drywall Screws, Self-Drilling Screws, Hex Bolts, IBR Nails | ISO 9001',
   }
   const descriptions: Record<string, string> = {
-    zh: 'ISO 9001紧固件批发商：干墙螺丝、自钻螺丝、螺栓螺母、IBR钉。20年经验，起订量低，全球发货。立即询价！',
-    en: 'ISO 9001 certified wholesale fastener manufacturer with 20+ years expertise. Quality drywall screws, self-drilling screws, bolts, nuts & IBR nails. Low MOQ, global delivery. Request your quote today!',
+    zh: 'ISO 9001认证紧固件批发制造商，20多年专业经验。批量干墙螺丝、自钻TEK螺丝、六角螺栓、螺母、垫圈、IBR钉，工厂价格。低MOQ，发货至50多个国家。立即询价！',
+    en: 'China ISO 9001 certified wholesale fastener manufacturer with 20+ years expertise. Bulk drywall screws, self-drilling TEK screws, hex bolts, nuts, washers, IBR nails at factory prices. Low MOQ, global shipping to 50+ countries. Request your quote today!',
   }
   
   return {
