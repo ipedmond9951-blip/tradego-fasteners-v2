@@ -249,6 +249,21 @@
 
 **提交:** `8e31ed6`
 
+**内部链接优化 - 首页到文章**
+- Application Scenarios section 添加文章链接：
+  - Construction → timber-construction-fasteners-africa
+  - Manufacturing → high-tensile-structural-bolts-guide
+  - Roofing → ibr-roofing-nails-installation-guide
+- Technical Product Guide section 添加文章链接：
+  - Drywall Screws → drywall-screws-complete-guide
+  - Self-Drilling → roofing-screws-epdm-washer-guide
+  - Bolts & Nuts → high-tensile-structural-bolts-guide
+  - IBR Nails → ibr-roofing-nails-installation-guide
+  - Material Selection → fastener-corrosion-resistance-guide
+- 新增 "Related Resources" 区块 (4篇文章链接)
+
+**提交:** `6dd9b68`
+
 ### 📊 累计进度
 - Round 1-6: 全部完成 ✅
 - 产品数量: 4 → 8 ✅
