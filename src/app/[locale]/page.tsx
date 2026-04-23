@@ -5,6 +5,7 @@ import AboutSection from '@/components/AboutSection'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import ProductGrid from '@/components/ProductGrid'
 import FAQSection from '@/components/FAQSection'
+import TestimonialsSection from '@/components/TestimonialsSection'
 import InquiryForm from '@/components/InquiryForm'
 import TeamCard from '@/components/TeamCard'
 import { GeoPromotion } from '@/components/GeoContent'
@@ -229,6 +230,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
       </section>
 
       <FAQSection locale={locale} />
+      <TestimonialsSection locale={locale} />
       <InquiryForm locale={locale} />
     </>
   )
