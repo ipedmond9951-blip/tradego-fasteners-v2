@@ -42,29 +42,9 @@ const otherLocales: Record<string, typeof translations.en> = {
 }
 
 export default function WhatsAppCTA({ locale }: WhatsAppCTAProps) {
-  const [isVisible, setIsVisible] = useState(false)
   const [isMinimized, setIsMinimized] = useState(true)
   
   const content = translations[locale] || translations.en
-
-  useEffect(() => {
-    // Show the WhatsApp button after 5 seconds or when user scrolls 50%
-    const timer = setTimeout(() => setIsVisible(true), 5000)
-    
-    const handleScroll = () => {
-      const scrollHeight = document.documentElement.scrollHeight - window.innerHeight
-      const scrollTop = window.scrollY
-      if (scrollHeight > 0 && scrollTop / scrollHeight > 0.5) {
-        setIsVisible(true)
-      }
-    }
-    
-    window.addEventListener('scroll', handleScroll)
-    return () => {
-      clearTimeout(timer)
-      window.removeEventListener('scroll', handleScroll)
-    }
-  }, [])
 
   // Pre-filled message based on locale
   const getPreFilledMessage = () => {
@@ -84,8 +64,6 @@ export default function WhatsAppCTA({ locale }: WhatsAppCTAProps) {
   }
 
   const whatsappLink = `${WHATSAPP_LINK}?text=${getPreFilledMessage()}`
-
-  if (!isVisible) return null
 
   // If minimized, show a small floating button
   if (isMinimized) {
