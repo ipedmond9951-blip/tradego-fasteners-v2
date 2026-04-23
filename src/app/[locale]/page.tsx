@@ -10,6 +10,7 @@ import TestimonialsSection from '@/components/TestimonialsSection'
 import InquiryForm from '@/components/InquiryForm'
 import TeamCard from '@/components/TeamCard'
 import { GeoPromotion } from '@/components/GeoContent'
+import ShareButtons from '@/components/ShareButtons'
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -117,6 +118,15 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
 
       <div className="container mx-auto px-4">
         <GeoPromotion />
+        
+        {/* Social Share Buttons */}
+        <div className="max-w-3xl mx-auto py-4">
+          <ShareButtons 
+            url={`https://tradego-fasteners.com/${locale}`}
+            title={locale === 'zh' ? 'TradeGo紧固件 - 专业制造商' : 'TradeGo Fasteners - Professional Manufacturer'}
+            description={locale === 'zh' ? 'ISO 9001认证紧固件批发商，专业生产干墙螺丝、自钻螺丝、螺栓螺母等' : 'ISO 9001 certified wholesale fastener manufacturer'}
+          />
+        </div>
       </div>
 
       <AboutSection locale={locale} />

@@ -81,7 +81,12 @@ export default async function LocaleLayout({
           "foundingDate": "2004",
           "address": { "@type": "PostalAddress", "addressCountry": "CN", "addressLocality": "Hebei" },
           "contactPoint": { "@type": "ContactPoint", "contactType": "sales", "availableLanguage": ["English", "Chinese"] },
-          "sameAs": []
+          "sameAs": [
+          "https://www.linkedin.com/company/tradego-fasteners",
+          "https://www.facebook.com/tradegofasteners",
+          "https://twitter.com/tradegofasteners",
+          "https://www.youtube.com/@tradegofasteners"
+        ]
         }) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",

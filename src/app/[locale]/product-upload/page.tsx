@@ -26,7 +26,6 @@ export default function ProductUploadPage({ params }: { params: Promise<{ locale
     await new Promise(r => setTimeout(r, 1000))
 
     // In production: POST /api/products with FormData
-    console.log('Product data:', Object.fromEntries(formData.entries()))
     setSubmitted(true)
     setLoading(false)
   }

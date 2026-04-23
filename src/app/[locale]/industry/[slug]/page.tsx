@@ -4,6 +4,9 @@ import Image from 'next/image'
 import { getAllArticles, getAllSlugs, getArticleBySlug } from '@/lib/articles'
 import { type Locale, t } from '@/i18n'
 import type { ArticleSection } from '@/lib/articles'
+import ShareButtons from '@/components/ShareButtons'
+
+const SITE_URL = 'https://tradego-fasteners.com'
 
 export async function generateStaticParams() {
   return getAllSlugs().map(slug => ({ slug }))
@@ -150,7 +153,15 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
 
       {/* Article */}
       <article className="max-w-3xl mx-auto px-4 sm:px-6 py-10 md:py-16">
-        <p className="text-gray-700 leading-relaxed text-base md:text-lg mb-8">{desc}</p>
+        <p className="text-gray-700 leading-relaxed text-base md:text-lg mb-6">{desc}</p>
+        
+        {/* Social Share Buttons */}
+        <ShareButtons 
+          url={`${SITE_URL}/${locale}/industry/${slug}`}
+          title={title}
+          description={desc}
+        />
+        
         {article.sections.map(section => renderSection(section, locale))}
 
         {/* CTA */}
