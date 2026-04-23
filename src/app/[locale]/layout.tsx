@@ -6,6 +6,8 @@ import { GeoProvider } from '@/contexts/GeoContext'
 import { CurrencyProvider } from '@/contexts/CurrencyContext'
 import { locales, type Locale } from '@/i18n'
 import AIChatWidget from '@/components/AIChatWidget'
+import Analytics from '@/components/Analytics'
+import EmailSubscribe from '@/components/EmailSubscribe'
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -125,6 +127,8 @@ export default async function LocaleLayout({
             <main>{children}</main>
             <Footer locale={loc} />
             <AIChatWidget locale={loc} />
+            <EmailSubscribe locale={loc} />
+            <Analytics />
           </CurrencyProvider>
         </GeoProvider>
       </body>
