@@ -89,14 +89,17 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-primary-900 mb-2">🏗️ Construction & Building</h3>
               <p className="text-gray-600 text-sm">Drywall screws for interior framing, IBR nails for roofing installations, and structural bolts for steel connections. Meeting DIN, ANSI, and SABS standards for global construction projects.</p>
+              <a href={`/${locale}/industry/timber-construction-fasteners-africa`} className="text-primary-600 hover:underline text-sm mt-2 inline-block">→ Learn more: Timber Construction Fasteners</a>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-primary-900 mb-2">⚙️ Manufacturing & Assembly</h3>
               <p className="text-gray-600 text-sm">Self-drilling screws for metal-to-metal fastening, hex bolts and nuts for machinery assembly. Available in carbon steel, stainless steel, and zinc-plated finishes with custom specifications.</p>
+              <a href={`/${locale}/industry/high-tensile-structural-bolts-guide`} className="text-primary-600 hover:underline text-sm mt-2 inline-block">→ Learn more: High-Tensile Bolts</a>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-primary-900 mb-2">🏠 Roofing & Cladding</h3>
               <p className="text-gray-600 text-sm">IBR nails with umbrella heads for corrugated roofing, self-drilling screws with EPDM washers for waterproof metal roof installations. SABS 1195 compliant for African market requirements.</p>
+              <a href={`/${locale}/industry/ibr-roofing-nails-installation-guide`} className="text-primary-600 hover:underline text-sm mt-2 inline-block">→ Learn more: IBR Roofing Installation</a>
             </div>
           </div>
         </div>
@@ -112,7 +115,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
           <div className="mb-10">
             <h3 className="text-xl md:text-2xl font-bold text-primary-900 mb-4">Drywall Screws: Complete Technical Specifications</h3>
             <p className="text-gray-700 mb-4 text-sm md:text-base leading-relaxed">
-              Drywall screws are essential fasteners for interior construction, specifically designed for attaching gypsum board to wood or metal studs. At TradeGo Fasteners, we manufacture two primary thread types: coarse thread (W-type) for wood studs and fine thread (S-type) for metal studs. Our drywall screws feature bugle head design that prevents damage to the gypsum paper surface while providing excellent holding power.
+              Drywall screws are essential fasteners for interior construction, specifically designed for attaching gypsum board to wood or metal studs. At TradeGo Fasteners, we manufacture two primary thread types: coarse thread (W-type) for wood studs and fine thread (S-type) for metal studs. Our drywall screws feature bugle head design that prevents damage to the gypsum paper surface while providing excellent holding power. <a href={`/${locale}/industry/drywall-screws-complete-guide`} className="text-primary-600 hover:underline">Read our complete drywall screws guide</a> for more detailed technical specifications.
             </p>
             <div className="bg-primary-50 rounded-lg p-4 md:p-6 mb-4">
               <h4 className="font-semibold text-primary-900 mb-3">Standard Specifications</h4>
@@ -134,7 +137,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
           <div className="mb-10">
             <h3 className="text-xl md:text-2xl font-bold text-primary-900 mb-4">Self-Drilling Screws (TEK Screws): Metal-to-Metal Solutions</h3>
             <p className="text-gray-700 mb-4 text-sm md:text-base leading-relaxed">
-              Self-drilling screws, commonly known as TEK screws, eliminate the need for pre-drilling in metal-to-metal applications. The integrated drill point (TEK point) creates the pilot hole and threads in a single operation, significantly reducing installation time and labor costs. TradeGo manufactures self-drilling screws with drill points rated for different metal thicknesses, from TEK 2 (up to 0.8mm steel) to TEK 5 (up to 12.5mm steel).
+              Self-drilling screws, commonly known as TEK screws, eliminate the need for pre-drilling in metal-to-metal applications. The integrated drill point (TEK point) creates the pilot hole and threads in a single operation, significantly reducing installation time and labor costs. TradeGo manufactures self-drilling screws with drill points rated for different metal thicknesses, from TEK 2 (up to 0.8mm steel) to TEK 5 (up to 12.5mm steel). <a href={`/${locale}/industry/roofing-screws-epdm-washer-guide`} className="text-primary-600 hover:underline">Learn more about EPDM washers for roofing applications</a>.
             </p>
             <div className="bg-primary-50 rounded-lg p-4 md:p-6 mb-4">
               <h4 className="font-semibold text-primary-900 mb-3">Drill Point Selection Guide</h4>
@@ -161,7 +164,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
           <div className="mb-10">
             <h3 className="text-xl md:text-2xl font-bold text-primary-900 mb-4">Industrial Bolts & Nuts: Grade Selection & Applications</h3>
             <p className="text-gray-700 mb-4 text-sm md:text-base leading-relaxed">
-              Hex bolts and nuts form the backbone of structural and mechanical connections across industries. Understanding strength grades is essential for selecting the right fastener. TradeGo manufactures and stocks bolts from Grade 4.8 (general purpose) through Grade 12.9 (high-strength structural applications). Each grade indicates the bolt's tensile strength and yield point ratio, critical for safety-critical applications.
+              Hex bolts and nuts form the backbone of structural and mechanical connections across industries. Understanding strength grades is essential for selecting the right fastener. TradeGo manufactures and stocks bolts from Grade 4.8 (general purpose) through Grade 12.9 (high-strength structural applications). Each grade indicates the bolt's tensile strength and yield point ratio, critical for safety-critical applications. <a href={`/${locale}/industry/high-tensile-structural-bolts-guide`} className="text-primary-600 hover:underline">Read our guide on high-tensile structural bolts</a> for applications requiring superior strength.
             </p>
             <div className="bg-primary-50 rounded-lg p-4 md:p-6 mb-4">
               <h4 className="font-semibold text-primary-900 mb-3">Bolt Grade Comparison Chart</h4>
@@ -188,7 +191,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
           <div className="mb-10">
             <h3 className="text-xl md:text-2xl font-bold text-primary-900 mb-4">IBR Nails: Roofing Fasteners for Corrugated Steel</h3>
             <p className="text-gray-700 mb-4 text-sm md:text-base leading-relaxed">
-              IBR (Inverted Box Rib) nails are specialized roofing fasteners designed for securing corrugated steel roofing sheets to wooden or steel purlins. The distinctive umbrella head (also called dome head or button head) provides large bearing surface that prevents the nail from pulling through the roofing sheet. TradeGo's IBR nails are SABS 1195 compliant, meeting South African Bureau of Standards requirements essential for the African construction market.
+              IBR (Inverted Box Rib) nails are specialized roofing fasteners designed for securing corrugated steel roofing sheets to wooden or steel purlins. The distinctive umbrella head (also called dome head or button head) provides large bearing surface that prevents the nail from pulling through the roofing sheet. TradeGo's IBR nails are SABS 1195 compliant, meeting South African Bureau of Standards requirements essential for the African construction market. <a href={`/${locale}/industry/ibr-roofing-nails-installation-guide`} className="text-primary-600 hover:underline">See our detailed IBR roofing installation guide</a> for best practices.
             </p>
             <div className="bg-primary-50 rounded-lg p-4 md:p-6 mb-4">
               <h4 className="font-semibold text-primary-900 mb-3">IBR Nail Specifications</h4>
@@ -210,7 +213,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
           <div className="mb-6">
             <h3 className="text-xl md:text-2xl font-bold text-primary-900 mb-4">Material Selection Guide: Choosing the Right Steel</h3>
             <p className="text-gray-700 mb-4 text-sm md:text-base leading-relaxed">
-              Selecting the appropriate material for your fasteners is critical for performance and longevity. TradeGo offers fasteners in multiple steel grades, each suited to specific environmental conditions and load requirements. Carbon steel fasteners offer excellent strength-to-cost ratio for indoor applications. For outdoor use, zinc plating or hot-dip galvanizing provides necessary corrosion protection. Stainless steel fasteners (304 and 316 grades) are recommended for food processing, chemical plants, and marine applications where corrosion resistance is paramount.
+              Selecting the appropriate material for your fasteners is critical for performance and longevity. TradeGo offers fasteners in multiple steel grades, each suited to specific environmental conditions and load requirements. Carbon steel fasteners offer excellent strength-to-cost ratio for indoor applications. For outdoor use, zinc plating or hot-dip galvanizing provides necessary corrosion protection. Stainless steel fasteners (304 and 316 grades) are recommended for food processing, chemical plants, and marine applications where corrosion resistance is paramount. <a href={`/${locale}/industry/fastener-corrosion-resistance-guide`} className="text-primary-600 hover:underline">Learn more about fastener corrosion resistance</a>.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="bg-white border rounded-lg p-4">
@@ -226,6 +229,30 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
                 <p className="text-sm text-gray-600">Marine grade. Superior resistance to salt water and chloride environments. Essential for coastal and offshore applications.</p>
               </div>
             </div>
+
+            {/* Related Resources Section - Internal Links */}
+            <div className="mt-10 pt-8 border-t border-gray-200">
+              <h3 className="text-xl md:text-2xl font-bold text-primary-900 mb-6">📚 Related Resources</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <a href={`/${locale}/industry/construction-fastener-standards-comparison`} className="block bg-white border rounded-lg p-4 hover:border-primary-500 hover:shadow-md transition-all">
+                  <h4 className="font-semibold text-primary-900 mb-1">Construction Standards Comparison</h4>
+                  <p className="text-sm text-gray-600">Compare DIN, ANSI, and SABS fastener standards for construction projects.</p>
+                </a>
+                <a href={`/${locale}/industry/anchor-bolts-selection-guide`} className="block bg-white border rounded-lg p-4 hover:border-primary-500 hover:shadow-md transition-all">
+                  <h4 className="font-semibold text-primary-900 mb-1">Anchor Bolts Selection Guide</h4>
+                  <p className="text-sm text-gray-600">Choose the right anchor bolts for foundation and structural applications.</p>
+                </a>
+                <a href={`/${locale}/industry/bolt-grade-markings-guide`} className="block bg-white border rounded-lg p-4 hover:border-primary-500 hover:shadow-md transition-all">
+                  <h4 className="font-semibold text-primary-900 mb-1">Bolt Grade Markings</h4>
+                  <p className="text-sm text-gray-600">Understand bolt grade markings to ensure proper strength selection.</p>
+                </a>
+                <a href={`/${locale}/industry/stainless-steel-bolts-africa-guide`} className="block bg-white border rounded-lg p-4 hover:border-primary-500 hover:shadow-md transition-all">
+                  <h4 className="font-semibold text-primary-900 mb-1">Stainless Steel for Africa</h4>
+                  <p className="text-sm text-gray-600">Guide to stainless steel fasteners for African environments.</p>
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
