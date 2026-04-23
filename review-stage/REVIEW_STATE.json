@@ -1,49 +1,18 @@
 {
-  "currentRound": 5,
+  "currentRound": 6,
   "status": "in_progress",
   "rounds": {
-    "1": {
-      "status": "completed",
-      "completedAt": "2026-04-23T11:06:00+08:00",
-      "improvements": [
-        "WhyChooseUs section added to homepage",
-        "All 65 articles SEO metadata fixed",
-        "FAQ sections completed for all articles"
-      ]
-    },
-    "2": {
-      "status": "completed",
-      "completedAt": "2026-04-23T11:58:00+08:00",
-      "improvements": [
-        "MaterialsSection component created",
-        "4 materials: Carbon Steel, Stainless Steel, Brass, Aluminum",
-        "4 finishes: Zinc Plated, Hot-Dip Galvanized, Black Oxide, Dacromet",
-        "Translations added to all 10 languages"
-      ]
-    },
-    "3": {
-      "status": "completed",
-      "completedAt": "2026-04-23T12:05:00+08:00",
-      "improvements": [
-        "Added 3 new FAQs about materials and finishes",
-        "Complements the new MaterialsSection"
-      ]
-    },
-    "4": {
-      "status": "completed",
-      "completedAt": "2026-04-23T12:10:00+08:00",
-      "improvements": [
-        "Added applications field to product data",
-        "Product cards now show applications as blue tags",
-        "Complements the product categories"
-      ]
-    }
+    "1": { "status": "completed", "completedAt": "2026-04-23T11:06:00+08:00", "improvements": ["WhyChooseUs section", "65 articles SEO fixed", "FAQ sections completed"] },
+    "2": { "status": "completed", "completedAt": "2026-04-23T11:58:00+08:00", "improvements": ["MaterialsSection component", "4 materials + 4 finishes", "10 language translations"] },
+    "3": { "status": "completed", "completedAt": "2026-04-23T12:05:00+08:00", "improvements": ["3 new FAQs about materials and finishes"] },
+    "4": { "status": "completed", "completedAt": "2026-04-23T12:10:00+08:00", "improvements": ["Product cards applications section"] },
+    "5": { "status": "completed", "completedAt": "2026-04-23T12:15:00+08:00", "improvements": ["Testimonials section with 3 customer reviews", "10 language translations"] }
   },
   "nextSteps": [
-    "Continue Round 5 improvements",
+    "Round 6 improvements",
     "More product categories expansion",
     "Internal linking optimization",
-    "Customer testimonials section",
+    "Customer testimonials expansion",
     "GEO targeting improvements"
   ]
 }
