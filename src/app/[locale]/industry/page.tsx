@@ -2,6 +2,7 @@ import { type Locale, t, locales } from '@/i18n'
 import Link from 'next/link'
 import { getAllArticles } from '@/lib/articles'
 import type { Metadata } from 'next'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: localeParam } = await params
@@ -101,6 +102,9 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
           </div>
         </div>
       </section>
+
+      {/* Breadcrumb Schema for SEO - Round 13 */}
+      <BreadcrumbSchema locale={locale} pageName="Industry" pageUrl="/industry" />
     </div>
   )
 }
