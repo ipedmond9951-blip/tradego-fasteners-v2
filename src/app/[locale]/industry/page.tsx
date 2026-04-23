@@ -13,8 +13,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     zh: '紧固件行业指南 | 技术文章与市场洞察',
   }
   const descriptions: Record<string, string> = {
-    en: 'Explore our comprehensive fastener industry guides covering drywall screws, bolts, nuts, and construction fasteners. Technical specifications, market analysis, and procurement tips.',
-    zh: '探索我们的全面紧固件行业指南，涵盖干墙螺丝、螺栓螺母和建筑紧固件。技术规格、市场分析和采购技巧。',
+    en: 'China fastener manufacturer expert guides: drywall screws, hex bolts, IBR nails, self-drilling screws. ISO 9001 certified. Download specs, market analysis & procurement tips for construction, roofing, steel structure.',
+    zh: '中国紧固件制造商专家指南：干墙螺丝、六角螺栓、IBR钉、自钻螺丝。ISO 9001认证。提供建筑、屋顶、钢结构规格、市场分析和采购技巧。',
   }
   
   return {
