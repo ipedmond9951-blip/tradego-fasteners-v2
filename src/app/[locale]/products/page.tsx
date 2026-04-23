@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import MaterialsSection from '@/components/MaterialsSection'
+import ProductGridWithSkeleton from '@/components/ProductGridWithSkeleton'
 
 // Static product data (same as ProductGrid)
 const allProducts = [
@@ -86,50 +87,11 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
           </div>
 
           {/* Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 md:gap-8">
-            {allProducts.map((product) => {
-              const text = texts[product.nameKey] || productText.en[product.nameKey]
-              return (
-                <div key={product.slug} className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow group flex flex-col">
-                  <div className="relative h-44 md:h-52 bg-gray-100 overflow-hidden">
-                    <Image src={product.image} alt={text} fill className="object-cover group-hover:scale-105 transition-transform duration-500" sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 25vw" />
-                    <span className="absolute top-3 right-3 bg-primary-600 text-white text-xs font-bold px-2.5 py-1 rounded-full">${product.pricePerPiece.toFixed(3)}/pc</span>
-                  </div>
-                  <div className="p-5 flex-1 flex flex-col">
-                    <h3 className="font-bold text-primary-900 text-lg mb-2">{text}</h3>
-                    
-                    {/* Specs table */}
-                    <div className="space-y-1.5 text-sm mb-4 mt-auto">
-                      {Object.entries(product.specs).map(([key, val]) => (
-                        <div key={key} className="flex justify-between"><span className="text-gray-500 capitalize">{key === 'size' ? 'Size' : key === 'standard' ? 'Standard' : key === 'material' ? 'Material' : 'Finish'}:</span><span className="font-medium text-right ml-2 truncate">{val as string}</span></div>
-                      ))}
-                    </div>
-                    
-                    {/* Features tags */}
-                    <div className="flex flex-wrap gap-1.5 mb-3">
-                      {product.features.map((f) => (
-                        <span key={f} className="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded">{f}</span>
-                      ))}
-                    </div>
-                    
-                    {/* Applications */}
-                    <div className="mb-4">
-                      <span className="text-xs text-gray-500 block mb-1.5">Applications:</span>
-                      <div className="flex flex-wrap gap-1.5">
-                        {product.applications.map((app) => (
-                          <span key={app} className="text-xs bg-primary-50 text-primary-700 px-2 py-0.5 rounded font-medium">{app}</span>
-                        ))}
-                      </div>
-                    </div>
-
-                    <a href={`/${locale}#inquiry`} className="block w-full text-center bg-primary-700 text-white py-2.5 rounded-lg font-semibold text-sm hover:bg-primary-800 transition-colors">
-                      {t(locale, 'products.inquiry')}
-                    </a>
-                  </div>
-                </div>
-              )
-            })}
-          </div>
+          <ProductGridWithSkeleton
+            products={allProducts}
+            locale={locale}
+            texts={texts}
+          />
         </div>
       </section>
 

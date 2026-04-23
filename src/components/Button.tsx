@@ -3,7 +3,7 @@
 import React from 'react';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'primary' | 'secondary' | 'ghost' | 'danger';
+  variant?: 'primary' | 'secondary' | 'ghost' | 'danger' | 'warning';
   size?: 'sm' | 'md' | 'lg';
   loading?: boolean;
   fullWidth?: boolean;
@@ -51,6 +51,11 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         hover:bg-error-600 hover:-translate-y-0.5 hover:shadow-md
         active:bg-error-700 active:translate-y-0
       `,
+      warning: `
+        bg-warning-500 text-primary-900
+        hover:bg-warning-400 hover:-translate-y-0.5 hover:shadow-md
+        active:bg-warning-600 active:translate-y-0
+      `,
     };
 
     const sizeClasses = {
@@ -92,7 +97,7 @@ export default Button;
 
 // Link-styled button component
 interface ButtonLinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
-  variant?: 'primary' | 'secondary' | 'ghost';
+  variant?: 'primary' | 'secondary' | 'ghost' | 'warning';
   size?: 'sm' | 'md' | 'lg';
   children: React.ReactNode;
 }
@@ -108,7 +113,7 @@ export function ButtonLink({
   const baseClasses = `
     inline-flex items-center justify-center font-semibold no-underline
     transition-all duration-200 ease-out
-    focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-600 focus-visible:ring-offset-2
+    focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2
     rounded-button
   `;
 
@@ -117,16 +122,25 @@ export function ButtonLink({
       bg-primary-600 text-white
       hover:bg-primary-700 hover:-translate-y-0.5 hover:shadow-primary
       active:bg-primary-800 active:translate-y-0
+      focus-visible:ring-primary-600
     `,
     secondary: `
       bg-transparent text-primary-600 border-2 border-primary-600
       hover:bg-primary-50 hover:-translate-y-0.5
       active:bg-primary-100 active:translate-y-0
+      focus-visible:ring-primary-600
     `,
     ghost: `
       bg-transparent text-primary-600 border-none
       hover:bg-primary-50
       active:bg-primary-100
+      focus-visible:ring-primary-600
+    `,
+    warning: `
+      bg-warning-500 text-primary-900
+      hover:bg-warning-400 hover:-translate-y-0.5 hover:shadow-md
+      active:bg-warning-600 active:translate-y-0
+      focus-visible:ring-warning-500
     `,
   };
 
