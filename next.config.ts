@@ -14,7 +14,6 @@ const nextConfig: NextConfig = {
         hostname: '**.vercel-insights.com',
       },
     ],
-    cacheTags: [],
     minimumCacheTTL: 60,
   },
 };
