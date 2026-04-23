@@ -27,8 +27,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const siteUrl = 'https://tradego-fasteners.com'
   
   const titles: Record<string, string> = {
-    zh: '紧固件批发制造商 | 干墙螺丝·螺栓螺母',
-    en: 'Wholesale Fasteners Manufacturer | Drywall Screws & Bolts',
+    zh: '中国紧固件批发厂家 | 干墙螺丝·自钻螺丝·螺栓螺母·IBR钉',
+    en: 'China Wholesale Fastener Manufacturer - Drywall Screws, Self-Drilling Screws, Hex Bolts, IBR Nails | ISO 9001',
   }
   const descriptions: Record<string, string> = {
     zh: 'ISO 9001紧固件批发商：干墙螺丝、自钻螺丝、螺栓螺母、IBR钉。20年经验，起订量低，全球发货。立即询价！',
