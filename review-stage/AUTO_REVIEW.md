@@ -211,6 +211,18 @@
 
 **提交:** `d55c759`
 
+**CertificationsSection质量认证板块（额外改进）**
+- 新增 `CertificationsSection.tsx` 组件
+- 4项认证展示：
+  - ISO 9001:2015 - Quality Management System
+  - SABS Approved - South African Standards
+  - CE Marking - European Conformity
+  - Test Reports - Material & Coating Tests
+- 包含质量保证说明
+- 翻译已添加至全部10种语言
+
+**提交:** `1be4b54`
+
 ### 📊 Round 5 状态
 - Round 5: **完成** ✅
 - 构建成功，已推送
@@ -218,5 +230,4 @@
 ### ⏳ 待处理（第六轮）
 - 更多产品类别细分（目前仅4个产品）
 - 内部链接优化
-- 更多客户评价收集
 - GEO定向改进
