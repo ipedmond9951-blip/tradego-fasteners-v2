@@ -6,10 +6,10 @@ import MaterialsSection from '@/components/MaterialsSection'
 
 // Static product data (same as ProductGrid)
 const allProducts = [
-  { slug: 'drywall-screws', image: '/images/products/drywall-screws-2.jpg', pricePerPiece: 0.02, nameKey: 'drywall', specs: { size: '3.5-4.8mm × 25-100mm', standard: 'DIN 7505 / GB/T 15856', material: 'C1022 Carbon Steel', finish: 'Phosphate, Black Oxide' }, features: ['Sharp point', 'Bugle head', 'Fine thread'] },
-  { slug: 'self-drilling-screws', image: '/images/products/self-drilling-screws-1.jpg', pricePerPiece: 0.03, nameKey: 'selfdrilling', specs: { size: '4.2-6.3mm × 19-150mm', standard: 'DIN 7504 / ANSI', material: 'C1022 Carbon Steel', finish: 'Zinc Plated, Ruspert' }, features: ['DR point', 'Hex/Phillips drive', 'Self-tapping'] },
-  { slug: 'bolts-nuts', image: '/images/products/bolts-nuts-2.jpg', pricePerPiece: 0.05, nameKey: 'bolts', specs: { size: 'M5-M30 × 20-300mm', standard: 'DIN 933/934 / ISO 4014', material: 'Q235/Q345 Steel', finish: 'Zinc, HDG, Black, YZP' }, features: ['Grade 4.8/8.8/10.9', 'Full/Partial thread', 'Various coatings'] },
-  { slug: 'ibr-nails', image: '/images/products/ibr-nails-placeholder.jpg', pricePerPiece: 0.01, nameKey: 'ibr', specs: { size: '2.5-4.0mm × 30-100mm', standard: 'SABS 1195', material: 'Q195/Q235 Wire', finish: 'Electro Galvanized' }, features: ['Umbrella head', 'Smooth/Ring shank', 'Roofing专用'] },
+  { slug: 'drywall-screws', image: '/images/products/drywall-screws-2.jpg', pricePerPiece: 0.02, nameKey: 'drywall', specs: { size: '3.5-4.8mm × 25-100mm', standard: 'DIN 7505 / GB/T 15856', material: 'C1022 Carbon Steel', finish: 'Phosphate, Black Oxide' }, features: ['Sharp point', 'Bugle head', 'Fine thread'], applications: ['Construction', 'Interior decoration', 'Wood frame'] },
+  { slug: 'self-drilling-screws', image: '/images/products/self-drilling-screws-1.jpg', pricePerPiece: 0.03, nameKey: 'selfdrilling', specs: { size: '4.2-6.3mm × 19-150mm', standard: 'DIN 7504 / ANSI', material: 'C1022 Carbon Steel', finish: 'Zinc Plated, Ruspert' }, features: ['DR point', 'Hex/Phillips drive', 'Self-tapping'], applications: ['Metal roofing', 'Steel structures', 'HVAC'] },
+  { slug: 'bolts-nuts', image: '/images/products/bolts-nuts-2.jpg', pricePerPiece: 0.05, nameKey: 'bolts', specs: { size: 'M5-M30 × 20-300mm', standard: 'DIN 933/934 / ISO 4014', material: 'Q235/Q345 Steel', finish: 'Zinc, HDG, Black, YZP' }, features: ['Grade 4.8/8.8/10.9', 'Full/Partial thread', 'Various coatings'], applications: ['Construction', 'Machinery', 'Automotive'] },
+  { slug: 'ibr-nails', image: '/images/products/ibr-nails-placeholder.jpg', pricePerPiece: 0.01, nameKey: 'ibr', specs: { size: '2.5-4.0mm × 30-100mm', standard: 'SABS 1195', material: 'Q195/Q235 Wire', finish: 'Electro Galvanized' }, features: ['Umbrella head', 'Smooth/Ring shank', 'Roofing专用'], applications: ['Roofing', 'Cladding', 'Construction'] },
 ]
 
 const productText: Record<string, Record<string, string>> = {
@@ -106,10 +106,20 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
                     </div>
                     
                     {/* Features tags */}
-                    <div className="flex flex-wrap gap-1.5 mb-4">
+                    <div className="flex flex-wrap gap-1.5 mb-3">
                       {product.features.map((f) => (
                         <span key={f} className="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded">{f}</span>
                       ))}
+                    </div>
+                    
+                    {/* Applications */}
+                    <div className="mb-4">
+                      <span className="text-xs text-gray-500 block mb-1.5">Applications:</span>
+                      <div className="flex flex-wrap gap-1.5">
+                        {product.applications.map((app) => (
+                          <span key={app} className="text-xs bg-primary-50 text-primary-700 px-2 py-0.5 rounded font-medium">{app}</span>
+                        ))}
+                      </div>
                     </div>
 
                     <a href={`/${locale}#inquiry`} className="block w-full text-center bg-primary-700 text-white py-2.5 rounded-lg font-semibold text-sm hover:bg-primary-800 transition-colors">
