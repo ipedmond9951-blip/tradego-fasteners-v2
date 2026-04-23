@@ -1,0 +1,83 @@
+{
+  "slug": "bolt-types-applications-guide",
+  "category": "Technical Guide",
+  "date": "2026-04-24",
+  "readTime": 8,
+  "image": "/images/products/high-tensile-bolts.jpg",
+  "title": {
+    "en": "Bolt Types and Applications Guide: Complete Technical Reference",
+    "zh": "螺栓类型和应用指南：完整技术参考",
+    "es": "Guía de Tipos de Pernos y Aplicaciones: Referencia Técnica Completa",
+    "ar": "دليل أنواع البراغي والتطبيقات: مرجع تقني كامل",
+    "fr": "Guide des Types de Boulons et Applications: Référence Technique Complète",
+    "pt": "Guia de Tipos de Parafusos e Aplicações: Referência Técnica Completa",
+    "ru": "Руководство по Типам Болтов и Применению: Полное Техническое Справочное Руководство",
+    "ja": "ボルトタイプと応用ガイド：完全な技術参照",
+    "de": "Schrauben Typen und Anwendungen: Vollständige Technische Referenz",
+    "hi": "बोल्ट प्रकार और अनुप्रयोग गाइड: पूर्ण तकनीकी संदर्भ"
+  },
+  "description": {
+    "en": "Complete guide to bolt types and their applications. Learn about hex bolts, carriage bolts, eye bolts, U-bolts, and specialized bolts for different industrial uses.",
+    "zh": "螺栓类型及其应用的完整指南。了解六角螺栓、马车螺栓、眼螺栓、U型螺栓和用于不同工业用途的专用螺栓。",
+    "es": "Guía completa de tipos de pernos y sus aplicaciones. Aprenda sobre pernos hexagonales, pernos de coche, pernos de ojo, pernos en U y pernos especializados.",
+    "ar": "دليل شامل لأنواع البراغي وتطبيقاتها. تعرف على البراغي السداسية وبراغي العربة وبراغي العين وبراغي U والبراغي المتخصصة.",
+    "fr": "Guide complet des types de boulons et leurs applications. Apprenez les boulons hexagonaux, les boulons de carrosserie, les boulons à œil, les boulons en U et les boulons spécialisés.",
+    "pt": "Guia completo de tipos de parafusos e suas aplicações. Aprenda sobre parafusos hexagonais, parafusos de carriageiro, parafusos de olhal, parafusos em U e parafusos especializados.",
+    "ru": "Полное руководство по типам болтов и их применению. Узнайте о шестигранных болтах, болтах с полукруглой головкой, рым-болтах, U-образных болтах и специальных болтах.",
+    "ja": "ボルトタイプと応用の完全ガイド。六角ボルト、柱状ボルト、アイボルト、Uボルト、さまざまな産業用途向けの专用ボルトについて学びます。",
+    "de": "Vollständiger Leitfaden zu Schraubentypen und deren Anwendungen. Erfahren Sie mehr über Sechskantschrauben, Radschrauben, Ringschrauben, U-Bolzen und Spezialschrauben.",
+    "hi": "बोLट प्रकार और उनके अनुप्रयोगों की पूर्ण गाइड। हेक्स बोल्ट, कैरिज बोल्ट, आई बोल्ट, यू-बोल्ट और विभिन्न औद्योगिक उपयोगों के लिए विशेष बोल्ट के बारे में जानें।"
+  },
+  "keywords": "bolt types, hex bolts, carriage bolts, eye bolts, U-bolts, anchor bolts, structural bolts",
+  "sections": [
+    {
+      "id": "hex-bolts",
+      "heading": {
+        "en": "Hex Bolts: The Most Common Bolt Type"
+      },
+      "body": {
+        "en": "Hex bolts are the most widely used fastener in construction and general applications:\n\nDIN 933 / ISO 4017: Full thread hex bolt\nDIN 931 / ISO 4014: Partial thread hex bolt\n\nKey features:\n- Six-sided head for easy wrench engagement\n- Can be used with standard hex nuts\n- Wide range of grades (4.8 to 12.9)\n- Available in metric and imperial sizes\n\nCommon applications:\n- General construction\n- Machinery assembly\n- Structural connections\n- Equipment mounting\n\nTradeGo hex bolts are manufactured to DIN 933/ISO 4017 with full traceability and quality documentation."
+      }
+    },
+    {
+      "id": "carriage-bolts",
+      "heading": {
+        "en": "Carriage Bolts: Round Head Design"
+      },
+      "body": {
+        "en": "Carriage bolts (also called coach bolts) feature a round head with a square collar:\n\nDIN 603: Carriage bolt with round head and square collar\n\nKey features:\n- Round head provides smooth, finished appearance\n- Square collar prevents rotation during installation\n- Full thread or partial thread options\n- Typically used with hex nuts\n\nCommon applications:\n- Wood frame construction\n- Furniture assembly\n- Playground equipment\n- Agricultural structures\n- Where smooth head is desired on one side\n\nTradeGo carriage bolts are zinc plated or hot-dip galvanized for outdoor use."
+      }
+    },
+    {
+      "id": "eye-bolts",
+      "heading": {
+        "en": "Eye Bolts: Lifting and Rigging Applications"
+      },
+      "body": {
+        "en": "Eye bolts feature a loop (eye) at the head for attachment:\n\nDIN 580: Eye bolt (collar eye bolt)\nEye bolts with continuous eye (forged)\n\nKey features:\n- Provides attachment point for lifting or tie-down\n- Various configurations: vertical lift, angular lift, shoulder eye\n- Load ratings clearly marked\n- Must be installed with matching hardware\n\nCommon applications:\n- Lifting operations\n- Rigging and hoisting\n- Tie-down and cargo securement\n- Temporary attachments\n\nIMPORTANT: Always use matching nuts and washers. Never exceed rated working load limit."
+      }
+    },
+    {
+      "id": "u-bolts",
+      "heading": {
+        "en": "U-Bolts: Pipe and Tube Clamping"
+      },
+      "body": {
+        "en": "U-bolts are U-shaped with threads on both legs:\n\nStandard U-bolts for round pipe/tube\nSpecial U-bolts for square profile\nHeavy duty U-bolts for structural applications\n\nKey features:\n- Designed to clamp around cylindrical objects\n- Two-hole plate (typically included) for flat surface mounting\n- Various coatings for corrosion resistance\n- Often used with rubber-lined to prevent damage\n\nCommon applications:\n- Pipe and tube mounting\n- Exhaust system mounting\n- Marine applications\n- Automotive suspension\n- Structural support for tanks and vessels\n\nTradeGo U-bolts are available in carbon steel (zinc or HDG) and stainless steel."
+      }
+    }
+  ],
+  "cta": {
+    "en": "Request Bolt Quote",
+    "zh": "请求螺栓报价",
+    "es": "Solicitar Cotización de Pernos",
+    "ar": "طلب عرض أسعار البراغي",
+    "fr": "Demander un Devis pour Boulons",
+    "pt": "Solicitar Cotação de Parafusos",
+    "ru": "Запросить КП на Болты",
+    "ja": "ボルトのお見積もりを依頼",
+    "de": "Schrauben Angebot Erhalten",
+    "hi": "बोल्ट कोटेशन का अनुरोध करें"
+  },
+  "relatedProducts": ["bolts-nuts", "washers", "anchor-bolts"]
+}

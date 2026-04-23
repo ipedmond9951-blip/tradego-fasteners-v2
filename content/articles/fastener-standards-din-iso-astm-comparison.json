@@ -1,0 +1,92 @@
+{
+  "slug": "fastener-standards-din-iso-astm-comparison",
+  "category": "Technical Guide",
+  "date": "2026-04-24",
+  "readTime": 10,
+  "image": "/images/products/din-standards-1.jpg",
+  "title": {
+    "en": "Fastener Standards Comparison: DIN vs ISO vs ASTM vs ANSI",
+    "zh": "紧固件标准比较：DIN vs ISO vs ASTM vs ANSI",
+    "es": "Comparación de Estándares de Tornillería: DIN vs ISO vs ASTM vs ANSI",
+    "ar": "مقارنة معايير المثبتات: DIN مقابل ISO مقابل ASTM مقابل ANSI",
+    "fr": "Comparaison des Normes de Fixations: DIN vs ISO vs ASTM vs ANSI",
+    "pt": "Comparação de Padrões de Fixadores: DIN vs ISO vs ASTM vs ANSI",
+    "ru": "Сравнение Стандартов Крепежа: DIN vs ISO vs ASTM vs ANSI",
+    "ja": "ファスナー規格の比較：DIN vs ISO vs ASTM vs ANSI",
+    "de": "Fastener Normen Vergleich: DIN vs ISO vs ASTM vs ANSI",
+    "hi": "फास्टनर मानकों की तुलना: DIN vs ISO vs ASTM vs ANSI"
+  },
+  "description": {
+    "en": "Complete comparison of fastener standards worldwide. Understand DIN, ISO, ASTM, ANSI, and BS standards for bolts, nuts, screws, and washers in international trade.",
+    "zh": "全球紧固件标准完整比较。了解国际贸昜中螺栓、螺母、螺丝和垫圈的DIN、ISO、ASTM、ANSI和BS标准。",
+    "es": "Comparación completa de estándares de sujetadores mundial. Comprender las normas DIN, ISO, ASTM, ANSI y BS para pernos, tuercas, tornillos y rondanas en comercio internacional.",
+    "ar": "مقارنة شاملة لمعايير المثبتات في جميع أنحاء العالم. فهم معايير DIN و ISO و ASTM و ANSI و BS للبراغي والصواميل والبراغي والغسالات في التجارة الدولية.",
+    "fr": "Comparaison complète des normes de fixations mondiales. Comprendre les normes DIN, ISO, ASTM, ANSI et BS pour boulons, écrous, vis et rondelles dans le commerce international.",
+    "pt": "Comparação completa de padrões de fixadores mundial. Entenda os padrões DIN, ISO, ASTM, ANSI e BS para parafusos, porcas, parafusos e arruelas no comércio internacional.",
+    "ru": "Полное сравнение стандартов крепежа во всем мире. Понимание стандартов DIN, ISO, ASTM, ANSI и BS для болтов, гаек, винтов и шайб в международной торговле.",
+    "ja": "世界中のファスナー規格の完全な比較。国際貿易におけるボルト、ナット、スクリュー、垫圈のDIN、ISO、ASTM、ANSI、BS規格を理解する。",
+    "de": "Vollständiger Vergleich der Befestigungsnormen weltweit. Verstehen Sie DIN, ISO, ASTM, ANSI und BS Normen für Schrauben, Muttern, Schrauben und Unterlegscheiben im internationalen Handel.",
+    "hi": "दुनिया भर में फास्टनर मानकों की पूर्ण तुलना। अंतरराष्ट्रीय व्यापार में बोल्ट, नट, स्क्रू और वॉशर के लिए DIN, ISO, ASTM, ANSI और BS मानकों को समझें।"
+  },
+  "keywords": "fastener standards, DIN standard, ISO standard, ASTM standard, ANSI standard, BS standard, fastener specifications",
+  "sections": [
+    {
+      "id": "standards-overview",
+      "heading": {
+        "en": "Understanding Fastener Standards Systems"
+      },
+      "body": {
+        "en": "Different regions use different fastener standards, which can cause confusion in international trade:\n\nDIN (Deutsche Industrie Norm): German standard, widely used in Europe and adopted internationally. Now largely harmonized with ISO standards.\n\nISO (International Organization for Standardization): Global standard, adopted by most countries. ISO standards are the most widely recognized internationally.\n\nASTM (American Society for Testing and Materials): American standard, primarily used in North America but recognized worldwide.\n\nANSI (American National Standards Institute): Coordinates American standards, often adopts ASME/ANSI standards for fasteners.\n\nBS (British Standards): British standard, now largely aligned with European EN standards."
+      }
+    },
+    {
+      "id": "head-markers",
+      "heading": {
+        "en": "Head Marking Comparison"
+      },
+      "body": {
+        "en": "Head markings indicate fastener grade and manufacturer:\n\nMetric Hex Bolts (ISO/DIN):\n- 8.8: Two radial lines below grade marking\n- 10.9: Three radial lines\n- 12.9: Three radial lines with higher contrast\n\nInch Hex Bolts (ASTM/ANSI):\n- Grade 5: Three radial lines\n- Grade 8: Six radial lines\n- Grade ASTM A325: 'A325' marking\n\nUnderstanding markings helps verify fastener grade at delivery."
+      },
+      "table": {
+        "headers": ["Metric Grade", "Tensile Strength (MPa)", "Equivalent ASTM Grade", "Head Marking"],
+        "rows": [
+          ["4.8", "400", "Grade 2", "None or 4.8"],
+          ["8.8", "800", "Grade 5", "8.8"],
+          ["10.9", "1000", "Grade 8", "10.9"],
+          ["12.9", "1200", "Grade B", "12.9"]
+        ]
+      }
+    },
+    {
+      "id": "thread-standards",
+      "heading": {
+        "en": "Thread Standards: Metric vs UNC/UNF"
+      },
+      "body": {
+        "en": "Thread standards differ between metric and inch systems:\n\nMetric Threads (ISO/DIN):\n- Designation: M + nominal diameter (e.g., M10)\n- Thread pitch: Distance between threads (e.g., M10x1.5)\n- Angle: 60 degrees\n\nInch Threads (UNC/UNF/UNEF):\n- UNC: Unified National Coarse (standard for general use)\n- UNF: Unified National Fine (higher strength applications)\n- UNEF: Unified National Extra Fine (special applications)\n- Thread count: Threads per inch (e.g., 3/4\"-10 UNC)\n\nChina manufacturers typically produce metric threads as standard but can produce UNC/UNF upon request."
+      }
+    },
+    {
+      "id": "common-equivalents",
+      "heading": {
+        "en": "Common Standard Equivalents"
+      },
+      "body": {
+        "en": "Common fastener standards and their equivalents:\n\nHex Bolts:\n- DIN 933 = ISO 4017 (full thread)\n- DIN 931 = ISO 4014 (partial thread)\n- ASTM A325 = ISO 4014 (high strength)\n\nHex Nuts:\n- DIN 934 = ISO 4032 (standard hex nut)\n- DIN 985 = ISO 10511 (nylon insert lock nut)\n\nWashers:\n- DIN 125 = ISO 7089 (flat washer)\n- DIN 127 = ISO 7092 (spring lock washer)\n\nWhen ordering, specify the standard you require - most Chinese manufacturers can produce to any standard specification."
+      }
+    }
+  ],
+  "cta": {
+    "en": "Request Custom Fasteners",
+    "zh": "请求定制紧固件",
+    "es": "Solicitar Sujetadores Personalizados",
+    "ar": "طلب المثبتات المخصصة",
+    "fr": "Demander des Fixations Personnalisées",
+    "pt": "Solicitar Fixadores Personalizados",
+    "ru": "Запросить Нестандартные Крепежи",
+    "ja": "カスタムファスナーを依頼",
+    "de": "Kundenspezifische Befestigungen Anfordern",
+    "hi": "कस्टम फास्टनर का अनुरोध करें"
+  },
+  "relatedProducts": ["bolts-nuts", "washers", "high-tensile-bolts"]
+}

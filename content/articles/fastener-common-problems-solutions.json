@@ -1,0 +1,83 @@
+{
+  "slug": "fastener-common-problems-solutions",
+  "category": "Technical Guide",
+  "date": "2026-04-24",
+  "readTime": 7,
+  "image": "/images/products/fastener-glossary.jpg",
+  "title": {
+    "en": "Fastener Common Problems and Solutions: Troubleshooting Guide",
+    "zh": "紧固件常见问题和解决方案：故障排除指南",
+    "es": "Problemas Comunes de Sujetadores y Soluciones: Guía de Resolución de Problemas",
+    "ar": "مشاكل المثبتات الشائعة والحلول: دليل استكشاف الأخطاء وإصلاحها",
+    "fr": "Problèmes Courants des Fixations et Solutions: Guide de Dépannage",
+    "pt": "Problemas Comuns de Fixadores e Soluções: Guia de Solução de Problemas",
+    "ru": "Распространенные Проблемы с Крепежом и Решения: Руководство по Устранению Неполадок",
+    "ja": "ファスナーの一般的な問題と解決策：トラブルシューティングガイド",
+    "de": "Häufige Fastener-Probleme und Lösungen: Fehlerbehebungsleitfaden",
+    "hi": "फास्टनर सामान्य समस्याएं और समाधान: समस्या निवारण गाइड"
+  },
+  "description": {
+    "en": "Common fastener problems and their solutions. Learn how to troubleshoot fastener failures, prevent corrosion, fix stripped threads, and address common installation issues.",
+    "zh": "常见紧固件问题及其解决方案。了解如何排除紧固件故障、防止腐蚀、修复滑丝螺纹以及解决常见安装问题。",
+    "es": "Problemas comunes de sujetadores y sus soluciones. Aprenda cómo solucionar fallas de sujetadores, prevenir corrosión, reparar roscas desnudas y abordar problemas comunes.",
+    "ar": "المشاكل الشائعة للمثبتات وحلولها. تعلم كيفية استكشاف أعطال المثبتات ومنع التآكل وإصلاح الخيوط الفارغة ومعالجة المشاكل الشائعة.",
+    "fr": "Problèmes courants des fixations et leurs solutions. Apprenez à dépanner les failures de fixations, prévenir la corrosion, réparer les fils dénudés et résoudre les problèmes.",
+    "pt": "Problemas comuns de fixadores e suas soluções. Aprenda como solucionar falhas de fixadores, prevenir corrosão, reparar roscas despidas e resolver problemas.",
+    "ru": "Распространенные проблемы с крепежом и их решения. Узнайте, как устранять отказы крепежа, предотвращать коррозию, исправлять сорванные резьбы.",
+    "ja": "ファスナーの一般的な問題と解決策。ファスナーの故障解决方法、腐食防止、滑ったねじの修復、一般的な設置の問題への対処について学びます。",
+    "de": "Häufige Fastener-Probleme und ihre Lösungen. Lernen Sie, wie man Fastener-Ausfälle behebt, Korrosion verhindert, beschädigte Gewinde repariert.",
+    "hi": "फास्टनर की सामान्य समस्याओं और उनके समाधान। फास्टनर विफलताओं का समस्या निवारण करना, संक्षारण रोकना, स्ट्रिप्ड थ्रेड को ठीक करना सीखें।"
+  },
+  "keywords": "fastener problems, fastener failures, corrosion prevention, stripped threads, thread repair, fastener troubleshooting",
+  "sections": [
+    {
+      "id": "loosening",
+      "heading": {
+        "en": "Problem: Fastener Loosening"
+      },
+      "body": {
+        "en": "Loosening is one of the most common fastener problems:\n\nCauses:\n- Vibration (motors, equipment)\n- Thermal expansion/contraction\n- Improper torque\n- Insufficient clamping force\n\nSolutions:\n1. Use lock washers (spring or tooth type)\n2. Apply thread locker (Loctite 242/272)\n3. Use nylon insert lock nuts (DIN 985)\n4. Install flat washers under the nut\n5. Check and re-torque after initial operation\n6. For critical joints, use Belleville washers\n\nTradeGo offers lock nuts, spring washers, and thread locker for vibration-prone applications."
+      }
+    },
+    {
+      "id": "corrosion",
+      "heading": {
+        "en": "Problem: Corrosion and Rust"
+      },
+      "body": {
+        "en": "Corrosion compromises fastener integrity and appearance:\n\nCauses:\n- Exposure to moisture\n- Salt air (coastal environments)\n- Chemical exposure\n- Dissimilar metal contact\n- Poor storage conditions\n\nSolutions:\n1. Use corrosion-resistant materials:\n   - Stainless steel 304 (indoor/mild exposure)\n   - Stainless steel 316 (coastal/chemical)\n   - Hot-dip galvanized (outdoor/structural)\n\n2. Apply protective coatings:\n   - Zinc plating (indoor/mild outdoor)\n   - Hot-dip galvanizing (heavy outdoor)\n   - Dacromet (automotive/marine)\n\n3. Prevent galvanic corrosion:\n   - Use compatible materials together\n   - Install rubber washers between dissimilar metals\n\n4. Proper storage:\n   - Keep dry and ventilated\n   - Use VCI (Vapor Corrosion Inhibitor) packaging"
+      }
+    },
+    {
+      "id": "stripped-threads",
+      "heading": {
+        "en": "Problem: Stripped or Damaged Threads"
+      },
+      "body": {
+        "en": "Stripped threads prevent proper fastening:\n\nCauses:\n- Over-torquing\n- Cross-threading during installation\n- Using wrong size or type\n- Wear from repeated use\n\nSolutions:\n1. For internal threads (nuts):\n   - Use a thread chaser tap to clean up threads\n   - Install a thread insert (Helicoil) for permanent repair\n   - Replace the nut if damage is severe\n\n2. For external threads (bolts):\n   - Use a die to recut threads (if minor)\n   - Apply thread locker to prevent further damage\n   - Replace the bolt if threads are significantly damaged\n\n3. Prevention:\n   - Always use correct torque specifications\n   - Start threading by hand before using tools\n   - Use lubricating oil during installation"
+      }
+    },
+    {
+      "id": "breakage",
+      "heading": {
+        "en": "Problem: Fastener Breakage"
+      },
+      "body": {
+        "en": "Broken fasteners compromise structural integrity:\n\nCauses:\n- Overloading (exceeds fastener capacity)\n- Fatigue from repeated loading\n- Impact or shock loads\n- Material defects\n- Incorrect fastener grade for application\n\nSolutions:\n1. Immediate:\n   - Remove broken fastener (drill and extract or use screw extractor)\n   - Replace with higher-grade fastener if possible\n\n2. Prevention:\n   - Verify fastener capacity exceeds expected loads\n   - Use washers to distribute load\n   - Consider fatigue-rated fasteners for dynamic loads\n   - Inspect fasteners regularly in critical applications\n\n3. For broken-off bolts in tapped holes:\n   - Drill out and use Helicoil thread insert\n   - Or drill and tap for next larger size"
+      }
+    }
+  ],
+  "cta": {
+    "en": "Contact Technical Support",
+    "zh": "联系技术支持",
+    "es": "Contactar Soporte Técnico",
+    "ar": "اتصل بالدعم الفني",
+    "fr": "Contacter le Support Technique",
+    "pt": "Contatar Suporte Técnico",
+    "ru": "Связаться со Службой Технической Поддержки",
+    "ja": "テクニカルサポートに連絡",
+    "de": "Technischen Support Kontaktieren",
+    "hi": "तकनीकी सहायता से संपर्क करें"
+  },
+  "relatedProducts": ["bolts-nuts", "washers", "lock-nuts"]
+}

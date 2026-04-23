@@ -1,0 +1,101 @@
+{
+  "slug": "fastener-quality-inspection-guide",
+  "category": "Quality Guide",
+  "date": "2026-04-24",
+  "readTime": 11,
+  "image": "/images/products/fastener-testing-1.jpg",
+  "title": {
+    "en": "Fastener Quality Inspection Guide: How to Verify Fastener Quality",
+    "zh": "紧固件质量检验指南：如何验证紧固件质量",
+    "es": "Guía de Inspección de Calidad de Sujetadores: Cómo Verificar la Calidad",
+    "ar": "دليل فحص جودة المثبتات: كيفية التحقق من جودة المثبتات",
+    "fr": "Guide d'Inspection de Qualité des Fixations: Comment Vérifier la Qualité",
+    "pt": "Guia de Inspeção de Qualidade de Fixadores: Como Verificar a Qualidade",
+    "ru": "Руководство по Проверке Качества Крепежа: Как Проверить Качество",
+    "ja": "ファスナー品質検査ガイド：品質を確認する方法",
+    "de": "Fastener Qualitätsprüfleitfaden: Qualität Verifizieren",
+    "hi": "फास्टनर गुणवत्ता निरीक्षण गाइड: गुणवत्ता कैसे सत्यापित करें"
+  },
+  "description": {
+    "en": "Complete guide to inspecting fastener quality. Covers dimensional checks, hardness testing, coating thickness, and third-party inspection services for import verification.",
+    "zh": "紧固件检验完整指南。涵盖尺寸检查、硬度测试、涂层厚度和用于进口验证的第三方检验服务。",
+    "es": "Guía completa para inspeccionar la calidad de los sujetadores. Cubre verificaciones dimensionales, pruebas de dureza, espesor del recubrimiento y servicios de inspección de terceros.",
+    "ar": "دليل شامل لفحص جودة المثبتات. يغطي الفحوصات البعدية واختبارات الصلابة وسماكة الطلاء وخدمات فحص الطرف الثالث.",
+    "fr": "Guide complet pour inspecter la qualité des fixations. Couvre les vérifications dimensionnelles, les tests de dureté, l'épaisseur du revêtement et les services d'inspection tiers.",
+    "pt": "Guia completo para inspecionar a qualidade dos fixadores. Cobre verificações dimensionais, testes de dureza, espessura do revestimento e serviços de inspeção de terceiros.",
+    "ru": "Полное руководство по проверке качества крепежа. Включает проверку размеров, испытания на твердость, толщину покрытия и услуги сторонней инспекции.",
+    "ja": "ファスナー品質検査の完全ガイド。寸法チェック、硬さ試験、涂层厚、以及第三方検査サービスをカバーします。",
+    "de": "Vollständiger Leitfaden zur Prüfung der Befestigungsqualität. Deckt Maßprüfungen, Härteprüfungen, Beschichtungsdicke und Inspektion durch Dritte ab.",
+    "hi": "फास्टनर गुणवत्ता निरीक्षण की पूर्ण गाइड। आयामी जांच, कठोरता परीक्षण, कोटिंग मोटाई, और आयात सत्यापन के लिए तृतीय-पक्ष निरीक्षण सेवाएं शामिल हैं।"
+  },
+  "keywords": "fastener quality inspection, fastener testing, dimensional inspection, hardness testing, third party inspection, SGS inspection",
+  "sections": [
+    {
+      "id": "why-inspect",
+      "heading": {
+        "en": "Why Quality Inspection Matters"
+      },
+      "body": {
+        "en": "Fastener failures cause serious safety incidents and financial losses:\n\n- Structural failures: 23% of construction failures involve fastener issues\n- Equipment damage: Substandard fasteners cause machinery breakdowns\n- Liability: Using non-compliant fasteners can create legal liability\n- Cost: Failed fasteners require expensive rework and delays\n\nTradeGo Fasteners operates ISO 9001:2015 certified quality management with mandatory inspection before shipment. Third-party inspection available through SGS, Bureau Veritas, or Intertek."
+      }
+    },
+    {
+      "id": "visual-inspection",
+      "heading": {
+        "en": "Visual Inspection Checklist"
+      },
+      "body": {
+        "en": "Visual inspection is the first line of quality verification:\n\n1. Surface Defects: Check for cracks, seams, laps, or burrs\n2. Head Defects: Verify proper head formation, no flash or fins\n3. Thread Defects: Check for torn threads, stripped threads, or die lines\n4. Coating Quality: Verify uniform coating, no bare spots or peeling\n5. Marking Verification: Confirm grade marking matches specifications\n6. Packaging: Check for proper labeling and moisture protection\n\nUse 10x magnification for detailed thread inspection."
+      }
+    },
+    {
+      "id": "dimensional-checks",
+      "heading": {
+        "en": "Dimensional Inspection"
+      },
+      "body": {
+        "en": "Key dimensions to verify:\n\n1. Overall Length: Use calipers, measure from under head to thread end\n2. Thread Pitch: Use thread gauge or measure with calipers\n3. Across Flats (AF): Hex dimension, verify with AF gauge\n4. Across Corners (AC): Maximum dimension, verify with calipers\n5. Head Height: Verify against standard specifications\n6. Washer Thickness: For flat washers, measure with micrometer\n\nAcceptance criteria typically ±0.1mm for critical dimensions."
+      }
+    },
+    {
+      "id": "mechanical-testing",
+      "heading": {
+        "en": "Mechanical Testing"
+      },
+      "body": {
+        "en": "Mechanical properties require specialized testing:\n\n1. Hardness Testing: Use Rockwell or Vickers hardness tester\n- Carbon steel: HRC 25-45 typical\n- Case hardened: HRC 58-62 surface\n\n2. Tensile Testing: Break specimen in universal testing machine\n- Proof load test: Applied load without permanent set\n- Ultimate tensile strength: Load at failure\n\n3. Torque Testing: Apply torque to failure or specified torque\n\n4. Impact Testing: Charpy V-notch for ductility\n\nTradeGo provides mill test certificates (EN 10204 3.1) with each shipment confirming mechanical properties."
+      }
+    },
+    {
+      "id": "coating-inspection",
+      "heading": {
+        "en": "Coating Inspection"
+      },
+      "body": {
+        "en": "Coating quality critical for corrosion resistance:\n\n1. Zinc Plating: 8-12 microns typical\n2. Hot-Dip Galvanizing: 45-85 microns (ASTM A153)\n3. Measurement: Use magnetic or eddy current coating thickness gauge\n\nVisual Checks:\n- No bare spots or dark patches\n- Uniform metallic appearance\n- No peeling or flaking\n- No white rust (storage corrosion)\n\nFor hot-dip galvanized: Verify complete coverage including thread roots."
+      }
+    },
+    {
+      "id": "third-party",
+      "heading": {
+        "en": "Third-Party Inspection Services"
+      },
+      "body": {
+        "en": "For container-scale orders, third-party inspection provides independent verification:\n\nMajor Inspection Companies:\n1. SGS: Largest, global presence, competitive pricing\n2. Bureau Veritas: Strong in Africa trade routes\n3. Intertek: Fast turnaround available\n4. TÜV: Premium positioning, strong in Europe\n\nInspection Levels:\n- Dimensional inspection only: $150-200/day\n- Full quality inspection: $300-500/day\n- Laboratory testing additional: $100-300/sample\n\nTradeGo can arrange third-party inspection upon buyer request at buyer expense."
+      }
+    }
+  ],
+  "cta": {
+    "en": "Request Quality Documentation",
+    "zh": "请求质量文件",
+    "es": "Solicitar Documentación de Calidad",
+    "ar": "طلب وثائق الجودة",
+    "fr": "Demander Documentation Qualité",
+    "pt": "Solicitar Documentação de Qualidade",
+    "ru": "Запросить Документацию по Качеству",
+    "ja": "品質文書をご請求",
+    "de": "Qualitätsdokumentation Anfordern",
+    "hi": "गुणवत्ता दस्तावेज़ीकरण का अनुरोध करें"
+  },
+  "relatedProducts": ["bolts-nuts", "washers", "high-tensile-bolts"]
+}
