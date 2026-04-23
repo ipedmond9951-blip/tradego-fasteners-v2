@@ -303,7 +303,13 @@
 - **BreadcrumbList Schema** - 面包屑导航SEO
   - Home → Products
 
-**提交:** `578556d`
+**新文章发布**
+- `fastener-selection-guide-african-construction.json`
+- 10种语言翻译
+- 7个章节：SABS标准、气候考虑、产品选择、成本策略、常见错误
+- 相关产品和CTA部分
+
+**提交:** `7d516a4`
 
 ### 📊 累计进度
 - Round 1-6: 全部完成 ✅
