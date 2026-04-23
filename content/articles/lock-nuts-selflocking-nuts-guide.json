@@ -24,37 +24,94 @@
   "sections": [
     {
       "id": "problem",
-      "heading": { "en": "The Loosening Problem" },
-      "body": { "en": "Vibration causes fasteners to loosen over time, leading to joint failure, equipment damage, and safety hazards. In African mining and industrial applications, vibration from crushers, conveyors, generators, and heavy equipment makes lock nuts essential for maintaining joint integrity and preventing costly unplanned downtime." }
+      "heading": {
+        "en": "The Loosening Problem"
+      },
+      "body": {
+        "en": "Vibration causes fasteners to loosen over time, leading to joint failure, equipment damage, and safety hazards. In African mining and industrial applications, vibration from crushers, conveyors, generators, and heavy equipment makes lock nuts essential for maintaining joint integrity and preventing costly unplanned downtime."
+      }
     },
     {
       "id": "types",
-      "heading": { "en": "Types of Lock Nuts" },
-      "body": { "en": "Nylon insert lock nuts (DIN 985) feature a nylon collar that grips the bolt thread, providing friction to prevent loosening. Spring-loaded lock nuts have a free-spinning flange that applies constant pressure against the bolt face. Prevailing torque nuts (DIN 6796) are designed to create interference during installation, maintaining clamping force even after vibration." },
+      "heading": {
+        "en": "Types of Lock Nuts"
+      },
+      "body": {
+        "en": "Nylon insert lock nuts (DIN 985) feature a nylon collar that grips the bolt thread, providing friction to prevent loosening. Spring-loaded lock nuts have a free-spinning flange that applies constant pressure against the bolt face. Prevailing torque nuts (DIN 6796) are designed to create interference during installation, maintaining clamping force even after vibration."
+      },
       "table": {
-        "headers": ["Type", "Mechanism", "Reusability", "Temperature Limit"],
+        "headers": [
+          "Type",
+          "Mechanism",
+          "Reusability",
+          "Temperature Limit"
+        ],
         "rows": [
-          ["Nylon Insert (Nylon Lock)", "Friction grip", "Limited (thread wear)", "120°C"],
-          ["Spring Loaded Flange", "Spring pressure", "Yes", "250°C"],
-          ["Prevailing Torque", "Deformation", "No (one-time)", "300°C"],
-          ["All-Metal Lock", "Friction/dimensional", "Yes", "500°C+"]
+          [
+            "Nylon Insert (Nylon Lock)",
+            "Friction grip",
+            "Limited (thread wear)",
+            "120°C"
+          ],
+          [
+            "Spring Loaded Flange",
+            "Spring pressure",
+            "Yes",
+            "250°C"
+          ],
+          [
+            "Prevailing Torque",
+            "Deformation",
+            "No (one-time)",
+            "300°C"
+          ],
+          [
+            "All-Metal Lock",
+            "Friction/dimensional",
+            "Yes",
+            "500°C+"
+          ]
         ]
       }
     },
     {
       "id": "nylon-insert",
-      "heading": { "en": "Nylon Insert Lock Nuts (Nyloc)" },
-      "body": { "en": "Nylon insert lock nuts (commonly called Nyloc nuts) are the most widely used lock nut. The nylon collar at the top of the nut grips the bolt threads when installed. They are cost-effective and provide good vibration resistance for most applications. However, the nylon degrades with temperature and repeated installation cycles." }
+      "heading": {
+        "en": "Nylon Insert Lock Nuts (Nyloc)"
+      },
+      "body": {
+        "en": "Nylon insert lock nuts (commonly called Nyloc nuts) are the most widely used lock nut. The nylon collar at the top of the nut grips the bolt threads when installed. They are cost-effective and provide good vibration resistance for most applications. However, the nylon degrades with temperature and repeated installation cycles."
+      }
     },
     {
       "id": "mining-applications",
-      "heading": { "en": "Mining Applications in Africa" },
-      "body": { "en": "Lock nuts are critical in African mining: conveyor systems—securing belt tensioners and idler brackets; crushers—maintaining jaw crusher liner retention; generators—preventing loose bolts on vibrating equipment; pumps—maintaining impeller and housing connections; and vehicles—maintaining wheel studs and suspension components." }
+      "heading": {
+        "en": "Mining Applications in Africa"
+      },
+      "body": {
+        "en": "Lock nuts are critical in African mining: conveyor systems—securing belt tensioners and idler brackets; crushers—maintaining jaw crusher liner retention; generators—preventing loose bolts on vibrating equipment; pumps—maintaining impeller and housing connections; and vehicles—maintaining wheel studs and suspension components."
+      }
     },
     {
       "id": "selection",
-      "heading": { "en": "Selection Guide" },
-      "body": { "en": "When selecting lock nuts: for standard applications, nylon insert nuts offer cost-effective solution; for high temperature (above 120°C), use all-metal prevailing torque nuts; for critical structural applications, specify prevailing torque nuts with certification; and for food or medical applications, specify stainless steel with FDA-compliant materials." }
+      "heading": {
+        "en": "Selection Guide"
+      },
+      "body": {
+        "en": "When selecting lock nuts: for standard applications, nylon insert nuts offer cost-effective solution; for high temperature (above 120°C), use all-metal prevailing torque nuts; for critical structural applications, specify prevailing torque nuts with certification; and for food or medical applications, specify stainless steel with FDA-compliant materials."
+      }
     }
-  ]
+  ],
+  "cta": {
+    "text": {
+      "en": "Need fasteners for your project? Get a factory quote from TradeGo.",
+      "zh": "需要紧固件用于项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "relatedProducts": []
 }

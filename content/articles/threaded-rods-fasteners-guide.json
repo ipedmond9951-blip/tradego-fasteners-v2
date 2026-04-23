@@ -24,39 +24,106 @@
   "sections": [
     {
       "id": "what-are-threaded-rods",
-      "heading": { "en": "What Are Threaded Rods?" },
-      "body": { "en": "Threaded rods (also called all-thread, studding, or anchor rods) are rods with continuous threads along their entire length. They are used in place of bolts when the fastening length is unknown or when through-barrier fastening is required. Threaded rods can be cut to any length on-site, making them highly versatile for custom applications." }
+      "heading": {
+        "en": "What Are Threaded Rods?"
+      },
+      "body": {
+        "en": "Threaded rods (also called all-thread, studding, or anchor rods) are rods with continuous threads along their entire length. They are used in place of bolts when the fastening length is unknown or when through-barrier fastening is required. Threaded rods can be cut to any length on-site, making them highly versatile for custom applications."
+      }
     },
     {
       "id": "specifications",
-      "heading": { "en": "Specifications" },
-      "body": { "en": "Threaded rods are available in metric sizes from M6 to M48 and in lengths up to 3 meters (longer rods can be custom-manufactured or joined with couplers). Common materials include zinc-plated steel for indoor use, hot-dip galvanized steel for outdoor and coastal applications, and stainless steel A2/A4 for maximum corrosion resistance." },
+      "heading": {
+        "en": "Specifications"
+      },
+      "body": {
+        "en": "Threaded rods are available in metric sizes from M6 to M48 and in lengths up to 3 meters (longer rods can be custom-manufactured or joined with couplers). Common materials include zinc-plated steel for indoor use, hot-dip galvanized steel for outdoor and coastal applications, and stainless steel A2/A4 for maximum corrosion resistance."
+      },
       "table": {
-        "headers": ["Size", "Tensile Strength", "Common Lengths", "Typical Applications"],
+        "headers": [
+          "Size",
+          "Tensile Strength",
+          "Common Lengths",
+          "Typical Applications"
+        ],
         "rows": [
-          ["M6", "600 N/mm²", "1m, 2m, 3m", "Light hanging, bracing"],
-          ["M10", "600 N/mm²", "1m, 2m, 3m", "HVAC, electrical"],
-          ["M12", "600 N/mm²", "1m, 2m, 3m", "Structural, machinery"],
-          ["M16", "600 N/mm²", "1m, 2m, 3m", "Heavy structural"],
-          ["M20", "600 N/mm²", "1m, 2m, 3m", "Infrastructure, mining"],
-          ["M24", "600 N/mm²", "1m, 2m, 3m", "Heavy machinery, bridges"]
+          [
+            "M6",
+            "600 N/mm²",
+            "1m, 2m, 3m",
+            "Light hanging, bracing"
+          ],
+          [
+            "M10",
+            "600 N/mm²",
+            "1m, 2m, 3m",
+            "HVAC, electrical"
+          ],
+          [
+            "M12",
+            "600 N/mm²",
+            "1m, 2m, 3m",
+            "Structural, machinery"
+          ],
+          [
+            "M16",
+            "600 N/mm²",
+            "1m, 2m, 3m",
+            "Heavy structural"
+          ],
+          [
+            "M20",
+            "600 N/mm²",
+            "1m, 2m, 3m",
+            "Infrastructure, mining"
+          ],
+          [
+            "M24",
+            "600 N/mm²",
+            "1m, 2m, 3m",
+            "Heavy machinery, bridges"
+          ]
         ]
       }
     },
     {
       "id": "applications",
-      "heading": { "en": "Common Applications" },
-      "body": { "en": "Threaded rods are used in many African construction applications: suspended ceilings—hanging support for acoustic and drywall ceilings; HVAC systems—mounting ductwork and equipment; electrical—supporting cable trays and conduit; structural—creating adjustable tie rods in beams and columns; and plumbing—supporting pipes and equipment." }
+      "heading": {
+        "en": "Common Applications"
+      },
+      "body": {
+        "en": "Threaded rods are used in many African construction applications: suspended ceilings—hanging support for acoustic and drywall ceilings; HVAC systems—mounting ductwork and equipment; electrical—supporting cable trays and conduit; structural—creating adjustable tie rods in beams and columns; and plumbing—supporting pipes and equipment."
+      }
     },
     {
       "id": "installation",
-      "heading": { "en": "Installation Best Practices" },
-      "body": { "en": "For proper installation: cut threaded rod to exact length using a hacksaw or bandsaw; clean cut threads with a die or thread chaser before use; use washers and nuts at both ends for proper bearing; for structural applications, specify full-length engagement with nuts; and consider using thread-locking compound for vibrating applications." }
+      "heading": {
+        "en": "Installation Best Practices"
+      },
+      "body": {
+        "en": "For proper installation: cut threaded rod to exact length using a hacksaw or bandsaw; clean cut threads with a die or thread chaser before use; use washers and nuts at both ends for proper bearing; for structural applications, specify full-length engagement with nuts; and consider using thread-locking compound for vibrating applications."
+      }
     },
     {
       "id": "coupling",
-      "heading": { "en": "Extending Threaded Rods" },
-      "body": { "en": "When longer lengths are needed, threaded rods can be joined using coupling nuts (threaded couplers). The minimum overlap should be 1.5 times the rod diameter for each coupler. For critical structural applications, consider using continuous rods instead of joined sections to eliminate potential failure points at the coupler." }
+      "heading": {
+        "en": "Extending Threaded Rods"
+      },
+      "body": {
+        "en": "When longer lengths are needed, threaded rods can be joined using coupling nuts (threaded couplers). The minimum overlap should be 1.5 times the rod diameter for each coupler. For critical structural applications, consider using continuous rods instead of joined sections to eliminate potential failure points at the coupler."
+      }
     }
-  ]
+  ],
+  "cta": {
+    "text": {
+      "en": "Need fasteners for your project? Get a factory quote from TradeGo.",
+      "zh": "需要紧固件用于项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "relatedProducts": []
 }

@@ -24,37 +24,94 @@
   "sections": [
     {
       "id": "what-are-machine-screws",
-      "heading": { "en": "What Are Machine Screws?" },
-      "body": { "en": "Machine screws are precision fasteners with internal threads designed to mate with a pre-tapped hole or nut. Unlike self-tapping screws, machine screws require a pre-drilled pilot hole with matching threads. They are typically made to tighter tolerances than sheet metal screws and are used in precision applications where alignment and thread fit are critical." }
+      "heading": {
+        "en": "What Are Machine Screws?"
+      },
+      "body": {
+        "en": "Machine screws are precision fasteners with internal threads designed to mate with a pre-tapped hole or nut. Unlike self-tapping screws, machine screws require a pre-drilled pilot hole with matching threads. They are typically made to tighter tolerances than sheet metal screws and are used in precision applications where alignment and thread fit are critical."
+      }
     },
     {
       "id": "head-types",
-      "heading": { "en": "Head Types" },
-      "body": { "en": "Machine screws come in various head types: flat head (countersunk) sits flush with the material surface; round head provides a decorative appearance with good bearing surface; pan head offers high tightening torque capability; and button head (dome head) provides a rounded appearance with good strength." },
+      "heading": {
+        "en": "Head Types"
+      },
+      "body": {
+        "en": "Machine screws come in various head types: flat head (countersunk) sits flush with the material surface; round head provides a decorative appearance with good bearing surface; pan head offers high tightening torque capability; and button head (dome head) provides a rounded appearance with good strength."
+      },
       "table": {
-        "headers": ["Head Type", "DIN Standard", "Drive Style", "Applications"],
+        "headers": [
+          "Head Type",
+          "DIN Standard",
+          "Drive Style",
+          "Applications"
+        ],
         "rows": [
-          ["Flat Head (Countersunk)", "DIN 963", "Slot/Phillips/Star", "Flush mounting, machine assembly"],
-          ["Round Head", "DIN 964", "Slot/Phillips", "Decorative, general assembly"],
-          ["Pan Head", "DIN 967", "Phillips/Star", "High torque applications"],
-          ["Button Head (Dome)", "DIN 966", "Phillips/Star", "Decorative, good strength"]
+          [
+            "Flat Head (Countersunk)",
+            "DIN 963",
+            "Slot/Phillips/Star",
+            "Flush mounting, machine assembly"
+          ],
+          [
+            "Round Head",
+            "DIN 964",
+            "Slot/Phillips",
+            "Decorative, general assembly"
+          ],
+          [
+            "Pan Head",
+            "DIN 967",
+            "Phillips/Star",
+            "High torque applications"
+          ],
+          [
+            "Button Head (Dome)",
+            "DIN 966",
+            "Phillips/Star",
+            "Decorative, good strength"
+          ]
         ]
       }
     },
     {
       "id": "specifications",
-      "heading": { "en": "Common Specifications" },
-      "body": { "en": "Machine screws are available in metric sizes from M2 to M10 and in lengths from 3mm to 100mm. Thread types include coarse (standard) and fine pitch threads. Materials range from zinc-plated steel for basic applications to stainless steel A2 for corrosion resistance and brass for electrical applications." }
+      "heading": {
+        "en": "Common Specifications"
+      },
+      "body": {
+        "en": "Machine screws are available in metric sizes from M2 to M10 and in lengths from 3mm to 100mm. Thread types include coarse (standard) and fine pitch threads. Materials range from zinc-plated steel for basic applications to stainless steel A2 for corrosion resistance and brass for electrical applications."
+      }
     },
     {
       "id": "applications",
-      "heading": { "en": "Industrial Applications in Africa" },
-      "body": { "en": "Machine screws are used in African industry: electrical panels—securing components in switchgear and distribution boards; machinery assembly—precision fastening in manufacturing equipment; telecommunications—mounting equipment in telecom shelters; and automotive—general assembly and repair applications." }
+      "heading": {
+        "en": "Industrial Applications in Africa"
+      },
+      "body": {
+        "en": "Machine screws are used in African industry: electrical panels—securing components in switchgear and distribution boards; machinery assembly—precision fastening in manufacturing equipment; telecommunications—mounting equipment in telecom shelters; and automotive—general assembly and repair applications."
+      }
     },
     {
       "id": "vs-sheet-metal",
-      "heading": { "en": "Machine Screws vs. Sheet Metal Screws" },
-      "body": { "en": "The key difference: machine screws require pre-tapped holes and nuts; sheet metal screws create their own threads. Machine screws offer better precision and can be repeatedly assembled/disassembled; sheet metal screws offer faster installation but can strip threads. Use machine screws when precision and repeated assembly are needed; use sheet metal screws for quick fastening in thin materials." }
+      "heading": {
+        "en": "Machine Screws vs. Sheet Metal Screws"
+      },
+      "body": {
+        "en": "The key difference: machine screws require pre-tapped holes and nuts; sheet metal screws create their own threads. Machine screws offer better precision and can be repeatedly assembled/disassembled; sheet metal screws offer faster installation but can strip threads. Use machine screws when precision and repeated assembly are needed; use sheet metal screws for quick fastening in thin materials."
+      }
     }
-  ]
+  ],
+  "cta": {
+    "text": {
+      "en": "Need fasteners for your project? Get a factory quote from TradeGo.",
+      "zh": "需要紧固件用于项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "relatedProducts": []
 }

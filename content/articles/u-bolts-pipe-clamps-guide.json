@@ -24,37 +24,94 @@
   "sections": [
     {
       "id": "what-are-u-bolts",
-      "heading": { "en": "What Are U-Bolts?" },
-      "body": { "en": "U-bolts are U-shaped fasteners with threads on both ends, designed to clamp around circular objects like pipes, tubes, or rods. They secure these objects to flat surfaces, brackets, or other structural members. In African industrial applications, U-bolts are essential for pipe mounting in mining operations, water treatment plants, and construction projects." }
+      "heading": {
+        "en": "What Are U-Bolts?"
+      },
+      "body": {
+        "en": "U-bolts are U-shaped fasteners with threads on both ends, designed to clamp around circular objects like pipes, tubes, or rods. They secure these objects to flat surfaces, brackets, or other structural members. In African industrial applications, U-bolts are essential for pipe mounting in mining operations, water treatment plants, and construction projects."
+      }
     },
     {
       "id": "types",
-      "heading": { "en": "Types of U-Bolts" },
-      "body": { "en": "Standard U-bolts have a plain finish for general applications. HDG (hot-dip galvanized) U-bolts offer enhanced corrosion resistance for outdoor and coastal installations. Stainless steel U-bolts provide maximum corrosion resistance for chemical processing and marine environments. PVC-coated U-bolts protect the pipe surface and reduce vibration noise." },
+      "heading": {
+        "en": "Types of U-Bolts"
+      },
+      "body": {
+        "en": "Standard U-bolts have a plain finish for general applications. HDG (hot-dip galvanized) U-bolts offer enhanced corrosion resistance for outdoor and coastal installations. Stainless steel U-bolts provide maximum corrosion resistance for chemical processing and marine environments. PVC-coated U-bolts protect the pipe surface and reduce vibration noise."
+      },
       "table": {
-        "headers": ["Type", "Material", "Corrosion Resistance", "Best Applications"],
+        "headers": [
+          "Type",
+          "Material",
+          "Corrosion Resistance",
+          "Best Applications"
+        ],
         "rows": [
-          ["Standard", "Carbon Steel", "Basic (indoor)", "General pipe mounting"],
-          ["HDG", "Hot-Dip Galvanized", "Good (outdoor)", "Water pipes, outdoor structures"],
-          ["Stainless", "A2/A4 Stainless", "Excellent", "Chemical plants, coastal"],
-          ["PVC-Coated", "Steel + PVC", "Good + surface protection", "Noise reduction, surface protection"]
+          [
+            "Standard",
+            "Carbon Steel",
+            "Basic (indoor)",
+            "General pipe mounting"
+          ],
+          [
+            "HDG",
+            "Hot-Dip Galvanized",
+            "Good (outdoor)",
+            "Water pipes, outdoor structures"
+          ],
+          [
+            "Stainless",
+            "A2/A4 Stainless",
+            "Excellent",
+            "Chemical plants, coastal"
+          ],
+          [
+            "PVC-Coated",
+            "Steel + PVC",
+            "Good + surface protection",
+            "Noise reduction, surface protection"
+          ]
         ]
       }
     },
     {
       "id": "sizing",
-      "heading": { "en": "How to Size U-Bolts" },
-      "body": { "en": "U-bolt size is determined by the pipe or tube outer diameter. The U-bolt inner diameter should match the nominal pipe size. The leg length (height of the U from pipe center to bend) should be sufficient to accommodate washers, nuts, and the mounting surface. The thread length should allow proper engagement with nuts (minimum 1.5 times the bolt diameter)." }
+      "heading": {
+        "en": "How to Size U-Bolts"
+      },
+      "body": {
+        "en": "U-bolt size is determined by the pipe or tube outer diameter. The U-bolt inner diameter should match the nominal pipe size. The leg length (height of the U from pipe center to bend) should be sufficient to accommodate washers, nuts, and the mounting surface. The thread length should allow proper engagement with nuts (minimum 1.5 times the bolt diameter)."
+      }
     },
     {
       "id": "mining-applications",
-      "heading": { "en": "Mining Applications in Africa" },
-      "body": { "en": "U-bolts are critical in African mining operations: slurry pipelines—securing high-pressure slurry transport lines; dewatering systems—mounting water extraction pipes; ventilation—securing air ducts in underground mines; and cable management—mounting cable trays and conduit." }
+      "heading": {
+        "en": "Mining Applications in Africa"
+      },
+      "body": {
+        "en": "U-bolts are critical in African mining operations: slurry pipelines—securing high-pressure slurry transport lines; dewatering systems—mounting water extraction pipes; ventilation—securing air ducts in underground mines; and cable management—mounting cable trays and conduit."
+      }
     },
     {
       "id": "installation",
-      "heading": { "en": "Installation Best Practices" },
-      "body": { "en": "Proper installation: Ensure the pipe is properly supported before installing U-bolts. Position U-bolts at recommended spacing (typically 1.5m for horizontal runs). Use washers between the U-bolt legs and the mounting surface. Tighten nuts evenly to ensure uniform clamping force. For high-vibration applications, consider using lock nuts or thread-locking compounds." }
+      "heading": {
+        "en": "Installation Best Practices"
+      },
+      "body": {
+        "en": "Proper installation: Ensure the pipe is properly supported before installing U-bolts. Position U-bolts at recommended spacing (typically 1.5m for horizontal runs). Use washers between the U-bolt legs and the mounting surface. Tighten nuts evenly to ensure uniform clamping force. For high-vibration applications, consider using lock nuts or thread-locking compounds."
+      }
     }
-  ]
+  ],
+  "cta": {
+    "text": {
+      "en": "Need fasteners for your project? Get a factory quote from TradeGo.",
+      "zh": "需要紧固件用于项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "relatedProducts": []
 }

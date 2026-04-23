@@ -24,37 +24,94 @@
   "sections": [
     {
       "id": "types",
-      "heading": { "en": "Types of Concrete Anchors" },
-      "body": { "en": "Concrete anchors come in several types: concrete screws (like Tapcon) are self-threading screws that tap their own threads into concrete; drop-in anchors are sleeve-type anchors that expand against the concrete when a bolt is inserted; shield anchors feature an internal plug that expands a metal shield against the hole wall; and wedge anchors expand against the concrete as the bolt is tightened." },
+      "heading": {
+        "en": "Types of Concrete Anchors"
+      },
+      "body": {
+        "en": "Concrete anchors come in several types: concrete screws (like Tapcon) are self-threading screws that tap their own threads into concrete; drop-in anchors are sleeve-type anchors that expand against the concrete when a bolt is inserted; shield anchors feature an internal plug that expands a metal shield against the hole wall; and wedge anchors expand against the concrete as the bolt is tightened."
+      },
       "table": {
-        "headers": ["Anchor Type", "Installation", "Load Capacity", "Best Applications"],
+        "headers": [
+          "Anchor Type",
+          "Installation",
+          "Load Capacity",
+          "Best Applications"
+        ],
         "rows": [
-          ["Concrete Screws", "Drill & drive", "Medium", "Electrical boxes, brackets"],
-          ["Drop-in Anchors", "Drill, insert, expand", "High", "Suspended ceilings, machinery"],
-          ["Shield Anchors", "Drill, insert, plug", "Medium", "Handrails, guardrails"],
-          ["Wedge Anchors", "Drill, insert, torque", "Very High", "Structural, machinery"]
+          [
+            "Concrete Screws",
+            "Drill & drive",
+            "Medium",
+            "Electrical boxes, brackets"
+          ],
+          [
+            "Drop-in Anchors",
+            "Drill, insert, expand",
+            "High",
+            "Suspended ceilings, machinery"
+          ],
+          [
+            "Shield Anchors",
+            "Drill, insert, plug",
+            "Medium",
+            "Handrails, guardrails"
+          ],
+          [
+            "Wedge Anchors",
+            "Drill, insert, torque",
+            "Very High",
+            "Structural, machinery"
+          ]
         ]
       }
     },
     {
       "id": "concrete-screws",
-      "heading": { "en": "Concrete Screws (Tapcon-style)" },
-      "body": { "en": "Concrete screws are the easiest to install and work well for medium-duty applications. They require a pre-drilled hole (using a masonry drill bit the same diameter as the screw) and are driven like a wood screw. They are not recommended for overhead applications or in cracked concrete. The blue coating (for Tapcon brand) indicates proper hardness for concrete fastening." }
+      "heading": {
+        "en": "Concrete Screws (Tapcon-style)"
+      },
+      "body": {
+        "en": "Concrete screws are the easiest to install and work well for medium-duty applications. They require a pre-drilled hole (using a masonry drill bit the same diameter as the screw) and are driven like a wood screw. They are not recommended for overhead applications or in cracked concrete. The blue coating (for Tapcon brand) indicates proper hardness for concrete fastening."
+      }
     },
     {
       "id": "applications",
-      "heading": { "en": "Common Applications in African Construction" },
-      "body": { "en": "Concrete anchors are used throughout African construction: electrical installation—mounting junction boxes and conduit straps; HVAC—securing ductwork and equipment; signage—attaching building signs and advertisements; safety equipment—handrails, guardrails, and fire protection systems; and machinery—securing equipment bases to concrete floors." }
+      "heading": {
+        "en": "Common Applications in African Construction"
+      },
+      "body": {
+        "en": "Concrete anchors are used throughout African construction: electrical installation—mounting junction boxes and conduit straps; HVAC—securing ductwork and equipment; signage—attaching building signs and advertisements; safety equipment—handrails, guardrails, and fire protection systems; and machinery—securing equipment bases to concrete floors."
+      }
     },
     {
       "id": "installation",
-      "heading": { "en": "Installation Best Practices" },
-      "body": { "en": "Proper installation: use a hammer drill with masonry bit for drilling holes; clean the hole of dust and debris before insertion; follow minimum edge distance and spacing requirements; for concrete screws, use the correct drill bit size (match manufacturer specifications); and for expansion anchors, apply the correct torque specification to ensure proper expansion." }
+      "heading": {
+        "en": "Installation Best Practices"
+      },
+      "body": {
+        "en": "Proper installation: use a hammer drill with masonry bit for drilling holes; clean the hole of dust and debris before insertion; follow minimum edge distance and spacing requirements; for concrete screws, use the correct drill bit size (match manufacturer specifications); and for expansion anchors, apply the correct torque specification to ensure proper expansion."
+      }
     },
     {
       "id": "selection",
-      "heading": { "en": "Selection Criteria" },
-      "body": { "en": "When selecting concrete anchors: determine the load requirements (tension, shear, or combined); consider the base material strength (standard concrete vs. lightweight concrete); evaluate environmental conditions (corrosion potential); check building code requirements for specific applications; and for structural applications, ensure anchors are ICC-ES or equivalent certified." }
+      "heading": {
+        "en": "Selection Criteria"
+      },
+      "body": {
+        "en": "When selecting concrete anchors: determine the load requirements (tension, shear, or combined); consider the base material strength (standard concrete vs. lightweight concrete); evaluate environmental conditions (corrosion potential); check building code requirements for specific applications; and for structural applications, ensure anchors are ICC-ES or equivalent certified."
+      }
     }
-  ]
+  ],
+  "cta": {
+    "text": {
+      "en": "Need fasteners for your project? Get a factory quote from TradeGo.",
+      "zh": "需要紧固件用于项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "relatedProducts": []
 }

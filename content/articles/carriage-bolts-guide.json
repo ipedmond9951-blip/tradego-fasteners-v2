@@ -24,39 +24,106 @@
   "sections": [
     {
       "id": "what-are-carriage-bolts",
-      "heading": { "en": "What Are Carriage Bolts?" },
-      "body": { "en": "Carriage bolts (also called round head square neck bolts or coach bolts) feature a smooth, rounded head with a square section beneath that prevents rotation during installation. The square neck bites into wood fibers, eliminating the need for a washer and preventing the bolt from spinning when the nut is tightened. This makes them ideal for wood-to-wood and wood-to-metal connections where a smooth appearance is desired." }
+      "heading": {
+        "en": "What Are Carriage Bolts?"
+      },
+      "body": {
+        "en": "Carriage bolts (also called round head square neck bolts or coach bolts) feature a smooth, rounded head with a square section beneath that prevents rotation during installation. The square neck bites into wood fibers, eliminating the need for a washer and preventing the bolt from spinning when the nut is tightened. This makes them ideal for wood-to-wood and wood-to-metal connections where a smooth appearance is desired."
+      }
     },
     {
       "id": "din-603-specs",
-      "heading": { "en": "DIN 603 Specifications" },
-      "body": { "en": "DIN 603 is the European standard for carriage bolts. The standard specifies dimensions, mechanical properties, and testing requirements. Key dimensions include thread diameter (M5 to M24), overall length (25mm to 300mm), head diameter, and square neck dimensions. The thread length formula is typically 2d + 6mm for bolts up to 150mm length." },
+      "heading": {
+        "en": "DIN 603 Specifications"
+      },
+      "body": {
+        "en": "DIN 603 is the European standard for carriage bolts. The standard specifies dimensions, mechanical properties, and testing requirements. Key dimensions include thread diameter (M5 to M24), overall length (25mm to 300mm), head diameter, and square neck dimensions. The thread length formula is typically 2d + 6mm for bolts up to 150mm length."
+      },
       "table": {
-        "headers": ["Size", "Head Diameter", "Square Neck Size", "Length Range"],
+        "headers": [
+          "Size",
+          "Head Diameter",
+          "Square Neck Size",
+          "Length Range"
+        ],
         "rows": [
-          ["M6", "13mm", "6.1mm", "20-80mm"],
-          ["M8", "17mm", "8.1mm", "25-100mm"],
-          ["M10", "21mm", "10.2mm", "30-120mm"],
-          ["M12", "25mm", "12.2mm", "35-150mm"],
-          ["M16", "33mm", "16.2mm", "50-200mm"],
-          ["M20", "41mm", "20.2mm", "60-300mm"]
+          [
+            "M6",
+            "13mm",
+            "6.1mm",
+            "20-80mm"
+          ],
+          [
+            "M8",
+            "17mm",
+            "8.1mm",
+            "25-100mm"
+          ],
+          [
+            "M10",
+            "21mm",
+            "10.2mm",
+            "30-120mm"
+          ],
+          [
+            "M12",
+            "25mm",
+            "12.2mm",
+            "35-150mm"
+          ],
+          [
+            "M16",
+            "33mm",
+            "16.2mm",
+            "50-200mm"
+          ],
+          [
+            "M20",
+            "41mm",
+            "20.2mm",
+            "60-300mm"
+          ]
         ]
       }
     },
     {
       "id": "applications",
-      "heading": { "en": "Common Applications in African Construction" },
-      "body": { "en": "Carriage bolts are widely used in African construction: timber frame buildings—structural connections in traditional and modern timber construction; outdoor structures—decks, pergolas, and outdoor furniture; agricultural buildings—farm buildings, storage facilities, and livestock shelters; and furniture manufacturing—where smooth heads provide aesthetic appeal." }
+      "heading": {
+        "en": "Common Applications in African Construction"
+      },
+      "body": {
+        "en": "Carriage bolts are widely used in African construction: timber frame buildings—structural connections in traditional and modern timber construction; outdoor structures—decks, pergolas, and outdoor furniture; agricultural buildings—farm buildings, storage facilities, and livestock shelters; and furniture manufacturing—where smooth heads provide aesthetic appeal."
+      }
     },
     {
       "id": "material-coating",
-      "heading": { "en": "Material and Coating Selection" },
-      "body": { "en": "For African environments, material selection is critical. Carbon steel carriage bolts with hot-dip galvanizing offer excellent corrosion resistance for outdoor and coastal applications. Stainless steel A2 (304) provides superior corrosion resistance but at higher cost. Zinc-plated carriage bolts are suitable for indoor use or temporary structures." }
+      "heading": {
+        "en": "Material and Coating Selection"
+      },
+      "body": {
+        "en": "For African environments, material selection is critical. Carbon steel carriage bolts with hot-dip galvanizing offer excellent corrosion resistance for outdoor and coastal applications. Stainless steel A2 (304) provides superior corrosion resistance but at higher cost. Zinc-plated carriage bolts are suitable for indoor use or temporary structures."
+      }
     },
     {
       "id": "installation",
-      "heading": { "en": "Installation Tips" },
-      "body": { "en": "Proper installation: Drill a pilot hole slightly larger than the thread diameter but smaller than the square neck. Insert the carriage bolt from the smooth side (where you want the head visible). The square neck should face the wood surface. Use a washer and nut on the opposite side. Tighten with a wrench while the square neck prevents rotation. Do not over-tighten—excessive torque can damage wood fibers." }
+      "heading": {
+        "en": "Installation Tips"
+      },
+      "body": {
+        "en": "Proper installation: Drill a pilot hole slightly larger than the thread diameter but smaller than the square neck. Insert the carriage bolt from the smooth side (where you want the head visible). The square neck should face the wood surface. Use a washer and nut on the opposite side. Tighten with a wrench while the square neck prevents rotation. Do not over-tighten—excessive torque can damage wood fibers."
+      }
     }
-  ]
+  ],
+  "cta": {
+    "text": {
+      "en": "Need fasteners for your project? Get a factory quote from TradeGo.",
+      "zh": "需要紧固件用于项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "relatedProducts": []
 }

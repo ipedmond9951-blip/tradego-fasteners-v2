@@ -24,36 +24,88 @@
   "sections": [
     {
       "id": "what-are-high-tensile",
-      "heading": { "en": "What Are High Tensile Bolts?" },
-      "body": { "en": "High tensile bolts are engineered fasteners made from medium carbon steel that has been heat-treated to achieve superior mechanical properties. The tensile strength (measured in N/mm² or MPa) indicates the maximum stress the bolt can withstand before breaking. High tensile bolts are essential for structural applications where joint failure could result in catastrophic consequences." }
+      "heading": {
+        "en": "What Are High Tensile Bolts?"
+      },
+      "body": {
+        "en": "High tensile bolts are engineered fasteners made from medium carbon steel that has been heat-treated to achieve superior mechanical properties. The tensile strength (measured in N/mm² or MPa) indicates the maximum stress the bolt can withstand before breaking. High tensile bolts are essential for structural applications where joint failure could result in catastrophic consequences."
+      }
     },
     {
       "id": "grade-system",
-      "heading": { "en": "Understanding the Grade System" },
-      "body": { "en": "The grade marking on a high tensile bolt indicates its mechanical properties. The first number (e.g., 8, 10, 12) represents 1/100 of the nominal tensile strength in N/mm². The second number represents 10 times the ratio between nominal proof stress and nominal tensile strength. A grade 8.8 bolt has a tensile strength of 800 N/mm² and a proof stress of 640 N/mm²." },
+      "heading": {
+        "en": "Understanding the Grade System"
+      },
+      "body": {
+        "en": "The grade marking on a high tensile bolt indicates its mechanical properties. The first number (e.g., 8, 10, 12) represents 1/100 of the nominal tensile strength in N/mm². The second number represents 10 times the ratio between nominal proof stress and nominal tensile strength. A grade 8.8 bolt has a tensile strength of 800 N/mm² and a proof stress of 640 N/mm²."
+      },
       "table": {
-        "headers": ["Grade", "Tensile Strength", "Proof Stress", "Yield Strength"],
+        "headers": [
+          "Grade",
+          "Tensile Strength",
+          "Proof Stress",
+          "Yield Strength"
+        ],
         "rows": [
-          ["8.8", "800 N/mm²", "640 N/mm²", "640 N/mm²"],
-          ["10.9", "1000 N/mm²", "900 N/mm²", "940 N/mm²"],
-          ["12.9", "1200 N/mm²", "1080 N/mm²", "1152 N/mm²"]
+          [
+            "8.8",
+            "800 N/mm²",
+            "640 N/mm²",
+            "640 N/mm²"
+          ],
+          [
+            "10.9",
+            "1000 N/mm²",
+            "900 N/mm²",
+            "940 N/mm²"
+          ],
+          [
+            "12.9",
+            "1200 N/mm²",
+            "1080 N/mm²",
+            "1152 N/mm²"
+          ]
         ]
       }
     },
     {
       "id": "applications",
-      "heading": { "en": "Grade Selection by Application" },
-      "body": { "en": "Grade 8.8 bolts (most common) are suitable for most structural applications including building frames, bridges, and general construction. Grade 10.9 bolts are used for heavy machinery, vehicle manufacturing, and high-stress structural connections. Grade 12.9 bolts (highest strength) are reserved for aerospace, precision machinery, and critical structural applications where failure is unacceptable." }
+      "heading": {
+        "en": "Grade Selection by Application"
+      },
+      "body": {
+        "en": "Grade 8.8 bolts (most common) are suitable for most structural applications including building frames, bridges, and general construction. Grade 10.9 bolts are used for heavy machinery, vehicle manufacturing, and high-stress structural connections. Grade 12.9 bolts (highest strength) are reserved for aerospace, precision machinery, and critical structural applications where failure is unacceptable."
+      }
     },
     {
       "id": "identification",
-      "heading": { "en": "How to Identify High Tensile Bolts" },
-      "body": { "en": "High tensile bolts are identified by: Grade marking on the bolt head—8.8 shows '8.8', 10.9 shows '10.9', 12.9 shows '12.9'. Property class on the packaging or documentation. Thread direction—standard right-hand threads (left-hand threads are marked 'LH'). Coating—often zinc-plated, black oxide, or hot-dip galvanized." }
+      "heading": {
+        "en": "How to Identify High Tensile Bolts"
+      },
+      "body": {
+        "en": "High tensile bolts are identified by: Grade marking on the bolt head—8.8 shows '8.8', 10.9 shows '10.9', 12.9 shows '12.9'. Property class on the packaging or documentation. Thread direction—standard right-hand threads (left-hand threads are marked 'LH'). Coating—often zinc-plated, black oxide, or hot-dip galvanized."
+      }
     },
     {
       "id": " africa-applications",
-      "heading": { "en": "African Infrastructure Applications" },
-      "body": { "en": "High tensile bolts are critical in African infrastructure: solar farm construction—securing tracker systems and panel racking; telecommunications towers—structural connections in monopole and lattice towers; mining infrastructure—conveyor support structures and crusher foundations; bridges—expansion joints and bearing connections; and commercial buildings—steel frame connections in high-rise construction." }
+      "heading": {
+        "en": "African Infrastructure Applications"
+      },
+      "body": {
+        "en": "High tensile bolts are critical in African infrastructure: solar farm construction—securing tracker systems and panel racking; telecommunications towers—structural connections in monopole and lattice towers; mining infrastructure—conveyor support structures and crusher foundations; bridges—expansion joints and bearing connections; and commercial buildings—steel frame connections in high-rise construction."
+      }
     }
-  ]
+  ],
+  "cta": {
+    "text": {
+      "en": "Need fasteners for your project? Get a factory quote from TradeGo.",
+      "zh": "需要紧固件用于项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "relatedProducts": []
 }

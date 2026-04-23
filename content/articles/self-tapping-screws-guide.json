@@ -24,36 +24,88 @@
   "sections": [
     {
       "id": "what-are-self-tapping",
-      "heading": { "en": "What Are Self-Tapping Screws?" },
-      "body": { "en": "Self-tapping screws (also called self-drilling or Tek screws) have a sharp point and specially designed thread that allows them to create their own mating thread in materials like sheet metal, plastic, or wood. Unlike standard screws that require pre-drilled pilot holes, self-tapping screws drill their own hole as they are driven in, significantly speeding up installation." }
+      "heading": {
+        "en": "What Are Self-Tapping Screws?"
+      },
+      "body": {
+        "en": "Self-tapping screws (also called self-drilling or Tek screws) have a sharp point and specially designed thread that allows them to create their own mating thread in materials like sheet metal, plastic, or wood. Unlike standard screws that require pre-drilled pilot holes, self-tapping screws drill their own hole as they are driven in, significantly speeding up installation."
+      }
     },
     {
       "id": "types",
-      "heading": { "en": "Types of Self-Tapping Screws" },
-      "body": { "en": "There are three main types: Type AB point screws have a Type A point with a finer thread, suitable for thin sheet metal up to 0.9mm. Type B point screws have a 45-degree Type B point, ideal for thicker materials up to 2.3mm. Drill point (Type III) screws have a flat tip with drill flutes, capable of drilling through steel up to 5mm without pre-drilling." },
+      "heading": {
+        "en": "Types of Self-Tapping Screws"
+      },
+      "body": {
+        "en": "There are three main types: Type AB point screws have a Type A point with a finer thread, suitable for thin sheet metal up to 0.9mm. Type B point screws have a 45-degree Type B point, ideal for thicker materials up to 2.3mm. Drill point (Type III) screws have a flat tip with drill flutes, capable of drilling through steel up to 5mm without pre-drilling."
+      },
       "table": {
-        "headers": ["Type", "Point Style", "Material Thickness", "Applications"],
+        "headers": [
+          "Type",
+          "Point Style",
+          "Material Thickness",
+          "Applications"
+        ],
         "rows": [
-          ["Type AB", "Sharp point, fine thread", "Up to 0.9mm", "Thin sheet metal, HVAC, signage"],
-          ["Type B", "45-degree blunt point", "Up to 2.3mm", "Thicker metal, brackets, frames"],
-          ["Type III (Drill)", "Drill point with flutes", "Up to 5mm", "Steel framing, roofing, structural"]
+          [
+            "Type AB",
+            "Sharp point, fine thread",
+            "Up to 0.9mm",
+            "Thin sheet metal, HVAC, signage"
+          ],
+          [
+            "Type B",
+            "45-degree blunt point",
+            "Up to 2.3mm",
+            "Thicker metal, brackets, frames"
+          ],
+          [
+            "Type III (Drill)",
+            "Drill point with flutes",
+            "Up to 5mm",
+            "Steel framing, roofing, structural"
+          ]
         ]
       }
     },
     {
       "id": "applications",
-      "heading": { "en": "Common Applications in African Construction" },
-      "body": { "en": "Self-tapping screws are essential in African construction: roofing installation—attaching metal roofing sheets to purlins; steel framing—connecting steel studs and tracks; HVAC ductwork—securing duct sections; solar panel mounting—fixing panel frames to racking systems; and general sheet metal fabrication for commercial buildings." }
+      "heading": {
+        "en": "Common Applications in African Construction"
+      },
+      "body": {
+        "en": "Self-tapping screws are essential in African construction: roofing installation—attaching metal roofing sheets to purlins; steel framing—connecting steel studs and tracks; HVAC ductwork—securing duct sections; solar panel mounting—fixing panel frames to racking systems; and general sheet metal fabrication for commercial buildings."
+      }
     },
     {
       "id": "coatings",
-      "heading": { "en": "Coatings for Corrosion Resistance" },
-      "body": { "en": "For African environments, coating selection is critical. Zinc-plated screws offer basic protection for indoor use. Black phosphate screws provide temporary protection and lubrication during installation. For outdoor and coastal applications, stainless steel (A2 304 or A4 316) or hot-dip galvanized screws are essential to prevent rusting and premature failure." }
+      "heading": {
+        "en": "Coatings for Corrosion Resistance"
+      },
+      "body": {
+        "en": "For African environments, coating selection is critical. Zinc-plated screws offer basic protection for indoor use. Black phosphate screws provide temporary protection and lubrication during installation. For outdoor and coastal applications, stainless steel (A2 304 or A4 316) or hot-dip galvanized screws are essential to prevent rusting and premature failure."
+      }
     },
     {
       "id": "selection",
-      "heading": { "en": "How to Select the Right Self-Tapping Screw" },
-      "body": { "en": "Selection criteria: Material being fastened—determine thickness and type (steel, aluminum, wood). Load requirements—heavier loads require larger diameter and more threads. Environmental exposure—coastal and outdoor applications need corrosion-resistant coatings. Installation speed—drill point screws offer fastest installation through steel. Use this formula: for steel up to 2.3mm, use Type B; for steel 2.3-5mm, use Type III drill point." }
+      "heading": {
+        "en": "How to Select the Right Self-Tapping Screw"
+      },
+      "body": {
+        "en": "Selection criteria: Material being fastened—determine thickness and type (steel, aluminum, wood). Load requirements—heavier loads require larger diameter and more threads. Environmental exposure—coastal and outdoor applications need corrosion-resistant coatings. Installation speed—drill point screws offer fastest installation through steel. Use this formula: for steel up to 2.3mm, use Type B; for steel 2.3-5mm, use Type III drill point."
+      }
     }
-  ]
+  ],
+  "cta": {
+    "text": {
+      "en": "Need fasteners for your project? Get a factory quote from TradeGo.",
+      "zh": "需要紧固件用于项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "relatedProducts": []
 }

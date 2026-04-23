@@ -24,37 +24,99 @@
   "sections": [
     {
       "id": "why-markings",
-      "heading": { "en": "Why Bolt Markings Matter" },
-      "body": { "en": "Bolt markings provide critical information about the fastener's strength, material, and performance characteristics. Using the wrong grade bolt can lead to joint failure, equipment damage, and safety hazards. Understanding markings ensures you select the correct fastener for your application, preventing costly failures and safety incidents in African construction and industrial projects." }
+      "heading": {
+        "en": "Why Bolt Markings Matter"
+      },
+      "body": {
+        "en": "Bolt markings provide critical information about the fastener's strength, material, and performance characteristics. Using the wrong grade bolt can lead to joint failure, equipment damage, and safety hazards. Understanding markings ensures you select the correct fastener for your application, preventing costly failures and safety incidents in African construction and industrial projects."
+      }
     },
     {
       "id": "metric-grades",
-      "heading": { "en": "Metric Bolt Grade Markings" },
-      "body": { "en": "Metric bolts use a two-number grading system (e.g., 8.8, 10.9, 12.9). The first number represents 1/100 of the nominal tensile strength in N/mm². The second number is 10 times the ratio of proof stress to tensile strength. Higher numbers indicate stronger bolts." },
+      "heading": {
+        "en": "Metric Bolt Grade Markings"
+      },
+      "body": {
+        "en": "Metric bolts use a two-number grading system (e.g., 8.8, 10.9, 12.9). The first number represents 1/100 of the nominal tensile strength in N/mm². The second number is 10 times the ratio of proof stress to tensile strength. Higher numbers indicate stronger bolts."
+      },
       "table": {
-        "headers": ["Grade", "Tensile Strength", "Proof Stress", "Yield Strength", "Common Applications"],
+        "headers": [
+          "Grade",
+          "Tensile Strength",
+          "Proof Stress",
+          "Yield Strength",
+          "Common Applications"
+        ],
         "rows": [
-          ["4.8", "400 N/mm²", "320 N/mm²", "320 N/mm²", "General applications, non-critical"],
-          ["8.8", "800 N/mm²", "640 N/mm²", "640 N/mm²", "Construction, machinery"],
-          ["10.9", "1000 N/mm²", "900 N/mm²", "940 N/mm²", "Heavy machinery, vehicles"],
-          ["12.9", "1200 N/mm²", "1080 N/mm²", "1152 N/mm²", "Precision machinery, critical applications"]
+          [
+            "4.8",
+            "400 N/mm²",
+            "320 N/mm²",
+            "320 N/mm²",
+            "General applications, non-critical"
+          ],
+          [
+            "8.8",
+            "800 N/mm²",
+            "640 N/mm²",
+            "640 N/mm²",
+            "Construction, machinery"
+          ],
+          [
+            "10.9",
+            "1000 N/mm²",
+            "900 N/mm²",
+            "940 N/mm²",
+            "Heavy machinery, vehicles"
+          ],
+          [
+            "12.9",
+            "1200 N/mm²",
+            "1080 N/mm²",
+            "1152 N/mm²",
+            "Precision machinery, critical applications"
+          ]
         ]
       }
     },
     {
       "id": "reading-markings",
-      "heading": { "en": "How to Read Bolt Markings" },
-      "body": { "en": "Look for the grade marking on the bolt head. For metric bolts, the marking will show the two numbers separated by a decimal (e.g., 8.8). The marking may also include the manufacturer's trademark. For hex bolts, look for the marking on the top of the head. For socket head capscrews, the grade is typically marked on the side." }
+      "heading": {
+        "en": "How to Read Bolt Markings"
+      },
+      "body": {
+        "en": "Look for the grade marking on the bolt head. For metric bolts, the marking will show the two numbers separated by a decimal (e.g., 8.8). The marking may also include the manufacturer's trademark. For hex bolts, look for the marking on the top of the head. For socket head capscrews, the grade is typically marked on the side."
+      }
     },
     {
       "id": "stainless-markings",
-      "heading": { "en": "Stainless Steel Bolt Markings" },
-      "body": { "en": "Stainless steel bolts use a different marking system. Look for A2 or A4 (property class) and the steel grade (e.g., 304, 316). A2 (304) is the most common stainless steel for general use. A4 (316) offers superior corrosion resistance for coastal and marine environments. Additional markings may indicate if the bolt is austenitic (A) or martensitic (C)." }
+      "heading": {
+        "en": "Stainless Steel Bolt Markings"
+      },
+      "body": {
+        "en": "Stainless steel bolts use a different marking system. Look for A2 or A4 (property class) and the steel grade (e.g., 304, 316). A2 (304) is the most common stainless steel for general use. A4 (316) offers superior corrosion resistance for coastal and marine environments. Additional markings may indicate if the bolt is austenitic (A) or martensitic (C)."
+      }
     },
     {
       "id": "africa-applications",
-      "heading": { "en": "Marking Recognition in African Projects" },
-      "body": { "en": "When sourcing fasteners for African projects, verify markings carefully: always confirm grade matches your specifications; be wary of counterfeit bolts with incorrect markings; for structural applications, insist on third-party test certificates; and store bolts by grade to prevent mixing. African construction projects have seen failures from counterfeit fasteners—always verify markings and source from reputable suppliers." }
+      "heading": {
+        "en": "Marking Recognition in African Projects"
+      },
+      "body": {
+        "en": "When sourcing fasteners for African projects, verify markings carefully: always confirm grade matches your specifications; be wary of counterfeit bolts with incorrect markings; for structural applications, insist on third-party test certificates; and store bolts by grade to prevent mixing. African construction projects have seen failures from counterfeit fasteners—always verify markings and source from reputable suppliers."
+      }
     }
-  ]
+  ],
+  "cta": {
+    "text": {
+      "en": "Need fasteners for your project? Get a factory quote from TradeGo.",
+      "zh": "需要紧固件用于项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "relatedProducts": []
 }

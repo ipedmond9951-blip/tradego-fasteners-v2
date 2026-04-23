@@ -24,37 +24,94 @@
   "sections": [
     {
       "id": "what-are-anchor-bolts",
-      "heading": { "en": "What Are Anchor Bolts?" },
-      "body": { "en": "Anchor bolts (also called foundation bolts or J-bolts) are specialized fasteners used to attach structural steel, equipment, and machinery to concrete foundations. They are embedded in fresh concrete during pouring and cure with the concrete, creating a permanent structural connection essential for withstanding uplift forces, shear loads, and moment forces in buildings and infrastructure." }
+      "heading": {
+        "en": "What Are Anchor Bolts?"
+      },
+      "body": {
+        "en": "Anchor bolts (also called foundation bolts or J-bolts) are specialized fasteners used to attach structural steel, equipment, and machinery to concrete foundations. They are embedded in fresh concrete during pouring and cure with the concrete, creating a permanent structural connection essential for withstanding uplift forces, shear loads, and moment forces in buildings and infrastructure."
+      }
     },
     {
       "id": "types",
-      "heading": { "en": "Types of Anchor Bolts" },
-      "body": { "en": "L-bolts have an L-shaped bend at the embedded end, providing resistance against pull-out forces. J-bolts feature a J-shaped curve at the embedded end, similar to L-bolts but with a tighter radius. Headed anchor bolts have a forged head at the embedded end, offering maximum pull-out resistance. Threaded rods with plate washers and nuts at the embedded end allow on-site positioning adjustments." },
+      "heading": {
+        "en": "Types of Anchor Bolts"
+      },
+      "body": {
+        "en": "L-bolts have an L-shaped bend at the embedded end, providing resistance against pull-out forces. J-bolts feature a J-shaped curve at the embedded end, similar to L-bolts but with a tighter radius. Headed anchor bolts have a forged head at the embedded end, offering maximum pull-out resistance. Threaded rods with plate washers and nuts at the embedded end allow on-site positioning adjustments."
+      },
       "table": {
-        "headers": ["Type", "Shape", "Pull-out Resistance", "Common Applications"],
+        "headers": [
+          "Type",
+          "Shape",
+          "Pull-out Resistance",
+          "Common Applications"
+        ],
         "rows": [
-          ["L-Bolt", "L-shaped bend", "Good", "Column bases, light structural"],
-          ["J-Bolt", "J-shaped curve", "Good", "Column bases, equipment"],
-          ["Headed Bolt", "Forged head", "Excellent", "Heavy machinery, bridges"],
-          ["Threaded Rod", "Straight with plate", "Moderate", "Adjustable installations"]
+          [
+            "L-Bolt",
+            "L-shaped bend",
+            "Good",
+            "Column bases, light structural"
+          ],
+          [
+            "J-Bolt",
+            "J-shaped curve",
+            "Good",
+            "Column bases, equipment"
+          ],
+          [
+            "Headed Bolt",
+            "Forged head",
+            "Excellent",
+            "Heavy machinery, bridges"
+          ],
+          [
+            "Threaded Rod",
+            "Straight with plate",
+            "Moderate",
+            "Adjustable installations"
+          ]
         ]
       }
     },
     {
       "id": "installation",
-      "heading": { "en": "Installation Best Practices" },
-      "body": { "en": "Proper installation is critical for structural integrity. Embedment depth should be at least 12 times the bolt diameter (12d) for standard applications. Use template plates to ensure accurate bolt positioning before concrete pour. Maintain minimum edge distance of 6 bolt diameters from concrete edges. Protect threads during concrete pour using sleeves or tape. Allow adequate concrete cure time (minimum 7 days for 75% strength) before applying loads." }
+      "heading": {
+        "en": "Installation Best Practices"
+      },
+      "body": {
+        "en": "Proper installation is critical for structural integrity. Embedment depth should be at least 12 times the bolt diameter (12d) for standard applications. Use template plates to ensure accurate bolt positioning before concrete pour. Maintain minimum edge distance of 6 bolt diameters from concrete edges. Protect threads during concrete pour using sleeves or tape. Allow adequate concrete cure time (minimum 7 days for 75% strength) before applying loads."
+      }
     },
     {
       "id": "specifications",
-      "heading": { "en": "Common Specifications for African Projects" },
-      "body": { "en": "For African construction projects, anchor bolts typically comply with ASTM F1554 (weldable structural steel) or ISO 898 (mechanical properties). Common sizes range from M16 for light commercial to M36 for heavy industrial applications. Zinc-coated or hot-dip galvanized anchor bolts are essential for coastal African projects to prevent corrosion." }
+      "heading": {
+        "en": "Common Specifications for African Projects"
+      },
+      "body": {
+        "en": "For African construction projects, anchor bolts typically comply with ASTM F1554 (weldable structural steel) or ISO 898 (mechanical properties). Common sizes range from M16 for light commercial to M36 for heavy industrial applications. Zinc-coated or hot-dip galvanized anchor bolts are essential for coastal African projects to prevent corrosion."
+      }
     },
     {
       "id": "applications",
-      "heading": { "en": "Applications in African Infrastructure" },
-      "body": { "en": "Anchor bolts are critical in African infrastructure: solar panel foundations—securing racking systems to concrete footings; telecommunications towers—anchoring tower bases to concrete foundations; mining equipment—securing crushers, conveyors, and processing equipment; commercial buildings—column base plates for steel structures; and bridges—securing bearing plates and expansion joints." }
+      "heading": {
+        "en": "Applications in African Infrastructure"
+      },
+      "body": {
+        "en": "Anchor bolts are critical in African infrastructure: solar panel foundations—securing racking systems to concrete footings; telecommunications towers—anchoring tower bases to concrete foundations; mining equipment—securing crushers, conveyors, and processing equipment; commercial buildings—column base plates for steel structures; and bridges—securing bearing plates and expansion joints."
+      }
     }
-  ]
+  ],
+  "cta": {
+    "text": {
+      "en": "Need fasteners for your project? Get a factory quote from TradeGo.",
+      "zh": "需要紧固件用于项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "relatedProducts": []
 }

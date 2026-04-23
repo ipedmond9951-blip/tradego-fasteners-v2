@@ -24,37 +24,94 @@
   "sections": [
     {
       "id": "what-are-rivets",
-      "heading": { "en": "What Are Rivets?" },
-      "body": { "en": "Rivets are permanent fasteners that consist of a smooth cylindrical shaft with a head on one end. They are installed by deforming the tail end to create a second head, permanently clamping two or more materials together. Unlike bolts and screws, rivets cannot be easily removed without destroying the rivet, making them ideal for permanent joints." }
+      "heading": {
+        "en": "What Are Rivets?"
+      },
+      "body": {
+        "en": "Rivets are permanent fasteners that consist of a smooth cylindrical shaft with a head on one end. They are installed by deforming the tail end to create a second head, permanently clamping two or more materials together. Unlike bolts and screws, rivets cannot be easily removed without destroying the rivet, making them ideal for permanent joints."
+      }
     },
     {
       "id": "blind-rivets",
-      "heading": { "en": "Blind Rivets (Pop Rivets)" },
-      "body": { "en": "Blind rivets (commonly called pop rivets) can be installed from one side of the work, making them essential when access is only available from one side. They consist of a hollow rivet body and a mandrel that pulls through and deforms the rivet body. Once set, the mandrel snaps off, leaving a secure permanent joint. Blind rivets are widely used in African construction for sheet metal fabrication and structural connections where only one-sided access is available." },
+      "heading": {
+        "en": "Blind Rivets (Pop Rivets)"
+      },
+      "body": {
+        "en": "Blind rivets (commonly called pop rivets) can be installed from one side of the work, making them essential when access is only available from one side. They consist of a hollow rivet body and a mandrel that pulls through and deforms the rivet body. Once set, the mandrel snaps off, leaving a secure permanent joint. Blind rivets are widely used in African construction for sheet metal fabrication and structural connections where only one-sided access is available."
+      },
       "table": {
-        "headers": ["Rivet Type", "Material", "Strength", "Applications"],
+        "headers": [
+          "Rivet Type",
+          "Material",
+          "Strength",
+          "Applications"
+        ],
         "rows": [
-          ["Open End (Standard)", "Aluminum/Steel", "Medium", "General sheet metal, enclosures"],
-          ["Closed End (Sealed)", "Aluminum/Steel/Stainless", "Medium-High", "Water tanks, outdoor enclosures"],
-          ["Structural", "Steel/Aluminum", "High", "Structural connections, trailers"],
-          ["Multi-Grip", "Aluminum/Steel", "Medium", "Variable material thickness"]
+          [
+            "Open End (Standard)",
+            "Aluminum/Steel",
+            "Medium",
+            "General sheet metal, enclosures"
+          ],
+          [
+            "Closed End (Sealed)",
+            "Aluminum/Steel/Stainless",
+            "Medium-High",
+            "Water tanks, outdoor enclosures"
+          ],
+          [
+            "Structural",
+            "Steel/Aluminum",
+            "High",
+            "Structural connections, trailers"
+          ],
+          [
+            "Multi-Grip",
+            "Aluminum/Steel",
+            "Medium",
+            "Variable material thickness"
+          ]
         ]
       }
     },
     {
       "id": "structural-rivets",
-      "heading": { "en": "Structural Rivets" },
-      "body": { "en": "Structural rivets are designed for load-bearing connections in structural applications. They have higher shear and tensile strength than standard blind rivets. Monel structural rivets offer excellent corrosion resistance for marine and coastal applications. In African infrastructure, structural rivets are used in bridge construction, roofing systems, and pre-engineered metal buildings." }
+      "heading": {
+        "en": "Structural Rivets"
+      },
+      "body": {
+        "en": "Structural rivets are designed for load-bearing connections in structural applications. They have higher shear and tensile strength than standard blind rivets. Monel structural rivets offer excellent corrosion resistance for marine and coastal applications. In African infrastructure, structural rivets are used in bridge construction, roofing systems, and pre-engineered metal buildings."
+      }
     },
     {
       "id": "applications",
-      "heading": { "en": "Common Applications in Africa" },
-      "body": { "en": "Rivets are used throughout African industry: sheet metal fabrication—HVAC ductwork, enclosures, and equipment housings; roofing—securing metal roofing sheets in standing seam systems; transportation—trailer and truck body construction; water tanks—sealing and assembling water storage tanks; and telecommunications—mounting antenna equipment and shelters." }
+      "heading": {
+        "en": "Common Applications in Africa"
+      },
+      "body": {
+        "en": "Rivets are used throughout African industry: sheet metal fabrication—HVAC ductwork, enclosures, and equipment housings; roofing—securing metal roofing sheets in standing seam systems; transportation—trailer and truck body construction; water tanks—sealing and assembling water storage tanks; and telecommunications—mounting antenna equipment and shelters."
+      }
     },
     {
       "id": "installation",
-      "heading": { "en": "Installation Best Practices" },
-      "body": { "en": "For proper rivet installation: drill the correct hole size (slightly larger than the rivet diameter); clean the hole of debris before insertion; insert the rivet fully until the head seats against the material; position the rivet tool correctly on the mandrel; squeeze the tool handles fully until the mandrel snaps; and verify the installed rivet head is fully formed and secure." }
+      "heading": {
+        "en": "Installation Best Practices"
+      },
+      "body": {
+        "en": "For proper rivet installation: drill the correct hole size (slightly larger than the rivet diameter); clean the hole of debris before insertion; insert the rivet fully until the head seats against the material; position the rivet tool correctly on the mandrel; squeeze the tool handles fully until the mandrel snaps; and verify the installed rivet head is fully formed and secure."
+      }
     }
-  ]
+  ],
+  "cta": {
+    "text": {
+      "en": "Need fasteners for your project? Get a factory quote from TradeGo.",
+      "zh": "需要紧固件用于项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "relatedProducts": []
 }

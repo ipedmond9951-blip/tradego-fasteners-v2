@@ -24,36 +24,84 @@
   "sections": [
     {
       "id": "washer-types",
-      "heading": { "en": "Types of Washers" },
-      "body": { "en": "Washers are essential components in bolted joints, serving multiple functions: load distribution across surfaces, protection of the mating material from damage, prevention of galvanic corrosion, and locking against loosening. The three main types are flat washers, spring washers, and lock washers." },
+      "heading": {
+        "en": "Types of Washers"
+      },
+      "body": {
+        "en": "Washers are essential components in bolted joints, serving multiple functions: load distribution across surfaces, protection of the mating material from damage, prevention of galvanic corrosion, and locking against loosening. The three main types are flat washers, spring washers, and lock washers."
+      },
       "table": {
-        "headers": ["Washer Type", "Function", "Best Applications"],
+        "headers": [
+          "Washer Type",
+          "Function",
+          "Best Applications"
+        ],
         "rows": [
-          ["Flat Washer (Plain)", "Distribute load, protect surface", "General construction, roofing, machinery"],
-          ["Spring Washer (Split)", "Maintain bolt tension, compensate for settling", "Vibrating equipment, machinery, vehicles"],
-          ["Lock Washer (Star)", "Prevent loosening from vibration", "High-vibration applications, engines"]
+          [
+            "Flat Washer (Plain)",
+            "Distribute load, protect surface",
+            "General construction, roofing, machinery"
+          ],
+          [
+            "Spring Washer (Split)",
+            "Maintain bolt tension, compensate for settling",
+            "Vibrating equipment, machinery, vehicles"
+          ],
+          [
+            "Lock Washer (Star)",
+            "Prevent loosening from vibration",
+            "High-vibration applications, engines"
+          ]
         ]
       }
     },
     {
       "id": "flat-washers",
-      "heading": { "en": "Flat Washers: The Workhorses of Construction" },
-      "body": { "en": "Flat washers (also called plain washers) are the most common washer type. They provide a smooth bearing surface that distributes the bolt load over a larger area, preventing damage to the mating material and reducing the chance of pull-through. USS flat washers have larger outer diameters while SAE washers have tighter tolerances." }
+      "heading": {
+        "en": "Flat Washers: The Workhorses of Construction"
+      },
+      "body": {
+        "en": "Flat washers (also called plain washers) are the most common washer type. They provide a smooth bearing surface that distributes the bolt load over a larger area, preventing damage to the mating material and reducing the chance of pull-through. USS flat washers have larger outer diameters while SAE washers have tighter tolerances."
+      }
     },
     {
       "id": "spring-washers",
-      "heading": { "en": "Spring Washers: Combatting Vibration" },
-      "body": { "en": "Spring washers (split lock washers) feature a radial slit that creates spring tension. This tension maintains bolt preload even when vibration causes the nut to rotate slightly. In African mining applications, spring washers are essential for equipment subject to constant vibration from crushers, conveyors, and generators." }
+      "heading": {
+        "en": "Spring Washers: Combatting Vibration"
+      },
+      "body": {
+        "en": "Spring washers (split lock washers) feature a radial slit that creates spring tension. This tension maintains bolt preload even when vibration causes the nut to rotate slightly. In African mining applications, spring washers are essential for equipment subject to constant vibration from crushers, conveyors, and generators."
+      }
     },
     {
       "id": "material-selection",
-      "heading": { "en": "Washer Material Selection for Africa" },
-      "body": { "en": "For African environments, material selection is critical. Stainless steel washers (A2/A4) offer excellent corrosion resistance for coastal applications in Ghana, Nigeria, and South Africa. Hot-dip galvanized washers are suitable for general outdoor use. Zinc-plated washers work for indoor applications." }
+      "heading": {
+        "en": "Washer Material Selection for Africa"
+      },
+      "body": {
+        "en": "For African environments, material selection is critical. Stainless steel washers (A2/A4) offer excellent corrosion resistance for coastal applications in Ghana, Nigeria, and South Africa. Hot-dip galvanized washers are suitable for general outdoor use. Zinc-plated washers work for indoor applications."
+      }
     },
     {
       "id": "sizing",
-      "heading": { "en": "Washer Sizing Guide" },
-      "body": { "en": "Washers must be sized to match the bolt diameter. The washer inner diameter should slip over the bolt easily, while the outer diameter should provide adequate load distribution. For African construction projects, standard metric sizes from M6 to M24 cover most applications." }
+      "heading": {
+        "en": "Washer Sizing Guide"
+      },
+      "body": {
+        "en": "Washers must be sized to match the bolt diameter. The washer inner diameter should slip over the bolt easily, while the outer diameter should provide adequate load distribution. For African construction projects, standard metric sizes from M6 to M24 cover most applications."
+      }
     }
-  ]
+  ],
+  "cta": {
+    "text": {
+      "en": "Need fasteners for your project? Get a factory quote from TradeGo.",
+      "zh": "需要紧固件用于项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "relatedProducts": []
 }

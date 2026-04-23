@@ -24,28 +24,60 @@
   "sections": [
     {
       "id": "storage-environment",
-      "heading": { "en": "Storage Environment Requirements" },
-      "body": { "en": "Proper storage environment is critical for maintaining fastener quality: indoor storage is essential—never store fasteners outdoors; maintain relative humidity below 60% to prevent moisture condensation; ensure good ventilation to prevent stagnant air and moisture buildup; keep temperature stable—avoid locations near HVAC vents or exterior walls; and separate incompatible materials to prevent galvanic corrosion." }
+      "heading": {
+        "en": "Storage Environment Requirements"
+      },
+      "body": {
+        "en": "Proper storage environment is critical for maintaining fastener quality: indoor storage is essential—never store fasteners outdoors; maintain relative humidity below 60% to prevent moisture condensation; ensure good ventilation to prevent stagnant air and moisture buildup; keep temperature stable—avoid locations near HVAC vents or exterior walls; and separate incompatible materials to prevent galvanic corrosion."
+      }
     },
     {
       "id": "packaging",
-      "heading": { "en": "Original Packaging vs Bulk Storage" },
-      "body": { "en": "Original packaging provides the best protection: keep fasteners in original packaging until needed; packaging typically includes desiccant packs and humidity indicators; manufacturer packaging is designed for specific storage conditions. Bulk storage requires extra precautions: use clean, dry containers with tight-fitting lids; label containers with fastener type, grade, and quantity; and use plastic bins rather than cardboard boxes for long-term storage." }
+      "heading": {
+        "en": "Original Packaging vs Bulk Storage"
+      },
+      "body": {
+        "en": "Original packaging provides the best protection: keep fasteners in original packaging until needed; packaging typically includes desiccant packs and humidity indicators; manufacturer packaging is designed for specific storage conditions. Bulk storage requires extra precautions: use clean, dry containers with tight-fitting lids; label containers with fastener type, grade, and quantity; and use plastic bins rather than cardboard boxes for long-term storage."
+      }
     },
     {
       "id": "corrosion-prevention",
-      "heading": { "en": "Corrosion Prevention Strategies" },
-      "body": { "en": "For African humid climates: apply protective oils or wax coatings to carbon steel fasteners; use VCI (Vapor Corrosion Inhibitor) paper or bags for added protection; monitor storage areas with hygrometers; inspect inventory regularly for signs of corrosion; and use dehumidifiers in high-humidity storage areas." }
+      "heading": {
+        "en": "Corrosion Prevention Strategies"
+      },
+      "body": {
+        "en": "For African humid climates: apply protective oils or wax coatings to carbon steel fasteners; use VCI (Vapor Corrosion Inhibitor) paper or bags for added protection; monitor storage areas with hygrometers; inspect inventory regularly for signs of corrosion; and use dehumidifiers in high-humidity storage areas."
+      }
     },
     {
       "id": "inventory-management",
-      "heading": { "en": "Inventory Management Best Practices" },
-      "body": { "en": "FIFO (First In, First Out) rotation: use oldest stock first to prevent aging; regular inventory counts: verify quantities and condition monthly; segregate by grade and type: prevent mixing of incompatible fasteners; track usage patterns: adjust ordering to match project needs; and document source information: retain supplier documentation for traceability." }
+      "heading": {
+        "en": "Inventory Management Best Practices"
+      },
+      "body": {
+        "en": "FIFO (First In, First Out) rotation: use oldest stock first to prevent aging; regular inventory counts: verify quantities and condition monthly; segregate by grade and type: prevent mixing of incompatible fasteners; track usage patterns: adjust ordering to match project needs; and document source information: retain supplier documentation for traceability."
+      }
     },
     {
       "id": "handling",
-      "heading": { "en": "Handling Best Practices" },
-      "body": { "en": "Proper handling prevents damage: use clean gloves when handling to prevent skin oils from causing corrosion; avoid dropping fasteners—impacts can damage threads and coatings; use appropriate tools for dispensing—avoid scooping with hands; transport in covered containers—prevent exposure during site transfers; and inspect before use—reject any fasteners showing rust, damage, or coating wear." }
+      "heading": {
+        "en": "Handling Best Practices"
+      },
+      "body": {
+        "en": "Proper handling prevents damage: use clean gloves when handling to prevent skin oils from causing corrosion; avoid dropping fasteners—impacts can damage threads and coatings; use appropriate tools for dispensing—avoid scooping with hands; transport in covered containers—prevent exposure during site transfers; and inspect before use—reject any fasteners showing rust, damage, or coating wear."
+      }
     }
-  ]
+  ],
+  "cta": {
+    "text": {
+      "en": "Need fasteners for your project? Get a factory quote from TradeGo.",
+      "zh": "需要紧固件用于项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "relatedProducts": []
 }

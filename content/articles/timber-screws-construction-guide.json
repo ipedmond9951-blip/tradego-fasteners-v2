@@ -24,37 +24,94 @@
   "sections": [
     {
       "id": "types",
-      "heading": { "en": "Types of Timber Construction Screws" },
-      "body": { "en": "Timber construction screws come in several types: structural screws are designed for load-bearing connections in timber frames, featuring high tensile strength and shear capacity. Deck screws have coarse threads and star or Phillips heads for exterior decking applications. Landscape screws feature hex heads and are designed for outdoor structures like pergolas and retaining walls." }
+      "heading": {
+        "en": "Types of Timber Construction Screws"
+      },
+      "body": {
+        "en": "Timber construction screws come in several types: structural screws are designed for load-bearing connections in timber frames, featuring high tensile strength and shear capacity. Deck screws have coarse threads and star or Phillips heads for exterior decking applications. Landscape screws feature hex heads and are designed for outdoor structures like pergolas and retaining walls."
+      }
     },
     {
       "id": "key-features",
-      "heading": { "en": "Key Features to Look For" },
-      "body": { "en": "When selecting timber screws for African construction: coarse thread design provides maximum grip in wood fibers; sharp point enables fast starts without pre-drilling; corrosion-resistant coatings are essential for outdoor use (hot-dip galvanized or stainless steel); and structural rating should meet local building codes for load-bearing applications." },
+      "heading": {
+        "en": "Key Features to Look For"
+      },
+      "body": {
+        "en": "When selecting timber screws for African construction: coarse thread design provides maximum grip in wood fibers; sharp point enables fast starts without pre-drilling; corrosion-resistant coatings are essential for outdoor use (hot-dip galvanized or stainless steel); and structural rating should meet local building codes for load-bearing applications."
+      },
       "table": {
-        "headers": ["Feature", "Structural Screws", "Deck Screws", "Landscape Screws"],
+        "headers": [
+          "Feature",
+          "Structural Screws",
+          "Deck Screws",
+          "Landscape Screws"
+        ],
         "rows": [
-          ["Thread Type", "Coarse, high pitch", "Coarse", "Coarse, aggressive"],
-          ["Head Type", "Torx/Star", "Star/Phillips", "Hex"],
-          ["Coating", "Epoxy/Anti-corrosion", "Zinc/Epoxy", "Hot-dip Galvanized"],
-          ["Applications", "Frames, beams, joists", "Decking, outdoor furniture", "Pergolas, retaining walls"]
+          [
+            "Thread Type",
+            "Coarse, high pitch",
+            "Coarse",
+            "Coarse, aggressive"
+          ],
+          [
+            "Head Type",
+            "Torx/Star",
+            "Star/Phillips",
+            "Hex"
+          ],
+          [
+            "Coating",
+            "Epoxy/Anti-corrosion",
+            "Zinc/Epoxy",
+            "Hot-dip Galvanized"
+          ],
+          [
+            "Applications",
+            "Frames, beams, joists",
+            "Decking, outdoor furniture",
+            "Pergolas, retaining walls"
+          ]
         ]
       }
     },
     {
       "id": "sizing",
-      "heading": { "en": "Sizing Guide" },
-      "body": { "en": "Screw length should be 3 times the thickness of the material being fastened. For example, fastening a 38mm deck board to a 90mm joist requires a screw at least 114mm long (3 × 38mm). Diameter selection depends on load requirements—larger diameters provide higher shear and withdrawal resistance for structural applications." }
+      "heading": {
+        "en": "Sizing Guide"
+      },
+      "body": {
+        "en": "Screw length should be 3 times the thickness of the material being fastened. For example, fastening a 38mm deck board to a 90mm joist requires a screw at least 114mm long (3 × 38mm). Diameter selection depends on load requirements—larger diameters provide higher shear and withdrawal resistance for structural applications."
+      }
     },
     {
       "id": "african-applications",
-      "heading": { "en": "Applications in African Construction" },
-      "body": { "en": "Timber screws are essential in growing African construction market: modern timber frame housing—increasingly popular in Kenya, South Africa, and Ghana; outdoor decking—resorts, lodges, and residential decks; agricultural structures—barns, storage facilities, and farm buildings; and coastal construction—where corrosion-resistant stainless steel or HDG screws are essential." }
+      "heading": {
+        "en": "Applications in African Construction"
+      },
+      "body": {
+        "en": "Timber screws are essential in growing African construction market: modern timber frame housing—increasingly popular in Kenya, South Africa, and Ghana; outdoor decking—resorts, lodges, and residential decks; agricultural structures—barns, storage facilities, and farm buildings; and coastal construction—where corrosion-resistant stainless steel or HDG screws are essential."
+      }
     },
     {
       "id": "installation",
-      "heading": { "en": "Installation Best Practices" },
-      "body": { "en": "For proper installation: pre-drill hardwoods to prevent splitting; use clamps to draw joints tight before screwing; drive screws at a slight angle for better withdrawal resistance; apply sealants to screw heads in exterior applications; and maintain minimum edge distances (5d from edges, 10d between screws along the grain)." }
+      "heading": {
+        "en": "Installation Best Practices"
+      },
+      "body": {
+        "en": "For proper installation: pre-drill hardwoods to prevent splitting; use clamps to draw joints tight before screwing; drive screws at a slight angle for better withdrawal resistance; apply sealants to screw heads in exterior applications; and maintain minimum edge distances (5d from edges, 10d between screws along the grain)."
+      }
     }
-  ]
+  ],
+  "cta": {
+    "text": {
+      "en": "Need fasteners for your project? Get a factory quote from TradeGo.",
+      "zh": "需要紧固件用于项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "relatedProducts": []
 }
