@@ -51,7 +51,7 @@ export default function Header({ locale = 'en' }: HeaderProps) {
                   onMouseEnter={() => setDropdown(item.label)}
                   onMouseLeave={() => setDropdown(null)}
                 >
-                  <button className="flex items-center gap-1 px-4 py-2.5 text-gray-700 hover:text-primary-700 font-semibold text-base rounded-lg hover:bg-gray-50 transition-colors">
+                  <button className="flex items-center gap-1 px-4 py-3 min-h-[44px] text-gray-700 hover:text-primary-700 font-semibold text-base rounded-lg hover:bg-gray-50 transition-colors">
                     {item.label}
                     <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7"/></svg>
                   </button>
@@ -61,7 +61,7 @@ export default function Header({ locale = 'en' }: HeaderProps) {
                         <a
                           key={child.href + (child.anchor || '')}
                           href={child.href + (child.anchor ? `#${child.anchor}` : '')}
-                          className="flex items-center gap-2.5 px-4 py-2.5 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 transition-colors"
+                          className="flex items-center gap-2.5 px-4 py-3 min-h-[44px] text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 transition-colors"
                         >
                           {(child as any).icon && <span>{(child as any).icon}</span>}
                           {child.label}
@@ -71,7 +71,7 @@ export default function Header({ locale = 'en' }: HeaderProps) {
                   )}
                 </div>
               ) : (
-                <a key={item.href} href={item.href} className="px-4 py-2.5 text-gray-700 hover:text-primary-700 font-semibold text-base rounded-lg hover:bg-gray-50 transition-colors">{item.label}</a>
+                <a key={item.href} href={item.href} className="px-4 py-3 min-h-[44px] text-gray-700 hover:text-primary-700 font-semibold text-base rounded-lg hover:bg-gray-50 transition-colors">{item.label}</a>
               )
             ))}
           </div>
@@ -85,7 +85,7 @@ export default function Header({ locale = 'en' }: HeaderProps) {
             <a href={`/${locale}#inquiry`} className="hidden md:inline-flex bg-primary-700 text-white px-4 py-2 rounded-lg font-semibold hover:bg-primary-900 transition-colors text-xs md:text-sm whitespace-nowrap">
               {t(locale, 'nav.contact')}
             </a>
-            <button onClick={() => setMenuOpen(!menuOpen)} className="lg:hidden p-2 text-gray-600 hover:bg-gray-100 rounded-md" aria-label="Menu">
+            <button onClick={() => setMenuOpen(!menuOpen)} className="lg:hidden p-3 min-w-[44px] min-h-[44px] text-gray-600 hover:bg-gray-100 rounded-md flex items-center justify-center" aria-label="Menu">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 {menuOpen ? <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12"/> : <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16"/>}
               </svg>
@@ -101,21 +101,21 @@ export default function Header({ locale = 'en' }: HeaderProps) {
                 <div key={item.label}>
                   <p className="px-4 py-2 text-xs font-semibold text-gray-400 uppercase tracking-wider">{item.label}</p>
                   {item.children && item.children.map((child) => (
-                    <a key={child.href} href={child.href + (child.anchor ? `#${child.anchor}` : '')} onClick={() => setMenuOpen(false)} className="block pl-8 pr-4 py-2 text-gray-700 hover:text-primary-700 text-sm">
+                    <a key={child.href} href={child.href + (child.anchor ? `#${child.anchor}` : '')} onClick={() => setMenuOpen(false)} className="block pl-8 pr-4 py-3 min-h-[44px] text-gray-700 hover:text-primary-700 text-sm">
                       {(child as any).icon && <span className="mr-2">{(child as any).icon}</span>}
                       {child.label}
                     </a>
                   ))}
                 </div>
               ) : (
-                <a key={item.href} href={item.href} onClick={() => setMenuOpen(false)} className="block px-4 py-2 text-gray-700 hover:text-primary-700 font-medium">{item.label}</a>
+                <a key={item.href} href={item.href} onClick={() => setMenuOpen(false)} className="block px-4 py-3 min-h-[44px] text-gray-700 hover:text-primary-700 font-medium">{item.label}</a>
               )
             ))}
             <div className="flex items-center gap-3 pt-3 px-4 border-t border-gray-100 mt-2">
               <LanguageSwitcher />
               <CurrencySwitcher />
             </div>
-            <a href={`/${locale}#inquiry`} onClick={() => setMenuOpen(false)} className="block mx-4 mt-2 bg-primary-700 text-white text-center py-2.5 rounded-lg font-semibold text-sm">
+            <a href={`/${locale}#inquiry`} onClick={() => setMenuOpen(false)} className="block mx-4 mt-2 bg-primary-700 text-white text-center py-3 min-h-[44px] rounded-lg font-semibold text-sm">
               {t(locale, 'nav.contact')}
             </a>
           </div>

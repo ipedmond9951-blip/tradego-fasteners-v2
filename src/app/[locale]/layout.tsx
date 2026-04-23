@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import '../globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -6,6 +6,13 @@ import { GeoProvider } from '@/contexts/GeoContext'
 import { CurrencyProvider } from '@/contexts/CurrencyContext'
 import { locales, type Locale } from '@/i18n'
 import AIChatWidget from '@/components/AIChatWidget'
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: '#0A3D62',
+}
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
