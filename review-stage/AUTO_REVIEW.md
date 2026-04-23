@@ -291,6 +291,20 @@
 
 **提交:** `decc3db`
 
+---
+
+## Round 8 完成 (2026-04-23T12:24)
+
+### ✅ 已完成
+
+**Structured Data增强**
+- **FAQPage Schema** - Google富片段展示（10个问题）
+  - 包含Africa-specific问题（SABS、付款方式、海运时间）
+- **BreadcrumbList Schema** - 面包屑导航SEO
+  - Home → Products
+
+**提交:** `578556d`
+
 ### 📊 累计进度
 - Round 1-6: 全部完成 ✅
 - 产品数量: 4 → 8 ✅
