@@ -1,0 +1,74 @@
+{
+  "slug": "fastener-material-selection-guide",
+  "category": "Technical Guide",
+  "date": "2026-04-24",
+  "readTime": 9,
+  "image": "/images/products/fastener-corrosion-resistance-1.jpg",
+  "title": {
+    "en": "Fastener Material Selection Guide: Carbon Steel, Stainless, Alloy",
+    "zh": "紧固件材料选型指南：碳钢、不锈钢、合金钢",
+    "es": "Guía de Selección de Materiales de Sujetadores: Acero al Carbono, Inoxidable, Aleación",
+    "ar": "دليل اختيار مواد المثبتات: الفولاذ الكربوني، المقاوم للصدأ، السبائك",
+    "fr": "Guide de Sélection des Matériaux de Fixations: Acier Carbon, Inox, Alliage",
+    "pt": "Guia de Seleção de Materiais de Fixadores: Aço Carbono, Inoxidável, Liga",
+    "ru": "Руководство по Выбору Материала Крепежа: Углеродистая Сталь, Нержавеющая, Легированная",
+    "ja": "ファスナーマテリアル選定ガイド：カーボン Steel、ステンレス、合金の",
+    "de": "Fastener Materialauswahl: Kohlenstoffstahl, Edelstahl, Legierung",
+    "hi": "फास्टनर सामग्री चयन गाइड: कार्बन स्टील, स्टेनलेस, एलॉय"
+  },
+  "description": {
+    "en": "Complete guide to fastener material selection. Learn about carbon steel, stainless steel grades, alloy steel, and how to select the right material for your application.",
+    "zh": "紧固件材料选型完整指南。了解碳钢、不锈钢等级、合金钢以及如何为您的应用选择正确的材料。",
+    "es": "Guía completa de selección de materiales de sujetadores. Aprenda sobre acero al carbono, grados de acero inoxidable, acero aleado y cómo seleccionar el material correcto.",
+    "ar": "دليل شامل لاختيار مواد المثبتات. تعلم عن الفولاذ الكربوني ودرجات الفولاذ المقاوم للصدأ والفولاذ السبائكي وكيفية اختيار المواد المناسبة.",
+    "fr": "Guide complet de sélection des matériaux de fixations. Apprenez l'acier au carbone, les nuances d'acier inoxydable, l'acier allié et comment sélectionner le bon matériau.",
+    "pt": "Guia completo de seleção de materiais de fixadores. Aprenda sobre aço carbono, graus de aço inoxidável, aço liga e como selecionar o material certo.",
+    "ru": "Полное руководство по выбору материала крепежа. Узнайте об углеродистой стали, марках нержавеющей стали, легированной стали и как выбрать правильный материал.",
+    "ja": "ファスナー材料選定の完全ガイド。カーボン Steel、ステンレススチール等級、合金 Steel、および適切な材料の選択方法を学びます。",
+    "de": "Vollständiger Leitfaden zur Auswahl von Befestigungsmaterialien. Erfahren Sie mehr über Kohlenstoffstahl, Edelstahlsorten, Legierungsstahl.",
+    "hi": "फास्टनर सामग्री चयन की पूर्ण गाइड। कार्बन स्टील, स्टेनलेस स्टील ग्रेड, एलॉय स्टील, और अपने अनुप्रयोग के लिए सही सामग्री कैसे चुनें।"
+  },
+  "keywords": "fastener material, carbon steel, stainless steel grades, alloy steel, material selection, corrosion resistance",
+  "sections": [
+    {
+      "id": "carbon-steel",
+      "heading": {
+        "en": "Carbon Steel Fasteners"
+      },
+      "body": {
+        "en": "Carbon steel is the most common fastener material:\n\nLow Carbon Steel (< 0.25% C):\n- Grade 2, Grade 5 equivalent\n- Good ductility and machinability\n- Applications: General purpose, light-duty\n- Cost: Lowest\n\nMedium Carbon Steel (0.25-0.60% C):\n- Grade 8 equivalent\n- Heat treatable for higher strength\n- Applications: Automotive, machinery\n\nAlloy Steel (> 0.60% C):\n- Additives: Cr, Mo, V for strength\n- Grade 10.9, 12.9\n- Applications: Critical structural, aerospace"
+      }
+    },
+    {
+      "id": "stainless-steel",
+      "heading": {
+        "en": "Stainless Steel Fasteners"
+      },
+      "body": {
+        "en": "Stainless steel offers superior corrosion resistance:\n\nAustenitic (300 Series):\n- 304 (18-8): General purpose, good corrosion resistance\n- 316: Molybdenum for chloride resistance, marine\n- 321: Titanium stabilized, high temp\n- Non-magnetic, good formability\n\nMartensitic (400 Series):\n- 410: Hardenable, magnetic\n- 416: Free-machining variant\n- Applications: Cutlery, instruments\n\nFerritic (400 Series):\n- 430: Good corrosion resistance, magnetic\n- Applications: Automotive trim, decorative"
+      }
+    },
+    {
+      "id": "selection",
+      "heading": {
+        "en": "Material Selection Criteria"
+      },
+      "body": {
+        "en": "Key factors for material selection:\n\n1. Corrosion Environment:\n- Indoor/dry: Carbon steel adequate\n- Outdoor/moderate: HDG carbon steel\n- Coastal/marine: Stainless 316\n- Chemical: Check compatibility\n\n2. Strength Requirements:\n- General: Grade 4.8/5.8\n- Structural: Grade 8.8 minimum\n- Critical: Grade 10.9 or 12.9\n\n3. Temperature:\n- Room temp: Most materials OK\n- High temp: Special alloys\n- Cryogenic: Austenitic stainless\n\n4.Cost:\n- Carbon steel: Lowest\n- Stainless 304: 3-5x carbon steel\n- Stainless 316: 4-6x carbon steel"
+      }
+    }
+  ],
+  "cta": {
+    "en": "Request Material Quote",
+    "zh": "请求材料报价",
+    "es": "Solicitar Cotización de Material",
+    "ar": "طلب عرض أسعار المواد",
+    "fr": "Demander un Devis de Matériau",
+    "pt": "Solicitar Cotização de Material",
+    "ru": "Запросить КП на Материал",
+    "ja": "材料見積もりを依頼",
+    "de": "Material Angebot Erhalten",
+    "hi": "सामग्री कोटेशन का अनुरोध करें"
+  },
+  "relatedProducts": ["bolts-nuts", "washers", "stainless-steel-fasteners-1"]
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "fastener-coating-systems-guide",
+  "category": "Technical Guide",
+  "date": "2026-04-24",
+  "readTime": 8,
+  "image": "/images/products/fastener-storage.jpg",
+  "title": {
+    "en": "Fastener Coating Systems Guide: Zinc, Galvanizing, Dacromet",
+    "zh": "紧固件涂层系统指南：锌、镀锌、达克罗",
+    "es": "Guía de Sistemas de Recubrimiento de Sujetadores: Zinc, Galvanizado, Dacromet",
+    "ar": "دليل أنظمة طلاء المثبتات: الزنك، الجلفنة، داكروميت",
+    "fr": "Guide des Systèmes de Revêtement des Fixations: Zinc, Galvanisation, Dacromet",
+    "pt": "Guia de Sistemas de Revestimento de Fixadores: Zinco, Galvanização, Dacromet",
+    "ru": "Руководство по Системам Покрытия Крепежа: Цинк, Оцинковка, Dacromet",
+    "ja": "ファスナーコラーシングシステムガイド：ジンク、ガルバニック、ダクロメット",
+    "de": "Fastener Beschichtungssysteme: Zink, Verzinkung, Dacromet",
+    "hi": "फास्टनर कोटिंग सिस्टम गाइड: जिंक, गैल्वनाइजिंग, डैक्रोमेट"
+  },
+  "description": {
+    "en": "Complete guide to fastener coating systems. Learn about zinc plating, hot-dip galvanizing, Dacromet, and other coatings for corrosion protection.",
+    "zh": "紧固件涂层系统完整指南。了解电镀锌、热镀锌、达克罗和其他防腐涂层。",
+    "es": "Guía completa de sistemas de recubrimiento de sujetadores. Aprenda sobre zincado, galvanizado en caliente, Dacromet y otros recubrimientos.",
+    "ar": "دليل شامل لأنظمة طلاء المثبتات. تعلم عن الزنك الكهربائي والطلاء الساخن وداكروميت والطلاءات الأخرى للحماية.",
+    "fr": "Guide complet des systèmes de revêtement des fixations. Apprenez le zingage, la galvanisation à chaud, le Dacromet et d'autres revêtements.",
+    "pt": "Guia completo de sistemas de revestimento de fixadores. Aprenda sobre zincagem, galvanização a quente, Dacromet e outros revestimentos.",
+    "ru": "Полное руководство по системам покрытия крепежа. Узнайте о цинковании, горячей оцинковке, Dacromet и других покрытиях.",
+    "ja": "ファスナーコラーシングシステムの完全ガイド。電気めっき、溶融亜鉛めっき、ダクロメット、その他の防腐 코팅제에 대해 알아봅니다.",
+    "de": "Vollständiger Leitfaden für Fastener Beschichtungssysteme. Erfahren Sie mehr über Zinkplattierung, Feuerverzinkung, Dacromet.",
+    "hi": "फास्टनर कोटिंग सिस्टम की पूर्ण गाइड। जिंक प्लेटिंग, हॉट-डिप गैल्वनाइजिंग, डैक्रोमेट के बारे में जानें।"
+  },
+  "keywords": "fastener coating, zinc plating, hot-dip galvanizing, Dacromet, corrosion protection, plating",
+  "sections": [
+    {
+      "id": "zinc-plating",
+      "heading": {
+        "en": "Zinc Electroplating"
+      },
+      "body": {
+        "en": "Zinc electroplating is the most common coating:\n\nProcess:\n- Electrolytic deposition of zinc onto fastener\n- Typical thickness: 8-12 microns\n- Clear or colored passivate top coat\n\nProperties:\n- Good corrosion protection in mild environments\n- Low cost\n- Good appearance\n- Some hydrogen embrittlement risk\n\nApplications:\n- Indoor applications\n- Mild outdoor exposure\n- Automotive under-hood\n- General manufacturing\n\nTradeGo zinc plated fasteners meet ASTM F1941 specifications."
+      }
+    },
+    {
+      "id": "hdg",
+      "heading": {
+        "en": "Hot-Dip Galvanizing"
+      },
+      "body": {
+        "en": "Hot-dip galvanizing provides excellent corrosion protection:\n\nProcess:\n- Fasteners dipped in molten zinc (450°C)\n- Zinc-iron alloy layers form metallurgically bonded coating\n- Typical thickness: 45-85 microns\n\nProperties:\n- Excellent corrosion resistance (20+ years in many environments)\n- Complete coverage including threads\n- Self-healing if damaged\n- Thicker coating affects dimensions\n\nApplications:\n- Outdoor construction\n- Coastal environments\n- Infrastructure (bridges, towers)\n- Africa outdoor applications\n\nTradeGo hot-dip galvanized fasteners meet ISO 1461/ASTM A153 specifications."
+      }
+    },
+    {
+      "id": "dacromet",
+      "heading": {
+        "en": "Dacromet and Geomet Coatings"
+      },
+      "body": {
+        "en": "Dacromet and Geomet are advanced coatings:\n\nDacromet:\n- Water-based coating with aluminum and zinc flakes\n- Excellent corrosion resistance\n- Thin coating (8-12 microns)\n- No hydrogen embrittlement\n- Salt spray resistance: 500-1000 hours\n\nGeomet:\n- Similar to Dacromet but without chromium\n- Environmentally improved formulation\n- Comparable performance\n\nApplications:\n- Automotive chassis\n- Infrastructure\n- Marine applications\n- High-strength bolts"
+      }
+    }
+  ],
+  "cta": {
+    "en": "Request Coated Fasteners",
+    "zh": "请求涂层紧固件",
+    "es": "Solicitar Sujetadores Recubiertos",
+    "ar": "طلب المثبتات المطلية",
+    "fr": "Demander des Fixations Revêtues",
+    "pt": "Solicitar Fixadores Revestidos",
+    "ru": "Запросить Крепеж с Покрытием",
+    "ja": "コラーシング付きファスナーをご希望",
+    "de": "Beschichtete Befestigungen Anfordern",
+    "hi": "कोटेड फास्टनर का अनुरोध करें"
+  },
+  "relatedProducts": ["bolts-nuts", "anchor-bolts", "washers"]
+}
