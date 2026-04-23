@@ -43,6 +43,8 @@ export default function Footer({ locale = 'en' }: FooterProps) {
               <a href="https://www.iso.org/standard/62085.html" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-white">ISO 9001:2015</a>
               <a href="https://www.din.de" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-white">DIN Standards</a>
               <a href="https://www.iso.org/standard/76502.html" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-white">ISO 4014 / 4017</a>
+              <a href="https://www.sabs.co.za" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-white">SABS (South Africa)</a>
+              <a href="https://www.astm.org" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-white">ASTM Standards</a>
             </div>
           </div>
         </div>
