@@ -14,6 +14,7 @@ import OrganizationSchema from '@/components/OrganizationSchema'
 import NavigationSchema from '@/components/NavigationSchema'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
 import ReviewSchema from '@/components/ReviewSchema'
+import WebSiteSchema from '@/components/WebSiteSchema'
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -108,18 +109,13 @@ export default async function LocaleLayout({
           "https://www.youtube.com/@tradegofasteners"
         ]
         }) }} />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          "name": "TradeGo Fasteners",
-          "url": "https://tradego-fasteners.com"
-        }) }} />
         <FAQSchema locale={loc} />
         <VideoSchema locale={loc} />
         <OrganizationSchema locale={loc} />
         <LocalBusinessSchema locale={loc} />
         <ReviewSchema locale={loc} />
         <NavigationSchema locale={loc} />
+        <WebSiteSchema locale={loc} />
         <link rel="alternate" hrefLang="en" href="/en" />
         <link rel="alternate" hrefLang="zh" href="/zh" />
         <link rel="alternate" hrefLang="es" href="/es" />
