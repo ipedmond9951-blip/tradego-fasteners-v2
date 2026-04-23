@@ -73,6 +73,46 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
         }}
       />
 
+      {/* FAQPage Structured Data for Google Rich Results */}
+      <Script
+        id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: 'What types of fasteners do you manufacture?', acceptedAnswer: { '@type': 'Answer', text: 'We manufacture drywall screws, self-drilling screws (TEK), hex bolts and nuts, IBR nails, anchor bolts, washers, coach screws, and threaded rods. ISO 9001:2015 certified facility with 20+ years experience.' } },
+              { '@type': 'Question', name: 'What material should I choose for my fastener application?', acceptedAnswer: { '@type': 'Answer', text: 'Carbon Steel for indoor/general use. Stainless Steel 304/316 for outdoor, marine, coastal environments. 316 recommended for chloride-rich areas.' } },
+              { '@type': 'Question', name: 'What surface finish should I choose?', acceptedAnswer: { '@type': 'Answer', text: 'Zinc Plated for basic indoor corrosion resistance. Hot-Dip Galvanized (HDG) for outdoor/marine/structural applications with 45-85 micron coating. Dacromet for demanding industrial environments.' } },
+              { '@type': 'Question', name: 'What is the difference between zinc plated and hot-dip galvanized fasteners?', acceptedAnswer: { '@type': 'Answer', text: 'Zinc Plating: thin electroplated coating (5-15 microns), basic protection. Hot-Dip Galvanizing: thick immersion coating (45-85 microns), 5-7x more protection, ideal for outdoor and coastal areas.' } },
+              { '@type': 'Question', name: 'What is your minimum order quantity (MOQ)?', acceptedAnswer: { '@type': 'Answer', text: 'Standard MOQ is 1 metric ton per product item. Trial orders available from 500kg for new customers. Free samples provided (buyer pays shipping).' } },
+              { '@type': 'Question', name: 'What are your payment terms and shipping options?', acceptedAnswer: { '@type': 'Answer', text: 'Payment: T/T, L/C, PayPal for samples. Terms: 30% deposit, 70% balance before shipment. Shipping: FOB, CIF, DDP available. Sea freight for bulk orders (15-30 days transit).' } },
+              { '@type': 'Question', name: 'Do your products meet SABS standards for South Africa?', acceptedAnswer: { '@type': 'Answer', text: 'Yes, IBR nails comply with SABS 1195 requirements. Products also meet DIN, ANSI, ISO standards. Mill certificates and SABS-compliant test reports available upon request.' } },
+              { '@type': 'Question', name: 'What payment methods do you accept for African customers?', acceptedAnswer: { '@type': 'Answer', text: 'T/T, L/C, Alipay, WeChat Pay accepted. Bulk order discounts up to 15% for African market customers.' } },
+              { '@type': 'Question', name: 'How long does sea freight shipping take to African ports?', acceptedAnswer: { '@type': 'Answer', text: 'Durban: 25-30 days, Lagos: 30-35 days, Mombasa: 28-32 days, Dar es Salaam: 28-33 days, Tema: 30-35 days, Maputo: 25-30 days.' } },
+              { '@type': 'Question', name: 'What certifications and standards do your products meet?', acceptedAnswer: { '@type': 'Answer', text: 'ISO 9001:2015 certified. Products comply with DIN, ANSI/ASME, JIS, GB standards. CE certification available for EU. Mill certificates and SGS/BV inspection certificates available.' } },
+            ],
+          }),
+        }}
+      />
+
+      {/* BreadcrumbList Structured Data */}
+      <Script
+        id="breadcrumb-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://tradego-fasteners.com' },
+              { '@type': 'ListItem', position: 2, name: 'Products', item: 'https://tradego-fasteners.com/products' },
+            ],
+          }),
+        }}
+      />
+
       <HeroSection locale={locale} />
 
       <div className="container mx-auto px-4">
