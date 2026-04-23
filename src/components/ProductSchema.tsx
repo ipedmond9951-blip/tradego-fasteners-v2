@@ -94,6 +94,45 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
         { '@type': 'PropertyValue', name: 'Material', value: product.specs.material },
         { '@type': 'PropertyValue', name: 'Finish', value: product.specs.finish },
       ],
+      countryOfOrigin: {
+        '@type': 'Country',
+        name: 'China',
+      },
+      manufacturer: {
+        '@type': 'Organization',
+        '@id': 'https://tradego-fasteners.com/#organization',
+        name: 'TradeGo Fasteners',
+      },
+      certifications: [
+        { '@type': 'Certification', name: 'ISO 9001:2015', authority: 'International Organization for Standardization' },
+        { '@type': 'Certification', name: 'CE', authority: 'European Union' },
+        { '@type': 'Certification', name: 'SABS', authority: 'South African Bureau of Standards' },
+      ],
+      shippingDetails: {
+        '@type': 'OfferShippingDetails',
+        shippingDestination: [
+          { '@type': 'Country', name: 'South Africa' },
+          { '@type': 'Country', name: 'Kenya' },
+          { '@type': 'Country', name: 'Nigeria' },
+          { '@type': 'Country', name: 'UAE' },
+          { '@type': 'Country', name: 'Vietnam' },
+        ],
+        deliveryTime: {
+          '@type': 'ShippingDeliveryTime',
+          handlingTime: {
+            '@type': 'QuantitativeValue',
+            minValue: '1',
+            maxValue: '3',
+            unitCode: 'DAY',
+          },
+          transitTime: {
+            '@type': 'QuantitativeValue',
+            minValue: '15',
+            maxValue: '35',
+            unitCode: 'DAY',
+          },
+        },
+      },
     })),
   }
 
