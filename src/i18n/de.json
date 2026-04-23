@@ -112,5 +112,36 @@
     "zaShipping": "Seefracht nach Durban, 25-30 Tage",
     "mePromo": "Sonderpreise für Nahen Osten",
     "meShipping": "Seefracht nach Jebel Ali, 18-22 Tage"
+  },
+  "common": {
+    "applications": "Anwendungen"
+  },
+  "material": {
+    "title": "Verfügbare Materialien",
+    "subtitle": "Wählen Sie das richtige Material für Ihre Anwendung",
+    "carbonSteel": "Kohlenstoffstahl",
+    "carbonSteelDesc": "Häufigste und kostengünstigste Option für den allgemeinen Bau",
+    "carbonSteelApps": "Bau, Automobil, Maschinen",
+    "stainlessSteel": "Rostfreier Stahl",
+    "stainlessSteelDesc": "Ausgezeichneter Korrosionsschutz für Außen- und Meeresanwendungen",
+    "stainlessSteelApps": "Marine, Lebensmittelverarbeitung, Medizin",
+    "brass": "Messing",
+    "brassDesc": "Guter Korrosionsschutz mit ausgezeichneter elektrischer Leitfähigkeit",
+    "brassApps": "Elektrik, Klempner, dekorativ",
+    "aluminum": "Aluminium",
+    "aluminumDesc": "Leicht mit gutem Korrosionsschutz",
+    "aluminumApps": "Luft- und Raumfahrt, Automobil, Elektronik"
+  },
+  "finish": {
+    "title": "Oberflächenbehandlungen",
+    "subtitle": "Verbessern Sie Haltbarkeit und Aussehen mit unseren Behandlungen",
+    "zinc": "Verzinkt",
+    "zincDesc": "Basis-Korrosionsschutz, silbernes Aussehen",
+    "hdg": "Feuerverzinkt",
+    "hdgDesc": "Überlegener Korrosionsschutz für Außenanwendungen",
+    "blackOxide": "Schwarzes Oxid",
+    "blackOxideDesc": "Dekorative Oberfläche mit leichtem Korrosionsschutz",
+    "dacromet": "Dacromet",
+    "dacrometDesc": "Ausgezeichneter Korrosions- und Chemikalienschtz"
   }
 }

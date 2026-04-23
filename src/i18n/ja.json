@@ -112,5 +112,36 @@
     "zaShipping": "ダーバンまで海上輸送、25-30日",
     "mePromo": "中東市場特別価格",
     "meShipping": "ジェベルアリまで海上輸送、18-22日"
+  },
+  "common": {
+    "applications": "応用"
+  },
+  "material": {
+    "title": "利用可能な素材",
+    "subtitle": "用途に最適な素材を選択してください",
+    "carbonSteel": "炭素鋼",
+    "carbonSteelDesc": "一般建築で最も一般的で費用対効果の高いオプション",
+    "carbonSteelApps": "建設、成形、機械",
+    "stainlessSteel": "ステンレス鋼",
+    "stainlessSteelDesc": "屋外および海洋用途への優れた耐食性",
+    "stainlessSteelApps": "海洋、食品加工、医療",
+    "brass": "真鍮",
+    "brassDesc": "優れた導電性を備えた耐食性",
+    "brassApps": "電気、配管、装飾",
+    "aluminum": "アルミニウム",
+    "aluminumDesc": "軽量で耐食性に優れている",
+    "aluminumApps": "航空宇宙、成形、エレクトロニクス"
+  },
+  "finish": {
+    "title": "表面処理",
+    "subtitle": "さまざまな表面処理で耐久性と外観を向上",
+    "zinc": "溶融亜鋁",
+    "zincDesc": "基本的な耐食性、銀色の外観",
+    "hdg": "溶融亜鉛めっき",
+    "hdgDesc": "屋外使用のための優れた耐食性",
+    "blackOxide": "黒皮",
+    "blackOxideDesc": "内装のある耐食性を持つ装飾的な仕上がり",
+    "dacromet": "ダクロメ",
+    "dacrometDesc": "優れた耐食性と耐化学性"
   }
 }

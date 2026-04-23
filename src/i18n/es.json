@@ -112,5 +112,36 @@
     "zaShipping": "Envío marítimo a Durban, 25-30 días",
     "mePromo": "Precios especiales para Medio Oriente",
     "meShipping": "Envío marítimo a Jebel Ali, 18-22 días"
+  },
+  "common": {
+    "applications": "Aplicaciones"
+  },
+  "material": {
+    "title": "Materiales Disponibles",
+    "subtitle": "Elija el material adecuado para su aplicación",
+    "carbonSteel": "Acero al Carbono",
+    "carbonSteelDesc": "Opción más común y económica para construcción general",
+    "carbonSteelApps": "Construcción, automoción, maquinaria",
+    "stainlessSteel": "Acero Inoxidable",
+    "stainlessSteelDesc": "Excelente resistencia a la corrosión para uso exterior y marino",
+    "stainlessSteelApps": "Marino, procesamiento de alimentos, médico",
+    "brass": "Latón",
+    "brassDesc": "Buena resistencia a la corrosión con excelente conductividad eléctrica",
+    "brassApps": "Eléctrico, fontanería, decorativo",
+    "aluminum": "Aluminio",
+    "aluminumDesc": "Ligero con buena resistencia a la corrosión",
+    "aluminumApps": "Aeroespacial, automoción, electrónica"
+  },
+  "finish": {
+    "title": "Acabados Superficiales",
+    "subtitle": "Mejore la durabilidad y apariencia con nuestros tratamientos",
+    "zinc": "Zincado",
+    "zincDesc": "Resistencia básica a la corrosión, apariencia plateada",
+    "hdg": "Galvanizado en Caliente",
+    "hdgDesc": "Protección superior contra corrosión para uso exterior",
+    "blackOxide": "Óxido Negro",
+    "blackOxideDesc": "Acabado decorativo con leve resistencia a la corrosión",
+    "dacromet": "Dacromet",
+    "dacrometDesc": "Excelente resistencia a la corrosión y productos químicos"
   }
 }

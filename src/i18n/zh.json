@@ -113,5 +113,36 @@
     "zaShipping": "海运至德班，25-30天",
     "mePromo": "中东市场特价",
     "meShipping": "海运至杰贝阿里，18-22天"
+  },
+  "common": {
+    "applications": "应用领域"
+  },
+  "material": {
+    "title": "可选材料",
+    "subtitle": "为您的应用选择合适的材料——从经济实惠的碳钢到耐腐蚀的不锈钢",
+    "carbonSteel": "碳钢",
+    "carbonSteelDesc": "最常见且经济实惠的选项，适用于一般建筑",
+    "carbonSteelApps": "建筑、汽车、机械",
+    "stainlessSteel": "不锈钢",
+    "stainlessSteelDesc": "优异的耐腐蚀性能，适用于户外和海洋环境",
+    "stainlessSteelApps": "海洋、食品加工、医疗",
+    "brass": "黄铜",
+    "brassDesc": "良好的耐腐蚀性和优异的导电性",
+    "brassApps": "电气、管道、装饰",
+    "aluminum": "铝合金",
+    "aluminumDesc": "重量轻，耐腐蚀性好",
+    "aluminumApps": "航空航天、汽车、电子"
+  },
+  "finish": {
+    "title": "表面处理",
+    "subtitle": "多种表面处理工艺，提升耐久性和外观",
+    "zinc": "镀锌",
+    "zincDesc": "基本防腐，银色外观",
+    "hdg": "热镀锌",
+    "hdgDesc": "卓越的户外防腐保护",
+    "blackOxide": "发黑",
+    "blackOxideDesc": "装饰性外观，轻度防腐",
+    "dacromet": "达克罗",
+    "dacrometDesc": "优异的耐腐蚀和耐化学性"
   }
 }

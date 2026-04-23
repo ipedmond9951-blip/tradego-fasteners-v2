@@ -2,6 +2,7 @@ import { type Locale, t, locales } from '@/i18n'
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import MaterialsSection from '@/components/MaterialsSection'
 
 // Static product data (same as ProductGrid)
 const allProducts = [
@@ -121,6 +122,10 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
           </div>
         </div>
       </section>
+
+      {/* Materials & Finishes Section - Round 2 improvement */}
+      <MaterialsSection locale={locale} />
+
     </div>
   )
 }

@@ -112,5 +112,36 @@
     "zaShipping": "Frete marítimo para Durban, 25-30 dias",
     "mePromo": "Preços especiais para Oriente Médio",
     "meShipping": "Frete marítimo para Jebel Ali, 18-22 dias"
+  },
+  "common": {
+    "applications": "Aplicações"
+  },
+  "material": {
+    "title": "Materiais Disponíveis",
+    "subtitle": "Escolha o material certo para sua aplicação",
+    "carbonSteel": "Aço Carbono",
+    "carbonSteelDesc": "Opção mais comum e econômica para construção geral",
+    "carbonSteelApps": "Construção, automotivo, máquinas",
+    "stainlessSteel": "Aço Inoxidável",
+    "stainlessSteelDesc": "Excelente resistência à corrosão para uso externo e marinho",
+    "stainlessSteelApps": "Marinho, processamento de alimentos, médico",
+    "brass": "Latão",
+    "brassDesc": "Boa resistência à corrosão com excelente condutividade elétrica",
+    "brassApps": "Elétrico, encanamento, decorativo",
+    "aluminum": "Alumínio",
+    "aluminumDesc": "Leve com boa resistência à corrosão",
+    "aluminumApps": "Aeroespacial, automotivo, eletrônicos"
+  },
+  "finish": {
+    "title": "Acabamentos Superficiais",
+    "subtitle": "Melhore a durabilidade e aparência com nossos tratamentos",
+    "zinc": "Zincado",
+    "zincDesc": "Resistência básica à corrosão, aparência prateada",
+    "hdg": "Galvanizado a Quente",
+    "hdgDesc": "Proteção superior contra corrosão para uso externo",
+    "blackOxide": "Óxido Negro",
+    "blackOxideDesc": "Acabamento decorativo com leve resistência à corrosão",
+    "dacromet": "Dacromet",
+    "dacrometDesc": "Excelente resistência à corrosão e produtos químicos"
   }
 }

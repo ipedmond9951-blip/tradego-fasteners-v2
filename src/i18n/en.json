@@ -130,5 +130,36 @@
     "readMore": "Read More",
     "publishedOn": "Published on",
     "backToList": "← Back to Articles"
+  },
+  "common": {
+    "applications": "Applications"
+  },
+  "material": {
+    "title": "Available Materials",
+    "subtitle": "Choose the right material for your application - from cost-effective carbon steel to corrosion-resistant stainless steel",
+    "carbonSteel": "Carbon Steel",
+    "carbonSteelDesc": "Most common and cost-effective option for general construction",
+    "carbonSteelApps": "Construction, automotive, machinery",
+    "stainlessSteel": "Stainless Steel",
+    "stainlessSteelDesc": "Excellent corrosion resistance for outdoor and marine use",
+    "stainlessSteelApps": "Marine, food processing, medical",
+    "brass": "Brass",
+    "brassDesc": "Good corrosion resistance with excellent electrical conductivity",
+    "brassApps": "Electrical, plumbing, decorative",
+    "aluminum": "Aluminum",
+    "aluminumDesc": "Lightweight with good corrosion resistance",
+    "aluminumApps": "Aerospace, automotive, electronics"
+  },
+  "finish": {
+    "title": "Surface Finishes",
+    "subtitle": "Enhance durability and appearance with our range of surface treatments",
+    "zinc": "Zinc Plated",
+    "zincDesc": "Basic corrosion resistance, silver appearance",
+    "hdg": "Hot-Dip Galvanized",
+    "hdgDesc": "Superior corrosion protection for outdoor use",
+    "blackOxide": "Black Oxide",
+    "blackOxideDesc": "Decorative finish with mild corrosion resistance",
+    "dacromet": "Dacromet",
+    "dacrometDesc": "Excellent corrosion and chemical resistance"
   }
 }

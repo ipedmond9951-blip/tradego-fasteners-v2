@@ -112,5 +112,36 @@
     "zaShipping": "Fret maritime vers Durban, 25-30 jours",
     "mePromo": "Tarifs spéciaux Moyen-Orient",
     "meShipping": "Fret maritime vers Jebel Ali, 18-22 jours"
+  },
+  "common": {
+    "applications": "Applications"
+  },
+  "material": {
+    "title": "Matériaux Disponibles",
+    "subtitle": "Choisissez le bon matériau pour votre application",
+    "carbonSteel": "Acier au Carbone",
+    "carbonSteelDesc": "Option la plus courante et économique pour la construction générale",
+    "carbonSteelApps": "Construction, automobile, machines",
+    "stainlessSteel": "Acier Inoxydable",
+    "stainlessSteelDesc": "Excellente résistance à la corrosion pour usage extérieur et marin",
+    "stainlessSteelApps": "Marine, transformation alimentaire, médical",
+    "brass": "Laiton",
+    "brassDesc": "Bonne résistance à la corrosion avec excellente conductivité électrique",
+    "brassApps": "Électrique, plomberie, décoratif",
+    "aluminum": "Aluminium",
+    "aluminumDesc": "Léger avec bonne résistance à la corrosion",
+    "aluminumApps": "Aérospatiale, automobile, électronique"
+  },
+  "finish": {
+    "title": "Finitions Superficielles",
+    "subtitle": "Améliorez la durabilité et l'apparence avec nos traitements",
+    "zinc": "Zingué",
+    "zincDesc": "Résistance basique à la corrosion, apparence argentée",
+    "hdg": "Galvanisé à Chaud",
+    "hdgDesc": "Protection supérieure contre la corrosion pour usage extérieur",
+    "blackOxide": "Oxyde Noir",
+    "blackOxideDesc": "Finition décorative avec légère résistance à la corrosion",
+    "dacromet": "Dacromet",
+    "dacrometDesc": "Excellente résistance à la corrosion et aux produits chimiques"
   }
 }
