@@ -4,7 +4,7 @@ import { getAllSlugs } from '@/lib/articles'
 export default function sitemap() {
   const baseUrl = 'https://tradego-fasteners.com'
   
-  const staticPages = ['', '/products', '/industry', '/product-upload']
+  const staticPages = ['', '/products', '/industry', '/product-upload', '/analytics', '/steel-prices']
   
   // 动态获取所有文章slug
   const articleSlugs = getAllSlugs()
