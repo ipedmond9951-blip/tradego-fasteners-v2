@@ -26,12 +26,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const siteUrl = 'https://tradego-fasteners.com'
   
   const titles: Record<string, string> = {
-    en: 'Wholesale Fastener Products | Drywall Screws, Bolts, IBR Nails',
-    zh: '紧固件产品 | 干墙螺丝、螺栓、IBR钉批发',
+    en: 'China Wholesale Fastener Manufacturer - Drywall Screws, Self-Drilling Screws, Hex Bolts, IBR Nails | ISO 9001',
+    zh: '中国紧固件批发厂家 | 干墙螺丝、自钻螺丝、六角螺栓、IBR钉批发 | ISO 9001',
   }
   const descriptions: Record<string, string> = {
-    en: 'Browse our complete range of wholesale fasteners: drywall screws, self-drilling screws, bolts, nuts, and IBR nails. ISO 9001 certified manufacturer with 20+ years experience.',
-    zh: '浏览我们的全系列紧固件批发产品：干墙螺丝、自钻螺丝、螺栓螺母和IBR钉。ISO 9001认证制造商，20多年经验。',
+    en: 'China leading wholesale fastener manufacturer. Bulk drywall screws, self-drilling TEK screws, hex bolts, nuts, washers, IBR nails. ISO 9001 certified factory with 20+ years. Low MOQ, global shipping.',
+    zh: '中国领先紧固件批发制造商。批量干墙螺丝、自钻TEK螺丝、六角螺栓、螺母、垫圈、IBR钉。ISO 9001认证工厂，20多年经验。低MOQ，全球发货。',
   }
   
   return {
