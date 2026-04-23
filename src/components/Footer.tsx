@@ -20,6 +20,7 @@ export default function Footer({ locale = 'en' }: FooterProps) {
             <div className="space-y-1.5 text-xs md:text-sm">
               <Link href={`/${locale}`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.home')}</Link>
               <Link href={`/${locale}#products`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.products')}</Link>
+              <Link href={`/${locale}/industry`} className="block text-gray-400 hover:text-white">Industry Guides</Link>
               <Link href={`/${locale}#about`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.about')}</Link>
               <Link href={`/${locale}#inquiry`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.contact')}</Link>
             </div>
@@ -47,6 +48,10 @@ export default function Footer({ locale = 'en' }: FooterProps) {
         </div>
         
         <div className="border-t border-gray-700 pt-6 text-center text-gray-500 text-xs md:text-sm">
+          <div className="mb-2">
+            <Link href={`/${locale}/privacy-policy`} className="hover:text-white mx-2">Privacy Policy</Link>
+            <Link href={`/${locale}/terms`} className="hover:text-white mx-2">Terms of Service</Link>
+          </div>
           © {new Date().getFullYear()} TradeGo Fasteners. {t(locale, 'footer.rights')}
         </div>
       </div>
