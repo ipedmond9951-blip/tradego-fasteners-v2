@@ -1,0 +1,27 @@
+{
+  "name": "TradeGo Fasteners - Industrial Fastener Supplier",
+  "short_name": "TradeGo",
+  "description": "Professional fastener manufacturer and exporter serving Africa and global markets. ISO certified, competitive prices, reliable quality.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0A3D62",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "shopping"],
+  "lang": "en",
+  "dir": "ltr"
+}
