@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import MaterialsSection from '@/components/MaterialsSection'
 import ProductGridWithSkeleton from '@/components/ProductGridWithSkeleton'
 import ProductSchema from '@/components/ProductSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 
 // Static product data (same as ProductGrid)
 const allProducts = [
@@ -101,6 +102,9 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
 
       {/* Product Schema for SEO - Round 5 */}
       <ProductSchema products={allProducts} locale={locale} />
+
+      {/* Breadcrumb Schema for SEO - Round 11 */}
+      <BreadcrumbSchema locale={locale} pageName="Products" pageUrl="/products" />
 
     </div>
   )
