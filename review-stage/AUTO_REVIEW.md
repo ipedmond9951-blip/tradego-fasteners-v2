@@ -374,9 +374,59 @@
 - Round 10: **完成** ✅
 - 构建成功，已推送
 
-### ⏳ 待处理（第十一轮）
-- Round 11: 竞争对手超越
-- Round 12: 移动端优化
+---
+
+## Round 11 完成 (2026-04-23T12:48)
+
+### ✅ 已完成
+
+**竞争对手超越 - 制造业内容**
+- 新增 `ManufacturingProcess.tsx` 组件
+- 展示6个制造工艺阶段：
+  - 🔨 Cold Forging (冷镦成型)
+  - ⚙️ Thread Rolling (滚牙加工)
+  - 🔥 Heat Treatment (热处理)
+  - 🎨 Surface Treatment (表面处理)
+  - 🔬 Quality Inspection (质量检测)
+  - 📦 Packaging & Shipping (包装运输)
+- 对标竞争对手 T&Y Hardware 的制造工艺展示
+- 已添加至首页（AboutSection之后）
+- 翻译已添加至全部10种语言
+
+**提交:** `6883440`
+
+### 📊 Round 11 状态
+- Round 11: **完成** ✅
+- 构建成功，已推送
+
+---
+
+## Round 12 完成 (2026-04-23T12:48)
+
+### ✅ 已完成
+
+**移动端优化**
+- 添加 viewport export 到 layout.tsx
+  - width: device-width
+  - initialScale: 1
+  - maximumScale: 5
+  - themeColor: #0A3D62
+- 修复 ShareButtons 触摸目标到 48x48px minimum
+- 修复 Header 导航触摸目标到 44x44px (WCAG minimum)
+  - 主导航下拉按钮: py-2.5 → py-3 min-h-[44px]
+  - 下拉菜单项: py-2.5 → py-3 min-h-[44px]
+  - 直接导航链接: py-2.5 → py-3 min-h-[44px]
+  - 移动端菜单按钮: p-2 → p-3 min-w-[44px] min-h-[44px]
+  - 移动端菜单项: py-2 → py-3 min-h-[44px]
+  - 移动端CTA按钮: py-2.5 → py-3 min-h-[44px]
+
+**提交:** `6883440`
+
+### 📊 Round 12 状态
+- Round 12: **完成** ✅
+- 构建成功，已推送
+
+### ⏳ 待处理（第十三轮）
 - Round 13: 视频内容战略
 - Round 14: 本地化深度优化
 - Round 15: AMP/PWA实施
