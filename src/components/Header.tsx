@@ -29,6 +29,7 @@ export default function Header({ locale = 'en' }: HeaderProps) {
       ],
     },
     { href: `/${locale}#faq`, label: t(locale, 'nav.faq') },
+    { href: `/${locale}#steelmarket`, label: t(locale, 'nav.steelMarket') },
     { href: `/${locale}#about`, label: t(locale, 'nav.about') },
   ]
 

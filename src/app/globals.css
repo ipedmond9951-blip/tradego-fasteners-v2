@@ -56,7 +56,7 @@
            border-none transition-all duration-200 min-h-[48px];
   }
   .btn-primary:hover {
-    @apply bg-primary-700 -translate-y-0.5 shadow-[0_4px_12px_rgba(37,99,235,0.3)];
+    @apply bg-primary-700 -translate-y-0.5 shadow-[0_4px_12px_rgba(30,90,139,0.3)];
   }
   .btn-primary:active {
     @apply bg-primary-800 translate-y-0 shadow-none;
@@ -101,7 +101,7 @@
            transition-all duration-200;
   }
   .card:hover {
-    @apply border-primary-600 shadow-[0_8px_24px_rgba(37,99,235,0.1)] -translate-y-0.5;
+    @apply border-primary-600 shadow-[0_8px_24px_rgba(30,90,139,0.1)] -translate-y-0.5;
   }
   
   /* Product Card specific */
@@ -110,7 +110,7 @@
            transition-all duration-200;
   }
   .product-card:hover {
-    @apply border-primary-600 shadow-[0_8px_24px_rgba(37,99,235,0.1)] -translate-y-0.5;
+    @apply border-primary-600 shadow-[0_8px_24px_rgba(30,90,139,0.1)] -translate-y-0.5;
   }
   .product-card.selected {
     @apply border-primary-600 border-2 bg-primary-50;
@@ -150,7 +150,7 @@
            transition-all duration-200 min-h-[48px];
   }
   .input:focus {
-    @apply outline-none border-primary-600 shadow-[0_0_0_3px_rgba(37,99,235,0.1)];
+    @apply outline-none border-primary-600 shadow-[0_0_0_3px_rgba(30,90,139,0.1)];
   }
   .input:disabled {
     @apply bg-gray-100 cursor-not-allowed;
@@ -278,12 +278,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2563EB; /* Primary Blue per design system */
+  background: #1E5F8B; /* Original primary - more premium darker blue */
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #1D4ED8; /* Primary hover per design system */
+  background: #0A3D62; /* Original primary dark */
 }
 
 /* ========== UTILITIES ========== */

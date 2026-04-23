@@ -12,18 +12,18 @@ module.exports = {
         mono: ['JetBrains Mono', 'Fira Code', 'SF Mono', 'Monaco', 'Cascadia Code', 'Courier New', 'monospace'],
       },
       colors: {
-        // Primary - Steel Blue (设计系统: #2563EB)
+        // Primary - Original premium darker blue
         primary: {
-          50: '#EFF6FF',
-          100: '#DBEAFE',
-          200: '#BFDBFE',
-          300: '#93C5FD',
-          400: '#60A5FA',
-          500: '#3B82F6',
-          600: '#2563EB', // Primary Blue - CTAs, links, primary actions
-          700: '#1D4ED8', // Primary hover
-          800: '#1E40AF',
-          900: '#1E3A5F', // Primary Dark - Headers, emphasis text
+          50: '#E6F0F7',
+          100: '#CCE1EF',
+          200: '#99C3DF',
+          300: '#63B4FF',
+          400: '#4DA6F0',
+          500: '#3C91E6',
+          600: '#2D7ACC',
+          700: '#1E5F8B', // Original - Main buttons
+          800: '#164E73',
+          900: '#0A3D62', // Original - Navbar, emphasis
         },
         // Accent - Brass Gold (设计系统: #B8860B)
         accent: {
@@ -97,8 +97,8 @@ module.exports = {
         'md': '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
         'lg': '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
         'xl': '0 20px 25px -5px rgba(0, 0, 0, 0.1)',
-        'primary': '0 4px 12px rgba(37, 99, 235, 0.3)', // Primary button hover
-        'card-hover': '0 8px 24px rgba(37, 99, 235, 0.1)', // Card hover
+        'primary': '0 4px 12px rgba(30, 90, 139, 0.3)', // Original primary hover
+        'card-hover': '0 8px 24px rgba(30, 90, 139, 0.1)', // Original card hover
       },
       // Border radius (设计系统)
       borderRadius: {
