@@ -14,7 +14,8 @@
 | 11-12 | 2026-04-23 18:30 | 结构化数据 | BreadcrumbList Schema (products + industry) | ✅ |
 | 13-14 | 2026-04-23 18:35 | 结构化数据 | BreadcrumbList Schema优化 | ✅ |
 | 15-16 | 2026-04-23 18:40 | Title/Meta优化 | Products页面标题和描述优化 | ✅ |
-| 17-18 | 2026-04-23 18:45 | Title/Meta优化 | 首页meta描述优化 | 🔄 进行中 |
+| 17-18 | 2026-04-23 18:45 | Title/Meta优化 | 首页meta描述优化 | ✅ |
+| 19-20 | 2026-04-23 19:00 | 技术SEO | Hero opacity修复，图片压缩优化 | 🔄 进行中 |
 
 ## 竞品研究发现
 
