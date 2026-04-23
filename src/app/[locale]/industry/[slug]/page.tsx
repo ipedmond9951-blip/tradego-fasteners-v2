@@ -133,7 +133,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-primary-900 to-primary-800 text-white py-12 md:py-16 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <Image src={article.image} alt="" fill className="object-cover" />
+          <Image src={article.image} alt={title} fill className="object-cover" />
         </div>
         <div className="container mx-auto px-4 sm:px-6 relative z-10 max-w-3xl">
           <Link href={`/${locale}/industry`} className="inline-flex items-center gap-1 text-primary-200 hover:text-white text-sm mb-6 transition-colors">

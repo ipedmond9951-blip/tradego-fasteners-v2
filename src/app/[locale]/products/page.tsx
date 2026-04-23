@@ -1,6 +1,7 @@
-import { type Locale, t } from '@/i18n'
+import { type Locale, t, locales } from '@/i18n'
 import Image from 'next/image'
 import Link from 'next/link'
+import type { Metadata } from 'next'
 
 // Static product data (same as ProductGrid)
 const allProducts = [
@@ -13,6 +14,36 @@ const allProducts = [
 const productText: Record<string, Record<string, string>> = {
   en: { drywall: 'Drywall Screws', selfdrilling: 'Self-Drilling Screws', bolts: 'Bolts & Nuts', ibr: 'IBR Nails' },
   zh: { drywall: '干壁钉', selfdrilling: '自钻螺丝', bolts: '螺栓螺母', ibr: 'IBR钉' },
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale: localeParam } = await params
+  const locale = (localeParam as Locale) || 'en'
+  const siteUrl = 'https://tradego-fasteners.com'
+  
+  const titles: Record<string, string> = {
+    en: 'Wholesale Fastener Products | Drywall Screws, Bolts, IBR Nails',
+    zh: '紧固件产品 | 干墙螺丝、螺栓、IBR钉批发',
+  }
+  const descriptions: Record<string, string> = {
+    en: 'Browse our complete range of wholesale fasteners: drywall screws, self-drilling screws, bolts, nuts, and IBR nails. ISO 9001 certified manufacturer with 20+ years experience.',
+    zh: '浏览我们的全系列紧固件批发产品：干墙螺丝、自钻螺丝、螺栓螺母和IBR钉。ISO 9001认证制造商，20多年经验。',
+  }
+  
+  return {
+    title: titles[locale] || titles.en,
+    description: descriptions[locale] || descriptions.en,
+    openGraph: {
+      title: titles[locale] || titles.en,
+      description: descriptions[locale] || descriptions.en,
+      url: `${siteUrl}/${locale}/products`,
+      type: 'website',
+    },
+    alternates: {
+      canonical: `/${locale}/products`,
+      languages: Object.fromEntries(locales.map(l => [l, `/${l}/products`])),
+    },
+  }
 }
 
 export default async function ProductsPage({ params }: { params: Promise<{ locale: string }> }) {

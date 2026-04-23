@@ -1,6 +1,37 @@
-import { type Locale, t } from '@/i18n'
+import { type Locale, t, locales } from '@/i18n'
 import Link from 'next/link'
 import { getAllArticles } from '@/lib/articles'
+import type { Metadata } from 'next'
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale: localeParam } = await params
+  const locale = (localeParam as Locale) || 'en'
+  const siteUrl = 'https://tradego-fasteners.com'
+  
+  const titles: Record<string, string> = {
+    en: 'Fastener Industry Guide | Technical Articles & Market Insights',
+    zh: '紧固件行业指南 | 技术文章与市场洞察',
+  }
+  const descriptions: Record<string, string> = {
+    en: 'Explore our comprehensive fastener industry guides covering drywall screws, bolts, nuts, and construction fasteners. Technical specifications, market analysis, and procurement tips.',
+    zh: '探索我们的全面紧固件行业指南，涵盖干墙螺丝、螺栓螺母和建筑紧固件。技术规格、市场分析和采购技巧。',
+  }
+  
+  return {
+    title: titles[locale] || titles.en,
+    description: descriptions[locale] || descriptions.en,
+    openGraph: {
+      title: titles[locale] || titles.en,
+      description: descriptions[locale] || descriptions.en,
+      url: `${siteUrl}/${locale}/industry`,
+      type: 'website',
+    },
+    alternates: {
+      canonical: `/${locale}/industry`,
+      languages: Object.fromEntries(locales.map(l => [l, `/${l}/industry`])),
+    },
+  }
+}
 
 export default async function IndustryPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: localeParam } = await params
