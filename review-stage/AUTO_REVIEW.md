@@ -1,0 +1,76 @@
+# TradeGo Website Auto Review Loop
+
+## Round 1 (2026-04-23)
+
+### 研究背景
+用户要求：运用学到的知识不间断的优化网站，参考其他网站的文章和内容，自己处理不了的先放下，做自己能做的。
+
+### 竞品研究发现
+
+#### T&Y Hardware (tfasteners.com)
+**亮点：**
+- 23年行业经验，突出展示
+- "One Stop Fasteners Manufacture" 定位清晰
+- 产品类别细分完整：
+  - 螺栓类：hex bolts, flange bolts, T bolts, lag bolts, eye bolts, etc.
+  - 螺母类：hex nut, flange nut, spring nut, lock nut, etc.
+  - 螺丝类：self-tapping, drill screws, wood screws, drywall screws, etc.
+  - 锚栓类：sleeve anchor, wedge anchor, chemical anchor, etc.
+- 制造工艺展示：拉丝、头成型、滚牙、表面处理
+- 材料选项：不锈钢、碳钢、黄铜、塑料、钛合金、铝合金
+- advantages section
+
+**TradeGo可借鉴：**
+1. 更强调20年+行业经验
+2. 添加制造工艺说明
+3. 产品分类优化
+4. 材料选项展示
+
+#### TR Asia (trfastenings.com)
+**亮点：**
+- 7个制造设施，5个国家
+- 冷锻、多级锻造、精密加工
+- 内部热处理能力
+- 自动光学分选
+- 全球化生产布局展示
+- 行业专注：汽车、工业
+
+**TradeGo可借鉴：**
+1. 展示制造能力和质量控制
+2. 突出专业领域
+3. 全球化发货能力
+
+### 第一轮改进计划
+
+#### 高优先级（可自动化实施）
+1. **首页内容优化**
+   - 突出"20年+行业经验"
+   - 强调ISO 9001认证
+   - 优化主标题和副标题
+
+2. **产品页面增强**
+   - 添加更多技术规格
+   - 添加应用行业标签
+   - 添加材料说明
+
+3. **FAQ内容扩充**
+   - 添加更多常见问题
+   - 添加技术问答
+
+#### 中优先级（需要更多研究）
+4. **内部链接优化**
+5. **产品分类优化**
+
+### 已完成的改进
+- SEO批量修复（65篇文章标题/描述长度优化）
+- Products/Industry页面Metadata添加
+- sitemap动态化
+
+### 待处理（需要人工）
+- 外链建设
+- LinkedIn优化
+- YouTube视频内容
+- 客户案例页面
+
+### 下一步
+实施首页和产品页面内容改进，然后继续下一轮评审

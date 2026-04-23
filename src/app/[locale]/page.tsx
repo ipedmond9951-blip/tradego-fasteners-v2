@@ -2,6 +2,7 @@ import Script from 'next/script'
 import { locales, type Locale, getMessages, t } from '@/i18n'
 import HeroSection from '@/components/HeroSection'
 import AboutSection from '@/components/AboutSection'
+import WhyChooseUs from '@/components/WhyChooseUs'
 import ProductGrid from '@/components/ProductGrid'
 import FAQSection from '@/components/FAQSection'
 import InquiryForm from '@/components/InquiryForm'
@@ -73,6 +74,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
       </div>
 
       <AboutSection locale={locale} />
+      <WhyChooseUs locale={locale} />
       <TeamCard locale={locale} />
       <ProductGrid locale={locale} />
 
