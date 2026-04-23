@@ -13,6 +13,7 @@ import VideoSchema from '@/components/VideoSchema'
 import OrganizationSchema from '@/components/OrganizationSchema'
 import NavigationSchema from '@/components/NavigationSchema'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
+import ReviewSchema from '@/components/ReviewSchema'
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -117,6 +118,7 @@ export default async function LocaleLayout({
         <VideoSchema locale={loc} />
         <OrganizationSchema locale={loc} />
         <LocalBusinessSchema locale={loc} />
+        <ReviewSchema locale={loc} />
         <NavigationSchema locale={loc} />
         <link rel="alternate" hrefLang="en" href="/en" />
         <link rel="alternate" hrefLang="zh" href="/zh" />
