@@ -1,0 +1,74 @@
+{
+  "slug": "timber-fasteners-guide",
+  "category": "Technical Guide",
+  "date": "2026-04-24",
+  "readTime": 7,
+  "image": "/images/products/timber-fasteners-1.jpg",
+  "title": {
+    "en": "Timber Fasteners Guide: Wood Screws, Coach Screws, and Timber Connectors",
+    "zh": "木工紧固件指南：木螺丝、马车螺丝和木结构连接件",
+    "es": "Guía de Sujetadores para Madera: Tornillos para Madera, Tirafondos y Conectores",
+    "ar": "دليل المثبتات الخشبية: مسامير الخشب ومسامير العربة وموصلات الخشب",
+    "fr": "Guide des Fixations pour Bois: Vis à Bois, Tirefonds et Connecteurs",
+    "pt": "Guia de Fixadores para Madeira: Parafusos para Madeira, Tirafões e Conectores",
+    "ru": "Руководство по Крепежу для Дерева: Шурупы, Глухари и Коннекторы",
+    "ja": "木材用ファスナーガイド：木ねじ、コーachねじ、木質Connector",
+    "de": "Holz Befestigungen: Holzschrauben, Holzbauschrauben und Holzverbinder",
+    "hi": "टिम्बर फास्टनर गाइड: वुड स्क्रू, कोच स्क्रू, और टिम्बर कनेक्टर"
+  },
+  "description": {
+    "en": "Complete guide to timber fasteners. Learn about wood screws, coach screws, timber connectors, and proper selection for wood frame construction.",
+    "zh": "木工紧固件完整指南。了解木螺丝、马车螺丝、木结构连接件和木框架建筑的正确选择。",
+    "es": "Guía completa de sujetadores para madera. Aprenda sobre tornillos para madera, tirafondos, conectores timber y selección adecuada.",
+    "ar": "دليل شامل للمثبتات الخشبية. تعلم عن مسامير الخشب ومسامير العربة وموصلات الخشب والاختيار الصحيح.",
+    "fr": "Guide complet des fixations pour bois. Apprenez les vis à bois, tirefonds, connecteurs timber et la sélection appropriée.",
+    "pt": "Guia completo de fixadores para madeira. Aprenda sobre parafusos para madeira, tirafões, conectores timber e seleção adequada.",
+    "ru": "Полное руководство по крепежу для дерева. Узнайте о шурупах, глухарях, коннекторах и правильном выборе.",
+    "ja": "木材用ファスナーの完全ガイド。木ねじ、コーachねじ、木質Connector、木质フレーム建築のための適切な選択について学びます。",
+    "de": "Vollständiger Leitfaden für Holzverbindungselemente. Lernen Sie über Holzschrauben, Holzbauschrauben, Holzverbinder und正确 Auswahl.",
+    "hi": "टिम्बर फास्टनर की पूर्ण गाइड। वुड स्क्रू, कोच स्क्रू, टिम्बर कनेक्टर, और वुड फ्रेम निर्माण के लिए उचित चयन के बारे में जानें।"
+  },
+  "keywords": "timber fasteners, wood screws, coach screws, timber connectors, wood frame construction, lag screws",
+  "sections": [
+    {
+      "id": "wood-screws",
+      "heading": {
+        "en": "Wood Screws: Selection and Use"
+      },
+      "body": {
+        "en": "Wood screws are designed for fastening wood to wood:\n\nTypes:\n- Flat head: Countersinks for flush surface\n- Round head: Provides bearing surface\n- Bugle head: For drywall and sheathing\n\nKey Features:\n- Sharp point for easy starting\n- Coarse thread for wood gripping\n- Smooth shank for easy insertion\n- Various lengths and gauges\n\nSelection Tips:\n- Length: 2.5x thickness of top board\n- Gauge: Match to load requirements\n- Head: Match to application\n- Coating: Exterior use requires corrosion resistance"
+      }
+    },
+    {
+      "id": "coach-screws",
+      "heading": {
+        "en": "Coach Screws (Lag Screws)"
+      },
+      "body": {
+        "en": "Coach screws (lag screws) are heavy-duty wood fasteners:\n\nDIN 571 / ISO 8678: Hex head wood screws\n\nFeatures:\n- Hex head for wrench tightening\n- Coarse, sharp threads\n- Full thread or partial thread\n- Heavy-gauge construction\n\nApplications:\n- Timber frame connections\n- Deck construction\n- Pergola and gazebo building\n- Furniture assembly\n\nInstallation:\n- Pre-drill pilot hole (especially for hard woods)\n- Use washer under head\n- Drive with wrench or impact driver\n\nTradeGo coach screws are hot-dip galvanized for exterior use."
+      }
+    },
+    {
+      "id": "connectors",
+      "heading": {
+        "en": "Timber Connectors"
+      },
+      "body": {
+        "en": "Metal connectors improve timber connection strength:\n\nTypes:\n- Joist hangers: Support joists at beams\n- Strap ties: Reinforce joints\n- Post bases: Secure posts to concrete\n- Holdowns: Resist uplift forces\n\nMaterials:\n- Galvanized steel: Standard interior\n- Hot-dip galvanized: Exterior/damp locations\n- Stainless steel: Marine/coastal\n\nBenefits:\n- Increased load capacity\n- Reduced notching of timber\n- Standardized connection details\n- Faster installation"
+      }
+    }
+  ],
+  "cta": {
+    "en": "Request Timber Fasteners",
+    "zh": "请求木工紧固件",
+    "es": "Solicitar Sujetadores para Madera",
+    "ar": "طلب المثبتات الخشبية",
+    "fr": "Demander Fixations pour Bois",
+    "pt": "Solicitar Fixadores para Madeira",
+    "ru": "Запросить Крепеж для Дерева",
+    "ja": "木材用ファスナーをご希望",
+    "de": "Holzverbinder Anfordern",
+    "hi": "टिम्बर फास्टनर का अनुरोध करें"
+  },
+  "relatedProducts": ["coach-screws", "wood-screws", "timber-connectors"]
+}

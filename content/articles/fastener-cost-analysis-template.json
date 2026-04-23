@@ -1,0 +1,74 @@
+{
+  "slug": "fastener-cost-analysis-template",
+  "category": "Procurement Guide",
+  "date": "2026-04-24",
+  "readTime": 6,
+  "image": "/images/products/cost-analysis-1.jpg",
+  "title": {
+    "en": "Fastener Cost Analysis Template: Calculate True Cost of Fasteners",
+    "zh": "紧固件成本分析模板：计算紧固件真实成本",
+    "es": "Plantilla de Análisis de Costos de Sujetadores: Calcule el Costo Real",
+    "ar": "قالب تحليل تكلفة المثبتات: احسب التكلفة الحقيقية للمثبتات",
+    "fr": "Modèle d'Analyse des Coûts des Fixations: Calculez le Vrai Coût",
+    "pt": "Modelo de Análise de Custo de Fixadores: Calcule o Custo Real",
+    "ru": "Шаблон Анализа Стоимости Крепежа: Рассчитайте Реальную Стоимость",
+    "ja": "ファスナー原価分析テンプレート：ファスナーの本当のコストを計算",
+    "de": "Fastener Kostenanalyse Vorlage: Wahre Kosten der Befestigungen Berechnen",
+    "hi": "फास्टनर लागत विश्लेषण टेम्पलेट: फास्टनर की वास्तविक लागत की गणना करें"
+  },
+  "description": {
+    "en": "Fastener cost analysis template for buyers. Learn how to calculate true landed cost of fasteners including FOB, freight, duties, and handling to make better procurement decisions.",
+    "zh": "面向买家的紧固件成本分析模板。了解如何计算紧固件的真实到岸成本，包括FOB、运费、关税和处理费用，以做出更好的采购决策。",
+    "es": "Plantilla de análisis de costos para compradores de sujetadores. Aprenda cómo calcular el costo real landed de sujetadores.",
+    "ar": "قالب تحليل تكلفة المثبتات للمشترين. تعلم كيفية حساب التكلفة الحقيقية للمثبتات بما في ذلك FOB والشحن والرسوم الجمركية.",
+    "fr": "Modèle d'analyse des coûts pour acheteurs de fixations. Apprenez à calculer le coût réel débarqué des fixations.",
+    "pt": "Modelo de análise de custo para compradores de fixadores. Aprenda como calcular o custo real CIF de fixadores.",
+    "ru": "Шаблон анализа стоимости для покупателей крепежа. Узнайте, как рассчитать реальную стоимость доставки крепежа.",
+    "ja": "バイヤー向けファスナー原価分析テンプレート。FOB、送料、関税、手数料を含むファスナーの本当の CIF コストの計算方法を学びます。",
+    "de": "Kostenanalyse Vorlage für Fastener Käufer. Erfahren Sie, wie Sie die wahren Bezugskosten inkl. FOB, Fracht und Zoll berechnen.",
+    "hi": "फास्टनर खरीदारों के लिए लागत विश्लेषण टेम्पलेट। FOB, माल ढुलाई, शुल्क, और हैंडलिंग सहित फास्टनर की वास्तविक लैंडेड लागत की गणना करना सीखें।"
+  },
+  "keywords": "fastener cost analysis, landed cost calculation, FOB cost, import cost calculation, fastener procurement, total cost of ownership",
+  "sections": [
+    {
+      "id": "template",
+      "heading": {
+        "en": "True Cost Calculation Template"
+      },
+      "body": {
+        "en": "Use this template to calculate true fastener cost:\n\n1. PRODUCT COST (FOB China)\n   Unit Price: $___/kg or $___/pc\n   Order Quantity: ___ kg or pcs\n   Subtotal: $___\n\n2. PACKAGING\n   Packaging Cost: $___\n   Palletization: $___\n   Subtotal: $___\n\n3. DOMESTIC LOGISTICS (China)\n   Trucking to Port: $___\n   Port Handling: $___\n   Subtotal: $___\n\n4. OCEAN FREIGHT\n   Ocean Freight: $___\n   Insurance (1% CIF): $___\n   Subtotal: $___\n\n5. DESTINATION COSTS\n   Port Handling: $___\n   Customs Duty (___%): $___\n   VAT (___%): $___\n   Clearing Agent: $___\n   Subtotal: $___\n\n6. INLAND TRANSPORT\n   Trucking to Warehouse: $___\n   Customs Broker: $___\n   Subtotal: $___\n\nTOTAL LANDED COST: $___\nCost Per Unit: $___/kg or $___/pc"
+      }
+    },
+    {
+      "id": "comparison",
+      "heading": {
+        "en": "Supplier Comparison Matrix"
+      },
+      "body": {
+        "en": "Compare suppliers using this matrix:\n\n| Criteria | Supplier A | Supplier B | Supplier C |\n|----------|------------|------------|------------|\n| FOB Price | $___/kg | $___/kg | $___/kg |\n| Lead Time | ___ weeks | ___ weeks | ___ weeks |\n| MOQ | ___ MT | ___ MT | ___ MT |\n| Quality Cert | | | |\n| Payment Terms | | | |\n| Landed Cost | $___/kg | $___/kg | $___/kg |\n| Score (1-5) | | | |"
+      }
+    },
+    {
+      "id": "tips",
+      "heading": {
+        "en": "Cost Reduction Tips"
+      },
+      "body": {
+        "en": "Strategies to reduce fastener costs:\n\n1. Container Optimization:\n- Fill containers completely\n- Mix product types\n- Use optimal pallet sizes\n\n2. Supplier Consolidation:\n- Single supplier for multiple products\n- Better pricing for combined volume\n- Reduced logistics costs\n\n3. Annual Commitments:\n- Lock in pricing for year\n- Guaranteed volume = better pricing\n- Reduce administrative costs\n\n4. Quality Focus:\n- Right first time = no returns\n- Proper specification = no over-specifying\n- Test samples before bulk orders"
+      }
+    }
+  ],
+  "cta": {
+    "en": "Request Custom Analysis",
+    "zh": "请求定制分析",
+    "es": "Solicitar Análisis Personalizado",
+    "ar": "طلب تحليل مخصص",
+    "fr": "Demander une Analyse Personnalisée",
+    "pt": "Solicitar Análise Personalizada",
+    "ru": "Запросить Индивидуальный Анализ",
+    "ja": "カスタム分析をご 请求",
+    "de": "Individuelle Analyse Anfordern",
+    "hi": "कस्टम विश्लेषण का अनुरोध करें"
+  },
+  "relatedProducts": ["bolts-nuts", "anchor-bolts", "washers"]
+}

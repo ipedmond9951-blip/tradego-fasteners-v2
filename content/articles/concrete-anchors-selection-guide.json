@@ -1,0 +1,74 @@
+{
+  "slug": "concrete-anchors-selection-guide",
+  "category": "Technical Guide",
+  "date": "2026-04-24",
+  "readTime": 8,
+  "image": "/images/products/concrete-anchors-1.jpg",
+  "title": {
+    "en": "Concrete Anchors Selection Guide: Wedge, Sleeve, Drop-in Anchors",
+    "zh": "混凝土锚栓选型指南：楔形、套筒、膨胀螺栓",
+    "es": "Guía de Selección de Anclajes para Hormigón: Cuña, Manguito, Colapsables",
+    "ar": "دليل اختيار مرساة الخرسانة: إسفين، جلب، مسامير التوسع",
+    "fr": "Guide de Sélection des Ancrages pour Béton: Coin, Manchon, Chute",
+    "pt": "Guia de Seleção de Ancoragens para Concreto: Cunha, Luva, Gotejamento",
+    "ru": "Руководство по Выбору Анкеров для Бетона: Клин, Гильза, Врезные",
+    "ja": "コンクリートアンカー選定ガイド：ウェッジ、スリーブ、ドロップイン",
+    "de": "Betonanker Auswahl: Keil, Hülse, Einsteckanker",
+    "hi": "कंक्रीट एंकर चयन गाइड: वेज, स्लीव, ड्रॉप-इन एंकर"
+  },
+  "description": {
+    "en": "Complete guide to concrete anchors. Learn about wedge anchors, sleeve anchors, drop-in anchors, and how to select the right anchor for your application.",
+    "zh": "混凝土锚栓完整指南。了解楔形锚栓、套筒锚栓、膨胀螺栓以及如何为您的应用选择正确的锚栓。",
+    "es": "Guía completa de anclajes para hormigón. Aprenda sobre anclajes de cuña, manguito, colapsables y cómo seleccionar el anclaje correcto.",
+    "ar": "دليل شامل لمرساة الخرسانة. تعلم عن مراسي الإسفين ومراسي الأكمام ومراسي السقوط واختيار المرساة الصحيحة.",
+    "fr": "Guide complet des ancrages pour béton. Apprenez les ancrages à coin, à manchon, à chute et comment sélectionner le bon ancrage.",
+    "pt": "Guia completo de ancoragens para concreto. Aprenda sobre ancoragens de cunha, luva, gotejamento e como selecionar a âncora certa.",
+    "ru": "Полное руководство по анкерам для бетона. Узнайте о клиновых анкерах, гильзовых анкерах, врезных анкерах и как выбрать правильный.",
+    "ja": "コンクリートアンカーの完全ガイド。ウェッジアンカー、スリーブアンカー、ドロップインアンカー、および適切なアンカーの選択方法について学びます。",
+    "de": "Vollständiger Leitfaden für Betonanker. Erfahren Sie mehr über Keil-, Hülsen- und Einsteckanker.",
+    "hi": "कंक्रीट एंकरों की पूर्ण गाइड। वेज एंकर, स्लीव एंकर, ड्रॉप-इन एंकर, और अपने अनुप्रयोग के लिए सही एंकर कैसे चुनें।"
+  },
+  "keywords": "concrete anchors, wedge anchors, sleeve anchors, drop-in anchors, anchor bolts, expansion anchors",
+  "sections": [
+    {
+      "id": "anchor-types",
+      "heading": {
+        "en": "Types of Concrete Anchors"
+      },
+      "body": {
+        "en": "Different anchor types for different applications:\n\n1. Wedge Anchors:\n- Full expansion against concrete\n- Highest load capacity\n- Not removable\n- Use: Structural connections\n\n2. Sleeve Anchors:\n- Multi-piece expansion\n- Good for hollow masonry\n- Moderate load capacity\n- Use: General purpose\n\n3. Drop-in Anchors:\n- Internally threaded\n- Flush mount installation\n- Requires setting tool\n- Use: Repetitive attachments\n\n4. Strike Anchors:\n- Nail-style installation\n- Quick installation\n- Light-duty only\n- Use: Temporary installations"
+      }
+    },
+    {
+      "id": "selection",
+      "heading": {
+        "en": "Anchor Selection Criteria"
+      },
+      "body": {
+        "en": "Key factors for anchor selection:\n\n1. Load Requirements:\n- Determine design load (tension and shear)\n- Check anchor load tables\n- Apply safety factors\n\n2. Base Material:\n- Solid concrete: All anchor types work\n- Hollow masonry: Sleeve anchors\n- Cracked concrete: Use ICC-approved anchors\n\n3. Installation Type:\n- Fixed object: Wedge or sleeve anchor\n- Temporary: Strike anchor\n- Repetitive: Drop-in anchor\n\n4. Environment:\n- Dry interior: Carbon steel\n- Exterior: Hot-dip galvanized\n- Corrosive: Stainless steel"
+      }
+    },
+    {
+      "id": "installation",
+      "heading": {
+        "en": "Installation Best Practices"
+      },
+      "body": {
+        "en": "Proper installation ensures anchor performance:\n\n1. Hole Preparation:\n- Drill to correct diameter\n- Drill depth = anchor depth + 1/4\"\n- Clean hole thoroughly (blow and brush)\n\n2. Installation:\n- Wedge anchor: Hammer in, tighten nut\n- Sleeve anchor: Insert and tighten\n- Drop-in: Set with setting tool\n\n3. Minimum Spacing:\n- 10 x diameter from edges\n- 12 x diameter between anchors\n- From cracks: 6 x diameter minimum\n\n4. Edge Distance:\n- Maintain minimum edge distance\n- Reduces splitting risk\n- Ensures full load capacity"
+      }
+    }
+  ],
+  "cta": {
+    "en": "Request Anchor Quote",
+    "zh": "请求锚栓报价",
+    "es": "Solicitar Cotización de Anclajes",
+    "ar": "طلب عرض أسعار المراسي",
+    "fr": "Demander un Devis pour Ancrages",
+    "pt": "Solicitar Cotização de Ancoragens",
+    "ru": "Запросить КП на Анкеры",
+    "ja": "アンカー見積もりを依頼",
+    "de": "Anker Angebot Erhalten",
+    "hi": "एंकर कोटेशन का अनुरोध करें"
+  },
+  "relatedProducts": ["anchor-bolts", "bolts-nuts", "washers"]
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "structural-steel-connections-guide",
+  "category": "Technical Guide",
+  "date": "2026-04-24",
+  "readTime": 8,
+  "image": "/images/products/structural-steel-1.jpg",
+  "title": {
+    "en": "Structural Steel Connections Guide: Bolted Moment and Braced Connections",
+    "zh": "钢结构连接指南：螺栓刚接和支撑连接",
+    "es": "Guía de Conexiones de Acero Estructural: Conexiones Atornilladas de Momento y Arriostradas",
+    "ar": "دليل وصلات الفولاذ الإنشائية: وصلات اللحظة المثبتة والوصلات المرنة",
+    "fr": "Guide des Connexions d'Acier Structural: Connexions à Boulons de Moment et Contreventées",
+    "pt": "Guia de Conexões de Aço Estrutural: Conexões Parafusadas de Momento e Estaiadas",
+    "ru": "Руководство по Соединениям Конструкционной Стали: Болтовые Моментные и Безраскосные Фермы",
+    "ja": "鉄骨構造接続ガイド：ボルト締結 момент 接合とブレース接続",
+    "de": "Stahlkonstruktion Anschlussleitfaden: Geschraubte Moment- und Aussteifungsverbindungen",
+    "hi": "स्ट्रक्चरल स्टील कनेक्शन गाइड: बोल्टेड मोमेंट और ब्रेस्ड कनेक्शन"
+  },
+  "description": {
+    "en": "Complete guide to structural steel connections. Learn about bolted moment connections, braced frame connections, and design requirements for steel structures.",
+    "zh": "钢结构连接完整指南。了解螺栓刚接、支撑框架连接和钢结构设计要求。",
+    "es": "Guía completa de conexiones de acero estructural. Aprenda sobre conexiones de momento atornilladas, conexiones de marcos arriostrados y requisitos de diseño.",
+    "ar": "دليل شامل لوصلات الفولاذ الإنشائية. تعلم عن وصلات اللحظة المثبتة ووصلات الأطر المثبتة ومتطلبات التصميم.",
+    "fr": "Guide complet des connexions d'acier structural. Apprenez les connexions à moment boulonnées, les connexions de cadres contreventés et les exigences de conception.",
+    "pt": "Guia completo de conexões de aço estrutural. Aprenda sobre conexões de momento parafusadas, conexões de estruturas treliçadas e requisitos de projeto.",
+    "ru": "Полное руководство по соединениям конструкционной стали. Узнайте о болтовых моментных соединениях, соединениях связевых каркасов и требованиях к проектированию.",
+    "ja": "鉄骨構造接続の完全ガイド。ボルト締結 момент 接合、ブレースフレーム接続、デザイン要件について学びます。",
+    "de": "Vollständiger Leitfaden für Stahlkonstruktion Anschlüsse. Lernen Sie über geschraubte Momentverbindungen, ausgesteifte Rahmenverbindungen und Konstruktionsanforderungen.",
+    "hi": "स्ट्रक्चरल स्टील कनेक्शन की पूर्ण गाइड। बोल्टेड मोमेंट कनेक्शन, ब्रेस्ड फ्रेम कनेक्शन, और स्टील स्ट्रक्चर के डिज़ाइन आवश्यकताओं के बारे में जानें।"
+  },
+  "keywords": "structural steel connections, moment connections, braced frames, high strength bolts, A325 bolts, steel structure",
+  "sections": [
+    {
+      "id": "connection-types",
+      "heading": {
+        "en": "Types of Structural Connections"
+      },
+      "body": {
+        "en": "Structural steel connections fall into several categories:\n\n1. Moment Connections:\n- Transfer bending moment between members\n- Column-beam connections\n- Require full-depth end plates or angles\n- Critical for frame stability\n\n2. Shear Connections:\n- Transfer only shear forces\n- Simple beam-column connections\n- Seat and clip angles\n- Used in simply supported beams\n\n3. Braced Frame Connections:\n- Connect braces to frames\n- Gusset plate connections\n- Design for tension/compression in braces\n\n4. Base Plates:\n- Connect columns to foundations\n- Anchor bolts transfer forces\n- Design for compression, tension, shear"
+      }
+    },
+    {
+      "id": "bolts",
+      "heading": {
+        "en": "High Strength Bolts for Structural Connections"
+      },
+      "body": {
+        "en": "Structural connections require high-strength bolts:\n\nASTM Specifications:\n- A325: High-strength bolts (120 ksi)\n- A490: Higher strength (150 ksi)\n- F1852: A325X (twist-off bolts)\n\nInstallation Methods:\n1. Pretensioned (Turn-of-Nut):\n- Snug tight then turn nut specified rotation\n- Most common method\n\n2. Direct Tension Indicator:\n- Bolts with built-in indicators\n- Compressible washer or spline\n\n3. Alternative Design:\n- Calibrated wrench method\n- Twist-off bolts"
+      }
+    },
+    {
+      "id": "design",
+      "heading": {
+        "en": "Connection Design Requirements"
+      },
+      "body": {
+        "en": "Key design considerations:\n\n1. Capacity:\n- Shear capacity of bolts\n- Bearing capacity of connected plates\n- Net section rupture\n\n2. Serviceability:\n- Deflection limits\n- Connection flexibility\n\n3. Detailing:\n- Clearances for erection\n- Access for welding/bucking\n- Corrosion protection"
+      }
+    }
+  ],
+  "cta": {
+    "en": "Request Engineering Support",
+    "zh": "请求工程支持",
+    "es": "Solicitar Soporte de Ingeniería",
+    "ar": "طلب الدعم الهندسي",
+    "fr": "Demander Support d'Ingénierie",
+    "pt": "Solicitar Suporte de Engenharia",
+    "ru": "Запросить Инженерную Поддержку",
+    "ja": "エンジニアリングサポートに連絡",
+    "de": "Engineering Support Erhalten",
+    "hi": "इंजीनियरिंग सहायता का अनुरोध करें"
+  },
+  "relatedProducts": ["high-tensile-bolts", "anchor-bolts", "bolts-nuts"]
+}

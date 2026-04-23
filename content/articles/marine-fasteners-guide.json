@@ -1,0 +1,74 @@
+{
+  "slug": "marine-fasteners-guide",
+  "category": "Industry Guide",
+  "date": "2026-04-24",
+  "readTime": 7,
+  "image": "/images/products/marine-fasteners-1.jpg",
+  "title": {
+    "en": "Marine Fasteners Guide: Saltwater-Resistant Fasteners for Boat and Marina",
+    "zh": "海洋紧固件指南：船和码头耐盐水紧固件",
+    "es": "Guía de Sujetadores Marinos: Sujetadores Resistentes al Agua Salada",
+    "ar": "دليل المثبتات البحرية: مثبتات مقاومة للماء المالح",
+    "fr": "Guide des Fixations Marines: Fixations Résistantes à l'Eau Salée",
+    "pt": "Guia de Fixadores Marinhos: Fixadores Resistentes à Água Salgada",
+    "ru": "Руководство по Морскому Крепежу: Крепеж с Устойчивостью к Морской Воде",
+    "ja": "海洋用ファスナーガイド：塩水耐性ファスナー",
+    "de": "Meeres-Befestigungen: Salzwasserbeständige Befestigungen",
+    "hi": "मैरीन फास्टनर गाइड: नमक के पानी प्रतिरोधी फास्टनर"
+  },
+  "description": {
+    "en": "Complete guide to marine fasteners. Learn about stainless steel 316, silicon bronze, and hot-dip galvanized fasteners for boats, docks, and marine applications.",
+    "zh": "海洋紧固件完整指南。了解用于船、码头和海洋应用的316不锈钢、硅青铜和热镀锌紧固件。",
+    "es": "Guía completa de sujetadores marinos. Aprenda sobre acero inoxidable 316, bronce de silicio y sujetadores galvanizados en caliente.",
+    "ar": "دليل شامل للمثبتات البحرية. تعلم عن الفولاذ المقاوم للصدأ 316 والبرونز السيليكوني والمراسي المجلفنة.",
+    "fr": "Guide complet des fixations marines. Apprenez l'acier inoxydable 316, le bronze au silicium et les fixations galvanisées à chaud.",
+    "pt": "Guia completo de fixadores marinhos. Aprenda sobre aço inoxidável 316, bronze de silício e fixadores galvanizados.",
+    "ru": "Полное руководство по морскому крепежу. Узнайте о нержавеющей стали 316, кремниевой бронзе и горячеоцинкованном крепеже.",
+    "ja": "海洋用ファスナーの完全ガイド。316ステンレススチール、硅青銅、そして熱間亜鉛めっきファスナーについて学びます。",
+    "de": "Vollständiger Leitfaden für Meeres-Befestigungen. Erfahren Sie mehr über Edelstahl 316, Siliziumbronze und feuerverzinkte Befestigungen.",
+    "hi": "मैरीन फास्टनर की पूर्ण गाइड। नाव, डॉक, और समुद्री अनुप्रयोगों के लिए स्टेनलेस स्टील 316, सिलिकॉन ब्रॉन्ज, और हॉट-डिप गैल्वनाइज्ड फास्टनर के बारे में जानें।"
+  },
+  "keywords": "marine fasteners, stainless steel 316, silicon bronze, saltwater resistant, boat fasteners, dock fasteners",
+  "sections": [
+    {
+      "id": "materials",
+      "heading": {
+        "en": "Marine Fastener Materials"
+      },
+      "body": {
+        "en": "Marine environments require special materials:\n\n1. Stainless Steel 316:\n- Molybdenum addition for chloride resistance\n- Best choice for most marine applications\n- 18-8 composition with 2-3% molybdenum\n- Resists pitting in saltwater\n\n2. Silicon Bronze:\n- Copper-silicon alloy\n- Traditional boat building material\n- Excellent saltwater resistance\n- Preferred for below-waterline\n\n3. Hot-Dip Galvanized:\n- Steel with heavy zinc coating\n- Good for docks and pilings\n- Sacrificial protection\n- Reasonable cost"
+      }
+    },
+    {
+      "id": "applications",
+      "heading": {
+        "en": "Marine Applications"
+      },
+      "body": {
+        "en": "Marine fastener applications:\n\nAbove Waterline:\n- Deck hardware\n- Railings\n- Cleats and chocks\n- Use: Stainless 316 or silicon bronze\n\nBelow Waterline:\n- Through-hull fittings\n- Propeller attachments\n- Underwater hardware\n- Use: Silicon bronze (traditional) or SS 316\n\nDocks and Piers:\n- Framing connections\n- Hardware mounting\n- Use: Hot-dip galvanized or SS 316"
+      }
+    },
+    {
+      "id": "avoid",
+      "heading": {
+        "en": "Materials to Avoid"
+      },
+      "body": {
+        "en": "Avoid these materials in marine environments:\n\n1. Stainless Steel 304:\n- Prone to pitting in saltwater\n- Salt trapped in pits causes rapid corrosion\n- Use 316 instead\n\n2. Carbon Steel:\n- Rapid rusting in saltwater\n- Even with paint/coating\n- Failures can be dangerous\n\n3. Aluminum (some alloys):\n- Pitting corrosion in saltwater\n- Use 6061-T6 or 5086-H32\n- Avoid in direct seawater contact"
+      }
+    }
+  ],
+  "cta": {
+    "en": "Request Marine Fasteners",
+    "zh": "请求海洋紧固件",
+    "es": "Solicitar Sujetadores Marinos",
+    "ar": "طلب المثبتات البحرية",
+    "fr": "Demander Fixations Marines",
+    "pt": "Solicitar Fixadores Marinhos",
+    "ru": "Запросить Морской Крепеж",
+    "ja": "海洋用ファスナーをご 请求",
+    "de": "Meeres-Befestigungen Anfordern",
+    "hi": "मैरीन फास्टनर का अनुरोध करें"
+  },
+  "relatedProducts": ["stainless-steel-fasteners-1", "silicon-bronze-fasteners"]
+}

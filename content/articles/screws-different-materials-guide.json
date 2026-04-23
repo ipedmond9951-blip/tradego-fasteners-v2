@@ -1,0 +1,74 @@
+{
+  "slug": "screws-different-materials-guide",
+  "category": "Technical Guide",
+  "date": "2026-04-24",
+  "readTime": 7,
+  "image": "/images/products/screws-guide-1.jpg",
+  "title": {
+    "en": "Screws for Different Materials: Steel, Wood, Plastic, and Masonry",
+    "zh": "不同材料的螺丝：钢、木材、塑料和砖石",
+    "es": "Tornillos para Diferentes Materiales: Acero, Madera, Plástico y Albañilería",
+    "ar": "المسامير للمواد المختلفة: الفولاذ والخشب والبلاستيك والبناء",
+    "fr": "Vis pour Différents Matériaux: Acier, Bois, Plastique et Maçonnerie",
+    "pt": "Parafusos para Diferentes Materiais: Aço, Madeira, Plástico e Alvenaria",
+    "ru": "Винты для Различных Материалов: Сталь, Дерево, Пластик и Кладка",
+    "ja": "異なる材料用のねじ：钢、木材、プラスチック、レンガ",
+    "de": "Schrauben für Verschiedene Materialien: Stahl, Holz, Kunststoff und Mauerwerk",
+    "hi": "विभिन्न सामग्रियों के लिए स्क्रू: स्टील, लकड़ी, प्लास्टिक और मोर्टार"
+  },
+  "description": {
+    "en": "Complete guide to selecting screws for different materials. Learn about self-tapping, wood screws, machine screws, and masonry screws for various applications.",
+    "zh": "不同材料螺丝选型完整指南。了解自攻螺丝、木螺丝、机螺丝和砖石螺丝的各种应用。",
+    "es": "Guía completa para seleccionar tornillos para diferentes materiales. Aprenda sobre tornillos autorroscantes, tornillos para madera, tornillos machine y tornillos para mampostería.",
+    "ar": "دليل شامل لاختيار المسامير للمواد المختلفة. تعلم عن المسامير ذاتية اللولبة ومسامير الخشب ومسامير الآلات ومسامير البناء.",
+    "fr": "Guide complet pour sélectionner les vis pour différents matériaux. Apprenez les vis taraudeuses, vis à bois, vis mécaniques et vis de maçonnerie.",
+    "pt": "Guia completo para selecionar parafusos para diferentes materiais. Aprenda sobre parafusos autoperfurantes, parafusos para madeira, parafusos de máquina e parafusos de alvenaria.",
+    "ru": "Полное руководство по выбору винтов для различных материалов. Узнайте о самонарезающих, шурупах, machine винтах и кладке винтов.",
+    "ja": "異なる材料용 나사 선택의 완전한 가이드。자체 테이핑 나사, 목재 나사, 기계 나사, 그리고 벽돌 나사에 대해 알아보세요.",
+    "de": "Vollständiger Leitfaden zur Auswahl von Schrauben für verschiedene Materialien. Erfahren Sie mehr über Blechschrauben, Holzschrauben, Maschinenschrauben.",
+    "hi": "विभिन्न सामग्रियों के लिए स्क्रू चयन की पूर्ण गाइड। सेल्फ-टैपिंग, वुड स्क्रू, मशीन स्क्रू, और मेसनरी स्क्रू के बारे में जानें।"
+  },
+  "keywords": "self-tapping screws, wood screws, machine screws, masonry screws, tapping screws, screw selection",
+  "sections": [
+    {
+      "id": "steel",
+      "heading": {
+        "en": "Screws for Steel"
+      },
+      "body": {
+        "en": "Self-tapping and self-drilling screws for steel:\n\n1. Self-Tapping Screws (Type AB, B, C):\n- Thread-forming for thin steel\n- Requires pre-drilled pilot hole\n- Type AB: Fine thread, thin metal\n- Type B: Coarse thread, general purpose\n\n2. Self-Drilling Screws (TEK screws):\n- Drill point eliminates pilot hole\n- Types: TEK 3, 4, 5 (drill capacity increases)\n- Fastest installation\n\n3. Machine Screws:\n- Require pre-tapped holes or nuts\n- UNC or UNF thread\n- Used with hex nuts or in threaded holes"
+      }
+    },
+    {
+      "id": "wood",
+      "heading": {
+        "en": "Screws for Wood"
+      },
+      "body": {
+        "en": "Screws designed for wood fastening:\n\n1. Wood Screws:\n- Coarse thread for wood grip\n- Various head styles (flat, round, oval)\n- Lengths: 3/4\" to 6\"\n- Gauge: #2 to #16\n\n2. Deck Screws:\n- Coated for exterior use\n- Star drive (T25) for less cam-out\n- Self-countersinking head\n\n3. Structural Wood Screws:\n- Higher load capacity\n- Approved for structural connections\n- Often self-drilling points"
+      }
+    },
+    {
+      "id": "masonry",
+      "heading": {
+        "en": "Screws for Masonry"
+      },
+      "body": {
+        "en": "Screws for concrete and masonry:\n\n1. Concrete Screws (Tapcons):\n- Requires pre-drilled hole\n- Thread design cuts into concrete\n- Various lengths and diameters\n\n2. Masonry Nails:\n- Hardened steel\n- Drive into mortar and concrete\n- Quick installation\n- Lower load capacity\n\n3. sleeve Anchors (see Concrete Anchors guide)\n- Expansion anchor principle\n- Higher loads than concrete screws"
+      }
+    }
+  ],
+  "cta": {
+    "en": "Request Screw Quote",
+    "zh": "请求螺丝报价",
+    "es": "Solicitar Cotización de Tornillos",
+    "ar": "طلب عرض أسعار المسامير",
+    "fr": "Demander un Devis pour Vis",
+    "pt": "Solicitar Cotação de Parafusos",
+    "ru": "Запросить КП на Винты",
+    "ja": "ねじ見積もりを依頼",
+    "de": "Schrauben Angebot Erhalten",
+    "hi": "स्क्रू कोटेशन का अनुरोध करें"
+  },
+  "relatedProducts": ["self-drilling-screws", "wood-screws", "concrete-screws"]
+}

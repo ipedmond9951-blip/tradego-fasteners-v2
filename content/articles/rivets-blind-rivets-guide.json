@@ -1,166 +1,65 @@
 {
   "slug": "rivets-blind-rivets-guide",
   "category": "Technical Guide",
-  "date": "2026-04-22",
+  "date": "2026-04-24",
   "readTime": 6,
-  "image": "/images/products/rivets.jpg",
+  "image": "/images/products/rivets-1.jpg",
   "title": {
-    "en": "Rivets & Blind Rivets Guide: Permanent Fastening Solution...",
-    "zh": "铆钉和抽芯铆钉指南：单面访问的永久紧固解决方案",
-    "es": "Guía de remaches y remaches ciegos: soluciones de fijació...",
-    "ar": "دليل الغطاسات والغاطسات العمياء: حلول التثبيت الدائم للوص...",
-    "fr": "Guide des rivets et rivets aveugles: solutions de fixatio...",
-    "pt": "Guia de rebites e rebites cegos: soluções de fixação perm..."
+    "en": "Rivets and Blind Rivets Guide: Selection and Installation",
+    "zh": "铆钉和抽芯铆钉指南：选型和安装",
+    "es": "Guía de Remaches y Remaches Cegados: Selección e Instalación",
+    "ar": "دليل المسامير اللولبية والمسامير العمياء: الاختيار والتثبيت",
+    "fr": "Guide des Rivets et Riv Aveugles: Sélection et Installation",
+    "pt": "Guia de Rebites e Rebites Cegos: Seleção e Instalação",
+    "ru": "Руководство по Заклёпкам и Глухим Заклёпкам: Выбор и Установка",
+    "ja": "リベットとリトラクタブルリベットガイド：選定と取付け",
+    "de": "Nieten und Blindnieten: Auswahl und Installation",
+    "hi": "रिवेट्स और ब्लाइंड रिवेट्स गाइड: चयन और स्थापना"
   },
   "description": {
-    "en": "Complete guide to rivets and blind rivets covering types, applications, and installation. Learn when to use rivets instead of bolts for permanent fastening i...",
-    "zh": "铆钉和抽芯铆钉完整指南，涵盖类型、应用和安装。了解何时使用铆钉代替螺栓进行非洲建筑结构和钣金应用中的永久紧固。",
-    "es": "Guía completa de remaches y remaches ciegos que cubre tipos y aplicaciones.",
-    "ar": "دليل شامل للغطاسات والغاطسات العمياء يغطي الأنواع والتطبيقات.",
-    "fr": "Guide complet des rivets et rivets aveugles couvrant les types et applications.",
-    "pt": "Guia completo de rebites e rebites cegos cobrindo tipos e aplicações."
+    "en": "Complete guide to rivets and blind rivets. Learn about solid rivets, pop rivets, and how to select the right rivet for applications where bolts aren't suitable.",
+    "zh": "铆钉和抽芯铆钉完整指南。了解实心铆钉、抽芯铆钉以及如何为不适合螺栓的应用选择正确的铆钉。",
+    "es": "Guía completa de remaches y remaches ciegos. Aprenda sobre remaches sólidos, remaches pop y cómo seleccionar el remache correcto.",
+    "ar": "دليل شامل للمسامير اللولبية والمسامير العمياء. تعلم عن المسامير الصلبة ومسامير البوب وكيفية الاختيار الصحيح.",
+    "fr": "Guide complet des rivets et rivets aveugles. Apprenez les rivets solides, les rivets pop et comment sélectionner le bon rivet.",
+    "pt": "Guia completo de rebites e rebites cegos. Aprenda sobre rebites sólidos, rebites pop e como selecionar o rebite certo.",
+    "ru": "Полное руководство по заклёпкам и глухим заклёпкам. Узнайте о сплошных заклёпках, вытяжных заклёпках и как выбрать правильную.",
+    "ja": "リベットとリトラクタブルリベットの完全ガイド。ソリッドリベット、ポップリベット、そして適切なリベットの選択方法について学びます。",
+    "de": "Vollständiger Leitfaden für Nieten und Blindnieten. Erfahren Sie mehr über Vollnieten, Popnieten und wie man das richtige Niet auswählt.",
+    "hi": "रिवेट्स और ब्लाइंड रिवेट्स की पूर्ण गाइड। सॉलिड रिवेट्स, पॉप रिवेट्स, और बोल्ट के लिए उपयुक्त न होने वाले अनुप्रयोगों के लिए सही रिवेट कैसे चुनें।"
   },
-  "keywords": "rivets, blind rivets, pop rivets, structural rivets, sheet metal fastening, permanent fastening",
+  "keywords": "rivets, blind rivets, pop rivets, solid rivets, rivet installation, rivet selection",
   "sections": [
     {
-      "id": "what-are-rivets",
+      "id": "rivet-types",
       "heading": {
-        "en": "What Are Rivets?"
+        "en": "Types of Rivets"
       },
       "body": {
-        "en": "Rivets are permanent fasteners that consist of a smooth cylindrical shaft with a head on one end. They are installed by deforming the tail end to create a second head, permanently clamping two or more materials together. Unlike bolts and screws, rivets cannot be easily removed without destroying the rivet, making them ideal for permanent joints."
+        "en": "Different rivet types for different applications:\n\n1. Solid Rivets:\n- Traditional rivet requiring access to both sides\n- Requires bucking bar for installation\n- Highest strength for critical applications\n- Used in: Structural, aerospace, shipbuilding\n\n2. Pop Rivets (Blind Rivets):\n- Installed from one side only\n- Mandrel breaks off during installation\n- Various materials: aluminum, steel, stainless\n- Most common for general applications\n\n3. Structural Blind Rivets:\n- Higher strength than standard pop rivets\n- Large flange for load distribution\n- Used in: Automotive, transportation\n\n4. Specialized Rivets:\n- Drive rivets (single-sided)\n- Rivet nuts (creates threads)\n- Self-piercing rivets (for sheet metal)"
       }
     },
     {
-      "id": "blind-rivets",
+      "id": "selection",
       "heading": {
-        "en": "Blind Rivets (Pop Rivets)"
+        "en": "Rivet Selection"
       },
       "body": {
-        "en": "Blind rivets (commonly called pop rivets) can be installed from one side of the work, making them essential when access is only available from one side. They consist of a hollow rivet body and a mandrel that pulls through and deforms the rivet body. Once set, the mandrel snaps off, leaving a secure permanent joint. Blind rivets are widely used in African construction for sheet metal fabrication and structural connections where only one-sided access is available."
-      },
-      "table": {
-        "headers": [
-          "Rivet Type",
-          "Material",
-          "Strength",
-          "Applications"
-        ],
-        "rows": [
-          [
-            "Open End (Standard)",
-            "Aluminum/Steel",
-            "Medium",
-            "General sheet metal, enclosures"
-          ],
-          [
-            "Closed End (Sealed)",
-            "Aluminum/Steel/Stainless",
-            "Medium-High",
-            "Water tanks, outdoor enclosures"
-          ],
-          [
-            "Structural",
-            "Steel/Aluminum",
-            "High",
-            "Structural connections, trailers"
-          ],
-          [
-            "Multi-Grip",
-            "Aluminum/Steel",
-            "Medium",
-            "Variable material thickness"
-          ]
-        ]
+        "en": "Key factors for rivet selection:\n\n1. Grip Range:\n- Total thickness being joined\n- Must fit within rivet grip range\n\n2. Material:\n- Aluminum rivets: Light weight, general use\n- Steel rivets: Higher strength\n- Stainless rivets: Corrosion resistance\n\n3. Head Style:\n- Dome head: Standard appearance\n- Countersunk: Flush mount\n\n4. Hole Size:\n- Typically 0.1mm larger than rivet diameter\n- Too tight = difficult installation\n- Too loose = weak joint"
       }
-    },
-    {
-      "id": "structural-rivets",
-      "heading": {
-        "en": "Structural Rivets"
-      },
-      "body": {
-        "en": "Structural rivets are designed for load-bearing connections in structural applications. They have higher shear and tensile strength than standard blind rivets. Monel structural rivets offer excellent corrosion resistance for marine and coastal applications. In African infrastructure, structural rivets are used in bridge construction, roofing systems, and pre-engineered metal buildings."
-      }
-    },
-    {
-      "id": "applications",
-      "heading": {
-        "en": "Common Applications in Africa"
-      },
-      "body": {
-        "en": "Rivets are used throughout African industry: sheet metal fabrication—HVAC ductwork, enclosures, and equipment housings; roofing—securing metal roofing sheets in standing seam systems; transportation—trailer and truck body construction; water tanks—sealing and assembling water storage tanks; and telecommunications—mounting antenna equipment and shelters."
-      }
-    },
-    {
-      "id": "installation",
-      "heading": {
-        "en": "Installation Best Practices"
-      },
-      "body": {
-        "en": "For proper rivet installation: drill the correct hole size (slightly larger than the rivet diameter); clean the hole of debris before insertion; insert the rivet fully until the head seats against the material; position the rivet tool correctly on the mandrel; squeeze the tool handles fully until the mandrel snaps; and verify the installed rivet head is fully formed and secure."
-      }
-    },
-    {
-      "id": "faq",
-      "heading": {
-        "en": "Frequently Asked Questions",
-        "zh": "常见问题",
-        "es": "Preguntas Frecuentes",
-        "ar": "الأسئلة الشائعة",
-        "fr": "Questions Fréquemment Posées",
-        "pt": "Perguntas Frequentes",
-        "ru": "Часто Задаваемые Вопросы",
-        "ja": "よくある質問",
-        "de": "Häufig Gestellte Fragen",
-        "hi": "सामान्य प्रश्न"
-      },
-      "faqItems": [
-        {
-          "q": {
-            "en": "What are Technical Guide and how are they used?"
-          },
-          "a": {
-            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
-          }
-        },
-        {
-          "q": {
-            "en": "How do I choose the right fastener for my project?"
-          },
-          "a": {
-            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
-          }
-        },
-        {
-          "q": {
-            "en": "What materials are available for these fasteners?"
-          },
-          "a": {
-            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
-          }
-        },
-        {
-          "q": {
-            "en": "Do you offer custom manufacturing?"
-          },
-          "a": {
-            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
-          }
-        }
-      ]
     }
   ],
   "cta": {
-    "text": {
-      "en": "Need fasteners for your project? Get a factory quote from TradeGo.",
-      "zh": "需要紧固件用于项目？从TradeGo获取工厂报价。"
-    },
-    "buttonText": {
-      "en": "Get Quote",
-      "zh": "获取报价"
-    },
-    "link": "/#inquiry"
+    "en": "Request Rivet Quote",
+    "zh": "请求铆钉报价",
+    "es": "Solicitar Cotización de Remaches",
+    "ar": "طلب عرض أسعار المسامير",
+    "fr": "Demander un Devis pour Rivets",
+    "pt": "Solicitar Cotação de Rebites",
+    "ru": "Запросить КП на Заклёпки",
+    "ja": "リベット見積もりを依頼",
+    "de": "Nieten Angebot Erhalten",
+    "hi": "रिवेट कोटेशन का अनुरोध करें"
   },
-  "relatedProducts": []
+  "relatedProducts": ["rivets", "rivet-tools", "blind-rivets"]
 }
