@@ -9,6 +9,7 @@ import AIChatWidget from '@/components/AIChatWidget'
 import Analytics from '@/components/Analytics'
 import WhatsAppCTA from '@/components/WhatsAppCTA'
 import FAQSchema from '@/components/FAQSchema'
+import VideoSchema from '@/components/VideoSchema'
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -110,6 +111,7 @@ export default async function LocaleLayout({
           "url": "https://tradego-fasteners.com"
         }) }} />
         <FAQSchema locale={loc} />
+        <VideoSchema locale={loc} />
         <link rel="alternate" hrefLang="en" href="/en" />
         <link rel="alternate" hrefLang="zh" href="/zh" />
         <link rel="alternate" hrefLang="es" href="/es" />
