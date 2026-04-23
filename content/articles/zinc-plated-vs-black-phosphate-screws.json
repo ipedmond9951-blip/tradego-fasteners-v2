@@ -17,7 +17,7 @@
     "hi": "जिंक प्लेटेड बनाम ब्लैक फॉस्फेट स्क्रू: कौन सा चुनें?"
   },
   "description": {
-    "en": "Detailed comparison of zinc plated and black phosphate screw finishes — corrosion resistance, cost, applications, and best choices for construction projects in Africa and Southeast Asia.",
+    "en": "Detailed comparison of zinc plated and black phosphate screw finishes — corrosion resistance, cost, applications, and best choices for construction projects...",
     "zh": "镀锌与黑磷化螺丝表面处理的详细对比——耐腐蚀性、成本、应用场景，以及非洲和东南亚建筑项目的最佳选择。",
     "es": "Comparación detallada de acabados de tornillos zincados y fosfatados negros: resistencia a la corrosión, costos y aplicaciones.",
     "ar": "مقارنة مفصلة بين تشطيبات مسامير الزنك والفوسفات الأسود: مقاومة التآكل والتكلفة والتطبيقات.",
@@ -120,6 +120,55 @@
           "a": {
             "en": "Yellow zinc (chromate passivated) offers slightly better corrosion resistance than clear zinc due to the chromate conversion coating. However, the difference is modest (roughly 20-30% improvement in salt spray hours) and yellow zinc contains hexavalent chromium, which is restricted under RoHS in some markets.",
             "zh": "黄锌（铬酸盐钝化）由于铬酸盐转化涂层，耐腐蚀性略优于白锌。但差异不大（盐雾时间提高约20-30%），且黄锌含六价铬，在某些市场受RoHS限制。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Product Comparison and how are they used?"
+          },
+          "a": {
+            "en": "Product Comparison are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
           }
         }
       ]

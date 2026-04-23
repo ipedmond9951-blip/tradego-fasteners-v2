@@ -5,15 +5,15 @@
   "readTime": 6,
   "image": "/images/products/washers.jpg",
   "title": {
-    "en": "Washers Types & Applications: Complete Guide for Construction Professionals in Africa",
+    "en": "Washers Types & Applications: Complete Guide for Construc...",
     "zh": "垫圈类型与应用：非洲建筑专业人员完整指南",
-    "es": "Tipos y aplicaciones de arandelas: guía completa para profesionales",
+    "es": "Tipos y aplicaciones de arandelas: guía completa para pro...",
     "ar": "أنواع وتطبيقات الغسالات: دليل شامل للمحترفين في أفريقيا",
-    "fr": "Types de rondelles et applications: guide complet pour professionnels",
-    "pt": "Tipos de arruelas e aplicações: guia completo para profissionais"
+    "fr": "Types de rondelles et applications: guide complet pour pr...",
+    "pt": "Tipos de arruelas e aplicações: guia completo para profis..."
   },
   "description": {
-    "en": "Complete guide to washer types including flat washers, spring washers, and lock washers. Learn proper selection for construction, roofing, and industrial applications in African environments.",
+    "en": "Complete guide to washer types including flat washers, spring washers, and lock washers. Learn proper selection for construction, roofing, and industrial app...",
     "zh": "垫圈类型完整指南，包括平垫圈、弹簧垫圈和锁紧垫圈。了解非洲建筑、屋面和工业应用的正确选型。",
     "es": "Guía completa de tipos de arandelas incluyendo arandelas planas, de resorte y de bloqueo.",
     "ar": "دليل شامل لأنواع الغسالات بما في ذلك الغسالات المسطحة والغسالات الزنبركية.",
@@ -90,6 +90,55 @@
       "body": {
         "en": "Washers must be sized to match the bolt diameter. The washer inner diameter should slip over the bolt easily, while the outer diameter should provide adequate load distribution. For African construction projects, standard metric sizes from M6 to M24 cover most applications."
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Technical Guide and how are they used?"
+          },
+          "a": {
+            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
+          }
+        }
+      ]
     }
   ],
   "cta": {

@@ -5,15 +5,15 @@
   "readTime": 7,
   "image": "/images/products/high-tensile-bolts.jpg",
   "title": {
-    "en": "High Tensile Bolts Guide: Understanding Grade 8.8, 10.9 & 12.9 for Structural Applications",
+    "en": "High Tensile Bolts Guide: Understanding Grade 8.8, 10.9 &...",
     "zh": "高强度螺栓指南：了解8.8级、10.9级和12.9级结构应用",
-    "es": "Guía de pernos de alta resistencia: comprensión de grados 8.8, 10.9 y 12.9",
+    "es": "Guía de pernos de alta resistencia: comprensión de grados...",
     "ar": "دليل البراغي عالية الشد: فهم الدرجات 8.8 و 10.9 و 12.9",
-    "fr": "Guide des boulons haute résistance: compréhension des grades 8.8, 10.9 et 12.9",
-    "pt": "Guia de pernos de alta resistência: compreensão dos graus 8.8, 10.9 e 12.9"
+    "fr": "Guide des boulons haute résistance: compréhension des gra...",
+    "pt": "Guia de pernos de alta resistência: compreensão dos graus..."
   },
   "description": {
-    "en": "Complete guide to high tensile bolts covering 8.8, 10.9, and 12.9 grades. Learn mechanical properties, proper selection, and applications for structural and industrial fastening in African construction.",
+    "en": "Complete guide to high tensile bolts covering 8.8, 10.9, and 12.9 grades. Learn mechanical properties, proper selection, and applications for structural and...",
     "zh": "高强度螺栓完整指南，涵盖8.8、10.9和12.9等级。了解力学性能、正确选型及非洲建筑结构工业紧固应用。",
     "es": "Guía completa de pernos de alta resistencia que cubre grados 8.8, 10.9 y 12.9.",
     "ar": "دليل شامل لبراغي الشد العالي يغطي الدرجات 8.8 و 10.9 و 12.9.",
@@ -94,6 +94,55 @@
       "body": {
         "en": "High tensile bolts are critical in African infrastructure: solar farm construction—securing tracker systems and panel racking; telecommunications towers—structural connections in monopole and lattice towers; mining infrastructure—conveyor support structures and crusher foundations; bridges—expansion joints and bearing connections; and commercial buildings—steel frame connections in high-rise construction."
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Technical Guide and how are they used?"
+          },
+          "a": {
+            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
+          }
+        }
+      ]
     }
   ],
   "cta": {

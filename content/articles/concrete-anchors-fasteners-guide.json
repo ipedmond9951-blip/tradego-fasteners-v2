@@ -17,7 +17,7 @@
     "hi": "कंक्रीट एंकर और फास्टनर्स की पूर्ण मार्गदर्शिका"
   },
   "description": {
-    "en": "Learn everything about concrete anchors and fasteners — types, load capacities, installation methods, and how to choose the right anchor for construction projects in Africa and the Middle East.",
+    "en": "Learn everything about concrete anchors and fasteners — types, load capacities, installation methods, and how to choose the right anchor for construction pro...",
     "zh": "了解混凝土锚栓紧固件的一切——类型、载荷能力、安装方法，以及如何为非洲和中东建设项目选择合适的锚栓。",
     "es": "Aprenda todo sobre anclajes y fijaciones para hormigón: tipos, capacidades de carga, métodos de instalación y cómo elegir el anclaje correcto.",
     "ar": "تعرف على كل شيء عن أنظمة التثبيت الخرسانية: الأنواع والقدرات وأساليب التركيب وكيفية اختيار المرابط المناسبة.",
@@ -155,6 +155,55 @@
           "a": {
             "en": "This usually means the hole is oversized or the anchor is not properly expanded. Remove the anchor, redrill with the correct bit size if needed, and reinstall. Never overtighten as this can damage the expansion mechanism.",
             "zh": "通常意味着孔径过大或锚栓未正确膨胀。取出锚栓，必要时用正确尺寸钻头重新钻孔后重新安装。切勿过度拧紧，以免损坏膨胀机构。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Technical Guide and how are they used?"
+          },
+          "a": {
+            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
           }
         }
       ]

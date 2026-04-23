@@ -7,17 +7,17 @@
   "title": {
     "en": "Nylon Nuts and Bolts Guide: Properties and Applications",
     "zh": "尼龙螺母螺栓指南：性能与应用",
-    "es": "Guía de tuercas y pernos de nylon: propiedades y aplicaciones",
+    "es": "Guía de tuercas y pernos de nylon: propiedades y aplicaci...",
     "ar": "دليل صواميل ومسامير النايلون: الخصائص والتطبيقات",
-    "fr": "Guide des écrous et boulons en nylon : propriétés et applications",
-    "pt": "Guia de porcas e parafusos de nylon: propriedades e aplicações",
-    "ru": "Руководство по нейлоновым гайкам и болтам: свойства и применение",
+    "fr": "Guide des écrous et boulons en nylon : propriétés et appl...",
+    "pt": "Guia de porcas e parafusos de nylon: propriedades e aplic...",
+    "ru": "Руководство по нейлоновым гайкам и болтам: свойства и при...",
     "ja": "ナイロンナット・ボルトガイド：特性と用途",
-    "de": "Nylon-Muttern und -Schrauben Leitfaden: Eigenschaften und Anwendungen",
+    "de": "Nylon-Muttern und -Schrauben Leitfaden: Eigenschaften und...",
     "hi": "नायलॉन नट और बोल्ट मार्गदर्शिका: गुण और अनुप्रयोग"
   },
   "description": {
-    "en": "Learn about nylon nuts and bolts — material properties, temperature limits, chemical resistance, electrical insulation, and when to choose nylon over metal fasteners.",
+    "en": "Learn about nylon nuts and bolts — material properties, temperature limits, chemical resistance, electrical insulation, and when to choose nylon over metal f...",
     "zh": "了解尼龙螺母螺栓——材料性能、温度限制、耐化学性、电绝缘性，以及何时选择尼龙替代金属紧固件。",
     "es": "Aprenda sobre tuercas y pernos de nylon: propiedades, límites de temperatura, resistencia química y aislamiento eléctrico.",
     "ar": "تعرف على صواميل ومسامير النايلون: الخصائص وحدود درجة الحرارة والمقاومة الكيميائية والعزل الكهربائي.",
@@ -161,6 +161,55 @@
           "a": {
             "en": "PA6 and PA6.6 in natural color (without additives) meet FDA 21 CFR requirements for food contact. Black/UV-stabilized grades may not be food-safe due to carbon black additives. Always confirm food compliance with the manufacturer.",
             "zh": "自然色（无添加剂）PA6和PA6.6满足FDA 21 CFR食品接触要求。黑色/UV稳定级因炭黑添加剂可能不安全。务必与制造商确认食品合规性。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Technical Guide and how are they used?"
+          },
+          "a": {
+            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
           }
         }
       ]

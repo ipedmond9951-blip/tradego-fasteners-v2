@@ -13,11 +13,11 @@
     "pt": "Guia completo de resistência à corrosão de fixadores",
     "ru": "Полное руководство по коррозионной стойкости крепежа",
     "ja": "締結器具の耐食性完全ガイド",
-    "de": "Vollständiger Leitfaden zur Korrosionsbeständigkeit von Befestigungsmitteln",
+    "de": "Vollständiger Leitfaden zur Korrosionsbeständigkeit von B...",
     "hi": "फास्टनर जंग प्रतिरोध की पूर्ण मार्गदर्शिका"
   },
   "description": {
-    "en": "Master fastener corrosion resistance — coating types, material grades, salt spray ratings, and selection strategies for construction projects in corrosive African and Middle Eastern environments.",
+    "en": "Master fastener corrosion resistance — coating types, material grades, salt spray ratings, and selection strategies for construction projects in corrosive Af...",
     "zh": "掌握紧固件防腐蚀——涂层类型、材料等级、盐雾测试等级，以及非洲和中东腐蚀环境建筑项目的选择策略。",
     "es": "Domine la resistencia a la corrosión de fijaciones: tipos de recubrimiento, grados de material y estrategias de selección.",
     "ar": "أتقن مقاومة تآكل المرابط: أنواع الطلاء ودرجات المواد واستراتيجيات الاختيار.",
@@ -219,6 +219,55 @@
           "a": {
             "en": "Not recommended. The galvanic couple between zinc and stainless steel will accelerate zinc corrosion. If mixing is unavoidable, use insulating washers (nylon or EPDM) between the dissimilar metals to break the electrical circuit.",
             "zh": "不推荐。锌和不锈钢之间的电偶会加速锌腐蚀。如不可避免，在异种金属之间使用绝缘垫圈（尼龙或EPDM）断开电路。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Technical Guide and how are they used?"
+          },
+          "a": {
+            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
           }
         }
       ]

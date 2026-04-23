@@ -5,19 +5,19 @@
   "readTime": 11,
   "image": "/images/products/construction-fasteners-1.jpg",
   "title": {
-    "en": "Construction Fastener Rough-In Checklist: Essential Fasteners for African Building Projects",
+    "en": "Construction Fastener Rough-In Checklist: Essential Faste...",
     "zh": "建筑紧固件粗装清单：非洲建筑项目必备紧固件完整清单",
-    "es": "Lista de verificación de sujetadores de construcción: sujetadores esenciales para proyectos de construcción africanos",
-    "ar": "قائمة التحقق من موانع البناء: موانع البناء الأساسية للمشاريع الأفريقية",
-    "fr": "Liste de contrôle des fixations de construction: fixations essentielles pour projets de construction africains",
-    "pt": "Lista de verificação de fixadores de construção: fixadores essenciais para projetos de construção africanos",
-    "ru": "Контрольный список крепежа для строительства: основной крепеж для африканских строительных проектов",
+    "es": "Lista de verificación de sujetadores de construcción: suj...",
+    "ar": "قائمة التحقق من موانع البناء: موانع البناء الأساسية للمشا...",
+    "fr": "Liste de contrôle des fixations de construction: fixation...",
+    "pt": "Lista de verificação de fixadores de construção: fixadore...",
+    "ru": "Контрольный список крепежа для строительства: основной кр...",
     "ja": "建設緩み止め金具ラ奥-inspectionチェックリスト：アフリカ建築プロジェクト向け必須緩み止め金具",
-    "de": "Baubefestigungs-Checkliste: Wesentliche Befestigungen für afrikanische Bauprojekte",
-    "hi": "कंस्ट्रक्शन फास्टनर रफ-इन चेकलिस्ट: अफ्रीकी निर्माण परियोजनाओं के लिए आवश्यक फास्टनर"
+    "de": "Baubefestigungs-Checkliste: Wesentliche Befestigungen für...",
+    "hi": "कंस्ट्रक्शन फास्टनर रफ-इन चेकलिस्ट: अफ्रीकी निर्माण परियो..."
   },
   "description": {
-    "en": "Complete fastener rough-in checklist for African construction: from structural steel to roofing, cladding, electrical, and plumbing. Learn what fasteners to specify for each stage of building construction.",
+    "en": "Complete fastener rough-in checklist for African construction: from structural steel to roofing, cladding, electrical, and plumbing. Learn what fasteners to...",
     "zh": "非洲建筑紧固件粗装完整清单：从钢结构到屋顶、覆层、电气和管道。了解建筑每个阶段应指定哪些紧固件。",
     "es": "Lista completa de sujetadores para construcción africana.",
     "ar": "قائمة كاملة لموانع البناء للمشاريع الأفريقية.",
@@ -32,49 +32,155 @@
   "sections": [
     {
       "id": "structural-phase",
-      "heading": { "en": "Phase 1: Structural Steel Connection" },
-      "body": { "en": "Structural phase fasteners are load-bearing and critical to building safety: Anchor bolts (J-bolts, L-bolts) — M20/M24 for column base plates; embed in concrete during pour; specify HDG or 316 SS for coastal; quantity = 4 per column minimum. Structural hex bolts — M16/M20 Grade 10.9 for beam-to-column, beam-to-beam connections; specify HDG for outdoor exposed; quantity = per connection design (typically 4-8 per splice). Base plate shims — thin steel plates for leveling steel columns before grouting; size to match base plate. Shear studs — M19×100 Nelson studs for composite steel-deck floors; welded to beam flanges before deck installation. High-strength F1554 Grade 55 or 105 for anchor bolts in seismic zones." }
+      "heading": {
+        "en": "Phase 1: Structural Steel Connection"
+      },
+      "body": {
+        "en": "Structural phase fasteners are load-bearing and critical to building safety: Anchor bolts (J-bolts, L-bolts) — M20/M24 for column base plates; embed in concrete during pour; specify HDG or 316 SS for coastal; quantity = 4 per column minimum. Structural hex bolts — M16/M20 Grade 10.9 for beam-to-column, beam-to-beam connections; specify HDG for outdoor exposed; quantity = per connection design (typically 4-8 per splice). Base plate shims — thin steel plates for leveling steel columns before grouting; size to match base plate. Shear studs — M19×100 Nelson studs for composite steel-deck floors; welded to beam flanges before deck installation. High-strength F1554 Grade 55 or 105 for anchor bolts in seismic zones."
+      }
     },
     {
       "id": "roofing-phase",
-      "heading": { "en": "Phase 2: Roofing and Cladding" },
-      "body": { "en": "Roofing fasteners must resist wind uplift and provide weather sealing: IBR/Trapezoidal roofing screws — #3 drill point, hex head with EPDM washer; 6mm (for 0.5mm sheet) or 8mm (for 0.8mm sheet) drill point; quantity = 4-6 per m² for roofs, 6-8 per m² for walls; always calculate based on wind zone. Side-lap screws — #2 drill point, pan head, 50mm long; one per lap rib at 500mm intervals. Ridge cap screws — same as roofing screws; install at both sides of ridge. Flashing nails — ring shank nails for securing flashing; hot-dip galvanized. For coastal areas (within 10km of ocean), specify stainless steel 304 roofing screws. For color-matched sheeting, specify polymer-coated in the correct RAL color — typically 500+ hours salt spray resistance." }
+      "heading": {
+        "en": "Phase 2: Roofing and Cladding"
+      },
+      "body": {
+        "en": "Roofing fasteners must resist wind uplift and provide weather sealing: IBR/Trapezoidal roofing screws — #3 drill point, hex head with EPDM washer; 6mm (for 0.5mm sheet) or 8mm (for 0.8mm sheet) drill point; quantity = 4-6 per m² for roofs, 6-8 per m² for walls; always calculate based on wind zone. Side-lap screws — #2 drill point, pan head, 50mm long; one per lap rib at 500mm intervals. Ridge cap screws — same as roofing screws; install at both sides of ridge. Flashing nails — ring shank nails for securing flashing; hot-dip galvanized. For coastal areas (within 10km of ocean), specify stainless steel 304 roofing screws. For color-matched sheeting, specify polymer-coated in the correct RAL color — typically 500+ hours salt spray resistance."
+      }
     },
     {
       "id": "ceiling-partition",
-      "heading": { "en": "Phase 3: Ceiling, Partition, and Drywall" },
-      "body": { "en": "Interior finishing fasteners: Drywall screws (coarse thread for wood, fine thread for metal studs) — #6×32mm for single-layer 12.5mm drywall to wood; #6×25mm for single-layer to metal studs; quantity ≈ 32-36 per 4×8 sheet. Ceiling channel (purlin) screws — #3 drill point, hex head, for ceiling grid to structural steel; M6×25mm for suspended ceiling Main Tees. Partition studs — No. 8 × 90mm bugle head screws for stud-to-track connections. Gyproc cornices —掰Gyproc screws for cornice fixing. Acoustic insulation clips — resilient channels for sound-rated partitions. For humid African environments (coastal, swimming pool buildings), use zinc-plated or stainless steel drywall screws to prevent corrosion staining." }
+      "heading": {
+        "en": "Phase 3: Ceiling, Partition, and Drywall"
+      },
+      "body": {
+        "en": "Interior finishing fasteners: Drywall screws (coarse thread for wood, fine thread for metal studs) — #6×32mm for single-layer 12.5mm drywall to wood; #6×25mm for single-layer to metal studs; quantity ≈ 32-36 per 4×8 sheet. Ceiling channel (purlin) screws — #3 drill point, hex head, for ceiling grid to structural steel; M6×25mm for suspended ceiling Main Tees. Partition studs — No. 8 × 90mm bugle head screws for stud-to-track connections. Gyproc cornices —掰Gyproc screws for cornice fixing. Acoustic insulation clips — resilient channels for sound-rated partitions. For humid African environments (coastal, swimming pool buildings), use zinc-plated or stainless steel drywall screws to prevent corrosion staining."
+      }
     },
     {
       "id": "electrical-plumbing",
-      "heading": { "en": "Phase 4: Electrical and Plumbing Rough-In" },
-      "body": { "en": "Electrical and plumbing fasteners for building services: Conduit clamps — one-bolt conduit clamps (M6 or M8) for securing PVC conduit to walls/ceilings; sizes match conduit OD (20mm, 25mm, 32mm, 40mm). Trunking (cable tray) screws — M6×20mm pan head, zinc-plated, for securing trunking lid clips. Junction box screws — M3.5×20mm nickel-plated for electrical boxes. Pipe clips — single or two-bolt pipe clips (M8) for copper/PVC pipe support; sizes DN15-DN50. Strap iron (saddle iron) — 25×3mm hot-dip galvanized strap for pipe runs; nail or screw to wood/brick. Masonry anchors — wall plugs (rawlplugs) + wood screws for fixing to brick/concrete; sizes 6mm, 8mm, 10mm. Count: approximately 2 bags of mixed wall plugs (500g each) per 100m² of building." }
+      "heading": {
+        "en": "Phase 4: Electrical and Plumbing Rough-In"
+      },
+      "body": {
+        "en": "Electrical and plumbing fasteners for building services: Conduit clamps — one-bolt conduit clamps (M6 or M8) for securing PVC conduit to walls/ceilings; sizes match conduit OD (20mm, 25mm, 32mm, 40mm). Trunking (cable tray) screws — M6×20mm pan head, zinc-plated, for securing trunking lid clips. Junction box screws — M3.5×20mm nickel-plated for electrical boxes. Pipe clips — single or two-bolt pipe clips (M8) for copper/PVC pipe support; sizes DN15-DN50. Strap iron (saddle iron) — 25×3mm hot-dip galvanized strap for pipe runs; nail or screw to wood/brick. Masonry anchors — wall plugs (rawlplugs) + wood screws for fixing to brick/concrete; sizes 6mm, 8mm, 10mm. Count: approximately 2 bags of mixed wall plugs (500g each) per 100m² of building."
+      }
     },
     {
       "id": "finishing-phase",
-      "heading": { "en": "Phase 5: Finishing and Fit-Out" },
-      "body": { "en": "Finishing phase fasteners — visible and often color-matched: Door and window frame screws — countersunk head, 100mm length for door frames to masonry/timber; specify stainless steel for coastal. Hinge screws — 30mm stainless steel screws for door hinges (replacing standard slotted with security head). Handrail brackets — M8 stainless steel screws for wall-mounting handrails. Sanitary ware — concealed fixing screws for toilets, basins, and bidets; stainless steel with white caps. Mirror fixings — special mirror clips with rubber buffer; stainless steel for humid bathrooms. Cabinet hinges — 15mm screws (provided with hinges usually). Skirting board nails — lost-head nails (brads) 50mm for timber skirtings; or grab screws for adhesive-fixed skirtings. For premium finishes in coastal Africa, specify stainless steel 316 for all visible fasteners to prevent rust staining." }
+      "heading": {
+        "en": "Phase 5: Finishing and Fit-Out"
+      },
+      "body": {
+        "en": "Finishing phase fasteners — visible and often color-matched: Door and window frame screws — countersunk head, 100mm length for door frames to masonry/timber; specify stainless steel for coastal. Hinge screws — 30mm stainless steel screws for door hinges (replacing standard slotted with security head). Handrail brackets — M8 stainless steel screws for wall-mounting handrails. Sanitary ware — concealed fixing screws for toilets, basins, and bidets; stainless steel with white caps. Mirror fixings — special mirror clips with rubber buffer; stainless steel for humid bathrooms. Cabinet hinges — 15mm screws (provided with hinges usually). Skirting board nails — lost-head nails (brads) 50mm for timber skirtings; or grab screws for adhesive-fixed skirtings. For premium finishes in coastal Africa, specify stainless steel 316 for all visible fasteners to prevent rust staining."
+      }
     },
     {
       "id": "quantity-estimation",
-      "heading": { "en": "Quick Quantity Estimation Guide" },
-      "body": { "en": "For estimating fastener quantities at construction planning stage: Rule of thumb — allow 25-40kg of mixed fasteners per 100m² of building (excluding structural steel). For roofing — allow 6-8 screws per m² of IBR roof sheeting (depending on wind zone); for cladding allow 8-10 per m². For drywall — allow approximately 1 kg of drywall screws per 10m² of drywall. For electrical — allow approximately 1 bag (500g) of wall plugs per 50m²; plus 1 box of cable clips per 100m² of building. These are estimates only — always verify against actual project specifications and structural engineer's requirements." },
+      "heading": {
+        "en": "Quick Quantity Estimation Guide"
+      },
+      "body": {
+        "en": "For estimating fastener quantities at construction planning stage: Rule of thumb — allow 25-40kg of mixed fasteners per 100m² of building (excluding structural steel). For roofing — allow 6-8 screws per m² of IBR roof sheeting (depending on wind zone); for cladding allow 8-10 per m². For drywall — allow approximately 1 kg of drywall screws per 10m² of drywall. For electrical — allow approximately 1 bag (500g) of wall plugs per 50m²; plus 1 box of cable clips per 100m² of building. These are estimates only — always verify against actual project specifications and structural engineer's requirements."
+      },
       "table": {
-        "headers": ["Building Type", "100m² Fastener Weight", "Key Categories"],
+        "headers": [
+          "Building Type",
+          "100m² Fastener Weight",
+          "Key Categories"
+        ],
         "rows": [
-          ["Residential (single story)", "25-30 kg", "Roofing 40%, structural 20%, finishing 30%, other 10%"],
-          ["Residential (multi-story)", "30-40 kg", "Structural 30%, drywall 25%, roofing 20%, other 25%"],
-          ["Commercial office", "35-50 kg", "Drywall 30%, facade 25%, ceiling 20%, other 25%"],
-          ["Industrial warehouse", "20-25 kg", "Roofing 50%, structural 30%, other 20%"],
-          ["Mining infrastructure", "50-80 kg", "Structural 40%, mechanical 30%, electrical 20%, other 10%"]
+          [
+            "Residential (single story)",
+            "25-30 kg",
+            "Roofing 40%, structural 20%, finishing 30%, other 10%"
+          ],
+          [
+            "Residential (multi-story)",
+            "30-40 kg",
+            "Structural 30%, drywall 25%, roofing 20%, other 25%"
+          ],
+          [
+            "Commercial office",
+            "35-50 kg",
+            "Drywall 30%, facade 25%, ceiling 20%, other 25%"
+          ],
+          [
+            "Industrial warehouse",
+            "20-25 kg",
+            "Roofing 50%, structural 30%, other 20%"
+          ],
+          [
+            "Mining infrastructure",
+            "50-80 kg",
+            "Structural 40%, mechanical 30%, electrical 20%, other 10%"
+          ]
         ]
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Technical Guide and how are they used?"
+          },
+          "a": {
+            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
+          }
+        }
+      ]
     }
   ],
-  "relatedProducts": ["construction-fasteners", "bulk-fasteners"],
+  "relatedProducts": [
+    "construction-fasteners",
+    "bulk-fasteners"
+  ],
   "cta": {
-    "text": { "en": "Need a complete fastener package for your construction project? Get a factory quote from TradeGo.", "zh": "需要建筑项目完整紧固件配套？从TradeGo获取工厂报价。" },
-    "buttonText": { "en": "Get Quote", "zh": "获取报价" },
+    "text": {
+      "en": "Need a complete fastener package for your construction project? Get a factory quote from TradeGo.",
+      "zh": "需要建筑项目完整紧固件配套？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
     "link": "/#inquiry"
   }
 }

@@ -5,15 +5,15 @@
   "readTime": 6,
   "image": "/images/products/timber-screws.jpg",
   "title": {
-    "en": "Timber Construction Screws Guide: Selection for Wood Frame & Structural Applications",
+    "en": "Timber Construction Screws Guide: Selection for Wood Fram...",
     "zh": "木结构建筑螺钉指南：木框架和结构应用选型",
-    "es": "Guía de tornillos para construcción en madera: selección para estructuras de madera",
-    "ar": "دليل براغي البناء الخشبي: الاختيار للتطبيقات الهيكلية الخشبية",
-    "fr": "Guide des vis pour construction bois: sélection pour applications structurelles",
-    "pt": "Guia de parafusos para construção em madeira: seleção para aplicações estruturais"
+    "es": "Guía de tornillos para construcción en madera: selección...",
+    "ar": "دليل براغي البناء الخشبي: الاختيار للتطبيقات الهيكلية الخ...",
+    "fr": "Guide des vis pour construction bois: sélection pour appl...",
+    "pt": "Guia de parafusos para construção em madeira: seleção par..."
   },
   "description": {
-    "en": "Complete guide to timber construction screws including structural wood screws, deck screws, and landscape screws. Learn proper selection for wood frame construction, decking, and outdoor structures in African climates.",
+    "en": "Complete guide to timber construction screws including structural wood screws, deck screws, and landscape screws. Learn proper selection for wood frame const...",
     "zh": "木结构建筑螺钉完整指南，包括结构木螺钉、 decking螺钉和景观螺钉。了解非洲气候下木框架建筑、 decking和户外结构的正确选型。",
     "es": "Guía completa de tornillos para construcción en madera incluyendo tornillos estructurales.",
     "ar": "دليل شامل لبراغي البناء الخشبي بما في ذلك البراغي الهيكلية الخشبية.",
@@ -100,6 +100,55 @@
       "body": {
         "en": "For proper installation: pre-drill hardwoods to prevent splitting; use clamps to draw joints tight before screwing; drive screws at a slight angle for better withdrawal resistance; apply sealants to screw heads in exterior applications; and maintain minimum edge distances (5d from edges, 10d between screws along the grain)."
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Technical Guide and how are they used?"
+          },
+          "a": {
+            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
+          }
+        }
+      ]
     }
   ],
   "cta": {

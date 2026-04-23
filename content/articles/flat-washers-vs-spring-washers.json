@@ -17,7 +17,7 @@
     "hi": "फ्लैट वॉशर बनाम स्प्रिंग वॉशर: चयन मार्गदर्शिका"
   },
   "description": {
-    "en": "Compare flat washers and spring washers — when to use each type, load distribution vs anti-loosening, standards, and selection criteria for construction fastener assemblies.",
+    "en": "Compare flat washers and spring washers — when to use each type, load distribution vs anti-loosening, standards, and selection criteria for construction fast...",
     "zh": "对比平垫圈和弹簧垫圈——各自适用场景、载荷分布vs防松、标准，以及建筑紧固件组合的选型标准。",
     "es": "Compare arandelas planas y de resorte: cuándo usar cada tipo, distribución de carga vs antiaflojamiento y criterios de selección.",
     "ar": "قارن الحلقات المسطحة والزنبركية: متى تستخدم كل نوع ومعايير الاختيار.",
@@ -166,6 +166,55 @@
           "a": {
             "en": "Stacking spring washers is not recommended. It does not proportionally increase locking force and can create uneven bearing surfaces. Instead, use a more effective locking method such as a Nord-Lock washer or prevailing torque nut.",
             "zh": "不推荐叠加弹簧垫圈。它不会成比例增加锁紧力，还可能造成不均匀承压面。应使用更有效的锁紧方法如Nord-Lock垫圈或施力螺母。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Product Comparison and how are they used?"
+          },
+          "a": {
+            "en": "Product Comparison are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
           }
         }
       ]

@@ -9,15 +9,15 @@
     "zh": "马车螺栓规格与选型指南",
     "es": "Especificaciones y guía de selección de pernos de carruaje",
     "ar": "مواصفات ودليل اختيار مسامير العربة",
-    "fr": "Spécifications et guide de sélection des boulons à tête carrée",
+    "fr": "Spécifications et guide de sélection des boulons à tête c...",
     "pt": "Especificações e guia de seleção de parafusos de carruagem",
-    "ru": "Спецификации и руководство по выбору болтов с квадратным подголовком",
+    "ru": "Спецификации и руководство по выбору болтов с квадратным...",
     "ja": "キャリッジボルトの仕様と選定ガイド",
     "de": "Schlossschrauben Spezifikationen und Auswahllleitfaden",
     "hi": "कैरिज बोल्ट विशिष्टताएँ और चयन मार्गदर्शिका"
   },
   "description": {
-    "en": "Comprehensive guide to carriage bolt specifications, grades, materials, and how to select the right carriage bolt for wood-to-metal and wood-to-wood applications.",
+    "en": "Comprehensive guide to carriage bolt specifications, grades, materials, and how to select the right carriage bolt for wood-to-metal and wood-to-wood applicat...",
     "zh": "马车螺栓规格、等级、材料的全面指南，以及如何为木-金属和木-木应用选择正确的马车螺栓。",
     "es": "Guía completa de especificaciones, grados y materiales de pernos de carruaje, y cómo seleccionar el perno correcto.",
     "ar": "دليل شامل لمواصفات ودرجات ومواد مسامير العربة وكيفية اختيار المسمار المناسب.",
@@ -155,6 +155,55 @@
           "a": {
             "en": "Generally no. The square neck is designed to embed into wood or similar soft materials to prevent rotation. In steel-to-steel connections, the neck cannot lock, and standard hex bolts or structural bolts should be used instead.",
             "zh": "通常不可以。方形颈部设计为嵌入木材或类似软材料以防止旋转。在钢-钢连接中颈部无法锁定，应使用标准六角螺栓或结构螺栓。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Technical Guide and how are they used?"
+          },
+          "a": {
+            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
           }
         }
       ]

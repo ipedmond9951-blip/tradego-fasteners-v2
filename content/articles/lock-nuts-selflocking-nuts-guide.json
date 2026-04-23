@@ -5,15 +5,15 @@
   "readTime": 6,
   "image": "/images/products/lock-nuts.jpg",
   "title": {
-    "en": "Lock Nuts & Self-Locking Nuts Guide: Preventing Loosening in Vibrating Environments",
+    "en": "Lock Nuts & Self-Locking Nuts Guide: Preventing Loosening...",
     "zh": "锁紧螺母和自锁螺母指南：防止振动环境中的松动",
-    "es": "Guía de tuercas de bloqueo y autlocantes: previniendo aflojamiento",
-    "ar": "دليل الصواميل المقفلة والصواميل ذات القفل الذاتي: منع الارتخاء",
-    "fr": "Guide des écrous de blocage et autoverrouillants: empêcher le desserrage",
-    "pt": "Guia de porcas de travamento e autotravantes: prevenindo afrouxamento"
+    "es": "Guía de tuercas de bloqueo y autlocantes: previniendo afl...",
+    "ar": "دليل الصواميل المقفلة والصواميل ذات القفل الذاتي: منع الا...",
+    "fr": "Guide des écrous de blocage et autoverrouillants: empêche...",
+    "pt": "Guia de porcas de travamento e autotravantes: prevenindo..."
   },
   "description": {
-    "en": "Complete guide to lock nuts and self-locking nuts including nylon insert lock nuts, spring-loaded lock nuts, and prevailing torque nuts. Essential for preventing loosening in vibrating machinery and equipment in African mining operations.",
+    "en": "Complete guide to lock nuts and self-locking nuts including nylon insert lock nuts, spring-loaded lock nuts, and prevailing torque nuts. Essential for preven...",
     "zh": "锁紧螺母和自锁螺母完整指南，包括尼龙嵌入锁紧螺母、弹簧加载锁紧螺母和预紧力矩螺母。对于防止非洲矿业运营中振动机械和设备的松动至关重要。",
     "es": "Guía completa de tuercas de bloqueo y autlocantes incluyendo tuercas con inserto de nylon.",
     "ar": "دليل شامل للصواميل المقفلة والصواميل ذات القفل الذاتي بما في ذلك صواميل القفل النايلون.",
@@ -100,6 +100,55 @@
       "body": {
         "en": "When selecting lock nuts: for standard applications, nylon insert nuts offer cost-effective solution; for high temperature (above 120°C), use all-metal prevailing torque nuts; for critical structural applications, specify prevailing torque nuts with certification; and for food or medical applications, specify stainless steel with FDA-compliant materials."
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Technical Guide and how are they used?"
+          },
+          "a": {
+            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
+          }
+        }
+      ]
     }
   ],
   "cta": {

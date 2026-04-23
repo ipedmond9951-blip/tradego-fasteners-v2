@@ -5,15 +5,15 @@
   "readTime": 7,
   "image": "/images/products/hex-nuts.jpg",
   "title": {
-    "en": "Hex Nuts Complete Guide: Types, Grades & Selection for Industrial Applications",
+    "en": "Hex Nuts Complete Guide: Types, Grades & Selection for In...",
     "zh": "六角螺母完整指南：类型、等级与工业应用选型",
-    "es": "Guía completa de tuercas hexagonales: tipos, grados y selección",
+    "es": "Guía completa de tuercas hexagonales: tipos, grados y sel...",
     "ar": "دليل شامل للصواميل السداسية: الأنواع والدرجات والاختيار",
-    "fr": "Guide complet des écrous hexagonaux: types, grades et sélection",
+    "fr": "Guide complet des écrous hexagonaux: types, grades et sél...",
     "pt": "Guia completo de porcas sextavadas: tipos, graus e seleção"
   },
   "description": {
-    "en": "Complete guide to hex nuts covering DIN 934, ISO 4032 standards, mechanical properties, and selection criteria for construction and industrial applications in African markets.",
+    "en": "Complete guide to hex nuts covering DIN 934, ISO 4032 standards, mechanical properties, and selection criteria for construction and industrial applications i...",
     "zh": "六角螺母完整指南，涵盖DIN 934、ISO 4032标准，力学性能，及非洲市场的建筑和工业应用选型标准。",
     "es": "Guía completa de tuercas hexagonales que cubre estándares DIN 934, ISO 4032.",
     "ar": "دليل شامل للصواميل السداسية يغطي معايير DIN 934 و ISO 4032.",
@@ -146,6 +146,55 @@
       "body": {
         "en": "When sourcing hex nuts for African projects: Specify DIN/ISO standards in purchase orders to ensure dimensional consistency. Request material certificates (mill test reports) confirming steel grade and mechanical properties. Minimum order quantities typically 1000 pieces per size. Consider bulk packaging to reduce per-unit costs for large projects like solar installations or mining infrastructure."
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Technical Guide and how are they used?"
+          },
+          "a": {
+            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
+          }
+        }
+      ]
     }
   ],
   "cta": {

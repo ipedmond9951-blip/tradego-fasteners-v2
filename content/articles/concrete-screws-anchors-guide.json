@@ -5,15 +5,15 @@
   "readTime": 6,
   "image": "/images/products/concrete-screws.jpg",
   "title": {
-    "en": "Concrete Screws & Anchors Guide: Secure Fastening to Concrete, Brick & Block",
+    "en": "Concrete Screws & Anchors Guide: Secure Fastening to Conc...",
     "zh": "混凝土螺钉和锚栓指南：混凝土、砖块和砌块的安全固定",
-    "es": "Guía de tornillos y anclajes para concreto: fijación segura en concreto",
+    "es": "Guía de tornillos y anclajes para concreto: fijación segu...",
     "ar": "دليل براغي المرساة للخرسانة: التثبيت الآمن للخرسانة والطوب",
-    "fr": "Guide des vis et ancrages pour béton: fixation sécurisée au béton",
-    "pt": "Guia de parafusos e chumbadores para concreto: fixação segura em concreto"
+    "fr": "Guide des vis et ancrages pour béton: fixation sécurisée...",
+    "pt": "Guia de parafusos e chumbadores para concreto: fixação se..."
   },
   "description": {
-    "en": "Complete guide to concrete screws and anchors covering screw anchors, drop-in anchors, and shield anchors. Learn proper selection and installation for securing fixtures to concrete in African construction projects.",
+    "en": "Complete guide to concrete screws and anchors covering screw anchors, drop-in anchors, and shield anchors. Learn proper selection and installation for securi...",
     "zh": "混凝土螺钉和锚栓完整指南，涵盖螺钉锚栓、膨胀锚栓和套管锚栓。了解非洲建筑项目中固定装置到混凝土的正确选型和安装。",
     "es": "Guía completa de tornillos y anclajes para concreto que cubre anclajes de tornillo.",
     "ar": "دليل شامل لبراغي المرساة للخرسانة يغطي مراسي البراغي والمراسي الأخرى.",
@@ -100,6 +100,55 @@
       "body": {
         "en": "When selecting concrete anchors: determine the load requirements (tension, shear, or combined); consider the base material strength (standard concrete vs. lightweight concrete); evaluate environmental conditions (corrosion potential); check building code requirements for specific applications; and for structural applications, ensure anchors are ICC-ES or equivalent certified."
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Technical Guide and how are they used?"
+          },
+          "a": {
+            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
+          }
+        }
+      ]
     }
   ],
   "cta": {

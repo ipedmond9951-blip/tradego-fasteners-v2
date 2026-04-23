@@ -5,15 +5,15 @@
   "readTime": 6,
   "image": "/images/products/threaded-rods.jpg",
   "title": {
-    "en": "Threaded Rods Complete Guide: All-Thread Fasteners for Structural & Industrial Applications",
+    "en": "Threaded Rods Complete Guide: All-Thread Fasteners for St...",
     "zh": "全螺纹螺杆完整指南：结构和工业应用的全螺纹紧固件",
-    "es": "Guía completa de varillas roscadas: sujetadores de rosca completa",
-    "ar": "دليل كامل للبراغي ذات الخيوط الكاملة: المثبتات الهيكلية والصناعية",
-    "fr": "Guide complet des barres filetées: fixations entièrement filetées",
-    "pt": "Guia completo de hastes roscadas: fixadores de rosca completa"
+    "es": "Guía completa de varillas roscadas: sujetadores de rosca...",
+    "ar": "دليل كامل للبراغي ذات الخيوط الكاملة: المثبتات الهيكلية و...",
+    "fr": "Guide complet des barres filetées: fixations entièrement...",
+    "pt": "Guia completo de hastes roscadas: fixadores de rosca comp..."
   },
   "description": {
-    "en": "Complete guide to threaded rods (all-thread) covering specifications, materials, and applications. Learn how to use threaded rods for structural connections, hanging applications, and industrial fastening in African construction.",
+    "en": "Complete guide to threaded rods (all-thread) covering specifications, materials, and applications. Learn how to use threaded rods for structural connections,...",
     "zh": "全螺纹螺杆完整指南，涵盖规格、材料和应用。了解如何在非洲建筑中使用全螺纹螺杆进行结构连接、悬挂应用和工业紧固。",
     "es": "Guía completa de varillas roscadas que cubre especificaciones y aplicaciones.",
     "ar": "دليل شامل للبراغي ذات الخيوط الكاملة يغطي المواصفات والتطبيقات.",
@@ -112,6 +112,55 @@
       "body": {
         "en": "When longer lengths are needed, threaded rods can be joined using coupling nuts (threaded couplers). The minimum overlap should be 1.5 times the rod diameter for each coupler. For critical structural applications, consider using continuous rods instead of joined sections to eliminate potential failure points at the coupler."
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Technical Guide and how are they used?"
+          },
+          "a": {
+            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
+          }
+        }
+      ]
     }
   ],
   "cta": {

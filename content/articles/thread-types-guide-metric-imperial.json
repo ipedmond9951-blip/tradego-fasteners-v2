@@ -7,17 +7,17 @@
   "title": {
     "en": "Thread Types Guide: Metric and Imperial Threads Explained",
     "zh": "螺纹类型指南：公制与英制螺纹详解",
-    "es": "Guía de tipos de rosca: roscas métricas e imperiales explicadas",
+    "es": "Guía de tipos de rosca: roscas métricas e imperiales expl...",
     "ar": "دليل أنواع الخيوط: شرح الخيوط المترية والإمبراطورية",
-    "fr": "Guide des types de filets : filets métriques et impériaux expliqués",
-    "pt": "Guia de tipos de rosca: roscas métricas e imperiais explicadas",
+    "fr": "Guide des types de filets : filets métriques et impériaux...",
+    "pt": "Guia de tipos de rosca: roscas métricas e imperiais expli...",
     "ru": "Руководство по типам резьбы: метрическая и дюймовая резьба",
     "ja": "ねじの種類ガイド：メートルねじとインチねじの解説",
     "de": "Gewindetypen-Leitfaden: Metrische und Zollgewinde erklärt",
-    "hi": "थ्रेड प्रकार मार्गदर्शिका: मेट्रिक और इंपीरियल थ्रेड की व्याख्या"
+    "hi": "थ्रेड प्रकार मार्गदर्शिका: मेट्रिक और इंपीरियल थ्रेड की व..."
   },
   "description": {
-    "en": "Understand metric and imperial thread types, pitch differences, compatibility rules, and how to specify the correct thread for construction fastener procurement.",
+    "en": "Understand metric and imperial thread types, pitch differences, compatibility rules, and how to specify the correct thread for construction fastener procurem...",
     "zh": "了解公制和英制螺纹类型、螺距差异、兼容性规则，以及如何为建筑紧固件采购指定正确的螺纹。",
     "es": "Comprenda los tipos de rosca métrica e imperial, diferencias de paso, reglas de compatibilidad y especificación correcta.",
     "ar": "فهم أنواع الخيوط المترية والإمبراطورية واختلافات الخطوة وقواعد التوافق وكيفية تحديد الخيط الصحيح.",
@@ -173,6 +173,55 @@
           "a": {
             "en": "Yes, helicoil inserts can repair damaged threads or convert between thread systems in non-structural applications. However, for structural connections, thread conversion is not recommended — use the original thread specification.",
             "zh": "可以，螺纹嵌件可修复损坏螺纹或在非结构应用中转换螺纹体系。但结构连接不建议转换，使用原始螺纹规格。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Technical Guide and how are they used?"
+          },
+          "a": {
+            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
           }
         }
       ]

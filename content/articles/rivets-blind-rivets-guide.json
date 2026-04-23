@@ -5,15 +5,15 @@
   "readTime": 6,
   "image": "/images/products/rivets.jpg",
   "title": {
-    "en": "Rivets & Blind Rivets Guide: Permanent Fastening Solutions for One-Sided Access",
+    "en": "Rivets & Blind Rivets Guide: Permanent Fastening Solution...",
     "zh": "铆钉和抽芯铆钉指南：单面访问的永久紧固解决方案",
-    "es": "Guía de remaches y remaches ciegos: soluciones de fijación permanente",
-    "ar": "دليل الغطاسات والغاطسات العمياء: حلول التثبيت الدائم للوصول من جانب واحد",
-    "fr": "Guide des rivets et rivets aveugles: solutions de fixation permanentes",
-    "pt": "Guia de rebites e rebites cegos: soluções de fixação permanente"
+    "es": "Guía de remaches y remaches ciegos: soluciones de fijació...",
+    "ar": "دليل الغطاسات والغاطسات العمياء: حلول التثبيت الدائم للوص...",
+    "fr": "Guide des rivets et rivets aveugles: solutions de fixatio...",
+    "pt": "Guia de rebites e rebites cegos: soluções de fixação perm..."
   },
   "description": {
-    "en": "Complete guide to rivets and blind rivets covering types, applications, and installation. Learn when to use rivets instead of bolts for permanent fastening in structural and sheet metal applications in African construction.",
+    "en": "Complete guide to rivets and blind rivets covering types, applications, and installation. Learn when to use rivets instead of bolts for permanent fastening i...",
     "zh": "铆钉和抽芯铆钉完整指南，涵盖类型、应用和安装。了解何时使用铆钉代替螺栓进行非洲建筑结构和钣金应用中的永久紧固。",
     "es": "Guía completa de remaches y remaches ciegos que cubre tipos y aplicaciones.",
     "ar": "دليل شامل للغطاسات والغاطسات العمياء يغطي الأنواع والتطبيقات.",
@@ -100,6 +100,55 @@
       "body": {
         "en": "For proper rivet installation: drill the correct hole size (slightly larger than the rivet diameter); clean the hole of debris before insertion; insert the rivet fully until the head seats against the material; position the rivet tool correctly on the mandrel; squeeze the tool handles fully until the mandrel snaps; and verify the installed rivet head is fully formed and secure."
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Technical Guide and how are they used?"
+          },
+          "a": {
+            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
+          }
+        }
+      ]
     }
   ],
   "cta": {

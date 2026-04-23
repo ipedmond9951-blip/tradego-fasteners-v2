@@ -5,16 +5,16 @@
   "readTime": 9,
   "image": "/images/products/socket-screws-1.jpg",
   "title": {
-    "en": "Socket Head Cap Screws (Allen Key Bolts) Complete Guide: Applications & Selection",
+    "en": "Socket Head Cap Screws (Allen Key Bolts) Complete Guide:...",
     "zh": "内六角螺钉（Allen Key螺栓）完整指南：应用与选型",
-    "es": "Guía completa de tornillos de cabeza hueca hexagonal: aplicaciones y selección",
+    "es": "Guía completa de tornillos de cabeza hueca hexagonal: apl...",
     "ar": "دليل شامل لبراغي رأس المقبس: التطبيقات والاختيار",
-    "fr": "Guide complet des vis à tête creuse hexagonale : applications et sélection",
-    "pt": "Guia completo de parafusos de cabeça sextavada interna: aplicações e seleção",
-    "ru": "Полное руководство по винтам с внутренним шестигранником: применение и выбор",
+    "fr": "Guide complet des vis à tête creuse hexagonale : applicat...",
+    "pt": "Guia completo de parafusos de cabeça sextavada interna: a...",
+    "ru": "Полное руководство по винтам с внутренним шестигранником:...",
     "ja": " 六角穴付きボルト（キャップスクリュー）完全ガイド：用途と選定",
-    "de": "Vollständiger Leitfaden zu Innensechskantschrauben: Anwendungen und Auswahl",
-    "hi": "सॉकेट हेड कैप स्क्रू (एलन की बोल्ट) पूर्ण गाइड: अनुप्रयोग और चयन"
+    "de": "Vollständiger Leitfaden zu Innensechskantschrauben: Anwen...",
+    "hi": "सॉकेट हेड कैप स्क्रू (एलन की बोल्ट) पूर्ण गाइड: अनुप्रयोग..."
   },
   "description": {
     "en": "Complete guide to socket head cap screws (allen bolts): sizes, grades, applications in machinery, automotive, and precision equipment assembly across Africa.",
@@ -32,67 +32,200 @@
   "sections": [
     {
       "id": "what-are-socket-screws",
-      "heading": { "en": "What Are Socket Head Cap Screws?" },
-      "body": { "en": "Socket head cap screws (commonly called 'allen bolts' or 'allen key bolts' in Africa) are precision machine screws with a cylindrical head featuring a recessed hex socket (allen key drive). They are designed for high-strength mechanical connections where a low-profile hex head is needed. The hex socket drive provides more contact area than a standard hex head of the same size, enabling higher torque transmission without rounding the drive. Socket head cap screws are the standard fastener for precision machinery, engines, and equipment where consistent, high-torque fastening is required." }
+      "heading": {
+        "en": "What Are Socket Head Cap Screws?"
+      },
+      "body": {
+        "en": "Socket head cap screws (commonly called 'allen bolts' or 'allen key bolts' in Africa) are precision machine screws with a cylindrical head featuring a recessed hex socket (allen key drive). They are designed for high-strength mechanical connections where a low-profile hex head is needed. The hex socket drive provides more contact area than a standard hex head of the same size, enabling higher torque transmission without rounding the drive. Socket head cap screws are the standard fastener for precision machinery, engines, and equipment where consistent, high-torque fastening is required."
+      }
     },
     {
       "id": "types-variants",
-      "heading": { "en": "Socket Screw Variants" },
-      "body": { "en": "Beyond standard socket head cap screws, several specialized variants exist: Socket head shoulder screws (stripper bolts) — have a shoulder (unthreaded section) that acts as a precise axle or pivot point; Socket set screws — no head, fully threaded with a hex socket on one end for locking components onto shafts; Socket button head screws — domed head with hex socket, decorative low profile; Socket flat head cap screws — countersunk head with hex socket for flush mounting; Low head socket cap screws — reduced head height for limited clearance applications." },
+      "heading": {
+        "en": "Socket Screw Variants"
+      },
+      "body": {
+        "en": "Beyond standard socket head cap screws, several specialized variants exist: Socket head shoulder screws (stripper bolts) — have a shoulder (unthreaded section) that acts as a precise axle or pivot point; Socket set screws — no head, fully threaded with a hex socket on one end for locking components onto shafts; Socket button head screws — domed head with hex socket, decorative low profile; Socket flat head cap screws — countersunk head with hex socket for flush mounting; Low head socket cap screws — reduced head height for limited clearance applications."
+      },
       "table": {
-        "headers": ["Type", "Head Height", "Drive", "Best Use"],
+        "headers": [
+          "Type",
+          "Head Height",
+          "Drive",
+          "Best Use"
+        ],
         "rows": [
-          ["Socket Head Cap (SHCS)", "1.5×D", "Hex socket", "Standard high-strength joints"],
-          ["Socket Button Head", "0.75×D", "Hex socket", "Low profile decorative"],
-          ["Socket Flat Head", "Flush", "Hex socket", "Flush mounting in precision work"],
-          ["Socket Shoulder Bolt", "Shoulder×D", "Hex socket", "Pivot points, axles"],
-          ["Socket Set Screw", "No head", "Hex socket", "Locking onto shafts"],
-          ["Low Head Cap Screw", "1.0×D", "Hex socket", "Limited clearance"]
+          [
+            "Socket Head Cap (SHCS)",
+            "1.5×D",
+            "Hex socket",
+            "Standard high-strength joints"
+          ],
+          [
+            "Socket Button Head",
+            "0.75×D",
+            "Hex socket",
+            "Low profile decorative"
+          ],
+          [
+            "Socket Flat Head",
+            "Flush",
+            "Hex socket",
+            "Flush mounting in precision work"
+          ],
+          [
+            "Socket Shoulder Bolt",
+            "Shoulder×D",
+            "Hex socket",
+            "Pivot points, axles"
+          ],
+          [
+            "Socket Set Screw",
+            "No head",
+            "Hex socket",
+            "Locking onto shafts"
+          ],
+          [
+            "Low Head Cap Screw",
+            "1.0×D",
+            "Hex socket",
+            "Limited clearance"
+          ]
         ]
       }
     },
     {
       "id": "sizes-torques",
-      "heading": { "en": "Sizes and Torque Specifications" },
-      "body": { "en": "Socket head cap screws range from M2 to M36 diameter. For African industrial applications, M4 to M16 are most common. The socket size (allen key size) is proportionally smaller than the bolt diameter, which allows for a more compact head. Torque capacity depends on the screw grade: Grade 12.9 (dark gray, highest strength) is standard for machinery requiring maximum clamping force; Grade 10.9 is intermediate; Grade 8.8 is for general applications. Always use a calibrated torque wrench and follow the equipment manufacturer's specifications." },
+      "heading": {
+        "en": "Sizes and Torque Specifications"
+      },
+      "body": {
+        "en": "Socket head cap screws range from M2 to M36 diameter. For African industrial applications, M4 to M16 are most common. The socket size (allen key size) is proportionally smaller than the bolt diameter, which allows for a more compact head. Torque capacity depends on the screw grade: Grade 12.9 (dark gray, highest strength) is standard for machinery requiring maximum clamping force; Grade 10.9 is intermediate; Grade 8.8 is for general applications. Always use a calibrated torque wrench and follow the equipment manufacturer's specifications."
+      },
       "table": {
-        "headers": ["Size", "Socket Size (mm)", "Torque (12.9 Grade)", "Torque (10.9 Grade)"],
+        "headers": [
+          "Size",
+          "Socket Size (mm)",
+          "Torque (12.9 Grade)",
+          "Torque (10.9 Grade)"
+        ],
         "rows": [
-          ["M4", "3", "4.5 N·m", "3.5 N·m"],
-          ["M5", "4", "9.5 N·m", "7.5 N·m"],
-          ["M6", "5", "16 N·m", "12.5 N·m"],
-          ["M8", "6", "38 N·m", "30 N·m"],
-          ["M10", "8", "75 N·m", "60 N·m"],
-          ["M12", "10", "130 N·m", "105 N·m"],
-          ["M16", "14", "320 N·m", "260 N·m"],
-          ["M20", "17", "630 N·m", "510 N·m"]
+          [
+            "M4",
+            "3",
+            "4.5 N·m",
+            "3.5 N·m"
+          ],
+          [
+            "M5",
+            "4",
+            "9.5 N·m",
+            "7.5 N·m"
+          ],
+          [
+            "M6",
+            "5",
+            "16 N·m",
+            "12.5 N·m"
+          ],
+          [
+            "M8",
+            "6",
+            "38 N·m",
+            "30 N·m"
+          ],
+          [
+            "M10",
+            "8",
+            "75 N·m",
+            "60 N·m"
+          ],
+          [
+            "M12",
+            "10",
+            "130 N·m",
+            "105 N·m"
+          ],
+          [
+            "M16",
+            "14",
+            "320 N·m",
+            "260 N·m"
+          ],
+          [
+            "M20",
+            "17",
+            "630 N·m",
+            "510 N·m"
+          ]
         ]
       }
     },
     {
       "id": "applications",
-      "heading": { "en": "Industrial Applications in Africa" },
-      "body": { "en": "Socket head cap screws are the fastener of choice in precision machinery and equipment across African industry: CNC machines and industrial motors — M6-M16 SHCS for motor mounts, bearing caps, and housing covers; Mining equipment — M10-M20 for high-stress connections in conveyors, crushers, and drill rigs; Water treatment pumps — M8-M12 for impeller retention, seal housing, and coupling connections; Generator sets — M6-M10 for control panel mounting and alternator assembly; Agricultural machinery — M8-M12 for gearbox covers, hitch points, and PTO connections; Solar tracking systems — M8-M12 for pivot joints and actuator mounting." }
+      "heading": {
+        "en": "Industrial Applications in Africa"
+      },
+      "body": {
+        "en": "Socket head cap screws are the fastener of choice in precision machinery and equipment across African industry: CNC machines and industrial motors — M6-M16 SHCS for motor mounts, bearing caps, and housing covers; Mining equipment — M10-M20 for high-stress connections in conveyors, crushers, and drill rigs; Water treatment pumps — M8-M12 for impeller retention, seal housing, and coupling connections; Generator sets — M6-M10 for control panel mounting and alternator assembly; Agricultural machinery — M8-M12 for gearbox covers, hitch points, and PTO connections; Solar tracking systems — M8-M12 for pivot joints and actuator mounting."
+      }
     },
     {
       "id": "installation",
-      "heading": { "en": "Installation: Proper Use of Allen Keys" },
-      "body": { "en": "Proper installation technique prevents damage and ensures full torque transmission: Always use a properly sized allen key — a loose fit rounds the socket and ruins both the screw and the tool; use ball-end hex keys for access-limited positions. Apply lubricant to the thread — machine screws should be installed with clean threads and light oil for consistent torque; dry threads can give 20-30% higher torque readings. Use a torque wrench for critical joints — hand tightening with an L-key cannot achieve consistent torque. For production assembly, use pneumatic or electric hex key drivers with torque control. Check for thread damage before installation — any burr or deformation in the female threads will cause problems." }
+      "heading": {
+        "en": "Installation: Proper Use of Allen Keys"
+      },
+      "body": {
+        "en": "Proper installation technique prevents damage and ensures full torque transmission: Always use a properly sized allen key — a loose fit rounds the socket and ruins both the screw and the tool; use ball-end hex keys for access-limited positions. Apply lubricant to the thread — machine screws should be installed with clean threads and light oil for consistent torque; dry threads can give 20-30% higher torque readings. Use a torque wrench for critical joints — hand tightening with an L-key cannot achieve consistent torque. For production assembly, use pneumatic or electric hex key drivers with torque control. Check for thread damage before installation — any burr or deformation in the female threads will cause problems."
+      }
     },
     {
       "id": "faq",
-      "heading": { "en": "Frequently Asked Questions" },
+      "heading": {
+        "en": "Frequently Asked Questions"
+      },
       "faqItems": [
-        { "q": { "en": "What's the difference between Grade 10.9 and Grade 12.9 socket head cap screws?" }, "a": { "en": "Both are high-strength alloy steel. Grade 12.9 has minimum tensile strength of 1200 MPa vs 1040 MPa for Grade 10.9, and yield strength of 1100 MPa vs 940 MPa. Grade 12.9 also has a dark gray phosphate coating as standard while 10.9 is typically zinc-plated. For critical high-stress machinery connections (engines, gearboxes, cranes), use Grade 12.9. For general industrial equipment, Grade 10.9 is adequate and more cost-effective." } },
-        { "q": { "en": "Can socket head cap screws be used with nuts?" }, "a": { "en": "Yes, socket head cap screws can be used with nuts as an alternative to hex bolts. However, since the screw head is designed to bear directly on the joint material (not a nut), using a socket head cap screw with a nut is less efficient than using a proper hex bolt or machine screw with a nut. Socket head cap screws are designed for female thread engagement in a tapped hole." } },
-        { "q": { "en": "Why do socket cap screws seize or strip during installation?" }, "a": { "en": "The most common causes of socket stripping are: incorrect allen key size causing cam-out and rounding; over-torquing beyond the screw's yield strength; cross-threading during initial engagement; corrosion or debris in the threads. Always use the correct size tool, apply lubricant, start threading by hand to verify alignment, and use a torque wrench for critical applications." } }
+        {
+          "q": {
+            "en": "What's the difference between Grade 10.9 and Grade 12.9 socket head cap screws?"
+          },
+          "a": {
+            "en": "Both are high-strength alloy steel. Grade 12.9 has minimum tensile strength of 1200 MPa vs 1040 MPa for Grade 10.9, and yield strength of 1100 MPa vs 940 MPa. Grade 12.9 also has a dark gray phosphate coating as standard while 10.9 is typically zinc-plated. For critical high-stress machinery connections (engines, gearboxes, cranes), use Grade 12.9. For general industrial equipment, Grade 10.9 is adequate and more cost-effective."
+          }
+        },
+        {
+          "q": {
+            "en": "Can socket head cap screws be used with nuts?"
+          },
+          "a": {
+            "en": "Yes, socket head cap screws can be used with nuts as an alternative to hex bolts. However, since the screw head is designed to bear directly on the joint material (not a nut), using a socket head cap screw with a nut is less efficient than using a proper hex bolt or machine screw with a nut. Socket head cap screws are designed for female thread engagement in a tapped hole."
+          }
+        },
+        {
+          "q": {
+            "en": "Why do socket cap screws seize or strip during installation?"
+          },
+          "a": {
+            "en": "The most common causes of socket stripping are: incorrect allen key size causing cam-out and rounding; over-torquing beyond the screw's yield strength; cross-threading during initial engagement; corrosion or debris in the threads. Always use the correct size tool, apply lubricant, start threading by hand to verify alignment, and use a torque wrench for critical applications."
+          }
+        }
       ]
     }
   ],
-  "relatedProducts": ["socket-screws", "allen-keys", "washers"],
+  "relatedProducts": [
+    "socket-screws",
+    "allen-keys",
+    "washers"
+  ],
   "cta": {
-    "text": { "en": "Need socket head cap screws for your machinery? Get a factory quote from TradeGo.", "zh": "需要内六角螺钉用于机械？从TradeGo获取工厂报价。" },
-    "buttonText": { "en": "Get Quote", "zh": "获取报价" },
+    "text": {
+      "en": "Need socket head cap screws for your machinery? Get a factory quote from TradeGo.",
+      "zh": "需要内六角螺钉用于机械？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
     "link": "/#inquiry"
   }
 }

@@ -5,19 +5,19 @@
   "readTime": 11,
   "image": "/images/products/din-standards-1.jpg",
   "title": {
-    "en": "DIN & ISO Fastener Standards Complete Guide: Understanding Global Specifications for Industrial Buyers",
+    "en": "DIN & ISO Fastener Standards Complete Guide: Understandin...",
     "zh": "DIN与ISO紧固件标准完整指南：工业采购者必知的全球规格解读",
-    "es": "Guía completa de normas DIN e ISO para sujetadores: especificaciones globales para compradores industriales",
-    "ar": "دليل شامل لمعايير موانع DIN وISO: فهم المواصفات العالمية للمشترين الصناعيين",
-    "fr": "Guide complet des normes de fixation DIN et ISO : comprendre les spécifications mondiales pour acheteurs industriels",
-    "pt": "Guia completo das normas de fixadores DIN e ISO: entendendo especificações globais para compradores industriais",
-    "ru": "Полное руководство по стандартам крепежа DIN и ISO: глобальные спецификации для промышленных покупателей",
+    "es": "Guía completa de normas DIN e ISO para sujetadores: espec...",
+    "ar": "دليل شامل لمعايير موانع DIN وISO: فهم المواصفات العالمية...",
+    "fr": "Guide complet des normes de fixation DIN et ISO : compren...",
+    "pt": "Guia completo das normas de fixadores DIN e ISO: entenden...",
+    "ru": "Полное руководство по стандартам крепежа DIN и ISO: глоба...",
     "ja": "DIN・ISO緩み止め金具標準完全ガイド：産業買い手向けのグローバル仕様解説",
-    "de": "Vollständiger Leitfaden zu DIN- und ISO-Befestigungsnormen: Globale Spezifikationen für Industriekäufer",
-    "hi": "DIN और ISO फास्टनर मानक पूर्ण गाइड: औद्योगिक खरीदारों के लिए वैश्विक विशिष्टियाँ"
+    "de": "Vollständiger Leitfaden zu DIN- und ISO-Befestigungsnorme...",
+    "hi": "DIN और ISO फास्टनर मानक पूर्ण गाइड: औद्योगिक खरीदारों के..."
   },
   "description": {
-    "en": "Master DIN and ISO fastener standards including DIN 931, DIN 933, ISO 4014, ISO 4017, and more. Essential reference for procurement teams sourcing fasteners for industrial projects in Africa and emerging markets.",
+    "en": "Master DIN and ISO fastener standards including DIN 931, DIN 933, ISO 4014, ISO 4017, and more. Essential reference for procurement teams sourcing fasteners...",
     "zh": "掌握DIN和ISO紧固件标准，包括DIN 931、DIN 933、ISO 4014、ISO 4017等。非洲及新兴市场工业项目紧固件采购团队的必备参考。",
     "es": "Domine las normas de sujetadores DIN e ISO incluyendo DIN 931, DIN 933, ISO 4014, ISO 4017 y más.",
     "ar": "إتقان معايير موانع DIN وISO بما في ذلك DIN 931 وDIN 933 وISO 4014 وISO 4017 والمزيد.",
@@ -32,85 +32,236 @@
   "sections": [
     {
       "id": "why-standards-matter",
-      "heading": { "en": "Why Fastener Standards Matter for Procurement" },
-      "body": { "en": "Using standardized fasteners ensures interchangeability, quality consistency, and supply chain reliability. In African industrial projects, where equipment may originate from Europe, China, or South Africa, understanding both DIN (German) and ISO (International) standards prevents costly mismatches. A single non-standard bolt can halt an entire assembly line." }
+      "heading": {
+        "en": "Why Fastener Standards Matter for Procurement"
+      },
+      "body": {
+        "en": "Using standardized fasteners ensures interchangeability, quality consistency, and supply chain reliability. In African industrial projects, where equipment may originate from Europe, China, or South Africa, understanding both DIN (German) and ISO (International) standards prevents costly mismatches. A single non-standard bolt can halt an entire assembly line."
+      }
     },
     {
       "id": "din-hex-bolts",
-      "heading": { "en": "DIN Hex Bolts: The Industry Foundation" },
-      "body": { "en": "DIN 931 defines hex bolts with a shaft partially threaded — the most common structural fastener worldwide. DIN 933 specifies fully threaded hex bolts. Both use metric dimensions and specify mechanical properties through property classes (8.8, 10.9, 12.9). The key difference: DIN 931 has an unthreaded shank portion that provides higher shear strength in structural connections." },
+      "heading": {
+        "en": "DIN Hex Bolts: The Industry Foundation"
+      },
+      "body": {
+        "en": "DIN 931 defines hex bolts with a shaft partially threaded — the most common structural fastener worldwide. DIN 933 specifies fully threaded hex bolts. Both use metric dimensions and specify mechanical properties through property classes (8.8, 10.9, 12.9). The key difference: DIN 931 has an unthreaded shank portion that provides higher shear strength in structural connections."
+      },
       "table": {
-        "headers": ["Standard", "Thread Type", "Head Type", "Typical Use"],
+        "headers": [
+          "Standard",
+          "Thread Type",
+          "Head Type",
+          "Typical Use"
+        ],
         "rows": [
-          ["DIN 931", "Partial thread", "Hex", "Structural connections"],
-          ["DIN 933", "Full thread", "Hex", "General assembly"],
-          ["DIN 934", "Nut companion", "Hex", "With DIN 931/933"],
-          ["DIN 125", "Washer companion", "Flat", "Under hex head"]
+          [
+            "DIN 931",
+            "Partial thread",
+            "Hex",
+            "Structural connections"
+          ],
+          [
+            "DIN 933",
+            "Full thread",
+            "Hex",
+            "General assembly"
+          ],
+          [
+            "DIN 934",
+            "Nut companion",
+            "Hex",
+            "With DIN 931/933"
+          ],
+          [
+            "DIN 125",
+            "Washer companion",
+            "Flat",
+            "Under hex head"
+          ]
         ]
       }
     },
     {
       "id": "iso-hex-bolts",
-      "heading": { "en": "ISO Hex Bolt Standards: Global Equivalents" },
-      "body": { "en": "ISO 4014 is the international equivalent of DIN 931, while ISO 4017 replaces DIN 933. These standards are nearly identical in dimensions but use the ISO property class system (8.8, 10.9, 12.9) identical to DIN. For procurement in Africa, either standard is acceptable, and many manufacturers produce bolts certified to both." },
+      "heading": {
+        "en": "ISO Hex Bolt Standards: Global Equivalents"
+      },
+      "body": {
+        "en": "ISO 4014 is the international equivalent of DIN 931, while ISO 4017 replaces DIN 933. These standards are nearly identical in dimensions but use the ISO property class system (8.8, 10.9, 12.9) identical to DIN. For procurement in Africa, either standard is acceptable, and many manufacturers produce bolts certified to both."
+      },
       "table": {
-        "headers": ["DIN Standard", "ISO Equivalent", "Key Difference"],
+        "headers": [
+          "DIN Standard",
+          "ISO Equivalent",
+          "Key Difference"
+        ],
         "rows": [
-          ["DIN 931", "ISO 4014", "Dimensionally identical, different origin"],
-          ["DIN 933", "ISO 4017", "Dimensionally identical, different origin"],
-          ["DIN 934", "ISO 4032", "Dimensionally identical, different origin"],
-          ["DIN 125", "ISO 7089", "Dimensionally identical, different origin"]
+          [
+            "DIN 931",
+            "ISO 4014",
+            "Dimensionally identical, different origin"
+          ],
+          [
+            "DIN 933",
+            "ISO 4017",
+            "Dimensionally identical, different origin"
+          ],
+          [
+            "DIN 934",
+            "ISO 4032",
+            "Dimensionally identical, different origin"
+          ],
+          [
+            "DIN 125",
+            "ISO 7089",
+            "Dimensionally identical, different origin"
+          ]
         ]
       }
     },
     {
       "id": "property-classes",
-      "heading": { "en": "Mechanical Property Classes Explained" },
-      "body": { "en": "Property classes (e.g., 8.8, 10.9, 12.9) indicate the fastener's mechanical performance. The first number × 100 = minimum tensile strength in MPa. The ratio of the two numbers × 10 = yield strength as percentage of tensile. For African construction, 8.8 is sufficient for general applications; 10.9 is standard for structural steel; 12.9 is reserved for high-stress machinery." },
+      "heading": {
+        "en": "Mechanical Property Classes Explained"
+      },
+      "body": {
+        "en": "Property classes (e.g., 8.8, 10.9, 12.9) indicate the fastener's mechanical performance. The first number × 100 = minimum tensile strength in MPa. The ratio of the two numbers × 10 = yield strength as percentage of tensile. For African construction, 8.8 is sufficient for general applications; 10.9 is standard for structural steel; 12.9 is reserved for high-stress machinery."
+      },
       "table": {
-        "headers": ["Property Class", "Tensile Strength (MPa)", "Yield Strength (MPa)", "Common Application"],
+        "headers": [
+          "Property Class",
+          "Tensile Strength (MPa)",
+          "Yield Strength (MPa)",
+          "Common Application"
+        ],
         "rows": [
-          ["4.8", "400", "320", "Light general use"],
-          ["8.8", "800", "640", "General construction"],
-          ["10.9", "1000", "900", "Structural steel"],
-          ["12.9", "1200", "1080", "High-stress machinery"]
+          [
+            "4.8",
+            "400",
+            "320",
+            "Light general use"
+          ],
+          [
+            "8.8",
+            "800",
+            "640",
+            "General construction"
+          ],
+          [
+            "10.9",
+            "1000",
+            "900",
+            "Structural steel"
+          ],
+          [
+            "12.9",
+            "1200",
+            "1080",
+            "High-stress machinery"
+          ]
         ]
       }
     },
     {
       "id": "other-critical-din",
-      "heading": { "en": "Other Critical DIN Fastener Standards" },
-      "body": { "en": "Beyond hex bolts, several other DIN standards are essential for industrial procurement: DIN 6921 specifies hex flange bolts with built-in serrated washers for vibration-resistant connections. DIN 6798 defines tab washers (castle) that lock nuts in place. DIN 975 provides threaded rods (studding) used for structural connections and pipe hanging. DIN 562 covers square nuts for residential and light commercial applications." },
+      "heading": {
+        "en": "Other Critical DIN Fastener Standards"
+      },
+      "body": {
+        "en": "Beyond hex bolts, several other DIN standards are essential for industrial procurement: DIN 6921 specifies hex flange bolts with built-in serrated washers for vibration-resistant connections. DIN 6798 defines tab washers (castle) that lock nuts in place. DIN 975 provides threaded rods (studding) used for structural connections and pipe hanging. DIN 562 covers square nuts for residential and light commercial applications."
+      },
       "table": {
-        "headers": ["Standard", "Product Type", "Key Feature"],
+        "headers": [
+          "Standard",
+          "Product Type",
+          "Key Feature"
+        ],
         "rows": [
-          ["DIN 6921", "Hex flange bolt", "Integrated serrated washer"],
-          ["DIN 6798", "Tab washer", "Locking action"],
-          ["DIN 975", "Threaded rod", "Full-length threading"],
-          ["DIN 562", "Square nut", "Low-cost residential use"],
-          ["DIN 931", "Hex bolt (partial)", "Most common structural fastener"]
+          [
+            "DIN 6921",
+            "Hex flange bolt",
+            "Integrated serrated washer"
+          ],
+          [
+            "DIN 6798",
+            "Tab washer",
+            "Locking action"
+          ],
+          [
+            "DIN 975",
+            "Threaded rod",
+            "Full-length threading"
+          ],
+          [
+            "DIN 562",
+            "Square nut",
+            "Low-cost residential use"
+          ],
+          [
+            "DIN 931",
+            "Hex bolt (partial)",
+            "Most common structural fastener"
+          ]
         ]
       }
     },
     {
       "id": "buying-considerations",
-      "heading": { "en": "Procurement Considerations for African Markets" },
-      "body": { "en": "When sourcing DIN/ISO fasteners for African projects: verify third-party test certificates (SABS, Bureau Veritas, or equivalent) — many suppliers claim compliance without documentation. Check packaging markings — legitimate fasteners are laser-marked with property class, manufacturer ID, and batch number. Confirm zinc coating weight — hot-dip galvanizing (HDG) per ISO 1461 is essential for coastal African environments. For South African projects, SANS/SABS standards may supersede DIN/ISO; always verify with the engineering team." }
+      "heading": {
+        "en": "Procurement Considerations for African Markets"
+      },
+      "body": {
+        "en": "When sourcing DIN/ISO fasteners for African projects: verify third-party test certificates (SABS, Bureau Veritas, or equivalent) — many suppliers claim compliance without documentation. Check packaging markings — legitimate fasteners are laser-marked with property class, manufacturer ID, and batch number. Confirm zinc coating weight — hot-dip galvanizing (HDG) per ISO 1461 is essential for coastal African environments. For South African projects, SANS/SABS standards may supersede DIN/ISO; always verify with the engineering team."
+      }
     },
     {
       "id": "faq",
-      "heading": { "en": "Frequently Asked Questions" },
+      "heading": {
+        "en": "Frequently Asked Questions"
+      },
       "faqItems": [
-        { "q": { "en": "Are DIN and ISO fasteners interchangeable?" }, "a": { "en": "Yes, in most cases. DIN and ISO hex bolt standards are dimensionally identical. A DIN 931 bolt will fit an ISO 4014 application. However, always verify the property class and coating match the engineering specification." } },
-        { "q": { "en": "What property class should I use for structural steel in Africa?" }, "a": { "en": "Property class 10.9 (ISO) or 8.8 (DIN) is standard for structural steel connections in most African building codes. For coastal or high-humidity environments, specify hot-dip galvanized 10.9 bolts. Always consult local SABS or equivalent standards." } },
-        { "q": { "en": "Can I use DIN bolts with ISO nuts?" }, "a": { "en": "Yes, DIN 934 nuts and ISO 4032 nuts are dimensionally identical and fully interchangeable. The same applies to washers (DIN 125 / ISO 7089). Mixing DIN and ISO components from the same property class is standard industry practice." } }
+        {
+          "q": {
+            "en": "Are DIN and ISO fasteners interchangeable?"
+          },
+          "a": {
+            "en": "Yes, in most cases. DIN and ISO hex bolt standards are dimensionally identical. A DIN 931 bolt will fit an ISO 4014 application. However, always verify the property class and coating match the engineering specification."
+          }
+        },
+        {
+          "q": {
+            "en": "What property class should I use for structural steel in Africa?"
+          },
+          "a": {
+            "en": "Property class 10.9 (ISO) or 8.8 (DIN) is standard for structural steel connections in most African building codes. For coastal or high-humidity environments, specify hot-dip galvanized 10.9 bolts. Always consult local SABS or equivalent standards."
+          }
+        },
+        {
+          "q": {
+            "en": "Can I use DIN bolts with ISO nuts?"
+          },
+          "a": {
+            "en": "Yes, DIN 934 nuts and ISO 4032 nuts are dimensionally identical and fully interchangeable. The same applies to washers (DIN 125 / ISO 7089). Mixing DIN and ISO components from the same property class is standard industry practice."
+          }
+        }
       ]
     }
   ],
-  "relatedProducts": ["hex-bolts", "nuts", "washers"],
+  "relatedProducts": [
+    "hex-bolts",
+    "nuts",
+    "washers"
+  ],
   "cta": {
-    "text": { "en": "Need DIN/ISO certified fasteners for your African project? Get a factory-direct quote from TradeGo.", "zh": "需要DIN/ISO认证紧固件用于您的非洲项目？从TradeGo获取工厂直供报价。" },
-    "buttonText": { "en": "Get Quote", "zh": "获取报价" },
+    "text": {
+      "en": "Need DIN/ISO certified fasteners for your African project? Get a factory-direct quote from TradeGo.",
+      "zh": "需要DIN/ISO认证紧固件用于您的非洲项目？从TradeGo获取工厂直供报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
     "link": "/#inquiry"
   }
 }

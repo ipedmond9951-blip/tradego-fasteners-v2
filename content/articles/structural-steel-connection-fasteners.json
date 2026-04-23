@@ -5,7 +5,7 @@
   "readTime": 11,
   "image": "/images/products/structural-steel-connections-1.jpg",
   "title": {
-    "en": "Structural Steel Connection Fasteners: Beam, Column & Truss Connections for Industrial Buildings",
+    "en": "Structural Steel Connection Fasteners: Beam, Column & Tru...",
     "zh": "钢结构连接紧固件：工业建筑梁、柱及桁架连接",
     "es": "Guía de sujetadores para conexiones de estructuras de acero",
     "ar": "دليل موانع توصيلات الفولاذ الهيكلي",
@@ -17,7 +17,7 @@
     "hi": "स्ट्रक्चरल स्टील कनेक्शन फास्टनर"
   },
   "description": {
-    "en": "Complete guide to structural steel connection fasteners: beam-to-beam, beam-to-column, and truss connections. Bolt types, preload requirements, and specifications for industrial building construction in Africa.",
+    "en": "Complete guide to structural steel connection fasteners: beam-to-beam, beam-to-column, and truss connections. Bolt types, preload requirements, and specifica...",
     "zh": "钢结构连接紧固件完整指南：梁对梁、梁对柱及桁架连接。螺栓类型、预紧力要求及非洲工业建筑施工规范。",
     "es": "Guía completa de sujetadores para conexiones de estructuras de acero.",
     "ar": "دليل شامل لموانع توصيلات الفولاذ الهيكلي.",
@@ -32,43 +32,96 @@
   "sections": [
     {
       "id": "connection-types",
-      "heading": { "en": "Types of Structural Steel Connections" },
-      "body": { "en": "Structural steel connections are classified by their load transfer mechanism: Shear connections — transfer only shear force (no moment); the beam end is free to rotate; design assumption: pinned connection; common in simple construction (warehouses, low-rise frames). Moment connections — transfer both shear force and bending moment; the beam end is restrained against rotation; more complex and expensive; used where structural stability requires continuity. Bracing connections — transfer tension or compression forces along diagonal members; used in braced frames for lateral stability; relatively simple design. Base plate connections — transfer loads from column to concrete foundation; anchor bolts (J-bolts or anchor rods) embedded in concrete; the critical interface between structure and foundation. Each connection type has different fastener requirements and design assumptions." }
+      "heading": {
+        "en": "Types of Structural Steel Connections"
+      },
+      "body": {
+        "en": "Structural steel connections are classified by their load transfer mechanism: Shear connections — transfer only shear force (no moment); the beam end is free to rotate; design assumption: pinned connection; common in simple construction (warehouses, low-rise frames). Moment connections — transfer both shear force and bending moment; the beam end is restrained against rotation; more complex and expensive; used where structural stability requires continuity. Bracing connections — transfer tension or compression forces along diagonal members; used in braced frames for lateral stability; relatively simple design. Base plate connections — transfer loads from column to concrete foundation; anchor bolts (J-bolts or anchor rods) embedded in concrete; the critical interface between structure and foundation. Each connection type has different fastener requirements and design assumptions."
+      }
     },
     {
       "id": "bolted-splice-connections",
-      "heading": { "en": "Bolted Splice and End-Plate Connections" },
-      "body": { "en": "Bolted connections in structural steel take several forms: Flange splice (web splice) — connecting two beam ends with flange plates and web plates; uses high-strength hex bolts in bearing-type connections; typically M20 or M24 Grade 8.8 or 10.9. Fin plate connection — a thin end plate welded to one member and bolted to the other; simple to fabricate and erect; uses Grade 8.8 bolts in single shear. End plate (shear end plate) — a plate welded to the beam end, bolted to the connecting member; can be extended for moment resistance if thick enough. Bolted bracket connections — angles or plates bolted to the beam web or flange for shear transfer; common in industrial buildings for crane runway connections. All structural bolting must use structural bolts (ISO 4014/4017, ASTM A325, or equivalent) with proper preload, not ordinary hex bolts." }
+      "heading": {
+        "en": "Bolted Splice and End-Plate Connections"
+      },
+      "body": {
+        "en": "Bolted connections in structural steel take several forms: Flange splice (web splice) — connecting two beam ends with flange plates and web plates; uses high-strength hex bolts in bearing-type connections; typically M20 or M24 Grade 8.8 or 10.9. Fin plate connection — a thin end plate welded to one member and bolted to the other; simple to fabricate and erect; uses Grade 8.8 bolts in single shear. End plate (shear end plate) — a plate welded to the beam end, bolted to the connecting member; can be extended for moment resistance if thick enough. Bolted bracket connections — angles or plates bolted to the beam web or flange for shear transfer; common in industrial buildings for crane runway connections. All structural bolting must use structural bolts (ISO 4014/4017, ASTM A325, or equivalent) with proper preload, not ordinary hex bolts."
+      }
     },
     {
       "id": "preload-requirements",
-      "heading": { "en": "Preload Requirements for Structural Connections" },
-      "body": { "en": "Structural connections rely on preload (clamp force) to function correctly: In shear connections (bearing-type), preload is not critical — the bolts carry load in bearing; bolts are typically installed to 'snug tight' followed by a partial turn. In friction-type connections (slip-critical), preload is critical — the preload creates friction between the connected plates; bolts are tensioned to 50-75% of proof load; the joint must not slip under design load. For bearing-type shear connections in African construction, the Turn-of-Nut method is most common: Step 1 — snug-tighten all bolts (from center outward, star pattern); Step 2 — mark the nut position; Step 3 — rotate each nut 1/2 turn (for bolts < M24) or 3/4 turn (for bolts M24 and larger). For slip-critical connections, specify Direct Tension Indicators (DTI washers) or calibrated torque wrench to verify preload." }
+      "heading": {
+        "en": "Preload Requirements for Structural Connections"
+      },
+      "body": {
+        "en": "Structural connections rely on preload (clamp force) to function correctly: In shear connections (bearing-type), preload is not critical — the bolts carry load in bearing; bolts are typically installed to 'snug tight' followed by a partial turn. In friction-type connections (slip-critical), preload is critical — the preload creates friction between the connected plates; bolts are tensioned to 50-75% of proof load; the joint must not slip under design load. For bearing-type shear connections in African construction, the Turn-of-Nut method is most common: Step 1 — snug-tighten all bolts (from center outward, star pattern); Step 2 — mark the nut position; Step 3 — rotate each nut 1/2 turn (for bolts < M24) or 3/4 turn (for bolts M24 and larger). For slip-critical connections, specify Direct Tension Indicators (DTI washers) or calibrated torque wrench to verify preload."
+      }
     },
     {
       "id": "column-base-plates",
-      "heading": { "en": "Column Base Plate Connections" },
-      "body": { "en": "Column base plates transfer the entire building load to the concrete foundation: Anchor rods (J-bolts, L-bolts) — typically M20 to M36 depending on column size and load; embedded in concrete during pour; must be positioned accurately to match the base plate hole pattern; templates are used during concrete pour. Base plate grouting — after column erection, the space between the plate and concrete is grouted with non-shrink grout; anchor nuts are tightened after grout curing. Anchor rod projection — anchor rods must extend sufficient distance above the concrete surface to accommodate the base plate, washer, and nut; typically 3-5 thread pitches above the nut. Hold-down bolts vs base plates — some designs use embedded plate with welded studs rather than projecting anchor rods; this requires different installation procedure." }
+      "heading": {
+        "en": "Column Base Plate Connections"
+      },
+      "body": {
+        "en": "Column base plates transfer the entire building load to the concrete foundation: Anchor rods (J-bolts, L-bolts) — typically M20 to M36 depending on column size and load; embedded in concrete during pour; must be positioned accurately to match the base plate hole pattern; templates are used during concrete pour. Base plate grouting — after column erection, the space between the plate and concrete is grouted with non-shrink grout; anchor nuts are tightened after grout curing. Anchor rod projection — anchor rods must extend sufficient distance above the concrete surface to accommodate the base plate, washer, and nut; typically 3-5 thread pitches above the nut. Hold-down bolts vs base plates — some designs use embedded plate with welded studs rather than projecting anchor rods; this requires different installation procedure."
+      }
     },
     {
       "id": "african-specifications",
-      "heading": { "en": "Specifications for African Structural Steel Construction" },
-      "body": { "en": "For structural steel projects in Africa, the following fastener specifications apply: South African projects — SANS 2001-C2 (structural steelwork erection) and SANS 1431 (high-strength structural bolts) govern; SABS-certified bolts required for main structural connections. East/West African projects — often follow a combination of BS 5950 (UK) or AISC (US) standards for design; ISO 4014/4017 for bolt specifications; material certificates (MTRs) required. Tanzania/Kenya — local standards (KS, TZ Standards) may apply for government projects; international standards accepted for private projects. For all structural connections, verify: bolt grade matches the structural engineer's specification; washers are appropriate for the bolt type and coating; structural bolts are marked with grade (8.8, 10.9) and manufacturer mark; certificates of conformity are available." }
+      "heading": {
+        "en": "Specifications for African Structural Steel Construction"
+      },
+      "body": {
+        "en": "For structural steel projects in Africa, the following fastener specifications apply: South African projects — SANS 2001-C2 (structural steelwork erection) and SANS 1431 (high-strength structural bolts) govern; SABS-certified bolts required for main structural connections. East/West African projects — often follow a combination of BS 5950 (UK) or AISC (US) standards for design; ISO 4014/4017 for bolt specifications; material certificates (MTRs) required. Tanzania/Kenya — local standards (KS, TZ Standards) may apply for government projects; international standards accepted for private projects. For all structural connections, verify: bolt grade matches the structural engineer's specification; washers are appropriate for the bolt type and coating; structural bolts are marked with grade (8.8, 10.9) and manufacturer mark; certificates of conformity are available."
+      }
     },
     {
       "id": "faq",
-      "heading": { "en": "Frequently Asked Questions" },
+      "heading": {
+        "en": "Frequently Asked Questions"
+      },
       "faqItems": [
-        { "q": { "en": "What is the difference between a bearing-type and a friction-type (slip-critical) connection?" }, "a": { "en": "In a bearing-type connection, the bolts carry the applied load by bearing against the connected plates — the bolt itself is in shear. The preload (clamp force) doesn't matter as much; the bolt just needs to be snug-tight. In a friction-type (slip-critical) connection, the applied load is transferred by friction between the connected plates, created by the bolt's preload. If the preload is insufficient, the joint slips — causing failure. Slip-critical connections require higher preload (verified by DTI washers or calibrated wrench), and the connected surfaces must be free of paint and mill scale (cleaned to bare metal) to achieve the specified coefficient of friction." } },
-        { "q": { "en": "Why do structural bolts have washers under both the head and the nut?" }, "a": { "en": "Under the bolt head — distributes the load from the bolt head onto the connected plate, preventing localized bearing stress that could deform the plate; hardened washers are used with high-strength bolts to prevent embedding. Under the nut — serves the same purpose on the other side of the joint; the nut bearing surface is smaller than the head, so the washer is even more important here. For structural connections using high-strength bolts (Grade 8.8, 10.9), hardened washers (to HRC 38-45) are specified for both positions. Using standard (soft) washers with high-strength bolts can cause the washer to deform and lose preload." } },
-        { "q": { "en": "What is the maximum bolt spacing in a structural connection?" }, "a": { "en": "Bolt spacing is governed by the structural design code (BS 5950, AISC, SANS, etc.) and the design loads. General guidelines: Minimum spacing — not less than 2.5× bolt diameter (to prevent edge splitting); Maximum spacing in tension — not more than 14× t (thinner connected plate) or 200mm; Maximum spacing in compression — not more than 24× t or 300mm; Edge distance — minimum edge distance varies from 1.5D to 2.0D depending on edge condition (sheared, rolled, etc.) and loading direction. Always follow the structural engineer's connection design — these are general guidelines only." } }
+        {
+          "q": {
+            "en": "What is the difference between a bearing-type and a friction-type (slip-critical) connection?"
+          },
+          "a": {
+            "en": "In a bearing-type connection, the bolts carry the applied load by bearing against the connected plates — the bolt itself is in shear. The preload (clamp force) doesn't matter as much; the bolt just needs to be snug-tight. In a friction-type (slip-critical) connection, the applied load is transferred by friction between the connected plates, created by the bolt's preload. If the preload is insufficient, the joint slips — causing failure. Slip-critical connections require higher preload (verified by DTI washers or calibrated wrench), and the connected surfaces must be free of paint and mill scale (cleaned to bare metal) to achieve the specified coefficient of friction."
+          }
+        },
+        {
+          "q": {
+            "en": "Why do structural bolts have washers under both the head and the nut?"
+          },
+          "a": {
+            "en": "Under the bolt head — distributes the load from the bolt head onto the connected plate, preventing localized bearing stress that could deform the plate; hardened washers are used with high-strength bolts to prevent embedding. Under the nut — serves the same purpose on the other side of the joint; the nut bearing surface is smaller than the head, so the washer is even more important here. For structural connections using high-strength bolts (Grade 8.8, 10.9), hardened washers (to HRC 38-45) are specified for both positions. Using standard (soft) washers with high-strength bolts can cause the washer to deform and lose preload."
+          }
+        },
+        {
+          "q": {
+            "en": "What is the maximum bolt spacing in a structural connection?"
+          },
+          "a": {
+            "en": "Bolt spacing is governed by the structural design code (BS 5950, AISC, SANS, etc.) and the design loads. General guidelines: Minimum spacing — not less than 2.5× bolt diameter (to prevent edge splitting); Maximum spacing in tension — not more than 14× t (thinner connected plate) or 200mm; Maximum spacing in compression — not more than 24× t or 300mm; Edge distance — minimum edge distance varies from 1.5D to 2.0D depending on edge condition (sheared, rolled, etc.) and loading direction. Always follow the structural engineer's connection design — these are general guidelines only."
+          }
+        }
       ]
     }
   ],
-  "relatedProducts": ["structural-fasteners", "structural-bolts", "washers"],
+  "relatedProducts": [
+    "structural-fasteners",
+    "structural-bolts",
+    "washers"
+  ],
   "cta": {
-    "text": { "en": "Need structural steel connection fasteners for your project? Get a factory quote from TradeGo.", "zh": "需要钢结构连接紧固件？从TradeGo获取工厂报价。" },
-    "buttonText": { "en": "Get Quote", "zh": "获取报价" },
+    "text": {
+      "en": "Need structural steel connection fasteners for your project? Get a factory quote from TradeGo.",
+      "zh": "需要钢结构连接紧固件？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
     "link": "/#inquiry"
   }
 }

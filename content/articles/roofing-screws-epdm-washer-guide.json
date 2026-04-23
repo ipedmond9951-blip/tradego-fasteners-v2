@@ -13,11 +13,11 @@
     "pt": "Parafusos de telhado com arruelas EPDM: guia completo",
     "ru": "Кровельные саморезы с шайбами EPDM: полное руководство",
     "ja": "EPDMワッシャー付き屋根ネジの完全ガイド",
-    "de": "Dachschrauben mit EPDM-Dichtscheiben: Vollständiger Leitfaden",
+    "de": "Dachschrauben mit EPDM-Dichtscheiben: Vollständiger Leitf...",
     "hi": "EPDM वॉशर वाले छत स्क्रू: पूर्ण मार्गदर्शिका"
   },
   "description": {
-    "en": "Everything you need to know about roofing screws with EPDM washers — types, sizing, installation techniques, and weatherproofing for metal roof construction in tropical climates.",
+    "en": "Everything you need to know about roofing screws with EPDM washers — types, sizing, installation techniques, and weatherproofing for metal roof construction...",
     "zh": "关于EPDM垫圈屋顶螺丝你需要知道的一切——类型、尺寸、安装技术，以及热带气候金属屋顶建设的防水处理。",
     "es": "Todo lo que necesita saber sobre tornillos para tejado con arandelas EPDM: tipos, dimensiones, técnicas de instalación.",
     "ar": "كل ما تحتاج معرفته عن مسامير السقف مع حلقات EPDM: الأنواع والأحجام وتقنيات التركيب.",
@@ -143,6 +143,55 @@
           "a": {
             "en": "No. The EPDM washer takes a compression set after installation and will not reseal properly if removed and reinstalled. Always use new screws for any re-roofing or repair work.",
             "zh": "不可以。EPDM垫圈安装后会产生压缩永久变形，拆除重新安装无法再次密封。任何重铺或维修工作务必使用新螺丝。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Installation Guide and how are they used?"
+          },
+          "a": {
+            "en": "Installation Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
           }
         }
       ]

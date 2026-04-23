@@ -5,15 +5,15 @@
   "readTime": 7,
   "image": "/images/products/self-tapping-screws.jpg",
   "title": {
-    "en": "Self-Tapping Screws Guide: Types, Applications & Selection for Metal & Wood Fastening",
+    "en": "Self-Tapping Screws Guide: Types, Applications & Selectio...",
     "zh": "自攻螺钉指南：金属与木材紧固的类型、应用与选型",
-    "es": "Guía de tornillos autorroscantes: tipos, aplicaciones y selección",
-    "ar": "دليل البراغي ذات الخيوط الذاتية: الأنواع والتطبيقات والاختيار",
+    "es": "Guía de tornillos autorroscantes: tipos, aplicaciones y s...",
+    "ar": "دليل البراغي ذات الخيوط الذاتية: الأنواع والتطبيقات والاخ...",
     "fr": "Guide des vis taraudeuses: types, applications et sélection",
-    "pt": "Guia de parafusos auto-atarraxantes: tipos, aplicações e seleção"
+    "pt": "Guia de parafusos auto-atarraxantes: tipos, aplicações e..."
   },
   "description": {
-    "en": "Complete guide to self-tapping screws including drill screws, metal screws, and wood screws. Learn how to select the right self-tapping screw for steel, aluminum, and wood applications in construction projects.",
+    "en": "Complete guide to self-tapping screws including drill screws, metal screws, and wood screws. Learn how to select the right self-tapping screw for steel, alum...",
     "zh": "自攻螺钉完整指南，包括钻尾螺钉、金属螺钉和木螺钉。了解建筑项目中如何为钢材、铝材和木材应用选择正确的自攻螺钉。",
     "es": "Guía completa de tornillos autorroscantes incluyendo tornillos de taladro, tornillos metálicos.",
     "ar": "دليل شامل للبراغي ذات الخيوط الذاتية بما في ذلك براغي الحفر والبراغي المعدنية.",
@@ -94,6 +94,55 @@
       "body": {
         "en": "Selection criteria: Material being fastened—determine thickness and type (steel, aluminum, wood). Load requirements—heavier loads require larger diameter and more threads. Environmental exposure—coastal and outdoor applications need corrosion-resistant coatings. Installation speed—drill point screws offer fastest installation through steel. Use this formula: for steel up to 2.3mm, use Type B; for steel 2.3-5mm, use Type III drill point."
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Technical Guide and how are they used?"
+          },
+          "a": {
+            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
+          }
+        }
+      ]
     }
   ],
   "cta": {

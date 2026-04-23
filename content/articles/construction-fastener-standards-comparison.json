@@ -5,7 +5,7 @@
   "readTime": 9,
   "image": "/images/articles/construction-fastener-standards-comparison.png",
   "title": {
-    "en": "Construction Fastener Standards Comparison: DIN, ANSI, GB, and SABS",
+    "en": "Construction Fastener Standards Comparison: DIN, ANSI, GB...",
     "zh": "建筑紧固件标准对比：DIN、ANSI、GB与SABS",
     "es": "Comparación de normas de fijaciones: DIN, ANSI, GB y SABS",
     "ar": "مقارنة معايير المرابط: DIN وANSI وGB وSABS",
@@ -13,11 +13,11 @@
     "pt": "Comparação de normas de fixadores: DIN, ANSI, GB e SABS",
     "ru": "Сравнение стандартов крепежа: DIN, ANSI, GB и SABS",
     "ja": "建築締結器具規格比較：DIN、ANSI、GB、SABS",
-    "de": "Vergleich der Befestigungsmittel-Normen: DIN, ANSI, GB und SABS",
+    "de": "Vergleich der Befestigungsmittel-Normen: DIN, ANSI, GB un...",
     "hi": "निर्माण फास्टनर मानकों की तुलना: DIN, ANSI, GB और SABS"
   },
   "description": {
-    "en": "Compare DIN, ANSI, GB, and SABS fastener standards — understanding dimensional differences, grade equivalencies, and compliance requirements for international construction projects.",
+    "en": "Compare DIN, ANSI, GB, and SABS fastener standards — understanding dimensional differences, grade equivalencies, and compliance requirements for internationa...",
     "zh": "对比DIN、ANSI、GB和SABS紧固件标准——了解尺寸差异、等级等效性和国际建筑项目的合规要求。",
     "es": "Compare las normas DIN, ANSI, GB y SABS de fijaciones: diferencias dimensionales, equivalencias de grados y requisitos de cumplimiento.",
     "ar": "قارن معايير المرابط DIN وANSI وGB وSABS: الفروق الأبعاد وتكافؤ الدرجات ومتطلبات الامتثال.",
@@ -166,6 +166,55 @@
           "a": {
             "en": "Yes, provided they meet the specified mechanical grade requirements and come with proper test certifications. GB/T standards are increasingly aligned with ISO standards. Always request MTC and test reports.",
             "zh": "是的，前提是满足规定的机械等级要求并附有适当的测试认证。GB/T标准日益与ISO标准对齐。务必要求MTC和测试报告。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Technical Guide and how are they used?"
+          },
+          "a": {
+            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
           }
         }
       ]

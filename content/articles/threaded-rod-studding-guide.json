@@ -5,19 +5,19 @@
   "readTime": 9,
   "image": "/images/products/threaded-rod-1.jpg",
   "title": {
-    "en": "Threaded Rod (Studding) Complete Guide: Applications, Cutting & Installation for Industrial Projects",
+    "en": "Threaded Rod (Studding) Complete Guide: Applications, Cut...",
     "zh": "螺杆（Threaded Rod）完整指南：工业项目应用、切割与安装",
-    "es": "Guía completa de varillas roscadas para proyectos industriales",
+    "es": "Guía completa de varillas roscadas para proyectos industr...",
     "ar": "دليل شامل للقضبان الملولبة للتطبيقات الصناعية",
     "fr": "Guide complet des barres filetées pour projets industriels",
     "pt": "Guia completo de hastes roscadas para projetos industriais",
-    "ru": "Полное руководство по резьбовым шпилькам для промышленных проектов",
+    "ru": "Полное руководство по резьбовым шпилькам для промышленных...",
     "ja": "ねじ棒（スタッド）完全ガイド：工業プロジェクト用途・切断・設置",
-    "de": "Vollständiger Leitfaden zu Gewindestangen für Industrieprojekte",
-    "hi": "थ्रेडेड रॉड (स्टडिंग) पूर्ण गाइड: औद्योगिक परियोजनाओं के लिए अनुप्रयोग, काटना और स्थापना"
+    "de": "Vollständiger Leitfaden zu Gewindestangen für Industriepr...",
+    "hi": "थ्रेडेड रॉड (स्टडिंग) पूर्ण गाइड: औद्योगिक परियोजनाओं के..."
   },
   "description": {
-    "en": "Complete guide to threaded rod (studding): sizes, materials, grades, cutting, installation, and applications in industrial and construction projects across Africa. Learn how to select and use threaded rod for structural connections, pipe hanging, and machinery mounting.",
+    "en": "Complete guide to threaded rod (studding): sizes, materials, grades, cutting, installation, and applications in industrial and construction projects across A...",
     "zh": "螺杆完整指南：尺寸、材料、等级、切割、安装及非洲工业和建筑项目应用。了解如何选择和使用螺杆进行结构连接、管道吊装和机械安装。",
     "es": "Guía completa de varillas roscadas para proyectos industriales y de construcción.",
     "ar": "دليل شامل للقضبان الملولبة للمشاريع الصناعية والبناء.",
@@ -32,56 +32,154 @@
   "sections": [
     {
       "id": "what-is-threaded-rod",
-      "heading": { "en": "What Is Threaded Rod?" },
-      "body": { "en": "Threaded rod (also called studding or all-thread) is a rod with continuous external threads along its entire length. Unlike conventional bolts, there is no head — both ends can receive nuts, washers, or threaded components. Standard lengths are 1 meter or 3 meters, with diameters from M6 to M42. Threaded rod is the backbone of industrial installations: structural connections, pipe and duct hanging systems, machinery adjustment and leveling, anchor rods for concrete embedding, and custom bolt fabrication." }
+      "heading": {
+        "en": "What Is Threaded Rod?"
+      },
+      "body": {
+        "en": "Threaded rod (also called studding or all-thread) is a rod with continuous external threads along its entire length. Unlike conventional bolts, there is no head — both ends can receive nuts, washers, or threaded components. Standard lengths are 1 meter or 3 meters, with diameters from M6 to M42. Threaded rod is the backbone of industrial installations: structural connections, pipe and duct hanging systems, machinery adjustment and leveling, anchor rods for concrete embedding, and custom bolt fabrication."
+      }
     },
     {
       "id": "sizes-grades",
-      "heading": { "en": "Sizes and Material Grades" },
-      "body": { "en": "Threaded rod is available in metric (M6 to M42) and imperial (1/4\" to 2\") sizes. The most common sizes for African industrial applications are M10, M12, M16, and M20. Material and strength grades mirror standard bolts: Grade 4.8 (mild steel) for light-duty suspension; Grade 8.8 (medium carbon, quenched-tempered) for structural and mechanical use; Grade 10.9 (alloy steel) for high-stress structural connections; Grade 304/316 stainless for corrosion-sensitive applications. Zinc-plated and hot-dip galvanized coatings are standard for indoor and outdoor applications respectively." },
+      "heading": {
+        "en": "Sizes and Material Grades"
+      },
+      "body": {
+        "en": "Threaded rod is available in metric (M6 to M42) and imperial (1/4\" to 2\") sizes. The most common sizes for African industrial applications are M10, M12, M16, and M20. Material and strength grades mirror standard bolts: Grade 4.8 (mild steel) for light-duty suspension; Grade 8.8 (medium carbon, quenched-tempered) for structural and mechanical use; Grade 10.9 (alloy steel) for high-stress structural connections; Grade 304/316 stainless for corrosion-sensitive applications. Zinc-plated and hot-dip galvanized coatings are standard for indoor and outdoor applications respectively."
+      },
       "table": {
-        "headers": ["Size", "Thread Pitch", "Load Capacity (8.8 Grade)", "Common Application"],
+        "headers": [
+          "Size",
+          "Thread Pitch",
+          "Load Capacity (8.8 Grade)",
+          "Common Application"
+        ],
         "rows": [
-          ["M6", "1.0mm", "500 kg", "Light fixtures, signage"],
-          ["M8", "1.25mm", "800 kg", "Pipe hanging, HVAC"],
-          ["M10", "1.5mm", "1,200 kg", "Structural connections"],
-          ["M12", "1.75mm", "1,800 kg", "Heavy pipe, machinery bases"],
-          ["M16", "2.0mm", "3,000 kg", "Structural connections, anchor rods"],
-          ["M20", "2.5mm", "4,800 kg", "Heavy structural, marine"],
-          ["M24", "3.0mm", "7,000 kg", "Heavy machinery, bridge"],
-          ["M30", "3.5mm", "11,000 kg", "Structural engineering"]
+          [
+            "M6",
+            "1.0mm",
+            "500 kg",
+            "Light fixtures, signage"
+          ],
+          [
+            "M8",
+            "1.25mm",
+            "800 kg",
+            "Pipe hanging, HVAC"
+          ],
+          [
+            "M10",
+            "1.5mm",
+            "1,200 kg",
+            "Structural connections"
+          ],
+          [
+            "M12",
+            "1.75mm",
+            "1,800 kg",
+            "Heavy pipe, machinery bases"
+          ],
+          [
+            "M16",
+            "2.0mm",
+            "3,000 kg",
+            "Structural connections, anchor rods"
+          ],
+          [
+            "M20",
+            "2.5mm",
+            "4,800 kg",
+            "Heavy structural, marine"
+          ],
+          [
+            "M24",
+            "3.0mm",
+            "7,000 kg",
+            "Heavy machinery, bridge"
+          ],
+          [
+            "M30",
+            "3.5mm",
+            "11,000 kg",
+            "Structural engineering"
+          ]
         ]
       }
     },
     {
       "id": "common-applications",
-      "heading": { "en": "Common Applications in African Projects" },
-      "body": { "en": "Threaded rod is ubiquitous in African construction and industrial projects: Pipe and duct hanging — M10 or M12 threaded rod with channel brackets supports sprinkler systems, water pipes, and electrical conduit in commercial buildings; Structural steel connections — M16/M20 threaded rods with anchor plate embedment act as anchor bolts for column base plates; Suspended ceiling systems — M6/M8 threaded rod with turnbuckle for height adjustment in office and retail; Concrete formwork — M12/M16 used as tension members in formwork撑杆; Solar panel mounting — M12 galvanized threaded rod as ground anchor with concrete pour." }
+      "heading": {
+        "en": "Common Applications in African Projects"
+      },
+      "body": {
+        "en": "Threaded rod is ubiquitous in African construction and industrial projects: Pipe and duct hanging — M10 or M12 threaded rod with channel brackets supports sprinkler systems, water pipes, and electrical conduit in commercial buildings; Structural steel connections — M16/M20 threaded rods with anchor plate embedment act as anchor bolts for column base plates; Suspended ceiling systems — M6/M8 threaded rod with turnbuckle for height adjustment in office and retail; Concrete formwork — M12/M16 used as tension members in formwork撑杆; Solar panel mounting — M12 galvanized threaded rod as ground anchor with concrete pour."
+      }
     },
     {
       "id": "cutting-threading",
-      "heading": { "en": "Cutting and Threading Threaded Rod" },
-      "body": { "en": "Threaded rod is typically supplied in 1m or 3m lengths and cut to size on-site. Cutting methods: Hacksaw — for small diameter (M6-M12), use a fine-tooth blade; power hacksaw for production cutting; Angle grinder — fastest method for M12 and larger, use a cut-off wheel; Bandsaw — cleanest cut for precision work and large quantities. Threading: Threaded rod can be extended with couplings (器) and additional threading; for custom lengths, thread the cut end using a die on a pillar drill; always chamfer the cut end before threading to start the die correctly." }
+      "heading": {
+        "en": "Cutting and Threading Threaded Rod"
+      },
+      "body": {
+        "en": "Threaded rod is typically supplied in 1m or 3m lengths and cut to size on-site. Cutting methods: Hacksaw — for small diameter (M6-M12), use a fine-tooth blade; power hacksaw for production cutting; Angle grinder — fastest method for M12 and larger, use a cut-off wheel; Bandsaw — cleanest cut for precision work and large quantities. Threading: Threaded rod can be extended with couplings (器) and additional threading; for custom lengths, thread the cut end using a die on a pillar drill; always chamfer the cut end before threading to start the die correctly."
+      }
     },
     {
       "id": "installation",
-      "heading": { "en": "Installation Best Practices" },
-      "body": { "en": "Proper installation prevents failure in critical applications: Use matching nuts on both sides — ensure nuts are the same grade as the threaded rod; never use a nut with lower strength rating. For suspended loads, use a clevis end (clevis eye) with a cotter pin instead of bending the rod; bent rod creates stress concentrations. For long vertical runs, provide lateral bracing to prevent buckling; threaded rod has no column strength without support. Apply thread locker (Loctite) for vibrating environments — standard nuts can back off under dynamic loads. Always use flat washers under nuts to protect the bearing surface." }
+      "heading": {
+        "en": "Installation Best Practices"
+      },
+      "body": {
+        "en": "Proper installation prevents failure in critical applications: Use matching nuts on both sides — ensure nuts are the same grade as the threaded rod; never use a nut with lower strength rating. For suspended loads, use a clevis end (clevis eye) with a cotter pin instead of bending the rod; bent rod creates stress concentrations. For long vertical runs, provide lateral bracing to prevent buckling; threaded rod has no column strength without support. Apply thread locker (Loctite) for vibrating environments — standard nuts can back off under dynamic loads. Always use flat washers under nuts to protect the bearing surface."
+      }
     },
     {
       "id": "faq",
-      "heading": { "en": "Frequently Asked Questions" },
+      "heading": {
+        "en": "Frequently Asked Questions"
+      },
       "faqItems": [
-        { "q": { "en": "Can threaded rod be used as an anchor bolt?" }, "a": { "en": "Yes, M16 or M20 threaded rod embedded in concrete (following anchor bolt embedment rules) functions as a cast-in-place anchor. For post-installed anchors, epoxy-bonded threaded rod (using injectable mortar) is a standard solution for equipment bases and structural connections in existing concrete." } },
-        { "q": { "en": "What's the difference between fully threaded and partially threaded rod?" }, "a": { "en": "Threaded rod (studding) by definition is fully threaded along its length. What is sometimes called 'partially threaded rod' is actually a double-ended bolt (stud) — a bar with threading on both ends and a plain shank in the middle. For most industrial applications (pipe hanging, structural connections), fully threaded rod is correct." } },
-        { "q": { "en": "How do I determine the correct length of threaded rod for a connection?" }, "a": { "en": "General rule: for a nut-and-washer connection, add the following to the grip length (distance between bearing surfaces): 1x the rod diameter for washer, 1x the rod diameter for nut, plus 2-3 threads of extra length beyond the nut. For critical structural connections, use a calibrated tension indicator or verification method to confirm proper preload." } }
+        {
+          "q": {
+            "en": "Can threaded rod be used as an anchor bolt?"
+          },
+          "a": {
+            "en": "Yes, M16 or M20 threaded rod embedded in concrete (following anchor bolt embedment rules) functions as a cast-in-place anchor. For post-installed anchors, epoxy-bonded threaded rod (using injectable mortar) is a standard solution for equipment bases and structural connections in existing concrete."
+          }
+        },
+        {
+          "q": {
+            "en": "What's the difference between fully threaded and partially threaded rod?"
+          },
+          "a": {
+            "en": "Threaded rod (studding) by definition is fully threaded along its length. What is sometimes called 'partially threaded rod' is actually a double-ended bolt (stud) — a bar with threading on both ends and a plain shank in the middle. For most industrial applications (pipe hanging, structural connections), fully threaded rod is correct."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I determine the correct length of threaded rod for a connection?"
+          },
+          "a": {
+            "en": "General rule: for a nut-and-washer connection, add the following to the grip length (distance between bearing surfaces): 1x the rod diameter for washer, 1x the rod diameter for nut, plus 2-3 threads of extra length beyond the nut. For critical structural connections, use a calibrated tension indicator or verification method to confirm proper preload."
+          }
+        }
       ]
     }
   ],
-  "relatedProducts": ["threaded-rod", "couplings", "anchor-bolts"],
+  "relatedProducts": [
+    "threaded-rod",
+    "couplings",
+    "anchor-bolts"
+  ],
   "cta": {
-    "text": { "en": "Need threaded rod for your project? Get a factory quote from TradeGo.", "zh": "需要螺杆用于您的项目？从TradeGo获取工厂报价。" },
-    "buttonText": { "en": "Get Quote", "zh": "获取报价" },
+    "text": {
+      "en": "Need threaded rod for your project? Get a factory quote from TradeGo.",
+      "zh": "需要螺杆用于您的项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
     "link": "/#inquiry"
   }
 }

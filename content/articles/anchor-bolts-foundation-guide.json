@@ -5,7 +5,7 @@
   "readTime": 8,
   "image": "/images/products/anchor-bolts.jpg",
   "title": {
-    "en": "Anchor Bolts for Foundation: Complete Guide to Structural Anchoring in Construction",
+    "en": "Anchor Bolts for Foundation: Complete Guide to Structural...",
     "zh": "地脚螺栓基础安装完整指南：建筑结构锚固",
     "es": "Guía completa de pernos de anclaje para cimentación",
     "ar": "دليل شامل لبراغي المرساة للأساسات: الربط الهيكلي في البناء",
@@ -13,7 +13,7 @@
     "pt": "Guia completo de chumbadores para fundações"
   },
   "description": {
-    "en": "Complete guide to anchor bolts (foundation bolts) including J-bolts, L-bolts, and headed anchor bolts. Essential for securing structural steel, equipment, and machinery to concrete foundations in African construction projects.",
+    "en": "Complete guide to anchor bolts (foundation bolts) including J-bolts, L-bolts, and headed anchor bolts. Essential for securing structural steel, equipment, an...",
     "zh": "地脚螺栓完整指南，包括J型螺栓、L型螺栓和头锚螺栓。适用于非洲建筑项目中将结构钢、设备和机械固定在混凝土基础上。",
     "es": "Guía completa de pernos de anclaje incluyendo pernos en J, pernos en L.",
     "ar": "دليل شامل لبراغي المرساة بما في ذلك براغي J وبراغي L.",
@@ -100,6 +100,55 @@
       "body": {
         "en": "Anchor bolts are critical in African infrastructure: solar panel foundations—securing racking systems to concrete footings; telecommunications towers—anchoring tower bases to concrete foundations; mining equipment—securing crushers, conveyors, and processing equipment; commercial buildings—column base plates for steel structures; and bridges—securing bearing plates and expansion joints."
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Technical Guide and how are they used?"
+          },
+          "a": {
+            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
+          }
+        }
+      ]
     }
   ],
   "cta": {
