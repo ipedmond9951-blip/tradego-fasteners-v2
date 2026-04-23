@@ -8,6 +8,7 @@ import { locales, type Locale } from '@/i18n'
 import AIChatWidget from '@/components/AIChatWidget'
 import Analytics from '@/components/Analytics'
 import WhatsAppCTA from '@/components/WhatsAppCTA'
+import FAQSchema from '@/components/FAQSchema'
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -108,6 +109,7 @@ export default async function LocaleLayout({
           "name": "TradeGo Fasteners",
           "url": "https://tradego-fasteners.com"
         }) }} />
+        <FAQSchema locale={loc} />
         <link rel="alternate" hrefLang="en" href="/en" />
         <link rel="alternate" hrefLang="zh" href="/zh" />
         <link rel="alternate" hrefLang="es" href="/es" />

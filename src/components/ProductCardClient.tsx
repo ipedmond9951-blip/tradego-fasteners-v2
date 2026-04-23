@@ -49,7 +49,7 @@ export default function ProductCardClient({ product, locale, name }: ProductCard
       <div className="relative h-44 md:h-52 bg-gray-100 overflow-hidden">
         <Image 
           src={product.image} 
-          alt={name} 
+          alt={`${name} - ${product.specs.size} - TradeGo Fasteners Manufacturer`} 
           fill 
           className="object-cover group-hover:scale-105 transition-transform duration-500" 
           sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 25vw" 
