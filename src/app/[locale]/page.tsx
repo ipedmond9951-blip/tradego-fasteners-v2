@@ -172,7 +172,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
       <section className="py-12 md:py-16">
         <div className="container mx-auto px-4 sm:px-6 max-w-5xl">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">Complete Fastener Technical Guide</h2>
-          <p className="text-gray-600 text-center mb-12 text-sm md:text-base">Expert reference for selecting the right fasteners for your application. Understand specifications, standards, and best practices from our 20+ years of manufacturing experience.</p>
+          <p className="text-gray-600 text-center mb-12 text-sm md:text-base">Expert reference for selecting the right fasteners for your application. Understand specifications, standards, and best practices from our 12+ years of Africa-focused manufacturing experience.</p>
 
           {/* Drywall Screws Guide */}
           <div className="mb-10">

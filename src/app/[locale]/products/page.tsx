@@ -30,12 +30,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const siteUrl = 'https://tradego-fasteners.com'
   
   const titles: Record<string, string> = {
-    en: 'China Wholesale Fastener Manufacturer - Drywall Screws, Self-Drilling Screws, Hex Bolts, IBR Nails | ISO 9001',
-    zh: '中国紧固件批发厂家 | 干墙螺丝、自钻螺丝、六角螺栓、IBR钉批发 | ISO 9001',
+    en: 'Africa Fastener Distributor - Drywall Screws, Hex Bolts, IBR Nails from China | SABS, ISO 9001 Certified',
+    zh: '非洲紧固件分销商 | 干墙螺丝、六角螺栓、IBR钉中国制造 | SABS、ISO 9001认证',
   }
   const descriptions: Record<string, string> = {
-    en: 'China leading wholesale fastener manufacturer. Bulk drywall screws, self-drilling TEK screws, hex bolts, nuts, washers, IBR nails. ISO 9001 certified factory with 20+ years. Low MOQ, global shipping.',
-    zh: '中国领先紧固件批发制造商。批量干墙螺丝、自钻TEK螺丝、六角螺栓、螺母、垫圈、IBR钉。ISO 9001认证工厂，20多年经验。低MOQ，全球发货。',
+    en: 'South Africa fastener distributor. Bulk drywall screws, self-drilling TEK screws, hex bolts, nuts, washers, IBR nails. SABS & ISO 9001 certified factory with 12+ years Africa focus. Low MOQ, sea freight to Durban, Lagos, Mombasa.',
+    zh: '南非紧固件分销商。批量干墙螺丝、自钻TEK螺丝、六角螺栓、螺母、垫圈、IBR钉。SABS和ISO 9001认证工厂，12年非洲专注。低MOQ，海运至德班、拉各斯、蒙巴萨。',
   }
   
   return {
