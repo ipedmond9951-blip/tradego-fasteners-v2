@@ -98,7 +98,7 @@ export default async function LocaleLayout({
           "name": "TradeGo Fasteners",
           "url": "https://tradego-fasteners.com",
           "logo": "https://tradego-fasteners.com/images/logo.png",
-          "description": "Professional fastener manufacturer specializing in drywall screws, self-drilling screws, bolts, nuts, and IBR nails",
+          "description": "Africa fastener distributor specializing in drywall screws, self-drilling screws, bolts, nuts, and IBR nails for construction and industrial applications. SABS & ISO 9001 certified. 12+ years serving African markets.",
           "foundingDate": "2004",
           "address": { "@type": "PostalAddress", "addressCountry": "CN", "addressLocality": "Hebei" },
           "contactPoint": { "@type": "ContactPoint", "contactType": "sales", "availableLanguage": ["English", "Chinese"] },
