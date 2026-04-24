@@ -8,7 +8,7 @@ interface FAQSchemaProps {
 
 const faqSchemaData: Record<string, Array<{ question: string; answer: string }>> = {
   en: [
-    { question: "What is your minimum order quantity?", answer: "Our MOQ is 500 pieces for standard fasteners. For custom/OEM orders, MOQ is typically 1,000-5,000 pieces. We've supplied 500+ global clients since 2012 with orders ranging from 500 to 500,000 pieces per shipment." },
+    { question: "What is your minimum order quantity?", answer: "Our MOQ is 500 pieces for standard fasteners. For custom/OEM orders, MOQ is typically 1,000-5,000 pieces. We've supplied 500+ clients across 20+ African countries since 2012, with orders ranging from 500 to 500,000 pieces per shipment." },
     { question: "What payment methods do you accept?", answer: "We accept T/T (30% deposit, 70% before shipment), L/C at sight, PayPal (for samples under $500), and Western Union. We also offer Trade Assurance via Alibaba for orders up to $100,000." },
     { question: "Can I get free samples?", answer: "Yes, we provide 5-10 free samples per product for quality inspection. Samples ship within 3 business days via DHL/FedEx. Clients in Zimbabwe, South Africa, and Kenya have received samples within 7-14 days." },
     { question: "What is your delivery time?", answer: "Standard orders (500-10,000 pcs): 15-25 days. Large orders (10,000+ pcs): 25-40 days. Express production available for urgent orders (7-10 days, 15% surcharge). 98% of orders ship on time." },
