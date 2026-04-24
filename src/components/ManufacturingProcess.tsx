@@ -47,7 +47,7 @@ const translations: Record<string, {
       },
       {
         title: 'Packaging & Shipping',
-        description: 'Custom packaging available: bulk bags, color boxes, or palletized shipments. We handle sea freight, air freight, and express delivery to 50+ countries worldwide.',
+        description: 'Custom packaging available: bulk bags, color boxes, or palletized shipments. We specialize in sea freight to African ports including Durban (25-30 days), Lagos (30-35 days), and Mombasa (28-32 days), plus global air freight and express delivery.',
         icon: '📦'
       }
     ],
