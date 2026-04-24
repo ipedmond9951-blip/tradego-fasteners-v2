@@ -21,8 +21,8 @@ const responses: Record<string, Record<string, string>> = {
     zh: '我们的最小起订量因产品而异。标准产品通常为100公斤或10,000件起订。定制订单可能需要更高起订量。您对哪些产品感兴趣？',
   },
   shipping: {
-    en: 'We ship to 50+ countries worldwide. Delivery times: 7-10 days to US, 20-25 days to EU, 25-30 days to Africa. Sea freight and air freight available. Where are you located?',
-    zh: '我们向全球50多个国家发货。交货时间：美国7-10天，欧盟20-25天，非洲25-30天。支持海运和空运。您在哪个国家？',
+    en: 'We specialize in shipping to 20+ African countries plus global destinations. Sea freight to Africa: Durban 25-30 days, Lagos 30-35 days, Mombasa 28-32 days. Air freight available. Where are you located?',
+    zh: '我们专注向20多个非洲国家及全球目的地发货。海运至非洲：德班25-30天，拉各斯30-35天，蒙巴萨28-32天。支持空运。您在哪个国家？',
   },
   contact: {
     en: 'You can reach us at:\n📧 aimingtrade@hotmail.com\n📞 +86-135-6265-9951 / +86-159-6340-9951\n💬 WhatsApp: +86-159-6340-9951\nWe respond within 24 hours!',

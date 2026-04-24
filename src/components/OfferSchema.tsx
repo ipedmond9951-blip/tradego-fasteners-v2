@@ -84,7 +84,7 @@ export default function OfferSchema({
     ],
     areaServed: {
       '@type': 'Place',
-      name: '47 countries worldwide',
+      name: '20+ African countries (South Africa, Nigeria, Kenya, Ghana, Tanzania)',
     },
   }
 
