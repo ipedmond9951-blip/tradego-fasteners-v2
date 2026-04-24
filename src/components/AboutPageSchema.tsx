@@ -47,7 +47,7 @@ export default function AboutPageSchema({ locale = 'en' }: AboutPageSchemaProps)
       slogan: data.slogan,
       areaServed: {
         '@type': 'Place',
-        name: '47 countries worldwide (Africa, Middle East, Southeast Asia)',
+        name: '20+ African countries (South Africa, Nigeria, Kenya, Ghana, Tanzania, Zimbabwe)',
       },
       knowsAbout: [
         'Fasteners',
