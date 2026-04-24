@@ -27,7 +27,7 @@ export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
               Drywall Screws, Bolts, Nuts & Industrial Hardware
             </p>
             <p className="text-sm md:text-base lg:text-lg text-primary-100/90 mb-5 md:mb-7 leading-relaxed">
-              20+ years experience, ISO 9001 certified, global delivery
+              12+ years Africa focus, SABS & ISO 9001 certified, sea freight to Africa
             </p>
             <div className="flex flex-wrap gap-x-4 gap-y-2 mb-6 md:mb-8">
               {[t(locale, 'hero.iso'), t(locale, 'hero.global'), t(locale, 'hero.experience')].map((label, i) => (
