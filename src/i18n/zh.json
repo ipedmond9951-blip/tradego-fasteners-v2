@@ -1,7 +1,7 @@
 {
   "hero": {
-    "title": "全球市场专业紧固件供应商",
-    "subtitle": "从中国到世界的优质紧固件 — 20余年制造经验",
+    "title": "中国专业紧固件供应商 - 专注非洲市场",
+    "subtitle": "优质紧固件从中国到非洲 — 12年专注非洲建筑市场。SABS标准IBR钉、屋顶螺丝和建筑紧固件。",
     "cta": "获取报价",
     "ctaSecondary": "查看产品",
     "iso": "ISO 9001 认证",
@@ -40,14 +40,14 @@
   "steelMarket": "钢铁市场数据",
     "about": {
     "title": "为什么选择TradeGo？",
-    "experience": "20年经验",
-    "experienceDesc": "二十年制造经验，成熟的质量控制体系",
-    "certification": "ISO 9001:2015",
-    "certificationDesc": "国际认证质量管理体系，确保一致标准",
-    "global": "50+国家",
-    "globalDesc": "六大洲买家信赖的紧固件供应商",
-    "moq": "低起订量",
-    "moqDesc": "灵活订单量，支持各种规模企业",
+    "experience": "12年专注非洲",
+    "experienceDesc": "12年专注非洲建筑市场。SABS标准产品，供应南非、肯尼亚、尼日利亚、加纳、坦桑尼亚、津巴布韦等20余个非洲国家。",
+    "certification": "ISO 9001:2015 + SGS",
+    "certificationDesc": "ISO 9001:2015认证。SGS/BV检测可选。产品符合SABS 1195、DIN、ANSI、ISO标准。",
+    "global": "20+非洲国家",
+    "globalDesc": "供应南非、肯尼亚、尼日利亚、加纳、坦桑尼亚、津巴布韦等20余个非洲国家。",
+    "moq": "低起订量+快速响应",
+    "moqDesc": "1吨起订，24小时报价。可提供免费样品。500kg起可试单。",
     "manufacturing": "现代制造",
     "manufacturingAlt": "现代制造设施",
     "quality": "质量检测",
@@ -57,15 +57,15 @@
   },
   "why": {
     "title": "为什么选择TradeGo？",
-    "subtitle": "行业领先的质量、竞争力的价格和可靠的交付，满足您的紧固件需求",
-    "experienceTitle": "20年卓越制造",
-    "experienceDesc": "二十年制造专业经验，成熟的质量控制体系",
-    "certTitle": "ISO 9001:2015认证",
-    "certDesc": "国际认证的质量管理体系，确保一致的标准",
+    "subtitle": "12年专注非洲建筑市场。SABS标准产品，快速响应，可靠交付。",
+    "experienceTitle": "12年专注非洲",
+    "experienceDesc": "自2012年起专注非洲建筑市场。产品符合SABS 1195(南非)、KEBS(肯尼亚)、尼日利亚标准。",
+    "certTitle": "ISO 9001:2015 + SGS/BV",
+    "certDesc": "ISO 9001:2015认证。SGS/BV检测可选。每次发货提供材质证书。",
     "capabilityTitle": "完整生产线",
-    "capabilityDesc": "冷镦、滚牙、热处理和表面涂装均可内部完成",
-    "logisticsTitle": "全球发货",
-    "logisticsDesc": "与经验丰富的货运合作伙伴合作，可靠配送至50多个国家"
+    "capabilityDesc": "冷镦、滚牙、热处理和表面涂装均可内部完成。年产能50,000吨以上。",
+    "logisticsTitle": "非洲物流专家",
+    "logisticsDesc": "专注海运至德班(25-30天)、拉各斯(30-35天)、蒙巴萨(28-32天)等20余个非洲港口。"
   },
   "faq": {
     "title": "常见问题",
@@ -74,12 +74,20 @@
     "contactCta": "联系我们"
   },
   "testimonials": {
-    "title": "客户评价",
-    "subtitle": "深受全球建筑公司和工业制造商信赖"
+    "title": "非洲客户评价",
+    "subtitle": "深受南非、肯尼亚、尼日利亚、加纳、坦桑尼亚、津巴布韦等20余个非洲国家的建筑公司信赖",
+    "customer1": "TradeGo的IBR钉是我们从中国采购的质量最好的产品。5个订单品质始终如一。",
+    "customer2": "快速响应，可靠交付至德班。SABS标准产品为我们节省了检验时间。",
+    "customer3": "我们订购干壁钉和六角螺栓已有3年。TradeGo是我们首选的中国供应商。"
   },
   "certifications": {
-    "title": "质量认证",
-    "subtitle": "国际认可的标准和认证，让您放心采购"
+    "title": "质量认证与标准",
+    "subtitle": "ISO 9001:2015认证，SGS/BV检测可选。产品符合国际标准。",
+    "iso9001": "ISO 9001:2015",
+    "sabs": "SABS 1195(南非)",
+    "sgs": "SGS检测",
+    "bv": "BV检测",
+    "ce": "CE认证(欧盟)"
   },
   "inquiry": {
     "title": "获取报价",
