@@ -39,13 +39,13 @@ const productNames: Record<string, Record<string, string>> = {
 
 const productDescriptions: Record<string, Record<string, string>> = {
   en: {
-    'drywall-screws': 'High-quality drywall screws for construction and interior decoration. ISO 9001 certified manufacturer with 20+ years experience. Sharp point, bugle head, fine thread options.',
+    'drywall-screws': 'High-quality drywall screws for construction and interior decoration. SABS & ISO 9001 certified manufacturer with 12+ years of Africa-focused experience. Sharp point, bugle head, fine thread options. Popular for African construction projects.',
     'self-drilling-screws': 'Premium self-drilling TEK screws for metal-to-metal fastening. Drill point design for easy installation. Available in zinc plated and Ruspert finish.',
     'bolts-nuts': 'Industrial grade hex bolts and nuts Grade 4.8 to 12.9. Full and partial thread options. Suitable for construction, machinery, and automotive applications.',
     'ibr-nails': 'Umbrella head roofing nails for IBR and corrugated roofing. SABS 1195 compliant. Smooth and ring shank options for secure fastening.',
   },
   zh: {
-    'drywall-screws': '高质量干墙螺丝，用于建筑和室内装修。ISO 9001认证制造商，20多年经验。尖嘴、自攻型、细牙螺纹选项。',
+    'drywall-screws': '高质量干墙螺丝，用于建筑和室内装修。SABS和ISO 9001认证制造商，12年非洲专注经验。尖嘴、自攻型、细牙螺纹选项。适用于非洲建筑项目。',
     'self-drilling-screws': '优质自钻TEK螺丝，用于金属与金属连接。钻点设计，安装方便。有镀锌和Ruspert表面处理可选。',
     'bolts-nuts': '工业级六角螺栓和螺母，等级4.8至12.9。全牙和半牙选项。适用于建筑、机械和汽车应用。',
     'ibr-nails': '用于IBR和波纹屋顶的伞形头屋顶钉。符合SABS 1195标准。光杆和环纹杆选项，确保牢固连接。',
