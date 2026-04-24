@@ -29,8 +29,8 @@ const responses: Record<string, Record<string, string>> = {
     zh: '联系方式：\n📧 aimingtrade@hotmail.com\n📞 +86-135-6265-9951 / +86-159-6340-9951\n💬 WhatsApp: +86-159-6340-9951\n我们会在24小时内回复！',
   },
   company: {
-    en: 'TradeGo Fasteners has 20+ years of manufacturing experience. We\'re ISO 9001:2015 certified and SGS tested. Based in Weifang, China, serving 50+ countries.',
-    zh: 'TradeGo Fasteners拥有20多年制造经验。通过ISO 9001:2015认证和SGS检测。位于中国潍坊，服务全球50多个国家。',
+    en: 'TradeGo Fasteners has 12+ years of Africa-focused experience. We\'re SABS & ISO 9001:2015 certified and SGS tested. Based in Weifang, China, serving 20+ African countries with sea freight to Durban, Lagos, Mombasa.',
+    zh: 'TradeGo Fasteners拥有12年非洲专注经验。通过SABS和ISO 9001:2015认证及SGS检测。位于中国潍坊，海运至德班、拉各斯、蒙巴萨等服务20多个非洲国家。',
   },
   price: {
     en: 'Our prices are competitive for wholesale quantities. Prices vary by material, coating, and order size. Please tell us what products and quantities you need for an accurate quote.',

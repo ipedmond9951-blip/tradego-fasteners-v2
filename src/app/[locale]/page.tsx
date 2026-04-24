@@ -147,11 +147,11 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">Fastener Applications & Industries</h2>
-          <p className="text-gray-600 text-center max-w-3xl mx-auto mb-10 text-sm md:text-base">Our fasteners serve diverse industries worldwide. From residential construction to heavy industrial manufacturing, TradeGo delivers certified quality at competitive wholesale prices.</p>
+          <p className="text-gray-600 text-center max-w-3xl mx-auto mb-10 text-sm md:text-base">Our fasteners serve African construction and industrial projects. From residential buildings to commercial developments, TradeGo delivers SABS & ISO 9001 certified quality at factory prices with sea freight to Africa.</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-primary-900 mb-2">🏗️ Construction & Building</h3>
-              <p className="text-gray-600 text-sm">Drywall screws for interior framing, IBR nails for roofing installations, and structural bolts for steel connections. Meeting DIN, ANSI, and SABS standards for global construction projects.</p>
+              <p className="text-gray-600 text-sm">Drywall screws for interior framing, IBR nails for roofing installations, and structural bolts for steel connections. Meeting DIN, ANSI, and SABS standards for African construction projects.</p>
               <a href={`/${locale}/industry/timber-construction-fasteners-africa`} className="text-primary-600 hover:underline text-sm mt-2 inline-block">→ Learn more: Timber Construction Fasteners</a>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
