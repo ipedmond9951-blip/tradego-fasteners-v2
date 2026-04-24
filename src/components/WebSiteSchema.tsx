@@ -28,8 +28,8 @@ export default function WebSiteSchema({ locale = 'en' }: WebSiteSchemaProps) {
     audience: {
       '@type': 'Audience',
       name: locale === 'zh'
-        ? '非洲、中东、东南亚的建筑商和批发商'
-        : 'Builders and wholesalers in Africa, Middle East, Southeast Asia',
+        ? '南非、尼日利亚、肯尼亚、加纳、坦桑尼亚等非洲国家的建筑商和批发商'
+        : 'Builders, contractors and wholesalers in South Africa, Nigeria, Kenya, Ghana, Tanzania and other African countries',
     },
     potentialAction: {
       '@type': 'SearchAction',
