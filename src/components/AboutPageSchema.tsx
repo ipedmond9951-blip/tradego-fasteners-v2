@@ -18,7 +18,8 @@ export default function AboutPageSchema({ locale = 'en' }: AboutPageSchemaProps)
     },
     zh: {
       name: 'TradeGo 紧固件',
-      description: 'TradeGo紧固件是一家专业紧固件制造商和出口商，总部位于中国，为非洲、中东和东南亚47个国家的客户提供服务。自2012年以来，我们专注于IBR屋顶钉、干墙螺丝、自钻螺丝和六角螺栓，用于建筑、汽车和一般硬件应用。',
+      description: 'TradeGo紧固件是一家专业紧固件制造商和出口商，总部位于中国，为20+个非洲国家提供SABS和ISO 9001认证的紧固件，包括津巴布韦、南非、肯尼亚、尼日利亚、加纳、坦桑尼亚等。海运至德班、拉各斯和蒙巴萨。',
+
       url: 'https://tradego-fasteners.com/zh/about',
       foundingDate: '2012',
       numberOfEmployees: '50-100',
