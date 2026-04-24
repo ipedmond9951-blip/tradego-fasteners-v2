@@ -65,7 +65,6 @@ export default function LocalBusinessSchema({ locale = 'en' }: LocalBusinessSche
       bestRating: '5',
     },
     sameAs: [
-      'https://www.linkedin.com/company/tradego-fasteners',
       'https://www.facebook.com/tradegofasteners',
       'https://twitter.com/tradegofasteners',
     ],

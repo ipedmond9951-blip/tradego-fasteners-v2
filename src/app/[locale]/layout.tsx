@@ -103,7 +103,6 @@ export default async function LocaleLayout({
           "address": { "@type": "PostalAddress", "addressCountry": "CN", "addressLocality": "Hebei" },
           "contactPoint": { "@type": "ContactPoint", "contactType": "sales", "availableLanguage": ["English", "Chinese"] },
           "sameAs": [
-          "https://www.linkedin.com/company/tradego-fasteners",
           "https://www.facebook.com/tradegofasteners",
           "https://twitter.com/tradegofasteners",
           "https://www.youtube.com/@tradegofasteners"
