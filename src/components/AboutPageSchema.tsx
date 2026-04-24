@@ -10,7 +10,7 @@ export default function AboutPageSchema({ locale = 'en' }: AboutPageSchemaProps)
   const aboutData = {
     en: {
       name: 'TradeGo Fasteners',
-      description: 'TradeGo Fasteners is a professional fastener manufacturer and exporter based in China, serving clients in 47 countries across Africa, Middle East, and Southeast Asia since 2012. We specialize in IBR roofing nails, drywall screws, self-drilling screws, and hex bolts for construction, automotive, and general hardware applications.',
+      description: 'TradeGo Fasteners is a SABS & ISO 9001 certified fastener distributor based in China, specializing in serving African construction markets since 2012. We export IBR roofing nails, drywall screws, self-drilling screws, and hex bolts to 20+ African countries including South Africa, Nigeria, and Kenya. Factory-direct pricing with sea freight to Durban, Lagos, and Mombasa.',
       url: 'https://tradego-fasteners.com/about',
       foundingDate: '2012',
       numberOfEmployees: '50-100',
