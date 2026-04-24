@@ -22,7 +22,7 @@ const translations: Record<string, {
     title: 'Video Content',
     subtitle: 'See our manufacturing process, products, and customer testimonials in action',
     factoryTitle: 'Factory Tour',
-    factoryDesc: 'Take a virtual tour of our state-of-the-art manufacturing facilities in China',
+    factoryDesc: 'Take a virtual tour of our SABS & ISO 9001 certified fastener production facilities serving African markets',
     productTitle: 'Product Showcase',
     productDesc: 'Watch detailed demonstrations of our fastener products and applications',
     testimonialTitle: 'Customer Testimonials',
