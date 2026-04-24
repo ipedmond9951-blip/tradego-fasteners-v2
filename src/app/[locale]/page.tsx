@@ -52,7 +52,6 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
               availableLanguage: ['English', 'Chinese', 'Spanish', 'Arabic', 'French', 'Portuguese', 'Russian'],
             },
             sameAs: [
-              'https://www.linkedin.com/company/tradego-fasteners',
               'https://wa.me/8615963409951'
             ],
           }),

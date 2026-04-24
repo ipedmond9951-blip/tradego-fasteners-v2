@@ -68,7 +68,6 @@ export default function OrganizationSchema({ locale = 'en' }: OrganizationSchema
       timeZone: 'Asia/Shanghai',
     },
     sameAs: [
-      'https://www.linkedin.com/company/tradego-fasteners',
       'https://www.facebook.com/tradegofasteners',
       'https://twitter.com/tradegofasteners',
     ],
