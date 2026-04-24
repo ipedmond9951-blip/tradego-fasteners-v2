@@ -20,11 +20,11 @@ export default function OrganizationSchema({ locale = 'en' }: OrganizationSchema
     },
     image: 'https://tradego-fasteners.com/images/factory.jpg',
     description: locale === 'zh' 
-      ? 'TradeGo是专业的中国紧固件批发制造商，专注出口非洲、中东、东南亚市场20年。产品包括干墙螺丝、自钻螺丝、螺栓螺母、IBR钉等。ISO 9001认证，日产能50吨，出口47国。'
-      : 'TradeGo is a professional China fastener manufacturer serving Africa, Middle East, and Southeast Asia markets for 20 years. Products include drywall screws, self-drilling screws, hex bolts, nuts, IBR nails. ISO 9001 certified. Daily output: 50 tons. Export to 47 countries.',
+      ? 'TradeGo是专业的SABS和ISO 9001认证紧固件分销商，专注服务非洲建筑市场12+年。产品包括干墙螺丝、自钻螺丝、螺栓螺母、IBR钉等。工厂价，海运至德班、拉各斯、蒙巴萨等20余个非洲国家。'
+      : 'TradeGo is a SABS & ISO 9001 certified fastener distributor specializing in serving African construction markets for 12+ years. Products include drywall screws, self-drilling screws, hex bolts, nuts, IBR nails. Factory-direct pricing with sea freight to Durban, Lagos, Mombasa and 20+ African countries.',
     slogan: locale === 'zh' 
-      ? '可靠紧固件，全球送达'
-      : 'Reliable Fasteners, Delivered Globally',
+      ? '非洲可靠紧固件供应商'
+      : 'Reliable Fasteners, Delivered to Africa',
     foundingDate: '2004',
     foundingLocation: {
       '@type': 'Place',
