@@ -31,7 +31,6 @@ const geoConfig: Record<string, { lang: string; currency: string }> = {
   LS: { lang: 'en', currency: 'LSL' },
   RW: { lang: 'en', currency: 'RWF' },
   SS: { lang: 'en', currency: 'SSP' },
-  SD: { lang: 'en', currency: 'SDG' },
   // Other English markets
   IN: { lang: 'hi', currency: 'INR' },
   KR: { lang: 'en', currency: 'KRW' },
