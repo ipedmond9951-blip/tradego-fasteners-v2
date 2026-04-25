@@ -15,22 +15,31 @@ export default function Analytics() {
 
   return (
     <>
-      {/* Load GA4 script */}
+      {/* Load GA4 script with afterInteractive strategy */}
       <Script
-        strategy="lazyOnload"
+        strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-      />
-      {/* Initialize GA4 */}
-      <Script strategy="lazyOnload">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '${GA_MEASUREMENT_ID}', {
+        onLoad={() => {
+          // Initialize GA4 after gtag.js is loaded
+          window.dataLayer = window.dataLayer || []
+          function gtag(...args: any[]) {
+            window.dataLayer.push(args)
+          }
+          window.gtag = gtag
+          gtag('js', new Date())
+          gtag('config', GA_MEASUREMENT_ID, {
             page_path: window.location.pathname,
-          });
-        `}
-      </Script>
+          })
+        }}
+      />
     </>
   )
+}
+
+// Type declaration for window.gtag
+declare global {
+  interface Window {
+    gtag: (...args: any[]) => void
+    dataLayer: any[]
+  }
 }
