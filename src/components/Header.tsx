@@ -78,9 +78,11 @@ export default function Header({ locale = 'en' }: HeaderProps) {
           </div>
 
           {/* Right side */}
-          <div className="flex items-center gap-1.5 md:gap-3">
+          <div className="flex items-center gap-1 md:gap-3">
+            {/* Language Switcher - visible on all devices for easy access */}
+            <LanguageSwitcher />
+            {/* Currency Switcher - desktop only, mobile in menu */}
             <div className="hidden sm:flex items-center gap-1.5">
-              <LanguageSwitcher />
               <CurrencySwitcher />
             </div>
             <a href={`/${locale}#inquiry`} className="hidden md:inline-flex bg-primary-700 text-white px-4 py-2 rounded-lg font-semibold hover:bg-primary-900 transition-colors text-xs md:text-sm whitespace-nowrap">
