@@ -6,6 +6,9 @@ import Script from 'next/script'
 // Set NEXT_PUBLIC_GA_MEASUREMENT_ID in Vercel project settings (Production)
 // Example: NEXT_PUBLIC_GA_MEASUREMENT_ID=G-6RE8PBNLC6
 
+// Standard Google GA4 implementation - gtag function defined before gtag.js loads
+// gtag.js will find window.gtag already defined and use it
+
 export default function Analytics() {
   const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID
 
@@ -15,19 +18,25 @@ export default function Analytics() {
 
   return (
     <>
-      {/* Load GA4 script - standard Google implementation */}
-      <Script
-        strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-      />
-      {/* Initialize GA4 - runs after gtag.js loads */}
-      <Script id="ga-init" strategy="afterInteractive">
+      {/* Prepare gtag function - Google expects this before gtag.js loads */}
+      <Script id="gtag-prepare" strategy="beforeInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
           window.gtag = gtag;
           gtag('js', new Date());
-          gtag('config', '${GA_MEASUREMENT_ID}', {
+        `}
+      </Script>
+      {/* Load gtag.js - will use existing window.gtag */}
+      <Script
+        id="gtag-script"
+        strategy="beforeInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+      />
+      {/* Configure GA4 with page_path */}
+      <Script id="gtag-config" strategy="beforeInteractive">
+        {`
+          window.gtag('config', '${GA_MEASUREMENT_ID}', {
             page_path: window.location.pathname,
           });
         `}
