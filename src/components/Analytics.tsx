@@ -15,19 +15,19 @@ export default function Analytics() {
 
   return (
     <>
-      {/* Load GA4 script with afterInteractive strategy */}
+      {/* Load GA4 script with beforeInteractive strategy */}
       <Script
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
         onLoad={() => {
-          // Initialize GA4 after gtag.js is loaded
+          // Initialize dataLayer if not exists
           window.dataLayer = window.dataLayer || []
-          function gtag(...args: any[]) {
-            window.dataLayer.push(args)
-          }
-          window.gtag = gtag
-          gtag('js', new Date())
-          gtag('config', GA_MEASUREMENT_ID, {
+          
+          // Initialize GA4 - call window.gtag directly (provided by gtag.js)
+          // @ts-ignore - gtag is added by the gtag.js script
+          window.gtag('js', new Date())
+          // @ts-ignore
+          window.gtag('config', GA_MEASUREMENT_ID, {
             page_path: window.location.pathname,
           })
         }}
