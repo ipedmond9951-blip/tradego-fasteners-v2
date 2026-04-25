@@ -15,23 +15,22 @@ export default function Analytics() {
 
   return (
     <>
-      {/* Load GA4 script with beforeInteractive strategy */}
+      {/* Load GA4 script - standard implementation */}
       <Script
-        strategy="afterInteractive"
+        strategy="beforeInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-        onLoad={() => {
-          // Initialize dataLayer if not exists
-          window.dataLayer = window.dataLayer || []
-          
-          // Initialize GA4 - call window.gtag directly (provided by gtag.js)
-          // @ts-ignore - gtag is added by the gtag.js script
-          window.gtag('js', new Date())
-          // @ts-ignore
-          window.gtag('config', GA_MEASUREMENT_ID, {
-            page_path: window.location.pathname,
-          })
-        }}
       />
+      {/* Initialize GA4 - runs immediately after gtag.js loads */}
+      <Script id="gtag-init" strategy="beforeInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${GA_MEASUREMENT_ID}', {
+            page_path: window.location.pathname,
+          });
+        `}
+      </Script>
     </>
   )
 }
