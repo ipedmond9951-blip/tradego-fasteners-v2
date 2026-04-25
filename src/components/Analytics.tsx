@@ -2,15 +2,13 @@
 
 import { useEffect } from 'react'
 
-interface AnalyticsProps {
-  GA_MEASUREMENT_ID?: string
-}
-
 // Google Analytics 4 component
-// To enable analytics, set your GA_MEASUREMENT_ID in environment variables
+// To enable analytics, set NEXT_PUBLIC_GA_MEASUREMENT_ID in .env.local
 // NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
 
-export default function Analytics({ GA_MEASUREMENT_ID }: AnalyticsProps) {
+export default function Analytics() {
+  const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID
+
   useEffect(() => {
     if (!GA_MEASUREMENT_ID) return
 
