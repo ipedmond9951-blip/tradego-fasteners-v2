@@ -1,0 +1,84 @@
+{
+  "slug": "mozambique-hardware-supplier",
+  "category": "Regional Supplier",
+  "date": "2026-04-26",
+  "readTime": 8,
+  "image": "/images/scenarios/maputo-port.jpg",
+  "title": {
+    "en": "Mozambique Hardware Supplier: Construction Fasteners in Maputo & Beira",
+    "zh": "莫桑比克五金供应商：马普托和贝拉的建筑紧固件"
+  },
+  "description": {
+    "en": "Leading Mozambique hardware supplier. Fasteners for construction, mining and agriculture in Maputo, Beira, Nampula. Port of Maputo and Beira shipping. Factory prices with INNOQ certification support.",
+    "zh": "莫桑比克领先的五金供应商。为马普托、贝拉、南普拉等地的建筑、采矿和农业提供紧固件。马普托港和贝拉港运输。工厂价格，INNOQ认证支持。"
+  },
+  "keywords": "Mozambique fastener supplier, Maputo hardware wholesaler, Beira construction fasteners, Mozambique mining hardware, INNOQ certified, Maputo port import, Southern Africa construction, Mozambique agriculture fasteners",
+  "sections": [
+    {
+      "id": "overview",
+      "heading": {
+        "en": "Mozambique: Gateway to Southern Africa via Maputo & Beira",
+        "zh": "莫桑比克：通过马普托和贝拉通往南非洲的门户"
+      },
+      "body": {
+        "en": "Mozambique's strategic ports of Maputo and Beira serve as crucial gateways for imports flowing into Southern Africa, including Zimbabwe, Zambia, Malawi, and parts of the DRC. With the country investing heavily in infrastructure and natural gas projects, demand for construction hardware is growing rapidly. TradeGo Fasteners supplies Mozambican businesses with quality fasteners for mining operations (coal in Tete, aluminum in Maputo), construction projects, and agricultural infrastructure. Our Maputo and Beira port-based logistics ensure efficient distribution throughout the country.",
+        "zh": "莫桑比克的马普托和贝拉战略港口是进口货物进入南非洲（包括津巴布韦、赞比亚、马拉维和部分刚果金）的重要门户。随着该国大力投资基础设施和天然气项目，建筑五金需求正在快速增长。TradeGo紧固件为莫桑比克企业提供优质紧固件，用于采矿作业（太特省的煤、马普托的铝）、建筑项目和农业基础设施。我们的马普托和贝拉港物流确保高效分销到全国各地。"
+      }
+    },
+    {
+      "id": "ports",
+      "heading": {
+        "en": "Major Ports: Maputo & Beira",
+        "zh": "主要港口：马普托和贝拉"
+      },
+      "body": {
+        "en": "Maputo Port is Mozambique's busiest port and gateway to South Africa's industrial heartland and Zimbabwe. Beira Port serves the central corridor including Zimbabwe, Zambia, and Malawi. We handle all shipping to both ports with complete documentation for INNOQ (Instituto Nacional de Normalização e Qualidade) compliance.",
+        "zh": "马普托港是莫桑比克最繁忙的港口，是通往南非工业中心和津巴布韦的门户。贝拉港服务于中部走廊，包括津巴布韦、赞比亚和马拉维。我们处理到两个港口的所有运输，并提供INNOQ（国家标准和质量研究所）合规的完整文件。"
+      }
+    },
+    {
+      "id": "products",
+      "heading": {
+        "en": "Fasteners for Mozambique's Industries",
+        "zh": "莫桑比克行业的紧固件"
+      },
+      "table": {
+        "headers": ["Sector", "Popular Products", "Key Markets"],
+        "rows": [
+          ["Mining (Tete Coal)", "High-tensile bolts, rock anchors, washers", "Tete, Beira"],
+          ["Aluminum Industry", "SS fasteners, structural bolts, pipeline clamps", "Maputo, Matola"],
+          ["Construction", "Roofing screws, concrete anchors, structural bolts", "Nationwide"],
+          ["Agriculture", "Coach screws, fencing hardware, general fasteners", "Rural areas"],
+          ["Infrastructure", "Bridge fasteners, guardrail bolts, highway hardware", "Corridors"]
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题"
+      },
+      "faqItems": [
+        {
+          "q": {"en": "Do you ship to both Maputo and Beira ports?", "zh": "您是否运送到马普托和贝拉港？"},
+          "a": {"en": "Yes, we ship to both Maputo and Beira ports. Maputo is best for southern routes, Beira for central and northern corridors.", "zh": "是的，我们运送到马普托和贝拉港。马普托最适合南部路线，贝拉最适合中部和北部走廊。"}
+        },
+        {
+          "q": {"en": "What is INNOQ certification?", "zh": "什么是INNOQ认证？"},
+          "a": {"en": "INNOQ is Mozambique's national standards body. We can provide certified products and documentation for customs clearance.", "zh": "INNOQ是莫桑比克的国家标准机构。我们可以提供认证产品和清关文件。"}
+        },
+        {
+          "q": {"en": "Can you deliver to Nampula and northern Mozambique?", "zh": "您可以送到南普拉和莫桑比克北部吗？"},
+          "a": {"en": "Yes, we deliver throughout Mozambique including Nampula, Pemba, and Lichinga via our distribution network.", "zh": "是的，我们通过分销网络向莫桑比克全境发货，包括南普拉、彭巴和利欣加。"}
+        }
+      ]
+    }
+  ],
+  "relatedProducts": ["structural-bolts", "stainless-steel-fasteners", "roofing-screws", "rock-bolts"],
+  "cta": {
+    "text": {"en": "Get Mozambique Fastener Prices", "zh": "获取莫桑比克紧固件价格"},
+    "buttonText": {"en": "Request Quote for Mozambique", "zh": "索取莫桑比克报价"},
+    "link": "/en/product-upload"
+  }
+}
