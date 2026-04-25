@@ -2,9 +2,9 @@
 
 import { useEffect } from 'react'
 
-// Google Analytics 4 component
-// To enable analytics, set NEXT_PUBLIC_GA_MEASUREMENT_ID in .env.local
-// NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+// Google Analytics 4 component — GA4 tracking enabled
+// Set NEXT_PUBLIC_GA_MEASUREMENT_ID in Vercel project settings (Production)
+// Example: NEXT_PUBLIC_GA_MEASUREMENT_ID=G-6RE8PBNLC6
 
 export default function Analytics() {
   const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID
