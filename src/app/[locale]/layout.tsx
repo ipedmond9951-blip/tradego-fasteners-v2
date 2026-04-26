@@ -33,12 +33,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const siteUrl = 'https://tradego-fasteners.com'
   
   const titles: Record<string, string> = {
-    zh: 'TradeGo紧固件 - 中国对非出口厂家 | ISO 9001, SABS认证 | 干墙螺丝·IBR钉·螺栓',
-    en: 'TradeGo Fasteners - China Manufacturer for Africa | ISO 9001, SABS Certified | Export to 20+ African Countries',
+    zh: 'TradeGo紧固件 - 中国对非出口厂家 | ISO 9001, SABS认证',
+    en: 'TradeGo Fasteners - China Manufacturer for Africa | ISO 9001, SABS',
   }
   const descriptions: Record<string, string> = {
-    zh: 'ISO 9001 & SABS认证中国紧固件制造商。12年非洲出口经验。干墙螺丝、IBR钉、六角螺栓工厂价。海运发货至德班(南非)、拉各斯(尼日利亚)、蒙巴萨(肯尼亚)等20+非洲国家。',
-    en: 'ISO 9001 & SABS certified China fastener manufacturer. 12+ years exporting to Africa. Drywall screws, IBR nails, hex bolts at factory prices. Sea freight to Durban, Lagos, Mombasa. Get your quote today!',
+    zh: 'ISO 9001 & SABS认证中国紧固件制造商。12年非洲出口经验。干墙螺丝、IBR钉、六角螺栓工厂价。',
+    en: 'ISO 9001 & SABS certified China fastener manufacturer. 12+ years exporting to Africa. Drywall screws, IBR nails, hex bolts at factory prices.',
   }
   
   return {

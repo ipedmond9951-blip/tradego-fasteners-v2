@@ -203,6 +203,9 @@ for path in "/en" "/zh"; do
     PAGE_CONTENT=$(curl -s "${SITE_URL}$path" 2>/dev/null)
     HAS_H1=$(echo "$PAGE_CONTENT" | grep -c "<h1" || echo "0")
     HAS_H2=$(echo "$PAGE_CONTENT" | grep -c "<h2" || echo "0")
+    # 使用grep -o计算实际出现次数（因为minified HTML可能多标签在一行）
+    HAS_H1=$(echo "$PAGE_CONTENT" | grep -o "<h1" | wc -l)
+    HAS_H2=$(echo "$PAGE_CONTENT" | grep -o "<h2" | wc -l)
     if [ "$HAS_H1" -ge 1 ] && [ "$HAS_H2" -ge 2 ]; then
         H_SCORE=$((H_SCORE + 1))
         log "   ✅ $path H1:$HAS_H1 H2:$HAS_H2"
@@ -223,8 +226,9 @@ TOTAL_IMGS=0
 ALT_PRESENT=0
 for path in "/en" "/zh"; do
     PAGE_CONTENT=$(curl -s "${SITE_URL}$path" 2>/dev/null)
-    IMG_COUNT=$(echo "$PAGE_CONTENT" | grep -c '<img' || echo "0")
-    ALT_COUNT=$(echo "$PAGE_CONTENT" | grep -c 'alt=' || echo "0")
+    # 使用grep -o计算实际出现次数
+    IMG_COUNT=$(echo "$PAGE_CONTENT" | grep -o '<img' | wc -l)
+    ALT_COUNT=$(echo "$PAGE_CONTENT" | grep -o 'alt=' | wc -l)
     TOTAL_IMGS=$((TOTAL_IMGS + IMG_COUNT))
     ALT_PRESENT=$((ALT_PRESENT + ALT_COUNT))
     
