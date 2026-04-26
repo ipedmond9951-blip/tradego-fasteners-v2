@@ -352,7 +352,55 @@ else
 fi
 
 # ==========================================
-# 第七部分: 生成报告
+# 第七部分: 关键词排名追踪 - 新增
+# ==========================================
+RANKING_FILE="$PROJECT_DIR/logs/keyword-rankings.csv"
+log ""
+log "========== 关键词排名追踪 =========="
+
+# 核心关键词列表（来自seo-engine skill）
+KEYWORDS=(
+    "drywall screws manufacturer"
+    "IBR nails supplier"
+    "fastener wholesale Africa"
+    "China fastener exporter"
+    "drywall screws China"
+)
+
+log "📊 目标关键词追踪:"
+for kw in "${KEYWORDS[@]}"; do
+    log "   🎯 $kw"
+done
+
+# 检查排名数据文件是否存在
+if [ ! -f "$RANKING_FILE" ]; then
+    log "   📝 首次运行，创建排名数据文件..."
+    echo "keyword,date,ranking,search_volume,notes" > "$RANKING_FILE"
+fi
+
+# 记录今日日期的关键词数据（手动更新）
+TODAY=$(date '+%Y-%m-%d')
+log "   📅 上次更新: $(tail -1 "$RANKING_FILE" 2>/dev/null | cut -d',' -f2 || echo '从未')"
+log "   💡 如需更新排名，请编辑: $RANKING_FILE"
+
+# ==========================================
+# 第八部分: 竞品分析 - 新增
+# ==========================================
+log ""
+log "========== 竞品分析 =========="
+log "🔍 主要竞争对手:"
+COMPETITORS=(
+    "fastenersofsouthafrica.com"
+    "africanfasteners.com"
+    "chinahardwaretools.com"
+)
+for comp in "${COMPETITORS[@]}"; do
+    log "   👥 $comp"
+done
+log "   💡 建议: 定期检查竞品外链和关键词策略"
+
+# ==========================================
+# 第九部分: 生成报告
 # ==========================================
 log ""
 log "========== SEO评分总结 =========="
@@ -382,7 +430,7 @@ log "📚 总文章数: $ARTICLE_TOTAL"
 log "🌍 津巴布韦边境市场文章: $ZIMBABWE_BORDER_ARTICLES"
 
 # ==========================================
-# 第八部分: Git提交推送
+# 第十部分: Git提交推送
 # ==========================================
 log ""
 log "========== Git同步 =========="
@@ -399,7 +447,7 @@ else
 fi
 
 # ==========================================
-# 第九部分: 待办建议
+# 第十一部分: 待优化建议
 # ==========================================
 log ""
 log "========== 待优化建议 =========="
@@ -407,6 +455,7 @@ log "📋 技术SEO: Core Web Vitals需使用专业工具检测"
 log "📋 离页SEO: 需主动建设外链资源"
 log "📋 社媒: 建议添加LinkedIn/Facebook分享功能"
 log "📋 内容: 持续生成高质量GEO文章"
+log "📋 排名追踪: 请手动更新 $RANKING_FILE 中的关键词排名"
 
 # 清理旧日志（保留30天）
 find "$LOG_DIR" -name "auto-seo-*.log" -mtime +30 -delete 2>/dev/null || true
