@@ -1,0 +1,179 @@
+{
+  "timestamp": "2026-04-26T10:37:05.623663",
+  "website": "https://www.tradego-fasteners.com",
+  "total_directories": 19,
+  "directories": [
+    {
+      "name": "Google Business",
+      "url": "https://business.google.com/add",
+      "free": true,
+      "priority": 1,
+      "notes": "必须亲自操作，添加商家信息",
+      "requires_email": true,
+      "status": "pending"
+    },
+    {
+      "name": "Bing Places",
+      "url": "https://www.bing.com/webmasters/about/add-site",
+      "free": true,
+      "priority": 1,
+      "notes": "必须亲自操作",
+      "requires_email": true,
+      "status": "pending"
+    },
+    {
+      "name": " Alibaba Supplier Directory",
+      "url": "https://.alibaba.com/supplier/apply",
+      "free": false,
+      "priority": 2,
+      "notes": "需要付费会员",
+      "requires_email": true,
+      "status": "pending"
+    },
+    {
+      "name": "Made-in-China",
+      "url": "https://www.made-in-china.com/join",
+      "free": false,
+      "priority": 2,
+      "notes": "需要付费会员",
+      "requires_email": true,
+      "status": "pending"
+    },
+    {
+      "name": "Global Sources",
+      "url": "https://www.globalsources.com/suppliers/",
+      "free": false,
+      "priority": 2,
+      "notes": "需要付费会员",
+      "requires_email": true,
+      "status": "pending"
+    },
+    {
+      "name": "Hotfrog",
+      "url": "https://www.hotfrog.com/company/add",
+      "free": true,
+      "priority": 3,
+      "notes": "免费目录，可自动化",
+      "requires_email": true,
+      "status": "pending"
+    },
+    {
+      "name": "Yellow Pages",
+      "url": "https://www.yellowpages.com/business-information",
+      "free": false,
+      "priority": 3,
+      "notes": "部分免费",
+      "requires_email": true,
+      "status": "pending"
+    },
+    {
+      "name": "Manta",
+      "url": "https://www.manta.com/add",
+      "free": true,
+      "priority": 3,
+      "notes": "美国商业目录",
+      "requires_email": true,
+      "status": "pending"
+    },
+    {
+      "name": "Alignable",
+      "url": "https://www.alignable.com/signup/business",
+      "free": true,
+      "priority": 3,
+      "notes": "中小企业目录",
+      "requires_email": true,
+      "status": "pending"
+    },
+    {
+      "name": "ShowRoom",
+      "url": "https://www.showroomlocal.co.uk/add-business",
+      "free": true,
+      "priority": 3,
+      "notes": "英国本地商家",
+      "requires_email": true,
+      "status": "pending"
+    },
+    {
+      "name": "International Hardware Directory",
+      "url": "https://www.hardwaresite.com/submit",
+      "free": true,
+      "priority": 2,
+      "notes": "五金行业目录",
+      "requires_email": true,
+      "status": "pending"
+    },
+    {
+      "name": "Construction Directory",
+      "url": "https://www.constructiondir.com/submit",
+      "free": true,
+      "priority": 2,
+      "notes": "建筑行业目录",
+      "requires_email": true,
+      "status": "pending"
+    },
+    {
+      "name": "Africa Business Directory",
+      "url": "https://www.afribusiness.com/submit",
+      "free": true,
+      "priority": 1,
+      "notes": "非洲商业目录",
+      "requires_email": true,
+      "status": "pending"
+    },
+    {
+      "name": "South Africa Business Directory",
+      "url": "https://www.sa-biz.com/submit-business",
+      "free": true,
+      "priority": 1,
+      "notes": "南非商业目录 - 目标市场",
+      "requires_email": true,
+      "status": "pending"
+    },
+    {
+      "name": "Zimbabwe Business Directory",
+      "url": "https://www.zimbiz.co.zw/add-business",
+      "free": true,
+      "priority": 1,
+      "notes": "津巴布韦商业目录 - 目标市场",
+      "requires_email": true,
+      "status": "pending"
+    },
+    {
+      "name": "Export.gov Supplier Directory",
+      "url": "https://www.export.gov/apex/supplier2",
+      "free": true,
+      "priority": 1,
+      "notes": "美国政府出口目录",
+      "requires_email": true,
+      "status": "pending"
+    },
+    {
+      "name": "Best of the Web",
+      "url": "https://www.botw.org/submit",
+      "free": false,
+      "priority": 3,
+      "notes": "付费目录",
+      "requires_email": true,
+      "status": "pending"
+    },
+    {
+      "name": "Jilster",
+      "url": "https://www.jilster.com/add-site",
+      "free": true,
+      "priority": 3,
+      "notes": "免费目录",
+      "requires_email": true,
+      "status": "pending"
+    },
+    {
+      "name": "A1 Webmarks",
+      "url": "https://www.a1webmarks.com/submit",
+      "free": true,
+      "priority": 3,
+      "notes": "免费目录",
+      "requires_email": true,
+      "status": "pending"
+    }
+  ],
+  "outreach_email_template": "Subject: TradeGo Fasteners - Supplier Listing Request\n\nDear  Team,\n\nI am writing from TradeGo Fasteners (https://www.tradego-fasteners.com), a professional fastener manufacturer based in China.\n\nWe specialize in manufacturing and exporting:\n- Drywall screws\n- IBR nails  \n- Construction fasteners\n- Custom fasteners per specifications\n\nWhy list with us:\n- ISO 9001 & SABS certified\n- 12+ years exporting to African markets\n- Factory direct prices\n- OEM/ODM available\n\nWould you be interested in listing our company in your directory? I would be happy to provide any additional information or documentation.\n\nOur company details:\nWebsite: https://www.tradego-fasteners.com\nContact: info@tradego-fasteners.com\n\nBest regards,\nTradeGo Fasteners Team"
+}
