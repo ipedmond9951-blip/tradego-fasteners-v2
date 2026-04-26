@@ -1,17 +1,16 @@
 'use client'
 
-import Script from 'next/script'
 import { useEffect } from 'react'
 import { usePathname } from 'next/navigation'
 
-// Google Analytics 4 component — Direct Measurement Protocol Implementation
-// This implementation bypasses gtag.js and sends events directly to GA4
-// to work around GTM interference issues.
-//
-// Set NEXT_PUBLIC_GA_MEASUREMENT_ID in Vercel project settings (Production)
+// Google Analytics 4 component — Pure Direct Measurement Protocol Implementation
+// This implementation:
+// 1. Does NOT load gtag.js or gtm.js at all
+// 2. Sends events directly to GA4 using Measurement Protocol
+// 3. Completely bypasses GTM and any other Google scripts
 //
 // GA4 Measurement Protocol endpoint: https://www.google-analytics.com/g/collect
-// Required parameters: v=1, tid=MEASUREMENT_ID, cid=CLIENT_ID, en=EVENT_NAME
+// Required: Measurement ID (NEXT_PUBLIC_GA_MEASUREMENT_ID)
 
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID
 
@@ -33,17 +32,13 @@ function sendGA4Event(eventName: string, eventParams: Record<string, any> = {}) 
   
   const clientId = getClientId()
   
-  // Build the URL with required parameters
+  // Build URL with required parameters
   const baseUrl = 'https://www.google-analytics.com/g/collect'
   const params = new URLSearchParams({
     v: '1',
     tid: GA_MEASUREMENT_ID,
     cid: clientId,
     en: eventName,
-    ul: navigator.language || 'en-us',
-    dl: window.location.href,
-    dt: document.title,
-    dr: document.referrer,
   })
   
   // Add event parameters
@@ -57,15 +52,18 @@ function sendGA4Event(eventName: string, eventParams: Record<string, any> = {}) 
   
   // Use sendBeacon for reliable delivery
   if (navigator.sendBeacon) {
-    navigator.sendBeacon(url)
+    const sent = navigator.sendBeacon(url)
+    console.log('[GA4] Event sent via sendBeacon:', eventName, 'sent:', sent)
   } else {
-    // Fallback to fetch
+    console.log('[GA4] sendBeacon not available, using fetch')
     fetch(url, { method: 'POST', keepalive: true, mode: 'no-cors' })
   }
 }
 
 // Track page views
 function trackPageView() {
+  if (typeof window === 'undefined') return
+  
   const pathname = window.location.pathname
   sendGA4Event('page_view', {
     page_path: pathname,
@@ -74,52 +72,74 @@ function trackPageView() {
   })
 }
 
+// Prevent any Google scripts from loading
+function blockGoogleScripts() {
+  if (typeof window === 'undefined') return
+  
+  // Block gtm.js from loading
+  const originalQuerySelector = document.querySelector.bind(document)
+  
+  // Intercept new script elements
+  const observer = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+      mutation.addedNodes.forEach((node) => {
+        if (node.nodeName === 'SCRIPT') {
+          const script = node as HTMLScriptElement
+          const src = script.src || ''
+          if (src.includes('googletagmanager.com') || src.includes('google-analytics.com')) {
+            console.log('[GA4] Blocking script:', src)
+            script.remove()
+          }
+        }
+      })
+    })
+  })
+  
+  observer.observe(document.documentElement, { childList: true, subtree: true })
+  console.log('[GA4] Google script blocker activated')
+}
+
 // Analytics component
 export default function Analytics() {
   const pathname = usePathname()
 
+  // Initialize on mount - block Google scripts and set up tracking
+  useEffect(() => {
+    // Block any Google scripts that might try to load
+    blockGoogleScripts()
+    
+    // Track initial page view
+    const timer = setTimeout(trackPageView, 500)
+    
+    return () => clearTimeout(timer)
+  }, [])
+
   // Track page views on route changes
   useEffect(() => {
-    // Small delay to ensure page is fully loaded
     const timer = setTimeout(trackPageView, 100)
     return () => clearTimeout(timer)
   }, [pathname])
 
-  // Track page view on initial load
-  useEffect(() => {
-    const timer = setTimeout(trackPageView, 500)
-    return () => clearTimeout(timer)
-  }, [])
-
   if (!GA_MEASUREMENT_ID) {
+    console.log('[GA4] No Measurement ID configured')
     return null
   }
 
-  return (
-    <>
-      {/* Load gtag.js as a fallback but it won't interfere with our direct implementation */}
-      <Script
-        id="gtag-base"
-        strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-        onLoad={() => {
-          // gtag.js loaded, but we're using direct Measurement Protocol
-          // This ensures gtag is available for any legacy code that might use it
-          if (typeof window.gtag === 'function') {
-            window.gtag('config', GA_MEASUREMENT_ID, {
-              send_page_view: false, // We handle page views ourselves
-            })
-          }
-        }}
-      />
-    </>
-  )
+  console.log('[GA4] Analytics component mounted with ID:', GA_MEASUREMENT_ID)
+  
+  // Don't render anything - this is a silent tracker
+  return null
 }
 
-// Declare global types
+// Expose for manual event tracking if needed
+if (typeof window !== 'undefined') {
+  (window as any).trackGA4Event = sendGA4Event
+}
+
+// Declare global types for gtag (for backward compatibility with other components)
 declare global {
   interface Window {
-    gtag: (...args: any[]) => void
+    gtag: ((...args: any[]) => void) & { q?: any[] }
     dataLayer: any[]
   }
 }
