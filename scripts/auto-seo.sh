@@ -1,12 +1,13 @@
 #!/bin/bash
 # TradeGo 自动SEO任务
 # 功能：
-#   1. 检查网站可访问性
-#   2. 验证sitemap和robots.txt
-#   3. 检查页面响应时间
-#   4. 检查各语言版本
-#   5. 记录SEO状态到日志
-#   6. 提交代码并推送到GitHub（Vercel自动部署）
+#   1. 生成新的GEO市场文章（每次2篇）
+#   2. 检查网站可访问性
+#   3. 验证sitemap和robots.txt
+#   4. 检查页面响应时间
+#   5. 检查各语言版本
+#   6. 记录SEO状态到日志
+#   7. 提交代码并推送到GitHub（Vercel自动部署）
 # 使用方法: ./scripts/auto-seo.sh
 
 PROJECT_DIR="/Users/zhangming/workspace/tradego-fasteners-v2"
@@ -39,7 +40,21 @@ else
     log "✅ Git工作区干净"
 fi
 
-# 2. 检查网站可访问性
+# 2. 生成新的GEO文章（每次添加2篇未覆盖国家的文章）
+log "🌍 生成新的GEO文章..."
+ARTICLE_COUNT_BEFORE=$(ls content/articles/*.json 2>/dev/null | wc -l)
+node scripts/gen-geo-articles.js 2>&1 | tee -a "$LOG_FILE" || {
+    log "⚠️ gen-geo-articles.js 执行失败，跳过文章生成"
+}
+ARTICLE_COUNT_AFTER=$(ls content/articles/*.json 2>/dev/null | wc -l)
+NEW_ARTICLES=$((ARTICLE_COUNT_AFTER - ARTICLE_COUNT_BEFORE))
+if [ "$NEW_ARTICLES" -gt 0 ]; then
+    log "📝 新增 $NEW_ARTICLES 篇文章"
+else
+    log "📝 没有新增文章（所有目标国家已覆盖）"
+fi
+
+# 3. 检查网站可访问性
 log "🔍 检查网站可访问性..."
 HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$SITEMAP_URL" 2>/dev/null || echo "000")
 if [ "$HTTP_STATUS" = "200" ]; then
@@ -48,12 +63,12 @@ else
     log "❌ Sitemap不可访问 (HTTP $HTTP_STATUS)"
 fi
 
-# 3. 检查sitemap URL数量
+# 4. 检查sitemap URL数量
 log "📊 Sitemap统计..."
 SITEMAP_COUNT=$(curl -s "$SITEMAP_URL" 2>/dev/null | grep -c "<loc>" || echo "0")
 log "   Sitemap包含 $SITEMAP_COUNT 个URL"
 
-# 4. 检查robots.txt
+# 5. 检查robots.txt
 log "🤖 检查robots.txt..."
 ROBOTS_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$ROBOTS_URL" 2>/dev/null || echo "000")
 if [ "$ROBOTS_STATUS" = "200" ]; then
@@ -62,7 +77,7 @@ else
     log "❌ robots.txt不可访问 (HTTP $ROBOTS_STATUS)"
 fi
 
-# 5. 检查各语言版本首页响应时间
+# 6. 检查各语言版本首页响应时间
 log "⚡ 检查响应时间..."
 for lang in en zh es ar fr pt ru ja de; do
     RESPONSE_TIME=$(curl -s -o /dev/null -w "%{time_total}" "https://tradego-fasteners.com/$lang" 2>/dev/null || echo "0")
@@ -70,7 +85,7 @@ for lang in en zh es ar fr pt ru ja de; do
     log "   /$lang: ${RESPONSE_TIME_MS}ms"
 done
 
-# 6. 检查locale重定向
+# 7. 检查locale重定向
 log "🔀 检查locale重定向..."
 DEFAULT_REDIRECT=$(curl -s -o /dev/null -w "%{redirect_url}" "https://tradego-fasteners.com" 2>/dev/null)
 if echo "$DEFAULT_REDIRECT" | grep -q "/en\|/zh\|/es"; then
@@ -79,20 +94,20 @@ else
     log "   ⚠️ Root重定向到: $DEFAULT_REDIRECT"
 fi
 
-# 7. 检查主要页面
+# 8. 检查主要页面
 log "📄 检查主要页面..."
 for path in "/en/products" "/en/industry" "/zh/products" "/zh/industry"; do
     PAGE_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "https://tradego-fasteners.com$path" 2>/dev/null || echo "000")
     log "   $path: HTTP $PAGE_STATUS"
 done
 
-# 8. 提交并推送更改（如果有的话）
+# 9. 提交并推送更改（如果有的话）
 log "📤 检查是否有新内容需要提交..."
 git add -A
 if git diff --cached --quiet; then
     log "📝 没有新更改，无需提交"
 else
-    COMMIT_MSG="Auto SEO: $(date '+%Y-%m-%d %H:%M') - Daily check"
+    COMMIT_MSG="Auto SEO: $(date '+%Y-%m-%d %H:%M') - $NEW_ARTICLES new GEO articles"
     git commit -m "$COMMIT_MSG" 2>&1 | tee -a "$LOG_FILE"
     git push origin main 2>&1 | tee -a "$LOG_FILE" || {
         log "⚠️ Git推送失败"
@@ -100,7 +115,7 @@ else
     log "✅ 已提交并推送，Vercel将自动部署"
 fi
 
-# 9. 记录完成
+# 10. 记录完成
 log "=========================================="
 log "✅ 自动SEO任务完成"
 log "=========================================="
