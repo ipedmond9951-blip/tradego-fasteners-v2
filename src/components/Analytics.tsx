@@ -30,11 +30,11 @@ export default function Analytics() {
       {/* Load gtag.js - will use existing window.gtag */}
       <Script
         id="gtag-script"
-        strategy="lazyOnload"
+        strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
       />
       {/* Configure GA4 with page_path */}
-      <Script id="gtag-config" strategy="lazyOnload">
+      <Script id="gtag-config" strategy="afterInteractive">
         {`
           window.gtag('config', '${GA_MEASUREMENT_ID}', {
             page_path: window.location.pathname,
