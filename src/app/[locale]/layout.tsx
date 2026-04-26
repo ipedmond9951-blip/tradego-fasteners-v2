@@ -35,11 +35,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   
   const titles: Record<string, string> = {
     zh: 'ISO 9001 & SABS认证中国紧固件制造商。import type { Metadata, Viewport } from 'next' import '../globals.css' import Header from '@/compone',
-    en: 'TradeGo Fasteners - China Manufacturer for Africa | ISO 9001, SABS',
+    en: 'TradeGo Fasteners - China Manufacturer for Zimbabwe & Southern Africa | ISO 9001, SABS',
   }
   const descriptions: Record<string, string> = {
     zh: 'ISO 9001 & SABS认证中国紧固件制造商。import type { Metadata, Viewport } from 'next' import '../globals.css' import Header from '@/compone',
-    en: 'ISO 9001 & SABS certified China fastener manufacturer. 12+ years exporting to Africa. Drywall screws, IBR nails, hex bolts at factory prices.',
+    en: 'ISO 9001 & SABS certified China fastener manufacturer. 15+ years supplying Zimbabwe, South Africa, Zambia, Mozambique with drywall screws, hex bolts, IBR nails at factory prices. Shipping to Durban, Beira, Harare.',
   }
   
   return {
@@ -99,10 +99,19 @@ export default async function LocaleLayout({
           "name": "TradeGo Fasteners",
           "url": "https://tradego-fasteners.com",
           "logo": "https://tradego-fasteners.com/images/logo.png",
-          "description": "Africa fastener distributor specializing in drywall screws, self-drilling screws, bolts, nuts, and IBR nails for construction and industrial applications. SABS & ISO 9001 certified. 12+ years serving African markets.",
+          "description": "ISO 9001 & SABS certified China fastener manufacturer. 15+ years exporting to Zimbabwe, South Africa, Zambia, Mozambique, Botswana. Drywall screws, hex bolts, IBR nails, self-drilling screws at factory prices. Shipping to Durban, Beira, Harare.",
           "foundingDate": "2004",
           "address": { "@type": "PostalAddress", "addressCountry": "CN", "addressLocality": "Hebei" },
-          "contactPoint": { "@type": "ContactPoint", "contactType": "sales", "availableLanguage": ["English", "Chinese"] },
+          "areaServed": [
+            { "@type": "Country", "name": "Zimbabwe" },
+            { "@type": "Country", "name": "South Africa" },
+            { "@type": "Country", "name": "Zambia" },
+            { "@type": "Country", "name": "Mozambique" },
+            { "@type": "Country", "name": "Botswana" },
+            { "@type": "Country", "name": "Malawi" },
+            { "@type": "Country", "name": "Namibia" }
+          ],
+          "contactPoint": { "@type": "ContactPoint", "telephone": "+86-159-6340-9951", "whatsApp": "+86-159-6340-9951", "contactType": "sales", "availableLanguage": ["English", "Chinese"] },
           "sameAs": [
           "https://www.facebook.com/tradegofasteners",
           "https://twitter.com/tradegofasteners",
