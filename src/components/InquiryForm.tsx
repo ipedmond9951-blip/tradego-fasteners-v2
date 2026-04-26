@@ -9,6 +9,13 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
   const [submitted, setSubmitted] = useState(false)
   const [loading, setLoading] = useState(false)
 
+  // Track GA4 conversion event
+  const trackConversion = (eventName: string, params: Record<string, string>) => {
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', eventName, params)
+    }
+  }
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setLoading(true)
@@ -24,7 +31,16 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
     }
     try {
       const res = await fetch('/api/inquiry', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })
-      if (res.ok) setSubmitted(true)
+      if (res.ok) {
+        setSubmitted(true)
+        // Fire GA4 conversion event for inquiry form submission
+        trackConversion('submit_inquiry', {
+          event_category: 'engagement',
+          inquiry_product: data.products || 'not_selected',
+          inquiry_country: data.country || 'not_provided',
+          locale: locale,
+        })
+      }
     } catch {}
     setLoading(false)
   }
@@ -92,6 +108,7 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
               href="https://wa.me/8615963409951"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => trackConversion('click_whatsapp', { event_category: 'engagement', event_label: 'inquiry_form_button', locale: locale })}
               className="flex-1 bg-green-600 text-white py-2.5 md:py-3 rounded-lg font-bold hover:bg-green-500 transition-colors text-center text-sm md:text-base"
             >
               💬 {t(locale, 'inquiry.whatsapp')}
