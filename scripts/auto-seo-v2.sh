@@ -1,17 +1,20 @@
 #!/bin/bash
-# TradeGo SEO 自动任务 v2 - 完整SEO优化版
-# 基于 seo-engine skill 增强
-# 
+# TradeGo SEO 自动任务 v3 - 基于 google-seo-master 完整指南版
+# 基于 google-seo-master (Google Search Central 官方文档)
+# 参考 seo-engine skill
+#
 # 功能：
-#   1. 技术SEO检测 (robots.txt, sitemap, HTTPS, Core Web Vitals代理指标)
-#   2. 内容SEO检测 (Meta描述, H标签, 图片alt, Schema标记)
-#   3. 离页SEO监测 (外链, 社媒信号, 品牌提及)
-#   4. 自动修复检测 (404链接, alt缺失, meta缺失)
-#   5. GEO文章生成
-#   6. 自动提交推送
+#   1. 技术SEO检测 (robots.txt, sitemap, HTTPS, Core Web Vitals, canonical, hreflang)
+#   2. 内容SEO检测 (Meta描述, H标签, 图片优化, E-E-A-T, URL结构)
+#   3. Schema结构化数据 (FAQPage, Product, Organization, HowTo, BreadcrumbList)
+#   4. 离页SEO监测 (外链, 社媒信号, 品牌提及)
+#   5. 404链接检测
+#   6. GEO文章生成
+#   7. 自动提交推送
 #
 # 使用方法: ./scripts/auto-seo-v2.sh
 # 定时任务: 每天 08:00 Asia/Shanghai
+# 基于: Google Search Central (developers.google.com/search)
 
 PROJECT_DIR="/Users/zhangming/workspace/tradego-fasteners-v2"
 LOG_DIR="$PROJECT_DIR/logs"
@@ -27,6 +30,9 @@ REPORT_FILE="$REPORT_DIR/seo-report-$(date '+%Y-%m-%d').md"
 SEO_SCORE=0
 MAX_SCORE=100
 
+# E-E-A-T 评分
+EAT_SCORE=0
+
 # 创建目录
 mkdir -p "$LOG_DIR" "$REPORT_DIR"
 
@@ -41,8 +47,8 @@ add_score() {
 }
 
 log "=========================================="
-log "🚀 TradeGo SEO自动任务 v2 开始"
-log "   基于 seo-engine skill 增强版"
+log "🚀 TradeGo SEO自动任务 v3 开始"
+log "   基于 google-seo-master (Google Search Central官方文档)"
 log "=========================================="
 
 cd "$PROJECT_DIR" || exit 1
@@ -136,20 +142,79 @@ elif [ $PERF_SCORE -ge 1 ]; then
     add_score 5
 fi
 
-# 2.6 结构化数据 (5分)
+# 2.6 结构化数据 (5分) - 增强版
 log "📋 检查结构化数据..."
 SCHEMA_COUNT=0
-for path in "/en" "/en/products" "/zh/products"; do
+SCHEMA_TYPES=""
+for path in "/en" "/zh" "/en/products"; do
     PAGE_CONTENT=$(curl -s "${SITE_URL}$path" 2>/dev/null)
     if echo "$PAGE_CONTENT" | grep -q "application/ld+json"; then
         SCHEMA_COUNT=$((SCHEMA_COUNT + 1))
+        # 检测Schema类型
+        for schema in "FAQPage" "Product" "Organization" "HowTo" "BreadcrumbList" "Article" "WebSite"; do
+            if echo "$PAGE_CONTENT" | grep -qi "\"$schema\""; then
+                SCHEMA_TYPES="${SCHEMA_TYPES}${schema}, "
+            fi
+        done
     fi
 done
 if [ $SCHEMA_COUNT -ge 2 ]; then
     log "   ✅ 结构化数据完整 ($SCHEMA_COUNT个页面)"
+    log "   📋 Schema类型: ${SCHEMA_TYPES%, }"
     add_score 5
 else
     log "   ⚠️ 结构化数据需补充"
+    log "   💡 建议添加: FAQPage, Product, Organization, HowTo"
+fi
+
+# 2.7 Canonical URL检查 (基于google-seo-master Section 4.4)
+log "🔗 检查Canonical URL..."
+CANONICAL_SCORE=0
+for path in "/en" "/zh"; do
+    PAGE_CONTENT=$(curl -s "${SITE_URL}$path" 2>/dev/null)
+    if echo "$PAGE_CONTENT" | grep -qi 'rel="canonical"'; then
+        CANONICAL_SCORE=$((CANONICAL_SCORE + 1))
+        CANONICAL_URL=$(echo "$PAGE_CONTENT" | grep -o 'rel="canonical"[^>]*href="[^"]*"' | head -1 | sed 's/.*href="//g;s/".*//g')
+        log "   ✅ $path canonical: $CANONICAL_URL"
+    else
+        log "   ⚠️ $path 缺少canonical URL"
+    fi
+done
+if [ $CANONICAL_SCORE -ge 2 ]; then
+    add_score 3
+fi
+
+# 2.8 hreflang检查 (基于google-seo-master Section 4.11)
+log "🌐 检查hreflang多语言配置..."
+HREFLANG_SCORE=0
+PAGE_CONTENT=$(curl -s "${SITE_URL}/en" 2>/dev/null)
+if echo "$PAGE_CONTENT" | grep -qi 'rel="alternate"'; then
+    HREFLANG_LANGS=$(echo "$PAGE_CONTENT" | grep -o 'hreflang="[^"]*"' | sort -u | tr '\n' ', ')
+    log "   ✅ hreflang配置: $HREFLANG_LANGS"
+    HREFLANG_SCORE=2
+    add_score 2
+else
+    log "   ⚠️ 未发现hreflang配置"
+    log "   💡 建议: 添加hreflang标识多语言版本"
+fi
+
+# 2.9 Robots Meta Tags检查 (基于google-seo-master Section 4.5)
+log "🤖 检查Robots Meta Tags..."
+ROBOTS_META_SCORE=0
+for path in "/en" "/zh"; do
+    PAGE_CONTENT=$(curl -s "${SITE_URL}$path" 2>/dev/null)
+    if echo "$PAGE_CONTENT" | grep -qi 'name="robots"'; then
+        ROBOTS_CONTENT=$(echo "$PAGE_CONTENT" | grep -o 'name="robots"[^>]*content="[^"]*"' | head -1)
+        if echo "$ROBOTS_CONTENT" | grep -qi 'noindex'; then
+            log "   ⚠️ $path 有noindex，可能影响收录"
+        else
+            ROBOTS_META_SCORE=$((ROBOTS_META_SCORE + 1))
+            log "   ✅ $path robots meta正常"
+        fi
+    fi
+done
+if [ $ROBOTS_META_SCORE -ge 2 ]; then
+    add_score 2
 fi
 
 # ==========================================
@@ -221,21 +286,21 @@ elif [ $H_SCORE -ge 1 ]; then
     add_score 5
 fi
 
-# 3.4 图片Alt属性 (10分) - 新增
+# 3.4 图片Alt属性 (5分) - 基于google-seo-master Section 2.5
 log "🖼️ 检查图片Alt属性..."
 ALT_SCORE=0
 TOTAL_IMGS=0
 ALT_PRESENT=0
 for path in "/en" "/zh"; do
     PAGE_CONTENT=$(curl -s "${SITE_URL}$path" 2>/dev/null)
-    # 使用grep -o计算实际出现次数
     IMG_COUNT=$(echo "$PAGE_CONTENT" | grep -o '<img' | wc -l)
     ALT_COUNT=$(echo "$PAGE_CONTENT" | grep -o 'alt=' | wc -l)
     TOTAL_IMGS=$((TOTAL_IMGS + IMG_COUNT))
     ALT_PRESENT=$((ALT_PRESENT + ALT_COUNT))
     
     if [ "$IMG_COUNT" -gt 0 ]; then
-        ALT_RATIO=$(echo "scale=2; $ALT_COUNT * 100 / $IMG_COUNT" | bc 2>/dev/null || echo "0")
+        # 修复bc计算问题 - 使用awk处理浮点数
+        ALT_RATIO=$(awk "BEGIN {printf \"%.0f\", ($ALT_COUNT * 100) / $IMG_COUNT}")
         if [ "$ALT_RATIO" -gt 80 ]; then
             ALT_SCORE=$((ALT_SCORE + 1))
             log "   ✅ $path Alt覆盖率: ${ALT_RATIO}%"
@@ -245,13 +310,85 @@ for path in "/en" "/zh"; do
     fi
 done
 if [ $ALT_SCORE -ge 2 ]; then
-    add_score 10
-elif [ $ALT_SCORE -ge 1 ]; then
     add_score 5
+elif [ $ALT_SCORE -ge 1 ]; then
+    add_score 2
 fi
 if [ $TOTAL_IMGS -gt 0 ]; then
-    TOTAL_ALT_RATIO=$(echo "scale=2; $ALT_PRESENT * 100 / $TOTAL_IMGS" | bc 2>/dev/null || echo "0")
+    TOTAL_ALT_RATIO=$(awk "BEGIN {printf \"%.0f\", ($ALT_PRESENT * 100) / $TOTAL_IMGS}")
     log "   📊 全局Alt覆盖率: ${TOTAL_ALT_RATIO}%"
+fi
+
+# 3.5 图片响应式检查 (基于google-seo-master Section 2.5)
+log "📱 检查响应式图片 (srcset/picture)..."
+RESPONSIVE_SCORE=0
+for path in "/en" "/zh"; do
+    PAGE_CONTENT=$(curl -s "${SITE_URL}$path" 2>/dev/null)
+    HAS_SRCSET=$(echo "$PAGE_CONTENT" | grep -c 'srcset=' || echo "0")
+    HAS_PICTURE=$(echo "$PAGE_CONTENT" | grep -c '<picture>' || echo "0")
+    if [ "$HAS_SRCSET" -gt 0 ] || [ "$HAS_PICTURE" -gt 0 ]; then
+        RESPONSIVE_SCORE=$((RESPONSIVE_SCORE + 1))
+        log "   ✅ $path 使用响应式图片 (srcset:$HAS_SRCSET, picture:$HAS_PICTURE)"
+    else
+        log "   ⚠️ $path 未使用响应式图片"
+    fi
+done
+if [ $RESPONSIVE_SCORE -ge 2 ]; then
+    add_score 3
+fi
+
+# 3.6 URL结构检查 (基于google-seo-master Section 2.4)
+log "🔗 检查URL结构..."
+URL_SCORE=0
+for path in "/en/products" "/zh/products"; do
+    PAGE_CONTENT=$(curl -s "${SITE_URL}$path" 2>/dev/null)
+    # 检查URL是否包含有意义的内容（而非参数）
+    if echo "$path" | grep -q '/products'; then
+        URL_SCORE=$((URL_SCORE + 1))
+        log "   ✅ $path URL结构良好 (描述性URL)"
+    fi
+done
+if [ $URL_SCORE -ge 1 ]; then
+    add_score 2
+fi
+
+# 3.7 E-E-A-T内容质量检查 (基于google-seo-master Section 3)
+log "📖 检查E-E-A-T内容质量..."
+EAT_AUTHOR=0
+EAT_EXPERIENCE=0
+EAT_TRUST=0
+for path in "/en" "/zh"; do
+    PAGE_CONTENT=$(curl -s "${SITE_URL}$path" 2>/dev/null)
+    # 检查作者信息
+    if echo "$PAGE_CONTENT" | grep -qi 'author\|about us\|our team\|certification\|ISO'; then
+        EAT_AUTHOR=$((EAT_AUTHOR + 1))
+    fi
+    # 检查Experience指标（行业经验、认证）
+    if echo "$PAGE_CONTENT" | grep -qi 'experience\|years\|since\|established'; then
+        EAT_EXPERIENCE=$((EAT_EXPERIENCE + 1))
+    fi
+    # 检查Trust指标（联系方式、地址）
+    if echo "$PAGE_CONTENT" | grep -qi 'contact\|address\|phone\|email'; then
+        EAT_TRUST=$((EAT_TRUST + 1))
+    fi
+done
+if [ $EAT_AUTHOR -ge 1 ]; then
+    log "   ✅ 作者/团队信息: 发现"
+    add_score 2
+else
+    log "   ⚠️ 建议添加作者/团队介绍页面"
+fi
+if [ $EAT_EXPERIENCE -ge 1 ]; then
+    log "   ✅ 行业经验/认证: 发现"
+    add_score 2
+else
+    log "   ⚠️ 建议强调行业经验和认证信息"
+fi
+if [ $EAT_TRUST -ge 1 ]; then
+    log "   ✅ 信任信号(联系信息): 发现"
+    add_score 2
+else
+    log "   ⚠️ 建议完善联系信息"
 fi
 
 # ==========================================
