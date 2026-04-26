@@ -1,14 +1,17 @@
 #!/bin/bash
-# TradeGo 自动SEO任务
+# TradeGo GEO 自动SEO任务 - 津巴布韦边境市场版
 # 功能：
-#   1. 生成新的GEO市场文章（每次2篇）
-#   2. 检查网站可访问性
-#   3. 验证sitemap和robots.txt
-#   4. 检查页面响应时间
-#   5. 检查各语言版本
-#   6. 记录SEO状态到日志
-#   7. 提交代码并推送到GitHub（Vercel自动部署）
+#   1. 生成针对津巴布韦边境国家的GEO文章
+#   2. 验证网站可访问性
+#   3. 检查Schema标记
+#   4. 验证sitemap和robots.txt
+#   5. 检查页面响应时间
+#   6. 检查AI友好性
+#   7. 记录SEO状态到日志
+#   8. 提交代码并推送到GitHub（Vercel自动部署）
+# 
 # 使用方法: ./scripts/auto-seo.sh
+# 定时任务: 每天 08:00 Asia/Shanghai
 
 PROJECT_DIR="/Users/zhangming/workspace/tradego-fasteners-v2"
 LOG_DIR="$PROJECT_DIR/logs"
@@ -25,7 +28,8 @@ log() {
 }
 
 log "=========================================="
-log "TradeGo 自动SEO任务开始"
+log "🌍 TradeGo GEO 自动SEO任务开始"
+log "   目标: 津巴布韦边境市场优化"
 log "=========================================="
 
 cd "$PROJECT_DIR" || exit 1
@@ -40,18 +44,18 @@ else
     log "✅ Git工作区干净"
 fi
 
-# 2. 生成新的GEO文章（每次添加2篇未覆盖国家的文章）
-log "🌍 生成新的GEO文章..."
+# 2. 生成GEO文章（津巴布韦边境市场）
+log "🌍 生成津巴布韦边境市场GEO文章..."
 ARTICLE_COUNT_BEFORE=$(ls content/articles/*.json 2>/dev/null | wc -l)
-node scripts/gen-geo-articles.js 2>&1 | tee -a "$LOG_FILE" || {
-    log "⚠️ gen-geo-articles.js 执行失败，跳过文章生成"
+node scripts/gen-zimbabwe-border.js 2>&1 | tee -a "$LOG_FILE" || {
+    log "⚠️ gen-zimbabwe-border.js 执行失败"
 }
 ARTICLE_COUNT_AFTER=$(ls content/articles/*.json 2>/dev/null | wc -l)
 NEW_ARTICLES=$((ARTICLE_COUNT_AFTER - ARTICLE_COUNT_BEFORE))
 if [ "$NEW_ARTICLES" -gt 0 ]; then
-    log "📝 新增 $NEW_ARTICLES 篇文章"
+    log "📝 新增 $NEW_ARTICLES 篇GEO文章"
 else
-    log "📝 没有新增文章（所有目标国家已覆盖）"
+    log "📝 没有新增文章（津巴布韦边境市场已全覆盖）"
 fi
 
 # 3. 检查网站可访问性
@@ -101,13 +105,31 @@ for path in "/en/products" "/en/industry" "/zh/products" "/zh/industry"; do
     log "   $path: HTTP $PAGE_STATUS"
 done
 
-# 9. 提交并推送更改（如果有的话）
+# 9. 检查AI友好性 - Schema标记验证
+log "🤖 检查AI友好性 - Schema标记..."
+for path in "/en" "/en/industry/africa-fastener-market-opportunities-2026"; do
+    PAGE_CONTENT=$(curl -s "https://tradego-fasteners.com$path" 2>/dev/null)
+    if echo "$PAGE_CONTENT" | grep -q "application/ld+json"; then
+        log "   ✅ $path: Schema标记存在"
+    else
+        log "   ⚠️ $path: Schema标记缺失"
+    fi
+done
+
+# 10. 文章统计
+log "📚 文章统计..."
+ARTICLE_TOTAL=$(ls content/articles/*.json 2>/dev/null | wc -l)
+ZIMBABWE_BORDER_ARTICLES=$(ls content/articles/*-fasteners-*.json 2>/dev/null | wc -l)
+log "   总文章数: $ARTICLE_TOTAL"
+log "   津巴布韦边境市场文章: $ZIMBABWE_BORDER_ARTICLES"
+
+# 11. 提交并推送更改（如果有的话）
 log "📤 检查是否有新内容需要提交..."
 git add -A
 if git diff --cached --quiet; then
     log "📝 没有新更改，无需提交"
 else
-    COMMIT_MSG="Auto SEO: $(date '+%Y-%m-%d %H:%M') - $NEW_ARTICLES new GEO articles"
+    COMMIT_MSG="GEO Auto SEO: $(date '+%Y-%m-%d %H:%M') - $NEW_ARTICLES new articles"
     git commit -m "$COMMIT_MSG" 2>&1 | tee -a "$LOG_FILE"
     git push origin main 2>&1 | tee -a "$LOG_FILE" || {
         log "⚠️ Git推送失败"
@@ -115,7 +137,7 @@ else
     log "✅ 已提交并推送，Vercel将自动部署"
 fi
 
-# 10. 记录完成
+# 12. 记录完成
 log "=========================================="
 log "✅ 自动SEO任务完成"
 log "=========================================="
