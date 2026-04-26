@@ -15,8 +15,9 @@
 
 PROJECT_DIR="/Users/zhangming/workspace/tradego-fasteners-v2"
 LOG_DIR="$PROJECT_DIR/logs"
-SITEMAP_URL="https://tradego-fasteners.com/sitemap.xml"
-ROBOTS_URL="https://tradego-fasteners.com/robots.txt"
+SITE_URL="https://www.tradego-fasteners.com"
+SITEMAP_URL="${SITE_URL}/sitemap.xml"
+ROBOTS_URL="${SITE_URL}/robots.txt"
 LOG_FILE="$LOG_DIR/auto-seo-$(date '+%Y-%m-%d').log"
 
 # 创建日志目录
@@ -84,14 +85,14 @@ fi
 # 6. 检查各语言版本首页响应时间
 log "⚡ 检查响应时间..."
 for lang in en zh es ar fr pt ru ja de; do
-    RESPONSE_TIME=$(curl -s -o /dev/null -w "%{time_total}" "https://tradego-fasteners.com/$lang" 2>/dev/null || echo "0")
+    RESPONSE_TIME=$(curl -s -o /dev/null -w "%{time_total}" "${SITE_URL}/$lang" 2>/dev/null || echo "0")
     RESPONSE_TIME_MS=$(echo "$RESPONSE_TIME * 1000" | bc 2>/dev/null || echo "N/A")
     log "   /$lang: ${RESPONSE_TIME_MS}ms"
 done
 
 # 7. 检查locale重定向
 log "🔀 检查locale重定向..."
-DEFAULT_REDIRECT=$(curl -s -o /dev/null -w "%{redirect_url}" "https://tradego-fasteners.com" 2>/dev/null)
+DEFAULT_REDIRECT=$(curl -s -o /dev/null -w "%{redirect_url}" "${SITE_URL}" 2>/dev/null)
 if echo "$DEFAULT_REDIRECT" | grep -q "/en\|/zh\|/es"; then
     log "   ✅ Root重定向到: $DEFAULT_REDIRECT"
 else
@@ -101,14 +102,14 @@ fi
 # 8. 检查主要页面
 log "📄 检查主要页面..."
 for path in "/en/products" "/en/industry" "/zh/products" "/zh/industry"; do
-    PAGE_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "https://tradego-fasteners.com$path" 2>/dev/null || echo "000")
+    PAGE_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "${SITE_URL}$path" 2>/dev/null || echo "000")
     log "   $path: HTTP $PAGE_STATUS"
 done
 
 # 9. 检查AI友好性 - Schema标记验证
 log "🤖 检查AI友好性 - Schema标记..."
 for path in "/en" "/en/industry/africa-fastener-market-opportunities-2026"; do
-    PAGE_CONTENT=$(curl -s "https://tradego-fasteners.com$path" 2>/dev/null)
+    PAGE_CONTENT=$(curl -s "${SITE_URL}$path" 2>/dev/null)
     if echo "$PAGE_CONTENT" | grep -q "application/ld+json"; then
         log "   ✅ $path: Schema标记存在"
     else
