@@ -163,12 +163,14 @@ log "📝 检查页面标题..."
 TITLE_SCORE=0
 for path in "/en" "/zh"; do
     PAGE_CONTENT=$(curl -s "${SITE_URL}$path" 2>/dev/null)
-    TITLE=$(echo "$PAGE_CONTENT" | grep -i "<title>" | sed 's/<[^>]*>//g' | head -1 | tr -d '[:space:]')
-    if [ ${#TITLE} -gt 10 ] && [ ${#TITLE} -lt 70 ]; then
+    # 提取<title>标签内容 - 使用grep -o匹配整个<title>...</title>标签
+    TITLE=$(echo "$PAGE_CONTENT" | grep -o '<title>[^<]*</title>' | head -1 | sed 's/<title>//g;s/<\/title>//g')
+    TITLE_LEN=${#TITLE}
+    if [ "$TITLE_LEN" -gt 10 ] && [ "$TITLE_LEN" -lt 70 ]; then
         TITLE_SCORE=$((TITLE_SCORE + 1))
-        log "   ✅ $path 标题长度合适: ${#TITLE}字符"
+        log "   ✅ $path 标题: \"$TITLE\" (${TITLE_LEN}字符)"
     else
-        log "   ⚠️ $path 标题长度异常: ${#TITLE}字符"
+        log "   ⚠️ $path 标题: \"$TITLE\" (${TITLE_LEN}字符, 建议<70)"
     fi
 done
 if [ $TITLE_SCORE -ge 2 ]; then
@@ -182,12 +184,14 @@ log "📄 检查Meta描述..."
 META_SCORE=0
 for path in "/en" "/zh"; do
     PAGE_CONTENT=$(curl -s "${SITE_URL}$path" 2>/dev/null)
-    META_DESC=$(echo "$PAGE_CONTENT" | grep -i 'name="description"' | grep -o 'content="[^"]*"' | cut -d'"' -f2 | head -1)
-    if [ ${#META_DESC} -gt 50 ] && [ ${#META_DESC} -lt 160 ]; then
+    # 提取meta description的content属性 - 使用grep -o精确匹配
+    META_DESC=$(echo "$PAGE_CONTENT" | grep -o 'name="description"[^>]*content="[^"]*"' | head -1 | sed 's/.*content="//g;s/"$//g')
+    META_LEN=${#META_DESC}
+    if [ "$META_LEN" -gt 50 ] && [ "$META_LEN" -lt 160 ]; then
         META_SCORE=$((META_SCORE + 1))
-        log "   ✅ $path Meta描述: ${#META_DESC}字符"
+        log "   ✅ $path Meta描述: ${META_LEN}字符 ✓"
     else
-        log "   ⚠️ $path Meta描述: ${#META_DESC}字符 (建议50-160)"
+        log "   ⚠️ $path Meta描述: ${META_LEN}字符 (建议50-160)"
     fi
 done
 if [ $META_SCORE -ge 2 ]; then
@@ -201,8 +205,6 @@ log "📑 检查H标签结构..."
 H_SCORE=0
 for path in "/en" "/zh"; do
     PAGE_CONTENT=$(curl -s "${SITE_URL}$path" 2>/dev/null)
-    HAS_H1=$(echo "$PAGE_CONTENT" | grep -c "<h1" || echo "0")
-    HAS_H2=$(echo "$PAGE_CONTENT" | grep -c "<h2" || echo "0")
     # 使用grep -o计算实际出现次数（因为minified HTML可能多标签在一行）
     HAS_H1=$(echo "$PAGE_CONTENT" | grep -o "<h1" | wc -l)
     HAS_H2=$(echo "$PAGE_CONTENT" | grep -o "<h2" | wc -l)
