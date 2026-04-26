@@ -1,17 +1,95 @@
 'use client'
 
 import Script from 'next/script'
+import { useEffect } from 'react'
+import { usePathname } from 'next/navigation'
 
-// Google Analytics 4 component — GA4 tracking enabled
-// Set NEXT_PUBLIC_GA_MEASUREMENT_ID in Vercel project settings (Production)
-// Example: NEXT_PUBLIC_GA_MEASUREMENT_ID=G-6RE8PBNLC6
+// Google Analytics 4 component — Direct Measurement Protocol Implementation
+// This implementation bypasses gtag.js and sends events directly to GA4
+// to work around GTM interference issues.
 //
-// Key insight: gtag.js uses 'async' attribute, so it doesn't block rendering.
-// The gtag function must be defined BEFORE gtag.js loads.
-// We use beforeInteractive to ensure our gtag function is ready first.
+// Set NEXT_PUBLIC_GA_MEASUREMENT_ID in Vercel project settings (Production)
+//
+// GA4 Measurement Protocol endpoint: https://www.google-analytics.com/g/collect
+// Required parameters: v=1, tid=MEASUREMENT_ID, cid=CLIENT_ID, en=EVENT_NAME
 
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID
+
+// Generate a unique client ID for this browser session
+function getClientId(): string {
+  if (typeof window === 'undefined') return ''
+  
+  let clientId = localStorage.getItem('_ga_client_id')
+  if (!clientId) {
+    clientId = 'GA1.1.' + Date.now() + '.' + Math.random().toString(36).substring(2, 15)
+    localStorage.setItem('_ga_client_id', clientId)
+  }
+  return clientId
+}
+
+// Send event to GA4 using Measurement Protocol
+function sendGA4Event(eventName: string, eventParams: Record<string, any> = {}) {
+  if (!GA_MEASUREMENT_ID || typeof window === 'undefined') return
+  
+  const clientId = getClientId()
+  
+  // Build the URL with required parameters
+  const baseUrl = 'https://www.google-analytics.com/g/collect'
+  const params = new URLSearchParams({
+    v: '1',
+    tid: GA_MEASUREMENT_ID,
+    cid: clientId,
+    en: eventName,
+    ul: navigator.language || 'en-us',
+    dl: window.location.href,
+    dt: document.title,
+    dr: document.referrer,
+  })
+  
+  // Add event parameters
+  Object.entries(eventParams).forEach(([key, value]) => {
+    if (value !== undefined && value !== null) {
+      params.append(`ep.${key}`, String(value))
+    }
+  })
+  
+  const url = `${baseUrl}?${params.toString()}`
+  
+  // Use sendBeacon for reliable delivery
+  if (navigator.sendBeacon) {
+    navigator.sendBeacon(url)
+  } else {
+    // Fallback to fetch
+    fetch(url, { method: 'POST', keepalive: true, mode: 'no-cors' })
+  }
+}
+
+// Track page views
+function trackPageView() {
+  const pathname = window.location.pathname
+  sendGA4Event('page_view', {
+    page_path: pathname,
+    page_location: window.location.href,
+    page_title: document.title,
+  })
+}
+
+// Analytics component
 export default function Analytics() {
-  const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID
+  const pathname = usePathname()
+
+  // Track page views on route changes
+  useEffect(() => {
+    // Small delay to ensure page is fully loaded
+    const timer = setTimeout(trackPageView, 100)
+    return () => clearTimeout(timer)
+  }, [pathname])
+
+  // Track page view on initial load
+  useEffect(() => {
+    const timer = setTimeout(trackPageView, 500)
+    return () => clearTimeout(timer)
+  }, [])
 
   if (!GA_MEASUREMENT_ID) {
     return null
@@ -19,39 +97,26 @@ export default function Analytics() {
 
   return (
     <>
-      {/* Step 1: CRITICAL - Define gtag function BEFORE gtag.js loads */}
-      {/* This MUST be beforeInteractive to ensure it runs before gtag.js */}
-      <Script id="gtag-prepare" strategy="beforeInteractive">{`
-        window.dataLayer = window.dataLayer || [];
-        window.gtag = function() {
-          window.dataLayer.push(arguments);
-        };
-        window.gtag('js', new Date());
-      `}</Script>
-
-      {/* Step 2: Load gtag.js - finds window.gtag already defined */}
-      {/* Using afterInteractive to ensure page is interactive first */}
+      {/* Load gtag.js as a fallback but it won't interfere with our direct implementation */}
       <Script
-        id="gtag-script"
+        id="gtag-base"
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
         onLoad={() => {
-          // Verify gtag is available after gtag.js loads
+          // gtag.js loaded, but we're using direct Measurement Protocol
+          // This ensures gtag is available for any legacy code that might use it
           if (typeof window.gtag === 'function') {
-            window.gtag('config', GA_MEASUREMENT_ID!, {
-              page_path: window.location.pathname,
-            });
+            window.gtag('config', GA_MEASUREMENT_ID, {
+              send_page_view: false, // We handle page views ourselves
+            })
           }
-        }}
-        onError={() => {
-          console.error('GA4: gtag.js failed to load');
         }}
       />
     </>
   )
 }
 
-// Type declaration for window.gtag
+// Declare global types
 declare global {
   interface Window {
     gtag: (...args: any[]) => void
