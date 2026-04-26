@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-04-26T10:30:31.113403",
+  "mode": "check_only",
+  "summary": {
+    "issues_found": 1,
+    "fixes_applied": 0
+  },
+  "issues": [
+    {
+      "type": "meta_description",
+      "locale": "zh",
+      "severity": "medium",
+      "issue": "长度异常: 40字符",
+      "file": "src/app/[locale]/layout.tsx"
+    }
+  ],
+  "fixes": []
+}
