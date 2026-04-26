@@ -1,18 +1,18 @@
 #!/bin/bash
 # TradeGo 自动SEO任务
 # 功能：
-#   1. 生成新的GEO市场文章
-#   2. 更新sitemap
-#   3. 生成robots.txt和sitemap.xml
-#   4. 检查网站可访问性
-#   5. 记录SEO状态
+#   1. 检查网站可访问性
+#   2. 验证sitemap和robots.txt
+#   3. 检查页面响应时间
+#   4. 检查各语言版本
+#   5. 记录SEO状态到日志
+#   6. 提交代码并推送到GitHub（Vercel自动部署）
 # 使用方法: ./scripts/auto-seo.sh
-
-set -e
 
 PROJECT_DIR="/Users/zhangming/workspace/tradego-fasteners-v2"
 LOG_DIR="$PROJECT_DIR/logs"
 SITEMAP_URL="https://tradego-fasteners.com/sitemap.xml"
+ROBOTS_URL="https://tradego-fasteners.com/robots.txt"
 LOG_FILE="$LOG_DIR/auto-seo-$(date '+%Y-%m-%d').log"
 
 # 创建日志目录
@@ -29,55 +29,78 @@ log "=========================================="
 
 cd "$PROJECT_DIR" || exit 1
 
-# 1. 检查Git状态，如有变更则提交
+# 1. 检查Git状态
 log "📦 检查Git状态..."
 if [ -n "$(git status --short)" ]; then
     log "⚠️ 有未提交的更改，尝试拉取最新..."
     git stash 2>/dev/null || true
     git pull origin main --rebase 2>/dev/null || true
-fi
-
-# 2. 生成新的GEO文章（每次添加2-3个非洲城市/国家）
-log "🌍 生成新的GEO文章..."
-node scripts/gen-geo-articles.js 2>&1 | tee -a "$LOG_FILE" || {
-    log "⚠️ gen-geo-articles.js 执行失败，跳过文章生成"
-}
-
-# 3. 更新sitemap（如果有任何新页面）
-log "📄 更新sitemap..."
-npm run generate-sitemap 2>&1 | tee -a "$LOG_FILE" || {
-    log "⚠️ sitemap生成失败"
-}
-
-# 4. 检查网站可访问性
-log "🔍 检查网站可访问性..."
-HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "https://tradego-fasteners.com" 2>/dev/null || echo "000")
-if [ "$HTTP_STATUS" = "200" ] || [ "$HTTP_STATUS" = "307" ] || [ "$HTTP_STATUS" = "301" ]; then
-    log "✅ 网站可访问 (HTTP $HTTP_STATUS)"
 else
-    log "❌ 网站不可访问 (HTTP $HTTP_STATUS)"
+    log "✅ Git工作区干净"
 fi
 
-# 5. 提交并推送更改
-log "📤 提交更改..."
+# 2. 检查网站可访问性
+log "🔍 检查网站可访问性..."
+HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$SITEMAP_URL" 2>/dev/null || echo "000")
+if [ "$HTTP_STATUS" = "200" ]; then
+    log "✅ Sitemap可访问 (HTTP $HTTP_STATUS)"
+else
+    log "❌ Sitemap不可访问 (HTTP $HTTP_STATUS)"
+fi
+
+# 3. 检查sitemap URL数量
+log "📊 Sitemap统计..."
+SITEMAP_COUNT=$(curl -s "$SITEMAP_URL" 2>/dev/null | grep -c "<loc>" || echo "0")
+log "   Sitemap包含 $SITEMAP_COUNT 个URL"
+
+# 4. 检查robots.txt
+log "🤖 检查robots.txt..."
+ROBOTS_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$ROBOTS_URL" 2>/dev/null || echo "000")
+if [ "$ROBOTS_STATUS" = "200" ]; then
+    log "✅ robots.txt可访问 (HTTP $ROBOTS_STATUS)"
+else
+    log "❌ robots.txt不可访问 (HTTP $ROBOTS_STATUS)"
+fi
+
+# 5. 检查各语言版本首页响应时间
+log "⚡ 检查响应时间..."
+for lang in en zh es ar fr pt ru ja de; do
+    RESPONSE_TIME=$(curl -s -o /dev/null -w "%{time_total}" "https://tradego-fasteners.com/$lang" 2>/dev/null || echo "0")
+    RESPONSE_TIME_MS=$(echo "$RESPONSE_TIME * 1000" | bc 2>/dev/null || echo "N/A")
+    log "   /$lang: ${RESPONSE_TIME_MS}ms"
+done
+
+# 6. 检查locale重定向
+log "🔀 检查locale重定向..."
+DEFAULT_REDIRECT=$(curl -s -o /dev/null -w "%{redirect_url}" "https://tradego-fasteners.com" 2>/dev/null)
+if echo "$DEFAULT_REDIRECT" | grep -q "/en\|/zh\|/es"; then
+    log "   ✅ Root重定向到: $DEFAULT_REDIRECT"
+else
+    log "   ⚠️ Root重定向到: $DEFAULT_REDIRECT"
+fi
+
+# 7. 检查主要页面
+log "📄 检查主要页面..."
+for path in "/en/products" "/en/industry" "/zh/products" "/zh/industry"; do
+    PAGE_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "https://tradego-fasteners.com$path" 2>/dev/null || echo "000")
+    log "   $path: HTTP $PAGE_STATUS"
+done
+
+# 8. 提交并推送更改（如果有的话）
+log "📤 检查是否有新内容需要提交..."
 git add -A
-COMMIT_MSG="Auto SEO: $(date '+%Y-%m-%d %H:%M') - GEO updates"
 if git diff --cached --quiet; then
     log "📝 没有新更改，无需提交"
 else
+    COMMIT_MSG="Auto SEO: $(date '+%Y-%m-%d %H:%M') - Daily check"
     git commit -m "$COMMIT_MSG" 2>&1 | tee -a "$LOG_FILE"
     git push origin main 2>&1 | tee -a "$LOG_FILE" || {
         log "⚠️ Git推送失败"
     }
-    log "✅ 已提交并推送"
+    log "✅ 已提交并推送，Vercel将自动部署"
 fi
 
-# 6. 检查sitemap状态
-log "📊 Sitemap状态..."
-SITEMAP_COUNT=$(curl -s "$SITEMAP_URL" 2>/dev/null | grep -c "<loc>" || echo "0")
-log "   Sitemap包含 $SITEMAP_COUNT 个URL"
-
-# 7. 记录完成
+# 9. 记录完成
 log "=========================================="
 log "✅ 自动SEO任务完成"
 log "=========================================="
