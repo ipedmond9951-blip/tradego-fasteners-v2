@@ -7,21 +7,21 @@ import { useCurrency } from '@/contexts/CurrencyContext'
 interface ProductGridProps { locale?: Locale }
 
 const products = [
-  { slug: 'drywall-screws', image: '/images/products/drywall-screws-2.jpg', pricePerPiece: 0.02, nameKey: 'drywall',
+  { slug: 'drywall-screws', image: '/images/products/drywall-screws-2.webp', pricePerPiece: 0.02, nameKey: 'drywall',
     specs: { size: '3.5-4.8mm × 25-100mm', standard: 'DIN 7505 / GB/T 15856' } },
-  { slug: 'self-drilling-screws', image: '/images/products/self-drilling-screws-1.jpg', pricePerPiece: 0.03, nameKey: 'selfdrilling',
+  { slug: 'self-drilling-screws', image: '/images/products/self-drilling-screws-1.webp', pricePerPiece: 0.03, nameKey: 'selfdrilling',
     specs: { size: '4.2-6.3mm × 19-150mm', standard: 'DIN 7504 / ANSI' } },
-  { slug: 'bolts-nuts', image: '/images/products/bolts-nuts-2.jpg', pricePerPiece: 0.05, nameKey: 'bolts',
+  { slug: 'bolts-nuts', image: '/images/products/bolts-nuts-2.webp', pricePerPiece: 0.05, nameKey: 'bolts',
     specs: { size: 'M5-M30 × 20-300mm', standard: 'DIN 933/934 / ISO 4014' } },
-  { slug: 'ibr-nails', image: '/images/products/ibr-nails-placeholder.jpg', pricePerPiece: 0.01, nameKey: 'ibr',
+  { slug: 'ibr-nails', image: '/images/products/ibr-nails-placeholder.webp', pricePerPiece: 0.01, nameKey: 'ibr',
     specs: { size: '2.5-4.0mm × 30-100mm', standard: 'SABS 1195' } },
-  { slug: 'anchor-bolts', image: '/images/products/anchor-bolts.jpg', pricePerPiece: 0.12, nameKey: 'anchor',
+  { slug: 'anchor-bolts', image: '/images/products/anchor-bolts.webp', pricePerPiece: 0.12, nameKey: 'anchor',
     specs: { size: 'M10-M30 × 75-600mm', standard: 'DIN 529 / ASTM F1554' } },
-  { slug: 'washers', image: '/images/products/washers.jpg', pricePerPiece: 0.008, nameKey: 'washers',
+  { slug: 'washers', image: '/images/products/washers.webp', pricePerPiece: 0.008, nameKey: 'washers',
     specs: { size: 'M6-M36', standard: 'DIN 125 / ISO 7089' } },
-  { slug: 'coach-screws', image: '/images/products/coach-screws.jpg', pricePerPiece: 0.025, nameKey: 'coach',
+  { slug: 'coach-screws', image: '/images/products/coach-screws.webp', pricePerPiece: 0.025, nameKey: 'coach',
     specs: { size: 'M6-M12 × 30-200mm', standard: 'DIN 571 / LS 1993' } },
-  { slug: 'threaded-rods', image: '/images/products/threaded-rods.jpg', pricePerPiece: 0.08, nameKey: 'threaded',
+  { slug: 'threaded-rods', image: '/images/products/threaded-rods.webp', pricePerPiece: 0.08, nameKey: 'threaded',
     specs: { size: 'M6-M24 × 1m-3m', standard: 'DIN 975 / ISO 898' } },
 ]
 
