@@ -59,17 +59,17 @@ const videos = [
   {
     id: 'factory' as const,
     videoSrc: '/videos/factory-tour.mp4',
-    poster: 'https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=450&fit=crop',
+    poster: '/images/videos/factory-poster.webp',
   },
   {
     id: 'product' as const,
     videoSrc: '/videos/product-showcase.mp4',
-    poster: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&h=450&fit=crop',
+    poster: '/images/videos/product-poster.webp',
   },
   {
     id: 'testimonial' as const,
     videoSrc: '/videos/testimonial.mp4',
-    poster: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=450&fit=crop',
+    poster: '/images/videos/testimonial-poster.webp',
   }
 ]
 
