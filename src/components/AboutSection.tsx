@@ -11,9 +11,9 @@ const stats = [
 ]
 
 const scenes = [
-  { key: 'manufacturing', src: '/images/scenarios/factory-environment.jpg' },
-  { key: 'quality', src: '/images/scenarios/quality-control.jpg' },
-  { key: 'logistics', src: '/images/scenarios/warehouse-management.jpg' },
+  { key: 'manufacturing', src: '/images/scenarios/factory-environment.webp' },
+  { key: 'quality', src: '/images/scenarios/quality-control.webp' },
+  { key: 'logistics', src: '/images/scenarios/warehouse-management.webp' },
 ]
 
 export default function AboutSection({ locale = 'en' }: AboutSectionProps) {
