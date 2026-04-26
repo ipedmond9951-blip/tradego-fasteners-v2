@@ -3,6 +3,7 @@ import { locales, type Locale, getMessages, t } from '@/i18n'
 import HeroSection from '@/components/HeroSection'
 import AboutSection from '@/components/AboutSection'
 import WhyChooseUs from '@/components/WhyChooseUs'
+import StatisticsSection from '@/components/StatisticsSection'
 import ProductGrid from '@/components/ProductGrid'
 import CertificationsSection from '@/components/CertificationsSection'
 import FAQSection from '@/components/FAQSection'
@@ -140,6 +141,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
       <SteelFutures locale={locale} />
       <VideoSection locale={locale} />
       <WhyChooseUs locale={locale} />
+      <StatisticsSection locale={locale} />
       <TeamCard locale={locale} />
       <ProductGrid locale={locale} />
 
