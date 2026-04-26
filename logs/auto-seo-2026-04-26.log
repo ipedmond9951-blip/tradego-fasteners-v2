@@ -1,0 +1,33 @@
+[2026-04-26 08:18:39] ==========================================
+[2026-04-26 08:18:39] TradeGo 自动SEO任务开始
+[2026-04-26 08:18:39] ==========================================
+[2026-04-26 08:18:39] 📦 检查Git状态...
+[2026-04-26 08:18:39] ⚠️ 有未提交的更改，尝试拉取最新...
+[2026-04-26 08:18:40] 🌍 生成新的GEO文章...
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/zhangming/workspace/tradego-fasteners-v2/scripts/gen-geo-articles.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Module._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+[2026-04-26 08:18:40] 📄 更新sitemap...
+npm error Missing script: "generate-sitemap"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /Users/zhangming/.npm/_logs/2026-04-26T00_18_40_980Z-debug-0.log
+[2026-04-26 08:18:41] 🔍 检查网站可访问性...
+[2026-04-26 08:18:41] ✅ 网站可访问 (HTTP 307)
+[2026-04-26 08:18:41] 📤 提交更改...
