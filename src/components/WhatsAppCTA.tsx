@@ -65,6 +65,17 @@ export default function WhatsAppCTA({ locale }: WhatsAppCTAProps) {
 
   const whatsappLink = `${WHATSAPP_LINK}?text=${getPreFilledMessage()}`
 
+  // Track WhatsApp click
+  const trackWhatsAppClick = (source: string) => {
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'click_whatsapp', {
+        event_category: 'engagement',
+        event_label: source,
+        locale: locale,
+      })
+    }
+  }
+
   // If minimized, show a small floating button
   if (isMinimized) {
     return (
@@ -73,6 +84,7 @@ export default function WhatsAppCTA({ locale }: WhatsAppCTAProps) {
           href={whatsappLink}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => trackWhatsAppClick('floating_button')}
           className="flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-105"
           aria-label={content.tooltip}
         >
@@ -119,6 +131,7 @@ export default function WhatsAppCTA({ locale }: WhatsAppCTAProps) {
           href={whatsappLink}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => trackWhatsAppClick('expanded_card')}
           className="flex items-center justify-center gap-2 w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-4 rounded-lg transition-all hover:scale-[1.02]"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
