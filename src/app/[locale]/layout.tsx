@@ -34,11 +34,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const siteUrl = 'https://tradego-fasteners.com'
   
   const titles: Record<string, string> = {
-    zh: 'ISO 9001 & SABS认证中国紧固件制造商。import type { Metadata, Viewport } from 'next' import '../globals.css' import Header from '@/compone',
+    zh: 'TradeGo紧固件 - 中国对非出口厂家 | ISO 9001, SABS认证',
     en: 'TradeGo Fasteners - China Manufacturer for Zimbabwe & Southern Africa | ISO 9001, SABS',
   }
   const descriptions: Record<string, string> = {
-    zh: 'ISO 9001 & SABS认证中国紧固件制造商。import type { Metadata, Viewport } from 'next' import '../globals.css' import Header from '@/compone',
+    zh: 'ISO 9001 & SABS认证中国紧固件制造商。15+年供应津巴布韦、南非、赞比亚、莫桑比克。干壁钉、六角螺栓、IBR钉、自攻钉。发货至德班、贝拉、哈拉雷。',
     en: 'ISO 9001 & SABS certified China fastener manufacturer. 15+ years supplying Zimbabwe, South Africa, Zambia, Mozambique with drywall screws, hex bolts, IBR nails at factory prices. Shipping to Durban, Beira, Harare.',
   }
   

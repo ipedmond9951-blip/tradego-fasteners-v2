@@ -25,7 +25,8 @@ const statistics = {
 }
 
 export default function StatisticsSection({ locale = 'en' }: StatisticsSectionProps) {
-  const stats = statistics[locale] || statistics.en
+  const validLocale = (locale === 'en' || locale === 'zh') ? locale : 'en'
+  const stats = statistics[validLocale]
   
   return (
     <section className="py-12 md:py-16 bg-gradient-to-r from-primary-800 to-primary-900 text-white">
