@@ -118,12 +118,16 @@ class GEOHealthCheck:
     
     def check_product_schema(self):
         """检查Product Schema"""
-        # 检查产品页面
-        products_dir = SRC_DIR / "app" / "[locale]" / "products"
-        if not products_dir.exists():
-            return {"status": "skip", "details": "No products directory"}
+        # 检查ProductSchema组件
+        product_schema_file = SRC_DIR / "components" / "ProductSchema.tsx"
+        if product_schema_file.exists():
+            content = product_schema_file.read_text()
+            if "Product" in content and "ItemList" in content:
+                return {"status": "pass", "details": "Product Schema with ItemList found in ProductSchema.tsx"}
+            elif "Product" in content:
+                return {"status": "pass", "details": "Product Schema found in ProductSchema.tsx"}
         
-        return {"status": "warn", "details": "Product schema needs manual verification"}
+        return {"status": "fail", "details": "Product schema not found"}
     
     def check_howto_schema(self):
         """检查HowTo Schema"""
@@ -221,7 +225,21 @@ class GEOHealthCheck:
     
     def check_itemlist_schema(self):
         """检查ItemList Schema"""
-        return {"status": "warn", "details": "ItemList schema not implemented"}
+        # ProductSchema.tsx uses ItemList with Product items
+        product_schema_file = SRC_DIR / "components" / "ProductSchema.tsx"
+        if product_schema_file.exists():
+            content = product_schema_file.read_text()
+            if "ItemList" in content:
+                return {"status": "pass", "details": "ItemList found in ProductSchema.tsx"}
+        
+        # Also check other schema files
+        components_dir = SRC_DIR / "components"
+        for schema_file in components_dir.glob("*Schema*.tsx"):
+            content = schema_file.read_text()
+            if "ItemList" in content:
+                return {"status": "pass", "details": f"ItemList found in {schema_file.name}"}
+        
+        return {"status": "warn", "details": "ItemList schema not found"}
     
     def check_content(self):
         """检查内容优化"""

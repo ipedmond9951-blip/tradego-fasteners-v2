@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-26T10:44:26.876500",
-  "score": 44,
+  "timestamp": "2026-04-26T10:47:14.484141",
+  "score": 54,
   "max_score": 96,
-  "percentage": 45.83333333333333,
+  "percentage": 56.25,
   "results": {
     "schema": {
       "FAQPage Schema": {
@@ -14,8 +14,8 @@
         "details": "No articles directory"
       },
       "Product Schema": {
-        "status": "warn",
-        "details": "Product schema needs manual verification"
+        "status": "pass",
+        "details": "Product Schema with ItemList found in ProductSchema.tsx"
       },
       "HowTo Schema": {
         "status": "pass",
@@ -50,8 +50,8 @@
         "details": "Review/Rating schema found in ReviewSchema.tsx"
       },
       "ItemList Schema": {
-        "status": "warn",
-        "details": "ItemList schema not implemented"
+        "status": "pass",
+        "details": "ItemList found in ProductSchema.tsx"
       }
     },
     "content": {
