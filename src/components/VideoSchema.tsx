@@ -13,7 +13,7 @@ const videoData = {
       description: 'Take a virtual tour of our state-of-the-art fastener manufacturing facility in China. See our production lines, quality control processes, and warehouse operations.',
       duration: 'PT3M45S',
       uploadDate: '2026-04-15',
-      thumbnail: 'https://tradego-fasteners.com/images/products/factory-environment.jpg',
+      thumbnail: 'https://tradego-fasteners.com/images/scenarios/factory-environment.webp',
     },
     {
       name: 'TradeGo Fastener Product Showcase',
