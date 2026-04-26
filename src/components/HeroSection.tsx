@@ -4,9 +4,9 @@ import { type Locale, t } from '@/i18n'
 interface HeroSectionProps { locale?: Locale }
 
 const heroProducts = [
-  { key: 'product1', src: '/images/products/drywall-screws-1.jpg' },
-  { key: 'product2', src: '/images/products/self-drilling-screws-1.jpg' },
-  { key: 'product3', src: '/images/products/bolts-nuts-1.jpg' },
+  { key: 'product1', src: '/images/products/drywall-screws-1.webp' },
+  { key: 'product2', src: '/images/products/self-drilling-screws-1.webp' },
+  { key: 'product3', src: '/images/products/bolts-nuts-1.webp' },
 ]
 
 export default function HeroSection({ locale = 'en' }: HeroSectionProps) {

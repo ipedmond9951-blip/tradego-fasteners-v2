@@ -9,27 +9,27 @@ interface ImageObjectSchemaProps {
 // Product images to include in ImageObject schema
 const productImages = [
   {
-    url: '/images/products/drywall-screws-2.jpg',
+    url: '/images/products/drywall-screws-2.webp',
     caption: 'Drywall Screws - Bugle Head Fine Thread',
   },
   {
-    url: '/images/products/self-drilling-screws-1.jpg',
+    url: '/images/products/self-drilling-screws-1.webp',
     caption: 'Self-Drilling TEK Screws',
   },
   {
-    url: '/images/products/bolts-nuts-2.jpg',
+    url: '/images/products/bolts-nuts-2.webp',
     caption: 'Hex Bolts and Nuts',
   },
   {
-    url: '/images/products/ibr-nails-placeholder.jpg',
+    url: '/images/products/ibr-nails-placeholder.webp',
     caption: 'IBR Roofing Nails - SABS Certified',
   },
   {
-    url: '/images/products/anchor-bolts.jpg',
+    url: '/images/products/anchor-bolts.webp',
     caption: 'Anchor Bolts for Construction',
   },
   {
-    url: '/images/products/washers.jpg',
+    url: '/images/products/washers.webp',
     caption: 'Flat and Spring Washers',
   },
 ]
