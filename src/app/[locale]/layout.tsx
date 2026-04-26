@@ -15,6 +15,7 @@ import NavigationSchema from '@/components/NavigationSchema'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
 import ReviewSchema from '@/components/ReviewSchema'
 import WebSiteSchema from '@/components/WebSiteSchema'
+import ImageObjectSchema from '@/components/ImageObjectSchema'
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -115,6 +116,7 @@ export default async function LocaleLayout({
         <ReviewSchema locale={loc} />
         <NavigationSchema locale={loc} />
         <WebSiteSchema locale={loc} />
+        <ImageObjectSchema locale={loc} />
         <link rel="alternate" hrefLang="en" href="/en" />
         <link rel="alternate" hrefLang="zh" href="/zh" />
         <link rel="alternate" hrefLang="es" href="/es" />
