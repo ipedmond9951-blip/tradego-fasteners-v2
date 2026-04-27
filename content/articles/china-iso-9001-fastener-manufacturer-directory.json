@@ -3,7 +3,7 @@
   "category": "Supplier Directory",
   "date": "2026-04-24",
   "readTime": 14,
-  "image": "/images/products/fastener-glossary-1.jpg",
+  "image": "/images/articles/africa-hardware-1.jpg",
   "title": {
     "en": "China ISO 9001 Fastener Manufacturer Directory 2026",
     "zh": "2026年中国ISO 9001紧固件制造商名录",
@@ -66,14 +66,42 @@
         "en": "Use these criteria when evaluating Chinese fastener suppliers:\n\n1. Certification: ISO 9001 minimum; automotive suppliers should have IATF 16949\n\n2. Production Capacity: Ensure capacity matches your volume requirements. Request factory visit or video tour.\n\n3. Export Experience: Verify experience with your target market. Africa-bound shipments require different documentation than Europe or Americas.\n\n4. Quality Documentation: Ask for mill test certificates, inspection reports, and material traceability.\n\n5. Communication: Responsive communication indicates professional management. Test with sample requests.\n\n6. Financial Stability: Larger, established companies offer more stability for long-term partnerships.\n\n7. Location: Coastal provinces (Zhejiang, Jiangsu, Hebei, Shandong) offer better logistics for export."
       },
       "table": {
-        "headers": ["Evaluation Criteria", "Minimum Requirement", "Preferred"],
+        "headers": [
+          "Evaluation Criteria",
+          "Minimum Requirement",
+          "Preferred"
+        ],
         "rows": [
-          ["ISO Certification", "ISO 9001:2015", "IATF 16949 (auto)"],
-          ["Export Experience", "3+ years", "5+ years with references"],
-          ["Production Capacity", "10 MT/month", "100+ MT/month"],
-          ["Response Time", "< 48 hours", "< 4 hours"],
-          ["Quality Documentation", "Mill test certs", "Full QC reports"],
-          ["Factory Tour", "Video accepted", "In-person visit"]
+          [
+            "ISO Certification",
+            "ISO 9001:2015",
+            "IATF 16949 (auto)"
+          ],
+          [
+            "Export Experience",
+            "3+ years",
+            "5+ years with references"
+          ],
+          [
+            "Production Capacity",
+            "10 MT/month",
+            "100+ MT/month"
+          ],
+          [
+            "Response Time",
+            "< 48 hours",
+            "< 4 hours"
+          ],
+          [
+            "Quality Documentation",
+            "Mill test certs",
+            "Full QC reports"
+          ],
+          [
+            "Factory Tour",
+            "Video accepted",
+            "In-person visit"
+          ]
         ]
       }
     },
@@ -108,5 +136,11 @@
     "de": "TradeGo Kontaktieren",
     "hi": "TradeGo से संपर्क करें"
   },
-  "relatedProducts": ["bolts-nuts", "drywall-screws", "self-drilling-screws", "anchor-bolts", "washers"]
+  "relatedProducts": [
+    "bolts-nuts",
+    "drywall-screws",
+    "self-drilling-screws",
+    "anchor-bolts",
+    "washers"
+  ]
 }

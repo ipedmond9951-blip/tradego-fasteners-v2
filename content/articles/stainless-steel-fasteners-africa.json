@@ -3,7 +3,7 @@
   "category": "Product Guide",
   "date": "2026-04-24",
   "readTime": 9,
-  "image": "/images/products/stainless-steel-fasteners-1.jpg",
+  "image": "/images/articles/africa-building-1.jpg",
   "title": {
     "en": "Stainless Steel Fasteners for Africa: Complete Selection Guide 2026",
     "zh": "2026年非洲不锈钢紧固件：完整选型指南",
@@ -48,15 +48,47 @@
         "en": "Understanding the difference helps buyers select correctly:\n\n304 Stainless Steel:\n- Composition: 18% chromium, 8% nickel\n- Corrosion resistance: Good for most indoor and outdoor applications\n- Temperature range: -185°C to 870°C\n- Cost: 20-30% less than 316\n- Applications: General construction, roofing, interior applications\n\n316 Stainless Steel:\n- Composition: 16% chromium, 10% nickel, 2% molybdenum\n- Corrosion resistance: Excellent, especially in chloride environments\n- Temperature range: -185°C to 800°C\n- Molybdenum addition: Resists pitting from saltwater\n- Applications: Coastal, marine, chemical, healthcare facilities\n\nFor African coastal and humid tropical applications, 316 is strongly recommended."
       },
       "table": {
-        "headers": ["Application", "Environment", "Recommended Grade"],
+        "headers": [
+          "Application",
+          "Environment",
+          "Recommended Grade"
+        ],
         "rows": [
-          ["Indoor construction", "Air conditioned", "304"],
-          ["Outdoor general", "Urban, low humidity", "304"],
-          ["Coastal building", "Salt air, high humidity", "316"],
-          ["Marine application", "Direct seawater spray", "316"],
-          ["Swimming pools", "Chlorinated water", "316"],
-          ["Chemical facilities", "Acids, chemicals", "316"],
-          ["Water treatment", "Freshwater", "304"]
+          [
+            "Indoor construction",
+            "Air conditioned",
+            "304"
+          ],
+          [
+            "Outdoor general",
+            "Urban, low humidity",
+            "304"
+          ],
+          [
+            "Coastal building",
+            "Salt air, high humidity",
+            "316"
+          ],
+          [
+            "Marine application",
+            "Direct seawater spray",
+            "316"
+          ],
+          [
+            "Swimming pools",
+            "Chlorinated water",
+            "316"
+          ],
+          [
+            "Chemical facilities",
+            "Acids, chemicals",
+            "316"
+          ],
+          [
+            "Water treatment",
+            "Freshwater",
+            "304"
+          ]
         ]
       }
     },
@@ -91,5 +123,9 @@
     "de": "Edelstahlbefestigungen Angebot Erhalten",
     "hi": "स्टेनलेस फास्टनर कोटेशन का अनुरोध करें"
   },
-  "relatedProducts": ["stainless-steel-fasteners-1", "bolts-nuts", "washers"]
+  "relatedProducts": [
+    "stainless-steel-fasteners-1",
+    "bolts-nuts",
+    "washers"
+  ]
 }

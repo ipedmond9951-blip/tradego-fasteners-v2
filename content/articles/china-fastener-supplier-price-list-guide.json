@@ -3,7 +3,7 @@
   "category": "Procurement Guide",
   "date": "2026-04-24",
   "readTime": 12,
-  "image": "/images/products/bulk-fasteners-1.jpg",
+  "image": "/images/articles/africa-mining-1.jpg",
   "title": {
     "en": "China Fastener Supplier Price List Guide 2026: FOB & CIF Pricing",
     "zh": "2026中国紧固件供应商价格表指南：FOB和CIF定价",
@@ -48,11 +48,31 @@
         "en": "FOB (Free on Board): The seller delivers goods onto the vessel at the port of export. The buyer bears all costs and risks from that point. FOB is ideal when you have your own shipping arrangements or prefer to control freight logistics directly.\n\nCIF (Cost, Insurance, and Freight): The seller pays for costs, insurance, and freight to deliver goods to the destination port. CIF is convenient when you want a single price covering all delivery costs up to your port of entry.\n\nFor Africa-bound shipments, CIF is often preferred as it simplifies customs clearance and reduces logistical complexity. TradeGo offers both FOB and CIF pricing to accommodate different buyer preferences."
       },
       "table": {
-        "headers": ["Term", "Seller Responsibility", "Buyer Responsibility", "Best For"],
+        "headers": [
+          "Term",
+          "Seller Responsibility",
+          "Buyer Responsibility",
+          "Best For"
+        ],
         "rows": [
-          ["FOB Shanghai", "Delivery to vessel, loading", "Freight, insurance, customs", "Buyers with shipping agents"],
-          ["CIF Durban", "All costs to destination port", "Customs clearance, inland transport", "Integrated procurement"],
-          ["EXW", "Factory pickup only", "All transportation", "Maximum control"]
+          [
+            "FOB Shanghai",
+            "Delivery to vessel, loading",
+            "Freight, insurance, customs",
+            "Buyers with shipping agents"
+          ],
+          [
+            "CIF Durban",
+            "All costs to destination port",
+            "Customs clearance, inland transport",
+            "Integrated procurement"
+          ],
+          [
+            "EXW",
+            "Factory pickup only",
+            "All transportation",
+            "Maximum control"
+          ]
         ]
       }
     },
@@ -74,14 +94,42 @@
         "en": "Understanding price variations helps buyers make informed procurement decisions:\n\n1. Material Grade: Carbon steel fasteners range from $800-1,500/MT; stainless steel ranges from $3,000-8,000/MT depending on grade (304, 316)\n\n2. Coating/Finish: Plain (lowest cost) → Zinc plated ($50-150/MT) → Hot-dip galvanized ($150-300/MT) → Dacromet ($400-600/MT)\n\n3. Manufacturing Process: Standard cold-forged ($900-1,200/MT) vs precision machined ($1,500-2,500/MT)\n\n4. Size Range: Common M6-M12 sizes have the most competitive pricing due to high production volumes. Non-standard sizes or large diameters (M24+) command premium pricing.\n\n5. Steel Material Costs: Hot-rolled coil prices fluctuate based on global commodity markets, typically $500-700/MT for commodity grades."
       },
       "table": {
-        "headers": ["Product Type", "FOB Price Range (USD/MT)", "Common MOQ"],
+        "headers": [
+          "Product Type",
+          "FOB Price Range (USD/MT)",
+          "Common MOQ"
+        ],
         "rows": [
-          ["Standard bolts M8-M12", "$850-1,200", "1 MT"],
-          ["Hex nuts M8-M16", "$800-1,100", "1 MT"],
-          ["Drywall screws", "$900-1,400", "1 MT"],
-          ["Self-drilling TEK screws", "$1,100-1,600", "1 MT"],
-          ["Hot-dip galvanized bolts", "$1,200-1,800", "2 MT"],
-          ["Stainless steel 304", "$3,500-5,000", "0.5 MT"]
+          [
+            "Standard bolts M8-M12",
+            "$850-1,200",
+            "1 MT"
+          ],
+          [
+            "Hex nuts M8-M16",
+            "$800-1,100",
+            "1 MT"
+          ],
+          [
+            "Drywall screws",
+            "$900-1,400",
+            "1 MT"
+          ],
+          [
+            "Self-drilling TEK screws",
+            "$1,100-1,600",
+            "1 MT"
+          ],
+          [
+            "Hot-dip galvanized bolts",
+            "$1,200-1,800",
+            "2 MT"
+          ],
+          [
+            "Stainless steel 304",
+            "$3,500-5,000",
+            "0.5 MT"
+          ]
         ]
       }
     },
@@ -116,5 +164,10 @@
     "de": "Fordern Sie Ihr Kostenloses Angebot an",
     "hi": "अपना मुफ्त उद्धरण प्राप्त करें"
   },
-  "relatedProducts": ["bolts-nuts", "drywall-screws", "self-drilling-screws", "washers"]
+  "relatedProducts": [
+    "bolts-nuts",
+    "drywall-screws",
+    "self-drilling-screws",
+    "washers"
+  ]
 }
