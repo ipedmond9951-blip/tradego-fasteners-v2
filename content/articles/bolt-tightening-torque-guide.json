@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-04-24",
   "readTime": 8,
-  "image": "/images/articles/southern-africa-1.jpg",
+  "image": "/images/products/torque-tensioning-1.jpg",
   "title": {
     "en": "Bolt Tightening and Torque Guide: Proper Installation Methods",
     "zh": "螺栓紧固和扭矩指南：正确的安装方法",
@@ -48,43 +48,13 @@
         "en": "Typical torque values for metric hex bolts:\n\nGrade 8.8 Bolts:\n- M8: 25-30 Nm\n- M10: 50-60 Nm\n- M12: 85-95 Nm\n- M16: 210-240 Nm\n- M20: 410-460 Nm\n- M24: 710-800 Nm\n\nGrade 10.9 Bolts:\n- M8: 35-40 Nm\n- M10: 70-80 Nm\n- M12: 120-135 Nm\n- M16: 295-330 Nm\n- M20: 580-650 Nm\n- M24: 1000-1100 Nm\n\nNote: Values are approximate and depend on lubrication condition."
       },
       "table": {
-        "headers": [
-          "Bolt Size",
-          "Grade 8.8 Nm",
-          "Grade 10.9 Nm",
-          "Grade 12.9 Nm"
-        ],
+        "headers": ["Bolt Size", "Grade 8.8 Nm", "Grade 10.9 Nm", "Grade 12.9 Nm"],
         "rows": [
-          [
-            "M8",
-            "25-30",
-            "35-40",
-            "40-45"
-          ],
-          [
-            "M10",
-            "50-60",
-            "70-80",
-            "80-90"
-          ],
-          [
-            "M12",
-            "85-95",
-            "120-135",
-            "140-155"
-          ],
-          [
-            "M16",
-            "210-240",
-            "295-330",
-            "345-380"
-          ],
-          [
-            "M20",
-            "410-460",
-            "580-650",
-            "680-750"
-          ]
+          ["M8", "25-30", "35-40", "40-45"],
+          ["M10", "50-60", "70-80", "80-90"],
+          ["M12", "85-95", "120-135", "140-155"],
+          ["M16", "210-240", "295-330", "345-380"],
+          ["M20", "410-460", "580-650", "680-750"]
         ]
       }
     },
@@ -110,8 +80,5 @@
     "de": "Technischen Support Erhalten",
     "hi": "तकनीकी सहायता का अनुरोध करें"
   },
-  "relatedProducts": [
-    "bolts-nuts",
-    "high-tensile-bolts"
-  ]
+  "relatedProducts": ["bolts-nuts", "high-tensile-bolts"]
 }

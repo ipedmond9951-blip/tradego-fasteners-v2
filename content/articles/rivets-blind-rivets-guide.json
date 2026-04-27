@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-04-24",
   "readTime": 6,
-  "image": "/images/articles/west-africa-1.jpg",
+  "image": "/images/products/rivets-1.jpg",
   "title": {
     "en": "Rivets and Blind Rivets Guide: Selection and Installation",
     "zh": "铆钉和抽芯铆钉指南：选型和安装",
@@ -61,9 +61,5 @@
     "de": "Nieten Angebot Erhalten",
     "hi": "रिवेट कोटेशन का अनुरोध करें"
   },
-  "relatedProducts": [
-    "rivets",
-    "rivet-tools",
-    "blind-rivets"
-  ]
+  "relatedProducts": ["rivets", "rivet-tools", "blind-rivets"]
 }
