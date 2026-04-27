@@ -3,7 +3,7 @@
   "category": "Regional Supplier",
   "date": "2026-04-26",
   "readTime": 8,
-  "image": "/images/scenarios/warehouse-management.jpg",
+  "image": "/images/products/mining-fasteners-1.jpg",
   "title": {
     "en": "Zambia Fastener Supplier: Mining & Construction Hardware in Lusaka & Copperbelt",
     "zh": "赞比亚紧固件供应商：卢萨卡和铜带带的采矿和建筑五金"
@@ -43,13 +43,37 @@
         "zh": "赞比亚采矿和建筑的紧固件"
       },
       "table": {
-        "headers": ["Industry", "Popular Fasteners", "Specification"],
+        "headers": [
+          "Industry",
+          "Popular Fasteners",
+          "Specification"
+        ],
         "rows": [
-          ["Copper Mining", "Rock bolts, high-tensile bolts, liner bolts", "Grade 10.9, HDG"],
-          ["Mineral Processing", "SS fasteners, pipe clamps, conveyor hardware", "SS316, Grade 8.8"],
-          ["Construction", "Structural bolts, concrete anchors, roofing", "Grade 8.8, SABS"],
-          ["Power/Infrastructure", "Transmission tower bolts, substation hardware", "Grade 8.8, HDG"],
-          ["Agriculture", "Fencing, irrigation hardware, general fasteners", "Galvanized"]
+          [
+            "Copper Mining",
+            "Rock bolts, high-tensile bolts, liner bolts",
+            "Grade 10.9, HDG"
+          ],
+          [
+            "Mineral Processing",
+            "SS fasteners, pipe clamps, conveyor hardware",
+            "SS316, Grade 8.8"
+          ],
+          [
+            "Construction",
+            "Structural bolts, concrete anchors, roofing",
+            "Grade 8.8, SABS"
+          ],
+          [
+            "Power/Infrastructure",
+            "Transmission tower bolts, substation hardware",
+            "Grade 8.8, HDG"
+          ],
+          [
+            "Agriculture",
+            "Fencing, irrigation hardware, general fasteners",
+            "Galvanized"
+          ]
         ]
       }
     },
@@ -61,24 +85,53 @@
       },
       "faqItems": [
         {
-          "q": {"en": "Which shipping route is faster to Zambia?", "zh": "哪个运输路线到赞比亚更快？"},
-          "a": {"en": "Dar es Salaam route is faster (25-30 days) compared to Durban route (32-38 days). However, Durban may be cheaper for very large orders.", "zh": "达累斯萨拉姆路线更快（25-30天），相比德班路线（32-38天）。但是，对于非常大的订单，德班可能更便宜。"}
+          "q": {
+            "en": "Which shipping route is faster to Zambia?",
+            "zh": "哪个运输路线到赞比亚更快？"
+          },
+          "a": {
+            "en": "Dar es Salaam route is faster (25-30 days) compared to Durban route (32-38 days). However, Durban may be cheaper for very large orders.",
+            "zh": "达累斯萨拉姆路线更快（25-30天），相比德班路线（32-38天）。但是，对于非常大的订单，德班可能更便宜。"
+          }
         },
         {
-          "q": {"en": "Do you provide ZABS certification?", "zh": "您提供ZABS认证吗？"},
-          "a": {"en": "Yes, we can provide ZABS (Zambia Bureau of Standards) certified products and documentation for Zambian customs.", "zh": "是的，我们可以提供ZABS（赞比亚标准局）认证产品和赞比亚海关清关文件。"}
+          "q": {
+            "en": "Do you provide ZABS certification?",
+            "zh": "您提供ZABS认证吗？"
+          },
+          "a": {
+            "en": "Yes, we can provide ZABS (Zambia Bureau of Standards) certified products and documentation for Zambian customs.",
+            "zh": "是的，我们可以提供ZABS（赞比亚标准局）认证产品和赞比亚海关清关文件。"
+          }
         },
         {
-          "q": {"en": "Can you deliver to the Copperbelt cities?", "zh": "您可以送到铜带城市吗？"},
-          "a": {"en": "Yes, we deliver to all Copperbelt cities including Ndola, Kitwe, Chingola, Luanshya, and Mufulira.", "zh": "是的，我们向所有铜带城市发货，包括恩多拉、基特韦、钦戈拉、卢阿姆希亚和穆富利拉。"}
+          "q": {
+            "en": "Can you deliver to the Copperbelt cities?",
+            "zh": "您可以送到铜带城市吗？"
+          },
+          "a": {
+            "en": "Yes, we deliver to all Copperbelt cities including Ndola, Kitwe, Chingola, Luanshya, and Mufulira.",
+            "zh": "是的，我们向所有铜带城市发货，包括恩多拉、基特韦、钦戈拉、卢阿姆希亚和穆富利拉。"
+          }
         }
       ]
     }
   ],
-  "relatedProducts": ["rock-bolts", "high-tensile-bolts", "stainless-steel-fasteners", "structural-bolts"],
+  "relatedProducts": [
+    "rock-bolts",
+    "high-tensile-bolts",
+    "stainless-steel-fasteners",
+    "structural-bolts"
+  ],
   "cta": {
-    "text": {"en": "Get Zambia Fastener Prices", "zh": "获取赞比亚紧固件价格"},
-    "buttonText": {"en": "Request Quote for Zambia", "zh": "索取赞比亚报价"},
+    "text": {
+      "en": "Get Zambia Fastener Prices",
+      "zh": "获取赞比亚紧固件价格"
+    },
+    "buttonText": {
+      "en": "Request Quote for Zambia",
+      "zh": "索取赞比亚报价"
+    },
     "link": "/en/product-upload"
   }
 }

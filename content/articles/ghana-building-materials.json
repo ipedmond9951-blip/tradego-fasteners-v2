@@ -3,7 +3,7 @@
   "category": "Regional Supplier",
   "date": "2026-04-26",
   "readTime": 7,
-  "image": "/images/scenarios/warehouse-management.jpg",
+  "image": "/images/products/bolts-nuts-2.webp",
   "title": {
     "en": "Ghana Building Materials: Fastener Supplier in Accra & Kumasi from China",
     "zh": "加纳建筑材料：来自中国的阿克拉和库马西紧固件供应商"
@@ -36,13 +36,43 @@
         "zh": "加纳建筑市场主要需要以下紧固件类别：用于金属板和铝锌屋顶的屋顶紧固件（因耐用性而非常受欢迎）；用于商业和住宅建筑的结构螺栓；用于地基和幕墙安装的混凝土锚固件；用于维护和修理的通用五金；用于海岸地区（海岸角和沃尔塔地区）沿海项目的不锈钢紧固件。"
       },
       "table": {
-        "headers": ["Product Category", "Common Sizes", "Demand Driver", "Pricing Range"],
+        "headers": [
+          "Product Category",
+          "Common Sizes",
+          "Demand Driver",
+          "Pricing Range"
+        ],
         "rows": [
-          ["Roofing Fasteners", "No.8 to 5/16, various lengths", "Metal roofing sheets", "$0.02-0.05/pc"],
-          ["Structural Bolts", "M12-M24, Grade 8.8", "Steel construction", "$0.80-3.50/pc"],
-          ["Concrete Anchors", "M8-M16", "Foundation work", "$0.15-1.20/pc"],
-          ["Wood Screws", "M4-M8, various lengths", "Wood frame construction", "$0.01-0.08/pc"],
-          ["SS Fasteners", "M6-M20, SS304/316", "Coastal projects", "$0.20-2.50/pc"]
+          [
+            "Roofing Fasteners",
+            "No.8 to 5/16, various lengths",
+            "Metal roofing sheets",
+            "$0.02-0.05/pc"
+          ],
+          [
+            "Structural Bolts",
+            "M12-M24, Grade 8.8",
+            "Steel construction",
+            "$0.80-3.50/pc"
+          ],
+          [
+            "Concrete Anchors",
+            "M8-M16",
+            "Foundation work",
+            "$0.15-1.20/pc"
+          ],
+          [
+            "Wood Screws",
+            "M4-M8, various lengths",
+            "Wood frame construction",
+            "$0.01-0.08/pc"
+          ],
+          [
+            "SS Fasteners",
+            "M6-M20, SS304/316",
+            "Coastal projects",
+            "$0.20-2.50/pc"
+          ]
         ]
       }
     },
@@ -87,7 +117,12 @@
       ]
     }
   ],
-  "relatedProducts": ["roofing-nails", "self-drilling-screws", "hex-bolts", "concrete-anchors"],
+  "relatedProducts": [
+    "roofing-nails",
+    "self-drilling-screws",
+    "hex-bolts",
+    "concrete-anchors"
+  ],
   "cta": {
     "text": {
       "en": "Get Ghana Fastener Prices",

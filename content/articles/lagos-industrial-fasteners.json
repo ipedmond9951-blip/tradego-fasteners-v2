@@ -3,7 +3,7 @@
   "category": "Regional Supplier",
   "date": "2026-04-26",
   "readTime": 8,
-  "image": "/images/scenarios/warehouse-management.jpg",
+  "image": "/images/products/threaded-rods.webp",
   "title": {
     "en": "Lagos Industrial Fasteners Supplier: Construction & Oil & Gas Hardware from China",
     "zh": "拉各斯工业紧固件供应商：来自中国的建筑和石油天然气硬件"
@@ -36,13 +36,43 @@
         "zh": "尼日利亚的紧固件需求由三个主要行业驱动：石油和天然气（占需求的35%）需要用于平台、炼油厂和管道的高强度防腐紧固件；建筑业（占需求的40%）包括用于高层建筑的结构螺栓、用于仓库的屋顶紧固件以及用于地基的混凝土锚固件；制造业（占需求的25%）涵盖机器紧固件、设备螺栓和维护用品。"
       },
       "table": {
-        "headers": ["Industry Sector", "Popular Fasteners", "Material/Grade", "Annual Demand"],
+        "headers": [
+          "Industry Sector",
+          "Popular Fasteners",
+          "Material/Grade",
+          "Annual Demand"
+        ],
         "rows": [
-          ["Oil & Gas", "API flanges, stud bolts, pipeline clamps", "SS316, Grade B7", "$180M"],
-          ["Construction", "Structural bolts, anchor bolts, roofing", "Grade 8.8/10.9", "$200M"],
-          ["Manufacturing", "Machine bolts, nuts, washers", "Grade 10.9, SS304", "$130M"],
-          ["Mining", "Ground anchors, rock bolts, bit bolts", "Galvanized, Grade 12.9", "$85M"],
-          ["Marine/Coastal", "Stainless steel, hot-dip galvanized", "SS316, HDG", "$65M"]
+          [
+            "Oil & Gas",
+            "API flanges, stud bolts, pipeline clamps",
+            "SS316, Grade B7",
+            "$180M"
+          ],
+          [
+            "Construction",
+            "Structural bolts, anchor bolts, roofing",
+            "Grade 8.8/10.9",
+            "$200M"
+          ],
+          [
+            "Manufacturing",
+            "Machine bolts, nuts, washers",
+            "Grade 10.9, SS304",
+            "$130M"
+          ],
+          [
+            "Mining",
+            "Ground anchors, rock bolts, bit bolts",
+            "Galvanized, Grade 12.9",
+            "$85M"
+          ],
+          [
+            "Marine/Coastal",
+            "Stainless steel, hot-dip galvanized",
+            "SS316, HDG",
+            "$65M"
+          ]
         ]
       }
     },
@@ -97,7 +127,12 @@
       ]
     }
   ],
-  "relatedProducts": ["hex-bolts", "stainless-steel-bolts", "anchor-bolts", "self-drilling-screws"],
+  "relatedProducts": [
+    "hex-bolts",
+    "stainless-steel-bolts",
+    "anchor-bolts",
+    "self-drilling-screws"
+  ],
   "cta": {
     "text": {
       "en": "Get Lagos Fastener Prices",

@@ -3,7 +3,7 @@
   "category": "Regional Supplier",
   "date": "2026-04-26",
   "readTime": 7,
-  "image": "/images/scenarios/warehouse-management.jpg",
+  "image": "/images/products/rivets.jpg",
   "title": {
     "en": "Mombasa Port Fastener Supplier: East Africa Gateway Hardware from China",
     "zh": "蒙巴萨港紧固件供应商：来自中国的东非门户五金"
@@ -36,14 +36,49 @@
         "zh": "从我们的蒙巴萨中心，我们向整个东非分销紧固件：肯尼亚（内罗毕、蒙巴萨、基苏木、埃尔多雷特、纳库鲁——距港口4-6小时），乌干达（坎帕拉、金贾、古卢——距蒙巴萨2-3天），坦桑尼亚（达累斯萨拉姆、阿鲁沙、姆万扎——沿海公路4-5小时），卢旺达（基加利——经由穆桑泽中转，2天），南苏丹（朱巴——经乌干达边境，3-4天），布隆迪（布琼布拉——经坦桑尼亚，3-4天）。"
       },
       "table": {
-        "headers": ["Country", "Major Cities Served", "Transit Time from Mombasa", "Customs"],
+        "headers": [
+          "Country",
+          "Major Cities Served",
+          "Transit Time from Mombasa",
+          "Customs"
+        ],
         "rows": [
-          ["Kenya", "Nairobi, Mombasa, Kisumu", "4-6 hours", "KEBS"],
-          ["Uganda", "Kampala, Jinja, Gulu", "2-3 days", "UNBS"],
-          ["Tanzania", "Dar es Salaam, Arusha", "4-5 hours", "TBS"],
-          ["Rwanda", "Kigali, Musanze", "2 days", "RBS"],
-          ["South Sudan", "Juba, Wau", "3-4 days", "SSBS"],
-          ["Burundi", "Bujumbura", "3-4 days", "Bureau of Standards"]
+          [
+            "Kenya",
+            "Nairobi, Mombasa, Kisumu",
+            "4-6 hours",
+            "KEBS"
+          ],
+          [
+            "Uganda",
+            "Kampala, Jinja, Gulu",
+            "2-3 days",
+            "UNBS"
+          ],
+          [
+            "Tanzania",
+            "Dar es Salaam, Arusha",
+            "4-5 hours",
+            "TBS"
+          ],
+          [
+            "Rwanda",
+            "Kigali, Musanze",
+            "2 days",
+            "RBS"
+          ],
+          [
+            "South Sudan",
+            "Juba, Wau",
+            "3-4 days",
+            "SSBS"
+          ],
+          [
+            "Burundi",
+            "Bujumbura",
+            "3-4 days",
+            "Bureau of Standards"
+          ]
         ]
       }
     },
@@ -88,7 +123,12 @@
       ]
     }
   ],
-  "relatedProducts": ["self-drilling-screws", "roofing-nails", "structural-bolts", "concrete-anchors"],
+  "relatedProducts": [
+    "self-drilling-screws",
+    "roofing-nails",
+    "structural-bolts",
+    "concrete-anchors"
+  ],
   "cta": {
     "text": {
       "en": "Get East Africa Fastener Prices",

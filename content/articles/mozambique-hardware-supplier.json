@@ -3,7 +3,7 @@
   "category": "Regional Supplier",
   "date": "2026-04-26",
   "readTime": 8,
-  "image": "/images/scenarios/warehouse-management.jpg",
+  "image": "/images/products/mining-fasteners-1.jpg",
   "title": {
     "en": "Mozambique Hardware Supplier: Construction Fasteners in Maputo & Beira",
     "zh": "莫桑比克五金供应商：马普托和贝拉的建筑紧固件"
@@ -43,13 +43,37 @@
         "zh": "莫桑比克行业的紧固件"
       },
       "table": {
-        "headers": ["Sector", "Popular Products", "Key Markets"],
+        "headers": [
+          "Sector",
+          "Popular Products",
+          "Key Markets"
+        ],
         "rows": [
-          ["Mining (Tete Coal)", "High-tensile bolts, rock anchors, washers", "Tete, Beira"],
-          ["Aluminum Industry", "SS fasteners, structural bolts, pipeline clamps", "Maputo, Matola"],
-          ["Construction", "Roofing screws, concrete anchors, structural bolts", "Nationwide"],
-          ["Agriculture", "Coach screws, fencing hardware, general fasteners", "Rural areas"],
-          ["Infrastructure", "Bridge fasteners, guardrail bolts, highway hardware", "Corridors"]
+          [
+            "Mining (Tete Coal)",
+            "High-tensile bolts, rock anchors, washers",
+            "Tete, Beira"
+          ],
+          [
+            "Aluminum Industry",
+            "SS fasteners, structural bolts, pipeline clamps",
+            "Maputo, Matola"
+          ],
+          [
+            "Construction",
+            "Roofing screws, concrete anchors, structural bolts",
+            "Nationwide"
+          ],
+          [
+            "Agriculture",
+            "Coach screws, fencing hardware, general fasteners",
+            "Rural areas"
+          ],
+          [
+            "Infrastructure",
+            "Bridge fasteners, guardrail bolts, highway hardware",
+            "Corridors"
+          ]
         ]
       }
     },
@@ -61,24 +85,53 @@
       },
       "faqItems": [
         {
-          "q": {"en": "Do you ship to both Maputo and Beira ports?", "zh": "您是否运送到马普托和贝拉港？"},
-          "a": {"en": "Yes, we ship to both Maputo and Beira ports. Maputo is best for southern routes, Beira for central and northern corridors.", "zh": "是的，我们运送到马普托和贝拉港。马普托最适合南部路线，贝拉最适合中部和北部走廊。"}
+          "q": {
+            "en": "Do you ship to both Maputo and Beira ports?",
+            "zh": "您是否运送到马普托和贝拉港？"
+          },
+          "a": {
+            "en": "Yes, we ship to both Maputo and Beira ports. Maputo is best for southern routes, Beira for central and northern corridors.",
+            "zh": "是的，我们运送到马普托和贝拉港。马普托最适合南部路线，贝拉最适合中部和北部走廊。"
+          }
         },
         {
-          "q": {"en": "What is INNOQ certification?", "zh": "什么是INNOQ认证？"},
-          "a": {"en": "INNOQ is Mozambique's national standards body. We can provide certified products and documentation for customs clearance.", "zh": "INNOQ是莫桑比克的国家标准机构。我们可以提供认证产品和清关文件。"}
+          "q": {
+            "en": "What is INNOQ certification?",
+            "zh": "什么是INNOQ认证？"
+          },
+          "a": {
+            "en": "INNOQ is Mozambique's national standards body. We can provide certified products and documentation for customs clearance.",
+            "zh": "INNOQ是莫桑比克的国家标准机构。我们可以提供认证产品和清关文件。"
+          }
         },
         {
-          "q": {"en": "Can you deliver to Nampula and northern Mozambique?", "zh": "您可以送到南普拉和莫桑比克北部吗？"},
-          "a": {"en": "Yes, we deliver throughout Mozambique including Nampula, Pemba, and Lichinga via our distribution network.", "zh": "是的，我们通过分销网络向莫桑比克全境发货，包括南普拉、彭巴和利欣加。"}
+          "q": {
+            "en": "Can you deliver to Nampula and northern Mozambique?",
+            "zh": "您可以送到南普拉和莫桑比克北部吗？"
+          },
+          "a": {
+            "en": "Yes, we deliver throughout Mozambique including Nampula, Pemba, and Lichinga via our distribution network.",
+            "zh": "是的，我们通过分销网络向莫桑比克全境发货，包括南普拉、彭巴和利欣加。"
+          }
         }
       ]
     }
   ],
-  "relatedProducts": ["structural-bolts", "stainless-steel-fasteners", "roofing-screws", "rock-bolts"],
+  "relatedProducts": [
+    "structural-bolts",
+    "stainless-steel-fasteners",
+    "roofing-screws",
+    "rock-bolts"
+  ],
   "cta": {
-    "text": {"en": "Get Mozambique Fastener Prices", "zh": "获取莫桑比克紧固件价格"},
-    "buttonText": {"en": "Request Quote for Mozambique", "zh": "索取莫桑比克报价"},
+    "text": {
+      "en": "Get Mozambique Fastener Prices",
+      "zh": "获取莫桑比克紧固件价格"
+    },
+    "buttonText": {
+      "en": "Request Quote for Mozambique",
+      "zh": "索取莫桑比克报价"
+    },
     "link": "/en/product-upload"
   }
 }

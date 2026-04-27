@@ -3,7 +3,7 @@
   "category": "Regional Supplier",
   "date": "2026-04-26",
   "readTime": 8,
-  "image": "/images/scenarios/warehouse-management.jpg",
+  "image": "/images/products/mining-fasteners-1.jpg",
   "title": {
     "en": "Zimbabwe Fastener Supplier: Construction & Mining Hardware in Harare & Bulawayo",
     "zh": "津巴布韦紧固件供应商：哈拉雷和布拉瓦约的建筑和采矿五金"
@@ -43,12 +43,32 @@
         "zh": "津巴布韦关键行业的紧固件"
       },
       "table": {
-        "headers": ["Industry", "Popular Fasteners", "Key Requirement"],
+        "headers": [
+          "Industry",
+          "Popular Fasteners",
+          "Key Requirement"
+        ],
         "rows": [
-          ["Mining", "Rock bolts, anchor pins, high-tensile bolts", "Corrosion resistance"],
-          ["Construction", "Structural bolts, roofing screws, concrete anchors", "SABS or equivalent"],
-          ["Agriculture", "Coach screws, fencing staples, general hardware", "Durability"],
-          ["Infrastructure", "Bridge bolts, guardrail fasteners", "High strength"]
+          [
+            "Mining",
+            "Rock bolts, anchor pins, high-tensile bolts",
+            "Corrosion resistance"
+          ],
+          [
+            "Construction",
+            "Structural bolts, roofing screws, concrete anchors",
+            "SABS or equivalent"
+          ],
+          [
+            "Agriculture",
+            "Coach screws, fencing staples, general hardware",
+            "Durability"
+          ],
+          [
+            "Infrastructure",
+            "Bridge bolts, guardrail fasteners",
+            "High strength"
+          ]
         ]
       }
     },
@@ -60,24 +80,53 @@
       },
       "faqItems": [
         {
-          "q": {"en": "What is the minimum order for Zimbabwe?", "zh": "津巴布韦的最低订单是多少？"},
-          "a": {"en": "MOQ varies by product. For container orders (20ft), we offer best pricing. We also support LCL shipments for smaller orders.", "zh": "最低订单因产品而异。对于集装箱订单（20英尺），我们提供最优惠价格。我们也支持小订单的拼箱运输。"}
+          "q": {
+            "en": "What is the minimum order for Zimbabwe?",
+            "zh": "津巴布韦的最低订单是多少？"
+          },
+          "a": {
+            "en": "MOQ varies by product. For container orders (20ft), we offer best pricing. We also support LCL shipments for smaller orders.",
+            "zh": "最低订单因产品而异。对于集装箱订单（20英尺），我们提供最优惠价格。我们也支持小订单的拼箱运输。"
+          }
         },
         {
-          "q": {"en": "What certifications do you provide?", "zh": "您提供什么认证？"},
-          "a": {"en": "We provide SABS-equivalent certified products and can supply documentation for ZIMRA customs clearance.", "zh": "我们提供相当于SABS认证的产品，可以提供ZIMRA海关清关所需的文件。"}
+          "q": {
+            "en": "What certifications do you provide?",
+            "zh": "您提供什么认证？"
+          },
+          "a": {
+            "en": "We provide SABS-equivalent certified products and can supply documentation for ZIMRA customs clearance.",
+            "zh": "我们提供相当于SABS认证的产品，可以提供ZIMRA海关清关所需的文件。"
+          }
         },
         {
-          "q": {"en": "How long does shipping to Harare take?", "zh": "运送到哈拉雷需要多长时间？"},
-          "a": {"en": "Sea freight to Durban (20 days), then overland to Harare (5-7 days). Total approximately 28-35 days door-to-door.", "zh": "海运到德班（20天），然后陆运到哈拉雷（5-7天）。门到门总共约28-35天。"}
+          "q": {
+            "en": "How long does shipping to Harare take?",
+            "zh": "运送到哈拉雷需要多长时间？"
+          },
+          "a": {
+            "en": "Sea freight to Durban (20 days), then overland to Harare (5-7 days). Total approximately 28-35 days door-to-door.",
+            "zh": "海运到德班（20天），然后陆运到哈拉雷（5-7天）。门到门总共约28-35天。"
+          }
         }
       ]
     }
   ],
-  "relatedProducts": ["rock-bolts", "structural-bolts", "roofing-screws", "concrete-anchors"],
+  "relatedProducts": [
+    "rock-bolts",
+    "structural-bolts",
+    "roofing-screws",
+    "concrete-anchors"
+  ],
   "cta": {
-    "text": {"en": "Get Zimbabwe Fastener Prices", "zh": "获取津巴布韦紧固件价格"},
-    "buttonText": {"en": "Request Quote for Zimbabwe", "zh": "索取津巴布韦报价"},
+    "text": {
+      "en": "Get Zimbabwe Fastener Prices",
+      "zh": "获取津巴布韦紧固件价格"
+    },
+    "buttonText": {
+      "en": "Request Quote for Zimbabwe",
+      "zh": "索取津巴布韦报价"
+    },
     "link": "/en/product-upload"
   }
 }
