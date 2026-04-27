@@ -3,7 +3,7 @@
   "category": "Regional Supplier",
   "date": "2026-04-26",
   "readTime": 7,
-  "image": "/images/scenarios/warehouse-management.jpg",
+  "image": "/images/products/mining-fasteners-1.jpg",
   "title": {
     "en": "Republic of Congo Fastener Supplier: Oil, Mining & Construction Hardware",
     "zh": "刚果共和国紧固件供应商：石油、采矿和建筑五金"
@@ -43,12 +43,32 @@
         "zh": "刚果关键行业的紧固件"
       },
       "table": {
-        "headers": ["Industry", "Popular Fasteners", "Requirement"],
+        "headers": [
+          "Industry",
+          "Popular Fasteners",
+          "Requirement"
+        ],
         "rows": [
-          ["Oil & Gas", "Pipeline flanges, stud bolts, SS fasteners", "API, ASTM standards"],
-          ["Mining", "High-tensile bolts, rock anchors, liner bolts", "Corrosion resistant"],
-          ["Construction", "Structural bolts, concrete anchors, roofing", "SABS equivalent"],
-          ["Infrastructure", "Bridge hardware, port equipment fasteners", "Heavy duty"]
+          [
+            "Oil & Gas",
+            "Pipeline flanges, stud bolts, SS fasteners",
+            "API, ASTM standards"
+          ],
+          [
+            "Mining",
+            "High-tensile bolts, rock anchors, liner bolts",
+            "Corrosion resistant"
+          ],
+          [
+            "Construction",
+            "Structural bolts, concrete anchors, roofing",
+            "SABS equivalent"
+          ],
+          [
+            "Infrastructure",
+            "Bridge hardware, port equipment fasteners",
+            "Heavy duty"
+          ]
         ]
       }
     },
@@ -60,20 +80,43 @@
       },
       "faqItems": [
         {
-          "q": {"en": "What is the shipping time to Pointe-Noire?", "zh": "到蓬蒂诺瓦的运输时间是多少？"},
-          "a": {"en": "Sea freight from China to Pointe-Noire takes approximately 25-30 days. Road transport to Brazzaville adds 5-7 days.", "zh": "从中国海运到蓬蒂诺瓦大约需要25-30天。公路运输到布拉柴维尔再加5-7天。"}
+          "q": {
+            "en": "What is the shipping time to Pointe-Noire?",
+            "zh": "到蓬蒂诺瓦的运输时间是多少？"
+          },
+          "a": {
+            "en": "Sea freight from China to Pointe-Noire takes approximately 25-30 days. Road transport to Brazzaville adds 5-7 days.",
+            "zh": "从中国海运到蓬蒂诺瓦大约需要25-30天。公路运输到布拉柴维尔再加5-7天。"
+          }
         },
         {
-          "q": {"en": "Do you provide OMC certification?", "zh": "您提供OMC认证吗？"},
-          "a": {"en": "We can provide documentation for OMC (Organisation Nationale du Commerce Extérieur) requirements and assist with customs clearance.", "zh": "我们可以提供OMC（国家对外贸易组织）要求的文件，并协助海关清关。"}
+          "q": {
+            "en": "Do you provide OMC certification?",
+            "zh": "您提供OMC认证吗？"
+          },
+          "a": {
+            "en": "We can provide documentation for OMC (Organisation Nationale du Commerce Extérieur) requirements and assist with customs clearance.",
+            "zh": "我们可以提供OMC（国家对外贸易组织）要求的文件，并协助海关清关。"
+          }
         }
       ]
     }
   ],
-  "relatedProducts": ["stainless-steel-fasteners", "pipeline-fasteners", "high-tensile-bolts", "structural-bolts"],
+  "relatedProducts": [
+    "stainless-steel-fasteners",
+    "pipeline-fasteners",
+    "high-tensile-bolts",
+    "structural-bolts"
+  ],
   "cta": {
-    "text": {"en": "Get Congo Fastener Prices", "zh": "获取刚果紧固件价格"},
-    "buttonText": {"en": "Request Quote for Congo", "zh": "索取刚果报价"},
+    "text": {
+      "en": "Get Congo Fastener Prices",
+      "zh": "获取刚果紧固件价格"
+    },
+    "buttonText": {
+      "en": "Request Quote for Congo",
+      "zh": "索取刚果报价"
+    },
     "link": "/en/product-upload"
   }
 }

@@ -3,7 +3,7 @@
   "category": "Regional Supplier",
   "date": "2026-04-26",
   "readTime": 8,
-  "image": "/images/scenarios/warehouse-management.jpg",
+  "image": "/images/products/mining-fasteners-1.jpg",
   "title": {
     "en": "DRC Fastener Supplier: Mining & Construction Hardware in Kinshasa & Lubumbashi",
     "zh": "刚果民主共和国紧固件供应商：金沙萨和卢本巴希的采矿和建筑五金"
@@ -43,13 +43,37 @@
         "zh": "刚果金采矿和建筑的紧固件"
       },
       "table": {
-        "headers": ["Industry", "Popular Fasteners", "Specification"],
+        "headers": [
+          "Industry",
+          "Popular Fasteners",
+          "Specification"
+        ],
         "rows": [
-          ["Cobalt/Copper Mining", "Rock bolts, liner bolts, high-tensile bolts", "Grade 10.9, corrosion resistant"],
-          ["Processing Plants", "SS fasteners, conveyor hardware, pipe clamps", "SS316, Grade 8.8"],
-          ["Construction", "Structural bolts, concrete anchors, scaffolding", "Grade 8.8, HDG"],
-          ["Power/Energy", "Transmission bolts, substation hardware", "Grade 8.8, HDG"],
-          ["Roads/Bridges", "Heavy structural bolts, guardrail fasteners", "Grade 10.9"]
+          [
+            "Cobalt/Copper Mining",
+            "Rock bolts, liner bolts, high-tensile bolts",
+            "Grade 10.9, corrosion resistant"
+          ],
+          [
+            "Processing Plants",
+            "SS fasteners, conveyor hardware, pipe clamps",
+            "SS316, Grade 8.8"
+          ],
+          [
+            "Construction",
+            "Structural bolts, concrete anchors, scaffolding",
+            "Grade 8.8, HDG"
+          ],
+          [
+            "Power/Energy",
+            "Transmission bolts, substation hardware",
+            "Grade 8.8, HDG"
+          ],
+          [
+            "Roads/Bridges",
+            "Heavy structural bolts, guardrail fasteners",
+            "Grade 10.9"
+          ]
         ]
       }
     },
@@ -61,24 +85,53 @@
       },
       "faqItems": [
         {
-          "q": {"en": "What is the best shipping route to Lubumbashi?", "zh": "到卢本巴希的最佳运输路线是什么？"},
-          "a": {"en": "Dar es Salaam route is fastest and most popular for Lubumbashi (30-35 days total). It offers better road infrastructure compared to other routes.", "zh": "达累斯萨拉姆路线到卢本巴希最快最受欢迎（共30-35天）。与其他路线相比，它提供更好的公路基础设施。"}
+          "q": {
+            "en": "What is the best shipping route to Lubumbashi?",
+            "zh": "到卢本巴希的最佳运输路线是什么？"
+          },
+          "a": {
+            "en": "Dar es Salaam route is fastest and most popular for Lubumbashi (30-35 days total). It offers better road infrastructure compared to other routes.",
+            "zh": "达累斯萨拉姆路线到卢本巴希最快最受欢迎（共30-35天）。与其他路线相比，它提供更好的公路基础设施。"
+          }
         },
         {
-          "q": {"en": "What certifications do you provide?", "zh": "您提供什么认证？"},
-          "a": {"en": "We provide SABS-equivalent certified products with full documentation for DRC customs clearance through OCC (Office Congolais de Contrôle).", "zh": "我们提供相当于SABS认证的产品，并提供通过刚果合规办公室（OCC）进行刚果金海关清关的完整文件。"}
+          "q": {
+            "en": "What certifications do you provide?",
+            "zh": "您提供什么认证？"
+          },
+          "a": {
+            "en": "We provide SABS-equivalent certified products with full documentation for DRC customs clearance through OCC (Office Congolais de Contrôle).",
+            "zh": "我们提供相当于SABS认证的产品，并提供通过刚果合规办公室（OCC）进行刚果金海关清关的完整文件。"
+          }
         },
         {
-          "q": {"en": "Can you deliver to Goma and eastern DRC?", "zh": "您可以送到戈马和刚果金东部吗？"},
-          "a": {"en": "Yes, we deliver to Goma, Bukavu, and eastern DRC via our distribution network, typically through Goma crossing from Rwanda.", "zh": "是的，我们通过分销网络向戈马、布卡武和刚果金东部发货，通常通过从卢旺达进入戈马。"}
+          "q": {
+            "en": "Can you deliver to Goma and eastern DRC?",
+            "zh": "您可以送到戈马和刚果金东部吗？"
+          },
+          "a": {
+            "en": "Yes, we deliver to Goma, Bukavu, and eastern DRC via our distribution network, typically through Goma crossing from Rwanda.",
+            "zh": "是的，我们通过分销网络向戈马、布卡武和刚果金东部发货，通常通过从卢旺达进入戈马。"
+          }
         }
       ]
     }
   ],
-  "relatedProducts": ["rock-bolts", "high-tensile-bolts", "stainless-steel-fasteners", "structural-bolts"],
+  "relatedProducts": [
+    "rock-bolts",
+    "high-tensile-bolts",
+    "stainless-steel-fasteners",
+    "structural-bolts"
+  ],
   "cta": {
-    "text": {"en": "Get DRC Fastener Prices", "zh": "获取刚果金紧固件价格"},
-    "buttonText": {"en": "Request Quote for DRC", "zh": "索取刚果金报价"},
+    "text": {
+      "en": "Get DRC Fastener Prices",
+      "zh": "获取刚果金紧固件价格"
+    },
+    "buttonText": {
+      "en": "Request Quote for DRC",
+      "zh": "索取刚果金报价"
+    },
     "link": "/en/product-upload"
   }
 }

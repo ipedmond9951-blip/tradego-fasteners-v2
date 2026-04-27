@@ -3,7 +3,7 @@
   "category": "Regional Supplier",
   "date": "2026-04-26",
   "readTime": 7,
-  "image": "/images/scenarios/warehouse-management.jpg",
+  "image": "/images/products/mining-fasteners-1.jpg",
   "title": {
     "en": "Botswana Fastener Supplier: Mining & Construction Hardware in Gaborone",
     "zh": "博茨瓦纳紧固件供应商：哈博罗内和弗朗西斯敦的采矿和建筑五金"
@@ -43,13 +43,37 @@
         "zh": "博茨瓦纳行业的紧固件"
       },
       "table": {
-        "headers": ["Industry", "Popular Fasteners", "Key Cities"],
+        "headers": [
+          "Industry",
+          "Popular Fasteners",
+          "Key Cities"
+        ],
         "rows": [
-          ["Diamond Mining", "High-tensile bolts, rock bolts, conveyor hardware", "Orapa, Jwaneng, Lerala"],
-          ["Copper/Nickel Mining", "SS fasteners, process plant hardware", "Selebi-Phikwe"],
-          ["Construction", "Structural bolts, concrete anchors, roofing", "Gaborone, Francistown"],
-          ["Tourism Infrastructure", "Heavy bolts, specialized fasteners", "Maun, Kasane"],
-          ["Utilities", "Power transmission, water infrastructure", "Nationwide"]
+          [
+            "Diamond Mining",
+            "High-tensile bolts, rock bolts, conveyor hardware",
+            "Orapa, Jwaneng, Lerala"
+          ],
+          [
+            "Copper/Nickel Mining",
+            "SS fasteners, process plant hardware",
+            "Selebi-Phikwe"
+          ],
+          [
+            "Construction",
+            "Structural bolts, concrete anchors, roofing",
+            "Gaborone, Francistown"
+          ],
+          [
+            "Tourism Infrastructure",
+            "Heavy bolts, specialized fasteners",
+            "Maun, Kasane"
+          ],
+          [
+            "Utilities",
+            "Power transmission, water infrastructure",
+            "Nationwide"
+          ]
         ]
       }
     },
@@ -93,7 +117,12 @@
       ]
     }
   ],
-  "relatedProducts": ["high-tensile-bolts", "rock-bolts", "stainless-steel-fasteners", "structural-bolts"],
+  "relatedProducts": [
+    "high-tensile-bolts",
+    "rock-bolts",
+    "stainless-steel-fasteners",
+    "structural-bolts"
+  ],
   "cta": {
     "text": {
       "en": "Get Botswana Fastener Prices",

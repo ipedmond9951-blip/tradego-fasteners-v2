@@ -3,7 +3,7 @@
   "category": "Regional Supplier",
   "date": "2026-04-26",
   "readTime": 8,
-  "image": "/images/scenarios/warehouse-management.jpg",
+  "image": "/images/products/self-drilling-screws-1.webp",
   "title": {
     "en": "Nairobi Construction Hardware Supplier: KEBS Approved Fasteners from China",
     "zh": "内罗毕建筑五金供应商：来自中国的KEBS认证紧固件"
@@ -36,13 +36,43 @@
         "zh": "肯尼亚标准局（KEBS）认证是许多建筑紧固件的强制性要求。我们供应以下KEBS认证产品：屋顶紧固件（铁皮屋顶、瓦屋顶和石板屋顶）、钢结构高强度螺栓（8.8级和10.9级）、混凝土锚固件和砖石紧固件、沿海项目不锈钢紧固件（蒙巴萨、马林迪、拉穆），以及通用五金（各种尺寸的螺丝、螺母、垫圈）。"
       },
       "table": {
-        "headers": ["Product Type", "KEBS Standard", "Popular Sizes", "MOQ"],
+        "headers": [
+          "Product Type",
+          "KEBS Standard",
+          "Popular Sizes",
+          "MOQ"
+        ],
         "rows": [
-          ["Roofing Screws", "KS 1801", "No. 10 to 5/16", "10,000 pcs"],
-          ["Structural Bolts", "KS 1755", "M12 to M30", "1,000 pcs"],
-          ["Concrete Anchors", "KS 1803", "M8 to M20", "500 pcs"],
-          ["SS Fasteners", "KS 1805", "M6 to M24", "2,000 pcs"],
-          ["General Hardware", "Various", "M4 to M16", "5,000 pcs"]
+          [
+            "Roofing Screws",
+            "KS 1801",
+            "No. 10 to 5/16",
+            "10,000 pcs"
+          ],
+          [
+            "Structural Bolts",
+            "KS 1755",
+            "M12 to M30",
+            "1,000 pcs"
+          ],
+          [
+            "Concrete Anchors",
+            "KS 1803",
+            "M8 to M20",
+            "500 pcs"
+          ],
+          [
+            "SS Fasteners",
+            "KS 1805",
+            "M6 to M24",
+            "2,000 pcs"
+          ],
+          [
+            "General Hardware",
+            "Various",
+            "M4 to M16",
+            "5,000 pcs"
+          ]
         ]
       }
     },
@@ -97,7 +127,12 @@
       ]
     }
   ],
-  "relatedProducts": ["self-drilling-screws", "roofing-nails", "structural-bolts", "stainless-steel-bolts"],
+  "relatedProducts": [
+    "self-drilling-screws",
+    "roofing-nails",
+    "structural-bolts",
+    "stainless-steel-bolts"
+  ],
   "cta": {
     "text": {
       "en": "Get Kenya Fastener Prices",
