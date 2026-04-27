@@ -38,13 +38,13 @@ export default function BreadcrumbSchema({ locale, pageName, pageUrl }: Breadcru
         '@type': 'ListItem',
         position: 1,
         name: labels.home || 'Home',
-        item: 'https://tradego-fasteners.com',
+        item: 'https://www.tradego-fasteners.com',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: pageName,
-        item: `https://tradego-fasteners.com/${locale}${pageUrl}`,
+        item: `https://www.tradego-fasteners.com/${locale}${pageUrl}`,
       },
     ],
   }

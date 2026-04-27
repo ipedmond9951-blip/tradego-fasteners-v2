@@ -10,11 +10,11 @@ export default function LocalBusinessSchema({ locale = 'en' }: LocalBusinessSche
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    '@id': 'https://tradego-fasteners.com/#business',
+    '@id': 'https://www.tradego-fasteners.com/#business',
     name: 'TradeGo Fasteners',
     image: {
       '@type': 'ImageObject',
-      url: 'https://tradego-fasteners.com/images/logo.png',
+      url: 'https://www.tradego-fasteners.com/images/logo.png',
       width: 200,
       height: 60,
     },
@@ -35,7 +35,7 @@ export default function LocalBusinessSchema({ locale = 'en' }: LocalBusinessSche
     telephone: '+86-159-6340-9951',
     whatsapp: '+8615963409951',
     email: 'sales@tradego-fasteners.com',
-    url: 'https://tradego-fasteners.com',
+    url: 'https://www.tradego-fasteners.com',
     areaServed: [
       { '@type': 'Country', name: 'South Africa' },
       { '@type': 'Country', name: 'Zimbabwe' },

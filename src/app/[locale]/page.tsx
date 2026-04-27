@@ -24,7 +24,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
   const { locale: localeParam } = await params
   const locale = (localeParam as Locale) || 'en'
   const msgs = getMessages(locale)
-  const BASE_URL = 'https://tradego-fasteners.com'
+  const BASE_URL = 'https://www.tradego-fasteners.com'
 
   return (
     <>
@@ -114,8 +114,8 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://tradego-fasteners.com' },
-              { '@type': 'ListItem', position: 2, name: 'Products', item: 'https://tradego-fasteners.com/products' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.tradego-fasteners.com' },
+              { '@type': 'ListItem', position: 2, name: 'Products', item: 'https://www.tradego-fasteners.com/products' },
             ],
           }),
         }}
@@ -129,7 +129,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
         {/* Social Share Buttons */}
         <div className="max-w-3xl mx-auto py-4">
           <ShareButtons 
-            url={`https://tradego-fasteners.com/${locale}`}
+            url={`https://www.tradego-fasteners.com/${locale}`}
             title={locale === 'zh' ? 'TradeGo紧固件 - 专业制造商' : 'TradeGo Fasteners - Professional Manufacturer'}
             description={locale === 'zh' ? 'ISO 9001认证紧固件批发商，专业生产干墙螺丝、自钻螺丝、螺栓螺母等' : 'ISO 9001 certified wholesale fastener manufacturer'}
           />

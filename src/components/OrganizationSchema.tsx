@@ -8,17 +8,17 @@ export default function OrganizationSchema({ locale = 'en' }: OrganizationSchema
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    '@id': 'https://tradego-fasteners.com/#organization',
+    '@id': 'https://www.tradego-fasteners.com/#organization',
     name: 'TradeGo Fasteners',
     alternateName: 'TradeGo',
-    url: 'https://tradego-fasteners.com',
+    url: 'https://www.tradego-fasteners.com',
     logo: {
       '@type': 'ImageObject',
-      url: 'https://tradego-fasteners.com/images/logo.png',
+      url: 'https://www.tradego-fasteners.com/images/logo.png',
       width: 200,
       height: 60,
     },
-    image: 'https://tradego-fasteners.com/images/factory.jpg',
+    image: 'https://www.tradego-fasteners.com/images/factory.jpg',
     description: locale === 'zh' 
       ? 'TradeGo是专业的SABS和ISO 9001认证紧固件分销商，专注服务非洲建筑市场12+年。产品包括干墙螺丝、自钻螺丝、螺栓螺母、IBR钉等。工厂价，海运至德班、拉各斯、蒙巴萨等20余个非洲国家。'
       : 'TradeGo is a SABS & ISO 9001 certified fastener distributor specializing in serving African construction markets for 12+ years. Products include drywall screws, self-drilling screws, hex bolts, nuts, IBR nails. Factory-direct pricing with sea freight to Durban, Lagos, Mombasa and 20+ African countries.',
