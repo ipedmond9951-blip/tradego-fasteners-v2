@@ -7,7 +7,7 @@ interface WebSiteSchemaProps {
 }
 
 export default function WebSiteSchema({ locale }: WebSiteSchemaProps) {
-  const siteUrl = 'https://tradego-fasteners.com'
+  const siteUrl = 'https://www.tradego-fasteners.com'
   
   const schema = {
     '@context': 'https://schema.org',

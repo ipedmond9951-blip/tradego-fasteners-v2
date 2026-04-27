@@ -7,7 +7,7 @@ import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: localeParam } = await params
   const locale = (localeParam as Locale) || 'en'
-  const siteUrl = 'https://tradego-fasteners.com'
+  const siteUrl = 'https://www.tradego-fasteners.com'
   
   const titles: Record<string, string> = {
     en: 'Fastener Industry Guide | Technical Articles & Market Insights',

@@ -31,7 +31,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
   const loc = (locale as Locale) || 'en'
-  const siteUrl = 'https://tradego-fasteners.com'
+  const siteUrl = 'https://www.tradego-fasteners.com'
   
   const titles: Record<string, string> = {
     zh: 'TradeGo紧固件 - 中国对非出口厂家 | ISO 9001, SABS认证',
@@ -66,8 +66,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       images: [`${siteUrl}/images/og-image.webp`],
     },
     alternates: {
-      canonical: `/${loc}`,
-      languages: Object.fromEntries(locales.map(l => [l, `/${l}`])),
+      canonical: `${siteUrl}/${loc}`,
+      languages: Object.fromEntries(locales.map(l => [l, `${siteUrl}/${l}`])),
     },
   }
 }
@@ -126,17 +126,17 @@ export default async function LocaleLayout({
         <NavigationSchema locale={loc} />
         <WebSiteSchema locale={loc} />
         <ImageObjectSchema locale={loc} />
-        <link rel="alternate" hrefLang="en" href="/en" />
-        <link rel="alternate" hrefLang="zh" href="/zh" />
-        <link rel="alternate" hrefLang="es" href="/es" />
-        <link rel="alternate" hrefLang="ar" href="/ar" />
-        <link rel="alternate" hrefLang="fr" href="/fr" />
-        <link rel="alternate" hrefLang="pt" href="/pt" />
-        <link rel="alternate" hrefLang="ru" href="/ru" />
-        <link rel="alternate" hrefLang="ja" href="/ja" />
-        <link rel="alternate" hrefLang="de" href="/de" />
-        <link rel="alternate" hrefLang="hi" href="/hi" />
-        <link rel="alternate" hrefLang="x-default" href="/en" />
+        <link rel="alternate" hrefLang="en" href="https://www.tradego-fasteners.com/en" />
+        <link rel="alternate" hrefLang="zh" href="https://www.tradego-fasteners.com/zh" />
+        <link rel="alternate" hrefLang="es" href="https://www.tradego-fasteners.com/es" />
+        <link rel="alternate" hrefLang="ar" href="https://www.tradego-fasteners.com/ar" />
+        <link rel="alternate" hrefLang="fr" href="https://www.tradego-fasteners.com/fr" />
+        <link rel="alternate" hrefLang="pt" href="https://www.tradego-fasteners.com/pt" />
+        <link rel="alternate" hrefLang="ru" href="https://www.tradego-fasteners.com/ru" />
+        <link rel="alternate" hrefLang="ja" href="https://www.tradego-fasteners.com/ja" />
+        <link rel="alternate" hrefLang="de" href="https://www.tradego-fasteners.com/de" />
+        <link rel="alternate" hrefLang="hi" href="https://www.tradego-fasteners.com/hi" />
+        <link rel="alternate" hrefLang="x-default" href="https://www.tradego-fasteners.com/en" />
       </head>
       <body className="antialiased">
         <GeoProvider>
