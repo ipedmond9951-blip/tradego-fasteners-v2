@@ -3,7 +3,7 @@
   "category": "Procurement Guide",
   "date": "2026-04-24",
   "readTime": 15,
-  "image": "/images/products/fastener-glossary.jpg",
+  "image": "/images/articles/mining-conveyor-1.jpg",
   "title": {
     "en": "Fastener Supplier Verification Checklist for Africa Importers",
     "zh": "非洲进口商紧固件供应商验证清单",
@@ -57,13 +57,45 @@
         "en": "Request a comprehensive factory tour - in-person or via video call. Key items to verify:\n\nManufacturing Equipment: Modern cold-forging machines, thread-rolling equipment, heat treatment furnaces, coating lines\n\nProduction Capacity: Monthly output capacity, number of production lines, shift schedules\n\nQuality Control: In-house testing laboratory, coordinate measuring machines, hardness testers, coating thickness gauges\n\nCertifications: Valid ISO 9001:2015 certificate (request certificate number and verify online), product-specific certifications\n\nWorkforce: Number of employees, QC staff ratio, worker experience levels\n\nTradeGo Fasteners maintains ISO 9001:2015 certification verified by SGS. We offer live video factory tours for qualified buyers."
       },
       "table": {
-        "headers": ["Verification Item", "Acceptable Evidence", "Red Flag"],
+        "headers": [
+          "Verification Item",
+          "Acceptable Evidence",
+          "Red Flag"
+        ],
         "rows": [
-          ["Factory ownership", "Business license, property documents", "Refuses to share address"],
-          ["ISO 9001 certification", "Valid certificate number", ["No certificate or expired"]],
-          ["Export experience", "Shipping documents, client references", ["No export history"]],
-          ["Production capacity", "Factory photos, video tour", ["Vague or inconsistent answers"]],
-          ["Quality control", "Testing equipment photos", ["No in-house QC"]]
+          [
+            "Factory ownership",
+            "Business license, property documents",
+            "Refuses to share address"
+          ],
+          [
+            "ISO 9001 certification",
+            "Valid certificate number",
+            [
+              "No certificate or expired"
+            ]
+          ],
+          [
+            "Export experience",
+            "Shipping documents, client references",
+            [
+              "No export history"
+            ]
+          ],
+          [
+            "Production capacity",
+            "Factory photos, video tour",
+            [
+              "Vague or inconsistent answers"
+            ]
+          ],
+          [
+            "Quality control",
+            "Testing equipment photos",
+            [
+              "No in-house QC"
+            ]
+          ]
         ]
       }
     },
@@ -107,5 +139,10 @@
     "de": "Werksbesichtigung Anfordern",
     "hi": "फैक्ट्री टूर का अनुरोध करें"
   },
-  "relatedProducts": ["bolts-nuts", "drywall-screws", "self-drilling-screws", "anchor-bolts"]
+  "relatedProducts": [
+    "bolts-nuts",
+    "drywall-screws",
+    "self-drilling-screws",
+    "anchor-bolts"
+  ]
 }

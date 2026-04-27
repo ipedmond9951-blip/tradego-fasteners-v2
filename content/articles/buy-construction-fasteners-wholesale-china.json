@@ -3,7 +3,7 @@
   "category": "Procurement Guide",
   "date": "2026-04-24",
   "readTime": 11,
-  "image": "/images/products/construction-fasteners-1.jpg",
+  "image": "/images/articles/africa-logistics-1.jpg",
   "title": {
     "en": "Buy Construction Fasteners Wholesale from China: Complete Guide 2026",
     "zh": "2026年从中国批发购买建筑紧固件：完整指南",
@@ -48,13 +48,43 @@
         "en": "China manufacturers offer comprehensive construction fastener ranges:\n\nStructural Fasteners:\n- Hex bolts DIN 933/ISO 4017 (M12-M36)\n- High strength friction grip bolts\n- Anchor bolts (J-bolt, L-bolt, straight rod)\n- Tension control bolts\n\nGeneral Construction:\n- Hex nuts DIN 934/ISO 4032\n- Flat washers DIN 125/ISO 7089\n- Spring lock washers DIN 127\n- Threaded rods\n\nSpecialty Fasteners:\n- Welded washers\n- Shear connector studs\n- Concrete anchors (wedge, sleeve, drop-in)\n- Post-installed anchors"
       },
       "table": {
-        "headers": ["Product Category", "Standard Sizes", "Typical MOQ", "FOB Price Range"],
+        "headers": [
+          "Product Category",
+          "Standard Sizes",
+          "Typical MOQ",
+          "FOB Price Range"
+        ],
         "rows": [
-          ["Hex bolts M12-M24", "M12 to M36", "1 MT", "$900-1,400/MT"],
-          ["Hex nuts M12-M24", "M12 to M36", "1 MT", "$800-1,200/MT"],
-          ["Washers", "M12 to M36", "0.5 MT", "$700-1,000/MT"],
-          ["Anchor bolts", "M16 to M30", "0.5 MT", "$1,200-1,800/MT"],
-          ["Threaded rod", "M12 to M30", "0.5 MT", "$1,000-1,500/MT"]
+          [
+            "Hex bolts M12-M24",
+            "M12 to M36",
+            "1 MT",
+            "$900-1,400/MT"
+          ],
+          [
+            "Hex nuts M12-M24",
+            "M12 to M36",
+            "1 MT",
+            "$800-1,200/MT"
+          ],
+          [
+            "Washers",
+            "M12 to M36",
+            "0.5 MT",
+            "$700-1,000/MT"
+          ],
+          [
+            "Anchor bolts",
+            "M16 to M30",
+            "0.5 MT",
+            "$1,200-1,800/MT"
+          ],
+          [
+            "Threaded rod",
+            "M12 to M30",
+            "0.5 MT",
+            "$1,000-1,500/MT"
+          ]
         ]
       }
     },
@@ -98,5 +128,10 @@
     "de": "Großhandelsangebot Erhalten",
     "hi": "थोक उद्धरण प्राप्त करें"
   },
-  "relatedProducts": ["bolts-nuts", "anchor-bolts", "washers", "high-tensile-bolts"]
+  "relatedProducts": [
+    "bolts-nuts",
+    "anchor-bolts",
+    "washers",
+    "high-tensile-bolts"
+  ]
 }
