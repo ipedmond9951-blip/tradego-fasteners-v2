@@ -27,7 +27,7 @@ const productText: Record<string, Record<string, string>> = {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: localeParam } = await params
   const locale = (localeParam as Locale) || 'en'
-  const siteUrl = 'https://tradego-fasteners.com'
+  const siteUrl = 'https://www.tradego-fasteners.com'
   
   const titles: Record<string, string> = {
     en: 'Africa Fastener Distributor - Drywall Screws, Hex Bolts, IBR Nails from China | SABS, ISO 9001 Certified',

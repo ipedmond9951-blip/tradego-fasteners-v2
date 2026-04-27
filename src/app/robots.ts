@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/_next/'],
       },
     ],
-    sitemap: 'https://tradego-fasteners.com/sitemap.xml',
+    sitemap: 'https://www.tradego-fasteners.com/sitemap.xml',
   };
 }

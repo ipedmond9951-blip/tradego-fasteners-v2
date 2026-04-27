@@ -2,7 +2,7 @@ import { locales } from '@/i18n'
 import { getAllSlugs } from '@/lib/articles'
 
 export default function sitemap() {
-  const baseUrl = 'https://tradego-fasteners.com'
+  const baseUrl = 'https://www.tradego-fasteners.com'
   
   const staticPages = ['', '/products', '/industry', '/product-upload', '/analytics', '/steel-prices']
   

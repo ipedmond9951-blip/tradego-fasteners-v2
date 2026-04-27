@@ -47,7 +47,7 @@ const articleImages = [
 ]
 
 export default function ImageObjectSchema({ locale }: ImageObjectSchemaProps) {
-  const siteUrl = 'https://tradego-fasteners.com'
+  const siteUrl = 'https://www.tradego-fasteners.com'
   const currentDate = new Date().toISOString().split('T')[0]
   
   const schema = {
