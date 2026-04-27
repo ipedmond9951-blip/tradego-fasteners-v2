@@ -20,29 +20,29 @@ export default function ArticleSchema({
   author = 'TradeGo Fasteners',
   datePublished,
   dateModified,
-  image = 'https://tradego-fasteners.com/images/blog/article-default.jpg',
+  image = 'https://www.tradego-fasteners.com/images/blog/article-default.jpg',
   url,
 }: ArticleSchemaProps) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    '@id': url ? `https://tradego-fasteners.com${url}` : undefined,
+    '@id': url ? `https://www.tradego-fasteners.com${url}` : undefined,
     headline: title,
     description: description,
     image: image,
     author: {
       '@type': 'Organization',
-      '@id': 'https://tradego-fasteners.com/#organization',
+      '@id': 'https://www.tradego-fasteners.com/#organization',
       name: author,
     },
     publisher: {
-      '@id': 'https://tradego-fasteners.com/#organization',
+      '@id': 'https://www.tradego-fasteners.com/#organization',
     },
     datePublished: datePublished,
     dateModified: dateModified || datePublished,
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': url ? `https://tradego-fasteners.com${url}` : undefined,
+      '@id': url ? `https://www.tradego-fasteners.com${url}` : undefined,
     },
     articleSection: locale === 'zh' ? '紧固件知识' : 'Fastener Knowledge',
     keywords: locale === 'zh'
@@ -52,7 +52,7 @@ export default function ArticleSchema({
     inLanguage: locale === 'zh' ? 'zh-CN' : locale === 'es' ? 'es' : 'en',
     isPartOf: {
       '@type': 'WebSite',
-      '@id': 'https://tradego-fasteners.com/#website',
+      '@id': 'https://www.tradego-fasteners.com/#website',
     },
   }
 

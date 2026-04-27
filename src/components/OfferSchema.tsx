@@ -26,17 +26,17 @@ export default function OfferSchema({
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Offer',
-    '@id': url ? `https://tradego-fasteners.com${url}#offer` : undefined,
+    '@id': url ? `https://www.tradego-fasteners.com${url}#offer` : undefined,
     sku: sku,
     name: name,
     description: description,
     price: price.toFixed(2),
     priceCurrency: currency,
     availability: `https://schema.org/${availability}`,
-    url: url ? `https://tradego-fasteners.com${url}` : undefined,
+    url: url ? `https://www.tradego-fasteners.com${url}` : undefined,
     seller: {
       '@type': 'Organization',
-      '@id': 'https://tradego-fasteners.com/#organization',
+      '@id': 'https://www.tradego-fasteners.com/#organization',
       name: 'TradeGo Fasteners',
     },
     shippingDetails: {

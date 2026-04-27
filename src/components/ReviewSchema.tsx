@@ -9,7 +9,7 @@ export default function ReviewSchema({ locale = 'en' }: ReviewSchemaProps) {
   const aggregateRating = {
     '@context': 'https://schema.org',
     '@type': 'AggregateRating',
-    '@id': 'https://tradego-fasteners.com/#rating',
+    '@id': 'https://www.tradego-fasteners.com/#rating',
     ratingValue: '4.8',
     reviewCount: '156',
     bestRating: '5',

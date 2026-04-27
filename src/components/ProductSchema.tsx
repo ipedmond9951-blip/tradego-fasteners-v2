@@ -64,7 +64,7 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
       position: index + 1,
       name: names[product.slug] || product.nameKey,
       description: descriptions[product.slug] || '',
-      image: `https://tradego-fasteners.com${product.image}`,
+      image: `https://www.tradego-fasteners.com${product.image}`,
       brand: {
         '@type': 'Brand',
         name: 'TradeGo',
@@ -100,7 +100,7 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
       },
       manufacturer: {
         '@type': 'Organization',
-        '@id': 'https://tradego-fasteners.com/#organization',
+        '@id': 'https://www.tradego-fasteners.com/#organization',
         name: 'TradeGo Fasteners',
       },
       certifications: [

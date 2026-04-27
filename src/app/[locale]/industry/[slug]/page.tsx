@@ -6,7 +6,7 @@ import { type Locale, t } from '@/i18n'
 import type { ArticleSection } from '@/lib/articles'
 import ShareButtons from '@/components/ShareButtons'
 
-const SITE_URL = 'https://tradego-fasteners.com'
+const SITE_URL = 'https://www.tradego-fasteners.com'
 
 export async function generateStaticParams() {
   return getAllSlugs().map(slug => ({ slug }))

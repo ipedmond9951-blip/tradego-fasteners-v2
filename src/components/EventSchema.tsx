@@ -24,7 +24,7 @@ export default function EventSchema({
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Event',
-    '@id': url ? `https://tradego-fasteners.com${url}` : undefined,
+    '@id': url ? `https://www.tradego-fasteners.com${url}` : undefined,
     name: name,
     description: description,
     startDate: startDate,
@@ -41,12 +41,12 @@ export default function EventSchema({
     },
     organizer: {
       '@type': 'Organization',
-      '@id': 'https://tradego-fasteners.com/#organization',
+      '@id': 'https://www.tradego-fasteners.com/#organization',
       name: 'TradeGo Fasteners',
     },
     sponsor: {
       '@type': 'Organization',
-      '@id': 'https://tradego-fasteners.com/#organization',
+      '@id': 'https://www.tradego-fasteners.com/#organization',
       name: 'TradeGo Fasteners',
     },
     about: {
@@ -59,7 +59,7 @@ export default function EventSchema({
     inLanguage: locale === 'zh' ? 'zh-CN' : locale === 'es' ? 'es' : 'en',
     isPartOf: {
       '@type': 'WebSite',
-      '@id': 'https://tradego-fasteners.com/#website',
+      '@id': 'https://www.tradego-fasteners.com/#website',
     },
   }
 
