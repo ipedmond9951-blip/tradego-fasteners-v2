@@ -567,7 +567,27 @@ log "📚 总文章数: $ARTICLE_TOTAL"
 log "🌍 津巴布韦边境市场文章: $ZIMBABWE_BORDER_ARTICLES"
 
 # ==========================================
-# 第十部分: Git提交推送
+# 第十部分: SEO图片优化
+# ==========================================
+log ""
+log "========== 🖼️ SEO图片优化 =========="
+if [ -f "$PROJECT_DIR/scripts/seo-image-optimize.sh" ]; then
+    log "📸 运行图片优化脚本..."
+    bash "$PROJECT_DIR/scripts/seo-image-optimize.sh" >> "$LOG_FILE" 2>&1
+    IMAGE_OPT_EXIT=$?
+    if [ $IMAGE_OPT_EXIT -eq 0 ]; then
+        log "   ✅ 图片优化完成"
+    elif [ $IMAGE_OPT_EXIT -eq 1 ]; then
+        log "   ⚠️ 图片优化部分失败，查看日志了解详情"
+    else
+        log "   ℹ️ 没有需要优化的图片"
+    fi
+else
+    log "   ℹ️ seo-image-optimize.sh不存在，跳过图片优化"
+fi
+
+# ==========================================
+# 第十一部分: Git提交推送
 # ==========================================
 log ""
 log "========== Git同步 =========="
@@ -584,14 +604,14 @@ else
 fi
 
 # ==========================================
-# 第十一部分: 待优化建议
+# 第十二部分: 待优化建议
 # ==========================================
 log ""
 log "========== 待优化建议 =========="
 log "📋 技术SEO: Core Web Vitals需使用专业工具检测"
 log "📋 离页SEO: 需主动建设外链资源"
 log "📋 社媒: 建议添加LinkedIn/Facebook分享功能"
-log "📋 内容: 持续生成高质量GEO文章"
+log "📋 内容: 持续生成高质量GEO文章 + 🖼️ 使用MiniMax优化文章配图"
 log "📋 排名追踪: 请手动更新 $RANKING_FILE 中的关键词排名"
 
 # 清理旧日志（保留30天）
