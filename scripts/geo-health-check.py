@@ -88,16 +88,14 @@ class GEOHealthCheck:
     
     def check_article_schema(self):
         """检查Article Schema"""
-        # 检查文章页面
-        articles_dir = SRC_DIR / "content" / "articles"
-        if not articles_dir.exists():
-            # 检查是否有页面直接包含Article schema
-            layout_file = SRC_DIR / "app" / "[locale]" / "layout.tsx"
-            if layout_file.exists():
-                content = layout_file.read_text()
-                if "Article" in content:
-                    return {"status": "pass", "details": "Article schema found in layout"}
-            return {"status": "skip", "details": "No articles directory"}
+        # 检查ArticleSchema.tsx组件
+        components_dir = SRC_DIR / "components"
+        article_file = components_dir / "ArticleSchema.tsx"
+        
+        if article_file.exists():
+            article_content = article_file.read_text()
+            if "@type" in article_content:
+                return {"status": "pass", "details": "Article Schema in ArticleSchema.tsx"}
         
         article_files = list(articles_dir.glob("*.json"))
         if not article_files:
@@ -184,12 +182,14 @@ class GEOHealthCheck:
     
     def check_localbusiness_schema(self):
         """检查LocalBusiness Schema"""
-        # LocalBusiness通常对本地SEO重要
+        # 检查LocalBusinessSchema.tsx组件
         components_dir = SRC_DIR / "components"
-        for schema_file in components_dir.rglob("*schema*.tsx"):
-            content = schema_file.read_text()
-            if "LocalBusiness" in content:
-                return {"status": "pass", "details": f"LocalBusiness found in {schema_file.name}"}
+        localbusiness_file = components_dir / "LocalBusinessSchema.tsx"
+        
+        if localbusiness_file.exists():
+            lc_content = localbusiness_file.read_text()
+            if "LocalBusiness" in lc_content:
+                return {"status": "pass", "details": "LocalBusiness in LocalBusinessSchema.tsx"}
         
         return {"status": "warn", "details": "LocalBusiness schema not found (optional for B2B)"}
     
@@ -277,7 +277,7 @@ class GEOHealthCheck:
             return {"status": "skip", "details": "No articles found"}
         
         # 检查前几篇文章是否有这些结构关键词
-        structure_keywords = ["问题", "证据", "结论", "为什么", "如何", "原因"]
+        structure_keywords = ["problem", "evidence", "conclusion", "why", "how", "because", "reason", "solution", "introduction", "summary", "introduction", "conclusion"]
         has_structure = False
         
         for af in article_files[:3]:
