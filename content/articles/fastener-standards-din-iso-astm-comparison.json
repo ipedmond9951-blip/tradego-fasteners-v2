@@ -48,12 +48,37 @@
         "en": "Head markings indicate fastener grade and manufacturer:\n\nMetric Hex Bolts (ISO/DIN):\n- 8.8: Two radial lines below grade marking\n- 10.9: Three radial lines\n- 12.9: Three radial lines with higher contrast\n\nInch Hex Bolts (ASTM/ANSI):\n- Grade 5: Three radial lines\n- Grade 8: Six radial lines\n- Grade ASTM A325: 'A325' marking\n\nUnderstanding markings helps verify fastener grade at delivery."
       },
       "table": {
-        "headers": ["Metric Grade", "Tensile Strength (MPa)", "Equivalent ASTM Grade", "Head Marking"],
+        "headers": [
+          "Metric Grade",
+          "Tensile Strength (MPa)",
+          "Equivalent ASTM Grade",
+          "Head Marking"
+        ],
         "rows": [
-          ["4.8", "400", "Grade 2", "None or 4.8"],
-          ["8.8", "800", "Grade 5", "8.8"],
-          ["10.9", "1000", "Grade 8", "10.9"],
-          ["12.9", "1200", "Grade B", "12.9"]
+          [
+            "4.8",
+            "400",
+            "Grade 2",
+            "None or 4.8"
+          ],
+          [
+            "8.8",
+            "800",
+            "Grade 5",
+            "8.8"
+          ],
+          [
+            "10.9",
+            "1000",
+            "Grade 8",
+            "10.9"
+          ],
+          [
+            "12.9",
+            "1200",
+            "Grade B",
+            "12.9"
+          ]
         ]
       }
     },
@@ -88,5 +113,10 @@
     "de": "Kundenspezifische Befestigungen Anfordern",
     "hi": "कस्टम फास्टनर का अनुरोध करें"
   },
-  "relatedProducts": ["bolts-nuts", "washers", "high-tensile-bolts"]
+  "relatedProducts": [
+    "bolts-nuts",
+    "washers",
+    "high-tensile-bolts"
+  ],
+  "imageAlt": "Fastener Standards Comparison DIN vs - fastener solutions"
 }

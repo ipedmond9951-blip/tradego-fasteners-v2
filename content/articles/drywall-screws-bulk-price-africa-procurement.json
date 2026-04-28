@@ -48,12 +48,42 @@
         "en": "Understanding the different types of drywall screws helps buyers order correctly:\n\n1. Fine Thread Drywall Screws (W drywall): For attaching drywall to metal studs (25-33 gauge). Sharp point, fine thread, black phosphate finish.\n\n2. Coarse Thread Drywall Screws (S drywall): For attaching drywall to wood studs. Bugle head, coarse thread, sharp point, black phosphate.\n\n3. Self-Drilling TEK Screws: For attaching drywall to steel studs thicker than 25 gauge. Feature drill point, no pre-drilling needed.\n\n4. Laminator Screws: For attaching drywall to other drywall layers or to furring channels.\n\nStandard sizes: #6 x 1-5/8\" (most common), #8 x 2-1/2\", #6 x 1\" (for cement board)"
       },
       "table": {
-        "headers": ["Type", "Thread", "Point", "Application", "Standard Size"],
+        "headers": [
+          "Type",
+          "Thread",
+          "Point",
+          "Application",
+          "Standard Size"
+        ],
         "rows": [
-          ["Fine Thread (W)", "24 tpi", "Sharp", "Metal studs", "#6 x 1-5/8\""],
-          ["Coarse Thread (S)", "18 tpi", "Sharp", "Wood studs", "#6 x 1-5/8\""],
-          ["Self-Drilling", "18-20 tpi", "Drill point", "Steel >25ga", "#6 x 1-5/8\""],
-          ["Laminator", "Coarse", "Sharp", "Multi-layer", "#6 x 2-1/2\""]
+          [
+            "Fine Thread (W)",
+            "24 tpi",
+            "Sharp",
+            "Metal studs",
+            "#6 x 1-5/8\""
+          ],
+          [
+            "Coarse Thread (S)",
+            "18 tpi",
+            "Sharp",
+            "Wood studs",
+            "#6 x 1-5/8\""
+          ],
+          [
+            "Self-Drilling",
+            "18-20 tpi",
+            "Drill point",
+            "Steel >25ga",
+            "#6 x 1-5/8\""
+          ],
+          [
+            "Laminator",
+            "Coarse",
+            "Sharp",
+            "Multi-layer",
+            "#6 x 2-1/2\""
+          ]
         ]
       }
     },
@@ -97,5 +127,10 @@
     "de": "Großhandelspreise Anfordern",
     "hi": "थोक मूल्य का अनुरोध करें"
   },
-  "relatedProducts": ["drywall-screws", "self-drilling-screws", "self-tapping-screws"]
+  "relatedProducts": [
+    "drywall-screws",
+    "self-drilling-screws",
+    "self-tapping-screws"
+  ],
+  "imageAlt": "Drywall screws for construction and building applications"
 }
