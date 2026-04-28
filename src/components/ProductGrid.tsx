@@ -12,7 +12,7 @@ const products = [
   { slug: 'self-drilling-screws', image: '/images/products/self-drilling-screws-1.webp', pricePerPiece: 0.03, nameKey: 'selfdrilling',
     specs: { size: '4.2-6.3mm × 19-150mm', standard: 'DIN 7504 / ANSI' } },
   { slug: 'bolts-nuts', image: '/images/products/bolts-nuts-2.webp', pricePerPiece: 0.05, nameKey: 'bolts',
-    specs: { size: 'M5-M30 × 20-300mm', standard: 'DIN 933/934 / ISO 4014' } },
+    specs: { size: 'M5-M30 × 20-300mm', standard: 'DIN 933/934 / ISO 4014', grades: '4.8 / 8.8 / 10.9', materials: 'Carbon Steel / SS304 / SS316' } },
   { slug: 'ibr-nails', image: '/images/products/ibr-nails-placeholder.webp', pricePerPiece: 0.01, nameKey: 'ibr',
     specs: { size: '2.5-4.0mm × 30-100mm', standard: 'SABS 1195' } },
   { slug: 'anchor-bolts', image: '/images/products/anchor-bolts.webp', pricePerPiece: 0.12, nameKey: 'anchor',
@@ -29,7 +29,7 @@ const productText: Record<string, Record<string, { name: string; desc: string }>
   en: {
     drywall: { name: 'Drywall Screws', desc: 'Premium bugle head screws for drywall installation. Coarse thread for wood studs, fine thread for metal studs. Available in 3.5-4.8mm × 25-100mm, zinc plated or black phosphate finish.' },
     selfdrilling: { name: 'Self-Drilling Screws', desc: 'High-performance TEK screws for metal-to-metal fastening. Built-in drill point eliminates pre-drilling. EPDM washer options for waterproof roofing applications. DIN 7504 compliant.' },
-    bolts: { name: 'Bolts & Nuts', desc: 'Industrial grade hex bolts and nuts in Grade 4.8, 8.8, 10.9. Full thread and partial thread options. Zinc, hot-dip galvanized, and stainless steel finishes. DIN 933/934, ISO 4014/4017 compliant.' },
+    bolts: { name: 'Hex Bolts & Nuts', desc: 'Industrial hex bolts and nuts for construction and mining across Africa. Grade 8.8 and 10.9 high-tensile options. DIN 933 full thread and DIN 931 partial thread. Hot-dip galvanized for outdoor Zimbabwe and South Africa projects. Stainless steel 304/316 for mining applications. Custom sizes M6-M30, 20-300mm lengths. Bulk orders welcome with factory direct pricing.' },
     ibr: { name: 'IBR Nails', desc: 'Umbrella head roofing nails for IBR/corrugated roofing. SABS 1195 compliant for African markets. Smooth or ring shank options. Hot-dip galvanized for corrosion resistance.' },
     anchor: { name: 'Anchor Bolts', desc: 'Heavy-duty anchor bolts for foundation and structural connections. ASTM F1554 Grade 36 or 55 options. Hot-dip galvanized for outdoor and concrete applications. Available M10-M30, lengths 75-600mm.' },
     washers: { name: 'Washers', desc: 'Flat washers and spring washers for load distribution and vibration resistance. Available in zinc plated, hot-dip galvanized, and stainless steel A2/A4. DIN 125, DIN 127 compliant. M6-M36 sizes.' },

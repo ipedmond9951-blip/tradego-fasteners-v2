@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-04-24",
   "readTime": 8,
-  "image": "/images/products/high-tensile-bolts.jpg",
+  "image": "/images/articles/bolt-types-applications-guide.jpg",
   "title": {
     "en": "Bolt Types and Applications Guide: Complete Technical Reference",
     "zh": "螺栓类型和应用指南：完整技术参考",
@@ -79,5 +79,32 @@
     "de": "Schrauben Angebot Erhalten",
     "hi": "बोल्ट कोटेशन का अनुरोध करें"
   },
-  "relatedProducts": ["bolts-nuts", "washers", "anchor-bolts"]
+  "relatedProducts": [
+    "bolts-nuts",
+    "washers",
+    "anchor-bolts"
+  ],
+  "metaDescription": "Learn about hex bolts, carriage bolts, eye bolts, U-bolts and more. Complete technical guide for industrial and construction applications in Africa.",
+  "faqItems": [
+    {
+      "question": "What are the main types of bolts used in construction?",
+      "answer": "The main bolt types used in construction are: Hex bolts (most common, DIN 933/ISO 4017) for general applications; Carriage bolts (DIN 603) for wood and timber; Eye bolts (DIN 580) for lifting; U-bolts for pipe and tube clamping; Anchor bolts for concrete foundations. Each type has specific applications and load ratings."
+    },
+    {
+      "question": "How do I choose the right bolt type for my application?",
+      "answer": "Choose bolt type based on: 1) Material being fastened (wood requires carriage bolts, metal uses hex bolts); 2) Load requirements (structural uses Grade 8.8/10.9); 3) Environment (outdoor/African humidity requires HDG or stainless steel); 4) Access for installation (hex bolts need wrenches, eye bolts need loops for lifting)."
+    },
+    {
+      "question": "What is the difference between hex bolts and carriage bolts?",
+      "answer": "Hex bolts have a six-sided head for wrench engagement and can be used on both sides of a joint. Carriage bolts have a round head with a square neck that prevents rotation during installation - ideal for wood and timber where you want a smooth appearance on one side."
+    },
+    {
+      "question": "What bolt grades are recommended for structural applications in Africa?",
+      "answer": "For structural applications in Africa's demanding environments: Grade 8.8 (800 MPa tensile) for general structures; Grade 10.9 (1000 MPa tensile) for high-load structural connections; Hot-dip galvanized (HDG) or stainless steel 316 for corrosion resistance against African humidity and coastal conditions."
+    },
+    {
+      "question": "How do I prevent bolt corrosion in African climates?",
+      "answer": "Prevent corrosion in African climates by: 1) Using hot-dip galvanized (HDG) bolts for outdoor construction - 45-85μm zinc coating; 2) Using stainless steel 316 for mining and coastal areas with high humidity; 3) Using the correct material for the environment - avoid carbon steel without coating; 4) Regular inspection and maintenance schedule."
+    }
+  ]
 }

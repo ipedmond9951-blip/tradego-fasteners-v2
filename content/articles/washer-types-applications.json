@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-04-22",
   "readTime": 6,
-  "image": "/images/products/washers.jpg",
+  "image": "/images/articles/washer-types-applications.jpg",
   "title": {
     "en": "Washers Types & Applications: Complete Guide for Construc...",
     "zh": "垫圈类型与应用：非洲建筑专业人员完整指南",
@@ -152,5 +152,28 @@
     },
     "link": "/#inquiry"
   },
-  "relatedProducts": []
+  "relatedProducts": [],
+  "metaDescription": "Complete guide to washer types: flat washers, spring washers, lock washers, flange washers. Selection guide for construction and industrial applications.",
+  "faqItems": [
+    {
+      "question": "What are the different types of washers and their uses?",
+      "answer": "Main washer types: Flat washers (DIN 125/ISO 7089) - distribute load over larger area; Spring washers (DIN 127) - maintain bolt preload under vibration; Lock washers (external/internal DIN 7927/7935) - prevent loosening; Flange washers (DIN 6926) - combine load distribution with locking. Each serves specific load distribution or anti-loosening purposes."
+    },
+    {
+      "question": "How do spring washers prevent bolt loosening?",
+      "answer": "Spring washers (split lock washers) work by: 1) The split creates spring tension that maintains preload; 2) When vibration tries to loosen the nut, the spring absorbs the movement; 3) The angled edges grip the nut and mounting surface. For African mining and heavy machinery applications, always use spring washers or consider nylon insert lock nuts (Nyloc) for critical connections."
+    },
+    {
+      "question": "When should flat washers vs flange washers be used?",
+      "answer": "Use flat washers when: Standard load distribution is needed; Soft materials (wood, aluminum) that compress easily; Surface is flat and even. Use flange washers when: Bearing capacity of the material is low; Bolt head or nut bears on soft material; Extra grip and load distribution needed; High-vibration environments where standard washers might shift."
+    },
+    {
+      "question": "What washer materials are best for outdoor African environments?",
+      "answer": "For outdoor African conditions: Hot-dip galvanized (HDG) steel washers for general outdoor construction - matches HDG bolts; Stainless steel 304 washers for mining areas and humid coastal regions; Stainless steel 316 for marine and chemical environments with high chloride exposure; Always match washer material to bolt material to prevent galvanic corrosion."
+    },
+    {
+      "question": "How do I select the right washer size for my bolt?",
+      "answer": "Washer selection rules: Inner diameter should match bolt nominal size (M10 washer fits M10 bolt); Outer diameter should be 2-3x bolt diameter for load distribution; Thickness should provide adequate stiffness without being too thick. For structural applications, use standard dimensional washers per DIN 125 (flat) or DIN 127 (spring) specifications."
+    }
+  ]
 }
