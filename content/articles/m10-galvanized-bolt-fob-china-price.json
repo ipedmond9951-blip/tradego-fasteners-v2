@@ -48,12 +48,32 @@
         "en": "FOB China prices for M10 galvanized hex bolts vary based on quantity, specifications, and market conditions. Below are indicative prices for standard M10 x 30-50mm hot-dip galvanized hex bolts:\n\nSmall Orders (1-5 MT): $1,400-1,800 per metric ton\nMedium Orders (5-20 MT): $1,200-1,500 per metric ton\nContainer Orders (20-26 MT): $1,050-1,250 per metric ton\nFull Truck Load (26+ MT): $950-1,150 per metric ton\n\nPrices are FOB Shanghai/Ningbo port and include standard export packaging. Contact TradeGo for exact quotes based on your specifications and quantity."
       },
       "table": {
-        "headers": ["Quantity Range", "FOB Price (USD/MT)", "Price per Piece (approx)"],
+        "headers": [
+          "Quantity Range",
+          "FOB Price (USD/MT)",
+          "Price per Piece (approx)"
+        ],
         "rows": [
-          ["1-5 MT", "$1,400-1,800", "$0.12-0.15"],
-          ["5-20 MT", "$1,200-1,500", "$0.10-0.13"],
-          ["20-26 MT", "$1,050-1,250", "$0.09-0.11"],
-          ["26+ MT", "$950-1,150", "$0.08-0.10"]
+          [
+            "1-5 MT",
+            "$1,400-1,800",
+            "$0.12-0.15"
+          ],
+          [
+            "5-20 MT",
+            "$1,200-1,500",
+            "$0.10-0.13"
+          ],
+          [
+            "20-26 MT",
+            "$1,050-1,250",
+            "$0.09-0.11"
+          ],
+          [
+            "26+ MT",
+            "$950-1,150",
+            "$0.08-0.10"
+          ]
         ]
       }
     },
@@ -97,5 +117,10 @@
     "de": "M10 Schrauben Angebot Erhalten",
     "hi": "M10 बोल्ट कोटेशन प्राप्त करें"
   },
-  "relatedProducts": ["bolts-nuts", "washers", "anchor-bolts"]
+  "relatedProducts": [
+    "bolts-nuts",
+    "washers",
+    "anchor-bolts"
+  ],
+  "imageAlt": "M10 Galvanized Bolt FOB China Price - fastener solutions"
 }

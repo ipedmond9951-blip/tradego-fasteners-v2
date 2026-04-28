@@ -108,7 +108,13 @@
       }
     }
   ],
-  "relatedProducts": ["drywall-screws", "self-drilling-screws", "bolts-nuts", "ibr-nails", "anchor-bolts"],
+  "relatedProducts": [
+    "drywall-screws",
+    "self-drilling-screws",
+    "bolts-nuts",
+    "ibr-nails",
+    "anchor-bolts"
+  ],
   "cta": {
     "text": {
       "en": "Need help selecting the right fasteners for your African project?",
@@ -119,5 +125,6 @@
       "zh": "请求报价"
     },
     "link": "/en#inquiry"
-  }
+  },
+  "imageAlt": "Fastener Selection Guide for African Construction - fastener solutions"
 }
