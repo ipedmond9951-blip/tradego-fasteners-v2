@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-04-24",
   "readTime": 8,
-  "image": "/images/products/torque-tensioning-1.jpg",
+  "image": "/images/articles/bolt-tightening-torque-guide.jpg",
   "title": {
     "en": "Bolt Tightening and Torque Guide: Proper Installation Methods",
     "zh": "螺栓紧固和扭矩指南：正确的安装方法",
@@ -48,13 +48,43 @@
         "en": "Typical torque values for metric hex bolts:\n\nGrade 8.8 Bolts:\n- M8: 25-30 Nm\n- M10: 50-60 Nm\n- M12: 85-95 Nm\n- M16: 210-240 Nm\n- M20: 410-460 Nm\n- M24: 710-800 Nm\n\nGrade 10.9 Bolts:\n- M8: 35-40 Nm\n- M10: 70-80 Nm\n- M12: 120-135 Nm\n- M16: 295-330 Nm\n- M20: 580-650 Nm\n- M24: 1000-1100 Nm\n\nNote: Values are approximate and depend on lubrication condition."
       },
       "table": {
-        "headers": ["Bolt Size", "Grade 8.8 Nm", "Grade 10.9 Nm", "Grade 12.9 Nm"],
+        "headers": [
+          "Bolt Size",
+          "Grade 8.8 Nm",
+          "Grade 10.9 Nm",
+          "Grade 12.9 Nm"
+        ],
         "rows": [
-          ["M8", "25-30", "35-40", "40-45"],
-          ["M10", "50-60", "70-80", "80-90"],
-          ["M12", "85-95", "120-135", "140-155"],
-          ["M16", "210-240", "295-330", "345-380"],
-          ["M20", "410-460", "580-650", "680-750"]
+          [
+            "M8",
+            "25-30",
+            "35-40",
+            "40-45"
+          ],
+          [
+            "M10",
+            "50-60",
+            "70-80",
+            "80-90"
+          ],
+          [
+            "M12",
+            "85-95",
+            "120-135",
+            "140-155"
+          ],
+          [
+            "M16",
+            "210-240",
+            "295-330",
+            "345-380"
+          ],
+          [
+            "M20",
+            "410-460",
+            "580-650",
+            "680-750"
+          ]
         ]
       }
     },
@@ -80,5 +110,31 @@
     "de": "Technischen Support Erhalten",
     "hi": "तकनीकी सहायता का अनुरोध करें"
   },
-  "relatedProducts": ["bolts-nuts", "high-tensile-bolts"]
+  "relatedProducts": [
+    "bolts-nuts",
+    "high-tensile-bolts"
+  ],
+  "metaDescription": "Proper bolt tightening methods, torque specifications, preload control, and installation best practices. Includes torque charts for Grade 8.8 and 10.9 bolts.",
+  "faqItems": [
+    {
+      "question": "What is the correct torque specification for Grade 8.8 bolts?",
+      "answer": "Grade 8.8 torque values (Nm) for lubricated bolts: M6=10Nm, M8=25Nm, M10=49Nm, M12=85Nm, M16=210Nm, M20=410Nm, M24=710Nm. For plain (unlubricated) bolts, increase by 25%. These values are approximate - always refer to specific torque charts for your application and consider friction coefficients."
+    },
+    {
+      "question": "How do I calculate torque for a specific bolt application?",
+      "answer": "Torque calculation formula: T = K × F × d where: T = torque (Nm); K = friction coefficient (typically 0.2 for lubricated, 0.3 for plain); F = desired preload (N) = σ × As (stress × stress area); d = nominal bolt diameter (m). For African mining equipment, always use manufacturer-specified torque values with certified torque charts."
+    },
+    {
+      "question": "What happens if bolts are over-tightened or under-tightened?",
+      "answer": "Over-tightening risks: Bolt yield or fracture; Thread stripping; Gasket crushing; Distortion of joint components; Catastrophic failure in service. Under-tightening risks: Joint separation under load; Bolt fatigue from dynamic loads; Vibration-induced loosening; Leakage in flanged joints; Pre-mature failure in critical applications."
+    },
+    {
+      "question": "What is the difference between torque tensioning and torque-to-yield?",
+      "answer": "Torque tensioning (standard method): Applies predetermined torque value regardless of actual preload - simple but affected by friction. Torque-to-yield (TTB): Tightens to specific bolt stretch (yield point), more accurate preload control - used for critical structural connections like桥梁 and mining equipment. TTB requires careful control and skilled technicians."
+    },
+    {
+      "question": "How do I use a torque wrench correctly?",
+      "answer": "Torque wrench usage: 1) Select correct torque value for bolt grade and size; 2) Set wrench to desired value; 3) Apply smooth, steady pull - avoid jerky movements; 4) Listen/feel for click or release; 5) Never use as a breaker bar; 6) Calibrate annually. For African field conditions, use dial-type or click-type wrenches - digital requires battery management."
+    }
+  ]
 }

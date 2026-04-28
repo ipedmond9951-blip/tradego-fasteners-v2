@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-04-22",
   "readTime": 11,
-  "image": "/images/products/anchor-bolts-1.jpg",
+  "image": "/images/articles/anchor-bolts-selection-guide.jpg",
   "title": {
     "en": "Anchor Bolts Complete Selection Guide: Types, Load Rating...",
     "zh": "锚栓完整选型指南：类型、承载力与非洲建筑安装详解",
@@ -191,5 +191,28 @@
       "zh": "获取报价"
     },
     "link": "/#inquiry"
-  }
+  },
+  "metaDescription": "Complete guide to anchor bolts for African construction: J-bolts, L-bolts, plate anchors, wedge anchors. Load ratings, installation methods, and concrete applications.",
+  "faqItems": [
+    {
+      "question": "What are the different types of anchor bolts for concrete?",
+      "answer": "Main anchor bolt types: J-bolts (L-shaped, for equipment mounting); L-bolts (straight with bent end); Plate anchors (welded base plate, for structural columns); Wedge anchors (expansion type, for cracked/uncracked concrete); Epoxy anchors (adhesive-bonded, for high loads). Each type suits different load requirements and concrete conditions."
+    },
+    {
+      "question": "How do I determine the correct anchor bolt size for my project?",
+      "answer": "Determine anchor bolt size by: 1) Calculate design load (tension and shear); 2) Check concrete strength (typically 20-30 MPa for African construction); 3) Use manufacturer load tables for specific bolt size and embedment depth; 4) Apply appropriate safety factor (typically 4:1 for static loads); 5) Consider edge distance and spacing requirements."
+    },
+    {
+      "question": "What is the difference between wedge anchors and J-bolts?",
+      "answer": "Wedge anchors are expansion anchors that grip the concrete when tightened - one-piece design, for permanent installations in solid concrete. J-bolts are cast-in-place or inserted into wet concrete - repositionable before concrete sets, better for structural connections where alignment is critical."
+    },
+    {
+      "question": "How deep should anchor bolts be embedded in concrete?",
+      "answer": "Embedment depth depends on bolt diameter and load: General rule is 4-6 bolt diameters for medium loads. For structural applications, follow local codes: South Africa uses SABS 10400; minimum typically 8 inches (200mm) for M16 and larger bolts. Insufficient embedment causes pull-out failure - always verify with load calculations."
+    },
+    {
+      "question": "When should epoxy anchor bolts be used?",
+      "answer": "Use epoxy anchors when: 1) High tensile load requirements exceed expansion anchor capacity; 2) Close to concrete edge where expansion anchors would crack concrete; 3) Retrofitting existing concrete structures; 4) Anchoring near vibrating equipment. Epoxy provides chemical bonding and works in both cracked and uncracked concrete when properly installed."
+    }
+  ]
 }

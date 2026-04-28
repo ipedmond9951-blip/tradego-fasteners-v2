@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-04-22",
   "readTime": 6,
-  "image": "/images/products/carriage-bolts.jpg",
+  "image": "/images/articles/carriage-bolts-guide.jpg",
   "title": {
     "en": "Carriage Bolts Guide: Square Neck Bolts for Wood & Timber...",
     "zh": "方颈螺栓（马车螺栓）指南：非洲木材结构应用",
@@ -174,5 +174,28 @@
     },
     "link": "/#inquiry"
   },
-  "relatedProducts": []
+  "relatedProducts": [],
+  "metaDescription": "Complete guide to carriage bolts (coach bolts) covering DIN 603 standards, wood applications, timber construction, and outdoor use with hot-dip galvanizing.",
+  "faqItems": [
+    {
+      "question": "What is the difference between carriage bolts and hex bolts?",
+      "answer": "Carriage bolts (DIN 603) have a round head with a square collar below the head that locks into wood - preventing rotation when nuts are tightened from the opposite side. Hex bolts have a six-sided head and require wrench access from the bolt side. Carriage bolts provide a smooth, finished appearance on one side."
+    },
+    {
+      "question": "How do I install carriage bolts in wood?",
+      "answer": "Installation steps: 1) Drill a pilot hole slightly larger than the bolt shank; 2) Insert bolt from the smooth-side (visible side); 3) The square collar prevents rotation; 4) Add washer and hex nut from opposite side; 5) Tighten with wrench. For hardwoods, pre-drilling is essential to prevent wood splitting."
+    },
+    {
+      "question": "What are the applications for carriage bolts in African construction?",
+      "answer": "Carriage bolts are ideal for: Timber frame construction - widely used in roof trusses and wooden structures across Africa; Agricultural structures - barns, storage facilities; Playground equipment - smooth head prevents injury; Furniture assembly - clean finished appearance; Bridge decking where one-sided access is common."
+    },
+    {
+      "question": "What is the difference between zinc-plated and hot-dip galvanized carriage bolts?",
+      "answer": "Zinc-plated carriage bolts have 5-15μm electroplated zinc coating - suitable for indoor and dry environments. Hot-dip galvanized (HDG) bolts have 45-85μm zinc coating applied by dipping in molten zinc - essential for outdoor African construction, mining areas, and humid coastal regions. HDG provides 5-10x more corrosion protection."
+    },
+    {
+      "question": "How do I choose between different lengths of carriage bolts?",
+      "answer": "Choose carriage bolt length by: 1) Material thickness being fastened - bolt should pass through with 2-3 threads extending beyond nut; 2) General rule: minimum 3 threads engagement in nut; 3) For timber, consider wood compression over time; 4) Longer is not always better - excess length reduces shear capacity. Standard lengths available: 20mm to 300mm for DIN 603."
+    }
+  ]
 }
