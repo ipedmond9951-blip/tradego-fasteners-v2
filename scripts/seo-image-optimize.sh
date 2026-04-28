@@ -71,8 +71,12 @@ scan_low_quality_images() {
     local count=0
     local total=0
     
-    # 扫描articles目录下的图片
+    # 扫描articles目录下的图片（跳过backup目录）
     while IFS= read -r img_path; do
+        # 跳过backup目录
+        if [[ "$img_path" == *"/backup/"* ]]; then
+            continue
+        fi
         total=$((total + 1))
         size=$(wc -c < "$img_path" 2>/dev/null || echo 0)
         size_kb=$((size / 1024))
