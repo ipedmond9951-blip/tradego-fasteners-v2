@@ -587,7 +587,32 @@ else
 fi
 
 # ==========================================
-# 第十一部分: Git提交推送
+
+# ==========================================
+# 第十一部分: GEO AI评估 (新增)
+# ==========================================
+log ""
+log "========== 🌍 GEO AI评估 =========="
+log "🤖 让AI评估网站GEO表现并给出优化建议..."
+
+if [ -f "$PROJECT_DIR/scripts/geo-ai-review.sh" ]; then
+    bash "$PROJECT_DIR/scripts/geo-ai-review.sh" >> "$LOG_FILE" 2>&1
+    GEO_EXIT=$?
+    if [ $GEO_EXIT -eq 0 ]; then
+        log "   ✅ GEO AI评估完成"
+        # 显示最新建议
+        LATEST_GEO=$(ls -t $PROJECT_DIR/logs/geo-recommendations-*.md 2>/dev/null | head -1)
+        if [ -n "$LATEST_GEO" ]; then
+            log "   📋 建议报告: $LATEST_GEO"
+        fi
+    else
+        log "   ⚠️ GEO AI评估失败，查看日志了解详情"
+    fi
+else
+    log "   ℹ️ geo-ai-review.sh不存在，跳过GEO评估"
+fi
+
+# 第十二部分: Git提交推送
 # ==========================================
 log ""
 log "========== Git同步 =========="
@@ -604,7 +629,7 @@ else
 fi
 
 # ==========================================
-# 第十二部分: 待优化建议
+# 第十三部分: 待优化建议
 # ==========================================
 log ""
 log "========== 待优化建议 =========="
