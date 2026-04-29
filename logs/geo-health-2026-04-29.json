@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-29T07:56:48.549100",
-  "score": 64,
+  "timestamp": "2026-04-29T08:07:37.887189",
+  "score": 68,
   "max_score": 96,
-  "percentage": 66.66666666666666,
+  "percentage": 70.83333333333334,
   "results": {
     "schema": {
       "FAQPage Schema": {
@@ -68,16 +68,16 @@
         "details": "Source citations not implemented"
       },
       "FAQ内容（5W1H）": {
-        "status": "warn",
-        "details": "FAQ may lack 5W1H coverage"
+        "status": "pass",
+        "details": "FAQ covers 11/6 question types with 57 questions"
       },
       "应用场景描述": {
-        "status": "warn",
-        "details": "Limited use case descriptions"
+        "status": "pass",
+        "details": "Found 9 use case keywords"
       },
       "信任信号": {
         "status": "pass",
-        "details": "Found 3 trust signals"
+        "details": "Found 8 trust signals"
       }
     },
     "technical": {

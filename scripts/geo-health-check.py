@@ -313,50 +313,80 @@ class GEOHealthCheck:
         return {"status": "warn", "details": "Source citations not implemented"}
     
     def check_faq_content(self):
-        """检查FAQ内容"""
-        # 检查是否有5W1H类型的问题
-        faq_keywords = ["为什么", "如何", "什么", "哪里", "何时", "谁"]
+        """检查FAQ内容 - 5W1H覆盖"""
+        # 检查FAQ组件是否有5W1H问题
+        faq_file = SRC_DIR / "components" / "FAQSchema.tsx"
         
-        layout_file = SRC_DIR / "app" / "[locale]" / "layout.tsx"
-        if not layout_file.exists():
-            return {"status": "fail", "details": "layout.tsx not found"}
+        if not faq_file.exists():
+            return {"status": "fail", "details": "FAQ component not found"}
         
-        content = layout_file.read_text()
+        content = faq_file.read_text().lower()
         
-        faq_count = sum(1 for kw in faq_keywords if kw in content)
-        if faq_count >= 4:
-            return {"status": "pass", "details": f"FAQ covers {faq_count} question types"}
+        # 5W1H关键词（中英文）
+        en_5w1h = ["who", "what", "when", "where", "why", "how"]
+        zh_5w1h = ["谁", "什么", "何时", "哪里", "为什么", "如何"]
+        
+        found_types = set()
+        for kw in en_5w1h + zh_5w1h:
+            if kw.lower() in content:
+                found_types.add(kw)
+        
+        # 检查是否有足够的问题
+        questions = re.findall(r'question', content, re.IGNORECASE)
+        
+        if len(found_types) >= 4 and len(questions) >= 10:
+            return {"status": "pass", "details": f"FAQ covers {len(found_types)}/6 question types with {len(questions)} questions"}
         
         return {"status": "warn", "details": "FAQ may lack 5W1H coverage"}
     
     def check_use_cases(self):
         """检查应用场景描述"""
-        use_case_keywords = ["应用", "用途", "使用", "场景", "案例"]
+        # 检查多个组件的应用场景
+        files_to_check = [
+            SRC_DIR / "app" / "[locale]" / "page.tsx",
+            SRC_DIR / "app" / "[locale]" / "products" / "page.tsx",
+            SRC_DIR / "components" / "ProductGrid.tsx",
+            SRC_DIR / "components" / "AboutSection.tsx",
+        ]
         
-        layout_file = SRC_DIR / "app" / "[locale]" / "layout.tsx"
-        if not layout_file.exists():
-            return {"status": "fail", "details": "layout.tsx not found"}
+        all_content = ""
+        for f in files_to_check:
+            if f.exists():
+                all_content += f.read_text() + "\n"
         
-        content = layout_file.read_text()
+        # 应用场景关键词（中英文）
+        use_case_keywords = [
+            "construction", "building", "manufacturing", "mining",
+            "roofing", "steel structure", "solar", "hvac",
+            "应用", "用途", "使用", "场景", "建筑", "施工", "采矿"
+        ]
         
-        use_case_count = sum(1 for kw in use_case_keywords if kw in content)
-        if use_case_count >= 2:
-            return {"status": "pass", "details": "Use case descriptions present"}
+        found = sum(1 for kw in use_case_keywords if kw.lower() in all_content.lower())
+        
+        if found >= 5:
+            return {"status": "pass", "details": f"Found {found} use case keywords"}
         
         return {"status": "warn", "details": "Limited use case descriptions"}
     
     def check_trust_signals(self):
         """检查信任信号"""
-        trust_keywords = ["认证", "ISO", "SABS", "证书", "质量", "保证"]
+        # 检查多个组件的信任信号
+        files_to_check = [
+            SRC_DIR / "app" / "[locale]" / "layout.tsx",
+            SRC_DIR / "components" / "StatisticsSection.tsx",
+            SRC_DIR / "components" / "CertificationsSection.tsx",
+        ]
         
-        layout_file = SRC_DIR / "app" / "[locale]" / "layout.tsx"
-        if not layout_file.exists():
-            return {"status": "fail", "details": "layout.tsx not found"}
+        all_content = ""
+        for f in files_to_check:
+            if f.exists():
+                all_content += f.read_text() + "\n"
         
-        content = layout_file.read_text()
+        trust_keywords = ["ISO", "SABS", "CE", "certified", "quality", "认证", "证书", "质量"]
         
-        trust_count = sum(1 for kw in trust_keywords if kw.lower() in content.lower())
-        if trust_count >= 3:
+        trust_count = sum(1 for kw in trust_keywords if kw.lower() in all_content.lower())
+        
+        if trust_count >= 4:
             return {"status": "pass", "details": f"Found {trust_count} trust signals"}
         
         return {"status": "warn", "details": "Limited trust signals"}
