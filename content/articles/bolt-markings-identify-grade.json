@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-04-22",
   "readTime": 6,
-  "image": "/images/products/bolt-markings.jpg",
+  "image": "/images/articles/bolt-markings-identify-grade.jpg",
   "title": {
     "en": "How to Read Bolt Markings: Identify Fastener Grade & Stre...",
     "zh": "如何阅读螺栓标记：识别紧固件等级与强度",
@@ -168,5 +168,28 @@
     "link": "/#inquiry"
   },
   "relatedProducts": [],
-  "imageAlt": "How to Read Bolt Markings - fastener solutions"
+  "imageAlt": "How to Read Bolt Markings - fastener solutions",
+  "metaDescription": "How to read and identify bolt grade markings. Metric and imperial bolt grades, tensile strength, and proper selection guide for industrial and construction applications.",
+  "faqItems": [
+    {
+      "question": "How do I read bolt grade markings?",
+      "answer": "Metric bolt grades: Number on head = 1/100 of tensile strength in MPa. Example: 8.8 = 800 MPa tensile, 640 MPa yield. Two numbers: First (8) = tensile/100; Second (8) = yield ratio × 10. Imperial bolts: Grade 5 = 120,000 PSI; Grade 8 = 150,000 PSI. Look for manufacturer logo + grade marking on bolt head."
+    },
+    {
+      "question": "What do the numbers on bolt heads mean?",
+      "answer": "Metric markings: 4.6, 8.8, 10.9, 12.9 are most common. First number ÷ 100 = tensile strength in MPa. Second number ÷ 10 = yield ratio (percentage of tensile before yielding). Imperial: Grade 2 (low), Grade 5 (medium), Grade 8 (high). Always match exact grade specified - mixing grades causes structural failure."
+    },
+    {
+      "question": "How to identify metric vs imperial bolt grades?",
+      "answer": "Metric bolts: Head shows class (8.8, 10.9, etc.) with manufacturer logo. Thread pitch is fine (1.0-1.5mm for M10). Imperial bolts: Head shows radial lines (Grade 5 = 3 lines at 120° intervals). Thread pitch is coarser (1.5-2.0mm for 3/8 inch). Measure with caliper: M10 = 10mm diameter; 3/8 inch = 9.525mm diameter."
+    },
+    {
+      "question": "What is the tensile strength of Grade 8.8 bolts?",
+      "answer": "Grade 8.8 metric bolt: Tensile strength = 800 MPa (116,000 PSI); Yield strength = 640 MPa (92,800 PSI); Proof load = 580 MPa. This is intermediate strength - suitable for most construction and machinery applications. For critical structural work, specify Grade 10.9 (1000 MPa tensile) or Grade 12.9 (1200 MPa tensile)."
+    },
+    {
+      "question": "Why do bolt markings matter for structural applications?",
+      "answer": "Bolt markings ensure correct strength for load requirements. Using wrong grade causes: Under-specification = structural failure, collapse risk; Over-specification = cost waste, fitting problems. Critical factors: 1) Tensile strength (load capacity); 2) Yield strength (permanent deformation point); 3) Proof load (maximum before plastic deformation). Always verify markings match specification on engineering drawings."
+    }
+  ]
 }
