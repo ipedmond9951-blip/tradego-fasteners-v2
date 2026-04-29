@@ -144,10 +144,10 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
             const text = texts[product.nameKey] || productText.en[product.nameKey]
             return (
               <div key={product.slug} className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow flex flex-col">
-                {/* Image */}
-                <div className="relative h-40 sm:h-48 lg:h-52 bg-gradient-to-br from-gray-100 to-gray-200">
+                {/* Image - clickable link to inquiry */}
+                <a href={`/${locale}#inquiry`} className="block relative h-40 sm:h-48 lg:h-52 bg-gradient-to-br from-gray-100 to-gray-200">
                   <Image src={product.image} alt={text.name} fill className="object-cover" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" priority={index < 4} />
-                </div>
+                </a>
                 
                 {/* Content */}
                 <div className="flex-1 p-4 md:p-6 flex flex-col">
