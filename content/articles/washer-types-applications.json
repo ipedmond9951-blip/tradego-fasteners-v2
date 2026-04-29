@@ -1,7 +1,7 @@
 {
   "slug": "washer-types-applications",
   "category": "Technical Guide",
-  "date": "2026-04-22",
+  "date": "2025-04-29",
   "readTime": 6,
   "image": "/images/articles/washer-types-applications.jpg",
   "title": {
@@ -176,5 +176,6 @@
       "answer": "Washer selection rules: Inner diameter should match bolt nominal size (M10 washer fits M10 bolt); Outer diameter should be 2-3x bolt diameter for load distribution; Thickness should provide adequate stiffness without being too thick. For structural applications, use standard dimensional washers per DIN 125 (flat) or DIN 127 (spring) specifications."
     }
   ],
-  "imageAlt": "Washer types and applications for industrial use"
+  "imageAlt": "Washer types and applications for industrial use",
+  "updated": "2026-03-05"
 }

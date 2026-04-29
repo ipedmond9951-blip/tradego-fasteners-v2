@@ -1,0 +1,240 @@
+{
+  "slug": "nuts-bolts-glossary-terminology",
+  "category": "Technical Guide",
+  "date": "2026-04-22",
+  "readTime": 10,
+  "image": "/images/articles/africa-industrial-1.jpg",
+  "title": {
+    "en": "Fastener Terminology Glossary: Essential Terms for Bolt,...",
+    "zh": "紧固件术语表：螺栓、螺母、螺钉及垫圈采购必备术语",
+    "es": "Glosario de terminología de sujetadores: términos esencia...",
+    "ar": "قاموس مصطلحات موانع التثبيت: المصطلحات الأساسية للمشترين...",
+    "fr": "Glossaire de terminologie des fixations: termes essentiel...",
+    "pt": "Glossário de terminologia de fixadores: termos essenciais...",
+    "ru": "Глоссарий терминологии крепежа: основные термины для пром...",
+    "ja": "緩み止め金具用語集：ボルト・ナットの購入担当者向け必須用語",
+    "de": "Glossar für Befestigungsterminologie: Wesentliche Begriff...",
+    "hi": "फास्टनर शब्दावली शब्दकोश: बोल्ट, नट, स्क्रू और वॉशर खरीदा..."
+  },
+  "description": {
+    "en": "Essential fastener terminology glossary for procurement professionals: bolt types, thread terms, strength grades, coatings, and quality standards explained i...",
+    "zh": "采购专业人员必备紧固件术语表：螺栓类型、螺纹术语、强度等级、涂层和质量标准浅显解读。",
+    "es": "Glosario esencial de terminología de sujetadores para profesionales de compras.",
+    "ar": "قاموس أساسي لمصطلحات موانع التثبيت لمتخصصي المشتريات.",
+    "fr": "Glossaire essentiel de terminologie des fixations pour professionnels des achats.",
+    "pt": "Glossário essencial de terminologia de fixadores para profissionais de compras.",
+    "ru": "Основной глоссарий терминологии крепежа для специалистов по закупкам.",
+    "ja": "購入担当者向け必須緩み止め金具用語集。",
+    "de": "Wesentliches Glossar zur Befestigungsterminologie für Einkaufsprofis.",
+    "hi": "खरीद पेशेवरों के लिए आवश्यक फास्टनर शब्दावली"
+  },
+  "keywords": "fastener terminology, bolt glossary, nut types, screw terminology, fastener standards, procurement glossary, industrial hardware terms",
+  "sections": [
+    {
+      "id": "bolt-terms",
+      "heading": {
+        "en": "Bolt and Screw Terms"
+      },
+      "body": {
+        "en": "Axial — along the axis of the bolt (tension loading). Bearing area — the surface area of the washer face that contacts the joint material. Bolt — externally threaded fastener designed to pass through holes in assembled parts and engage a nut; has a head for driving. Cam-out — the tendency of a Phillips/Sq drive bit to slip out of the head under torque; reduced by using Robertson (Sq) or hex socket drives. Clamp load — the compressive force generated when a fastener is tightened; the primary source of joint friction and sealing. Critical bolt — any bolt whose failure could cause collapse, injury, or significant economic loss. Designation — the standard identification of a fastener (e.g., 'M10×50 10.9 Hex Bolt'). Embedding — plastic deformation of joint surfaces under clamp load causing loss of preload."
+      },
+      "table": {
+        "headers": [
+          "Term",
+          "Definition"
+        ],
+        "rows": [
+          [
+            "Shank",
+            "Unthreaded portion of a bolt between the head and the threads"
+          ],
+          [
+            "Thread root",
+            "Bottom of the thread groove (smallest diameter)"
+          ],
+          [
+            "Thread crest",
+            "Top of the thread ridge (largest diameter)"
+          ],
+          [
+            "Pitch",
+            "Distance between adjacent thread crests"
+          ],
+          [
+            "Major diameter",
+            "Thread crest to crest diameter (nominal size)"
+          ],
+          [
+            "Minor diameter",
+            "Thread root to thread root diameter"
+          ],
+          [
+            "Pitch diameter",
+            "Effective diameter where thread width equals gap width"
+          ],
+          [
+            "Grip length",
+            "Total thickness of materials being clamped (excluding fasteners)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "nut-terms",
+      "heading": {
+        "en": "Nut and Thread Terms"
+      },
+      "body": {
+        "en": "Nut — internally threaded component designed to engage a bolt or threaded rod. Pitch diameter (threads) — the effective diameter of the thread where measurement is taken; same concept as for bolts. Prevailing torque — the torque required to start rotation of a lock nut before the main tightening torque is applied. Proof load — the maximum load a fastener can withstand without permanent deformation. Thread engagement — the length over which the internal and external threads overlap. Yield strength — the stress at which a material begins to deform permanently."
+      },
+      "table": {
+        "headers": [
+          "Term",
+          "Definition"
+        ],
+        "rows": [
+          [
+            "Hex nut",
+            "Standard six-sided nut; most common nut type"
+          ],
+          [
+            "Jam nut",
+            "Thin nut used to lock another nut in place (double nut)"
+          ],
+          [
+            "Lock nut",
+            "Nut with a built-in locking mechanism (Nyloc, all-metal)"
+          ],
+          [
+            "Wing nut",
+            "Nut with wing-like projections for hand tightening"
+          ],
+          [
+            "Coupling nut",
+            "Long nut for joining two threaded rods end-to-end"
+          ],
+          [
+            "Castle nut",
+            "Nut with slots for a cotter pin (e.g., on axle shafts)"
+          ],
+          [
+            "Flange nut",
+            "Nut with an integrated washer-like flange"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "strength-grades",
+      "heading": {
+        "en": "Strength and Quality Terms"
+      },
+      "body": {
+        "en": "Property class — the strength grade of a fastener (e.g., 8.8, 10.9); indicates mechanical properties (tensile strength, yield strength). Proof load — the maximum tensile load a fastener can withstand without permanent deformation; used to verify quality. Proof stress — proof load divided by stress area. Torque coefficient (K-factor) — the ratio of torque to clamp force; varies with lubrication, surface condition, and material. Typically K=0.20 for bare steel, K=0.15 for lightly oiled, K=0.12 for waxed. Clamp load calculation: T = K × D × F, where T=torque, K=coefficient, D=nominal diameter, F=clamp load."
+      },
+      "table": {
+        "headers": [
+          "Term",
+          "Definition"
+        ],
+        "rows": [
+          [
+            "8.8 Grade (metric)",
+            "800 MPa tensile, 640 MPa yield; most common structural bolt"
+          ],
+          [
+            "10.9 Grade (metric)",
+            "1000 MPa tensile, 900 MPa yield; high-strength structural"
+          ],
+          [
+            "12.9 Grade (metric)",
+            "1200 MPa tensile, 1100 MPa yield; highest strength for machinery"
+          ],
+          [
+            "A325 (ASTM)",
+            "High-strength structural bolt, 825 MPa tensile; US standard"
+          ],
+          [
+            "A490 (ASTM)",
+            "Alloy structural bolt, 1035 MPa tensile; stronger than A325"
+          ],
+          [
+            "Proof stress",
+            "Minimum stress a fastener can withstand without plastic deformation"
+          ],
+          [
+            "Yield stress",
+            "Stress at which material begins to deform permanently"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "coating-terms",
+      "heading": {
+        "en": "Coating and Surface Treatment Terms"
+      },
+      "body": {
+        "en": "Zinc plating (electroplate) — thin zinc coating via electrolysis; 5-15μm; good indoor protection; silver/white appearance. Hot-dip galvanizing (HDG) — thick zinc coating via molten zinc bath; 40-85μm; excellent outdoor/corrosion protection. Zinc-nickel — advanced electroplating; 8-15μm; superior to standard zinc; 1000+ hours salt spray. Dacromet/Geomet — water-based zinc flake coatings; 8-15μm; excellent corrosion resistance, no hydrogen embrittlement. Sherardizing — zinc vapor diffusion coating; 15-30μm; uniform coverage even on complex shapes. Parkerizing — manganese/iron phosphate coating; 5-15μm; good lubricant retention; military finish. Black oxide — chemical conversion coating; 1-2μm; decorative/rust-resistant indoors; not a primary corrosion protection."
+      }
+    },
+    {
+      "id": "standards-organizations",
+      "heading": {
+        "en": "Standards Organizations Reference"
+      },
+      "body": {
+        "en": "ISO (International) — ISO 261 (thread profile), ISO 965 (metric thread limits), ISO 4014/4017 (hex bolts); globally recognized. DIN (Germany) — historical basis for many ISO standards; DIN 931, DIN 933 still widely referenced. ANSI/ASME (USA) — American National Standards; B1.1 (UN/UNF imperial threads), B18.2.1 (hex bolts), B18.2.2 (nuts). ASTM (USA) — material and mechanical property standards; F1554 (anchor bolts), A307 (low-carbon bolts). SABS/SANS (South Africa) — South African Bureau of Standards; SANS 135 (hex bolts), SANS 1431 (high-strength structural bolts); often used as basis for other African national standards."
+      }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What does 'K-factor' or 'torque coefficient' mean?"
+          },
+          "a": {
+            "en": "The K-factor (torque coefficient) is the constant that relates applied torque to clamp force. It accounts for friction in the threads and under the bearing surface. T = K × D × F, where T=torque (N·m), D=bolt diameter (m), F=clamp load (N). For bare steel threads with no lubrication, K≈0.20. For lightly oiled, K≈0.15. For wax or anti-seize, K≈0.12. Always use the correct K-factor for your coating/lubricant when calculating torque specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What is the difference between proof load and yield strength?"
+          },
+          "a": {
+            "en": "Proof load is a test requirement — the load a fastener must withstand without permanent set when tested. Yield strength is a material property — the stress at which plastic deformation begins. For fasteners, proof load corresponds to approximately 85-90% of the yield strength. Proof load is what manufacturers must demonstrate in testing; yield strength is a design parameter."
+          }
+        },
+        {
+          "q": {
+            "en": "Why do some standards have 'revoked' or 'withdrawn' status?"
+          },
+          "a": {
+            "en": "Standards are sometimes revoked when they are superseded by an international standard. For example, many DIN standards for fasteners were officially withdrawn when ISO adopted equivalent standards. In practice, DIN and ISO fastener dimensions are nearly identical, so DIN designations (DIN 931, DIN 933) are still widely used in industry even though the standards are technically withdrawn. Always check if the current project specification references ISO or DIN standards."
+          }
+        }
+      ]
+    }
+  ],
+  "relatedProducts": [
+    "hex-bolts",
+    "nuts",
+    "washers"
+  ],
+  "cta": {
+    "text": {
+      "en": "Need fasteners for your project? Get a factory quote from TradeGo — we supply to specs.",
+      "zh": "需要紧固件用于项目？TradeGo按规格供货，获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "imageAlt": "Industrial fastener manufacturing and supply in Africa"
+}
