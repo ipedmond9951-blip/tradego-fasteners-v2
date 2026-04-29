@@ -3,7 +3,8 @@ import { type Locale, t } from '@/i18n'
 
 interface FooterProps { locale?: Locale }
 
-export default function Footer({ locale = 'en' }: FooterProps) {
+// Static year - avoid new Date() during render to prevent hydration mismatch
+const CURRENT_YEAR = 2026
   return (
     <footer className="bg-primary-900 text-white py-10 md:py-12">
       <div className="container mx-auto px-4 sm:px-6">
@@ -54,7 +55,7 @@ export default function Footer({ locale = 'en' }: FooterProps) {
             <Link href={`/${locale}/privacy-policy`} className="hover:text-white mx-2">Privacy Policy</Link>
             <Link href={`/${locale}/terms`} className="hover:text-white mx-2">Terms of Service</Link>
           </div>
-          © {new Date().getFullYear()} TradeGo Fasteners. {t(locale, 'footer.rights')}
+          © {CURRENT_YEAR} TradeGo Fasteners. {t(locale, 'footer.rights')}
         </div>
       </div>
     </footer>

@@ -100,22 +100,24 @@ const otherLocales: Record<string, typeof translations.en> = {
 }
 
 // Default fallback data
+// Static fallback data - DO NOT use new Date() here to prevent hydration mismatch
+// The timestamp is set once at component initialization via useState lazy init
 const defaultData: CommodityResponse = {
   steel: [
-    { name: 'Hot Rolled Coil (HRC)', symbol: 'HRC', price: '685.50', change: '+12.30', changePercent: '+1.83%', unit: 'USD/ton', updated: new Date().toISOString() },
-    { name: 'Cold Rolled Coil (CRC)', symbol: 'CRC', price: '795.00', change: '+8.75', changePercent: '+1.11%', unit: 'USD/ton', updated: new Date().toISOString() },
-    { name: 'Rebar (Construction)', symbol: 'REBAR', price: '562.30', change: '-5.20', changePercent: '-0.92%', unit: 'USD/ton', updated: new Date().toISOString() },
-    { name: 'Galvanized Coil', symbol: 'GI', price: '825.00', change: '+15.40', changePercent: '+1.90%', unit: 'USD/ton', updated: new Date().toISOString() },
-    { name: 'Steel Scrap (HMS 1/2)', symbol: 'HMS', price: '385.00', change: '+3.50', changePercent: '+0.92%', unit: 'USD/ton', updated: new Date().toISOString() },
-    { name: 'Iron Ore (62% Fe)', symbol: 'FE62', price: '118.50', change: '-1.25', changePercent: '-1.04%', unit: 'USD/dmtu', updated: new Date().toISOString() },
-    { name: 'Coking Coal', symbol: 'COKING', price: '215.80', change: '+4.30', changePercent: '+2.03%', unit: 'USD/ton', updated: new Date().toISOString() },
-    { name: 'Nickel', symbol: 'NI', price: '16245.00', change: '+125.50', changePercent: '+0.78%', unit: 'USD/ton', updated: new Date().toISOString() },
+    { name: 'Hot Rolled Coil (HRC)', symbol: 'HRC', price: '685.50', change: '+12.30', changePercent: '+1.83%', unit: 'USD/ton', updated: 'initial' },
+    { name: 'Cold Rolled Coil (CRC)', symbol: 'CRC', price: '795.00', change: '+8.75', changePercent: '+1.11%', unit: 'USD/ton', updated: 'initial' },
+    { name: 'Rebar (Construction)', symbol: 'REBAR', price: '562.30', change: '-5.20', changePercent: '-0.92%', unit: 'USD/ton', updated: 'initial' },
+    { name: 'Galvanized Coil', symbol: 'GI', price: '825.00', change: '+15.40', changePercent: '+1.90%', unit: 'USD/ton', updated: 'initial' },
+    { name: 'Steel Scrap (HMS 1/2)', symbol: 'HMS', price: '385.00', change: '+3.50', changePercent: '+0.92%', unit: 'USD/ton', updated: 'initial' },
+    { name: 'Iron Ore (62% Fe)', symbol: 'FE62', price: '118.50', change: '-1.25', changePercent: '-1.04%', unit: 'USD/dmtu', updated: 'initial' },
+    { name: 'Coking Coal', symbol: 'COKING', price: '215.80', change: '+4.30', changePercent: '+2.03%', unit: 'USD/ton', updated: 'initial' },
+    { name: 'Nickel', symbol: 'NI', price: '16245.00', change: '+125.50', changePercent: '+0.78%', unit: 'USD/ton', updated: 'initial' },
   ],
   currencies: {
     usdcny: 7.24,
     usdzar: 18.45,
   },
-  timestamp: new Date().toISOString(),
+  timestamp: 'initial',
   source: 'initial'
 }
 

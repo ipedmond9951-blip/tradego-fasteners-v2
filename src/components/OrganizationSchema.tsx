@@ -25,7 +25,7 @@ export default function OrganizationSchema({ locale = 'en' }: OrganizationSchema
     slogan: locale === 'zh' 
       ? '非洲可靠紧固件供应商'
       : 'Reliable Fasteners, Delivered to Africa',
-    foundingDate: '2004',
+    foundingDate: '2012',
     foundingLocation: {
       '@type': 'Place',
       name: 'Shenzhen, Guangdong, China',

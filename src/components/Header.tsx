@@ -14,6 +14,7 @@ export default function Header({ locale = 'en' }: HeaderProps) {
   const navItems: Array<{ href?: string; label: string; children?: Array<{ href: string; label: string; anchor?: string; icon?: string }> }> = [
     { href: `/${locale}`, label: t(locale, 'nav.home') },
     {
+      href: `/${locale}/products`,
       label: t(locale, 'nav.products'),
       children: [
         { href: `/${locale}/products`, label: t(locale, 'products.allProducts') },
@@ -102,13 +103,29 @@ export default function Header({ locale = 'en' }: HeaderProps) {
             {navItems.map((item) => (
               'children' in item ? (
                 <div key={item.label}>
-                  <p className="px-4 py-2 text-xs font-semibold text-gray-400 uppercase tracking-wider">{item.label}</p>
-                  {item.children && item.children.map((child) => (
-                    <a key={child.href} href={child.href + (child.anchor ? `#${child.anchor}` : '')} onClick={() => setMenuOpen(false)} className="block pl-8 pr-4 py-3 min-h-[44px] text-gray-700 hover:text-primary-700 text-sm">
-                      {(child as any).icon && <span className="mr-2">{(child as any).icon}</span>}
-                      {child.label}
-                    </a>
-                  ))}
+                  {item.href ? (
+                    // Item with href + children: render parent as clickable link, then children
+                    <>
+                      <a href={item.href} onClick={() => setMenuOpen(false)} className="block px-4 py-3 min-h-[44px] text-gray-700 hover:text-primary-700 font-medium border-b border-gray-100">{item.label}</a>
+                      {item.children && item.children.map((child) => (
+                        <a key={child.href} href={child.href + (child.anchor ? `#${child.anchor}` : '')} onClick={() => setMenuOpen(false)} className="block pl-8 pr-4 py-3 min-h-[44px] text-gray-700 hover:text-primary-700 text-sm">
+                          {(child as any).icon && <span className="mr-2">{(child as any).icon}</span>}
+                          {child.label}
+                        </a>
+                      ))}
+                    </>
+                  ) : (
+                    // Item with children only: render parent as label, then children
+                    <>
+                      <p className="px-4 py-2 text-xs font-semibold text-gray-400 uppercase tracking-wider">{item.label}</p>
+                      {item.children && item.children.map((child) => (
+                        <a key={child.href} href={child.href + (child.anchor ? `#${child.anchor}` : '')} onClick={() => setMenuOpen(false)} className="block pl-8 pr-4 py-3 min-h-[44px] text-gray-700 hover:text-primary-700 text-sm">
+                          {(child as any).icon && <span className="mr-2">{(child as any).icon}</span>}
+                          {child.label}
+                        </a>
+                      ))}
+                    </>
+                  )}
                 </div>
               ) : (
                 <a key={item.href} href={item.href} onClick={() => setMenuOpen(false)} className="block px-4 py-3 min-h-[44px] text-gray-700 hover:text-primary-700 font-medium">{item.label}</a>

@@ -103,6 +103,11 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
         '@id': 'https://www.tradego-fasteners.com/#organization',
         name: 'TradeGo Fasteners',
       },
+      certifications: [
+        { '@type': 'Certification', name: 'ISO 9001:2015', authority: 'International Organization for Standardization' },
+        { '@type': 'Certification', name: 'CE', authority: 'European Union' },
+        { '@type': 'Certification', name: 'SABS', authority: 'South African Bureau of Standards' },
+      ],
       shippingDetails: {
         '@type': 'OfferShippingDetails',
         shippingDestination: [
