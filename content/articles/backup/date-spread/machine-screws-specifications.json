@@ -1,0 +1,167 @@
+{
+  "slug": "machine-screws-specifications",
+  "category": "Technical Guide",
+  "date": "2026-04-22",
+  "readTime": 6,
+  "image": "/images/products/machine-screws.jpg",
+  "title": {
+    "en": "Machine Screws Complete Guide: Specifications, Head Types...",
+    "zh": "机用螺钉完整指南：规格、头型与工业应用",
+    "es": "Guía completa de tornillos para máquina: especificaciones...",
+    "ar": "دليل شامل لبراغي الآلات: المواصفات وأنواع الرؤوس",
+    "fr": "Guide complet des vis machine: spécifications et types de...",
+    "pt": "Guia completo de parafusos de máquina: especificações e t..."
+  },
+  "description": {
+    "en": "Complete guide to machine screws covering specifications, head types, and industrial applications. Learn the difference between machine screws and sheet meta...",
+    "zh": "机用螺钉完整指南，涵盖规格、头型和工业应用。了解机用螺钉与金属板螺钉的区别，适用于非洲工业环境的精密紧固。",
+    "es": "Guía completa de tornillos para máquina que cubre especificaciones y tipos de cabeza.",
+    "ar": "دليل شامل لبراغي الآلات يغطي المواصفات وأنواع الرؤوس.",
+    "fr": "Guide complet des vis machine couvrant les spécifications et les types de tête.",
+    "pt": "Guia completo de parafusos de máquina cobrindo especificações e tipos de cabeça."
+  },
+  "keywords": "machine screws, machine screw specifications, industrial fasteners, precision fastening, DIN 963, DIN 964",
+  "sections": [
+    {
+      "id": "what-are-machine-screws",
+      "heading": {
+        "en": "What Are Machine Screws?"
+      },
+      "body": {
+        "en": "Machine screws are precision fasteners with internal threads designed to mate with a pre-tapped hole or nut. Unlike self-tapping screws, machine screws require a pre-drilled pilot hole with matching threads. They are typically made to tighter tolerances than sheet metal screws and are used in precision applications where alignment and thread fit are critical."
+      }
+    },
+    {
+      "id": "head-types",
+      "heading": {
+        "en": "Head Types"
+      },
+      "body": {
+        "en": "Machine screws come in various head types: flat head (countersunk) sits flush with the material surface; round head provides a decorative appearance with good bearing surface; pan head offers high tightening torque capability; and button head (dome head) provides a rounded appearance with good strength."
+      },
+      "table": {
+        "headers": [
+          "Head Type",
+          "DIN Standard",
+          "Drive Style",
+          "Applications"
+        ],
+        "rows": [
+          [
+            "Flat Head (Countersunk)",
+            "DIN 963",
+            "Slot/Phillips/Star",
+            "Flush mounting, machine assembly"
+          ],
+          [
+            "Round Head",
+            "DIN 964",
+            "Slot/Phillips",
+            "Decorative, general assembly"
+          ],
+          [
+            "Pan Head",
+            "DIN 967",
+            "Phillips/Star",
+            "High torque applications"
+          ],
+          [
+            "Button Head (Dome)",
+            "DIN 966",
+            "Phillips/Star",
+            "Decorative, good strength"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "specifications",
+      "heading": {
+        "en": "Common Specifications"
+      },
+      "body": {
+        "en": "Machine screws are available in metric sizes from M2 to M10 and in lengths from 3mm to 100mm. Thread types include coarse (standard) and fine pitch threads. Materials range from zinc-plated steel for basic applications to stainless steel A2 for corrosion resistance and brass for electrical applications."
+      }
+    },
+    {
+      "id": "applications",
+      "heading": {
+        "en": "Industrial Applications in Africa"
+      },
+      "body": {
+        "en": "Machine screws are used in African industry: electrical panels—securing components in switchgear and distribution boards; machinery assembly—precision fastening in manufacturing equipment; telecommunications—mounting equipment in telecom shelters; and automotive—general assembly and repair applications."
+      }
+    },
+    {
+      "id": "vs-sheet-metal",
+      "heading": {
+        "en": "Machine Screws vs. Sheet Metal Screws"
+      },
+      "body": {
+        "en": "The key difference: machine screws require pre-tapped holes and nuts; sheet metal screws create their own threads. Machine screws offer better precision and can be repeatedly assembled/disassembled; sheet metal screws offer faster installation but can strip threads. Use machine screws when precision and repeated assembly are needed; use sheet metal screws for quick fastening in thin materials."
+      }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Technical Guide and how are they used?"
+          },
+          "a": {
+            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
+          }
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "text": {
+      "en": "Need fasteners for your project? Get a factory quote from TradeGo.",
+      "zh": "需要紧固件用于项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "relatedProducts": [],
+  "imageAlt": "Machine Screws Complete Guide Specifications - fastener solutions"
+}

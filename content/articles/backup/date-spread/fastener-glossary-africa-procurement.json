@@ -1,0 +1,167 @@
+{
+  "slug": "fastener-glossary-africa-procurement",
+  "category": "Procurement Guide",
+  "date": "2026-04-22",
+  "readTime": 8,
+  "image": "/images/articles/africa-warehouse-1.jpg",
+  "title": {
+    "en": "Fastener Procurement Glossary: Essential Terms for Import...",
+    "zh": "紧固件采购术语表：进口紧固件到非洲的基本术语",
+    "es": "Glosario de compra de sujetadores: términos esenciales pa...",
+    "ar": "مسرد مصطلحات شراء المثبتات: المصطلحات الأساسية للاستيراد...",
+    "fr": "Glossaire d'approvisionnement en fixations: termes essent...",
+    "pt": "Glossário de compras de fixadores: termos essenciais para..."
+  },
+  "description": {
+    "en": "Essential glossary of fastener procurement terms for African importers. Learn FOB, CIF, MOQ, batch codes, mill test certificates, and other critical terms fo...",
+    "zh": "非洲进口商紧固件采购基本术语表。学习FOB、CIF、MOQ、批次代码、材质证明书及从中国和国际供应商采购的其他关键术语。",
+    "es": "Glosario esencial de términos de compra de sujetadores para importadores africanos.",
+    "ar": "مسرد أساسي لمصطلحات شراء المثبتات للمستوردين الأفارقة.",
+    "fr": "Glossaire essentiel des termes d'approvisionnement en fixations pour les importateurs africains.",
+    "pt": "Glossário essencial de termos de compras de fixadores para importadores africanos."
+  },
+  "keywords": "fastener glossary, procurement terms, FOB, CIF, MOQ, mill test certificate, Africa import",
+  "sections": [
+    {
+      "id": "trade-terms",
+      "heading": {
+        "en": "International Trade Terms (Incoterms)"
+      },
+      "body": {
+        "en": "FOB (Free on Board): Seller delivers goods onto the vessel. Buyer bears all costs and risks from that point. CIF (Cost, Insurance, Freight): Seller pays for delivery, insurance, and freight to destination port. EXW (Ex Works): Buyer picks up goods at seller's premises. DDP (Delivered Duty Paid): Seller delivers to buyer, paid all costs including duties."
+      },
+      "table": {
+        "headers": [
+          "Term",
+          "Seller's Responsibility",
+          "Buyer's Responsibility",
+          "Risk Transfer"
+        ],
+        "rows": [
+          [
+            "FOB",
+            "Delivery to vessel",
+            "Freight, insurance, duties",
+            "On vessel"
+          ],
+          [
+            "CIF",
+            "Freight, insurance to port",
+            "Duties, inland transport",
+            "Destination port"
+          ],
+          [
+            "EXW",
+            "None (goods ready)",
+            "All costs",
+            "Seller's premises"
+          ],
+          [
+            "DDP",
+            "All costs including duties",
+            "None",
+            "Buyer's premises"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "quality-docs",
+      "heading": {
+        "en": "Quality Documentation"
+      },
+      "body": {
+        "en": "Mill Test Certificate (MTC): Document certifying chemical composition and mechanical properties of steel. Also called material test report or inspection certificate. Certificate of Origin: Document certifying the country where goods were manufactured. Quality Control Certificate: Third-party inspection report confirming product quality."
+      }
+    },
+    {
+      "id": "ordering-terms",
+      "heading": {
+        "en": "Ordering Terms"
+      },
+      "body": {
+        "en": "MOQ (Minimum Order Quantity): Minimum number of pieces per order. Batch Code: Identification number linking products to specific manufacturing batch. Lead Time: Time from order placement to shipment. Payment Terms: Common options include T/T (Telegraphic Transfer), L/C (Letter of Credit), or payment platforms like Alibaba Trade Assurance."
+      }
+    },
+    {
+      "id": "shipping-terms",
+      "heading": {
+        "en": "Shipping & Logistics"
+      },
+      "body": {
+        "en": "Container Load: 20ft container holds approximately 10-15 tons of fasteners. 40ft container holds approximately 20-25 tons. Consolidation: Combining small orders with other buyers to fill a container. Freight Forwarder: Company that arranges shipping logistics. Bill of Lading (B/L): Document of title for shipped goods."
+      }
+    },
+    {
+      "id": "quality-check",
+      "heading": {
+        "en": "Quality Verification"
+      },
+      "body": {
+        "en": "Pre-shipment Inspection (PSI): Inspection before shipment by third-party like SGS, Bureau Veritas, or Intertek. Dimensional Inspection: Checking thread pitch, head dimensions, overall length against specifications. Visual Inspection: Checking for surface defects, coating quality, packaging condition. Salt Spray Test: Testing corrosion resistance of coatings in accelerated salt spray environment."
+      }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Procurement Guide and how are they used?"
+          },
+          "a": {
+            "en": "Procurement Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
+          }
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "text": {
+      "en": "Need fasteners for your project? Get a factory quote from TradeGo.",
+      "zh": "需要紧固件用于项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "relatedProducts": [],
+  "imageAlt": "Fastener Procurement Glossary Essential Terms - fastener solutions"
+}

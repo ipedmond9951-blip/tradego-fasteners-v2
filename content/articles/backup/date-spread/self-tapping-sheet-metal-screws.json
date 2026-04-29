@@ -1,0 +1,162 @@
+{
+  "slug": "self-tapping-sheet-metal-screws",
+  "category": "Technical Guide",
+  "date": "2026-04-22",
+  "readTime": 9,
+  "image": "/images/products/self-tapping-screws-1.jpg",
+  "title": {
+    "en": "Self-Tapping & Sheet Metal Screws Complete Guide: Types,...",
+    "zh": "自攻螺钉与钣金螺钉完整指南：类型、螺纹形式与选型",
+    "es": "Guía completa de tornillos autorroscantes para chapas met...",
+    "ar": "دليل شامل لبراغي التنصت الذاتي وبراغي الصفائح المعدنية",
+    "fr": "Guide complet des vis taraudeuses et vis pour tôle",
+    "pt": "Guia completo de parafusos autorroscantes para chapas met...",
+    "ru": "Полное руководство по самосверлящим винтам и винтам для л...",
+    "ja": "タッピングねじ・板金ねじ完全ガイド：種類、ねじ山形状、選定",
+    "de": "Vollständiger Leitfaden zu Blechschrauben und Selbstschne...",
+    "hi": "सेल्फ-टैपिंग और शीट मेटल स्क्रू पूर्ण गाइड: प्रकार, थ्रेड..."
+  },
+  "description": {
+    "en": "Complete guide to self-tapping and sheet metal screws: thread-forming vs thread-cutting types, drill point screws, and selection for roofing, cladding, and g...",
+    "zh": "自攻螺钉和钣金螺钉完整指南：螺纹成型vs螺纹切割类型、钻尾螺钉及非洲屋顶、覆层和一般钣金作业选型。",
+    "es": "Guía completa de tornillos autorroscantes para chapas metálicas.",
+    "ar": "دليل شامل لبراغي التنصت الذاتي.",
+    "fr": "Guide complet des vis taraudeuses.",
+    "pt": "Guia completo de parafusos autorroscantes.",
+    "ru": "Полное руководство по самосверлящим винтам.",
+    "ja": "タッピングねじの完全ガイド。",
+    "de": "Vollständiger Leitfaden zu Blechschrauben.",
+    "hi": "सेल्फ-टैपिंग स्क्रू पर पूर्ण गाइड"
+  },
+  "keywords": "self-tapping screws, sheet metal screws, drill point screws, roofing screws, cladding screws, TEK screws, self-drilling screws",
+  "sections": [
+    {
+      "id": "two-types",
+      "heading": {
+        "en": "Thread-Forming vs Thread-Cutting: Two Distinct Types"
+      },
+      "body": {
+        "en": "Self-tapping screws come in two fundamentally different types that are often confused: Thread-forming screws (Type AB, B, BP) — displace the material as they are driven in; the sheet metal flows around the thread. Only suitable for use in ductile materials (soft steel, aluminum, plastic). Cannot be removed and reinstalled in the same hole without stripping. Thread-cutting screws (Type C, D, F, T) — have a sharp cutting edge that removes material as they are driven; they create a true machine thread. Can be removed and reinstalled. Suitable for all materials including brittle and hard materials. For African sheet metal work, Type AB (thread-forming) is common for thin steel; Type F or drill point (self-drilling) is preferred for thicker materials."
+      }
+    },
+    {
+      "id": "drill-point",
+      "heading": {
+        "en": "Self-Drilling Screws (Drill Point / TEK Screws)"
+      },
+      "body": {
+        "en": "Self-drilling screws (commonly called TEK screws in Africa after the Teks brand) combine a drill point (mini drill bit tip) with self-tapping threads. They eliminate the need for pre-drilling entirely — the drill point bores its own hole and the threads tap it simultaneously. Drill point screws are designated by number: #3 drill point — drills up to 4.5mm steel; #4 drill point — drills up to 6.0mm steel; #5 drill point — drills up to 8.0mm steel; #6 drill point — drills up to 12.5mm steel. For African roofing and cladding, #3 and #4 are most common; #5 and #6 are used for structural steel connections."
+      },
+      "table": {
+        "headers": [
+          "Drill Point",
+          "Steel Capacity",
+          "Typical Application"
+        ],
+        "rows": [
+          [
+            "#2 (light)",
+            "1.5mm",
+            "Thin cladding, plastics"
+          ],
+          [
+            "#3 (standard)",
+            "4.5mm",
+            "Roofing, cladding, light steel"
+          ],
+          [
+            "#4 (heavy)",
+            "6.0mm",
+            "Structural steel, thick plates"
+          ],
+          [
+            "#5 (extra heavy)",
+            "8.0mm",
+            "Thick structural steel"
+          ],
+          [
+            "#6 (ultra heavy)",
+            "12.5mm",
+            "Heavy structural, grating"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "head-types-drill",
+      "heading": {
+        "en": "Head Types for Sheet Metal Screws"
+      },
+      "body": {
+        "en": "Sheet metal screws come in multiple head types for different appearance and functional requirements: Hex head with bonded washer (most common for roofing) — large bearing surface with EPDM rubber washer for sealing; provides highest torque resistance. Bugle head ( Phillips/Sq Drive) — designed to sit flush in thin sheet; countersinks without tearing. Pan head — mushroom shape for general sheet metal. Flat head (countersunk) — for flush mounting. Binding head — used in electrical and appliance applications. For African roofing, always use hex head with bonded EPDM washer — the washer provides both sealing (prevents water ingress) and a wide bearing surface to prevent pull-through."
+      }
+    },
+    {
+      "id": "coatings-colors",
+      "heading": {
+        "en": "Coatings and Color Matching for African Projects"
+      },
+      "body": {
+        "en": "Coating selection for sheet metal screws in Africa: Zinc-plated — for indoor and dry environments; least expensive but shortest life outdoors. Zinc-nickel — superior corrosion resistance to standard zinc; used in coastal and industrial environments. Polymer-coated (e.g., Ruspert, Magni) — excellent corrosion resistance with color matching; standard for pre-painted roofing and cladding; 500+ hours salt spray resistance. For color-matched roofing and cladding, the screw coating must be the same color as the sheeting — this requires polymer coating in the correct RAL color. Always verify the coating is compatible with the roofing material (some coatings react with zinc-coated steel sheeting)."
+      }
+    },
+    {
+      "id": "applications",
+      "heading": {
+        "en": "Applications in African Construction"
+      },
+      "body": {
+        "en": "Self-tapping screws are the workhorse fastener for sheet metal across Africa: IBR and corrugated roofing — #3 drill point, hex head with EPDM washer, color-matched; UPVC roofing and cladding — specialized UPVC-compatible screws to prevent chemical reaction; Structural steel cladding — #4 drill point for 1.2-3.0mm steel framing; Solar panel mounting rails — M6/M8 self-tapping into steel purlins; HVAC ductwork — #2 drill point, pan head for joining duct sections; Electrical cable trays — self-tapping screws for joining tray sections; Water tank installation — stainless steel screws with EPDM for water tank mounting brackets."
+      }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What's the difference between TEK screws and self-drilling screws?"
+          },
+          "a": {
+            "en": "TEK is a brand name for self-drilling screws (originally from Textron). All TEK screws are self-drilling, but 'self-drilling' is the generic term. TEK screws come in different drill point sizes (#3, #4, #5, #6). When buying TEK screws, always specify the drill point number — a #3 TEK cannot drill through the same thickness as a #5."
+          }
+        },
+        {
+          "q": {
+            "en": "Why do roofing screws leak despite having washers?"
+          },
+          "a": {
+            "en": "The most common causes of leaking roofing screws: incorrect screw driven at an angle — the EPDM washer is compressed unevenly and leaks; over-driven screw — the washer is crushed and displaced; under-driven screw — the washer is not compressed enough and gaps remain; wrong washer material for the temperature range (EPDM hardens in cold); using carbon steel screws on aluminum roofing causing galvanic reaction that corrodes the screw and creates a leak path. Always use stainless steel screws with aluminum and coated steel roofing in coastal areas."
+          }
+        },
+        {
+          "q": {
+            "en": "Can self-tapping screws be used in wood?"
+          },
+          "a": {
+            "en": "Yes, but wood screws are generally better for wood. Self-tapping sheet metal screws can be driven into wood for light-duty fastening (e.g., attaching sheet metal to wooden battens), but their threads are designed for sheet metal, not wood fiber engagement. For wood-to-wood or wood-to-metal connections where significant withdrawal resistance is needed, use proper wood screws or structural screws instead."
+          }
+        }
+      ]
+    }
+  ],
+  "relatedProducts": [
+    "self-tapping-screws",
+    "roofing-screws",
+    "drill-point-screws"
+  ],
+  "cta": {
+    "text": {
+      "en": "Need self-tapping screws for your roofing or cladding project? Get a factory quote from TradeGo.",
+      "zh": "需要自攻螺钉用于屋顶或覆层项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "imageAlt": "Self-Tapping & Sheet Metal Screws Complete - fastener solutions"
+}
