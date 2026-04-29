@@ -1,0 +1,321 @@
+{
+  "slug": "fastener-quality-control-iso9001",
+  "category": "Quality Standards",
+  "date": "2026-04-24",
+  "readTime": 9,
+  "image": "/images/scenarios/quality-control.jpg",
+  "title": {
+    "en": "Fastener Quality Control Under ISO 9001:2015 — From Raw M...",
+    "zh": "ISO 9001:2015下的紧固件质量控制 — 从原材料到出货",
+    "es": "Control de calidad de fijadores bajo ISO 9001:2015",
+    "ar": "مراقبة جودة المثبتات بموجب ISO 9001:2015",
+    "fr": "Contrôle qualité des fixations selon ISO 9001:2015",
+    "pt": "Controle de qualidade de fixadores sob ISO 9001:2015",
+    "ru": "Контроль качества крепежа по ISO 9001:2015",
+    "ja": "ISO 9001:2015に基づく締結具品質管理",
+    "de": "Befestigungs-Qualitätskontrolle nach ISO 9001:2015",
+    "hi": "ISO 9001:2015 के तहत फास्टनर गुणवत्ता नियंत्रण"
+  },
+  "description": {
+    "en": "Inside a certified fastener factory: how ISO 9001:2015 ensures every bolt, screw and nail meets specification. Raw material inspection, in-process control, f...",
+    "zh": "认证紧固件工厂内部：ISO 9001:2015如何确保每颗螺栓、螺丝和钉子符合规格。"
+  },
+  "keywords": "fastener quality control, ISO 9001 fasteners, mill test certificate, fastener inspection, quality assurance",
+  "sections": [
+    {
+      "id": "why-quality-matters",
+      "heading": {
+        "en": "Why Fastener Quality Is a Life-Safety Issue"
+      },
+      "body": {
+        "en": "A single failed bolt in a steel structure can trigger progressive collapse. The 1981 Hyatt Regency walkway collapse killed 114 people — caused by a fastener design change that doubled the load on a single nut. In 2024, the European Commission recalled 23 fastener product lines due to non-compliance with declared strength grades. The lesson: fastener quality is not a cost center — it is a risk mitigation investment. ISO 9001:2015 provides the systematic framework to prevent quality failures before they reach the job site."
+      }
+    },
+    {
+      "id": "incoming-inspection",
+      "heading": {
+        "en": "Stage 1: Incoming Raw Material Inspection"
+      },
+      "body": {
+        "en": "Quality starts at the steel mill. Every coil of wire rod entering our facility undergoes verification before production begins."
+      },
+      "table": {
+        "headers": [
+          "Test",
+          "Standard",
+          "Frequency",
+          "Accept Criteria"
+        ],
+        "rows": [
+          [
+            "Chemical composition",
+            "ISO 14284 / ASTM E415",
+            "Every heat",
+            "C, Mn, Si, S, P within spec"
+          ],
+          [
+            "Wire diameter",
+            "ISO 8456",
+            "Every coil",
+            "±0.03mm tolerance"
+          ],
+          [
+            "Surface condition",
+            "Visual + magnetic particle",
+            "Every coil",
+            "No cracks, seams, laps"
+          ],
+          [
+            "Mechanical properties",
+            "ISO 6892-1",
+            "Per heat lot",
+            "Tensile + yield within spec"
+          ],
+          [
+            "Mill certificate review",
+            "EN 10204 Type 3.1",
+            "Every shipment",
+            "All values compliant"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "in-process-control",
+      "heading": {
+        "en": "Stage 2: In-Process Quality Control"
+      },
+      "body": {
+        "en": "Seven control points monitor production from wire to finished fastener. Heading inspection: dimensional checks on head diameter, head height, and under-head radius every 2 hours. Threading inspection: pitch diameter, thread length, and Go/No-Go gauge testing every hour. Heat treatment monitoring: furnace temperature recording every 15 minutes with SPC control charts, quench oil temperature monitoring, tempering time/temperature verification. Surface treatment: coating thickness measurement (magnetic gauge for zinc, XRF for multi-layer), salt spray test samples from each batch. Statistical process control (SPC): Cpk values tracked for all critical dimensions — minimum Cpk of 1.33 required for continued production."
+      },
+      "table": {
+        "headers": [
+          "Control Point",
+          "Parameter",
+          "Method",
+          "Frequency"
+        ],
+        "rows": [
+          [
+            "Wire drawing",
+            "Diameter, surface",
+            "Laser micrometer + visual",
+            "Continuous"
+          ],
+          [
+            "Cold heading",
+            "Head dimensions",
+            "Profile projector",
+            "Every 2 hours"
+          ],
+          [
+            "Thread rolling",
+            "Pitch diameter, length",
+            "Go/No-Go gauge",
+            "Every hour"
+          ],
+          [
+            "Heat treatment",
+            "Temperature profile",
+            "Thermocouple + SPC chart",
+            "Continuous"
+          ],
+          [
+            "Surface coating",
+            "Coating thickness",
+            "Magnetic gauge / XRF",
+            "Per batch"
+          ],
+          [
+            "Final dimensions",
+            "All critical dims",
+            "CMM / optical comparator",
+            "Per lot (500pc sample)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "final-testing",
+      "heading": {
+        "en": "Stage 3: Final Product Testing"
+      },
+      "body": {
+        "en": "Every production lot undergoes mechanical testing per ISO 898-1 (bolts) or ISO 898-2 (nuts) before release."
+      },
+      "table": {
+        "headers": [
+          "Test",
+          "Standard",
+          "Sample Size",
+          "Purpose"
+        ],
+        "rows": [
+          [
+            "Proof load test",
+            "ISO 898-1 §6",
+            "8 pcs/lot",
+            "Verify yield strength"
+          ],
+          [
+            "Tensile test",
+            "ISO 898-1 §7",
+            "8 pcs/lot",
+            "Verify ultimate strength"
+          ],
+          [
+            "Hardness test (HV/HRC)",
+            "ISO 898-1 §8",
+            "8 pcs/lot",
+            "Verify heat treatment"
+          ],
+          [
+            "Wedge tensile test",
+            "ISO 898-1 §9",
+            "8 pcs/lot",
+            "Verify head strength"
+          ],
+          [
+            "Nut proof load",
+            "ISO 898-2 §6",
+            "8 pcs/lot",
+            "Verify nut stripping strength"
+          ],
+          [
+            "Salt spray test",
+            "ISO 9227",
+            "3 pcs/coating batch",
+            "Verify corrosion resistance"
+          ],
+          [
+            "Dimensional inspection",
+            "ISO 4759-1",
+            "AQL per ISO 2859",
+            "Verify geometric tolerances"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "traceability",
+      "heading": {
+        "en": "Traceability: From Bolt to Steel Heat"
+      },
+      "body": {
+        "en": "ISO 9001:2015 clause 8.5.2 requires identification and traceability. Our system tracks every fastener lot through: steel heat number → wire rod coil number → production batch number → heat treatment lot → surface treatment lot → packaging lot → shipping lot. This means if a quality issue is discovered in the field, we can trace back to the exact steel heat and identify all affected batches within 2 hours. Mill Test Certificates (MTC) per EN 10204 Type 3.1 are provided with every shipment, signed by our quality director."
+      }
+    },
+    {
+      "id": "common-defects",
+      "heading": {
+        "en": "Common Defects & How We Prevent Them"
+      },
+      "body": {
+        "en": "Understanding failure modes is key to prevention. Head cracks from heading — detected by magnetic particle inspection, prevented by proper die maintenance and lubrication. Thread stripping from incorrect pitch diameter — detected by Go/No-Go gauges, prevented by SPC monitoring of thread rolling dies. Hydrogen embrittlement from electroplating — detected by sustained load testing (ISO 15330), prevented by mandatory baking (4-24hrs at 190-220°C) and process controls. Coating failures from inadequate surface preparation — detected by adhesion test (ISO 2819), prevented by proper cleaning and activation before plating. For more information, also see our guides on [packaging and shipping](/en/industry/fastener-packaging-shipping-guide), [standards comparison](/en/industry/construction-fastener-standards-comparison), [drywall screws](/en/industry/drywall-screws-complete-guide)."
+      },
+      "table": {
+        "headers": [
+          "Defect",
+          "Detection Method",
+          "Root Cause",
+          "Prevention"
+        ],
+        "rows": [
+          [
+            "Head cracks",
+            "MPI + visual",
+            "Die wear / excessive force",
+            "Die maintenance schedule"
+          ],
+          [
+            "Thread stripping",
+            "Go/No-Go gauge",
+            "Pitch diameter out of spec",
+            "SPC on thread rolling"
+          ],
+          [
+            "Hydrogen embrittlement",
+            "Sustained load test",
+            "Electroplating without bake",
+            "Mandatory baking protocol"
+          ],
+          [
+            "Coating adhesion failure",
+            "Cross-hatch test",
+            "Poor surface prep",
+            "Pre-treatment process control"
+          ],
+          [
+            "Dimensional non-conformance",
+            "CMM inspection",
+            "Tool wear",
+            "Tool life management system"
+          ],
+          [
+            "Strength below grade",
+            "Tensile/hardness test",
+            "Heat treatment deviation",
+            "Furnace SPC + alarm limits"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What is a Mill Test Certificate (MTC)?"
+          },
+          "a": {
+            "en": "An MTC (EN 10204 Type 3.1) is a quality document signed by the manufacturer's quality director that certifies the chemical composition and mechanical properties of a specific production lot. It traces the material back to the steel heat number. Always request Type 3.1 (not 2.2) for structural applications."
+          }
+        },
+        {
+          "q": {
+            "en": "How often should fastener suppliers be audited?"
+          },
+          "a": {
+            "en": "Per ISO 9001 clause 8.4, supplier performance should be monitored continuously and formally audited at minimum annually. For critical fastener applications (structural, automotive), consider semi-annual audits including witness testing."
+          }
+        },
+        {
+          "q": {
+            "en": "What AQL level should I specify for fasteners?"
+          },
+          "a": {
+            "en": "For general fasteners: AQL 1.0 for critical dimensions (thread, strength), AQL 2.5 for non-critical (appearance, minor dimensions). For structural/safety fasteners: AQL 0.65 for all critical parameters. Reference ISO 2859-1 for sampling plans."
+          }
+        },
+        {
+          "q": {
+            "en": "Can I trust a supplier's self-declared certificates?"
+          },
+          "a": {
+            "en": "For non-critical applications, Type 2.2 certificates (supplier's declaration) may suffice. For structural, safety-critical, or regulated applications, always require Type 3.1 certificates (independently verified by the manufacturer's QA department) and consider third-party inspection (Type 3.2)."
+          }
+        }
+      ]
+    }
+  ],
+  "relatedProducts": [
+    "bolts-nuts",
+    "drywall-screws",
+    "self-drilling-screws"
+  ],
+  "cta": {
+    "text": {
+      "en": "Every TradeGo shipment includes EN 10204 Type 3.1 mill test certificates. Quality you can verify.",
+      "zh": "每批TradeGo出货附带EN 10204 Type 3.1材质证明。可验证的品质。"
+    },
+    "buttonText": {
+      "en": "Request Quality Documentation",
+      "zh": "索取质量文件"
+    },
+    "link": "/#inquiry"
+  },
+  "imageAlt": "Fastener Quality Control Under ISO 9001 - fastener solutions"
+}

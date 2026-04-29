@@ -587,7 +587,61 @@ else
 fi
 
 # ==========================================
-# 第十一部分: Git提交推送
+
+# ==========================================
+# 第十一部分: GEO AI评估 (新增)
+# ==========================================
+log ""
+log "========== 🌍 GEO AI评估 =========="
+log "🤖 让AI评估网站GEO表现并给出优化建议..."
+
+if [ -f "$PROJECT_DIR/scripts/geo-ai-review.sh" ]; then
+    bash "$PROJECT_DIR/scripts/geo-ai-review.sh" >> "$LOG_FILE" 2>&1
+    GEO_EXIT=$?
+    if [ $GEO_EXIT -eq 0 ]; then
+        log "   ✅ GEO AI评估完成"
+        # 显示最新建议
+        LATEST_GEO=$(ls -t $PROJECT_DIR/logs/geo-recommendations-*.md 2>/dev/null | head -1)
+        if [ -n "$LATEST_GEO" ]; then
+            log "   📋 建议报告: $LATEST_GEO"
+        fi
+    else
+        log "   ⚠️ GEO AI评估失败，查看日志了解详情"
+    fi
+else
+    log "   ℹ️ geo-ai-review.sh不存在，跳过GEO评估"
+fi
+
+# 第十三部分: Git提交推送
+
+# ==========================================
+# 第十二部分: GEO健康检查 (整合seo-engine标准)
+# ==========================================
+log ""
+log "========== 🏥 GEO健康检查 (seo-engine) =========="
+if [ -f "$PROJECT_DIR/scripts/geo-health-check.py" ]; then
+    GEO_HEALTH_LOG="$LOG_DIR/geo-health-$(date '+%Y-%m-%d').json"
+    python3 "$PROJECT_DIR/scripts/geo-health-check.py" 2>&1 | tee -a "$LOG_FILE"
+    if [ -f "$GEO_HEALTH_LOG" ]; then
+        # 提取分数
+        GEO_SCORE=$(python3 -c "import json; d=json.load(open('$GEO_HEALTH_LOG')); print(d.get('score',0))" 2>/dev/null || echo "0")
+        GEO_MAX=$(python3 -c "import json; d=json.load(open('$GEO_HEALTH_LOG')); print(d.get('max_score',100))" 2>/dev/null || echo "100")
+        GEO_PCT=$(python3 -c "print(int($GEO_SCORE*100/$GEO_MAX))" 2>/dev/null || echo "0")
+        log "   📊 GEO健康分数: $GEO_SCORE/$GEO_MAX ($GEO_PCT%)"
+        
+        # 检查通过率
+        SCHEMA_PASS=$(python3 -c "import json; d=json.load(open('$GEO_HEALTH_LOG')); print(d.get('results',{}).get('schema',{}).get('passed',0))" 2>/dev/null || echo "0")
+        log "   📋 Schema通过: $SCHEMA_PASS/12"
+        
+        # 如果分数低于60%，发出警告
+        if [ "$GEO_PCT" -lt 60 ]; then
+            log "   ⚠️ GEO分数偏低，建议优先优化"
+        fi
+    fi
+else
+    log "   ℹ️ geo-health-check.py不存在，跳过GEO健康检查"
+fi
+
 # ==========================================
 log ""
 log "========== Git同步 =========="
@@ -604,7 +658,7 @@ else
 fi
 
 # ==========================================
-# 第十二部分: 待优化建议
+# 第十四部分: 待优化建议
 # ==========================================
 log ""
 log "========== 待优化建议 =========="

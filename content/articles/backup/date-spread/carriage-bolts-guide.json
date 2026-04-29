@@ -1,0 +1,202 @@
+{
+  "slug": "carriage-bolts-guide",
+  "category": "Technical Guide",
+  "date": "2026-04-22",
+  "readTime": 6,
+  "image": "/images/articles/carriage-bolts-guide.jpg",
+  "title": {
+    "en": "Carriage Bolts Guide: Square Neck Bolts for Wood & Timber...",
+    "zh": "方颈螺栓（马车螺栓）指南：非洲木材结构应用",
+    "es": "Guía de pernos de cabeza cuadrada: pernos de cuello cuadr...",
+    "ar": "دليل البراغي المربعبة: براغي الرقبة المربعة للبناء الخشبي...",
+    "fr": "Guide des boulons de carrosserie: boulons à col carré pou...",
+    "pt": "Guia de pernos de cabeça quadrada: pernos de pescoço quad..."
+  },
+  "description": {
+    "en": "Complete guide to carriage bolts (square neck bolts) covering DIN 603 standards, applications in wooden structures, and selection criteria for African constr...",
+    "zh": "方颈螺栓（马车螺栓）完整指南，涵盖DIN 603标准、木结构应用及非洲建筑项目选型标准。",
+    "es": "Guía completa de pernos de cabeza cuadrada que cubre estándares DIN 603.",
+    "ar": "دليل شامل لبراغي الرأس المربع يغطي معايير DIN 603.",
+    "fr": "Guide complet des boulons de carrosserie couvrant les normes DIN 603.",
+    "pt": "Guia completo de pernos de cabeça quadrada cobrindo padrões DIN 603."
+  },
+  "keywords": "carriage bolts, square neck bolts, DIN 603, wood construction fasteners, timber bolts",
+  "sections": [
+    {
+      "id": "what-are-carriage-bolts",
+      "heading": {
+        "en": "What Are Carriage Bolts?"
+      },
+      "body": {
+        "en": "Carriage bolts (also called round head square neck bolts or coach bolts) feature a smooth, rounded head with a square section beneath that prevents rotation during installation. The square neck bites into wood fibers, eliminating the need for a washer and preventing the bolt from spinning when the nut is tightened. This makes them ideal for wood-to-wood and wood-to-metal connections where a smooth appearance is desired."
+      }
+    },
+    {
+      "id": "din-603-specs",
+      "heading": {
+        "en": "DIN 603 Specifications"
+      },
+      "body": {
+        "en": "DIN 603 is the European standard for carriage bolts. The standard specifies dimensions, mechanical properties, and testing requirements. Key dimensions include thread diameter (M5 to M24), overall length (25mm to 300mm), head diameter, and square neck dimensions. The thread length formula is typically 2d + 6mm for bolts up to 150mm length."
+      },
+      "table": {
+        "headers": [
+          "Size",
+          "Head Diameter",
+          "Square Neck Size",
+          "Length Range"
+        ],
+        "rows": [
+          [
+            "M6",
+            "13mm",
+            "6.1mm",
+            "20-80mm"
+          ],
+          [
+            "M8",
+            "17mm",
+            "8.1mm",
+            "25-100mm"
+          ],
+          [
+            "M10",
+            "21mm",
+            "10.2mm",
+            "30-120mm"
+          ],
+          [
+            "M12",
+            "25mm",
+            "12.2mm",
+            "35-150mm"
+          ],
+          [
+            "M16",
+            "33mm",
+            "16.2mm",
+            "50-200mm"
+          ],
+          [
+            "M20",
+            "41mm",
+            "20.2mm",
+            "60-300mm"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "applications",
+      "heading": {
+        "en": "Common Applications in African Construction"
+      },
+      "body": {
+        "en": "Carriage bolts are widely used in African construction: timber frame buildings—structural connections in traditional and modern timber construction; outdoor structures—decks, pergolas, and outdoor furniture; agricultural buildings—farm buildings, storage facilities, and livestock shelters; and furniture manufacturing—where smooth heads provide aesthetic appeal."
+      }
+    },
+    {
+      "id": "material-coating",
+      "heading": {
+        "en": "Material and Coating Selection"
+      },
+      "body": {
+        "en": "For African environments, material selection is critical. Carbon steel carriage bolts with hot-dip galvanizing offer excellent corrosion resistance for outdoor and coastal applications. Stainless steel A2 (304) provides superior corrosion resistance but at higher cost. Zinc-plated carriage bolts are suitable for indoor use or temporary structures."
+      }
+    },
+    {
+      "id": "installation",
+      "heading": {
+        "en": "Installation Tips"
+      },
+      "body": {
+        "en": "Proper installation: Drill a pilot hole slightly larger than the thread diameter but smaller than the square neck. Insert the carriage bolt from the smooth side (where you want the head visible). The square neck should face the wood surface. Use a washer and nut on the opposite side. Tighten with a wrench while the square neck prevents rotation. Do not over-tighten—excessive torque can damage wood fibers."
+      }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Technical Guide and how are they used?"
+          },
+          "a": {
+            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
+          }
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "text": {
+      "en": "Need fasteners for your project? Get a factory quote from TradeGo.",
+      "zh": "需要紧固件用于项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "relatedProducts": [],
+  "metaDescription": "Complete guide to carriage bolts (coach bolts) covering DIN 603 standards, wood applications, timber construction, and outdoor use with hot-dip galvanizing.",
+  "faqItems": [
+    {
+      "question": "What is the difference between carriage bolts and hex bolts?",
+      "answer": "Carriage bolts (DIN 603) have a round head with a square collar below the head that locks into wood - preventing rotation when nuts are tightened from the opposite side. Hex bolts have a six-sided head and require wrench access from the bolt side. Carriage bolts provide a smooth, finished appearance on one side."
+    },
+    {
+      "question": "How do I install carriage bolts in wood?",
+      "answer": "Installation steps: 1) Drill a pilot hole slightly larger than the bolt shank; 2) Insert bolt from the smooth-side (visible side); 3) The square collar prevents rotation; 4) Add washer and hex nut from opposite side; 5) Tighten with wrench. For hardwoods, pre-drilling is essential to prevent wood splitting."
+    },
+    {
+      "question": "What are the applications for carriage bolts in African construction?",
+      "answer": "Carriage bolts are ideal for: Timber frame construction - widely used in roof trusses and wooden structures across Africa; Agricultural structures - barns, storage facilities; Playground equipment - smooth head prevents injury; Furniture assembly - clean finished appearance; Bridge decking where one-sided access is common."
+    },
+    {
+      "question": "What is the difference between zinc-plated and hot-dip galvanized carriage bolts?",
+      "answer": "Zinc-plated carriage bolts have 5-15μm electroplated zinc coating - suitable for indoor and dry environments. Hot-dip galvanized (HDG) bolts have 45-85μm zinc coating applied by dipping in molten zinc - essential for outdoor African construction, mining areas, and humid coastal regions. HDG provides 5-10x more corrosion protection."
+    },
+    {
+      "question": "How do I choose between different lengths of carriage bolts?",
+      "answer": "Choose carriage bolt length by: 1) Material thickness being fastened - bolt should pass through with 2-3 threads extending beyond nut; 2) General rule: minimum 3 threads engagement in nut; 3) For timber, consider wood compression over time; 4) Longer is not always better - excess length reduces shear capacity. Standard lengths available: 20mm to 300mm for DIN 603."
+    }
+  ],
+  "imageAlt": "Carriage Bolts Guide Square Neck - fastener solutions"
+}

@@ -1,0 +1,347 @@
+{
+  "slug": "hex-bolt-dimensions-chart",
+  "category": "Technical Guide",
+  "date": "2026-04-21",
+  "readTime": 10,
+  "image": "/images/articles/africa-industrial-1.jpg",
+  "title": {
+    "en": "Hex Bolt Dimensions Chart: Complete Metric & Imperial Siz...",
+    "zh": "六角螺栓尺寸表：公制与英制完整尺寸指南及公差",
+    "es": "Tabla de dimensiones de pernos hexagonales: guía completa...",
+    "ar": "جدول أبعاد البراغي السداسية: دليل كامل للمقاسات المترية و...",
+    "fr": "Tableau des dimensions des boulons hexagonaux : guide com...",
+    "pt": "Tabela de dimensões de parafusos hexagonais: guia complet...",
+    "ru": "Таблица размеров шестигранных болтов: полное руководство...",
+    "ja": "六角ボルト寸法表：メートルおよびインチサイズの完全ガイド",
+    "de": "Sechskantschrauben-Maßtabelle: Vollständige metrische und...",
+    "hi": "हेक्स बोल्ट आयाम चार्ट: मेट्रिक और इंपीरियल आकार की पूर्ण..."
+  },
+  "description": {
+    "en": "Complete hex bolt dimensions chart covering M6-M48 metric and 1/4-2 inch imperial sizes. Includes head dimensions, thread length, tolerances per ISO 4014/401...",
+    "zh": "完整六角螺栓尺寸表，涵盖M6-M48公制和1/4-2英寸英制尺寸。包括头部尺寸、螺纹长度和公差。"
+  },
+  "keywords": "hex bolt dimensions, bolt size chart, metric bolt dimensions, imperial bolt sizes, ISO 4014, ASME B18.2.1, bolt head dimensions",
+  "sections": [
+    {
+      "id": "why-dimensions-matter",
+      "heading": {
+        "en": "Why Accurate Bolt Dimensions Matter"
+      },
+      "body": {
+        "en": "Incorrect bolt dimensions are one of the top causes of fastener failure in construction and manufacturing. A bolt that is too short may not develop adequate thread engagement, reducing joint capacity by up to 50%. A bolt head that is too large for the fixture creates interference; too small and the washer face cannot distribute load properly. In procurement, ordering the wrong dimensions wastes 3-8% of project fastener budgets on average through returns and reorders. Understanding hex bolt dimension standards ensures you specify correctly the first time."
+      }
+    },
+    {
+      "id": "metric-hex-bolt-dimensions",
+      "heading": {
+        "en": "Metric Hex Bolt Dimensions (ISO 4014 / ISO 4017)"
+      },
+      "body": {
+        "en": "Metric hex bolts are designated by thread diameter (M) and length in millimeters. ISO 4014 defines partially threaded hex bolts (the standard for structural applications), while ISO 4017 defines fully threaded hex bolts. The across-flats (AF) dimension determines the wrench size needed. Thread pitch can be coarse (standard) or fine — coarse pitch is the default for most applications and provides better resistance to stripping and contamination."
+      },
+      "table": {
+        "headers": [
+          "Size",
+          "Thread Pitch (mm)",
+          "Head AF (mm)",
+          "Head Height (mm)",
+          "Wrench Size (mm)"
+        ],
+        "rows": [
+          [
+            "M6",
+            "1.0",
+            "10.0",
+            "4.0",
+            "10"
+          ],
+          [
+            "M8",
+            "1.25",
+            "13.0",
+            "5.3",
+            "13"
+          ],
+          [
+            "M10",
+            "1.5",
+            "16.0",
+            "6.4",
+            "16"
+          ],
+          [
+            "M12",
+            "1.75",
+            "18.0",
+            "7.5",
+            "18"
+          ],
+          [
+            "M16",
+            "2.0",
+            "24.0",
+            "10.0",
+            "24"
+          ],
+          [
+            "M20",
+            "2.5",
+            "30.0",
+            "12.5",
+            "30"
+          ],
+          [
+            "M24",
+            "3.0",
+            "36.0",
+            "15.0",
+            "36"
+          ],
+          [
+            "M30",
+            "3.5",
+            "46.0",
+            "18.7",
+            "46"
+          ],
+          [
+            "M36",
+            "4.0",
+            "55.0",
+            "22.5",
+            "55"
+          ],
+          [
+            "M42",
+            "4.5",
+            "65.0",
+            "26.0",
+            "65"
+          ],
+          [
+            "M48",
+            "5.0",
+            "75.0",
+            "30.0",
+            "75"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "imperial-hex-bolt-dimensions",
+      "heading": {
+        "en": "Imperial Hex Bolt Dimensions (ASME B18.2.1)"
+      },
+      "body": {
+        "en": "Imperial (inch) hex bolts follow ASME B18.2.1 in the US market. While metric is the global standard, imperial bolts remain common in North American construction, oil & gas, and legacy infrastructure worldwide — including older installations across Africa and the Middle East. UNC (Unified National Coarse) is the standard thread series, similar to metric coarse pitch."
+      },
+      "table": {
+        "headers": [
+          "Size (in)",
+          "TPI (UNC)",
+          "Head AF (in)",
+          "Head Height (in)",
+          "Wrench Size (in)"
+        ],
+        "rows": [
+          [
+            "1/4",
+            "20",
+            "7/16",
+            "11/64",
+            "7/16"
+          ],
+          [
+            "5/16",
+            "18",
+            "1/2",
+            "7/32",
+            "1/2"
+          ],
+          [
+            "3/8",
+            "16",
+            "9/16",
+            "1/4",
+            "9/16"
+          ],
+          [
+            "1/2",
+            "13",
+            "3/4",
+            "11/32",
+            "3/4"
+          ],
+          [
+            "5/8",
+            "11",
+            "15/16",
+            "27/64",
+            "15/16"
+          ],
+          [
+            "3/4",
+            "10",
+            "1-1/8",
+            "1/2",
+            "1-1/8"
+          ],
+          [
+            "7/8",
+            "9",
+            "1-5/16",
+            "37/64",
+            "1-5/16"
+          ],
+          [
+            "1",
+            "8",
+            "1-1/2",
+            "43/64",
+            "1-1/2"
+          ],
+          [
+            "1-1/4",
+            "7",
+            "1-7/8",
+            "27/32",
+            "1-7/8"
+          ],
+          [
+            "1-1/2",
+            "6",
+            "2-1/4",
+            "31/32",
+            "2-1/4"
+          ],
+          [
+            "2",
+            "4.5",
+            "3",
+            "1-5/16",
+            "3"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "thread-length-rules",
+      "heading": {
+        "en": "Thread Length Rules for Partially Threaded Bolts"
+      },
+      "body": {
+        "en": "For ISO 4014 partially threaded hex bolts, thread length depends on bolt diameter. The formula is: bolt length ≤ 125mm → thread length = 2d + 6mm; 125mm < bolt length ≤ 200mm → thread length = 2d + 12mm; bolt length > 200mm → thread length = 2d + 25mm (where d = nominal diameter). The unthreaded shank (grip length) is critical for shear-loaded joints — the shank should pass through both connected parts without threads in the shear plane. For structural joints, specify bolt length so that the grip length matches the total thickness of connected parts."
+      }
+    },
+    {
+      "id": "tolerances",
+      "heading": {
+        "en": "Dimensional Tolerances You Should Know"
+      },
+      "body": {
+        "en": "ISO 4014/4017 specifies tolerances that affect fit and function. Head across-flats tolerance is typically -0 to +0.5mm for sizes up to M24. Body diameter tolerance follows ISO general tolerances (grade g for bolt bodies). Thread tolerance class 6g is standard for general-purpose bolts — this provides a clearance fit with the 6H nut thread. For high-precision applications, specify 4g6g (tighter). Length tolerance for bolt length is typically ±1.5mm for lengths up to 100mm. When ordering, always specify the standard (ISO or ASME) — mixing systems causes fit problems."
+      },
+      "table": {
+        "headers": [
+          "Dimension",
+          "Tolerance (ISO)",
+          "Impact of Out-of-Spec"
+        ],
+        "rows": [
+          [
+            "Head AF",
+            "0 to +0.5mm",
+            "Wrench fit, torque accuracy"
+          ],
+          [
+            "Body diameter",
+            "ISO g tolerance",
+            "Hole fit, shear capacity"
+          ],
+          [
+            "Thread class",
+            "6g (standard)",
+            "Nut engagement, preload"
+          ],
+          [
+            "Bolt length",
+            "±1.5mm (≤100mm)",
+            "Grip length, thread engagement"
+          ],
+          [
+            "Head height",
+            "0 to +0.6mm",
+            "Wrench clearance, bearing area"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "procurement-tips",
+      "heading": {
+        "en": "Procurement Tips: Avoiding Dimension Mix-Ups"
+      },
+      "body": {
+        "en": "The most common procurement errors are: confusing bolt length with thread length (always specify total bolt length per the standard); mixing metric and imperial in the same order (clearly separate line items); not specifying thread pitch for metric bolts above M18 where fine pitch alternatives exist; and ordering partially threaded when fully threaded is needed (or vice versa). For African infrastructure projects, metric is the standard, but always confirm the project specification — some oil & gas projects use imperial. Create a fastener schedule table for each project listing: size, grade, length, thread type, coating, and quantity. For more information, also see our guides on [bolt grades](/en/industry/bolt-grade-markings-guide), [carriage bolts](/en/industry/carriage-bolts-specifications), [nuts and bolts](/en/industry/nylon-nuts-bolts-guide)."
+      }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What does M12×1.75 mean?"
+          },
+          "a": {
+            "en": "M12 is the nominal thread diameter (12mm). 1.75 is the thread pitch in millimeters (distance between adjacent threads). This is the standard coarse pitch for M12 bolts."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I measure bolt length correctly?"
+          },
+          "a": {
+            "en": "For hex bolts, measure from under the head to the end of the bolt. Do NOT include the head height. For countersunk bolts, measure total length including the head."
+          }
+        },
+        {
+          "q": {
+            "en": "Can I use a metric wrench on an imperial bolt?"
+          },
+          "a": {
+            "en": "Not recommended. Close size matches (e.g., 13mm on 1/2\" bolt) risk rounding the head. Always use the correct wrench size per the bolt standard."
+          }
+        },
+        {
+          "q": {
+            "en": "What thread engagement depth do I need?"
+          },
+          "a": {
+            "en": "Minimum thread engagement = 1x bolt diameter for steel nuts, 1.5x diameter for aluminum, and 2x diameter for cast iron. Full engagement equals the nut height, which is typically 0.8x diameter."
+          }
+        }
+      ]
+    }
+  ],
+  "relatedProducts": [
+    "bolts-nuts",
+    "drywall-screws",
+    "self-drilling-screws"
+  ],
+  "cta": {
+    "text": {
+      "en": "Need hex bolts in specific dimensions? TradeGo supplies full range metric and imperial bolts with certified dimensional accuracy.",
+      "zh": "需要特定尺寸的六角螺栓？TradeGo供应全系列公制英制螺栓，尺寸精度认证。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "imageAlt": "Industrial fastener manufacturing and supply chain in Africa"
+}

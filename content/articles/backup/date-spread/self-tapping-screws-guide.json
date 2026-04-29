@@ -1,0 +1,161 @@
+{
+  "slug": "self-tapping-screws-guide",
+  "category": "Technical Guide",
+  "date": "2026-04-22",
+  "readTime": 7,
+  "image": "/images/products/self-tapping-screws.jpg",
+  "title": {
+    "en": "Self-Tapping Screws Guide: Types, Applications & Selectio...",
+    "zh": "自攻螺钉指南：金属与木材紧固的类型、应用与选型",
+    "es": "Guía de tornillos autorroscantes: tipos, aplicaciones y s...",
+    "ar": "دليل البراغي ذات الخيوط الذاتية: الأنواع والتطبيقات والاخ...",
+    "fr": "Guide des vis taraudeuses: types, applications et sélection",
+    "pt": "Guia de parafusos auto-atarraxantes: tipos, aplicações e..."
+  },
+  "description": {
+    "en": "Complete guide to self-tapping screws including drill screws, metal screws, and wood screws. Learn how to select the right self-tapping screw for steel, alum...",
+    "zh": "自攻螺钉完整指南，包括钻尾螺钉、金属螺钉和木螺钉。了解建筑项目中如何为钢材、铝材和木材应用选择正确的自攻螺钉。",
+    "es": "Guía completa de tornillos autorroscantes incluyendo tornillos de taladro, tornillos metálicos.",
+    "ar": "دليل شامل للبراغي ذات الخيوط الذاتية بما في ذلك براغي الحفر والبراغي المعدنية.",
+    "fr": "Guide complet des vis taraudeuses incluant les vis de forage et les vis métalliques.",
+    "pt": "Guia completo de parafusos auto-atarraxantes incluindo parafusos de broca e parafusos metálicos."
+  },
+  "keywords": "self-tapping screws, drill screws, tek screws, metal screws, construction fasteners, roofing screws",
+  "sections": [
+    {
+      "id": "what-are-self-tapping",
+      "heading": {
+        "en": "What Are Self-Tapping Screws?"
+      },
+      "body": {
+        "en": "Self-tapping screws (also called self-drilling or Tek screws) have a sharp point and specially designed thread that allows them to create their own mating thread in materials like sheet metal, plastic, or wood. Unlike standard screws that require pre-drilled pilot holes, self-tapping screws drill their own hole as they are driven in, significantly speeding up installation."
+      }
+    },
+    {
+      "id": "types",
+      "heading": {
+        "en": "Types of Self-Tapping Screws"
+      },
+      "body": {
+        "en": "There are three main types: Type AB point screws have a Type A point with a finer thread, suitable for thin sheet metal up to 0.9mm. Type B point screws have a 45-degree Type B point, ideal for thicker materials up to 2.3mm. Drill point (Type III) screws have a flat tip with drill flutes, capable of drilling through steel up to 5mm without pre-drilling."
+      },
+      "table": {
+        "headers": [
+          "Type",
+          "Point Style",
+          "Material Thickness",
+          "Applications"
+        ],
+        "rows": [
+          [
+            "Type AB",
+            "Sharp point, fine thread",
+            "Up to 0.9mm",
+            "Thin sheet metal, HVAC, signage"
+          ],
+          [
+            "Type B",
+            "45-degree blunt point",
+            "Up to 2.3mm",
+            "Thicker metal, brackets, frames"
+          ],
+          [
+            "Type III (Drill)",
+            "Drill point with flutes",
+            "Up to 5mm",
+            "Steel framing, roofing, structural"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "applications",
+      "heading": {
+        "en": "Common Applications in African Construction"
+      },
+      "body": {
+        "en": "Self-tapping screws are essential in African construction: roofing installation—attaching metal roofing sheets to purlins; steel framing—connecting steel studs and tracks; HVAC ductwork—securing duct sections; solar panel mounting—fixing panel frames to racking systems; and general sheet metal fabrication for commercial buildings."
+      }
+    },
+    {
+      "id": "coatings",
+      "heading": {
+        "en": "Coatings for Corrosion Resistance"
+      },
+      "body": {
+        "en": "For African environments, coating selection is critical. Zinc-plated screws offer basic protection for indoor use. Black phosphate screws provide temporary protection and lubrication during installation. For outdoor and coastal applications, stainless steel (A2 304 or A4 316) or hot-dip galvanized screws are essential to prevent rusting and premature failure."
+      }
+    },
+    {
+      "id": "selection",
+      "heading": {
+        "en": "How to Select the Right Self-Tapping Screw"
+      },
+      "body": {
+        "en": "Selection criteria: Material being fastened—determine thickness and type (steel, aluminum, wood). Load requirements—heavier loads require larger diameter and more threads. Environmental exposure—coastal and outdoor applications need corrosion-resistant coatings. Installation speed—drill point screws offer fastest installation through steel. Use this formula: for steel up to 2.3mm, use Type B; for steel 2.3-5mm, use Type III drill point."
+      }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто Задаваемые Вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Technical Guide and how are they used?"
+          },
+          "a": {
+            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I choose the right fastener for my project?"
+          },
+          "a": {
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What materials are available for these fasteners?"
+          },
+          "a": {
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you offer custom manufacturing?"
+          },
+          "a": {
+            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
+          }
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "text": {
+      "en": "Need fasteners for your project? Get a factory quote from TradeGo.",
+      "zh": "需要紧固件用于项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "relatedProducts": [],
+  "imageAlt": "Self-Tapping Screws Guide Types - fastener solutions"
+}
