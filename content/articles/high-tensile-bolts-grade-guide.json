@@ -143,33 +143,6 @@
           }
         }
       ]
-    },
-    {
-      "id": "sources-and-references",
-      "heading": {
-        "en": "Sources & References",
-        "zh": "来源与参考文献",
-        "es": "Fuentes y Referencias",
-        "fr": "Sources et Références",
-        "pt": "Fontes e Referências",
-        "ar": "المصادر والمراجع",
-        "ru": "Источники и ссылки",
-        "ja": "ソースと参考文献",
-        "de": "Quellen und Referenzen",
-        "hi": "स्रोत और संदर्भ"
-      },
-      "body": {
-        "en": "**Market Data**: TradeGo internal market research and analysis\n\n**Trade Statistics**: Data adapted from UN Comtrade (uncomtrade.un.org) and African Development Bank statistical reports\n\n**Industry Standards**: International Standards Organization (ISO) and regional standards bodies\n\n_Market data and statistics are for informational purposes only and should be verified with current sources before making business decisions._",
-        "zh": "**市场数据**: TradeGo internal market research and analysis\n\n**贸易统计**: Data adapted from UN Comtrade (uncomtrade.un.org) and African Development Bank statistical reports\n\n**行业标准**: International Standards Organization (ISO) and regional standards bodies\n\n_Market data and statistics are for informational purposes only and should be verified with current sources before making business decisions._",
-        "es": "**Datos de Mercado**: TradeGo internal market research and analysis\n\n**Estadísticas Comerciales**: Data adapted from UN Comtrade (uncomtrade.un.org) and African Development Bank statistical reports\n\n**Estándares de la Industria**: International Standards Organization (ISO) and regional standards bodies\n\n_Market data and statistics are for informational purposes only and should be verified with current sources before making business decisions._",
-        "fr": "**Données de Marché**: TradeGo internal market research and analysis\n\n**Statistiques Commerciales**: Data adapted from UN Comtrade (uncomtrade.un.org) and African Development Bank statistical reports\n\n**Normes de l'Industrie**: International Standards Organization (ISO) and regional standards bodies\n\n_Market data and statistics are for informational purposes only and should be verified with current sources before making business decisions._",
-        "pt": "**Dados de Mercado**: TradeGo internal market research and analysis\n\n**Estatísticas Comerciais**: Data adapted from UN Comtrade (uncomtrade.un.org) and African Development Bank statistical reports\n\n**Padrões da Indústria**: International Standards Organization (ISO) and regional standards bodies\n\n_Market data and statistics are for informational purposes only and should be verified with current sources before making business decisions._",
-        "ar": "**بيانات السوق**: TradeGo internal market research and analysis\n\n**إحصاءات التجارة**: Data adapted from UN Comtrade (uncomtrade.un.org) and African Development Bank statistical reports\n\n**معايير الصناعة**: International Standards Organization (ISO) and regional standards bodies\n\n_Market data and statistics are for informational purposes only and should be verified with current sources before making business decisions._",
-        "ru": "**Рыночные Данные**: TradeGo internal market research and analysis\n\n**Торговая Статистика**: Data adapted from UN Comtrade (uncomtrade.un.org) and African Development Bank statistical reports\n\n**Отраслевые Стандарты**: International Standards Organization (ISO) and regional standards bodies\n\n_Market data and statistics are for informational purposes only and should be verified with current sources before making business decisions._",
-        "ja": "**市場データ**: TradeGo internal market research and analysis\n\n**貿易統計**: Data adapted from UN Comtrade (uncomtrade.un.org) and African Development Bank statistical reports\n\n**業界標準**: International Standards Organization (ISO) and regional standards bodies\n\n_Market data and statistics are for informational purposes only and should be verified with current sources before making business decisions._",
-        "de": "**Marktdaten**: TradeGo internal market research and analysis\n\n**Handelsstatistiken**: Data adapted from UN Comtrade (uncomtrade.un.org) and African Development Bank statistical reports\n\n**Industrienormen**: International Standards Organization (ISO) and regional standards bodies\n\n_Market data and statistics are for informational purposes only and should be verified with current sources before making business decisions._",
-        "hi": "**बाजार डेटा**: TradeGo internal market research and analysis\n\n**व्यापार आंकड़े**: Data adapted from UN Comtrade (uncomtrade.un.org) and African Development Bank statistical reports\n\n**उद्योग मानक**: International Standards Organization (ISO) and regional standards bodies\n\n_Market data and statistics are for informational purposes only and should be verified with current sources before making business decisions._"
-      }
     }
   ],
   "cta": {
@@ -185,44 +158,5 @@
   },
   "relatedProducts": [],
   "imageAlt": "High Tensile Bolts Guide Understanding - fastener solutions",
-  "updated": "2026-02-19",
-  "author": {
-    "name": "TradeGo Editorial Team",
-    "role": "Industrial Fasteners Trade Specialist",
-    "credentials": "B2B Export Import Experts",
-    "bio": "TradeGo provides verified fastener suppliers and industrial hardware solutions for African markets since 2020.",
-    "certifications": [
-      "ISO 9001 Quality Management",
-      "SGS Verified Supplier"
-    ]
-  },
-  "dataSources": {
-    "marketData": "TradeGo internal market research, verified through multiple African trade partners",
-    "statistics": "Data compiled from UN Comtrade, African Development Bank reports, and regional trade statistics",
-    "lastUpdated": "2026-04-29",
-    "verificationStatus": "verified"
-  },
-  "lastVerified": "2026-04-29",
-  "editorNote": "This article was reviewed and updated to ensure accuracy of market data and statistics.",
-  "citations": {
-    "citationStyle": "APA 7th Edition",
-    "sources": [
-      {
-        "type": "marketData",
-        "citation": "TradeGo internal market research and analysis",
-        "lastUpdated": "2026-04-29"
-      },
-      {
-        "type": "tradeStatistics",
-        "citation": "Data adapted from UN Comtrade (uncomtrade.un.org) and African Development Bank statistical reports",
-        "lastUpdated": "2026-04-29"
-      },
-      {
-        "type": "industryStandards",
-        "citation": "International Standards Organization (ISO) and regional standards bodies",
-        "lastUpdated": "2026-04-29"
-      }
-    ],
-    "disclaimer": "Market data and statistics are for informational purposes only and should be verified with current sources before making business decisions."
-  }
+  "updated": "2026-02-19"
 }

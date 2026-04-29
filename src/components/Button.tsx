@@ -64,14 +64,10 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       lg: 'px-8 py-4 text-lg rounded-button min-h-[56px]',
     };
 
-    // Use provided aria-label or generate one from children text
-    const ariaLabel = props['aria-label'] || (typeof children === 'string' ? children : undefined);
-    
     return (
       <button
         ref={ref}
         disabled={disabled || loading}
-        aria-label={ariaLabel}
         className={`
           ${baseClasses}
           ${variantClasses[variant]}
