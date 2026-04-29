@@ -129,7 +129,8 @@ const geoConfig: Record<string, { lang: string; currency: string }> = {
   default: { lang: 'en', currency: 'USD' },
 }
 
-export function middleware(request: NextRequest) {
+// geo-routing based on x-vercel-ip-country header
+export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl
 
   // Skip API routes, static files, and Next.js internals

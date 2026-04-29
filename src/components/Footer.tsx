@@ -5,6 +5,8 @@ interface FooterProps { locale?: Locale }
 
 // Static year - avoid new Date() during render to prevent hydration mismatch
 const CURRENT_YEAR = 2026
+
+export default function Footer({ locale = 'en' }: FooterProps) {
   return (
     <footer className="bg-primary-900 text-white py-10 md:py-12">
       <div className="container mx-auto px-4 sm:px-6">
