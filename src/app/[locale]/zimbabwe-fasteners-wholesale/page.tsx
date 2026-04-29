@@ -158,6 +158,13 @@ export default async function ZimbabweFastenersPage({ params }: { params: Promis
         "description": "Professional fastener wholesale supplier for Zimbabwe market. Drywall screws, hex bolts, IBR nails, self-drilling screws.",
         "url": "https://www.tradego-fasteners.com/en/zimbabwe-fasteners-wholesale",
         "telephone": "+86-159-6340-9951",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "CN",
+          "addressRegion": "Guangdong",
+          "addressLocality": "Shenzhen",
+          "streetAddress": "Factory Address Available Upon Request"
+        },
         "whatsApp": "+8615963409951",
         "areaServed": [
           { "@type": "Country", "name": "Zimbabwe" },
