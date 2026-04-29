@@ -36,6 +36,12 @@ export default function Footer({ locale = 'en' }: FooterProps) {
               <p>📍 {t(locale, 'footer.address')}</p>
               <p>📧 {t(locale, 'footer.email')}</p>
               <p>📱 WhatsApp: +86 159 6340 9951</p>
+              <div className="mt-2 pt-2 border-t border-gray-700">
+                <p className="text-gray-500 text-xs">🚢 Sea Freight to Africa</p>
+                <p className="text-gray-500 text-xs">Durban 25-30 days</p>
+                <p className="text-gray-500 text-xs">Beira 20-25 days</p>
+                <p className="text-gray-500 text-xs">Mombasa 28-32 days</p>
+              </div>
             </div>
           </div>
 
