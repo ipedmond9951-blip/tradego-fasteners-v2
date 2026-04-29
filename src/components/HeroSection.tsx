@@ -51,7 +51,7 @@ export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
                 {heroProducts.map((p, i) => (
                   <a key={i} href={`/${locale}#products`} className="group flex items-start gap-3 md:gap-4 p-2 -mx-2 rounded-lg hover:bg-white/[0.08] transition-colors">
                     <div className="w-12 h-12 md:w-14 md:h-14 rounded-lg overflow-hidden flex-shrink-0 bg-white/10 border border-white/10">
-                      <Image src={p.src} alt={t(locale, `hero.${p.key}_name`)} width={56} height={56} className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-200" />
+                      <Image src={p.src} alt={t(locale, `hero.${p.key}_name`)} width={56} height={56} className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-200" priority />
                     </div>
                     <div className="min-w-0 pt-0.5">
                       <p className="font-semibold text-sm md:text-base leading-tight">{t(locale, `hero.${p.key}_name`)}</p>

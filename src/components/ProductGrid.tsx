@@ -140,13 +140,13 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
         
         {/* Responsive grid: 1col sm → 2col md → 4col lg */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-8">
-          {products.map((product) => {
+          {products.map((product, index) => {
             const text = texts[product.nameKey] || productText.en[product.nameKey]
             return (
               <div key={product.slug} className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow flex flex-col">
                 {/* Image */}
                 <div className="relative h-40 sm:h-48 lg:h-52 bg-gradient-to-br from-gray-100 to-gray-200">
-                  <Image src={product.image} alt={text.name} fill className="object-cover" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" />
+                  <Image src={product.image} alt={text.name} fill className="object-cover" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" priority={index < 4} />
                 </div>
                 
                 {/* Content */}
