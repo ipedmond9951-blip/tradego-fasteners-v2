@@ -178,15 +178,17 @@ export default function SteelFutures({ locale }: SteelFuturesProps) {
     return symbol
   }
 
-  const getChangeColor = (change: string) => {
-    if (change.startsWith('+')) return 'text-green-600'
-    if (change.startsWith('-')) return 'text-red-600'
+  const getChangeColor = (change: string | number) => {
+    const s = String(change)
+    if (s.startsWith('+')) return 'text-green-600'
+    if (s.startsWith('-')) return 'text-red-600'
     return 'text-gray-600'
   }
 
-  const getChangeBg = (change: string) => {
-    if (change.startsWith('+')) return 'bg-green-50 border-green-100'
-    if (change.startsWith('-')) return 'bg-red-50 border-red-100'
+  const getChangeBg = (change: string | number) => {
+    const s = String(change)
+    if (s.startsWith('+')) return 'bg-green-50 border-green-100'
+    if (s.startsWith('-')) return 'bg-red-50 border-red-100'
     return 'bg-gray-50 border-gray-100'
   }
 
