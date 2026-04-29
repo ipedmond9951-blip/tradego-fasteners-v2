@@ -1,7 +1,7 @@
 {
   "slug": "bolt-markings-identify-grade",
   "category": "Technical Guide",
-  "date": "2026-04-22",
+  "date": "2025-10-29",
   "readTime": 6,
   "image": "/images/articles/bolt-markings-identify-grade.jpg",
   "title": {
@@ -191,5 +191,6 @@
       "question": "Why do bolt markings matter for structural applications?",
       "answer": "Bolt markings ensure correct strength for load requirements. Using wrong grade causes: Under-specification = structural failure, collapse risk; Over-specification = cost waste, fitting problems. Critical factors: 1) Tensile strength (load capacity); 2) Yield strength (permanent deformation point); 3) Proof load (maximum before plastic deformation). Always verify markings match specification on engineering drawings."
     }
-  ]
+  ],
+  "updated": "2026-02-12"
 }

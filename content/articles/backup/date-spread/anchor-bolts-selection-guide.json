@@ -1,0 +1,219 @@
+{
+  "slug": "anchor-bolts-selection-guide",
+  "category": "Technical Guide",
+  "date": "2026-04-22",
+  "readTime": 11,
+  "image": "/images/articles/anchor-bolts-selection-guide.jpg",
+  "title": {
+    "en": "Anchor Bolts Complete Selection Guide: Types, Load Rating...",
+    "zh": "锚栓完整选型指南：类型、承载力与非洲建筑安装详解",
+    "es": "Guía completa de selección de pernos de anclaje: tipos, c...",
+    "ar": "دليل اختيار شامل لبراغي التثبيت: الأنواع وتصنيفات الأحمال...",
+    "fr": "Guide complet de sélection des boulons d'ancrage : types,...",
+    "pt": "Guia completo de seleção de parafusos de ancoragem: tipos...",
+    "ru": "Полное руководство по выбору анкерных болтов: типы, грузо...",
+    "ja": "アンカーボルト完全選択ガイド：種類、荷重等級、アフリカ建築向け設置方法",
+    "de": "Vollständiger Auswahlleitfaden für Ankerbolzen: Typen, Be...",
+    "hi": "एंकर बोल्ट चयन गाइड: प्रकार, भार रेटिंग और अफ्रीकी निर्मा..."
+  },
+  "description": {
+    "en": "Complete guide to anchor bolts for African construction: J-bolts, L-bolts, plate anchors, wedge anchors, epoxy anchors. Learn load ratings, concrete specific...",
+    "zh": "非洲建筑用锚栓完整指南：J形螺栓、L形螺栓、板式锚栓、楔形锚栓、环氧锚栓。了解承载力、混凝土规格以及钢结构、设备和基础结构的正确安装方法。",
+    "es": "Guía completa de pernos de anclaje para construcción africana.",
+    "ar": "دليل شامل لبراغي التثبيت للبناء في أفريقيا.",
+    "fr": "Guide complet des boulons d'ancrage pour la construction africaine.",
+    "pt": "Guia completo de parafusos de ancoragem para construção africana.",
+    "ru": "Полное руководство по анкерным болтам для африканского строительства.",
+    "ja": "アフリカ建築向けアンカーボルト完全ガイド。",
+    "de": "Vollständiger Leitfaden für Ankerbolzen für afrikanische Bauprojekte.",
+    "hi": "अफ्रीकी निर्माण के लिए एंकर बोल्ट पूर्ण गाइड"
+  },
+  "keywords": "anchor bolts, J-bolts, wedge anchors, epoxy anchors, concrete anchors, structural anchoring, foundation bolts",
+  "sections": [
+    {
+      "id": "anchor-types-overview",
+      "heading": {
+        "en": "Anchor Bolt Types: A Comprehensive Overview"
+      },
+      "body": {
+        "en": "Anchor bolts transfer structural loads from steel columns, equipment, and structural elements into concrete foundations. The right anchor type depends on the load direction (tension vs shear), concrete strength, embedment depth available, and whether the anchor is cast-in-place during construction or installed post-concrete. For African projects, cast-in-place J-bolts and L-bolts are most common for structural steel columns, while post-installed anchors (wedge, epoxy) are used for retrofits and equipment mounting."
+      }
+    },
+    {
+      "id": "cast-in-place",
+      "heading": {
+        "en": "Cast-in-Place Anchors: J-Bolts and L-Bolts"
+      },
+      "body": {
+        "en": "Cast-in-place anchors are embedded in fresh concrete before it sets. J-bolts feature a J-shaped bend at the embedded end that creates a mechanical interlock with the concrete. L-bolts have a 90-degree bend and are used where embedment depth is limited. Both require careful positioning during concrete pouring and are the most reliable anchor type when properly installed. For steel column base plates, J-bolts are the standard choice worldwide. Specifications typically follow ASTM F1554 (Grade 36, 55, or 105) or ISO 13918."
+      },
+      "table": {
+        "headers": [
+          "Type",
+          "Embedment Method",
+          "Typical Use",
+          "Standard"
+        ],
+        "rows": [
+          [
+            "J-Bolt",
+            "Hook engages concrete",
+            "Column base plates",
+            "ASTM F1554"
+          ],
+          [
+            "L-Bolt",
+            "90° leg embeds",
+            "Shallow embedment",
+            "ASTM F1554"
+          ],
+          [
+            "Plate Anchor",
+            "Welded plate on end",
+            "Equipment bases",
+            "Custom"
+          ],
+          [
+            "Swedge Bolt",
+            "Deformed bars for bonding",
+            "Nuclear/bridge",
+            "ASTM A615"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "post-installed",
+      "heading": {
+        "en": "Post-Installed Anchors: Wedge, Epoxy, and Sleeve"
+      },
+      "body": {
+        "en": "Post-installed anchors are inserted into hardened concrete using drilled holes. Wedge anchors (Hilti KB3, Simpson Kwik-Bolt) expand against the concrete wall for medium-duty tension and shear loads. Epoxy anchors (adhesive bonding) provide high load capacity in cracked or non-cracked concrete. Sleeve anchors are for light-duty applications in solid or hollow concrete. For African industrial projects, epoxy anchors are increasingly specified for machinery foundations where vibration resistance is critical."
+      },
+      "table": {
+        "headers": [
+          "Anchor Type",
+          "Installation",
+          "Load Capacity",
+          "Best Use"
+        ],
+        "rows": [
+          [
+            "Wedge Anchor",
+            "Drill & hammer in",
+            "Medium-high",
+            "General purpose"
+          ],
+          [
+            "Epoxy (Adhesive)",
+            "Drill & bond",
+            "Very high",
+            "Cracked concrete, machinery"
+          ],
+          [
+            "Sleeve Anchor",
+            "Drill & expand",
+            "Light-medium",
+            "Hollow block, brick"
+          ],
+          [
+            "Undercut Anchor",
+            "Drill & mechanically lock",
+            "Very high",
+            "Critical structural"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "load-ratings",
+      "heading": {
+        "en": "Understanding Load Ratings and Safety Factors"
+      },
+      "body": {
+        "en": "Anchor load ratings are given as Working Load (allowable load under service conditions) and Ultimate Load (failure load). Always apply a safety factor of 3:1 to 4:1 for permanent structural applications. Key parameters: Tension load — pulling force the anchor can resist; Shear load — lateral force the anchor can resist; Combined loading — when both tension and shear act simultaneously. For African building codes, verify with local structural engineer. As a rule: M20 wedge anchor in 25 MPa concrete provides approximately 15-25 kN working tension load and 20-35 kN working shear load depending on embedment depth."
+      }
+    },
+    {
+      "id": "installation-errors",
+      "heading": {
+        "en": "Common Installation Errors That Cause Failure"
+      },
+      "body": {
+        "en": "Anchor failure in African construction is often caused by preventable installation errors: Insufficient embedment depth — the most common cause of pullout failure. Always drill to the full specified depth. Improper hole cleaning — dust and debris prevent proper expansion or bonding. Using the wrong drill bit — carbide-tipped bits are required for concrete; incorrect diameter holes cause 30-50% load loss. Over-torquing wedge anchors — excessive torque can cause the cone to strip before full expansion. Epoxy mixing errors — cartridge systems must be mixed correctly; hand mixing often results in incomplete curing. No consideration of concrete age — concrete needs 21 days minimum before installing post-installed anchors under full load."
+      }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What anchor bolt size do I need for a typical steel column?"
+          },
+          "a": {
+            "en": "For a typical H-beam column (HEA 200-300) with base plate, M20 J-bolts (20mm diameter) set in 200×200mm base plates are standard for 2-3 story structures. For taller buildings or heavier loads, M24 or M30 bolts are used. Always have the structural engineer calculate based on actual loads and concrete compressive strength."
+          }
+        },
+        {
+          "q": {
+            "en": "Can anchor bolts be installed in African blockwork (hollow concrete blocks)?"
+          },
+          "a": {
+            "en": "Standard expansion anchors do not work in hollow blocks — the expansion grip falls into the void. Use sleeve anchors designed for hollow masonry, or epoxy anchors with screen tubes (to fill the void) in solid grouted cells. For structural connections in blockwork, consider through-bolts where possible or special masonry anchor systems (Hilti Hul, Rawl-Spike)."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I specify anchor bolts for coastal African environments?"
+          },
+          "a": {
+            "en": "For coastal environments, hot-dip galvanized F1554 Grade 55 or 105 is the minimum specification. For severe marine exposure (within 500m of the ocean), specify 316 stainless steel anchors or duplex stainless anchors. All exposed portions (above concrete) must be protected. Always specify stainless steel washers and nuts as well."
+          }
+        }
+      ]
+    }
+  ],
+  "relatedProducts": [
+    "anchor-bolts",
+    "base-plates",
+    "washers"
+  ],
+  "cta": {
+    "text": {
+      "en": "Need anchor bolts for your African construction project? Get a factory quote from TradeGo.",
+      "zh": "需要锚栓用于非洲建筑项目？从TradeGo获取工厂报价。"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价"
+    },
+    "link": "/#inquiry"
+  },
+  "metaDescription": "Complete guide to anchor bolts for African construction: J-bolts, L-bolts, plate anchors, wedge anchors. Load ratings, installation methods, and concrete applications.",
+  "faqItems": [
+    {
+      "question": "What are the different types of anchor bolts for concrete?",
+      "answer": "Main anchor bolt types: J-bolts (L-shaped, for equipment mounting); L-bolts (straight with bent end); Plate anchors (welded base plate, for structural columns); Wedge anchors (expansion type, for cracked/uncracked concrete); Epoxy anchors (adhesive-bonded, for high loads). Each type suits different load requirements and concrete conditions."
+    },
+    {
+      "question": "How do I determine the correct anchor bolt size for my project?",
+      "answer": "Determine anchor bolt size by: 1) Calculate design load (tension and shear); 2) Check concrete strength (typically 20-30 MPa for African construction); 3) Use manufacturer load tables for specific bolt size and embedment depth; 4) Apply appropriate safety factor (typically 4:1 for static loads); 5) Consider edge distance and spacing requirements."
+    },
+    {
+      "question": "What is the difference between wedge anchors and J-bolts?",
+      "answer": "Wedge anchors are expansion anchors that grip the concrete when tightened - one-piece design, for permanent installations in solid concrete. J-bolts are cast-in-place or inserted into wet concrete - repositionable before concrete sets, better for structural connections where alignment is critical."
+    },
+    {
+      "question": "How deep should anchor bolts be embedded in concrete?",
+      "answer": "Embedment depth depends on bolt diameter and load: General rule is 4-6 bolt diameters for medium loads. For structural applications, follow local codes: South Africa uses SABS 10400; minimum typically 8 inches (200mm) for M16 and larger bolts. Insufficient embedment causes pull-out failure - always verify with load calculations."
+    },
+    {
+      "question": "When should epoxy anchor bolts be used?",
+      "answer": "Use epoxy anchors when: 1) High tensile load requirements exceed expansion anchor capacity; 2) Close to concrete edge where expansion anchors would crack concrete; 3) Retrofitting existing concrete structures; 4) Anchoring near vibrating equipment. Epoxy provides chemical bonding and works in both cracked and uncracked concrete when properly installed."
+    }
+  ],
+  "imageAlt": "Anchor bolts for foundation and structural applications"
+}
