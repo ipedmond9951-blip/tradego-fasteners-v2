@@ -7,6 +7,7 @@ import { NextResponse } from 'next/server'
 // - Other SEO tools (Ahrefs, SEMrush, etc.)
 
 interface SEOStats {
+  demoMode: boolean  // true = 数据为模拟值，非真实GSC/GA4数据
   overview: {
     totalPageViews: number
     totalVisitors: number
@@ -60,9 +61,11 @@ interface SEOStats {
 }
 
 export async function GET() {
-  // Simulated SEO analytics data
+  // Simulated SEO analytics data - demo mode
   // Real data would come from Google Analytics, Search Console, etc.
+  // Set demoMode: false and replace with real API calls when GSC OAuth is configured
   const seoStats: SEOStats = {
+    demoMode: true,  // ⚠️ 数据为演示模拟值，非真实数据
     overview: {
       totalPageViews: 12847,
       totalVisitors: 8934,
