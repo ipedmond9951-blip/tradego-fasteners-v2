@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-04-22",
   "readTime": 8,
-  "image": "/images/products/anchor-bolts.jpg",
+  "image": "/images/articles/anchor-bolts-foundation-guide.jpg",
   "title": {
     "en": "Anchor Bolts for Foundation: Complete Guide to Structural...",
     "zh": "地脚螺栓基础安装完整指南：建筑结构锚固",
@@ -163,5 +163,28 @@
     "link": "/#inquiry"
   },
   "relatedProducts": [],
-  "imageAlt": "Anchor bolts for foundation and structural applications"
+  "imageAlt": "Anchor bolts for foundation and structural applications",
+  "metaDescription": "Complete guide to anchor bolts for foundation and structural connections. Types, installation methods, load ratings, and concrete anchor bolt specifications for construction.",
+  "faqItems": [
+    {
+      "question": "What are anchor bolts used for in foundations?",
+      "answer": "Anchor bolts secure structural steel columns, equipment, and machinery to concrete foundations. They transfer tensile and shear loads from the structure to the concrete foundation. Critical for: building columns, pre-engineered metal buildings, solar panel mounts, transmission towers, and heavy equipment bases."
+    },
+    {
+      "question": "How deep should anchor bolts be embedded in concrete?",
+      "answer": "Embedment depth follows formula: 4-6 × bolt diameter for medium loads. For structural columns: minimum 8 inches (200mm) for M16, 10 inches (250mm) for M20, 12 inches (300mm) for M24. South African code SANS 10400 specifies minimum 12d where d is bolt diameter. Always verify with structural engineer for specific applications."
+    },
+    {
+      "question": "What types of anchor bolts are best for seismic zones?",
+      "answer": "Seismic zones require: 1) ASTM F1554 Grade 55 or 105 (higher yield strength); 2) Plate anchors with large base plates for improved load distribution; 3) Headed anchor bolts (better than J-bolts under cyclic loading); 4) Supplementary reinforcement (hooks or plates) to prevent concrete cone failure. Always specify seismic design category per local building codes."
+    },
+    {
+      "question": "How do I select the right anchor bolt size for my project?",
+      "answer": "Selection criteria: 1) Calculate design tensile and shear loads; 2) Check concrete compressive strength (typically 25-30 MPa); 3) Determine embedment depth required for load capacity; 4) Apply safety factor (4:1 minimum for static loads); 5) Consider edge distance and spacing (minimum 10 × bolt diameter between bolts). Use manufacturer load tables or consult structural engineer."
+    },
+    {
+      "question": "What is the difference between J-bolts and L-bolts?",
+      "answer": "J-bolts have a J-shaped bend at the embedded end - shaped like the letter J. L-bolts have a 90-degree bend - shaped like the letter L. Both provide anchorage through mechanical interlock with concrete. J-bolts are more common for equipment mounting; L-bolts are preferred for structural columns where the bend hooks around rebar. Both must be positioned before concrete pour (cast-in-place)."
+    }
+  ]
 }
