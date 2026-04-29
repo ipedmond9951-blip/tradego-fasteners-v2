@@ -18,6 +18,7 @@ import {
 } from 'recharts'
 
 interface SEOStats {
+  demoMode?: boolean  // true = 数据为模拟值，非真实GSC/GA4数据
   overview: {
     totalPageViews: number
     totalVisitors: number
@@ -105,6 +106,9 @@ export default function AnalyticsDashboard() {
     )
   }
 
+  // Demo mode warning banner
+  const showDemoBanner = data?.demoMode === true
+
   if (error || !data) {
     return (
       <div className="min-h-screen bg-gray-50 py-12">
@@ -123,6 +127,24 @@ export default function AnalyticsDashboard() {
   return (
     <div className="min-h-screen bg-gray-50 py-12">
       <div className="max-w-7xl mx-auto px-4">
+        {/* Demo Mode Warning Banner */}
+        {showDemoBanner && (
+          <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-6">
+            <div className="flex items-start gap-3">
+              <div className="text-xl">⚠️</div>
+              <div>
+                <h3 className="text-amber-800 font-semibold">演示数据模式 / Demo Mode</h3>
+                <p className="text-amber-700 text-sm mt-1">
+                  当前显示的SEO数据为演示模拟值，非真实的Google搜索控制台数据。要查看真实数据，请配置 GSC API 集成。
+                </p>
+                <p className="text-amber-600 text-xs mt-1">
+                  Showing simulated data for illustration — Configure Google Search Console API for real metrics.
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Header */}
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">SEO & Analytics Dashboard</h1>
