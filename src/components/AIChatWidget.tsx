@@ -47,7 +47,7 @@ export default function AIChatWidget({ locale = 'en' }: AIChatWidgetProps) {
       {/* Floating button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-6 right-6 w-14 h-14 bg-primary-600 text-white rounded-full shadow-lg hover:bg-primary-700 transition-all z-50 flex items-center justify-center"
+        className="fixed bottom-6 right-6 w-14 h-14 bg-primary-600 text-white rounded-full shadow-lg hover:bg-primary-700 transition-all z-50 hidden lg:flex items-center justify-center"
         aria-label={t(locale, 'chat.openChat')}
       >
         {isOpen ? '✕' : '💬'}
