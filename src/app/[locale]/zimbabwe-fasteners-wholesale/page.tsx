@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { getLocaleFromParams } from '@/i18n'
+import { type Locale } from '@/i18n'
 
 export const metadata: Metadata = {
   title: 'Zimbabwe Fasteners Wholesale | Bulk Bolts & Screws Supplier | TradeGo',
@@ -8,7 +8,8 @@ export const metadata: Metadata = {
 }
 
 export default async function ZimbabweFastenersPage({ params }: { params: Promise<{ locale: string }> }) {
-  const locale = await getLocaleFromParams(params)
+  const { locale: localeParam } = await params
+  const locale = (localeParam as Locale) || 'en'
   const t = (key: string) => key // 简化，实际应该用i18n
 
   return (
