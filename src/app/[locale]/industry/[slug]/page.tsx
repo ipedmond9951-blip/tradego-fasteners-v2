@@ -31,6 +31,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       type: 'article',
       publishedTime: article.date,
       authors: ['TradeGo Fasteners'],
+      images: [{ url: `${SITE_URL}${article.image}`, width: 1200, height: 630, alt: title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${title} | TradeGo Fasteners`,
+      description: desc,
+      images: [`${SITE_URL}${article.image}`],
     },
   }
 }
