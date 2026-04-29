@@ -151,7 +151,9 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
                 
                 {/* Content */}
                 <div className="flex-1 p-4 md:p-6 flex flex-col">
-                  <h3 className="font-bold text-primary-900 text-sm md:text-base lg:text-lg mb-1">{text.name}</h3>
+                  <a href={`/${locale}#inquiry`} className="block hover:text-primary-700 transition-colors">
+                    <h3 className="font-bold text-primary-900 text-sm md:text-base lg:text-lg mb-1">{text.name}</h3>
+                  </a>
                   <p className="text-gray-600 text-xs md:text-sm mb-3 line-clamp-2">{text.desc}</p>
                   
                   <div className="space-y-1.5 text-xs md:text-sm mt-auto">
