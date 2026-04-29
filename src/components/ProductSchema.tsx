@@ -112,10 +112,12 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
         '@type': 'OfferShippingDetails',
         shippingDestination: [
           { '@type': 'Country', name: 'South Africa' },
-          { '@type': 'Country', name: 'Kenya' },
-          { '@type': 'Country', name: 'Nigeria' },
-          { '@type': 'Country', name: 'UAE' },
-          { '@type': 'Country', name: 'Vietnam' },
+          { '@type': 'Country', name: 'Zimbabwe' },
+          { '@type': 'Country', name: 'Zambia' },
+          { '@type': 'Country', name: 'Mozambique' },
+          { '@type': 'Country', name: 'Botswana' },
+          { '@type': 'Country', name: 'Malawi' },
+          { '@type': 'Country', name: 'Namibia' },
         ],
         deliveryTime: {
           '@type': 'ShippingDeliveryTime',
@@ -132,6 +134,18 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
             unitCode: 'DAY',
           },
         },
+        shippingRate: {
+          '@type': 'MonetaryAmount',
+          value: '0',
+          currency: 'USD',
+        },
+        deliversTo: [
+          { '@type': 'Country', name: 'Zimbabwe' },
+          { '@type': 'Country', name: 'South Africa' },
+          { '@type': 'Country', name: 'Zambia' },
+          { '@type': 'Country', name: 'Mozambique' },
+          { '@type': 'Country', name: 'Botswana' },
+        ],
       },
     })),
   }
