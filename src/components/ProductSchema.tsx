@@ -103,11 +103,6 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
         '@id': 'https://www.tradego-fasteners.com/#organization',
         name: 'TradeGo Fasteners',
       },
-      certifications: [
-        { '@type': 'Certification', name: 'ISO 9001:2015', authority: 'International Organization for Standardization' },
-        { '@type': 'Certification', name: 'CE', authority: 'European Union' },
-        { '@type': 'Certification', name: 'SABS', authority: 'South African Bureau of Standards' },
-      ],
       shippingDetails: {
         '@type': 'OfferShippingDetails',
         shippingDestination: [
@@ -140,11 +135,13 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
           currency: 'USD',
         },
         deliversTo: [
-          { '@type': 'Country', name: 'Zimbabwe' },
           { '@type': 'Country', name: 'South Africa' },
+          { '@type': 'Country', name: 'Zimbabwe' },
           { '@type': 'Country', name: 'Zambia' },
           { '@type': 'Country', name: 'Mozambique' },
           { '@type': 'Country', name: 'Botswana' },
+          { '@type': 'Country', name: 'Malawi' },
+          { '@type': 'Country', name: 'Namibia' },
         ],
       },
     })),
