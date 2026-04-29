@@ -10,9 +10,20 @@ interface CardProps {
 }
 
 export function Card({ children, className = '', hover = true, onClick }: CardProps) {
+  const isInteractive = !!onClick;
+  
   return (
     <div
       onClick={onClick}
+      role={isInteractive ? 'button' : undefined}
+      tabIndex={isInteractive ? 0 : undefined}
+      aria-label={isInteractive ? 'Interactive card' : undefined}
+      onKeyDown={isInteractive ? (e: React.KeyboardEvent) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          onClick?.();
+        }
+      } : undefined}
       className={`
         bg-white rounded-card border border-gray-200
         transition-all duration-200 ease-out
@@ -45,6 +56,16 @@ export function ProductCard({
   return (
     <div
       onClick={disabled ? undefined : onClick}
+      role={onClick ? 'button' : undefined}
+      tabIndex={onClick && !disabled ? 0 : undefined}
+      aria-label={onClick ? 'Product card' : undefined}
+      aria-disabled={disabled}
+      onKeyDown={onClick && !disabled ? (e: React.KeyboardEvent) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          onClick();
+        }
+      } : undefined}
       className={`
         bg-white rounded-card border p-5
         transition-all duration-200 ease-out
