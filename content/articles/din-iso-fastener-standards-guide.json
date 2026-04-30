@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2025-07-29",
   "readTime": 11,
-  "image": "/images/products/din-standards-1.jpg",
+  "image": "/images/articles/din-iso-fastener-standards-guide.jpg",
   "title": {
     "en": "DIN & ISO Fastener Standards Complete Guide: Understandin...",
     "zh": "DIN与ISO紧固件标准完整指南：工业采购者必知的全球规格解读",
@@ -266,5 +266,28 @@
   },
   "imageAlt": "DIN & ISO Fastener Standards Complete - fastener solutions",
   "updated": "2026-03-24",
-  "author": "TradeGo Fasteners"
+  "author": "TradeGo Fasteners",
+  "metaDescription": "Understanding DIN and ISO fastener standards: DIN 931 vs DIN 933, mechanical property classes (8.8, 10.9, 12.9), and global standards equivalence guide.",
+  "faqItems": [
+    {
+      "q": "What is the difference between DIN 931 and DIN 933?",
+      "a": "DIN 931 specifies hex bolts with partially threaded shafts (hexagon head, shank through most of the bolt). DIN 933 specifies fully threaded hex screws. Thread length depends on nominal length per standard."
+    },
+    {
+      "q": "How do mechanical property classes like 8.8, 10.9, and 12.9 differ?",
+      "a": "Numbers indicate tensile strength in MPa (first digit × 100) and yield ratio (second digit ÷ 10). Class 8.8 = 800 MPa tensile, 80% yield. Class 10.9 = 1000 MPa, 90% yield. Class 12.9 = 1200 MPa, 90% yield."
+    },
+    {
+      "q": "Are DIN and ISO fastener standards equivalent?",
+      "a": "Many DIN and ISO hex bolt standards are harmonized or directly equivalent. For example, DIN 931 ≈ ISO 4014, DIN 933 ≈ ISO 4017. Always verify specific dimensional or property requirements."
+    },
+    {
+      "q": "Which fastener standard is used in African markets?",
+      "a": "African markets typically accept ISO, DIN, ASTM, or BS standards. South Africa often references SABS specifications. For Chinese imports, DIN or ISO standards with Mill Test Certificates are commonly accepted."
+    },
+    {
+      "q": "What does proof load mean for high-strength bolts?",
+      "a": "Proof load is the maximum load a bolt can withstand without permanent deformation. It's typically 85-95% of the yield strength, depending on the property class and standard specification."
+    }
+  ]
 }

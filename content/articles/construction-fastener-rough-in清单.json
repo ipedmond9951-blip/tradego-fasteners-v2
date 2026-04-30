@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2025-09-29",
   "readTime": 11,
-  "image": "/images/products/coach-screws.jpg",
+  "image": "/images/articles/construction-fastener-rough-in.jpg",
   "title": {
     "en": "Construction Fastener Rough-In Checklist: Essential Faste...",
     "zh": "建筑紧固件粗装清单：非洲建筑项目必备紧固件完整清单",
@@ -185,5 +185,28 @@
   },
   "imageAlt": "Coach screws for construction and woodworking applications",
   "updated": "2026-02-21",
-  "author": "TradeGo Fasteners"
+  "author": "TradeGo Fasteners",
+  "metaDescription": "Essential construction fastener rough-in checklist. 5-phase guide covering structural, roofing, electrical, plumbing, and finishing fastener requirements.",
+  "faqItems": [
+    {
+      "q": "What is the rough-in phase in construction?",
+      "a": "Rough-in is the construction phase after structural work but before finishing. It involves installing hidden components like electrical wiring, plumbing pipes, HVAC ducts, and their mounting fasteners."
+    },
+    {
+      "q": "What fasteners are needed for structural steel connection?",
+      "a": "High-strength bolts (Grade 8.8 or 10.9), bearing-type bolted connections, and specified torque values. Hot-dip galvanized bolts are preferred for outdoor or corrosive environments."
+    },
+    {
+      "q": "Which fasteners are required for roofing and cladding?",
+      "a": "Self-drilling roofing screws with EPDM washers, standing seam clips, clad pins, and stitching screws. Material thickness determines the required screw gauge and length."
+    },
+    {
+      "q": "How many phases does the construction rough-in include?",
+      "a": "The rough-in process typically spans 5 phases: structural steel connection, roofing and cladding, ceiling and partition installation, electrical and plumbing rough-in, and finishing work."
+    },
+    {
+      "q": "What fasteners are used in the finishing phase?",
+      "a": "Finishing phase uses drywall screws, trim nails, finish nails, deck screws, and miscellaneous hardware for fixtures, millwork, and final building components."
+    }
+  ]
 }
