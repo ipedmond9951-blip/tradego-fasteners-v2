@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2025-08-29",
   "readTime": 6,
-  "image": "/images/products/concrete-screws.jpg",
+  "image": "/images/articles/concrete-screws-anchors-guide.jpg",
   "title": {
     "en": "Concrete Screws & Anchors Guide: Secure Fastening to Conc...",
     "zh": "混凝土螺钉和锚栓指南：混凝土、砖块和砌块的安全固定",
@@ -165,5 +165,28 @@
   "relatedProducts": [],
   "imageAlt": "Concrete Screws & Anchors Guide - fastener solutions",
   "updated": "2026-02-24",
-  "author": "TradeGo Fasteners"
+  "author": "TradeGo Fasteners",
+  "metaDescription": "Complete guide to concrete screws and anchors. Learn types, installation methods, weight capacity, and selection criteria for secure fastening to concrete.",
+  "faqItems": [
+    {
+      "q": "How do concrete screws work?",
+      "a": "Concrete screws create threads directly into concrete, masonry, or brick when screwed in. They require pre-drilling with a hammer drill and specific bit size matching the screw diameter."
+    },
+    {
+      "q": "What is the weight capacity of concrete screws?",
+      "a": "Capacity varies by screw size and concrete strength. A 3/16\" screw in standard concrete holds up to 200 lbs, while a 1/4\" screw can support 400-600 lbs safely."
+    },
+    {
+      "q": "What's the difference between concrete screws and concrete anchors?",
+      "a": "Concrete screws are self-threading and removable; anchors are permanent fixtures that expand or bond within the concrete. Anchors typically offer higher load capacities."
+    },
+    {
+      "q": "Can concrete screws be used in all concrete types?",
+      "a": "Concrete screws work best in solid concrete and masonry. They are not recommended for hollow blocks, brick without anchoring, or aerated concrete without special plugs."
+    },
+    {
+      "q": "What tools are needed to install concrete screws?",
+      "a": "You'll need a hammer drill, masonry bits sized to the screw, a vacuum or brush to clear dust, and a driver or wrench. Impact drivers are preferred for efficiency."
+    }
+  ]
 }

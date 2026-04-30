@@ -20,7 +20,7 @@ const products = [
   { slug: 'washers', image: '/images/products/washers.webp', pricePerPiece: 0.008, nameKey: 'washers',
     specs: { size: 'M6-M36', standard: 'DIN 125 / ISO 7089' } },
   { slug: 'coach-screws', image: '/images/products/coach-screws.webp', pricePerPiece: 0.025, nameKey: 'coach',
-    specs: { size: 'M6-M12 × 30-200mm', standard: 'DIN 571 / LS 1993' } },
+    specs: { size: 'M6-M12 × 30-200mm', standard: 'DIN 571 / LS 1993', materials: 'Carbon Steel / SS304 / SS316', finishes: 'Hot-Dip Galvanized / Zinc Plated / Plain' } },
   { slug: 'threaded-rods', image: '/images/products/threaded-rods.webp', pricePerPiece: 0.08, nameKey: 'threaded',
     specs: { size: 'M6-M24 × 1m-3m', standard: 'DIN 975 / ISO 898' } },
 ]
@@ -33,7 +33,7 @@ const productText: Record<string, Record<string, { name: string; desc: string }>
     ibr: { name: 'IBR Nails', desc: 'Umbrella head roofing nails for IBR/corrugated roofing. SABS 1195 compliant for African markets. Smooth or ring shank options. Hot-dip galvanized for corrosion resistance.' },
     anchor: { name: 'Anchor Bolts', desc: 'Heavy-duty anchor bolts for African construction: mining foundations, solar panel mounts, transmission towers. ASTM F1554 Grade 36 (36 ksi) or Grade 55 (55 ksi) options. Hot-dip galvanized (HDG) for Zimbabwe and South Africa outdoor projects. Stainless steel 316 for coastal Kenya and Tanzania. Available M10-M30, lengths 75-600mm with custom lengths up to 1000mm. DIN 529 and ASTM F1554 compliant with full material traceability. Bulk pricing for Africa projects.' },
     washers: { name: 'Washers', desc: 'Flat washers and spring washers for load distribution and vibration resistance. Available in zinc plated, hot-dip galvanized, and stainless steel A2/A4. DIN 125, DIN 127 compliant. M6-M36 sizes.' },
-    coach: { name: 'Coach Screws', desc: 'Heavy-duty wood screws with hexagonal heads for wood-to-wood and wood-to-metal connections. Full thread for strong grip. Hot-dip galvanized for outdoor decking and fencing applications.' },
+    coach: { name: 'Coach Screws', desc: 'Heavy-duty hex head coach screws for African construction: timber frame roofing, deck building, fence post installation, and solar panel mounting structures. Full thread for maximum grip in wood and composite materials. Hot-dip galvanized (HDG) for Zimbabwe outdoor projects. Stainless steel 304 for coastal Kenya and Tanzania. M6-M12, 30-200mm. DIN 571 compliant. Bulk pricing for Africa.' },
     threaded: { name: 'Threaded Rods', desc: 'Fully threaded rods for structural anchoring and assembly. Available in zinc plated steel and stainless steel. Custom lengths available up to 3 meters. DIN 975 compliant, M6-M24 sizes.' },
   },
   zh: {
