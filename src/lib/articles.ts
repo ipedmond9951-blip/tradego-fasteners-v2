@@ -44,7 +44,9 @@ export function getAllArticles(): Article[] {
 }
 
 export function getArticleBySlug(slug: string): Article | null {
-  const filePath = path.join(articlesDir, `${slug}.json`)
+  // URL-encoded Chinese characters need to be decoded before file lookup
+  const decodedSlug = decodeURIComponent(slug)
+  const filePath = path.join(articlesDir, `${decodedSlug}.json`)
   if (!fs.existsSync(filePath)) return null
   return JSON.parse(fs.readFileSync(filePath, 'utf-8')) as Article
 }
@@ -53,5 +55,5 @@ export function getAllSlugs(): string[] {
   if (!fs.existsSync(articlesDir)) return []
   return fs.readdirSync(articlesDir)
     .filter(f => f.endsWith('.json'))
-    .map(f => f.replace('.json', ''))
+    .map(f => decodeURIComponent(f.replace('.json', '')))
 }
