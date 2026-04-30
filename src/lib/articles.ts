@@ -26,6 +26,7 @@ export interface Article {
   keywords: string
   sections: ArticleSection[]
   relatedProducts: string[]
+  relatedArticles?: Array<{ slug: string; title: string }>
   cta: {
     text: Record<string, string>
     buttonText: Record<string, string>

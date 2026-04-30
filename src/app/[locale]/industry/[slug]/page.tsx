@@ -200,6 +200,20 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
             </div>
           </div>
         )}
+
+        {/* Related Articles */}
+        {article.relatedArticles && article.relatedArticles.length > 0 && (
+          <div className="mt-8">
+            <h3 className="text-lg font-semibold mb-3">Related Articles</h3>
+            <div className="flex gap-3 flex-wrap">
+              {article.relatedArticles.map((a: { slug: string; title: string }) => (
+                <Link key={a.slug} href={`/${locale}/industry/${a.slug}`} className="px-4 py-2 bg-blue-50 rounded-lg text-sm text-blue-700 hover:bg-blue-100 transition-colors">
+                  {a.title.length > 40 ? a.title.substring(0, 40) + '...' : a.title}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
       </article>
 
       {/* Schema */}
