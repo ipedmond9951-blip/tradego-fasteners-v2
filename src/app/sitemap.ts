@@ -17,7 +17,7 @@ export default function sitemap() {
         url: `${baseUrl}/${locale}${page}`,
         lastModified: new Date().toISOString(),
         changeFrequency: page === '' ? 'weekly' : 'monthly',
-        priority: page === '' ? 1 : page === '/products' ? 0.9 : 0.7,
+        priority: page === '' ? 1 : page === '/products' ? 1.0 : 0.7,
       })
     }
     
