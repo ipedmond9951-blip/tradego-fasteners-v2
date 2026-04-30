@@ -7,11 +7,11 @@ import { useCurrency } from '@/contexts/CurrencyContext'
 interface ProductGridProps { locale?: Locale }
 
 const products = [
-  { slug: 'drywall-screws', image: '/images/products/drywall-screws-2.webp', pricePerPiece: 0.02, nameKey: 'drywall',
+  { slug: 'drywall-screws', image: '/images/products/drywall-screws-1.webp', pricePerPiece: 0.02, nameKey: 'drywall',
     specs: { size: '3.5-4.8mm × 25-100mm', standard: 'DIN 7505 / GB/T 15856' } },
   { slug: 'self-drilling-screws', image: '/images/products/self-drilling-screws-1.webp', pricePerPiece: 0.03, nameKey: 'selfdrilling',
     specs: { size: '4.2-6.3mm × 19-150mm', standard: 'DIN 7504 / ANSI' } },
-  { slug: 'bolts-nuts', image: '/images/products/bolts-nuts-2.webp', pricePerPiece: 0.05, nameKey: 'bolts',
+  { slug: 'bolts-nuts', image: '/images/products/bolts-nuts-1.webp', pricePerPiece: 0.05, nameKey: 'bolts',
     specs: { size: 'M5-M30 × 20-300mm', standard: 'DIN 933/934 / ISO 4014', grades: '4.8 / 8.8 / 10.9', materials: 'Carbon Steel / SS304 / SS316' } },
   { slug: 'ibr-nails', image: '/images/products/ibr-nails-1.webp', pricePerPiece: 0.01, nameKey: 'ibr',
     specs: { size: '2.5-4.0mm × 30-100mm', standard: 'SABS 1195' } },

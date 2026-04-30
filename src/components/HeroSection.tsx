@@ -4,9 +4,12 @@ import { type Locale, t } from '@/i18n'
 interface HeroSectionProps { locale?: Locale }
 
 const heroProducts = [
-  { key: 'product1', src: '/images/products/drywall-screws-1.webp' },
-  { key: 'product2', src: '/images/products/self-drilling-screws-1.webp' },
-  { key: 'product3', src: '/images/products/bolts-nuts-1.webp' },
+  { key: 'product1', src: '/images/products/drywall-screws-1.webp', nameKey: 'drywall' },
+  { key: 'product2', src: '/images/products/self-drilling-screws-1.webp', nameKey: 'selfdrilling' },
+  { key: 'product3', src: '/images/products/bolts-nuts-1.webp', nameKey: 'bolts' },
+  { key: 'product4', src: '/images/products/ibr-nails-1.webp', nameKey: 'ibr' },
+  { key: 'product5', src: '/images/products/anchor-bolts.webp', nameKey: 'anchor' },
+  { key: 'product6', src: '/images/products/coach-screws.webp', nameKey: 'coach' },
 ]
 
 export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
@@ -49,16 +52,13 @@ export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
           <div className="w-full lg:w-auto lg:max-w-md lg:flex-1">
             <div className="bg-white/[0.12] backdrop-blur-sm rounded-xl md:rounded-2xl p-5 md:p-8 border border-white/[0.15]">
               <h3 className="text-lg md:text-xl font-bold mb-4 md:mb-5">{t(locale, 'hero.featured')}</h3>
-              <div className="space-y-3 md:space-y-4">
+              <div className="grid grid-cols-3 gap-2 md:gap-3">
                 {heroProducts.map((p, i) => (
-                  <a key={i} href={`/${locale}#products`} className="group flex items-start gap-3 md:gap-4 p-2 -mx-2 rounded-lg hover:bg-white/[0.08] transition-colors">
-                    <div className="w-12 h-12 md:w-14 md:h-14 rounded-lg overflow-hidden flex-shrink-0 bg-white/10 border border-white/10">
-                      <Image src={p.src} alt={t(locale, `hero.${p.key}_name`)} width={56} height={56} className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-200" priority />
+                  <a key={i} href={`/${locale}#products`} className="group flex flex-col items-center p-2 rounded-lg hover:bg-white/[0.08] transition-colors">
+                    <div className="w-14 h-14 md:w-16 md:h-16 rounded-lg overflow-hidden flex-shrink-0 bg-white/10 border border-white/10">
+                      <Image src={p.src} alt={t(locale, `hero.${p.key}_name`)} width={64} height={64} className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-200" priority={i < 3} />
                     </div>
-                    <div className="min-w-0 pt-0.5">
-                      <p className="font-semibold text-sm md:text-base leading-tight">{t(locale, `hero.${p.key}_name`)}</p>
-                      <p className="text-xs md:text-sm text-primary-200/80 mt-0.5 line-clamp-1">{t(locale, `hero.${p.key}_desc`)}</p>
-                    </div>
+                    <p className="text-xs text-center text-primary-200/80 mt-1.5 line-clamp-1">{t(locale, `hero.${p.key}_name`)}</p>
                   </a>
                 ))}
               </div>
