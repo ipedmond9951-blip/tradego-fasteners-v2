@@ -69,6 +69,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       canonical: `${siteUrl}/${loc}`,
       languages: Object.fromEntries(locales.map(l => [l, `${siteUrl}/${l}`])),
     },
+    verification: {
+      google: 'B8o4b_2zfT64y2bbOMBlBLBpyMsc01wKJKcB8HlUYTg',
+    },
   }
 }
 
