@@ -8,20 +8,28 @@ interface ProductGridProps { locale?: Locale }
 
 const products = [
   { slug: 'drywall-screws', image: '/images/products/drywall-screws-1.webp', pricePerPiece: 0.02, nameKey: 'drywall',
+    articleSlug: 'drywall-screws-selection-guide',
     specs: { size: '3.5-4.8mm × 25-100mm', standard: 'DIN 7505 / GB/T 15856' } },
   { slug: 'self-drilling-screws', image: '/images/products/self-drilling-screws-1.webp', pricePerPiece: 0.03, nameKey: 'selfdrilling',
+    articleSlug: 'self-drilling-screws-selection-guide',
     specs: { size: '4.2-6.3mm × 19-150mm', standard: 'DIN 7504 / ANSI' } },
   { slug: 'bolts-nuts', image: '/images/products/bolts-nuts-1.webp', pricePerPiece: 0.05, nameKey: 'bolts',
+    articleSlug: 'hex-bolt-dimensions-chart',
     specs: { size: 'M5-M30 × 20-300mm', standard: 'DIN 933/934 / ISO 4014', grades: '4.8 / 8.8 / 10.9', materials: 'Carbon Steel / SS304 / SS316' } },
   { slug: 'ibr-nails', image: '/images/products/ibr-nails-1.webp', pricePerPiece: 0.01, nameKey: 'ibr',
+    articleSlug: 'ibr-roofing-nails-installation-guide',
     specs: { size: '2.5-4.0mm × 30-100mm', standard: 'SABS 1195' } },
   { slug: 'anchor-bolts', image: '/images/products/anchor-bolts.webp', pricePerPiece: 0.12, nameKey: 'anchor',
+    articleSlug: 'anchor-bolts-selection-guide',
     specs: { size: 'M10-M30 × 75-1000mm', standard: 'DIN 529 / ASTM F1554', grades: 'Grade 36 / Grade 55 / Grade 105', materials: 'Carbon Steel / SS304 / SS316' } },
   { slug: 'washers', image: '/images/products/washers.webp', pricePerPiece: 0.008, nameKey: 'washers',
+    articleSlug: 'flat-washers-vs-spring-washers',
     specs: { size: 'M6-M36', standard: 'DIN 125 / ISO 7089' } },
   { slug: 'coach-screws', image: '/images/products/coach-screws.webp', pricePerPiece: 0.025, nameKey: 'coach',
+    articleSlug: 'fastener-selection-guide-african-construction',
     specs: { size: 'M6-M12 × 30-200mm', standard: 'DIN 571 / LS 1993', materials: 'Carbon Steel / SS304 / SS316', finishes: 'Hot-Dip Galvanized / Zinc Plated / Plain' } },
   { slug: 'threaded-rods', image: '/images/products/threaded-rods.webp', pricePerPiece: 0.08, nameKey: 'threaded',
+    articleSlug: 'threaded-rod-studding-guide',
     specs: { size: 'M6-M24 × 1m-3m', standard: 'DIN 975 / ISO 898' } },
 ]
 
@@ -144,8 +152,8 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
             const text = texts[product.nameKey] || productText.en[product.nameKey]
             return (
               <div key={product.slug} className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow flex flex-col">
-                {/* Image - clickable link to inquiry */}
-                <a href={`/${locale}#inquiry`} className="block relative h-40 sm:h-48 lg:h-52 bg-gradient-to-br from-gray-100 to-gray-200">
+                {/* Image - clickable link to article for SEO internal link juice */}
+                <a href={`/${locale}/industry/${product.articleSlug}`} className="block relative h-40 sm:h-48 lg:h-52 bg-gradient-to-br from-gray-100 to-gray-200">
                   <Image src={product.image} alt={text.name} fill className="object-cover" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" priority={index < 4} />
                 </a>
                 
