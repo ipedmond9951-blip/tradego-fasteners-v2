@@ -22,8 +22,10 @@ export default function sitemap() {
     }
     
     for (const slug of articleSlugs) {
+      // URL-encode slugs that contain non-ASCII characters (e.g. Chinese chars)
+      const encodedSlug = encodeURIComponent(slug)
       entries.push({
-        url: `${baseUrl}/${locale}/industry/${slug}`,
+        url: `${baseUrl}/${locale}/industry/${encodedSlug}`,
         lastModified: new Date().toISOString(),
         changeFrequency: 'monthly',
         priority: 0.8,

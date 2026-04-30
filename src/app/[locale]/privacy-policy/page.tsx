@@ -27,6 +27,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: titles[loc] || titles.en,
     description: 'TradeGo Fasteners Privacy Policy - Learn how we collect, use, and protect your personal information.',
+    alternates: {
+      canonical: `https://www.tradego-fasteners.com/${loc}/privacy-policy`,
+      languages: Object.fromEntries([
+        ['x-default', 'https://www.tradego-fasteners.com/en/privacy-policy'],
+        ...locales.map(l => [l, `https://www.tradego-fasteners.com/${l}/privacy-policy`]),
+      ]),
+    },
   }
 }
 

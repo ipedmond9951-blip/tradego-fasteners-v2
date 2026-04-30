@@ -35,9 +35,18 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     hi: 'TradeGo Fasteners से बल्क फास्टनर ऑर्डर के लिए सं tact करें। ISO 9001 और SABS प्रमाणित निर्माता। अफ्रीका को समुद्री माल।',
   }
 
+  const siteUrl = 'https://www.tradego-fasteners.com'
+
   return {
     title: titles[loc] || titles.en,
     description: descriptions[loc] || descriptions.en,
+    alternates: {
+      canonical: `${siteUrl}/${loc}/contact`,
+      languages: Object.fromEntries([
+        ['x-default', `${siteUrl}/en/contact`],
+        ...locales.map(l => [l, `${siteUrl}/${l}/contact`]),
+      ]),
+    },
   }
 }
 
