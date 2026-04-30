@@ -36,7 +36,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     },
     alternates: {
       canonical: `${SITE_URL}/${locale}/industry/${slug}`,
-      languages: Object.fromEntries(locales.map(l => [l, `${SITE_URL}/${l}/industry/${slug}`])),
+      languages: Object.fromEntries([
+        ['x-default', `${SITE_URL}/en/industry/${slug}`],
+        ...locales.map(l => [l, `${SITE_URL}/${l}/industry/${slug}`])
+      ]),
     },
     twitter: {
       card: 'summary_large_image',
@@ -148,7 +151,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-primary-900 to-primary-800 text-white py-12 md:py-16 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <Image src={article.image} alt={title} fill className="object-cover" />
+          <Image src={article.image} alt={title} fill className="object-cover" sizes="100vw" priority />
         </div>
         <div className="container mx-auto px-4 sm:px-6 relative z-10 max-w-3xl">
           <Link href={`/${locale}/industry`} className="inline-flex items-center gap-1 text-primary-200 hover:text-white text-sm mb-6 transition-colors">
