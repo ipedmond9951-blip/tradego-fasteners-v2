@@ -13,7 +13,7 @@ const path = require('path');
 
 const DRY_RUN = process.argv.includes('--dry-run');
 const articlesDir = path.join(process.cwd(), 'content', 'articles');
-const BACKUP_DIR = path.join(process.cwd(), 'content', 'articles', 'backup-' + Date.now());
+const BACKUP_DIR = path.join(process.env.HOME || '/tmp', '龙虾记忆', 'backup', 'related-articles-' + Date.now());
 
 // Load all articles
 const files = fs.readdirSync(articlesDir).filter(f => f.endsWith('.json'));
