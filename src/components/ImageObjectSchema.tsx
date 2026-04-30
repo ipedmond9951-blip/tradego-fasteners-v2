@@ -21,7 +21,7 @@ const productImages = [
     caption: 'Hex Bolts and Nuts',
   },
   {
-    url: '/images/products/ibr-nails-placeholder.webp',
+    url: '/images/products/ibr-nails-1.webp',
     caption: 'IBR Roofing Nails - SABS Certified',
   },
   {
