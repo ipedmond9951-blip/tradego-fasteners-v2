@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { getAllArticles, getAllSlugs, getArticleBySlug } from '@/lib/articles'
-import { type Locale, t } from '@/i18n'
+import { type Locale, t, locales } from '@/i18n'
 import type { ArticleSection } from '@/lib/articles'
 import ShareButtons from '@/components/ShareButtons'
 
@@ -28,10 +28,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     openGraph: {
       title,
       description: desc,
+      url: `${SITE_URL}/${locale}/industry/${slug}`,
       type: 'article',
       publishedTime: article.date,
       authors: ['TradeGo Fasteners'],
       images: [{ url: `${SITE_URL}${article.image}`, width: 1200, height: 630, alt: title }],
+    },
+    alternates: {
+      canonical: `${SITE_URL}/${locale}/industry/${slug}`,
+      languages: Object.fromEntries(locales.map(l => [l, `${SITE_URL}/${l}/industry/${slug}`])),
     },
     twitter: {
       card: 'summary_large_image',
