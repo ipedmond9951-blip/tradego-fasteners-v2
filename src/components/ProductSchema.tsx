@@ -98,6 +98,11 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
         '@type': 'Country',
         name: 'China',
       },
+      areaServed: {
+        '@type': 'Place',
+        name: 'Africa',
+        alternateName: ['Sub-Saharan Africa', 'Southern Africa', 'East Africa', 'West Africa'],
+      },
       manufacturer: {
         '@type': 'Organization',
         '@id': 'https://www.tradego-fasteners.com/#organization',
