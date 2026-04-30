@@ -27,6 +27,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: titles[loc] || titles.en,
     description: 'TradeGo Fasteners Terms of Service - Read our terms and conditions for using our website and services.',
+    alternates: {
+      canonical: `https://www.tradego-fasteners.com/${loc}/terms`,
+      languages: Object.fromEntries([
+        ['x-default', 'https://www.tradego-fasteners.com/en/terms'],
+        ...locales.map(l => [l, `https://www.tradego-fasteners.com/${l}/terms`]),
+      ]),
+    },
   }
 }
 
