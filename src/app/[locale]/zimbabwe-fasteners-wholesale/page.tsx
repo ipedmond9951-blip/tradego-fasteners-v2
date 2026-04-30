@@ -15,8 +15,13 @@ export default async function ZimbabweFastenersPage({ params }: { params: Promis
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[#0A3D62] to-[#1A5F7A] text-white py-16 px-4">
-        <div className="max-w-6xl mx-auto">
+      <section className="relative bg-gradient-to-r from-[#0A3D62] to-[#1A5F7A] text-white py-16 px-4 min-h-[400px] flex items-center">
+        {/* Background image */}
+        <div className="absolute inset-0 z-0">
+          <img src="/images/zimbabwe-warehouse.webp" alt="Zimbabwe warehouse" className="w-full h-full object-cover opacity-30" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0A3D62]/90 to-[#1A5F7A]/80"></div>
+        </div>
+        <div className="max-w-6xl mx-auto relative z-10">
           <h1 className="text-4xl font-bold mb-4">
             Your Trusted Zimbabwe Fasteners Wholesale Partner
           </h1>
