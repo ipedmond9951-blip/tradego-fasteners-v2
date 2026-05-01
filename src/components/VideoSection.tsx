@@ -152,6 +152,8 @@ export default function VideoSection({ locale }: VideoSectionProps) {
               ref={videoRef}
               src={activeVideoData.videoSrc}
               poster={activeVideoData.poster}
+              title={activeVideo === 'factory' ? 'TradeGo Fasteners factory tour - ISO 9001 certified fastener production facility in China serving African markets' : activeVideo === 'product' ? 'TradeGo fastener product showcase - drywall screws, self-drilling screws, hex bolts, IBR nails for construction applications' : 'TradeGo customer testimonials - construction companies from South Africa, Zimbabwe, Kenya share their experience'}
+              aria-label={activeVideo === 'factory' ? 'Factory tour video showing TradeGo fastener manufacturing and quality control process' : activeVideo === 'product' ? 'Product showcase video demonstrating TradeGo fastener product range and applications' : 'Customer testimonial video featuring African construction professionals'}
               className="w-full h-full object-cover cursor-pointer"
               onClick={handleVideoClick}
               onEnded={handleVideoEnded}

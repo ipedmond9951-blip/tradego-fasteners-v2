@@ -3,17 +3,14 @@ import { locales, type Locale, getMessages, t } from '@/i18n'
 import HeroSection from '@/components/HeroSection'
 import AboutSection from '@/components/AboutSection'
 import WhyChooseUs from '@/components/WhyChooseUs'
-import StatisticsSection from '@/components/StatisticsSection'
 import ProductGrid from '@/components/ProductGrid'
 import CertificationsSection from '@/components/CertificationsSection'
 import FAQSection from '@/components/FAQSection'
 import TestimonialsSection from '@/components/TestimonialsSection'
 import InquiryForm from '@/components/InquiryForm'
-import TeamCard from '@/components/TeamCard'
 import { GeoPromotion } from '@/components/GeoContent'
 import ShareButtons from '@/components/ShareButtons'
 import ManufacturingProcess from '@/components/ManufacturingProcess'
-
 import VideoSection from '@/components/VideoSection'
 
 export function generateStaticParams() {
@@ -138,7 +135,6 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
 
       <AboutSection locale={locale} />
       <WhyChooseUs locale={locale} />
-      <StatisticsSection locale={locale} />
       <ProductGrid locale={locale} />
 
       {/* Application Scenarios - content depth for SEO */}
