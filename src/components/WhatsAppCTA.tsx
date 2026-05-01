@@ -80,7 +80,7 @@ export default function WhatsAppCTA({ locale }: WhatsAppCTAProps) {
   if (isMinimized) {
     return (
       <>
-        {/* Mobile-only Get Quote sticky button - hidden on md+ }
+        {/* Mobile-only Get Quote sticky button - hidden on md+ */}
         <a
           href={`/${locale}#inquiry`}
           className="fixed bottom-4 left-4 z-50 md:hidden flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-105"
