@@ -13,6 +13,12 @@
     "zh": "从中国采购紧固件到津巴布韦的完整指南。包含贝拉港海运、USD付款方式、清关流程和采购清单。工厂价格，全套文件支持。"
   },
   "keywords": "buy fasteners from China Zimbabwe, Zimbabwe fastener import, China to Zimbabwe freight, Beira port Zimbabwe, Zimbabwe mining fasteners, Zimbabwe construction hardware, fastener supplier Zimbabwe, USD payment Zimbabwe, Zimbabwe customs clearance fasteners",
+  "cta": {
+    "text": {
+      "en": "Start Your Zimbabwe Fastener Order",
+      "zh": "开始您的津巴布韦紧固件订单"
+    }
+  },
   "sections": [
     {
       "id": "overview",
@@ -378,63 +384,63 @@
         "en": "Frequently Asked Questions",
         "zh": "常见问题"
       },
-      "faq": [
+      "faqItems": [
         {
-          "question": {
+          "q": {
             "en": "What is the minimum order quantity for Zimbabwe delivery?",
             "zh": "到津巴布韦的最小起订量是多少？"
           },
-          "answer": {
+          "a": {
             "en": "We recommend minimum 1 metric ton for trial orders. A 20ft container holds approximately 18-22 metric tons of standard fasteners, which is the most cost-efficient shipping option. For small quantities under 500kg, air freight to Harare can be arranged at higher cost.",
             "zh": "我们建议试单最小1公吨。20尺集装箱可装约18-22公吨标准紧固件，是最具成本效益的运输方式。对于500kg以下的小批量，可安排空运到哈拉雷，但成本较高。"
           }
         },
         {
-          "question": {
+          "q": {
             "en": "How long does shipping from China to Zimbabwe take?",
             "zh": "从中国到津巴布韦海运需要多久？"
           },
-          "answer": {
+          "a": {
             "en": "Sea freight from China to Beira port takes 14-20 days depending on departure port. After that, Beira clearance is 3-5 days, and road transit to Harare is typically 10-14 days. Total: 25-35 days from China port to Zimbabwe warehouse.",
             "zh": "从中国到贝拉港的海运时间取决于出发港口，约14-20天。之后贝拉港清关3-5天，公路运输到哈拉雷约10-14天。总计：中国港口到津巴布韦仓库约25-35天。"
           }
         },
         {
-          "question": {
+          "q": {
             "en": "Can you ship to cities outside Harare?",
             "zh": "可以发货到哈拉雷以外的城市吗？"
           },
-          "answer": {
+          "a": {
             "en": "Yes. We deliver to all major Zimbabwe cities including Bulawayo, Mutare, Gweru, Kwekwe, and directly to mine sites in Mvuma, Kadoma, and Chegutu. Remote site delivery may incur additional transport costs.",
             "zh": "可以。我们配送到津巴布韦所有主要城市，包括布拉瓦约、穆塔雷、圭鲁、奎奎，并可直接送到姆武马、卡多马、切古图的矿场。偏远地区配送可能产生额外运费。"
           }
         },
         {
-          "question": {
+          "q": {
             "en": "What standards do Zimbabwe fasteners need to meet?",
             "zh": "津巴布韦的紧固件需要满足什么标准？"
           },
-          "answer": {
+          "a": {
             "en": "Zimbabwe commonly references British Standards (BS) and ISO standards. Mining projects often require SABS certification reference or specific project certifications. We can supply fasteners with relevant test certificates and documentation. For government projects, confirm specific standards in the tender documents.",
             "zh": "津巴布韦通常参考英国标准(BS)和ISO标准。矿业项目常需要SABS认证参考或特定项目认证。我们可以提供相关测试证书和文件支持的紧固件。对于政府项目，请在招标文件确认具体标准。"
           }
         },
         {
-          "question": {
+          "q": {
             "en": "How do I make payment from Zimbabwe?",
             "zh": "我从津巴布韦如何付款？"
           },
-          "answer": {
+          "a": {
             "en": "Standard method is USD wire transfer (T/T) to our Hong Kong or UAE bank account. For orders over USD 20,000, we can discuss 30/70 or 50/50 payment terms for verified clients. All bank transfer fees are the sender's responsibility.",
             "zh": "标准方式是USD电汇(T/T)到我们香港或阿联酋银行账户。对于USD 20,000以上的订单，我们可以为已验证客户讨论30/70或50/50付款条款。所有银行转账费用由付款方承担。"
           }
         },
         {
-          "question": {
+          "q": {
             "en": "Do you provide samples before bulk order?",
             "zh": "你们提供大货前的样品吗？"
           },
-          "answer": {
+          "a": {
             "en": "Yes. We can send samples (1-5kg) by DHL/FedEx for quality verification before bulk order. Sample cost and express shipping are charged separately. For orders over USD 5,000, sample cost can be credited against bulk order.",
             "zh": "可以。我们可以通过DHL/FedEx发送样品（1-5kg）用于大货前的质量验证。样品费和快递费单独收取。对于USD 5,000以上的订单，样品费可以抵扣大货订单。"
           }
