@@ -46,3 +46,6 @@ Desktop.ini.env.prod
 .env.tradebrain-ga4.json
 .env.tradebrain-ga4.*
 content/articles/backup-*/
+
+# Auto-marketing leads storage
+data/
