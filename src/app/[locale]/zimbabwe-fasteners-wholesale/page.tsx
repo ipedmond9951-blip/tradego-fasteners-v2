@@ -158,24 +158,21 @@ export default async function ZimbabweFastenersPage({ params }: { params: Promis
       {/* JSON-LD Schema for this page */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": "WholesaleStore",
         "name": "TradeGo Fasteners - Zimbabwe Wholesale",
-        "description": "Professional fastener wholesale supplier for Zimbabwe market. Drywall screws, hex bolts, IBR nails, self-drilling screws.",
+        "description": "Professional fastener wholesale supplier for Zimbabwe market. Factory direct prices for drywall screws, hex bolts, IBR nails, self-drilling screws. Shipping to Harare, Bulawayo, Mutare.",
         "url": "https://www.tradego-fasteners.com/en/zimbabwe-fasteners-wholesale",
         "telephone": "+86-159-6340-9951",
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "CN",
-          "addressRegion": "Guangdong",
-          "addressLocality": "Shenzhen",
-          "streetAddress": "Factory Address Available Upon Request"
-        },
+        "image": "https://www.tradego-fasteners.com/images/zimbabwe-warehouse.jpg",
+        "priceRange": "$$",
         "whatsApp": "+8615963409951",
         "areaServed": [
           { "@type": "Country", "name": "Zimbabwe" },
           { "@type": "City", "name": "Harare" },
           { "@type": "City", "name": "Bulawayo" },
-          { "@type": "City", "name": "Mutare" }
+          { "@type": "City", "name": "Mutare" },
+          { "@type": "Country", "name": "South Africa" },
+          { "@type": "Country", "name": "Zambia" }
         ],
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
@@ -183,8 +180,28 @@ export default async function ZimbabweFastenersPage({ params }: { params: Promis
           "itemListElement": [
             { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Drywall Screws", "description": "Black phosphate drywall screws for construction" }},
             { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Hex Bolts", "description": "High tensile hex bolts DIN 931" }},
-            { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "IBR Nails", "description": "Galvanized IBR roof nails" }}
+            { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "IBR Nails", "description": "Galvanized IBR roof nails" }},
+            { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Self-Drilling Screws", "description": "Self-drilling TEK screws for metal roofing" }}
           ]
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingDestination": [
+            { "@type": "Country", "name": "Zimbabwe" },
+            { "@type": "Country", "name": "Zambia" },
+            { "@type": "Country", "name": "South Africa" }
+          ],
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "35-45",
+            "currency": "USD"
+          },
+          "deliveryTime": {
+            "@type": "QuantitativeValue",
+            "minValue": "35",
+            "maxValue": "45",
+            "unitCode": "DAY"
+          }
         }
       }) }} />
     </div>
