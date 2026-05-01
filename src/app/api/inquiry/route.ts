@@ -5,7 +5,7 @@ import { join } from 'path';
 const INQUIRY_EMAIL = 'ipedmond9951@gmail.com';
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
 const WHATSAPP_WEBHOOK_URL = process.env.WHATSAPP_WEBHOOK_URL;
-const CRM_API_URL = process.env.CRM_API_URL || 'http://localhost:3000';
+const CRM_API_URL = process.env.CRM_API_URL || 'https://gentle-cities-rescue.loca.lt';
 
 interface InquiryData {
   name: string;
@@ -286,13 +286,25 @@ export async function POST(request: NextRequest) {
     console.log('====================');
 
     // 1. Save lead to local JSON file (primary storage)
-    let lead: LeadRecord;
+    // Note: On Vercel serverless, this will fail. For production, use Vercel Postgres or cloud DB.
+    let lead: LeadRecord | null = null;
     try {
       lead = await saveLeadToFile({ ...data, is_high_value: isHighValue });
       console.log(`Lead saved: ${lead.id}`);
     } catch (e) {
-      console.error('Failed to save lead to file:', e);
-      return NextResponse.json({ error: 'Failed to save lead' }, { status: 500 });
+      console.warn('File storage not available on serverless (expected on Vercel):', String(e));
+      // Create a temporary lead record without saving to file
+      lead = {
+        ...data,
+        id: generateId(),
+        created_at: new Date().toISOString(),
+        source: 'website_form',
+        lead_score: isHighValue ? 50 : 10,
+        lead_status: 'new',
+        tags: ['website_inquiry', data.products].filter(Boolean),
+        is_high_value: isHighValue,
+      };
+      console.log(`Lead created (no file storage): ${lead.id}`);
     }
 
     // 2. Send to CRM API (secondary, non-blocking)
