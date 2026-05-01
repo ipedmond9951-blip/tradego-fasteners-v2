@@ -24,6 +24,7 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
       name: (form.name as any).value,
       email: (form.email as any).value,
       company: (form.company as any).value,
+      phone: (form.phone as any).value,
       country: (form.country as any).value,
       products: (form.products as any).value,
       quantity: (form.quantity as any).value,
@@ -77,6 +78,10 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
               <input name="company" className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" />
             </div>
             <div>
+              <label className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.phone')}</label>
+              <input name="phone" type="tel" className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" placeholder="+263..." />
+            </div>
+            <div>
               <label className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.country')}</label>
               <input name="country" className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" />
             </div>
@@ -86,9 +91,13 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
             <select name="products" className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent">
               <option value="">{t(locale, 'inquiry.selectProduct')}</option>
               <option value="drywall">Drywall Screws</option>
-              <option value="self-drilling">Self-Drilling Screws</option>
+              <option value="self-drilling">Self-Drilling Screws (TEK)</option>
               <option value="bolts">Bolts & Nuts</option>
-              <option value="ibr">IBR Nails</option>
+              <option value="ibr">IBR Nails (SABS 1195)</option>
+              <option value="anchor">Anchor Bolts</option>
+              <option value="washers">Washers</option>
+              <option value="coach">Coach Screws</option>
+              <option value="threaded">Threaded Rods</option>
               <option value="other">Other</option>
             </select>
           </div>
