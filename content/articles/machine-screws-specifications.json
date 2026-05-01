@@ -28,7 +28,7 @@
         "en": "What Are Machine Screws?"
       },
       "body": {
-        "en": "Machine screws are precision <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a> with internal threads designed to mate with a pre-tapped hole or nut. Unlike <a href=\"/products#self-drilling-screws\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">self-tapping screws</a>, machine screws require a pre-drilled pilot hole with matching threads. They are typically made to tighter tolerances than sheet metal screws and are used in precision applications where alignment and thread fit are critical."
+        "en": "Machine screws are precision <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a></a> with internal threads designed to mate with a pre-tapped hole or nut. Unlike <a href=\"/products#self-drilling-screws\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#self-drilling-screws\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">self-tapping screws</a></a>, machine screws require a pre-drilled pilot hole with matching threads. They are typically made to tighter tolerances than sheet metal screws and are used in precision applications where alignment and thread fit are critical."
       }
     },
     {
@@ -98,7 +98,7 @@
         "en": "Machine Screws vs. Sheet Metal Screws"
       },
       "body": {
-        "en": "The key difference: machine screws require pre-tapped holes and <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nuts</a>; sheet metal screws create their own threads. Machine screws offer better precision and can be repeatedly assembled/disassembled; sheet metal screws offer faster installation but can strip threads. Use machine screws when precision and repeated assembly are needed; use sheet metal screws for quick fastening in thin materials."
+        "en": "The key difference: machine screws require pre-tapped holes and <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nuts</a></a>; sheet metal screws create their own threads. Machine screws offer better precision and can be repeatedly assembled/disassembled; sheet metal screws offer faster installation but can strip threads. Use machine screws when precision and repeated assembly are needed; use sheet metal screws for quick fastening in thin materials."
       }
     },
     {
