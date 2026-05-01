@@ -17,7 +17,7 @@
     "hi": "बोल्ट ग्रेड मार्किंग गाइड: 4.6, 8.8, 10.9 और 12.9"
   },
   "description": {
-    "en": "Learn to read bolt grade markings and select the right fastener for structural, automotive, and general applications. Complete guide covering ISO 898-1 grade...",
+    "en": "Learn to read bolt grade markings and select the right <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a> for structural, automotive, and general applications. Complete guide covering ISO 898-1 grade...",
     "zh": "学会识别螺栓等级标记，选择正确的紧固件。涵盖ISO 898-1等级、保证载荷和常见错误。"
   },
   "keywords": "bolt grade markings, 8.8 bolt, 10.9 bolt, 12.9 bolt, ISO 898-1, bolt strength classes",
@@ -28,7 +28,7 @@
         "en": "Why Bolt Grades Matter: The Cost of Getting It Wrong"
       },
       "body": {
-        "en": "Using the wrong bolt grade has real consequences. A Grade 4.6 bolt used where Grade 8.8 is required will fail at 40% of the design load. In structural applications, this means building collapse. In automotive applications, it means component failure at speed. Conversely, using Grade 12.9 where Grade 8.8 suffices wastes 3-4x cost and introduces hydrogen embrittlement risk. The global fastener failure rate is estimated at 2-5% — and 80% of failures trace back to incorrect grade selection."
+        "en": "Using the wrong bolt grade has real consequences. A Grade 4.6 bolt used where Grade 8.8 is required will fail at 40% of the design load. In structural applications, this means building collapse. In automotive applications, it means component failure at speed. Conversely, using Grade 12.9 where Grade 8.8 suffices wastes 3-4x cost and introduces hydrogen embrittlement risk. The global <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a> failure rate is estimated at 2-5% — and 80% of failures trace back to incorrect grade selection."
       }
     },
     {
@@ -37,7 +37,7 @@
         "en": "How to Read Bolt Head Markings"
       },
       "body": {
-        "en": "ISO 898-1 bolt grades are stamped on the bolt head. The marking system uses two numbers separated by a dot. The first number = minimum tensile strength / 100 (in MPa). The second number = yield ratio (yield strength / tensile strength) × 10. So for Grade 8.8: tensile strength = 8 × 100 = 800 MPa, yield strength = 800 × 0.8 = 640 MPa. For imperial bolts (SAE J429), markings use radial lines: 3 lines = Grade 5, 6 lines = Grade 8, no lines = Grade 2."
+        "en": "ISO 898-1 bolt grades are stamped on the bolt head. The marking system uses two numbers separated by a dot. The first number = minimum tensile strength / 100 (in MPa). The second number = yield ratio (yield strength / tensile strength) × 10. So for Grade 8.8: tensile strength = 8 × 100 = 800 MPa, yield strength = 800 × 0.8 = 640 MPa. For imperial <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a> (SAE J429), markings use radial lines: 3 lines = Grade 5, 6 lines = Grade 8, no lines = Grade 2."
       },
       "table": {
         "headers": [
@@ -147,7 +147,7 @@
         "en": "Matching Nuts and Washers: A System Approach"
       },
       "body": {
-        "en": "A bolt is only as strong as its nut. The nut grade must match or exceed the bolt grade. ISO 898-2 defines nut designation by proof load stress. Using a Grade 4 nut with a Grade 8.8 bolt means the nut will strip before the bolt reaches its proof load. Critical rule: nut class ≥ bolt class. For Grade 8.8 bolts, use Class 8 nuts minimum. For Grade 10.9 bolts, use Class 10 nuts. Washers also matter: hard washers (HV 300+) are required for Grade 8.8 and above to prevent embedding into the connected part."
+        "en": "A bolt is only as strong as its nut. The nut grade must match or exceed the bolt grade. ISO 898-2 defines nut designation by proof load stress. Using a Grade 4 nut with a Grade 8.8 bolt means the nut will strip before the bolt reaches its proof load. Critical rule: nut class ≥ bolt class. For Grade 8.8 <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a>, use Class 8 <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nuts</a> minimum. For Grade 10.9 <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a>, use Class 10 <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nuts</a>. <a href=\"/products#washers\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Washers</a> also matter: hard <a href=\"/products#washers\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">washers</a> (HV 300+) are required for Grade 8.8 and above to prevent embedding into the connected part."
       },
       "table": {
         "headers": [
@@ -190,7 +190,7 @@
         "en": "Coating Interactions: What You Must Know"
       },
       "body": {
-        "en": "Coating choice affects bolt strength. Hot-dip galvanizing heats the bolt to ~450°C, which can alter the heat treatment of Grade 10.9 and 12.9 bolts, reducing their mechanical properties. For Grade 10.9 and above, use mechanical galvanizing or sherardizing instead. Hydrogen embrittlement is a critical risk: electroplating introduces hydrogen into the steel. For Grade 10.9 and 12.9, baking within 4 hours of plating is mandatory (4-24 hours at 190-220°C). Never electroplate Grade 12.9 bolts."
+        "en": "Coating choice affects bolt strength. Hot-dip galvanizing heats the bolt to ~450°C, which can alter the heat treatment of Grade 10.9 and 12.9 <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a>, reducing their mechanical properties. For Grade 10.9 and above, use mechanical galvanizing or sherardizing instead. Hydrogen embrittlement is a critical risk: electroplating introduces hydrogen into the steel. For Grade 10.9 and 12.9, baking within 4 hours of plating is mandatory (4-24 hours at 190-220°C). Never electroplate Grade 12.9 <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a>."
       },
       "table": {
         "headers": [
@@ -238,7 +238,7 @@
         "en": "5 Common Procurement Mistakes"
       },
       "body": {
-        "en": "Mistake 1: Buying on price alone — Grade 4.6 bolts cost 40% less than 8.8, but using them in structural applications creates liability. Mistake 2: Not specifying grade on purchase orders — many suppliers default to Grade 4.6 unless told otherwise. Mistake 3: Mixing grades in same connection — creates uneven load distribution. Mistake 4: Substituting imperial for metric grades — SAE Grade 5 ≈ 8.8 but is not equivalent; SAE Grade 8 ≈ 10.9 but has different proof load values. Mistake 5: Ignoring nut grade — a Grade 4 nut on a Grade 8.8 bolt fails at 50% of bolt capacity. For more information, also see our guides on [hex bolt dimensions](/en/industry/hex-bolt-dimensions-chart), [high-tensile bolts](/en/industry/high-tensile-structural-bolts-guide), [carriage bolts](/en/industry/carriage-bolts-specifications)."
+        "en": "Mistake 1: Buying on price alone — Grade 4.6 <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a> cost 40% less than 8.8, but using them in structural applications creates liability. Mistake 2: Not specifying grade on purchase orders — many suppliers default to Grade 4.6 unless told otherwise. Mistake 3: Mixing grades in same connection — creates uneven load distribution. Mistake 4: Substituting imperial for metric grades — SAE Grade 5 ≈ 8.8 but is not equivalent; SAE Grade 8 ≈ 10.9 but has different proof load values. Mistake 5: Ignoring nut grade — a Grade 4 nut on a Grade 8.8 bolt fails at 50% of bolt capacity. For more information, also see our guides on [<a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">hex bolt</a> dimensions](/en/industry/hex-bolt-dimensions-chart), [high-tensile <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a>](/en/industry/high-tensile-structural-<a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a>-guide), [carriage <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a>](/en/industry/carriage-<a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a>-specifications)."
       }
     },
     {
