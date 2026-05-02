@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { redirect } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 import { getAllArticles, getAllSlugs, getArticleBySlug } from '@/lib/articles'
@@ -15,10 +16,18 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
   const { locale: localeParam, slug } = await params
   const locale = (localeParam as Locale) || 'en'
-  const article = getArticleBySlug(slug)
+  const article = getArticleBySlug(slug) as any
   if (!article) return { title: 'Article Not Found' }
 
-  const title = article.title[locale] || article.title.en
+  // Old article slug redirected to new URL - don't index
+  if (article.redirectTo) {
+    return {
+      title: 'Page Moved | TradeGo Fasteners',
+      robots: { index: false },
+    }
+  }
+
+  const title = (article.title as Record<string, string>)[locale] || (article.title as Record<string, string>).en
   const desc = article.description[locale] || article.description.en
 
   return {
@@ -112,6 +121,11 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
         </div>
       </div>
     )
+  }
+
+  // Old article slug redirected to new URL
+  if ((article as any).redirectTo) {
+    redirect(`/${locale}/industry/${(article as any).redirectTo}`)
   }
 
   const title = localizedText(article.title, locale)
