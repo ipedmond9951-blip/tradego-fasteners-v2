@@ -1,9 +1,7 @@
 import { type Locale, t, locales } from '@/i18n'
-import Image from 'next/image'
-import Link from 'next/link'
 import type { Metadata } from 'next'
 import MaterialsSection from '@/components/MaterialsSection'
-import ProductGridWithSkeleton from '@/components/ProductGridWithSkeleton'
+import ProductSearchSection from '@/components/ProductSearchSection'
 import ProductSchema from '@/components/ProductSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 
@@ -69,34 +67,8 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
         <div className="container mx-auto px-4 sm:px-6">
           <h1 className="text-3xl md:text-4xl font-bold mb-3">{t(locale, 'products.allProducts')}</h1>
           <p className="text-primary-200 text-base md:text-lg max-w-2xl">{t(locale, 'products.subtitle')}</p>
-          {/* Search bar */}
-          <div className="mt-8 max-w-xl">
-            <div className="relative">
-              <input
-                type="search"
-                placeholder={t(locale, 'products.searchPlaceholder')}
-                className="w-full pl-12 pr-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:bg-white/15 focus:border-white/40 text-sm"
-              />
-              <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Product Grid */}
-      <section className="py-10 md:py-16">
-        <div className="container mx-auto px-4 sm:px-6">
-          {/* Category filters */}
-          <div className="flex flex-wrap gap-2 mb-8">
-            {['All', 'Drywall Screws', 'Self-Drilling', 'Bolts & Nuts', 'IBR Nails'].map((cat) => (
-              <button key={cat} className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${cat === 'All' ? 'bg-primary-700 text-white' : 'bg-white text-gray-600 hover:bg-gray-100 border border-gray-200'}`}>
-                {cat}
-              </button>
-            ))}
-          </div>
-
-          {/* Grid */}
-          <ProductGridWithSkeleton
+          {/* Search Section - Client Component */}
+          <ProductSearchSection
             products={allProducts}
             locale={locale}
             texts={texts}
@@ -104,13 +76,13 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
         </div>
       </section>
 
-      {/* Materials & Finishes Section - Round 2 improvement */}
+      {/* Materials & Finishes Section */}
       <MaterialsSection locale={locale} />
 
-      {/* Product Schema for SEO - Round 5 */}
+      {/* Product Schema for SEO */}
       <ProductSchema products={allProducts} locale={locale} />
 
-      {/* Breadcrumb Schema for SEO - Round 11 */}
+      {/* Breadcrumb Schema for SEO */}
       <BreadcrumbSchema locale={locale} pageName="Products" pageUrl="/products" />
 
     </div>
