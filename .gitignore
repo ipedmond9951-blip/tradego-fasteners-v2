@@ -49,3 +49,7 @@ content/articles/backup-*/
 
 # Auto-marketing leads storage
 data/
+
+# Logs
+logs/
+*.log
