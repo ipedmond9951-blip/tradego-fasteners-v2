@@ -134,7 +134,16 @@
     "ru": "Связаться с TradeGo",
     "ja": "TradeGoに連絡",
     "de": "TradeGo Kontaktieren",
-    "hi": "TradeGo से संपर्क करें"
+    "hi": "TradeGo से संपर्क करें",
+    "link": "/contact",
+    "text": {
+      "en": "Contact TradeGo",
+      "zh": "联系TradeGo"
+    },
+    "buttonText": {
+      "en": "Contact Us",
+      "zh": "联系我们"
+    }
   },
   "relatedProducts": [
     "bolts-nuts",

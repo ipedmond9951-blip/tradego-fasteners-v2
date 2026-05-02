@@ -86,7 +86,16 @@
     "ru": "Запросить КП на Доставку",
     "ja": "出荷見積もりを依頼",
     "de": "Versandangebot Erhalten",
-    "hi": "शिपिंग कोटेशन का अनुरोध करें"
+    "hi": "शिपिंग कोटेशन का अनुरोध करें",
+    "link": "/#inquiry",
+    "text": {
+      "en": "Request Shipping Quote",
+      "zh": "请求运输报价"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "请求报价"
+    }
   },
   "relatedProducts": [
     "bolts-nuts",

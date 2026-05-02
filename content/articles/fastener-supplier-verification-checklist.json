@@ -137,7 +137,16 @@
     "ru": "Запросить Экскурсию по Заводу",
     "ja": "工場ツアーをご請求",
     "de": "Werksbesichtigung Anfordern",
-    "hi": "फैक्ट्री टूर का अनुरोध करें"
+    "hi": "फैक्ट्री टूर का अनुरोध करें",
+    "link": "/contact",
+    "text": {
+      "en": "Request Factory Tour",
+      "zh": "请求工厂参观"
+    },
+    "buttonText": {
+      "en": "Contact Us",
+      "zh": "联系我们"
+    }
   },
   "relatedProducts": [
     "bolts-nuts",

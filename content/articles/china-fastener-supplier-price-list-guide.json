@@ -162,7 +162,16 @@
     "ru": "Запросите Бесплатное КП",
     "ja": "無料で見積もりを依頼",
     "de": "Fordern Sie Ihr Kostenloses Angebot an",
-    "hi": "अपना मुफ्त उद्धरण प्राप्त करें"
+    "hi": "अपना मुफ्त उद्धरण प्राप्त करें",
+    "link": "/#inquiry",
+    "text": {
+      "en": "Request Your Free Quote",
+      "zh": "获取免费报价"
+    },
+    "buttonText": {
+      "en": "Get Free Quote",
+      "zh": "获取免费报价"
+    }
   },
   "relatedProducts": [
     "bolts-nuts",
