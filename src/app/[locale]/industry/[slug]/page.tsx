@@ -10,7 +10,17 @@ import ShareButtons from '@/components/ShareButtons'
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
 export async function generateStaticParams() {
-  return getAllSlugs().map(slug => ({ slug }))
+  // Exclude redirect articles (articles with redirectTo field) from static generation
+  const allSlugs = getAllSlugs()
+  const redirectSlugs = new Set(
+    allSlugs.filter(slug => {
+      const article = getArticleBySlug(slug) as any
+      return article?.redirectTo
+    })
+  )
+  return allSlugs
+    .filter(slug => !redirectSlugs.has(slug))
+    .map(slug => ({ slug }))
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
