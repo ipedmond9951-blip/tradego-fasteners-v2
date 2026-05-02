@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-05-02T09:02:54.857057",
+  "mode": "auto_fix",
+  "summary": {
+    "issues_found": 1,
+    "fixes_applied": 1
+  },
+  "issues": [
+    {
+      "type": "meta_description",
+      "locale": "zh",
+      "severity": "medium",
+      "issue": "长度异常: 40字符",
+      "file": "src/app/[locale]/layout.tsx"
+    }
+  ],
+  "fixes": [
+    {
+      "type": "meta_description",
+      "locale": "zh",
+      "old_length": 40,
+      "new_length": 126,
+      "backup": "/Users/zhangming/workspace/tradego-fasteners-v2/src/app/[locale]/layout.tsx.backup.20260502090222"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "timestamp": "2026-05-02T09:02:22.824968",
+  "score": 83,
+  "max_score": 96,
+  "percentage": 86.45833333333334,
+  "results": {
+    "schema": {
+      "FAQPage Schema": {
+        "status": "pass",
+        "details": "FAQPage schema found in FAQSchema.tsx"
+      },
+      "Article Schema": {
+        "status": "pass",
+        "details": "Article Schema in ArticleSchema.tsx"
+      },
+      "Product Schema": {
+        "status": "pass",
+        "details": "Product Schema with ItemList found in ProductSchema.tsx"
+      },
+      "HowTo Schema": {
+        "status": "pass",
+        "details": "HowTo schema found in HowToSchema.tsx"
+      },
+      "BreadcrumbList Schema": {
+        "status": "pass",
+        "details": "BreadcrumbList found in BreadcrumbSchema.tsx"
+      },
+      "Organization Schema": {
+        "status": "pass",
+        "details": "Organization schema found in OrganizationSchema.tsx"
+      },
+      "LocalBusiness Schema": {
+        "status": "pass",
+        "details": "LocalBusiness in LocalBusinessSchema.tsx"
+      },
+      "WebSite Schema": {
+        "status": "pass",
+        "details": "WebSite schema found in WebSiteSchema.tsx and rendered in layout"
+      },
+      "ImageObject Schema": {
+        "status": "pass",
+        "details": "ImageObject schema found in ImageObjectSchema.tsx and rendered in layout"
+      },
+      "VideoObject Schema": {
+        "status": "pass",
+        "details": "VideoObject schema found in VideoSchema.tsx and rendered in layout"
+      },
+      "Review/Rating Schema": {
+        "status": "pass",
+        "details": "Review/Rating schema found in ReviewSchema.tsx"
+      },
+      "ItemList Schema": {
+        "status": "pass",
+        "details": "ItemList found in ProductSchema.tsx"
+      }
+    },
+    "content": {
+      "问题-证据-结论结构": {
+        "status": "skip",
+        "details": "No articles directory (GEO articles may be generated dynamically)"
+      },
+      "具体数字/统计数据": {
+        "status": "warn",
+        "details": "Limited statistics found"
+      },
+      "来源引用标注": {
+        "status": "warn",
+        "details": "Source citations not implemented"
+      },
+      "FAQ内容（5W1H）": {
+        "status": "pass",
+        "details": "FAQ covers 11/6 question types with 57 questions"
+      },
+      "应用场景描述": {
+        "status": "pass",
+        "details": "Found 9 use case keywords"
+      },
+      "信任信号": {
+        "status": "pass",
+        "details": "Found 8 trust signals"
+      }
+    },
+    "technical": {
+      "语义化HTML": {
+        "status": "pass",
+        "details": "Using Next.js with semantic tags"
+      },
+      "aria-labels": {
+        "status": "warn",
+        "details": "Limited aria-labels"
+      },
+      "图片alt完整": {
+        "status": "pass",
+        "details": "Alt coverage: 100% (from auto-seo check)"
+      },
+      "移动端友好": {
+        "status": "pass",
+        "details": "Next.js is mobile-friendly by default"
+      },
+      "Core Web Vitals": {
+        "status": "warn",
+        "details": "Requires PageSpeed Insights API"
+      },
+      "加载速度": {
+        "status": "warn",
+        "details": "Requires Lighthouse or PageSpeed"
+      }
+    }
+  }
+}
