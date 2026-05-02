@@ -71,20 +71,7 @@ export default function OrganizationSchema({ locale = 'en' }: OrganizationSchema
       'https://www.facebook.com/tradegofasteners',
       'https://twitter.com/tradegofasteners',
     ],
-    hasOfferCatalog: {
-      '@type': 'OfferCatalog',
-      name: 'Fastener Products',
-      itemListElement: [
-        { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Drywall Screws' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Self-Drilling Screws' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Bolts & Nuts' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'IBR Nails' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Anchor Bolts' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Washers' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Coach Screws' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Threaded Rods' } },
-      ],
-    },
+
     hasCredential: [
       { '@type': 'EducationalOccupationalCredential', name: 'ISO 9001:2015', credentialCategory: 'quality' },
       { '@type': 'EducationalOccupationalCredential', name: 'CE Certification', credentialCategory: 'safety' },

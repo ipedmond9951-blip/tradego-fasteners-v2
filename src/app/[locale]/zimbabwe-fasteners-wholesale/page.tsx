@@ -174,17 +174,7 @@ export default async function ZimbabweFastenersPage({ params }: { params: Promis
           { "@type": "Country", "name": "South Africa" },
           { "@type": "Country", "name": "Zambia" }
         ],
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Zimbabwe Fasteners",
-          "itemListElement": [
-            { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Drywall Screws", "description": "Black phosphate drywall screws for construction" }},
-            { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Hex Bolts", "description": "High tensile hex bolts DIN 931" }},
-            { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "IBR Nails", "description": "Galvanized IBR roof nails" }},
-            { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Self-Drilling Screws", "description": "Self-drilling TEK screws for metal roofing" }}
-          ]
-        },
-        "shippingDetails": {
+"shippingDetails": {
           "@type": "OfferShippingDetails",
           "shippingDestination": [
             { "@type": "Country", "name": "Zimbabwe" },
