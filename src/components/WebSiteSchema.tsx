@@ -60,18 +60,7 @@ export default function WebSiteSchema({ locale }: WebSiteSchemaProps) {
       email: 'info@tradego-fasteners.com',
       availableLanguage: ['English', 'Chinese'],
     },
-    hasOfferCatalog: {
-      '@type': 'OfferCatalog',
-      name: locale === 'zh' ? '紧固件和建筑五金' : 'Fasteners and Construction Hardware',
-      category: 'Industrial > Construction > Fasteners',
-      itemListElement: [
-        { '@type': 'Offer', itemOffered: { '@type': 'Product', name: locale === 'zh' ? '干墙螺丝' : 'Drywall Screws' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Product', name: locale === 'zh' ? '自钻螺丝' : 'Self-Drilling Screws' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Product', name: locale === 'zh' ? '螺栓螺母' : 'Bolts & Nuts' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Product', name: locale === 'zh' ? 'IBR钉' : 'IBR Nails' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Product', name: locale === 'zh' ? '地脚螺栓' : 'Anchor Bolts' } },
-      ],
-    },
+
   }
 
   return (
