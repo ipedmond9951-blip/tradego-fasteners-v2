@@ -12,6 +12,7 @@ import { GeoPromotion } from '@/components/GeoContent'
 import ShareButtons from '@/components/ShareButtons'
 import ManufacturingProcess from '@/components/ManufacturingProcess'
 import VideoSection from '@/components/VideoSection'
+import StatisticsSection from '@/components/StatisticsSection'
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -313,6 +314,12 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
           </div>
         </div>
       </section>
+
+      {/* Statistics Section - trust numbers */}
+      <StatisticsSection locale={locale} />
+
+      {/* Video Content Section - factory tour, product showcase, testimonials */}
+      <VideoSection locale={locale} />
 
       <FAQSection locale={locale} />
       <TestimonialsSection locale={locale} />
