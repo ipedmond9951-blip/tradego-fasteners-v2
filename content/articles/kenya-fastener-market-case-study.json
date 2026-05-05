@@ -63,16 +63,70 @@
         "hi": "फास्टनर विशिष्टताएं: कोल्ड स्टोरेज के लिए स्टेनलेस स्टील"
       },
       "table": {
-        "headers": ["Product", "Material/Grade", "Quantity", "Unit Price (USD)", "Total (USD)"],
+        "headers": [
+          "Product",
+          "Material/Grade",
+          "Quantity",
+          "Unit Price (USD)",
+          "Total (USD)"
+        ],
         "rows": [
-          ["Stainless hex bolts M12x50mm A2-70", "SS A2-70 ISO 3506", "72,000 pcs", "$0.95/pc", "$68,400"],
-          ["Stainless hex bolts M16x60mm A2-70", "SS A2-70 ISO 3506", "48,000 pcs", "$1.45/pc", "$69,600"],
-          ["Stainless nuts M12 A2-70", "SS A2-70 ISO 3506", "72,000 pcs", "$0.22/pc", "$15,840"],
-          ["Stainless nuts M16 A2-70", "SS A2-70 ISO 3506", "48,000 pcs", "$0.35/pc", "$16,800"],
-          ["Stainless washers M12 A2-70", "SS A2-70 ISO 3506", "144,000 pcs", "$0.08/pc", "$11,520"],
-          ["Structural HDG bolts M20x100mm Grade 8.8", "HDG Grade 8.8", "24,000 pcs", "$2.20/pc", "$52,800"],
-          ["Anchor bolts M16x200mm Grade 4.6 HDG", "HDG Grade 4.6", "8,000 pcs", "$1.85/pc", "$14,800"],
-          ["**TOTAL**", "-", "**234 tonnes**", "-", "**$249,760**"]
+          [
+            "Stainless hex bolts M12x50mm A2-70",
+            "SS A2-70 ISO 3506",
+            "72,000 pcs",
+            "$0.95/pc",
+            "$68,400"
+          ],
+          [
+            "Stainless hex bolts M16x60mm A2-70",
+            "SS A2-70 ISO 3506",
+            "48,000 pcs",
+            "$1.45/pc",
+            "$69,600"
+          ],
+          [
+            "Stainless nuts M12 A2-70",
+            "SS A2-70 ISO 3506",
+            "72,000 pcs",
+            "$0.22/pc",
+            "$15,840"
+          ],
+          [
+            "Stainless nuts M16 A2-70",
+            "SS A2-70 ISO 3506",
+            "48,000 pcs",
+            "$0.35/pc",
+            "$16,800"
+          ],
+          [
+            "Stainless washers M12 A2-70",
+            "SS A2-70 ISO 3506",
+            "144,000 pcs",
+            "$0.08/pc",
+            "$11,520"
+          ],
+          [
+            "Structural HDG bolts M20x100mm Grade 8.8",
+            "HDG Grade 8.8",
+            "24,000 pcs",
+            "$2.20/pc",
+            "$52,800"
+          ],
+          [
+            "Anchor bolts M16x200mm Grade 4.6 HDG",
+            "HDG Grade 4.6",
+            "8,000 pcs",
+            "$1.85/pc",
+            "$14,800"
+          ],
+          [
+            "**TOTAL**",
+            "-",
+            "**234 tonnes**",
+            "-",
+            "**$249,760**"
+          ]
         ]
       }
     },
@@ -145,14 +199,25 @@
         "hi": "अपने केन्या प्रोजेक्ट के लिए CIF मोम्बासा मूल्य का अनुरोध करें"
       },
       "body": {
-        "en": "<p>TradeGo Fasteners supplies <strong>stainless steel A2-70</strong> and <strong>hot-dip galvanized</strong> fasteners for Kenya's construction, cold storage, and manufacturing sectors. We handle KEBS documentation and SGS pre-shipment inspection.</p><p><strong>WhatsApp</strong>: +86-159-6340-9951<br><strong>Email</strong>: sales@tradego-fasteners.com<br><strong>Website</strong>: www.tradego-fasteners.com</p><p>Request your Kenya fastener quotation with CIF Mombasa pricing, KEBS documentation package, and shipping schedule.</p>"
+        "en": "<p>TradeGo Fasteners supplies <strong>stainless steel A2-70</strong> and <strong>hot-dip galvanized</strong> fasteners for Kenya's construction, cold storage, and manufacturing sectors. We handle KEBS documentation and SGS pre-shipment inspection.</p><p><strong>WhatsApp</strong>: +86-159-6340-9951<br><strong>Email</strong>: sales@tradego-fasteners.com<br><strong>Website</strong>: www.tradego-fasteners.com</p><p>Request your Kenya fastener quotation with CIF Mombasa pricing, KEBS documentation package, and shipping schedule.</p>\n\n<div class=\"mt-8 p-4 bg-gray-50 rounded-lg\"><p class=\"text-sm text-gray-600\"><strong>Related Product Guides:</strong> <a href=\"/en/industry/drywall-screws-selection-guide\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Drywall Screws Selection Guide</a> | <a href=\"/en/industry/self-drilling-screws-selection-guide\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Self-Drilling Screws Selection Guide</a> | <a href=\"/en/industry/hex-bolt-dimensions-chart\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Hex Bolt Dimensions Chart</a></p></div>"
       }
     }
   ],
-  "relatedProducts": ["drywall-screws", "self-drilling-screws", "bolts-nuts", "anchor-bolts"],
+  "relatedProducts": [
+    "drywall-screws",
+    "self-drilling-screws",
+    "bolts-nuts",
+    "anchor-bolts"
+  ],
   "relatedArticles": [
-    {"slug": "east-africa-construction-fastener-guide", "title": "East Africa Construction Fastener Guide"},
-    {"slug": "anchor-bolts-foundation-guide", "title": "Anchor Bolts Foundation Guide"}
+    {
+      "slug": "east-africa-construction-fastener-guide",
+      "title": "East Africa Construction Fastener Guide"
+    },
+    {
+      "slug": "anchor-bolts-foundation-guide",
+      "title": "Anchor Bolts Foundation Guide"
+    }
   ],
   "cta": {
     "text": {

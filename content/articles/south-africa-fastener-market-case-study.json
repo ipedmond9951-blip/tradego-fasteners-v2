@@ -45,7 +45,7 @@
         "hi": "प्रोजेक्ट ओवरव्यू: R2.8 अरब डरबन हार्बर ब्रिज विस्तार"
       },
       "body": {
-        "en": "<p>The Durban Harbour Bridge expansion represents South Africa's largest infrastructure project in 2024-2026, requiring 847 tonnes of structural fasteners across 36 contract phases. The project specified <strong>Grade 8.8 hex bolts</strong> for primary structural connections and <strong>Grade 4.6 bolts</strong> for secondary applications.</p><p>Key fastener specifications for this project included:</p><ul><li><strong>Hex bolts M20x80mm Grade 8.8</strong>: 124,000 pieces for main girder connections</li><li><strong>Hex bolts M16x60mm Grade 8.8</strong>: 89,000 pieces for cross-beam assemblies</li><li><strong>Self-drilling TEK screws 12g x 25mm</strong>: 450,000 pieces for steel decking</li><li><strong>Anchor bolts M24x300mm</strong>: 18,000 pieces for foundation work</li></ul>",
+        "en": "<p>The Durban Harbour Bridge expansion represents South Africa's largest infrastructure project in 2024-2026, requiring 847 tonnes of structural fasteners across 36 contract phases. The project specified <strong>Grade 8.8 hex bolt <span class=\"text-gray-500\">(See our <strong><a href=\"/en/industry/hex-bolt-dimensions-chart\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Hex Bolt Dimensions Chart</a></strong> for specifications and sizing.)</span>s</strong> for primary structural connections and <strong>Grade 4.6 bolts</strong> for secondary applications.</p><p>Key fastener specifications for this project included:</p><ul><li><strong>Hex bolts M20x80mm Grade 8.8</strong>: 124,000 pieces for main girder connections</li><li><strong>Hex bolts M16x60mm Grade 8.8</strong>: 89,000 pieces for cross-beam assemblies</li><li><strong>Self-drilling TEK screw <span class=\"text-gray-500\">(See our <strong><a href=\"/en/industry/self-drilling-screws-selection-guide\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Self-Drilling Screws Selection Guide</a></strong> for specifications and sizing.)</span>s 12g x 25mm</strong>: 450,000 pieces for steel decking</li><li><strong>Anchor bolts M24x300mm</strong>: 18,000 pieces for foundation work</li></ul>",
         "zh": "<p>德班港大桥扩建项目是2024-2026年南非最大的基础设施项目，在36个合同阶段需要847吨结构紧固件。该项目指定<strong>8.8级六角螺栓</strong>用于主要结构连接，<strong>4.6级螺栓</strong>用于辅助应用。</p>"
       }
     },
@@ -82,15 +82,63 @@
         "hi": "मूल्य विवरण और डिलीवरी टाइमलाइन"
       },
       "table": {
-        "headers": ["Product", "Quantity", "Unit Price (USD)", "Total (USD)", "Lead Time"],
+        "headers": [
+          "Product",
+          "Quantity",
+          "Unit Price (USD)",
+          "Total (USD)",
+          "Lead Time"
+        ],
         "rows": [
-          ["Hex bolts M20x80mm Grade 8.8", "124,000 pcs", "$0.85/pc", "$105,400", "6 weeks"],
-          ["Hex bolts M16x60mm Grade 8.8", "89,000 pcs", "$0.62/pc", "$55,180", "6 weeks"],
-          ["Self-drilling TEK screws 12g×25mm", "450,000 pcs", "$0.025/pc", "$11,250", "4 weeks"],
-          ["Anchor bolts M24x300mm Grade 4.6", "18,000 pcs", "$1.45/pc", "$26,100", "8 weeks"],
-          ["Washers M20 flat galvanized", "248,000 pcs", "$0.08/pc", "$19,840", "6 weeks"],
-          ["Nuts M20 Grade 8 HDG", "124,000 pcs", "$0.15/pc", "$18,600", "6 weeks"],
-          ["**TOTAL**", "**847 tonnes**", "-", "**$236,370**", "**8 weeks**"]
+          [
+            "Hex bolts M20x80mm Grade 8.8",
+            "124,000 pcs",
+            "$0.85/pc",
+            "$105,400",
+            "6 weeks"
+          ],
+          [
+            "Hex bolts M16x60mm Grade 8.8",
+            "89,000 pcs",
+            "$0.62/pc",
+            "$55,180",
+            "6 weeks"
+          ],
+          [
+            "Self-drilling TEK screws 12g×25mm",
+            "450,000 pcs",
+            "$0.025/pc",
+            "$11,250",
+            "4 weeks"
+          ],
+          [
+            "Anchor bolts M24x300mm Grade 4.6",
+            "18,000 pcs",
+            "$1.45/pc",
+            "$26,100",
+            "8 weeks"
+          ],
+          [
+            "Washers M20 flat galvanized",
+            "248,000 pcs",
+            "$0.08/pc",
+            "$19,840",
+            "6 weeks"
+          ],
+          [
+            "Nuts M20 Grade 8 HDG",
+            "124,000 pcs",
+            "$0.15/pc",
+            "$18,600",
+            "6 weeks"
+          ],
+          [
+            "**TOTAL**",
+            "**847 tonnes**",
+            "-",
+            "**$236,370**",
+            "**8 weeks**"
+          ]
         ]
       }
     },
@@ -149,10 +197,21 @@
       }
     }
   ],
-  "relatedProducts": ["drywall-screws", "self-drilling-screws", "bolts-nuts", "anchor-bolts"],
+  "relatedProducts": [
+    "drywall-screws",
+    "self-drilling-screws",
+    "bolts-nuts",
+    "anchor-bolts"
+  ],
   "relatedArticles": [
-    {"slug": "zimbabwe-fastener-market-analysis", "title": "Zimbabwe Fastener Market Analysis 2026"},
-    {"slug": "anchor-bolts-foundation-guide", "title": "Anchor Bolts Foundation Guide"}
+    {
+      "slug": "zimbabwe-fastener-market-analysis",
+      "title": "Zimbabwe Fastener Market Analysis 2026"
+    },
+    {
+      "slug": "anchor-bolts-foundation-guide",
+      "title": "Anchor Bolts Foundation Guide"
+    }
   ],
   "cta": {
     "text": {

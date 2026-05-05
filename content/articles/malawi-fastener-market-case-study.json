@@ -81,17 +81,77 @@
         "hi": "फास्टनर विशिष्टताएं और CIF बेरा मूल्य"
       },
       "table": {
-        "headers": ["Product", "Specification", "Quantity", "Unit Price (USD)", "Total (USD)"],
+        "headers": [
+          "Product",
+          "Specification",
+          "Quantity",
+          "Unit Price (USD)",
+          "Total (USD)"
+        ],
         "rows": [
-          ["Hex bolts M16x50mm Grade 4.8 HDG", "ISO 4014, HDG", "48,000 pcs", "$0.48/pc", "$23,040"],
-          ["Hex bolts M12x40mm Grade 4.8 HDG", "ISO 4014, HDG", "72,000 pcs", "$0.32/pc", "$23,040"],
-          ["Coach screws M10x60mm HDG", "DIN 571, HDG", "36,000 pcs", "$0.22/pc", "$7,920"],
-          ["Self-drilling screws 10g×25mm", "tek screws, HDG", "120,000 pcs", "$0.035/pc", "$4,200"],
-          ["Anchor bolts M16x150mm Grade 4.6", "DIN 529B, HDG", "8,000 pcs", "$1.65/pc", "$13,200"],
-          ["Washers M16 flat HDG", "DIN 125A, HDG", "96,000 pcs", "$0.06/pc", "$5,760"],
-          ["Nuts M16 Grade 4 HDG", "ISO 4032, HDG", "48,000 pcs", "$0.10/pc", "$4,800"],
-          ["Nuts M12 Grade 4 HDG", "ISO 4032, HDG", "72,000 pcs", "$0.07/pc", "$5,040"],
-          ["**TOTAL**", "-", "**89 tonnes**", "-", "**$87,000**"]
+          [
+            "Hex bolts M16x50mm Grade 4.8 HDG",
+            "ISO 4014, HDG",
+            "48,000 pcs",
+            "$0.48/pc",
+            "$23,040"
+          ],
+          [
+            "Hex bolts M12x40mm Grade 4.8 HDG",
+            "ISO 4014, HDG",
+            "72,000 pcs",
+            "$0.32/pc",
+            "$23,040"
+          ],
+          [
+            "Coach screws M10x60mm HDG",
+            "DIN 571, HDG",
+            "36,000 pcs",
+            "$0.22/pc",
+            "$7,920"
+          ],
+          [
+            "Self-drilling screws 10g×25mm",
+            "tek screws, HDG",
+            "120,000 pcs",
+            "$0.035/pc",
+            "$4,200"
+          ],
+          [
+            "Anchor bolts M16x150mm Grade 4.6",
+            "DIN 529B, HDG",
+            "8,000 pcs",
+            "$1.65/pc",
+            "$13,200"
+          ],
+          [
+            "Washers M16 flat HDG",
+            "DIN 125A, HDG",
+            "96,000 pcs",
+            "$0.06/pc",
+            "$5,760"
+          ],
+          [
+            "Nuts M16 Grade 4 HDG",
+            "ISO 4032, HDG",
+            "48,000 pcs",
+            "$0.10/pc",
+            "$4,800"
+          ],
+          [
+            "Nuts M12 Grade 4 HDG",
+            "ISO 4032, HDG",
+            "72,000 pcs",
+            "$0.07/pc",
+            "$5,040"
+          ],
+          [
+            "**TOTAL**",
+            "-",
+            "**89 tonnes**",
+            "-",
+            "**$87,000**"
+          ]
         ]
       }
     },
@@ -146,14 +206,24 @@
         "hi": "अपने मलावी प्रोजेक्ट के लिए CIF बेरा मूल्य प्राप्त करें"
       },
       "body": {
-        "en": "<p>TradeGo Fasteners supplies construction fasteners for World Bank-funded and private infrastructure projects in Malawi. We handle MBS documentation and World Bank procurement compliance requirements.</p><p><strong>WhatsApp</strong>: +86-159-6340-9951<br><strong>Email</strong>: sales@tradego-fasteners.com<br><strong>Website</strong>: www.tradego-fasteners.com</p><p>Request your Malawi fastener quotation with CIF Beira pricing, MBS documentation package, and Beira Corridor shipping schedule.</p>"
+        "en": "<p>TradeGo Fasteners supplies construction fasteners for World Bank-funded and private infrastructure projects in Malawi. We handle MBS documentation and World Bank procurement compliance requirements.</p><p><strong>WhatsApp</strong>: +86-159-6340-9951<br><strong>Email</strong>: sales@tradego-fasteners.com<br><strong>Website</strong>: www.tradego-fasteners.com</p><p>Request your Malawi fastener quotation with CIF Beira pricing, MBS documentation package, and Beira Corridor shipping schedule.</p>\n\n<div class=\"mt-8 p-4 bg-gray-50 rounded-lg\"><p class=\"text-sm text-gray-600\"><strong>Related Product Guides:</strong> <a href=\"/en/industry/self-drilling-screws-selection-guide\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Self-Drilling Screws Selection Guide</a> | <a href=\"/en/industry/hex-bolt-dimensions-chart\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Hex Bolt Dimensions Chart</a> | <a href=\"/en/industry/anchor-bolts-selection-guide\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Anchor Bolts Selection Guide</a></p></div>"
       }
     }
   ],
-  "relatedProducts": ["self-drilling-screws", "bolts-nuts", "anchor-bolts"],
+  "relatedProducts": [
+    "self-drilling-screws",
+    "bolts-nuts",
+    "anchor-bolts"
+  ],
   "relatedArticles": [
-    {"slug": "zimbabwe-fastener-market-case-study", "title": "Zimbabwe Fastener Market Case Study"},
-    {"slug": "south-africa-fastener-market-case-study", "title": "South Africa Fastener Market Case Study"}
+    {
+      "slug": "zimbabwe-fastener-market-case-study",
+      "title": "Zimbabwe Fastener Market Case Study"
+    },
+    {
+      "slug": "south-africa-fastener-market-case-study",
+      "title": "South Africa Fastener Market Case Study"
+    }
   ],
   "cta": {
     "text": {

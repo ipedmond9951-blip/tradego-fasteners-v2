@@ -45,7 +45,7 @@
         "hi": "प्रोजेक्ट पृष्ठभूमि: बेरा पोर्ट कोल्ड चेन विस्तार"
       },
       "body": {
-        "en": "<p>Beira Port is the second-largest port in Mozambique after Maputo, handling approximately 3 million tonnes of cargo annually. It serves as the primary gateway for imports to landlocked countries including Zimbabwe, Zambia, Malawi, and eastern Democratic Republic of Congo.</p><p>The <strong>Beira Cold Chain Infrastructure Project</strong> is a $45 million investment to expand cold storage facilities at the port to support Mozambique's growing agricultural exports (cotton, cashew nuts, bananas, legumes) and provide transit cold storage for regional cargo.</p><p><strong>Key fastener requirements:</strong></p><ul><li><strong>Stainless steel A2-70</strong>: Cold storage internal structures (corrosion resistance)</li><li><strong>Hot-dip galvanized</strong>: External structural connections</li><li><strong>Marine-grade</strong>: Coastal environment requires salt spray resistance</li></ul>"
+        "en": "<p>Beira Port is the second-largest port in Mozambique after Maputo, handling approximately 3 million tonnes of cargo annually. It serves as the primary gateway for imports to landlocked countries including Zimbabwe, Zambia, Malawi, and eastern Democratic Republic of Congo.</p><p>The <strong>Beira Cold Chain Infrastructure Project</strong> is a $45 million investment to expand cold storage facilities at the port to support Mozambique's growing agricultural exports (cotton, cashew nut <span class=\"text-gray-500\">(See our <strong><a href=\"/en/industry/hex-bolt-dimensions-chart\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Hex Bolt Dimensions Chart</a></strong> for specifications and sizing.)</span>s, bananas, legumes) and provide transit cold storage for regional cargo.</p><p><strong>Key fastener requirements:</strong></p><ul><li><strong>Stainless steel A2-70</strong>: Cold storage internal structures (corrosion resistance)</li><li><strong>Hot-dip galvanized</strong>: External structural connections</li><li><strong>Marine-grade</strong>: Coastal environment requires salt spray resistance</li></ul>"
       }
     },
     {
@@ -81,16 +81,70 @@
         "hi": "फास्टनर विशिष्टताएं और XT बेरा मूल्य"
       },
       "table": {
-        "headers": ["Product", "Material/Grade", "Quantity", "XT Beira (USD)", "Total (USD)"],
+        "headers": [
+          "Product",
+          "Material/Grade",
+          "Quantity",
+          "XT Beira (USD)",
+          "Total (USD)"
+        ],
         "rows": [
-          ["Stainless hex bolts M12x45mm A2-70", "SS A2-70 ISO 3506", "36,000 pcs", "$1.05/pc", "$37,800"],
-          ["Stainless hex bolts M16x60mm A2-70", "SS A2-70 ISO 3506", "24,000 pcs", "$1.65/pc", "$39,600"],
-          ["Stainless nuts M12 A2-70", "SS A2-70 ISO 3506", "36,000 pcs", "$0.28/pc", "$10,080"],
-          ["Stainless washers M12 A2-70", "SS A2-70 ISO 3506", "72,000 pcs", "$0.10/pc", "$7,200"],
-          ["HDG hex bolts M20x80mm Grade 8.8", "HDG Grade 8.8", "18,000 pcs", "$1.25/pc", "$22,500"],
-          ["HDG anchor bolts M16x200mm Grade 4.6", "HDG Grade 4.6", "6,000 pcs", "$2.10/pc", "$12,600"],
-          ["HDG nuts M20 Grade 8", "HDG Grade 8", "18,000 pcs", "$0.22/pc", "$3,960"],
-          ["**TOTAL**", "-", "**78 tonnes**", "-", "**$133,740**"]
+          [
+            "Stainless hex bolts M12x45mm A2-70",
+            "SS A2-70 ISO 3506",
+            "36,000 pcs",
+            "$1.05/pc",
+            "$37,800"
+          ],
+          [
+            "Stainless hex bolts M16x60mm A2-70",
+            "SS A2-70 ISO 3506",
+            "24,000 pcs",
+            "$1.65/pc",
+            "$39,600"
+          ],
+          [
+            "Stainless nuts M12 A2-70",
+            "SS A2-70 ISO 3506",
+            "36,000 pcs",
+            "$0.28/pc",
+            "$10,080"
+          ],
+          [
+            "Stainless washers M12 A2-70",
+            "SS A2-70 ISO 3506",
+            "72,000 pcs",
+            "$0.10/pc",
+            "$7,200"
+          ],
+          [
+            "HDG hex bolts M20x80mm Grade 8.8",
+            "HDG Grade 8.8",
+            "18,000 pcs",
+            "$1.25/pc",
+            "$22,500"
+          ],
+          [
+            "HDG anchor bolts M16x200mm Grade 4.6",
+            "HDG Grade 4.6",
+            "6,000 pcs",
+            "$2.10/pc",
+            "$12,600"
+          ],
+          [
+            "HDG nuts M20 Grade 8",
+            "HDG Grade 8",
+            "18,000 pcs",
+            "$0.22/pc",
+            "$3,960"
+          ],
+          [
+            "**TOTAL**",
+            "-",
+            "**78 tonnes**",
+            "-",
+            "**$133,740**"
+          ]
         ]
       }
     },
@@ -145,14 +199,24 @@
         "hi": "अपने मोज़ाम्बिक प्रोजेक्ट के लिए XT बेरा या CIF बेरा मूल्य प्राप्त करें"
       },
       "body": {
-        "en": "<p>TradeGo Fasteners supplies stainless steel and hot-dip galvanized fasteners for cold chain, port infrastructure, and construction projects in Mozambique. We offer EXW, FOB, CIF Beira, and XT Beira pricing options.</p><p><strong>WhatsApp</strong>: +86-159-6340-9951<br><strong>Email</strong>: sales@tradego-fasteners.com<br><strong>Website</strong>: www.tradego-fasteners.com</p><p>Request your Mozambique fastener quotation with XT Beira or CIF Beira pricing, AT documentation package, and direct shipping to Beira Port.</p>"
+        "en": "<p>TradeGo Fasteners supplies stainless steel and hot-dip galvanized fasteners for cold chain, port infrastructure, and construction projects in Mozambique. We offer EXW, FOB, CIF Beira, and XT Beira pricing options.</p><p><strong>WhatsApp</strong>: +86-159-6340-9951<br><strong>Email</strong>: sales@tradego-fasteners.com<br><strong>Website</strong>: www.tradego-fasteners.com</p><p>Request your Mozambique fastener quotation with XT Beira or CIF Beira pricing, AT documentation package, and direct shipping to Beira Port.</p>\n\n<div class=\"mt-8 p-4 bg-gray-50 rounded-lg\"><p class=\"text-sm text-gray-600\"><strong>Related Product Guides:</strong> <a href=\"/en/industry/self-drilling-screws-selection-guide\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Self-Drilling Screws Selection Guide</a> | <a href=\"/en/industry/hex-bolt-dimensions-chart\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Hex Bolt Dimensions Chart</a> | <a href=\"/en/industry/anchor-bolts-selection-guide\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Anchor Bolts Selection Guide</a></p></div>"
       }
     }
   ],
-  "relatedProducts": ["self-drilling-screws", "bolts-nuts", "anchor-bolts"],
+  "relatedProducts": [
+    "self-drilling-screws",
+    "bolts-nuts",
+    "anchor-bolts"
+  ],
   "relatedArticles": [
-    {"slug": "zimbabwe-fastener-market-case-study", "title": "Zimbabwe Fastener Market Case Study"},
-    {"slug": "kenya-fastener-market-case-study", "title": "Kenya Fastener Market Case Study"}
+    {
+      "slug": "zimbabwe-fastener-market-case-study",
+      "title": "Zimbabwe Fastener Market Case Study"
+    },
+    {
+      "slug": "kenya-fastener-market-case-study",
+      "title": "Kenya Fastener Market Case Study"
+    }
   ],
   "cta": {
     "text": {
