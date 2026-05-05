@@ -45,7 +45,7 @@
         "hi": "प्रोजेक्ट पृष्ठभूमि: ज़ाम्बिया के तांबे की बेल्ट विस्तार"
       },
       "body": {
-        "en": "<p>Zambia is Africa's largest copper producer, with annual output exceeding 800,000 tonnes. The Kansanshi Copper Mine in Solwezi (North-Western Province) is one of the largest copper-gold operations in Africa, owned by First Quantum Minerals. The $1.3 billion expansion project increased processing capacity from 16 to 25 million tonnes per year.</p><p><strong>Key fastener requirements for Kansanshi expansion:</strong></p><ul><li><strong>High-tensile Grade 8.8 hex bolts</strong>: Primary structural connections in conveyor systems and processing plants</li><li><strong>Grade 10.9 bolts</strong>: Heavy machinery and mill liner applications</li><li><strong>Hot-dip galvanized</strong>: Corrosion resistance for outdoor露天 mining environment</li><li><strong>Anti-vibration washers</strong>: Critical for vibrating screens and conveyors</li></ul><p>All fasteners must comply with <strong>Zambia Bureau of Standards (ZABS)</strong> requirements and have mill test certificates for traceability.</p>"
+        "en": "<p>Zambia is Africa's largest copper producer, with annual output exceeding 800,000 tonnes. The Kansanshi Copper Mine in Solwezi (North-Western Province) is one of the largest copper-gold operations in Africa, owned by First Quantum Minerals. The $1.3 billion expansion project increased processing capacity from 16 to 25 million tonnes per year.</p><p><strong>Key fastener requirements for Kansanshi expansion:</strong></p><ul><li><strong>High-tensile Grade 8.8 hex bolt <span class=\"text-gray-500\">(See our <strong><a href=\"/en/industry/hex-bolt-dimensions-chart\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Hex Bolt Dimensions Chart</a></strong> for specifications and sizing.)</span>s</strong>: Primary structural connections in conveyor systems and processing plants</li><li><strong>Grade 10.9 bolts</strong>: Heavy machinery and mill liner applications</li><li><strong>Hot-dip galvanized</strong>: Corrosion resistance for outdoor露天 mining environment</li><li><strong>Anti-vibration washer <span class=\"text-gray-500\">(See our <strong><a href=\"/en/industry/flat-washers-vs-spring-washers\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Flat Washers vs Spring Washers</a></strong> for specifications and sizing.)</span>s</strong>: Critical for vibrating screens and conveyors</li></ul><p>All fasteners must comply with <strong>Zambia Bureau of Standards (ZABS)</strong> requirements and have mill test certificates for traceability.</p>"
       }
     },
     {
@@ -81,16 +81,70 @@
         "hi": "फास्टनर विशिष्टताएं और CIF बेरा मूल्य निर्धारण"
       },
       "table": {
-        "headers": ["Product", "Specification", "Quantity", "Unit Price (USD)", "Total (USD)"],
+        "headers": [
+          "Product",
+          "Specification",
+          "Quantity",
+          "Unit Price (USD)",
+          "Total (USD)"
+        ],
         "rows": [
-          ["Hex bolts M20x80mm Grade 8.8 HDG", "ISO 4014, HDG 85μm", "156,000 pcs", "$0.95/pc", "$148,200"],
-          ["Hex bolts M24x100mm Grade 8.8 HDG", "ISO 4014, HDG 85μm", "84,000 pcs", "$1.45/pc", "$121,800"],
-          ["Hex bolts M16x65mm Grade 10.9", "ISO 4017, zinc plated", "120,000 pcs", "$0.72/pc", "$86,400"],
-          ["Anchor bolts M30x400mm Grade 4.6 HDG", "DIN 529B, HDG", "12,000 pcs", "$3.80/pc", "$45,600"],
-          ["Spring washers M20", "DIN 127B, HDG", "312,000 pcs", "$0.08/pc", "$24,960"],
-          ["Flat washers M24 HDG", "DIN 125A, HDG", "168,000 pcs", "$0.12/pc", "$20,160"],
-          ["Nuts M20 Grade 8 HDG", "ISO 4032, HDG", "156,000 pcs", "$0.18/pc", "$28,080"],
-          ["**TOTAL**", "-", "**312 tonnes**", "-", "**$475,200**"]
+          [
+            "Hex bolts M20x80mm Grade 8.8 HDG",
+            "ISO 4014, HDG 85μm",
+            "156,000 pcs",
+            "$0.95/pc",
+            "$148,200"
+          ],
+          [
+            "Hex bolts M24x100mm Grade 8.8 HDG",
+            "ISO 4014, HDG 85μm",
+            "84,000 pcs",
+            "$1.45/pc",
+            "$121,800"
+          ],
+          [
+            "Hex bolts M16x65mm Grade 10.9",
+            "ISO 4017, zinc plated",
+            "120,000 pcs",
+            "$0.72/pc",
+            "$86,400"
+          ],
+          [
+            "Anchor bolts M30x400mm Grade 4.6 HDG",
+            "DIN 529B, HDG",
+            "12,000 pcs",
+            "$3.80/pc",
+            "$45,600"
+          ],
+          [
+            "Spring washers M20",
+            "DIN 127B, HDG",
+            "312,000 pcs",
+            "$0.08/pc",
+            "$24,960"
+          ],
+          [
+            "Flat washers M24 HDG",
+            "DIN 125A, HDG",
+            "168,000 pcs",
+            "$0.12/pc",
+            "$20,160"
+          ],
+          [
+            "Nuts M20 Grade 8 HDG",
+            "ISO 4032, HDG",
+            "156,000 pcs",
+            "$0.18/pc",
+            "$28,080"
+          ],
+          [
+            "**TOTAL**",
+            "-",
+            "**312 tonnes**",
+            "-",
+            "**$475,200**"
+          ]
         ]
       }
     },
@@ -149,10 +203,20 @@
       }
     }
   ],
-  "relatedProducts": ["bolts-nuts", "anchor-bolts", "washers"],
+  "relatedProducts": [
+    "bolts-nuts",
+    "anchor-bolts",
+    "washers"
+  ],
   "relatedArticles": [
-    {"slug": "zimbabwe-fastener-market-case-study", "title": "Zimbabwe Fastener Market Case Study"},
-    {"slug": "anchor-bolts-foundation-guide", "title": "Anchor Bolts Selection Guide"}
+    {
+      "slug": "zimbabwe-fastener-market-case-study",
+      "title": "Zimbabwe Fastener Market Case Study"
+    },
+    {
+      "slug": "anchor-bolts-foundation-guide",
+      "title": "Anchor Bolts Selection Guide"
+    }
   ],
   "cta": {
     "text": {

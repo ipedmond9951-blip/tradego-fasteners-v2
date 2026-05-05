@@ -63,16 +63,70 @@
         "hi": "फास्टनर विशिष्टताएं: खनन उपकरणों के लिए BS मानक"
       },
       "table": {
-        "headers": ["Product", "Standard", "Quantity", "Unit Price (USD)", "Total (USD)"],
+        "headers": [
+          "Product",
+          "Standard",
+          "Quantity",
+          "Unit Price (USD)",
+          "Total (USD)"
+        ],
         "rows": [
-          ["Hex bolts M16x50mm BS 3692 Grade 8.8", "BS 3692", "48,000 pcs", "$0.58/pc", "$27,840"],
-          ["Hex bolts M20x65mm BS 3692 Grade 8.8", "BS 3692", "36,000 pcs", "$0.82/pc", "$29,520"],
-          ["Hex bolts M24x80mm BS 3692 Grade 8.8", "BS 3692", "24,000 pcs", "$1.28/pc", "$30,720"],
-          ["Anchor bolts M20x250mm BS 3692 Grade 4.6", "BS 3692", "12,000 pcs", "$1.85/pc", "$22,200"],
-          ["Coach screws M10x75mm hot-dip galvanized", "BS 4570", "60,000 pcs", "$0.18/pc", "$10,800"],
-          ["Washers M16 flat HDG", "BS 4320", "96,000 pcs", "$0.06/pc", "$5,760"],
-          ["Nuts M16 Grade 8 HDG", "BS 3692", "48,000 pcs", "$0.12/pc", "$5,760"],
-          ["**TOTAL**", "-", "**156 tonnes**", "-", "**$132,600**"]
+          [
+            "Hex bolts M16x50mm BS 3692 Grade 8.8",
+            "BS 3692",
+            "48,000 pcs",
+            "$0.58/pc",
+            "$27,840"
+          ],
+          [
+            "Hex bolts M20x65mm BS 3692 Grade 8.8",
+            "BS 3692",
+            "36,000 pcs",
+            "$0.82/pc",
+            "$29,520"
+          ],
+          [
+            "Hex bolts M24x80mm BS 3692 Grade 8.8",
+            "BS 3692",
+            "24,000 pcs",
+            "$1.28/pc",
+            "$30,720"
+          ],
+          [
+            "Anchor bolts M20x250mm BS 3692 Grade 4.6",
+            "BS 3692",
+            "12,000 pcs",
+            "$1.85/pc",
+            "$22,200"
+          ],
+          [
+            "Coach screws M10x75mm hot-dip galvanized",
+            "BS 4570",
+            "60,000 pcs",
+            "$0.18/pc",
+            "$10,800"
+          ],
+          [
+            "Washers M16 flat HDG",
+            "BS 4320",
+            "96,000 pcs",
+            "$0.06/pc",
+            "$5,760"
+          ],
+          [
+            "Nuts M16 Grade 8 HDG",
+            "BS 3692",
+            "48,000 pcs",
+            "$0.12/pc",
+            "$5,760"
+          ],
+          [
+            "**TOTAL**",
+            "-",
+            "**156 tonnes**",
+            "-",
+            "**$132,600**"
+          ]
         ]
       }
     },
@@ -145,14 +199,24 @@
         "hi": "अपने ज़िम्बाब्वे प्रोजेक्ट के लिए CIF बेरा मूल्य प्राप्त करें"
       },
       "body": {
-        "en": "<p>TradeGo Fasteners specializes in <strong>BS-standard fasteners</strong> for Zimbabwe's mining and construction sectors. We ship in 20ft containers from China to Beira Port with complete RBZ documentation.</p><p><strong>WhatsApp</strong>: +86-159-6340-9951<br><strong>Email</strong>: sales@tradego-fasteners.com<br><strong>Website</strong>: www.tradego-fasteners.com</p><p>Request your Zimbabwe fastener quotation with CIF Beira pricing, BS standards documentation, and monthly shipping schedule.</p>"
+        "en": "<p>TradeGo Fasteners specializes in <strong>BS-standard fasteners</strong> for Zimbabwe's mining and construction sectors. We ship in 20ft containers from China to Beira Port with complete RBZ documentation.</p><p><strong>WhatsApp</strong>: +86-159-6340-9951<br><strong>Email</strong>: sales@tradego-fasteners.com<br><strong>Website</strong>: www.tradego-fasteners.com</p><p>Request your Zimbabwe fastener quotation with CIF Beira pricing, BS standards documentation, and monthly shipping schedule.</p>\n\n<div class=\"mt-8 p-4 bg-gray-50 rounded-lg\"><p class=\"text-sm text-gray-600\"><strong>Related Product Guides:</strong> <a href=\"/en/industry/hex-bolt-dimensions-chart\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Hex Bolt Dimensions Chart</a> | <a href=\"/en/industry/anchor-bolts-selection-guide\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Anchor Bolts Selection Guide</a> | <a href=\"/en/industry/fastener-selection-guide-african-construction\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Fastener Selection Guide for African Construction</a></p></div>"
       }
     }
   ],
-  "relatedProducts": ["bolts-nuts", "anchor-bolts", "coach-screws"],
+  "relatedProducts": [
+    "bolts-nuts",
+    "anchor-bolts",
+    "coach-screws"
+  ],
   "relatedArticles": [
-    {"slug": "zimbabwe-fasteners-wholesale", "title": "Zimbabwe Fastener Wholesale Supplier"},
-    {"slug": "anchor-bolts-foundation-guide", "title": "Anchor Bolts Foundation Guide"}
+    {
+      "slug": "zimbabwe-fasteners-wholesale",
+      "title": "Zimbabwe Fastener Wholesale Supplier"
+    },
+    {
+      "slug": "anchor-bolts-foundation-guide",
+      "title": "Anchor Bolts Foundation Guide"
+    }
   ],
   "cta": {
     "text": {
