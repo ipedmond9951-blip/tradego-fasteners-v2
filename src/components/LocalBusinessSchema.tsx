@@ -68,6 +68,28 @@ export default function LocalBusinessSchema({ locale = 'en' }: LocalBusinessSche
       'https://www.facebook.com/tradegofasteners',
       'https://twitter.com/tradegofasteners',
     ],
+    contactPoint: [
+      {
+        '@type': 'ContactPoint',
+        telephone: '+86-159-6340-9951',
+        email: 'sales@tradego-fasteners.com',
+        contactType: 'sales',
+        availableLanguage: ['English', 'Chinese', 'Shona'],
+        areaServed: [
+          { '@type': 'Country', name: 'Zimbabwe' },
+          { '@type': 'Country', name: 'South Africa' },
+          { '@type': 'Country', name: 'Kenya' },
+          { '@type': 'Country', name: 'Nigeria' },
+        ],
+      },
+      {
+        '@type': 'ContactPoint',
+        telephone: '+86-159-6340-9951',
+        contactType: 'customer support',
+        contactOption: 'WhatsApp',
+        availableLanguage: ['English', 'Chinese'],
+      },
+    ],
   }
 
   return (
