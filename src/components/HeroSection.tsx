@@ -15,9 +15,16 @@ const heroProducts = [
 export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
   return (
     <section className="relative bg-gradient-to-br from-primary-700 via-primary-800 to-primary-900 text-white overflow-hidden">
-      {/* Hero Background Image */}
+      {/* Hero Background Image - Priority LCP optimization */}
       <div className="absolute inset-0 z-0">
-        <img src="/images/hero-construction.webp" alt="Construction site" className="w-full h-full object-cover" />
+        <Image
+          src="/images/hero-construction.webp"
+          alt="Construction site with fastener application"
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
+        />
         <div className="absolute inset-0 bg-gradient-to-br from-primary-700/80 via-primary-800/85 to-primary-900/90"></div>
       </div>
 
