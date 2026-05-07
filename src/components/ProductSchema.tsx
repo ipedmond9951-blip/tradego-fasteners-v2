@@ -102,26 +102,28 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
             },
             shippingDetails: {
               '@type': 'OfferShippingDetails',
-              shippingDestination: {
-                '@type': 'Country',
-                name: 'Worldwide',
-              },
+              shippingDestination: [
+                { '@type': 'Country', name: 'ZA' },
+                { '@type': 'Country', name: 'ZW' },
+                { '@type': 'Country', name: 'ZM' },
+                { '@type': 'Country', name: 'MZ' },
+                { '@type': 'Country', name: 'BW' },
+                { '@type': 'Country', name: 'MW' },
+                { '@type': 'Country', name: 'NA' },
+              ],
               deliveryTime: {
                 '@type': 'ShippingDeliveryTime',
                 handlingTime: {
                   '@type': 'QuantitativeValue',
-                  minValue: '1',
-                  maxValue: '3',
+                  minValue: '7',
+                  maxValue: '14',
                   unitCode: 'DAY',
                 },
                 transitTime: {
-                  '@type': 'ShippingDeliveryTime',
-                  handlingTime: {
-                    '@type': 'QuantitativeValue',
-                    minValue: '15',
-                    maxValue: '35',
-                    unitCode: 'DAY',
-                  },
+                  '@type': 'QuantitativeValue',
+                  minValue: '15',
+                  maxValue: '35',
+                  unitCode: 'DAY',
                 },
               },
             },
