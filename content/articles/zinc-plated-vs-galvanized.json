@@ -41,14 +41,42 @@
         "zh": "镀锌和热镀锌紧固件之间的根本区别在于锌涂层的应用方式。镀锌（电镀）使用电化学工艺，将紧固件浸入锌盐溶液同时电流沉积一层薄而均匀的锌层。此工艺通常产生3-15微米的涂层。热镀锌则将清洁的钢材通过约450°C的熔融锌浴。锌与钢材发生冶金结合，形成多层锌铁合金层，涂层厚度达45-85微米，显著更耐用。热镀锌工艺适合户外应用、恶劣气候和高湿度或盐分暴露环境。"
       },
       "table": {
-        "headers": ["Property", "Zinc Plated", "Hot-Dip Galvanized"],
+        "headers": [
+          "Property",
+          "Zinc Plated",
+          "Hot-Dip Galvanized"
+        ],
         "rows": [
-          ["Coating Process", "Electroplating", "Immersion in molten zinc"],
-          ["Coating Thickness", "3-15 μm", "45-85 μm"],
-          ["Salt Spray Resistance", "24-72 hours", "500-1000+ hours"],
-          ["Appearance", "Bright, smooth", "Matte, spangled"],
-          ["Cost Premium", "Baseline", "+40-60%"],
-          ["Typical Applications", "Indoor, mild climate", "Outdoor, harsh environments"]
+          [
+            "Coating Process",
+            "Electroplating",
+            "Immersion in molten zinc"
+          ],
+          [
+            "Coating Thickness",
+            "3-15 μm",
+            "45-85 μm"
+          ],
+          [
+            "Salt Spray Resistance",
+            "24-72 hours",
+            "500-1000+ hours"
+          ],
+          [
+            "Appearance",
+            "Bright, smooth",
+            "Matte, spangled"
+          ],
+          [
+            "Cost Premium",
+            "Baseline",
+            "+40-60%"
+          ],
+          [
+            "Typical Applications",
+            "Indoor, mild climate",
+            "Outdoor, harsh environments"
+          ]
         ]
       }
     },
@@ -163,5 +191,19 @@
     },
     "link": "/en#inquiry"
   },
-  "imageAlt": "Hot-dip galvanized steel bolts showing metallic spangle finish - corrosion resistant fasteners for outdoor applications"
+  "imageAlt": "Hot-dip galvanized steel bolts showing metallic spangle finish - corrosion resistant fasteners for outdoor applications",
+  "relatedArticles": [
+    {
+      "slug": "galvanized-vs-stainless-steel-fasteners",
+      "title": "Galvanized vs Stainless Steel Fasteners"
+    },
+    {
+      "slug": "fastener-corrosion-resistance-guide",
+      "title": "Fastener Corrosion Resistance Guide"
+    },
+    {
+      "slug": "bolt-grade-markings-guide",
+      "title": "Bolt Grade Markings Guide"
+    }
+  ]
 }
