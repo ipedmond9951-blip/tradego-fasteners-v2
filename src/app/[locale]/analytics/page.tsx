@@ -125,7 +125,9 @@ export default function AnalyticsDashboard() {
   const seoScoreColor = data.technicalSeo.score >= 80 ? 'text-green-600' : data.technicalSeo.score >= 60 ? 'text-yellow-600' : 'text-red-600'
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12">
+    <>
+      <meta name="robots" content="noindex, nofollow" />
+      <div className="min-h-screen bg-gray-50 py-12">
       <div className="max-w-7xl mx-auto px-4">
         {/* Demo Mode Warning Banner */}
         {showDemoBanner && (
@@ -394,5 +396,6 @@ export default function AnalyticsDashboard() {
         </div>
       </div>
     </div>
+    </>
   )
 }
