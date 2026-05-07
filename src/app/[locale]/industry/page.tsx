@@ -28,10 +28,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       type: 'website',
     },
     alternates: {
-      canonical: `/${locale}/industry`,
+      canonical: `${siteUrl}/${locale}/industry`,
       languages: Object.fromEntries([
-        ['x-default', `/${locale}/industry`],
-        ...locales.map(l => [l, `/${l}/industry`]),
+        ['x-default', `${siteUrl}/${locale}/industry`],
+        ...locales.map(l => [l, `${siteUrl}/${l}/industry`]),
       ]),
     },
   }
