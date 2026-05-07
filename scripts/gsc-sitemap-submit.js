@@ -1,109 +1,94 @@
 /**
- * GSC Sitemap Submission Script
- * Uses Chrome DevTools Protocol via Playwright to submit sitemap to Google Search Console
+ * GSC Sitemap Submit via Chrome CDP
+ * Connects to Chrome at localhost:18800 and submits sitemap
  */
 
 const { chromium } = require('playwright');
 
 async function submitSitemap() {
-  console.log('🔍 Starting GSC Sitemap Submission...\n');
-
-  // Connect to existing Chrome with remote debugging
-  const browser = await chromium.connectOverCDP('http://localhost:9222');
+  console.log('Connecting to Chrome CDP at localhost:18800...');
   
-  // Get all pages/tabs
-  const context = browser.contexts()[0];
-  const pages = context.pages();
+  // Connect to Chrome via CDP
+  const browser = await chromium.connectOverCDP('http://localhost:18800');
   
-  console.log(`Found ${pages.length} existing page(s)`);
+  // Get the default context
+  const context = browser.contexts()[0] || await browser.newContext();
   
-  // Create a new page/tab for GSC
-  const gscPage = await context.newPage();
-  console.log('📄 Created new tab for GSC\n');
-
-  try {
-    // Navigate to Google Search Console Sitemaps
-    console.log('🔗 Navigating to Google Search Console...');
-    await gscPage.goto('https://search.google.com/search-console/sitemaps', {
-      waitUntil: 'networkidle',
-      timeout: 30000
-    });
-
-    // Wait for page to load
-    await gscPage.waitForTimeout(3000);
-
-    // Get current URL to check if we're logged in
-    const currentUrl = gscPage.url();
-    console.log(`Current URL: ${currentUrl}\n`);
-
-    if (currentUrl.includes('signin')) {
-      console.log('❌ Not logged in to Google. Please sign in manually.');
-      console.log('👤 Opening sign-in page...');
-      await gscPage.goto('https://accounts.google.com/signin', { waitUntil: 'networkidle' });
-      console.log('Please complete sign-in in the Chrome window, then run this script again.');
-    } else {
-      console.log('✅ Logged in to Google!\n');
-
-      // Take a screenshot to see the current state
-      await gscPage.screenshot({ path: '/tmp/gsc-sitemap.png', fullPage: true });
-      console.log('📸 Screenshot saved to /tmp/gsc-sitemap.png\n');
-
-      // Try to find and click the sitemap submission interface
-      // Look for the "Add Sitemap" or "Submit" button
-      const pageContent = await gscPage.content();
-      
-      // Check if we can see sitemap list
-      if (pageContent.includes('sitemap') || pageContent.includes('Sitemap')) {
-        console.log('📋 Sitemap interface detected!');
-        
-        // Look for any submit/add buttons
-        const addButton = await gscPage.$('button:has-text("Add")');
-        const submitButton = await gscPage.$('button:has-text("Submit")');
-        
-        if (addButton) {
-          console.log('🖱️ Found "Add" button, clicking...');
-          await addButton.click();
-          await gscPage.waitForTimeout(2000);
-        } else if (submitButton) {
-          console.log('🖱️ Found "Submit" button, clicking...');
-          await submitButton.click();
-          await gscPage.waitForTimeout(2000);
-        }
-        
-        // Try to find input field for sitemap URL
-        const input = await gscPage.$('input[type="text"]');
-        if (input) {
-          console.log('⌨️ Found input field, entering sitemap URL...');
-          await input.fill('https://www.tradego-fasteners.com/sitemap.xml');
-          await gscPage.waitForTimeout(1000);
-          
-          // Look for confirm/submit button
-          const confirmButton = await gscPage.$('button:has-text("Submit"), button:has-text("Add"), button:has-text("Confirm")');
-          if (confirmButton) {
-            console.log('🖱️ Submitting sitemap...');
-            await confirmButton.click();
-            await gscPage.waitForTimeout(3000);
-          }
-        }
-        
-        // Take final screenshot
-        await gscPage.screenshot({ path: '/tmp/gsc-result.png', fullPage: true });
-        console.log('📸 Final screenshot saved to /tmp/gsc-result.png\n');
-        
-        console.log('✅ Sitemap submission attempted!');
-        console.log('📝 Please verify in GSC that the sitemap was submitted successfully.');
-      } else {
-        console.log('⚠️ Could not detect sitemap interface. Manual submission may be required.');
-      }
-    }
-
-  } catch (error) {
-    console.error('❌ Error:', error.message);
-  } finally {
-    // Keep browser connected for user to review
-    console.log('\n🔵 Browser session kept open. Close when done.');
-    // await browser.close();
+  // Create a new page
+  const page = await context.newPage();
+  
+  console.log('Navigating to Google Search Console...');
+  
+  // Navigate to GSC
+  await page.goto('https://search.google.com/search-console', { 
+    waitUntil: 'networkidle',
+    timeout: 30000 
+  });
+  
+  // Check if we're logged in
+  const url = page.url();
+  console.log('Current URL:', url);
+  
+  if (url.includes('accounts.google.com') || url.includes('signin')) {
+    console.log('❌ NOT LOGGED IN - Please login to Google account first');
+    console.log('URL:', url);
+    await browser.close();
+    return;
   }
+  
+  console.log('✅ Logged into Google!');
+  
+  // Navigate to Sitemaps
+  console.log('Navigating to Sitemaps...');
+  await page.goto('https://search.google.com/search-console/sitemaps', { 
+    waitUntil: 'networkidle',
+    timeout: 30000 
+  });
+  
+  console.log('Current URL:', page.url());
+  
+  // Take a screenshot to see the state
+  await page.screenshot({ path: '/tmp/gsc-sitemap.png', fullPage: true });
+  console.log('Screenshot saved to /tmp/gsc-sitemap.png');
+  
+  // Look for the Add Sitemap button or input
+  // Try to find the sitemap submission form
+  const addSitemapButton = await page.$('button:has-text("Add Sitemap")') || 
+                           await page.$('a:has-text("Add Sitemap")') ||
+                           await page.$('[aria-label*="sitemap" i]');
+  
+  if (addSitemapButton) {
+    console.log('Found Add Sitemap button, clicking...');
+    await addSitemapButton.click();
+    await page.waitForTimeout(1000);
+  }
+  
+  // Look for input field
+  const input = await page.$('input[type="text"]') || await page.$('input[aria-label*="sitemap" i]');
+  
+  if (input) {
+    console.log('Found input field, entering sitemap URL...');
+    await input.fill('https://www.tradego-fasteners.com/sitemap.xml');
+    await page.waitForTimeout(500);
+    
+    // Try to submit
+    await page.keyboard.press('Enter');
+    await page.waitForTimeout(2000);
+    
+    console.log('Sitemap submitted!');
+  } else {
+    console.log('Could not find sitemap input field');
+  }
+  
+  // Take final screenshot
+  await page.screenshot({ path: '/tmp/gsc-sitemap-submit.png', fullPage: true });
+  console.log('Final screenshot saved');
+  
+  await browser.close();
+  console.log('Done!');
 }
 
-submitSitemap().catch(console.error);
+submitSitemap().catch(err => {
+  console.error('Error:', err.message);
+  process.exit(1);
+});
