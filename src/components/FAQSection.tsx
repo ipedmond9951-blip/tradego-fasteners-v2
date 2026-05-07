@@ -18,6 +18,9 @@ const faqKeys = [
   { q: 'What payment methods do you accept for African customers?', a: 'T/T, L/C, Alipay, WeChat Pay. 15% bulk discount for African market customers.' },
   { q: 'How long does sea freight shipping take to African ports?', a: 'Durban 25-30 days, Lagos 30-35 days, Mombasa 28-32 days, Dar es Salaam 28-33 days.' },
   { q: 'Can you provide documentation for African customs clearance?', a: 'Yes, full export docs: invoice, packing list, Bill of Lading, Certificate of Origin, fumigation.' },
+  { q: 'Why should I choose TradeGo over other fastener suppliers?', a: '12+ years Africa focus, SABS & ISO 9001 certified, 98% on-time delivery, 0.5% defect rate vs industry 2-3%. We understand African market requirements and logistics.' },
+  { q: 'Who are your typical customers and what industries do you serve?', a: 'Construction companies, roofing contractors, solar installers, mining operations, hardware distributors across 20+ African countries. We specialize in high-volume B2B orders.' },
+  { q: 'How do I place an order and what is the process?', a: '1) Send inquiry with specifications. 2) Receive quote within 24 hours. 3) Confirm order with 30% deposit. 4) Production 15-20 days. 5) Quality inspection. 6) Balance payment. 7) Shipment.' },
 ]
 
 export default function FAQSection({ locale = 'en' }: FAQSectionProps) {
