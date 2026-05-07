@@ -110,13 +110,14 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
             <textarea name="message" rows={3} className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" />
           </div>
           <div className="flex flex-col sm:flex-row gap-3 pt-2">
-            <button type="submit" disabled={loading} className="flex-1 bg-primary-700 text-white py-2.5 md:py-3 rounded-lg font-bold hover:bg-primary-800 transition-colors disabled:opacity-50 text-sm md:text-base">
+            <button type="submit" disabled={loading} aria-label={t(locale, 'inquiry.submit') + " - Submit your inquiry"} className="flex-1 bg-primary-700 text-white py-2.5 md:py-3 rounded-lg font-bold hover:bg-primary-800 transition-colors disabled:opacity-50 text-sm md:text-base">
               {loading ? '...' : t(locale, 'inquiry.submit')}
             </button>
             <a
               href="https://wa.me/8615963409951"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Contact via WhatsApp for quick response"
               onClick={() => trackConversion('click_whatsapp', { event_category: 'engagement', event_label: 'inquiry_form_button', locale: locale })}
               className="flex-1 bg-green-600 text-white py-2.5 md:py-3 rounded-lg font-bold hover:bg-green-500 transition-colors text-center text-sm md:text-base"
             >
