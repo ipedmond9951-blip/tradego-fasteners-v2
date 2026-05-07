@@ -5,6 +5,7 @@ import ProductSearchSection from '@/components/ProductSearchSection'
 import ProductSchema from '@/components/ProductSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import ProductsContentSection from '@/components/ProductsContentSection'
+import StatisticsSection from '@/components/StatisticsSection'
 
 // Static product data (same as ProductGrid)
 const allProducts = [
@@ -79,6 +80,9 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
 
       {/* Materials & Finishes Section */}
       <MaterialsSection locale={locale} />
+
+      {/* Statistics Section - E-E-A-T signals */}
+      <StatisticsSection locale={locale} />
 
       {/* Unique Content Section - Helps with SEO indexing */}
       <ProductsContentSection locale={locale} />
