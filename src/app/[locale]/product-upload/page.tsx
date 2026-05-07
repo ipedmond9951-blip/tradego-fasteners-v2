@@ -50,7 +50,9 @@ export default function ProductUploadPage({ params }: { params: Promise<{ locale
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 py-10 md:py-16">
+    <>
+      <meta name="robots" content="noindex, nofollow" />
+      <div className="min-h-screen bg-gray-50 py-10 md:py-16">
       <div className="container mx-auto px-4 sm:px-6 max-w-3xl">
         {/* Header */}
         <div className="mb-8">
@@ -206,5 +208,6 @@ export default function ProductUploadPage({ params }: { params: Promise<{ locale
         </form>
       </div>
     </div>
+    </>
   )
 }
