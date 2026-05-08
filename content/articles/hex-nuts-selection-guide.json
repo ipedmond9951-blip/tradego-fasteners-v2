@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2025-08-29",
   "readTime": 7,
-  "image": "/images/products/hex-nuts.jpg",
+  "image": "/images/articles/hex-nuts-selection-guide.jpg",
   "title": {
     "en": "Hex Nuts Complete Guide: Types, Grades & Selection for In...",
     "zh": "六角螺母完整指南：类型、等级与工业应用选型",
@@ -164,34 +164,106 @@
       "faqItems": [
         {
           "q": {
-            "en": "What are Technical Guide and how are they used?"
+            "en": "What is the difference between DIN 934 and ISO 4032 hex nuts?",
+            "zh": "DIN 934和ISO 4032六角螺母有什么区别？",
+            "es": "¿Cuál es la diferencia entre tuercas hexagonal DIN 934 e ISO 4032?",
+            "fr": "Quelle est la différence entre les écrous hexagonaux DIN 934 et ISO 4032?",
+            "pt": "Qual é a diferença entre porcas sextavadas DIN 934 e ISO 4032?",
+            "ru": "В чем разница между гайками DIN 934 и ISO 4032?",
+            "ja": "DIN 934とISO 4032の六角ナットの違いは何ですか？",
+            "de": "Was ist der Unterschied zwischen Sechskantmuttern nach DIN 934 und ISO 4032?",
+            "hi": "DIN 934 और ISO 4032 हेक्स नट में क्या अंतर है?",
+            "ar": "ما الفرق بين الصواميل السداسية DIN 934 و ISO 4032؟"
           },
           "a": {
-            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+            "en": "DIN 934 and ISO 4032 are essentially the same standard for hex nuts. Both specify the same dimensions, thread tolerances, and mechanical properties. The key difference is that DIN 934 is the older German standard, while ISO 4032 is the current international standard. For new projects, ISO 4032 is recommended as it aligns with global procurement standards. Both are fully interchangeable in practice.",
+            "zh": "DIN 934和ISO 4032是基本相同的六角螺母标准。两者都规定了相同的尺寸、螺纹公差和力学性能。主要区别在于DIN 934是较旧的德国标准，而ISO 4032是当前的国际标准。对于新项目，建议使用ISO 4032，因为它符合全球采购标准。两者在实际使用中完全可以互换。",
+            "es": "DIN 934 e ISO 4032 son esencialmente el mismo estándar para tuercas hexagonales. Ambos especifican las mismas dimensiones, tolerancias de rosca y propiedades mecánicas. La diferencia clave es que DIN 934 es la norma alemana más antigua, mientras que ISO 4032 es la norma internacional actual.",
+            "fr": "DIN 934 et ISO 4032 sont essentiellement la même norme pour les écrous hexagonaux. Les deux spécifient les mêmes dimensions, tolérances de filetage et propriétés mécaniques.",
+            "pt": "DIN 934 e ISO 4032 são essencialmente o mesmo padrão para porcas sextavadas. Ambos especificam as mesmas dimensões, tolerâncias de rosca e propriedades mecânicas.",
+            "ru": "DIN 934 и ISO 4032 по сути являются одним и тем же стандартом для шестигранных гаек. Оба стандарта определяют одинаковые размеры, допуски резьбы и механические свойства.",
+            "ja": "DIN 934とISO 4032は本質的に同じ六角ナットの標準です。両者は同じ寸法、ねじ公差、機械的特性を規定しています。",
+            "de": "DIN 934 und ISO 4032 sind im Wesentlichen dieselbe Norm für Sechskantmuttern. Beide specify the same dimensions.",
+            "hi": "DIN 934 और ISO 4032 मूल रूप से हेक्स नट के लिए एक ही मानक हैं। दोनों समान आयामें, थ्रेड टॉलरेंस और यांत्रिक गुणों को निर्दिष्ट करते हैं।",
+            "ar": "DIN 934 و ISO 4032 هما في الأساس نفس المعيار للصواميل السداسية. يحدد كلاهما نفس الأبعاد وتسامح الخيط والخصائص الميكانيكية."
           }
         },
         {
           "q": {
-            "en": "How do I choose the right fastener for my project?"
+            "en": "What hex nut grade should I use with 8.8 grade bolts?",
+            "zh": "8.8级螺栓应该配用什么等级的六角螺母？",
+            "es": "¿Qué grado de tuerca hexagonal debo usar con pernos de grado 8.8?",
+            "fr": "Quel grade d'écrou hexagonal dois-je utiliser avec des boulons de grade 8.8?",
+            "pt": "Que grau de porca sextavada devo usar com parafusos grau 8.8?",
+            "ru": "Какой класс шестигранной гайки следует использовать с болтами класса 8.8?",
+            "ja": "8.8グレードのボルトにはどのグレードの六角ナットを使用する必要がありますか？",
+            "de": "Welche Sechskantmutter-Klasse sollte ich mit Bolzen der Klasse 8.8 verwenden?",
+            "hi": "8.8 ग्रेड बोल्ट के साथ मुझे कौन सा हेक्स नट ग्रेड का उपयोग करना चाहिए?",
+            "ar": "ما درجة الصامولة السداسية التي يجب أن أستخدمها مع البراغي درجة 8.8؟"
           },
           "a": {
-            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+            "en": "Use Grade 8 hex nuts with 8.8 grade bolts. The nut proof load should equal or exceed the bolt's proof load to ensure proper joint assembly. Using a lower grade nut risks thread stripping before the bolt reaches its full strength. Grade 8 nuts have a proof load of 680 N/mm², matching 8.8 bolt properties. For 10.9 bolts, use Grade 10 nuts (830 N/mm² proof load). For 12.9 bolts, use Grade 12 nuts (970 N/mm² proof load).",
+            "zh": "8.8级螺栓应配用8级六角螺母。螺母的保证载荷应等于或超过螺栓的保证载荷，以确保正确的连接装配。使用较低等级的螺母可能在螺栓达到其全部强度之前就发生螺纹剥离。8级螺母的保证载荷为680 N/mm²，与8.8级螺栓特性匹配。",
+            "es": "Use tuercas hexagonales Grado 8 con pernos de grado 8.8. La carga de prueba de la tuerca debe ser igual o superior a la carga de prueba del perno.",
+            "fr": "Utilisez des écrous hexagonaux de Grade 8 avec des boulons de Grade 8.8. La charge d'épreuve de l'écrou doit être égale ou supérieure à celle du boulon.",
+            "pt": "Use porcas sextavadas Grau 8 com parafusos grau 8.8. A carga de prova da porca deve ser igual ou superior à carga de prova do parafuso.",
+            "ru": "Используйте гайки класса 8 с болтами класса 8.8. Нагрузка гайки должна быть равна или превышать нагрузку болта.",
+            "ja": "8.8グレードのボルトにはグレード8の六角ナットを使用してください。ナットの保証荷重はボルトの保証荷重と同じかそれ以上である必要があります。",
+            "de": "Verwenden Sie Sechskantmuttern der Klasse 8 mit Bolzen der Klasse 8.8. Die Prüflast der Mutter muss gleich oder größer als die des Bolzens sein.",
+            "hi": "8.8 ग्रेड बोल्ट के साथ ग्रेड 8 हेक्स नट का उपयोग करें। नट का प्रूफ लोड बोल्ट के प्रूफ लोड के बराबर या उससे अधिक होना चाहिए।",
+            "ar": "استخدم الصواميل السداسية درجة 8 مع البراغي درجة 8.8. يجب أن تكون حمولة إثبات الصامولة مساوية لحمولة إثبات البرغي أو أكبر منها."
           }
         },
         {
           "q": {
-            "en": "What materials are available for these fasteners?"
+            "en": "Can hex nuts be reused after being torqued?",
+            "zh": "六角螺母扭矩后可以重复使用吗？",
+            "es": "¿Se pueden reutilizar las tuercas hexagonales después de haber sido torcidas?",
+            "fr": "Les écrous hexagonaux peuvent-ils être réutilisés après avoir été torsadés?",
+            "pt": "As porcas sextavadas podem ser reutilizadas depois de serem torqueadas?",
+            "ru": "Можно ли использовать шестигранные гайки повторно после затяжки?",
+            "ja": "トルクをかけた後の六角ナットは再使用できますか？",
+            "de": "Können Sechskantmuttern nach dem Anziehen wiederverwendet werden?",
+            "hi": "क्या हेक्स नट को टॉर्क करने के बाद दोबारा उपयोग किया जा सकता है?",
+            "ar": "هل يمكن إعادة استخدام الصواميل السداسية بعد شدها؟"
           },
           "a": {
-            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+            "en": "It depends on the application. For critical structural connections (Grade 8.8 and above), hex nuts should not be reused because the thread surface undergoes plastic deformation during tightening, reducing the nut's grip. For non-critical applications with lower bolt grades, hex nuts may be reused if threads are undamaged and the nut can be freely threaded onto the bolt. Always inspect for thread damage, cracks, or deformation before reuse. For Zimbabwe and South African construction, follow SABS 153 and SANS 2001 structural fastening standards which typically require new nuts for critical connections.",
+            "zh": "这取决于应用场景。对于关键的结构连接（8.8级及以上），六角螺母不应重复使用，因为在拧紧过程中螺纹表面会发生塑性变形，降低了螺母的抓握力。对于较低螺栓等级的非关键应用，如果螺纹未损坏且螺母可以自由拧到螺栓上，则可以重复使用。",
+            "es": "Depende de la aplicación. Para conexiones estructurales críticas (Grado 8.8 y superior), las tuercas hexagonales no deben reutilizarse.",
+            "fr": "Cela dépend de l'application. Pour les connexions structurelles critiques (Grade 8.8 et supérieur), les écrous hexagonaux ne doivent pas être réutilisés.",
+            "pt": "Depende da aplicação. Para conexões estruturais críticas (Grau 8.8 e superior), as porcas sextavadas não devem ser reutilizadas.",
+            "ru": "Это зависит от области применения. Для критических конструктивных соединений (класс 8.8 и выше) гайки не следует использовать повторно.",
+            "ja": "これは用途によって異なります。重要な構造接続（グレード8.8以上）の場合、六角ナットを再使用すべきではありません。",
+            "de": "Das hängt von der Anwendung ab. Für kritische Strukturverbindungen (Klasse 8.8 und höher) sollten Sechskantmuttern nicht wiederverwendet werden.",
+            "hi": "यह एप्लिकेशन पर निर्भर करता है। महत्वपूर्ण संरचनात्मक कनेक्शन (ग्रेड 8.8 और उससे ऊपर) के लिए, हेक्स नट का पुनः उपयोग नहीं किया जाना चाहिए।",
+            "ar": "يعتمد ذلك على التطبيق. للتوصيلات الهيكلية الحرجة (درجة 8.8 وأعلى)، لا يجب إعادة استخدام الصواميل السداسية."
           }
         },
         {
           "q": {
-            "en": "Do you offer custom manufacturing?"
+            "en": "What is the difference between a hex nut and a lock nut?",
+            "zh": "六角螺母和锁紧螺母有什么区别？",
+            "es": "¿Cuál es la diferencia entre una tuerca hexagonal y una contratuerca?",
+            "fr": "Quelle est la différence entre un écrou hexagonal et un contre-écrou?",
+            "pt": "Qual é a diferença entre uma porca sextavada e uma contra-porca?",
+            "ru": "В чем разница между шестигранной гайкой и стопорной гайкой?",
+            "ja": "六角ナットと袋座金の違いは何ですか？",
+            "de": "Was ist der Unterschied zwischen einer Sechskantmutter und einer Sicherungsmutter?",
+            "hi": "हेक्स नट और लॉक नट में क्या अंतर है?",
+            "ar": "ما الفرق بين الصامولة السداسية والصامولة القفل؟"
           },
           "a": {
-            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
+            "en": "A standard hex nut (DIN 934/ISO 4032) relies entirely on bolt preload and friction to stay secured. A lock nut (also called prevailing torque nut or nyloc nut) has a built-in locking mechanism—either a nylon insert (Nyloc), deformed thread, or free-spinning collar—that resists loosening from vibration. For African mining conveyor systems and vibrating equipment, lock nuts are recommended to prevent spontaneous loosening. Standard hex nuts are suitable for static joints with consistent preload. Always use grade-matched lock nuts with grade-matched bolts.",
+            "zh": "标准六角螺母（DIN 934/ISO 4032）完全依靠螺栓预紧力和摩擦力来保持固定。锁紧螺母（也称为自锁螺母或尼龙锁紧螺母）具有内置的锁定机构——无论是尼龙插入件、变形螺纹还是自由旋转套环——都能抵抗振动引起的松动。",
+            "es": "Una tuerca hexagonal estándar (DIN 934/ISO 4032) depende enteramente de la precarga del perno y la fricción para mantenerse fija.",
+            "fr": "Un écrou hexagonal standard (DIN 934/ISO 4032) dépend entièrement de la précharge du boulon et de la friction pour rester fixé.",
+            "pt": "Uma porca sextavada padrão (DIN 934/ISO 4032) depende inteiramente da pré-carga do parafuso e do atrito para permanecer fixada.",
+            "ru": "Стандартная шестигранная гайка (DIN 934/ISO 4032) полностью зависит от предварительной нагрузки болта и трения.",
+            "ja": "標準の六角ナット（DIN 934/ISO 4032）は、ボルトのプリロードと摩擦に完全に依存して固定されます。",
+            "de": "Eine Standard-Sechskantmutter (DIN 934/ISO 4032) ist vollständig auf die Vorspannung des Bolzens und Reibung angewiesen.",
+            "hi": "एक मानक हेक्स नट (DIN 934/ISO 4032) पूरी तरह से बोल्ट प्रीलोड और घर्षण पर निर्भर करता है।",
+            "ar": "تعتمد الصامولة السداسية القياسية (DIN 934/ISO 4032) كليًا على التحميل المسبق للبرغي والاحتكاك للبقاء في مكانها."
           }
         }
       ]
@@ -209,8 +281,8 @@
     "link": "/#inquiry"
   },
   "relatedProducts": [],
-  "imageAlt": "Hex Nuts Complete Guide Types - fastener solutions",
-  "updated": "2026-02-18",
+  "imageAlt": "Hex Nuts Complete Guide: Types, Grades & Selection for In... - fastener solutions",
+  "updated": "2026-05-08",
   "author": "TradeGo Fasteners",
   "relatedArticles": [
     {

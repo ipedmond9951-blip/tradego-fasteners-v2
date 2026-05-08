@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2025-04-29",
   "readTime": 7,
-  "image": "/images/products/self-tapping-screws.jpg",
+  "image": "/images/articles/self-tapping-screws-guide.jpg",
   "title": {
     "en": "Self-Tapping Screws Guide: Types, Applications & Selectio...",
     "zh": "自攻螺钉指南：金属与木材紧固的类型、应用与选型",
@@ -112,34 +112,106 @@
       "faqItems": [
         {
           "q": {
-            "en": "What are Technical Guide and how are they used?"
+            "en": "What is the difference between self-tapping and self-drilling screws?",
+            "zh": "自攻螺钉和自钻螺钉有什么区别？",
+            "es": "¿Cuál es la diferencia entre tornillos autorroscantes y tornillos autotaladrantes?",
+            "fr": "Quelle est la différence entre les vis taraudeuses et les vis autoforeuses?",
+            "pt": "Qual é a diferença entre parafusos autoatarraxantes e parafusos autoperfurantes?",
+            "ru": "В чем разница между самонарезающими и самосверлящими шурупами?",
+            "ja": "セルフタップねじとドリルねじの違いは何ですか？",
+            "de": "Was ist der Unterschied zwischen selbstschneidenden und selbstbohrenden Schrauben?",
+            "hi": "सेल्फ-टैपिंग और सेल्फ-ड्रिलिंग स्क्रू में क्या अंतर है?",
+            "ar": "ما الفرق بين المسامير ذات اللولب الذاتي والمسامير ذات الحفر الذاتي؟"
           },
           "a": {
-            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+            "en": "Self-tapping screws (Type AB, Type B) have a sharp point that cuts or forms threads in the material as you drive them in, but they require a pilot hole for thicker materials. Self-drilling screws (Type III/TEK) have a drill point with flutes that actually drills its own pilot hole—no pre-drilling needed for thin steel. For African construction: use self-tapping for wood, plastic, and thin metal; use self-drilling (TEK screws) for steel framing, roofing, and thicker metal where you want faster installation without pre-drilling.",
+            "zh": "自攻螺钉（AB型、B型）具有锋利的尖端，在拧入材料时会切割或形成螺纹，但对于较厚的材料需要预钻孔。自钻螺钉（III型/TEK型）具有带凹槽的钻尖，可以自己钻出导孔——无需对薄钢板进行预钻孔。",
+            "es": "Los tornillos autorroscantes (Tipo AB, Tipo B) tienen una punta afilada que corta o forma roscas en el material.",
+            "fr": "Les vis taraudeuses (Type AB, Type B) ont une pointe tranchante qui coupe ou forme des filetages dans le matériau.",
+            "pt": "Os parafusos autoatarraxantes (Tipo AB, Tipo B) têm uma ponta afiada que corta ou forma roscas no material.",
+            "ru": "Самонарезающие шурупы (тип AB, тип B) имеют острие, которое разрезает или формирует резьбу в материале.",
+            "ja": "セルフタップねじ（タイプAB、タイプB）は、材料にねじを切断または形成する鋭いポイントを持っています。",
+            "de": "Selbstschneidende Schrauben (Typ AB, Typ B) haben eine scharfe Spitze, die das Material schneidet oder Gewinde bildet.",
+            "hi": "सेल्फ-टैपिंग स्क्रू (टाइप एबी, टाइप बी) में एक तेज पॉइंट होता है जो सामग्री में थ्रेड काटता है या बनाता है।",
+            "ar": "المسامير ذات اللولب الذاتي (النوع أ ب، النوع ب) لها طرف حاد يقطع أو يكوّن خيوط في المادة."
           }
         },
         {
           "q": {
-            "en": "How do I choose the right fastener for my project?"
+            "en": "Can self-tapping screws be used in wood?",
+            "zh": "自攻螺钉可以用于木材吗？",
+            "es": "¿Se pueden usar tornillos autorroscantes en madera?",
+            "fr": "Les vis taraudeuses peuvent-elles être utilisées dans le bois?",
+            "pt": "Podem parafusos autoatarraxantes ser usados em madeira?",
+            "ru": "Можно ли использовать самонарезающие шурупы в дереве?",
+            "ja": "木材にセルフタップねじを使用できますか？",
+            "de": "Können selbstschneidende Schrauben in Holz verwendet werden?",
+            "hi": "क्या सेल्फ-टैपिंग स्क्रू का उपयोग लकड़ी में किया जा सकता है?",
+            "ar": "هل يمكن استخدام المسامير ذات اللولب الذاتي في الخشب؟"
           },
           "a": {
-            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+            "en": "Yes, self-tapping screws can be used in wood, especially hardwoods and engineered wood products like plywood and MDF. However, for softwoods and general wood framing, wood screws (which have coarser threads) are typically preferred as they provide better grip and reduce the risk of splitting. Self-tapping screws with fine threads may strip out in wood under load. For African timber construction, use wood-specific screws or coach screws for structural wood connections, and reserve self-tapping screws for metal-to-wood or thin metal applications.",
+            "zh": "是的，自攻螺钉可以用于木材，特别是硬木和工程木产品如胶合板和中密度纤维板。但是，对于软木和一般木框架，通常更倾向于使用木螺钉（具有较粗的螺纹），因为它们提供更好的抓握力并减少开裂风险。",
+            "es": "Sí, los tornillos autorroscantes se pueden usar en madera, especialmente maderas duras y productos de madera ingeniería.",
+            "fr": "Oui, les vis taraudeuses peuvent être utilisées dans le bois, en particulier les bois durs.",
+            "pt": "Sim, parafusos autoatarraxantes podem ser usados em madeira, especialmente madeiras duras.",
+            "ru": "Да, самонарезающие шурупы можно использовать в дереве, особенно в твердых породах.",
+            "ja": "はい、セルフタップねじは木材、特に針葉樹や合板などのエンジニアリングウッド製品に使用できます。",
+            "de": "Ja, selbstschneidende Schrauben können in Holz verwendet werden, insbesondere in Hartholz.",
+            "hi": "हाँ, सेल्फ-टैपिंग स्क्रू का उपयोग लकड़ी में किया जा सकता है।",
+            "ar": "نعم، يمكن استخدام المسامير ذات اللولب الذاتي في الخشب."
           }
         },
         {
           "q": {
-            "en": "What materials are available for these fasteners?"
+            "en": "What is the difference between Type AB and Type B point screws?",
+            "zh": "AB型和B型尖端螺钉有什么区别？",
+            "es": "¿Cuál es la diferencia entre tornillos de punta Tipo AB y Tipo B?",
+            "fr": "Quelle est la différence entre les vis à pointe Type AB et Type B?",
+            "pt": "Qual é a diferença entre parafusos de ponta Tipo AB e Tipo B?",
+            "ru": "В чем разница между шурупами с наконечником типа AB и типа B?",
+            "ja": "タイプABとタイプBのポイントねじの違いは何ですか？",
+            "de": "Was ist der Unterschied zwischen Schrauben mit Typ AB- und Typ B-Spitze?",
+            "hi": "टाइप एबी और टाइप बी पॉइंट स्क्रू में क्या अंतर है?",
+            "ar": "ما الفرق بين مسامير النوع أ ب والنوع ب؟"
           },
           "a": {
-            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+            "en": "Type AB point screws have a sharp point with fine threads, suitable for thin sheet metal up to 0.9mm—they start easily but can skid on thicker material. Type B point screws have a 45-degree blunt (flat) point with slightly deeper threads, suitable for thicker materials up to 2.3mm—the blunt start requires slight pressure but provides more thread engagement. For African construction: use Type AB for HVAC ductwork and thin metal enclosures; use Type B for steel brackets, framing members, and general sheet metal work up to 2.3mm.",
+            "zh": "AB型尖端螺钉具有锋利的尖端和细螺纹，适用于厚度达0.9毫米的薄金属板——它们易于启动但在较厚材料上可能会打滑。B型尖端螺钉具有45度钝（平）尖端，螺纹略深，适用于厚度达2.3毫米的较厚材料。",
+            "es": "Los tornillos de punta Tipo AB tienen una punta afilada con roscas finas, adecuados para chapas de hasta 0.9 mm.",
+            "fr": "Les vis à pointe Type AB ont une pointe tranchante avec des filetages fins, adaptées aux tôles jusqu'à 0.9 mm.",
+            "pt": "Os parafusos de ponta Tipo AB têm uma ponta afiada com roscas finas, adequados para chapas de até 0.9 mm.",
+            "ru": "Шурупы с наконечником типа AB имеют острие с мелкой резьбой, подходят для листового металла толщиной до 0.9 мм.",
+            "ja": "タイプABのポイントねじは、0.9mmまでの薄板に適した細いねじを持つ鋭いポイントを持っています。",
+            "de": "Schrauben mit Typ-AB-Spitze haben eine scharfe Spitze mit feinen Gewinden, geeignet für Bleche bis 0.9 mm.",
+            "hi": "टाइप एबी पॉइंट स्क्रू में एक तेज पॉइंट होता है जिसमें बारीक थ्रेड होते हैं।",
+            "ar": "للمسامير ذات الطرف نوع أ ب طرف حاد مع خيوط دقيقة، مناسبة للصفائح المعدنية حتى 0.9 ملم."
           }
         },
         {
           "q": {
-            "en": "Do you offer custom manufacturing?"
+            "en": "Do self-tapping screws need pilot holes?",
+            "zh": "自攻螺钉需要预钻孔吗？",
+            "es": "¿Los tornillos autorroscantes necesitan agujeros de guía?",
+            "fr": "Les vis taraudeuses ont-elles besoin de trous de guidage?",
+            "pt": "Os parafusos autoatarraxantes precisam de furos de guia?",
+            "ru": "Нужны ли самонарезающим шурупам направляющие отверстия?",
+            "ja": "セルフタップねじは下穴が必要ですか？",
+            "de": "Brauchen selbstschneidende Schrauben Führungsbohrungen?",
+            "hi": "क्या सेल्फ-टैपिंग स्क्रू के लिए पायलट होल की जरूरत होती है?",
+            "ar": "هل تحتاج المسامير ذات اللولب الذاتي إلى ثقوب دليل؟"
           },
           "a": {
-            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
+            "en": "For self-tapping Type AB and Type B screws: thin materials (under 1.5mm steel) generally do not need pilot holes—the screw will tap its own threads. For thicker materials (1.5-2.3mm), a small pilot hole (typically 70-80% of the screw core diameter) helps prevent thread stripping and makes driving easier. For wood, predrilling is recommended to prevent splitting, especially near edges and end grain. Self-drilling Type III screws never need pilot holes—they drill their own as they go. For Zimbabwe and South African construction, always check local building codes for fastening requirements.",
+            "zh": "对于自攻螺钉AB型和B型：薄材料（钢制1.5毫米以下）通常不需要预钻孔——螺钉会自己攻丝。对于较厚的材料（1.5-2.3毫米），小导孔（通常为核心直径的70-80%）有助于防止螺纹脱扣并使拧入更容易。对于木材，建议预钻孔以防止开裂。",
+            "es": "Para tornillos autorroscantes Tipo AB y Tipo B: materiales delgados (menos de 1.5 mm de acero) generalmente no necesitan agujeros de guía.",
+            "fr": "Pour les vis taraudeuses Type AB et Type B: les matériaux minces (moins de 1.5 mm d'acier) ne nécessitent généralement pas de trous de guidage.",
+            "pt": "Para parafusos autoatarraxantes Tipo AB e Tipo B: materiais finos (abaixo de 1.5mm de aço) geralmente não precisam de furos de guia.",
+            "ru": "Для самонарезающих шурупов типа AB и B: тонкие материалы (менее 1.5 мм стали) обычно не требуют направляющих отверстий.",
+            "ja": "タイプABとタイプBのセルフタップねじの場合、薄い材料（1.5mm以下の鋼材）は通常、下穴が必要ありません。",
+            "de": "Für selbstschneidende Schrauben vom Typ AB und Typ B: dünne Materialien (unter 1.5 mm Stahl) benötigen in der Regel keine Führungsbohrungen.",
+            "hi": "सेल्फ-टैपिंग टाइप एबी और टाइप बी स्क्रू के लिए: पतली सामग्री (1.5mm स्टील से नीचे) को आमतौर पर पायलट होल की जरूरत नहीं होती।",
+            "ar": "لمسامير اللولب الذاتي النوع أ ب والنوع ب: المواد الرقيقة (أقل من 1.5 ملم فولاذ) لا تحتاج عمومًا إلى ثقوب دليل."
           }
         }
       ]
@@ -157,8 +229,8 @@
     "link": "/#inquiry"
   },
   "relatedProducts": [],
-  "imageAlt": "Self-Tapping Screws Guide Types - fastener solutions",
-  "updated": "2026-03-27",
+  "imageAlt": "Self-Tapping Screws Guide: Types, Applications & Selectio... - fastener solutions",
+  "updated": "2026-05-08",
   "author": "TradeGo Fasteners",
   "relatedArticles": [
     {
