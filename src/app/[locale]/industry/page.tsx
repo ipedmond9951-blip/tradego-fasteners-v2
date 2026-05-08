@@ -10,12 +10,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const siteUrl = 'https://www.tradego-fasteners.com'
   
   const titles: Record<string, string> = {
-    en: 'Fastener Industry Guide | Technical Articles & Market Insights',
-    zh: '紧固件行业指南 | 技术文章与市场洞察',
+    en: 'Fastener Selection Guide | 304/316 Stainless Steel Bolts, Marine Bolts, Solar Bracket Bolts, Lock Nuts & Washer Types',
+    zh: '紧固件选择指南 | 不锈钢304/316螺栓、海洋螺栓、太阳能支架螺栓、锁紧螺母、垫圈类型',
   }
   const descriptions: Record<string, string> = {
-    en: 'Africa fastener distributor expert guides: drywall screws, hex bolts, IBR nails, self-drilling screws. SABS & ISO 9001 certified. Download specs, market analysis & procurement tips for African construction, roofing, steel structure.',
-    zh: '非洲紧固件分销商专家指南：干墙螺丝、六角螺栓、IBR钉、自钻螺丝。SABS和ISO 9001认证。提供非洲建筑、屋顶、钢结构规格、市场分析和采购技巧。',
+    en: 'Expert fastener guides: stainless steel 304/316 hex bolts, high-strength 8.8/10.9/12.9 grade bolts, marine & outdoor corrosion-resistant bolts, solar bracket bolts, self-tapping screws, lock nuts, industrial washers. SABS & ISO 9001 certified. Market insights for Africa construction.',
+    zh: '专家紧固件指南：304/316不锈钢六角螺栓、高强度8.8/10.9/12.9级螺栓、海洋户外防腐螺栓、太阳能支架螺栓、自攻螺丝、锁紧螺母、工业垫圈。SABS和ISO 9001认证。非洲建筑市场洞察。',
   }
   
   return {

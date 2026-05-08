@@ -30,12 +30,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const siteUrl = 'https://www.tradego-fasteners.com'
   
   const titles: Record<string, string> = {
-    en: 'Africa Fastener Distributor - Drywall Screws, Hex Bolts, IBR Nails from China | SABS, ISO 9001 Certified',
-    zh: '非洲紧固件分销商 | 干墙螺丝、六角螺栓、IBR钉中国制造 | SABS、ISO 9001认证',
+    en: 'Stainless Steel Hex Bolts & Heavy Duty Fasteners Wholesale | 8.8/10.9 Grade, Self-Tapping Screws, Lock Nuts | TradeGo',
+    zh: '不锈钢六角螺栓_高强度8.8/10.9级螺栓_自攻螺丝_锁紧螺母_批发 | TradeGo',
   }
   const descriptions: Record<string, string> = {
-    en: 'South Africa fastener distributor. Bulk drywall screws, self-drilling TEK screws, hex bolts, nuts, washers, IBR nails. SABS & ISO 9001 certified factory with 12+ years Africa focus. Low MOQ, sea freight to Durban, Lagos, Mombasa.',
-    zh: '南非紧固件分销商。批量干墙螺丝、自钻TEK螺丝、六角螺栓、螺母、垫圈、IBR钉。SABS和ISO 9001认证工厂，12年非洲专注。低MOQ，海运至德班、拉各斯、蒙巴萨。',
+    en: 'Wholesale fastener supplier. 304/316 stainless steel hex bolts, high-strength 8.8/10.9/12.9 grade bolts, self-tapping & self-drilling screws, lock nuts, washers, IBR nails, anchor bolts. ISO 9001 certified. Low MOQ, sea freight to Zimbabwe, Zambia, Mozambique, South Africa.',
+    zh: '批发紧固件供应商。304/316不锈钢六角螺栓、高强度8.8/10.9/12.9级螺栓、自攻螺丝、自钻螺丝、锁紧螺母、垫圈、IBR钉、地脚螺栓。ISO 9001认证。低MOQ，海运至津巴布韦、赞比亚、莫桑比克、南非。',
   }
   
   return {
