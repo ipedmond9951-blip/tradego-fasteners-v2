@@ -32,6 +32,51 @@
       }
     },
     {
+      "id": "specifications",
+      "heading": {
+        "en": "Timber Screw Specifications & Standards",
+        "zh": "木螺丝规格与标准"
+      },
+      "body": {
+        "en": "Timber construction screws must meet specific standards for structural applications. Key specifications to verify when sourcing:",
+        "zh": "木结构螺丝必须满足结构应用的具体标准。采购时要验证的关键规格："
+      },
+      "table": {
+        "headers": [
+          "Standard",
+          "Application",
+          "Key Requirements"
+        ],
+        "rows": [
+          [
+            "EN 14592",
+            "European structural timber screws",
+            "Withdrawal capacity, bending strength, durability"
+          ],
+          [
+            "ASTM F1575",
+            "US bending yield strength",
+            "Minimum 45,000 PSI yield for structural screws"
+          ],
+          [
+            "ISO 1891",
+            "Fastener terminology",
+            "Standardized naming and classification"
+          ],
+          [
+            "BS 5268",
+            "UK timber connection design",
+            "Load duration factors, joint design"
+          ],
+          [
+            "AS 1720",
+            "Australian timber structures",
+            "Seasonal moisture adjustments, connection design"
+          ]
+        ]
+      }
+    },
+    {
       "id": "key-features",
       "heading": {
         "en": "Key Features to Look For"
@@ -102,6 +147,68 @@
       }
     },
     {
+      "id": "withdrawal-strength",
+      "heading": {
+        "en": "Typical Withdrawal Strength Values",
+        "zh": "典型抗拔强度值"
+      },
+      "body": {
+        "en": "Withdrawal strength (resistance to being pulled out) varies by wood species, screw size, and grain direction. Per EN 1382 test standard, typical values for common African hardwoods:",
+        "zh": "抗拔强度（抗拉出阻力）因木材种类、螺丝尺寸和纹理方向而异。根据EN 1382测试标准，非洲常见硬木的典型值："
+      },
+      "table": {
+        "headers": [
+          "Wood Type",
+          "Screw Diameter",
+          "Withdrawal (N/mm embedment)",
+          "Application Notes"
+        ],
+        "rows": [
+          [
+            "Meru Oak (Hardwood)",
+            "6mm",
+            "25-35 N/mm",
+            "High density, predrill required"
+          ],
+          [
+            "African Mahogany",
+            "5mm",
+            "18-25 N/mm",
+            "Medium density, standard installation"
+          ],
+          [
+            "Eucalyptus (Kiln dried)",
+            "5mm",
+            "15-22 N/mm",
+            "Medium density, avoid green timber"
+          ],
+          [
+            "Pine (Softwood)",
+            "4mm",
+            "10-15 N/mm",
+            "Low density, use larger diameter"
+          ],
+          [
+            "Muninga (Pod mahogany)",
+            "6mm",
+            "28-38 N/mm",
+            "Premium structural timber"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sources",
+      "heading": {
+        "en": "Sources & References",
+        "zh": "来源和参考"
+      },
+      "body": {
+        "en": "<strong>Technical References:</strong><br>• EN 1382: Timber structures - Test methods - Withdrawal capacity of timber fasteners<br>• EN 14592: Timber structures - Dowel-type fasteners - Requirements<br>• ASTM F1575: Standard Test Method for Determining Bending Yield Strength of Structural Fasteners<br>• South African Timber Specifications: SANS 1783 for structural timber",
+        "zh": "<strong>技术参考：</strong><br>• EN 1382：木结构——试验方法——木结构紧固件的抗拔能力<br>• EN 14592：木结构——销钉型紧固件——要求<br>• ASTM F1575：确定结构紧固件弯曲屈服强度的标准试验方法"
+      }
+    },
+    {
       "id": "faq",
       "heading": {
         "en": "Frequently Asked Questions",
@@ -162,9 +269,14 @@
     },
     "link": "/#inquiry"
   },
-  "relatedProducts": [],
+  "relatedProducts": [
+    "coach-screws",
+    "anchor-bolts",
+    "bolts-nuts",
+    "washers"
+  ],
   "imageAlt": "Timber Construction Screws Guide Selection - fastener solutions",
-  "updated": "2026-03-12",
+  "updated": "2026-05-09",
   "author": "TradeGo Fasteners",
   "relatedArticles": [
     {

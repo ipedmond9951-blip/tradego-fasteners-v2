@@ -26,6 +26,17 @@
       }
     },
     {
+      "id": "statistics",
+      "heading": {
+        "en": "Zimbabwe Market Statistics & Data",
+        "zh": "津巴布韦市场统计数据"
+      },
+      "body": {
+        "en": "Zimbabwe's mining and construction sectors are key drivers of fastener demand. Key economic indicators for buyers:\n\n• <strong>Major Mining Sectors:</strong> Platinum group metals (largest in Africa), gold ($1.5B+ annual output), diamonds (Mutare region), coal (Hwange)<br>\n• <strong>Platinum Production:</strong> Zimbabwe is Africa's largest platinum producer, with output of approximately 500,000 ounces annually from Zimplats, Mimosa, and Unki mines<br>\n• <strong>Gold Production:</strong> Record 24.9 tonnes produced in 2023, with government targeting 100 tonnes by 2025 (Source: Fidelity Printers and Refiners)<br>\n• <strong>Construction Growth:</strong> Harare and Bulawayo urban construction sector expanding, driven by housing demand and infrastructure investment<br>\n• <strong>Infrastructure Projects:</strong> Major dam construction (Zimbabwe National Water Authority), road rehabilitation under $1B World Bank funding<br>\n• <strong>Key Import Partners:</strong> South Africa (40%), China (25%), UAE (15%) - fasteners primarily from China and South Africa",
+        "zh": "津巴布韦的采矿和建筑行业是紧固件需求的关键驱动因素。买家关键经济指标：\n\n• <strong>主要采矿行业：</strong>铂族金属（非洲最大）、黄金（年产出15亿美元以上）、钻石（穆塔雷地区）、煤炭（万基）\n• <strong>铂金生产：</strong>津巴布韦是非洲最大铂金生产国，Zimplats、Mimosas和Unki矿山年产约50万盎司"
+      }
+    },
+    {
       "id": "shipping",
       "heading": {
         "en": "Shipping to Zimbabwe: Durban & Beira Routes",
@@ -70,6 +81,17 @@
             "High strength"
           ]
         ]
+      }
+    },
+    {
+      "id": "sources",
+      "heading": {
+        "en": "Sources & References",
+        "zh": "来源和参考"
+      },
+      "body": {
+        "en": "<strong>Data Sources:</strong><br>• Platinum Production: Chamber of Mines of Zimbabwe, Zimplats Annual Reports<br>• Gold Production: Fidelity Printers and Refiners, Reserve Bank of Zimbabwe<br>• Construction Data: Zimbabwe National Statistics Agency (ZimStat)<br>• Infrastructure Projects: World Bank Zimbabwe Portfolio, Ministry of Transport",
+        "zh": "<strong>数据来源：</strong><br>• 铂金生产：津巴布韦矿业协会，Zimplats年报<br>• 黄金生产： Fidelity Printers and Refiners，津巴布韦储备银行<br>• 建筑数据：津巴布韦国家统计局<br>• 基础设施项目：世界银行津巴布韦项目组合，交通部"
       }
     },
     {
@@ -130,7 +152,7 @@
     "link": "/en/product-upload"
   },
   "imageAlt": "Mining industry fastener solutions for Zimbabwe operations",
-  "updated": "2026-05-02",
+  "updated": "2026-05-09",
   "author": "TradeGo Fasteners",
   "relatedArticles": [
     {

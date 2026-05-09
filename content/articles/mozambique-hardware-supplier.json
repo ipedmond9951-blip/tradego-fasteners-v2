@@ -26,6 +26,17 @@
       }
     },
     {
+      "id": "statistics",
+      "heading": {
+        "en": "Mozambique Market Statistics & Data",
+        "zh": "莫桑比克市场统计数据"
+      },
+      "body": {
+        "en": "Understanding Mozambique's economic landscape helps buyers make informed decisions about fastener procurement in the region. Key economic indicators for 2024-2025:\n\n• <strong>GDP Growth:</strong> Mozambique's GDP grew 4.7% in 2025, driven by agriculture, services, and emerging industrial projects (Source: Instituto Nacional de Estatística, Trading Economics)<br>\n• <strong>Population:</strong> 34.6 million (2024 est.), with 38% urban concentration in Maputo, Beira, and Nampula<br>\n• <strong>Construction Sector:</strong> Construction GDP contributed approximately 2,668 MZN Million, with growth driven by infrastructure projects and natural gas investment<br>\n• <strong>Port Throughput:</strong> Maputo Port handles approximately 30 million tonnes annually, serving as gateway to Southern Africa<br>\n• <strong>Major Industries:</strong> Aluminum smelting (Mozal - 1 million tonnes/year capacity), coal mining (Tete Province), agriculture (cotton, cashews, sugarcane)<br>\n\nThese economic fundamentals indicate sustained demand for construction fasteners, mining hardware, and agricultural fasteners throughout Mozambique.",
+        "zh": "了解莫桑比克的经济概况有助于买家做出明智的采购决策。2024-2025年关键经济指标：\n\n• <strong>GDP增长：</strong>2025年莫桑比克GDP增长4.7%，由农业、服务业和新兴工业项目推动（来源：莫桑比克国家统计局，Trading Economics）\n• <strong>人口：</strong>3460万（2024年估计），38%集中在马普托、贝拉和南普拉等城市\n• <strong>建筑行业：</strong>建筑GDP贡献约26.68亿梅蒂卡尔，增长由基础设施项目和天然气投资推动\n• <strong>港口吞吐量：</strong>马普托港每年处理约3000万吨货物，是南非洲的门户\n• <strong>主要行业：</strong>铝冶炼（莫扎尔-年产能100万吨）、煤矿（太特省）、农业（棉花、腰果、甘蔗）"
+      }
+    },
+    {
       "id": "ports",
       "heading": {
         "en": "Major Ports: Maputo & Beira",
@@ -75,6 +86,17 @@
             "Corridors"
           ]
         ]
+      }
+    },
+    {
+      "id": "sources",
+      "heading": {
+        "en": "Sources & References",
+        "zh": "来源和参考"
+      },
+      "body": {
+        "en": "<strong>Data Sources:</strong><br>• GDP Growth: Instituto Nacional de Estatística (INE Mozambique) / Trading Economics<br>• Population: World Bank Development Indicators<br>• Construction GDP: INE Mozambique Annual Economic Survey<br>• Port Throughput: Maputo Port Development Company (MPDC)<br>• Industry Production: Mozal Aluminum, Ministry of Mineral Resources and Energy",
+        "zh": "<strong>数据来源：</strong><br>• GDP增长：莫桑比克国家统计局 / Trading Economics<br>• 人口：世界银行发展指标<br>• 建筑GDP：莫桑比克国家统计局年度经济调查<br>• 港口吞吐量：马普托港发展公司<br>• 行业生产：莫扎尔铝业，矿产资源与能源部"
       }
     },
     {
@@ -135,7 +157,7 @@
     "link": "/en/product-upload"
   },
   "imageAlt": "Port infrastructure for fastener logistics in Mozambique",
-  "updated": "2026-02-04",
+  "updated": "2026-05-09",
   "author": "TradeGo Fasteners",
   "relatedArticles": [
     {
