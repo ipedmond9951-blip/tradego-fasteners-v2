@@ -1,0 +1,70 @@
+{
+  "slug": "rivets-blind-rivets-guide",
+  "category": "Technical Guide",
+  "date": "2026-04-24",
+  "readTime": 6,
+  "image": "/images/products/rivets-1.jpg",
+  "title": {
+    "en": "Rivets and Blind Rivets Guide: Selection and Installation",
+    "zh": "铆钉和抽芯铆钉指南：选型和安装",
+    "es": "Guía de Remaches y Remaches Cegados: Selección e Instalación",
+    "ar": "دليل المسامير اللولبية والمسامير العمياء: الاختيار والتثبيت",
+    "fr": "Guide des Rivets et Riv Aveugles: Sélection et Installation",
+    "pt": "Guia de Rebites e Rebites Cegos: Seleção e Instalação",
+    "ru": "Руководство по Заклёпкам и Глухим Заклёпкам: Выбор и Установка",
+    "ja": "リベットとリトラクタブルリベットガイド：選定と取付け",
+    "de": "Nieten und Blindnieten: Auswahl und Installation",
+    "hi": "रिवेट्स और ब्लाइंड रिवेट्स गाइड: चयन और स्थापना"
+  },
+  "description": {
+    "en": "Complete guide to rivets and blind rivets. Learn about solid rivets, pop rivets, and how to select the right rivet for applications where <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a> aren't suitable.",
+    "zh": "铆钉和抽芯铆钉完整指南。了解实心铆钉、抽芯铆钉以及如何为不适合螺栓的应用选择正确的铆钉。",
+    "es": "Guía completa de remaches y remaches ciegos. Aprenda sobre remaches sólidos, remaches pop y cómo seleccionar el remache correcto.",
+    "ar": "دليل شامل للمسامير اللولبية والمسامير العمياء. تعلم عن المسامير الصلبة ومسامير البوب وكيفية الاختيار الصحيح.",
+    "fr": "Guide complet des rivets et rivets aveugles. Apprenez les rivets solides, les rivets pop et comment sélectionner le bon rivet.",
+    "pt": "Guia completo de rebites e rebites cegos. Aprenda sobre rebites sólidos, rebites pop e como selecionar o rebite certo.",
+    "ru": "Полное руководство по заклёпкам и глухим заклёпкам. Узнайте о сплошных заклёпках, вытяжных заклёпках и как выбрать правильную.",
+    "ja": "リベットとリトラクタブルリベットの完全ガイド。ソリッドリベット、ポップリベット、そして適切なリベットの選択方法について学びます。",
+    "de": "Vollständiger Leitfaden für Nieten und Blindnieten. Erfahren Sie mehr über Vollnieten, Popnieten und wie man das richtige Niet auswählt.",
+    "hi": "रिवेट्स और ब्लाइंड रिवेट्स की पूर्ण गाइड। सॉलिड रिवेट्स, पॉप रिवेट्स, और बोल्ट के लिए उपयुक्त न होने वाले अनुप्रयोगों के लिए सही रिवेट कैसे चुनें।"
+  },
+  "keywords": "rivets, blind rivets, pop rivets, solid rivets, rivet installation, rivet selection",
+  "sections": [
+    {
+      "id": "rivet-types",
+      "heading": {
+        "en": "Types of Rivets"
+      },
+      "body": {
+        "en": "Different rivet types for different applications:\n\n1. Solid Rivets:\n- Traditional rivet requiring access to both sides\n- Requires bucking bar for installation\n- Highest strength for critical applications\n- Used in: Structural, aerospace, shipbuilding\n\n2. Pop Rivets (Blind Rivets):\n- Installed from one side only\n- Mandrel breaks off during installation\n- Various materials: aluminum, steel, stainless\n- Most common for general applications\n\n3. Structural Blind Rivets:\n- Higher strength than standard pop rivets\n- Large flange for load distribution\n- Used in: Automotive, transportation\n\n4. Specialized Rivets:\n- Drive rivets (single-sided)\n- Rivet <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nuts</a></a> (creates threads)\n- Self-piercing rivets (for sheet metal)"
+      }
+    },
+    {
+      "id": "selection",
+      "heading": {
+        "en": "Rivet Selection"
+      },
+      "body": {
+        "en": "Key factors for rivet selection:\n\n1. Grip Range:\n- Total thickness being joined\n- Must fit within rivet grip range\n\n2. Material:\n- Aluminum rivets: Light weight, general use\n- Steel rivets: Higher strength\n- Stainless rivets: Corrosion resistance\n\n3. Head Style:\n- Dome head: Standard appearance\n- Countersunk: Flush mount\n\n4. Hole Size:\n- Typically 0.1mm larger than rivet diameter\n- Too tight = difficult installation\n- Too loose = weak joint"
+      }
+    }
+  ],
+  "cta": {
+    "en": "Request Rivet Quote",
+    "zh": "请求铆钉报价",
+    "es": "Solicitar Cotización de Remaches",
+    "ar": "طلب عرض أسعار المسامير",
+    "fr": "Demander un Devis pour Rivets",
+    "pt": "Solicitar Cotação de Rebites",
+    "ru": "Запросить КП на Заклёпки",
+    "ja": "リベット見積もりを依頼",
+    "de": "Nieten Angebot Erhalten",
+    "hi": "रिवेट कोटेशन का अनुरोध करें"
+  },
+  "relatedProducts": [
+    "rivets",
+    "rivet-tools",
+    "blind-rivets"
+  ],
+  "imageAlt": "Rivets and Blind Rivets Guide - fastener solutions"
+}
