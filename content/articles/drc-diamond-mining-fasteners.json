@@ -26,6 +26,17 @@
       }
     },
     {
+      "id": "statistics",
+      "heading": {
+        "en": "DRC Mining & Construction Market Statistics",
+        "zh": "刚果金矿业与建筑市场统计"
+      },
+      "body": {
+        "en": "The DRC's mining sector is one of the largest and most strategic in Africa. Key market data for buyers sourcing fasteners for mining and construction operations:\n\n• <strong>GDP:</strong> $72.7 billion (2024), per capita $670 (Source: World Bank)<br>\n• <strong>Population:</strong> 116.5 million (2026 est.), 12th most populous country globally (Source: Britannica)<br>\n• <strong>Cobalt Production:</strong> DRC produces approximately 70% of global cobalt supply, concentrated in Katanga Copperbelt (Lubumbashi, Kolwezi, Likasi)<br>\n• <strong>Copper Production:</strong> 2.2 million tonnes annually, making DRC Africa's largest copper producer<br>\n• <strong>Major Mining Projects:</strong> Tenke Fungurume Mining (TFM), Kamoa-Kakula (Ivanhoe Mines), Mutanda Mining - all requiring high-volume industrial fasteners<br>\n• <strong>Construction:</strong> Urban growth in Kinshasa (17+ million population) driving demand for construction fasteners",
+        "zh": "刚果金的矿业是非洲最大、最具战略意义的行业之一。采购采矿和建筑用紧固件的关键市场数据：\n\n• <strong>GDP：</strong>727亿美元（2024年），人均670美元（来源：世界银行）\n• <strong>人口：</strong>1.165亿（2026年估计），全球第12大人口国（来源：大英百科全书）\n• <strong>钴生产：</strong>刚果金生产约70%的全球钴供应，集中于加丹加铜带（卢本巴希、科卢韦齐、利卡西）\n• <strong>铜生产：</strong>年产220万吨，使刚果金成为非洲最大铜生产国\n• <strong>主要采矿项目：</strong>腾科丰古鲁梅矿业（TFM）、卡莫阿-卡库拉（艾芬豪矿业）、穆坦达矿业——都需要大量工业紧固件"
+      }
+    },
+    {
       "id": "shipping",
       "heading": {
         "en": "Shipping to DRC: Multiple Route Options",
@@ -75,6 +86,17 @@
             "Grade 10.9"
           ]
         ]
+      }
+    },
+    {
+      "id": "sources",
+      "heading": {
+        "en": "Sources & References",
+        "zh": "来源和参考"
+      },
+      "body": {
+        "en": "<strong>Data Sources:</strong><br>• GDP & Population: World Bank Development Indicators 2024, Britannica World Data<br>• Cobalt Production: U.S. Geological Survey (USGS) Mineral Resources Program<br>• Copper Production: International Copper Study Group (ICSG)<br>• Mining Projects: Company annual reports (CMOC, Ivanhoe Mines, Glencore)",
+        "zh": "<strong>数据来源：</strong><br>• GDP和人口：世界银行2024年发展指标，大英百科全书世界数据<br>• 钴生产：美国地质调查局矿物资源项目<br>• 铜生产：国际铜研究组<br>• 采矿项目：公司年报"
       }
     },
     {
@@ -135,7 +157,7 @@
     "link": "/en/product-upload"
   },
   "imageAlt": "Industrial fastener manufacturing and supply in Africa",
-  "updated": "2026-05-02",
+  "updated": "2026-05-09",
   "author": "TradeGo Fasteners",
   "relatedArticles": [
     {
