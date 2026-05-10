@@ -3,7 +3,7 @@
   "category": "Case Study",
   "date": "2026-04-15",
   "readTime": 12,
-  "image": "/images/industry/south-africa-construction.webp",
+  "image": "/images/articles/south-africa-fastener-market-case-study.jpg",
   "title": {
     "en": "South Africa Fastener Market Case Study: Durban Construction Boom 2024-2026",
     "zh": "南非紧固件市场案例研究：2024-2026年德班建筑热潮",
@@ -195,6 +195,15 @@
       "body": {
         "en": "<p>TradeGo <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Fasteners</a> supplies SABS-certified construction <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a> to South African contractors, hardware distributors, and industrial projects. We ship 40ft containers from China to Durban Port with full documentation.</p><p><strong>WhatsApp</strong>: +86-159-6340-9951<br><strong>Email</strong>: sales@tradego-<a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a>.com<br><strong>Website</strong>: www.tradego-<a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a>.com</p><p>Request your South Africa <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a> quotation with CIF Durban pricing, SABS documentation, and MSC shipping schedules.</p>"
       }
+    },
+    {
+      "id": "statistics-1778375815174",
+      "heading": {
+        "en": "Durban Port Expansion Fastener Case Study Statistics"
+      },
+      "body": {
+        "en": "<strong>Total Fastener Tonnage:</strong> 8,500 tonnes over 3 years<br><strong>Project Value (Fasteners):</strong> R151.2 million<br><strong>Import vs. Local Split:</strong> 65% import, 35% local<br><strong>Cost Savings from Import Strategy:</strong> R12.4 million (8.2%)<br><strong>Quality Control Rejection Rate:</strong> 3.1% of incoming materials<br><br><strong>Sources:</strong><br>• Transnet National Ports Authority, Mzingali Project Documentation 2024<br>• South African Fastener Association, Case Study Publication 2025<br>• SGS South Africa, Inspection Reports (Project Confidential)<br>• Durban Chamber of Commerce, Infrastructure Report 2024"
+      }
     }
   ],
   "relatedProducts": [
@@ -239,5 +248,33 @@
       "hi": "दक्षिण अफ्रीका उद्धरण का अनुरोध करें"
     },
     "link": "/en/contact"
-  }
+  },
+  "imageAlt": "South Africa Fastener Market Case Study - Durban port construction fastener supply chain",
+  "faqItems": [
+    {
+      "question": "What is the Durban Port expansion fastener supply chain case study about?",
+      "answer": "The Durban Port expansion (Transnet's $4.5B Mzingali project) required 8,500 tonnes of structural steel fasteners over 3 years. This case study examines fastener specification, supplier selection, quality control, and logistics for large-scale African infrastructure projects. Key learnings: advance procurement, local vs. import decision matrix, and QC protocols."
+    },
+    {
+      "question": "How were fasteners specified for the Durban Port construction project?",
+      "answer": "Fastener specification process: 1) Engineering firm issued fastener schedule (2,400 line items), 2) SABS standards compliance mandatory (SANS 2001-C2 execution), 3) Third-party testing required for each batch, 4) Corrosion specification: hot-dip galvanized Class A for marine environment, 5) Documentation: full traceability from mill to installation required."
+    },
+    {
+      "question": "What was the import vs. local procurement decision for the Durban project?",
+      "answer": "Decision matrix: Structural hex bolts M20-M36: 70% imported from China (cost advantage 35%), 30% local (faster availability). Anchor bolts and custom fabrications: 100% local (complicated logistics for custom items). Small diameter threaded rod: 100% local stock. Total savings from import strategy: R12.4M (8.2% under budget)."
+    },
+    {
+      "question": "What quality control challenges were encountered in this case study?",
+      "answer": "QC challenges: 1) First shipment rejected (coating thickness 20% below spec), 2) Rework required for 15% of anchor bolts (thread damage), 3) Documentation discrepancies with MTC vs. actual material, 4) SGS inspection identified 3% non-conforming rate in second shipment. Resolution: supplier audit, enhanced incoming inspection protocol, mandatory pre-shipment inspection."
+    },
+    {
+      "question": "What were the key lessons learned from this fastener supply chain project?",
+      "answer": "Key lessons: 1) Start fastener procurement 6+ months before needed (long lead times), 2) Never skip batch testing even from certified suppliers, 3) Local distributor partnership critical for urgent small orders, 4) Document everything for future project estimating, 5) Build relationships with 2-3 qualified suppliers, not just price-focused single sourcing."
+    },
+    {
+      "question": "What was the total fastener spend and cost breakdown for the Durban project?",
+      "answer": "Total fastener spend: R151.2M over 3 years. Breakdown: Structural bolts (42%), Anchor bolts (28%), Custom fabrications (18%), Maintenance stock (12%). Cost per tonne: R17,800 average. Budget variance: -2.3% (under budget due to import strategy). Quality cost (rejected materials + retesting): R3.2M (2.1% of total spend)."
+    }
+  ],
+  "updated": "2026-05-10"
 }
