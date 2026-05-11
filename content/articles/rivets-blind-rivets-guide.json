@@ -66,5 +66,24 @@
     "rivet-tools",
     "blind-rivets"
   ],
-  "imageAlt": "Rivets and Blind Rivets Guide - fastener solutions"
+  "imageAlt": "Rivets and Blind Rivets Guide - fastener solutions",
+  "_file": "rivets-blind-rivets-guide",
+  "relatedArticles": [
+    {
+      "slug": "rivets-blind-rivet-nut-guide",
+      "title": "Rivets & Blind Rivets Complete Guide: Types, Installation..."
+    },
+    {
+      "slug": "bolt-types-applications-guide",
+      "title": "Bolt Types and Applications Guide: Complete Technical Reference"
+    },
+    {
+      "slug": "fastener-material-selection-guide",
+      "title": "Fastener Material Selection Guide: Carbon Steel, Stainless, Alloy"
+    },
+    {
+      "slug": "u-bolts-pipe-clamps-guide",
+      "title": "U-Bolts & Pipe Clamps Guide: Secure Pipe Mounting for Min..."
+    }
+  ]
 }

@@ -164,5 +164,24 @@
     "https://www.iso.org/standard/",
     "https://www.astm.org/standards/"
   ],
-  "updated": "2026-04-08"
+  "updated": "2026-04-08",
+  "_file": "gb-din-ansi-fastener-standards-export-guide",
+  "relatedArticles": [
+    {
+      "slug": "full-thread-half-thread-coarse-fine-thread-guide",
+      "title": "Full Thread vs Half Thread: Coarse vs Fine Thread Bolts Guide"
+    },
+    {
+      "slug": "fastener-standards-din-iso-astm-comparison",
+      "title": "Fastener Standards Comparison: DIN vs ISO vs ASTM vs ANSI"
+    },
+    {
+      "slug": "thread-types-guide-metric-imperial",
+      "title": "Thread Types Guide: Metric and Imperial Threads Explained"
+    },
+    {
+      "slug": "fastener-material-selection-guide",
+      "title": "Fastener Material Selection Guide: Carbon Steel, Stainless, Alloy"
+    }
+  ]
 }
