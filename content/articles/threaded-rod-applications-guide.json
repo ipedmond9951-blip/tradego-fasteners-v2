@@ -1,89 +1,86 @@
 {
   "slug": "threaded-rod-applications-guide",
   "category": "Technical Guide",
-  "date": "2026-04-24",
-  "readTime": 6,
-  "image": "/images/products/threaded-rods.jpg",
+  "date": "2026-04-25",
+  "readTime": 8,
+  "image": "/images/articles/threaded-rod.jpg",
   "title": {
     "en": "Threaded Rod Applications Guide: Complete Selection Reference",
-    "zh": "螺柱应用指南：完整选型参考",
-    "es": "Guía de Aplicaciones de Varillas Roscadas: Referencia Completa de Selección",
-    "ar": "دليل تطبيقات القضبان الملولبة: مرجع الاختيار الكامل",
-    "fr": "Guide des Applications des Tiges Filetées: Référence de Sélection Complète",
-    "pt": "Guia de Aplicações de Barras Roscadas: Referência Completa de Seleção",
-    "ru": "Руководство по Применению Резьбовых Шпилек: Полное Справочное Руководство по Выбору",
-    "ja": "ねじ棒応用ガイド：完全な選定基準",
-    "de": "Gewindestange Anwendungen: Vollständige Auswahlreferenz",
-    "hi": "थ्रेडेड रॉड अनुप्रयोग गाइड: पूर्ण चयन संदर्भ"
+    "zh": "螺杆应用指南：完整选择参考"
   },
   "description": {
-    "en": "Complete guide to <a href=\"/products#threaded-rods\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#threaded-rods\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">threaded rod</a></a> selection and applications. Learn about fully <a href=\"/products#threaded-rods\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#threaded-rods\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">threaded rod</a></a>, partial thread, materials, grades, and common uses in construction and industrial applications.",
-    "zh": "螺柱选型和应用完整指南。了解全螺纹螺柱、部分螺纹、材料、等级以及建筑和工业应用中的常见用途。",
-    "es": "Guía completa de selección y aplicaciones de varillas roscadas. Aprenda sobre varillas totalmente roscadas, rosca parcial, materiales, grados y usos comunes.",
-    "ar": "دليل شامل لاختيار وتطبيقات القضبان الملولبة. تعلم عن القضبان ذات الخيط الكامل والخيط الجزئي والمواد والدرجات والاستخدامات الشائعة.",
-    "fr": "Guide complet de sélection et applications des tiges filetées. Apprenez les tiges entièrement filetées, filetage partiel, matériaux, grades et usages courants.",
-    "pt": "Guia completo de seleção e aplicações de barras roscadas. Aprenda sobre barra totalmente rosqueada, rosca parcial, materiais, graus e usos comuns.",
-    "ru": "Полное руководство по выбору и применению резьбовых шпилек. Узнайте о полностью резьбовых шпильках, частичной резьбе, материалах, марках и распространенных областях применения.",
-    "ja": "ねじ棒の選定と応用の完全ガイド。全ねじ棒、片側ねじ、材料、グレード、一般的な用途について学びます。",
-    "de": "Vollständiger Leitfaden zur Auswahl und Anwendung von Gewindestangen. Erfahren Sie mehr über vollgewinde, teilgewinde, Materialien, Klassen und gängige Anwendungen.",
-    "hi": "थ्रेडेड रॉड चयन और अनुप्रयोगों की पूर्ण गाइड। पूर्ण थ्रेडेड रॉड, आंशिक थ्रेड, सामग्री, ग्रेड, और निर्माण और औद्योगिक अनुप्रयोगों में सामान्य उपयोग के बारे में जानें।"
+    "en": "Threaded rod selection guide: materials, coatings, load ratings, and applications. Complete reference for choosing the right threaded rod for construction, mining, and industrial use.",
+    "zh": "螺杆选择指南：材料、镀层、负载额定值和应用。建筑、采矿和工业用螺杆选择的完整参考。"
   },
-  "keywords": "threaded rod, all-thread rod, fully threaded rod, threaded bar, stud bolt",
+  "keywords": "threaded rod, all thread, stud bolt, material selection, load ratings, construction fasteners",
   "sections": [
     {
       "id": "overview",
       "heading": {
-        "en": "What is Threaded Rod?"
+        "en": "Understanding Threaded Rod",
+        "zh": "了解螺杆"
       },
       "body": {
-        "en": "<a href=\"/products#threaded-rods\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#threaded-rods\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Threaded rod</a></a> (also called all-thread, stud bolt, or continuous thread) is a rod with threads running along its entire length:\n\nKey characteristics:\n- Available in diameters: M6 to M72 (metric) or 1/4\" to 2-1/2\" (imperial)\n- Standard lengths: 1m, 2m, 3m (or 3ft, 6ft, 12ft)\n- Can be cut to any desired length on-site\n- Acts as a through <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a></a> when used with <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nuts</a></a> on both ends\n\nMaterials: Carbon steel, stainless steel (304, 316), alloy steel\nCoatings: Plain, zinc plated, hot-dip galvanized, PTFE coated\n\nTradeGo <a href=\"/products#threaded-rods\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#threaded-rods\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">threaded rods</a></a> are manufactured to DIN 975 (metric) standard with full thread configuration."
+        "en": "Threaded rod (also called all-thread or stud bolt) is a fastener with continuous threads along its entire length. This versatile product serves countless applications in construction, mining, manufacturing, and maintenance.\n\nThreaded rod is available in various materials, diameters, lengths, and thread specifications to meet diverse application requirements.\n\nCommon specifications:\n\nMetric: M6, M8, M10, M12, M16, M20, M24, M30, M36\nInch: 1/4\" through 2\" and larger\nLengths: Typically 1m to 3m, custom lengths available\nGrades: 4.6, 8.8, 10.9 for carbon steel; A2, A4 for stainless\n\nThreaded rod is typically cut to length from longer stock, but TradeGo offers standard lengths ready for immediate use.\n\nTradeGo supplies threaded rod in various materials and coatings for African construction, mining, and industrial applications.",
+        "zh": "螺杆（也称为全螺纹或柱螺栓）是一种沿整个长度连续攻丝的紧固件。这种多功能产品在建筑、采矿、制造和维护中有无数应用。"
+      }
+    },
+    {
+      "id": "materials",
+      "heading": {
+        "en": "Materials and Coatings",
+        "zh": "材料和镀层"
+      },
+      "body": {
+        "en": "Threaded rod materials must be selected based on strength requirements and environmental conditions:\n\nCarbon Steel: Most common choice for general applications. Zinc-plated for indoor use, hot-dip galvanized for outdoor and corrosive environments.\n\nStainless Steel A2 (304): Excellent corrosion resistance for indoor and outdoor applications. Suitable for most environments not involving chlorides.\n\nStainless Steel A4 (316): Superior chloride corrosion resistance for coastal and marine applications. Recommended for beachfront construction and offshore installations.\n\nAlloy Steel (ASTM A193 B7): High-strength option for demanding applications including pressure vessels, high-temperature piping, and heavy machinery.\n\nCoatings for carbon steel threaded rod:\n\nZinc Plating: Standard indoor corrosion protection. Cost-effective for controlled environments.\nHot-Dip Galvanizing: 40-60 micrometer zinc coating provides excellent outdoor durability. Essential for outdoor construction in African climates.\nDacromet: High corrosion resistance with good temperature performance. Suitable for demanding environments.\nBlack Oxide: Cosmetic finish with minimal protection. Indoor use only.\n\nFor African applications, hot-dip galvanized threaded rod is recommended for outdoor construction due to humid tropical conditions and salt exposure in coastal areas.",
+        "zh": "螺杆材料必须根据强度要求和环境条件选择：碳钢最常见，锌镀层用于室内，热镀锌用于室外和腐蚀环境。不锈钢A2(304)具有良好的耐腐蚀性，A4(316)具有出色的耐氯化物腐蚀性能。"
       }
     },
     {
       "id": "applications",
       "heading": {
-        "en": "Common Threaded Rod Applications"
+        "en": "Common Applications",
+        "zh": "常见应用"
       },
       "body": {
-        "en": "<a href=\"/products#threaded-rods\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#threaded-rods\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Threaded rod</a></a> versatility makes it essential in many applications:\n\n1. Structural Anchorage:\n- Anchor rods embedded in concrete\n- Connection between structural elements\n- Tension rod in pre-stressed concrete\n\n2. Hanging and Support:\n- Suspended ceiling support rods\n- Pipe and duct support\n- HVAC equipment mounting\n\n3. Adjustable Connections:\n- Temporary structures\n- jigs and fixtures\n- Leveling applications\n\n4. General Fastening:\n- When combined with <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nuts</a></a> and <a href=\"/products#washers\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#washers\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">washers</a></a>\n- Custom-length <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a>\n- Repair and maintenance"
+        "en": "Threaded rod serves many construction and industrial applications:\n\nStructural Connections:\n- Anchor rod for concrete foundations\n- Boundary rods for structural steel connections\n- Hanger rods for suspended ceilings and mechanical systems\n- Bracing rods for structural stability\n\nMechanical Installations:\n- Pump and motor mounting\n- Conveyor support structures\n- HVAC equipment mounting\n- Generator and transformer foundations\n\nPlumbing and Pipe Support:\n- Pipe hangers and supports\n- Sprinkler system mounting\n- Plumbing fixture installation\n- DWV (drain, waste, vent) system supports\n\nMining Applications:\n- Ground support reinforcement\n- Equipment anchoring in processing plants\n- Conveyor structure connections\n- Tunnel and shaft construction\n\nMarine and Coastal:\n- Dock and pier construction\n- Seawall and breakwater installations\n- Marina infrastructure\n- Offshore platform mounting\n\nThreaded rod is often used with nuts and washers on both ends to create adjustable connections or anchor points. This adjustability makes threaded rod ideal for applications where precise length cannot be determined in advance.",
+        "zh": "螺杆适用于许多建筑和工业应用：结构连接、机械安装、管道支撑、采矿应用以及海洋和沿海应用。"
+      }
+    },
+    {
+      "id": "load",
+      "heading": {
+        "en": "Load Ratings and Engineering",
+        "zh": "负载额定值和工程"
+      },
+      "body": {
+        "en": "Understanding threaded rod load capacity is essential for safe applications:\n\n tensile strength ratings by grade:\nM10 Grade 4.6: 23.2 kN ultimate, 15.5 kN working (3:1 safety factor)\nM12 Grade 4.6: 33.7 kN ultimate, 22.5 kN working\nM16 Grade 4.6: 62.3 kN ultimate, 41.5 kN working\nM20 Grade 8.8: 122 kN ultimate, 81 kN working\nM24 Grade 8.8: 176 kN ultimate, 117 kN working\n\nCritical engineering considerations:\n\nThread engagement: Minimum thread engagement of 1 diameter for full strength (ISO 898). For anchor applications, 2-3 diameters into concrete is recommended.\n\nConnection design: Threaded rod in tension requires nut and washer on both ends for proper load distribution.\n\nShear loading: Threaded rod has lower shear strength than tensile strength. Design connections to avoid shear loading where possible.\n\nCombined loading: Analyze both tensile and shear forces. Use interaction formulas for combined loading conditions.\n\nFatigue: Dynamic loading requires consideration of fatigue life. Consider using fine thread for better fatigue resistance.\n\nFor critical structural applications, consult a licensed structural engineer. TradeGo provides technical data but engineering responsibility rests with the designer.",
+        "zh": "了解螺杆负载能力对于安全应用至关重要。关键是：螺纹啮合需要至少1倍直径（ISO 898），连接设计需要螺母和垫圈分配负载，剪切加载应避免，组合加载需要分析。"
+      }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题"
+      },
+      "body": {
+        "en": "What length threaded rod should I order?\n\nOrder slightly longer than needed, then cut to exact length on-site. Standard lengths of 1m, 2m, and 3m cover most requirements. For custom lengths, contact TradeGo for availability.\n\nCan threaded rod be used for underground mining support?\n\nYes, but use appropriate material for the environment. Hot-dip galvanized or stainless steel for humid underground conditions. Some mining applications require specialized corrosion-resistant coatings.\n\nWhat's the difference between fine thread and coarse thread?\n\nCoarse thread (standard metric) is easier to assemble and provides better fatigue resistance. Fine thread offers better adjustment precision and higher load capacity in the same diameter.\n\n\nHow do I cut threaded rod on site?\n\nUse a hacksaw with fine-tooth blade, angle grinder with cutting disc, or pipe cutter for smaller diameters. Wear safety glasses and protect threads from debris.\n\nCan I weld threaded rod?\n\nCarbon steel threaded rod can be welded using appropriate procedures. Remove any plating or coating before welding. Stainless rod requires specialized welding techniques.\n\n\nWhat's the maximum load for threaded rod?\n\nLoad capacity depends on diameter, grade, and application conditions. Refer to engineering tables or consult a structural engineer for critical applications.\n\n\nHow do I prevent corrosion in threaded rod connections?\n\nUse appropriate material or coating for the environment. Apply thread-lubricant during assembly to prevent galvanic corrosion and ensure proper preload. Consider using stainless steel in highly corrosive environments.",
+        "zh": "我应该订购多长的螺杆？\n\n订购稍长于需要的长度，然后在现场切割到确切长度。标准长度为1m、2m和3m。\n\n螺杆可以用于地下采矿支撑吗？\n\n可以，但要根据环境使用适当的材料。潮湿地下条件下使用热镀锌或不锈钢。"
       }
     }
   ],
-  "cta": {
-    "en": "Request Threaded Rod Quote",
-    "zh": "请求螺柱报价",
-    "es": "Solicitar Cotización de Varillas Roscadas",
-    "ar": "طلب عرض أسعار القضبان الملولبة",
-    "fr": "Demander un Devis pour Tiges Filetées",
-    "pt": "Solicitar Cotação de Barras Roscadas",
-    "ru": "Запросить КП на Резьбовые Шпильки",
-    "ja": "ねじ棒の見積もりを得る",
-    "de": "Gewindestange Angebot Erhalten",
-    "hi": "थ्रेडेड रॉड कोटेशन का अनुरोध करें"
-  },
   "relatedProducts": [
+    "threaded-rods",
     "bolts-nuts",
-    "washers",
-    "anchor-bolts"
+    "washers"
   ],
-  "imageAlt": "Threaded rods for structural and industrial applications",
-  "_file": "threaded-rod-applications-guide",
-  "relatedArticles": [
-    {
-      "slug": "threaded-rod-studding-guide",
-      "title": "Threaded Rod (Studding) Complete Guide: Applications, Cut..."
-    },
-    {
-      "slug": "threaded-rods-fasteners-guide",
-      "title": "Threaded Rods Complete Guide: All-Thread Fasteners for St..."
-    },
-    {
-      "slug": "bolt-types-applications-guide",
-      "title": "Bolt Types and Applications Guide: Complete Technical Reference"
-    },
-    {
-      "slug": "hex-nuts-selection-guide",
-      "title": "Hex Nuts Complete Guide: Types, Grades & Selection for In..."
-    }
-  ]
+  "cta": {
+    "en": "Contact TradeGo for threaded rod and fastening solutions. Email: sales@tradego-fasteners.com",
+    "zh": "联系TradeGo获取螺杆和紧固解决方案。"
+  },
+  "imageAlt": {
+    "en": "Threaded rod applications - construction and industrial uses",
+    "zh": "螺杆应用 - 建筑和工业用途"
+  }
 }
