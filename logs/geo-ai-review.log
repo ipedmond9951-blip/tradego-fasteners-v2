@@ -198,3 +198,37 @@ FAQ扩展：创建10+个问题专区，覆盖进口流程、认证、支付（L/
 20 sources
 GEO技术标准深入解析
 津巴布韦紧固件进口政策
+[2026-05-11 09:03:19] ==========================================
+[2026-05-11 09:03:19] 🌍 GEO AI评估开始
+[2026-05-11 09:03:19] ==========================================
+[2026-05-11 09:03:19] 🤖 正在调用AI助手评估GEO...
+⚠️ Chrome正在运行，但调试端口未开启
+   重启Chrome...
+🚀 启动Chrome调试模式 (端口 18800)...
+   Chrome已启动 (后台运行)
+⏳ 等待Chrome启动...
+✅ Chrome调试端口 18800 已就绪！
+
+[Grok] 开始调用...
+🤔 正在问Grok: "我有一个外贸B2B网站tradego-fasteners.com，主营非洲市场（津巴布韦）的紧固件（..."
+📄 打开Grok页面...
+✅ 找到输入框: textarea
+=== 🤖 Grok 回复 ===
+[Grok错误] locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('textarea').first()
+    - locator resolved to <textarea tabindex="-1" aria-hidden="true"></textarea>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    56 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
