@@ -66,29 +66,29 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
         <form onSubmit={handleSubmit} className="max-w-2xl mx-auto bg-white rounded-xl md:rounded-2xl shadow-lg p-5 md:p-8 space-y-4 md:space-y-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
             <div>
-              <label className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.name')} *</label>
-              <input name="name" required className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" />
+              <label htmlFor="inquiry-name" className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.name')} *</label>
+              <input id="inquiry-name" name="name" required className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" />
             </div>
             <div>
-              <label className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.email')} *</label>
-              <input name="email" type="email" required className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" />
+              <label htmlFor="inquiry-email" className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.email')} *</label>
+              <input id="inquiry-email" name="email" type="email" required className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" />
             </div>
             <div>
-              <label className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.company')}</label>
-              <input name="company" className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" />
+              <label htmlFor="inquiry-company" className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.company')}</label>
+              <input id="inquiry-company" name="company" className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" />
             </div>
             <div>
-              <label className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.phone')}</label>
-              <input name="phone" type="tel" className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" placeholder="+263..." />
+              <label htmlFor="inquiry-phone" className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.phone')}</label>
+              <input id="inquiry-phone" name="phone" type="tel" className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" placeholder="+263..." />
             </div>
             <div>
-              <label className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.country')}</label>
-              <input name="country" className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" />
+              <label htmlFor="inquiry-country" className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.country')}</label>
+              <input id="inquiry-country" name="country" className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" />
             </div>
           </div>
           <div>
-            <label className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.products')}</label>
-            <select name="products" className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+            <label htmlFor="inquiry-products" className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.products')}</label>
+            <select id="inquiry-products" name="products" className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent">
               <option value="">{t(locale, 'inquiry.selectProduct')}</option>
               <option value="drywall">Drywall Screws</option>
               <option value="self-drilling">Self-Drilling Screws (TEK)</option>
@@ -102,12 +102,12 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
             </select>
           </div>
           <div>
-            <label className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.quantity')}</label>
-            <input name="quantity" className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" placeholder="e.g. 5 tons" />
+            <label htmlFor="inquiry-quantity" className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.quantity')}</label>
+            <input id="inquiry-quantity" name="quantity" className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" placeholder="e.g. 5 tons" />
           </div>
           <div>
-            <label className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.message')}</label>
-            <textarea name="message" rows={3} className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" />
+            <label htmlFor="inquiry-message" className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.message')}</label>
+            <textarea id="inquiry-message" name="message" rows={3} className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" />
           </div>
           <div className="flex flex-col sm:flex-row gap-3 pt-2">
             <button type="submit" disabled={loading} aria-label={t(locale, 'inquiry.submit') + " - Submit your inquiry"} className="flex-1 bg-primary-700 text-white py-2.5 md:py-3 rounded-lg font-bold hover:bg-primary-800 transition-colors disabled:opacity-50 text-sm md:text-base">
