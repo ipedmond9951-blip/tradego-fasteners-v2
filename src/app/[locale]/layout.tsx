@@ -38,8 +38,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     en: 'TradeGo Fasteners - China Manufacturer for Zimbabwe & Southern Africa | ISO 9001, SABS',
   }
   const descriptions: Record<string, string> = {
-    zh: 'ISO 9001 & SABS认证中国紧固件制造商。15+年供应津巴布韦、南非、赞比亚、莫桑比克。干壁钉、六角螺栓、IBR钉、自攻钉。发货至德班、贝拉、哈拉雷。',
-    en: 'ISO 9001 & SABS certified China fastener manufacturer. 15+ years supplying Zimbabwe, South Africa, Zambia, Mozambique with drywall screws, hex bolts, IBR nails at factory prices. Shipping to Durban, Beira, Harare.',
+    zh: 'ISO 9001和SABS认证中国紧固件制造商，专注非洲市场15年。批发供应干壁钉、自钻螺丝、六角螺栓、IBR钉、锚栓、垫圈等全品类紧固件。工厂直供，价格优惠，海运至津巴布韦、赞比亚、南非、德班、贝拉、哈拉雷。最低起订量500kg，15-25天到港。',
+    en: 'ISO 9001 & SABS certified China fastener manufacturer. 15+ years supplying Zimbabwe, South Africa, Zambia, Mozambique with drywall screws, hex bolts, IBR nails at factory prices. Shipping to Durban, Beira, Harare. Low MOQ 500kg, 15-25 days sea freight.',
   }
   
   return {
