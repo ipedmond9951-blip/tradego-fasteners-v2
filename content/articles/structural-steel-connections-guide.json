@@ -1,98 +1,27 @@
 {
   "slug": "structural-steel-connections-guide",
   "category": "Technical Guide",
-  "date": "2026-04-24",
-  "readTime": 8,
-  "image": "/images/products/structural-steel-connections-1.jpg",
-  "title": {
-    "en": "Structural Steel Connections Guide: Bolted Moment and Braced Connections",
-    "zh": "钢结构连接指南：螺栓刚接和支撑连接",
-    "es": "Guía de Conexiones de Acero Estructural: Conexiones Atornilladas de Momento y Arriostradas",
-    "ar": "دليل وصلات الفولاذ الإنشائية: وصلات اللحظة المثبتة والوصلات المرنة",
-    "fr": "Guide des Connexions d'Acier Structural: Connexions à Boulons de Moment et Contreventées",
-    "pt": "Guia de Conexões de Aço Estrutural: Conexões Parafusadas de Momento e Estaiadas",
-    "ru": "Руководство по Соединениям Конструкционной Стали: Болтовые Моментные и Безраскосные Фермы",
-    "ja": "鉄骨構造接続ガイド：ボルト締結 момент 接合とブレース接続",
-    "de": "Stahlkonstruktion Anschlussleitfaden: Geschraubte Moment- und Aussteifungsverbindungen",
-    "hi": "स्ट्रक्चरल स्टील कनेक्शन गाइड: बोल्टेड मोमेंट और ब्रेस्ड कनेक्शन"
-  },
-  "description": {
-    "en": "Complete guide to structural steel connections. Learn about bolted moment connections, braced frame connections, and design requirements for steel structures.",
-    "zh": "钢结构连接完整指南。了解螺栓刚接、支撑框架连接和钢结构设计要求。",
-    "es": "Guía completa de conexiones de acero estructural. Aprenda sobre conexiones de momento atornilladas, conexiones de marcos arriostrados y requisitos de diseño.",
-    "ar": "دليل شامل لوصلات الفولاذ الإنشائية. تعلم عن وصلات اللحظة المثبتة ووصلات الأطر المثبتة ومتطلبات التصميم.",
-    "fr": "Guide complet des connexions d'acier structural. Apprenez les connexions à moment boulonnées, les connexions de cadres contreventés et les exigences de conception.",
-    "pt": "Guia completo de conexões de aço estrutural. Aprenda sobre conexões de momento parafusadas, conexões de estruturas treliçadas e requisitos de projeto.",
-    "ru": "Полное руководство по соединениям конструкционной стали. Узнайте о болтовых моментных соединениях, соединениях связевых каркасов и требованиях к проектированию.",
-    "ja": "鉄骨構造接続の完全ガイド。ボルト締結 момент 接合、ブレースフレーム接続、デザイン要件について学びます。",
-    "de": "Vollständiger Leitfaden für Stahlkonstruktion Anschlüsse. Lernen Sie über geschraubte Momentverbindungen, ausgesteifte Rahmenverbindungen und Konstruktionsanforderungen.",
-    "hi": "स्ट्रक्चरल स्टील कनेक्शन की पूर्ण गाइड। बोल्टेड मोमेंट कनेक्शन, ब्रेस्ड फ्रेम कनेक्शन, और स्टील स्ट्रक्चर के डिज़ाइन आवश्यकताओं के बारे में जानें।"
-  },
-  "keywords": "structural steel connections, moment connections, braced frames, high strength bolts, A325 bolts, steel structure",
+  "date": "2026-04-25",
+  "readTime": 9,
+  "image": "/images/articles/structural.jpg",
+  "title": { "en": "Structural Steel Connections Guide: Bolted Moment and Shear Connections", "zh": "结构钢连接指南：螺栓弯矩和剪切连接" },
+  "description": { "en": "Guide to structural steel bolted connections: design, installation, and inspection for construction and mining structures.", "zh": "结构钢螺栓连接指南：建筑和采矿结构的设计、安装和检查。" },
+  "keywords": "structural steel connections, bolted connections, moment connections, shear connections, construction fasteners",
   "sections": [
-    {
-      "id": "connection-types",
-      "heading": {
-        "en": "Types of Structural Connections"
-      },
-      "body": {
-        "en": "Structural steel connections fall into several categories:\n\n1. Moment Connections:\n- Transfer bending moment between members\n- Column-beam connections\n- Require full-depth end plates or angles\n- Critical for frame stability\n\n2. Shear Connections:\n- Transfer only shear forces\n- Simple beam-column connections\n- Seat and clip angles\n- Used in simply supported beams\n\n3. Braced Frame Connections:\n- Connect braces to frames\n- Gusset plate connections\n- Design for tension/compression in braces\n\n4. Base Plates:\n- Connect columns to foundations\n- <a href=\"/products#anchor-bolts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#anchor-bolts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Anchor bolts</a></a> transfer forces\n- Design for compression, tension, shear"
-      }
-    },
-    {
-      "id": "bolts",
-      "heading": {
-        "en": "High Strength Bolts for Structural Connections"
-      },
-      "body": {
-        "en": "Structural connections require high-strength <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a>:\n\nASTM Specifications:\n- A325: High-strength <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a> (120 ksi)\n- A490: Higher strength (150 ksi)\n- F1852: A325X (twist-off <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a>)\n\nInstallation Methods:\n1. Pretensioned (Turn-of-Nut):\n- Snug tight then turn nut specified rotation\n- Most common method\n\n2. Direct Tension Indicator:\n- <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Bolts</a></a> with built-in indicators\n- Compressible <a href=\"/products#washers\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#washers\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">washer</a></a> or spline\n\n3. Alternative Design:\n- Calibrated wrench method\n- Twist-off <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a>"
-      }
-    },
-    {
-      "id": "design",
-      "heading": {
-        "en": "Connection Design Requirements"
-      },
-      "body": {
-        "en": "Key design considerations:\n\n1. Capacity:\n- Shear capacity of <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a>\n- Bearing capacity of connected plates\n- Net section rupture\n\n2. Serviceability:\n- Deflection limits\n- Connection flexibility\n\n3. Detailing:\n- Clearances for erection\n- Access for welding/bucking\n- Corrosion protection"
-      }
-    }
+    { "id": "overview", "heading": { "en": "Structural Fastener Fundamentals", "zh": "结构紧固件基础" },
+      "body": { "en": "Structural steel connections transfer forces between members in buildings, bridges, and industrial structures. Bolted connections must be designed to safely resist tension, compression, shear, and bending forces acting on the structure.\n\nCritical considerations: connection geometry affects force distribution, fastener strength must match member strength, and installation quality determines actual connection performance.\n\nTradeGo supplies structural-grade fasteners meeting international standards for African construction and mining projects.", "zh": "结构钢连接在建筑物、桥梁和工业结构中传递构件之间的力。螺栓连接必须设计成安全抵抗作用在结构上的拉、压、剪和弯曲力。" }},
+    { "id": "types", "heading": { "en": "Connection Types", "zh": "连接类型" },
+      "body": { "en": "Shear Connections: Transfer shear forces only. Beam ends can rotate - design assumes simply supported behavior. Common in ordinary structures.\n\nMoment Connections: Transfer shear AND bending moment. Restrains beam end rotation. Required for frames and structures where stiffness is critical. More complex design and fabrication.\n\nTension Connections: Resist tensile forces. Used in bracing, hangers, and anchorage applications.\n\nCombined Connections: Resist multiple force types simultaneously. Most real connections fall into this category.\n\nDesign standards: AISC (USA), SABS/SANS (South Africa), Eurocode 3 (Europe). Ensure fasteners and connection details meet applicable local codes.", "zh": "剪切连接仅传递剪力。弯矩连接传递剪力和弯矩。拉伸连接抵抗拉力。组合连接同时抵抗多种力类型。" }},
+    { "id": "design", "heading": { "en": "Connection Design Principles", "zh": "连接设计原则" },
+      "body": { "en": "Key design steps:\n\n1. Determine design forces from structural analysis\n2. Select connection type appropriate for force and member sizes\n3. Calculate required fastener数量 and arrangement\n4. Check bearing, tear-out, and net section strength\n5. Verify connected material capacity\n6. Specify fastener grade, coating, and installation requirements\n\nFastener specification for structural connections:\n- ASTM A325 or A490 high-strength bolts (US standard)\n- SABS 155 (South African standard, equivalent to ISO 4014/4017)\n- Property class 8.8 or 10.9 for metric bolts\n\nMinimum edge distances and spacing per applicable standard. Generally: 1.5d from center to edge, 3d between fastener centers.", "zh": "关键设计步骤：1.从结构分析确定设计力；2.选择适合力和构件尺寸的连接类型；3.计算所需紧固件数量和排列；4.检查承压、撕裂和净截面强度；5.验证连接材料容量；6.指定紧固件等级、涂层和安装要求。" }},
+    { "id": "installation", "heading": { "en": "Installation Requirements", "zh": "安装要求" },
+      "body": { "en": "Proper installation is critical for structural connection performance:\n\nPre-Tensioning: Many structural connections require pre-tensioned bolts. Methods include:\n- Turn-of-nut: Rotate nut specific amount after snug-tight\n- Direct tension indicator: Use washers with protrusions that compress at target tension\n- Hydraulic tensioner: Apply tension directly with hydraulic tool\n\nInspection Requirements:\n- Verify fastener grade matches specification\n- Inspect connection geometry before bolting\n- Verify pre-tension for required connections\n- Document inspection results\n\nSnug-Tight vs Pre-Tensioned: Some connections (like single shear connections) only require snug-tight installation. Critical connections typically require pre-tensioning.\n\nDo not reuse high-strength bolts after full pre-tensioning. The bolt has stretched and may not provide consistent tension on reuse.", "zh": "适当安装对结构连接性能至关重要：预拉伸、检验要求、扭紧与预拉伸的比较、禁止重复使用高强度螺栓。" }},
+    { "id": "mining", "heading": { "en": "Mining Structure Applications", "zh": "采矿结构应用" },
+      "body": { "en": "Mining structures require special consideration:\n\nDynamic Loading: Crushers, screens, and conveyors create vibration and dynamic forces. Connections must accommodate fatigue loading. Use pre-tensioned high-strength bolts.\n\nCorrosive Environment: Copper and cobalt processing creates acidic, chemically aggressive conditions. Use hot-dip galvanized or stainless steel fasteners. Inspect connections more frequently.\n\nHeavy Equipment Loads: Ground support, conveyor structures, and crusher installations carry extreme loads. Match fastener capacity to equipment specifications.\n\nTypical mining fastener applications:\n- Conveyor gallery structures: High-strength pre-tensioned bolts\n- Crusher foundations: Anchor bolts with适当 template for alignment\n- Screen decks: High-strength bolts with lock washers\n- Pipe supports: Clamp-type connections with adequate thickness\n\nFor African mining projects, specify SABS-approved or equivalent structural fasteners to meet local code requirements.", "zh": "采矿结构需要特殊考虑：动态加载、腐蚀环境、重型设备负载。传送带结构用高强度预拉伸螺栓，破碎机基础用锚栓，筛网甲板用高强度螺栓配锁紧垫圈。" }},
+    { "id": "faq", "heading": { "en": "Frequently Asked Questions", "zh": "常见问题" },
+      "body": { "en": "What's the difference between ASTM A325 and A490 bolts?\n\nA325 bolts (minimum 825 MPa tensile strength) are most common for structural connections. A490 bolts (minimum 1035 MPa) are higher strength, used for larger diameters or when higher capacity needed. A490 should not be used in shear connections.\n\nCan I use ordinary hex bolts for structural connections?\n\nNo. Structural connections require high-strength bolts (Grade 8.8+) with controlled pre-tension. Ordinary bolts (Grade 4.6) are for non-structural connections only.\n\nWhat's the correct tightening sequence?\n\nFor multiple-bolt connections, tighten in a star pattern from center outward. This prevents uneven loading and warping of the connection.\n\nWhy do structural bolts sometimes need washers?\n\nWashers serve multiple purposes: distribution of load over connected material, protection of coated surfaces, and in some cases, indicating proper pre-tensioning.\n\nHow do I know if a connection is pre-tensioned?\n\nSpecifications and drawings indicate pre-tensioning requirements. If not specified, check applicable code requirements. Critical structures typically require pre-tensioning.\n\nWhat's the maximum bolt spacing for structural connections?\n\nPer most standards, maximum spacing is 200mm or 14 times the fastener diameter, whichever is smaller. Minimum edge distance is 1.5 times the fastener diameter.", "zh": "ASTM A325和A490螺栓有什么区别？\n\nA325（最小825 MPa抗拉强度）是最常见的结构连接用螺栓。A490（最小1035 MPa）强度更高，用于更大直径或需要更高容量的情况。\n\n我可以使用普通六角螺栓进行结构连接吗？\n\n不能。结构连接需要高强度螺栓（8.8级+）配合受控预拉伸。普通螺栓（4.6级）仅用于非结构连接。" }}
   ],
-  "cta": {
-    "en": "Request Engineering Support",
-    "zh": "请求工程支持",
-    "es": "Solicitar Soporte de Ingeniería",
-    "ar": "طلب الدعم الهندسي",
-    "fr": "Demander Support d'Ingénierie",
-    "pt": "Solicitar Suporte de Engenharia",
-    "ru": "Запросить Инженерную Поддержку",
-    "ja": "エンジニアリングサポートに連絡",
-    "de": "Engineering Support Erhalten",
-    "hi": "इंजीनियरिंग सहायता का अनुरोध करें"
-  },
-  "relatedProducts": [
-    "high-tensile-bolts",
-    "anchor-bolts",
-    "bolts-nuts"
-  ],
-  "imageAlt": "Structural Steel Connections Guide Bolted - fastener solutions",
-  "_file": "structural-steel-connections-guide",
-  "relatedArticles": [
-    {
-      "slug": "structural-steel-connection-fasteners",
-      "title": "Structural Steel Connection Fasteners: Beam, Column & Tru..."
-    },
-    {
-      "slug": "bolt-types-applications-guide",
-      "title": "Bolt Types and Applications Guide: Complete Technical Reference"
-    },
-    {
-      "slug": "high-tensile-structural-bolts-guide",
-      "title": "High-Tensile Structural Bolts Guide: A325, A490, and Grad..."
-    },
-    {
-      "slug": "anchor-bolts-selection-guide",
-      "title": "Anchor Bolts Complete Selection Guide: Types, Load Rating..."
-    }
-  ]
+  "relatedProducts": ["anchor-bolts", "bolts-nuts"],
+  "cta": { "en": "Contact TradeGo for structural fastener solutions. Email: sales@tradego-fasteners.com", "zh": "联系TradeGo获取结构紧固件解决方案。" },
+  "imageAlt": { "en": "Structural steel bolted connections", "zh": "结构钢螺栓连接" }
 }
