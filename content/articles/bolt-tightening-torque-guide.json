@@ -137,5 +137,24 @@
       "answer": "Torque wrench usage: 1) Select correct torque value for bolt grade and size; 2) Set wrench to desired value; 3) Apply smooth, steady pull - avoid jerky movements; 4) Listen/feel for click or release; 5) Never use as a breaker bar; 6) Calibrate annually. For African field conditions, use dial-type or click-type wrenches - digital requires battery management."
     }
   ],
-  "imageAlt": "Bolt Tightening and Torque Guide - fastener solutions"
+  "imageAlt": "Bolt Tightening and Torque Guide - fastener solutions",
+  "_file": "bolt-tightening-torque-guide",
+  "relatedArticles": [
+    {
+      "slug": "high-tensile-structural-bolts-guide",
+      "title": "High-Tensile Structural Bolts Guide: A325, A490, and Grad..."
+    },
+    {
+      "slug": "torque-tensioning-critical-fasteners",
+      "title": "Torque and Tensioning of Critical Fasteners: Best Practic..."
+    },
+    {
+      "slug": "concrete-screws-anchors-guide",
+      "title": "Concrete Screws & Anchors Guide: Secure Fastening to Conc..."
+    },
+    {
+      "slug": "fastener-storage-handling-guide",
+      "title": "Fastener Storage and Handling Guide: Prevent Damage and Corrosion"
+    }
+  ]
 }

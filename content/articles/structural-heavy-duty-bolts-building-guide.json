@@ -179,5 +179,24 @@
     "https://www.iso.org/standard/",
     "https://www.astm.org/standards/"
   ],
-  "updated": "2026-05-01"
+  "updated": "2026-05-01",
+  "_file": "structural-heavy-duty-bolts-building-guide",
+  "relatedArticles": [
+    {
+      "slug": "bolt-types-applications-guide",
+      "title": "Bolt Types and Applications Guide: Complete Technical Reference"
+    },
+    {
+      "slug": "high-tensile-structural-bolts-guide",
+      "title": "High-Tensile Structural Bolts Guide: A325, A490, and Grad..."
+    },
+    {
+      "slug": "structural-steel-connection-fasteners",
+      "title": "Structural Steel Connection Fasteners: Beam, Column & Tru..."
+    },
+    {
+      "slug": "anchor-bolts-foundation-guide",
+      "title": "Anchor Bolts for Foundation: Complete Guide to Structural..."
+    }
+  ]
 }

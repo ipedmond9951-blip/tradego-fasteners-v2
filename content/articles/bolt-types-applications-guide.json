@@ -107,5 +107,24 @@
       "answer": "Prevent corrosion in African climates by: 1) Using hot-dip galvanized (HDG) bolts for outdoor construction - 45-85μm zinc coating; 2) Using stainless steel 316 for mining and coastal areas with high humidity; 3) Using the correct material for the environment - avoid carbon steel without coating; 4) Regular inspection and maintenance schedule."
     }
   ],
-  "imageAlt": "Various bolt types and applications for construction"
+  "imageAlt": "Various bolt types and applications for construction",
+  "_file": "bolt-types-applications-guide",
+  "relatedArticles": [
+    {
+      "slug": "washer-types-applications-guide",
+      "title": "Washer Types and Applications Guide: Flat, Spring, Lock Washers"
+    },
+    {
+      "slug": "anchor-bolts-selection-guide",
+      "title": "Anchor Bolts Complete Selection Guide: Types, Load Rating..."
+    },
+    {
+      "slug": "high-tensile-bolts-grade-guide",
+      "title": "High Tensile Bolts Guide: Understanding Grade 8.8, 10.9 &..."
+    },
+    {
+      "slug": "high-tensile-structural-bolts-guide",
+      "title": "High-Tensile Structural Bolts Guide: A325, A490, and Grad..."
+    }
+  ]
 }

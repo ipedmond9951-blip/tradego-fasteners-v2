@@ -75,5 +75,24 @@
     "anchor-bolts",
     "bolts-nuts"
   ],
-  "imageAlt": "Structural Steel Connections Guide Bolted - fastener solutions"
+  "imageAlt": "Structural Steel Connections Guide Bolted - fastener solutions",
+  "_file": "structural-steel-connections-guide",
+  "relatedArticles": [
+    {
+      "slug": "structural-steel-connection-fasteners",
+      "title": "Structural Steel Connection Fasteners: Beam, Column & Tru..."
+    },
+    {
+      "slug": "bolt-types-applications-guide",
+      "title": "Bolt Types and Applications Guide: Complete Technical Reference"
+    },
+    {
+      "slug": "high-tensile-structural-bolts-guide",
+      "title": "High-Tensile Structural Bolts Guide: A325, A490, and Grad..."
+    },
+    {
+      "slug": "anchor-bolts-selection-guide",
+      "title": "Anchor Bolts Complete Selection Guide: Types, Load Rating..."
+    }
+  ]
 }

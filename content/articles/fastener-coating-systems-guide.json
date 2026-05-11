@@ -75,5 +75,24 @@
     "anchor-bolts",
     "washers"
   ],
-  "imageAlt": "Building construction fasteners for African projects"
+  "imageAlt": "Building construction fasteners for African projects",
+  "_file": "fastener-coating-systems-guide",
+  "relatedArticles": [
+    {
+      "slug": "fastener-material-selection-guide",
+      "title": "Fastener Material Selection Guide: Carbon Steel, Stainless, Alloy"
+    },
+    {
+      "slug": "fastener-storage-handling-guide",
+      "title": "Fastener Storage and Handling Guide: Prevent Damage and Corrosion"
+    },
+    {
+      "slug": "fastener-corrosion-resistance-guide",
+      "title": "Complete Guide to Fastener Corrosion Resistance"
+    },
+    {
+      "slug": "galvanic-corrosion-fastener-selection",
+      "title": "Galvanic Corrosion and Fastener Selection: Preventing Ele..."
+    }
+  ]
 }

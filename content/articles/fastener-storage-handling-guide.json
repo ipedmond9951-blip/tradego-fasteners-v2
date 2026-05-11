@@ -75,5 +75,24 @@
     "washers",
     "screws"
   ],
-  "imageAlt": "Factory and warehouse facilities for fastener storage and handling in Africa"
+  "imageAlt": "Factory and warehouse facilities for fastener storage and handling in Africa",
+  "_file": "fastener-storage-handling-guide",
+  "relatedArticles": [
+    {
+      "slug": "fastener-material-selection-guide",
+      "title": "Fastener Material Selection Guide: Carbon Steel, Stainless, Alloy"
+    },
+    {
+      "slug": "galvanic-corrosion-fastener-selection",
+      "title": "Galvanic Corrosion and Fastener Selection: Preventing Ele..."
+    },
+    {
+      "slug": "fastener-common-problems-solutions",
+      "title": "Fastener Common Problems and Solutions: Troubleshooting Guide"
+    },
+    {
+      "slug": "fastener-coating-systems-guide",
+      "title": "Fastener Coating Systems Guide: Zinc, Galvanizing, Dacromet"
+    }
+  ]
 }
