@@ -3,25 +3,95 @@
   "category": "Technical Guide",
   "date": "2026-04-25",
   "readTime": 8,
-  "image": "/images/articles/screws-materials.jpg",
-  "title": { "en": "Screws for Different Materials: Wood, Metal, Concrete, and Plastic", "zh": "不同材料用螺丝：木材、金属、混凝土和塑料" },
-  "description": { "en": "Complete guide to selecting the right screw for different materials. Wood screws, machine screws, concrete anchors, and plastic fasteners explained.", "zh": "不同材料选择正确螺丝的完整指南。解释木螺丝、机螺丝、混凝土锚和塑料紧固件。" },
+  "image": "/images/articles/screws-different-materials-guide.jpg",
+  "title": {
+    "en": "Screws for Different Materials: Wood, Metal, Concrete, and Plastic",
+    "zh": "不同材料用螺丝：木材、金属、混凝土和塑料"
+  },
+  "description": {
+    "en": "Complete guide to selecting the right screw for different materials. Wood screws, machine screws, concrete anchors, and plastic fasteners explained.",
+    "zh": "不同材料选择正确螺丝的完整指南。解释木螺丝、机螺丝、混凝土锚和塑料紧固件。"
+  },
   "keywords": "wood screws, machine screws, concrete anchors, self-tapping screws, material selection",
   "sections": [
-    { "id": "overview", "heading": { "en": "Matching Screw to Material", "zh": "螺丝与材料匹配" },
-      "body": { "en": "Using the correct screw for each material ensures secure fastening, prevents damage, and makes installation efficient. The wrong screw leads to stripped threads, weak joints, and failed assemblies.\n\nEvery material has specific fastener requirements: wood requires screws that grip wood fibers, metal needs threads that engage with the base material, concrete requires anchors that expand or bond, and plastic needs careful thread design to avoid cracking.\n\nTradeGo supplies the right screws for every application, with technical guidance to ensure correct selection.", "zh": "为每种材料使用正确的螺丝确保安全紧固、防止损坏并使安装高效。错误的螺丝会导致脱扣、弱接头和组装失败。" }},
-    { "id": "wood", "heading": { "en": "Wood Screws", "zh": "木螺丝" },
-      "body": { "en": "Wood screws are designed for fastening wood to wood or wood to other materials:\n\nThread Design: Coarse threads with sharp points. Threads grip wood fibers securely. Partially threaded versions available for when the unthreaded shank should pass through the first piece.\n\nHead Styles:\n- Flat head: Countersinks for flush surface\n- Round head: Appears above surface\n- Bugle head: Prevents tearing of drywall\n\nSizes: Typically #6 to #14 (3.5mm to 6.3mm diameter) and 25mm to 150mm lengths.\n\nMaterials:\n- Carbon steel: Indoor use, economical\n- Case-hardened steel: Hard shank prevents thread stripping\n- Stainless steel: Outdoor and marine environments\n- Brass: Decorative and electrical applications\n\nPilot Holes: Essential for hard woods and to prevent splitting. Use slightly smaller diameter than the screw's core (not thread) diameter.\n\nFor African woodworking and construction, coarse-thread wood screws in stainless steel are recommended for outdoor furniture and structural applications.", "zh": "木螺丝设计用于将木材固定在木材或其他材料上：螺纹设计-粗牙带尖点；头型-平头、圆头、胶合板头；材料-碳钢、不锈钢、黄铜；导孔-硬木必需，防止分裂。" }},
-    { "id": "metal", "heading": { "en": "Machine Screws and Self-Tapping Screws", "zh": "机螺丝和自攻螺丝" },
-      "body": { "en": "Machine Screws: Threaded fasteners that require pre-tapped holes or nuts. Used for metal-to-metal or metal-to-plastic assemblies.\n\nSelf-Tapping Screws: Cut their own threads when driven into metal. Two main types:\n\nThread-Forming: Displaces material as they enter (like tappits). For use in materials with good ductility. Cannot be removed without damaging the hole.\n\nThread-Cutting: Have cutting edges that remove material. Create a true thread. Can be removed and reinstalled. Better for harder materials and repeated assembly.\n\nDrilling Capacity: Self-drilling screws (TEK screws) combine drilling and fastening - no pre-drilling required for thin metal sheeting.\n\nCommon Applications:\n- Sheet metal fabrication\n- HVAC ductwork\n- Electrical enclosures\n- Automotive repair\n- Steel framing connections\n\nFor African construction, self-drilling screws are widely used for IBR roofing and steel framing. Specify appropriate length to ensure adequate thread engagement.", "zh": "机螺丝需要预攻丝孔或螺母。自攻螺丝分螺纹成型和螺纹切割两种。钻孔能力-自攻螺丝（TEK螺丝）结合钻孔和固定。非洲建筑中自攻螺丝广泛用于IBR屋顶和钢框架。" }},
-    { "id": "concrete", "heading": { "en": "Concrete and Masonry Anchors", "zh": "混凝土和砖石锚" },
-      "body": { "en": "Concrete anchors must grip base material that doesn't flex. Different anchoring principles:\n\nExpansion Anchors: sleeve anchors, wedge anchors, drop-in anchors. As bolt is tightened, the sleeve or wedge expands against the concrete walls of the hole.\n\nAdhesive Anchors: Epoxy or polyester resin bonds the anchor to the concrete. Good for near-edge installations and cracked concrete zones.\n\nConcrete Screws (Tapcons): Actually cut threads into concrete. Require pre-drilled holes. Easier removal than expansion anchors.\n\nHammer-in Anchors: Plastic or metal anchors driven into predrilled holes. Simplest anchoring method for light loads.\n\nKey Selection Factors:\n- Load requirements (tension, shear, combined)\n- Concrete condition (solid, cracked, light-weight)\n- Edge distance and spacing\n- Environmental exposure\n- Required embedment depth\n\nInstallation: Always use hammer drill with appropriate masonry bit for predrilling. Clean holes thoroughly - dust reduces anchor capacity by 30-50%.", "zh": "混凝土锚必须抓握住不会弯曲的基材：膨胀锚-螺栓紧固时套筒或楔块膨胀；粘合锚-环氧树脂或聚酯树脂将锚粘合到混凝土；混凝土螺丝-实际切割螺纹进入混凝土；安装-始终使用适当的混凝土钻头预钻孔。" }},
-    { "id": "plastic", "heading": { "en": "Fasteners for Plastic", "zh": "塑料用紧固件" },
-      "body": { "en": "Plastic materials present unique fastening challenges:\n\nThread Design: Plastic screws need careful thread design. Too coarse risks cracking, too fine reduces pull-out strength.\n\nPlastics Screws: Undercut root radius and controlled thread depth prevent stress concentration that leads to cracking.\n\nSelf-Tapping for Plastic: Type A or Type B thread form depending on plastic hardness.\n\nInsert Nuts: For repeated assembly, brass or stainless inserts installed in the plastic provide durable threads.\n\nBosses and Mating: Design plastic parts with appropriate receiving bosses. Boss diameter should be 2-3x screw diameter with adequate wall thickness.\n\nTightening Torque: Plastic fasteners require lower torque than metal. Use torque-limiting screwdrivers to prevent over-tightening and cracking.\n\nAfrican Applications: PVC electrical enclosures, plastic plumbing fixtures, automotive plastic components. Specify fasteners designed for plastic to avoid costly field failures.", "zh": "塑料材料带来独特的紧固挑战：螺纹设计-太粗有破裂风险，太细则减少拉出强度；塑料螺丝-欠切根半径和控制螺纹深度防止应力集中导致破裂；插入螺母-黄铜或不锈钢插入件在塑料中提供耐用螺纹；紧固扭矩-塑料紧固件需要比金属更低的扭矩。" }},
-    { "id": "faq", "heading": { "en": "Frequently Asked Questions", "zh": "常见问题" },
-      "body": { "en": "What's the difference between wood screws and drywall screws?\n\nDrywall screws have fine threads for holding drywall to steel or wood studs. They are brittle and can snap under stress. Wood screws have coarse threads for wood-to-wood connections and are more ductile.\n\nCan I use wood screws in metal?\n\nNo - wood screws are not designed for metal. Use machine screws or self-tapping screws for metal connections.\n\nWhat size pilot hole for wood screws?\n\nMatch the hole to the screw's core diameter (before threads). For hard woods, use a slightly smaller hole. For soft woods, the full core diameter is fine.\n\nHow do I anchor into brick instead of concrete?\n\nUse sleeve anchors or brick anchors specifically rated for masonry. Standard concrete anchors may not hold in brick. Check that your anchor is approved for the specific brick type.\n\nWhat's the best screw for outdoor decking in Africa?\n\nStainless steel (A4/316) deck screws or hot-dip galvanized screws. Coarse thread for hardwoods. Spacing should account for wood movement with humidity changes.\n\nWhy do my screws keep stripping in plastic?\n\nUsing the wrong screw - plastic requires screws designed for plastic. Also check if the plastic boss is adequately sized and if you are over-tightening.", "zh": "木螺丝和干墙螺丝有什么区别？\n\n干墙螺丝有细牙用于将干墙固定到钢架或木螺柱。木螺丝有粗牙用于木材连接，更柔软。\n\n我可以在金属中使用木螺丝吗？\n\n不能-木螺丝不是为金属设计的。使用机螺丝或自攻螺丝进行金属连接。" }}
+    {
+      "id": "overview",
+      "heading": {
+        "en": "Matching Screw to Material",
+        "zh": "螺丝与材料匹配"
+      },
+      "body": {
+        "en": "Using the correct screw for each material ensures secure fastening, prevents damage, and makes installation efficient. The wrong screw leads to stripped threads, weak joints, and failed assemblies.\n\nEvery material has specific fastener requirements: wood requires screws that grip wood fibers, metal needs threads that engage with the base material, concrete requires anchors that expand or bond, and plastic needs careful thread design to avoid cracking.\n\nTradeGo supplies the right screws for every application, with technical guidance to ensure correct selection.",
+        "zh": "为每种材料使用正确的螺丝确保安全紧固、防止损坏并使安装高效。错误的螺丝会导致脱扣、弱接头和组装失败。"
+      }
+    },
+    {
+      "id": "wood",
+      "heading": {
+        "en": "Wood Screws",
+        "zh": "木螺丝"
+      },
+      "body": {
+        "en": "Wood screws are designed for fastening wood to wood or wood to other materials:\n\nThread Design: Coarse threads with sharp points. Threads grip wood fibers securely. Partially threaded versions available for when the unthreaded shank should pass through the first piece.\n\nHead Styles:\n- Flat head: Countersinks for flush surface\n- Round head: Appears above surface\n- Bugle head: Prevents tearing of drywall\n\nSizes: Typically #6 to #14 (3.5mm to 6.3mm diameter) and 25mm to 150mm lengths.\n\nMaterials:\n- Carbon steel: Indoor use, economical\n- Case-hardened steel: Hard shank prevents thread stripping\n- Stainless steel: Outdoor and marine environments\n- Brass: Decorative and electrical applications\n\nPilot Holes: Essential for hard woods and to prevent splitting. Use slightly smaller diameter than the screw's core (not thread) diameter.\n\nFor African woodworking and construction, coarse-thread wood screws in stainless steel are recommended for outdoor furniture and structural applications.",
+        "zh": "木螺丝设计用于将木材固定在木材或其他材料上：螺纹设计-粗牙带尖点；头型-平头、圆头、胶合板头；材料-碳钢、不锈钢、黄铜；导孔-硬木必需，防止分裂。"
+      }
+    },
+    {
+      "id": "metal",
+      "heading": {
+        "en": "Machine Screws and Self-Tapping Screws",
+        "zh": "机螺丝和自攻螺丝"
+      },
+      "body": {
+        "en": "Machine Screws: Threaded fasteners that require pre-tapped holes or nuts. Used for metal-to-metal or metal-to-plastic assemblies.\n\nSelf-Tapping Screws: Cut their own threads when driven into metal. Two main types:\n\nThread-Forming: Displaces material as they enter (like tappits). For use in materials with good ductility. Cannot be removed without damaging the hole.\n\nThread-Cutting: Have cutting edges that remove material. Create a true thread. Can be removed and reinstalled. Better for harder materials and repeated assembly.\n\nDrilling Capacity: Self-drilling screws (TEK screws) combine drilling and fastening - no pre-drilling required for thin metal sheeting.\n\nCommon Applications:\n- Sheet metal fabrication\n- HVAC ductwork\n- Electrical enclosures\n- Automotive repair\n- Steel framing connections\n\nFor African construction, self-drilling screws are widely used for IBR roofing and steel framing. Specify appropriate length to ensure adequate thread engagement.",
+        "zh": "机螺丝需要预攻丝孔或螺母。自攻螺丝分螺纹成型和螺纹切割两种。钻孔能力-自攻螺丝（TEK螺丝）结合钻孔和固定。非洲建筑中自攻螺丝广泛用于IBR屋顶和钢框架。"
+      }
+    },
+    {
+      "id": "concrete",
+      "heading": {
+        "en": "Concrete and Masonry Anchors",
+        "zh": "混凝土和砖石锚"
+      },
+      "body": {
+        "en": "Concrete anchors must grip base material that doesn't flex. Different anchoring principles:\n\nExpansion Anchors: sleeve anchors, wedge anchors, drop-in anchors. As bolt is tightened, the sleeve or wedge expands against the concrete walls of the hole.\n\nAdhesive Anchors: Epoxy or polyester resin bonds the anchor to the concrete. Good for near-edge installations and cracked concrete zones.\n\nConcrete Screws (Tapcons): Actually cut threads into concrete. Require pre-drilled holes. Easier removal than expansion anchors.\n\nHammer-in Anchors: Plastic or metal anchors driven into predrilled holes. Simplest anchoring method for light loads.\n\nKey Selection Factors:\n- Load requirements (tension, shear, combined)\n- Concrete condition (solid, cracked, light-weight)\n- Edge distance and spacing\n- Environmental exposure\n- Required embedment depth\n\nInstallation: Always use hammer drill with appropriate masonry bit for predrilling. Clean holes thoroughly - dust reduces anchor capacity by 30-50%.",
+        "zh": "混凝土锚必须抓握住不会弯曲的基材：膨胀锚-螺栓紧固时套筒或楔块膨胀；粘合锚-环氧树脂或聚酯树脂将锚粘合到混凝土；混凝土螺丝-实际切割螺纹进入混凝土；安装-始终使用适当的混凝土钻头预钻孔。"
+      }
+    },
+    {
+      "id": "plastic",
+      "heading": {
+        "en": "Fasteners for Plastic",
+        "zh": "塑料用紧固件"
+      },
+      "body": {
+        "en": "Plastic materials present unique fastening challenges:\n\nThread Design: Plastic screws need careful thread design. Too coarse risks cracking, too fine reduces pull-out strength.\n\nPlastics Screws: Undercut root radius and controlled thread depth prevent stress concentration that leads to cracking.\n\nSelf-Tapping for Plastic: Type A or Type B thread form depending on plastic hardness.\n\nInsert Nuts: For repeated assembly, brass or stainless inserts installed in the plastic provide durable threads.\n\nBosses and Mating: Design plastic parts with appropriate receiving bosses. Boss diameter should be 2-3x screw diameter with adequate wall thickness.\n\nTightening Torque: Plastic fasteners require lower torque than metal. Use torque-limiting screwdrivers to prevent over-tightening and cracking.\n\nAfrican Applications: PVC electrical enclosures, plastic plumbing fixtures, automotive plastic components. Specify fasteners designed for plastic to avoid costly field failures.",
+        "zh": "塑料材料带来独特的紧固挑战：螺纹设计-太粗有破裂风险，太细则减少拉出强度；塑料螺丝-欠切根半径和控制螺纹深度防止应力集中导致破裂；插入螺母-黄铜或不锈钢插入件在塑料中提供耐用螺纹；紧固扭矩-塑料紧固件需要比金属更低的扭矩。"
+      }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题"
+      },
+      "body": {
+        "en": "What's the difference between wood screws and drywall screws?\n\nDrywall screws have fine threads for holding drywall to steel or wood studs. They are brittle and can snap under stress. Wood screws have coarse threads for wood-to-wood connections and are more ductile.\n\nCan I use wood screws in metal?\n\nNo - wood screws are not designed for metal. Use machine screws or self-tapping screws for metal connections.\n\nWhat size pilot hole for wood screws?\n\nMatch the hole to the screw's core diameter (before threads). For hard woods, use a slightly smaller hole. For soft woods, the full core diameter is fine.\n\nHow do I anchor into brick instead of concrete?\n\nUse sleeve anchors or brick anchors specifically rated for masonry. Standard concrete anchors may not hold in brick. Check that your anchor is approved for the specific brick type.\n\nWhat's the best screw for outdoor decking in Africa?\n\nStainless steel (A4/316) deck screws or hot-dip galvanized screws. Coarse thread for hardwoods. Spacing should account for wood movement with humidity changes.\n\nWhy do my screws keep stripping in plastic?\n\nUsing the wrong screw - plastic requires screws designed for plastic. Also check if the plastic boss is adequately sized and if you are over-tightening.",
+        "zh": "木螺丝和干墙螺丝有什么区别？\n\n干墙螺丝有细牙用于将干墙固定到钢架或木螺柱。木螺丝有粗牙用于木材连接，更柔软。\n\n我可以在金属中使用木螺丝吗？\n\n不能-木螺丝不是为金属设计的。使用机螺丝或自攻螺丝进行金属连接。"
+      }
+    }
   ],
-  "relatedProducts": ["drywall-screws", "self-drilling-screws", "coach-screws"],
-  "cta": { "en": "Contact TradeGo for screw selection advice. Email: sales@tradego-fasteners.com", "zh": "联系TradeGo获取螺丝选择建议。" },
-  "imageAlt": { "en": "Screws for different materials", "zh": "不同材料的螺丝" }
+  "relatedProducts": [
+    "drywall-screws",
+    "self-drilling-screws",
+    "coach-screws"
+  ],
+  "cta": {
+    "en": "Contact TradeGo for screw selection advice. Email: sales@tradego-fasteners.com",
+    "zh": "联系TradeGo获取螺丝选择建议。"
+  },
+  "imageAlt": {
+    "en": "Screws for different materials",
+    "zh": "不同材料的螺丝"
+  }
 }

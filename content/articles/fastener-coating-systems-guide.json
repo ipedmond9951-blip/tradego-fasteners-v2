@@ -3,25 +3,94 @@
   "category": "Technical Guide",
   "date": "2026-04-25",
   "readTime": 8,
-  "image": "/images/articles/coating.jpg",
-  "title": { "en": "Fastener Coating Systems Guide: Zinc, Galvanizing, Dacromet, and More", "zh": "紧固件涂层系统指南：锌、镀锌、达克罗等" },
-  "description": { "en": "Complete guide to fastener coatings: zinc plating, hot-dip galvanizing, Dacromet, GEOMET, and specialty coatings for corrosion protection.", "zh": "紧固件涂层完整指南：镀锌、热镀锌、达克罗、GEOMET及防腐专用涂层。" },
+  "image": "/images/articles/fastener-coating-systems-guide.jpg",
+  "title": {
+    "en": "Fastener Coating Systems Guide: Zinc, Galvanizing, Dacromet, and More",
+    "zh": "紧固件涂层系统指南：锌、镀锌、达克罗等"
+  },
+  "description": {
+    "en": "Complete guide to fastener coatings: zinc plating, hot-dip galvanizing, Dacromet, GEOMET, and specialty coatings for corrosion protection.",
+    "zh": "紧固件涂层完整指南：镀锌、热镀锌、达克罗、GEOMET及防腐专用涂层。"
+  },
   "keywords": "fastener coatings, zinc plating, hot-dip galvanizing, Dacromet, GEOMET, corrosion protection",
   "sections": [
-    { "id": "overview", "heading": { "en": "Coating Fundamentals", "zh": "涂层基础" },
-      "body": { "en": "Coatings protect fasteners from corrosion while providing acceptable appearance and maintaining mechanical properties. The right coating depends on environment, required lifespan, cost, and cosmetic requirements.\n\nAfrican environments range from humid tropical coastal zones to dry interior regions - each requiring different coating strategies. Understanding coating options helps select the right protection for your specific application.\n\nTradeGo offers fasteners with all standard coating options to match your environmental and budgetary requirements.", "zh": "涂层保护紧固件免受腐蚀，同时提供可接受的外观和保持机械性能。正确的涂层取决于环境、所需寿命、成本和美观要求。" }},
-    { "id": "zinc", "heading": { "en": "Zinc Plating and Electroplating", "zh": "镀锌和电镀" },
-      "body": { "en": "Zinc electroplating is the most common fastener coating:\n\nProcess: Fasteners are cleaned, then zinc is deposited electrochemically. Typical thickness: 5-15 micrometers.\n\nAppearance: Bright, metallic silver appearance. Can be passivated (clear, yellow, or black chromate).\n\nCorrosion Protection: Good for indoor and mild outdoor environments. 100-500 hours salt spray resistance depending on thickness and passivation.\n\nCost: Among the most economical coatings available.\n\nLimitations: Not suitable for harsh outdoor or marine environments. Zinc plating wears off in high-abrasion applications.\n\nTrivalent vs Hexavalent Chrome: Modern zinc plating uses trivalent chromium passivation which is more environmentally friendly than older hexavalent chrome (Cr6) treatments.\n\nFor Zimbabwe's indoor applications and controlled environments, zinc-plated fasteners provide adequate corrosion protection at minimal cost.", "zh": "镀锌是最常见的紧固件涂层：工艺-电化学沉积5-15微米；外观-明亮银色；防腐-室内和温和户外环境良好；成本-经济实惠；限制-不适合恶劣户外或海洋环境。" }},
-    { "id": "galvanizing", "heading": { "en": "Hot-Dip Galvanizing", "zh": "热镀锌" },
-      "body": { "en": "Hot-dip galvanizing provides superior corrosion protection:\n\nProcess: Fasteners are cleaned, then dipped in molten zinc at 450°C. The zinc metallurgically bonds to the steel, forming multiple protective layers.\n\nThickness: 40-80 micrometers typically, heavier than plating.\n\nAppearance: Matte gray spangle finish. Can be left as-is or painted.\n\nCorrosion Resistance: Excellent. 15-25 years service life in typical outdoor environments, longer in mild conditions.\n\nCost: Higher than zinc plating but lower total cost when lifecycle and maintenance are considered.\n\nAfrican Applications: Hot-dip galvanizing is recommended for outdoor construction throughout Africa. Essential for coastal areas, mining environments, and areas with high humidity.\n\nThread Considerations: Galvanizing adds thickness to threads. Use oversize taps or specify heavy thread tolerance when ordering threaded fasteners.", "zh": "热镀锌提供卓越的防腐保护：工艺-在450°C熔融锌中浸镀；厚度-40-80微米；防腐-优秀，使用寿命15-25年；非洲应用-推荐用于户外建筑，对沿海地区和采矿环境必不可少。" }},
-    { "id": "dacromet", "heading": { "en": "Dacromet and GEOMET Coatings", "zh": "达克罗和GEOMET涂层" },
-      "body": { "en": "Dacromet and GEOMET are flake-style zinc-aluminum coatings:\n\nDacromet: Water-based coating with zinc flakes and aluminum phosphate. Provides 1000+ hours salt spray resistance. Excellent high-temperature resistance (up to 300°C).\n\nGEOMET: Similar technology with slightly different chemistry. More environmentally friendly, 500-800 hours salt spray resistance.\n\nApplication: Parts are dipped or sprayed, then baked at 300°C to cure.\n\nThickness: 8-12 micrometers, thinner than HDG.\n\nAdvantages: Excellent corrosion resistance with minimal dimensional change - ideal for threaded fasteners. No hydrogen embrittlement risk (unlike electroplating).\n\nAfrican Mining Applications: Dacromet-coated fasteners are excellent for underground mining environments where humidity and chemical exposure are concerns. Also suitable for equipment subject to high operating temperatures.\n\nCost: Mid-range, more than zinc plating but less than HDG for most applications.", "zh": "达克罗和GEOMET是片状锌铝涂层：达克罗耐盐雾1000+小时，耐高温达300°C；GEOMET更环保，500-800小时盐雾抵抗；优势-防腐性能优异，尺寸变化最小，适合螺纹紧固件；非洲采矿应用-达克罗涂层紧固件适合地下采矿环境。" }},
-    { "id": "specialty", "heading": { "en": "Specialty Coatings", "zh": "专用涂层" },
-      "body": { "en": "Nylon Insert Coating: Thin polymer coating applied to threads. Provides lubrication and helps prevent loosening from vibration. Common on flange bolts.\n\nPhosphate Coating: Manganese or zinc phosphate treatment. Good paint preparation surface and provides mild corrosion resistance. Often used as base for oil coating.\n\nBlack Oxide: Chemical conversion coating producing dark appearance. Minimal corrosion protection - use indoors only.\n\nPaint: Can be applied over properly prepared surfaces. Color matching available. Requires maintenance and touch-up over time.\n\nXylan (PTFE): Fluoropolymer coating providing excellent chemical resistance and low friction. Used in chemical processing and food industry applications.\n\nFor most African applications, standard coatings (zinc plating, HDG, Dacromet) provide adequate protection at reasonable cost. Reserve specialty coatings for specific technical requirements.", "zh": "尼龙插入涂层-聚合物涂层防松；磷酸盐涂层-好的油漆准备表面；黑色氧化物-最小防腐保护，仅限室内使用；Paint-可涂覆在适当准备的表面上；Xylan(PTFE)-优秀耐化学性和低摩擦，用于化学加工和食品工业应用。" }},
-    { "id": "faq", "heading": { "en": "Frequently Asked Questions", "zh": "常见问题" },
-      "body": { "en": "Which coating is best for African outdoor use?\n\nHot-dip galvanizing provides the best value for general outdoor use in African climates. For harsh environments (coastal, mining), consider Dacromet or stainless steel.\n\nCan coatings be applied to stainless steel fasteners?\n\nGenerally no - stainless steel's corrosion resistance comes from the material itself, not a coating. Coatings on stainless are unnecessary and may cause issues.\n\nWhat's the difference between zinc plating and zinc flake coatings?\n\nZinc plating is smooth and thin (5-15μm). Zinc flake (Dacromet/GEOMET) is thicker (8-12μm) with a textured surface providing superior corrosion resistance.\n\nDo coated fasteners affect thread strength?\n\nCoatings add thickness that can affect thread fit. Specify oversize threads or minimum thread engagement where coating thickness is significant.\n\nCan different coated fasteners be used together?\n\nAvoid mixing significantly different metals. Coated carbon steel fasteners are generally compatible with each other.\n\nHow do I touch up damaged coating on site?\n\nZinc-rich paint for HDG damage, appropriate primer and paint for painted surfaces. Replace heavily damaged fasteners where practical.", "zh": "哪种涂层最适合非洲户外使用？\n\n热镀锌为非洲气候的一般户外使用提供最佳价值。恶劣环境（沿海、采矿）考虑达克罗或不锈钢。\n\n涂层会影响螺纹强度吗？\n\n涂层增加的厚度可能影响螺纹配合。在涂层厚度显著的地方指定加大螺纹或最小螺纹啮合。" }}
+    {
+      "id": "overview",
+      "heading": {
+        "en": "Coating Fundamentals",
+        "zh": "涂层基础"
+      },
+      "body": {
+        "en": "Coatings protect fasteners from corrosion while providing acceptable appearance and maintaining mechanical properties. The right coating depends on environment, required lifespan, cost, and cosmetic requirements.\n\nAfrican environments range from humid tropical coastal zones to dry interior regions - each requiring different coating strategies. Understanding coating options helps select the right protection for your specific application.\n\nTradeGo offers fasteners with all standard coating options to match your environmental and budgetary requirements.",
+        "zh": "涂层保护紧固件免受腐蚀，同时提供可接受的外观和保持机械性能。正确的涂层取决于环境、所需寿命、成本和美观要求。"
+      }
+    },
+    {
+      "id": "zinc",
+      "heading": {
+        "en": "Zinc Plating and Electroplating",
+        "zh": "镀锌和电镀"
+      },
+      "body": {
+        "en": "Zinc electroplating is the most common fastener coating:\n\nProcess: Fasteners are cleaned, then zinc is deposited electrochemically. Typical thickness: 5-15 micrometers.\n\nAppearance: Bright, metallic silver appearance. Can be passivated (clear, yellow, or black chromate).\n\nCorrosion Protection: Good for indoor and mild outdoor environments. 100-500 hours salt spray resistance depending on thickness and passivation.\n\nCost: Among the most economical coatings available.\n\nLimitations: Not suitable for harsh outdoor or marine environments. Zinc plating wears off in high-abrasion applications.\n\nTrivalent vs Hexavalent Chrome: Modern zinc plating uses trivalent chromium passivation which is more environmentally friendly than older hexavalent chrome (Cr6) treatments.\n\nFor Zimbabwe's indoor applications and controlled environments, zinc-plated fasteners provide adequate corrosion protection at minimal cost.",
+        "zh": "镀锌是最常见的紧固件涂层：工艺-电化学沉积5-15微米；外观-明亮银色；防腐-室内和温和户外环境良好；成本-经济实惠；限制-不适合恶劣户外或海洋环境。"
+      }
+    },
+    {
+      "id": "galvanizing",
+      "heading": {
+        "en": "Hot-Dip Galvanizing",
+        "zh": "热镀锌"
+      },
+      "body": {
+        "en": "Hot-dip galvanizing provides superior corrosion protection:\n\nProcess: Fasteners are cleaned, then dipped in molten zinc at 450°C. The zinc metallurgically bonds to the steel, forming multiple protective layers.\n\nThickness: 40-80 micrometers typically, heavier than plating.\n\nAppearance: Matte gray spangle finish. Can be left as-is or painted.\n\nCorrosion Resistance: Excellent. 15-25 years service life in typical outdoor environments, longer in mild conditions.\n\nCost: Higher than zinc plating but lower total cost when lifecycle and maintenance are considered.\n\nAfrican Applications: Hot-dip galvanizing is recommended for outdoor construction throughout Africa. Essential for coastal areas, mining environments, and areas with high humidity.\n\nThread Considerations: Galvanizing adds thickness to threads. Use oversize taps or specify heavy thread tolerance when ordering threaded fasteners.",
+        "zh": "热镀锌提供卓越的防腐保护：工艺-在450°C熔融锌中浸镀；厚度-40-80微米；防腐-优秀，使用寿命15-25年；非洲应用-推荐用于户外建筑，对沿海地区和采矿环境必不可少。"
+      }
+    },
+    {
+      "id": "dacromet",
+      "heading": {
+        "en": "Dacromet and GEOMET Coatings",
+        "zh": "达克罗和GEOMET涂层"
+      },
+      "body": {
+        "en": "Dacromet and GEOMET are flake-style zinc-aluminum coatings:\n\nDacromet: Water-based coating with zinc flakes and aluminum phosphate. Provides 1000+ hours salt spray resistance. Excellent high-temperature resistance (up to 300°C).\n\nGEOMET: Similar technology with slightly different chemistry. More environmentally friendly, 500-800 hours salt spray resistance.\n\nApplication: Parts are dipped or sprayed, then baked at 300°C to cure.\n\nThickness: 8-12 micrometers, thinner than HDG.\n\nAdvantages: Excellent corrosion resistance with minimal dimensional change - ideal for threaded fasteners. No hydrogen embrittlement risk (unlike electroplating).\n\nAfrican Mining Applications: Dacromet-coated fasteners are excellent for underground mining environments where humidity and chemical exposure are concerns. Also suitable for equipment subject to high operating temperatures.\n\nCost: Mid-range, more than zinc plating but less than HDG for most applications.",
+        "zh": "达克罗和GEOMET是片状锌铝涂层：达克罗耐盐雾1000+小时，耐高温达300°C；GEOMET更环保，500-800小时盐雾抵抗；优势-防腐性能优异，尺寸变化最小，适合螺纹紧固件；非洲采矿应用-达克罗涂层紧固件适合地下采矿环境。"
+      }
+    },
+    {
+      "id": "specialty",
+      "heading": {
+        "en": "Specialty Coatings",
+        "zh": "专用涂层"
+      },
+      "body": {
+        "en": "Nylon Insert Coating: Thin polymer coating applied to threads. Provides lubrication and helps prevent loosening from vibration. Common on flange bolts.\n\nPhosphate Coating: Manganese or zinc phosphate treatment. Good paint preparation surface and provides mild corrosion resistance. Often used as base for oil coating.\n\nBlack Oxide: Chemical conversion coating producing dark appearance. Minimal corrosion protection - use indoors only.\n\nPaint: Can be applied over properly prepared surfaces. Color matching available. Requires maintenance and touch-up over time.\n\nXylan (PTFE): Fluoropolymer coating providing excellent chemical resistance and low friction. Used in chemical processing and food industry applications.\n\nFor most African applications, standard coatings (zinc plating, HDG, Dacromet) provide adequate protection at reasonable cost. Reserve specialty coatings for specific technical requirements.",
+        "zh": "尼龙插入涂层-聚合物涂层防松；磷酸盐涂层-好的油漆准备表面；黑色氧化物-最小防腐保护，仅限室内使用；Paint-可涂覆在适当准备的表面上；Xylan(PTFE)-优秀耐化学性和低摩擦，用于化学加工和食品工业应用。"
+      }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题"
+      },
+      "body": {
+        "en": "Which coating is best for African outdoor use?\n\nHot-dip galvanizing provides the best value for general outdoor use in African climates. For harsh environments (coastal, mining), consider Dacromet or stainless steel.\n\nCan coatings be applied to stainless steel fasteners?\n\nGenerally no - stainless steel's corrosion resistance comes from the material itself, not a coating. Coatings on stainless are unnecessary and may cause issues.\n\nWhat's the difference between zinc plating and zinc flake coatings?\n\nZinc plating is smooth and thin (5-15μm). Zinc flake (Dacromet/GEOMET) is thicker (8-12μm) with a textured surface providing superior corrosion resistance.\n\nDo coated fasteners affect thread strength?\n\nCoatings add thickness that can affect thread fit. Specify oversize threads or minimum thread engagement where coating thickness is significant.\n\nCan different coated fasteners be used together?\n\nAvoid mixing significantly different metals. Coated carbon steel fasteners are generally compatible with each other.\n\nHow do I touch up damaged coating on site?\n\nZinc-rich paint for HDG damage, appropriate primer and paint for painted surfaces. Replace heavily damaged fasteners where practical.",
+        "zh": "哪种涂层最适合非洲户外使用？\n\n热镀锌为非洲气候的一般户外使用提供最佳价值。恶劣环境（沿海、采矿）考虑达克罗或不锈钢。\n\n涂层会影响螺纹强度吗？\n\n涂层增加的厚度可能影响螺纹配合。在涂层厚度显著的地方指定加大螺纹或最小螺纹啮合。"
+      }
+    }
   ],
-  "relatedProducts": ["bolts-nuts", "washers"],
-  "cta": { "en": "Contact TradeGo for coating consultation. Email: sales@tradego-fasteners.com", "zh": "联系TradeGo获取涂层咨询。" },
-  "imageAlt": { "en": "Fastener coating systems for corrosion protection", "zh": "防腐紧固件涂层系统" }
+  "relatedProducts": [
+    "bolts-nuts",
+    "washers"
+  ],
+  "cta": {
+    "en": "Contact TradeGo for coating consultation. Email: sales@tradego-fasteners.com",
+    "zh": "联系TradeGo获取涂层咨询。"
+  },
+  "imageAlt": {
+    "en": "Fastener coating systems for corrosion protection",
+    "zh": "防腐紧固件涂层系统"
+  }
 }

@@ -3,25 +3,91 @@
   "category": "Technical Guide",
   "date": "2026-04-25",
   "readTime": 7,
-  "image": "/images/articles/storage.jpg",
-  "title": { "en": "Fastener Storage and Handling Guide: Prevent Damage and Loss", "zh": "紧固件储存和处理指南：防止损坏和丢失" },
-  "description": { "en": "Proper fastener storage and handling prevents damage, corrosion, and loss. Guide for warehouses, workshops, and job sites.", "zh": "适当的紧固件储存和处理可防止损坏、腐蚀和丢失。" },
+  "image": "/images/articles/fastener-storage-handling-guide.jpg",
+  "title": {
+    "en": "Fastener Storage and Handling Guide: Prevent Damage and Loss",
+    "zh": "紧固件储存和处理指南：防止损坏和丢失"
+  },
+  "description": {
+    "en": "Proper fastener storage and handling prevents damage, corrosion, and loss. Guide for warehouses, workshops, and job sites.",
+    "zh": "适当的紧固件储存和处理可防止损坏、腐蚀和丢失。"
+  },
   "keywords": "fastener storage, warehouse management, corrosion prevention, inventory control",
   "sections": [
-    { "id": "overview", "heading": { "en": "Why Proper Storage Matters", "zh": "为什么适当的储存很重要" },
-      "body": { "en": "Proper fastener storage protects your investment and ensures products arrive in usable condition. Damaged or corroded fasteners cause assembly delays, quality issues, and safety hazards.\n\nCommon storage problems: moisture damage causing rust, physical damage from impacts or crushing, contamination from dust and debris, mix-ups from improper labeling, and theft or loss from poor inventory control.\n\nThese problems are preventable with proper storage practices. TradeGo helps customers establish appropriate storage procedures for their specific environments.", "zh": "适当的紧固件储存保护您的投资并确保产品以可用状态到达。" }},
-    { "id": "warehouse", "heading": { "en": "Warehouse Storage Best Practices", "zh": "仓库储存最佳实践" },
-      "body": { "en": "Effective warehouse organization:\n\nClimate Control: Maintain moderate temperature (10-30°C) and relative humidity below 60%. In tropical African climates, dehumidification may be necessary. Use desiccants in storage areas.\n\nRaised Storage: Keep fasteners off concrete floors using pallets or shelving. Concrete transfers moisture and can accelerate corrosion.\n\nOriginal Packaging: Leave fasteners in manufacturer packaging until needed. Packaging provides corrosion protection and traceability.\n\nSegmentation by Type: Organize by fastener type, size, and material. Stainless steel should be stored separately from carbon steel to prevent galvanic confusion.\n\nFirst-In-First-Out: Use older stock before newer deliveries to prevent age-related degradation.\n\nRegular Inspections: Check for signs of corrosion, moisture damage, or packaging degradation. Address problems immediately.\n\nDocumentation: Maintain inventory records including quantity, date received, and source. This enables quality追溯和 reorder planning.", "zh": "有效仓库组织：气候控制、架高储存、保持原始包装、按类型分类、先进先出、定期检查、文档记录。" }},
-    { "id": "handling", "heading": { "en": "Handling Procedures", "zh": "处理程序" },
-      "body": { "en": "Proper handling prevents damage:\n\nLift Correctly: Use proper lifting techniques for heavy boxes. Get help for loads over 25kg.\n\nNo Floor Dragging: Never drag boxes across concrete or across other packages. Use hand trucks or pallet jacks.\n\nProtect Threads: Fasteners with precision threads (like lead screws or precision bolts) require extra care. Use protective caps or wraps.\n\nClean Hands: Oil and sweat from hands accelerate corrosion. Wear gloves when handling coated or stainless fasteners.\n\nTool Inspection: Check tools before use. Damaged wrenches or sockets can round fastener heads.\n\nCorrect Torque: Use calibrated torque wrenches for critical applications. Under or over-tightening causes problems.\n\nDisposal of Damaged Stock: Don't mix damaged fasteners with good stock. Segregate and dispose of damaged items properly to prevent accidental use.", "zh": "正确处理防止损坏：适当举升、不拖地板、保护螺纹、清洁双手、检查工具、正确扭矩、处置损坏库存。" }},
-    { "id": "corrosion", "heading": { "en": "Corrosion Prevention", "zh": "防腐" },
-      "body": { "en": "Corrosion is the primary cause of fastener degradation:\n\nHumidity Control: Keep relative humidity below 60%. In humid climates, use dehumidifiers or desiccant packs.\n\nVCI Packaging: Vaport Corrosion Inhibitor papers or poly bags release protective molecules that inhibit corrosion. Effective for enclosed spaces.\n\nCoatings Inspection: Check for damage to zinc plating, galvanizing, or other coatings. Touch up minor damage with zinc-rich paint.\n\nSeparate Materials: Don't store stainless and carbon steel in direct contact. Use cardboard or plastic dividers.\n\nAvoid Standing Water: Ensure storage areas have good drainage and no standing water.\n\nRegular Rotation: Use stock regularly to prevent items sitting for extended periods.\n\nFor African coastal and mining environments, enhanced corrosion protection is essential. Use stainless steel or specialized coatings where possible.", "zh": "腐蚀是紧固件降解的主要原因。湿度控制、VCI包装、检查涂层、分离材料、避免积水、定期轮换对于防腐至关重要。" }},
-    { "id": "inventory", "heading": { "en": "Inventory Management", "zh": "库存管理" },
-      "body": { "en": "Effective inventory control prevents stockouts and overstocking:\n\nMinimum Stock Levels: Set reorder points based on usage rate. For fast-moving items like common hex bolts, maintain higher minimums.\n\nStock Cards: Keep records for each fastener type showing quantity received, quantity issued, and balance.\n\nRegular Counts: Conduct cycle counts monthly. Full inventory annually.\n\nSecure Storage: Lock valuable fastener stock (stainless steel, specialty alloys) to prevent theft.\n\nIssue Controls: Require authorization for fastener issues. Track who takes what for cost allocation and theft prevention.\n\nSupplier Relationships: Maintain relationships with reliable suppliers for quick restocking. TradeGo offers fast turnaround on standard orders.", "zh": "有效库存控制防止缺货和积压：设置最低库存、保持库存卡、定期盘点、安全储存、发放控制、供应商关系。" }},
-    { "id": "faq", "heading": { "en": "Frequently Asked Questions", "zh": "常见问题" },
-      "body": { "en": "How long can fasteners be stored?\n\nProperly stored in original packaging in controlled conditions, most fasteners have an indefinite shelf life. Coated fasteners (zinc-plated, galvanized) may show gradual coating degradation over years but remain functional.\n\nWhat's the best storage for stainless steel?\n\nStore indoors in dry conditions. Stainless steel is corrosion-resistant but not immune to staining in humid or chloride-rich environments. Keep in original packaging until use.\n\nCan I store different fastener types together?\n\nGenerally yes, but segregate by material to prevent galvanic concerns and by size to prevent mix-ups. Keep stainless separate from carbon steel.\n\nHow do I prevent thread damage during storage?\n\nKeep fasteners in original packaging or use protective caps. Don't over-pack containers causing pressure on threads. Handle precision fasteners with extra care.\n\nWhat causes white staining on zinc-plated fasteners?\n\nWhite staining is typically zinc oxide or zinc hydroxide from moisture exposure. It doesn't significantly affect fastener performance. Heavy white buildup may indicate extended moisture exposure.\n\nHow do I reclaim partially corroded fasteners?\n\nLight surface corrosion can be wire-brushed off. Inspect threads for damage. Heavily corroded fasteners should be replaced, especially for critical applications.", "zh": "紧固件可以储存多久？\n\n在原始包装中适当储存在受控条件下，大多数紧固件具有无限保质期。\n\n不锈钢的最佳储存方式是什么？\n\n储存在室内干燥条件。不锈钢耐腐蚀但并非完全不受潮湿或含氯环境的影响。" }}
+    {
+      "id": "overview",
+      "heading": {
+        "en": "Why Proper Storage Matters",
+        "zh": "为什么适当的储存很重要"
+      },
+      "body": {
+        "en": "Proper fastener storage protects your investment and ensures products arrive in usable condition. Damaged or corroded fasteners cause assembly delays, quality issues, and safety hazards.\n\nCommon storage problems: moisture damage causing rust, physical damage from impacts or crushing, contamination from dust and debris, mix-ups from improper labeling, and theft or loss from poor inventory control.\n\nThese problems are preventable with proper storage practices. TradeGo helps customers establish appropriate storage procedures for their specific environments.",
+        "zh": "适当的紧固件储存保护您的投资并确保产品以可用状态到达。"
+      }
+    },
+    {
+      "id": "warehouse",
+      "heading": {
+        "en": "Warehouse Storage Best Practices",
+        "zh": "仓库储存最佳实践"
+      },
+      "body": {
+        "en": "Effective warehouse organization:\n\nClimate Control: Maintain moderate temperature (10-30°C) and relative humidity below 60%. In tropical African climates, dehumidification may be necessary. Use desiccants in storage areas.\n\nRaised Storage: Keep fasteners off concrete floors using pallets or shelving. Concrete transfers moisture and can accelerate corrosion.\n\nOriginal Packaging: Leave fasteners in manufacturer packaging until needed. Packaging provides corrosion protection and traceability.\n\nSegmentation by Type: Organize by fastener type, size, and material. Stainless steel should be stored separately from carbon steel to prevent galvanic confusion.\n\nFirst-In-First-Out: Use older stock before newer deliveries to prevent age-related degradation.\n\nRegular Inspections: Check for signs of corrosion, moisture damage, or packaging degradation. Address problems immediately.\n\nDocumentation: Maintain inventory records including quantity, date received, and source. This enables quality追溯和 reorder planning.",
+        "zh": "有效仓库组织：气候控制、架高储存、保持原始包装、按类型分类、先进先出、定期检查、文档记录。"
+      }
+    },
+    {
+      "id": "handling",
+      "heading": {
+        "en": "Handling Procedures",
+        "zh": "处理程序"
+      },
+      "body": {
+        "en": "Proper handling prevents damage:\n\nLift Correctly: Use proper lifting techniques for heavy boxes. Get help for loads over 25kg.\n\nNo Floor Dragging: Never drag boxes across concrete or across other packages. Use hand trucks or pallet jacks.\n\nProtect Threads: Fasteners with precision threads (like lead screws or precision bolts) require extra care. Use protective caps or wraps.\n\nClean Hands: Oil and sweat from hands accelerate corrosion. Wear gloves when handling coated or stainless fasteners.\n\nTool Inspection: Check tools before use. Damaged wrenches or sockets can round fastener heads.\n\nCorrect Torque: Use calibrated torque wrenches for critical applications. Under or over-tightening causes problems.\n\nDisposal of Damaged Stock: Don't mix damaged fasteners with good stock. Segregate and dispose of damaged items properly to prevent accidental use.",
+        "zh": "正确处理防止损坏：适当举升、不拖地板、保护螺纹、清洁双手、检查工具、正确扭矩、处置损坏库存。"
+      }
+    },
+    {
+      "id": "corrosion",
+      "heading": {
+        "en": "Corrosion Prevention",
+        "zh": "防腐"
+      },
+      "body": {
+        "en": "Corrosion is the primary cause of fastener degradation:\n\nHumidity Control: Keep relative humidity below 60%. In humid climates, use dehumidifiers or desiccant packs.\n\nVCI Packaging: Vaport Corrosion Inhibitor papers or poly bags release protective molecules that inhibit corrosion. Effective for enclosed spaces.\n\nCoatings Inspection: Check for damage to zinc plating, galvanizing, or other coatings. Touch up minor damage with zinc-rich paint.\n\nSeparate Materials: Don't store stainless and carbon steel in direct contact. Use cardboard or plastic dividers.\n\nAvoid Standing Water: Ensure storage areas have good drainage and no standing water.\n\nRegular Rotation: Use stock regularly to prevent items sitting for extended periods.\n\nFor African coastal and mining environments, enhanced corrosion protection is essential. Use stainless steel or specialized coatings where possible.",
+        "zh": "腐蚀是紧固件降解的主要原因。湿度控制、VCI包装、检查涂层、分离材料、避免积水、定期轮换对于防腐至关重要。"
+      }
+    },
+    {
+      "id": "inventory",
+      "heading": {
+        "en": "Inventory Management",
+        "zh": "库存管理"
+      },
+      "body": {
+        "en": "Effective inventory control prevents stockouts and overstocking:\n\nMinimum Stock Levels: Set reorder points based on usage rate. For fast-moving items like common hex bolts, maintain higher minimums.\n\nStock Cards: Keep records for each fastener type showing quantity received, quantity issued, and balance.\n\nRegular Counts: Conduct cycle counts monthly. Full inventory annually.\n\nSecure Storage: Lock valuable fastener stock (stainless steel, specialty alloys) to prevent theft.\n\nIssue Controls: Require authorization for fastener issues. Track who takes what for cost allocation and theft prevention.\n\nSupplier Relationships: Maintain relationships with reliable suppliers for quick restocking. TradeGo offers fast turnaround on standard orders.",
+        "zh": "有效库存控制防止缺货和积压：设置最低库存、保持库存卡、定期盘点、安全储存、发放控制、供应商关系。"
+      }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题"
+      },
+      "body": {
+        "en": "How long can fasteners be stored?\n\nProperly stored in original packaging in controlled conditions, most fasteners have an indefinite shelf life. Coated fasteners (zinc-plated, galvanized) may show gradual coating degradation over years but remain functional.\n\nWhat's the best storage for stainless steel?\n\nStore indoors in dry conditions. Stainless steel is corrosion-resistant but not immune to staining in humid or chloride-rich environments. Keep in original packaging until use.\n\nCan I store different fastener types together?\n\nGenerally yes, but segregate by material to prevent galvanic concerns and by size to prevent mix-ups. Keep stainless separate from carbon steel.\n\nHow do I prevent thread damage during storage?\n\nKeep fasteners in original packaging or use protective caps. Don't over-pack containers causing pressure on threads. Handle precision fasteners with extra care.\n\nWhat causes white staining on zinc-plated fasteners?\n\nWhite staining is typically zinc oxide or zinc hydroxide from moisture exposure. It doesn't significantly affect fastener performance. Heavy white buildup may indicate extended moisture exposure.\n\nHow do I reclaim partially corroded fasteners?\n\nLight surface corrosion can be wire-brushed off. Inspect threads for damage. Heavily corroded fasteners should be replaced, especially for critical applications.",
+        "zh": "紧固件可以储存多久？\n\n在原始包装中适当储存在受控条件下，大多数紧固件具有无限保质期。\n\n不锈钢的最佳储存方式是什么？\n\n储存在室内干燥条件。不锈钢耐腐蚀但并非完全不受潮湿或含氯环境的影响。"
+      }
+    }
   ],
   "relatedProducts": [],
-  "cta": { "en": "Contact TradeGo for fastener supplies and storage consultation. Email: sales@tradego-fasteners.com", "zh": "联系TradeGo获取紧固件供应和储存咨询。" },
-  "imageAlt": { "en": "Proper fastener storage warehouse organization", "zh": "适当的紧固件仓库储存组织" }
+  "cta": {
+    "en": "Contact TradeGo for fastener supplies and storage consultation. Email: sales@tradego-fasteners.com",
+    "zh": "联系TradeGo获取紧固件供应和储存咨询。"
+  },
+  "imageAlt": {
+    "en": "Proper fastener storage warehouse organization",
+    "zh": "适当的紧固件仓库储存组织"
+  }
 }
