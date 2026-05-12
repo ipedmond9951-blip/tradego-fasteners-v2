@@ -235,3 +235,37 @@ Call log:
 [2026-05-11 09:41:58] ✅ GEO AI评估完成
 [2026-05-11 09:41:58] 📋 建议已保存到 /Users/zhangming/workspace/tradego-fasteners-v2/logs/geo-ai-review.log
 [2026-05-11 09:41:58] ==========================================
+[2026-05-12 09:04:05] ==========================================
+[2026-05-12 09:04:05] 🌍 GEO AI评估开始
+[2026-05-12 09:04:05] ==========================================
+[2026-05-12 09:04:05] 🤖 正在调用AI助手评估GEO...
+[Grok] 开始调用...
+🤔 正在问Grok: "我有一个外贸B2B网站tradego-fasteners.com，主营非洲市场（津巴布韦）的紧固件（..."
+📄 打开Grok页面...
+✅ 找到输入框: div[contenteditable="true"]
+✅ 已发送，等待回复...
+=== 🤖 Grok 回复 ===
+Citations & sources: Relies on internal claims; stronger external validation (reviews, third-party mentions) would help.
+Overall GEO Score: 7.5–8/10 for this niche. The content is highly citable, but technical/schema gaps reduce the likelihood of top-tier AI recommendations compared to fully optimized competitors.
+3–5 Most Critical Optimization Suggestions (Prioritized)
+Implement Comprehensive JSON-LD Structured Data (Highest Priority)
+Add Organization schema on all pages (with name, logo, address in China, contact, sameAs links, certifications, founding date ~2012, areaServed: Africa/Zimbabwe).
+On product/Zimbabwe pages: Use Product + Offer schema for key items (hex bolts, drywall screws, IBR nails) with sku, mpn, brand, specifications (size, grade, standard, material), price (if available), availability, shippingDetails.
+Add FAQPage schema to the Zimbabwe FAQ section and HowTo/Article schema to technical guides.
+Actionable: Use Schema.org generator or Google’s Structured Data Markup Helper. Validate with Google Rich Results Test + Schema Markup Validator. Update dynamically if possible. This alone can significantly boost AI extractability and trust.⁠Digidop
+Strengthen E-E-A-T with Explicit Author & Review Signals
+Add Person schema for key team members or "factory expert" with credentials (e.g., years in Africa exports).
+Embed more verifiable testimonials/reviews with Review + Product schema (aggregateRating). Include dateModified on pages and regularly refresh content (e.g., 2026 market updates).
+Actionable: Create a dedicated "About Our Africa Team" or "Quality Assurance" page with bios. Collect and display Google/Trustpilot-style reviews if available, or verified customer quotes with project names/dates.
+Enhance Content Depth & AI-Friendly Formatting on Key Pages
+Expand the Zimbabwe page with more comparison tables (e.g., vs. local suppliers, cost savings), Zimbabwe-specific procurement guides, and stats (import volumes, common challenges).
+Use more direct, concise answers at the top of sections (e.g., "Best hex bolts for Zimbabwe mining: Grade 8.8/10.9 hot-dip galvanized...").
+Improve Technical Accessibility & Entity Consistency
+Add internal linking between Africa country pages and product specs.
+Actionable: Audit with Screaming Frog or similar; submit sitemap and monitor
+在 Grok 回答就绪时接收通知
+开启
+的建议。
+[2026-05-12 09:10:06] ✅ GEO AI评估完成
+[2026-05-12 09:10:06] 📋 建议已保存到 /Users/zhangming/workspace/tradego-fasteners-v2/logs/geo-ai-review.log
+[2026-05-12 09:10:06] ==========================================
