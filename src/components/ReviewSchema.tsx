@@ -16,10 +16,25 @@ export default function ReviewSchema({ locale = 'en' }: ReviewSchemaProps) {
     worstRating: '1',
   }
 
+  // itemReviewed: required by Google for Review schema
+  const itemReviewed = {
+    '@type': 'Organization',
+    name: 'TradeGo Fasteners',
+    url: 'https://www.tradego-fasteners.com',
+    image: 'https://www.tradego-fasteners.com/images/logo.png',
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.8',
+      reviewCount: '156',
+      bestRating: '5',
+    },
+  }
+
   // Individual reviews
   const reviews = [
     {
       '@type': 'Review',
+      itemReviewed,
       reviewRating: {
         '@type': 'Rating',
         ratingValue: '5',
@@ -30,13 +45,14 @@ export default function ReviewSchema({ locale = 'en' }: ReviewSchemaProps) {
         name: 'James M.',
         address: 'Johannesburg, South Africa',
       },
-      reviewBody: locale === 'zh' 
+      reviewBody: locale === 'zh'
         ? '质量非常好，交货准时。已经是第三次订购了。'
         : 'Excellent quality and fast delivery. This is our third order and we are very satisfied.',
       datePublished: '2026-03-15',
     },
     {
       '@type': 'Review',
+      itemReviewed,
       reviewRating: {
         '@type': 'Rating',
         ratingValue: '5',
@@ -54,6 +70,7 @@ export default function ReviewSchema({ locale = 'en' }: ReviewSchemaProps) {
     },
     {
       '@type': 'Review',
+      itemReviewed,
       reviewRating: {
         '@type': 'Rating',
         ratingValue: '4',
