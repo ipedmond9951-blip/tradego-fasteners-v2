@@ -1,7 +1,7 @@
 {
   "slug": "bolt-tightening-torque-guide",
   "category": "Technical Guide",
-  "date": "2026-04-24",
+  "date": "2026-05-13",
   "readTime": 8,
   "image": "/images/articles/bolt-tightening-torque-guide.jpg",
   "title": {
@@ -95,6 +95,33 @@
       },
       "body": {
         "en": "Different methods for achieving proper preload:\n\n1. Torque Wrench Method:\n- Most common method\n- Direct torque measurement\n- Accuracy ±10-20%\n- Requires calibrated wrench\n\n2. Angle Turn Method:\n- Turn bolt specific angle after snug\n- More accurate than torque\n- Requires experienced operator\n- Common: 60-90° after snug\n\n3. Hydraulic Tensioner:\n- Uses hydraulic pressure\n- Very accurate preload\n- Used for large <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a> (M36+)\n- Expensive equipment\n\n4. Combined Method:\n- Torque to 50-60% of target\n- Angle turn remaining amount\n- Best accuracy and repeatability"
+      }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquemment Posées",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig Gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "body": {
+        "en": "**What torque should I use for M10 bolt Grade 8.8?**\nFor M10 Grade 8.8 hex bolts, the recommended torque is 50-60 Nm (37-44 ft-lb). For Grade 10.9, use 70-80 Nm (52-59 ft-lb). Always refer to your specific application requirements.\n\n**What is the difference between preload and torque?**\nTorque is the rotational force applied to tighten a bolt. Preload (clamp force) is the tension created in the bolt when tightened. The goal is to achieve correct preload; torque is just the method to reach it.\n\n**Can torque specification bolts be reused after loosening?**\nGenerally no. Once a bolt has been torqued beyond its yield point and then loosened, it may have been permanently stretched. Replace with new bolts for critical structural applications.\n\n**What is the nut factor (K) in torque calculation?**\nThe nut factor K accounts for friction in the torque-tension relationship. K = 0.2 is commonly used for plain (unlubricated) bolts. For lubricated bolts, K may be 0.15-0.18. Always check with your specific coating/lubrication condition.\n\n**How do I know if a bolt is properly tightened?**\nUse a calibrated torque wrench set to the correct specification. For critical joints, use direct tension indicators (washers with raised bumps) or ultrasonic bolt stretch measurement.\n\n**What is the typical preload requirement for bolted joints?**\nFor standard applications, target 60-75% of the bolt's proof load as preload. This provides reliable clamping while keeping bolt stress within safe limits.",
+        "zh": "[FAQ content for bolt-tightening-torque-guide in Chinese]",
+        "es": "[FAQ content for bolt-tightening-torque-guide in Spanish]",
+        "ar": "[FAQ content for bolt-tightening-torque-guide in Arabic]",
+        "fr": "[FAQ content for bolt-tightening-torque-guide in French]",
+        "pt": "[FAQ content for bolt-tightening-torque-guide in Portuguese]",
+        "ru": "[FAQ content for bolt-tightening-torque-guide in Russian]",
+        "ja": "[FAQ content for bolt-tightening-torque-guide in Japanese]",
+        "de": "[FAQ content for bolt-tightening-torque-guide in German]",
+        "hi": "[FAQ content for bolt-tightening-torque-guide in Hindi]"
       }
     }
   ],
