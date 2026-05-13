@@ -269,3 +269,104 @@ Actionable: Audit with Screaming Frog or similar; submit sitemap and monitor
 [2026-05-12 09:10:06] ✅ GEO AI评估完成
 [2026-05-12 09:10:06] 📋 建议已保存到 /Users/zhangming/workspace/tradego-fasteners-v2/logs/geo-ai-review.log
 [2026-05-12 09:10:06] ==========================================
+[2026-05-13 09:12:26] ==========================================
+[2026-05-13 09:12:26] 🌍 GEO AI评估开始
+[2026-05-13 09:12:26] ==========================================
+[2026-05-13 09:12:26] 🤖 正在调用AI助手评估GEO...
+⚠️ Chrome正在运行，但调试端口未开启
+   重启Chrome...
+🚀 启动Chrome调试模式 (端口 18800)...
+   Chrome已启动 (后台运行)
+⏳ 等待Chrome启动...
+✅ Chrome调试端口 18800 已就绪！
+
+[Grok] 开始调用...
+🤔 正在问Grok: "我有一个外贸B2B网站tradego-fasteners.com，主营非洲市场（津巴布韦）的紧固件（..."
+📄 打开Grok页面...
+[2026-05-13 09:12:37] ==========================================
+[2026-05-13 09:12:37] 🌍 GEO AI评估开始
+[2026-05-13 09:12:37] ==========================================
+[2026-05-13 09:12:37] 🤖 正在调用AI助手评估GEO...
+[Grok] 开始调用...
+🤔 正在问Grok: "我有一个外贸B2B网站tradego-fasteners.com，主营非洲市场（津巴布韦）的紧固件（..."
+📍 找到已有页面: https://grok.com/
+✅ 找到输入框: textarea
+✅ 找到输入框: div[contenteditable="true"]
+✅ 已发送，等待回复...
+=== 🤖 Grok 回复 ===
+[Grok错误] locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('textarea').first()
+    - locator resolved to <textarea tabindex="-1" aria-hidden="true"></textarea>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    54 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+=== 🤖 Grok 回复 ===
+E-E-A-T Signals: Clear author/company info, certifications (ISO, SABS), years of experience (12+ for Africa), verifiable contact details, and trust signals visible in plain text.⁠Uschamber
+Content Standards
+Direct, Extractable Answers: Lead with concise answers in the first 40–80 words. Use scannable formats: question-based H2/H3 headings (e.g., "Who is a reliable steel bolts supplier for Zimbabwe?"), bullet lists, tables (specs, pricing, shipping times to Harare), and numbered steps.⁠Directiveconsulting
+Conversational & Specific Language: Target natural queries with specifics (e.g., "SABS-compliant fasteners for Zimbabwe construction", sea freight timelines to Beira/Durban ports, corrosion resistance for African climates). Include statistics, case studies, and comparisons.⁠LinkedIn
+Topical Authority: Create multiple in-depth pages (market guides for Southern Africa/Zimbabwe, product categories, technical guides, FAQs). Demonstrate expertise with original insights, not thin sales copy.
+Authority & Citations: Reference standards (ISO, SABS), include verifiable data, testimonials, and build external mentions (PR, industry directories, X/LinkedIn for Grok visibility).
+AI models favor chunkable, self-contained sections that can be directly quoted or synthesized.⁠321webmarketing
+2. Specific Suggestions for https://tradego-fasteners.com
+Your site already has good foundations (Africa-focused content, country guides for Zimbabwe/Southern Africa, certifications mentioned, product emphasis). It shows effort in regional relevance. Here are prioritized improvements for better AI citation on queries like "fasteners supplier Africa" or "steel bolts Zimbabwe":
+Add/Enhance Schema: Ensure every product and industry page has full Product + FAQ schema. Add LocalBusiness or Organization schema highlighting Zimbabwe/Africa exports.
+Create Targeted Content:
+More comparison tables (e.g., vs. local suppliers) and buyer FAQs.
+Technical Fixes: Confirm fast global load times (especially from Africa). Add more internal links between regional guides.
+Authority Building: Publish more original market reports (e.g., 2026 Zimbabwe fastener demand), get listed in African B2B directories, and earn mentions on industry sites/Reddit/YouTube.
+Monitor & Iterate: Test queries in different AIs regularly. Tools like Brandi or similar GEO platforms can track visibility.
+Implementing these can significantly boost the chance of your site being cited as a reliable source. Focus first on schema + direct-answer content for quick wins. If you share specific page URLs or current schema, I can give more precise feedback. Let me know how else I can help optimize!
+43 sources
+Implement llms.txt file
+LLM visibility tools
+Remove citation tags
+[2026-05-13 09:13:50] ==========================================
+[2026-05-13 09:13:50] 🌍 GEO AI评估开始
+[2026-05-13 09:13:50] ==========================================
+[2026-05-13 09:13:50] 🤖 正在调用AI助手评估GEO...
+[Grok] 开始调用...
+🤔 正在问Grok: "我有一个外贸B2B网站tradego-fasteners.com，主营非洲市场（津巴布韦）的紧固件（..."
+📍 找到已有页面: https://grok.com/c/9cd8a3d2-0a5c-4d92-9252-425ad899419d?rid=01a038de-e522-403a-9997-e267e1e62315
+✅ 找到输入框: div[contenteditable="true"]
+✅ 已发送，等待回复...
+=== 🤖 Grok 回复 ===
+发布“About Us”页面，列出工厂照片、认证证书扫描件、出口记录。
+获取更多外部背书（African B2B 目录、LinkedIn、行业论坛）。
+多语言优化：继续保持英文 + 葡萄牙文等，针对南非/莫桑比克等市场。
+3. 技术优化
+AI 爬虫友好：
+robots.txt 允许 GPTBot、Google-Extended、ClaudeBot、Perplexity 等。
+根目录添加 llms.txt 文件，明确说明网站可被 AI 使用并引用。
+确保核心内容是服务器渲染（非纯 JS 加载）。
+性能：从非洲访问速度优化（CDN、图片压缩），移动端体验。
+4. 外部推广（提升被 AI 引用的概率）
+在 LinkedIn、行业论坛、African business directories 发布内容。
+争取被 YouTube、Reddit、行业博客提及。
+定期更新内容（保持 freshness）。
+您的网站基础已经不错：非洲定位清晰、技术指南详细、表格多、SABS 突出，这是很大优势。重点补上 Schema + 专用 Zimbabwe 页面 + 顶部直接答案，就能大幅提升被 AI 推荐的几率。
+需要我帮您：
+撰写具体 Schema 代码示例？
+起草 Zimbabwe 专用页面大纲或文案？
+检查某个具体页面？
+随时告诉我下一步重点，我可以给出更精确的建议！
+19 sources
+SABS Certification Details
+[2026-05-13 13:15:02] ✅ GEO AI评估完成
+[2026-05-13 13:15:02] 📋 建议已保存到 /Users/zhangming/workspace/tradego-fasteners-v2/logs/geo-ai-review.log
+[2026-05-13 13:15:02] ==========================================
+[2026-05-13 13:15:02] ✅ GEO AI评估完成
+[2026-05-13 13:15:02] 📋 建议已保存到 /Users/zhangming/workspace/tradego-fasteners-v2/logs/geo-ai-review.log
+[2026-05-13 13:15:02] ==========================================
