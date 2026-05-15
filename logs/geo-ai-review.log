@@ -373,3 +373,33 @@ SABS Certification Details
 [2026-05-13 19:36:56] ✅ GEO AI评估完成
 [2026-05-13 19:36:56] 📋 建议已保存到 /Users/zhangming/workspace/tradego-fasteners-v2/logs/geo-ai-review.log
 [2026-05-13 19:36:56] ==========================================
+[2026-05-15 09:04:06] ==========================================
+[2026-05-15 09:04:06] 🌍 GEO AI评估开始
+[2026-05-15 09:04:06] ==========================================
+[2026-05-15 09:04:06] 🤖 正在调用AI助手评估GEO...
+[Grok] 开始调用...
+🤔 正在问Grok: "我有一个外贸B2B网站tradego-fasteners.com，主营非洲市场（津巴布韦）的紧固件（..."
+📍 找到已有页面: https://grok.com/c/96f00787-88f1-4bda-80b0-67f911e9ff79?rid=a629f254-d20e-41f1-9abf-c8e32e5e8265
+✅ 找到输入框: div[contenteditable="true"]
+✅ 已发送，等待回复...
+=== 🤖 Grok 回复 ===
+在每页顶部增加 “Direct Answer” 区块（高优先级）
+用 50-80 字简洁段落直接回答用户/AI 可能的问题。
+Zimbabwe 专页示例：
+放在 H1 下方，用粗体或独立段落突出。
+加强产品与地域的 Topic Cluster 建设（中高优先级）
+加强内链：从首页 Pillar Page 指向 Zimbabwe 专页和具体产品页。
+在 Zimbabwe 专页增加更多独特数据（如 2025-2026 年具体项目案例、脱敏出货量、推荐规格表）。
+增强 E-E-A-T 可验证信号（中优先级）
+添加工厂实拍、集装箱发货照片、证书扫描件（带 alt text）。
+将 testimonial 结构化为 Review schema。
+在 About/ Footer 明确 NAP 和非洲出口历史。
+考虑在 Africa2Trust、LinkedIn 等平台增加一致品牌信息，提升多源权威。
+持续内容更新与多语言一致性（持续优化）
+实施前 3 条后，您的网站在 AI 搜索结果中被推荐引用的概率可提升 50% 以上，尤其在地域精准查询中能脱颖而出。
+需要我帮您生成具体的 Schema JSON-LD 代码 或 Direct Answer 文案 吗？随时说！
+1 sources
+Schema JSON-LD Implementation
+Perplexity API Integration
+Generate JSON-LD Code
+请给出
