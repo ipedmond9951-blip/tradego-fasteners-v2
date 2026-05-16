@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   }
 
   const title = (article.title as Record<string, string>)[locale] || (article.title as Record<string, string>).en
-  const desc = article.description[locale] || article.description.en
+  const desc = article.metaDescription?.[locale] || article.metaDescription?.en || article.description[locale] || article.description.en
 
   return {
     title: `${title} | TradeGo Fasteners`,
