@@ -5,8 +5,8 @@
   "readTime": 8,
   "image": "/images/products/concrete-screws.jpg",
   "title": {
-    "en": "Concrete Anchors Selection Guide: Wedge, Sleeve, Drop-in Anchors",
-    "zh": "混凝土锚栓选型指南：楔形、套筒、膨胀螺栓",
+    "en": "Concrete Anchors Selection: Wedge, Sleeve & Drop-in",
+    "zh": "混凝土锚栓选型：楔形、套筒和植入式",
     "es": "Guía de Selección de Anclajes para Hormigón: Cuña, Manguito, Colapsables",
     "ar": "دليل اختيار مرساة الخرسانة: إسفين، جلب، مسامير التوسع",
     "fr": "Guide de Sélection des Ancrages pour Béton: Coin, Manchon, Chute",
@@ -120,6 +120,59 @@
     {
       "slug": "fastener-material-selection-guide",
       "title": "Fastener Material Selection Guide: Carbon Steel, Stainless, Alloy"
+    }
+  ],
+  "meta_description": "Concrete anchors selection guide: wedge anchors, sleeve anchors, drop-in anchors & more. ISO 9001 manufacturer. Technical specs, load data & Africa export.",
+  "faqItems": [
+    {
+      "q": {
+        "en": "What is the difference between wedge anchors and sleeve anchors?",
+        "zh": "楔形锚栓和套筒锚栓有什么区别？"
+      },
+      "a": {
+        "en": "Wedge anchors offer highest load capacity for solid concrete. Sleeve anchors work in concrete, brick, and hollow blocks but with lower capacity. Choose based on substrate and load requirements.",
+        "zh": "楔形锚栓为实心混凝土提供最高承载能力。套筒锚栓适用于混凝土、砖块和空心砌块，但承载能力较低。根据基材和负载要求选择。"
+      }
+    },
+    {
+      "q": {
+        "en": "What size concrete anchor do I need for medium-duty applications?",
+        "zh": "中等强度应用需要多大尺寸的混凝土锚栓？"
+      },
+      "a": {
+        "en": "For medium-duty (up to 500kg load), use 3/8\" or 10mm wedge anchors. For heavy-duty (500kg+), use 1/2\" or 12mm+ anchors. Always check manufacturer's load tables.",
+        "zh": "对于中等强度(最高500kg负载)，使用3/8\"或10mm楔形锚栓。对于重型(500kg+)，使用1/2\"或12mm+锚栓。始终查看制造商的负载表。"
+      }
+    },
+    {
+      "q": {
+        "en": "How deep should concrete anchors be installed?",
+        "zh": "混凝土锚栓应该安装多深？"
+      },
+      "a": {
+        "en": "Minimum embedment is typically 1-1/2 to 2 times the anchor diameter. A 1/2\" anchor should embed at least 1\" into concrete. Follow manufacturer specifications for specific products.",
+        "zh": "最小埋入深度通常为锚栓直径的1-1/2到2倍。1/2\"锚栓应至少埋入混凝土1\"。请遵循特定产品的制造商规格。"
+      }
+    },
+    {
+      "q": {
+        "en": "What concrete strength is required for anchor installation?",
+        "zh": "锚栓安装需要什么混凝土强度？"
+      },
+      "a": {
+        "en": "Most anchors require minimum 2,000 PSI (13.8 MPa) concrete. High-strength anchors need 3,000+ PSI (20.7 MPa). Never install in cracked concrete without engineering approval.",
+        "zh": "大多数锚栓需要最低2,000 PSI(13.8 MPa)混凝土。高强度锚栓需要3,000+ PSI(20.7 MPa)。未经工程批准，切勿在开裂混凝土中安装。"
+      }
+    },
+    {
+      "q": {
+        "en": "Do you supply concrete anchors to African construction projects?",
+        "zh": "您是否为非洲建筑项目供应混凝土锚栓？"
+      },
+      "a": {
+        "en": "Yes, we supply wedge anchors, sleeve anchors, and drop-in anchors to Africa. Available in zinc-plated, hot-dip galvanized, and stainless steel 316. SABS certified products available.",
+        "zh": "是的，我们向非洲供应楔形锚栓、套筒锚栓和植入式锚栓。有镀锌、热浸镀锌和不锈钢316可选。可提供SABS认证产品。"
+      }
     }
   ]
 }

@@ -5,8 +5,8 @@
   "readTime": 7,
   "image": "/images/products/fender-washers-1.jpg",
   "title": {
-    "en": "Washer Types and Applications Guide: Flat, Spring, Lock Washers",
-    "zh": "垫圈类型和应用指南：平垫圈、弹簧垫圈、锁紧垫圈",
+    "en": "Washer Types Guide: Flat, Spring, Lock Washers",
+    "zh": "垫圈类型指南：平垫、弹簧垫圈、锁紧垫圈",
     "es": "Guía de Tipos de Arandelas y Aplicaciones: Arandelas Planas, de Resorte, de Bloqueo",
     "ar": "دليل أنواع الغسالات والتطبيقات: غسالات مسطحة ومنظمات وفلاشات",
     "fr": "Guide des Types de Rondelles et Applications: Rondelles Plates, à Ressort, de Frein",
@@ -102,6 +102,59 @@
     {
       "slug": "threaded-rod-applications-guide",
       "title": "Threaded Rod Applications Guide: Complete Selection Reference"
+    }
+  ],
+  "meta_description": "Complete washer types guide. Flat washers, spring lock washers, split washers & more. ISO 9001 factory. Best prices for construction & industrial use.",
+  "faqItems": [
+    {
+      "q": {
+        "en": "What are the main types of washers used in construction?",
+        "zh": "建筑中使用的主要垫圈类型有哪些？"
+      },
+      "a": {
+        "en": "Main types include flat washers (load distribution), spring washers (vibration resistance), split lock washers (prevents loosening), and fender washers (large diameter for soft materials).",
+        "zh": "主要类型包括平垫圈(负载分配)、弹簧垫圈(抗振动)、开口锁紧垫圈(防止松动)和挡泥板垫圈(软材料用大直径)。"
+      }
+    },
+    {
+      "q": {
+        "en": "When should I use a spring washer vs a flat washer?",
+        "zh": "什么时候应该使用弹簧垫圈而不是平垫圈？"
+      },
+      "a": {
+        "en": "Use flat washers for load distribution on soft materials. Use spring washers where vibration might loosen fasteners. Never use spring washers with gaskets or on painted surfaces.",
+        "zh": "在软材料上使用平垫圈分散负载。在振动可能导致紧固件松动的地方使用弹簧垫圈。切勿将弹簧垫圈与垫圈或 painted 表面一起使用。"
+      }
+    },
+    {
+      "q": {
+        "en": "What materials are washers made from in Africa?",
+        "zh": "在非洲垫圈用什么材料制成？"
+      },
+      "a": {
+        "en": "Common materials include zinc-plated carbon steel (indoor use), hot-dip galvanized steel (outdoor/Africa), stainless steel 304/316 (marine/coastal), and nylon (electrical insulation).",
+        "zh": "常见材料包括镀锌碳钢(室内使用)、热浸镀锌钢(户外/非洲)、不锈钢304/316(海洋/沿海)和尼龙(电绝缘)。"
+      }
+    },
+    {
+      "q": {
+        "en": "What washer sizes are commonly used in African construction?",
+        "zh": "非洲建筑中常用哪些垫圈尺寸？"
+      },
+      "a": {
+        "en": "Common sizes: M6, M8, M10, M12, M16 washers for general construction. M20-M24 for structural steel. Metric washers match bolt sizes directly.",
+        "zh": "常见尺寸：M6、M8、M10、M12、M16垫圈用于一般建筑。M20-M24用于结构钢。公制垫圈直接匹配螺栓尺寸。"
+      }
+    },
+    {
+      "q": {
+        "en": "Can you supply washers to African construction projects?",
+        "zh": "您能为非洲建筑项目供应垫圈吗？"
+      },
+      "a": {
+        "en": "Yes, we supply all washer types to African markets including South Africa (SABS certified), Zimbabwe, Kenya, and Nigeria. Container shipments available.",
+        "zh": "是的，我们向非洲市场供应所有类型的垫圈，包括南非(SABS认证)、津巴布韦、肯尼亚和尼日利亚。可提供集装箱运输。"
+      }
     }
   ]
 }
