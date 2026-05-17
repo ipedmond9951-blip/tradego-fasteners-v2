@@ -5,8 +5,8 @@
   "readTime": 7,
   "image": "/images/articles/automotive-fasteners-guide.jpg",
   "title": {
-    "en": "Automotive Fasteners Guide: Engine, Chassis, and Body Fasteners",
-    "zh": "汽车紧固件指南：发动机、底盘和车身紧固件"
+    "en": "Automotive Fasteners Guide: Engine, Chassis & Body",
+    "zh": "汽车紧固件指南：发动机、底盘和车身"
   },
   "description": {
     "en": "Complete guide to automotive fasteners: engine, chassis, and body applications. Learn about automotive-grade fasteners, torque specifications, and material requirements.",
@@ -82,5 +82,58 @@
   "imageAlt": {
     "en": "Automotive engine fasteners - high-strength bolts for engine assembly",
     "zh": "汽车发动机紧固件 - 发动机组装用高强度螺栓"
-  }
+  },
+  "meta_description": "ISO 9001 certified automotive fasteners manufacturer. Engine, chassis & body fasteners meeting OEM standards. 12+ years supplying global automakers.",
+  "faqItems": [
+    {
+      "q": {
+        "en": "What types of fasteners are used in automotive engines?",
+        "zh": "发动机中使用哪些类型的紧固件？"
+      },
+      "a": {
+        "en": "Engine fasteners include high-strength bolts for cylinder heads, main bearing caps, and connecting rods, typically grade 8.8-12.9 with specific torque specifications.",
+        "zh": "发动机紧固件包括气缸盖、主轴承盖和连杆的高强度螺栓，通常为8.8-12.9级，具有特定的扭矩规格。"
+      }
+    },
+    {
+      "q": {
+        "en": "What materials are used for automotive body fasteners?",
+        "zh": "汽车车身紧固件使用哪些材料？"
+      },
+      "a": {
+        "en": "Body fasteners commonly use stainless steel (304/316), coated carbon steel, or plastic clips for corrosion resistance and weight reduction.",
+        "zh": "车身紧固件通常使用不锈钢(304/316)、镀碳钢或塑料夹子，以防腐和减重。"
+      }
+    },
+    {
+      "q": {
+        "en": "How do automotive fasteners differ from standard fasteners?",
+        "zh": "汽车紧固件与标准紧固件有何不同？"
+      },
+      "a": {
+        "en": "Automotive fasteners must meet strict OEM specifications including torque values, preload requirements, and vibration resistance for safety-critical applications.",
+        "zh": "汽车紧固件必须满足严格的OEM规格，包括扭矩值、预紧力要求和抗振动性，以确保安全关键应用。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the typical grade for automotive chassis bolts?",
+        "zh": "汽车底盘螺栓的典型等级是什么？"
+      },
+      "a": {
+        "en": "Chassis bolts typically range from grade 8.8 to 10.9, with critical suspension components requiring 10.9 or higher for maximum strength and safety.",
+        "zh": "底盘螺栓通常在8.8到10.9级之间，关键悬架部件需要10.9或更高等级以获得最大强度和安全性。"
+      }
+    },
+    {
+      "q": {
+        "en": "Can you supply automotive fasteners to Africa?",
+        "zh": "您能向非洲供应汽车紧固件吗？"
+      },
+      "a": {
+        "en": "Yes, we supply automotive fasteners to African markets with SABS certification available. We offer container shipments to South Africa, Zimbabwe, Kenya, and Nigeria.",
+        "zh": "是的，我们向非洲市场供应汽车紧固件，可提供SABS认证。我们提供运往南非、津巴布韦、肯尼亚和尼日利亚的集装箱运输。"
+      }
+    }
+  ]
 }
