@@ -3,7 +3,7 @@
   "category": "Regional Supplier",
   "date": "2026-04-29",
   "readTime": 8,
-  "image": "/images/articles/africa-port-1.jpg",
+  "image": "/images/articles/mozambique-hardware-supplier.jpg",
   "title": {
     "en": "Mozambique Hardware Supplier: Construction Fasteners in Maputo & Beira",
     "zh": "莫桑比克五金供应商：马普托和贝拉的建筑紧固件"
@@ -72,5 +72,55 @@
   "imageAlt": {
     "en": "Maputo Port Mozambique - gateway for construction fasteners to Southern Africa",
     "zh": "莫桑比克马普托港 - 南非洲建筑紧固件门户"
-  }
+  },
+  "faq": [
+    {
+      "q": {
+        "en": "What are the import requirements for fasteners entering Mozambique?",
+        "zh": "进口紧固件到莫桑比克有什么要求？",
+        "es": "¿Cuáles son los requisitos de importación para sujetadores que ingresan a Mozambique?",
+        "fr": "Quelles sont les exigences d'importation pour les fixations entrant au Mozambique?",
+        "pt": "Quais são os requisitos de importação para fixadores entrando em Moçambique?"
+      },
+      "a": {
+        "en": "Mozambique requires INNOQ (Instituto Nacional de Normalização e Qualidade) compliance for fastener imports. Documentation includes: Certificate of Origin, Bill of Lading, Commercial Invoice, and Packing List. All fasteners must have Portuguese language labeling. Port of Maputo handles 70% of fastener imports; Beira Port serves central regions.",
+        "zh": "莫桑比克要求进口紧固件符合INNOQ（国家标准和质量研究所）要求。文件包括：原产地证书、提单、商业发票和装箱单。所有紧固件必须使用葡萄牙语标签。马普托港处理70%的紧固件进口；贝拉港服务中部地区。",
+        "es": "Requiere cumplimiento INNOQ, etiquetado en portugués.",
+        "fr": "Exige conformité INNOQ, étiquetage en portugais.",
+        "pt": "Requer conformidade INNOQ, rotulagem em português."
+      }
+    },
+    {
+      "q": {
+        "en": "What fastener types are most needed for Mozambique construction projects?",
+        "zh": "莫桑比克建筑项目最需要哪些类型的紧固件？",
+        "es": "¿Qué tipos de sujetadores son más necesarios para proyectos de construcción en Mozambique?",
+        "fr": "Quels types de fixations sont les plus nécessaires pour les projets de construction au Mozambique?",
+        "pt": "Quais tipos de fixadores são mais necessários para projetos de construção em Moçambique?"
+      },
+      "a": {
+        "en": "Mozambique's construction sector demands: hot-dip galvanized bolts for coastal projects (Maputo, Beira, Pemba due to salt exposure), high-tensile structural bolts for bridge and port construction, stainless steel 316 for marine environments, and metric thread fasteners for Chinese and European equipment installations. The MPDC and ProSavana agricultural projects drive demand for Grade 8.8 structural fasteners.",
+        "zh": "莫桑比克建筑业需求包括：沿海项目（马普托、贝拉、彭巴因盐分暴露）的热浸镀锌螺栓、桥梁和港口建设的高强度结构螺栓、海洋环境用不锈钢316，以及中国和欧洲设备安装的公制螺纹紧固件。",
+        "es": "Pernos galvanizados en caliente para zonas costeras.",
+        "fr": "Boulons galvanisés à chaud pour les zones côtières.",
+        "pt": "Parafusos galvanizados a quente para zonas costeiras."
+      }
+    },
+    {
+      "q": {
+        "en": "What is the import duty for fasteners in Mozambique?",
+        "zh": "莫桑比克紧固件的进口关税是多少？",
+        "es": "¿Cuál es el derecho de importación para sujetadores en Mozambique?",
+        "fr": "Quel est le droit d'importation pour les fixations au Mozambique?",
+        "pt": "Qual é a taxa de importação para fixadores em Moçambique?"
+      },
+      "a": {
+        "en": "Mozambique applies a 7.5% import duty on fasteners under HS Code 7318 (SADC rate). An additional 17% VAT applies. Industrial inputs may qualify for duty exemptions under the Industrial Free Zone regime. South Africa and SADC origin goods benefit from preferential rates of 2.5-5% under bilateral trade agreements.",
+        "zh": "莫桑比克对海关编码7318下的紧固件征收7.5%进口关税（SADC税率）。另加17%增值税。工业投入品可根据工业自由区制度获得关税豁免。南非和SADC原产货物根据双边贸易协定享受2.5-5%的优惠税率。",
+        "es": "Derecho del 7.5% más IVA 17%, tasa SADC.",
+        "fr": "Droit de 7.5% plus TVA 17%, taux SADC.",
+        "pt": "Imposto de 7.5% mais IVA 17%, taxa SADC."
+      }
+    }
+  ]
 }
