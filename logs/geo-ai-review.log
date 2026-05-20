@@ -494,3 +494,45 @@ Generate JSON-LD Schema Code
 Explore AI Search Engine Trends
 Provide Ready-to-Use Schema Code
 请给出具体、可操作的建议。
+[2026-05-20 09:00:51] ==========================================
+[2026-05-20 09:00:51] 🌍 GEO AI评估开始
+[2026-05-20 09:00:51] ==========================================
+[2026-05-20 09:00:51] 🤖 正在调用AI助手评估GEO...
+⚠️ Chrome正在运行，但调试端口未开启
+   重启Chrome...
+🚀 启动Chrome调试模式 (端口 18800)...
+   Chrome已启动 (后台运行)
+⏳ 等待Chrome启动...
+✅ Chrome调试端口 18800 已就绪！
+
+[Grok] 开始调用...
+🤔 正在问Grok: "我有一个外贸B2B网站tradego-fasteners.com，主营非洲市场（津巴布韦）的紧固件（..."
+📄 打开Grok页面...
+✅ 找到输入框: div[contenteditable="true"]
+✅ 已发送，等待回复...
+=== 🤖 Grok 回复 ===
+How to Choose Corrosion-Resistant Bolts for Zimbabwe Mining
+Sea Freight Guide: China to Harare via Beira/Durban
+每篇指南用 Question-Answer 结构 + 数据表 + 证书图片。
+信任与本地化信号：
+增加真实客户案例（Zimbabwe 项目照片 + 匿名 testimonial）。
+展示 SGS/BV 检验报告、SABS 证书（可点击放大）。
+添加 Zimbabwe 联系方式或本地代理信息（即使是虚拟/合作伙伴）。
+多语言加强：英文为主，但增加法语/葡萄牙语（针对其他非洲国家）。
+其他高影响力动作：
+Backlinks：在非洲 B2B 平台、construction forums、LinkedIn 发布内容，获取引用。
+Google Business Profile（如果有中国或非洲实体）：保持 NAP 一致。
+监控与迭代：用 Perplexity/ChatGPT 每周测试查询 “fasteners supplier Zimbabwe”，记录是否被引用，持续优化缺失部分。
+实施优先级：
+首页 + 2-3 个核心产品页添加 Quick Answer + FAQ + Schema（1 周内）。
+创建 3-5 个 Zimbabwe/Africa 专用指南页。
+技术检查 robots.txt + 添加 llms.txt + Schema。
+这些优化后，您的网站在 AI 回答中被直接引用、列为推荐供应商的概率会显著提升，尤其在非洲紧固件这类长尾 B2B 查询上。
+需要我帮您起草具体某个页面的优化版本（例如 Zimbabwe 专用 landing page 内容），或 Schema 代码示例吗？随时说！
+46 sources
+SABS certification details
+Beira port logistics
+Provide Schema code
+[2026-05-20 09:04:43] ✅ GEO AI评估完成
+[2026-05-20 09:04:43] 📋 建议已保存到 /Users/zhangming/workspace/tradego-fasteners-v2/logs/geo-ai-review.log
+[2026-05-20 09:04:43] ==========================================
