@@ -3,7 +3,7 @@
   "category": "Case Study",
   "date": "2026-04-10",
   "readTime": 10,
-  "image": "/images/industry/zimbabwe-mining-construction.webp",
+  "image": "/images/articles/zimbabwe-fastener-market-case-study.jpg",
   "title": {
     "en": "Zimbabwe Fastener Market Case Study: Bindura Nickel Mine Expansion Project",
     "zh": "津巴布韦紧固件市场案例研究：Bindura镍矿扩建项目",
@@ -201,6 +201,38 @@
       "body": {
         "en": "<p>TradeGo <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Fasteners</a> specializes in <strong>BS-standard <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a></strong> for Zimbabwe's mining and construction sectors. We ship in 20ft containers from China to Beira Port with complete RBZ documentation.</p><p><strong>WhatsApp</strong>: +86-159-6340-9951<br><strong>Email</strong>: sales@tradego-<a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a>.com<br><strong>Website</strong>: www.tradego-<a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a>.com</p><p>Request your Zimbabwe <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a> quotation with CIF Beira pricing, BS standards documentation, and monthly shipping schedule.</p>"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What is the typical lead time for fasteners to Zimbabwe?"
+          },
+          "a": {
+            "en": "From China to Zimbabwe via Beira port (Mozambique): 25-35 days sea freight. Durban (South Africa): 30-40 days. Air freight is available for urgent orders (5-7 days) but costs 5-8x more. For construction projects, order 60-90 days before needed date to account for production (15-25 days) and shipping."
+          }
+        },
+        {
+          "q": {
+            "en": "What import duties apply to fasteners entering Zimbabwe?"
+          },
+          "a": {
+            "en": "Fasteners typically fall under HS Code 7318 (Screws, bolts, nuts, coach screws, etc.). Import duty is approximately 40% + 15% VAT on CIF value. Surcharges may apply. Zimbabwe also requires a Valid Import Declaration Number (IDN) from the Zimbabwe Revenue Authority (ZIMRA). Working with an experienced customs broker is essential."
+          }
+        },
+        {
+          "q": {
+            "en": "Which Zimbabwe industries have the highest demand for fasteners?"
+          },
+          "a": {
+            "en": "Mining is the largest fastener consumer in Zimbabwe, particularly platinum, gold, and nickel mining operations. Construction (commercial and residential), agriculture (irrigation systems), and water infrastructure projects also drive significant demand. The energy sector (Hwange thermal power station upgrades) and telecommunications tower expansion are emerging growth areas."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -244,5 +276,7 @@
       "hi": "ज़िम्बाब्वे उद्धरण का अनुरोध करें"
     },
     "link": "/en/contact"
-  }
+  },
+  "imageAlt": "Zimbabwe Fastener Market Case Study Bindura Nickel Mining Project - TradeGo",
+  "updated": "2026-05-20"
 }
