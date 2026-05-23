@@ -81,7 +81,10 @@
       }
     }
   ],
-  "relatedProducts": [],
+  "relatedProducts": [
+    "fasteners",
+    "structural-fasteners"
+  ],
   "cta": {
     "en": "Contact TradeGo for fastener shipping quotes. Email: sales@tradego-fasteners.com",
     "zh": "联系TradeGo获取紧固件运输报价。"
@@ -89,5 +92,13 @@
   "imageAlt": {
     "en": "Fastener export packaging - proper packaging for international shipping",
     "zh": "紧固件出口包装 - 国际运输的正确包装"
-  }
+  },
+  "relatedArticles": [
+    {
+      "slug": "china-fastener-manufacturer-guide"
+    },
+    {
+      "slug": "fastener-export-china-to-africa-guide"
+    }
+  ]
 }
