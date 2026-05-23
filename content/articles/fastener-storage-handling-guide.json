@@ -81,7 +81,10 @@
       }
     }
   ],
-  "relatedProducts": [],
+  "relatedProducts": [
+    "fasteners",
+    "stainless-steel-nuts"
+  ],
   "cta": {
     "en": "Contact TradeGo for fastener supplies and storage consultation. Email: sales@tradego-fasteners.com",
     "zh": "联系TradeGo获取紧固件供应和储存咨询。"
@@ -89,5 +92,13 @@
   "imageAlt": {
     "en": "Proper fastener storage warehouse organization",
     "zh": "适当的紧固件仓库储存组织"
-  }
+  },
+  "relatedArticles": [
+    {
+      "slug": "marine-fasteners-guide"
+    },
+    {
+      "slug": "galvanic-corrosion-fastener-selection"
+    }
+  ]
 }

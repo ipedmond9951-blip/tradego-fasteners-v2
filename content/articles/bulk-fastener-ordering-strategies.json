@@ -102,12 +102,24 @@
       ]
     }
   ],
-  "relatedProducts": [],
+  "relatedProducts": [
+    "bolts-nuts",
+    "fasteners",
+    "structural-fasteners"
+  ],
   "cta": {
     "en": "Contact TradeGo for bulk fastener pricing. Email: sales@tradego-fasteners.com",
     "zh": "联系TradeGo获取批量紧固件定价。"
   },
   "imageAlt": "Bulk Fastener Ordering Cost Reduction Strategies Africa - TradeGo",
   "meta_description": "Volume discounts, container optimization, and inventory management strategies for bulk fastener procurement in Africa.",
-  "updated": "2026-05-20"
+  "updated": "2026-05-20",
+  "relatedArticles": [
+    {
+      "slug": "fastener-export-china-to-africa-guide"
+    },
+    {
+      "slug": "full-thread-half-thread-coarse-fine-thread-guide"
+    }
+  ]
 }

@@ -536,3 +536,33 @@ Provide Schema code
 [2026-05-20 09:04:43] ✅ GEO AI评估完成
 [2026-05-20 09:04:43] 📋 建议已保存到 /Users/zhangming/workspace/tradego-fasteners-v2/logs/geo-ai-review.log
 [2026-05-20 09:04:43] ==========================================
+[2026-05-23 09:01:10] ==========================================
+[2026-05-23 09:01:10] 🌍 GEO AI评估开始
+[2026-05-23 09:01:10] ==========================================
+[2026-05-23 09:01:10] 🤖 正在调用AI助手评估GEO...
+[Grok] 开始调用...
+🤔 正在问Grok: "我有一个外贸B2B网站tradego-fasteners.com，主营非洲市场（津巴布韦）的紧固件（..."
+📍 找到已有页面: https://grok.com/c/5cd2bb15-03e1-4945-85a7-ba859d4f64c0?rid=2baf9437-ca5d-4ca7-9ebf-69bbc00a75b4
+✅ 找到输入框: div[contenteditable="true"]
+✅ 已发送，等待回复...
+=== 🤖 Grok 回复 ===
+Use structured data (JSON-LD Schema): Product, Article, FAQPage, Organization, and LocalBusiness schemas.
+Create an llms.txt file in the root to guide AI models on site content and expertise.
+XML sitemap with accurate lastmod dates and high-quality internal linking.
+Content Standards (Most Important for Citations):
+Clear, Authoritative, Factual Content: Write in a direct, conversational style. Start pages with concise answers (the "40-word rule").
+E-E-A-T Signals: Prominently display certifications (ISO 9001, SABS), years of experience (12+), statistics (0.5% defect rate), and Africa-specific expertise.
+Structured Formats AI Loves: Use comparison tables (bolt grades, materials), numbered lists, FAQs, step-by-step guides, and specification tables for products like hex bolts, drywall screws, anchor bolts.
+Unique Data & Originality: Include original research, case studies from Zimbabwe/Southern Africa projects, and proprietary insights (e.g., shipping times to specific ports).
+Additional GEO Boosters:
+Build external authority (mentions on industry sites, Africa B2B directories, YouTube factory tours).
+Optimize for long-tail questions: "Best hex bolts supplier for Zimbabwe mining", "SABS compliant fasteners from China".
+Monitor AI visibility regularly by testing prompts and refining content.
+Current Status of tradego-fasteners.com: The site performs reasonably well due to its strong Africa/Zimbabwe focus, technical product guides, and certifications. However, adding more structured schema, an llms.txt file, and more comparison tables/case studies would significantly increase citation chances in AI responses.
+Would you like me to expand on any part (e.g., specific schema examples, content recommendations, or checkout optimization ideas)?
+25 sources
+Provide JSON-LD Schema Examples
+Explore SABS Certification Requirements
+你对 Grok 的答案满意吗？
+赞
+踩
