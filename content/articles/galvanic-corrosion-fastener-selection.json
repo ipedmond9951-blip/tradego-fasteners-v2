@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2025-06-29",
   "readTime": 9,
-  "image": "/images/products/galvanic-corrosion-1.jpg",
+  "image": "/images/articles/galvanic-corrosion-fastener-selection.jpg",
   "title": {
     "en": "Galvanic Corrosion and Fastener Selection: Preventing Ele...",
     "zh": "电偶腐蚀与紧固件选型：混合金属组件中电化学损伤的预防",
@@ -176,8 +176,8 @@
     },
     "link": "/#inquiry"
   },
-  "imageAlt": "Galvanic Corrosion and Fastener Selection - fastener solutions",
-  "updated": "2026-02-16",
+  "imageAlt": "Galvanic Corrosion and Fastener Selection - mixed metal corrosion analysis",
+  "updated": "2026-05-24",
   "author": "TradeGo Fasteners",
   "relatedArticles": [
     {
@@ -188,5 +188,10 @@
       "slug": "fastener-selection-guide-african-construction",
       "title": "Fastener Selection Guide for African Construction Projects"
     }
+  ],
+  "links": [
+    "/products#stainless-fasteners",
+    "/products#hgd-bolts",
+    "/products"
   ]
 }
