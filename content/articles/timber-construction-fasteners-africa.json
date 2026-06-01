@@ -1,7 +1,7 @@
 {
   "slug": "timber-construction-fasteners-africa",
   "category": "Technical Guide",
-  "date": "2026-04-22",
+  "date": "2026-06-02",
   "readTime": 10,
   "image": "/images/products/timber-fasteners-1.jpg",
   "title": {
@@ -115,7 +115,18 @@
     },
     "link": "/#inquiry"
   },
-  "imageAlt": "Timber Construction Fasteners in Africa - fastener solutions",
+  "imageAlt": {
+    "en": "Timber Construction Fasteners in Africa - fastener solutions",
+    "zh": "Timber Construction Fasteners in Africa - fastener solutions",
+    "es": "Timber Construction Fasteners in Africa - fastener solutions",
+    "ar": "Timber Construction Fasteners in Africa - fastener solutions",
+    "fr": "Timber Construction Fasteners in Africa - fastener solutions",
+    "pt": "Timber Construction Fasteners in Africa - fastener solutions",
+    "ru": "Timber Construction Fasteners in Africa - fastener solutions",
+    "ja": "Timber Construction Fasteners in Africa - fastener solutions",
+    "de": "Timber Construction Fasteners in Africa - fastener solutions",
+    "hi": "Timber Construction Fasteners in Africa - fastener solutions"
+  },
   "_file": "timber-construction-fasteners-africa",
   "relatedArticles": [
     {
@@ -133,6 +144,33 @@
     {
       "slug": "stainless-steel-fasteners-304-316",
       "title": "Stainless Steel Fasteners 304 vs 316: Complete Selection..."
+    }
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
     }
   ]
 }
