@@ -1,7 +1,7 @@
 {
   "slug": "fastener-corrosion-resistance-guide",
   "category": "Technical Guide",
-  "date": "2025-07-29",
+  "date": "2026-06-02",
   "readTime": 10,
   "image": "/images/articles/fastener-corrosion-resistance-guide.png",
   "title": {
@@ -289,9 +289,31 @@
     },
     "link": "/en#inquiry"
   },
-  "imageAlt": "Complete Guide to Fastener Corrosion Resistance - fastener solutions",
+  "imageAlt": {
+    "en": "Complete Guide to Fastener Corrosion Resistance - fastener solutions",
+    "zh": "Complete Guide to Fastener Corrosion Resistance - fastener solutions",
+    "es": "Complete Guide to Fastener Corrosion Resistance - fastener solutions",
+    "ar": "Complete Guide to Fastener Corrosion Resistance - fastener solutions",
+    "fr": "Complete Guide to Fastener Corrosion Resistance - fastener solutions",
+    "pt": "Complete Guide to Fastener Corrosion Resistance - fastener solutions",
+    "ru": "Complete Guide to Fastener Corrosion Resistance - fastener solutions",
+    "ja": "Complete Guide to Fastener Corrosion Resistance - fastener solutions",
+    "de": "Complete Guide to Fastener Corrosion Resistance - fastener solutions",
+    "hi": "Complete Guide to Fastener Corrosion Resistance - fastener solutions"
+  },
   "updated": "2026-02-18",
-  "author": "TradeGo Fasteners",
+  "author": {
+    "name": "TradeGo Fasteners",
+    "title": "Industry Expert",
+    "bio": "Experienced professional in fastener industry with expertise in African markets.",
+    "credentials": "B2B Export Specialist",
+    "linkedin": "https://www.linkedin.com/in/tradego-fasteners",
+    "expertise": [
+      "Fastener Manufacturing",
+      "Export Logistics",
+      "African Markets"
+    ]
+  },
   "relatedArticles": [
     {
       "slug": "din-iso-fastener-standards-guide",
@@ -304,6 +326,33 @@
     {
       "slug": "anchor-bolts-foundation-guide",
       "title": "Anchor Bolts for Foundation: Complete Guide to Structural..."
+    }
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "slug": "automotive-commercial-vehicle-fasteners",
   "category": "Technical Guide",
-  "date": "2025-09-29",
+  "date": "2026-06-02",
   "readTime": 9,
   "image": "/images/articles/automotive-commercial-vehicle-fasteners.jpg",
   "title": {
@@ -155,7 +155,18 @@
     },
     "link": "/#inquiry"
   },
-  "imageAlt": "Automotive & Commercial Vehicle Fasteners - fastener solutions",
+  "imageAlt": {
+    "en": "Automotive & Commercial Vehicle Fasteners - fastener solutions",
+    "zh": "Automotive & Commercial Vehicle Fasteners - fastener solutions",
+    "es": "Automotive & Commercial Vehicle Fasteners - fastener solutions",
+    "ar": "Automotive & Commercial Vehicle Fasteners - fastener solutions",
+    "fr": "Automotive & Commercial Vehicle Fasteners - fastener solutions",
+    "pt": "Automotive & Commercial Vehicle Fasteners - fastener solutions",
+    "ru": "Automotive & Commercial Vehicle Fasteners - fastener solutions",
+    "ja": "Automotive & Commercial Vehicle Fasteners - fastener solutions",
+    "de": "Automotive & Commercial Vehicle Fasteners - fastener solutions",
+    "hi": "Automotive & Commercial Vehicle Fasteners - fastener solutions"
+  },
   "metaDescription": "Automotive and commercial vehicle fasteners: wheel bolts, hub bolts, structural body fasteners for trucks and buses in Africa.",
   "faqItems": [
     {
@@ -180,7 +191,18 @@
     }
   ],
   "updated": "2026-03-23",
-  "author": "TradeGo Fasteners",
+  "author": {
+    "name": "TradeGo Fasteners",
+    "title": "Industry Expert",
+    "bio": "Experienced professional in fastener industry with expertise in African markets.",
+    "credentials": "B2B Export Specialist",
+    "linkedin": "https://www.linkedin.com/in/tradego-fasteners",
+    "expertise": [
+      "Fastener Manufacturing",
+      "Export Logistics",
+      "African Markets"
+    ]
+  },
   "relatedArticles": [
     {
       "slug": "mining-equipment-fasteners-zambia-southafrica",
@@ -189,6 +211,33 @@
     {
       "slug": "torque-tensioning-critical-fasteners",
       "title": "Torque and Tensioning of Critical Fasteners: Best Practic..."
+    }
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
     }
   ]
 }

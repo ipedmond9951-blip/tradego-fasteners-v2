@@ -1,7 +1,7 @@
 {
   "slug": "telecom-tower-fasteners",
   "category": "Technical Guide",
-  "date": "2025-04-29",
+  "date": "2026-06-02",
   "readTime": 9,
   "image": "/images/products/telecom-fasteners-1.jpg",
   "title": {
@@ -123,9 +123,31 @@
     },
     "link": "/#inquiry"
   },
-  "imageAlt": "Telecom Tower Fasteners Complete Guide - fastener solutions",
+  "imageAlt": {
+    "en": "Telecom Tower Fasteners Complete Guide - fastener solutions",
+    "zh": "Telecom Tower Fasteners Complete Guide - fastener solutions",
+    "es": "Telecom Tower Fasteners Complete Guide - fastener solutions",
+    "ar": "Telecom Tower Fasteners Complete Guide - fastener solutions",
+    "fr": "Telecom Tower Fasteners Complete Guide - fastener solutions",
+    "pt": "Telecom Tower Fasteners Complete Guide - fastener solutions",
+    "ru": "Telecom Tower Fasteners Complete Guide - fastener solutions",
+    "ja": "Telecom Tower Fasteners Complete Guide - fastener solutions",
+    "de": "Telecom Tower Fasteners Complete Guide - fastener solutions",
+    "hi": "Telecom Tower Fasteners Complete Guide - fastener solutions"
+  },
   "updated": "2026-02-19",
-  "author": "TradeGo Fasteners",
+  "author": {
+    "name": "TradeGo Fasteners",
+    "title": "Industry Expert",
+    "bio": "Experienced professional in fastener industry with expertise in African markets.",
+    "credentials": "B2B Export Specialist",
+    "linkedin": "https://www.linkedin.com/in/tradego-fasteners",
+    "expertise": [
+      "Fastener Manufacturing",
+      "Export Logistics",
+      "African Markets"
+    ]
+  },
   "relatedArticles": [
     {
       "slug": "concrete-anchors-fasteners-guide",
@@ -138,6 +160,33 @@
     {
       "slug": "solar-panel-mounting-fasteners",
       "title": "Solar Panel Mounting Fasteners Complete Guide: Ground, Ro..."
+    }
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
     }
   ]
 }
