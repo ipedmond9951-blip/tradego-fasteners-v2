@@ -73,9 +73,51 @@
         "zh": "常见问题"
       },
       "body": {
-        "en": "What are the most common bolt types used in construction?\n\nHex bolts (hex head bolts) are the most common, accounting for 60% of construction fastener use. They provide high clamping force and are easy to install with standard wrenches. Carriage bolts are used in wood and timber construction where a smooth finished appearance is needed.\n\nWhat's the difference between Grade 8.8 and Grade 10.9 bolts?\n\nGrade 8.8 bolts have minimum tensile strength of 800 MPa, suitable for most construction applications. Grade 10.9 bolts have 1000 MPa tensile strength and are used for high-stress applications like bridge construction and heavy machinery. Always consult structural engineer specifications for your application.\n\nWhen should I use stainless steel bolts instead of carbon steel?\n\nUse stainless steel (A2/A4 or 304/316) in coastal environments, chemical plants, food processing facilities, and applications where corrosion resistance is critical. Stainless steel costs 3-5x more than carbon steel but provides superior corrosion resistance. For inland construction in dry environments, hot-dip galvanized carbon steel bolts are typically sufficient.\n\nWhat bolt length do I need for my application?\n\nGeneral rule: bolt length should be 2-3x the diameter for proper engagement. For a M20 bolt, minimum embedment depth is 40-60mm. Always follow the manufacturer's specifications for your specific connection design.\n\nCan bolts be reused after removal?\n\nBolts should typically not be reused in critical structural connections. Thread damage, bending, or coating wear during removal can significantly reduce bolt strength. For non-structural applications, inspect carefully and replace if any damage is visible.",
-        "zh": "建筑中最常用的螺栓类型是什么？\n\n六角螺栓是最常用的，占建筑紧固件使用的60%。它们提供高夹紧力，易于安装。马车螺栓用于需要光滑外观的木结构和木材施工。\n\n8.8级和10.9级螺栓有什么区别？\n\n8.8级螺栓最小抗拉强度为800 MPa，适用于大多数建筑应用。10.9级螺栓抗拉强度为1000 MPa，用于桥梁建设和重型机械等高应力应用。\n\n什么时候应该使用不锈钢螺栓而不是碳钢螺栓？\n\n在沿海环境、化工厂、食品加工厂和需要耐腐蚀性的应用中使用不锈钢（A2/A4或304/316）。不锈钢成本是碳钢的3-5倍，但提供卓越的耐腐蚀性。"
-      }
+        "en": "",
+        "zh": ""
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are the most common bolt types used in construction?"
+          },
+          "a": {
+            "en": "Hex bolts (hex head bolts) are the most common, accounting for 60% of construction fastener use. They provide high clamping force and are easy to install with standard wrenches. Carriage bolts are used in wood and timber construction where a smooth finished appearance is needed."
+          }
+        },
+        {
+          "q": {
+            "en": "What's the difference between Grade 8.8 and Grade 10.9 bolts?"
+          },
+          "a": {
+            "en": "Grade 8.8 bolts have minimum tensile strength of 800 MPa, suitable for most construction applications. Grade 10.9 bolts have 1000 MPa tensile strength and are used for high-stress applications like bridge construction and heavy machinery. Always consult structural engineer specifications for your application."
+          }
+        },
+        {
+          "q": {
+            "en": "When should I use stainless steel bolts instead of carbon steel?"
+          },
+          "a": {
+            "en": "Use stainless steel (A2/A4 or 304/316) in coastal environments, chemical plants, food processing facilities, and applications where corrosion resistance is critical. Stainless steel costs 3-5x more than carbon steel but provides superior corrosion resistance. For inland construction in dry environments, hot-dip galvanized carbon steel bolts are typically sufficient."
+          }
+        },
+        {
+          "q": {
+            "en": "What bolt length do I need for my application?"
+          },
+          "a": {
+            "en": "General rule: bolt length should be 2-3x the diameter for proper engagement. For a M20 bolt, minimum embedment depth is 40-60mm. Always follow the manufacturer's specifications for your specific connection design."
+          }
+        },
+        {
+          "q": {
+            "en": "Can bolts be reused after removal?"
+          },
+          "a": {
+            "en": "Bolts should typically not be reused in critical structural connections. Thread damage, bending, or coating wear during removal can significantly reduce bolt strength. For non-structural applications, inspect carefully and replace if any damage is visible."
+          }
+        }
+      ]
     }
   ],
   "cta": {

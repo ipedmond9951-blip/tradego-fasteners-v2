@@ -72,17 +72,59 @@
         "hi": "अक्सर पूछे जाने वाले प्रश्न"
       },
       "body": {
-        "en": "**What is the difference between coach screws and wood screws?**\nCoach screws (lag screws) have a hex head for wrench tightening and are heavy-duty for wood-to-wood connections. Wood screws have slotted or Phillips heads and are lighter duty, designed for assembling wood components.\n\n**What size coach screw do I need for deck joists?**\nFor deck joist connections, M8 × 80mm or M10 × 100mm coach screws are typically used. The screw should penetrate at least 2.5x the thickness of the second board. Check local building codes for specific requirements.\n\n**Can coach screws be used in pressure-treated timber?**\nYes, hot-dip galvanized (HDG) coach screws are recommended for ACQ (alkaline copper quaternary) pressure-treated timber. Standard zinc-plated screws may corrode. Always check the coating compatibility with your treatment type.\n\n**Do I need to pre-drill pilot holes for coach screws?**\nYes, especially for hardwoods. Pre-drill a pilot hole equal to the screw's root (core) diameter. This prevents splitting and ensures proper thread engagement. For softwoods, you may skip pre-drilling for smaller sizes.\n\n**How far should coach screws penetrate into the second timber?**\nFor proper holding power, coach screws should penetrate at least 2.5x the screw diameter into the receiving timber. For an M10 screw, that means at least 25mm penetration into the second board.\n\n**Are HDG coach screws suitable for coastal/marine environments?**\nHDG provides good corrosion resistance for general outdoor use. For coastal areas with salt spray, use stainless steel 304/316 coach screws for maximum corrosion resistance.",
-        "zh": "[FAQ content for timber-fasteners-guide in Chinese]",
-        "es": "[FAQ content for timber-fasteners-guide in Spanish]",
-        "ar": "[FAQ content for timber-fasteners-guide in Arabic]",
-        "fr": "[FAQ content for timber-fasteners-guide in French]",
-        "pt": "[FAQ content for timber-fasteners-guide in Portuguese]",
-        "ru": "[FAQ content for timber-fasteners-guide in Russian]",
-        "ja": "[FAQ content for timber-fasteners-guide in Japanese]",
-        "de": "[FAQ content for timber-fasteners-guide in German]",
-        "hi": "[FAQ content for timber-fasteners-guide in Hindi]"
-      }
+        "en": "",
+        "zh": "",
+        "es": "",
+        "ar": "",
+        "fr": "",
+        "pt": "",
+        "ru": "",
+        "ja": "",
+        "de": "",
+        "hi": ""
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What is the difference between coach screws and wood screws?"
+          },
+          "a": {
+            "en": "Coach screws (lag screws) have a hex head for wrench tightening and are heavy-duty for wood-to-wood connections. Wood screws have slotted or Phillips heads and are lighter duty, designed for assembling wood components."
+          }
+        },
+        {
+          "q": {
+            "en": "What size coach screw do I need for deck joists?"
+          },
+          "a": {
+            "en": "For deck joist connections, M8 × 80mm or M10 × 100mm coach screws are typically used. The screw should penetrate at least 2.5x the thickness of the second board. Check local building codes for specific requirements."
+          }
+        },
+        {
+          "q": {
+            "en": "Can coach screws be used in pressure-treated timber?"
+          },
+          "a": {
+            "en": "Yes, hot-dip galvanized (HDG) coach screws are recommended for ACQ (alkaline copper quaternary) pressure-treated timber. Standard zinc-plated screws may corrode. Always check the coating compatibility with your treatment type."
+          }
+        },
+        {
+          "q": {
+            "en": "Do I need to pre-drill pilot holes for coach screws?"
+          },
+          "a": {
+            "en": "Yes, especially for hardwoods. Pre-drill a pilot hole equal to the screw's root (core) diameter. This prevents splitting and ensures proper thread engagement. For softwoods, you may skip pre-drilling for smaller sizes."
+          }
+        },
+        {
+          "q": {
+            "en": "How far should coach screws penetrate into the second timber?"
+          },
+          "a": {
+            "en": "For proper holding power, coach screws should penetrate at least 2.5x the screw diameter into the receiving timber. For an M10 screw, that means at least 25mm penetration into the second board."
+          }
+        }
+      ]
     }
   ],
   "cta": {

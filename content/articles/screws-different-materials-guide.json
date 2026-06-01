@@ -76,9 +76,51 @@
         "zh": "常见问题"
       },
       "body": {
-        "en": "What's the difference between wood screws and drywall screws?\n\nDrywall screws have fine threads for holding drywall to steel or wood studs. They are brittle and can snap under stress. Wood screws have coarse threads for wood-to-wood connections and are more ductile.\n\nCan I use wood screws in metal?\n\nNo - wood screws are not designed for metal. Use machine screws or self-tapping screws for metal connections.\n\nWhat size pilot hole for wood screws?\n\nMatch the hole to the screw's core diameter (before threads). For hard woods, use a slightly smaller hole. For soft woods, the full core diameter is fine.\n\nHow do I anchor into brick instead of concrete?\n\nUse sleeve anchors or brick anchors specifically rated for masonry. Standard concrete anchors may not hold in brick. Check that your anchor is approved for the specific brick type.\n\nWhat's the best screw for outdoor decking in Africa?\n\nStainless steel (A4/316) deck screws or hot-dip galvanized screws. Coarse thread for hardwoods. Spacing should account for wood movement with humidity changes.\n\nWhy do my screws keep stripping in plastic?\n\nUsing the wrong screw - plastic requires screws designed for plastic. Also check if the plastic boss is adequately sized and if you are over-tightening.",
-        "zh": "木螺丝和干墙螺丝有什么区别？\n\n干墙螺丝有细牙用于将干墙固定到钢架或木螺柱。木螺丝有粗牙用于木材连接，更柔软。\n\n我可以在金属中使用木螺丝吗？\n\n不能-木螺丝不是为金属设计的。使用机螺丝或自攻螺丝进行金属连接。"
-      }
+        "en": "",
+        "zh": ""
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What's the difference between wood screws and drywall screws?"
+          },
+          "a": {
+            "en": "Drywall screws have fine threads for holding drywall to steel or wood studs. They are brittle and can snap under stress. Wood screws have coarse threads for wood-to-wood connections and are more ductile."
+          }
+        },
+        {
+          "q": {
+            "en": "Can I use wood screws in metal?"
+          },
+          "a": {
+            "en": "No - wood screws are not designed for metal. Use machine screws or self-tapping screws for metal connections."
+          }
+        },
+        {
+          "q": {
+            "en": "What size pilot hole for wood screws?"
+          },
+          "a": {
+            "en": "Match the hole to the screw's core diameter (before threads). For hard woods, use a slightly smaller hole. For soft woods, the full core diameter is fine."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I anchor into brick instead of concrete?"
+          },
+          "a": {
+            "en": "Use sleeve anchors or brick anchors specifically rated for masonry. Standard concrete anchors may not hold in brick. Check that your anchor is approved for the specific brick type."
+          }
+        },
+        {
+          "q": {
+            "en": "What's the best screw for outdoor decking in Africa?"
+          },
+          "a": {
+            "en": "Stainless steel (A4/316) deck screws or hot-dip galvanized screws. Coarse thread for hardwoods. Spacing should account for wood movement with humidity changes."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

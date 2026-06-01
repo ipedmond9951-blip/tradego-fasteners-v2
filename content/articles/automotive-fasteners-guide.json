@@ -65,9 +65,51 @@
         "zh": "常见问题"
       },
       "body": {
-        "en": "Can I substitute a different grade fastener?\n\nOnly if the substitute meets or exceeds original specifications. Using lower-grade fasteners for critical applications (engine, suspension, brakes) is dangerous and can cause component failure.\n\nWhat causes automotive fasteners to loosen?\n\nVibration is the primary cause, but thermal cycling, improper installation, and thread damage also contribute. Using lock washers or thread-locking compounds helps prevent loosening.\n\nShould I reuse old fasteners?\n\nReplace torque-to-yield (TTF) fasteners like head bolts when specified. For other fasteners, inspect for damage, stretching, or corrosion before reuse. When in doubt, replace.\n\nWhy do some fasteners use washers and others don't?\n\nWashers distribute load over a larger area for soft materials, prevent surface damage, and can provide locking function. Always follow manufacturer specifications.\n\nWhat is the difference between metric and imperial automotive fasteners?\n\nMost modern vehicles use metric fasteners. Some older American vehicles and some heavy-duty applications use imperial (UNC/UNF) threads. Always verify thread pitch before purchasing replacements.\n\nHow do I remove rusted or seized fasteners?\n\nPenetrating oil, heat (where safe), and proper technique are essential. Impact drivers can help, but excessive force can damage threads. Consider professional assistance for critical engine components.",
-        "zh": "可以用不同等级的紧固件替代吗？\n\n只有在替代品满足或超过原始规格时才能替代。\n\n汽车紧固件为什么会松动？\n\n振动是主要原因，但热循环、安装不当和螺纹损坏也会导致松动。"
-      }
+        "en": "",
+        "zh": ""
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Can I substitute a different grade fastener?"
+          },
+          "a": {
+            "en": "Only if the substitute meets or exceeds original specifications. Using lower-grade fasteners for critical applications (engine, suspension, brakes) is dangerous and can cause component failure."
+          }
+        },
+        {
+          "q": {
+            "en": "What causes automotive fasteners to loosen?"
+          },
+          "a": {
+            "en": "Vibration is the primary cause, but thermal cycling, improper installation, and thread damage also contribute. Using lock washers or thread-locking compounds helps prevent loosening."
+          }
+        },
+        {
+          "q": {
+            "en": "Should I reuse old fasteners?"
+          },
+          "a": {
+            "en": "Replace torque-to-yield (TTF) fasteners like head bolts when specified. For other fasteners, inspect for damage, stretching, or corrosion before reuse. When in doubt, replace."
+          }
+        },
+        {
+          "q": {
+            "en": "Why do some fasteners use washers and others don't?"
+          },
+          "a": {
+            "en": "Washers distribute load over a larger area for soft materials, prevent surface damage, and can provide locking function. Always follow manufacturer specifications."
+          }
+        },
+        {
+          "q": {
+            "en": "What is the difference between metric and imperial automotive fasteners?"
+          },
+          "a": {
+            "en": "Most modern vehicles use metric fasteners. Some older American vehicles and some heavy-duty applications use imperial (UNC/UNF) threads. Always verify thread pitch before purchasing replacements."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

@@ -130,17 +130,43 @@
         "hi": "अक्सर पूछे जाने वाले प्रश्न"
       },
       "body": {
-        "en": "**What is the minimum order quantity (MOQ) for bulk fastener orders from China?** Typical MOQ ranges from 100-500 kg per size, with total order of 1-5 tons for mixed product orders. Some manufacturers accept smaller MOQ for standard sizes with price premiums. Custom specifications typically require higher MOQ. **How do I verify fastener quality from Chinese suppliers?** Request EN 10204 3.1 Mill Test Certificates showing chemical composition and mechanical properties. Order samples before bulk. Use third-party inspection agencies like SGS, Bureau Veritas, or Intertek for container inspection. **What is the typical lead time for fastener orders from China?** Production takes 15-30 days depending on order size and complexity. Sea freight to African ports adds 20-35 days depending on destination. Total lead time: 5-10 weeks from order confirmation to port arrival. **What does FOB price include?** FOB (Free on Board) price includes the product cost and packaging. It excludes freight charges, insurance, and handling from the port. CIF price includes cost, insurance, and freight to your destination port. **What payment terms are standard for China fastener orders?** Common terms: 30% deposit, 70% balance against copy of Bill of Lading (TT). For established relationships, some suppliers offer open account or letter of credit (L/C) terms. New customers typically pay 100% upfront or 30/70. **How do I calculate the total landed cost to Africa?** Landed cost = FOB price + sea freight + insurance + port handling + customs duties + import taxes + inland transportation. Use a 1.3-1.5x multiplier on FOB price as a rough estimate for total landed cost to African ports.",
-        "zh": "[FAQ content for buy-construction-fasteners-wholesale-china in Chinese]",
-        "es": "[FAQ content for buy-construction-fasteners-wholesale-china in Spanish]",
-        "ar": "[FAQ content for buy-construction-fasteners-wholesale-china in Arabic]",
-        "fr": "[FAQ content for buy-construction-fasteners-wholesale-china in French]",
-        "pt": "[FAQ content for buy-construction-fasteners-wholesale-china in Portuguese]",
-        "ru": "[FAQ content for buy-construction-fasteners-wholesale-china in Russian]",
-        "ja": "[FAQ content for buy-construction-fasteners-wholesale-china in Japanese]",
-        "de": "[FAQ content for buy-construction-fasteners-wholesale-china in German]",
-        "hi": "[FAQ content for buy-construction-fasteners-wholesale-china in Hindi]"
-      }
+        "en": "",
+        "zh": "",
+        "es": "",
+        "ar": "",
+        "fr": "",
+        "pt": "",
+        "ru": "",
+        "ja": "",
+        "de": "",
+        "hi": ""
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What is the minimum order quantity (MOQ) for bulk fastener orders from China?"
+          },
+          "a": {
+            "en": "Typical MOQ ranges from 100-500 kg per size, with total order of 1-5 tons for mixed product orders. Some manufacturers accept smaller MOQ for standard sizes with price premiums. Custom specifications typically require higher MOQ."
+          }
+        },
+        {
+          "q": {
+            "en": "Request EN 10204 3.1 Mill Test Certificates showing chemical composition and mechanical properties. Order samples before bulk. Use third-party inspection agencies like SGS, Bureau Veritas, or Intertek for container inspection. What is the typical lead time for fastener orders from China?"
+          },
+          "a": {
+            "en": "Production takes 15-30 days depending on order size and complexity. Sea freight to African ports adds 20-35 days depending on destination. Total lead time: 5-10 weeks from order confirmation to port arrival."
+          }
+        },
+        {
+          "q": {
+            "en": "FOB (Free on Board) price includes the product cost and packaging. It excludes freight charges, insurance, and handling from the port. CIF price includes cost, insurance, and freight to your destination port. What payment terms are standard for China fastener orders?"
+          },
+          "a": {
+            "en": "Common terms: 30% deposit, 70% balance against copy of Bill of Lading (TT). For established relationships, some suppliers offer open account or letter of credit (L/C) terms. New customers typically pay 100% upfront or 30/70."
+          }
+        }
+      ]
     }
   ],
   "cta": {

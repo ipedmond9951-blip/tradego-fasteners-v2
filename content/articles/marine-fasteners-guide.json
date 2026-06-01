@@ -76,9 +76,51 @@
         "zh": "常见问题"
       },
       "body": {
-        "en": "Why do stainless fasteners gall in marine environments?\n\nStainless steel is prone to galling (thread seizure) when installed without lubrication or with excessive torque. Always use marine-grade lubricant during installation.\n\nCan I use galvanized fasteners underwater?\n\nNot recommended. HDG works above water but rapidly degrades in saltwater immersion. Use A4 stainless or super duplex for underwater applications.\n\nWhat's the difference between 304 and 316 stainless for marine use?\n\n316 contains molybdenum which significantly improves chloride corrosion resistance. Use 304 only for protected indoor marine environments. Always use 316 for outdoor marine exposure.\n\nHow often should marine fasteners be inspected?\n\nAnnual inspection is minimum. More frequent inspection (6 months) for critical structures and harsh environments. Inspect for corrosion, loosening, and fatigue cracks.\n\nCan I paint over stainless fasteners?\n\nNot necessary and not recommended. Paint won't adhere well to stainless and may hide corrosion problems. Leave stainless fasteners unpainted.\n\nWhat's the lifespan of A4 stainless in salt water?\n\nProperly installed A4 stainless can last 20+ years in marine environments. Lifespan depends on installation quality, loading conditions, and specific environmental factors.",
-        "zh": "不锈钢紧固件在海洋环境中为什么会发生磨损？\n\n不锈钢在安装时没有润滑或扭矩过大容易发生磨损。始终使用海洋级润滑剂。\n\n我可以在水下使用镀锌紧固件吗？\n\n不推荐。热镀锌在水上有效但在盐水中迅速降解。"
-      }
+        "en": "",
+        "zh": ""
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Why do stainless fasteners gall in marine environments?"
+          },
+          "a": {
+            "en": "Stainless steel is prone to galling (thread seizure) when installed without lubrication or with excessive torque. Always use marine-grade lubricant during installation."
+          }
+        },
+        {
+          "q": {
+            "en": "Can I use galvanized fasteners underwater?"
+          },
+          "a": {
+            "en": "Not recommended. HDG works above water but rapidly degrades in saltwater immersion. Use A4 stainless or super duplex for underwater applications."
+          }
+        },
+        {
+          "q": {
+            "en": "What's the difference between 304 and 316 stainless for marine use?"
+          },
+          "a": {
+            "en": "316 contains molybdenum which significantly improves chloride corrosion resistance. Use 304 only for protected indoor marine environments. Always use 316 for outdoor marine exposure."
+          }
+        },
+        {
+          "q": {
+            "en": "How often should marine fasteners be inspected?"
+          },
+          "a": {
+            "en": "Annual inspection is minimum. More frequent inspection (6 months) for critical structures and harsh environments. Inspect for corrosion, loosening, and fatigue cracks."
+          }
+        },
+        {
+          "q": {
+            "en": "Can I paint over stainless fasteners?"
+          },
+          "a": {
+            "en": "Not necessary and not recommended. Paint won't adhere well to stainless and may hide corrosion problems. Leave stainless fasteners unpainted."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

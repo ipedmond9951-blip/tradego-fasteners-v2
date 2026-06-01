@@ -76,9 +76,59 @@
         "zh": "常见问题"
       },
       "body": {
-        "en": "What is the minimum order for sea freight shipping?\n\nMinimum is typically 500kg for sea freight, but 1000kg+ is more economical. Full container loads (15-25 tonnes) offer the best unit shipping cost.\n\nHow do I prevent fastener corrosion during ocean shipping?\n\nUse VCI (Vapor Corrosion Inhibitor) packaging materials, desiccant packs, and ensure fasteners are completely dry before packing. For highly corrosive environments, specify hot-dip galvanized or stainless steel fasteners.\n\nCan you arrange freight forwarding to African ports?\n\nYes. TradeGo works with experienced international freight forwarders who handle African port clearance and inland transport. We can quote CIF (Cost, Insurance, Freight) to destination port or FCA (Free Carrier) from Chinese port.\n\nWhat happens if fasteners arrive damaged?\n\nDocument any damage with photos at time of receipt. File claims with the shipping line within their specified time limits (typically 24-48 hours for visible damage). TradeGo assists with claims documentation and coordinates with freight partners.\n\nDo I need a freight forwarder?\n\nFor small orders under 500kg, air freight or courier may be more practical despite higher per-unit cost. For larger orders, a freight forwarder optimizes costs and handles documentation. We can recommend experienced forwarders for African destinations.\n\nHow accurate are transit time estimates?\n\nBase transit times are reliable, but add 5-10 days for African ports to account for potential congestion, customs clearance delays, and inland transport. Port delays are common at Durban, Lagos, and some other African ports.",
-        "zh": "海运最小订单量是多少？\n\n通常500kg，但1000kg以上更经济。全集装箱装载（15-25吨）提供最好的单位运输成本。\n\n如何在海运过程中防止紧固件腐蚀？\n\n使用VCI（气相腐蚀抑制剂）包装材料、干燥剂包，并确保紧固件在包装前完全干燥。"
-      }
+        "en": "",
+        "zh": ""
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What is the minimum order for sea freight shipping?"
+          },
+          "a": {
+            "en": "Minimum is typically 500kg for sea freight, but 1000kg+ is more economical. Full container loads (15-25 tonnes) offer the best unit shipping cost."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I prevent fastener corrosion during ocean shipping?"
+          },
+          "a": {
+            "en": "Use VCI (Vapor Corrosion Inhibitor) packaging materials, desiccant packs, and ensure fasteners are completely dry before packing. For highly corrosive environments, specify hot-dip galvanized or stainless steel fasteners."
+          }
+        },
+        {
+          "q": {
+            "en": "Can you arrange freight forwarding to African ports?"
+          },
+          "a": {
+            "en": "Yes. TradeGo works with experienced international freight forwarders who handle African port clearance and inland transport. We can quote CIF (Cost, Insurance, Freight) to destination port or FCA (Free Carrier) from Chinese port."
+          }
+        },
+        {
+          "q": {
+            "en": "What happens if fasteners arrive damaged?"
+          },
+          "a": {
+            "en": "Document any damage with photos at time of receipt. File claims with the shipping line within their specified time limits (typically 24-48 hours for visible damage). TradeGo assists with claims documentation and coordinates with freight partners."
+          }
+        },
+        {
+          "q": {
+            "en": "Do I need a freight forwarder?"
+          },
+          "a": {
+            "en": "For small orders under 500kg, air freight or courier may be more practical despite higher per-unit cost. For larger orders, a freight forwarder optimizes costs and handles documentation. We can recommend experienced forwarders for African destinations."
+          }
+        },
+        {
+          "q": {
+            "en": "How accurate are transit time estimates?"
+          },
+          "a": {
+            "en": "Base transit times are reliable, but add 5-10 days for African ports to account for potential congestion, customs clearance delays, and inland transport. Port delays are common at Durban, Lagos, and some other African ports."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

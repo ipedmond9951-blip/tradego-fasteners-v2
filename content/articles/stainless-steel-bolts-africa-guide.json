@@ -120,8 +120,34 @@
         "en": "Frequently Asked Questions"
       },
       "body": {
-        "en": "Q: Can stainless steel <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a> be used with galvanized steel?\nA: Avoid using stainless steel with galvanized steel in wet environments due to galvanic corrosion. Use stainless steel throughout or separate with plastic <a href=\"/products#washers\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#washers\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">washers</a></a>.\n\nQ: What's the typical lead time from China to Africa?\nA: Sea freight typically 25-35 days from Chinese ports to major African ports like Durban, Mombasa, or Lagos. Air freight reduces to 5-7 days but costs 3-4x more.\n\nQ: Are A4 (316) <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a> worth the extra cost for coastal projects?\nA: Yes—the 20-30% price premium for A4 vs A2 is justified by 3-4x longer service life in coastal environments, reducing replacement costs significantly."
-      }
+        "en": ""
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Q: Can stainless steel bolts be used with galvanized steel?"
+          },
+          "a": {
+            "en": "A: Avoid using stainless steel with galvanized steel in wet environments due to galvanic corrosion. Use stainless steel throughout or separate with plastic washers."
+          }
+        },
+        {
+          "q": {
+            "en": "Q: What's the typical lead time from China to Africa?"
+          },
+          "a": {
+            "en": "A: Sea freight typically 25-35 days from Chinese ports to major African ports like Durban, Mombasa, or Lagos. Air freight reduces to 5-7 days but costs 3-4x more."
+          }
+        },
+        {
+          "q": {
+            "en": "Q: Are A4 (316) bolts worth the extra cost for coastal projects?"
+          },
+          "a": {
+            "en": "A: Yes—the 20-30% price premium for A4 vs A2 is justified by 3-4x longer service life in coastal environments, reducing replacement costs significantly."
+          }
+        }
+      ]
     }
   ],
   "cta": {

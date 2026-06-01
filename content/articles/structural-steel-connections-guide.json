@@ -76,9 +76,51 @@
         "zh": "常见问题"
       },
       "body": {
-        "en": "What's the difference between ASTM A325 and A490 bolts?\n\nA325 bolts (minimum 825 MPa tensile strength) are most common for structural connections. A490 bolts (minimum 1035 MPa) are higher strength, used for larger diameters or when higher capacity needed. A490 should not be used in shear connections.\n\nCan I use ordinary hex bolts for structural connections?\n\nNo. Structural connections require high-strength bolts (Grade 8.8+) with controlled pre-tension. Ordinary bolts (Grade 4.6) are for non-structural connections only.\n\nWhat's the correct tightening sequence?\n\nFor multiple-bolt connections, tighten in a star pattern from center outward. This prevents uneven loading and warping of the connection.\n\nWhy do structural bolts sometimes need washers?\n\nWashers serve multiple purposes: distribution of load over connected material, protection of coated surfaces, and in some cases, indicating proper pre-tensioning.\n\nHow do I know if a connection is pre-tensioned?\n\nSpecifications and drawings indicate pre-tensioning requirements. If not specified, check applicable code requirements. Critical structures typically require pre-tensioning.\n\nWhat's the maximum bolt spacing for structural connections?\n\nPer most standards, maximum spacing is 200mm or 14 times the fastener diameter, whichever is smaller. Minimum edge distance is 1.5 times the fastener diameter.",
-        "zh": "ASTM A325和A490螺栓有什么区别？\n\nA325（最小825 MPa抗拉强度）是最常见的结构连接用螺栓。A490（最小1035 MPa）强度更高，用于更大直径或需要更高容量的情况。\n\n我可以使用普通六角螺栓进行结构连接吗？\n\n不能。结构连接需要高强度螺栓（8.8级+）配合受控预拉伸。普通螺栓（4.6级）仅用于非结构连接。"
-      }
+        "en": "",
+        "zh": ""
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What's the difference between ASTM A325 and A490 bolts?"
+          },
+          "a": {
+            "en": "A325 bolts (minimum 825 MPa tensile strength) are most common for structural connections. A490 bolts (minimum 1035 MPa) are higher strength, used for larger diameters or when higher capacity needed. A490 should not be used in shear connections."
+          }
+        },
+        {
+          "q": {
+            "en": "Can I use ordinary hex bolts for structural connections?"
+          },
+          "a": {
+            "en": "No. Structural connections require high-strength bolts (Grade 8.8+) with controlled pre-tension. Ordinary bolts (Grade 4.6) are for non-structural connections only."
+          }
+        },
+        {
+          "q": {
+            "en": "What's the correct tightening sequence?"
+          },
+          "a": {
+            "en": "For multiple-bolt connections, tighten in a star pattern from center outward. This prevents uneven loading and warping of the connection."
+          }
+        },
+        {
+          "q": {
+            "en": "Why do structural bolts sometimes need washers?"
+          },
+          "a": {
+            "en": "Washers serve multiple purposes: distribution of load over connected material, protection of coated surfaces, and in some cases, indicating proper pre-tensioning."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I know if a connection is pre-tensioned?"
+          },
+          "a": {
+            "en": "Specifications and drawings indicate pre-tensioning requirements. If not specified, check applicable code requirements. Critical structures typically require pre-tensioning."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
