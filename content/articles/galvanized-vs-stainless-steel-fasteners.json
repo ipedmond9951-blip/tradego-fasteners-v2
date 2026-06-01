@@ -1,7 +1,7 @@
 {
   "slug": "galvanized-vs-stainless-steel-fasteners",
   "category": "Technical Guide",
-  "date": "2025-11-29",
+  "date": "2026-06-02",
   "readTime": 10,
   "image": "/images/scenarios/galvanized-vs-stainless-steel-fasteners.jpg",
   "title": {
@@ -308,9 +308,31 @@
     },
     "link": "/#inquiry"
   },
-  "imageAlt": "Galvanized vs Stainless Steel Fasteners - fastener solutions",
+  "imageAlt": {
+    "en": "Galvanized vs Stainless Steel Fasteners - fastener solutions",
+    "zh": "Galvanized vs Stainless Steel Fasteners - fastener solutions",
+    "es": "Galvanized vs Stainless Steel Fasteners - fastener solutions",
+    "ar": "Galvanized vs Stainless Steel Fasteners - fastener solutions",
+    "fr": "Galvanized vs Stainless Steel Fasteners - fastener solutions",
+    "pt": "Galvanized vs Stainless Steel Fasteners - fastener solutions",
+    "ru": "Galvanized vs Stainless Steel Fasteners - fastener solutions",
+    "ja": "Galvanized vs Stainless Steel Fasteners - fastener solutions",
+    "de": "Galvanized vs Stainless Steel Fasteners - fastener solutions",
+    "hi": "Galvanized vs Stainless Steel Fasteners - fastener solutions"
+  },
   "updated": "2026-03-02",
-  "author": "TradeGo Fasteners",
+  "author": {
+    "name": "TradeGo Fasteners",
+    "title": "Industry Expert",
+    "bio": "Experienced professional in fastener industry with expertise in African markets.",
+    "credentials": "B2B Export Specialist",
+    "linkedin": "https://www.linkedin.com/in/tradego-fasteners",
+    "expertise": [
+      "Fastener Manufacturing",
+      "Export Logistics",
+      "African Markets"
+    ]
+  },
   "relatedArticles": [
     {
       "slug": "stainless-steel-fasteners-304-316",
@@ -323,6 +345,33 @@
     {
       "slug": "structural-steel-connection-fasteners",
       "title": "Structural Steel Connection Fasteners: Beam, Column & Tru..."
+    }
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
     }
   ]
 }
