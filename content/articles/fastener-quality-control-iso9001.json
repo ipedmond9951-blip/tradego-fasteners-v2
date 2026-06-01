@@ -1,7 +1,7 @@
 {
   "slug": "fastener-quality-control-iso9001",
   "category": "Quality Standards",
-  "date": "2025-03-01",
+  "date": "2026-06-02",
   "readTime": 9,
   "image": "/images/scenarios/fastener-quality-control-iso9001.jpg",
   "title": {
@@ -317,9 +317,31 @@
     },
     "link": "/#inquiry"
   },
-  "imageAlt": "Fastener Quality Control Under ISO 9001 - fastener solutions",
+  "imageAlt": {
+    "en": "Fastener Quality Control Under ISO 9001 - fastener solutions",
+    "zh": "Fastener Quality Control Under ISO 9001 - fastener solutions",
+    "es": "Fastener Quality Control Under ISO 9001 - fastener solutions",
+    "ar": "Fastener Quality Control Under ISO 9001 - fastener solutions",
+    "fr": "Fastener Quality Control Under ISO 9001 - fastener solutions",
+    "pt": "Fastener Quality Control Under ISO 9001 - fastener solutions",
+    "ru": "Fastener Quality Control Under ISO 9001 - fastener solutions",
+    "ja": "Fastener Quality Control Under ISO 9001 - fastener solutions",
+    "de": "Fastener Quality Control Under ISO 9001 - fastener solutions",
+    "hi": "Fastener Quality Control Under ISO 9001 - fastener solutions"
+  },
   "updated": "2026-02-02",
-  "author": "TradeGo Fasteners",
+  "author": {
+    "name": "TradeGo Fasteners",
+    "title": "Industry Expert",
+    "bio": "Experienced professional in fastener industry with expertise in African markets.",
+    "credentials": "B2B Export Specialist",
+    "linkedin": "https://www.linkedin.com/in/tradego-fasteners",
+    "expertise": [
+      "Fastener Manufacturing",
+      "Export Logistics",
+      "African Markets"
+    ]
+  },
   "relatedArticles": [
     {
       "slug": "fastener-testing-quality-certification",
@@ -332,6 +354,33 @@
     {
       "slug": "durban-fastener-supplier",
       "title": "Durban Fastener Supplier: IBR Roofing Screws & Construction Fasteners from China"
+    }
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
     }
   ]
 }

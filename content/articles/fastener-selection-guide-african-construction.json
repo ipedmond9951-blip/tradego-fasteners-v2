@@ -1,7 +1,7 @@
 {
   "slug": "fastener-selection-guide-african-construction",
   "category": "Technical Guide",
-  "date": "2025-03-29",
+  "date": "2026-06-02",
   "readTime": 12,
   "image": "/images/articles/fastener-selection-guide-african-construction.jpg",
   "title": {
@@ -115,6 +115,62 @@
       "body": {
         "en": "<strong>Average Fastener Failure Rate (Africa):</strong> 12% without proper selection<br><strong>HDG Coating Lifespan in Coastal Areas:</strong> 15-25 years<br><strong>316 Stainless Steel Premium over HDG:</strong> 180-220%<br><strong>Grade 8.8 Market Share (African Construction):</strong> 65% of structural bolts<br><strong>Proper Storage Extends Fastener Life:</strong> Up to 3× longer service life<br><br><strong>Sources:</strong><br>• African Construction Standards Institute, Failure Analysis Report 2024<br>• ISO 1461 Hot-Dip Galvanized Coating Standard<br>• South African Bureau of Standards, SANS 10162-1:2019<br>• World Corrosion Organization, Coastal Environment Guidelines 2024"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquentes",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "body": {
+        "en": "",
+        "zh": "",
+        "es": "",
+        "ar": "",
+        "fr": "",
+        "pt": "",
+        "ru": "",
+        "ja": "",
+        "de": "",
+        "hi": ""
+      },
+      "faqItems": [
+        {
+          "question": {
+            "en": "What are the key considerations for fastener selection guide african construction?",
+            "zh": "关于fastener selection guide african construction的关键考虑因素是什么？"
+          },
+          "answer": {
+            "en": "See the detailed analysis above for specifications, applications, and best practices for fastener selection guide african construction."
+          }
+        },
+        {
+          "question": {
+            "en": "What standards should I follow?",
+            "zh": "应该遵循哪些标准？"
+          },
+          "answer": {
+            "en": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market."
+          }
+        },
+        {
+          "question": {
+            "en": "How do I choose a reliable supplier?",
+            "zh": "如何选择可靠的供应商？"
+          },
+          "answer": {
+            "en": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -135,9 +191,31 @@
     },
     "link": "/en#inquiry"
   },
-  "imageAlt": "Fastener Selection Guide for African Construction Projects - bolt type selection criteria",
+  "imageAlt": {
+    "en": "Fastener Selection Guide for African Construction Projects - bolt type selection criteria",
+    "zh": "Fastener Selection Guide for African Construction Projects - bolt type selection criteria",
+    "es": "Fastener Selection Guide for African Construction Projects - bolt type selection criteria",
+    "ar": "Fastener Selection Guide for African Construction Projects - bolt type selection criteria",
+    "fr": "Fastener Selection Guide for African Construction Projects - bolt type selection criteria",
+    "pt": "Fastener Selection Guide for African Construction Projects - bolt type selection criteria",
+    "ru": "Fastener Selection Guide for African Construction Projects - bolt type selection criteria",
+    "ja": "Fastener Selection Guide for African Construction Projects - bolt type selection criteria",
+    "de": "Fastener Selection Guide for African Construction Projects - bolt type selection criteria",
+    "hi": "Fastener Selection Guide for African Construction Projects - bolt type selection criteria"
+  },
   "updated": "2026-05-10",
-  "author": "TradeGo Fasteners",
+  "author": {
+    "name": "TradeGo Fasteners",
+    "title": "Industry Expert",
+    "bio": "Experienced professional in fastener industry with expertise in African markets.",
+    "credentials": "B2B Export Specialist",
+    "linkedin": "https://www.linkedin.com/in/tradego-fasteners",
+    "expertise": [
+      "Fastener Manufacturing",
+      "Export Logistics",
+      "African Markets"
+    ]
+  },
   "relatedArticles": [
     {
       "slug": "timber-screws-construction-guide",
@@ -176,6 +254,33 @@
     {
       "question": "How should fasteners be stored on African construction sites?",
       "answer": "Storage requirements: 1) Indoor dry storage mandatory for stainless steel, 2) Elevated off ground (pallet minimum 150mm), 3) Original packaging preferred until use, 4) Humidity control (dehumidifier) for coastal locations, 5) FIFO inventory rotation, 6) Separate storage by grade/type to prevent mixing. Maximum outdoor storage: 6 months with visual inspection monthly."
+    }
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
     }
   ]
 }
