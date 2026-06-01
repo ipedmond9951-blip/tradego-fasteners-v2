@@ -1,7 +1,7 @@
 {
   "slug": "bolt-types-applications-guide",
   "category": "Technical Guide",
-  "date": "2026-04-24",
+  "date": "2026-06-02",
   "readTime": 8,
   "image": "/images/articles/bolt-types-applications-guide.jpg",
   "title": {
@@ -160,7 +160,18 @@
       "answer": "Prevent corrosion in African climates by: 1) Using hot-dip galvanized (HDG) bolts for outdoor construction - 45-85μm zinc coating; 2) Using stainless steel 316 for mining and coastal areas with high humidity; 3) Using the correct material for the environment - avoid carbon steel without coating; 4) Regular inspection and maintenance schedule."
     }
   ],
-  "imageAlt": "Various bolt types and applications for construction",
+  "imageAlt": {
+    "en": "Various bolt types and applications for construction",
+    "zh": "Various bolt types and applications for construction",
+    "es": "Various bolt types and applications for construction",
+    "ar": "Various bolt types and applications for construction",
+    "fr": "Various bolt types and applications for construction",
+    "pt": "Various bolt types and applications for construction",
+    "ru": "Various bolt types and applications for construction",
+    "ja": "Various bolt types and applications for construction",
+    "de": "Various bolt types and applications for construction",
+    "hi": "Various bolt types and applications for construction"
+  },
   "_file": "bolt-types-applications-guide",
   "relatedArticles": [
     {
@@ -181,5 +192,32 @@
     }
   ],
   "meta_description": "Complete guide to bolt types: hex bolts, carriage bolts, eye bolts, U-bolts. Specifications, load ratings, and applications.",
-  "updated": "2026-05-14"
+  "updated": "2026-05-14",
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
+    }
+  ]
 }

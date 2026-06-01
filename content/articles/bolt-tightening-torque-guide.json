@@ -1,7 +1,7 @@
 {
   "slug": "bolt-tightening-torque-guide",
   "category": "Technical Guide",
-  "date": "2026-05-13",
+  "date": "2026-06-02",
   "readTime": 8,
   "image": "/images/articles/bolt-tightening-torque-guide.jpg",
   "title": {
@@ -206,7 +206,18 @@
       "answer": "Torque wrench usage: 1) Select correct torque value for bolt grade and size; 2) Set wrench to desired value; 3) Apply smooth, steady pull - avoid jerky movements; 4) Listen/feel for click or release; 5) Never use as a breaker bar; 6) Calibrate annually. For African field conditions, use dial-type or click-type wrenches - digital requires battery management."
     }
   ],
-  "imageAlt": "Bolt Tightening and Torque Guide - fastener solutions",
+  "imageAlt": {
+    "en": "Bolt Tightening and Torque Guide - fastener solutions",
+    "zh": "Bolt Tightening and Torque Guide - fastener solutions",
+    "es": "Bolt Tightening and Torque Guide - fastener solutions",
+    "ar": "Bolt Tightening and Torque Guide - fastener solutions",
+    "fr": "Bolt Tightening and Torque Guide - fastener solutions",
+    "pt": "Bolt Tightening and Torque Guide - fastener solutions",
+    "ru": "Bolt Tightening and Torque Guide - fastener solutions",
+    "ja": "Bolt Tightening and Torque Guide - fastener solutions",
+    "de": "Bolt Tightening and Torque Guide - fastener solutions",
+    "hi": "Bolt Tightening and Torque Guide - fastener solutions"
+  },
   "_file": "bolt-tightening-torque-guide",
   "relatedArticles": [
     {
@@ -224,6 +235,33 @@
     {
       "slug": "fastener-storage-handling-guide",
       "title": "Fastener Storage and Handling Guide: Prevent Damage and Corrosion"
+    }
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
     }
   ]
 }

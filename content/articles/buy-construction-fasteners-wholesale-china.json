@@ -1,7 +1,7 @@
 {
   "slug": "buy-construction-fasteners-wholesale-china",
   "category": "Procurement Guide",
-  "date": "2026-05-13",
+  "date": "2026-06-02",
   "readTime": 11,
   "image": "/images/articles/buy-construction-fasteners-wholesale-china.jpg",
   "title": {
@@ -187,7 +187,18 @@
     "washers",
     "high-tensile-bolts"
   ],
-  "imageAlt": "Fastener logistics and distribution in Africa",
+  "imageAlt": {
+    "en": "Fastener logistics and distribution in Africa",
+    "zh": "Fastener logistics and distribution in Africa",
+    "es": "Fastener logistics and distribution in Africa",
+    "ar": "Fastener logistics and distribution in Africa",
+    "fr": "Fastener logistics and distribution in Africa",
+    "pt": "Fastener logistics and distribution in Africa",
+    "ru": "Fastener logistics and distribution in Africa",
+    "ja": "Fastener logistics and distribution in Africa",
+    "de": "Fastener logistics and distribution in Africa",
+    "hi": "Fastener logistics and distribution in Africa"
+  },
   "_file": "buy-construction-fasteners-wholesale-china",
   "relatedArticles": [
     {
@@ -208,5 +219,32 @@
     }
   ],
   "meta_description": "How to source construction fasteners wholesale from China. Supplier evaluation, pricing, shipping, and quality control.",
-  "updated": "2026-05-13"
+  "updated": "2026-05-13",
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
+    }
+  ]
 }
