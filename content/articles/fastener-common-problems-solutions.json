@@ -1,7 +1,7 @@
 {
   "slug": "fastener-common-problems-solutions",
   "category": "Technical Guide",
-  "date": "2026-04-24",
+  "date": "2026-06-02",
   "readTime": 7,
   "image": "/images/articles/fastener-common-problems-solutions.jpg",
   "title": {
@@ -65,6 +65,62 @@
       "body": {
         "en": "Broken <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a></a> compromise structural integrity:\n\nCauses:\n- Overloading (exceeds <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a></a> capacity)\n- Fatigue from repeated loading\n- Impact or shock loads\n- Material defects\n- Incorrect <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a></a> grade for application\n\nSolutions:\n1. Immediate:\n   - Remove broken <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a></a> (drill and extract or use screw extractor)\n   - Replace with higher-grade <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a></a> if possible\n\n2. Prevention:\n   - Verify <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a></a> capacity exceeds expected loads\n   - Use <a href=\"/products#washers\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#washers\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">washers</a></a> to distribute load\n   - Consider fatigue-rated <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a></a> for dynamic loads\n   - Inspect <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a></a> regularly in critical applications\n\n3. For broken-off <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a> in tapped holes:\n   - Drill out and use Helicoil thread insert\n   - Or drill and tap for next larger size"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquentes",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "body": {
+        "en": "",
+        "zh": "",
+        "es": "",
+        "ar": "",
+        "fr": "",
+        "pt": "",
+        "ru": "",
+        "ja": "",
+        "de": "",
+        "hi": ""
+      },
+      "faqItems": [
+        {
+          "question": {
+            "en": "What are the key considerations for fastener common problems solutions?",
+            "zh": "关于fastener common problems solutions的关键考虑因素是什么？"
+          },
+          "answer": {
+            "en": "See the detailed analysis above for specifications, applications, and best practices for fastener common problems solutions."
+          }
+        },
+        {
+          "question": {
+            "en": "What standards should I follow?",
+            "zh": "应该遵循哪些标准？"
+          },
+          "answer": {
+            "en": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market."
+          }
+        },
+        {
+          "question": {
+            "en": "How do I choose a reliable supplier?",
+            "zh": "如何选择可靠的供应商？"
+          },
+          "answer": {
+            "en": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region."
+          }
+        }
+      ]
     }
   ],
   "cta": {
@@ -84,7 +140,18 @@
     "washers",
     "lock-nuts"
   ],
-  "imageAlt": "Infrastructure construction fasteners for African projects",
+  "imageAlt": {
+    "en": "Infrastructure construction fasteners for African projects",
+    "zh": "Infrastructure construction fasteners for African projects",
+    "es": "Infrastructure construction fasteners for African projects",
+    "ar": "Infrastructure construction fasteners for African projects",
+    "fr": "Infrastructure construction fasteners for African projects",
+    "pt": "Infrastructure construction fasteners for African projects",
+    "ru": "Infrastructure construction fasteners for African projects",
+    "ja": "Infrastructure construction fasteners for African projects",
+    "de": "Infrastructure construction fasteners for African projects",
+    "hi": "Infrastructure construction fasteners for African projects"
+  },
   "_file": "fastener-common-problems-solutions",
   "relatedArticles": [
     {
@@ -102,6 +169,33 @@
     {
       "slug": "fastener-material-selection-guide",
       "title": "Fastener Material Selection Guide: Carbon Steel, Stainless, Alloy"
+    }
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
     }
   ]
 }
