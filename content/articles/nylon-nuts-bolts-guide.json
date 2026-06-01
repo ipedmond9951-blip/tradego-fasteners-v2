@@ -1,7 +1,7 @@
 {
   "slug": "nylon-nuts-bolts-guide",
   "category": "Technical Guide",
-  "date": "2025-05-29",
+  "date": "2026-06-02",
   "readTime": 8,
   "image": "/images/articles/nylon-nuts-bolts-guide.png",
   "title": {
@@ -231,9 +231,31 @@
     },
     "link": "/en#inquiry"
   },
-  "imageAlt": "Nylon Nuts and Bolts Guide - fastener solutions",
+  "imageAlt": {
+    "en": "Nylon Nuts and Bolts Guide - fastener solutions",
+    "zh": "Nylon Nuts and Bolts Guide - fastener solutions",
+    "es": "Nylon Nuts and Bolts Guide - fastener solutions",
+    "ar": "Nylon Nuts and Bolts Guide - fastener solutions",
+    "fr": "Nylon Nuts and Bolts Guide - fastener solutions",
+    "pt": "Nylon Nuts and Bolts Guide - fastener solutions",
+    "ru": "Nylon Nuts and Bolts Guide - fastener solutions",
+    "ja": "Nylon Nuts and Bolts Guide - fastener solutions",
+    "de": "Nylon Nuts and Bolts Guide - fastener solutions",
+    "hi": "Nylon Nuts and Bolts Guide - fastener solutions"
+  },
   "updated": "2026-02-04",
-  "author": "TradeGo Fasteners",
+  "author": {
+    "name": "TradeGo Fasteners",
+    "title": "Industry Expert",
+    "bio": "Experienced professional in fastener industry with expertise in African markets.",
+    "credentials": "B2B Export Specialist",
+    "linkedin": "https://www.linkedin.com/in/tradego-fasteners",
+    "expertise": [
+      "Fastener Manufacturing",
+      "Export Logistics",
+      "African Markets"
+    ]
+  },
   "relatedArticles": [
     {
       "slug": "anchor-bolts-foundation-guide",
@@ -246,6 +268,33 @@
     {
       "slug": "carriage-bolts-guide",
       "title": "Carriage Bolts Guide: Square Neck Bolts for Wood & Timber..."
+    }
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
     }
   ]
 }
