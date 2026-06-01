@@ -36,7 +36,16 @@
         "en": "True Cost Calculation Template"
       },
       "body": {
-        "en": "Use this template to calculate true <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a></a></a></a></a>/a> cost:\n\n1. PRODUCT COST (FOB China)\n   Unit Price: $___/kg or $___/pc\n   Order Quantity: ___ kg or pcs\n   Subtotal: $___\n\n2. PACKAGING\n   Packaging Cost: $___\n   Palletization: $___\n   Subtotal: $___\n\n3. DOMESTIC LOGISTICS (China)\n   Trucking to Port: $___\n   Port Handling: $___\n   Subtotal: $___\n\n4. OCEAN FREIGHT\n   Ocean Freight: $___\n   Insurance (1% CIF): $___\n   Subtotal: $___\n\n5. DESTINATION COSTS\n   Port Handling: $___\n   Customs Duty (___%): $___\n   VAT (___%): $___\n   Clearing Agent: $___\n   Subtotal: $___\n\n6. INLAND TRANSPORT\n   Trucking to Warehouse: $___\n   Customs Broker: $___\n   Subtotal: $___\n\nTOTAL LANDED COST: $___\nCost Per Unit: $___/kg or $___/pc"
+        "en": "Use this template to calculate true <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a></a></a></a></a>/a> cost:\n\n1. PRODUCT COST (FOB China)\n   Unit Price: $___/kg or $___/pc\n   Order Quantity: ___ kg or pcs\n   Subtotal: $___\n\n2. PACKAGING\n   Packaging Cost: $___\n   Palletization: $___\n   Subtotal: $___\n\n3. DOMESTIC LOGISTICS (China)\n   Trucking to Port: $___\n   Port Handling: $___\n   Subtotal: $___\n\n4. OCEAN FREIGHT\n   Ocean Freight: $___\n   Insurance (1% CIF): $___\n   Subtotal: $___\n\n5. DESTINATION COSTS\n   Port Handling: $___\n   Customs Duty (___%): $___\n   VAT (___%): $___\n   Clearing Agent: $___\n   Subtotal: $___\n\n6. INLAND TRANSPORT\n   Trucking to Warehouse: $___\n   Customs Broker: $___\n   Subtotal: $___\n\nTOTAL LANDED COST: $___\nCost Per Unit: $___/kg or $___/pc",
+        "zh": "<p>Content coming soon.</p>",
+        "es": "<p>Content coming soon.</p>",
+        "ar": "<p>Content coming soon.</p>",
+        "fr": "<p>Content coming soon.</p>",
+        "pt": "<p>Content coming soon.</p>",
+        "ru": "<p>Content coming soon.</p>",
+        "ja": "<p>Content coming soon.</p>",
+        "de": "<p>Content coming soon.</p>",
+        "hi": "<p>Content coming soon.</p>"
       }
     },
     {
@@ -45,7 +54,16 @@
         "en": "Supplier Comparison Matrix"
       },
       "body": {
-        "en": "Compare suppliers using this matrix:\n\n| Criteria | Supplier A | Supplier B | Supplier C |\n|----------|------------|------------|------------|\n| FOB Price | $___/kg | $___/kg | $___/kg |\n| Lead Time | ___ weeks | ___ weeks | ___ weeks |\n| MOQ | ___ MT | ___ MT | ___ MT |\n| Quality Cert | | | |\n| Payment Terms | | | |\n| Landed Cost | $___/kg | $___/kg | $___/kg |\n| Score (1-5) | | | |"
+        "en": "Compare suppliers using this matrix:\n\n| Criteria | Supplier A | Supplier B | Supplier C |\n|----------|------------|------------|------------|\n| FOB Price | $___/kg | $___/kg | $___/kg |\n| Lead Time | ___ weeks | ___ weeks | ___ weeks |\n| MOQ | ___ MT | ___ MT | ___ MT |\n| Quality Cert | | | |\n| Payment Terms | | | |\n| Landed Cost | $___/kg | $___/kg | $___/kg |\n| Score (1-5) | | | |",
+        "zh": "<p>Content coming soon.</p>",
+        "es": "<p>Content coming soon.</p>",
+        "ar": "<p>Content coming soon.</p>",
+        "fr": "<p>Content coming soon.</p>",
+        "pt": "<p>Content coming soon.</p>",
+        "ru": "<p>Content coming soon.</p>",
+        "ja": "<p>Content coming soon.</p>",
+        "de": "<p>Content coming soon.</p>",
+        "hi": "<p>Content coming soon.</p>"
       }
     },
     {
@@ -54,7 +72,16 @@
         "en": "Cost Reduction Tips"
       },
       "body": {
-        "en": "Strategies to reduce <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a></a></a></a></a>/a> costs:\n\n1. Container Optimization:\n- Fill containers completely\n- Mix product types\n- Use optimal pallet sizes\n\n2. Supplier Consolidation:\n- Single supplier for multiple products\n- Better pricing for combined volume\n- Reduced logistics costs\n\n3. Annual Commitments:\n- Lock in pricing for year\n- Guaranteed volume = better pricing\n- Reduce administrative costs\n\n4. Quality Focus:\n- Right first time = no returns\n- Proper specification = no over-specifying\n- Test samples before bulk orders"
+        "en": "Strategies to reduce <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a></a></a></a></a>/a> costs:\n\n1. Container Optimization:\n- Fill containers completely\n- Mix product types\n- Use optimal pallet sizes\n\n2. Supplier Consolidation:\n- Single supplier for multiple products\n- Better pricing for combined volume\n- Reduced logistics costs\n\n3. Annual Commitments:\n- Lock in pricing for year\n- Guaranteed volume = better pricing\n- Reduce administrative costs\n\n4. Quality Focus:\n- Right first time = no returns\n- Proper specification = no over-specifying\n- Test samples before bulk orders",
+        "zh": "<p>Content coming soon.</p>",
+        "es": "<p>Content coming soon.</p>",
+        "ar": "<p>Content coming soon.</p>",
+        "fr": "<p>Content coming soon.</p>",
+        "pt": "<p>Content coming soon.</p>",
+        "ru": "<p>Content coming soon.</p>",
+        "ja": "<p>Content coming soon.</p>",
+        "de": "<p>Content coming soon.</p>",
+        "hi": "<p>Content coming soon.</p>"
       }
     },
     {
@@ -72,16 +99,16 @@
         "hi": "अक्सर पूछे जाने वाले प्रश्न"
       },
       "body": {
-        "en": "",
-        "zh": "",
-        "es": "",
-        "ar": "",
-        "fr": "",
-        "pt": "",
-        "ru": "",
-        "ja": "",
-        "de": "",
-        "hi": ""
+        "en": "<p>See frequently asked questions below.</p>",
+        "zh": "<p>See frequently asked questions below.</p>",
+        "es": "<p>See frequently asked questions below.</p>",
+        "ar": "<p>See frequently asked questions below.</p>",
+        "fr": "<p>See frequently asked questions below.</p>",
+        "pt": "<p>See frequently asked questions below.</p>",
+        "ru": "<p>See frequently asked questions below.</p>",
+        "ja": "<p>See frequently asked questions below.</p>",
+        "de": "<p>See frequently asked questions below.</p>",
+        "hi": "<p>See frequently asked questions below.</p>"
       },
       "faqItems": [
         {
