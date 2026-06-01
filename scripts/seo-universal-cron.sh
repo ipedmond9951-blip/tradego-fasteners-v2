@@ -249,7 +249,28 @@ log_section "📡 Phase 6/6: GSC Sitemap Submit"
 if [ "$SKIP_DEPLOY" = false ] && [ "$DRY_RUN" = false ]; then
     if [ -f "$PROJECT_DIR/scripts/gsc-sitemap-submit.js" ]; then
         log "   Submitting sitemap to Google Search Console..."
-        node "$PROJECT_DIR/scripts/gsc-sitemap-submit.js" 2>&1 | tail -10 | tee -a "$SEO_LOG"
+        GSC_LOG="/tmp/gsc-submit-$(date '+%Y%m%d').log"
+        node "$PROJECT_DIR/scripts/gsc-sitemap-submit.js" > "$GSC_LOG" 2>&1
+        tail -10 "$GSC_LOG" | tee -a "$SEO_LOG"
+        
+        # Failure classification
+        if [ -f "$PROJECT_DIR/scripts/gsc-failure-classifier.sh" ]; then
+            GSC_RESULT=$(bash "$PROJECT_DIR/scripts/gsc-failure-classifier.sh" "$GSC_LOG" 2>&1)
+            GSC_EXIT=$?
+            log "   GSC classifier: $GSC_RESULT"
+            
+            if [ "$GSC_EXIT" -ge 3 ]; then
+                log "   🚨 GSC critical failure, will notify via Telegram"
+                bash "$PROJECT_DIR/scripts/telegram-notify.sh" \
+                    --severity=P1 \
+                    "GSC 提交异常:
+
+$GSC_RESULT
+
+请手动检查 gsc-submit.log
+详情: $GSC_LOG" 2>&1 | tee -a "$SEO_LOG"
+            fi
+        fi
     fi
     
     # Token 有效性检查
@@ -258,6 +279,16 @@ if [ "$SKIP_DEPLOY" = false ] && [ "$DRY_RUN" = false ]; then
         NOW=$(node -e "console.log(Date.now())")
         if [ "$TOKEN_EXPIRY" -lt "$NOW" ]; then
             log "   ⚠️  GA4 OAuth token expired, skipping GA4 data fetch"
+            bash "$PROJECT_DIR/scripts/telegram-notify.sh" \
+                --severity=P3 \
+                "GA4 token 过期
+
+需要手动:
+1. 打开 http://localhost:3000/oauth (启动 oauth-server-nopkce.js)
+2. 重新授权
+3. Token 会自动保存" 2>&1 | tee -a "$SEO_LOG" || true
+        else
+            log "   ✅ GA4 token valid"
         fi
     fi
 fi
