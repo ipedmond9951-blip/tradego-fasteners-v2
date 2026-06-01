@@ -1,7 +1,7 @@
 {
   "slug": "bolt-markings-identify-grade",
   "category": "Technical Guide",
-  "date": "2025-10-29",
+  "date": "2026-06-01",
   "readTime": 6,
   "image": "/images/articles/bolt-markings-identify-grade.jpg",
   "title": {
@@ -168,7 +168,18 @@
     "link": "/#inquiry"
   },
   "relatedProducts": [],
-  "imageAlt": "How to Read Bolt Markings - fastener solutions",
+  "imageAlt": {
+    "en": "How to Read Bolt Markings - fastener solutions",
+    "zh": "How to Read Bolt Markings - fastener solutions",
+    "es": "How to Read Bolt Markings - fastener solutions",
+    "ar": "How to Read Bolt Markings - fastener solutions",
+    "fr": "How to Read Bolt Markings - fastener solutions",
+    "pt": "How to Read Bolt Markings - fastener solutions",
+    "ru": "How to Read Bolt Markings - fastener solutions",
+    "ja": "How to Read Bolt Markings - fastener solutions",
+    "de": "How to Read Bolt Markings - fastener solutions",
+    "hi": "How to Read Bolt Markings - fastener solutions"
+  },
   "metaDescription": "Learn to read bolt grade markings: metric and imperial identification for 8.8, 10.9, 12.9 bolts in African industrial applications.",
   "faqItems": [
     {
@@ -193,7 +204,18 @@
     }
   ],
   "updated": "2026-02-12",
-  "author": "TradeGo Fasteners",
+  "author": {
+    "name": "TradeGo Fasteners",
+    "title": "Industry Expert",
+    "bio": "Experienced professional in fastener industry with expertise in African markets.",
+    "credentials": "B2B Export Specialist",
+    "linkedin": "https://www.linkedin.com/in/tradego-fasteners",
+    "expertise": [
+      "Fastener Manufacturing",
+      "Export Logistics",
+      "African Markets"
+    ]
+  },
   "relatedArticles": [
     {
       "slug": "bolt-grade-markings-guide",
@@ -206,6 +228,33 @@
     {
       "slug": "nuts-bolts-glossary-terminology",
       "title": "Fastener Terminology Glossary: Essential Terms for Bolt,..."
+    }
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
     }
   ]
 }

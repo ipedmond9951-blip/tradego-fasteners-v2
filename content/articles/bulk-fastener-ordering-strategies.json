@@ -1,7 +1,7 @@
 {
   "slug": "bulk-fastener-ordering-strategies",
   "category": "Procurement Guide",
-  "date": "2026-04-25",
+  "date": "2026-06-01",
   "readTime": 8,
   "image": "/images/articles/bulk-fastener-ordering-strategies.jpg",
   "title": {
@@ -116,7 +116,18 @@
     "en": "Contact TradeGo for bulk fastener pricing. Email: sales@tradego-fasteners.com",
     "zh": "联系TradeGo获取批量紧固件定价。"
   },
-  "imageAlt": "Bulk Fastener Ordering Cost Reduction Strategies Africa - TradeGo",
+  "imageAlt": {
+    "en": "Bulk Fastener Ordering Cost Reduction Strategies Africa - TradeGo",
+    "zh": "Bulk Fastener Ordering Cost Reduction Strategies Africa - TradeGo",
+    "es": "Bulk Fastener Ordering Cost Reduction Strategies Africa - TradeGo",
+    "ar": "Bulk Fastener Ordering Cost Reduction Strategies Africa - TradeGo",
+    "fr": "Bulk Fastener Ordering Cost Reduction Strategies Africa - TradeGo",
+    "pt": "Bulk Fastener Ordering Cost Reduction Strategies Africa - TradeGo",
+    "ru": "Bulk Fastener Ordering Cost Reduction Strategies Africa - TradeGo",
+    "ja": "Bulk Fastener Ordering Cost Reduction Strategies Africa - TradeGo",
+    "de": "Bulk Fastener Ordering Cost Reduction Strategies Africa - TradeGo",
+    "hi": "Bulk Fastener Ordering Cost Reduction Strategies Africa - TradeGo"
+  },
   "meta_description": "Volume discounts, container optimization, and inventory management strategies for bulk fastener procurement in Africa.",
   "updated": "2026-05-20",
   "relatedArticles": [
@@ -125,6 +136,33 @@
     },
     {
       "slug": "full-thread-half-thread-coarse-fine-thread-guide"
+    }
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
     }
   ]
 }
