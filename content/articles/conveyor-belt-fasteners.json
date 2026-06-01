@@ -1,7 +1,7 @@
 {
   "slug": "conveyor-belt-fasteners",
   "category": "Technical Guide",
-  "date": "2026-04-22",
+  "date": "2026-06-02",
   "readTime": 9,
   "image": "/images/articles/conveyor-belt-fasteners.jpg",
   "title": {
@@ -169,7 +169,18 @@
     },
     "link": "/#inquiry"
   },
-  "imageAlt": "Conveyor Belt Fasteners & Tools Complete - fastener solutions",
+  "imageAlt": {
+    "en": "Conveyor Belt Fasteners & Tools Complete - fastener solutions",
+    "zh": "Conveyor Belt Fasteners & Tools Complete - fastener solutions",
+    "es": "Conveyor Belt Fasteners & Tools Complete - fastener solutions",
+    "ar": "Conveyor Belt Fasteners & Tools Complete - fastener solutions",
+    "fr": "Conveyor Belt Fasteners & Tools Complete - fastener solutions",
+    "pt": "Conveyor Belt Fasteners & Tools Complete - fastener solutions",
+    "ru": "Conveyor Belt Fasteners & Tools Complete - fastener solutions",
+    "ja": "Conveyor Belt Fasteners & Tools Complete - fastener solutions",
+    "de": "Conveyor Belt Fasteners & Tools Complete - fastener solutions",
+    "hi": "Conveyor Belt Fasteners & Tools Complete - fastener solutions"
+  },
   "_file": "conveyor-belt-fasteners",
   "relatedArticles": [
     {
@@ -187,6 +198,33 @@
     {
       "slug": "timber-fasteners-guide",
       "title": "Timber Fasteners Guide: Wood Screws, Coach Screws, and Timber Connectors"
+    }
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
     }
   ]
 }

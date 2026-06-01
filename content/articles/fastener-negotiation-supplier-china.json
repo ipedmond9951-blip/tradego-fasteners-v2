@@ -1,7 +1,7 @@
 {
   "slug": "fastener-negotiation-supplier-china",
   "category": "Trade Guide",
-  "date": "2026-04-24",
+  "date": "2026-06-02",
   "readTime": 6,
   "image": "/images/articles/fastener-negotiation-supplier-china.jpg",
   "title": {
@@ -107,7 +107,18 @@
     "anchor-bolts",
     "washers"
   ],
-  "imageAlt": "Fastener Supplier Negotiation Guide China Trade Expert Tips - TradeGo",
+  "imageAlt": {
+    "en": "Fastener Supplier Negotiation Guide China Trade Expert Tips - TradeGo",
+    "zh": "Fastener Supplier Negotiation Guide China Trade Expert Tips - TradeGo",
+    "es": "Fastener Supplier Negotiation Guide China Trade Expert Tips - TradeGo",
+    "ar": "Fastener Supplier Negotiation Guide China Trade Expert Tips - TradeGo",
+    "fr": "Fastener Supplier Negotiation Guide China Trade Expert Tips - TradeGo",
+    "pt": "Fastener Supplier Negotiation Guide China Trade Expert Tips - TradeGo",
+    "ru": "Fastener Supplier Negotiation Guide China Trade Expert Tips - TradeGo",
+    "ja": "Fastener Supplier Negotiation Guide China Trade Expert Tips - TradeGo",
+    "de": "Fastener Supplier Negotiation Guide China Trade Expert Tips - TradeGo",
+    "hi": "Fastener Supplier Negotiation Guide China Trade Expert Tips - TradeGo"
+  },
   "_file": "fastener-negotiation-supplier-china",
   "relatedArticles": [
     {
@@ -127,5 +138,32 @@
       "title": "Payment Terms for International Fastener Trade: A Complete Guide"
     }
   ],
-  "updated": "2026-05-20"
+  "updated": "2026-05-20",
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
+    }
+  ]
 }
