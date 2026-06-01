@@ -54,3 +54,5 @@ data/
 logs/
 *.log
 content/articles/backup/
+# A/B test images (large binaries)
+public/images/articles/ab-tests/
