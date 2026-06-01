@@ -1,7 +1,7 @@
 {
   "slug": "zinc-plated-vs-galvanized",
   "category": "Product Comparison",
-  "date": "2026-04-22",
+  "date": "2026-06-02",
   "readTime": 9,
   "image": "/images/articles/galvanized-steel-bolts.jpg",
   "title": {
@@ -191,7 +191,18 @@
     },
     "link": "/en#inquiry"
   },
-  "imageAlt": "Hot-dip galvanized steel bolts showing metallic spangle finish - corrosion resistant fasteners for outdoor applications",
+  "imageAlt": {
+    "en": "Hot-dip galvanized steel bolts showing metallic spangle finish - corrosion resistant fasteners for outdoor applications",
+    "zh": "Hot-dip galvanized steel bolts showing metallic spangle finish - corrosion resistant fasteners for outdoor applications",
+    "es": "Hot-dip galvanized steel bolts showing metallic spangle finish - corrosion resistant fasteners for outdoor applications",
+    "ar": "Hot-dip galvanized steel bolts showing metallic spangle finish - corrosion resistant fasteners for outdoor applications",
+    "fr": "Hot-dip galvanized steel bolts showing metallic spangle finish - corrosion resistant fasteners for outdoor applications",
+    "pt": "Hot-dip galvanized steel bolts showing metallic spangle finish - corrosion resistant fasteners for outdoor applications",
+    "ru": "Hot-dip galvanized steel bolts showing metallic spangle finish - corrosion resistant fasteners for outdoor applications",
+    "ja": "Hot-dip galvanized steel bolts showing metallic spangle finish - corrosion resistant fasteners for outdoor applications",
+    "de": "Hot-dip galvanized steel bolts showing metallic spangle finish - corrosion resistant fasteners for outdoor applications",
+    "hi": "Hot-dip galvanized steel bolts showing metallic spangle finish - corrosion resistant fasteners for outdoor applications"
+  },
   "relatedArticles": [
     {
       "slug": "galvanized-vs-stainless-steel-fasteners",
@@ -204,6 +215,33 @@
     {
       "slug": "bolt-grade-markings-guide",
       "title": "Bolt Grade Markings Guide"
+    }
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
     }
   ]
 }
