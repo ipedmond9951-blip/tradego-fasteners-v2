@@ -76,9 +76,51 @@
         "zh": "常见问题"
       },
       "body": {
-        "en": "How long can fasteners be stored?\n\nProperly stored in original packaging in controlled conditions, most fasteners have an indefinite shelf life. Coated fasteners (zinc-plated, galvanized) may show gradual coating degradation over years but remain functional.\n\nWhat's the best storage for stainless steel?\n\nStore indoors in dry conditions. Stainless steel is corrosion-resistant but not immune to staining in humid or chloride-rich environments. Keep in original packaging until use.\n\nCan I store different fastener types together?\n\nGenerally yes, but segregate by material to prevent galvanic concerns and by size to prevent mix-ups. Keep stainless separate from carbon steel.\n\nHow do I prevent thread damage during storage?\n\nKeep fasteners in original packaging or use protective caps. Don't over-pack containers causing pressure on threads. Handle precision fasteners with extra care.\n\nWhat causes white staining on zinc-plated fasteners?\n\nWhite staining is typically zinc oxide or zinc hydroxide from moisture exposure. It doesn't significantly affect fastener performance. Heavy white buildup may indicate extended moisture exposure.\n\nHow do I reclaim partially corroded fasteners?\n\nLight surface corrosion can be wire-brushed off. Inspect threads for damage. Heavily corroded fasteners should be replaced, especially for critical applications.",
-        "zh": "紧固件可以储存多久？\n\n在原始包装中适当储存在受控条件下，大多数紧固件具有无限保质期。\n\n不锈钢的最佳储存方式是什么？\n\n储存在室内干燥条件。不锈钢耐腐蚀但并非完全不受潮湿或含氯环境的影响。"
-      }
+        "en": "",
+        "zh": ""
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "How long can fasteners be stored?"
+          },
+          "a": {
+            "en": "Properly stored in original packaging in controlled conditions, most fasteners have an indefinite shelf life. Coated fasteners (zinc-plated, galvanized) may show gradual coating degradation over years but remain functional."
+          }
+        },
+        {
+          "q": {
+            "en": "What's the best storage for stainless steel?"
+          },
+          "a": {
+            "en": "Store indoors in dry conditions. Stainless steel is corrosion-resistant but not immune to staining in humid or chloride-rich environments. Keep in original packaging until use."
+          }
+        },
+        {
+          "q": {
+            "en": "Can I store different fastener types together?"
+          },
+          "a": {
+            "en": "Generally yes, but segregate by material to prevent galvanic concerns and by size to prevent mix-ups. Keep stainless separate from carbon steel."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I prevent thread damage during storage?"
+          },
+          "a": {
+            "en": "Keep fasteners in original packaging or use protective caps. Don't over-pack containers causing pressure on threads. Handle precision fasteners with extra care."
+          }
+        },
+        {
+          "q": {
+            "en": "What causes white staining on zinc-plated fasteners?"
+          },
+          "a": {
+            "en": "White staining is typically zinc oxide or zinc hydroxide from moisture exposure. It doesn't significantly affect fastener performance. Heavy white buildup may indicate extended moisture exposure."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

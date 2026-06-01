@@ -65,9 +65,51 @@
         "zh": "常见问题"
       },
       "body": {
-        "en": "What is the typical lead time for shipments to Mombasa?\n\nSea freight from China to Mombasa takes 25-35 days. Air freight is faster (5-7 days) but significantly more expensive.\n\nWhat import duties apply to fasteners in Kenya?\n\nImport duty is typically 25% for iron and steel hardware under HS Chapter 73. VAT at 16% applies on CIF value plus duty. Additional levies may apply.\n\nCan I clear goods at Mombasa for Uganda?\n\nYes, goods can be customs-cleared in Mombasa for transit to Uganda under bond. Work with a customs agent experienced in transit procedures.\n\nWhat documentation do I need for KEBS certification?\n\nKEBS import permit application, product test reports, technical specifications, and quality certificates. Lead time for certification is typically 2-4 weeks.\n\nAre there customs warehouses at Mombasa?\n\nYes, licensed warehouses are available for temporary storage. This is useful if you need time to arrange inland transport or complete documentation.\n\nWhat is the best shipping container size for fastener imports?\n\n20ft containers are popular for smaller orders (15-25 tonnes). 40ft for larger orders (25+ tonnes). Less than container load (LCL) available but higher per-unit shipping cost.",
-        "zh": "典型运往蒙巴萨的交货时间是多少？\n\n海运从中国到蒙巴萨需要25-35天。空运更快（5-7天）但费用更高。\n\n肯尼亚对紧固件征收什么进口税？\n\n进口税通常为25%（HS第73章钢铁五金）。VAT为16%。可能适用额外税费。"
-      }
+        "en": "",
+        "zh": ""
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What is the typical lead time for shipments to Mombasa?"
+          },
+          "a": {
+            "en": "Sea freight from China to Mombasa takes 25-35 days. Air freight is faster (5-7 days) but significantly more expensive."
+          }
+        },
+        {
+          "q": {
+            "en": "What import duties apply to fasteners in Kenya?"
+          },
+          "a": {
+            "en": "Import duty is typically 25% for iron and steel hardware under HS Chapter 73. VAT at 16% applies on CIF value plus duty. Additional levies may apply."
+          }
+        },
+        {
+          "q": {
+            "en": "Can I clear goods at Mombasa for Uganda?"
+          },
+          "a": {
+            "en": "Yes, goods can be customs-cleared in Mombasa for transit to Uganda under bond. Work with a customs agent experienced in transit procedures."
+          }
+        },
+        {
+          "q": {
+            "en": "What documentation do I need for KEBS certification?"
+          },
+          "a": {
+            "en": "KEBS import permit application, product test reports, technical specifications, and quality certificates. Lead time for certification is typically 2-4 weeks."
+          }
+        },
+        {
+          "q": {
+            "en": "Are there customs warehouses at Mombasa?"
+          },
+          "a": {
+            "en": "Yes, licensed warehouses are available for temporary storage. This is useful if you need time to arrange inland transport or complete documentation."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

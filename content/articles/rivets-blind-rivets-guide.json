@@ -76,9 +76,51 @@
         "zh": "常见问题"
       },
       "body": {
-        "en": "When should I use blind rivets instead of screws?\n\nBlind rivets are ideal when: only one side is accessible, you need rapid installation, the joint is non-critical and non-structural, or you need a clean appearance without protruding fasteners.\n\nWhat is the shear strength of blind rivets?\n\nVaries by material and diameter. Typical values: 3.2mm aluminum: 200kg, 4.0mm aluminum: 350kg, 4.8mm steel: 500kg, 4.8mm stainless: 400kg. Check manufacturer specifications for your specific rivet.\n\nCan blind rivets be removed?\n\nYes, by drilling out the set rivet body. Use a drill slightly smaller than the original hole to avoid damaging the parent material.\n\nWhat's the difference between open and closed-end rivets?\n\nOpen-end: Hollow rivet body, lighter, less expensive, suitable for general use. Closed-end: Sealed end prevents water/particle entry, essential for watertight applications.\n\nWhy did my rivet fail during installation?\n\nCommon causes: wrong rivet for material thickness, dull rivet tool, damaged rivet, or defective rivet batch. Check tool condition and rivet grip range.",
-        "zh": "什么时候应该使用盲铆钉而不是螺丝？\n\n当只有一侧可触及、需要快速安装、接头非关键且非结构、或需要整洁外观时，盲铆钉是理想选择。\n\n盲铆钉的剪切强度是多少？\n\n因材料和直径而异。典型值：3.2mm铝：200kg，4.0mm铝：350kg，4.8mm钢：500kg。"
-      }
+        "en": "",
+        "zh": ""
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "When should I use blind rivets instead of screws?"
+          },
+          "a": {
+            "en": "Blind rivets are ideal when: only one side is accessible, you need rapid installation, the joint is non-critical and non-structural, or you need a clean appearance without protruding fasteners."
+          }
+        },
+        {
+          "q": {
+            "en": "What is the shear strength of blind rivets?"
+          },
+          "a": {
+            "en": "Varies by material and diameter. Typical values: 3.2mm aluminum: 200kg, 4.0mm aluminum: 350kg, 4.8mm steel: 500kg, 4.8mm stainless: 400kg. Check manufacturer specifications for your specific rivet."
+          }
+        },
+        {
+          "q": {
+            "en": "Can blind rivets be removed?"
+          },
+          "a": {
+            "en": "Yes, by drilling out the set rivet body. Use a drill slightly smaller than the original hole to avoid damaging the parent material."
+          }
+        },
+        {
+          "q": {
+            "en": "What's the difference between open and closed-end rivets?"
+          },
+          "a": {
+            "en": "Open-end: Hollow rivet body, lighter, less expensive, suitable for general use. Closed-end: Sealed end prevents water/particle entry, essential for watertight applications."
+          }
+        },
+        {
+          "q": {
+            "en": "Why did my rivet fail during installation?"
+          },
+          "a": {
+            "en": "Common causes: wrong rivet for material thickness, dull rivet tool, damaged rivet, or defective rivet batch. Check tool condition and rivet grip range."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

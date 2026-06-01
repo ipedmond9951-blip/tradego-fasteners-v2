@@ -76,9 +76,51 @@
         "zh": "常见问题"
       },
       "body": {
-        "en": "Can I use stainless steel fasteners with carbon steel parts?\n\nYes, but be aware of galvanic corrosion when dissimilar metals are joined in presence of moisture. The less noble metal (carbon steel) will corrode faster. Using stainless steel throughout the connection is preferred for critical applications.\n\nWhat's the difference between 304 and 316 stainless?\n\n316 contains molybdenum which significantly improves chloride corrosion resistance. For marine/coastal applications, 316 is essential. For inland applications, 304 provides excellent corrosion resistance at lower cost.\n\nHow do I know if a fastener is strong enough?\n\nCheck the grade marking. Higher grades (8.8, 10.9, 12.9 for carbon steel) indicate higher strength. For critical applications, consult a structural engineer.\n\nCan I mix fastener grades in the same assembly?\n\nIt's generally acceptable if all fasteners meet or exceed the minimum strength requirement. However, for critical structural applications, use consistent grades throughout.\n\nWhat's the best coating for outdoor African conditions?\n\nHot-dip galvanizing provides excellent long-term protection for most outdoor applications. In highly corrosive environments (coastal, mining), stainless steel or specialized coatings like Dacromet are recommended.\n\nWhy do some fasteners rust so quickly?\n\nRusting indicates the fastener coating has failed or the base material is unsuitable for the environment. Common causes include: damage to coating during installation, underspecification for environmental conditions, or using indoor-rated fasteners outdoors.",
-        "zh": "我可以将不锈钢紧固件与碳钢部件一起使用吗？\n\n可以，但要注意异金属腐蚀。\n\n304和316不锈钢有什么区别？\n\n316含有钼，显著提高耐氯化物腐蚀性能。"
-      }
+        "en": "",
+        "zh": ""
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Can I use stainless steel fasteners with carbon steel parts?"
+          },
+          "a": {
+            "en": "Yes, but be aware of galvanic corrosion when dissimilar metals are joined in presence of moisture. The less noble metal (carbon steel) will corrode faster. Using stainless steel throughout the connection is preferred for critical applications."
+          }
+        },
+        {
+          "q": {
+            "en": "What's the difference between 304 and 316 stainless?"
+          },
+          "a": {
+            "en": "316 contains molybdenum which significantly improves chloride corrosion resistance. For marine/coastal applications, 316 is essential. For inland applications, 304 provides excellent corrosion resistance at lower cost."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I know if a fastener is strong enough?"
+          },
+          "a": {
+            "en": "Check the grade marking. Higher grades (8.8, 10.9, 12.9 for carbon steel) indicate higher strength. For critical applications, consult a structural engineer."
+          }
+        },
+        {
+          "q": {
+            "en": "Can I mix fastener grades in the same assembly?"
+          },
+          "a": {
+            "en": "It's generally acceptable if all fasteners meet or exceed the minimum strength requirement. However, for critical structural applications, use consistent grades throughout."
+          }
+        },
+        {
+          "q": {
+            "en": "What's the best coating for outdoor African conditions?"
+          },
+          "a": {
+            "en": "Hot-dip galvanizing provides excellent long-term protection for most outdoor applications. In highly corrosive environments (coastal, mining), stainless steel or specialized coatings like Dacromet are recommended."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

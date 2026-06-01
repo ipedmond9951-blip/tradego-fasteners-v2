@@ -76,9 +76,51 @@
         "zh": "常见问题"
       },
       "body": {
-        "en": "Which coating is best for African outdoor use?\n\nHot-dip galvanizing provides the best value for general outdoor use in African climates. For harsh environments (coastal, mining), consider Dacromet or stainless steel.\n\nCan coatings be applied to stainless steel fasteners?\n\nGenerally no - stainless steel's corrosion resistance comes from the material itself, not a coating. Coatings on stainless are unnecessary and may cause issues.\n\nWhat's the difference between zinc plating and zinc flake coatings?\n\nZinc plating is smooth and thin (5-15μm). Zinc flake (Dacromet/GEOMET) is thicker (8-12μm) with a textured surface providing superior corrosion resistance.\n\nDo coated fasteners affect thread strength?\n\nCoatings add thickness that can affect thread fit. Specify oversize threads or minimum thread engagement where coating thickness is significant.\n\nCan different coated fasteners be used together?\n\nAvoid mixing significantly different metals. Coated carbon steel fasteners are generally compatible with each other.\n\nHow do I touch up damaged coating on site?\n\nZinc-rich paint for HDG damage, appropriate primer and paint for painted surfaces. Replace heavily damaged fasteners where practical.",
-        "zh": "哪种涂层最适合非洲户外使用？\n\n热镀锌为非洲气候的一般户外使用提供最佳价值。恶劣环境（沿海、采矿）考虑达克罗或不锈钢。\n\n涂层会影响螺纹强度吗？\n\n涂层增加的厚度可能影响螺纹配合。在涂层厚度显著的地方指定加大螺纹或最小螺纹啮合。"
-      }
+        "en": "",
+        "zh": ""
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Which coating is best for African outdoor use?"
+          },
+          "a": {
+            "en": "Hot-dip galvanizing provides the best value for general outdoor use in African climates. For harsh environments (coastal, mining), consider Dacromet or stainless steel."
+          }
+        },
+        {
+          "q": {
+            "en": "Can coatings be applied to stainless steel fasteners?"
+          },
+          "a": {
+            "en": "Generally no - stainless steel's corrosion resistance comes from the material itself, not a coating. Coatings on stainless are unnecessary and may cause issues."
+          }
+        },
+        {
+          "q": {
+            "en": "What's the difference between zinc plating and zinc flake coatings?"
+          },
+          "a": {
+            "en": "Zinc plating is smooth and thin (5-15μm). Zinc flake (Dacromet/GEOMET) is thicker (8-12μm) with a textured surface providing superior corrosion resistance."
+          }
+        },
+        {
+          "q": {
+            "en": "Do coated fasteners affect thread strength?"
+          },
+          "a": {
+            "en": "Coatings add thickness that can affect thread fit. Specify oversize threads or minimum thread engagement where coating thickness is significant."
+          }
+        },
+        {
+          "q": {
+            "en": "Can different coated fasteners be used together?"
+          },
+          "a": {
+            "en": "Avoid mixing significantly different metals. Coated carbon steel fasteners are generally compatible with each other."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

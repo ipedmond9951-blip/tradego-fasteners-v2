@@ -65,9 +65,51 @@
         "zh": "常见问题"
       },
       "body": {
-        "en": "What length threaded rod should I order?\n\nOrder slightly longer than needed, then cut to exact length on-site. Standard lengths of 1m, 2m, and 3m cover most requirements. For custom lengths, contact TradeGo for availability.\n\nCan threaded rod be used for underground mining support?\n\nYes, but use appropriate material for the environment. Hot-dip galvanized or stainless steel for humid underground conditions. Some mining applications require specialized corrosion-resistant coatings.\n\nWhat's the difference between fine thread and coarse thread?\n\nCoarse thread (standard metric) is easier to assemble and provides better fatigue resistance. Fine thread offers better adjustment precision and higher load capacity in the same diameter.\n\n\nHow do I cut threaded rod on site?\n\nUse a hacksaw with fine-tooth blade, angle grinder with cutting disc, or pipe cutter for smaller diameters. Wear safety glasses and protect threads from debris.\n\nCan I weld threaded rod?\n\nCarbon steel threaded rod can be welded using appropriate procedures. Remove any plating or coating before welding. Stainless rod requires specialized welding techniques.\n\n\nWhat's the maximum load for threaded rod?\n\nLoad capacity depends on diameter, grade, and application conditions. Refer to engineering tables or consult a structural engineer for critical applications.\n\n\nHow do I prevent corrosion in threaded rod connections?\n\nUse appropriate material or coating for the environment. Apply thread-lubricant during assembly to prevent galvanic corrosion and ensure proper preload. Consider using stainless steel in highly corrosive environments.",
-        "zh": "我应该订购多长的螺杆？\n\n订购稍长于需要的长度，然后在现场切割到确切长度。标准长度为1m、2m和3m。\n\n螺杆可以用于地下采矿支撑吗？\n\n可以，但要根据环境使用适当的材料。潮湿地下条件下使用热镀锌或不锈钢。"
-      }
+        "en": "",
+        "zh": ""
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What length threaded rod should I order?"
+          },
+          "a": {
+            "en": "Order slightly longer than needed, then cut to exact length on-site. Standard lengths of 1m, 2m, and 3m cover most requirements. For custom lengths, contact TradeGo for availability."
+          }
+        },
+        {
+          "q": {
+            "en": "Can threaded rod be used for underground mining support?"
+          },
+          "a": {
+            "en": "Yes, but use appropriate material for the environment. Hot-dip galvanized or stainless steel for humid underground conditions. Some mining applications require specialized corrosion-resistant coatings."
+          }
+        },
+        {
+          "q": {
+            "en": "What's the difference between fine thread and coarse thread?"
+          },
+          "a": {
+            "en": "Coarse thread (standard metric) is easier to assemble and provides better fatigue resistance. Fine thread offers better adjustment precision and higher load capacity in the same diameter."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I cut threaded rod on site?"
+          },
+          "a": {
+            "en": "Use a hacksaw with fine-tooth blade, angle grinder with cutting disc, or pipe cutter for smaller diameters. Wear safety glasses and protect threads from debris."
+          }
+        },
+        {
+          "q": {
+            "en": "Can I weld threaded rod?"
+          },
+          "a": {
+            "en": "Carbon steel threaded rod can be welded using appropriate procedures. Remove any plating or coating before welding. Stainless rod requires specialized welding techniques."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

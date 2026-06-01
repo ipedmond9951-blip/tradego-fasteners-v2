@@ -72,17 +72,59 @@
         "hi": "अक्सर पूछे जाने वाले प्रश्न"
       },
       "body": {
-        "en": "**Which anchor type is best for solid concrete?**\nWedge anchors provide the highest load capacity for solid concrete and are ideal for structural connections. Sleeve anchors offer good general-purpose performance. Both require solid, uncracked concrete for optimal performance.\n\n**What's the difference between wedge anchors and sleeve anchors?**\nWedge anchors feature a full-length expansion mechanism against the concrete borehole wall, delivering maximum load capacity. Sleeve anchors expand at multiple points along the sleeve, making them suitable for solid concrete, hollow masonry, and grout-filled block.\n\n**What is the minimum spacing between concrete anchors?**\nMaintain 10x the anchor diameter from edges (e.g., 120mm for M12 anchors) and 12x the diameter between anchors. From cracks, maintain minimum 6x diameter spacing. Proper spacing ensures full load capacity without interference.\n\n**Can concrete anchors be removed and reused?**\nWedge anchors are permanent and cannot be removed. Sleeve anchors can be removed by unscrewing. Strike anchors offer temporary installation. Choose anchor type based on whether permanent or temporary installation is needed.\n\n**What coating should I use for outdoor concrete anchors?**\nFor exterior applications, use hot-dip galvanized (HDG) or stainless steel 304/316 anchors to prevent corrosion. Zinc-plated anchors are suitable for dry interior applications only.\n\n**How deep should I drill the anchor hole?**\nDrill the hole to the anchor's minimum embedment depth plus an additional 1/4 inch (6mm) to accommodate dust and debris. For a 3-inch wedge anchor, drill at least 3-1/4 inches deep. Always blow and brush the hole clean before installation.",
-        "zh": "[FAQ content for concrete-anchors-selection-guide in Chinese]",
-        "es": "[FAQ content for concrete-anchors-selection-guide in Spanish]",
-        "ar": "[FAQ content for concrete-anchors-selection-guide in Arabic]",
-        "fr": "[FAQ content for concrete-anchors-selection-guide in French]",
-        "pt": "[FAQ content for concrete-anchors-selection-guide in Portuguese]",
-        "ru": "[FAQ content for concrete-anchors-selection-guide in Russian]",
-        "ja": "[FAQ content for concrete-anchors-selection-guide in Japanese]",
-        "de": "[FAQ content for concrete-anchors-selection-guide in German]",
-        "hi": "[FAQ content for concrete-anchors-selection-guide in Hindi]"
-      }
+        "en": "",
+        "zh": "",
+        "es": "",
+        "ar": "",
+        "fr": "",
+        "pt": "",
+        "ru": "",
+        "ja": "",
+        "de": "",
+        "hi": ""
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Which anchor type is best for solid concrete?"
+          },
+          "a": {
+            "en": "Wedge anchors provide the highest load capacity for solid concrete and are ideal for structural connections. Sleeve anchors offer good general-purpose performance. Both require solid, uncracked concrete for optimal performance."
+          }
+        },
+        {
+          "q": {
+            "en": "What's the difference between wedge anchors and sleeve anchors?"
+          },
+          "a": {
+            "en": "Wedge anchors feature a full-length expansion mechanism against the concrete borehole wall, delivering maximum load capacity. Sleeve anchors expand at multiple points along the sleeve, making them suitable for solid concrete, hollow masonry, and grout-filled block."
+          }
+        },
+        {
+          "q": {
+            "en": "What is the minimum spacing between concrete anchors?"
+          },
+          "a": {
+            "en": "Maintain 10x the anchor diameter from edges (e.g., 120mm for M12 anchors) and 12x the diameter between anchors. From cracks, maintain minimum 6x diameter spacing. Proper spacing ensures full load capacity without interference."
+          }
+        },
+        {
+          "q": {
+            "en": "Can concrete anchors be removed and reused?"
+          },
+          "a": {
+            "en": "Wedge anchors are permanent and cannot be removed. Sleeve anchors can be removed by unscrewing. Strike anchors offer temporary installation. Choose anchor type based on whether permanent or temporary installation is needed."
+          }
+        },
+        {
+          "q": {
+            "en": "What coating should I use for outdoor concrete anchors?"
+          },
+          "a": {
+            "en": "For exterior applications, use hot-dip galvanized (HDG) or stainless steel 304/316 anchors to prevent corrosion. Zinc-plated anchors are suitable for dry interior applications only."
+          }
+        }
+      ]
     }
   ],
   "cta": {
