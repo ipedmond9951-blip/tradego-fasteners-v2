@@ -141,10 +141,9 @@ if [ "$SKIP_OPTIMIZE" = false ]; then
             log "   ⚙️  Optimizing: $slug"
             
             if [ "$DRY_RUN" = false ]; then
-                # 这里需要 agentTurn 来优化（AI 增强）
-                # 但纯自动只能做格式优化
-                python3 "$SKILL_DIR/scripts/validate-article.py" \
-                    --auto-fix "$article_path" 2>&1 | tail -5 | tee -a "$SEO_LOG"
+                # 使用 seo-auto-fix-low.sh (更全面: author/imageAlt/dataSource/FAQ/date)
+                bash "$PROJECT_DIR/scripts/seo-auto-fix-low.sh" \
+                    --threshold="$MIN_SCORE_DEPLOY" --max=1 2>&1 | tail -5 | tee -a "$SEO_LOG"
             else
                 log "      [DRY-RUN] Would optimize $slug"
             fi
