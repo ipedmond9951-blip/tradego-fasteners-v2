@@ -22,7 +22,15 @@
       },
       "body": {
         "en": "Structural steel connections transfer forces between members in buildings, bridges, and industrial structures. Bolted connections must be designed to safely resist tension, compression, shear, and bending forces acting on the structure.\n\nCritical considerations: connection geometry affects force distribution, fastener strength must match member strength, and installation quality determines actual connection performance.\n\nTradeGo supplies structural-grade fasteners meeting international standards for African construction and mining projects.",
-        "zh": "结构钢连接在建筑物、桥梁和工业结构中传递构件之间的力。螺栓连接必须设计成安全抵抗作用在结构上的拉、压、剪和弯曲力。"
+        "zh": "结构钢连接在建筑物、桥梁和工业结构中传递构件之间的力。螺栓连接必须设计成安全抵抗作用在结构上的拉、压、剪和弯曲力。",
+        "es": "<p>Content coming soon.</p>",
+        "ar": "<p>Content coming soon.</p>",
+        "fr": "<p>Content coming soon.</p>",
+        "pt": "<p>Content coming soon.</p>",
+        "ru": "<p>Content coming soon.</p>",
+        "ja": "<p>Content coming soon.</p>",
+        "de": "<p>Content coming soon.</p>",
+        "hi": "<p>Content coming soon.</p>"
       }
     },
     {
@@ -33,7 +41,15 @@
       },
       "body": {
         "en": "Shear Connections: Transfer shear forces only. Beam ends can rotate - design assumes simply supported behavior. Common in ordinary structures.\n\nMoment Connections: Transfer shear AND bending moment. Restrains beam end rotation. Required for frames and structures where stiffness is critical. More complex design and fabrication.\n\nTension Connections: Resist tensile forces. Used in bracing, hangers, and anchorage applications.\n\nCombined Connections: Resist multiple force types simultaneously. Most real connections fall into this category.\n\nDesign standards: AISC (USA), SABS/SANS (South Africa), Eurocode 3 (Europe). Ensure fasteners and connection details meet applicable local codes.",
-        "zh": "剪切连接仅传递剪力。弯矩连接传递剪力和弯矩。拉伸连接抵抗拉力。组合连接同时抵抗多种力类型。"
+        "zh": "剪切连接仅传递剪力。弯矩连接传递剪力和弯矩。拉伸连接抵抗拉力。组合连接同时抵抗多种力类型。",
+        "es": "<p>Content coming soon.</p>",
+        "ar": "<p>Content coming soon.</p>",
+        "fr": "<p>Content coming soon.</p>",
+        "pt": "<p>Content coming soon.</p>",
+        "ru": "<p>Content coming soon.</p>",
+        "ja": "<p>Content coming soon.</p>",
+        "de": "<p>Content coming soon.</p>",
+        "hi": "<p>Content coming soon.</p>"
       }
     },
     {
@@ -44,7 +60,15 @@
       },
       "body": {
         "en": "Key design steps:\n\n1. Determine design forces from structural analysis\n2. Select connection type appropriate for force and member sizes\n3. Calculate required fastener数量 and arrangement\n4. Check bearing, tear-out, and net section strength\n5. Verify connected material capacity\n6. Specify fastener grade, coating, and installation requirements\n\nFastener specification for structural connections:\n- ASTM A325 or A490 high-strength bolts (US standard)\n- SABS 155 (South African standard, equivalent to ISO 4014/4017)\n- Property class 8.8 or 10.9 for metric bolts\n\nMinimum edge distances and spacing per applicable standard. Generally: 1.5d from center to edge, 3d between fastener centers.",
-        "zh": "关键设计步骤：1.从结构分析确定设计力；2.选择适合力和构件尺寸的连接类型；3.计算所需紧固件数量和排列；4.检查承压、撕裂和净截面强度；5.验证连接材料容量；6.指定紧固件等级、涂层和安装要求。"
+        "zh": "关键设计步骤：1.从结构分析确定设计力；2.选择适合力和构件尺寸的连接类型；3.计算所需紧固件数量和排列；4.检查承压、撕裂和净截面强度；5.验证连接材料容量；6.指定紧固件等级、涂层和安装要求。",
+        "es": "<p>Content coming soon.</p>",
+        "ar": "<p>Content coming soon.</p>",
+        "fr": "<p>Content coming soon.</p>",
+        "pt": "<p>Content coming soon.</p>",
+        "ru": "<p>Content coming soon.</p>",
+        "ja": "<p>Content coming soon.</p>",
+        "de": "<p>Content coming soon.</p>",
+        "hi": "<p>Content coming soon.</p>"
       }
     },
     {
@@ -55,7 +79,15 @@
       },
       "body": {
         "en": "Proper installation is critical for structural connection performance:\n\nPre-Tensioning: Many structural connections require pre-tensioned bolts. Methods include:\n- Turn-of-nut: Rotate nut specific amount after snug-tight\n- Direct tension indicator: Use washers with protrusions that compress at target tension\n- Hydraulic tensioner: Apply tension directly with hydraulic tool\n\nInspection Requirements:\n- Verify fastener grade matches specification\n- Inspect connection geometry before bolting\n- Verify pre-tension for required connections\n- Document inspection results\n\nSnug-Tight vs Pre-Tensioned: Some connections (like single shear connections) only require snug-tight installation. Critical connections typically require pre-tensioning.\n\nDo not reuse high-strength bolts after full pre-tensioning. The bolt has stretched and may not provide consistent tension on reuse.",
-        "zh": "适当安装对结构连接性能至关重要：预拉伸、检验要求、扭紧与预拉伸的比较、禁止重复使用高强度螺栓。"
+        "zh": "适当安装对结构连接性能至关重要：预拉伸、检验要求、扭紧与预拉伸的比较、禁止重复使用高强度螺栓。",
+        "es": "<p>Content coming soon.</p>",
+        "ar": "<p>Content coming soon.</p>",
+        "fr": "<p>Content coming soon.</p>",
+        "pt": "<p>Content coming soon.</p>",
+        "ru": "<p>Content coming soon.</p>",
+        "ja": "<p>Content coming soon.</p>",
+        "de": "<p>Content coming soon.</p>",
+        "hi": "<p>Content coming soon.</p>"
       }
     },
     {
@@ -66,7 +98,15 @@
       },
       "body": {
         "en": "Mining structures require special consideration:\n\nDynamic Loading: Crushers, screens, and conveyors create vibration and dynamic forces. Connections must accommodate fatigue loading. Use pre-tensioned high-strength bolts.\n\nCorrosive Environment: Copper and cobalt processing creates acidic, chemically aggressive conditions. Use hot-dip galvanized or stainless steel fasteners. Inspect connections more frequently.\n\nHeavy Equipment Loads: Ground support, conveyor structures, and crusher installations carry extreme loads. Match fastener capacity to equipment specifications.\n\nTypical mining fastener applications:\n- Conveyor gallery structures: High-strength pre-tensioned bolts\n- Crusher foundations: Anchor bolts with适当 template for alignment\n- Screen decks: High-strength bolts with lock washers\n- Pipe supports: Clamp-type connections with adequate thickness\n\nFor African mining projects, specify SABS-approved or equivalent structural fasteners to meet local code requirements.",
-        "zh": "采矿结构需要特殊考虑：动态加载、腐蚀环境、重型设备负载。传送带结构用高强度预拉伸螺栓，破碎机基础用锚栓，筛网甲板用高强度螺栓配锁紧垫圈。"
+        "zh": "采矿结构需要特殊考虑：动态加载、腐蚀环境、重型设备负载。传送带结构用高强度预拉伸螺栓，破碎机基础用锚栓，筛网甲板用高强度螺栓配锁紧垫圈。",
+        "es": "<p>Content coming soon.</p>",
+        "ar": "<p>Content coming soon.</p>",
+        "fr": "<p>Content coming soon.</p>",
+        "pt": "<p>Content coming soon.</p>",
+        "ru": "<p>Content coming soon.</p>",
+        "ja": "<p>Content coming soon.</p>",
+        "de": "<p>Content coming soon.</p>",
+        "hi": "<p>Content coming soon.</p>"
       }
     },
     {
@@ -76,8 +116,16 @@
         "zh": "常见问题"
       },
       "body": {
-        "en": "",
-        "zh": ""
+        "en": "<p>See frequently asked questions below.</p>",
+        "zh": "<p>See frequently asked questions below.</p>",
+        "es": "<p>See frequently asked questions below.</p>",
+        "ar": "<p>See frequently asked questions below.</p>",
+        "fr": "<p>See frequently asked questions below.</p>",
+        "pt": "<p>See frequently asked questions below.</p>",
+        "ru": "<p>See frequently asked questions below.</p>",
+        "ja": "<p>See frequently asked questions below.</p>",
+        "de": "<p>See frequently asked questions below.</p>",
+        "hi": "<p>See frequently asked questions below.</p>"
       },
       "faqItems": [
         {
