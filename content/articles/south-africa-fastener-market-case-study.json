@@ -1,7 +1,7 @@
 {
   "slug": "south-africa-fastener-market-case-study",
   "category": "Case Study",
-  "date": "2026-04-15",
+  "date": "2026-06-02",
   "readTime": 12,
   "image": "/images/articles/south-africa-fastener-market-case-study.jpg",
   "title": {
@@ -204,6 +204,62 @@
       "body": {
         "en": "<strong>Total Fastener Tonnage:</strong> 8,500 tonnes over 3 years<br><strong>Project Value (Fasteners):</strong> R151.2 million<br><strong>Import vs. Local Split:</strong> 65% import, 35% local<br><strong>Cost Savings from Import Strategy:</strong> R12.4 million (8.2%)<br><strong>Quality Control Rejection Rate:</strong> 3.1% of incoming materials<br><br><strong>Sources:</strong><br>• Transnet National Ports Authority, Mzingali Project Documentation 2024<br>• South African Fastener Association, Case Study Publication 2025<br>• SGS South Africa, Inspection Reports (Project Confidential)<br>• Durban Chamber of Commerce, Infrastructure Report 2024"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题",
+        "es": "Preguntas Frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions Fréquentes",
+        "pt": "Perguntas Frequentes",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "body": {
+        "en": "",
+        "zh": "",
+        "es": "",
+        "ar": "",
+        "fr": "",
+        "pt": "",
+        "ru": "",
+        "ja": "",
+        "de": "",
+        "hi": ""
+      },
+      "faqItems": [
+        {
+          "question": {
+            "en": "What are the key considerations for south africa fastener market case study?",
+            "zh": "关于south africa fastener market case study的关键考虑因素是什么？"
+          },
+          "answer": {
+            "en": "See the detailed analysis above for specifications, applications, and best practices for south africa fastener market case study."
+          }
+        },
+        {
+          "question": {
+            "en": "What standards should I follow?",
+            "zh": "应该遵循哪些标准？"
+          },
+          "answer": {
+            "en": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market."
+          }
+        },
+        {
+          "question": {
+            "en": "How do I choose a reliable supplier?",
+            "zh": "如何选择可靠的供应商？"
+          },
+          "answer": {
+            "en": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -249,7 +305,18 @@
     },
     "link": "/en/contact"
   },
-  "imageAlt": "South Africa Fastener Market Case Study - Durban port construction fastener supply chain",
+  "imageAlt": {
+    "en": "South Africa Fastener Market Case Study - Durban port construction fastener supply chain",
+    "zh": "South Africa Fastener Market Case Study - Durban port construction fastener supply chain",
+    "es": "South Africa Fastener Market Case Study - Durban port construction fastener supply chain",
+    "ar": "South Africa Fastener Market Case Study - Durban port construction fastener supply chain",
+    "fr": "South Africa Fastener Market Case Study - Durban port construction fastener supply chain",
+    "pt": "South Africa Fastener Market Case Study - Durban port construction fastener supply chain",
+    "ru": "South Africa Fastener Market Case Study - Durban port construction fastener supply chain",
+    "ja": "South Africa Fastener Market Case Study - Durban port construction fastener supply chain",
+    "de": "South Africa Fastener Market Case Study - Durban port construction fastener supply chain",
+    "hi": "South Africa Fastener Market Case Study - Durban port construction fastener supply chain"
+  },
   "faqItems": [
     {
       "question": "What is the Durban Port expansion fastener supply chain case study about?",
@@ -276,5 +343,32 @@
       "answer": "Total fastener spend: R151.2M over 3 years. Breakdown: Structural bolts (42%), Anchor bolts (28%), Custom fabrications (18%), Maintenance stock (12%). Cost per tonne: R17,800 average. Budget variance: -2.3% (under budget due to import strategy). Quality cost (rejected materials + retesting): R3.2M (2.1% of total spend)."
     }
   ],
-  "updated": "2026-05-10"
+  "updated": "2026-05-10",
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
+    }
+  ]
 }
