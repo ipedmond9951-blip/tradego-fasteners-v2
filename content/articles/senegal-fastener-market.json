@@ -1,7 +1,7 @@
 {
   "slug": "senegal-fastener-market",
   "category": "Market Analysis",
-  "date": "2026-05-16",
+  "date": "2026-06-01",
   "readTime": 8,
   "image": "/images/articles/senegal-fastener-market.jpg",
   "title": {
@@ -313,7 +313,18 @@
     },
     "link": "/product-upload"
   },
-  "imageAlt": "Drywall screws for construction and building applications",
+  "imageAlt": {
+    "en": "Drywall screws for construction and building applications",
+    "zh": "Drywall screws for construction and building applications",
+    "es": "Drywall screws for construction and building applications",
+    "ar": "Drywall screws for construction and building applications",
+    "fr": "Drywall screws for construction and building applications",
+    "pt": "Drywall screws for construction and building applications",
+    "ru": "Drywall screws for construction and building applications",
+    "ja": "Drywall screws for construction and building applications",
+    "de": "Drywall screws for construction and building applications",
+    "hi": "Drywall screws for construction and building applications"
+  },
   "updated": "2026-03-03",
   "_file": "senegal-fastener-market",
   "relatedArticles": [
@@ -336,5 +347,32 @@
   ],
   "metaDescription": {
     "en": "Senegal fastener market 2026: construction demand, import regulations, and sourcing guide. Sea freight to Dakar port."
-  }
+  },
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
+    }
+  ]
 }

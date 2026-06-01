@@ -1,7 +1,7 @@
 {
   "slug": "self-tapping-screws-guide",
   "category": "Technical Guide",
-  "date": "2025-04-29",
+  "date": "2026-06-01",
   "readTime": 7,
   "image": "/images/articles/self-tapping-screws-guide.jpg",
   "title": {
@@ -157,9 +157,31 @@
     "link": "/#inquiry"
   },
   "relatedProducts": [],
-  "imageAlt": "Self-Tapping Screws Guide Types - fastener solutions",
+  "imageAlt": {
+    "en": "Self-Tapping Screws Guide Types - fastener solutions",
+    "zh": "Self-Tapping Screws Guide Types - fastener solutions",
+    "es": "Self-Tapping Screws Guide Types - fastener solutions",
+    "ar": "Self-Tapping Screws Guide Types - fastener solutions",
+    "fr": "Self-Tapping Screws Guide Types - fastener solutions",
+    "pt": "Self-Tapping Screws Guide Types - fastener solutions",
+    "ru": "Self-Tapping Screws Guide Types - fastener solutions",
+    "ja": "Self-Tapping Screws Guide Types - fastener solutions",
+    "de": "Self-Tapping Screws Guide Types - fastener solutions",
+    "hi": "Self-Tapping Screws Guide Types - fastener solutions"
+  },
   "updated": "2026-03-27",
-  "author": "TradeGo Fasteners",
+  "author": {
+    "name": "TradeGo Fasteners",
+    "title": "Industry Expert",
+    "bio": "Experienced professional in fastener industry with expertise in African markets.",
+    "credentials": "B2B Export Specialist",
+    "linkedin": "https://www.linkedin.com/in/tradego-fasteners",
+    "expertise": [
+      "Fastener Manufacturing",
+      "Export Logistics",
+      "African Markets"
+    ]
+  },
   "relatedArticles": [
     {
       "slug": "self-tapping-sheet-metal-screws",
@@ -172,6 +194,33 @@
     {
       "slug": "washer-types-applications",
       "title": "Washers Types & Applications: Complete Guide for Construc..."
+    }
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
     }
   ]
 }

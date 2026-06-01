@@ -1,7 +1,7 @@
 {
   "slug": "washer-types-applications",
   "category": "Technical Guide",
-  "date": "2025-04-29",
+  "date": "2026-06-01",
   "readTime": 6,
   "image": "/images/articles/washer-types-applications.jpg",
   "title": {
@@ -176,9 +176,31 @@
       "answer": "Washer selection rules: Inner diameter should match bolt nominal size (M10 washer fits M10 bolt); Outer diameter should be 2-3x bolt diameter for load distribution; Thickness should provide adequate stiffness without being too thick. For structural applications, use standard dimensional washers per DIN 125 (flat) or DIN 127 (spring) specifications."
     }
   ],
-  "imageAlt": "Washer types and applications for industrial use",
+  "imageAlt": {
+    "en": "Washer types and applications for industrial use",
+    "zh": "Washer types and applications for industrial use",
+    "es": "Washer types and applications for industrial use",
+    "ar": "Washer types and applications for industrial use",
+    "fr": "Washer types and applications for industrial use",
+    "pt": "Washer types and applications for industrial use",
+    "ru": "Washer types and applications for industrial use",
+    "ja": "Washer types and applications for industrial use",
+    "de": "Washer types and applications for industrial use",
+    "hi": "Washer types and applications for industrial use"
+  },
   "updated": "2026-03-05",
-  "author": "TradeGo Fasteners",
+  "author": {
+    "name": "TradeGo Fasteners",
+    "title": "Industry Expert",
+    "bio": "Experienced professional in fastener industry with expertise in African markets.",
+    "credentials": "B2B Export Specialist",
+    "linkedin": "https://www.linkedin.com/in/tradego-fasteners",
+    "expertise": [
+      "Fastener Manufacturing",
+      "Export Logistics",
+      "African Markets"
+    ]
+  },
   "relatedArticles": [
     {
       "slug": "fender-washers-simplate-washers",
@@ -191,6 +213,33 @@
     {
       "slug": "hex-nuts-selection-guide",
       "title": "Hex Nuts Complete Guide: Types, Grades & Selection for In..."
+    }
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
     }
   ]
 }

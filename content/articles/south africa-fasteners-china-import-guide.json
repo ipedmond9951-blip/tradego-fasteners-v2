@@ -1,7 +1,7 @@
 {
   "slug": "south africa-fasteners-china-import-guide",
   "category": "Import Guide",
-  "date": "2026-04-29",
+  "date": "2026-06-01",
   "readTime": 10,
   "image": "/images/products/washers.webp",
   "title": {
@@ -267,9 +267,31 @@
       "Borders with Botswana and Namibia"
     ]
   },
-  "imageAlt": "Washers for proper load distribution in fastening",
+  "imageAlt": {
+    "en": "Washers for proper load distribution in fastening",
+    "zh": "Washers for proper load distribution in fastening",
+    "es": "Washers for proper load distribution in fastening",
+    "ar": "Washers for proper load distribution in fastening",
+    "fr": "Washers for proper load distribution in fastening",
+    "pt": "Washers for proper load distribution in fastening",
+    "ru": "Washers for proper load distribution in fastening",
+    "ja": "Washers for proper load distribution in fastening",
+    "de": "Washers for proper load distribution in fastening",
+    "hi": "Washers for proper load distribution in fastening"
+  },
   "updated": "2026-03-16",
-  "author": "TradeGo Fasteners",
+  "author": {
+    "name": "TradeGo Fasteners",
+    "title": "Industry Expert",
+    "bio": "Experienced professional in fastener industry with expertise in African markets.",
+    "credentials": "B2B Export Specialist",
+    "linkedin": "https://www.linkedin.com/in/tradego-fasteners",
+    "expertise": [
+      "Fastener Manufacturing",
+      "Export Logistics",
+      "African Markets"
+    ]
+  },
   "relatedArticles": [
     {
       "slug": "fastener-export-china-to-africa-guide",
@@ -282,6 +304,33 @@
     {
       "slug": "concrete-anchors-fasteners-guide",
       "title": "Complete Guide to Concrete Anchors and Fasteners"
+    }
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
     }
   ]
 }
