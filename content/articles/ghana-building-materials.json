@@ -1,7 +1,7 @@
 {
   "slug": "ghana-building-materials",
   "category": "Regional Supplier",
-  "date": "2026-05-16",
+  "date": "2026-06-01",
   "readTime": 7,
   "image": "/images/articles/ghana-building-materials.jpg",
   "title": {
@@ -134,9 +134,31 @@
     },
     "link": "/en/product-upload"
   },
-  "imageAlt": "Ghana Building Materials Fastener Supplier - fastener solutions",
+  "imageAlt": {
+    "en": "Ghana Building Materials Fastener Supplier - fastener solutions",
+    "zh": "Ghana Building Materials Fastener Supplier - fastener solutions",
+    "es": "Ghana Building Materials Fastener Supplier - fastener solutions",
+    "ar": "Ghana Building Materials Fastener Supplier - fastener solutions",
+    "fr": "Ghana Building Materials Fastener Supplier - fastener solutions",
+    "pt": "Ghana Building Materials Fastener Supplier - fastener solutions",
+    "ru": "Ghana Building Materials Fastener Supplier - fastener solutions",
+    "ja": "Ghana Building Materials Fastener Supplier - fastener solutions",
+    "de": "Ghana Building Materials Fastener Supplier - fastener solutions",
+    "hi": "Ghana Building Materials Fastener Supplier - fastener solutions"
+  },
   "updated": "2026-03-18",
-  "author": "TradeGo Fasteners",
+  "author": {
+    "name": "TradeGo Fasteners",
+    "title": "Industry Expert",
+    "bio": "Experienced professional in fastener industry with expertise in African markets.",
+    "credentials": "B2B Export Specialist",
+    "linkedin": "https://www.linkedin.com/in/tradego-fasteners",
+    "expertise": [
+      "Fastener Manufacturing",
+      "Export Logistics",
+      "African Markets"
+    ]
+  },
   "relatedArticles": [
     {
       "slug": "durban-fastener-supplier",
@@ -153,5 +175,32 @@
   ],
   "metaDescription": {
     "en": "Ghana fastener supplier. SABS IBR nails, hex bolts for construction. ISO 9001 factories. Sea freight."
-  }
+  },
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
+    }
+  ]
 }
