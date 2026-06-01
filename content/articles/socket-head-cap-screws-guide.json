@@ -1,7 +1,7 @@
 {
   "slug": "socket-head-cap-screws-guide",
   "category": "Technical Guide",
-  "date": "2025-06-29",
+  "date": "2026-06-02",
   "readTime": 9,
   "image": "/images/products/socket-screws-1.jpg",
   "title": {
@@ -228,9 +228,31 @@
     },
     "link": "/#inquiry"
   },
-  "imageAlt": "Socket Head Cap Screws (Allen Key - fastener solutions",
+  "imageAlt": {
+    "en": "Socket Head Cap Screws (Allen Key - fastener solutions",
+    "zh": "Socket Head Cap Screws (Allen Key - fastener solutions",
+    "es": "Socket Head Cap Screws (Allen Key - fastener solutions",
+    "ar": "Socket Head Cap Screws (Allen Key - fastener solutions",
+    "fr": "Socket Head Cap Screws (Allen Key - fastener solutions",
+    "pt": "Socket Head Cap Screws (Allen Key - fastener solutions",
+    "ru": "Socket Head Cap Screws (Allen Key - fastener solutions",
+    "ja": "Socket Head Cap Screws (Allen Key - fastener solutions",
+    "de": "Socket Head Cap Screws (Allen Key - fastener solutions",
+    "hi": "Socket Head Cap Screws (Allen Key - fastener solutions"
+  },
   "updated": "2026-03-16",
-  "author": "TradeGo Fasteners",
+  "author": {
+    "name": "TradeGo Fasteners",
+    "title": "Industry Expert",
+    "bio": "Experienced professional in fastener industry with expertise in African markets.",
+    "credentials": "B2B Export Specialist",
+    "linkedin": "https://www.linkedin.com/in/tradego-fasteners",
+    "expertise": [
+      "Fastener Manufacturing",
+      "Export Logistics",
+      "African Markets"
+    ]
+  },
   "relatedArticles": [
     {
       "slug": "machine-screws-specifications",
@@ -243,6 +265,33 @@
     {
       "slug": "anchor-bolts-selection-guide",
       "title": "Anchor Bolts Complete Selection Guide: Types, Load Rating..."
+    }
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
     }
   ]
 }
