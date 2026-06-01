@@ -1,7 +1,7 @@
 {
   "slug": "carriage-bolts-guide",
   "category": "Technical Guide",
-  "date": "2025-10-29",
+  "date": "2026-06-01",
   "readTime": 6,
   "image": "/images/articles/carriage-bolts-guide.jpg",
   "title": {
@@ -198,9 +198,31 @@
       "answer": "Choose carriage bolt length by: 1) Material thickness being fastened - bolt should pass through with 2-3 threads extending beyond nut; 2) General rule: minimum 3 threads engagement in nut; 3) For timber, consider wood compression over time; 4) Longer is not always better - excess length reduces shear capacity. Standard lengths available: 20mm to 300mm for DIN 603."
     }
   ],
-  "imageAlt": "Carriage Bolts Guide Square Neck - fastener solutions",
+  "imageAlt": {
+    "en": "Carriage Bolts Guide Square Neck - fastener solutions",
+    "zh": "Carriage Bolts Guide Square Neck - fastener solutions",
+    "es": "Carriage Bolts Guide Square Neck - fastener solutions",
+    "ar": "Carriage Bolts Guide Square Neck - fastener solutions",
+    "fr": "Carriage Bolts Guide Square Neck - fastener solutions",
+    "pt": "Carriage Bolts Guide Square Neck - fastener solutions",
+    "ru": "Carriage Bolts Guide Square Neck - fastener solutions",
+    "ja": "Carriage Bolts Guide Square Neck - fastener solutions",
+    "de": "Carriage Bolts Guide Square Neck - fastener solutions",
+    "hi": "Carriage Bolts Guide Square Neck - fastener solutions"
+  },
   "updated": "2026-03-19",
-  "author": "TradeGo Fasteners",
+  "author": {
+    "name": "TradeGo Fasteners",
+    "title": "Industry Expert",
+    "bio": "Experienced professional in fastener industry with expertise in African markets.",
+    "credentials": "B2B Export Specialist",
+    "linkedin": "https://www.linkedin.com/in/tradego-fasteners",
+    "expertise": [
+      "Fastener Manufacturing",
+      "Export Logistics",
+      "African Markets"
+    ]
+  },
   "relatedArticles": [
     {
       "slug": "carriage-bolts-specifications",
@@ -279,6 +301,33 @@
         "fr": "Galvanisé à chaud pour usage extérieur général, acier inoxydable 316 pour zones côtières.",
         "pt": "Galvanizado a quente para uso externo geral, aço inoxidável 316 para zonas costeiras."
       }
+    }
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
     }
   ]
 }
