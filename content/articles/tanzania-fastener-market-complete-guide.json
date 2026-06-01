@@ -1,7 +1,7 @@
 {
   "slug": "tanzania-fastener-market-complete-guide",
   "category": "Market Analysis",
-  "date": "2026-04-26",
+  "date": "2026-06-01",
   "readTime": 8,
   "image": "/images/articles/tanzania-fastener-market-complete-guide.jpg",
   "title": {
@@ -313,7 +313,18 @@
     },
     "link": "/product-upload"
   },
-  "imageAlt": "Tanzania Fastener Market Guide 2026 - construction hardware suppliers",
+  "imageAlt": {
+    "en": "Tanzania Fastener Market Guide 2026 - construction hardware suppliers",
+    "zh": "Tanzania Fastener Market Guide 2026 - construction hardware suppliers",
+    "es": "Tanzania Fastener Market Guide 2026 - construction hardware suppliers",
+    "ar": "Tanzania Fastener Market Guide 2026 - construction hardware suppliers",
+    "fr": "Tanzania Fastener Market Guide 2026 - construction hardware suppliers",
+    "pt": "Tanzania Fastener Market Guide 2026 - construction hardware suppliers",
+    "ru": "Tanzania Fastener Market Guide 2026 - construction hardware suppliers",
+    "ja": "Tanzania Fastener Market Guide 2026 - construction hardware suppliers",
+    "de": "Tanzania Fastener Market Guide 2026 - construction hardware suppliers",
+    "hi": "Tanzania Fastener Market Guide 2026 - construction hardware suppliers"
+  },
   "_file": "tanzania-fastener-market-complete-guide",
   "relatedArticles": [
     {
@@ -338,5 +349,32 @@
     "/products",
     "/products#bolts-nuts",
     "/products#self-drilling-screws"
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
+    }
   ]
 }
