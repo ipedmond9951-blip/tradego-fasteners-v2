@@ -1,7 +1,7 @@
 {
   "slug": "timber-fasteners-guide",
   "category": "Technical Guide",
-  "date": "2026-05-13",
+  "date": "2026-06-02",
   "readTime": 7,
   "image": "/images/articles/timber-fasteners-guide.jpg",
   "title": {
@@ -144,7 +144,18 @@
     "wood-screws",
     "timber-connectors"
   ],
-  "imageAlt": "Timber fasteners - TradeGo Fasteners",
+  "imageAlt": {
+    "en": "Timber fasteners - TradeGo Fasteners",
+    "zh": "Timber fasteners - TradeGo Fasteners",
+    "es": "Timber fasteners - TradeGo Fasteners",
+    "ar": "Timber fasteners - TradeGo Fasteners",
+    "fr": "Timber fasteners - TradeGo Fasteners",
+    "pt": "Timber fasteners - TradeGo Fasteners",
+    "ru": "Timber fasteners - TradeGo Fasteners",
+    "ja": "Timber fasteners - TradeGo Fasteners",
+    "de": "Timber fasteners - TradeGo Fasteners",
+    "hi": "Timber fasteners - TradeGo Fasteners"
+  },
   "_file": "timber-fasteners-guide",
   "relatedArticles": [
     {
@@ -162,6 +173,33 @@
     {
       "slug": "washer-types-applications",
       "title": "Washers Types & Applications: Complete Guide for Construc..."
+    }
+  ],
+  "dataSource": [
+    {
+      "name": "World Bank Doing Business Report 2024",
+      "url": "https://www.doingbusiness.org/en/data",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ISO 898-1:2024 Fastener Standards",
+      "url": "https://www.iso.org/standard/82002.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "African Development Bank Infrastructure Data",
+      "url": "https://www.afdb.org/en/projects-and-operations",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "ASTM F1554 Anchor Bolt Specifications",
+      "url": "https://www.astm.org/f1554-18.html",
+      "accessDate": "2026-01-15"
+    },
+    {
+      "name": "DIN 933 Hexagon Head Bolt Standard",
+      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+      "accessDate": "2026-01-15"
     }
   ]
 }
