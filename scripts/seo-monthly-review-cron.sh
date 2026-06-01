@@ -16,6 +16,11 @@ set -e
 
 PROJECT_DIR="/Users/zhangming/workspace/tradego-fasteners-v2"
 SKILL_DIR="$HOME/.agents/skills/seo-universal-author"
+
+# Step 0: Skill router lint (ensure all skills discoverable)
+echo "🔍 Skill router lint check..."
+bash "$PROJECT_DIR/scripts/skill-router-lint.sh" 2>&1 | tail -5
+echo ""
 LOG_DIR="$PROJECT_DIR/logs"
 REPORT_DIR="$LOG_DIR/seo-monthly"
 mkdir -p "$REPORT_DIR"
