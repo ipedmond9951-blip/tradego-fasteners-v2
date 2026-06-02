@@ -255,26 +255,10 @@
     "link": "/#inquiry"
   },
   "relatedProducts": [
-    {
-      "slug": "concrete-screws",
-      "name": "Concrete Screws (Tapcon-style)",
-      "category": "Concrete Fasteners"
-    },
-    {
-      "slug": "wedge-anchors",
-      "name": "Wedge Anchors",
-      "category": "Heavy Duty"
-    },
-    {
-      "slug": "sleeve-anchors",
-      "name": "Sleeve Anchors",
-      "category": "Medium Duty"
-    },
-    {
-      "slug": "drop-in-anchors",
-      "name": "Drop-in Anchors",
-      "category": "Concrete Inserts"
-    }
+    "concrete-screws",
+    "wedge-anchors",
+    "sleeve-anchors",
+    "drop-in-anchors"
   ],
   "imageAlt": {
     "en": "Concrete Screws and Anchors Guide - secure fastening to concrete",

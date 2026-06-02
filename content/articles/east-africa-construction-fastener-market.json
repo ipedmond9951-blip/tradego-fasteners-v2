@@ -265,26 +265,10 @@
     }
   ],
   "relatedProducts": [
-    {
-      "slug": "concrete-screws",
-      "name": "Concrete Screws",
-      "category": "Construction"
-    },
-    {
-      "slug": "roofing-screws",
-      "name": "Roofing Screws",
-      "category": "Roofing"
-    },
-    {
-      "slug": "drywall-screws",
-      "name": "Drywall Screws",
-      "category": "Interior"
-    },
-    {
-      "slug": "anchor-bolts",
-      "name": "Anchor Bolts",
-      "category": "Heavy Duty"
-    }
+    "concrete-screws",
+    "roofing-screws",
+    "drywall-screws",
+    "anchor-bolts"
   ],
   "cta": {
     "text": {

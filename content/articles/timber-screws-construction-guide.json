@@ -255,26 +255,10 @@
     "link": "/#inquiry"
   },
   "relatedProducts": [
-    {
-      "slug": "timber-screws",
-      "name": "Timber Screws (Coach Screws)",
-      "category": "Wood"
-    },
-    {
-      "slug": "deck-screws",
-      "name": "Deck Screws (Stainless)",
-      "category": "Outdoor"
-    },
-    {
-      "slug": "wood-screws",
-      "name": "Wood Screws (Standard)",
-      "category": "General"
-    },
-    {
-      "slug": "lag-screws",
-      "name": "Lag Screws",
-      "category": "Heavy Duty"
-    }
+    "timber-screws",
+    "deck-screws",
+    "wood-screws",
+    "lag-screws"
   ],
   "imageAlt": {
     "en": "Timber Construction Screws Guide Selection - fastener solutions",

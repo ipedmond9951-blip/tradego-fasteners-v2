@@ -255,26 +255,10 @@
     "link": "/#inquiry"
   },
   "relatedProducts": [
-    {
-      "slug": "hex-bolts",
-      "name": "Hex Bolts",
-      "category": "Standard"
-    },
-    {
-      "slug": "socket-cap-screws",
-      "name": "Socket Cap Screws",
-      "category": "Precision"
-    },
-    {
-      "slug": "carriage-bolts",
-      "name": "Carriage Bolts",
-      "category": "Wood"
-    },
-    {
-      "slug": "eye-bolts",
-      "name": "Eye Bolts",
-      "category": "Lifting"
-    }
+    "hex-bolts",
+    "socket-cap-screws",
+    "carriage-bolts",
+    "eye-bolts"
   ],
   "imageAlt": {
     "en": "Fastener Procurement Glossary Essential Terms - fastener solutions",
