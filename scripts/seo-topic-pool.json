@@ -8,8 +8,16 @@
       "category": "Industry Guide",
       "target_audience": "Wind energy project managers, procurement engineers",
       "search_intent": "informational",
-      "relatedProducts": ["high-tensile-bolts", "anchor-bolts", "structural-nuts"],
-      "relatedArticles": ["anchor-bolts-selection-guide", "high-tensile-bolts-guide"]
+      "relatedProducts": [
+        "high-tensile-bolts",
+        "anchor-bolts",
+        "structural-nuts"
+      ],
+      "relatedArticles": [
+        "anchor-bolts-selection-guide",
+        "high-tensile-bolts-guide"
+      ],
+      "region": "global"
     },
     {
       "slug": "mozambique-fastener-import-market-guide",
@@ -17,8 +25,16 @@
       "category": "Regional Supplier",
       "target_audience": "Importers, distributors in Mozambique",
       "search_intent": "commercial",
-      "relatedProducts": ["hex-bolts", "concrete-screws", "roofing-screws"],
-      "relatedArticles": ["east-africa-construction-fastener-market", "zimbabwe-fastener-import-guide"]
+      "relatedProducts": [
+        "hex-bolts",
+        "concrete-screws",
+        "roofing-screws"
+      ],
+      "relatedArticles": [
+        "east-africa-construction-fastener-market",
+        "zimbabwe-fastener-import-guide"
+      ],
+      "region": "africa"
     },
     {
       "slug": "fastener-galvanic-corrosion-prevention-guide",
@@ -26,8 +42,16 @@
       "category": "Technical Guide",
       "target_audience": "Engineers, construction professionals",
       "search_intent": "informational",
-      "relatedProducts": ["stainless-bolts", "galvanized-bolts", "washers-flat"],
-      "relatedArticles": ["stainless-steel-fasteners-guide", "marine-fasteners-corrosion"]
+      "relatedProducts": [
+        "stainless-bolts",
+        "galvanized-bolts",
+        "washers-flat"
+      ],
+      "relatedArticles": [
+        "stainless-steel-fasteners-guide",
+        "marine-fasteners-corrosion"
+      ],
+      "region": "global"
     },
     {
       "slug": "angola-construction-boom-fastener-demand",
@@ -35,8 +59,16 @@
       "category": "Market Analysis",
       "target_audience": "Exporters, market analysts",
       "search_intent": "informational",
-      "relatedProducts": ["concrete-anchors", "structural-bolts", "rebar-fasteners"],
-      "relatedArticles": ["southern-africa-fastener-market-southafrica-botswana", "west-africa-fastener-market"]
+      "relatedProducts": [
+        "concrete-anchors",
+        "structural-bolts",
+        "rebar-fasteners"
+      ],
+      "relatedArticles": [
+        "southern-africa-fastener-market-southafrica-botswana",
+        "west-africa-fastener-market"
+      ],
+      "region": "africa"
     },
     {
       "slug": "fastener-preload-torque-calculation-methods",
@@ -44,8 +76,16 @@
       "category": "Technical Guide",
       "target_audience": "Mechanical engineers, QC inspectors",
       "search_intent": "informational",
-      "relatedProducts": ["high-tensile-bolts", "socket-cap-screws", "torque-controlled-bolts"],
-      "relatedArticles": ["high-tensile-bolts-grade-8-8-10-9", "iso-898-bolt-strength"]
+      "relatedProducts": [
+        "high-tensile-bolts",
+        "socket-cap-screws",
+        "torque-controlled-bolts"
+      ],
+      "relatedArticles": [
+        "high-tensile-bolts-grade-8-8-10-9",
+        "iso-898-bolt-strength"
+      ],
+      "region": "global"
     },
     {
       "slug": "ethiopia-industrial-park-fastener-supply",
@@ -53,8 +93,16 @@
       "category": "Regional Supplier",
       "target_audience": "Industrial park operators, manufacturers",
       "search_intent": "commercial",
-      "relatedProducts": ["machine-screws", "self-tapping-screws", "t-slot-bolts"],
-      "relatedArticles": ["east-africa-construction-fastener-market", "african-ftz-fastener-import"]
+      "relatedProducts": [
+        "machine-screws",
+        "self-tapping-screws",
+        "t-slot-bolts"
+      ],
+      "relatedArticles": [
+        "east-africa-construction-fastener-market",
+        "african-ftz-fastener-import"
+      ],
+      "region": "africa"
     },
     {
       "slug": "railway-track-fastener-specifications",
@@ -62,8 +110,16 @@
       "category": "Technical Guide",
       "target_audience": "Railway engineers, infrastructure project managers",
       "search_intent": "informational",
-      "relatedProducts": ["track-bolts", "spring-washers", "fish-plates"],
-      "relatedArticles": ["mining-fastener-specifications", "high-tensile-bolts-guide"]
+      "relatedProducts": [
+        "track-bolts",
+        "spring-washers",
+        "fish-plates"
+      ],
+      "relatedArticles": [
+        "mining-fastener-specifications",
+        "high-tensile-bolts-guide"
+      ],
+      "region": "global"
     },
     {
       "slug": "tanzania-fastener-market-opportunities-2026",
@@ -71,8 +127,16 @@
       "category": "Market Analysis",
       "target_audience": "Importers, distributors, exporters",
       "search_intent": "commercial",
-      "relatedProducts": ["concrete-screws", "anchor-bolts", "structural-bolts"],
-      "relatedArticles": ["east-africa-construction-fastener-market", "dar-es-salaam-import-procedures"]
+      "relatedProducts": [
+        "concrete-screws",
+        "anchor-bolts",
+        "structural-bolts"
+      ],
+      "relatedArticles": [
+        "east-africa-construction-fastener-market",
+        "dar-es-salaam-import-procedures"
+      ],
+      "region": "africa"
     },
     {
       "slug": "agricultural-machinery-fastener-guide",
@@ -80,8 +144,16 @@
       "category": "Industry Guide",
       "target_audience": "Agricultural equipment manufacturers, mechanics",
       "search_intent": "informational",
-      "relatedProducts": ["plough-bolts", "track-bolts", "specialty-agri-fasteners"],
-      "relatedArticles": ["tractor-implement-fastener", "agri-equipment-africa"]
+      "relatedProducts": [
+        "plough-bolts",
+        "track-bolts",
+        "specialty-agri-fasteners"
+      ],
+      "relatedArticles": [
+        "tractor-implement-fastener",
+        "agri-equipment-africa"
+      ],
+      "region": "global"
     },
     {
       "slug": "fastener-supply-chain-africa-beira-corridor",
@@ -89,8 +161,14 @@
       "category": "Logistics Guide",
       "target_audience": "Logistics managers, importers",
       "search_intent": "informational",
-      "relatedProducts": ["all"],
-      "relatedArticles": ["zimbabwe-fastener-import", "beira-port-logistics"]
+      "relatedProducts": [
+        "all"
+      ],
+      "relatedArticles": [
+        "zimbabwe-fastener-import",
+        "beira-port-logistics"
+      ],
+      "region": "zimbabwe"
     },
     {
       "slug": "dr-congo-drc-mining-fastener-market",
@@ -98,8 +176,16 @@
       "category": "Market Analysis",
       "target_audience": "Mining companies, fastener suppliers",
       "search_intent": "commercial",
-      "relatedProducts": ["mining-grade-bolts", "corrosion-resistant-fasteners", "heavy-duty-anchors"],
-      "relatedArticles": ["zambia-mining-fastener-market", "southern-africa-fastener-market"]
+      "relatedProducts": [
+        "mining-grade-bolts",
+        "corrosion-resistant-fasteners",
+        "heavy-duty-anchors"
+      ],
+      "relatedArticles": [
+        "zambia-mining-fastener-market",
+        "southern-africa-fastener-market"
+      ],
+      "region": "africa"
     },
     {
       "slug": "food-beverage-fastener-hygiene-standards",
@@ -107,8 +193,16 @@
       "category": "Industry Guide",
       "target_audience": "Food processing plant engineers, QC managers",
       "search_intent": "informational",
-      "relatedProducts": ["sanitary-fasteners", "stainless-316-bolts", "polished-fasteners"],
-      "relatedArticles": ["stainless-steel-fasteners-corrosion", "pharmaceutical-fastener-standards"]
+      "relatedProducts": [
+        "sanitary-fasteners",
+        "stainless-316-bolts",
+        "polished-fasteners"
+      ],
+      "relatedArticles": [
+        "stainless-steel-fasteners-corrosion",
+        "pharmaceutical-fastener-standards"
+      ],
+      "region": "global"
     },
     {
       "slug": "fastener-failure-analysis-case-studies",
@@ -116,8 +210,14 @@
       "category": "Case Study",
       "target_audience": "Quality engineers, failure analysts",
       "search_intent": "informational",
-      "relatedProducts": ["all"],
-      "relatedArticles": ["quality-control-fasteners", "iso-898-bolt-strength"]
+      "relatedProducts": [
+        "all"
+      ],
+      "relatedArticles": [
+        "quality-control-fasteners",
+        "iso-898-bolt-strength"
+      ],
+      "region": "global"
     },
     {
       "slug": "solar-panel-mounting-fastener-requirements",
@@ -125,8 +225,16 @@
       "category": "Industry Guide",
       "target_audience": "Solar installers, project developers",
       "search_intent": "informational",
-      "relatedProducts": ["solar-clamps", "stainless-fasteners", "aluminum-clamps"],
-      "relatedArticles": ["solar-fastener-corrosion", "renewable-energy-fasteners"]
+      "relatedProducts": [
+        "solar-clamps",
+        "stainless-fasteners",
+        "aluminum-clamps"
+      ],
+      "relatedArticles": [
+        "solar-fastener-corrosion",
+        "renewable-energy-fasteners"
+      ],
+      "region": "global"
     },
     {
       "slug": "rwanda-construction-fastener-market-2026",
@@ -134,8 +242,16 @@
       "category": "Regional Supplier",
       "target_audience": "Importers, contractors in Rwanda",
       "search_intent": "commercial",
-      "relatedProducts": ["concrete-screws", "roofing-screws", "drywall-screws"],
-      "relatedArticles": ["east-africa-construction-fastener-market", "kigali-import-procedures"]
+      "relatedProducts": [
+        "concrete-screws",
+        "roofing-screws",
+        "drywall-screws"
+      ],
+      "relatedArticles": [
+        "east-africa-construction-fastener-market",
+        "kigali-import-procedures"
+      ],
+      "region": "africa"
     },
     {
       "slug": "fastener-quality-certification-comparison",
@@ -143,8 +259,15 @@
       "category": "Reference Guide",
       "target_audience": "Procurement managers, QC inspectors",
       "search_intent": "informational",
-      "relatedProducts": ["all"],
-      "relatedArticles": ["iso-898-standards", "astm-fastener-standards", "gb-fastener-standards"]
+      "relatedProducts": [
+        "all"
+      ],
+      "relatedArticles": [
+        "iso-898-standards",
+        "astm-fastener-standards",
+        "gb-fastener-standards"
+      ],
+      "region": "global"
     },
     {
       "slug": "uganda-construction-fastener-market-2026",
@@ -152,8 +275,16 @@
       "category": "Market Analysis",
       "target_audience": "Importers, contractors, oil sector suppliers",
       "search_intent": "commercial",
-      "relatedProducts": ["structural-bolts", "anchor-bolts", "pipe-flange-bolts"],
-      "relatedArticles": ["east-africa-construction-fastener-market", "uganda-import-procedures"]
+      "relatedProducts": [
+        "structural-bolts",
+        "anchor-bolts",
+        "pipe-flange-bolts"
+      ],
+      "relatedArticles": [
+        "east-africa-construction-fastener-market",
+        "uganda-import-procedures"
+      ],
+      "region": "africa"
     },
     {
       "slug": "automotive-fastener-grade-comparison",
@@ -161,8 +292,16 @@
       "category": "Industry Guide",
       "target_audience": "Automotive engineers, aftermarket distributors",
       "search_intent": "informational",
-      "relatedProducts": ["automotive-bolts", "wheel-bolts", "engine-bolts"],
-      "relatedArticles": ["automotive-fasteners-guide", "iso-898-strength-classes"]
+      "relatedProducts": [
+        "automotive-bolts",
+        "wheel-bolts",
+        "engine-bolts"
+      ],
+      "relatedArticles": [
+        "automotive-fasteners-guide",
+        "iso-898-strength-classes"
+      ],
+      "region": "global"
     },
     {
       "slug": "fastener-cost-reduction-china-vs-turkey",
@@ -170,8 +309,14 @@
       "category": "Procurement Guide",
       "target_audience": "Procurement managers, sourcing professionals",
       "search_intent": "commercial",
-      "relatedProducts": ["all"],
-      "relatedArticles": ["china-fastener-supplier-evaluation", "turkey-fastener-exports"]
+      "relatedProducts": [
+        "all"
+      ],
+      "relatedArticles": [
+        "china-fastener-supplier-evaluation",
+        "turkey-fastener-exports"
+      ],
+      "region": "global"
     },
     {
       "slug": "fastener-lubrication-thread-locking-guide",
@@ -179,8 +324,16 @@
       "category": "Technical Guide",
       "target_audience": "Mechanical engineers, maintenance technicians",
       "search_intent": "informational",
-      "relatedProducts": ["thread-locking-bolts", "nylon-insert-nuts", "prevailing-torque-nuts"],
-      "relatedArticles": ["vibration-resistant-fasteners", "thread-locking-adhesives"]
+      "relatedProducts": [
+        "thread-locking-bolts",
+        "nylon-insert-nuts",
+        "prevailing-torque-nuts"
+      ],
+      "relatedArticles": [
+        "vibration-resistant-fasteners",
+        "thread-locking-adhesives"
+      ],
+      "region": "global"
     },
     {
       "slug": "african-ftz-fastener-import-procedures",
@@ -188,8 +341,14 @@
       "category": "Procurement Guide",
       "target_audience": "Importers, customs brokers, trade lawyers",
       "search_intent": "informational",
-      "relatedProducts": ["all"],
-      "relatedArticles": ["afcfta-overview", "customs-procedures-africa"]
+      "relatedProducts": [
+        "all"
+      ],
+      "relatedArticles": [
+        "afcfta-overview",
+        "customs-procedures-africa"
+      ],
+      "region": "africa"
     },
     {
       "slug": "marine-grade-fastener-selection-guide",
@@ -197,8 +356,16 @@
       "category": "Technical Guide",
       "target_audience": "Marine engineers, shipyard procurement",
       "search_intent": "informational",
-      "relatedProducts": ["marine-stainless-bolts", "monel-bolts", "silicon-bronze-fasteners"],
-      "relatedArticles": ["stainless-316-vs-304-marine", "salt-spray-test-results"]
+      "relatedProducts": [
+        "marine-stainless-bolts",
+        "monel-bolts",
+        "silicon-bronze-fasteners"
+      ],
+      "relatedArticles": [
+        "stainless-316-vs-304-marine",
+        "salt-spray-test-results"
+      ],
+      "region": "global"
     },
     {
       "slug": "fastener-warehouse-management-best-practices",
@@ -206,8 +373,14 @@
       "category": "Procurement Guide",
       "target_audience": "Warehouse managers, distributors",
       "search_intent": "informational",
-      "relatedProducts": ["all"],
-      "relatedArticles": ["fastener-distribution-africa", "warehouse-management-systems"]
+      "relatedProducts": [
+        "all"
+      ],
+      "relatedArticles": [
+        "fastener-distribution-africa",
+        "warehouse-management-systems"
+      ],
+      "region": "global"
     },
     {
       "slug": "precast-concrete-fastener-applications",
@@ -215,8 +388,16 @@
       "category": "Technical Guide",
       "target_audience": "Precast manufacturers, construction engineers",
       "search_intent": "informational",
-      "relatedProducts": ["lifting-anchors", "precast-bracing-fasteners", "socket-lifters"],
-      "relatedArticles": ["concrete-screws-anchors-guide", "precast-construction-africa"]
+      "relatedProducts": [
+        "lifting-anchors",
+        "precast-bracing-fasteners",
+        "socket-lifters"
+      ],
+      "relatedArticles": [
+        "concrete-screws-anchors-guide",
+        "precast-construction-africa"
+      ],
+      "region": "global"
     },
     {
       "slug": "south-africa-sabs-fastener-import-requirements",
@@ -224,8 +405,14 @@
       "category": "Procurement Guide",
       "target_audience": "Importers, QC managers",
       "search_intent": "commercial",
-      "relatedProducts": ["all"],
-      "relatedArticles": ["southern-africa-fastener-market-southafrica-botswana", "sabs-standards-fasteners"]
+      "relatedProducts": [
+        "all"
+      ],
+      "relatedArticles": [
+        "southern-africa-fastener-market-southafrica-botswana",
+        "sabs-standards-fasteners"
+      ],
+      "region": "africa"
     },
     {
       "slug": "fastener-packaging-export-requirements",
@@ -233,8 +420,14 @@
       "category": "Logistics Guide",
       "target_audience": "Exporters, freight forwarders",
       "search_intent": "informational",
-      "relatedProducts": ["all"],
-      "relatedArticles": ["export-packaging-standards", "container-loading-fasteners"]
+      "relatedProducts": [
+        "all"
+      ],
+      "relatedArticles": [
+        "export-packaging-standards",
+        "container-loading-fasteners"
+      ],
+      "region": "global"
     },
     {
       "slug": "high-strength-bolting-structural-steel",
@@ -242,8 +435,16 @@
       "category": "Technical Guide",
       "target_audience": "Structural engineers, steel fabricators",
       "search_intent": "informational",
-      "relatedProducts": ["a325-bolts", "a490-bolts", "tc-bolts"],
-      "relatedArticles": ["structural-bolting-methods", "aisc-steel-connections"]
+      "relatedProducts": [
+        "a325-bolts",
+        "a490-bolts",
+        "tc-bolts"
+      ],
+      "relatedArticles": [
+        "structural-bolting-methods",
+        "aisc-steel-connections"
+      ],
+      "region": "global"
     },
     {
       "slug": "africa-informal-construction-fastener-demand",
@@ -251,8 +452,16 @@
       "category": "Market Analysis",
       "target_audience": "Market researchers, distributors",
       "search_intent": "informational",
-      "relatedProducts": ["basic-fasteners", "nails-screws", "wire-products"],
-      "relatedArticles": ["africa-retail-fastener", "informal-sector-distribution"]
+      "relatedProducts": [
+        "basic-fasteners",
+        "nails-screws",
+        "wire-products"
+      ],
+      "relatedArticles": [
+        "africa-retail-fastener",
+        "informal-sector-distribution"
+      ],
+      "region": "africa"
     },
     {
       "slug": "fastener-quality-control-inspection-procedures",
@@ -260,8 +469,14 @@
       "category": "Technical Guide",
       "target_audience": "QC inspectors, quality engineers",
       "search_intent": "informational",
-      "relatedProducts": ["all"],
-      "relatedArticles": ["iso-9001-fastener", "fastener-testing-methods"]
+      "relatedProducts": [
+        "all"
+      ],
+      "relatedArticles": [
+        "iso-9001-fastener",
+        "fastener-testing-methods"
+      ],
+      "region": "global"
     },
     {
       "slug": "green-building-fastener-requirements",
@@ -269,8 +484,51 @@
       "category": "Industry Guide",
       "target_audience": "Green building consultants, sustainable construction professionals",
       "search_intent": "informational",
-      "relatedProducts": ["recycled-content-fasteners", "low-carbon-fasteners", "sustainably-sourced"],
-      "relatedArticles": ["green-construction-africa", "sustainable-building-materials"]
+      "relatedProducts": [
+        "recycled-content-fasteners",
+        "low-carbon-fasteners",
+        "sustainably-sourced"
+      ],
+      "relatedArticles": [
+        "green-construction-africa",
+        "sustainable-building-materials"
+      ],
+      "region": "global"
+    },
+    {
+      "slug": "zimbabwe-import-duty-fastener-tariff-2026",
+      "category": "Procurement Guide",
+      "region": "zimbabwe",
+      "title_en": "Zimbabwe Import Duty on Fasteners 2026: ZIMRA Tariff Codes and Rebate Orders",
+      "title_zh": "津巴布韦紧固件进口关税 2026: ZIMRA 关税代码和减免令"
+    },
+    {
+      "slug": "zimbabwe-construction-megaprojects-fastener-demand",
+      "category": "Market Analysis",
+      "region": "zimbabwe",
+      "title_en": "Zimbabwe Construction Megaprojects 2026: Fastener Demand from Batoka, Hwange, and Road Projects",
+      "title_zh": "津巴布韦 2026 大型建设项目: Batoka、Hwange 电站及道路工程紧固件需求"
+    },
+    {
+      "slug": "harare-fastener-distributor-supplier-guide",
+      "category": "Regional Supplier",
+      "region": "zimbabwe",
+      "title_en": "Harare Fastener Distributor and Supplier Guide 2026: Wholesale Prices and Stock",
+      "title_zh": "哈拉雷紧固件批发商和供应商指南 2026: 批发价格和库存"
+    },
+    {
+      "slug": "zimbabwe-mining-fastener-grade-selection",
+      "category": "Technical Guide",
+      "region": "zimbabwe",
+      "title_en": "Zimbabwe Mining Fastener Grade Selection: Platinum, Gold, Chrome Applications",
+      "title_zh": "津巴布韦矿业紧固件等级选择: 铂金、黄金、铬矿应用"
+    },
+    {
+      "slug": "china-zimbabwe-fastener-shipping-container-guide",
+      "category": "Logistics Guide",
+      "region": "zimbabwe",
+      "title_en": "China to Zimbabwe Fastener Shipping Guide: Container Transit Times, Costs, and Beira Route",
+      "title_zh": "中国至津巴布韦紧固件海运指南: 集装箱时效、费用和贝拉港路线"
     }
   ]
 }

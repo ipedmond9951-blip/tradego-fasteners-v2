@@ -123,3 +123,27 @@ python3 ~/.agents/skills/seo-universal-author/scripts/validate-article.py conten
 - deepseek-v4-pro → kimi-k2.6 → glm-5.1 → doubao-seed-2.0-pro
 - (预防 LLM 过载)
 ```
+
+---
+
+## 📝 2026-06-02 总裁新规则 (强制)
+
+### 选题强制分布 (每日 5 篇)
+- 🇿🇼 **至少 2 篇 Zimbabwe** (公司主营市场)
+- 🌍 **至少 1 篇 Africa** (其他非洲市场)
+- 🌍 **其余 2 篇自由选** (全球行业/技术)
+
+### Zimbabwe 文章必须包含
+- 城市: Harare, Bulawayo (至少 1 个)
+- 机构: ZIMRA (税务), BATOKA Gorge, Hwange Power Station
+- 行业: Mining (platinum, gold, chrome), Construction, Agriculture
+- 物流: Beira Corridor (Mozambique), Walvis Bay (Namibia)
+- 货币: USD (Zimbabwe 法定货币)
+- 定位: TradeGo 是 China-Zimbabwe 紧固件专家, 多年深耕
+
+### Africa 文章必须包含
+- 具体非洲国家 + 城市
+- 区域组织: AfCFTA, SADC, EAC, COMESA
+- 港口: Durban, Mombasa, Dar es Salaam, Lagos, Tema
+- 标准: SABS, KS, UNBS, locally-required
+- 货币: USD 计价

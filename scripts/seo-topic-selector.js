@@ -2,8 +2,11 @@
 /**
  * SEO Article Topic Selector
  * 
- * 由 cron agent 在生成文章前调用, 获取今日 5 个选题
- * 输出: JSON 数组, 每个 topic 包含完整生成指令
+ * 强制规则 (总裁 2026-06-02 指令):
+ * - 每日生成 5 篇
+ * - 至少 2 篇 Zimbabwe (公司主营市场)
+ * - 至少 1 篇 Africa
+ * - 其他 2 篇自由选
  * 
  * Usage: node scripts/seo-topic-selector.js [count]
  */
@@ -37,27 +40,43 @@ const recentSlugs = history.generated
   .map(g => g.slug);
 
 // 排除已存在的文章 slug
-const availableTopics = pool.topics.filter(t => 
+const availableTopics = pool.topics.filter(t =>
   !recentSlugs.includes(t.slug) && !existingArticles.includes(t.slug)
 );
 
-// 类别平衡 + 优先未用过类别
-const usedCategories = new Set();
+// 按 region 分类
+const byRegion = {
+  zimbabwe: availableTopics.filter(t => t.region === 'zimbabwe'),
+  africa: availableTopics.filter(t => t.region === 'africa'),
+  global: availableTopics.filter(t => t.region === 'global'),
+};
+
+// 强制规则: 2 Zimbabwe + 1 Africa + 2 自由
 const selected = [];
 
-for (const topic of availableTopics) {
+// 1. 选 2 篇 Zimbabwe
+selected.push(...byRegion.zimbabwe.slice(0, 2));
+
+// 2. 选 1 篇 Africa
+selected.push(...byRegion.africa.slice(0, 1));
+
+// 3. 选 2 篇其他 (避免与已选重复, 优先不同类别)
+const usedCategories = new Set(selected.map(t => t.category));
+const remaining = availableTopics.filter(t => !selected.find(s => s.slug === t.slug));
+
+// 优先不同类别
+for (const t of remaining) {
   if (selected.length >= count) break;
-  if (!usedCategories.has(topic.category)) {
-    selected.push(topic);
-    usedCategories.add(topic.category);
+  if (!usedCategories.has(t.category)) {
+    selected.push(t);
+    usedCategories.add(t.category);
   }
 }
-
 // 补齐
-for (const topic of availableTopics) {
+for (const t of remaining) {
   if (selected.length >= count) break;
-  if (!selected.find(t => t.slug === topic.slug)) {
-    selected.push(topic);
+  if (!selected.find(s => s.slug === t.slug)) {
+    selected.push(t);
   }
 }
 
@@ -65,6 +84,16 @@ console.log(JSON.stringify({
   success: true,
   count: selected.length,
   topics: selected,
+  selection_summary: {
+    zimbabwe: selected.filter(t => t.region === 'zimbabwe').length,
+    africa: selected.filter(t => t.region === 'africa').length,
+    global: selected.filter(t => t.region === 'global').length,
+  },
+  available_pool: {
+    zimbabwe: byRegion.zimbabwe.length,
+    africa: byRegion.africa.length,
+    global: byRegion.global.length,
+  },
   instructions: {
     workflow: [
       "1. For each topic, use web_search to find 2-3 high-quality reference articles",
@@ -85,10 +114,13 @@ console.log(JSON.stringify({
       "5 authoritative data sources (ISO.org, ASTM.org, trade.gov, etc.)",
       "Use TradeGo products: hex bolts, anchor bolts, concrete screws, etc.",
       "Target TradeGo markets: China-Africa B2B fastener export, African markets (Zimbabwe, Kenya, South Africa, etc.)",
+      "🇿🇼 ZIMBABWE ARTICLES: Reference Harare/Bulawayo, ZIMRA, BATOKA/Hwange projects, mining sector (platinum/gold/chrome), Beira corridor, USD-based pricing, TradeGo is China-Zimbabwe specialist",
+      "🌍 AFRICA ARTICLES: Reference specific African markets, AfCFTA, regional ports, local standards, USD pricing",
     ],
     article_template: {
       slug: "kebab-case-slug",
       category: "Technical Guide | Industry Guide | Market Analysis | Regional Supplier | Reference Guide | Procurement Guide | Logistics Guide | Case Study",
+      region: "zimbabwe | africa | global",
       date: "YYYY-MM-DD (random within last 7 days)",
       readTime: 8,
       image: "/images/articles/[slug].jpg",
