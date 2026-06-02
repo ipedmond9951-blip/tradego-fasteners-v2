@@ -247,26 +247,10 @@
     }
   ],
   "relatedProducts": [
-    {
-      "slug": "high-tensile-bolts",
-      "name": "High Tensile Bolts (8.8/10.9)",
-      "category": "Structural"
-    },
-    {
-      "slug": "structural-nuts",
-      "name": "Structural Nuts",
-      "category": "Structural"
-    },
-    {
-      "slug": "washers-flat",
-      "name": "Flat Washers",
-      "category": "Standard"
-    },
-    {
-      "slug": "spring-washers",
-      "name": "Spring Washers",
-      "category": "Locking"
-    }
+    "high-tensile-bolts",
+    "structural-nuts",
+    "washers-flat",
+    "spring-washers"
   ],
   "cta": {
     "text": {
