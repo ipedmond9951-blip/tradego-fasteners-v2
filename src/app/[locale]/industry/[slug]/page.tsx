@@ -140,8 +140,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
 
   const title = localizedText(article.title, locale)
   const desc = localizedText(article.description, locale)
-  const ctaText = localizedText(article.cta.text, locale)
-  const ctaBtn = localizedText(article.cta.buttonText, locale)
+  const ctaText = localizedText(article.cta?.text, locale)
+  const ctaBtn = localizedText(article.cta?.buttonText, locale)
 
   // JSON-LD FAQ Schema
   const faqItems = article.sections
@@ -206,7 +206,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
         {/* CTA */}
         <div className="mt-12 bg-primary-50 rounded-xl p-6 md:p-8 text-center">
           <p className="text-lg font-medium text-gray-900 mb-4">{ctaText}</p>
-          <Link href={`/${locale}${article.cta.link}`} className="inline-block bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors">
+          <Link href={`/${locale}${article.cta?.link || '/contact'}`} className="inline-block bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors">
             {ctaBtn}
           </Link>
         </div>
@@ -216,11 +216,16 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
           <div className="mt-8">
             <h3 className="text-lg font-semibold mb-3">Related Products</h3>
             <div className="flex gap-3 flex-wrap">
-              {article.relatedProducts.map(p => (
-                <Link key={p} href={`/${locale}/products`} className="px-4 py-2 bg-gray-100 rounded-lg text-sm text-gray-700 hover:bg-primary-100 hover:text-primary-700 transition-colors">
-                  {p.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}
-                </Link>
-              ))}
+              {(article.relatedProducts as any[]).map((p: any, i: number) => {
+                const slug = typeof p === 'string' ? p : p.slug
+                const label = typeof p === 'string' ? p : (p.title || p.slug)
+                const display = label.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+                return (
+                  <Link key={typeof p === 'string' ? p : `${slug}-${i}`} href={`/${locale}/products`} className="px-4 py-2 bg-gray-100 rounded-lg text-sm text-gray-700 hover:bg-primary-100 hover:text-primary-700 transition-colors">
+                    {display}
+                  </Link>
+                )
+              })}
             </div>
           </div>
         )}
@@ -230,14 +235,16 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
           <div className="mt-8">
             <h3 className="text-lg font-semibold mb-3">Related Articles</h3>
             <div className="flex gap-3 flex-wrap">
-              {article.relatedArticles.map((a: { slug: string; title?: string }) => (
-                <Link key={a.slug} href={`/${locale}/industry/${a.slug}`} className="px-4 py-2 bg-blue-50 rounded-lg text-sm text-blue-700 hover:bg-blue-100 transition-colors">
-                  {(() => {
-                    const t = a.title || a.slug
-                    return t.length > 40 ? t.substring(0, 40) + '...' : t
-                  })()}
-                </Link>
-              ))}
+              {(article.relatedArticles as any[]).map((a: any, i: number) => {
+                const slug = typeof a === 'string' ? a : a.slug
+                const title = typeof a === 'string' ? a : (a.title || a.slug)
+                const display = title.length > 40 ? title.substring(0, 40) + '...' : title
+                return (
+                  <Link key={`${slug}-${i}`} href={`/${locale}/industry/${slug}`} className="px-4 py-2 bg-blue-50 rounded-lg text-sm text-blue-700 hover:bg-blue-100 transition-colors">
+                    {display}
+                  </Link>
+                )
+              })}
             </div>
           </div>
         )}
