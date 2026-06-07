@@ -19,6 +19,7 @@ export interface Article {
   slug: string
   category: string
   date: string
+  updated?: string
   readTime: number
   image: string
   title: Record<string, string>
