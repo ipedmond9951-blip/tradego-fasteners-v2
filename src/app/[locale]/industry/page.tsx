@@ -41,6 +41,12 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
   const { locale: localeParam } = await params
   const locale = (localeParam as Locale) || 'en'
   const articles = getAllArticles()
+    .slice()
+    .sort((a, b) => {
+      const da = a.date || a.updated || ''
+      const db = b.date || b.updated || ''
+      return db.localeCompare(da)
+    })
 
   const categories = ['All', ...Array.from(new Set(articles.map(a => a.category)))]
 
