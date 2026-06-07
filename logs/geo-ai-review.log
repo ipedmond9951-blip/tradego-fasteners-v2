@@ -579,3 +579,14 @@ Call log:
   - <ws connecting> ws://localhost:18800/devtools/browser/91f420b8-b637-4242-8347-ba4be05f753e
   - <ws connected> ws://localhost:18800/devtools/browser/91f420b8-b637-4242-8347-ba4be05f753e
 
+[2026-06-07 18:02:52] ==========================================
+[2026-06-07 18:02:52] 🌍 GEO AI评估开始
+[2026-06-07 18:02:52] ==========================================
+[2026-06-07 18:02:52] 🤖 正在调用AI助手评估GEO...
+[Grok] 开始调用...
+🤔 正在问Grok: "我有一个外贸B2B网站tradego-fasteners.com，主营非洲市场（津巴布韦）的紧固件（..."
+📄 打开Grok页面...
+✅ 找到输入框: div[contenteditable="true"]
+✅ 已发送，等待回复...
+=== 🤖 Grok 回复 ===
+[Grok错误] page.evaluate: Execution context was destroyed, most likely because of a navigation
