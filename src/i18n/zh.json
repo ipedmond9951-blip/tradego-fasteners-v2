@@ -163,5 +163,43 @@
     "blackOxideDesc": "装饰性外观，轻度防腐",
     "dacromet": "达克罗",
     "dacrometDesc": "优异的耐腐蚀和耐化学性"
+  },
+  "industry": {
+    "title": "紧固件行业洞察",
+    "subtitle": "非洲建筑和制造业的紧固件行业新闻和市场分析。钢材价格、建筑趋势和供应链更新。",
+    "readMore": "阅读更多",
+    "publishedOn": "发布于",
+    "backToList": "← 返回文章列表",
+    "relatedArticles": "相关文章",
+    "relatedProducts": "相关产品",
+    "inThisCategory": "{category}更多文章",
+    "exploreMore": "探索更多",
+    "dataSource": "数据来源",
+    "authorBy": "作者",
+    "reviewedBy": "审核人",
+    "minRead": "分钟阅读"
+  },
+  "steelPrices": {
+    "title": "钢材与大宗商品价格",
+    "subtitle": "建筑和制造业的实时钢材价格和大宗商品数据",
+    "priceTrends": "钢材价格趋势",
+    "trendsDesc": "主要钢材产品的历史价格趋势（30天）",
+    "detailedList": "详细价格表",
+    "dataSources": "数据来源",
+    "dataSourcesDesc": "钢材和大宗商品价格来自主要交易所和市场数据提供商：",
+    "lme": "伦敦金属交易所 (LME)",
+    "lmeDesc": "全球有色金属基准",
+    "shfe": "上海期货交易所",
+    "shfeDesc": "中国钢材和大宗商品期货",
+    "lmeSteel": "LME 钢铁热轧卷板",
+    "lmeSteelDesc": "全球热轧卷板指数",
+    "note": "注：价格为指示性，可能有差异。联系我们获取实际报价。",
+    "hrc": "热轧卷板",
+    "crc": "冷轧卷板",
+    "rebar": "螺纹钢",
+    "lastUpdated": "最后更新",
+    "error": "加载钢材价格错误",
+    "loadFailed": "加载钢材价格失败",
+    "localMarket": "本地市场关注"
   }
 }

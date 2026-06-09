@@ -157,5 +157,43 @@
     "blackOxideDesc": "Dekorative Oberfläche mit leichtem Korrosionsschutz",
     "dacromet": "Dacromet",
     "dacrometDesc": "Ausgezeichneter Korrosions- und Chemikalienschutz"
+  },
+  "industry": {
+    "title": "Einblicke in die Befestigungsindustrie",
+    "subtitle": "Nachrichten aus der Befestigungsindustrie und Marktanalyse für afrikanisches Bauwesen und Fertigung. Stahlpreise, Bautrends und Lieferketten-Updates.",
+    "readMore": "Mehr Lesen",
+    "publishedOn": "Veröffentlicht am",
+    "backToList": "← Zurück zu Artikeln",
+    "relatedArticles": "Verwandte Artikel",
+    "relatedProducts": "Verwandte Produkte",
+    "inThisCategory": "Mehr in {category}",
+    "exploreMore": "Mehr Entdecken",
+    "dataSource": "Datenquelle",
+    "authorBy": "Von",
+    "reviewedBy": "Überprüft von",
+    "minRead": "Min. Lesezeit"
+  },
+  "steelPrices": {
+    "title": "Stahl- und Rohstoffpreise",
+    "subtitle": "Echtzeit-Stahlpreise und Rohstoffdaten für Bauwesen und Fertigung",
+    "priceTrends": "Stahlpreis-Trends",
+    "trendsDesc": "Historische Preistrends für wichtige Stahlprodukte (30 Tage)",
+    "detailedList": "Detaillierte Preisliste",
+    "dataSources": "Datenquellen",
+    "dataSourcesDesc": "Stahl- und Rohstoffpreise stammen von großen Börsen und Marktdatenanbietern:",
+    "lme": "London Metal Exchange (LME)",
+    "lmeDesc": "Weltweiter Maßstab für Nichteisenmetalle",
+    "shfe": "Shanghai Futures Exchange",
+    "shfeDesc": "Chinesische Stahl- und Rohstoff-Futures",
+    "lmeSteel": "LME Stahl HRC",
+    "lmeSteelDesc": "Globaler Warmband-Index",
+    "note": "Hinweis: Die Preise sind indikativ und können variieren. Kontaktieren Sie uns für tatsächliche Angebote.",
+    "hrc": "Warmband",
+    "crc": "Kaltband",
+    "rebar": "Betonstahl",
+    "lastUpdated": "Zuletzt aktualisiert",
+    "error": "Fehler beim Laden der Stahlpreise",
+    "loadFailed": "Stahlpreise konnten nicht geladen werden",
+    "localMarket": "Lokaler Marktfokus"
   }
 }

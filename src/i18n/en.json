@@ -148,7 +148,15 @@
     "subtitle": "Fastener industry news and market analysis for African construction and manufacturing. Steel prices, construction trends, and supply chain updates.",
     "readMore": "Read More",
     "publishedOn": "Published on",
-    "backToList": "← Back to Articles"
+    "backToList": "← Back to Articles",
+    "relatedArticles": "Related Articles",
+    "relatedProducts": "Related Products",
+    "inThisCategory": "More in {category}",
+    "exploreMore": "Explore More",
+    "dataSource": "Data Source",
+    "authorBy": "By",
+    "reviewedBy": "Reviewed by",
+    "minRead": "min read"
   },
   "common": {
     "applications": "Applications"
@@ -180,5 +188,28 @@
     "blackOxideDesc": "Decorative finish with mild corrosion resistance",
     "dacromet": "Dacromet",
     "dacrometDesc": "Excellent corrosion and chemical resistance"
+  },
+  "steelPrices": {
+    "title": "Steel & Commodity Prices",
+    "subtitle": "Real-time steel prices and commodity data for construction and manufacturing",
+    "priceTrends": "Steel Price Trends",
+    "trendsDesc": "Historical price trends for key steel products (30 days)",
+    "detailedList": "Detailed Price List",
+    "dataSources": "Data Sources",
+    "dataSourcesDesc": "Steel and commodity prices are sourced from major exchanges and market data providers:",
+    "lme": "London Metal Exchange (LME)",
+    "lmeDesc": "Global benchmark for non-ferrous metals",
+    "shfe": "Shanghai Futures Exchange",
+    "shfeDesc": "China steel and commodity futures",
+    "lmeSteel": "LME Steel HRC",
+    "lmeSteelDesc": "Global hot rolled coil index",
+    "note": "Note: Prices are indicative and may vary. Contact us for actual quotes.",
+    "hrc": "Hot Rolled Coil",
+    "crc": "Cold Rolled Coil",
+    "rebar": "Rebar",
+    "lastUpdated": "Last updated",
+    "error": "Error Loading Steel Prices",
+    "loadFailed": "Failed to load steel prices",
+    "localMarket": "Local Market Focus"
   }
 }

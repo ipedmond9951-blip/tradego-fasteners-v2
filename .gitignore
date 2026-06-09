@@ -56,3 +56,6 @@ logs/
 content/articles/backup/
 # A/B test images (large binaries)
 public/images/articles/ab-tests/
+
+# Local debug scripts (GSC scrapers, etc.)
+tmp-scripts/

@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { redirect } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
-import { getAllArticles, getAllSlugs, getArticleBySlug } from '@/lib/articles'
+import { getAllArticles, getAllSlugs, getArticleBySlug, getRelatedByCategory, getArticleTitle, humanizeSlug } from '@/lib/articles'
 import { type Locale, t, locales } from '@/i18n'
 import type { ArticleSection } from '@/lib/articles'
 import ShareButtons from '@/components/ShareButtons'
@@ -212,14 +212,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
         </div>
 
         {/* Related Products */}
-        {article.relatedProducts.length > 0 && (
+        {article.relatedProducts && article.relatedProducts.length > 0 && (
           <div className="mt-8">
-            <h3 className="text-lg font-semibold mb-3">Related Products</h3>
+            <h3 className="text-lg font-semibold mb-3">{t(locale, 'industry.relatedProducts')}</h3>
             <div className="flex gap-3 flex-wrap">
-              {(article.relatedProducts as any[]).map((p: any, i: number) => {
+              {article.relatedProducts.map((p: any, i: number) => {
                 const slug = typeof p === 'string' ? p : p.slug
                 const label = typeof p === 'string' ? p : (p.title || p.slug)
-                const display = label.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+                const display = humanizeSlug(label)
                 return (
                   <Link key={typeof p === 'string' ? p : `${slug}-${i}`} href={`/${locale}/products`} className="px-4 py-2 bg-gray-100 rounded-lg text-sm text-gray-700 hover:bg-primary-100 hover:text-primary-700 transition-colors">
                     {display}
@@ -230,24 +230,62 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
           </div>
         )}
 
-        {/* Related Articles */}
+        {/* Related Articles — hardcoded from article.relatedArticles */}
         {article.relatedArticles && article.relatedArticles.length > 0 && (
           <div className="mt-8">
-            <h3 className="text-lg font-semibold mb-3">Related Articles</h3>
+            <h3 className="text-lg font-semibold mb-3">{t(locale, 'industry.relatedArticles')}</h3>
             <div className="flex gap-3 flex-wrap">
-              {(article.relatedArticles as any[]).map((a: any, i: number) => {
+              {article.relatedArticles.map((a: any, i: number) => {
                 const slug = typeof a === 'string' ? a : a.slug
-                const title = typeof a === 'string' ? a : (a.title || a.slug)
-                const display = title.length > 40 ? title.substring(0, 40) + '...' : title
+                // Try to resolve to actual title; fall back to humanized slug
+                const linked = getArticleBySlug(slug)
+                const display = linked
+                  ? getArticleTitle(linked, locale)
+                  : humanizeSlug(typeof a === 'string' ? a : (a.title || a.slug))
+                const truncated = display.length > 60 ? display.substring(0, 60) + '…' : display
                 return (
-                  <Link key={`${slug}-${i}`} href={`/${locale}/industry/${slug}`} className="px-4 py-2 bg-blue-50 rounded-lg text-sm text-blue-700 hover:bg-blue-100 transition-colors">
-                    {display}
+                  <Link key={`${slug}-${i}`} href={`/${locale}/industry/${slug}/`} className="px-4 py-2 bg-blue-50 rounded-lg text-sm text-blue-700 hover:bg-blue-100 transition-colors">
+                    {truncated}
                   </Link>
                 )
               })}
             </div>
           </div>
         )}
+
+        {/* More in this Category — auto-recommendation fallback */}
+        {(() => {
+          const hardcodedSlugs = new Set(
+            (article.relatedArticles || []).map((a: any) => typeof a === 'string' ? a : a.slug)
+          )
+          const moreInCat = getRelatedByCategory(article.category, article.slug, 4)
+            .filter(a => !hardcodedSlugs.has(a.slug))
+          if (moreInCat.length === 0) return null
+          return (
+            <div className="mt-8">
+              <h3 className="text-lg font-semibold mb-3">
+                {t(locale, 'industry.inThisCategory').replace('{category}', article.category)}
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {moreInCat.map((a) => {
+                  const aTitle = getArticleTitle(a, locale)
+                  const truncated = aTitle.length > 70 ? aTitle.substring(0, 70) + '…' : aTitle
+                  return (
+                    <Link
+                      key={a.slug}
+                      href={`/${locale}/industry/${a.slug}/`}
+                      className="block p-4 border border-gray-200 rounded-lg hover:border-primary-300 hover:bg-primary-50 transition-colors"
+                    >
+                      <div className="text-sm text-primary-600 font-medium mb-1">{a.category}</div>
+                      <div className="text-gray-900 font-medium">{truncated}</div>
+                      <div className="text-xs text-gray-500 mt-1">{a.date}</div>
+                    </Link>
+                  )
+                })}
+              </div>
+            </div>
+          )
+        })()}
       </article>
 
       {/* Schema */}

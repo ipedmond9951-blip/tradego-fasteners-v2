@@ -157,5 +157,43 @@
     "blackOxideDesc": "内装のある耐食性を持つ装飾的な仕上がり",
     "dacromet": "ダクロメ",
     "dacrometDesc": "優れた耐食性と耐化学性"
+  },
+  "industry": {
+    "title": "ファスナー業界の洞察",
+    "subtitle": "アフリカの建設と製造業向けのファスナー業界ニュースと市場分析。鉄鋼価格、建設動向、サプライチェーンの更新。",
+    "readMore": "続きを読む",
+    "publishedOn": "公開日",
+    "backToList": "← 記事一覧に戻る",
+    "relatedArticles": "関連記事",
+    "relatedProducts": "関連製品",
+    "inThisCategory": "{category} 関連",
+    "exploreMore": "もっと探る",
+    "dataSource": "データソース",
+    "authorBy": "著者",
+    "reviewedBy": "レビュー",
+    "minRead": "分読み"
+  },
+  "steelPrices": {
+    "title": "鉄鋼と商品価格",
+    "subtitle": "建設と製造業向けのリアルタイム鉄鋼価格と商品データ",
+    "priceTrends": "鉄鋼価格動向",
+    "trendsDesc": "主要鉄鋼製品の歴史的価格動向（30日間）",
+    "detailedList": "詳細価格リスト",
+    "dataSources": "データソース",
+    "dataSourcesDesc": "鉄鋼と商品価格は主要な取引所と市場データプロバイダーから取得されています：",
+    "lme": "ロンドン金属取引所 (LME)",
+    "lmeDesc": "非鉄金属の世界的なベンチマーク",
+    "shfe": "上海先物取引所",
+    "shfeDesc": "中国の鉄鋼と商品先物",
+    "lmeSteel": "LME 鉄鋼 HRC",
+    "lmeSteelDesc": "世界的な熱延コイル指数",
+    "note": "注：価格は指標値であり、変動する可能性があります。実際の見積もりについてはお問い合わせください。",
+    "hrc": "熱延コイル",
+    "crc": "冷延コイル",
+    "rebar": "鉄筋",
+    "lastUpdated": "最終更新",
+    "error": "鉄鋼価格の読み込みエラー",
+    "loadFailed": "鉄鋼価格の読み込みに失敗しました",
+    "localMarket": "地元市場の焦点"
   }
 }
