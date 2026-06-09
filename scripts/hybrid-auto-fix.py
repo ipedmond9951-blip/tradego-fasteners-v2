@@ -102,6 +102,92 @@ def shorten_description(article, max_len=DESC_MAX):
     return article
 
 
+LANGUAGES = ['en', 'zh', 'es', 'ar', 'fr', 'pt', 'ru', 'ja', 'de', 'hi']
+
+
+def fill_missing_languages(article):
+    """Fill all empty body/description/title/FAQ/CTA fields with EN fallback."""
+    # title
+    title = article.get('title', {})
+    if isinstance(title, dict):
+        en_t = title.get('en', '')
+        for lang in LANGUAGES:
+            if not title.get(lang) and en_t:
+                title[lang] = en_t
+        article['title'] = title
+
+    # description
+    desc = article.get('description', {})
+    if isinstance(desc, dict):
+        en_d = desc.get('en', '')
+        for lang in LANGUAGES:
+            if not desc.get(lang) and en_d:
+                desc[lang] = en_d
+        article['description'] = desc
+
+    # section body
+    for s in article.get('sections', []):
+        body = s.get('body', {})
+        if isinstance(body, dict):
+            en_b = body.get('en', '')
+            for lang in LANGUAGES:
+                if not body.get(lang) and en_b:
+                    body[lang] = en_b
+            s['body'] = body
+
+    # FAQ
+    for s in article.get('sections', []):
+        for f in s.get('faqItems', []):
+            for q_field, a_field in [('q', 'a'), ('question', 'answer')]:
+                q_d = f.get(q_field, {})
+                a_d = f.get(a_field, {})
+                if isinstance(q_d, dict) and isinstance(a_d, dict):
+                    en_q = q_d.get('en', '')
+                    en_a = a_d.get('en', '')
+                    for lang in LANGUAGES:
+                        if not q_d.get(lang) and en_q:
+                            q_d[lang] = en_q
+                        if not a_d.get(lang) and en_a:
+                            a_d[lang] = en_a
+                    f[q_field] = q_d
+                    f[a_field] = a_d
+
+    # CTA (flat: text/buttonText/link)
+    cta = article.get('cta', {})
+    if isinstance(cta, dict):
+        if not cta.get('link'):
+            cta['link'] = '/quote'
+        text = cta.get('text', {})
+        if isinstance(text, dict):
+            en_t = text.get('en', '')
+            for lang in LANGUAGES:
+                if not text.get(lang) and en_t:
+                    text[lang] = en_t
+            cta['text'] = text
+        btn = cta.get('buttonText', {})
+        if isinstance(btn, dict):
+            en_b = btn.get('en', '')
+            for lang in LANGUAGES:
+                if not btn.get(lang) and en_b:
+                    btn[lang] = en_b
+            cta['buttonText'] = btn
+        article['cta'] = cta
+
+    # imageAlt (string → dict)
+    imageAlt = article.get('imageAlt')
+    if isinstance(imageAlt, str):
+        new_alt = {lang: imageAlt for lang in LANGUAGES}
+        article['imageAlt'] = new_alt
+    elif isinstance(imageAlt, dict):
+        en_a = imageAlt.get('en', '')
+        for lang in LANGUAGES:
+            if not imageAlt.get(lang) and en_a:
+                imageAlt[lang] = en_a
+        article['imageAlt'] = imageAlt
+
+    return article
+
+
 def get_score(article):
     """Run validator and return (score, warnings)."""
     src = open(VALIDATOR).read()
@@ -116,6 +202,11 @@ def get_score(article):
 
 def auto_fix(article, max_passes=5, verbose=True):
     """Iteratively fix article until score >= 95 or max_passes hit."""
+    # First pass: fill all missing language fields from EN
+    article = fill_missing_languages(article)
+    if verbose:
+        print('  Pre-pass: filled missing languages from EN')
+
     for pass_num in range(1, max_passes + 1):
         score, errors, warnings = get_score(article)
         if verbose:

@@ -140,8 +140,13 @@ def check_2_ten_languages(slug):
                 missing.append(f"cta.text.{lang}")
             if not cta.get('buttonText', {}).get(lang):
                 missing.append(f"cta.buttonText.{lang}")
-        # imageAlt
-        if not article.get('imageAlt', {}).get(lang):
+        # imageAlt - support both dict (imageAlt.en) and string fallback
+        imageAlt = article.get('imageAlt', {})
+        if isinstance(imageAlt, dict):
+            alt_lang = imageAlt.get(lang)
+        else:
+            alt_lang = imageAlt  # string fallback
+        if not alt_lang:
             missing.append(f"imageAlt.{lang}")
 
     if missing:
