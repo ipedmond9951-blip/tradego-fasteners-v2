@@ -154,5 +154,43 @@
     "blackOxideDesc": "Finition décorative avec légère résistance à la corrosion",
     "dacromet": "Dacromet",
     "dacrometDesc": "Excellente résistance à la corrosion et aux produits chimiques"
+  },
+  "industry": {
+    "title": "Aperçus de l'Industrie des Fixations",
+    "subtitle": "Actualités de l'industrie des fixations et analyse de marché pour la construction et la fabrication africaines. Prix de l'acier, tendances de la construction et mises à jour de la chaîne d'approvisionnement.",
+    "readMore": "Lire Plus",
+    "publishedOn": "Publié le",
+    "backToList": "← Retour aux Articles",
+    "relatedArticles": "Articles Connexes",
+    "relatedProducts": "Produits Connexes",
+    "inThisCategory": "Plus dans {category}",
+    "exploreMore": "Explorer Plus",
+    "dataSource": "Source de Données",
+    "authorBy": "Par",
+    "reviewedBy": "Revu par",
+    "minRead": "min de lecture"
+  },
+  "steelPrices": {
+    "title": "Prix de l'Acier et des Matières Premières",
+    "subtitle": "Prix de l'acier en temps réel et données sur les matières premières pour la construction et la fabrication",
+    "priceTrends": "Tendances des Prix de l'Acier",
+    "trendsDesc": "Tendances historiques des prix pour les principaux produits en acier (30 jours)",
+    "detailedList": "Liste Détaillée des Prix",
+    "dataSources": "Sources de Données",
+    "dataSourcesDesc": "Les prix de l'acier et des matières proviennent des principales bourses et fournisseurs de données de marché:",
+    "lme": "London Metal Exchange (LME)",
+    "lmeDesc": "Référence mondiale pour les métaux non ferreux",
+    "shfe": "Bourse des Métaux de Shanghai",
+    "shfeDesc": "Contrats à terme sur l'acier et les matières premières chinoises",
+    "lmeSteel": "LME Acier HRC",
+    "lmeSteelDesc": "Indice mondial des bobines laminées à chaud",
+    "note": "Remarque: Les prix sont indicatifs et peuvent varier. Contactez-nous pour des devis réels.",
+    "hrc": "Bobine Laminée à Chaud",
+    "crc": "Bobine Laminée à Froid",
+    "rebar": "Barre d'Armature",
+    "lastUpdated": "Dernière mise à jour",
+    "error": "Erreur de Chargement des Prix de l'Acier",
+    "loadFailed": "Échec du chargement des prix de l'acier",
+    "localMarket": "Focus Marché Local"
   }
 }

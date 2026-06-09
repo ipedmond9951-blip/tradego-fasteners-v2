@@ -157,5 +157,43 @@
     "blackOxideDesc": "Acabado decorativo con leve resistencia a la corrosión",
     "dacromet": "Dacromet",
     "dacrometDesc": "Excelente resistencia a la corrosión y productos químicos"
+  },
+  "industry": {
+    "title": "Perspectivas de la Industria de Sujetadores",
+    "subtitle": "Noticias de la industria de sujetadores y análisis de mercado para la construcción y manufactura africana. Precios del acero, tendencias de construcción y actualizaciones de la cadena de suministro.",
+    "readMore": "Leer Más",
+    "publishedOn": "Publicado en",
+    "backToList": "← Volver a Artículos",
+    "relatedArticles": "Artículos Relacionados",
+    "relatedProducts": "Productos Relacionados",
+    "inThisCategory": "Más en {category}",
+    "exploreMore": "Explorar Más",
+    "dataSource": "Fuente de Datos",
+    "authorBy": "Por",
+    "reviewedBy": "Revisado por",
+    "minRead": "min de lectura"
+  },
+  "steelPrices": {
+    "title": "Precios del Acero y Materias Primas",
+    "subtitle": "Precios del acero en tiempo real y datos de materias primas para construcción y manufactura",
+    "priceTrends": "Tendencias de Precios del Acero",
+    "trendsDesc": "Tendencias históricas de precios para productos clave de acero (30 días)",
+    "detailedList": "Lista Detallada de Precios",
+    "dataSources": "Fuentes de Datos",
+    "dataSourcesDesc": "Los precios del acero y materias primas provienen de las principales bolsas y proveedores de datos del mercado:",
+    "lme": "London Metal Exchange (LME)",
+    "lmeDesc": "Referencia global para metales no ferrosos",
+    "shfe": "Bolsa de Futuros de Shanghái",
+    "shfeDesc": "Futuros de acero y materias primas de China",
+    "lmeSteel": "LME Acero HRC",
+    "lmeSteelDesc": "Índice global de bobina laminada en caliente",
+    "note": "Nota: Los precios son indicativos y pueden variar. Contáctenos para cotizaciones reales.",
+    "hrc": "Bobina Laminada en Caliente",
+    "crc": "Bobina Laminada en Frío",
+    "rebar": "Barra de Refuerzo",
+    "lastUpdated": "Última actualización",
+    "error": "Error al Cargar Precios del Acero",
+    "loadFailed": "Error al cargar precios del acero",
+    "localMarket": "Enfoque del Mercado Local"
   }
 }

@@ -157,5 +157,43 @@
     "blackOxideDesc": "Acabamento decorativo com leve resistência à corrosão",
     "dacromet": "Dacromet",
     "dacrometDesc": "Excelente resistência à corrosão e produtos químicos"
+  },
+  "industry": {
+    "title": "Perspectivas da Indústria de Fixadores",
+    "subtitle": "Notícias da indústria de fixadores e análise de mercado para construção e manufatura africana. Preços do aço, tendências de construção e atualizações da cadeia de suprimentos.",
+    "readMore": "Leia Mais",
+    "publishedOn": "Publicado em",
+    "backToList": "← Voltar aos Artigos",
+    "relatedArticles": "Artigos Relacionados",
+    "relatedProducts": "Produtos Relacionados",
+    "inThisCategory": "Mais em {category}",
+    "exploreMore": "Explorar Mais",
+    "dataSource": "Fonte de Dados",
+    "authorBy": "Por",
+    "reviewedBy": "Revisado por",
+    "minRead": "min de leitura"
+  },
+  "steelPrices": {
+    "title": "Preços de Aço e Commodities",
+    "subtitle": "Preços de aço em tempo real e dados de commodities para construção e manufatura",
+    "priceTrends": "Tendências de Preços do Aço",
+    "trendsDesc": "Tendências históricas de preços para produtos-chave de aço (30 dias)",
+    "detailedList": "Lista Detalhada de Preços",
+    "dataSources": "Fontes de Dados",
+    "dataSourcesDesc": "Preços de aço e commodities são provenientes das principais bolsas e provedores de dados de mercado:",
+    "lme": "London Metal Exchange (LME)",
+    "lmeDesc": "Referência global para metais não ferrosos",
+    "shfe": "Bolsa de Futuros de Xangai",
+    "shfeDesc": "Futuros de aço e commodities da China",
+    "lmeSteel": "LME Aço HRC",
+    "lmeSteelDesc": "Índice global de bobina laminada a quente",
+    "note": "Nota: Os preços são indicativos e podem variar. Entre em contato para cotações reais.",
+    "hrc": "Bobina Laminada a Quente",
+    "crc": "Bobina Laminada a Frio",
+    "rebar": "Vergalhão",
+    "lastUpdated": "Última atualização",
+    "error": "Erro ao Carregar Preços do Aço",
+    "loadFailed": "Falha ao carregar preços do aço",
+    "localMarket": "Foco no Mercado Local"
   }
 }

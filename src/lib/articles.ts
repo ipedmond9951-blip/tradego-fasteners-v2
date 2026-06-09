@@ -27,7 +27,7 @@ export interface Article {
   keywords: string
   sections: ArticleSection[]
   relatedProducts: string[]
-  relatedArticles?: Array<{ slug: string; title: string }>
+  relatedArticles?: string[]
   cta: {
     text: Record<string, string>
     buttonText: Record<string, string>
@@ -58,4 +58,38 @@ export function getAllSlugs(): string[] {
   return fs.readdirSync(articlesDir)
     .filter(f => f.endsWith('.json'))
     .map(f => decodeURIComponent(f.replace('.json', '')))
+}
+
+/**
+ * Get related articles by category (auto-recommendation).
+ * Used as fallback when article.relatedArticles is empty.
+ * Returns up to `limit` articles in the same category, excluding the current slug.
+ */
+export function getRelatedByCategory(
+  category: string,
+  excludeSlug: string,
+  limit = 3
+): Article[] {
+  return getAllArticles()
+    .filter(a => a.category === category && a.slug !== excludeSlug)
+    .slice(0, limit)
+}
+
+/**
+ * Get article title localized for a given locale.
+ * Falls back to English if locale-specific title is missing.
+ */
+export function getArticleTitle(article: Article, locale: string): string {
+  return article.title[locale] || article.title.en || article.slug
+}
+
+/**
+ * Humanize a slug into a display label.
+ * e.g. "high-tensile-bolts-grade-8-8-10-9" → "High Tensile Bolts Grade 8 8 10 9"
+ * (Preserves numeric values verbatim; do not interpret dash-separated numbers as decimals.)
+ */
+export function humanizeSlug(slug: string): string {
+  return slug
+    .replace(/-/g, ' ')
+    .replace(/\b\w/g, c => c.toUpperCase())
 }
