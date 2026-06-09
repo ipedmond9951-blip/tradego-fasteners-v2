@@ -159,7 +159,8 @@ run_one_article() {
     log "${BLUE}Step 5: Vercel deploy (queue-aware)${NC}"
 
     # 自主决策 A: 队列拥堵 → rm
-    QUEUE_COUNT=$(npx vercel ls --prod 2>/dev/null | grep -c "Queued" || echo 0)
+    QUEUE_COUNT=$(npx vercel ls --prod 2>/dev/null | grep -c "Queued" || true)
+    [ -z "$QUEUE_COUNT" ] && QUEUE_COUNT=0
     log "  Current queue: $QUEUE_COUNT"
     if [ "$QUEUE_COUNT" -ge 2 ]; then
       log "${YELLOW}Cleaning $QUEUE_COUNT stuck deployments...${NC}"
@@ -180,7 +181,8 @@ run_one_article() {
       fi
       # 自主决策: 失败 → 等 60s + 清队列 + 重试
       sleep 60
-      QUEUE_COUNT=$(npx vercel ls --prod 2>/dev/null | grep -c "Queued" || echo 0)
+      QUEUE_COUNT=$(npx vercel ls --prod 2>/dev/null | grep -c "Queued" || true)
+      [ -z "$QUEUE_COUNT" ] && QUEUE_COUNT=0
       if [ "$QUEUE_COUNT" -ge 2 ]; then
         npx vercel ls --prod 2>/dev/null | grep "Queued" | awk '{print $NF}' | while read url; do
           [ -n "$url" ] && npx vercel rm "$url" --yes 2>&1 | tail -1
