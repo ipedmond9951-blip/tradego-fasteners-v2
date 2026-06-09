@@ -157,15 +157,16 @@ export function proxy(request: NextRequest) {
   const country = request.headers.get('x-vercel-ip-country') || 'default'
   const config = geoConfig[country] || geoConfig.default
 
-  // Check if pathname already has a locale prefix
+  // Check if pathname already has a locale prefix (with or without trailing slash)
   const pathnameHasLocale = locales.some(
-    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}` || pathname === `/${locale}/`
   )
 
   // Redirect root "/" to detected locale
   if (!pathnameHasLocale) {
     const locale = config.lang
-    request.nextUrl.pathname = `/${locale}${pathname === '/' ? '' : pathname}`
+    // trailingSlash: true → always end with /
+    request.nextUrl.pathname = `/${locale}${pathname === '/' ? '/' : pathname.endsWith('/') ? pathname : pathname + '/'}`
     return NextResponse.redirect(request.nextUrl)
   }
 
