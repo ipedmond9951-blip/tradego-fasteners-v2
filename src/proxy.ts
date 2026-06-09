@@ -133,6 +133,16 @@ const geoConfig: Record<string, { lang: string; currency: string }> = {
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl
 
+  // 1. Force www canonical — eliminate GSC "网页会自动重定向" (626 URLs)
+  //    Redirect https://tradego-fasteners.com/* → https://www.tradego-fasteners.com/* (308)
+  const host = request.headers.get('host') || ''
+  if (host === 'tradego-fasteners.com' || host.startsWith('tradego-fasteners.com:')) {
+    const url = request.nextUrl.clone()
+    url.host = 'www.tradego-fasteners.com'
+    url.protocol = 'https'
+    return NextResponse.redirect(url, 308)
+  }
+
   // Skip API routes, static files, and Next.js internals
   if (
     pathname.startsWith('/api') ||
