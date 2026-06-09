@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: "..",
   },
-  trailingSlash: false,
+  trailingSlash: true,
   // Edge redirects — handled at Vercel edge (~50ms) instead of server-side (~200ms)
   // PageSpeed Insights flagged redirect chain (/) → (/en) costing ~200ms.
   async redirects() {

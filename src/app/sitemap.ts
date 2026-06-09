@@ -14,8 +14,10 @@ export default function sitemap() {
   
   for (const locale of locales) {
     for (const page of staticPages) {
+      // trailingSlash: true → all URLs end with /
+      const url = page === '' ? `${baseUrl}/${locale}/` : `${baseUrl}/${locale}${page}/`
       entries.push({
-        url: `${baseUrl}/${locale}${page}`,
+        url,
         lastModified: new Date().toISOString(),
         changeFrequency: page === '' ? 'weekly' : 'monthly',
         priority: page === '' ? 1 : page === '/products' ? 1.0 : 0.7,
@@ -26,7 +28,7 @@ export default function sitemap() {
       // URL-encode slugs that contain non-ASCII characters (e.g. Chinese chars)
       const encodedSlug = encodeURIComponent(slug)
       entries.push({
-        url: `${baseUrl}/${locale}/industry/${encodedSlug}`,
+        url: `${baseUrl}/${locale}/industry/${encodedSlug}/`,
         lastModified: new Date().toISOString(),
         changeFrequency: 'monthly',
         priority: 0.8,
