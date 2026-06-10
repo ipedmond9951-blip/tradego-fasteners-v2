@@ -1,11 +1,11 @@
 {
-  "total_articles": 198,
+  "total_articles": 197,
   "category_diversity": 0.693,
-  "region_diversity": 0.759,
-  "overall_diversity": 0.726,
+  "region_diversity": 0.756,
+  "overall_diversity": 0.725,
   "verdict": "excellent",
   "cat_distribution": {
-    "Market Analysis": 24,
+    "Market Analysis": 23,
     "Industry Guide": 11,
     "Procurement Guide": 13,
     "Technical Guide": 82,
@@ -28,10 +28,10 @@
     "Import Guide": 1
   },
   "reg_distribution": {
-    "africa": 55,
+    "africa": 54,
     "global": 128,
     "zimbabwe": 15
   },
   "suggested_new_categories": [],
-  "timestamp": "2026-06-10T22:26:41.548013"
+  "timestamp": "2026-06-10T22:30:50.059432"
 }
