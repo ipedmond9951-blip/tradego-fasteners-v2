@@ -59,17 +59,18 @@ step() { log ""; log "${GREEN}═══ $1 ═══${NC}"; }
 # 选题 (按 region 分配)
 # 坑 49: 当 pool exhausted (所有 35 topics 都已使用), 降级到从现有 article slugs 中选 (可 regeneration)
 select_topics() {
-  local count=${1:-5}
+  # 进化 v1: 单 cron 跑 2 篇 (≈ 18 分钟, 留 22 分钟缓冲给 2400s timeout)
+  local count=${1:-2}
   python3 -c "
 import json, os
 pool = json.load(open('$SCRIPTS_DIR/seo-topic-pool.json'))
 existing = set(f.replace('.json', '') for f in os.listdir('$PROJECT_DIR/content/articles') if f.endswith('.json'))
 pool_available = [t for t in pool['topics'] if t['slug'] not in existing]
 
-# 优先从 pool 选
-zim = [t for t in pool_available if t['region'] == 'zimbabwe'][:2]
-africa = [t for t in pool_available if t['region'] == 'africa'][:1]
-global_ = [t for t in pool_available if t['region'] == 'global'][:2]
+# 优先从 pool 选 (进化 v1: 2 篇/cron, zim:1 + global:1, africa 由 06:00 cron 单独负责)
+zim = [t for t in pool_available if t['region'] == 'zimbabwe'][:1]
+africa = []
+global_ = [t for t in pool_available if t['region'] == 'global'][:1]
 
 selected = zim + africa + global_
 
@@ -265,7 +266,7 @@ bash "$SCRIPTS_DIR/seo-evolve.sh" pre 2>&1 | tail -30 | tee -a "$LOG_FILE" || lo
 
 # 选题
 step "📋 Topic Selection"
-TOPICS_JSON=$(select_topics 5)
+TOPICS_JSON=$(select_topics 2)
 echo "$TOPICS_JSON" | tee -a "$LOG_FILE"
 TOPIC_SLUGS=$(echo "$TOPICS_JSON" | python3 -c "import json,sys; d=json.load(sys.stdin); print('\n'.join(t['slug'] for t in d['topics']))")
 
@@ -290,26 +291,26 @@ for slug in $TOPIC_SLUGS; do
   fi
 
   # 错开 5 分钟避免 Vercel 队列拥堵
-  if [ $i -lt 5 ]; then
-    log "${YELLOW}Waiting 5 min before next article (avoid Vercel queue)...${NC}"
-    sleep 300
+  if [ $i -lt 2 ]; then
+    log "${YELLOW}Waiting 3 min before next article (avoid Vercel queue)...${NC}"
+    sleep 180
   fi
 done
 
 # 最终报告
 step "📊 FINAL REPORT"
-log "Total: 5 articles"
+log "Total: 2 articles"
 log "${GREEN}Delivered: $DELIVERED${NC}"
 log "${RED}Failed: $FAILED${NC}"
 [ -n "$FAILED_SLUGS" ] && log "Failed slugs:$FAILED_SLUGS"
 log ""
 log "Log: $LOG_FILE"
 
-if [ $DELIVERED -eq 5 ]; then
-  log "${GREEN}🎉 ALL 5 DELIVERED${NC}"
+if [ $DELIVERED -eq 2 ]; then
+  log "${GREEN}🎉 ALL 2 DELIVERED${NC}"
   EVOLUTION_RESULT=0
 else
-  log "${YELLOW}⚠️ $DELIVERED/5 delivered, $FAILED failed${NC}"
+  log "${YELLOW}⚠️ $DELIVERED/2 delivered, $FAILED failed${NC}"
   EVOLUTION_RESULT=1
 fi
 
