@@ -1,0 +1,41 @@
+{
+  "total_articles": 198,
+  "category_diversity": 0.693,
+  "region_diversity": 0.37,
+  "overall_diversity": 0.532,
+  "verdict": "acceptable",
+  "cat_distribution": {
+    "Market Analysis": 24,
+    "Industry Guide": 11,
+    "Procurement Guide": 13,
+    "Technical Guide": 82,
+    "Supplier Directory": 3,
+    "Regional Supplier": 17,
+    "Buying Guide": 1,
+    "Logistics Guide": 6,
+    "Mining Fasteners": 1,
+    "Product Guide": 16,
+    "Case Study": 7,
+    "Trade Guide": 2,
+    "Reference Guide": 1,
+    "Quality Standards": 1,
+    "Quality Guide": 1,
+    "Product Comparison": 3,
+    "Market Guide": 4,
+    "Price Guide": 2,
+    "industry": 1,
+    "Installation Guide": 1,
+    "Import Guide": 1
+  },
+  "reg_distribution": {
+    "Unknown": 162,
+    "Africa": 1,
+    "africa": 10,
+    "global": 15,
+    "DRC": 1,
+    "zimbabwe": 8,
+    "mozambique": 1
+  },
+  "suggested_new_categories": [],
+  "timestamp": "2026-06-10T22:16:19.933609"
+}

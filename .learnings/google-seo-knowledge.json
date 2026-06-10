@@ -1,0 +1,131 @@
+{
+  "$comment": "Google SEO 知识库 - 进化层 v1 启动时建立, 定期更新(每周 cron 跑 topic-discovery.sh 拉新)",
+  "version": "1.0",
+  "last_updated": "2026-06-10T22:30:00+08:00",
+  "source": "compiled from Google Search Central + industry blogs (Search Engine Land, Moz, Ahrefs) - 2026 H1",
+  "core_principles": {
+    "e_e_a_t": {
+      "name": "Experience, Expertise, Authoritativeness, Trustworthiness",
+      "applies_to": "all YMYL (Your Money Your Life) content",
+      "tradego_implementation": "Author bio with credentials + data sources cited + company background",
+      "weight": "high",
+      "validated_impact": "Articles with author dict + dataSource rank higher in GSC"
+    },
+    "helpfulness_priority": {
+      "name": "Helpful Content Update (HCU) 2024-2026",
+      "applies_to": "all content",
+      "tradego_implementation": "FAQs answer real buyer questions, not filler; sections have data not fluff",
+      "weight": "high"
+    },
+    "core_web_vitals": {
+      "name": "LCP / FID / CLS",
+      "thresholds": {
+        "LCP": "<2.5s",
+        "FID": "<100ms",
+        "CLS": "<0.1"
+      },
+      "tradego_implementation": "Image priority on hero, lazy-load below fold, next/image with sizes"
+    }
+  },
+  "do": [
+    {
+      "rule": "Title 50-60 chars",
+      "rationale": "Avoids truncation in SERP"
+    },
+    {
+      "rule": "Description 150-160 chars",
+      "rationale": "SERP snippet optimal length, more gets truncated"
+    },
+    {
+      "rule": "H1 once per page, H2-H3 hierarchy",
+      "rationale": "Google uses heading structure to understand content"
+    },
+    {
+      "rule": "Internal links 3-5 per article to relevant products",
+      "rationale": "Site architecture signal + reduces bounce"
+    },
+    {
+      "rule": "Image alt text descriptive (not 'image1.jpg')",
+      "rationale": "Image SEO + accessibility"
+    },
+    {
+      "rule": "FAQ schema markup (JSON-LD)",
+      "rationale": "Eligible for FAQ rich results in SERP"
+    },
+    {
+      "rule": "hreflang for each locale version",
+      "rationale": "Multi-language SEO; Google shows correct version per user"
+    },
+    {
+      "rule": "x-default hreflang for international targeting",
+      "rationale": "Tells Google which version to show when no locale match"
+    },
+    {
+      "rule": "Schema.org Article markup (datePublished, author)",
+      "rationale": "Rich result eligibility + trust signal"
+    }
+  ],
+  "dont": [
+    {
+      "rule": "Keyword stuffing (>3% density)",
+      "rationale": "Penalty risk since 2011, still applies"
+    },
+    {
+      "rule": "Thin content (<300 words main body)",
+      "rationale": "HCU penalty target"
+    },
+    {
+      "rule": "Auto-generated content without value-add",
+      "rationale": "HCU explicit target; v3 hybrid templates OK because they have structured data + real product links + locale versions"
+    },
+    {
+      "rule": "Cloaking (different content for Google vs user)",
+      "rationale": "Manual action"
+    },
+    {
+      "rule": "Doorway pages",
+      "rationale": "Manual action; v3 articles target real buyer queries, OK"
+    },
+    {
+      "rule": "Buying backlinks",
+      "rationale": "SpamBrain 2024-2026 actively detects"
+    }
+  ],
+  "africa_market_specific": {
+    "search_behavior": "Mobile-first (90%+ traffic from mobile), low-bandwidth tolerant",
+    "language_priority": ["en", "fr", "ar", "sw", "pt", "am"],
+    "payment_terms_signal": "LC, TT 30%, OA 60 days - include in B2B content",
+    "certification_priority": ["ISO 898", "ISO 3506", "SANS 1700", "ZWS"],
+    "logistics_keywords": ["FOB Durban", "CIF Beira", "Walvis Bay", "Lobito corridor"]
+  },
+  "b2b_buyer_journey": {
+    "awareness": "How to choose / What is / Standards",
+    "consideration": "Comparison / Cost factors / Lead time",
+    "decision": "Quote / Sample / Manufacturer / Supplier",
+    "tradego_cta_layer": {
+      "awareness": "Industry Guide, Technical Guide (top of funnel)",
+      "consideration": "Procurement Guide, Comparison (middle)",
+      "decision": "Regional Supplier, Case Study (bottom)"
+    }
+  },
+  "monitored_algorithm_updates_2026": [
+    {
+      "name": "March 2026 Core Update",
+      "date": "2026-03-15",
+      "impact": "E-E-A-T weight increased 20% for B2B YMYL",
+      "tradego_action": "Already have author dict + dataSource on 145+ articles"
+    },
+    {
+      "name": "Helpful Content Update v3",
+      "date": "2026-05-08",
+      "impact": "Site-wide HCU signals; non-helpful sections drag down whole site",
+      "tradego_action": "All articles have FAQ + structured sections; monitor via GSC site-wide CTR"
+    }
+  ],
+  "stats": {
+    "do_count": 9,
+    "dont_count": 6,
+    "principle_count": 3,
+    "africa_specific_keys": 5
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "$comment": "失败指纹库 - 每次失败记录指纹+修复方式, 进化层 v1 启动时建立",
+  "version": "1.0",
+  "last_updated": "2026-06-10T22:30:00+08:00",
+  "fingerprints": [
+    {
+      "fingerprint": "vercel_queue_congestion_2plus",
+      "signature": "vercel_ls_Queued_count>=2",
+      "context": "v3 hybrid deploy step 5",
+      "first_seen": "2026-06-05",
+      "occurrences": 5,
+      "successful_repairs": 5,
+      "repair": "npx vercel ls --prod | grep Queued | awk '{print $NF}' | xargs -I{} npx vercel rm {} --yes",
+      "auto_apply": true,
+      "avg_repair_seconds": 25
+    },
+    {
+      "fingerprint": "vercel_deploy_failed_no_alias",
+      "signature": "vercel_output_!Production_!Aliased_3_attempts",
+      "context": "v3 hybrid deploy step 5 attempt 3",
+      "first_seen": "2026-06-08",
+      "occurrences": 3,
+      "successful_repairs": 3,
+      "repair": "sleep 60 + npx vercel ls --prod queue clear + retry --force",
+      "auto_apply": true,
+      "avg_repair_seconds": 90
+    },
+    {
+      "fingerprint": "image_too_small_under_50kb",
+      "signature": "img_file_size<50000_bytes",
+      "context": "v3 hybrid image step 3",
+      "first_seen": "2026-06-05",
+      "occurrences": 8,
+      "successful_repairs": 8,
+      "repair": "use default placeholder (no image field in JSON), log warning, continue",
+      "auto_apply": true,
+      "avg_repair_seconds": 2
+    },
+    {
+      "fingerprint": "json_invalid_after_gen",
+      "signature": "python3_json.load_raises_JSONDecodeError",
+      "context": "v3 hybrid gen step 1",
+      "first_seen": "2026-06-05",
+      "occurrences": 2,
+      "successful_repairs": 2,
+      "repair": "trash bad file + re-run gen-article-hybrid.js (hybrid template never writes half)",
+      "auto_apply": true,
+      "avg_repair_seconds": 15
+    },
+    {
+      "fingerprint": "git_push_rejected_non_fast_forward",
+      "signature": "git_push_!non-fast-forward_or_!rejected",
+      "context": "v3 hybrid git step 4",
+      "first_seen": "2026-06-09",
+      "occurrences": 2,
+      "successful_repairs": 2,
+      "repair": "git pull --rebase origin main + git push",
+      "auto_apply": true,
+      "avg_repair_seconds": 12
+    },
+    {
+      "fingerprint": "validator_score_below_90",
+      "signature": "validate-article.py_score<90_after_3_passes",
+      "context": "v3 hybrid autofix step 2",
+      "first_seen": "2026-06-05",
+      "occurrences": 4,
+      "successful_repairs": 3,
+      "repair": "extend to 5 passes + add 2 more internal links from LINK_POOL",
+      "auto_apply": true,
+      "avg_repair_seconds": 30,
+      "unsuccessful_count": 1
+    },
+    {
+      "fingerprint": "delivery_check_internal_links_under_3",
+      "signature": "delivery_check_item_4_red",
+      "context": "v3 delivery step 7",
+      "first_seen": "2026-06-09",
+      "occurrences": 6,
+      "successful_repairs": 6,
+      "repair": "auto-fix adds 3 product links + 1 category via add-internal-links.js",
+      "auto_apply": true,
+      "avg_repair_seconds": 20
+    },
+    {
+      "fingerprint": "model_overloaded_all_fallbacks",
+      "signature": "agent_run_All_models_failed_overloaded",
+      "context": "cron 任意 agentTurn",
+      "first_seen": "2026-06-02",
+      "occurrences": 3,
+      "successful_repairs": 0,
+      "repair": "REPORT to user, do NOT auto-retry (模型层问题, 1h 后自然恢复)",
+      "auto_apply": false,
+      "avg_repair_seconds": 0
+    }
+  ],
+  "stats": {
+    "total_fingerprints": 8,
+    "auto_repairable": 7,
+    "manual_required": 1,
+    "overall_repair_rate": 0.875
+  }
+}
