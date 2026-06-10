@@ -91,12 +91,23 @@
       "repair": "REPORT to user, do NOT auto-retry (模型层问题, 1h 后自然恢复)",
       "auto_apply": false,
       "avg_repair_seconds": 0
+    },
+    {
+      "fingerprint": "topic_recent_slug_not_in_pool",
+      "signature": "gen-article-hybrid_Slug_not_found_in_topic_pool_on_recent_fallback",
+      "context": "v3 hybrid topic selection step 0 (pool exhausted降级)",
+      "first_seen": "2026-06-10",
+      "occurrences": 1,
+      "successful_repairs": 1,
+      "repair": "降级选 recent slugs 时, 必须过滤掉 pool 中不存在的 slug, 避免 step 1 崩溃. v3 hybrid-cron-v3.sh:91 已 fix",
+      "auto_apply": true,
+      "avg_repair_seconds": 1
     }
   ],
   "stats": {
-    "total_fingerprints": 8,
-    "auto_repairable": 7,
+    "total_fingerprints": 9,
+    "auto_repairable": 8,
     "manual_required": 1,
-    "overall_repair_rate": 0.875
+    "overall_repair_rate": 0.889
   }
 }

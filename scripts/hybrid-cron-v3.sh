@@ -82,24 +82,20 @@ if len(selected) < $count:
         selected.append(t)
 
 # 坑 49 fix: pool exhausted (所有 35 topics 都已用) → 从现有 article slugs 降级选
+# 进化 v1 坑 50 fix: recent slugs 必须在 pool 中, generator 才会识别
+# 进化 v1 坑 51 fix: pool exhausted 时直接重复 pool 内 slug (覆盖式刷新), 不选 recent
 if len(selected) < $count:
-    all_articles = sorted(existing)
-    # 取最近的 article slugs (按修改时间逆序, 假设最新的是最新生成的)
-    article_times = {f.replace('.json', ''): os.path.getmtime(os.path.join('$PROJECT_DIR/content/articles', f + '.json')) for f in all_articles}
-    recent = sorted(article_times.keys(), key=lambda s: article_times[s], reverse=True)
-    # 用最近的 article slugs 作为候选 (这些是proven topics)
-    for slug in recent:
+    # 选 pool 中所有 slug (包括已发), 让 v3 覆盖式刷新
+    for t in pool['topics']:
         if len(selected) >= $count:
             break
-        # 从 pool 找这个 slug 的 category/region, 找不到就默认 global
-        meta = next((t for t in pool['topics'] if t['slug'] == slug), None)
-        if meta:
-            cat = meta['category']
-            reg = meta['region']
-        else:
-            cat = 'Technical Guide'
-            reg = 'global'
-        selected.append({'slug': slug, 'category': cat, 'region': reg})
+        if t['slug'] not in [s['slug'] for s in selected]:
+            selected.append({'slug': t['slug'], 'category': t['category'], 'region': t['region']})
+    # 如果还不够 (不可能, 池子 ≥5), 兜底重复第一个
+    if len(selected) < $count:
+        first = pool['topics'][0]
+        while len(selected) < $count:
+            selected.append({'slug': first['slug'], 'category': first['category'], 'region': first['region']})
 
 print(json.dumps({
     'topics': [{'slug': t['slug'], 'category': t['category'], 'region': t['region']} for t in selected],
