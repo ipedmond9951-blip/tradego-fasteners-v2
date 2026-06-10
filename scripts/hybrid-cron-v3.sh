@@ -57,32 +57,54 @@ log() { echo -e "$1" | tee -a "$LOG_FILE"; }
 step() { log ""; log "${GREEN}═══ $1 ═══${NC}"; }
 
 # 选题 (按 region 分配)
+# 坑 49: 当 pool exhausted (所有 35 topics 都已使用), 降级到从现有 article slugs 中选 (可 regeneration)
 select_topics() {
   local count=${1:-5}
   python3 -c "
 import json, os
 pool = json.load(open('$SCRIPTS_DIR/seo-topic-pool.json'))
 existing = set(f.replace('.json', '') for f in os.listdir('$PROJECT_DIR/content/articles') if f.endswith('.json'))
-available = [t for t in pool['topics'] if t['slug'] not in existing]
+pool_available = [t for t in pool['topics'] if t['slug'] not in existing]
 
-zim = [t for t in available if t['region'] == 'zimbabwe'][:2]
-africa = [t for t in available if t['region'] == 'africa'][:1]
-global_ = [t for t in available if t['region'] == 'global'][:2]
+# 优先从 pool 选
+zim = [t for t in pool_available if t['region'] == 'zimbabwe'][:2]
+africa = [t for t in pool_available if t['region'] == 'africa'][:1]
+global_ = [t for t in pool_available if t['region'] == 'global'][:2]
 
 selected = zim + africa + global_
 
-# 兜底: 不够 5 篇就从剩余 global 补
+# 兜底: 不够 5 篇就从 pool 剩余补
 if len(selected) < $count:
-    remaining = [t for t in available if t not in selected]
+    remaining = [t for t in pool_available if t not in selected]
     for t in remaining:
         if len(selected) >= $count:
             break
         selected.append(t)
 
-# 自主决策: 实在选不出 5 篇 → 允许 region 不全
+# 坑 49 fix: pool exhausted (所有 35 topics 都已用) → 从现有 article slugs 降级选
+if len(selected) < $count:
+    all_articles = sorted(existing)
+    # 取最近的 article slugs (按修改时间逆序, 假设最新的是最新生成的)
+    article_times = {f.replace('.json', ''): os.path.getmtime(os.path.join('$PROJECT_DIR/content/articles', f + '.json')) for f in all_articles}
+    recent = sorted(article_times.keys(), key=lambda s: article_times[s], reverse=True)
+    # 用最近的 article slugs 作为候选 (这些是proven topics)
+    for slug in recent:
+        if len(selected) >= $count:
+            break
+        # 从 pool 找这个 slug 的 category/region, 找不到就默认 global
+        meta = next((t for t in pool['topics'] if t['slug'] == slug), None)
+        if meta:
+            cat = meta['category']
+            reg = meta['region']
+        else:
+            cat = 'Technical Guide'
+            reg = 'global'
+        selected.append({'slug': slug, 'category': cat, 'region': reg})
+
 print(json.dumps({
     'topics': [{'slug': t['slug'], 'category': t['category'], 'region': t['region']} for t in selected],
-    'counts': {'zimbabwe': len(zim), 'africa': len(africa), 'global': len(global_)}
+    'counts': {'zimbabwe': len(zim), 'africa': len(africa), 'global': len(global_)},
+    'pool_exhausted': len(pool_available) == 0
 }, indent=2))
 "
 }
