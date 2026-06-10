@@ -85,9 +85,14 @@ if len(selected) < $count:
 # 坑 49 fix: pool exhausted (所有 35 topics 都已用) → 从现有 article slugs 降级选
 # 进化 v1 坑 50 fix: recent slugs 必须在 pool 中, generator 才会识别
 # 进化 v1 坑 51 fix: pool exhausted 时直接重复 pool 内 slug (覆盖式刷新), 不选 recent
+# 进化 v1 坑 52 fix: 重复原 pool 会让 cron 每天选同样 2 篇! 加随机种子避免
+import random, time
+random.seed(int(time.time()) // 3600)  # 每小时变一次种子 (保证小时级别错开)
 if len(selected) < $count:
     # 选 pool 中所有 slug (包括已发), 让 v3 覆盖式刷新
-    for t in pool['topics']:
+    pool_shuffled = list(pool['topics'])
+    random.shuffle(pool_shuffled)
+    for t in pool_shuffled:
         if len(selected) >= $count:
             break
         if t['slug'] not in [s['slug'] for s in selected]:
@@ -96,7 +101,7 @@ if len(selected) < $count:
     if len(selected) < $count:
         first = pool['topics'][0]
         while len(selected) < $count:
-            selected.append({'slug': first['slug'], 'category': first['category'], 'region': first['region']})
+            selected.append({'slug': first['slug'], 'category': first['category'], 'region': t['region']})
 
 print(json.dumps({
     'topics': [{'slug': t['slug'], 'category': t['category'], 'region': t['region']} for t in selected],
