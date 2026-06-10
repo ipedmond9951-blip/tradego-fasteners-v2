@@ -263,6 +263,10 @@ log "${GREEN}  TradeGo SEO Master v3 - 5 Articles Batch${NC}"
 log "${GREEN}  Date: $TODAY${NC}"
 log "${GREEN}═══════════════════════════════════════════════════════${NC}"
 
+# 🧬 进化层 PRE-CHECK (多样性 + 指纹 + 队列预清)
+log "${BLUE}🧬 Running evolution PRE-CHECK...${NC}"
+bash "$SCRIPTS_DIR/seo-evolve.sh" pre 2>&1 | tail -30 | tee -a "$LOG_FILE" || log "${YELLOW}Pre-check warning, continuing${NC}"
+
 # 选题
 step "📋 Topic Selection"
 TOPICS_JSON=$(select_topics 5)
@@ -307,8 +311,14 @@ log "Log: $LOG_FILE"
 
 if [ $DELIVERED -eq 5 ]; then
   log "${GREEN}🎉 ALL 5 DELIVERED${NC}"
-  exit 0
+  EVOLUTION_RESULT=0
 else
   log "${YELLOW}⚠️ $DELIVERED/5 delivered, $FAILED failed${NC}"
-  exit 1
+  EVOLUTION_RESULT=1
 fi
+
+# 🧬 进化层 POST-ANALYZE (delivery recheck + diversity update + evo log)
+log "${BLUE}🧬 Running evolution POST-ANALYZE...${NC}"
+bash "$SCRIPTS_DIR/seo-evolve.sh" post 2>&1 | tail -20 | tee -a "$LOG_FILE" || log "${YELLOW}Post-analyze warning, continuing${NC}"
+
+exit $EVOLUTION_RESULT
