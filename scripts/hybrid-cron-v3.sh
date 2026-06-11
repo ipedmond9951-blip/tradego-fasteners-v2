@@ -57,58 +57,51 @@ log() { echo -e "$1" | tee -a "$LOG_FILE"; }
 step() { log ""; log "${GREEN}═══ $1 ═══${NC}"; }
 
 # 选题 (按 region 分配)
-# 坑 49: 当 pool exhausted (所有 35 topics 都已使用), 降级到从现有 article slugs 中选 (可 regeneration)
+# v3 进化: 接入 topic-state-manager.py (5 态状态机 + 1 分钟随机种子)
+#         池子是 225,000 组合的动态生成器 (不再受 35 固定池限制)
 select_topics() {
   # 进化 v1: 单 cron 跑 2 篇 (≈ 18 分钟, 留 22 分钟缓冲给 2400s timeout)
   local count=${1:-2}
-  python3 -c "
-import json, os
+  # 进化 v3.0: 调用 topic-state-manager.py select
+  # 它会考虑 region 过滤 + 状态机 (跳过 in_progress) + 多样性 (不连发同 product)
+  local region_filter="${2:-all}"
+  local selected_json
+  selected_json=$(python3 "$SCRIPTS_DIR/topic-state-manager.py" select --region="$region_filter" --count="$count" 2>&1)
+  if [ $? -ne 0 ] || [ -z "$selected_json" ]; then
+    log "${RED}state-manager select 失败, 降级到 pool 直选${NC}"
+    selected_json=$(python3 -c "
+import json, os, random, time
+random.seed(int(time.time()) // 60)
 pool = json.load(open('$SCRIPTS_DIR/seo-topic-pool.json'))
 existing = set(f.replace('.json', '') for f in os.listdir('$PROJECT_DIR/content/articles') if f.endswith('.json'))
 pool_available = [t for t in pool['topics'] if t['slug'] not in existing]
-
-# 优先从 pool 选 (进化 v1: 2 篇/cron, zim:1 + global:1, africa 由 06:00 cron 单独负责)
-zim = [t for t in pool_available if t['region'] == 'zimbabwe'][:1]
-africa = []
-global_ = [t for t in pool_available if t['region'] == 'global'][:1]
-
-selected = zim + africa + global_
-
-# 兜底: 不够 5 篇就从 pool 剩余补
-if len(selected) < $count:
-    remaining = [t for t in pool_available if t not in selected]
-    for t in remaining:
-        if len(selected) >= $count:
-            break
-        selected.append(t)
-
-# 坑 49 fix: pool exhausted (所有 35 topics 都已用) → 从现有 article slugs 降级选
-# 进化 v1 坑 50 fix: recent slugs 必须在 pool 中, generator 才会识别
-# 进化 v1 坑 51 fix: pool exhausted 时直接重复 pool 内 slug (覆盖式刷新), 不选 recent
-# 进化 v1 坑 52 fix: 重复原 pool 会让 cron 每天选同样 2 篇! 加随机种子避免
-import random, time
-random.seed(int(time.time()) // 3600)  # 每小时变一次种子 (保证小时级别错开)
-if len(selected) < $count:
-    # 选 pool 中所有 slug (包括已发), 让 v3 覆盖式刷新
-    pool_shuffled = list(pool['topics'])
-    random.shuffle(pool_shuffled)
-    for t in pool_shuffled:
-        if len(selected) >= $count:
-            break
-        if t['slug'] not in [s['slug'] for s in selected]:
-            selected.append({'slug': t['slug'], 'category': t['category'], 'region': t['region']})
-    # 如果还不够 (不可能, 池子 ≥5), 兜底重复第一个
-    if len(selected) < $count:
-        first = pool['topics'][0]
-        while len(selected) < $count:
-            selected.append({'slug': first['slug'], 'category': first['category'], 'region': t['region']})
-
+pool_shuffled = list(pool_available)
+random.shuffle(pool_shuffled)
+selected = pool_shuffled[:$count]
+print(json.dumps([{'slug': t['slug'], 'score': t.get('score_potential', 0), 'category': t.get('category', '?'), 'region': t.get('region', 'global'), 'title_en': t.get('title_en', t['slug'])} for t in selected]))
+")
+  fi
+  # 包装输出 (供下游 bash 解析)
+  echo "$selected_json" | python3 -c "
+import json, sys
+sel = json.load(sys.stdin)
+zim = [t for t in sel if t['region'] == 'zimbabwe']
+africa = [t for t in sel if t['region'] == 'africa']
+global_ = [t for t in sel if t['region'] == 'global']
 print(json.dumps({
-    'topics': [{'slug': t['slug'], 'category': t['category'], 'region': t['region']} for t in selected],
+    'topics': [{'slug': t['slug'], 'category': t['category'], 'region': t['region']} for t in sel],
     'counts': {'zimbabwe': len(zim), 'africa': len(africa), 'global': len(global_)},
-    'pool_exhausted': len(pool_available) == 0
+    'pool_exhausted': False
 }, indent=2))
 "
+
+  # 进化 v3.0: 标记选中的为 in_progress (防下次重选)
+  echo "$selected_json" | python3 -c "
+import json, sys, subprocess
+sel = json.load(sys.stdin)
+for t in sel:
+    subprocess.run(['python3', '$SCRIPTS_DIR/topic-state-manager.py', 'mark', t['slug'], 'in_progress'], cwd='$PROJECT_DIR')
+" 2>&1 | head -5
 }
 
 # 生成 + 部署 + 验证 单篇
