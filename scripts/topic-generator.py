@@ -211,9 +211,11 @@ def generate_topics(seed: int = None, max_n: int = 270,
         }
         topic["score_potential"] = quality_check(topic)
         if topic["score_potential"] >= 60:
+            # Supplement 题目加成: 动态信号源 (GSC/询盘/竞品/季节) 是真实需求, 优先级高于静态组合
+            source = topic.get("source", "")
+            if "supplement" in source:
+                topic["score_potential"] = min(topic["score_potential"] + 10, 110)
             topics.append(topic)
-
-        # 不在这里 break，让外层 max_n 控制，避免单 scene 霸占
 
     # 按分数降序 + 截断到 max_n
     # 采用分组排序：每个 region 内按 score 排，最后按 region 轮换合并
@@ -425,7 +427,12 @@ def supplement_competitor() -> list:
         title = article.get("title", "")
         if not title or len(title) < 10:
             continue
-        slug = f"comp-followup-{title[:50].lower().replace(' ', '-').replace('--','-')}"
+        # URL 友好化: 转小写, 空格变 -, 去特殊字符
+        import re
+        slug_title = re.sub(r'[^a-z0-9\s-]', '', title.lower())
+        slug_title = re.sub(r'\s+', '-', slug_title.strip())
+        slug_title = re.sub(r'-+', '-', slug_title).strip('-')
+        slug = f"comp-followup-{slug_title[:60]}"
         supplements.append({
             "slug": slug,
             "title_en": title,
@@ -450,27 +457,84 @@ def supplement_competitor() -> list:
 def supplement_inquiry() -> list:
     """
     从询盘数据反推选题
-    信号: Excel 客户询盘高频关键词
+    信号: TradeBrain CRM inquiries.json + 可选 CSV 补充
     """
-    inquiry_files = list(Path("/Users/zhangming/.openclaw/workspace/Projects/tradebrain-v2/data/inquiries").glob("*.csv")) if Path("/Users/zhangming/.openclaw/workspace/Projects/tradebrain-v2/data/inquiries").exists() else []
-    if not inquiry_files:
+    # 真实询盘路径（TradeBrain v2 - JSON）
+    inquiry_paths = [
+        Path("/Users/zhangming/Projects/tradebrain-v2/data/inquiries.json"),
+        Path("/Users/zhangming/.openclaw/workspace/Projects/tradebrain-v2/data/inquiries.json"),
+        # 测试 / demo
+        Path("/tmp/test-inquiries.json"),
+        Path("/tmp/test-inquiries/test-inquiries.json"),
+    ]
+    # 备选: CSV 路径（如果用户手动导出）
+    csv_paths = [
+        Path("/Users/zhangming/Projects/tradebrain-v2/data/inquiries"),
+        Path("/Users/zhangming/.openclaw/workspace/Projects/tradebrain-v2/data/inquiries"),
+        Path("/tmp/test-inquiries"),  # 测试用
+    ]
+
+    inquiry_texts = []
+    found = False
+
+    # 读 JSON（多路径扫描，绕过空数据）
+    for p in inquiry_paths:
+        if not p.exists():
+            continue
+        try:
+            data = json.loads(p.read_text())
+            extracted = []
+            if isinstance(data, list):
+                extracted = data
+            elif isinstance(data, dict) and "inquiries" in data:
+                extracted = data["inquiries"]
+            # 只采非空数据
+            for item in extracted[-100:]:
+                subject = item.get("subject", "") or item.get("title", "")
+                body = item.get("body", "") or item.get("message", "") or item.get("content", "")
+                text = f"{subject} {body}".strip()
+                if text:
+                    inquiry_texts.append(text)
+            if inquiry_texts:
+                found = True
+                break  # 找到有数据的就停
+        except Exception as e:
+            continue
+
+    # 读 CSV（如果 JSON 没找到）
+    if not found:
+        for csv_dir in csv_paths:
+            if csv_dir.exists() and csv_dir.is_dir():
+                csv_files = sorted(csv_dir.glob("*.csv"))[-3:]
+                if csv_files:
+                    try:
+                        import csv as csvmod
+                        for f in csv_files:
+                            with open(f) as csvfile:
+                                reader = csvmod.DictReader(csvfile)
+                                for row in reader:
+                                    text = " ".join([row.get("subject", ""), row.get("body", ""), row.get("message", "")])
+                                    if text.strip():
+                                        inquiry_texts.append(text)
+                        found = True
+                    except Exception:
+                        pass
+                break
+
+    if not inquiry_texts:
         return []
 
-    # 简化：读最新文件 + 提取高频词
+    # 提取高频词
     try:
-        import csv
         from collections import Counter
         keywords = Counter()
-        for f in inquiry_files[-3:]:  # 最近 3 个
-            with open(f) as csvfile:
-                reader = csv.DictReader(csvfile)
-                for row in reader:
-                    text = " ".join([row.get("subject", ""), row.get("body", "")]).lower()
-                    for kw in ["a325", "a490", "f1554", "m16", "m20", "m24", "grade 8.8", "grade 10.9",
-                                "hot-dip-galvanized", "stainless", "astm", "din", "iso", "anchor",
-                                "structural", "high-tensile"]:
-                        if kw in text:
-                            keywords[kw] += 1
+        for text in inquiry_texts:
+            text_lower = text.lower()
+            for kw in ["a325", "a490", "f1554", "m16", "m20", "m24", "grade 8.8", "grade 10.9",
+                       "hot-dip-galvanized", "stainless", "astm", "din", "iso", "anchor",
+                       "structural", "high-tensile"]:
+                if kw in text_lower:
+                    keywords[kw] += 1
 
         supplements = []
         for kw, count in keywords.most_common(10):
@@ -563,6 +627,11 @@ def merge_into_pool(new_topics: list, dry_run: bool = False) -> dict:
     pool = load_pool()
     existing_slugs = {t["slug"] for t in pool["topics"]}
     new_unique = [t for t in new_topics if t["slug"] not in existing_slugs]
+    # 动态信号源优先级加成 (GSC/竞品/询盘/季节 > 静态组合)
+    for t in new_unique:
+        src = t.get("source", "")
+        if "supplement" in src and t.get("score_potential", 0) < 110:
+            t["score_potential"] = min(t["score_potential"] + 10, 110)
 
     if not dry_run:
         pool["topics"].extend(new_unique)
