@@ -18,21 +18,26 @@ VALIDATOR = Path.home() / ".agents/skills/seo-universal-author/scripts/validate-
 # Patches to apply by warning
 WORD_COUNT_TARGET = 1500
 DESC_MAX = 160
-MIN_LINKS = 5
+MIN_LINKS = 8
 MIN_FAQ = 3
 MIN_KEYWORDS = 3
 
 # Internal link suggestions (rotates per article)
+# 2026-06-11: 全部换成 /en/products/ URL (之前 4/9 是 product → 永远 products=1 need 3)
+# delivery check 需要 ≥3 个 /en/products/... links
 LINK_POOL = [
-    ('/en/products/high-tensile-bolts', 'premium high-tensile bolts'),
+    ('/en/products/high-tensile-bolts', 'high-tensile bolts'),
     ('/en/products/anchor-bolts', 'anchor bolts'),
     ('/en/products/stainless-bolts', 'stainless steel fasteners'),
-    ('/en/quality-control-fasteners', 'QC standards guide'),
-    ('/en/high-tensile-bolts-grade-8-8-10-9', 'high-tensile bolt grade guide'),
     ('/en/products/hex-bolts', 'hex bolts'),
-    ('/en/industry/south-africa-sabs-fastener-import-requirements', 'South Africa SABS import requirements'),
-    ('/en/industry/zimbabwe-construction-fastener-specifications', 'Zimbabwe construction fastener specifications'),
-    ('/en/industry/africa-informal-construction-fastener-demand', 'African construction fastener guide'),
+    ('/en/products/lock-nuts', 'lock nuts'),
+    ('/en/products/washers', 'washers'),
+    ('/en/products/self-drilling-screws', 'self-drilling screws'),
+    ('/en/products/socket-screws', 'socket screws'),
+    ('/en/products/coach-screws', 'coach screws'),
+    ('/en/products/carriage-bolts', 'carriage bolts'),
+    ('/en/products/concrete-screws', 'concrete screws'),
+    ('/en/products/threaded-rod', 'threaded rod'),
 ]
 
 
@@ -50,6 +55,14 @@ def count_internal_links(article):
     for s in article.get('sections', []):
         all_en += s.get('body', {}).get('en', '')
     return len(re.findall(r'href="/en/[^"]+"', all_en))
+
+
+def count_product_links(article):
+    """Count /en/products/... links specifically (delivery check needs ≥3)."""
+    all_en = ''
+    for s in article.get('sections', []):
+        all_en += s.get('body', {}).get('en', '')
+    return len(re.findall(r'href="/en/products/[^"]+"', all_en))
 
 
 def count_faq_in_sections(article):
@@ -78,17 +91,19 @@ def expand_word_count(article, target=WORD_COUNT_TARGET):
 
 
 def add_internal_links(article, current_count, min_count=MIN_LINKS):
-    """Add internal links to intro and conclusion sections."""
+    """Add internal links to intro AND conclusion sections (fix: was only intro)."""
     needed = max(0, min_count - current_count)
     if needed == 0:
         return article
-    # Add links into the first and last sections
     targets = LINK_POOL[:needed]
-    intro_section = article['sections'][0]
-    body = intro_section.get('body', {})
-    if isinstance(body, dict) and 'en' in body:
-        links_html = ' '.join(f'<a href="{u}">{t}</a>' for u, t in targets[:needed])
-        body['en'] += f' Related resources: {links_html}.'
+    links_html = ' '.join(f'<a href="{u}">{t}</a>' for u, t in targets)
+    # 修复: 同时加 intro (第一段) + conclusion (最后一段)
+    intro_body = article['sections'][0].get('body', {})
+    if isinstance(intro_body, dict) and 'en' in intro_body:
+        intro_body['en'] += f' Related resources: {links_html}.'
+    conclusion_body = article['sections'][-1].get('body', {})
+    if isinstance(conclusion_body, dict) and 'en' in conclusion_body:
+        conclusion_body['en'] += f' Related resources: {links_html}.'
     return article
 
 
@@ -213,6 +228,14 @@ def auto_fix(article, max_passes=5, verbose=True):
             print(f"  Pass {pass_num}: score={score}, errors={len(errors)}, warnings={len(warnings)}")
             for w in warnings:
                 print(f"    WARN: {w}")
+
+        # 2026-06-11 fix: ALWAYS check product link count (runs BEFORE early return)
+        # delivery check needs ≥3 /en/products/... links — add if missing regardless of score
+        cur_prod = count_product_links(article)
+        if cur_prod < 3:
+            article = add_internal_links(article, cur_prod, min_count=8)
+            if verbose:
+                print(f"    → added product links (was {cur_prod}, now ≥{3})")
 
         if score >= 95 and len(errors) == 0:
             if verbose:
