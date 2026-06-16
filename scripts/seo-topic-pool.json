@@ -3,6 +3,37 @@
   "description": "SEO 选题池 - 多样化覆盖紧固件上下游 + 非洲市场 + 技术深度",
   "topics": [
     {
+      "slug": "mozambique-lng-construction-fasteners-maputo",
+      "title_en": "Mozambique LNG Construction Fasteners: Maputo Port Supply & TotalEnergies Afungi Project",
+      "category": "Procurement Guide",
+      "region": "africa",
+      "country": "Mozambique",
+      "city": "Maputo",
+      "date": "2026-06-17",
+      "relatedProducts": [
+        {
+          "slug": "astm-a193-b7-studs",
+          "name": "ASTM A193 B7 Studs"
+        },
+        {
+          "slug": "316l-stainless-fasteners",
+          "name": "316L Stainless Fasteners"
+        },
+        {
+          "slug": "ptfe-coated-bolts",
+          "name": "PTFE-Coated Bolts"
+        },
+        {
+          "slug": "high-tensile-bolts-grade-10-9",
+          "name": "Grade 10.9 High-Tensile Bolts"
+        }
+      ],
+      "relatedArticles": [
+        "mozambique-fastener-import-market-guide",
+        "south-africa-sabs-fastener-import-requirements"
+      ]
+    },
+    {
       "slug": "wind-energy-fastener-requirements-2026",
       "title_en": "Wind Energy Fastener Requirements: Standards for Wind Turbine Towers",
       "category": "Industry Guide",
@@ -49007,6 +49038,6 @@
       "generated_at": "2026-06-11"
     }
   ],
-  "last_generated": "2026-06-11 23:50:30",
-  "total_count": 2057
+  "last_generated": "2026-06-17",
+  "total_count": 2058
 }
