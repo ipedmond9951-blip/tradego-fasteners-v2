@@ -1,14 +1,14 @@
 {
-  "total_articles": 197,
-  "category_diversity": 0.693,
-  "region_diversity": 0.756,
-  "overall_diversity": 0.725,
+  "total_articles": 206,
+  "category_diversity": 0.705,
+  "region_diversity": 0.766,
+  "overall_diversity": 0.736,
   "verdict": "excellent",
   "cat_distribution": {
     "Market Analysis": 23,
     "Industry Guide": 11,
-    "Procurement Guide": 13,
-    "Technical Guide": 82,
+    "Procurement Guide": 15,
+    "Technical Guide": 83,
     "Supplier Directory": 3,
     "Regional Supplier": 17,
     "Buying Guide": 1,
@@ -23,15 +23,16 @@
     "Product Comparison": 3,
     "Market Guide": 4,
     "Price Guide": 2,
-    "industry": 1,
     "Installation Guide": 1,
-    "Import Guide": 1
+    "Import Guide": 1,
+    "Procurement Guide - Africa": 6,
+    "Reference Guide - Africa": 1
   },
   "reg_distribution": {
-    "africa": 54,
-    "global": 128,
+    "africa": 61,
+    "global": 130,
     "zimbabwe": 15
   },
   "suggested_new_categories": [],
-  "timestamp": "2026-06-10T22:30:50.059432"
+  "timestamp": "2026-06-13T06:35:34.403891"
 }

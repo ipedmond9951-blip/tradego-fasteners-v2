@@ -884,9 +884,9 @@
       "source": "generator-v3"
     },
     "zim-construction-anchor-bolts-lifecycle-cost-salt-spray": {
-      "status": "queued",
+      "status": "in_progress",
       "first_seen": "2026-06-11",
-      "last_updated": "2026-06-11",
+      "last_updated": "2026-06-12",
       "score_potential": 102,
       "source": "generator-v3"
     },
@@ -3824,9 +3824,9 @@
       "source": "generator-v3"
     },
     "zim-construction-u-bolts-supplier-evaluation-galvanic-corrosion": {
-      "status": "queued",
+      "status": "in_progress",
       "first_seen": "2026-06-11",
-      "last_updated": "2026-06-11",
+      "last_updated": "2026-06-13",
       "score_potential": 102,
       "source": "generator-v3"
     },
@@ -4946,7 +4946,7 @@
     "zim-construction-u-bolts-spec-checklist-mill-cert-traceability": {
       "status": "queued",
       "first_seen": "2026-06-11",
-      "last_updated": "2026-06-11",
+      "last_updated": "2026-06-12",
       "score_potential": 102,
       "source": "generator-v3"
     },
@@ -6288,9 +6288,9 @@
       "source": "generator-v3"
     },
     "zim-construction-threaded-rods-supplier-evaluation-cost-optimization": {
-      "status": "queued",
+      "status": "in_progress",
       "first_seen": "2026-06-11",
-      "last_updated": "2026-06-11",
+      "last_updated": "2026-06-12",
       "score_potential": 102,
       "source": "generator-v3"
     },
@@ -7800,9 +7800,9 @@
       "source": "generator-v3"
     },
     "zim-construction-hex-nuts-supplier-evaluation-hydrogen-embrittlement": {
-      "status": "queued",
+      "status": "in_progress",
       "first_seen": "2026-06-11",
-      "last_updated": "2026-06-11",
+      "last_updated": "2026-06-12",
       "score_potential": 102,
       "source": "generator-v3"
     },
@@ -9382,9 +9382,9 @@
       "source": "generator-v3"
     },
     "zim-construction-lock-nuts-rfq-template-bolt-pattern": {
-      "status": "queued",
+      "status": "in_progress",
       "first_seen": "2026-06-11",
-      "last_updated": "2026-06-11",
+      "last_updated": "2026-06-12",
       "score_potential": 102,
       "source": "generator-v3"
     },
@@ -11314,9 +11314,9 @@
       "source": "generator-v3"
     },
     "zim-construction-flat-washers-standard-explainer-lead-time": {
-      "status": "queued",
+      "status": "in_progress",
       "first_seen": "2026-06-11",
-      "last_updated": "2026-06-11",
+      "last_updated": "2026-06-12",
       "score_potential": 102,
       "source": "generator-v3"
     },
@@ -12168,9 +12168,9 @@
       "source": "generator-v3"
     },
     "zim-construction-lock-washers-tco-analysis-stress-cracking": {
-      "status": "queued",
+      "status": "in_progress",
       "first_seen": "2026-06-11",
-      "last_updated": "2026-06-11",
+      "last_updated": "2026-06-13",
       "score_potential": 102,
       "source": "generator-v3"
     },
@@ -13855,9 +13855,9 @@
       "source": "generator-v3"
     },
     "construction-building-self-tapping-screws-tco-analysis-uv-degradation": {
-      "status": "queued",
+      "status": "in_progress",
       "first_seen": "2026-06-11",
-      "last_updated": "2026-06-11",
+      "last_updated": "2026-06-13",
       "score_potential": 100,
       "source": "generator-v3"
     },
@@ -14093,9 +14093,9 @@
       "source": "generator-v3"
     },
     "construction-building-self-tapping-screws-tco-analysis-joint-stiffness": {
-      "status": "queued",
+      "status": "in_progress",
       "first_seen": "2026-06-11",
-      "last_updated": "2026-06-11",
+      "last_updated": "2026-06-13",
       "score_potential": 100,
       "source": "generator-v3"
     },
@@ -14254,9 +14254,9 @@
       "source": "generator-v3"
     },
     "zim-construction-wood-screws-tco-analysis-loosening-dynamics": {
-      "status": "queued",
+      "status": "in_progress",
       "first_seen": "2026-06-11",
-      "last_updated": "2026-06-11",
+      "last_updated": "2026-06-12",
       "score_potential": 102,
       "source": "generator-v3"
     },
@@ -14352,9 +14352,9 @@
       "source": "inquiry-supplement"
     },
     "gsc-opportunity-fastener-supplier-china": {
-      "status": "queued",
+      "status": "in_progress",
       "first_seen": "2026-06-11",
-      "last_updated": "2026-06-11",
+      "last_updated": "2026-06-12",
       "score_potential": 105,
       "source": "gsc-supplement"
     },
@@ -14434,8 +14434,15 @@
       "last_updated": "2026-06-11",
       "score_potential": 90,
       "source": "competitor-supplement"
+    },
+    "test-slug-xyz": {
+      "status": "in_progress",
+      "first_seen": "2026-06-11",
+      "score_potential": 0,
+      "source": "unknown",
+      "last_updated": "2026-06-11"
     }
   },
   "blacklist": {},
-  "last_sync": "2026-06-11 08:52:19"
+  "last_sync": "2026-06-13 06:00:09"
 }
