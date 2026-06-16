@@ -1,5 +1,6 @@
 import { type Locale, t, locales } from '@/i18n'
 import Link from 'next/link'
+import Image from 'next/image'
 import { getAllArticles } from '@/lib/articles'
 import type { Metadata } from 'next'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
@@ -10,12 +11,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const siteUrl = 'https://www.tradego-fasteners.com'
   
   const titles: Record<string, string> = {
-    en: 'Fastener Selection Guide | 304/316 Stainless Steel Bolts, Marine Bolts, Solar Bracket Bolts, Lock Nuts & Washer Types',
-    zh: '紧固件选择指南 | 不锈钢304/316螺栓、海洋螺栓、太阳能支架螺栓、锁紧螺母、垫圈类型',
+    en: 'Fastener Selection Guide | TradeGo Fasteners',
+    zh: '紧固件选择指南 | TradeGo',
   }
   const descriptions: Record<string, string> = {
-    en: 'Expert fastener guides: stainless steel 304/316 hex bolts, high-strength 8.8/10.9/12.9 grade bolts, marine & outdoor corrosion-resistant bolts, solar bracket bolts, self-tapping screws, lock nuts, industrial washers. SABS & ISO 9001 certified. Market insights for Africa construction.',
-    zh: '专家紧固件指南：304/316不锈钢六角螺栓、高强度8.8/10.9/12.9级螺栓、海洋户外防腐螺栓、太阳能支架螺栓、自攻螺丝、锁紧螺母、工业垫圈。SABS和ISO 9001认证。非洲建筑市场洞察。',
+    en: 'Expert guides on 304/316 stainless bolts, Grade 8.8/10.9/12.9 structural bolts, self-tapping screws, lock nuts. ISO 9001 + SABS. Africa market insights.',
+    zh: '304/316不锈钢螺栓、8.8/10.9级结构螺栓、自攻螺丝选型指南。ISO 9001+SABS认证。非洲市场洞察。',
   }
   
   return {
@@ -84,7 +85,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
                 >
                   {/* Image */}
                   <div className="relative w-full md:w-56 h-48 md:h-auto bg-gray-100 flex-shrink-0 overflow-hidden">
-                    <img src={article.image} alt={title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                    <Image src={article.image} alt={title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
                     <span className="absolute top-3 left-3 bg-primary-600 text-white text-xs font-semibold px-2.5 py-1 rounded-full">{article.category}</span>
                   </div>
 

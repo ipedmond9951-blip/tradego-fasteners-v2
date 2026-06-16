@@ -30,12 +30,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const siteUrl = 'https://www.tradego-fasteners.com'
   
   const titles: Record<string, string> = {
-    en: 'Stainless Steel Hex Bolts & Heavy Duty Fasteners Wholesale | 8.8/10.9 Grade, Self-Tapping Screws, Lock Nuts | TradeGo',
-    zh: '不锈钢六角螺栓_高强度8.8/10.9级螺栓_自攻螺丝_锁紧螺母_批发 | TradeGo',
+    en: 'Fastener Products Wholesale | TradeGo Fasteners',
+    zh: '紧固件产品批发 | TradeGo',
   }
   const descriptions: Record<string, string> = {
-    en: 'Wholesale fastener supplier. 304/316 stainless steel hex bolts, high-strength 8.8/10.9/12.9 grade bolts, self-tapping & self-drilling screws, lock nuts, washers, IBR nails, anchor bolts. ISO 9001 certified. Low MOQ, sea freight to Zimbabwe, Zambia, Mozambique, South Africa.',
-    zh: '批发紧固件供应商。304/316不锈钢六角螺栓、高强度8.8/10.9/12.9级螺栓、自攻螺丝、自钻螺丝、锁紧螺母、垫圈、IBR钉、地脚螺栓。ISO 9001认证。低MOQ，海运至津巴布韦、赞比亚、莫桑比克、南非。',
+    en: 'Wholesale 304/316 stainless hex bolts, Grade 8.8/10.9 structural bolts, drywall/TEK screws, lock nuts, IBR nails. ISO 9001 certified. Ships to Africa.',
+    zh: '批发304/316不锈钢螺栓、8.8/10.9级结构螺栓、干墙/自钻螺丝、锁紧螺母、IBR钉。ISO 9001认证。',
   }
   
   return {
