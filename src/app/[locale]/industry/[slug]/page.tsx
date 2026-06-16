@@ -37,21 +37,26 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     }
   }
 
-  const title = (article.title as Record<string, string>)[locale] || (article.title as Record<string, string>).en
-  const desc = article.metaDescription?.[locale] || article.metaDescription?.en || article.description[locale] || article.description.en
+  const rawTitle = (article.title as Record<string, string>)[locale] || (article.title as Record<string, string>).en
+  // Truncate title to 50-60 chars for SERP; add brand suffix only if room
+  const title = rawTitle.length > 55 ? rawTitle.slice(0, 55).replace(/\s+\S*$/, '') + '...' : rawTitle
+  const rawDesc = article.metaDescription?.[locale] || article.metaDescription?.en || article.description[locale] || article.description.en
+  // Truncate description to 155 chars max for SERP
+  const desc = rawDesc.length > 155 ? rawDesc.slice(0, 152) + '...' : rawDesc
+  const fullTitle = `${rawTitle} | TradeGo Fasteners`
 
   return {
-    title: `${title} | TradeGo Fasteners`,
+    title,
     description: desc,
     keywords: article.keywords,
     openGraph: {
-      title,
-      description: desc,
+      title: fullTitle,
+      description: rawDesc,
       url: `${SITE_URL}/${locale}/industry/${slug}`,
       type: 'article',
       publishedTime: article.date,
       authors: ['TradeGo Fasteners'],
-      images: [{ url: `${SITE_URL}${article.image}`, width: 1200, height: 630, alt: title }],
+      images: [{ url: `${SITE_URL}${article.image}`, width: 1200, height: 630, alt: rawTitle }],
     },
     alternates: {
       canonical: `${SITE_URL}/${locale}/industry/${slug}`,
@@ -62,8 +67,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${title} | TradeGo Fasteners`,
-      description: desc,
+      title: fullTitle,
+      description: rawDesc,
       images: [`${SITE_URL}${article.image}`],
     },
   }
@@ -175,7 +180,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-primary-900 to-primary-800 text-white py-12 md:py-16 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <Image src={article.image} alt={title} fill className="object-cover" sizes="100vw" priority />
+          <Image src={article.image} alt={title} fill className="object-cover" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1200px" priority quality={80} />
         </div>
         <div className="container mx-auto px-4 sm:px-6 relative z-10 max-w-3xl">
           <Link href={`/${locale}/industry`} className="inline-flex items-center gap-1 text-primary-200 hover:text-white text-sm mb-6 transition-colors">
