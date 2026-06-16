@@ -96,12 +96,13 @@ print(json.dumps({
 "
 
   # 进化 v3.0: 标记选中的为 in_progress (防下次重选)
+  # 注意: 写到 /dev/null 避免污染 stdout (select_topics 的 stdout 只能有一个 JSON)
   echo "$selected_json" | python3 -c "
 import json, sys, subprocess
 sel = json.load(sys.stdin)
 for t in sel:
-    subprocess.run(['python3', '$SCRIPTS_DIR/topic-state-manager.py', 'mark', t['slug'], 'in_progress'], cwd='$PROJECT_DIR')
-" 2>&1 | head -5
+    subprocess.run(['python3', '$SCRIPTS_DIR/topic-state-manager.py', 'mark', t['slug'], 'in_progress'], cwd='$PROJECT_DIR', stdout=open('/dev/null','w'), stderr=open('/dev/null','w'))
+" 2>/dev/null || true
 }
 
 # 生成 + 部署 + 验证 单篇
