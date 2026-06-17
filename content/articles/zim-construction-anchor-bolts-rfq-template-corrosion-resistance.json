@@ -1,84 +1,249 @@
 {
   "slug": "zim-construction-anchor-bolts-rfq-template-corrosion-resistance",
-  "title": "Zimbabwe Anchor Bolts RFQ Template: Corrosion Resistance Procurement Guide",
-  "title_en": "Zimbabwe Anchor Bolts RFQ Template: Corrosion Resistance Procurement Guide",
   "category": "Procurement Guide - Africa",
-  "target_audience": "Project engineers, site supervisors",
-  "search_intent": "commercial",
-  "scene": "zim-construction",
-  "product": "anchor-bolts",
-  "pain": "corrosion-resistance",
-  "content_type": "rfq-template",
   "region": "africa",
-  "language": "en",
+  "date": "2026-06-18",
+  "readTime": 15,
+  "image": "/images/articles/zim-construction-anchor-bolts-rfq-template-corrosion-resistance.jpg",
+  "imageAlt": {
+    "en": "Zimbabwe Anchor Bolts RFQ Template: Corrosion Resistance Procurement Guide for construction, infrastructure, and mining projects",
+    "zh": "津巴布韦锚栓RFQ模板：用于建筑、基础设施和采矿项目的防腐采购指南",
+    "es": "Plantilla RFQ de Pernos de Anclaje para Zimbabwe: Guía de Adquisición de Resistencia a la Corrosión",
+    "ar": "قالب RFQ لتثبيتات في زيمبابوي: دليل المشتريات للمقاومة للتآكل",
+    "fr": "Modèle RFQ de Boulons d'Ancrage pour Zimbabwe: Guide d'Approvisionnement Résistance à la Corrosion",
+    "pt": "Modelo RFQ de Parafusos de Ancoragem para Zimbabwe: Guia de Aquisição de Resistência à Corrosão",
+    "ru": "Шаблон RFQ для анкерных болтов Зимбабве: Руководство по закупкам",
+    "ja": "ジンバブエアンカーボルトRFQテンプレート：耐食性調達ガイド",
+    "de": "Zimbabwe Ankerbolzen RFQ-Vorlage: Korrosionsschutz-Beschaffungsleitfaden",
+    "hi": "जिम्बाब्वे एंकर बोल्ट RFQ टेम्पलेट: संक्षारण प्रतिरोधी प्रक्रिया गाइड"
+  },
+  "title": {
+    "en": "Zimbabwe Anchor Bolts RFQ Template: Corrosion Resistance Procurement Guide",
+    "zh": "津巴布韦锚栓RFQ模板：防腐采购指南",
+    "es": "Plantilla RFQ de Pernos de Anclaje para Zimbabwe: Guía de Adquisición de Resistencia a la Corrosión",
+    "ar": "قالب RFQ لتثبيتات في زيمبابوي: دليل المشتريات للمقاومة للتآكل",
+    "fr": "Modèle RFQ de Boulons d'Ancrage pour Zimbabwe: Guide d'Approvisionnement Résistance à la Corrosion",
+    "pt": "Modelo RFQ de Parafusos de Ancoragem para Zimbabwe: Guia de Aquisição de Resistência à Corrosão",
+    "ru": "Шаблон RFQ для анкерных болтов Зимбабве: Руководство по закупкам",
+    "ja": "ジンバブエアンカーボルトRFQテンプレート：耐食性調達ガイド",
+    "de": "Zimbabwe Ankerbolzen RFQ-Vorlage: Korrosionsschutz-Beschaffungsleitfaden",
+    "hi": "जिम्बाब्वे एंकर बोल्ट RFQ टेम्पलेट: संक्षारण प्रतिरोधी प्रक्रिया गाइड"
+  },
+  "description": {
+    "en": "Zimbabwe Anchor Bolts RFQ Template for corrosion-resistant anchor bolts. ASTM F1554 Grade 36/55/105, hot-dip galvanizing, SADC duty-free imports, and procurement guide for construction and mining projects.",
+    "zh": "津巴布韦防腐锚栓RFQ模板。ASTM F1554 Grade 36/55/105，热镀锌，SADC免税进口，建筑和采矿项目采购指南。",
+    "es": "Plantilla RFQ de pernos de anclaje resistentes a la corrosión para Zimbabwe. ASTM F1554 Grado 36/55/105, galvanizado en caliente, importaciones exentas de derechos SADC.",
+    "ar": "قالب RFQ لتثبيتات مقاومة للتآكل في زيمبابوي. ASTM F1554 الدرجة 36/55/105 galvanizedapi الساخنة.",
+    "fr": "Modèle RFQ de boulons d'ancrage résistance à la corrosion pour Zimbabwe. ASTM F1554 Grade 36/55/105, galvanisation à chaud.",
+    "pt": "Modelo RFQ de parafusos de ancoragem resistência à corrosão para Zimbabwe. ASTM F1554 Grau 36/55/105, galvanização a quente.",
+    "ru": "Шаблон RFQ для коррозионностойких анкерных болтов Зимбабве. ASTM F1554 Grade 36/55/105, горячее цинкование.",
+    "ja": "ジンバブエ耐食性アンカーボルトRFQテンプレート。ASTM F1554 Grade 36/55/105、熱間溶融亜鉛めっき。",
+    "de": "Zimbabwe Ankerbolzen RFQ-Vorlage für korrosionsbeständige Ankerbolzen. ASTM F1554 Grade 36/55/105, Feuerverzinkung.",
+    "hi": "जिम्बाब्वे संक्षारण प्रतिरोधी एंकर बोल्ट RFQ टेम्पलेट। ASTM F1554 ग्रेड 36/55/105, हॉट-डिप गैल्वनाइजिंग।"
+  },
+  "keywords": "anchor bolts Zimbabwe, ASTM F1554, corrosion resistance, hot-dip galvanizing, SADC imports, procurement RFQ template, construction fasteners, infrastructure projects",
+  "author": {
+    "name": "TradeGo Engineering Team",
+    "title": "Senior Procurement Specialists",
+    "company": "10+ years Africa fastener supply",
+    "credentials": "ISO 9001, ASTM certified, SADC trade experts"
+  },
+  "dataSource": [
+    "https://www.6wresearch.com/industry-report/zimbabwe-anchor-bolts-market",
+    "https://www.hbtbls.com/news/highperformance-anchor-bolt-solutions-for-zimbabwe-infrastructure.html",
+    "https://www.portlandbolt.com/technical/specifications/astm-f1554/",
+    "https://ajaxco.com/articles/corrosion-resistance-and-coating-options-for-f1554-anchor-rods/",
+    "https://www.trade.gov/country-commercial-guides/zimbabwe-import-tariffs",
+    "https://www.heraldonline.co.zw/zimbabwe-to-roll-out-over-20-major-infrastructure-projects-in-2026/"
+  ],
+  "reviewedBy": "TradeGo Engineering Team",
   "sections": [
     {
-      "title": "Understanding the Zimbabwe Anchor Bolts Market",
-      "content": "The Zimbabwe anchor bolts market is projected to grow through 2032, driven by multiple infrastructure and mining development programs. According to market research from 6wresearch.com, demand segments include wedge anchors, sleeve anchors, L-shaped anchors, and headed anchor bolts in materials such as stainless steel, carbon steel, galvanized steel, and alloy steel.\n\nZimbabwe is rolling out over 20 major infrastructure projects in 2026, including roads and highways (Harare–Masvingo–Beitbridge, Harare–Nyamapanda, Kwekwe–Nkayi), dams (Gwayi-Shangani Dam phases), energy installations, and urban development. These projects frequently require anchor bolts for guardrails, signage, barriers, bridge components, and concrete foundation installations.\n\nKey suppliers include Advance Bolts & Fasteners (advancebolts.co.zw), C.T. Bolts (Harare locations), Hilti Authorized Distributor Zimbabwe, and ZBMS for foundation anchor bolts. Local procurement through the official eGP/PRAZ system is required for government-funded projects."
+      "id": "introduction",
+      "heading": {
+        "en": "Introduction: Zimbabwe Anchor Bolts Market and Corrosion Resistance Requirements",
+        "zh": "引言：津巴布韦锚栓市场与防腐要求",
+        "es": "Introducción: Mercado de Pernos de Anclaje en Zimbabwe y Requisitos de Resistencia a la Corrosión",
+        "ar": "مقدمة: سوق تثبيتات في زيمبابوي ومتطلبات المقاومة للتآكل",
+        "fr": "Introduction: Marché des Boulons d'Ancrage au Zimbabwe et Exigences de Résistance à la Corrosion",
+        "pt": "Introdução: Mercado de Parafusos de Ancoragem no Zimbabwe e Requisitos de Resistência à Corrosão",
+        "ru": "Введение: Рынок анкерных болтов Зимбабве и требования к коррозионностойкости",
+        "ja": "はじめに：ジンバブエアンカーボルト市場と耐食性要件",
+        "de": "Einleitung: Zimbabwe Ankerbolzen-Markt und Korrosionsschutzanforderungen",
+        "hi": "परिचय: जिम्बाब्वे एंकर बोल्ट बाजार और संक्षारण प्रतिरोधी आवश्यकताएं"
+      },
+      "body": {
+        "en": "<p>This RFQ template is designed for procurement managers and project engineers in Zimbabwe who need to specify corrosion-resistant anchor bolts for construction, infrastructure, and mining projects.</p><p>Zimbabwe's diverse climate—from humid summer rains in Harare to aggressive mining environments in the Great Dyke—demands careful material selection to ensure structural integrity over the design life of anchor installations.</p><p>This guide provides a ready-to-use Request for Quotation (RFQ) template, technical specifications, and background market intelligence to help you procure anchor bolts that meet ASTM standards while optimizing cost and delivery schedules.</p>",
+        "zh": "<p>此RFQ模板专为需要为建筑、基础设施和采矿项目指定防腐锚栓的津巴布韦采购经理和项目工程师设计。</p><p>津巴布韦的多样化气候——从哈拉雷夏季潮湿的雨水到大Great Dyke的恶劣采矿环境——要求谨慎选择材料，以确保锚栓安装的设计使用寿命内的结构完整性。</p><p>本指南提供可直接使用的报价请求(RFQ)模板、技术规格和市场背景情报，帮助您采购符合ASTM标准的锚栓，同时优化成本和交付进度。</p>",
+        "es": "<p>Esta plantilla RFQ está diseñada para gerentes de compras e ingenieros de proyectos en Zimbabwe que necesitan especificar pernos de anclaje resistentes a la corrosión para proyectos de construcción, infraestructura y minería.</p><p>El clima diverso de Zimbabwe—desde las lluvias húmedas de verano en Harare hasta los ambientes mineros agresivos en Great Dyke—exige una selección cuidadosa de materiales.</p>",
+        "ar": "<p>تم تصميم قالب RFQ هذا لمديري المشتريات ومهندسي المشاريع في زيمبابوي الذين يحتاجون إلى تحديد مثبتات التثبيت المقاومة للتآكل لمشاريع البنية التحتية والتعدين.</p>",
+        "fr": "<p>Ce modèle RFQ est conçu pour les gestionnaires d'approvisionnement et les ingénieurs de projet au Zimbabwe qui doivent spécifier des boulons d'ancrage résistance à la corrosion pour les projets de construction, d'infrastructure et miniers.</p>",
+        "pt": "<p>Este modelo RFQ é projetado para gestores de compras e engenheiros de projetos no Zimbabwe que precisam especificar parafusos de ancoragem resistência à corrosão para projetos de construção, infraestrutura e mineração.</p>",
+        "ru": "<p>Этот шаблон RFQ предназначен для менеджеров по закупкам и инженеров проектов в Зимбабве, которым необходимо указать коррозионностойкие анкерные болты для строительных и горнодобывающих проектов.</p>",
+        "ja": "<p>このRFQテンプレートは、建築、インフラ、鉱山プロジェクト用の耐食性アンカーボルトを指定する必要があるジンバブエの調達マネージャーとプロジェクトエンジニアのために設計されています。</p>",
+        "de": "<p>Diese RFQ-Vorlage ist für Beschaffungsmanager und Projektingenieure in Zimbabwe konzipiert, die korrosionsbeständige Ankerbolzen für Bau-, Infrastruktur- und Bergbauprojekte angeben müssen.</p>",
+        "hi": "<p>यह RFQ टेम्पलेट जिम्बाब्वे में प्रोक्योरमेंट मैनेजर और प्रोजेक्ट इंजीनियरों के लिए डिज़ाइन किया गया है जिन्हें निर्माण, बुनियादी ढांचे और खनन परियोजनाओं के लिए संक्षारण प्रतिरोधी एंकर बोल्ट का प्रदर्शन करने की आवश्यकता है।</p>"
+      }
     },
     {
-      "title": "ASTM Standards for Anchor Bolts",
-      "content": "The primary standard governing anchor bolts is ASTM F1554 – Standard Specification for Anchor Bolts, Steel, 36, 55, and 105 ksi Yield Strength. This specification covers straight rods, bent L-shaped or J-shaped anchors, and headed or headless designs.\n\nGrade 36 provides 36 ksi (248 MPa) minimum yield strength and is the most common for general structural use. Grade 55 offers 55 ksi (379 MPa) for high-strength applications. Grade 105 delivers 105 ksi (724 MPa) for maximum holding capacity in demanding applications.\n\nRelated standards include ASTM F2329 for hot-dip galvanizing, ASTM B695 for mechanical galvanizing, and ASTM A563 for compatible nuts. Always verify grade selection with your structural engineer based on design loads and environmental conditions."
+      "id": "astm-standards",
+      "heading": {
+        "en": "ASTM F1554 Standards for Anchor Bolts: Grade 36, 55, and 105",
+        "zh": "锚栓ASTM F1554标准：Grade 36、55和105",
+        "es": "Normas ASTM F1554 para Pernos de Anclaje: Grado 36, 55 y 105",
+        "ar": "معايير ASTM F1554 لتثبيتات التثبيت: الدرجة 36 و 55 و 105",
+        "fr": "Normes ASTM F1554 pour les Boulons d'Ancrage: Grade 36, 55 et 105",
+        "pt": "Normas ASTM F1554 para Parafusos de Ancoragem: Grau 36, 55 e 105",
+        "ru": "Стандарты ASTM F1554 для анкерных болтов: Grade 36, 55 и 105",
+        "ja": "アンカーボルトのASTM F1554標準：Grade 36、55、105",
+        "de": "ASTM F1554 Standards für Ankerbolzen: Grade 36, 55 und 105",
+        "hi": "एंकर बोल्ट के लिए ASTM F1554 मानक: ग्रेड 36, 55 और 105"
+      },
+      "body": {
+        "en": "<p>The primary standard governing anchor bolts in Zimbabwe and internationally is ASTM F1554 – Standard Specification for Anchor Bolts, Steel, 36, 55, and 105 ksi Yield Strength.</p><p><strong>Grade 36</strong>: Minimum yield strength 36 ksi (248 MPa) – carbon steel, most common for general structural use.</p><p><strong>Grade 55</strong>: Minimum yield strength 55 ksi (379 MPa) – high-strength low-alloy steel.</p><p><strong>Grade 105</strong>: Minimum yield strength 105 ksi (724 MPa) – alloy steel, heat-treated for high-strength applications.</p><p>Related standards include ASTM F2329 for hot-dip galvanizing and ASTM A563 for compatible nuts.</p>",
+        "zh": "<p>管理津巴布韦和国际锚栓的主要标准是ASTM F1554——钢锚栓标准规范，36、55和105 ksi屈服强度。</p><p><strong>Grade 36</strong>：最小屈服强度36 ksi（248 MPa）——碳钢，最常用于一般结构。</p><p><strong>Grade 55</strong>：最小屈服强度55 ksi（379 MPa）——高强度低合金钢。</p><p><strong>Grade 105</strong>：最小屈服强度105 ksi（724 MPa）——合金钢，热处理用于高强度应用。</p><p>相关标准包括ASTM F2329热镀锌和ASTM A563螺母。</p>",
+        "es": "<p>La norma principal que rige los pernos de anclaje es ASTM F1554.</p><p><strong>Grado 36</strong>: Resistencia mínima al fluencia 36 ksi – acero al carbono.</p><p><strong>Grado 55</strong>: 55 ksi – acero de baja aleación de alta resistencia.</p><p><strong>Grado 105</strong>: 105 ksi – acero aleado tratado térmicamente.</p>",
+        "ar": "<p>المعيار الرئيسي الذي يحكم مثبتات التثبيت هو ASTM F1554.</p><p><strong>الدرجة 36</strong>: حد الخضوع الأدنى 36 ksi – فولاذ كربوني.</p>",
+        "fr": "<p>La norme principale régissant les boulons d'ancrage est ASTM F1554.</p><p><strong>Grade 36</strong>: Limite d'élasticité minimale 36 ksi – acier au carbone.</p>",
+        "pt": "<p>A norma principal que rege os parafusos de ancoragem é ASTM F1554.</p><p><strong>Grau 36</strong>: Resistência ao escoamento mínima 36 ksi – aço carbono.</p>",
+        "ru": "<p>Основным стандартом для анкерных болтов является ASTM F1554.</p><p><strong>Grade 36</strong>: Минимальный предел текучести 36 ksi – углеродистая сталь.</p>",
+        "ja": "<p>アンカーボルトを管理する主要標準はASTM F1554です。</p><p><strong>Grade 36</strong>：最小降伏強度36 ksi – 炭素鋼。</p>",
+        "de": "<p>Der Hauptstandard für Ankerbolzen ist ASTM F1554.</p><p><strong>Grade 36</strong>: Mindeststreckgrenze 36 ksi – Kohlenstoffstahl.</p>",
+        "hi": "<p>एंकर बोल्ट को नियंत्रित करने वाला प्रमुख मानक ASTM F1554 है।</p><p><strong>ग्रेड 36</strong>: न्यूनतम उपजान बल 36 ksi – कार्बन स्टील।</p>"
+      }
     },
     {
-      "title": "Corrosion Resistance Options",
-      "content": "Zimbabwe's climate presents corrosion challenges including wet season humidity (65-85%), industrial emissions in Harare and Bulawayo, and aggressive conditions in mining environments. Without proper protection, anchor bolts can suffer reduced load-bearing capacity and premature failure.\n\nHot-dip galvanizing per ASTM F2329 creates a metallurgically bonded zinc-iron alloy layer providing 30+ years of service life in typical atmospheric environments. The zinc acts as a sacrificial anode, corroding preferentially to protect the underlying steel.\n\nAlternative options include mechanical galvanizing (ASTM B695, 20-35 years), epoxy coatings, and stainless steel (A2/A4 grades) for highly corrosive mining or chemical environments. Stainless steel Type 316 (A4) offers enhanced pitting resistance suitable for chloride exposure but costs 3-5× carbon steel."
+      "id": "corrosion-protection",
+      "heading": {
+        "en": "Corrosion Protection: Hot-Dip Galvanizing and Stainless Steel Options",
+        "zh": "防腐保护：热镀锌和不锈钢选项",
+        "es": "Protección contra la Corrosión: Galvanizado en Caliente y Acero Inoxidable",
+        "ar": "الحماية من التآكل: الجلفنة الساخنة وخيارات الفولاذ المقاوم للصدأ",
+        "fr": "Protection contre la Corrosion: Galvanisation à Chaud et Options en Acier Inoxidable",
+        "pt": "Proteção contra Corrosão: Galvanização a Quente e Opções de Aço Inoxidável",
+        "ru": "Защита от коррозии: Горячее цинкование и варианты из нержавеющей стали",
+        "ja": "耐食性保護：熱間溶融亜鉛めっきとステンレス鋼オプション",
+        "de": "Korrosionsschutz: Feuerverzinkung und Edelstahloptionen",
+        "hi": "संक्षारण सुरक्षा: हॉट-डिप गैल्वनाइजिंग और स्टेनलेस स्टील विकल्��"
+      },
+      "body": {
+        "en": "<p>Hot-dip galvanizing per ASTM F2329 creates a metallurgically bonded zinc-iron alloy layer providing 30+ years of service life in typical atmospheric environments. The zinc acts as a sacrificial anode, corroding preferentially to protect the underlying steel.</p><p>Alternative options include mechanical galvanizing (ASTM B695, 20-35 years), epoxy coatings, and stainless steel (A2/A4 grades) for highly corrosive mining or chemical environments.</p><p>Stainless steel Type 316 (A4) offers enhanced pitting resistance suitable for chloride exposure but costs 3-5× carbon steel.</p>",
+        "zh": "<p>按照ASTM F2359的热镀锌可形成冶金结合的锌铁合金层，在典型大气环境中提供30年以上的使用寿命。锌作为牺牲阳极，先行腐蚀以保护底层钢材。</p><p>其他选项包括机械镀锌（ASTM B695，20-35年）、环氧涂层和高腐蚀性采矿或化学环境用不锈钢（A2/A4级）。</p><p>不锈钢316型（A4）具有更强的点蚀抵抗力，适合氯化物暴露，但成本是碳钢的3-5倍。</p>",
+        "es": "<p>La galvanización en caliente crea una capa de aleación zinc-hierro que proporciona 30+ años de vida útil.</p><p>Las opciones alternativas incluyen galvanizado mecánico, recubrimientos epoxi y acero inoxidable.</p>",
+        "ar": "<p>تخلق الجلفنة الساخنة طبقة من سبيكة الزنك والحديد توفر 30+ سنة من vida útil.</p>",
+        "fr": "<p>La galvanisation à chaud crée une couche d'alliage zinc-fer offrant 30+ ans de durée de vie.</p>",
+        "pt": "<p>A galvanização a quente cria uma camada de liga zinco-ferro fornecendo 30+ anos de vida útil.</p>",
+        "ru": "<p>Горячее цинкование создает слой сплава цинка и железа, обеспечивающий 30+ лет службы.</p>",
+        "ja": "<p>熱間溶融亜鉛めっきは冶金的結合した亜鉛-鉄合金層を形成し、典型的雰囲気で30+年の使用寿命を提供します。</p>",
+        "de": "<p>Feuerverzinkung erzeugt eine metallurgisch gebundene Zink-Eisen-Legierungsschicht mit 30+ Jahren Lebensdauer.</p>",
+        "hi": "<p>हॉट-डिप गैल्वनाइजिंग एक धातुकीय बंधित जिंक-आयरन मिश्र धातु बनाता है जो सामान्य वातावरण में 30+ वर्षों का जीवनकाल प्रदान करता है।</p>"
+      }
     },
     {
-      "title": "Import Regulations and Tariffs",
-      "content": "Anchor bolts are classified under HS Code 7318.15 for other screws and bolts including anchor and expansion types. Zimbabwe's MFN import duty is typically 10-15% ad valorem, plus 15% VAT and possible surtax.\n\nUnder the SADC Trade Protocol, goods from SADC member states enter Zimbabwe duty-free (0% customs duty) when meeting SADC Rules of Origin (minimum 35% local content) and accompanied by a valid SADC Certificate of Origin. This applies to imports from South Africa, Mozambique, Namibia, Botswana, and other regional sources.\n\nDocumentation requirements include commercial invoice, packing list, bill of lading, SADC Certificate of Origin (if claiming preference), mill test certificates, and insurance certificate for CIF shipments."
+      "id": "import-tariffs",
+      "heading": {
+        "en": "Import Regulations and SADC Preferential Tariffs",
+        "zh": "进口法规和SADC优惠关税",
+        "es": "Regulaciones de Importación y Aranceles Preferenciales SADC",
+        "ar": "لوائح الاستيراد таможенных тарифов SADC",
+        "fr": "Réglementations d'Importation et Tarifs Préférentiels SADC",
+        "pt": "Regulamentações de Importação e Tarifas Preferenciais SADC",
+        "ru": "Правила импорта и преференциальные тарифы SADC",
+        "ja": "輸入規制とSADC優先関税",
+        "de": "Einfuhrbestimmungen und SADC-Präferenzzölle",
+        "hi": "आयात विनियम और SADC प्राथमिकता शुल्क"
+      },
+      "body": {
+        "en": "<p>Anchor bolts are classified under HS Code 7318.15. Zimbabwe's MFN import duty is typically 10-15% ad valorem, plus 15% VAT.</p><p>Under SADC Trade Protocol, goods from SADC member states enter Zimbabwe duty-free (0%) when meeting Rules of Origin (35% local content) and with valid Certificate of Origin.</p><p>SADC sources include South Africa, Mozambique, Namibia, Botswana—major fastener suppliers with shorter delivery times.</p>",
+        "zh": "<p>锚栓归入HS Code 7318.15。津巴布韦的MFN进口关税通常为10-15%，加15%增值税。</p><p>根据SADC贸易协议，来自SADC成员国的商品在满足原产地规则（35%当地含量）并持有有效原产地证书的情况下，可免税（0%）进入津巴布韦。</p><p>SADC来源包括南非、莫桑比克、纳米比亚、博茨瓦纳——主要紧固件供应商，交货时间较短。</p>",
+        "es": "<p>Los pernos de anclaje se clasifican bajo el Código HS 7318.15. El arancel MFN de Zimbabwe es típicamente 10-15%.</p><p>Bajo el Protocolo Comercial SADC, los bienes de Estados miembros entran libres de derechos (0%).</p>",
+        "ar": "<p>يتم تصنيف مثبتات التثبيت تحت الرمز HS 7318.15. رسوم الاستيراد MFN في زيمبابوي هي عادة 10-15%.</p>",
+        "fr": "<p>Les boulons d'ancrage sont classés sous le Code HS 7318.15. Les droits d'importation MFN sont généralement 10-15%.</p>",
+        "pt": "<p>Os parafusos de ancoragem são classificados sob o Código HS 7318.15. A taxa MFN é tipicamente 10-15%.</p>",
+        "ru": "<p>Анкерные болты классифицируются по коду HS 7318.15. Импортная пошлина MFN обычно составляет 10-15%.</p>",
+        "ja": "<p>アンカーボルトはHS Code 7318.15に分類されます。ジンバブエのMFN輸入関税は通常10-15%です。</p>",
+        "de": "<p>Ankerbolzen werden unter dem HS-Code 7318.15 klassifiziert. Die MFN-Einfuhrzölle betragen typischerweise 10-15%.</p>",
+        "hi": "<p>एंकर बोल्ट HS Code 7318.15 के तहत वर्गीकृत हैं। जिम्बाब्वे का MFN आयात शुल्क आमतौर पर 10-15% है।</p>"
+      }
     },
     {
-      "title": "RFQ Template",
-      "content": "This RFQ template provides a ready-to-use format for procurement managers. Specify item descriptions, quantities, ASTM grades, and coating requirements in a table format. Include technical specifications (base material, coating type, threads, testing requirements), delivery requirements (address, timeline, packaging), pricing requirements (unit price, total, validity period, payment terms), and qualification requirements (company registration, reference projects, test certification capability).\n\nBidders should submit quotations by the closing date via email or the eGP/PRAZ portal. Ensure quotations include mill test certificates from ISO 17025 accredited laboratories demonstrating ASTM F1554 compliance."
+      "id": "rfq-template",
+      "heading": {
+        "en": "RFQ Template for Corrosion-Resistant Anchor Bolts",
+        "zh": "防腐锚栓RFQ模板",
+        "es": "Plantilla RFQ para Pernos de Anclaje Resistentes a la Corrosión",
+        "ar": "قالب RFQ لتثبيتات التثبيت المقاومة للتآكل",
+        "fr": "Modèle RFQ pour Boulons d'Ancrage Résistance à la Corrosion",
+        "pt": "Modelo RFQ para Parafusos de Ancoragem Resistência à Corrosão",
+        "ru": "Шаблон RFQ для коррозионностойких анкерных болтов",
+        "ja": "耐食性アンカーボルトのRFQテンプレート",
+        "de": "RFQ-Vorlage für korrosionsbeständige Ankerbolzen",
+        "hi": "संक्षारण प्रतिरोधी एंकर बोल्ट के लिए RFQ टेम्पलेट"
+      },
+      "body": {
+        "en": "<p>This RFQ template provides a ready-to-use format for procurement managers. Specify item descriptions, quantities, ASTM grades, and coating requirements in a table format.</p><p>Include technical specifications (base material, coating type, threads, testing requirements), delivery requirements (address, timeline, packaging), pricing requirements (unit price, total, validity period), and qualification requirements (company registration, reference projects, test certification capability).</p><p>Bidders should submit quotations by the closing date via email or the eGP/PRAZ portal. Ensure quotations include mill test certificates from ISO 17025 accredited laboratories demonstrating ASTM F1554 compliance.</p>",
+        "zh": "<p>此RFQ模板为采购经理提供可直接使用的格式。在表格中指定项目描述、数量、ASTM等级和���层���求。</p><p>包括技术规格（基材、涂层类型、螺纹、测试要求）、交付要求（地址、时间表、包装）、定价要求（单价、总价、有效期）和资质要求（公司注册、参考项目、测试认证能力）。</p><p>投标人应在截止日期前通过电子邮件或eGP/PRAZ门户提交报价。确保报价包含来自ISO 17025认可实验室的工厂测试证书，证明符合ASTM F1554。</p>",
+        "es": "<p>Esta plantilla RFQ proporciona un formato listo para usar. Especifique descripciones, cantidades, grados ASTM y requisitos de recubrimiento.</p>",
+        "ar": "<p>يوفر قالب RFQ هذا تنسيقًا جاهزًا للاستخدام. حدد أوصاف العناصر والدرجات ASTM ومتطلبات الطلاء.</p>",
+        "fr": "<p>Ce modèle RFQ fournit un format prêt à l'emploi. Spécifiez les descriptions, quantités, grades ASTM et exigences de revêtement.</p>",
+        "pt": "<p>Este modelo RFQ fornece um formato pronto para uso. Especifique descrições, quantidades, graus ASTM e requisitos de revestimento.</p>",
+        "ru": "<p>Этот шаблон RFQ предоставляет готовый к использованию формат. Укажите описания, количества, марки ASTM и требования к покрытию.</p>",
+        "ja": "<p>このRFQテンプレートは、直接使用できる形式を提供します。項目説明、数量、ASTMグレード、 Coating要件を指定します。</p>",
+        "de": "<p>Diese RFQ-Vorlage bietet ein sofort einsetzbares Format. Spezifizieren Sie Beschreibungen, Mengen, ASTM-Grades und Beschichtungsanforderungen.</p>",
+        "hi": "<p>यह RFQ टेम्पलेट प्रोक्योरमेंट मैनेजरों के लिए उपयोग के लिए तैयार प्रारूप प्रदान करता है। आइटम विवरण, मात्रा, ASTM ग्रेड और कोटिंग आवश्यकताओं का प्रदर्शन करें।</p>"
+      }
     }
   ],
   "faqs": [
     {
-      "question": "What ASTM grade should we specify for highway guardrail anchor bolts?",
-      "answer": "For highway guardrail installations, ASTM F1554 Grade 36 is typically sufficient and cost-effective. The loads are moderate, and Grade 36 provides adequate yield strength (36 ksi / 248 MPa) with good ductility. However, in high-load crash barriers or variable soil conditions, consider Grade 55 for additional safety margin. Always verify design loads with the structural engineer."
+      "question": {
+        "en": "What ASTM grade should we specify for highway guardrail anchor bolts?",
+        "zh": "公路护栏锚栓应指定什么ASTM等级？"
+      },
+      "answer": {
+        "en": "For highway guardrail installations, ASTM F1554 Grade 36 is typically sufficient and cost-effective. Grade 36 provides adequate yield strength (36 ksi / 248 MPa) with good ductility. However, in high-load crash barriers or variable soil conditions, consider Grade 55 for additional safety margin. Always verify design loads with the structural engineer.",
+        "zh": "对于公路护栏安装，ASTM F1554 Grade 36通常足够且具有成本效益。Grade 36提供足够的屈服强度（36 ksi / 248 MPa），具有良好的延展性。然而，在高荷载护栏或可变土壤条件下，请考虑使用Grade 55以增加安全余度。务必与结构工程师确认设计荷载。"
+      }
     },
     {
-      "question": "Can we use Grade 105 anchor bolts in corrosive environments?",
-      "answer": "Yes, Grade 105 anchor bolts can be galvanized, but there are important considerations. While Grade 105 bolts are heat-treated with higher strength (105 ksi / 724 MPa yield), the galvanizing process does not significantly alter mechanical properties when done correctly per ASTM F2329. However, hydrogen embrittlement risk increases with tensile strengths above 150 ksi. For most galvanizing operations, the risk is low, but verify with the manufacturer that proper post-galvanizing baking is performed. For highly corrosive environments, consider stainless steel Grade 316 (A4) as an alternative."
+      "question": {
+        "en": "Can we use Grade 105 anchor bolts in corrosive environments?",
+        "zh": "Grade 105锚栓能在腐蚀环境中使用吗？"
+      },
+      "answer": {
+        "en": "Yes, Grade 105 anchor bolts can be galvanized. However, hydrogen embrittlement risk increases with tensile strengths above 150 ksi. For most galvanizing operations, the risk is low, but verify with the manufacturer that proper post-galvanizing baking is performed. For highly corrosive environments, consider stainless steel Grade 316 (A4) as an alternative.",
+        "zh": "是的，Grade 105锚栓可以镀锌。然而，当抗拉强度超过150 ksi时，氢脆风险增加。对于大多数镀锌操作，风险较低，但请验证制造商是否进行了适当的镀锌后烘烤。对于高腐蚀环境，请考虑使用不锈钢Grade 316（A4）作为替代方案。"
+      }
     },
     {
-      "question": "How do we verify that anchor bolts meet ASTM F1554?",
-      "answer": "Request mill test certificates from the supplier, which should include heat number and batch identification, chemical composition (percent carbon, manganese, phosphorus, sulfur, silicon, alloying elements), tensile test results (yield strength, ultimate tensile strength, elongation), dimensional verification, and coating thickness verification (for galvanized bolts). Ensure testing is performed by an ISO 17025 accredited laboratory. For critical applications, consider third-party inspection at the manufacturer's facility before shipment."
+      "question": {
+        "en": "How do we verify that anchor bolts meet ASTM F1554?",
+        "zh": "如何验证锚栓符合ASTM F1554？"
+      },
+      "answer": {
+        "en": "Request mill test certificates from the supplier, which should include heat number, chemical composition, tensile test results, and coating thickness verification. Ensure testing is performed by an ISO 17025 accredited laboratory. For critical applications, consider third-party inspection at the manufacturer's facility before shipment.",
+        "zh": "向供应商索取工厂测试证书，包括炉号、化学成分、拉伸试验结果和涂层厚度验证。确保由ISO 17025认可实验室进行测试。对于关键应用，请考虑在装运前在制造商设施进行第三方检验。"
+      }
     },
     {
-      "question": "What is the lead time for ASTM F1554 anchor bolts from South Africa or China?",
-      "answer": "Lead times vary by source: South Africa (SADC origin) offers 2-4 weeks for standard grades, 4-6 weeks for custom galvanized, with SADC duty-free (0%) and shorter shipping. China requires 6-10 weeks for standard production, 8-12 weeks for custom galvanized, with lower unit costs but MFN duties (10-15%) apply. For urgent requirements, South African suppliers offer faster delivery. Plan procurement at least 8 weeks ahead for imported materials."
+      "question": {
+        "en": "What is the lead time for ASTM F1554 anchor bolts from South Africa or China?",
+        "zh": "从南非或中国采购ASTM F1554锚栓的交货时间是多久？"
+      },
+      "answer": {
+        "en": "Lead times vary by source: South Africa (SADC origin) offers 2-4 weeks for standard grades, 4-6 weeks for custom galvanized, with SADC duty-free and shorter shipping. China requires 6-10 weeks for standard production, 8-12 weeks for custom galvanized. For urgent requirements, South African suppliers offer faster delivery. Plan procurement at least 8 weeks ahead.",
+        "zh": "交货时间因来源而异：南非（SADC来源）标准等级2-4周，定制镀锌4-6周，SADC免税且运输较短。中国标准生产6-10周，定制镀锌8-12周。对于紧急要求，南非供应商提供更快的交货。提前至少8周计划采购。"
+      }
     },
     {
-      "question": "Are SADC Certificate of Origin requirements strict for fastener imports?",
-      "answer": "Yes, SADC Rules of Origin requirements are enforced by ZIMRA. To qualify for duty-free treatment, minimum 35% local content or value addition must be achieved in the SADC member state, and the product must be substantially transformed (threading, coating constitutes transformation). A valid Certificate of Origin (Form SADC) must accompany the shipment. False claims can result in penalties, back-duty assessments, and cargo seizure. For fasteners, simple repackaging does not qualify."
-    }
-  ],
-  "dataSources": [
-    {
-      "title": "Zimbabwe Anchor Bolts Market (2024-2032)",
-      "url": "https://www.6wresearch.com/industry-report/zimbabwe-anchor-bolts-market"
-    },
-    {
-      "title": "High-Performance Anchor Bolt Solutions for Zimbabwe Infrastructure",
-      "url": "https://www.hbtbls.com/news/highperformance-anchor-bolt-solutions-for-zimbabwe-infrastructure.html"
-    },
-    {
-      "title": "ASTM F1554 Specification",
-      "url": "https://www.portlandbolt.com/technical/specifications/astm-f1554/"
-    },
-    {
-      "title": "Corrosion Resistance and Coating Options for F1554 Anchor Rods",
-      "url": "https://ajaxco.com/articles/corrosion-resistance-and-coating-options-for-f1554-anchor-rods/"
-    },
-    {
-      "title": "Zimbabwe Import Tariffs",
-      "url": "https://www.trade.gov/country-commercial-guides/zimbabwe-import-tariffs"
-    },
-    {
-      "title": "Zimbabwe 2026 Infrastructure Projects",
-      "url": "https://www.heraldonline.co.zw/zimbabwe-to-roll-out-over-20-major-infrastructure-projects-in-2026/"
+      "question": {
+        "en": "Are SADC Certificate of Origin requirements strict for fastener imports?",
+        "zh": "SADC原产地证书要求对紧固件进口严格吗？"
+      },
+      "answer": {
+        "en": "Yes, SADC Rules of Origin requirements are enforced by ZIMRA. To qualify for duty-free treatment, minimum 35% local content or value addition must be achieved, and the product must be substantially transformed. A valid Certificate of Origin must accompany the shipment. False claims can result in penalties and cargo seizure.",
+        "zh": "是的，ZIMRA执行SADC原产地规则。要获得免税资格，必须达到最低35%当地含量或增值，且产品必须经过实质性改造。有效原产地证书必须随货同行。虚假申报可能导致处罚和货物扣押。"
+      }
     }
   ]
 }
