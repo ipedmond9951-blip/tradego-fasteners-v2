@@ -152,14 +152,49 @@
         "hi": "आपूर्तिकर्ताओं का मूल्यांकन छह आयामों में व्यवस्थित मूल्यांकन की मांग करता है। पहला, प्रमाणन अनुपालन: ISO 9001 सत्यापित करें। दूसरा, कोटिंग क्षमता: HDG ASTM F2329 पुष्टि करें। तीसरा, ग्रेड उपलब्धता: ASTM F1554 Grade 55 और 105। चौथा, USD मूल्य निर्धारण। पांचवां, डिलीवरी लीड टाइम। छठा, तकनीकी सहायता।"
       },
       "table": {
-        "headers": ["Criterion", "What to Check", "Minimum Requirement", "Best Practice"],
+        "headers": [
+          "Criterion",
+          "What to Check",
+          "Minimum Requirement",
+          "Best Practice"
+        ],
         "rows": [
-          ["Certification", "ISO 9001 certificate, batch test reports", "ISO 9001 verified", "ASTM/ISO lab test certificates per batch"],
-          ["Coating (HDG)", "ASTM F2329 or ISO 1461 compliance, zinc coating weight (g/m²)", "≥500 g/m² zinc", "≥610 g/m² for C4/C5 environments"],
-          ["Grade Availability", "ASTM F1554 Grade 55 & 105, M12–M30, 100–400mm", "Grade 55, M16–M24 in stock", "Full range + custom fabrication"],
-          ["Pricing Terms", "USD per unit, volume discounts, INCOTERMS", "EXW or CIF Harare in USD", "DAP site delivery with payment terms"],
-          ["Lead Time", "Stock availability, import timeline", "≤2 weeks local stock", "Same-week dispatch from Harare warehouse"],
-          ["Technical Support", "Load tables, installation guides, coatings advice", "Product datasheets available", "On-site engineering consultation"]
+          [
+            "Certification",
+            "ISO 9001 certificate, batch test reports",
+            "ISO 9001 verified",
+            "ASTM/ISO lab test certificates per batch"
+          ],
+          [
+            "Coating (HDG)",
+            "ASTM F2329 or ISO 1461 compliance, zinc coating weight (g/m²)",
+            "≥500 g/m² zinc",
+            "≥610 g/m² for C4/C5 environments"
+          ],
+          [
+            "Grade Availability",
+            "ASTM F1554 Grade 55 & 105, M12–M30, 100–400mm",
+            "Grade 55, M16–M24 in stock",
+            "Full range + custom fabrication"
+          ],
+          [
+            "Pricing Terms",
+            "USD per unit, volume discounts, INCOTERMS",
+            "EXW or CIF Harare in USD",
+            "DAP site delivery with payment terms"
+          ],
+          [
+            "Lead Time",
+            "Stock availability, import timeline",
+            "≤2 weeks local stock",
+            "Same-week dispatch from Harare warehouse"
+          ],
+          [
+            "Technical Support",
+            "Load tables, installation guides, coatings advice",
+            "Product datasheets available",
+            "On-site engineering consultation"
+          ]
         ]
       }
     },
@@ -482,8 +517,14 @@
     "flat-washers"
   ],
   "relatedArticles": [
-    {"slug": "zim-construction-industry-overview", "title": "Zimbabwe Construction Industry Overview 2026"},
-    {"slug": "zim-construction-market-2026", "title": "Zimbabwe Construction Market Analysis 2026"}
+    {
+      "slug": "zim-construction-industry-overview",
+      "title": "Zimbabwe Construction Industry Overview 2026"
+    },
+    {
+      "slug": "zim-construction-market-2026",
+      "title": "Zimbabwe Construction Market Analysis 2026"
+    }
   ],
   "cta": {
     "type": "quote",
@@ -514,5 +555,7 @@
     }
   },
   "ogImage": "/images/articles/zim-construction-anchor-bolts-supplier-evaluation-corrosion-resistance-og.jpg",
-  "schema": "Article"
+  "schema": "Article",
+  "image_alt": "Three large hot-dip galvanized steel anchor bolts with hex heads arranged on industrial inspection table for Zimbabwe construction supplier evaluation",
+  "image_alt_zh": "三个大型热浸镀锌钢锚栓带六角头，排列在工业检查台上，用于津巴布韦建筑供应商评估"
 }
