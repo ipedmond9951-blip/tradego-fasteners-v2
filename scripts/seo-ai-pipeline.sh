@@ -8,6 +8,9 @@ set -e
 
 PROJECT_DIR="/Users/zhangming/workspace/tradego-fasteners-v2"
 AI_ROUTER="$HOME/.agents/skills/ai-assistant-router/ai-router.js"
+# 2026-06-19 v3.1 FIX: explicit SCRIPT_DIR (realpath of script's directory)
+# Replaces $(dirname "$0") which gives wrong path when $0 is absolute
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 LOG_DIR="$PROJECT_DIR/logs/seo-ai-pipeline"
 STATE_FILE="$LOG_DIR/state.json"
 LOG_FILE="$LOG_DIR/$(date +%Y-%m-%d).log"
@@ -24,6 +27,81 @@ mkdir -p "$LOG_DIR" "$TMP_DIR"
 exec >> "$LOG_FILE" 2>&1
 
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1"; }
+
+# ============================================================
+# SELF-HEAL: Pre-flight diagnostics (2026-06-19)
+# Detect broken env BEFORE the AI calls waste quota.
+# ============================================================
+log "🔍 Pre-flight diagnostics..."
+PREFLIGHT_OK=true
+if [ ! -f "$AI_ROUTER" ]; then
+    log "❌ ai-router.js missing: $AI_ROUTER"
+    PREFLIGHT_OK=false
+fi
+if ! command -v python3 >/dev/null 2>&1; then
+    log "❌ python3 not in PATH"
+    PREFLIGHT_OK=false
+fi
+if ! command -v node >/dev/null 2>&1; then
+    log "❌ node not in PATH"
+    PREFLIGHT_OK=false
+fi
+if [ ! -d "$PROJECT_DIR/content/articles" ]; then
+    log "❌ articles dir missing: $PROJECT_DIR/content/articles"
+    PREFLIGHT_OK=false
+fi
+# Self-heal: verify extract_json.py exists
+EXTRACT_JSON="$SCRIPT_DIR/extract_json.py"
+if [ ! -f "$EXTRACT_JSON" ]; then
+    log "⚠️ extract_json.py missing, creating minimal version (self-heal #2)..."
+    cat > "$EXTRACT_JSON" <<'PYEOF'
+#!/usr/bin/env python3
+"""Extract first valid JSON object/array from stdin. Self-heal fallback."""
+import sys, re, json
+text = sys.stdin.read()
+# Strip markdown code fences if any
+text = re.sub(r'^```(?:json)?\s*', '', text, flags=re.M)
+text = re.sub(r'```\s*$', '', text, flags=re.M)
+# Try full text first
+try:
+    json.loads(text)
+    print(text)
+    sys.exit(0)
+except: pass
+# Find first balanced {...} or [...]
+for opener, closer in [('{', '}'), ('[', ']')]:
+    start = text.find(opener)
+    if start == -1: continue
+    depth = 0
+    in_str = False
+    esc = False
+    for i in range(start, len(text)):
+        c = text[i]
+        if esc: esc = False; continue
+        if c == '\\': esc = True; continue
+        if c == '"': in_str = not in_str; continue
+        if in_str: continue
+        if c == opener: depth += 1
+        elif c == closer:
+            depth -= 1
+            if depth == 0:
+                cand = text[start:i+1]
+                try:
+                    json.loads(cand)
+                    print(cand)
+                    sys.exit(0)
+                except: pass
+sys.exit(1)
+PYEOF
+    chmod +x "$EXTRACT_JSON"
+    log "✅ extract_json.py auto-created"
+fi
+
+if [ "$PREFLIGHT_OK" = false ]; then
+    log "❌ Pre-flight failed. Aborting before any AI call."
+    exit 2
+fi
+log "✅ Pre-flight OK"
 
 # ============================================================
 # STEP 1: Grok 选题 (with fallback)
@@ -72,27 +150,53 @@ fi
 log "📝 Selected topic: $TOPIC"
 log "📝 Slug: $SLUG"
 
-# 用 Grok 验证/优化选题 (带 fallback)
+# 用 豆包 验证/优化选题 (带 fallback) — 2026-06-19 修复: 用 JSON 输出 避免 grep 字面 placeholder 问题
 log "🤖 Calling 豆包 to validate topic trends..."
-GROK_PROMPT="Is this a high-search-volume B2B trade topic in 2026: '$TOPIC'? Reply with: PRIMARY_KEYWORD: <keyword> + 1-line rationale. Keep it under 50 words."
+GROK_PROMPT="For B2B trade topic: '$TOPIC', output a JSON object on a single line: {\"primary_keyword\": \"<3-5 word SEO keyword>\", \"rationale\": \"<20 words max>\"}. JSON only, no markdown."
 
 cd "$(dirname "$AI_ROUTER")" 2>/dev/null
-GROK_OUT=$(timeout 60 node ai-router.js doubao "$GROK_PROMPT" 2>&1 | grep -iE "(PRIMARY_KEYWORD|primary|keyword)" | head -1)
+# 2026-06-20 v4 FIX: 豆包 fail-fast 20s → 180s. 1622 char 长 prompt 答需 60-120s, 20s 必超时失败
+GROK_OUT=$(timeout 180 node ai-router.js doubao "$GROK_PROMPT" 2>&1) || GROK_OUT=""
 GROK_EXIT=$?
 
-if [ $GROK_EXIT -ne 0 ] || [ -z "$GROK_OUT" ]; then
+extract_kw_from_json() {
+    # 2026-06-19 self-heal: 多种解析策略
+    local raw="$1"
+    # Strategy 1: try full json.loads
+    echo "$raw" | python3 -c "
+import sys, json, re
+text = sys.stdin.read()
+# Strip code fences
+text = re.sub(r'\`\`\`(?:json)?', '', text)
+# Find JSON object
+m = re.search(r'\{[^{}]*\"primary_keyword\"[^{}]*\}', text, re.DOTALL)
+if m:
+    try:
+        d = json.loads(m.group(0))
+        print(d.get('primary_keyword', ''))
+        sys.exit(0)
+    except: pass
+# Strategy 2: regex grab primary_keyword value
+m = re.search(r'primary_keyword[\":\s]+([^\"\\]+)', text)
+if m:
+    print(m.group(1).strip())
+" 2>/dev/null
+}
+
+if [ $GROK_EXIT -eq 0 ] && [ -n "$GROK_OUT" ]; then
+    PRIMARY_KEYWORD=$(extract_kw_from_json "$GROK_OUT" | head -c 100)
+fi
+
+if [ -z "$PRIMARY_KEYWORD" ]; then
     log "⚠️ 豆包 failed/timeout, using fallback (DeepSeek)"
-    DS_OUT=$(timeout 60 node ai-router.js deepseek "$GROK_PROMPT" 2>&1 | grep -iE "(PRIMARY_KEYWORD|primary|keyword)" | head -1)
-    if [ -n "$DS_OUT" ]; then
-        PRIMARY_KEYWORD=$(echo "$DS_OUT" | grep -oE 'PRIMARY_KEYWORD:?\s*[^[:space:]].*' | sed 's/PRIMARY_KEYWORD:?\s*//' | head -c 100)
-    fi
-else
-    PRIMARY_KEYWORD=$(echo "$GROK_OUT" | grep -oE 'PRIMARY_KEYWORD:?\s*[^[:space:]].*' | sed 's/PRIMARY_KEYWORD:?\s*//' | head -c 100)
+    DS_OUT=$(timeout 180 node ai-router.js deepseek "$GROK_PROMPT" 2>&1) || DS_OUT=""
+    PRIMARY_KEYWORD=$(extract_kw_from_json "$DS_OUT" | head -c 100)
 fi
 
 # Fallback: 用 topic 第一个词组作为 keyword
 if [ -z "$PRIMARY_KEYWORD" ]; then
-    PRIMARY_KEYWORD=$(echo "$TOPIC" | awk '{print $1, $2}' | head -c 60)
+    log "⚠️ Both 豆包 and DeepSeek failed, using topic head as keyword"
+    PRIMARY_KEYWORD=$(echo "$TOPIC" | awk '{print $1, $2, $3}' | head -c 60)
 fi
 
 log "✅ Primary keyword: $PRIMARY_KEYWORD"
@@ -104,50 +208,191 @@ log "=========================================="
 log "📋 STEP 2/5: Outline Generation (豆包 → DeepSeek → Gemini)"
 log "=========================================="
 
-OUTLINE_PROMPT="You are a B2B SEO content strategist for tradego-fasteners.com (China manufacturer exporting fasteners to Africa).
+# 2026-06-18: 用 client 直接调 (避开 ai-router 包装的 extractLastReply 截断)
+DIRECT_AI_TOOL="$HOME/.agents/skills/ai-assistant-router/deepseek-client.js"
 
-Topic: $TOPIC
-Primary keyword: $PRIMARY_KEYWORD
+# 2026-06-19 FIX: use heredoc with quoted delimiter so $ vars expand but backslashes
+# are literal. This eliminates the line-110 "CRITICAL: command not found" bug where
+# the multi-line prompt was leaking into bash.
+OUTLINE_PROMPT=$(cat <<'OUTLINE_PROMPT_EOF'
+You are a senior SEO content strategist for tradego-fasteners.com (B2B fastener manufacturer exporting to Africa).
 
-Generate a complete SEO article outline in JSON format (no markdown wrapping):
+Topic: __TOPIC__
+Primary keyword: __PRIMARY_KEYWORD__
+Date: __TODAY__
+
+CRITICAL OUTPUT RULES (MUST FOLLOW):
+- Output MUST be valid JSON wrapped in { ... } on multiple lines
+- NO markdown code fences (no triple-backtick blocks anywhere)
+- NO thinking out loud. NO preamble like "好的" / "好的，用户" / "让我想想" / "我需要". Start DIRECTLY with {
+- NO comments, NO trailing commas
+- Use double quotes only (no single quotes)
+- All string values on a single line (no literal newlines in strings)
+- bodyOutline must be a single-line string with semicolons separating points
+- Output ONLY the JSON. No explanation, no markdown.
+
+Output JSON in this exact structure:
 {
-  \"title\": \"<max 60 chars, contains primary keyword>\",
-  \"metaDescription\": \"<140-155 chars, contains primary keyword + CTA>\",
-  \"keywords\": \"<comma-separated 8-12 LSI keywords>\",
-  \"sections\": [
-    {\"heading\": \"<H2, max 80 chars>\", \"bodyOutline\": \"<3-5 bullet points>\"},
-    ... (5-7 sections total)
+  "title": "<max 60 chars, contains primary keyword>",
+  "metaDescription": "<140-155 chars, contains primary keyword + CTA>",
+  "keywords": "<comma-separated 8-12 LSI keywords>",
+  "sections": [
+    {"heading": "<H2, max 80 chars>", "bodyOutline": "<single line: Point 1; Point 2; Point 3>", "targetWordCount": 350}
   ],
-  \"faqs\": [
-    {\"q\": \"<question>\", \"a\": \"<answer 30-50 words>\"},
-    ... (4 FAQs)
+  "faqs": [
+    {"q": "<question>", "a": "<answer 30-50 words, single line>", "targetWordCount": 45}
   ],
-  \"dataSources\": [
-    {\"name\": \"<source>\", \"url\": \"<url>\", \"accessDate\": \"$TODAY\"},
-    ... (3-5 data sources)
+  "dataSources": [
+    {"name": "<source>", "url": "<url>", "accessDate": "__TODAY__"}
   ]
 }
 
-JSON only. No explanations."
+Requirements:
+- sections: 6 items, each bodyOutline targets 300-400 words
+- faqs: 5 items
+- dataSources: minimum 6 (mix of government/port/standards/news URLs)
+- Primary keyword must appear in title, metaDescription, and at least 3 section headings
+
+First character of your reply MUST be {
+OUTLINE_PROMPT_EOF
+)
+
+# Substitute placeholders (heredoc with 'EOF' does not expand vars, so do it here)
+OUTLINE_PROMPT="${OUTLINE_PROMPT//__TOPIC__/$TOPIC}"
+OUTLINE_PROMPT="${OUTLINE_PROMPT//__PRIMARY_KEYWORD__/$PRIMARY_KEYWORD}"
+OUTLINE_PROMPT="${OUTLINE_PROMPT//__TODAY__/$TODAY}"
 
 log "🤖 Calling 豆包 for outline (unlimited)..."
-GEMINI_OUT=$(timeout 90 node ai-router.js doubao "$OUTLINE_PROMPT" 2>&1 | sed -n '/^{/,/^}$/p' | head -200)
+# 2026-06-19: write prompt to tmp file and use --prompt-file style via env to avoid
+# shell argv length limits and quote-escape hell
+OUTLINE_PROMPT_FILE="$TMP_DIR/${SLUG}_outline_prompt.txt"
+printf '%s' "$OUTLINE_PROMPT" > "$OUTLINE_PROMPT_FILE"
 
-# Fallback to DeepSeek (unlimited)
-if [ -z "$GEMINI_OUT" ] || ! echo "$GEMINI_OUT" | python3 -c "import json,sys; json.loads(sys.stdin.read())" 2>/dev/null; then
-    log "⚠️ 豆包 outline failed, trying DeepSeek fallback"
-    GEMINI_OUT=$(timeout 90 node ai-router.js deepseek "$OUTLINE_PROMPT" 2>&1 | sed -n '/^{/,/^}$/p' | head -200)
-fi
+# 2026-06-19: extract_json.py is robust; keep it as first pass. If it returns < 50
+# bytes or invalid JSON, fall back to python brace-finder (self-heal #1).
+run_outline_ai() {
+    local ai_name="$1"
+    local out
+    if [ "$ai_name" = "deepseek" ]; then
+        # 2026-06-19 v3: deepseek 轮询 16×15s=240s, plus 启动 30s, total ~280s, 加 timeout 300s 留 buffer
+        out=$(timeout 300 node "$DIRECT_AI_TOOL" "$(cat "$OUTLINE_PROMPT_FILE")" 2>&1)
+    elif [ "$ai_name" = "doubao" ]; then
+        # 2026-06-20 v4 FIX: 豆包 20s 太短, 1622 char outline prompt 答 6 sections+5 FAQs+6 sources 需 60-120s
+        out=$(timeout 180 node ai-router.js "$ai_name" "$(cat "$OUTLINE_PROMPT_FILE")" 2>&1) || out=""
+    elif [ "$ai_name" = "gemini" ]; then
+        # 2026-06-20 v4 FIX: Gemini 30s 同上太短, outline 也需 60-120s
+        out=$(timeout 180 node ai-router.js "$ai_name" "$(cat "$OUTLINE_PROMPT_FILE")" 2>&1) || out=""
+    else
+        out=$(timeout 180 node ai-router.js "$ai_name" "$(cat "$OUTLINE_PROMPT_FILE")" 2>&1)
+    fi
+    echo "$out"
+}
 
-# Last fallback: Gemini (limited, but better quality)
-if [ -z "$GEMINI_OUT" ] || ! echo "$GEMINI_OUT" | python3 -c "import json,sys; json.loads(sys.stdin.read())" 2>/dev/null; then
-    log "⚠️ DeepSeek outline failed, last resort: Gemini"
-    GEMINI_OUT=$(timeout 90 node ai-router.js gemini "$OUTLINE_PROMPT" 2>&1 | sed -n '/^{/,/^}$/p' | head -200)
+validate_json() {
+    # Self-heal: try extract_json.py first, then python brace-finder
+    local raw="$1"
+    local extracted
+    # 2026-06-19 v3.1 FIX: use SCRIPT_DIR (set at script top) instead of $(dirname "$0")
+    # Reason: when $0 is absolute path, dirname gives scripts/, then path = scripts/scripts/extract_json.py (DOES NOT EXIST)
+    extracted=$(echo "$raw" | python3 "$SCRIPT_DIR/extract_json.py" 2>/dev/null | head -200)
+    if [ -n "$extracted" ] && echo "$extracted" | python3 -c "import json,sys; json.loads(sys.stdin.read())" 2>/dev/null; then
+        echo "$extracted"
+        return 0
+    fi
+    # Self-heal #1: regex-based first JSON object extraction
+    extracted=$(echo "$raw" | python3 -c "
+import sys, re, json
+text = sys.stdin.read()
+# find first balanced { ... } block
+start = text.find('{')
+if start == -1: sys.exit(1)
+depth = 0
+in_str = False
+esc = False
+for i in range(start, len(text)):
+    c = text[i]
+    if esc: esc = False; continue
+    if c == '\\\\': esc = True; continue
+    if c == '\"': in_str = not in_str; continue
+    if in_str: continue
+    if c == '{': depth += 1
+    elif c == '}':
+        depth -= 1
+        if depth == 0:
+            candidate = text[start:i+1]
+            try:
+                json.loads(candidate)
+                print(candidate)
+                sys.exit(0)
+            except: pass
+sys.exit(1)
+" 2>/dev/null)
+    if [ -n "$extracted" ]; then
+        echo "$extracted"
+        return 0
+    fi
+    # Self-heal #2 (2026-06-19 v2): try to repair truncated JSON by closing open braces
+    # 2026-06-19 v3: REQUIRE 'sections' field (truncated 73 chars JSON 没 sections, 跳)
+    extracted=$(echo "$raw" | python3 -c "
+import sys, json, re
+text = sys.stdin.read()
+# strip code fences
+text = re.sub(r'\`\`\`(?:json)?', '', text)
+# find first { and try to close it
+start = text.find('{')
+if start == -1: sys.exit(1)
+# Try progressively shorter prefixes until we get valid JSON
+for end in range(len(text), start, -1):
+    # close any open braces
+    candidate = text[start:end].rstrip()
+    if not candidate.endswith('}'):
+        candidate += '}'
+    # count braces
+    opens = candidate.count('{')
+    closes = candidate.count('}')
+    if opens > closes:
+        candidate += '}' * (opens - closes)
+    try:
+        d = json.loads(candidate)
+        # 2026-06-19 v3: 只有 outline JSON (含 sections) 才返回
+        if not isinstance(d, dict) or 'sections' not in d:
+            continue
+        print(json.dumps(d, ensure_ascii=False))
+        sys.exit(0)
+    except: pass
+sys.exit(1)
+" 2>/dev/null)
+    if [ -n "$extracted" ]; then
+        echo "$extracted"
+        return 0
+    fi
+    return 1
+}
+
+GEMINI_OUT=""
+# 2026-06-19: fail-fast 90s for outline, 豆包/Gemini today unstable
+# Each AI gets one attempt; if all 3 fail, exit with clear log
+for AI_TRY in doubao deepseek gemini; do
+    log "🤖 Trying $AI_TRY for outline..."
+    RAW_OUT=$(run_outline_ai "$AI_TRY")
+    if EXTRACTED=$(validate_json "$RAW_OUT"); then
+        GEMINI_OUT="$EXTRACTED"
+        log "✅ $AI_TRY outline OK (${#GEMINI_OUT} chars)"
+        break
+    else
+        log "⚠️ $AI_TRY outline failed validation (raw ${#RAW_OUT} chars)"
+    fi
+done
+
+if [ -z "$GEMINI_OUT" ]; then
+    log "❌ All 3 outline AIs failed. Exiting."
+    log "💡 Self-heal: tomorrow's cron will retry. If豆包/Gemini still down, fix ai-router."
+    exit 1
 fi
 
 # 写到临时文件
 OUTLINE_FILE="$TMP_DIR/${SLUG}_outline.json"
-echo "$GEMINI_OUT" > "$OUTLINE_FILE"
+printf '%s' "$GEMINI_OUT" > "$OUTLINE_FILE"
 
 # 验证 JSON
 if ! python3 -c "import json; json.load(open('$OUTLINE_FILE'))" 2>/dev/null; then
@@ -158,13 +403,35 @@ fi
 log "✅ Outline saved: $OUTLINE_FILE"
 
 # ============================================================
+# STEP 2.5: 质量门 (2026-06-18 深度文升级)
+# ============================================================
+log "=========================================="
+log "🚧 STEP 2.5/5: Outline Quality Gate (深度文质量门)"
+log "=========================================="
+
+SECTIONS_COUNT=$(python3 -c "import json; d=json.load(open('$OUTLINE_FILE')); print(len(d.get('sections',[])))" 2>/dev/null || echo 0)
+FAQS_COUNT=$(python3 -c "import json; d=json.load(open('$OUTLINE_FILE')); print(len(d.get('faqs',[])))" 2>/dev/null || echo 0)
+SOURCES_COUNT=$(python3 -c "import json; d=json.load(open('$OUTLINE_FILE')); print(len(d.get('dataSources',[])))" 2>/dev/null || echo 0)
+
+log "📊 Outline quality: sections=$SECTIONS_COUNT, faqs=$FAQS_COUNT, dataSources=$SOURCES_COUNT"
+
+# 深度文质量门: sections>=6, faqs>=5, dataSources>=6
+if [ "$SECTIONS_COUNT" -lt 6 ] || [ "$FAQS_COUNT" -lt 5 ] || [ "$SOURCES_COUNT" -lt 6 ]; then
+    log "❌ Outline quality gate FAILED (需要 sections≥6, faqs≥5, sources≥6)"
+    log "💡 提示: 这是深度文要求, LLM 可能在 prompt 里偷工减料"
+    exit 1
+fi
+
+log "✅ Outline quality gate passed (深度文标准)"
+
+# ============================================================
 # STEP 3: 豆包 / DeepSeek / ChatGPT 写正文
 # ============================================================
 log "=========================================="
 log "✍️ STEP 3/5: Content Writing (DeepSeek → 豆包 → ChatGPT)"
 log "=========================================="
 
-WRITER_PROMPT="You are a B2B trade content writer for tradego-fasteners.com (China fastener manufacturer for Africa market).
+WRITER_PROMPT="You are a senior B2B trade content writer for tradego-fasteners.com (China fastener manufacturer exporting to Africa).
 
 Topic: $TOPIC
 Primary keyword: $PRIMARY_KEYWORD
@@ -172,37 +439,95 @@ Primary keyword: $PRIMARY_KEYWORD
 Outline (JSON):
 $(cat $OUTLINE_FILE)
 
-Write a complete 1500-2000 word English article following the outline. Output ONLY the article body in Markdown:
-- Use H2 (##) for each section heading
-- Each section: 250-400 words
-- Include the primary keyword in the first 100 words and 2-3 times naturally throughout
-- Reference data sources inline as [1], [2] etc.
-- End with FAQ section (4 Q&A)
-- Professional B2B tone, no fluff, fact-based
+Available Data Sources (cite inline as [1], [2], etc.):
+$(python3 -c "import json; d=json.load(open('$OUTLINE_FILE')); [print(f\"  [{i+1}] {s['name']} - {s['url']}\") for i,s in enumerate(d.get('dataSources',[]))]")
+
+Write a DEEP ARTICLE (2000-2500 words) following the outline. STRICT requirements:
+
+1. STRUCTURE:
+   - H2 (##) for each section heading from outline
+   - Each section: 300-400 words
+   - End with FAQ section (5 Q&A) using the outline FAQs
+
+2. DEPTH REQUIREMENTS (depth > length):
+   - Embed at least 6 real data points (numbers, ports, project names, dates) from dataSources
+   - Include at least 6 inline citations to the dataSources [1], [2], etc.
+   - Explain WHY each spec/standard matters (not just list standards)
+   - Include buyer-centric perspective (what does the procurement manager need to know?)
+   - Compare alternatives (e.g., why HDG over zinc-plating, why F1554 over F1554 alternatives)
+
+3. KEYWORD STRATEGY:
+   - Include the primary keyword in the first 100 words
+   - Use it 2-3 times naturally throughout
+
+4. TONE:
+   - Professional B2B, no fluff, fact-based
+   - Engineering precision (ASTM/ISO/EN grade references, port logistics, certification timelines)
+   - No generic advice that any AI could generate
+
+5. OUTPUT FORMAT:
+   - Markdown article body only (no preamble, no meta commentary)
+   - End with a \"## FAQ\" section
 
 Article:"
 
 WRITER_OUT=""
 WRITERS_TRIED=""
 
+# 深度文最小字符数: 2000 词 ≈ 12000 字符
+MIN_CHARS=8000
+
 for WRITER in deepseek doubao chatgpt; do
     log "🤖 Trying writer: $WRITER (unlimited quota)"
-    WRITER_OUT=$(timeout 120 node ai-router.js $WRITER "$WRITER_PROMPT" 2>&1)
-    
-    # 检查是否包含实质内容（> 500 字符）
-    if [ ${#WRITER_OUT} -gt 500 ] && echo "$WRITER_OUT" | grep -q "##"; then
-        log "✅ Writer $WRITER produced content (${#WRITER_OUT} chars)"
+    # 2026-06-19 v3.1 FIX: 写文需要 5-10min for 2000-2500 word article, 180s 不够
+    # 2026-06-19 v3.2 FIX: 直接调 deepseek-client 避免 ai-router 包装带来的 Promise hang
+    # 2026-06-19 v3.3 FIX: 用子 shell + & + sleep + kill 替代 timeout（更可靠地清理 node 进程）
+    if [ "$WRITER" = "deepseek" ]; then
+        # DeepSeek: 直接调 client, 16x15s=240s polling + 60s buffer
+        timeout --kill-after=10 360 node "$HOME/.agents/skills/ai-assistant-router/deepseek-client.js" "$WRITER_PROMPT" > /tmp/writer_deepseek.out 2>&1 &
+        WRITER_PID=$!
+        # 等待最长 360s
+        WAIT=0
+        while kill -0 $WRITER_PID 2>/dev/null && [ $WAIT -lt 360 ]; do
+            sleep 5
+            WAIT=$((WAIT + 5))
+        done
+        # 如果还在跑, 强 kill
+        if kill -0 $WRITER_PID 2>/dev/null; then
+            log "⚠️ DeepSeek writer hit 360s timeout, killing PID $WRITER_PID"
+            kill -9 $WRITER_PID 2>/dev/null
+            # 也杀子进程
+            pkill -9 -P $WRITER_PID 2>/dev/null
+        fi
+        WRITER_OUT=$(cat /tmp/writer_deepseek.out 2>/dev/null)
+    else
+        # 豆包 / ChatGPT 走 ai-router (没那么长)
+        WRITER_OUT=$(timeout --kill-after=10 360 node ai-router.js $WRITER "$WRITER_PROMPT" 2>&1)
+    fi
+
+    # 检查是否包含实质内容（> MIN_CHARS 字符 + 有 ## H2）
+    if [ ${#WRITER_OUT} -gt $MIN_CHARS ] && echo "$WRITER_OUT" | grep -q "##"; then
+        log "✅ Writer $WRITER produced content (${#WRITER_OUT} chars, depth article)"
         WRITERS_TRIED="$WRITERS_TRIED $WRITER"
         break
     else
-        log "⚠️ Writer $WRITER failed/too short, trying next"
-        WRITERS_TRIED="$WRITERS_TRIED $WRITER(fail)"
+        log "⚠️ Writer $WRITER insufficient (${#WRITER_OUT} chars, need >$MIN_CHARS), trying next"
+        WRITERS_TRIED="$WRITERS_TRIED $WRITER(${WRITER_OUT:-0}chars)"
     fi
 done
 
-if [ ${#WRITER_OUT} -lt 500 ]; then
-    log "❌ All writers failed"
+if [ ${#WRITER_OUT} -lt $MIN_CHARS ]; then
+    log "❌ All writers produced insufficient content (< $MIN_CHARS chars)"
+    log "💡 深度文要求 ≥2000 词, LLM 可能偷工减料"
     exit 1
+fi
+
+# 字数检查 (近似: 英文平均 5 字符/词)
+WORD_COUNT=$(echo "$WRITER_OUT" | wc -w | tr -d ' ')
+log "📝 Word count: $WORD_COUNT (target: 2000-2500)"
+
+if [ "$WORD_COUNT" -lt 1800 ]; then
+    log "⚠️ Word count below 1800, marking as below depth threshold"
 fi
 
 ARTICLE_MD_FILE="$TMP_DIR/${SLUG}_article.md"
@@ -216,13 +541,20 @@ log "=========================================="
 log "🔍 STEP 4/5: SEO Audit (Gemini + ChatGPT)"
 log "=========================================="
 
-AUDIT_PROMPT="You are an SEO auditor. Audit this article for tradego-fasteners.com (B2B fastener manufacturer targeting Africa).
+# 2026-06-18 v8 修复: 不内嵌整篇 article (20000+ 字符会 踩 AI 客户端 字符限制
+# 改用 outline metadata + article 前 2000 字符)
+ARTICLE_PREVIEW=$(head -c 2000 "$ARTICLE_MD_FILE" 2>/dev/null || echo "(article not readable)")
+
+AUDIT_PROMPT="You are an SEO auditor for tradego-fasteners.com (B2B fastener manufacturer targeting Africa).
 
 Topic: $TOPIC
 Primary keyword: $PRIMARY_KEYWORD
 
-Article (markdown):
-$(cat $ARTICLE_MD_FILE)
+Article metadata (outline + data sources):
+$(cat $OUTLINE_FILE)
+
+Article preview (first 2000 chars):
+$ARTICLE_PREVIEW
 
 Score 0-100 on these dimensions (be strict, B2B standard):
 1. Title quality (60 chars max, keyword in title): /15
@@ -428,11 +760,23 @@ DEPLOY_URL=$(echo "$DEPLOY_OUT" | grep -oE 'https://tradego-fasteners-[a-z0-9]+-
 if [ -n "$DEPLOY_URL" ]; then
     log "🔗 Aliasing $DEPLOY_URL to www..."
     npx vercel alias set "$DEPLOY_URL" www.tradego-fasteners.com 2>&1 | tail -2
-    
-    # 验证
+
+    # 2026-06-19: 验证 with self-heal — 如果 HTTP 不是 200/308, 等 30s 重试 1 次
     sleep 30
     HTTP_CODE=$(curl -sL --max-time 15 -o /dev/null -w "%{http_code}" "https://www.tradego-fasteners.com/en/industry/${SLUG}")
-    log "✅ Verification: HTTP $HTTP_CODE for /en/industry/${SLUG}"
+    log "✅ Verification (try 1): HTTP $HTTP_CODE for /en/industry/${SLUG}"
+
+    if [ "$HTTP_CODE" != "200" ] && [ "$HTTP_CODE" != "308" ]; then
+        log "⚠️ HTTP $HTTP_CODE != 200, retry in 60s (Vercel CDN propagation)..."
+        sleep 60
+        HTTP_CODE=$(curl -sL --max-time 15 -o /dev/null -w "%{http_code}" "https://www.tradego-fasteners.com/en/industry/${SLUG}")
+        log "✅ Verification (try 2): HTTP $HTTP_CODE"
+
+        if [ "$HTTP_CODE" != "200" ] && [ "$HTTP_CODE" != "308" ]; then
+            log "❌ Verification failed after 2 tries. Page may not be served."
+            log "💡 Self-heal: 12-language JSON will be auto-generated on next cron run."
+        fi
+    fi
 fi
 
 # 更新 state
