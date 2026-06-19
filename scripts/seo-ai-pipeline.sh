@@ -156,7 +156,8 @@ GROK_PROMPT="For B2B trade topic: '$TOPIC', output a JSON object on a single lin
 
 cd "$(dirname "$AI_ROUTER")" 2>/dev/null
 # 2026-06-20 v4 FIX: 豆包 fail-fast 20s → 180s. 1622 char 长 prompt 答需 60-120s, 20s 必超时失败
-GROK_OUT=$(timeout 180 node ai-router.js doubao "$GROK_PROMPT" 2>&1) || GROK_OUT=""
+# 2026-06-20 v5 FIX: 改用 MiniMax direct API (M2.7-highspeed). 实证 7s vs CDP 豆包 60-180s, 更可靠
+GROK_OUT=$(timeout 60 "$SCRIPT_DIR/minimax-quick.sh" "$GROK_PROMPT" "MiniMax-M2.7-highspeed" 1500 2>&1) || GROK_OUT=""
 GROK_EXIT=$?
 
 extract_kw_from_json() {
@@ -189,7 +190,7 @@ fi
 
 if [ -z "$PRIMARY_KEYWORD" ]; then
     log "⚠️ 豆包 failed/timeout, using fallback (DeepSeek)"
-    DS_OUT=$(timeout 180 node ai-router.js deepseek "$GROK_PROMPT" 2>&1) || DS_OUT=""
+    DS_OUT=$(timeout 60 "$SCRIPT_DIR/minimax-quick.sh" "$GROK_PROMPT" "MiniMax-M2.7-highspeed" 1500 2>&1) || DS_OUT=""
     PRIMARY_KEYWORD=$(extract_kw_from_json "$DS_OUT" | head -c 100)
 fi
 
@@ -274,16 +275,16 @@ run_outline_ai() {
     local ai_name="$1"
     local out
     if [ "$ai_name" = "deepseek" ]; then
-        # 2026-06-19 v3: deepseek 轮询 16×15s=240s, plus 启动 30s, total ~280s, 加 timeout 300s 留 buffer
-        out=$(timeout 300 node "$DIRECT_AI_TOOL" "$(cat "$OUTLINE_PROMPT_FILE")" 2>&1)
+        # 2026-06-20 v5 FIX: 改用 MiniMax direct API (实测 31s vs CDP 60-180s, 不用 Sleep 轮询)
+        out=$(timeout 200 "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 4000 2>&1)
     elif [ "$ai_name" = "doubao" ]; then
-        # 2026-06-20 v4 FIX: 豆包 20s 太短, 1622 char outline prompt 答 6 sections+5 FAQs+6 sources 需 60-120s
-        out=$(timeout 180 node ai-router.js "$ai_name" "$(cat "$OUTLINE_PROMPT_FILE")" 2>&1) || out=""
+        # 2026-06-20 v5 FIX: 改用 MiniMax direct API, M2.7-highspeed 快速稳定
+        out=$(timeout 120 "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 4000 2>&1) || out=""
     elif [ "$ai_name" = "gemini" ]; then
-        # 2026-06-20 v4 FIX: Gemini 30s 同上太短, outline 也需 60-120s
-        out=$(timeout 180 node ai-router.js "$ai_name" "$(cat "$OUTLINE_PROMPT_FILE")" 2>&1) || out=""
+        # 2026-06-20 v5 FIX: 改用 MiniMax direct API, outline 也只需 30-60s
+        out=$(timeout 120 "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 4000 2>&1) || out=""
     else
-        out=$(timeout 180 node ai-router.js "$ai_name" "$(cat "$OUTLINE_PROMPT_FILE")" 2>&1)
+        out=$(timeout 120 "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 4000 2>&1)
     fi
     echo "$out"
 }
@@ -482,27 +483,13 @@ for WRITER in deepseek doubao chatgpt; do
     # 2026-06-19 v3.1 FIX: 写文需要 5-10min for 2000-2500 word article, 180s 不够
     # 2026-06-19 v3.2 FIX: 直接调 deepseek-client 避免 ai-router 包装带来的 Promise hang
     # 2026-06-19 v3.3 FIX: 用子 shell + & + sleep + kill 替代 timeout（更可靠地清理 node 进程）
+    # 2026-06-20 v5 FIX: 改用 MiniMax direct API for STEP 3 too. 2000-2500 词需 max_tokens=8000+, timeout 360s
     if [ "$WRITER" = "deepseek" ]; then
-        # DeepSeek: 直接调 client, 16x15s=240s polling + 60s buffer
-        timeout --kill-after=10 360 node "$HOME/.agents/skills/ai-assistant-router/deepseek-client.js" "$WRITER_PROMPT" > /tmp/writer_deepseek.out 2>&1 &
-        WRITER_PID=$!
-        # 等待最长 360s
-        WAIT=0
-        while kill -0 $WRITER_PID 2>/dev/null && [ $WAIT -lt 360 ]; do
-            sleep 5
-            WAIT=$((WAIT + 5))
-        done
-        # 如果还在跑, 强 kill
-        if kill -0 $WRITER_PID 2>/dev/null; then
-            log "⚠️ DeepSeek writer hit 360s timeout, killing PID $WRITER_PID"
-            kill -9 $WRITER_PID 2>/dev/null
-            # 也杀子进程
-            pkill -9 -P $WRITER_PID 2>/dev/null
-        fi
-        WRITER_OUT=$(cat /tmp/writer_deepseek.out 2>/dev/null)
+        # DeepSeek: MiniMax direct API 写文 (max_tokens 8000 for 2000-2500 word)
+        WRITER_OUT=$(timeout 300 "$SCRIPT_DIR/minimax-quick.sh" "$WRITER_PROMPT" "MiniMax-M2.7-highspeed" 8000 2>&1)
     else
-        # 豆包 / ChatGPT 走 ai-router (没那么长)
-        WRITER_OUT=$(timeout --kill-after=10 360 node ai-router.js $WRITER "$WRITER_PROMPT" 2>&1)
+        # 豆包 / ChatGPT 走 MiniMax direct API (model=highspeed, max_tokens 8000)
+        WRITER_OUT=$(timeout 300 "$SCRIPT_DIR/minimax-quick.sh" "$WRITER_PROMPT" "MiniMax-M2.7-highspeed" 8000 2>&1)
     fi
 
     # 检查是否包含实质内容（> MIN_CHARS 字符 + 有 ## H2）
