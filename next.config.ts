@@ -14,6 +14,12 @@ const nextConfig: NextConfig = {
         destination: '/en',
         permanent: true, // 308
       },
+      // 2026-06-19: 修复文件名 bug - 旧 slug 含空格, 用 %20 URL 访问需重定向到正确 slug
+      {
+        source: '/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)/industry/south africa-fasteners-china-import-guide',
+        destination: '/:locale/industry/south-africa-fasteners-china-import-guide',
+        permanent: true,
+      },
     ];
   },
   images: {
