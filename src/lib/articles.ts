@@ -57,7 +57,15 @@ export function getAllSlugs(): string[] {
   if (!fs.existsSync(articlesDir)) return []
   return fs.readdirSync(articlesDir)
     .filter(f => f.endsWith('.json'))
-    .map(f => decodeURIComponent(f.replace('.json', '')))
+    .map(f => {
+      try {
+        const article = JSON.parse(fs.readFileSync(path.join(articlesDir, f), 'utf-8')) as Article
+        return article.slug
+      } catch {
+        return null
+      }
+    })
+    .filter((s): s is string => s !== null)
 }
 
 export function getSlugDateMap(): Record<string, string> {
