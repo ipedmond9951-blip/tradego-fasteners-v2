@@ -29,7 +29,7 @@ exec >> "$LOG_FILE" 2>&1
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1"; }
 
 # ============================================================
-# SELF-HEAL: Pre-flight diagnostics (2026-06-19)
+# SELF-HEAL: Pre-flight diagnostics (2026-06-19, upgraded 2026-06-20 with AI health check)
 # Detect broken env BEFORE the AI calls waste quota.
 # ============================================================
 log "🔍 Pre-flight diagnostics..."
@@ -48,6 +48,14 @@ if ! command -v node >/dev/null 2>&1; then
 fi
 if [ ! -d "$PROJECT_DIR/content/articles" ]; then
     log "❌ articles dir missing: $PROJECT_DIR/content/articles"
+    PREFLIGHT_OK=false
+fi
+
+# 2026-06-20 NEW: AI health check (skip Pipeline if all AI broken)
+log "  🤖 AI health check..."
+if ! bash "$SCRIPT_DIR/seo-pipeline-preflight.sh" > /tmp/preflight-$$.log 2>&1; then
+    log "❌ Pre-flight AI check failed - see /tmp/preflight-$$.log"
+    cat /tmp/preflight-$$.log | tee -a "$LOG_FILE"
     PREFLIGHT_OK=false
 fi
 # Self-heal: verify extract_json.py exists
@@ -562,8 +570,9 @@ ISSUES: <bullet list of specific fixes>
 SUGGESTIONS: <concrete improvements>"
 
 log "🤖 Calling Gemini + ChatGPT for audit..."
-GEMINI_AUDIT=$(timeout 60 node ai-router.js gemini "$AUDIT_PROMPT" 2>&1)
-CHATGPT_AUDIT=$(timeout 60 node ai-router.js chatgpt "$AUDIT_PROMPT" 2>&1)
+# 2026-06-20 fix: 60s 不够, ChatGPT 思考 + 长 prompt 需 120-180s
+GEMINI_AUDIT=$(timeout 180 node ai-router.js gemini "$AUDIT_PROMPT" 2>&1)
+CHATGPT_AUDIT=$(timeout 180 node ai-router.js chatgpt "$AUDIT_PROMPT" 2>&1)
 
 # 提取 Gemini 分数
 GEMINI_SCORE=$(echo "$GEMINI_AUDIT" | grep -oE "SCORE:?\s*[0-9]+" | grep -oE "[0-9]+" | head -1)
