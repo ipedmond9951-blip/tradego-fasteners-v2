@@ -13,7 +13,7 @@ if [ -z "$PROMPT" ]; then
 fi
 
 # Write prompt to file to avoid shell escape hell, then python reads from file
-PROMPT_FILE=$(mktemp /tmp/minimax-prompt.XXXXXX.txt)
+PROMPT_FILE=$(mktemp -t minimax-prompt.XXXXXX)
 printf '%s' "$PROMPT" > "$PROMPT_FILE"
 trap "rm -f $PROMPT_FILE" EXIT
 
@@ -56,6 +56,9 @@ try:
             for c in d['content']:
                 if c.get('type') == 'text':
                     print(c['text'])
+                elif c.get('type') == 'thinking' and len(d['content']) == 1:
+                    # 2026-06-20 fix: thinking-only response, still print thinking
+                    print(c.get('thinking', ''))
         else:
             print(json.dumps(d)[:500], file=sys.stderr)
             sys.exit(1)
