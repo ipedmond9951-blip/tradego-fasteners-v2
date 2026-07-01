@@ -283,16 +283,15 @@ run_outline_ai() {
     local ai_name="$1"
     local out
     if [ "$ai_name" = "deepseek" ]; then
-        # 2026-06-20 v5 FIX: 改用 MiniMax direct API (实测 31s vs CDP 60-180s, 不用 Sleep 轮询)
-        out=$(timeout 200 "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 4000 2>&1)
+        # 2026-07-02 v5.1 FIX: max_tokens 4000 → 6000 (避免 JSON 截断), timeout 200s 保留
+        out=$(timeout 200 "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 6000 2>&1)
     elif [ "$ai_name" = "doubao" ]; then
-        # 2026-06-20 v5 FIX: 改用 MiniMax direct API, M2.7-highspeed 快速稳定
-        out=$(timeout 120 "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 4000 2>&1) || out=""
+        # 2026-07-02 v5.1 FIX: timeout 120s → 90s (M2.7-highspeed outline 实测 30-60s, 超时=挂)
+        out=$(timeout 90 "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 6000 2>&1) || out=""
     elif [ "$ai_name" = "gemini" ]; then
-        # 2026-06-20 v5 FIX: 改用 MiniMax direct API, outline 也只需 30-60s
-        out=$(timeout 120 "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 4000 2>&1) || out=""
+        out=$(timeout 90 "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 6000 2>&1) || out=""
     else
-        out=$(timeout 120 "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 4000 2>&1)
+        out=$(timeout 90 "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 6000 2>&1)
     fi
     echo "$out"
 }
@@ -486,18 +485,17 @@ WRITERS_TRIED=""
 # 深度文最小字符数: 2000 词 ≈ 12000 字符
 MIN_CHARS=8000
 
-for WRITER in deepseek doubao chatgpt; do
+for WRITER in doubao chatgpt; do
     log "🤖 Trying writer: $WRITER (unlimited quota)"
     # 2026-06-19 v3.1 FIX: 写文需要 5-10min for 2000-2500 word article, 180s 不够
     # 2026-06-19 v3.2 FIX: 直接调 deepseek-client 避免 ai-router 包装带来的 Promise hang
     # 2026-06-19 v3.3 FIX: 用子 shell + & + sleep + kill 替代 timeout（更可靠地清理 node 进程）
     # 2026-06-20 v5 FIX: 改用 MiniMax direct API for STEP 3 too. 2000-2500 词需 max_tokens=8000+, timeout 360s
     if [ "$WRITER" = "deepseek" ]; then
-        # DeepSeek: MiniMax direct API 写文 (max_tokens 8000 for 2000-2500 word)
-        WRITER_OUT=$(timeout 300 "$SCRIPT_DIR/minimax-quick.sh" "$WRITER_PROMPT" "MiniMax-M2.7-highspeed" 8000 2>&1)
+        # 2026-07-02 v5.1 FIX: max_tokens 8000 → 12000 (实测 8000 截断到 1800 词, 12000 够 2200 词)
+        WRITER_OUT=$(timeout 360 "$SCRIPT_DIR/minimax-quick.sh" "$WRITER_PROMPT" "MiniMax-M2.7-highspeed" 12000 2>&1)
     else
-        # 豆包 / ChatGPT 走 MiniMax direct API (model=highspeed, max_tokens 8000)
-        WRITER_OUT=$(timeout 300 "$SCRIPT_DIR/minimax-quick.sh" "$WRITER_PROMPT" "MiniMax-M2.7-highspeed" 8000 2>&1)
+        WRITER_OUT=$(timeout 360 "$SCRIPT_DIR/minimax-quick.sh" "$WRITER_PROMPT" "MiniMax-M2.7-highspeed" 12000 2>&1)
     fi
 
     # 检查是否包含实质内容（> MIN_CHARS 字符 + 有 ## H2）
