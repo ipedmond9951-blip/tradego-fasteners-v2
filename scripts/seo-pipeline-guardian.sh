@@ -10,8 +10,18 @@
 # 创建: 2026-06-20 09:05 GMT+8
 # 触发: cron 04:00 (cron 03:30 跑完 30min 后)
 # 教训: 总裁批评 "到现在为止还没有建立起自修复机制"
+#
+# 2026-07-03 FIX: cron 裸 bash 无 env, source gateway env 让 minimax-quick 拿到 key
+# 否则 stderr: "line 87: timeout: " 是 python 报 "MINIMAX_API_KEY not set"
 
 set -e
+
+# 加载 MiniMax API key (cron 环境下没有)
+if [ -f "$HOME/.openclaw/service-env/ai.openclaw.gateway.env" ]; then
+  set -a
+  source "$HOME/.openclaw/service-env/ai.openclaw.gateway.env"
+  set +a
+fi
 
 PROJECT_DIR="/Users/zhangming/workspace/tradego-fasteners-v2"
 LOG_DIR="$PROJECT_DIR/logs/seo-ai-pipeline"
@@ -84,11 +94,15 @@ fi
 
 # 2.2 检查 AI 客户端
 log "🔍 AI 客户端健康检查"
-MINIMAX_STATUS=$(timeout 10 bash "$PROJECT_DIR/scripts/minimax-quick.sh" "Reply OK" "MiniMax-M2.7-highspeed" 50 2>&1 | head -c 100 || echo "FAIL")
-if echo "$MINIMAX_STATUS" | grep -qi "ok\|yes\|MiniMax\|M2"; then
-    log "  ✅ MiniMax API 工作正常"
+# 2026-07-03 FIX: 把 stderr 分开, 避免错误文本渗透. 严格判定: 非空且不含错误关键词
+MINIMAX_OUT=$(timeout 10 bash "$PROJECT_DIR/scripts/minimax-quick.sh" "Reply OK" "MiniMax-M2.7-highspeed" 50 2>/tmp/minimax.err)
+MINIMAX_ERR=$(cat /tmp/minimax.err 2>/dev/null | head -c 200)
+MINIMAX_STATUS=$(echo "$MINIMAX_OUT" | head -c 100)
+if [ -z "$MINIMAX_OUT" ] || echo "$MINIMAX_OUT$MINIMAX_ERR" | grep -qi "MINIMAX_API_KEY not set\|Traceback\|Error"; then
+    log "  ❌ MiniMax API 异常: $MINIMAX_ERR"
+    log "  (可能原因: cron 裸环境未 source env, 或 key 过期)"
 else
-    log "  ❌ MiniMax API 异常: $MINIMAX_STATUS"
+    log "  ✅ MiniMax API 工作正常"
 fi
 
 # ========== 阶段 3: 自动重跑 Pipeline ==========

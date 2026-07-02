@@ -8,8 +8,16 @@
 #
 # 创建: 2026-06-20 09:08 (总裁批评: 没自修复机制)
 # Cron: */30 * * * *
+# 2026-07-03 FIX: cron 裸 bash 无 env, source gateway env 拿 MINIMAX_API_KEY
 
 set -e
+
+# 加载 MiniMax API key (cron 环境下没有)
+if [ -f "$HOME/.openclaw/service-env/ai.openclaw.gateway.env" ]; then
+  set -a
+  source "$HOME/.openclaw/service-env/ai.openclaw.gateway.env"
+  set +a
+fi
 
 PROJECT_DIR="/Users/zhangming/workspace/tradego-fasteners-v2"
 LOG_DIR="$PROJECT_DIR/logs/seo-ai-pipeline"

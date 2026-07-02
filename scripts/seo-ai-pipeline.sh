@@ -745,8 +745,9 @@ PYEOF
 if [ "$SCORE" -lt 85 ]; then
     log "⚠️ Score $SCORE < 85, but >= 70. Self-repair cycle..."
     # 触发修复（这里调用现有的 seo-auto-repair.py 或 validate-article.py）
+    # 2026-07-03 FIX: seo-auto-repair.py 只接受 --fix/--check, 不接受 slug 参数
     if [ -f "$PROJECT_DIR/scripts/seo-auto-repair.py" ]; then
-        cd "$PROJECT_DIR" && timeout 60 python3 scripts/seo-auto-repair.py "$SLUG" 2>&1 | tail -5
+        cd "$PROJECT_DIR" && timeout 60 python3 scripts/seo-auto-repair.py --fix 2>&1 | tail -5 || log "⚠️ auto-repair skipped"
     fi
 fi
 
@@ -775,7 +776,22 @@ DEPLOY_URL=$(echo "$DEPLOY_OUT" | grep -oE 'https://tradego-fasteners-[a-z0-9]+-
 
 if [ -n "$DEPLOY_URL" ]; then
     log "🔗 Aliasing $DEPLOY_URL to www..."
-    npx vercel alias set "$DEPLOY_URL" www.tradego-fasteners.com 2>&1 | tail -2
+    # 2026-07-03 FIX: vercel alias set 在 build 未 Ready 时报 "is not ready"
+    # Vercel 已绑定 auto-promote (git push to main) → 部署默认就 production
+    # 这里加 retry 3 次等 build 真正 ready, 或先 sleep 90s 让 build 完成
+    ALIAS_OK=0
+    for i in 1 2 3; do
+      sleep 30
+      if npx vercel alias set "$DEPLOY_URL" www.tradego-fasteners.com 2>&1 | tail -3 | grep -q "Success\|success"; then
+        ALIAS_OK=1
+        break
+      else
+        log "⚠️ Alias try $i failed, waiting 30s for build..."
+      fi
+    done
+    if [ $ALIAS_OK -eq 0 ]; then
+      log "⚠️ Alias retry failed, but Vercel auto-promote 已绑定 (git push main → prod)"
+    fi
 
     # 2026-06-19: 验证 with self-heal — 如果 HTTP 不是 200/308, 等 30s 重试 1 次
     sleep 30
