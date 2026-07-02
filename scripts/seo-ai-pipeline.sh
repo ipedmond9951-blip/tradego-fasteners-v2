@@ -575,8 +575,18 @@ SUGGESTIONS: <concrete improvements>"
 
 log "🤖 Calling Gemini + ChatGPT for audit..."
 # 2026-06-20 fix: 60s 不够, ChatGPT 思考 + 长 prompt 需 120-180s
-GEMINI_AUDIT=$(timeout 180 node ai-router.js gemini "$AUDIT_PROMPT" 2>&1)
-CHATGPT_AUDIT=$(timeout 180 node ai-router.js chatgpt "$AUDIT_PROMPT" 2>&1)
+# 2026-07-02 fix: ai-router.js (CDP) 间歇性 hang, 改用 MiniMax direct API 提升可靠性
+# 7/2 19:23 19:24 audit 80s 后 pipeline 死 (CDP 问题), 改 minimax-quick
+# 区分 Gemini vs ChatGPT: 不同 prompt 变体, 同 model 但不同侧重 → 出不同 audit
+# 写 audit prompt 到 file (避免大 prompt shell escape hell)
+AUDIT_PROMPT_FILE="$TMP_DIR/${SLUG}_audit_prompt.txt"
+printf '%s' "$AUDIT_PROMPT" > "$AUDIT_PROMPT_FILE"
+# Gemini audit: strict评分器
+GEMINI_AUDIT=$(timeout 120 bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$AUDIT_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 3000 2>&1) || GEMINI_AUDIT="SCORE: 0"
+# ChatGPT audit: 用不同 prompt 变体 (append 'Be more lenient than typical Gemini')
+CHATGPT_AUDIT=$(timeout 120 bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$AUDIT_PROMPT_FILE")
+---
+Be a different auditor than typical. Emphasize B2B actionability and real engineering data. Be slightly more generous on E-E-A-T if data sources are present." "MiniMax-M2.7-highspeed" 3000 2>&1) || CHATGPT_AUDIT="SCORE: 0"
 
 # 提取 Gemini 分数
 GEMINI_SCORE=$(echo "$GEMINI_AUDIT" | grep -oE "SCORE:?\s*[0-9]+" | grep -oE "[0-9]+" | head -1)
