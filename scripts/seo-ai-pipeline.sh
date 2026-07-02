@@ -811,7 +811,7 @@ if [ -n "$DEPLOY_URL" ]; then
     fi
 fi
 
-# 更新 state
+# 更新 state (放到 if 外面, 即使 alias 失败也记录成功部署)
 python3 << PYEOF
 import json
 import os
