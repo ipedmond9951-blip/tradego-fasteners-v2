@@ -13,6 +13,7 @@
 #
 # 2026-07-03 FIX: cron 裸 bash 无 env, source gateway env 让 minimax-quick 拿到 key
 # 否则 stderr: "line 87: timeout: " 是 python 报 "MINIMAX_API_KEY not set"
+# 2026-07-03 v5.3 FIX: 入口加 flock -n 非阻塞锁, Pipeline 已跑则退出避免抢占
 
 set -e
 
@@ -21,6 +22,26 @@ if [ -f "$HOME/.openclaw/service-env/ai.openclaw.gateway.env" ]; then
   set -a
   source "$HOME/.openclaw/service-env/ai.openclaw.gateway.env"
   set +a
+fi
+
+# 2026-07-03 v5.3 FIX: Guardian 用 mkdir atomic 检查 Pipeline 锁
+LOCK_DIR="/tmp/seo-pipeline.lock"
+LOCK_FILE="$LOCK_DIR/pid"
+
+if [ -d "$LOCK_DIR" ]; then
+  if [ -f "$LOCK_FILE" ]; then
+    HOLDER_PID=$(cat "$LOCK_FILE")
+    if kill -0 "$HOLDER_PID" 2>/dev/null; then
+      log "⚠️ Pipeline 正在跑 (PID $HOLDER_PID), Guardian 跳过本次触发"
+      exit 0
+    else
+      log "⚠️ Pipeline 锁 stale (PID $HOLDER_PID 已死), Guardian 接管"
+      rm -rf "$LOCK_DIR"
+    fi
+  else
+    log "⚠️ Pipeline 锁占用但无 PID, Guardian 清理并继续"
+    rm -rf "$LOCK_DIR"
+  fi
 fi
 
 PROJECT_DIR="/Users/zhangming/workspace/tradego-fasteners-v2"
@@ -283,19 +304,13 @@ print('✅ Image saved')
     
     # 简化: 不 git commit, 不 Vercel deploy (太复杂, 留给明天 cron 跑)
     # 仅更新 state.json
-    python3 -c "
-import json
-state = {
-    'last_run': '$TODAY',
-    'last_slug': '$EMERGENCY_SLUG',
-    'last_score': 60,
-    'writers': 'emergency-fallback',
-    'note': 'Guardian fallback mode - emergency article generated'
-}
-with open('$STATE_FILE', 'w') as f:
-    json.dump(state, f, indent=2)
-print('✅ state.json updated (fallback mode)')
-"
+    # 2026-07-03 v5.3: 用 seo-state-write.py atomic write + flock
+    python3 "$SCRIPT_DIR/seo-state-write.py" "$STATE_FILE" \
+        last_run "$TODAY" \
+        last_slug "$EMERGENCY_SLUG" \
+        last_score "60" \
+        writers "emergency-fallback" \
+        note "Guardian fallback mode - emergency article generated"
     
     log "  ⚠️ 文章 JSON 已生成但未 commit (fallback mode)"
     log "  💡 明早 cron 会自动 commit + deploy"

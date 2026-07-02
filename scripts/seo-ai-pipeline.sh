@@ -3,8 +3,57 @@
 # 流程: Grok 选题 → Gemini 大纲 → [豆包/DeepSeek/ChatGPT] 写文 → [Gemini+ChatGPT] 审计 → 自修复 → 配图 → 部署
 # 调度: 每天 03:30 CST
 # 创建: 2026-06-16
+# 2026-07-03 v5.3 FIX: 入口加进程互锁, 避免多进程同时跑
+#   注意: macOS 默认 bash 3.2 无 flock 命令, 用 python fcntl.flock 实现
 
 set -e
+
+# 2026-07-03 v5.3 FIX: 进程互锁 (使用 mkdir atomic)
+# 设计: mkdir atomic 创建锁目录. Pipeline 退出时 trap rmdir 释放.
+LOCK_DIR="/tmp/seo-pipeline.lock"
+LOCK_FILE="$LOCK_DIR/pid"
+MY_PID=$$
+# 提前定义 LOG_DIR (锁逻辑需使用)
+LOG_DIR="/Users/zhangming/workspace/tradego-fasteners-v2/logs/seo-ai-pipeline"
+mkdir -p "$LOG_DIR"
+
+if mkdir "$LOCK_DIR" 2>/dev/null; then
+  # 锁获取成功
+  echo "$MY_PID" > "$LOCK_FILE"
+  echo "[$(date '+%Y-%m-%d %H:%M:%S')] 🔒 Pipeline 互锁获取 (PID $MY_PID)" >> "$LOG_DIR/$(date +%Y-%m-%d).log" 2>/dev/null
+  # Pipeline 退出时自动释放
+  trap "rm -rf $LOCK_DIR" EXIT
+else
+  # 锁占用, 检查 PID 是否还在
+  if [ -f "$LOCK_FILE" ]; then
+    HOLDER_PID=$(cat "$LOCK_FILE")
+    if kill -0 "$HOLDER_PID" 2>/dev/null; then
+      # 持有者还活着, 退出
+      echo "[$(date '+%Y-%m-%d %H:%M:%S')] ⚠️ Pipeline 已在运行 (PID $HOLDER_PID), 退出避免抢占" | tee -a "$LOG_DIR/$(date +%Y-%m-%d).log" 2>/dev/null
+      exit 0
+    else
+      # 持有者已死 (stale lock), 清理并重试
+      rm -rf "$LOCK_DIR"
+      if mkdir "$LOCK_DIR" 2>/dev/null; then
+        echo "$MY_PID" > "$LOCK_FILE"
+        echo "[$(date '+%Y-%m-%d %H:%M:%S')] 🔒 Pipeline 互锁获取 (PID $MY_PID, stale cleared)" >> "$LOG_DIR/$(date +%Y-%m-%d).log" 2>/dev/null
+        trap "rm -rf $LOCK_DIR" EXIT
+      else
+        echo "[$(date '+%Y-%m-%d %H:%M:%S')] ❌ Pipeline 锁重试失败" | tee -a "$LOG_DIR/$(date +%Y-%m-%d).log" 2>/dev/null
+        exit 1
+      fi
+    fi
+  else
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] ⚠️ Pipeline 锁占用但无 PID 文件, 清理重试" >> "$LOG_DIR/$(date +%Y-%m-%d).log" 2>/dev/null
+    rm -rf "$LOCK_DIR"
+    if ! mkdir "$LOCK_DIR" 2>/dev/null; then
+      echo "[$(date '+%Y-%m-%d %H:%M:%S')] ❌ Pipeline 锁重试失败" | tee -a "$LOG_DIR/$(date +%Y-%m-%d).log" 2>/dev/null
+      exit 1
+    fi
+    echo "$MY_PID" > "$LOCK_FILE"
+    trap "rm -rf $LOCK_DIR" EXIT
+  fi
+fi
 
 PROJECT_DIR="/Users/zhangming/workspace/tradego-fasteners-v2"
 AI_ROUTER="$HOME/.agents/skills/ai-assistant-router/ai-router.js"
@@ -812,15 +861,15 @@ if [ -n "$DEPLOY_URL" ]; then
 fi
 
 # 更新 state (放到 if 外面, 即使 alias 失败也记录成功部署)
-python3 << PYEOF
-import json
-import os
-
-state_file = "$STATE_FILE"
-state = {"last_run": "$TODAY", "last_slug": "$SLUG", "last_score": $SCORE, "writers": "$WRITERS_TRIED".strip()}
-with open(state_file, 'w') as f:
-    json.dump(state, f, indent=2)
-PYEOF
+# 2026-07-03 v5.3: 用 seo-state-write.py atomic write + flock 互斥
+SCRIPT_DIR_VAL="$SCRIPT_DIR"
+WRITERS_STR="${WRITERS_TRIED// /}"  # strip spaces if any
+python3 "$SCRIPT_DIR_VAL/seo-state-write.py" "$STATE_FILE" \
+    last_run "$TODAY" \
+    last_slug "$SLUG" \
+    last_score "$SCORE" \
+    writers "$WRITERS_STR" \
+    || log "⚠️ state.json update skipped (lock conflict or error)"
 
 log "=========================================="
 log "🎉 PIPELINE COMPLETE: $SLUG (score: $SCORE)"
