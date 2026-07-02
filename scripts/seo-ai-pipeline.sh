@@ -118,8 +118,9 @@ log "=========================================="
 log "🌍 STEP 1/5: Topic Selection (豆包 → DeepSeek)"
 log "=========================================="
 
-# 读取上次生成过的主题避免重复
-PROCESSED_TOPICS=$(ls "$PROJECT_DIR/content/articles"/*.json 2>/dev/null | xargs -I{} basename {} .json | sort -u | head -100 | tr '\n' ',' | sed 's/,$//')
+# 读取上次生成过的主题避免重复 (head -100 在 articles > 100 时会切掉真实已用 slug, 改 head -500)
+# 2026-07-02 fix: 211 articles > 100 → zambia 重复生成风险
+PROCESSED_TOPICS=$(ls "$PROJECT_DIR/content/articles"/*.json 2>/dev/null | xargs -I{} basename {} .json | sort -u | head -500 | tr '\n' ',' | sed 's/,$//')
 
 # Topic 池：非洲/SADC 重点
 TOPIC_POOL=(
@@ -143,11 +144,16 @@ TOPIC_POOL=(
 # 选 1 个未处理过的主题
 for t in "${TOPIC_POOL[@]}"; do
     slug_attempt=$(echo "$t" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//;s/-$//')
-    if ! echo "$PROCESSED_TOPICS" | grep -q "$slug_attempt"; then
-        TOPIC="$t"
-        SLUG="$slug_attempt"
-        break
+    # 2026-07-02 双重检查: 字符串 match + 文件存在 match (防御 PROCESSED_TOPICS 误判)
+    if echo ",$PROCESSED_TOPICS," | grep -q ",${slug_attempt},"; then
+        continue
     fi
+    if [ -f "$PROJECT_DIR/content/articles/${slug_attempt}.json" ]; then
+        continue
+    fi
+    TOPIC="$t"
+    SLUG="$slug_attempt"
+    break
 done
 
 if [ -z "$TOPIC" ]; then
@@ -607,6 +613,12 @@ fi
 
 # 写到 content/articles/{slug}.json
 ARTICLE_JSON="$PROJECT_DIR/content/articles/${SLUG}.json"
+# 2026-07-02 防御: 防止覆盖已存在文章 (Process bug → slug 重复)
+if [ -f "$ARTICLE_JSON" ]; then
+    log "❌ REFUSE OVERWRITE: $ARTICLE_JSON already exists (slug deduplication bug)"
+    log "💡 Self-heal: 跳过此 slug, 明天 cron 选新 topic"
+    exit 1
+fi
 
 # 用 Python 组装完整 JSON (10 语言 + sections + E-E-A-T)
 python3 << PYEOF
