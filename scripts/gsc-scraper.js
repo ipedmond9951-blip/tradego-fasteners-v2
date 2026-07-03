@@ -20,14 +20,14 @@ async function scrapeGSC(options = {}) {
     const baseUrl = `https://search.google.com/search-console/performance/search-analytics?resource_id=sc-domain%3Atradego-fasteners.com&num_weeks=${weeks}`
 
     // --- OVERVIEW + QUERIES ---
-    await page.goto(baseUrl, { timeout: 30000, waitUntil: 'networkidle' })
+    await page.goto(baseUrl, { timeout: 60000, waitUntil: 'domcontentloaded' })
     await page.waitForTimeout(10000)
     const overview = await parseOverviewFromPage(page)
     const queries = await parseTable(page, 'queries')
 
     // --- PAGES (via URL breakdown) ---
     let pages = []
-    await page.goto(baseUrl + '&breakdown=page', { timeout: 20000, waitUntil: 'networkidle' })
+    await page.goto(baseUrl + '&breakdown=page', { timeout: 30000, waitUntil: 'domcontentloaded' })
     await page.waitForTimeout(6000)
     pages = await parseTable(page, 'pages')
     if (pages.length === 0) {
@@ -37,7 +37,7 @@ async function scrapeGSC(options = {}) {
 
     // --- COUNTRIES (via URL breakdown) ---
     let countries = []
-    await page.goto(baseUrl + '&breakdown=country', { timeout: 20000, waitUntil: 'networkidle' })
+    await page.goto(baseUrl + '&breakdown=country', { timeout: 30000, waitUntil: 'domcontentloaded' })
     await page.waitForTimeout(6000)
     countries = await parseTable(page, 'countries')
     if (countries.length === 0) {
