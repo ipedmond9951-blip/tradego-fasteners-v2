@@ -78,6 +78,14 @@ PRIMARY_KEYWORD=""
 ARTICLE_JSON=""
 SCORE=""
 
+# 2026-07-03 v5.6: 总裁指示 — 文章生成必须用 ai 助手技能 (ai-assistant-router)
+# 检查 Chrome debug 端口 18800 是否可用
+USE_AI_ROUTER=1
+if ! timeout 5 curl -sf http://localhost:18800/json/version > /dev/null 2>&1; then
+  log "⚠️ Chrome debug 未在 18800, ai-router 不可用, 全部 fallback 到 minimax-quick"
+  USE_AI_ROUTER=0
+fi
+
 mkdir -p "$LOG_DIR" "$TMP_DIR"
 exec >> "$LOG_FILE" 2>&1
 
@@ -546,18 +554,43 @@ WRITERS_TRIED=""
 # 深度文最小字符数: 2000 词 ≈ 12000 字符
 MIN_CHARS=8000
 
-for WRITER in doubao chatgpt; do
-    log "🤖 Trying writer: $WRITER (unlimited quota)"
+for WRITER in doubao minimax chatgpt; do
+    log "🤖 Trying writer: $WRITER"
     # 2026-06-19 v3.1 FIX: 写文需要 5-10min for 2000-2500 word article, 180s 不够
     # 2026-06-19 v3.2 FIX: 直接调 deepseek-client 避免 ai-router 包装带来的 Promise hang
     # 2026-06-19 v3.3 FIX: 用子 shell + & + sleep + kill 替代 timeout（更可靠地清理 node 进程）
     # 2026-06-20 v5 FIX: 改用 MiniMax direct API for STEP 3 too. 2000-2500 词需 max_tokens=8000+, timeout 360s
-    if [ "$WRITER" = "deepseek" ]; then
-        # 2026-07-02 v5.1 FIX: max_tokens 8000 → 12000 (实测 8000 截断到 1800 词, 12000 够 2200 词)
+    # 2026-07-03 v5.6 FIX: 总裁指示 — 文章生成必须用 ai 助手技能
+    # STEP 3 写文: ai-router 问豆包 (主) + minimax-quick (主 fallback) + ai-router 问 ChatGPT
+    case "$WRITER" in
+      doubao)
+        if [ "$USE_AI_ROUTER" = "1" ]; then
+          # 写文 prompt 太大 (~3000 chars) + 要 2200 词输出 → 豆包 5-10min
+          log "  🤖 ai-router → 豆包 (400s timeout, 写文 5-10min)..."
+          WRITER_PROMPT_FILE="$TMP_DIR/${SLUG}_writer_prompt.txt"
+          printf '%s' "$WRITER_PROMPT" > "$WRITER_PROMPT_FILE"
+          WRITER_OUT=$(timeout 400 bash "$SCRIPT_DIR/seo-ai-router-call.sh" doubao "$WRITER_PROMPT_FILE" 400 2>&1)
+        else
+          log "  ⚠️ ai-router 不可用, 跳到 minimax"
+          WRITER_OUT=""
+          continue
+        fi
+        ;;
+      minimax)
         WRITER_OUT=$(timeout 360 "$SCRIPT_DIR/minimax-quick.sh" "$WRITER_PROMPT" "MiniMax-M2.7-highspeed" 12000 2>&1)
-    else
-        WRITER_OUT=$(timeout 360 "$SCRIPT_DIR/minimax-quick.sh" "$WRITER_PROMPT" "MiniMax-M2.7-highspeed" 12000 2>&1)
-    fi
+        ;;
+      chatgpt)
+        if [ "$USE_AI_ROUTER" = "1" ]; then
+          log "  🤖 ai-router → ChatGPT (400s timeout)..."
+          WRITER_PROMPT_FILE="$TMP_DIR/${SLUG}_writer_prompt.txt"
+          [ ! -f "$WRITER_PROMPT_FILE" ] && printf '%s' "$WRITER_PROMPT" > "$WRITER_PROMPT_FILE"
+          WRITER_OUT=$(timeout 400 bash "$SCRIPT_DIR/seo-ai-router-call.sh" chatgpt "$WRITER_PROMPT_FILE" 400 2>&1)
+        else
+          log "  ⚠️ ai-router 不可用, 跳过 chatgpt"
+          continue
+        fi
+        ;;
+    esac
 
     # 检查是否包含实质内容（> MIN_CHARS 字符 + 有 ## H2）
     if [ ${#WRITER_OUT} -gt $MIN_CHARS ] && echo "$WRITER_OUT" | grep -q "##"; then
@@ -628,20 +661,49 @@ GRADE: PASS (>=85) / FIX (70-84) / FAIL (<70)
 ISSUES: <bullet list of specific fixes>
 SUGGESTIONS: <concrete improvements>"
 
-log "🤖 Calling Gemini + ChatGPT for audit..."
+log "🤖 Calling Gemini + ChatGPT for audit (ai-assistant-router v5.6)..."
+# 2026-07-03 v5.6 FIX: 总裁指示 — 文章生成必须用 ai 助手技能
 # 2026-06-20 fix: 60s 不够, ChatGPT 思考 + 长 prompt 需 120-180s
 # 2026-07-02 fix: ai-router.js (CDP) 间歇性 hang, 改用 MiniMax direct API 提升可靠性
 # 7/2 19:23 19:24 audit 80s 后 pipeline 死 (CDP 问题), 改 minimax-quick
-# 区分 Gemini vs ChatGPT: 不同 prompt 变体, 同 model 但不同侧重 → 出不同 audit
+# 2026-07-03 v5.6: 重新启用 ai-router (CDP 优化后, 质量 + 5 AI 价值)
+# - 用 ai-router 问 Gemini (原 Google 真模型) + 问 ChatGPT (OpenAI 真模型)
+# - 若 ai-router 失败 (Chrome 未启 / timeout) → 降级到 minimax-quick
+# 区分 Gemini vs ChatGPT: 不同 prompt 变体, 不同 AI 平台 → 出不同 audit
 # 写 audit prompt 到 file (避免大 prompt shell escape hell)
 AUDIT_PROMPT_FILE="$TMP_DIR/${SLUG}_audit_prompt.txt"
 printf '%s' "$AUDIT_PROMPT" > "$AUDIT_PROMPT_FILE"
-# Gemini audit: strict评分器
-GEMINI_AUDIT=$(timeout 120 bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$AUDIT_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 3000 2>&1) || GEMINI_AUDIT="SCORE: 0"
-# ChatGPT audit: 用不同 prompt 变体 (append 'Be more lenient than typical Gemini')
-CHATGPT_AUDIT=$(timeout 120 bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$AUDIT_PROMPT_FILE")
+
+# 2026-07-03 v5.6: ai-router 问 Gemini (多 AI 视角 + 真 Google 模型)
+AI_ROUTER_CALL="$SCRIPT_DIR/seo-ai-router-call.sh"
+
+if [ "$USE_AI_ROUTER" = "1" ]; then
+  # Gemini audit via ai-router (总裁指示: 一定要用到 ai 助手技能)
+  log "  🤖 ai-router → Gemini (180s timeout)..."
+  GEMINI_AUDIT=$(timeout 180 bash "$AI_ROUTER_CALL" gemini "$AUDIT_PROMPT_FILE" 180 2>&1) || GEMINI_AUDIT="SCORE: 0"
+  if echo "$GEMINI_AUDIT" | grep -qE "^\[error\]|SCORE: 0$"; then
+    log "  ⚠️ ai-router Gemini 失败, 降级到 minimax-quick"
+    GEMINI_AUDIT=$(timeout 60 bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$AUDIT_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 3000 2>&1) || GEMINI_AUDIT="SCORE: 0"
+  fi
+  # ChatGPT audit via ai-router (变体 prompt: 注重 B2B actionability)
+  CHATGPT_AUDIT_PROMPT="${AUDIT_PROMPT}
+---
+Be a different auditor than typical. Emphasize B2B actionability and real engineering data. Be slightly more generous on E-E-A-T if data sources are present."
+  CHATGPT_AUDIT_PROMPT_FILE="$TMP_DIR/${SLUG}_audit_prompt_chatgpt.txt"
+  printf '%s' "$CHATGPT_AUDIT_PROMPT" > "$CHATGPT_AUDIT_PROMPT_FILE"
+  log "  🤖 ai-router → ChatGPT (180s timeout)..."
+  CHATGPT_AUDIT=$(timeout 180 bash "$AI_ROUTER_CALL" chatgpt "$CHATGPT_AUDIT_PROMPT_FILE" 180 2>&1) || CHATGPT_AUDIT="SCORE: 0"
+  if echo "$CHATGPT_AUDIT" | grep -qE "^\[error\]|SCORE: 0$"; then
+    log "  ⚠️ ai-router ChatGPT 失败, 降级到 minimax-quick"
+    CHATGPT_AUDIT=$(timeout 60 bash "$SCRIPT_DIR/minimax-quick.sh" "$CHATGPT_AUDIT_PROMPT" "MiniMax-M2.7-highspeed" 3000 2>&1) || CHATGPT_AUDIT="SCORE: 0"
+  fi
+else
+  # Fallback 全 minimax
+  GEMINI_AUDIT=$(timeout 60 bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$AUDIT_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 3000 2>&1) || GEMINI_AUDIT="SCORE: 0"
+  CHATGPT_AUDIT=$(timeout 60 bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$AUDIT_PROMPT_FILE")
 ---
 Be a different auditor than typical. Emphasize B2B actionability and real engineering data. Be slightly more generous on E-E-A-T if data sources are present." "MiniMax-M2.7-highspeed" 3000 2>&1) || CHATGPT_AUDIT="SCORE: 0"
+fi
 
 # 提取 Gemini 分数
 GEMINI_SCORE=$(echo "$GEMINI_AUDIT" | grep -oE "SCORE:?\s*[0-9]+" | grep -oE "[0-9]+" | head -1)
