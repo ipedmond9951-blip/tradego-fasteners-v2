@@ -91,6 +91,25 @@ exec >> "$LOG_FILE" 2>&1
 
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1"; }
 
+# 2026-07-04 v5.7 FIX: ai-router 豆包/Gemini/ChatGPT 全部 timeout
+# 7/4 03:30 cron 跑 pipeline → 豆包/deepseek/gemini outline 全 fail (168/46/168 chars)
+# 根因: Chrome 当前 tabs 状态异常 (豆包 page 卡在"帮助信息", Gemini 在 login iframe)
+#       ai-router 走 CDP → 等 page 永远加载 → 25s timeout → pipeline 假阳成功 ([error])
+# 修复: 端到端 ping 豆包 (主 AI), 返回 [error]/空 → 立即关 ai-router, 全程 minimax
+if [ "$USE_AI_ROUTER" = "1" ]; then
+  echo "ping" > /tmp/ai-router-healthcheck.txt
+  log "🔍 ai-router 健康检查 (ping 豆包, 25s)..."
+  ROUTER_DOUBAO_OUT=$(timeout 25 bash "$SCRIPT_DIR/seo-ai-router-call.sh" doubao /tmp/ai-router-healthcheck.txt 22 2>&1 | head -1)
+  ROUTER_RC=$?
+  if [ $ROUTER_RC -ne 0 ] || echo "$ROUTER_DOUBAO_OUT" | grep -qE "^\[error\]|^$"; then
+    log "⚠️ ai-router 端到端不可用 (rc=$ROUTER_RC, out: ${ROUTER_DOUBAO_OUT:0:80})"
+    log "💡 v5.7 FIX: 关掉 ai-router, 全程 minimax-quick 直连 API"
+    USE_AI_ROUTER=0
+  else
+    log "✅ ai-router 健康 (返回: ${ROUTER_DOUBAO_OUT:0:50}), 启用 multi-AI"
+  fi
+fi
+
 # ============================================================
 # SELF-HEAL: Pre-flight diagnostics (2026-06-19, upgraded 2026-06-20 with AI health check)
 # Detect broken env BEFORE the AI calls waste quota.
@@ -351,7 +370,18 @@ printf '%s' "$OUTLINE_PROMPT" > "$OUTLINE_PROMPT_FILE"
 run_outline_ai() {
     local ai_name="$1"
     local out
-    if [ "$ai_name" = "deepseek" ]; then
+    # 2026-07-03 v5.6 FIX: 总裁指示 — 文章生成必须用 ai 助手技能
+    # STEP 2 大纲: 优先 ai-router (豆包/Gemini/ChatGPT), 失败降级 minimax
+    if [ "$USE_AI_ROUTER" = "1" ] && [ "$ai_name" != "deepseek" ]; then
+      # 2026-07-03 v5.6: ai-router 问该 AI 平台 (豆包=豆包, gemini=Gemini, chatgpt=ChatGPT)
+      log "  🤖 ai-router → $ai_name (180s timeout, 大纲)..."
+      out=$(timeout 180 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$ai_name" "$OUTLINE_PROMPT_FILE" 180 2>&1) || out=""
+      # ai-router 失败 → 降级 minimax
+      if [ ${#out} -lt 100 ] || echo "$out" | grep -qE "^\[error\]"; then
+        log "  ⚠️ ai-router $ai_name 输出不足 (${#out} chars), 降级 minimax-quick"
+        out=$(timeout 90 "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 6000 2>&1) || out=""
+      fi
+    elif [ "$ai_name" = "deepseek" ]; then
         # 2026-07-02 v5.1 FIX: max_tokens 4000 → 6000 (避免 JSON 截断), timeout 200s 保留
         out=$(timeout 200 "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 6000 2>&1)
     elif [ "$ai_name" = "doubao" ]; then
