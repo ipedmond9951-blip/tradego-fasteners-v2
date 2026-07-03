@@ -25,6 +25,12 @@ if mkdir "$LOCK_DIR" 2>/dev/null; then
   trap 'rm -rf $LOCK_DIR 2>/dev/null' EXIT TERM INT
 else
   # 锁占用, 检查 PID 是否还在
+  # 2026-07-03 v5.5 FIX: 区分文件 vs 目录, 文件要删掉才能 mkdir
+  # 兼容旧版本残留的 0 字节 lock 文件
+  if [ ! -d "$LOCK_DIR" ] && [ -e "$LOCK_DIR" ]; then
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] ⚠️ LOCK_DIR 存在但不是目录 (可能是 stale file), 清理" >> "$LOG_DIR/$(date +%Y-%m-%d).log" 2>/dev/null
+    rm -rf "$LOCK_DIR"
+  fi
   if [ -f "$LOCK_FILE" ]; then
     HOLDER_PID=$(cat "$LOCK_FILE")
     if kill -0 "$HOLDER_PID" 2>/dev/null; then
