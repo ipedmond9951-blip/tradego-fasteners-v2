@@ -23,7 +23,7 @@ DATA_DIR="$PROJECT_DIR/public/data"
 mkdir -p "$LOG_DIR" "$DATA_DIR"
 
 WEEKS=13
-if [ "$1" = "--weeks" ]; then
+if [ "$1" = "--weeks" ] && [ -n "$2" ]; then
     WEEKS="$2"
 fi
 
@@ -35,7 +35,8 @@ echo "[$TIMESTAMP] 🚀 GSC scraper 启动 (weeks=$WEEKS)" | tee -a "$LOG_FILE"
 
 # 1. 跑 scraper, 输出 JSON
 cd "$PROJECT_DIR"
-node "$SCRIPT_DIR/gsc-scraper.js" --weeks "$WEEKS" > "$JSON_FILE" 2>> "$LOG_FILE"
+# 2026-07-03 FIX: gsc-scraper.js 接受 --weeks=N 格式, 不是空格
+node "$SCRIPT_DIR/gsc-scraper.js" "--weeks=$WEEKS" > "$JSON_FILE" 2>> "$LOG_FILE"
 
 if [ ! -s "$JSON_FILE" ]; then
     echo "[$TIMESTAMP] ❌ Scraper 输出为空, 不更新 dashboard" | tee -a "$LOG_FILE"
