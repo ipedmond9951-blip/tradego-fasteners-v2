@@ -21,8 +21,8 @@ if mkdir "$LOCK_DIR" 2>/dev/null; then
   # 锁获取成功
   echo "$MY_PID" > "$LOCK_FILE"
   echo "[$(date '+%Y-%m-%d %H:%M:%S')] 🔒 Pipeline 互锁获取 (PID $MY_PID)" >> "$LOG_DIR/$(date +%Y-%m-%d).log" 2>/dev/null
-  # Pipeline 退出时自动释放
-  trap "rm -rf $LOCK_DIR" EXIT
+  # Pipeline 退出时自动释放 (多信号: EXIT + TERM + INT, 避免 timeout KILL 残留锁)
+  trap 'rm -rf $LOCK_DIR 2>/dev/null' EXIT TERM INT
 else
   # 锁占用, 检查 PID 是否还在
   if [ -f "$LOCK_FILE" ]; then
@@ -37,7 +37,7 @@ else
       if mkdir "$LOCK_DIR" 2>/dev/null; then
         echo "$MY_PID" > "$LOCK_FILE"
         echo "[$(date '+%Y-%m-%d %H:%M:%S')] 🔒 Pipeline 互锁获取 (PID $MY_PID, stale cleared)" >> "$LOG_DIR/$(date +%Y-%m-%d).log" 2>/dev/null
-        trap "rm -rf $LOCK_DIR" EXIT
+        trap 'rm -rf $LOCK_DIR 2>/dev/null' EXIT TERM INT
       else
         echo "[$(date '+%Y-%m-%d %H:%M:%S')] ❌ Pipeline 锁重试失败" | tee -a "$LOG_DIR/$(date +%Y-%m-%d).log" 2>/dev/null
         exit 1
@@ -51,7 +51,7 @@ else
       exit 1
     fi
     echo "$MY_PID" > "$LOCK_FILE"
-    trap "rm -rf $LOCK_DIR" EXIT
+    trap 'rm -rf $LOCK_DIR 2>/dev/null' EXIT TERM INT
   fi
 fi
 
@@ -828,10 +828,11 @@ if [ -n "$DEPLOY_URL" ]; then
     # 2026-07-03 FIX: vercel alias set 在 build 未 Ready 时报 "is not ready"
     # Vercel 已绑定 auto-promote (git push to main) → 部署默认就 production
     # 这里加 retry 3 次等 build 真正 ready, 或先 sleep 90s 让 build 完成
+    # 2026-07-03 v5.4 FIX: alias 也加 timeout 防止 hang 死
     ALIAS_OK=0
     for i in 1 2 3; do
       sleep 30
-      if npx vercel alias set "$DEPLOY_URL" www.tradego-fasteners.com 2>&1 | tail -3 | grep -q "Success\|success"; then
+      if timeout 60 npx vercel alias set "$DEPLOY_URL" www.tradego-fasteners.com 2>&1 | tail -3 | grep -q "Success\|success"; then
         ALIAS_OK=1
         break
       else
