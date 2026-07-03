@@ -34,12 +34,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const siteUrl = 'https://www.tradego-fasteners.com'
   
   const titles: Record<string, string> = {
-    zh: 'ISO 9001 & SABS认证中国紧固件制造商。import type { Metadata, Viewport } from 'next' import '../globals.css' import Header from '@/compone',
-    en: 'ISO 9001 & SABS certified China fastener manufacturer. import type { Metadata, Viewport } from 'next' import '../globals.css' import Header from '@/compone',
+    zh: 'TradeGo紧固件 | 中国对非出口厂家',
+    en: 'TradeGo Fasteners | China Manufacturer for Africa',
   }
   const descriptions: Record<string, string> = {
-    zh: 'ISO 9001 & SABS认证中国紧固件制造商。import type { Metadata, Viewport } from 'next' import '../globals.css' import Header from '@/compone',
-    en: 'ISO 9001 & SABS certified China fastener manufacturer. import type { Metadata, Viewport } from 'next' import '../globals.css' import Header from '@/compone',
+    zh: 'ISO 9001+SABS认证中国紧固件制造商，专注非洲15年。批发干壁钉、自钻螺丝、螺栓、IBR钉。海运至津、赞、南非。',
+    en: 'ISO 9001 + SABS certified China fastener manufacturer. 15+ yrs supplying Zimbabwe, South Africa, Zambia, Mozambique. Factory prices, 15-25 day sea freight.',
   }
   
   return {
