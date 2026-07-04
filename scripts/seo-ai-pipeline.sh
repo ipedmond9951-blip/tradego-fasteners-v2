@@ -91,22 +91,37 @@ exec >> "$LOG_FILE" 2>&1
 
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1"; }
 
-# 2026-07-04 v5.7 FIX: ai-router 豆包/Gemini/ChatGPT 全部 timeout
+# 2026-07-04 v5.8 FIX: ai-router 严验证 - ping 豆包 + Gemini + ChatGPT 三者端到端
 # 7/4 03:30 cron 跑 pipeline → 豆包/deepseek/gemini outline 全 fail (168/46/168 chars)
-# 根因: Chrome 当前 tabs 状态异常 (豆包 page 卡在"帮助信息", Gemini 在 login iframe)
-#       ai-router 走 CDP → 等 page 永远加载 → 25s timeout → pipeline 假阳成功 ([error])
-# 修复: 端到端 ping 豆包 (主 AI), 返回 [error]/空 → 立即关 ai-router, 全程 minimax
+# 根因: Chrome tabs 状态异常 - ai-router 走 CDP → 等 page 永远加载 → 25s timeout → 假阳成功
+# v5.7 fix: 单 ping 豆包 (不充分 - gemini/chatgpt 可能单独坏)
+# v5.8 fix: 三 AI 都 ping (豆包/Gemini/ChatGPT) - 都返回 ≥10 chars 真内容则用 ai-router, 否则全回落 minimax
+# ⚠️ 总裁原则: 文章生成必须用 ai 助手技能 (豆包/Gemini/ChatGPT), minimax 只作补位
+
 if [ "$USE_AI_ROUTER" = "1" ]; then
-  echo "ping" > /tmp/ai-router-healthcheck.txt
-  log "🔍 ai-router 健康检查 (ping 豆包, 25s)..."
-  ROUTER_DOUBAO_OUT=$(timeout 25 bash "$SCRIPT_DIR/seo-ai-router-call.sh" doubao /tmp/ai-router-healthcheck.txt 22 2>&1 | head -1)
-  ROUTER_RC=$?
-  if [ $ROUTER_RC -ne 0 ] || echo "$ROUTER_DOUBAO_OUT" | grep -qE "^\[error\]|^$"; then
-    log "⚠️ ai-router 端到端不可用 (rc=$ROUTER_RC, out: ${ROUTER_DOUBAO_OUT:0:80})"
-    log "💡 v5.7 FIX: 关掉 ai-router, 全程 minimax-quick 直连 API"
+  log "🔍 ai-router 健康检查 (豆包/Gemini/ChatGPT 三 AI 端到端, 各 25s)..."
+  AI_ROUTER_OK=1
+  for AI in doubao gemini chatgpt; do
+    echo "ping $AI" > /tmp/ai-router-healthcheck.txt
+    AI_OUT=$(timeout 25 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$AI" /tmp/ai-router-healthcheck.txt 22 2>&1 | head -1)
+    AI_RC=$?
+    if [ $AI_RC -ne 0 ] || echo "$AI_OUT" | grep -qE "^\[error\]|^\[.*错误\]|^$"; then
+      log "⚠️ ai-router $AI 不健康 (rc=$AI_RC, out=${AI_OUT:0:80})"
+      AI_ROUTER_OK=0
+      break
+    fi
+    if [ "${#AI_OUT}" -lt 10 ]; then
+      log "⚠️ ai-router $AI 返回过短 (${#AI_OUT} chars): ${AI_OUT:0:80}"
+      AI_ROUTER_OK=0
+      break
+    fi
+    log "  ✅ $AI OK (${#AI_OUT} chars)"
+  done
+  if [ "$AI_ROUTER_OK" = "0" ]; then
+    log "💡 v5.8 FIX: ai-router 不全健康, fallback minimax-quick (补位)"
     USE_AI_ROUTER=0
   else
-    log "✅ ai-router 健康 (返回: ${ROUTER_DOUBAO_OUT:0:50}), 启用 multi-AI"
+    log "✅ ai-router 三 AI 全健康, 启用 multi-AI (豆包/Gemini/ChatGPT)"
   fi
 fi
 
