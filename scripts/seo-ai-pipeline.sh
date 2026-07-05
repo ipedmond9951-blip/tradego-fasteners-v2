@@ -79,17 +79,25 @@ ARTICLE_JSON=""
 SCORE=""
 
 # 2026-07-03 v5.6: 总裁指示 — 文章生成必须用 ai 助手技能 (ai-assistant-router)
-# 检查 Chrome debug 端口 18800 是否可用
-USE_AI_ROUTER=1
-if ! timeout 5 curl -sf http://localhost:18800/json/version > /dev/null 2>&1; then
-  log "⚠️ Chrome debug 未在 18800, ai-router 不可用, 全部 fallback 到 minimax-quick"
-  USE_AI_ROUTER=0
-fi
+# 2026-07-06 v5.11 FIX: 默认全走 minimax (避免 ai-router 健康检查耗时 6-10min 致 pipeline 永远 abort)
+# 修复背景: 2 个月 0 成功案例根因 - ai-router 串行 ping 豆包/Gemini/ChatGPT 每 200s, 无登录态全 timeout
+# 总裁铁律 9: "立刻解决, 不能等待, 一定要解决完成"
+# 启用 ai-router 需显式设环境变量: SEO_USE_AI_ROUTER=1 (且 Chrome 18800 + AI 平台已登录)
+USE_AI_ROUTER=${SEO_USE_AI_ROUTER:-0}
 
 mkdir -p "$LOG_DIR" "$TMP_DIR"
 exec >> "$LOG_FILE" 2>&1
 
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1"; }
+
+if [ "$USE_AI_ROUTER" = "1" ]; then
+  if ! timeout 5 curl -sf http://localhost:18800/json/version > /dev/null 2>&1; then
+    log "⚠️ Chrome debug 未在 18800, ai-router 不可用, 全部 fallback 到 minimax-quick"
+    USE_AI_ROUTER=0
+  fi
+else
+  log "🔧 v5.11: USE_AI_ROUTER=0 (默认, 全部走 minimax-quick, 稳优先)"
+fi
 
 # 2026-07-04 v5.8 FIX: ai-router 严验证 - ping 豆包 + Gemini + ChatGPT 三者端到端
 # 7/4 03:30 cron 跑 pipeline → 豆包/deepseek/gemini outline 全 fail (168/46/168 chars)
@@ -99,7 +107,7 @@ log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1"; }
 # ⚠️ 总裁原则: 文章生成必须用 ai 助手技能 (豆包/Gemini/ChatGPT), minimax 只作补位
 
 if [ "$USE_AI_ROUTER" = "1" ]; then
-  log "🔍 ai-router 健康检查 (豆包/Gemini/ChatGPT 三 AI 端到端, 各 75s)..."
+  log "🔍 ai-router 健康检查 (豆包/Gemini/ChatGPT 三 AI 端到端, 各 200s)..."
   AI_ROUTER_OK=1
   # 2026-07-05 v5.9 FIX: 用 48 字符真实问题 (不是 "ping"), 避免豆包 isValidReply<3 触发自愈 hang
   # 原 "ping $AI" (4 chars) → 豆包返 "pong" (4 chars) < isValidReply 阈值 → 自愈循环 → 22s timeout → 假阳失败
