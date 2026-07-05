@@ -110,7 +110,7 @@ if [ "$USE_AI_ROUTER" = "1" ]; then
   # 7/4 凌晨 raw 168 chars 真相: head -1 截掉豆包完整 B2B 解释, 只剩 168 字符首行
   # 修复: 用 $() 取全部输出 (保留多行 markdown), 加 trim + 去 [error] 前缀
   for AI in doubao gemini chatgpt; do
-    AI_OUT_RAW=$(timeout 75 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$AI" /tmp/ai-router-healthcheck.txt 70 2>&1)
+    AI_OUT_RAW=$(timeout 200 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$AI" /tmp/ai-router-healthcheck.txt 195 2>&1)
     AI_RC=$?
     # 取第一非空行作代表 (避免 [error] 前缀混入)
     AI_OUT=$(echo "$AI_OUT_RAW" | grep -vE "^\[error\]|^$" | head -1)
