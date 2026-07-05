@@ -99,18 +99,22 @@ log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1"; }
 # ⚠️ 总裁原则: 文章生成必须用 ai 助手技能 (豆包/Gemini/ChatGPT), minimax 只作补位
 
 if [ "$USE_AI_ROUTER" = "1" ]; then
-  log "🔍 ai-router 健康检查 (豆包/Gemini/ChatGPT 三 AI 端到端, 各 25s)..."
+  log "🔍 ai-router 健康检查 (豆包/Gemini/ChatGPT 三 AI 端到端, 各 75s)..."
   AI_ROUTER_OK=1
+  # 2026-07-05 v5.9 FIX: 用 48 字符真实问题 (不是 "ping"), 避免豆包 isValidReply<3 触发自愈 hang
+  # 原 "ping $AI" (4 chars) → 豆包返 "pong" (4 chars) < isValidReply 阈值 → 自愈循环 → 22s timeout → 假阳失败
+  # 修复: 用 ≥30 字符问题 + 健康检查 timeout 75s (豆包实测 60s + buffer)
+  HEALTH_PROMPT="What is B2B fastener export? Answer in 50 words."
+  echo "$HEALTH_PROMPT" > /tmp/ai-router-healthcheck.txt
   for AI in doubao gemini chatgpt; do
-    echo "ping $AI" > /tmp/ai-router-healthcheck.txt
-    AI_OUT=$(timeout 25 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$AI" /tmp/ai-router-healthcheck.txt 22 2>&1 | head -1)
+    AI_OUT=$(timeout 75 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$AI" /tmp/ai-router-healthcheck.txt 70 2>&1 | head -1)
     AI_RC=$?
     if [ $AI_RC -ne 0 ] || echo "$AI_OUT" | grep -qE "^\[error\]|^\[.*错误\]|^$"; then
       log "⚠️ ai-router $AI 不健康 (rc=$AI_RC, out=${AI_OUT:0:80})"
       AI_ROUTER_OK=0
       break
     fi
-    if [ "${#AI_OUT}" -lt 10 ]; then
+    if [ "${#AI_OUT}" -lt 50 ]; then
       log "⚠️ ai-router $AI 返回过短 (${#AI_OUT} chars): ${AI_OUT:0:80}"
       AI_ROUTER_OK=0
       break
@@ -118,7 +122,7 @@ if [ "$USE_AI_ROUTER" = "1" ]; then
     log "  ✅ $AI OK (${#AI_OUT} chars)"
   done
   if [ "$AI_ROUTER_OK" = "0" ]; then
-    log "💡 v5.8 FIX: ai-router 不全健康, fallback minimax-quick (补位)"
+    log "💡 v5.9 FIX: ai-router 不全健康, fallback minimax-quick (补位)"
     USE_AI_ROUTER=0
   else
     log "✅ ai-router 三 AI 全健康, 启用 multi-AI (豆包/Gemini/ChatGPT)"
@@ -389,8 +393,9 @@ run_outline_ai() {
     # STEP 2 大纲: 优先 ai-router (豆包/Gemini/ChatGPT), 失败降级 minimax
     if [ "$USE_AI_ROUTER" = "1" ] && [ "$ai_name" != "deepseek" ]; then
       # 2026-07-03 v5.6: ai-router 问该 AI 平台 (豆包=豆包, gemini=Gemini, chatgpt=ChatGPT)
-      log "  🤖 ai-router → $ai_name (180s timeout, 大纲)..."
-      out=$(timeout 180 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$ai_name" "$OUTLINE_PROMPT_FILE" 180 2>&1) || out=""
+      # 2026-07-05 v5.9: 180s → 220s (豆包实测 120-180s 大纲, +40s buffer)
+      log "  🤖 ai-router → $ai_name (220s timeout, 大纲)..."
+      out=$(timeout 220 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$ai_name" "$OUTLINE_PROMPT_FILE" 220 2>&1) || out=""
       # ai-router 失败 → 降级 minimax
       if [ ${#out} -lt 100 ] || echo "$out" | grep -qE "^\[error\]"; then
         log "  ⚠️ ai-router $ai_name 输出不足 (${#out} chars), 降级 minimax-quick"
@@ -599,44 +604,42 @@ WRITERS_TRIED=""
 # 深度文最小字符数: 2000 词 ≈ 12000 字符
 MIN_CHARS=8000
 
-for WRITER in doubao minimax chatgpt; do
-    log "🤖 Trying writer: $WRITER"
-    # 2026-06-19 v3.1 FIX: 写文需要 5-10min for 2000-2500 word article, 180s 不够
-    # 2026-06-19 v3.2 FIX: 直接调 deepseek-client 避免 ai-router 包装带来的 Promise hang
-    # 2026-06-19 v3.3 FIX: 用子 shell + & + sleep + kill 替代 timeout（更可靠地清理 node 进程）
-    # 2026-06-20 v5 FIX: 改用 MiniMax direct API for STEP 3 too. 2000-2500 词需 max_tokens=8000+, timeout 360s
-    # 2026-07-03 v5.6 FIX: 总裁指示 — 文章生成必须用 ai 助手技能
-    # STEP 3 写文: ai-router 问豆包 (主) + minimax-quick (主 fallback) + ai-router 问 ChatGPT
-    case "$WRITER" in
-      doubao)
-        if [ "$USE_AI_ROUTER" = "1" ]; then
-          # 写文 prompt 太大 (~3000 chars) + 要 2200 词输出 → 豆包 5-10min
-          log "  🤖 ai-router → 豆包 (400s timeout, 写文 5-10min)..."
-          WRITER_PROMPT_FILE="$TMP_DIR/${SLUG}_writer_prompt.txt"
-          printf '%s' "$WRITER_PROMPT" > "$WRITER_PROMPT_FILE"
-          WRITER_OUT=$(timeout 400 bash "$SCRIPT_DIR/seo-ai-router-call.sh" doubao "$WRITER_PROMPT_FILE" 400 2>&1)
-        else
-          log "  ⚠️ ai-router 不可用, 跳到 minimax"
-          WRITER_OUT=""
-          continue
-        fi
-        ;;
-      minimax)
-        WRITER_OUT=$(timeout 360 "$SCRIPT_DIR/minimax-quick.sh" "$WRITER_PROMPT" "MiniMax-M2.7-highspeed" 12000 2>&1)
-        ;;
-      chatgpt)
-        if [ "$USE_AI_ROUTER" = "1" ]; then
-          log "  🤖 ai-router → ChatGPT (400s timeout)..."
-          WRITER_PROMPT_FILE="$TMP_DIR/${SLUG}_writer_prompt.txt"
-          [ ! -f "$WRITER_PROMPT_FILE" ] && printf '%s' "$WRITER_PROMPT" > "$WRITER_PROMPT_FILE"
-          WRITER_OUT=$(timeout 400 bash "$SCRIPT_DIR/seo-ai-router-call.sh" chatgpt "$WRITER_PROMPT_FILE" 400 2>&1)
-        else
-          log "  ⚠️ ai-router 不可用, 跳过 chatgpt"
-          continue
-        fi
-        ;;
-    esac
+# 2026-07-05 v5.9 FIX: 总裁原则 - 文章生成必须用 ai 助手技能, minimax 只作补位
+# 写文优先级: ai-router 4 AI (豆包/Gemini/DeepSeek/ChatGPT) → minimax 严格补位
+# 6/20 起因: 豆包禁用后 DeepSeek 静默半个月 (7/5 解禁), 但 ai-router 仍可用豆包/Gemini/ChatGPT
+WRITER_PROMPT_FILE="$TMP_DIR/${SLUG}_writer_prompt.txt"
+printf '%s' "$WRITER_PROMPT" > "$WRITER_PROMPT_FILE"
 
+# 主力 ai-router 4 AI (按"无限→限量"配额排序)
+# 豆包/DeepSeek 接近无限调用, Gemini/ChatGPT 有调用次数限制
+PRIMARY_WRITERS=("doubao" "deepseek" "gemini" "chatgpt")
+FALLBACK_WRITER="minimax"
+
+# 跑主力 AI
+for WRITER in "${PRIMARY_WRITERS[@]}"; do
+    # 跳过 deepseek 如果静默期未结束 (7/5 解禁, 静默期已过)
+    if [ "$WRITER" = "deepseek" ]; then
+        DEEPSEEK_SILENT_FLAG="$HOME/.agents/skills/ai-assistant-router/.deepseek-silent-until-2026-07-04.flag"
+        if [ -f "$DEEPSEEK_SILENT_FLAG" ]; then
+            TODAY=$(date +%Y-%m-%d)
+            FLAG_DATE=$(basename "$DEEPSEEK_SILENT_FLAG" | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}')
+            if [[ "$TODAY" < "$FLAG_DATE" ]]; then
+                log "  ⏸️ 跳过 $WRITER (静默期至 $FLAG_DATE)"
+                continue
+            else
+                log "  ✅ DeepSeek 静默期已过 (到 $FLAG_DATE), 启用"
+            fi
+        fi
+    fi
+    
+    if [ "$USE_AI_ROUTER" != "1" ]; then
+        log "  ⚠️ ai-router 不可用, 跳过 $WRITER"
+        continue
+    fi
+    
+    log "🤖 Trying writer: $WRITER (ai-router, 600s)"
+    WRITER_OUT=$(timeout --kill-after=20 600 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$WRITER" "$WRITER_PROMPT_FILE" 600 2>&1)
+    
     # 检查是否包含实质内容（> MIN_CHARS 字符 + 有 ## H2）
     if [ ${#WRITER_OUT} -gt $MIN_CHARS ] && echo "$WRITER_OUT" | grep -q "##"; then
         log "✅ Writer $WRITER produced content (${#WRITER_OUT} chars, depth article)"
@@ -647,6 +650,21 @@ for WRITER in doubao minimax chatgpt; do
         WRITERS_TRIED="$WRITERS_TRIED $WRITER(${WRITER_OUT:-0}chars)"
     fi
 done
+
+# minimax 严格补位 (主力 4 AI 全失败时)
+if [ ${#WRITER_OUT} -le $MIN_CHARS ] || ! echo "$WRITER_OUT" | grep -q "##"; then
+    log "💡 主力 4 AI 全失败或不足, minimax 补位..."
+    log "🤖 Trying writer: $FALLBACK_WRITER (minimax direct API, 400s)"
+    WRITER_OUT=$(timeout 400 "$SCRIPT_DIR/minimax-quick.sh" "$WRITER_PROMPT" "MiniMax-M2.7-highspeed" 12000 2>&1)
+    
+    if [ ${#WRITER_OUT} -gt $MIN_CHARS ] && echo "$WRITER_OUT" | grep -q "##"; then
+        log "✅ Writer $FALLBACK_WRITER (补位) produced content (${#WRITER_OUT} chars)"
+        WRITERS_TRIED="$WRITERS_TRIED $FALLBACK_WRITER(fallback)"
+    else
+        log "⚠️ Writer $FALLBACK_WRITER (补位) also insufficient (${#WRITER_OUT} chars)"
+        WRITERS_TRIED="$WRITERS_TRIED $FALLBACK_WRITER(fallback,${WRITER_OUT:-0}chars)"
+    fi
+fi
 
 if [ ${#WRITER_OUT} -lt $MIN_CHARS ]; then
     log "❌ All writers produced insufficient content (< $MIN_CHARS chars)"
