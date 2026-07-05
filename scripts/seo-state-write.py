@@ -58,7 +58,9 @@ def main():
     state.update(pairs)
     
     # 锁文件路径
-    lock_file = "/tmp/seo-pipeline.lock"
+    # 2026-07-05 FIX: 不用 /tmp/seo-pipeline.lock (是 Pipeline mkdir 互锁目录)
+    # 用独立文件路径避免 IsADirectoryError
+    lock_file = "/tmp/seo-pipeline-state.lock"
     lock_fd = None
     try:
         # flock 互斥 (与 Pipeline 共享锁文件)
