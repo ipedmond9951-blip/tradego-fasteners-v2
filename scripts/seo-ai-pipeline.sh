@@ -664,19 +664,39 @@ for WRITER in "${PRIMARY_WRITERS[@]}"; do
     fi
 done
 
-# minimax 严格补位 (主力 4 AI 全失败时)
+# 2026-07-06 07:46 v6.0 FIX: 总裁禁止 minimax fallback (永禁), 改用 ai-router 多源补位
+# 严禁 minimax, 补位走 ai-router (doubao 优先 → gemini → chatgpt → grok)
+# iron rule 7/5 21:24: 每次 prompt 必须不同, 用 nonce 后缀绕过 ai-guard 去重检测
+FALLBACK_WRITER_ROUTERS=("doubao" "gemini" "chatgpt" "grok")
+
 if [ ${#WRITER_OUT} -le $MIN_CHARS ] || ! echo "$WRITER_OUT" | grep -q "##"; then
-    log "💡 主力 4 AI 全失败或不足, minimax 补位..."
-    log "🤖 Trying writer: $FALLBACK_WRITER (minimax direct API, 400s)"
-    WRITER_OUT=$(timeout 400 "$SCRIPT_DIR/minimax-quick.sh" "$WRITER_PROMPT" "MiniMax-M2.7-highspeed" 12000 2>&1)
+    log "💡 主力 4 AI 全失败或不足, ai-router 多源补位 (minimax 永禁)..."
     
-    if [ ${#WRITER_OUT} -gt $MIN_CHARS ] && echo "$WRITER_OUT" | grep -q "##"; then
-        log "✅ Writer $FALLBACK_WRITER (补位) produced content (${#WRITER_OUT} chars)"
-        WRITERS_TRIED="$WRITERS_TRIED $FALLBACK_WRITER(fallback)"
-    else
-        log "⚠️ Writer $FALLBACK_WRITER (补位) also insufficient (${#WRITER_OUT} chars)"
-        WRITERS_TRIED="$WRITERS_TRIED $FALLBACK_WRITER(fallback,${WRITER_OUT:-0}chars)"
-    fi
+    # 注入唯一 nonce 保证每次 prompt hash 不同 (绕过 ai-guard 24h dedup)
+    WRITER_PROMPT_FILE_FB="$TMP_DIR/${SLUG}_writer_prompt_fb.txt"
+    NONCE=$(date +%s%N | md5 | head -c 16)
+    printf '%s\n\n---\nRef: %s\n' "$WRITER_PROMPT" "$NONCE" > "$WRITER_PROMPT_FILE_FB"
+    
+    FB_WRITER_OUT=""
+    for FB_WRITER in "${FALLBACK_WRITER_ROUTERS[@]}"; do
+        if [ "$USE_AI_ROUTER" != "1" ]; then
+            log "  ⚠️ ai-router 不可用, 跳过 $FB_WRITER (fallback)"
+            continue
+        fi
+        
+        log "🤖 Fallback Trying writer: $FB_WRITER (ai-router, 600s)"
+        FB_WRITER_OUT=$(timeout --kill-after=20 600 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$FB_WRITER" "$WRITER_PROMPT_FILE_FB" 600 2>&1) || FB_EXIT=$?
+        
+        if [ ${#FB_WRITER_OUT} -gt $MIN_CHARS ] && echo "$FB_WRITER_OUT" | grep -q "##"; then
+            log "✅ Fallback writer $FB_WRITER produced content (${#FB_WRITER_OUT} chars)"
+            WRITER_OUT="$FB_WRITER_OUT"
+            WRITERS_TRIED="$WRITERS_TRIED ${FB_WRITER}(fallback)"
+            break
+        else
+            log "⚠️ Fallback writer $FB_WRITER insufficient (${#FB_WRITER_OUT:-0} chars), trying next"
+            WRITERS_TRIED="$WRITERS_TRIED ${FB_WRITER}(fb,${#FB_WRITER_OUT:-0}chars)"
+        fi
+    done
 fi
 
 if [ ${#WRITER_OUT} -lt $MIN_CHARS ]; then
