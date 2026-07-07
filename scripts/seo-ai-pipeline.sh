@@ -79,11 +79,11 @@ ARTICLE_JSON=""
 SCORE=""
 
 # 2026-07-03 v5.6: 总裁指示 — 文章生成必须用 ai 助手技能 (ai-assistant-router)
-# 2026-07-06 v5.11 FIX: 默认全走 minimax (避免 ai-router 健康检查耗时 6-10min 致 pipeline 永远 abort)
-# 修复背景: 2 个月 0 成功案例根因 - ai-router 串行 ping 豆包/Gemini/ChatGPT 每 200s, 无登录态全 timeout
+# 2026-07-07 v5.12 FIX: 默认全走 ai-router, 严禁 minimax 补位/直连 (总裁 2026-07-06 07:46 命令)
+# 修复背景: a33d218 提交了"STEP 3 minimax fallback → ai-router"但保留 19 处 minimax-quick 调用兜底, 违反命令
 # 总裁铁律 9: "立刻解决, 不能等待, 一定要解决完成"
-# 启用 ai-router 需显式设环境变量: SEO_USE_AI_ROUTER=1 (且 Chrome 18800 + AI 平台已登录)
-USE_AI_ROUTER=${SEO_USE_AI_ROUTER:-0}
+# 禁用方式: SEO_USE_AI_ROUTER=0 (强制走 minimax, 仅紧急时使用, 默认不开)
+USE_AI_ROUTER=${SEO_USE_AI_ROUTER:-1}
 
 mkdir -p "$LOG_DIR" "$TMP_DIR"
 exec >> "$LOG_FILE" 2>&1
@@ -96,7 +96,7 @@ if [ "$USE_AI_ROUTER" = "1" ]; then
     USE_AI_ROUTER=0
   fi
 else
-  log "🔧 v5.11: USE_AI_ROUTER=0 (默认, 全部走 minimax-quick, 稳优先)"
+  log "🔧 v5.12: USE_AI_ROUTER=1 (默认, 全部走 ai-router 豆包→Gemini→ChatGPT→Grok, 禁 minimax)"
 fi
 
 # 2026-07-04 v5.8 FIX: ai-router 严验证 - ping 豆包 + Gemini + ChatGPT 三者端到端
@@ -285,7 +285,7 @@ GROK_PROMPT="For B2B trade topic: '$TOPIC', output a JSON object on a single lin
 cd "$(dirname "$AI_ROUTER")" 2>/dev/null
 # 2026-06-20 v4 FIX: 豆包 fail-fast 20s → 180s. 1622 char 长 prompt 答需 60-120s, 20s 必超时失败
 # 2026-06-20 v5 FIX: 改用 MiniMax direct API (M2.7-highspeed). 实证 7s vs CDP 豆包 60-180s, 更可靠
-GROK_OUT=$(timeout 60 "$SCRIPT_DIR/minimax-quick.sh" "$GROK_PROMPT" "MiniMax-M2.7-highspeed" 1500 2>&1) || GROK_OUT=""
+log "  ❌ GROK_STEP minimax 直连 (per 7/6 07:46 boss forbid), exit"; exit 4
 GROK_EXIT=$?
 
 extract_kw_from_json() {
@@ -318,7 +318,7 @@ fi
 
 if [ -z "$PRIMARY_KEYWORD" ]; then
     log "⚠️ 豆包 failed/timeout, using fallback (DeepSeek)"
-    DS_OUT=$(timeout 60 "$SCRIPT_DIR/minimax-quick.sh" "$GROK_PROMPT" "MiniMax-M2.7-highspeed" 1500 2>&1) || DS_OUT=""
+    log "  ❌ DS minimax 直连 (per 7/6 07:46 boss forbid), exit"; exit 4
     PRIMARY_KEYWORD=$(extract_kw_from_json "$DS_OUT" | head -c 100)
 fi
 
@@ -412,16 +412,16 @@ run_outline_ai() {
       # ai-router 失败 → 降级 minimax
       if [ ${#out} -lt 100 ] || echo "$out" | grep -qE "^\[error\]"; then
         log "  ⚠️ ai-router $ai_name 输出不足 (${#out} chars), 降级 minimax-quick"
-        out=$(timeout 90 "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 6000 2>&1) || out=""
+        log "  ❌ ai-router $ai_name 不可用 (per 7/6 07:46 boss forbid minimax), exit"; exit 4
       fi
     elif [ "$ai_name" = "deepseek" ]; then
         # 2026-07-02 v5.1 FIX: max_tokens 4000 → 6000 (避免 JSON 截断), timeout 200s 保留
-        out=$(timeout 200 "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 6000 2>&1)
+        log "  ❌ ai-router $ai_name 不可用 (per 7/6 07:46 boss forbid minimax), exit"; exit 4
     elif [ "$ai_name" = "doubao" ]; then
         # 2026-07-02 v5.1 FIX: timeout 120s → 90s (M2.7-highspeed outline 实测 30-60s, 超时=挂)
-        out=$(timeout 90 "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 6000 2>&1) || out=""
+        log "  ❌ ai-router $ai_name 不可用 (per 7/6 07:46 boss forbid minimax), exit"; exit 4
     elif [ "$ai_name" = "gemini" ]; then
-        out=$(timeout 90 "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 6000 2>&1) || out=""
+        log "  ❌ ai-router $ai_name 不可用 (per 7/6 07:46 boss forbid minimax), exit"; exit 4
     else
         out=$(timeout 90 "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 6000 2>&1)
     fi
@@ -779,7 +779,7 @@ if [ "$USE_AI_ROUTER" = "1" ]; then
   GEMINI_AUDIT=$(timeout 180 bash "$AI_ROUTER_CALL" gemini "$AUDIT_PROMPT_FILE" 180 2>&1) || GEMINI_AUDIT="SCORE: 0"
   if echo "$GEMINI_AUDIT" | grep -qE "^\[error\]|SCORE: 0$"; then
     log "  ⚠️ ai-router Gemini 失败, 降级到 minimax-quick"
-    GEMINI_AUDIT=$(timeout 60 bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$AUDIT_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 3000 2>&1) || GEMINI_AUDIT="SCORE: 0"
+    log "  ❌ audit minimax 兜底 (per 7/6 07:46), exit"; exit 4
   fi
   # ChatGPT audit via ai-router (变体 prompt: 注重 B2B actionability)
   CHATGPT_AUDIT_PROMPT="${AUDIT_PROMPT}
@@ -791,11 +791,11 @@ Be a different auditor than typical. Emphasize B2B actionability and real engine
   CHATGPT_AUDIT=$(timeout 180 bash "$AI_ROUTER_CALL" chatgpt "$CHATGPT_AUDIT_PROMPT_FILE" 180 2>&1) || CHATGPT_AUDIT="SCORE: 0"
   if echo "$CHATGPT_AUDIT" | grep -qE "^\[error\]|SCORE: 0$"; then
     log "  ⚠️ ai-router ChatGPT 失败, 降级到 minimax-quick"
-    CHATGPT_AUDIT=$(timeout 60 bash "$SCRIPT_DIR/minimax-quick.sh" "$CHATGPT_AUDIT_PROMPT" "MiniMax-M2.7-highspeed" 3000 2>&1) || CHATGPT_AUDIT="SCORE: 0"
+    log "  ❌ audit minimax 兜底 (per 7/6 07:46), exit"; exit 4
   fi
 else
   # Fallback 全 minimax
-  GEMINI_AUDIT=$(timeout 60 bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$AUDIT_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 3000 2>&1) || GEMINI_AUDIT="SCORE: 0"
+  log "  ❌ audit minimax 兜底 (per 7/6 07:46), exit"; exit 4
   CHATGPT_AUDIT=$(timeout 60 bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$AUDIT_PROMPT_FILE")
 ---
 Be a different auditor than typical. Emphasize B2B actionability and real engineering data. Be slightly more generous on E-E-A-T if data sources are present." "MiniMax-M2.7-highspeed" 3000 2>&1) || CHATGPT_AUDIT="SCORE: 0"
