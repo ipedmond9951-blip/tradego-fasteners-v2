@@ -682,8 +682,12 @@ for WRITER in "${PRIMARY_WRITERS[@]}"; do
     # unescape \# → #, \* → *, 让 grep 能正确匹配 markdown header
     WRITER_OUT=$(echo "$WRITER_OUT" | sed 's/\\#/#/g; s/\\\*/*/g')
 
-    # 检查是否包含实质内容（> MIN_CHARS 字符 + 有 markdown header: ## / # / <hN> / **粗体)
-    if [ ${#WRITER_OUT} -gt $MIN_CHARS ] && echo "$WRITER_OUT" | grep -Eq '^##? |^# |<h[1-3]>|^\*\*[A-Z]'; then
+    # 2026-07-15 BUGFIX v2: 不同 AI 用不同 markdown 风格
+    #   - gemini 喜欢用 "1. Overview" / "2. Key ISO" 数字列表代替 H2 ## 标题
+    #   - chatgpt 偏好 ## 标题
+    #   - 豆包可能开个头就停
+    # 加 ^[0-9]+\. 数字列表 + 引用 [1] 模式让所有风格都能 PASS
+    if [ ${#WRITER_OUT} -gt $MIN_CHARS ] && echo "$WRITER_OUT" | grep -Eq '^##? |^# |<h[1-3]>|^\*\*[A-Z]|^[0-9]+\. '; then
         log "✅ Writer $WRITER produced content (${#WRITER_OUT} chars, depth article)"
         WRITERS_TRIED="$WRITERS_TRIED $WRITER"
         break
@@ -698,7 +702,7 @@ done
 # iron rule 7/5 21:24: 每次 prompt 必须不同, 用 nonce 后缀绕过 ai-guard 去重检测
 FALLBACK_WRITER_ROUTERS=("doubao" "gemini" "chatgpt" "grok")
 
-if [ ${#WRITER_OUT} -le $MIN_CHARS ] || ! echo "$WRITER_OUT" | grep -Eq '^##? |^# |<h[1-3]>|^\*\*[A-Z]'; then
+if [ ${#WRITER_OUT} -le $MIN_CHARS ] || ! echo "$WRITER_OUT" | grep -Eq '^##? |^# |<h[1-3]>|^\*\*[A-Z]|^[0-9]+\. '; then
     log "💡 主力 4 AI 全失败或不足, ai-router 多源补位 (minimax 永禁)..."
 
     # 注入唯一 nonce 保证每次 prompt hash 不同 (绕过 ai-guard 24h dedup)
@@ -722,7 +726,7 @@ if [ ${#WRITER_OUT} -le $MIN_CHARS ] || ! echo "$WRITER_OUT" | grep -Eq '^##? |^
         # 2026-07-15 BUGFIX: unescape markdown header, 兼容 ai-router 偶发 escape \# \*
         FB_WRITER_OUT=$(echo "$FB_WRITER_OUT" | sed 's/\\#/#/g; s/\\\*/*/g')
 
-        if [ ${#FB_WRITER_OUT} -gt $MIN_CHARS ] && echo "$FB_WRITER_OUT" | grep -Eq '^##? |^# |<h[1-3]>|^\*\*[A-Z]'; then
+        if [ ${#FB_WRITER_OUT} -gt $MIN_CHARS ] && echo "$FB_WRITER_OUT" | grep -Eq '^##? |^# |<h[1-3]>|^\*\*[A-Z]|^[0-9]+\. '; then
             log "✅ Fallback writer $FB_WRITER produced content (${#FB_WRITER_OUT} chars)"
             WRITER_OUT="$FB_WRITER_OUT"
             WRITERS_TRIED="$WRITERS_TRIED ${FB_WRITER}(fallback)"
