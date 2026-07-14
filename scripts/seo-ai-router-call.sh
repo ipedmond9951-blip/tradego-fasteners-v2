@@ -39,15 +39,26 @@ AI_ROUTER="$HOME/.agents/skills/ai-assistant-router/ai-router.js"
 PROMPT=$(cat "$PROMPT_FILE")
 
 # timeout + kill-after 防止 node event loop 卡死
-RESULT=$(timeout --kill-after=15 "$TIMEOUT" node "$AI_ROUTER" "$AI" "$PROMPT" 2>&1) || {
+# 2026-07-15 fix: 加 retry - 偶发失败 (Chrome tab 状态异常) 时重试 2 次
+RESULT=""
+ATTEMPT=0
+MAX_ATTEMPTS=3
+while [ $ATTEMPT -lt $MAX_ATTEMPTS ]; do
+  ATTEMPT=$((ATTEMPT + 1))
+  RESULT=$(timeout --kill-after=15 "$TIMEOUT" node "$AI_ROUTER" "$AI" "$PROMPT" 2>&1) && break
   EXITCODE=$?
-  if [ $EXITCODE -eq 124 ]; then
-    echo "[error] ai-router timeout after ${TIMEOUT}s (AI=$AI)"
+  if [ $ATTEMPT -lt $MAX_ATTEMPTS ]; then
+    echo "[ai-router-call] attempt $ATTEMPT failed (exit $EXITCODE), retrying in 5s..." >&2
+    sleep 5
   else
-    echo "[error] ai-router exit $EXITCODE (AI=$AI)"
+    if [ $EXITCODE -eq 124 ]; then
+      echo "[error] ai-router timeout after ${TIMEOUT}s (AI=$AI, tried $MAX_ATTEMPTS times)"
+    else
+      echo "[error] ai-router exit $EXITCODE (AI=$AI, tried $MAX_ATTEMPTS times)"
+    fi
+    exit $EXITCODE
   fi
-  exit $EXITCODE
-}
+done
 
 # 输出 AI 回复
 echo "$RESULT"
