@@ -34,12 +34,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const siteUrl = 'https://www.tradego-fasteners.com'
   
   const titles: Record<string, string> = {
-    zh: 'ISO 9001 & SABS认证中国紧固件制造商。import type { Metadata, Viewport } from 'next' import '../globals.css' import Header from '@/compone',
-    en: 'ISO 9001 & SABS certified China fastener manufacturer. import type { Metadata, Viewport } from 'next' import '../globals.css' import Header from '@/compone',
+    zh: 'ISO 9001 & SABS认证中国紧固件制造商 - 工厂直供辛巴威南非',
+    en: 'ISO 9001 & SABS Certified China Fastener Manufacturer - Factory Direct to Zimbabwe & South Africa',
   }
   const descriptions: Record<string, string> = {
-    zh: 'ISO 9001 & SABS认证中国紧固件制造商。import type { Metadata, Viewport } from 'next' import '../globals.css' import Header from '@/compone',
-    en: 'ISO 9001 & SABS certified China fastener manufacturer. import type { Metadata, Viewport } from 'next' import '../globals.css' import Header from '@/compone',
+    zh: 'ISO 9001 & SABS认证中国紧固件制造商,15年出口辛巴威、南非、赞比亚、莫桑比克、博茨瓦纳。干壁钉、六角螺栓、IBR瓦钉、自钻螺丝,出厂价直供。发货至德班、贝拉、哈拉雷。',
+    en: 'ISO 9001 & SABS certified China fastener manufacturer with 15+ years exporting to Zimbabwe, South Africa, Zambia, Mozambique, Botswana. Drywall screws, hex bolts, IBR nails, self-drilling screws at factory prices. Shipping to Durban, Beira, Harare.',
   }
   
   return {
