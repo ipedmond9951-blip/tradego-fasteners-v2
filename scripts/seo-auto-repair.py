@@ -96,12 +96,23 @@ class SEOAutoRepair:
         self.log("=" * 50, "INFO")
         self.log("1. Meta描述检查与修复", "INFO")
         self.log("=" * 50, "INFO")
-        
+
         layout_file = SRC_DIR / "app" / "[locale]" / "layout.tsx"
         if not layout_file.exists():
             self.log("未找到layout.tsx", "ERROR")
             return
-        
+
+        # 2026-07-15 fix: layout.tsx 至少 3 次 (7/3, 7/4, 7/6) 被 auto-fix 注入 import 语句
+        # 加黑名单: 检测到 layout.tsx 只记录 issue 不修改 (已手动管理, commit bb24503 修过)
+        if "layout.tsx" in str(layout_file):
+            self.log("⚠️ layout.tsx 已加黑名单 (7/15 防 auto-fix 注入 import), 跳过自动修复", "WARN")
+            self.issues.append({
+                'type': 'blacklist_skip',
+                'file': str(layout_file),
+                'issue': 'layout.tsx 是手动管理, auto-fix 跳过 (防止 3rd time import 注入复发)'
+            })
+            return
+
         content = layout_file.read_text()
         
         for locale in ["en", "zh"]:
