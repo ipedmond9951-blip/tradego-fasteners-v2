@@ -24,9 +24,10 @@ const nextConfig: NextConfig = {
     ];
   },
   images: {
+    // 2026-07-15 fix: Vercel Next.js image optimization 走 Pro plan (402 Payment Required)
+    // 禁掉优化器, 所有 <Image> 自动用原始 /images/...jpg 路径, 跟 5 美元 VPS 哲学一致
+    unoptimized: true,
     formats: ['image/avif', 'image/webp'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     remotePatterns: [
       {
         protocol: 'https',
