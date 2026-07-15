@@ -281,7 +281,7 @@ log "📝 Slug: $SLUG"
 # 用 豆包 验证/优化选题 (带 fallback) — 2026-06-19 修复: 用 JSON 输出 避免 grep 字面 placeholder 问题
 # 2026-07-15 fix: GROK_STEP 改用 minimax-quick (直接 API, 7s, 跳过 Chrome CDP 不稳定)
 log "🤖 Calling MiniMax M2.7 for topic trends (7s direct API, 避开 CDP 不稳定)..."
-GROK_PROMPT="For B2B trade topic: '$TOPIC', output a JSON object on a single line: {\"primary_keyword\": \"<3-5 word SEO keyword>\", \"rationale\": \"<20 words max>\"}. JSON only, no markdown.\n\nSession-ref: $(date +%s%N | head -c 10)"
+GROK_PROMPT="For B2B trade topic: '$TOPIC', output a JSON object on a single line with fields primary_keyword and rationale. JSON only, no markdown.\n\nSession-ref: $(date +%s%N | head -c 10)"
 
 cd "$(dirname "$AI_ROUTER")" 2>/dev/null
 # 2026-07-15 fix: 7/6 minimax 永禁后这里 exit 4 永远退, 改用 ai-router 豆包 (unlimited quota)
@@ -296,25 +296,55 @@ log "  [debug] GROK_EXIT=$GROK_EXIT GROK_OUT_len=${#GROK_OUT} GROK_OUT_first100=
 
 extract_kw_from_json() {
     # 2026-06-19 self-heal: 多种解析策略
+    # 2026-07-16 fix: 拒绝占位符 (如 <3-5 word SEO keyword>) 防止 LLM echo 污染
     local raw="$1"
-    # Strategy 1: try full json.loads
     echo "$raw" | python3 -c "
 import sys, json, re
 text = sys.stdin.read()
 # Strip code fences
 text = re.sub(r'\`\`\`(?:json)?', '', text)
-# Find JSON object
+
+# 2026-07-16 fix: placeholder blacklist (常见 LLM echo / 模板字符串)
+PLACEHOLDER_BLACKLIST = {
+    '<3-5 word SEO keyword>',
+    '<20 words max>',
+    '...',
+    '... etc',
+    'placeholder',
+    'TBD',
+    'TODO',
+}
+
+def is_valid_keyword(kw):
+    if not kw or len(kw) < 3 or len(kw) > 100:
+        return False
+    if kw in PLACEHOLDER_BLACKLIST:
+        return False
+    if kw.startswith('<') and kw.endswith('>'):
+        return False
+    return True
+
+# 2026-07-16 fix: echo detection (LLM 可能回显 prompt 自身)
+if 'The user requests' in text or 'For B2B trade topic' in text[:200]:
+    sys.exit(0)  # echo detected, return empty to trigger fallback
+
+# Strategy 1: try full json.loads
 m = re.search(r'\{[^{}]*\"primary_keyword\"[^{}]*\}', text, re.DOTALL)
 if m:
     try:
         d = json.loads(m.group(0))
-        print(d.get('primary_keyword', ''))
-        sys.exit(0)
+        kw = d.get('primary_keyword', '')
+        if is_valid_keyword(kw):
+            print(kw.strip())
+            sys.exit(0)
     except: pass
+
 # Strategy 2: regex grab primary_keyword value
 m = re.search(r'primary_keyword[\":\s]+([^\"\\]+)', text)
 if m:
-    print(m.group(1).strip())
+    kw = m.group(1).strip()
+    if is_valid_keyword(kw):
+        print(kw)
 " 2>/dev/null
 }
 
@@ -328,9 +358,20 @@ if [ -z "$PRIMARY_KEYWORD" ]; then
     PRIMARY_KEYWORD=""
 fi
 
-# Fallback: 用 topic 第一个词组作为 keyword
+# 2026-07-16 fix: STEP 1 keyword 兜底 - 优先 ai-router 豆包 (豆包不返 placeholder/echo)
+# 如果 minimax-quick 没拿到 keyword, 用 ai-router 试一次
+if [ -z "$PRIMARY_KEYWORD" ] && [ "$USE_AI_ROUTER" = "1" ]; then
+    log "🔄 minimax keyword 失败, fallback ai-router 豆包 (avoid placeholder/echo)"
+    ROUTER_OUT=$(timeout 60 bash "$SCRIPT_DIR/seo-ai-router-call.sh" doubao "$GROK_PROMPT_FILE" 60 2>&1) || ROUTER_OUT=""
+    PRIMARY_KEYWORD=$(extract_kw_from_json "$ROUTER_OUT" | head -c 100)
+    if [ -n "$PRIMARY_KEYWORD" ]; then
+        log "  ✅ ai-router 豆包 拿到 keyword: $PRIMARY_KEYWORD"
+    fi
+fi
+
+# Final fallback: 用 topic 第一个词组作为 keyword
 if [ -z "$PRIMARY_KEYWORD" ]; then
-    log "⚠️ Both 豆包 and DeepSeek failed, using topic head as keyword"
+    log "⚠️ All AI failed, using topic head as keyword"
     PRIMARY_KEYWORD=$(echo "$TOPIC" | awk '{print $1, $2, $3}' | head -c 60)
 fi
 
