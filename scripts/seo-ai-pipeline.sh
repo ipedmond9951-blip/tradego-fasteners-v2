@@ -592,6 +592,12 @@ log "=========================================="
 
 WRITER_PROMPT="You are a senior B2B trade content writer for tradego-fasteners.com (China fastener manufacturer exporting to Africa).
 
+CRITICAL OUTPUT RULES (must follow):
+- DO NOT acknowledge the prompt with phrases like 'I will', 'Let me', 'Here is', '我将', '好的'
+- START writing the article immediately, no preamble, no meta-commentary
+- First character of your output MUST be a markdown ## H2 heading or article text
+- If you would normally start with 'Sure! Here is...', SKIP that and start with the first section directly
+
 Topic: $TOPIC
 Primary keyword: $PRIMARY_KEYWORD
 

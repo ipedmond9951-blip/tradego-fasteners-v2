@@ -34,6 +34,17 @@ if ! curl -sf http://localhost:18800/json/version > /dev/null 2>&1; then
   exit 2
 fi
 
+# 2026-07-15 fix: chatgpt.com 健康检查 (7/15 08:00 实测 page.goto 30s timeout)
+# 偶发 chatgpt.com 不可达, ai-router 内部 auto-heal 也救不了
+# 提前检测, 失败时返空 + exit 0 让 pipeline 走 fallback (doubao/gemini/grok)
+if [ "$AI" = "chatgpt" ]; then
+  if ! curl -sf -m 10 -o /dev/null https://chatgpt.com/ 2>&1; then
+    echo "[warn] chatgpt.com 不可达 (10s timeout), 跳过 chatgpt, pipeline 会走 fallback" >&2
+    echo ""  # 空内容, pipeline 判 insufficient 触发 fallback
+    exit 0
+  fi
+fi
+
 # 调用 ai-router
 AI_ROUTER="$HOME/.agents/skills/ai-assistant-router/ai-router.js"
 PROMPT=$(cat "$PROMPT_FILE")
