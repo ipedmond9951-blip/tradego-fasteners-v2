@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next'
+import Script from 'next/script'
 import '../globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -91,6 +92,18 @@ export default async function LocaleLayout({
   return (
     <html lang={loc}>
       <head>
+        {/* Google Search Console verification - 2026-07-15 占位: 需要总裁从 GSC 后台拿 content */}
+        <meta name="google-site-verification" content="GSC_VERIFICATION_CODE_PLACEHOLDER" />
+
+        {/* Google Analytics 4 (gtag.js) - 2026-07-15 占位: 需要 G-XXXX measurement ID */}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" strategy="afterInteractive" />
+        <Script id="google-analytics-init" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XXXXXXXXXX');`}
+        </Script>
+
         <link rel="icon" href="/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />

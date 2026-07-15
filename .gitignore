@@ -59,3 +59,7 @@ public/images/articles/ab-tests/
 
 # Local debug scripts (GSC scrapers, etc.)
 tmp-scripts/
+
+# next-sitemap 自动生成 (postbuild)
+public/sitemap.xml
+public/robots.txt
