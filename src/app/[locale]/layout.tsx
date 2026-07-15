@@ -92,16 +92,14 @@ export default async function LocaleLayout({
   return (
     <html lang={loc}>
       <head>
-        {/* Google Search Console verification - 2026-07-15 占位: 需要总裁从 GSC 后台拿 content */}
-        <meta name="google-site-verification" content="GSC_VERIFICATION_CODE_PLACEHOLDER" />
-
-        {/* Google Analytics 4 (gtag.js) - 2026-07-15 占位: 需要 G-XXXX measurement ID */}
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" strategy="afterInteractive" />
+        {/* Google Analytics 4 - 7/15 21:46 装 (Measurement ID: G-6RE8PBNLC6) */}
+        {/* GSC 已 DNS 验证, 不需要 HTML meta tag */}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-6RE8PBNLC6" strategy="afterInteractive" />
         <Script id="google-analytics-init" strategy="afterInteractive">
           {`window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-XXXXXXXXXX');`}
+            gtag('config', 'G-6RE8PBNLC6');`}
         </Script>
 
         <link rel="icon" href="/favicon.ico" />
