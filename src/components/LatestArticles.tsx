@@ -41,7 +41,7 @@ export default function LatestArticles({ locale, limit = 6 }: LatestArticlesProp
                 <div className="relative h-48 overflow-hidden bg-gray-100">
                   <Image
                     src={article.image}
-                    alt={article.imageAlt?.[locale] || article.imageAlt?.en || title}
+                    alt={(article as any).imageAlt?.[locale] || (article as any).imageAlt?.en || title}
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
