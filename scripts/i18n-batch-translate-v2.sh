@@ -128,12 +128,13 @@ with open('$prompt_file', 'w') as f: f.write(prompt)
     return 0
   fi
 
-  # Call AI (Grok primary, doubao/gemini fallback if available)
-  # 2026-07-16 20:30 调优: 豆包 30/30 + Gemini 10/10 日限, 切到 Grok (nonce 唯一性规避 dedup)
+  # Call AI (Grok primary, doubao/gemini/deepseek fallback if available)
+  # 2026-07-16 20:45 调优: 加 deepseek 备选 (5/day 但比 0 强)
+  # 注: 启用 deepseek (静默期 6/20-7/1 已过, 7/16 调试 OK)
   local result=""
-  for ai in grok doubao gemini; do
+  for ai in grok deepseek doubao gemini; do
     result=$(timeout 300 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$ai" "$prompt_file" 270 2>&1) || true
-    if [ -n "$result" ] && ! echo "$result" | grep -qE "^\[error\]|^\[warn\]|daily_limit|duplicate_prompt|too_frequent|ai-guard|quarantine|不可达"; then
+    if [ -n "$result" ] && ! echo "$result" | grep -qE "^\[error\]|^\[warn\]|daily_limit|duplicate_prompt|too_frequent|ai-guard|quarantine|不可达|静默"; then
       break
     fi
     sleep 3
