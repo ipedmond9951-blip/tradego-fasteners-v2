@@ -1,4 +1,5 @@
 import Script from 'next/script'
+import type { Metadata } from 'next'
 import { locales, type Locale, getMessages, t } from '@/i18n'
 import HeroSection from '@/components/HeroSection'
 import AboutSection from '@/components/AboutSection'
@@ -14,6 +15,19 @@ import ManufacturingProcess from '@/components/ManufacturingProcess'
 import VideoSection from '@/components/VideoSection'
 import StatisticsSection from '@/components/StatisticsSection'
 import SourcesSection from '@/components/SourcesSection'
+
+// 2026-07-16 23:30 GSC 修复: 首页加 canonical + 10-lang hreflang
+export function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Metadata {
+  return {
+    alternates: {
+      canonical: 'https://www.tradego-fasteners.com/en',
+      languages: Object.fromEntries([
+        ['x-default', 'https://www.tradego-fasteners.com/en'],
+        ...locales.map(l => [l, `https://www.tradego-fasteners.com/${l}`])
+      ]),
+    },
+  }
+}
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))

@@ -1,10 +1,18 @@
 import type { Metadata } from 'next'
-import { type Locale } from '@/i18n'
+import { type Locale, locales } from '@/i18n'
 
 export const metadata: Metadata = {
   title: 'Zimbabwe Fasteners Wholesale | Bulk Bolts & Screws Supplier | TradeGo',
   description: 'Professional Zimbabwe fastener wholesale supplier. Factory prices for drywall screws, hex bolts, IBR nails, self-drilling screws. Shipping to Harare, Bulawayo, Mutare. SABS & ISO 9001 certified.',
   keywords: ['Zimbabwe fasteners', 'Harare bolts', 'Zimbabwe wholesale screws', 'Bulawayo nuts', 'African construction fasteners', 'mining fasteners Zimbabwe'],
+  // 2026-07-16 23:30 GSC 修复: 加 canonical + 10-lang hreflang
+  alternates: {
+    canonical: 'https://www.tradego-fasteners.com/en/zimbabwe-fasteners-wholesale',
+    languages: Object.fromEntries([
+      ['x-default', 'https://www.tradego-fasteners.com/en/zimbabwe-fasteners-wholesale'],
+      ...locales.map(l => [l, `https://www.tradego-fasteners.com/${l}/zimbabwe-fasteners-wholesale`])
+    ]),
+  },
 }
 
 export default async function ZimbabweFastenersPage({ params }: { params: Promise<{ locale: string }> }) {
