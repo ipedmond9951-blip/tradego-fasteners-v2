@@ -199,19 +199,31 @@
     }
   ],
   "cta": {
-    "en": "Request Industry-Specific Quote",
-    "zh": "请求行业特定报价",
-    "es": "Solicitar Cotización Específica de la Industria",
-    "ar": "طلب عرض أسعار خاص بالصناعة",
-    "fr": "Demander un Devis Spécifique à l'Industrie",
-    "pt": "Solicitar Cotação Específica da Indústria",
-    "ru": "Запросить Отраслевое Предложение",
-    "ja": "業界固有の見積もりを依頼",
-    "de": "Branchenangebot Anfordern",
-    "hi": "उद्योग-विशिष्ट उद्धरण का अनुरोध करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Request Industry-Specific Quote",
+      "zh": "请求行业特定报价",
+      "es": "Solicitar Cotización Específica de la Industria",
+      "ar": "طلب عرض أسعار خاص بالصناعة",
+      "fr": "Demander un Devis Spécifique à l'Industrie",
+      "pt": "Solicitar Cotação Específica da Indústria",
+      "ru": "Запросить Отраслевое Предложение",
+      "ja": "業界固有の見積もりを依頼",
+      "de": "Branchenangebot Anfordern",
+      "hi": "उद्योग-विशिष्ट उद्धरण का अनुरोध करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "anchor-bolts",

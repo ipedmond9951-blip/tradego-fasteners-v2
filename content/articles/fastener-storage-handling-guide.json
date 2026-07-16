@@ -292,11 +292,23 @@
     "stainless-steel-nuts"
   ],
   "cta": {
-    "en": "Contact TradeGo for fastener supplies and storage consultation. Email: sales@tradego-fasteners.com",
-    "zh": "联系TradeGo获取紧固件供应和储存咨询。",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Contact TradeGo for fastener supplies and storage consultation. Email: sales@tradego-fasteners.com",
+      "zh": "联系TradeGo获取紧固件供应和储存咨询。"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "imageAlt": {
     "en": "Proper fastener storage warehouse organization",

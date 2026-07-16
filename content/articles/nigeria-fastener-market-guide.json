@@ -235,19 +235,31 @@
     }
   ],
   "cta": {
-    "en": "Contact Nigeria Sales",
-    "zh": "联系尼日利亚销售",
-    "es": "Contactar Ventas Nigeria",
-    "ar": "اتصل بمبيعات نيجيريا",
-    "fr": "Contacter Ventes Nigeria",
-    "pt": "Contatar Vendas Nigéria",
-    "ru": "Связаться с Продажами Нигерии",
-    "ja": "ナイジェリア営業に連絡",
-    "de": "Nigeria Vertrieb Kontaktieren",
-    "hi": "नाइजीरिया बिक्री से संपर्क करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Contact Nigeria Sales",
+      "zh": "联系尼日利亚销售",
+      "es": "Contactar Ventas Nigeria",
+      "ar": "اتصل بمبيعات نيجيريا",
+      "fr": "Contacter Ventes Nigeria",
+      "pt": "Contatar Vendas Nigéria",
+      "ru": "Связаться с Продажами Нигерии",
+      "ja": "ナイジェリア営業に連絡",
+      "de": "Nigeria Vertrieb Kontaktieren",
+      "hi": "नाइजीरिया बिक्री से संपर्क करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "bolts-nuts",

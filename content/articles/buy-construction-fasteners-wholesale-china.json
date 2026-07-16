@@ -275,19 +275,31 @@
     }
   ],
   "cta": {
-    "en": "Get Wholesale Quote",
-    "zh": "获取批发报价",
-    "es": "Obtener Cotización al por Mayor",
-    "ar": "احصل على عرض سعر الجملة",
-    "fr": "Obtenir un Devis en Gros",
-    "pt": "Obter Cotação por Atacado",
-    "ru": "Получить Оптовую Котировку",
-    "ja": "卸取引見積もりを得る",
-    "de": "Großhandelsangebot Erhalten",
-    "hi": "थोक उद्धरण प्राप्त करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Get Wholesale Quote",
+      "zh": "获取批发报价",
+      "es": "Obtener Cotización al por Mayor",
+      "ar": "احصل على عرض سعر الجملة",
+      "fr": "Obtenir un Devis en Gros",
+      "pt": "Obter Cotação por Atacado",
+      "ru": "Получить Оптовую Котировку",
+      "ja": "卸取引見積もりを得る",
+      "de": "Großhandelsangebot Erhalten",
+      "hi": "थोक उद्धरण प्राप्त करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "bolts-nuts",

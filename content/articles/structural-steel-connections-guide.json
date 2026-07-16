@@ -292,11 +292,23 @@
     "bolts-nuts"
   ],
   "cta": {
-    "en": "Contact TradeGo for structural fastener solutions. Email: sales@tradego-fasteners.com",
-    "zh": "联系TradeGo获取结构紧固件解决方案。",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Contact TradeGo for structural fastener solutions. Email: sales@tradego-fasteners.com",
+      "zh": "联系TradeGo获取结构紧固件解决方案。"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "imageAlt": {
     "en": "Structural steel bolted connections",

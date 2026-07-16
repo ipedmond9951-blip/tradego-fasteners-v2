@@ -274,19 +274,31 @@
     }
   ],
   "cta": {
-    "en": "Request Bulk Pricing",
-    "zh": "请求批量定价",
-    "es": "Solicitar Precios al por Mayor",
-    "ar": "طلب تسعير بالجملة",
-    "fr": "Demander des Prix en Gros",
-    "pt": "Solicitar Preços por Atacado",
-    "ru": "Запросить Оптовые Цены",
-    "ja": "バルク価格をリクエスト",
-    "de": "Großhandelspreise Anfordern",
-    "hi": "थोक मूल्य का अनुरोध करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Request Bulk Pricing",
+      "zh": "请求批量定价",
+      "es": "Solicitar Precios al por Mayor",
+      "ar": "طلب تسعير بالجملة",
+      "fr": "Demander des Prix en Gros",
+      "pt": "Solicitar Preços por Atacado",
+      "ru": "Запросить Оптовые Цены",
+      "ja": "バルク価格をリクエスト",
+      "de": "Großhandelspreise Anfordern",
+      "hi": "थोक मूल्य का अनुरोध करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "drywall-screws",

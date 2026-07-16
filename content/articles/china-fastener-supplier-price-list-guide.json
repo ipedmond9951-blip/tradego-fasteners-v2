@@ -320,19 +320,31 @@
     }
   ],
   "cta": {
-    "en": "Request Your Free Quote",
-    "zh": "获取免费报价",
-    "es": "Solicite su Cotización Gratis",
-    "ar": "اطلب عرض سعرك مجانًا",
-    "fr": "Demandez votre Devis Gratuit",
-    "pt": "Solicite seu Orçamento Gratuito",
-    "ru": "Запросите Бесплатное КП",
-    "ja": "無料で見積もりを依頼",
-    "de": "Fordern Sie Ihr Kostenloses Angebot an",
-    "hi": "अपना मुफ्त उद्धरण प्राप्त करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Request Your Free Quote",
+      "zh": "获取免费报价",
+      "es": "Solicite su Cotización Gratis",
+      "ar": "اطلب عرض سعرك مجانًا",
+      "fr": "Demandez votre Devis Gratuit",
+      "pt": "Solicite seu Orçamento Gratuito",
+      "ru": "Запросите Бесплатное КП",
+      "ja": "無料で見積もりを依頼",
+      "de": "Fordern Sie Ihr Kostenloses Angebot an",
+      "hi": "अपना मुफ्त उद्धरण प्राप्त करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "bolts-nuts",

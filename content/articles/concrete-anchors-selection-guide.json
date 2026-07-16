@@ -255,19 +255,31 @@
     }
   ],
   "cta": {
-    "en": "Request Anchor Quote",
-    "zh": "请求锚栓报价",
-    "es": "Solicitar Cotización de Anclajes",
-    "ar": "طلب عرض أسعار المراسي",
-    "fr": "Demander un Devis pour Ancrages",
-    "pt": "Solicitar Cotização de Ancoragens",
-    "ru": "Запросить КП на Анкеры",
-    "ja": "アンカー見積もりを依頼",
-    "de": "Anker Angebot Erhalten",
-    "hi": "एंकर कोटेशन का अनुरोध करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Request Anchor Quote",
+      "zh": "请求锚栓报价",
+      "es": "Solicitar Cotización de Anclajes",
+      "ar": "طلب عرض أسعار المراسي",
+      "fr": "Demander un Devis pour Ancrages",
+      "pt": "Solicitar Cotização de Ancoragens",
+      "ru": "Запросить КП на Анкеры",
+      "ja": "アンカー見積もりを依頼",
+      "de": "Anker Angebot Erhalten",
+      "hi": "एंकर कोटेशन का अनुरोध करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "anchor-bolts",

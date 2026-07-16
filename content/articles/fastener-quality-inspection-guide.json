@@ -253,19 +253,31 @@
     }
   ],
   "cta": {
-    "en": "Request Quality Documentation",
-    "zh": "请求质量文件",
-    "es": "Solicitar Documentación de Calidad",
-    "ar": "طلب وثائق الجودة",
-    "fr": "Demander Documentation Qualité",
-    "pt": "Solicitar Documentação de Qualidade",
-    "ru": "Запросить Документацию по Качеству",
-    "ja": "品質文書をご請求",
-    "de": "Qualitätsdokumentation Anfordern",
-    "hi": "गुणवत्ता दस्तावेज़ीकरण का अनुरोध करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Request Quality Documentation",
+      "zh": "请求质量文件",
+      "es": "Solicitar Documentación de Calidad",
+      "ar": "طلب وثائق الجودة",
+      "fr": "Demander Documentation Qualité",
+      "pt": "Solicitar Documentação de Qualidade",
+      "ru": "Запросить Документацию по Качеству",
+      "ja": "品質文書をご請求",
+      "de": "Qualitätsdokumentation Anfordern",
+      "hi": "गुणवत्ता दस्तावेज़ीकरण का अनुरोध करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "bolts-nuts",

@@ -291,19 +291,31 @@
     }
   ],
   "cta": {
-    "en": "Request Shipping Quote",
-    "zh": "请求运输报价",
-    "es": "Solicitar Cotización de Envío",
-    "ar": "طلب عرض أسعار الشحن",
-    "fr": "Demander un Devis d'Expédition",
-    "pt": "Solicitar Cotação de Envio",
-    "ru": "Запросить КП на Доставку",
-    "ja": "出荷見積もりを依頼",
-    "de": "Versandangebot Erhalten",
-    "hi": "शिपिंग कोटेशन का अनुरोध करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Request Shipping Quote",
+      "zh": "请求运输报价",
+      "es": "Solicitar Cotización de Envío",
+      "ar": "طلب عرض أسعار الشحن",
+      "fr": "Demander un Devis d'Expédition",
+      "pt": "Solicitar Cotação de Envio",
+      "ru": "Запросить КП на Доставку",
+      "ja": "出荷見積もりを依頼",
+      "de": "Versandangebot Erhalten",
+      "hi": "शिपिंग कोटेशन का अनुरोध करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "bolts-nuts",

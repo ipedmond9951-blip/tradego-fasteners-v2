@@ -217,19 +217,31 @@
     }
   ],
   "cta": {
-    "en": "Request Mining Fastener Quote",
-    "zh": "请求采矿紧固件报价",
-    "es": "Solicitar Cotización de Sujetadores Mineros",
-    "ar": "طلب عرض أسعار مثبتات التعدين",
-    "fr": "Demander un Devis pour Fixations Minières",
-    "pt": "Solicitar Cotação de Fixadores de Mineração",
-    "ru": "Запросить КП на Горный Крепеж",
-    "ja": "鉱業用ファスナー見積もりを得る",
-    "de": "Bergbau Befestigungen Angebot Erhalten",
-    "hi": "खनन फास्टनर कोटेशन का अनुरोध करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Request Mining Fastener Quote",
+      "zh": "请求采矿紧固件报价",
+      "es": "Solicitar Cotización de Sujetadores Mineros",
+      "ar": "طلب عرض أسعار مثبتات التعدين",
+      "fr": "Demander un Devis pour Fixations Minières",
+      "pt": "Solicitar Cotação de Fixadores de Mineração",
+      "ru": "Запросить КП на Горный Крепеж",
+      "ja": "鉱業用ファスナー見積もりを得る",
+      "de": "Bergbau Befestigungen Angebot Erhalten",
+      "hi": "खनन फास्टनर कोटेशन का अनुरोध करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "anchor-bolts",

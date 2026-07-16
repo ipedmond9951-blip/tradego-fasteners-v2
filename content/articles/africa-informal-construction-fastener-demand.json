@@ -342,19 +342,31 @@
     "south-africa-sabs-fastener-import-requirements"
   ],
   "cta": {
-    "en": "Source fasteners for Africa informal construction projects via TradeGo. Contact our procurement team for bulk pricing and distribution partnership.",
-    "zh": "通过TradeGo为非洲非正规建筑项目采购紧固件。联系我们的采购团队获取批量价格和分销合作。",
-    "es": "Abastezca sujetadores para proyectos de construccion informal en Africa a traves de TradeGo. Contacte a nuestro equipo de compras.",
-    "ar": "المصدر أدوات التثبيت لمشاريع البناء غير الرسمية في أفريقيا عبر TradeGo. تواصل مع فريق المشتريات لدينا.",
-    "fr": "Approvisionnez-vous en fixations pour vos projets de construction informelle en Afrique via TradeGo. Contactez notre equipe d'approvisionnement.",
-    "pt": "Fonte fixadores para projetos de construcao informal na Africa via TradeGo. Entre em contato com nossa equipe de compras.",
-    "ru": "Zakupayte krepezh dlya proyektov neformal'nogo stroitel'stva v Afrike cherez TradeGo. Svyazhites' s nashey komandoy po zakupkam.",
-    "ja": "TradeGoを通じてアフリカのインフォーマル建築プロジェクトのファスナーを調達。調達チームにお問い合わせください。",
-    "de": "Beziehen Sie Befestigungsmittel fur informelle Bauprojekte in Afrika uber TradeGo. Kontaktieren Sie unser Beschaffungsteam.",
-    "hi": "TradeGo ke through Africa informal construction projects ke liye fasteners source karein. Hamari procurement team se contact karein.",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Source fasteners for Africa informal construction projects via TradeGo. Contact our procurement team for bulk pricing and distribution partnership.",
+      "zh": "通过TradeGo为非洲非正规建筑项目采购紧固件。联系我们的采购团队获取批量价格和分销合作。",
+      "es": "Abastezca sujetadores para proyectos de construccion informal en Africa a traves de TradeGo. Contacte a nuestro equipo de compras.",
+      "ar": "المصدر أدوات التثبيت لمشاريع البناء غير الرسمية في أفريقيا عبر TradeGo. تواصل مع فريق المشتريات لدينا.",
+      "fr": "Approvisionnez-vous en fixations pour vos projets de construction informelle en Afrique via TradeGo. Contactez notre equipe d'approvisionnement.",
+      "pt": "Fonte fixadores para projetos de construcao informal na Africa via TradeGo. Entre em contato com nossa equipe de compras.",
+      "ru": "Zakupayte krepezh dlya proyektov neformal'nogo stroitel'stva v Afrike cherez TradeGo. Svyazhites' s nashey komandoy po zakupkam.",
+      "ja": "TradeGoを通じてアフリカのインフォーマル建築プロジェクトのファスナーを調達。調達チームにお問い合わせください。",
+      "de": "Beziehen Sie Befestigungsmittel fur informelle Bauprojekte in Afrika uber TradeGo. Kontaktieren Sie unser Beschaffungsteam.",
+      "hi": "TradeGo ke through Africa informal construction projects ke liye fasteners source karein. Hamari procurement team se contact karein."
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "ogImage": "/images/articles/og-africa-informal-construction-fastener-demand.jpg",
   "schema": {

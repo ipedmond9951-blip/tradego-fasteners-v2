@@ -292,19 +292,31 @@
     }
   ],
   "cta": {
-    "en": "Contact South Africa Sales",
-    "zh": "联系南非销售",
-    "es": "Contactar Ventas Sudáfrica",
-    "ar": "اتصل بمبيعات جنوب أفريقيا",
-    "fr": "Contacter Ventes Afrique du Sud",
-    "pt": "Contatar Vendas África do Sul",
-    "ru": "Связаться с Продажами ЮАР",
-    "ja": "南アフリカ営業に連絡",
-    "de": "Südafrika Vertrieb Kontaktieren",
-    "hi": "दक्षिण अफ्रीका बिक्री से संपर्क करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Contact South Africa Sales",
+      "zh": "联系南非销售",
+      "es": "Contactar Ventas Sudáfrica",
+      "ar": "اتصل بمبيعات جنوب أفريقيا",
+      "fr": "Contacter Ventes Afrique du Sud",
+      "pt": "Contatar Vendas África do Sul",
+      "ru": "Связаться с Продажами ЮАР",
+      "ja": "南アフリカ営業に連絡",
+      "de": "Südafrika Vertrieb Kontaktieren",
+      "hi": "दक्षिण अफ्रीका बिक्री से संपर्क करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "bolts-nuts",

@@ -292,19 +292,31 @@
     }
   ],
   "cta": {
-    "en": "Contact TradeGo",
-    "zh": "联系TradeGo",
-    "es": "Contactar TradeGo",
-    "ar": "تواصل مع TradeGo",
-    "fr": "Contacter TradeGo",
-    "pt": "Contatar TradeGo",
-    "ru": "Связаться с TradeGo",
-    "ja": "TradeGoに連絡",
-    "de": "TradeGo Kontaktieren",
-    "hi": "TradeGo से संपर्क करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Contact TradeGo",
+      "zh": "联系TradeGo",
+      "es": "Contactar TradeGo",
+      "ar": "تواصل مع TradeGo",
+      "fr": "Contacter TradeGo",
+      "pt": "Contatar TradeGo",
+      "ru": "Связаться с TradeGo",
+      "ja": "TradeGoに連絡",
+      "de": "TradeGo Kontaktieren",
+      "hi": "TradeGo से संपर्क करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "bolts-nuts",

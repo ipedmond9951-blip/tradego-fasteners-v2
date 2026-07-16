@@ -255,19 +255,31 @@
     }
   ],
   "cta": {
-    "en": "Request Timber Fasteners",
-    "zh": "请求木工紧固件",
-    "es": "Solicitar Sujetadores para Madera",
-    "ar": "طلب المثبتات الخشبية",
-    "fr": "Demander Fixations pour Bois",
-    "pt": "Solicitar Fixadores para Madeira",
-    "ru": "Запросить Крепеж для Дерева",
-    "ja": "木材用ファスナーをご希望",
-    "de": "Holzverbinder Anfordern",
-    "hi": "टिम्बर फास्टनर का अनुरोध करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Request Timber Fasteners",
+      "zh": "请求木工紧固件",
+      "es": "Solicitar Sujetadores para Madera",
+      "ar": "طلب المثبتات الخشبية",
+      "fr": "Demander Fixations pour Bois",
+      "pt": "Solicitar Fixadores para Madeira",
+      "ru": "Запросить Крепеж для Дерева",
+      "ja": "木材用ファスナーをご希望",
+      "de": "Holzverbinder Anfordern",
+      "hi": "टिम्बर फास्टनर का अनुरोध करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "coach-screws",

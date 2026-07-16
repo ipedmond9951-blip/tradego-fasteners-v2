@@ -265,19 +265,31 @@
     }
   ],
   "cta": {
-    "en": "Request Bolt Quote",
-    "zh": "请求螺栓报价",
-    "es": "Solicitar Cotización de Pernos",
-    "ar": "طلب عرض أسعار البراغي",
-    "fr": "Demander un Devis pour Boulons",
-    "pt": "Solicitar Cotação de Parafusos",
-    "ru": "Запросить КП на Болты",
-    "ja": "ボルトのお見積もりを依頼",
-    "de": "Schrauben Angebot Erhalten",
-    "hi": "बोल्ट कोटेशन का अनुरोध करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Request Bolt Quote",
+      "zh": "请求螺栓报价",
+      "es": "Solicitar Cotización de Pernos",
+      "ar": "طلب عرض أسعار البراغي",
+      "fr": "Demander un Devis pour Boulons",
+      "pt": "Solicitar Cotação de Parafusos",
+      "ru": "Запросить КП на Болты",
+      "ja": "ボルトのお見積もりを依頼",
+      "de": "Schrauben Angebot Erhalten",
+      "hi": "बोल्ट कोटेशन का अनुरोध करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "bolts-nuts",
