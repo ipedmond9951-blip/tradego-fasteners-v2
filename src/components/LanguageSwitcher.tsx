@@ -23,6 +23,10 @@ export default function LanguageSwitcher() {
   const switchLocale = (newLocale: Locale) => {
     const segments = pathname.split('/')
     if (locales.includes(segments[1] as Locale)) {
+      // 2026-07-16 23:30 修复: 防止 newLocale=undefined 拼出 /undefined URL (GSC 404 根因之一)
+      if (!newLocale || !locales.includes(newLocale)) {
+        return pathname
+      }
       segments[1] = newLocale
     }
     return segments.join('/') || '/'
