@@ -27,8 +27,8 @@ function slugifyCategory(cat: string): string {
   }
 }
 
-// Category i18n labels (10 langs, hard-coded for known categories)
-const CATEGORY_I18N: Record<string, Record<Locale, string>> = {
+// Category i18n labels
+const CATEGORY_I18N: Record<string, Record<string, string>> = {
   "Technical Guide": {
     en: "Technical Guides", zh: "技术指南", es: "Guías Técnicas", ar: "الأدلة التقنية",
     fr: "Guides Techniques", pt: "Guias Técnicos", ru: "Технические руководства",

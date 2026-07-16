@@ -49,7 +49,7 @@ export default function ArticleSchema({
       ? '紧固件,干墙螺丝,自钻螺丝,螺栓,螺母,IBR钉,建筑,批发'
       : 'fasteners,drywall screws,self-drilling screws,bolts,nuts,IBR nails,construction,wholesale',
     wordCount: description.split(' ').length * 10, // Estimate
-    inLanguage: locale === 'zh' ? 'zh-CN' : locale === 'es' ? 'es' : 'en',
+    inLanguage: locale === 'zh' ? 'zh-CN' : 'en',
     isPartOf: {
       '@type': 'WebSite',
       '@id': 'https://www.tradego-fasteners.com/#website',
