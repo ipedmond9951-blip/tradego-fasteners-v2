@@ -51,6 +51,9 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
 
   const categories = ['All', ...Array.from(new Set(articles.map(a => a.category)))]
 
+  // 2026-07-16: 分类按钮改 Link 指向 category 静态页 (SEO 友好, 预渲染)
+  const slugify = (cat: string) => cat.toLowerCase().replace(/\s*-\s*/g, '-').replace(/\s+/g, '-')
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
@@ -64,12 +67,23 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
       {/* Articles Grid */}
       <section className="py-10 md:py-16">
         <div className="container mx-auto px-4 sm:px-6">
-          {/* Category tabs */}
+          {/* Category tabs - 2026-07-16 改 Link 到 /industry/category/[slug]/ 静态页 */}
           <div className="flex flex-wrap gap-2 mb-8">
-            {categories.map((cat) => (
-              <button key={cat} className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${cat === 'All' ? 'bg-primary-700 text-white' : 'bg-white text-gray-600 hover:bg-gray-100 border border-gray-200'}`}>
+            <Link
+              key="All"
+              href={`/${locale}/industry`}
+              className="px-4 py-2 rounded-full text-sm font-medium transition-colors bg-primary-700 text-white"
+            >
+              All
+            </Link>
+            {categories.filter(c => c !== 'All').map((cat) => (
+              <Link
+                key={cat}
+                href={`/${locale}/industry/category/${slugify(cat)}`}
+                className="px-4 py-2 rounded-full text-sm font-medium transition-colors bg-white text-gray-600 hover:bg-gray-100 border border-gray-200"
+              >
                 {cat}
-              </button>
+              </Link>
             ))}
           </div>
 
