@@ -192,9 +192,34 @@ print(f'[merge] updated {len(translations)} langs for {slug}')
 # === MAIN ===
 MODE="${1:-h2}"
 COOLDOWN_SLEEP=35
-log "===== ${MODE} BATCH TRANSLATION v2 START (8 langs/call) ====="
+# 2026-07-16 21:15 调整 (总裁选项 C): 每天 max 50 calls, 留 15 buffer 不触 65 上限
+# 不动 ai-guard.js (硬安全机制), 仅在脚本层限速
+DAILY_QUOTA=50
+QUOTA_COUNTER="$HOME/.openclaw/workspace/ai-guard-counter.json"
+get_today_used() {
+  python3 -c "
+import json, os
+try:
+    with open(os.path.expanduser('$QUOTA_COUNTER')) as f:
+        d = json.load(f)
+    today = __import__('datetime').date.today().isoformat()
+    print(sum(d.get('daily', {}).get(today, {}).values()))
+except Exception as e:
+    print(0)
+" 2>/dev/null
+}
+
+log "===== ${MODE} BATCH TRANSLATION v2 START (8 langs/call, daily quota $DAILY_QUOTA) ====="
 
 for slug in $(jq -r '.slug' "$ARTICLES_DIR"/*.json 2>/dev/null | sort -u); do
+  # 2026-07-16 quota check: 每天 max $DAILY_QUOTA calls
+  TODAY_USED=$(get_today_used)
+  if [ "$TODAY_USED" -ge "$DAILY_QUOTA" ]; then
+    log "⏸️ 今日 quota 已用 $TODAY_USED/$DAILY_QUOTA, 退出等明天 00:00 cron 重启"
+    log "   (cron ee39e1bc 每天 0 0 * * * 自动恢复)"
+    exit 0
+  fi
+
   if grep -q "^${slug}\$" "$DONE_FILE" 2>/dev/null; then
     continue
   fi
