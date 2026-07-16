@@ -33,7 +33,15 @@
     {
       "id": "why-grades-matter",
       "heading": {
-        "en": "Why Bolt Grades Matter: The Cost of Getting It Wrong"
+        "en": "Why Bolt Grades Matter: The Cost of Getting It Wrong",
+        "es": "Por qué importan los grados de pernos: El costo de equivocarse",
+        "ar": "لماذا تهم درجات البراغي: تكلفة الخطأ",
+        "fr": "Pourquoi les grades de boulons comptent : Le coût de se tromper",
+        "pt": "Por que os graus de parafusos importam: O custo de errar",
+        "ru": "Почему важны классы болтов: Стоимость ошибки",
+        "ja": "ボルトグレードが重要な理由：間違えるコスト",
+        "de": "Warum Bolzenklassen wichtig sind: Die Kosten eines Fehlers",
+        "hi": "बोल्ट ग्रेड क्यों मायने रखते हैं: गलती करने की लागत"
       },
       "body": {
         "en": "Using the wrong bolt grade has real consequences. A Grade 4.6 bolt used where Grade 8.8 is required will fail at 40% of the design load. In structural applications, this means building collapse. In automotive applications, it means component failure at speed. Conversely, using Grade 12.9 where Grade 8.8 suffices wastes 3-4x cost and introduces hydrogen embrittlement risk. The global <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a></a> failure rate is estimated at 2-5% — and 80% of failures trace back to incorrect grade selection. Related resources: <a href=\"/en/products/high-tensile-bolts\">high-tensile bolts</a> <a href=\"/en/products/anchor-bolts\">anchor bolts</a> <a href=\"/en/products/stainless-bolts\">stainless steel fasteners</a> <a href=\"/en/products/hex-bolts\">hex bolts</a> <a href=\"/en/products/lock-nuts\">lock nuts</a> <a href=\"/en/products/washers\">washers</a> <a href=\"/en/products/self-drilling-screws\">self-drilling screws</a> <a href=\"/en/products/socket-screws\">socket screws</a>.  This procurement framework applies to fastener sourcing for construction, mining, energy, automotive, and general industrial applications. The decision logic prioritizes quality consistency, supplier reliability, and total cost of ownership over short-term unit price. For B2B buyers in Africa, Latin America, and Southeast Asia, additional considerations include regional customs requirements, container consolidation options, and payment security mechanisms. Standardized specifications that travel across projects reduce training time, RFQ processing time, and supplier onboarding effort.  This procurement framework applies to fastener sourcing for construction, mining, energy, automotive, and general industrial applications. The decision logic prioritizes quality consistency, supplier reliability, and total cost of ownership over short-term unit price. For B2B buyers in Africa, Latin America, and Southeast Asia, additional considerations include regional customs requirements, container consolidation options, and payment security mechanisms. Standardized specifications that travel across projects reduce training time, RFQ processing time, and supplier onboarding effort.",
@@ -51,7 +59,15 @@
     {
       "id": "reading-markings",
       "heading": {
-        "en": "How to Read Bolt Head Markings"
+        "en": "How to Read Bolt Head Markings",
+        "es": "Cómo leer las marcas en la cabeza de los pernos",
+        "ar": "كيفية قراءة علامات رأس البرغي",
+        "fr": "Comment lire les marquages sur la tête des boulons",
+        "pt": "Como ler as marcações na cabeça dos parafusos",
+        "ru": "Как читать маркировку на головке болта",
+        "ja": "ボルト頭部のマーキングの読み方",
+        "de": "So lesen Sie Bolzenkopfmarkierungen",
+        "hi": "बोल्ट हेड मार्किंग कैसे पढ़ें"
       },
       "body": {
         "en": "ISO 898-1 bolt grades are stamped on the bolt head. The marking system uses two numbers separated by a dot. The first number = minimum tensile strength / 100 (in MPa). The second number = yield ratio (yield strength / tensile strength) × 10. So for Grade 8.8: tensile strength = 8 × 100 = 800 MPa, yield strength = 800 × 0.8 = 640 MPa. For imperial <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a> (SAE J429), markings use radial lines: 3 lines = Grade 5, 6 lines = Grade 8, no lines = Grade 2.  Standards-based procurement requires continuous learning as ISO, ASTM, DIN, and GB standards are revised every 3-5 years. Subscribe to standards update notifications and review specifications annually. The most common standards used in international fastener trade are ISO 898-1 (mechanical properties), ISO 3506-1 (stainless), ISO 3269 (acceptance inspection), ISO 4042 (coatings), and ISO 1502 (thread gauges). For B2B buyers, building a standards reference library with at least the top 20 standards relevant to your product mix is essential.  Standards-based procurement requires continuous learning as ISO, ASTM, DIN, and GB standards are revised every 3-5 years. Subscribe to standards update notifications and review specifications annually. The most common standards used in international fastener trade are ISO 898-1 (mechanical properties), ISO 3506-1 (stainless), ISO 3269 (acceptance inspection), ISO 4042 (coatings), and ISO 1502 (thread gauges). For B2B buyers, building a standards reference library with at least the top 20 standards relevant to your product mix is essential.",
@@ -122,7 +138,15 @@
     {
       "id": "grade-comparison",
       "heading": {
-        "en": "Grade-by-Grade Selection Guide"
+        "en": "Grade-by-Grade Selection Guide",
+        "es": "Guía de selección por grado",
+        "ar": "دليل الاختيار حسب الدرجة",
+        "fr": "Guide de sélection par grade",
+        "pt": "Guia de seleção por grau",
+        "ru": "Руководство по выбору по классам",
+        "ja": "グレード別選択ガイド",
+        "de": "Auswahlleitfaden nach Klassen",
+        "hi": "ग्रेड-दर-ग्रेड चयन गाइड"
       },
       "body": {
         "en": "Grade 4.6 is the standard general-purpose bolt — made from low-carbon steel, no heat treatment required. Adequate for non-structural connections, furniture, light fixtures, and general hardware. Grade 8.8 is the workhorse of structural bolting — quenched and tempered medium-carbon steel. Required for steel structure connections, machinery mounting, and most construction applications. This is the most commonly specified grade in building codes worldwide. Grade 10.9 is high-strength structural — alloy steel with quench and temper. Used for heavy machinery, automotive suspension, crane connections, and high-stress structural joints. Grade 12.9 is the strongest standard grade — high-alloy steel with careful heat treatment. Reserved for extreme applications: automotive engine mounting, hydraulic systems, and critical structural connections. NOTE: 12.9 is susceptible to hydrogen embrittlement and must never be galvanized.  The comparison methodology above uses typical ranges from industry data and TradeGo procurement experience 2018-2024. Actual market prices fluctuate with raw material costs (steel, zinc, nickel), energy costs, labor costs, and currency exchange rates. For accurate comparison, request identical RFQs from 3-5 qualified suppliers and compare landed cost (product + shipping + insurance + duties). The lowest unit price is rarely the lowest total cost of ownership.  The comparison methodology above uses typical ranges from industry data and TradeGo procurement experience 2018-2024. Actual market prices fluctuate with raw material costs (steel, zinc, nickel), energy costs, labor costs, and currency exchange rates. For accurate comparison, request identical RFQs from 3-5 qualified suppliers and compare landed cost (product + shipping + insurance + duties). The lowest unit price is rarely the lowest total cost of ownership.",
@@ -179,7 +203,15 @@
     {
       "id": "matching-nuts-washers",
       "heading": {
-        "en": "Matching Nuts and Washers: A System Approach"
+        "en": "Matching Nuts and Washers: A System Approach",
+        "es": "Coincidencia de tuercas y arandelas: Un enfoque sistemático",
+        "ar": "مطابقة الصواميل والغسالات: نهج نظامي",
+        "fr": "Appariement des écrous et rondelles : Une approche systémique",
+        "pt": "Combinando porcas e arruelas: Uma abordagem sistêmica",
+        "ru": "Согласование гаек и шайб: Системный подход",
+        "ja": "ナットとワッシャーのマッチング：システム的アプローチ",
+        "de": "Passende Muttern und Unterlegscheiben: Ein systematischer Ansatz",
+        "hi": "नट्स और वॉशर का मिलान: सिस्टमेटिक अप्रोच"
       },
       "body": {
         "en": "A bolt is only as strong as its nut. The nut grade must match or exceed the bolt grade. ISO 898-2 defines nut designation by proof load stress. Using a Grade 4 nut with a Grade 8.8 bolt means the nut will strip before the bolt reaches its proof load. Critical rule: nut class ≥ bolt class. For Grade 8.8 <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a>, use Class 8 <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nuts</a></a> minimum. For Grade 10.9 <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a>, use Class 10 <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nuts</a></a>. <a href=\"/products#washers\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#washers\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Washers</a></a> also matter: hard <a href=\"/products#washers\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#washers\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">washers</a></a> (HV 300+) are required for Grade 8.8 and above to prevent embedding into the connected part.  The verification checklist applies to both initial supplier qualification and ongoing batch inspection. For high-risk applications (load-bearing structural, pressure vessels, mining, marine), add fatigue testing, salt-spray testing (ASTM B117), torque-tension testing, and post-installation inspection. The cost of additional verification is 0.1-0.3% of order value, while undetected quality failures can be 10-100x the order value in damages.  The verification checklist applies to both initial supplier qualification and ongoing batch inspection. For high-risk applications (load-bearing structural, pressure vessels, mining, marine), add fatigue testing, salt-spray testing (ASTM B117), torque-tension testing, and post-installation inspection. The cost of additional verification is 0.1-0.3% of order value, while undetected quality failures can be 10-100x the order value in damages.",
@@ -231,7 +263,15 @@
     {
       "id": "coating-interactions",
       "heading": {
-        "en": "Coating Interactions: What You Must Know"
+        "en": "Coating Interactions: What You Must Know",
+        "es": "Interacciones de recubrimientos: Lo que debes saber",
+        "ar": "تفاعلات الطلاء: ما يجب أن تعرفه",
+        "fr": "Interactions des revêtements : Ce que vous devez savoir",
+        "pt": "Interações de revestimentos: O que você precisa saber",
+        "ru": "Взаимодействие покрытий: Что нужно знать",
+        "ja": "コーティングの相互作用：知っておくべきこと",
+        "de": "Beschichtungswechselwirkungen: Was Sie wissen müssen",
+        "hi": "कोटिंग इंटरैक्शन्स: जो आपको जानना चाहिए"
       },
       "body": {
         "en": "Coating choice affects bolt strength. Hot-dip galvanizing heats the bolt to ~450°C, which can alter the heat treatment of Grade 10.9 and 12.9 <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a>, reducing their mechanical properties. For Grade 10.9 and above, use mechanical galvanizing or sherardizing instead. Hydrogen embrittlement is a critical risk: electroplating introduces hydrogen into the steel. For Grade 10.9 and 12.9, baking within 4 hours of plating is mandatory (4-24 hours at 190-220°C). Never electroplate Grade 12.9 <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a>.  Supplier evaluation should be a continuous process, not a one-time exercise. Re-evaluate suppliers annually based on delivery performance, quality metrics, price competitiveness, and responsiveness. Maintain a supplier scorecard with weighted metrics: on-time delivery (25%), quality acceptance rate (30%), price competitiveness (20%), responsiveness (15%), and documentation accuracy (10%). Drop suppliers scoring below 70% over a 6-month period and qualify replacements.  Supplier evaluation should be a continuous process, not a one-time exercise. Re-evaluate suppliers annually based on delivery performance, quality metrics, price competitiveness, and responsiveness. Maintain a supplier scorecard with weighted metrics: on-time delivery (25%), quality acceptance rate (30%), price competitiveness (20%), responsiveness (15%), and documentation accuracy (10%). Drop suppliers scoring below 70% over a 6-month period and qualify replacements.",
@@ -288,7 +328,15 @@
     {
       "id": "common-mistakes",
       "heading": {
-        "en": "5 Common Procurement Mistakes"
+        "en": "5 Common Procurement Mistakes",
+        "es": "5 Errores comunes en la compra",
+        "ar": "5 أخطاء شائعة في الشراء",
+        "fr": "5 Erreurs courantes d'approvisionnement",
+        "pt": "5 Erros comuns de procurement",
+        "ru": "5 распространенных ошибок закупок",
+        "ja": "5つの一般的な調達ミス",
+        "de": "5 häufige Beschaffungsfehler",
+        "hi": "5 सामान्य खरीदारी की गलतियाँ"
       },
       "body": {
         "en": "Mistake 1: Buying on price alone — Grade 4.6 <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a> cost 40% less than 8.8, but using them in structural applications creates liability. Mistake 2: Not specifying grade on purchase orders — many suppliers default to Grade 4.6 unless told otherwise. Mistake 3: Mixing grades in same connection — creates uneven load distribution. Mistake 4: Substituting imperial for metric grades — SAE Grade 5 ≈ 8.8 but is not equivalent; SAE Grade 8 ≈ 10.9 but has different proof load values. Mistake 5: Ignoring nut grade — a Grade 4 nut on a Grade 8.8 bolt fails at 50% of bolt capacity. For more information, also see our guides on [<a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">hex bolt</a></a> dimensions](/en/industry/hex-bolt-dimensions-chart), [high-tensile <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a>](/en/industry/high-tensile-structural-<a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a>-guide), [carriage <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a>](/en/industry/carriage-<a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></a>-specifications).  For B2B buyers operating in multiple countries, harmonize specifications with regional standards and local customs requirements. Common regional frameworks: SABS (South Africa), KEBS (Kenya), TBS (Tanzania), ZIMRA (Zimbabwe), SON (Nigeria), and AfCFTA standards for pan-Africa trade. Local standards compliance is often mandatory for public infrastructure projects, mining operations, and government tenders.  For B2B buyers operating in multiple countries, harmonize specifications with regional standards and local customs requirements. Common regional frameworks: SABS (South Africa), KEBS (Kenya), TBS (Tanzania), ZIMRA (Zimbabwe), SON (Nigeria), and AfCFTA standards for pan-Africa trade. Local standards compliance is often mandatory for public infrastructure projects, mining operations, and government tenders.",
@@ -306,7 +354,15 @@
     {
       "id": "faq",
       "heading": {
-        "en": "Frequently Asked Questions"
+        "en": "Frequently Asked Questions",
+        "es": "Preguntas frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Questions fréquentes",
+        "pt": "Perguntas frequentes",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
       },
       "faqItems": [
         {
