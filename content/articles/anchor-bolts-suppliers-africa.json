@@ -227,19 +227,31 @@
     }
   ],
   "cta": {
-    "en": "Request Anchor Bolt Quote",
-    "zh": "请求锚栓报价",
-    "es": "Solicitar Cotización de Pernos de Anclaje",
-    "ar": "طلب عرض أسعار براغي التثبيت",
-    "fr": "Demander un Devis pour Boulons d'Ancrage",
-    "pt": "Solicitar Cotação de Parafusos de Ancoragem",
-    "ru": "Запросить КП на Анкерные Болты",
-    "ja": "アナ江区のお見積もりを依頼",
-    "de": "Ankerschrauben Angebot Erhalten",
-    "hi": "एंकर बोल्ट कोटेशन का अनुरोध करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Request Anchor Bolt Quote",
+      "zh": "请求锚栓报价",
+      "es": "Solicitar Cotización de Pernos de Anclaje",
+      "ar": "طلب عرض أسعار براغي التثبيت",
+      "fr": "Demander un Devis pour Boulons d'Ancrage",
+      "pt": "Solicitar Cotação de Parafusos de Ancoragem",
+      "ru": "Запросить КП на Анкерные Болты",
+      "ja": "アナ江区のお見積もりを依頼",
+      "de": "Ankerschrauben Angebot Erhalten",
+      "hi": "एंकर बोल्ट कोटेशन का अनुरोध करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "anchor-bolts",

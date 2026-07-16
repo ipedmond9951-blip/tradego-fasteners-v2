@@ -217,19 +217,31 @@
     }
   ],
   "cta": {
-    "en": "Request Solar Fastener Quote",
-    "zh": "请求光伏紧固件报价",
-    "es": "Solicitar Cotización de Sujetadores Solares",
-    "ar": "طلب عرض أسعار مثبتات الطاقة الشمسية",
-    "fr": "Demander un Devis pour Fixations Solaires",
-    "pt": "Solicitar Cotação de Fixadores Solares",
-    "ru": "Запросить КП на Солнечный Крепеж",
-    "ja": "太陽電池ファスナー見積もりを得る",
-    "de": "Solar Befestigungen Angebot Erhalten",
-    "hi": "सोलर फास्टनर कोटेशन का अनुरोध करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Request Solar Fastener Quote",
+      "zh": "请求光伏紧固件报价",
+      "es": "Solicitar Cotización de Sujetadores Solares",
+      "ar": "طلب عرض أسعار مثبتات الطاقة الشمسية",
+      "fr": "Demander un Devis pour Fixations Solaires",
+      "pt": "Solicitar Cotação de Fixadores Solares",
+      "ru": "Запросить КП на Солнечный Крепеж",
+      "ja": "太陽電池ファスナー見積もりを得る",
+      "de": "Solar Befestigungen Angebot Erhalten",
+      "hi": "सोलर फास्टनर कोटेशन का अनुरोध करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "anchor-bolts",

@@ -217,19 +217,31 @@
     }
   ],
   "cta": {
-    "en": "Contact East Africa Sales",
-    "zh": "联系东非销售",
-    "es": "Contactar Ventas África Oriental",
-    "ar": "اتصل بمبيعات شرق أفريقيا",
-    "fr": "Contacter Ventes Afrique de l'Est",
-    "pt": "Contatar Vendas África Oriental",
-    "ru": "Связаться с Продажами Восточной Африки",
-    "ja": "東アフリカ営業に連絡",
-    "de": "Ostafrika Vertrieb Kontaktieren",
-    "hi": "पूर्वी अफ्रीका बिक्री से संपर्क करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Contact East Africa Sales",
+      "zh": "联系东非销售",
+      "es": "Contactar Ventas África Oriental",
+      "ar": "اتصل بمبيعات شرق أفريقيا",
+      "fr": "Contacter Ventes Afrique de l'Est",
+      "pt": "Contatar Vendas África Oriental",
+      "ru": "Связаться с Продажами Восточной Африки",
+      "ja": "東アフリカ営業に連絡",
+      "de": "Ostafrika Vertrieb Kontaktieren",
+      "hi": "पूर्वी अफ्रीका बिक्री से संपर्क करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "bolts-nuts",

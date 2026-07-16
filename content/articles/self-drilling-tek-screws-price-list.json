@@ -217,19 +217,31 @@
     }
   ],
   "cta": {
-    "en": "Get TEK Screw Quote",
-    "zh": "获取TEK螺丝报价",
-    "es": "Obtener Cotización de Tornillos TEK",
-    "ar": "احصل على عرض أسعار براغي TEK",
-    "fr": "Obtenir un Devis pour Vis TEK",
-    "pt": "Obter Cotação de Parafusos TEK",
-    "ru": "Получить КП на Саморезы ТЕК",
-    "ja": "TEKねじのお見積もりを得る",
-    "de": "TEK Schrauben Angebot Erhalten",
-    "hi": "TEK स्क्रू कोटेशन प्राप्त करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Get TEK Screw Quote",
+      "zh": "获取TEK螺丝报价",
+      "es": "Obtener Cotización de Tornillos TEK",
+      "ar": "احصل على عرض أسعار براغي TEK",
+      "fr": "Obtenir un Devis pour Vis TEK",
+      "pt": "Obter Cotação de Parafusos TEK",
+      "ru": "Получить КП на Саморезы ТЕК",
+      "ja": "TEKねじのお見積もりを得る",
+      "de": "TEK Schrauben Angebot Erhalten",
+      "hi": "TEK स्क्रू कोटेशन प्राप्त करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "self-drilling-screws",

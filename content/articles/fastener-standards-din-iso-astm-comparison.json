@@ -251,19 +251,31 @@
     }
   ],
   "cta": {
-    "en": "Request Custom Fasteners",
-    "zh": "请求定制紧固件",
-    "es": "Solicitar Sujetadores Personalizados",
-    "ar": "طلب المثبتات المخصصة",
-    "fr": "Demander des Fixations Personnalisées",
-    "pt": "Solicitar Fixadores Personalizados",
-    "ru": "Запросить Нестандартные Крепежи",
-    "ja": "カスタムファスナーを依頼",
-    "de": "Kundenspezifische Befestigungen Anfordern",
-    "hi": "कस्टम फास्टनर का अनुरोध करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Request Custom Fasteners",
+      "zh": "请求定制紧固件",
+      "es": "Solicitar Sujetadores Personalizados",
+      "ar": "طلب المثبتات المخصصة",
+      "fr": "Demander des Fixations Personnalisées",
+      "pt": "Solicitar Fixadores Personalizados",
+      "ru": "Запросить Нестандартные Крепежи",
+      "ja": "カスタムファスナーを依頼",
+      "de": "Kundenspezifische Befestigungen Anfordern",
+      "hi": "कस्टम फास्टनर का अनुरोध करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "bolts-nuts",

@@ -257,11 +257,23 @@
     "coach-screws"
   ],
   "cta": {
-    "en": "Contact TradeGo for Zimbabwe fastener supplies. Email: sales@tradego-fasteners.com WhatsApp: +86 159 6340 9951",
-    "zh": "联系TradeGo获取津巴布韦紧固件供应。邮箱：sales@tradego-fasteners.com",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Contact TradeGo for Zimbabwe fastener supplies. Email: sales@tradego-fasteners.com WhatsApp: +86 159 6340 9951",
+      "zh": "联系TradeGo获取津巴布韦紧固件供应。邮箱：sales@tradego-fasteners.com"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "imageAlt": {
     "en": "Zimbabwe construction and mining - industrial fasteners for infrastructure projects",

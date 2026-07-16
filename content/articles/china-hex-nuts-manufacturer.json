@@ -199,19 +199,31 @@
     }
   ],
   "cta": {
-    "en": "Request Hex Nut Quote",
-    "zh": "请求六角螺母报价",
-    "es": "Solicitar Cotización de Tuercas Hexagonales",
-    "ar": "طلب عرض أسعار الصواميل السداسية",
-    "fr": "Demander un Devis pour Écrous Hexagonaux",
-    "pt": "Solicitar Cotação de Porcas Hexagonais",
-    "ru": "Запросить КП на Шестигранные Гайки",
-    "ja": "六角ナットの見積もりを依頼",
-    "de": "Sechskantmuttern Angebot Erhalten",
-    "hi": "हेक्स नट कोटेशन का अनुरोध करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Request Hex Nut Quote",
+      "zh": "请求六角螺母报价",
+      "es": "Solicitar Cotización de Tuercas Hexagonales",
+      "ar": "طلب عرض أسعار الصواميل السداسية",
+      "fr": "Demander un Devis pour Écrous Hexagonaux",
+      "pt": "Solicitar Cotação de Porcas Hexagonais",
+      "ru": "Запросить КП на Шестигранные Гайки",
+      "ja": "六角ナットの見積もりを依頼",
+      "de": "Sechskantmuttern Angebot Erhalten",
+      "hi": "हेक्स नट कोटेशन का अनुरोध करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "bolts-nuts",

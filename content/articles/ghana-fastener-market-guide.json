@@ -255,11 +255,23 @@
     "self-drilling-screws"
   ],
   "cta": {
-    "en": "Contact TradeGo for Ghana fastener supplies. Email: sales@tradego-fasteners.com WhatsApp: +86 159 6340 9951",
-    "zh": "联系TradeGo获取加纳紧固件供应。",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Contact TradeGo for Ghana fastener supplies. Email: sales@tradego-fasteners.com WhatsApp: +86 159 6340 9951",
+      "zh": "联系TradeGo获取加纳紧固件供应。"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "imageAlt": {
     "en": "Ghana construction and mining - industrial fasteners for Ghana's growing economy",

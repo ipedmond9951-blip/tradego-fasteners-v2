@@ -217,19 +217,31 @@
     }
   ],
   "cta": {
-    "en": "Request Washer Quote",
-    "zh": "请求垫圈报价",
-    "es": "Solicitar Cotización de Arandelas",
-    "ar": "طلب عرض أسعار الغسالات",
-    "fr": "Demander un Devis pour Rondelles",
-    "pt": "Solicitar Cotação de Arruelas",
-    "ru": "Запросить КП на Шайбы",
-    "ja": "座金のお見積もりを依頼",
-    "de": "Unterlegscheiben Angebot Erhalten",
-    "hi": "वॉशर कोटेशन का अनुरोध करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Request Washer Quote",
+      "zh": "请求垫圈报价",
+      "es": "Solicitar Cotización de Arandelas",
+      "ar": "طلب عرض أسعار الغسالات",
+      "fr": "Demander un Devis pour Rondelles",
+      "pt": "Solicitar Cotação de Arruelas",
+      "ru": "Запросить КП на Шайбы",
+      "ja": "座金のお見積もりを依頼",
+      "de": "Unterlegscheiben Angebot Erhalten",
+      "hi": "वॉशर कोटेशन का अनुरोध करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "washers",

@@ -295,19 +295,31 @@
     }
   ],
   "cta": {
-    "en": "Request Technical Support",
-    "zh": "请求技术支持",
-    "es": "Solicitar Soporte Técnico",
-    "ar": "طلب الدعم الفني",
-    "fr": "Demander Support Technique",
-    "pt": "Solicitar Suporte Técnico",
-    "ru": "Запросить Техническую Поддержку",
-    "ja": "テクニカルサポートに連絡",
-    "de": "Technischen Support Erhalten",
-    "hi": "तकनीकी सहायता का अनुरोध करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Request Technical Support",
+      "zh": "请求技术支持",
+      "es": "Solicitar Soporte Técnico",
+      "ar": "طلب الدعم الفني",
+      "fr": "Demander Support Technique",
+      "pt": "Solicitar Suporte Técnico",
+      "ru": "Запросить Техническую Поддержку",
+      "ja": "テクニカルサポートに連絡",
+      "de": "Technischen Support Erhalten",
+      "hi": "तकनीकी सहायता का अनुरोध करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "bolts-nuts",

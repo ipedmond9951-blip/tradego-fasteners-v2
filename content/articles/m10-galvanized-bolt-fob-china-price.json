@@ -264,19 +264,31 @@
     }
   ],
   "cta": {
-    "en": "Get M10 Bolt Quote",
-    "zh": "获取M10螺栓报价",
-    "es": "Obtener Cotización de Pernos M10",
-    "ar": "احصل على عرض أسعار برغي M10",
-    "fr": "Obtenir un Devis pour Boulons M10",
-    "pt": "Obter Cotação de Parafusos M10",
-    "ru": "Получить КП на Болты М10",
-    "ja": "M10ボルトのお見積もりを得る",
-    "de": "M10 Schrauben Angebot Erhalten",
-    "hi": "M10 बोल्ट कोटेशन प्राप्त करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Get M10 Bolt Quote",
+      "zh": "获取M10螺栓报价",
+      "es": "Obtener Cotización de Pernos M10",
+      "ar": "احصل على عرض أسعار برغي M10",
+      "fr": "Obtenir un Devis pour Boulons M10",
+      "pt": "Obter Cotação de Parafusos M10",
+      "ru": "Получить КП на Болты М10",
+      "ja": "M10ボルトのお見積もりを得る",
+      "de": "M10 Schrauben Angebot Erhalten",
+      "hi": "M10 बोल्ट कोटेशन प्राप्त करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "bolts-nuts",

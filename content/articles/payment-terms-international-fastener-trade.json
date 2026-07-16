@@ -190,19 +190,31 @@
     }
   ],
   "cta": {
-    "en": "Discuss Payment Terms",
-    "zh": "讨论付款条款",
-    "es": "Discutir Términos de Pago",
-    "ar": "ناقش شروط الدفع",
-    "fr": "Discuter des Conditions de Paiement",
-    "pt": "Discutir Termos de Pagamento",
-    "ru": "Обсудить Условия Оплаты",
-    "ja": "支払条件を相談する",
-    "de": "Zahlungsbedingungen Besprechen",
-    "hi": "भुगतान शर्तों पर चर्चा करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Discuss Payment Terms",
+      "zh": "讨论付款条款",
+      "es": "Discutir Términos de Pago",
+      "ar": "ناقش شروط الدفع",
+      "fr": "Discuter des Conditions de Paiement",
+      "pt": "Discutir Termos de Pagamento",
+      "ru": "Обсудить Условия Оплаты",
+      "ja": "支払条件を相談する",
+      "de": "Zahlungsbedingungen Besprechen",
+      "hi": "भुगतान शर्तों पर चर्चा करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "bolts-nuts",

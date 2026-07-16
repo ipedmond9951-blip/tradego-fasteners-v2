@@ -261,19 +261,31 @@
     }
   ],
   "cta": {
-    "en": "Request Stainless Fastener Quote",
-    "zh": "请求不锈钢紧固件报价",
-    "es": "Solicitar Cotización de Sujetadores Inoxidables",
-    "ar": "طلب عرض أسعار المثبتات المقاومة للصدأ",
-    "fr": "Demander un Devis pour Fixations Inoxydables",
-    "pt": "Solicitar Cotação de Fixadores Inoxidáveis",
-    "ru": "Запросить КП на Нержавеющие Крепежи",
-    "ja": "ステンレスファスナーのお見積もりを依頼",
-    "de": "Edelstahlbefestigungen Angebot Erhalten",
-    "hi": "स्टेनलेस फास्टनर कोटेशन का अनुरोध करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Request Stainless Fastener Quote",
+      "zh": "请求不锈钢紧固件报价",
+      "es": "Solicitar Cotización de Sujetadores Inoxidables",
+      "ar": "طلب عرض أسعار المثبتات المقاومة للصدأ",
+      "fr": "Demander un Devis pour Fixations Inoxydables",
+      "pt": "Solicitar Cotação de Fixadores Inoxidáveis",
+      "ru": "Запросить КП на Нержавеющие Крепежи",
+      "ja": "ステンレスファスナーのお見積もりを依頼",
+      "de": "Edelstahlbefestigungen Angebot Erhalten",
+      "hi": "स्टेनलेस फास्टनर कोटेशन का अनुरोध करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "stainless-steel-fasteners-1",

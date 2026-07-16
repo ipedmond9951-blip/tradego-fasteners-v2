@@ -295,19 +295,31 @@
     }
   ],
   "cta": {
-    "en": "Request Factory Tour",
-    "zh": "请求工厂参观",
-    "es": "Solicitar Visita a Fábrica",
-    "ar": "طلب جولة في المصنع",
-    "fr": "Demander une Visite d'Usine",
-    "pt": "Solicitar Visita à Fábrica",
-    "ru": "Запросить Экскурсию по Заводу",
-    "ja": "工場ツアーをご請求",
-    "de": "Werksbesichtigung Anfordern",
-    "hi": "फैक्ट्री टूर का अनुरोध करें",
-    "link": "/quote",
-    "text": {},
-    "buttonText": {}
+    "text": {
+      "en": "Request Factory Tour",
+      "zh": "请求工厂参观",
+      "es": "Solicitar Visita a Fábrica",
+      "ar": "طلب جولة في المصنع",
+      "fr": "Demander une Visite d'Usine",
+      "pt": "Solicitar Visita à Fábrica",
+      "ru": "Запросить Экскурсию по Заводу",
+      "ja": "工場ツアーをご請求",
+      "de": "Werksbesichtigung Anfordern",
+      "hi": "फैक्ट्री टूर का अनुरोध करें"
+    },
+    "buttonText": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "es": "Request Quote",
+      "ar": "Request Quote",
+      "fr": "Request Quote",
+      "pt": "Request Quote",
+      "ru": "Request Quote",
+      "ja": "Request Quote",
+      "de": "Request Quote",
+      "hi": "Request Quote"
+    },
+    "link": "/quote"
   },
   "relatedProducts": [
     "bolts-nuts",
