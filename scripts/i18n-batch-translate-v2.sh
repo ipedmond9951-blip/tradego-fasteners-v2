@@ -128,17 +128,18 @@ with open('$prompt_file', 'w') as f: f.write(prompt)
     return 0
   fi
 
-  # Call AI (豆包 primary, Gemini fallback)
+  # Call AI (Grok primary, doubao/gemini fallback if available)
+  # 2026-07-16 20:30 调优: 豆包 30/30 + Gemini 10/10 日限, 切到 Grok (nonce 唯一性规避 dedup)
   local result=""
-  for ai in doubao gemini; do
+  for ai in grok doubao gemini; do
     result=$(timeout 300 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$ai" "$prompt_file" 270 2>&1) || true
-    if [ -n "$result" ] && ! echo "$result" | grep -qE "^\[error\]|^\[warn\]|^\[doubao\]|^\[豆包\] (🛑|⏳)|duplicate_prompt|too_frequent"; then
+    if [ -n "$result" ] && ! echo "$result" | grep -qE "^\[error\]|^\[warn\]|daily_limit|duplicate_prompt|too_frequent|ai-guard|quarantine|不可达"; then
       break
     fi
-    sleep 5
+    sleep 3
   done
 
-  if [ -z "$result" ] || echo "$result" | grep -qE "^\[error\]|^\[warn\]|duplicate_prompt|too_frequent|ai-guard"; then
+  if [ -z "$result" ] || echo "$result" | grep -qE "^\[error\]|^\[warn\]|daily_limit|duplicate_prompt|too_frequent|ai-guard|quarantine|不可达"; then
     log "  ❌ FAIL batch ($langs_csv) for $slug"
     echo "{\"slug\":\"$slug\",\"type\":\"$type\",\"langs\":\"$langs_csv\",\"reason\":\"all_ai_fail\"}" >> "$FAIL_FILE"
     return 1
