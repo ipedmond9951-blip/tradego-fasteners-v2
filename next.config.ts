@@ -29,16 +29,17 @@ const nextConfig: NextConfig = {
       // 旧版: 8 langs 重定向到 /en, 导致 /fr/en, /es/en/, /hiundefined 等 BUG URL
       // 现在 10 langs 都 200 OK, 这些 BUG URL 自然消失
       // 但保留以下软 404 修复 (GSC "软 404" 27 个)
+      // 注: trailingSlash: true 会先做 no-/→-/ 308, 所以 redirect 源要带 /
       {
         // /products/hex-nuts (没 /en/ 前缀) → /en/products/hex-nuts
-        source: '/products/:slug',
-        destination: '/en/products/:slug',
+        source: '/products/:slug/',
+        destination: '/en/products/:slug/',
         permanent: true,
       },
       {
-        // /en/quote, /en/quote/, /es/quote/, 等 → /en/contact
-        source: '/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)/quote',
-        destination: '/en/contact',
+        // /en/quote/, /es/quote/, 等 → /en/contact/
+        source: '/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)/quote/',
+        destination: '/en/contact/',
         permanent: true,
       },
     ];
