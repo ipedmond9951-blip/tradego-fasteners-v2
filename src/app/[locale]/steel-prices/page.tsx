@@ -4,7 +4,7 @@ import SteelPricesChart from './SteelPricesChart'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
-const titles: Record<Locale, string> = {
+const titles: Record<string, string> = {
   en: 'Steel & Commodity Prices | TradeGo Fasteners',
   zh: '钢材与大宗商品价格 | TradeGo紧固件',
   es: 'Precios del Acero y Materias Primas | TradeGo Fasteners',
@@ -17,7 +17,7 @@ const titles: Record<Locale, string> = {
   hi: 'स्टील और कमोडिटी कीमतें | TradeGo Fasteners',
 }
 
-const descriptions: Record<Locale, string> = {
+const descriptions: Record<string, string> = {
   en: 'Live global steel and commodity prices (HRC, CRC, rebar) from London Metal Exchange and Shanghai Futures Exchange. Real-time data for construction, fasteners, and manufacturing procurement decisions.',
   zh: '伦敦金属交易所和上海期货交易所的全球钢材和大宗商品实时价格（热轧卷板、冷轧卷板、螺纹钢）。为建筑、紧固件和制造业采购决策提供实时数据。',
   es: 'Precios mundiales de acero y materias primas en vivo (HRC, CRC, varilla) de la London Metal Exchange y Shanghai Futures Exchange. Datos en tiempo real para decisiones de adquisición de construcción, sujetadores y manufactura.',
@@ -30,7 +30,7 @@ const descriptions: Record<Locale, string> = {
   hi: 'लंदन मेटल एक्सचेंज और शंघाई फ्यूचर्स एक्सचेंज से वैश्विक स्टील और कमोडिटी की लाइव कीमतें (HRC, CRC, रीबार)। निर्माण, फास्टनर और विनिर्माण खरीद निर्णयों के लिए रियल-टाइम डेटा।',
 }
 
-const localMarketInsights: Record<Locale, { title: string; paragraphs: string[] }> = {
+const localMarketInsights: Record<string, { title: string; paragraphs: string[] }> = {
   en: {
     title: 'Why Track Steel Prices for Your Fastener Procurement',
     paragraphs: [

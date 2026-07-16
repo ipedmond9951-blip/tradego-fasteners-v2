@@ -14,10 +14,17 @@ const nextConfig: NextConfig = {
         destination: '/en',
         permanent: true, // 308
       },
+      // 2026-07-16: GSC 修复 - 8种无内容语言 301 重定向到英文版本
+      // 原 10 语言但正文只有英文，造成 2000+ 重复内容页面不被索引
+      {
+        source: '/:locale(es|ar|fr|pt|ru|ja|de|hi)/:path*',
+        destination: '/en/:path*',
+        permanent: true, // 301 - 传递权重
+      },
       // 2026-06-19: 修复文件名 bug - 旧 slug 含空格, 用 %20 URL 访问需重定向到正确 slug
       // Vercel router URL-decodes %20 BEFORE matching redirect source
       {
-        source: '/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)/industry/south%20africa-fasteners-china-import-guide',
+        source: '/:locale(en|zh)/industry/south%20africa-fasteners-china-import-guide',
         destination: '/:locale/industry/south-africa-fasteners-china-import-guide',
         permanent: true,
       },

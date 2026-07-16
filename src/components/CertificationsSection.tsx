@@ -69,13 +69,9 @@ export default function CertificationsSection({ locale = 'en' }: CertificationsS
         {/* Additional quality note */}
         <div className="mt-10 md:mt-12 text-center">
           <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto">
-            {locale === 'en' 
-              ? 'All products come with material certificates, test reports, and quality guarantees. We provide third-party inspection services upon request.'
-              : locale === 'zh'
+            {locale === 'zh'
               ? '所有产品均配有材料证书、测试报告和质量保证。我们提供第三方检验服务。'
-              : locale === 'ja'
-              ? 'すべての製品には材料証明書、試験報告書、品質保証が付属しています。第三方検査サービスもご要望に応じて提供いたします。'
-              : 'All products come with material certificates, test reports, and quality guarantees.'}
+              : 'All products come with material certificates, test reports, and quality guarantees. We provide third-party inspection services upon request.'}
           </p>
         </div>
       </div>

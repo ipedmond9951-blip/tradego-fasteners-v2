@@ -35,9 +35,18 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     hi: 'TradeGo Fasteners: ISO 9001 और SABS प्रमाणित चीनी फास्टनर निर्माता जिसके 12+ वर्षों का अफ्रीका निर्यात अनुभव है।',
   }
 
+  const siteUrl = 'https://www.tradego-fasteners.com'
+
   return {
     title: titles[loc] || titles.en,
     description: descriptions[loc] || descriptions.en,
+    alternates: {
+      canonical: `${siteUrl}/${loc}/about`,
+      languages: Object.fromEntries([
+        ['x-default', `${siteUrl}/en/about`],
+        ...locales.map(l => [l, `${siteUrl}/${l}/about`])
+      ]),
+    },
   }
 }
 
