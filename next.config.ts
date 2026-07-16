@@ -31,9 +31,10 @@ const nextConfig: NextConfig = {
       // 但保留以下软 404 修复 (GSC "软 404" 27 个)
       // 注: trailingSlash: true 会先做 no-/→-/ 308, 所以 redirect 源要带 /
       {
-        // /products/hex-nuts (没 /en/ 前缀) → /en/products/hex-nuts
+        // /products/hex-nuts (没 /en/ 前缀的 BUG URL) → /en/products/ (产品列表)
+        // 原目标 /en/products/hex-nuts 不存在, 改为产品列表页
         source: '/products/:slug/',
-        destination: '/en/products/:slug/',
+        destination: '/en/products/',
         permanent: true,
       },
       {
