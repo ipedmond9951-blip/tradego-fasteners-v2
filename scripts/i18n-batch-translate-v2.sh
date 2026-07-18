@@ -158,10 +158,16 @@ with open('$prompt_file', 'w') as f: f.write(prompt)
     return 0
   else
     log "  ⚠️ PARSE FAIL batch ($langs_csv) for $slug (raw ${#result} chars from $result_ai), retry with next AI..."
-    # Parse fail 通常因为 gemini tab session 污染 (22 chars 短响应) → fallback grok/doubao/deepseek
-    for ai in grok doubao deepseek; do
+    # Parse fail 通常因为 gemini tab session 污染 (22 chars 短响应) 或 豆包串语言 (返中文) → fallback grok/doubao/deepseek
+    # 2026-07-19 04:10 调优: 加 minimax 兜底 (已知 minimax 1-lang 翻译不串语言, 走 minimax-quick.sh 不抢 chrome 18800)
+    for ai in grok doubao deepseek minimax; do
       if [ "$ai" = "$result_ai" ]; then continue; fi
-      result=$(timeout 300 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$ai" "$prompt_file" 270 2>&1) || true
+      if [ "$ai" = "minimax" ]; then
+        # minimax 走 minimax-quick.sh 直连 API, 7s/call, 不经 chrome 18800
+        result=$(timeout 240 bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$prompt_file")" "MiniMax-M2.7" 16000 2>&1) || true
+      else
+        result=$(timeout 300 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$ai" "$prompt_file" 270 2>&1) || true
+      fi
       if [ -n "$result" ] && ! echo "$result" | grep -qE "^\[error\]|^\[warn\]|daily_limit|duplicate_prompt|too_frequent|ai-guard|quarantine|不可达|静默"; then
         echo "$result" > "$TMP_DIR/${slug}_${type}_batch.raw.txt"
         if python3 "$SCRIPT_DIR/parse_translation_result.py" "$TMP_DIR/${slug}_${type}_batch.raw.txt" "$result_file" 2>> "$LOG_DIR/parse_errors.log"; then
