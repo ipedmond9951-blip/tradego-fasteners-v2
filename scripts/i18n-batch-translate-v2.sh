@@ -133,17 +133,20 @@ with open('$prompt_file', 'w') as f: f.write(prompt)
   # Call AI (gemini primary, others fallback)
   # 2026-07-17 07:45 调优: 豆包 chat 状态被 03:30 健康检查污染 (返旧回复)
   # 切到 Gemini 主线 (chat 干净, fresh test OK), 豆包 fallback
+  # 2026-07-19 00:02 调优: 22 chars pollution (gemini tab session 残留) → parse_fail 触发 retry
   local result=""
+  local result_ai=""
   for ai in gemini grok doubao deepseek; do
     result=$(timeout 300 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$ai" "$prompt_file" 270 2>&1) || true
     if [ -n "$result" ] && ! echo "$result" | grep -qE "^\[error\]|^\[warn\]|daily_limit|duplicate_prompt|too_frequent|ai-guard|quarantine|不可达|静默"; then
+      result_ai="$ai"
       break
     fi
     sleep 3
   done
 
   if [ -z "$result" ] || echo "$result" | grep -qE "^\[error\]|^\[warn\]|daily_limit|duplicate_prompt|too_frequent|ai-guard|quarantine|不可达"; then
-    log "  ❌ FAIL batch ($langs_csv) for $slug"
+    log "  ❌ FAIL batch ($langs_csv) for $slug (all AI fail)"
     echo "{\"slug\":\"$slug\",\"type\":\"$type\",\"langs\":\"$langs_csv\",\"reason\":\"all_ai_fail\"}" >> "$FAIL_FILE"
     return 1
   fi
@@ -151,10 +154,24 @@ with open('$prompt_file', 'w') as f: f.write(prompt)
   # Save raw + parse
   echo "$result" > "$TMP_DIR/${slug}_${type}_batch.raw.txt"
   if python3 "$SCRIPT_DIR/parse_translation_result.py" "$TMP_DIR/${slug}_${type}_batch.raw.txt" "$result_file" 2>> "$LOG_DIR/parse_errors.log"; then
-    log "  ✅ OK batch ($langs_csv) for $slug"
+    log "  ✅ OK batch ($langs_csv) for $slug ($result_ai)"
     return 0
   else
-    log "  ❌ PARSE FAIL batch ($langs_csv) for $slug"
+    log "  ⚠️ PARSE FAIL batch ($langs_csv) for $slug (raw ${#result} chars from $result_ai), retry with next AI..."
+    # Parse fail 通常因为 gemini tab session 污染 (22 chars 短响应) → fallback grok/doubao/deepseek
+    for ai in grok doubao deepseek; do
+      if [ "$ai" = "$result_ai" ]; then continue; fi
+      result=$(timeout 300 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$ai" "$prompt_file" 270 2>&1) || true
+      if [ -n "$result" ] && ! echo "$result" | grep -qE "^\[error\]|^\[warn\]|daily_limit|duplicate_prompt|too_frequent|ai-guard|quarantine|不可达|静默"; then
+        echo "$result" > "$TMP_DIR/${slug}_${type}_batch.raw.txt"
+        if python3 "$SCRIPT_DIR/parse_translation_result.py" "$TMP_DIR/${slug}_${type}_batch.raw.txt" "$result_file" 2>> "$LOG_DIR/parse_errors.log"; then
+          log "  ✅ OK retry batch ($langs_csv) for $slug ($ai)"
+          return 0
+        fi
+      fi
+      sleep 3
+    done
+    log "  ❌ PARSE FAIL all retry batch ($langs_csv) for $slug"
     echo "{\"slug\":\"$slug\",\"type\":\"$type\",\"langs\":\"$langs_csv\",\"reason\":\"parse_fail\"}" >> "$FAIL_FILE"
     return 1
   fi
