@@ -119,6 +119,8 @@ Items to translate:
 Critical:
 - Use SHORT, NATURAL translations for headings (h2) — should be similar length to English
 - For body, preserve all HTML anchor tags exactly (e.g. <a href=\"...\">text</a>)
+- 2026-07-18 19:20 总裁命令: 必须在 JSON 字符串中**转义所有双引号** (如 <a href=\"/en/...\"> 必须写为 <a href=\\\"/en/...\\\">)
+- 不要在 JSON 字符串里直接写原始 " (raw double quote) — Python json.loads 会崩
 - Technical terms (ISO 898-1, EN 14399, HS 7318, port names, org names) keep in their commonly-used form
 - Each idx must match the input idx exactly'''
 with open('$prompt_file', 'w') as f: f.write(prompt)
@@ -128,11 +130,11 @@ with open('$prompt_file', 'w') as f: f.write(prompt)
     return 0
   fi
 
-  # Call AI (doubao primary, others fallback)
-  # 2026-07-17 00:30 调优: Grok 出现 echo prompt 异常 (dedup 残留或 chat 状态)
-  # 改用 豆包 主线 (7/17 quota 重置, 30/day 充裕)
+  # Call AI (gemini primary, others fallback)
+  # 2026-07-17 07:45 调优: 豆包 chat 状态被 03:30 健康检查污染 (返旧回复)
+  # 切到 Gemini 主线 (chat 干净, fresh test OK), 豆包 fallback
   local result=""
-  for ai in doubao gemini grok deepseek; do
+  for ai in gemini grok doubao deepseek; do
     result=$(timeout 300 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$ai" "$prompt_file" 270 2>&1) || true
     if [ -n "$result" ] && ! echo "$result" | grep -qE "^\[error\]|^\[warn\]|daily_limit|duplicate_prompt|too_frequent|ai-guard|quarantine|不可达|静默"; then
       break
@@ -192,9 +194,9 @@ print(f'[merge] updated {len(translations)} langs for {slug}')
 # === MAIN ===
 MODE="${1:-h2}"
 COOLDOWN_SLEEP=35
-# 2026-07-16 21:15 调整 (总裁选项 C): 每天 max 50 calls, 留 15 buffer 不触 65 上限
-# 不动 ai-guard.js (硬安全机制), 仅在脚本层限速
-DAILY_QUOTA=50
+# 2026-07-17 07:40 总裁下令: 取消上限, 立刻完成任务
+# ai-guard.js LIMITS 同步调到 9999, 留 dedup/异常 prompt/间隔 检查
+DAILY_QUOTA=9999
 QUOTA_COUNTER="$HOME/.openclaw/workspace/ai-guard-counter.json"
 get_today_used() {
   python3 -c "
