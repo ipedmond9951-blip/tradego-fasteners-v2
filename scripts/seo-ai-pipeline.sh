@@ -214,7 +214,14 @@ log "=========================================="
 PROCESSED_TOPICS=$(ls "$PROJECT_DIR/content/articles"/*.json 2>/dev/null | xargs -I{} basename {} .json | sort -u | head -500 | tr '\n' ',' | sed 's/,$//')
 
 # Topic 池：非洲/SADC 重点
+# 2026-07-19 03:40 EXPANSION: 7/19 03:30 cron 'All topics processed' skip 因为 15 个 topic 全部已存在 article.json
+# 扩展: 加 18 个新非洲 + 新兴市场 topic, 覆盖北非/西非/东非/南非 + 矿业/能源/制造业/物流/电商垂直
+# 设计原则: 1) 不与已发布 slug 冲突 2) B2B 紧固件相关 3) 真实有市场需求
+# 历史: 7/15-7/18 期间 6 篇 (Angola/Rwanda/Uganda/Ghana/Senegal/Ivory Coast), 9 篇 <7/15 已存在
+# 下次 7/20 03:30 cron 预期能选到新 topic, 实战测试 v5.16 (gemini 优先 writer)
+
 TOPIC_POOL=(
+    # === 历史 6 篇已发布 (7/15-7/18) ===
     "Zambia copper mining fasteners grade selection 2026"
     "Mozambique LNG construction fasteners standards"
     "Botswana construction boom fastener import"
@@ -230,6 +237,28 @@ TOPIC_POOL=(
     "Ghana Tema port fastener import procedure"
     "Senegal Dakar construction fastener wholesale"
     "Ivory Coast Abidjan port fastener tariff"
+    # === 7/19 新增: 北非 (Mediterranean market) ===
+    "Egypt Cairo construction fastener wholesale"
+    "Morocco Casablanca port fastener import procedure"
+    "Algeria Algiers oil gas fastener specifications"
+    "Tunisia Mediterranean fastener export guide"
+    "Libya Tripoli construction fastener sourcing"
+    # === 7/19 新增: 西非 (Lagos hub) ===
+    "Nigeria Lagos fastener import wholesale guide"
+    "Nigeria Abuja construction fastener standards"
+    "Togo Lome port fastener import procedure"
+    "Benin Cotonou fastener wholesale market"
+    # === 7/19 新增: 东非 (Dar es Salaam) ===
+    "Tanzania Dar es Salaam port fastener import procedure"
+    "Kenya Mombasa port fastener warehouse guide"
+    "Madagascar Antananarivo fastener sourcing"
+    # === 7/19 新增: 垂直 - 能源/矿业 ===
+    "Africa solar farm fastener procurement guide"
+    "Africa wind energy fastener grade specifications"
+    "Africa oil refinery high pressure fastener guide"
+    # === 7/19 新增: 垂直 - 制造业/物流 ===
+    "Africa automotive fastener OEM sourcing"
+    "Africa railway sleeper fastener specification"
 )
 
 # 选 1 个未处理过的主题
