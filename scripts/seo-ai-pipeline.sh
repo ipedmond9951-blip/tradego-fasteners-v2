@@ -6,7 +6,11 @@
 # 2026-07-03 v5.3 FIX: 入口加进程互锁, 避免多进程同时跑
 #   注意: macOS 默认 bash 3.2 无 flock 命令, 用 python fcntl.flock 实现
 
-set -e
+# 2026-07-18 19:20 总裁命令: set -e 改 set +e (允许单步失败, 防止 7/18 03:30 STEP 3 deepseek 静默退出)
+# 原 set -e: 任何命令 fail (exit != 0) 立即退出, 不留 trace
+# 新 set +e: 单步失败不退出, 走 fallback chain 完整 (4 AI + 5 fallback AI 全试完才放弃)
+# 关键 bug 修复: deepseek Insufficient Balance / ai-router 30s cooldown 静默 kill 整个 script
+set +e
 
 # 2026-07-03 v5.3 FIX: 进程互锁 (使用 mkdir atomic)
 # 设计: mkdir atomic 创建锁目录. Pipeline 退出时 trap rmdir 释放.
@@ -107,39 +111,12 @@ fi
 # ⚠️ 总裁原则: 文章生成必须用 ai 助手技能 (豆包/Gemini/ChatGPT), minimax 只作补位
 
 if [ "$USE_AI_ROUTER" = "1" ]; then
-  log "🔍 ai-router 健康检查 (豆包/Gemini/ChatGPT 三 AI 端到端, 各 200s)..."
-  AI_ROUTER_OK=1
-  # 2026-07-05 v5.9 FIX: 用 48 字符真实问题 (不是 "ping"), 避免豆包 isValidReply<3 触发自愈 hang
-  # 原 "ping $AI" (4 chars) → 豆包返 "pong" (4 chars) < isValidReply 阈值 → 自愈循环 → 22s timeout → 假阳失败
-  # 修复: 用 ≥30 字符问题 + 健康检查 timeout 75s (豆包实测 60s + buffer)
-  HEALTH_PROMPT="What is B2B fastener export? Answer in 50 words."
-  echo "$HEALTH_PROMPT" > /tmp/ai-router-healthcheck.txt
-  # 2026-07-05 v5.10 FIX: 不要 head -1 截断 (豆包回复多行 markdown, head -1 只拿标题首行)
-  # 7/4 凌晨 raw 168 chars 真相: head -1 截掉豆包完整 B2B 解释, 只剩 168 字符首行
-  # 修复: 用 $() 取全部输出 (保留多行 markdown), 加 trim + 去 [error] 前缀
-  for AI in doubao gemini chatgpt; do
-    AI_OUT_RAW=$(timeout 200 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$AI" /tmp/ai-router-healthcheck.txt 195 2>&1)
-    AI_RC=$?
-    # 取第一非空行作代表 (避免 [error] 前缀混入)
-    AI_OUT=$(echo "$AI_OUT_RAW" | grep -vE "^\[error\]|^$" | head -1)
-    if [ $AI_RC -ne 0 ] || [ -z "$AI_OUT" ] || echo "$AI_OUT_RAW" | head -1 | grep -qE "^\[error\]"; then
-      log "⚠️ ai-router $AI 不健康 (rc=$AI_RC, out: $(echo "$AI_OUT_RAW" | head -c 100))"
-      AI_ROUTER_OK=0
-      break
-    fi
-    if [ "${#AI_OUT}" -lt 20 ]; then
-      log "⚠️ ai-router $AI 返回过短 (${#AI_OUT} chars): ${AI_OUT:0:80}"
-      AI_ROUTER_OK=0
-      break
-    fi
-    log "  ✅ $AI OK (${#AI_OUT} chars, preview: ${AI_OUT:0:60})"
-  done
-  if [ "$AI_ROUTER_OK" = "0" ]; then
-    log "💡 v5.9 FIX: ai-router 不全健康, fallback minimax-quick (补位)"
-    USE_AI_ROUTER=0
-  else
-    log "✅ ai-router 三 AI 全健康, 启用 multi-AI (豆包/Gemini/ChatGPT)"
-  fi
+  # 2026-07-17 18:58 总裁命令: 取消 ai-router 健康检查
+  # 原因: 健康检查 20 chars 阈值误判 Gemini "开始调用..." placeholder 为不健康
+  #       导致 USE_AI_ROUTER=0 → STEP 3 4 AI 全跳过 → 整篇写不出
+  # 7/17 ai-guard LIMITS 已 =9999, 真实失败由 ai-router 调用本身处理, 不需要预检
+  log "🔧 v5.13 FIX (2026-07-17 18:58): 跳过 ai-router 健康检查 (limiter 9999 后, 真实失败由调用自处理)"
+  USE_AI_ROUTER=1
 fi
 
 # ============================================================
@@ -454,7 +431,11 @@ run_outline_ai() {
     local out
     # 2026-07-03 v5.6 FIX: 总裁指示 — 文章生成必须用 ai 助手技能
     # STEP 2 大纲: 优先 ai-router (豆包/Gemini/ChatGPT), 失败降级 minimax
-    if [ "$USE_AI_ROUTER" = "1" ] && [ "$ai_name" != "deepseek" ]; then
+    # 2026-07-17 19:11 v5.14 FIX: minimax 不走 ai-router (不支持), 直接 minimax-quick.sh
+    if [ "$ai_name" = "minimax" ]; then
+        log "  🤖 minimax-quick → $ai_name (90s timeout, 大纲)..."
+        out=$(timeout 90 bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 6000 2>&1) || out=""
+    elif [ "$USE_AI_ROUTER" = "1" ] && [ "$ai_name" != "deepseek" ]; then
       # 2026-07-03 v5.6: ai-router 问该 AI 平台 (豆包=豆包, gemini=Gemini, chatgpt=ChatGPT)
       # 2026-07-05 v5.9: 180s → 220s (豆包实测 120-180s 大纲, +40s buffer)
       log "  🤖 ai-router → $ai_name (220s timeout, 大纲)..."
@@ -568,7 +549,7 @@ GEMINI_OUT=""
 # Each AI gets one attempt; if all 3 fail, exit with clear log
 # 2026-07-15 fix: 4 个 ai-router 都间歇性失败 (Chrome tab 状态异常), 加 minimax 作为 outline 最后兜底
 # 重要: minimax 永禁是针对 STEP 3 写文 (100/100 形式化), STEP 2 outline 只生成结构, minimax OK
-for AI_TRY in doubao deepseek gemini minimax; do
+for AI_TRY in minimax gemini doubao deepseek; do
     log "🤖 Trying $AI_TRY for outline..."
     # 30s 间隔避开 ai-guard too_frequent (豆包 30s 内调第二次会拒)
     if [ "$AI_TRY" = "doubao" ] || [ "$AI_TRY" = "minimax" ]; then
