@@ -242,12 +242,64 @@ for slug in $(jq -r '.slug' "$ARTICLES_DIR"/*.json 2>/dev/null | sort -u); do
 
   # Sleep before to respect cooldown
   sleep "$COOLDOWN_SLEEP"
-  if translate_article_batch "$slug" "$MODE" "$missing_langs"; then
-    merge_batch "$slug" "$MODE"
-    echo "$slug" >> "$DONE_FILE"
-    log "✅ DONE $MODE: $slug"
+  # 2026-07-18 23:25 FIX: prompt 太大 (>30K chars, gemini input cap) → 1 lang/call fallback
+  # 修法: 优先 1 call=1 lang (mini 脚本模式), batch 仅在 prompt < 30K 时用
+  # 原因: batch 8 langs body 翻译 prompt ~100K chars, gemini 卡 27-33% → 报"输入验证失败" → 整篇 fail
+  IFS=',' read -ra LANGS_TMP <<< "$missing_langs"
+  USE_BATCH=1
+  if [ "$MODE" = "body" ] && [ "${#LANGS_TMP[@]}" -gt 1 ]; then
+    # 估算 prompt 大小: 13000 chars/lang + 1000 base = 13000 × N
+    PROMPT_EST=$((13000 * ${#LANGS_TMP[@]} + 1000))
+    if [ "$PROMPT_EST" -gt 30000 ]; then
+      log "  📦 prompt ~${PROMPT_EST} chars > 30K threshold → fallback 1 lang/call mode"
+      USE_BATCH=0
+    fi
+  fi
+
+  if [ "$USE_BATCH" = "1" ]; then
+    if translate_article_batch "$slug" "$MODE" "$missing_langs"; then
+      merge_batch "$slug" "$MODE"
+      echo "$slug" >> "$DONE_FILE"
+      log "✅ DONE $MODE: $slug (batch)"
+    else
+      log "⚠️ FAIL batch $MODE: $slug, retry 1 lang/call..."
+      # Fallback: split into 1-lang calls
+      RETRY_SUCCESS=1
+      for LANG in "${LANGS_TMP[@]}"; do
+        if translate_article_batch "$slug" "$MODE" "$LANG"; then
+          merge_batch "$slug" "$MODE"
+        else
+          log "  ❌ FAIL 1-lang $LANG for $slug"
+          RETRY_SUCCESS=0
+        fi
+        sleep "$COOLDOWN_SLEEP"
+      done
+      if [ "$RETRY_SUCCESS" = "1" ]; then
+        echo "$slug" >> "$DONE_FILE"
+        log "✅ DONE $MODE: $slug (1-lang fallback)"
+      else
+        log "⚠️ FAIL $MODE: $slug (1-lang fallback, see $FAIL_FILE)"
+      fi
+    fi
   else
-    log "⚠️ FAIL $MODE: $slug (see $FAIL_FILE)"
+    # 1 lang/call mode (mini 脚本模式)
+    RETRY_SUCCESS=1
+    for LANG in "${LANGS_TMP[@]}"; do
+      log "  -- 1-lang $LANG --"
+      if translate_article_batch "$slug" "$MODE" "$LANG"; then
+        merge_batch "$slug" "$MODE"
+      else
+        log "  ❌ FAIL 1-lang $LANG for $slug"
+        RETRY_SUCCESS=0
+      fi
+      sleep "$COOLDOWN_SLEEP"
+    done
+    if [ "$RETRY_SUCCESS" = "1" ]; then
+      echo "$slug" >> "$DONE_FILE"
+      log "✅ DONE $MODE: $slug (1-lang mode)"
+    else
+      log "⚠️ FAIL $MODE: $slug (1-lang mode, see $FAIL_FILE)"
+    fi
   fi
 done
 log "===== ${MODE} BATCH TRANSLATION v2 END ====="
