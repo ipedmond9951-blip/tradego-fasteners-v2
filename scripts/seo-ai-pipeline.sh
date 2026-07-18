@@ -676,10 +676,18 @@ WRITER_PROMPT_NONCED="${WRITER_PROMPT/tradego-fasteners.com (China fastener manu
 [Internal-ref: $NONCE 2026-07-15]}"
 printf '%s' "$WRITER_PROMPT_NONCED" > "$WRITER_PROMPT_FILE"
 
-# 主力 ai-router 4 AI (按"无限→限量"配额排序)
-# 豆包/DeepSeek 接近无限调用, Gemini/ChatGPT 有调用次数限制
-PRIMARY_WRITERS=("doubao" "deepseek" "gemini" "chatgpt")
-FALLBACK_WRITER="minimax"
+# 2026-07-18 21:30 v5.16 FIX: 主力写文顺序改成 gemini 优先
+# 原因:
+#   - 7/17 手动 writer 测试: gemini 直调返 7533 chars ✅ (Senegal Dakar 10152 chars)
+#   - 7/18 03:30 cron STEP 3: doubao 240 chars insufficient + deepseek 永 fail (Insufficient Balance)
+#   - 原顺序 doubao→deepseek→gemini→chatgpt 中, 前两个必 fail, gemini 没机会试
+#   - 修法: gemini 提到第一位 (已知 10000+ chars 能力), doubao 仍作 fallback (240 chars 偶尔 500+)
+#   - 去掉 deepseek (永 fail, 600s timeout 浪费 10 分钟, P1-3 标记为不可修)
+#   - chatgpt 保留作第 3 步 (ai-guard 9999, 实测能写 6000+ chars)
+#   - grok 加入第 4 位 (h2 翻译实测能 work, body 写文未试但比 deepseek 强)
+# 7/19 03:30 cron 预期: gemini 一次写通, 不需 manual recovery
+PRIMARY_WRITERS=("gemini" "doubao" "chatgpt" "grok")
+FALLBACK_WRITER="minimax"  # 2026-07-06 永禁写文, 仅占位防脚本 crash
 
 # 跑主力 AI
 for WRITER in "${PRIMARY_WRITERS[@]}"; do
