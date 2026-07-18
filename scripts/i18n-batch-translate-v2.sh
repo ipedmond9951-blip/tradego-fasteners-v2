@@ -118,9 +118,9 @@ Items to translate:
 
 Critical:
 - Use SHORT, NATURAL translations for headings (h2) — should be similar length to English
-- For body, preserve all HTML anchor tags exactly (e.g. <a href=\"...\">text</a>)
-- 2026-07-18 19:20 总裁命令: 必须在 JSON 字符串中**转义所有双引号** (如 <a href=\"/en/...\"> 必须写为 <a href=\\\"/en/...\\\">)
-- 不要在 JSON 字符串里直接写原始 " (raw double quote) — Python json.loads 会崩
+- For body, preserve all HTML anchor tags exactly (e.g. <a href="...">text</a>)
+- 2026-07-18 19:20 总裁命令: 必须在 JSON 字符串中转义所有双引号 (如 <a href=...> 必须写为 <a href=...> 内部的双引号用反斜杠转义)
+- 不要在 JSON 字符串里直接写原始双引号 — Python json.loads 会崩
 - Technical terms (ISO 898-1, EN 14399, HS 7318, port names, org names) keep in their commonly-used form
 - Each idx must match the input idx exactly'''
 with open('$prompt_file', 'w') as f: f.write(prompt)
