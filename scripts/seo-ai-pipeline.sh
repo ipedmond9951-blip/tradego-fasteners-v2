@@ -586,6 +586,12 @@ for AI_TRY in minimax gemini doubao deepseek; do
     fi
     RAW_OUT=$(run_outline_ai "$AI_TRY")
     if EXTRACTED=$(validate_json "$RAW_OUT"); then
+        # 2026-07-19 04:10 FIX: outline 至少 1000 chars (sections=6 + faqs=5 + sources=6 baseline)
+        # 修: minimax 偶发 3 chars placeholder 返 (validate_json pass 但 sections=0 quality gate fail)
+        if [ ${#EXTRACTED} -lt 1000 ]; then
+          log "⚠️ $AI_TRY outline too short (${#EXTRACTED} chars < 1000), try next"
+          continue
+        fi
         GEMINI_OUT="$EXTRACTED"
         log "✅ $AI_TRY outline OK (${#GEMINI_OUT} chars)"
         break
