@@ -122,11 +122,16 @@ if trans:
     if 'sections' in trans:
         for i, st in enumerate(trans['sections']):
             if i < len(a.get('sections', [])):
-                # 2026-07-19 18:17 FIX: minimax 偶发 sections[i] 只有 heading 无 body → 报 KeyError
+                sec = a['sections'][i]
+                # 2026-07-19 21:13 FIX: FAQ sections 没 body 字段 (用 faqItems) → 报 KeyError 'body'
+                if not isinstance(sec.get('body'), dict):
+                    sec['body'] = {}
+                if not isinstance(sec.get('heading'), dict):
+                    sec['heading'] = {}
                 if isinstance(st, dict) and 'heading' in st and st['heading']:
-                    a['sections'][i]['heading']['$LANG'] = st['heading']
+                    sec['heading']['$LANG'] = st['heading']
                 if isinstance(st, dict) and 'body' in st and st['body']:
-                    a['sections'][i]['body']['$LANG'] = st['body']
+                    sec['body']['$LANG'] = st['body']
     if 'faqs' in trans and a.get('faqs'):
         for i, ft in enumerate(trans['faqs']):
             if i < len(a['faqs']):
