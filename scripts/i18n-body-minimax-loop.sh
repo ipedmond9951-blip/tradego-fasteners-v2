@@ -122,13 +122,18 @@ if trans:
     if 'sections' in trans:
         for i, st in enumerate(trans['sections']):
             if i < len(a.get('sections', [])):
-                if 'heading' in st: a['sections'][i]['heading']['$LANG'] = st['heading']
-                if 'body' in st: a['sections'][i]['body']['$LANG'] = st['body']
+                # 2026-07-19 18:17 FIX: minimax 偶发 sections[i] 只有 heading 无 body → 报 KeyError
+                if isinstance(st, dict) and 'heading' in st and st['heading']:
+                    a['sections'][i]['heading']['$LANG'] = st['heading']
+                if isinstance(st, dict) and 'body' in st and st['body']:
+                    a['sections'][i]['body']['$LANG'] = st['body']
     if 'faqs' in trans and a.get('faqs'):
         for i, ft in enumerate(trans['faqs']):
             if i < len(a['faqs']):
-                if 'q' in ft: a['faqs'][i]['q']['$LANG'] = ft['q']
-                if 'a' in ft: a['faqs'][i]['a']['$LANG'] = ft['a']
+                if isinstance(ft, dict) and 'q' in ft and ft['q']:
+                    a['faqs'][i]['q']['$LANG'] = ft['q']
+                if isinstance(ft, dict) and 'a' in ft and ft['a']:
+                    a['faqs'][i]['a']['$LANG'] = ft['a']
     if 'ctaText' in trans and a.get('cta'):
         a['cta']['text']['$LANG'] = trans['ctaText']
     with open('$ARTICLE_FILE', 'w') as f:
