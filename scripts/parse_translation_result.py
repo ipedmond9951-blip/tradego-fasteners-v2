@@ -89,6 +89,17 @@ if 'translations' not in d:
         total = sum(len(v) for v in d.values())
         print(f"[ok] parsed batch format {len(d)} langs / {total} translations -> {out_file}")
         sys.exit(0)
+    # 2026-07-20 fix: 单段格式 (i18n-single-section-minimax.sh 用) - 顶层是 {"heading": "...", "body": "..."}
+    # 这种情况 minimax 返的是单段翻译, wrap 成 translations 格式给 merge_sec 用
+    if isinstance(d, dict) and ('heading' in d or 'body' in d):
+        # 占位 lang 标记为 'sec' (merge 时识别)
+        d_wrapped = {'translations': {'sec': d}}
+        with open(out_file, 'w') as f:
+            json.dump(d_wrapped, f, ensure_ascii=False)
+        h_len = len(d.get('heading', ''))
+        b_len = len(d.get('body', ''))
+        print(f"[ok] parsed single-section format heading={h_len}c body={b_len}c -> {out_file}")
+        sys.exit(0)
     print(f"[error] no 'translations' key and not batch format. Got: {list(d.keys())}", file=sys.stderr)
     sys.exit(1)
 
