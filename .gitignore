@@ -63,3 +63,12 @@ tmp-scripts/
 # next-sitemap 自动生成 (postbuild)
 public/sitemap.xml
 public/robots.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Backup files (manual edits leave .bak.HHMMSS - 7/20 cleanup)
+*.bak.*
+
