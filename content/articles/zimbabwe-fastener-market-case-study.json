@@ -262,7 +262,15 @@
     {
       "id": "faq",
       "heading": {
-        "en": "Frequently Asked Questions"
+        "en": "Frequently Asked Questions",
+        "es": "Preguntas frecuentes",
+        "ar": "الأسئلة الشائعة",
+        "fr": "Foire aux questions",
+        "pt": "Perguntas frequentes",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "सामान्य प्रश्न"
       },
       "faqItems": [
         {
