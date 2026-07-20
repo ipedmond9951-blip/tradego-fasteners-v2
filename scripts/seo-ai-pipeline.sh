@@ -871,7 +871,10 @@ if [ ${#WRITER_OUT} -lt $MIN_CHARS ]; then
         WRITER_OUT="$LAST_OUT"
         WRITERS_TRIED="$WRITERS_TRIED minimax(last-resort,${#LAST_OUT}chars)"
     else
-        log "❌ minimax 5th writer 兜底也失败 (${#LAST_OUT:-0} chars)"
+        # 2026-07-21 v5.18.1 FIX: bash 3.2 不支持 ${#VAR:-0} (macOS default), 改用 ${#VAR} + 默认 0 防 unset
+        LAST_OUT_LEN=${#LAST_OUT}
+        [ -z "$LAST_OUT" ] && LAST_OUT_LEN=0
+        log "❌ minimax 5th writer 兜底也失败 (${LAST_OUT_LEN} chars)"
         log "❌ All writers produced insufficient content (< $MIN_CHARS chars)"
         log "💡 深度文要求 ≥2000 词, LLM 可能偷工减料, 需 manual recovery"
         exit 1
