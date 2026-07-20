@@ -96,13 +96,20 @@ for AI_TRY in grok gemini doubao; do
   if [ "$RESULT_LEN" -gt 200 ] && ! echo "$RESULT" | grep -qE "^\[error\]|^\[warn\]|too_frequent|daily_limit|ai-guard|quarantine|不可达|静默"; then
     echo "$RESULT" > "$RAW_FILE"
     log "  ✅ $AI_TRY output: $RESULT_LEN chars"
-    break
+    # 2026-07-20 04:50 FIX: parse fail 不能立即 break, 要 try next AI
+    if python3 "$SCRIPT_DIR/parse_translation_result.py" "$RAW_FILE" "$RESULT_FILE" 2>> "$LOG_DIR/parse_errors.log"; then
+      log "  ✅ parsed OK"
+      break
+    else
+      log "  ⚠️ $AI_TRY parse fail, try next"
+      continue
+    fi
   else
     log "  $AI_TRY fail (len=$RESULT_LEN), next"
   fi
 done
 
-if [ ! -s "$RAW_FILE" ]; then
+if [ ! -s "$RESULT_FILE" ]; then
   log "  ❌ all AI fail, exit"
   exit 1
 fi

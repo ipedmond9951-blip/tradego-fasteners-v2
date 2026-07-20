@@ -103,9 +103,9 @@ if cta:
 print('\n'.join(parts))
 " > "$PROMPT_FILE"
 
-  # Call minimax
-  log "  calling minimax-quick.sh (max_tokens=4000)..."
-  if bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$PROMPT_FILE")" "MiniMax-M2.7-highspeed" 4000 > "$RAW_FILE" 2>&1; then
+  # Call minimax (max_tokens=16000 for body 翻译 10000+ chars output)
+  log "  calling minimax-quick.sh (max_tokens=16000, M2.7 standard)..."
+  if bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$PROMPT_FILE")" "MiniMax-M2.7" 16000 > "$RAW_FILE" 2>&1; then
     RAW_LEN=$(wc -c < "$RAW_FILE")
     log "  raw output: $RAW_LEN chars"
     if [ "$RAW_LEN" -lt 200 ]; then
