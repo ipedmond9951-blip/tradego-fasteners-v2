@@ -781,8 +781,16 @@ for WRITER in "${PRIMARY_WRITERS[@]}"; do
     #   - chatgpt 偏好 ## 标题
     #   - 豆包可能开个头就停
     # 加 ^[0-9]+\. 数字列表 + 引用 [1] 模式让所有风格都能 PASS
+    # 2026-07-21 v5.18.2 BUGFIX: retry 成功后没 break bug
+    #   - 7/21 03:30 实战: gemini retry 10886 chars 但无 ## markdown → regex 失败 → continue
+    #   - 修法: 放宽, 如果 chars > MIN_CHARS * 1.5 (12000) 即使无 ## 也接受 (STEP 5 markdown parser 会处理)
     if [ ${#WRITER_OUT} -gt $MIN_CHARS ] && echo "$WRITER_OUT" | grep -Eq '^##? |^# |<h[1-3]>|^\*\*[A-Z]|^[0-9]+\. '; then
-        log "✅ Writer $WRITER produced content (${#WRITER_OUT} chars, depth article)"
+        log "✅ Writer $WRITER produced content (${#WRITER_OUT} chars, depth article, has ##)"
+        WRITERS_TRIED="$WRITERS_TRIED $WRITER"
+        break
+    elif [ ${#WRITER_OUT} -gt $((MIN_CHARS * 3 / 2)) ]; then
+        # v5.18.2 放宽: 长内容 (≥1.5x MIN_CHARS) 即使没 ## 也接受, 避免 retry 成功但 loop 继续
+        log "✅ Writer $WRITER produced long content (${#WRITER_OUT} chars, no ## but ≥1.5x MIN_CHARS, accept)"
         WRITERS_TRIED="$WRITERS_TRIED $WRITER"
         break
     else
@@ -836,7 +844,13 @@ if [ ${#WRITER_OUT} -le $MIN_CHARS ] || ! echo "$WRITER_OUT" | grep -Eq '^##? |^
         fi
 
         if [ ${#FB_WRITER_OUT} -gt $MIN_CHARS ] && echo "$FB_WRITER_OUT" | grep -Eq '^##? |^# |<h[1-3]>|^\*\*[A-Z]|^[0-9]+\. '; then
-            log "✅ Fallback writer $FB_WRITER produced content (${#FB_WRITER_OUT} chars)"
+            log "✅ Fallback writer $FB_WRITER produced content (${#FB_WRITER_OUT} chars, has ##)"
+            WRITER_OUT="$FB_WRITER_OUT"
+            WRITERS_TRIED="$WRITERS_TRIED ${FB_WRITER}(fallback)"
+            break
+        elif [ ${#FB_WRITER_OUT} -gt $((MIN_CHARS * 3 / 2)) ]; then
+            # v5.18.2 放宽: 长内容即使没 ## 也接受 (避免 retry 成功但 loop 继续)
+            log "✅ Fallback writer $FB_WRITER produced long content (${#FB_WRITER_OUT} chars, ≥1.5x MIN_CHARS, accept)"
             WRITER_OUT="$FB_WRITER_OUT"
             WRITERS_TRIED="$WRITERS_TRIED ${FB_WRITER}(fallback)"
             break
@@ -886,7 +900,13 @@ WORD_COUNT=$(echo "$WRITER_OUT" | wc -w | tr -d ' ')
 log "📝 Word count: $WORD_COUNT (target: 2000-2500)"
 
 if [ "$WORD_COUNT" -lt 1800 ]; then
-    log "⚠️ Word count below 1800, marking as below depth threshold"
+    # 2026-07-21 v5.18.2 FIX: Word count < 1800 时直接 exit 1
+    # 背景: 7/21 03:30 cron STEP 3 fallback grok 1545 chars (≈309 词) 假成功
+    #       7/20 03:30 cron STEP 3 fallback grok 1545 chars 同样假成功
+    # 修法: 短文 (309 词 ≈ 1 section) 不应作为深度文上线, exit 1 触发 manual recovery
+    log "❌ Word count $WORD_COUNT < 1800 (深度文最少 1800 词), STEP 3 输出过短, FAIL"
+    log "💡 总裁 7/15 原则: '完成' 必须真深度, 309 词不算深度"
+    exit 1
 fi
 
 ARTICLE_MD_FILE="$TMP_DIR/${SLUG}_article.md"
