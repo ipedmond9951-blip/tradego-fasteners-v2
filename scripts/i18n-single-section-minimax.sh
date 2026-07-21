@@ -142,9 +142,9 @@ if not heading and not body:
     exit(1)
 if sec_idx < len(a.get('sections', [])):
     if 'heading' not in a['sections'][sec_idx]:
-        a['sections'][sec_idx]['heading'] = {}
+        a['sections'][sec_idx]['heading'] = dict()
     if 'body' not in a['sections'][sec_idx]:
-        a['sections'][sec_idx]['body'] = {}
+        a['sections'][sec_idx]['body'] = dict()
     a['sections'][sec_idx]['heading'][lang] = heading
     a['sections'][sec_idx]['body'][lang] = body
     with open(article_file, 'w') as f:
