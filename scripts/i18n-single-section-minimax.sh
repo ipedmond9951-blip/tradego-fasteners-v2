@@ -36,8 +36,16 @@ log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1"; }
 
 log "===== i18n SINGLE-SECTION minimax for $SLUG / $LANG ====="
 
+# 2026-07-21 fix: 用 article 实际 section 数, 避免 sec5 IndexError on <6-section articles
+TOTAL_SECS=$(python3 -c "
+import json
+with open('$ARTICLE_FILE') as f: a = json.load(f)
+print(len(a.get('sections', [])))
+")
+log "  article has $TOTAL_SECS sections, will process 0..$((TOTAL_SECS-1))"
+
 # Loop each missing section
-for SEC_IDX in 0 1 2 3 4 5; do
+for SEC_IDX in $(seq 0 $((TOTAL_SECS-1))); do
   PROMPT_FILE="$TMP_DIR/${SLUG}_sec${SEC_IDX}_${LANG}.txt"
   RAW_FILE="$TMP_DIR/${SLUG}_sec${SEC_IDX}_${LANG}.raw.txt"
   RESULT_FILE="$TMP_DIR/${SLUG}_sec${SEC_IDX}_${LANG}.json"
