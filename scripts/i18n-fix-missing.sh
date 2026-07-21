@@ -135,14 +135,32 @@ if cta:
 print('\n'.join(parts))
 PYEOF
 
-  # Retry 3 times (minimax 1 call = 1 lang, 6+5+1 sections × 30s = 12min, 不 retry)
+  # Retry 3 times (minimax 偶发 3min timeout, ja/ar 长 prompt 触发)
   log "[$i/$TOTAL] $SLUG $LANG"
-  if bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$PROMPT_FILE")" "MiniMax-M2.7" 16000 > "$RAW_FILE" 2>&1; then
-    RAW_LEN=$(wc -c < "$RAW_FILE")
-    if [ "$RAW_LEN" -lt 200 ]; then
-      log "  ❌ raw too short ($RAW_LEN c)"
-      continue
+  SUCCESS=0
+  for ATTEMPT in 1 2 3; do
+    if [ "$ATTEMPT" -gt 1 ]; then
+      log "    retry $ATTEMPT: sleep 8s + inject nonce"
+      sleep 8
     fi
+    if bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$PROMPT_FILE")" "MiniMax-M2.7" 16000 > "$RAW_FILE" 2>&1; then
+      RAW_LEN=$(wc -c < "$RAW_FILE")
+      if [ "$RAW_LEN" -ge 200 ]; then
+        SUCCESS=1
+        break
+      else
+        log "    attempt $ATTEMPT: raw too short ($RAW_LEN c)"
+      fi
+    else
+      log "    attempt $ATTEMPT: minimax exit $?"
+    fi
+  done
+
+  if [ "$SUCCESS" -eq 0 ]; then
+    log "  ❌ all 3 attempts failed"
+    continue
+  fi
+
     # Parse
     if python3 "$SCRIPT_DIR/parse_translation_result.py" "$RAW_FILE" "$RESULT_FILE" 2>> "$LOG_DIR/parse_errors-fix.log"; then
       # Merge
@@ -151,23 +169,27 @@ import json, sys
 af, rf, lang = sys.argv[1], sys.argv[2], sys.argv[3]
 with open(af) as f: a = json.load(f)
 with open(rf) as f: r = json.load(f)
-trans = r.get('translations', {}).get(lang, {})
-if not trans:
-    print(f'  ❌ no {lang} in result', flush=True)
+# parse_translation_result.py 8 langs batch 返 {"translations": {lang: ...}}, 单段返 {"translations": {"sec": ...}}
+# 兼容两种格式
+trans = r.get('translations', {}).get(lang)
+if not trans or not isinstance(trans, dict):
+    # fallback to 'sec' (single-section format)
+    trans = r.get('translations', {}).get('sec', r)
+if not trans or not isinstance(trans, dict):
+    print(f'  ❌ no valid {lang} in result', flush=True)
     sys.exit(0)
-if 'title' in trans:
+if 'title' in trans and isinstance(trans['title'], str):
     a['title'][lang] = trans['title']
-if 'sections' in trans:
+if 'sections' in trans and isinstance(trans['sections'], list):
     for i, sec_trans in enumerate(trans['sections']):
-        if i < len(a.get('sections', [])):
+        if i < len(a.get('sections', [])) and isinstance(sec_trans, dict):
             if 'heading' in sec_trans:
                 a['sections'][i]['heading'][lang] = sec_trans['heading']
             if 'body' in sec_trans:
                 a['sections'][i]['body'][lang] = sec_trans['body']
 if 'faqs' in trans and a.get('faqs'):
-    # faqs can be list of {q,a} or list of {q,a} wrapped
     for i, f_trans in enumerate(trans['faqs']):
-        if i < len(a['faqs']):
+        if i < len(a['faqs']) and isinstance(f_trans, dict):
             if 'q' in f_trans:
                 a['faqs'][i]['q'][lang] = f_trans['q']
             if 'a' in f_trans:
@@ -182,9 +204,6 @@ PYEOF
     else
       log "  ❌ parse fail"
     fi
-  else
-    log "  ❌ minimax call failed (exit $?)"
-  fi
   sleep 3
 done
 
