@@ -61,11 +61,22 @@ else:
   # Build prompt for 1 section
   python3 -c "
 import json
+LANG_NAMES = {
+  'es': 'Spanish (Español)',
+  'ar': 'Arabic (العربية, RTL)',
+  'fr': 'French (Français)',
+  'pt': 'Portuguese (Português)',
+  'ru': 'Russian (Русский)',
+  'ja': 'Japanese (日本語)',
+  'de': 'German (Deutsch)',
+  'hi': 'Hindi (हिन्दी, Devanagari script)',
+}
 with open('$ARTICLE_FILE') as f: a = json.load(f)
 sections = a.get('sections', [])
 sec = sections[$SEC_IDX]
 title = a['title']['en']
-parts = [f'Translate section body to $LANG (Hindi/Devanagari script).']
+lang_name = LANG_NAMES.get('$LANG', '$LANG')
+parts = [f'Translate section body to $LANG ({lang_name}).']
 parts.append(f'Article title (EN, for context): {title}')
 parts.append('')
 parts.append('Output STRICT JSON: {\"heading\": \"...\", \"body\": \"...\"}')
