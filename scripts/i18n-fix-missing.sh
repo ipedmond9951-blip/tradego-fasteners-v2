@@ -115,9 +115,25 @@ parts.append('SECTION BODIES TO TRANSLATE:')
 for i, s in enumerate(sections):
     body_en = s.get('body', {}).get('en', '')
     if not body_en:
-        continue
+        # Fallback: 缺 en 用 zh 或 first available lang
+        for L in ['zh','ja','de','ru','pt','es','ar','fr','hi']:
+            alt = s.get('body', {}).get(L, '')
+            if alt:
+                body_en = f'[EN body missing, using {L} as source] {alt}'
+                break
+        if not body_en:
+            continue
+    heading_en = s.get('heading', {}).get('en', '')
+    if not heading_en:
+        for L in ['zh','ja','de','ru','pt','es','ar','fr','hi']:
+            alt = s.get('heading', {}).get(L, '')
+            if alt:
+                heading_en = alt
+                break
+        if not heading_en:
+            heading_en = f'Section {i}'
     parts.append(f'--- section {i} ---')
-    parts.append(f'heading(en): {s["heading"]["en"]}')
+    parts.append(f'heading(en): {heading_en}')
     parts.append(f'body(en):')
     parts.append(body_en)
 faqs = a.get('faqs', [])
@@ -125,9 +141,23 @@ if faqs:
     parts.append('')
     parts.append('FAQs:')
     for i, f in enumerate(faqs):
+        q_en = f.get('q', {}).get('en', '')
+        a_en = f.get('a', {}).get('en', '')
+        if not q_en:
+            for L in ['zh','ja','de','ru','pt','es','ar','fr','hi']:
+                alt = f.get('q', {}).get(L, '')
+                if alt:
+                    q_en = f'[EN missing, using {L}] {alt}'
+                    break
+        if not a_en:
+            for L in ['zh','ja','de','ru','pt','es','ar','fr','hi']:
+                alt = f.get('a', {}).get(L, '')
+                if alt:
+                    a_en = f'[EN missing, using {L}] {alt}'
+                    break
         parts.append(f'--- faq {i} ---')
-        parts.append(f'q(en): {f["q"]["en"]}')
-        parts.append(f'a(en): {f["a"]["en"]}')
+        parts.append(f'q(en): {q_en}')
+        parts.append(f'a(en): {a_en}')
 cta = a.get('cta', {}).get('text', {}).get('en', '')
 if cta:
     parts.append('')
