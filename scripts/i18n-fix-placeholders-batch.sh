@@ -108,6 +108,19 @@ for ENTRY in "${MISSING[@]}"; do
   RAW_FILE="$TMP_DIR/${SLUG_CUR}_sec${SEC_IDX}_${LANG}_batch.raw.txt"
   RESULT_FILE="$TMP_DIR/${SLUG_CUR}_sec${SEC_IDX}_${LANG}_batch.json"
 
+  # 2026-07-23 fix: skip sections with huge en body (>15KB, corrupted HTML or mega content)
+  EN_BODY_LEN=$(python3 -c "
+import json
+with open('$ARTICLE_FILE') as f: a = json.load(f)
+s = a['sections'][$SEC_IDX]
+print(len(s.get('body', {}).get('en', '')))
+" 2>/dev/null)
+  if [ "${EN_BODY_LEN:-0}" -gt 15000 ] 2>/dev/null; then
+    log "  ⚠️  sec$SEC_IDX en body too large (${EN_BODY_LEN}c > 15000c), skip (corrupted?)"
+    echo "${SLUG_CUR}:sec${SEC_IDX}:huge_en" >> "$CKPT_FILE"
+    continue
+  fi
+
   python3 "$SCRIPT_DIR/_build_i18n_prompt.py" "$ARTICLE_FILE" "$SEC_IDX" "$LANG" > "$PROMPT_FILE"
 
   PROMPT="$(cat "$PROMPT_FILE")"
@@ -120,7 +133,7 @@ for ENTRY in "${MISSING[@]}"; do
       log "    retry $ATTEMPT: sleep 5s"
       sleep 5
     fi
-    if timeout 90 bash "$SCRIPT_DIR/minimax-quick-json.sh" "$PROMPT" "MiniMax-M2.7" 12000 > "$RAW_FILE" 2>&1; then
+    if timeout 150 bash "$SCRIPT_DIR/minimax-quick-json.sh" "$PROMPT" "MiniMax-M2.7" 12000 > "$RAW_FILE" 2>&1; then
       RAW_LEN=$(wc -c < "$RAW_FILE" 2>/dev/null || echo 0)
       if [ "$RAW_LEN" -ge 200 ]; then
         log "    attempt $ATTEMPT: raw $RAW_LEN c OK"
