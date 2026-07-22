@@ -75,6 +75,17 @@ else:
     log "  [skip] section $SEC_IDX already $EXISTING chars (>=1500, OK)"
     continue
   fi
+  # 2026-07-23 fix: per-lang threshold for skip
+  case "$LANG" in
+    zh|ja) SKIP_MIN=600 ;;
+    hi)    SKIP_MIN=800 ;;
+    ar)    SKIP_MIN=1200 ;;
+    *)     SKIP_MIN=1500 ;;
+  esac
+  if [ "$EXISTING" -ge "$SKIP_MIN" ] 2>/dev/null; then
+    log "  [skip] section $SEC_IDX already $EXISTING chars (>=${SKIP_MIN}, OK for $LANG)"
+    continue
+  fi
   if [ "$EXISTING" -gt 50 ] 2>/dev/null; then
     log "  [deep-translate] section $SEC_IDX currently $EXISTING chars, will re-translate to >=1500"
   fi
@@ -142,7 +153,9 @@ if sec_idx < len(a.get('sections', [])):
         a['sections'][sec_idx]['heading'] = dict()
     if 'body' not in a['sections'][sec_idx]:
         a['sections'][sec_idx]['body'] = dict()
-    MIN_LEN = 1500
+    # 2026-07-23 fix: per-lang threshold (zh/ja 600, hi 800, ar 1200, others 1500)
+    MIN_LEN_MAP = {'zh': 600, 'ja': 600, 'hi': 800, 'ar': 1200}
+    MIN_LEN = MIN_LEN_MAP.get(lang, 1500)
     if len(body) < MIN_LEN:
         blen = len(body)
         sys.stderr.write('  [sec' + str(sec_idx) + '] body too short (' + str(blen) + 'c), not merged\n')
