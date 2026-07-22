@@ -14,10 +14,63 @@ except Exception as e:
 
 text = re.sub(r'```(?:json)?', '', text)
 
+# 2026-07-22 19:40 修复: minimax WRITE mode 输出 Python dict literal 风格 {heading: "..."} (key 无双引号)
+# 在 greedy match 之后, parse fail 时 fallback 用 python_dict_to_json 转换
+def python_dict_to_json(text):
+    """Convert Python dict literal {key: value, key2: value2} to JSON {"key": value, ...}.
+    Only processes key positions outside string values."""
+    result = []
+    in_string = False
+    escape = False
+    i = 0
+    while i < len(text):
+        c = text[i]
+        if in_string:
+            result.append(c)
+            if escape:
+                escape = False
+            elif c == '\\':
+                escape = True
+            elif c == '"':
+                in_string = False
+            i += 1
+            continue
+        if c == '"':
+            in_string = True
+            result.append(c)
+            i += 1
+            continue
+        # Look for {identifier: pattern or , identifier : pattern
+        # identifier is alphanumeric + underscore
+        if c == '{' or c == ',':
+            j = i + 1
+            while j < len(text) and text[j] in ' \t\n\r':
+                j += 1
+            id_start = j
+            while j < len(text) and (text[j].isalnum() or text[j] in '_'):
+                j += 1
+            k = j
+            while k < len(text) and text[k] in ' \t\n\r':
+                k += 1
+            if k < len(text) and text[k] == ':' and j > id_start and j < len(text) and text[id_start].isalpha():
+                # Match: { id : or , id :
+                # write c, then ", then identifier, then ":
+                result.append(c)
+                result.append('"')
+                for k2 in range(id_start, j):
+                    result.append(text[k2])
+                result.append('"')
+                result.append(':')
+                i = k + 1
+                continue
+        result.append(c)
+        i += 1
+    return ''.join(result)
+
 # 2026-07-18 19:32 总裁命令: 加 loose JSON parser (Gemini 输出 HTML 引号不转义 → 标准 json.loads fail)
 # 策略: 找到 JSON 块, 在每个 string value 内部自动转义未转义的 " 字符
 def escape_unescaped_quotes_in_json(json_text):
-    """Walk through json_text char by char. Inside string values, escape unescaped quotes."""
+    """Walk through json_text char by char. Inside string values, escape unescaped quotes AND raw control chars (newlines/tabs/CR)."""
     result = []
     in_string = False
     i = 0
@@ -30,7 +83,7 @@ def escape_unescaped_quotes_in_json(json_text):
         else:
             # We're inside a string
             if c == '\\':
-                # Escape sequence: keep as-is
+                # Escape sequence: keep as-is (e.g. \", \n, \\, etc.)
                 result.append(c)
                 if i + 1 < len(json_text):
                     result.append(json_text[i + 1])
@@ -49,6 +102,13 @@ def escape_unescaped_quotes_in_json(json_text):
                 else:
                     # Content (unescaped quote inside string)
                     result.append('\\"')
+            elif c == '\n':
+                # 2026-07-22 19:15 fix: raw newline inside string (minimax 拒绝 escape 成 \\n) - 替换为 \\n
+                result.append('\\n')
+            elif c == '\r':
+                result.append('\\r')
+            elif c == '\t':
+                result.append('\\t')
             else:
                 result.append(c)
         i += 1
@@ -66,14 +126,19 @@ d = None
 try:
     d = json.loads(raw_json)
 except json.JSONDecodeError as first_err:
-    # 标准 parse 失败, 尝试 loose parse
+    # 标准 parse 失败, 尝试 loose parse (escape 内部 quote + raw newline)
     fixed_json = escape_unescaped_quotes_in_json(raw_json)
     try:
         d = json.loads(fixed_json)
     except json.JSONDecodeError as e:
-        print(f"[error] JSON parse error (loose too): {e}", file=sys.stderr)
-        print(f"[debug] text last 200: {repr(raw_json[-200:])}", file=sys.stderr)
-        sys.exit(1)
+        # 2026-07-22 19:40: 二次 fallback, 可能是 minimax 输出的 Python dict literal
+        try:
+            converted = python_dict_to_json(fixed_json)
+            d = json.loads(converted)
+        except json.JSONDecodeError as e2:
+            print(f"[error] JSON parse error (loose + py_dict too): {e2}", file=sys.stderr)
+            print(f"[debug] text last 200: {repr(raw_json[-200:])}", file=sys.stderr)
+            sys.exit(1)
 
 if 'translations' not in d:
     # 2026-07-16 fix: v2 batch 格式 - 顶层直接是 lang key ({"es":[...], "ar":[...]})
