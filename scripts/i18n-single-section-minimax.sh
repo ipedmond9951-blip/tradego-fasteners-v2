@@ -134,6 +134,7 @@ print('\n'.join(parts))
   # Merge
   python3 -c "
 import json
+import sys
 article_file = '$ARTICLE_FILE'
 result_file = '$RESULT_FILE'
 sec_idx = $SEC_IDX
@@ -152,10 +153,13 @@ if sec_idx < len(a.get('sections', [])):
         a['sections'][sec_idx]['heading'] = dict()
     if 'body' not in a['sections'][sec_idx]:
         a['sections'][sec_idx]['body'] = dict()
-    # 2026-07-22 fix: 拒绝 < 1500c 短翻译, 避免低质量内容 (总裁原则: 完成必须真深度)
-    if len(body) < 1500:
-        print(f'  [sec{sec_idx}] ❌ body too short ({len(body)}c < 1500), not merged (will retry)')
-        exit(1)
+    # 2026-07-22 fix: 拒绝短翻译 (<1500c), 避免低质量内容 (总裁原则: 完成必须真深度)
+    # 注意: python code 在 bash -c "..." 字符串内, 必须避免 < > 等特殊字符
+    MIN_LEN = 1500
+    if len(body) < MIN_LEN:
+        blen = len(body)
+        sys.stderr.write('  [sec' + str(sec_idx) + '] body too short (' + str(blen) + 'c below threshold), not merged\n')
+        sys.exit(1)
     a['sections'][sec_idx]['heading'][lang] = heading
     a['sections'][sec_idx]['body'][lang] = body
     with open(article_file, 'w') as f:
