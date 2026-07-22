@@ -61,9 +61,13 @@ else:
     print(-1)
 " 2>/dev/null)
 
-  if [ "$EXISTING" -gt 200 ] 2>/dev/null; then
-    log "  [skip] section $SEC_IDX already $EXISTING chars"
+  if [ "$EXISTING" -gt 1500 ] 2>/dev/null; then
+    log "  [skip] section $SEC_IDX already $EXISTING chars (≥1500, OK)"
     continue
+  fi
+  if [ "$EXISTING" -gt 50 ] 2>/dev/null; then
+    # 2026-07-22 fix: partial section (<1500c) 仍需重译, 提升质量
+    log "  [deep-translate] section $SEC_IDX currently $EXISTING chars, will re-translate to ≥1500"
   fi
 
   # Build prompt for 1 section
@@ -94,6 +98,9 @@ parts.append('2. Preserve citations [1], [2] intact')
 parts.append('3. Keep HTML <a href=\"...\"> tags as-is in body')
 parts.append('4. CRITICAL: escape ALL double quotes in JSON string values with backslash')
 parts.append('5. Output ONLY the JSON object, no markdown fence, no commentary')
+parts.append('6. MINIMUM LENGTH: body MUST be ≥1800 characters (do NOT output short translations <1500 chars)')
+parts.append('7. DEPTH: include 4-5 specific facts, numbers, or technical details from the English source')
+parts.append('8. NO placeholder text, NO "coming soon", NO generic boilerplate - REAL content only')
 parts.append('')
 parts.append(f'--- section $SEC_IDX ---')
 parts.append(f'heading(en): {sec[\"heading\"][\"en\"]}')
@@ -103,8 +110,8 @@ print('\n'.join(parts))
 " > "$PROMPT_FILE"
 
   # Call minimax
-  log "  [sec$SEC_IDX] calling minimax-quick.sh (max_tokens=8000, M2.7 standard)..."
-  if bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$PROMPT_FILE")" "MiniMax-M2.7" 8000 > "$RAW_FILE" 2>&1; then
+  log "  [sec$SEC_IDX] calling minimax-quick.sh (max_tokens=12000, M2.7 standard)..."
+  if bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$PROMPT_FILE")" "MiniMax-M2.7" 12000 > "$RAW_FILE" 2>&1; then
     RAW_LEN=$(wc -c < "$RAW_FILE")
     log "  [sec$SEC_IDX] raw output: $RAW_LEN chars"
     if [ "$RAW_LEN" -lt 200 ]; then
@@ -145,6 +152,10 @@ if sec_idx < len(a.get('sections', [])):
         a['sections'][sec_idx]['heading'] = dict()
     if 'body' not in a['sections'][sec_idx]:
         a['sections'][sec_idx]['body'] = dict()
+    # 2026-07-22 fix: 拒绝 < 1500c 短翻译, 避免低质量内容 (总裁原则: 完成必须真深度)
+    if len(body) < 1500:
+        print(f'  [sec{sec_idx}] ❌ body too short ({len(body)}c < 1500), not merged (will retry)')
+        exit(1)
     a['sections'][sec_idx]['heading'][lang] = heading
     a['sections'][sec_idx]['body'][lang] = body
     with open(article_file, 'w') as f:
