@@ -27,7 +27,7 @@ title = a['title']['en']
 lang_name = LANG_NAMES.get(lang, lang)
 NL = chr(10)
 BS = chr(92)
-parts = []
+import uuid as _u_unique; parts = []; parts.append("UNIQUE-NONCE-" + str(_u_unique.uuid4())); parts.append("")
 parts.append('You are a professional ' + lang_name + ' technical translator for industrial B2B publications.')
 parts.append('Translate the English section below to ' + lang_name + '.')
 parts.append('Output: STRICT JSON, body MUST be 1500-2500 characters.')
@@ -57,9 +57,24 @@ parts.append('=== ARTICLE TITLE (EN) ===')
 parts.append(title)
 parts.append('')
 parts.append('=== SECTION ' + str(sec_idx) + ' ===')
-parts.append('heading(en): ' + sec['heading']['en'])
+# 2026-07-23 fix: 缺 en fallback 用 zh/ja/de/... first available
+heading_en = sec['heading'].get('en', '')
+if not heading_en:
+    for _L in ['zh', 'ja', 'de', 'ru', 'pt', 'es', 'ar', 'fr', 'hi']:
+        _alt = sec['heading'].get(_L, '')
+        if _alt:
+            heading_en = '[EN missing, using ' + _L + '] ' + _alt
+            break
+parts.append('heading(en): ' + heading_en)
+body_en = sec['body'].get('en', '')
+if not body_en:
+    for _L in ['zh', 'ja', 'de', 'ru', 'pt', 'es', 'ar', 'fr', 'hi']:
+        _alt = sec['body'].get(_L, '')
+        if _alt:
+            body_en = '[EN body missing, using ' + _L + ' as source] ' + _alt
+            break
 parts.append('body(en):')
-parts.append(sec['body']['en'])
+parts.append(body_en)
 parts.append('')
 parts.append('=== NOW OUTPUT THE JSON OBJECT (body 1500-2500 chars) ===')
-print(NL.join(parts))
+import time; parts.append(""); parts.append("=== TIMESTAMP (unique nonce) ==="); parts.append(str(time.time())); print(NL.join(parts))
