@@ -17,15 +17,16 @@ TMP_DIR="$LOG_DIR/tmp"
 mkdir -p "$LOG_DIR" "$TMP_DIR"
 
 LANGS=("es" "ar" "fr" "pt" "ru" "ja" "de" "hi")
-TARGET_LANGS=("${LANG[@]:-${LANGS[@]}}")
-[ -n "$LANG" ] && TARGET_LANGS=("$LANG")
 
 # 标准化: 剥 .UTF-8 / .utf8 / .UTF-16 等 locale 后缀,避免写到 'pt.UTF-8' 这种坏 key
 # (macOS 默认 LANG=zh_CN.UTF-8, cron 不指定时会被原样传到代码里)
-# 只在 LANG 非空时处理,避免破坏 LANGS fallback
+# 注意 bash 5.x quirk: env LANG="" 让 LANG 是 set-but-empty (1 元素空数组),
+# 不是 unset, 所以 ${LANG[@]:-${LANGS[@]}} 不会 fallback, 拿到 (""). 用 if/else 严格处理.
 if [ -n "$LANG" ]; then
   LANG="${LANG%.*}"
   TARGET_LANGS=("$LANG")
+else
+  TARGET_LANGS=("${LANGS[@]}")
 fi
 
 PLACEHOLDER_PATTERNS=("coming soon" "todo" "placeholder" "tbd")
@@ -35,7 +36,7 @@ if [ -f "$HOME/.openclaw/service-env/ai.openclaw.gateway.env" ]; then
   set -a; source "$HOME/.openclaw/service-env/ai.openclaw.gateway.env"; set +a
 fi
 
-log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1"; }
+log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*"; }
 
 log "===== i18n-fix-missing START (target langs: ${TARGET_LANGS[@]}) ====="
 
@@ -47,11 +48,13 @@ for ARTICLE_FILE in "$ARTICLES_DIR"/*.json; do
   [ -n "$SLUG_OVERRIDE" ] && [ "$SLUG" != "$SLUG_OVERRIDE" ] && continue
 
   for LANG in "${TARGET_LANGS[@]}"; do
-    # 用 python 检测
+    # 用 python 检测 (per-section 维度, 任何 1 section 空就触发)
+    # 7/28 bug fix: 之前用 avg < 50, 1-2 个空 section 不会让 avg < 50, 检测漏掉
     RESULT=$(python3 - "$ARTICLE_FILE" "$LANG" << 'PYEOF'
-import json, sys
+import json, sys, re
 fp, lang = sys.argv[1], sys.argv[2]
-PLACEHOLDER = ['coming soon', 'todo', 'placeholder', 'tbd']
+PLACEHOLDER_RE = re.compile(r"\b(coming soon|placeholder|tbd)\b", re.IGNORECASE)
+EMPTY_THRESHOLD = 50
 try:
     with open(fp) as f:
         d = json.load(f)
@@ -62,21 +65,36 @@ sections = d.get('sections', [])
 if not sections:
     print('NO_SECTIONS')
     sys.exit(0)
-body_lens = [len(s.get('body', {}).get(lang, '')) for s in sections]
-avg = sum(body_lens) / max(len(body_lens), 1)
-is_placeholder = any(
-    any(p in s.get('body', {}).get(lang, '').lower() for p in PLACEHOLDER)
-    for s in sections if len(s.get('body', {}).get(lang, '')) < 200
+# Per-section empty check
+empty_sections = [
+    i for i, s in enumerate(sections)
+    if len(s.get('body', {}).get(lang, '')) < EMPTY_THRESHOLD
+]
+# Per-section placeholder check
+placeholder_sections = [
+    i for i, s in enumerate(sections)
+    if EMPTY_THRESHOLD <= len(s.get('body', {}).get(lang, '')) < 200
+    and PLACEHOLDER_RE.search(s.get('body', {}).get(lang, ''))
+]
+# Description check
+desc = d.get('description', {})
+desc_empty = isinstance(desc, dict) and not desc.get(lang, '').strip()
+desc_placeholder = (
+    isinstance(desc, dict)
+    and 0 < len(desc.get(lang, '')) < 200
+    and PLACEHOLDER_RE.search(desc.get(lang, ''))
 )
-if avg < 50:
-    print('EMPTY')
-elif is_placeholder:
-    print('PLACEHOLDER')
+if empty_sections:
+    print(f'EMPTY:{",".join(str(i) for i in empty_sections)}')
+elif placeholder_sections:
+    print(f'PLACEHOLDER:{",".join(str(i) for i in placeholder_sections)}')
+elif desc_empty or desc_placeholder:
+    print(f'DESC:{int(desc_placeholder)}')
 else:
     print('OK')
 PYEOF
 )
-    if [ "$RESULT" = "EMPTY" ] || [ "$RESULT" = "PLACEHOLDER" ]; then
+    if [[ "$RESULT" == EMPTY:* ]] || [[ "$RESULT" == PLACEHOLDER:* ]] || [[ "$RESULT" == DESC:* ]]; then
       MISSING+=("$SLUG:$LANG")
     fi
   done
@@ -234,8 +252,13 @@ if 'faqs' in trans and a.get('faqs'):
                 a['faqs'][i]['a'][lang] = f_trans['a']
 if 'ctaText' in trans and a.get('cta'):
     a['cta']['text'][lang] = trans['ctaText']
-with open(af, 'w') as f:
+# Atomic write: write to .tmp, fsync, rename (7/28 fix: 防止 kill 中间留下半成品 JSON)
+tmp_af = af + '.tmp'
+with open(tmp_af, 'w') as f:
     json.dump(a, f, ensure_ascii=False, indent=2)
+    f.flush()
+    import os as _os; _os.fsync(f.fileno())
+_os.rename(tmp_af, af)
 n = sum(1 for s in a.get('sections', []) if len(s.get('body',{}).get(lang,'')) > 200)
 print(f'  ✅ merged {n}/{len(a.get("sections",[]))} sections', flush=True)
 PYEOF
