@@ -20,6 +20,14 @@ LANGS=("es" "ar" "fr" "pt" "ru" "ja" "de" "hi")
 TARGET_LANGS=("${LANG[@]:-${LANGS[@]}}")
 [ -n "$LANG" ] && TARGET_LANGS=("$LANG")
 
+# 标准化: 剥 .UTF-8 / .utf8 / .UTF-16 等 locale 后缀,避免写到 'pt.UTF-8' 这种坏 key
+# (macOS 默认 LANG=zh_CN.UTF-8, cron 不指定时会被原样传到代码里)
+# 只在 LANG 非空时处理,避免破坏 LANGS fallback
+if [ -n "$LANG" ]; then
+  LANG="${LANG%.*}"
+  TARGET_LANGS=("$LANG")
+fi
+
 PLACEHOLDER_PATTERNS=("coming soon" "todo" "placeholder" "tbd")
 
 # Load env
