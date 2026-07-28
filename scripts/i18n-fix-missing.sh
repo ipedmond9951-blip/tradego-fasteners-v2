@@ -199,7 +199,7 @@ PYEOF
       log "    retry $ATTEMPT: sleep 8s + inject nonce"
       sleep 8
     fi
-    if bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$PROMPT_FILE")" "MiniMax-M2.7" 16000 > "$RAW_FILE" 2>&1; then
+    if bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$PROMPT_FILE")" "MiniMax-M3" 16000 > "$RAW_FILE" 2>&1; then
       RAW_LEN=$(wc -c < "$RAW_FILE")
       if [ "$RAW_LEN" -ge 200 ]; then
         SUCCESS=1
