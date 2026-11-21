@@ -1,5 +1,6 @@
 import { locales } from '@/i18n'
 import { getIndexableSlugs, getSlugDateMap } from '@/lib/articles'
+import { allProducts } from '@/lib/products'
 
 export default function sitemap() {
   const baseUrl = 'https://www.tradego-fasteners.com'
@@ -26,6 +27,15 @@ export default function sitemap() {
       })
     }
     
+    for (const product of allProducts) {
+      entries.push({
+        url: `${baseUrl}/${locale}/products/${product.slug}/`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.9,
+      })
+    }
+
     for (const slug of articleSlugs) {
       // URL-encode slugs that contain non-ASCII characters (e.g. Chinese chars)
       const encodedSlug = encodeURIComponent(slug)

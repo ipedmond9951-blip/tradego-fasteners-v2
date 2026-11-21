@@ -30,7 +30,7 @@ const faqSchemaData: Record<string, Array<{ question: string; answer: string }>>
     
     // WHERE questions
     { question: "Where are your products used?", answer: "Our fasteners are widely used in: 1) Residential and commercial construction, 2) IBR and corrugated roofing installations, 3) Steel structure projects, 4) Solar panel mounting systems, 5) HVAC installations, 6) Wood frame construction, 7) Interior decoration and drywall partitioning." },
-    { question: "Where do you ship from?", answer: "We ship from Shenzhen Port, China. Our main shipping routes: 1) To Durban (South Africa): 20-25 days, 2) To Lagos (Nigeria): 25-30 days, 3) To Mombasa (Kenya): 20-25 days, 4) To Beira (Mozambique): 15-20 days. Air freight available for urgent samples." },
+    { question: "Where do you ship from?", answer: "We ship from Qingdao Port, China. Our main shipping routes: 1) To Durban (South Africa): 20-25 days, 2) To Lagos (Nigeria): 25-30 days, 3) To Mombasa (Kenya): 20-25 days, 4) To Beira (Mozambique): 15-20 days. Air freight available for urgent samples." },
     { question: "Where can I see your product catalog?", answer: "Our full product catalog is available on our website at tradego-fasteners.com. You can browse products by category (screws, bolts, nails, anchors), filter by specifications, and request quotes directly. Physical samples can be shipped within 3 business days." },
     
     // WHEN questions
@@ -64,7 +64,7 @@ const faqSchemaData: Record<string, Array<{ question: string; answer: string }>>
     
     // WHERE questions
     { question: "你们的产品用在哪里？", answer: "我们的紧固件广泛用于：1）住宅和商业建筑，2）IBR和波纹屋顶安装，3）钢结构项目，4）太阳能板安装系统，5）暖通空调安装，6）木框架施工，7）室内装修和干墙隔断。" },
-    { question: "你们从哪里发货？", answer: "我们从中国深圳港发货。主要运输路线：1）至德班（南非）：20-25天，2）至拉各斯（尼日利亚）：25-30天，3）至蒙巴萨（肯尼亚）：20-25天，4）至贝拉（莫桑比克）：15-20天。紧急样品可空运。" },
+    { question: "你们从哪里发货？", answer: "我们从中国青岛港发货。主要运输路线：1）至德班（南非）：20-25天，2）至拉各斯（尼日利亚）：25-30天，3）至蒙巴萨（肯尼亚）：20-25天，4）至贝拉（莫桑比克）：15-20天。紧急样品可空运。" },
     { question: "在哪里可以查看你们的产品目录？", answer: "我们完整的产品目录可在我们的网站tradego-fasteners.com上查看。您可以按类别（螺丝、螺栓、钉子、锚栓）浏览产品，按规格筛选，并直接请求报价。实物样品可在3个工作日内发货。" },
     
     // WHEN questions
