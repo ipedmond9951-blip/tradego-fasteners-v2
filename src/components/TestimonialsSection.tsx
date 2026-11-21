@@ -39,35 +39,6 @@ const testimonials = [
   },
 ]
 
-// JSON-LD Schema for Google rich snippets
-const testimonialsSchema = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "TradeGo Fasteners",
-  "url": "https://www.tradego-fasteners.com",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "47"
-  },
-  "review": testimonials.map(t => ({
-    "@type": "Review",
-    "reviewRating": {
-      "@type": "Rating",
-      "ratingValue": "5"
-    },
-    "author": {
-      "@type": "Person",
-      "name": t.author
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": `${t.company}, ${t.location}`
-    },
-    "datePublished": "2026-03-15",
-    "reviewBody": t.quote
-  }))
-}
 
 export default function TestimonialsSection({ locale = 'en' }: TestimonialsSectionProps) {
   const title = t(locale, 'testimonials.title') || 'Customer Success Stories'
@@ -75,11 +46,6 @@ export default function TestimonialsSection({ locale = 'en' }: TestimonialsSecti
 
   return (
     <section className="py-12 md:py-16 lg:py-20 bg-gray-50">
-      {/* JSON-LD Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(testimonialsSchema) }}
-      />
       
       <div className="container mx-auto px-4 sm:px-6">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-3 md:mb-4">

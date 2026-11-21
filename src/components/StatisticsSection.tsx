@@ -7,7 +7,7 @@ interface StatisticsSectionProps {
 // Key statistics for E-E-A-T signals
 const statistics = {
   en: [
-    { value: '12+', label: 'Years Experience', sublabel: 'Since 2012, Africa-focused' },
+    { value: '20+', label: 'Years Experience', sublabel: 'Since 2004, Africa-focused' },
     { value: '500+', label: 'Global Clients', sublabel: 'Across 20+ African countries' },
     { value: '50+', label: 'Containers Monthly', sublabel: 'Sea freight to Africa' },
     { value: '98%', label: 'On-Time Delivery', sublabel: 'Industry leading reliability' },
@@ -15,7 +15,7 @@ const statistics = {
     { value: '500', label: 'Tons Monthly', sublabel: 'Production capacity' },
   ],
   zh: [
-    { value: '12+', label: '年行业经验', sublabel: '自2012年，专注非洲市场' },
+    { value: '20+', label: '年行业经验', sublabel: '自2020年，专注非洲市场' },
     { value: '500+', label: '全球客户', sublabel: '遍布20+非洲国家' },
     { value: '50+', label: '集装箱/月', sublabel: '海运至非洲' },
     { value: '98%', label: '准时交货率', sublabel: '行业领先可靠性' },
@@ -37,8 +37,8 @@ export default function StatisticsSection({ locale = 'en' }: StatisticsSectionPr
           </h2>
           <p className="text-primary-200 text-sm md:text-base max-w-2xl mx-auto">
             {locale === 'zh' 
-              ? '数字证明实力 - ISO 9001和SABS认证工厂，专注非洲市场12年'
-              : 'Numbers Prove Quality - ISO 9001 & SABS certified factory, 12 years Africa-focused'}
+              ? '数字证明实力 - ISO 9001和SABS认证工厂，专注非洲市场20年'
+              : 'Numbers Prove Quality - ISO 9001 & SABS certified factory, 20 years Africa-focused'}
           </p>
         </div>
         

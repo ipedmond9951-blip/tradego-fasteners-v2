@@ -35,13 +35,44 @@ export interface Article {
   }
 }
 
+
+const FALLBACK_ARTICLE_IMAGE = '/images/og-image.webp'
+
+/** Article images occasionally reference files that were never generated; fall back to a real asset. */
+function resolveArticleImage(article: Article): string {
+  const img = article.image
+  if (!img) return FALLBACK_ARTICLE_IMAGE
+  if (img.startsWith('http')) return img
+  const abs = path.join(process.cwd(), 'public', img.replace(/^\//, ''))
+  return fs.existsSync(abs) ? img : FALLBACK_ARTICLE_IMAGE
+}
+
+/** Number of body words across all locales — used to flag stub articles. */
+export function countArticleWords(article: Article): number {
+  let count = 0
+  for (const section of article.sections || []) {
+    for (const text of Object.values(section.body || {})) {
+      count += String(text).split(/\s+/).filter(Boolean).length
+    }
+  }
+  return count
+}
+
+/** Stub articles (title + one-line summary only) should not be indexed and should not claim a read time. */
+export function isThinArticle(article: Article, minWords = 300): boolean {
+  return countArticleWords(article) < minWords
+}
+
 const articlesDir = path.join(process.cwd(), 'content', 'articles')
 
 export function getAllArticles(): Article[] {
   if (!fs.existsSync(articlesDir)) return []
   return fs.readdirSync(articlesDir)
     .filter(f => f.endsWith('.json'))
-    .map(f => JSON.parse(fs.readFileSync(path.join(articlesDir, f), 'utf-8')) as Article)
+    .map(f => {
+      const a = JSON.parse(fs.readFileSync(path.join(articlesDir, f), 'utf-8')) as Article
+      return { ...a, image: resolveArticleImage(a) }
+    })
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 }
 
@@ -50,7 +81,12 @@ export function getArticleBySlug(slug: string): Article | null {
   const decodedSlug = decodeURIComponent(slug)
   const filePath = path.join(articlesDir, `${decodedSlug}.json`)
   if (!fs.existsSync(filePath)) return null
-  return JSON.parse(fs.readFileSync(filePath, 'utf-8')) as Article
+  const article = JSON.parse(fs.readFileSync(filePath, 'utf-8')) as Article
+  return { ...article, image: resolveArticleImage(article) }
+}
+
+export function getIndexableSlugs(): string[] {
+  return getAllArticles().filter(a => !isThinArticle(a)).map(a => a.slug)
 }
 
 export function getAllSlugs(): string[] {

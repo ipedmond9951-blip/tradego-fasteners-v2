@@ -31,7 +31,7 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
       message: (form.message as any).value,
     }
     try {
-      const res = await fetch('/api/inquiry', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })
+      const res = await fetch('/api/inquiry/', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })
       if (res.ok) {
         setSubmitted(true)
         // Fire GA4 conversion event for inquiry form submission

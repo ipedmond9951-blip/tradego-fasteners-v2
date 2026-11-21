@@ -49,7 +49,13 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
       return db.localeCompare(da)
     })
 
+  const PREVIEW_COUNT = 24
+  const previewArticles = articles.slice(0, PREVIEW_COUNT)
   const categories = ['All', ...Array.from(new Set(articles.map(a => a.category)))]
+  const categoryCounts = articles.reduce<Record<string, number>>((acc, a) => {
+    acc[a.category] = (acc[a.category] || 0) + 1
+    return acc
+  }, {})
 
   // 2026-07-16: 分类按钮改 Link 指向 category 静态页 (SEO 友好, 预渲染)
   const slugify = (cat: string) => cat.toLowerCase().replace(/\s*-\s*/g, '-').replace(/\s+/g, '-')
@@ -88,7 +94,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-            {articles.map((article) => {
+            {previewArticles.map((article) => {
               const title = article.title[locale] || article.title.en
               const excerpt = article.description[locale] || article.description.en
               return (
@@ -123,6 +129,29 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
                 </Link>
               )
             })}
+          </div>
+
+          {/* 全量文章通过分类页可达，避免聚合页承载 266 篇 HTML */}
+          <div className="mt-12 bg-white rounded-xl border border-gray-100 p-6">
+            <h2 className="text-lg font-bold text-gray-900 mb-4">
+              {locale === 'zh' ? '按主题浏览全部指南' : 'Browse all guides by topic'}
+            </h2>
+            <div className="flex flex-wrap gap-2">
+              {categories.filter(c => c !== 'All').map((cat) => (
+                <Link
+                  key={`all-${cat}`}
+                  href={`/${locale}/industry/category/${slugify(cat)}`}
+                  className="px-3 py-1.5 rounded-full text-sm bg-gray-50 text-gray-700 border border-gray-200 hover:bg-primary-50 hover:text-primary-700 hover:border-primary-200 transition-colors"
+                >
+                  {cat} <span className="text-gray-400">({categoryCounts[cat]})</span>
+                </Link>
+              ))}
+            </div>
+            <p className="text-sm text-gray-500 mt-4">
+              {locale === 'zh'
+                ? `共 ${articles.length} 篇指南，当前显示最新 ${previewArticles.length} 篇。`
+                : `Showing the ${previewArticles.length} most recent of ${articles.length} guides.`}
+            </p>
           </div>
         </div>
       </section>

@@ -20,7 +20,7 @@ export default function ArticleSchema({
   author = 'TradeGo Fasteners',
   datePublished,
   dateModified,
-  image = 'https://www.tradego-fasteners.com/images/blog/article-default.jpg',
+  image = 'https://www.tradego-fasteners.com/images/og-image.webp',
   url,
 }: ArticleSchemaProps) {
   const schema = {

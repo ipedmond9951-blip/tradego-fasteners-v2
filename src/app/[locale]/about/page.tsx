@@ -23,14 +23,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     hi: 'TradeGo Fasteners के बारे में - अफ्रीका के लिए चीनी निर्माता',
   }
   const descriptions: Record<string, string> = {
-    en: 'TradeGo Fasteners: ISO 9001 & SABS certified China fastener manufacturer with 12+ years exporting to Africa. Factory in Shenzhen, shipping to Zimbabwe, South Africa, and 20+ African countries.',
-    zh: 'TradeGo紧固件：ISO 9001和SABS认证的中国紧固件制造商，12+年非洲出口经验。深圳工厂，海运至津巴布韦、南非和20+个非洲国家。',
+    en: 'TradeGo Fasteners: ISO 9001 & SABS certified China fastener manufacturer with 20+ years exporting to Africa. Factory in Weifang, Shandong, shipping to Zimbabwe, South Africa, and 20+ African countries.',
+    zh: 'TradeGo紧固件：ISO 9001和SABS认证的中国紧固件制造商，20+年非洲出口经验。潍坊工厂，海运至津巴布韦、南非和20+个非洲国家。',
     es: 'TradeGo Fasteners: Fabricante de sujetadores de China certificado ISO 9001 & SABS con más de 12 años exportando a África.',
     fr: 'TradeGo Fasteners: Fabricant chinois de fixation certifié ISO 9001 & SABS avec plus de 12 ans d\'exportation vers l\'Afrique.',
     ar: 'TradeGo Fasteners: مصنع أدوات تثبيت صيني معتمد من ISO 9001 و SABS مع أكثر من 12 عامًا من التصدير إلى أفريقيا.',
     pt: 'TradeGo Fasteners: Fabricante chinês de fixadores certificado ISO 9001 & SABS com mais de 12 anos exportando para África.',
     ru: 'TradeGo Fasteners: Китайский производитель крепежа, сертифицированный по ISO 9001 и SABS, с более чем 12-летним опытом экспорта в Африку.',
-    ja: 'TradeGo Fasteners：ISO 9001およびSABS認定的中国緊固件メーカー。12年以上アフリカ輸出経験あり。',
+    ja: 'TradeGo Fasteners：ISO 9001およびSABS認定的中国緊固件メーカー。20年以上アフリカ輸出経験あり。',
     de: 'TradeGo Fasteners: ISO 9001 & SABS zertifizierter chinesischer Schraubenhersteller mit über 12 Jahren Export nach Afrika.',
     hi: 'TradeGo Fasteners: ISO 9001 और SABS प्रमाणित चीनी फास्टनर निर्माता जिसके 12+ वर्षों का अफ्रीका निर्यात अनुभव है।',
   }

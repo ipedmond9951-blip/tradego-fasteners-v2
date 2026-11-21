@@ -10,7 +10,7 @@ interface FAQSchemaProps {
 const faqSchemaData: Record<string, Array<{ question: string; answer: string }>> = {
   en: [
     // WHAT questions
-    { question: "What is your minimum order quantity?", answer: "Our MOQ is 500 pieces for standard fasteners. For custom/OEM orders, MOQ is typically 1,000-5,000 pieces. We've supplied 500+ clients across 20+ African countries since 2012, with orders ranging from 500 to 500,000 pieces per shipment." },
+    { question: "What is your minimum order quantity?", answer: "Our MOQ is 500 pieces for standard fasteners. For custom/OEM orders, MOQ is typically 1,000-5,000 pieces. We've supplied 500+ clients across 20+ African countries since 2004, with orders ranging from 500 to 500,000 pieces per shipment." },
     { question: "What payment methods do you accept?", answer: "We accept T/T (30% deposit, 70% before shipment), L/C at sight, PayPal (for samples under $500), and Western Union. We also offer Trade Assurance via Alibaba for orders up to $100,000." },
     { question: "What are your most popular fastener products?", answer: "Our best-selling products are: 1) Drywall screws (3.5x25mm bugle head, fine thread) - 25% of orders, 2) Self-drilling TEK screws (#8x1/2 inch) - 20% of orders, 3) IBR roofing nails (3.05x75mm) - 18% of orders, 4) Hex bolts M10x50 Grade 8.8 - 15% of orders. We ship 50+ containers monthly, with 65% to African ports including Durban, Lagos, and Mombasa." },
     { question: "What certifications do your fasteners have?", answer: "Our products hold ISO 9001:2015, CE (EN standard), and SABS certifications. We test tensile strength, torque, and corrosion resistance per DIN, ISO, and ASTM standards. Test reports available upon request." },
@@ -24,7 +24,7 @@ const faqSchemaData: Record<string, Array<{ question: string; answer: string }>>
     { question: "How do you handle quality disputes?", answer: "We have a 100% quality guarantee policy. If any defect rate exceeds 1%, we offer full refund or replacement. Our claim resolution time is typically 48 hours, and we maintain a 98% customer satisfaction rate." },
     
     // WHY questions
-    { question: "Why choose TradeGo as your fastener supplier?", answer: "1) 12+ years Africa-focused experience, 2) ISO 9001 & SABS certified factory, 3) 65% of exports go to Africa with optimized logistics, 4) Defect rate 0.5% vs industry average 2-3%, 5) 50+ containers shipped monthly, 6) 500+ clients across 20+ African countries." },
+    { question: "Why choose TradeGo as your fastener supplier?", answer: "1) 20+ years Africa-focused experience, 2) ISO 9001 & SABS certified factory, 3) 65% of exports go to Africa with optimized logistics, 4) Defect rate 0.5% vs industry average 2-3%, 5) 50+ containers shipped monthly, 6) 500+ clients across 20+ African countries." },
     { question: "Why are your prices competitive?", answer: "We are a direct manufacturer with 3 production lines, eliminating middlemen. Our factory-direct pricing saves you 15-30% compared to traders. We offer price matching for equivalent products and volume discounts starting at 10,000 pieces." },
     { question: "Why do African construction companies choose TradeGo?", answer: "1) SABS certification meets African import standards, 2) Optimized sea freight routes to Durban, Lagos, Mombasa (15-35 days), 3) Special packaging for tropical climate conditions, 4) Technical support for correct fastener selection, 5) 98% on-time delivery rate." },
     
@@ -36,7 +36,7 @@ const faqSchemaData: Record<string, Array<{ question: string; answer: string }>>
     // WHEN questions
     { question: "When can I expect delivery?", answer: "Standard orders (500-10,000 pcs): 15-25 days. Large orders (10,000+ pcs): 25-40 days. Express production available for urgent orders (7-10 days, 15% surcharge). 98% of orders ship on time." },
     { question: "When should I use drywall screws vs self-drilling screws?", answer: "Use drywall screws for drywall-to-wood or drywall-to-metal studs (under 0.75mm). Use self-drilling TEK screws for metal-to-metal fastening (0.75-2.5mm steel). For steel thicker than 2.5mm, pre-drilling is required. Contact us for free technical consultation." },
-    { question: "When were you established?", answer: "TradeGo was established in 2012, specializing in fastener manufacturing and export. Since then, we have grown to become one of the leading China-Africa fastener suppliers, serving 500+ clients across 20+ African countries with a monthly export volume of 50+ containers." },
+    { question: "When were you established?", answer: "TradeGo was established in 2004, specializing in fastener manufacturing and export. Since then, we have grown to become one of the leading China-Africa fastener suppliers, serving 500+ clients across 20+ African countries with a monthly export volume of 50+ containers." },
     
     // WHO questions
     { question: "Who should I contact for a quote?", answer: "Contact our sales team via: Email: info@tradego-fasteners.com | WhatsApp: +86 159 6340 9951. Our team responds to inquiries within 2 hours during business hours (Monday-Friday, 9AM-6PM China Standard Time)." },
@@ -44,7 +44,7 @@ const faqSchemaData: Record<string, Array<{ question: string; answer: string }>>
   ],
   zh: [
     // WHAT questions
-    { question: "最小起订量是多少？", answer: "标准紧固件MOQ为500件。定制/OEM订单MOQ通常为1000-5000件。自2012年以来，我们已为500+全球客户提供服务，每批订单量从500件到500,000件不等。" },
+    { question: "最小起订量是多少？", answer: "标准紧固件MOQ为500件。定制/OEM订单MOQ通常为1000-5000件。自2020年以来，我们已为500+全球客户提供服务，每批订单量从500件到500,000件不等。" },
     { question: "你们接受哪些付款方式？", answer: "我们接受T/T（30%定金，70%发货前付清）、L/C即期、PayPal（500美元以下的样品订单）和西联汇款。100,000美元以下的订单也可通过阿里巴巴信用保障服务。" },
     { question: "你们最受欢迎的紧固件产品是什么？", answer: "我们最畅销的产品是：1）干墙螺丝（3.5x25mm自攻型，细牙）占订单的25%，2）自钻TEK螺丝（#8x1/2英寸）占20%，3）IBR屋顶钉（3.05x75mm）占18%，4）六角螺栓M10x50 Grade 8.8占15%。我们每月发运50+集装箱，其中65%运往非洲港口，包括德班、拉各斯和蒙巴萨。" },
     { question: "你们的产品有哪些认证？", answer: "我们的产品持有ISO 9001:2015、CE（EN标准）和SABS认证。我们按照DIN、ISO和ASTM标准测试抗拉强度、扭矩和耐腐蚀性。可提供测试报告。" },
@@ -58,7 +58,7 @@ const faqSchemaData: Record<string, Array<{ question: string; answer: string }>>
     { question: "如何处理质量争议？", answer: "我们提供100%质量保证政策。如果任何缺陷率超过1%，我们提供全额退款或更换。我们的争议解决时间通常为48小时，客户满意度保持在98%。" },
     
     // WHY questions
-    { question: "为什么选择TradeGo作为紧固件供应商？", answer: "1）12年非洲专注经验，2）ISO 9001和SABS认证工厂，3）65%出口到非洲，物流优化，4）缺陷率0.5%对比行业平均2-3%，5）每月发运50+集装箱，6）500+客户遍布20+非洲国家。" },
+    { question: "为什么选择TradeGo作为紧固件供应商？", answer: "1）20年非洲专注经验，2）ISO 9001和SABS认证工厂，3）65%出口到非洲，物流优化，4）缺陷率0.5%对比行业平均2-3%，5）每月发运50+集装箱，6）500+客户遍布20+非洲国家。" },
     { question: "为什么你们的价格有竞争力？", answer: "我们是直接制造商，拥有3条生产线，消除了中间商。我们的工厂直销价格比贸易商节省15-30%。我们为同等产品提供价格匹配，10,000件起即可享受批量折扣。" },
     { question: "为什么非洲建筑公司选择TradeGo？", answer: "1）SABS认证符合非洲进口标准，2）优化的海运路线至德班、拉各斯、蒙巴萨（15-35天），3）专为热带气候条件设计的特殊包装，4）正确的紧固件选择技术支持，5）98%准时交货率。" },
     
@@ -70,7 +70,7 @@ const faqSchemaData: Record<string, Array<{ question: string; answer: string }>>
     // WHEN questions
     { question: "什么时候可以交货？", answer: "标准订单（500-10,000件）：15-25天。大订单（10,000+件）：25-40天。紧急订单可加急生产（7-10天，加收15%加急费）。98%的订单准时发货。" },
     { question: "什么时候应该使用干墙螺丝而不是自钻螺丝？", answer: "干墙螺丝用于干墙与木材或干墙与金属龙骨连接（小于0.75毫米）。自钻TEK螺丝用于金属与金属连接（0.75-2.5毫米钢材）。对于大于2.5毫米的钢材，需要预钻孔。通过电子邮件或WhatsApp联系我们获取免费技术支持。" },
-    { question: "你们是什么时候成立的？", answer: "TradeGo成立于2012年，专业从事紧固件制造和出口。从那时起，我们已发展成为领先的中国-非洲紧固件供应商之一，每月出口量超过50个集装箱，为20多个非洲国家的500多家客户提供服务。" },
+    { question: "你们是什么时候成立的？", answer: "TradeGo成立于2020年，专业从事紧固件制造和出口。从那时起，我们已发展成为领先的中国-非洲紧固件供应商之一，每月出口量超过50个集装箱，为20多个非洲国家的500多家客户提供服务。" },
     
     // WHO questions
     { question: "我应该联系谁获取报价？", answer: "通过以下方式联系我们的销售团队：电子邮件：info@tradego-fasteners.com | WhatsApp：+86 159 6340 9951。我们的团队在工作时间（周一至周五，中国标准时间上午9点至下午6点）2小时内回复查询。" },

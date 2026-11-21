@@ -141,8 +141,8 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
               <div>
                 <h3 className="font-semibold text-lg mb-3">{t(loc, 'contact.officeAddress')}</h3>
                 <p className="text-gray-700">TradeGo Fasteners Co., Ltd.</p>
-                <p className="text-gray-600">Baoan District, Hangcheng Avenue</p>
-                <p className="text-gray-600">Shenzhen, Guangdong, China</p>
+                <p className="text-gray-600">Weifang, Shandong, China</p>
+                <p className="text-gray-600">Weifang, Shandong, China</p>
                 <p className="text-gray-600">Postal: 518102</p>
               </div>
               <div>

@@ -47,7 +47,7 @@ const productNames: Record<string, Record<string, string>> = {
 
 const productDescriptions: Record<string, Record<string, string>> = {
   en: {
-    'drywall-screws': 'High-quality drywall screws for construction and interior decoration. SABS & ISO 9001 certified manufacturer with 12+ years of Africa-focused experience. Sharp point, bugle head, fine thread options. Popular for African construction projects.',
+    'drywall-screws': 'High-quality drywall screws for construction and interior decoration. SABS & ISO 9001 certified manufacturer with 20+ years of Africa-focused experience. Sharp point, bugle head, fine thread options. Popular for African construction projects.',
     'self-drilling-screws': 'Premium self-drilling TEK screws for metal-to-metal fastening. Drill point design for easy installation. Available in zinc plated and Ruspert finish.',
     'bolts-nuts': 'Industrial grade hex bolts and nuts Grade 4.8 to 12.9. Full and partial thread options. Suitable for construction, machinery, and automotive applications.',
     'ibr-nails': 'Umbrella head roofing nails for IBR and corrugated roofing. SABS 1195 compliant. Smooth and ring shank options for secure fastening.',
@@ -57,7 +57,7 @@ const productDescriptions: Record<string, Record<string, string>> = {
     'threaded-rods': 'Fully threaded rods for structural and machinery applications. Available in M6-M24 sizes, 1m-3m lengths. Cut to custom sizes available.',
   },
   zh: {
-    'drywall-screws': 'High-quality drywall screws for construction and interior decoration. SABS & ISO 9001 certified manufacturer with 12+ years of Africa-focused experience.',
+    'drywall-screws': 'High-quality drywall screws for construction and interior decoration. SABS & ISO 9001 certified manufacturer with 20+ years of Africa-focused experience.',
     'self-drilling-screws': 'Premium self-drilling TEK screws for metal-to-metal fastening. Drill point design for easy installation.',
     'bolts-nuts': 'Industrial grade hex bolts and nuts Grade 4.8 to 12.9. Full and partial thread options.',
     'ibr-nails': 'Umbrella head roofing nails for IBR and corrugated roofing. SABS 1195 compliant.',
@@ -127,13 +127,6 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
                 },
               },
             },
-          },
-          aggregateRating: {
-            '@type': 'AggregateRating',
-            ratingValue: '4.8',
-            reviewCount: '126',
-            bestRating: '5',
-            worstRating: '1',
           },
           additionalProperty: [
             { '@type': 'PropertyValue', name: 'Size', value: product.specs.size },

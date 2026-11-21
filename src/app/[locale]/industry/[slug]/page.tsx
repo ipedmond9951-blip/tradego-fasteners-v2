@@ -2,10 +2,11 @@ import { Metadata } from 'next'
 import { redirect } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
-import { getAllArticles, getAllSlugs, getArticleBySlug, getRelatedByCategory, getArticleTitle, humanizeSlug } from '@/lib/articles'
+import { getAllArticles, getAllSlugs, getArticleBySlug, getRelatedByCategory, getArticleTitle, humanizeSlug, isThinArticle } from '@/lib/articles'
 import { type Locale, t, locales } from '@/i18n'
 import type { ArticleSection } from '@/lib/articles'
 import ShareButtons from '@/components/ShareButtons'
+import { clampDescription } from '@/lib/seo'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
@@ -41,14 +42,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   // Truncate title to 50-60 chars for SERP; add brand suffix only if room
   const title = rawTitle.length > 55 ? rawTitle.slice(0, 55).replace(/\s+\S*$/, '') + '...' : rawTitle
   const rawDesc = article.metaDescription?.[locale] || article.metaDescription?.en || article.description[locale] || article.description.en
-  // Truncate description to 155 chars max for SERP
-  const desc = rawDesc.length > 155 ? rawDesc.slice(0, 152) + '...' : rawDesc
+  // Clamp to SERP length but never cut mid-sentence
+  const desc = clampDescription(rawDesc)
   const fullTitle = `${rawTitle} | TradeGo Fasteners`
 
   return {
     title,
     description: desc,
     keywords: article.keywords,
+    ...(isThinArticle(article) ? { robots: { index: false, follow: true } } : {}),
     openGraph: {
       title: fullTitle,
       description: rawDesc,
@@ -171,8 +173,22 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
     headline: title,
     description: desc,
     datePublished: article.date,
+    image: `https://www.tradego-fasteners.com${article.image}`,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://www.tradego-fasteners.com/${locale}/industry/${slug}/`,
+    },
     author: { '@type': 'Organization', name: 'TradeGo Fasteners' },
-    publisher: { '@type': 'Organization', name: 'TradeGo Fasteners' },
+    publisher: {
+      '@type': 'Organization',
+      name: 'TradeGo Fasteners',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.tradego-fasteners.com/images/logo.png',
+        width: 512,
+        height: 512,
+      },
+    },
   }
 
   return (
@@ -190,7 +206,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">{title}</h1>
           <div className="flex items-center gap-4 text-sm text-primary-200">
             <span>{article.date}</span>
-            <span>· ~{article.readTime} min read</span>
+            <span>· ~{isThinArticle(article) ? 1 : article.readTime} min read</span>
           </div>
         </div>
       </section>

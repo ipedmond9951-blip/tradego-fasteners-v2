@@ -15,8 +15,8 @@ export default function WebSiteSchema({ locale }: WebSiteSchemaProps) {
     name: locale === 'zh' ? 'TradeGo紧固件' : 'TradeGo Fasteners',
     url: siteUrl,
     description: locale === 'zh' 
-      ? 'ISO 9001 & SABS认证中国紧固件制造商。12年非洲出口经验。干墙螺丝、IBR钉、建筑紧固件工厂价直销。'
-      : 'ISO 9001 & SABS certified China fastener manufacturer. 12+ years exporting to Africa. Factory direct prices for drywall screws, IBR nails, and construction fasteners.',
+      ? 'ISO 9001 & SABS认证中国紧固件制造商。20年非洲出口经验。干墙螺丝、IBR钉、建筑紧固件工厂价直销。'
+      : 'ISO 9001 & SABS certified China fastener manufacturer. 20+ years exporting to Africa. Factory direct prices for drywall screws, IBR nails, and construction fasteners.',
     keywords: locale === 'zh'
       ? '干墙螺丝,IBR钉,紧固件,中国制造商,非洲,建筑,批发'
       : 'drywall screws, IBR nails, fastener, China manufacturer, Africa, construction, wholesale',

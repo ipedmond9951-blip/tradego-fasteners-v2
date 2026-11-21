@@ -42,37 +42,6 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
   return (
     <>
       <Script
-        id="seo-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'Organization',
-            name: 'TradeGo Fasteners',
-            url: BASE_URL,
-            logo: `${BASE_URL}/logo.png`,
-            description: msgs.hero.subtitle,
-            foundingDate: '2004',
-            address: {
-              '@type': 'PostalAddress',
-              addressLocality: 'Weifang',
-              addressCountry: 'CN',
-            },
-            contactPoint: {
-              '@type': 'ContactPoint',
-              telephone: '+86-159-6340-9951',
-              contactType: 'sales',
-              email: 'info@tradegofasteners.com',
-              availableLanguage: ['English', 'Chinese', 'Spanish', 'Arabic', 'French', 'Portuguese', 'Russian'],
-            },
-            sameAs: [
-              'https://wa.me/8615963409951'
-            ],
-          }),
-        }}
-      />
-
-      <Script
         id="product-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -103,7 +72,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: [
-              { '@type': 'Question', name: 'What types of fasteners do you manufacture?', acceptedAnswer: { '@type': 'Answer', text: 'We manufacture drywall screws, self-drilling screws (TEK), hex bolts and nuts, IBR nails, anchor bolts, washers, coach screws, and threaded rods. 12+ years specializing in Africa construction market. ISO 9001:2015 certified facility. SABS 1195 compliant products available.' } },
+              { '@type': 'Question', name: 'What types of fasteners do you manufacture?', acceptedAnswer: { '@type': 'Answer', text: 'We manufacture drywall screws, self-drilling screws (TEK), hex bolts and nuts, IBR nails, anchor bolts, washers, coach screws, and threaded rods. 20+ years specializing in Africa construction market. ISO 9001:2015 certified facility. SABS 1195 compliant products available.' } },
               { '@type': 'Question', name: 'What material should I choose for my fastener application?', acceptedAnswer: { '@type': 'Answer', text: 'Carbon Steel for indoor/general use. Stainless Steel 304/316 for outdoor, marine, coastal environments. 316 recommended for chloride-rich areas.' } },
               { '@type': 'Question', name: 'What surface finish should I choose?', acceptedAnswer: { '@type': 'Answer', text: 'Zinc Plated for basic indoor corrosion resistance. Hot-Dip Galvanized (HDG) for outdoor/marine/structural applications with 45-85 micron coating. Dacromet for demanding industrial environments.' } },
               { '@type': 'Question', name: 'What is the difference between zinc plated and hot-dip galvanized fasteners?', acceptedAnswer: { '@type': 'Answer', text: 'Zinc Plating: thin electroplated coating (5-15 microns), basic protection. Hot-Dip Galvanizing: thick immersion coating (45-85 microns), 5-7x more protection, ideal for outdoor and coastal areas.' } },
@@ -182,7 +151,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
       <section className="py-12 md:py-16">
         <div className="container mx-auto px-4 sm:px-6 max-w-5xl">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">Complete Fastener Technical Guide</h2>
-          <p className="text-gray-600 text-center mb-12 text-sm md:text-base">Expert reference for selecting the right fasteners for your application. Understand specifications, standards, and best practices from our 12+ years of Africa-focused manufacturing experience.</p>
+          <p className="text-gray-600 text-center mb-12 text-sm md:text-base">Expert reference for selecting the right fasteners for your application. Understand specifications, standards, and best practices from our 20+ years of Africa-focused manufacturing experience.</p>
 
           {/* Drywall Screws Guide */}
           <div className="mb-10">

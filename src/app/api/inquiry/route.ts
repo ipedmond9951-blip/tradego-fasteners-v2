@@ -2,10 +2,11 @@ import { NextRequest, NextResponse } from 'next/server';
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { join } from 'path';
 
-const INQUIRY_EMAIL = 'ipedmond9951@gmail.com';
+const INQUIRY_EMAIL = process.env.INQUIRY_EMAIL || 'zhangming@tradego-fasteners.com';
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
 const WHATSAPP_WEBHOOK_URL = process.env.WHATSAPP_WEBHOOK_URL;
-const CRM_API_URL = process.env.CRM_API_URL || 'https://gentle-cities-rescue.loca.lt';
+const INQUIRY_WEBHOOK_URL = process.env.INQUIRY_WEBHOOK_URL;
+const CRM_API_URL = process.env.CRM_API_URL;
 
 interface InquiryData {
   name: string;
@@ -87,6 +88,10 @@ async function saveLeadToFile(data: InquiryData & { is_high_value: boolean }): P
 }
 
 async function sendToCRM(lead: LeadRecord): Promise<boolean> {
+  if (!CRM_API_URL) {
+    console.log('CRM_API_URL not configured, skipping CRM sync');
+    return false;
+  }
   try {
     const crmData = {
       company_name: lead.company || '',
@@ -205,7 +210,7 @@ async function sendConfirmationEmail(data: InquiryData): Promise<boolean> {
           <h3>Why choose TradeGo?</h3>
           <ul>
             <li>✅ ISO 9001 & SABS certified manufacturer</li>
-            <li>✅ 15+ years experience in fastener production</li>
+            <li>✅ 20+ years experience in fastener production</li>
             <li>✅ Sea freight to Africa - competitive rates</li>
             <li>✅ Custom packaging available</li>
           </ul>
@@ -255,6 +260,32 @@ async function sendWhatsAppNotification(data: InquiryData, isHighValue: boolean)
     return response.ok;
   } catch (error) {
     console.error('WhatsApp notification error:', error);
+    return false;
+  }
+}
+
+async function sendWebhookAlert(data: InquiryData, isHighValue: boolean): Promise<boolean> {
+  if (!INQUIRY_WEBHOOK_URL) return false;
+
+  const summary = `${isHighValue ? '⭐ HIGH VALUE ' : ''}New inquiry from ${data.company || data.name} (${data.country || 'Unknown'})\n`
+    + `Name: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone || 'N/A'}\n`
+    + `Products: ${data.products}\nQuantity: ${data.quantity || 'N/A'}\n`
+    + (data.message ? `Message: ${data.message}` : '');
+
+  const isFeishu = /feishu|larksuite|open\.feishu/i.test(INQUIRY_WEBHOOK_URL);
+  const body = isFeishu
+    ? { msg_type: 'text', content: { text: summary } }
+    : { text: summary };
+
+  try {
+    const response = await fetch(INQUIRY_WEBHOOK_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    });
+    return response.ok;
+  } catch (error) {
+    console.error('Webhook alert error:', error);
     return false;
   }
 }
@@ -323,12 +354,24 @@ export async function POST(request: NextRequest) {
     const waSent = await sendWhatsAppNotification(data, isHighValue);
     console.log(`WhatsApp: ${waSent}`);
 
+    // 6. 免费兜底告警通道（飞书/企业微信/Slack 群机器人），任一成功即视为已通知
+    const webhookSent = (emailSent || waSent) ? false : await sendWebhookAlert(data, isHighValue);
+    console.log(`Webhook alert: ${webhookSent}`);
+
+    const alerted = emailSent || waSent || webhookSent || crmSent;
+    if (!alerted) {
+      // 一条询盘都可能没被任何人看到，必须显眼地留在 Vercel 日志里
+      console.error(`[CRITICAL] Inquiry ${lead.id} was NOT delivered to any channel. Configure RESEND_API_KEY or INQUIRY_WEBHOOK_URL. Payload: ${JSON.stringify(data)}`);
+    }
+
     return NextResponse.json({ 
       success: true,
       message: 'Inquiry submitted successfully',
       lead_id: lead.id,
       highValue: isHighValue,
       crm_synced: crmSent,
+      email_sent: emailSent,
+      webhook_sent: webhookSent,
     });
 
   } catch (error) {

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from 'react'
 import { usePathname } from 'next/navigation'
+import { hasAnalyticsConsent } from '@/components/CookieConsent'
 
 // Google Analytics 4 - Direct Measurement Protocol Implementation
 // This is a simplified approach that sends events directly to GA4
@@ -21,6 +22,8 @@ function getClientId(): string {
 
 function sendGA4Event(eventName: string, params: Record<string, any> = {}) {
   if (!GA_MEASUREMENT_ID || typeof window === 'undefined') return
+  // 未获得用户同意前不发送任何统计请求
+  if (!hasAnalyticsConsent()) return
   
   const clientId = getClientId()
   
@@ -81,6 +84,13 @@ export default function Analytics() {
     }
   }, [])
   
+  // 用户点了「同意」后补发一次当前页面浏览
+  useEffect(() => {
+    const handler = () => trackPageView(window.location.pathname)
+    window.addEventListener('tg-consent-change', handler)
+    return () => window.removeEventListener('tg-consent-change', handler)
+  }, [])
+
   // Track route changes
   useEffect(() => {
     if (initialized.current && pathname) {

@@ -34,7 +34,7 @@ export default async function ZimbabweFastenersPage({ params }: { params: Promis
             Your Trusted Zimbabwe Fasteners Wholesale Partner
           </h1>
           <p className="text-xl mb-6">
-            15+ years supplying drywall screws, hex bolts, IBR nails, and self-drilling screws to Zimbabwe, South Africa, and Southern Africa at factory prices.
+            20+ years supplying drywall screws, hex bolts, IBR nails, and self-drilling screws to Zimbabwe, South Africa, and Southern Africa at factory prices.
           </p>
           <div className="flex flex-wrap gap-4">
             <a href={`/${locale}/products`} className="bg-white text-[#0A3D62] px-6 py-3 rounded font-semibold hover:bg-gray-100">

@@ -37,12 +37,12 @@ const productImages = [
 // GEO article images
 const articleImages = [
   {
-    url: '/images/geo/zimbabwe-border-map.jpg',
-    caption: 'Zimbabwe Border Crossings - Trade Routes',
+    url: '/images/zimbabwe-warehouse.webp',
+    caption: 'Zimbabwe-bound fastener consignment at the warehouse',
   },
   {
-    url: '/images/geo/south-africa-ports.jpg',
-    caption: 'South Africa Ports - Durban, Mombasa, Lagos',
+    url: '/images/sa-city.webp',
+    caption: 'Sea freight delivery for Southern African ports',
   },
 ]
 
@@ -58,8 +58,8 @@ export default function ImageObjectSchema({ locale }: ImageObjectSchemaProps) {
         '@type': 'ImageObject',
         '@id': `${siteUrl}/#logo`,
         url: `${siteUrl}/images/logo.png`,
-        width: 200,
-        height: 60,
+        width: 512,
+        height: 512,
         caption: locale === 'zh' ? 'TradeGo紧固件标志' : 'TradeGo Fasteners Logo',
         contentUrl: `${siteUrl}/images/logo.png`,
         encodingFormat: 'image/png',
@@ -76,7 +76,7 @@ export default function ImageObjectSchema({ locale }: ImageObjectSchemaProps) {
         height: 600,
         caption: img.caption,
         contentUrl: `${siteUrl}${img.url}`,
-        encodingFormat: 'image/jpeg',
+        encodingFormat: 'image/webp',
         description: locale === 'zh' 
           ? `高质量${img.caption}，ISO 9001和SABS认证`
           : `High-quality ${img.caption}, ISO 9001 and SABS certified`,

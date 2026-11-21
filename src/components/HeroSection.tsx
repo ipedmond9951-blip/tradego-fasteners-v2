@@ -1,29 +1,29 @@
-import Image from 'next/image'
 import { type Locale, t } from '@/i18n'
 
 interface HeroSectionProps { locale?: Locale }
 
 const heroProducts = [
-  { key: 'product1', src: '/images/products/drywall-screws-1.webp', nameKey: 'drywall' },
-  { key: 'product2', src: '/images/products/self-drilling-screws-1.webp', nameKey: 'selfdrilling' },
-  { key: 'product3', src: '/images/products/bolts-nuts-1.webp', nameKey: 'bolts' },
-  { key: 'product4', src: '/images/products/ibr-nails-1.webp', nameKey: 'ibr' },
-  { key: 'product5', src: '/images/products/anchor-bolts.webp', nameKey: 'anchor' },
-  { key: 'product6', src: '/images/products/coach-screws.webp', nameKey: 'coach' },
+  { key: 'product1', src: '/images/products/drywall-screws-1-thumb.webp', nameKey: 'drywall' },
+  { key: 'product2', src: '/images/products/self-drilling-screws-1-thumb.webp', nameKey: 'selfdrilling' },
+  { key: 'product3', src: '/images/products/bolts-nuts-1-thumb.webp', nameKey: 'bolts' },
+  { key: 'product4', src: '/images/products/ibr-nails-1-thumb.webp', nameKey: 'ibr' },
+  { key: 'product5', src: '/images/products/anchor-bolts-thumb.webp', nameKey: 'anchor' },
+  { key: 'product6', src: '/images/products/coach-screws-thumb.webp', nameKey: 'coach' },
 ]
 
 export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
   return (
     <section className="relative bg-gradient-to-br from-primary-700 via-primary-800 to-primary-900 text-white overflow-hidden">
-      {/* Hero Background Image - Priority LCP optimization */}
+      {/* Hero Background Image — LCP critical: responsive srcSet keeps mobile at ~60KB */}
       <div className="absolute inset-0 z-0">
-        <Image
+        <img
           src="/images/hero-construction.webp"
-          alt="Construction site with fastener application"
-          fill
-          priority
-          className="object-cover"
+          srcSet="/images/hero-construction-960.webp 960w, /images/hero-construction.webp 1920w"
           sizes="100vw"
+          alt="Construction site with fastener application"
+          fetchPriority="high"
+          decoding="async"
+          className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-primary-700/80 via-primary-800/85 to-primary-900/90"></div>
       </div>
@@ -39,7 +39,7 @@ export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
               Drywall Screws, Bolts, Nuts & Industrial Hardware
             </p>
             <p className="text-sm md:text-base lg:text-lg text-primary-100/90 mb-5 md:mb-7 leading-relaxed">
-              12+ years Africa focus, SABS & ISO 9001 certified, sea freight to Africa
+              20+ years Africa focus, SABS & ISO 9001 certified, sea freight to Africa
             </p>
             <div className="flex flex-wrap gap-x-4 gap-y-2 mb-6 md:mb-8">
               {[t(locale, 'hero.iso'), t(locale, 'hero.global'), t(locale, 'hero.experience')].map((label, i) => (
@@ -63,7 +63,7 @@ export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
                 {heroProducts.map((p, i) => (
                   <a key={i} href={`/${locale}#products`} className="group flex flex-col items-center p-2 rounded-lg hover:bg-white/[0.08] transition-colors">
                     <div className="w-14 h-14 md:w-16 md:h-16 rounded-lg overflow-hidden flex-shrink-0 bg-white/10 border border-white/10">
-                      <Image src={p.src} alt={t(locale, `hero.${p.key}_name`)} width={64} height={64} className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-200" priority={i < 3} />
+                      <img src={p.src} alt={t(locale, `hero.${p.key}_name`)} width={96} height={96} loading="lazy" decoding="async" className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-200" />
                     </div>
                     <p className="text-xs text-center text-primary-200/80 mt-1.5 line-clamp-1">{t(locale, `hero.${p.key}_name`)}</p>
                   </a>

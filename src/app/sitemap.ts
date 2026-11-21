@@ -1,5 +1,5 @@
 import { locales } from '@/i18n'
-import { getAllSlugs, getSlugDateMap } from '@/lib/articles'
+import { getIndexableSlugs, getSlugDateMap } from '@/lib/articles'
 
 export default function sitemap() {
   const baseUrl = 'https://www.tradego-fasteners.com'
@@ -9,7 +9,7 @@ export default function sitemap() {
   // NOTE: /product-upload and /analytics excluded - they have noindex meta tags
 
   // 动态获取所有文章slug + 各自的 date
-  const articleSlugs = getAllSlugs()
+  const articleSlugs = getIndexableSlugs()
   const slugDateMap = getSlugDateMap()
 
   const entries = []
