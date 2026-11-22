@@ -259,6 +259,41 @@ TOPIC_POOL=(
     # === 7/19 新增: 垂直 - 制造业/物流 ===
     "Africa automotive fastener OEM sourcing"
     "Africa railway sleeper fastener specification"
+    # === 2026-11-22 扩容 40 条 (原 51 条 8/17 全部用完, 流水线停摆 3 个月) ===
+    "Nigeria Lekki port construction fastener logistics"
+    "Egypt Suez Canal industrial fastener tariff"
+    "Morocco Tangier Med port fastener re-export"
+    "Kenya Nairobi data center fastener anchoring"
+    "Ethiopia Addis Ababa light rail fastener supply"
+    "Ghana Tema free zone fastener assembly"
+    "Senegal Dakar water treatment fastener spec"
+    "Ivory Coast San Pedro port fastener duty"
+    "Tanzania Dodoma hospital construction fasteners"
+    "Uganda Kampala bridge fastener galvanizing"
+    "Zambia Lusaka solar farm fastener anchoring"
+    "Mozambique Beira corridor fastener stock"
+    "South Africa Johannesburg cold storage fastener"
+    "Botswana Gaborone airport fastener specification"
+    "Africa utility scale battery storage fastener anchoring"
+    "Africa data center seismic anchor bolt specification"
+    "Africa sugar mill stainless fastener corrosion"
+    "Africa cement plant high temperature fastener"
+    "Africa textile factory machine anchor bolts"
+    "Africa airport runway lighting fastener specification"
+    "Africa water pipeline flange bolt specification"
+    "Africa telecom tower foundation anchor bolts"
+    "Africa cold chain warehouse racking fasteners"
+    "Africa bridge expansion joint bolt specification"
+    "Africa mining conveyor bolt torque specification"
+    "Africa solar tracker fastener wind load"
+    "Africa wind turbine foundation bolt standard"
+    "Africa LNG terminal cryogenic fastener"
+    "Africa hydropower penstock bolt specification"
+    "Africa port crane rail fastener system"
+    "Africa railway turnout fastener specification"
+    "Africa hospital modular building fasteners"
+    "Africa school construction fastener supply"
+    "Africa stadium steel structure bolt grade"
 )
 
 # 选 1 个未处理过的主题
@@ -276,8 +311,55 @@ for t in "${TOPIC_POOL[@]}"; do
     break
 done
 
+slugify() {
+    echo "$1" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//;s/-$//'
+}
+
+# 2026-11-22 FIX: 固定池耗尽后不再 exit 0 空转, 改为 AI 动态选题
 if [ -z "$TOPIC" ]; then
-    log "❌ All topics processed, skipping today"
+    log "🔄 固定选题池已全部用完 → 启动动态选题"
+    TOPIC_GEN_PROMPT="You are an SEO content strategist for tradego-fasteners.com (China fastener manufacturer exporting to Africa, Middle East and South Asia).
+
+Generate 10 NEW long-tail B2B article topics that are NOT already covered. Recently used slugs (do not repeat):
+$(echo "$PROCESSED_TOPICS" | tr ',' '\n' | tail -40 | tr '\n' ' ')
+
+Rules:
+- One topic per line, plain text, no numbering, no quotes, no explanation, no markdown
+- 5-9 English words per topic
+- Each must combine: a specific country or city + a vertical (construction, mining, energy, port, railway, water, data center, industrial park) + fastener intent (supply, specification, procurement, standards, import)
+- Choose real markets with genuine fastener demand
+- Output only the topic lines, nothing else"
+    TOPIC_GEN_FILE="$TMP_DIR/topic_gen_prompt.txt"
+    printf '%s' "$TOPIC_GEN_PROMPT" > "$TOPIC_GEN_FILE"
+    TOPIC_GEN_OUT=""
+    if [ "$USE_AI_ROUTER" = "1" ]; then
+        log "  🤖 豆包 动态选题 (max 200s)..."
+        TOPIC_GEN_OUT=$(timeout 240 bash "$SCRIPT_DIR/seo-ai-router-call.sh" doubao "$TOPIC_GEN_FILE" 200 2>&1)
+    fi
+    if [ ${#TOPIC_GEN_OUT} -lt 60 ]; then
+        log "  ⚠️ 豆包选题失败/过短 (${#TOPIC_GEN_OUT} chars), 试 MiniMax"
+        TOPIC_GEN_OUT=$(timeout 90 bash "$SCRIPT_DIR/minimax-quick.sh" "$TOPIC_GEN_PROMPT" "MiniMax-M2.7-highspeed" 600 2>&1)
+    fi
+    while IFS= read -r line; do
+        cand=$(echo "$line" | sed 's/^[0-9][0-9.]*[.)-]* *//' | sed 's/^[-* ]*//' | sed 's/^"//; s/"$//' | sed 's/[[:space:]]*$//')
+        [ ${#cand} -lt 20 ] && continue
+        cand_slug=$(slugify "$cand")
+        [ ${#cand_slug} -lt 12 ] && continue
+        if echo ",$PROCESSED_TOPICS," | grep -q ",${cand_slug},"; then continue; fi
+        if [ -f "$PROJECT_DIR/content/articles/${cand_slug}.json" ]; then continue; fi
+        TOPIC="$cand"
+        SLUG="$cand_slug"
+        break
+    done <<< "$TOPIC_GEN_OUT"
+    if [ -n "$TOPIC" ]; then
+        log "✅ 动态选题成功: $TOPIC"
+    else
+        log "  [debug] 动态选题原始输出前 200 字: ${TOPIC_GEN_OUT:0:200}"
+    fi
+fi
+
+if [ -z "$TOPIC" ]; then
+    log "❌ 固定池 + 动态选题都没拿到可用选题, skipping today"
     exit 0
 fi
 
@@ -806,7 +888,8 @@ done
 # iron rule 7/5 21:24: 每次 prompt 必须不同, 用 nonce 后缀绕过 ai-guard 去重检测
 FALLBACK_WRITER_ROUTERS=("doubao" "gemini" "chatgpt" "grok")
 
-if [ ${#WRITER_OUT} -le $MIN_CHARS ] || ! echo "$WRITER_OUT" | grep -Eq '^##? |^# |<h[1-3]>|^\*\*[A-Z]|^[0-9]+\. '; then
+# 2026-11-22 FIX: 原条件把"已接受的长文(无 ## 标记)"也判成不足, 又白跑 4 个 AI 各 600s
+if [ ${#WRITER_OUT} -le $MIN_CHARS ]; then
     log "💡 主力 4 AI 全失败或不足, ai-router 多源补位 (minimax 永禁)..."
 
     # 注入唯一 nonce 保证每次 prompt hash 不同 (绕过 ai-guard 24h dedup)
@@ -1054,51 +1137,99 @@ with open("$ARTICLE_MD_FILE") as f:
     article_md = f.read()
 
 # 解析 sections from markdown
+# 2026-11-22 FIX: 原解析只认 "## " 前缀, AI 用 "### " / "**粗体**" / "##无空格" 时 sections=0 (线上空文章 bug)
+import re
+
+def _heading(s):
+    t = s.strip()
+    m = re.match(r'^#{2,3}\s*([^#].{0,88})$', t)
+    if m:
+        txt = m.group(1).strip().rstrip(':')
+        if txt and not txt.endswith('.') and not re.match(r'^(faq|frequently asked)', txt, re.I):
+            return txt
+        return None
+    m = re.match(r'^\*\*([^*]{4,88})\*\*$', t)
+    if m:
+        txt = m.group(1).strip().rstrip(':')
+        if txt and not txt.endswith('.') and not re.match(r'^(faq|frequently asked)', txt, re.I):
+            return txt
+    return None
+
 sections = []
-current_section = None
-current_body = []
 faqs = []
+intro = []
+cur_heading = None
+cur_body = []
+faq_mode = False
+faq_q = None
+faq_a = []
 
-in_faq = False
-for line in article_md.split('\n'):
-    line = line.rstrip()
-    if line.startswith('## ') and not line.startswith('## FAQ'):
-        if current_section:
-            sections.append({
-                "heading": {"en": current_section},
-                "body": {"en": '\n'.join(current_body).strip()},
-                "type": "text"
-            })
-        current_section = line[3:].strip()
-        current_body = []
-        in_faq = False
-    elif line.startswith('## FAQ') or line.startswith('## Frequently Asked'):
-        if current_section:
-            sections.append({
-                "heading": {"en": current_section},
-                "body": {"en": '\n'.join(current_body).strip()},
-                "type": "text"
-            })
-            current_section = None
-        in_faq = True
-    elif line.startswith('### ') and in_faq:
-        if current_body:
-            faqs.append({'q': current_body[0] if current_body else '', 'a': '\n'.join(current_body[1:]).strip() if len(current_body) > 1 else ''})
-        current_body = [line[4:].strip()]
-    elif in_faq and line.strip():
-        current_body.append(line)
-    elif current_section and line.strip():
-        current_body.append(line)
+def _flush_section():
+    global cur_heading, cur_body
+    body = '\n'.join(cur_body).strip()
+    if cur_heading and body:
+        sections.append({"heading": {"en": cur_heading}, "body": {"en": body}, "type": "text"})
+    cur_heading = None
+    cur_body = []
 
-if current_section:
-    sections.append({
-        "heading": {"en": current_section},
-        "body": {"en": '\n'.join(current_body).strip()},
-        "type": "text"
-    })
+def _flush_faq():
+    global faq_q, faq_a
+    if faq_q:
+        ans = ' '.join(l.strip() for l in faq_a if l.strip()).strip()
+        if ans:
+            q = re.sub(r'^(Q|Question|问)[:：]?\s*', '', faq_q, flags=re.I).strip()
+            faqs.append({"q": q, "a": ans})
+    faq_q = None
+    faq_a = []
 
-if in_faq and current_body:
-    faqs.append({'q': current_body[0] if current_body else '', 'a': '\n'.join(current_body[1:]).strip() if len(current_body) > 1 else ''})
+for raw in article_md.split('\n'):
+    txt = raw.strip()
+    if not txt:
+        continue
+    if re.match(r'^#\s+\S', txt):
+        continue  # 文章大标题行
+    if re.match(r'^#{1,3}\s*(faq|frequently asked)', txt, re.I):
+        _flush_section()
+        faq_mode = True
+        continue
+    h = _heading(raw)
+    if h:
+        if faq_mode:
+            _flush_faq()
+            faq_q = h
+        else:
+            _flush_section()
+            cur_heading = h
+        continue
+    if faq_mode and txt.endswith('?') and len(txt) < 100:
+        # 2026-11-22 FIX: 无 ## 标记的 FAQ 问句 (UI 抓取/AI 漏标记) 也要识别成问题, 否则 faqs=0
+        _flush_faq()
+        faq_q = txt
+        continue
+    if faq_mode:
+        faq_a.append(txt)
+    elif cur_heading is None:
+        intro.append(txt)
+    else:
+        cur_body.append(txt)
+
+_flush_section()
+_flush_faq()
+
+if intro:
+    t0 = outline.get('title') or 'Overview'
+    if isinstance(t0, dict):
+        t0 = t0.get('en') or 'Overview'
+    sections.insert(0, {"heading": {"en": t0}, "body": {"en": '\n'.join(intro).strip()}, "type": "text"})
+
+# 兜底: 仍解析不出 section → 整体正文塞进 1 段, 绝不留空文章
+if not sections and article_md.strip():
+    body_all = re.sub(r'^#\s+.*\n', '', article_md.strip())
+    t0 = outline.get('title') or 'Overview'
+    if isinstance(t0, dict):
+        t0 = t0.get('en') or 'Overview'
+    sections = [{"heading": {"en": t0}, "body": {"en": body_all}, "type": "text"}]
+    print("⚠️ parser fallback: 单段模式")
 
 # 10 语言占位（其他语言后续翻译或自动填充）
 LANGS = ['en', 'zh', 'es', 'ar', 'fr', 'pt', 'ru', 'ja', 'de', 'hi']
@@ -1167,6 +1298,11 @@ IMAGE_PROMPT="Professional B2B procurement photo: $TOPIC. Industrial fasteners, 
 
 IMAGE_FILE="$PROJECT_DIR/public/images/articles/${SLUG}.jpg"
 bash "$HOME/.openclaw/workspace/tools/minimax-image-gen.sh" "$IMAGE_PROMPT" "$IMAGE_FILE" 2>&1 | tail -3 || log "⚠️ Image generation failed, continuing"
+# 2026-11-22 FIX: 配图 API 没余额时, 至少不让 slug 图片 404 (先借一张现有图占位, 之后可换)
+if [ ! -s "$IMAGE_FILE" ]; then
+    log "⚠️ 配图缺失, 用现有图占位避免 404"
+    cp "$PROJECT_DIR/public/images/articles/africa-1.jpg" "$IMAGE_FILE" 2>/dev/null || true
+fi
 
 # Git commit + push + deploy
 log "📤 Committing..."

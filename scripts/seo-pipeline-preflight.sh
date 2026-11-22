@@ -9,7 +9,8 @@
 # 创建: 2026-06-20 09:10 (总裁批评: 没自修复机制)
 # 用途: 被 seo-ai-pipeline.sh 调用 (line 30: Pre-flight diagnostics)
 
-set -e
+# 2026-11-22 FIX: set -e 会在 Vercel grep -c 返回 1 时静默杀掉脚本, 造成"预检失败"假象
+set +e
 
 PROJECT_DIR="/Users/zhangming/workspace/tradego-fasteners-v2"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -33,7 +34,8 @@ UNHEALTHY_AIS=()
 
 # ========== Test MiniMax M2.7-highspeed (主力) ==========
 MM_TEST=$(timeout 30 bash "$PROJECT_DIR/scripts/minimax-quick.sh" "Reply only: OK" "MiniMax-M2.7-highspeed" 50 2>&1 | head -c 200)
-if [ ${#MM_TEST} -gt 5 ]; then
+# 2026-11-22 FIX: 原判断只看长度 >5, 把 "API error: HTTP Error 402" 也当成 OK (假阳)
+if [ ${#MM_TEST} -gt 5 ] && ! echo "$MM_TEST" | grep -qiE "api error|payment required|402|insufficient|unauthorized|invalid api"; then
     HEALTHY_AIS+=("MiniMax-M2.7-highspeed")
     echo "  ✅ MiniMax-M2.7-highspeed: OK"
 else
@@ -43,7 +45,7 @@ fi
 
 # ========== Test MiniMax M2.7 (备用) ==========
 MM27_TEST=$(timeout 30 bash "$PROJECT_DIR/scripts/minimax-quick.sh" "Reply only: OK" "MiniMax-M2.7" 50 2>&1 | head -c 200)
-if [ ${#MM27_TEST} -gt 5 ]; then
+if [ ${#MM27_TEST} -gt 5 ] && ! echo "$MM27_TEST" | grep -qiE "api error|payment required|402|insufficient|unauthorized|invalid api"; then
     HEALTHY_AIS+=("MiniMax-M2.7")
     echo "  ✅ MiniMax-M2.7: OK"
 else
@@ -66,13 +68,23 @@ else
 fi
 
 # ========== Test Vercel CLI (部署链) ==========
-VERCEL_TEST=$(cd "$PROJECT_DIR" && timeout 30 npx vercel ls --prod 2>&1 | grep -c "Ready")
-if [ "$VERCEL_TEST" -gt 0 ]; then
+# 2026-11-22 FIX: grep -c 计数为 0 时退出码 1, 在 set -e 下会直接杀掉整个 preflight (今天就是这样误判失败的)
+VERCEL_TEST=$( (cd "$PROJECT_DIR" && timeout 45 npx vercel ls --prod 2>&1) | grep -c "Ready" || true )
+if [ "${VERCEL_TEST:-0}" -gt 0 ]; then
     HEALTHY_AIS+=("vercel")
     echo "  ✅ Vercel: OK ($VERCEL_TEST deployments)"
 else
     UNHEALTHY_AIS+=("vercel")
-    echo "  ❌ Vercel: FAIL (no Ready deployments)"
+    echo "  ⚠️ Vercel: 未取到部署列表 (网络/鉴权慢, 不阻断)"
+fi
+
+# ========== Test ai-router (Chrome 18800, 免费通道) ==========
+if curl -sf --max-time 5 http://localhost:18800/json/version > /dev/null 2>&1; then
+    HEALTHY_AIS+=("ai-router")
+    echo "  ✅ ai-router (Chrome 18800): 在线"
+else
+    UNHEALTHY_AIS+=("ai-router")
+    echo "  ⚠️ ai-router (Chrome 18800): 未启动"
 fi
 
 # ========== 总结 ==========
@@ -88,6 +100,19 @@ if [ ${#HEALTHY_AIS[@]} -eq 0 ]; then
 ❌ 所有 AI 不可用
 💡 跳过今日文章生成
 📞 联系总裁"
+    exit 1
+fi
+
+# 2026-11-22: vercel 不算写作通道, 只有 AI 或 ai-router 在才能继续
+HAS_AI_CHANNEL=0
+for a in "${HEALTHY_AIS[@]}"; do
+    if [ "$a" != "vercel" ]; then HAS_AI_CHANNEL=1; fi
+done
+if [ "$HAS_AI_CHANNEL" -eq 0 ]; then
+    echo "  🚨 没有任何可用的写作通道 (AI + ai-router 全挂) — skip Pipeline"
+    notify_telegram "🚨 写作通道全断
+❌ API 余额/Chrome 18800 均不可用
+💡 今日文章跳过, 需充值 API 或启动调试 Chrome"
     exit 1
 fi
 
