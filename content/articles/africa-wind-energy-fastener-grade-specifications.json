@@ -2,13 +2,13 @@
   "slug": "africa-wind-energy-fastener-grade-specifications",
   "category": "Market Analysis",
   "date": "2026-08-13",
-  "updated": "2026-08-13",
-  "readTime": 11,
+  "updated": "2026-11-22",
+  "readTime": 6,
   "region": "africa",
   "image": "/images/articles/africa-wind-energy-fastener-grade-specifications.jpg",
   "imageAlt": {
     "en": "Africa Wind Energy Fastener Grade Specifications Guide",
-    "zh": "Africa Wind Energy Fastener Grade Specifications Guide",
+    "zh": "非洲风电紧固件等级与预紧力规范",
     "es": "Africa Wind Energy Fastener Grade Specifications Guide",
     "ar": "Africa Wind Energy Fastener Grade Specifications Guide",
     "fr": "Africa Wind Energy Fastener Grade Specifications Guide",
@@ -20,7 +20,7 @@
   },
   "title": {
     "en": "Africa Wind Energy Fastener Grade Specifications Guide",
-    "zh": "Africa Wind Energy Fastener Grade Specifications Guide",
+    "zh": "非洲风电紧固件等级规范指南",
     "es": "Africa Wind Energy Fastener Grade Specifications Guide",
     "ar": "Africa Wind Energy Fastener Grade Specifications Guide",
     "fr": "Africa Wind Energy Fastener Grade Specifications Guide",
@@ -32,7 +32,7 @@
   },
   "description": {
     "en": "Explore Africa wind energy fastener grade specifications for robust onshore projects. Contact our B2B team today for custom bulk manufacturing quotes!",
-    "zh": "Explore Africa wind energy fastener grade specifications for robust onshore projects. Contact our B2B team today for custom bulk manufacturing quotes!",
+    "zh": "风电项目紧固件的等级与规范指南：10.9 级与 8.8 级的选用条件、疲劳与预紧力要求、沿海与海上镀层方案，以及安装前后应留存的证据。",
     "es": "Explore Africa wind energy fastener grade specifications for robust onshore projects. Contact our B2B team today for custom bulk manufacturing quotes!",
     "ar": "Explore Africa wind energy fastener grade specifications for robust onshore projects. Contact our B2B team today for custom bulk manufacturing quotes!",
     "fr": "Explore Africa wind energy fastener grade specifications for robust onshore projects. Contact our B2B team today for custom bulk manufacturing quotes!",
@@ -44,7 +44,7 @@
   },
   "metaDescription": {
     "en": "Explore Africa wind energy fastener grade specifications for robust onshore projects. Contact our B2B team today for custom bulk manufacturing quotes!",
-    "zh": "Explore Africa wind energy fastener grade specifications for robust onshore projects. Contact our B2B team today for custom bulk manufacturing quotes!",
+    "zh": "风电项目紧固件的等级与规范指南：10.9 级与 8.8 级的选用条件、疲劳与预紧力要求、沿海与海上镀层方案，以及安装前后应留存的证据。",
     "es": "Explore Africa wind energy fastener grade specifications for robust onshore projects. Contact our B2B team today for custom bulk manufacturing quotes!",
     "ar": "Explore Africa wind energy fastener grade specifications for robust onshore projects. Contact our B2B team today for custom bulk manufacturing quotes!",
     "fr": "Explore Africa wind energy fastener grade specifications for robust onshore projects. Contact our B2B team today for custom bulk manufacturing quotes!",
@@ -100,7 +100,63 @@
       "accessDate": "2026-08-13"
     }
   ],
-  "sections": [],
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": {
+        "en": "Wind Energy Fasteners: Why Grade Specification Decides Service Life",
+        "zh": "风电紧固件：为什么等级规范决定服役寿命"
+      },
+      "body": {
+        "en": "Wind turbines fail at connections more often than at components. Tower flanges, blade roots, nacelle mounts, and foundation interfaces all depend on bolted joints that must hold preload through decades of cyclic loading, and the grade specification is what makes that possible.<p>This guide sticks to the specification questions a buyer has to answer: which grade, which coating, which bolting method, and which evidence.</p>",
+        "zh": "风机的失效更多发生在连接处而不是部件本身。塔筒法兰、叶根、机舱底座和基础界面都依赖螺栓连接，而这些连接必须在几十年的交变载荷下维持预紧力，而等级规范正是让这件事成立的前提。<p>本文只讲买家必须回答的规范问题：用什么等级、什么镀层、什么紧固方法，以及需要什么证据。</p>"
+      }
+    },
+    {
+      "id": "grades",
+      "heading": {
+        "en": "Grade Selection: 10.9 Is a Starting Point, Not a Rule",
+        "zh": "等级选择：10.9 是起点，不是铁律"
+      },
+      "body": {
+        "en": "Tower and foundation connections commonly use grade 10.9, with 8.8 in secondary structural positions and higher grades where the design demands it. The grade interacts with bolt size, joint geometry, and the tensioning method, so specifying a grade without those three is an incomplete instruction.<p>Equally important is the material route behind the grade. A 10.9 property class reached through a different alloy and heat treatment behaves differently under low-temperature impact, which is exactly the condition wind sites in cold or high-altitude regions impose.</p>",
+        "zh": "塔筒与基础连接常用 10.9 级，次要结构位置用 8.8 级，设计要求更高时用更高等级。等级与螺栓规格、接头几何、张紧方法相互关联，因此只给等级而不给这三项，是份不完整的指令。<p>同样重要的是等级背后的材料路线。用不同合金和热处理达到 10.9 性能等级，在低温冲击下的表现并不相同——而这正是寒冷或高海拔风场施加的工况。</p>"
+      }
+    },
+    {
+      "id": "fatigue",
+      "heading": {
+        "en": "Fatigue and Preload: The Numbers That Matter",
+        "zh": "疲劳与预紧力：真正重要的数字"
+      },
+      "body": {
+        "en": "Bolted joints in wind service are designed to keep the joint closed under fatigue load, which means preload has to be high enough and consistent enough that the bolt never sees the full external load cycle. That makes tensioning method part of the engineering, not a site preference.<p>Hydraulic tensioning, torque control, and direct tension indication each produce different preload scatter. The specification should name the method and the acceptance window, and require verification on a sample rather than trusting the wrench.</p>",
+        "zh": "风电服役中的螺栓连接要在疲劳载荷下保持接头闭合，这意味着预紧力必须足够高且足够一致，让螺栓始终不承受完整的外部载荷循环。因此张紧方法属于工程决定，而不是现场偏好。<p>液压张紧、扭矩控制、直接测伸长各自产生不同的预紧力离散度。规范应写明方法与合格区间，并要求抽样验证，而不是相信扳手。</p>"
+      }
+    },
+    {
+      "id": "coating",
+      "heading": {
+        "en": "Coating in Coastal and Offshore Conditions",
+        "zh": "沿海与海上工况的镀层"
+      },
+      "body": {
+        "en": "Onshore towers in coastal zones and all offshore structures face chloride exposure that ordinary zinc plating cannot survive. Hot-dip galvanizing with a defined minimum thickness is the baseline, with duplex systems — galvanizing plus a sealed topcoat — where the maintenance interval is long.<p>Threaded components need the coating specified for the thread, not just the shank, because a coating that is too thick changes the fit and one that is too thin corrodes first exactly where stress concentrates.</p>",
+        "zh": "沿海陆上塔筒和所有海上结构都面临普通电镀锌撑不住的氯离子暴露。基线做法是规定最小膜厚的热浸镀锌；维护周期较长时用“镀锌+封闭面漆”的复合体系。<p>螺纹件要单独规定螺纹部位的镀层，而不只是杆部：镀层太厚会改变配合，太薄则会恰好在应力集中处最先腐蚀。</p>"
+      }
+    },
+    {
+      "id": "evidence",
+      "heading": {
+        "en": "Evidence the Buyer Should Hold Before Installation",
+        "zh": "安装前买家应持有的证据"
+      },
+      "body": {
+        "en": "Ask for material certificates with heat numbers, mechanical properties including low-temperature impact where relevant, coating thickness measurements, and calibration records for the tensioning equipment. Add a sample preload verification report from the supplier's procedure trial.<p>Keep the trail after installation too. Wind assets are inspected over decades and ownership changes; a joint whose tensioning record cannot be found will be re-tensioned or replaced, which on a tower is a crane job rather than a maintenance task.</p>",
+        "zh": "要求提供带炉号的材质证明、含相关低温冲击的力学性能、镀层厚度实测值，以及张紧设备的校准记录。再要一份供应商工艺试验的预紧力抽样验证报告。<p>安装后也要保留记录。风电资产要被检查几十年，产权也会变更；找不到张紧记录的接头会被重新张紧或更换，而塔筒上的这类作业是吊装工程，不是日常维护。</p>"
+      }
+    }
+  ],
   "relatedProducts": [
     {
       "slug": "hex-bolts-grade-88",
@@ -143,5 +199,22 @@
     },
     "link": "/en/contact"
   },
-  "faq": []
+  "faq": [
+    {
+      "q": "Is grade 10.9 always required for wind turbine bolting?",
+      "a": "It is the common default for tower and foundation connections, with 8.8 used in secondary positions. The grade must be specified together with bolt size, joint geometry, and tensioning method."
+    },
+    {
+      "q": "Why does the material route matter if the grade is the same?",
+      "a": "A 10.9 property class reached through a different alloy and heat treatment behaves differently under low-temperature impact, which matters at cold and high-altitude sites."
+    },
+    {
+      "q": "Which tensioning method should be specified?",
+      "a": "Name the method - hydraulic tensioning, torque control, or direct tension indication - plus the acceptance window, and require sample verification, because each method produces different preload scatter."
+    },
+    {
+      "q": "What coating is used for offshore wind structures?",
+      "a": "Hot-dip galvanizing with a defined minimum thickness is the baseline, often with a duplex topcoat where maintenance intervals are long. Thread coatings must be specified separately from the shank."
+    }
+  ]
 }

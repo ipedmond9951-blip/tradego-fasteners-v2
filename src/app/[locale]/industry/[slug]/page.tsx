@@ -82,26 +82,35 @@ function localizedText(obj: Record<string, string> | undefined, locale: string):
 }
 
 function renderSection(section: ArticleSection, locale: string) {
+  // 2026-11-22 FIX: 文章的 table 字段有两种历史写法 —— 扁平的 {headers, rows},
+  // 以及按语言分组的 {en:{headers,rows}, zh:{...}, ...}(lobito 那篇就是后者)。
+  // 后者会让 section.table.headers 变成 undefined, 直接打断 /[locale]/industry/[slug] 的预渲染。
+  // 这里统一归一化: 扁平直接用, 分组则按当前语言取, 都没有就回退 en。
+  const rawTable = section.table as any
+  const table = rawTable
+    ? (Array.isArray(rawTable.headers) ? rawTable : (rawTable[locale] || rawTable.en || Object.values(rawTable)[0]))
+    : null
+
   return (
     <section key={section.id} className="mb-8" id={section.id}>
       <h2 className="text-2xl font-bold text-gray-900 mb-4">{localizedText(section.heading, locale)}</h2>
       {section.body && (
         <p className="text-gray-700 mb-4 leading-relaxed" dangerouslySetInnerHTML={{ __html: localizedText(section.body, locale) }} />
       )}
-      {section.table && (
+      {table && Array.isArray(table.headers) && Array.isArray(table.rows) && (
         <div className="overflow-x-auto mb-4">
           <table className="w-full border-collapse border border-gray-300 text-sm">
             <thead className="bg-primary-50">
               <tr>
-                {section.table.headers.map((h, i) => (
+                {table.headers.map((h: string, i: number) => (
                   <th key={i} className="border border-gray-300 p-3 text-left font-semibold">{h}</th>
                 ))}
               </tr>
             </thead>
             <tbody>
-              {section.table.rows.map((row, i) => (
+              {table.rows.map((row: string[], i: number) => (
                 <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
-                  {row.map((cell, j) => (
+                  {row.map((cell: string, j: number) => (
                     <td key={j} className="border border-gray-300 p-3">{cell}</td>
                   ))}
                 </tr>

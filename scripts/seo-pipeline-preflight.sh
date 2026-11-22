@@ -2,141 +2,185 @@
 # seo-pipeline-preflight.sh - Pipeline 启动前 AI 健康检测
 #
 # 功能:
-# 1. Pipeline 开始前先 ping 所有 AI
-# 2. 不健康的 AI 自动从 fallback 链移除
-# 3. 全部失败 → 立即推 Telegram + 跳过 Pipeline
+# 1. Pipeline 开始前实测每个写作通道能否真的"出字"(不再只看端口/余额字段)
+# 2. 不健康的通道自动从健康清单移除, 由 Pipeline 的 fallback 链兜底
+# 3. 全部失败 → 最多重试 3 轮(间隔 90 秒), 仍失败才跳过, 并留状态文件 + 本地告警
 #
 # 创建: 2026-06-20 09:10 (总裁批评: 没自修复机制)
-# 用途: 被 seo-ai-pipeline.sh 调用 (line 30: Pre-flight diagnostics)
+# 2026-11-22 加固: ai-router 端到端实测 / 三轮重试 / 本机告警 / blocked 状态文件
+#   背景: 18800 端口在线但 AI 页面不可用时, 旧预检判"健康",
+#   整条流水线跑了十几分钟什么都不产出, 日志只剩空转记录。
 
-# 2026-11-22 FIX: set -e 会在 Vercel grep -c 返回 1 时静默杀掉脚本, 造成"预检失败"假象
-set +e
+set +e   # 任何单步失败都不能杀掉脚本 (7/18 教训)
 
 PROJECT_DIR="/Users/zhangming/workspace/tradego-fasteners-v2"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 LOG_DIR="$PROJECT_DIR/logs/seo-ai-pipeline"
+mkdir -p "$LOG_DIR"
 TELEGRAM_TOKEN="${TELEGRAM_BOT_TOKEN:-}"
 TELEGRAM_CHAT="${TELEGRAM_CHAT_ID:-8758157215}"
+MAX_ATTEMPTS="${PREFLIGHT_MAX_ATTEMPTS:-3}"
+RETRY_SLEEP="${PREFLIGHT_RETRY_SLEEP:-90}"
 
-notify_telegram() {
+notify() {
     local msg="$1"
     if [ -n "$TELEGRAM_TOKEN" ]; then
         curl -s --max-time 10 -X POST "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
             -d "chat_id=${TELEGRAM_CHAT}" \
             -d "text=${msg}" > /dev/null 2>&1 || true
     fi
+    # 本地兜底: 没有 Telegram token 时也要让人看到
+    /usr/bin/osascript -e "display notification \"${msg//\"/}\" with title \"TradeGo SEO 流水线\"" >/dev/null 2>&1 || true
 }
 
-echo "[$(date '+%H:%M:%S')] 🔍 Pre-flight AI health check..."
+ERROR_PATTERN="api error|payment required|402|insufficient|unauthorized|invalid api|not set|no api key|missing|empty|timed out|timeout|\[error\]"
 
-HEALTHY_AIS=()
-UNHEALTHY_AIS=()
-
-# ========== Test MiniMax M2.7-highspeed (主力) ==========
-MM_TEST=$(timeout 30 bash "$PROJECT_DIR/scripts/minimax-quick.sh" "Reply only: OK" "MiniMax-M2.7-highspeed" 50 2>&1 | head -c 200)
-# 2026-11-22 FIX: 原判断只看长度 >5, 把 "API error: HTTP Error 402" 也当成 OK (假阳)
-if [ ${#MM_TEST} -gt 5 ] && ! echo "$MM_TEST" | grep -qiE "api error|payment required|402|insufficient|unauthorized|invalid api|not set|no api key|missing|empty"; then
-    HEALTHY_AIS+=("MiniMax-M2.7-highspeed")
-    echo "  ✅ MiniMax-M2.7-highspeed: OK"
-else
-    UNHEALTHY_AIS+=("MiniMax-M2.7-highspeed")
-    echo "  ❌ MiniMax-M2.7-highspeed: FAIL ($MM_TEST)"
-fi
-
-# ========== Test MiniMax M2.7 (备用) ==========
-MM27_TEST=$(timeout 30 bash "$PROJECT_DIR/scripts/minimax-quick.sh" "Reply only: OK" "MiniMax-M2.7" 50 2>&1 | head -c 200)
-if [ ${#MM27_TEST} -gt 5 ] && ! echo "$MM27_TEST" | grep -qiE "api error|payment required|402|insufficient|unauthorized|invalid api|not set|no api key|missing|empty"; then
-    HEALTHY_AIS+=("MiniMax-M2.7")
-    echo "  ✅ MiniMax-M2.7: OK"
-else
-    UNHEALTHY_AIS+=("MiniMax-M2.7")
-    echo "  ❌ MiniMax-M2.7: FAIL"
-fi
-
-# ========== Test DeepSeek API (备用, 绕过禁言) ==========
-DS_TEST=$(curl -s --max-time 15 -X POST "https://api.deepseek.com/v1/chat/completions" \
-    -H "Authorization: Bearer sk-43be94f13cad4c80bd934c85ccd43a5d" \
-    -H "Content-Type: application/json" \
-    -d '{"model":"deepseek-chat","messages":[{"role":"user","content":"OK"}],"max_tokens":5}' 2>&1 | head -c 200)
-
-if echo "$DS_TEST" | grep -q '"choices"'; then
-    HEALTHY_AIS+=("deepseek-api")
-    echo "  ✅ DeepSeek API: OK"
-else
-    UNHEALTHY_AIS+=("deepseek-api")
-    echo "  ⚠️ DeepSeek API: FAIL ($DS_TEST)"
-fi
-
-# ========== Test Vercel CLI (部署链) ==========
-# 2026-11-22 FIX: grep -c 计数为 0 时退出码 1, 在 set -e 下会直接杀掉整个 preflight (今天就是这样误判失败的)
-VERCEL_TEST=$( (cd "$PROJECT_DIR" && timeout 45 npx vercel ls --prod 2>&1) | grep -c "Ready" || true )
-if [ "${VERCEL_TEST:-0}" -gt 0 ]; then
-    HEALTHY_AIS+=("vercel")
-    echo "  ✅ Vercel: OK ($VERCEL_TEST deployments)"
-else
-    UNHEALTHY_AIS+=("vercel")
-    echo "  ⚠️ Vercel: 未取到部署列表 (网络/鉴权慢, 不阻断)"
-fi
-
-# ========== Test ai-router (Chrome 18800, 免费通道) ==========
-# 2026-11-22: 未启动时自动拉起调试版 Chrome (独立 profile, 不影响用户日常浏览器),
-# 否则 03:30 定时任务只会在"全通道不可用"上空转
-if ! curl -sf --max-time 5 http://localhost:18800/json/version > /dev/null 2>&1; then
-    CHROME_DEBUG_PROFILE="$HOME/Library/Application Support/Google/Chrome-Debug"
-    if [ -d "$CHROME_DEBUG_PROFILE" ]; then
-        echo "  🔄 调试 Chrome 未启动, 自动拉起 (profile: Chrome-Debug)..."
-        nohup "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
-            --remote-debugging-port=18800 \
-            --user-data-dir="$CHROME_DEBUG_PROFILE" >/dev/null 2>&1 &
-        for _ in 1 2 3 4 5 6 7 8 9 10 11 12; do
-            sleep 2
-            curl -sf --max-time 3 http://localhost:18800/json/version > /dev/null 2>&1 && break
-        done
+# ---------- 单通道检测 ----------
+check_minimax() {  # $1=model
+    local model="$1" out
+    out=$(timeout 30 bash "$PROJECT_DIR/scripts/minimax-quick.sh" "Reply only: OK" "$model" 50 2>&1 | head -c 200)
+    if [ ${#out} -gt 5 ] && ! echo "$out" | grep -qiE "$ERROR_PATTERN"; then
+        echo "OK"
+    else
+        echo "FAIL:$out"
     fi
-fi
+}
 
-if curl -sf --max-time 5 http://localhost:18800/json/version > /dev/null 2>&1; then
-    HEALTHY_AIS+=("ai-router")
-    echo "  ✅ ai-router (Chrome 18800): 在线"
-else
-    UNHEALTHY_AIS+=("ai-router")
-    echo "  ⚠️ ai-router (Chrome 18800): 未启动"
-fi
+check_deepseek() {
+    local out
+    out=$(curl -s --max-time 15 -X POST "https://api.deepseek.com/v1/chat/completions" \
+        -H "Authorization: Bearer sk-43be94f13cad4c80bd934c85ccd43a5d" \
+        -H "Content-Type: application/json" \
+        -d '{"model":"deepseek-chat","messages":[{"role":"user","content":"OK"}],"max_tokens":5}' 2>&1 | head -c 200)
+    if echo "$out" | grep -q '"choices"'; then echo "OK"; else echo "FAIL:$(echo "$out" | head -c 100)"; fi
+}
 
-# ========== 总结 ==========
-echo ""
-echo "[$(date '+%H:%M:%S')] Health summary: ${#HEALTHY_AIS[@]} healthy, ${#UNHEALTHY_AIS[@]} unhealthy"
+ensure_router_chrome() {
+    curl -sf --max-time 5 http://localhost:18800/json/version > /dev/null 2>&1 && return 0
+    local profile="$HOME/Library/Application Support/Google/Chrome-Debug"
+    [ -d "$profile" ] || return 0
+    echo "  🔄 调试 Chrome 未启动, 自动拉起 (profile: Chrome-Debug)..."
+    nohup "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
+        --remote-debugging-port=18800 \
+        --user-data-dir="$profile" >/dev/null 2>&1 &
+    local i
+    for i in $(seq 1 12); do
+        sleep 2
+        curl -sf --max-time 3 http://localhost:18800/json/version > /dev/null 2>&1 && return 0
+    done
+    return 0
+}
 
-# 写入 health 状态供 Pipeline 使用
-echo "${HEALTHY_AIS[@]}" > "$LOG_DIR/healthy-ais.txt"
+# 2026-11-22 新增: 端到端实测, 端口在线 ≠ 能出字
+# 输出 OK:<能用的AI> 或 FAIL:<原因>, 并把能用的 AI 写进 healthy-router-ais.txt
+probe_router_ais() {
+    [ "${PREFLIGHT_SKIP_ROUTER_PROBE:-0}" = "1" ] && { echo "SKIP"; return 0; }
+    local work="/tmp/preflight-probe-$$.txt"
+    printf 'Reply with exactly one line: OK. Do not explain.' > "$work"
+    local usable=() ai out
+    for ai in doubao gemini chatgpt grok; do
+        out=$(timeout 90 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$ai" "$work" 90 2>&1 | head -c 400)
+        if [ ${#out} -ge 2 ] && ! echo "$out" | grep -qiE "$ERROR_PATTERN"; then
+            usable+=("$ai")
+        fi
+    done
+    rm -f "$work"
+    printf '%s\n' "${usable[@]}" > "$LOG_DIR/healthy-router-ais.txt"
+    if [ ${#usable[@]} -gt 0 ]; then
+        echo "OK:${usable[*]}"
+    else
+        echo "FAIL:所有 AI 页面都未出字"
+    fi
+}
 
-if [ ${#HEALTHY_AIS[@]} -eq 0 ]; then
-    echo "  🚨 ALL AI FAIL — skip Pipeline"
-    notify_telegram "🚨 Pipeline Pre-flight 全部失败
-❌ 所有 AI 不可用
-💡 跳过今日文章生成
-📞 联系总裁"
-    exit 1
-fi
+run_checks() {
+    HEALTHY_AIS=()
+    UNHEALTHY_AIS=()
+    ROUTER_AIS=""
+    echo ""
+    echo "[$(date '+%H:%M:%S')] 🔍 Pre-flight AI health check (第 $1 轮)..."
 
-# 2026-11-22: vercel 不算写作通道, 只有 AI 或 ai-router 在才能继续
-HAS_AI_CHANNEL=0
-for a in "${HEALTHY_AIS[@]}"; do
-    if [ "$a" != "vercel" ]; then HAS_AI_CHANNEL=1; fi
-done
-if [ "$HAS_AI_CHANNEL" -eq 0 ]; then
-    echo "  🚨 没有任何可用的写作通道 (AI + ai-router 全挂) — skip Pipeline"
-    notify_telegram "🚨 写作通道全断
-❌ API 余额/Chrome 18800 均不可用
-💡 今日文章跳过, 需充值 API 或启动调试 Chrome"
-    exit 1
-fi
+    local r
+    r=$(check_minimax "MiniMax-M2.7-highspeed")
+    if [ "$r" = "OK" ]; then HEALTHY_AIS+=("MiniMax-M2.7-highspeed"); echo "  ✅ MiniMax-M2.7-highspeed: OK"
+    else UNHEALTHY_AIS+=("MiniMax-M2.7-highspeed"); echo "  ❌ MiniMax-M2.7-highspeed: FAIL"; fi
 
-if [ ${#UNHEALTHY_AIS[@]} -gt 0 ]; then
-    notify_telegram "⚠️ Pipeline Pre-flight 部分失败
+    r=$(check_minimax "MiniMax-M2.7")
+    if [ "$r" = "OK" ]; then HEALTHY_AIS+=("MiniMax-M2.7"); echo "  ✅ MiniMax-M2.7: OK"
+    else UNHEALTHY_AIS+=("MiniMax-M2.7"); echo "  ❌ MiniMax-M2.7: FAIL"; fi
+
+    r=$(check_deepseek)
+    if [ "$r" = "OK" ]; then HEALTHY_AIS+=("deepseek-api"); echo "  ✅ DeepSeek API: OK"
+    else UNHEALTHY_AIS+=("deepseek-api"); echo "  ⚠️ DeepSeek API: FAIL (${r#FAIL:})"; fi
+
+    local vercel_count
+    vercel_count=$( (cd "$PROJECT_DIR" && timeout 45 npx vercel ls --prod 2>&1) | grep -c "Ready" || true )
+    if [ "${vercel_count:-0}" -gt 0 ]; then
+        HEALTHY_AIS+=("vercel"); echo "  ✅ Vercel: OK ($vercel_count deployments)"
+    else
+        UNHEALTHY_AIS+=("vercel"); echo "  ⚠️ Vercel: 未取到部署列表 (不阻断)"
+    fi
+
+    ensure_router_chrome
+    if curl -sf --max-time 5 http://localhost:18800/json/version > /dev/null 2>&1; then
+        r=$(probe_router_ais)
+        case "$r" in
+            SKIP) HEALTHY_AIS+=("ai-router"); echo "  ↷ ai-router: 跳过实测 (PREFLIGHT_SKIP_ROUTER_PROBE=1)" ;;
+            OK:*) HEALTHY_AIS+=("ai-router"); ROUTER_AIS="${r#OK:}"; echo "  ✅ ai-router (18800): 实测出字 → $ROUTER_AIS" ;;
+            *)    UNHEALTHY_AIS+=("ai-router"); echo "  ❌ ai-router (18800): 端口在线但 AI 未出字, 判为不可用" ;;
+        esac
+    else
+        UNHEALTHY_AIS+=("ai-router"); echo "  ⚠️ ai-router (Chrome 18800): 未启动"
+    fi
+
+    WRITING_CHANNELS=()
+    local a
+    for a in "${HEALTHY_AIS[@]}"; do
+        [ "$a" != "vercel" ] && WRITING_CHANNELS+=("$a")
+    done
+}
+
+# ---------- 主循环: 三轮重试 ----------
+attempt=1
+while [ "$attempt" -le "$MAX_ATTEMPTS" ]; do
+    run_checks "$attempt"
+
+    echo ""
+    echo "[$(date '+%H:%M:%S')] Health summary: ${#HEALTHY_AIS[@]} healthy, ${#UNHEALTHY_AIS[@]} unhealthy"
+    echo "${HEALTHY_AIS[@]}" > "$LOG_DIR/healthy-ais.txt"
+
+    if [ ${#WRITING_CHANNELS[@]} -gt 0 ]; then
+        rm -f "$LOG_DIR"/blocked-*.txt 2>/dev/null
+        if [ ${#UNHEALTHY_AIS[@]} -gt 0 ]; then
+            notify "⚠️ Pipeline Pre-flight 部分通道异常
 ✅ 健康: ${HEALTHY_AIS[*]}
 ❌ 异常: ${UNHEALTHY_AIS[*]}
-💡 Pipeline 会用健康 AI fallback"
-fi
+💡 Pipeline 会按健康通道 fallback"
+        fi
+        exit 0
+    fi
 
-exit 0
+    if [ "$attempt" -lt "$MAX_ATTEMPTS" ]; then
+        echo "  ⏳ 没有可用写作通道, ${RETRY_SLEEP}s 后重试 ($attempt/$MAX_ATTEMPTS)"
+        sleep "$RETRY_SLEEP"
+    fi
+    attempt=$((attempt+1))
+done
+
+# ---------- 三轮都失败 ----------
+BLOCK_FILE="$LOG_DIR/blocked-$(date '+%Y%m%d').txt"
+{
+    echo "time=$(date '+%Y-%m-%d %H:%M:%S')"
+    echo "reason=no_writing_channel"
+    echo "unhealthy=${UNHEALTHY_AIS[*]}"
+    echo "attempts=$MAX_ATTEMPTS"
+    echo "next=充值 DeepSeek 或登录 Chrome-Debug 里的豆包/Gemini 账号, 然后手动补跑:"
+    echo "     bash $PROJECT_DIR/scripts/seo-ai-pipeline.sh"
+} > "$BLOCK_FILE"
+
+echo "  🚨 三轮均无可用写作通道 — skip Pipeline (状态已写入 $BLOCK_FILE)"
+notify "🚨 今日文章未生成
+❌ 所有写作通道三轮均不可用
+✅ 已记录: $BLOCK_FILE
+💡 需充值 API 或在 Chrome-Debug 登录豆包/Gemini 后补跑"
+exit 1

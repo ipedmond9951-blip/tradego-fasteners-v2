@@ -43,12 +43,26 @@ const nextConfig: NextConfig = {
         destination: '/en/contact/',
         permanent: true,
       },
+      // 2026-11-22: 旧产品 slug 已改名但旧 URL 仍在被访问/索引
+      // 旧 URL 返回 200 + "Product Not Found"（软 404），既无内链也伤索引
+      // 统一 301 到当前 slug
+      {
+        source: '/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)/products/ibr-roofing-nails/',
+        destination: '/:locale/products/ibr-nails/',
+        permanent: true,
+      },
+      {
+        source: '/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)/products/flat-washers/',
+        destination: '/:locale/products/washers/',
+        permanent: true,
+      },
     ];
   },
   images: {
     // 2026-07-15 fix: Vercel Next.js image optimization 走 Pro plan (402 Payment Required)
     // 禁掉优化器, 所有 <Image> 自动用原始 /images/...jpg 路径, 跟 5 美元 VPS 哲学一致
     unoptimized: true,
+    qualities: [75, 80],
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
       {

@@ -2,13 +2,13 @@
   "slug": "africa-oil-refinery-high-pressure-fastener-guide",
   "category": "Market Analysis",
   "date": "2026-08-15",
-  "updated": "2026-08-15",
-  "readTime": 9,
+  "updated": "2026-11-22",
+  "readTime": 6,
   "region": "africa",
   "image": "/images/articles/africa-oil-refinery-high-pressure-fastener-guide.jpg",
   "imageAlt": {
     "en": "Africa Oil Refinery High Pressure Fastener Guide 2026",
-    "zh": "Africa Oil Refinery High Pressure Fastener Guide 2026",
+    "zh": "非洲炼厂高压高温工况紧固件选型与紧固工艺",
     "es": "Africa Oil Refinery High Pressure Fastener Guide 2026",
     "ar": "Africa Oil Refinery High Pressure Fastener Guide 2026",
     "fr": "Africa Oil Refinery High Pressure Fastener Guide 2026",
@@ -19,8 +19,8 @@
     "hi": "Africa Oil Refinery High Pressure Fastener Guide 2026"
   },
   "title": {
-    "en": "Africa Oil Refinery High Pressure Fastener Guide 2026",
-    "zh": "Africa Oil Refinery High Pressure Fastener Guide 2026",
+    "en": "Africa Oil Refinery High Pressure Fastener Guide",
+    "zh": "非洲炼厂高压紧固件指南",
     "es": "Africa Oil Refinery High Pressure Fastener Guide 2026",
     "ar": "Africa Oil Refinery High Pressure Fastener Guide 2026",
     "fr": "Africa Oil Refinery High Pressure Fastener Guide 2026",
@@ -32,7 +32,7 @@
   },
   "description": {
     "en": "Explore the ultimate Africa oil refinery high pressure fastener guide. Learn top material standards, sourcing tips, and get a quote from TradeGo today!",
-    "zh": "Explore the ultimate Africa oil refinery high pressure fastener guide. Learn top material standards, sourcing tips, and get a quote from TradeGo today!",
+    "zh": "非洲炼厂高压与高温工况下的紧固件指南：材质选择、螺栓紧固工艺与留档要求、沿海腐蚀防护，以及炼厂可接受的单证标准。",
     "es": "Explore the ultimate Africa oil refinery high pressure fastener guide. Learn top material standards, sourcing tips, and get a quote from TradeGo today!",
     "ar": "Explore the ultimate Africa oil refinery high pressure fastener guide. Learn top material standards, sourcing tips, and get a quote from TradeGo today!",
     "fr": "Explore the ultimate Africa oil refinery high pressure fastener guide. Learn top material standards, sourcing tips, and get a quote from TradeGo today!",
@@ -44,7 +44,7 @@
   },
   "metaDescription": {
     "en": "Explore the ultimate Africa oil refinery high pressure fastener guide. Learn top material standards, sourcing tips, and get a quote from TradeGo today!",
-    "zh": "Explore the ultimate Africa oil refinery high pressure fastener guide. Learn top material standards, sourcing tips, and get a quote from TradeGo today!",
+    "zh": "非洲炼厂高压与高温工况下的紧固件指南：材质选择、螺栓紧固工艺与留档要求、沿海腐蚀防护，以及炼厂可接受的单证标准。",
     "es": "Explore the ultimate Africa oil refinery high pressure fastener guide. Learn top material standards, sourcing tips, and get a quote from TradeGo today!",
     "ar": "Explore the ultimate Africa oil refinery high pressure fastener guide. Learn top material standards, sourcing tips, and get a quote from TradeGo today!",
     "fr": "Explore the ultimate Africa oil refinery high pressure fastener guide. Learn top material standards, sourcing tips, and get a quote from TradeGo today!",
@@ -100,7 +100,63 @@
       "accessDate": "2026-08-15"
     }
   ],
-  "sections": [],
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": {
+        "en": "High-Pressure Fasteners in African Refineries: Where Ordinary Bolts Stop Working",
+        "zh": "非洲炼厂的高压紧固件：普通螺栓失效的地方"
+      },
+      "body": {
+        "en": "Refinery and petrochemical service is the most demanding fastener environment in this series: high pressure, elevated temperature, cyclic loading, and hydrogen or sour service in some units. A bolt that is perfectly adequate on a construction site can fail here within a single maintenance cycle.<p>This guide focuses on what changes when pressure and temperature rise — material selection, bolting practice, and the documentation a refinery actually accepts.</p>",
+        "zh": "炼厂与石化装置是本系列中对紧固件要求最高的环境：高压、高温、交变载荷，部分装置还有氢或酸性介质。建筑工地上完全够用的螺栓，在这里可能一个检修周期内就失效。<p>本文讲清压力和温度上去之后到底什么变了——选材、螺栓紧固工艺，以及炼厂真正接受的单证。</p>"
+      }
+    },
+    {
+      "id": "materials",
+      "heading": {
+        "en": "Material Selection: The Decisions That Cannot Be Reversed",
+        "zh": "选材：不可逆的决定"
+      },
+      "body": {
+        "en": "Carbon steel with the right grade covers much of general refinery bolting, but elevated-temperature and hydrogen service push selection toward alloy steels, and wet or acidic environments toward stainless and duplex grades. The determinant is not the visible duty but the design condition — temperature, pressure, and medium together.<p>The practical rule: never let a purchasing shortcut decide material. Specifying by price rather than by service condition is the origin of most bolting failures in this sector, and it is a failure that no amount of inspection after the fact can correct.</p>",
+        "zh": "合适等级碳钢能覆盖炼厂大部分常规螺栓连接，但高温与含氢工况会把选材推向合金钢，潮湿或酸性环境则推向不锈钢与双相钢。决定因素不是看得见的工况，而是设计条件——温度、压力与介质三者的组合。<p>实操原则：绝不让采购上的省事决定材质。按价格而不是按工况指定材料，是这一行大多数螺栓失效的源头，而且是事后任何检验都纠正不了的失效。</p>"
+      }
+    },
+    {
+      "id": "bolting-practice",
+      "heading": {
+        "en": "Bolting Practice: Torque, Tension, and What Gets Written Down",
+        "zh": "紧固工艺：扭矩、张紧与必须留档的东西"
+      },
+      "body": {
+        "en": "Flanged joints in pressure service are tightened by controlled torque or by bolt tensioning, and the method has to be chosen per joint size and gasket type rather than by habit. Lubricant choice changes the effective torque for the same preload, so the procedure must name the lubricant rather than leave it to the crew.<p>Recording matters as much as doing. Turn records, torque values, and the tool calibration status are what an inspector asks for first; a joint that was tightened correctly but cannot be documented will usually be re-torqued, and every re-torque consumes life.</p>",
+        "zh": "压力管道的法兰连接靠受控扭矩或螺栓张紧来紧固，方法要按接头尺寸和垫片类型来定，而不是凭习惯。同一预紧力下，润滑剂种类会改变有效扭矩，因此工艺文件必须写明润滑剂，而不是交给现场。<p>记录和施工同等重要。转角记录、扭矩值和工具校准状态是检查员最先索要的东西；一个紧固正确但无法留档的接头通常会被重新紧固，而每次重紧都在消耗寿命。</p>"
+      }
+    },
+    {
+      "id": "corrosion",
+      "heading": {
+        "en": "Corrosion and Coating in Coastal Refineries",
+        "zh": "沿海炼厂的腐蚀与镀层"
+      },
+      "body": {
+        "en": "Refineries sited on the coast add an external corrosion problem on top of the internal one. Atmospheric chlorides attack carbon steel bolting on structures and pipe racks long before internal service limits are reached, and the failure usually appears at thread roots and under washers.<p>Coating selection follows exposure, not tradition: hot-dip galvanizing or zinc-rich systems for structural bolting, stainless or composite systems where chloride levels are high, and isolation where dissimilar metals meet. Painting over an already-rusted fastener is the most common wasted maintenance spend in this environment.</p>",
+        "zh": "建在沿海的炼厂在内部腐蚀之外还有外部腐蚀。大气中的氯离子会远在内部工况到限之前就侵蚀结构和管廊上的碳钢螺栓，失效多出现在螺纹根部与垫圈下方。<p>镀层选择跟着暴露环境走，而不是跟传统走：结构螺栓用热浸镀锌或富锌体系，氯离子高的部位用不锈钢或复合体系，异种金属相接处做隔离。在已经起锈的紧固件上刷漆，是这种环境里最常见的无效维护支出。</p>"
+      }
+    },
+    {
+      "id": "documentation",
+      "heading": {
+        "en": "Documentation a Refinery Will Accept",
+        "zh": "炼厂会接受什么样的文件"
+      },
+      "body": {
+        "en": "Expect to provide material certificates with heat numbers, mechanical property results, and non-destructive test reports where specified. For high-pressure service, impact testing at low temperature is frequently required, and the certificate must state the test temperature rather than just the result.<p>Traceability runs both ways: the certificate has to identify the batch, and the batch has to be identifiable on the delivered parts — usually by marking that survives coating and handling. A certificate that cannot be tied to a physical part is not evidence, and a refinery inspector will treat it that way.</p>",
+        "zh": "需要提供带炉号的材质证明、力学性能结果，以及有要求时的无损检测报告。高压工况常要求低温冲击试验，证书上必须写明试验温度而不只是结果。<p>追溯是双向的：证书要能指明批次，批次也要能在交付件上辨认出来——通常靠经过镀层和搬运仍可读的标记。无法对应到实物零件的证书不算证据，炼厂检查员就是这么处理的。</p>"
+      }
+    }
+  ],
   "relatedProducts": [
     {
       "slug": "hex-bolts-grade-88",
@@ -143,5 +199,22 @@
     },
     "link": "/en/contact"
   },
-  "faq": []
+  "faq": [
+    {
+      "q": "What makes refinery bolting different from construction bolting?",
+      "a": "Pressure, temperature, cyclic loading, and in some units hydrogen or sour service. Material selection and bolting procedure are driven by design conditions rather than by price."
+    },
+    {
+      "q": "Which documents are typically required?",
+      "a": "Material certificates with heat numbers, mechanical test results, low-temperature impact testing where specified, non-destructive test reports, and marking that lets the certificate be tied to the delivered parts."
+    },
+    {
+      "q": "Why does lubricant choice matter?",
+      "a": "For the same preload, different lubricants produce different effective torque. The tightening procedure must name the lubricant so the specified torque is repeatable across crews."
+    },
+    {
+      "q": "How should coastal refinery structures be protected?",
+      "a": "Choose coatings by exposure: hot-dip galvanizing or zinc-rich systems for structural bolting, stainless or composite where chloride levels are high, and isolation between dissimilar metals."
+    }
+  ]
 }
