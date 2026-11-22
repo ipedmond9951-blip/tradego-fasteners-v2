@@ -105,7 +105,7 @@ def call_llm(prompt, timeout=180):
         path = f.name
     try:
         out = subprocess.run(
-            ["bash", SEO_LLM, path, str(timeout), "200"],
+            ["bash", SEO_LLM, path, str(timeout), "40"],
             capture_output=True, text=True, timeout=timeout + 60,
         ).stdout
         return out or ""
