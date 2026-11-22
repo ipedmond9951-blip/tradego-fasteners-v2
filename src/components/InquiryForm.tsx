@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { type Locale, t } from '@/i18n'
 
 interface InquiryFormProps { locale?: Locale }
@@ -8,6 +8,12 @@ interface InquiryFormProps { locale?: Locale }
 export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
   const [submitted, setSubmitted] = useState(false)
   const [loading, setLoading] = useState(false)
+  // 表单进入页面的时刻，用来算"填表时长"；脚本通常瞬间提交
+  const mountedAt = useRef(0)
+
+  useEffect(() => {
+    mountedAt.current = Date.now()
+  }, [])
 
   // Track GA4 conversion event
   const trackConversion = (eventName: string, params: Record<string, string>) => {
@@ -33,6 +39,9 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
       products: val('products'),
       quantity: val('quantity'),
       message: val('message'),
+      // 反滥用元数据：蜜罐字段（真人不会填）+ 填表耗时
+      _honeypot: val('website'),
+      _elapsed: mountedAt.current ? Date.now() - mountedAt.current : -1,
     }
     try {
       const res = await fetch('/api/inquiry/', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })
@@ -112,6 +121,11 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
           <div>
             <label htmlFor="inquiry-message" className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.message')}</label>
             <textarea id="inquiry-message" name="message" rows={3} className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" />
+          </div>
+          {/* 反垃圾蜜罐：真人看不见也跳不过去，被填写即判为脚本提交 */}
+          <div aria-hidden="true" className="absolute -left-[9999px] top-0 h-px w-px overflow-hidden opacity-0 pointer-events-none">
+            <label htmlFor="inquiry-website">Website</label>
+            <input id="inquiry-website" name="website" type="text" tabIndex={-1} autoComplete="off" defaultValue="" />
           </div>
           <div className="flex flex-col sm:flex-row gap-3 pt-2">
             <button type="submit" disabled={loading} aria-label={t(locale, 'inquiry.submit') + " - Submit your inquiry"} className="flex-1 bg-primary-700 text-white py-2.5 md:py-3 rounded-lg font-bold hover:bg-primary-800 transition-colors disabled:opacity-50 text-sm md:text-base">

@@ -20,6 +20,60 @@ interface InquiryData {
   locale?: string;
 }
 
+// ---- 反滥用：蜜罐 + 提交时长 + 频率限制 ----
+// 说明：进程内计数在 serverless 上是"每实例一份"，只能算第一道拦网（挡掉不针对目标的批量脚本）。
+// 真正有组织的刷量要靠 Edge/WAF 规则或 Cloudflare Turnstile，这里不做重复建设。
+const RATE_WINDOW_MS = 10 * 60 * 1000;
+const RATE_MAX_PER_IP = 8; // 非洲移动网络 NAT 共享 IP 常见，阈值不能压太死
+const RATE_MAX_GLOBAL = 30;
+const MIN_FILL_MS = 2000;
+
+type HitMap = Map<string, number[]>;
+const ipHits: HitMap = new Map();
+let globalHits: number[] = [];
+
+function prune(list: number[], now: number): number[] {
+  return list.filter((t) => now - t < RATE_WINDOW_MS);
+}
+
+function clientIp(request: NextRequest): string {
+  const xff = request.headers.get('x-forwarded-for');
+  if (xff) return xff.split(',')[0].trim();
+  return request.headers.get('x-real-ip')?.trim() || 'unknown';
+}
+
+function overLimit(ip: string): { limited: boolean; retryAfter: number } {
+  const now = Date.now();
+  globalHits = prune(globalHits, now);
+  const ipList = prune(ipHits.get(ip) || [], now);
+
+  // 记录本次尝试（被拦的也算，避免持续刷）
+  ipList.push(now);
+  globalHits.push(now);
+  ipHits.set(ip, ipList);
+
+  if (ipHits.size > 2000) {
+    for (const [key, list] of ipHits) {
+      if (prune(list, now).length === 0) ipHits.delete(key);
+    }
+  }
+
+  const ipOver = ipList.length > RATE_MAX_PER_IP;
+  const globalOver = globalHits.length > RATE_MAX_GLOBAL;
+  const oldest = ipOver ? ipList[0] : globalHits[0];
+  const retryAfter = Math.max(1, Math.ceil((RATE_WINDOW_MS - (now - oldest)) / 1000));
+  return { limited: ipOver || globalOver, retryAfter };
+}
+
+function spamReason(data: InquiryData, honeypot?: string, elapsedMs?: unknown): string | null {
+  if ((honeypot || '').trim() !== '') return 'honeypot_filled';
+  const elapsed = typeof elapsedMs === 'number' ? elapsedMs : Number(elapsedMs);
+  if (Number.isFinite(elapsed) && elapsed >= 0 && elapsed < MIN_FILL_MS) return 'submitted_too_fast';
+  const links = (data.message || '').match(/https?:\/\/|www\./gi);
+  if (links && links.length > 3) return 'excessive_links';
+  return null;
+}
+
 interface LeadRecord extends InquiryData {
   id: string;
   created_at: string;
@@ -292,12 +346,35 @@ async function sendWebhookAlert(data: InquiryData, isHighValue: boolean): Promis
 
 export async function POST(request: NextRequest) {
   try {
-    const data: InquiryData = await request.json();
-    
+    // 0. 频率限制（第一道）：同一 IP 10 分钟最多 5 次，全局每实例 30 次
+    const ip = clientIp(request);
+    const rate = overLimit(ip);
+    if (rate.limited) {
+      console.warn(`[RATE_LIMIT] ip=${ip} retry_after=${rate.retryAfter}s`);
+      return NextResponse.json(
+        { error: 'Too many requests, please try again later', retry_after: rate.retryAfter },
+        { status: 429, headers: { 'Retry-After': String(rate.retryAfter) } }
+      );
+    }
+
+    const payload = (await request.json()) as InquiryData & {
+      _honeypot?: string;
+      _elapsed?: number | string;
+    };
+    const { _honeypot, _elapsed, ...data } = payload;
+
     if (!data.name || !data.email || !data.products) {
       return NextResponse.json({ 
         error: 'Missing required fields: name, email, products' 
       }, { status: 400 });
+    }
+
+    // 0b. 机器特征（第二道）：蜜罐被填 / 表单填得太快 / 正文塞满链接
+    // 命中后返回与成功完全一致的响应，不给脚本任何"被识别"的信号，但不投递、不落库
+    const spam = spamReason(data, _honeypot, _elapsed);
+    if (spam) {
+      console.warn(`[SPAM] reason=${spam} ip=${ip} email=${data.email} products=${data.products}`);
+      return NextResponse.json({ success: true, message: 'Inquiry submitted successfully' });
     }
 
     const isHighValue = isInquiryHighValue(data.quantity);
@@ -392,8 +469,19 @@ export async function POST(request: NextRequest) {
   }
 }
 
-// GET endpoint to retrieve leads (for testing)
-export async function GET() {
+// GET 用于取回线索列表（含客户邮箱/电话），默认关闭：
+// 必须配置环境变量 LEADS_TOKEN，并带上同一个 token 才能读，避免公开端点被爬走客户名单
+export async function GET(request: NextRequest) {
+  const token = process.env.LEADS_TOKEN;
+  if (!token) {
+    return NextResponse.json({ error: 'Not found' }, { status: 404 });
+  }
+  const provided =
+    request.headers.get('x-leads-token') || request.nextUrl.searchParams.get('token');
+  if (provided !== token) {
+    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  }
+
   try {
     const filePath = getLeadsFilePath();
     if (!existsSync(filePath)) {
