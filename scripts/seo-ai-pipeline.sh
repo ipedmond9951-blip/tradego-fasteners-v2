@@ -358,8 +358,38 @@ slugify() {
     echo "$1" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//;s/-$//'
 }
 
+# 0) 人工置顶队列优先（content/topic-queue.txt：topic|keyword|country|angle）
+QUEUE_FILE="$PROJECT_DIR/content/topic-queue.txt"
+FROM_QUEUE=0
+if [ -f "$QUEUE_FILE" ]; then
+    QUEUE_LINE=$(grep -m1 -v '^[[:space:]]*$' "$QUEUE_FILE" 2>/dev/null)
+    if [ -n "$QUEUE_LINE" ]; then
+        IFS='|' read -r Q_TOPIC Q_KW Q_COUNTRY Q_ANGLE <<< "$QUEUE_LINE"
+        Q_TOPIC=$(echo "$Q_TOPIC" | sed 's/[[:space:]]*$//')
+        Q_KW=$(echo "$Q_KW" | sed 's/^[[:space:]]*//; s/[[:space:]]*$//')
+        Q_COUNTRY=$(echo "$Q_COUNTRY" | sed 's/^[[:space:]]*//; s/[[:space:]]*$//')
+        Q_ANGLE=$(echo "$Q_ANGLE" | sed 's/^[[:space:]]*//; s/[[:space:]]*$//')
+        if [ -n "$Q_TOPIC" ]; then
+            Q_SLUG=$(slugify "$Q_TOPIC")
+            if [ -f "$PROJECT_DIR/content/articles/${Q_SLUG}.json" ]; then
+                log "⚠️ 置顶选题已存在，跳过队列: $Q_TOPIC"
+            else
+                TOPIC="$Q_TOPIC"
+                SLUG="$Q_SLUG"
+                TREND_KEYWORD="$Q_KW"
+                TREND_COUNTRY="$Q_COUNTRY"
+                [ -n "$Q_ANGLE" ] && CONTENT_ANGLE="$Q_ANGLE"
+                FROM_QUEUE=1
+                log "📌 置顶选题: $TOPIC (country=$TREND_COUNTRY, angle=$CONTENT_ANGLE, kw=$TREND_KEYWORD)"
+            fi
+        fi
+    fi
+fi
+
 # 先尝试用当日本地信息 + 热点生成选题（行业文/产品文按日轮换）
-if [ -n "$TREND_BLOCK" ]; then
+if [ "$FROM_QUEUE" = "1" ]; then
+    :
+elif [ -n "$TREND_BLOCK" ]; then
     TREND_TOPIC_PROMPT_FILE="$TMP_DIR/trend_topic_prompt.txt"
     {
       printf '%s\n' "You are an SEO editor for tradego-fasteners.com (B2B fastener exporter to Africa, Middle East, South Asia)."
@@ -405,6 +435,9 @@ print(json.dumps(d))
 fi
 
 # 选 1 个未处理过的主题（仅在趋势选题失败时）
+if [ "$FROM_QUEUE" = "1" ]; then
+    [ -z "$TOPIC" ] && log "❌ 置顶选题异常"
+fi
 if [ -z "$TOPIC" ]; then
 for t in "${TOPIC_POOL[@]}"; do
     slug_attempt=$(echo "$t" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//;s/-$//')
@@ -1475,5 +1508,15 @@ python3 "$SCRIPT_DIR_VAL/seo-state-write.py" "$STATE_FILE" \
     || log "⚠️ state.json update skipped (lock conflict or error)"
 
 log "=========================================="
+if [ "$FROM_QUEUE" = "1" ] && [ -f "$QUEUE_FILE" ]; then
+    python3 - "$QUEUE_FILE" <<'QUEUE_EOF'
+import sys
+p = sys.argv[1]
+lines = [l for l in open(p, encoding="utf-8").read().splitlines() if l.strip()]
+open(p, "w", encoding="utf-8").write("\n".join(lines[1:]) + ("\n" if len(lines) > 1 else ""))
+QUEUE_EOF
+    log "📌 已消费置顶选题队列首行"
+fi
+
 log "🎉 PIPELINE COMPLETE: $SLUG (score: $SCORE)"
 log "=========================================="
