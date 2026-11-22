@@ -98,19 +98,16 @@ if [ -f "$STATE_FILE" ]; then
         if [ "$HTTP_CODE" != "200" ]; then
             log "⚠️ state.json 说已跑, 但 HTTP $HTTP_CODE — 部署异常"
             
-            # 重 deploy
+            # 2026-11-22 改：watcher 只告警，不再自动 commit/push/vercel（避免和人工/流水线抢部署队列）
             cd "$PROJECT_DIR"
             git status -s | head -3 | tee -a "$LOG_FILE"
             if ! git status -s | grep -q "zambia\|${LAST_SLUG}"; then
-                log "  文章未 commit, 自动 commit + push + deploy"
-                git add "content/articles/${LAST_SLUG}.json" 2>/dev/null || git add -A
-                git commit -m "fix(seo): [watcher] auto-commit $LAST_SLUG" 2>&1 | tail -3 | tee -a "$LOG_FILE"
-                git push origin main 2>&1 | tail -2 | tee -a "$LOG_FILE"
-                timeout 180 npx vercel --prod --yes --force 2>&1 | tail -5 | tee -a "$LOG_FILE"
-                notify_telegram "🚨 Watcher 自动重新部署
+                log "  文章未 commit，写入待办文件，等人工或 3:30 管线处理"
+                printf '%s 文章 %s 未 commit，state 显示已跑但 HTTP %s\n' "$(date '+%F %T')" "$LAST_SLUG" "$HTTP_CODE" >> "$LOG_DIR/pending-deploy-$TODAY.txt"
+                notify_telegram "⚠️ Watcher 只告警不自动部署
 🔗 Slug: $LAST_SLUG
-💡 state.json 显示已跑但 HTTP 异常
-🛠️ Watcher 自动 git commit + push + vercel deploy"
+💡 state.json 显示已跑但 HTTP $HTTP_CODE
+📝 已记录到 logs/seo-ai-pipeline/pending-deploy-$TODAY.txt"
             fi
         fi
     fi

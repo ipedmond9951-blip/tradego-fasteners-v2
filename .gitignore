@@ -80,3 +80,7 @@ scripts/*.bak*
 # 选题库按需生成（30k 行/17MB，勿入库；缺失时 pipeline 自动 generate）
 scripts/seo-topic-cartesian.jsonl
 scripts/seo-topic-usage.json
+
+# 运行日志与本地业务笔记不入库
+logs/
+memory/
