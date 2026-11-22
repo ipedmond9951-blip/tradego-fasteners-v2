@@ -76,9 +76,27 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   }
 }
 
+// 历史文章里有约 480 处占位段落 (如 "<p>Content coming soon.</p>", 常跟在
+// "Related resources: ..." 之类的真实尾巴后面), 直接渲染会出现"内容即将上线"式空话,
+// 对 SEO 和信任度都是负分。这里把开头的占位句剥掉, 只剩空壳时视为缺失并回退 en。
+const PLACEHOLDER_LEAD = new RegExp(
+  '^(?:<p>)?\\s*(?:content coming soon|coming soon|see frequently asked questions below|内容即将上线|敬请期待)[.。]?\\s*(?:</p>)?\\s*',
+  'i'
+)
+
+function stripPlaceholder(value: string | undefined): string {
+  if (!value) return ''
+  return value.replace(PLACEHOLDER_LEAD, '').trim()
+}
+
 function localizedText(obj: Record<string, string> | undefined, locale: string): string {
   if (!obj) return ''
-  return obj[locale] || obj['en'] || Object.values(obj)[0] || ''
+  const ordered = [obj[locale], obj['en'], ...Object.values(obj)]
+  for (const candidate of ordered) {
+    const cleaned = stripPlaceholder(candidate)
+    if (cleaned) return cleaned
+  }
+  return ''
 }
 
 function renderSection(section: ArticleSection, locale: string) {
