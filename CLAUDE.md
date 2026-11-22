@@ -1,4 +1,5 @@
 > 通用规则与验证不属于本项目：见 `~/AgentOps/rules/` 与 `~/AgentOps/maps/tradego.md`。
+> 浏览器（看线上页面、验收部署、登录态操作）默认 ego lite，见 `~/AgentOps/rules/27-browser.md`。
 > 本文件只写 TradeGo 特有知识，不复制通用条款。
 
 # TradeGo外贸独立站 - 项目知识

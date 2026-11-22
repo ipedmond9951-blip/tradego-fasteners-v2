@@ -364,11 +364,23 @@ export async function POST(request: NextRequest) {
       console.error(`[CRITICAL] Inquiry ${lead.id} was NOT delivered to any channel. Configure RESEND_API_KEY or INQUIRY_WEBHOOK_URL. Payload: ${JSON.stringify(data)}`);
     }
 
+    // 预览/开发环境没有投递凭据时必须显式失败，否则测试会以为“提交成功”，线上却是空的
+    const isProd = process.env.VERCEL_ENV === 'production';
+    if (!alerted && !isProd) {
+      return NextResponse.json({
+        error: 'Delivery not configured in this environment',
+        detail: '缺少 RESEND_API_KEY / INQUIRY_WEBHOOK_URL，询盘未送达任何人',
+        lead_id: lead.id,
+        delivered: false,
+      }, { status: 503 });
+    }
+
     return NextResponse.json({ 
       success: true,
       message: 'Inquiry submitted successfully',
       lead_id: lead.id,
       highValue: isHighValue,
+      delivered: alerted,
       crm_synced: crmSent,
       email_sent: emailSent,
       webhook_sent: webhookSent,
