@@ -1,0 +1,55 @@
+name: AgentOps
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: JSON 完整性
+        run: |
+          python3 - <<'EOF'
+          import json, pathlib, sys
+          bad = []
+          for p in pathlib.Path("content").rglob("*.json"):
+              if "backup" in str(p).lower():
+                  continue
+              try:
+                  json.loads(p.read_text(encoding="utf-8"))
+              except Exception as e:
+                  bad.append(f"{p}: {type(e).__name__}")
+          for name in ["package.json", "tsconfig.json"]:
+              try:
+                  json.loads(pathlib.Path(name).read_text())
+              except Exception as e:
+                  bad.append(f"{name}: {type(e).__name__}")
+          if bad:
+              print("\n".join(bad)); sys.exit(1)
+          print("JSON OK")
+          EOF
+
+      - name: 明文凭据扫描
+        run: |
+          if git grep -nE 'sk-ant-[A-Za-z0-9_-]{20,}|sk-[A-Za-z0-9]{32,}|AKIA[0-9A-Z]{16}|-----BEGIN .*PRIVATE KEY-----' -- ':!*.lock' ':!package-lock.json'; then
+            echo "发现疑似明文凭据"; exit 1
+          fi
+          echo "未发现明文凭据"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: 安装依赖
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: 构建
+        run: npm run build
