@@ -96,7 +96,9 @@
     "whatsapp": "WhatsApp पर चैट",
     "selectProduct": "उत्पाद चुनें...",
     "selectCountry": "देश चुनें...",
-    "phone": "फ़ोन नंबर"
+    "phone": "फ़ोन नंबर",
+    "fallback": "आपकी पूछताछ स्वतः नहीं भेजी जा सकी। कृपया सीधे हमसे संपर्क करें ताकि आपका अनुरोध न छूटे:",
+    "emailUs": "ईमेल भेजें"
   },
   "chat": {
     "title": "TradeGo सहायक",
@@ -114,7 +116,7 @@
     "contactUs": "संपर्क करें",
     "rights": "सर्वाधिकार सुरक्षित।",
     "address": "मुख्य भूमि चीन",
-    "email": "info@tradegofasteners.com"
+    "email": "info@tradego-fasteners.com"
   },
   "geo": {
     "usPromo": "$500 से अधिक ऑर्डर पर मुफ्त शिपिंग",

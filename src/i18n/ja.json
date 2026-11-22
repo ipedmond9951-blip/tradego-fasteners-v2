@@ -99,7 +99,9 @@
     "whatsapp": "WhatsAppで相談",
     "selectProduct": "製品を選択...",
     "selectCountry": "国を選択...",
-    "phone": "電話番号"
+    "phone": "電話番号",
+    "fallback": "お問い合わせを自動送信できませんでした。取りこぼさないよう、直接ご連絡ください：",
+    "emailUs": "メールを送る"
   },
   "chat": {
     "title": "TradeGoアシスタント",
@@ -117,7 +119,7 @@
     "contactUs": "お問い合わせ",
     "rights": "全著作権所有",
     "address": "中国本土",
-    "email": "info@tradegofasteners.com"
+    "email": "info@tradego-fasteners.com"
   },
   "geo": {
     "usPromo": "$500以上のご注文で送料無料",

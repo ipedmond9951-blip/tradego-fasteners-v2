@@ -36,6 +36,16 @@ function prune(list: number[], now: number): number[] {
   return list.filter((t) => now - t < RATE_WINDOW_MS);
 }
 
+// 询盘内容会拼进 HTML 邮件，必须转义，否则客户可以在邮件里注入任意标签
+function escapeHtml(value: string): string {
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 function clientIp(request: NextRequest): string {
   const xff = request.headers.get('x-forwarded-for');
   if (xff) return xff.split(',')[0].trim();
@@ -202,17 +212,17 @@ async function sendEmail(data: InquiryData, isHighValue: boolean): Promise<boole
           <h2>New Inquiry from TradeGo Website</h2>
           <table style="border-collapse: collapse; width: 100%;">
             <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Time</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${new Date().toISOString()}</td></tr>
-            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Name</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.name}</td></tr>
-            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Email</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.email}</td></tr>
-            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Company</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.company || 'N/A'}</td></tr>
-            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Phone</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.phone || 'N/A'}</td></tr>
-            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Products</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.products}</td></tr>
-            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Quantity</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.quantity || 'N/A'}</td></tr>
-            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Country</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.country || 'Unknown'}</td></tr>
-            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Message</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.message || 'N/A'}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Name</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(data.name)}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Email</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(data.email)}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Company</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(data.company || 'N/A')}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Phone</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(data.phone || 'N/A')}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Products</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(data.products)}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Quantity</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(data.quantity || 'N/A')}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Country</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(data.country || 'Unknown')}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Message</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(data.message || 'N/A')}</td></tr>
             <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Value</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${isHighValue ? '⭐ HIGH VALUE' : 'Normal'}</td></tr>
           </table>
-          <p style="margin-top: 20px;">Reply to: <a href="mailto:${data.email}">${data.email}</a></p>
+          <p style="margin-top: 20px;">Reply to: <a href="mailto:${escapeHtml(data.email)}">${escapeHtml(data.email)}</a></p>
         `,
       }),
     });
@@ -238,19 +248,22 @@ async function sendConfirmationEmail(data: InquiryData): Promise<boolean> {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'TradeGo Fasteners <info@tradegofasteners.com>',
+        // 必须用已验证的域名发信：tradegofasteners.com（无横线）没有任何 DNS 记录，
+        // 用它发信会被 Resend 拒，客户也永远看不到确认邮件
+        from: 'TradeGo Fasteners <info@tradego-fasteners.com>',
+        reply_to: INQUIRY_EMAIL,
         to: data.email,
         subject: `Thank you for your inquiry - TradeGo Fasteners`,
         html: `
-          <h2>Dear ${data.name},</h2>
+          <h2>Dear ${escapeHtml(data.name)},</h2>
           <p>Thank you for your interest in TradeGo Fasteners products. We have received your inquiry and will respond within <strong>24 hours</strong>.</p>
           
           <h3>Your Inquiry Details:</h3>
           <table style="border-collapse: collapse; width: 100%; margin-bottom: 20px;">
-            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Products</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.products}</td></tr>
-            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Quantity</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.quantity || 'Not specified'}</td></tr>
-            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Country</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.country || 'Not specified'}</td></tr>
-            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Message</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.message || 'Not specified'}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Products</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(data.products)}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Quantity</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(data.quantity || 'Not specified')}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Country</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(data.country || 'Not specified')}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Message</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(data.message || 'Not specified')}</td></tr>
           </table>
           
           <h3>What happens next?</h3>

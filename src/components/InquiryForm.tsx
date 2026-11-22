@@ -7,6 +7,7 @@ interface InquiryFormProps { locale?: Locale }
 
 export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
   const [submitted, setSubmitted] = useState(false)
+  const [undelivered, setUndelivered] = useState(false)
   const [loading, setLoading] = useState(false)
   // 表单进入页面的时刻，用来算"填表时长"；脚本通常瞬间提交
   const mountedAt = useRef(0)
@@ -45,7 +46,9 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
     }
     try {
       const res = await fetch('/api/inquiry/', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })
-      if (res.ok) {
+      const body = (await res.json().catch(() => null)) as { delivered?: boolean } | null
+      // 只有确认真的投递出去才算成功；否则引导客户直接联系，避免询盘静默丢失
+      if (res.ok && body?.delivered !== false) {
         setSubmitted(true)
         // Fire GA4 conversion event for inquiry form submission
         trackConversion('submit_inquiry', {
@@ -54,9 +57,42 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
           inquiry_country: data.country || 'not_provided',
           locale: locale,
         })
+      } else {
+        setUndelivered(true)
       }
-    } catch {}
+    } catch {
+      setUndelivered(true)
+    }
     setLoading(false)
+  }
+
+  if (undelivered) {
+    return (
+      <section id="inquiry" className="py-12 md:py-20 bg-primary-50">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="max-w-2xl mx-auto bg-white rounded-xl md:rounded-2xl shadow-lg p-6 md:p-8 text-center">
+            <div className="text-3xl md:text-4xl mb-3">⚠️</div>
+            <p className="text-primary-900 font-semibold mb-5 text-sm md:text-base">{t(locale, 'inquiry.fallback')}</p>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <a
+                href="https://wa.me/8615963409951"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 bg-green-600 text-white py-2.5 md:py-3 rounded-lg font-bold hover:bg-green-500 transition-colors text-sm md:text-base"
+              >
+                💬 {t(locale, 'inquiry.whatsapp')}
+              </a>
+              <a
+                href="mailto:inquiry@tradego-fasteners.com"
+                className="flex-1 bg-primary-700 text-white py-2.5 md:py-3 rounded-lg font-bold hover:bg-primary-800 transition-colors text-sm md:text-base"
+              >
+                ✉️ {t(locale, 'inquiry.emailUs')}
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    )
   }
 
   if (submitted) {

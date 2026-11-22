@@ -99,7 +99,9 @@
     "whatsapp": "Chat no WhatsApp",
     "selectProduct": "Selecione um produto...",
     "selectCountry": "Selecione um país...",
-    "phone": "Telefone"
+    "phone": "Telefone",
+    "fallback": "Não conseguimos enviar sua consulta automaticamente. Fale conosco diretamente para não perdermos seu pedido:",
+    "emailUs": "Enviar e-mail"
   },
   "chat": {
     "title": "Suporte TradeGo",
@@ -117,7 +119,7 @@
     "contactUs": "Contate-nos",
     "rights": "Todos os direitos reservados.",
     "address": "China continental",
-    "email": "info@tradegofasteners.com"
+    "email": "info@tradego-fasteners.com"
   },
   "geo": {
     "usPromo": "Frete grátis em pedidos acima de $500",

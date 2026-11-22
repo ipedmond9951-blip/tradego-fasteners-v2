@@ -74,8 +74,8 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                 <span className="text-2xl">📧</span>
               </div>
               <h3 className="font-bold text-lg mb-2">{t(loc, 'contact.email')}</h3>
-              <p className="text-gray-600">info@tradegofasteners.com</p>
-              <p className="text-gray-600">sales@tradegofasteners.com</p>
+              <p className="text-gray-600">info@tradego-fasteners.com</p>
+              <p className="text-gray-600">sales@tradego-fasteners.com</p>
             </div>
             <div className="bg-white rounded-xl p-6 text-center shadow-sm">
               <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">

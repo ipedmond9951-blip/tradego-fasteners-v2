@@ -104,7 +104,9 @@
     "whatsapp": "WhatsApp咨询",
     "selectProduct": "请选择产品...",
     "selectCountry": "请选择国家...",
-    "phone": "电话"
+    "phone": "电话",
+    "fallback": "询价未能自动送达，请直接联系我们，避免您的需求被漏掉：",
+    "emailUs": "发送邮件"
   },
   "chat": {
     "title": "TradeGo智能客服",
@@ -122,7 +124,7 @@
     "contactUs": "联系我们",
     "rights": "版权所有",
     "address": "中国大陆",
-    "email": "info@tradegofasteners.com",
+    "email": "info@tradego-fasteners.com",
     "certifications": "认证与标准"
   },
   "geo": {

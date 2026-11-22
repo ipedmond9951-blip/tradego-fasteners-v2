@@ -96,7 +96,9 @@
     "whatsapp": "محادثة واتساب",
     "selectProduct": "اختر منتجًا...",
     "selectCountry": "اختر دولة...",
-    "phone": "رقم الهاتف"
+    "phone": "رقم الهاتف",
+    "fallback": "لم نتمكن من إرسال طلبك تلقائيًا. تواصل معنا مباشرة حتى لا يضيع طلبك:",
+    "emailUs": "أرسل بريدًا"
   },
   "chat": {
     "title": "دعم TradeGo",
@@ -114,7 +116,7 @@
     "contactUs": "اتصل بنا",
     "rights": "جميع الحقوق محفوظة.",
     "address": "الصين",
-    "email": "info@tradegofasteners.com"
+    "email": "info@tradego-fasteners.com"
   },
   "geo": {
     "usPromo": "شحن مجاني للطلبات فوق $500",

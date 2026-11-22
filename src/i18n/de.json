@@ -99,7 +99,9 @@
     "whatsapp": "WhatsApp-Chat",
     "selectProduct": "Produkt auswählen...",
     "selectCountry": "Land auswählen...",
-    "phone": "Telefon"
+    "phone": "Telefon",
+    "fallback": "Ihre Anfrage konnte nicht automatisch übermittelt werden. Kontaktieren Sie uns bitte direkt, damit sie nicht verloren geht:",
+    "emailUs": "E-Mail senden"
   },
   "chat": {
     "title": "TradeGo-Support",
@@ -117,7 +119,7 @@
     "contactUs": "Kontakt",
     "rights": "Alle Rechte vorbehalten.",
     "address": "Festlandchina",
-    "email": "info@tradegofasteners.com"
+    "email": "info@tradego-fasteners.com"
   },
   "geo": {
     "usPromo": "Kostenloser Versand ab $500",

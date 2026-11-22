@@ -99,7 +99,9 @@
     "whatsapp": "Чат в WhatsApp",
     "selectProduct": "Выберите продукт...",
     "selectCountry": "Выберите страну...",
-    "phone": "Телефон"
+    "phone": "Телефон",
+    "fallback": "Не удалось автоматически отправить запрос. Свяжитесь с нами напрямую, чтобы заявка не потерялась:",
+    "emailUs": "Написать нам"
   },
   "chat": {
     "title": "Поддержка TradeGo",
@@ -117,7 +119,7 @@
     "contactUs": "Контакты",
     "rights": "Все права защищены.",
     "address": "Материковый Китай",
-    "email": "info@tradegofasteners.com"
+    "email": "info@tradego-fasteners.com"
   },
   "geo": {
     "usPromo": "Бесплатная доставка при заказе от $500",
