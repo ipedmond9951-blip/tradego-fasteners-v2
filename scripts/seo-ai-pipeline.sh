@@ -845,15 +845,14 @@ for WRITER in "${PRIMARY_WRITERS[@]}"; do
 
     # 2026-07-20 v5.18 FIX: chrome tab pollution 防御
     # 失败 < MIN_CHARS 时, sleep 12s 让 chrome tab state 稳定 + 注入新 nonce + retry 1 次
-    if [ ${#WRITER_OUT} -le $MIN_CHARS ] || ! echo "$WRITER_OUT" | grep -Eq '^##? |^# |<h[1-3]>|^\*\*[A-Z]|^[0-9]+\. '; then
+    # 2026-11-22 FIX: 只按长度触发重试; 有长文缺 ## 时不再白跑一次 600s
+    if [ ${#WRITER_OUT} -le $MIN_CHARS ]; then
         log "⚠️ Writer $WRITER insufficient (${#WRITER_OUT} chars), v5.18: sleep 12s + nonce retry..."
         sleep 12
         # 注入新 nonce (prompt hash 变 → 绕开 ai-guard 24h dedup)
         NONCE2=$(date +%s%N | md5 | head -c 16)
-        WRITER_PROMPT_RETRY="${WRITER_PROMPT/tradego-fasteners.com (China fastener manufacturer exporting to Africa)./tradego-fasteners.com (China fastener manufacturer exporting to Africa).
-
-[Internal-ref-retry: $NONCE2 2026-07-20-v5.18]}"
-        printf '%s' "$WRITER_PROMPT_RETRY" > "$WRITER_PROMPT_FILE"
+        { cat "$WRITER_PROMPT_FILE"; printf '\n\n[Internal-ref-retry: %s 2026-11-20-b5]\n' "$NONCE2"; } > "$WRITER_PROMPT_FILE.tmp"
+        mv "$WRITER_PROMPT_FILE.tmp" "$WRITER_PROMPT_FILE"
         WRITER_OUT=$(timeout --kill-after=20 600 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$WRITER" "$WRITER_PROMPT_FILE" 600 2>&1)
         WRITER_OUT=$(echo "$WRITER_OUT" | sed 's/\\#/#/g; s/\\\*/*/g')
     fi
@@ -918,10 +917,8 @@ if [ ${#WRITER_OUT} -le $MIN_CHARS ]; then
             log "⚠️ Fallback $FB_WRITER insufficient (${#FB_WRITER_OUT} chars), v5.18: sleep 12s + nonce retry..."
             sleep 12
             NONCE_FB=$(date +%s%N | md5 | head -c 16)
-            FB_PROMPT_RETRY="${WRITER_PROMPT/tradego-fasteners.com (China fastener manufacturer exporting to Africa)./tradego-fasteners.com (China fastener manufacturer exporting to Africa).
-
-[Internal-ref-fb-retry: $NONCE_FB 2026-07-20-v5.18]}"
-            printf '%s' "$FB_PROMPT_RETRY" > "$WRITER_PROMPT_FILE_FB"
+            { cat "$WRITER_PROMPT_FILE_FB"; printf '\n\n[Internal-ref-fb-retry: %s 2026-11-20-b5]\n' "$NONCE_FB"; } > "$WRITER_PROMPT_FILE_FB.tmp"
+            mv "$WRITER_PROMPT_FILE_FB.tmp" "$WRITER_PROMPT_FILE_FB"
             FB_WRITER_OUT=$(timeout --kill-after=20 600 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$FB_WRITER" "$WRITER_PROMPT_FILE_FB" 600 2>&1)
             FB_WRITER_OUT=$(echo "$FB_WRITER_OUT" | sed 's/\\#/#/g; s/\\\*/*/g')
         fi
@@ -955,11 +952,8 @@ if [ ${#WRITER_OUT} -lt $MIN_CHARS ]; then
     # 限制: minimax 兜底只在 8 AI 全 fail 时触发, 不替代主力
     log "⚠️ 主力 4 + fallback 4 共 8 AI 全 fail, v5.18: minimax 5th writer 兜底 (last-resort, 7/20 破例)"
     NONCE_LAST=$(date +%s%N | md5 | head -c 16)
-    WRITER_PROMPT_LAST="${WRITER_PROMPT/tradego-fasteners.com (China fastener manufacturer exporting to Africa)./tradego-fasteners.com (China fastener manufacturer exporting to Africa).
-
-[Internal-ref-last-resort: $NONCE_LAST 2026-07-20-v5.18]}"
-    WRITER_PROMPT_FILE_LAST="$TMP_DIR/${SLUG}_writer_prompt_last.txt"
-    printf '%s' "$WRITER_PROMPT_LAST" > "$WRITER_PROMPT_FILE_LAST"
+        { cat "$WRITER_PROMPT_FILE_LAST"; printf '\n\n[Internal-ref-last-resort: %s 2026-11-20-b5]\n' "$NONCE_LAST"; } > "$WRITER_PROMPT_FILE_LAST.tmp"
+        mv "$WRITER_PROMPT_FILE_LAST.tmp" "$WRITER_PROMPT_FILE_LAST"
     # minimax 走 direct API (MiniMax-M2.7-highspeed), 跳过 chrome CDP 不稳定
     LAST_OUT=$(timeout --kill-after=20 600 bash "$SCRIPT_DIR/minimax-quick.sh" "$WRITER_PROMPT_FILE_LAST" "MiniMax-M2.7-highspeed" 16000 2>&1) || LAST_EXIT=$?
     LAST_OUT=$(echo "$LAST_OUT" | sed 's/\\#/#/g; s/\\\*/*/g')

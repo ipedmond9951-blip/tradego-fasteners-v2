@@ -35,7 +35,7 @@ UNHEALTHY_AIS=()
 # ========== Test MiniMax M2.7-highspeed (主力) ==========
 MM_TEST=$(timeout 30 bash "$PROJECT_DIR/scripts/minimax-quick.sh" "Reply only: OK" "MiniMax-M2.7-highspeed" 50 2>&1 | head -c 200)
 # 2026-11-22 FIX: 原判断只看长度 >5, 把 "API error: HTTP Error 402" 也当成 OK (假阳)
-if [ ${#MM_TEST} -gt 5 ] && ! echo "$MM_TEST" | grep -qiE "api error|payment required|402|insufficient|unauthorized|invalid api"; then
+if [ ${#MM_TEST} -gt 5 ] && ! echo "$MM_TEST" | grep -qiE "api error|payment required|402|insufficient|unauthorized|invalid api|not set|no api key|missing|empty"; then
     HEALTHY_AIS+=("MiniMax-M2.7-highspeed")
     echo "  ✅ MiniMax-M2.7-highspeed: OK"
 else
@@ -45,7 +45,7 @@ fi
 
 # ========== Test MiniMax M2.7 (备用) ==========
 MM27_TEST=$(timeout 30 bash "$PROJECT_DIR/scripts/minimax-quick.sh" "Reply only: OK" "MiniMax-M2.7" 50 2>&1 | head -c 200)
-if [ ${#MM27_TEST} -gt 5 ] && ! echo "$MM27_TEST" | grep -qiE "api error|payment required|402|insufficient|unauthorized|invalid api"; then
+if [ ${#MM27_TEST} -gt 5 ] && ! echo "$MM27_TEST" | grep -qiE "api error|payment required|402|insufficient|unauthorized|invalid api|not set|no api key|missing|empty"; then
     HEALTHY_AIS+=("MiniMax-M2.7")
     echo "  ✅ MiniMax-M2.7: OK"
 else
@@ -79,6 +79,22 @@ else
 fi
 
 # ========== Test ai-router (Chrome 18800, 免费通道) ==========
+# 2026-11-22: 未启动时自动拉起调试版 Chrome (独立 profile, 不影响用户日常浏览器),
+# 否则 03:30 定时任务只会在"全通道不可用"上空转
+if ! curl -sf --max-time 5 http://localhost:18800/json/version > /dev/null 2>&1; then
+    CHROME_DEBUG_PROFILE="$HOME/Library/Application Support/Google/Chrome-Debug"
+    if [ -d "$CHROME_DEBUG_PROFILE" ]; then
+        echo "  🔄 调试 Chrome 未启动, 自动拉起 (profile: Chrome-Debug)..."
+        nohup "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
+            --remote-debugging-port=18800 \
+            --user-data-dir="$CHROME_DEBUG_PROFILE" >/dev/null 2>&1 &
+        for _ in 1 2 3 4 5 6 7 8 9 10 11 12; do
+            sleep 2
+            curl -sf --max-time 3 http://localhost:18800/json/version > /dev/null 2>&1 && break
+        done
+    fi
+fi
+
 if curl -sf --max-time 5 http://localhost:18800/json/version > /dev/null 2>&1; then
     HEALTHY_AIS+=("ai-router")
     echo "  ✅ ai-router (Chrome 18800): 在线"
