@@ -48,6 +48,12 @@ const nextConfig: NextConfig = {
         destination: '/en/contact/',
         permanent: true,
       },
+      // 2026-11-23: 同日两次管道重跑导致尼日利亚港口题材重复，合并到内容更完整的一篇
+      {
+        source: '/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)/industry/nigeria-port-upgrades-raise-fastener-procurement-risks/',
+        destination: '/:locale/industry/nigeria-port-upgrades-and-fastener-import-lead-times/',
+        permanent: true,
+      },
       // 2026-11-22: 旧产品 slug 已改名但旧 URL 仍在被访问/索引
       // 旧 URL 返回 200 + "Product Not Found"（软 404），既无内链也伤索引
       // 统一 301 到当前 slug
