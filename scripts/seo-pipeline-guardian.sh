@@ -28,6 +28,13 @@ fi
 LOCK_DIR="/tmp/seo-pipeline.lock"
 LOCK_FILE="$LOCK_DIR/pid"
 
+# 2026-11-23: 当日已成功发布过一篇就不再补跑，避免重复题材
+DAILY_MARK="$HOME/workspace/tradego-fasteners-v2/logs/seo-ai-pipeline/published-$(date +%F).lock"
+if [ -f "$DAILY_MARK" ]; then
+  log "✅ 今日已发布 $(cat "$DAILY_MARK" 2>/dev/null)，Guardian 不做补跑"
+  exit 0
+fi
+
 if [ -d "$LOCK_DIR" ]; then
   if [ -f "$LOCK_FILE" ]; then
     HOLDER_PID=$(cat "$LOCK_FILE")

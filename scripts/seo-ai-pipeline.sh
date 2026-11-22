@@ -26,7 +26,7 @@ if mkdir "$LOCK_DIR" 2>/dev/null; then
   echo "$MY_PID" > "$LOCK_FILE"
   echo "[$(date '+%Y-%m-%d %H:%M:%S')] 🔒 Pipeline 互锁获取 (PID $MY_PID)" >> "$LOG_DIR/$(date +%Y-%m-%d).log" 2>/dev/null
   # Pipeline 退出时自动释放 (多信号: EXIT + TERM + INT, 避免 timeout KILL 残留锁)
-  trap 'rm -rf $LOCK_DIR 2>/dev/null' EXIT TERM INT
+  trap 'EC=$?; rm -rf $LOCK_DIR 2>/dev/null; if [ "$EC" -ne 0 ]; then date +%s > "$LOG_DIR/last-failure.ts" 2>/dev/null; fi' EXIT TERM INT
 else
   # 锁占用, 检查 PID 是否还在
   # 2026-07-03 v5.5 FIX: 区分文件 vs 目录, 文件要删掉才能 mkdir
@@ -93,6 +93,24 @@ mkdir -p "$LOG_DIR" "$TMP_DIR"
 exec >> "$LOG_FILE" 2>&1
 
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1"; }
+
+# 2026-11-23: 同日只发一篇 + 失败冷却 2 小时 —— 防止 guardian/手动重跑造成重复题材
+DAILY_MARK="$LOG_DIR/published-$TODAY.lock"
+FAIL_MARK="$LOG_DIR/last-failure.ts"
+if [ "${SEO_FORCE_RUN:-0}" != "1" ]; then
+  if [ -f "$DAILY_MARK" ]; then
+    log "🛑 今日已成功发布一篇 ($(cat "$DAILY_MARK" 2>/dev/null)), 跳过本次运行（SEO_FORCE_RUN=1 可强跑）"
+    exit 0
+  fi
+  if [ -f "$FAIL_MARK" ]; then
+    MTIME=$(stat -f %m "$FAIL_MARK" 2>/dev/null || stat -c %Y "$FAIL_MARK" 2>/dev/null || echo 0)
+    AGE=$(( $(date +%s) - MTIME ))
+    if [ "$AGE" -ge 0 ] && [ "$AGE" -lt 7200 ]; then
+      log "🛑 上次失败仅 ${AGE}s，冷却期内跳过（SEO_FORCE_RUN=1 可强跑）"
+      exit 0
+    fi
+  fi
+fi
 
 if [ "$USE_AI_ROUTER" = "1" ]; then
   if ! timeout 5 curl -sf http://localhost:18800/json/version > /dev/null 2>&1; then
@@ -1434,6 +1452,12 @@ print(f"   Sections: {len(sections)}")
 print(f"   FAQs: {len(faqs)}")
 PYEOF
 
+# 2026-11-23: 自动内链（本文出链 5 条 + 回写 3 篇旧文的入链）
+if [ "${SEO_INTERNAL_LINKS:-1}" = "1" ]; then
+    timeout 120 python3 "$PROJECT_DIR/scripts/seo_internal_links.py" "$ARTICLE_JSON" --top 5 2>&1 | tail -1 \
+        || log "⚠️ 内链生成失败，跳过"
+fi
+
 # 2026-11-22: 10 语言原生标题/描述（不接受英文原文混入）
 if [ "${SEO_META_I18N:-1}" = "1" ]; then
     log "🌐 生成 10 语言原生标题/描述..."
@@ -1473,7 +1497,7 @@ fi
 # Git commit + push（部署交给 Vercel GitHub 集成，不再手动 vercel --prod）
 log "📤 Committing..."
 cd "$PROJECT_DIR"
-git add "content/articles/${SLUG}.json" "public/images/articles/${SLUG}.jpg" 2>/dev/null
+git add "content/articles/${SLUG}.json" "public/images/articles/${SLUG}.jpg" content/articles 2>/dev/null
 if git diff --cached --quiet; then
     log "⚠️ 无新增内容可提交，跳过 commit/push"
 else
@@ -1500,6 +1524,10 @@ fi
 # 2026-07-03 v5.3: 用 seo-state-write.py atomic write + flock 互斥
 SCRIPT_DIR_VAL="$SCRIPT_DIR"
 WRITERS_STR="${WRITERS_TRIED// /}"  # strip spaces if any
+# 成功发布标记：同日不再重复跑
+printf '%s\n' "$SLUG" > "$DAILY_MARK"
+rm -f "$FAIL_MARK"
+
 python3 "$SCRIPT_DIR_VAL/seo-state-write.py" "$STATE_FILE" \
     last_run "$TODAY" \
     last_slug "$SLUG" \
