@@ -1291,58 +1291,30 @@ if [ ! -s "$IMAGE_FILE" ]; then
     fi
 fi
 
-# Git commit + push + deploy
+# Git commit + push（部署交给 Vercel GitHub 集成，不再手动 vercel --prod）
 log "📤 Committing..."
 cd "$PROJECT_DIR"
-git add "content/articles/${SLUG}.json" "public/images/articles/${SLUG}.jpg" 2>/dev/null || git add -A
-git commit -m "feat(seo): [AI-pipeline $TODAY] $SLUG (score $SCORE)" 2>&1 | tail -3
+git add "content/articles/${SLUG}.json" "public/images/articles/${SLUG}.jpg" 2>/dev/null
+if git diff --cached --quiet; then
+    log "⚠️ 无新增内容可提交，跳过 commit/push"
+else
+    git commit -m "feat(seo): [AI-pipeline $TODAY] $SLUG (score $SCORE)" 2>&1 | tail -3
+    log "📤 Pushing to main（触发 Vercel 构建）..."
+    git push origin main 2>&1 | tail -2
+fi
 
-log "📤 Pushing to main..."
-git push origin main 2>&1 | tail -2
-
-log "🚀 Deploying to Vercel..."
-DEPLOY_OUT=$(timeout 180 npx vercel --prod --yes --force 2>&1 | tail -5)
-echo "$DEPLOY_OUT"
-
-# 提取部署 URL
-DEPLOY_URL=$(echo "$DEPLOY_OUT" | grep -oE 'https://tradego-fasteners-[a-z0-9]+-ipedmond9951-8331s-projects\.vercel\.app' | head -1)
-
-if [ -n "$DEPLOY_URL" ]; then
-    log "🔗 Aliasing $DEPLOY_URL to www..."
-    # 2026-07-03 FIX: vercel alias set 在 build 未 Ready 时报 "is not ready"
-    # Vercel 已绑定 auto-promote (git push to main) → 部署默认就 production
-    # 这里加 retry 3 次等 build 真正 ready, 或先 sleep 90s 让 build 完成
-    # 2026-07-03 v5.4 FIX: alias 也加 timeout 防止 hang 死
-    ALIAS_OK=0
-    for i in 1 2 3; do
-      sleep 30
-      if timeout 60 npx vercel alias set "$DEPLOY_URL" www.tradego-fasteners.com 2>&1 | tail -3 | grep -q "Success\|success"; then
-        ALIAS_OK=1
-        break
-      else
-        log "⚠️ Alias try $i failed, waiting 30s for build..."
-      fi
-    done
-    if [ $ALIAS_OK -eq 0 ]; then
-      log "⚠️ Alias retry failed, but Vercel auto-promote 已绑定 (git push main → prod)"
-    fi
-
-    # 2026-06-19: 验证 with self-heal — 如果 HTTP 不是 200/308, 等 30s 重试 1 次
-    sleep 30
+# 2026-11-22: 轮询域名验证，最多 4 次 × 90s；失败写待办，不自己重建
+HTTP_CODE="000"
+for i in 1 2 3 4; do
+    sleep 90
     HTTP_CODE=$(curl -sL --max-time 15 -o /dev/null -w "%{http_code}" "https://www.tradego-fasteners.com/en/industry/${SLUG}")
-    log "✅ Verification (try 1): HTTP $HTTP_CODE for /en/industry/${SLUG}"
-
-    if [ "$HTTP_CODE" != "200" ] && [ "$HTTP_CODE" != "308" ]; then
-        log "⚠️ HTTP $HTTP_CODE != 200, retry in 60s (Vercel CDN propagation)..."
-        sleep 60
-        HTTP_CODE=$(curl -sL --max-time 15 -o /dev/null -w "%{http_code}" "https://www.tradego-fasteners.com/en/industry/${SLUG}")
-        log "✅ Verification (try 2): HTTP $HTTP_CODE"
-
-        if [ "$HTTP_CODE" != "200" ] && [ "$HTTP_CODE" != "308" ]; then
-            log "❌ Verification failed after 2 tries. Page may not be served."
-            log "💡 Self-heal: 12-language JSON will be auto-generated on next cron run."
-        fi
-    fi
+    log "✅ Verification (try $i): HTTP $HTTP_CODE for /en/industry/${SLUG}"
+    if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "308" ]; then break; fi
+done
+if [ "$HTTP_CODE" != "200" ] && [ "$HTTP_CODE" != "308" ]; then
+    log "❌ 4 次验证仍非 200/308，记录待办（部署可能还在排队）"
+    mkdir -p "$LOG_DIR"
+    printf '%s %s HTTP %s 验证未通过\n' "$(date '+%F %T')" "$SLUG" "$HTTP_CODE" >> "$LOG_DIR/pending-deploy-$TODAY.txt"
 fi
 
 # 更新 state (放到 if 外面, 即使 alias 失败也记录成功部署)
