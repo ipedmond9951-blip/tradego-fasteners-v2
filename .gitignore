@@ -76,3 +76,7 @@ __pycache__/
 # AgentOps: 备份脚本不入库（含历史凭据风险）
 *.bak-*
 scripts/*.bak*
+
+# 选题库按需生成（30k 行/17MB，勿入库；缺失时 pipeline 自动 generate）
+scripts/seo-topic-cartesian.jsonl
+scripts/seo-topic-usage.json

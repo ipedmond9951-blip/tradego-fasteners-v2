@@ -270,7 +270,7 @@ function generateTopics(limit = 30000) {
   const now = new Date().toISOString();
   let count = 0;
   let skipped = 0;
-  const writeStream = fs.createWriteStream(CARTESIAN_PATH, { encoding: 'utf-8' });
+  const lines = [];
 
   for (const fastener of FASTENER_TYPES) {
     for (const material of MATERIALS) {
@@ -289,7 +289,7 @@ function generateTopics(limit = 30000) {
           topic.score = scoreTopic(topic);
           topic.generated_at = now;
 
-          writeStream.write(JSON.stringify(topic) + '\n');
+          lines.push(JSON.stringify(topic));
           count++;
         }
         if (count >= limit) break;
@@ -299,7 +299,7 @@ function generateTopics(limit = 30000) {
     if (count >= limit) break;
   }
 
-  writeStream.end();
+  fs.writeFileSync(CARTESIAN_PATH, lines.join('\n') + '\n');
   log('INFO', `generateTopics done: written=${count}, skipped=${skipped}, file=${CARTESIAN_PATH}`);
 
   return { count, skipped, path: CARTESIAN_PATH };

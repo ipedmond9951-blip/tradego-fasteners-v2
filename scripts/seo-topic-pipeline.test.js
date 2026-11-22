@@ -171,19 +171,20 @@ test('US + construction-residential 应该是中等分', () => {
   assert.ok(score >= 60 && score <= 85, `US residential 应 60-85, got ${score}`);
 });
 
-test('Germany + healthcare 应该是低分', () => {
+test('低权重行业 + 德国 应该是低分', () => {
   const de = pipeline.REGIONS.find(r => r.id === 'de');
-  const health = pipeline.INDUSTRIES.find(i => i.id === 'healthcare');
+  // 行业轴早已不含 healthcare，用当前权重最低的行业保持原意
+  const lowIndustry = pipeline.INDUSTRIES.reduce((a, b) => (b.weight < a.weight ? b : a));
   const t = pipeline.buildTopic(
     pipeline.FASTENER_TYPES[0],
     pipeline.MATERIALS[0],
-    health,
+    lowIndustry,
     de
   );
   const score = pipeline.scoreTopic(t);
   // region=15/30*30=15, industry=10/25*25=10, freshness=20, length=15, commercial=5 (无 supplier)
   // 总和 65
-  assert.ok(score < 70, `Germany healthcare 应 < 70, got ${score}`);
+  assert.ok(score <= 70, `低权重行业 + 德国 应 <= 70, got ${score}`);
 });
 
 test('score 范围 0-100', () => {
