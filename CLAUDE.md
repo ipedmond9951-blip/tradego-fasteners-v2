@@ -1,3 +1,6 @@
+> 通用规则与验证不属于本项目：见 `~/AgentOps/rules/` 与 `~/AgentOps/maps/tradego.md`。
+> 本文件只写 TradeGo 特有知识，不复制通用条款。
+
 # TradeGo外贸独立站 - 项目知识
 
 > 本文件是Claude Code/OpenClaw理解TradeGo项目的核心入口。

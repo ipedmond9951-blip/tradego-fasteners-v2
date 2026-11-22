@@ -72,3 +72,7 @@ __pycache__/
 # Backup files (manual edits leave .bak.HHMMSS - 7/20 cleanup)
 *.bak.*
 
+
+# AgentOps: 备份脚本不入库（含历史凭据风险）
+*.bak-*
+scripts/*.bak*
