@@ -33,6 +33,15 @@ jobs:
           print("JSON OK")
           EOF
 
+      - name: 域名一致性
+        run: |
+          # tradegofasteners.com（不带横线）没有任何 DNS 记录，写进正文/模板等于给客户一个发不出去的邮箱
+          if git grep -nI "tradegofasteners\.com" -- 'src/**' 'public/**' 'content/**' 'scripts/**' \
+              ':!content/articles/backup/**' ':!content/articles/backup-*'; then
+            echo "发现错误的邮箱域名 tradegofasteners.com（应为 tradego-fasteners.com）"; exit 1
+          fi
+          echo "域名一致"
+
       - name: 明文凭据扫描
         run: |
           if git grep -nE 'sk-ant-[A-Za-z0-9_-]{20,}|sk-[A-Za-z0-9]{32,}|AKIA[0-9A-Z]{16}|-----BEGIN .*PRIVATE KEY-----' -- ':!*.lock' ':!package-lock.json' ':!.github/workflows/**'; then

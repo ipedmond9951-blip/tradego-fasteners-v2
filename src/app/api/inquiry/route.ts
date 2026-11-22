@@ -248,7 +248,7 @@ async function sendConfirmationEmail(data: InquiryData): Promise<boolean> {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        // 必须用已验证的域名发信：tradegofasteners.com（无横线）没有任何 DNS 记录，
+        // 必须用已验证的域名发信：tradegofasteners（无横线，非本站域名）没有任何 DNS 记录，
         // 用它发信会被 Resend 拒，客户也永远看不到确认邮件
         from: 'TradeGo Fasteners <info@tradego-fasteners.com>',
         reply_to: INQUIRY_EMAIL,
