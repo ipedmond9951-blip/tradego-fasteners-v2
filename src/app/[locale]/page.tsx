@@ -171,7 +171,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
               </div>
             </div>
             <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-              For optimal performance, select screw length that penetrates at least 19mm (3/4") into the stud. Common applications include residential interior walls, commercial office partitions, and ceiling installations. Our black phosphate finish provides superior holding power in wood studs, while zinc plating offers corrosion resistance for metal stud applications. <a href={`/${locale}#inquiry`} className="text-primary-600 hover:underline">Contact our team</a> for custom thread patterns and specialized coatings for humid environments.
+              For optimal performance, select screw length that penetrates at least 19mm (3/4&quot;) into the stud. Common applications include residential interior walls, commercial office partitions, and ceiling installations. Our black phosphate finish provides superior holding power in wood studs, while zinc plating offers corrosion resistance for metal stud applications. <a href={`/${locale}#inquiry`} className="text-primary-600 hover:underline">Contact our team</a> for custom thread patterns and specialized coatings for humid environments.
             </p>
           </div>
 
@@ -206,7 +206,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
           <div className="mb-10">
             <h3 className="text-xl md:text-2xl font-bold text-primary-900 mb-4">Industrial Bolts & Nuts: Grade Selection & Applications</h3>
             <p className="text-gray-700 mb-4 text-sm md:text-base leading-relaxed">
-              Hex bolts and nuts form the backbone of structural and mechanical connections across industries. Understanding strength grades is essential for selecting the right fastener. TradeGo manufactures and stocks bolts from Grade 4.8 (general purpose) through Grade 12.9 (high-strength structural applications). Each grade indicates the bolt's tensile strength and yield point ratio, critical for safety-critical applications. <a href={`/${locale}/industry/high-tensile-structural-bolts-guide`} className="text-primary-600 hover:underline">Read our guide on high-tensile structural bolts</a> for applications requiring superior strength.
+              Hex bolts and nuts form the backbone of structural and mechanical connections across industries. Understanding strength grades is essential for selecting the right fastener. TradeGo manufactures and stocks bolts from Grade 4.8 (general purpose) through Grade 12.9 (high-strength structural applications). Each grade indicates the bolt&apos;s tensile strength and yield point ratio, critical for safety-critical applications. <a href={`/${locale}/industry/high-tensile-structural-bolts-guide`} className="text-primary-600 hover:underline">Read our guide on high-tensile structural bolts</a> for applications requiring superior strength.
             </p>
             <div className="bg-primary-50 rounded-lg p-4 md:p-6 mb-4">
               <h4 className="font-semibold text-primary-900 mb-3">Bolt Grade Comparison Chart</h4>
@@ -233,7 +233,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
           <div className="mb-10">
             <h3 className="text-xl md:text-2xl font-bold text-primary-900 mb-4">IBR Nails: Roofing Fasteners for Corrugated Steel</h3>
             <p className="text-gray-700 mb-4 text-sm md:text-base leading-relaxed">
-              IBR (Inverted Box Rib) nails are specialized roofing fasteners designed for securing corrugated steel roofing sheets to wooden or steel purlins. The distinctive umbrella head (also called dome head or button head) provides large bearing surface that prevents the nail from pulling through the roofing sheet. TradeGo's IBR nails are SABS 1195 compliant, meeting South African Bureau of Standards requirements essential for the African construction market. <a href={`/${locale}/industry/ibr-roofing-nails-installation-guide`} className="text-primary-600 hover:underline">See our detailed IBR roofing installation guide</a> for best practices.
+              IBR (Inverted Box Rib) nails are specialized roofing fasteners designed for securing corrugated steel roofing sheets to wooden or steel purlins. The distinctive umbrella head (also called dome head or button head) provides large bearing surface that prevents the nail from pulling through the roofing sheet. TradeGo&apos;s IBR nails are SABS 1195 compliant, meeting South African Bureau of Standards requirements essential for the African construction market. <a href={`/${locale}/industry/ibr-roofing-nails-installation-guide`} className="text-primary-600 hover:underline">See our detailed IBR roofing installation guide</a> for best practices.
             </p>
             <div className="bg-primary-50 rounded-lg p-4 md:p-6 mb-4">
               <h4 className="font-semibold text-primary-900 mb-3">IBR Nail Specifications</h4>

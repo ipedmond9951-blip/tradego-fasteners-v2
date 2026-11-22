@@ -1,14 +1,17 @@
 import fs from 'fs'
 import path from 'path'
 
+export interface TableBlock {
+  headers: string[]
+  rows: string[][]
+}
+
 export interface ArticleSection {
   id: string
   heading: Record<string, string>
   body?: Record<string, string>
-  table?: {
-    headers: string[]
-    rows: string[][]
-  }
+  /** 历史数据有两种写法：扁平 {headers, rows}，或按语言分组 {en:{...}, zh:{...}} */
+  table?: TableBlock | Record<string, TableBlock>
   faqItems?: Array<{
     q: Record<string, string>
     a: Record<string, string>
@@ -26,8 +29,14 @@ export interface Article {
   description: Record<string, string>
   keywords: string
   sections: ArticleSection[]
-  relatedProducts: string[]
-  relatedArticles?: string[]
+  /** 旧 slug 重定向目标（存在时该篇不移入索引、直接 301） */
+  redirectTo?: string
+  /** OG/图片的按语言 alt 文案 */
+  imageAlt?: Record<string, string>
+  /** 部分老文章的按语言 meta description（优先于 description 用于 SEO） */
+  metaDescription?: Record<string, string>
+  relatedProducts?: Array<string | { slug: string; title?: string }>
+  relatedArticles?: Array<string | { slug: string; title?: string }>
   cta: {
     text: Record<string, string>
     buttonText: Record<string, string>

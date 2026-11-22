@@ -16,11 +16,13 @@ export default function AIChatWidget({ locale = 'en' }: AIChatWidgetProps) {
     if (chatRef.current) chatRef.current.scrollTop = chatRef.current.scrollHeight
   }, [messages])
 
-  useEffect(() => {
-    if (isOpen && messages.length === 0) {
+  // 欢迎语在首次打开时注入（原先放在 effect 里，会在每次 isOpen 变化时同步 setState）
+  const toggleChat = () => {
+    if (!isOpen && messages.length === 0) {
       setMessages([{ role: 'assistant', content: t(locale, 'chat.greeting') }])
     }
-  }, [isOpen, locale])
+    setIsOpen(!isOpen)
+  }
 
   const sendMessage = async () => {
     if (!input.trim() || loading) return
@@ -46,7 +48,7 @@ export default function AIChatWidget({ locale = 'en' }: AIChatWidgetProps) {
     <>
       {/* Floating button */}
       <button
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={toggleChat}
         className="fixed bottom-6 right-6 w-14 h-14 bg-primary-600 text-white rounded-full shadow-lg hover:bg-primary-700 transition-all z-50 hidden lg:flex items-center justify-center"
         aria-label={t(locale, 'chat.openChat')}
       >

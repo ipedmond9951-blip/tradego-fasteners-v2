@@ -77,7 +77,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   const moq = product.specs.minOrder || (product.slug === 'ibr-nails' || product.slug === 'drywall-screws' ? '100 kg' : '500 pcs')
   const guide = guideSlug[slug]
   const guideArticle = guide ? getArticleBySlug(guide) : null
-  const guideTitle = guideArticle ? getArticleTitle(guideArticle as any, locale) : ''
+  const guideTitle = guideArticle ? getArticleTitle(guideArticle, locale) : ''
   const canonical = `${SITE_URL}/${locale}/products/${slug}/`
   const inLanguage = locale === 'zh' ? 'zh-CN' : locale
 

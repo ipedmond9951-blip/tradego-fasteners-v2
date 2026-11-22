@@ -71,7 +71,7 @@ export default async function ZimbabweFastenersPage({ params }: { params: Promis
               <p className="text-gray-600 mb-4">Coarse thread, fine thread, black phosphate. Perfect for Zimbabwe construction projects.</p>
               <ul className="text-sm text-gray-500 space-y-1">
                 <li>• #6, #8, #10 gauges</li>
-                <li>• 1" to 3" lengths</li>
+                <li>• 1&quot; to 3&quot; lengths</li>
                 <li>• Bulk pricing available</li>
               </ul>
             </div>
@@ -120,7 +120,7 @@ export default async function ZimbabweFastenersPage({ params }: { params: Promis
             </details>
             <details className="bg-white rounded p-4 shadow">
               <summary className="font-semibold cursor-pointer">Can you supply fasteners for Zimbabwe mining industry?</summary>
-              <p className="mt-2 text-gray-600">Yes, we supply specialized mining fasteners including rock bolts, mine support fasteners, and corrosion-resistant coatings for Zimbabwe's mining sector. Our products are used by major mining companies in Hwange, Kadoma, and Mutare regions.</p>
+              <p className="mt-2 text-gray-600">Yes, we supply specialized mining fasteners including rock bolts, mine support fasteners, and corrosion-resistant coatings for Zimbabwe&apos;s mining sector. Our products are used by major mining companies in Hwange, Kadoma, and Mutare regions.</p>
             </details>
           </div>
         </div>

@@ -15,7 +15,7 @@ export async function generateStaticParams() {
   const allSlugs = getAllSlugs()
   const redirectSlugs = new Set(
     allSlugs.filter(slug => {
-      const article = getArticleBySlug(slug) as any
+      const article = getArticleBySlug(slug)
       return article?.redirectTo
     })
   )
@@ -27,7 +27,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
   const { locale: localeParam, slug } = await params
   const locale = (localeParam as Locale) || 'en'
-  const article = getArticleBySlug(slug) as any
+  const article = getArticleBySlug(slug)
   if (!article) return { title: 'Article Not Found', robots: { index: false, follow: true } }
 
   // Old article slug redirected to new URL - don't index
@@ -104,7 +104,10 @@ function renderSection(section: ArticleSection, locale: string) {
   // 以及按语言分组的 {en:{headers,rows}, zh:{...}, ...}(lobito 那篇就是后者)。
   // 后者会让 section.table.headers 变成 undefined, 直接打断 /[locale]/industry/[slug] 的预渲染。
   // 这里统一归一化: 扁平直接用, 分组则按当前语言取, 都没有就回退 en。
-  const rawTable = section.table as any
+  const rawTable = section.table as
+    | ({ headers: string[]; rows: string[][] } & Record<string, { headers: string[]; rows: string[][] }>)
+    | null
+    | undefined
   const table = rawTable
     ? (Array.isArray(rawTable.headers) ? rawTable : (rawTable[locale] || rawTable.en || Object.values(rawTable)[0]))
     : null
@@ -160,8 +163,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
   if (!article) notFound()
 
   // Old article slug redirected to new URL
-  if ((article as any).redirectTo) {
-    redirect(`/${locale}/industry/${(article as any).redirectTo}`)
+  if (article.redirectTo) {
+    redirect(`/${locale}/industry/${article.redirectTo}`)
   }
 
   const title = localizedText(article.title, locale)
@@ -256,7 +259,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
           <div className="mt-8">
             <h3 className="text-lg font-semibold mb-3">{t(locale, 'industry.relatedProducts')}</h3>
             <div className="flex gap-3 flex-wrap">
-              {article.relatedProducts.map((p: any, i: number) => {
+              {article.relatedProducts.map((p, i: number) => {
                 const slug = typeof p === 'string' ? p : p.slug
                 const label = typeof p === 'string' ? p : (p.title || p.slug)
                 const display = humanizeSlug(label)
@@ -275,7 +278,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
           <div className="mt-8">
             <h3 className="text-lg font-semibold mb-3">{t(locale, 'industry.relatedArticles')}</h3>
             <div className="flex gap-3 flex-wrap">
-              {article.relatedArticles.map((a: any, i: number) => {
+              {article.relatedArticles.map((a, i: number) => {
                 const slug = typeof a === 'string' ? a : a.slug
                 // Try to resolve to actual title; fall back to humanized slug
                 const linked = getArticleBySlug(slug)
@@ -296,7 +299,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
         {/* More in this Category — auto-recommendation fallback */}
         {(() => {
           const hardcodedSlugs = new Set(
-            (article.relatedArticles || []).map((a: any) => typeof a === 'string' ? a : a.slug)
+            (article.relatedArticles || []).map((a) => typeof a === 'string' ? a : a.slug)
           )
           const moreInCat = getRelatedByCategory(article.category, article.slug, 4)
             .filter(a => !hardcodedSlugs.has(a.slug))

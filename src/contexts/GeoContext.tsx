@@ -38,6 +38,7 @@ export function GeoProvider({ children }: { children: ReactNode }) {
       .split('; ')
       .find((r) => r.startsWith('geo-lang='))
       ?.split('=')[1] || 'en'
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- cookie 只有在浏览器端才存在，服务端渲染阶段无法预读，必须挂载后再同步
     setGeo({ country, lang, currency })
   }, [])
 

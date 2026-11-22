@@ -196,7 +196,7 @@ export function TestimonialCard({ quote, author, role, company, rating = 5, clas
       </div>
       
       <blockquote className="text-gray-700 mb-4">
-        <p className="text-sm leading-relaxed">"{quote}"</p>
+        <p className="text-sm leading-relaxed">&quot;{quote}&quot;</p>
       </blockquote>
       
       <div className="border-t pt-4">

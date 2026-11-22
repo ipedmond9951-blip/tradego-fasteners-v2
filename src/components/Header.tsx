@@ -64,7 +64,7 @@ export default function Header({ locale = 'en' }: HeaderProps) {
                           href={child.href + (child.anchor ? `#${child.anchor}` : '')}
                           className="flex items-center gap-2.5 px-4 py-3 min-h-[44px] text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 transition-colors"
                         >
-                          {(child as any).icon && <span>{(child as any).icon}</span>}
+                          {child.icon && <span>{child.icon}</span>}
                           {child.label}
                         </a>
                       ))}
@@ -108,7 +108,7 @@ export default function Header({ locale = 'en' }: HeaderProps) {
                       <a href={item.href} onClick={() => setMenuOpen(false)} className="block px-4 py-3 min-h-[44px] text-gray-700 hover:text-primary-700 font-medium border-b border-gray-100">{item.label}</a>
                       {item.children && item.children.map((child) => (
                         <a key={child.href} href={child.href + (child.anchor ? `#${child.anchor}` : '')} onClick={() => setMenuOpen(false)} className="block pl-8 pr-4 py-3 min-h-[44px] text-gray-700 hover:text-primary-700 text-sm">
-                          {(child as any).icon && <span className="mr-2">{(child as any).icon}</span>}
+                          {child.icon && <span className="mr-2">{child.icon}</span>}
                           {child.label}
                         </a>
                       ))}
@@ -119,7 +119,7 @@ export default function Header({ locale = 'en' }: HeaderProps) {
                       <p className="px-4 py-2 text-xs font-semibold text-gray-400 uppercase tracking-wider">{item.label}</p>
                       {item.children && item.children.map((child) => (
                         <a key={child.href} href={child.href + (child.anchor ? `#${child.anchor}` : '')} onClick={() => setMenuOpen(false)} className="block pl-8 pr-4 py-3 min-h-[44px] text-gray-700 hover:text-primary-700 text-sm">
-                          {(child as any).icon && <span className="mr-2">{(child as any).icon}</span>}
+                          {child.icon && <span className="mr-2">{child.icon}</span>}
                           {child.label}
                         </a>
                       ))}

@@ -75,7 +75,7 @@ export default function TestimonialsSection({ locale = 'en' }: TestimonialsSecti
               
               {/* Quote */}
               <blockquote className="text-gray-700 text-sm md:text-base leading-relaxed mb-6">
-                "{item.quote}"
+                &quot;{item.quote}&quot;
               </blockquote>
               
               {/* Technical Details */}

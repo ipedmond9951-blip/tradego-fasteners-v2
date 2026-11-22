@@ -20,7 +20,7 @@ function getClientId(): string {
   return clientId
 }
 
-function sendGA4Event(eventName: string, params: Record<string, any> = {}) {
+function sendGA4Event(eventName: string, params: Record<string, string | number | boolean | undefined> = {}) {
   if (!GA_MEASUREMENT_ID || typeof window === 'undefined') return
   // 未获得用户同意前不发送任何统计请求
   if (!hasAnalyticsConsent()) return
@@ -65,7 +65,7 @@ function trackPageView(path: string) {
 }
 
 // Track custom events
-export function trackGA4Event(eventName: string, params: Record<string, any> = {}) {
+export function trackGA4Event(eventName: string, params: Record<string, string | number | boolean | undefined> = {}) {
   sendGA4Event(eventName, params)
 }
 
@@ -107,7 +107,7 @@ export default function Analytics() {
 // Global type declaration for components that reference window.gtag
 declare global {
   interface Window {
-    gtag?: (...args: any[]) => void
-    dataLayer?: any[]
+    gtag?: (...args: unknown[]) => void
+    dataLayer?: unknown[]
   }
 }

@@ -34,7 +34,7 @@ export default function AutoShare({ title, url, locale }: AutoShareProps) {
     
     // Store for later use or manual sharing
     if (typeof window !== 'undefined') {
-      (window as any).tradeGoShareUrl = linkedInUrl
+      (window as Window & { tradeGoShareUrl?: string }).tradeGoShareUrl = linkedInUrl
     }
   }, [title, url, locale])
 

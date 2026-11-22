@@ -20,15 +20,19 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
     e.preventDefault()
     setLoading(true)
     const form = e.currentTarget
+    const val = (field: string) => {
+      const el = form.elements.namedItem(field)
+      return el && 'value' in el ? String((el as unknown as HTMLInputElement).value) : ''
+    }
     const data = {
-      name: (form.name as any).value,
-      email: (form.email as any).value,
-      company: (form.company as any).value,
-      phone: (form.phone as any).value,
-      country: (form.country as any).value,
-      products: (form.products as any).value,
-      quantity: (form.quantity as any).value,
-      message: (form.message as any).value,
+      name: val('name'),
+      email: val('email'),
+      company: val('company'),
+      phone: val('phone'),
+      country: val('country'),
+      products: val('products'),
+      quantity: val('quantity'),
+      message: val('message'),
     }
     try {
       const res = await fetch('/api/inquiry/', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })

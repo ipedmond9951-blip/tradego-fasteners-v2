@@ -18,6 +18,7 @@ export default function CookieConsent({ locale }: { locale?: string }) {
 
   useEffect(() => {
     try {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- localStorage 仅浏览器端可用，首屏不能出现横幅，必须在挂载后判断
       if (!localStorage.getItem(STORAGE_KEY)) setVisible(true)
     } catch {
       /* localStorage 不可用时静默跳过 */
