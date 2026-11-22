@@ -22,4 +22,5 @@ This version has breaking changes — APIs, conventions, and file structure may 
 2. **推送前先看队列**：`bash scripts/deploy-status.sh`，若已有 `● Queued` 或 `● Building`，说明上一批还在跑，继续攒着，等它 Ready 再推。
 3. **禁止为了"催上线"重复 push / 重复构建**：Vercel 会自动取消被覆盖的旧部署，重复推只会让队列更长。
 4. **验收以 Ready + 线上内容比对为准**，不看单独 HTTP 200；构建还没跑完就下"没生效"的结论是误判。
+5. **pre-push 节流钩子**：仓库已启用 `.githooks/pre-push`（`core.hooksPath=.githooks`）。推 `main` 时若 Vercel 已有 `QUEUED/BUILDING`，默认**拦下**并提示继续攒批；确需立即发布用 `DEPLOY_FORCE=1 git push`。生产流水线 `seo-ai-pipeline.sh` 是单一发布入口，已自带该变量。
 <!-- END:deploy-batching -->

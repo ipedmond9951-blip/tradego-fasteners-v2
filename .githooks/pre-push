@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+# 推送到 main 前检查 Vercel 构建队列：已有排队/构建时默认拦下，避免把队列压得更长。
+# 强制推送：DEPLOY_FORCE=1 git push ...（生产流水线内部会带这个变量）
+set -uo pipefail
+
+FORCE="${DEPLOY_FORCE:-0}"
+[ "$FORCE" = "1" ] && exit 0
+
+REMOTE="$1"; URL="$2"
+case "$REMOTE" in origin|upstream) ;; *) exit 0 ;; esac
+case "$URL" in *tradego-fasteners-v2*) ;; *) exit 0 ;; esac
+
+while read -r local_ref local_sha remote_ref remote_sha; do
+    [ "$remote_ref" = "refs/heads/main" ] || continue
+    [ "$local_sha" = "0000000000000000000000000000000000000000" ] && continue
+
+    OUT=$(npx --yes vercel ls tradego-fasteners --json 2>/dev/null)
+    STATE=$(printf '%s' "$OUT" | python3 -c '
+import sys, json
+try:
+    d = json.load(sys.stdin); ds = d.get("deployments") or d
+except Exception:
+    print("unknown"); raise SystemExit
+busy = [x for x in ds if x.get("state") in ("QUEUED", "BUILDING", "INITIALIZING")]
+for x in busy[:3]:
+    m = x.get("meta") or {}
+    print("busy", x.get("state"), m.get("githubCommitSha", "")[:7])
+' 2>/dev/null)
+
+    if printf '%s' "$STATE" | grep -q '^busy'; then
+        echo "──────────────────────────────────────────────"
+        echo "⛔ 构建队列还没空，这次 push 先攒着："
+        printf '%s\n' "$STATE" | sed 's/^/   /'
+        echo "   等最新一次 Ready 后再推；确需立即部署用：DEPLOY_FORCE=1 git push"
+        echo "──────────────────────────────────────────────"
+        exit 1
+    fi
+done
+exit 0
