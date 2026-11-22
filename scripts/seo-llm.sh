@@ -27,10 +27,13 @@ if [ -z "$PROMPT_FILE" ] || [ ! -f "$PROMPT_FILE" ]; then
   exit 1
 fi
 
-# Chrome 18800 是 ai-router 的前提, 没有就直接失败, 免得每个通道都白等
-if ! curl -sf -m 5 http://localhost:18800/json/version >/dev/null 2>&1; then
-  echo "[error] seo-llm: Chrome debug (18800) 未启动, ai-router 不可用" >&2
-  exit 2
+# Chrome 18800 是浏览器通道 (gemini/grok/chatgpt) 的前提；codex 不依赖它。
+# 2026-11-22: 之前 router 不在就整条链路失败，导致 codex 也被一起挡掉。
+HAS_ROUTER=0
+if curl -sf -m 5 http://localhost:18800/json/version >/dev/null 2>&1; then
+  HAS_ROUTER=1
+else
+  echo "[seo-llm] 提示: Chrome debug (18800) 未启动，本次只走 codex，浏览器通道跳过" >&2
 fi
 
 clean_output() {
@@ -50,8 +53,11 @@ for CH in $CHANNELS; do
   echo "[seo-llm] 通道 $CH (timeout ${CH_TIMEOUT}s, min ${MIN_CHARS} chars)" >&2
   if [ "$CH" = "codex" ]; then
     OUT=$(bash "$SCRIPT_DIR/codex-channel.sh" "$PROMPT_WITH_NONCE" "$CH_TIMEOUT" 2>/dev/null)
-  else
+  elif [ "$HAS_ROUTER" = "1" ]; then
     OUT=$(timeout --kill-after=10 "$CH_TIMEOUT" bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$CH" "$PROMPT_WITH_NONCE" "$CH_TIMEOUT" 2>/dev/null)
+  else
+    echo "[seo-llm] 跳过 $CH（浏览器通道需要 Chrome 18800）" >&2
+    continue
   fi
   OUT=$(printf '%s' "$OUT" | clean_output)
   LEN=${#OUT}

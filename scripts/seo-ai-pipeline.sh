@@ -203,10 +203,68 @@ fi
 log "✅ Pre-flight OK"
 
 # ============================================================
-# STEP 1: Grok 选题 (with fallback)
+# STEP 0: 目标市场本地信息 + 行业热点采集
 # ============================================================
 log "=========================================="
-log "🌍 STEP 1/5: Topic Selection (豆包 → DeepSeek)"
+log "🔎 STEP 0/5: Local market & trend research"
+log "=========================================="
+
+TRENDS_DIR="$PROJECT_DIR/content/trends"
+TRENDS_FILE="$TRENDS_DIR/$TODAY.json"
+mkdir -p "$TRENDS_DIR"
+if [ ! -s "$TRENDS_FILE" ]; then
+    timeout 240 python3 "$PROJECT_DIR/scripts/seo_local_research.py" "$TRENDS_FILE" >/dev/null 2>&1 \
+        || log "⚠️ 本地信息采集失败，本轮继续（选题退回固定池）"
+fi
+
+TREND_BLOCK=$(python3 - "$TRENDS_FILE" 2>/dev/null <<'TREND_EOF'
+import json, sys
+try:
+    d = json.load(open(sys.argv[1], encoding="utf-8"))
+except Exception:
+    sys.exit(0)
+all_items = d.get("items", [])
+local = [r for r in all_items if r.get("country") != "Global"]
+glob = [r for r in all_items if r.get("country") == "Global"]
+items = (local[:10] + glob[:4])
+trends = d.get("trends", [])[:6]
+kws = d.get("keywords", [])[:12]
+out = []
+if items:
+    out.append("【今日目标市场信息（Google News 近 7 天，可直接引用为 dataSources）】")
+    for r in items:
+        tag = r.get('country','')
+        if r.get('country_original'):
+            tag = f"Global/{r['country_original']}"
+        out.append(f"- {tag} | {r['title'][:120]} | {r['url']}")
+if trends:
+    out.append("【当地热搜（Google Trends）】")
+    for r in trends:
+        out.append(f"- {r.get('country','')} | {r['title'][:100]} | {r['url']}")
+if kws:
+    out.append("【今日行业热词】" + ", ".join(f"{k['term']}({k['score']})" for k in kws))
+print("\n".join(out))
+TREND_EOF
+)
+if [ -n "$TREND_BLOCK" ]; then
+    log "✅ 本地信息/热点采集完成 ($(printf '%s' "$TREND_BLOCK" | wc -l | tr -d ' ') 行素材)"
+else
+    log "⚠️ 无采集素材，按常规选题"
+fi
+
+# 行业文 / 产品文按日轮换（用户要求：不能只发产品文）
+if [ $(( $(date +%j) % 2 )) -eq 0 ]; then
+    CONTENT_ANGLE="industry"
+else
+    CONTENT_ANGLE="product"
+fi
+log "🧭 今日文章角度: $CONTENT_ANGLE"
+
+# ============================================================
+# STEP 1: 趋势驱动选题（失败退回固定池 / AI 动态选题）
+# ============================================================
+log "=========================================="
+log "🌍 STEP 1/5: Topic Selection (趋势驱动 → 固定池 → AI 动态)"
 log "=========================================="
 
 # 读取上次生成过的主题避免重复 (head -100 在 articles > 100 时会切掉真实已用 slug, 改 head -500)
@@ -296,7 +354,58 @@ TOPIC_POOL=(
     "Africa stadium steel structure bolt grade"
 )
 
-# 选 1 个未处理过的主题
+slugify() {
+    echo "$1" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//;s/-$//'
+}
+
+# 先尝试用当日本地信息 + 热点生成选题（行业文/产品文按日轮换）
+if [ -n "$TREND_BLOCK" ]; then
+    TREND_TOPIC_PROMPT_FILE="$TMP_DIR/trend_topic_prompt.txt"
+    {
+      printf '%s\n' "You are an SEO editor for tradego-fasteners.com (B2B fastener exporter to Africa, Middle East, South Asia)."
+      printf 'Today angle: %s (industry = market/policy/project analysis; product = application/spec/procurement guide)\n' "$CONTENT_ANGLE"
+      printf 'Today: %s\n\n' "$TODAY"
+      printf '%s\n' "Local market material (Google News / Trends, last 7 days):"
+      printf '%s\n\n' "$TREND_BLOCK"
+      printf '%s\n' "Rules:" \
+        "- Pick ONE concrete angle grounded in the material above (real project, policy, tariff change, port, mining/energy/solar development, or supply issue)." \
+        "- Must be useful to a procurement/engineering buyer, not a product brochure." \
+        "- If angle=industry focus on market structure, local standards, logistics, demand drivers, risks." \
+        "- If angle=product focus on a specific fastener category used in that local context." \
+        "- Topic must be 5-9 English words, unique, no quotes, must name a country/city or vertical." \
+        "" \
+        "Output STRICT JSON on one line:" \
+        '{"topic":"...","country":"...","angle":"industry","primary_keyword":"...","source_urls":["...","..."]}'
+    } > "$TREND_TOPIC_PROMPT_FILE"
+
+    TREND_TOPIC_OUT=$(timeout 300 bash "$SCRIPT_DIR/seo-llm.sh" "$TREND_TOPIC_PROMPT_FILE" 240 60 2>&1) || TREND_TOPIC_OUT=""
+    TREND_JSON=$(printf '%s' "$TREND_TOPIC_OUT" | python3 -c "
+import json,sys,re
+raw=sys.stdin.read()
+m=re.search(r'\\{.*\\}', raw, re.S)
+if not m: sys.exit(1)
+try:
+    d=json.loads(m.group(0))
+except Exception:
+    sys.exit(1)
+if not d.get('topic'): sys.exit(1)
+print(json.dumps(d))
+" 2>/dev/null)
+    if [ -n "$TREND_JSON" ]; then
+        TOPIC=$(printf '%s' "$TREND_JSON" | python3 -c "import json,sys;print(json.load(sys.stdin)['topic'].strip())" 2>/dev/null)
+        TREND_COUNTRY=$(printf '%s' "$TREND_JSON" | python3 -c "import json,sys;print(json.load(sys.stdin).get('country','').strip())" 2>/dev/null)
+        TREND_KEYWORD=$(printf '%s' "$TREND_JSON" | python3 -c "import json,sys;print(json.load(sys.stdin).get('primary_keyword','').strip())" 2>/dev/null)
+        if [ -n "$TOPIC" ]; then
+            SLUG=$(slugify "$TOPIC")
+            log "✅ 趋势选题: $TOPIC (country=$TREND_COUNTRY, angle=$CONTENT_ANGLE)"
+        fi
+    else
+        log "⚠️ 趋势选题输出不可用，退回固定池"
+    fi
+fi
+
+# 选 1 个未处理过的主题（仅在趋势选题失败时）
+if [ -z "$TOPIC" ]; then
 for t in "${TOPIC_POOL[@]}"; do
     slug_attempt=$(echo "$t" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//;s/-$//')
     # 2026-07-02 双重检查: 字符串 match + 文件存在 match (防御 PROCESSED_TOPICS 误判)
@@ -310,6 +419,7 @@ for t in "${TOPIC_POOL[@]}"; do
     SLUG="$slug_attempt"
     break
 done
+fi
 
 slugify() {
     echo "$1" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//;s/-$//'
@@ -360,6 +470,16 @@ fi
 
 if [ -z "$TOPIC" ]; then
     log "❌ 固定池 + 动态选题都没拿到可用选题, skipping today"
+    exit 0
+fi
+
+# 维护用：只跑到选题就停，检查趋势/素材是否合理
+if [ "${SEO_STOP_AFTER:-}" = "topic" ]; then
+    log "🧪 SEO_STOP_AFTER=topic，选题检查完成即退出"
+    log "   TOPIC=$TOPIC"
+    log "   SLUG=$SLUG"
+    log "   ANGLE=$CONTENT_ANGLE  COUNTRY=${TREND_COUNTRY:-未指定}"
+    printf '%s\n' "$TREND_BLOCK" | head -6
     exit 0
 fi
 
@@ -480,6 +600,10 @@ You are a senior SEO content strategist for tradego-fasteners.com (B2B fastener 
 Topic: __TOPIC__
 Primary keyword: __PRIMARY_KEYWORD__
 Date: __TODAY__
+Today's angle: __ANGLE__ (industry = 市场/政策/项目分析文; product = 具体品类应用与采购指南)
+
+Local market material (real news/trends from target markets, use as dataSources and facts):
+__TREND_BLOCK__
 
 CRITICAL OUTPUT RULES (MUST FOLLOW):
 - Output MUST be valid JSON wrapped in { ... } on multiple lines
@@ -510,7 +634,9 @@ Output JSON in this exact structure:
 Requirements:
 - sections: 6 items, each bodyOutline targets 300-400 words
 - faqs: 5 items
-- dataSources: minimum 6 (mix of government/port/standards/news URLs)
+- dataSources: minimum 8; at least 4 MUST be local sources for the target country (government/port/statistics/association/local media) taken from the material above
+- For industry angle: at least 2 sections must analyse the local market/policy/project pipeline, not product features
+- keywords: must include 2 of today's trending industry terms from the material
 - Primary keyword must appear in title, metaDescription, and at least 3 section headings
 
 First character of your reply MUST be {
@@ -521,6 +647,8 @@ OUTLINE_PROMPT_EOF
 OUTLINE_PROMPT="${OUTLINE_PROMPT//__TOPIC__/$TOPIC}"
 OUTLINE_PROMPT="${OUTLINE_PROMPT//__PRIMARY_KEYWORD__/$PRIMARY_KEYWORD}"
 OUTLINE_PROMPT="${OUTLINE_PROMPT//__TODAY__/$TODAY}"
+OUTLINE_PROMPT="${OUTLINE_PROMPT//__ANGLE__/$CONTENT_ANGLE}"
+OUTLINE_PROMPT="${OUTLINE_PROMPT//__TREND_BLOCK__/$TREND_BLOCK}"
 # 2026-07-15 fix: 加 nonce 绕 ai-guard 24h dedup (同 topic 重跑会撞 hash)
 OUTLINE_NONCE=$(date +%s%N | head -c 10)
 OUTLINE_PROMPT="${OUTLINE_PROMPT}---\nSession-ref: ${OUTLINE_NONCE}"
@@ -716,6 +844,11 @@ CRITICAL OUTPUT RULES (must follow):
 
 Topic: $TOPIC
 Primary keyword: $PRIMARY_KEYWORD
+Today's angle: $CONTENT_ANGLE
+Target country context: $TREND_COUNTRY
+
+Local market material (use these facts, cite them inline as [n]):
+$TREND_BLOCK
 
 Outline (JSON):
 $(cat $OUTLINE_FILE)
@@ -746,7 +879,13 @@ Write a DEEP ARTICLE (2000-2500 words) following the outline. STRICT requirement
    - Engineering precision (ASTM/ISO/EN grade references, port logistics, certification timelines)
    - No generic advice that any AI could generate
 
-5. OUTPUT FORMAT:
+5. LOCAL / INDUSTRY FOCUS (2026-11-22 新增):
+   - Reference at least 3 concrete local facts (country policy, project, port, standard, tariff, demand data) from the material above
+   - If angle=industry: write market/policy/project analysis first; product recommendation only in the final section
+   - If angle=product: anchor the product to a real local application and its local standard
+   - Do not invent sources; every citation must map to a URL in dataSources
+
+6. OUTPUT FORMAT:
    - Markdown article body only (no preamble, no meta commentary)
    - End with a \"## FAQ\" section
 
@@ -1261,6 +1400,13 @@ print(f"✅ Article JSON saved: $ARTICLE_JSON")
 print(f"   Sections: {len(sections)}")
 print(f"   FAQs: {len(faqs)}")
 PYEOF
+
+# 2026-11-22: 10 语言原生标题/描述（不接受英文原文混入）
+if [ "${SEO_META_I18N:-1}" = "1" ]; then
+    log "🌐 生成 10 语言原生标题/描述..."
+    timeout 900 python3 "$PROJECT_DIR/scripts/seo_meta_i18n.py" "$ARTICLE_JSON" 2>&1 | tail -3 \
+        || log "⚠️ 多语言标题生成失败，保留英文回退"
+fi
 
 # 验证分数 ≥ 85
 if [ "$SCORE" -lt 85 ]; then

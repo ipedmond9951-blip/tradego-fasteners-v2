@@ -63,13 +63,40 @@ def extract_json(text):
     return None
 
 
+# 拉丁语系用功能词判定；纯拉丁字母不能当作英文证据（es/fr/pt/de 也是拉丁字母）
+LOCAL_MARKERS = {
+    "es": (" de ", " la ", " el ", " los ", " para ", " con ", " y ", " en "),
+    "fr": (" de ", " la ", " le ", " les ", " pour ", " avec ", " et ", " en "),
+    "pt": (" de ", " para ", " com ", " e ", " os ", " as ", " em "),
+    "de": (" der ", " die ", " das ", " und ", " für ", " mit ", " im "),
+}
+SCRIPT_RANGES = {
+    "zh": ("\u4e00", "\u9fff"),
+    "ja": ("\u3040", "\u30ff"),
+    "ar": ("\u0600", "\u06ff"),
+    "ru": ("\u0400", "\u04ff"),
+    "hi": ("\u0900", "\u097f"),
+}
+EN_STOPWORDS = (" the ", " and ", " with ", " for ", " your ", " from ", " that ", " this ", " are ", " is ")
+
+
 def english_residue(value, lang):
-    """检查是否混入英文原文（去掉允许的专名后仍有 ≥4 个连续英文单词即判失败）。"""
+    """判断目标语言版本是否其实仍是英文。
+    拉丁语系看母语功能词；非拉丁语系看目标文字占比。"""
     if lang == "en" or not isinstance(value, str) or not value.strip():
         return False
-    cleaned = ALLOW.sub(" ", value)
-    words = re.findall(r"[A-Za-z]{3,}", cleaned)
-    return len(words) >= 2
+    text = " " + value.lower() + " "
+    if lang in SCRIPT_RANGES:
+        lo, hi = SCRIPT_RANGES[lang]
+        chars = [c for c in value if not c.isspace()]
+        native = sum(1 for c in chars if lo <= c <= hi)
+        return not chars or native / len(chars) < 0.3
+    markers = LOCAL_MARKERS.get(lang, ())
+    if not any(m in text for m in markers):
+        return True
+    # 母语功能词在，但同时出现成串英文虚词，说明是拼接的英文句子
+    en_hits = sum(1 for w in EN_STOPWORDS if w in text)
+    return en_hits >= 3
 
 
 def call_llm(prompt, timeout=180):
@@ -81,7 +108,9 @@ def call_llm(prompt, timeout=180):
             ["bash", SEO_LLM, path, str(timeout), "200"],
             capture_output=True, text=True, timeout=timeout + 60,
         ).stdout
-        return out
+        return out or ""
+    except (subprocess.TimeoutExpired, OSError):
+        return ""
     finally:
         os.unlink(path)
 
@@ -119,25 +148,34 @@ def main():
     keyword = art.get("keywords", "").split(",")[0].strip() or en_title
 
     result = {}
+
+    def accept(lang, item):
+        title = (item.get("title") or "").strip()
+        desc = (item.get("description") or "").strip()
+        if not title or not desc:
+            return False
+        if english_residue(title, lang) or english_residue(desc, lang):
+            return False
+        if title.endswith("...") or title.endswith("…"):
+            title = title.rstrip(".…").rstrip()
+        result[lang] = {"title": title, "description": desc}
+        return True
+
     for batch in (["zh", "es", "fr", "ar", "hi"], ["pt", "ru", "ja", "de"]):
-        prompt = build_prompt(en_title, en_desc, keyword, batch)
-        raw = call_llm(prompt)
+        raw = call_llm(build_prompt(en_title, en_desc, keyword, batch), timeout=150)
         data = extract_json(raw) or {}
         for lang in batch:
-            item = data.get(lang) or {}
-            title = (item.get("title") or "").strip()
-            desc = (item.get("description") or "").strip()
-            if not title or not desc:
-                print(f"⚠️ {lang}: missing output")
-                continue
-            if english_residue(title, lang) or english_residue(desc, lang):
-                print(f"⚠️ {lang}: english residue, keep fallback")
-                continue
-            if title.endswith("...") or title.endswith("…"):
-                title = title.rstrip(".…").rstrip()
-            if len(title) > 75 or len(desc) > 165:
-                print(f"⚠️ {lang}: length overflow ({len(title)}/{len(desc)})")
-            result[lang] = {"title": title, "description": desc}
+            if not accept(lang, data.get(lang) or {}):
+                print(f"⚠️ {lang}: batch output rejected, retry single")
+
+    # 逐语言重试（单语言 prompt 更容易逼出母语输出）
+    for lang in LANGS:
+        if lang == "en" or lang in result:
+            continue
+        raw = call_llm(build_prompt(en_title, en_desc, keyword, [lang]), timeout=90)
+        data = extract_json(raw) or {}
+        if not accept(lang, data.get(lang) or {}):
+            print(f"⚠️ {lang}: still failing, keep English fallback")
 
     applied = 0
     for lang, item in result.items():

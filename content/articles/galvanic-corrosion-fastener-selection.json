@@ -5,28 +5,28 @@
   "readTime": 9,
   "image": "/images/articles/galvanic-corrosion-fastener-selection.jpg",
   "title": {
-    "en": "Galvanic Corrosion and Fastener Selection Guide",
-    "zh": "电偶腐蚀与紧固件选型：混合金属组件中电化学损伤的预防",
-    "es": "Corrosión galvánica: cómo elegir fijaciones y prevenir daños",
-    "ar": "التآكل الجلفاني واختيار المثبتات: منع التآكل الكهربائي",
-    "fr": "Corrosion galvanique : bien choisir ses fixations",
-    "pt": "Corrosão galvânica: como escolher fixadores e evitar danos",
-    "ru": "Гальваническая коррозия: выбор крепежа и защита соединений",
-    "ja": "ガルバニック腐食と締結部品の選定：電気化学的腐食の防止",
-    "de": "Galvanische Korrosion: Verbindungselemente richtig auswählen",
-    "hi": "गैल्वेनिक संक्षारण और फास्टनर चयन: विद्युत रासायनिक असंगति को रोकना"
+    "en": "Corrosion Resistant Bolting: Galvanic Pairs, Coatings",
+    "zh": "耐腐蚀螺栓选型：304/316不锈钢与涂层",
+    "es": "Tornillería anticorrosiva: inox 304/316 y recubrimientos",
+    "ar": "براغي مقاومة للتآكل: ستانلس 304/316 وطلاءات",
+    "fr": "Boulonnerie anticorrosion : inox 304/316 et revêtements",
+    "pt": "Fixadores resistentes à corrosão: inox 304/316 e HDG",
+    "ru": "Коррозионностойкий крепёж: 304/316 и HDG",
+    "ja": "耐食ボルト選定：ガルバニック腐食と表面処理",
+    "de": "Korrosionsbeständige Schrauben: Paarung und Beschichtung",
+    "hi": "जंगरोधी बोल्ट: 304/316 स्टेनलेस और कोटिंग्स"
   },
   "description": {
-    "en": "Complete guide to galvanic corrosion: understanding the anodic index, selecting compatible <a href=\"/products\" class=\"text-primary-600.",
-    "zh": "混合金属连接可能产生电偶腐蚀，缩短紧固件与结构件寿命。了解阳极电位、材料兼容性和隔离措施，按非洲沿海、潮湿及户外环境选择螺栓材质。",
-    "es": "Prevenga la corrosión galvánica en uniones de metales distintos. Compare materiales y recubrimientos al seleccionar pernos y tornillos.",
-    "ar": "دليل شامل للتآكل الغلفاني لمنع الضرر في التجميعات المختلطة.",
-    "fr": "Prévenez la corrosion galvanique en choisissant des fixations compatibles avec les métaux assemblés, leur environnement et leur revêtement.",
-    "pt": "Evite corrosão galvânica em montagens mistas: escolha fixadores por compatibilidade de metais, ambiente, isolamento e revestimento.",
-    "ru": "Полное руководство по гальванической коррозии для предотвращения повреждений.",
-    "ja": "ガルバニック腐食の仕組みと締結部品の選定方法を解説。異種金属の組み合わせによる損傷を防ぐため、材質や表面処理、絶縁対策の確認ポイントを紹介します。",
-    "de": "Erfahren Sie, wie unterschiedliche Metalle galvanische Korrosion verursachen und wie die passende Werkstoff- und Verbindungselementauswahl B2B-Anwendungen schützt.",
-    "hi": "अलग धातुओं के संपर्क से होने वाले गैल्वेनिक संक्षारण के कारण, रोकथाम के उपाय और उपयुक्त फास्टनर चयन जानें।"
+    "en": "Choose corrosion resistant bolting: 304/316 stainless, HDG, zinc flake, galvanic pairing tables, coastal and industrial service life.",
+    "zh": "对比304/316不锈钢、热浸镀锌和锌片涂层，查看电偶腐蚀配对表，评估沿海及工业环境使用寿命。",
+    "es": "Compara inox 304/316, galvanizado en caliente y zinc laminar; consulta tablas de pares galvánicos y vida útil en costa e industria",
+    "ar": "قارن بين الستانلس 304/316 والجلفنة بالغمس الساخن وطلاء رقائق الزنك، مع جداول التوافق الجلفاني وعمر الخدمة الساحلي والصناعي",
+    "fr": "Comparez l’inox 304/316, la galvanisation à chaud et le zinc lamellaire grâce aux tableaux galvaniques pour les milieux côtiers et industriels",
+    "pt": "Compare inox 304/316, HDG e flocos de zinco; consulte pares galvânicos e vida útil para ambientes costeiros e industriais",
+    "ru": "Сравните 304/316, HDG и цинковые чешуйки; таблицы гальванических пар и срок службы для побережья и промышленности",
+    "ja": "耐食ボルトの選定ガイド：304/316ステンレス、溶融亜鉛めっき、ジンクフレーク、異種金属の組み合わせ表、沿岸・工業環境の寿命評価。",
+    "de": "Korrosionsbeständige Verbindungen: Edelstahl 304/316, Feuerverzinkung, Zinkflake, Paarungstabellen und Lebensdauer in Küsten- und Industrieumgebung.",
+    "hi": "304/316 स्टेनलेस, हॉट-डिप गैल्वनाइजिंग और जिंक फ्लेक कोटिंग की तुलना करें; गैल्वेनिक पेयरिंग तालिकाओं से तटीय व औद्योगिक आयु जानें।"
   },
   "keywords": "galvanic corrosion, dissimilar metal corrosion, anodic index, fastener material compatibility, electrochemical corrosion, mixed metal assemblies",
   "sections": [
@@ -431,15 +431,20 @@
   ],
   "region": "global",
   "metaDescription": {
-    "en": "Complete guide to galvanic corrosion: understanding the anodic index, selecting compatible <a href=\"/products\" class=\"text-primary-600.",
-    "zh": "电偶腐蚀完整指南：理解阳极电位指数、选择兼容的紧固件材料及预防非洲环境中混合金属组件的电化学损伤。",
-    "es": "Guía completa de corrosión galvánica para prevenir daños en ensamblajes mixtos.",
-    "ar": "دليل شامل للتآكل الغلفاني لمنع الضرر في التجميعات المختلطة.",
-    "fr": "Guide complet de la corrosion galvanique pour prévenir les dommages dans assemblages.",
-    "pt": "Guia completo de corrosão galvânica para prevenir danos em montagens mistas.",
-    "ru": "Полное руководство по гальванической коррозии для предотвращения повреждений.",
-    "ja": "ガルバニック腐食の完全ガイド：異種金属組立での損傷防止。",
-    "de": "Vollständiger Leitfaden zu galvanischer Korrosion und Befestigungsauswahl.",
-    "hi": "गैल्वैनिक काइरोशन पर पूर्ण गाइड"
+    "en": "Choose corrosion resistant bolting: 304/316 stainless, HDG, zinc flake, galvanic pairing tables, coastal and industrial service life.",
+    "zh": "对比304/316不锈钢、热浸镀锌和锌片涂层，查看电偶腐蚀配对表，评估沿海及工业环境使用寿命。",
+    "es": "Compara inox 304/316, galvanizado en caliente y zinc laminar; consulta tablas de pares galvánicos y vida útil en costa e industria",
+    "ar": "قارن بين الستانلس 304/316 والجلفنة بالغمس الساخن وطلاء رقائق الزنك، مع جداول التوافق الجلفاني وعمر الخدمة الساحلي والصناعي",
+    "fr": "Comparez l’inox 304/316, la galvanisation à chaud et le zinc lamellaire grâce aux tableaux galvaniques pour les milieux côtiers et industriels",
+    "pt": "Compare inox 304/316, HDG e flocos de zinco; consulte pares galvânicos e vida útil para ambientes costeiros e industriais",
+    "ru": "Сравните 304/316, HDG и цинковые чешуйки; таблицы гальванических пар и срок службы для побережья и промышленности",
+    "ja": "耐食ボルトの選定ガイド：304/316ステンレス、溶融亜鉛めっき、ジンクフレーク、異種金属の組み合わせ表、沿岸・工業環境の寿命評価。",
+    "de": "Korrosionsbeständige Verbindungen: Edelstahl 304/316, Feuerverzinkung, Zinkflake, Paarungstabellen und Lebensdauer in Küsten- und Industrieumgebung.",
+    "hi": "304/316 स्टेनलेस, हॉट-डिप गैल्वनाइजिंग और जिंक फ्लेक कोटिंग की तुलना करें; गैल्वेनिक पेयरिंग तालिकाओं से तटीय व औद्योगिक आयु जानें।"
+  },
+  "metaOptimized": {
+    "date": "2026-11-22",
+    "reason": "GSC high impressions low CTR",
+    "keyword": "corrosion resistant bolting"
   }
 }

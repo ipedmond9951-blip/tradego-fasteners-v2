@@ -84,3 +84,6 @@ scripts/seo-topic-usage.json
 # 运行日志与本地业务笔记不入库
 logs/
 memory/
+
+# 每日市场/热点采集缓存（本地生成，不入库）
+content/trends/

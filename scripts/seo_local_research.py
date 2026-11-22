@@ -49,6 +49,23 @@ QUERIES = [
     "mining OR solar OR port construction",
 ]
 
+COUNTRY_HINTS = {
+    "South Africa": ["south africa", "johannesburg", "cape town", "durban", "pretoria", "sadc", "eskom", "transnet"],
+    "Nigeria": ["nigeria", "lagos", "abuja", "nigerian"],
+    "Kenya": ["kenya", "nairobi", "mombasa", "kenyan"],
+    "Egypt": ["egypt", "cairo", "alexandria", "suez", "egyptian"],
+    "United Arab Emirates": ["uae", "emirates", "dubai", "abu dhabi", "sharjah"],
+    "Saudi Arabia": ["saudi", "riyadh", "jeddah", "neom", "aramco"],
+    "Brazil": ["brazil", "brasil", "são paulo", "sao paulo", "brasília"],
+    "Mexico": ["mexico", "méxico", "monterrey", "ciudad de mexico"],
+    "India": ["india", "mumbai", "delhi", "chennai", "gujarat", "indian"],
+    "United States": ["united states", "u.s.", " america", "texas", "california"],
+}
+
+# 消费电子/无关语境：标题含这些词且无工程/建筑语境的丢弃
+OFFTOPIC = ("apple", "iphone", "ipad", "laptop", "teardown", "homeview", "smartphone", "gaming", "console", "headphone",
+            "mountain lion", "wildlife", "zoo", "escaped animal", "tokenization", "crypto", "bitcoin", "election", "football", "celebrity")
+
 TRENDS_RSS = "https://trends.google.com/trending/rss?geo={geo}"
 
 INDUSTRY_FEEDS = [
@@ -102,8 +119,8 @@ def parse_rss(xml_bytes, limit=20):
     return out
 
 
-def news_url(query, hl, ceid):
-    q = urllib.parse.quote(query)
+def news_url(query, hl, ceid, country=""):
+    q = urllib.parse.quote(f"{query} {country}".strip())
     return f"https://news.google.com/rss/search?q={q}+when:7d&hl={hl}&gl={hl.split('-')[-1]}&ceid={ceid}"
 
 
@@ -114,7 +131,7 @@ def collect():
         for q in QUERIES:
             if len(items) >= 120:
                 break
-            url = news_url(q, hl, ceid)
+            url = news_url(q, hl, ceid, country)
             try:
                 for row in parse_rss(fetch(url), limit=6):
                     row.update({"geo": geo, "country": country, "query": q, "lang": hl})
@@ -141,15 +158,46 @@ def collect():
 
     # 相关性过滤：标题里行业词命中 <2 且不含强行业词的，视为噪声（如 "turns the screws on" 这类比喻）
     strong = ("fastener", "bolt", "anchor", "steel", "galvaniz", "galvanis", "roofing", "torque")
-    idiom = ("turns the screws", "tightening the screws", "screws on", "screw over")
+    idiom = ("turns the screws", "tightening the screws", "tighten screws", "tightens screws", "screws on", "screw over")
+    engineering = ("construction", "infrastructure", "project", "plant", "port", "mine", "mining", "solar", "rail", "bridge", "steel", "factory", "building", "energy", "water", "housing")
     def relevant(title):
         t = title.lower()
         if any(x in t for x in idiom):
             return False
+        if any(x in t for x in OFFTOPIC):
+            return False
         hits = sum(1 for lx in LEXICON if lx in t)
-        return hits >= 2 or any(x in t for x in strong)
+        if hits >= 2:
+            return True
+        # 单个强行业词必须同时带工程语境，排除 "mountain lion bolts" 这类同名误命中
+        if any(x in t for x in strong):
+            return any(x in t for x in engineering)
+        return False
 
     items = [r for r in items if relevant(r["title"])]
+
+    # 本地性过滤：国家栏目标签必须能在标题/摘要里找到本地线索，否则说明是 Google News 的全球串稿
+    engineering = ("construction", "infrastructure", "project", "plant", "port", "mine", "mining", "solar", "rail", "bridge", "steel", "factory")
+    def is_local(row):
+        if row.get("country") == "Global":
+            return True
+        text = (row["title"] + " " + row.get("summary", "")).lower()
+        hints = COUNTRY_HINTS.get(row["country"], [])
+        if not any(h in text for h in hints):
+            return False
+        if any(x in text for x in OFFTOPIC) and not any(x in text for x in engineering):
+            return False
+        return True
+
+    # 找不到本地线索的不丢，改为 Global 行业素材，避免误标国家
+    for r in items:
+        if not is_local(r):
+            r["country_original"] = r.get("country")
+            r["country"] = "Global"
+            r["geo"] = "GL"
+
+    # Google Trends 是全国泛热榜（体育/娱乐噪声多），只保留与本行业相关的
+    trends = [t for t in trends if relevant(t["title"])]
 
     word_re = re.compile(r"[A-Za-z][A-Za-z\-]{2,}")
     counter = Counter()
@@ -168,6 +216,7 @@ def collect():
         "items": items,
         "trends": trends,
         "keywords": keywords,
+        "relabeled_global": sum(1 for r in items if r.get("country_original")),
         "errors": errors[:10],
     }
 
