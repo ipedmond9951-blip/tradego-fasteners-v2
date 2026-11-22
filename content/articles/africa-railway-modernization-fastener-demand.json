@@ -31,7 +31,7 @@
   },
   "description": {
     "en": "Africa Railway Modernization Fastener Demand 2026: SGR, Metros, and Freight Corridors case studies with 5 real-world industrial examples. Quality defects,.",
-    "zh": "Africa Railway Modernization Fastener Demand 2026: SGR, Metros, and Freight Corridors 案例研究，包含 5 个真实工业示例。",
+    "zh": "非洲铁路现代化项目带动轨道紧固件采购，涵盖标准轨铁路、城市轨道和货运走廊。了解螺栓与扣件的强度、防腐、兼容性及批量供货要求，并参考项目案例。",
     "es": "Estudios de caso de Africa Railway Modernization Fastener Demand 2026: SGR, Metros, and Freight Corridors con 5 ejemplos industriales reales.",
     "ar": "دراسات حالة Africa Railway Modernization Fastener Demand 2026: SGR, Metros, and Freight Corridors مع 5 أمثلة صناعية حقيقية.",
     "fr": "Études de cas Africa Railway Modernization Fastener Demand 2026: SGR, Metros, and Freight Corridors avec 5 exemples industriels réels.",
@@ -333,8 +333,10 @@
     "stainless-bolts"
   ],
   "relatedArticles": [
-    "high-tensile-bolts-grade-8-8-10-9",
-    "quality-control-fasteners"
+    {
+      "slug": "high-strength-bolts-8-8-10-9-12-9-grade-guide",
+      "title": "High Strength Bolt Grades: 8.8, 10.9 and 12.9 Guide"
+    }
   ],
   "cta": {
     "text": {

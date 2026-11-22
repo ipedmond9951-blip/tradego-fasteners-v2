@@ -31,10 +31,10 @@
   },
   "description": {
     "en": "Railway Track Fastener Specifications: Pandrol, Vossloh, and AREMA Standards B2B procurement guide with standards, comparison, checklist, supplier selection,.",
-    "zh": "Railway Track Fastener Specifications: Pandrol, Vossloh, and AREMA Standards B2B 采购指南，包含标准、比较、清单、供应商选择和常见问题。",
-    "es": "Guía de adquisición B2B de Railway Track Fastener Specifications: Pandrol, Vossloh, and AREMA Standards con estándares, comparación, lista de verificación, selección de proveedores y preguntas frecuentes.",
+    "zh": "铁路轨道紧固件需与钢轨、轨枕和轨道结构兼容。了解Pandrol、Vossloh系统及AREMA标准相关要求，核对扣件、螺栓、弹条的强度、防腐与供货文件。",
+    "es": "Compare fijaciones ferroviarias Pandrol y Vossloh con normas AREMA. Revise especificaciones, aplicaciones y requisitos de compra.",
     "ar": "دليل شراء B2B لـ Railway Track Fastener Specifications: Pandrol, Vossloh, and AREMA Standards مع المعايير والمقارنة وقائمة الفحص واختيار الموردين والأسئلة الشائعة.",
-    "fr": "Guide d'approvisionnement B2B Railway Track Fastener Specifications: Pandrol, Vossloh, and AREMA Standards avec normes, comparaison, liste de contrôle, sélection de fournisseurs et FAQ.",
+    "fr": "Comparez les fixations ferroviaires selon les systèmes Pandrol, Vossloh et AREMA : composants, normes, spécifications et critères fournisseur.",
     "pt": "Guia de aquisição B2B de Railway Track Fastener Specifications: Pandrol, Vossloh, and AREMA Standards com padrões, comparação, lista de verificação, seleção de fornecedores e FAQ.",
     "ru": "Руководство по закупкам B2B Railway Track Fastener Specifications: Pandrol, Vossloh, and AREMA Standards со стандартами, сравнением, контрольным списком, выбором поставщика и часто задаваемыми вопросами.",
     "ja": "Railway Track Fastener Specifications: Pandrol, Vossloh, and AREMA Standards B2B調達ガイド：規格、比較、チェックリスト、サプライヤー選定、FAQを含む。",
@@ -312,8 +312,10 @@
     "stainless-bolts"
   ],
   "relatedArticles": [
-    "high-tensile-bolts-grade-8-8-10-9",
-    "quality-control-fasteners"
+    {
+      "slug": "high-strength-bolts-8-8-10-9-12-9-grade-guide",
+      "title": "High Strength Bolt Grades: 8.8, 10.9 and 12.9 Guide"
+    }
   ],
   "cta": {
     "text": {

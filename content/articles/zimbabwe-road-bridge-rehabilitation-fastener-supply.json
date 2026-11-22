@@ -31,11 +31,11 @@
   },
   "description": {
     "en": "Zimbabwe Road and Bridge Rehabilitation Fastener Supply 2026: Rural Feeder Roads B2B procurement guide with standards, comparison, checklist, supplier.",
-    "zh": "Zimbabwe Road and Bridge Rehabilitation Fastener Supply 2026: Rural Feeder Roads B2B 采购指南，包含标准、比较、清单、供应商选择和常见问题。",
-    "es": "Guía de adquisición B2B de Zimbabwe Road and Bridge Rehabilitation Fastener Supply 2026: Rural Feeder Roads con estándares, comparación, lista de verificación, selección de proveedores y preguntas frecuentes.",
+    "zh": "津巴布韦道路与桥梁修复工程需稳定供应结构螺栓、锚栓和连接件。了解乡村支线道路项目的规格、强度等级、防腐及交期要求，规划批量采购。",
+    "es": "Abastezca la rehabilitación de carreteras y puentes en Zimbabue en 2026: compare pernos, anclajes, especificaciones y opciones de suministro.",
     "ar": "دليل شراء B2B لـ Zimbabwe Road and Bridge Rehabilitation Fastener Supply 2026: Rural Feeder Roads مع المعايير والمقارنة وقائمة الفحص واختيار الموردين والأسئلة الشائعة.",
-    "fr": "Guide d'approvisionnement B2B Zimbabwe Road and Bridge Rehabilitation Fastener Supply 2026: Rural Feeder Roads avec normes, comparaison, liste de contrôle, sélection de fournisseurs et FAQ.",
-    "pt": "Guia de aquisição B2B de Zimbabwe Road and Bridge Rehabilitation Fastener Supply 2026: Rural Feeder Roads com padrões, comparação, lista de verificação, seleção de fornecedores e FAQ.",
+    "fr": "Approvisionnez les travaux routiers et ponts au Zimbabwe en 2026 : boulons, ancrages, normes, volumes et critères de sélection fournisseur.",
+    "pt": "Abasteça obras de estradas e pontes no Zimbábue em 2026: compare fixadores, normas, fornecedores, custos e logística para projetos rurais.",
     "ru": "Руководство по закупкам B2B Zimbabwe Road and Bridge Rehabilitation Fastener Supply 2026: Rural Feeder Roads со стандартами, сравнением, контрольным списком, выбором поставщика и часто задаваемыми вопросами.",
     "ja": "Zimbabwe Road and Bridge Rehabilitation Fastener Supply 2026: Rural Feeder Roads B2B調達ガイド：規格、比較、チェックリスト、サプライヤー選定、FAQを含む。",
     "de": "Zimbabwe Road and Bridge Rehabilitation Fastener Supply 2026: Rural Feeder Roads B2B-Beschaffungsleitfaden mit Normen, Vergleich, Checkliste, Lieferantenauswahl und FAQ.",
@@ -306,8 +306,10 @@
     "stainless-bolts"
   ],
   "relatedArticles": [
-    "high-tensile-bolts-grade-8-8-10-9",
-    "quality-control-fasteners"
+    {
+      "slug": "high-strength-bolts-8-8-10-9-12-9-grade-guide",
+      "title": "High Strength Bolt Grades: 8.8, 10.9 and 12.9 Guide"
+    }
   ],
   "cta": {
     "text": {

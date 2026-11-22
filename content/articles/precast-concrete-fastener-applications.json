@@ -31,10 +31,10 @@
   },
   "description": {
     "en": "Precast Concrete Fastener Applications: Lifting, Connection, and Bracing B2B procurement guide with standards, comparison, checklist, supplier selection, and.",
-    "zh": "Precast Concrete Fastener Applications: Lifting, Connection, and Bracing B2B 采购指南，包含标准、比较、清单、供应商选择和常见问题。",
-    "es": "Guía de adquisición B2B de Precast Concrete Fastener Applications: Lifting, Connection, and Bracing con estándares, comparación, lista de verificación, selección de proveedores y preguntas frecuentes.",
+    "zh": "预制混凝土构件的吊装、连接和支撑需匹配专用紧固件及设计载荷。了解吊点锚固、连接螺栓与支撑件的规格、材料和检验要求，按施工方案采购。",
+    "es": "Compare fijaciones para concreto prefabricado en izaje, unión y arriostramiento. Revise cargas, especificaciones y criterios de compra.",
     "ar": "دليل شراء B2B لـ Precast Concrete Fastener Applications: Lifting, Connection, and Bracing مع المعايير والمقارنة وقائمة الفحص واختيار الموردين والأسئلة الشائعة.",
-    "fr": "Guide d'approvisionnement B2B Precast Concrete Fastener Applications: Lifting, Connection, and Bracing avec normes, comparaison, liste de contrôle, sélection de fournisseurs et FAQ.",
+    "fr": "Choisissez des fixations pour béton préfabriqué : systèmes de levage, connexions, contreventement, charges et normes à vérifier.",
     "pt": "Guia de aquisição B2B de Precast Concrete Fastener Applications: Lifting, Connection, and Bracing com padrões, comparação, lista de verificação, seleção de fornecedores e FAQ.",
     "ru": "Руководство по закупкам B2B Precast Concrete Fastener Applications: Lifting, Connection, and Bracing со стандартами, сравнением, контрольным списком, выбором поставщика и часто задаваемыми вопросами.",
     "ja": "Precast Concrete Fastener Applications: Lifting, Connection, and Bracing B2B調達ガイド：規格、比較、チェックリスト、サプライヤー選定、FAQを含む。",
@@ -312,8 +312,10 @@
     "stainless-bolts"
   ],
   "relatedArticles": [
-    "high-tensile-bolts-grade-8-8-10-9",
-    "quality-control-fasteners"
+    {
+      "slug": "high-strength-bolts-8-8-10-9-12-9-grade-guide",
+      "title": "High Strength Bolt Grades: 8.8, 10.9 and 12.9 Guide"
+    }
   ],
   "cta": {
     "text": {

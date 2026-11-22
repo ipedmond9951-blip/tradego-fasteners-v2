@@ -31,11 +31,11 @@
   },
   "description": {
     "en": "Zim Construction Threaded Rods Supplier Evaluation: Cost Optimization Sourcing B2B procurement guide with standards, comparison, checklist, supplier selection,.",
-    "zh": "Zim Construction Threaded Rods Supplier Evaluation: Cost Optimization Sourcing B2B 采购指南，包含标准、比较、清单、供应商选择和常见问题。",
-    "es": "Guía de adquisición B2B de Zim Construction Threaded Rods Supplier Evaluation: Cost Optimization Sourcing con estándares, comparación, lista de verificación, selección de proveedores y preguntas frecuentes.",
+    "zh": "津巴布韦建筑螺杆采购可从材质、螺纹长度、镀层和批量报价评估供应商。了解检验文件、交期及运输成本核算方法，优化项目采购总成本。",
+    "es": "Evalúe proveedores de varillas roscadas para obras en Zimbabue. Compare especificaciones, costos y opciones para optimizar el abastecimiento.",
     "ar": "دليل شراء B2B لـ Zim Construction Threaded Rods Supplier Evaluation: Cost Optimization Sourcing مع المعايير والمقارنة وقائمة الفحص واختيار الموردين والأسئلة الشائعة.",
-    "fr": "Guide d'approvisionnement B2B Zim Construction Threaded Rods Supplier Evaluation: Cost Optimization Sourcing avec normes, comparaison, liste de contrôle, sélection de fournisseurs et FAQ.",
-    "pt": "Guia de aquisição B2B de Zim Construction Threaded Rods Supplier Evaluation: Cost Optimization Sourcing com padrões, comparação, lista de verificação, seleção de fornecedores e FAQ.",
+    "fr": "Comparez fournisseurs et coûts de barres filetées pour la construction au Zimbabwe : grades, normes, volumes et critères d’achat.",
+    "pt": "Compre hastes roscadas para obras no Zimbábue: compare normas, materiais, fornecedores, custos, dimensões e opções de fornecimento.",
     "ru": "Руководство по закупкам B2B Zim Construction Threaded Rods Supplier Evaluation: Cost Optimization Sourcing со стандартами, сравнением, контрольным списком, выбором поставщика и часто задаваемыми вопросами.",
     "ja": "Zim Construction Threaded Rods Supplier Evaluation: Cost Optimization Sourcing B2B調達ガイド：規格、比較、チェックリスト、サプライヤー選定、FAQを含む。",
     "de": "Zim Construction Threaded Rods Supplier Evaluation: Cost Optimization Sourcing B2B-Beschaffungsleitfaden mit Normen, Vergleich, Checkliste, Lieferantenauswahl und FAQ.",
@@ -312,8 +312,10 @@
     "stainless-bolts"
   ],
   "relatedArticles": [
-    "high-tensile-bolts-grade-8-8-10-9",
-    "quality-control-fasteners"
+    {
+      "slug": "high-strength-bolts-8-8-10-9-12-9-grade-guide",
+      "title": "High Strength Bolt Grades: 8.8, 10.9 and 12.9 Guide"
+    }
   ],
   "cta": {
     "text": {

@@ -31,7 +31,7 @@
   },
   "description": {
     "en": "Bulawayo Construction Hardware Supply 2026: Fastener Stockists and Steel Suppliers case studies with 5 real-world industrial examples. Quality defects,.",
-    "zh": "Bulawayo Construction Hardware Supply 2026: Fastener Stockists and Steel Suppliers 案例研究，包含 5 个真实工业示例。",
+    "zh": "布拉瓦约建筑项目采购紧固件与钢材，可比较本地库存商和供应商的规格、价格与交货能力。了解螺栓、螺母及锚栓需求，按项目进度规划备货。",
     "es": "Estudios de caso de Bulawayo Construction Hardware Supply 2026: Fastener Stockists and Steel Suppliers con 5 ejemplos industriales reales.",
     "ar": "دراسات حالة Bulawayo Construction Hardware Supply 2026: Fastener Stockists and Steel Suppliers مع 5 أمثلة صناعية حقيقية.",
     "fr": "Études de cas Bulawayo Construction Hardware Supply 2026: Fastener Stockists and Steel Suppliers avec 5 exemples industriels réels.",
@@ -333,8 +333,10 @@
     "stainless-bolts"
   ],
   "relatedArticles": [
-    "high-tensile-bolts-grade-8-8-10-9",
-    "quality-control-fasteners"
+    {
+      "slug": "high-strength-bolts-8-8-10-9-12-9-grade-guide",
+      "title": "High Strength Bolt Grades: 8.8, 10.9 and 12.9 Guide"
+    }
   ],
   "cta": {
     "text": {

@@ -31,11 +31,11 @@
   },
   "description": {
     "en": "Zimbabwe Rural Electrification Fastener Specifications: Solar Mini-Grids and Distribution Poles B2B procurement guide with standards, comparison, checklist,.",
-    "zh": "Zimbabwe Rural Electrification Fastener Specifications: Solar Mini-Grids and Distribution Poles B2B 采购指南，包含标准、比较、清单、供应商选择和常见问题。",
-    "es": "Guía de adquisición B2B de Zimbabwe Rural Electrification Fastener Specifications: Solar Mini-Grids and Distribution Poles con estándares, comparación, lista de verificación, selección de proveedores y preguntas frecuentes.",
+    "zh": "津巴布韦农村电气化项目涉及太阳能微电网与配电杆紧固件。了解螺栓、抱箍和锚固件的强度、镀层及尺寸要求，按安装环境准备采购清单。",
+    "es": "Compare fijaciones para electrificación rural en Zimbabue: pernos para postes, minirredes solares, especificaciones y requisitos de compra.",
     "ar": "دليل شراء B2B لـ Zimbabwe Rural Electrification Fastener Specifications: Solar Mini-Grids and Distribution Poles مع المعايير والمقارنة وقائمة الفحص واختيار الموردين والأسئلة الشائعة.",
-    "fr": "Guide d'approvisionnement B2B Zimbabwe Rural Electrification Fastener Specifications: Solar Mini-Grids and Distribution Poles avec normes, comparaison, liste de contrôle, sélection de fournisseurs et FAQ.",
-    "pt": "Guia de aquisição B2B de Zimbabwe Rural Electrification Fastener Specifications: Solar Mini-Grids and Distribution Poles com padrões, comparação, lista de verificação, seleção de fornecedores e FAQ.",
+    "fr": "Choisissez les fixations pour mini-réseaux solaires et poteaux de distribution au Zimbabwe : grades, matériaux, revêtements et spécifications.",
+    "pt": "Especifique fixadores para mini-redes solares e postes de distribuição no Zimbábue: compare materiais, normas, revestimentos e fornecedores.",
     "ru": "Руководство по закупкам B2B Zimbabwe Rural Electrification Fastener Specifications: Solar Mini-Grids and Distribution Poles со стандартами, сравнением, контрольным списком, выбором поставщика и часто задаваемыми вопросами.",
     "ja": "Zimbabwe Rural Electrification Fastener Specifications: Solar Mini-Grids and Distribution Poles B2B調達ガイド：規格、比較、チェックリスト、サプライヤー選定、FAQを含む。",
     "de": "Zimbabwe Rural Electrification Fastener Specifications: Solar Mini-Grids and Distribution Poles B2B-Beschaffungsleitfaden mit Normen, Vergleich, Checkliste, Lieferantenauswahl und FAQ.",
@@ -306,8 +306,10 @@
     "stainless-bolts"
   ],
   "relatedArticles": [
-    "high-tensile-bolts-grade-8-8-10-9",
-    "quality-control-fasteners"
+    {
+      "slug": "high-strength-bolts-8-8-10-9-12-9-grade-guide",
+      "title": "High Strength Bolt Grades: 8.8, 10.9 and 12.9 Guide"
+    }
   ],
   "cta": {
     "text": {

@@ -31,10 +31,10 @@
   },
   "description": {
     "en": "Fastener Warehouse Management: SKU Organization, Fulfillment, and Inventory B2B procurement guide with standards, comparison, checklist, supplier selection,.",
-    "zh": "Fastener Warehouse Management: SKU Organization, Fulfillment, and Inventory B2B 采购指南，包含标准、比较、清单、供应商选择和常见问题。",
-    "es": "Guía de adquisición B2B de Fastener Warehouse Management: SKU Organization, Fulfillment, and Inventory con estándares, comparación, lista de verificación, selección de proveedores y preguntas frecuentes.",
+    "zh": "紧固件仓库管理需兼顾SKU编码、规格分类、拣货效率和库存准确性。了解螺栓、螺母及垫圈的货位规划、补货和批次追踪方法，减少错发与积压。",
+    "es": "Organice inventario de fijaciones por código y aplicación. Mejore almacenamiento, preparación de pedidos y control de existencias en su bodega.",
     "ar": "دليل شراء B2B لـ Fastener Warehouse Management: SKU Organization, Fulfillment, and Inventory مع المعايير والمقارنة وقائمة الفحص واختيار الموردين والأسئلة الشائعة.",
-    "fr": "Guide d'approvisionnement B2B Fastener Warehouse Management: SKU Organization, Fulfillment, and Inventory avec normes, comparaison, liste de contrôle, sélection de fournisseurs et FAQ.",
+    "fr": "Organisez votre stock de fixations par références et dimensions : gestion des SKU, préparation des commandes, inventaire et réapprovisionnement.",
     "pt": "Guia de aquisição B2B de Fastener Warehouse Management: SKU Organization, Fulfillment, and Inventory com padrões, comparação, lista de verificação, seleção de fornecedores e FAQ.",
     "ru": "Руководство по закупкам B2B Fastener Warehouse Management: SKU Organization, Fulfillment, and Inventory со стандартами, сравнением, контрольным списком, выбором поставщика и часто задаваемыми вопросами.",
     "ja": "Fastener Warehouse Management: SKU Organization, Fulfillment, and Inventory B2B調達ガイド：規格、比較、チェックリスト、サプライヤー選定、FAQを含む。",
@@ -312,8 +312,10 @@
     "stainless-bolts"
   ],
   "relatedArticles": [
-    "high-tensile-bolts-grade-8-8-10-9",
-    "quality-control-fasteners"
+    {
+      "slug": "high-strength-bolts-8-8-10-9-12-9-grade-guide",
+      "title": "High Strength Bolt Grades: 8.8, 10.9 and 12.9 Guide"
+    }
   ],
   "cta": {
     "text": {

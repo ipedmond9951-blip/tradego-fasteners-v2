@@ -31,10 +31,10 @@
   },
   "description": {
     "en": "Construction Building Self Tapping Screws TCO: Uv Degradation Tco Analysis B2B procurement guide with standards, comparison, checklist, supplier selection, and.",
-    "zh": "Construction Building Self Tapping Screws TCO: Uv Degradation Tco Analysis B2B 采购指南，包含标准、比较、清单、供应商选择和常见问题。",
-    "es": "Guía de adquisición B2B de Construction Building Self Tapping Screws TCO: Uv Degradation Tco Analysis con estándares, comparación, lista de verificación, selección de proveedores y preguntas frecuentes.",
+    "zh": "建筑自攻螺丝用于户外时，紫外线会影响密封件和周边材料的耐久性。了解涂层、防腐等级、垫圈选型与维护周期，按屋面和覆层项目核算长期采购成本。",
+    "es": "Evalúe tornillos autorroscantes para construcción ante radiación UV y costo total. Compare materiales, recubrimientos y opciones de compra.",
     "ar": "دليل شراء B2B لـ Construction Building Self Tapping Screws TCO: Uv Degradation Tco Analysis مع المعايير والمقارنة وقائمة الفحص واختيار الموردين والأسئلة الشائعة.",
-    "fr": "Guide d'approvisionnement B2B Construction Building Self Tapping Screws TCO: Uv Degradation Tco Analysis avec normes, comparaison, liste de contrôle, sélection de fournisseurs et FAQ.",
+    "fr": "Choisissez des vis autotaraudeuses pour bâtiment résistantes aux UV : revêtements, durée de service, coût total et critères d’achat en gros.",
     "pt": "Guia de aquisição B2B de Construction Building Self Tapping Screws TCO: Uv Degradation Tco Analysis com padrões, comparação, lista de verificação, seleção de fornecedores e FAQ.",
     "ru": "Руководство по закупкам B2B Construction Building Self Tapping Screws TCO: Uv Degradation Tco Analysis со стандартами, сравнением, контрольным списком, выбором поставщика и часто задаваемыми вопросами.",
     "ja": "Construction Building Self Tapping Screws TCO: Uv Degradation Tco Analysis B2B調達ガイド：規格、比較、チェックリスト、サプライヤー選定、FAQを含む。",
@@ -312,8 +312,10 @@
     "stainless-bolts"
   ],
   "relatedArticles": [
-    "high-tensile-bolts-grade-8-8-10-9",
-    "quality-control-fasteners"
+    {
+      "slug": "high-strength-bolts-8-8-10-9-12-9-grade-guide",
+      "title": "High Strength Bolt Grades: 8.8, 10.9 and 12.9 Guide"
+    }
   ],
   "cta": {
     "text": {

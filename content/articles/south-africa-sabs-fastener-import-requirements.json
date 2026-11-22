@@ -31,8 +31,8 @@
   },
   "description": {
     "en": "South Africa SABS Fastener Import Requirements: Compliance Guide 2026 B2B procurement guide with standards, comparison, checklist, supplier selection, and FAQ.",
-    "zh": "South Africa SABS Fastener Import Requirements: Compliance Guide 2026 B2B 采购指南，包含标准、比较、清单、供应商选择和常见问题。",
-    "es": "Guía de adquisición B2B de South Africa SABS Fastener Import Requirements: Compliance Guide 2026 con estándares, comparación, lista de verificación, selección de proveedores y preguntas frecuentes.",
+    "zh": "南非进口紧固件需核对SABS相关要求、产品标准和随货文件。了解螺栓、螺母及螺钉的合规核验、进口申报与供应商资料准备，减少清关和验收延误。",
+    "es": "Revise requisitos SABS para importar fijaciones a Sudáfrica en 2026. Compare normas, documentos y criterios de compra a proveedores.",
     "ar": "دليل شراء B2B لـ South Africa SABS Fastener Import Requirements: Compliance Guide 2026 مع المعايير والمقارنة وقائمة الفحص واختيار الموردين والأسئلة الشائعة.",
     "fr": "Guide d'approvisionnement B2B South Africa SABS Fastener Import Requirements: Compliance Guide 2026 avec normes, comparaison, liste de contrôle, sélection de fournisseurs et FAQ.",
     "pt": "Guia de aquisição B2B de South Africa SABS Fastener Import Requirements: Compliance Guide 2026 com padrões, comparação, lista de verificação, seleção de fornecedores e FAQ.",
@@ -312,8 +312,10 @@
     "stainless-bolts"
   ],
   "relatedArticles": [
-    "high-tensile-bolts-grade-8-8-10-9",
-    "quality-control-fasteners"
+    {
+      "slug": "high-strength-bolts-8-8-10-9-12-9-grade-guide",
+      "title": "High Strength Bolt Grades: 8.8, 10.9 and 12.9 Guide"
+    }
   ],
   "cta": {
     "text": {
