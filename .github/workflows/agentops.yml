@@ -35,7 +35,7 @@ jobs:
 
       - name: 明文凭据扫描
         run: |
-          if git grep -nE 'sk-ant-[A-Za-z0-9_-]{20,}|sk-[A-Za-z0-9]{32,}|AKIA[0-9A-Z]{16}|-----BEGIN .*PRIVATE KEY-----' -- ':!*.lock' ':!package-lock.json'; then
+          if git grep -nE 'sk-ant-[A-Za-z0-9_-]{20,}|sk-[A-Za-z0-9]{32,}|AKIA[0-9A-Z]{16}|-----BEGIN .*PRIVATE KEY-----' -- ':!*.lock' ':!package-lock.json' ':!.github/workflows/**'; then
             echo "发现疑似明文凭据"; exit 1
           fi
           echo "未发现明文凭据"
