@@ -1,68 +1,44 @@
 #!/bin/bash
-# minimax-quick.sh - Direct MiniMax API for short prompts (10-30s vs 60-180s for CDP)
-# Usage: minimax-quick.sh "prompt" [model] [max_tokens]
-# Output: AI reply text via stdout, errors via stderr
+# minimax-quick.sh - 兼容层 (2026-11-22 起)
+#
+# MiniMax API 已 402 停用, 但仓库里仍有 20+ 个脚本按老签名调用本脚本
+# (i18n 翻译、guardian 保底等). 为不破坏这些调用方, 这里保留原参数签名,
+# 内部改走 scripts/seo-llm.sh (Chrome 18800 → gemini → grok → chatgpt).
+#
+# 原 MiniMax 直连实现见 git 提交 d45c4a9, 需要时可从历史里取回.
+#
+# 用法(不变): minimax-quick.sh "prompt" [model] [max_tokens]
+# 环境变量:
+#   SEO_MINIMAX_SHIM=0            关闭兼容层 (直接报错, 便于排查)
+#   SEO_MINIMAX_SHIM_TIMEOUT=200  单通道超时秒
 
 PROMPT="$1"
-MODEL="${2:-MiniMax-M2.7-highspeed}"
-MAX_TOKENS="${3:-1500}"  # 2026-06-20: M2.7 eats 200+ tokens on thinking, default to 1500 for short prompts
+MODEL="${2:-MiniMax-M2.7-highspeed}"   # 保留参数, 兼容层不再使用
+MAX_TOKENS="${3:-1500}"                # 只用来推断最小有效字数
 
 if [ -z "$PROMPT" ]; then
   echo "usage: minimax-quick.sh \"prompt\" [model] [max_tokens]" >&2
   exit 1
 fi
 
-# Write prompt to file to avoid shell escape hell, then python reads from file
-PROMPT_FILE=$(mktemp -t minimax-prompt.XXXXXX)
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+
+if [ "${SEO_MINIMAX_SHIM:-1}" = "0" ]; then
+  echo "[error] MiniMax 已停用且兼容层被关闭 (SEO_MINIMAX_SHIM=0), $MODEL 不可用" >&2
+  exit 4
+fi
+
+# 短提示(健康检查)只要几个字就算通过, 长提示按 200 字起步
+if [ "$MAX_TOKENS" -le 100 ]; then
+  MIN_CHARS=2
+else
+  MIN_CHARS=200
+fi
+
+PROMPT_FILE=$(mktemp -t minimax-shim-prompt)
 printf '%s' "$PROMPT" > "$PROMPT_FILE"
-trap "rm -f $PROMPT_FILE" EXIT
+trap 'rm -f "$PROMPT_FILE"' EXIT
 
-python3 - "$PROMPT_FILE" "$MODEL" "$MAX_TOKENS" <<'PYEOF'
-import os, json, sys, urllib.request
-
-prompt_file = sys.argv[1]
-model = sys.argv[2]
-max_tokens = int(sys.argv[3])
-
-with open(prompt_file, 'r', encoding='utf-8') as f:
-    prompt = f.read()
-
-api_key = os.environ.get('MINIMAX_API_KEY', '')
-
-if not api_key:
-    print("MINIMAX_API_KEY not set", file=sys.stderr)
-    sys.exit(2)
-
-data = {
-    "model": model,
-    "max_tokens": max_tokens,
-    "messages": [{"role": "user", "content": prompt}]
-}
-
-req = urllib.request.Request(
-    "https://api.minimaxi.com/anthropic/v1/messages",
-    data=json.dumps(data).encode('utf-8'),
-    headers={
-        "Content-Type": "application/json",
-        "x-api-key": api_key,
-        "anthropic-version": "2023-06-01"
-    }
-)
-
-try:
-    with urllib.request.urlopen(req, timeout=180) as resp:
-        d = json.loads(resp.read().decode('utf-8'))
-        if 'content' in d and d['content']:
-            for c in d['content']:
-                if c.get('type') == 'text':
-                    print(c['text'])
-                elif c.get('type') == 'thinking' and len(d['content']) == 1:
-                    # 2026-06-20 fix: thinking-only response, still print thinking
-                    print(c.get('thinking', ''))
-        else:
-            print(json.dumps(d)[:500], file=sys.stderr)
-            sys.exit(1)
-except Exception as e:
-    print(f"API error: {e}", file=sys.stderr)
-    sys.exit(1)
-PYEOF
+bash "$SCRIPT_DIR/seo-llm.sh" "$PROMPT_FILE" "${SEO_MINIMAX_SHIM_TIMEOUT:-200}" "$MIN_CHARS"
+EXIT_CODE=$?
+exit $EXIT_CODE

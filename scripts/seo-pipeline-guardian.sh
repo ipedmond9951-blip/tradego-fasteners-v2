@@ -116,14 +116,17 @@ fi
 # 2.2 检查 AI 客户端
 log "🔍 AI 客户端健康检查"
 # 2026-07-03 FIX: 把 stderr 分开, 避免错误文本渗透. 严格判定: 非空且不含错误关键词
-MINIMAX_OUT=$(timeout 10 bash "$PROJECT_DIR/scripts/minimax-quick.sh" "Reply OK" "MiniMax-M2.7-highspeed" 50 2>/tmp/minimax.err)
-MINIMAX_ERR=$(cat /tmp/minimax.err 2>/dev/null | head -c 200)
-MINIMAX_STATUS=$(echo "$MINIMAX_OUT" | head -c 100)
-if [ -z "$MINIMAX_OUT" ] || echo "$MINIMAX_OUT$MINIMAX_ERR" | grep -qi "MINIMAX_API_KEY not set\|Traceback\|Error"; then
-    log "  ❌ MiniMax API 异常: $MINIMAX_ERR"
-    log "  (可能原因: cron 裸环境未 source env, 或 key 过期)"
+# 2026-11-22: MiniMax/DeepSeek API 已下线, 健康检查改测浏览器通道
+HEALTH_PROMPT=$(mktemp -t guardian-health)
+printf 'Reply with exactly one line: OK' > "$HEALTH_PROMPT"
+HEALTH_OUT=$(SEO_LLM_CHANNELS=gemini timeout 150 bash "$PROJECT_DIR/scripts/seo-llm.sh" "$HEALTH_PROMPT" 120 2 2>/tmp/router-health.err)
+HEALTH_ERR=$(cat /tmp/router-health.err 2>/dev/null | head -c 200)
+rm -f "$HEALTH_PROMPT"
+if [ -z "$HEALTH_OUT" ]; then
+    log "  ❌ 浏览器通道 (gemini/grok) 无输出: $HEALTH_ERR"
+    log "  (可能原因: Chrome 18800 未启动, 或 Gemini 登录态失效)"
 else
-    log "  ✅ MiniMax API 工作正常"
+    log "  ✅ 浏览器通道正常 (gemini)"
 fi
 
 # ========== 阶段 3: 自动重跑 Pipeline ==========
@@ -180,7 +183,7 @@ if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
 fi
 
 # ========== 阶段 4: 终极保底 — 直接 API 生成简化版 ==========
-log "📋 阶段 4: 终极保底 — 用 minimax-quick.sh 生成简化版文章"
+log "📋 阶段 4: 终极保底 — 用浏览器通道 (gemini/grok) 生成简化版文章"
 
 EMERGENCY_SLUG="emergency-${TODAY}-fastener-sourcing-guide"
 EMERGENCY_TOPIC="Industrial Fastener Sourcing Guide for African Markets ${TODAY}"
@@ -203,8 +206,8 @@ Include:
 
 Output ONLY the markdown article, no preamble."
 
-log "  调用 MiniMax M2.7-highspeed (max_tokens=6000, timeout 240s)..."
-EMERGENCY_ARTICLE=$(timeout 240 bash "$PROJECT_DIR/scripts/minimax-quick.sh" "$EMERGENCY_PROMPT" "MiniMax-M2.7-highspeed" 6000 2>&1 || echo "")
+log "  调用浏览器通道 (gemini → grok, timeout 240s)..."
+EMERGENCY_ARTICLE=$(SEO_MINIMAX_SHIM_TIMEOUT=200 timeout 260 bash "$PROJECT_DIR/scripts/minimax-quick.sh" "$EMERGENCY_PROMPT" "browser" 6000 2>&1 || echo "")
 
 if [ ${#EMERGENCY_ARTICLE} -gt 3000 ] && echo "$EMERGENCY_ARTICLE" | grep -q "^## "; then
     log "  ✅ 紧急文章生成成功 (${#EMERGENCY_ARTICLE} 字符)"

@@ -96,7 +96,7 @@ log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1"; }
 
 if [ "$USE_AI_ROUTER" = "1" ]; then
   if ! timeout 5 curl -sf http://localhost:18800/json/version > /dev/null 2>&1; then
-    log "⚠️ Chrome debug 未在 18800, ai-router 不可用, 全部 fallback 到 minimax-quick"
+    log "⚠️ Chrome debug 未在 18800, ai-router 不可用 (DeepSeek/MiniMax 已下线, 无 API 兜底)"
     USE_AI_ROUTER=0
   fi
 else
@@ -337,8 +337,8 @@ Rules:
         TOPIC_GEN_OUT=$(timeout 240 bash "$SCRIPT_DIR/seo-ai-router-call.sh" doubao "$TOPIC_GEN_FILE" 200 2>&1)
     fi
     if [ ${#TOPIC_GEN_OUT} -lt 60 ]; then
-        log "  ⚠️ 豆包选题失败/过短 (${#TOPIC_GEN_OUT} chars), 试 MiniMax"
-        TOPIC_GEN_OUT=$(timeout 90 bash "$SCRIPT_DIR/minimax-quick.sh" "$TOPIC_GEN_PROMPT" "MiniMax-M2.7-highspeed" 600 2>&1)
+        log "  ⚠️ 豆包选题失败/过短 (${#TOPIC_GEN_OUT} chars), 试浏览器通道 (gemini/grok)"
+        TOPIC_GEN_OUT=$(timeout 240 bash "$SCRIPT_DIR/seo-llm.sh" "$TOPIC_GEN_FILE" 200 60 2>&1)
     fi
     while IFS= read -r line; do
         cand=$(echo "$line" | sed 's/^[0-9][0-9.]*[.)-]* *//' | sed 's/^[-* ]*//' | sed 's/^"//; s/"$//' | sed 's/[[:space:]]*$//')
@@ -366,18 +366,15 @@ fi
 log "📝 Selected topic: $TOPIC"
 log "📝 Slug: $SLUG"
 
-# 用 豆包 验证/优化选题 (带 fallback) — 2026-06-19 修复: 用 JSON 输出 避免 grep 字面 placeholder 问题
-# 2026-07-15 fix: GROK_STEP 改用 minimax-quick (直接 API, 7s, 跳过 Chrome CDP 不稳定)
-log "🤖 Calling MiniMax M2.7 for topic trends (7s direct API, 避开 CDP 不稳定)..."
+# 2026-11-22 改: DeepSeek/MiniMax API 已不可用 (余额 / 402), 统一走 scripts/seo-llm.sh
+# 该脚本按 gemini → grok → chatgpt 顺序调 ai-router, 自带 nonce 去重与标签清洗
+log "🤖 关键词提取 (浏览器通道 gemini/grok/chatgpt)..."
 GROK_PROMPT="For B2B trade topic: '$TOPIC', output a JSON object on a single line with fields primary_keyword and rationale. JSON only, no markdown.\n\nSession-ref: $(date +%s%N | head -c 10)"
 
 cd "$(dirname "$AI_ROUTER")" 2>/dev/null
-# 2026-07-15 fix: 7/6 minimax 永禁后这里 exit 4 永远退, 改用 ai-router 豆包 (unlimited quota)
 GROK_PROMPT_FILE="$TMP_DIR/${SLUG}_trends_prompt.txt"
 printf '%s' "$GROK_PROMPT" > "$GROK_PROMPT_FILE"
-# 2026-07-15 fix: 用 minimax-quick 走 direct API (Chrome CDP 不可靠, gemini 也 hit 30s 间隔)
-GROK_OUT=$(timeout 30 bash "$PROJECT_DIR/scripts/minimax-quick.sh" "$GROK_PROMPT" "MiniMax-M2.7-highspeed" 300 2>&1) || GROK_EXIT=$?
-GROK_EXIT=${GROK_EXIT:-0}
+GROK_OUT=$(timeout 200 bash "$PROJECT_DIR/scripts/seo-llm.sh" "$GROK_PROMPT_FILE" 180 20 2>&1) || GROK_EXIT=$?
 GROK_EXIT=${GROK_EXIT:-0}
 # 2026-07-15 debug: 看 GROK call 实际返什么
 log "  [debug] GROK_EXIT=$GROK_EXIT GROK_OUT_len=${#GROK_OUT} GROK_OUT_first100=${GROK_OUT:0:100}"
@@ -449,11 +446,11 @@ fi
 # 2026-07-16 fix: STEP 1 keyword 兜底 - 优先 ai-router 豆包 (豆包不返 placeholder/echo)
 # 如果 minimax-quick 没拿到 keyword, 用 ai-router 试一次
 if [ -z "$PRIMARY_KEYWORD" ] && [ "$USE_AI_ROUTER" = "1" ]; then
-    log "🔄 minimax keyword 失败, fallback ai-router 豆包 (avoid placeholder/echo)"
-    ROUTER_OUT=$(timeout 60 bash "$SCRIPT_DIR/seo-ai-router-call.sh" doubao "$GROK_PROMPT_FILE" 60 2>&1) || ROUTER_OUT=""
+    log "🔄 关键词为空, fallback 浏览器通道 (gemini/grok, avoid placeholder/echo)"
+    ROUTER_OUT=$(timeout 200 bash "$SCRIPT_DIR/seo-llm.sh" "$GROK_PROMPT_FILE" 180 20 2>&1) || ROUTER_OUT=""
     PRIMARY_KEYWORD=$(extract_kw_from_json "$ROUTER_OUT" | head -c 100)
     if [ -n "$PRIMARY_KEYWORD" ]; then
-        log "  ✅ ai-router 豆包 拿到 keyword: $PRIMARY_KEYWORD"
+        log "  ✅ 浏览器通道拿到 keyword: $PRIMARY_KEYWORD"
     fi
 fi
 
@@ -469,11 +466,10 @@ log "✅ Primary keyword: $PRIMARY_KEYWORD"
 # STEP 2: Gemini 生成大纲
 # ============================================================
 log "=========================================="
-log "📋 STEP 2/5: Outline Generation (豆包 → DeepSeek → Gemini)"
+log "📋 STEP 2/5: Outline Generation (gemini → grok → chatgpt, 浏览器通道)"
 log "=========================================="
 
-# 2026-06-18: 用 client 直接调 (避开 ai-router 包装的 extractLastReply 截断)
-DIRECT_AI_TOOL="$HOME/.agents/skills/ai-assistant-router/deepseek-client.js"
+# 2026-11-22: 移除 deepseek-client 直连 (API 已下线), 统一走 scripts/seo-llm.sh
 
 # 2026-06-19 FIX: use heredoc with quoted delimiter so $ vars expand but backslashes
 # are literal. This eliminates the line-110 "CRITICAL: command not found" bug where
@@ -540,36 +536,18 @@ printf '%s' "$OUTLINE_PROMPT" > "$OUTLINE_PROMPT_FILE"
 run_outline_ai() {
     local ai_name="$1"
     local out
-    # 2026-07-03 v5.6 FIX: 总裁指示 — 文章生成必须用 ai 助手技能
-    # STEP 2 大纲: 优先 ai-router (豆包/Gemini/ChatGPT), 失败降级 minimax
-    # 2026-07-17 19:11 v5.14 FIX: minimax 不走 ai-router (不支持), 直接 minimax-quick.sh
-    if [ "$ai_name" = "minimax" ]; then
-        log "  🤖 minimax-quick → $ai_name (90s timeout, 大纲)..."
-        out=$(timeout 90 bash "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 6000 2>&1) || out=""
-    elif [ "$USE_AI_ROUTER" = "1" ] && [ "$ai_name" != "deepseek" ]; then
-      # 2026-07-03 v5.6: ai-router 问该 AI 平台 (豆包=豆包, gemini=Gemini, chatgpt=ChatGPT)
-      # 2026-07-05 v5.9: 180s → 220s (豆包实测 120-180s 大纲, +40s buffer)
-      log "  🤖 ai-router → $ai_name (220s timeout, 大纲)..."
-      out=$(timeout 220 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$ai_name" "$OUTLINE_PROMPT_FILE" 220 2>&1) || out=""
-      # ai-router 失败 → 返空让外层 for 循环尝试下一个 AI
-      if [ ${#out} -lt 100 ] || echo "$out" | grep -qE "^\[error\]"; then
-        log "  ⚠️ ai-router $ai_name 输出不足 (${#out} chars), 跳过 (for 循环会试下一个 AI)"
+    # 2026-11-22 改: DeepSeek/MiniMax 全下线, 只走 ai-router 的浏览器通道.
+    # 用 seo-llm.sh 单通道模式 (SEO_LLM_CHANNELS=$ai_name), 自带 nonce + 标签清洗.
+    if [ "$USE_AI_ROUTER" != "1" ]; then
+        log "  ⚠️ ai-router 不可用, 跳过 $ai_name"
+        echo ""
+        return 0
+    fi
+    log "  🤖 浏览器通道 → $ai_name (220s timeout, 大纲)..."
+    out=$(SEO_LLM_CHANNELS="$ai_name" timeout 240 bash "$SCRIPT_DIR/seo-llm.sh" "$OUTLINE_PROMPT_FILE" 220 1000 2>&1) || out=""
+    if [ ${#out} -lt 100 ] || echo "$out" | grep -qE "^\[error\]"; then
+        log "  ⚠️ $ai_name 输出不足 (${#out} chars), 跳过 (for 循环会试下一个)"
         out=""
-      fi
-    elif [ "$ai_name" = "deepseek" ]; then
-        # 2026-07-15 fix: 7/6 minimax 永禁, 不能用 deepseek 直连, 让外层 for 循环试下一个
-        log "  ⚠️ deepseek minimax 永禁, 让 for 循环试下一个 AI"
-        out=""
-    elif [ "$ai_name" = "doubao" ]; then
-        # 2026-07-15 fix: 同上, minimax 永禁
-        log "  ⚠️ doubao minimax 永禁, 让 for 循环试下一个 AI"
-        out=""
-    elif [ "$ai_name" = "gemini" ]; then
-        # 2026-07-15 fix: 同上
-        log "  ⚠️ gemini minimax 永禁, 让 for 循环试下一个 AI"
-        out=""
-    else
-        out=$(timeout 90 "$SCRIPT_DIR/minimax-quick.sh" "$(cat "$OUTLINE_PROMPT_FILE")" "MiniMax-M2.7-highspeed" 6000 2>&1)
     fi
     echo "$out"
 }
@@ -660,12 +638,11 @@ GEMINI_OUT=""
 # Each AI gets one attempt; if all 3 fail, exit with clear log
 # 2026-07-15 fix: 4 个 ai-router 都间歇性失败 (Chrome tab 状态异常), 加 minimax 作为 outline 最后兜底
 # 重要: minimax 永禁是针对 STEP 3 写文 (100/100 形式化), STEP 2 outline 只生成结构, minimax OK
-for AI_TRY in minimax gemini doubao deepseek; do
+# 2026-11-22: 豆包输入框 verify 长期失败 + DeepSeek/MiniMax API 下线, 大纲只试 gemini / grok / chatgpt
+for AI_TRY in codex gemini grok chatgpt; do
     log "🤖 Trying $AI_TRY for outline..."
-    # 30s 间隔避开 ai-guard too_frequent (豆包 30s 内调第二次会拒)
-    if [ "$AI_TRY" = "doubao" ] || [ "$AI_TRY" = "minimax" ]; then
-      sleep 32 2>/dev/null || true
-    fi
+    # v5.18: AI 切换间 sleep 8s, 避免 chrome tab pollution 连续污染下一个 AI
+    sleep 8 2>/dev/null || true
     RAW_OUT=$(run_outline_ai "$AI_TRY")
     if EXTRACTED=$(validate_json "$RAW_OUT"); then
         # 2026-07-19 04:10 FIX: outline 至少 1000 chars (sections=6 + faqs=5 + sources=6 baseline)
@@ -811,8 +788,8 @@ printf '%s' "$WRITER_PROMPT_NONCED" > "$WRITER_PROMPT_FILE"
 #   - 修法 3: 主力 + fallback 共 8 AI 全 fail 后, minimax 兜底 (5th writer, 7/20 manual recovery 已破例)
 #     实际仅在 7/20 manual recovery 时 minimax M2.7 14546 chars 写通, 4 langs 翻译也靠 minimax
 #     此处正式化 minimax as last-resort 兜底 (7/6 永禁令的 runtime 豁免, 总裁 7/20 默许)
-PRIMARY_WRITERS=("gemini" "doubao" "chatgpt" "grok")
-FALLBACK_WRITER="minimax"  # 2026-07-06 永禁写文, 仅占位防脚本 crash; v5.18 改作 5th writer (last-resort)
+PRIMARY_WRITERS=("codex" "gemini" "grok" "chatgpt")  # 2026-11-22: codex 打头, 浏览器通道兜底
+FALLBACK_WRITER="none"  # 2026-11-22: DeepSeek/MiniMax 下线, 兜底改走 seo-llm.sh 浏览器通道
 
 # 跑主力 AI
 for WRITER in "${PRIMARY_WRITERS[@]}"; do
@@ -836,8 +813,14 @@ for WRITER in "${PRIMARY_WRITERS[@]}"; do
         continue
     fi
 
-    log "🤖 Trying writer: $WRITER (ai-router, 600s)"
-    WRITER_OUT=$(timeout --kill-after=20 600 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$WRITER" "$WRITER_PROMPT_FILE" 600 2>&1)
+    if [ "$WRITER" = "codex" ]; then
+        # 2026-11-22: 本机 Codex CLI (ChatGPT 订阅), 不依赖 DeepSeek/MiniMax 余额
+        log "🤖 Trying writer: codex (本机 CLI, 560s)"
+        WRITER_OUT=$(timeout --kill-after=20 600 bash "$SCRIPT_DIR/codex-channel.sh" "$WRITER_PROMPT_FILE" 560 2>&1)
+    else
+        log "🤖 Trying writer: $WRITER (ai-router, 600s)"
+        WRITER_OUT=$(timeout --kill-after=20 600 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$WRITER" "$WRITER_PROMPT_FILE" 600 2>&1)
+    fi
 
     # 2026-07-15 BUGFIX: ai-router 偶发把 markdown header escape 成 \#, 导致 grep -q "##" 漏判
     # unescape \# → #, \* → *, 让 grep 能正确匹配 markdown header
@@ -885,11 +868,11 @@ done
 # 2026-07-06 07:46 v6.0 FIX: 总裁禁止 minimax fallback (永禁), 改用 ai-router 多源补位
 # 严禁 minimax, 补位走 ai-router (doubao 优先 → gemini → chatgpt → grok)
 # iron rule 7/5 21:24: 每次 prompt 必须不同, 用 nonce 后缀绕过 ai-guard 去重检测
-FALLBACK_WRITER_ROUTERS=("doubao" "gemini" "chatgpt" "grok")
+FALLBACK_WRITER_ROUTERS=("gemini" "grok" "chatgpt")
 
 # 2026-11-22 FIX: 原条件把"已接受的长文(无 ## 标记)"也判成不足, 又白跑 4 个 AI 各 600s
 if [ ${#WRITER_OUT} -le $MIN_CHARS ]; then
-    log "💡 主力 4 AI 全失败或不足, ai-router 多源补位 (minimax 永禁)..."
+    log "💡 主力写手全失败或不足, ai-router 多源补位 (浏览器通道)..."
 
     # 注入唯一 nonce 保证每次 prompt hash 不同 (绕过 ai-guard 24h dedup)
     WRITER_PROMPT_FILE_FB="$TMP_DIR/${SLUG}_writer_prompt_fb.txt"
@@ -950,22 +933,22 @@ if [ ${#WRITER_OUT} -lt $MIN_CHARS ]; then
     # 历史背景: 7/6 永禁 minimax 写文, 但 7/20 03:30 cron 4+4 AI 全 fail 后 manual recovery 用 minimax 14546 chars 写通
     # 总裁 7/20 默认 minimax 兜底作为 last-resort (5th writer)
     # 限制: minimax 兜底只在 8 AI 全 fail 时触发, 不替代主力
-    log "⚠️ 主力 4 + fallback 4 共 8 AI 全 fail, v5.18: minimax 5th writer 兜底 (last-resort, 7/20 破例)"
+    log "⚠️ 主力 + fallback 全 fail, 5th writer 兜底 (浏览器通道 gemini/grok/chatgpt)"
     NONCE_LAST=$(date +%s%N | md5 | head -c 16)
         { cat "$WRITER_PROMPT_FILE_LAST"; printf '\n\n[Internal-ref-last-resort: %s 2026-11-20-b5]\n' "$NONCE_LAST"; } > "$WRITER_PROMPT_FILE_LAST.tmp"
         mv "$WRITER_PROMPT_FILE_LAST.tmp" "$WRITER_PROMPT_FILE_LAST"
-    # minimax 走 direct API (MiniMax-M2.7-highspeed), 跳过 chrome CDP 不稳定
-    LAST_OUT=$(timeout --kill-after=20 600 bash "$SCRIPT_DIR/minimax-quick.sh" "$WRITER_PROMPT_FILE_LAST" "MiniMax-M2.7-highspeed" 16000 2>&1) || LAST_EXIT=$?
+    # 2026-11-22: MiniMax/DeepSeek API 已不可用, 5th writer 改为浏览器通道 (gemini/grok/chatgpt)
+    LAST_OUT=$(SEO_LLM_STRICT=0 timeout --kill-after=20 600 bash "$SCRIPT_DIR/seo-llm.sh" "$WRITER_PROMPT_FILE_LAST" 400 2000 2>&1) || LAST_EXIT=$?
     LAST_OUT=$(echo "$LAST_OUT" | sed 's/\\#/#/g; s/\\\*/*/g')
     if [ ${#LAST_OUT} -gt $MIN_CHARS ] && echo "$LAST_OUT" | grep -Eq '^##? |^# |<h[1-3]>|^\*\*[A-Z]|^[0-9]+\. '; then
-        log "✅ minimax 5th writer 兜底成功 (${#LAST_OUT} chars, last-resort)"
+        log "✅ 浏览器通道 5th writer 兜底成功 (${#LAST_OUT} chars, last-resort)"
         WRITER_OUT="$LAST_OUT"
-        WRITERS_TRIED="$WRITERS_TRIED minimax(last-resort,${#LAST_OUT}chars)"
+        WRITERS_TRIED="$WRITERS_TRIED browser-last-resort(${#LAST_OUT}chars)"
     else
         # 2026-07-21 v5.18.1 FIX: bash 3.2 不支持 ${#VAR:-0} (macOS default), 改用 ${#VAR} + 默认 0 防 unset
         LAST_OUT_LEN=${#LAST_OUT}
         [ -z "$LAST_OUT" ] && LAST_OUT_LEN=0
-        log "❌ minimax 5th writer 兜底也失败 (${LAST_OUT_LEN} chars)"
+        log "❌ 浏览器通道 5th writer 兜底也失败 (${LAST_OUT_LEN} chars)"
         log "❌ All writers produced insufficient content (< $MIN_CHARS chars)"
         log "💡 深度文要求 ≥2000 词, LLM 可能偷工减料, 需 manual recovery"
         exit 1
@@ -1048,8 +1031,9 @@ AI_ROUTER_CALL="$SCRIPT_DIR/seo-ai-router-call.sh"
 
 if [ "$USE_AI_ROUTER" = "1" ]; then
   # Gemini audit via ai-router (总裁指示: 一定要用到 ai 助手技能)
-  log "  🤖 ai-router → Gemini (180s timeout)..."
-  GEMINI_AUDIT=$(timeout 180 bash "$AI_ROUTER_CALL" gemini "$AUDIT_PROMPT_FILE" 180 2>&1) || GEMINI_AUDIT="SCORE: 0"
+  # 2026-11-22: 审计也改走 seo-llm (codex 首选), 浏览器通道只做二级兜底
+  log "  🤖 审计通道 A (codex)..." 
+  GEMINI_AUDIT=$(SEO_LLM_CHANNELS=codex timeout 260 bash "$SCRIPT_DIR/seo-llm.sh" "$AUDIT_PROMPT_FILE" 240 5 2>&1) || GEMINI_AUDIT="SCORE: 0"
   if echo "$GEMINI_AUDIT" | grep -qE "^\[error\]|SCORE: 0$"; then
     # 2026-07-15 fix: 7/6 minimax 永禁后, audit 不能用 minimax 兜底 exit
     # 改成 self-estimated score 75 (基于 article 实际质量: words/citations/sections)
@@ -1062,8 +1046,8 @@ if [ "$USE_AI_ROUTER" = "1" ]; then
 Be a different auditor than typical. Emphasize B2B actionability and real engineering data. Be slightly more generous on E-E-A-T if data sources are present."
   CHATGPT_AUDIT_PROMPT_FILE="$TMP_DIR/${SLUG}_audit_prompt_chatgpt.txt"
   printf '%s' "$CHATGPT_AUDIT_PROMPT" > "$CHATGPT_AUDIT_PROMPT_FILE"
-  log "  🤖 ai-router → ChatGPT (180s timeout)..."
-  CHATGPT_AUDIT=$(timeout 180 bash "$AI_ROUTER_CALL" chatgpt "$CHATGPT_AUDIT_PROMPT_FILE" 180 2>&1) || CHATGPT_AUDIT="SCORE: 0"
+  log "  🤖 审计通道 B (gemini → grok → codex)..."
+  CHATGPT_AUDIT=$(SEO_LLM_CHANNELS="gemini grok codex" timeout 260 bash "$SCRIPT_DIR/seo-llm.sh" "$CHATGPT_AUDIT_PROMPT_FILE" 240 5 2>&1) || CHATGPT_AUDIT="SCORE: 0"
   if echo "$CHATGPT_AUDIT" | grep -qE "^\[error\]|SCORE: 0$"; then
     log "  ⚠️ ai-router ChatGPT 失败, 用 self-estimated score 75 (minimax 永禁 per 7/6)"
     CHATGPT_AUDIT="SCORE: 75\nSELF_ESTIMATED: chatgpt audit failed but article has real ISO/EN/ASTM citations"
@@ -1294,8 +1278,15 @@ IMAGE_FILE="$PROJECT_DIR/public/images/articles/${SLUG}.jpg"
 bash "$HOME/.openclaw/workspace/tools/minimax-image-gen.sh" "$IMAGE_PROMPT" "$IMAGE_FILE" 2>&1 | tail -3 || log "⚠️ Image generation failed, continuing"
 # 2026-11-22 FIX: 配图 API 没余额时, 至少不让 slug 图片 404 (先借一张现有图占位, 之后可换)
 if [ ! -s "$IMAGE_FILE" ]; then
-    log "⚠️ 配图缺失, 用现有图占位避免 404"
-    cp "$PROJECT_DIR/public/images/articles/africa-1.jpg" "$IMAGE_FILE" 2>/dev/null || true
+    # 2026-11-22: 配图 API 也已欠费, 改成按主题从现有图库挑图 (不再全站共用 africa-1.jpg)
+    log "⚠️ 配图 API 不可用, 从现有图库按主题关键词选图..."
+    PICKED_IMG=$(bash "$SCRIPT_DIR/pick-hero-image.sh" "$TOPIC" "$SLUG" "$IMAGE_FILE" 2>/dev/null)
+    if [ -n "$PICKED_IMG" ]; then
+        log "  🖼️ 选用图库图片: $PICKED_IMG"
+    else
+        log "  ⚠️ 图库选图失败, 用 africa-1.jpg 兜底"
+        cp "$PROJECT_DIR/public/images/articles/africa-1.jpg" "$IMAGE_FILE" 2>/dev/null || true
+    fi
 fi
 
 # Git commit + push + deploy

@@ -36,23 +36,23 @@ notify() {
 ERROR_PATTERN="api error|payment required|402|insufficient|unauthorized|invalid api|not set|no api key|missing|empty|timed out|timeout|\[error\]"
 
 # ---------- 单通道检测 ----------
-check_minimax() {  # $1=model
-    local model="$1" out
-    out=$(timeout 30 bash "$PROJECT_DIR/scripts/minimax-quick.sh" "Reply only: OK" "$model" 50 2>&1 | head -c 200)
-    if [ ${#out} -gt 5 ] && ! echo "$out" | grep -qiE "$ERROR_PATTERN"; then
-        echo "OK"
-    else
-        echo "FAIL:$out"
-    fi
+# 2026-11-22: DeepSeek(余额不足) 与 MiniMax(402) 两条 API 路线已绕开,
+# 这里不再探测它们的 key/余额, 只留一行说明, 不计入健康通道。
+check_bypassed_apis() {
+    echo "BYPASSED"
 }
 
-check_deepseek() {
-    local out
-    out=$(curl -s --max-time 15 -X POST "https://api.deepseek.com/v1/chat/completions" \
-        -H "Authorization: Bearer sk-43be94f13cad4c80bd934c85ccd43a5d" \
-        -H "Content-Type: application/json" \
-        -d '{"model":"deepseek-chat","messages":[{"role":"user","content":"OK"}],"max_tokens":5}' 2>&1 | head -c 200)
-    if echo "$out" | grep -q '"choices"'; then echo "OK"; else echo "FAIL:$(echo "$out" | head -c 100)"; fi
+# 2026-11-22 新增: 本机 Codex CLI (ChatGPT 订阅) 是主力写手, 必须实测
+check_codex() {
+    local work="/tmp/preflight-codex-$$.txt" out
+    printf 'Reply with exactly one line: OK' > "$work"
+    out=$(timeout 150 bash "$SCRIPT_DIR/codex-channel.sh" "$work" 120 2>&1 | head -c 120)
+    rm -f "$work"
+    if [ ${#out} -ge 2 ] && ! echo "$out" | grep -qiE "model_not_found|not supported|unauthorized|invalid|\[error\]"; then
+        echo "OK"
+    else
+        echo "FAIL:$(echo "$out" | head -c 80)"
+    fi
 }
 
 ensure_router_chrome() {
@@ -78,8 +78,9 @@ probe_router_ais() {
     local work="/tmp/preflight-probe-$$.txt"
     printf 'Reply with exactly one line: OK. Do not explain.' > "$work"
     local usable=() ai out
-    for ai in doubao gemini chatgpt grok; do
-        out=$(timeout 90 bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$ai" "$work" 90 2>&1 | head -c 400)
+    # 2026-11-22: 豆包输入框 verify 长期失败, 只测 gemini / grok / chatgpt
+    for ai in gemini grok chatgpt; do
+        out=$(SEO_LLM_CHANNELS="$ai" timeout 120 bash "$SCRIPT_DIR/seo-llm.sh" "$work" 100 2 2>&1 | head -c 200)
         if [ ${#out} -ge 2 ] && ! echo "$out" | grep -qiE "$ERROR_PATTERN"; then
             usable+=("$ai")
         fi
@@ -101,17 +102,12 @@ run_checks() {
     echo "[$(date '+%H:%M:%S')] 🔍 Pre-flight AI health check (第 $1 轮)..."
 
     local r
-    r=$(check_minimax "MiniMax-M2.7-highspeed")
-    if [ "$r" = "OK" ]; then HEALTHY_AIS+=("MiniMax-M2.7-highspeed"); echo "  ✅ MiniMax-M2.7-highspeed: OK"
-    else UNHEALTHY_AIS+=("MiniMax-M2.7-highspeed"); echo "  ❌ MiniMax-M2.7-highspeed: FAIL"; fi
+    # 2026-11-22: DeepSeek / MiniMax 走 API 已绕过, 不再计入健康检查
+    echo "  ↷ DeepSeek / MiniMax API: 已绕过 (余额不足 / 402), 不计入健康通道"
 
-    r=$(check_minimax "MiniMax-M2.7")
-    if [ "$r" = "OK" ]; then HEALTHY_AIS+=("MiniMax-M2.7"); echo "  ✅ MiniMax-M2.7: OK"
-    else UNHEALTHY_AIS+=("MiniMax-M2.7"); echo "  ❌ MiniMax-M2.7: FAIL"; fi
-
-    r=$(check_deepseek)
-    if [ "$r" = "OK" ]; then HEALTHY_AIS+=("deepseek-api"); echo "  ✅ DeepSeek API: OK"
-    else UNHEALTHY_AIS+=("deepseek-api"); echo "  ⚠️ DeepSeek API: FAIL (${r#FAIL:})"; fi
+    r=$(check_codex)
+    if [ "$r" = "OK" ]; then HEALTHY_AIS+=("codex"); echo "  ✅ Codex CLI (ChatGPT 订阅): OK"
+    else UNHEALTHY_AIS+=("codex"); echo "  ❌ Codex CLI: FAIL (${r#FAIL:})"; fi
 
     local vercel_count
     vercel_count=$( (cd "$PROJECT_DIR" && timeout 45 npx vercel ls --prod 2>&1) | grep -c "Ready" || true )
@@ -174,7 +170,7 @@ BLOCK_FILE="$LOG_DIR/blocked-$(date '+%Y%m%d').txt"
     echo "reason=no_writing_channel"
     echo "unhealthy=${UNHEALTHY_AIS[*]}"
     echo "attempts=$MAX_ATTEMPTS"
-    echo "next=充值 DeepSeek 或登录 Chrome-Debug 里的豆包/Gemini 账号, 然后手动补跑:"
+    echo "next=在 Chrome-Debug 里登录 Gemini / Grok / ChatGPT 任一账号, 然后手动补跑:"
     echo "     bash $PROJECT_DIR/scripts/seo-ai-pipeline.sh"
 } > "$BLOCK_FILE"
 
@@ -182,5 +178,5 @@ echo "  🚨 三轮均无可用写作通道 — skip Pipeline (状态已写入 $
 notify "🚨 今日文章未生成
 ❌ 所有写作通道三轮均不可用
 ✅ 已记录: $BLOCK_FILE
-💡 需充值 API 或在 Chrome-Debug 登录豆包/Gemini 后补跑"
+💡 请在 Chrome-Debug 登录 Gemini / Grok / ChatGPT 后补跑"
 exit 1
