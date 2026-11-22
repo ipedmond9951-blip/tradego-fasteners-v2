@@ -4,6 +4,11 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: "..",
   },
+  experimental: {
+    // Vercel 构建机自报 2 核，Next 于是只用 1 个 worker 生成 2784 个静态页（6.9 分钟）。
+    // 强制多开 worker，页面生成是 IO/JSON 解析为主，超配也能明显加速。
+    cpus: 4,
+  },
   trailingSlash: true,
   // Edge redirects — handled at Vercel edge (~50ms) instead of server-side (~200ms)
   // PageSpeed Insights flagged redirect chain (/) → (/en) costing ~200ms.
