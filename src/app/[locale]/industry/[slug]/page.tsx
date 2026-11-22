@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { redirect } from 'next/navigation'
+import { redirect, notFound } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 import { getAllArticles, getAllSlugs, getArticleBySlug, getRelatedByCategory, getArticleTitle, humanizeSlug, isThinArticle } from '@/lib/articles'
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale: localeParam, slug } = await params
   const locale = (localeParam as Locale) || 'en'
   const article = getArticleBySlug(slug) as any
-  if (!article) return { title: 'Article Not Found' }
+  if (!article) return { title: 'Article Not Found', robots: { index: false, follow: true } }
 
   // Old article slug redirected to new URL - don't index
   if (article.redirectTo) {
@@ -138,16 +138,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
   const locale = (localeParam as Locale) || 'en'
   const article = getArticleBySlug(slug)
 
-  if (!article) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-2xl font-bold mb-4">Article Not Found</h1>
-          <Link href={`/${locale}/industry`} className="text-primary-600 hover:underline">← Back to articles</Link>
-        </div>
-      </div>
-    )
-  }
+  // 未知 slug 必须返回真 404, 避免软 404 被收录
+  if (!article) notFound()
 
   // Old article slug redirected to new URL
   if ((article as any).redirectTo) {

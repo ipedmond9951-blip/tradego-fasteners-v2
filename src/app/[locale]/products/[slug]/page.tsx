@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { notFound } from 'next/navigation'
 import { type Locale, locales } from '@/i18n'
 import { allProducts } from '@/lib/products'
 import { productNames, productDescriptions, uiLabels, specLabels, pick } from '@/lib/productI18n'
@@ -63,7 +64,8 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   const { locale: localeParam, slug } = await params
   const locale = (localeParam as Locale) || 'en'
   const product = allProducts.find(p => p.slug === slug)
-  if (!product) return null
+  // 未知产品 slug 返回真 404
+  if (!product) notFound()
 
   const name = pick(productNames[slug], locale)
   const desc = productDescriptions[slug]?.[locale] || productDescriptions[slug]?.en || ''
