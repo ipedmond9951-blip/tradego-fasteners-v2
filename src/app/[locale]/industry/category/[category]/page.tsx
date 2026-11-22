@@ -1,4 +1,4 @@
-import { type Locale, t, locales } from '@/i18n'
+import { type Locale, locales } from '@/i18n'
 import Link from 'next/link'
 import Image from 'next/image'
 import { getAllArticles } from '@/lib/articles'
@@ -214,7 +214,6 @@ export default async function CategoryPage({
     })
 
   const catLabel = CATEGORY_I18N[cat]?.[locale] || cat
-  const siteUrl = 'https://www.tradego-fasteners.com'
 
   return (
     <div className="min-h-screen bg-gray-50">

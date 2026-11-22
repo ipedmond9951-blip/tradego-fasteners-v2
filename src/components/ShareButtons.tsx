@@ -9,12 +9,11 @@ interface ShareButtonsProps {
   image?: string
 }
 
-export default function ShareButtons({ url, title, description, image }: ShareButtonsProps) {
+export default function ShareButtons({ url, title }: ShareButtonsProps) {
   const [copied, setCopied] = useState(false)
 
   const encodedUrl = encodeURIComponent(url)
   const encodedTitle = encodeURIComponent(title)
-  const encodedDescription = encodeURIComponent(description || '')
 
   const copyLink = async () => {
     try {

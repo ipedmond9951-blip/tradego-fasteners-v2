@@ -18,7 +18,6 @@ export const metadata: Metadata = {
 export default async function ZimbabweFastenersPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: localeParam } = await params
   const locale = (localeParam as Locale) || 'en'
-  const t = (key: string) => key // 简化，实际应该用i18n
 
   return (
     <div className="min-h-screen bg-white">

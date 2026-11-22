@@ -82,7 +82,7 @@ export default function Analytics() {
       }, 500)
       return () => clearTimeout(timer)
     }
-  }, [])
+  }, [pathname])
   
   // 用户点了「同意」后补发一次当前页面浏览
   useEffect(() => {

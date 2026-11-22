@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useMemo } from 'react'
-import { type Locale, t } from '@/i18n'
+import { type Locale } from '@/i18n'
 import ProductGridWithSkeleton from '@/components/ProductGridWithSkeleton'
 
 interface Product {
@@ -33,27 +33,6 @@ const categories = [
   { key: 'anchors', label: 'Anchors' },
   { key: 'washers', label: 'Washers' },
 ]
-
-// Map products to categories
-function getProductCategories(slug: string): string[] {
-  const categories: string[] = []
-  if (slug.includes('drywall') || slug.includes('self-drilling') || slug.includes('coach')) {
-    categories.push('screws')
-  }
-  if (slug.includes('bolt') || slug.includes('threaded')) {
-    categories.push('bolts')
-  }
-  if (slug.includes('ibr') || slug.includes('nail')) {
-    categories.push('nails')
-  }
-  if (slug.includes('anchor')) {
-    categories.push('anchors')
-  }
-  if (slug.includes('washer')) {
-    categories.push('washers')
-  }
-  return categories
-}
 
 // Search score function - higher = more relevant
 function searchScore(product: Product, query: string, texts: Record<string, string>): number {

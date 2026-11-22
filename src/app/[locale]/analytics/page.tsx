@@ -2,18 +2,10 @@
 
 import { useEffect, useState } from 'react'
 import {
-  LineChart,
-  Line,
-  BarChart,
-  Bar,
   PieChart,
   Pie,
   Cell,
-  XAxis,
-  YAxis,
-  CartesianGrid,
   Tooltip,
-  Legend,
   ResponsiveContainer,
 } from 'recharts'
 
@@ -83,7 +75,7 @@ export default function AnalyticsDashboard() {
         setData(data)
         setLoading(false)
       })
-      .catch((err) => {
+      .catch(() => {
         setError('Failed to load analytics data')
         setLoading(false)
       })
@@ -259,7 +251,7 @@ export default function AnalyticsDashboard() {
           <div className="bg-white rounded-lg shadow p-6">
             <h2 className="text-xl font-semibold text-gray-900 mb-4">Geographic Distribution (Top Markets)</h2>
             <div className="space-y-3">
-              {data.geoDistribution.map((item, index) => (
+              {data.geoDistribution.map((item) => (
                 <div key={item.countryCode} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
                   <div className="flex items-center">
                     <span className="text-2xl mr-3">{item.flag}</span>

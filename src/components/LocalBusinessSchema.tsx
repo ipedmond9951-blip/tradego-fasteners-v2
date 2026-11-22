@@ -6,7 +6,7 @@ interface LocalBusinessSchemaProps {
   locale?: Locale
 }
 
-export default function LocalBusinessSchema({ locale = 'en' }: LocalBusinessSchemaProps) {
+export default function LocalBusinessSchema({}: LocalBusinessSchemaProps) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',

@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { type Locale, t } from '@/i18n'
 
-export default function ProductUploadPage({ params }: { params: Promise<{ locale: string }> }) {
+export default function ProductUploadPage() {
   const [localeParam] = useState('en')
   const locale = (localeParam as Locale) || 'en'
   const [submitted, setSubmitted] = useState(false)
@@ -14,7 +14,6 @@ export default function ProductUploadPage({ params }: { params: Promise<{ locale
     e.preventDefault()
     setLoading(true)
     const form = e.currentTarget
-    const formData = new FormData(form)
 
     // Handle image preview
     const imageFile = form.image?.files?.[0]

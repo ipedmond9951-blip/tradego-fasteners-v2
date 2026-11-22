@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 interface WhatsAppCTAProps {
   locale: string
@@ -30,16 +30,6 @@ const translations: Record<string, {
   }
 }
 
-const otherLocales: Record<string, typeof translations.en> = {
-  es: { title: 'Chatea con TradeGo', subtitle: 'Obtén cotizaciones instantáneas y soporte personalizado en WhatsApp.', button: 'Escríbenos en WhatsApp', tooltip: '¡Chatea con nosotros directamente!' },
-  fr: { title: 'Discutez avec TradeGo', subtitle: 'Obtenez des devis instantanés et un support personnalisé sur WhatsApp.', button: 'Contactez-nous sur WhatsApp', tooltip: 'Discutez directement avec nous!' },
-  ar: { title: 'تحدث مع TradeGo', subtitle: 'احصل على عروض أسعار فورية ودعم مخصص على WhatsApp.', button: 'راسلنا على WhatsApp', tooltip: 'تحدث معنا مباشرة!' },
-  pt: { title: 'Converse com TradeGo', subtitle: 'Obtenha orçamentos instantâneos e suporte personalizado no WhatsApp.', button: 'Envie uma mensagem no WhatsApp', tooltip: 'Converse conosco diretamente!' },
-  ru: { title: 'Чат с TradeGo', subtitle: 'Получите мгновенные предложения и персонализированную поддержку в WhatsApp.', button: 'Напишите в WhatsApp', tooltip: 'Общайтесь с нами напрямую!' },
-  ja: { title: 'TradeGoとチャット', subtitle: 'WhatsAppで即座に見積もり，取得とサポートを受ける。', button: 'WhatsAppでメッセージ', tooltip: '今すぐチャット！' },
-  de: { title: 'Chatten Sie mit TradeGo', subtitle: 'Erhalten Sie sofortige Angebote und personalisierte Unterstützung auf WhatsApp.', button: 'Nachricht auf WhatsApp', tooltip: 'Chatten Sie direkt mit uns!' },
-  hi: { title: 'TradeGo के साथ चैट करें', subtitle: 'WhatsApp पर तुरंत कोटेशन और व्यक्तिगत सहायता प्राप्त करें।', button: 'WhatsApp पर संदेश भेजें', tooltip: 'हमसे सीधे चैट करें!' },
-}
 
 export default function WhatsAppCTA({ locale }: WhatsAppCTAProps) {
   const [isMinimized, setIsMinimized] = useState(true)

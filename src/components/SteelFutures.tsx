@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 
 interface FuturesData {
   name: string
@@ -88,16 +88,6 @@ const translations: Record<string, {
   }
 }
 
-const otherLocales: Record<string, typeof translations.en> = {
-  es: { title: 'Datos del Mercado del Acero', subtitle: 'Precios del acero y materias primas en tiempo real', lastUpdate: 'Última actualización', loading: 'Cargando datos...', error: 'Datos temporalmente no disponibles', source: 'Fuente', commodities: { steel: 'Acero (HRC)', ironOre: 'Mineral de hierro', coal: 'Carbón coquizable', scrap: 'Chatarra de acero', rebar: 'Varilla corrugada', galvanized: 'Bobina galvanizada', coldRolled: 'Lámina cold rolled', nickel: 'Níquel', usdzar: 'USD/ZAR', usdcny: 'USD/CNY' } },
-  fr: { title: 'Données du Marché de l\'Acier', subtitle: 'Prix de l\'acier et des matières premières en temps réel', lastUpdate: 'Dernière mise à jour', loading: 'Chargement...', error: 'Données temporairement indisponibles', source: 'Source', commodities: { steel: 'Acier (HRC)', ironOre: 'Minerai de fer', coal: 'Charbon cokéfiable', scrap: 'Ferraille', rebar: 'Acier d\'armature', galvanized: 'Bobine galvanisée', coldRolled: 'Tôle cold rolled', nickel: 'Nickel', usdzar: 'USD/ZAR', usdcny: 'USD/CNY' } },
-  ar: { title: 'بيانات سوق الصلب', subtitle: 'أسعار الصلب والمواد الخام في الوقت الفعلي', lastUpdate: 'آخر تحديث', loading: 'جاري التحميل...', error: 'البيانات غير متاحة مؤقتا', source: 'المصدر', commodities: { steel: 'الصلب (HRC)', ironOre: 'خام الحديد', coal: 'فحم الكوك', scrap: 'خردة الصلب', rebar: 'حديد التسليح', galvanized: 'ملف مجلفن', coldRolled: 'صفائح باردة', nickel: 'النيكل', usdzar: 'USD/ZAR', usdcny: 'USD/CNY' } },
-  pt: { title: 'Dados do Mercado de Aço', subtitle: 'Preços do aço e matérias-primas em tempo real', lastUpdate: 'Última atualização', loading: 'Carregando...', error: 'Dados temporariamente indisponíveis', source: 'Fonte', commodities: { steel: 'Aço (HRC)', ironOre: 'Minério de ferro', coal: 'Carvão coqueria', scrap: 'Sucata de aço', rebar: 'Aço CA-50', galvanized: 'Bobina galvanizada', coldRolled: 'Chapa cold rolled', nickel: 'Níquel', usdzar: 'USD/ZAR', usdcny: 'USD/CNY' } },
-  ru: { title: 'Данные рынка стали', subtitle: 'Цены на сталь и сырье в реальном времени', lastUpdate: 'Последнее обновление', loading: 'Загрузка...', error: 'Данные временно недоступны', source: 'Источник', commodities: { steel: 'Сталь (HRC)', ironOre: 'Железная руда', coal: 'Коксующийся уголь', scrap: 'Металлолом', rebar: 'Арматура', galvanized: 'Оцинкованный рулон', coldRolled: 'Холоднокатаный лист', nickel: 'Никель', usdzar: 'USD/ZAR', usdcny: 'USD/CNY' } },
-  ja: { title: '鋼材市場データ', subtitle: '鋼材と原材料のリアルタイム価格', lastUpdate: '最終更新', loading: '読み込み中...', error: 'データ一時的に利用不可', source: 'ソース', commodities: { steel: '鋼材 (HRC)', ironOre: '鉄鉱石', coal: 'コークス用石炭', scrap: '鉄スクラップ', rebar: '鉄筋', galvanized: '溶融亜鉛めっき鋼板', coldRolled: '冷間圧延鋼板', nickel: 'ニッケル', usdzar: 'USD/ZAR', usdcny: 'USD/CNY' } },
-  de: { title: 'Stahldaten', subtitle: 'Echtzeit-Preise für Stahl und Rohstoffe', lastUpdate: 'Letzte Aktualisierung', loading: 'Laden...', error: 'Daten vorübergehend nicht verfügbar', source: 'Quelle', commodities: { steel: 'Stahl (HRC)', ironOre: 'Eisenerz', coal: 'Kokskohle', scrap: 'Stahlschrott', rebar: 'Bewehrungsstahl', galvanized: 'Verzinktes Blech', coldRolled: 'Kaltgewalztes Blech', nickel: 'Nickel', usdzar: 'USD/ZAR', usdcny: 'USD/CNY' } },
-  hi: { title: 'इस्पात बाज़ार डेटा', subtitle: 'इस्पात और कच्चे माल की वास्तविक समय की कीमतें', lastUpdate: 'अंतिम अपडेट', loading: 'लोड हो रहा है...', error: 'डेटा अस्थायी रूप से अनुपलब्ध', source: 'स्रोत', commodities: { steel: 'इस्पात (HRC)', ironOre: 'लौह अयस्क', coal: 'कोकिंग कोयला', scrap: 'इस्पात स्क्रैप', rebar: 'रीबार', galvanized: 'जिंक-लेपित कॉइल', coldRolled: 'कोल्ड रोल्ड शीट', nickel: 'निकेल', usdzar: 'USD/ZAR', usdcny: 'USD/CNY' } },
-}
 
 // Default fallback data
 // Static fallback data - DO NOT use new Date() here to prevent hydration mismatch
@@ -130,7 +120,7 @@ export default function SteelFutures({ locale }: SteelFuturesProps) {
   
   const content = translations[locale] || translations.en
 
-  const fetchData = async () => {
+  const fetchData = useCallback(async () => {
     setLoading(true)
     setError(null)
     
@@ -158,7 +148,7 @@ export default function SteelFutures({ locale }: SteelFuturesProps) {
     } finally {
       setLoading(false)
     }
-  }
+  }, [locale, content.error])
 
   useEffect(() => {
     fetchData()
@@ -166,7 +156,7 @@ export default function SteelFutures({ locale }: SteelFuturesProps) {
     // Refresh every 5 minutes
     const interval = setInterval(fetchData, 5 * 60 * 1000)
     return () => clearInterval(interval)
-  }, [locale, content.error])
+  }, [fetchData])
 
   // Get display name for commodity
   const getCommodityName = (symbol: string): string => {
@@ -192,7 +182,7 @@ export default function SteelFutures({ locale }: SteelFuturesProps) {
     return 'bg-gray-50 border-gray-100'
   }
 
-  const formatPrice = (price: number | string, symbol: string): string => {
+  const formatPrice = (price: number | string): string => {
     const numPrice = typeof price === 'string' ? parseFloat(price) : price
     // Format based on price magnitude
     if (numPrice > 1000) {
@@ -245,7 +235,7 @@ export default function SteelFutures({ locale }: SteelFuturesProps) {
                     {getCommodityName(item.symbol)}
                   </div>
                   <div className="text-xl md:text-2xl font-bold text-slate-900 mb-1">
-                    {formatPrice(item.price, item.symbol)}
+                    {formatPrice(item.price)}
                   </div>
                   <div className="text-xs text-slate-500 mb-2">
                     {item.unit}

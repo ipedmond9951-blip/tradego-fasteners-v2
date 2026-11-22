@@ -1,6 +1,6 @@
 'use client'
 
-import { type Locale, t } from '@/i18n'
+import { type Locale } from '@/i18n'
 
 interface ProductsContentSectionProps {
   locale: Locale

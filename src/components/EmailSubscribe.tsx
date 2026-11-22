@@ -38,16 +38,6 @@ const translations: Record<string, {
   }
 }
 
-const otherLocales: Record<string, typeof translations.en> = {
-  es: { title: 'Mantente Actualizado con TradeGo', subtitle: 'Recibe las últimas novedades del sector de sujetadores, actualizaciones de precios y ofertas exclusivas.', placeholder: 'Ingresa tu correo electrónico', button: 'Suscribirse', privacy: 'Respetamos tu privacidad. Cancela cuando quieras.', success: '¡Gracias por suscribirte!', error: 'Por favor ingresa un correo válido.', loading: 'Suscribiendo...' },
-  fr: { title: 'Restez Informé avec TradeGo', subtitle: 'Recevez les dernières actualités du secteur de la visserie, les mises à jour de prix et les offres exclusives.', placeholder: 'Entrez votre adresse email', button: "S'abonner", privacy: 'Nous respectons votre vie privée. Désabonnez-vous à tout moment.', success: 'Merci de votre inscription!', error: 'Veuillez entrer un email valide.', loading: 'Inscription...' },
-  ar: { title: 'تابع آخر الأخبار مع TradeGo', subtitle: 'احصل على آخر رؤى صناعة مثبتات التثبيت وتحديثات الأسعار والعروض الحصرية.', placeholder: 'أدخل بريدك الإلكتروني', button: 'اشترك', privacy: 'نحن نحترم خصوصيتك. يمكنك إلغاء الاشتراك في أي وقت.', success: 'شكرا لاشتراكك!', error: 'الرجاء إدخال بريد إلكتروني صالح.', loading: 'جاري الاشتراك...' },
-  pt: { title: 'Fique Atualizado com TradeGo', subtitle: 'Receba as últimas novidades do setor de fixadores, atualizações de preços e ofertas exclusivas.', placeholder: 'Digite seu endereço de email', button: 'Inscrever-se', privacy: 'Respeitamos sua privacidade. Cancele a qualquer momento.', success: 'Obrigado por se inscrever!', error: 'Por favor, insira um email válido.', loading: 'Inscrevendo...' },
-  ru: { title: 'Оставайтесь в курсе с TradeGo', subtitle: 'Получайте последние новости отрасли крепежа, обновления цен и эксклюзивные предложения.', placeholder: 'Введите ваш email', button: 'Подписаться', privacy: 'Мы уважаем вашу конфиденциальность. Отпишитесь в любое время.', success: 'Спасибо за подписку!', error: 'Пожалуйста, введите корректный email.', loading: 'Подписка...' },
-  ja: { title: 'TradeGoで最新情報を入手', subtitle: '最新のファスナー業界の洞察、価格更新、限定オファーを受け取る。', placeholder: 'メールアドレスを入力', button: '購読', privacy: '私たちはあなたのプライバシーを尊重します。いつでも購読を解除できます。', success: '購読셔서ありがとうございます！', error: '有効なメールアドレスを入力してください。', loading: '購読中...' },
-  de: { title: 'Bleiben Sie informiert mit TradeGo', subtitle: 'Erhalten Sie die neuesten Einblicke in die Befestigungsindustrie, Preisaktualisierungen und exklusive Angebote.', placeholder: 'Geben Sie Ihre E-Mail-Adresse ein', button: 'Abonnieren', privacy: 'Wir respektieren Ihre Privatsphäre. Jederzeit abmelden.', success: 'Vielen Dank für Ihre Anmeldung!', error: 'Bitte geben Sie eine gültige E-Mail-Adresse ein.', loading: 'Anmeldung...' },
-  hi: { title: 'TradeGo के साथ अपडेट रहें', subtitle: 'नवीनतम फास्टनर उद्योग अंतर्दृष्टि, मूल्य अपडेट और विशेष ऑफर प्राप्त करें।', placeholder: 'अपना ईमेल पता दर्ज करें', button: 'सदस्यता लें', privacy: 'हम आपकी गोपनीयता का सम्मान करते हैं। कभी भी सदस्यता रद्द करें।', success: 'सदस्यता के लिए धन्यवाद!', error: 'कृपया एक वैध ईमेल पता दर्ज करें।', loading: 'सदस्यता ली जा रही है...' },
-}
 
 export default function EmailSubscribe({ locale }: EmailSubscribeProps) {
   const [email, setEmail] = useState('')

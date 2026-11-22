@@ -26,7 +26,7 @@ interface ProductCardClientProps {
 }
 
 export default function ProductCardClient({ product, locale, name }: ProductCardClientProps) {
-  const { formatPrice } = useCurrency()
+  const {} = useCurrency()
 
   const specLabels: Record<string, Record<string, string>> = {
     en: { size: 'Size', standard: 'Standard', material: 'Material', finish: 'Finish' },

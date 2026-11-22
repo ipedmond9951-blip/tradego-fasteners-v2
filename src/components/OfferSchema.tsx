@@ -14,7 +14,6 @@ interface OfferSchemaProps {
 }
 
 export default function OfferSchema({
-  locale = 'en',
   sku,
   name,
   description,

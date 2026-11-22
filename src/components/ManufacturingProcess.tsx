@@ -1,7 +1,5 @@
 'use client'
 
-import { useState } from 'react'
-
 interface ManufacturingProcessProps {
   locale: string
 }
@@ -104,7 +102,6 @@ const otherLocales: Record<string, typeof translations.en> = {
 }
 
 export default function ManufacturingProcess({ locale }: ManufacturingProcessProps) {
-  const [activeTab, setActiveTab] = useState(0)
   
   const content = translations[locale] || otherLocales[locale] || translations.en
 

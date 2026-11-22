@@ -68,7 +68,7 @@ export default function ImageObjectSchema({ locale }: ImageObjectSchemaProps) {
         },
       },
       // Product images
-      ...productImages.map((img, idx) => ({
+      ...productImages.map((img) => ({
         '@type': 'ImageObject',
         '@id': `${siteUrl}${img.url}#primary`,
         url: `${siteUrl}${img.url}`,
@@ -93,7 +93,7 @@ export default function ImageObjectSchema({ locale }: ImageObjectSchemaProps) {
         license: `${siteUrl}/terms`,
       })),
       // GEO article images
-      ...articleImages.map((img, idx) => ({
+      ...articleImages.map((img) => ({
         '@type': 'ImageObject',
         '@id': `${siteUrl}${img.url}#article`,
         url: `${siteUrl}${img.url}`,

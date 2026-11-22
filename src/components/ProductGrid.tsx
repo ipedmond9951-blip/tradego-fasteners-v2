@@ -148,7 +148,7 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
         
         {/* Responsive grid: 1col sm → 2col md → 4col lg */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-8">
-          {products.map((product, index) => {
+          {products.map((product) => {
             const text = texts[product.nameKey] || productText.en[product.nameKey]
             return (
               <div key={product.slug} className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow flex flex-col">

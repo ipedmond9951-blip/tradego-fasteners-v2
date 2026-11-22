@@ -9,7 +9,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src",
+    "lint": "eslint src --max-warnings 4",
     "postbuild": "next-sitemap"
   },
   "dependencies": {

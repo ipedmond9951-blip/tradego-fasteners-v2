@@ -7,7 +7,7 @@ interface HowToSchemaProps {
   description?: string
 }
 
-export default function HowToSchema({ locale = 'en', title, steps, description }: HowToSchemaProps) {
+export default function HowToSchema({ title, steps, description }: HowToSchemaProps) {
   const howToSchema = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',

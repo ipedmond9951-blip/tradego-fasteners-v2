@@ -11,18 +11,6 @@ interface AutoShareProps {
   locale: string
 }
 
-const translations: Record<string, string> = {
-  en: 'Share on LinkedIn',
-  zh: '分享到领英',
-  es: 'Compartir en LinkedIn',
-  fr: 'Partager sur LinkedIn',
-  ar: 'مشاركة على لينكد إن',
-  pt: 'Compartilhar no LinkedIn',
-  ru: 'Поделиться в LinkedIn',
-  ja: 'LinkedInでシェア',
-  de: 'Auf LinkedIn teilen',
-  hi: 'LinkedIn पर शेयर करें',
-}
 
 export default function AutoShare({ title, url, locale }: AutoShareProps) {
   useEffect(() => {

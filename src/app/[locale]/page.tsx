@@ -1,6 +1,6 @@
 import Script from 'next/script'
 import type { Metadata } from 'next'
-import { locales, type Locale, getMessages, t } from '@/i18n'
+import { locales, type Locale } from '@/i18n'
 import HeroSection from '@/components/HeroSection'
 import AboutSection from '@/components/AboutSection'
 import WhyChooseUs from '@/components/WhyChooseUs'
@@ -11,13 +11,12 @@ import TestimonialsSection from '@/components/TestimonialsSection'
 import InquiryForm from '@/components/InquiryForm'
 import { GeoPromotion } from '@/components/GeoContent'
 import ShareButtons from '@/components/ShareButtons'
-import ManufacturingProcess from '@/components/ManufacturingProcess'
 import VideoSection from '@/components/VideoSection'
 import StatisticsSection from '@/components/StatisticsSection'
 import SourcesSection from '@/components/SourcesSection'
 
 // 2026-07-16 23:30 GSC 修复: 首页加 canonical + 10-lang hreflang
-export function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Metadata {
+export function generateMetadata(): Metadata {
   return {
     alternates: {
       canonical: 'https://www.tradego-fasteners.com/en',
@@ -36,8 +35,6 @@ export function generateStaticParams() {
 export default async function LocalePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: localeParam } = await params
   const locale = (localeParam as Locale) || 'en'
-  const msgs = getMessages(locale)
-  const BASE_URL = 'https://www.tradego-fasteners.com'
 
   return (
     <>

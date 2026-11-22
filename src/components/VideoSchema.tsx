@@ -6,7 +6,7 @@ interface VideoSchemaProps {
   locale: Locale
 }
 
-const videoData = {
+const videoData: Record<string, Array<{ name: string; description: string; duration: string; uploadDate: string; thumbnail: string }>> = {
   en: [
     {
       name: 'TradeGo Fasteners Factory Tour',
@@ -33,7 +33,8 @@ const videoData = {
 }
 
 export default function VideoSchema({ locale }: VideoSchemaProps) {
-  const videos = videoData.en // Default to English for now
+  // 目前只有英文视频源，其它语言回退到英文
+  const videos = videoData[locale] ?? videoData.en
 
   const schema = {
     '@context': 'https://schema.org',
