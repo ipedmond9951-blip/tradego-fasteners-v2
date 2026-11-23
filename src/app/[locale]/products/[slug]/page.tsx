@@ -1,3 +1,4 @@
+import { optImagePath } from '@/lib/optImages'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -164,7 +165,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
           </div>
           <div className="relative aspect-[4/3] rounded-xl overflow-hidden bg-white/10">
             <Image
-              src={product.image}
+              src={optImagePath(product.image, 'hero')}
               alt={name}
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
