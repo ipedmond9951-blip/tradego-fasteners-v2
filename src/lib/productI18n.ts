@@ -45,6 +45,46 @@ export const productNames: Record<string, Dict> = {
     fr: 'Tiges filetées', pt: 'Barras roscadas', ru: 'Резьбовые стержни',
     ja: '全ねじボルト', de: 'Gewindestangen', hi: 'थ्रेडेड रॉड',
   },
+  'chipboard-screws': {
+    en: 'Chipboard Screws', zh: '刨花板螺丝', es: 'Tornillos para aglomerado', ar: 'براغي ألواح الخشب',
+    fr: 'Vis pour aggloméré', pt: 'Parafusos para aglomerado', ru: 'Шурупы для ДСП',
+    ja: 'パーティクルボードねじ', de: 'Spanplattenschrauben', hi: 'चिपबोर्ड स्क्रू',
+  },
+  'concrete-screws': {
+    en: 'Concrete Screws', zh: '混凝土螺钉', es: 'Tornillos para hormigón', ar: 'براغي خرسانة',
+    fr: 'Vis béton', pt: 'Parafusos para concreto', ru: 'Бетонные винты',
+    ja: 'コンクリートねじ', de: 'Beton-Schrauben', hi: 'कंक्रीट स्क्रू',
+  },
+  'self-tapping-screws': {
+    en: 'Self-Tapping Screws', zh: '自攻螺钉', es: 'Tornillos autorroscantes', ar: 'براغي ذاتية اللولبة',
+    fr: 'Vis taraudeuses', pt: 'Parafusos autoatarraxantes', ru: 'Самонарезающие винты',
+    ja: 'タッピングねじ', de: 'Blechschrauben', hi: 'सेल्फ-टैपिंग स्क्रू',
+  },
+  'blind-rivets': {
+    en: 'Blind Rivets', zh: '抽芯铆钉', es: 'Remaches ciegos', ar: 'مسامير برشام',
+    fr: 'Rivets aveugles', pt: 'Rebites cegos', ru: 'Заклёпки',
+    ja: 'ブラインドリベット', de: 'Blindnieten', hi: 'ब्लाइंड रिवेट',
+  },
+  'coil-nails': {
+    en: 'Coil Nails', zh: '卷钉', es: 'Clavos en rollo', ar: 'مسامير ملفوفة',
+    fr: 'Clous en rouleau', pt: 'Pregos em rolo', ru: 'Гвозди в кассете',
+    ja: 'コイル釘', de: 'Magazinnägel', hi: 'कॉइल नेल',
+  },
+  'common-nails': {
+    en: 'Common Nails', zh: '普通圆钉', es: 'Clavos comunes', ar: 'مسامير عادية',
+    fr: 'Clous ordinaires', pt: 'Pregos comuns', ru: 'Строительные гвозди',
+    ja: '普通釘', de: 'Drahtnägel', hi: 'कॉमन नेल',
+  },
+  'sleeve-anchors': {
+    en: 'Sleeve Anchors', zh: '套管锚栓', es: 'Anclajes de manguito', ar: 'مراسي كمّية',
+    fr: 'Chevilles à douille', pt: 'Chumbadores de luva', ru: 'Гильзовые анкеры',
+    ja: 'スリーブアンカー', de: 'Hülsendübel', hi: 'स्लीव एंकर',
+  },
+  'expansion-bolts': {
+    en: 'Expansion Bolts', zh: '膨胀螺栓', es: 'Pernos de expansión', ar: 'براغي تمدد',
+    fr: 'Boulons à expansion', pt: 'Parafusos de expansão', ru: 'Распорные анкерные болты',
+    ja: 'エキスパンションボルト', de: 'Spreizanker', hi: 'एक्सपैंशन बोल्ट',
+  },
 }
 
 // 详情页简述（en / zh 为主，其它语言回落到 en）
@@ -80,6 +120,38 @@ export const productDescriptions: Record<string, Dict> = {
   'threaded-rods': {
     en: 'Fully threaded rods M6–M24 in 1 m / 2 m / 3 m lengths, Grade 4.8 / 8.8 / 10.9, zinc plated, HDG or stainless 304/316, cut-to-size available.',
     zh: '全牙螺纹杆，M6–M24，1m/2m/3m 定尺，4.8/8.8/10.9 级，可镀锌、热镀锌或不锈钢 304/316，支持定尺切割。',
+  },
+  'chipboard-screws': {
+    en: 'Countersunk particle-board screws with coarse or fine thread, 3.5–5.0 mm × 16–120 mm. Yellow zinc, white zinc or black phosphate; Pozi, Phillips or Torx drive.',
+    zh: '喇叭头刨花板螺丝，粗牙或细牙，规格 3.5–5.0mm × 16–120mm。黄锌、白锌或黑磷化，十字、米字或梅花槽。',
+  },
+  'concrete-screws': {
+    en: 'Concrete anchor screws that cut their own thread — no pre-drilling, no resin, removable. 6.0 / 7.5 mm × 40–200 mm, hex or Torx head, yellow or white zinc.',
+    zh: '混凝土锚固螺钉，自行切螺纹，无需预钻孔、无胶管、可拆卸。6.0 / 7.5mm × 40–200mm，六角或梅花头，黄锌或白锌。',
+  },
+  'self-tapping-screws': {
+    en: 'Self-tapping screws for sheet metal, plastics and wood, 3.5–6.5 mm × 9.5–200 mm. Pan, wafer, countersunk or oval head; zinc, black oxide or ruspert.',
+    zh: '自攻螺钉，适用于薄板金属、塑料与木材，3.5–6.5mm × 9.5–200mm。盘头、大帽头、沉头或半沉头，镀锌、发黑或 ruspert。',
+  },
+  'blind-rivets': {
+    en: 'Blind rivets 3.2 / 4.0 / 4.8 / 6.4 mm in aluminium, steel or stainless — large flange, countersunk and structural multi-grip versions. DIN 7337.',
+    zh: '抽芯铆钉 3.2 / 4.0 / 4.8 / 6.4mm，铝、钢或不锈钢材质，可选大帽沿、沉头与结构型多档铆钉。符合 DIN 7337。',
+  },
+  'coil-nails': {
+    en: 'Collated coil nails 2.5–3.3 mm × 50–90 mm at 15° / 21° / 28°, smooth or ring shank, bright, electro-galvanized or HDG. For framing nailers.',
+    zh: '卷钉 2.5–3.3mm × 50–90mm，15°/21°/28° 排角，光杆或环纹杆，光亮、电镀锌或热镀锌，适配气动打钉枪。',
+  },
+  'common-nails': {
+    en: 'Flat-head common nails 1″–8″ (2.0–6.0 mm × 25–200 mm), bright, electro-galvanized or hot-dip galvanized, in 25 kg cartons.',
+    zh: '普通圆钉 1″–8″（2.0–6.0mm × 25–200mm），光亮、电镀锌或热镀锌，25kg 纸箱装。',
+  },
+  'sleeve-anchors': {
+    en: 'Sleeve anchors M6–M20 in stainless 304/316 or zinc-plated steel, with hex nut and washer. Sleeve, drop-in and wedge versions for concrete and brick.',
+    zh: '套管锚栓 M6–M20，不锈钢 304/316 或镀锌碳钢，配六角螺母与垫圈。含套管型、内迫型与楔形型，适用混凝土与砖砌体。',
+  },
+  'expansion-bolts': {
+    en: 'Wedge-type expansion bolts M6–M24 × 50–300 mm, zinc-plated, hot-dip galvanized or stainless, for structural and equipment anchoring.',
+    zh: '楔形膨胀螺栓 M6–M24 × 50–300mm，镀锌、热镀锌或不锈钢，用于结构件与设备锚固。',
   },
 }
 
