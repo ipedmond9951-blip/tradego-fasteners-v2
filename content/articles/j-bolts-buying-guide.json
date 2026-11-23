@@ -1,0 +1,150 @@
+{
+  "slug": "j-bolts-buying-guide",
+  "category": "Product Guide",
+  "date": "2026-11-23",
+  "readTime": "10",
+  "image": "/images/products/j-bolts.jpg",
+  "title": {
+    "en": "J Bolts Buying Guide: Hook, Embedment and Coating",
+    "zh": "J 型螺栓采购指南：弯钩、埋深与镀层",
+    "es": "Guía de pernos en J: gancho, empotramiento y recubrimiento",
+    "fr": "Guide des boulons en J : crochet, scellement et revêtement",
+    "pt": "Guia de parafusos em J: gancho, embutimento e revestimento",
+    "ar": "دليل براغي J: الخطاف وعمق التثبيت والطلاء",
+    "ru": "Анкерные болты с крюком (J-болты): гиб, заделка и покрытие",
+    "ja": "Jボルトの選び方：フック形状・埋込み長・表面処理",
+    "de": "J-Bolzen-Ratgeber: Haken, Einbindetiefe und Beschichtung",
+    "hi": "J बोल्ट गाइड: हुक, एम्बेडमेंट और कोटिंग"
+  },
+  "description": {
+    "en": "Specify hooked foundation bolts for fence posts, poles and precast: embedment length, hook radius, thread length, steel grade and galvanising decisions.",
+    "zh": "围栏立柱、电杆与预制件用弯钩地脚螺栓选型：埋深、弯钩半径、螺纹长度、钢号与镀锌取舍。",
+    "es": "Cómo especificar pernos de anclaje en J para postes, torres y prefabricados: empotramiento, radio del gancho, rosca y galvanizado.",
+    "fr": "Spécifier des boulons d'ancrage en J pour poteaux, mâts et préfabriqués : scellement, rayon du crochet, filetage et galvanisation.",
+    "pt": "Como especificar parafusos de ancoragem em J para postes, torres e pré-moldados: embutimento, raio do gancho, rosca e galvanização.",
+    "ar": "تحديد براغي التثبيت على شكل J للأعمدة والأبراج والمسبقات: عمق التثبيت ونصف قطر الخطاف والسن والجلفنة.",
+    "ru": "Как задать анкерный болт с крюком для столбов, опор и сборного железобетона: заделка, радиус гиба, резьба, цинкование.",
+    "ja": "フェンス支柱・電柱・PC部材用Jアンカーボルトの仕様：埋込み長、フック半径、ねじ長、鋼種、亜鉛めっき。",
+    "de": "Ankerbolzen mit Haken für Zaunpfähle, Masten und Fertigteile: Einbindetiefe, Hakenradius, Gewindelänge, Stahlgüte.",
+    "hi": "फेंस पोस्ट, पोल और प्रीकास्ट के लिए J एंकर बोल्ट: एम्बेडमेंट लंबाई, हुक रेडियस, थ्रेड लंबाई और जिंक कोटिंग।"
+  },
+  "keywords": "J bolts, J bolt foundation, hook anchor bolt, DIN 529 foundation bolt, fence post bolt, pole anchor bolt, J bolts Zimbabwe",
+  "sections": [
+    {
+      "id": "what-is-a-j-bolt",
+      "heading": {
+        "en": "What a J Bolt Does That Other Bolts Cannot",
+        "zh": "J 型螺栓的独有价值"
+      },
+      "body": {
+        "en": "A J bolt is a bent anchor bolt: one end is threaded, the other is curved into a hook and cast into concrete. The hook is what stops the bolt pulling out; the thread takes the nut that clamps the post, pole, frame or machine base. Because the anchor works by concrete bearing on the bend rather than by friction, it needs no sleeve, no wedge and no torque setting, and it tolerates the normal vibration of a fence line or a pole base. That makes it the default fixing for fence posts, gate posts, light poles, antenna masts, precast panel connections, canopy columns and machine plinths. It is not a substitute for a U bolt: a U bolt clamps around a pipe or pole, while a J bolt is set into the ground and takes the load at its thread. Nor is it a substitute for a through-bolt where the base plate must be pulled down hard against a grout pad, which needs a longer thread and often a washer plate.",
+        "zh": "J 型螺栓是一种弯钩地脚螺栓：一端带螺纹，另一端弯成钩子浇进混凝土。钩子负责抗拔，螺纹端靠螺母把立柱、电杆、框架或设备底座压紧。它靠混凝土对弯钩的承压受力，不靠摩擦，所以不需要套管、楔块和扭矩设定，也能承受围栏线和高杆基础常见的振动。这使它成为围栏立柱、门柱、灯杆、天线杆、预制板连接、雨棚立柱和设备基础的首选。它不是 U 型螺栓的替代：U 型螺栓抱住管子或杆件，J 型螺栓埋入地下，靠螺纹端承载。它也不能代替底板需要压紧在灌浆垫上的贯穿螺栓，那种场合需要更长的螺纹，通常还要垫板。"
+      }
+    },
+    {
+      "id": "length-rule",
+      "heading": {
+        "en": "Setting the Length: Embedment Plus Fixture",
+        "zh": "长度怎么定：埋深加固定物"
+      },
+      "body": {
+        "en": "Total length equals the embedment in concrete plus the thickness of whatever sits on the base plus the nut and washer plus two or three spare threads. Embedment is the variable that decides the design, and it follows the load and the concrete, not the habit of the fabricator. For fence and gate posts in C20 concrete, 150 to 250 mm of embedment is the usual working range; for light poles and masts, 300 mm and above; for heavy machine bases and canopy columns, the structural engineer should state it. A useful rule of thumb for a single bolt in tension is that the embedment should be at least ten bar diameters in good concrete, more in cracked or mass concrete. The hook radius itself is usually three to four bar diameters, bent cold for diameters up to about M20 and hot for larger sizes to avoid cracking at the bend.",
+        "zh": "总长等于混凝土内的埋深，加上坐在基础上的构件厚度，再加螺母、垫圈和两三个备用螺纹。埋深是决定设计的变量，它由荷载和混凝土强度决定，而不是加工厂的习惯。C20 混凝土里的围栏和门柱，常用埋深 150 到 250 mm；灯杆和天线杆 300 mm 以上；重型设备基础与雨棚立柱应由结构工程师给定。单个受拉螺栓的经验规则是，良好混凝土中埋深不少于十个螺栓直径，开裂混凝土或素混凝土要更长。弯钩半径通常是三到四个螺栓直径，M20 以内可冷弯，更大规格要热弯，避免弯钩处开裂。"
+      }
+    },
+    {
+      "id": "thread-and-nut",
+      "heading": {
+        "en": "Thread Length, Nut and Washer",
+        "zh": "螺纹长度、螺母与垫圈"
+      },
+      "body": {
+        "en": "The threaded portion must be long enough for the nut, a washer and the adjustment the site actually needs. Two or three spare threads beyond the nut is the minimum; where the base plate sits on shims that will be removed after grouting, allow 10 to 15 mm of adjustment. Metric coarse thread is normal for M8 to M24; specify the thread class if the project has one, and confirm whether the nut and washer are supplied assembled or loose, because a container of bolts without nuts stops the site. For galvanised bolts, the nut must be galvanised too: a plain nut on a galvanised bolt both looks wrong and rusts first. Where the bolt passes through a timber post, add a steel washer plate to spread the load, and where it passes through a steel base plate, check the hole diameter against the bolt and the washer outside diameter so the washer does not hang on the hole edge.",
+        "zh": "螺纹段要够长，能容纳螺母、垫圈和现场实际需要的调节量。螺母之外留两三个备用螺纹是底线；底板坐在垫片上、灌浆后要撤掉垫片时，要留 10 到 15 mm 调节量。M8 到 M24 常用公制粗牙；项目有螺纹等级要求时注明，并确认螺母和垫圈是装配好供货还是散装，一柜没有螺母的螺栓会让工地停摆。镀锌螺栓的螺母也必须镀锌：镀锌螺杆配普通螺母既不好看，也会先锈。穿过木立柱时加钢垫板分散压力；穿过钢底板时要核对孔径与螺栓、垫圈外径，避免垫圈悬在孔边。"
+      }
+    },
+    {
+      "id": "steel-and-coating",
+      "heading": {
+        "en": "Steel Grade and Coating Trade-offs",
+        "zh": "钢号与镀层的取舍"
+      },
+      "body": {
+        "en": "Q235 is the common grade for general fence, pole and canopy anchors, and Q345 or a 8.8 grade bar is used where the anchor takes structural tension. For anchors specified to ASTM F1554, the grade designation (36, 55 or 105) sets the yield strength and the buyer should ask for the mill certificate, not just the marking. Coating is where buyers most often over- or under-specify. The embedded hook needs no coating at all in most cases, but the exposed thread and the portion above the concrete need protection: hot-dip galvanising is standard for outdoor and coastal work, zinc plating for dry inland, and stainless or a heavy duplex coating for severe coastal and industrial sites. A common mistake is to galvanise the whole bolt including the embedment, which is harmless but adds cost for nothing. Another is to galvanise an M20 bolt without accounting for the thread clearance: hot-dip galvanising adds thickness, and a nut that fitted a plain bolt may not run freely on a galvanised one unless the thread is tapped oversize.",
+        "zh": "Q235 是围栏、电杆、雨棚锚栓的常用钢号，Q345 或 8.8 级杆用于承受结构拉力的锚栓。按 ASTM F1554 指定的锚栓，其 36、55、105 等级决定屈服强度，买家应当索要材质证明，而不只是看钢印。镀层是最容易过配或欠配的地方：多数情况下埋入段无需镀层，但外露螺纹和混凝土以上部分需要保护，户外和沿海常规是热镀锌，干燥内陆可用电镀锌，严酷沿海与工业环境用不锈钢或厚膜复合涂层。常见错误之一是把包括埋入段在内的整根螺栓都镀锌，无害但白花钱；之二是给 M20 螺栓镀锌时没考虑螺纹间隙，热镀锌会增加厚度，原本配光杆的螺母可能拧不动，除非螺纹按加大尺寸攻丝。"
+      }
+    },
+    {
+      "id": "bending-and-tolerance",
+      "heading": {
+        "en": "Bending Quality and Tolerances",
+        "zh": "弯曲质量与公差"
+      },
+      "body": {
+        "en": "A J bolt is a fabricated item, so the quality lives in the bend and the thread, not in the steel alone. Cold bending of large diameters creates a stretched outer fibre and a risk of cracking; a fabricator who bends M24 cold without annealing is trading durability for speed. Ask how the bend is made and whether the hook is formed in one pass with a controlled radius. Dimensional tolerances that matter on site are the straightness of the shank, the centre-to-centre distance where two bolts form a pair for a post, the thread length and the overall length. Loose tolerances on the pair spacing mean the post will not fit the holes in the base plate. Inspect a sample by laying it on a flat surface: a bent shank shows as a gap under the middle, and a hook with an uneven radius shows as an asymmetric opening. Pack bolts in bundles by size with the hooks alternating so the bundle sits flat in the carton.",
+        "zh": "J 型螺栓是加工件，质量在弯钩和螺纹上，不光在钢材上。大直径冷弯会拉长外侧纤维并有开裂风险，不做退火就冷弯 M24 的加工厂是在用耐久性换速度。要问弯钩怎么做、是否一次成型并控制半径。现场真正起作用的公差是杆身直线度、成对螺栓的中心距、螺纹长度和总长。成对间距公差松，立柱就装不进底板孔。抽样检查时把它平放在平台上：杆身弯曲表现为中段有缝隙，弯钩半径不均表现为开口不对称。按规格捆扎，钩子交错摆放，让整捆在箱内放平。"
+      }
+    },
+    {
+      "id": "packing-shipping",
+      "heading": {
+        "en": "Packing, Loading and Documents",
+        "zh": "包装、装载与单证"
+      },
+      "body": {
+        "en": "J bolts are long, heavy and awkward, so packing drives freight cost more than the steel price. The usual export pack is bundles of 20 to 50 pieces tied with wire or strapped, hooks alternating, with a paper or poly wrap against moisture; long bolts are often packed in wooden crates to stop the thread being damaged in transit. Ask for the bundle weight and the number of bundles per pallet or crate, then calculate the load plan: a 20-foot container of M12 x 300 mm bolts will weigh out before it cubes out, while M8 x 150 mm will cube out first. Protect the threads with a plastic cap or a wrap, because a damaged thread means the nut will not run and the site grinds it off. Documents are the usual invoice, packing list, bill of lading and certificate of origin, plus the mill certificate when the project specifies a grade. If the anchor is for a structural connection, keep the heat number on the bundle label so the certificate can be traced to the delivered pieces.",
+        "zh": "J 型螺栓又长又重又难装，包装对运费的影响往往大于钢价。常规出口包装是 20 到 50 根一捆，用铁丝或扎带捆紧，钩子交错，外面包纸或塑膜防潮；长规格常装木箱，避免运输中碰伤螺纹。要问清每捆重量、每托盘或每箱捆数，再算装载方案：20 尺柜装 M12×300 是先到限重，装 M8×150 则先到体积。螺纹要加塑料护套或包覆，螺纹碰伤螺母就拧不进，工地会直接拿砂轮磨掉。单证是发票、装箱单、提单、原产地证，项目指定钢号时加材质证明。用于结构连接时，在捆扎标签上记录炉批号，让证明能追溯到交付的具体件。"
+      }
+    },
+    {
+      "id": "quote-checklist",
+      "heading": {
+        "en": "Six Facts for an Accurate Quote",
+        "zh": "报价准的六个信息"
+      },
+      "body": {
+        "en": "Give the supplier the diameter and total length, the thread length, the hook radius if it is fixed by design, the steel grade, the coating and the quantity by size. Add the application, because a fence post anchor and a pole base anchor carry different expectations on embedment even at the same diameter. If drawings exist, send them; if not, a simple sketch with the four controlling dimensions saves a round of emails. Ask for a pre-production sample of three pieces for a new project, and check that the nut runs the full thread by hand before the container ships. TradeGo supplies J bolts from M8 to M24, 100 to 600 mm length, Q235 and Q345, hot-dip galvanised or zinc plated, with nuts and washers supplied, bundled and crated for sea freight.",
+        "zh": "把直径与总长、螺纹长度、设计固定的弯钩半径、钢号、镀层和各规格数量给到供应商。再说明用途，因为同样直径下，围栏柱锚栓与电杆基础锚栓对埋深的预期不同。有图纸就发图纸，没有的话，一张标了四个控制尺寸的简图能省掉一轮邮件往返。新项目先要三根产前样，装柜前用手把螺母走完全部螺纹验证一遍。TradeGo 供应 M8 到 M24、长度 100 到 600 mm 的 J 型螺栓，Q235 与 Q345，热镀锌或电镀锌，配螺母垫圈，按捆扎和木箱装运。"
+      }
+    }
+  ],
+  "relatedProducts": [
+    "j-bolts",
+    "anchor-bolts",
+    "u-bolts"
+  ],
+  "cta": {
+    "text": {
+      "en": "Send diameter, length and embedment for your post or pole base and get a bundled, crated quote.",
+      "zh": "把直径、长度和立柱或电杆基础的埋深发来，获取捆扎木箱装运报价。"
+    },
+    "buttonText": {
+      "en": "Request a quote",
+      "zh": "获取报价"
+    },
+    "link": "/en/products/j-bolts/"
+  },
+  "author": "TradeGo Fasteners Technical Team",
+  "metaDescription": {
+    "en": "J bolt guide for fence posts, poles and precast: length and embedment rule, hook radius, thread allowance, Q235 versus Q345, galvanising and packing.",
+    "zh": "J 型螺栓指南：围栏立柱与电杆的长度埋深规则、弯钩半径、螺纹余量、Q235 与 Q345、镀锌与包装装载。",
+    "es": "Guía de pernos en J para postes y prefabricados: longitud y empotramiento, radio del gancho, rosca, Q235 frente a Q345 y galvanizado.",
+    "fr": "Guide des boulons en J pour poteaux et préfabriqués : longueur et scellement, rayon du crochet, filetage, Q235 contre Q345 et galvanisation.",
+    "pt": "Guia de parafusos em J para postes e pré-moldados: comprimento e embutimento, raio do gancho, rosca, Q235 versus Q345 e galvanização.",
+    "ar": "دليل براغي J للأعمدة والمسبقات: الطول وعمق التثبيت، نصف قطر الخطاف، السن، Q235 مقابل Q345 والجلفنة.",
+    "ru": "Анкерные J-болты для столбов и сборного ЖБ: длина и заделка, радиус гиба, резьба, Q235 против Q345, цинкование.",
+    "ja": "Jボルトガイド：支柱・電柱の長さと埋込み、フック半径、ねじ余長、Q235とQ345、亜鉛めっき、梱包。",
+    "de": "J-Bolzen-Ratgeber: Länge und Einbindung, Hakenradius, Gewindezugabe, Q235 gegen Q345, Verzinkung, Verpackung.",
+    "hi": "J बोल्ट गाइड: पोस्ट और पोल के लिए लंबाई-एम्बेडमेंट, हुक रेडियस, थ्रेड मार्जिन, Q235 बनाम Q345, जिंक और पैकिंग।"
+  },
+  "imageAlt": {
+    "en": "Hot-dip galvanised J bolts with nuts and washers",
+    "zh": "热镀锌 J 型螺栓配螺母与垫圈"
+  },
+  "relatedArticles": [
+    "anchor-bolts-selection-guide",
+    "anchor-bolts-foundation-guide",
+    "bolt-grade-markings-guide",
+    "binding-wire-buying-guide"
+  ]
+}

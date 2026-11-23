@@ -31,7 +31,7 @@ export const markets: MarketPage[] = [
       en: 'Roofing (IBR nails, self-drilling screws with washers), drywall screws, hex bolts and nuts, anchors, waterproofing — the mix that matches IBR roof and block-work construction.',
       zh: '屋面（IBR 钉、带垫自钻螺丝）、干墙钉、六角螺栓螺母、锚栓、防水材料 —— 对应 IBR 屋面与砌体施工的组合。',
     },
-    topSlugs: ['ibr-nails', 'self-drilling-screws', 'drywall-screws', 'bolts-nuts', 'anchor-bolts', 'butyl-tape'],
+    topSlugs: ['ibr-nails', 'self-drilling-screws', 'roofing-screws', 'drywall-screws', 'bolts-nuts', 'anchor-bolts', 'butyl-tape', 'plastic-anchors'],
     faq: {
       en: [
         ['Which port is cheaper for Harare?', 'Beira is usually cheaper on sea freight and inland distance; Durban has more sailings and steadier schedules. We quote both so you can compare landed cost.'],
@@ -64,7 +64,7 @@ export const markets: MarketPage[] = [
       en: 'Grade 8.8 and 10.9 structural bolts, anchor bolts, threaded rods, mining anchors, plus standard screws and nails for site work.',
       zh: '8.8 与 10.9 级结构螺栓、地脚螺栓、螺杆、矿山锚固件，以及工地常用的螺丝与钉类。',
     },
-    topSlugs: ['bolts-nuts', 'anchor-bolts', 'threaded-rods', 'expansion-bolts', 'sleeve-anchors', 'common-nails'],
+    topSlugs: ['bolts-nuts', 'anchor-bolts', 'threaded-rods', 'expansion-bolts', 'sleeve-anchors', 'common-nails', 'j-bolts', 'binding-wire'],
     faq: {
       en: [
         ['Do you supply Grade 10.9 bolts for mining?', 'Yes, with mill certificates stating grade and heat number; third-party inspection can be arranged.'],
@@ -97,7 +97,7 @@ export const markets: MarketPage[] = [
       en: 'IBR roofing nails, self-drilling screws with EPDM washers, structural bolts and nuts, anchors, washers and waterproofing.',
       zh: 'IBR 屋面钉、带 EPDM 垫自钻螺丝、结构螺栓螺母、锚栓、垫圈与防水材料。',
     },
-    topSlugs: ['ibr-nails', 'self-drilling-screws', 'bolts-nuts', 'washers', 'wedge-anchors', 'waterproof-membrane'],
+    topSlugs: ['ibr-nails', 'self-drilling-screws', 'bolts-nuts', 'washers', 'wedge-anchors', 'waterproof-membrane', 'roofing-screws', 'chemical-anchors'],
     faq: {
       en: [
         ['Are your IBR nails SABS compliant?', 'Roofing nails are produced to SABS 1195 requirements; test reports are available on request.'],
@@ -130,7 +130,7 @@ export const markets: MarketPage[] = [
       en: 'Roofing fasteners, concrete screws, anchors and waterproofing for coastal humidity, plus nails and general site hardware.',
       zh: '屋面紧固件、混凝土螺丝、锚栓与适应沿海高湿的防水材料，及钉类与通用工地五金。',
     },
-    topSlugs: ['ibr-nails', 'concrete-screws', 'sleeve-anchors', 'butyl-tape', 'common-nails', 'asphalt-flash-band'],
+    topSlugs: ['ibr-nails', 'concrete-screws', 'sleeve-anchors', 'butyl-tape', 'common-nails', 'asphalt-flash-band', 'plastic-anchors', 'binding-wire'],
     faq: {
       en: [
         ['Which port for transit to Zimbabwe?', 'Beira — it is the shortest sea leg, then road through Mutare.'],
@@ -154,7 +154,7 @@ export const markets: MarketPage[] = [
     ports: { en: 'Durban (South Africa) with a road leg to Gaborone and Francistown; Walvis Bay (Namibia) as a second option.', zh: '德班（南非）陆运至哈博罗内与弗朗西斯敦；沃尔维斯湾（纳米比亚）作为第二选择。' },
     docs: { en: 'Invoice, packing list, B/L, certificate of origin and mill certificates; transit documents name Botswana as final destination.', zh: '发票、装箱单、提单、原产地证与材质书；转口单证需标明最终目的国为博茨瓦纳。' },
     lines: { en: 'Structural bolts, anchors, roofing fasteners, waterproofing and general site hardware.', zh: '结构螺栓、锚栓、屋面紧固件、防水材料与通用工地五金。' },
-    topSlugs: ['bolts-nuts', 'anchor-bolts', 'ibr-nails', 'waterproof-membrane', 'washers', 'coach-screws'],
+    topSlugs: ['bolts-nuts', 'anchor-bolts', 'ibr-nails', 'waterproof-membrane', 'washers', 'coach-screws', 'j-bolts', 'roofing-screws'],
     faq: {
       en: [
         ['How is freight arranged?', 'Sea to Durban, then road to Gaborone or Francistown; we quote FOB and CIF Durban.'],
@@ -178,7 +178,7 @@ export const markets: MarketPage[] = [
     ports: { en: 'Mombasa for Kenya and the East African transit market; sea transit typically 28–32 days.', zh: '蒙巴萨服务肯尼亚与东非转口市场，海运通常 28–32 天。' },
     docs: { en: 'Invoice, packing list, B/L, certificate of origin, mill certificates and the PVoC certificate of conformity where the destination requires it.', zh: '发票、装箱单、提单、原产地证、材质书，以及目的国要求的 PVoC 合格证书。' },
     lines: { en: 'Roofing screws and nails, structural bolts, anchors, concrete screws and waterproofing.', zh: '屋面螺丝与钉类、结构螺栓、锚栓、混凝土螺丝与防水材料。' },
-    topSlugs: ['self-drilling-screws', 'ibr-nails', 'bolts-nuts', 'concrete-screws', 'sleeve-anchors', 'butyl-tape'],
+    topSlugs: ['self-drilling-screws', 'ibr-nails', 'bolts-nuts', 'concrete-screws', 'sleeve-anchors', 'butyl-tape', 'drywall-anchors', 'plastic-anchors'],
     faq: {
       en: [
         ['Is PVoC required?', 'Normally yes for regulated products; we arrange inspection through an accredited body and include the certificate with the shipping documents.'],
@@ -202,7 +202,7 @@ export const markets: MarketPage[] = [
     ports: { en: 'Lagos for the southwest and Onne for the southeast; sea transit typically 30–35 days.', zh: '拉各斯服务西南部，Onne 服务东南部，海运通常 30–35 天。' },
     docs: { en: 'Invoice, packing list, B/L, certificate of origin, mill certificates and the SONCAP certificate where applicable.', zh: '发票、装箱单、提单、原产地证、材质书，以及适用的 SONCAP 证书。' },
     lines: { en: 'Roofing fasteners, structural bolts, anchors, nails and waterproofing for humid coastal sites.', zh: '屋面紧固件、结构螺栓、锚栓、钉类与适应高湿沿海环境的防水材料。' },
-    topSlugs: ['bolts-nuts', 'ibr-nails', 'anchor-bolts', 'common-nails', 'waterproof-coating', 'sleeve-anchors'],
+    topSlugs: ['bolts-nuts', 'ibr-nails', 'anchor-bolts', 'common-nails', 'waterproof-coating', 'sleeve-anchors', 'binding-wire', 'chemical-anchors'],
     faq: {
       en: [
         ['Is SONCAP mandatory?', 'For regulated products under the SONCAP list, yes — we arrange the certificate through an accredited inspection body.'],

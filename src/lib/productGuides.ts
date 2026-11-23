@@ -26,4 +26,10 @@ export const productGuides: Record<string, string> = {
   'waterproof-coating': 'waterproof-coating-buying-guide',
   'waterproof-membrane': 'waterproof-membrane-buying-guide',
   'wedge-anchors': 'wedge-anchors-buying-guide',
+  'roofing-screws': 'roofing-screws-buying-guide',
+  'plastic-anchors': 'plastic-anchors-buying-guide',
+  'drywall-anchors': 'drywall-anchors-buying-guide',
+  'chemical-anchors': 'chemical-anchors-buying-guide',
+  'j-bolts': 'j-bolts-buying-guide',
+  'binding-wire': 'binding-wire-buying-guide',
 }
