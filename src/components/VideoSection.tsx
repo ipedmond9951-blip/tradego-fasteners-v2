@@ -149,7 +149,6 @@ export default function VideoSection({ locale }: VideoSectionProps) {
               ref={videoRef}
               src={isPlaying ? activeVideoData.videoSrc : undefined}
               preload="none"
-              poster={activeVideoData.poster}
               title={activeVideo === 'factory' ? 'TradeGo Fasteners factory tour - ISO 9001 certified fastener production facility in China serving African markets' : activeVideo === 'product' ? 'TradeGo fastener product showcase - drywall screws, self-drilling screws, hex bolts, IBR nails for construction applications' : 'TradeGo customer testimonials - construction companies from South Africa, Zimbabwe, Kenya share their experience'}
               aria-label={activeVideo === 'factory' ? 'Factory tour video showing TradeGo fastener manufacturing and quality control process' : activeVideo === 'product' ? 'Product showcase video demonstrating TradeGo fastener product range and applications' : 'Customer testimonial video featuring African construction professionals'}
               className="w-full h-full object-cover cursor-pointer"
@@ -165,6 +164,16 @@ export default function VideoSection({ locale }: VideoSectionProps) {
                 className="absolute inset-0 flex items-center justify-center bg-black/30 cursor-pointer hover:bg-black/40 transition-colors"
                 onClick={handlePlay}
               >
+                {/* 封面图懒加载：不进首屏关键路径 */}
+                <img
+                  src={activeVideoData.poster}
+                  alt=""
+                  aria-hidden="true"
+                  loading="lazy"
+                  decoding="async"
+                  fetchPriority="low"
+                  className="absolute inset-0 w-full h-full object-cover -z-10"
+                />
                 <div className="text-center">
                   <button className="w-20 h-20 bg-white/90 hover:bg-white rounded-full flex items-center justify-center shadow-xl transition-all hover:scale-105 mb-4">
                     <svg className="w-8 h-8 text-primary-600 ml-1" fill="currentColor" viewBox="0 0 24 24">

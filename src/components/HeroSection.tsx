@@ -18,7 +18,7 @@ export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
       <div className="absolute inset-0 z-0">
         <img
           src="/images/hero-construction.webp"
-          srcSet="/images/hero-construction-960.webp 960w, /images/hero-construction.webp 1920w"
+          srcSet="/images/hero-construction-480.webp 480w, /images/hero-construction-640.webp 640w, /images/hero-construction-960.webp 960w, /images/hero-construction.webp 1400w"
           sizes="100vw"
           alt="Construction site with fastener application"
           fetchPriority="high"

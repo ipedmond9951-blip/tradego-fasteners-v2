@@ -113,6 +113,23 @@ const nextConfig: NextConfig = {
       ]),
     ];
   },
+  // 静态资源长缓存：优化衍生图与字体内容不变，可 immutable
+  async headers() {
+    return [
+      {
+        source: '/images/opt/:path*',
+        headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }],
+      },
+      {
+        source: '/fonts/:path*',
+        headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }],
+      },
+      {
+        source: '/images/:path*',
+        headers: [{ key: 'Cache-Control', value: 'public, max-age=604800, stale-while-revalidate=2592000' }],
+      },
+    ];
+  },
   images: {
     // 2026-07-15 fix: Vercel Next.js image optimization 走 Pro plan (402 Payment Required)
     // 禁掉优化器, 所有 <Image> 自动用原始 /images/...jpg 路径, 跟 5 美元 VPS 哲学一致
