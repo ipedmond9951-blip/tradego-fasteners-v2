@@ -34,6 +34,8 @@ const categories = [
   { key: 'nuts', label: 'Nuts' },
   { key: 'washers', label: 'Washers' },
   { key: 'solar', label: 'Solar Mounting' },
+  { key: 'rivets', label: 'Rivets' },
+  { key: 'brackets', label: 'Brackets & Profiles' },
   { key: 'waterproofing', label: 'Waterproofing' },
 ]
 
@@ -78,13 +80,15 @@ export default function ProductSearchSection({ products, locale, texts }: Produc
     // Category filter
     if (selectedCategory !== 'All') {
       const categoryMap: Record<string, string[]> = {
-        'screws': ['drywall', 'chipboard', 'concrete-screw', 'self-tapping', 'self-drilling', 'coach', 'machine-screw'],
+        'screws': ['drywall', 'chipboard', 'concrete-screw', 'self-tapping', 'self-drilling', 'coach', 'machine-screw', 'wood-screw', 'set-screw', 'eye-screw'],
         'bolts': ['bolt', 'threaded', 'expansion'],
         'nuts': ['nut'],
         'nails': ['nail'],
         'anchors': ['anchor'],
         'washers': ['washer'],
-        'solar': ['solar', 'ground-screw', 'aluminum'],
+        'solar': ['solar', 'ground-screw', 'aluminum', 'profile', 'channel'],
+        'rivets': ['rivet'],
+        'brackets': ['bracket', 'channel', 'profile', 'steel'],
         'waterproofing': ['butyl', 'asphalt', 'non-woven', 'waterproof'],
       }
       const keywords = categoryMap[selectedCategory] || []
@@ -114,6 +118,8 @@ export default function ProductSearchSection({ products, locale, texts }: Produc
     'Nuts': locale === 'zh' ? '螺母' : 'Nuts',
     'Washers': locale === 'zh' ? '垫圈' : 'Washers',
     'Solar Mounting': locale === 'zh' ? '光伏支架' : 'Solar Mounting',
+    'Rivets': locale === 'zh' ? '铆钉' : 'Rivets',
+    'Brackets & Profiles': locale === 'zh' ? '支架与型材' : 'Brackets & Profiles',
     'Waterproofing': locale === 'zh' ? '防水材料' : 'Waterproofing',
   }
 
