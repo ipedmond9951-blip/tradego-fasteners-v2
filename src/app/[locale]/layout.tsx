@@ -35,9 +35,18 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const loc = (locale as Locale) || 'en'
   const siteUrl = 'https://www.tradego-fasteners.com'
   
+  // 首页标题压到 55-60 字符（搜索结果页不截断），保留品类 + 认证 + 核心市场
   const titles: Record<string, string> = {
-    zh: 'ISO 9001 & SABS认证中国紧固件制造商 - 工厂直供津巴布韦南非',
-    en: 'ISO 9001 & SABS Certified China Fastener Manufacturer - Factory Direct to Zimbabwe & South Africa',
+    zh: '紧固件批发厂家｜ISO 9001 & SABS｜直供南部非洲',
+    en: 'Wholesale Fastener Manufacturer | Zimbabwe & S. Africa',
+    es: 'Fabricante mayorista de fijaciones | África Austral',
+    fr: 'Fabricant grossiste de fixations | Afrique australe',
+    pt: 'Fabricante atacadista de fixadores | África Austral',
+    ar: 'مصنع مثبتات بالجملة لزيمبابوي والجنوب الأفريقي',
+    ru: 'Производитель крепежа оптом | Зимбабве и Юг Африки',
+    ja: 'ファスナー卸売メーカー｜ジンバブエ・南部アフリカ',
+    de: 'Großhandel Verbindungselemente | Südliches Afrika',
+    hi: 'फास्टनर थोक निर्माता | ज़िम्बाब्वे और दक्षिणी अफ्रीका',
   }
   const descriptions: Record<string, string> = {
     zh: 'ISO 9001 & SABS认证中国紧固件制造商,20年出口津巴布韦、南非、赞比亚、莫桑比克、博茨瓦纳。干壁钉、六角螺栓、IBR瓦钉、自钻螺丝,出厂价直供。发货至德班、贝拉、哈拉雷。',

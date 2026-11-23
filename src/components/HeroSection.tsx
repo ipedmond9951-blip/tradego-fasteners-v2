@@ -11,7 +11,22 @@ const heroProducts = [
   { key: 'product6', src: '/images/products/coach-screws-thumb.webp', nameKey: 'coach' },
 ]
 
+// H1 按语种本地化，并带上核心市场（津巴布韦 / 南部非洲），避免泛化词
+const heroH1: Record<string, { pre: string; hi: string; post: string; sub: string }> = {
+  en: { pre: 'Wholesale ', hi: 'Fastener', post: ' Manufacturer for Zimbabwe & Southern Africa', sub: 'Drywall screws, bolts, nuts, IBR nails, anchors and waterproofing' },
+  zh: { pre: '', hi: '紧固件', post: '批发厂家｜直供津巴布韦与南部非洲', sub: '干墙钉、螺栓螺母、IBR 屋面钉、锚栓与防水材料' },
+  es: { pre: 'Fabricante mayorista de ', hi: 'fijaciones', post: ' para Zimbabue y África Austral', sub: 'Tornillos, pernos, tuercas, clavos IBR, anclajes e impermeabilización' },
+  fr: { pre: 'Fabricant grossiste de ', hi: 'fixations', post: ' pour le Zimbabwe et l’Afrique australe', sub: 'Vis, boulons, écrous, clous IBR, ancrages et étanchéité' },
+  pt: { pre: 'Fabricante atacadista de ', hi: 'fixadores', post: ' para o Zimbabué e a África Austral', sub: 'Parafusos, pernos, porcas, pregos IBR, chumbadores e impermeabilização' },
+  ar: { pre: 'مصنع ', hi: 'مثبتات', post: ' بالجملة لزيمبابوي والجنوب الأفريقي', sub: 'براغي، براغي ربط، صواميل، مسامير IBR، مثبتات ومواد عزل' },
+  ru: { pre: 'Производитель ', hi: 'крепежа', post: ' оптом для Зимбабве и Юга Африки', sub: 'Винты, болты, гайки, гвозди IBR, анкеры и гидроизоляция' },
+  ja: { pre: 'ジンバブエ・南部アフリカ向け ', hi: 'ファスナー', post: ' 卸売メーカー', sub: 'ビス、ボルト、ナット、IBR釘、アンカー、防水材' },
+  de: { pre: 'Großhandelshersteller für ', hi: 'Verbindungselemente', post: ' in Simbabwe und im südlichen Afrika', sub: 'Schrauben, Bolzen, Muttern, IBR-Nägel, Anker und Abdichtung' },
+  hi: { pre: 'ज़िम्बाब्वे और दक्षिणी अफ्रीका के लिए ', hi: 'फास्टनर', post: ' थोक निर्माता', sub: 'स्क्रू, बोल्ट, नट, IBR कील, एंकर और वॉटरप्रूफिंग' },
+}
+
 export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
+  const hh = heroH1[locale] || heroH1.en
   return (
     <section className="relative bg-gradient-to-br from-primary-700 via-primary-800 to-primary-900 text-white overflow-hidden">
       {/* LCP 预加载：React 19 会把 link 提升到 head，图片与 HTML 并行下载 */}
@@ -42,10 +57,10 @@ export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
           {/* Left: Text */}
           <div className="flex-1 w-full max-w-xl">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-bold mb-4 md:mb-5 leading-[1.1] tracking-tight">
-              Wholesale <span className="text-yellow-400">Fasteners</span> Manufacturer
+              {hh.pre}<span className="text-yellow-400">{hh.hi}</span>{hh.post}
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-primary-100/95 mb-4 md:mb-5">
-              Drywall Screws, Bolts, Nuts & Industrial Hardware
+              {hh.sub}
             </p>
             <p className="text-sm md:text-base lg:text-lg text-primary-100/90 mb-5 md:mb-7 leading-relaxed">
               20+ years Africa focus, SABS & ISO 9001 certified, sea freight to Africa

@@ -8,6 +8,8 @@ import { productNames, productDescriptions, uiLabels, specLabels, pick } from '@
 import { clampDescription } from '@/lib/seo'
 import { getArticleBySlug, getArticleTitle } from '@/lib/articles'
 import { productGuides } from '@/lib/productGuides'
+import { siblingsOf, categoryOf } from '@/lib/productCategories'
+import ProductBuyingNotes from '@/components/ProductBuyingNotes'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
@@ -61,7 +63,11 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   const label = (key: string) => pick(uiLabels[key], locale)
   const specLabelText = (key: string) => pick(specLabels[key], locale)
 
-  const related = allProducts.filter(p => p.slug !== slug).slice(0, 3)
+  // 同族推荐：同分类优先，取 6 个；并给出去往所属品类分区的锚点
+  const related = siblingsOf(slug, 6)
+    .map(s => allProducts.find(p => p.slug === s))
+    .filter((p): p is (typeof allProducts)[number] => Boolean(p))
+  const category = categoryOf(slug)
   const specs = Object.entries(product.specs)
   const moq = product.specs.minOrder || (product.slug === 'ibr-nails' || product.slug === 'drywall-screws' ? '100 kg' : '500 pcs')
   const guide = productGuides[slug]
@@ -245,6 +251,9 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
               </Link>
             </section>
           )}
+
+          {/* 采购决策深化：标准、材质、包装装载、质检、单证、报价要素 */}
+          <ProductBuyingNotes specs={product.specs} locale={locale} />
         </div>
 
         {/* 侧栏 */}
@@ -280,6 +289,24 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
               ))}
             </ul>
           </div>
+
+          {category && (
+            <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-6">
+              <h2 className="text-lg font-bold text-gray-900 mb-3">{locale === 'zh' ? '所属品类' : 'Product category'}</h2>
+              <Link
+                href={`/${locale}/#cat-${category.key}`}
+                className="inline-flex items-center gap-2 rounded-lg border border-primary-200 bg-primary-50 text-primary-800 text-sm font-medium px-3 py-2 hover:bg-primary-100 transition"
+              >
+                {category.label[locale] || category.label.en}
+                <span className="text-primary-500">→</span>
+              </Link>
+              <p className="text-xs text-gray-500 mt-3">
+                {locale === 'zh'
+                  ? '同品类的其他规格与配套件，可在首页对应分区一次看完。'
+                  : 'See the other lines and matching parts in this category on the home page.'}
+              </p>
+            </div>
+          )}
         </aside>
       </div>
     </div>
