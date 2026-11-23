@@ -19,7 +19,9 @@ import urllib.error
 import urllib.request
 
 CONFIG = os.path.expanduser('~/.openclaw/openclaw.json')
-CHAIN = os.environ.get('WRITER_CHAIN', 'zai:glm-4.6,zai:glm-4.5-flash,zai:glm-4.5-air').split(',')
+CHAIN = os.environ.get('WRITER_CHAIN', 'zai:glm-4.6,zai:glm-4.5-flash').split(',')
+MIN_INTERVAL = float(os.environ.get('WRITER_MIN_INTERVAL', '20'))
+_last_call = [0.0]
 
 
 def _cfg():
@@ -38,6 +40,10 @@ def _post(base, key, model, messages, temperature, max_tokens, timeout=240):
 
 
 def generate(prompt, temperature=0.4, max_tokens=4000, retries=2):
+    gap = MIN_INTERVAL - (time.time() - _last_call[0])
+    if gap > 0:
+        time.sleep(gap)
+    _last_call[0] = time.time()
     provs = _cfg()
     errs = []
     for attempt in range(max(retries, 3)):
@@ -50,7 +56,6 @@ def generate(prompt, temperature=0.4, max_tokens=4000, retries=2):
                 txt = _post(p['baseUrl'], p['apiKey'], model,
                             [{'role': 'user', 'content': prompt}], temperature, max_tokens)
                 if txt and txt.strip():
-                    time.sleep(3)  # 主动限速，避免把免费额度打爆
                     return txt.strip()
                 errs.append(f'{name}:{model} 空返回')
             except urllib.error.HTTPError as e:
