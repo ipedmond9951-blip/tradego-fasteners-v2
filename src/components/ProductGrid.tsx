@@ -4,20 +4,9 @@ import Image from 'next/image'
 import { type Locale, t } from '@/i18n'
 import { allProducts } from '@/lib/products'
 import { productNames, productDescriptions, pick } from '@/lib/productI18n'
+import { productGuides } from '@/lib/productGuides'
 
 interface ProductGridProps { locale?: Locale }
-
-// 首页卡片图片点进去的深度文章（没有对应文章的，落到产品详情页）
-const guideBySlug: Record<string, string> = {
-  'drywall-screws': 'drywall-screws-selection-guide',
-  'self-drilling-screws': 'self-drilling-screws-selection-guide',
-  'bolts-nuts': 'hex-bolt-dimensions-chart',
-  'ibr-nails': 'ibr-roofing-nails-installation-guide',
-  'anchor-bolts': 'anchor-bolts-selection-guide',
-  washers: 'flat-washers-vs-spring-washers',
-  'coach-screws': 'fastener-selection-guide-african-construction',
-  'threaded-rods': 'threaded-rod-studding-guide',
-}
 
 export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
   return (
@@ -31,7 +20,7 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
           {allProducts.map((product) => {
             const name = pick(productNames[product.slug], locale)
             const desc = pick(productDescriptions[product.slug], locale)
-            const guide = guideBySlug[product.slug]
+            const guide = productGuides[product.slug]
             const imageHref = guide ? `/${locale}/industry/${guide}` : `/${locale}/products/${product.slug}`
 
             return (

@@ -7,20 +7,9 @@ import { allProducts } from '@/lib/products'
 import { productNames, productDescriptions, uiLabels, specLabels, pick } from '@/lib/productI18n'
 import { clampDescription } from '@/lib/seo'
 import { getArticleBySlug, getArticleTitle } from '@/lib/articles'
+import { productGuides } from '@/lib/productGuides'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
-
-// 每个产品配一篇对应的技术文章做交叉内链
-const guideSlug: Record<string, string> = {
-  'drywall-screws': 'drywall-screws-selection-guide',
-  'self-drilling-screws': 'self-drilling-screws-selection-guide',
-  'bolts-nuts': 'hex-bolt-dimensions-chart',
-  'ibr-nails': 'ibr-roofing-nails-installation-guide',
-  'anchor-bolts': 'anchor-bolts-selection-guide',
-  'washers': 'flat-washers-vs-spring-washers',
-  'coach-screws': 'fastener-selection-guide-african-construction',
-  'threaded-rods': 'threaded-rod-studding-guide',
-}
 
 export function generateStaticParams() {
   return allProducts.map(p => ({ slug: p.slug }))
@@ -75,7 +64,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   const related = allProducts.filter(p => p.slug !== slug).slice(0, 3)
   const specs = Object.entries(product.specs)
   const moq = product.specs.minOrder || (product.slug === 'ibr-nails' || product.slug === 'drywall-screws' ? '100 kg' : '500 pcs')
-  const guide = guideSlug[slug]
+  const guide = productGuides[slug]
   const guideArticle = guide ? getArticleBySlug(guide) : null
   const guideTitle = guideArticle ? getArticleTitle(guideArticle, locale) : ''
   const canonical = `${SITE_URL}/${locale}/products/${slug}/`
