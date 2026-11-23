@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react'
 import { type Locale, t } from '@/i18n'
+import { trackGA4Event } from '@/components/Analytics'
 
 interface InquiryFormProps { locale?: Locale }
 
@@ -17,10 +18,10 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
   }, [])
 
   // Track GA4 conversion event
+  // 2026-11-23 修：站点未加载 gtag.js，window.gtag 恒为 undefined，
+  // 事件全被挡掉。改为走自建 Measurement Protocol 的 trackGA4Event。
   const trackConversion = (eventName: string, params: Record<string, string>) => {
-    if (typeof window !== 'undefined' && window.gtag) {
-      window.gtag('event', eventName, params)
-    }
+    trackGA4Event(eventName, params)
   }
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -78,12 +79,14 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
                 href="https://wa.me/8615963409951"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackConversion('click_whatsapp', { event_category: 'engagement', event_label: 'inquiry_fallback_button', locale: locale })}
                 className="flex-1 bg-green-600 text-white py-2.5 md:py-3 rounded-lg font-bold hover:bg-green-500 transition-colors text-sm md:text-base"
               >
                 💬 {t(locale, 'inquiry.whatsapp')}
               </a>
               <a
                 href="mailto:inquiry@tradego-fasteners.com"
+                onClick={() => trackConversion('click_email', { event_category: 'engagement', event_label: 'inquiry_fallback_email', locale: locale })}
                 className="flex-1 bg-primary-700 text-white py-2.5 md:py-3 rounded-lg font-bold hover:bg-primary-800 transition-colors text-sm md:text-base"
               >
                 ✉️ {t(locale, 'inquiry.emailUs')}

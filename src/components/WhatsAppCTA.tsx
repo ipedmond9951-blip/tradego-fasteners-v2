@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { trackGA4Event } from '@/components/Analytics'
 
 interface WhatsAppCTAProps {
   locale: string
@@ -56,14 +57,14 @@ export default function WhatsAppCTA({ locale }: WhatsAppCTAProps) {
   const whatsappLink = `${WHATSAPP_LINK}?text=${getPreFilledMessage()}`
 
   // Track WhatsApp click
+  // 2026-11-23 修：站点没加载 gtag.js，window.gtag 永远 undefined，
+  // 之前所有点击都被 if 挡掉（28 天只有 7 次 click_whatsapp）。统一走 trackGA4Event。
   const trackWhatsAppClick = (source: string) => {
-    if (typeof window !== 'undefined' && window.gtag) {
-      window.gtag('event', 'click_whatsapp', {
-        event_category: 'engagement',
-        event_label: source,
-        locale: locale,
-      })
-    }
+    trackGA4Event('click_whatsapp', {
+      event_category: 'engagement',
+      event_label: source,
+      locale: locale,
+    })
   }
 
   // If minimized, show a small floating button + mobile-only Get Quote button
