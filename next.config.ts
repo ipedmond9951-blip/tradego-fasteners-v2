@@ -71,19 +71,19 @@ const nextConfig: NextConfig = {
       // 1) 重复语种前缀: /es/en/contact/ → /es/contact/（旧 8 语言重定向时代的 BUG 链接）
       {
         source: '/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)/en/:path*',
-        destination: '/:locale/:path*',
+        destination: '/:locale/:path*/',
         permanent: true,
       },
       // 2) BUG URL /ruundefined/ /esundefined 等 → 对应语言首页
       ...['en', 'zh', 'es', 'ar', 'fr', 'pt', 'ru', 'ja', 'de', 'hi'].map((l) => ({
         source: `/${l}undefined`,
-        destination: `/${l}`,
+        destination: `/${l}/`,
         permanent: true,
       })),
       // 3) 旧目录 /articles/<slug>/ → 现文章路径
       {
         source: '/articles/:slug*',
-        destination: '/en/industry/:slug*',
+        destination: '/en/industry/:slug*/',
         permanent: true,
       },
       // 4) 旧扁平文章路径（无 /industry/ 前缀或已改名）→ 现文章，根级和带语种两种写法都收
