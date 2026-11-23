@@ -1,5 +1,5 @@
 import { locales } from '@/i18n'
-import { getIndexableSlugs, getSlugDateMap } from '@/lib/articles'
+import { getIndexableSlugs, getSlugDateMap, getAllArticles } from '@/lib/articles'
 import { allProducts } from '@/lib/products'
 
 export default function sitemap() {
@@ -14,6 +14,12 @@ export default function sitemap() {
   // 动态获取所有文章slug + 各自的 date
   const articleSlugs = getIndexableSlugs()
   const slugDateMap = getSlugDateMap()
+
+  // 2026-11-23: 分类聚合页也是有效枢纽页, 每页 radiates 数十条文章内链, 补进 sitemap
+  const catSlugify = (c: string) => c.toLowerCase().replace(/\s*-\s*/g, '-').replace(/\s+/g, '-')
+  const categorySlugs = Array.from(new Set(
+    getAllArticles().filter(a => !a.redirectTo && a.category).map(a => catSlugify(a.category))
+  ))
 
   const entries = []
   
@@ -40,7 +46,6 @@ export default function sitemap() {
     }
 
     for (const slug of articleSlugs) {
-      // URL-encode slugs that contain non-ASCII characters (e.g. Chinese chars)
       const encodedSlug = encodeURIComponent(slug)
       // Use article's actual date from JSON (per-article lastmod)
       const articleDate = slugDateMap[slug] || now.slice(0, 10)
@@ -49,6 +54,15 @@ export default function sitemap() {
         lastModified: articleDate,
         changeFrequency: 'monthly',
         priority: 0.8,
+      })
+    }
+
+    for (const cat of categorySlugs) {
+      entries.push({
+        url: `${baseUrl}/${locale}/industry/category/${encodeURIComponent(cat)}/`,
+        lastModified: now,
+        changeFrequency: 'weekly',
+        priority: 0.7,
       })
     }
   }

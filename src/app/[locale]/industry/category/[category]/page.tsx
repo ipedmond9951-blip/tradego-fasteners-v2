@@ -174,11 +174,18 @@ export async function generateMetadata({
 
   const siteUrl = 'https://www.tradego-fasteners.com'
   const catLabel = CATEGORY_I18N[cat]?.[locale] || cat
-  const title = `${catLabel} | TradeGo Fasteners`
+  const count = getAllArticles().filter(a => a.category === cat && !a.redirectTo).length
+  // 2026-11-23: 分类页标题从"分类名 | 品牌"改成带篇数的价值主张，提升 SERP 点击意愿
+  const title = locale === 'en'
+    ? `${catLabel}: ${count} Fastener Guides`
+    : `${catLabel} | TradeGo Fasteners`
+  const description = locale === 'en'
+    ? `${count} practical ${catLabel.toLowerCase()} on bolt grades, coatings, port clearance and fastener sourcing for African and global buyers. ISO 9001 and SABS documented.`
+    : `${catLabel} articles for B2B fastener buyers, engineers, and procurement teams. ISO 9001, SABS, and CE certified products for Africa and global markets.`
 
   return {
     title,
-    description: `${catLabel} articles for B2B fastener buyers, engineers, and procurement teams. ISO 9001, SABS, and CE certified products for Africa and global markets.`,
+    description,
     openGraph: {
       title,
       description: `${catLabel} articles from TradeGo.`,
