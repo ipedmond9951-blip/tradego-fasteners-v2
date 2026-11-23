@@ -8,6 +8,7 @@ import { productNames, pick } from '@/lib/productI18n'
 import { markets, getMarket } from '@/lib/markets'
 import { marketTextOverrides } from '@/lib/marketsI18n'
 import { marketTextEsJa } from '@/lib/marketsI18nEsJa'
+import { marketTextRu } from '@/lib/marketsI18nRu'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
@@ -158,7 +159,7 @@ export default async function MarketPage({ params }: { params: Promise<{ locale:
 
   const country = m.name[locale] || m.name.en
   const items = m.topSlugs.map(s => allProducts.find(p => p.slug === s)).filter((p): p is (typeof allProducts)[number] => Boolean(p))
-  const ov = marketTextOverrides[m.slug]?.[locale] || marketTextEsJa[m.slug]?.[locale]
+  const ov = marketTextOverrides[m.slug]?.[locale] || marketTextEsJa[m.slug]?.[locale] || marketTextRu[m.slug]?.[locale]
   const hero = ov?.hero || m.hero[locale] || m.hero.en
   const ports = ov?.ports || m.ports[locale] || m.ports.en
   const docs = ov?.docs || m.docs[locale] || m.docs.en
