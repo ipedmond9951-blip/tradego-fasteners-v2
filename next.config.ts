@@ -67,6 +67,50 @@ const nextConfig: NextConfig = {
         destination: '/:locale/products/washers/',
         permanent: true,
       },
+      // 2026-11-23 索引治理: 处理 GSC「未找到 (404)」85 条中的可修复模式
+      // 1) 重复语种前缀: /es/en/contact/ → /es/contact/（旧 8 语言重定向时代的 BUG 链接）
+      {
+        source: '/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)/en/:path*',
+        destination: '/:locale/:path*',
+        permanent: true,
+      },
+      // 2) BUG URL /ruundefined/ /esundefined 等 → 对应语言首页
+      ...['en', 'zh', 'es', 'ar', 'fr', 'pt', 'ru', 'ja', 'de', 'hi'].map((l) => ({
+        source: `/${l}undefined`,
+        destination: `/${l}`,
+        permanent: true,
+      })),
+      // 3) 旧目录 /articles/<slug>/ → 现文章路径
+      {
+        source: '/articles/:slug*',
+        destination: '/en/industry/:slug*',
+        permanent: true,
+      },
+      // 4) 旧扁平文章路径（无 /industry/ 前缀或已改名）→ 现文章，根级和带语种两种写法都收
+      ...[
+        ['china-fasteners-zimbabwe-procurement-guide', 'china-fasteners-zimbabwe-procurement-guide'],
+        ['anchor-bolts-foundation-guide', 'anchor-bolts-foundation-guide'],
+        ['africa-fastener-market-opportunities-2026', 'africa-fastener-market-opportunities-2026'],
+        ['southern-africa-fastener-market-southafrica-botswana', 'southern-africa-fastener-market-southafrica-botswana'],
+        ['southern-africa-fastener-market', 'southern-africa-fastener-market-southafrica-botswana'],
+        ['high-tensile-bolts-grade-8-8-10-9', 'high-tensile-bolts-grade-guide'],
+        ['high-tensile-bolts', 'high-tensile-bolts-grade-guide'],
+        ['structural-bolts', 'high-tensile-structural-bolts-guide'],
+        ['concrete-anchors', 'concrete-anchors-selection-guide'],
+        ['durban-port-import-procedures', 'south-africa-fasteners-china-import-guide'],
+        ['quality-control-fasteners', 'fastener-quality-control-inspection-procedures'],
+        ['sabs-standards-fasteners', 'south-africa-sabs-fastener-import-requirements'],
+        ['water-infrastructure-fasteners', 'agrifastener-water-infrastructure'],
+        ['china-fastener-export-guide', 'fastener-export-china-to-africa-guide'],
+        ['afcfta-trade-benefits', 'african-ftz-fastener-import-procedures'],
+      ].flatMap(([from, to]) => [
+        { source: `/${from}/`, destination: `/en/industry/${to}/`, permanent: true },
+        {
+          source: `/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)/${from}/`,
+          destination: `/:locale/industry/${to}/`,
+          permanent: true,
+        },
+      ]),
     ];
   },
   images: {
