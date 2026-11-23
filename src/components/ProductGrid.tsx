@@ -1,7 +1,6 @@
 'use client'
 
 import Image from 'next/image'
-import { optImagePath } from '@/lib/optImages'
 import { type Locale, t } from '@/i18n'
 import { allProducts } from '@/lib/products'
 import { productNames, productDescriptions, pick } from '@/lib/productI18n'
@@ -28,7 +27,7 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
               <div key={product.slug} className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow flex flex-col">
                 {/* Image - clickable link to article for SEO internal link juice */}
                 <a href={imageHref} className="block relative h-40 sm:h-48 lg:h-52 bg-gradient-to-br from-gray-100 to-gray-200">
-                  <Image src={optImagePath(product.image, 'thumb')} alt={name} fill className="object-cover" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" loading="lazy" quality={78} />
+                  <Image src={product.image} alt={name} fill className="object-cover" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" loading="lazy" quality={78} />
                 </a>
 
                 {/* Content */}

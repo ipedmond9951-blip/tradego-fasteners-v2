@@ -3,7 +3,6 @@
 import Image from 'next/image'
 import { type Locale, t } from '@/i18n'
 import { ButtonLink } from './Button'
-import { optImagePath } from '@/lib/optImages'
 
 interface ProductCardClientProps {
   product: {
@@ -46,7 +45,7 @@ export default function ProductCardClient({ product, locale, name }: ProductCard
       {/* Image */}
       <div className="relative h-44 md:h-52 bg-gray-100 overflow-hidden">
         <Image 
-          src={optImagePath(product.image, 'thumb')} 
+          src={product.image} 
           alt={`${name} - ${product.specs.size} - TradeGo Fasteners Manufacturer`} 
           fill 
           className="object-cover group-hover:scale-105 transition-transform duration-500" 
