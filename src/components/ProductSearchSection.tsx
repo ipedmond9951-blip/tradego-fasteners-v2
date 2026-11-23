@@ -31,7 +31,9 @@ const categories = [
   { key: 'bolts', label: 'Bolts & Nuts' },
   { key: 'nails', label: 'Nails' },
   { key: 'anchors', label: 'Anchors' },
+  { key: 'nuts', label: 'Nuts' },
   { key: 'washers', label: 'Washers' },
+  { key: 'solar', label: 'Solar Mounting' },
   { key: 'waterproofing', label: 'Waterproofing' },
 ]
 
@@ -78,9 +80,11 @@ export default function ProductSearchSection({ products, locale, texts }: Produc
       const categoryMap: Record<string, string[]> = {
         'screws': ['drywall', 'chipboard', 'concrete-screw', 'self-tapping', 'self-drilling', 'coach'],
         'bolts': ['bolt', 'threaded', 'expansion'],
+        'nuts': ['nut'],
         'nails': ['nail'],
         'anchors': ['anchor'],
         'washers': ['washer'],
+        'solar': ['solar', 'ground-screw', 'aluminum'],
         'waterproofing': ['butyl', 'asphalt', 'non-woven', 'waterproof'],
       }
       const keywords = categoryMap[selectedCategory] || []
@@ -107,7 +111,9 @@ export default function ProductSearchSection({ products, locale, texts }: Produc
     'Bolts & Nuts': locale === 'zh' ? '螺栓螺母' : 'Bolts & Nuts',
     'Nails': locale === 'zh' ? '钉子' : 'Nails',
     'Anchors': locale === 'zh' ? '锚栓' : 'Anchors',
+    'Nuts': locale === 'zh' ? '螺母' : 'Nuts',
     'Washers': locale === 'zh' ? '垫圈' : 'Washers',
+    'Solar Mounting': locale === 'zh' ? '光伏支架' : 'Solar Mounting',
     'Waterproofing': locale === 'zh' ? '防水材料' : 'Waterproofing',
   }
 

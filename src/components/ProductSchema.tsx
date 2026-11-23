@@ -1,4 +1,5 @@
 'use client'
+import { productNames as i18nNames, productDescriptions as i18nDescs, pick } from '@/lib/productI18n'
 
 import { type Locale } from '@/i18n'
 
@@ -80,8 +81,8 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
         const schema = {
           '@context': 'https://schema.org',
           '@type': 'Product',
-          name: names[product.slug] || product.nameKey,
-          description: descriptions[product.slug] || `High-quality ${product.nameKey} for industrial and construction use.`,
+          name: pick(i18nNames[product.slug] || {}, locale) || names[product.slug] || product.nameKey,
+          description: pick(i18nDescs[product.slug] || {}, locale) || descriptions[product.slug] || `High-quality ${product.nameKey} for industrial and construction use.`,
           image: `https://www.tradego-fasteners.com${product.image}`,
           brand: {
             '@type': 'Brand',

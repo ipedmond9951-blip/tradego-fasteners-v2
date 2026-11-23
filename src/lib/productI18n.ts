@@ -151,6 +151,16 @@ export const productNames: Record<string, Dict> = {
     ja: '防水シート', de: 'Abdichtungsbahn', hi: 'वॉटरप्रूफ़ झिल्ली',
   },
 
+  'u-bolts': { en: 'U-Bolts', zh: 'U 型螺栓', es: 'Pernos en U', ar: 'براغي على شكل U', fr: 'Boulons en U', pt: 'Parafusos em U', ru: 'U-образные болты', ja: 'Uボルト', de: 'U-Bügel', hi: 'यू बोल्ट' },
+  'eye-bolts': { en: 'Eye Bolts', zh: '吊环螺栓', es: 'Pernos con ojo', ar: 'براغي حلقية', fr: 'Boulons à œil', pt: 'Parafusos com olhal', ru: 'Рымы-болты', ja: 'アイボルト', de: 'Augenschrauben', hi: 'आई बोल्ट' },
+  'foundation-bolts': { en: 'Foundation Bolts', zh: '地脚螺栓', es: 'Pernos de cimentación', ar: 'براغي أساسات', fr: 'Boulons de fondation', pt: 'Parafusos de fundação', ru: 'Фундаментные болты', ja: '基礎ボルト', de: 'Fundamentbolzen', hi: 'फाउंडेशन बोल्ट' },
+  'carriage-bolts': { en: 'Carriage Bolts', zh: '马车螺栓', es: 'Pernos de carro', ar: 'براغي عربة', fr: 'Boulons de charrette', pt: 'Parafusos de carro', ru: 'Вагонные болты', ja: 'キャリッジボルト', de: 'Schlossschrauben', hi: 'कैरिज बोल्ट' },
+  'allen-bolts': { en: 'Allen Bolts', zh: '内六角螺栓', es: 'Pernos Allen', ar: 'براغي ألن', fr: 'Vis à six pans creux', pt: 'Parafusos Allen', ru: 'Болты с внутренним шестигранником', ja: '六角穴付ボルト', de: 'Innensechskantschrauben', hi: 'एलन बोल्ट' },
+  'hanger-bolts': { en: 'Hanger Bolts', zh: '双头牙螺栓', es: 'Pernos colgantes', ar: 'براغي تعليق', fr: 'Boulons de suspension', pt: 'Parafusos de suspensão', ru: 'Болты-подвесы', ja: 'ハンガーボルト', de: 'Hängebolzen', hi: 'हैंगर बोल्ट' },
+  'hex-nuts': { en: 'Hex Nuts', zh: '六角螺母', es: 'Tuercas hexagonales', ar: 'صواميل سداسية', fr: 'Écrous hexagonaux', pt: 'Porcas sextavadas', ru: 'Гайки шестигранные', ja: '六角ナット', de: 'Sechskantmuttern', hi: 'हेक्स नट' },
+  'nylon-lock-nuts': { en: 'Nylon Lock Nuts', zh: '尼龙锁紧螺母', es: 'Tuercas autoblocantes', ar: 'صواميل قفل النايلون', fr: 'Écrous à freinage interne', pt: 'Porcas de trava', ru: 'Гайки с нейлоновой вставкой', ja: 'ナイロンロックナット', de: 'Seckskantmuttern mit Klemmteil', hi: 'नायलॉक नट' },
+  'spring-washers': { en: 'Spring Washers', zh: '弹簧垫圈', es: 'Arandelas elásticas', ar: 'حلقات نابضية', fr: 'Rondelles ressorts', pt: 'Arruelas de mola', ru: 'Пружинные шайбы', ja: 'バネ座金', de: 'Federringe', hi: 'स्प्रिंग वॉशर' },
+  'solar-brackets': { en: 'Solar Brackets', zh: '光伏支架', es: 'Soportes solares', ar: 'حوامل شمسية', fr: 'Supports solaires', pt: 'Suportes solares', ru: 'Солнечные кронштейны', ja: 'ソーラー架台', de: 'Solarhalterungen', hi: 'सोलर ब्रैकेट' },
 }
 
 // 详情页简述（en / zh 为主，其它语言回落到 en）
@@ -272,6 +282,16 @@ export const productDescriptions: Record<string, Dict> = {
     zh: '防水卷材（SBS 改性沥青、PVC 或 TPO），厚 3–4mm，幅宽 1.0–2.0m、长 10–20m/卷，用于平屋面、裙楼平台与地下室防水。',
   },
 
+  'u-bolts': { en: 'DIN 3570 U-bolts in carbon steel, HDG and SS304/316, M6-M30, with nuts and plates, for pipe, pole and axle clamping.', zh: 'DIN3570 U 型螺栓，碳钢/热镀锌/不锈钢 304-316，M6-M30，配螺母与压板，用于管道、电杆、车桥固定。' },
+  'eye-bolts': { en: 'DIN 580 lifting eye bolts M8-M24 in forged carbon steel and stainless, for slinging, rigging and tie-down points.', zh: 'DIN580 吊环螺栓 M8-M24，锻造碳钢与不锈钢，用于吊装、索具与绑扎固定点。' },
+  'foundation-bolts': { en: 'Embedded foundation bolts M12-M36 in Q235B and grade 8.8, straight, L-bend and anchor-plate types for steel structures.', zh: '预埋地脚螺栓 M12-M36，Q235B 与 8.8 级，直杆、L 型与带锚板型，用于钢结构基础。' },
+  'carriage-bolts': { en: 'DIN 603 carriage bolts M6-M20 with square neck and cup head, in carbon steel and stainless, for timber and steel connections.', zh: 'DIN603 马车螺栓 M6-M20，方颈圆头，碳钢与不锈钢，用于木结构及钢木连接。' },
+  'allen-bolts': { en: 'DIN 912 socket head cap screws M6-M24, grade 8.8/10.9/12.9 and stainless, with full or part thread for machine building.', zh: 'DIN912 内六角圆柱头螺钉 M6-M24，8.8/10.9/12.9 级与不锈钢，全牙或半牙，用于机械装配。' },
+  'hanger-bolts': { en: 'Hanger bolts with machine thread one end and wood thread the other, M6-M12, in zinc, HDG and stainless, for wood-to-metal fixing.', zh: '双头牙螺栓，一端机牙一端木牙，M6-M12，镀锌/热镀锌/不锈钢，用于木与金属连接。' },
+  'hex-nuts': { en: 'DIN 934 hex nuts M6-M24 in grade 8 and 10, zinc, HDG and stainless, packed by weight or by box for site issue.', zh: 'DIN934 六角螺母 M6-M24，8 级与 10 级，镀锌/热镀锌/不锈钢，可按重量或盒装发货。' },
+  'nylon-lock-nuts': { en: 'DIN 985 nylon insert lock nuts M6-M24 in zinc, HDG and stainless, for vibration-resistant joints without a second nut.', zh: 'DIN985 尼龙圈锁紧螺母 M6-M24，镀锌/热镀锌/不锈钢，用于免双螺母的防松连接。' },
+  'spring-washers': { en: 'DIN 127 spring washers M6-M24 in spring steel, zinc and stainless, for keeping tension on vibrating joints.', zh: 'DIN127 弹簧垫圈 M6-M24，弹簧钢，镀锌与不锈钢，用于振动连接保持预紧。' },
+  'solar-brackets': { en: 'Galvanized and aluminium solar mounting brackets - rails, hooks and clamps - for rooftop and ground arrays, packed for container export.', zh: '镀锌与铝制光伏支架——导轨、挂钩与压块，屋顶与地面阵列用，按集装箱包装出口。' },
 }
 
 export const uiLabels: Record<string, Dict> = {
