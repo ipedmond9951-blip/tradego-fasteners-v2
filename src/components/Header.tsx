@@ -140,26 +140,6 @@ export default function Header({ locale = 'en' }: HeaderProps) {
         )}
       </nav>
 
-      {/* Mobile bottom action bar: mirrors what Haina does with a permanent contact strip */}
-      {menuOpen && (
-        <div className="lg:hidden fixed inset-x-0 bottom-0 z-50 bg-white border-t border-gray-100 px-4 py-3 flex gap-3">
-          <a
-            href="https://wa.me/8615963409951"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex-1 bg-green-500 text-white text-center py-3 rounded-lg font-semibold text-sm"
-          >
-            WhatsApp
-          </a>
-          <a
-            href={`/${locale}#inquiry`}
-            onClick={() => setMenuOpen(false)}
-            className="flex-1 bg-primary-700 text-white text-center py-3 rounded-lg font-semibold text-sm"
-          >
-            {t(locale, 'nav.contact')}
-          </a>
-        </div>
-      )}
     </header>
   )
 }
