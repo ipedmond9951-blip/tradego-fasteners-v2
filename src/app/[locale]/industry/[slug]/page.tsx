@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { redirect, notFound } from 'next/navigation'
+import { permanentRedirect, notFound } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 import { getAllSlugs, getArticleBySlug, getRelatedByCategory, getArticleTitle, humanizeSlug, isThinArticle } from '@/lib/articles'
@@ -164,7 +164,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
 
   // Old article slug redirected to new URL
   if (article.redirectTo) {
-    redirect(`/${locale}/industry/${article.redirectTo}`)
+    permanentRedirect(`/${locale}/industry/${article.redirectTo}`)
   }
 
   const title = localizedText(article.title, locale)

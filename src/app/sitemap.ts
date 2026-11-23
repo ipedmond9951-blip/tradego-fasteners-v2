@@ -8,6 +8,8 @@ export default function sitemap() {
   
   const staticPages = ['', '/products', '/industry', '/steel-prices', '/zimbabwe-fasteners-wholesale', '/privacy-policy', '/terms']
   // NOTE: /product-upload and /analytics excluded - they have noindex meta tags
+  // 2026-11-23 索引治理: 首页/钢铁价/津巴批发 在非英文版 canonical 指向 /en, 不再进 sitemap 制造"备用网页"
+  const enOnlyPages = new Set(['', '/steel-prices', '/zimbabwe-fasteners-wholesale'])
 
   // 动态获取所有文章slug + 各自的 date
   const articleSlugs = getIndexableSlugs()
@@ -17,6 +19,7 @@ export default function sitemap() {
   
   for (const locale of locales) {
     for (const page of staticPages) {
+      if (locale !== 'en' && enOnlyPages.has(page)) continue
       // trailingSlash: true → all URLs end with /
       const url = page === '' ? `${baseUrl}/${locale}/` : `${baseUrl}/${locale}${page}/`
       entries.push({

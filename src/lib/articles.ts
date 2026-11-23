@@ -95,7 +95,10 @@ export function getArticleBySlug(slug: string): Article | null {
 }
 
 export function getIndexableSlugs(): string[] {
-  return getAllArticles().filter(a => !isThinArticle(a)).map(a => a.slug)
+  // 2026-11-23 索引治理: 带 redirectTo 的旧 slug 会被 307 重定向, 不应再出现在 sitemap
+  return getAllArticles()
+    .filter(a => !isThinArticle(a) && !a.redirectTo)
+    .map(a => a.slug)
 }
 
 export function getAllSlugs(): string[] {
