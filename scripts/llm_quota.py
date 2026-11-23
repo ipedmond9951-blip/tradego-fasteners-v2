@@ -28,8 +28,16 @@ PROVIDERS = {
         'note': '实测 25s 间隔可出合格结果；连续 20s 批跑立即 429；45s 间隔仍 429，窗口极窄',
     },
     'zai:glm-4.5-flash': {
+        'window': 600, 'window_cap': 6, 'day_cap': 200,
+        'note': '2026-11-24 实测可稳定出结果（4s 一次、cost 0），是当前唯一有余额的通道；按 10 分钟 6 次/每天 200 次估，80% 即 4 次/160 次',
+    },
+    'zai:glm-5.3-flashx': {
         'window': 600, 'window_cap': 2, 'day_cap': 40,
-        'note': '几乎首次调用即 429，只做 glm-4.6 之外的极低频兜底',
+        'note': '实测 429 余额不足；仅作链上候选，通了会自动记账',
+    },
+    'zai:glm-4.5-air': {
+        'window': 600, 'window_cap': 2, 'day_cap': 40,
+        'note': '实测 429 余额不足；仅作链上候选',
     },
     'zai:glm-4.7-flash': {
         'window': 600, 'window_cap': 1, 'day_cap': 20,

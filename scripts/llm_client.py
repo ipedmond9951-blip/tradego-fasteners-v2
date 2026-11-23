@@ -23,6 +23,14 @@ try:
 except Exception:            # 独立使用该模块时也不至于崩
     llm_quota = None
 
+# 写作通道优先级：先走 OpenClaw（统一 key / 重试 / fallback），失败再直连 HTTP。
+# 设 WRITER_CHANNEL=direct 可强制走直连做排障。
+try:
+    import oc_writer
+except Exception:
+    oc_writer = None
+CHANNEL = os.environ.get('WRITER_CHANNEL', 'openclaw,direct').split(',')
+
 CONFIG = os.path.expanduser('~/.openclaw/openclaw.json')
 CHAIN = os.environ.get('WRITER_CHAIN', 'zai:glm-4.6,zai:glm-4.5-flash').split(',')
 MIN_INTERVAL = float(os.environ.get('WRITER_MIN_INTERVAL', '20'))
@@ -45,6 +53,17 @@ def _post(base, key, model, messages, temperature, max_tokens, timeout=240):
 
 
 def generate(prompt, temperature=0.4, max_tokens=4000, retries=2):
+    errs0 = []
+    if 'openclaw' in CHANNEL and oc_writer:
+        try:
+            txt, model, sec = oc_writer.run(prompt)
+            print('  [openclaw] %s %.1fs' % (model, sec), file=__import__('sys').stderr)
+            return txt
+        except Exception as e:
+            errs0.append('openclaw: %s' % (repr(e)[:120]))
+            print('  [openclaw] 失败：%s' % (repr(e)[:90]), file=__import__('sys').stderr)
+    if 'direct' not in CHANNEL:
+        raise RuntimeError('; '.join(errs0) or 'no channel')
     gap = MIN_INTERVAL - (time.time() - _last_call[0])
     if gap > 0:
         time.sleep(gap)
@@ -82,7 +101,7 @@ def generate(prompt, temperature=0.4, max_tokens=4000, retries=2):
             except Exception as e:
                 errs.append(f'{name}:{model} {repr(e)[:60]}')
                 time.sleep(4)
-    raise RuntimeError('写作通道全部失败: ' + '; '.join(errs[-4:]))
+    raise RuntimeError('写作通道全部失败: ' + '; '.join((errs0 + errs)[-4:]))
 
 
 def generate_json(prompt, temperature=0.3, max_tokens=4000, retries=2):
