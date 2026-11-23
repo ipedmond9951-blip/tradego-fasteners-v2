@@ -114,10 +114,12 @@ def run_json(prompt, models=None, timeout=None):
 
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
-    ap.add_argument('prompt', nargs='*')
+    ap.add_argument('prompt', nargs='*', help='留空或 - 时从 stdin 读取')
     ap.add_argument('--models')
     args = ap.parse_args()
-    text = ' '.join(args.prompt)
+    text = ' '.join(args.prompt).strip()
+    if not text or text == '-':
+        text = sys.stdin.read()
     models = args.models.split(',') if args.models else None
     try:
         out, model, sec = run(text, models)

@@ -9,7 +9,9 @@
 #   bash scripts/seo-llm.sh <prompt_file> [单通道超时秒=200] [最小有效字符=200]
 #
 # 环境变量:
-#   SEO_LLM_CHANNELS  渠道顺序, 默认 "codex gemini grok chatgpt"
+#   SEO_LLM_CHANNELS  渠道顺序, 默认 "openclaw codex gemini grok chatgpt"
+#                      openclaw = 本机 OpenClaw 网关 (zai/glm-4.5-flash 当前唯一有余额的模型,
+#                      走 scripts/oc_writer.py, 4s 一次, 带额度闸门, 不依赖 Chrome)
 #                     codex = 本机 Codex CLI (ChatGPT 订阅, 不烧 API 余额, 单次约 20s)
 #   SEO_LLM_STRICT=1  输出必须带 markdown 标题或 JSON 才算通过 (写长文时用)
 #
@@ -19,7 +21,7 @@ set +e
 PROMPT_FILE="$1"
 CH_TIMEOUT="${2:-200}"
 MIN_CHARS="${3:-200}"
-CHANNELS="${SEO_LLM_CHANNELS:-codex gemini grok chatgpt}"
+CHANNELS="${SEO_LLM_CHANNELS:-openclaw codex gemini grok chatgpt}"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 if [ -z "$PROMPT_FILE" ] || [ ! -f "$PROMPT_FILE" ]; then
@@ -51,7 +53,14 @@ printf '\n\n[Internal-ref: %s seo-llm]\n' "$(date +%s%N)" >> "$PROMPT_WITH_NONCE
 
 for CH in $CHANNELS; do
   echo "[seo-llm] 通道 $CH (timeout ${CH_TIMEOUT}s, min ${MIN_CHARS} chars)" >&2
-  if [ "$CH" = "codex" ]; then
+  if [ "$CH" = "openclaw" ]; then
+    # 首选通道: 不烧 API 余额、不依赖 Chrome、自带 model 链与 80% 额度闸门
+    if command -v timeout >/dev/null 2>&1; then
+      OUT=$(timeout --kill-after=10 "$CH_TIMEOUT" python3 "$SCRIPT_DIR/oc_writer.py" - < "$PROMPT_WITH_NONCE" 2>/dev/null)
+    else
+      OUT=$(python3 "$SCRIPT_DIR/oc_writer.py" - < "$PROMPT_WITH_NONCE" 2>/dev/null)
+    fi
+  elif [ "$CH" = "codex" ]; then
     OUT=$(bash "$SCRIPT_DIR/codex-channel.sh" "$PROMPT_WITH_NONCE" "$CH_TIMEOUT" 2>/dev/null)
   elif [ "$HAS_ROUTER" = "1" ]; then
     OUT=$(timeout --kill-after=10 "$CH_TIMEOUT" bash "$SCRIPT_DIR/seo-ai-router-call.sh" "$CH" "$PROMPT_WITH_NONCE" "$CH_TIMEOUT" 2>/dev/null)
