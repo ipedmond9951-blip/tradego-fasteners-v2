@@ -11,12 +11,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const siteUrl = 'https://www.tradego-fasteners.com'
   
   const titles: Record<string, string> = {
-    en: 'Fastener Selection Guide | TradeGo Fasteners',
-    zh: '紧固件选择指南 | TradeGo',
+    en: 'Fastener Guides: Import, Grades and Sourcing',
+    zh: '紧固件指南：进口清关、等级与采购',
   }
   const descriptions: Record<string, string> = {
-    en: 'Expert guides on 304/316 stainless bolts, Grade 8.8/10.9/12.9 structural bolts, self-tapping screws, lock nuts. ISO 9001 + SABS. Africa market insights.',
-    zh: '304/316不锈钢螺栓、8.8/10.9级结构螺栓、自攻螺丝选型指南。ISO 9001+SABS认证。非洲市场洞察。',
+    en: 'Practical guides on bolt grades, coatings, port clearance and buying fasteners from China to Africa. ISO 9001 and SABS documented suppliers.',
+    zh: '螺栓等级、表面处理、非洲港口清关与中国采购的实操指南。ISO 9001 与 SABS 认证供应商，含落地成本与单证清单。',
   }
   
   return {
