@@ -1495,9 +1495,12 @@ if [ ! -s "$IMAGE_FILE" ]; then
 fi
 
 # Git commit + push（部署交给 Vercel GitHub 集成，不再手动 vercel --prod）
+log "🖼️ 生成衍生图/刷新清单..."
+bash "$PROJECT_DIR/scripts/gen_opt_images.sh" 2>&1 | tail -2 || true
+
 log "📤 Committing..."
 cd "$PROJECT_DIR"
-git add "content/articles/${SLUG}.json" "public/images/articles/${SLUG}.jpg" content/articles 2>/dev/null
+git add "content/articles/${SLUG}.json" "public/images/articles/${SLUG}.jpg" content/articles public/images/opt src/lib/optImageManifest.ts 2>/dev/null
 if git diff --cached --quiet; then
     log "⚠️ 无新增内容可提交，跳过 commit/push"
 else
