@@ -2,8 +2,10 @@
 export const productGuides: Record<string, string> = {
   'anchor-bolts': 'anchor-bolts-selection-guide',
   'asphalt-flash-band': 'asphalt-flash-band-buying-guide',
+  'bolt-anchors': 'bolt-anchors-buying-guide',
   'bolts-nuts': 'hex-bolt-dimensions-chart',
   'chipboard-screws': 'chipboard-screws-buying-guide',
+  'clout-nails': 'clout-nails-buying-guide',
   'coach-screws': 'coach-screws-buying-guide',
   'common-nails': 'common-nails-buying-guide',
   'drop-in-anchors': 'drop-in-anchors-buying-guide',
@@ -11,7 +13,9 @@ export const productGuides: Record<string, string> = {
   'expansion-bolts': 'expansion-bolts-buying-guide',
   'ibr-nails': 'ibr-roofing-nails-installation-guide',
   'self-drilling-screws': 'self-drilling-screws-selection-guide',
+  'set-anchors': 'set-anchors-buying-guide',
   'sleeve-anchors': 'sleeve-anchors-buying-guide',
   'threaded-rods': 'threaded-rod-studding-guide',
   'washers': 'flat-washers-vs-spring-washers',
+  'wedge-anchors': 'wedge-anchors-buying-guide',
 }
