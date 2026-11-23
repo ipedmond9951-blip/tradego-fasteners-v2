@@ -22,13 +22,10 @@
     "en": "Lobito Corridor Railway Fastener Procurement Guide",
     "zh": "洛比托走廊铁路紧固件采购：技术规格与验收要点",
     "es": "Compra de fijaciones ferroviarias para el corredor de Lobito",
-    "ar": "توريد مثبتات السكك الحديدية في ممر لوبيتو",
     "fr": "Fixations ferroviaires du corridor de Lobito : normes et achats",
     "pt": "Fixadores ferroviários do Corredor do Lobito: compra e especificações",
     "ru": "Крепёж для железной дороги коридора Лобито: закупки и спецификации",
-    "ja": "ロビト回廊鉄道用締結具の調達ガイド",
-    "de": "Lobito-Korridor: Schienenbefestigungen beschaffen",
-    "hi": "लोबितो कॉरिडोर रेलवे फास्टनर: विनिर्देश और खरीद"
+    "de": "Lobito-Korridor: Schienenbefestigungen beschaffen"
   },
   "description": {
     "en": "Source Lobito Corridor railway fasteners with the right strength grades, corrosion protection and traceability for Angola, DRC and Zambia rail projects.",
@@ -46,13 +43,10 @@
     "en": "Railway fastening systems transfer loads between rails, sleepers and supporting infrastructure.",
     "zh": "Source Lobito Corridor railway fasteners with the right strength grades, corrosion protection and traceability for Angola, DRC and Zambia rail projects.",
     "es": "Source Lobito Corridor railway fasteners with the right strength grades, corrosion protection and traceability for Angola, DRC and Zambia rail projects.",
-    "ar": "Source Lobito Corridor railway fasteners with the right strength grades, corrosion protection and traceability for Angola, DRC and Zambia rail projects.",
     "fr": "Source Lobito Corridor railway fasteners with the right strength grades, corrosion protection and traceability for Angola, DRC and Zambia rail projects.",
     "pt": "Source Lobito Corridor railway fasteners with the right strength grades, corrosion protection and traceability for Angola, DRC and Zambia rail projects.",
     "ru": "Source Lobito Corridor railway fasteners with the right strength grades, corrosion protection and traceability for Angola, DRC and Zambia rail projects.",
-    "ja": "Source Lobito Corridor railway fasteners with the right strength grades, corrosion protection and traceability for Angola, DRC and Zambia rail projects.",
-    "de": "Source Lobito Corridor railway fasteners with the right strength grades, corrosion protection and traceability for Angola, DRC and Zambia rail projects.",
-    "hi": "Source Lobito Corridor railway fasteners with the right strength grades, corrosion protection and traceability for Angola, DRC and Zambia rail projects."
+    "de": "Source Lobito Corridor railway fasteners with the right strength grades, corrosion protection and traceability for Angola, DRC and Zambia rail projects."
   },
   "keywords": "Lobito Corridor railway fasteners, Benguela railway fastening, DRC Zambia rail construction fixings, hot-dip galvanized track bolts, zinc flake coated bolts, ISO 10683, copperbelt mining fasteners, railway fastener supplier",
   "sections": [
@@ -739,10 +733,10 @@
     }
   },
   "relatedArticles": [
-    "africa-railway-sleeper-fastener-specification",
-    "tanzania-sgr-railway-fastener-specifications",
-    "zimbabwe-bolts-screws-b2b-construction-exports-2026",
-    "zambia-copper-mining-fasteners-grade-selection-2026"
+    {
+      "slug": "nigeria-lekki-port-construction-fastener-logistics",
+      "title": "Nigeria Lekki Port Construction Fastener Logistics"
+    }
   ],
   "dataSource": [
     {

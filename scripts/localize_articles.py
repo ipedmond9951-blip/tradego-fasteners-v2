@@ -18,7 +18,10 @@ import json
 import glob
 import os
 import re
-import subprocess
+import subprocess  # noqa: F401
+import sys as _sys
+_sys.path.insert(0, __import__('os').path.dirname(__import__('os').path.abspath(__file__)))
+from llm_client import generate_json as _llm_json
 import sys
 import argparse
 
@@ -87,13 +90,12 @@ def build_prompt(art: dict, todo: dict) -> str:
 
 
 def call_llm(prompt: str) -> str:
-    tmp = '/tmp/localize-prompt.md'
-    with open(tmp, 'w', encoding='utf-8') as f:
-        f.write(prompt)
-    env = dict(os.environ, SEO_LLM_CHANNELS='gemini grok chatgpt')
-    r = subprocess.run(['bash', 'scripts/seo-llm.sh', tmp, '150', '40'],
-                       capture_output=True, text=True, env=env, timeout=420)
-    return r.stdout.strip()
+    try:
+        data = _llm_json(prompt, max_tokens=6000)
+        return json.dumps(data, ensure_ascii=False)
+    except Exception as e:
+        print('  llm 失败:', repr(e)[:90], flush=True)
+        return ''
 
 
 def parse_json(raw: str):

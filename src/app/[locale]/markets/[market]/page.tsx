@@ -6,6 +6,7 @@ import { type Locale, locales } from '@/i18n'
 import { allProducts } from '@/lib/products'
 import { productNames, pick } from '@/lib/productI18n'
 import { markets, getMarket } from '@/lib/markets'
+import { marketTextOverrides } from '@/lib/marketsI18n'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
@@ -156,7 +157,12 @@ export default async function MarketPage({ params }: { params: Promise<{ locale:
 
   const country = m.name[locale] || m.name.en
   const items = m.topSlugs.map(s => allProducts.find(p => p.slug === s)).filter((p): p is (typeof allProducts)[number] => Boolean(p))
-  const faqs = m.faq[locale] || m.faq.en
+  const ov = marketTextOverrides[m.slug]?.[locale]
+  const hero = ov?.hero || m.hero[locale] || m.hero.en
+  const ports = ov?.ports || m.ports[locale] || m.ports.en
+  const docs = ov?.docs || m.docs[locale] || m.docs.en
+  const lines = ov?.lines || m.lines[locale] || m.lines.en
+  const faqs = ov?.faq || m.faq[locale] || m.faq.en
 
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -183,7 +189,7 @@ export default async function MarketPage({ params }: { params: Promise<{ locale:
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
             {c.h1.replace('{c}', country)}
           </h1>
-          <p className="text-primary-100 max-w-3xl leading-relaxed mb-3">{m.hero[locale] || m.hero.en}</p>
+          <p className="text-primary-100 max-w-3xl leading-relaxed mb-3">{hero}</p>
           <p className="text-primary-200 text-sm mb-6">{c.sub}</p>
           <div className="flex flex-wrap gap-3">
             <Link href={`/${locale}/contact/`} className="inline-flex items-center rounded-lg bg-white text-primary-800 font-semibold px-5 py-3 hover:bg-primary-50 transition">{c.cta}</Link>
@@ -198,17 +204,17 @@ export default async function MarketPage({ params }: { params: Promise<{ locale:
         <div className="grid md:grid-cols-2 gap-6">
           <section className="bg-white rounded-xl border border-gray-100 shadow-sm p-6">
             <h2 className="text-lg font-bold text-gray-900 mb-2">{c.portsLabel}</h2>
-            <p className="text-sm text-gray-700 leading-relaxed">{m.ports[locale] || m.ports.en}</p>
+            <p className="text-sm text-gray-700 leading-relaxed">{ports}</p>
           </section>
           <section className="bg-white rounded-xl border border-gray-100 shadow-sm p-6">
             <h2 className="text-lg font-bold text-gray-900 mb-2">{c.docsLabel}</h2>
-            <p className="text-sm text-gray-700 leading-relaxed">{m.docs[locale] || m.docs.en}</p>
+            <p className="text-sm text-gray-700 leading-relaxed">{docs}</p>
           </section>
         </div>
 
         <section>
           <h2 className="text-xl font-bold text-gray-900 mb-2">{c.linesLabel}</h2>
-          <p className="text-sm text-gray-600 mb-5 max-w-3xl">{m.lines[locale] || m.lines.en}</p>
+          <p className="text-sm text-gray-600 mb-5 max-w-3xl">{lines}</p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
             {items.map(p => {
               const name = pick(productNames[p.slug], locale)

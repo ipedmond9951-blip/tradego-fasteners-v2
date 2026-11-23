@@ -21,14 +21,13 @@
   "title": {
     "en": "Kenya Mombasa Port Fastener Warehouse Guide: B2B Import Tips",
     "zh": "肯尼亚蒙巴萨港紧固件仓储指南：B2B 进口与清关要点",
-    "es": "Kenya Mombasa Port Fastener Warehouse Guide: B2B Import Tips",
-    "ar": "Kenya Mombasa Port Fastener Warehouse Guide: B2B Import Tips",
-    "fr": "Kenya Mombasa Port Fastener Warehouse Guide: B2B Import Tips",
-    "pt": "Kenya Mombasa Port Fastener Warehouse Guide: B2B Import Tips",
-    "ru": "Kenya Mombasa Port Fastener Warehouse Guide: B2B Import Tips",
-    "ja": "ケニア・モンバサ港の締結具倉庫ガイド",
-    "de": "Kenya Mombasa Port Fastener Warehouse Guide: B2B Import Tips",
-    "hi": "Kenya Mombasa Port Fastener Warehouse Guide: B2B Import Tips"
+    "es": "Fijaciones: almacén en puerto de Mombasa y logística B2B",
+    "ar": "مثبتات: مستودع ميناء مومباسا واللوجستيات التجارية",
+    "fr": "Fixations : entrepôt port de Mombasa et logistique B2B",
+    "pt": "Fixadores: armazém no porto de Mombaça e logística B2B",
+    "ja": "締結部品：モンバサ港倉庫と法人向け物流ガイド",
+    "de": "Befestigungselemente: Lager Hafen Mombasa & B2B-Logistik",
+    "hi": "फास्टनर: मोम्बासा बंदरगाह गोदाम और बी2बी लॉजिस्टिक्स"
   },
   "description": {
     "en": "Master the Kenya Mombasa port fastener warehouse guide for B2B importers. Learn logistics, customs clearance, and KEBS compliance. Request a quote today!",
@@ -45,14 +44,13 @@
   "metaDescription": {
     "en": "Mombasa is not just Kenya's port — it is the entry point for a corridor that stretches to Uganda, Rwanda, Burundi, eastern DRC, and South Sudan.",
     "zh": "面向 B2B 进口商的蒙巴萨港紧固件仓储指南：KRA 清关、KEBS 符合性、沿海仓储管理与东非走廊转运要点。",
-    "es": "Master the Kenya Mombasa port fastener warehouse guide for B2B importers. Learn logistics, customs clearance, and KEBS compliance. Request a quote today!",
-    "ar": "Master the Kenya Mombasa port fastener warehouse guide for B2B importers. Learn logistics, customs clearance, and KEBS compliance. Request a quote today!",
-    "fr": "Master the Kenya Mombasa port fastener warehouse guide for B2B importers. Learn logistics, customs clearance, and KEBS compliance. Request a quote today!",
-    "pt": "Master the Kenya Mombasa port fastener warehouse guide for B2B importers. Learn logistics, customs clearance, and KEBS compliance. Request a quote today!",
-    "ru": "Master the Kenya Mombasa port fastener warehouse guide for B2B importers. Learn logistics, customs clearance, and KEBS compliance. Request a quote today!",
-    "ja": "Master the Kenya Mombasa port fastener warehouse guide for B2B importers. Learn logistics, customs clearance, and KEBS compliance. Request a quote today!",
-    "de": "Master the Kenya Mombasa port fastener warehouse guide for B2B importers. Learn logistics, customs clearance, and KEBS compliance. Request a quote today!",
-    "hi": "Master the Kenya Mombasa port fastener warehouse guide for B2B importers. Learn logistics, customs clearance, and KEBS compliance. Request a quote today!"
+    "es": "Mombasa es puerta de enlace para Uganda, Ruanda, Burundi, este de la RDC y Sudán del Sur. Clave para importar fijaciones.",
+    "ar": "مومباسا بوابة نحو أوغندا ورواندا وبوروندي وشرق الكونغو وجنوب السودان. أساس مهم لاستيراد المثبتات.",
+    "fr": "Mombasa ouvre l'accès vers l'Ouganda, le Rwanda, le Burundi, l'est de la RDC et le Soudan du Sud pour vos fixations.",
+    "pt": "Mombaça conecta a Uganda, Ruanda, Burundi, leste da RDC e Sudão do Sul. Essencial na importação de fixadores.",
+    "ja": "モンバサはウガンダ、ルワンダ、ブルンジ、コンゴ東部、南スーダンへ通じる物流の玄関口です。",
+    "de": "Mombasa verbindet mit Uganda, Ruanda, Burundi, Ost-DRK und Südsudan. Wichtig für den Import von Befestigungselementen.",
+    "hi": "मोम्बासा युगांडा, रवांडा, बुरुंडी, पूर्वी कांगो और दक्षिण सूडान का प्रवेश द्वार है। फास्टनर आयात में सहायक है।"
   },
   "keywords": "Kenya Mombasa port fastener warehouse guide, Mombasa port warehousing, fastener imports Kenya, KEBS compliance fasteners, KRA customs clearance, industrial fasteners East Africa, container freight station Mombasa, B2B fastener logistics",
   "author": {
@@ -172,10 +170,10 @@
     }
   ],
   "relatedArticles": [
-    "kenya-infrastructure-fastener-demand",
-    "kenya-affordable-housing-fasteners-wholesale",
-    "ivory-coast-abidjan-port-fastener-tariff",
-    "togo-lome-port-fastener-import-procedure"
+    {
+      "slug": "china-zimbabwe-fastener-shipping-container-guide",
+      "title": "China to Zimbabwe Fastener Shipping: Container Guide"
+    }
   ],
   "cta": {
     "text": {
