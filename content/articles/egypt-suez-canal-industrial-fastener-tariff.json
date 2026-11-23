@@ -23,7 +23,12 @@
     "zh": "埃及苏伊士运河工业紧固件关税指南",
     "ar": "دليل رسوم الجمارك للمثبتات الصناعية في قناة السويس بمصر",
     "ja": "エジプト・スエズ運河の産業用ファスナー関税ガイド",
-    "hi": "मिस्र स्वेज नहर औद्योगिक फास्टनर टैरिफ गाइड"
+    "hi": "मिस्र स्वेज नहर औद्योगिक फास्टनर टैरिफ गाइड",
+    "ru": "Пошлины на промышленный крепёж в зоне Суэца",
+    "es": "Aranceles de importación de fijaciones en Suez, Egipto",
+    "fr": "Droits de douane des fixations au canal de Suez",
+    "pt": "Tarifas de importação de fixações no Canal de Suez",
+    "de": "Zölle für Industriebefestigung am Suezkanal"
   },
   "description": {
     "en": "Egypt Suez Canal industrial fastener tariff guide covering HS codes, duties, VAT, SCZONE incentives, and import steps. Plan your shipment today.",
@@ -38,11 +43,16 @@
     "hi": "मिस्र स्वेज़ नहर औद्योगिक फास्टनर शुल्क, HS कोड, कर, SCZONE प्रोत्साहन और आयात प्रक्रिया जानें। शिपमेंट की योजना पहले से बनाएं।"
   },
   "metaDescription": {
-    "en": "The **Egypt Suez Canal industrial fastener tariff** is not a single charge applied by the Suez Canal.",
+    "en": "Egypt Suez Canal industrial fastener tariff and VAT explained: HS classification, duty and VAT math, required certificates, clearance steps and landed cost per tonne for project buyers.",
     "zh": "埃及苏伊士运河工业紧固件关税并非由苏伊士运河管理局单独征收的单一费用。立即了解埃及海关进口税率、增值税与清关实务，助力紧固件出口降本增效。",
     "ar": "تعريفة المثبتات الصناعية في قناة السويس بمصر ليست رسماً واحداً تفرضه هيئة القناة. تعرّف على الرسوم الجمركية وضريبة القيمة المضافة وإجراءات التخليص لتعزيز صادراتك.",
     "ja": "エジプト・スエズ運河の産業用ファスナー関税は、運河当局が課す単一の料金ではありません。輸入関税や付加価値税、通関手続きの要点を把握し輸出コストを最適化しましょう。",
-    "hi": "मिस्र स्वेज नहर औद्योगिक फास्टनर टैरिफ स्वेज नहर द्वारा लगाया जाने वाला कोई एकल शुल्क नहीं है। अपने निर्यात की लागत कम करने के लिए मिस्र के सीमा शुल्क और वैट नियम जानें।"
+    "hi": "मिस्र स्वेज नहर औद्योगिक फास्टनर टैरिफ स्वेज नहर द्वारा लगाया जाने वाला कोई एकल शुल्क नहीं है। अपने निर्यात की लागत कम करने के लिए मिस्र के सीमा शुल्क और वैट नियम जानें।",
+    "ru": "Гид по пошлинам и импорту промышленного крепежа в зоне Суэцкого канала: тарифные позиции, требуемые сертификаты, таможенное оформление и логистические затраты до завода.",
+    "es": "Guía de aranceles e importación de fijaciones industriales en la zona del Canal de Suez: partidas arancelarias, certificados requeridos, despacho aduanero y costos logísticos hasta planta.",
+    "fr": "Guide des droits de douane et de l'importation de fixations industrielles dans la zone du canal de Suez : positions tarifaires, certificats exigés, dédouanement et coûts logistiques jusqu'à l'usine.",
+    "pt": "Guia de tarifas e importação de fixações industriais na zona do Canal de Suez: posições tarifárias, certificados exigidos, desembaraço aduaneiro e custos logísticos até a fábrica.",
+    "de": "Ratgeber zu Zöllen und Import von Industriebefestigung in der Suezkanal-Zone: Tarifpositionen, benötigte Zertifikate, Zollabfertigung und Logistikkosten bis zum Werk in Ägypten."
   },
   "keywords": "Egypt customs tariff, HS code 7318, industrial fasteners Egypt, SCZONE customs, Egypt import duty, fastener VAT Egypt, Suez Canal logistics, African fastener exports, Nafeza tariff search, Egypt customs clearance",
   "author": {
@@ -121,7 +131,7 @@
         "en": "Egypt Suez Canal Industrial Fastener Tariff and VAT"
       },
       "body": {
-        "en": "Landed cost should be built as a calculation rather than guessed from a headline customs percentage. A practical model is:",
+        "en": "Landed cost has to be calculated, not estimated from a single headline duty rate. A workable model starts with the ex works price, adds inland haulage to the loading port, export clearance and ocean freight to the Egyptian gateway, then applies insurance at roughly zero point three to zero point five percent of the CIF value. Duty is assessed on the CIF value using the tariff line that matches the actual product, and fasteners frequently fall into more than one line depending on material, coating and whether the item is a bolt, a nut or a self tapping screw. Value added tax is then applied on the duty paid value, so the two charges compound. Port charges, terminal handling, agency fees and inland delivery to the project site complete the picture, and these items vary enough between Alexandria, Damietta and Sokhna that the gateway choice can move the total by several percent. A practical spreadsheet should hold one column per charge, a duty rate assumption per tariff line, and a sensitivity row for freight that swings by twenty percent. Buyers who model cost this way can compare a Chinese supplier against a Turkish or Indian alternative on a like for like basis, and can see immediately whether a change of coating or packing density pays for itself. Keep the model updated as tariff lines and freight rates change, because a rate that was correct last year is a poor basis for this year's purchase order.",
         "zh": "到岸成本应通过计算得出，而不是根据一个概括性的海关税率估算。一个实用的计算模型如下："
       },
       "type": "text"
