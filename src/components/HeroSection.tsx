@@ -14,7 +14,16 @@ const heroProducts = [
 export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
   return (
     <section className="relative bg-gradient-to-br from-primary-700 via-primary-800 to-primary-900 text-white overflow-hidden">
-      {/* Hero Background Image — LCP critical: responsive srcSet keeps mobile at ~60KB */}
+      {/* LCP 预加载：React 19 会把 link 提升到 head，图片与 HTML 并行下载 */}
+      <link
+        rel="preload"
+        as="image"
+        href="/images/hero-construction-960.webp"
+        imageSrcSet="/images/hero-construction-480.webp 480w, /images/hero-construction-640.webp 640w, /images/hero-construction-960.webp 960w, /images/hero-construction.webp 1400w"
+        imageSizes="100vw"
+        fetchPriority="high"
+      />
+      {/* Hero Background Image — LCP critical: responsive srcSet keeps mobile at ~35KB */}
       <div className="absolute inset-0 z-0">
         <img
           src="/images/hero-construction.webp"
