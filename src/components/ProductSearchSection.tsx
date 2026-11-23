@@ -29,7 +29,7 @@ const categories = [
   { key: 'All', label: 'All Products' },
   { key: 'screws', label: 'Screws' },
   { key: 'bolts', label: 'Bolts & Nuts' },
-  { key: 'nails', label: 'Nails' },
+  { key: 'nails', label: 'Nails & Wire' },
   { key: 'anchors', label: 'Anchors' },
   { key: 'nuts', label: 'Nuts' },
   { key: 'washers', label: 'Washers' },
@@ -80,10 +80,10 @@ export default function ProductSearchSection({ products, locale, texts }: Produc
     // Category filter
     if (selectedCategory !== 'All') {
       const categoryMap: Record<string, string[]> = {
-        'screws': ['drywall', 'chipboard', 'concrete-screw', 'self-tapping', 'self-drilling', 'coach', 'machine-screw', 'wood-screw', 'set-screw', 'eye-screw'],
-        'bolts': ['bolt', 'threaded', 'expansion'],
+        'screws': ['drywall', 'chipboard', 'concrete-screw', 'self-tapping', 'self-drilling', 'coach', 'machine-screw', 'wood-screw', 'set-screw', 'eye-screw', 'roofing'],
+        'bolts': ['bolt', 'threaded', 'expansion', 'j-bolt'],
         'nuts': ['nut'],
-        'nails': ['nail'],
+        'nails': ['nail', 'binding-wire'],
         'anchors': ['anchor'],
         'washers': ['washer'],
         'solar': ['solar', 'ground-screw', 'aluminum', 'profile', 'channel'],
@@ -114,6 +114,7 @@ export default function ProductSearchSection({ products, locale, texts }: Produc
     'Screws': locale === 'zh' ? '螺丝' : 'Screws',
     'Bolts & Nuts': locale === 'zh' ? '螺栓螺母' : 'Bolts & Nuts',
     'Nails': locale === 'zh' ? '钉子' : 'Nails',
+    'Nails & Wire': locale === 'zh' ? '钉子与铁丝' : 'Nails & Wire',
     'Anchors': locale === 'zh' ? '锚栓' : 'Anchors',
     'Nuts': locale === 'zh' ? '螺母' : 'Nuts',
     'Washers': locale === 'zh' ? '垫圈' : 'Washers',

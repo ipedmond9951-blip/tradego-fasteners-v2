@@ -181,6 +181,12 @@ export const productNames: Record<string, Dict> = {
   'aluminum-profiles': { en: 'Aluminium Profiles', zh: '铝型材', es: 'Perfiles de aluminio', ar: 'مقاطع ألمنيوم', fr: 'Profilés aluminium', pt: 'Perfis de alumínio', ru: 'Алюминиевые профили', ja: 'アルミ形材', de: 'Aluminiumprofile', hi: 'एल्युमिनियम प्रोफाइल' },
   'solar-clamps': { en: 'Solar Clamps', zh: '光伏压块', es: 'Abrazaderas solares', ar: 'مشابك شمسية', fr: 'Pinces solaires', pt: 'Grampos solares', ru: 'Солнечные зажимы', ja: 'ソーラークランプ', de: 'Solarklemmen', hi: 'सोलर क्लैंप' },
   'steel-channels': { en: 'Steel Channels', zh: 'C 型钢', es: 'Perfiles C de acero', ar: 'مقاطع فولاذية C', fr: 'Profilés C en acier', pt: 'Perfis C de aço', ru: 'Стальные швеллеры', ja: 'C形鋼', de: 'Stahlprofile C', hi: 'स्टील चैनल' },
+  'plastic-anchors': { en: 'Plastic Anchors (Wall Plugs)', zh: '塑料膨胀管', es: 'Anclajes plásticos', fr: 'Chevilles plastique', pt: 'Chumbadores plásticos', ru: 'Пластиковые дюбели', ar: 'مثبتات بلاستيكية', ja: 'プラスチックアンカー', de: 'Kunststoffdübel', hi: 'प्लास्टिक एंकर' },
+  'drywall-anchors': { en: 'Drywall Anchors', zh: '干墙锚', es: 'Anclajes para yeso', fr: 'Chevilles plaque de plâtre', pt: 'Chumbadores para drywall', ru: 'Дюбели для гипсокартона', ar: 'مثبتات جبس', ja: '石膏ボードアンカー', de: 'Trockenbau-Anker', hi: 'ड्राईवॉल एंकर' },
+  'j-bolts': { en: 'J Bolts', zh: 'J 型螺栓', es: 'Pernos en J', fr: 'Boulons en J', pt: 'Pernos em J', ru: 'J-образные болты', ar: 'براغي J', ja: 'Jボルト', de: 'J-Bolzen', hi: 'J बोल्ट' },
+  'binding-wire': { en: 'Binding Wire', zh: '绑扎铁丝', es: 'Alambre de amarre', fr: 'Fil de ligature', pt: 'Arame de amarração', ru: 'Вязальная проволока', ar: 'سلك ربط', ja: '結束ワイヤ', de: 'Bindedraht', hi: 'बाइंडिंग वायर' },
+  'roofing-screws': { en: 'Roofing Screws with EPDM', zh: '带垫屋面钉', es: 'Tornillos para tejado con EPDM', fr: 'Vis de toiture EPDM', pt: 'Parafusos para telhado com EPDM', ru: 'Кровельные саморезы с EPDM', ar: 'مسامير أسقف مع EPDM', ja: 'EPDM付き屋根ねじ', de: 'Dachschrauben mit EPDM', hi: 'EPDM रूफिंग स्क्रू' },
+  'chemical-anchors': { en: 'Chemical Anchors', zh: '化学锚栓', es: 'Anclajes químicos', fr: 'Ancrages chimiques', pt: 'Chumbadores químicos', ru: 'Химические анкеры', ar: 'مثبتات كيميائية', ja: 'ケミカルアンカー', de: 'Chemische Anker', hi: 'केमिकल एंकर' },
 }
 
 // 详情页简述（en / zh 为主，其它语言回落到 en）
@@ -332,6 +338,30 @@ export const productDescriptions: Record<string, Dict> = {
   'aluminum-profiles': { en: '6005-T5 solar rails and angle profiles, mill finish or anodized, cut to length with drilled fixing holes on request.', zh: '6005-T5 光伏导轨与角铝型材，本色或阳极氧化，可按长度切割并预钻孔。' },
   'solar-clamps': { en: 'Aluminium mid and end clamps for 30-40 mm framed modules, with the bolt, nut and washer packed as a set.', zh: '铝制中压块与边压块，适配 30-40mm 边框组件，螺栓螺母垫圈成套包装。' },
   'steel-channels': { en: 'Cold-formed C and U channels in 1.5-3 mm galvanized steel, cut to length for purlins, frames and solar ballast.', zh: '冷弯 C 型/U 型钢，1.5-3mm 镀锌板，按长度切割，用于檩条、框架与光伏配重支架。' },
+  'plastic-anchors': {
+    en: 'Nylon wall plugs with matching screws - the everyday fixing for concrete, block and tile, packed in colour-coded boxes.',
+    zh: '尼龙膨胀管配配套自攻钉，混凝土、砌块与瓷砖的日常固定件，按颜色分箱包装。',
+  },
+  'drywall-anchors': {
+    en: 'Self-drilling drywall anchors for plasterboard and hollow walls - no stud needed, and the screw can be removed without losing the fixing.',
+    zh: '自钻干墙锚，用于石膏板与空心墙，无需找龙骨，拆装螺丝不丢锚固点。',
+  },
+  'j-bolts': {
+    en: 'HDG J bolts with nut and washer for fence posts, poles and precast fixing - the hooked end anchors into concrete.',
+    zh: '热镀锌 J 型螺栓配螺母垫圈，用于围栏立柱、杆件与预制件固定，弯钩端锚入混凝土。',
+  },
+  'binding-wire': {
+    en: 'Galvanized and black annealed binding wire in 25 kg coils for rebar tying, blockwork and general site bundling.',
+    zh: '镀锌与黑退火绑扎铁丝，25kg 卷装，用于钢筋绑扎、砌体与工地捆扎。',
+  },
+  'roofing-screws': {
+    en: 'Self-drilling roofing screws with EPDM washers - hex washer head, colour matched to the sheet on request, watertight on IBR and corrugated roofs.',
+    zh: '带 EPDM 垫圈的自钻屋面钉，六角华司头，可按板色配色，IBR 与瓦楞屋面防水固定。',
+  },
+  'chemical-anchors': {
+    en: 'Chemical anchor kits - glass capsule plus threaded rod and nut, for heavy loads in concrete where a mechanical anchor would crack the base.',
+    zh: '化学锚栓套装，玻璃药剂管配螺杆螺母，用于混凝土重载固定，避免机械锚栓挤裂基材。',
+  },
 }
 
 export const uiLabels: Record<string, Dict> = {

@@ -30,6 +30,7 @@ export const productCategories: ProductCategory[] = [
     slugs: [
       'drywall-screws', 'self-drilling-screws', 'self-tapping-screws', 'chipboard-screws',
       'concrete-screws', 'machine-screws', 'coach-screws', 'wood-screws', 'set-screws', 'eye-screws',
+      'roofing-screws',
     ],
   },
   {
@@ -52,7 +53,7 @@ export const productCategories: ProductCategory[] = [
     },
     slugs: [
       'bolts-nuts', 'anchor-bolts', 'u-bolts', 'eye-bolts', 'foundation-bolts', 'carriage-bolts',
-      'allen-bolts', 'hanger-bolts', 'flange-bolts', 'stud-bolts', 'threaded-rods',
+      'allen-bolts', 'hanger-bolts', 'flange-bolts', 'stud-bolts', 'threaded-rods', 'j-bolts',
     ],
   },
   {
@@ -98,8 +99,8 @@ export const productCategories: ProductCategory[] = [
   {
     key: 'nails',
     label: {
-      en: 'Nails', zh: '钉类', es: 'Clavos', fr: 'Clous', pt: 'Pregos',
-      ar: 'مسامير', ru: 'Гвозди', ja: '釘', de: 'Nägel', hi: 'कील',
+      en: 'Nails & Wire', zh: '钉与铁丝', es: 'Clavos y alambre', fr: 'Clous et fil', pt: 'Pregos e arame',
+      ar: 'مسامير وأسلاك', ru: 'Гвозди и проволока', ja: '釘・ワイヤ', de: 'Nägel & Draht', hi: 'कील और तार',
     },
     blurb: {
       en: 'IBR roofing, coil, common, concrete, clout, duplex and powder-actuated nails, SABS 1195 available.',
@@ -113,7 +114,7 @@ export const productCategories: ProductCategory[] = [
       de: 'IBR-Dach-, Rollen-, Draht-, Beton-, Dachpappen-, Doppelkopf- und Schussnägel.',
       hi: 'IBR रूफिंग, कॉइल, कॉमन, कंक्रीट, क्लाउट, ड्यूप्लेक्स और शूटिंग कील।',
     },
-    slugs: ['ibr-nails', 'coil-nails', 'common-nails', 'concrete-nails', 'clout-nails', 'duplex-nails', 'shooting-nails'],
+    slugs: ['ibr-nails', 'coil-nails', 'common-nails', 'concrete-nails', 'clout-nails', 'duplex-nails', 'shooting-nails', 'binding-wire'],
   },
   {
     key: 'anchors',
@@ -133,7 +134,7 @@ export const productCategories: ProductCategory[] = [
       de: 'Hülsen-, Keil-, Einlass-, Setz- und Bolzenanker sowie Spreizbolzen und Erdschrauben.',
       hi: 'स्लीव, वेज, ड्रॉप-इन, सेट और बोल्ट एंकर तथा एक्सपैंशन बोल्ट और ग्राउंड स्क्रू।',
     },
-    slugs: ['bolt-anchors', 'sleeve-anchors', 'expansion-bolts', 'wedge-anchors', 'drop-in-anchors', 'set-anchors', 'ground-screws'],
+    slugs: ['bolt-anchors', 'sleeve-anchors', 'expansion-bolts', 'wedge-anchors', 'drop-in-anchors', 'set-anchors', 'ground-screws', 'plastic-anchors', 'drywall-anchors', 'chemical-anchors'],
   },
   {
     key: 'rivets',
@@ -203,10 +204,10 @@ export const featuredSlugs = [
   'self-drilling-screws',
   'bolts-nuts',
   'ibr-nails',
+  'roofing-screws',
   'anchor-bolts',
   'solar-brackets',
   'butyl-tape',
-  'washers',
 ]
 
 export function categoryOf(slug: string): ProductCategory | undefined {

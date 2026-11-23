@@ -2,6 +2,7 @@
 
 import { type Locale } from '@/i18n'
 import ProductCardClient from './ProductCardClient'
+import { productNames, pick } from '@/lib/productI18n'
 
 interface Product {
   slug: string
@@ -46,7 +47,7 @@ export default function ProductGridWithSkeleton({ products, locale, texts }: Pro
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 md:gap-8">
       {products.map((product) => {
-        const text = texts[product.nameKey] || ''
+        const text = texts[product.nameKey] || pick(productNames[product.slug], locale) || ''
         return (
           <ProductCardClient
             key={product.slug}

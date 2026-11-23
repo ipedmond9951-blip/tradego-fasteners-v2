@@ -108,7 +108,7 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
 
         {/* 全品类分区 */}
         <h3 className="text-xl md:text-2xl font-bold text-primary-900 mb-1">{h.all}</h3>
-        <p className="text-gray-600 text-xs md:text-sm mb-8">{h.inStock}</p>
+        <p className="text-gray-600 text-xs md:text-sm mb-8">{h.inStock.replace('59', String(allProducts.length))}</p>
 
         <div className="space-y-12">
           {productCategories.map(cat => {
