@@ -171,6 +171,16 @@ export const productNames: Record<string, Dict> = {
   'coupling-nuts': { en: 'Coupling Nuts', zh: '加长连接螺母', es: 'Tuercas de unión', ar: 'صواميل وصل', fr: 'Manchons filetés', pt: 'Porcas de união', ru: 'Соединительные гайки', ja: 'カップリングナット', de: 'Gewindemuffen', hi: 'कपलिंग नट' },
   'ground-screws': { en: 'Ground Screws', zh: '螺旋地桩', es: 'Tornillos de tierra', ar: 'براغي أرضية', fr: 'Vis de sol', pt: 'Estacas helicoidais', ru: 'Винтовые сваи', ja: 'グラウンドスクリュー', de: 'Erdschrauben', hi: 'ग्राउंड स्क्रू' },
   'lock-washers': { en: 'Lock Washers', zh: '锁紧垫圈', es: 'Arandelas de seguridad', ar: 'حلقات قفل', fr: 'Rondelles de blocage', pt: 'Arruelas de trava', ru: 'Стопорные шайбы', ja: 'ロックワッシャー', de: 'Sicherungsscheiben', hi: 'लॉक वॉशर' },
+  'ptfe-nuts': { en: 'PTFE Insert Nuts', zh: 'PTFE 镶嵌螺母', es: 'Tuercas con inserto de PTFE', ar: 'صواميل بإدخال PTFE', fr: 'Écrous à insert PTFE', pt: 'Porcas com inserto PTFE', ru: 'Гайки с вкладышем PTFE', ja: 'PTFEインサートナット', de: 'Muttern mit PTFE-Einsatz', hi: 'PTFE इंसर्ट नट' },
+  'wood-screws': { en: 'Wood Screws', zh: '木螺钉', es: 'Tornillos para madera', ar: 'مسامير خشب', fr: 'Vis à bois', pt: 'Parafusos para madeira', ru: 'Шурупы по дереву', ja: '木ねじ', de: 'Holzschrauben', hi: 'वुड स्क्रू' },
+  'set-screws': { en: 'Set Screws', zh: '紧定螺钉', es: 'Tornillos de ajuste', ar: 'براغي تثبيت', fr: 'Vis de pression', pt: 'Parafusos de fixação', ru: 'Установочные винты', ja: '止めねじ', de: 'Gewindestifte', hi: 'सेट स्क्रू' },
+  'eye-screws': { en: 'Eye Screws', zh: '羊眼螺钉', es: 'Tornillos de ojal', ar: 'براغي عينية', fr: 'Vis à oeil', pt: 'Parafusos com olhal', ru: 'Винты с кольцом', ja: 'アイスクリュー', de: 'Ösenhaken', hi: 'आई स्क्रू' },
+  'semi-tubular-rivets': { en: 'Semi-Tubular Rivets', zh: '半空心铆钉', es: 'Remaches semitubulares', ar: 'مسامير برشام نصف أنبوبية', fr: 'Rivets semi-tubulaires', pt: 'Rebites semi-tubulares', ru: 'Полупустотные заклёпки', ja: '半管状リベット', de: 'Halbrohr-Nieten', hi: 'सेमी-ट्यूबुलर रिवेट' },
+  'metal-brackets': { en: 'Metal Brackets', zh: '金属冲压支架', es: 'Soportes metálicos', ar: 'حوامل معدنية', fr: 'Supports métalliques', pt: 'Suportes metálicos', ru: 'Металлические кронштейны', ja: '金属ブラケット', de: 'Metallhalterungen', hi: 'मेटल ब्रैकेट' },
+  'solar-hooks': { en: 'Solar Roof Hooks', zh: '光伏屋顶挂钩', es: 'Ganchos solares', ar: 'خطافات شمسية', fr: 'Crochets solaires', pt: 'Ganchos solares', ru: 'Солнечные крюки', ja: 'ソーラーフック', de: 'Solarhaken', hi: 'सोलर हुक' },
+  'aluminum-profiles': { en: 'Aluminium Profiles', zh: '铝型材', es: 'Perfiles de aluminio', ar: 'مقاطع ألمنيوم', fr: 'Profilés aluminium', pt: 'Perfis de alumínio', ru: 'Алюминиевые профили', ja: 'アルミ形材', de: 'Aluminiumprofile', hi: 'एल्युमिनियम प्रोफाइल' },
+  'solar-clamps': { en: 'Solar Clamps', zh: '光伏压块', es: 'Abrazaderas solares', ar: 'مشابك شمسية', fr: 'Pinces solaires', pt: 'Grampos solares', ru: 'Солнечные зажимы', ja: 'ソーラークランプ', de: 'Solarklemmen', hi: 'सोलर क्लैंप' },
+  'steel-channels': { en: 'Steel Channels', zh: 'C 型钢', es: 'Perfiles C de acero', ar: 'مقاطع فولاذية C', fr: 'Profilés C en acier', pt: 'Perfis C de aço', ru: 'Стальные швеллеры', ja: 'C形鋼', de: 'Stahlprofile C', hi: 'स्टील चैनल' },
 }
 
 // 详情页简述（en / zh 为主，其它语言回落到 en）
@@ -312,6 +322,16 @@ export const productDescriptions: Record<string, Dict> = {
   'coupling-nuts': { en: 'Long coupling nuts M8-M20 for joining two threaded rods end to end, supplied with a hex body for wrench access.', zh: '加长连接螺母 M8-M20，用于把两根螺纹杆对接，六角外形便于扳手施力。' },
   'ground-screws': { en: 'Hot-dip galvanized helical ground screws 550-1200 mm for solar arrays, fences and light structures - no concrete, installed by machine.', zh: '热镀锌螺旋地桩 550-1200mm，用于光伏阵列、围栏与轻型结构；免混凝土，机械旋入安装。' },
   'lock-washers': { en: 'Toothed external and internal lock washers in spring steel and stainless, for joints where vibration rather than load is the problem.', zh: '外齿/内齿锁紧垫圈，弹簧钢与不锈钢，适用于以振动而非载荷为主的连接。' },
+  'ptfe-nuts': { en: 'DIN 934 hex body with a PTFE insert that seals and locks - for chemical lines, water systems and joints that must stay leak-free.', zh: 'DIN934 六角基体加 PTFE 镶嵌层，兼具密封与防松，用于化工管路、水系统与不可渗漏的连接。' },
+  'wood-screws': { en: 'Countersunk wood screws 3.0-6.0 mm in zinc and stainless, full or part thread, for joinery, decking and light timber framing.', zh: '沉头木螺钉 3.0-6.0mm，镀锌与不锈钢，全牙或半牙，用于细木工、铺板与轻型木结构。' },
+  'set-screws': { en: 'Grub screws to DIN 913/914/916 in hex socket, slotted and cone point styles, for locking shafts, collars and pulleys.', zh: 'DIN913/914/916 紧定螺钉，内六角/一字，锥端与平端，用于锁紧轴、套环与皮带轮。' },
+  'eye-screws': { en: 'Lag-style eye screws 4-12 mm in zinc and stainless, for rope, cable and light tie-down work in timber and posts.', zh: '木牙羊眼螺钉 4-12mm，镀锌与不锈钢，用于木料与立柱上的绳索、缆线及轻型绑扎。' },
+  'semi-tubular-rivets': { en: 'Semi-tubular rivets 2.4-6.4 mm in steel, aluminium and copper, rolled with a simple press for light sheet and hardware assembly.', zh: '半空心铆钉 2.4-6.4mm，钢/铝/铜，配简易压铆工具滚压成形，用于薄板与五金装配。' },
+  'metal-brackets': { en: 'Custom stamped and laser-cut brackets in Q235 and SS304, made to drawing with holes, folds and powder coating.', zh: 'Q235 与 SS304 定制冲压/激光切割支架，按图加工孔位与折弯，可做喷粉。' },
+  'solar-hooks': { en: 'HDG and stainless roof hooks for tile, IBR and corrugated sheet, sized to the purlin spacing and supplied with fixing bolts.', zh: '热镀锌与不锈钢屋顶挂钩，适配瓦屋面、IBR 与波纹板，按檩条间距选型，配固定螺栓。' },
+  'aluminum-profiles': { en: '6005-T5 solar rails and angle profiles, mill finish or anodized, cut to length with drilled fixing holes on request.', zh: '6005-T5 光伏导轨与角铝型材，本色或阳极氧化，可按长度切割并预钻孔。' },
+  'solar-clamps': { en: 'Aluminium mid and end clamps for 30-40 mm framed modules, with the bolt, nut and washer packed as a set.', zh: '铝制中压块与边压块，适配 30-40mm 边框组件，螺栓螺母垫圈成套包装。' },
+  'steel-channels': { en: 'Cold-formed C and U channels in 1.5-3 mm galvanized steel, cut to length for purlins, frames and solar ballast.', zh: '冷弯 C 型/U 型钢，1.5-3mm 镀锌板，按长度切割，用于檩条、框架与光伏配重支架。' },
 }
 
 export const uiLabels: Record<string, Dict> = {
