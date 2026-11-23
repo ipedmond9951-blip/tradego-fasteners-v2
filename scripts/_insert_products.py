@@ -1,6 +1,6 @@
-import json
+import json, sys
 
-P = json.load(open('scripts/data/new-products-batch1.json', encoding='utf-8'))
+P = json.load(open(sys.argv[1] if len(sys.argv) > 1 else 'scripts/data/new-products-batch1.json', encoding='utf-8'))
 
 
 def js(s):

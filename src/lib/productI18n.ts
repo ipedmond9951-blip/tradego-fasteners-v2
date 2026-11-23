@@ -161,6 +161,16 @@ export const productNames: Record<string, Dict> = {
   'nylon-lock-nuts': { en: 'Nylon Lock Nuts', zh: '尼龙锁紧螺母', es: 'Tuercas autoblocantes', ar: 'صواميل قفل النايلون', fr: 'Écrous à freinage interne', pt: 'Porcas de trava', ru: 'Гайки с нейлоновой вставкой', ja: 'ナイロンロックナット', de: 'Seckskantmuttern mit Klemmteil', hi: 'नायलॉक नट' },
   'spring-washers': { en: 'Spring Washers', zh: '弹簧垫圈', es: 'Arandelas elásticas', ar: 'حلقات نابضية', fr: 'Rondelles ressorts', pt: 'Arruelas de mola', ru: 'Пружинные шайбы', ja: 'バネ座金', de: 'Federringe', hi: 'स्प्रिंग वॉशर' },
   'solar-brackets': { en: 'Solar Brackets', zh: '光伏支架', es: 'Soportes solares', ar: 'حوامل شمسية', fr: 'Supports solaires', pt: 'Suportes solares', ru: 'Солнечные кронштейны', ja: 'ソーラー架台', de: 'Solarhalterungen', hi: 'सोलर ब्रैकेट' },
+  'flange-bolts': { en: 'Flange Bolts', zh: '法兰面螺栓', es: 'Pernos con brida', ar: 'براغي ذات فلنجة', fr: 'Boulons à bride', pt: 'Parafusos com flanges', ru: 'Болты с фланцем', ja: 'フランジボルト', de: 'Flanschschrauben', hi: 'फ्लैंज बोल्ट' },
+  'stud-bolts': { en: 'Stud Bolts', zh: '双头螺柱', es: 'Espárragos', ar: 'براغي مزدوجة', fr: 'Goujons', pt: 'Parafusos prisioneiros', ru: 'Шпильки', ja: 'スタッドボルト', de: 'Stehbolzen', hi: 'स्टड बोल्ट' },
+  'machine-screws': { en: 'Machine Screws', zh: '机螺钉', es: 'Tornillos mecánicos', ar: 'براغي آلية', fr: 'Vis de machine', pt: 'Parafusos de máquina', ru: 'Машинные винты', ja: '機械ねじ', de: 'Maschinenschrauben', hi: 'मशीन स्क्रू' },
+  'rivet-nuts': { en: 'Rivet Nuts', zh: '拉铆螺母', es: 'Tuercas remachables', ar: 'صواميل برشام', fr: 'Écrous rivets', pt: 'Porcas rebitadas', ru: 'Заклёпочные гайки', ja: 'リベットナット', de: 'Blindnietmuttern', hi: 'रिवेट नट' },
+  'flange-nuts': { en: 'Flange Nuts', zh: '法兰螺母', es: 'Tuercas con brida', ar: 'صواميل بفلنجة', fr: 'Écrous à bride', pt: 'Porcas com flange', ru: 'Гайки с фланцем', ja: 'フランジナット', de: 'Flanschmuttern', hi: 'फ्लैंज नट' },
+  'cap-nuts': { en: 'Cap Nuts', zh: '盖形螺母', es: 'Tuercas de tapa', ar: 'صواميل مقببة', fr: 'Écrous borgnes', pt: 'Porcas cegas', ru: 'Колпачковые гайки', ja: 'キャップナット', de: 'Hutmuttern', hi: 'कैप नट' },
+  'wing-nuts': { en: 'Wing Nuts', zh: '蝶形螺母', es: 'Tuercas de mariposa', ar: 'صواميل فراشية', fr: 'Écrous papillon', pt: 'Porcas borboleta', ru: 'Барашковые гайки', ja: '蝶ナット', de: 'Flügelmuttern', hi: 'विंग नट' },
+  'coupling-nuts': { en: 'Coupling Nuts', zh: '加长连接螺母', es: 'Tuercas de unión', ar: 'صواميل وصل', fr: 'Manchons filetés', pt: 'Porcas de união', ru: 'Соединительные гайки', ja: 'カップリングナット', de: 'Gewindemuffen', hi: 'कपलिंग नट' },
+  'ground-screws': { en: 'Ground Screws', zh: '螺旋地桩', es: 'Tornillos de tierra', ar: 'براغي أرضية', fr: 'Vis de sol', pt: 'Estacas helicoidais', ru: 'Винтовые сваи', ja: 'グラウンドスクリュー', de: 'Erdschrauben', hi: 'ग्राउंड स्क्रू' },
+  'lock-washers': { en: 'Lock Washers', zh: '锁紧垫圈', es: 'Arandelas de seguridad', ar: 'حلقات قفل', fr: 'Rondelles de blocage', pt: 'Arruelas de trava', ru: 'Стопорные шайбы', ja: 'ロックワッシャー', de: 'Sicherungsscheiben', hi: 'लॉक वॉशर' },
 }
 
 // 详情页简述（en / zh 为主，其它语言回落到 en）
@@ -292,6 +302,16 @@ export const productDescriptions: Record<string, Dict> = {
   'nylon-lock-nuts': { en: 'DIN 985 nylon insert lock nuts M6-M24 in zinc, HDG and stainless, for vibration-resistant joints without a second nut.', zh: 'DIN985 尼龙圈锁紧螺母 M6-M24，镀锌/热镀锌/不锈钢，用于免双螺母的防松连接。' },
   'spring-washers': { en: 'DIN 127 spring washers M6-M24 in spring steel, zinc and stainless, for keeping tension on vibrating joints.', zh: 'DIN127 弹簧垫圈 M6-M24，弹簧钢，镀锌与不锈钢，用于振动连接保持预紧。' },
   'solar-brackets': { en: 'Galvanized and aluminium solar mounting brackets - rails, hooks and clamps - for rooftop and ground arrays, packed for container export.', zh: '镀锌与铝制光伏支架——导轨、挂钩与压块，屋顶与地面阵列用，按集装箱包装出口。' },
+  'flange-bolts': { en: 'Hex flange bolts M8-M20 to DIN 6921 in grade 8.8 and 10.9 - the flange spreads load so no separate washer is needed on steel frames.', zh: 'DIN6921 六角法兰面螺栓 M8-M20，8.8/10.9 级；法兰面自带垫片功能，钢构架固定可省一只平垫。' },
+  'stud-bolts': { en: 'Fully threaded stud bolts M12-M30 in ASTM A193 B7 and grade 8.8, cut to length with two nuts, for flanges and heavy steel joints.', zh: '全螺纹双头螺柱 M12-M30，ASTM A193 B7 与 8.8 级，按长度切割配双螺母，用于法兰与重型钢节点。' },
+  'machine-screws': { en: 'Pan, countersunk and hex head machine screws M4-M12 in zinc and stainless, for metal, plastics and electrical assemblies.', zh: '盘头、沉头、六角头机螺钉 M4-M12，镀锌与不锈钢，用于金属、塑料与电气装配。' },
+  'rivet-nuts': { en: 'Blind rivet nuts M4-M10 in steel, aluminium and stainless for putting a machine thread into thin sheet without access to the back.', zh: '盲孔拉铆螺母 M4-M10，钢/铝/不锈钢，可在单面薄板上做出机牙螺纹，无需背面操作。' },
+  'flange-nuts': { en: 'DIN 6923 hex flange nuts M6-M20 in grade 8 and 10, serrated or smooth flange, replacing a nut plus washer on steel joints.', zh: 'DIN6923 六角法兰螺母 M6-M20，8/10 级，齿面或光面法兰，钢节点上可替代螺母加平垫。' },
+  'cap-nuts': { en: 'Dome cap nuts M6-M16 in zinc and stainless - they close the thread end so no water sits on the bolt and nothing snags on the protrusion.', zh: '球头盖形螺母 M6-M16，镀锌与不锈钢；封住螺纹端，避免积水积尘、避免外露螺尾刮碰。' },
+  'wing-nuts': { en: 'Wing nuts M6-M12 in zinc and stainless for clamps, formwork and equipment that is tightened and released by hand.', zh: '蝶形螺母 M6-M12，镀锌与不锈钢，用于卡具、模板与需手工反复拆装的设备。' },
+  'coupling-nuts': { en: 'Long coupling nuts M8-M20 for joining two threaded rods end to end, supplied with a hex body for wrench access.', zh: '加长连接螺母 M8-M20，用于把两根螺纹杆对接，六角外形便于扳手施力。' },
+  'ground-screws': { en: 'Hot-dip galvanized helical ground screws 550-1200 mm for solar arrays, fences and light structures - no concrete, installed by machine.', zh: '热镀锌螺旋地桩 550-1200mm，用于光伏阵列、围栏与轻型结构；免混凝土，机械旋入安装。' },
+  'lock-washers': { en: 'Toothed external and internal lock washers in spring steel and stainless, for joints where vibration rather than load is the problem.', zh: '外齿/内齿锁紧垫圈，弹簧钢与不锈钢，适用于以振动而非载荷为主的连接。' },
 }
 
 export const uiLabels: Record<string, Dict> = {

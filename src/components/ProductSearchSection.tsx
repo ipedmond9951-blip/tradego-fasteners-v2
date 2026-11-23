@@ -78,7 +78,7 @@ export default function ProductSearchSection({ products, locale, texts }: Produc
     // Category filter
     if (selectedCategory !== 'All') {
       const categoryMap: Record<string, string[]> = {
-        'screws': ['drywall', 'chipboard', 'concrete-screw', 'self-tapping', 'self-drilling', 'coach'],
+        'screws': ['drywall', 'chipboard', 'concrete-screw', 'self-tapping', 'self-drilling', 'coach', 'machine-screw'],
         'bolts': ['bolt', 'threaded', 'expansion'],
         'nuts': ['nut'],
         'nails': ['nail'],
