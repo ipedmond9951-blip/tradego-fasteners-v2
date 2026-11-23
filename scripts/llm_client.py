@@ -18,6 +18,11 @@ import time
 import urllib.error
 import urllib.request
 
+try:
+    import llm_quota
+except Exception:            # 独立使用该模块时也不至于崩
+    llm_quota = None
+
 CONFIG = os.path.expanduser('~/.openclaw/openclaw.json')
 CHAIN = os.environ.get('WRITER_CHAIN', 'zai:glm-4.6,zai:glm-4.5-flash').split(',')
 MIN_INTERVAL = float(os.environ.get('WRITER_MIN_INTERVAL', '20'))
@@ -52,16 +57,28 @@ def generate(prompt, temperature=0.4, max_tokens=4000, retries=2):
             p = provs.get(name)
             if not p or not p.get('apiKey'):
                 continue
+            qkey = '%s:%s' % (name, model)
+            if llm_quota:
+                ok, wait, why = llm_quota.allow(qkey)
+                if not ok:
+                    if wait > 0 and wait <= 60:
+                        time.sleep(wait)
+                    errs.append('%s 额度闸门: %s' % (qkey, why))
+                    continue
             try:
                 txt = _post(p['baseUrl'], p['apiKey'], model,
                             [{'role': 'user', 'content': prompt}], temperature, max_tokens)
                 if txt and txt.strip():
+                    if llm_quota:
+                        llm_quota.record_success(qkey)
                     return txt.strip()
                 errs.append(f'{name}:{model} 空返回')
             except urllib.error.HTTPError as e:
-                errs.append(f'{name}:{model} HTTP {e.code}')
+                errs.append(f'{qkey} HTTP {e.code}')
                 if e.code == 429:
-                    time.sleep(10 + random.random() * 8)
+                    if llm_quota:
+                        llm_quota.record_429(qkey)
+                    time.sleep(5 + random.random() * 3)
             except Exception as e:
                 errs.append(f'{name}:{model} {repr(e)[:60]}')
                 time.sleep(4)
