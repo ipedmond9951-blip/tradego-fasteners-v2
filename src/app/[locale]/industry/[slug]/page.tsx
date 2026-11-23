@@ -42,7 +42,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const rawTitle = (article.title as Record<string, string>)[locale] || (article.title as Record<string, string>).en
   // Truncate title to 50-60 chars for SERP; add brand suffix only if room
   const title = rawTitle.length > 55 ? rawTitle.slice(0, 55).replace(/\s+\S*$/, '') + '...' : rawTitle
-  const rawDesc = article.metaDescription?.[locale] || article.metaDescription?.en || article.description[locale] || article.description.en
+  // 优先本语种原生文案：metaDescription[locale] → description[locale] → 英文兜底，
+  // 避免非英语页拿到英文 meta（2026-11-23 修）
+  const rawDesc = article.metaDescription?.[locale] || article.description?.[locale] || article.metaDescription?.en || article.description?.en
   // Clamp to SERP length but never cut mid-sentence
   const desc = clampDescription(rawDesc)
   const fullTitle = `${rawTitle} | TradeGo Fasteners`

@@ -1,135 +1,143 @@
 {
- "slug": "sleeve-anchors-buying-guide",
- "category": "Anchors",
- "date": "2026-11-23",
- "readTime": 11,
- "image": "/images/products/sleeve-anchors.jpg",
- "title": {
-  "en": "Sleeve Anchors Guide: Sizes, Loads & Export",
-  "zh": "套管膨胀螺栓采购指南：规格、承载与出口订单",
-  "es": "Guía de anclajes de camisa: medidas y cargas",
-  "fr": "Guide chevilles à expansion : tailles et charges",
-  "pt": "Guia de chumbadores camisa: medidas e cargas",
-  "ar": "دليل مراسي الأكمام: المقاسات والأحمال",
-  "ru": "Гид по анкерам с гильзой: размеры и нагрузки",
-  "ja": "スリーブアンカー選定ガイド：サイズと荷重",
-  "de": "Ratgeber Hülsenanker: Größen, Lasten & Export",
-  "hi": "स्लीव एंकर गाइड: आकार और लोड क्षमता"
- },
- "description": {
-  "en": "Compare sleeve anchors by expansion, size, substrate, finish and load. Select M10 or stainless options and plan drilling, MOQ and export packing.",
-  "zh": "从膨胀方式、尺寸、基材、表面处理和承载力比较套管螺栓，合理选择M10、不锈钢产品及出口包装。",
-  "es": "Compara anclajes de camisa por expansión, medida, base, acabado y carga. Elige acero inoxidable o M10 y planifica perforación, pedido mínimo y embalaje.",
-  "fr": "Comparez chevilles à expansion selon diamètre, support, finition et charge. Choisissez inox ou M10 et prévoyez perçage, quantité minimale et colisage.",
-  "pt": "Compare chumbadores camisa por expansão, medida, base, acabamento e carga. Selecione aço inox ou M10 e planeje furação, pedido mínimo e embalagem.",
-  "ar": "قارن مراسي الأكمام حسب التمدد والمقاس والقاعدة والطلاء والحمل، واختر الستانلس أو M10 وخطط للحفر والحد الأدنى للطلب وتغليف التصدير.",
-  "ru": "Сравнивайте анкеры с гильзой по распору, размеру, основанию, покрытию и нагрузке. Подберите нержавейку или M10 и учтите сверление, партию и упаковку.",
-  "ja": "スリーブアンカーを拡張方式やサイズ、母材、表面処理、許容荷重で比較し、くさびアンカーとの違いや選定ポイントを整理できます。M10やステンレス製仕様の比較から下穴径、最小発注量、輸出向け梱包の計画まで網羅し、安定した調達と輸出手配を支援します。",
-  "de": "Vergleichen Sie Hülsenanker nach Spreizung, Größe, Untergrund, Oberfläche und Last. Wählen Sie Edelstahl oder M10 und planen Bohrung, MOQ und Export.",
-  "hi": "विस्तार, आकार, बेस सामग्री, फिनिश और लोड के आधार पर स्लीव एंकर की तुलना करें। स्टेनलेस या M10 चुनें और ड्रिलिंग, MOQ व एक्सपोर्ट पैकिंग की योजना बनाएं।"
- },
- "keywords": "sleeve anchors, sleeve anchor vs wedge anchor, M10 sleeve anchor, stainless steel sleeve anchor, sleeve anchor hole size, sleeve anchor load capacity",
- "sections": [
-  {
-   "id": "how-sleeve-anchors-expand",
-   "heading": {
-    "en": "How a sleeve anchor expands and holds",
-    "zh": "套管膨胀螺栓如何膨胀并固定"
-   },
-   "body": {
-    "en": "A sleeve anchor combines a threaded stud or bolt, nut, washer and an expansion sleeve. After the anchor is placed through a fixture and tightened, the cone at the end of the stud pulls into the sleeve. The sleeve opens against the wall of the drilled hole, creating friction and mechanical interlock. Unlike a wedge anchor, which normally has a separate expansion clip concentrated near the tip, a sleeve anchor spreads contact over a longer sleeve and is convenient for through-fixing brackets, rails and light equipment. The anchor does not hold because of thread engagement alone; the concrete, masonry and sleeve must work together. Tightening torque is important. Too little torque may leave insufficient expansion, while excessive torque can strip threads, crush soft masonry or damage the sleeve. Use a calibrated torque wrench when the design or supplier data specifies torque. M8, M10 and M12 are common trade sizes, but the outside diameter, sleeve length, stud grade and washer size must be checked as a complete assembly. Typical working principles are covered by design approaches such as EN 1992-4 or ACI 318; the applicable design method should be confirmed for the project. Always install only in sound material and keep the anchor clear of cracks, edges and reinforcement unless the design permits them.",
-    "zh": "套管膨胀螺栓通常由带螺纹的螺杆或螺栓、螺母、垫圈和膨胀套管组成。螺栓穿过被固定件放入孔内并拧紧后，螺杆末端的锥体会拉入套管，使套管向外张开并压紧钻孔壁，从而形成摩擦力和机械咬合。与膨胀夹通常集中在末端的楔式膨胀螺栓相比，套管螺栓的接触长度更大，适合穿透式固定支架、导轨和轻型设备。它并不是仅靠螺纹咬合来承载，而是依靠混凝土、砌体和套管共同工作。拧紧扭矩非常重要。扭矩过小可能导致膨胀不足，过大则可能损坏螺纹、压碎较软的砌体或使套管变形。若设计或供应商数据规定扭矩，应使用校准过的扭矩扳手。M8、M10和M12是常用规格，但必须把外径、套管长度、螺杆等级和垫圈尺寸作为完整组件核对。EN 1992-4或ACI 318等设计方法可作为参考，具体项目应确认适用规范。应只安装在坚实材料中，除非设计允许，否则要避开裂缝、边缘和钢筋。"
-   }
+  "slug": "sleeve-anchors-buying-guide",
+  "category": "Anchors",
+  "date": "2026-11-23",
+  "readTime": 11,
+  "image": "/images/products/sleeve-anchors.jpg",
+  "title": {
+    "en": "Sleeve Anchors Guide: Sizes, Loads & Export",
+    "zh": "套管膨胀螺栓采购指南：规格、承载与出口订单",
+    "es": "Guía de anclajes de camisa: medidas y cargas",
+    "fr": "Guide chevilles à expansion : tailles et charges",
+    "pt": "Guia de chumbadores camisa: medidas e cargas",
+    "ar": "دليل مراسي الأكمام: المقاسات والأحمال",
+    "ru": "Гид по анкерам с гильзой: размеры и нагрузки",
+    "ja": "スリーブアンカー選定ガイド：サイズと荷重",
+    "de": "Ratgeber Hülsenanker: Größen, Lasten & Export",
+    "hi": "स्लीव एंकर गाइड: आकार और लोड क्षमता"
   },
-  {
-   "id": "diameter-length-embedment",
-   "heading": {
-    "en": "Sizing: diameter, length and embedment",
-    "zh": "尺寸选择：直径、长度与有效埋深"
-   },
-   "body": {
-    "en": "Select diameter from the required shear, tension and fixture-hole capacity, then select length from the fixture thickness plus washer, nut and required embedment. For example, an M10 sleeve anchor is commonly installed in a nominal 10 mm hole, but the exact drill diameter must follow the product drawing; some designs require a slightly larger or smaller hole. A practical length check is: anchor length ≥ fixture thickness + washer and nut allowance + effective embedment. Do not count loose dust, a damaged tip or unthreaded clearance as embedment. Embedment is the part of the anchor transferring force into the substrate, and the manufacturer’s stated value may differ from the overall sleeve length. Typical commercial lengths may range from about 50 to 150 mm, but this is an industry range, not a guaranteed product offering. For a 6 mm bracket, an M10 × 80 mm anchor could be considered only if the selected product provides the required effective embedment after passing through the bracket and washer; it must still be checked against the substrate and load. Keep enough distance from free edges and neighboring anchors to prevent splitting or breakout. Increasing diameter does not automatically solve a shallow hole or weak base material. Before ordering, specify nominal diameter, total length, thread length, sleeve length, hole diameter, minimum embedment and washer dimensions. Request a dimensional drawing for every non-standard combination.",
-    "zh": "应先根据所需的剪切力、拉力和被固定件孔的承载要求选择直径，再根据被固定件厚度、垫圈和螺母所需空间以及有效埋深选择长度。例如，M10套管螺栓通常使用标称10毫米钻孔，但准确孔径必须以产品图纸为准，因为部分结构要求略大或略小的孔。实际长度可按以下思路核对：螺栓总长应不小于被固定件厚度、垫圈和螺母余量与有效埋深之和。松散粉尘、损坏的孔底或未参与受力的间隙不能计入埋深。有效埋深是把荷载传入基材的部分，供应商标注值可能不同于套管总长。常见商品长度大约为50至150毫米，但这只是行业范围，不代表一定有现货或固定供货能力。对于6毫米厚支架，只有在穿过支架和垫圈后仍能达到所需有效埋深时，M10×80毫米产品才可能适用；还必须结合基材和荷载核算。要与自由边和相邻锚栓保持足够距离，防止劈裂或边缘破坏。加大直径并不能自动解决孔浅或基材强度不足的问题。下单前应明确公称直径、总长、螺纹长度、套管长度、孔径、最小埋深和垫圈尺寸。非标准组合应索取尺寸图。"
-   }
+  "description": {
+    "en": "Compare sleeve anchors by expansion, size, substrate, finish and load. Select M10 or stainless options and plan drilling, MOQ and export packing.",
+    "zh": "从膨胀方式、尺寸、基材、表面处理和承载力比较套管螺栓，合理选择M10、不锈钢产品及出口包装。",
+    "es": "Compara anclajes de camisa por expansión, medida, base, acabado y carga. Elige acero inoxidable o M10 y planifica perforación, pedido mínimo y embalaje.",
+    "fr": "Comparez chevilles à expansion selon diamètre, support, finition et charge. Choisissez inox ou M10 et prévoyez perçage, quantité minimale et colisage.",
+    "pt": "Compare chumbadores camisa por expansão, medida, base, acabamento e carga. Selecione aço inox ou M10 e planeje furação, pedido mínimo e embalagem.",
+    "ar": "قارن مراسي الأكمام حسب التمدد والمقاس والقاعدة والطلاء والحمل، واختر الستانلس أو M10 وخطط للحفر والحد الأدنى للطلب وتغليف التصدير.",
+    "ru": "Сравнивайте анкеры с гильзой по распору, размеру, основанию, покрытию и нагрузке. Подберите нержавейку или M10 и учтите сверление, партию и упаковку.",
+    "ja": "スリーブアンカーを拡張方式やサイズ、母材、表面処理、許容荷重で比較し、くさびアンカーとの違いや選定ポイントを整理できます。M10やステンレス製仕様の比較から下穴径、最小発注量、輸出向け梱包の計画まで網羅し、安定した調達と輸出手配を支援します。",
+    "de": "Vergleichen Sie Hülsenanker nach Spreizung, Größe, Untergrund, Oberfläche und Last. Wählen Sie Edelstahl oder M10 und planen Bohrung, MOQ und Export.",
+    "hi": "विस्तार, आकार, बेस सामग्री, फिनिश और लोड के आधार पर स्लीव एंकर की तुलना करें। स्टेनलेस या M10 चुनें और ड्रिलिंग, MOQ व एक्सपोर्ट पैकिंग की योजना बनाएं।"
   },
-  {
-   "id": "concrete-brick-block-performance",
-   "heading": {
-    "en": "Concrete vs brick vs block performance",
-    "zh": "混凝土、砖与砌块中的性能差异"
-   },
-   "body": {
-    "en": "Substrate selection controls sleeve anchor performance more than the anchor label alone. Sound, dense concrete usually gives the most predictable expansion resistance, especially when the hole is away from edges and cracks. Actual capacity still depends on concrete strength, anchor spacing, embedment, installation quality and the direction of load. Solid clay brick and solid concrete block can accept sleeve anchors, but their strength and shell geometry vary widely, so a value taken from concrete must not be transferred directly. Hollow brick and hollow block are more sensitive: the sleeve may expand into a thin face shell or an internal void, producing lower and less predictable resistance. For hollow masonry, use an anchor system specifically approved or designed for that base, and confirm whether a sleeve anchor is suitable before drilling. Lightweight aerated concrete, weak mortar joints and deteriorated surfaces require separate assessment; do not place the anchor in a mortar joint unless the design specifically allows it. A field pull test can help verify a project assumption, but a small sample is not a substitute for engineering design. For southern African projects, local construction specifications and the engineer’s required design method should govern; products may be evaluated against target approaches such as EN 1992-4, ACI 318 or relevant masonry provisions, without implying certification. Ask the buyer to state substrate type, compressive strength if known, edge distance and load direction on the purchase inquiry.",
-    "zh": "基材类型对套管螺栓性能的影响，通常大于产品名称本身。坚实、密实的混凝土一般能提供最可预测的膨胀抗力，尤其是在远离边缘和裂缝的位置。但实际承载力仍取决于混凝土强度、锚栓间距、埋深、安装质量和荷载方向。实心黏土砖和实心混凝土砌块也可以使用套管螺栓，但其强度和内部结构差异很大，不能直接套用混凝土中的数值。空心砖和空心砌块更加敏感：套管可能只在薄壁壳体中膨胀，或遇到内部空腔，因此抗力更低且不稳定。对于空心砌体，应使用专门针对该基材设计或认可的锚固系统，并在钻孔前确认套管螺栓是否适用。轻质加气混凝土、松弱砂浆缝和老化表面需要单独评估；除非设计明确允许，否则不要把锚栓安装在砂浆缝中。现场拉拔试验可以帮助验证项目假设，但少量样本不能代替工程设计。对于南部非洲项目，应以当地施工规范和工程师要求的设计方法为准；产品可以按EN 1992-4、ACI 318或相关砌体条款作为目标评估依据，但不能因此暗示已经取得认证。询价时应说明基材类型、已知抗压强度、边距和荷载方向。"
-   }
+  "keywords": "sleeve anchors, sleeve anchor vs wedge anchor, M10 sleeve anchor, stainless steel sleeve anchor, sleeve anchor hole size, sleeve anchor load capacity",
+  "sections": [
+    {
+      "id": "how-sleeve-anchors-expand",
+      "heading": {
+        "en": "How a sleeve anchor expands and holds",
+        "zh": "套管膨胀螺栓如何膨胀并固定"
+      },
+      "body": {
+        "en": "A sleeve anchor combines a threaded stud or bolt, nut, washer and an expansion sleeve. After the anchor is placed through a fixture and tightened, the cone at the end of the stud pulls into the sleeve. The sleeve opens against the wall of the drilled hole, creating friction and mechanical interlock. Unlike a wedge anchor, which normally has a separate expansion clip concentrated near the tip, a sleeve anchor spreads contact over a longer sleeve and is convenient for through-fixing brackets, rails and light equipment. The anchor does not hold because of thread engagement alone; the concrete, masonry and sleeve must work together. Tightening torque is important. Too little torque may leave insufficient expansion, while excessive torque can strip threads, crush soft masonry or damage the sleeve. Use a calibrated torque wrench when the design or supplier data specifies torque. M8, M10 and M12 are common trade sizes, but the outside diameter, sleeve length, stud grade and washer size must be checked as a complete assembly. Typical working principles are covered by design approaches such as EN 1992-4 or ACI 318; the applicable design method should be confirmed for the project. Always install only in sound material and keep the anchor clear of cracks, edges and reinforcement unless the design permits them.",
+        "zh": "套管膨胀螺栓通常由带螺纹的螺杆或螺栓、螺母、垫圈和膨胀套管组成。螺栓穿过被固定件放入孔内并拧紧后，螺杆末端的锥体会拉入套管，使套管向外张开并压紧钻孔壁，从而形成摩擦力和机械咬合。与膨胀夹通常集中在末端的楔式膨胀螺栓相比，套管螺栓的接触长度更大，适合穿透式固定支架、导轨和轻型设备。它并不是仅靠螺纹咬合来承载，而是依靠混凝土、砌体和套管共同工作。拧紧扭矩非常重要。扭矩过小可能导致膨胀不足，过大则可能损坏螺纹、压碎较软的砌体或使套管变形。若设计或供应商数据规定扭矩，应使用校准过的扭矩扳手。M8、M10和M12是常用规格，但必须把外径、套管长度、螺杆等级和垫圈尺寸作为完整组件核对。EN 1992-4或ACI 318等设计方法可作为参考，具体项目应确认适用规范。应只安装在坚实材料中，除非设计允许，否则要避开裂缝、边缘和钢筋。"
+      }
+    },
+    {
+      "id": "diameter-length-embedment",
+      "heading": {
+        "en": "Sizing: diameter, length and embedment",
+        "zh": "尺寸选择：直径、长度与有效埋深"
+      },
+      "body": {
+        "en": "Select diameter from the required shear, tension and fixture-hole capacity, then select length from the fixture thickness plus washer, nut and required embedment. For example, an M10 sleeve anchor is commonly installed in a nominal 10 mm hole, but the exact drill diameter must follow the product drawing; some designs require a slightly larger or smaller hole. A practical length check is: anchor length ≥ fixture thickness + washer and nut allowance + effective embedment. Do not count loose dust, a damaged tip or unthreaded clearance as embedment. Embedment is the part of the anchor transferring force into the substrate, and the manufacturer’s stated value may differ from the overall sleeve length. Typical commercial lengths may range from about 50 to 150 mm, but this is an industry range, not a guaranteed product offering. For a 6 mm bracket, an M10 × 80 mm anchor could be considered only if the selected product provides the required effective embedment after passing through the bracket and washer; it must still be checked against the substrate and load. Keep enough distance from free edges and neighboring anchors to prevent splitting or breakout. Increasing diameter does not automatically solve a shallow hole or weak base material. Before ordering, specify nominal diameter, total length, thread length, sleeve length, hole diameter, minimum embedment and washer dimensions. Request a dimensional drawing for every non-standard combination.",
+        "zh": "应先根据所需的剪切力、拉力和被固定件孔的承载要求选择直径，再根据被固定件厚度、垫圈和螺母所需空间以及有效埋深选择长度。例如，M10套管螺栓通常使用标称10毫米钻孔，但准确孔径必须以产品图纸为准，因为部分结构要求略大或略小的孔。实际长度可按以下思路核对：螺栓总长应不小于被固定件厚度、垫圈和螺母余量与有效埋深之和。松散粉尘、损坏的孔底或未参与受力的间隙不能计入埋深。有效埋深是把荷载传入基材的部分，供应商标注值可能不同于套管总长。常见商品长度大约为50至150毫米，但这只是行业范围，不代表一定有现货或固定供货能力。对于6毫米厚支架，只有在穿过支架和垫圈后仍能达到所需有效埋深时，M10×80毫米产品才可能适用；还必须结合基材和荷载核算。要与自由边和相邻锚栓保持足够距离，防止劈裂或边缘破坏。加大直径并不能自动解决孔浅或基材强度不足的问题。下单前应明确公称直径、总长、螺纹长度、套管长度、孔径、最小埋深和垫圈尺寸。非标准组合应索取尺寸图。"
+      }
+    },
+    {
+      "id": "concrete-brick-block-performance",
+      "heading": {
+        "en": "Concrete vs brick vs block performance",
+        "zh": "混凝土、砖与砌块中的性能差异"
+      },
+      "body": {
+        "en": "Substrate selection controls sleeve anchor performance more than the anchor label alone. Sound, dense concrete usually gives the most predictable expansion resistance, especially when the hole is away from edges and cracks. Actual capacity still depends on concrete strength, anchor spacing, embedment, installation quality and the direction of load. Solid clay brick and solid concrete block can accept sleeve anchors, but their strength and shell geometry vary widely, so a value taken from concrete must not be transferred directly. Hollow brick and hollow block are more sensitive: the sleeve may expand into a thin face shell or an internal void, producing lower and less predictable resistance. For hollow masonry, use an anchor system specifically approved or designed for that base, and confirm whether a sleeve anchor is suitable before drilling. Lightweight aerated concrete, weak mortar joints and deteriorated surfaces require separate assessment; do not place the anchor in a mortar joint unless the design specifically allows it. A field pull test can help verify a project assumption, but a small sample is not a substitute for engineering design. For southern African projects, local construction specifications and the engineer’s required design method should govern; products may be evaluated against target approaches such as EN 1992-4, ACI 318 or relevant masonry provisions, without implying certification. Ask the buyer to state substrate type, compressive strength if known, edge distance and load direction on the purchase inquiry.",
+        "zh": "基材类型对套管螺栓性能的影响，通常大于产品名称本身。坚实、密实的混凝土一般能提供最可预测的膨胀抗力，尤其是在远离边缘和裂缝的位置。但实际承载力仍取决于混凝土强度、锚栓间距、埋深、安装质量和荷载方向。实心黏土砖和实心混凝土砌块也可以使用套管螺栓，但其强度和内部结构差异很大，不能直接套用混凝土中的数值。空心砖和空心砌块更加敏感：套管可能只在薄壁壳体中膨胀，或遇到内部空腔，因此抗力更低且不稳定。对于空心砌体，应使用专门针对该基材设计或认可的锚固系统，并在钻孔前确认套管螺栓是否适用。轻质加气混凝土、松弱砂浆缝和老化表面需要单独评估；除非设计明确允许，否则不要把锚栓安装在砂浆缝中。现场拉拔试验可以帮助验证项目假设，但少量样本不能代替工程设计。对于南部非洲项目，应以当地施工规范和工程师要求的设计方法为准；产品可以按EN 1992-4、ACI 318或相关砌体条款作为目标评估依据，但不能因此暗示已经取得认证。询价时应说明基材类型、已知抗压强度、边距和荷载方向。"
+      }
+    },
+    {
+      "id": "stainless-zinc-finish",
+      "heading": {
+        "en": "Stainless 304/316 versus zinc plated",
+        "zh": "304/316不锈钢与镀锌产品的比较"
+      },
+      "body": {
+        "en": "Choose the finish from the exposure environment, not from appearance alone. Zinc-plated carbon-steel sleeve anchors are often economical for dry indoor work and sheltered construction. Their protective layer is sacrificial and can be damaged by drilling dust, impact or cut threads; they are not automatically suitable for persistent moisture, coastal air or chemical exposure. Stainless steel sleeve anchors offer better corrosion resistance, but grade selection matters. Type 304 is a common general-purpose option for humid indoor areas and many outdoor applications. Type 316 contains molybdenum and is usually preferred where chloride exposure is higher, such as coastal locations, salt spray or some industrial environments. Neither grade should be treated as immune to corrosion, and contamination from carbon-steel tools can leave surface rust. If the assembly uses a stainless anchor with a different metal fixture, consider galvanic compatibility and isolate dissimilar metals where necessary. For purchasing, specify the grade for the stud, nut, washer and sleeve, because an anchor described only as “stainless” may not have every component in the same grade. Mechanical and chemical requirements can be stated with ISO 3506 or ASTM F593/F594 as target references, while zinc coating requirements may reference ASTM B633 where appropriate. For cargo routed through Beira or Durban, marine air and storage humidity may justify 316 or protective packaging, but the correct choice still depends on site exposure, not the port alone. Request material and coating declarations rather than assuming a certification.",
+        "zh": "表面处理应根据使用环境选择，而不能只看外观。镀锌碳钢套管螺栓通常适合干燥室内或有遮蔽的施工环境，价格也较经济。其保护层属于牺牲性防护，可能因钻孔粉尘、撞击或切削螺纹而受损，因此不能自动用于长期潮湿、海岸空气或化学腐蚀环境。不锈钢套管螺栓具有更好的耐腐蚀性，但牌号选择很重要。304型是常见的通用选择，适用于潮湿室内和许多室外环境。316型含有钼，通常更适合氯离子暴露较高的场景，例如海岸、盐雾或部分工业环境。任何牌号都不能被视为绝对不会腐蚀，碳钢工具造成的污染也可能留下锈斑。如果不锈钢锚栓与不同金属的被固定件组合使用，应考虑电偶腐蚀的相容性，必要时隔离异种金属。采购时应分别明确螺杆、螺母、垫圈和套管的牌号，因为只写“不锈钢”并不代表所有部件都是同一牌号。机械和化学要求可以ISO 3506或ASTM F593/F594作为目标参考，镀层要求在适用时可参考ASTM B633。对于经贝拉或德班运输的货物，海洋空气和仓储湿度可能使316或加强包装更合适，但最终选择仍取决于现场环境，而不是港口本身。应索取材质和镀层声明，不要默认已有认证。"
+      }
+    },
+    {
+      "id": "drilling-cleaning-setting",
+      "heading": {
+        "en": "Drilling, cleaning and setting sequence",
+        "zh": "钻孔、清孔与安装顺序"
+      },
+      "body": {
+        "en": "A reliable installation starts with the right drill and a controlled sequence. Mark the center, check for concealed reinforcement and services, and confirm the specified hole diameter and minimum depth. Use a sharp carbide masonry bit suitable for the base material; a worn bit can enlarge the hole and reduce expansion. Drill perpendicular to the surface, keeping the tool steady. Drill deeper than the required embedment by the product’s stated allowance so dust has room below the anchor, but do not weaken the opposite face of a thin element. After drilling, remove dust with the specified cleaning method: commonly brush the full depth, blow or vacuum the hole, and repeat until loose particles are removed. Do not assume that blowing alone is acceptable for every design. Place the fixture over the hole, insert the sleeve anchor to the required embedment and seat the washer. Tap gently only if the product instructions allow it; do not hammer the threaded end or damage the nut. Tighten the nut gradually to the stated torque, keeping the fixture flat and preventing rotation. For a typical M10 installation, a 10 mm hole may be used, but the product drawing controls the final dimension. Record batch, hole size, embedment and torque for quality checks. If the anchor spins, reaches refusal early or the hole is oversized, stop and replace or relocate it according to the engineer’s procedure.",
+        "zh": "可靠安装应从合适的钻头和受控的施工顺序开始。先标记中心，检查隐藏钢筋和管线，并确认规定孔径和最小孔深。使用适合基材的锋利硬质合金砌体钻头；钻头磨损会使孔径变大并降低膨胀效果。钻孔时保持钻头垂直于表面并稳定操作。孔深应比所需埋深多出产品规定的余量，为孔底粉尘留出空间，但不要削弱薄构件的背面。钻孔后按照规定方法清孔：通常要用刷子清理全深度，再用气吹或吸尘器清除粉尘，并重复操作，直到松散颗粒被清除。不能假定所有设计都允许只用气吹清孔。将被固定件套在孔位上，把套管螺栓插入到要求的埋深并放好垫圈。只有产品说明允许时才可轻敲，不能敲击螺纹端或损坏螺母。逐步拧紧到规定扭矩，同时保持被固定件贴平并防止锚栓转动。典型M10安装可能使用10毫米孔，但最终尺寸应以产品图纸为准。质量检查应记录批次、孔径、埋深和扭矩。如果锚栓空转、过早顶住孔底或孔径过大，应按工程师程序停止并更换或重新定位。"
+      }
+    },
+    {
+      "id": "load-guidance-safety-factors",
+      "heading": {
+        "en": "Load guidance and safety factors",
+        "zh": "承载力参考与安全系数"
+      },
+      "body": {
+        "en": "Do not select a sleeve anchor from diameter alone or treat a catalogue load as a universal working load. Check tension, shear, combined loading, concrete or masonry failure, steel failure, pullout, edge breakout and group effects. The weakest failure mode governs. A typical industry practice for preliminary, non-engineered screening is to apply a safety factor of about 3 to 4 to an appropriate ultimate or proof value, but this is only a starting assumption; the project engineer and applicable code must set the final design resistance and partial factors. Do not convert a preliminary factor into a certified load rating. Loads should be reduced when anchors are close to edges, closely spaced, installed in cracked or weak material, or exposed to vibration. Dynamic equipment, guardrails, overhead items and life-safety components require a qualified design and, where applicable, project-specific testing. For an M10 anchor, the nominal steel diameter does not reveal the actual capacity: sleeve length, effective embedment, steel grade, concrete strength and installation torque can all change the result. Use target design methods such as EN 1992-4 or ACI 318 only when their scope matches the substrate and anchor system. Ask for a tested characteristic or allowable value only when the supplier can document the test basis, sample condition and installation method. If data are unavailable, state that the product is for preliminary selection and require site verification before procurement or installation.",
+        "zh": "不要只按直径选择套管螺栓，也不要把目录载荷当作通用工作载荷。应检查拉力、剪力、组合荷载、混凝土或砌体破坏、钢材破坏、拔出、边缘破坏和群锚效应，最终由最弱的破坏模式控制。行业中有时会在非工程化的初步筛选中，对合适的极限值或证明值采用约3至4的安全系数，但这只是起始假设；最终设计抗力和分项系数必须由项目工程师和适用规范确定。不能把初步安全系数转换成经过认证的额定承载力。锚栓靠近边缘、间距过小、安装在开裂或低强度材料中，或承受振动时，都应降低允许荷载。动态设备、护栏、高空悬挂物和生命安全部件需要合格工程设计，并在适用时进行项目专项测试。对于M10锚栓，标称钢材直径并不能说明实际承载力；套管长度、有效埋深、钢材等级、混凝土强度和安装扭矩都会改变结果。只有在适用范围覆盖基材和锚固系统时，才可采用EN 1992-4或ACI 318等目标设计方法。只有当供应商能说明试验依据、样品状态和安装方法时，才应要求测试特征值或允许值。如果数据不足，应明确产品仅供初选，并要求在采购或安装前进行现场验证。"
+      }
+    },
+    {
+      "id": "ordering-moq-export-packing",
+      "heading": {
+        "en": "Ordering, MOQ and packing for export",
+        "zh": "出口采购、MOQ与包装要求"
+      },
+      "body": {
+        "en": "A clear purchase inquiry prevents the wrong anchor from reaching the job site. State the substrate, anchor diameter, total length, effective embedment, hole diameter, thread form, material grade, finish, washer and nut style, required quantity and application. Add drawings or reference samples when the sleeve, cone or head geometry is not standard. MOQ should be agreed for the exact specification, finish and packing method; do not assume that a common M10 size has the same MOQ as 316 stainless or a customized length. Ask for a commercial quotation showing unit basis, carton quantity, net and gross weight, carton dimensions, lead-time estimate and Incoterm. These are commercial commitments to confirm, not stock or capacity claims. For export packing, use inner bags or boxes that prevent mixing of diameters, protect threads and separate stainless grades from carbon-steel parts. Corrugated cartons should be sized for lifting and palletizing, while heavier cartons may need reinforced corners or strapping. Mark each package with size, material, finish, quantity, batch or lot reference and country-of-origin information when required by the destination. For shipments to Zimbabwe, Zambia, South Africa or Mozambique, confirm the final delivery route, port handling, humidity protection and document requirements before production; Beira and Durban have different transit and inland arrangements. TradeGo can quote sleeve anchors against the buyer’s final specification and provide a packing proposal, while the buyer should approve drawings, labels and loading details before order confirmation.",
+        "zh": "清晰的询价信息可以避免错误产品到达工地。应说明基材、锚栓直径、总长、有效埋深、孔径、螺纹形式、材质牌号、表面处理、垫圈和螺母样式、需求数量及应用场景。如果套管、锥体或头部结构不是标准形式，还应附上图纸或样品。MOQ应针对准确的规格、表面处理和包装方式单独确认；常见M10规格的MOQ不一定与316不锈钢或定制长度相同。应要求商业报价列明计价单位、每箱数量、净重和毛重、箱规、预计交期及贸易术语。这些属于需要确认的商业承诺，不代表现货或产能保证。出口包装应使用内袋或内盒，防止不同直径混装，保护螺纹，并将不锈钢牌号与碳钢部件分开。瓦楞纸箱应适合搬运和托盘堆码，较重箱件可能需要加固箱角或打包带。目的地有要求时，每个包装应标注规格、材质、表面处理、数量、批次或炉批参考以及原产地信息。发往津巴布韦、赞比亚、南非或莫桑比克时，应在生产前确认最终路线、港口操作、湿度防护和单证要求；贝拉港和德班港的运输及内陆安排不同。TradeGo可以依据买方最终规格报价并提供包装方案，但买方应在确认订单前批准图纸、标签和装载细节。"
+      }
+    }
+  ],
+  "relatedProducts": [
+    "sleeve-anchors",
+    "wedge-anchors"
+  ],
+  "cta": {
+    "text": {
+      "en": "Need bulk sleeve anchors? Get a factory-direct quote from TradeGo.",
+      "zh": "需要批量采购？获取 TradeGo 工厂直供报价。"
+    },
+    "buttonText": {
+      "en": "Request a quote",
+      "zh": "获取报价"
+    },
+    "link": "/en/products/sleeve-anchors"
   },
-  {
-   "id": "stainless-zinc-finish",
-   "heading": {
-    "en": "Stainless 304/316 versus zinc plated",
-    "zh": "304/316不锈钢与镀锌产品的比较"
-   },
-   "body": {
-    "en": "Choose the finish from the exposure environment, not from appearance alone. Zinc-plated carbon-steel sleeve anchors are often economical for dry indoor work and sheltered construction. Their protective layer is sacrificial and can be damaged by drilling dust, impact or cut threads; they are not automatically suitable for persistent moisture, coastal air or chemical exposure. Stainless steel sleeve anchors offer better corrosion resistance, but grade selection matters. Type 304 is a common general-purpose option for humid indoor areas and many outdoor applications. Type 316 contains molybdenum and is usually preferred where chloride exposure is higher, such as coastal locations, salt spray or some industrial environments. Neither grade should be treated as immune to corrosion, and contamination from carbon-steel tools can leave surface rust. If the assembly uses a stainless anchor with a different metal fixture, consider galvanic compatibility and isolate dissimilar metals where necessary. For purchasing, specify the grade for the stud, nut, washer and sleeve, because an anchor described only as “stainless” may not have every component in the same grade. Mechanical and chemical requirements can be stated with ISO 3506 or ASTM F593/F594 as target references, while zinc coating requirements may reference ASTM B633 where appropriate. For cargo routed through Beira or Durban, marine air and storage humidity may justify 316 or protective packaging, but the correct choice still depends on site exposure, not the port alone. Request material and coating declarations rather than assuming a certification.",
-    "zh": "表面处理应根据使用环境选择，而不能只看外观。镀锌碳钢套管螺栓通常适合干燥室内或有遮蔽的施工环境，价格也较经济。其保护层属于牺牲性防护，可能因钻孔粉尘、撞击或切削螺纹而受损，因此不能自动用于长期潮湿、海岸空气或化学腐蚀环境。不锈钢套管螺栓具有更好的耐腐蚀性，但牌号选择很重要。304型是常见的通用选择，适用于潮湿室内和许多室外环境。316型含有钼，通常更适合氯离子暴露较高的场景，例如海岸、盐雾或部分工业环境。任何牌号都不能被视为绝对不会腐蚀，碳钢工具造成的污染也可能留下锈斑。如果不锈钢锚栓与不同金属的被固定件组合使用，应考虑电偶腐蚀的相容性，必要时隔离异种金属。采购时应分别明确螺杆、螺母、垫圈和套管的牌号，因为只写“不锈钢”并不代表所有部件都是同一牌号。机械和化学要求可以ISO 3506或ASTM F593/F594作为目标参考，镀层要求在适用时可参考ASTM B633。对于经贝拉或德班运输的货物，海洋空气和仓储湿度可能使316或加强包装更合适，但最终选择仍取决于现场环境，而不是港口本身。应索取材质和镀层声明，不要默认已有认证。"
-   }
+  "author": "TradeGo Fasteners Technical Team",
+  "metaDescription": {
+    "en": "Compare sleeve anchors by expansion, size, substrate, finish and load. Select M10 or stainless options and plan drilling, MOQ and export packing.",
+    "zh": "从膨胀方式、尺寸、基材、表面处理和承载力比较套管螺栓，合理选择M10、不锈钢产品及出口包装。",
+    "es": "Compara anclajes de camisa por expansión, medida, base, acabado y carga. Elige acero inoxidable o M10 y planifica perforación, pedido mínimo y embalaje.",
+    "fr": "Comparez chevilles à expansion selon diamètre, support, finition et charge. Choisissez inox ou M10 et prévoyez perçage, quantité minimale et colisage.",
+    "pt": "Compare chumbadores camisa por expansão, medida, base, acabamento e carga. Selecione aço inox ou M10 e planeje furação, pedido mínimo e embalagem.",
+    "ar": "قارن مراسي الأكمام حسب التمدد والمقاس والقاعدة والطلاء والحمل، واختر الستانلس أو M10 وخطط للحفر والحد الأدنى للطلب وتغليف التصدير.",
+    "ru": "Сравнивайте анкеры с гильзой по распору, размеру, основанию, покрытию и нагрузке. Подберите нержавейку или M10 и учтите сверление, партию и упаковку.",
+    "ja": "スリーブアンカーを拡張方式やサイズ、母材、表面処理、許容荷重で比較し、くさびアンカーとの違いや選定ポイントを整理できます。M10やステンレス製仕様の比較から下穴径、最小発注量、輸出向け梱包の計画まで網羅し、安定した調達と輸出手配を支援します。",
+    "de": "Vergleichen Sie Hülsenanker nach Spreizung, Größe, Untergrund, Oberfläche und Last. Wählen Sie Edelstahl oder M10 und planen Bohrung, MOQ und Export.",
+    "hi": "विस्तार, आकार, बेस सामग्री, फिनिश और लोड के आधार पर स्लीव एंकर की तुलना करें। स्टेनलेस या M10 चुनें और ड्रिलिंग, MOQ व एक्सपोर्ट पैकिंग की योजना बनाएं।"
   },
-  {
-   "id": "drilling-cleaning-setting",
-   "heading": {
-    "en": "Drilling, cleaning and setting sequence",
-    "zh": "钻孔、清孔与安装顺序"
-   },
-   "body": {
-    "en": "A reliable installation starts with the right drill and a controlled sequence. Mark the center, check for concealed reinforcement and services, and confirm the specified hole diameter and minimum depth. Use a sharp carbide masonry bit suitable for the base material; a worn bit can enlarge the hole and reduce expansion. Drill perpendicular to the surface, keeping the tool steady. Drill deeper than the required embedment by the product’s stated allowance so dust has room below the anchor, but do not weaken the opposite face of a thin element. After drilling, remove dust with the specified cleaning method: commonly brush the full depth, blow or vacuum the hole, and repeat until loose particles are removed. Do not assume that blowing alone is acceptable for every design. Place the fixture over the hole, insert the sleeve anchor to the required embedment and seat the washer. Tap gently only if the product instructions allow it; do not hammer the threaded end or damage the nut. Tighten the nut gradually to the stated torque, keeping the fixture flat and preventing rotation. For a typical M10 installation, a 10 mm hole may be used, but the product drawing controls the final dimension. Record batch, hole size, embedment and torque for quality checks. If the anchor spins, reaches refusal early or the hole is oversized, stop and replace or relocate it according to the engineer’s procedure.",
-    "zh": "可靠安装应从合适的钻头和受控的施工顺序开始。先标记中心，检查隐藏钢筋和管线，并确认规定孔径和最小孔深。使用适合基材的锋利硬质合金砌体钻头；钻头磨损会使孔径变大并降低膨胀效果。钻孔时保持钻头垂直于表面并稳定操作。孔深应比所需埋深多出产品规定的余量，为孔底粉尘留出空间，但不要削弱薄构件的背面。钻孔后按照规定方法清孔：通常要用刷子清理全深度，再用气吹或吸尘器清除粉尘，并重复操作，直到松散颗粒被清除。不能假定所有设计都允许只用气吹清孔。将被固定件套在孔位上，把套管螺栓插入到要求的埋深并放好垫圈。只有产品说明允许时才可轻敲，不能敲击螺纹端或损坏螺母。逐步拧紧到规定扭矩，同时保持被固定件贴平并防止锚栓转动。典型M10安装可能使用10毫米孔，但最终尺寸应以产品图纸为准。质量检查应记录批次、孔径、埋深和扭矩。如果锚栓空转、过早顶住孔底或孔径过大，应按工程师程序停止并更换或重新定位。"
-   }
-  },
-  {
-   "id": "load-guidance-safety-factors",
-   "heading": {
-    "en": "Load guidance and safety factors",
-    "zh": "承载力参考与安全系数"
-   },
-   "body": {
-    "en": "Do not select a sleeve anchor from diameter alone or treat a catalogue load as a universal working load. Check tension, shear, combined loading, concrete or masonry failure, steel failure, pullout, edge breakout and group effects. The weakest failure mode governs. A typical industry practice for preliminary, non-engineered screening is to apply a safety factor of about 3 to 4 to an appropriate ultimate or proof value, but this is only a starting assumption; the project engineer and applicable code must set the final design resistance and partial factors. Do not convert a preliminary factor into a certified load rating. Loads should be reduced when anchors are close to edges, closely spaced, installed in cracked or weak material, or exposed to vibration. Dynamic equipment, guardrails, overhead items and life-safety components require a qualified design and, where applicable, project-specific testing. For an M10 anchor, the nominal steel diameter does not reveal the actual capacity: sleeve length, effective embedment, steel grade, concrete strength and installation torque can all change the result. Use target design methods such as EN 1992-4 or ACI 318 only when their scope matches the substrate and anchor system. Ask for a tested characteristic or allowable value only when the supplier can document the test basis, sample condition and installation method. If data are unavailable, state that the product is for preliminary selection and require site verification before procurement or installation.",
-    "zh": "不要只按直径选择套管螺栓，也不要把目录载荷当作通用工作载荷。应检查拉力、剪力、组合荷载、混凝土或砌体破坏、钢材破坏、拔出、边缘破坏和群锚效应，最终由最弱的破坏模式控制。行业中有时会在非工程化的初步筛选中，对合适的极限值或证明值采用约3至4的安全系数，但这只是起始假设；最终设计抗力和分项系数必须由项目工程师和适用规范确定。不能把初步安全系数转换成经过认证的额定承载力。锚栓靠近边缘、间距过小、安装在开裂或低强度材料中，或承受振动时，都应降低允许荷载。动态设备、护栏、高空悬挂物和生命安全部件需要合格工程设计，并在适用时进行项目专项测试。对于M10锚栓，标称钢材直径并不能说明实际承载力；套管长度、有效埋深、钢材等级、混凝土强度和安装扭矩都会改变结果。只有在适用范围覆盖基材和锚固系统时，才可采用EN 1992-4或ACI 318等目标设计方法。只有当供应商能说明试验依据、样品状态和安装方法时，才应要求测试特征值或允许值。如果数据不足，应明确产品仅供初选，并要求在采购或安装前进行现场验证。"
-   }
-  },
-  {
-   "id": "ordering-moq-export-packing",
-   "heading": {
-    "en": "Ordering, MOQ and packing for export",
-    "zh": "出口采购、MOQ与包装要求"
-   },
-   "body": {
-    "en": "A clear purchase inquiry prevents the wrong anchor from reaching the job site. State the substrate, anchor diameter, total length, effective embedment, hole diameter, thread form, material grade, finish, washer and nut style, required quantity and application. Add drawings or reference samples when the sleeve, cone or head geometry is not standard. MOQ should be agreed for the exact specification, finish and packing method; do not assume that a common M10 size has the same MOQ as 316 stainless or a customized length. Ask for a commercial quotation showing unit basis, carton quantity, net and gross weight, carton dimensions, lead-time estimate and Incoterm. These are commercial commitments to confirm, not stock or capacity claims. For export packing, use inner bags or boxes that prevent mixing of diameters, protect threads and separate stainless grades from carbon-steel parts. Corrugated cartons should be sized for lifting and palletizing, while heavier cartons may need reinforced corners or strapping. Mark each package with size, material, finish, quantity, batch or lot reference and country-of-origin information when required by the destination. For shipments to Zimbabwe, Zambia, South Africa or Mozambique, confirm the final delivery route, port handling, humidity protection and document requirements before production; Beira and Durban have different transit and inland arrangements. TradeGo can quote sleeve anchors against the buyer’s final specification and provide a packing proposal, while the buyer should approve drawings, labels and loading details before order confirmation.",
-    "zh": "清晰的询价信息可以避免错误产品到达工地。应说明基材、锚栓直径、总长、有效埋深、孔径、螺纹形式、材质牌号、表面处理、垫圈和螺母样式、需求数量及应用场景。如果套管、锥体或头部结构不是标准形式，还应附上图纸或样品。MOQ应针对准确的规格、表面处理和包装方式单独确认；常见M10规格的MOQ不一定与316不锈钢或定制长度相同。应要求商业报价列明计价单位、每箱数量、净重和毛重、箱规、预计交期及贸易术语。这些属于需要确认的商业承诺，不代表现货或产能保证。出口包装应使用内袋或内盒，防止不同直径混装，保护螺纹，并将不锈钢牌号与碳钢部件分开。瓦楞纸箱应适合搬运和托盘堆码，较重箱件可能需要加固箱角或打包带。目的地有要求时，每个包装应标注规格、材质、表面处理、数量、批次或炉批参考以及原产地信息。发往津巴布韦、赞比亚、南非或莫桑比克时，应在生产前确认最终路线、港口操作、湿度防护和单证要求；贝拉港和德班港的运输及内陆安排不同。TradeGo可以依据买方最终规格报价并提供包装方案，但买方应在确认订单前批准图纸、标签和装载细节。"
-   }
+  "imageAlt": {
+    "en": "sleeve anchors product range",
+    "zh": "产品图"
   }
- ],
- "relatedProducts": [
-  "sleeve-anchors",
-  "wedge-anchors"
- ],
- "cta": {
-  "text": {
-   "en": "Need bulk sleeve anchors? Get a factory-direct quote from TradeGo.",
-   "zh": "需要批量采购？获取 TradeGo 工厂直供报价。"
-  },
-  "buttonText": {
-   "en": "Request a quote",
-   "zh": "获取报价"
-  },
-  "link": "/en/products/sleeve-anchors"
- },
- "author": "TradeGo Fasteners Technical Team",
- "metaDescription": {
-  "en": "Compare sleeve anchors by expansion, size, substrate, finish and load. Select M10 or stainless options and plan drilling, MOQ and export packing.",
-  "zh": "从膨胀方式、尺寸、基材、表面处理和承载力比较套管螺栓，合理选择M10、不锈钢产品及出口包装。"
- },
- "imageAlt": {
-  "en": "sleeve anchors product range",
-  "zh": "产品图"
- }
 }

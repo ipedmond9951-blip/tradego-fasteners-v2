@@ -64,6 +64,18 @@ const PRODUCT_KEYWORDS = [
 function addLinksToText(text) {
   if (!text) return text;
   
+  // 2026-11-23 修复：脚本原来不幂等 —— 关键词若已在 <a>...</a> 文本里，
+  // 第二次运行会再包一层，叠成 <a X><a Y>keyword</a></a>，反复跑就成标签垃圾。
+  // 现在先算出"保护区间"（所有 HTML 标签 + 所有已存在的 <a>...</a> 整块），落在其中的匹配一律跳过。
+  const protectedRanges = [];
+  for (const m of text.matchAll(/<[^>]*>/g)) {
+    protectedRanges.push([m.index, m.index + m[0].length]);
+  }
+  for (const m of text.matchAll(/<a\b[^>]*>[\s\S]*?<\/a\s*>/gi)) {
+    protectedRanges.push([m.index, m.index + m[0].length]);
+  }
+  const isProtected = (i) => protectedRanges.some(([s, e]) => i >= s && i < e);
+
   // Find all matches with their positions first
   const matches = [];
   
@@ -72,42 +84,16 @@ function addLinksToText(text) {
     let match;
     
     while ((match = regex.exec(text)) !== null) {
-      // Check if this match is inside an HTML tag attribute
-      // by looking at the text before the match
+      if (isProtected(match.index)) continue;   // 已在标签或已有链接内，跳过
+      if (matches.some(m => m.index === match.index)) continue;
+
+      // 额外保险：匹配点若在未闭合标签里，也跳过
       const beforeMatch = text.substring(0, match.index);
-      const afterMatch = text.substring(match.index + match[0].length);
-      
-      // If we're inside an HTML tag (unclosed < before match and > after), skip
       const lastOpenTag = beforeMatch.lastIndexOf('<');
       const lastCloseTag = beforeMatch.lastIndexOf('>');
-      
-      if (lastOpenTag > lastCloseTag) {
-        // We're inside a tag - check if it's inside an attribute value
-        const afterOpen = beforeMatch.substring(lastOpenTag);
-        if (!afterOpen.includes('>')) {
-          // The tag is not closed yet - we're in an attribute
-          continue;
-        }
-      }
-      
-      // Check if we're inside an href value
-      const recentHref = beforeMatch.lastIndexOf('href="');
-      const recentHrefClose = beforeMatch.lastIndexOf('"', recentHref + 6);
-      if (recentHref > recentHrefClose) {
-        // We're inside an href attribute value
-        continue;
-      }
-      
-      // Also check if the match itself looks like it's part of a tag
+      if (lastOpenTag > lastCloseTag) continue;
       const charBefore = beforeMatch.charAt(beforeMatch.length - 1);
-      if (charBefore === '"' || charBefore === "'" || charBefore === '=') {
-        continue;
-      }
-      
-      // Check if this exact position is already linked
-      // by checking if there's already an <a> tag starting at this position
-      const alreadyLinked = matches.some(m => m.index === match.index);
-      if (alreadyLinked) continue;
+      if (charBefore === '"' || charBefore === "'" || charBefore === '=') continue;
       
       matches.push({
         index: match.index,
