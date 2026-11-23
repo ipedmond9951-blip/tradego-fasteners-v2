@@ -252,7 +252,7 @@ export default async function CategoryPage({
               return (
                 <Link
                   key={article.slug}
-                  href={`/${locale}/industry/${article.slug}`}
+                  href={`/${locale}/industry/${article.slug}`} prefetch={false}
                   className="group bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-all flex flex-col md:flex-row"
                 >
                   {/* Image */}
