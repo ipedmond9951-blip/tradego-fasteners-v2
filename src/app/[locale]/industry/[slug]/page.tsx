@@ -7,6 +7,7 @@ import { type Locale, t, locales } from '@/i18n'
 import type { ArticleSection } from '@/lib/articles'
 import ShareButtons from '@/components/ShareButtons'
 import { clampDescription } from '@/lib/seo'
+import { optImagePath } from '@/lib/optImages'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
@@ -218,7 +219,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-primary-900 to-primary-800 text-white py-12 md:py-16 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <Image src={article.image} alt={title} fill className="object-cover" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1200px" priority quality={80} />
+          <Image src={optImagePath(article.image, 'hero')} alt={title} fill className="object-cover" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1200px" priority quality={80} />
         </div>
         <div className="container mx-auto px-4 sm:px-6 relative z-10 max-w-3xl">
           <Link href={`/${locale}/industry`} className="inline-flex items-center gap-1 text-primary-200 hover:text-white text-sm mb-6 transition-colors">

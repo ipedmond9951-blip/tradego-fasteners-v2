@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { getAllArticles, type Article } from '@/lib/articles'
 import { type Locale } from '@/i18n'
+import { optImagePath } from '@/lib/optImages'
 
 interface LatestArticlesProps {
   locale: Locale
@@ -40,9 +41,10 @@ export default function LatestArticles({ locale, limit = 6 }: LatestArticlesProp
               >
                 <div className="relative h-48 overflow-hidden bg-gray-100">
                   <Image
-                    src={article.image}
+                    src={optImagePath(article.image, 'thumb')}
                     alt={article.imageAlt?.[locale] || article.imageAlt?.en || title}
                     fill
+                    loading="lazy"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                   />

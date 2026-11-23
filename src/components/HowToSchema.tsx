@@ -1,5 +1,3 @@
-'use client'
-
 interface HowToSchemaProps {
   locale?: string
   title: string

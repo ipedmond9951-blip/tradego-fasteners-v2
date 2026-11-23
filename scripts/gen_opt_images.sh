@@ -1,0 +1,19 @@
+#!/bin/bash
+# 生成文章图的优化衍生版：hero(1200x675 webp q66) / thumb(400x225 webp q62)
+set -u
+cd "$(dirname "$0")/.."
+mkdir -p public/images/opt
+files=$(ls public/images/articles/*.jpg public/images/articles/*.jpeg public/images/articles/*.png 2>/dev/null)
+for f in $files; do
+  b=$(basename "$f"); n="${b%.*}"
+  hero="public/images/opt/${n}-hero.webp"; thumb="public/images/opt/${n}-thumb.webp"
+  if [ -s "$hero" ] && [ -s "$thumb" ]; then continue; fi
+  sips -Z 1200 "$f" --out /tmp/_h1.jpg >/dev/null 2>&1 || continue
+  sips -c 675 1200 /tmp/_h1.jpg --out /tmp/_h2.jpg >/dev/null 2>&1 || continue
+  cwebp -quiet -q 66 /tmp/_h2.jpg -o "$hero" || continue
+  sips -Z 400 "$f" --out /tmp/_t1.jpg >/dev/null 2>&1 || continue
+  sips -c 225 400 /tmp/_t1.jpg --out /tmp/_t2.jpg >/dev/null 2>&1 || continue
+  cwebp -quiet -q 62 /tmp/_t2.jpg -o "$thumb"
+done
+rm -f /tmp/_h1.jpg /tmp/_h2.jpg /tmp/_t1.jpg /tmp/_t2.jpg
+echo "done $(ls public/images/opt/*-hero.webp 2>/dev/null | wc -l | tr -d ' ') heroes"

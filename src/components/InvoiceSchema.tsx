@@ -1,5 +1,3 @@
-'use client'
-
 interface InvoiceSchemaProps {
   orderNumber: string
   orderDate: string

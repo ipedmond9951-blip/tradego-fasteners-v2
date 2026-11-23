@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next'
+import dynamic from 'next/dynamic'
 import '../globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -6,10 +7,10 @@ import { GeoProvider } from '@/contexts/GeoContext'
 import { CurrencyProvider } from '@/contexts/CurrencyContext'
 import { locales, type Locale } from '@/i18n'
 import { clampDescription } from '@/lib/seo'
-import AIChatWidget from '@/components/AIChatWidget'
+const AIChatWidget = dynamic(() => import('@/components/AIChatWidget'))
 import Analytics from '@/components/Analytics'
-import CookieConsent from '@/components/CookieConsent'
-import WhatsAppCTA from '@/components/WhatsAppCTA'
+const CookieConsent = dynamic(() => import('@/components/CookieConsent') )
+const WhatsAppCTA = dynamic(() => import('@/components/WhatsAppCTA') )
 import FAQSchema from '@/components/FAQSchema'
 import VideoSchema from '@/components/VideoSchema'
 import OrganizationSchema from '@/components/OrganizationSchema'
