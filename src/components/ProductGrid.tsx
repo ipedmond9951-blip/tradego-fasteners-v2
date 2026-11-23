@@ -46,7 +46,7 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
                   <a href={`/${locale}/products/${product.slug}`} className="block hover:text-primary-700 transition-colors">
                     <h3 className="font-bold text-primary-900 text-sm md:text-base lg:text-lg mb-1">{name}</h3>
                   </a>
-                  <p className="text-gray-600 text-xs md:text-sm mb-3 line-clamp-2">{desc}</p>
+                  <p className="hidden sm:block text-gray-600 text-xs md:text-sm mb-3 line-clamp-2">{desc}</p>
 
                   <div className="space-y-1.5 text-xs md:text-sm mt-auto">
                     <div className="flex justify-between"><span className="text-gray-500">{t(locale, 'products.specification')}:</span><span className="font-medium text-right truncate ml-2" title={product.specs.size}>{product.specs.size}</span></div>

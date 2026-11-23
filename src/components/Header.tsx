@@ -79,8 +79,10 @@ export default function Header({ locale = 'en' }: HeaderProps) {
 
           {/* Right side */}
           <div className="flex items-center gap-1 md:gap-3">
-            {/* Language Switcher - visible on all devices for easy access */}
-            <LanguageSwitcher />
+            {/* Language switcher only from sm up; on phones it lives inside the menu */}
+            <div className="hidden sm:flex items-center">
+              <LanguageSwitcher />
+            </div>
             {/* Currency Switcher - desktop only, mobile in menu */}
             <div className="hidden sm:flex items-center gap-1.5">
               <CurrencySwitcher />
@@ -98,7 +100,7 @@ export default function Header({ locale = 'en' }: HeaderProps) {
 
         {/* Mobile Menu */}
         {menuOpen && (
-          <div className="lg:hidden border-t border-gray-100 py-4 space-y-1 max-h-[70vh] overflow-y-auto">
+          <div className="lg:hidden fixed inset-x-0 top-14 bottom-0 z-40 bg-white px-2 pb-28 overflow-y-auto">
             {navItems.map((item) => (
               'children' in item ? (
                 <div key={item.label}>
@@ -130,16 +132,34 @@ export default function Header({ locale = 'en' }: HeaderProps) {
                 <a key={item.href} href={item.href} onClick={() => setMenuOpen(false)} className="block px-4 py-3 min-h-[44px] text-gray-700 hover:text-primary-700 font-medium">{item.label}</a>
               )
             ))}
-            <div className="flex items-center gap-3 pt-3 px-4 border-t border-gray-100 mt-2">
+            <div className="flex items-center gap-3 pt-3 px-4 border-t border-gray-100 mt-3">
               <LanguageSwitcher />
               <CurrencySwitcher />
             </div>
-            <a href={`/${locale}#inquiry`} onClick={() => setMenuOpen(false)} className="block mx-4 mt-2 bg-primary-700 text-white text-center py-3 min-h-[44px] rounded-lg font-semibold text-sm">
-              {t(locale, 'nav.contact')}
-            </a>
           </div>
         )}
       </nav>
+
+      {/* Mobile bottom action bar: mirrors what Haina does with a permanent contact strip */}
+      {menuOpen && (
+        <div className="lg:hidden fixed inset-x-0 bottom-0 z-50 bg-white border-t border-gray-100 px-4 py-3 flex gap-3">
+          <a
+            href="https://wa.me/8615963409951"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 bg-green-500 text-white text-center py-3 rounded-lg font-semibold text-sm"
+          >
+            WhatsApp
+          </a>
+          <a
+            href={`/${locale}#inquiry`}
+            onClick={() => setMenuOpen(false)}
+            className="flex-1 bg-primary-700 text-white text-center py-3 rounded-lg font-semibold text-sm"
+          >
+            {t(locale, 'nav.contact')}
+          </a>
+        </div>
+      )}
     </header>
   )
 }

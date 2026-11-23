@@ -102,7 +102,10 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
 
       <HeroSection locale={locale} />
 
-      <div className="container mx-auto px-4">
+      {/* Products first: mobile buyers should reach the grid in one swipe */}
+      <ProductGrid locale={locale} />
+
+            <div className="container mx-auto px-4">
         <GeoPromotion />
         
         {/* Social Share Buttons */}
@@ -114,10 +117,8 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
           />
         </div>
       </div>
-
       <AboutSection locale={locale} />
       <WhyChooseUs locale={locale} />
-      <ProductGrid locale={locale} />
 
       {/* Application Scenarios - content depth for SEO */}
       <section className="py-12 md:py-16 bg-gray-50">
