@@ -26,8 +26,13 @@ const nextConfig: NextConfig = {
       // 2026-06-19: 修复文件名 bug - 旧 slug 含空格, 用 %20 URL 访问需重定向到正确 slug
       // Vercel router URL-decodes %20 BEFORE matching redirect source
       {
-        source: '/:locale(en|zh)/industry/south%20africa-fasteners-china-import-guide',
-        destination: '/:locale/industry/south-africa-fasteners-china-import-guide',
+        source: '/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)/industry/south%20africa-fasteners-china-import-guide/',
+        destination: '/:locale/industry/south-africa-fasteners-china-import-guide/',
+        permanent: true,
+      },
+      {
+        source: '/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)/industry/south%20africa-fasteners-china-import-guide',
+        destination: '/:locale/industry/south-africa-fasteners-china-import-guide/',
         permanent: true,
       },
       // 2026-07-16 23:30 修复 404 URLs (GSC 43 个 "未找到")
@@ -103,10 +108,24 @@ const nextConfig: NextConfig = {
         ['water-infrastructure-fasteners', 'agrifastener-water-infrastructure'],
         ['china-fastener-export-guide', 'fastener-export-china-to-africa-guide'],
         ['afcfta-trade-benefits', 'african-ftz-fastener-import-procedures'],
+        // 2026-11-23 GA4「Article Not Found」177 次 / GSC 404 复核后补的映射
+        ['anchor-bolt-selection-guide', 'anchor-bolts-selection-guide'],
+        ['drywall-screws-selection-guide', 'drywall-screws-complete-guide'],
+        ['drc-copper-belt-fastener-market', 'dr-congo-drc-mining-fastener-market'],
+        ['zimbabwe-mining-sector-fastener-guide', 'zimbabwe-mining-fastener-grade-selection'],
+        ['china-fastener-manufacturer-guide', 'china-iso-9001-fastener-manufacturer-directory'],
+        ['africa-port-logistics-fastener-export', 'fastener-export-china-to-africa-guide'],
+        ['zim-construction-industry-overview', 'zimbabwe-construction-fastener-market'],
+        ['zimbabwe-fastener-import', 'zimbabwe-import-duty-fastener-tariff-2026'],
+        ['zimbabwe-construction-fastener-guide', 'zimbabwe-construction-fastener-market'],
+        ['africa-construction-infrastructure-fastener-demand', 'africa-fastener-market-opportunities-2026'],
+        ['afcfta-landed-cost-guide', 'african-ftz-fastener-import-procedures'],
       ].flatMap(([from, to]) => [
         { source: `/${from}/`, destination: `/en/industry/${to}/`, permanent: true },
         {
-          source: `/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)/${from}/`,
+          // 2026-11-23 修复：GSC 里的旧链接都是 /<locale>/industry/<old-slug>/，
+          // 早先生成时漏了 industry/ 段，导致 10 语种版本的 404 一直没被修掉。
+          source: `/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)/industry/${from}/`,
           destination: `/:locale/industry/${to}/`,
           permanent: true,
         },
