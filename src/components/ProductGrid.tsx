@@ -2,7 +2,6 @@
 
 import Image from 'next/image'
 import { type Locale, t } from '@/i18n'
-import { useCurrency } from '@/contexts/CurrencyContext'
 import { allProducts } from '@/lib/products'
 import { productNames, productDescriptions, pick } from '@/lib/productI18n'
 
@@ -21,8 +20,6 @@ const guideBySlug: Record<string, string> = {
 }
 
 export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
-  const { formatPrice } = useCurrency()
-
   return (
     <section id="products" className="py-12 md:py-16 lg:py-20">
       <div className="container mx-auto px-4 sm:px-6">
@@ -54,12 +51,12 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
                   <div className="space-y-1.5 text-xs md:text-sm mt-auto">
                     <div className="flex justify-between"><span className="text-gray-500">{t(locale, 'products.specification')}:</span><span className="font-medium text-right truncate ml-2" title={product.specs.size}>{product.specs.size}</span></div>
                     <div className="flex justify-between"><span className="text-gray-500">{t(locale, 'products.standard')}:</span><span className="font-medium text-right truncate ml-2">{product.specs.standard}</span></div>
-                    <div className="flex justify-between"><span className="text-gray-500">{t(locale, 'products.moq')}:</span><span className="font-medium">1 {locale === 'zh' ? '吨' : 'ton'}</span></div>
-                    <div className="flex justify-between"><span className="text-gray-500">{t(locale, 'products.lead')}:</span><span className="font-medium">15-20 {locale === 'zh' ? '天' : 'days'}</span></div>
+                    <div className="flex justify-between"><span className="text-gray-500">{t(locale, 'products.moq')}:</span><span className="font-medium">{product.minOrder || (locale === 'zh' ? '1 吨' : '1 ton')}</span></div>
+                    <div className="flex justify-between"><span className="text-gray-500">{t(locale, 'products.lead')}:</span><span className="font-medium">{product.leadTime || (locale === 'zh' ? '15-20 天' : '15-20 days')}</span></div>
                   </div>
 
                   <div className="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between gap-2">
-                    <span className="text-primary-900 font-bold text-sm md:text-base whitespace-nowrap">{formatPrice(product.pricePerPiece)}{t(locale, 'products.piece')}</span>
+                    <span className="text-gray-500 text-xs md:text-sm">{locale === 'zh' ? '工厂直供 · 按需报价' : 'Factory direct · quote on request'}</span>
                     <a href={`/${locale}#inquiry`} className="bg-primary-700 text-white px-3 md:px-4 py-1.5 md:py-2 rounded-lg text-xs md:text-sm font-semibold hover:bg-primary-800 transition-colors whitespace-nowrap">
                       {t(locale, 'products.inquiry')}
                     </a>

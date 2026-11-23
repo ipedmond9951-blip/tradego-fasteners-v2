@@ -96,7 +96,6 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
       '@type': 'Offer',
       url: canonical,
       priceCurrency: 'USD',
-      price: product.pricePerPiece.toFixed(3),
       priceValidUntil: '2027-12-31',
       availability: 'https://schema.org/InStock',
       itemCondition: 'https://schema.org/NewCondition',
@@ -155,9 +154,6 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             <h1 className="text-3xl md:text-4xl font-bold mb-4">{name}</h1>
             <p className="text-primary-100 leading-relaxed mb-6">{desc}</p>
             <div className="flex flex-wrap items-center gap-3 mb-6 text-sm">
-              <span className="bg-white/15 rounded-lg px-3 py-2">
-                {label('from')} <strong className="text-white">${product.pricePerPiece.toFixed(3)}</strong> / pc
-              </span>
               <span className="bg-white/15 rounded-lg px-3 py-2">
                 {label('moq')}: <strong className="text-white">{moq}</strong>
               </span>

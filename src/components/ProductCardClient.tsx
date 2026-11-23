@@ -2,9 +2,7 @@
 
 import Image from 'next/image'
 import { type Locale, t } from '@/i18n'
-import { useCurrency } from '@/contexts/CurrencyContext'
 import { ButtonLink } from './Button'
-import { Badge } from './Badge'
 
 interface ProductCardClientProps {
   product: {
@@ -26,7 +24,6 @@ interface ProductCardClientProps {
 }
 
 export default function ProductCardClient({ product, locale, name }: ProductCardClientProps) {
-  const {} = useCurrency()
 
   const specLabels: Record<string, Record<string, string>> = {
     en: { size: 'Size', standard: 'Standard', material: 'Material', finish: 'Finish' },
@@ -55,12 +52,6 @@ export default function ProductCardClient({ product, locale, name }: ProductCard
           sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 25vw" 
         />
         {/* Price Badge */}
-        <Badge 
-          variant="premium" 
-          className="absolute top-3 right-3"
-        >
-          ${product.pricePerPiece.toFixed(3)}/pc
-        </Badge>
       </div>
 
       {/* Content */}

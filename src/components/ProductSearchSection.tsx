@@ -32,6 +32,7 @@ const categories = [
   { key: 'nails', label: 'Nails' },
   { key: 'anchors', label: 'Anchors' },
   { key: 'washers', label: 'Washers' },
+  { key: 'waterproofing', label: 'Waterproofing' },
 ]
 
 // Search score function - higher = more relevant
@@ -75,11 +76,12 @@ export default function ProductSearchSection({ products, locale, texts }: Produc
     // Category filter
     if (selectedCategory !== 'All') {
       const categoryMap: Record<string, string[]> = {
-        'screws': ['drywall', 'self-drilling', 'coach'],
-        'bolts': ['bolt', 'threaded'],
-        'nails': ['ibr', 'nail'],
+        'screws': ['drywall', 'chipboard', 'concrete-screw', 'self-tapping', 'self-drilling', 'coach'],
+        'bolts': ['bolt', 'threaded', 'expansion'],
+        'nails': ['nail'],
         'anchors': ['anchor'],
         'washers': ['washer'],
+        'waterproofing': ['butyl', 'asphalt', 'non-woven', 'waterproof'],
       }
       const keywords = categoryMap[selectedCategory] || []
       result = result.filter(p => 
@@ -106,6 +108,7 @@ export default function ProductSearchSection({ products, locale, texts }: Produc
     'Nails': locale === 'zh' ? '钉子' : 'Nails',
     'Anchors': locale === 'zh' ? '锚栓' : 'Anchors',
     'Washers': locale === 'zh' ? '垫圈' : 'Washers',
+    'Waterproofing': locale === 'zh' ? '防水材料' : 'Waterproofing',
   }
 
   return (

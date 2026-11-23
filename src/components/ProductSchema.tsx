@@ -93,8 +93,6 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
           material: product.specs.material,
           offers: {
             '@type': 'Offer',
-            priceCurrency: 'USD',
-            price: product.pricePerPiece.toFixed(2),
             availability: 'https://schema.org/InStock',
             seller: {
               '@type': 'Organization',

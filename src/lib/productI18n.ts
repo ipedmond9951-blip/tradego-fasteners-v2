@@ -85,6 +85,72 @@ export const productNames: Record<string, Dict> = {
     fr: 'Boulons à expansion', pt: 'Parafusos de expansão', ru: 'Распорные анкерные болты',
     ja: 'エキスパンションボルト', de: 'Spreizanker', hi: 'एक्सपैंशन बोल्ट',
   },
+  'concrete-nails': {
+    en: 'Concrete Nails', zh: '混凝土钢钉', es: 'Clavos para hormigón', ar: 'مسامير خرسانية',
+    fr: 'Clous pour béton', pt: 'Pregos para concreto', ru: 'Гвозди по бетону',
+    ja: 'コンクリート釘', de: 'Betonnägel', hi: 'कंक्रीट कीलें',
+  },
+  'shooting-nails': {
+    en: 'Shooting Nails', zh: '射钉', es: 'Clavos de fijación por pólvora', ar: 'مسامير طلقات',
+    fr: 'Clous de scellement à poudre', pt: 'Pregos de fixação a pólvora', ru: 'Дюбель-гвозди для монтажного пистолета',
+    ja: '射钉（パウダー打ち込み）', de: 'Schussnägel', hi: 'पाउडर एक्ट्यूएटेड कील',
+  },
+  'clout-nails': {
+    en: 'Clout Nails', zh: '油毡钉（大帽钉）', es: 'Clavos de cabeza ancha', ar: 'مسامير عريضة الرأس',
+    fr: 'Clous à large tête', pt: 'Pregos de cabeça larga', ru: 'Гвозди с широкой головкой',
+    ja: 'クルート釘', de: 'Breitkopf-Nägel', hi: 'क्लाउट कीलें',
+  },
+  'duplex-nails': {
+    en: 'Duplex Nails', zh: '双头钉', es: 'Clavos dúplex', ar: 'مسامير مزدوجة الرأس',
+    fr: 'Clous duplex', pt: 'Pregos de cabeça dupla', ru: 'Гвозди с двойной головкой',
+    ja: 'ダブルヘッド釘', de: 'Doppelkopf-Nägel', hi: 'डुप्लेक्स कीलें',
+  },
+  'wedge-anchors': {
+    en: 'Wedge Anchors', zh: '楔形锚栓', es: 'Anclajes de cuña', ar: 'مراسي وتدية',
+    fr: 'Chevilles à coin', pt: 'Chumbadores de cunha', ru: 'Клиновые анкеры',
+    ja: 'ウェッジアンカー', de: 'Keilanker', hi: 'वेज एंकर',
+  },
+  'drop-in-anchors': {
+    en: 'Drop-in Anchors', zh: '内迫式锚栓', es: 'Anclajes drop-in', ar: 'مراسي داخلية',
+    fr: 'Chevilles à frapper', pt: 'Chumbadores drop-in', ru: 'Анкеры с внутренней резьбой',
+    ja: 'ドロップインアンカー', de: 'Drop-in-Anker', hi: 'ड्रॉप-इन एंकर',
+  },
+  'set-anchors': {
+    en: 'Set Anchors', zh: '顶爆锚栓', es: 'Anclajes set', ar: 'مراسي برغي آلية',
+    fr: 'Chevilles set', pt: 'Chumbadores set', ru: 'Анкеры set',
+    ja: 'セットアンカー', de: 'Set-Anker', hi: 'सेट एंकर',
+  },
+  'bolt-anchors': {
+    en: 'Bolt Anchors', zh: '穿墙螺栓锚栓', es: 'Anclajes tipo perno', ar: 'مراسي برغية',
+    fr: 'Chevilles boulons', pt: 'Chumbadores tipo parafuso', ru: 'Болт-анкеры',
+    ja: 'ボルトアンカー', de: 'Bolzenanker', hi: 'बोल्ट एंकर',
+  },
+  'butyl-tape': {
+    en: 'Butyl Tape', zh: '丁基防水胶带', es: 'Cinta de butilo', ar: 'شريط بوتيل',
+    fr: 'Bande butyle', pt: 'Fita de butil', ru: 'Бутиловая лента',
+    ja: 'ブチルテープ', de: 'Butylband', hi: 'ब्यूटाइल टेप',
+  },
+  'asphalt-flash-band': {
+    en: 'Asphalt Flash Band', zh: '沥青自粘泛水带', es: 'Banda asfáltica autoadhesiva', ar: 'شريط أسفلتي لاصق',
+    fr: 'Bande bitumineuse autocollante', pt: 'Fita asfáltica autoadesiva', ru: 'Битумная самоклеящаяся лента',
+    ja: 'アスファルト防水テープ', de: 'Bitumen-Klebeband', hi: 'एस्फाल्ट फ्लैश बैंड',
+  },
+  'non-woven-fabric': {
+    en: 'Non-woven Fabric', zh: '无纺布', es: 'Tela no tejida', ar: 'قماش غير منسوج',
+    fr: 'Tissu non tissé', pt: 'Tecido não tecido', ru: 'Нетканое полотно',
+    ja: '不織布', de: 'Vliesstoff', hi: 'नॉन-वुवेन फ़ैब्रिक',
+  },
+  'waterproof-coating': {
+    en: 'Waterproof Coating', zh: '防水涂料', es: 'Recubrimiento impermeable', ar: 'طلاء عازل للماء',
+    fr: 'Revêtement imperméable', pt: 'Revestimento impermeável', ru: 'Гидроизоляционная мастика',
+    ja: '防水塗料', de: 'Dichtungsbeschichtung', hi: 'वॉटरप्रूफ़ कोटिंग',
+  },
+  'waterproof-membrane': {
+    en: 'Waterproof Membrane', zh: '防水卷材', es: 'Membrana impermeable', ar: 'غشاء عازل للماء',
+    fr: 'Membrane imperméable', pt: 'Membrana impermeável', ru: 'Гидроизоляционная мембрана',
+    ja: '防水シート', de: 'Abdichtungsbahn', hi: 'वॉटरप्रूफ़ झिल्ली',
+  },
+
 }
 
 // 详情页简述（en / zh 为主，其它语言回落到 en）
@@ -153,6 +219,59 @@ export const productDescriptions: Record<string, Dict> = {
     en: 'Wedge-type expansion bolts M6–M24 × 50–300 mm, zinc-plated, hot-dip galvanized or stainless, for structural and equipment anchoring.',
     zh: '楔形膨胀螺栓 M6–M24 × 50–300mm，镀锌、热镀锌或不锈钢，用于结构件与设备锚固。',
   },
+  'concrete-nails': {
+    en: 'Hardened concrete nails 1″-5″ (2.0-5.0 mm × 25-125 mm) for fixing timber battens, frames and formwork straight into concrete, mortar or block. Blue-black or zinc plated, 25 kg cartons.',
+    zh: '混凝土钢钉 1″–5″（2.0–5.0mm × 25–125mm），经淬火处理，可直接钉入混凝土、砂浆或砌块，用于固定木龙骨、门窗框与模板。发蓝或镀锌，25kg 纸箱装。',
+  },
+  'shooting-nails': {
+    en: 'Powder-actuated shooting nails 3.0-4.5 mm × 19-72 mm with red plastic collar, for fastening into Q235 steel plate 0.8-1.2 mm and concrete C20 and above. Fasteners only — tool and cartridges not included.',
+    zh: '射钉 3.0–4.5mm × 19–72mm，配红色塑料定位垫圈，用于射入 Q235 钢板（0.8–1.2mm）及 C20 以上混凝土。仅供应钉体，不含射钉枪与弹药。',
+  },
+  'clout-nails': {
+    en: 'Wide-head clout nails 2.0-3.5 mm × 19-75 mm for roofing felt, waterproof membrane and insulation board. Electro-galvanized or hot-dip galvanized, smooth or ring shank, 25 kg cartons.',
+    zh: '大帽油毡钉 2.0–3.5mm × 19–75mm，用于固定油毡、防水卷材与保温板。电镀锌或热镀锌，光杆或环纹，25kg 纸箱装。',
+  },
+  'duplex-nails': {
+    en: 'Double-head duplex nails 2.8-4.0 mm × 50-100 mm for scaffold boards, formwork and temporary bracing — the upper head lets them be pulled out and re-used.',
+    zh: '双头钉 2.8–4.0mm × 50–100mm，用于脚手架板、模板与临时支撑，上端第二个钉头便于拔出重复使用。',
+  },
+  'wedge-anchors': {
+    en: 'Wedge anchors M6-M20 × 40-160 mm in SS304/316 or zinc-plated steel, with nut and washer. High load capacity in uncracked concrete for base plates and heavy equipment.',
+    zh: '楔形锚栓 M6–M20 × 40–160mm，不锈钢 304/316 或镀锌碳钢，配螺母与垫圈。适用于未开裂混凝土中的高承载固定，如设备底座与钢结构。',
+  },
+  'drop-in-anchors': {
+    en: 'Drop-in anchors M6-M20, internally threaded and set flush, for hanging conduit, cable tray, pipe and duct supports in concrete ceilings.',
+    zh: '内迫式锚栓 M6–M20，内螺纹、安装后与基面齐平，用于混凝土顶板吊挂线管、桥架、管道与风管支架。',
+  },
+  'set-anchors': {
+    en: 'Set anchors (machine screw anchors) M6-M16 × 25-65 mm in SS201/304 or zinc-plated steel, supplied with the screw, for quick fixing of light fixtures and brackets.',
+    zh: '顶爆锚栓（机螺丝锚栓）M6–M16 × 25–65mm，不锈钢 201/304 或镀锌碳钢，自带螺栓，用于灯具、支架等轻型固定。',
+  },
+  'bolt-anchors': {
+    en: 'Bolt anchors M6-M20 × 50-200 mm with hex bolt, expansion sleeve, nut and washer, for through-fixing base plates, racking and pipe supports.',
+    zh: '穿墙螺栓锚栓 M6–M20 × 50–200mm，配六角螺栓、膨胀套筒、螺母与垫圈，用于设备底座、货架与管道支架的穿透式固定。',
+  },
+  'butyl-tape': {
+    en: 'Butyl waterproofing tape with aluminium foil facing, 50-300 mm wide × 5-20 m rolls, permanently flexible for roof laps, gutters, flashings and wall junctions.',
+    zh: '丁基防水胶带，铝箔覆面，宽 50–300mm、长 5–20m/卷，长期保持柔韧，用于屋面搭接、天沟、泛水与墙体接缝密封。',
+  },
+  'asphalt-flash-band': {
+    en: 'Self-adhesive asphalt flash band, aluminium faced, 50-500 mm wide × 5-15 m rolls, for patching flashings, gutters, roof laps and pipe penetrations.',
+    zh: '沥青自粘泛水带，铝箔覆面，宽 50–500mm、长 5–15m/卷，用于修补泛水、天沟、屋面搭接与穿管部位。',
+  },
+  'non-woven-fabric': {
+    en: 'PP spunbond non-woven fabric, 30-150 gsm, in rolls 1.0-3.0 m wide × 50-100 m, used as waterproofing carrier, separation and filtration layer, and for covers and packaging.',
+    zh: '聚丙烯纺粘无纺布，30–150 g/㎡，幅宽 1.0–3.0m、长 50–100m/卷，用作防水层胎基、隔离过滤层，以及包装与遮盖材料。',
+  },
+  'waterproof-coating': {
+    en: 'Liquid waterproof coating — polyurethane, rubber asphalt or acrylic — in 5-20 kg pails, brushed or rolled to a seamless membrane on roofs, basements and wet areas.',
+    zh: '防水涂料（聚氨酯、橡胶沥青或丙烯酸），5–20kg/桶，刷涂或滚涂形成无缝防水层，用于屋面、地下室与湿区。',
+  },
+  'waterproof-membrane': {
+    en: 'Waterproof membrane — SBS modified bitumen, PVC or TPO — 3-4 mm, rolls 1.0-2.0 m × 10-20 m, for flat roofs, podium decks and basement tanking.',
+    zh: '防水卷材（SBS 改性沥青、PVC 或 TPO），厚 3–4mm，幅宽 1.0–2.0m、长 10–20m/卷，用于平屋面、裙楼平台与地下室防水。',
+  },
+
 }
 
 export const uiLabels: Record<string, Dict> = {
