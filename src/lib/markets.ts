@@ -14,7 +14,7 @@ export interface MarketPage {
 export const markets: MarketPage[] = [
   {
     slug: 'zimbabwe',
-    name: { en: 'Zimbabwe', zh: '津巴布韦' },
+    name: { en: 'Zimbabwe', zh: '津巴布韦', es: 'Zimbabue', fr: 'Zimbabwe', pt: 'Zimbábue', ar: 'زيمبابوي', ru: 'Зимбабве', ja: 'ジンバブエ', de: 'Simbabwe', hi: 'ज़िम्बाब्वे' },
     hero: {
       en: 'Harare and Bulawayo buyers usually clear through Beira or Durban, then truck inland. We quote FOB or CIF Beira, with the transit leg planned into the delivery date.',
       zh: '哈拉雷与布拉瓦约的客户多经贝拉或德班清关后再陆运进境。我们报 FOB 或 CIF 贝拉，并把内陆段时效算进交期。',
@@ -47,7 +47,7 @@ export const markets: MarketPage[] = [
   },
   {
     slug: 'zambia',
-    name: { en: 'Zambia', zh: '赞比亚' },
+    name: { en: 'Zambia', zh: '赞比亚', es: 'Zambia', fr: 'Zambie', pt: 'Zâmbia', ar: 'زامبيا', ru: 'Замбия', ja: 'ザンビア', de: 'Sambia', hi: 'ज़ाम्बिया' },
     hero: {
       en: 'Zambia is landlocked: Lusaka and the Copperbelt are served through Beira, Dar es Salaam or Walvis Bay. Mining and construction drive demand for high-tensile bolts and anchoring.',
       zh: '赞比亚是内陆国：卢萨卡与铜矿带通常经贝拉、达累斯萨拉姆或沃尔维斯湾。矿山与基建决定高强度螺栓与锚固件的需求。',
@@ -80,7 +80,7 @@ export const markets: MarketPage[] = [
   },
   {
     slug: 'south-africa',
-    name: { en: 'South Africa', zh: '南非' },
+    name: { en: 'South Africa', zh: '南非', es: 'Sudáfrica', fr: 'Afrique du Sud', pt: 'África do Sul', ar: 'جنوب أفريقيا', ru: 'ЮАР', ja: '南アフリカ', de: 'Südafrika', hi: 'दक्षिण अफ़्रीका' },
     hero: {
       en: 'Durban and Cape Town are the main gates. SANS/SABS standards dominate specifications, so roofing and structural lines are usually quoted against a SABS clause.',
       zh: '德班与开普敦是主要门户。当地以 SANS/SABS 标准为主，屋面与结构件通常按 SABS 条款报盘。',
@@ -113,7 +113,7 @@ export const markets: MarketPage[] = [
   },
   {
     slug: 'mozambique',
-    name: { en: 'Mozambique', zh: '莫桑比克' },
+    name: { en: 'Mozambique', zh: '莫桑比克', es: 'Mozambique', fr: 'Mozambique', pt: 'Moçambique', ar: 'موزمبيق', ru: 'Мозамбик', ja: 'モザンビーク', de: 'Mosambik', hi: 'मोज़ाम्बिक' },
     hero: {
       en: 'Beira, Maputo and Nacala serve both local projects and transit cargo to Zimbabwe, Zambia and Malawi. Beira is the workhorse for central Mozambique.',
       zh: '贝拉、马普托与纳卡拉既服务本地项目，也承担发往津巴布韦、赞比亚、马拉维的转口货。贝拉是中部莫桑比克主力港。',
@@ -146,7 +146,7 @@ export const markets: MarketPage[] = [
   },
   {
     slug: 'botswana',
-    name: { en: 'Botswana', zh: '博茨瓦纳' },
+    name: { en: 'Botswana', zh: '博茨瓦纳', es: 'Botsuana', fr: 'Botswana', pt: 'Botsuana', ar: 'بوتسوانا', ru: 'Ботсвана', ja: 'ボツワナ', de: 'Botswana', hi: 'बोत्सवाना' },
     hero: {
       en: 'Landlocked, served mainly through Durban with a road leg via South Africa; Walvis Bay is the alternative. Mining and construction are the two demand centres.',
       zh: '内陆国，主要经德班清关后陆运过南非；沃尔维斯湾为替代路线。需求集中在矿山与建筑。',
@@ -170,7 +170,7 @@ export const markets: MarketPage[] = [
   },
   {
     slug: 'kenya',
-    name: { en: 'Kenya', zh: '肯尼亚' },
+    name: { en: 'Kenya', zh: '肯尼亚', es: 'Kenia', fr: 'Kenya', pt: 'Quênia', ar: 'كينيا', ru: 'Кения', ja: 'ケニア', de: 'Kenia', hi: 'केन्या' },
     hero: {
       en: 'Mombasa serves Kenya, Uganda, Rwanda and South Sudan transit. Pre-shipment conformity (PVoC) is normally required, so certification is planned into the schedule.',
       zh: '蒙巴萨服务肯尼亚、乌干达、卢旺达与南苏丹转口。通常需装运前合格认证（PVoC），认证时间要算进排期。',
@@ -194,7 +194,7 @@ export const markets: MarketPage[] = [
   },
   {
     slug: 'nigeria',
-    name: { en: 'Nigeria', zh: '尼日利亚' },
+    name: { en: 'Nigeria', zh: '尼日利亚', es: 'Nigeria', fr: 'Nigeria', pt: 'Nigéria', ar: 'نيجيريا', ru: 'Нигерия', ja: 'ナイジェリア', de: 'Nigeria', hi: 'नाइजीरिया' },
     hero: {
       en: 'Lagos (Apapa / Tin Can) and Onne are the main gates. SONCAP is normally required for regulated fasteners, so certification runs in parallel with production.',
       zh: '拉各斯（Apapa / Tin Can）与 Onne 是主要门户。受监管紧固件通常需 SONCAP，认证与生产并行推进。',
