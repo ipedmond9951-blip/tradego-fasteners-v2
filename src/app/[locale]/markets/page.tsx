@@ -5,15 +5,37 @@ import { markets } from '@/lib/markets'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
+const mkTitles: Record<string, string> = {
+  en: 'Export Markets & Routes: Zimbabwe, South Africa, Zambia | TradeGo',
+  zh: '出口市场与物流：津巴布韦、南非、赞比亚、肯尼亚等 | TradeGo',
+  es: 'Mercados de exportación y rutas: Zimbabue, Sudáfrica, Zambia | TradeGo',
+  fr: "Marchés d'exportation et itinéraires : Zimbabwe, Afrique du Sud, Zambie | TradeGo",
+  pt: 'Mercados de exportação e rotas: Zimbábue, África do Sul, Zâmbia | TradeGo',
+  ar: 'أسواق التصدير والمسارات: زيمبابوي وجنوب أفريقيا وزامبيا | TradeGo',
+  ru: 'Экспортные рынки и маршруты: Зимбабве, ЮАР, Замбия | TradeGo',
+  ja: '輸出市場と輸送ルート：ジンバブエ・南アフリカ・ザンビア | TradeGo',
+  de: 'Exportmärkte und Routen: Simbabwe, Südafrika, Sambia | TradeGo',
+  hi: 'निर्यात बाज़ार और मार्ग: ज़िम्बाब्वे, दक्षिण अफ़्रीका, ज़ाम्बिया | TradeGo',
+}
+
+const mkDescs: Record<string, string> = {
+  en: 'Ports, clearance documents and the fastener lines that sell in each market: Zimbabwe, South Africa, Zambia, Mozambique, Botswana, Kenya and Nigeria.',
+  zh: '按目的国看港口、清关单证与热销紧固件品类：津巴布韦、南非、赞比亚、莫桑比克、博茨瓦纳、肯尼亚、尼日利亚。',
+  es: 'Puertos, documentos de despacho y las líneas de fijaciones que se venden en cada mercado: Zimbabue, Sudáfrica, Zambia, Mozambique, Botsuana, Kenia y Nigeria.',
+  fr: "Ports, documents de dédouanement et gammes de visserie qui se vendent sur chaque marché : Zimbabwe, Afrique du Sud, Zambie, Mozambique, Botswana, Kenya et Nigeria.",
+  pt: 'Portos, documentos de desembaraço e as linhas de fixadores que vendem em cada mercado: Zimbábue, África do Sul, Zâmbia, Moçambique, Botsuana, Quênia e Nigéria.',
+  ar: 'الموانئ ومستندات التخليص وخطوط مواد التثبيت التي تُطلب في كل سوق: زيمبابوي وجنوب أفريقيا وزامبيا وموزمبيق وبوتسوانا وكينيا ونيجيريا.',
+  ru: 'Порты, документы для таможни и позиции крепежа, которые продаются на каждом рынке: Зимбабве, ЮАР, Замбия, Мозамбик, Ботсвана, Кения и Нигерия.',
+  ja: '各国の港・通関書類・実際に売れるファスナー品目：ジンバブエ、南アフリカ、ザンビア、モザンビーク、ボツワナ、ケニア、ナイジェリア。',
+  de: 'Häfen, Zolldokumente und die Verbindungselemente, die sich in jedem Markt verkaufen: Simbabwe, Südafrika, Sambia, Mosambik, Botswana, Kenia und Nigeria.',
+  hi: 'प्रत्येक बाज़ार के बंदरगाह, क्लीयरेंस दस्तावेज़ और बिकने वाली फ़ासनर लाइनें: ज़िम्बाब्वे, दक्षिण अफ़्रीका, ज़ाम्बिया, मोज़ाम्बिक, बोत्सवाना, केन्या और नाइजीरिया।',
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: lp } = await params
   const locale = (lp as Locale) || 'en'
-  const title = locale === 'zh'
-    ? '出口市场与物流：津巴布韦、南非、赞比亚、肯尼亚等 | TradeGo'
-    : 'Export Markets & Routes: Zimbabwe, South Africa, Zambia | TradeGo'
-  const description = locale === 'zh'
-    ? '按目的国看港口、清关单证与热销紧固件品类：津巴布韦、南非、赞比亚、莫桑比克、博茨瓦纳、肯尼亚、尼日利亚。'
-    : 'Ports, clearance documents and the fastener lines that sell in each market: Zimbabwe, South Africa, Zambia, Mozambique, Botswana, Kenya and Nigeria.'
+  const title = mkTitles[locale] || mkTitles.en
+  const description = mkDescs[locale] || mkDescs.en
   return {
     title,
     description,

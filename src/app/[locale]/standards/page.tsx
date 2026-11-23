@@ -5,15 +5,37 @@ import { standardEntries, stdNote } from '@/lib/standards'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
+const stTitles: Record<string, string> = {
+  en: 'Fastener Standard Index — DIN, ISO, ASTM, SABS | TradeGo',
+  zh: '紧固件标准索引｜DIN / ISO / ASTM / SABS 全清单 | TradeGo',
+  es: 'Índice de normas de fijaciones — DIN, ISO, ASTM, SABS | TradeGo',
+  fr: 'Index des normes de visserie — DIN, ISO, ASTM, SABS | TradeGo',
+  pt: 'Índice de normas de fixadores — DIN, ISO, ASTM, SABS | TradeGo',
+  ar: 'فهرس معايير مواد التثبيت — DIN وISO وASTM وSABS | TradeGo',
+  ru: 'Указатель стандартов крепежа — DIN, ISO, ASTM, SABS | TradeGo',
+  ja: 'ファスナー規格インデックス — DIN・ISO・ASTM・SABS | TradeGo',
+  de: 'Normenindex für Verbindungselemente — DIN, ISO, ASTM, SABS | TradeGo',
+  hi: 'फ़ासनर मानक सूचकांक — DIN, ISO, ASTM, SABS | TradeGo',
+}
+
+const stDescs: Record<string, string> = {
+  en: 'Look up fasteners by standard number: {n} standards we produce to — DIN, ISO, ASTM, SABS, EN and GB/T — each mapped to the product lines we ship.',
+  zh: '按标准号查紧固件：本站生产的 {n} 个标准（DIN、ISO、ASTM、SABS、EN、GB/T）各自对应在售品类，可直接询价。',
+  es: 'Consulta fijaciones por número de norma: {n} normas que producimos — DIN, ISO, ASTM, SABS, EN y GB/T — cada una vinculada a las líneas que enviamos.',
+  fr: 'Recherchez la visserie par numéro de norme : {n} normes de production — DIN, ISO, ASTM, SABS, EN et GB/T — chacune reliée aux gammes expédiées.',
+  pt: 'Consulte fixadores por número de norma: {n} normas que produzimos — DIN, ISO, ASTM, SABS, EN e GB/T — cada uma ligada às linhas que enviamos.',
+  ar: 'ابحث عن مواد التثبيت برقم المعيار: {n} معيارًا ننتج وفقها — DIN وISO وASTM وSABS وEN وGB/T — وكل منها مرتبط بالخطوط التي نشحنها.',
+  ru: 'Поиск крепежа по номеру стандарта: {n} стандартов нашего производства — DIN, ISO, ASTM, SABS, EN и GB/T, каждый привязан к отгружаемым позициям.',
+  ja: '規格番号でファスナーを検索：当社工場の {n} 規格（DIN・ISO・ASTM・SABS・EN・GB/T）と出荷品目を対応付けています。',
+  de: 'Verbindungselemente nach Normnummer suchen: {n} Normen aus unserer Fertigung — DIN, ISO, ASTM, SABS, EN und GB/T — jeweils den gelieferten Linien zugeordnet.',
+  hi: 'मानक संख्या से फ़ासनर खोजें: हमारे उत्पादन के {n} मानक — DIN, ISO, ASTM, SABS, EN और GB/T — प्रत्येक शिप की जाने वाली लाइन से जुड़ा।',
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: lp } = await params
   const locale = (lp as Locale) || 'en'
-  const title = locale === 'zh'
-    ? '紧固件标准索引｜DIN / ISO / ASTM / SABS 全清单 | TradeGo'
-    : 'Fastener Standard Index — DIN, ISO, ASTM, SABS | TradeGo'
-  const description = locale === 'zh'
-    ? `按标准号查紧固件：本站生产的 ${standardEntries.length} 个标准（DIN、ISO、ASTM、SABS、EN、GB/T）各自对应在售品类，可直接询价。`
-    : `Look up fasteners by standard number: ${standardEntries.length} standards we produce to — DIN, ISO, ASTM, SABS, EN and GB/T — each mapped to the product lines we ship.`
+  const title = stTitles[locale] || stTitles.en
+  const description = (stDescs[locale] || stDescs.en).replace('{n}', String(standardEntries.length))
   return {
     title,
     description,

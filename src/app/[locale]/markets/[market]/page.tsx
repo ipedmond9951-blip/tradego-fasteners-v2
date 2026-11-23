@@ -9,6 +9,33 @@ import { markets, getMarket } from '@/lib/markets'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
+// 地域页 SEO 标题与描述：十语种原生模板，{c} 为目的国本地国名
+const marketTitles: Record<string, string> = {
+  en: 'Fastener Wholesale for {c} | Bolts, Nails, Anchors | TradeGo',
+  zh: '出口{c}的紧固件批发｜螺栓螺母屋面钉 | TradeGo',
+  es: 'Mayorista de fijaciones para {c} | Pernos, tornillos, anclajes | TradeGo',
+  fr: 'Grossiste en visserie pour {c} | Boulons, vis, ancrages | TradeGo',
+  pt: 'Atacado de fixadores para {c} | Parafusos, pregos, chumbadores | TradeGo',
+  ar: 'بيع بالجملة لمواد التثبيت إلى {c} | براغي ومسامير ومراسي | TradeGo',
+  ru: 'Крепёж оптом для {c} | Болты, саморезы, анкеры | TradeGo',
+  ja: '{c}向けファスナー卸売 | ボルト・ビス・アンカー | TradeGo',
+  de: 'Verbindungselemente Großhandel für {c} | Schrauben, Bolzen, Anker | TradeGo',
+  hi: '{c} के लिए फ़ासनर थोक | बोल्ट, स्क्रू, एंकर | TradeGo',
+}
+
+const marketDescriptions: Record<string, string> = {
+  en: 'Wholesale fasteners for {c}: structural bolts, roofing screws, anchors, screws and waterproofing. ISO 9001 factory, FOB/CIF quotes with port and document guidance.',
+  zh: '{c}市场紧固件批发：结构螺栓、屋面钉、锚栓、螺丝与防水材料，ISO 9001 工厂，FOB/CIF 报价，含港口与单证说明。',
+  es: 'Fijaciones al por mayor para {c}: pernos estructurales, tornillos de tejado, anclajes, tornillos e impermeabilización. Fábrica ISO 9001, cotización FOB/CIF con guía de puertos y documentos.',
+  fr: 'Visserie en gros pour {c} : boulons de structure, vis de toiture, ancrages, vis et étanchéité. Usine ISO 9001, devis FOB/CIF avec guide des ports et documents.',
+  pt: 'Fixadores por atacado para {c}: parafusos estruturais, parafusos de telhado, chumbadores, parafusos e impermeabilização. Fábrica ISO 9001, cotação FOB/CIF com guia de portos e documentos.',
+  ar: 'مواد تثبيت بالجملة إلى {c}: براغي إنشائية وبراغي أسقف ومراسي وبراغي ومواد عزل مائي. مصنع ISO 9001، عرض FOB/CIF مع دليل الموانئ والمستندات.',
+  ru: 'Крепёж оптом для {c}: конструкционные болты, кровельные саморезы, анкеры, саморезы и гидроизоляция. Завод ISO 9001, цены FOB/CIF с данными по портам и документам.',
+  ja: '{c}向けファスナー卸：構造用ボルト、屋根用ビス、アンカー、ビス、防水資材。ISO 9001工場、港と書類の案内付きのFOB/CIF見積。',
+  de: 'Verbindungselemente im Großhandel für {c}: Konstruktionsbolzen, Dachschrauben, Anker, Schrauben und Abdichtung. ISO-9001-Werk, FOB/CIF-Angebot mit Hafen- und Dokumentenberatung.',
+  hi: '{c} के लिए थोक फ़ासनर: स्ट्रक्चरल बोल्ट, रूफिंग स्क्रू, एंकर, स्क्रू और वॉटरप्रूफिंग। ISO 9001 फ़ैक्टरी, बंदरगाह और दस्तावेज़ मार्गदर्शन के साथ FOB/CIF कोटेशन।',
+}
+
 // 津巴布韦已有独立落地页（/zimbabwe-fasteners-wholesale），此处不重复生成，避免自我竞争
 const EXCLUDED = ['zimbabwe']
 const generated = markets.filter(m => !EXCLUDED.includes(m.slug))
@@ -24,12 +51,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   if (!m || EXCLUDED.includes(market)) return { title: 'Market Not Found | TradeGo Fasteners', robots: { index: false } }
 
   const country = m.name[locale] || m.name.en
-  const title = locale === 'zh'
-    ? `出口${country}的紧固件批发｜螺栓螺母屋面钉 | TradeGo`
-    : `Fastener Wholesale for ${country} | Bolts, Nails, Anchors | TradeGo`
-  const description = locale === 'zh'
-    ? `${country}市场紧固件批发：结构螺栓、屋面钉、锚栓、螺丝与防水材料，ISO 9001 工厂，FOB/CIF 报价，含港口与单证说明。`
-    : `Wholesale fasteners for ${country}: structural bolts, roofing nails, anchors, screws and waterproofing. ISO 9001 factory, FOB/CIF quotes with port and document guidance.`
+  const title = (marketTitles[locale] || marketTitles.en).replace('{c}', country)
+  const description = (marketDescriptions[locale] || marketDescriptions.en).replace('{c}', country)
   const canonical = `${SITE_URL}/${locale}/markets/${market}/`
 
   return {
@@ -46,26 +69,88 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   }
 }
 
-const copy = {
+type Copy = {
+  home: string; markets: string; portsLabel: string; docsLabel: string; linesLabel: string
+  faqLabel: string; cta: string; allMarkets: string; sub: string; h1: string; seeAll: string
+}
+
+const copy: Record<string, Copy> = {
   en: {
     home: 'Home', markets: 'Markets',
     portsLabel: 'Ports and routing', docsLabel: 'Documents and clearance', linesLabel: 'What sells in this market',
     faqLabel: 'FAQ', cta: 'Request a quote', allMarkets: 'All markets',
     sub: 'Factory direct from Qingdao / Tianjin, ISO 9001 and SABS-compliant lines available.',
+    h1: 'Fasteners for {c}', seeAll: 'See all {n} product lines',
   },
   zh: {
     home: '首页', markets: '市场',
     portsLabel: '港口与航线', docsLabel: '单证与清关', linesLabel: '这个市场主要买什么',
     faqLabel: '常见问题', cta: '索取报价', allMarkets: '全部市场',
     sub: '青岛/天津工厂直供，可提供 ISO 9001 与符合 SABS 的品类。',
+    h1: '{c}紧固件批发供应', seeAll: '查看全部 {n} 个品类',
   },
-} as const
+  es: {
+    home: 'Inicio', markets: 'Mercados',
+    portsLabel: 'Puertos y rutas', docsLabel: 'Documentos y despacho', linesLabel: 'Qué se vende en este mercado',
+    faqLabel: 'Preguntas frecuentes', cta: 'Solicitar cotización', allMarkets: 'Todos los mercados',
+    sub: 'Directo de fábrica desde Qingdao / Tianjin, líneas ISO 9001 y conformes SABS.',
+    h1: 'Fijaciones para {c}', seeAll: 'Ver las {n} líneas de producto',
+  },
+  fr: {
+    home: 'Accueil', markets: 'Marchés',
+    portsLabel: 'Ports et itinéraires', docsLabel: 'Documents et dédouanement', linesLabel: 'Ce qui se vend sur ce marché',
+    faqLabel: 'Questions fréquentes', cta: 'Demander un devis', allMarkets: 'Tous les marchés',
+    sub: 'Direct usine de Qingdao / Tianjin, gammes ISO 9001 et conformes SABS.',
+    h1: 'Visserie et fixations pour {c}', seeAll: 'Voir les {n} gammes',
+  },
+  pt: {
+    home: 'Início', markets: 'Mercados',
+    portsLabel: 'Portos e rotas', docsLabel: 'Documentos e desembaraço', linesLabel: 'O que vende neste mercado',
+    faqLabel: 'Perguntas frequentes', cta: 'Pedir cotação', allMarkets: 'Todos os mercados',
+    sub: 'Direto da fábrica em Qingdao / Tianjin, linhas ISO 9001 e conformes SABS.',
+    h1: 'Fixadores para {c}', seeAll: 'Ver as {n} linhas de produto',
+  },
+  ar: {
+    home: 'الرئيسية', markets: 'الأسواق',
+    portsLabel: 'الموانئ والمسارات', docsLabel: 'المستندات والتخليص', linesLabel: 'ما يُطلب في هذا السوق',
+    faqLabel: 'الأسئلة الشائعة', cta: 'طلب عرض سعر', allMarkets: 'كل الأسواق',
+    sub: 'من المصنع مباشرة من تشينغداو / تيانجين، خطوط ISO 9001 ومطابقة SABS.',
+    h1: 'مسامير ومواد تثبيت إلى {c}', seeAll: 'عرض {n} خط إنتاج',
+  },
+  ru: {
+    home: 'Главная', markets: 'Рынки',
+    portsLabel: 'Порты и маршруты', docsLabel: 'Документы и растаможка', linesLabel: 'Что покупают на этом рынке',
+    faqLabel: 'Вопросы', cta: 'Запросить цену', allMarkets: 'Все рынки',
+    sub: 'Напрямую с завода в Циндао / Тяньцзине, позиции ISO 9001 и по SABS.',
+    h1: 'Крепёж для {c}', seeAll: 'Все {n} позиций',
+  },
+  ja: {
+    home: 'ホーム', markets: '市場',
+    portsLabel: '港と輸送ルート', docsLabel: '書類と通関', linesLabel: 'この市場で売れる品目',
+    faqLabel: 'よくある質問', cta: '見積依頼', allMarkets: 'すべての市場',
+    sub: '青島・天津から工場直送、ISO 9001 とSABS対応品目あり。',
+    h1: '{c}向けファスナー卸', seeAll: '全{n}品目を見る',
+  },
+  de: {
+    home: 'Start', markets: 'Märkte',
+    portsLabel: 'Häfen und Routen', docsLabel: 'Dokumente und Zoll', linesLabel: 'Was sich in diesem Markt verkauft',
+    faqLabel: 'Häufige Fragen', cta: 'Angebot anfordern', allMarkets: 'Alle Märkte',
+    sub: 'Direkt ab Werk in Qingdao / Tianjin, ISO-9001- und SABS-konforme Linien.',
+    h1: 'Verbindungselemente für {c}', seeAll: 'Alle {n} Produktlinien',
+  },
+  hi: {
+    home: 'होम', markets: 'बाज़ार',
+    portsLabel: 'बंदरगाह और मार्ग', docsLabel: 'दस्तावेज़ और क्लीयरेंस', linesLabel: 'इस बाज़ार में क्या बिकता है',
+    faqLabel: 'सामान्य प्रश्न', cta: 'कोटेशन मांगें', allMarkets: 'सभी बाज़ार',
+    sub: 'किंगदाओ / तियानजिन से सीधे फ़ैक्टरी, ISO 9001 और SABS अनुरूप लाइनें।',
+    h1: '{c} के लिए फ़ासनर', seeAll: 'सभी {n} उत्पाद लाइन देखें',
+  },
+}
 
 export default async function MarketPage({ params }: { params: Promise<{ locale: string; market: string }> }) {
   const { locale: lp, market } = await params
   const locale = (lp as Locale) || 'en'
-  const zh = locale === 'zh'
-  const c = zh ? copy.zh : copy.en
+  const c = copy[locale] || copy.en
   const m = getMarket(market)
   if (!m || EXCLUDED.includes(market)) notFound()
 
@@ -96,14 +181,14 @@ export default async function MarketPage({ params }: { params: Promise<{ locale:
       <section className="bg-gradient-to-br from-primary-800 to-primary-900 text-white py-10 md:py-14">
         <div className="container mx-auto px-4 sm:px-6">
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
-            {zh ? `${country}紧固件批发供应` : `Fasteners for ${country}`}
+            {c.h1.replace('{c}', country)}
           </h1>
           <p className="text-primary-100 max-w-3xl leading-relaxed mb-3">{m.hero[locale] || m.hero.en}</p>
           <p className="text-primary-200 text-sm mb-6">{c.sub}</p>
           <div className="flex flex-wrap gap-3">
             <Link href={`/${locale}/contact/`} className="inline-flex items-center rounded-lg bg-white text-primary-800 font-semibold px-5 py-3 hover:bg-primary-50 transition">{c.cta}</Link>
             <Link href={`/${locale}/products/`} className="inline-flex items-center rounded-lg border border-white/40 px-5 py-3 hover:bg-white/10 transition">
-              {zh ? '查看全部 59 个品类' : 'See all 59 product lines'}
+              {c.seeAll.replace('{n}', String(allProducts.length))}
             </Link>
           </div>
         </div>

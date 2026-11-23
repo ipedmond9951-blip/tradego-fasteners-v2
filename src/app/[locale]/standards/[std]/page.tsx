@@ -10,6 +10,33 @@ import { categoryOf } from '@/lib/productCategories'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
+// 标准详情页 SEO 文案：十语种原生模板（不植入英文 note，避免其他语种混入英文）
+const stdTitles: Record<string, string> = {
+  en: '{code} Fasteners — Wholesale Supplier | TradeGo',
+  zh: '{code} 紧固件 — 批发供应 | TradeGo',
+  es: '{code} Fijaciones — Proveedor mayorista | TradeGo',
+  fr: '{code} Visserie — Fournisseur en gros | TradeGo',
+  pt: '{code} Fixadores — Fornecedor atacadista | TradeGo',
+  ar: '{code} مواد تثبيت — مورّد بالجملة | TradeGo',
+  ru: '{code} Крепёж — оптовый поставщик | TradeGo',
+  ja: '{code} ファスナー — 卸売サプライヤー | TradeGo',
+  de: '{code} Verbindungselemente — Großhandel | TradeGo',
+  hi: '{code} फ़ासनर — थोक आपूर्तिकर्ता | TradeGo',
+}
+
+const stdDescs: Record<string, string> = {
+  en: '{code} supplied wholesale — {n} product lines, ISO 9001 factory, FOB Qingdao/Tianjin, sea freight to Beira and Durban.',
+  zh: '{code} 批发供应，{n} 个在售品类，ISO 9001 工厂，FOB 青岛/天津，海运至贝拉、德班。',
+  es: '{code} al por mayor: {n} líneas de producto, fábrica ISO 9001, FOB Qingdao/Tianjin, flete marítimo a Beira y Durban.',
+  fr: '{code} en gros : {n} gammes, usine ISO 9001, FOB Qingdao/Tianjin, fret maritime vers Beira et Durban.',
+  pt: '{code} por atacado: {n} linhas de produto, fábrica ISO 9001, FOB Qingdao/Tianjin, frete marítimo para Beira e Durban.',
+  ar: '{code} بالجملة: {n} خط إنتاج، مصنع ISO 9001، FOB تشينغداو/تيانجين، شحن بحري إلى بيرا وديربان.',
+  ru: '{code} оптом: {n} позиций, завод ISO 9001, FOB Циндао/Тяньцзинь, морская доставка в Бейру и Дурбан.',
+  ja: '{code} 卸売：{n}品目、ISO 9001工場、FOB青島/天津、ベイラ・ダーバン向け海上輸送。',
+  de: '{code} im Großhandel: {n} Produktlinien, ISO-9001-Werk, FOB Qingdao/Tianjin, Seefracht nach Beira und Durban.',
+  hi: '{code} थोक में: {n} उत्पाद लाइन, ISO 9001 फ़ैक्टरी, FOB किंगदाओ/तियानजिंग, बेरा और डरबन के लिए समुद्री माल।',
+}
+
 export function generateStaticParams() {
   return locales.flatMap(locale => standardEntries.map(e => ({ locale, std: e.slug })))
 }
@@ -20,11 +47,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const entry = getStd(std)
   if (!entry) return { title: 'Standard Not Found | TradeGo Fasteners', robots: { index: false } }
 
-  const note = stdNote(entry.code, locale)
-  const title = `${entry.code} ${locale === 'zh' ? '紧固件' : 'Fasteners'} — ${locale === 'zh' ? '批发供应' : 'Wholesale Supplier'} | TradeGo`
-  const description = locale === 'zh'
-    ? `${entry.code}（${note}）批发供应，${entry.products.length} 个在售品类，ISO 9001 工厂，FOB 青岛/天津，海运至贝拉、德班。`
-    : `${entry.code} (${note}) supplied wholesale — ${entry.products.length} product lines, ISO 9001 factory, FOB Qingdao/Tianjin, sea freight to Beira and Durban.`
+  const title = (stdTitles[locale] || stdTitles.en).replace('{code}', entry.code)
+  const description = (stdDescs[locale] || stdDescs.en).replace('{code}', entry.code).replace('{n}', String(entry.products.length))
   const canonical = `${SITE_URL}/${locale}/standards/${std}/`
 
   return {
