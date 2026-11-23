@@ -120,16 +120,23 @@ const nextConfig: NextConfig = {
         ['zimbabwe-construction-fastener-guide', 'zimbabwe-construction-fastener-market'],
         ['africa-construction-infrastructure-fastener-demand', 'africa-fastener-market-opportunities-2026'],
         ['afcfta-landed-cost-guide', 'african-ftz-fastener-import-procedures'],
-      ].flatMap(([from, to]) => [
-        { source: `/${from}/`, destination: `/en/industry/${to}/`, permanent: true },
-        {
-          // 2026-11-23 修复：GSC 里的旧链接都是 /<locale>/industry/<old-slug>/，
-          // 早先生成时漏了 industry/ 段，导致 10 语种版本的 404 一直没被修掉。
-          source: `/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)/industry/${from}/`,
-          destination: `/:locale/industry/${to}/`,
-          permanent: true,
-        },
-      ]),
+      ].flatMap(([from, to]) => {
+        const rules = [
+          { source: `/${from}/`, destination: `/en/industry/${to}/`, permanent: true },
+        ];
+        // 2026-11-23 修复：GSC 里的旧链接都是 /<locale>/industry/<old-slug>/，
+        // 早先生成时漏了 industry/ 段，导致 10 语种版本的 404 一直没被修掉。
+        // 另外 from === to 的旧路径只做「根级 → /en/industry/」搬迁，
+        // 不能再生成语种版规则，否则会 308 重定向到自己形成死循环。
+        if (from !== to) {
+          rules.push({
+            source: `/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)/industry/${from}/`,
+            destination: `/:locale/industry/${to}/`,
+            permanent: true,
+          } as (typeof rules)[number]);
+        }
+        return rules;
+      }),
     ];
   },
   // 静态资源长缓存：优化衍生图与字体内容不变，可 immutable
