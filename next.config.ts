@@ -59,12 +59,7 @@ const nextConfig: NextConfig = {
         destination: '/:locale/industry/nigeria-port-upgrades-and-fastener-import-lead-times/',
         permanent: true,
       },
-      // 2026-11-23: 占位文章（正文含 [X] 与 markdown 标题）合并到真正的出口指南
-      {
-        source: '/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)/industry/emergency-2026-07-06-fastener-sourcing-guide/',
-        destination: '/:locale/industry/fastener-export-china-to-africa-guide/',
-        permanent: true,
-      },
+      // 2026-11-24: 该 slug 已改写为正式《非洲市场紧固件采购指南》，改为 200 服务，与 sitemap 保持一致
       // 2026-11-22: 旧产品 slug 已改名但旧 URL 仍在被访问/索引
       // 旧 URL 返回 200 + "Product Not Found"（软 404），既无内链也伤索引
       // 统一 301 到当前 slug
