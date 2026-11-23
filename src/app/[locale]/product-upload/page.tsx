@@ -153,6 +153,7 @@ export default function ProductUploadPage() {
                   className="w-full border-2 border-dashed border-gray-300 rounded-lg p-4 text-sm hover:border-primary-400 cursor-pointer"
                 />
                 {previewUrl && (
+                  // eslint-disable-next-line @next/next/no-img-element -- blob 预览图无法走 next/image
                   <img src={previewUrl} alt="Preview" className="mt-3 w-32 h-32 object-cover rounded-lg border" />
                 )}
               </div>
