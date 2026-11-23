@@ -1,7 +1,7 @@
 import { type Locale, locales } from '@/i18n'
 import Link from 'next/link'
 import Image from 'next/image'
-import { getAllArticles } from '@/lib/articles'
+import { getAllArticles, isThinArticle } from '@/lib/articles'
 import type { Metadata } from 'next'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { notFound } from 'next/navigation'
@@ -212,8 +212,9 @@ export default async function CategoryPage({
   const cat = SLUG_TO_CATEGORY[catSlug]
   if (!cat) notFound()
 
+  // 2026-11-23: 排除 redirectTo 空壳与 thin 文章，避免分类页把跳转页再链一遍
   const allArticles = getAllArticles()
-    .filter(a => a.category === cat)
+    .filter(a => a.category === cat && !a.redirectTo && !isThinArticle(a))
     .sort((a, b) => {
       const da = a.date || a.updated || ''
       const db = b.date || b.updated || ''
