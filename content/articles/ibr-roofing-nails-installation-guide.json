@@ -5,28 +5,28 @@
   "readTime": 11,
   "image": "/images/products/ibr-nails-1.jpg",
   "title": {
-    "en": "IBR Roofing Nails: Installation and SABS Standards",
-    "zh": "IBR屋面钉完全指南：SABS标准、安装与选型（非洲市场）",
-    "es": "Guía de clavos para techos IBR: instalación y normas SABS",
-    "ar": "دليل مسامير أسقف IBR: معايير SABS وخطوات التركيب والاختيار",
-    "fr": "Clous de toiture IBR : normes SABS et pose",
-    "pt": "Pregos para telhado IBR: normas SABS e instalação",
-    "ru": "Монтаж кровельных гвоздей IBR: стандарты SABS и рекомендации",
-    "ja": "IBR屋根用釘の規格・施工ガイド",
-    "de": "IBR-Dachnägel: Montage, SABS-Normen und Auswahl",
-    "hi": "IBR छत कीलों की स्थापना मार्गदर्शिका: SABS मानक"
+    "en": "IBR Roofing Nails: Sizes, Spacing and Installation",
+    "zh": "IBR屋面钉：规格、间距与安装方法",
+    "es": "Tornillos para techo IBR: medidas e instalación",
+    "ar": "مسامير أسقف IBR: المقاسات وطريقة التركيب",
+    "fr": "Vis de toiture IBR : dimensions et pose",
+    "pt": "Parafusos para telha IBR: medidas e instalação",
+    "ru": "Крепёж для кровли IBR: размеры, шаг и монтаж",
+    "ja": "IBR屋根用ビス：サイズ・間隔・施工方法",
+    "de": "IBR-Dachschrauben: Größen, Abstände und Montage",
+    "hi": "IBR रूफिंग स्क्रू: आकार, दूरी और स्थापना"
   },
   "description": {
-    "en": "Master IBR <a href=\"/products#ibr-nails\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#ibr-nails\".",
-    "zh": "IBR屋面钉选型需核对SABS 1195、钉杆规格、头型、垫圈和防腐处理。了解波形板安装间距与固定方式，为南非屋面项目匹配耐候紧固件。",
-    "es": "Elija e instale clavos para cubiertas IBR según normas SABS. Compare materiales, recubrimientos y especificaciones para compras de techado.",
-    "ar": "تعرّف إلى مواصفات مسامير أسقف IBR ومعايير SABS، وخطوات التركيب الصحيحة ومعايير اختيار المسامير المناسبة لمشروعات التسقيف.",
-    "fr": "Choisissez et posez des pointes pour toiture IBR selon les normes SABS, le support, le revêtement, les dimensions et l’étanchéité requise.",
-    "pt": "Selecione e instale pregos para telhas IBR: compare materiais, revestimentos, dimensões e normas SABS para telhados metálicos.",
-    "ru": "Руководство по монтажу кровельных гвоздей IBR: требования SABS, выбор крепежа, правильная установка и рекомендации для надёжной кровли.",
-    "ja": "IBR屋根用釘のSABS規格、製品選定、施工手順を解説。南部アフリカでの調達時に確認したい仕様や品質の要点も紹介します。",
-    "de": "Leitfaden zu IBR-Dachnägeln mit SABS-Normen, Spezifikationen und Montagehinweisen sowie Kriterien zur Auswahl passender Nägel für Dachprojekte.",
-    "hi": "SABS मानकों के अनुसार IBR छत कीलों की विशिष्टताएँ, स्थापना और उपयोग जानें। अफ्रीकी बाजारों के लिए B2B निर्यात आपूर्तिकर्ता चयन की जानकारी।"
+    "en": "IBR roofing nail guide: nail length by sheet thickness, fixing spacing, purlin alignment, wind uplift and bulk ordering for roof sheets.",
+    "zh": "了解IBR屋面钉的选型：按板材厚度确定长度，掌握固定间距和檩条对位，降低风掀风险，并支持屋面板批量采购。",
+    "es": "Guía de tornillos para techo IBR: elige el largo según el espesor, calcula la separación, alinea las correas y reduce el riesgo de levantamiento por viento",
+    "ar": "دليل مسامير أسقف IBR: اختر الطول حسب سماكة اللوح، واضبط مسافات التثبيت ومحاذاة المدادات، وقلّل خطر رفع الرياح واطلب بالجملة",
+    "fr": "Guide des vis de toiture IBR : longueur selon l’épaisseur, entraxe de fixation, alignement sur pannes, résistance au vent et achats en volume",
+    "pt": "Saiba escolher o comprimento por espessura, o espaçamento de fixação, o alinhamento das terças, a resistência ao vento e a compra em volume",
+    "ru": "Как выбрать длину крепежа по толщине листа, шаг крепления и положение прогонов, учесть ветровую нагрузку и заказать оптом",
+    "ja": "板厚に合うビスの長さ、固定間隔、母屋の位置合わせ、風荷重への対策、屋根材の大量発注まで解説。",
+    "de": "So wählen Sie Schraubenlänge und Befestigungsabstand passend zur Blechdicke, richten Pfetten aus und planen Windsogschutz sowie Großbestellungen",
+    "hi": "IBR रूफिंग स्क्रू गाइड: शीट की मोटाई के अनुसार लंबाई चुनें, फिक्सिंग दूरी व पर्लिन संरेखण समझें, हवा से उखड़ने का जोखिम घटाएँ और थोक ऑर्डर करें।"
   },
   "keywords": "IBR roofing nails, SABS 1195, roofing nails South Africa, IBR sheet installation, corrugated roofing nails",
   "sections": [
@@ -675,15 +675,20 @@
   ],
   "region": "global",
   "metaDescription": {
-    "en": "Master IBR <a href=\"/products#ibr-nails\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\"><a href=\"/products#ibr-nails\".",
-    "zh": "掌握IBR屋面钉选型：SABS 1195合规、钉规、头型、防腐和IBR板安装技术。",
-    "es": "IBR Roofing Nails Complete Guide: SABS Standards, . Guía completa de IBR Roofing Nails Complete Guide: SABS Standards,  - especificaciones, aplicaciones y selección de proveedores para exportación B2B a mercados africanos.",
-    "ar": "IBR Roofing Nails Complete Guide: SABS Standards, . دليل شامل لـIBR Roofing Nails Complete Guide: SABS Standards,  - المواصفات والتطبيقات واختيار الموردين للتصدير B2B إلى الأسواق الأفريقية.",
-    "fr": "IBR Roofing Nails Complete Guide: SABS Standards, . Guide complet de IBR Roofing Nails Complete Guide: SABS Standards,  - spécifications, applications et sélection de fournisseurs pour export B2B vers les marchés africains.",
-    "pt": "IBR Roofing Nails Complete Guide: SABS Standards, . Guia completo de IBR Roofing Nails Complete Guide: SABS Standards,  - especificações, aplicações e seleção de fornecedores para exportação B2B para mercados africanos.",
-    "ru": "IBR Roofing Nails Complete Guide: SABS Standards, . Полное руководство по IBR Roofing Nails Complete Guide: SABS Standards,  - спецификации, применение и выбор поставщиков для экспорта B2B на африканские рынки.",
-    "ja": "IBR Roofing Nails Complete Guide: SABS Standards, 。IBR Roofing Nails Complete Guide: SABS Standards, の完全ガイド - 仕様、用途、アフリカ市場向けB2B輸出のサプライヤー選定。",
-    "de": "IBR Roofing Nails Complete Guide: SABS Standards, . Vollständiger Leitfaden für IBR Roofing Nails Complete Guide: SABS Standards,  - Spezifikationen, Anwendungen und Lieferantenauswahl für B2B-Export in afrikanische Märkte.",
-    "hi": "IBR Roofing Nails Complete Guide: SABS Standards, । IBR Roofing Nails Complete Guide: SABS Standards,  के लिए पूर्ण गाइड - विशिष्टताएँ, अनुप्रयोग और अफ्रीकी बाजारों के लिए B2B निर्यात आपूर्तिकर्ता चयन।"
+    "en": "IBR roofing nail guide: nail length by sheet thickness, fixing spacing, purlin alignment, wind uplift and bulk ordering for roof sheets.",
+    "zh": "了解IBR屋面钉的选型：按板材厚度确定长度，掌握固定间距和檩条对位，降低风掀风险，并支持屋面板批量采购。",
+    "es": "Guía de tornillos para techo IBR: elige el largo según el espesor, calcula la separación, alinea las correas y reduce el riesgo de levantamiento por viento",
+    "ar": "دليل مسامير أسقف IBR: اختر الطول حسب سماكة اللوح، واضبط مسافات التثبيت ومحاذاة المدادات، وقلّل خطر رفع الرياح واطلب بالجملة",
+    "fr": "Guide des vis de toiture IBR : longueur selon l’épaisseur, entraxe de fixation, alignement sur pannes, résistance au vent et achats en volume",
+    "pt": "Saiba escolher o comprimento por espessura, o espaçamento de fixação, o alinhamento das terças, a resistência ao vento e a compra em volume",
+    "ru": "Как выбрать длину крепежа по толщине листа, шаг крепления и положение прогонов, учесть ветровую нагрузку и заказать оптом",
+    "ja": "板厚に合うビスの長さ、固定間隔、母屋の位置合わせ、風荷重への対策、屋根材の大量発注まで解説。",
+    "de": "So wählen Sie Schraubenlänge und Befestigungsabstand passend zur Blechdicke, richten Pfetten aus und planen Windsogschutz sowie Großbestellungen",
+    "hi": "IBR रूफिंग स्क्रू गाइड: शीट की मोटाई के अनुसार लंबाई चुनें, फिक्सिंग दूरी व पर्लिन संरेखण समझें, हवा से उखड़ने का जोखिम घटाएँ और थोक ऑर्डर करें।"
+  },
+  "metaOptimized": {
+    "date": "2026-11-22",
+    "reason": "GSC high impressions low CTR",
+    "keyword": "ibr roofing nails"
   }
 }
