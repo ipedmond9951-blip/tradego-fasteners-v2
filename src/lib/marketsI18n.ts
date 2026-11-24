@@ -154,3 +154,17 @@ export const marketTextOverrides: Record<string, Record<string, MarketTextBlock>
     },
   },
 }
+
+// 津巴布韦在市场总览卡片上的简介（正文页为英语独占落地页，故只需一句）
+export const zimbabweHero: Record<string, string> = {
+  en: 'Harare and Bulawayo buyers usually clear through Beira or Durban, then truck inland. We quote FOB or CIF Beira, with the transit leg planned into the delivery date.',
+  zh: '哈拉雷与布拉瓦约的客户多经贝拉或德班清关后再陆运进境。我们报 FOB 或 CIF 贝拉，并把内陆段时效算进交期。',
+  es: 'Los compradores de Harare y Bulawayo despachan normalmente por Beira o Durban y luego transportan por carretera. Cotizamos FOB o CIF Beira, con el tramo terrestre incluido en el plazo de entrega.',
+  fr: 'Les acheteurs de Harare et Bulawayo dédouanent généralement par Beira ou Durban, puis acheminent par la route. Nous cotons FOB ou CIF Beira, le tronçon terrestre étant intégré au délai de livraison.',
+  pt: 'Os compradores de Harare e Bulawayo desembaraçam habitualmente por Beira ou Durban e seguem por estrada. Cotamos FOB ou CIF Beira, com o troço terrestre incluído no prazo de entrega.',
+  ar: 'عملاء هراري وبولاوايو يخلصون عادة عبر بيرا أو ديربان ثم ينقلون برًا. نقدم عروض FOB أو CIF بيرا مع احتساب مدة النقل الداخلي في موعد التسليم.',
+  ru: 'Покупатели из Хараре и Булавайо обычно оформляют груз через Бейру или Дурбан, затем везут автотранспортом. Мы даём цену FOB или CIF Бейра, включая наземный участок в срок поставки.',
+  ja: 'ハラレとブラワヨの顧客はベイラまたはダーバンで通関し、その後トラックで内陸へ輸送するのが一般的です。FOBまたはCIFベイラで見積もり、内陸区間の日数も納期に含めています。',
+  de: 'Käufer in Harare und Bulawayo verzollen üblicherweise über Beira oder Durban und transportieren dann per Lkw ins Landesinnere. Wir quoten FOB oder CIF Beira und rechnen die Landstrecke in die Lieferzeit ein.',
+  hi: 'हरारे और बुलावायो के खरीदार आमतौर पर बेइरा या डरबन से कस्टम क्लियरेंस कराकर सड़क मार्ग से अंदर लाते हैं। हम FOB या CIF बेइरा कोट करते हैं और अंतर्देशीय चरण को डिलीवरी समय में शामिल करते हैं।',
+}

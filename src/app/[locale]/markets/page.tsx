@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { type Locale, locales } from '@/i18n'
 import { markets } from '@/lib/markets'
+import { marketText } from '@/lib/marketText'
+import { zimbabweHero } from '@/lib/marketsI18n'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
@@ -125,7 +127,7 @@ export default async function MarketsIndexPage({ params }: { params: Promise<{ l
           return (
             <Link key={m.slug} href={href} className="group bg-white border border-gray-200 rounded-xl p-5 hover:border-primary-500 hover:shadow-md transition">
               <h2 className="text-lg font-bold text-primary-900 group-hover:text-primary-700 mb-2">{country}</h2>
-              <p className="text-sm text-gray-600 leading-relaxed line-clamp-3">{m.hero[locale] || m.hero.en}</p>
+              <p className="text-sm text-gray-600 leading-relaxed line-clamp-3">{m.slug === 'zimbabwe' ? (zimbabweHero[locale] || zimbabweHero.en) : (marketText(m.slug, locale)?.hero || m.hero.en)}</p>
               <p className="text-xs text-primary-700 font-medium mt-3">{mc.cta}</p>
             </Link>
           )
