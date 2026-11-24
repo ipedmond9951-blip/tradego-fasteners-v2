@@ -1,0 +1,54 @@
+{
+  "slug": "chemical-anchors-buying-guide",
+  "sections": [
+    {
+      "id": "how-it-works",
+      "heading": { "fr": "Comment fonctionne un ancrage à capsule" },
+      "body": {
+        "fr": "L'ancrage à capsule est un système bicomposant : une capsule de verre ou de plastique contenant résine et durcisseur, et une tige filetée avec écrou et rondelle. La capsule est introduite dans un trou foré propre, la tige est montée sur la perceuse et tourne à travers la capsule, ce qui brise le verre et mélange les deux composants ; la tige est ensuite poussée et laissée au repos pendant que la résine durcit autour d'elle. Le résultat est une liaison sur toute la hauteur de la paroi du trou, non une prise ponctuelle : d'où son intérêt là où un ancrage mécanique n'est pas sûr — béton fissuré, proximité de rive, trous humides ou inondés, zones vibrantes ou conception sismique. La longueur collée répartit la charge, si bien que le diamètre peut être plus petit que celui d'un équivalent mécanique pour la même charge de service."
+      }
+    },
+    {
+      "id": "cure-time",
+      "heading": { "fr": "Le temps de prise est fonction de la température" },
+      "body": {
+        "fr": "La prise n'est pas un chiffre fixe imprimé sur la boîte, c'est une courbe. Vers 20 à 25 °C, la plupart des capsules atteignent l'état portant en 20 à 40 minutes, et la prise complète un peu plus tard. Sous 10 °C la réaction ralentit fortement et l'attente peut s'étirer en heures ; lors d'un après-midi chaud au Zimbabwe ou en Zambie, la même capsule peut gélifier plus vite que l'installateur ne l'attend, d'où la nécessité d'un mélange et d'une insertion rapides et d'une tige non perturbée dès le début de la prise.\n\nDeux règles : ne jamais charger l'ancrage avant le temps de prise indiqué à la température réelle du chantier, et ne pas chercher à accélérer au chalumeau ou à la chaleur, car chauffer la tige ou le béton peut détruire la liaison. Par temps froid, utilisez les données basse température du fabricant, pas une estimation."
+      }
+    },
+    {
+      "id": "hole-prep",
+      "heading": { "fr": "La préparation du trou décide de la moitié du résultat" },
+      "body": {
+        "fr": "La cause la plus fréquente d'échec est un trou sale : la poussière de forage recouvre la paroi et la résine se lie à la poussière plutôt qu'au béton. La séquence correcte : forer au diamètre et à la profondeur spécifiés, brosser avec une brosse métallique, souffler à l'air comprimé propre ou à la pompe manuelle, et répéter brossage et soufflage deux ou trois fois pour les trous au marteau perforateur, qui produisent plus de fines. Le trou doit être sec ou du moins sans eau stagnante, sauf système homologué pour trou humide.\n\nLa profondeur compte : trop faible, la capsule n'est pas confinée ; trop profonde, la tige n'atteint pas le fond et la capsule sort de la zone de collage. Distance à la rive et espacement suivent les valeurs publiées : un ancrage lourd à 50 mm d'une rive libre fendra le béton, quelle que soit la résine."
+      }
+    },
+    {
+      "id": "grade-and-coating",
+      "heading": { "fr": "Nuance de tige, revêtement et documents" },
+      "body": {
+        "fr": "La tige porte la charge : sa nuance et son revêtement se décident indépendamment de la capsule. L'acier carbone zingué classe 5.8 ou 8.8 couvre la plupart des usages intérieurs secs. Pour les sites côtiers, le traitement des eaux, l'agroalimentaire, les chambres froides et tout milieu humide ou chimiquement agressif, spécifiez une tige inox A4 ou 316, car une tige zinguée dans un trou humide se corrode au col et casse bien avant la résine.\n\nLà où l'ingénieur exige une Évaluation Technique Européenne, demandez avant de commander : une ETA couvre une combinaison précise capsule/tige, à diamètres et ancrages définis, et un certificat générique d'un autre système ne se transfère pas. Demander le certificat à l'arrivée du conteneur est la façon la plus coûteuse de découvrir une incompatibilité. Pour les ouvrages sismiques ou critiques, exigez les données de calcul et l'exigence d'installateur agréé, et ne laissez pas l'équipe improviser le mélange."
+      }
+    },
+    {
+      "id": "when-not-to-use",
+      "heading": { "fr": "Quand l'ancrage chimique est un mauvais choix" },
+      "body": {
+        "fr": "L'ancrage est puissant, mais pas universel. Il est inadapté aux dalles minces et aux blocs creux, sans profondeur pour un collage ni capacité de support ; à la maçonnerie non pleine ; et par grand froid sans données de prise à froid du fabricant. Il est aussi un mauvais choix là où le trou ne peut rester propre et sec sur chantier, car le système dépend du contact de surface.\n\nIl est plus lent qu'un ancrage mécanique : prise, nettoyage et maîtrise de l'outil ajoutent des minutes par fixation, si bien que pour des centaines de fixations légères dans un béton sain, un ancrage à insertion ou à coin est plus rapide et moins cher. La logique commerciale est d'utiliser le chimique là où il résout un vrai problème, et le mécanique ailleurs."
+      }
+    },
+    {
+      "id": "packing",
+      "heading": { "fr": "Emballage des capsules de verre pour fret maritime" },
+      "body": {
+        "fr": "Les capsules de verre sont fragiles : une capsule cassée dans un carton répand de la résine sur les tiges et le carton. L'emballage export courant sépare capsules et tiges : capsules dans leur boîte intérieure avec plateau mousse ou moulé, tiges assemblées à part avec écrous et rondelles en sachet. Demandez le nombre de boîtes intérieures et une couche amortissante entre cartons, et spécifiez marquage fragile et flèche d'orientation sur le carton extérieur.\n\nLe fret maritime est généralement acceptable si les cartons sont arrimés loin des charges lourdes et ne servent pas de marche ; l'aérien est courant pour les premières commandes et les échantillons. Fournissez au transitaire la FDS et la classification transport avant réservation, car certains systèmes de résine relèvent d'une classe qui change l'acheminement et le coût. Confirmez la durée de vie et la plage de température de stockage, et vérifiez le code date à l'arrivée."
+      }
+    },
+    {
+      "id": "quote-checklist",
+      "heading": { "fr": "Six données pour chiffrer un ancrage chimique" },
+      "body": {
+        "fr": "Envoyez le diamètre et la longueur de tige, l'ancrage, le matériau et l'état du support (sain, fissuré, humide, distance de rive), l'environnement (intérieur, côtier, chimique), l'exigence éventuelle d'ETA ou de rapport d'essai, et la quantité. Ajoutez les accessoires : écrou, rondelle, et besoin éventuel d'un outil de pose ou d'une buse de mélange.\n\nSi la conception est déjà figée, envoyez la fiche de spécification et nous chiffrons dessus plutôt que de substituer. TradeGo fournit des ancrages chimiques à capsule de M8 à M24, tiges de 110 à 300 mm, carbone zingué et inox A4, en kits avec tige, écrou et rondelle, emballés capsules séparées des tiges pour le fret maritime."
+      }
+    }
+  ]
+}

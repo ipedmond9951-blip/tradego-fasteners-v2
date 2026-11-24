@@ -1,0 +1,54 @@
+{
+  "slug": "chemical-anchors-buying-guide",
+  "sections": [
+    {
+      "id": "how-it-works",
+      "heading": { "es": "Cómo funciona un anclaje de cápsula" },
+      "body": {
+        "es": "El anclaje de cápsula es un sistema de dos componentes: una cápsula de vidrio o plástico con resina y endurecedor, y una varilla roscada con tuerca y arandela. La cápsula se introduce en un taladro limpio, la varilla se acopla al taladro y gira atravesándola, rompiendo el vidrio y mezclando ambos componentes; después se empuja y se deja sin tocar mientras la resina cura alrededor. El resultado es un vínculo a lo largo de toda la pared del agujero, no un agarre puntual, y por eso conviene donde un anclaje mecánico no es seguro: hormigón fissurado, cerca de bordes, agujeros húmedos o inundados y zonas con vibración o diseño sísmico. La longitud adherida reparte la carga, así que el diámetro puede resultar menor que el de un mecánico equivalente para la misma carga de trabajo."
+      }
+    },
+    {
+      "id": "cure-time",
+      "heading": { "es": "El tiempo de curado depende de la temperatura" },
+      "body": {
+        "es": "El curado no es un número fijo de la caja, es una curva. A 20–25 °C la mayoría de los sistemas alcanzan condición portante en unos 20 a 40 minutos, y el curado completo algo después. Por debajo de 10 °C la reacción se frena y la espera puede alargarse a horas; en una tarde calurosa de Zimbabue o Zambia la misma cápsula puede gelificar antes de lo que el instalador espera, por eso mezcla e inserción deben ser rápidas y la varilla no debe moverse una vez iniciado el fraguado.\n\nDos reglas prácticas: nunca cargue el anclaje antes de que transcurra el tiempo indicado a la temperatura real de obra, y no intente acelerar el curado con calor, porque calentar la varilla o el hormigón puede destruir el vínculo. En clima frío use los datos de baja temperatura del fabricante, no una suposición."
+      }
+    },
+    {
+      "id": "hole-prep",
+      "heading": { "es": "La preparación del taladro decide la mitad del resultado" },
+      "body": {
+        "es": "La causa más común de fallo es un agujero sucio: el polvo recubre la pared y la resina se adhiere al polvo en vez de al hormigón. La secuencia correcta es taladrar al diámetro y profundidad especificados, cepillar con cepillo de acero, soplar con aire comprimido limpio o bomba manual, y repetir cepillo y soplado dos o tres veces en perforaciones con martillo, que generan más finos. El agujero debe estar seco o al menos sin agua estancada, salvo sistemas homologados para agujero húmedo.\n\nLa profundidad importa: demasiado poco y la cápsula no queda confinada; demasiado y la varilla no llega al fondo y la cápsula queda fuera de la zona de unión. Distancia al borde y separación siguen los valores publicados por el fabricante; un anclaje pesado a 50 mm de un borde libre partirá el hormigón por buena que sea la resina."
+      }
+    },
+    {
+      "id": "grade-and-coating",
+      "heading": { "es": "Grado de varilla, recubrimiento y documentación" },
+      "body": {
+        "es": "La varilla lleva la carga, así que su grado y recubrimiento son decisiones distintas de la cápsula. Acero al carbono zincado clase 5.8 u 8.8 cubre la mayoría de aplicaciones interiores y secas. Para sitios costeros, plantas de agua, alimentación, cámaras frigoríficas y todo ambiente húmedo o químicamente agresivo, especifique varilla inoxidable A4 o 316, porque una varilla zincada en agujero húmedo se corroe en el cuello y falla mucho antes que la resina.\n\nDonde el ingeniero exige una Evaluación Técnica Europea, pregunte antes de pedir: una ETA cubre una combinación concreta de cápsula y varilla, con diámetros y empotramientos específicos, y un certificado genérico de otro sistema no se transfiere. Pedir el certificado cuando el contenedor llega es la forma más cara de descubrir una incompatibilidad. Para trabajos sísmicos o críticos de seguridad, exija los datos de diseño y el requisito de instalador homologado, y no deje que la cuadrilla improvise la mezcla."
+      }
+    },
+    {
+      "id": "when-not-to-use",
+      "heading": { "es": "Cuándo un anclaje químico es mala elección" },
+      "body": {
+        "es": "El anclaje es resistente, pero no universal. Es mala elección en losas delgadas y bloque hueco, donde no hay profundidad para un vínculo ni capacidad en la base; en mampostería no maciza; y en clima muy frío sin datos de curado en frío del fabricante. También lo es donde el agujero no puede mantenerse limpio y seco en obra, porque el sistema depende del contacto superficial.\n\nEs más lento que un anclaje mecánico: curado, limpieza y control de herramienta añaden minutos por fijación, así que para cientos de fijaciones ligeras en hormigón sano un anclaje de inserción o de cuña es más rápido y barato. La lógica comercial es usar químico donde resuelve un problema real y mecánico donde no lo hace."
+      }
+    },
+    {
+      "id": "packing",
+      "heading": { "es": "Embalaje de cápsulas de vidrio para flete marítimo" },
+      "body": {
+        "es": "Las cápsulas de vidrio son frágiles y una cápsula rota en la caja derrama resina sobre varillas y cartón. El pack de exportación normal separa cápsulas y varillas: cápsulas en caja interior propia con bandeja de espuma o moldeada, varillas agrupadas aparte con tuercas y arandelas en bolsa. Pida el número de cajas interiores y una capa amortiguadora entre cartones, y especifique marca de frágil y flecha de orientación en el cartón exterior.\n\nEl flete marítimo suele ser aceptable si los cartones se estiban lejos de carga pesada y no se usan como escalón; el aéreo es común para primeros pedidos y muestras. Facilite al transitario la SDS y la clasificación de transporte antes de reservar, porque algunos sistemas de resina llevan clase que cambia ruta y coste. Confirme vida útil y rango de temperatura de almacenamiento, y verifique el código de fecha a la llegada."
+      }
+    },
+    {
+      "id": "quote-checklist",
+      "heading": { "es": "Seis datos para cotizar un anclaje químico" },
+      "body": {
+        "es": "Envíe diámetro y longitud de varilla, empotramiento, material y estado de la base (sano, fissurado, húmedo, distancia al borde), ambiente (interior, costero, químico), si se exige ETA o informe de ensayo, y la cantidad. Añada el requisito de accesorios: tuerca, arandela, y si se necesita herramienta de colocación o boquilla de mezcla.\n\nSi el diseño ya está fijado, mande la hoja de especificación y cotizaremos contra ella en lugar de sustituir. TradeGo suministra anclajes químicos de cápsula de M8 a M24, varilla de 110 a 300 mm, carbono zincado e inoxidable A4, en kits con varilla, tuerca y arandela, embalados con cápsulas separadas de las varillas para flete marítimo."
+      }
+    }
+  ]
+}
