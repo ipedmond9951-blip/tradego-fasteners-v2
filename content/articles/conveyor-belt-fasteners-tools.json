@@ -141,7 +141,8 @@
         "ru": "Выбор правильного соединителя для типа ленты",
         "ja": "ベルトタイプに適したファスナーの選定",
         "de": "Auswahl der passenden Befestigung für den Gurttyp",
-        "hi": "बेल्ट प्रकार के लिए सही फास्टनर का चयन"
+        "hi": "बेल्ट प्रकार के लिए सही फास्टनर का चयन",
+        "zh": "按皮带类型选配合适紧固件"
       },
       "body": {
         "en": "Belt construction determines which <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a> type is suitable: Textile ply belts (fabric carcass) — use hinged or staple <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a> sized to belt thickness and ply count; general purpose mining. Steel cord belts — require specialized steel cord splices (connected with steel splice bars); higher strength but more complex installation. Solid woven belts — use hinged or heavy-duty plate <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a>; designed for heavy mining applications. PVC/PVG conveyor belts — use light-duty hinged <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a> with smooth (non-penetrating) clamp bars; the solid woven construction allows <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a> penetration without delamination. For African mining, steel cord and textile ply belts are most common; always verify <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a> compatibility with belt type before ordering. The comparison methodology above uses typical ranges from industry data and TradeGo procurement experience 2018-2024. Actual market prices fluctuate with raw material costs (steel, zinc, nickel), energy costs, labor costs, and currency exchange rates. For accurate comparison, request identical RFQs from 3-5 qualified suppliers and compare landed cost (product + shipping + insurance + duties). The lowest unit price is rarely the lowest total cost of ownership. The comparison methodology above uses typical ranges from industry data and TradeGo procurement experience 2018-2024. Actual market prices fluctuate with raw material costs (steel, zinc, nickel), energy costs, labor costs, and currency exchange rates. For accurate comparison, request identical RFQs from 3-5 qualified suppliers and compare landed cost (product + shipping + insurance + duties). The lowest unit price is rarely the lowest total cost of ownership.",
@@ -194,7 +195,8 @@
         "ru": "Лучшие практики монтажа",
         "ja": "設置のベストプラクティス",
         "de": "Beste Installationspraktiken",
-        "hi": "इंस्टॉलेशन सर्वोत्तम अभ्यास"
+        "hi": "इंस्टॉलेशन सर्वोत्तम अभ्यास",
+        "zh": "安装操作规范与要点"
       },
       "body": {
         "en": "Proper installation is critical for splice longevity: Cut belt square — a diagonal cut reduces splice strength by up to 50%; use a guide rail and sharp belt cutter. Match <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a> size to belt thickness — too small and <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a> pull out; too large and they don't close properly. Stagger the <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a> — alternate the splice steps (top then bottom) to prevent joint stepping. Apply correct tension — over-tightening <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a> can deform the splice; under-tightening allows movement and premature failure. For hinged <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a>, verify the hinge pin is fully inserted and secured. After installation, run the belt at reduced speed and load for the first 24 hours to allow the splice to seat. Supplier evaluation should be a continuous process, not a one-time exercise. Re-evaluate suppliers annually based on delivery performance, quality metrics, price competitiveness, and responsiveness. Maintain a supplier scorecard with weighted metrics: on-time delivery (25%), quality acceptance rate (30%), price competitiveness (20%), responsiveness (15%), and documentation accuracy (10%). Drop suppliers scoring below 70% over a 6-month period and qualify replacements. Supplier evaluation should be a continuous process, not a one-time exercise. Re-evaluate suppliers annually based on delivery performance, quality metrics, price competitiveness, and responsiveness. Maintain a supplier scorecard with weighted metrics: on-time delivery (25%), quality acceptance rate (30%), price competitiveness (20%), responsiveness (15%), and documentation accuracy (10%). Drop suppliers scoring below 70% over a 6-month period and qualify replacements.",
@@ -220,7 +222,8 @@
         "ru": "Часто задаваемые вопросы",
         "ja": "よくある質問",
         "de": "Häufig gestellte Fragen",
-        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+        "hi": "अक्सर पूछे जाने वाले प्रश्न",
+        "zh": "常见问题解答"
       },
       "faqItems": [
         {
