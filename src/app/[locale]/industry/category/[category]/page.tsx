@@ -6,7 +6,7 @@ import type { Metadata } from 'next'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { optImagePath } from '@/lib/optImages'
 import { notFound } from 'next/navigation'
-import { categoryPageCopy, pick } from '@/lib/uiCopy'
+import { categoryPageCopy, navLabels, pick } from '@/lib/uiCopy'
 import { categorySlug } from '@/lib/categoryLabels'
 
 // 23 unique categories in 224 articles (2026-07-16 scan)
@@ -304,7 +304,13 @@ export default async function CategoryPage({
       </section>
 
       {/* Breadcrumb Schema for SEO */}
-      <BreadcrumbSchema locale={locale} pageName={catLabel} pageUrl={`/industry/category/${catSlug}`} />
+      <BreadcrumbSchema
+        locale={locale}
+        pageName={catLabel}
+        parentName={pick(navLabels.industry, locale)}
+        parentUrl="/industry"
+        pageUrl={`/industry/category/${catSlug}`}
+      />
     </div>
   )
 }

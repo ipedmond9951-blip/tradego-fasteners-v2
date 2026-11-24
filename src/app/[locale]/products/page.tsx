@@ -4,6 +4,7 @@ import MaterialsSection from '@/components/MaterialsSection'
 import ProductSearchSection from '@/components/ProductSearchSection'
 import ProductSchema from '@/components/ProductSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
+import { navLabels, pick } from '@/lib/uiCopy'
 import ProductsContentSection from '@/components/ProductsContentSection'
 import StatisticsSection from '@/components/StatisticsSection'
 
@@ -96,7 +97,7 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
       <ProductSchema products={allProducts} locale={locale} />
 
       {/* Breadcrumb Schema for SEO */}
-      <BreadcrumbSchema locale={locale} pageName="Products" pageUrl="/products" />
+      <BreadcrumbSchema locale={locale} pageName={pick(navLabels.products, locale)} pageUrl="/products" />
 
     </div>
   )

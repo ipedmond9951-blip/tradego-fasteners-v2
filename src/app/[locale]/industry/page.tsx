@@ -7,6 +7,7 @@ import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { optImagePath } from '@/lib/optImages'
 import { industryListCopy, allCategoriesLabel, pick } from '@/lib/uiCopy'
 import { categoryLabel, categorySlug } from '@/lib/categoryLabels'
+import { navLabels } from '@/lib/uiCopy'
 
 const titles: Record<string, string> = {
   en: 'Fastener Guides: Import, Grades and Sourcing',
@@ -203,7 +204,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
         }}
       />
 
-      <BreadcrumbSchema locale={locale} pageName="Industry" pageUrl="/industry" />
+      <BreadcrumbSchema locale={locale} pageName={pick(navLabels.industry, locale)} pageUrl="/industry" />
     </div>
   )
 }
