@@ -1,0 +1,40 @@
+{
+  "slug": "africa-railway-sleeper-fastener-specification",
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": { "de": "Schwellenbefestigung im Gleis: warum die Spezifikation die ganze Arbeit bestimmt" },
+      "body": {
+        "de": "Eine Schienenbefestigung ist eine Kette kleiner Entscheidungen, die alle miteinander übereinstimmen müssen: die Schwellenart, das Lagerungspad, die Klemme oder das Befestigungselement, die Bohrung oder der Einbauinsatz sowie das Drehmoment, mit dem alles verbunden wird. Liegt ein Element falsch, hält das Gleis noch eine Weile, bis es nicht mehr hält — und dann ist der Ausfall teuer zu finden und teuer zu reparieren.<p>Dieser Leitfaden behandelt die Punkte, die eine Spezifikation eindeutig festlegen muss, und zwar in der Reihenfolge, in der ein Projektingenieur sie üblicherweise prüft.</p>"
+      }
+    },
+    {
+      "id": "system-types",
+      "heading": { "de": "Für welches Schwellensystem spezifizieren Sie eigentlich?" },
+      "body": {
+        "de": "Betonschwellen, Holzschwellen und Stahlschwellen folgen jeweils einer anderen Befestigungslogik. Betonschwellen verwenden meist eingelassene Schultern oder Einsätze mit elastischen Schienenklemmen; Holzschwellen setzen auf Schraubennägel, Einschlagnägel oder Grundplatten; Stahlschwellen nutzen Klemmen oder Schrauben durch den Schwellenquerschnitt.<p>Die Spezifikation muss das System benennen, nicht nur das Befestigungselement, denn eine Klemme, die auf eine Schulter abgestimmt ist, sitzt auf einer anderen nicht richtig. Das Mischen von Bauteilen aus verschiedenen Systemen ist die häufigste Ursache für Gleislageprobleme im Neubaubereich.</p>"
+      }
+    },
+    {
+      "id": "materials",
+      "heading": { "de": "Werkstoff und Beschichtung: die Korrosionsentscheidung" },
+      "body": {
+        "de": "Schienenbefestigungen liegen jahrzehntelang im Freien und werden regelmäßig nass, sodass in den meisten Klimazonen die Beschichtungswahl wichtiger ist als die Grundstahlgüte. Feuerverzinkung reicht für den allgemeinen Einsatz; bei schwerer Belastung oder Küstenstrecken werden an der Kontaktstelle von Klemme und Isolator oft dickere Beschichtungen oder Edelstahlbauteile benötigt.<p>Achten Sie auf die Kontaktstellen. Beschichtungsschäden an der Klemme-Schulter-Stelle und am Pad-Sitz sind die Orte, an denen die Korrosion beginnt. Legen Sie deshalb Handhabungs- und Montagepraxis als Teil der Beschichtungsanforderung fest, nicht davon getrennt.</p>"
+      }
+    },
+    {
+      "id": "installation",
+      "heading": { "de": "Drehmoment, Spalt und die Prüfungen, die nicht ausgelassen werden dürfen" },
+      "body": {
+        "de": "Elastische Befestigungen werden nicht allein über das Drehmoment, sondern über den Klemmdruck spezifiziert; beide Größen stehen über die Klemmgeometrie und das Pad in Beziehung. Deshalb kommt es auf die Baupraxis vor Ort an: eine Klemme, die mit dem vorgegebenen Drehmoment eingebaut ist, aber auf einem beschädigten Pad aufliegt, zeigt am Schlüssel richtig, am Gleis falsch an.<p>Die unverzichtbaren Prüfungen sind der eingebaute Spalt, die Stichprobe des Klemmdrucks sowie der Sichtzustand von Pad und Isolator. Halten Sie diese bei der Montage fest, denn ein Befestigungsproblem, das während einer Gleissperrung gefunden wird, kostet einen Bruchteil eines Problems, das nach Verkehrsaufnahme entdeckt wird.</p>"
+      }
+    },
+    {
+      "id": "procurement",
+      "heading": { "de": "Beschaffungshinweise für Eisenbahnprojekte in Afrika" },
+      "body": {
+        "de": "Eisenbahnprojekte in Afrika werden üblicherweise finanziert und daher nach einem benannten Standard geprüft — oft eine nationale Bahn-Spezifikation, ein auf UIC aufbauendes Dokument oder ein Geberstandard. Klären Sie vor der Angebotsabgabe, welches Dokument maßgeblich ist, denn die Zustimmung zu einer gleichwertigen Alternative ist langsam und wird manchmal abgelehnt.<p>Auch die Logistik bestimmt die Bestellung. Schwellen und Befestigungen sind schwer und sperrig, daher muss die Versandplanung der Montagereihenfolge folgen, nicht dem Werkskomfort: liefern Sie die Befestigungen in der Reihenfolge, in der das Gleis verlegt wird, und halten Sie Ersatzklemmen und Isolatoren im gleichen Verhältnis zur eingebauten Menge vor. Ein Mangel auf einer Bahnbaustelle stoppt die gesamte Sperrung, nicht nur eine einzelne Tätigkeit.</p>"
+      }
+    }
+  ]
+}
