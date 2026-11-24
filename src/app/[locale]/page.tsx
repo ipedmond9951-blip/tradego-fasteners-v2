@@ -10,11 +10,13 @@ import FAQSection from '@/components/FAQSection'
 import TestimonialsSection from '@/components/TestimonialsSection'
 import InquiryForm from '@/components/InquiryForm'
 import { GeoPromotion } from '@/components/GeoContent'
+import HomeLocalizedGuides from '@/components/HomeLocalizedGuides'
 import ShareButtons from '@/components/ShareButtons'
 import VideoSection from '@/components/VideoSection'
 import StatisticsSection from '@/components/StatisticsSection'
 import SourcesSection from '@/components/SourcesSection'
 import { pick, shareCopy } from '@/lib/uiCopy'
+import { getFaq } from '@/lib/faqI18n'
 
 // 首页：canonical 必须按语种自指，否则 9 个非英语首页被 /en 吸收
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -72,18 +74,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
-            mainEntity: [
-              { '@type': 'Question', name: 'What types of fasteners do you manufacture?', acceptedAnswer: { '@type': 'Answer', text: 'We manufacture drywall screws, self-drilling screws (TEK), hex bolts and nuts, IBR nails, anchor bolts, washers, coach screws, and threaded rods. 20+ years specializing in Africa construction market. ISO 9001:2015 certified facility. SABS 1195 compliant products available.' } },
-              { '@type': 'Question', name: 'What material should I choose for my fastener application?', acceptedAnswer: { '@type': 'Answer', text: 'Carbon Steel for indoor/general use. Stainless Steel 304/316 for outdoor, marine, coastal environments. 316 recommended for chloride-rich areas.' } },
-              { '@type': 'Question', name: 'What surface finish should I choose?', acceptedAnswer: { '@type': 'Answer', text: 'Zinc Plated for basic indoor corrosion resistance. Hot-Dip Galvanized (HDG) for outdoor/marine/structural applications with 45-85 micron coating. Dacromet for demanding industrial environments.' } },
-              { '@type': 'Question', name: 'What is the difference between zinc plated and hot-dip galvanized fasteners?', acceptedAnswer: { '@type': 'Answer', text: 'Zinc Plating: thin electroplated coating (5-15 microns), basic protection. Hot-Dip Galvanizing: thick immersion coating (45-85 microns), 5-7x more protection, ideal for outdoor and coastal areas.' } },
-              { '@type': 'Question', name: 'What is your minimum order quantity (MOQ)?', acceptedAnswer: { '@type': 'Answer', text: 'Standard MOQ is 1 metric ton per product item. Trial orders available from 500kg for new customers. Free samples provided (buyer pays shipping).' } },
-              { '@type': 'Question', name: 'What are your payment terms and shipping options?', acceptedAnswer: { '@type': 'Answer', text: 'Payment: T/T, L/C, PayPal for samples. Terms: 30% deposit, 70% balance before shipment. Shipping: FOB, CIF, DDP available. Sea freight for bulk orders (15-30 days transit).' } },
-              { '@type': 'Question', name: 'Do your products meet SABS standards for South Africa?', acceptedAnswer: { '@type': 'Answer', text: 'Yes, IBR nails comply with SABS 1195 requirements. Products also meet DIN, ANSI, ISO standards. Mill certificates and SABS-compliant test reports available upon request.' } },
-              { '@type': 'Question', name: 'What payment methods do you accept for African customers?', acceptedAnswer: { '@type': 'Answer', text: 'T/T, L/C, Alipay, WeChat Pay accepted. Bulk order discounts up to 15% for African market customers.' } },
-              { '@type': 'Question', name: 'How long does sea freight shipping take to African ports?', acceptedAnswer: { '@type': 'Answer', text: 'Durban (South Africa): 25-30 days, Beira (Mozambique/Zimbabwe): 20-25 days, Maputo (Mozambique): 20-25 days, Lagos (Nigeria): 30-35 days, Mombasa (Kenya): 28-32 days, Dar es Salaam (Tanzania): 28-33 days, Tema (Ghana): 30-35 days. We deliver to Harare, Bulawayo, Lusaka, and other major cities.' } },
-              { '@type': 'Question', name: 'What certifications and standards do your products meet?', acceptedAnswer: { '@type': 'Answer', text: 'ISO 9001:2015 certified. Products comply with DIN, ANSI/ASME, JIS, GB standards. CE certification available for EU. Mill certificates and SGS/BV inspection certificates available.' } },
-            ],
+            mainEntity: getFaq(locale).map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
           }),
         }}
       />
@@ -124,6 +115,9 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
       <AboutSection locale={locale} />
       <WhyChooseUs locale={locale} />
 
+      {/* 英文技术深内容仅英文站保留；非英语站改为展示本语种的同主题文章卡片（零英文泄漏） */}
+      {locale === 'en' ? (
+        <>
       {/* Application Scenarios - content depth for SEO */}
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6">
@@ -300,7 +294,10 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
           </div>
         </div>
       </section>
-
+        </>
+      ) : (
+        <HomeLocalizedGuides locale={locale} />
+      )}
       {/* Statistics Section - trust numbers */}
       <StatisticsSection locale={locale} />
 
