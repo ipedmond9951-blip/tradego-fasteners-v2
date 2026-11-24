@@ -55,10 +55,8 @@ export default function LocalBusinessSchema({}: LocalBusinessSchemaProps) {
     ],
     paymentAccepted: 'Cash, Credit Card, Bank Transfer, L/C',
     currenciesAccepted: 'USD, CNY, EUR',
-    sameAs: [
-      'https://www.facebook.com/tradegofasteners',
-      'https://twitter.com/tradegofasteners',
-    ],
+    parentOrganization: { '@id': 'https://www.tradego-fasteners.com/#organization' },
+    // sameAs 待账号验证后加回（见 OrganizationSchema 注释）
     contactPoint: [
       {
         '@type': 'ContactPoint',

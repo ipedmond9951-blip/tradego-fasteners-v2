@@ -42,15 +42,11 @@ export default function WebSiteSchema({ locale }: WebSiteSchemaProps) {
       'query-input': 'required name=search_term_string',
       description: pick(siteSchemaCopy.searchDesc, locale),
     },
-    sameAs: [
-      'https://www.facebook.com/tradegofasteners',
-      'https://www.linkedin.com/company/tradegofasteners',
-      'https://twitter.com/tradegofasteners',
-    ],
+    // sameAs 待账号验证后加回（见 OrganizationSchema 注释）
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer service',
-      email: 'info@tradego-fasteners.com',
+      email: 'sales@tradego-fasteners.com',
       availableLanguage: ['English', 'Chinese'],
     },
 
