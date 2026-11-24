@@ -217,6 +217,7 @@ export const OPT_BASES = new Set<string>([
   "rwanda-construction-fastener-standards",
   "screws-different-materials-guide",
   "self-drilling-screws-1",
+  "self-drilling-screws-market-demand-and-procurement-guide",
   "self-drilling-screws-selection-guide",
   "self-drilling-tek-screws-price-list",
   "self-tapping-screws-1",
