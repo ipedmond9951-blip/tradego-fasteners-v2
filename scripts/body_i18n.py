@@ -94,26 +94,28 @@ def is_english_heavy(text, lang):
 def cmd_merge(slug):
     a = load(slug)
     p = os.path.join(I18N, slug + '.json')
-    if not os.path.exists(p):
+    parts = sorted(glob.glob(os.path.join(I18N, slug + '*.json')))
+    if not parts:
         sys.exit('译文草稿不存在: ' + p)
-    draft = json.load(open(p, encoding='utf-8'))
-    by_id = {s.get('id'): s for s in a.get('sections', [])}
     touched = 0
-    for ds in draft.get('sections', []):
-        target = by_id.get(ds.get('id'))
-        if not target:
-            print('  跳过未知段落:', ds.get('id'))
-            continue
-        for field in ('heading', 'body'):
-            for lang, text in (ds.get(field) or {}).items():
-                if lang in ('en', 'zh'):
-                    continue
-                if not str(text).strip():
-                    continue
-                target.setdefault(field, {})[lang] = text
-                touched += 1
+    for part in parts:
+        draft = json.load(open(part, encoding='utf-8'))
+        by_id = {s.get('id'): s for s in a.get('sections', [])}
+        for ds in draft.get('sections', []):
+            target = by_id.get(ds.get('id'))
+            if not target:
+                print('  跳过未知段落:', ds.get('id'))
+                continue
+            for field in ('heading', 'body'):
+                for lang, text in (ds.get(field) or {}).items():
+                    if lang in ('en', 'zh'):
+                        continue
+                    if not str(text).strip():
+                        continue
+                    target.setdefault(field, {})[lang] = text
+                    touched += 1
     json.dump(a, open(os.path.join(ART, slug + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
-    print('已合并 %d 个字段 -> %s' % (touched, slug))
+    print('已合并 %d 个字段 -> %s（来源 %d 个草稿）' % (touched, slug, len(parts)))
 
 
 
