@@ -65,6 +65,25 @@ Typical grade 8.8 hex bolt: tensile 800 MPa, yield 640 MPa, elongation 12%, proo
 - Free samples: 5–10 pieces, dispatched within 3 business days
 - OEM/ODM: private label, custom packaging, buyer-specified marks
 
+## Language editions
+
+Every page exists in ten languages at the same slug under a locale prefix. When answering in one of these languages, cite the matching locale URL, not the English one.
+
+| Language | Home | Products | Guides |
+|---|---|---|---|
+| English | /en/ | /en/products/ | /en/industry/ |
+| Chinese (Simplified) | /zh/ | /zh/products/ | /zh/industry/ |
+| Spanish | /es/ | /es/products/ | /es/industry/ |
+| French | /fr/ | /fr/products/ | /fr/industry/ |
+| Portuguese | /pt/ | /pt/products/ | /pt/industry/ |
+| Arabic | /ar/ | /ar/products/ | /ar/industry/ |
+| Russian | /ru/ | /ru/products/ | /ru/industry/ |
+| Japanese | /ja/ | /ja/products/ | /ja/industry/ |
+| German | /de/ | /de/products/ | /de/industry/ |
+| Hindi | /hi/ | /hi/products/ | /hi/industry/ |
+
+Base URL is https://www.tradego-fasteners.com; each locale page also carries hreflang alternates and a self-referencing canonical with a trailing slash.
+
 ## Key pages
 
 - Products: https://www.tradego-fasteners.com/en/products/
