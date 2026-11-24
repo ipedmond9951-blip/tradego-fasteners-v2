@@ -170,9 +170,21 @@ export default async function MarketPage({ params }: { params: Promise<{ locale:
     mainEntity: faqs.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
   }
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    inLanguage: locale === 'zh' ? 'zh-CN' : locale,
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: c.home, item: `https://www.tradego-fasteners.com/${locale}/` },
+      { '@type': 'ListItem', position: 2, name: c.markets, item: `https://www.tradego-fasteners.com/${locale}/markets/` },
+      { '@type': 'ListItem', position: 3, name: country, item: `https://www.tradego-fasteners.com/${locale}/markets/${m.slug}/` },
+    ],
+  }
+
   return (
     <div className="min-h-screen bg-gray-50">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <nav aria-label="Breadcrumb" className="bg-white border-b border-gray-100">
         <div className="container mx-auto px-4 sm:px-6 py-3 text-sm text-gray-500 flex flex-wrap items-center gap-1">

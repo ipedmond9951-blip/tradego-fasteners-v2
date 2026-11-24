@@ -7,6 +7,7 @@ import { allProducts } from '@/lib/products'
 import { productNames, pick } from '@/lib/productI18n'
 import { standardEntries, getStd, stdNote } from '@/lib/standards'
 import { categoryOf } from '@/lib/productCategories'
+import { navLabels as navL10 } from '@/lib/uiCopy'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
@@ -309,13 +310,27 @@ export default async function StandardPage({ params }: { params: Promise<{ local
     })),
   }
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    inLanguage: locale === 'zh' ? 'zh-CN' : locale,
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: pick(navL10.home, locale), item: `https://www.tradego-fasteners.com/${locale}/` },
+      { '@type': 'ListItem', position: 2, name: c.standards, item: `https://www.tradego-fasteners.com/${locale}/standards/` },
+      { '@type': 'ListItem', position: 3, name: entry.code, item: `https://www.tradego-fasteners.com/${locale}/standards/${entry.slug}/` },
+    ],
+  }
+
   return (
     <div className="min-h-screen bg-gray-50">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <nav aria-label="Breadcrumb" className="bg-white border-b border-gray-100">
         <div className="container mx-auto px-4 sm:px-6 py-3 text-sm text-gray-500 flex flex-wrap items-center gap-1">
           <Link href={`/${locale}/`} className="hover:text-primary-700">{c.home}</Link>
+          <span>/</span>
+          <Link href={`/${locale}/standards/`} className="hover:text-primary-700">{c.standards}</Link>
           <span>/</span>
           <span className="text-gray-800 font-medium">{entry.code}</span>
         </div>
