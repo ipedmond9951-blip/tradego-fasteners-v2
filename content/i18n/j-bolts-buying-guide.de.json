@@ -1,0 +1,68 @@
+{
+  "slug": "j-bolts-buying-guide",
+  "sections": [
+    {
+      "id": "what-is-a-j-bolt",
+      "heading": {
+        "de": "Welche Aufgabe ein J-Bolzen übernimmt, die andere Bolzen nicht können"
+      },
+      "body": {
+        "de": "Ein J-Bolzen ist ein gebogener Ankerbolzen: Das eine Ende ist gewindet, das andere zu einem Haken gebogen und wird in Beton einbetoniert. Der Haken verhindert das Herausziehen des Bolzens; das Gewinde nimmt die Mutter auf, die Pfahl, Mast, Rahmen oder Maschinenfuß einspannt. Da der Anker über die Betonauflage auf den Bogen hält und nicht über Reibung, braucht er keine Hülse, keinen Spreizkeil und kein vorgegebenes Anzugsmoment und verträgt die normale Schwingung einer Zaunlinie oder eines Pfostenfundaments. Damit ist er die Standardbefestigung für Zaunpfähle, Torpfähle, Lichtmaste, Antennenmasten, Anschlüsse von Fertigteilen, Vordachstützen und Maschinenfundamente. Er ersetzt keinen U-Bolzen: Ein U-Bolzen klemmt um ein Rohr oder einen Mast, während ein J-Bolzen im Boden liegt und die Last über sein Gewinde trägt. Er ersetzt auch keinen Durchsteckbolzen, bei dem die Grundplatte fest gegen eine Vergussmasse gezogen werden muss; das erfordert ein längeres Gewinde und oft eine Unterlegscheibenplatte."
+      }
+    },
+    {
+      "id": "length-rule",
+      "heading": {
+        "de": "Länge festlegen: Einbindetiefe plus Befestigung"
+      },
+      "body": {
+        "de": "Die Gesamtlänge ergibt sich aus der Einbindetiefe im Beton, der Dicke des auf dem Fundament aufliegenden Teils, Mutter und Unterlegscheibe sowie zwei oder drei Gewindegängen Reserve. Die Einbindetiefe ist die Größe, die die Auslegung bestimmt; sie richtet sich nach der Last und dem Beton, nicht nach der Gewohnheit des Herstellers. Für Zaun- und Torpfosten in Beton C20 liegt die übliche Arbeitseinbindetiefe bei 150–250 mm; für Lichtmaste und Masten bei 300 mm und mehr; für schwere Maschinenfundamente und Vordachstützen muss sie der Tragwerksplaner angeben. Eine praktische Faustregel für einen Einzelbolzen auf Zug lautet: Die Einbindetiefe sollte in gutem Beton mindestens dem Zehnfachen des Stabdurchmessers entsprechen, in rissigem oder Massenbeton mehr. Der Hakenradius beträgt üblicherweise das Drei- bis Vierfache des Stabdurchmessers; bis etwa M20 wird kalt gebogen, größere Abmessungen heiß, um Risse im Bogen zu vermeiden."
+      }
+    },
+    {
+      "id": "thread-and-nut",
+      "heading": {
+        "de": "Gewindelänge, Mutter und Unterlegscheibe"
+      },
+      "body": {
+        "de": "Der gewindete Teil muss für die Mutter, eine Unterlegscheibe und den Verstellweg lang genug sein, den die Baustelle tatsächlich braucht. Zwei bis drei Gewindegänge Reserve über der Mutter sind das Minimum; ruht die Grundplatte auf Unterlegkeilen, die nach dem Verguss entfernt werden, sind 10–15 mm Verstellweg vorzusehen. Für M8 bis M24 ist metrisches Regelgewinde üblich; ist im Projekt eine Gewindeklasse festgelegt, ist diese anzugeben, und es ist zu klären, ob Mutter und Scheibe vormontiert oder lose geliefert werden, denn ein Container mit Bolzen ohne Muttern legt die Baustelle still. Bei verzinkten Bolzen muss auch die Mutter verzinkt sein: Eine blanke Mutter auf einem verzinkten Bolzen sieht nicht nur falsch aus, sondern rostet zuerst. Geht der Bolzen durch einen Holzbalken, ist eine Stahl-Scheibenplatte zur Lastverteilung vorzusehen; geht er durch eine Stahl-Grundplatte, ist der Lochdurchmesser mit dem Bolzen und dem Scheibenaußendurchmesser abzugleichen, damit die Scheibe nicht auf der Lochkante aufliegt."
+      }
+    },
+    {
+      "id": "steel-and-coating",
+      "heading": {
+        "de": "Stahlgüte und Beschichtung: Abwägungen"
+      },
+      "body": {
+        "de": "Q235 ist die übliche Güte für allgemeine Anker von Zäunen, Masten und Vordächern; Q345 oder eine Stange der Güte 8.8 wird dort eingesetzt, wo der Anker konstruktive Zuglast trägt. Bei Ankern nach ASTM F1554 legt die Gütebezeichnung (36, 55 oder 105) die Streckgrenze fest, und der Käufer sollte das Werkszeugnis anfordern, nicht nur die Kennzeichnung. Bei der Beschichtung überspezifizieren oder unterspezifizieren Käufer am häufigsten. Der einbetonierte Haken braucht in den meisten Fällen überhaupt keine Beschichtung, aber das freie Gewinde und der Teil über dem Beton brauchen Schutz: Feuerverzinkung ist Standard im Außen- und Küsteneinsatz, Zinkplattierung für trockenes Binnenland, nichtrostender Stahl oder eine schwere Duplex-Beschichtung für stark exponierte Küsten- und Industriestandorte. Ein häufiger Fehler ist, den ganzen Bolzen einschließlich des Einbindeteils zu verzinken; das ist unbedenklich, kostet aber unnötig. Ein anderer Fehler ist, einen M20-Bolzen zu verzinken, ohne den Gewindefreiraum zu berücksichtigen: Die Feuerverzinkung trägt Dicke auf, und eine Mutter, die auf den blanken Bolzen passte, läuft unter Umständen nicht frei auf dem verzinkten, wenn das Gewinde nicht auf Übermaß nachgeschnitten wurde."
+      }
+    },
+    {
+      "id": "bending-and-tolerance",
+      "heading": {
+        "de": "Biegequalität und Toleranzen"
+      },
+      "body": {
+        "de": "Ein J-Bolzen ist ein gefertigtes Teil, daher liegt die Qualität im Bogen und im Gewinde, nicht allein im Stahl. Kaltes Biegen großer Durchmesser erzeugt gestreckte Außenfasern und Rissgefahr; ein Hersteller, der M24 ohne Glühung kalt biegt, tauscht Haltbarkeit gegen Geschwindigkeit. Fragen Sie, wie der Bogen hergestellt wird und ob der Haken in einem Arbeitsgang mit kontrolliertem Radius geformt wird. Für die Baustelle wesentliche Maßtoleranzen sind die Geradheit des Schafts, der Achsabstand zweier als Paar für einen Pfahl vorgesehener Bolzen, die Gewindelänge und die Gesamtlänge. Zu lockere Toleranzen beim Paarabstand bedeuten, dass der Pfahl nicht in die Löcher der Grundplatte passt. Prüfen Sie ein Muster auf ebener Fläche: Ein verbogener Schaft zeigt sich als Spalt unter der Mitte, ein Haken mit ungleichmäßigem Radius als asymmetrische Öffnung. Verpacken Sie die Bolzen größenweise in Bündeln mit abwechselnden Haken, damit das Bündel flach im Karton liegt."
+      }
+    },
+    {
+      "id": "packing-shipping",
+      "heading": {
+        "de": "Verpackung, Beladung und Dokumente"
+      },
+      "body": {
+        "de": "J-Bolzen sind lang, schwer und unhandlich, daher bestimmt die Verpackung die Frachtkosten stärker als der Stahlpreis. Die übliche Exportpackung sind Bündel von 20 bis 50 Stück, draht- oder bandgebunden, mit abwechselnden Haken, mit Papier- oder Polyfolienwicklung gegen Feuchte; lange Bolzen werden oft in Holzkisten verpackt, damit das Gewinde im Transit nicht beschädigt wird. Fragen Sie das Bündelgewicht und die Bündelzahl pro Palette oder Kiste ab und planen Sie dann die Ladung: Ein 20-Fuß-Container mit M12 x 300 mm Bolzen erreicht zuerst das Gewichtslimit, bevor er voll ist, während M8 x 150 mm zuerst den Volumenlimit erreicht. Schützen Sie das Gewinde mit einer Plastikklappe oder Umwicklung, denn ein beschädigtes Gewinde lässt die Mutter nicht laufen, und auf der Baustelle wird es abgeschliffen. Die Dokumente sind Rechnung, Packliste, Konnossement und Ursprungszeugnis, plus Werkszeugnis, wenn das Projekt eine Güte vorschreibt. Ist der Anker für eine konstruktive Verbindung, führen Sie die Schmelznummer am Bündeletikett, damit das Zeugnis auf die gelieferten Stücke zurückverfolgt werden kann."
+      }
+    },
+    {
+      "id": "quote-checklist",
+      "heading": {
+        "de": "Sechs Angaben für ein präzises Angebot"
+      },
+      "body": {
+        "de": "Geben Sie dem Lieferanten Durchmesser und Gesamtlänge, Gewindelänge, den Hakenradius, falls er konstruktiv festgelegt ist, die Stahlgüte, die Beschichtung und die Menge pro Größe an. Ergänzen Sie die Anwendung, denn ein Zaunpfahl-Anker und ein Mastfuß-Anker haben auch bei gleichem Durchmesser unterschiedliche Erwartungen an die Einbindetiefe. Zeichnungen sind vorhanden: schicken Sie sie; wenn nicht, erspart eine einfache Skizze mit den vier maßgebenden Abmessungen eine Email-Runde. Fragen Sie bei einem neuen Projekt ein Vorserienmuster von drei Stück an und prüfen Sie vor Containerversand von Hand, ob die Mutter das ganze Gewinde durchläuft. TradeGo liefert J-Bolzen von M8 bis M24, Länge 100–600 mm, Q235 und Q345, feuerverzinkt oder galvanisch verzinkt, mit Muttern und Unterlegscheiben, gebündelt und in Kisten für Seefracht."
+      }
+    }
+  ]
+}
