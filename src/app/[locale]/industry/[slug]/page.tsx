@@ -8,7 +8,7 @@ import type { ArticleSection } from '@/lib/articles'
 import ShareButtons from '@/components/ShareButtons'
 import { clampDescription } from '@/lib/seo'
 import { optImagePath } from '@/lib/optImages'
-import { backToArticles, pick, articleCta } from '@/lib/uiCopy'
+import { backToArticles, pick, articleCta, navLabels } from '@/lib/uiCopy'
 import { productNames } from '@/lib/productI18n'
 import { categoryLabel } from '@/lib/categoryLabels'
 
@@ -228,6 +228,18 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
     },
   }
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    inLanguage: locale === 'zh' ? 'zh-CN' : locale,
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: pick(navLabels.home, locale), item: `https://www.tradego-fasteners.com/${locale}/` },
+      { '@type': 'ListItem', position: 2, name: pick(navLabels.industry, locale), item: `https://www.tradego-fasteners.com/${locale}/industry/` },
+      { '@type': 'ListItem', position: 3, name: categoryLabel(article.category, locale), item: `https://www.tradego-fasteners.com/${locale}/industry/category/${article.category}/` },
+      { '@type': 'ListItem', position: 4, name: title, item: `https://www.tradego-fasteners.com/${locale}/industry/${slug}/` },
+    ],
+  }
+
   return (
     <div className="min-h-screen bg-white">
       {/* Hero */}
@@ -353,6 +365,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       )}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
     </div>
   )
 }
