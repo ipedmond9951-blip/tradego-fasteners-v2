@@ -1,0 +1,68 @@
+{
+  "slug": "sleeve-anchors-buying-guide",
+  "sections": [
+    {
+      "id": "how-sleeve-anchors-expand",
+      "heading": {
+        "fr": "Comment une cheville à manchon se dilate et se maintient"
+      },
+      "body": {
+        "fr": "Une cheville à manchon associe un goujon ou boulon fileté, un écrou, une rondelle et un manchon d’expansion. Après mise en place de la cheville à travers un élément puis serrage, le cône de l’extrémité du goujon tire dans le manchon. Le manchon s’ouvre contre la paroi du forage, créant frottement et verrouillage mécanique. Contrairement à une cheville à coin, qui dispose généralement d’une pièce d’expansion séparée concentrée près de la pointe, la cheville à manchon répartit le contact sur un manchon plus long et convient bien aux fixations traversantes de supports, rails et équipements légers. La cheville ne tient pas par l’engagement du filetage seul ; le béton, la maçonnerie et le manchon doivent travailler ensemble. Le couple de serrage compte : un couple trop faible peut laisser une expansion insuffisante, tandis qu’un couple excessif peut dénuder le filetage, écraser la maçonnerie tendre ou endommager le manchon. Utilisez une clé dynamométrique calibrée lorsque la conception ou les données fournisseur spécifient un couple. M8, M10 et M12 sont des dimensions courantes du négoce, mais le diamètre extérieur, la longueur du manchon, la nuance du goujon et la taille de la rondelle doivent être vérifiés comme un assemblage complet. Les principes de fonctionnement courants relèvent d’approches de conception telles que EN 1992-4 ou ACI 318 ; la méthode de conception applicable doit être confirmée pour le projet. Posez toujours dans un matériau sain et tenez l’ancrage à l’écart des fissures, des bords et des armatures, sauf disposition contraire du projet."
+      }
+    },
+    {
+      "id": "diameter-length-embedment",
+      "heading": {
+        "fr": "Dimensionnement : diamètre, longueur et scellement"
+      },
+      "body": {
+        "fr": "Choisissez le diamètre d’après les capacités requises en cisaillement, traction et trou de fixation, puis choisissez la longueur d’après l’épaisseur de l’élément plus la rondelle, l’écrou et le scellement requis. Par exemple, une cheville à manchon M10 se pose couramment dans un trou nominal de 10 mm, mais le diamètre de perçage exact doit suivre le plan produit ; certains modèles exigent un trou légèrement plus grand ou plus petit. Une vérification pratique de la longueur : longueur de cheville ≥ épaisseur de l’élément + tolérance rondelle et écrou + scellement effectif. Ne comptez pas la poussière libre, une pointe endommagée ou un jeu non fileté comme scellement. Le scellement est la partie de la cheville transférant l’effort au support, et la valeur déclarée par le fabricant peut différer de la longueur totale du manchon. Les longueurs commerciales courantes peuvent aller d’environ 50 à 150 mm, mais il s’agit d’une fourchette sectorielle, non d’une offre produit garantie. Pour un support de 6 mm, une cheville M10 × 80 mm ne peut être envisagée que si le produit retenu fournit le scellement effectif requis après passage dans le support et la rondelle ; elle doit encore être contrôlée vis-à-vis du support et de la charge. Gardez une distance suffisante des bords libres et des chevilles voisines pour éviter la fendaison ou la rupture de coin. Augmenter le diamètre ne résout pas automatiquement un trou peu profond ou un matériau support faible. Avant commande, spécifiez diamètre nominal, longueur totale, longueur de filetage, longueur de manchon, diamètre de trou, scellement minimal et dimensions de rondelle. Demandez un plan coté pour chaque combinaison non standard."
+      }
+    },
+    {
+      "id": "concrete-brick-block-performance",
+      "heading": {
+        "fr": "Performance : béton, brique et parpaing"
+      },
+      "body": {
+        "fr": "Le choix du support détermine la performance de la cheville à manchon plus que l’étiquette de la cheville elle-même. Le béton sain et dense donne généralement la résistance au dilatement la plus prévisible, surtout lorsque le trou est éloigné des bords et des fissures. La capacité réelle dépend encore de la résistance du béton, de l’entraxe des ancrages, du scellement, de la qualité de pose et de la direction de l’effort. La brique pleine en argile et le parpaing plein peuvent recevoir des chevilles à manchon, mais leur résistance et leur géométrie de coquille varient largement, et une valeur issue du béton ne doit pas être transposée directement. La brique creuse et le bloc creux sont plus sensibles : le manchon peut se dilater dans une coquille mince ou une cavité interne, donnant une résistance plus faible et moins prévisible. Pour la maçonnerie creuse, utilisez un système d’ancrage spécifiquement agréé ou conçu pour ce support, et confirmez l’adéquation de la cheville à manchon avant de percer. Le béton cellulaire léger, les joints de mortier faibles et les surfaces dégradées exigent un examen séparé ; ne placez pas la cheville dans un joint de mortier sauf disposition expresse du projet. Un essai d’arrachement sur site peut aider à vérifier une hypothèse d’étude, mais un petit échantillon ne remplace pas la conception d’ingénierie. Pour les projets d’Afrique australe, les spécifications constructives locales et la méthode d’étude requise par l’ingénieur doivent prévaloir ; les produits peuvent être évalués au regard d’approches cibles comme EN 1992-4, ACI 318 ou les dispositions de maçonnerie applicables, sans que cela implique une certification. Demandez à l’acheteur d’indiquer sur la demande le type de support, la résistance en compression si connue, la distance de bord et la direction de l’effort."
+      }
+    },
+    {
+      "id": "stainless-zinc-finish",
+      "heading": {
+        "fr": "Inox 304/316 versus zingué"
+      },
+      "body": {
+        "fr": "Choisissez la finition selon l’environnement d’exposition, et non d’après l’apparence seule. Les chevilles à manchon en acier carbone zingué sont souvent économiques pour les travaux intérieurs secs et la construction abritée. Leur couche protectrice est sacrificielle et peut être endommagée par la poussière de perçage, l’impact ou les filets coupés ; ils ne conviennent pas automatiquement à l’humidité persistante, à l’air côtier ou à l’exposition chimique. Les chevilles à manchon en acier inoxydable offrent une meilleure résistance à la corrosion, mais le choix de la nuance compte. Le type 304 est une option généraliste courante pour les pièces intérieures humides et de nombreuses applications extérieures. Le type 316 contient du molybdène et est généralement préféré là où l’exposition aux chlorures est plus forte, comme en sites côtiers, au brouillard salin ou dans certains environnements industriels. Aucune nuance ne doit être considérée comme immunisée contre la corrosion, et la contamination par des outils en acier carbone peut laisser une rouille superficielle. Si l’assemblage emploie une cheville inox avec un élément d’un autre métal, examinez la compatibilité galvanique et isolez les métaux dissemblables si nécessaire. Pour l’achat, spécifiez la nuance du goujon, de l’écrou, de la rondelle et du manchon, car une cheville décrite seulement comme « inoxydable » peut n’avoir aucun composant dans la même nuance. Les exigences mécaniques et chimiques peuvent être indiquées avec ISO 3506 ou ASTM F593/F594 comme références cibles, tandis que les exigences de revêtement zinc peuvent renvoyer à ASTM B633 le cas échéant. Pour le fret transitant par Beira ou Durban, l’air marin et l’humidité de stockage peuvent justifier le 316 ou un emballage protecteur, mais le bon choix dépend de l’exposition du site, et pas seulement du port. Demandez les déclarations matière et revêtement plutôt que de présumer une certification."
+      }
+    },
+    {
+      "id": "drilling-cleaning-setting",
+      "heading": {
+        "fr": "Séquence de perçage, nettoyage et pose"
+      },
+      "body": {
+        "fr": "Une pose fiable commence par le bon foret et une séquence contrôlée. Marquez le centre, vérifiez les armatures et réseaux encastrés, et confirmez le diamètre de trou et la profondeur minimale spécifiés. Utilisez un foret carbure affûté adapté au matériau support ; un foret usé peut élargir le trou et réduire la dilatation. Perforez perpendiculairement à la surface, en gardant l’outil stable. Perforez plus profond que le scellement requis de la valeur de tolérance indiquée par le produit pour que la poussière ait de la place sous la cheville, sans affaiblir la face opposée d’un élément mince. Après perçage, évacuez la poussière par la méthode de nettoyage prescrite : généralement brosser sur toute la profondeur, souffler ou aspirer le trou, et répéter jusqu’à élimination des particules libres. Ne supposez pas que le soufflage seul convient à chaque conception. Placez l’élément sur le trou, insérez la cheville à manchon jusqu’au scellement requis et mettez la rondelle en place. Tapotez doucement seulement si la notice produit l’autorise ; ne frappez pas l’extrémité filetée ni n’endommagez l’écrou. Serrez l’écrou progressivement au couple indiqué, en gardant l’élément plat et en empêchant la rotation. Pour une pose M10 typique, un trou de 10 mm peut être utilisé, mais le plan produit contrôle la dimension finale. Enregistrez le lot, le diamètre de trou, le scellement et le couple pour les contrôles qualité. Si la cheville tourne, atteint le refus prématurément ou le trou est surdimensionné, arrêtez-vous et remplacez-la ou déplacez-la selon la procédure de l’ingénieur."
+      }
+    },
+    {
+      "id": "load-guidance-safety-factors",
+      "heading": {
+        "fr": "Guide de charges et coefficients de sécurité"
+      },
+      "body": {
+        "fr": "Ne sélectionnez pas une cheville à manchon d’après le seul diamètre, et ne traitez pas une charge catalogue comme une charge de travail universelle. Vérifiez traction, cisaillement, charge composée, rupture béton ou maçonnerie, rupture acier, arrachement, rupture de coin et effets de groupe. Le mode de rupture le plus faible prévaut. Une pratique courante du secteur pour un examen préliminaire non étudié par ingénierie consiste à appliquer un coefficient de sécurité d’environ 3 à 4 à une valeur ultime ou d’épreuve adaptée, mais il s’agit seulement d’une hypothèse de départ ; l’ingénieur projet et le code applicable doivent fixer la résistance de conception finale et les coefficients partiels. Ne transformez pas un coefficient préliminaire en charge certifiée. Les charges doivent être réduites lorsque les ancrages sont proches des bords, très serrés, posés dans un matériau fissuré ou faible, ou exposés aux vibrations. Les équipements dynamiques, garde-corps, éléments en hauteur et composants de sécurité vie requièrent une conception qualifiée et, le cas échéant, un essai spécifique au projet. Pour une cheville M10, le diamètre nominal de l’acier ne révèle pas la capacité réelle : longueur de manchon, scellement effectif, nuance d’acier, résistance du béton et couple de pose peuvent tous changer le résultat. Utilisez des méthodes de conception cibles comme EN 1992-4 ou ACI 318 uniquement lorsque leur domaine correspond au support et au système d’ancrage. Demandez une valeur caractéristique ou admissible essaiée seulement lorsque le fournisseur peut documenter la base d’essai, l’état de l’échantillon et la méthode de pose. Si les données sont indisponibles, indiquez que le produit sert à une sélection préliminaire et exigez une vérification sur site avant achat ou pose."
+      }
+    },
+    {
+      "id": "ordering-moq-export-packing",
+      "heading": {
+        "fr": "Commande, MOQ et emballage export"
+      },
+      "body": {
+        "fr": "Une demande d’achat claire évite qu’une mauvaise cheville n’arrive sur chantier. Indiquez le support, le diamètre de cheville, la longueur totale, le scellement effectif, le diamètre de trou, le filetage, la nuance matière, la finition, le style de rondelle et d’écrou, la quantité requise et l’application. Joignez plans ou échantillons de référence lorsque la géométrie du manchon, du cône ou de la tête n’est pas standard. Le MOQ doit être convenu pour la spécification, la finition et le mode d’emballage exacts ; ne supposez pas qu’une dimension courante M10 a le même MOQ qu’un inox 316 ou qu’une longueur sur mesure. Demandez un devis commercial indiquant la base unitaire, la quantité par carton, le poids net et brut, les dimensions de carton, l’estimation de délai et l’Incoterm. Ce sont des engagements commerciaux à confirmer, et non des déclarations de stock ou de capacité. Pour l’emballage export, utilisez des sacs ou boîtes intérieurs empêchant le mélange des diamètres, protégeant les filets et séparant les nuances inox des pièces en acier carbone. Les cartons ondulés doivent être dimensionnés pour le levage et le palettage, tandis que les cartons lourds peuvent nécessiter des angles renforcés ou du cerclage. Marquez chaque colis par taille, matière, finition, quantité, référence de lot ou série et informations de pays d’origine lorsque la destination l’exige. Pour les envois vers le Zimbabwe, la Zambie, l’Afrique du Sud ou le Mozambique, confirmez avant production l’itinéraire final de livraison, la manutention portuaire, la protection contre l’humidité et les exigences documentaires ; Beira et Durban ont des modalités de transit et d’arrière-pays différentes. TradeGo peut chiffrer des chevilles à manchon selon la spécification finale de l’acheteur et fournir une proposition d’emballage, tandis que l’acheteur approuve plans, étiquettes et détails de chargement avant confirmation de commande."
+      }
+    }
+  ]
+}

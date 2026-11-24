@@ -1,0 +1,68 @@
+{
+  "slug": "sleeve-anchors-buying-guide",
+  "sections": [
+    {
+      "id": "how-sleeve-anchors-expand",
+      "heading": {
+        "es": "Cómo se expande y sujeta un anclaje de vaina"
+      },
+      "body": {
+        "es": "Un anclaje de vaina combina un espárrago o perno roscado, tuerca, arandela y una vaina de expansión. Tras colocar el anclaje a través de un elemento y apretarlo, el cono del extremo del espárrago tira hacia dentro de la vaina. La vaina se abre contra la pared del taladro, generando fricción e interbloqueo mecánico. A diferencia de un anclaje de cuña, que normalmente lleva una pieza de expansión separada concentrada cerca de la punta, el anclaje de vaina distribuye el contacto sobre una vaina más larga y resulta práctico para fijaciones atravesadas de soportes, raíles y equipos ligeros. El anclaje no se sostiene solo por el engranaje de la rosca; el hormigón, la mampostería y la vaina deben actuar conjuntamente. El par de apriete es importante: un par insuficiente puede dejar una expansión insuficiente, mientras que un par excesivo puede arrancar la rosca, aplastar la mampostería blanda o dañar la vaina. Utilice una llave dinamométrica calibrada cuando el diseño o los datos del proveedor especifiquen par. M8, M10 y M12 son medidas comerciales habituales, pero el diámetro exterior, la longitud de la vaina, la clase del espárrago y el tamaño de la arandela deben revisarse como un conjunto completo. Los principios de funcionamiento típicos se recogen en métodos de diseño como EN 1992-4 o ACI 318; el método de diseño aplicable debe confirmarse para el proyecto. Instale siempre únicamente en material en buen estado y mantenga el anclaje alejado de fisuras, bordes y armaduras, a menos que el diseño lo permita."
+      }
+    },
+    {
+      "id": "diameter-length-embedment",
+      "heading": {
+        "es": "Dimensionado: diámetro, longitud y embebimiento"
+      },
+      "body": {
+        "es": "Seleccione el diámetro a partir de la capacidad necesaria de cortante, tracción y del orificio del elemento, y después elija la longitud a partir del grosor del elemento más la arandela, la tuerca y el embebimiento requerido. Por ejemplo, un anclaje de vaina M10 se instala habitualmente en un orificio nominal de 10 mm, pero el diámetro exacto de broca debe seguir el plano del producto; algunos diseños requieren un orificio ligeramente mayor o menor. Una comprobación práctica de longitud es: longitud del anclaje ≥ grosor del elemento + tolerancia de arandela y tuerca + embebimiento efectivo. No cuente polvo suelto, una punta dañada o un hueco de libre de rosca como embebimiento. El embebimiento es la parte del anclaje que transfiere la fuerza al sustrato, y el valor declarado por el fabricante puede diferir de la longitud total de la vaina. Las longitudes comerciales típicas pueden oscilar entre unos 50 y 150 mm, pero se trata de un rango del sector, no de una oferta de producto garantizada. Para un soporte de 6 mm, un anclaje M10 × 80 mm solo podría considerarse si el producto seleccionado proporciona el embebimiento efectivo requerido tras pasar por el soporte y la arandela; aún debe contrastarse con el sustrato y la carga. Mantenga distancia suficiente respecto a bordes libres y anclajes vecinos para evitar fisuración o rotura por bloqueo. Aumentar el diámetro no resuelve automáticamente un orificio poco profundo o un material base débil. Antes de pedir, especifique diámetro nominal, longitud total, longitud de rosca, longitud de vaina, diámetro de orificio, embebimiento mínimo y dimensiones de la arandela. Solicite un plano dimensional para cada combinación no estándar."
+      }
+    },
+    {
+      "id": "concrete-brick-block-performance",
+      "heading": {
+        "es": "Comportamiento: hormigón frente a ladrillo y bloque"
+      },
+      "body": {
+        "es": "La elección del sustrato controla el rendimiento del anclaje de vaina más que la propia etiqueta del anclaje. El hormigón sano y denso suele ofrecer la resistencia a la expansión más predecible, especialmente cuando el orificio está alejado de bordes y fisuras. La capacidad real depende aún de la resistencia del hormigón, la separación entre anclajes, el embebimiento, la calidad de instalación y la dirección de la carga. El ladrillo macizo de arcilla y el bloque macizo de hormigón pueden aceptar anclajes de vaina, pero su resistencia y geometría de cascarón varían mucho, por lo que un valor tomado del hormigón no debe transferirse directamente. El ladrillo hueco y el bloque hueco son más sensibles: la vaina puede expandirse hacia una faja delgada o un hueco interno, produciendo una resistencia menor y menos predecible. Para mampostería hueca, utilice un sistema de anclaje específicamente aprobado o diseñado para esa base, y confirme si el anclaje de vaina es adecuado antes de perforar. El hormigón celular ligero, las juntas de mortero débiles y las superficies deterioradas requieren evaluación separada; no coloque el anclaje en una junta de mortero a menos que el diseño lo permita expresamente. Un ensayo de extracción en obra puede ayudar a verificar una hipótesis de proyecto, pero una muestra pequeña no sustituye el diseño de ingeniería. Para proyectos del África austral, deben regir las especificaciones constructivas locales y el método de diseño exigido por el ingeniero; los productos pueden evaluarse frente a enfoques objetivo como EN 1992-4, ACI 318 o disposiciones de mampostería relevantes, sin que ello implique certificación. Pida al comprador que indique en la consulta el tipo de sustrato, la resistencia a compresión si se conoce, la distancia al borde y la dirección de la carga."
+      }
+    },
+    {
+      "id": "stainless-zinc-finish",
+      "heading": {
+        "es": "Inoxidable 304/316 frente a zincado"
+      },
+      "body": {
+        "es": "Elija el acabado según el entorno de exposición, no solo por la apariencia. Los anclajes de vaina de acero al carbono zincado suelen ser económicos para trabajo interior seco y construcción protegida. Su capa protectora es sacrificial y puede dañarse por polvo de taladro, impacto o roscas cortadas; no son adecuados automáticamente para humedad persistente, aire costero o exposición química. Los anclajes de vaina de acero inoxidable ofrecen mejor resistencia a la corrosión, pero la elección de la clase importa. El tipo 304 es una opción generalista común para zonas interiores húmedas y muchas aplicaciones exteriores. El tipo 316 contiene molibdeno y suele preferirse cuando la exposición a cloruros es mayor, como en emplazamientos costeros, niebla salina o algunos entornos industriales. Ninguna clase debe tratarse como inmune a la corrosión, y la contaminación por herramientas de acero al carbono puede dejar óxido superficial. Si el conjunto utiliza una ancla inoxidable con un elemento de otro metal, considere la compatibilidad galvánica y aísle metales distintos cuando sea necesario. Para la compra, especifique la clase del espárrago, la tuerca, la arandela y la vaina, porque un ancla descrita solo como “inoxidable” puede no llevar todos los componentes en la misma clase. Los requisitos mecánicos y químicos pueden indicarse con ISO 3506 o ASTM F593/F594 como referencias objetivo, mientras que los requisitos de recubrimiento de zinc pueden remitirse a ASTM B633 cuando proceda. Para carga con ruta por Beira o Durban, el aire marino y la humedad de almacenamiento pueden justificar el 316 o un embalaje protector, pero la elección correcta depende de la exposición del sitio, no solo del puerto. Solicite declaraciones de material y recubrimiento en lugar de asumir una certificación."
+      }
+    },
+    {
+      "id": "drilling-cleaning-setting",
+      "heading": {
+        "es": "Secuencia de perforación, limpieza y colocación"
+      },
+      "body": {
+        "es": "Una instalación fiable empieza con la broca adecuada y una secuencia controlada. Marque el centro, detecte armaduras y servicios ocultos, y confirme el diámetro de orificio y la profundidad mínima especificados. Utilice una broca de carburo afilada adecuada al material base; una broca desgastada puede agrandar el orificio y reducir la expansión. Perfore perpendicularmente a la superficie, manteniendo la herramienta estable. Perfore más profundidad que el embebimiento requerido según la tolerancia declarada del producto para que el polvo tenga espacio bajo el anclaje, pero no debilite la cara opuesta de un elemento fino. Tras perforar, retire el polvo con el método de limpieza especificado: habitualmente cepillar toda la profundidad, soplar o aspirar el orificio, y repetir hasta eliminar las partículas sueltas. No dé por supuesto que el soplado solo vale para cada diseño. Coloque el elemento sobre el orificio, introduzca el anclaje de vaina hasta el embebimiento requerido y asiente la arandela. Golpee suavemente solo si las instrucciones del producto lo permiten; no golpee el extremo roscado ni dañe la tuerca. Apriete la tuerca gradualmente hasta el par indicado, manteniendo el elemento plano y evitando la rotación. En una instalación típica M10 puede usarse un orificio de 10 mm, pero el plano del producto controla la dimensión final. Registre lote, tamaño de orificio, embebimiento y par para los controles de calidad. Si el anclaje gira, alcanza el rechazo de forma prematura o el orificio está sobredimensionado, deténgase y sustitúyalo o reubíquelo según el procedimiento del ingeniero."
+      }
+    },
+    {
+      "id": "load-guidance-safety-factors",
+      "heading": {
+        "es": "Guía de cargas y factores de seguridad"
+      },
+      "body": {
+        "es": "No seleccione un anclaje de vaina solo por el diámetro ni trate una carga de catálogo como una carga de trabajo universal. Controle tracción, cortante, carga combinada, rotura por hormigón o mampostería, rotura de acero, extracción, rotura por borde y efectos de grupo. El modo de rotura más débil gobierna. Una práctica típica del sector para cribado preliminar no diseñado por ingeniería consiste en aplicar un factor de seguridad de unos 3 a 4 a un valor último o de prueba adecuado, pero esto es solo una hipótesis de partida; el ingeniero del proyecto y el código aplicable deben fijar la resistencia de diseño final y los parciales. No convierta un factor preliminar en una carga certificada. Las cargas deben reducirse cuando los anclajes estén cerca de bordes, muy próximos entre sí, instalados en material agrietado o débil, o expuestos a vibración. Equipos dinámicos, barandillas, elementos elevados y componentes de seguridad vital requieren un diseño cualificado y, cuando proceda, ensayo específico del proyecto. Para un anclaje M10, el diámetro nominal del acero no revela la capacidad real: la longitud de la vaina, el embebimiento efectivo, la clase de acero, la resistencia del hormigón y el par de instalación pueden cambiar todos el resultado. Utilice métodos de diseño objetivo como EN 1992-4 o ACI 318 solo cuando su ámbito coincida con el sustrato y el sistema de anclaje. Solicite un valor característico o admisible ensayado solo cuando el proveedor pueda documentar la base de ensayo, la condición de muestra y el método de instalación. Si no hay datos disponibles, indique que el producto es para selección preliminar y exija verificación en sitio antes de la compra o instalación."
+      }
+    },
+    {
+      "id": "ordering-moq-export-packing",
+      "heading": {
+        "es": "Pedido, MOQ y embalaje de exportación"
+      },
+      "body": {
+        "es": "Una consulta de compra clara evita que llegue al sitio el anclaje equivocado. Indique el sustrato, diámetro del anclaje, longitud total, embebimiento efectivo, diámetro de orificio, forma de rosca, clase de material, acabado, estilo de arandela y tuerca, cantidad requerida y aplicación. Añada planos o muestras de referencia cuando la geometría de la vaina, el cono o la cabeza no sea estándar. El MOQ debe acordarse para la especificación, acabado y método de embalaje exactos; no suponga que una medida común M10 tiene el mismo MOQ que un acero inoxidable 316 o una longitud personalizada. Solicite un presupuesto comercial que muestre base unitaria, cantidad por cartón, peso neto y bruto, dimensiones del cartón, estimación de plazo y Incoterm. Estos son compromisos comerciales por confirmar, no declaraciones de stock o capacidad. Para el embalaje de exportación, utilice bolsas o cajas interiores que eviten la mezcla de diámetros, protejan las roscas y separen las clases de acero inoxidable de las piezas de acero al carbono. Los cartones corrugados deben dimensionarse para izado y paletizado, mientras que los cartones pesados pueden necesitar esquinas reforzadas o flejado. Marque cada paquete con tamaño, material, acabado, cantidad, referencia de lote o partida e información de país de origen cuando el destino lo exija. Para envíos a Zimbabue, Zambia, Sudáfrica o Mozambique, confirme la ruta final de entrega, manejo portuario, protección contra humedad y requisitos de documentos antes de la producción; Beira y Durban tienen acuerdos de tránsito e interior distintos. TradeGo puede cotizar anclajes de vaina contra la especificación final del comprador y proponer un embalaje, mientras el comprador aprueba planos, etiquetas y detalles de carga antes de la confirmación del pedido."
+      }
+    }
+  ]
+}
