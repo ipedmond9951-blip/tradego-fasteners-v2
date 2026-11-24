@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
-import { type Locale, locales } from '@/i18n'
+import { type Locale } from '@/i18n'
+import { permanentRedirect } from 'next/navigation'
 
 export const metadata: Metadata = {
   title: 'Zimbabwe Fasteners Wholesale | Bulk Bolts & Screws Supplier | TradeGo',
@@ -8,16 +9,17 @@ export const metadata: Metadata = {
   // 2026-07-16 23:30 GSC 修复: 加 canonical + 10-lang hreflang
   alternates: {
     canonical: 'https://www.tradego-fasteners.com/en/zimbabwe-fasteners-wholesale',
-    languages: Object.fromEntries([
-      ['x-default', 'https://www.tradego-fasteners.com/en/zimbabwe-fasteners-wholesale'],
-      ...locales.map(l => [l, `https://www.tradego-fasteners.com/${l}/zimbabwe-fasteners-wholesale`])
-    ]),
+    // 该落地页只有英文正文（津巴布韦官方语言为英语），故只声明 en，避免 hreflang 声称存在 9 个译版
+    languages: { 'x-default': 'https://www.tradego-fasteners.com/en/zimbabwe-fasteners-wholesale', en: 'https://www.tradego-fasteners.com/en/zimbabwe-fasteners-wholesale' },
   },
 }
 
 export default async function ZimbabweFastenersPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: localeParam } = await params
   const locale = (localeParam as Locale) || 'en'
+  // 2026-11-24: 此前 10 个语种路径都返回同一份英文正文，与 hreflang 自相矛盾；
+  // 改为英语独占，其余语种 301 到 /en/，页面内容与声明一致。
+  if (locale !== 'en') permanentRedirect('/en/zimbabwe-fasteners-wholesale/')
 
   return (
     <div className="min-h-screen bg-white">
