@@ -1,5 +1,7 @@
 'use client'
 
+import { phrase } from '@/lib/productPhrases'
+import { pick, uiLabels } from '@/lib/productI18n'
 import Image from 'next/image'
 import { type Locale, t } from '@/i18n'
 import { ButtonLink } from './Button'
@@ -72,16 +74,16 @@ export default function ProductCardClient({ product, locale, name }: ProductCard
         {/* Features tags */}
         <div className="flex flex-wrap gap-1.5 mb-3">
           {product.features.map((f) => (
-            <span key={f} className="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded">{f}</span>
+            <span key={f} className="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded">{phrase(f, locale)}</span>
           ))}
         </div>
         
         {/* Applications */}
         <div className="mb-4">
-          <span className="text-xs text-gray-500 block mb-1.5">Applications:</span>
+          <span className="text-xs text-gray-500 block mb-1.5">{pick(uiLabels.applications, locale)}:</span>
           <div className="flex flex-wrap gap-1.5">
             {product.applications.map((app) => (
-              <span key={app} className="text-xs bg-primary-50 text-primary-700 px-2 py-0.5 rounded font-medium">{app}</span>
+              <span key={app} className="text-xs bg-primary-50 text-primary-700 px-2 py-0.5 rounded font-medium">{phrase(app, locale)}</span>
             ))}
           </div>
         </div>
