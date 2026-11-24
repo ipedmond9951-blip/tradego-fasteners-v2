@@ -21,7 +21,9 @@ fi
 oc() { "$OC_NODE" "$OC_ENTRY" "$@"; }
 
 echo "== 1/3 保存 key 到 main agent =="
-printf '%s\n' "$KEY" | oc models auth paste-api-key --provider openrouter 2>&1 | tail -3
+# 多 agent 环境必须指定 owner，否则报 AGENT_SELECTION_REQUIRED
+AGENT_ID="${OPENCLAW_AGENT:-main}"
+printf '%s\n' "$KEY" | oc models auth paste-api-key --provider openrouter --agent "$AGENT_ID" 2>&1 | tail -3
 
 echo "== 2/3 挂进 fallback 链（幂等）=="
 oc models fallbacks list 2>/dev/null | grep -q "openrouter/free" \
