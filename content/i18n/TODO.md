@@ -79,3 +79,6 @@
 - `src/lib/marketText.ts`（新增）：市场正文统一入口，优先级 = 各语种覆盖文件（marketsI18n/EsJa/Ru/Ar/DeHi）→ `markets.ts` 的 en/zh。`/markets/` 总览卡片原先只读 `hero[locale] || hero.en`，非 en/zh 全站卡片显示英文 hero；详情页也改走同一入口，删除各自拼装的空值链。津巴布韦卡片简介另存 `zimbabweHero` 十语（该市场正文页为英语独占落地页，只补卡片一句）。
 - `src/app/[locale]/{terms,privacy-policy}/page.tsx` + `uiCopy.legalNoteCopy/lastUpdatedCopy`：日期与语言声明十语化，非英语站显示「本页正文为英文原文，法律效力以英文版为准」。**条款与隐私正文仍为英文原文（en/zh 两套）**，其余 8 语回落英文属既定取舍——法律文本不做机器翻译，避免条款责任风险；若后续要正式本地化，应交人工/律师处理。
 - sitemap/robots 复核：`public/sitemap.xml`（4,394 loc 旧快照）与 `public/robots.txt` 是本地构建残留、未被 git 跟踪，但会让 dev 下 `/sitemap.xml`、`/robots.txt` 抛 500（conflicting public file and page file）。已删除本地副本，dev 现返回 200：sitemap 4,322 条 loc，全部带尾斜杠、无重复，`/steel-prices/` 与 zimbabwe 落地页只出 en；robots 为 `robots.ts` 的 AI 白名单版本。仓库内无该两文件，线上不受影响。
+
+补充（同轮）：文章页、标准页、市场页均补 BreadcrumbList；`BreadcrumbSchema` 组件从只认 en/zh 的硬编码标签改为十语 `navLabels` + 自动补尾斜杠 + 可传上级层级（品类页现在输出「首页 → 行业指南 → 品类」三级）；文章面包屑的品类 URL 原用原文大小写（`/industry/category/Anchors/` 404），现统一走 `categorySlug()`，`industry/page.tsx` 与品类路由的同名函数一并收敛到该工具。
+
