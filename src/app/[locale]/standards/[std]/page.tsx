@@ -110,6 +110,182 @@ const copy = {
     cta: '索取报价',
     all: '全部产品',
   },
+  es: {
+    home: 'Inicio',
+    standards: 'Normas',
+    intro: (code: string, note: string, n: number) =>
+      `${code} cubre ${note.toLowerCase()}. Producimos las ${n} líneas siguientes conforme a esta norma y cotizamos según la cláusula que indique: envíe número de norma, medida y cantidad y confirmamos tolerancia, material e informe de ensayo antes de fabricar.`,
+    lines: 'Líneas de producto bajo esta norma',
+    why: 'Por qué pedir con número de norma',
+    points: [
+      ['Sin ambigüedad en medidas', 'La norma fija rosca, cabeza y tolerancia, así lo que llega coincide con el plano del ingeniero y no con un equivalente aproximado.'],
+      ['Informes de ensayo coherentes', 'Certificados de colada e informes dimensionales se emiten contra la misma cláusula, manteniendo aduana, calidad y obra alineados.'],
+      ['Sustitución más fácil después', 'El número de norma permite recomprar de cualquier fabricante calificado sin rehacer todo el juego de planos.'],
+    ],
+    faq: 'Preguntas frecuentes',
+    faqs: (code: string) => [
+      [`¿Pueden fabricar exactamente según ${code}?`, 'Sí: cotizamos y fabricamos según la cláusula que indique, y dejamos constancia en la cotización de qué cláusula y qué informes aplican.'],
+      [`¿Qué necesitan para cotizar piezas ${code}?`, 'Medida, norma/cláusula, material y acabado, cantidad por medida y puerto de destino. Con eso devolvemos precio, MOQ, embalaje y plazo el mismo día.'],
+      ['¿Entregan informes de ensayo?', 'Los certificados de colada viajan con la mercancía. La inspección previa al embarque por terceros (SGS, BV o su agente) puede organizarse si se solicita al hacer el pedido.'],
+    ],
+    related: 'Otras normas en las mismas líneas',
+    cta: 'Solicitar cotización',
+    all: 'Todos los productos',
+  },
+  fr: {
+    home: 'Accueil',
+    standards: 'Normes',
+    intro: (code: string, note: string, n: number) =>
+      `${code} couvre ${note.toLowerCase()}. Nous produisons les ${n} gammes ci-dessous selon cette norme et chiffrons sur la clause que vous précisez : envoyez le numéro de norme, la dimension et la quantité, nous confirmons tolérance, matière et rapport d'essai avant fabrication.`,
+    lines: 'Gammes de produits sous cette norme',
+    why: 'Pourquoi commander avec un numéro de norme',
+    points: [
+      ['Aucune ambiguïté sur les dimensions', 'La norme fixe filetage, tête et tolérance : ce qui arrive correspond au plan de votre ingénieur, pas à un équivalent approchant.'],
+      ['Rapports d\'essai cohérents', 'Certificats de coulée et rapports dimensionnels sont émis sur la même clause, ce qui aligne douane, qualité et chantier.'],
+      ['Remplacement plus simple ensuite', 'Le numéro de norme permet de recommander chez tout fabricant qualifié sans refaire tout le jeu de plans.'],
+    ],
+    faq: 'Questions fréquentes',
+    faqs: (code: string) => [
+      [`Pouvez-vous produire exactement selon ${code} ?`, 'Oui : nous chiffrons et produisons selon la clause que vous nommez, et indiquons sur le devis quelle clause et quels rapports s\'appliquent.'],
+      [`Que faut-il pour chiffrer des pièces ${code} ?`, 'Dimension, norme/clause, matière et finition, quantité par dimension et port de destination. Avec ces éléments, prix, MOQ, emballage et délai partent le jour même.'],
+      ['Fournissez-vous des rapports d\'essai ?', 'Les certificats de coulée accompagnent la marchandise. Une inspection tierce avant expédition (SGS, BV ou votre agent) peut être organisée si elle est demandée à la commande.'],
+    ],
+    related: 'Autres normes sur les mêmes gammes',
+    cta: 'Demander un devis',
+    all: 'Tous les produits',
+  },
+  pt: {
+    home: 'Início',
+    standards: 'Normas',
+    intro: (code: string, note: string, n: number) =>
+      `${code} cobre ${note.toLowerCase()}. Produzimos as ${n} linhas abaixo segundo esta norma e cotamos pela cláusula que indicar: envie número da norma, medida e quantidade e confirmamos tolerância, material e relatório de ensaio antes de produzir.`,
+    lines: 'Linhas de produto sob esta norma',
+    why: 'Por que comprar com número de norma',
+    points: [
+      ['Sem ambiguidade nas medidas', 'A norma fixa rosca, cabeça e tolerância, então o que chega corresponde ao desenho do engenheiro, não a um equivalente aproximado.'],
+      ['Relatórios de ensaio alinhados', 'Certificados de aciaria e relatórios dimensionais saem pela mesma cláusula, mantendo alfândega, qualidade e obra na mesma página.'],
+      ['Substituição mais fácil depois', 'O número de norma permite recomprar de qualquer fabricante qualificado sem refazer todo o conjunto de desenhos.'],
+    ],
+    faq: 'Perguntas frequentes',
+    faqs: (code: string) => [
+      [`Conseguem produzir exatamente conforme ${code}?`, 'Sim: cotamos e produzimos pela cláusula que indicar, e registamos na cotação qual cláusula e quais relatórios se aplicam.'],
+      [`O que precisam para cotar peças ${code}?`, 'Medida, norma/cláusula, material e acabamento, quantidade por medida e porto de destino. Com isso devolvemos preço, MOQ, embalagem e prazo no mesmo dia.'],
+      ['Fornecem relatórios de ensaio?', 'Os certificados de aciaria seguem com a mercadoria. Inspeção de terceiros antes do embarque (SGS, BV ou o seu agente) pode ser organizada se pedida na encomenda.'],
+    ],
+    related: 'Outras normas nas mesmas linhas',
+    cta: 'Pedir cotação',
+    all: 'Todos os produtos',
+  },
+  ar: {
+    home: 'الرئيسية',
+    standards: 'المعايير',
+    intro: (code: string, note: string, n: number) =>
+      `${code} يغطي ${note}. ننتج ${n} من الخطوط أدناه وفق هذا المعيار ونسعّر حسب البند الذي تحدده: أرسل رقم المعيار والمقاس والكمية ونؤكد التفاوت والمادة وتقرير الاختبار قبل الإنتاج.`,
+    lines: 'خطوط المنتجات ضمن هذا المعيار',
+    why: 'لماذا الطلب برقم معيار',
+    points: [
+      ['لا غموض في المقاسات', 'المعيار يحدد السن والرأس والتفاوت، فيطابق ما يصل الرسم الذي وضعه مهندسك، لا بديلاً قريباً منه.'],
+      ['تقارير اختبار متوافقة', 'تُصدر شهادات الصهر والتقارير البُعدية على البند نفسه، فتبقى الجمارك والجودة والموقع على مرجع واحد.'],
+      ['استبدال أسهل لاحقاً', 'رقم المعيار يتيح إعادة الطلب من أي مصنع مؤهل دون إعادة كتابة مجموعة الرسومات.'],
+    ],
+    faq: 'الأسئلة الشائعة',
+    faqs: (code: string) => [
+      [`هل يمكن الإنتاج وفق ${code} تماماً؟`, 'نعم — نسعّر وننتج حسب البند الذي تسميه، ونبيّن في العرض البند والتقارير المطبقة.'],
+      [`ما المطلوب لتسعير قطع ${code}؟`, 'المقاس، المعيار/البند، المادة والتشطيب، الكمية لكل مقاس وميناء الوجهة. بهذه العناصر نعيد السعر والحد الأدنى والتغليف ومدة التسليم في اليوم نفسه.'],
+      ['هل توفرون تقارير اختبار؟', 'شهادات الصهر ترافق البضاعة. ويمكن ترتيب فحص طرف ثالث قبل الشحن (SGS أو BV أو وكيلك) عند الطلب في مرحلة الطلب.'],
+    ],
+    related: 'معايير أخرى على الخطوط نفسها',
+    cta: 'اطلب عرض سعر',
+    all: 'كل المنتجات',
+  },
+  ru: {
+    home: 'Главная',
+    standards: 'Стандарты',
+    intro: (code: string, note: string, n: number) =>
+      `${code} охватывает ${note}. Мы производим ${n} позиции ниже по этому стандарту и котируем по указанному вами пункту: пришлите номер стандарта, размер и количество, и мы подтвердим допуск, материал и протокол испытаний до запуска в производство.`,
+    lines: 'Позиции под этим стандартом',
+    why: 'Зачем заказывать по номеру стандарта',
+    points: [
+      ['Нет неоднозначности в размерах', 'Стандарт фиксирует резьбу, головку и допуск, поэтому приходит то, что начертил ваш инженер, а не близкий аналог.'],
+      ['Протоколы испытаний совпадают', 'Сертификаты плавки и размерные протоколы выпускаются на тот же пункт, так что таможня, ОТК и площадка работают по одному документу.'],
+      ['Проще замена поставщика', 'Номер стандарта позволяет повторно закупать у любого квалифицированного завода без перевыпуска всего комплекта чертежей.'],
+    ],
+    faq: 'Частые вопросы',
+    faqs: (code: string) => [
+      [`Можете изготовить строго по ${code}?`, 'Да — котируем и производим по названному вами пункту и указываем в предложении, какой пункт и какие протоколы применяются.'],
+      [`Что нужно для расчёта цены на детали ${code}?`, 'Размер, стандарт/пункт, материал и покрытие, количество по каждому размеру и порт назначения. С этими данными цену, MOQ, упаковку и срок даём в тот же день.'],
+      ['Вы предоставляете протоколы испытаний?', 'Сертификаты плавки идут с грузом. Независимую инспекцию перед отгрузкой (SGS, BV или ваш агент) можно организовать, если заявить на этапе заказа.'],
+    ],
+    related: 'Другие стандарты на те же позиции',
+    cta: 'Запросить цену',
+    all: 'Все продукты',
+  },
+  ja: {
+    home: 'ホーム',
+    standards: '規格',
+    intro: (code: string, note: string, n: number) =>
+      `${code}は${note}を対象とします。以下の${n}品目をこの規格に沿って製造し、ご指定の条項で見積もります。規格番号・サイズ・数量をお送りいただければ、製造前に公差・材質・試験成績書を確認して回答します。`,
+    lines: 'この規格の対象品目',
+    why: '規格番号で発注する理由',
+    points: [
+      ['寸法の曖昧さがない', '規格がねじ・頭部・公差を定めるため、届く品は設計図どおりで、近似代替品ではありません。'],
+      ['試験成績書の整合', 'ミルシートと寸法検査報告を同じ条項で発行するため、通関・品質・現場検査の基準が一つに揃います。'],
+      ['後からの切り替えが容易', '規格番号があれば、図面一式を作り直さずに認定工場から再発注できます。'],
+    ],
+    faq: 'よくある質問',
+    faqs: (code: string) => [
+      [`${code}どおりに製造できますか？`, 'はい。ご指定の条項で見積り・製造し、適用する条項と試験成績書を 見積書に明記します。'],
+      [`${code}品の見積りに必要な情報は？`, 'サイズ、規格・条項、材質と表面処理、サイズ別数量、仕向港。5点が揃えば当日中に価格・MOQ・梱包・納期を回答します。'],
+      ['試験成績書は提供されますか？', 'ミルシートは商品に同梱します。出荷前の第三者検査（SGS・BV・お客様指定機関）は発注時にご要望があれば手配します。'],
+    ],
+    related: '同じ品目の他の規格',
+    cta: '見積りを依頼',
+    all: 'すべての製品',
+  },
+  de: {
+    home: 'Startseite',
+    standards: 'Normen',
+    intro: (code: string, note: string, n: number) =>
+      `${code} deckt ${note} ab. Wir fertigen die ${n} unten genannten Positionen nach dieser Norm und kalkulieren nach der von Ihnen genannten Klausel: Normnummer, Größe und Menge senden, wir bestätigen Toleranz, Werkstoff und Prüfbericht vor der Fertigung.`,
+    lines: 'Produktlinien unter dieser Norm',
+    why: 'Warum mit Normnummer bestellen',
+    points: [
+      ['Keine Unklarheit bei den Maßen', 'Die Norm legt Gewinde, Kopf und Toleranz fest, geliefert wird also was der Konstrukteur gezeichnet hat — kein Näherungsprodukt.'],
+      ['Prüfberichte passen zusammen', 'Walzwerkszeugnisse und Maßprüfberichte werden auf dieselbe Klausel ausgestellt, Zoll, QS und Baustelle arbeiten mit einem Bezug.'],
+      ['Späterer Wechsel einfacher', 'Mit der Normnummer lässt sich bei jedem qualifizierten Werk nachbestellen, ohne den ganzen Zeichnungssatz neu zu erstellen.'],
+    ],
+    faq: 'Häufige Fragen',
+    faqs: (code: string) => [
+      [`Können Sie exakt nach ${code} fertigen?`, 'Ja — wir kalkulieren und fertigen nach der von Ihnen genannten Klausel und geben im Angebot an, welche Klausel und welche Prüfberichte gelten.'],
+      [`Was brauchen Sie für ein Angebot über ${code}-Teile?`, 'Größe, Norm/Klausel, Werkstoff und Oberfläche, Menge je Größe und Bestimmungshafen. Damit erhalten Sie Preis, MOQ, Verpackung und Lieferzeit am selben Tag.'],
+      ['Liefern Sie Prüfberichte?', 'Walzwerkszeugnisse gehen mit der Ware. Eine Drittinspektion vor Versand (SGS, BV oder Ihr Agent) lässt sich auf Anfrage bei der Bestellung organisieren.'],
+    ],
+    related: 'Weitere Normen auf denselben Linien',
+    cta: 'Angebot anfordern',
+    all: 'Alle Produkte',
+  },
+  hi: {
+    home: 'होम',
+    standards: 'मानक',
+    intro: (code: string, note: string, n: number) =>
+      `${code} ${note} को कवर करता है। हम नीचे दी गई ${n} श्रेणियाँ इस मानक के अनुसार बनाते हैं और आपके बताए क्लॉज़ पर कोट करते हैं — मानक संख्या, साइज़ और मात्रा भेजें, उत्पादन से पहले हम टॉलरेंस, सामग्री और परीक्षण रिपोर्ट की पुष्टि करते हैं।`,
+    lines: 'इस मानक के अंतर्गत उत्पाद श्रेणियाँ',
+    why: 'मानक संख्या से ऑर्डर क्यों करें',
+    points: [
+      ['माप में कोई अस्पष्टता नहीं', 'मानक थ्रेड, हेड और टॉलरेंस तय करता है, इसलिए जो आता है वह आपके इंजीनियर के ड्रॉइंग से मेल खाता है, न कि निकट विकल्प से।'],
+      ['परीक्षण रिपोर्ट मेल खाती हैं', 'मिल सर्टिफिकेट और आयामी रिपोर्ट एक ही क्लॉज़ पर जारी होते हैं, जिससे सीमा शुल्क, गुणवत्ता और साइट एक ही संदर्भ पर रहते हैं।'],
+      ['बाद में बदलाव आसान', 'मानक संख्या होने पर पूरा ड्रॉइंग सेट दोबारा बनाए बिना किसी योग्य फैक्टरी से दोबारा ऑर्डर किया जा सकता है।'],
+    ],
+    faq: 'सामान्य प्रश्न',
+    faqs: (code: string) => [
+      [`क्या ${code} के अनुसार ठीक-ठीक उत्पादन संभव है?`, 'हाँ — हम आपके बताए क्लॉज़ पर कोट और उत्पादन करते हैं, और कोटेशन में लिखते हैं कि कौन सा क्लॉज़ और कौन सी रिपोर्ट लागू हैं।'],
+      [`${code} पार्ट्स का कोट पाने के लिए क्या चाहिए?`, 'साइज़, मानक/क्लॉज़, सामग्री और फिनिश, प्रति साइज़ मात्रा और गंतव्य बंदरगाह। इनके साथ हम उसी दिन कीमत, MOQ, पैकिंग और लीड टाइम देते हैं।'],
+      ['क्या परीक्षण रिपोर्ट मिलती हैं?', 'मिल सर्टिफिकेट माल के साथ जाते हैं। शिपमेंट से पहले तीसरे पक्ष का निरीक्षण (SGS, BV या आपका एजेंट) ऑर्डर के समय अनुरोध पर कराया जा सकता है।'],
+    ],
+    related: 'इन्हीं श्रेणियों पर अन्य मानक',
+    cta: 'कोट का अनुरोध करें',
+    all: 'सभी उत्पाद',
+  },
 } as const
 
 export default async function StandardPage({ params }: { params: Promise<{ locale: string; std: string }> }) {
@@ -118,7 +294,7 @@ export default async function StandardPage({ params }: { params: Promise<{ local
   const entry = getStd(std)
   if (!entry) notFound()
 
-  const c = locale === 'zh' ? copy.zh : copy.en
+  const c = (copy as unknown as Record<string, typeof copy.en>)[locale] ?? copy.en
   const note = stdNote(entry.code, locale)
   const items = entry.products.map(s => allProducts.find(p => p.slug === s)).filter((p): p is (typeof allProducts)[number] => Boolean(p))
 
