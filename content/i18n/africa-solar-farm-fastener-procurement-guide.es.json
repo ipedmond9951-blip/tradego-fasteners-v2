@@ -1,0 +1,40 @@
+{
+  "slug": "africa-solar-farm-fastener-procurement-guide",
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": { "es": "Compra de fijaciones para parques solares: volumen, velocidad y el coste del perno equivocado" },
+      "body": {
+        "es": "La solar a escala utility es un negocio de fijaciones disfrazado de negocio energético. Un solo proyecto puede consumir cientos de miles de pernos, tuercas y abrazaderas, y la estructura de montaje la arman cuadrillas a las que se paga por velocidad. Esa combinación hace decisivas dos cosas: <strong>fiabilidad de suministro</strong> y <strong>consistencia de montaje</strong>.<p>Un perno que llega tarde detiene a una cuadrilla; un perno que no encaja detiene a la misma cuadrilla y además genera una orden de cambio. Planificar aquí tiene menos que ver con el precio unitario que con proteger el calendario de instalación.</p>"
+      }
+    },
+    {
+      "id": "product-mix",
+      "heading": { "es": "La lista de materiales de una estructura de montaje" },
+      "body": {
+        "es": "Una estructura fija o de seguidor típica tira de un conjunto estrecho: pernos de cimentación y conjuntos de anclaje, abrazaderas de módulo y abrazaderas centrales, fijaciones riel-corriente y pernos estructurales para uniones de tubo de torsión. Las clases se agrupan en 8.8 con galvanizado en caliente como recubrimento por defecto, e inoxidable donde la exposición costera o un herraje concreto de módulo lo exige.<p>Como el número de referencias es pequeño y el volumen grande, el riesgo no es la variedad sino la consistencia. Pernos de dos tiradas de producción pueden diferir en espesor de recubrimento y ajuste de rosca, y esa diferencia aparece en obra como tuercas barridas.</p>"
+      }
+    },
+    {
+      "id": "logistics",
+      "heading": { "es": "Entrega en obra: el problema de la secuencia" },
+      "body": {
+        "es": "Las obras solares se construyen por bloques, y cada bloque necesita sus fijaciones antes de izar el módulo. Envíe en secuencia de bloque con cantidades kitadas por bloque, en lugar de entregar un contenedor único gigante y mezclado. Kitear cuesta un poco en origen y ahorra mucho en obra, porque separar decenas de miles de fijaciones mezcladas en campo consume horas de cuadrilla que nadie presupuesta.<p>Planifique también la cola. El último cinco por ciento de un pedido de fijaciones es la parte que siempre provoca carreras, así que mantenga un colchón definido en el almacén de obra en lugar de confiar en un reenvío que deba pasar aduana.</p>"
+      }
+    },
+    {
+      "id": "quality",
+      "heading": { "es": "Qué inspeccionar y cuándo" },
+      "body": {
+        "es": "Inspeccione en tres puntos: espesor de recubrimento en origen, ajuste dimensional sobre muestra de cada lote de producción y comportamiento de par durante el primer bloque de instalación. El tercero es el útil: encuentra la combinación de recubrimento, lubricidad y tolerancia de rosca que un informe dimensional solo dejará pasar.<p>Especifique los valores de par por escrito y exija al proveedor que declare la lubricidad supuesta, porque el mismo perno apretado en seco y lubricado se comporta distinto y la cuadrilla no sabrá qué hipótesis hizo usted.</p>"
+      }
+    },
+    {
+      "id": "cost",
+      "heading": { "es": "Dónde va realmente el dinero" },
+      "body": {
+        "es": "El precio unitario es una parte pequeña de la ecuación cuando se incluye la velocidad de instalación. Un perno más barato que exige retrabajo, o que llega en cajas mezcladas y obliga a separar en obra, puede costar en mano de obra más que toda la diferencia de precio.<p>El enfoque práctico es cotizar puesto y kitado: incluya flete, verificación de recubrimento, kitado por bloque y una provisión de colchón en la comparación. Esa comparación suele favorecer al proveedor capaz de garantizar consistencia, y es el único número que sobrevive al contacto con un calendario de obra.</p>"
+      }
+    }
+  ]
+}

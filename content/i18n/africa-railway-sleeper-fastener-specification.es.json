@@ -1,0 +1,40 @@
+{
+  "slug": "africa-railway-sleeper-fastener-specification",
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": { "es": "Fijación a traviesa: por qué la especificación lo es todo" },
+      "body": {
+        "es": "Un sistema de fijación ferroviaria es una cadena de decisiones pequeñas que deben concordar: tipo de traviesa, placa, clip o sujeción, taladro o inserto y el par que las ata. Falle un elemento y la vía aguanta hasta que deja de aguantar; y entonces el fallo es caro de localizar y caro de reparar.<p>Esta guía cubre los elementos que una especificación debe fijar, en el orden en que un ingeniero de proyecto los evalúa habitualmente.</p>"
+      }
+    },
+    {
+      "id": "system-types",
+      "heading": { "es": "¿Para qué sistema de traviesa especifica realmente?" },
+      "body": {
+        "es": "Traviesas de hormigón, de madera y de acero llevan lógicas de fijación distintas. Las de hormigón usan normalmente hombros o insertos colados con clips elásticos; las de madera se apoyan en tirafondos, clavos de fijación o placas base; las de acero usan clips o pernos a través de la sección.<p>La especificación debe nombrar el sistema, no solo la fijación, porque un clip dimensionado para un hombro no asienta correctamente en otro. Mezclar componentes de sistemas diferentes es la causa más común de problemas de geometría de vía en obra nueva.</p>"
+      }
+    },
+    {
+      "id": "materials",
+      "heading": { "es": "Material y recubrimiento: la decisión de corrosión" },
+      "body": {
+        "es": "Las fijaciones ferroviarias viven a la intemperie durante décadas y están mojadas de forma habitual, lo que en la mayoría de climas hace que la elección de recubrimento pese más que la clase del acero base. El galvanizado en caliente cubre el servicio general; los corredores costeros o de servicio pesado necesitan a menudo recubrimentos más gruesos o componentes inox en la interfaz clip-aislante.<p>Preste atención a los puntos de contacto. El daño de recubrimento en el contacto clip-hombro y en el asiento de la placa es donde empieza la corrosión, así que especifique prácticas de manejo y montaje como parte del requisito de recubrimento, no por separado.</p>"
+      }
+    },
+    {
+      "id": "installation",
+      "heading": { "es": "Par, holgura y controles inevitables" },
+      "body": {
+        "es": "Las fijaciones elásticas se especifican por carga de punta más que por par aislado, y ambas se relacionan mediante la geometría del clip y la placa. Por eso importa la práctica de campo: un clip instalado al par especificado pero apoyado sobre una placa dañada se lee bien en la llave y mal en la vía.<p>Los controles no negociables son la holgura instalada, el ensayo de carga de punta sobre muestra y el estado visual de placa y aislante. Regístrelos durante la instalación, porque un problema de fijación descubierto durante una posesión cuesta una fracción de uno descubierto con el tráfico ya circulando.</p>"
+      }
+    },
+    {
+      "id": "procurement",
+      "heading": { "es": "Notas de compra para proyectos ferroviarios africanos" },
+      "body": {
+        "es": "Los proyectos ferroviarios en África suelen ser financiados y por tanto inspeccionados contra una norma nominada: a menudo una especificación ferroviaria nacional, un documento derivado de UIC o una norma de donante. Establezca qué documento gobierna antes de cotizar, porque la aprobación de una alternativa equivalente es lenta y a veces se rechaza.<p>La logística también moldea el pedido. Traviesas y fijaciones son pesadas y voluminosas, así que la planificación de envío debe seguir la secuencia de instalación y no la comodidad de fábrica: entregue las fijaciones en el orden en que se tenderá la vía y mantenga clips y aislantes de repuesto en la misma proporción que la cantidad instalada. Una falta en obra ferroviaria detiene toda la posesión, no una sola actividad.</p>"
+      }
+    }
+  ]
+}

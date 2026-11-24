@@ -1,0 +1,40 @@
+{
+  "slug": "africa-railway-sleeper-fastener-specification",
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": { "fr": "Fixation sur traverse : pourquoi la spécification fait tout" },
+      "body": {
+        "fr": "Un système de fixation ferroviaire est une chaîne de petites décisions qui doivent s'accorder : type de traverse, semelle, attache ou fixation, trou ou insert, et le couple qui les lie. Un seul élément faux et la voie tient jusqu'à ce qu'elle ne tienne plus — et la défaillance coûte cher à localiser puis à réparer.<p>Ce guide couvre les éléments qu'une spécification doit verrouiller, dans l'ordre où un ingénieur projet les évalue habituellement.</p>"
+      }
+    },
+    {
+      "id": "system-types",
+      "heading": { "fr": "Pour quel système de traverse spécifiez-vous vraiment ?" },
+      "body": {
+        "fr": "Traverses béton, bois et acier portent des logiques de fixation différentes. Les traverses béton utilisent en général des épaules ou inserts coulés avec attaches élastiques ; les bois reposent sur tire-points, pointes de fixation ou plaques de base ; les aciers utilisent attaches ou boulons traversant la section.<p>La spécification doit nommer le système, pas seulement la fixation, car une attache dimensionnée pour une épaule ne s'assiéra pas correctement sur une autre. Mélanger des composants de systèmes différents est la source la plus fréquente de problèmes de géométrie de voie en construction neuve.</p>"
+      }
+    },
+    {
+      "id": "materials",
+      "heading": { "fr": "Matériau et revêtement : la décision corrosion" },
+      "body": {
+        "fr": "Les fixations ferroviaires vivent en extérieur pendant des décennies et sont mouillées en permanence, ce qui rend le choix du revêtement plus déterminant que la nuance d'acier de base dans la plupart des climats. La galvanisation à chaud couvre le service courant ; les corridors côtiers ou à service lourd demandent souvent des revêtements plus épais ou des composants inox à l'interface attache-isolant.<p>Attention aux points de contact. L'endommagement du revêtement au contact attache-épaule et à l'assise de semelle est là où la corrosion commence : spécifiez les pratiques de manutention et de montage comme partie de l'exigence de revêtement, pas à part.</p>"
+      }
+    },
+    {
+      "id": "installation",
+      "heading": { "fr": "Couple, jeu et contrôles incontournables" },
+      "body": {
+        "fr": "Les fixations élastiques se spécifient par effort d'appui plutôt que par couple seul, et les deux sont liés par la géométrie de l'attache et de la semelle. D'où l'importance de la pratique de terrain : une attache posée au couple spécifié mais sur une semelle abîmée se lit correcte à la clé et incorrecte sur la voie.<p>Les contrôles non négociables sont le jeu installé, l'essai d'effort d'appui sur échantillon et l'état visuel de la semelle et de l'isolant. Enregistrez-les à la pose, car un problème de fixation découvert pendant une possession coûte une fraction de ce que coûte un problème découvert après la mise en circulation.</p>"
+      }
+    },
+    {
+      "id": "procurement",
+      "heading": { "fr": "Notes d'achat pour projets ferroviaires africains" },
+      "body": {
+        "fr": "Les projets ferroviaires en Afrique sont généralement financés et donc inspectés selon une norme nommée : souvent une spécification ferroviaire nationale, un document dérivé de l'UIC ou une norme de bailleur. Établissez quel document fait foi avant de chiffrer, car l'approbation d'une alternative équivalente est lente et parfois refusée.<p>La logistique façonne aussi la commande. Traverses et fixations sont lourdes et volumineuses : le plan d'expédition doit suivre la séquence de pose et non la commodité de l'usine — livrez les fixations dans l'ordre où la voie sera posée et gardez attaches et isolants de rechange dans la même proportion que la quantité installée. Une pénurie sur un chantier ferroviaire arrête toute la possession, pas une seule activité.</p>"
+      }
+    }
+  ]
+}

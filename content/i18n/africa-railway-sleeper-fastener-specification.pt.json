@@ -1,0 +1,40 @@
+{
+  "slug": "africa-railway-sleeper-fastener-specification",
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": { "pt": "Fixação em travessa: porque a especificação é tudo" },
+      "body": {
+        "pt": "Um sistema de fixação ferroviária é uma cadeia de decisões pequenas que têm de concordar: tipo de travessa, almofada, clip ou fixação, furo ou inserto e o binário que as liga. Falhe um elemento e a via aguenta até deixar de aguentar — e então a falha é cara de localizar e cara de reparar.<p>Este guia cobre os elementos que uma especificação tem de fixar, na ordem em que um engenheiro de projeto os avalia habitualmente.</p>"
+      }
+    },
+    {
+      "id": "system-types",
+      "heading": { "pt": "Para que sistema de travessa está realmente a especificar?" },
+      "body": {
+        "pt": "Travessas de betão, madeira e aço têm lógicas de fixação diferentes. As de betão usam normalmente ombros ou insertos betonados com clips elásticos; as de madeira baseiam-se em tirafondos, pregos de fixação ou placas base; as de aço usam clips ou parafusos através da secção.<p>A especificação deve nomear o sistema, não apenas a fixação, porque um clip dimensionado para um ombro não assenta corretamente noutro. Misturar componentes de sistemas diferentes é a causa mais comum de problemas de geometria de via em obra nova.</p>"
+      }
+    },
+    {
+      "id": "materials",
+      "heading": { "pt": "Material e revestimento: a decisão de corrosão" },
+      "body": {
+        "pt": "As fixações ferroviárias vivem ao tempo durante décadas e estão molhadas de forma rotineira, o que na maioria dos climas faz o revestimento pesar mais do que a classe do aço base. A galvanização a quente cobre o serviço geral; corredores costeiros ou de serviço pesado precisam muitas vezes de revestimentos mais espessos ou componentes inox na interface clip-isolador.<p>Preste atenção aos pontos de contacto. O dano de revestimento no contacto clip-ombro e no assento da almofada é onde a corrosão começa, pelo que deve especificar práticas de manuseio e montagem como parte do requisito de revestimento, não em separado.</p>"
+      }
+    },
+    {
+      "id": "installation",
+      "heading": { "pt": "Binário, folga e controlos incontornáveis" },
+      "body": {
+        "pt": "As fixações elásticas especificam-se por carga de ponta mais do que por binário isolado, e ambas relacionam-se pela geometria do clip e da almofada. Por isso a prática de campo importa: um clip instalado ao binário especificado mas assente numa almofada danificada lê-se bem na chave e mal na via.<p>Os controlos não negociáveis são a folga instalada, o ensaio de carga de ponta em amostra e o estado visual de almofada e isolador. Registe-os na instalação, porque um problema de fixação descoberto durante uma possessão custa uma fração de um descoberto já com tráfego.</p>"
+      }
+    },
+    {
+      "id": "procurement",
+      "heading": { "pt": "Notas de compra para projetos ferroviários africanos" },
+      "body": {
+        "pt": "Os projetos ferroviários em África são geralmente financiados e, por isso, inspecionados contra uma norma nomeada: muitas vezes uma especificação ferroviária nacional, um documento derivado da UIC ou uma norma de doador. Estabeleça que documento governa antes de cotar, porque a aprovação de uma alternativa equivalente é lenta e por vezes recusada.<p>A logística também molda a encomenda. Travessas e fixações são pesadas e volumosas, pelo que o planeamento de envio deve seguir a sequência de instalação e não a conveniência da fábrica: entregue as fixações na ordem em que a via será assentada e mantenha clips e isoladores sobressalentes na mesma proporção da quantidade instalada. Uma falta numa obra ferroviária pára toda a possessão, não uma só atividade.</p>"
+      }
+    }
+  ]
+}

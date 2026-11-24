@@ -105,55 +105,95 @@
       "id": "introduction",
       "heading": {
         "en": "Solar Farm Fastener Procurement: Volume, Speed, and the Cost of a Wrong Bolt",
-        "zh": "光伏电站紧固件采购：量、速度与选错螺栓的代价"
+        "zh": "光伏电站紧固件采购：量、速度与选错螺栓的代价",
+        "ar": "شراء مثبتات مزارع الطاقة الشمسية: الحجم والسرعة وتكلفة البرغي الخطأ",
+        "es": "Compra de fijaciones para parques solares: volumen, velocidad y el coste del perno equivocado",
+        "fr": "Achat de fixations pour fermes solaires : volume, vitesse et coût du mauvais boulon",
+        "pt": "Compra de fixações para parques solares: volume, velocidade e o custo do parafuso errado"
       },
       "body": {
         "en": "Utility-scale solar is a fastener business disguised as an energy business. A single project can consume hundreds of thousands of bolts, nuts, and clamps, and the mounting structure is assembled by crews who are paid for speed. That combination makes two things decisive: <strong>supply reliability</strong> and <strong>assembly consistency</strong>.<p>A bolt that arrives late stops a crew; a bolt that does not fit stops the same crew and also generates a change order. Procurement planning here is less about unit price than about protecting the installation schedule.</p>",
-        "zh": "公用事业级光伏本质上是“伪装成能源生意的紧固件生意”。单个项目可能消耗几十万颗螺栓、螺母和压块，而支架由按速度计酬的施工队组装。这使两件事变得决定性：<strong>供货可靠性</strong>与<strong>装配一致性</strong>。<p>晚到的螺栓会让施工队停工；装不上的螺栓同样让施工队停工，还会产生变更单。这里的采购计划与其说在比单价，不如说在保护安装进度。</p>"
+        "zh": "公用事业级光伏本质上是“伪装成能源生意的紧固件生意”。单个项目可能消耗几十万颗螺栓、螺母和压块，而支架由按速度计酬的施工队组装。这使两件事变得决定性：<strong>供货可靠性</strong>与<strong>装配一致性</strong>。<p>晚到的螺栓会让施工队停工；装不上的螺栓同样让施工队停工，还会产生变更单。这里的采购计划与其说在比单价，不如说在保护安装进度。</p>",
+        "ar": "الطاقة الشمسية على نطاق المرافق تجارة مثبتات في ثوب تجارة طاقة. فالمشروع الواحد قد يستهلك مئات الآلاف من البراغي والصواميل والمشابك، والهيكل يجمعه فريق يُدفع له بالسرعة. وهذا التركيب يجعل أمرين حاسمين: <strong>موثوقية التوريد</strong> و<strong>انتظام التجميع</strong>.<p>فبرغي يصل متأخرًا يوقف فريقًا؛ وبرغي لا يطابق يوقف الفريق نفسه ويزيد أمر تغيير. والتخطيط هنا أقل صلة بسعر الوحدة وأكثر بحماية جدول التركيب.</p>",
+        "es": "La solar a escala utility es un negocio de fijaciones disfrazado de negocio energético. Un solo proyecto puede consumir cientos de miles de pernos, tuercas y abrazaderas, y la estructura de montaje la arman cuadrillas a las que se paga por velocidad. Esa combinación hace decisivas dos cosas: <strong>fiabilidad de suministro</strong> y <strong>consistencia de montaje</strong>.<p>Un perno que llega tarde detiene a una cuadrilla; un perno que no encaja detiene a la misma cuadrilla y además genera una orden de cambio. Planificar aquí tiene menos que ver con el precio unitario que con proteger el calendario de instalación.</p>",
+        "fr": "Le solaire à l'échelle utility est un métier de fixations déguisé en métier de l'énergie. Un projet peut consommer des centaines de milliers de boulons, écrous et pinces, et la structure de montage est assemblée par des équipes payées à la vitesse. Cette combinaison rend deux choses décisives : <strong>la fiabilité d'approvisionnement</strong> et <strong>la régularité du montage</strong>.<p>Un boulon livré en retard arrête une équipe ; un boulon qui ne s'ajuste pas arrête la même équipe et génère en plus un avenant. La planification d'achat ici porte moins sur le prix unitaire que sur la protection du calendrier de pose.</p>",
+        "pt": "O solar à escala utility é um negócio de fixações disfarçado de negócio de energia. Um único projeto pode consumir centenas de milhares de parafusos, porcas e abraçadeiras, e a estrutura de montagem é montada por equipas pagas à velocidade. Essa combinação torna duas coisas decisivas: <strong>fiabilidade de fornecimento</strong> e <strong>consistência de montagem</strong>.<p>Um parafuso que chega tarde para uma equipa; um parafuso que não assenta para a mesma equipa e ainda gera uma alteração de encomenda. O planeamento aqui tem menos de preço unitário do que de proteger o calendário de instalação.</p>"
       }
     },
     {
       "id": "product-mix",
       "heading": {
         "en": "The Bill of Materials Behind a Mounting Structure",
-        "zh": "支架背后的物料清单"
+        "zh": "支架背后的物料清单",
+        "ar": "قائمة المواد خلف هيكل التركيب",
+        "es": "La lista de materiales de una estructura de montaje",
+        "fr": "La nomenclature derrière une structure de montage",
+        "pt": "A lista de materiais por trás de uma estrutura de montagem"
       },
       "body": {
         "en": "A typical fixed-tilt or tracker structure draws on a narrow set of items: foundation bolts and anchor assemblies, module clamps and mid-clamps, rail-to-purlin fasteners, and structural bolts for torque-tube connections. Grades cluster at 8.8 with hot-dip galvanizing as the default coating, and stainless where coastal exposure or specific module hardware requires it.<p>Because the item count is small and the volume is large, the risk is not variety — it is consistency. Bolts sourced from two production runs can differ in coating thickness and thread fit, and that difference shows up as stripped nuts in the field.</p>",
-        "zh": "典型的固定支架或跟踪支架结构只用到很少的品类：基础螺栓与锚固组件、组件压块与中压块、导轨到檩条的紧固件，以及扭矩管连接的结构螺栓。等级集中在 8.8，热浸镀锌是默认镀层，沿海暴露或特定组件五金要求时用不锈钢。<p>因为品类少而量大，风险不在多样性，而在一致性。来自两个生产批次的螺栓可能在镀层厚度和螺纹配合上有差异，而这种差异在工地表现为螺母滑牙。</p>"
+        "zh": "典型的固定支架或跟踪支架结构只用到很少的品类：基础螺栓与锚固组件、组件压块与中压块、导轨到檩条的紧固件，以及扭矩管连接的结构螺栓。等级集中在 8.8，热浸镀锌是默认镀层，沿海暴露或特定组件五金要求时用不锈钢。<p>因为品类少而量大，风险不在多样性，而在一致性。来自两个生产批次的螺栓可能在镀层厚度和螺纹配合上有差异，而这种差异在工地表现为螺母滑牙。</p>",
+        "ar": "الهيكل الثابت أو المتتبع المعتاد يعتمد مجموعة ضيقة: براغي أساسات وأطقم تثبيت، ومشابك ألواح ومشابك وسطية، ومثبتات سكة-مدادة، وبراغي إنشائية لوصلات أنبوب الالتواء. وتتركز الدرجات في 8.8 مع الجلفنة بالغمس الحار طلاءً افتراضيًا، والستانلس حيث تفرضه التعرض الساحلي أو أجهزة لوح معينة.<p>ولأن عدد البنود قليل والحجم كبير فالخطر ليس التنوع بل الانتظام. فبراغي من دورتي إنتاج قد تختلف في سماكة الطلاء ومطابقة اللولب، ويظهر الفرق في الموقع كصواميل مهترئة.</p>",
+        "es": "Una estructura fija o de seguidor típica tira de un conjunto estrecho: pernos de cimentación y conjuntos de anclaje, abrazaderas de módulo y abrazaderas centrales, fijaciones riel-corriente y pernos estructurales para uniones de tubo de torsión. Las clases se agrupan en 8.8 con galvanizado en caliente como recubrimento por defecto, e inoxidable donde la exposición costera o un herraje concreto de módulo lo exige.<p>Como el número de referencias es pequeño y el volumen grande, el riesgo no es la variedad sino la consistencia. Pernos de dos tiradas de producción pueden diferir en espesor de recubrimento y ajuste de rosca, y esa diferencia aparece en obra como tuercas barridas.</p>",
+        "fr": "Une structure fixe ou à tracker typique puise dans un ensemble étroit : boulons de fondation et ensembles d'ancrage, pinces de module et pinces centrales, fixations rail-panne et boulons structurels pour les liaisons de tube de torsion. Les nuances se regroupent en 8.8 avec la galvanisation à chaud comme revêtement par défaut, et l'inox là où l'exposition côtière ou un matériel de module précis l'exige.<p>Comme le nombre de références est faible et le volume élevé, le risque n'est pas la variété mais la régularité. Des boulons issus de deux lots de production peuvent différer en épaisseur de revêtement et en ajustement de filetage, et cette différence apparaît sur site sous forme d'écrous arrondis.</p>",
+        "pt": "Uma estrutura fixa ou de seguidor típica recorre a um conjunto estreito: parafusos de fundação e conjuntos de ancoragem, abraçadeiras de módulo e abraçadeiras centrais, fixações calha-montante e parafusos estruturais para ligações de tubo de torsão. As classes agrupam-se em 8.8 com galvanização a quente como revestimento por defeito, e inox onde a exposição costeira ou um hardware de módulo específico o exige.<p>Como o número de referências é pequeno e o volume é grande, o risco não é a variedade mas a consistência. Parafusos de duas tiragens de produção podem diferir em espessura de revestimento e ajuste de rosca, e essa diferença aparece em obra como porcas estriadas.</p>"
       }
     },
     {
       "id": "logistics",
       "heading": {
         "en": "Delivering to Site: The Sequence Problem",
-        "zh": "交付到现场：顺序问题"
+        "zh": "交付到现场：顺序问题",
+        "ar": "التسليم للموقع: مشكلة التسلسل",
+        "es": "Entrega en obra: el problema de la secuencia",
+        "fr": "Livrer sur site : le problème de séquence",
+        "pt": "Entrega em obra: o problema da sequência"
       },
       "body": {
         "en": "Solar sites are built in blocks, and each block needs its fasteners before the module lift. Ship in block sequence with quantities kitted per block rather than delivering one enormous mixed container. Kitting costs a little at origin and saves a great deal at site, because sorting tens of thousands of mixed fasteners in the field costs crew hours that nobody budgets for.<p>Also plan for the tail. The last five percent of a fastener order is the part that always causes a scramble, so hold a defined buffer at the project warehouse rather than relying on a resupply that has to clear customs.</p>",
-        "zh": "光伏现场是按区块建设的，每个区块在组件吊装前都要拿到自己的紧固件。要按区块顺序发运、按区块配齐数量，而不是一次性发一个巨大的混装柜。配装成本在起运地很小，在现场省下的却很多，因为现场从几万件混料里分拣要花掉没人预算过的工时。<p>还要为“尾部”做计划。订单最后 5% 永远是最容易出乱子的部分，因此要在项目仓库留出明确缓冲，而不是依赖需要清关的补货。</p>"
+        "zh": "光伏现场是按区块建设的，每个区块在组件吊装前都要拿到自己的紧固件。要按区块顺序发运、按区块配齐数量，而不是一次性发一个巨大的混装柜。配装成本在起运地很小，在现场省下的却很多，因为现场从几万件混料里分拣要花掉没人预算过的工时。<p>还要为“尾部”做计划。订单最后 5% 永远是最容易出乱子的部分，因此要在项目仓库留出明确缓冲，而不是依赖需要清关的补货。</p>",
+        "ar": "تُبنى مواقع الشمس بالكتل، وكل كتلة تحتاج مثبتاتها قبل رفع اللوح. فاشحن بتسلسل الكتلة وبكميات مُجمّعة لكل كتلة بدل تسليم حاوية واحدة ضخمة مختلطة. والتجميع المسبق يكلف قليلًا في المصدر ويوفر كثيرًا في الموقع، لأن فرز عشرات الآلاف من المثبتات المختلطة في الميدان يستهلك ساعات فريق لا يضعها أحد في الموازنة.<p>وخطّط للذيل أيضًا. فالخمسة بالمئة الأخيرة من طلب المثبتات هي الجزء الذي يسبب دائمًا هرجًا، فاحفظ مخزونًا احتياطيًا محددًا في مستودع المشروع بدل الاعتماد على إعادة توريد تمر بالجمارك.</p>",
+        "es": "Las obras solares se construyen por bloques, y cada bloque necesita sus fijaciones antes de izar el módulo. Envíe en secuencia de bloque con cantidades kitadas por bloque, en lugar de entregar un contenedor único gigante y mezclado. Kitear cuesta un poco en origen y ahorra mucho en obra, porque separar decenas de miles de fijaciones mezcladas en campo consume horas de cuadrilla que nadie presupuesta.<p>Planifique también la cola. El último cinco por ciento de un pedido de fijaciones es la parte que siempre provoca carreras, así que mantenga un colchón definido en el almacén de obra en lugar de confiar en un reenvío que deba pasar aduana.</p>",
+        "fr": "Les sites solaires se construisent par blocs, et chaque bloc a besoin de ses fixations avant le levage des modules. Expédiez en séquence de bloc avec des quantités kitées par bloc, plutôt que de livrer un conteneur unique énorme et mélangé. Le kitage coûte un peu à l'origine et rapporte beaucoup sur site, car trier des dizaines de milliers de fixations mélangées en plein champ consomme des heures d'équipe que personne ne budgète.<p>Prévoyez aussi la queue de commande. Les cinq derniers pour cent d'un lot de fixations sont la partie qui provoque toujours la panique : gardez un tampon défini à l'entrepôt du projet plutôt que de compter sur un réapprovisionnement qui devra passer la douane.</p>",
+        "pt": "As obras solares são construídas por blocos, e cada bloco precisa das suas fixações antes do içamento do módulo. Envie em sequência de bloco com quantidades kitadas por bloco, em vez de entregar um contentor único enorme e misturado. Kitear custa um pouco na origem e poupa muito em obra, porque separar dezenas de milhares de fixações misturadas em campo consome horas de equipa que ninguém orçamenta.<p>Planeie também a cauda. Os últimos cinco por cento de uma encomenda de fixações são a parte que provoca sempre correrias, pelo que deve manter um colchão definido no armazém da obra em vez de contar com um reenvio que tenha de passar alfândega.</p>"
       }
     },
     {
       "id": "quality",
       "heading": {
         "en": "What to Inspect, and When",
-        "zh": "验什么，什么时候验"
+        "zh": "验什么，什么时候验",
+        "ar": "ما يُفحص ومتى",
+        "es": "Qué inspeccionar y cuándo",
+        "fr": "Quoi inspecter, et quand",
+        "pt": "O que inspecionar, e quando"
       },
       "body": {
         "en": "Inspect at three points: coating thickness at origin, dimensional fit on a sample from each production lot, and torque behaviour during the first installation block. The third check is the useful one — it finds the combination of coating, lubricity, and thread tolerance that a dimensional report alone will miss.<p>Specify the torque values in writing and require the supplier to state the assumed lubricity, because the same bolt tightened dry and lubricated behaves differently and the field crew will not know which assumption you made.</p>",
-        "zh": "在三个节点检验：起运地的镀层厚度、每个生产批次抽样做尺寸配合、以及首个安装区块的扭矩表现。第三项最有用——它能发现单纯的尺寸报告看不出来的镀层、润滑性与螺纹公差的组合问题。<p>扭矩值要书面规定，并要求供应商写明所假设的润滑状态，因为同一颗螺栓干拧和涂润滑剂的表现不同，现场施工队并不知道你按哪种假设定的扭矩。</p>"
+        "zh": "在三个节点检验：起运地的镀层厚度、每个生产批次抽样做尺寸配合、以及首个安装区块的扭矩表现。第三项最有用——它能发现单纯的尺寸报告看不出来的镀层、润滑性与螺纹公差的组合问题。<p>扭矩值要书面规定，并要求供应商写明所假设的润滑状态，因为同一颗螺栓干拧和涂润滑剂的表现不同，现场施工队并不知道你按哪种假设定的扭矩。</p>",
+        "ar": "افحص في ثلاث نقاط: سماكة الطلاء عند المصدر، والمطابقة البعدية على عينة من كل دفعة إنتاج، وسلوك العزم أثناء أول كتلة تركيب. والثالث هو المفيد: يكتشف تركيبة الطلاء واللزوجة وتسامح اللولب التي يفوتها تقرير الأبعاد وحده.<p>وحدد قيم العزم كتابةً واطلب من المورد إعلان اللزوجة المفترضة، لأن البرغي نفسه يُشد جافًا ومزلقًا فيختلف سلوكه ولن يعرف الفريق أي افتراض استخدمت.</p>",
+        "es": "Inspeccione en tres puntos: espesor de recubrimento en origen, ajuste dimensional sobre muestra de cada lote de producción y comportamiento de par durante el primer bloque de instalación. El tercero es el útil: encuentra la combinación de recubrimento, lubricidad y tolerancia de rosca que un informe dimensional solo dejará pasar.<p>Especifique los valores de par por escrito y exija al proveedor que declare la lubricidad supuesta, porque el mismo perno apretado en seco y lubricado se comporta distinto y la cuadrilla no sabrá qué hipótesis hizo usted.</p>",
+        "fr": "Inspectez en trois points : épaisseur de revêtement à l'origine, ajustement dimensionnel sur un échantillon de chaque lot de production, et comportement au couple pendant le premier bloc de pose. Le troisième est le plus utile : il révèle la combinaison revêtement, lubrification et tolérance de filetage qu'un rapport dimensionnel seul laisse passer.<p>Spécifiez les valeurs de couple par écrit et exigez du fournisseur qu'il déclare l'hypothèse de lubrification, car le même boulon serré à sec et lubrifié se comporte différemment et l'équipe sur site ne saura pas quelle hypothèse vous avez retenue.</p>",
+        "pt": "Inspecione em três pontos: espessura de revestimento na origem, ajuste dimensional numa amostra de cada lote de produção e comportamento de binário durante o primeiro bloco de instalação. O terceiro é o útil: encontra a combinação de revestimento, lubricidade e tolerância de rosca que um relatório dimensional sozinho deixa passar.<p>Especifique os valores de binário por escrito e exija ao fornecedor que declare a lubricidade pressuposta, porque o mesmo parafuso apertado a seco e lubrificado comporta-se de forma diferente e a equipa não saberá que hipótese usou.</p>"
       }
     },
     {
       "id": "cost",
       "heading": {
         "en": "Where the Money Actually Goes",
-        "zh": "钱到底花在哪里"
+        "zh": "钱到底花在哪里",
+        "ar": "أين يذهب المال فعليًا",
+        "es": "Dónde va realmente el dinero",
+        "fr": "Où va réellement l'argent",
+        "pt": "Onde vai realmente o dinheiro"
       },
       "body": {
         "en": "Unit price is a small part of the cost equation once installation speed is included. A cheaper bolt that needs rework, or that arrives in mixed cartons requiring site sorting, can cost more in labour than the entire price difference.<p>The practical approach is to price landed and kitted: include freight, coating verification, per-block kitting, and a buffer allowance in the comparison. That comparison usually favours the supplier who can guarantee consistency, and it is the only number that survives contact with a construction schedule.</p>",
-        "zh": "一旦把安装速度算进来，单价在成本等式里只占很小一部分。需要返工的便宜螺栓，或者以混装纸箱到货、要在现场分拣的螺栓，其人工成本可能超过全部的价差。<p>可行的方法是按“到岸+配装”来比价：把运费、镀层验证、按区块配装和缓冲预留都计入比较。这样的比较通常偏向能保证一致性的供应商，而且这是唯一能经受施工进度检验的数字。</p>"
+        "zh": "一旦把安装速度算进来，单价在成本等式里只占很小一部分。需要返工的便宜螺栓，或者以混装纸箱到货、要在现场分拣的螺栓，其人工成本可能超过全部的价差。<p>可行的方法是按“到岸+配装”来比价：把运费、镀层验证、按区块配装和缓冲预留都计入比较。这样的比较通常偏向能保证一致性的供应商，而且这是唯一能经受施工进度检验的数字。</p>",
+        "ar": "سعر الوحدة جزء صغير من المعادلة عند إدخال سرعة التركيب. فبرغي أرخص يحتاج إعادة عمل، أو يصل بكراتين مختلطة تفرض فرزًا في الموقع، قد يكلف في العمل أكثر من كل فرق السعر.<p>والنهج العملي التسعير واصلًا ومُجمّعًا: أدخل الشحن والتحقق من الطلاء والتجميع لكل كتلة وبدل احتياطي في المقارنة. وهذه المقارنة ترجّح عادة المورد القادر على ضمان الانتظام، وهي الرقم الوحيد الذي يصمد أمام جدول بناء.</p>",
+        "es": "El precio unitario es una parte pequeña de la ecuación cuando se incluye la velocidad de instalación. Un perno más barato que exige retrabajo, o que llega en cajas mezcladas y obliga a separar en obra, puede costar en mano de obra más que toda la diferencia de precio.<p>El enfoque práctico es cotizar puesto y kitado: incluya flete, verificación de recubrimento, kitado por bloque y una provisión de colchón en la comparación. Esa comparación suele favorecer al proveedor capaz de garantizar consistencia, y es el único número que sobrevive al contacto con un calendario de obra.</p>",
+        "fr": "Le prix unitaire est une petite part de l'équation dès qu'on inclut la vitesse de pose. Un boulon moins cher qui exige de la reprise, ou qui arrive dans des cartons mélangés imposant un tri sur site, peut coûter en main-d'œuvre plus que tout l'écart de prix.<p>L'approche pratique est de chiffrer rendu et kité : intégrez fret, vérification du revêtement, kitage par bloc et une provision de tampon dans la comparaison. Cette comparaison favorise généralement le fournisseur capable de garantir la régularité, et c'est le seul chiffre qui survive au contact d'un calendrier de chantier.</p>",
+        "pt": "O preço unitário é uma parte pequena da equação quando se inclui a velocidade de instalação. Um parafuso mais barato que exige retrabalho, ou que chega em caixas misturadas e obriga a triagem em obra, pode custar em mão de obra mais do que toda a diferença de preço.<p>A abordagem prática é cotar posto e kitado: inclua frete, verificação de revestimento, kitagem por bloco e uma provisão de colchão na comparação. Essa comparação favorece geralmente o fornecedor capaz de garantir consistência, e é o único número que sobrevive ao contacto com um calendário de obra.</p>"
       }
     }
   ],

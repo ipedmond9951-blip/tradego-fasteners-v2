@@ -1,0 +1,40 @@
+{
+  "slug": "africa-solar-farm-fastener-procurement-guide",
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": { "fr": "Achat de fixations pour fermes solaires : volume, vitesse et coût du mauvais boulon" },
+      "body": {
+        "fr": "Le solaire à l'échelle utility est un métier de fixations déguisé en métier de l'énergie. Un projet peut consommer des centaines de milliers de boulons, écrous et pinces, et la structure de montage est assemblée par des équipes payées à la vitesse. Cette combinaison rend deux choses décisives : <strong>la fiabilité d'approvisionnement</strong> et <strong>la régularité du montage</strong>.<p>Un boulon livré en retard arrête une équipe ; un boulon qui ne s'ajuste pas arrête la même équipe et génère en plus un avenant. La planification d'achat ici porte moins sur le prix unitaire que sur la protection du calendrier de pose.</p>"
+      }
+    },
+    {
+      "id": "product-mix",
+      "heading": { "fr": "La nomenclature derrière une structure de montage" },
+      "body": {
+        "fr": "Une structure fixe ou à tracker typique puise dans un ensemble étroit : boulons de fondation et ensembles d'ancrage, pinces de module et pinces centrales, fixations rail-panne et boulons structurels pour les liaisons de tube de torsion. Les nuances se regroupent en 8.8 avec la galvanisation à chaud comme revêtement par défaut, et l'inox là où l'exposition côtière ou un matériel de module précis l'exige.<p>Comme le nombre de références est faible et le volume élevé, le risque n'est pas la variété mais la régularité. Des boulons issus de deux lots de production peuvent différer en épaisseur de revêtement et en ajustement de filetage, et cette différence apparaît sur site sous forme d'écrous arrondis.</p>"
+      }
+    },
+    {
+      "id": "logistics",
+      "heading": { "fr": "Livrer sur site : le problème de séquence" },
+      "body": {
+        "fr": "Les sites solaires se construisent par blocs, et chaque bloc a besoin de ses fixations avant le levage des modules. Expédiez en séquence de bloc avec des quantités kitées par bloc, plutôt que de livrer un conteneur unique énorme et mélangé. Le kitage coûte un peu à l'origine et rapporte beaucoup sur site, car trier des dizaines de milliers de fixations mélangées en plein champ consomme des heures d'équipe que personne ne budgète.<p>Prévoyez aussi la queue de commande. Les cinq derniers pour cent d'un lot de fixations sont la partie qui provoque toujours la panique : gardez un tampon défini à l'entrepôt du projet plutôt que de compter sur un réapprovisionnement qui devra passer la douane.</p>"
+      }
+    },
+    {
+      "id": "quality",
+      "heading": { "fr": "Quoi inspecter, et quand" },
+      "body": {
+        "fr": "Inspectez en trois points : épaisseur de revêtement à l'origine, ajustement dimensionnel sur un échantillon de chaque lot de production, et comportement au couple pendant le premier bloc de pose. Le troisième est le plus utile : il révèle la combinaison revêtement, lubrification et tolérance de filetage qu'un rapport dimensionnel seul laisse passer.<p>Spécifiez les valeurs de couple par écrit et exigez du fournisseur qu'il déclare l'hypothèse de lubrification, car le même boulon serré à sec et lubrifié se comporte différemment et l'équipe sur site ne saura pas quelle hypothèse vous avez retenue.</p>"
+      }
+    },
+    {
+      "id": "cost",
+      "heading": { "fr": "Où va réellement l'argent" },
+      "body": {
+        "fr": "Le prix unitaire est une petite part de l'équation dès qu'on inclut la vitesse de pose. Un boulon moins cher qui exige de la reprise, ou qui arrive dans des cartons mélangés imposant un tri sur site, peut coûter en main-d'œuvre plus que tout l'écart de prix.<p>L'approche pratique est de chiffrer rendu et kité : intégrez fret, vérification du revêtement, kitage par bloc et une provision de tampon dans la comparaison. Cette comparaison favorise généralement le fournisseur capable de garantir la régularité, et c'est le seul chiffre qui survive au contact d'un calendrier de chantier.</p>"
+      }
+    }
+  ]
+}

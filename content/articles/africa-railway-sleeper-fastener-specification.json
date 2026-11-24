@@ -105,55 +105,95 @@
       "id": "introduction",
       "heading": {
         "en": "Railway Sleeper Fastening: Why the Specification Is the Whole Job",
-        "zh": "轨枕扣件：为什么规范本身就是全部工作"
+        "zh": "轨枕扣件：为什么规范本身就是全部工作",
+        "ar": "تثبيت المثبتات على العوارض: لماذا المواصفة هي كل العمل",
+        "es": "Fijación a traviesa: por qué la especificación lo es todo",
+        "fr": "Fixation sur traverse : pourquoi la spécification fait tout",
+        "pt": "Fixação em travessa: porque a especificação é tudo"
       },
       "body": {
         "en": "A rail fastening system is a chain of small decisions that all have to agree: the sleeper type, the pad, the clip or fastening, the hole or insert, and the torque that ties them together. Get one element wrong and the track holds until it doesn't — and then the failure is expensive to find and expensive to repair.<p>This guide covers the elements a specification has to nail down, in the order a project engineer usually evaluates them.</p>",
-        "zh": "轨道扣件系统是一串必须彼此吻合的小决定：轨枕类型、垫板、弹条或扣件、预留孔或预埋套管，以及把它们连在一起的扭矩。任何一环出错，轨道都会先“看起来没问题”，然后在某个时刻出问题——而那时的查找和修复都很贵。<p>本文按项目工程师通常评估的顺序，讲清一份规范必须钉死的要素。</p>"
+        "zh": "轨道扣件系统是一串必须彼此吻合的小决定：轨枕类型、垫板、弹条或扣件、预留孔或预埋套管，以及把它们连在一起的扭矩。任何一环出错，轨道都会先“看起来没问题”，然后在某个时刻出问题——而那时的查找和修复都很贵。<p>本文按项目工程师通常评估的顺序，讲清一份规范必须钉死的要素。</p>",
+        "ar": "نظام تثبيت السكة سلسلة قرارات صغيرة يجب أن تتفق: نوع العارضة والوسادة والمشبك أو التثبيت والثقب أو الإدراج والعزم الذي يربطها. فإن أخطأت عنصرًا واحدًا صمد الخط حتى لا يصمد، وحينها يصعب اكتشاف الانهيار ويصعب إصلاحه.<p>ويغطي هذا الدليل العناصر التي يجب أن تثبتها المواصفة بالترتيب الذي يقيّمها به مهندس المشروع عادة.</p>",
+        "es": "Un sistema de fijación ferroviaria es una cadena de decisiones pequeñas que deben concordar: tipo de traviesa, placa, clip o sujeción, taladro o inserto y el par que las ata. Falle un elemento y la vía aguanta hasta que deja de aguantar; y entonces el fallo es caro de localizar y caro de reparar.<p>Esta guía cubre los elementos que una especificación debe fijar, en el orden en que un ingeniero de proyecto los evalúa habitualmente.</p>",
+        "fr": "Un système de fixation ferroviaire est une chaîne de petites décisions qui doivent s'accorder : type de traverse, semelle, attache ou fixation, trou ou insert, et le couple qui les lie. Un seul élément faux et la voie tient jusqu'à ce qu'elle ne tienne plus — et la défaillance coûte cher à localiser puis à réparer.<p>Ce guide couvre les éléments qu'une spécification doit verrouiller, dans l'ordre où un ingénieur projet les évalue habituellement.</p>",
+        "pt": "Um sistema de fixação ferroviária é uma cadeia de decisões pequenas que têm de concordar: tipo de travessa, almofada, clip ou fixação, furo ou inserto e o binário que as liga. Falhe um elemento e a via aguenta até deixar de aguentar — e então a falha é cara de localizar e cara de reparar.<p>Este guia cobre os elementos que uma especificação tem de fixar, na ordem em que um engenheiro de projeto os avalia habitualmente.</p>"
       }
     },
     {
       "id": "system-types",
       "heading": {
         "en": "Which Sleeper System Are You Actually Specifying For?",
-        "zh": "你实际是在为哪种轨枕系统做规范"
+        "zh": "你实际是在为哪种轨枕系统做规范",
+        "ar": "لأي نظام عوارض تحدد المواصفة فعلًا؟",
+        "es": "¿Para qué sistema de traviesa especifica realmente?",
+        "fr": "Pour quel système de traverse spécifiez-vous vraiment ?",
+        "pt": "Para que sistema de travessa está realmente a especificar?"
       },
       "body": {
         "en": "Concrete sleepers, timber sleepers, and steel sleepers each carry different fastening logic. Concrete sleepers typically use cast-in shoulders or inserts with elastic rail clips; timber sleepers rely on screw spikes, drive spikes, or base plates; steel sleepers use clips or bolts through the sleeper section.<p>The specification must name the system, not just the fastener, because a clip dimensioned for one shoulder will not seat correctly in another. Mixing components from different systems is the single most common source of track geometry problems in new construction.</p>",
-        "zh": "混凝土枕、木枕和钢枕各自对应不同的扣件逻辑。混凝土枕通常用预埋挡肩或套管配弹性扣件；木枕依赖螺纹道钉、普通道钉或底板；钢枕用弹条或螺栓穿过枕型截面。<p>规范必须写明系统，而不只是紧固件，因为按某一种挡肩设计的弹条无法在另一种挡肩上正确就位。不同系统混用部件，是新建线路里轨道几何问题最常见的单一来源。</p>"
+        "zh": "混凝土枕、木枕和钢枕各自对应不同的扣件逻辑。混凝土枕通常用预埋挡肩或套管配弹性扣件；木枕依赖螺纹道钉、普通道钉或底板；钢枕用弹条或螺栓穿过枕型截面。<p>规范必须写明系统，而不只是紧固件，因为按某一种挡肩设计的弹条无法在另一种挡肩上正确就位。不同系统混用部件，是新建线路里轨道几何问题最常见的单一来源。</p>",
+        "ar": "عوارض الخرسانة والخشب والفولاذ لكل منها منطق تثبيت مختلف. فالخرسانية تستخدم عادة أكتافًا أو إدراجات مصبوبة مع مشابك مرنة؛ والخشبية تعتمد على مسامير لولبية أو مسامير دق أو ألواح قاعدة؛ والفولاذية تستخدم مشابك أو براغي عبر المقطع.<p>ويجب أن تسمّي المواصفة النظام لا المثبت وحده، لأن مشبكًا بأبعاد كتف معين لا يستقر صحيحًا في كتف آخر. وخلط مكونات أنظمة مختلفة هو السبب الأكثر شيوعًا لمشاكل هندسة الخط في الإنشاء الجديد.</p>",
+        "es": "Traviesas de hormigón, de madera y de acero llevan lógicas de fijación distintas. Las de hormigón usan normalmente hombros o insertos colados con clips elásticos; las de madera se apoyan en tirafondos, clavos de fijación o placas base; las de acero usan clips o pernos a través de la sección.<p>La especificación debe nombrar el sistema, no solo la fijación, porque un clip dimensionado para un hombro no asienta correctamente en otro. Mezclar componentes de sistemas diferentes es la causa más común de problemas de geometría de vía en obra nueva.</p>",
+        "fr": "Traverses béton, bois et acier portent des logiques de fixation différentes. Les traverses béton utilisent en général des épaules ou inserts coulés avec attaches élastiques ; les bois reposent sur tire-points, pointes de fixation ou plaques de base ; les aciers utilisent attaches ou boulons traversant la section.<p>La spécification doit nommer le système, pas seulement la fixation, car une attache dimensionnée pour une épaule ne s'assiéra pas correctement sur une autre. Mélanger des composants de systèmes différents est la source la plus fréquente de problèmes de géométrie de voie en construction neuve.</p>",
+        "pt": "Travessas de betão, madeira e aço têm lógicas de fixação diferentes. As de betão usam normalmente ombros ou insertos betonados com clips elásticos; as de madeira baseiam-se em tirafondos, pregos de fixação ou placas base; as de aço usam clips ou parafusos através da secção.<p>A especificação deve nomear o sistema, não apenas a fixação, porque um clip dimensionado para um ombro não assenta corretamente noutro. Misturar componentes de sistemas diferentes é a causa mais comum de problemas de geometria de via em obra nova.</p>"
       }
     },
     {
       "id": "materials",
       "heading": {
         "en": "Material and Coating: The Corrosion Decision",
-        "zh": "材质与镀层：防腐蚀这个决定"
+        "zh": "材质与镀层：防腐蚀这个决定",
+        "ar": "المادة والطلاء: قرار التآكل",
+        "es": "Material y recubrimiento: la decisión de corrosión",
+        "fr": "Matériau et revêtement : la décision corrosion",
+        "pt": "Material e revestimento: a decisão de corrosão"
       },
       "body": {
         "en": "Rail fastenings live outdoors for decades and are routinely wet, which makes coating selection more consequential than the base steel grade in most climates. Hot-dip galvanizing covers general service; heavy-duty or coastal corridors often need thicker coatings or stainless components at the clip and insulator interface.<p>Pay attention to contact points. Coating damage at the clip-to-shoulder contact and at the pad seat is where corrosion begins, so specify handling and assembly practice as part of the coating requirement, not separately from it.</p>",
-        "zh": "轨道扣件要在户外服役几十年且经常处于潮湿状态，因此在多数气候下，镀层选择比钢材本身等级更关键。热浸镀锌覆盖常规工况；重载或沿海走廊常需要更厚的镀层，或在弹条与绝缘件界面使用不锈钢部件。<p>要关注接触点。腐蚀往往从弹条与挡肩接触处、以及垫板座处的镀层破损开始，因此应把搬运和装配工艺写进镀层要求，而不是分开写。</p>"
+        "zh": "轨道扣件要在户外服役几十年且经常处于潮湿状态，因此在多数气候下，镀层选择比钢材本身等级更关键。热浸镀锌覆盖常规工况；重载或沿海走廊常需要更厚的镀层，或在弹条与绝缘件界面使用不锈钢部件。<p>要关注接触点。腐蚀往往从弹条与挡肩接触处、以及垫板座处的镀层破损开始，因此应把搬运和装配工艺写进镀层要求，而不是分开写。</p>",
+        "ar": "تعيش مثبتات السكة في العراء عقودًا وتكون مبللة بانتظام، ما يجعل اختيار الطلاء أهم من درجة الفولاذ الأساسي في معظم المناخات. والجلفنة بالغمس الحار تغطي الخدمة العامة؛ أما الممرات الساحلية أو الثقيلة فتحتاج غالبًا طلاءات أسمك أو مكونات ستانلس عند واجهة المشبك والعازل.<p>وانتبه إلى نقاط التلامس. فتلف الطلاء عند تلامس المشبك والكتف وعند مقعد الوسادة هو منشأ التآكل، فحدد ممارسات المناولة والتجميع كجزء من متطلب الطلاء لا منفصلة عنه.</p>",
+        "es": "Las fijaciones ferroviarias viven a la intemperie durante décadas y están mojadas de forma habitual, lo que en la mayoría de climas hace que la elección de recubrimento pese más que la clase del acero base. El galvanizado en caliente cubre el servicio general; los corredores costeros o de servicio pesado necesitan a menudo recubrimentos más gruesos o componentes inox en la interfaz clip-aislante.<p>Preste atención a los puntos de contacto. El daño de recubrimento en el contacto clip-hombro y en el asiento de la placa es donde empieza la corrosión, así que especifique prácticas de manejo y montaje como parte del requisito de recubrimento, no por separado.</p>",
+        "fr": "Les fixations ferroviaires vivent en extérieur pendant des décennies et sont mouillées en permanence, ce qui rend le choix du revêtement plus déterminant que la nuance d'acier de base dans la plupart des climats. La galvanisation à chaud couvre le service courant ; les corridors côtiers ou à service lourd demandent souvent des revêtements plus épais ou des composants inox à l'interface attache-isolant.<p>Attention aux points de contact. L'endommagement du revêtement au contact attache-épaule et à l'assise de semelle est là où la corrosion commence : spécifiez les pratiques de manutention et de montage comme partie de l'exigence de revêtement, pas à part.</p>",
+        "pt": "As fixações ferroviárias vivem ao tempo durante décadas e estão molhadas de forma rotineira, o que na maioria dos climas faz o revestimento pesar mais do que a classe do aço base. A galvanização a quente cobre o serviço geral; corredores costeiros ou de serviço pesado precisam muitas vezes de revestimentos mais espessos ou componentes inox na interface clip-isolador.<p>Preste atenção aos pontos de contacto. O dano de revestimento no contacto clip-ombro e no assento da almofada é onde a corrosão começa, pelo que deve especificar práticas de manuseio e montagem como parte do requisito de revestimento, não em separado.</p>"
       }
     },
     {
       "id": "installation",
       "heading": {
         "en": "Torque, Gap, and the Checks That Cannot Be Skipped",
-        "zh": "扭矩、间隙与不能跳过的检查"
+        "zh": "扭矩、间隙与不能跳过的检查",
+        "ar": "العزم والفراغ والفحوص التي لا تُتجاوز",
+        "es": "Par, holgura y controles inevitables",
+        "fr": "Couple, jeu et contrôles incontournables",
+        "pt": "Binário, folga e controlos incontornáveis"
       },
       "body": {
         "en": "Elastic fastenings are specified by toe load rather than by torque alone, and the two relate through the clip geometry and the pad. That is why field practice matters: a clip installed with the specified torque but sitting on a damaged pad reads correct on the wrench and wrong on the track.<p>The non-negotiable checks are the installed gap, the toe load sample test, and the visual condition of the pad and insulator. Record them at installation, because a fastening problem discovered during a possession costs a fraction of one discovered after traffic starts.</p>",
-        "zh": "弹性扣件是按扣压力（toe load）规定，而不是只看扭矩，两者通过弹条几何和垫板相关联。这正是现场做法重要的原因：按扭矩装好但垫在破损垫板上的弹条，在扳手上读数是合格的，在轨道上是错的。<p>不可省的三项检查是安装间隙、扣压力抽检，以及垫板与绝缘件的目视状态。安装时就要记录，因为封锁点内发现的扣件问题，代价只有通车后发现的一小部分。</p>"
+        "zh": "弹性扣件是按扣压力（toe load）规定，而不是只看扭矩，两者通过弹条几何和垫板相关联。这正是现场做法重要的原因：按扭矩装好但垫在破损垫板上的弹条，在扳手上读数是合格的，在轨道上是错的。<p>不可省的三项检查是安装间隙、扣压力抽检，以及垫板与绝缘件的目视状态。安装时就要记录，因为封锁点内发现的扣件问题，代价只有通车后发现的一小部分。</p>",
+        "ar": "تُحدد المثبتات المرنة بحمل الطرف لا بالعزم وحده، ويرتبط الاثنان بهندسة المشبك والوسادة. ولهذا تهم الممارسة الموقعية: فمشبك مركّب بالعزم المحدد لكنه جالس على وسادة تالفة يقرأ صحيحًا على المفتاح وخاطئًا على الخط.<p>والفحوص غير القابلة للتجاوز هي الفراغ المركّب واختبار حمل الطرف على عينة والحالة المرئية للوسادة والعازل. وسجّلها عند التركيب، لأن مشكلة تثبيت تُكتشف أثناء حجب الخط تكلف جزءًا من تلك التي تُكتشف بعد بدء الحركة.</p>",
+        "es": "Las fijaciones elásticas se especifican por carga de punta más que por par aislado, y ambas se relacionan mediante la geometría del clip y la placa. Por eso importa la práctica de campo: un clip instalado al par especificado pero apoyado sobre una placa dañada se lee bien en la llave y mal en la vía.<p>Los controles no negociables son la holgura instalada, el ensayo de carga de punta sobre muestra y el estado visual de placa y aislante. Regístrelos durante la instalación, porque un problema de fijación descubierto durante una posesión cuesta una fracción de uno descubierto con el tráfico ya circulando.</p>",
+        "fr": "Les fixations élastiques se spécifient par effort d'appui plutôt que par couple seul, et les deux sont liés par la géométrie de l'attache et de la semelle. D'où l'importance de la pratique de terrain : une attache posée au couple spécifié mais sur une semelle abîmée se lit correcte à la clé et incorrecte sur la voie.<p>Les contrôles non négociables sont le jeu installé, l'essai d'effort d'appui sur échantillon et l'état visuel de la semelle et de l'isolant. Enregistrez-les à la pose, car un problème de fixation découvert pendant une possession coûte une fraction de ce que coûte un problème découvert après la mise en circulation.</p>",
+        "pt": "As fixações elásticas especificam-se por carga de ponta mais do que por binário isolado, e ambas relacionam-se pela geometria do clip e da almofada. Por isso a prática de campo importa: um clip instalado ao binário especificado mas assente numa almofada danificada lê-se bem na chave e mal na via.<p>Os controlos não negociáveis são a folga instalada, o ensaio de carga de ponta em amostra e o estado visual de almofada e isolador. Registe-os na instalação, porque um problema de fixação descoberto durante uma possessão custa uma fração de um descoberto já com tráfego.</p>"
       }
     },
     {
       "id": "procurement",
       "heading": {
         "en": "Procurement Notes for African Rail Projects",
-        "zh": "非洲铁路项目的采购要点"
+        "zh": "非洲铁路项目的采购要点",
+        "ar": "ملاحظات الشراء لمشاريع السكك الأفريقية",
+        "es": "Notas de compra para proyectos ferroviarios africanos",
+        "fr": "Notes d'achat pour projets ferroviaires africains",
+        "pt": "Notas de compra para projetos ferroviários africanos"
       },
       "body": {
         "en": "Rail projects in Africa are usually financed and therefore inspected against a named standard — often a national railway specification, a UIC-derived document, or a donor standard. Establish which document governs before quoting, because approval of an equivalent alternative is slow and sometimes refused.<p>Logistics shape the order too. Sleepers and fastenings are heavy and bulky, so shipment planning should match installation sequence rather than factory convenience: deliver fastenings in the order the track will be laid, and keep spare clips and insulators at the same ratio as the installed quantity. Shortages on a rail job stop the whole possession, not one activity.</p>",
-        "zh": "非洲铁路项目通常有资金方，按指定标准验收——常见的是某国铁路规范、UIC 衍生文件或资金方标准。报价前先确认适用哪份文件，因为等效替代方案的审批很慢，有时直接被拒。<p>物流也会塑造订单。轨枕和扣件又重又占体积，发运计划应匹配铺轨顺序而不是工厂排产方便：按铺轨先后交付扣件，并按装机数量的比例备足弹条和绝缘件备件。铁路项目上的缺件会停掉整个封锁点，而不只是一个工序。</p>"
+        "zh": "非洲铁路项目通常有资金方，按指定标准验收——常见的是某国铁路规范、UIC 衍生文件或资金方标准。报价前先确认适用哪份文件，因为等效替代方案的审批很慢，有时直接被拒。<p>物流也会塑造订单。轨枕和扣件又重又占体积，发运计划应匹配铺轨顺序而不是工厂排产方便：按铺轨先后交付扣件，并按装机数量的比例备足弹条和绝缘件备件。铁路项目上的缺件会停掉整个封锁点，而不只是一个工序。</p>",
+        "ar": "مشاريع السكك في أفريقيا ممولة عادة وبالتالي تُفحص مقابل مواصفة مسمّاة: غالبًا مواصفة سكة وطنية أو وثيقة مشتقة من UIC أو معيار مانح. وأثبت أي وثيقة تحكم قبل التسعير، لأن اعتماد بديل مكافئ بطيء وقد يُرفض.<p>واللوجستيات تشكّل الطلب أيضًا. فالعوارض والمثبتات ثقيلة وحجمية، فيجب أن يتبع تخطيط الشحن تسلسل التركيب لا راحة المصنع: سلّم المثبتات بالترتيب الذي سيُفرش به الخط واحفظ مشابك وعوازل احتياطية بالنسبة نفسها للكمية المركّبة. ونقص في عمل سككي يوقف الحجب كله لا نشاطًا واحدًا.</p>",
+        "es": "Los proyectos ferroviarios en África suelen ser financiados y por tanto inspeccionados contra una norma nominada: a menudo una especificación ferroviaria nacional, un documento derivado de UIC o una norma de donante. Establezca qué documento gobierna antes de cotizar, porque la aprobación de una alternativa equivalente es lenta y a veces se rechaza.<p>La logística también moldea el pedido. Traviesas y fijaciones son pesadas y voluminosas, así que la planificación de envío debe seguir la secuencia de instalación y no la comodidad de fábrica: entregue las fijaciones en el orden en que se tenderá la vía y mantenga clips y aislantes de repuesto en la misma proporción que la cantidad instalada. Una falta en obra ferroviaria detiene toda la posesión, no una sola actividad.</p>",
+        "fr": "Les projets ferroviaires en Afrique sont généralement financés et donc inspectés selon une norme nommée : souvent une spécification ferroviaire nationale, un document dérivé de l'UIC ou une norme de bailleur. Établissez quel document fait foi avant de chiffrer, car l'approbation d'une alternative équivalente est lente et parfois refusée.<p>La logistique façonne aussi la commande. Traverses et fixations sont lourdes et volumineuses : le plan d'expédition doit suivre la séquence de pose et non la commodité de l'usine — livrez les fixations dans l'ordre où la voie sera posée et gardez attaches et isolants de rechange dans la même proportion que la quantité installée. Une pénurie sur un chantier ferroviaire arrête toute la possession, pas une seule activité.</p>",
+        "pt": "Os projetos ferroviários em África são geralmente financiados e, por isso, inspecionados contra uma norma nomeada: muitas vezes uma especificação ferroviária nacional, um documento derivado da UIC ou uma norma de doador. Estabeleça que documento governa antes de cotar, porque a aprovação de uma alternativa equivalente é lenta e por vezes recusada.<p>A logística também molda a encomenda. Travessas e fixações são pesadas e volumosas, pelo que o planeamento de envio deve seguir a sequência de instalação e não a conveniência da fábrica: entregue as fixações na ordem em que a via será assentada e mantenha clips e isoladores sobressalentes na mesma proporção da quantidade instalada. Uma falta numa obra ferroviária pára toda a possessão, não uma só atividade.</p>"
       }
     }
   ],

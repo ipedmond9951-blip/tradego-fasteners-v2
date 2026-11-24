@@ -1,0 +1,40 @@
+{
+  "slug": "africa-solar-farm-fastener-procurement-guide",
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": { "pt": "Compra de fixações para parques solares: volume, velocidade e o custo do parafuso errado" },
+      "body": {
+        "pt": "O solar à escala utility é um negócio de fixações disfarçado de negócio de energia. Um único projeto pode consumir centenas de milhares de parafusos, porcas e abraçadeiras, e a estrutura de montagem é montada por equipas pagas à velocidade. Essa combinação torna duas coisas decisivas: <strong>fiabilidade de fornecimento</strong> e <strong>consistência de montagem</strong>.<p>Um parafuso que chega tarde para uma equipa; um parafuso que não assenta para a mesma equipa e ainda gera uma alteração de encomenda. O planeamento aqui tem menos de preço unitário do que de proteger o calendário de instalação.</p>"
+      }
+    },
+    {
+      "id": "product-mix",
+      "heading": { "pt": "A lista de materiais por trás de uma estrutura de montagem" },
+      "body": {
+        "pt": "Uma estrutura fixa ou de seguidor típica recorre a um conjunto estreito: parafusos de fundação e conjuntos de ancoragem, abraçadeiras de módulo e abraçadeiras centrais, fixações calha-montante e parafusos estruturais para ligações de tubo de torsão. As classes agrupam-se em 8.8 com galvanização a quente como revestimento por defeito, e inox onde a exposição costeira ou um hardware de módulo específico o exige.<p>Como o número de referências é pequeno e o volume é grande, o risco não é a variedade mas a consistência. Parafusos de duas tiragens de produção podem diferir em espessura de revestimento e ajuste de rosca, e essa diferença aparece em obra como porcas estriadas.</p>"
+      }
+    },
+    {
+      "id": "logistics",
+      "heading": { "pt": "Entrega em obra: o problema da sequência" },
+      "body": {
+        "pt": "As obras solares são construídas por blocos, e cada bloco precisa das suas fixações antes do içamento do módulo. Envie em sequência de bloco com quantidades kitadas por bloco, em vez de entregar um contentor único enorme e misturado. Kitear custa um pouco na origem e poupa muito em obra, porque separar dezenas de milhares de fixações misturadas em campo consome horas de equipa que ninguém orçamenta.<p>Planeie também a cauda. Os últimos cinco por cento de uma encomenda de fixações são a parte que provoca sempre correrias, pelo que deve manter um colchão definido no armazém da obra em vez de contar com um reenvio que tenha de passar alfândega.</p>"
+      }
+    },
+    {
+      "id": "quality",
+      "heading": { "pt": "O que inspecionar, e quando" },
+      "body": {
+        "pt": "Inspecione em três pontos: espessura de revestimento na origem, ajuste dimensional numa amostra de cada lote de produção e comportamento de binário durante o primeiro bloco de instalação. O terceiro é o útil: encontra a combinação de revestimento, lubricidade e tolerância de rosca que um relatório dimensional sozinho deixa passar.<p>Especifique os valores de binário por escrito e exija ao fornecedor que declare a lubricidade pressuposta, porque o mesmo parafuso apertado a seco e lubrificado comporta-se de forma diferente e a equipa não saberá que hipótese usou.</p>"
+      }
+    },
+    {
+      "id": "cost",
+      "heading": { "pt": "Onde vai realmente o dinheiro" },
+      "body": {
+        "pt": "O preço unitário é uma parte pequena da equação quando se inclui a velocidade de instalação. Um parafuso mais barato que exige retrabalho, ou que chega em caixas misturadas e obriga a triagem em obra, pode custar em mão de obra mais do que toda a diferença de preço.<p>A abordagem prática é cotar posto e kitado: inclua frete, verificação de revestimento, kitagem por bloco e uma provisão de colchão na comparação. Essa comparação favorece geralmente o fornecedor capaz de garantir consistência, e é o único número que sobrevive ao contacto com um calendário de obra.</p>"
+      }
+    }
+  ]
+}
