@@ -244,7 +244,11 @@
     "factoryInfo": "工場と輸送",
     "officeAddress": "工場所在地",
     "shipping": "海上輸送",
-    "shippingNote": "FOB青島／天津、CIFベイラ・ダーバン・モンバサはご要望により対応。"
+    "shippingNote": "FOB青島／天津、CIFベイラ・ダーバン・モンバサはご要望により対応。",
+    "routeDurban": "ダーバン（南アフリカ）：25〜30日",
+    "routeBeira": "ベイラ（モザンビーク）：20〜25日",
+    "routeMombasa": "モンバサ（ケニア）：28〜32日",
+    "routeHarare": "ハラレ（ジンバブエ）：30〜35日"
   },
   "form": {
     "name": "お名前",

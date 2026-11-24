@@ -18,9 +18,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     ar: 'التواصل مع TradeGo Fasteners - الحصول على عرض أسعار',
     pt: 'Contato TradeGo Fasteners - Obter Cotação',
     ru: 'Контакт TradeGo Fasteners - Получить Котировку',
-    ja: 'TradeGo Fastenersへのお問い合わせ',
+    ja: 'TradeGo Fastenersへのお問い合わせ - アフリカ向け中国メーカー',
     de: 'TradeGo Fasteners Kontaktieren - Angebot Erhalten',
-    hi: 'TradeGo Fasteners से सं tact करें',
+    hi: 'TradeGo Fasteners से संपर्क करें - कोट प्राप्त करें',
   }
   const descriptions: Record<string, string> = {
     en: 'Contact TradeGo Fasteners for bulk fastener orders. ISO 9001 & SABS certified manufacturer. Sea freight to Africa. Get a quote in 24 hours.',
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     ru: 'Свяжитесь с TradeGo Fasteners для оптовых заказов крепежа. Производитель сертифицирован по ISO 9001 и SABS. Морская доставка в Африку.',
     ja: 'TradeGo Fastenersへの大口注文お問い合わせ。ISO 9001およびSABS認定メーカー。海上輸送アフリカ向け。',
     de: 'Kontaktieren Sie TradeGo Fasteners für Schrauben-Großbestellungen. ISO 9001 & SABS zertifizierter Hersteller. Seefracht nach Afrika.',
-    hi: 'TradeGo Fasteners से बल्क फास्टनर ऑर्डर के लिए सं tact करें। ISO 9001 और SABS प्रमाणित निर्माता। अफ्रीका को समुद्री माल।',
+    hi: 'बल्क फास्टनर ऑर्डर के लिए TradeGo Fasteners से संपर्क करें। ISO 9001 और SABS प्रमाणित निर्माता, अफ्रीका को समुद्री माल, 24 घंटे में कोट।',
   }
 
   const siteUrl = 'https://www.tradego-fasteners.com'
@@ -142,17 +142,15 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                 <h3 className="font-semibold text-lg mb-3">{t(loc, 'contact.officeAddress')}</h3>
                 <p className="text-gray-700">TradeGo Fasteners Co., Ltd.</p>
                 <p className="text-gray-600">Weifang, Shandong, China</p>
-                <p className="text-gray-600">Weifang, Shandong, China</p>
-                <p className="text-gray-600">Postal: 518102</p>
               </div>
               <div>
                 <h3 className="font-semibold text-lg mb-3">{t(loc, 'contact.shipping')}</h3>
                 <p className="text-gray-600">🚢 {t(loc, 'contact.shippingNote')}</p>
                 <ul className="text-gray-600 mt-2 space-y-1">
-                  <li>• Durban (South Africa): 20-25 days</li>
-                  <li>• Beira (Mozambique): 15-20 days</li>
-                  <li>• Mombasa (Kenya): 20-25 days</li>
-                  <li>• Harare (Zimbabwe): 25-30 days</li>
+                  <li>• {t(loc, 'contact.routeDurban')}</li>
+                  <li>• {t(loc, 'contact.routeBeira')}</li>
+                  <li>• {t(loc, 'contact.routeMombasa')}</li>
+                  <li>• {t(loc, 'contact.routeHarare')}</li>
                 </ul>
               </div>
             </div>

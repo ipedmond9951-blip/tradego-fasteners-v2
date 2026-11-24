@@ -249,7 +249,11 @@
     "factoryInfo": "工厂与海运",
     "officeAddress": "工厂地址",
     "shipping": "海运",
-    "shippingNote": "默认 FOB 青岛/天津，可按需报 CIF 贝拉、德班或蒙巴萨。"
+    "shippingNote": "默认 FOB 青岛/天津，可按需报 CIF 贝拉、德班或蒙巴萨。",
+    "routeDurban": "德班（南非）：25–30 天",
+    "routeBeira": "贝拉（莫桑比克）：20–25 天",
+    "routeMombasa": "蒙巴萨（肯尼亚）：28–32 天",
+    "routeHarare": "哈拉雷（津巴布韦）：30–35 天"
   },
   "form": {
     "name": "姓名",

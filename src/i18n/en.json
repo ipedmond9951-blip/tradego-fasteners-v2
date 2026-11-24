@@ -257,7 +257,11 @@
     "factoryInfo": "Factory and shipping",
     "officeAddress": "Factory address",
     "shipping": "Sea freight",
-    "shippingNote": "FOB Qingdao / Tianjin; CIF Beira, Durban or Mombasa on request."
+    "shippingNote": "FOB Qingdao / Tianjin; CIF Beira, Durban or Mombasa on request.",
+    "routeDurban": "Durban (South Africa): 25–30 days",
+    "routeBeira": "Beira (Mozambique): 20–25 days",
+    "routeMombasa": "Mombasa (Kenya): 28–32 days",
+    "routeHarare": "Harare (Zimbabwe): 30–35 days"
   },
   "form": {
     "name": "Name",
