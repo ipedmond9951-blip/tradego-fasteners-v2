@@ -16,14 +16,17 @@ import StatisticsSection from '@/components/StatisticsSection'
 import SourcesSection from '@/components/SourcesSection'
 import { pick, shareCopy } from '@/lib/uiCopy'
 
-// 2026-07-16 23:30 GSC 修复: 首页加 canonical + 10-lang hreflang
-export function generateMetadata(): Metadata {
+// 首页：canonical 必须按语种自指，否则 9 个非英语首页被 /en 吸收
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale: lp } = await params
+  const loc = (lp as Locale) || 'en'
+  const site = 'https://www.tradego-fasteners.com'
   return {
     alternates: {
-      canonical: 'https://www.tradego-fasteners.com/en',
+      canonical: `${site}/${loc}/`,
       languages: Object.fromEntries([
-        ['x-default', 'https://www.tradego-fasteners.com/en'],
-        ...locales.map(l => [l, `https://www.tradego-fasteners.com/${l}`])
+        ['x-default', `${site}/en/`],
+        ...locales.map(l => [l, `${site}/${l}/`])
       ]),
     },
   }
