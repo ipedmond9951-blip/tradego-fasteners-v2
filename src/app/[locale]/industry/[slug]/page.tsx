@@ -374,3 +374,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
 // 让 CDN 直接返回预渲染结果, 不再每次请求都进 ISR 读缓存 (降低 ISR Reads / FoT / CPU).
 export const dynamic = 'force-static'
 export const revalidate = false
+// 2026-11-25: content/ 已从函数包剔除(体积治理), 运行时不能再读磁盘 JSON。
+// 未预生成的 slug 直接 404, 不再回源渲染。
+export const dynamicParams = false

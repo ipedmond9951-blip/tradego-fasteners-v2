@@ -362,3 +362,5 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 // 让 CDN 直接返回预渲染结果, 不再每次请求都进 ISR 读缓存 (降低 ISR Reads / FoT / CPU).
 export const dynamic = 'force-static'
 export const revalidate = false
+// 2026-11-25: content/ 已从函数包剔除(体积治理), 运行时不能再读磁盘 JSON。
+export const dynamicParams = false

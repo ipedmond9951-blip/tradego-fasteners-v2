@@ -10,6 +10,12 @@ const nextConfig: NextConfig = {
     cpus: 4,
   },
   trailingSlash: true,
+  // 2026-11-25 额度整改: 页面函数原先各自打包 public/images(119MB) + content(56MB),
+  // 单函数 trace 186MB、Vercel 侧 136MB, 每次部署重复一份 → Deployment/Function Storage 爆表。
+  // 这些资源只在构建期读取, 运行时由 CDN 直接出 public 静态文件, 无需进函数包。
+  outputFileTracingExcludes: {
+    '*': ['public/images/**', 'public/videos/**', 'content/**'],
+  },
   // Edge redirects — handled at Vercel edge (~50ms) instead of server-side (~200ms)
   // PageSpeed Insights flagged redirect chain (/) → (/en) costing ~200ms.
   async redirects() {
