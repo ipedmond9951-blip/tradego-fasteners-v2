@@ -22,6 +22,10 @@ LEDGER = os.path.join('logs', 'llm_quota.json')
 SAFE_RATIO = 0.8
 COOLDOWN_429 = 15 * 60
 
+# 不走 80% 闸门的通道（用户 2026-11-24 明确：OpenRouter 免费池不需要限量）。
+# 只做用量统计，不限窗口/日上限；429 也不降容、不冷却，交给 OpenRouter 自己的 meta-router 换模型。
+NO_GATE_PREFIXES = ('openrouter:',)
+
 PROVIDERS = {
     'zai:glm-4.6': {
         'window': 600, 'window_cap': 4, 'day_cap': 150,
@@ -101,6 +105,8 @@ def _entry(d, key):
 def allow(key, now=None):
     """返回 (ok, wait_seconds, reason)。ok=False 时若 wait_seconds>0 就睡这么久再试。"""
     now = now or time.time()
+    if any(key.startswith(p) for p in NO_GATE_PREFIXES):
+        return True, 0, 'ok（不设闸门，仅统计用量）'
     cfg = PROVIDERS.get(key)
     if not cfg:
         return False, 0, 'unknown provider'
@@ -140,6 +146,8 @@ def record_success(key, now=None):
 
 def record_429(key, now=None):
     now = now or time.time()
+    if any(key.startswith(p) for p in NO_GATE_PREFIXES):
+        return  # 不降容不冷却：OpenRouter 自己会换免费模型
     d = _load()
     e = _entry(d, key)
     if e is None:
