@@ -205,6 +205,7 @@ export const OPT_BASES = new Set<string>([
   "non-standard-special-shape-screws-custom-guide",
   "nuts-bolts-glossary-terminology",
   "nylon-nuts-bolts-guide",
+  "offshore-fasteners-fire-protection-and-certification",
   "payment-terms-international-fastener-trade",
   "precast-concrete-fastener-applications",
   "railway-track-fastener-specifications",
