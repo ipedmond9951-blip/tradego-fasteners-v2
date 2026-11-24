@@ -51,10 +51,83 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 const GROUPS = ['DIN', 'ISO', 'ASTM', 'SABS', 'EN', 'GB/T', 'GB', 'ANSI', 'JIS', 'JC/T', '其他']
 
+const idxCopy = {
+  en: {
+    h1: 'Fastener standard index',
+    intro: (n: number, t: number) =>
+      `${n} standards we produce to, covering ${t} product lines. Open any standard to see the lines that ship against it and what we need to quote.`,
+    other: 'Other standards',
+    unit: 'lines',
+  },
+  zh: {
+    h1: '紧固件标准索引',
+    intro: (n: number, t: number) =>
+      `按标准号检索：我们生产的 ${n} 个标准，覆盖 ${t} 个在售品类。点开任一标准，可看到对应产品、执行条款说明与询价所需资料。`,
+    other: '其他标准',
+    unit: '个品类',
+  },
+  es: {
+    h1: 'Índice de normas para fijaciones',
+    intro: (n: number, t: number) =>
+      `Producimos según ${n} normas que cubren ${t} líneas de producto. Abra cualquier norma para ver las líneas que se fabrican conforme a ella y lo que necesitamos para cotizar.`,
+    other: 'Otras normas',
+    unit: 'líneas',
+  },
+  fr: {
+    h1: 'Index des normes de visserie',
+    intro: (n: number, t: number) =>
+      `${n} normes appliquées, couvrant ${t} gammes de produits. Ouvrez une norme pour voir les gammes fabriquées selon elle et ce qu'il nous faut pour chiffrer.`,
+    other: 'Autres normes',
+    unit: 'gammes',
+  },
+  pt: {
+    h1: 'Índice de normas de fixadores',
+    intro: (n: number, t: number) =>
+      `Produzimos segundo ${n} normas, cobrindo ${t} linhas de produto. Abra qualquer norma para ver as linhas fabricadas conforme ela e o que precisamos para cotar.`,
+    other: 'Outras normas',
+    unit: 'linhas',
+  },
+  ar: {
+    h1: 'فهرس معايير المثبتات',
+    intro: (n: number, t: number) =>
+      `ننتج وفق ${n} معياراً تغطي ${t} من خطوط المنتجات. افتح أي معيار لترى الخطوط المنتجة وفقها وما نحتاجه للتسعير.`,
+    other: 'معايير أخرى',
+    unit: 'خطوط',
+  },
+  ru: {
+    h1: 'Каталог стандартов крепежа',
+    intro: (n: number, t: number) =>
+      `Мы производим по ${n} стандартам, которые охватывают ${t} позиций. Откройте любой стандарт, чтобы увидеть позиции и что нужно для расчёта цены.`,
+    other: 'Другие стандарты',
+    unit: 'позиций',
+  },
+  ja: {
+    h1: 'ファスナー規格インデックス',
+    intro: (n: number, t: number) =>
+      `当社が対応する${n}規格で、${t}品目をカバーします。規格を開くと対象品目と見積りに必要な情報が確認できます。`,
+    other: 'その他の規格',
+    unit: '品目',
+  },
+  de: {
+    h1: 'Normenindex für Befestigungselemente',
+    intro: (n: number, t: number) =>
+      `Wir fertigen nach ${n} Normen, die ${t} Produktlinien abdecken. Eine Norm öffnen zeigt die Linien und was wir für ein Angebot brauchen.`,
+    other: 'Weitere Normen',
+    unit: 'Positionen',
+  },
+  hi: {
+    h1: 'फास्टनर मानक सूची',
+    intro: (n: number, t: number) =>
+      `हम ${n} मानकों पर उत्पादन करते हैं जो ${t} उत्पाद श्रेणियों को कवर करते हैं। किसी मानक को खोलकर श्रेणियाँ और कोट के लिए आवश्यक जानकारी देखें।`,
+    other: 'अन्य मानक',
+    unit: 'श्रेणियाँ',
+  },
+} as const
+
 export default async function StandardsIndexPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: lp } = await params
   const locale = (lp as Locale) || 'en'
-  const zh = locale === 'zh'
+  const ic = (idxCopy as unknown as Record<string, typeof idxCopy.en>)[locale] ?? idxCopy.en
 
   const groups = GROUPS.map(g => ({
     g,
@@ -69,11 +142,9 @@ export default async function StandardsIndexPage({ params }: { params: Promise<{
     <div className="min-h-screen bg-white">
       <section className="bg-gradient-to-br from-primary-800 to-primary-900 text-white py-12 md:py-16">
         <div className="container mx-auto px-4 sm:px-6">
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">{zh ? '紧固件标准索引' : 'Fastener standard index'}</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-3">{ic.h1}</h1>
           <p className="text-primary-100 max-w-3xl leading-relaxed">
-            {zh
-              ? `按标准号检索：我们生产的 ${standardEntries.length} 个标准，覆盖 ${totalProducts} 个在售品类。点开任一标准，可看到对应产品、执行条款说明与询价所需资料。`
-              : `${standardEntries.length} standards we produce to, covering ${totalProducts} product lines. Open any standard to see the lines that ship against it and what we need to quote.`}
+            {ic.intro(standardEntries.length, totalProducts)}
           </p>
         </div>
       </section>
@@ -82,7 +153,7 @@ export default async function StandardsIndexPage({ params }: { params: Promise<{
         {groups.map(({ g, items }) => (
           <section key={g}>
             <h2 className="text-lg md:text-xl font-bold text-gray-900 mb-3 border-b border-gray-200 pb-2">
-              {g === '其他' ? (zh ? '其他标准' : 'Other standards') : g}
+              {g === '其他' ? ic.other : g}
               <span className="ml-2 text-sm font-normal text-gray-400">{items.length}</span>
             </h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
@@ -94,7 +165,7 @@ export default async function StandardsIndexPage({ params }: { params: Promise<{
                 >
                   <div className="flex items-baseline justify-between gap-2">
                     <span className="font-semibold text-primary-900 group-hover:text-primary-700">{e.code}</span>
-                    <span className="text-xs text-gray-400">{e.products.length} {zh ? '个品类' : 'lines'}</span>
+                    <span className="text-xs text-gray-400">{e.products.length} {ic.unit}</span>
                   </div>
                   <p className="text-xs text-gray-600 mt-1 line-clamp-1">{stdNote(e.code, locale)}</p>
                 </Link>
