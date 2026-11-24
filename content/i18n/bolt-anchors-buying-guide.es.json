@@ -1,0 +1,54 @@
+{
+  "slug": "bolt-anchors-buying-guide",
+  "sections": [
+    {
+      "id": "through-fixing-with-a-bolt-and-sleeve",
+      "heading": { "es": "Fijación pasante con perno y camisa" },
+      "body": {
+        "es": "La fijación pasante con perno y camisa permite colocar primero la placa base o el soporte y taladrar después a través de sus agujeros de paso hasta hormigón o mampostería. A diferencia del anclaje de varilla precolocado, que exige marcar los agujeros antes de montar el equipo, el anclaje tipo camisa mantiene la alineación precisa en obra. Las medidas métricas comunes van de M8 a M20, con el M12 muy usado en placas base de servicio medio, estanterías y soportes mecánicos. Los anclajes de acero al carbono siguen clases ISO 898-1 o especificaciones DIN, mientras los de acero inoxidable A2 o A4 convienen a sitios húmedos o costeros en rutas por Durban, Beira y Mombasa. La capacidad depende de la resistencia a compresión del hormigón, la profundidad de empotramiento y la distancia al borde, y las camisas de expansión se comportan distinto de los anclajes de par controlado en hormigón fisurado o mampostería. Un valor típico de empotramiento efectivo en M12 ronda 60 a 80 mm, sujeto a cálculo.\n\nSecuencia: marcar y taladrar a través de los agujeros de paso con broca de carburo del tamaño del anclaje; perforar al menos 10 mm más que el empotramiento para retener polvo; soplar y cepillar hasta dejar el agujero limpio; introducir el conjunto perno-camisa a través de la placa; apretar la tuerca al par especificado para que el cono entre en la camisa sin dañar la rosca."
+      }
+    },
+    {
+      "id": "choosing-diameter-for-base-plates",
+      "heading": { "es": "Elegir diámetro para placas base" },
+      "body": {
+        "es": "Elegir el diámetro arranca de las cargas estructurales de corte y tracción del cálculo del proyectista, no de adivinar por el tamaño del agujero. Las opciones métricas comunes son M10, M12, M16 y M20, con M12 habitual en soportes ligeros y bastidores de equipo. Primero confirme espesor de placa y diámetro de agujero de paso según práctica EN o ISO, con holgura lo bastante ajustada para transmitir cortante sin deslizamiento excesivo. Después verifique la capacidad frente a resistencia del hormigón, distancia al borde y separación entre anclajes, para que no gobiernen el desprendimiento de cono ni la fisuración. Un valor típico de distancia mínima al borde en hormigón no fisurado es de cinco a siete veces el diámetro nominal, con límites exactos según geometría y tipo de carga. Frente a anclajes de expansión por camisa, los de cuña suelen dar mayor consistencia de par y empotramiento más profundo en maquinaria con vibración.\n\nPor último, elija acero al carbono zincado o galvanizado en caliente para interiores secos, o inoxidable A4-70 / AISI 316 para zonas costeras o industriales húmedas cerca de Durban, Beira o Mombasa, donde los cloruros aceleran la corrosión. Cuadre diámetro de rosca, empotramiento y dimensiones de arandela con el plano de placa base antes de pedir."
+      }
+    },
+    {
+      "id": "embedment-and-edge-distance",
+      "heading": { "es": "Empotramiento y distancia al borde" },
+      "body": {
+        "es": "La profundidad de empotramiento y la distancia al borde determinan si el anclaje alcanza la capacidad publicada o si descascarilla el hormigón. A diferencia de un anclaje de expansión común, que agarra en una zona más superficial, un anclaje de cuña o de inserción transfiere tracción y cortante más profundo, con valores exactos según diseño y datos del fabricante bajo EN 1992-4, ACI 318 o ASTM E488.\n\nPara un M12 habitual, el empotramiento efectivo suele situarse entre 70 y 100 mm, y la distancia mínima al borde entre 60 y 120 mm según resistencia y armadura de borde. Empotramientos cortos o bordes ajustados reducen la resistencia a arranque y a rotura de borde bajo cortante de placa base.\n\nPasos antes de instalar: comprobar en planos el despiece de agujeros, separación y distancia a bordes libres; marcar centros y taladrar perpendicular con broca de carburo adecuada; limpiar cada agujero con aire comprimido y cepillo de alambre para que camisas o cuñas asienten; insertar el anclaje a empotramiento total y apretar con llave dinamométrica calibrada al par especificado, sin excederse. En puertos húmedos como Durban o Beira y en todo el sur de África, los anclajes inoxidables A4 o 316 resisten mejor la corrosión."
+      }
+    },
+    {
+      "id": "finishes-for-outdoor-and-coastal-sites",
+      "heading": { "es": "Acabados para exterior y costa" },
+      "body": {
+        "es": "El acabado correcto evita óxido prematuro y pérdida de capacidad en aire exterior o marino. El zincado electrolítico fino según ISO 4042 sirve para interior seco; las estructuras exteriores, placas base y conjuntos de expansión exigen protección más gruesa. Para exposición exterior general, el galvanizado en caliente según ISO 1461 o ASTM A153 forma un recubrimiento zinc-hierro grueso, con 50 micras como valor típico en piezas roscadas pequeñas.\n\nEn litorales con aerosol salino y puertos como Durban o Beira, el inoxidable A4 o 316 resiste la picadura por cloruros mucho mejor que A2 o 304, y usar tuerca y arandela del mismo grado evita el gripado. Rutina de selección: comprobar exposición, ciclos de humedad y vida útil; elegir acabado base o aleación, por ejemplo M12 inoxidable A4 para soportes costeros o acero carbono galvanizado en caliente para bastidores interiores; verificar el ajuste de rosca interior y exterior tras galvanizar para que las tuercas giren sin forzar; confirmar si el anclaje corresponde a la clasificación de hormigón fisurado o no fisurado; embalar con barreras antihumedad y desecante para el tránsito marítimo.\n\nEvite mezclar metales distintos en zonas húmedas, donde la corrosión galvánica ataca al metal menos noble."
+      }
+    },
+    {
+      "id": "installation-sequence-and-torque",
+      "heading": { "es": "Secuencia de instalación y par de apriete" },
+      "body": {
+        "es": "Instalar anclajes post-colocados o de expansión para placa base exige disciplina para que la capacidad coincida con los supuestos de cálculo bajo EN 1992-4, ASTM E488 o normas ISO. Primero verifique resistencia del hormigón, edad de curado, distancias a borde y separación, y localice armaduras para no taladrar acero. Segundo, taladre perpendicular con broca de carburo acorde al diámetro y empotramiento. Tercero, limpie el barreno con aire comprimido sin aceite, cepillo de alambre y aire otra vez: el polvo reduce la resistencia al arranque. Cuarto, coloque la placa, inserte el anclaje a empotramiento total y asiente el clip o camisa con martillo si hace falta. Quinto, apriete la tuerca con llave dinamométrica calibrada al par del fabricante, sin apretar a ojo ni con atornillador de impacto.\n\nPara M12 de acero al carbono, el par de instalación típico ronda 60 a 85 Nm según grado, fricción de rosca y si es galvanizado en caliente o inoxidable. Los anclajes inoxidables en zonas costeras requieren cuidado contra el gripado, así que aplique antiadherente aprobado solo cuando la ficha lo permita. Reapriete tras el asentamiento inicial en conexiones críticas y siga siempre las instrucciones del fabricante."
+      }
+    },
+    {
+      "id": "load-data-and-safety-factors",
+      "heading": { "es": "Datos de carga y coeficientes de seguridad" },
+      "body": {
+        "es": "Evaluar la capacidad exige casar geometría del anclaje, resistencia del hormigón y coeficientes de seguridad con las cargas estructurales, no fiarse de cifras de catálogo. Primero confirme grado del material base y distancias a borde o separación, porque el hormigón fisurado bajo EN 1992-4 o ACI 318 reduce los valores respecto al no fisurado. Segundo, distinga un anclaje de cuña de servicio pesado de una camisa de expansión común cuando la placa base lleva cortante y vibración dinámica. Tercero, revise rosca y empotramiento en tamaños como M12 o M16, verificando resistencia a tracción y cortante del acero bajo ISO 898-1 o ASTM A307 y comparando carbono con inoxidable A4 para la humedad costera cerca de Durban o Beira. Cuarto, aplique un coeficiente adecuado a las cargas características de fallo: para anclajes estructurales el límite de trabajo típico va de un tercio a un cuarto de la capacidad última de tracción o cortante, ajustado por coeficientes parciales y fiabilidad de instalación.\n\nQuinto, verifique diámetro de agujero, limpieza y ajuste de la llave durante ensayos de arranque en obra antes de liberar pedidos grandes. Para envíos a mercados interiores como Zimbabue, cuide la protección anticorrosiva y el embalaje seco para que roscas y camisas lleguen listas para el par correcto sin picaduras."
+      }
+    },
+    {
+      "id": "packing-and-consignment-planning",
+      "heading": { "es": "Embalaje y planificación del embarque" },
+      "body": {
+        "es": "Un embalaje correcto protege anclajes y conjuntos de expansión de humedad e impactos en tránsito marítimo y acarreo interior por África austral y oriental. Empiece clasificando por diámetro, longitud y grado, por ejemplo M10, M12 y M16 en carbono o inoxidable conforme a ISO 898-1 o ASTM A193. Empaque cada medida en cajas interiores resistentes o sacos tejidos con etiquetas claras de lote que indiquen dimensiones, paso de rosca y especificación de anclaje.\n\nUn peso típico de caja interior es de 15 a 25 kg, para no castigar la manipulación en obra. Paletice después sobre madera fumigada o palés conformes ISPM 15, envuelva con film estirable y proteja esquinas con cantoneras y flejes. Para envíos a Zimbabue o Zambia por Beira o Durban, cuente con tiempos de permanencia en puerto, despacho aduanero y corredores largos donde vibración y humedad costera ponen a prueba el embalaje. Use forros inhibidores de vapor para anclajes de carbono cuando el tránsito cruce zonas húmedas, y mantenga los inoxidables separados y sin rayado.\n\nAntes de despachar, confirme con el proveedor el plan de carga del contenedor, límites de peso bruto y ventanas de llegada al puerto, para que descarga y entrega en obra acompañen su calendario. Incluya en el packing list las capacidades y notas de empotramiento para que el ingeniero de obra verifique la idoneidad al llegar."
+      }
+    }
+  ]
+}

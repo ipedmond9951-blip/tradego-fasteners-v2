@@ -1,0 +1,54 @@
+{
+  "slug": "bolt-anchors-buying-guide",
+  "sections": [
+    {
+      "id": "through-fixing-with-a-bolt-and-sleeve",
+      "heading": { "fr": "Fixation traversante par boulon et douille" },
+      "body": {
+        "fr": "La fixation traversante par boulon et douille permet de poser d'abord la platine ou le support, puis de percer directement à travers ses trous de passage dans le béton ou la maçonnerie. Contrairement à l'ancrage à tige préposé, qui impose de repérer les trous avant de placer l'équipement, l'ancrage à douille garde un alignement précis sur site. Les tailles métriques courantes vont de M8 à M20, le M12 étant très utilisé pour les platines de service moyen, les rayonnages et les supports mécaniques. Les ancrages en acier au carbone suivent souvent les classes ISO 898-1 ou des spécifications DIN, tandis que les ancrages inox A2 ou A4 conviennent aux sites humides ou côtiers des routes de Durban, Beira et Mombasa. La capacité dépend de la résistance du béton, de la profondeur d'ancrage et de la distance au bord, et les douilles d'expansion se comportent différemment des ancrages à couple contrôlé dans le béton fissuré ou la maçonnerie. Une valeur courante d'ancrage effectif sur M12 est de 60 à 80 mm, sous réserve de calcul.\n\nSéquence : repérer et percer à travers les trous de passage au foret carbure du diamètre de l'ancrage ; percer 10 mm de plus que l'ancrage pour retenir la poussière ; souffler et brosser jusqu'à propreté ; engager l'ensemble boulon-douille dans le trou ; serrer l'écrou au couple prescrit pour que le cône entre dans la douille sans fausser le filetage."
+      }
+    },
+    {
+      "id": "choosing-diameter-for-base-plates",
+      "heading": { "fr": "Choisir le diamètre pour une platine" },
+      "body": {
+        "fr": "Le diamètre part des charges de cisaillement et de traction du calcul structural, non du seul diamètre de trou. Les options métriques courantes sont M10, M12, M16 et M20, le M12 servant aux supports légers et châssis d'équipement. Vérifiez d'abord l'épaisseur de platine et le diamètre des trous de passage selon la pratique EN ou ISO, avec un jeu assez serré pour transmettre le cisaillement sans glissement excessif. Contrôlez ensuite la capacité face à la résistance du béton, à la distance au bord et à l'espacement, pour que ni l'éclatement conique ni la fissuration ne gouvernent. Une valeur courante de distance minimale au bord en béton non fissuré est de cinq à sept fois le diamètre nominal, les limites exactes dépendant de la géométrie et du type de charge. Face aux douilles d'expansion, les ancrages à coin offrent souvent une meilleure régularité de couple et un ancrage plus profond pour les machines vibrantes.\n\nEnfin, choisissez acier carbone zingué ou galvanisé à chaud pour l'intérieur sec, ou inox A4-70 / AISI 316 pour les zones côtières ou industrielles humides près de Durban, Beira ou Mombasa, où les chlorures accélèrent la corrosion. Alignez diamètre de filetage, profondeur d'ancrage et dimensions de rondelle sur le plan de platine avant commande."
+      }
+    },
+    {
+      "id": "embedment-and-edge-distance",
+      "heading": { "fr": "Ancrage et distance au bord" },
+      "body": {
+        "fr": "Profondeur d'ancrage et distance au bord déterminent si l'ancrage atteint la capacité publiée ou éclate le béton. Contrairement à un ancrage d'expansion courant qui mord sur une zone plus superficielle, un ancrage à coin ou à insertion transmet traction et cisaillement plus profondément, les valeurs exactes dépendant de la conception et des données fabricant sous EN 1992-4, ACI 318 ou ASTM E488.\n\nPour un M12 courant, l'ancrage effectif se situe souvent entre 70 et 100 mm, et la distance minimale au bord entre 60 et 120 mm selon la résistance du béton et les armatures de rive. Un ancrage faible ou un bord serré réduit la résistance à l'arrachement et à la rupture de bord sous cisaillement de platine.\n\nAvant de poser : contrôlez sur plans l'implantation des trous, l'espacement et la distance aux bords libres ; tracez les centres et percez perpendiculairement au foret carbure adapté ; nettoyez chaque trou à l'air comprimé et à la brosse métallique pour que douilles ou coins s'assoient ; engagez l'ancrage à profondeur totale et serrez à la clé dynamométrique calibrée au couple prescrit, sans excès. Sur les ports humides de Durban ou Beira et dans tout le sud de l'Afrique, les ancrages inox A4 ou 316 résistent mieux à la corrosion."
+      }
+    },
+    {
+      "id": "finishes-for-outdoor-and-coastal-sites",
+      "heading": { "fr": "Finitions pour l'extérieur et le littoral" },
+      "body": {
+        "fr": "La bonne finition évite rouille précoce et perte de capacité en air extérieur ou marin. Le zingage électrolytique fin selon ISO 4042 convient à l'intérieur sec ; les structures extérieures, platines et ensembles d'expansion exigent une protection plus épaisse. Pour l'exposition extérieure générale, la galvanisation à chaud selon ISO 1461 ou ASTM A153 forme un revêtement zinc-fer épais, avec 50 microns comme valeur courante sur petites pièces filetées.\n\nSur les littoraux battus par les embruns et les ports de Durban ou Beira, l'inox A4 ou 316 résiste bien mieux à la piqûre chlorurée que l'A2 ou le 304, et des écrous et rondelles du même grade évitent le grippage. Routine de choix : vérifier l'exposition, les cycles d'humidité et la durée de vie ; choisir la finition ou l'alliage, par exemple M12 inox A4 pour supports côtiers ou carbone galvanisé à chaud pour châssis intérieurs ; vérifier l'ajustement des filetages après galvanisation pour que les écrous tournent sans forcer ; confirmer la correspondance à la classification béton fissuré ou non fissuré ; emballer avec barrière humidité et dessiccant pour le transit maritime.\n\nÉvitez de mélanger des métaux différents en zone humide, où la corrosion galvanique attaque le métal le moins noble."
+      }
+    },
+    {
+      "id": "installation-sequence-and-torque",
+      "heading": { "fr": "Séquence de pose et couple de serrage" },
+      "body": {
+        "fr": "Poser des ancrages post-installés ou d'expansion pour platine demande de la discipline pour que la capacité corresponde aux hypothèses de calcul sous EN 1992-4, ASTM E488 ou normes ISO. Vérifiez d'abord la résistance du béton, l'âge de curing, les distances au bord et l'espacement, et localisez les armatures pour ne pas percer l'acier. Percez ensuite perpendiculairement au foret carbure adapté au diamètre et à l'ancrage. Nettoyez le trou à l'air comprimé sans huile, à la brosse métallique puis à l'air : la poussière réduit la résistance à l'arrachement. Placez la platine, engagez l'ancrage à profondeur totale et assoyez le clip ou la douille au marteau si nécessaire. Serrez enfin l'écrou à la clé dynamométrique calibrée au couple fabricant, sans forcer au feeling ni à la visseuse à choc.\n\nPour un M12 carbone, le couple de pose courant va de 60 à 85 Nm selon la nuance, le frottement de filetage et la finition galvanisée ou inox. Les ancrages inox en zone côtière demandent une vigilance contre le grippage : n'appliquez un anti-grippant agréé que si la fiche l'autorise. Recontrôlez le couple après tassement initial sur les connexions critiques et suivez toujours les instructions du fabricant."
+      }
+    },
+    {
+      "id": "load-data-and-safety-factors",
+      "heading": { "fr": "Données de charge et coefficients de sécurité" },
+      "body": {
+        "fr": "Évaluer la capacité demande d'accorder géométrie, résistance du béton et coefficients de sécurité aux charges structurelles, et non de se fier aux chiffres de catalogue. Confirmez d'abord la nuance du support et les distances au bord ou espacements, car le béton fissuré sous EN 1992-4 ou ACI 318 réduit les valeurs par rapport au non fissuré. Distinguez ensuite un ancrage à coin de service lourd d'une douille d'expansion courante lorsque la platine reprend cisaillement et vibrations. Vérifiez filetage et profondeur sur M12 ou M16, en contrôlant la résistance de l'acier sous ISO 898-1 ou ASTM A307 et en comparant carbone et inox A4 pour l'humidité côtière près de Durban ou Beira. Appliquez enfin un coefficient adapté aux charges caractéristiques de rupture : pour ancrages structurels, la limite de service courante va du tiers au quart de la capacité ultime, ajustée par coefficients partiels et fiabilité de pose.\n\nCinquièmement, validez diamètre de perçage, propreté et réglage de clé lors d'essais d'arrachement sur site avant de libérer les commandes en gros. Pour les expéditions vers des marchés intérieurs comme le Zimbabwe, soignez protection anticorrosion et emballage sec afin que filetages et douilles arrivent prêts pour le bon couple, sans piqûres."
+      }
+    },
+    {
+      "id": "packing-and-consignment-planning",
+      "heading": { "fr": "Emballage et planification d'expédition" },
+      "body": {
+        "fr": "Un emballage soigné protège ancrages et ensembles d'expansion de l'humidité et des chocs en transit maritime et routier à travers l'Afrique australe et orientale. Triez d'abord par diamètre, longueur et nuance, par exemple M10, M12 et M16 en carbone ou inox conformes ISO 898-1 ou ASTM A193. Emballez chaque taille en cartons intérieurs renforcés ou sacs tissés, avec étiquettes de lot lisibles indiquant dimensions, pas de filetage et spécification d'ancrage.\n\nUn poids de carton intérieur courant est de 15 à 25 kg, pour ne pas fatiguer la manutention sur chantier. Palettisez ensuite sur bois fumigué ou palettes conformes ISPM 15, filmez les charges et protégez les angles par cornières et cerclage. Pour livraisons au Zimbabwe ou en Zambie via Beira ou Durban, tenez compte des temps d'attente portuaire, du dédouanement et des longs corridors où vibration et humidité côtière éprouvent l'emballage. Utilisez des doublures inhibitrices de vapeur pour les ancrages carbone lorsque le transit traverse des zones humides, et gardez les inox séparés et sans rayures.\n\nAvant départ, confirmez avec le fournisseur le plan de chargement, les limites de poids brut et les fenêtres d'arrivée portuaire, pour que déchargement et livraison suivent votre planning. Inscrivez capacités et notes d'ancrage sur le packing list pour que l'ingénieur vérifie l'adéquation dès l'arrivée."
+      }
+    }
+  ]
+}
