@@ -1,0 +1,50 @@
+{
+  "slug": "africa-solar-farm-fastener-procurement-guide",
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": {
+        "de": "Beschaffung von Solarpark-Befestigungen: Menge, Tempo und die Kosten eines falschen Bolzens"
+      },
+      "body": {
+        "de": "Solarparks im Versorgungsmaßstab sind ein Befestigungsgeschäft, das als Energiegeschäft kaschiert. Ein einziges Projekt kann Hunderttausende Bolzen, Muttern und Klemmen verbrauchen, und die Montagekonstruktion wird von Kolonnen zusammengebaut, die nach Geschwindigkeit bezahlt werden. Diese Kombination macht zwei Dinge entscheidend: <strong>Lieferzuverlässigkeit</strong> und <strong>Montagekonsistenz</strong>.<p>Ein verspäteter Bolzen hält die Kolonne auf; ein Bolzen, der nicht passt, hält dieselbe Kolonne auf und erzeugt zusätzlich einen Nachtrag. Die Beschaffungsplanung dreht sich hier weniger um den Stückpreis als darum, den Montageplan zu schützen.</p>"
+      }
+    },
+    {
+      "id": "product-mix",
+      "heading": {
+        "de": "Die Stückliste hinter einer Montagekonstruktion"
+      },
+      "body": {
+        "de": "Eine typische Schrägdach- oder Trackerkonstruktion greift auf einen engen Artikelkreis zurück: Fundamentbolzen und Ankerbaugruppen, Modulklemmen und Mittelklemmen, Schienen-Pfetten-Befestiger sowie Strukturbolzen für Torsionsrohrverbindungen. <a href=\"/en/products/anchor-bolts\">Fundament- und Ankerbolzen</a> liegen meist in der Festigkeitsklasse 8.8, Feuerverzinkung ist die Standardbeschichtung, Edelstahl kommt dort zum Einsatz, wo Küstenbewitterung oder spezielle Modulbeschläge es erfordern.<p>Da die Artikelzahl klein und das Volumen groß ist, liegt das Risiko nicht in der Vielfalt, sondern in der Konsistenz. Bolzen aus zwei Produktionsläufen können sich in Schichtdicke und Gewindepaßung unterscheiden, und dieser Unterschied zeigt sich auf der Baustelle als durchdrehende Muttern, die nicht wieder angezogen werden können.</p>"
+      }
+    },
+    {
+      "id": "logistics",
+      "heading": {
+        "de": "Anlieferung auf die Baustelle: das Reihenfolgeproblem"
+      },
+      "body": {
+        "de": "Solarstandorte werden in Blöcken gebaut, und jeder Block braucht seine Befestiger vor dem Modulheben. Liefern Sie in Blockreihenfolge, mit je Block gekitteten Mengen, statt einen einzigen riesigen Mischcontainer abzustellen. Das Kitten am Ursprungsort kostet wenig und spart auf der Baustelle sehr viel, denn das Sortieren von Zehntausenden gemischter Befestiger vor Ort verschlingt Mannstunden, die niemand eingeplant hat.<p>Planen Sie auch das Ende der Lieferung mit. Die letzten fünf Prozent einer Befestigerbestellung sind der Teil, der immer für Hektik sorgt, deshalb halten Sie einen fest definierten Puffer im Projektlager vor, statt auf eine Nachlieferung zu setzen, die erst den Zoll passieren muss.</p>"
+      }
+    },
+    {
+      "id": "quality",
+      "heading": {
+        "de": "Was zu prüfen ist und wann"
+      },
+      "body": {
+        "de": "Prüfen Sie an drei Punkten: Schichtdicke am Ursprungsort, Maßpaßung an einer Stichprobe aus jeder Produktcharge sowie das Drehmomentverhalten beim ersten Montageblock. Die dritte Prüfung ist die nützlichste — sie findet jene Kombination aus Beschichtung, Schmierung und Gewindetoleranz, die ein bloßes Maßzertifikat übersieht.<p>Geben Sie die Anzugsmomente schriftlich vor und fordern Sie den Lieferanten auf, die angenommene Schmierung zu nennen, denn derselbe Bolzen trocken und geschmiert angezogen verhält sich unterschiedlich, und die Baustellenkolonne weiß nicht, von welcher Annahme Ihr Ausgangswert ausgeht.</p>"
+      }
+    },
+    {
+      "id": "cost",
+      "heading": {
+        "de": "Wohin das Geld tatsächlich fließt"
+      },
+      "body": {
+        "de": "Sobald die Montagegeschwindigkeit einbezogen wird, ist der Stückpreis nur ein kleiner Teil der Kostenrechnung. Ein billigerer Bolzen, der Nacharbeit erfordert oder in gemischten Kartons eintrifft und auf der Baustelle sortiert werden muss, kann in Arbeitskraft mehr kosten als die gesamte Preisdifferenz.<p>Der praxisnahe Ansatz ist ein Vergleich per Landed- und Kittpreis: Fracht, Beschichtungsprüfung, Blockkittung und Pufferreserve gehen in den Vergleich ein. Dieser Vergleich fällt meist zugunsten des Lieferanten aus, der Konsistenz garantieren kann, und es ist die einzige Zahl, die den Kontakt mit einem Bauplan übersteht.</p>"
+      }
+    }
+  ]
+}
