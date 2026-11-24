@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react'
 import { type Locale } from '@/i18n'
 import ProductGridWithSkeleton from '@/components/ProductGridWithSkeleton'
+import { pick, productGridCopy, productSearchCopy, searchCatLabels } from '@/lib/uiCopy'
 
 interface Product {
   slug: string
@@ -109,20 +110,9 @@ export default function ProductSearchSection({ products, locale, texts }: Produc
     return result
   }, [products, searchQuery, selectedCategory, texts])
 
-  const categoryLabels: Record<string, string> = {
-    'All Products': locale === 'zh' ? '全部产品' : 'All Products',
-    'Screws': locale === 'zh' ? '螺丝' : 'Screws',
-    'Bolts & Nuts': locale === 'zh' ? '螺栓螺母' : 'Bolts & Nuts',
-    'Nails': locale === 'zh' ? '钉子' : 'Nails',
-    'Nails & Wire': locale === 'zh' ? '钉子与铁丝' : 'Nails & Wire',
-    'Anchors': locale === 'zh' ? '锚栓' : 'Anchors',
-    'Nuts': locale === 'zh' ? '螺母' : 'Nuts',
-    'Washers': locale === 'zh' ? '垫圈' : 'Washers',
-    'Solar Mounting': locale === 'zh' ? '光伏支架' : 'Solar Mounting',
-    'Rivets': locale === 'zh' ? '铆钉' : 'Rivets',
-    'Brackets & Profiles': locale === 'zh' ? '支架与型材' : 'Brackets & Profiles',
-    'Waterproofing': locale === 'zh' ? '防水材料' : 'Waterproofing',
-  }
+  const categoryLabels: Record<string, string> = Object.fromEntries(
+    Object.entries(searchCatLabels).map(([k, v]) => [k, pick(v, locale)]),
+  )
 
   return (
     <>
@@ -133,7 +123,7 @@ export default function ProductSearchSection({ products, locale, texts }: Produc
             type="search"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder={locale === 'zh' ? '搜索产品...' : 'Search products...'}
+            placeholder={pick(productSearchCopy.placeholder, locale)}
             className="w-full pl-12 pr-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:bg-white/15 focus:border-white/40 text-sm"
           />
           <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -152,10 +142,7 @@ export default function ProductSearchSection({ products, locale, texts }: Produc
         </div>
         {searchQuery && (
           <p className="mt-2 text-primary-200 text-sm">
-            {filteredProducts.length} {locale === 'zh' ? '个结果' : 'results'} 
-            {locale === 'zh' ? ' for "' : ' for "'}
-            {searchQuery}
-            {locale === 'zh' ? '"' : '"'}
+            {pick(productSearchCopy.resultsFor, locale)(filteredProducts.length, searchQuery)}
           </p>
         )}
       </div>
@@ -182,8 +169,12 @@ export default function ProductSearchSection({ products, locale, texts }: Produc
 
           {/* Results count */}
           <div className="mb-4 text-gray-600 text-sm">
-            {filteredProducts.length} {locale === 'zh' ? '个产品' : 'products'}
-            {selectedCategory !== 'All' && ` ${locale === 'zh' ? 'in' : 'in'} ${categoryLabels[categories.find(c => c.key === selectedCategory)?.label || selectedCategory]}`}
+            {pick(productSearchCopy.countLine, locale)(
+              filteredProducts.length,
+              selectedCategory !== 'All'
+                ? categoryLabels[categories.find(c => c.key === selectedCategory)?.label || selectedCategory]
+                : undefined,
+            )}
           </div>
 
           {/* Grid */}
@@ -199,16 +190,16 @@ export default function ProductSearchSection({ products, locale, texts }: Produc
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
               </svg>
               <h3 className="text-lg font-medium text-gray-900 mb-2">
-                {locale === 'zh' ? '没有找到匹配的产品' : 'No products found'}
+                {pick(productSearchCopy.emptyTitle, locale)}
               </h3>
               <p className="text-gray-500 mb-4">
-                {locale === 'zh' ? '尝试其他关键词或浏览全产品' : 'Try different keywords or browse all products'}
+                {pick(productSearchCopy.emptyHint, locale)}
               </p>
               <button
                 onClick={() => { setSearchQuery(''); setSelectedCategory('All'); }}
                 className="px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
               >
-                {locale === 'zh' ? '查看全部产品' : 'View All Products'}
+                {pick(productGridCopy.viewAll, locale)}
               </button>
             </div>
           )}

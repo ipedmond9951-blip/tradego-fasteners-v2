@@ -1,4 +1,5 @@
 import { type Locale } from '@/i18n'
+import { navLabels, pick } from '@/lib/uiCopy'
 
 interface NavigationSchemaProps {
   locale: Locale
@@ -19,27 +20,27 @@ export default function NavigationSchema({ locale }: NavigationSchemaProps) {
       hasMenuItem: [
         {
           '@type': 'MenuItem',
-          name: locale === 'zh' ? '首页' : 'Home',
+          name: pick(navLabels.home, locale),
           url: `${baseUrl}${localePrefix}`,
         },
         {
           '@type': 'MenuItem',
-          name: locale === 'zh' ? '产品' : 'Products',
+          name: pick(navLabels.products, locale),
           url: `${baseUrl}${localePrefix}/products`,
         },
         {
           '@type': 'MenuItem',
-          name: locale === 'zh' ? '行业指南' : 'Industry Guides',
+          name: pick(navLabels.industry, locale),
           url: `${baseUrl}${localePrefix}/industry`,
         },
         {
           '@type': 'MenuItem',
-          name: locale === 'zh' ? '关于我们' : 'About',
+          name: pick(navLabels.about, locale),
           url: `${baseUrl}${localePrefix}/#about`,
         },
         {
           '@type': 'MenuItem',
-          name: locale === 'zh' ? '联系我们' : 'Contact',
+          name: pick(navLabels.contact, locale),
           url: `${baseUrl}${localePrefix}/#inquiry`,
         },
       ],

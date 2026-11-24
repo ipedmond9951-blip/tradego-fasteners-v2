@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { cookieCopy, pick } from '@/lib/uiCopy'
 
 const STORAGE_KEY = 'tg_consent'
 
@@ -37,17 +38,14 @@ export default function CookieConsent({ locale }: { locale?: string }) {
 
   if (!visible) return null
 
-  const isZh = locale === 'zh'
-  const text = isZh
-    ? '我们使用匿名统计了解网站使用情况，用于改进产品和内容。'
-    : 'We use anonymous analytics to understand how the site is used, so we can improve it.'
-  const acceptLabel = isZh ? '同意' : 'Accept'
-  const declineLabel = isZh ? '仅必要' : 'Essential only'
+  const text = pick(cookieCopy.text, locale)
+  const acceptLabel = pick(cookieCopy.accept, locale)
+  const declineLabel = pick(cookieCopy.decline, locale)
 
   return (
     <div
       role="dialog"
-      aria-label={isZh ? 'Cookie 提示' : 'Cookie notice'}
+      aria-label={pick(cookieCopy.ariaLabel, locale)}
       style={{
         position: 'fixed',
         left: 16,

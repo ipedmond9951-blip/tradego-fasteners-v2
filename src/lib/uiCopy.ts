@@ -2,8 +2,8 @@
 // 所有键必须齐十语种；取值时用 pick() 回落 en。
 export type Loc = 'en' | 'zh' | 'es' | 'fr' | 'pt' | 'ar' | 'ru' | 'ja' | 'de' | 'hi'
 
-export const pick = <T,>(m: Record<string, T>, locale: string): T =>
-  (m[locale] ?? m.en) as T
+export const pick = <T,>(m: Record<string, T>, locale?: string | null): T =>
+  (m[locale ?? 'en'] ?? m.en) as T
 
 export const industryListCopy = {
   browse: {
@@ -152,4 +152,121 @@ export const shareCopy = {
     de: 'Großhändler und Hersteller von Befestigungselementen, ISO 9001 zertifiziert',
     hi: 'ISO 9001 प्रमाणित थोक फास्टनर निर्माता',
   },
+}
+
+const L10 = (en: string, zh: string, es: string, fr: string, pt: string, ar: string, ru: string, ja: string, de: string, hi: string) =>
+  ({ en, zh, es, fr, pt, ar, ru, ja, de, hi })
+
+export const searchCatLabels: Record<string, Record<string, string>> = {
+  'All Products': L10('All Products', '全部产品', 'Todos los productos', 'Tous les produits', 'Todos os produtos', 'كل المنتجات', 'Все продукты', 'すべての製品', 'Alle Produkte', 'सभी उत्पाद'),
+  'Screws': L10('Screws', '螺丝', 'Tornillos', 'Vis', 'Parafusos', 'براغي', 'Винты', 'ビス・ねじ', 'Schrauben', 'स्क्रू'),
+  'Bolts & Nuts': L10('Bolts & Nuts', '螺栓螺母', 'Pernos y tuercas', 'Boulons et écrous', 'Parafusos e porcas', 'براغي وصواميل', 'Болты и гайки', 'ボルト・ナット', 'Schrauben und Muttern', 'बोल्ट और नट'),
+  'Nails': L10('Nails', '钉子', 'Clavos', 'Pointes', 'Pregos', 'مسامير', 'Гвозди', 'くぎ', 'Nägel', 'कील'),
+  'Nails & Wire': L10('Nails & Wire', '钉子与铁丝', 'Clavos y alambre', 'Pointes et fils', 'Pregos e arame', 'مسامير وأسلاك', 'Гвозди и проволока', 'くぎとワイヤー', 'Nägel und Draht', 'कील और तार'),
+  'Anchors': L10('Anchors', '锚栓', 'Anclajes', 'Ancrages', 'Chumbadores', 'مثبتات الخرسانة', 'Анкеры', 'アンカー', 'Anker', 'एंकर'),
+  'Nuts': L10('Nuts', '螺母', 'Tuercas', 'Écrous', 'Porcas', 'صواميل', 'Гайки', 'ナット', 'Muttern', 'नट'),
+  'Washers': L10('Washers', '垫圈', 'Arandelas', 'Rondelles', 'Arruelas', 'حلقات', 'Шайбы', 'ワッシャー', 'Unterlegscheiben', 'वॉशर'),
+  'Solar Mounting': L10('Solar Mounting', '光伏支架', 'Montaje solar', 'Montage solaire', 'Estrutura solar', 'تثبيت الطاقة الشمسية', 'Солнечные крепления', '太陽光マウント', 'Solarmontage', 'सोलर माउंटिंग'),
+  'Rivets': L10('Rivets', '铆钉', 'Remaches', 'Rivets', 'Rebites', 'برشام', 'Заклёпки', 'リベット', 'Nieten', 'रिवेट'),
+  'Brackets & Profiles': L10('Brackets & Profiles', '支架与型材', 'Soportes y perfiles', 'Supports et profilés', 'Suportes e perfis', 'دعامات ومقاطع', 'Кронштейны и профили', 'ブラケット・形材', 'Halterungen und Profile', 'ब्रैकेट और प्रोफ़ाइल'),
+  'Waterproofing': L10('Waterproofing', '防水材料', 'Impermeabilización', 'Étanchéité', 'Impermeabilização', 'العزل المائي', 'Гидроизоляция', '防水資材', 'Abdichtung', 'वॉटरप्रूफ़िंग'),
+}
+
+export const productSearchCopy = {
+  placeholder: L10(
+    'Search products...', '搜索产品...', 'Buscar productos...', 'Rechercher des produits...', 'Buscar produtos...',
+    'ابحث عن المنتجات...', 'Поиск продуктов...', '製品を検索...', 'Produkte suchen...', 'उत्पाद खोजें...',
+  ),
+  resultsFor: {
+    en: (n: number, q: string) => `${n} results for "${q}"`,
+    zh: (n: number, q: string) => `${n} 个结果：“${q}”`,
+    es: (n: number, q: string) => `${n} resultados para "${q}"`,
+    fr: (n: number, q: string) => `${n} résultats pour « ${q} »`,
+    pt: (n: number, q: string) => `${n} resultados para "${q}"`,
+    ar: (n: number, q: string) => `${n} نتيجة لـ "${q}"`,
+    ru: (n: number, q: string) => `${n} результатов по запросу «${q}»`,
+    ja: (n: number, q: string) => `「${q}」の検索結果 ${n} 件`,
+    de: (n: number, q: string) => `${n} Ergebnisse für „${q}“`,
+    hi: (n: number, q: string) => `"${q}" के लिए ${n} परिणाम`,
+  },
+  countLine: {
+    en: (n: number, cat?: string) => (cat ? `${n} products in ${cat}` : `${n} products`),
+    zh: (n: number, cat?: string) => (cat ? `${n} 个产品 · ${cat}` : `${n} 个产品`),
+    es: (n: number, cat?: string) => (cat ? `${n} productos en ${cat}` : `${n} productos`),
+    fr: (n: number, cat?: string) => (cat ? `${n} produits dans « ${cat} »` : `${n} produits`),
+    pt: (n: number, cat?: string) => (cat ? `${n} produtos em ${cat}` : `${n} produtos`),
+    ar: (n: number, cat?: string) => (cat ? `${n} منتج في ${cat}` : `${n} منتج`),
+    ru: (n: number, cat?: string) => (cat ? `${n} товаров · ${cat}` : `${n} товаров`),
+    ja: (n: number, cat?: string) => (cat ? `${n} 件の製品・${cat}` : `${n} 件の製品`),
+    de: (n: number, cat?: string) => (cat ? `${n} Produkte in ${cat}` : `${n} Produkte`),
+    hi: (n: number, cat?: string) => (cat ? `${n} उत्पाद · ${cat}` : `${n} उत्पाद`),
+  },
+  emptyTitle: L10(
+    'No products found', '没有找到匹配的产品', 'No se encontraron productos', 'Aucun produit trouvé', 'Nenhum produto encontrado',
+    'لم يتم العثور على منتجات', 'Продукты не найдены', '該当する製品が見つかりません', 'Keine Produkte gefunden', 'कोई उत्पाद नहीं मिला',
+  ),
+  emptyHint: L10(
+    'Try different keywords or browse all products', '换个关键词，或浏览全部产品',
+    'Pruebe otras palabras clave o vea todos los productos',
+    'Essayez d\'autres mots-clés ou parcourez tous les produits',
+    'Tente outras palavras-chave ou veja todos os produtos',
+    'جرّب كلمات مفتاحية أخرى أو تصفّح كل المنتجات',
+    'Попробуйте другие ключевые слова или все продукты',
+    '別のキーワードでお試しいただくか、すべての製品をご覧ください',
+    'Andere Suchbegriffe verwenden oder alle Produkte ansehen',
+    'दूसरे कीवर्ड आज़माएँ या सभी उत्पाद देखें',
+  ),
+}
+
+export const navLabels = {
+  home: L10('Home', '首页', 'Inicio', 'Accueil', 'Início', 'الرئيسية', 'Главная', 'ホーム', 'Startseite', 'होम'),
+  products: L10('Products', '产品', 'Productos', 'Produits', 'Produtos', 'المنتجات', 'Продукция', '製品', 'Produkte', 'उत्पाद'),
+  industry: L10('Industry Guides', '行业指南', 'Guías del sector', 'Guides sectoriels', 'Guias do setor', 'أدلة القطاع', 'Отраслевые руководства', '業界ガイド', 'Branchenratgeber', 'उद्योग गाइड'),
+  about: L10('About', '关于我们', 'Nosotros', 'À propos', 'Sobre nós', 'من نحن', 'О нас', '会社概要', 'Über uns', 'हमारे बारे में'),
+  contact: L10('Contact', '联系我们', 'Contacto', 'Contact', 'Contato', 'اتصل بنا', 'Контакты', 'お問い合わせ', 'Kontakt', 'संपर्क करें'),
+}
+
+export const orgCopy = {
+  description: L10(
+    'TradeGo is a SABS & ISO 9001 certified fastener distributor specializing in serving African construction markets for 20+ years. Products include drywall screws, self-drilling screws, hex bolts, nuts, IBR nails. Factory-direct pricing with sea freight to Durban, Lagos, Mombasa and 20+ African countries.',
+    'TradeGo 是专业的 SABS 和 ISO 9001 认证紧固件分销商，专注服务非洲建筑市场 20 余年。产品包括干墙螺丝、自钻螺丝、螺栓螺母、IBR 钉等。工厂价，海运至德班、拉各斯、蒙巴萨等 20 余个非洲国家。',
+    'TradeGo es un distribuidor de fijaciones certificado SABS e ISO 9001, especializado en el mercado de la construcción africano desde hace más de 20 años. Productos: tornillos para placas de yeso, autotaladrantes, pernos hexagonales, tuercas, clavos IBR. Precios de fábrica con flete marítimo a Durban, Lagos, Mombasa y más de 20 países africanos.',
+    "TradeGo est un distributeur de visserie certifié SABS et ISO 9001, spécialisé sur les marchés de la construction africains depuis plus de 20 ans. Produits : vis plaque de plâtre, vis autoforeuses, boulons hexagonaux, écrous, pointes IBR. Prix départ usine, fret maritime vers Durban, Lagos, Mombasa et plus de 20 pays africains.",
+    'A TradeGo é uma distribuidora de fixadores certificada SABS e ISO 9001, especializada no mercado de construção africano há mais de 20 anos. Produtos: parafusos para drywall, autoatarraxantes, parafusos sextavados, porcas, pregos IBR. Preço de fábrica com frete marítimo para Durban, Lagos, Mombaça e mais de 20 países africanos.',
+    'TradeGo موزّع مثبتات حاصل على شهادتي SABS وISO 9001، متخصص في أسواق البناء الأفريقية منذ أكثر من 20 عاماً. تشمل المنتجات براغي الجبس وذاتية الحفر ومسامير سداسية وصواميل ومسامير IBR. أسعار المصنع مع شحن بحري إلى ديربان ولاغوس ومومباسا وأكثر من 20 دولة أفريقية.',
+    'TradeGo — дистрибьютор крепежа с сертификатами SABS и ISO 9001, специализируется на строительных рынках Африки более 20 лет. Продукция: винты для гипсокартона, саморезы, болты с шестигранной головкой, гайки, гвозди IBR. Заводские цены, морская доставка в Дурбан, Лагос, Момбасу и более 20 африканских стран.',
+    'TradeGo は SABS および ISO 9001 認証のファスナー販売会社で、20 年以上にわたりアフリカ建設市場に特化しています。石膏ボード用ねじ、自穿孔ねじ、六角ボルト、ナット、IBR くぎなどを扱い、工場価格でダーバン、ラゴス、モンバサなど 20 カ国以上へ海上輸送します。',
+    'TradeGo ist ein SABS- und ISO 9001-zertifizierter Befestigungselemente-Distributor mit über 20 Jahren Fokus auf afrikanische Baumärkte. Sortiment: Trockenbauschrauben, Bohrschrauben, Sechskantschrauben, Muttern, IBR-Nägel. Fabrikpreise mit Seefracht nach Durban, Lagos, Mombasa und über 20 afrikanische Länder.',
+    'TradeGo SABS और ISO 9001 प्रमाणित फास्टनर वितरक है, जो 20 से अधिक वर्षों से अफ्रीकी निर्माण बाज़ारों पर केंद्रित है। उत्पाद: ड्राईवॉल स्क्रू, सेल्फ-ड्रिलिंग स्क्रू, हेक्स बोल्ट, नट, IBR कील। फैक्ट्री मूल्य और डरबन, लागोस, मोम्बासा सहित 20+ अफ्रीकी देशों तक समुद्री ढुलाई।',
+  ),
+  slogan: L10(
+    'Reliable Fasteners, Delivered to Africa',
+    '非洲可靠紧固件供应商',
+    'Fijaciones fiables, entregadas en África',
+    'Visserie fiable, livrée en Afrique',
+    'Fixadores confiáveis, entregues na África',
+    'مثبتات موثوقة تصل إلى أفريقيا',
+    'Надёжный крепёж с доставкой в Африку',
+    '信頼のファスナーをアフリカへ',
+    'Zuverlässige Befestigungstechnik, geliefert nach Afrika',
+    'भरोसेमंद फास्टनर, अफ्रीका तक डिलीवरी',
+  ),
+}
+
+export const cookieCopy = {
+  text: L10(
+    'We use anonymous analytics to understand how the site is used, so we can improve it.',
+    '我们使用匿名统计了解网站使用情况，用于改进产品和内容。',
+    'Usamos analítica anónima para entender cómo se usa el sitio y mejorarlo.',
+    "Nous utilisons des statistiques anonymes pour comprendre l'utilisation du site et l'améliorer.",
+    'Usamos análises anônimas para entender o uso do site e melhorá-lo.',
+    'نستخدم تحليلات مجهولة لفهم كيفية استخدام الموقع وتحسينه.',
+    'Мы используем анонимную аналитику, чтобы понять, как используется сайт, и улучшить его.',
+    'サイトの利用状況を匿名で分析し、改善に役立てています。',
+    'Wir nutzen anonyme Analysen, um die Nutzung der Website zu verstehen und sie zu verbessern.',
+    'हम अनाम विश्लेषण से समझते हैं कि साइट कैसे उपयोग होती है, ताकि इसे बेहतर बना सकें।',
+  ),
+  accept: L10('Accept', '同意', 'Aceptar', 'Accepter', 'Aceitar', 'موافق', 'Принять', '同意する', 'Akzeptieren', 'स्वीकार करें'),
+  decline: L10('Essential only', '仅必要', 'Solo esenciales', 'Essentiels uniquement', 'Apenas essenciais', 'الضروري فقط', 'Только необходимые', '必須のみ', 'Nur notwendige', 'केवल आवश्यक'),
+  ariaLabel: L10('Cookie notice', 'Cookie 提示', 'Aviso de cookies', 'Avis sur les cookies', 'Aviso de cookies', 'إشعار ملفات تعريف الارتباط', 'Уведомление о cookie', 'Cookie に関するお知らせ', 'Cookie-Hinweis', 'Cookie सूचना'),
 }
