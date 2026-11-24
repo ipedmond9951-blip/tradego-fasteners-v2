@@ -1,9 +1,10 @@
 'use client'
 
 import { type Locale } from '@/i18n'
-import { pick, sourcesCopy, sourcesTitle } from '@/lib/uiCopy'
+import { pick, sourceStandardCopy, sourcesCopy, sourcesTitle } from '@/lib/uiCopy'
 
 interface Source {
+  key: 'iso' | 'sabs' | 'astm' | 'din'
   name: string
   nameZh: string
   url: string
@@ -13,6 +14,7 @@ interface Source {
 
 const sources: Source[] = [
   {
+    key: 'iso',
     name: 'ISO 9001:2015',
     nameZh: 'ISO 9001:2015质量管理体系',
     url: 'https://www.iso.org/standard/62085.html',
@@ -20,6 +22,7 @@ const sources: Source[] = [
     descriptionZh: '国际质量管理体系标准',
   },
   {
+    key: 'sabs',
     name: 'SABS (South African Bureau of Standards)',
     nameZh: '南非标准局 (SABS)',
     url: 'https://www.sabs.co.za/',
@@ -27,6 +30,7 @@ const sources: Source[] = [
     descriptionZh: '南非国家标准化机构',
   },
   {
+    key: 'astm',
     name: 'ASTM International',
     nameZh: '美国材料与试验协会',
     url: 'https://www.astm.org/',
@@ -34,6 +38,7 @@ const sources: Source[] = [
     descriptionZh: '材料和产品国际标准组织',
   },
   {
+    key: 'din',
     name: 'DIN (German Institute for Standardization)',
     nameZh: '德国标准化协会',
     url: 'https://www.din.de/',
@@ -81,7 +86,7 @@ export default function SourcesSection({ locale = 'en' }: SourcesSectionProps) {
                     {isZh ? source.nameZh : source.name}
                   </h3>
                   <p className="text-xs text-gray-500">
-                    {isZh ? source.descriptionZh : source.description}
+                    {isZh ? source.descriptionZh : locale === 'en' ? source.description : pick(sourceStandardCopy[source.key], locale)}
                   </p>
                 </div>
               </div>
