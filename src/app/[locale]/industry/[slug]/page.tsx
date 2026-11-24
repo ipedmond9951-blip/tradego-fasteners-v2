@@ -10,7 +10,7 @@ import { clampDescription } from '@/lib/seo'
 import { optImagePath } from '@/lib/optImages'
 import { backToArticles, pick, articleCta, navLabels } from '@/lib/uiCopy'
 import { productNames } from '@/lib/productI18n'
-import { categoryLabel } from '@/lib/categoryLabels'
+import { categoryLabel, categorySlug } from '@/lib/categoryLabels'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
@@ -235,7 +235,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: pick(navLabels.home, locale), item: `https://www.tradego-fasteners.com/${locale}/` },
       { '@type': 'ListItem', position: 2, name: pick(navLabels.industry, locale), item: `https://www.tradego-fasteners.com/${locale}/industry/` },
-      { '@type': 'ListItem', position: 3, name: categoryLabel(article.category, locale), item: `https://www.tradego-fasteners.com/${locale}/industry/category/${article.category}/` },
+      { '@type': 'ListItem', position: 3, name: categoryLabel(article.category, locale), item: `https://www.tradego-fasteners.com/${locale}/industry/category/${categorySlug(article.category)}/` },
       { '@type': 'ListItem', position: 4, name: title, item: `https://www.tradego-fasteners.com/${locale}/industry/${slug}/` },
     ],
   }

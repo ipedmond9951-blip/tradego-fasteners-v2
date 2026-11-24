@@ -7,15 +7,14 @@ import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { optImagePath } from '@/lib/optImages'
 import { notFound } from 'next/navigation'
 import { categoryPageCopy, pick } from '@/lib/uiCopy'
+import { categorySlug } from '@/lib/categoryLabels'
 
 // 23 unique categories in 224 articles (2026-07-16 scan)
 // Slug = lowercase + spaces → hyphens (保留 hyphen like "Procurement Guide - Africa" → "procurement-guide-africa")
 const CATEGORY_SLUGS: Record<string, string> = {}
 const SLUG_TO_CATEGORY: Record<string, string> = {}
 
-function slugifyCategory(cat: string): string {
-  return cat.toLowerCase().replace(/\s*-\s*/g, '-').replace(/\s+/g, '-')
-}
+const slugifyCategory = categorySlug
 
 // Build at import time
 {

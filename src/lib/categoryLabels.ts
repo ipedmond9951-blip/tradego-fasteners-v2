@@ -45,3 +45,8 @@ export function categoryLabel(category: string | undefined, locale: string): str
   if (!category) return ''
   return categoryLabels[category]?.[locale] || category
 }
+
+// 品类页 URL slug：与 /industry/category/[category] 的 generateStaticParams 同一算法
+export function categorySlug(cat: string): string {
+  return cat.toLowerCase().replace(/\s*-\s*/g, '-').replace(/\s+/g, '-')
+}

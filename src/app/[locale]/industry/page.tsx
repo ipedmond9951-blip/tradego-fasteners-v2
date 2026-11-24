@@ -6,7 +6,7 @@ import type { Metadata } from 'next'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { optImagePath } from '@/lib/optImages'
 import { industryListCopy, allCategoriesLabel, pick } from '@/lib/uiCopy'
-import { categoryLabel } from '@/lib/categoryLabels'
+import { categoryLabel, categorySlug } from '@/lib/categoryLabels'
 
 const titles: Record<string, string> = {
   en: 'Fastener Guides: Import, Grades and Sourcing',
@@ -79,7 +79,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
   }, {})
 
   // 2026-07-16: 分类按钮改 Link 指向 category 静态页 (SEO 友好, 预渲染)
-  const slugify = (cat: string) => cat.toLowerCase().replace(/\s*-\s*/g, '-').replace(/\s+/g, '-')
+  const slugify = categorySlug
 
   return (
     <div className="min-h-screen bg-gray-50">
