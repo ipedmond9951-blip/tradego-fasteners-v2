@@ -583,3 +583,16 @@ export const sourceStandardCopy = {
     'जर्मनी की राष्ट्रीय मानक संस्था',
   ),
 }
+
+// 页脚固定条目（海运时效、标准列表、法务链接）十语
+export const footerExtra = {
+  seaFreight: L10('Sea Freight to Africa', '海运至非洲', 'Flete marítimo a África', 'Fret maritime vers l’Afrique', 'Frete marítimo para a África', 'الشحن البحري إلى أفريقيا', 'Морская доставка в Африку', 'アフリカへの海上輸送', 'Seefracht nach Afrika', 'अफ्रीका को समुद्री माल ढुलाई'),
+  durban: L10('Durban 25-30 days', '德班 25–30 天', 'Durban 25-30 días', 'Durban 25-30 jours', 'Durban 25-30 dias', 'ديربان 25-30 يومًا', 'Дурбан 25-30 дней', 'ダーバン 25〜30 日', 'Durban 25-30 Tage', 'डरबन 25-30 दिन'),
+  beira: L10('Beira 20-25 days', '贝拉 20–25 天', 'Beira 20-25 días', 'Beira 20-25 jours', 'Beira 20-25 dias', 'بيرا 20-25 يومًا', 'Бейра 20-25 дней', 'ベイラ 20〜25 日', 'Beira 20-25 Tage', 'बेइरा 20-25 दिन'),
+  mombasa: L10('Mombasa 28-32 days', '蒙巴萨 28–32 天', 'Mombasa 28-32 días', 'Mombasa 28-32 jours', 'Mombasa 28-32 dias', 'مومباسا 28-32 يومًا', 'Момбаса 28-32 дней', 'モンバサ 28〜32 日', 'Mombasa 28-32 Tage', 'मोम्बासा 28-32 दिन'),
+  dinStandards: L10('DIN Standards', 'DIN 标准', 'Normas DIN', 'Normes DIN', 'Normas DIN', 'معايير DIN', 'Стандарты DIN', 'DIN 規格', 'DIN-Normen', 'DIN मानक'),
+  sabs: L10('SABS (South Africa)', 'SABS（南非）', 'SABS (Sudáfrica)', 'SABS (Afrique du Sud)', 'SABS (África do Sul)', 'SABS (جنوب أفريقيا)', 'SABS (ЮАР)', 'SABS（南アフリカ）', 'SABS (Südafrika)', 'SABS (दक्षिण अफ्रीका)'),
+  astmStandards: L10('ASTM Standards', 'ASTM 标准', 'Normas ASTM', 'Normes ASTM', 'Normas ASTM', 'معايير ASTM', 'Стандарты ASTM', 'ASTM 規格', 'ASTM-Normen', 'ASTM मानक'),
+  privacy: L10('Privacy Policy', '隐私政策', 'Política de privacidad', 'Politique de confidentialité', 'Política de privacidade', 'سياسة الخصوصية', 'Политика конфиденциальности', 'プライバシーポリシー', 'Datenschutzerklärung', 'गोपनीयता नीति'),
+  terms: L10('Terms of Service', '服务条款', 'Términos de servicio', 'Conditions d’utilisation', 'Termos de serviço', 'شروط الخدمة', 'Условия использования', '利用規約', 'Nutzungsbedingungen', 'सेवा की शर्तें'),
+}
