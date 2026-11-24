@@ -123,7 +123,7 @@ export function getSlugDateMap(): Record<string, string> {
     try {
       const a = JSON.parse(fs.readFileSync(path.join(articlesDir, f), 'utf-8')) as Article
       const slug = decodeURIComponent(f.replace('.json', ''))
-      map[slug] = a.date || a.updated || new Date().toISOString().slice(0, 10)
+      map[slug] = a.updated || a.date || new Date().toISOString().slice(0, 10)
     } catch {}
   }
   return map
