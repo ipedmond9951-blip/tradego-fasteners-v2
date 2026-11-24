@@ -1,26 +1,44 @@
 import { type Locale, t, locales } from '@/i18n'
 import Link from 'next/link'
 import Image from 'next/image'
-import { getAllArticles } from '@/lib/articles'
+import { getAllArticles, getArticleTitle } from '@/lib/articles'
 import type { Metadata } from 'next'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { optImagePath } from '@/lib/optImages'
 import { industryListCopy, pick } from '@/lib/uiCopy'
 import { categoryLabel } from '@/lib/categoryLabels'
 
+const titles: Record<string, string> = {
+  en: 'Fastener Guides: Import, Grades and Sourcing',
+  zh: '紧固件指南：进口清关、等级与采购',
+  es: 'Guías de fijaciones: importación, grados y compras',
+  fr: 'Guides de fixations : importation, classes et achats',
+  pt: 'Guias de fixadores: importação, classes e compras',
+  ar: 'أدلة المثبتات: الاستيراد والدرجات والتوريد',
+  ru: 'Гид по крепежу: импорт, классы прочности и закупки',
+  ja: '締結部品ガイド：輸入・強度区分・調達',
+  de: 'Verbindungselemente-Ratgeber: Import, Festigkeitsklassen, Beschaffung',
+  hi: 'फास्टनर गाइड: आयात, ग्रेड और खरीद',
+}
+
+const descriptions: Record<string, string> = {
+  en: 'Practical guides on bolt grades, coatings, port clearance and buying fasteners from China to Africa. ISO 9001 and SABS documented suppliers.',
+  zh: '螺栓等级、表面处理、非洲港口清关与中国采购的实操指南。ISO 9001 与 SABS 认证供应商，含落地成本与单证清单。',
+  es: 'Guías prácticas sobre grados de pernos, recubrimientos, despacho portuario y compra de fijaciones de China a África. Proveedor con ISO 9001 y SABS documentados.',
+  fr: 'Guides pratiques sur les classes de boulons, les revêtements, le dédouanement portuaire et l’achat de fixations de la Chine vers l’Afrique. Fournisseur certifié ISO 9001 et SABS.',
+  pt: 'Guias práticos sobre classes de parafusos, revestimentos, desembaraço portuário e compra de fixadores da China para a África. Fornecedor com ISO 9001 e SABS documentados.',
+  ar: 'أدلة عملية حول درجات البراغي والطلاءات والتخليص الجمركي في الموانئ وشراء المثبتات من الصين إلى أفريقيا. مورّد موثّق بشهادتي ISO 9001 وSABS.',
+  ru: 'Практические руководства по классам прочности болтов, покрытиям, таможенному оформлению в портах и закупке крепежа из Китая в Африку. Поставщик с ISO 9001 и SABS.',
+  ja: 'ボルトの強度区分、表面処理、港での通関、中国からアフリカへの締結部品調達の実務ガイド。ISO 9001・SABS 取得工場。',
+  de: 'Praxisratgeber zu Festigkeitsklassen, Beschichtungen, Hafenabfertigung und Beschaffung von Verbindungselementen aus China nach Afrika. ISO-9001- und SABS-zertifizierter Lieferant.',
+  hi: 'बोल्ट ग्रेड, कोटिंग, बंदरगाह क्लीयरेंस और चीन से अफ्रीका तक फास्टनर खरीद पर व्यावहारिक गाइड। ISO 9001 और SABS प्रमाणित आपूर्तिकर्ता।',
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: localeParam } = await params
   const locale = (localeParam as Locale) || 'en'
   const siteUrl = 'https://www.tradego-fasteners.com'
   
-  const titles: Record<string, string> = {
-    en: 'Fastener Guides: Import, Grades and Sourcing',
-    zh: '紧固件指南：进口清关、等级与采购',
-  }
-  const descriptions: Record<string, string> = {
-    en: 'Practical guides on bolt grades, coatings, port clearance and buying fasteners from China to Africa. ISO 9001 and SABS documented suppliers.',
-    zh: '螺栓等级、表面处理、非洲港口清关与中国采购的实操指南。ISO 9001 与 SABS 认证供应商，含落地成本与单证清单。',
-  }
   
   return {
     title: titles[locale] || titles.en,
@@ -32,10 +50,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       type: 'website',
     },
     alternates: {
-      canonical: `${siteUrl}/${locale}/industry`,
+      canonical: `${siteUrl}/${locale}/industry/`,
       languages: Object.fromEntries([
-        ['x-default', `${siteUrl}/${locale}/industry`],
-        ...locales.map(l => [l, `${siteUrl}/${l}/industry`]),
+        ['x-default', `${siteUrl}/${locale}/industry/`],
+        ...locales.map(l => [l, `${siteUrl}/${l}/industry/`]),
       ]),
     },
   }
@@ -158,6 +176,33 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
       </section>
 
       {/* Breadcrumb Schema for SEO - Round 13 */}
+      {/* GEO：文章聚合页给出 CollectionPage + ItemList，AI 引擎可直接读到本语种文章图谱 */}
+      <script
+        id="collection-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'CollectionPage',
+            name: titles[locale] || titles.en,
+            description: descriptions[locale] || descriptions.en,
+            inLanguage: locale === 'zh' ? 'zh-CN' : locale,
+            url: `https://www.tradego-fasteners.com/${locale}/industry/`,
+            isPartOf: { '@type': 'WebSite', '@id': 'https://www.tradego-fasteners.com/#website' },
+            mainEntity: {
+              '@type': 'ItemList',
+              numberOfItems: previewArticles.length,
+              itemListElement: previewArticles.map((a, i) => ({
+                '@type': 'ListItem',
+                position: i + 1,
+                url: `https://www.tradego-fasteners.com/${locale}/industry/${a.slug}/`,
+                name: getArticleTitle(a, locale),
+              })),
+            },
+          }),
+        }}
+      />
+
       <BreadcrumbSchema locale={locale} pageName="Industry" pageUrl="/industry" />
     </div>
   )

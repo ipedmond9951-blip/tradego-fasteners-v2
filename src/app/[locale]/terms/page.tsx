@@ -24,14 +24,27 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     hi: 'सेवा की शर्तें',
   }
 
+  const descriptions: Record<string, string> = {
+    en: 'TradeGo Fasteners Terms of Service - Read our terms and conditions for using our website and services.',
+    zh: 'TradeGo 紧固件服务条款——了解本站与服务的使用条件。',
+    es: 'Condiciones de servicio de TradeGo Fasteners: consulte las condiciones de uso de nuestro sitio y servicios.',
+    fr: 'Conditions d’utilisation de TradeGo Fasteners : consultez les conditions d’utilisation de notre site et de nos services.',
+    pt: 'Termos de Serviço da TradeGo Fasteners: conheça as condições de uso do nosso site e dos nossos serviços.',
+    ar: 'شروط خدمة TradeGo Fasteners: اطّلع على شروط استخدام موقعنا وخدماتنا.',
+    ru: 'Условия обслуживания TradeGo Fasteners: правила использования сайта и услуг.',
+    ja: 'TradeGo Fasteners の利用規約：当サイトおよびサービスのご利用条件をご確認ください。',
+    de: 'Nutzungsbedingungen von TradeGo Fasteners: Bedingungen für die Nutzung unserer Website und Services.',
+    hi: 'TradeGo Fasteners की सेवा शर्तें: हमारी वेबसाइट और सेवाओं के उपयोग की शर्तें पढ़ें।',
+  }
+
   return {
     title: titles[loc] || titles.en,
-    description: 'TradeGo Fasteners Terms of Service - Read our terms and conditions for using our website and services.',
+    description: descriptions[loc] || descriptions.en,
     alternates: {
-      canonical: `https://www.tradego-fasteners.com/${loc}/terms`,
+      canonical: `https://www.tradego-fasteners.com/${loc}/terms/`,
       languages: Object.fromEntries([
-        ['x-default', 'https://www.tradego-fasteners.com/en/terms'],
-        ...locales.map(l => [l, `https://www.tradego-fasteners.com/${l}/terms`]),
+        ['x-default', 'https://www.tradego-fasteners.com/en/terms/'],
+        ...locales.map(l => [l, `https://www.tradego-fasteners.com/${l}/terms/`]),
       ]),
     },
   }

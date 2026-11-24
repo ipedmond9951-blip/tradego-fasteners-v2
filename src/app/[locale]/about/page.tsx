@@ -42,10 +42,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: titles[loc] || titles.en,
     description: descriptions[loc] || descriptions.en,
     alternates: {
-      canonical: `${siteUrl}/${loc}/about`,
+      canonical: `${siteUrl}/${loc}/about/`,
       languages: Object.fromEntries([
-        ['x-default', `${siteUrl}/en/about`],
-        ...locales.map(l => [l, `${siteUrl}/${l}/about`])
+        ['x-default', `${siteUrl}/en/about/`],
+        ...locales.map(l => [l, `${siteUrl}/${l}/about/`])
       ]),
     },
   }

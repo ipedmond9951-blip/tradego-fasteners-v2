@@ -67,10 +67,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       images: [{ url: `${SITE_URL}${article.image}`, width: 1200, height: 630, alt: rawTitle }],
     },
     alternates: {
-      canonical: `${SITE_URL}/${locale}/industry/${slug}`,
+      canonical: `${SITE_URL}/${locale}/industry/${slug}/`,
       languages: Object.fromEntries([
-        ['x-default', `${SITE_URL}/en/industry/${slug}`],
-        ...locales.map(l => [l, `${SITE_URL}/${l}/industry/${slug}`])
+        ['x-default', `${SITE_URL}/en/industry/${slug}/`],
+        ...locales.map(l => [l, `${SITE_URL}/${l}/industry/${slug}/`])
       ]),
     },
     twitter: {

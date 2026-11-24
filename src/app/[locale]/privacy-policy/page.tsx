@@ -24,14 +24,27 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     hi: 'गोपनीयता नीति',
   }
 
+  const descriptions: Record<string, string> = {
+    en: 'TradeGo Fasteners Privacy Policy - Learn how we collect, use, and protect your personal information.',
+    zh: 'TradeGo 紧固件隐私政策——了解我们如何收集、使用与保护您的个人信息。',
+    es: 'Política de privacidad de TradeGo Fasteners: cómo recopilamos, usamos y protegemos sus datos personales.',
+    fr: 'Politique de confidentialité de TradeGo Fasteners : comment nous collectons, utilisons et protégeons vos données personnelles.',
+    pt: 'Política de Privacidade da TradeGo Fasteners: saiba como coletamos, usamos e protegemos seus dados pessoais.',
+    ar: 'سياسة الخصوصية في TradeGo Fasteners: كيف نجمع بياناتك الشخصية ونستخدمها ونحميها.',
+    ru: 'Политика конфиденциальности TradeGo Fasteners: как мы собираем, используем и защищаем ваши персональные данные.',
+    ja: 'TradeGo Fasteners のプライバシーポリシー：個人情報の収集・利用・保護についてご説明します。',
+    de: 'Datenschutzerklärung von TradeGo Fasteners: wie wir personenbezogene Daten erheben, nutzen und schützen.',
+    hi: 'TradeGo Fasteners की गोपनीयता नीति: हम आपकी व्यक्तिगत जानकारी कैसे एकत्र, उपयोग और सुरक्षित करते हैं।',
+  }
+
   return {
     title: titles[loc] || titles.en,
-    description: 'TradeGo Fasteners Privacy Policy - Learn how we collect, use, and protect your personal information.',
+    description: descriptions[loc] || descriptions.en,
     alternates: {
-      canonical: `https://www.tradego-fasteners.com/${loc}/privacy-policy`,
+      canonical: `https://www.tradego-fasteners.com/${loc}/privacy-policy/`,
       languages: Object.fromEntries([
-        ['x-default', 'https://www.tradego-fasteners.com/en/privacy-policy'],
-        ...locales.map(l => [l, `https://www.tradego-fasteners.com/${l}/privacy-policy`]),
+        ['x-default', 'https://www.tradego-fasteners.com/en/privacy-policy/'],
+        ...locales.map(l => [l, `https://www.tradego-fasteners.com/${l}/privacy-policy/`]),
       ]),
     },
   }

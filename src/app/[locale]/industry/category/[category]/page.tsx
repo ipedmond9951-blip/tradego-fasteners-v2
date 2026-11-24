@@ -194,10 +194,10 @@ export async function generateMetadata({
       type: 'website',
     },
     alternates: {
-      canonical: `${siteUrl}/${locale}/industry/category/${catSlug}`,
+      canonical: `${siteUrl}/${locale}/industry/category/${catSlug}/`,
       languages: Object.fromEntries([
-        ['x-default', `${siteUrl}/en/industry/category/${catSlug}`],
-        ...locales.map(l => [l, `${siteUrl}/${l}/industry/category/${catSlug}`])
+        ['x-default', `${siteUrl}/en/industry/category/${catSlug}/`],
+        ...locales.map(l => [l, `${siteUrl}/${l}/industry/category/${catSlug}/`])
       ]),
     },
   }

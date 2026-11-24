@@ -8,9 +8,9 @@ export const metadata: Metadata = {
   keywords: ['Zimbabwe fasteners', 'Harare bolts', 'Zimbabwe wholesale screws', 'Bulawayo nuts', 'African construction fasteners', 'mining fasteners Zimbabwe'],
   // 2026-07-16 23:30 GSC 修复: 加 canonical + 10-lang hreflang
   alternates: {
-    canonical: 'https://www.tradego-fasteners.com/en/zimbabwe-fasteners-wholesale',
+    canonical: 'https://www.tradego-fasteners.com/en/zimbabwe-fasteners-wholesale/',
     // 该落地页只有英文正文（津巴布韦官方语言为英语），故只声明 en，避免 hreflang 声称存在 9 个译版
-    languages: { 'x-default': 'https://www.tradego-fasteners.com/en/zimbabwe-fasteners-wholesale', en: 'https://www.tradego-fasteners.com/en/zimbabwe-fasteners-wholesale' },
+    languages: { 'x-default': 'https://www.tradego-fasteners.com/en/zimbabwe-fasteners-wholesale/', en: 'https://www.tradego-fasteners.com/en/zimbabwe-fasteners-wholesale/' },
   },
 }
 
