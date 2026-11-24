@@ -1,0 +1,54 @@
+{
+  "slug": "j-bolts-buying-guide",
+  "sections": [
+    {
+      "id": "what-is-a-j-bolt",
+      "heading": { "fr": "Ce qu'un boulon en J fait que les autres boulons ne font pas" },
+      "body": {
+        "fr": "Un boulon en J est un boulon d'ancrage cintré : une extrémité est filetée, l'autre se courbe en crochet et est scellée dans le béton. Le crochet est ce qui empêche le boulon de s'arracher ; le filetage reçoit l'écrou qui serre le poteau, le mât, le cadre ou le socle de la machine. Comme l'ancrage travaille par reprise en compression du béton sur le cintrage plutôt que par friction, il ne nécessite ni manchon, ni coin, ni couple de serrage, et il supporte les vibrations normales d'une clôture ou d'une base de poteau. Il constitue la fixation par défaut pour les poteaux de clôture, les poteaux de portail, les mâts d'éclairage, les mâts d'antenne, les assemblages de panneaux préfabriqués, les colonnes d'auvent et les socles de machine. Il ne remplace pas le boulon en U : le boulon en U serre autour d'un tube ou d'un poteau, tandis que le boulon en J est scellé dans le sol et reprend la charge sur son filetage. Il ne remplace pas non plus un boulon traversant lorsque la plaque de base doit être tirée fermement sur un calepin de mortier, ce qui nécessite un filetage plus long et souvent une plaque rondelle."
+      }
+    },
+    {
+      "id": "length-rule",
+      "heading": { "fr": "Définir la longueur : scellement plus organe à fixer" },
+      "body": {
+        "fr": "La longueur totale égale le scellement dans le béton, plus l'épaisseur de l'élément posé sur la base, plus l'écrou et la rondelle, plus deux ou trois filets de réserve. Le scellement est la variable qui conditionne le dimensionnement, et il suit la charge et le béton, pas l'habitude du fabricant. Pour les poteaux de clôture et de portail en béton C20, la plage de travail habituelle est de 150 à 250 mm de scellement ; pour les mâts d'éclairage et d'antenne, 300 mm et au-delà ; pour les socles de machines lourdes et les colonnes d'auvent, c'est l'ingénieur structure qui doit l'indiquer. Une règle pratique pour un boulon seul en traction veut que le scellement soit au moins dix diamètres de barre dans un bon béton, et davantage dans un béton fissuré ou massif. Le rayon du crochet est généralement de trois à quatre diamètres de barre ; le cintrage se fait à froid pour les diamètres jusqu'à environ M20 et à chaud pour les dimensions supérieures, afin d'éviter les fissures au niveau du coude."
+      }
+    },
+    {
+      "id": "thread-and-nut",
+      "heading": { "fr": "Longueur de filetage, écrou et rondelle" },
+      "body": {
+        "fr": "La partie filetée doit être assez longue pour l'écrou, une rondelle et le réglage réellement nécessaire sur le chantier. Deux ou trois filets de réserve au-delà de l'écrou sont le minimum ; lorsque la plaque de base repose sur des cales qui seront retirées après le jointoiement, prévoyez 10 à 15 mm de réglage. Le filetage métrique à pas gros est courant de M8 à M24 ; indiquez la classe de filetage si le projet en prévoit une, et confirmez si l'écrou et la rondelle sont fournis assemblés ou séparés, car un conteneur de boulons sans écrou bloque le chantier. Pour les boulons galvanisés, l'écrou doit être galvanisé lui aussi : un écrou brut sur un boulon galvanisé fait mauvaise impression et rouille en premier. Lorsque le boulon traverse un poteau en bois, ajoutez une plaque rondelle en acier pour répartir la charge ; lorsqu'il traverse une plaque de base en acier, vérifiez le diamètre du trou par rapport au boulon et au diamètre extérieur de la rondelle, afin que celle-ci ne s'accroche pas sur le bord du trou."
+      }
+    },
+    {
+      "id": "steel-and-coating",
+      "heading": { "fr": "Nuance d'acier et arbitrages du revêtement" },
+      "body": {
+        "fr": "Q235 est la nuance courante pour les ancrages généraux de clôture, de poteau et d'auvent ; Q345 ou une barre de nuance 8.8 sont utilisés lorsque l'ancrage reprend une traction structurelle. Pour les ancrages spécifiés selon l'ASTM F1554, la désignation de nuance (36, 55 ou 105) fixe la limite d'élasticité, et l'acheteur doit demander le certificat d'usine, et pas seulement le marquage. Le revêtement est le domaine où les acheteurs surspécifient ou sous-spécifient le plus souvent. Le crochet scellé n'a besoin d'aucun revêtement dans la plupart des cas, mais le filetage exposé et la partie au-dessus du béton doivent être protégés : la galvanisation à chaud est standard pour les ouvrages extérieurs et côtiers, la galvanisation électrolytique pour l'intérieur sec, et l'inox ou un revêtement duplex épais pour les sites côtiers et industriels sévères. Une erreur courante est de galvaniser le boulon entier, scellement compris : c'est sans danger, mais cela ajoute un coût sans contrepartie. Une autre est de galvaniser un boulon M20 sans tenir compte du jeu de filetage : la galvanisation à chaud ajoute de l'épaisseur, et un écrou qui allait sur un boulon nu peut ne pas tourner librement sur un boulon galvanisé à moins que le filetage ne soit taraudé surdimensionné."
+      }
+    },
+    {
+      "id": "bending-and-tolerance",
+      "heading": { "fr": "Qualité du cintrage et tolérances" },
+      "body": {
+        "fr": "Un boulon en J est un produit fabriqué, donc la qualité tient au cintrage et au filetage, pas à l'acier seul. Le cintrage à froid des grands diamètres crée une fibre étirée sur le bord extérieur et un risque de fissure ; un fabricant qui cintre du M24 à froid sans reculement échange durabilité contre rapidité. Demandez comment le cintrage est réalisé et si le crochet est formé en une seule passe avec un rayon maîtrisé. Les tolérances dimensionnelles qui comptent sur le chantier sont la rectitude de la tige, l'entraxe lorsque deux boulons forment une paire pour un poteau, la longueur de filetage et la longueur totale. Des tolérances lâches sur l'écartement de la paire empêcheront le poteau de rentrer dans les trous de la plaque de base. Examinez un échantillon posé sur une surface plane : une tige cintrée se traduit par un jour sous le milieu, et un crochet à rayon irrégulier par une ouverture asymétrique. Conditionnez les boulons en faisceaux par dimension, crochets alternés, afin que le faisceau repose à plat dans le carton."
+      }
+    },
+    {
+      "id": "packing-shipping",
+      "heading": { "fr": "Emballage, chargement et documents" },
+      "body": {
+        "fr": "Les boulons en J sont longs, lourds et peu maniables ; l'emballage influence donc plus le coût du fret que le prix de l'acier. L'emballage export courant est des faisceaux de 20 à 50 pièces liés par fil de fer ou feuillard, crochets alternés, avec un film papier ou polyéthylène contre l'humidité ; les boulons longs sont souvent mis en caisses bois pour éviter d'endommager le filetage pendant le transit. Demandez le poids du faisceau et le nombre de faisceaux par palette ou caisse, puis calculez le plan de chargement : un conteneur 20 pieds de boulons M12 x 300 mm atteindra d'abord la limite de poids avant celle de volume, tandis que des M8 x 150 mm atteindront d'abord la limite de volume. Protégez les filetages par capuchon plastique ou film, car un filetage endommagé empêche l'écrou de tourner et oblige le chantier à le meuler. Les documents sont la facture habituelle, la liste de colisage, le connaissement et le certificat d'origine, plus le certificat d'usine lorsque le projet spécifie une nuance. Si l'ancrage sert à une liaison structurelle, gardez le numéro de coulée sur l'étiquette du faisceau pour que le certificat soit traçable jusqu'aux pièces livrées."
+      }
+    },
+    {
+      "id": "quote-checklist",
+      "heading": { "fr": "Six données pour un devis exact" },
+      "body": {
+        "fr": "Communiquez au fournisseur le diamètre et la longueur totale, la longueur de filetage, le rayon du crochet s'il est fixé par la conception, la nuance d'acier, le revêtement et la quantité par dimension. Ajoutez l'application, car un ancrage pour poteau de clôture et un ancrage pour base de mât portent des exigences de scellement différentes même à diamètre égal. Si des plans existent, envoyez-les ; sinon, un croquis simple avec les quatre dimensions de contrôle évite un aller-retour de courriels. Demandez un échantillon de préproduction de trois pièces pour un projet neuf, et vérifiez que l'écrou parcourt tout le filetage à la main avant l'expédition du conteneur. TradeGo fournit des boulons en J de M8 à M24, longueurs de 100 à 600 mm, Q235 et Q345, galvanisés à chaud ou électrozingués, avec écrous et rondelles fournis, conditionnés en faisceaux et caisses pour le fret maritime."
+      }
+    }
+  ]
+}
