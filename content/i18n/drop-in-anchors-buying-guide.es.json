@@ -1,0 +1,54 @@
+{
+  "slug": "drop-in-anchors-buying-guide",
+  "sections": [
+    {
+      "id": "flush-fixing-internal-thread",
+      "heading": { "es": "Fijación enrasada con rosca interior" },
+      "body": {
+        "es": "El anclaje drop-in es un anclaje de expansión con rosca hembra que se instala enrasado con la superficie del hormigón. A diferencia del sleeve anchor, no deja vástago saliente, de modo que un soporte de conducto, un apoyo de bandeja de cables o una barra roscada pueden retirarse sin dejar saliente permanente. El cuerpo suele ser de acero al carbono o inoxidable, con rosca interior M6, M8, M10, M12 o M16. La rosca debe casar con el tornillo, perno o barra usado en el elemento: un anclaje M8 acepta rosca macho M8, no un perno M10 forzado. Para una fijación fiable use hormigón sano y curado y evite bordes fisurados, zonas con coqueras o bloque hueco salvo que un diseño aprobado lo permita. La expansión se logra clavando un cono interior con herramienta específica y el elemento se atornilla después. Antes de pedir, confirme forma de rosca, material, acabado, longitud, espesor del elemento, resistencia del hormigón y exposición; en obra exterior cerca de Durban, Beira o rutas costeras húmedas, exija el material o recubrimento anticorrosivo requerido y no dé por hecho que el zinc estándar sirve en cualquier ambiente."
+      }
+    },
+    {
+      "id": "size-chart-matching-screws",
+      "heading": { "es": "Tabla de medidas y tornillos compatibles" },
+      "body": {
+        "es": "Elija la medida por el diámetro de rosca y luego compruebe empotramiento y espesor del elemento. Tabla práctica de compra: M6 para soportes ligeros, M8 para conducto común y apoyos de bandeja pequeños, M10 para soportes de servicio medio, M12 para bastidores más pesados y M16 para diseños de alta capacidad sujetos a revisión de ingeniería. Diámetros nominales de broca habituales: M6 8 mm, M8 10 mm, M10 12 mm, M12 16 mm y M16 20 mm, pero manda siempre el plano del fabricante porque la geometría de manguito y cono varía. Las longitudes típicas van de unos 25 a 65 mm según rosca y empotramiento. El tornillo o barra debe dar rosca completa sin tocar fondo contra el cono interior: mida espesor del elemento, arandela y calzo, y elija un largo que enganche la rosca especificada dejando holgura en la base. No sustituya por tornillo de madera, autorroscante ni barra de menor medida. Pida plano técnico, broca, profundidad mínima, separación y distancia mínima a borde y par o requisito de instalación; son parámetros objetivo, no valores universales, y el ingeniero debe verificar hormigón y carga de diseño antes de aprobar."
+      }
+    },
+    {
+      "id": "setting-tools-correct-expansion",
+      "heading": { "es": "Herramientas de fijación y expansión correcta" },
+      "body": {
+        "es": "La herramienta específica es imprescindible porque el cono interior debe llegar a una posición definida. Elija la herramienta por medida de rosca —una M8 para anclaje M8—; un punzón, destornillador o varilla improvisada puede dañar la rosca o dejar el cono a medio expandir. Tras taladrar y limpiar, inserte el anclaje hasta que su parte superior quede enrasada con el hormigón. Coloque la herramienta en la rosca o interfaz de cono indicada por el proveedor y golpee con martillo hasta que el hombro de la herramienta alcance el anclaje o se logre la marca de fijación. El número exacto de golpes no es universal y no debe usarse como criterio de calidad salvo que el fabricante lo defina. Un anclaje bien fijado resiste la prueba o verificación de instalación sin girar ni salirse durante el montaje normal. No golpee la barra roscada ya instalada ni apriete el elemento para compensar un anclaje mal fijado. Si gira, queda saliente o admite la herramienta a profundidad anómala, pare y sustituya tras revisar el taladro. Para trabajo repetitivo, forme a los instaladores en una sola familia de anclajes, mantenga la herramienta correcta con cada medida y registre lote, diámetro y resultados de inspección. En soportes estructurales o críticos de seguridad, use las instrucciones del proveedor y un método de verificación aprobado por ingeniero."
+      }
+    },
+    {
+      "id": "hole-cleaning-depth-control",
+      "heading": { "es": "Limpieza del taladro y control de profundidad" },
+      "body": {
+        "es": "Diámetro y profundidad deben controlarse juntos. Marque la broca de widia a la profundidad requerida, dejando margen para longitud del anclaje, evacuación de residuos y empotramiento mínimo del fabricante. Taladre perpendicular con taladro percutor o rotativo adecuado al soporte. No agrande el taladro ladeando la broca ni use broca desgastada que produzca diámetro excesivo. Tras taladrar, retire el polvo según el método de obra: cepille todo el taladro, sople o aspire el polvo suelto y repita hasta que no queden restos visibles. Un taladro poco profundo o sucio impide al anclaje llegar a su posición; uno demasiado profundo oculta residuos y dificulta la inspección. Verifique el diámetro con la broca especificada o galga calibrada cuando el proyecto lo exija. Mantenga el taladro lejos de armadura, bordes y anclajes vecinos según separación y distancia a borde. Si topa con ferralla, pare en lugar de forzar la broca y obtenga criterio de ingeniería antes de reubicar. En ambientes polvorientos, incluidos grandes proyectos de infraestructura en Zimbabue, Zambia o Mozambique, acuerde un método de limpieza repetible e inspeccionable y registre diámetro, profundidad y limpieza en muestras antes de la instalación completa."
+      }
+    },
+    {
+      "id": "load-limits-tension-shear",
+      "heading": { "es": "Límites de carga a tracción y cortante" },
+      "body": {
+        "es": "No elija un drop-in solo por la medida de rosca. La carga admisible depende de resistencia del hormigón, empotramiento, separación, distancia a borde, calidad de instalación, dirección de carga y resistencia del acero del anclaje y tornillo. La tracción separa el anclaje de la superficie; el cortante actúa transversalmente, como en un soporte de tubería mural. Tracción y cortante combinados pueden reducir la capacidad útil. Las tablas del fabricante pueden dar resistencia característica, carga de trabajo recomendada o resistencia de cálculo, términos no intercambiables: aplique los coeficientes de seguridad del proyecto y verifique si la tabla supone hormigón fisurado o no fisurado. La práctica habitual es usar valores publicados solo dentro de la clase de hormigón, separación, distancia a borde e instalación indicadas; nunca convierta la etiqueta M8 o M10 en un límite universal de kilogramos. En servicios en altura considere impacto accidental, vibración, movimiento térmico y consecuencia de la caída de un componente. Una bandeja puede repartir carga entre varios anclajes, pero una instalación irregular hace que uno cargue más de su parte. El ingeniero responsable debe comprobar material base, combinación de cargas y requisitos estructurales locales, con referencias como EN 1992-4 cuando aplique. Pida datos técnicos y límites actuales al proveedor, pero no trate un catálogo como aprobación de proyecto; la prueba de carga o inspección en obra debe seguir el método del ingeniero, sobre todo en instalaciones suspendidas o críticas."
+      }
+    },
+    {
+      "id": "suspended-services-conduit-tray-pipe",
+      "heading": { "es": "Servicios suspendidos: conducto, bandeja y tubería" },
+      "body": {
+        "es": "Los drop-in se especifican a menudo para barras roscadas enrasadas que sostienen conducto eléctrico, bandeja de cables y tubería en techos o paredes de hormigón. Empiece por el layout de soportes, separación de anclajes y peso del servicio, incluida bandeja, tubería, aislamiento, agua o cables. El bastidor debe mantener la carga cerca de la cara del hormigón y evitar excentricidad excesiva. Para un soporte tipo trapecio, instale el par o grupo de anclajes a la separación de diseño y monte barras, tuercas y arandelas sin cruzar rosca. M8 puede servir para conducto ligero y M10 o M12 para bandejas o tuberías mayores, pero es un criterio de dimensionado típico, no garantía de capacidad. Revise vibración, dilatación térmica, movimiento sísmico y acceso futuro. En rociadores, agua fría o proceso, coordine con el diseño mecánico para no tratar el anclaje como sustituto de un sistema completo de soporte. Mantenga los anclajes lejos de bordes y armadura y no mezcle tipos ni herramientas en un mismo lote de inspección sin documentarlo. En proyectos del sur de África, la planificación por Beira o Durban afecta etiquetado, protección contra humedad y entregas divididas: pida en el pedido medida de rosca, acabado, herramienta, plano y marcas de embalaje."
+      }
+    },
+    {
+      "id": "ordering-and-packing",
+      "heading": { "es": "Pedido y embalaje" },
+      "body": {
+        "es": "Un pedido claro reduce errores en proyectos de exportación. Indique tipo de anclaje, rosca interior, medida nominal, longitud, material, acabado, necesidad de herramienta y documentos técnicos requeridos. Por ejemplo: “anclaje drop-in enrasado M8, acero al carbono, zincado, cantidad, herramienta M8 compatible”, solo si ese material y acabado cumplen el ambiente del proyecto. Si la obra es costera, húmeda o con químicos, pida la categoría de corrosión del ingeniero y cotice material o recubrimento adecuado; no añada certificaciones no aportadas. Confirme si tornillos, arandelas, barras y herramientas están incluidos o se compran aparte. El embalaje debe separar anclajes por rosca y lote, con etiquetas duraderas de código, medida, cantidad, material y referencia de lote. Las herramientas pequeñas deben ir protegidas para no dañar los cartones en transporte marítimo o terrestre. Para envíos a Zimbabue, Zambia, Sudáfrica o Mozambique, acuerde ruta y consignatario, incluido si la carga pasa por Beira o Durban, antes de cerrar marcas de envío. Pida dimensiones de caja, peso bruto y neto y packing list para planificar flete. TradeGo puede preparar cotización directa de fábrica desde la especificación aprobada, pero plazo, precio, embalaje y entrega deben confirmarse contra el pedido real y la ruta."
+      }
+    }
+  ]
+}
