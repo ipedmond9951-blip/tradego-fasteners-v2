@@ -70,6 +70,19 @@ export function GeoPromotion() {
   const region = getRegion(country)
   
   // Try country-specific content first, then fall back to region, then to default
+  // 2026-11-24: 非 en/zh 语种不再回落到英文区域文案，改用该语种字典里的区域促销句
+  if (locale !== 'en' && locale !== 'zh' && !regionalContent[country]?.[locale] && !regionalContent[region]?.[locale]) {
+    const key = region === 'US' ? 'us' : region === 'EU' ? 'me' : 'za'
+    const promo = t(locale, `geo.${key}Promo`)
+    const ship = t(locale, `geo.${key}Shipping`)
+    if (!promo && !ship) return null
+    return (
+      <div className="bg-primary-50 border border-primary-200 rounded-lg p-4 mb-6">
+        {promo && <p className="text-primary-800 font-medium">🎉 {promo}</p>}
+        {ship && <p className="text-primary-600 text-sm mt-1">🚢 {ship}</p>}
+      </div>
+    )
+  }
   const content = regionalContent[country]?.[locale] 
     || regionalContent[country]?.en
     || regionalContent[region]?.[locale]

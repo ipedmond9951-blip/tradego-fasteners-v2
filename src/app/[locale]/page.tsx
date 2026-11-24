@@ -1,6 +1,6 @@
 import Script from 'next/script'
 import type { Metadata } from 'next'
-import { locales, type Locale } from '@/i18n'
+import { locales, t, type Locale } from '@/i18n'
 import HeroSection from '@/components/HeroSection'
 import AboutSection from '@/components/AboutSection'
 import WhyChooseUs from '@/components/WhyChooseUs'
@@ -106,6 +106,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
         {/* Social Share Buttons */}
         <div className="max-w-3xl mx-auto py-4">
           <ShareButtons 
+            label={t(locale, 'industry.share')}
             url={`https://www.tradego-fasteners.com/${locale}`}
             title={pick(shareCopy.title, locale)}
             description={pick(shareCopy.desc, locale)}
