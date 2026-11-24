@@ -1,4 +1,3 @@
-import Script from 'next/script'
 import type { Metadata } from 'next'
 import { locales, t, type Locale } from '@/i18n'
 import HeroSection from '@/components/HeroSection'
@@ -15,7 +14,10 @@ import ShareButtons from '@/components/ShareButtons'
 import VideoSection from '@/components/VideoSection'
 import StatisticsSection from '@/components/StatisticsSection'
 import SourcesSection from '@/components/SourcesSection'
-import { pick, shareCopy } from '@/lib/uiCopy'
+import { navLabels, pick, schemaCopy, shareCopy } from '@/lib/uiCopy'
+import { productNames, productDescriptions, pick as pickPd } from '@/lib/productI18n'
+import { featuredSlugs } from '@/lib/productCategories'
+import { allProducts } from '@/lib/products'
 import { getFaq } from '@/lib/faqI18n'
 
 // 首页：canonical 必须按语种自指，否则 9 个非英语首页被 /en 吸收
@@ -41,55 +43,65 @@ export function generateStaticParams() {
 export default async function LocalePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: localeParam } = await params
   const locale = (localeParam as Locale) || 'en'
+  const site = 'https://www.tradego-fasteners.com'
+  // ItemList 用本地化的产品名与描述，并给出本语种产品页 URL（原先是硬编码英文、且 URL 缺语种）
+  const itemListElement = featuredSlugs
+    .map(slug => allProducts.find(p => p.slug === slug))
+    .filter((p): p is (typeof allProducts)[number] => Boolean(p))
+    .map((product, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      item: {
+        '@type': 'Product',
+        name: pickPd(productNames[product.slug], locale),
+        description: pickPd(productDescriptions[product.slug], locale),
+        url: `${site}/${locale}/products/${product.slug}/`,
+        brand: { '@type': 'Brand', name: 'TradeGo' },
+      },
+    }))
 
   return (
     <>
-      <Script
+      <script
         id="product-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'ItemList',
-            name: 'TradeGo Fastener Products',
-            itemListElement: [
-              { '@type': 'ListItem', position: 1, item: { '@type': 'Product', name: 'Drywall Screws', description: 'Premium bugle head screws for drywall installation, coarse/fine thread options', brand: { '@type': 'Brand', name: 'TradeGo' } } },
-              { '@type': 'ListItem', position: 2, item: { '@type': 'Product', name: 'Self-Drilling Screws', description: 'High-performance TEK screws for metal-to-metal fastening, drill point design', brand: { '@type': 'Brand', name: 'TradeGo' } } },
-              { '@type': 'ListItem', position: 3, item: { '@type': 'Product', name: 'Bolts & Nuts', description: 'Industrial grade hex bolts and nuts, Grade 4.8 to 12.9', brand: { '@type': 'Brand', name: 'TradeGo' } } },
-              { '@type': 'ListItem', position: 4, item: { '@type': 'Product', name: 'IBR Nails', description: 'Umbrella head roofing nails for IBR/corrugated roofing, SABS 1195 compliant', brand: { '@type': 'Brand', name: 'TradeGo' } } },
-              { '@type': 'ListItem', position: 5, item: { '@type': 'Product', name: 'Anchor Bolts', description: 'Foundation anchor bolts M10-M30, ASTM F1554 compliant', brand: { '@type': 'Brand', name: 'TradeGo' } } },
-              { '@type': 'ListItem', position: 6, item: { '@type': 'Product', name: 'Washers', description: 'Flat washers and spring washers M6-M36, DIN 125/127 standards', brand: { '@type': 'Brand', name: 'TradeGo' } } },
-              { '@type': 'ListItem', position: 7, item: { '@type': 'Product', name: 'Coach Screws', description: 'Hex head timber screws for wood-to-wood fastening, M6-M12', brand: { '@type': 'Brand', name: 'TradeGo' } } },
-              { '@type': 'ListItem', position: 8, item: { '@type': 'Product', name: 'Threaded Rods', description: 'Full thread rods M6-M24, DIN 975, 1m-3m lengths', brand: { '@type': 'Brand', name: 'TradeGo' } } },
-            ],
+            name: pick(schemaCopy.itemListName, locale),
+            inLanguage: locale === 'zh' ? 'zh-CN' : locale,
+            itemListElement,
           }),
         }}
       />
 
       {/* FAQPage Structured Data for Google Rich Results */}
-      <Script
+      <script
         id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
+            inLanguage: locale === 'zh' ? 'zh-CN' : locale,
             mainEntity: getFaq(locale).map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
           }),
         }}
       />
 
       {/* BreadcrumbList Structured Data */}
-      <Script
+      <script
         id="breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
+            inLanguage: locale === 'zh' ? 'zh-CN' : locale,
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.tradego-fasteners.com' },
-              { '@type': 'ListItem', position: 2, name: 'Products', item: 'https://www.tradego-fasteners.com/products' },
+              { '@type': 'ListItem', position: 1, name: pick(navLabels.home, locale), item: `${site}/${locale}/` },
+              { '@type': 'ListItem', position: 2, name: pick(navLabels.products, locale), item: `${site}/${locale}/products/` },
             ],
           }),
         }}

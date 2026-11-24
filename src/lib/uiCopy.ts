@@ -596,3 +596,8 @@ export const footerExtra = {
   privacy: L10('Privacy Policy', '隐私政策', 'Política de privacidad', 'Politique de confidentialité', 'Política de privacidade', 'سياسة الخصوصية', 'Политика конфиденциальности', 'プライバシーポリシー', 'Datenschutzerklärung', 'गोपनीयता नीति'),
   terms: L10('Terms of Service', '服务条款', 'Términos de servicio', 'Conditions d’utilisation', 'Termos de serviço', 'شروط الخدمة', 'Условия использования', '利用規約', 'Nutzungsbedingungen', 'सेवा की शर्तें'),
 }
+
+// 结构化数据里用到的名称，避免十语站 schema 只输出英文
+export const schemaCopy = {
+  itemListName: L10('TradeGo fastener product range', 'TradeGo 紧固件产品线', 'Gama de fijaciones TradeGo', 'Gamme de fixations TradeGo', 'Linha de fixadores TradeGo', 'مجموعة مثبتات TradeGo', 'Ассортимент крепежа TradeGo', 'TradeGo 締結部品ラインナップ', 'TradeGo Befestigungssortiment', 'TradeGo फास्टनर उत्पाद श्रेणी'),
+}

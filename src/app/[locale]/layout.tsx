@@ -11,7 +11,6 @@ const AIChatWidget = dynamic(() => import('@/components/AIChatWidget'))
 import Analytics from '@/components/Analytics'
 const CookieConsent = dynamic(() => import('@/components/CookieConsent') )
 const WhatsAppCTA = dynamic(() => import('@/components/WhatsAppCTA') )
-import FAQSchema from '@/components/FAQSchema'
 import VideoSchema from '@/components/VideoSchema'
 import OrganizationSchema from '@/components/OrganizationSchema'
 import NavigationSchema from '@/components/NavigationSchema'
@@ -112,7 +111,6 @@ export default async function LocaleLayout({
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="TradeGo" />
         <meta name="theme-color" content="#0A3D62" />
-        <FAQSchema locale={loc} />
         <VideoSchema locale={loc} />
         <OrganizationSchema locale={loc} />
         <LocalBusinessSchema locale={loc} />

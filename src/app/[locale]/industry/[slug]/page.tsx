@@ -206,7 +206,10 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
     '@type': 'Article',
     headline: title,
     description: desc,
+    inLanguage: locale === 'zh' ? 'zh-CN' : locale,
+    articleSection: categoryLabel(article.category, locale),
     datePublished: article.date,
+    dateModified: article.updated || article.date,
     image: `https://www.tradego-fasteners.com${article.image}`,
     mainEntityOfPage: {
       '@type': 'WebPage',
