@@ -32,7 +32,7 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
     const name = pick(productNames[product.slug], locale)
     const desc = pick(productDescriptions[product.slug], locale)
     const guide = productGuides[product.slug]
-    const imageHref = guide ? `/${locale}/industry/${guide}` : `/${locale}/products/${product.slug}`
+    const imageHref = guide ? `/${locale}/industry/${guide}/` : `/${locale}/products/${product.slug}/`
 
     return (
       <div key={product.slug} className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow flex flex-col">

@@ -8,7 +8,7 @@ interface NavigationSchemaProps {
 export default function NavigationSchema({ locale }: NavigationSchemaProps) {
   const baseUrl = 'https://www.tradego-fasteners.com'
   
-  const localePrefix = locale === 'en' ? '' : `/${locale}`
+  const localePrefix = locale === 'en' ? '' : `/${locale}/`
   
   const schema = {
     '@context': 'https://schema.org',

@@ -12,25 +12,25 @@ export default function Header({ locale = 'en' }: HeaderProps) {
   const [dropdown, setDropdown] = useState<string | null>(null)
 
   const navItems: Array<{ href?: string; label: string; children?: Array<{ href: string; label: string; anchor?: string; icon?: string }> }> = [
-    { href: `/${locale}`, label: t(locale, 'nav.home') },
+    { href: `/${locale}/`, label: t(locale, 'nav.home') },
     {
-      href: `/${locale}/products`,
+      href: `/${locale}/products/`,
       label: t(locale, 'nav.products'),
       children: [
-        { href: `/${locale}/products`, label: t(locale, 'products.allProducts') },
-        { href: `/${locale}/product-upload`, label: t(locale, 'nav.uploadProduct'), icon: '📤' },
+        { href: `/${locale}/products/`, label: t(locale, 'products.allProducts') },
+        { href: `/${locale}/product-upload/`, label: t(locale, 'nav.uploadProduct'), icon: '📤' },
       ],
     },
     {
       label: t(locale, 'nav.industry'),
       children: [
-        { href: `/${locale}/industry`, label: t(locale, 'nav.articles') },
-        { href: `/${locale}/industry`, label: t(locale, 'nav.market'), anchor: 'market' },
-        { href: `/${locale}/industry`, label: t(locale, 'nav.geoOptim'), anchor: 'geo' },
+        { href: `/${locale}/industry/`, label: t(locale, 'nav.articles') },
+        { href: `/${locale}/industry/`, label: t(locale, 'nav.market'), anchor: 'market' },
+        { href: `/${locale}/industry/`, label: t(locale, 'nav.geoOptim'), anchor: 'geo' },
       ],
     },
-    { href: `/${locale}#faq`, label: t(locale, 'nav.faq') },
-    { href: `/${locale}#about`, label: t(locale, 'nav.about') },
+    { href: `/${locale}/#faq`, label: t(locale, 'nav.faq') },
+    { href: `/${locale}/#about`, label: t(locale, 'nav.about') },
   ]
 
   return (
