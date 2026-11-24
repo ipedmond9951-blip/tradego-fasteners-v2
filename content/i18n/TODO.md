@@ -35,3 +35,9 @@
 - 译文按目标市场语言写，术语用当地工程习惯（es: correa/limahoya；fr: panne/noue；pt: terça/rincão；ar: مدادة/مزراب）
 - 不塞英文原文；品牌名与标准号（TEK、EPDM、Ruspert、IBR、HDG、SANS、EN 14592）保持原样
 - 单篇一次补 3–5 个语种，避免长输出截断
+
+## 阶段化补齐策略（2026-11-24 起）
+- 用户确认：先铺阶段一 `es/fr/pt/ar`（法语非洲、莫桑比克/安哥拉、北非阿语市场），再补 `ru/de/ja/hi`。
+- 阶段一校验：`python3 scripts/body_i18n.py verify <slug> --phase1`（只查 en/zh/es/fr/pt/ar）。
+- 一篇阶段一齐全即可 merge 上线，不必等十语；阶段二补齐时按同 slug 追加 `*.ru.json` 等草稿后再次 merge。
+- 部署额度约束：每次 push 计 1 次 Vercel 部署（Hobby 100 次/天），多篇攒一批再推。

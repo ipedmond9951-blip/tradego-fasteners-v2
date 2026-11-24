@@ -1,0 +1,40 @@
+{
+  "slug": "tanzania-ibr-roofing-fasteners-dar-es-salaam",
+  "sections": [
+    {
+      "id": "site-conditions",
+      "heading": { "fr": "À quoi ressemble vraiment la toiture d'un entrepôt à Dar es Salaam" },
+      "body": {
+        "fr": "Les projets d'entrepôts tanzaniens spécifient généralement de la tôle profilée IBR en 0,47 mm, parfois 0,4 mm sur les hangars bon marché et 0,55 mm lorsque les portées sont longues. La largeur utile est de 686 mm avec un pas de 76 mm, posée sur pannes C ou Z à entraxe de 1,2 m ; le 1,5 m apparaît sur les auvents légers et c'est précisément là que les problèmes de fixation commencent. La toiture subit deux contraintes à la fois : une forte humidité et le sel de l'océan Indien, si bien que chaque fixation a un devoir de tenue mais aussi un devoir anticorrosion. Une fixation qui s'arrache ou se perce de rouille en troisième année n'est pas une économie : c'est une fuite plus une facture de réfection, et les deux retombent sur l'importateur."
+      }
+    },
+    {
+      "id": "ibr-nail-case",
+      "heading": { "fr": "Quand le clou IBR est le bon choix" },
+      "body": {
+        "fr": "Le clou IBR est une tige lisse ou légèrement cannelée enfoncée à travers la crête de la tôle jusque dans la panne, tenue par frottement et par le bord déformé de la tôle. Il est rapide, bon marché au millier et ne demande aucun contrôle de couple : c'est pourquoi les équipes locales l'utilisent par défaut sur les hangars standard. C'est le bon choix quand la tôle est en 0,4–0,47 mm, que l'entraxe des pannes reste à 1,2 m ou moins, que le site est intérieur ou abrité et que le client accepte une durée de vie alignée sur un clou peint. Il cesse de l'être sur les sites côtiers exposés, sur pannes à 1,5 m, sur les toitures qui seront piétinées pour la maintenance et partout où le cahier des charges exige une fixation étanche à rondelle. Les valeurs d'arrachement d'une tige lisse dans une tôle de 0,47 mm sont faibles par nature : c'est la tôle qui cède, pas le clou."
+      }
+    },
+    {
+      "id": "screw-case",
+      "heading": { "fr": "Ce qu'apporte une vis autoperceuse de toiture" },
+      "body": {
+        "fr": "Une vis autoperceuse de toiture porte une pointe foreuse, une tête hexagonale et une rondelle d'étanchéité EPDM ou contrecollée. Elle perce son propre trou, forme son propre filetage dans la panne et comprime la rondelle contre la crête : le trou est étanche au fur et à mesure qu'il se crée. Trois conséquences : la fixation résiste mieux à l'arrachement parce que le filetage mord la panne au lieu de compter sur le frottement de la tôle ; la rondelle empêche le trou de devenir une voie d'eau sous pluie battante ; et la vis peut être dévissée puis remise, ce qui compte sur les toitures entretenues. Le coût unitaire est plus élevé et il faut de la discipline de couple : une visseuse à choc poussée jusqu'au refus écrase la rondelle et marque la tôle. Fixez une plage de couple et vérifiez-la au tournevis calibré sur les cinquante premières fixations."
+      }
+    },
+    {
+      "id": "density-and-cost",
+      "heading": { "fr": "Densité de fixation et coût au mètre carré" },
+      "body": {
+        "fr": "Prenez une tôle, 686 mm de largeur utile sur la longueur de la tôle, et comptez où elle doit être fixée : aux deux extrémités, sur chaque panne intermédiaire et le long des recouvrements latéraux au pas exigé par la zone de vent. Sur un calepinage à 1,2 m, une tôle de 3 m tombe couramment à 8–10 fixations ; à 1,5 m il descend à 6–7, mais chaque fixation travaille davantage et le cas d'arrachement empire. Convertissez en nombre au mètre carré — habituellement 4 à 6 fixations par m² pour des toitures d'entrepôt en zone côtière exposée — et vous pourrez chiffrer les deux options sur la même base. Comparez au millier et au mètre carré, pas à la boîte : le clou gagne sur le premier chiffre, la vis gagne souvent sur le second une fois comptées les reprises, les fuites et les resserrages. Demandez les deux devis à densité identique pour que la comparaison soit réelle."
+      }
+    },
+    {
+      "id": "enquiry-checklist",
+      "heading": { "fr": "Cinq paramètres à mettre dans la demande" },
+      "body": {
+        "fr": "Un : épaisseur et profil de tôle, IBR 0,4 / 0,47 / 0,55 mm et largeur utile. Deux : type et entraxe des pannes, C ou Z, 1,2 m ou 1,5 m, et épaisseur de la panne — une panne de 1,2 mm et une de 2,0 mm ne prennent pas la même longueur de vis. Trois : zone de vent ou pression de soulèvement de calcul de l'ingénieur, car cela seul décide de la densité. Quatre : revêtement et contrainte de corrosion — galvanisé à chaud, zinc-aluminium ou inox pour la rondelle et la vis, selon l'exposition au sel côtière. Cinq : emballage et débarquement — cartons par palette et dédouanement à Dar es Salaam sous HS 7318 avec la documentation TRA. Donnez ces cinq points et le devis cesse d'être une devinette ; omettez-les et chaque fournisseur chiffre une toiture différente."
+      }
+    }
+  ]
+}

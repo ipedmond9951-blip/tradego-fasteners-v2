@@ -16,6 +16,9 @@
 import json, sys, re, glob, os
 
 LANGS = ['en', 'zh', 'es', 'fr', 'pt', 'ar', 'ru', 'ja', 'de', 'hi']
+# 分两阶段补齐：先铺 es/fr/pt/ar（法语非洲、莫桑比克/安哥拉、北非与阿语市场），
+# 再补 ru/de/ja/hi。阶段一用 verify --phase1 校验，阶段二用默认 verify 做终检。
+PHASE1 = ['es', 'fr', 'pt', 'ar']
 ART = 'content/articles'
 I18N = 'content/i18n'
 
@@ -120,14 +123,15 @@ def cmd_merge(slug):
 
 
 
-def cmd_verify(slug):
+def cmd_verify(slug, phase1=False):
     a = load(slug)
+    check = (['en', 'zh'] + PHASE1) if phase1 else LANGS
     bad = []
     for s in a.get('sections', []):
         for field in ('heading', 'body'):
             d = s.get(field) or {}
             en = d.get('en', '')
-            for lang in LANGS:
+            for lang in check:
                 t = d.get(lang, '')
                 if not t.strip():
                     bad.append((s.get('id'), field, lang, 'missing'))
@@ -143,7 +147,10 @@ def cmd_verify(slug):
         for b in bad[:40]:
             print('  ', b)
         sys.exit(1)
-    print('校验通过:', slug, '十语正文齐全')
+    if phase1:
+        print('校验通过(阶段一 en/zh/es/fr/pt/ar):', slug)
+    else:
+        print('校验通过:', slug, '十语正文齐全')
 
 
 if __name__ == '__main__':
@@ -157,6 +164,6 @@ if __name__ == '__main__':
     elif cmd == 'merge':
         cmd_merge(sys.argv[2])
     elif cmd == 'verify':
-        cmd_verify(sys.argv[2])
+        cmd_verify(sys.argv[2], phase1='--phase1' in sys.argv)
     else:
         sys.exit(__doc__)
