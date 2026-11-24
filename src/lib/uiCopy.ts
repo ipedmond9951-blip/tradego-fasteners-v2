@@ -601,3 +601,44 @@ export const footerExtra = {
 export const schemaCopy = {
   itemListName: L10('TradeGo fastener product range', 'TradeGo 紧固件产品线', 'Gama de fijaciones TradeGo', 'Gamme de fixations TradeGo', 'Linha de fixadores TradeGo', 'مجموعة مثبتات TradeGo', 'Ассортимент крепежа TradeGo', 'TradeGo 締結部品ラインナップ', 'TradeGo Befestigungssortiment', 'TradeGo फास्टनर उत्पाद श्रेणी'),
 }
+
+// 文章分类页：面包屑、篇数文案与 meta 描述（原先非英语站输出英文句子）
+export const categoryPageCopy = {
+  allArticles: L10('All Articles', '全部文章', 'Todos los artículos', 'Tous les articles', 'Todos os artigos', 'كل المقالات', 'Все статьи', 'すべての記事', 'Alle Artikel', 'सभी लेख'),
+  count: {
+    en: (n: number) => `${n} ${n === 1 ? 'article' : 'articles'} in this category`,
+    zh: (n: number) => `本分类共 ${n} 篇指南`,
+    es: (n: number) => `${n} artículos en esta categoría`,
+    fr: (n: number) => `${n} articles dans cette catégorie`,
+    pt: (n: number) => `${n} artigos nesta categoria`,
+    ar: (n: number) => `${n} مقالًا في هذا التصنيف`,
+    ru: (n: number) => `${n} статей в этой категории`,
+    ja: (n: number) => `このカテゴリーの記事 ${n} 件`,
+    de: (n: number) => `${n} Artikel in dieser Kategorie`,
+    hi: (n: number) => `इस श्रेणी में ${n} लेख`,
+  },
+  desc: {
+    en: (n: number, label: string) => `${n} practical guides on ${label.toLowerCase()}: bolt grades, coatings, port clearance and fastener sourcing for African and global buyers. ISO 9001 and SABS documented.`,
+    zh: (n: number, label: string) => `${n} 篇${label}实操指南：螺栓等级、表面处理、港口清关与紧固件采购，面向非洲及全球买家，ISO 9001 与 SABS 认证。`,
+    es: (n: number, label: string) => `${n} guías prácticas de ${label.toLowerCase()}: clases de pernos, recubrimientos, despacho portuario y compra de fijaciones para África y mercados globales. ISO 9001 y SABS documentados.`,
+    fr: (n: number, label: string) => `${n} guides pratiques sur ${label.toLowerCase()} : classes de boulons, revêtements, dédouanement portuaire et achat de fixations pour l’Afrique et les marchés mondiaux. ISO 9001 et SABS documentés.`,
+    pt: (n: number, label: string) => `${n} guias práticos de ${label.toLowerCase()}: classes de parafusos, revestimentos, desembaraço portuário e compra de fixadores para a África e mercados globais. ISO 9001 e SABS documentados.`,
+    ar: (n: number, label: string) => `${n} أدلة عملية حول ${label}: درجات البراغي والطلاءات والتخليص الجمركي وشراء المثبتات لأفريقيا والأسواق العالمية. موثّق بشهادتي ISO 9001 وSABS.`,
+    ru: (n: number, label: string) => `${n} практических руководств по теме «${label}»: классы прочности болтов, покрытия, таможенное оформление в портах и закупка крепежа для Африки и мировых рынков. Сертификаты ISO 9001 и SABS.`,
+    ja: (n: number, label: string) => `${label}の実務ガイド ${n} 件：ボルトの強度区分、表面処理、港での通関、アフリカおよび世界市場向けの締結部品調達。ISO 9001・SABS 取得。`,
+    de: (n: number, label: string) => `${n} Praxisratgeber zu ${label}: Festigkeitsklassen, Beschichtungen, Hafenabfertigung und Beschaffung von Verbindungselementen für Afrika und globale Märkte. ISO 9001 und SABS dokumentiert.`,
+    hi: (n: number, label: string) => `${label} पर ${n} व्यावहारिक गाइड: बोल्ट ग्रेड, कोटिंग, बंदरगाह क्लीयरेंस और अफ्रीका व वैश्विक बाज़ारों के लिए फास्टनर खरीद। ISO 9001 और SABS प्रमाणित।`,
+  },
+  ogDesc: {
+    en: (label: string) => `${label} articles from TradeGo.`,
+    zh: (label: string) => `${label}相关文章，来自 TradeGo。`,
+    es: (label: string) => `Artículos sobre ${label} de TradeGo.`,
+    fr: (label: string) => `Articles sur ${label} par TradeGo.`,
+    pt: (label: string) => `Artigos sobre ${label} da TradeGo.`,
+    ar: (label: string) => `مقالات عن ${label} من TradeGo.`,
+    ru: (label: string) => `Статьи о «${label}» от TradeGo.`,
+    ja: (label: string) => `${label}に関する記事（TradeGo）。`,
+    de: (label: string) => `Artikel zu ${label} von TradeGo.`,
+    hi: (label: string) => `${label} पर TradeGo के लेख।`,
+  },
+}

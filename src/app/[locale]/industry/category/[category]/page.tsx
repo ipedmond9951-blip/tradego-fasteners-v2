@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { optImagePath } from '@/lib/optImages'
 import { notFound } from 'next/navigation'
+import { categoryPageCopy, pick } from '@/lib/uiCopy'
 
 // 23 unique categories in 224 articles (2026-07-16 scan)
 // Slug = lowercase + spaces → hyphens (保留 hyphen like "Procurement Guide - Africa" → "procurement-guide-africa")
@@ -149,7 +150,27 @@ const CATEGORY_I18N: Record<string, Record<string, string>> = {
     en: "Reference Guides - Africa", zh: "参考指南 - 非洲", es: "Guías de Referencia - África", ar: "أدلة مرجعية - أفريقيا",
     fr: "Guides de Référence - Afrique", pt: "Guias de Referência - África", ru: "Справочные руководства - Африка",
     ja: "リファレンスガイド - アフリカ", de: "Referenzhandbücher - Afrika", hi: "संदर्भ गाइड - अफ्रीका"
-  }
+  },
+  "Anchors": {
+    en: "Anchors", zh: "锚栓", es: "Anclajes", fr: "Ancrages", pt: "Chumbadores",
+    ar: "مراسي التثبيت", ru: "Анкеры", ja: "アンカー", de: "Anker", hi: "एंकर"
+  },
+  "Screws": {
+    en: "Screws", zh: "螺钉", es: "Tornillos", fr: "Vis", pt: "Parafusos",
+    ar: "براغي", ru: "Саморезы и винты", ja: "ねじ", de: "Schrauben", hi: "स्क्रू"
+  },
+  "Nails": {
+    en: "Nails", zh: "钉子", es: "Clavos", fr: "Clous", pt: "Pregos",
+    ar: "مسامير", ru: "Гвозди", ja: "釘", de: "Nägel", hi: "कीलें"
+  },
+  "Waterproofing": {
+    en: "Waterproofing", zh: "防水材料", es: "Impermeabilización", fr: "Étanchéité", pt: "Impermeabilização",
+    ar: "العزل المائي", ru: "Гидроизоляция", ja: "防水", de: "Abdichtung", hi: "वॉटरप्रूफ़िंग"
+  },
+  "Fastener guide": {
+    en: "Fastener Guide", zh: "紧固件指南", es: "Guía de fijaciones", fr: "Guide des fixations", pt: "Guia de fixadores",
+    ar: "دليل المثبتات", ru: "Гид по крепежу", ja: "ファスナーガイド", de: "Verbindungselemente-Ratgeber", hi: "फास्टनर गाइड"
+  },
 }
 
 export async function generateStaticParams() {
@@ -180,16 +201,14 @@ export async function generateMetadata({
   const title = locale === 'en'
     ? `${catLabel}: ${count} Fastener Guides`
     : `${catLabel} | TradeGo Fasteners`
-  const description = locale === 'en'
-    ? `${count} practical ${catLabel.toLowerCase()} on bolt grades, coatings, port clearance and fastener sourcing for African and global buyers. ISO 9001 and SABS documented.`
-    : `${catLabel} articles for B2B fastener buyers, engineers, and procurement teams. ISO 9001, SABS, and CE certified products for Africa and global markets.`
+  const description = pick(categoryPageCopy.desc, locale)(count, catLabel)
 
   return {
     title,
     description,
     openGraph: {
       title,
-      description: `${catLabel} articles from TradeGo.`,
+      description: pick(categoryPageCopy.ogDesc, locale)(catLabel),
       url: `${siteUrl}/${locale}/industry/category/${catSlug}/`,
       type: 'website',
     },
@@ -231,13 +250,13 @@ export default async function CategoryPage({
         <div className="container mx-auto px-4 sm:px-6">
           {/* Breadcrumb */}
           <nav className="text-sm text-primary-200 mb-3">
-            <Link href={`/${locale}/industry/`} className="hover:text-white">All Articles</Link>
+            <Link href={`/${locale}/industry/`} className="hover:text-white">{pick(categoryPageCopy.allArticles, locale)}</Link>
             <span className="mx-2">/</span>
             <span className="text-white">{catLabel}</span>
           </nav>
           <h1 className="text-3xl md:text-4xl font-bold mb-3">{catLabel}</h1>
           <p className="text-primary-200 text-base md:text-lg max-w-2xl">
-            {allArticles.length} {allArticles.length === 1 ? 'article' : 'articles'} in this category
+            {pick(categoryPageCopy.count, locale)(allArticles.length)}
           </p>
         </div>
       </section>
