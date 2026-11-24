@@ -1,0 +1,40 @@
+{
+  "slug": "africa-wind-energy-fastener-grade-specifications",
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": { "es": "Fijaciones eólicas: por qué la clase decide la vida útil" },
+      "body": {
+        "es": "Las turbinas eólicas fallan más en las conexiones que en los componentes. Las bridas de torre, las raíces de pala, los apoyos de góndola y las interfaces de cimentación dependen todas de uniones atornilladas que deben mantener la pretensión durante décadas de carga cíclica, y la especificación de clase es lo que lo hace posible.<p>Esta guía se limita a las preguntas de especificación que el comprador debe responder: qué clase, qué recubrimento, qué método de apriete y qué evidencia.</p>"
+      }
+    },
+    {
+      "id": "grades",
+      "heading": { "es": "Clase 10.9: punto de partida, no regla" },
+      "body": {
+        "es": "Las conexiones de torre y cimentación usan normalmente clase 10.9, con 8.8 en posiciones estructurales secundarias y clases superiores donde el diseño lo exige. La clase interactúa con el tamaño del perno, la geometría de la unión y el método de tensado, así que especificar una clase sin esos tres datos es una instrucción incompleta.<p>Igual de importante es la ruta de material detrás de la clase. Una clase 10.9 alcanzada con otra aleación y otro tratamiento térmico se comporta distinto frente al impacto a baja temperatura, que es exactamente la condición que imponen los parques eólicos en zonas frías o de altitud.</p>"
+      }
+    },
+    {
+      "id": "fatigue",
+      "heading": { "es": "Fatiga y pretensión: los números que importan" },
+      "body": {
+        "es": "Las uniones atornilladas en servicio eólico se diseñan para mantener la junta cerrada bajo carga de fatiga, lo que exige pretensión suficiente y consistente para que el perno nunca vea el ciclo completo de carga externa. Eso convierte el método de tensado en parte de la ingeniería, no en preferencia de obra.<p>El tensado hidráulico, el control de par y la indicación directa de tensión producen dispersiones de pretensión distintas. La especificación debe nombrar el método y la ventana de aceptación, y exigir verificación sobre una muestra en lugar de confiar en la llave.</p>"
+      }
+    },
+    {
+      "id": "coating",
+      "heading": { "es": "Recubrimiento en costa y offshore" },
+      "body": {
+        "es": "Las torres terrestres en zona costera y todas las estructuras offshore afrontan exposición a cloruros que el zincado común no sobrevive. El galvanizado en caliente con espesor mínimo definido es la base, con sistemas dúplex —galvanizado más capa de sellado— donde el intervalo de mantenimiento es largo.<p>Los componentes roscados necesitan recubrimento especificado para la rosca, no solo para el vástago, porque un recubrimento demasiado grueso cambia el ajuste y uno demasiado fino se corroe primero justo donde se concentra la tensión.</p>"
+      }
+    },
+    {
+      "id": "evidence",
+      "heading": { "es": "Evidencia que el comprador debe guardar antes del montaje" },
+      "body": {
+        "es": "Pida certificados de material con números de colada, propiedades mecánicas incluido impacto a baja temperatura donde aplique, mediciones de espesor de recubrimento y registros de calibración del equipo de tensado. Añada un informe de verificación de pretensión sobre muestra, procedente del ensayo del procedimiento del proveedor.<p>Mantenga también el rastro después del montaje. Los activos eólicos se inspeccionan durante décadas y cambian de propietario; una unión cuyo registro de tensado no aparece se retensa o se sustituye, y en una torre eso es trabajo de grúa, no de mantenimiento.</p>"
+      }
+    }
+  ]
+}

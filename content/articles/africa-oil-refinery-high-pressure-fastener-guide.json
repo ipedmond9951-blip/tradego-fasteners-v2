@@ -105,55 +105,95 @@
       "id": "introduction",
       "heading": {
         "en": "High-Pressure Fasteners in African Refineries: Where Ordinary Bolts Stop Working",
-        "zh": "非洲炼厂的高压紧固件：普通螺栓失效的地方"
+        "zh": "非洲炼厂的高压紧固件：普通螺栓失效的地方",
+        "ar": "مثبتات الضغط العالي في المصافي الأفريقية: أين يفشل البرغي العادي",
+        "es": "Fijaciones de alta presión en refinerías africanas: dónde falla el perno común",
+        "fr": "Fixations haute pression en raffinerie africaine : où le boulon courant cède",
+        "pt": "Fixações de alta pressão em refinarias africanas: onde o parafuso comum falha"
       },
       "body": {
         "en": "Refinery and petrochemical service is the most demanding fastener environment in this series: high pressure, elevated temperature, cyclic loading, and hydrogen or sour service in some units. A bolt that is perfectly adequate on a construction site can fail here within a single maintenance cycle.<p>This guide focuses on what changes when pressure and temperature rise — material selection, bolting practice, and the documentation a refinery actually accepts.</p>",
-        "zh": "炼厂与石化装置是本系列中对紧固件要求最高的环境：高压、高温、交变载荷，部分装置还有氢或酸性介质。建筑工地上完全够用的螺栓，在这里可能一个检修周期内就失效。<p>本文讲清压力和温度上去之后到底什么变了——选材、螺栓紧固工艺，以及炼厂真正接受的单证。</p>"
+        "zh": "炼厂与石化装置是本系列中对紧固件要求最高的环境：高压、高温、交变载荷，部分装置还有氢或酸性介质。建筑工地上完全够用的螺栓，在这里可能一个检修周期内就失效。<p>本文讲清压力和温度上去之后到底什么变了——选材、螺栓紧固工艺，以及炼厂真正接受的单证。</p>",
+        "ar": "الخدمة في المصافي والبتروكيماويات أقسى بيئة مثبتات في هذه السلسلة: ضغط عالٍ وحرارة مرتفعة وحمل دوري، وفي بعض الوحدات خدمة هيدروجين أو خام حامض. فالبرغي المناسب تمامًا في موقع بناء قد يفشل هنا في دورة صيانة واحدة.<p>يتركّز هذا الدليل على ما يتغير حين يرتفع الضغط والحرارة: اختيار المادة، وممارسة الشد، والوثائق التي تقبلها المصفاة فعلًا.</p>",
+        "es": "El servicio en refinería y petroquímica es el entorno de fijaciones más exigente de esta serie: presión alta, temperatura elevada, carga cíclica y, en algunas unidades, servicio con hidrógeno o con crudo agrio. Un perno perfectamente adecuado en obra puede fallar aquí dentro de un solo ciclo de mantenimiento.<p>Esta guía se centra en qué cambia cuando suben presión y temperatura: selección de material, práctica de apriete y la documentación que una refinería realmente acepta.</p>",
+        "fr": "Le service en raffinerie et pétrochimie est l'environnement de fixation le plus exigeant de cette série : haute pression, température élevée, charge cyclique et, dans certaines unités, service hydrogène ou brut acide. Un boulon parfaitement adapté à un chantier peut céder ici en un seul cycle de maintenance.<p>Ce guide porte sur ce qui change quand pression et température montent : choix des matériaux, pratique de boulonnage et documentation qu'une raffinerie accepte réellement.</p>",
+        "pt": "O serviço em refinaria e petroquímica é o ambiente de fixação mais exigente desta série: pressão alta, temperatura elevada, carga cíclica e, em algumas unidades, serviço com hidrogénio ou cru azedo. Um parafuso perfeitamente adequado numa obra pode falhar aqui dentro de um único ciclo de manutenção.<p>Este guia centra-se no que muda quando pressão e temperatura sobem: seleção de material, prática de aparafusamento e a documentação que uma refinaria realmente aceita.</p>"
       }
     },
     {
       "id": "materials",
       "heading": {
         "en": "Material Selection: The Decisions That Cannot Be Reversed",
-        "zh": "选材：不可逆的决定"
+        "zh": "选材：不可逆的决定",
+        "ar": "اختيار المادة: قرارات لا يمكن التراجع عنها",
+        "es": "Selección de material: decisiones que no se pueden revertir",
+        "fr": "Choix des matériaux : des décisions irréversibles",
+        "pt": "Seleção de material: decisões que não se revertem"
       },
       "body": {
         "en": "Carbon steel with the right grade covers much of general refinery bolting, but elevated-temperature and hydrogen service push selection toward alloy steels, and wet or acidic environments toward stainless and duplex grades. The determinant is not the visible duty but the design condition — temperature, pressure, and medium together.<p>The practical rule: never let a purchasing shortcut decide material. Specifying by price rather than by service condition is the origin of most bolting failures in this sector, and it is a failure that no amount of inspection after the fact can correct.</p>",
-        "zh": "合适等级碳钢能覆盖炼厂大部分常规螺栓连接，但高温与含氢工况会把选材推向合金钢，潮湿或酸性环境则推向不锈钢与双相钢。决定因素不是看得见的工况，而是设计条件——温度、压力与介质三者的组合。<p>实操原则：绝不让采购上的省事决定材质。按价格而不是按工况指定材料，是这一行大多数螺栓失效的源头，而且是事后任何检验都纠正不了的失效。</p>"
+        "zh": "合适等级碳钢能覆盖炼厂大部分常规螺栓连接，但高温与含氢工况会把选材推向合金钢，潮湿或酸性环境则推向不锈钢与双相钢。决定因素不是看得见的工况，而是设计条件——温度、压力与介质三者的组合。<p>实操原则：绝不让采购上的省事决定材质。按价格而不是按工况指定材料，是这一行大多数螺栓失效的源头，而且是事后任何检验都纠正不了的失效。</p>",
+        "ar": "الفولاذ الكربوني بالصنف المناسب يغطي جزءًا كبيرًا من شد المصافي العام، لكن الخدمة عند حرارة مرتفعة ومع الهيدروجين تدفع الاختيار إلى الفولاذ السبائكي، والبيئات الرطبة أو الحامضية إلى الستانلس والدوبلكس. والمحدد ليس الخدمة الظاهرة بل شرط التصميم: الحرارة والضغط والوسط معًا.<p>والقاعدة العملية: لا تدع اختصارًا شرائيًا يقرر المادة. فالتحديد بالسعر بدل شرط الخدمة هو أصل معظم انهيارات الشد في هذا القطاع، وهو انهيار لا يصححه أي فحص لاحق.</p>",
+        "es": "El acero al carbono con la clase adecuada cubre buena parte del apriete general de refinería, pero el servicio a temperatura elevada y con hidrógeno empuja la selección hacia aceros aleados, y los ambientes húmedos o ácidos hacia inoxidables y dúplex. El determinante no es el servicio visible sino la condición de diseño: temperatura, presión y medio en conjunto.<p>La regla práctica: nunca deje que un atajo de compras decida el material. Especificar por precio en lugar de por condición de servicio es el origen de la mayoría de fallos de apriete en este sector, y es un fallo que ninguna inspección posterior puede corregir.</p>",
+        "fr": "L'acier au carbone de nuance adaptée couvre une grande part du boulonnage courant de raffinerie, mais le service à température élevée et sous hydrogène pousse vers les aciers alliés, et les milieux humides ou acides vers les inox et duplex. Le déterminant n'est pas le service visible mais la condition de calcul : température, pression et milieu ensemble.<p>Règle pratique : ne laissez jamais un raccourci d'achat décider du matériau. Spécifier par le prix plutôt que par la condition de service est l'origine de la plupart des défaillances de boulonnage dans ce secteur, et aucune inspection ultérieure ne peut la corriger.</p>",
+        "pt": "O aço-carbono com a classe adequada cobre boa parte do aparafusamento geral de refinaria, mas o serviço a temperatura elevada e com hidrogénio empurra a seleção para aços ligados, e os ambientes húmidos ou ácidos para inox e duplex. O determinante não é o serviço visível mas a condição de projeto: temperatura, pressão e meio em conjunto.<p>Regra prática: nunca deixe um atalho de compras decidir o material. Especificar por preço em vez de por condição de serviço é a origem da maioria das falhas de aparafusamento neste setor, e é uma falha que nenhuma inspeção posterior consegue corrigir.</p>"
       }
     },
     {
       "id": "bolting-practice",
       "heading": {
         "en": "Bolting Practice: Torque, Tension, and What Gets Written Down",
-        "zh": "紧固工艺：扭矩、张紧与必须留档的东西"
+        "zh": "紧固工艺：扭矩、张紧与必须留档的东西",
+        "ar": "ممارسة الشد: العزم والشدّ وما يُكتب",
+        "es": "Apriete: par, tensión y lo que queda por escrito",
+        "fr": "Boulonnage : couple, tension et ce qui est écrit",
+        "pt": "Aparafusamento: binário, tensão e o que fica escrito"
       },
       "body": {
         "en": "Flanged joints in pressure service are tightened by controlled torque or by bolt tensioning, and the method has to be chosen per joint size and gasket type rather than by habit. Lubricant choice changes the effective torque for the same preload, so the procedure must name the lubricant rather than leave it to the crew.<p>Recording matters as much as doing. Turn records, torque values, and the tool calibration status are what an inspector asks for first; a joint that was tightened correctly but cannot be documented will usually be re-torqued, and every re-torque consumes life.</p>",
-        "zh": "压力管道的法兰连接靠受控扭矩或螺栓张紧来紧固，方法要按接头尺寸和垫片类型来定，而不是凭习惯。同一预紧力下，润滑剂种类会改变有效扭矩，因此工艺文件必须写明润滑剂，而不是交给现场。<p>记录和施工同等重要。转角记录、扭矩值和工具校准状态是检查员最先索要的东西；一个紧固正确但无法留档的接头通常会被重新紧固，而每次重紧都在消耗寿命。</p>"
+        "zh": "压力管道的法兰连接靠受控扭矩或螺栓张紧来紧固，方法要按接头尺寸和垫片类型来定，而不是凭习惯。同一预紧力下，润滑剂种类会改变有效扭矩，因此工艺文件必须写明润滑剂，而不是交给现场。<p>记录和施工同等重要。转角记录、扭矩值和工具校准状态是检查员最先索要的东西；一个紧固正确但无法留档的接头通常会被重新紧固，而每次重紧都在消耗寿命。</p>",
+        "ar": "تُشد الوصلات ذات الفلنجات في خدمة الضغط بعزم مضبوط أو بشد البرغي، ويجب اختيار الطريقة بحسب مقاس الوصلة ونوع الحاشية لا بالعادة. واختيار المزلق يغيّر العزم الفعلي للشد المسبق نفسه، فيجب أن يسمّي الإجراء المزلق بدل تركه للفريق.<p>والتسجيل يهمّ قدر التنفيذ. فسجلات الدوران وقيم العزم وحالة معايرة الأداة هي أول ما يطلبه المفتش؛ والوصلة التي شُدّت صحيحًا ولم تُوثّق تُعاد شدها عادة، وكل إعادة شد تستهلك عمرًا.</p>",
+        "es": "Las uniones bridadas en servicio a presión se aprietan por par controlado o por tensado del perno, y el método debe elegirse por tamaño de junta y tipo de empaquetadura, no por costumbre. La elección de lubricante cambia el par efectivo para la misma pretensión, así que el procedimiento debe nombrarlo en lugar de dejarlo al equipo.<p>Registrar importa tanto como hacer. Los registros de giro, los valores de par y el estado de calibración de la herramienta son lo primero que pide un inspector; una junta apretada correctamente pero no documentada normalmente se reaprieta, y cada reapriete consume vida.</p>",
+        "fr": "Les brides en service sous pression se serrent au couple contrôlé ou par mise en tension du boulon, et la méthode doit être choisie selon la taille du joint et le type de garniture, non par habitude. Le choix du lubrifiant modifie le couple effectif pour une même précharge : la procédure doit le nommer au lieu de le laisser à l'équipe.<p>Enregistrer compte autant qu'agir. Les relevés de rotation, les valeurs de couple et l'état d'étalonnage de l'outil sont ce qu'un inspecteur demande en premier ; un joint serré correctement mais non documenté est généralement resserré, et chaque resserrage consomme de la vie.</p>",
+        "pt": "As juntas flangeadas em serviço sob pressão apertam-se por binário controlado ou por tensionamento do parafuso, e o método deve escolher-se por tamanho de junta e tipo de vedante, não por hábito. A escolha de lubrificante altera o binário efetivo para a mesma pré-carga, pelo que o procedimento deve nomeá-lo em vez de o deixar à equipa.<p>Registar conta tanto como fazer. Os registos de rotação, os valores de binário e o estado de calibração da ferramenta são o que um inspetor pede primeiro; uma junta apertada corretamente mas não documentada é normalmente reapertada, e cada reaperto consome vida.</p>"
       }
     },
     {
       "id": "corrosion",
       "heading": {
         "en": "Corrosion and Coating in Coastal Refineries",
-        "zh": "沿海炼厂的腐蚀与镀层"
+        "zh": "沿海炼厂的腐蚀与镀层",
+        "ar": "التآكل والطلاء في المصافي الساحلية",
+        "es": "Corrosión y recubrimiento en refinerías costeras",
+        "fr": "Corrosion et revêtement en raffinerie côtière",
+        "pt": "Corrosão e revestimento em refinarias costeiras"
       },
       "body": {
         "en": "Refineries sited on the coast add an external corrosion problem on top of the internal one. Atmospheric chlorides attack carbon steel bolting on structures and pipe racks long before internal service limits are reached, and the failure usually appears at thread roots and under washers.<p>Coating selection follows exposure, not tradition: hot-dip galvanizing or zinc-rich systems for structural bolting, stainless or composite systems where chloride levels are high, and isolation where dissimilar metals meet. Painting over an already-rusted fastener is the most common wasted maintenance spend in this environment.</p>",
-        "zh": "建在沿海的炼厂在内部腐蚀之外还有外部腐蚀。大气中的氯离子会远在内部工况到限之前就侵蚀结构和管廊上的碳钢螺栓，失效多出现在螺纹根部与垫圈下方。<p>镀层选择跟着暴露环境走，而不是跟传统走：结构螺栓用热浸镀锌或富锌体系，氯离子高的部位用不锈钢或复合体系，异种金属相接处做隔离。在已经起锈的紧固件上刷漆，是这种环境里最常见的无效维护支出。</p>"
+        "zh": "建在沿海的炼厂在内部腐蚀之外还有外部腐蚀。大气中的氯离子会远在内部工况到限之前就侵蚀结构和管廊上的碳钢螺栓，失效多出现在螺纹根部与垫圈下方。<p>镀层选择跟着暴露环境走，而不是跟传统走：结构螺栓用热浸镀锌或富锌体系，氯离子高的部位用不锈钢或复合体系，异种金属相接处做隔离。在已经起锈的紧固件上刷漆，是这种环境里最常见的无效维护支出。</p>",
+        "ar": "المصافي على الساحل تضيف مشكلة تآكل خارجي فوق الداخلي. فكلوريدات الجو تهاجم شد الفولاذ الكربوني في الهياكل ورفوف الأنابيب قبل بلوغ الحدود الداخلية بكثير، ويظهر الانهيار عادة عند جذور اللولب وتحت الحلقات.<p>واختيار الطلاء يتبع التعرض لا التقليد: الجلفنة بالغمس الحار أو أنظمة غنية بالزنك للشد الإنشائي، والستانلس أو الأنظمة المركبة حيث الكلوريدات عالية، والعزل حيث تلتقي معادن مختلفة. والدهان فوق مثبت مصدأ أصلًا هو أكثر إنفاق صيانة مهدر في هذه البيئة.</p>",
+        "es": "Las refinerías en costa añaden un problema de corrosión externa sobre el interno. Los cloruros atmosféricos atacan el perno de acero al carbono en estructuras y racks de tubería mucho antes de que se alcancen los límites internos, y el fallo aparece normalmente en las raíces de rosca y bajo las arandelas.<p>La elección de recubrimiento sigue a la exposición, no a la tradición: galvanizado en caliente o sistemas ricos en zinc para estructura, inoxidable o sistemas compuestos donde el cloruro es alto, y aislamiento donde se juntan metales distintos. Pintar sobre una fijación ya oxidada es el gasto de mantenimiento más desperdiciado en este entorno.</p>",
+        "fr": "Les raffineries en bord de mer ajoutent un problème de corrosion externe au problème interne. Les chlorures atmosphériques attaquent le boulonnage carbone des structures et racks de tuyauterie bien avant les limites internes, et la rupture apparaît souvent aux racines de filetage et sous les rondelles.<p>Le choix du revêtement suit l'exposition, pas la tradition : galvanisation à chaud ou systèmes riches en zinc pour le boulonnage structurel, inox ou systèmes composites là où les chlorures sont élevés, et isolation là où des métaux différents se rencontrent. Peindre sur une fixation déjà rouillée est la dépense de maintenance la plus gaspillée dans cet environnement.</p>",
+        "pt": "As refinarias na costa acrescentam um problema de corrosão externa ao interno. Os cloretos atmosféricos atacam o aparafusamento de aço-carbono em estruturas e racks de tubagem muito antes de se atingirem os limites internos, e a falha aparece normalmente nas raízes de rosca e sob as anilhas.<p>A escolha de revestimento segue a exposição, não a tradição: galvanização a quente ou sistemas ricos em zinco para estrutura, inox ou sistemas compósitos onde o cloreto é alto, e isolamento onde metais diferentes se encontram. Pintar sobre uma fixação já oxidada é a despesa de manutenção mais desperdiçada neste ambiente.</p>"
       }
     },
     {
       "id": "documentation",
       "heading": {
         "en": "Documentation a Refinery Will Accept",
-        "zh": "炼厂会接受什么样的文件"
+        "zh": "炼厂会接受什么样的文件",
+        "ar": "الوثائق التي تقبلها المصفاة",
+        "es": "Documentación que acepta una refinería",
+        "fr": "Documentation qu'une raffinerie acceptera",
+        "pt": "Documentação que uma refinaria aceita"
       },
       "body": {
         "en": "Expect to provide material certificates with heat numbers, mechanical property results, and non-destructive test reports where specified. For high-pressure service, impact testing at low temperature is frequently required, and the certificate must state the test temperature rather than just the result.<p>Traceability runs both ways: the certificate has to identify the batch, and the batch has to be identifiable on the delivered parts — usually by marking that survives coating and handling. A certificate that cannot be tied to a physical part is not evidence, and a refinery inspector will treat it that way.</p>",
-        "zh": "需要提供带炉号的材质证明、力学性能结果，以及有要求时的无损检测报告。高压工况常要求低温冲击试验，证书上必须写明试验温度而不只是结果。<p>追溯是双向的：证书要能指明批次，批次也要能在交付件上辨认出来——通常靠经过镀层和搬运仍可读的标记。无法对应到实物零件的证书不算证据，炼厂检查员就是这么处理的。</p>"
+        "zh": "需要提供带炉号的材质证明、力学性能结果，以及有要求时的无损检测报告。高压工况常要求低温冲击试验，证书上必须写明试验温度而不只是结果。<p>追溯是双向的：证书要能指明批次，批次也要能在交付件上辨认出来——通常靠经过镀层和搬运仍可读的标记。无法对应到实物零件的证书不算证据，炼厂检查员就是这么处理的。</p>",
+        "ar": "توقّع تقديم شهادات مادة بأرقام الصهر ونتائج خصائص ميكانيكية وتقارير فحص غير إتلافي حيث تُحدد. ولخدمة الضغط العالي يُطلب كثيرًا اختبار الصدم عند حرارة منخفضة، ويجب أن تذكر الشهادة حرارة الاختبار لا النتيجة وحدها.<p>والتتبع يسير في الاتجاهين: الشهادة يجب أن تحدد الدفعة، والدفعة يجب أن تكون قابلة للتحديد على القطع المسلّمة، عادة بوسم يصمد أمام الطلاء والمناولة. والشهادة التي لا تُربط بقطعة مادية ليست دليلًا، ومفتش المصفاة سيعاملها كذلك.</p>",
+        "es": "Cuente con aportar certificados de material con números de colada, resultados de propiedades mecánicas e informes de ensayo no destructivo donde se especifiquen. Para servicio de alta presión se exige con frecuencia ensayo de impacto a baja temperatura, y el certificado debe indicar la temperatura de ensayo, no solo el resultado.<p>La trazabilidad va en ambos sentidos: el certificado debe identificar el lote, y el lote debe ser identificable en las piezas entregadas, normalmente por marcado que sobreviva al recubrimento y al manejo. Un certificado que no se puede ligar a una pieza física no es evidencia, y un inspector de refinería lo tratará como tal.</p>",
+        "fr": "Comptez fournir des certificats matière avec numéros de coulée, des résultats de propriétés mécaniques et des rapports d'essai non destructif là où c'est spécifié. Pour le service haute pression, un essai de résilience à basse température est souvent exigé, et le certificat doit indiquer la température d'essai, pas seulement le résultat.<p>La traçabilité va dans les deux sens : le certificat doit identifier le lot, et le lot doit être identifiable sur les pièces livrées, généralement par un marquage qui survive au revêtement et à la manutention. Un certificat non rattachable à une pièce physique n'est pas une preuve, et un inspecteur de raffinerie le traitera comme tel.</p>",
+        "pt": "Conte com fornecer certificados de material com números de vazamento, resultados de propriedades mecânicas e relatórios de ensaio não destrutivo onde especificados. Para serviço de alta pressão exige-se frequentemente ensaio de impacto a baixa temperatura, e o certificado deve indicar a temperatura de ensaio, não apenas o resultado.<p>A rastreabilidade vai nos dois sentidos: o certificado tem de identificar o lote, e o lote tem de ser identificável nas peças entregues, geralmente por marcação que sobreviva ao revestimento e ao manuseio. Um certificado que não se liga a uma peça física não é prova, e um inspetor de refinaria tratá-lo-á como tal.</p>"
       }
     }
   ],

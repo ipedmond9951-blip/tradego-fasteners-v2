@@ -1,0 +1,40 @@
+{
+  "slug": "africa-oil-refinery-high-pressure-fastener-guide",
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": { "fr": "Fixations haute pression en raffinerie africaine : où le boulon courant cède" },
+      "body": {
+        "fr": "Le service en raffinerie et pétrochimie est l'environnement de fixation le plus exigeant de cette série : haute pression, température élevée, charge cyclique et, dans certaines unités, service hydrogène ou brut acide. Un boulon parfaitement adapté à un chantier peut céder ici en un seul cycle de maintenance.<p>Ce guide porte sur ce qui change quand pression et température montent : choix des matériaux, pratique de boulonnage et documentation qu'une raffinerie accepte réellement.</p>"
+      }
+    },
+    {
+      "id": "materials",
+      "heading": { "fr": "Choix des matériaux : des décisions irréversibles" },
+      "body": {
+        "fr": "L'acier au carbone de nuance adaptée couvre une grande part du boulonnage courant de raffinerie, mais le service à température élevée et sous hydrogène pousse vers les aciers alliés, et les milieux humides ou acides vers les inox et duplex. Le déterminant n'est pas le service visible mais la condition de calcul : température, pression et milieu ensemble.<p>Règle pratique : ne laissez jamais un raccourci d'achat décider du matériau. Spécifier par le prix plutôt que par la condition de service est l'origine de la plupart des défaillances de boulonnage dans ce secteur, et aucune inspection ultérieure ne peut la corriger.</p>"
+      }
+    },
+    {
+      "id": "bolting-practice",
+      "heading": { "fr": "Boulonnage : couple, tension et ce qui est écrit" },
+      "body": {
+        "fr": "Les brides en service sous pression se serrent au couple contrôlé ou par mise en tension du boulon, et la méthode doit être choisie selon la taille du joint et le type de garniture, non par habitude. Le choix du lubrifiant modifie le couple effectif pour une même précharge : la procédure doit le nommer au lieu de le laisser à l'équipe.<p>Enregistrer compte autant qu'agir. Les relevés de rotation, les valeurs de couple et l'état d'étalonnage de l'outil sont ce qu'un inspecteur demande en premier ; un joint serré correctement mais non documenté est généralement resserré, et chaque resserrage consomme de la vie.</p>"
+      }
+    },
+    {
+      "id": "corrosion",
+      "heading": { "fr": "Corrosion et revêtement en raffinerie côtière" },
+      "body": {
+        "fr": "Les raffineries en bord de mer ajoutent un problème de corrosion externe au problème interne. Les chlorures atmosphériques attaquent le boulonnage carbone des structures et racks de tuyauterie bien avant les limites internes, et la rupture apparaît souvent aux racines de filetage et sous les rondelles.<p>Le choix du revêtement suit l'exposition, pas la tradition : galvanisation à chaud ou systèmes riches en zinc pour le boulonnage structurel, inox ou systèmes composites là où les chlorures sont élevés, et isolation là où des métaux différents se rencontrent. Peindre sur une fixation déjà rouillée est la dépense de maintenance la plus gaspillée dans cet environnement.</p>"
+      }
+    },
+    {
+      "id": "documentation",
+      "heading": { "fr": "Documentation qu'une raffinerie acceptera" },
+      "body": {
+        "fr": "Comptez fournir des certificats matière avec numéros de coulée, des résultats de propriétés mécaniques et des rapports d'essai non destructif là où c'est spécifié. Pour le service haute pression, un essai de résilience à basse température est souvent exigé, et le certificat doit indiquer la température d'essai, pas seulement le résultat.<p>La traçabilité va dans les deux sens : le certificat doit identifier le lot, et le lot doit être identifiable sur les pièces livrées, généralement par un marquage qui survive au revêtement et à la manutention. Un certificat non rattachable à une pièce physique n'est pas une preuve, et un inspecteur de raffinerie le traitera comme tel.</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "africa-oil-refinery-high-pressure-fastener-guide",
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": { "pt": "Fixações de alta pressão em refinarias africanas: onde o parafuso comum falha" },
+      "body": {
+        "pt": "O serviço em refinaria e petroquímica é o ambiente de fixação mais exigente desta série: pressão alta, temperatura elevada, carga cíclica e, em algumas unidades, serviço com hidrogénio ou cru azedo. Um parafuso perfeitamente adequado numa obra pode falhar aqui dentro de um único ciclo de manutenção.<p>Este guia centra-se no que muda quando pressão e temperatura sobem: seleção de material, prática de aparafusamento e a documentação que uma refinaria realmente aceita.</p>"
+      }
+    },
+    {
+      "id": "materials",
+      "heading": { "pt": "Seleção de material: decisões que não se revertem" },
+      "body": {
+        "pt": "O aço-carbono com a classe adequada cobre boa parte do aparafusamento geral de refinaria, mas o serviço a temperatura elevada e com hidrogénio empurra a seleção para aços ligados, e os ambientes húmidos ou ácidos para inox e duplex. O determinante não é o serviço visível mas a condição de projeto: temperatura, pressão e meio em conjunto.<p>Regra prática: nunca deixe um atalho de compras decidir o material. Especificar por preço em vez de por condição de serviço é a origem da maioria das falhas de aparafusamento neste setor, e é uma falha que nenhuma inspeção posterior consegue corrigir.</p>"
+      }
+    },
+    {
+      "id": "bolting-practice",
+      "heading": { "pt": "Aparafusamento: binário, tensão e o que fica escrito" },
+      "body": {
+        "pt": "As juntas flangeadas em serviço sob pressão apertam-se por binário controlado ou por tensionamento do parafuso, e o método deve escolher-se por tamanho de junta e tipo de vedante, não por hábito. A escolha de lubrificante altera o binário efetivo para a mesma pré-carga, pelo que o procedimento deve nomeá-lo em vez de o deixar à equipa.<p>Registar conta tanto como fazer. Os registos de rotação, os valores de binário e o estado de calibração da ferramenta são o que um inspetor pede primeiro; uma junta apertada corretamente mas não documentada é normalmente reapertada, e cada reaperto consome vida.</p>"
+      }
+    },
+    {
+      "id": "corrosion",
+      "heading": { "pt": "Corrosão e revestimento em refinarias costeiras" },
+      "body": {
+        "pt": "As refinarias na costa acrescentam um problema de corrosão externa ao interno. Os cloretos atmosféricos atacam o aparafusamento de aço-carbono em estruturas e racks de tubagem muito antes de se atingirem os limites internos, e a falha aparece normalmente nas raízes de rosca e sob as anilhas.<p>A escolha de revestimento segue a exposição, não a tradição: galvanização a quente ou sistemas ricos em zinco para estrutura, inox ou sistemas compósitos onde o cloreto é alto, e isolamento onde metais diferentes se encontram. Pintar sobre uma fixação já oxidada é a despesa de manutenção mais desperdiçada neste ambiente.</p>"
+      }
+    },
+    {
+      "id": "documentation",
+      "heading": { "pt": "Documentação que uma refinaria aceita" },
+      "body": {
+        "pt": "Conte com fornecer certificados de material com números de vazamento, resultados de propriedades mecânicas e relatórios de ensaio não destrutivo onde especificados. Para serviço de alta pressão exige-se frequentemente ensaio de impacto a baixa temperatura, e o certificado deve indicar a temperatura de ensaio, não apenas o resultado.<p>A rastreabilidade vai nos dois sentidos: o certificado tem de identificar o lote, e o lote tem de ser identificável nas peças entregues, geralmente por marcação que sobreviva ao revestimento e ao manuseio. Um certificado que não se liga a uma peça física não é prova, e um inspetor de refinaria tratá-lo-á como tal.</p>"
+      }
+    }
+  ]
+}

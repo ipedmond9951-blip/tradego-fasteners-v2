@@ -1,0 +1,40 @@
+{
+  "slug": "africa-wind-energy-fastener-grade-specifications",
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": { "pt": "Fixações eólicas: porque a classe decide a vida útil" },
+      "body": {
+        "pt": "As turbinas eólicas falham mais nas ligações do que nos componentes. Flanges de torre, raízes de pá, fixações de nacelle e interfaces de fundação dependem todas de ligações aparafusadas que devem manter a pré-carga durante décadas de carga cíclica, e é a especificação de classe que o torna possível.<p>Este guia cinge-se às perguntas de especificação a que o comprador tem de responder: que classe, que revestimento, que método de aparafusamento e que prova.</p>"
+      }
+    },
+    {
+      "id": "grades",
+      "heading": { "pt": "Classe 10.9: ponto de partida, não regra" },
+      "body": {
+        "pt": "As ligações de torre e fundação usam normalmente classe 10.9, com 8.8 em posições estruturais secundárias e classes superiores onde o projeto exige. A classe interage com o tamanho do parafuso, a geometria da ligação e o método de tensionamento, pelo que especificar uma classe sem esses três dados é uma instrução incompleta.<p>Igualmente importante é a rota de material por trás da classe. Uma classe 10.9 obtida com outra liga e outro tratamento térmico comporta-se de forma diferente sob impacto a baixa temperatura, exatamente a condição que os parques eólicos em zonas frias ou de altitude impõem.</p>"
+      }
+    },
+    {
+      "id": "fatigue",
+      "heading": { "pt": "Fadiga e pré-carga: os números que importam" },
+      "body": {
+        "pt": "As ligações aparafusadas em serviço eólico são projetadas para manter a junta fechada sob carga de fadiga, o que exige pré-carga suficientemente alta e consistente para o parafuso nunca ver o ciclo completo de carga externa. Isso faz do método de tensionamento parte da engenharia, não preferência de obra.<p>O tensionamento hidráulico, o controlo de binário e a indicação direta de tensão produzem dispersões de pré-carga diferentes. A especificação deve nomear o método e a janela de aceitação, e exigir verificação numa amostra em vez de confiar na chave.</p>"
+      }
+    },
+    {
+      "id": "coating",
+      "heading": { "pt": "Revestimento em costa e offshore" },
+      "body": {
+        "pt": "As torres terrestres em zona costeira e todas as estruturas offshore enfrentam exposição a cloretos que o zincado comum não suporta. A galvanização a quente com espessura mínima definida é a base, com sistemas duplex — galvanização mais camada de selagem — onde o intervalo de manutenção é longo.<p>Os componentes roscados precisam de revestimento especificado para a rosca, não só para a haste, porque um revestimento demasiado espesso altera o ajuste e um demasiado fino corrói-se primeiro justamente onde a tensão se concentra.</p>"
+      }
+    },
+    {
+      "id": "evidence",
+      "heading": { "pt": "Provas a guardar antes da instalação" },
+      "body": {
+        "pt": "Peça certificados de material com números de vazamento, propriedades mecânicas incluindo impacto a baixa temperatura quando aplicável, medições de espessura de revestimento e registos de calibração do equipamento de tensionamento. Acrescente um relatório de verificação de pré-carga em amostra, saído do ensaio do procedimento do fornecedor.<p>Guarde também o rasto após a instalação. Os ativos eólicos são inspecionados ao longo de décadas e mudam de proprietário; uma ligação cujo registo de tensionamento não se encontra é retensionada ou substituída, e numa torre isso é trabalho de grua, não de manutenção.</p>"
+      }
+    }
+  ]
+}

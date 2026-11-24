@@ -1,0 +1,40 @@
+{
+  "slug": "africa-oil-refinery-high-pressure-fastener-guide",
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": { "es": "Fijaciones de alta presión en refinerías africanas: dónde falla el perno común" },
+      "body": {
+        "es": "El servicio en refinería y petroquímica es el entorno de fijaciones más exigente de esta serie: presión alta, temperatura elevada, carga cíclica y, en algunas unidades, servicio con hidrógeno o con crudo agrio. Un perno perfectamente adecuado en obra puede fallar aquí dentro de un solo ciclo de mantenimiento.<p>Esta guía se centra en qué cambia cuando suben presión y temperatura: selección de material, práctica de apriete y la documentación que una refinería realmente acepta.</p>"
+      }
+    },
+    {
+      "id": "materials",
+      "heading": { "es": "Selección de material: decisiones que no se pueden revertir" },
+      "body": {
+        "es": "El acero al carbono con la clase adecuada cubre buena parte del apriete general de refinería, pero el servicio a temperatura elevada y con hidrógeno empuja la selección hacia aceros aleados, y los ambientes húmedos o ácidos hacia inoxidables y dúplex. El determinante no es el servicio visible sino la condición de diseño: temperatura, presión y medio en conjunto.<p>La regla práctica: nunca deje que un atajo de compras decida el material. Especificar por precio en lugar de por condición de servicio es el origen de la mayoría de fallos de apriete en este sector, y es un fallo que ninguna inspección posterior puede corregir.</p>"
+      }
+    },
+    {
+      "id": "bolting-practice",
+      "heading": { "es": "Apriete: par, tensión y lo que queda por escrito" },
+      "body": {
+        "es": "Las uniones bridadas en servicio a presión se aprietan por par controlado o por tensado del perno, y el método debe elegirse por tamaño de junta y tipo de empaquetadura, no por costumbre. La elección de lubricante cambia el par efectivo para la misma pretensión, así que el procedimiento debe nombrarlo en lugar de dejarlo al equipo.<p>Registrar importa tanto como hacer. Los registros de giro, los valores de par y el estado de calibración de la herramienta son lo primero que pide un inspector; una junta apretada correctamente pero no documentada normalmente se reaprieta, y cada reapriete consume vida.</p>"
+      }
+    },
+    {
+      "id": "corrosion",
+      "heading": { "es": "Corrosión y recubrimiento en refinerías costeras" },
+      "body": {
+        "es": "Las refinerías en costa añaden un problema de corrosión externa sobre el interno. Los cloruros atmosféricos atacan el perno de acero al carbono en estructuras y racks de tubería mucho antes de que se alcancen los límites internos, y el fallo aparece normalmente en las raíces de rosca y bajo las arandelas.<p>La elección de recubrimiento sigue a la exposición, no a la tradición: galvanizado en caliente o sistemas ricos en zinc para estructura, inoxidable o sistemas compuestos donde el cloruro es alto, y aislamiento donde se juntan metales distintos. Pintar sobre una fijación ya oxidada es el gasto de mantenimiento más desperdiciado en este entorno.</p>"
+      }
+    },
+    {
+      "id": "documentation",
+      "heading": { "es": "Documentación que acepta una refinería" },
+      "body": {
+        "es": "Cuente con aportar certificados de material con números de colada, resultados de propiedades mecánicas e informes de ensayo no destructivo donde se especifiquen. Para servicio de alta presión se exige con frecuencia ensayo de impacto a baja temperatura, y el certificado debe indicar la temperatura de ensayo, no solo el resultado.<p>La trazabilidad va en ambos sentidos: el certificado debe identificar el lote, y el lote debe ser identificable en las piezas entregadas, normalmente por marcado que sobreviva al recubrimento y al manejo. Un certificado que no se puede ligar a una pieza física no es evidencia, y un inspector de refinería lo tratará como tal.</p>"
+      }
+    }
+  ]
+}

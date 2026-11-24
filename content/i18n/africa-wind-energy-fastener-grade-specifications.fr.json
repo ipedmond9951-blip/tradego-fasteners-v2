@@ -1,0 +1,40 @@
+{
+  "slug": "africa-wind-energy-fastener-grade-specifications",
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": { "fr": "Fixations éoliennes : pourquoi la nuance décide la durée de vie" },
+      "body": {
+        "fr": "Les éoliennes cèdent plus souvent aux connexions qu'aux composants. Brides de tour, pieds de pale, fixations de nacelle et interfaces de fondation dépendent toutes d'assemblages boulonnés qui doivent tenir la précharge pendant des décennies de charge cyclique, et c'est la spécification de nuance qui le rend possible.<p>Ce guide s'en tient aux questions de spécification auxquelles l'acheteur doit répondre : quelle nuance, quel revêtement, quelle méthode de boulonnage et quelle preuve.</p>"
+      }
+    },
+    {
+      "id": "grades",
+      "heading": { "fr": "Nuance 10.9 : un point de départ, pas une règle" },
+      "body": {
+        "fr": "Les connexions de tour et de fondation utilisent couramment la nuance 10.9, avec du 8.8 en positions structurelles secondaires et des nuances supérieures là où le calcul l'exige. La nuance interagit avec la taille du boulon, la géométrie de l'assemblage et la méthode de mise en tension : spécifier une nuance sans ces trois éléments est une instruction incomplète.<p>Tout aussi importante est la filière matière derrière la nuance. Une classe 10.9 atteinte par un autre alliage et un autre traitement thermique se comporte différemment en résilience à basse température, exactement la condition imposée par les sites éoliens en zones froides ou en altitude.</p>"
+      }
+    },
+    {
+      "id": "fatigue",
+      "heading": { "fr": "Fatigue et précharge : les chiffres qui comptent" },
+      "body": {
+        "fr": "Les assemblages boulonnés en service éolien sont calculés pour garder le joint fermé sous charge de fatigue : la précharge doit donc être assez élevée et assez régulière pour que le boulon ne voie jamais le cycle de charge externe complet. Cela fait de la méthode de mise en tension une partie de l'ingénierie, pas une préférence de chantier.<p>La mise en tension hydraulique, le contrôle au couple et l'indication directe de tension produisent des dispersions de précharge différentes. La spécification doit nommer la méthode et la fenêtre d'acceptation, et exiger une vérification sur échantillon au lieu de faire confiance à la clé.</p>"
+      }
+    },
+    {
+      "id": "coating",
+      "heading": { "fr": "Revêtement en conditions côtières et offshore" },
+      "body": {
+        "fr": "Les tours terrestres en zone côtière et toutes les structures offshore subissent une exposition aux chlorures que le zingage ordinaire ne supporte pas. La galvanisation à chaud à épaisseur minimale définie est la base, avec des systèmes duplex — galvanisation plus couche de finition scellée — là où l'intervalle de maintenance est long.<p>Les pièces filetées ont besoin d'un revêtement spécifié pour le filetage, pas seulement pour la tige, car un revêtement trop épais modifie l'ajustement et un trop fin se corrode d'abord là où la contrainte se concentre.</p>"
+      }
+    },
+    {
+      "id": "evidence",
+      "heading": { "fr": "Preuves à conserver avant le montage" },
+      "body": {
+        "fr": "Demandez des certificats matière avec numéros de coulée, des propriétés mécaniques incluant la résilience à basse température le cas échéant, des mesures d'épaisseur de revêtement et les relevés d'étalonnage de l'équipement de mise en tension. Ajoutez un rapport de vérification de précharge sur échantillon issu de l'essai de procédure du fournisseur.<p>Gardez aussi la trace après le montage. Les actifs éoliens sont inspectés sur des décennies et changent de propriétaire ; un assemblage dont le relevé de tension est introuvable sera retendu ou remplacé, ce qui sur une tour est un travail de grue, pas de maintenance.</p>"
+      }
+    }
+  ]
+}
