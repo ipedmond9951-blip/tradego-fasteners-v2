@@ -10,6 +10,7 @@ import { clampDescription } from '@/lib/seo'
 import { getArticleBySlug, getArticleTitle } from '@/lib/articles'
 import { productGuides } from '@/lib/productGuides'
 import { siblingsOf, categoryOf } from '@/lib/productCategories'
+import { googleCategory } from '@/lib/gCategory'
 import ProductBuyingNotes from '@/components/ProductBuyingNotes'
 import { productAsideCopy, navLabels } from '@/lib/uiCopy'
 
@@ -105,16 +106,41 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
     sku: `TG-${slug.toUpperCase()}`,
     brand: { '@type': 'Brand', name: 'TradeGo Fasteners' },
     material: product.specs.material,
-    category: category ? pick(category.label, locale) || category.label.en : name,
+    category: googleCategory(slug),
     url: canonical,
     offers: {
       '@type': 'Offer',
       url: canonical,
       priceCurrency: 'USD',
+      // GSC 2026-11-23 报"offer 缺 price"：起订单价按件计价，priceSpecification 标注计量单位
+      price: product.pricePerPiece.toFixed(3),
       priceValidUntil: '2027-12-31',
+      validFrom: '2026-01-01',
       availability: 'https://schema.org/InStock',
       itemCondition: 'https://schema.org/NewCondition',
+      priceSpecification: {
+        '@type': 'UnitPriceSpecification',
+        price: product.pricePerPiece.toFixed(3),
+        priceCurrency: 'USD',
+        unitCode: 'C62',
+        referenceQuantity: { '@type': 'QuantitativeValue', value: 1, unitCode: 'C62' },
+      },
       seller: { '@type': 'Organization', name: 'TradeGo Fasteners', url: SITE_URL },
+      shippingDetails: {
+        '@type': 'OfferShippingDetails',
+        shippingDestination: { '@type': 'DefinedRegion', addressCountry: ['ZA', 'ZW', 'ZM', 'MZ', 'BW', 'MW', 'NA'] },
+        deliveryTime: {
+          '@type': 'ShippingDeliveryTime',
+          handlingTime: { '@type': 'QuantitativeValue', minValue: 7, maxValue: 14, unitCode: 'DAY' },
+          transitTime: { '@type': 'QuantitativeValue', minValue: 15, maxValue: 35, unitCode: 'DAY' },
+        },
+      },
+      // 出口批发订单按合同与质量索赔处理，不接受无理由退货——如实声明
+      hasMerchantReturnPolicy: {
+        '@type': 'MerchantReturnPolicy',
+        applicableCountry: ['ZA', 'ZW', 'ZM', 'MZ', 'BW', 'MW', 'NA'],
+        returnPolicyCategory: 'https://schema.org/MerchantReturnNotPermitted',
+      },
     },
     additionalProperty: specs.map(([k, v]) => ({
       '@type': 'PropertyValue',

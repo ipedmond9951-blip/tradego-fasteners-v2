@@ -1,5 +1,6 @@
 'use client'
 import { productNames as i18nNames, productDescriptions as i18nDescs, specLabels, pick } from '@/lib/productI18n'
+import { googleCategory } from '@/lib/gCategory'
 
 import { type Locale } from '@/i18n'
 
@@ -45,24 +46,38 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
           mpn: product.slug.toUpperCase(),
           url: `${SITE}/${locale}/products/${product.slug}/`,
           material: product.specs.material,
+          category: googleCategory(product.slug),
           offers: {
             '@type': 'Offer',
+            url: `${SITE}/${locale}/products/${product.slug}/`,
+            priceCurrency: 'USD',
+            price: product.pricePerPiece.toFixed(3),
+            priceValidUntil: '2027-12-31',
+            validFrom: '2026-01-01',
             availability: 'https://schema.org/InStock',
+            itemCondition: 'https://schema.org/NewCondition',
+            priceSpecification: {
+              '@type': 'UnitPriceSpecification',
+              price: product.pricePerPiece.toFixed(3),
+              priceCurrency: 'USD',
+              unitCode: 'C62',
+              referenceQuantity: { '@type': 'QuantitativeValue', value: 1, unitCode: 'C62' },
+            },
+            hasMerchantReturnPolicy: {
+              '@type': 'MerchantReturnPolicy',
+              applicableCountry: ['ZA', 'ZW', 'ZM', 'MZ', 'BW', 'MW', 'NA'],
+              returnPolicyCategory: 'https://schema.org/MerchantReturnNotPermitted',
+            },
             seller: {
               '@type': 'Organization',
               name: 'TradeGo Fasteners',
             },
             shippingDetails: {
               '@type': 'OfferShippingDetails',
-              shippingDestination: [
-                { '@type': 'Country', name: 'ZA' },
-                { '@type': 'Country', name: 'ZW' },
-                { '@type': 'Country', name: 'ZM' },
-                { '@type': 'Country', name: 'MZ' },
-                { '@type': 'Country', name: 'BW' },
-                { '@type': 'Country', name: 'MW' },
-                { '@type': 'Country', name: 'NA' },
-              ],
+              shippingDestination: {
+                '@type': 'DefinedRegion',
+                addressCountry: ['ZA', 'ZW', 'ZM', 'MZ', 'BW', 'MW', 'NA'],
+              },
               deliveryTime: {
                 '@type': 'ShippingDeliveryTime',
                 handlingTime: {
