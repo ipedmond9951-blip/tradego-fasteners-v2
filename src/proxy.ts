@@ -133,15 +133,9 @@ const geoConfig: Record<string, { lang: string; currency: string }> = {
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl
 
-  // 1. Force www canonical — eliminate GSC "网页会自动重定向" (626 URLs)
-  //    Redirect https://tradego-fasteners.com/* → https://www.tradego-fasteners.com/* (308)
-  const host = request.headers.get('host') || ''
-  if (host === 'tradego-fasteners.com' || host.startsWith('tradego-fasteners.com:')) {
-    const url = request.nextUrl.clone()
-    url.host = 'www.tradego-fasteners.com'
-    url.protocol = 'https'
-    return NextResponse.redirect(url, 308)
-  }
+  // 2026-11-24 额度治理: apex → www 的 301 已由 Vercel 域名层直接处理
+  // (PATCH /v9/projects/<id>/domains 的 redirect 字段, 实测 curl tradego-fasteners.com/en/ → 301),
+  // 请求根本到不了 middleware, 这里再判 host 属死代码, 每次请求读 header 的微成本一并去掉。
 
   // Skip API routes, static files, and Next.js internals
   if (
@@ -178,6 +172,11 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  // Match all paths except API routes, static files, and _next
-  matcher: ['/((?!api|_next/static|_next/image|favicon.ico|.*\\..*).*)'],
+  // 2026-11-24 额度治理: matcher 收窄为「根路径 + 不属于任何语种前缀的路径」。
+  // 语种页面(/en/... /zh/... 等, 占全部 4400 页)不再进 middleware —— 它们本来只走到
+  // NextResponse.next() 那一行, 白付一次函数调用。仍保留无前缀旧路径 → /{国家语言}/ 的跳转。
+  matcher: [
+    '/',
+    '/((?!en/|zh/|es/|fr/|pt/|ar/|ru/|ja/|de/|hi/|api|_next|favicon|.*\\.).*)',
+  ],
 }

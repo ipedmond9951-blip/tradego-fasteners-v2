@@ -1,43 +1,73 @@
 #!/bin/bash
-# deploy-budget.sh - 推送前检查 Vercel 每日部署预算 (2026-11-24)
+# deploy-budget.sh - 推送前检查 Vercel 每日部署预算 (2026-11-24, v2)
 #
-# 背景: Hobby 计划 100 次部署/天, 但真正致命的是资源用量超限导致项目被暂停
-#       (Fast Origin Transfer / Functions Storage / ISR Reads 均已越线)。
-#       把日常 push 频率压到 ≤30 次/天, 给夜间管线 + 手工修复留出余量。
+# v1 的缺陷: 只读本机台账 logs/deploy-budget.json。本机有两个 agent 同时往同一个 GitHub 仓库推
+# (本会话 + OpenClaw SEO Agent), 各记各的账 → 两边都以为在预算内, 实际 Vercel 侧一天构建 4 次。
+# 每次部署都会多一份 1–1.9GB 产物并重写 4400 页预渲染缓存, 直接推高 Deployment/Functions Storage。
+#
+# v2 口径: 直接查 Vercel API 的「今日(北京时间)真实部署条数」, 与本地台账取较大值;
+#          API 不可用时回退本地台账。默认每日 3 次(夜间管线 1 次 + 手工修复余量)。
 #
 # 用法:
-#   bash scripts/deploy-budget.sh            # 检查, 超预算则 exit 1 阻止 push
-#   DEPLOY_FORCE=1 git push ...              # 明确知道在做什么时强制推送
-#
-# 口径: 每次 push 到 main 会触发一次 Vercel 构建(失败构建也计数), 删除旧部署不会返还次数,
-#       所以用本地计数台账 logs/deploy-budget.json 记账, 同时打印 Vercel 现存部署数作交叉核对。
+#   bash scripts/deploy-budget.sh                 # 检查, 超预算 exit 1 阻止 push
+#   DEPLOY_DAILY_LIMIT=5 bash scripts/deploy-budget.sh
+#   DEPLOY_FORCE=1 git push                       # 明确知道在做什么时强制推送
 
 set -u
-LIMIT="${DEPLOY_DAILY_LIMIT:-30}"
+LIMIT="${DEPLOY_DAILY_LIMIT:-3}"
 PROJECT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 LEDGER="$PROJECT_DIR/logs/deploy-budget.json"
+PROJECT_ID="${VERCEL_PROJECT_ID:-prj_3D7E2O74NPWtxH9vQM5zWkGy9lVZ}"
+AUTH="$HOME/Library/Application Support/com.vercel.cli/auth.json"
 
 [ "${DEPLOY_FORCE:-0}" = "1" ] && { echo "⚠️ DEPLOY_FORCE=1，跳过部署预算检查"; exit 0; }
 
 mkdir -p "$PROJECT_DIR/logs"
 
-python3 - "$LEDGER" "$LIMIT" <<'PY'
-import json, os, sys, time
-ledger_path, limit = sys.argv[1], int(sys.argv[2])
+python3 - "$LEDGER" "$LIMIT" "$PROJECT_ID" "$AUTH" <<'PY'
+import json, os, sys, time, datetime, urllib.request
+
+ledger_path, limit, project_id, auth_path = sys.argv[1], int(sys.argv[2]), sys.argv[3], sys.argv[4]
 today = time.strftime('%Y-%m-%d')
+
+# --- 1) Vercel API: 今日(Asia/Shanghai)真实部署条数 ---
+api_count = None
+try:
+    token = json.load(open(os.path.expanduser(auth_path)))['token']
+    req = urllib.request.Request(
+        'https://api.vercel.com/v6/deployments?projectId=' + project_id + '&limit=50',
+        headers={'Authorization': 'Bearer ' + token},
+    )
+    data = json.load(urllib.request.urlopen(req, timeout=15))
+    tz = datetime.timezone(datetime.timedelta(hours=8))
+    today_start = datetime.datetime.now(tz).replace(hour=0, minute=0, second=0, microsecond=0).timestamp()
+    api_count = sum(1 for d in data.get('deployments', []) if d['createdAt'] / 1000 >= today_start)
+except Exception as e:
+    print('⚠️ 读 Vercel 部署数失败(%s), 回退本地台账' % type(e).__name__)
+
+# --- 2) 本地台账 ---
 try:
     d = json.load(open(ledger_path))
 except Exception:
     d = {}
 if d.get('date') != today:
     d = {'date': today, 'count': 0}
-count = int(d.get('count', 0))
-print('📊 本机今日已触发部署: %d / 预算 %d（%s）' % (count, limit, today))
-if count >= limit:
+local_count = int(d.get('count', 0))
+
+count = max(api_count if api_count is not None else 0, local_count)
+src = []
+if api_count is not None:
+    src.append('Vercel=%d' % api_count)
+src.append('本地=%d' % local_count)
+print('📊 今日已发生部署: %d / 预算 %d（%s；%s）' % (count, limit, today, ' '.join(src)))
+
+if api_count is not None and count >= limit:
     print('❌ 已达每日部署预算，本次 push 被拦下。')
+    print('   原因: 每次部署都会新增 1–1.9GB 产物并重写全站预渲染缓存，Hobby 免费额度扛不住高频部署。')
     print('   把改动合并成一次提交再推；确需立即部署: DEPLOY_FORCE=1 git push')
     raise SystemExit(1)
+
 d['count'] = count + 1
 json.dump(d, open(ledger_path, 'w'), ensure_ascii=False)
-print('✅ 预算内，放行（本次为今日第 %d 次）' % (count + 1))
+print('✅ 预算内，放行（push 后将是今日第 %d 次）' % (count + 1))
 PY
