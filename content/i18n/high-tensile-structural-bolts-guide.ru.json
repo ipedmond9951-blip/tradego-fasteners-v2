@@ -1,0 +1,20 @@
+{
+  "slug": "high-tensile-structural-bolts-guide",
+  "sections": [
+    {
+      "id": "naming-and-substitution",
+      "heading": {
+        "ru": "Высокопрочные конструкционные болты: обозначения, классы и замена",
+        "ja": "高強度構造用ボルト：名称・等級・代替",
+        "de": "Hochfeste Konstruktionsbolzen: Bezeichnungen, Klassen und Substitution",
+        "hi": "उच्च शक्ति स्ट्रक्चरल बोल्ट: नाम, ग्रेड और प्रतिस्थापन"
+      },
+      "body": {
+        "ru": "<p>Покупатели называют одно семейство «высокопрочными конструкционными болтами», «болтами высокой прочности» и просто «конструкционными болтами». Большинство заказов закрывают три спецификации: ASTM A325, ASTM A490 и ISO 4014/4017 класса 10.9. A325 и класс 10.9 близки по прочности, но не взаимозаменяемы в соединении, рассчитанном по RCSC: способ затяжки — поворотом гайки, индикаторной шайбой DTI или моментом — привязан к заданному узлу.</p><p>Практическое правило: не заменяйте A490 на A325 без пересчёта расчётной нагрузки. A490 даёт примерно на 20% более высокое временное сопротивление при другой твёрдости, а ограничения по горячему цинкованию различаются. Африканские проекты обычно заказывают M20–M24 с горячим цинкованием, заводскими сертификатами и документацией SABS или EN 10204 3.1.</p>",
+        "ja": "<p>買い手は同じ製品群を「高強度構造用ボルト」「高張力ボルト」「構造用ボルト」と呼びます。大半の注文は三つの規格で賄えます。ASTM A325、ASTM A490、そしてISO 4014/4017の10.9等級です。A325と10.9は強度が近いものの、RCSCで設計された接合部では互換ではありません。締め付け方法（ナット回転法、DTI、トルク法）が指定の組立に紐づいているためです。</p><p>実務ルールは単純です。設計荷重を再確認せずにA490をA325へ置き換えないこと。A490は引張強さが約20%高く硬さも異なり、溶融亜鉛めっきの制約も違います。アフリカの案件では通常、M20〜M24の溶融亜鉛めっき品を、ミルサーティフィケートとSABSまたはEN 10204 3.1の書類付きで発注します。</p>",
+        "de": "<p>Käufer nennen dieselbe Familie „hochfeste Konstruktionsbolzen“, „hochfeste Bolzen“ oder einfach „Konstruktionsbolzen“. Drei Spezifikationen decken die meisten Aufträge ab: ASTM A325, ASTM A490 und ISO 4014/4017 der Klasse 10.9. A325 und Klasse 10.9 liegen in der Festigkeit nah beieinander, sind in einer nach RCSC bemessenen Verbindung aber nicht austauschbar, weil das Anziehverfahren – Mutterdrehverfahren, DTI oder Drehmoment – an die festgelegte Garnitur gebunden ist.</p><p>Praktische Regel: A490 nie gegen A325 tauschen, ohne die Bemessungslast zu prüfen. A490 liegt rund 20 % höher in der Zugfestigkeit bei anderer Härte, und die Grenzen der Feuerverzinkung unterscheiden sich. Afrikanische Projekte bestellen üblicherweise M20–M24 feuerverzinkt mit Walzwerkzeugnissen und Dokumentation nach SABS oder EN 10204 3.1.</p>",
+        "hi": "<p>खरीदार एक ही समूह को «उच्च शक्ति स्ट्रक्चरल बोल्ट», «हाई टेन्साइल बोल्ट» और «स्ट्रक्चरल बोल्ट» कहते हैं। ज़्यादातर ऑर्डर तीन स्पेसिफिकेशन से पूरे होते हैं: ASTM A325, ASTM A490 और ISO 4014/4017 ग्रेड 10.9। A325 और ग्रेड 10.9 मज़बूती में करीब हैं, पर RCSC के अनुसार डिज़ाइन किए गए कनेक्शन में एक-दूसरे के विकल्प नहीं हैं, क्योंकि कसने की विधि — टर्न-ऑफ-नट, DTI या टॉर्क — तय असेंबली से जुड़ी होती है।</p><p>व्यावहारिक नियम: डिज़ाइन लोड दोबारा जाँचे बिना A490 को A325 से न बदलें। A490 की तन्य शक्ति लगभग 20% अधिक है और कठोरता अलग है, साथ ही हॉट-डिप गैल्वनाइज़िंग की सीमाएँ भी भिन्न हैं। अफ़्रीकी प्रोजेक्ट आमतौर पर M20–M24 हॉट-डिप गैल्वनाइज़्ड, मिल सर्टिफिकेट और SABS या EN 10204 3.1 दस्तावेज़ों के साथ मँगाते हैं।</p>"
+      }
+    }
+  ]
+}
