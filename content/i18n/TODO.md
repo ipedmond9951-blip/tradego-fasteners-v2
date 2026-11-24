@@ -82,3 +82,10 @@
 
 补充（同轮）：文章页、标准页、市场页均补 BreadcrumbList；`BreadcrumbSchema` 组件从只认 en/zh 的硬编码标签改为十语 `navLabels` + 自动补尾斜杠 + 可传上级层级（品类页现在输出「首页 → 行业指南 → 品类」三级）；文章面包屑的品类 URL 原用原文大小写（`/industry/category/Anchors/` 404），现统一走 `categorySlug()`，`industry/page.tsx` 与品类路由的同名函数一并收敛到该工具。
 
+## 2026-11-24 追加：正文重复套话清理（未 push）
+
+- 全库扫描发现每篇文章正文尾部普遍带「通用套话整块重复 2–3 次」（This procurement framework… / Standards-based procurement… / Supplier evaluation should be a continuous process… 等 4 句模板），累计 186 篇、3,148 段落、约 3.0 MB 重复文案；同一批模板在 270+ 页面重复出现，属典型低质重复内容，疑为收录率偏低的重要成因。
+- 处理：按段落（保留 `\n` 结构）做尾部整块重复收敛，每个重复块保留一份；`scripts/body_i18n.py` 新增 `dedupe` 子命令，`merge` 写回字段时自动去重（防止旧草稿把重复段带回）。清理后 300 词以下「thin article」为 0（`countArticleWords` 统计十语合计，不受影响）。
+- 同步收尾 4 篇只剩 1 节的 A 类文章（galvanic-corrosion / high-tensile / roofing-screws-epdm / threaded-rods），各补 ru/ja/de/hi 正文与小标题，verify 通过。
+- 副作用说明：`verify` 的 0.45–2.2 长度比在去重后会对约 219 篇报 length-ratio 告警，集中在 es/fr/pt/hi 的 FAQ、Related resources 段落（以链接清单为主，词数天然偏高）。判定口径：missing / english-heavy 才算缺陷，单纯长度比告警不处理；该口径已同步组织方。
+
