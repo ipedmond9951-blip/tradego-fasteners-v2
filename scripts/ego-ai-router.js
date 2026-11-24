@@ -5,7 +5,7 @@
 // 输出协议：[[EGO_REPLY]]<回复文本>[[/EGO_REPLY]]，失败时 [[EGO_ERROR]]<原因>[[/EGO_ERROR]]
 
 const CFG = __CFG__;
-const BASE_SPACE = 'seo-llm-' + CFG.ai;
+const BASE_SPACE = 'seo-llm-' + CFG.ai + '-' + (Date.now() % 100000);  // 不复用固定名字：旧空间被用户接管后会让 taskSpace() 直接抛错
 
 async function openSpace() {
   const candidates = [BASE_SPACE];
