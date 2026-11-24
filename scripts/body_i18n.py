@@ -94,6 +94,25 @@ def is_english_heavy(text, lang):
     return False
 
 
+def dedupe_para(p):
+    """去掉段落尾部整块重复的句子（内容注入残留），保留原有换行结构。"""
+    sents = re.split(r'(?<=[.!?])\s+', p.strip())
+    while len(sents) > 1:
+        hit = False
+        for k in range(len(sents) // 2, 0, -1):
+            if sents[-k:] == sents[-2*k:-k]:
+                sents = sents[:-k]
+                hit = True
+                break
+        if not hit:
+            break
+    return ' '.join(sents)
+
+
+def dedupe_text(t):
+    return '\n'.join(dedupe_para(line) for line in t.split('\n'))
+
+
 def cmd_merge(slug):
     a = load(slug)
     p = os.path.join(I18N, slug + '.json')
@@ -115,12 +134,38 @@ def cmd_merge(slug):
                         continue
                     if not str(text).strip():
                         continue
-                    target.setdefault(field, {})[lang] = text
+                    target.setdefault(field, {})[lang] = dedupe_text(str(text))
                     touched += 1
     json.dump(a, open(os.path.join(ART, slug + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
     print('已合并 %d 个字段 -> %s（来源 %d 个草稿）' % (touched, slug, len(parts)))
 
 
+
+
+
+def cmd_dedupe(skip=()):
+    files = 0
+    blocks = 0
+    removed = 0
+    for f in sorted(glob.glob(os.path.join(ART, '*.json'))):
+        if os.path.basename(f) in skip:
+            continue
+        a = json.load(open(f, encoding='utf-8'))
+        dirty = False
+        for s in a.get('sections', []):
+            for lang, text in list((s.get('body') or {}).items()):
+                if not text:
+                    continue
+                out = dedupe_text(text)
+                if out != text:
+                    s['body'][lang] = out
+                    blocks += 1
+                    removed += len(text) - len(out)
+                    dirty = True
+        if dirty:
+            json.dump(a, open(f, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
+            files += 1
+    print('去重完成: %d 篇 / %d 段落，删除约 %d 字符' % (files, blocks, removed))
 
 
 def cmd_verify(slug, phase1=False):
@@ -163,6 +208,8 @@ if __name__ == '__main__':
         cmd_init(sys.argv[2])
     elif cmd == 'merge':
         cmd_merge(sys.argv[2])
+    elif cmd == 'dedupe':
+        cmd_dedupe(tuple(sys.argv[2:]))
     elif cmd == 'verify':
         cmd_verify(sys.argv[2], phase1='--phase1' in sys.argv)
     else:
