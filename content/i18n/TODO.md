@@ -41,3 +41,9 @@
 - 阶段一校验：`python3 scripts/body_i18n.py verify <slug> --phase1`（只查 en/zh/es/fr/pt/ar）。
 - 一篇阶段一齐全即可 merge 上线，不必等十语；阶段二补齐时按同 slug 追加 `*.ru.json` 等草稿后再次 merge。
 - 部署额度约束：每次 push 计 1 次 Vercel 部署（Hobby 100 次/天），多篇攒一批再推。
+
+## 产品描述本地化缺口（2026-11-24 盘点）
+- `src/lib/productI18n.ts` 的 `productDescriptions` 共 65 个产品：34 个只有 en/zh，30 个尚无任何描述（回落 slug 名），1 个有 pt。
+- 2026-11-24 已补：首页主推 8 个产品（drywall-screws、self-drilling-screws、bolts-nuts、ibr-nails、anchor-bolts、washers、coach-screws、threaded-rods）的 es/fr/pt/ar 描述。
+- 剩余 57 个产品缺 es/fr/pt/ar，产品详情页与首页网格仍会回落英文描述；下次批量补时同样按阶段一（es/fr/pt/ar）→ 阶段二（ru/de/ja/hi）推进。
+- 校验方式：`grep -c "    es: " src/lib/productI18n.ts` 应随产品数同步增长；ES 页 `curl -sL <dev>/es/ | grep -c "stainless"` 应归零（现仍有余量，来自未补产品）。
