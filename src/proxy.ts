@@ -170,18 +170,11 @@ export function proxy(request: NextRequest) {
     return NextResponse.redirect(request.nextUrl)
   }
 
-  // Set geo headers for downstream use
-  const response = NextResponse.next()
-  response.headers.set('x-geo-country', country)
-  response.headers.set('x-geo-currency', config.currency)
-  response.headers.set('x-geo-lang', config.lang)
-
-  // Set cookies for client-side access
-  response.cookies.set('geo-country', country, { path: '/', sameSite: 'lax' })
-  response.cookies.set('geo-currency', config.currency, { path: '/', sameSite: 'lax' })
-  response.cookies.set('geo-lang', config.lang, { path: '/', sameSite: 'lax' })
-
-  return response
+  // 2026-11-24 额度治理: geo cookie / x-geo-* 头在本仓库里没有任何消费方(grep 全仓 0 命中),
+  // 但每个页面响应都带 Set-Cookie, 导致响应 Cache-Control 变成 must-revalidate、CDN 无法缓存,
+  // 每次访问都要过 middleware 并回源 —— 这是 Fast Origin Transfer 19GB / ISR Reads 2.5M /
+  // Fluid CPU 3h54m 三项一起越线的主因。这里只保留 www 跳转和根路径按国家跳语种, 其余直接放行。
+  return NextResponse.next()
 }
 
 export const config = {

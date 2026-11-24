@@ -85,3 +85,8 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
     </div>
   )
 }
+
+// 2026-11-24 额度治理: 本页由 generateStaticParams 全量预生成, 显式声明纯静态,
+// 让 CDN 直接返回预渲染结果, 不再每次请求都进 ISR 读缓存 (降低 ISR Reads / FoT / CPU).
+export const dynamic = 'force-static'
+export const revalidate = false

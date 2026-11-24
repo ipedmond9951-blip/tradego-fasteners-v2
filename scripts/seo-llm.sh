@@ -41,7 +41,18 @@ fi
 clean_output() {
   # ai-router 会在前后带平台标签 / UI 文本, 还会把提问原样回显,
   # 统一交给 _strip_router_labels.py 剥掉, 保证下游 JSON / markdown 解析干净
-  python3 "$SCRIPT_DIR/_strip_router_labels.py" "$PROMPT_FILE"
+  # 2026-11-24: openclaw 模型常把正文包在 ```markdown 围栏里, 这里一并去掉首尾围栏
+  python3 "$SCRIPT_DIR/_strip_router_labels.py" "$PROMPT_FILE" | python3 -c '
+import sys
+t = sys.stdin.read().strip()
+if t.startswith("```"):
+    first_nl = t.find(chr(10))
+    if first_nl > 0:
+        t = t[first_nl+1:]
+    if t.rstrip().endswith("```"):
+        t = t.rstrip()[:-3]
+sys.stdout.write(t.strip() + chr(10))
+'
 }
 
 TRIED=""
@@ -59,6 +70,42 @@ for CH in $CHANNELS; do
       OUT=$(timeout --kill-after=10 "$CH_TIMEOUT" python3 "$SCRIPT_DIR/oc_writer.py" - < "$PROMPT_WITH_NONCE" 2>/dev/null)
     else
       OUT=$(python3 "$SCRIPT_DIR/oc_writer.py" - < "$PROMPT_WITH_NONCE" 2>/dev/null)
+    fi
+    # 2026-11-24: openclaw 单次输出受模型 token 上限约束（实测约 780 词就停），
+    # 需要长文时由调用方设置 SEO_LLM_TARGET_CHARS（如写正文 12000 ≈ 1800 词），
+    # 这里做最多 2 次「断点续写」拼接，不重复前文、不重开引言。
+    TARGET_CHARS="${SEO_LLM_TARGET_CHARS:-0}"
+    if [ "$TARGET_CHARS" -gt 0 ] && [ ${#OUT} -lt "$TARGET_CHARS" ]; then
+      CONT_SEG=1
+      MAX_CONT_SEG="${SEO_LLM_CONT_SEGS:-3}"
+      while [ ${#OUT} -lt "$TARGET_CHARS" ] && [ "$CONT_SEG" -le "$MAX_CONT_SEG" ]; do
+        CONT_PROMPT=$(mktemp -t seo-llm-cont)
+        # 只把已写内容的尾部当上下文: 全文太长会让模型直接收尾或重复开头
+        CONT_TAIL=$(printf '%s' "$OUT" | tail -c 4000)
+        {
+          echo "Continue the SAME article from exactly where it stopped."
+          echo "Rules: do not repeat earlier text, do not restart the introduction, keep the existing markdown heading structure, write another 700-900 English words, output only the continuation text."
+          echo
+          echo "--- LAST PART ALREADY WRITTEN ---"
+          printf '%s\n' "$CONT_TAIL"
+          printf '\n[Internal-ref: %s cont-%s]\n' "$(date +%s%N)" "$CONT_SEG"
+        } > "$CONT_PROMPT"
+        if command -v timeout >/dev/null 2>&1; then
+          SEG_OUT=$(timeout --kill-after=10 "$CH_TIMEOUT" python3 "$SCRIPT_DIR/oc_writer.py" - < "$CONT_PROMPT" 2>/dev/null)
+        else
+          SEG_OUT=$(python3 "$SCRIPT_DIR/oc_writer.py" - < "$CONT_PROMPT" 2>/dev/null)
+        fi
+        rm -f "$CONT_PROMPT"
+        if [ ${#SEG_OUT} -lt 200 ]; then
+          echo "[seo-llm] openclaw 续写第 $CONT_SEG 段过短, 停止续写" >&2
+          break
+        fi
+        OUT="$OUT
+
+$SEG_OUT"
+        echo "[seo-llm] openclaw 续写 +${#SEG_OUT} chars (总 ${#OUT})" >&2
+        CONT_SEG=$((CONT_SEG + 1))
+      done
     fi
   elif [ "$CH" = "codex" ]; then
     OUT=$(bash "$SCRIPT_DIR/codex-channel.sh" "$PROMPT_WITH_NONCE" "$CH_TIMEOUT" 2>/dev/null)

@@ -34,7 +34,7 @@ except Exception:
     llm_quota = None
 
 DEFAULT_MODELS = os.environ.get(
-    'OC_MODELS', 'zai/glm-4.5-flash,openrouter/free,zai/glm-4.7-flash,openrouter/nvidia/nemotron-3-ultra-550b-a55b:free,zai/glm-4.6v-flash').split(',')
+    'OC_MODELS', 'zai/glm-4.5-flash,x-ai/grok-4.3,zai/glm-4.6v-flash').split(',')
 TIMEOUT = int(os.environ.get('OC_TIMEOUT', '300'))
 
 

@@ -155,6 +155,26 @@ const nextConfig: NextConfig = {
         source: '/images/:path*',
         headers: [{ key: 'Cache-Control', value: 'public, max-age=604800, stale-while-revalidate=2592000' }],
       },
+      // 2026-11-24 额度治理: 语种页面全部预渲染, 且已去掉 middleware 的 Set-Cookie,
+      // 这里让 CDN 缓存一天、过期后 7 天内先返回旧版本再后台刷新,
+      // 把 Fast Origin Transfer 从"每次访问都回源"压成"每天最多回源一次".
+      {
+        source: '/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)/:path*',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=0, s-maxage=86400, stale-while-revalidate=604800' },
+        ],
+      },
+      {
+        source: '/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=0, s-maxage=86400, stale-while-revalidate=604800' },
+        ],
+      },
+      // sitemap 已改由 next-sitemap 构建时生成静态文件, 给它一小时 CDN 缓存
+      {
+        source: '/sitemap.xml',
+        headers: [{ key: 'Cache-Control', value: 'public, max-age=600, s-maxage=3600' }],
+      },
     ];
   },
   images: {

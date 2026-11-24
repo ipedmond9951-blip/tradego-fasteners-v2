@@ -27,12 +27,20 @@ COOLDOWN_429 = 15 * 60
 NO_GATE_PREFIXES = ('openrouter:',)
 
 PROVIDERS = {
+    'x-ai:grok-4.3': {
+        'window': 600, 'window_cap': 3, 'day_cap': 60,
+        'note': '2026-11-24 实测可写 1200+ 词长文（glm-flash 只有 700 词），收费通道，按 10 分钟 3 次/每天 60 次估',
+    },
+    'x-ai:grok-4': {
+        'window': 600, 'window_cap': 2, 'day_cap': 40,
+        'note': '同 grok-4.3 的备选，额度略收窄',
+    },
     'zai:glm-4.6': {
         'window': 600, 'window_cap': 4, 'day_cap': 150,
         'note': '实测 25s 间隔可出合格结果；连续 20s 批跑立即 429；45s 间隔仍 429，窗口极窄',
     },
     'zai:glm-4.5-flash': {
-        'window': 600, 'window_cap': 6, 'day_cap': 200,
+        'window': 600, 'window_cap': 10, 'day_cap': 300,
         'note': '2026-11-24 实测可稳定出结果（4s 一次、cost 0），是当前唯一有余额的通道；按 10 分钟 6 次/每天 200 次估，80% 即 4 次/160 次',
     },
     'zai:glm-5.3-flashx': {
@@ -42,6 +50,10 @@ PROVIDERS = {
     'zai:glm-4.5-air': {
         'window': 600, 'window_cap': 2, 'day_cap': 40,
         'note': '实测 429 余额不足；仅作链上候选',
+    },
+    'zai:glm-4.6v-flash': {
+        'window': 600, 'window_cap': 4, 'day_cap': 80,
+        'note': '多模态模型, 当文本通道实测 2/5 可用, 仅作链尾兜底',
     },
     'zai:glm-4.7-flash': {
         'window': 600, 'window_cap': 1, 'day_cap': 20,

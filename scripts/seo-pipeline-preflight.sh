@@ -42,6 +42,20 @@ check_bypassed_apis() {
     echo "BYPASSED"
 }
 
+# 2026-11-24 新增: OpenClaw 网关 (zai/glm-4.5-flash 等) 是当前唯一稳定写作通道,
+# 必须实测出字才计入健康清单. 不依赖 Chrome, 不烧外网账号额度.
+check_openclaw() {
+    local work="/tmp/preflight-oc-$$.txt" out
+    printf 'Reply with exactly one line: OK. Do not explain.' > "$work"
+    out=$(timeout 120 python3 "$SCRIPT_DIR/oc_writer.py" - < "$work" 2>/dev/null | head -c 120)
+    rm -f "$work"
+    if [ ${#out} -ge 2 ] && ! echo "$out" | grep -qiE "\[error\]|no usable|全失败|失败"; then
+        echo "OK"
+    else
+        echo "FAIL:$(echo "$out" | head -c 80)"
+    fi
+}
+
 # 2026-11-22 新增: 本机 Codex CLI (ChatGPT 订阅) 是主力写手, 必须实测
 check_codex() {
     local work="/tmp/preflight-codex-$$.txt" out
@@ -104,6 +118,11 @@ run_checks() {
     local r
     # 2026-11-22: DeepSeek / MiniMax 走 API 已绕过, 不再计入健康检查
     echo "  ↷ DeepSeek / MiniMax API: 已绕过 (余额不足 / 402), 不计入健康通道"
+
+    # 2026-11-24: OpenClaw 为默认首选通道 (seo-llm.sh 里排第一), 先测它
+    r=$(check_openclaw)
+    if [ "$r" = "OK" ]; then HEALTHY_AIS+=("openclaw"); echo "  ✅ OpenClaw 网关: OK"
+    else UNHEALTHY_AIS+=("openclaw"); echo "  ❌ OpenClaw 网关: FAIL (${r#FAIL:})"; fi
 
     r=$(check_codex)
     if [ "$r" = "OK" ]; then HEALTHY_AIS+=("codex"); echo "  ✅ Codex CLI (ChatGPT 订阅): OK"
@@ -170,7 +189,7 @@ BLOCK_FILE="$LOG_DIR/blocked-$(date '+%Y%m%d').txt"
     echo "reason=no_writing_channel"
     echo "unhealthy=${UNHEALTHY_AIS[*]}"
     echo "attempts=$MAX_ATTEMPTS"
-    echo "next=在 Chrome-Debug 里登录 Gemini / Grok / ChatGPT 任一账号, 然后手动补跑:"
+    echo "next=检查 OpenClaw 网关: python3 scripts/oc_writer.py 'Reply OK'; 另可在 Chrome-Debug 登录 Gemini / Grok / ChatGPT 任一账号"
     echo "     bash $PROJECT_DIR/scripts/seo-ai-pipeline.sh"
 } > "$BLOCK_FILE"
 

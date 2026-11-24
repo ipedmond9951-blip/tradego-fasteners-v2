@@ -715,6 +715,17 @@ printf '%s' "$OUTLINE_PROMPT" > "$OUTLINE_PROMPT_FILE"
 run_outline_ai() {
     local ai_name="$1"
     local out
+    # 2026-11-24: openclaw 不依赖 Chrome, 不受 USE_AI_ROUTER 开关影响
+    if [ "$ai_name" = "openclaw" ]; then
+        log "  🤖 openclaw 网关生成大纲 (220s timeout)..."
+        out=$(SEO_LLM_CHANNELS=openclaw timeout 240 bash "$SCRIPT_DIR/seo-llm.sh" "$OUTLINE_PROMPT_FILE" 220 800 2>&1) || out=""
+        if [ ${#out} -lt 100 ] || echo "$out" | grep -qE "^\[error\]"; then
+            log "  ⚠️ openclaw 大纲输出不足 (${#out} chars), 跳过"
+            out=""
+        fi
+        echo "$out"
+        return 0
+    fi
     # 2026-11-22 改: DeepSeek/MiniMax 全下线, 只走 ai-router 的浏览器通道.
     # 用 seo-llm.sh 单通道模式 (SEO_LLM_CHANNELS=$ai_name), 自带 nonce + 标签清洗.
     if [ "$USE_AI_ROUTER" != "1" ]; then
@@ -818,7 +829,7 @@ GEMINI_OUT=""
 # 2026-07-15 fix: 4 个 ai-router 都间歇性失败 (Chrome tab 状态异常), 加 minimax 作为 outline 最后兜底
 # 重要: minimax 永禁是针对 STEP 3 写文 (100/100 形式化), STEP 2 outline 只生成结构, minimax OK
 # 2026-11-22: 豆包输入框 verify 长期失败 + DeepSeek/MiniMax API 下线, 大纲只试 gemini / grok / chatgpt
-for AI_TRY in codex gemini grok chatgpt; do
+for AI_TRY in openclaw codex gemini grok chatgpt; do
     log "🤖 Trying $AI_TRY for outline..."
     # v5.18: AI 切换间 sleep 8s, 避免 chrome tab pollution 连续污染下一个 AI
     sleep 8 2>/dev/null || true
@@ -978,11 +989,27 @@ printf '%s' "$WRITER_PROMPT_NONCED" > "$WRITER_PROMPT_FILE"
 #   - 修法 3: 主力 + fallback 共 8 AI 全 fail 后, minimax 兜底 (5th writer, 7/20 manual recovery 已破例)
 #     实际仅在 7/20 manual recovery 时 minimax M2.7 14546 chars 写通, 4 langs 翻译也靠 minimax
 #     此处正式化 minimax as last-resort 兜底 (7/6 永禁令的 runtime 豁免, 总裁 7/20 默许)
-PRIMARY_WRITERS=("codex" "gemini" "grok" "chatgpt")  # 2026-11-22: codex 打头, 浏览器通道兜底
+PRIMARY_WRITERS=("openclaw" "codex" "gemini" "grok" "chatgpt")  # 2026-11-24: openclaw(本机网关) 打头, 浏览器通道只作兜底
 FALLBACK_WRITER="none"  # 2026-11-22: DeepSeek/MiniMax 下线, 兜底改走 seo-llm.sh 浏览器通道
 
 # 跑主力 AI
 for WRITER in "${PRIMARY_WRITERS[@]}"; do
+    # 2026-11-24: openclaw 是唯一不依赖 Chrome / 不烧外网账号的主力通道,
+    # 走 seo-llm.sh(只开 openclaw) + 长文断点续写, 目标 12000 字符 ≈ 1800 词
+    if [ "$WRITER" = "openclaw" ]; then
+        log "🤖 Trying writer: openclaw (本机网关, 长文自动续写, 不依赖 Chrome)"
+        WRITER_OUT=$(SEO_LLM_CHANNELS=openclaw SEO_LLM_TARGET_CHARS=12000 timeout --kill-after=20 600 bash "$SCRIPT_DIR/seo-llm.sh" "$WRITER_PROMPT_FILE" 300 2000 2>/dev/null)
+        WRITER_OUT=$(echo "$WRITER_OUT" | sed 's/\\#/#/g; s/\\\*/*/g')
+        if [ ${#WRITER_OUT} -gt $MIN_CHARS ] && echo "$WRITER_OUT" | grep -Eq '^##? |^# |<h[1-3]>|^\*\*[A-Z]|^[0-9]+\. '; then
+            log "✅ Writer openclaw produced content (${#WRITER_OUT} chars, has ##)"
+            WRITERS_TRIED="$WRITERS_TRIED openclaw"
+            break
+        else
+            log "⚠️ Writer openclaw insufficient (${#WRITER_OUT} chars), trying next"
+            WRITERS_TRIED="$WRITERS_TRIED openclaw(${#WRITER_OUT}chars)"
+            continue
+        fi
+    fi
     # 跳过 deepseek 如果静默期未结束 (7/5 解禁, 静默期已过)
     if [ "$WRITER" = "deepseek" ]; then
         DEEPSEEK_SILENT_FLAG="$HOME/.agents/skills/ai-assistant-router/.deepseek-silent-until-2026-07-04.flag"
@@ -1225,7 +1252,7 @@ if [ "$USE_AI_ROUTER" = "1" ]; then
   # Gemini audit via ai-router (总裁指示: 一定要用到 ai 助手技能)
   # 2026-11-22: 审计也改走 seo-llm (codex 首选), 浏览器通道只做二级兜底
   log "  🤖 审计通道 A (codex)..." 
-  GEMINI_AUDIT=$(SEO_LLM_CHANNELS=codex timeout 260 bash "$SCRIPT_DIR/seo-llm.sh" "$AUDIT_PROMPT_FILE" 240 5 2>&1) || GEMINI_AUDIT="SCORE: 0"
+  GEMINI_AUDIT=$(SEO_LLM_CHANNELS="openclaw codex" timeout 260 bash "$SCRIPT_DIR/seo-llm.sh" "$AUDIT_PROMPT_FILE" 240 5 2>&1) || GEMINI_AUDIT="SCORE: 0"
   if echo "$GEMINI_AUDIT" | grep -qE "^\[error\]|SCORE: 0$"; then
     # 2026-07-15 fix: 7/6 minimax 永禁后, audit 不能用 minimax 兜底 exit
     # 改成 self-estimated score 75 (基于 article 实际质量: words/citations/sections)
@@ -1239,7 +1266,7 @@ Be a different auditor than typical. Emphasize B2B actionability and real engine
   CHATGPT_AUDIT_PROMPT_FILE="$TMP_DIR/${SLUG}_audit_prompt_chatgpt.txt"
   printf '%s' "$CHATGPT_AUDIT_PROMPT" > "$CHATGPT_AUDIT_PROMPT_FILE"
   log "  🤖 审计通道 B (gemini → grok → codex)..."
-  CHATGPT_AUDIT=$(SEO_LLM_CHANNELS="gemini grok codex" timeout 260 bash "$SCRIPT_DIR/seo-llm.sh" "$CHATGPT_AUDIT_PROMPT_FILE" 240 5 2>&1) || CHATGPT_AUDIT="SCORE: 0"
+  CHATGPT_AUDIT=$(SEO_LLM_CHANNELS="openclaw gemini grok codex" timeout 260 bash "$SCRIPT_DIR/seo-llm.sh" "$CHATGPT_AUDIT_PROMPT_FILE" 240 5 2>&1) || CHATGPT_AUDIT="SCORE: 0"
   if echo "$CHATGPT_AUDIT" | grep -qE "^\[error\]|SCORE: 0$"; then
     log "  ⚠️ ai-router ChatGPT 失败, 用 self-estimated score 75 (minimax 永禁 per 7/6)"
     CHATGPT_AUDIT="SCORE: 75\nSELF_ESTIMATED: chatgpt audit failed but article has real ISO/EN/ASTM citations"
