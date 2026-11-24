@@ -24,7 +24,8 @@
     "faq": "FAQ",
     "steelMarket": "アフリカ鉄鋼データ",
     "about": "会社概要",
-    "contact": "見積もり"
+    "contact": "見積もり",
+    "industry": "業界情報"
   },
   "products": {
     "title": "製品一覧",
@@ -38,7 +39,8 @@
     "lead": "納期",
     "samples": "無料サンプル",
     "custom": "カスタム対応",
-    "piece": "/個"
+    "piece": "/個",
+    "allProducts": "すべての製品"
   },
   "steelMarket": "アフリカ鉄鋼データ",
   "about": {
@@ -56,7 +58,33 @@
     "quality": "品質検査",
     "qualityAlt": "品質検査ラボ",
     "logistics": "アフリカ物流",
-    "logisticsAlt": "アフリカへの海上輸送"
+    "logisticsAlt": "アフリカへの海上輸送",
+    "subtitle": "アフリカ向け中国緊固件メーカー — ISO 9001・SABS認証、12年以上の輸出経験。",
+    "ourStory": "会社沿革",
+    "storyP1": "TradeGo Fasteners は中国山東省濰坊（ウェイファン）に工場を持つ緊固件の製造・輸出企業です。ねじ、ボルト、ナット、ワッシャー、アンカー、屋根釘を建築・太陽光・産業向けに生産しています。",
+    "storyP2": "輸出の中心はアフリカ：南アフリカ、ジンバブエ、モザンビーク、ケニア、タンザニア、ナイジェリアなど20以上の市場に、代理店・建設会社・金物卸を通じて供給しています。",
+    "storyP3": "各注文は明確な規格（DIN、ISO、ANSI/ASME、SABS、GB）で見積り、海上輸送向けに梱包し、ミルシートを同梱して出荷します。通関で想定外が起きないためです。",
+    "yearsExp": "アフリカ輸出年数",
+    "clients": "取引先数",
+    "countries": "アフリカ市場数",
+    "containers": "年間コンテナ数",
+    "certifications": "工場と認証",
+    "isoDesc": "品質マネジメントシステムは ISO 9001:2015 認証を取得し、毎年監査を受けています。",
+    "sabsDesc": "屋根釘と関連製品は、南アフリカ・ジンバブエ案件向けに SABS 要求に基づいて試験しています。",
+    "ceDesc": "欧州向けには CE 表示書類を提供し、EN 規格での見積りはご要望により対応します。",
+    "whyUs": "お客様が当社を選ぶ理由",
+    "w1Title": "工場直販価格",
+    "w1Desc": "濰坊工場から直接出荷し仲介マージンなし。MOQ はサイズごとにご相談。",
+    "w2Title": "梱包とコンテナ積載",
+    "w2Desc": "パレット上のカートン、釘は25kg袋。異なるサイズを1本の20GPに混載し積載案を添付します。",
+    "w3Title": "出荷前検査",
+    "w3Desc": "ロットごとに寸法・ねじ・めっきを検査。SGS または BV の検査もご要望により手配します。",
+    "w4Title": "アフリカへの海上輸送",
+    "w4Desc": "FOB青島／天津、CIFベイラ・ダーバン・モンバサ。書類はミルシートと原産地証明を含みます。",
+    "ctaTitle": "特定サイズの価格が必要ですか？",
+    "ctaDesc": "サイズ・規格・材質・数量をお送りください。同一営業日中に価格・MOQ・梱包・納期を返信します。",
+    "getQuote": "見積りを依頼",
+    "viewProducts": "製品を見る"
   },
   "why": {
     "title": "TradeGoを選ぶ理由",
@@ -119,7 +147,8 @@
     "contactUs": "お問い合わせ",
     "rights": "全著作権所有",
     "address": "中国本土",
-    "email": "info@tradego-fasteners.com"
+    "email": "info@tradego-fasteners.com",
+    "certifications": "認証"
   },
   "geo": {
     "usPromo": "$500以上のご注文で送料無料",
@@ -127,7 +156,11 @@
     "zaPromo": "アフリカ市場量大割引 — 最大15%",
     "zaShipping": "ダーバンまで海上輸送、25-30日",
     "mePromo": "中東市場特別価格",
-    "meShipping": "ジェベルアリまで海上輸送、18-22日"
+    "meShipping": "ジェベルアリまで海上輸送、18-22日",
+    "default": {
+      "promotion": "濰坊工場からの直販価格",
+      "shipping": "ダーバン・ベイラ・モンバサへの海上輸送"
+    }
   },
   "common": {
     "applications": "応用"
@@ -198,5 +231,32 @@
     "error": "鉄鋼価格の読み込みエラー",
     "loadFailed": "鉄鋼価格の読み込みに失敗しました",
     "localMarket": "地元市場の焦点"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "緊固件の大口注文 — サイズと数量をお送りください。24時間以内に返信します。",
+    "email": "メール",
+    "whatsappNote": "図面や写真は WhatsApp が最も早いです。",
+    "response": "返信時間",
+    "responseTime": "営業日24時間以内",
+    "formTitle": "見積り依頼",
+    "formSubtitle": "5項目で足ります。サイズ、規格、材質と表面処理、数量、仕向港。",
+    "factoryInfo": "工場と輸送",
+    "officeAddress": "工場所在地",
+    "shipping": "海上輸送",
+    "shippingNote": "FOB青島／天津、CIFベイラ・ダーバン・モンバサはご要望により対応。"
+  },
+  "form": {
+    "name": "お名前",
+    "namePlaceholder": "お名前",
+    "email": "メールアドレス",
+    "phone": "電話 / WhatsApp",
+    "company": "会社名",
+    "companyPlaceholder": "会社名",
+    "products": "製品とサイズ",
+    "productsPlaceholder": "例：IBR屋根釘 75mm、20t",
+    "message": "内容",
+    "messagePlaceholder": "規格、材質、表面処理、数量、仕向港",
+    "submit": "送信する"
   }
 }

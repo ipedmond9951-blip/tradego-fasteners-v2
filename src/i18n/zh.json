@@ -24,7 +24,8 @@
     "faq": "常见问题",
     "steelMarket": "非洲钢铁价格",
     "about": "关于我们",
-    "contact": "获取报价"
+    "contact": "获取报价",
+    "industry": "行业洞察"
   },
   "products": {
     "title": "高品质紧固件产品",
@@ -38,7 +39,8 @@
     "lead": "交货期",
     "samples": "免费样品",
     "custom": "可定制",
-    "piece": "/件"
+    "piece": "/件",
+    "allProducts": "全部产品"
   },
   "steelMarket": "非洲钢铁市场数据",
   "about": {
@@ -56,7 +58,33 @@
     "quality": "质量检测",
     "qualityAlt": "质量检测实验室",
     "logistics": "非洲海运",
-    "logisticsAlt": "集装箱海运至非洲港口"
+    "logisticsAlt": "集装箱海运至非洲港口",
+    "subtitle": "面向非洲的中国紧固件制造商 —— ISO 9001 与 SABS 认证，12 年以上出口经验。",
+    "ourStory": "公司简介",
+    "storyP1": "TradeGo Fasteners 是一家位于中国山东潍坊的紧固件生产与出口企业，产品覆盖螺丝、螺栓、螺母、垫圈、锚栓与屋面钉，服务建筑、光伏与工业客户。",
+    "storyP2": "出口重心在非洲：南非、津巴布韦、莫桑比克、肯尼亚、坦桑尼亚、尼日利亚等 20 多个市场，客户以分销商、工程承包商与五金批发商为主。",
+    "storyP3": "每一单都按明确的标准（DIN、ISO、ANSI/ASME、SABS 或 GB）报盘，按海运要求包装，并随货提供材质书，让清关与进场验收少出意外。",
+    "yearsExp": "出口非洲年限",
+    "clients": "服务客户",
+    "countries": "非洲市场",
+    "containers": "年出货柜量",
+    "certifications": "工厂与认证",
+    "isoDesc": "质量管理体系通过 ISO 9001:2015 认证，每年接受审核。",
+    "sabsDesc": "屋面钉及相关产品按 SABS 要求检测，适用于南非与津巴布韦项目。",
+    "ceDesc": "可向欧洲买家提供 CE 标识文件，按需按 EN 标准报盘。",
+    "whyUs": "客户为什么选择我们",
+    "w1Title": "工厂直供价",
+    "w1Desc": "直接从潍坊工厂出货，无贸易加价；MOQ 按规格商定。",
+    "w2Title": "包装与柜型装载",
+    "w2Desc": "纸箱托盘、钉类 25kg 编织袋，不同规格可混装一个 20GP 并附装载方案。",
+    "w3Title": "出货前验货",
+    "w3Desc": "每批做尺寸、螺纹与镀层检验，可按需安排 SGS 或 BV 验货。",
+    "w4Title": "海运至非洲",
+    "w4Desc": "FOB 青岛/天津，可报 CIF 贝拉、德班或蒙巴萨；单证含材质书与产地证。",
+    "ctaTitle": "想按具体规格要价格？",
+    "ctaDesc": "把规格、标准、材质与数量发来，当天即可回复价格、MOQ、包装与交期。",
+    "getQuote": "获取报价",
+    "viewProducts": "查看产品"
   },
   "why": {
     "title": "为什么TradeGo是非洲首选紧固件供应商？",
@@ -125,7 +153,7 @@
     "rights": "版权所有",
     "address": "中国大陆",
     "email": "info@tradego-fasteners.com",
-    "certifications": "认证与标准"
+    "certifications": "认证资质"
   },
   "geo": {
     "usPromo": "订单满$500免运费",
@@ -133,7 +161,11 @@
     "zaPromo": "非洲市场批量折扣 — 最高15%优惠",
     "zaShipping": "海运至德班，25-30天",
     "mePromo": "中东市场特价",
-    "meShipping": "海运至杰贝阿里，18-22天"
+    "meShipping": "海运至杰贝阿里，18-22天",
+    "default": {
+      "promotion": "潍坊工厂直供价",
+      "shipping": "海运至德班、贝拉与蒙巴萨"
+    }
   },
   "common": {
     "applications": "应用领域"
@@ -204,5 +236,32 @@
     "error": "加载钢材价格错误",
     "loadFailed": "加载钢材价格失败",
     "localMarket": "本地市场关注"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "批量紧固件询价 —— 发来规格与数量，24 小时内回复。",
+    "email": "邮箱",
+    "whatsappNote": "图纸与照片走 WhatsApp 最快。",
+    "response": "回复时效",
+    "responseTime": "工作日 24 小时内",
+    "formTitle": "询价单",
+    "formSubtitle": "五项信息即可：规格尺寸、执行标准、材质与镀层、数量、目的港。",
+    "factoryInfo": "工厂与海运",
+    "officeAddress": "工厂地址",
+    "shipping": "海运",
+    "shippingNote": "默认 FOB 青岛/天津，可按需报 CIF 贝拉、德班或蒙巴萨。"
+  },
+  "form": {
+    "name": "姓名",
+    "namePlaceholder": "您的姓名",
+    "email": "邮箱",
+    "phone": "电话 / WhatsApp",
+    "company": "公司",
+    "companyPlaceholder": "公司名称",
+    "products": "产品与规格",
+    "productsPlaceholder": "例如 IBR 屋面钉 75mm，20 吨",
+    "message": "需求说明",
+    "messagePlaceholder": "标准、材质、镀层、数量、目的港",
+    "submit": "提交询价"
   }
 }

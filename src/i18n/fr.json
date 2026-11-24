@@ -13,7 +13,10 @@
     "product2_name": "Vis autoperceuses",
     "product2_desc": "Performance de perçage élevée",
     "product3_name": "Boulons et écrous",
-    "product3_desc": "Fixations de qualité industrielle"
+    "product3_desc": "Fixations de qualité industrielle",
+    "product4_name": "Clous IBR",
+    "product5_name": "Boulons d'ancrage",
+    "product6_name": "Tirefonds hexagonaux"
   },
   "nav": {
     "home": "Accueil",
@@ -21,7 +24,8 @@
     "faq": "FAQ",
     "steelMarket": "Steel Market Data",
     "about": "À propos",
-    "contact": "Devis"
+    "contact": "Devis",
+    "industry": "Analyses sectorielles"
   },
   "products": {
     "title": "Nos Produits",
@@ -35,7 +39,8 @@
     "lead": "Délai de livraison",
     "samples": "Échantillons gratuits",
     "custom": "Sur mesure",
-    "piece": "/pièce"
+    "piece": "/pièce",
+    "allProducts": "Tous les produits"
   },
   "steelMarket": "Steel Market Data",
   "about": {
@@ -53,7 +58,33 @@
     "quality": "Contrôle qualité",
     "qualityAlt": "Laboratoire de tests qualité",
     "logistics": "Logistique mondiale",
-    "logisticsAlt": "Expédition conteneurs mondiale"
+    "logisticsAlt": "Expédition conteneurs mondiale",
+    "subtitle": "Fabricant chinois de fixation pour l'Afrique — certifié ISO 9001 et SABS, plus de 12 ans d'export.",
+    "ourStory": "Notre histoire",
+    "storyP1": "TradeGo Fasteners est un fabricant et exportateur de fixation implanté à Weifang, Shandong (Chine). Nous produisons vis, boulons, écrous, rondelles, ancrages et clous de toiture pour le bâtiment, le solaire et l'industrie.",
+    "storyP2": "Notre axe d'export est l'Afrique : Afrique du Sud, Zimbabwe, Mozambique, Kenya, Tanzanie, Nigeria et plus de 20 marchés, servis via distributeurs, entreprises et grossistes en quincaillerie.",
+    "storyP3": "Chaque commande est cotée sur une norme nommée (DIN, ISO, ANSI/ASME, SABS ou GB), emballée pour le fret maritime et expédiée avec les certificats de coulée, pour un dédouanement sans surprise.",
+    "yearsExp": "Années d'export vers l'Afrique",
+    "clients": "Clients servis",
+    "countries": "Marchés africains",
+    "containers": "Conteneurs par an",
+    "certifications": "Usine et certifications",
+    "isoDesc": "Système de management de la qualité certifié ISO 9001:2015 et audité chaque année.",
+    "sabsDesc": "Clous de toiture et lignes associées testés selon les exigences SABS pour les projets en Afrique du Sud et au Zimbabwe.",
+    "ceDesc": "Dossier de marquage CE fourni aux acheteurs européens ; normes EN cotées sur demande.",
+    "whyUs": "Pourquoi nos clients travaillent avec nous",
+    "w1Title": "Prix direct usine",
+    "w1Desc": "Achat à notre usine de Weifang, Shandong, sans marge de négoce ; MOQ convenu par dimension.",
+    "w2Title": "Emballage et chargement conteneur",
+    "w2Desc": "Cartons sur palettes, sacs de 25 kg pour les clous, dimensions mixtes dans un 20GP avec plan de chargement.",
+    "w3Title": "Inspection avant expédition",
+    "w3Desc": "Contrôle dimensionnel, filetage et revêtement sur chaque lot ; inspection SGS ou BV sur demande.",
+    "w4Title": "Fret maritime vers l'Afrique",
+    "w4Desc": "FOB Qingdao / Tianjin, CIF Beira, Durban ou Mombasa ; documents avec certificats de coulée et certificat d'origine.",
+    "ctaTitle": "Besoin d'un prix sur une dimension précise ?",
+    "ctaDesc": "Envoyez dimension, norme, matière et quantité : nous répondons prix, MOQ, emballage et délai le jour ouvré même.",
+    "getQuote": "Demander un devis",
+    "viewProducts": "Voir les produits"
   },
   "why": {
     "title": "Pourquoi choisir TradeGo ?",
@@ -116,7 +147,8 @@
     "contactUs": "Contactez-nous",
     "rights": "Tous droits réservés.",
     "address": "Chine continentale",
-    "email": "info@tradego-fasteners.com"
+    "email": "info@tradego-fasteners.com",
+    "certifications": "Certifications"
   },
   "geo": {
     "usPromo": "Livraison gratuite dès $500",
@@ -124,7 +156,11 @@
     "zaPromo": "Remise gros pour l'Afrique — jusqu'à 15%",
     "zaShipping": "Fret maritime vers Durban, 25-30 jours",
     "mePromo": "Tarifs spéciaux Moyen-Orient",
-    "meShipping": "Fret maritime vers Jebel Ali, 18-22 jours"
+    "meShipping": "Fret maritime vers Jebel Ali, 18-22 jours",
+    "default": {
+      "promotion": "Prix direct usine depuis Weifang, Shandong",
+      "shipping": "Fret maritime vers Durban, Beira et Mombasa"
+    }
   },
   "common": {
     "applications": "Applications"
@@ -195,5 +231,32 @@
     "error": "Erreur de Chargement des Prix de l'Acier",
     "loadFailed": "Échec du chargement des prix de l'acier",
     "localMarket": "Focus Marché Local"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Commandes de fixation en gros : envoyez dimensions et quantités, réponse sous 24 heures.",
+    "email": "E-mail",
+    "whatsappNote": "WhatsApp est le plus rapide pour les plans et photos.",
+    "response": "Délai de réponse",
+    "responseTime": "Sous 24 heures les jours ouvrés",
+    "formTitle": "Demander une cotation",
+    "formSubtitle": "Cinq éléments suffisent : dimension, norme, matière et finition, quantité, port de destination.",
+    "factoryInfo": "Usine et expédition",
+    "officeAddress": "Adresse de l'usine",
+    "shipping": "Fret maritime",
+    "shippingNote": "FOB Qingdao / Tianjin ; CIF Beira, Durban ou Mombasa sur demande."
+  },
+  "form": {
+    "name": "Nom",
+    "namePlaceholder": "Votre nom",
+    "email": "E-mail",
+    "phone": "Téléphone / WhatsApp",
+    "company": "Société",
+    "companyPlaceholder": "Nom de la société",
+    "products": "Produits et dimensions",
+    "productsPlaceholder": "ex. clous IBR 75 mm, 20 t",
+    "message": "Message",
+    "messagePlaceholder": "Norme, matière, finition, quantité, port de destination",
+    "submit": "Envoyer la demande"
   }
 }

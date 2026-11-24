@@ -24,7 +24,8 @@
     "faq": "FAQ",
     "steelMarket": "Dados Aço África",
     "about": "Sobre nós",
-    "contact": "Orçamento"
+    "contact": "Orçamento",
+    "industry": "Guias do setor"
   },
   "products": {
     "title": "Nossos Produtos",
@@ -38,7 +39,8 @@
     "lead": "Prazo de entrega",
     "samples": "Amostras grátis",
     "custom": "Personalizável",
-    "piece": "/peça"
+    "piece": "/peça",
+    "allProducts": "Todos os produtos"
   },
   "steelMarket": "Dados Aço África",
   "about": {
@@ -56,7 +58,33 @@
     "quality": "Controle de qualidade",
     "qualityAlt": "Laboratório de testes de qualidade",
     "logistics": "Logística África",
-    "logisticsAlt": "Frete marítimo para África"
+    "logisticsAlt": "Frete marítimo para África",
+    "subtitle": "Fabricante chinês de fixadores para África: certificado ISO 9001 e SABS, mais de 12 anos de exportação.",
+    "ourStory": "Nossa história",
+    "storyP1": "A TradeGo Fasteners é fabricante e exportadora de fixadores com fábrica em Weifang, Shandong, na China. Produzimos parafusos, pinos, porcas, arruelas, chumbadores e pregos para telhado para construção, energia solar e indústria.",
+    "storyP2": "Nosso foco de exportação é a África: África do Sul, Zimbábue, Moçambique, Quênia, Tanzânia, Nigéria e mais de 20 mercados, atendidos por distribuidores, construtoras e atacadistas de ferragens.",
+    "storyP3": "Cada pedido é cotado contra uma norma definida (DIN, ISO, ANSI/ASME, SABS ou GB), embalado para frete marítimo e embarcado com certificados de corrida, para que o desembaraço não traga surpresas.",
+    "yearsExp": "Anos exportando para a África",
+    "clients": "Clientes atendidos",
+    "countries": "Mercados africanos",
+    "containers": "Contêineres por ano",
+    "certifications": "Fábrica e certificações",
+    "isoDesc": "Sistema de gestão da qualidade certificado ISO 9001:2015 e auditado anualmente.",
+    "sabsDesc": "Pregos para telhado e linhas relacionadas ensaiados conforme requisitos SABS para projetos na África do Sul e no Zimbábue.",
+    "ceDesc": "Documentação de marcação CE para compradores europeus; normas EN cotadas sob consulta.",
+    "whyUs": "Por que os compradores trabalham conosco",
+    "w1Title": "Preço direto de fábrica",
+    "w1Desc": "Compra na fábrica de Weifang, Shandong, sem margem de trading; MOQ acordado por medida.",
+    "w2Title": "Embalagem e carregamento",
+    "w2Desc": "Caixas sobre paletes, sacos de 25 kg para pregos, medidas mistas em um 20GP com plano de carga.",
+    "w3Title": "Inspeção antes do embarque",
+    "w3Desc": "Controle dimensional, de rosca e de revestimento por lote; inspeção SGS ou BV sob consulta.",
+    "w4Title": "Frete marítimo para a África",
+    "w4Desc": "FOB Qingdao / Tianjin, CIF Beira, Durban ou Mombaça; documentos com certificados de corrida e certificado de origem.",
+    "ctaTitle": "Precisa de preço para uma medida específica?",
+    "ctaDesc": "Envie medida, norma, material e quantidade: respondemos preço, MOQ, embalagem e prazo no mesmo dia útil.",
+    "getQuote": "Pedir cotação",
+    "viewProducts": "Ver produtos"
   },
   "why": {
     "title": "Por que escolher a TradeGo?",
@@ -119,7 +147,8 @@
     "contactUs": "Contate-nos",
     "rights": "Todos os direitos reservados.",
     "address": "China continental",
-    "email": "info@tradego-fasteners.com"
+    "email": "info@tradego-fasteners.com",
+    "certifications": "Certificações"
   },
   "geo": {
     "usPromo": "Frete grátis em pedidos acima de $500",
@@ -127,7 +156,11 @@
     "zaPromo": "Desconto por volume para África — até 15%",
     "zaShipping": "Frete marítimo para Durban, 25-30 dias",
     "mePromo": "Preços especiais para Oriente Médio",
-    "meShipping": "Frete marítimo para Jebel Ali, 18-22 dias"
+    "meShipping": "Frete marítimo para Jebel Ali, 18-22 dias",
+    "default": {
+      "promotion": "Preço direto de fábrica em Weifang, Shandong",
+      "shipping": "Frete marítimo para Durban, Beira e Mombaça"
+    }
   },
   "common": {
     "applications": "Aplicações"
@@ -198,5 +231,32 @@
     "error": "Erro ao Carregar Preços do Aço",
     "loadFailed": "Falha ao carregar preços do aço",
     "localMarket": "Foco no Mercado Local"
+  },
+  "contact": {
+    "title": "Fale conosco",
+    "subtitle": "Pedidos de fixadores em atacado: envie medidas e quantidades, respondemos em 24 horas.",
+    "email": "E-mail",
+    "whatsappNote": "O WhatsApp é o mais rápido para desenhos e fotos.",
+    "response": "Prazo de resposta",
+    "responseTime": "Em até 24 horas em dias úteis",
+    "formTitle": "Solicitar cotação",
+    "formSubtitle": "Cinco dados bastam: medida, norma, material e acabamento, quantidade, porto de destino.",
+    "factoryInfo": "Fábrica e embarque",
+    "officeAddress": "Endereço da fábrica",
+    "shipping": "Frete marítimo",
+    "shippingNote": "FOB Qingdao / Tianjin; CIF Beira, Durban ou Mombaça sob consulta."
+  },
+  "form": {
+    "name": "Nome",
+    "namePlaceholder": "Seu nome",
+    "email": "E-mail",
+    "phone": "Telefone / WhatsApp",
+    "company": "Empresa",
+    "companyPlaceholder": "Nome da empresa",
+    "products": "Produtos e medidas",
+    "productsPlaceholder": "ex.: pregos IBR 75 mm, 20 t",
+    "message": "Mensagem",
+    "messagePlaceholder": "Norma, material, acabamento, quantidade, porto de destino",
+    "submit": "Enviar consulta"
   }
 }

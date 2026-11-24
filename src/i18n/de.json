@@ -24,7 +24,8 @@
     "faq": "FAQ",
     "steelMarket": "Afrika-Stahldaten",
     "about": "Über uns",
-    "contact": "Angebot"
+    "contact": "Angebot",
+    "industry": "Branchenwissen"
   },
   "products": {
     "title": "Unsere Produkte",
@@ -38,7 +39,8 @@
     "lead": "Lieferzeit",
     "samples": "Kostenlose Muster",
     "custom": "Anpassbar",
-    "piece": "/Stück"
+    "piece": "/Stück",
+    "allProducts": "Alle Produkte"
   },
   "steelMarket": "Afrika-Stahldaten",
   "about": {
@@ -56,7 +58,33 @@
     "quality": "Qualitätsprüfung",
     "qualityAlt": "Qualitätsprüflabor",
     "logistics": "Afrika-Logistik",
-    "logisticsAlt": "Seefracht nach Afrika"
+    "logisticsAlt": "Seefracht nach Afrika",
+    "subtitle": "Chinesischer Schraubenhersteller für Afrika — ISO 9001 und SABS zertifiziert, über 12 Jahre Exporterfahrung.",
+    "ourStory": "Unsere Geschichte",
+    "storyP1": "TradeGo Fasteners ist Hersteller und Exporteur von Befestigungstechnik mit Werk in Weifang, Shandong, China. Wir fertigen Schrauben, Bolzen, Muttern, Scheiben, Anker und Dachnägel für Bau, Solar und Industrie.",
+    "storyP2": "Unser Exportfokus ist Afrika: Südafrika, Simbabwe, Mosambik, Kenia, Tansania, Nigeria und über 20 Märkte, beliefert über Distributoren, Bauunternehmen und Baustoffhändler.",
+    "storyP3": "Jede Bestellung wird gegen eine benannte Norm kalkuliert (DIN, ISO, ANSI/ASME, SABS oder GB), seefrachtgerecht verpackt und mit Werkszeugnissen versandt, damit die Verzollung keine Überraschungen bringt.",
+    "yearsExp": "Jahre Export nach Afrika",
+    "clients": "Betreute Kunden",
+    "countries": "Afrikanische Märkte",
+    "containers": "Container pro Jahr",
+    "certifications": "Werk und Zertifikate",
+    "isoDesc": "Qualitätsmanagementsystem nach ISO 9001:2015 zertifiziert und jährlich auditiert.",
+    "sabsDesc": "Dachnägel und verwandte Linien werden nach SABS-Anforderungen für Projekte in Südafrika und Simbabwe geprüft.",
+    "ceDesc": "CE-Kennzeichnungsunterlagen für europäische Käufer; Angebote nach EN-Normen auf Anfrage.",
+    "whyUs": "Warum Kunden mit uns arbeiten",
+    "w1Title": "Preis direkt ab Werk",
+    "w1Desc": "Einkauf im Werk in Weifang, Shandong, ohne Handelsmarge; MOQ je Größe vereinbart.",
+    "w2Title": "Verpackung und Containerbeladung",
+    "w2Desc": "Kartons auf Paletten, 25-kg-Säcke für Nägel, gemischte Größen in einem 20GP mit Beladeplan.",
+    "w3Title": "Prüfung vor Versand",
+    "w3Desc": "Maß-, Gewinde- und Schichtprüfung je Charge; SGS- oder BV-Prüfung auf Anfrage.",
+    "w4Title": "Seefracht nach Afrika",
+    "w4Desc": "FOB Qingdao / Tianjin, CIF Beira, Durban oder Mombasa; Dokumente inkl. Werkszeugnisse und Ursprungszeugnis.",
+    "ctaTitle": "Preis für eine bestimmte Größe?",
+    "ctaDesc": "Senden Sie Größe, Norm, Werkstoff und Menge — wir antworten am selben Werktag mit Preis, MOQ, Verpackung und Lieferzeit.",
+    "getQuote": "Angebot anfordern",
+    "viewProducts": "Produkte ansehen"
   },
   "why": {
     "title": "Warum TradeGo wählen?",
@@ -119,7 +147,8 @@
     "contactUs": "Kontakt",
     "rights": "Alle Rechte vorbehalten.",
     "address": "Festlandchina",
-    "email": "info@tradego-fasteners.com"
+    "email": "info@tradego-fasteners.com",
+    "certifications": "Zertifizierungen"
   },
   "geo": {
     "usPromo": "Kostenloser Versand ab $500",
@@ -127,7 +156,11 @@
     "zaPromo": "Mengenrabatt für Afrika — bis zu 15%",
     "zaShipping": "Seefracht nach Durban, 25-30 Tage",
     "mePromo": "Sonderpreise für Nahen Osten",
-    "meShipping": "Seefracht nach Jebel Ali, 18-22 Tage"
+    "meShipping": "Seefracht nach Jebel Ali, 18-22 Tage",
+    "default": {
+      "promotion": "Preis direkt ab Werk in Weifang, Shandong",
+      "shipping": "Seefracht nach Durban, Beira und Mombasa"
+    }
   },
   "common": {
     "applications": "Anwendungen"
@@ -198,5 +231,32 @@
     "error": "Fehler beim Laden der Stahlpreise",
     "loadFailed": "Stahlpreise konnten nicht geladen werden",
     "localMarket": "Lokaler Marktfokus"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Großbestellungen Befestigungstechnik — senden Sie Größen und Mengen, Antwort innerhalb von 24 Stunden.",
+    "email": "E-Mail",
+    "whatsappNote": "WhatsApp ist am schnellsten für Zeichnungen und Fotos.",
+    "response": "Antwortzeit",
+    "responseTime": "Innerhalb von 24 Stunden an Werktagen",
+    "formTitle": "Angebot anfragen",
+    "formSubtitle": "Fünf Angaben genügen: Größe, Norm, Werkstoff und Oberfläche, Menge, Bestimmungshafen.",
+    "factoryInfo": "Werk und Versand",
+    "officeAddress": "Werksadresse",
+    "shipping": "Seefracht",
+    "shippingNote": "FOB Qingdao / Tianjin; CIF Beira, Durban oder Mombasa auf Anfrage."
+  },
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "Ihr Name",
+    "email": "E-Mail",
+    "phone": "Telefon / WhatsApp",
+    "company": "Firma",
+    "companyPlaceholder": "Firmenname",
+    "products": "Produkte und Größen",
+    "productsPlaceholder": "z. B. IBR-Dachnägel 75 mm, 20 t",
+    "message": "Nachricht",
+    "messagePlaceholder": "Norm, Werkstoff, Oberfläche, Menge, Bestimmungshafen",
+    "submit": "Anfrage senden"
   }
 }

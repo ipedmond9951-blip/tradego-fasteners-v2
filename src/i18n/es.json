@@ -24,7 +24,8 @@
     "faq": "FAQ",
     "steelMarket": "Steel Market Data",
     "about": "Nosotros",
-    "contact": "Cotización"
+    "contact": "Cotización",
+    "industry": "Guías sectoriales"
   },
   "products": {
     "title": "Nuestros Productos",
@@ -38,7 +39,8 @@
     "lead": "Plazo de entrega",
     "samples": "Muestras gratis",
     "custom": "Personalizable",
-    "piece": "/pieza"
+    "piece": "/pieza",
+    "allProducts": "Todos los productos"
   },
   "steelMarket": "Steel Market Data",
   "about": {
@@ -56,7 +58,33 @@
     "quality": "Control de calidad",
     "qualityAlt": "Laboratorio de pruebas de calidad",
     "logistics": "Logística global",
-    "logisticsAlt": "Envío mundial en contenedores"
+    "logisticsAlt": "Envío mundial en contenedores",
+    "subtitle": "Fabricante chino de sujetadores para África: certificado ISO 9001 y SABS, más de 12 años exportando.",
+    "ourStory": "Nuestra historia",
+    "storyP1": "TradeGo Fasteners es un fabricante y exportador de sujeción con planta en Weifang, Shandong (China). Producimos tornillos, pernos, tuercas, arandelas, anclajes y clavos de cubierta para obra, solar e industria.",
+    "storyP2": "Nuestro foco exportador es África: Sudáfrica, Zimbabue, Mozambique, Kenia, Tanzania, Nigeria y más de 20 mercados, atendidos por distribuidores, contratistas y mayoristas de ferretería.",
+    "storyP3": "Cada pedido se cotiza contra una norma concreta (DIN, ISO, ANSI/ASME, SABS o GB), se embala para flete marítimo y se despacha con certificados de colada para que el despacho aduanero no dé sorpresas.",
+    "yearsExp": "Años exportando a África",
+    "clients": "Clientes atendidos",
+    "countries": "Mercados africanos",
+    "containers": "Contenedores al año",
+    "certifications": "Planta y certificaciones",
+    "isoDesc": "Sistema de gestión de la calidad certificado ISO 9001:2015 y auditado cada año.",
+    "sabsDesc": "Clavos de cubierta y líneas relacionadas ensayados según los requisitos SABS para proyectos en Sudáfrica y Zimbabue.",
+    "ceDesc": "Documentación de marcado CE para compradores europeos; cotizamos normas EN a petición.",
+    "whyUs": "Por qué los compradores trabajan con nosotros",
+    "w1Title": "Precio directo de fábrica",
+    "w1Desc": "Se compra en la planta de Weifang, Shandong, sin margen de intermediario; MOQ acordado por medida.",
+    "w2Title": "Embalaje y carga de contenedor",
+    "w2Desc": "Cajas sobre palés, sacos de 25 kg para clavos, medidas mixtas en un 20GP con plan de carga.",
+    "w3Title": "Inspección antes del embarque",
+    "w3Desc": "Control dimensional, de rosca y de recubrimiento por lote; inspección SGS o BV a petición.",
+    "w4Title": "Flete marítimo a África",
+    "w4Desc": "FOB Qingdao / Tianjin, CIF Beira, Durban o Mombasa; documentos con certificados de colada y certificado de origen.",
+    "ctaTitle": "¿Necesita precio para una medida concreta?",
+    "ctaDesc": "Envíe medida, norma, material y cantidad: respondemos precio, MOQ, embalaje y plazo el mismo día hábil.",
+    "getQuote": "Pedir cotización",
+    "viewProducts": "Ver productos"
   },
   "why": {
     "title": "¿Por qué elegir TradeGo?",
@@ -119,7 +147,8 @@
     "contactUs": "Contáctenos",
     "rights": "Todos los derechos reservados.",
     "address": "China continental",
-    "email": "info@tradego-fasteners.com"
+    "email": "info@tradego-fasteners.com",
+    "certifications": "Certificaciones"
   },
   "geo": {
     "usPromo": "Envío gratis en pedidos mayores a $500",
@@ -127,7 +156,11 @@
     "zaPromo": "Descuento por volumen para África — hasta 15%",
     "zaShipping": "Envío marítimo a Durban, 25-30 días",
     "mePromo": "Precios especiales para Medio Oriente",
-    "meShipping": "Envío marítimo a Jebel Ali, 18-22 días"
+    "meShipping": "Envío marítimo a Jebel Ali, 18-22 días",
+    "default": {
+      "promotion": "Precio directo de fábrica en Weifang, Shandong",
+      "shipping": "Flete marítimo a Durban, Beira y Mombasa"
+    }
   },
   "common": {
     "applications": "Aplicaciones"
@@ -198,5 +231,32 @@
     "error": "Error al Cargar Precios del Acero",
     "loadFailed": "Error al cargar precios del acero",
     "localMarket": "Enfoque del Mercado Local"
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Pedidos de sujeción al por mayor: envíe medidas y cantidades, respondemos en 24 horas.",
+    "email": "Correo",
+    "whatsappNote": "WhatsApp es lo más rápido para planos y fotos.",
+    "response": "Tiempo de respuesta",
+    "responseTime": "En 24 horas en días laborables",
+    "formTitle": "Solicitar cotización",
+    "formSubtitle": "Cinco datos bastan: medida, norma, material y acabado, cantidad, puerto de destino.",
+    "factoryInfo": "Planta y envío",
+    "officeAddress": "Dirección de planta",
+    "shipping": "Flete marítimo",
+    "shippingNote": "FOB Qingdao / Tianjin; CIF Beira, Durban o Mombasa a petición."
+  },
+  "form": {
+    "name": "Nombre",
+    "namePlaceholder": "Su nombre",
+    "email": "Correo electrónico",
+    "phone": "Teléfono / WhatsApp",
+    "company": "Empresa",
+    "companyPlaceholder": "Nombre de la empresa",
+    "products": "Productos y medidas",
+    "productsPlaceholder": "p. ej. clavos IBR 75 mm, 20 t",
+    "message": "Mensaje",
+    "messagePlaceholder": "Norma, material, acabado, cantidad, puerto de destino",
+    "submit": "Enviar consulta"
   }
 }

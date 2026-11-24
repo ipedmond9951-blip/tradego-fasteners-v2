@@ -66,7 +66,33 @@
     "quality": "Quality Testing",
     "qualityAlt": "Quality testing laboratory",
     "logistics": "Africa Shipping",
-    "logisticsAlt": "Container shipping to Africa ports"
+    "logisticsAlt": "Container shipping to Africa ports",
+    "subtitle": "China fastener manufacturer for Africa — ISO 9001 and SABS certified, 12+ years of export experience.",
+    "ourStory": "Our story",
+    "storyP1": "TradeGo Fasteners is a fastener manufacturer and exporter with a factory in Weifang, Shandong, China. We produce screws, bolts, nuts, washers, anchors and roofing nails for construction, solar and industrial buyers.",
+    "storyP2": "Our export focus is Africa: South Africa, Zimbabwe, Mozambique, Kenya, Tanzania, Nigeria and 20+ markets, supplied through distributors, contractors and hardware wholesalers.",
+    "storyP3": "Every order is quoted against a named standard (DIN, ISO, ANSI/ASME, SABS or GB), packed for sea freight, and shipped with mill certificates so clearance holds no surprises.",
+    "yearsExp": "Years exporting to Africa",
+    "clients": "Clients served",
+    "countries": "African markets",
+    "containers": "Containers a year",
+    "certifications": "Factory and certifications",
+    "isoDesc": "Quality management system certified to ISO 9001:2015 and audited every year.",
+    "sabsDesc": "Roofing nails and related lines tested against SABS requirements for South African and Zimbabwean projects.",
+    "ceDesc": "CE marking documentation supplied for European buyers; EN standards quoted on request.",
+    "whyUs": "Why buyers work with us",
+    "w1Title": "Factory-direct pricing",
+    "w1Desc": "Bought from our plant in Weifang, Shandong, with no trading markup; MOQ agreed per size.",
+    "w2Title": "Packing and container loading",
+    "w2Desc": "Cartons on pallets, 25 kg bags for nails, mixed sizes in one 20GP with a loading plan.",
+    "w3Title": "Inspection before shipment",
+    "w3Desc": "Dimensional, thread and coating checks on every lot; SGS or BV pre-shipment inspection on request.",
+    "w4Title": "Sea freight to Africa",
+    "w4Desc": "FOB Qingdao / Tianjin, CIF Beira, Durban or Mombasa; documents include mill certificates and certificate of origin.",
+    "ctaTitle": "Need a price on a specific size?",
+    "ctaDesc": "Send size, standard, material and quantity — we reply with price, MOQ, packing and lead time the same working day.",
+    "getQuote": "Get a quote",
+    "viewProducts": "View products"
   },
   "why": {
     "title": "Why TradeGo is Africa's Preferred Fastener Supplier",
@@ -135,7 +161,7 @@
     "rights": "All rights reserved.",
     "address": "China Mainland",
     "email": "info@tradego-fasteners.com",
-    "certifications": "Certifications & Standards"
+    "certifications": "Certifications"
   },
   "geo": {
     "usPromo": "Free shipping on orders over $500",
@@ -143,7 +169,11 @@
     "zaPromo": "Bulk discount for Africa market — up to 15% off",
     "zaShipping": "Sea freight to Durban, 25-30 days",
     "mePromo": "Special pricing for Middle East market",
-    "meShipping": "Sea freight to Jebel Ali, 18-22 days"
+    "meShipping": "Sea freight to Jebel Ali, 18-22 days",
+    "default": {
+      "promotion": "Factory-direct pricing from Weifang, Shandong",
+      "shipping": "Sea freight to Durban, Beira and Mombasa"
+    }
   },
   "industry": {
     "title": "Africa Fastener Industry Insights",
@@ -214,5 +244,32 @@
     "error": "Error Loading Steel Prices",
     "loadFailed": "Failed to load steel prices",
     "localMarket": "Local Market Focus"
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "Bulk fastener orders — send the sizes and quantities, we reply within 24 hours.",
+    "email": "Email",
+    "whatsappNote": "WhatsApp is fastest for drawings and photos.",
+    "response": "Response time",
+    "responseTime": "Within 24 hours on working days",
+    "formTitle": "Request a quotation",
+    "formSubtitle": "Five details are enough: size, standard, material and finish, quantity, destination port.",
+    "factoryInfo": "Factory and shipping",
+    "officeAddress": "Factory address",
+    "shipping": "Sea freight",
+    "shippingNote": "FOB Qingdao / Tianjin; CIF Beira, Durban or Mombasa on request."
+  },
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "phone": "Phone / WhatsApp",
+    "company": "Company",
+    "companyPlaceholder": "Company name",
+    "products": "Products and sizes",
+    "productsPlaceholder": "e.g. IBR roofing nails 75 mm, 20 t",
+    "message": "Message",
+    "messagePlaceholder": "Standard, material, finish, quantity, destination port",
+    "submit": "Send inquiry"
   }
 }
