@@ -1,7 +1,7 @@
 'use client'
 
 import { type Locale } from '@/i18n'
-import { pick, sourcesTitle } from '@/lib/uiCopy'
+import { pick, sourcesCopy, sourcesTitle } from '@/lib/uiCopy'
 
 interface Source {
   name: string
@@ -57,9 +57,7 @@ export default function SourcesSection({ locale = 'en' }: SourcesSectionProps) {
             {pick(sourcesTitle, locale)}
           </h2>
           <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto">
-            {isZh 
-              ? '我们的产品质量符合以下国际和地区标准'
-              : 'Our product quality complies with the following international and regional standards'}
+            {pick(sourcesCopy.intro, locale)}
           </p>
         </div>
         
@@ -88,7 +86,7 @@ export default function SourcesSection({ locale = 'en' }: SourcesSectionProps) {
                 </div>
               </div>
               <div className="mt-3 flex items-center text-xs text-primary-600 opacity-0 group-hover:opacity-100 transition-opacity">
-                <span>{isZh ? '访问官网' : 'Visit Website'}</span>
+                <span>{pick(sourcesCopy.visit, locale)}</span>
                 <svg className="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
@@ -99,9 +97,7 @@ export default function SourcesSection({ locale = 'en' }: SourcesSectionProps) {
         
         <div className="mt-10 text-center">
           <p className="text-xs text-gray-500">
-            {isZh 
-              ? '所有统计数据基于内部业务记录和客户反馈调查 (2024)'
-              : 'All statistics based on internal business records and customer feedback surveys (2024)'}
+            {pick(sourcesCopy.note, locale)}
           </p>
         </div>
       </div>

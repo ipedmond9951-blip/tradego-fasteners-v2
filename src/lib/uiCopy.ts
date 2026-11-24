@@ -438,3 +438,47 @@ export const eventSchemaCopy = {
     'फास्टनर, निर्माण, दक्षिण अफ्रीका, प्रदर्शनी, IBR कील, ड्राईवॉल स्क्रू',
   ),
 }
+
+export const sourcesCopy = {
+  intro: L10(
+    'Our product quality complies with the following international and regional standards',
+    '我们的产品质量符合以下国际和地区标准',
+    'Nuestra calidad cumple las siguientes normas internacionales y regionales',
+    'La qualité de nos produits est conforme aux normes internationales et régionales suivantes',
+    'A qualidade dos nossos produtos atende às seguintes normas internacionais e regionais',
+    'تتوافق جودة منتجاتنا مع المعايير الدولية والإقليمية التالية',
+    'Качество нашей продукции соответствует следующим международным и региональным стандартам',
+    '当社製品の品質は以下の国際・地域規格に適合しています',
+    'Die Qualität unserer Produkte entspricht den folgenden internationalen und regionalen Normen',
+    'हमारे उत्पादों की गुणवत्ता निम्नलिखित अंतरराष्ट्रीय और क्षेत्रीय मानकों के अनुरूप है',
+  ),
+  visit: L10(
+    'Visit Website', '访问官网', 'Visitar sitio web', 'Visiter le site web', 'Visitar site',
+    'زيارة الموقع', 'На сайт', '公式サイトを見る', 'Website besuchen', 'वेबसाइट देखें',
+  ),
+  note: L10(
+    'All statistics based on internal business records and customer feedback surveys (2024)',
+    '所有统计数据基于内部业务记录和客户反馈调查（2024）',
+    'Todas las estadísticas se basan en registros internos y encuestas de satisfacción de clientes (2024)',
+    'Toutes les statistiques reposent sur nos registres internes et des enquêtes de satisfaction client (2024)',
+    'Todas as estatísticas baseiam-se em registros internos e pesquisas de satisfação de clientes (2024)',
+    'كل الإحصاءات مستندة إلى السجلات الداخلية واستبيانات رضا العملاء (2024)',
+    'Все статистические данные основаны на внутренних записях и опросах клиентов (2024)',
+    'すべての統計は社内記録と顧客満足度調査（2024年）に基づきます',
+    'Alle Angaben basieren auf internen Geschäftsunterlagen und Kundenumfragen (2024)',
+    'सभी आँकड़े आंतरिक व्यावसायिक रिकॉर्ड और ग्राहक संतोष सर्वेक्षण (2024) पर आधारित हैं',
+  ),
+}
+
+export const chatFallback = L10(
+  'Thanks for your inquiry! Please leave your contact info and our sales team will reach out shortly. You can also email us at aimingtrade@hotmail.com or WhatsApp: +86-159-6340-9951',
+  '感谢您的咨询！请留下您的联系方式，我们的销售团队会尽快联系您。您也可以直接发邮件至 aimingtrade@hotmail.com 或 WhatsApp: +86-159-6340-9951',
+  '¡Gracias por su consulta! Déjenos sus datos de contacto y nuestro equipo comercial se pondrá en contacto en breve. También puede escribirnos a aimingtrade@hotmail.com o WhatsApp: +86-159-6340-9951',
+  "Merci pour votre demande ! Laissez-nous vos coordonnées, notre équipe commerciale vous répondra rapidement. Vous pouvez aussi nous écrire à aimingtrade@hotmail.com ou sur WhatsApp : +86-159-6340-9951",
+  'Obrigado pelo seu contato! Deixe seus dados e nossa equipe comercial retornará em breve. Você também pode escrever para aimingtrade@hotmail.com ou WhatsApp: +86-159-6340-9951',
+  'شكراً لاستفسارك! اترك بيانات الاتصال وسيتواصل معك فريق المبيعات قريباً. يمكنك أيضاً مراسلتنا على aimingtrade@hotmail.com أو واتساب: +86-159-6340-9951',
+  'Спасибо за запрос! Оставьте контакты, и наш отдел продаж свяжется с вами в ближайшее время. Также можно написать на aimingtrade@hotmail.com или WhatsApp: +86-159-6340-9951',
+  'お問い合わせありがとうございます。ご連絡先をお知らせください。営業チームより折り返しご連絡します。aimingtrade@hotmail.com または WhatsApp（+86-159-6340-9951）でも承ります。',
+  'Vielen Dank für Ihre Anfrage! Hinterlassen Sie Ihre Kontaktdaten, unser Vertrieb meldet sich kurzfristig. Sie erreichen uns auch unter aimingtrade@hotmail.com oder WhatsApp: +86-159-6340-9951',
+  'आपकी पूछताछ के लिए धन्यवाद! अपना संपर्क विवरण छोड़ें, हमारी बिक्री टीम शीघ्र संपर्क करेगी। आप aimingtrade@hotmail.com या WhatsApp: +86-159-6340-9951 पर भी लिख सकते हैं',
+)

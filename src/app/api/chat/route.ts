@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { chatFallback, pick } from '@/lib/uiCopy'
 
 // Simple knowledge base for chat responses
 const knowledgeBase: Record<string, string[]> = {
@@ -70,9 +71,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Default fallback
-    const fallback = locale === 'zh'
-      ? '感谢您的咨询！请留下您的联系方式，我们的销售团队会尽快联系您。您也可以直接发邮件至 aimingtrade@hotmail.com 或 WhatsApp: +86-159-6340-9951'
-      : 'Thanks for your inquiry! Please leave your contact info and our sales team will reach out shortly. You can also email us at aimingtrade@hotmail.com or WhatsApp: +86-159-6340-9951';
+    const fallback = pick(chatFallback, locale);
 
     return NextResponse.json({ response: fallback });
     
