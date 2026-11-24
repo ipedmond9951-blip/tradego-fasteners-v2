@@ -54,7 +54,7 @@ export default function EventSchema({
     keywords: locale === 'zh'
       ? '紧固件,建筑,南非,展会,IBR钉,干墙螺丝'
       : 'fasteners, construction, South Africa, trade show, IBR nails, drywall screws',
-    inLanguage: locale === 'zh' ? 'zh-CN' : 'en',
+    inLanguage: locale === 'zh' ? 'zh-CN' : locale,
     isPartOf: {
       '@type': 'WebSite',
       '@id': 'https://www.tradego-fasteners.com/#website',

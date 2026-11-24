@@ -6,6 +6,7 @@ import { allProducts } from '@/lib/products'
 import { productNames, productDescriptions, pick } from '@/lib/productI18n'
 import { productGuides } from '@/lib/productGuides'
 import { productCategories, featuredSlugs } from '@/lib/productCategories'
+import { productGridCopy } from '@/lib/uiCopy'
 
 interface ProductGridProps { locale?: Locale }
 
@@ -56,11 +57,11 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
           <div className="space-y-1.5 text-xs md:text-sm mt-auto">
             <div className="flex justify-between gap-2"><span className="text-gray-500 shrink-0">{t(locale, 'products.specification')}:</span><span className="font-medium text-right truncate" title={product.specs.size}>{product.specs.size}</span></div>
             <div className="flex justify-between gap-2"><span className="text-gray-500 shrink-0">{t(locale, 'products.standard')}:</span><span className="font-medium text-right truncate">{product.specs.standard}</span></div>
-            <div className="flex justify-between gap-2"><span className="text-gray-500 shrink-0">{t(locale, 'products.moq')}:</span><span className="font-medium">{product.minOrder || (locale === 'zh' ? '1 吨' : '1 ton')}</span></div>
+            <div className="flex justify-between gap-2"><span className="text-gray-500 shrink-0">{t(locale, 'products.moq')}:</span><span className="font-medium">{product.minOrder || pick(productGridCopy.moqTon, locale)}</span></div>
           </div>
 
           <div className="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between gap-2">
-            <span className="text-gray-500 text-xs md:text-sm">{locale === 'zh' ? '工厂直供 · 按需报价' : 'Quote on request'}</span>
+            <span className="text-gray-500 text-xs md:text-sm">{pick(productGridCopy.quoteNote, locale)}</span>
             <a href={`/${locale}#inquiry`} className="bg-primary-700 text-white px-3 md:px-4 py-1.5 md:py-2 rounded-lg text-xs md:text-sm font-semibold hover:bg-primary-800 transition-colors whitespace-nowrap">
               {t(locale, 'products.inquiry')}
             </a>
@@ -132,7 +133,7 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
 
         <div className="mt-12 flex justify-center">
           <a href={`/${locale}/products`} className="inline-flex items-center gap-2 border border-primary-700 text-primary-700 px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-primary-700 hover:text-white transition-colors">
-            {locale === 'zh' ? '查看全部产品' : 'View all products'} →
+            {pick(productGridCopy.viewAll, locale)} →
           </a>
         </div>
       </div>

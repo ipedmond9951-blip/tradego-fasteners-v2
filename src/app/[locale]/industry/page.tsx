@@ -5,6 +5,7 @@ import { getAllArticles } from '@/lib/articles'
 import type { Metadata } from 'next'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { optImagePath } from '@/lib/optImages'
+import { industryListCopy, pick } from '@/lib/uiCopy'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: localeParam } = await params
@@ -135,7 +136,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
           {/* 全量文章通过分类页可达，避免聚合页承载 266 篇 HTML */}
           <div className="mt-12 bg-white rounded-xl border border-gray-100 p-6">
             <h2 className="text-lg font-bold text-gray-900 mb-4">
-              {locale === 'zh' ? '按主题浏览全部指南' : 'Browse all guides by topic'}
+              {pick(industryListCopy.browse, locale)}
             </h2>
             <div className="flex flex-wrap gap-2">
               {categories.filter(c => c !== 'All').map((cat) => (
@@ -149,9 +150,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
               ))}
             </div>
             <p className="text-sm text-gray-500 mt-4">
-              {locale === 'zh'
-                ? `共 ${articles.length} 篇指南，当前显示最新 ${previewArticles.length} 篇。`
-                : `Showing the ${previewArticles.length} most recent of ${articles.length} guides.`}
+              {pick(industryListCopy.count, locale)(articles.length, previewArticles.length)}
             </p>
           </div>
         </div>

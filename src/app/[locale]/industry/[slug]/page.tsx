@@ -8,6 +8,7 @@ import type { ArticleSection } from '@/lib/articles'
 import ShareButtons from '@/components/ShareButtons'
 import { clampDescription } from '@/lib/seo'
 import { optImagePath } from '@/lib/optImages'
+import { backToArticles, pick } from '@/lib/uiCopy'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
@@ -225,7 +226,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
         </div>
         <div className="container mx-auto px-4 sm:px-6 relative z-10 max-w-3xl">
           <Link href={`/${locale}/industry`} className="inline-flex items-center gap-1 text-primary-200 hover:text-white text-sm mb-6 transition-colors">
-            ← {locale === 'zh' ? '返回文章列表' : 'Back to articles'}
+            ← {pick(backToArticles, locale)}
           </Link>
           <span className="inline-block bg-primary-500 text-white text-xs font-semibold px-3 py-1 rounded-full mb-4">{article.category}</span>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">{title}</h1>

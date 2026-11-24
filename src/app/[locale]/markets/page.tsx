@@ -49,20 +49,71 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   }
 }
 
+const mkCopy = {
+  en: {
+    h1: 'Export markets and routes',
+    intro: 'Each market page sets out the port and inland leg, the documents needed, the local standards buyers ask for, and the lines that actually move. Pick the country first, then the goods.',
+    cta: 'Ports and documents →',
+  },
+  zh: {
+    h1: '出口市场与物流',
+    intro: '每个市场页写清港口与内陆段、清关单证、当地常用标准，以及这个市场真正下单的品类。先选国家，再看货。',
+    cta: '查看港口与单证 →',
+  },
+  es: {
+    h1: 'Mercados de exportación y rutas',
+    intro: 'Cada página de mercado detalla el puerto y el tramo interior, los documentos necesarios, las normas locales que piden los compradores y las líneas que realmente se mueven. Elija primero el país y luego la mercancía.',
+    cta: 'Puertos y documentos →',
+  },
+  fr: {
+    h1: "Marchés d'exportation et itinéraires",
+    intro: "Chaque page marché précise le port et le tronçon intérieur, les documents requis, les normes locales demandées et les gammes qui bougent vraiment. Choisissez d'abord le pays, puis la marchandise.",
+    cta: 'Ports et documents →',
+  },
+  pt: {
+    h1: 'Mercados de exportação e rotas',
+    intro: 'Cada página de mercado detalha o porto e o trecho interno, os documentos exigidos, as normas locais pedidas pelos compradores e as linhas que realmente movimentam. Escolha primeiro o país, depois a mercadoria.',
+    cta: 'Portos e documentos →',
+  },
+  ar: {
+    h1: 'أسواق التصدير والمسارات',
+    intro: 'كل صفحة سوق توضح الميناء والمقطع الداخلي والمستندات المطلوبة والمعايير المحلية التي يسأل عنها المشترون والخطوط التي تتحرك فعلاً. اختر البلد أولاً ثم البضاعة.',
+    cta: 'الموانئ والمستندات →',
+  },
+  ru: {
+    h1: 'Экспортные рынки и маршруты',
+    intro: 'На каждой странице рынка указаны порт и внутренний участок, необходимые документы, местные стандарты, о которых спрашивает покупатель, и позиции, которые реально уходят. Сначала страна, потом товар.',
+    cta: 'Порты и документы →',
+  },
+  ja: {
+    h1: '輸出市場と物流ルート',
+    intro: '各市場ページには港と内陸区間、必要書類、現地で求められる規格、実際に動く品目を記載しています。まず国を選び、次に商品を選んでください。',
+    cta: '港と書類を見る →',
+  },
+  de: {
+    h1: 'Exportmärkte und Routen',
+    intro: 'Jede Marktseite nennt Hafen und Inlandsstrecke, die nötigen Dokumente, die vor Ort gefragten Normen und die Linien, die tatsächlich laufen. Erst das Land, dann die Ware.',
+    cta: 'Häfen und Dokumente →',
+  },
+  hi: {
+    h1: 'निर्यात बाज़ार और मार्ग',
+    intro: 'हर बाज़ार पृष्ठ में बंदरगाह और अंतर्देशीय हिस्सा, आवश्यक दस्तावेज़, स्थानीय मानक और वे श्रेणियाँ जो वास्तव में चलती हैं। पहले देश चुनें, फिर माल।',
+    cta: 'बंदरगाह और दस्तावेज़ →',
+  },
+} as const
+
 export default async function MarketsIndexPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: lp } = await params
   const locale = (lp as Locale) || 'en'
-  const zh = locale === 'zh'
+  const mc = (mkCopy as unknown as Record<string, typeof mkCopy.en>)[locale] ?? mkCopy.en
 
   return (
     <div className="min-h-screen bg-white">
       <section className="bg-gradient-to-br from-primary-800 to-primary-900 text-white py-12 md:py-16">
         <div className="container mx-auto px-4 sm:px-6">
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">{zh ? '出口市场与物流' : 'Export markets and routes'}</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-3">{mc.h1}</h1>
           <p className="text-primary-100 max-w-3xl leading-relaxed">
-            {zh
-              ? '每个市场页写清港口与内陆段、清关单证、当地常用标准，以及这个市场真正下单的品类。先选国家，再看货。'
-              : 'Each market page sets out the port and inland leg, the documents needed, the local standards buyers ask for, and the lines that actually move. Pick the country first, then the goods.'}
+            {mc.intro}
           </p>
         </div>
       </section>
@@ -75,7 +126,7 @@ export default async function MarketsIndexPage({ params }: { params: Promise<{ l
             <Link key={m.slug} href={href} className="group bg-white border border-gray-200 rounded-xl p-5 hover:border-primary-500 hover:shadow-md transition">
               <h2 className="text-lg font-bold text-primary-900 group-hover:text-primary-700 mb-2">{country}</h2>
               <p className="text-sm text-gray-600 leading-relaxed line-clamp-3">{m.hero[locale] || m.hero.en}</p>
-              <p className="text-xs text-primary-700 font-medium mt-3">{zh ? '查看港口与单证 →' : 'Ports and documents →'}</p>
+              <p className="text-xs text-primary-700 font-medium mt-3">{mc.cta}</p>
             </Link>
           )
         })}

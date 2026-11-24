@@ -109,7 +109,7 @@ export default function ImageObjectSchema({ locale }: ImageObjectSchemaProps) {
           name: 'TradeGo Fasteners',
         },
         datePublished: currentDate,
-        inLanguage: locale === 'zh' ? 'zh' : 'en',
+        inLanguage: locale === 'zh' ? 'zh' : locale,
       })),
     ],
   }

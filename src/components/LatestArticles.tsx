@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { getAllArticles, type Article } from '@/lib/articles'
 import { type Locale } from '@/i18n'
 import { optImagePath } from '@/lib/optImages'
+import { latestArticlesCopy, pick } from '@/lib/uiCopy'
 
 interface LatestArticlesProps {
   locale: Locale
@@ -12,12 +13,10 @@ interface LatestArticlesProps {
 export default function LatestArticles({ locale, limit = 6 }: LatestArticlesProps) {
   const articles = getAllArticles().slice(0, limit)
 
-  const sectionTitle = locale === 'zh' ? '非洲紧固件行业洞察' : 'Africa Fastener Industry Insights'
-  const sectionSubtitle = locale === 'zh'
-    ? '深度分析非洲各国基建、矿业、能源项目的紧固件采购趋势与技术标准'
-    : 'Deep analysis of fastener procurement trends and technical standards for African infrastructure, mining, and energy projects'
-  const readMore = locale === 'zh' ? '阅读全文 →' : 'Read article →'
-  const viewAll = locale === 'zh' ? '查看全部文章' : 'View all articles'
+  const sectionTitle = pick(latestArticlesCopy.title, locale)
+  const sectionSubtitle = pick(latestArticlesCopy.subtitle, locale)
+  const readMore = pick(latestArticlesCopy.readMore, locale)
+  const viewAll = pick(latestArticlesCopy.viewAll, locale)
 
   return (
     <section className="py-12 md:py-16 bg-white">

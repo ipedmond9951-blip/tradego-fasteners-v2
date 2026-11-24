@@ -14,6 +14,7 @@ import ShareButtons from '@/components/ShareButtons'
 import VideoSection from '@/components/VideoSection'
 import StatisticsSection from '@/components/StatisticsSection'
 import SourcesSection from '@/components/SourcesSection'
+import { pick, shareCopy } from '@/lib/uiCopy'
 
 // 2026-07-16 23:30 GSC 修复: 首页加 canonical + 10-lang hreflang
 export function generateMetadata(): Metadata {
@@ -112,8 +113,8 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
         <div className="max-w-3xl mx-auto py-4">
           <ShareButtons 
             url={`https://www.tradego-fasteners.com/${locale}`}
-            title={locale === 'zh' ? 'TradeGo紧固件 - 专业制造商' : 'TradeGo Fasteners - Professional Manufacturer'}
-            description={locale === 'zh' ? 'ISO 9001认证紧固件批发商，专业生产干墙螺丝、自钻螺丝、螺栓螺母等' : 'ISO 9001 certified wholesale fastener manufacturer'}
+            title={pick(shareCopy.title, locale)}
+            description={pick(shareCopy.desc, locale)}
           />
         </div>
       </div>

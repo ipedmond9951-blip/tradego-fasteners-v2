@@ -18,7 +18,7 @@ export default function WebSiteSchema({ locale }: WebSiteSchemaProps) {
     keywords: locale === 'zh'
       ? '干墙螺丝,IBR钉,紧固件,中国制造商,非洲,建筑,批发'
       : 'drywall screws, IBR nails, fastener, China manufacturer, Africa, construction, wholesale',
-    inLanguage: locale === 'zh' ? 'zh' : 'en',
+    inLanguage: locale === 'zh' ? 'zh' : locale,
     isAccessibleForFree: true,
     about: {
       '@type': 'Thing',
