@@ -8,7 +8,8 @@ import type { ArticleSection } from '@/lib/articles'
 import ShareButtons from '@/components/ShareButtons'
 import { clampDescription } from '@/lib/seo'
 import { optImagePath } from '@/lib/optImages'
-import { backToArticles, pick } from '@/lib/uiCopy'
+import { backToArticles, pick, articleCta } from '@/lib/uiCopy'
+import { productNames } from '@/lib/productI18n'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
@@ -173,8 +174,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
 
   const title = localizedText(article.title, locale)
   const desc = localizedText(article.description, locale)
-  const ctaText = localizedText(article.cta?.text, locale)
-  const ctaBtn = localizedText(article.cta?.buttonText, locale)
+  // CTA 必须有该语种原生文案：文章 JSON 只有 en/zh 时回落本地化通用文案，
+  // 不能让西语/法语页出现英文 CTA（2026-11-24 修）
+  const ctaTextMap = article.cta?.text as Record<string, string> | undefined
+  const ctaBtnMap = article.cta?.buttonText as Record<string, string> | undefined
+  const ctaText = ctaTextMap?.[locale] || pick(articleCta.text, locale)
+  const ctaBtn = ctaBtnMap?.[locale] || pick(articleCta.button, locale)
+  // 文章 cta.link 历史上写成 /en/products/xxx，拼上 locale 会变成 /es/en/products/xxx（双语种死链）
+  const ctaHref = `/${locale}${(article.cta?.link || '/contact').replace(/^\/en(?=\/|$)/, '')}/`
 
   // JSON-LD FAQ Schema
   const faqItems = article.sections
@@ -232,7 +239,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">{title}</h1>
           <div className="flex items-center gap-4 text-sm text-primary-200">
             <span>{article.date}</span>
-            <span>· ~{isThinArticle(article) ? 1 : article.readTime} min read</span>
+            <span>· ~{isThinArticle(article) ? 1 : article.readTime} {t(locale, 'industry.minRead')}</span>
           </div>
         </div>
       </section>
@@ -253,7 +260,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
         {/* CTA */}
         <div className="mt-12 bg-primary-50 rounded-xl p-6 md:p-8 text-center">
           <p className="text-lg font-medium text-gray-900 mb-4">{ctaText}</p>
-          <Link href={`/${locale}${article.cta?.link || '/contact'}/`} className="inline-block bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors">
+          <Link href={ctaHref} className="inline-block bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors">
             {ctaBtn}
           </Link>
         </div>
@@ -266,9 +273,10 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
               {article.relatedProducts.map((p, i: number) => {
                 const slug = typeof p === 'string' ? p : p.slug
                 const label = typeof p === 'string' ? p : (p.title || p.slug)
-                const display = humanizeSlug(label)
+                // 关联产品名优先取产品目录的十语名，避免西语/阿语页出现英文产品名
+                const display = productNames[slug]?.[locale] || humanizeSlug(label)
                 return (
-                  <Link key={typeof p === 'string' ? p : `${slug}-${i}`} href={`/${locale}/products/`} className="px-4 py-2 bg-gray-100 rounded-lg text-sm text-gray-700 hover:bg-primary-100 hover:text-primary-700 transition-colors">
+                  <Link key={typeof p === 'string' ? p : `${slug}-${i}`} href={`/${locale}/products/${slug}/`} className="px-4 py-2 bg-gray-100 rounded-lg text-sm text-gray-700 hover:bg-primary-100 hover:text-primary-700 transition-colors">
                     {display}
                   </Link>
                 )
