@@ -1,4 +1,5 @@
 import { type Locale } from '@/i18n'
+import { articleSchemaCopy, pick } from '@/lib/uiCopy'
 
 interface ArticleSchemaProps {
   locale?: Locale
@@ -42,10 +43,8 @@ export default function ArticleSchema({
       '@type': 'WebPage',
       '@id': url ? `https://www.tradego-fasteners.com${url}` : undefined,
     },
-    articleSection: locale === 'zh' ? '紧固件知识' : 'Fastener Knowledge',
-    keywords: locale === 'zh'
-      ? '紧固件,干墙螺丝,自钻螺丝,螺栓,螺母,IBR钉,建筑,批发'
-      : 'fasteners,drywall screws,self-drilling screws,bolts,nuts,IBR nails,construction,wholesale',
+    articleSection: pick(articleSchemaCopy.section, locale),
+    keywords: pick(articleSchemaCopy.keywords, locale),
     wordCount: description.split(' ').length * 10, // Estimate
     inLanguage: locale === 'zh' ? 'zh-CN' : locale,
     isPartOf: {

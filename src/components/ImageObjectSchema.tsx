@@ -1,4 +1,5 @@
 import { type Locale } from '@/i18n'
+import { imageSchemaCopy, pick } from '@/lib/uiCopy'
 
 interface ImageObjectSchemaProps {
   locale: Locale
@@ -58,7 +59,7 @@ export default function ImageObjectSchema({ locale }: ImageObjectSchemaProps) {
         url: `${siteUrl}/images/logo.png`,
         width: 512,
         height: 512,
-        caption: locale === 'zh' ? 'TradeGo紧固件标志' : 'TradeGo Fasteners Logo',
+        caption: pick(imageSchemaCopy.logoCaption, locale),
         contentUrl: `${siteUrl}/images/logo.png`,
         encodingFormat: 'image/png',
         publisher: {
@@ -75,9 +76,7 @@ export default function ImageObjectSchema({ locale }: ImageObjectSchemaProps) {
         caption: img.caption,
         contentUrl: `${siteUrl}${img.url}`,
         encodingFormat: 'image/webp',
-        description: locale === 'zh' 
-          ? `高质量${img.caption}，ISO 9001和SABS认证`
-          : `High-quality ${img.caption}, ISO 9001 and SABS certified`,
+        description: pick(imageSchemaCopy.productDesc, locale)(img.caption),
         creator: {
           '@type': 'Organization',
           '@id': `${siteUrl}/#organization`,
@@ -100,9 +99,7 @@ export default function ImageObjectSchema({ locale }: ImageObjectSchemaProps) {
         caption: img.caption,
         contentUrl: `${siteUrl}${img.url}`,
         encodingFormat: 'image/jpeg',
-        description: locale === 'zh'
-          ? `${img.caption} - TradeGo GEO文章配图`
-          : `${img.caption} - TradeGo GEO Article Image`,
+        description: pick(imageSchemaCopy.articleDesc, locale)(img.caption),
         creator: {
           '@type': 'Organization',
           '@id': `${siteUrl}/#organization`,

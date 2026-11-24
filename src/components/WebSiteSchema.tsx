@@ -1,4 +1,5 @@
 import { type Locale } from '@/i18n'
+import { pick, siteSchemaCopy } from '@/lib/uiCopy'
 
 interface WebSiteSchemaProps {
   locale: Locale
@@ -10,26 +11,20 @@ export default function WebSiteSchema({ locale }: WebSiteSchemaProps) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: locale === 'zh' ? 'TradeGo紧固件' : 'TradeGo Fasteners',
+    name: 'TradeGo Fasteners',
     url: siteUrl,
-    description: locale === 'zh' 
-      ? 'ISO 9001 & SABS认证中国紧固件制造商。20年非洲出口经验。干墙螺丝、IBR钉、建筑紧固件工厂价直销。'
-      : 'ISO 9001 & SABS certified China fastener manufacturer. 20+ years exporting to Africa. Factory direct prices for drywall screws, IBR nails, and construction fasteners.',
-    keywords: locale === 'zh'
-      ? '干墙螺丝,IBR钉,紧固件,中国制造商,非洲,建筑,批发'
-      : 'drywall screws, IBR nails, fastener, China manufacturer, Africa, construction, wholesale',
+    description: pick(siteSchemaCopy.description, locale),
+    keywords: pick(siteSchemaCopy.keywords, locale),
     inLanguage: locale === 'zh' ? 'zh' : locale,
     isAccessibleForFree: true,
     about: {
       '@type': 'Thing',
-      name: locale === 'zh' ? '紧固件' : 'Fasteners',
-      description: locale === 'zh'
-        ? '建筑紧固件，包括干墙螺丝、螺栓、螺母和专业屋顶钉'
-        : 'Construction fasteners including drywall screws, bolts, nuts, and specialized roofing nails',
+      name: pick(siteSchemaCopy.aboutName, locale),
+      description: pick(siteSchemaCopy.aboutDesc, locale),
     },
     audience: {
       '@type': 'Audience',
-      name: locale === 'zh' ? '非洲建筑专业人士' : 'Construction professionals in Africa',
+      name: pick(siteSchemaCopy.audienceName, locale),
       geographicArea: {
         '@type': 'Place',
         name: 'Africa',
@@ -45,7 +40,7 @@ export default function WebSiteSchema({ locale }: WebSiteSchemaProps) {
         urlTemplate: `${siteUrl}/${locale}/products?search={search_term_string}`,
       },
       'query-input': 'required name=search_term_string',
-      description: locale === 'zh' ? '搜索紧固件和建筑五金' : 'Search for fasteners and construction hardware',
+      description: pick(siteSchemaCopy.searchDesc, locale),
     },
     sameAs: [
       'https://www.facebook.com/tradegofasteners',

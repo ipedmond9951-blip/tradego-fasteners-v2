@@ -1,4 +1,5 @@
 import { type Locale } from '@/i18n'
+import { eventSchemaCopy, pick } from '@/lib/uiCopy'
 
 interface EventSchemaProps {
   locale?: Locale
@@ -51,9 +52,7 @@ export default function EventSchema({
       '@type': 'Thing',
       name: 'Fasteners, Construction, Building Materials',
     },
-    keywords: locale === 'zh'
-      ? '紧固件,建筑,南非,展会,IBR钉,干墙螺丝'
-      : 'fasteners, construction, South Africa, trade show, IBR nails, drywall screws',
+    keywords: pick(eventSchemaCopy.keywords, locale),
     inLanguage: locale === 'zh' ? 'zh-CN' : locale,
     isPartOf: {
       '@type': 'WebSite',

@@ -323,3 +323,118 @@ export const teamText = L10(
   'Fachleute für Befestigungstechnik mit fundiertem Wissen zu Baustoffen und Industrieanwendungen',
   'निर्माण सामग्री और औद्योगिक उपयोग में गहरी विशेषज्ञता वाले फास्टनर विशेषज्ञ',
 )
+
+export const siteSchemaCopy = {
+  description: L10(
+    'ISO 9001 & SABS certified China fastener manufacturer. 20+ years exporting to Africa. Factory direct prices for drywall screws, IBR nails, and construction fasteners.',
+    'ISO 9001 与 SABS 认证的中国紧固件制造商。20 余年对非出口经验。干墙螺丝、IBR 钉、建筑紧固件工厂价直销。',
+    'Fabricante chino de fijaciones certificado ISO 9001 y SABS. Más de 20 años exportando a África. Precios de fábrica para tornillos para placas de yeso, clavos IBR y fijaciones de construcción.',
+    "Fabricant chinois de visserie certifié ISO 9001 et SABS. Plus de 20 ans d'export vers l'Afrique. Prix d'usine pour vis plaque de plâtre, pointes IBR et visserie de construction.",
+    'Fabricante chinês de fixadores certificado ISO 9001 e SABS. Mais de 20 anos exportando para a África. Preços de fábrica para parafusos para drywall, pregos IBR e fixadores de construção.',
+    'مصنّع صيني للمثبتات معتمد ISO 9001 وSABS. أكثر من 20 عاماً من التصدير إلى أفريقيا. أسعار المصنع لبراغي الجبس ومسامير IBR ومثبتات البناء.',
+    'Китайский производитель крепежа с сертификатами ISO 9001 и SABS. Более 20 лет экспорта в Африку. Заводские цены на винты для гипсокартона, гвозди IBR и строительный крепёж.',
+    'ISO 9001・SABS 認証の中国ファスナーメーカー。20 年以上アフリカへ輸出。石膏ボード用ねじ、IBR くぎ、建築ファスナーを工場価格で供給。',
+    'ISO 9001- und SABS-zertifizierter chinesischer Befestigungselemente-Hersteller. Über 20 Jahre Export nach Afrika. Fabrikpreise für Trockenbauschrauben, IBR-Nägel und Baubefestigungen.',
+    'ISO 9001 और SABS प्रमाणित चीनी फास्टनर निर्माता। 20+ वर्षों से अफ्रीका को निर्यात। ड्राईवॉल स्क्रू, IBR कील और निर्माण फास्टनर फैक्ट्री मूल्य पर।',
+  ),
+  keywords: L10(
+    'drywall screws, IBR nails, fastener, China manufacturer, Africa, construction, wholesale',
+    '干墙螺丝,IBR钉,紧固件,中国制造商,非洲,建筑,批发',
+    'tornillos para placas de yeso, clavos IBR, fijaciones, fabricante en China, África, construcción, mayorista',
+    'vis plaque de plâtre, pointes IBR, visserie, fabricant chinois, Afrique, construction, grossiste',
+    'parafusos para drywall, pregos IBR, fixadores, fabricante na China, África, construção, atacado',
+    'براغي الجبس, مسامير IBR, مثبتات, مصنع في الصين, أفريقيا, البناء, الجملة',
+    'винты для гипсокартона, гвозди IBR, крепёж, производитель в Китае, Африка, строительство, оптом',
+    '石膏ボード用ねじ, IBRくぎ, ファスナー, 中国メーカー, アフリカ, 建設, 卸売',
+    'Trockenbauschrauben, IBR-Nägel, Befestigungselemente, Hersteller in China, Afrika, Bauwesen, Großhandel',
+    'ड्राईवॉल स्क्रू, IBR कील, फास्टनर, चीन निर्माता, अफ्रीका, निर्माण, थोक',
+  ),
+  aboutName: L10('Fasteners', '紧固件', 'Fijaciones', 'Visserie', 'Fixadores', 'مثبتات', 'Крепёж', 'ファスナー', 'Befestigungselemente', 'फास्टनर'),
+  aboutDesc: L10(
+    'Construction fasteners including drywall screws, bolts, nuts, and specialized roofing nails',
+    '建筑紧固件，包括干墙螺丝、螺栓、螺母和专业屋顶钉',
+    'Fijaciones de construcción: tornillos para placas de yeso, pernos, tuercas y clavos especializados para cubiertas',
+    'Visserie de construction : vis plaque de plâtre, boulons, écrous et pointes spéciales pour toiture',
+    'Fixadores de construção: parafusos para drywall, parafusos, porcas e pregos especiais para cobertura',
+    'مثبتات البناء: براغي الجبس والمسامير والصواميل ومسامير الأسطح المتخصصة',
+    'Строительный крепёж: винты для гипсокартона, болты, гайки и специальные кровельные гвозди',
+    '建築用ファスナー：石膏ボード用ねじ、ボルト、ナット、屋根専用くぎ',
+    'Baubefestigungen: Trockenbauschrauben, Schrauben, Muttern und spezielle Dachnägel',
+    'निर्माण फास्टनर: ड्राईवॉल स्क्रू, बोल्ट, नट और विशेष छत कीलें',
+  ),
+  audienceName: L10(
+    'Construction professionals in Africa', '非洲建筑专业人士', 'Profesionales de la construcción en África',
+    'Professionnels du bâtiment en Afrique', 'Profissionais da construção na África',
+    'متخصصو البناء في أفريقيا', 'Специалисты строительной отрасли в Африке', 'アフリカの建設関係者',
+    'Bauprofis in Afrika', 'अफ्रीका में निर्माण पेशेवर',
+  ),
+  searchDesc: L10(
+    'Search for fasteners and construction hardware', '搜索紧固件和建筑五金',
+    'Buscar fijaciones y ferretería de construcción', 'Rechercher visserie et quincaillerie de construction',
+    'Buscar fixadores e ferragens de construção', 'ابحث عن المثبتات ومعدات البناء',
+    'Поиск крепежа и строительной фурнитуры', 'ファスナーと建築金物を検索',
+    'Befestigungselemente und Baubeschläge suchen', 'फास्टनर और निर्माण हार्डवेयर खोजें',
+  ),
+}
+
+export const imageSchemaCopy = {
+  logoCaption: L10('TradeGo Fasteners Logo', 'TradeGo 紧固件标志', 'Logotipo de TradeGo Fasteners', 'Logo TradeGo Fasteners', 'Logotipo da TradeGo Fasteners', 'شعار TradeGo Fasteners', 'Логотип TradeGo Fasteners', 'TradeGo Fasteners ロゴ', 'TradeGo Fasteners Logo', 'TradeGo Fasteners लोगो'),
+  productDesc: {
+    en: (c: string) => `High-quality ${c}, ISO 9001 and SABS certified`,
+    zh: (c: string) => `高质量${c}，ISO 9001 和 SABS 认证`,
+    es: (c: string) => `Producto de alta calidad: ${c}, certificado ISO 9001 y SABS`,
+    fr: (c: string) => `Produit de haute qualité : ${c}, certifié ISO 9001 et SABS`,
+    pt: (c: string) => `Produto de alta qualidade: ${c}, certificado ISO 9001 e SABS`,
+    ar: (c: string) => `${c} عالي الجودة، معتمد ISO 9001 وSABS`,
+    ru: (c: string) => `${c} высокого качества, сертификаты ISO 9001 и SABS`,
+    ja: (c: string) => `高品質な${c}、ISO 9001・SABS 認証`,
+    de: (c: string) => `Hochwertige ${c}, ISO 9001- und SABS-zertifiziert`,
+    hi: (c: string) => `उच्च गुणवत्ता वाला ${c}, ISO 9001 और SABS प्रमाणित`,
+  },
+  articleDesc: {
+    en: (c: string) => `${c} - TradeGo GEO Article Image`,
+    zh: (c: string) => `${c} - TradeGo GEO 文章配图`,
+    es: (c: string) => `${c}: imagen de artículo TradeGo GEO`,
+    fr: (c: string) => `${c} : image d'article TradeGo GEO`,
+    pt: (c: string) => `${c}: imagem de artigo TradeGo GEO`,
+    ar: (c: string) => `${c}: صورة مقال TradeGo GEO`,
+    ru: (c: string) => `${c}: изображение статьи TradeGo GEO`,
+    ja: (c: string) => `${c}：TradeGo GEO 記事用画像`,
+    de: (c: string) => `${c}: TradeGo GEO Artikelbild`,
+    hi: (c: string) => `${c}: TradeGo GEO लेख छवि`,
+  },
+}
+
+export const articleSchemaCopy = {
+  section: L10(
+    'Fastener Knowledge', '紧固件知识', 'Conocimientos sobre fijaciones', 'Connaissances en visserie',
+    'Conhecimento em fixadores', 'معرفة المثبتات', 'Знания о крепеже', 'ファスナー知識', 'Befestigungswissen', 'फास्टनर ज्ञान',
+  ),
+  keywords: L10(
+    'fasteners,drywall screws,self-drilling screws,bolts,nuts,IBR nails,construction,wholesale',
+    '紧固件,干墙螺丝,自钻螺丝,螺栓,螺母,IBR钉,建筑,批发',
+    'fijaciones, tornillos para placas de yeso, autotaladrantes, pernos, tuercas, clavos IBR, construcción, mayorista',
+    'visserie, vis plaque de plâtre, vis autoforeuses, boulons, écrous, pointes IBR, construction, grossiste',
+    'fixadores, parafusos para drywall, autoatarraxantes, parafusos, porcas, pregos IBR, construção, atacado',
+    'مثبتات, براغي الجبس, براغي ذاتية الحفر, مسامير, صواميل, مسامير IBR, البناء, الجملة',
+    'крепёж, винты для гипсокартона, саморезы, болты, гайки, гвозди IBR, строительство, оптом',
+    'ファスナー, 石膏ボード用ねじ, 自穿孔ねじ, ボルト, ナット, IBRくぎ, 建設, 卸売',
+    'Befestigungselemente, Trockenbauschrauben, Bohrschrauben, Schrauben, Muttern, IBR-Nägel, Bauwesen, Großhandel',
+    'फास्टनर, ड्राईवॉल स्क्रू, सेल्फ-ड्रिलिंग स्क्रू, बोल्ट, नट, IBR कील, निर्माण, थोक',
+  ),
+}
+
+export const eventSchemaCopy = {
+  keywords: L10(
+    'fasteners, construction, South Africa, trade show, IBR nails, drywall screws',
+    '紧固件,建筑,南非,展会,IBR钉,干墙螺丝',
+    'fijaciones, construcción, Sudáfrica, feria, clavos IBR, tornillos para placas de yeso',
+    'visserie, construction, Afrique du Sud, salon, pointes IBR, vis plaque de plâtre',
+    'fixadores, construção, África do Sul, feira, pregos IBR, parafusos para drywall',
+    'مثبتات, البناء, جنوب أفريقيا, معرض, مسامير IBR, براغي الجبس',
+    'крепёж, строительство, ЮАР, выставка, гвозди IBR, винты для гипсокартона',
+    'ファスナー, 建設, 南アフリカ, 展示会, IBRくぎ, 石膏ボード用ねじ',
+    'Befestigungselemente, Bauwesen, Südafrika, Messe, IBR-Nägel, Trockenbauschrauben',
+    'फास्टनर, निर्माण, दक्षिण अफ्रीका, प्रदर्शनी, IBR कील, ड्राईवॉल स्क्रू',
+  ),
+}
