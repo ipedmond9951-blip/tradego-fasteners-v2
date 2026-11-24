@@ -270,3 +270,56 @@ export const cookieCopy = {
   decline: L10('Essential only', '仅必要', 'Solo esenciales', 'Essentiels uniquement', 'Apenas essenciais', 'الضروري فقط', 'Только необходимые', '必須のみ', 'Nur notwendige', 'केवल आवश्यक'),
   ariaLabel: L10('Cookie notice', 'Cookie 提示', 'Aviso de cookies', 'Avis sur les cookies', 'Aviso de cookies', 'إشعار ملفات تعريف الارتباط', 'Уведомление о cookie', 'Cookie に関するお知らせ', 'Cookie-Hinweis', 'Cookie सूचना'),
 }
+
+export const productAsideCopy = {
+  category: L10('Product category', '所属品类', 'Categoría de producto', 'Catégorie de produit', 'Categoria do produto', 'فئة المنتج', 'Категория продукта', '製品カテゴリー', 'Produktkategorie', 'उत्पाद श्रेणी'),
+  hint: L10(
+    'See the other lines and matching parts in this category on the home page.',
+    '同品类的其他规格与配套件，可在首页对应分区一次看完。',
+    'Vea las demás líneas y piezas compatibles de esta categoría en la página de inicio.',
+    "Retrouvez les autres gammes et pièces associées de cette catégorie sur la page d'accueil.",
+    'Veja as demais linhas e peças compatíveis desta categoria na página inicial.',
+    'اطّلع على بقية الخطوط والقطع المتوافقة في هذه الفئة من الصفحة الرئيسية.',
+    'Другие позиции и сопутствующие детали этой категории — на главной странице.',
+    '同じカテゴリーの他の品目と付属部品は、トップページでまとめてご覧いただけます。',
+    'Weitere Linien und passende Teile dieser Kategorie finden Sie auf der Startseite.',
+    'इस श्रेणी की अन्य लाइनें और मिलते-जुलते पुर्जे होम पेज पर देखें।',
+  ),
+}
+
+export const appLabels = {
+  construction: L10('Construction', '建筑', 'Construcción', 'Construction', 'Construção', 'البناء', 'Строительство', '建設', 'Bauwesen', 'निर्माण'),
+  mining: L10('Mining', '采矿', 'Minería', 'Extraction minière', 'Mineração', 'التعدين', 'Горнодобыча', '鉱山', 'Bergbau', 'खनन'),
+  solar: L10('Solar Energy', '太阳能', 'Energía solar', 'Énergie solaire', 'Energia solar', 'الطاقة الشمسية', 'Солнечная энергетика', '太陽光発電', 'Solarenergie', 'सौर ऊर्जा'),
+}
+
+export const certNote = L10(
+  'All products come with material certificates, test reports, and quality guarantees. We provide third-party inspection services upon request.',
+  '所有产品均配有材料证书、测试报告和质量保证。我们提供第三方检验服务。',
+  'Todos los productos incluyen certificados de material, informes de ensayo y garantía de calidad. Ofrecemos inspección por terceros a solicitud.',
+  "Tous les produits sont livrés avec certificats matière, rapports d'essai et garantie qualité. Inspection par un tiers sur demande.",
+  'Todos os produtos incluem certificados de material, relatórios de ensaio e garantia de qualidade. Oferecemos inspeção por terceiros sob solicitação.',
+  'جميع المنتجات مصحوبة بشهادات المواد وتقارير الاختبار وضمان الجودة، ونوفّر خدمات الفحص من طرف ثالث عند الطلب.',
+  'Все продукты комплектуются сертификатами материалов, протоколами испытаний и гарантией качества. По запросу проводим независимую инспекцию.',
+  '全製品に材料証明書・試験報告書・品質保証を添付。ご要望に応じて第三者検査にも対応します。',
+  'Alle Produkte werden mit Materialzeugnissen, Prüfberichten und Qualitätsgarantie geliefert. Auf Wunsch organisieren wir Drittprüfungen.',
+  'सभी उत्पाद सामग्री प्रमाणपत्र, परीक्षण रिपोर्ट और गुणवत्ता गारंटी के साथ आते हैं। अनुरोध पर तीसरे पक्ष का निरीक्षण उपलब्ध है।',
+)
+
+export const sourcesTitle = L10(
+  'References & Standards', '参考资料与标准', 'Referencias y normas', 'Références et normes', 'Referências e normas',
+  'المراجع والمعايير', 'Источники и стандарты', '参考資料と規格', 'Quellen und Normen', 'संदर्भ और मानक',
+)
+
+export const teamText = L10(
+  'Expert fastener specialists with deep knowledge in construction materials and industrial applications',
+  '专业的紧固件专家团队，在建筑材料和工业应用领域拥有深厚知识',
+  'Especialistas en fijaciones con amplio conocimiento de materiales de construcción y aplicaciones industriales',
+  'Spécialistes de la visserie maîtrisant les matériaux de construction et les applications industrielles',
+  'Especialistas em fixadores com profundo conhecimento em materiais de construção e aplicações industriais',
+  'متخصصون في المثبتات بخبرة عميقة في مواد البناء والتطبيقات الصناعية',
+  'Специалисты по крепежу с глубокими знаниями строительных материалов и промышленного применения',
+  '建築資材と産業用途に精通したファスナー専門チーム',
+  'Fachleute für Befestigungstechnik mit fundiertem Wissen zu Baustoffen und Industrieanwendungen',
+  'निर्माण सामग्री और औद्योगिक उपयोग में गहरी विशेषज्ञता वाले फास्टनर विशेषज्ञ',
+)

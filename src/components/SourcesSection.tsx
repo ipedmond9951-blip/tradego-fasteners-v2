@@ -1,6 +1,7 @@
 'use client'
 
 import { type Locale } from '@/i18n'
+import { pick, sourcesTitle } from '@/lib/uiCopy'
 
 interface Source {
   name: string
@@ -53,7 +54,7 @@ export default function SourcesSection({ locale = 'en' }: SourcesSectionProps) {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-10">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">
-            {isZh ? '参考资料与标准' : 'References & Standards'}
+            {pick(sourcesTitle, locale)}
           </h2>
           <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto">
             {isZh 

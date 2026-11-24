@@ -10,6 +10,7 @@ import { getArticleBySlug, getArticleTitle } from '@/lib/articles'
 import { productGuides } from '@/lib/productGuides'
 import { siblingsOf, categoryOf } from '@/lib/productCategories'
 import ProductBuyingNotes from '@/components/ProductBuyingNotes'
+import { productAsideCopy } from '@/lib/uiCopy'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
@@ -292,7 +293,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 
           {category && (
             <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-6">
-              <h2 className="text-lg font-bold text-gray-900 mb-3">{locale === 'zh' ? '所属品类' : 'Product category'}</h2>
+              <h2 className="text-lg font-bold text-gray-900 mb-3">{pick(productAsideCopy.category, locale)}</h2>
               <Link
                 href={`/${locale}/#cat-${category.key}`}
                 className="inline-flex items-center gap-2 rounded-lg border border-primary-200 bg-primary-50 text-primary-800 text-sm font-medium px-3 py-2 hover:bg-primary-100 transition"
@@ -301,9 +302,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
                 <span className="text-primary-500">→</span>
               </Link>
               <p className="text-xs text-gray-500 mt-3">
-                {locale === 'zh'
-                  ? '同品类的其他规格与配套件，可在首页对应分区一次看完。'
-                  : 'See the other lines and matching parts in this category on the home page.'}
+                {pick(productAsideCopy.hint, locale)}
               </p>
             </div>
           )}

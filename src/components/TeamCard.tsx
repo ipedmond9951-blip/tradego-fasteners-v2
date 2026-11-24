@@ -1,4 +1,5 @@
 import { type Locale } from '@/i18n'
+import { pick, teamText } from '@/lib/uiCopy'
 
 interface TeamCardProps { locale?: Locale }
 
@@ -18,9 +19,7 @@ export default function TeamCard({ locale = 'en' }: TeamCardProps) {
               TradeGo Engineering Team
             </h2>
             <p className="text-xs md:text-base text-gray-500 mb-2 md:mb-3 leading-relaxed">
-              {locale === 'zh'
-                ? '专业的紧固件专家团队，在建筑材料和工业应用领域拥有深厚知识'
-                : 'Expert fastener specialists with deep knowledge in construction materials and industrial applications'}
+              {pick(teamText, locale)}
             </p>
             <div className="flex flex-wrap gap-x-3 gap-y-1 text-[11px] md:text-sm text-gray-400">
               <span className="inline-flex items-center gap-1">🏢 Founded: 2004</span>

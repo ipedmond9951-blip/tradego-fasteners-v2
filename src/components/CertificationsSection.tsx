@@ -1,4 +1,5 @@
 import { type Locale, t } from '@/i18n'
+import { certNote, pick } from '@/lib/uiCopy'
 
 interface CertificationsSectionProps { locale?: Locale }
 
@@ -69,9 +70,7 @@ export default function CertificationsSection({ locale = 'en' }: CertificationsS
         {/* Additional quality note */}
         <div className="mt-10 md:mt-12 text-center">
           <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto">
-            {locale === 'zh'
-              ? '所有产品均配有材料证书、测试报告和质量保证。我们提供第三方检验服务。'
-              : 'All products come with material certificates, test reports, and quality guarantees. We provide third-party inspection services upon request.'}
+            {pick(certNote, locale)}
           </p>
         </div>
       </div>
