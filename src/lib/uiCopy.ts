@@ -642,3 +642,25 @@ export const categoryPageCopy = {
     hi: (label: string) => `${label} पर TradeGo के लेख।`,
   },
 }
+
+export const allCategoriesLabel = L10('All', '全部', 'Todos', 'Tous', 'Todos', 'الكل', 'Все', 'すべて', 'Alle', 'सभी')
+
+// 认证卡片：名称与释义十语（原先非英语站只显示英文 Certification 说明）
+export const certCardCopy: Record<string, { name: Record<string, string>; desc: Record<string, string> }> = {
+  iso: {
+    name: L10('ISO 9001:2015', 'ISO 9001:2015', 'ISO 9001:2015', 'ISO 9001:2015', 'ISO 9001:2015', 'ISO 9001:2015', 'ISO 9001:2015', 'ISO 9001:2015', 'ISO 9001:2015', 'ISO 9001:2015'),
+    desc: L10('Quality Management System', '质量管理体系', 'Sistema de gestión de calidad', 'Système de management de la qualité', 'Sistema de gestão da qualidade', 'نظام إدارة الجودة', 'Система менеджмента качества', '品質マネジメントシステム', 'Qualitätsmanagementsystem', 'गुणवत्ता प्रबंधन प्रणाली'),
+  },
+  sabs: {
+    name: L10('SABS Approved', 'SABS 认证', 'Homologado SABS', 'Homologué SABS', 'Aprovado SABS', 'معتمد من SABS', 'Одобрено SABS', 'SABS 認証', 'SABS-zertifiziert', 'SABS स्वीकृत'),
+    desc: L10('South African Standards', '南非国家标准', 'Normas sudafricanas', 'Normes sud-africaines', 'Normas sul-africanas', 'المعايير الجنوب أفريقية', 'Стандарты ЮАР', '南アフリカ規格', 'Südafrikanische Normen', 'दक्षिण अफ़्रीकी मानक'),
+  },
+  ce: {
+    name: L10('CE Marking', 'CE 认证', 'Marcado CE', 'Marquage CE', 'Marcação CE', 'علامة CE', 'Маркировка CE', 'CE マーク', 'CE-Kennzeichnung', 'CE मार्किंग'),
+    desc: L10('European Conformity', '欧盟合规', 'Conformidad europea', 'Conformité européenne', 'Conformidade europeia', 'المطابقة الأوروبية', 'Соответствие ЕС', '欧州適合', 'Europäische Konformität', 'यूरोपीय अनुरूपता'),
+  },
+  tests: {
+    name: L10('Test Reports', '检测报告', 'Informes de ensayo', 'Rapports d’essai', 'Laudos de ensaio', 'تقارير الاختبار', 'Протоколы испытаний', '試験報告書', 'Prüfberichte', 'परीक्षण रिपोर्ट'),
+    desc: L10('Material & Coating Tests', '材质与镀层检测', 'Ensayos de material y revestimiento', 'Essais matériau et revêtement', 'Ensaios de material e revestimento', 'اختبارات المادة والطلاء', 'Испытания материала и покрытия', '材料・コーティング試験', 'Material- und Beschichtungsprüfungen', 'सामग्री और कोटिंग परीक्षण'),
+  },
+}

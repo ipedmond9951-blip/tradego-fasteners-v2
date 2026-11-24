@@ -5,7 +5,7 @@ import { getAllArticles, getArticleTitle } from '@/lib/articles'
 import type { Metadata } from 'next'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { optImagePath } from '@/lib/optImages'
-import { industryListCopy, pick } from '@/lib/uiCopy'
+import { industryListCopy, allCategoriesLabel, pick } from '@/lib/uiCopy'
 import { categoryLabel } from '@/lib/categoryLabels'
 
 const titles: Record<string, string> = {
@@ -101,7 +101,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
               href={`/${locale}/industry/`}
               className="px-4 py-2 rounded-full text-sm font-medium transition-colors bg-primary-700 text-white"
             >
-              All
+              {pick(allCategoriesLabel, locale)}
             </Link>
             {categories.filter(c => c !== 'All').map((cat) => (
               <Link
@@ -109,7 +109,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
                 href={`/${locale}/industry/category/${slugify(cat)}/`}
                 className="px-4 py-2 rounded-full text-sm font-medium transition-colors bg-white text-gray-600 hover:bg-gray-100 border border-gray-200"
               >
-                {cat}
+                {categoryLabel(cat, locale)}
               </Link>
             ))}
           </div>
@@ -164,7 +164,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
                   href={`/${locale}/industry/category/${slugify(cat)}/`}
                   className="px-3 py-1.5 rounded-full text-sm bg-gray-50 text-gray-700 border border-gray-200 hover:bg-primary-50 hover:text-primary-700 hover:border-primary-200 transition-colors"
                 >
-                  {cat} <span className="text-gray-400">({categoryCounts[cat]})</span>
+                  {categoryLabel(cat, locale)} <span className="text-gray-400">({categoryCounts[cat]})</span>
                 </Link>
               ))}
             </div>

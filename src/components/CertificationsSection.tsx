@@ -1,11 +1,12 @@
 import { type Locale, t } from '@/i18n'
-import { certNote, pick } from '@/lib/uiCopy'
+import { certCardCopy, certNote, pick } from '@/lib/uiCopy'
 
 interface CertificationsSectionProps { locale?: Locale }
 
 // Certification badges with proper visual representations
 const certifications = [
   {
+    key: 'iso',
     name: 'ISO 9001:2015',
     description: 'Quality Management System',
     // Professional checkmark icon for quality certification
@@ -16,6 +17,7 @@ const certifications = [
     ),
   },
   {
+    key: 'sabs',
     name: 'SABS Approved',
     description: 'South African Standards',
     // Shield icon for certification/trust mark
@@ -26,6 +28,7 @@ const certifications = [
     ),
   },
   {
+    key: 'ce',
     name: 'CE Marking',
     description: 'European Conformity',
     // CE mark text - professional certification symbol
@@ -36,6 +39,7 @@ const certifications = [
     ),
   },
   {
+    key: 'tests',
     name: 'Test Reports',
     description: 'Material & Coating Tests',
     // Document/report icon
@@ -61,8 +65,8 @@ export default function CertificationsSection({ locale = 'en' }: CertificationsS
           {certifications.map((cert, i) => (
             <div key={i} className="bg-gray-50 rounded-xl p-6 md:p-8 text-center border border-gray-100 hover:border-primary-200 hover:shadow-md transition-all">
               <div className="mb-3 md:mb-4">{cert.iconSvg}</div>
-              <h3 className="font-bold text-primary-900 text-sm md:text-base mb-1">{cert.name}</h3>
-              <p className="text-gray-500 text-xs md:text-sm">{cert.description}</p>
+              <h3 className="font-bold text-primary-900 text-sm md:text-base mb-1">{pick(certCardCopy[cert.key].name, locale)}</h3>
+              <p className="text-gray-500 text-xs md:text-sm">{pick(certCardCopy[cert.key].desc, locale)}</p>
             </div>
           ))}
         </div>
