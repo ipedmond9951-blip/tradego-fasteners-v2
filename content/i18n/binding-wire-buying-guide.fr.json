@@ -1,0 +1,54 @@
+{
+  "slug": "binding-wire-buying-guide",
+  "sections": [
+    {
+      "id": "role-on-site",
+      "heading": { "fr": "Ce que le fil de fer doit réellement faire" },
+      "body": {
+        "fr": "Le fil de fer maintient les armatures en place jusqu'à la prise du béton. Il ne porte aucune charge de calcul après la coulée : la spécification porte donc sur la maniabilité, pas la résistance — assez souple pour être attaché vite à la main, assez raide pour ne pas fléchir pendant la mise en place de la barre, et de diamètre régulier pour que l'outil morde à chaque fois. Un fil trop dur ralentit l'équipe et coupe les gants ; un fil trop souple casse au nœud et se consomme deux fois plus vite.\n\nLes finitions courantes sont le noir recuit, le moins cher et le plus souple, utilisé à l'intérieur du béton, et l'électro-zingué, qui résiste au stockage humide et sert pour le blocage de maçonnerie, les armatures exposées et les dépôts en climat humide. Une troisième finition, plus rare, est le PVC pour clôtures et aménagement paysager : ce n'est pas un produit pour béton et elle ne doit pas être chiffrée face au fil à armatures."
+      }
+    },
+    {
+      "id": "diameter-choice",
+      "heading": { "fr": "Diamètre selon la taille des barres" },
+      "body": {
+        "fr": "La plage usuelle va de 0,7 à 2,5 mm et la correspondance pratique est simple. Pour des barres de 8 à 12 mm, un fil de 0,9 à 1,2 mm s'attache confortablement et tient. Pour 16 à 25 mm, 1,2 à 1,6 mm ; pour 32 mm et préfabrication lourde, 1,6 à 2,0 mm. En dessous de 0,9 mm, on est sur du cerclage léger, de l'emballage et du blocage de maçonnerie, pas sur de l'armature.\n\nDeux erreurs reviennent : utiliser du 0,7 mm sur des barres de 20 mm, où le nœud casse pendant la mise en place, et acheter du 2,0 mm pour un ouvrage en barres de 10 mm, où l'équipe ne peut pas attacher assez vite et la consommation monte. Un contrôle utile consiste à plier un échantillon en boucle à la main : un fil bien recuit forme la boucle sans casser et la tient quand on relâche. S'il casse, le recuit est incomplet ou le fil est tréfilé trop dur."
+      }
+    },
+    {
+      "id": "coil-weight",
+      "heading": { "fr": "Poids de bobine, tolérance et manutention" },
+      "body": {
+        "fr": "La bobine export standard est de 25 kg nominal, sous film polyéthylène et généralement cerclée, avec des bobines de 20 et 10 kg pour les petits chantiers et la vente au détail. Le poids est nominal : une petite tolérance est normale, et l'acheteur de gros tonnage doit contrôler sur balance à la réception plutôt que de supposer.\n\nLa manutention compte plus que beaucoup ne l'imaginent. Une bobine de 25 kg est la limite pratique pour un ouvrier sur échafaudage, et les bobines mal enroulées se déroulent seules sur le chantier, créant des emmêlements qui coûtent plus de main-d'œuvre que le fil ne vaut. Demandez comment la bobine est enroulée et attachée, et si l'extrémité intérieure est sécurisée pour qu'elle ne s'effondre pas à l'ouverture. Sur grands projets, des couronnes de 1 à 2 kg ou des paquets coupés sont parfois préférés pour la vitesse malgré un prix unitaire plus élevé : comparez donc le coût par attache, pas le coût au kilo."
+      }
+    },
+    {
+      "id": "consumption",
+      "heading": { "fr": "Estimer la consommation" },
+      "body": {
+        "fr": "La consommation s'exprime en kilos par tonne d'armature, avec une plage de travail d'environ 8 à 12 kg par tonne en bâtiment courant : plus élevée pour des espacements serrés, des petits diamètres et l'attache à la main ; plus basse pour de grosses barres sur larges trames. Pour la maçonnerie, la règle est d'environ un mètre de fil par mètre carré de mur en assises standard, davantage pour les gros blocs et les assises armées.\n\nCes chiffres sont des aides à la planification, pas des engagements : l'approche honnête est de commander par bobines et de garder un volant, car une rupture en pleine coulée coûte une journée. Un chantier toujours en manque perd généralement le fil à trois endroits : bobines ouvertes sous la pluie et rouillées, attaches coupées trop longues et jetées, et fil détourné pour des usages pour lesquels il n'a pas été acheté, comme les clôtures ou le cerclage de chutes d'acier. En suivant les bobines délivrées par coulée, l'estimation devient juste en deux chantiers."
+      }
+    },
+    {
+      "id": "coating-and-storage",
+      "heading": { "fr": "Finition et stockage en climat humide" },
+      "body": {
+        "fr": "Le fil noir recuit n'a aucune finition et rouille en surface en quelques semaines de stockage humide. Ce n'est pas un défaut si le fil doit rester noyé dans le béton, car une légère rouille de surface n'affecte pas l'attache et le fil n'est pas un élément structurel. Le fil électro-zingué coûte plus cher et se choisit lorsque les bobines restent des mois sur site, que la maçonnerie sera laissée exposée ou que le client inspecte les dépôts.\n\nAttention aux limites : l'électro-zinguage est une couche mince et ne survit pas longtemps à l'air marin ; pour les clôtures extérieures, il faut un zingage lourd ou du PVC. Le conseil de stockage est simple et efficace : bobines sur palettes, hors du sol, sous abri, et ne pas ouvrir l'emballage avant besoin. Une bobine emballée et bien stockée reste utilisable après une saison des pluies ; une bobine ouverte sur sol mouillé deviendra un emmêlement de rouille en quinze jours."
+      }
+    },
+    {
+      "id": "packing-shipping",
+      "heading": { "fr": "Charger un conteneur de fil" },
+      "body": {
+        "fr": "Le fil de fer est une cargaison lourde : un conteneur de 20 pieds atteint sa limite de poids bien avant d'être plein — comptez environ 20 à 25 tonnes selon la limite routière de destination, souvent la contrainte réelle pour une livraison intérieure au Zimbabwe ou en Zambie.\n\nLes bobines doivent être palettisées et cerclées, pas en vrac, car des bobines libres se déplacent avec la houle et peuvent faire éclater les portes à l'ouverture. Demandez le plan de palettisation et le nombre de bobines par palette, puis vérifiez l'arithmétique contre la charge utile du conteneur, pas contre le volume. La cargaison étant dense, le fret au kilo est faible et le coût rendu est dominé par le prix usine et le taux de fret : un petit écart de prix sur un conteneur complet pèse plus que l'élégance de l'emballage. Des photos des bobines et des étiquettes avant expédition valent la peine, car les litiges sur le fil portent le plus souvent sur le poids, pas sur la qualité."
+      }
+    },
+    {
+      "id": "quote-checklist",
+      "heading": { "fr": "Cinq lignes pour une offre ferme" },
+      "body": {
+        "fr": "Indiquez le diamètre, la finition (noir recuit, électro-zingué, zinc lourd ou PVC), le poids de bobine, le tonnage total et la destination. Ajoutez la plage de résistance à la traction si le projet l'exige, et précisez si le fil est destiné aux armatures, à la maçonnerie ou au cerclage général, car cela change la recommandation. Demandez l'origine du fil machine et la référence de norme, couramment GB/T 343 pour le produit chinois, ainsi qu'un échantillon de bobine avant le premier conteneur.\n\nTradeGo fournit du fil de fer noir recuit et électro-zingué de 0,7 à 2,5 mm en bobines nominales de 25 kg, sous film polyéthylène et palettisées, avec un conseil de tonnage et de limite routière pour les destinations d'Afrique australe."
+      }
+    }
+  ]
+}
