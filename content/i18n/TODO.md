@@ -47,3 +47,14 @@
 - 2026-11-24 已补：首页主推 8 个产品（drywall-screws、self-drilling-screws、bolts-nuts、ibr-nails、anchor-bolts、washers、coach-screws、threaded-rods）的 es/fr/pt/ar 描述。
 - 剩余 57 个产品缺 es/fr/pt/ar，产品详情页与首页网格仍会回落英文描述；下次批量补时同样按阶段一（es/fr/pt/ar）→ 阶段二（ru/de/ja/hi）推进。
 - 校验方式：`grep -c "    es: " src/lib/productI18n.ts` 应随产品数同步增长；ES 页 `curl -sL <dev>/es/ | grep -c "stainless"` 应归零（现仍有余量，来自未补产品）。
+
+## 2026-11-24 src 侧英文泄漏清零进度
+
+已提交（未 push）：`8c3ba3c5`、`cc38d4dd`。
+- `src/lib/productI18n.ts`：65 个产品的描述全部十语（补齐此前只做了 35 个的余量 30 个）。
+- `src/lib/productsContentI18n.ts`（新建）：`/products/` 列表页指南、质量认证、海运、行业应用 7 段 × 十语，替换组件内 en/zh 双语文案。
+- `src/components/VideoSection.tsx`、`TestimonialsSection.tsx`：视频区与三段客户证言（含岗位、产品行、标签）十语化；数字（25 吨、2×40ft/月、18 个月）与公司名保持原文。
+- `src/components/SourcesSection.tsx` + `uiCopy.ts`：四条标准（ISO/SABS/ASTM/DIN）说明十语化。
+- `HeroSection` 徽标行改走 `hero.badge`；`hero.product4_name~6` 补 es/ru/ja/de 原生名。
+
+仍保留英文但属既定取舍：产品规格值（DIN/材质/表面处理代码、`DIN 7504-K head / ETA assessment on request`、`Stainless 304/316` 等）、公司名与城市名。
