@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { locales, type Locale } from '@/i18n'
 import { t } from '@/i18n'
+import { badgeCopy, pick } from '@/lib/uiCopy'
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -115,12 +116,12 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
               </div>
               <div className="text-center p-4 bg-gray-50 rounded-lg">
                 <div className="text-4xl mb-3">✓</div>
-                <h3 className="font-bold mb-2">SABS Approved</h3>
+                <h3 className="font-bold mb-2">{pick(badgeCopy.sabs, loc)}</h3>
                 <p className="text-sm text-gray-600">{t(loc, 'about.sabsDesc')}</p>
               </div>
               <div className="text-center p-4 bg-gray-50 rounded-lg">
                 <div className="text-4xl mb-3">🌍</div>
-                <h3 className="font-bold mb-2">CE Certified</h3>
+                <h3 className="font-bold mb-2">{pick(badgeCopy.ce, loc)}</h3>
                 <p className="text-sm text-gray-600">{t(loc, 'about.ceDesc')}</p>
               </div>
             </div>

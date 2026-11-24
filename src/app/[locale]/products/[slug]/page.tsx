@@ -10,7 +10,7 @@ import { getArticleBySlug, getArticleTitle } from '@/lib/articles'
 import { productGuides } from '@/lib/productGuides'
 import { siblingsOf, categoryOf } from '@/lib/productCategories'
 import ProductBuyingNotes from '@/components/ProductBuyingNotes'
-import { productAsideCopy } from '@/lib/uiCopy'
+import { productAsideCopy, navLabels } from '@/lib/uiCopy'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
@@ -135,9 +135,9 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
       {/* 面包屑 */}
       <nav aria-label="Breadcrumb" className="bg-white border-b border-gray-100">
         <div className="container mx-auto px-4 sm:px-6 py-3 text-sm text-gray-500 flex flex-wrap items-center gap-1">
-          <Link href={`/${locale}/`} className="hover:text-primary-700">Home</Link>
+          <Link href={`/${locale}/`} className="hover:text-primary-700">{pick(navLabels.home, locale)}</Link>
           <span>/</span>
-          <Link href={`/${locale}/products/`} className="hover:text-primary-700">Products</Link>
+          <Link href={`/${locale}/products/`} className="hover:text-primary-700">{pick(navLabels.products, locale)}</Link>
           <span>/</span>
           <span className="text-gray-800 font-medium">{name}</span>
         </div>
