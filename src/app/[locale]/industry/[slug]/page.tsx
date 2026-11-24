@@ -10,6 +10,7 @@ import { clampDescription } from '@/lib/seo'
 import { optImagePath } from '@/lib/optImages'
 import { backToArticles, pick, articleCta } from '@/lib/uiCopy'
 import { productNames } from '@/lib/productI18n'
+import { categoryLabel } from '@/lib/categoryLabels'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
@@ -235,7 +236,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
           <Link href={`/${locale}/industry/`} className="inline-flex items-center gap-1 text-primary-200 hover:text-white text-sm mb-6 transition-colors">
             ← {pick(backToArticles, locale)}
           </Link>
-          <span className="inline-block bg-primary-500 text-white text-xs font-semibold px-3 py-1 rounded-full mb-4">{article.category}</span>
+          <span className="inline-block bg-primary-500 text-white text-xs font-semibold px-3 py-1 rounded-full mb-4">{categoryLabel(article.category, locale)}</span>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">{title}</h1>
           <div className="flex items-center gap-4 text-sm text-primary-200">
             <span>{article.date}</span>
@@ -319,7 +320,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
           return (
             <div className="mt-8">
               <h3 className="text-lg font-semibold mb-3">
-                {t(locale, 'industry.inThisCategory').replace('{category}', article.category)}
+                {t(locale, 'industry.inThisCategory').replace('{category}', categoryLabel(article.category, locale))}
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {moreInCat.map((a) => {
@@ -331,7 +332,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
                       href={`/${locale}/industry/${a.slug}/`}
                       className="block p-4 border border-gray-200 rounded-lg hover:border-primary-300 hover:bg-primary-50 transition-colors"
                     >
-                      <div className="text-sm text-primary-600 font-medium mb-1">{a.category}</div>
+                      <div className="text-sm text-primary-600 font-medium mb-1">{categoryLabel(a.category, locale)}</div>
                       <div className="text-gray-900 font-medium">{truncated}</div>
                       <div className="text-xs text-gray-500 mt-1">{a.date}</div>
                     </Link>

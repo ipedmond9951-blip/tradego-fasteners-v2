@@ -4,6 +4,7 @@ import { getAllArticles, type Article } from '@/lib/articles'
 import { type Locale } from '@/i18n'
 import { optImagePath } from '@/lib/optImages'
 import { latestArticlesCopy, pick } from '@/lib/uiCopy'
+import { categoryLabel } from '@/lib/categoryLabels'
 
 interface LatestArticlesProps {
   locale: Locale
@@ -49,7 +50,7 @@ export default function LatestArticles({ locale, limit = 6 }: LatestArticlesProp
                   />
                   {article.category && (
                     <span className="absolute top-3 left-3 bg-primary-600 text-white text-xs font-medium px-2.5 py-1 rounded-full">
-                      {article.category}
+                      {categoryLabel(article.category, locale)}
                     </span>
                   )}
                 </div>
