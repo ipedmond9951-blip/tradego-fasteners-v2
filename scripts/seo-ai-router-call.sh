@@ -21,6 +21,15 @@ if [ ! -f "$PROMPT_FILE" ]; then
   exit 1
 fi
 
+# 后端选择（2026-11-24）：默认走 ego lite（scripts/ego-ai-router-call.sh），
+# 设 AI_ROUTER_BACKEND=chrome 可退回老的 Chrome 18800 + playwright 路径。
+if [ "${AI_ROUTER_BACKEND:-ego}" = "ego" ] && [ -x "$(dirname "$0")/ego-ai-router-call.sh" ]; then
+  bash "$(dirname "$0")/ego-ai-router-call.sh" "$AI" "$PROMPT_FILE" "$TIMEOUT"
+  EXIT=$?
+  [ $EXIT -eq 0 ] && exit 0
+  echo "[ai-router-call] ego 后端失败 (exit $EXIT)，回退 Chrome 18800" >&2
+fi
+
 # 加载 env (cron 环境下)
 if [ -f "$HOME/.openclaw/service-env/ai.openclaw.gateway.env" ]; then
   set -a
