@@ -1526,28 +1526,35 @@ log "🖼️ 生成衍生图/刷新清单..."
 bash "$PROJECT_DIR/scripts/gen_opt_images.sh" 2>&1 | tail -2 || true
 
 log "📤 Committing..."
+DEPLOYED=0
 cd "$PROJECT_DIR"
 git add "content/articles/${SLUG}.json" "public/images/articles/${SLUG}.jpg" content/articles public/images/opt src/lib/optImageManifest.ts 2>/dev/null
 if git diff --cached --quiet; then
     log "⚠️ 无新增内容可提交，跳过 commit/push"
 else
     git commit -m "feat(seo): [AI-pipeline $TODAY] $SLUG (score $SCORE)" 2>&1 | tail -3
-    log "📤 Pushing to main（触发 Vercel 构建）..."
-    DEPLOY_FORCE=1 git push origin main 2>&1 | tail -2   # 生产流水线是单一发布入口，绕过队列节流
+    log "📤 提交完成，交给 deploy-flush 决定上线时机（受每日部署预算约束）..."
+    FLUSH_OUT=$(bash "$PROJECT_DIR/scripts/deploy-flush.sh" 2>&1)
+    echo "$FLUSH_OUT" | tail -3 | while IFS= read -r l; do log "  $l"; done
+    if echo "$FLUSH_OUT" | grep -q "已推送"; then DEPLOYED=1; else DEPLOYED=0; fi
 fi
 
-# 2026-11-22: 轮询域名验证，最多 4 次 × 90s；失败写待办，不自己重建
-HTTP_CODE="000"
-for i in 1 2 3 4; do
-    sleep 90
-    HTTP_CODE=$(curl -sL --max-time 15 -o /dev/null -w "%{http_code}" "https://www.tradego-fasteners.com/en/industry/${SLUG}")
-    log "✅ Verification (try $i): HTTP $HTTP_CODE for /en/industry/${SLUG}"
-    if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "308" ]; then break; fi
-done
-if [ "$HTTP_CODE" != "200" ] && [ "$HTTP_CODE" != "308" ]; then
-    log "❌ 4 次验证仍非 200/308，记录待办（部署可能还在排队）"
-    mkdir -p "$LOG_DIR"
-    printf '%s %s HTTP %s 验证未通过\n' "$(date '+%F %T')" "$SLUG" "$HTTP_CODE" >> "$LOG_DIR/pending-deploy-$TODAY.txt"
+if [ "${DEPLOYED:-0}" = "1" ]; then
+    # 2026-11-22: 轮询域名验证，最多 4 次 × 90s；失败写待办，不自己重建
+    HTTP_CODE="000"
+    for i in 1 2 3 4; do
+        sleep 90
+        HTTP_CODE=$(curl -sL --max-time 15 -o /dev/null -w "%{http_code}" "https://www.tradego-fasteners.com/en/industry/${SLUG}")
+        log "✅ Verification (try $i): HTTP $HTTP_CODE for /en/industry/${SLUG}"
+        if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "308" ]; then break; fi
+    done
+    if [ "$HTTP_CODE" != "200" ] && [ "$HTTP_CODE" != "308" ]; then
+        log "❌ 4 次验证仍非 200/308，记录待办（部署可能还在排队）"
+        mkdir -p "$LOG_DIR"
+        printf '%s %s HTTP %s 验证未通过\n' "$(date '+%F %T')" "$SLUG" "$HTTP_CODE" >> "$LOG_DIR/pending-deploy-$TODAY.txt"
+    fi
+else
+    log "⏸ 本次未触发部署（预算已用完或无可推），内容已 commit 在本地，等 deploy-flush 定时窗口推送，跳过上线验证"
 fi
 
 # 更新 state (放到 if 外面, 即使 alias 失败也记录成功部署)

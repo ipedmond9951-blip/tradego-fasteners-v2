@@ -83,11 +83,11 @@ if git diff --cached --quiet; then
 fi
 git commit -q -m "content: 队列自动发布文章（$(date +%F)）" || { echo "commit 失败"; exit 1; }
 
-for i in 1 2 3; do
-  git fetch -q origin main || true
-  git rebase -q origin/main && git push -q origin main && { echo "push 成功（第 $i 次）"; break; }
-  echo "push 第 $i 次失败，10s 后重试"
-  sleep 10
-done
+# 2026-11-24: 推送收敛到 deploy-flush(唯一入口, 含预算闸门/锁/prune), 不再各自 push
+if bash "$(dirname "$0")/deploy-flush.sh"; then
+  echo "推送流程结束（已推送或预算内暂缓，均视为正常）"
+else
+  echo "⚠️ 推送未完成，提交保留在本地，等 deploy-flush 定时窗口"
+fi
 
 echo "=== $(date '+%F %T') publish-queue done"
