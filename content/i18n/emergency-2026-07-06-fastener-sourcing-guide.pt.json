@@ -1,0 +1,50 @@
+{
+  "slug": "emergency-2026-07-06-fastener-sourcing-guide",
+  "sections": [
+    {
+      "id": "start",
+      "heading": {
+        "pt": "Comece pelas especificações, não pelos preços"
+      },
+      "body": {
+        "pt": "A maioria dos problemas de abastecimento nos mercados africanos começa muito antes da ordem de compra. Um comprador que compara três orçamentos de um parafuso descrito apenas como M16 galvanizado está comparando três produtos diferentes. O primeiro passo é fixar a especificação: norma de rosca, classe de propriedade, sistema e espessura do revestimento, tolerâncias, marcação e embalagem. Escreva o requisito na linguagem da norma que regerá a inspeção e, em seguida, transcreva-o no desenho ou na ficha técnica que segue com o pedido.<p>Uma vez existente essa ficha, os orçamentos tornam-se comparáveis e a inspeção passa a ser possível. Os compradores que pulam essa etapa costumam descobrir a diferença quando o contêiner chega: a espessura do revestimento de uma amostra é quarenta micra menor que o esperado, ou a classe de propriedade é 8.8 em vez da 10.9 que o cálculo estrutural previa.</p><p>Um modelo de especificação de uma página, cobrindo tamanho, grau, revestimento, marcação, embalagem e método de inspeção, é o documento mais útil de um programa de importação. Leva uma tarde para ser preparado e economiza semanas depois."
+      }
+    },
+    {
+      "id": "supplier",
+      "heading": {
+        "pt": "Verifique o fornecedor antes de verificar o produto"
+      },
+      "body": {
+        "pt": "A verificação da fábrica trata de capacidade real, não de catálogos. Peça a licença de produção, as linhas de tratamento térmico e de revestimento realmente instaladas, a faixa de tamanho que cada linha consegue produzir e os dois últimos relatórios de auditoria de terceiros. Um fornecedor que não faz o tratamento térmico em casa compra esse serviço de um subcontratado; isso não é fatal, mas muda onde o risco fica e quem assina o certificado de conformidade.<p>Pergunte o que a fábrica faz quando um lote falha em dureza ou espessura de revestimento. Os fornecedores com rota de retrabalho e reinspeção respondem em detalhe; os comerciantes sem linha própria respondem em generalidades. Peça o nome do inspetor que assinará o relatório pré-embarque e, se possível, a data de calibração do durômetro. Essas perguntas separam os escritórios comerciais das fábricas.</p><p>Duas referências de compradores que importaram a mesma família de produtos nos últimos doze meses valem mais do que uma visita ao showroom. Ligue e pergunte pela segunda remessa, não pela primeira, pois a consistência aparece na segunda."
+      }
+    },
+    {
+      "id": "inspection",
+      "heading": {
+        "pt": "A inspeção antes do embarque é o seguro mais barato"
+      },
+      "body": {
+        "pt": "Rejeitar um contêiner no porto de destino é caro: sobre-estadia, frete de retorno, nova inspeção e perda de cronograma. A inspeção na fábrica custa uma fração disso e, para um lote padrão, geralmente é concluída em um dia útil.<p>Uma inspeção útil cobre quatro pontos: dimensões contra o desenho, verificação de rosca com calibres passa e não passa, propriedades mecânicas por dureza e, quando exigido, tração ou carga de prova, e espessura do revestimento medida em vários pontos da mesma peça. Fotografe o lote real de produção com o número de lote visível e exija que a lista de embalagem faça referência a esse número, para que o contêiner seja rastreável até o relatório.</p><p>Combine o plano de amostragem com antecedência. O nível geral de inspeção II da ISO 2859 é um padrão razoável para fixações comerciais; itens estruturais críticos merecem planos mais rigorosos e rastreabilidade completa dos números de forno. Guarde o relatório no arquivo do contêiner, pois a próxima inspeção no destino o solicitará."
+      }
+    },
+    {
+      "id": "logistics",
+      "heading": {
+        "pt": "Planeje o frete em torno do verdadeiro gargalo"
+      },
+      "body": {
+        "pt": "A escolha do frete para destinos africanos raramente depende do trecho marítimo. O porto de descarga, o transporte interno e o processo de liberação aduaneira é que definem a data de entrega.<p>Compare pelo menos duas portas de entrada para cada destino. Um porto mais próximo do local com menos saídas costuma perder para um porto mais movimentado, com serviço semanal e trecho rodoviário confiável. Verifique a capacidade do terminal e o tempo médio de permanência, em vez das taxas de frete chamativas, pois uma fila de dez dias apaga a economia de uma saída mais barata.</p><p>Consolide quando possível. Um contêiner de quarenta pés com várias especificações de uma só vez geralmente vence três contêineres de vinte pés no frete e no custo de despacho, desde que a embalagem seja documentada linha por linha e o contêiner possa ser descarregado na ordem que o local precisa.</p><p>Construa uma folga de duas semanas no cronograma para a primeira remessa por uma porta nova. Essa folga não é pessimismo; é o preço de aprender um novo corredor."
+      }
+    },
+    {
+      "id": "cost",
+      "heading": {
+        "pt": "Controle o custo total no destino em vez de negociar o preço unitário"
+      },
+      "body": {
+        "pt": "A negociação do preço unitário costuma mover um pedido de fixações em poucos pontos percentuais. As decisões sobre o custo total movem-no em dezenas de pontos. O modo de frete, a taxa de enchimento do contêiner, a escolha do revestimento, a densidade do embalamento e a classificação fiscal ficam todos fora da coluna de preço.<p>Modele o pedido como um único número: valor das mercadorias mais transporte interno, despacho de exportação, frete marítimo, seguro, imposto de importação, IVA, taxas portuárias, honorários de agente e entrega interna. Depois teste o modelo com um revestimento mais barato, uma embalagem mais densa e uma porta de entrada diferente. Os compradores que fazem esse exercício costumam descobrir que uma dessas variáveis paga por todo o programa de inspeção.</p><p>Mantenha o modelo atualizado. As linhas tarifárias, as taxas de frete e a prática de despacho mudam, e um modelo feito no ano passado é base fraca para a ordem de compra deste ano. Revise-o a cada remessa e registre o que realmente aconteceu, pois a diferença entre modelo e realidade é onde se esconde a próxima economia."
+      }
+    }
+  ]
+}
