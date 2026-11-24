@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import { locales, type Locale } from '@/i18n'
+import { legalNoteCopy, lastUpdatedCopy, pick } from '@/lib/uiCopy'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 
@@ -168,7 +169,12 @@ export default async function PrivacyPolicyPage({ params }: { params: Promise<{ 
           <div className="container mx-auto px-4 sm:px-6">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-3xl md:text-4xl font-bold mb-4">{pageContent.title}</h1>
-              <p className="text-slate-300">Last updated: January 15, 2026</p>
+              <p className="text-slate-300">{pick(lastUpdatedCopy, loc).replace('{d}', '2026-01-15')}</p>
+              {loc !== 'en' && (
+                <p className="text-xs text-slate-400 mt-3 max-w-2xl mx-auto">
+                  {pick(legalNoteCopy, loc)}
+                </p>
+              )}
             </div>
           </div>
         </section>

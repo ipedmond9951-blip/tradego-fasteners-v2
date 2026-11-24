@@ -664,3 +664,19 @@ export const certCardCopy: Record<string, { name: Record<string, string>; desc: 
     desc: L10('Material & Coating Tests', '材质与镀层检测', 'Ensayos de material y revestimiento', 'Essais matériau et revêtement', 'Ensaios de material e revestimento', 'اختبارات المادة والطلاء', 'Испытания материала и покрытия', '材料・コーティング試験', 'Material- und Beschichtungsprüfungen', 'सामग्री और कोटिंग परीक्षण'),
   },
 }
+
+// 法律页语言声明：条款/隐私正文为英文原文（法律口径以英文版为准），非英语站给本语种提示
+export const legalNoteCopy = L10(
+  'This page is written in English; the English version is the legally binding one.',
+  '本页正文为英文原文，具有法律效力的版本为英文版。',
+  'Esta página está redactada en inglés; la versión inglesa es la que tiene validez legal.',
+  'Cette page est rédigée en anglais ; seule la version anglaise fait foi juridiquement.',
+  'Esta página está redigida em inglês; a versão inglesa é a que tem validade legal.',
+  'هذه الصفحة مكتوبة بالإنجليزية، والنسخة الإنجليزية هي الملزمة قانونًا.',
+  'Текст этой страницы составлен на английском языке; юридическую силу имеет английская версия.',
+  'このページの本文は英語です。法的効力を持つのは英語版です。',
+  'Diese Seite ist auf Englisch verfasst; rechtlich verbindlich ist die englische Fassung.',
+  'यह पृष्ठ अंग्रेज़ी में लिखा गया है; कानूनी रूप से मान्य अंग्रेज़ी संस्करण है।'
+)
+
+export const lastUpdatedCopy = L10('Last updated: {d}', '最后更新：{d}', 'Última actualización: {d}', 'Dernière mise à jour : {d}', 'Última atualização: {d}', 'آخر تحديث: {d}', 'Обновлено: {d}', '最終更新: {d}', 'Zuletzt aktualisiert: {d}', 'अंतिम अद्यतन: {d}')
