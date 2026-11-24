@@ -63,9 +63,11 @@ export default function OrganizationSchema({ locale = 'en' }: OrganizationSchema
       closes: '18:00',
       timeZone: 'Asia/Shanghai',
     },
-    // 未验证/未开通的社媒不要放进 sameAs：指向 404 空号会比不写更伤实体可信度（2026-11-24 实测 x.com 与 youtube 均 404）
-    // 账号开通并发布内容后再逐条加回，例如：
-    // sameAs: ['https://www.linkedin.com/company/tradegofasteners'],
+    // sameAs 只放实测可访问的官方账号，404 空号比不写更伤实体可信度（2026-11-24 逐个 curl 验证 200）
+    sameAs: [
+      'https://x.com/tradego_fast',
+      'https://www.youtube.com/@TradeGoFasteners',
+    ],
 
     hasCredential: [
       { '@type': 'EducationalOccupationalCredential', name: 'ISO 9001:2015', credentialCategory: 'quality' },
