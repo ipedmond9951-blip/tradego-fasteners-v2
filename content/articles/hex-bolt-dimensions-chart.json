@@ -386,7 +386,8 @@
         "ru": "Советы по закупкам: как избежать путаницы в размерах",
         "ja": "調達のコツ：寸法ミスを防ぐ方法",
         "de": "Beschaffungstipps: Maßverwechslungen vermeiden",
-        "hi": "खरीद युक्तियाँ: आयामों के भ्रम से कैसे बचें"
+        "hi": "खरीद युक्तियाँ: आयामों के भ्रम से कैसे बचें",
+        "zh": "采购提示：避免尺寸混淆"
       },
       "body": {
         "en": "The most common procurement errors are: confusing bolt length with thread length (always specify total bolt length per the standard); mixing metric and imperial in the same order (clearly separate line items); not specifying thread pitch for metric <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a> above M18 where fine pitch alternatives exist; and ordering partially threaded when fully threaded is needed (or vice versa). For African infrastructure projects, metric is the standard, but always confirm the project specification — some oil & gas projects use imperial. Create a <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a> schedule table for each project listing: size, grade, length, thread type, coating, and quantity. For more information, also see our guides on [bolt grades](/en/industry/bolt-grade-markings-guide), [carriage <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a>](/en/industry/carriage-<a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a>-specifications), [<a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nuts</a> and <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a>](/en/industry/nylon-<a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nuts</a>-<a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a>-guide). For B2B buyers operating in multiple countries, harmonize specifications with regional standards and local customs requirements. Common regional frameworks: SABS (South Africa), KEBS (Kenya), TBS (Tanzania), ZIMRA (Zimbabwe), SON (Nigeria), and AfCFTA standards for pan-Africa trade. Local standards compliance is often mandatory for public infrastructure projects, mining operations, and government tenders. For B2B buyers operating in multiple countries, harmonize specifications with regional standards and local customs requirements. Common regional frameworks: SABS (South Africa), KEBS (Kenya), TBS (Tanzania), ZIMRA (Zimbabwe), SON (Nigeria), and AfCFTA standards for pan-Africa trade. Local standards compliance is often mandatory for public infrastructure projects, mining operations, and government tenders.",
@@ -412,7 +413,8 @@
         "ru": "Часто задаваемые вопросы",
         "ja": "よくある質問",
         "de": "Häufig gestellte Fragen",
-        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+        "hi": "अक्सर पूछे जाने वाले प्रश्न",
+        "zh": "常见问题解答"
       },
       "faqItems": [
         {
