@@ -225,7 +225,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
           <Image src={optImagePath(article.image, 'hero')} alt={title} fill className="object-cover" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1200px" priority quality={80} />
         </div>
         <div className="container mx-auto px-4 sm:px-6 relative z-10 max-w-3xl">
-          <Link href={`/${locale}/industry`} className="inline-flex items-center gap-1 text-primary-200 hover:text-white text-sm mb-6 transition-colors">
+          <Link href={`/${locale}/industry/`} className="inline-flex items-center gap-1 text-primary-200 hover:text-white text-sm mb-6 transition-colors">
             ← {pick(backToArticles, locale)}
           </Link>
           <span className="inline-block bg-primary-500 text-white text-xs font-semibold px-3 py-1 rounded-full mb-4">{article.category}</span>
@@ -253,7 +253,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
         {/* CTA */}
         <div className="mt-12 bg-primary-50 rounded-xl p-6 md:p-8 text-center">
           <p className="text-lg font-medium text-gray-900 mb-4">{ctaText}</p>
-          <Link href={`/${locale}${article.cta?.link || '/contact'}`} className="inline-block bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors">
+          <Link href={`/${locale}${article.cta?.link || '/contact'}/`} className="inline-block bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors">
             {ctaBtn}
           </Link>
         </div>
@@ -268,7 +268,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
                 const label = typeof p === 'string' ? p : (p.title || p.slug)
                 const display = humanizeSlug(label)
                 return (
-                  <Link key={typeof p === 'string' ? p : `${slug}-${i}`} href={`/${locale}/products`} className="px-4 py-2 bg-gray-100 rounded-lg text-sm text-gray-700 hover:bg-primary-100 hover:text-primary-700 transition-colors">
+                  <Link key={typeof p === 'string' ? p : `${slug}-${i}`} href={`/${locale}/products/`} className="px-4 py-2 bg-gray-100 rounded-lg text-sm text-gray-700 hover:bg-primary-100 hover:text-primary-700 transition-colors">
                     {display}
                   </Link>
                 )

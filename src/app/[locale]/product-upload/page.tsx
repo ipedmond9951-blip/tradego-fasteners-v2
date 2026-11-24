@@ -40,7 +40,7 @@ export default function ProductUploadPage() {
               ? '我们的团队将在24小时内审核您的产品信息。'
               : 'Our team will review your product information within 24 hours.'}
           </p>
-          <a href={`/${locale}/products`} className="inline-flex items-center bg-primary-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-800 transition-colors">
+          <a href={`/${locale}/products/`} className="inline-flex items-center bg-primary-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-800 transition-colors">
             ← {t(locale, 'products.allProducts')}
           </a>
         </div>
@@ -201,7 +201,7 @@ export default function ProductUploadPage() {
             >
               {loading ? '⏳ Submitting...' : '🚀 Submit Product'}
             </button>
-            <a href={`/${locale}/products`} className="flex-1 text-center py-3 rounded-lg font-semibold text-gray-600 bg-gray-100 hover:bg-gray-200 transition-colors text-base">
+            <a href={`/${locale}/products/`} className="flex-1 text-center py-3 rounded-lg font-semibold text-gray-600 bg-gray-100 hover:bg-gray-200 transition-colors text-base">
               Cancel
             </a>
           </div>

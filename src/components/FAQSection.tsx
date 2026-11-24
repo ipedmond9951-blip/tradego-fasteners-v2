@@ -47,7 +47,7 @@ export default function FAQSection({ locale = 'en' }: FAQSectionProps) {
 
         <div className="text-center mt-8 md:mt-12">
           <p className="text-gray-600 mb-3 md:mb-4 text-sm md:text-base">{t(locale, 'faq.contact')}</p>
-          <a href={`/${locale}#inquiry`} className="inline-flex items-center gap-2 bg-primary-700 text-white px-5 md:px-6 py-2.5 rounded-lg font-semibold hover:bg-primary-800 transition-colors text-sm md:text-base">
+          <a href={`/${locale}/#inquiry`} className="inline-flex items-center gap-2 bg-primary-700 text-white px-5 md:px-6 py-2.5 rounded-lg font-semibold hover:bg-primary-800 transition-colors text-sm md:text-base">
             {t(locale, 'faq.contactCta')}
           </a>
         </div>

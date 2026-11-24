@@ -155,7 +155,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
               <a href={`/${loc}/#inquiry`} className="bg-primary-700 text-white px-6 py-3 rounded-lg font-bold hover:bg-primary-900 transition-colors">
                 {t(loc, 'about.getQuote')}
               </a>
-              <a href={`/${loc}/products`} className="border-2 border-primary-700 text-primary-700 px-6 py-3 rounded-lg font-bold hover:bg-primary-50 transition-colors">
+              <a href={`/${loc}/products/`} className="border-2 border-primary-700 text-primary-700 px-6 py-3 rounded-lg font-bold hover:bg-primary-50 transition-colors">
                 {t(loc, 'about.viewProducts')}
               </a>
             </div>

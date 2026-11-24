@@ -36,7 +36,7 @@ export default async function ZimbabweFastenersPage({ params }: { params: Promis
             20+ years supplying drywall screws, hex bolts, IBR nails, and self-drilling screws to Zimbabwe, South Africa, and Southern Africa at factory prices.
           </p>
           <div className="flex flex-wrap gap-4">
-            <a href={`/${locale}/products`} className="bg-white text-[#0A3D62] px-6 py-3 rounded font-semibold hover:bg-gray-100">
+            <a href={`/${locale}/products/`} className="bg-white text-[#0A3D62] px-6 py-3 rounded font-semibold hover:bg-gray-100">
               View Products
             </a>
             <a href="https://wa.me/8615963409951" className="bg-green-500 text-white px-6 py-3 rounded font-semibold hover:bg-green-600 flex items-center gap-2">

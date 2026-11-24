@@ -37,7 +37,7 @@ export default function Header({ locale = 'en' }: HeaderProps) {
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <nav className="container mx-auto px-4">
         <div className="flex justify-between items-center h-14 md:h-16">
-          <a href={`/${locale}`} className="flex items-center flex-shrink-0">
+          <a href={`/${locale}/`} className="flex items-center flex-shrink-0">
             <span className="text-xl md:text-2xl font-bold text-primary-700">TradeGo</span>
             <span className="ml-1 md:ml-2 text-sm md:text-lg text-gray-600 hidden sm:inline">Fasteners</span>
           </a>
@@ -87,7 +87,7 @@ export default function Header({ locale = 'en' }: HeaderProps) {
             <div className="hidden sm:flex items-center gap-1.5">
               <CurrencySwitcher />
             </div>
-            <a href={`/${locale}#inquiry`} className="hidden md:inline-flex bg-primary-700 text-white px-4 py-2 rounded-lg font-semibold hover:bg-primary-900 transition-colors text-xs md:text-sm whitespace-nowrap">
+            <a href={`/${locale}/#inquiry`} className="hidden md:inline-flex bg-primary-700 text-white px-4 py-2 rounded-lg font-semibold hover:bg-primary-900 transition-colors text-xs md:text-sm whitespace-nowrap">
               {t(locale, 'nav.contact')}
             </a>
             <button onClick={() => setMenuOpen(!menuOpen)} className="lg:hidden p-3 min-w-[44px] min-h-[44px] text-gray-600 hover:bg-gray-100 rounded-md flex items-center justify-center" aria-label="Menu">

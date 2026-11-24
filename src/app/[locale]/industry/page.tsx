@@ -79,7 +79,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
           <div className="flex flex-wrap gap-2 mb-8">
             <Link
               key="All"
-              href={`/${locale}/industry`}
+              href={`/${locale}/industry/`}
               className="px-4 py-2 rounded-full text-sm font-medium transition-colors bg-primary-700 text-white"
             >
               All
@@ -87,7 +87,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
             {categories.filter(c => c !== 'All').map((cat) => (
               <Link
                 key={cat}
-                href={`/${locale}/industry/category/${slugify(cat)}`}
+                href={`/${locale}/industry/category/${slugify(cat)}/`}
                 className="px-4 py-2 rounded-full text-sm font-medium transition-colors bg-white text-gray-600 hover:bg-gray-100 border border-gray-200"
               >
                 {cat}
@@ -102,7 +102,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
               return (
                 <Link
                   key={article.slug}
-                  href={`/${locale}/industry/${article.slug}`} prefetch={false}
+                  href={`/${locale}/industry/${article.slug}/`} prefetch={false}
                   className="group bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-all flex flex-col md:flex-row"
                 >
                   {/* Image */}
@@ -142,7 +142,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
               {categories.filter(c => c !== 'All').map((cat) => (
                 <Link
                   key={`all-${cat}`}
-                  href={`/${locale}/industry/category/${slugify(cat)}`}
+                  href={`/${locale}/industry/category/${slugify(cat)}/`}
                   className="px-3 py-1.5 rounded-full text-sm bg-gray-50 text-gray-700 border border-gray-200 hover:bg-primary-50 hover:text-primary-700 hover:border-primary-200 transition-colors"
                 >
                   {cat} <span className="text-gray-400">({categoryCounts[cat]})</span>

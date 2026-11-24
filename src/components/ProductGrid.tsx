@@ -49,7 +49,7 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
         </a>
 
         <div className={`flex-1 ${big ? 'p-5 md:p-6' : 'p-4 md:p-5'} flex flex-col`}>
-          <a href={`/${locale}/products/${product.slug}`} className="block hover:text-primary-700 transition-colors">
+          <a href={`/${locale}/products/${product.slug}/`} className="block hover:text-primary-700 transition-colors">
             <h3 className={`${big ? 'text-base md:text-lg' : 'text-sm md:text-base'} font-bold text-primary-900 mb-1`}>{name}</h3>
           </a>
           {desc && <p className="hidden sm:block text-gray-600 text-xs md:text-sm mb-3 line-clamp-2">{desc}</p>}
@@ -62,7 +62,7 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
 
           <div className="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between gap-2">
             <span className="text-gray-500 text-xs md:text-sm">{pick(productGridCopy.quoteNote, locale)}</span>
-            <a href={`/${locale}#inquiry`} className="bg-primary-700 text-white px-3 md:px-4 py-1.5 md:py-2 rounded-lg text-xs md:text-sm font-semibold hover:bg-primary-800 transition-colors whitespace-nowrap">
+            <a href={`/${locale}/#inquiry`} className="bg-primary-700 text-white px-3 md:px-4 py-1.5 md:py-2 rounded-lg text-xs md:text-sm font-semibold hover:bg-primary-800 transition-colors whitespace-nowrap">
               {t(locale, 'products.inquiry')}
             </a>
           </div>
@@ -132,7 +132,7 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
         </div>
 
         <div className="mt-12 flex justify-center">
-          <a href={`/${locale}/products`} className="inline-flex items-center gap-2 border border-primary-700 text-primary-700 px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-primary-700 hover:text-white transition-colors">
+          <a href={`/${locale}/products/`} className="inline-flex items-center gap-2 border border-primary-700 text-primary-700 px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-primary-700 hover:text-white transition-colors">
             {pick(productGridCopy.viewAll, locale)} →
           </a>
         </div>

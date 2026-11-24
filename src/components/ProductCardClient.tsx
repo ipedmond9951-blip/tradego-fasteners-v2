@@ -88,7 +88,7 @@ export default function ProductCardClient({ product, locale, name }: ProductCard
 
         {/* Inquiry Button - Using new Button component */}
         <ButtonLink 
-          href={`/${locale}#inquiry`}
+          href={`/${locale}/#inquiry`}
           variant="primary"
           size="sm"
           className="w-full mt-auto"

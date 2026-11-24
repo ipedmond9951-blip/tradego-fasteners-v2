@@ -231,7 +231,7 @@ export default async function CategoryPage({
         <div className="container mx-auto px-4 sm:px-6">
           {/* Breadcrumb */}
           <nav className="text-sm text-primary-200 mb-3">
-            <Link href={`/${locale}/industry`} className="hover:text-white">All Articles</Link>
+            <Link href={`/${locale}/industry/`} className="hover:text-white">All Articles</Link>
             <span className="mx-2">/</span>
             <span className="text-white">{catLabel}</span>
           </nav>
@@ -252,7 +252,7 @@ export default async function CategoryPage({
               return (
                 <Link
                   key={article.slug}
-                  href={`/${locale}/industry/${article.slug}`} prefetch={false}
+                  href={`/${locale}/industry/${article.slug}/`} prefetch={false}
                   className="group bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-all flex flex-col md:flex-row"
                 >
                   {/* Image */}
