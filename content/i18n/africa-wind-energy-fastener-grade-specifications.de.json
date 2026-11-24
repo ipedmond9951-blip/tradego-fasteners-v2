@@ -1,0 +1,50 @@
+{
+  "slug": "africa-wind-energy-fastener-grade-specifications",
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": {
+        "de": "Windkraft-Befestigung: warum die Festigkeitsklasse die Lebensdauer bestimmt"
+      },
+      "body": {
+        "de": "Windenergieanlagen versagen häufiger an Verbindungen als an einzelnen Bauteilen. Turmflansche, Blattwurzeln, Gondellagerungen und Fundamentanschlüsse sind alle auf Schraubverbindungen angewiesen, die die Vorspannung über Jahrzehnte wechselnder Belastung halten müssen, und genau die Festigkeitsklasse-Spezifikation macht das möglich.<p>Dieser Leitfaden bleibt bei den Spezifikationsfragen, die ein Einkäufer beantworten muss: welche Festigkeitsklasse, welche Beschichtung, welches Spannverfahren und welche Nachweise.</p>"
+      }
+    },
+    {
+      "id": "grades",
+      "heading": {
+        "de": "Klassenwahl: 10.9 ist ein Ausgangspunkt, keine Regel"
+      },
+      "body": {
+        "de": "An Turm- und Fundamentverbindungen wird üblicherweise Klasse 10.9 eingesetzt, 8.8 an sekundären Strukturpositionen und höhere Klassen dort, wo die Auslegung es erfordert. Die Klasse wirkt mit Schraubengröße, Gelenkgeometrie und Spannverfahren zusammen; eine Klasse ohne diese drei Angaben vorzuschreiben ist eine unvollständige Anweisung.<p>Ebenso wichtig ist die Materialroute hinter der Klasse. Eine Festigkeitsklasse 10.9, die über eine andere Legierung und Wärmebehandlung erreicht wird, verhält sich beim Tieftemperaturstoß anders — genau das ist die Bedingung, der Windstandorte in kalten oder hochgelegenen Regionen ausgesetzt sind.</p>"
+      }
+    },
+    {
+      "id": "fatigue",
+      "heading": {
+        "de": "Ermüdung und Vorspannung: die maßgeblichen Zahlen"
+      },
+      "body": {
+        "de": "Schraubverbindungen im Windbetrieb sind so ausgelegt, dass die Fuge unter Ermüdungslast geschlossen bleibt. Das bedeutet, die Vorspannung muss hoch und gleichmäßig genug sein, damit die Schraube nie den vollen äußeren Lastzyklus aufnimmt. Damit ist das Spannverfahren Teil der Ingenieurplanung, keine Baustellenpräferenz.<p>Hydraulisches Spannen, Drehmomentkontrolle und direkte Spannungsanzeige erzeugen jeweils eine andere Vorspannungsstreuung. Die Spezifikation sollte das Verfahren und das Akzeptanzfenster benennen und eine Prüfung am Muster fordern, statt sich auf den Schraubenschlüssel zu verlassen.</p>"
+      }
+    },
+    {
+      "id": "coating",
+      "heading": {
+        "de": "Beschichtung in Küsten- und Offshore-Bedingungen"
+      },
+      "body": {
+        "de": "Onshore-Türme in Küstenzonen und alle Offshore-Bauwerke sehen sich einer Chlorideinwirkung ausgesetzt, der gewöhnliche Zinküberzug nicht standhält. Basis ist eine Feuerverzinkung mit definierter Mindestdicke; bei langem Wartungsintervall kommen Duplex-Systeme aus Verzinkung und versiegeltem Deckanstrich zum Einsatz.<p>Bei Gewindeteilen muss die Beschichtung für das Gewinde spezifiziert sein, nicht nur für den Schaft. Eine zu dicke Schicht verändert die Passung, eine zu dünne korrodiert zuerst genau dort, wo sich die Spannung konzentriert.</p>"
+      }
+    },
+    {
+      "id": "evidence",
+      "heading": {
+        "de": "Nachweise, die der Käufer vor der Montage bereithalten sollte"
+      },
+      "body": {
+        "de": "Fordern Sie Werkstoffzertifikate mit Schmelzennummern, mechanische Eigenschaften einschließlich Tieftemperaturstoß soweit relevant, Beschichtungsdicke-Messungen und Kalibrierungsunterlagen des Spannwerkzeugs. Ergänzen Sie einen Bericht zur Vorspannungsprüfung am Muster aus dem Verfahrensversuch des Lieferanten.<p>Führen Sie die Unterlagen auch nach der Montage weiter. Windanlagen werden über Jahrzehnte geprüft, und das Eigentum wechselt; eine Fuge, deren Spannungsnachweis nicht auffindbar ist, wird nachgespannt oder ersetzt, und am Turm ist das eine Kranarbeit, keine routinemäßige Wartung.</p>"
+      }
+    }
+  ]
+}
