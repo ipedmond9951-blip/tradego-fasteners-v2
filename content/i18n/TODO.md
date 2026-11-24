@@ -89,3 +89,10 @@
 - 同步收尾 4 篇只剩 1 节的 A 类文章（galvanic-corrosion / high-tensile / roofing-screws-epdm / threaded-rods），各补 ru/ja/de/hi 正文与小标题，verify 通过。
 - 副作用说明：`verify` 的 0.45–2.2 长度比在去重后会对约 219 篇报 length-ratio 告警，集中在 es/fr/pt/hi 的 FAQ、Related resources 段落（以链接清单为主，词数天然偏高）。判定口径：missing / english-heavy 才算缺陷，单纯长度比告警不处理；该口径已同步组织方。
 
+## 2026-11-24 追加二：检出「英文占位」缺陷（译文字段其实是英文原文）
+
+- `body_i18n.py status` 之前只查「语种缺失」，漏掉一类更隐蔽的缺陷：字段存在、但内容是英文原文（早期批量填充把 en 写进了各语种槽位）。新增 `english_copy()` 检测（非拉丁语种按字符集，拉丁语种按与 en 的相似度 + 英文停用词），`status` 与新 `verify` 均会报 `english-copy`。
+- 首次全库扫描：**120 篇文章 / 496 个字段**属英文占位，语言分布 ja 135、hi 111、ar 111、ru 103、es/fr/pt/de 各 9。清单落 `content/i18n/BACKLOG-untranslated.json`。
+- 最严重两篇：`mozambique-lng-construction-fasteners-maputo`（60 字段，ar/ru/ja/hi 全篇英文）、`lobito-corridor-railway-fastener-procurement`（56 字段，2026-11-21 新文，ar/ru/ja/hi 近全篇英文）。
+- 处理约定：这两篇由我直写译文；其余按清单派给组织方并行补；`verify` 的 `english-copy` 属必须修为 0 的硬缺陷（length-ratio 仍按噪声处理）。
+

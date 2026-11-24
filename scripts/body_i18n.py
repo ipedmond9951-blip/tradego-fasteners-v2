@@ -30,6 +30,43 @@ def load(slug):
     return json.load(open(p, encoding='utf-8'))
 
 
+EN_STOP = set(('the and for with from that this are is of to in on by as at be or '
+               "its their it we you our will can not").split())
+TARGET_RE = {'ar': r'[\u0600-\u06ff]', 'ru': r'[\u0400-\u04ff]',
+             'ja': r'[\u3040-\u30ff\u4e00-\u9fff]', 'hi': r'[\u0900-\u097f]'}
+
+
+def is_english_copy(en, t, lang):
+    """检出「译文槽位里其实是英文原文」：非拉丁语种看字符集，拉丁语种看与 en 的相似度。"""
+    if not en or not t:
+        return False
+    rx = TARGET_RE.get(lang)
+    if rx:
+        return len(re.findall(rx, t)) < 5 and len(re.findall(r'[A-Za-z]{3,}', t)) > 4
+    try:
+        from difflib import SequenceMatcher
+        if SequenceMatcher(None, en, t).ratio() <= 0.9:
+            return False
+    except Exception:
+        return False
+    ewords = re.findall(r"[A-Za-z']{2,}", re.sub(r'<[^>]+>', '', en))
+    return len({w.lower() for w in ewords} & EN_STOP) >= 6
+
+
+def english_copy(article):
+    out = []
+    for s in article.get('sections', []):
+        for field in ('heading', 'body'):
+            d = s.get(field) or {}
+            en = d.get('en', '')
+            for lang in LANGS:
+                if lang in ('en', 'zh'):
+                    continue
+                if is_english_copy(en, d.get(lang, ''), lang):
+                    out.append({'id': s.get('id'), 'field': field, 'lang': lang})
+    return out
+
+
 def missing(article):
     out = []
     for s in article.get('sections', []):
@@ -42,10 +79,13 @@ def missing(article):
 
 def cmd_status(as_json):
     rows = []
+    copies = 0
     for f in sorted(glob.glob(os.path.join(ART, '*.json'))):
         a = json.load(open(f, encoding='utf-8'))
         m = missing(a)
-        if m:
+        c = english_copy(a)
+        if m or c:
+            copies += len(c)
             rows.append({
                 'slug': a.get('slug'),
                 'date': a.get('date'),
@@ -54,13 +94,16 @@ def cmd_status(as_json):
                 'missing_sections': len(m),
                 'langs_missing': sorted({l for x in m for l in x['body_missing']}),
                 'detail': m,
+                'english_copy_fields': len(c),
+                'english_copy': c,
             })
     if as_json:
         print(json.dumps(rows, ensure_ascii=False, indent=2))
         return
-    print('缺语种文章: %d 篇' % len(rows))
-    for r in sorted(rows, key=lambda x: (x['date'] or ''), reverse=True):
-        print('  %-58s %2d段 缺: %s' % (r['slug'][:58], r['sections'], ','.join(r['langs_missing']) or '-'))
+    print('缺语种/英文占位文章: %d 篇，英文占位字段 %d 个' % (len(rows), copies))
+    for r in sorted(rows, key=lambda x: -x['english_copy_fields']):
+        print('  %-58s %2d段 缺: %-24s 英文占位: %d' % (
+            r['slug'][:58], r['sections'], ','.join(r['langs_missing']) or '-', r['english_copy_fields']))
 
 
 def cmd_init(slug):
@@ -183,6 +226,8 @@ def cmd_verify(slug, phase1=False):
                     continue
                 if lang in ('ar', 'ja', 'hi', 'ru') and is_english_heavy(t, lang):
                     bad.append((s.get('id'), field, lang, 'english-heavy'))
+                if lang not in ('en', 'zh') and is_english_copy(en, t, lang):
+                    bad.append((s.get('id'), field, lang, 'english-copy'))
                 if en:
                     ratio = len(t.split()) / max(len(en.split()), 1)
                     if lang not in ('zh', 'ja') and not (0.45 <= ratio <= 2.2):
