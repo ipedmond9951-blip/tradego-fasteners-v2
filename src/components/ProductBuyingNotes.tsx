@@ -180,6 +180,122 @@ const copy: Record<string, { title: string; sections: { h: string; p: (specs: Re
       },
     ],
   },
+  ru: {
+    title: 'Заметки по закупке для импортёров',
+    sections: [
+      {
+        h: 'Стандарты и диапазон размеров',
+        p: s => `Производство ведётся по стандарту, указанному в таблице характеристик — ${s.standard || 'стандарту из таблицы'}. Диапазон размеров, по которому мы даём цену, — ${s.size || 'указанный выше'}. Если проекту нужен другой раздел (DIN, ISO, ANSI/ASME, SABS или GB), пришлите номер стандарта — мы считаем по нему, не подменяя близким аналогом.`,
+      },
+      {
+        h: 'Выбор материала и покрытия',
+        p: s => `Базовый материал — ${s.material || 'указанный выше'}; варианты покрытия — ${s.finish || 'указанные выше'}. Для деталей, постоянно открытых на улице, и на объектах в пределах примерно 10 км от берега (Бейра, Дурбан, порты Мозамбика и Кении) задавайте горячее цинкование или нержавеющую сталь вместо обычного цинка: тонкий электролитический цинк в морском воздухе начинает краснеть уже за сезон.`,
+      },
+      {
+        h: 'Упаковка, загрузка контейнера и срок',
+        p: () => 'Стандартная экспортная упаковка — коробки на поддонах; гвозди и проволока идут в мешках по 25 кг. Количество в коробке, число поддонов и загрузка контейнера подтверждаются по размеру при оферте, разные размеры можно грузить в один 20GP. Обычное производство — 15–25 дней после депозита плюс 20–30 дней морской перевозки до Бейры или Дурбана.',
+      },
+      {
+        h: 'Контроль качества и инспекция',
+        p: () => 'Каждую партию проверяют по допускам размеров, резьбовому калибру, толщине покрытия и внешнему виду; для конструкционных позиций дополнительно делают испытания на растяжение и твёрдость. Сертификаты завода идут с партией, предотгрузочную инспекцию третьей стороны (SGS, BV или ваш агент) можно организовать — просите её при заказе, а не после выпуска.',
+      },
+      {
+        h: 'Условия поставки, документы и таможня',
+        p: () => 'Стандартно котируем FOB Циндао / Тяньцзинь, по запросу — CIF Бейра или Дурбан. Комплект документов: коммерческий инвойс, упаковочный лист, коносамент, сертификат происхождения и сертификаты завода; протоколы SABS по кровельным гвоздям — по запросу. Если очищаете груз в Бейре для Зимбабве, при планировании учитывайте наземный участок до Хараре или Булавайо.',
+      },
+      {
+        h: 'Что прислать для цены в тот же день',
+        p: () => 'Достаточно пяти пунктов: размер, стандарт, материал и покрытие, количество по каждому размеру, порт назначения. По ним мы в тот же рабочий день вернём цену, MOQ, упаковку и срок и можем добавить план загрузки смешанного контейнера.',
+      },
+    ],
+  },
+  de: {
+    title: 'Einkaufshinweise für Importeure',
+    sections: [
+      {
+        h: 'Normen und Größenbereich',
+        p: s => `Die Produktion folgt der in der Spezifikationstabelle genannten Norm — ${s.standard || 'der Norm aus der Tabelle'}. Der von uns angebotene Größenbereich ist ${s.size || 'der oben genannte'}. Wenn Ihr Projekt eine andere Ausführung verlangt (DIN, ISO, ANSI/ASME, SABS oder GB), senden Sie uns die Normnummer — wir kalkulieren dann nach dieser Ausführung, ohne sie durch ein ungefähres Äquivalent zu ersetzen.`,
+      },
+      {
+        h: 'Werkstoff und Oberfläche',
+        p: s => `Grundwerkstoff ist ${s.material || 'der oben genannte'}; Oberflächenoptionen sind ${s.finish || 'die oben genannten'}. Für dauerhaft außenliegende Teile und auf Baustellen im Bereich von rund 10 km zur Küste (Beira, Durban, Häfen in Mosambik und Kenia) verlangen Sie Feuerverzinkung oder Edelstahl statt reinem Zink — dünne elektrolytische Zinkschichten beginnen in Salzluft innerhalb einer Saison rot zu rosten.`,
+      },
+      {
+        h: 'Verpackung, Containerbeladung und Lieferzeit',
+        p: () => 'Die Standard-Exportverpackung sind Kartons auf Paletten; Nägel und Drahtware gehen in 25-kg-Säcken. Kartonmenge, Palettenzahl und Containerbeladung werden bei der Kalkulation je Größe bestätigt, verschiedene Größen lassen sich in einem 20GP mischen. Die normale Produktion dauert 15–25 Tage nach Anzahlung, dazu 20–30 Tage Seefracht nach Beira oder Durban.',
+      },
+      {
+        h: 'Qualitätskontrolle und Inspektion',
+        p: () => 'Jede Charge wird auf Maßtoleranz, Gewindelehrring, Schichtdicke und Oberfläche geprüft; strukturelle Artikel erhalten zusätzlich Zug- und Härteprüfungen. Die Werkszeugnisse liegen der Sendung bei, eine Vorversandprüfung durch Dritte (SGS, BV oder Ihr Beauftragter) ist organisierbar — bitte bei der Bestellung anfordern, nicht nach Produktionsende.',
+      },
+      {
+        h: 'Lieferbedingungen, Dokumente und Zoll',
+        p: () => 'Standard ist FOB Qingdao / Tianjin, auf Anfrage CIF Beira oder Durban. Zum Dokumentensatz gehören Handelsrechnung, Packliste, Konnossement, Ursprungszeugnis und Werkszeugnisse; SABS-Prüfberichte für Dachnägel gibt es auf Anfrage. Wenn Sie über Beira nach Simbabwe verzollen, planen Sie die Landstrecke nach Harare oder Bulawayo mit ein.',
+      },
+      {
+        h: 'Was für ein Angebot am selben Tag nötig ist',
+        p: () => 'Fünf Angaben genügen: Größe, Norm, Werkstoff und Oberfläche, Menge je Größe und Bestimmungshafen. Damit erhalten Sie noch am selben Werktag Preis, MOQ, Verpackung und Lieferzeit; auf Wunsch mit Beladeplan für einen Mischcontainer.',
+      },
+    ],
+  },
+  ja: {
+    title: '輸入者向け購買メモ',
+    sections: [
+      {
+        h: '規格とサイズ範囲',
+        p: s => `生産は上記の仕様表に記載の規格 — ${s.standard || '表の規格'} — に従います。見積のサイズ範囲は ${s.size || '上記のとおり'} です。プロジェクトが別の規定（DIN、ISO、ANSI/ASME、SABS、GB）を要求する場合は規格番号をお知らせください。近い同等品で置き換えるのではなく、その規定で見積ります。`,
+      },
+      {
+        h: '材質と表面処理の選定',
+        p: s => `母材は ${s.material || '上記のとおり'}、表面処理の選択肢は ${s.finish || '上記のとおり'} です。常時屋外に露出する部品や、海岸からおよそ10km以内の現場（ベイラ、ダーバン、モザンビーク・ケニアの港）では、普通亜鉛ではなく溶融亜鉛めっきまたはステンレスを指定してください。薄い電気亜鉛は塩分の多い空気では1シーズンで赤錆が出ます。`,
+      },
+      {
+        h: '梱包・コンテナ積載・納期',
+        p: () => '標準の輸出梱包はパレット上のカートン、釘と線材は25kg袋です。1箱数量・パレット数・コンテナ積載は見積時にサイズごとに確定し、異なるサイズを1本の20GPに混載できます。通常生産は前受金後15〜25日、これにベイラまたはダーバンまでの海上輸送20〜30日が加わります。',
+      },
+      {
+        h: '品質管理と検査',
+        p: () => '各ロットは寸法公差・ねじゲージ・めっき厚・外観で検査し、構造用はさらに引張と硬さ試験を行います。ミルシートは船積みに同梱し、第三者による出荷前検査（SGS、BV、ご指定の代理店）も手配できます。生産終了後ではなく、発注時にご依頼ください。',
+      },
+      {
+        h: '輸送条件・書類・通関',
+        p: () => '標準はFOB青島／天津、ご要望によりCIFベイラ／ダーバンです。書類は商業請求書、パッキングリスト、船荷証券、原産地証明、ミルシート。屋根釘のSABS関連試験報告書はご要望により提供します。ベイラ通関でジンバブエ向けの場合は、ハラレまたはブラワヨまでの陸送区間も計画に含めてください。',
+      },
+      {
+        h: '当日見積に必要な情報',
+        p: () => '5項目で足ります。サイズ、規格、材質と表面処理、サイズ別数量、仕向港。揃っていれば同一営業日中に価格・MOQ・梱包・納期を返信し、混載コンテナの積載案も添付できます。',
+      },
+    ],
+  },
+  hi: {
+    title: 'आयातकर्ताओं के लिए खरीद नोट्स',
+    sections: [
+      {
+        h: 'मानक और आकार सीमा',
+        p: s => `उत्पादन ऊपर की स्पेसिफिकेशन तालिका में दिए मानक — ${s.standard || 'तालिका में दिया मानक'} — के अनुसार होता है। हम जिस आकार सीमा का कोट करते हैं वह ${s.size || 'ऊपर दी गई'} है। यदि आपके प्रोजेक्ट को कोई और क्लॉज़ (DIN, ISO, ANSI/ASME, SABS या GB) चाहिए तो मानक संख्या भेजें; हम निकट-समान विकल्प न लगाकर उसी क्लॉज़ पर कोट करेंगे।`,
+      },
+      {
+        h: 'सामग्री और फिनिश का चयन',
+        p: s => `आधार सामग्री ${s.material || 'ऊपर दी गई'} है; फिनिश विकल्प ${s.finish || 'ऊपर दिए गए'} हैं। जो पुर्ज़े लगातार बाहर खुले रहते हैं, और तट से लगभग 10 किमी के भीतर के किसी भी साइट (बेइरा, डरबन, मोज़ाम्बिक और केन्या के बंदरगाह) पर, सादे जस्ता की जगह हॉट-डिप गैल्वनाइज़्ड या स्टेनलेस चुनें — पतली इलेक्ट्रो-ज़िंक परत नमकीन हवा में एक ही मौसम में लाल जंग पकड़ लेती है।`,
+      },
+      {
+        h: 'पैकिंग, कंटेनर लोडिंग और लीड टाइम',
+        p: () => 'मानक निर्यात पैकिंग पैलेट पर कार्टन है; कीलें और तार 25 किग्रा बैग में जाते हैं। प्रति कार्टन मात्रा, पैलेट संख्या और कंटेनर लोडिंग कोट के समय प्रति आकार तय होती है, और अलग-अलग आकार एक ही 20GP में लोड हो सकते हैं। सामान्य उत्पादन डिपॉज़िट के बाद 15–25 दिन, साथ में बेइरा या डरबन तक 20–30 दिन समुद्री माल ढुलाई।',
+      },
+      {
+        h: 'गुणवत्ता नियंत्रण और निरीक्षण',
+        p: () => 'हर लॉट की जाँच आयामी सहनशीलता, थ्रेड गेज, कोटिंग मोटाई और दिखावट पर होती है; संरचनात्मक श्रेणियों में टेन्साइल और हार्डनेस टेस्ट अतिरिक्त होते हैं। मिल सर्टिफिकेट शिपमेंट के साथ आते हैं, और तीसरे पक्ष का प्री-शिपमेंट निरीक्षण (SGS, BV या आपका नामित एजेंट) कराया जा सकता है — इसे ऑर्डर के समय माँगें, उत्पादन खत्म होने के बाद नहीं।',
+      },
+      {
+        h: 'शिपिंग शर्तें, दस्तावेज़ और क्लियरेंस',
+        p: () => 'मानक रूप में हम FOB क़िंगदाओ / तियानजिन और अनुरोध पर CIF बेइरा या डरबन कोट करते हैं। दस्तावेज़ सेट: कमर्शियल इनवॉइस, पैकिंग लिस्ट, बिल ऑफ लेडिंग, सर्टिफिकेट ऑफ ओरिजिन और मिल सर्टिफिकेट; रूफिंग नेल के SABS टेस्ट रिपोर्ट अनुरोध पर उपलब्ध हैं। ज़िम्बाब्वे के लिए बेइरा से क्लियर कर रहे हों तो हरारे या बुलावायो तक का थल मार्ग भी योजना में रखें।',
+      },
+      {
+        h: 'उसी दिन कोट के लिए क्या भेजें',
+        p: () => 'पाँच बातें काफी हैं: आकार, मानक, सामग्री और फिनिश, प्रति आकार मात्रा, और गंतव्य बंदरगाह। इनके साथ हम उसी कार्यदिन कीमत, MOQ, पैकिंग और लीड टाइम लौटा देते हैं, और मिश्रित कंटेनर के लिए लोडिंग प्लान भी जोड़ सकते हैं।',
+      },
+    ],
+  },
 }
 
 export default function ProductBuyingNotes({ specs, locale }: Props) {
