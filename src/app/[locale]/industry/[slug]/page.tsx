@@ -251,6 +251,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
         
         {/* Social Share Buttons */}
         <ShareButtons 
+          label={t(locale, "industry.share")}
           url={`${SITE_URL}/${locale}/industry/${slug}`}
           title={title}
           description={desc}

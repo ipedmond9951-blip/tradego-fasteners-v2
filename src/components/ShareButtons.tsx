@@ -4,12 +4,13 @@ import { useState } from 'react'
 
 interface ShareButtonsProps {
   url: string
+  label?: string
   title: string
   description?: string
   image?: string
 }
 
-export default function ShareButtons({ url, title }: ShareButtonsProps) {
+export default function ShareButtons({ url, title, label }: ShareButtonsProps) {
   const [copied, setCopied] = useState(false)
 
   const encodedUrl = encodeURIComponent(url)
@@ -27,7 +28,7 @@ export default function ShareButtons({ url, title }: ShareButtonsProps) {
 
   return (
     <div className="flex flex-wrap items-center gap-3 py-4 border-t border-b border-gray-200 my-6">
-      <span className="text-sm text-gray-600 mr-2">Share:</span>
+      <span className="text-sm text-gray-600 mr-2">{label || "Share:"}</span>
       
       {/* LinkedIn */}
       <a
