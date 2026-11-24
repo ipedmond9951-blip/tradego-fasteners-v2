@@ -105,7 +105,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
     sku: `TG-${slug.toUpperCase()}`,
     brand: { '@type': 'Brand', name: 'TradeGo Fasteners' },
     material: product.specs.material,
-    category: name,
+    category: category ? pick(category.label, locale) || category.label.en : name,
     url: canonical,
     offers: {
       '@type': 'Offer',

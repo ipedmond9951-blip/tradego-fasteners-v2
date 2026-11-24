@@ -1,5 +1,5 @@
 'use client'
-import { productNames as i18nNames, productDescriptions as i18nDescs, pick } from '@/lib/productI18n'
+import { productNames as i18nNames, productDescriptions as i18nDescs, specLabels, pick } from '@/lib/productI18n'
 
 import { type Locale } from '@/i18n'
 
@@ -23,56 +23,9 @@ interface ProductSchemaProps {
   locale: Locale
 }
 
-const productNames: Record<string, Record<string, string>> = {
-  en: {
-    'drywall-screws': 'Drywall Screws',
-    'self-drilling-screws': 'Self-Drilling Screws',
-    'bolts-nuts': 'Bolts & Nuts',
-    'ibr-nails': 'IBR Nails',
-    'anchor-bolts': 'Anchor Bolts',
-    'washers': 'Washers',
-    'coach-screws': 'Coach Screws',
-    'threaded-rods': 'Threaded Rods',
-  },
-  zh: {
-    'drywall-screws': 'Drywall Screws',
-    'self-drilling-screws': 'Self-Drilling Screws',
-    'bolts-nuts': 'Bolts & Nuts',
-    'ibr-nails': 'IBR Nails',
-    'anchor-bolts': 'Anchor Bolts',
-    'washers': 'Washers',
-    'coach-screws': 'Coach Screws',
-    'threaded-rods': 'Threaded Rods',
-  },
-}
-
-const productDescriptions: Record<string, Record<string, string>> = {
-  en: {
-    'drywall-screws': 'High-quality drywall screws for construction and interior decoration. SABS & ISO 9001 certified manufacturer with 20+ years of Africa-focused experience. Sharp point, bugle head, fine thread options. Popular for African construction projects.',
-    'self-drilling-screws': 'Premium self-drilling TEK screws for metal-to-metal fastening. Drill point design for easy installation. Available in zinc plated and Ruspert finish.',
-    'bolts-nuts': 'Industrial grade hex bolts and nuts Grade 4.8 to 12.9. Full and partial thread options. Suitable for construction, machinery, and automotive applications.',
-    'ibr-nails': 'Umbrella head roofing nails for IBR and corrugated roofing. SABS 1195 compliant. Smooth and ring shank options for secure fastening.',
-    'anchor-bolts': 'Heavy-duty anchor bolts for foundation and structural connections. ASTM F1554 certified with hot-dip galvanized finish. Suitable for construction, solar panel mounting, and heavy machinery.',
-    'washers': 'Flat washers and spring washers for machinery, automotive, and construction. DIN 125 / ISO 7089 standard. Available in zinc plated and HDG finish.',
-    'coach-screws': 'Hex head coach screws for wood-to-wood and deck fastening. Hot-dip galvanized for outdoor use. Suitable for decking, fencing, and landscaping.',
-    'threaded-rods': 'Fully threaded rods for structural and machinery applications. Available in M6-M24 sizes, 1m-3m lengths. Cut to custom sizes available.',
-  },
-  zh: {
-    'drywall-screws': 'High-quality drywall screws for construction and interior decoration. SABS & ISO 9001 certified manufacturer with 20+ years of Africa-focused experience.',
-    'self-drilling-screws': 'Premium self-drilling TEK screws for metal-to-metal fastening. Drill point design for easy installation.',
-    'bolts-nuts': 'Industrial grade hex bolts and nuts Grade 4.8 to 12.9. Full and partial thread options.',
-    'ibr-nails': 'Umbrella head roofing nails for IBR and corrugated roofing. SABS 1195 compliant.',
-    'anchor-bolts': 'Heavy-duty anchor bolts for foundation and structural connections. ASTM F1554 certified.',
-    'washers': 'Flat washers and spring washers for machinery, automotive, and construction.',
-    'coach-screws': 'Hex head coach screws for wood-to-wood and deck fastening.',
-    'threaded-rods': 'Fully threaded rods for structural and machinery applications.',
-  },
-}
+const SITE = 'https://www.tradego-fasteners.com'
 
 export default function ProductSchema({ products, locale }: ProductSchemaProps) {
-  const names = productNames[locale] || productNames.en
-  const descriptions = productDescriptions[locale] || productDescriptions.en
-
   // Render each product as a standalone Product schema (Google requirement)
   // ItemList is not recognized for product rich results
   return (
@@ -81,8 +34,8 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
         const schema = {
           '@context': 'https://schema.org',
           '@type': 'Product',
-          name: pick(i18nNames[product.slug] || {}, locale) || names[product.slug] || product.nameKey,
-          description: pick(i18nDescs[product.slug] || {}, locale) || descriptions[product.slug] || `High-quality ${product.nameKey} for industrial and construction use.`,
+          name: pick(i18nNames[product.slug], locale) || product.nameKey,
+          description: pick(i18nDescs[product.slug], locale),
           image: `https://www.tradego-fasteners.com${product.image}`,
           brand: {
             '@type': 'Brand',
@@ -90,7 +43,7 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
           },
           sku: `TRADEGO-${product.slug.toUpperCase()}`,
           mpn: product.slug.toUpperCase(),
-          color: 'Silver/Gray',
+          url: `${SITE}/${locale}/products/${product.slug}/`,
           material: product.specs.material,
           offers: {
             '@type': 'Offer',
@@ -128,10 +81,10 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
             },
           },
           additionalProperty: [
-            { '@type': 'PropertyValue', name: 'Size', value: product.specs.size },
-            { '@type': 'PropertyValue', name: 'Standard', value: product.specs.standard },
-            { '@type': 'PropertyValue', name: 'Material', value: product.specs.material },
-            { '@type': 'PropertyValue', name: 'Finish', value: product.specs.finish },
+            { '@type': 'PropertyValue', name: pick(specLabels.size, locale), value: product.specs.size },
+            { '@type': 'PropertyValue', name: pick(specLabels.standard, locale), value: product.specs.standard },
+            { '@type': 'PropertyValue', name: pick(specLabels.material, locale), value: product.specs.material },
+            { '@type': 'PropertyValue', name: pick(specLabels.finish, locale), value: product.specs.finish },
           ],
           countryOfOrigin: {
             '@type': 'Country',
