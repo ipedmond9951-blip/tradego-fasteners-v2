@@ -3,38 +3,38 @@
   "sections": [
     {
       "id": "section-1-the-20b-mozambique-lng-opportunity-and-why-fastener-selection-will-define-epc-success",
-      "heading": {
-        "zh": "200 亿美元 LNG 项目：紧固件选型决定 EPC 成败"
+      "body": {
+        "zh": "莫桑比克 LNG（液化天然气）行业已不再是预测阶段。截至 2026 年初，TotalEnergies 位于德尔加杜角省 Afungi 的莫桑比克 LNG 项目已完成约 40%；不可抗力状态于 2025 年 11 月解除后，项目全部作业已于 2026 年 1 月 29 日全面重启。装置规划年产能为 1,310 万吨 LNG（MTPA），首船液化天然气预计于 2029 年发运。TotalEnergies 牵头的联合体成员包括 ENH（Empresa Nacional de Hidrocarbonetos，国家碳氢化合物公司）、三井、ONGC、Bharat Petroleum、Oil India 与 PTTEP。仅项目 EPC 阶段就涉及超过 30,000 吨结构与管道紧固件，覆盖低温、工艺、海事及结构各类应用，主要采购自南非、中国和印度制造商。\n对 B2B 采购方而言——无论是 Saipem、McDermott、Chiyoda、KBR 这类一级 EPC 承包商的采购经理，还是 ENH 的维护负责人，或是 Matola、Maputo 的进口经销商——关键问题不在于会不会采购紧固件，而在于货物能否准时到达、牌号是否正确，以及证书能否通过 Afungi QA/QC 团队的现场核验。低温 LNG 管道法兰上误用一根 B7 螺柱，后果不只是扭矩测试不合格；它会成为脆性断裂隐患，足以导致一个 $20B 项目停工。\n本指南梳理了 2026 年莫桑比克 LNG 通道紧固件采购的工程要求、供应链现实与商业风险点，范围覆盖从 Maputo 的 DP World 码头到以北约 1,800 km 的 Afungi 施工现场。相关产品：<a href=\"/en/products/high-tensile-bolts\">高强度螺栓</a> <a href=\"/en/products/anchor-bolts\">地脚螺栓</a> <a href=\"/en/products/stainless-bolts\">不锈钢紧固件</a> <a href=\"/en/products/hex-bolts\">六角螺栓</a> <a href=\"/en/products/lock-nuts\">锁紧螺母</a> <a href=\"/en/products/washers\">垫圈</a> <a href=\"/en/products/self-drilling-screws\">自钻螺钉</a> <a href=\"/en/products/socket-screws\">内六角螺钉</a>。"
       }
     },
     {
       "id": "section-2-why-astm-a193-b7-is-the-wrong-default-for-lng-and-what-to-specify-instead",
-      "heading": {
-        "zh": "为何 LNG 不宜默认采用 ASTM A193 B7 螺栓"
+      "body": {
+        "zh": "LNG 采购早期常见的错误，是一刀切指定 ASTM A193 B7 螺柱——因为 B7 是炼油厂和电厂惯用的“标配”高温合金螺柱。问题在于：LNG 工况温度约为 -162°C（-259°F），而 ASTM A193 B7 的标准最低使用温度为 -45°C（-50°F）。若不补充 -101°C 的夏比 V 型缺口冲击试验就低于该温度使用，螺柱在现场可能发生无塑性变形的脆性解理断裂——这正是 LNG 储罐与管道泄漏的典型原因。\n莫桑比克 LNG 的正确选型对应关系：\n- 低温螺栓（LNG 储罐、主液化管道、冷箱内部、气化器）：ASTM A320 L7 级（调质合金钢，必须在 -101°C 做夏比 V 型缺口冲击试验）或 L7M；用于更低温度直至 LNG 本体温度（-162°C）时，按 ASME B16.5 法兰等级选用 L43（奥氏体不锈钢，304/316 化学成分）。\n- 一般非低温工艺管道（蒸气回流管线、胺系统、再生塔）：ASTM A193 B7 并补充 -45°C S5 冲击试验即可接受；在 0°C 以上烃类工况的 ASME B16.5 Class 150# 至 Class 2500# 法兰上，B7 同样适用。\n- 海事与飞溅区螺栓（码头、管汇、FSO 系泊）：ASTM A193 B8M（316 不锈钢，Class 1），更高强度选 B8M Class 2；也可接受 ISO 3506 A4-80（316 的公制对应牌号），按 ISO 3506-1 要求含 Cr 16.0–18.5%、Ni 10.0–14.0%、Mo 2.0–3.0%、C ≤ 0.08%。钼含量不可让步：它能防止莫桑比克温暖多盐的沿海空气引发点蚀和缝隙腐蚀。\n- PTFE 或 Xylan 涂层螺栓（海底连接接头、甲醇注入橇、化学注入针管）：基体选用 A193 B7 螺柱，面层为 PTFE/Xylan 1424 或 1052 涂层。涂层并非防腐权宜之计，而是防咬合、可控装配的系统，让 EPC 班组在 35°C 盐雾环境下拧紧时不发生卡滞。\n采购提示：当 RFQ 写“B7 或同等牌号，用于 LNG”时，这是危险信号。正确做法是拿出温度选型图予以反驳，并要求进一步细分。能分清 L7、L7M、L43 区别、并能按 ASTM A370 做钢厂试验的紧固件供应商，可为 EPC 省去一年的现场拒收损失。"
       }
     },
     {
       "id": "section-3-maputo-port-in-2026-the-bottleneck-no-one-talks-about",
-      "heading": {
-        "zh": "2026 年 Maputo 港：鲜被谈及的物流瓶颈"
+      "body": {
+        "zh": "Maputo 港由 MPDC（Portos de Maputo）运营，集装箱码头由 DP World 管理。2025 年港口货物吞吐量创下历史纪录：3,200 万吨，较 2024 年的 3,090 万吨同比增长 3.4%；同期铁路集疏港运量从 970 万吨增至 1,170 万吨，增幅 17%，体现了将大宗货物从 EN1 公路转移至 Ressano Garcia 与 Limpopo 铁路走廊的既定策略。对紧固件进口商而言，这一点至关重要：Afungi 工地在公路以北约 1,800 km，经 N1 公路途经 Xai-Xai、Inhambane、Maxixe、Vilankulo、Inhassoro，车队需行驶 3 天，沿途燃料有限、移动网络时断时续，且需遵守德尔加杜角叛乱后的安保规定（至 2025 年局势已基本控制，但仍属二级风险区域）。\nDP World 于 2025 年 5 月 1 日动工扩建一座 1.65 亿美元集装箱码头：吞吐能力将从 255,000 TEU 翻倍至 530,000 TEU，岸线从 308 m 延长至 650 m，泊位水深从 12 m 浚深至 16 m，可停靠总长 366 m 以内的后巴拿马型船舶；特许经营权延续至 2058 年。扩建直接惠及紧固件进口商：M8–M36 六角螺栓、螺柱螺栓和结构锚栓的托盘式集装箱货物，以 20 尺和 40 尺集装箱装运，现在可先在 Maputo 集货，再经驳船转运至 Matola 油码头，或转铁路接入 Limpopo 线。\n需要提前规划的运营风险：\n- 2025 年海关执法收紧：莫桑比克现已强制使用 8 位 HS 编码清关。紧固件归入 HS 编码 73.18（螺钉、螺栓、螺母、方头螺钉、螺纹钩、铆钉、开口销、垫圈及类似钢铁制品）；其他未列明螺纹制品归入 7318.29.00。归类错误很常见——中国钢厂若把“螺柱螺栓”错编为 7307（管子）而非 7318，将导致货物被扣。\n- 按 CIF 计征关税：莫桑比克海关按 CIF 价值计税。一般关税税率 0–20%，消费品为 20%；多数工业紧固件落在 7.5% 档（欧盟与 SADC 协定下 7318.29.00 的适用税率）。另加 16% VAT，以及 2.5% 的可持续商业税（TSA）。\n- SADC 原产地优化：作为 SADC 成员，对符合 SADC 原产地规则并附有 SADC 原产地证书的货物，莫桑比克在最惠国税率基础上给予 0–25% 的优惠关税。持有 SADC 原产地的南非钢厂自动符合条件；中国钢厂不具备，但南非仓库和拼箱商（Cozens、Trident、Robor）可在实际生产来源为中国钢厂、且南非仓库完成“实质性加工”后重新出具原产地单证（仅重新包装不符合；再加工、滚丝或锌片涂层符合条件）。"
       }
     },
     {
       "id": "section-4-sourcing-from-china-what-the-afungi-qa-team-will-check",
-      "heading": {
-        "zh": "中国采购：Afungi 质检团队核验要点"
+      "body": {
+        "zh": "进入 SADC 及莫桑比克 LNG 配套项目的中国紧固件出口，走三条认证路线。事先弄清 EPC 接受哪一条，可省去 3–6 个月的审批周期。\n1. EN 10204 3.1 工厂试验证书（MTC）：由钢厂质量部门出具，独立于生产部门。所有承压和承载螺栓均须提供。MTC 必须注明炉号、化学成分（合金牌号含 C、Mn、Si、S、P、Cr、Mo、Ni、V）、力学性能（抗拉、屈服、伸长率、硬度），低温牌号还须注明规定试验温度下的夏比冲击功。LISI、Fortune、Tongcheng、QFC 等中国钢厂常规提供 3.1 证书；小型贸易商通常不具备。\n2. ISO 17020 第三方检验（TPI）报告：Saipem、McDermott、Chiyoda、KBR 各有认可的第三方检验机构名单。莫桑比克 LNG 项目最常引用的 TPI 机构为 SGS、Bureau Veritas、TÜV Rheinland 和 Intertek。TPI 代理在发货前到厂见证热处理、进行尺寸抽样，并出具放行通知。没有 TPI，货物无法在 Matola 卸货。\n3. 项目专项审批：部分 EPC 要求提交项目质量计划（PQP）评审和制造商质量计划（MQP），覆盖从线材到成品紧固件的全部生产流程。这是一项 60–90 天的工程评审；周期才是瓶颈，而非价格。\n中国至 Maputo 的货运通常走三条通道：(a) 上海/宁波 → 新加坡 → Maputo（海运 24–28 天）；(b) 深圳 → 德班 → 经 Golela 口岸公路/铁路至 Maputo（30 天以上，但可与南非库存拼箱）；(c) 上海 → 达累斯萨拉姆 → 公路至莫桑比克（少见，仅用于紧急备件）。项目适用的 Incoterms 为 FOB 上海（EPC 自行安排海运，通常委托具备 LNG 行业经验的项目货代）和 CIF Maputo（供应商负责海运及至港保险，买方负责关税与内陆运输）。DDP Matola 很少采用，因为多数中国钢厂没有本地代理，无法自行办理莫桑比克清关。"
       }
     },
     {
       "id": "section-5-total-cost-of-ownership-why-the-cheapest-quote-fails",
-      "heading": {
-        "zh": "总拥有成本：低价报价为何容易失效"
+      "body": {
+        "zh": "2024 年一项针对 SADC 能源项目紧固件拒收率的内部复盘显示：报价低于中位数 8–15% 的批次，通常在三个环节之一失守：(1) 夏比冲击值并未实测，仅在纸面上出证；(2) 尺寸公差超出 ISO 4759-1 A 级产品等级要求，证书却标注“A”；(3) 锌片涂层厚度低于规定的 8–12 µm，实际沉积仅 5 µm。单批拒收的成本——Maputo 滞港费、退运、项目工期延误——通常是原报价节省额的 4–8 倍。\n莫桑比克 LNG 紧固件的正确采购模式，正是 TotalEnergies 一级 EPC 已经采用的：通过预审的中国钢厂 + 持有 SADC 原产地的南非拼箱商 + Matola/Maputo 本地清关代理。价格比最低报价高 5–10%，但现场数据显示按时足量交付率为 95–98%，而钢厂直发仅为 70–80%。这一差距就是项目的全部利润空间。\n当前评估供应商的 EPC 与采购经理，可立即采取三项动作：\n1. 在 RFQ 发出前锁定牌号选型图，不要让 B7 默认渗入低温物料清单：低温工况指定 A320 L7/L7M，海事工况指定 B8M（A4-80），B7 仅用于非低温法兰。\n2. 凡是供低温工况的批次，无论订单大小，都坚持在钢厂现场见证夏比试验。TPI 的职责是现场见证试验，而非接受纸面证书。\n3. 集货地选 Maputo 而非德班。Maputo 2025 年铁路与集装箱能力升级后，Maputo 清关的货物可在 7–10 天内运抵 Afungi 堆场；德班会增加 4–6 天跨境公路运输，并打断 SADC 原产地链条。相关产品：<a href=\"/en/products/high-tensile-bolts\">高强度螺栓</a> <a href=\"/en/products/anchor-bolts\">地脚螺栓</a> <a href=\"/en/products/stainless-bolts\">不锈钢紧固件</a> <a href=\"/en/products/hex-bolts\">六角螺栓</a> <a href=\"/en/products/lock-nuts\">锁紧螺母</a> <a href=\"/en/products/washers\">垫圈</a> <a href=\"/en/products/self-drilling-screws\">自钻螺钉</a> <a href=\"/en/products/socket-screws\">内六角螺钉</a>。"
       }
     },
     {
       "id": "faq",
-      "heading": {
-        "zh": "常见问题解答"
+      "body": {
+        "zh": "Q1: LNG 通道实际需要哪些紧固件牌号？\nA1: 燃气工程的结构螺栓通常按 ASTM A325 或 A490 同等标准，采用热浸镀锌或锌片涂层；管道与法兰工况则采用 A193 B7 或 A320 L7 螺柱及配套螺母。沿海环境下，涂层厚度和盐雾表现与强度等级同等重要。\nQ2: EPC 采购方如何安排交付窗口？\nA2: 多数物料包按施工顺序释放，因此能在 Maputo 保有缓冲库存、分批放货的供应商，比一次性发运全部货物的供应商更有用。须确认合同约定的交货地点是 Maputo 港、堆场还是工地门口，最后一段路程往往才是工期风险所在。\nQ3: 到货时需要哪些单证？\nA3: 工厂证书、涂层厚度报告、尺寸检验记录，以及与发票逐行对应的装箱单。莫桑比克海关可能因单证不符扣柜，因此发货前的单证审核比在港口解决争议成本更低。\nQ4: 本地备货是否现实可行？\nA4: 仅适用于常用规格。特殊牌号和大直径规格通常按项目计划进口，因此在项目最初几周，尽早冻结规格比价格谈判更重要。"
       }
     }
   ]
