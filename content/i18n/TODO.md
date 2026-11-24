@@ -71,3 +71,11 @@
 - 首页认证卡片：名称与释义十语（原先英文 QMS/SABS/CE/Test Reports 说明）。
 - `public/llms.txt`：补十语 locale 入口表，提示 AI 引擎按语言引用对应 URL。
 - 待办：`public/robots.txt` 与 `src/app/robots.ts` 冲突，dev 下 `/robots.txt` 500（线上以 robots.ts 为准）；保留现状未动，若要清理需确认线上 robots 来源。
+
+## 2026-11-24 追加：产品 schema、市场页与法律页收尾（未 push）
+
+- `src/components/ProductSchema.tsx`：删除两块失效的硬编码英文产品名/描述表与回退链，`name`/`description` 直接取 `productI18n`（65 slug 全覆盖）；补 `url: /{locale}/products/{slug}/`；`additionalProperty` 四个属性名改走 `specLabels`（size/standard/material/finish × 十语）；去掉无意义的 `color: 'Silver/Gray'`。`/products/` 列表页 65 个 Product 节点已全部带本地化名、描述、属性名与 url（hi/ru/de/ja 实测）。
+- `src/app/[locale]/products/[slug]/page.tsx`：PDP 的 `category` 由产品名改为本地化品类名（`categoryOf` + `categoryLabel`/`pick`），ru「Анкеры」、ja「アンカー」、de「Dübel & Anker」。
+- `src/lib/marketText.ts`（新增）：市场正文统一入口，优先级 = 各语种覆盖文件（marketsI18n/EsJa/Ru/Ar/DeHi）→ `markets.ts` 的 en/zh。`/markets/` 总览卡片原先只读 `hero[locale] || hero.en`，非 en/zh 全站卡片显示英文 hero；详情页也改走同一入口，删除各自拼装的空值链。津巴布韦卡片简介另存 `zimbabweHero` 十语（该市场正文页为英语独占落地页，只补卡片一句）。
+- `src/app/[locale]/{terms,privacy-policy}/page.tsx` + `uiCopy.legalNoteCopy/lastUpdatedCopy`：日期与语言声明十语化，非英语站显示「本页正文为英文原文，法律效力以英文版为准」。**条款与隐私正文仍为英文原文（en/zh 两套）**，其余 8 语回落英文属既定取舍——法律文本不做机器翻译，避免条款责任风险；若后续要正式本地化，应交人工/律师处理。
+- sitemap/robots 复核：`public/sitemap.xml`（4,394 loc 旧快照）与 `public/robots.txt` 是本地构建残留、未被 git 跟踪，但会让 dev 下 `/sitemap.xml`、`/robots.txt` 抛 500（conflicting public file and page file）。已删除本地副本，dev 现返回 200：sitemap 4,322 条 loc，全部带尾斜杠、无重复，`/steel-prices/` 与 zimbabwe 落地页只出 en；robots 为 `robots.ts` 的 AI 白名单版本。仓库内无该两文件，线上不受影响。
