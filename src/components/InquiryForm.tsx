@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { type Locale, t } from '@/i18n'
 import { trackGA4Event } from '@/components/Analytics'
+import { inquiryOptionCopy, pick } from '@/lib/uiCopy'
 
 interface InquiryFormProps { locale?: Locale }
 
@@ -142,15 +143,15 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
             <label htmlFor="inquiry-products" className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.products')}</label>
             <select id="inquiry-products" name="products" className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent">
               <option value="">{t(locale, 'inquiry.selectProduct')}</option>
-              <option value="drywall">Drywall Screws</option>
-              <option value="self-drilling">Self-Drilling Screws (TEK)</option>
-              <option value="bolts">Bolts & Nuts</option>
-              <option value="ibr">IBR Nails (SABS 1195)</option>
-              <option value="anchor">Anchor Bolts</option>
-              <option value="washers">Washers</option>
-              <option value="coach">Coach Screws</option>
-              <option value="threaded">Threaded Rods</option>
-              <option value="other">Other</option>
+              <option value="drywall">{pick(inquiryOptionCopy[0], locale)}</option>
+              <option value="self-drilling">{pick(inquiryOptionCopy[1], locale)}</option>
+              <option value="bolts">{pick(inquiryOptionCopy[2], locale)}</option>
+              <option value="ibr">{pick(inquiryOptionCopy[3], locale)}</option>
+              <option value="anchor">{pick(inquiryOptionCopy[4], locale)}</option>
+              <option value="washers">{pick(inquiryOptionCopy[5], locale)}</option>
+              <option value="coach">{pick(inquiryOptionCopy[6], locale)}</option>
+              <option value="threaded">{pick(inquiryOptionCopy[7], locale)}</option>
+              <option value="other">{pick(inquiryOptionCopy[8], locale)}</option>
             </select>
           </div>
           <div>

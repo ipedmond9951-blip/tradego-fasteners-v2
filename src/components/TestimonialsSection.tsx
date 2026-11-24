@@ -1,6 +1,7 @@
 'use client'
 
 import { type Locale, t } from '@/i18n'
+import { badgeCopy, pick } from '@/lib/uiCopy'
 
 interface TestimonialsSectionProps { locale?: Locale }
 
@@ -65,7 +66,7 @@ export default function TestimonialsSection({ locale = 'en' }: TestimonialsSecti
                     <span key={j} className="text-yellow-400 text-lg">★</span>
                   ))}
                 </div>
-                <span className="text-xs text-gray-400 font-medium">B2B Verified</span>
+                <span className="text-xs text-gray-400 font-medium">{pick(badgeCopy.b2b, locale)}</span>
               </div>
               
               {/* Project Context Badge */}

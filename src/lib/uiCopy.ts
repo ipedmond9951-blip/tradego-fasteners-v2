@@ -511,3 +511,23 @@ export const articleCta = {
     'कोटेशन मांगें',
   ),
 }
+
+// 认证徽标与询盘表单选项（2026-11-24 新增，原为硬编码英文）
+export const badgeCopy = {
+  sabs: L10('SABS Certified', 'SABS 认证', 'Certificado SABS', 'Certifié SABS', 'Certificado SABS', 'معتمد من SABS', 'Сертификат SABS', 'SABS 認証', 'SABS-zertifiziert', 'SABS प्रमाणित'),
+  ce: L10('CE Marked', 'CE 认证', 'Marcado CE', 'Marquage CE', 'Marcação CE', 'علامة CE', 'Маркировка CE', 'CE マーク', 'CE-Kennzeichnung', 'CE चिह्नित'),
+  madeIn: L10('Made in China', '中国制造', 'Fabricado en China', 'Fabriqué en Chine', 'Fabricado na China', 'صناعة صينية', 'Сделано в Китае', '中国製', 'Hergestellt in China', 'चीन में निर्मित'),
+  b2b: L10('B2B Verified', 'B2B 认证', 'Verificado B2B', 'Vérifié B2B', 'Verificado B2B', 'موثّق B2B', 'Проверено B2B', 'B2B 認証', 'B2B-geprüft', 'B2B सत्यापित'),
+}
+
+export const inquiryOptionCopy = [
+  L10('Drywall Screws', '干墙螺钉', 'Tornillos para drywall', 'Vis à plaque de plâtre', 'Parafusos para drywall', 'براغي الجبس', 'Шурупы для гипсокартона', '石膏ボード用ねじ', 'Trockenbauschrauben', 'ड्राईवॉल स्क्रू'),
+  L10('Self-Drilling Screws (TEK)', '自钻螺钉（TEK）', 'Tornillos autoperforantes (TEK)', 'Vis autoperceuses (TEK)', 'Parafusos autoperfurantes (TEK)', 'براغي حفر ذاتي (TEK)', 'Саморезы TEK', 'セルフドリリング（TEK）ねじ', 'Selbstbohrende TEK-Schrauben', 'सेल्फ-ड्रिलिंग (TEK) स्क्रू'),
+  L10('Bolts & Nuts', '螺栓与螺母', 'Pernos y tuercas', 'Boulons et écrous', 'Parafusos e porcas', 'براغي وصواميل', 'Болты и гайки', 'ボルト・ナット', 'Schrauben und Muttern', 'बोल्ट और नट'),
+  L10('IBR Roofing Nails', 'IBR 屋面钉', 'Clavos IBR para cubierta', 'Pointes IBR pour toiture', 'Pregos IBR para cobertura', 'مسامير IBR للأسقف', 'Кровельные гвозди IBR', 'IBR 屋根くぎ', 'IBR-Dachnägel', 'IBR रूफिंग कील'),
+  L10('Anchor Bolts', '锚栓', 'Anclajes', 'Ancrages', 'Chumbadores', 'مراسي', 'Анкерные болты', 'アンカー', 'Anker', 'एंकर बोल्ट'),
+  L10('Washers', '垫圈', 'Arandelas', 'Rondelles', 'Arruelas', 'حلقات', 'Шайбы', 'ワッシャー', 'Unterlegscheiben', 'वॉशर'),
+  L10('Coach Screws', '六角头木螺钉', 'Tornillos para madera', 'Vis à bois hexagonales', 'Parafusos para madeira', 'براغي خشب سداسية', 'Шестигранные шурупы для дерева', '六角木ねじ', 'Sechskant-Holzschrauben', 'हेक्स वुड स्क्रू'),
+  L10('Threaded Rods', '牙条', 'Varillas roscadas', 'Tiges filetées', 'Tirantes roscados', 'قضبان ملولبة', 'Шпильки', '全ねじ', 'Gewindestangen', 'थ्रेडेड रॉड'),
+  L10('Other', '其他', 'Otros', 'Autres', 'Outros', 'أخرى', 'Другое', 'その他', 'Sonstiges', 'अन्य'),
+]

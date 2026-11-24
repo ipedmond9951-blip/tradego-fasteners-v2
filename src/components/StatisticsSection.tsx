@@ -1,5 +1,6 @@
 import { type Locale } from '@/i18n'
 import { pick, statistics } from '@/lib/statisticsI18n'
+import { badgeCopy } from '@/lib/uiCopy'
 
 interface StatisticsSectionProps {
   locale?: Locale
@@ -36,15 +37,15 @@ export default function StatisticsSection({ locale = 'en' }: StatisticsSectionPr
           </div>
           <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg">
             <span className="text-xl">✅</span>
-            <span className="text-sm font-medium">SABS Certified</span>
+            <span className="text-sm font-medium">{pick(badgeCopy.sabs, locale)}</span>
           </div>
           <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg">
             <span className="text-xl">🇪🇺</span>
-            <span className="text-sm font-medium">CE Marked</span>
+            <span className="text-sm font-medium">{pick(badgeCopy.ce, locale)}</span>
           </div>
           <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg">
             <span className="text-xl">🇨🇳</span>
-            <span className="text-sm font-medium">Made in China</span>
+            <span className="text-sm font-medium">{pick(badgeCopy.madeIn, locale)}</span>
           </div>
         </div>
       </div>
