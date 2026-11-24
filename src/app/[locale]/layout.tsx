@@ -70,7 +70,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
     openGraph: {
       type: 'website',
-      locale: loc === 'zh' ? 'zh_CN' : 'en_US',
+      locale: ({ en: 'en_US', zh: 'zh_CN', es: 'es_ES', fr: 'fr_FR', pt: 'pt_PT', ar: 'ar_AR', ru: 'ru_RU', ja: 'ja_JP', de: 'de_DE', hi: 'hi_IN' } as Record<string, string>)[loc] || 'en_US',
       url: `${siteUrl}/${loc}`,
       siteName: 'TradeGo Fasteners',
       title: titles[loc] || titles.en,

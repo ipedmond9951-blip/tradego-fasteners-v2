@@ -190,7 +190,7 @@ export async function generateMetadata({
     openGraph: {
       title,
       description: `${catLabel} articles from TradeGo.`,
-      url: `${siteUrl}/${locale}/industry/category/${catSlug}`,
+      url: `${siteUrl}/${locale}/industry/category/${catSlug}/`,
       type: 'website',
     },
     alternates: {
