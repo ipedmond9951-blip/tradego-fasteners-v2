@@ -1,0 +1,50 @@
+{
+  "slug": "africa-oil-refinery-high-pressure-fastener-guide",
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": {
+        "de": "Hochdruck-Befestigung in afrikanischen Raffinerien: wo gewöhnliche Schrauben versagen"
+      },
+      "body": {
+        "de": "Der Einsatz in Raffinerie und Petrochemie ist die anspruchsvollste Befestigungsumgebung dieser Baureihe: hoher Druck, erhöhte Temperatur, wechselnde Belastung und in einzelnen Anlagen Wasserstoff- oder Sauergasbetrieb. Eine Schraube, die auf einer Baustelle vollkommen ausreicht, kann hier bereits innerhalb eines einzigen Wartungszyklus ausfallen.<p>Dieser Leitfaden behandelt, was sich mit steigendem Druck und steigender Temperatur ändert: die Werkstoffwahl, die Verschraubungspraxis und die Dokumentation, die eine Raffinerie tatsächlich akzeptiert.</p>"
+      }
+    },
+    {
+      "id": "materials",
+      "heading": {
+        "de": "Werkstoffwahl: Entscheidungen, die nicht rückgängig gemacht werden können"
+      },
+      "body": {
+        "de": "Kohlenstoffstahl in der richtigen Güte deckt einen Großteil der allgemeinen Raffinerieverschraubung ab, doch Hochtemperatur- und Wasserstoffbetrieb drängen die Auswahl zu legierten Stählen, feuchte oder saure Umgebungen zu nichtrostenden und Duplex-Güten. Maßgebend ist nicht die sichtbare Beanspruchung, sondern die Auslegungsbedingung: Temperatur, Druck und Medium zusammen.<p>Praktische Regel: Überlassen Sie den Werkstoff niemals einer einkaufsseitigen Abkürzung. Nach Preis statt nach Betriebsbedingung zu spezifizieren, ist die Ursache der meisten Verschraubungsausfälle in diesem Sektor, und ein solcher Ausfall wird durch keine nachträgliche Prüfung mehr korrigiert.</p>"
+      }
+    },
+    {
+      "id": "bolting-practice",
+      "heading": {
+        "de": "Verschraubungspraxis: Drehmoment, Spannung und was schriftlich festgehalten wird"
+      },
+      "body": {
+        "de": "Flanschverbindungen im Druckbetrieb werden durch geregeltes Drehmoment oder durch Bolzenspannung angezogen, und die Methode ist nach Verbindungsgröße und Dichtungstyp zu wählen, nicht nach Gewohnheit. Die Wahl des Schmierstoffs verändert das wirksame Drehmoment bei gleicher Vorspannung, daher muss das Verfahren den Schmierstoff nennen, statt ihn der Mannschaft vor Ort zu überlassen.<p>Dokumentieren ist ebenso wichtig wie Ausführen. Drehwinkelprotokolle, Drehmomentwerte und der Kalibrierzustand des Werkzeugs sind das Erste, was ein Prüfer verlangt; eine Verbindung, die korrekt angezogen, aber nicht dokumentiert ist, wird meist nachgezogen, und jedes Nachziehen verbraucht Lebensdauer.</p>"
+      }
+    },
+    {
+      "id": "corrosion",
+      "heading": {
+        "de": "Korrosion und Beschichtung in Küstenraffinerien"
+      },
+      "body": {
+        "de": "Raffinerien an der Küste bekommen zum inneren Korrosionsproblem noch ein äußeres hinzu. Atmosphärische Chloride greifen den Kohlenstoffstahl-Beschlag an Bauwerken und Rohrgestellen an, lange bevor die inneren Betriebsgrenzen erreicht sind, und der Ausfall zeigt sich meist an Gewindegrund und unter den Unterlegscheiben.<p>Die Beschichtungswahl folgt der Exposition, nicht der Tradition: Feuerverzinkung oder zinkreiche Systeme für den Strukturbeschlag, nichtrostende oder Verbundsysteme dort, wo die Chloridbelastung hoch ist, und Trennung dort, wo ungleiche Metalle aufeinandertreffen. Ein bereits rostiger Befestiger wird überstrichen — das ist die häufigste vergeudete Instandhaltungsausgabe in dieser Umgebung.</p>"
+      }
+    },
+    {
+      "id": "documentation",
+      "heading": {
+        "de": "Dokumentation, die eine Raffinerie akzeptiert"
+      },
+      "body": {
+        "de": "Rechnen Sie damit, Werkstoffzertifikate mit Schmelznummern, Ergebnisse der mechanischen Eigenschaften und Berichte der zerstörungsfreien Prüfung vorzulegen, wo sie spezifiziert sind. Für Hochdruckbetrieb wird häufig ein Kerbschlagversuch bei niedriger Temperatur gefordert, und das Zertifikat muss die Prüftemperatur angeben, nicht nur das Ergebnis.<p>Die Rückverfolgbarkeit wirkt in beide Richtungen: Das Zertifikat muss die Charge kennzeichnen, und die Charge muss an den gelieferten Teilen erkennbar sein — meist durch eine Kennzeichnung, die Beschichtung und Handhabung übersteht. Ein Zertifikat, das sich keinem physischen Teil zuordnen lässt, ist kein Nachweis, und ein Raffinerieprüfer wird es ebenso behandeln.</p>"
+      }
+    }
+  ]
+}
