@@ -58,3 +58,16 @@
 - `HeroSection` 徽标行改走 `hero.badge`；`hero.product4_name~6` 补 es/ru/ja/de 原生名。
 
 仍保留英文但属既定取舍：产品规格值（DIN/材质/表面处理代码、`DIN 7504-K head / ETA assessment on request`、`Stainless 304/316` 等）、公司名与城市名。
+
+## 2026-11-24 结构化数据与规范链接治理（已完成，未 push）
+
+- 首页 JSON-LD：ItemList 8 条改本地化产品名/描述并带本语种 URL；Breadcrumb 名称与 URL 改本地化 + 尾斜杠；三个 schema 补 `inLanguage`；`next/script` 改原生 `<script>`，让服务端 HTML 直接含 JSON-LD（AI 爬虫不执行 JS）。删除站点级英文 FAQPage（`FAQSchema.tsx`），避免 8 个语种每页一份英文 FAQ 且与首页重复。
+- 文章页 Article：补 `inLanguage`、`articleSection`（本地化品类）、`dateModified`（`article.updated`）。
+- 文章聚合页：新增 CollectionPage + ItemList（24 条本地化标题/URL）；补 10 语标题与描述（原先 8 语显示英文标题）。
+- canonical / hreflang：11 处补尾斜杠（原先指向 308 目标）；`/products/`、`/industry/` 的 `x-default` 改为指向 `/en/`（原先指向当前语种）。110 个「页面×语种」组合复验 0 偏差。
+- 元数据：首页 description、`/products/`、`/terms/`、`/privacy-policy/` 描述补 8 语；`og:locale` 按语种映射（原先 9 语均 `en_US`）；`og:url` 补尾斜杠。
+- 标准页：`stdNotes` 44 个标准号 × 十语（原先仅 en/zh，非英语站 H1 显示英文释义）。
+- 分类页：篇数、面包屑、meta 描述十语化；补 5 个缺失品类名（Anchors/Screws/Nails/Waterproofing/Fastener guide）；聚合页品类芯片改走 `categoryLabel()`。
+- 首页认证卡片：名称与释义十语（原先英文 QMS/SABS/CE/Test Reports 说明）。
+- `public/llms.txt`：补十语 locale 入口表，提示 AI 引擎按语言引用对应 URL。
+- 待办：`public/robots.txt` 与 `src/app/robots.ts` 冲突，dev 下 `/robots.txt` 500（线上以 robots.ts 为准）；保留现状未动，若要清理需确认线上 robots 来源。
