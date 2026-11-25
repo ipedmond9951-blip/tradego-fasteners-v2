@@ -286,26 +286,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "What's the difference between Grade 10.9 and Grade 12.9 socket head cap screws?"
+            "en": "What's the difference between Grade 10.9 and Grade 12.9 socket head cap screws?",
+            "zh": "10.9 级和 12.9 级内六角螺钉差在哪？"
           },
           "a": {
-            "en": "Both are high-strength alloy steel. Grade 12.9 has minimum tensile strength of 1200 MPa vs 1040 MPa for Grade 10.9, and yield strength of 1100 MPa vs 940 MPa. Grade 12.9 also has a dark gray phosphate coating as standard while 10.9 is typically zinc-plated. For critical high-stress machinery connections (engines, gearboxes, cranes), use Grade 12.9. For general industrial equipment, Grade 10.9 is adequate and more cost-effective."
+            "en": "Both are high-strength alloy steel. Grade 12.9 has minimum tensile strength of 1200 MPa vs 1040 MPa for Grade 10.9, and yield strength of 1100 MPa vs 940 MPa. Grade 12.9 also has a dark gray phosphate coating as standard while 10.9 is typically zinc-plated. For critical high-stress machinery connections (engines, gearboxes, cranes), use Grade 12.9. For general industrial equipment, Grade 10.9 is adequate and more cost-effective.",
+            "zh": "两者都是高强度合金钢。12.9 级最低抗拉强度 1200 MPa，10.9 级为 1040 MPa；屈服强度分别为 1100 MPa 和 940 MPa。12.9 级标准表面为深灰色磷化处理，10.9 级通常镀锌。发动机、变速箱、起重机等高应力关键机械连接用 12.9 级；一般工业设备 10.9 级即可，成本更优。"
           }
         },
         {
           "q": {
-            "en": "Can socket head cap screws be used with nuts?"
+            "en": "Can socket head cap screws be used with nuts?",
+            "zh": "内六角螺钉能配螺母用吗？"
           },
           "a": {
-            "en": "Yes, socket head cap screws can be used with nuts as an alternative to hex bolts. However, since the screw head is designed to bear directly on the joint material (not a nut), using a socket head cap screw with a nut is less efficient than using a proper hex bolt or machine screw with a nut. Socket head cap screws are designed for female thread engagement in a tapped hole."
+            "en": "Yes, socket head cap screws can be used with nuts as an alternative to hex bolts. However, since the screw head is designed to bear directly on the joint material (not a nut), using a socket head cap screw with a nut is less efficient than using a proper hex bolt or machine screw with a nut. Socket head cap screws are designed for female thread engagement in a tapped hole.",
+            "zh": "可以作为六角螺栓的替代与螺母配合，但效率偏低：内六角螺钉的头部设计是直接压紧在被连接件上，而不是与螺母配合；它原本是为拧入螺纹孔、与内螺纹啮合设计的。需要配螺母的场合，优先选正规六角螺栓或机螺钉。"
           }
         },
         {
           "q": {
-            "en": "Why do socket cap screws seize or strip during installation?"
+            "en": "Why do socket cap screws seize or strip during installation?",
+            "zh": "安装时内六角为什么会滑牙拧圆？"
           },
           "a": {
-            "en": "The most common causes of socket stripping are: incorrect allen key size causing cam-out and rounding; over-torquing beyond the screw's yield strength; cross-threading during initial engagement; corrosion or debris in the threads. Always use the correct size tool, apply lubricant, start threading by hand to verify alignment, and use a torque wrench for critical applications."
+            "en": "The most common causes of socket stripping are: incorrect allen key size causing cam-out and rounding; over-torquing beyond the screw's yield strength; cross-threading during initial engagement; corrosion or debris in the threads. Always use the correct size tool, apply lubricant, start threading by hand to verify alignment, and use a torque wrench for critical applications.",
+            "zh": "常见原因有：内六角扳手尺寸不对导致滑出打圆；扭矩超过螺钉屈服强度；初次啮合时错牙；螺纹内有腐蚀或杂物。应使用尺寸正确的工具，涂抹润滑剂，先用手旋入确认对正，关键场合用扭矩扳手控制。"
           }
         }
       ],
