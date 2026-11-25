@@ -289,6 +289,11 @@ bash scripts/vercel-audit.sh           # 第 9–13 项必须绿
 | concrete-anchors-fasteners-guide | es | 327 / 0 | Anclajes para hormigón: tipos, carga e instalación |
 | bolt-grade-markings-guide | zh | 151 / 1 | 螺栓等级标记：4.6、8.8、10.9、12.9 怎么读 |
 | /en/industry/ 聚合页 | en | 573 / 5 | Fastener Guides: Grades, Ports and China Sourcing |
+| hex-bolt-dimensions-chart | pt | 723（en/pt） | Parafusos sextavados: tabela métrica e polegadas（原描述混着英文残句 "Complete Metric & Imper."，已重写） |
+| high-tensile-bolts-grade-guide | es | 114 | Pernos de alta resistencia: 8.8, 10.9 y 12.9 |
+| nuts-bolts-glossary-terminology | zh | 116 | 紧固件术语表：采购必懂的螺栓螺母术语 |
+
+**批次 1 收口**：13 个 snippet 目标完成 12 个；`china-iso-9001-fastener-manufacturer-directory` 暂缓——它整篇以 ISO 9001 名录为卖点，与"不持有 ISO 9001"的口径冲突，需先决定是改题（改成"按订单办理认证的供应商清单"）还是下线。
 
 **顺带修掉的合规问题**（同一批提交）：`industry` / `products` / `products/[slug]` / `markets/[market]` 四个页面的 es/fr/pt/ru/hi/ar 文案原写"ISO 9001 / SABS 已认证"，已统一改成"按 SABS 1195 / DIN / ISO 生产 + 证书按订单申请"。`check-claims` 与 `tsc` 均通过。
 
