@@ -373,3 +373,8 @@ curl -s "https://api.vercel.com/v4/aliases?limit=100" -H "Authorization: Bearer 
 
 保留的两个逃生口：`DEPLOY_FORCE=1 git push`（彻底跳过）、`DEPLOY_SKIP_BUDGET=1 git push`（只跳过预算）。两者都属事故通道，用完在 `logs/vercel-usage-watch.md` 留痕。
 自检：`echo refs | .githooks/pre-push origin <url>` 可直接验证拦截是否生效（超预算时 rc=1）。
+
+## 2026-11-26 补丁：CTA 文案 native-only
+
+线上实测两处：`en/ar` 页底部 CTA 直接显示 `Need {topic} for your B2B project?`（4 篇文章的 `cta.text` 带未替换占位符）；188 篇文章的 `cta.buttonText` 在 ar/ru/hi 里是英文 `Request Quote`，非英语页出现英文按钮。
+口径统一到和 FAQ 一致：该语种值等于 en 视为缺失、含 `{topic}` 视为不可用，一律回落 `uiCopy.articleCta` 的本地化通用文案。抽检脚本新增 `{topic}` 残留断言。
