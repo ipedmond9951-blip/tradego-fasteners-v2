@@ -215,26 +215,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "Where should an urgent fastener order start?"
+            "en": "Where should an urgent fastener order start?",
+            "zh": "紧急订单应从哪里着手？"
           },
           "a": {
-            "en": "With a frozen specification - standard, grade, coating, size and quantity per line - because an urgent order with an open specification cannot be quoted or inspected. Speed comes from a clear request, not from skipping steps."
+            "en": "With a frozen specification - standard, grade, coating, size and quantity per line - because an urgent order with an open specification cannot be quoted or inspected. Speed comes from a clear request, not from skipping steps.",
+            "zh": "先把规格冻结：标准、等级、镀层、每一行的尺寸和数量。规格没定清楚，急单既无法报价也无法验货。提速靠需求明确，而不是省掉环节。"
           }
         },
         {
           "q": {
-            "en": "How do I verify a supplier when time is short?"
+            "en": "How do I verify a supplier when time is short?",
+            "zh": "时间紧时怎么核实供应商？"
           },
           "a": {
-            "en": "Ask for business registration, recent shipping documents to similar markets, and mill certificates for the lots you are buying. A video call of the production line plus a third-party inspection is cheaper than a failed shipment."
+            "en": "Ask for business registration, recent shipping documents to similar markets, and mill certificates for the lots you are buying. A video call of the production line plus a third-party inspection is cheaper than a failed shipment.",
+            "zh": "索取营业执照、发往同类市场的近期出货单据，以及所购批次的材质证明书。视频连线看生产线，再安排第三方验货，成本远低于一票问题货到现场后的损失。"
           }
         },
         {
           "q": {
-            "en": "What is the cheapest insurance before shipment?"
+            "en": "What is the cheapest insurance before shipment?",
+            "zh": "装船前最划算的保障是什么？"
           },
           "a": {
-            "en": "A pre-shipment inspection with dimensional and coating checks on samples from the actual lot. It costs a small fraction of the cargo value and catches the failures that would otherwise appear on site weeks later."
+            "en": "A pre-shipment inspection with dimensional and coating checks on samples from the actual lot. It costs a small fraction of the cargo value and catches the failures that would otherwise appear on site weeks later.",
+            "zh": "装船前检验，从实际批次抽样做尺寸和镀层检查。费用只占货值很小一部分，能把那些几周后才在现场暴露的问题提前拦下。"
           }
         }
       ]
