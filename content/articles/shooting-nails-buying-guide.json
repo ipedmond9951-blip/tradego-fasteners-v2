@@ -262,26 +262,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "When should powder-actuated fastening be avoided?"
+            "en": "When should powder-actuated fastening be avoided?",
+            "zh": "哪些场合不该用射钉紧固？"
           },
           "a": {
-            "en": "Whenever there is tensile uplift, vibration, fatigue or a structural load path - use mechanical or chemical anchors instead. Avoid thin steel, unknown base material and any use outside the tool's rated energy."
+            "en": "Whenever there is tensile uplift, vibration, fatigue or a structural load path - use mechanical or chemical anchors instead. Avoid thin steel, unknown base material and any use outside the tool's rated energy.",
+            "zh": "存在抗拉拔力、振动、疲劳载荷或承担结构传力路径时，应改用机械锚栓或化学锚栓。薄壁钢材、基材不明的场合，以及超出工具额定能量的使用，都应避免。"
           }
         },
         {
           "q": {
-            "en": "What do collar colours mean?"
+            "en": "What do collar colours mean?",
+            "zh": "弹筒颜色代表什么？"
           },
           "a": {
-            "en": "The collar colour codes pin length and application range for a specific tool. Using the wrong collar overdrives or underdrives the pin and can damage the base material."
+            "en": "The collar colour codes pin length and application range for a specific tool. Using the wrong collar overdrives or underdrives the pin and can damage the base material.",
+            "zh": "弹筒（套圈）颜色对应特定工具的钉杆长度和适用能量档位。用错颜色会导致射钉过打或欠打，并可能损伤基材。"
           }
         },
         {
           "q": {
-            "en": "How are shooting nails shipped?"
+            "en": "How are shooting nails shipped?",
+            "zh": "射钉和弹药怎么发货？"
           },
           "a": {
-            "en": "As hazardous-adjacent goods with powder charges packed separately under the applicable regulation, declared correctly on the shipping documents, and never mixed loose with general cargo."
+            "en": "As hazardous-adjacent goods with powder charges packed separately under the applicable regulation, declared correctly on the shipping documents, and never mixed loose with general cargo.",
+            "zh": "按危险品邻近货物运输，火药弹筒按适用法规单独包装，运输单证如实申报，不得与普通货物散混装载。"
           }
         }
       ]
