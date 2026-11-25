@@ -1,0 +1,9 @@
+locale,sections_todo,est_paras,avg_paras,short_skipped,selfcheck_failed,dup_sections_after,order,command
+es,1052,4380,4.2,13,0,0,1,python3 scripts/paragrapher.py --locale es --apply
+pt,1063,4270,4.0,12,0,0,2,python3 scripts/paragrapher.py --locale pt --apply
+fr,1040,4387,4.2,18,0,0,3,python3 scripts/paragrapher.py --locale fr --apply
+de,1041,3734,3.6,9,0,0,4,python3 scripts/paragrapher.py --locale de --apply
+ru,1044,3823,3.7,15,0,0,5,python3 scripts/paragrapher.py --locale ru --apply
+ar,1032,3771,3.7,27,0,1,6,python3 scripts/paragrapher.py --locale ar --apply
+hi,1039,4789,4.6,21,0,85,7,python3 scripts/paragrapher.py --locale hi --apply
+ja,1007,5628,5.6,64,0,73,8,python3 scripts/paragrapher.py --locale ja --apply

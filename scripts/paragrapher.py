@@ -108,6 +108,10 @@ def regroup(units, mode, lo, hi, sep, depth=0):
         if uw > hi * 2 and depth < 3:
             sub = split_units(u, mode, sep)
             if len(sub) > 1 and sub[0] != u:
+                # 先落盘缓冲，再展开长段——否则后面的段落会插到前面（顺序被打乱）
+                if buf:
+                    paras.append(sep.join(buf))
+                    buf, bw = [], 0
                 paras.extend(regroup(sub, mode, lo, hi, sep, depth + 1))
                 continue
             if buf:
