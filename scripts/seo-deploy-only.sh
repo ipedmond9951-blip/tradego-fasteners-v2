@@ -166,7 +166,7 @@ cd "$PROJECT_DIR"
 git add "content/articles/${SLUG}.json" "public/images/articles/${SLUG}.jpg" 2>/dev/null || git add -A
 git commit -m "feat(seo): [manual-deploy $TODAY] $SLUG (2589 words, 6 sections, 5 FAQs, 8 sources)" 2>&1 | tee -a "$LOG_FILE" | tail -3
 
-git push origin main 2>&1 | tee -a "$LOG_FILE" | tail -2
+bash "$PROJECT_DIR/scripts/deploy-flush.sh" 2>&1 | tail -3 | tee -a "$LOG_FILE"
 
 # ============================================
 # Vercel deploy with --force

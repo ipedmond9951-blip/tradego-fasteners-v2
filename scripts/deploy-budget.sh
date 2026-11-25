@@ -80,6 +80,10 @@ if api_count is not None and count >= limit:
     print('   把改动合并成一次提交再推；确需立即部署: DEPLOY_FORCE=1 git push')
     raise SystemExit(1)
 
+# 2026-11-25: pre-push 钩子用只读模式调用，只判定不计数（避免钩子和 push 各记一次）
+if os.environ.get('DEPLOY_BUDGET_READONLY') == '1':
+    print('✅ 预算内，放行（钩子只读校验，不计数）')
+    raise SystemExit(0)
 d['count'] = count + 1
 json.dump(d, open(ledger_path, 'w'), ensure_ascii=False)
 print('✅ 预算内，放行（push 后将是今日第 %d 次）' % (count + 1))

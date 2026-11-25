@@ -132,10 +132,12 @@ if git diff --cached --quiet; then
 else
     COMMIT_MSG="GEO Auto SEO: $(date '+%Y-%m-%d %H:%M') - $NEW_ARTICLES new articles"
     git commit -m "$COMMIT_MSG" 2>&1 | tee -a "$LOG_FILE"
-    git push origin main 2>&1 | tee -a "$LOG_FILE" || {
-        log "⚠️ Git推送失败"
-    }
-    log "✅ 已提交并推送，Vercel将自动部署"
+    # 2026-11-25: 不再直推，统一交给 deploy-flush（预算/窗口/promote 收口）
+    if bash "$PROJECT_DIR/scripts/deploy-flush.sh" 2>&1 | tee -a "$LOG_FILE"; then
+        log "✅ 已提交，交由 deploy-flush 决定上线时机"
+    else
+        log "⚠️ deploy-flush 投递失败，提交保留在本地"
+    fi
 fi
 
 # 12. 记录完成

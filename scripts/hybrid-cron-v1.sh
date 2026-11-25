@@ -140,8 +140,8 @@ step "STEP 5: git commit + push"
 cd "$PROJECT_DIR"
 git add "content/articles/$TOPIC_SLUG.json" "public/images/articles/$TOPIC_SLUG.jpg" src/lib/articles.ts 2>&1 | tee -a "$LOG_FILE"
 git commit -m "feat(seo): $TOPIC_SLUG article 2026-06-09" 2>&1 | tee -a "$LOG_FILE" | tail -2
-git push 2>&1 | tee -a "$LOG_FILE" | tail -2
-log "${GREEN}✅ Git push complete${NC}"
+bash "$PROJECT_DIR/scripts/deploy-flush.sh" 2>&1 | tail -3 | tee -a "$LOG_FILE"
+log "${GREEN}✅ 已提交，上线由 deploy-flush 决定${NC}"
 
 # ============================================
 # STEP 6: Vercel deploy

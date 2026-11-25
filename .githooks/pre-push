@@ -22,6 +22,17 @@ if [ -x "$ROOT/scripts/vercel-guard.sh" ]; then
     fi
 fi
 
+# 2026-11-25: 直推也要过部署预算闸门（只读校验，不计数）。
+# 之前只有 deploy-flush 内部查预算，脚本里裸的 git push 可以随便多推 —— 当天因此跑了 7 次构建。
+# 想明确强行推送：DEPLOY_FORCE=1 git push / DEPLOY_SKIP_BUDGET=1 git push
+if [ "${DEPLOY_SKIP_BUDGET:-0}" != "1" ] && [ -f "$ROOT/scripts/deploy-budget.sh" ]; then
+    if ! DEPLOY_BUDGET_READONLY=1 bash "$ROOT/scripts/deploy-budget.sh" >&2; then
+        echo "⛔ 当日部署预算已用完，本次 push 被拦住。"
+        echo "   合并提交等下一个窗口，或确认要烧额度时：DEPLOY_FORCE=1 git push"
+        exit 1
+    fi
+fi
+
 # FAQ 伪翻译归一化（不阻断）：把"非英文语种=英文原文"的副本清掉，再查泄漏
 if [ -f "$ROOT/scripts/normalize-faq-i18n.py" ]; then
     CHANGED=$(git diff --name-only "$(git merge-base HEAD origin/main 2>/dev/null || echo HEAD)" HEAD -- content/articles 2>/dev/null | sed "s|^|$ROOT/|" | paste -sd, -)

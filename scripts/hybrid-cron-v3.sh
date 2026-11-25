@@ -162,7 +162,7 @@ run_one_article() {
   for attempt in 1 2 3; do
     git add "content/articles/$slug.json" "$img_file" "src/lib/articles.ts" 2>&1 | tail -1 | tee -a "$LOG_FILE"
     git commit -m "feat(seo): $slug article $TODAY" 2>&1 | tail -2 | tee -a "$LOG_FILE"
-    if git push 2>&1 | tail -2 | tee -a "$LOG_FILE"; then
+    if bash "$PROJECT_DIR/scripts/deploy-flush.sh" 2>&1 | tail -2 | tee -a "$LOG_FILE"; then
       log "${GREEN}✅ Pushed${NC}"
       break
     fi

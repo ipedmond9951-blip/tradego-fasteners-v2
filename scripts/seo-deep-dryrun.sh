@@ -483,7 +483,7 @@ git add "content/articles/${SLUG}.json" "public/images/articles/${SLUG}.jpg" 2>/
 git commit -m "feat(seo): [AI-pipeline $TODAY] $SLUG (score $SCORE)" 2>&1 | tail -3
 
 log "📤 Pushing to main..."
-git push origin main 2>&1 | tail -2
+bash "$PROJECT_DIR/scripts/deploy-flush.sh" 2>&1 | tail -3
 
 log "🚀 Deploying to Vercel..."
 DEPLOY_OUT=$(timeout 180 bash "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/_deny-direct-deploy.sh" --yes --force 2>&1 | tail -5)
