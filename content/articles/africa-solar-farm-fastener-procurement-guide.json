@@ -253,34 +253,42 @@
       "faqItems": [
         {
           "q": {
-            "en": "Which fasteners dominate a solar mounting bill of materials?"
+            "en": "Which fasteners dominate a solar mounting bill of materials?",
+            "zh": "光伏支架物料清单里哪些紧固件用量最大？"
           },
           "a": {
-            "en": "Foundation bolts and anchor assemblies, module clamps, rail-to-purlin fasteners, and structural bolts for torque-tube connections, mostly grade 8.8 with hot-dip galvanizing."
+            "en": "Foundation bolts and anchor assemblies, module clamps, rail-to-purlin fasteners, and structural bolts for torque-tube connections, mostly grade 8.8 with hot-dip galvanizing.",
+            "zh": "基础螺栓与锚固组件、组件压块、导轨到檩条的连接件，以及扭矩管连接的结构螺栓，多为 8.8 级配热浸镀锌。"
           }
         },
         {
           "q": {
-            "en": "Why does consistency matter more than variety?"
+            "en": "Why does consistency matter more than variety?",
+            "zh": "为什么一致性比品种多更重要？"
           },
           "a": {
-            "en": "The item count is small but volumes are large. Bolts from different production runs can differ in coating thickness and thread fit, which shows up as stripped nuts during installation."
+            "en": "The item count is small but volumes are large. Bolts from different production runs can differ in coating thickness and thread fit, which shows up as stripped nuts during installation.",
+            "zh": "品类不多但量大。不同生产批次的螺栓在镀层厚度和螺纹配合上会有差异，现场表现就是安装时螺母被拧滑。"
           }
         },
         {
           "q": {
-            "en": "Should fasteners be shipped kitted per block?"
+            "en": "Should fasteners be shipped kitted per block?",
+            "zh": "紧固件要按区块配套发运吗？"
           },
           "a": {
-            "en": "Yes. Shipping in installation-block sequence with per-block kitting costs little at origin and avoids crew hours spent sorting mixed fasteners on site."
+            "en": "Yes. Shipping in installation-block sequence with per-block kitting costs little at origin and avoids crew hours spent sorting mixed fasteners on site.",
+            "zh": "要。按安装区块顺序、逐区块配套，在产地几乎不增加成本，却能省掉现场分拣混料的人工。"
           }
         },
         {
           "q": {
-            "en": "What is the most useful inspection point?"
+            "en": "What is the most useful inspection point?",
+            "zh": "最值得关注的一个检验点是什么？"
           },
           "a": {
-            "en": "Torque behaviour during the first installation block. It reveals coating, lubricity, and thread tolerance combinations that dimensional reports alone cannot catch."
+            "en": "Torque behaviour during the first installation block. It reveals coating, lubricity, and thread tolerance combinations that dimensional reports alone cannot catch.",
+            "zh": "首个安装区块的扭矩表现。它能暴露镀层、润滑性和螺纹公差的组合问题，光看尺寸报告看不出来。"
           }
         }
       ]

@@ -253,34 +253,42 @@
       "faqItems": [
         {
           "q": {
-            "en": "What quality documents do automotive buyers request?"
+            "en": "What quality documents do automotive buyers request?",
+            "zh": "汽车客户通常会索要哪些质量文件？"
           },
           "a": {
-            "en": "Material certificates tied to heat numbers, dimensional reports against the drawing, process evidence for heat treatment and plating, thread inspection records, and first-article inspection reports before volume supply."
+            "en": "Material certificates tied to heat numbers, dimensional reports against the drawing, process evidence for heat treatment and plating, thread inspection records, and first-article inspection reports before volume supply.",
+            "zh": "与炉号对应的材质证明、按图纸做的尺寸报告、热处理与电镀的过程记录、螺纹检验记录，以及批量供货前首件检验报告。"
           }
         },
         {
           "q": {
-            "en": "Which grades are typical for automotive fasteners in Africa?"
+            "en": "Which grades are typical for automotive fasteners in Africa?",
+            "zh": "非洲汽车紧固件常用哪些等级？"
           },
           "a": {
-            "en": "Grades 8.8 and 10.9 dominate chassis, suspension, and body applications, with 12.9 used for specific high-load parts. Coating choice is driven by corrosion cycles rather than by grade alone."
+            "en": "Grades 8.8 and 10.9 dominate chassis, suspension, and body applications, with 12.9 used for specific high-load parts. Coating choice is driven by corrosion cycles rather than by grade alone.",
+            "zh": "底盘、悬架和车身部位以 8.8 级和 10.9 级为主，12.9 级用于特定高载荷件。表面处理按腐蚀循环次数选，不能只看等级。"
           }
         },
         {
           "q": {
-            "en": "Why does change control matter more than price?"
+            "en": "Why does change control matter more than price?",
+            "zh": "为什么变更管控比价格更重要？"
           },
           "a": {
-            "en": "A silent process change - a new heat-treatment subcontractor or plating line - keeps the part number identical while altering performance. Documented notification and first-article approval protect the assembly line."
+            "en": "A silent process change - a new heat-treatment subcontractor or plating line - keeps the part number identical while altering performance. Documented notification and first-article approval protect the assembly line.",
+            "zh": "一次不通知的工艺变更——换热处理分包方或换电镀线——零件号不变但性能变了。书面通知加首件确认，才能保住装配线的稳定。"
           }
         },
         {
           "q": {
-            "en": "Should plants import directly or buy from a regional distributor?"
+            "en": "Should plants import directly or buy from a regional distributor?",
+            "zh": "整车厂该直接进口，还是从区域经销商买？"
           },
           "a": {
-            "en": "Smaller markets usually work better through a regional distributor holding stock under a supplier agreement, which keeps lead time in days and concentrates the audit burden."
+            "en": "Smaller markets usually work better through a regional distributor holding stock under a supplier agreement, which keeps lead time in days and concentrates the audit burden.",
+            "zh": "市场规模较小时，通过有供货协议的区域经销商备库通常更合适：交期以天计，审核负担也集中在一家。"
           }
         }
       ]

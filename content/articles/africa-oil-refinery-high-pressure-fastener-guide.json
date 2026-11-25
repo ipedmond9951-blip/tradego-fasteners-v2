@@ -253,34 +253,42 @@
       "faqItems": [
         {
           "q": {
-            "en": "What makes refinery bolting different from construction bolting?"
+            "en": "What makes refinery bolting different from construction bolting?",
+            "zh": "炼厂螺栓和建筑螺栓差别在哪？"
           },
           "a": {
-            "en": "Pressure, temperature, cyclic loading, and in some units hydrogen or sour service. Material selection and bolting procedure are driven by design conditions rather than by price."
+            "en": "Pressure, temperature, cyclic loading, and in some units hydrogen or sour service. Material selection and bolting procedure are driven by design conditions rather than by price.",
+            "zh": "压力、温度、循环载荷，部分装置还有氢或酸性介质工况。材质和紧固工艺由设计条件决定，不是由价格决定。"
           }
         },
         {
           "q": {
-            "en": "Which documents are typically required?"
+            "en": "Which documents are typically required?",
+            "zh": "通常需要哪些文件？"
           },
           "a": {
-            "en": "Material certificates with heat numbers, mechanical test results, low-temperature impact testing where specified, non-destructive test reports, and marking that lets the certificate be tied to the delivered parts."
+            "en": "Material certificates with heat numbers, mechanical test results, low-temperature impact testing where specified, non-destructive test reports, and marking that lets the certificate be tied to the delivered parts.",
+            "zh": "带炉号的材质证明、力学性能试验结果、有要求时的低温冲击试验、无损检测报告，以及能把证书对应到交付件的标识。"
           }
         },
         {
           "q": {
-            "en": "Why does lubricant choice matter?"
+            "en": "Why does lubricant choice matter?",
+            "zh": "为什么润滑剂选择很关键？"
           },
           "a": {
-            "en": "For the same preload, different lubricants produce different effective torque. The tightening procedure must name the lubricant so the specified torque is repeatable across crews."
+            "en": "For the same preload, different lubricants produce different effective torque. The tightening procedure must name the lubricant so the specified torque is repeatable across crews.",
+            "zh": "在同样预紧力下，不同润滑剂产生的有效扭矩不同。紧固工艺必须写明所用润滑剂，指定扭矩才能在不同班组间复现。"
           }
         },
         {
           "q": {
-            "en": "How should coastal refinery structures be protected?"
+            "en": "How should coastal refinery structures be protected?",
+            "zh": "沿海炼厂结构该怎么防腐？"
           },
           "a": {
-            "en": "Choose coatings by exposure: hot-dip galvanizing or zinc-rich systems for structural bolting, stainless or composite where chloride levels are high, and isolation between dissimilar metals."
+            "en": "Choose coatings by exposure: hot-dip galvanizing or zinc-rich systems for structural bolting, stainless or composite where chloride levels are high, and isolation between dissimilar metals.",
+            "zh": "按暴露条件选：结构螺栓用热浸镀锌或富锌体系；氯离子高的部位用不锈钢或复合材料；异种金属之间做绝缘隔离。"
           }
         }
       ]

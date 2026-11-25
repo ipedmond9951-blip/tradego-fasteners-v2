@@ -253,34 +253,42 @@
    "faqItems": [
     {
      "q": {
-      "en": "Is grade 10.9 always required for wind turbine bolting?"
+      "en": "Is grade 10.9 always required for wind turbine bolting?",
+      "zh": "风机螺栓一定要用 10.9 级吗？"
      },
      "a": {
-      "en": "It is the common default for tower and foundation connections, with 8.8 used in secondary positions. The grade must be specified together with bolt size, joint geometry, and tensioning method."
+      "en": "It is the common default for tower and foundation connections, with 8.8 used in secondary positions. The grade must be specified together with bolt size, joint geometry, and tensioning method.",
+      "zh": "塔筒和基础连接通常默认 10.9 级，次要部位可用 8.8 级。等级必须和螺栓规格、接头几何、张拉方法一起规定。"
      }
     },
     {
      "q": {
-      "en": "Why does the material route matter if the grade is the same?"
+      "en": "Why does the material route matter if the grade is the same?",
+      "zh": "等级相同，材料路线为什么还重要？"
      },
      "a": {
-      "en": "A 10.9 property class reached through a different alloy and heat treatment behaves differently under low-temperature impact, which matters at cold and high-altitude sites."
+      "en": "A 10.9 property class reached through a different alloy and heat treatment behaves differently under low-temperature impact, which matters at cold and high-altitude sites.",
+      "zh": "同样是 10.9 级，用不同合金和热处理达到的，低温冲击表现不一样，这在寒冷和高海拔场址很关键。"
      }
     },
     {
      "q": {
-      "en": "Which tensioning method should be specified?"
+      "en": "Which tensioning method should be specified?",
+      "zh": "该指定哪种张拉方法？"
      },
      "a": {
-      "en": "Name the method - hydraulic tensioning, torque control, or direct tension indication - plus the acceptance window, and require sample verification, because each method produces different preload scatter."
+      "en": "Name the method - hydraulic tensioning, torque control, or direct tension indication - plus the acceptance window, and require sample verification, because each method produces different preload scatter.",
+      "zh": "要写明方法——液压张拉、扭矩控制还是直接拉伸指示——以及合格窗口，并要求抽样验证，因为各方法的预紧力离散度不同。"
      }
     },
     {
      "q": {
-      "en": "What coating is used for offshore wind structures?"
+      "en": "What coating is used for offshore wind structures?",
+      "zh": "海上风电结构用什么涂层？"
      },
      "a": {
-      "en": "Hot-dip galvanizing with a defined minimum thickness is the baseline, often with a duplex topcoat where maintenance intervals are long. Thread coatings must be specified separately from the shank."
+      "en": "Hot-dip galvanizing with a defined minimum thickness is the baseline, often with a duplex topcoat where maintenance intervals are long. Thread coatings must be specified separately from the shank.",
+      "zh": "以规定最小厚度的热浸镀锌为基线，维护周期长的部位常加duplex（锌层+面漆）体系。螺纹部位的涂层要与杆体分开规定。"
      }
     }
    ]
