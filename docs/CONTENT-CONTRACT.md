@@ -249,3 +249,7 @@ python3 scripts/content_gate.py --slug X # 单篇
 
 
 112. **FAQ 体检要成为常规动作，`scripts/faq_audit.py` 就是入口。** 判据两条：英文 `q` 超过 160 字符、或不以 `?` 结尾（说明"问句位"装了陈述或整段答案）；以及某语种 `faqItems` 0 条（该语种页面整节 FAQ 不输出）。首轮全库扫出 3 篇问答错位（`anchor-bolts-suppliers-africa`、`botswana-construction-boom-fastener-import`、`buy-construction-fasteners-wholesale-china`），`content_gate`、`check-body-lang` 全部照过。**顺带一个脚本坑：按 `heading` 是否含 "faq" 匹配会漏掉 `Frequently Asked Questions`，脚本会打印 ok 但一条没改——匹配一律用 `faq|frequently asked|常见问题` 完整正则，改完必须 `faq_audit.py` 复测归零。**
+100. **索引（index）是两条线共享的：`git add 自己的文件 && git commit -F -` 会把对方已经 `git add` 但还没提交的文件一起提交。** 本轮 `da73bfca` 就把 8 篇 content JSON、`scripts/faq_audit.py`、T9 报告和 CSV 卷进了"新增半截模板检测"这条提交里——内容没丢，但归属和 message 全错，对方下一次 commit 会发现自己暂存区是空的。**规则：提交前 `git diff --cached --name-only` 核对一遍；commit 时再限定路径 `git commit -F - -- <路径…>`（`-F -` 在前，`--` 后才是路径，message 不会被当路径解析）。**
+
+
+113. **共享工作区里，`git add` 和 `git commit` 必须连成一条命令。** 本轮我把 12 个文件 `git add` 后隔了几十秒才 commit，另一条线在这中间执行了一次带全部路径的 `git add`，我的暂存内容被并进它的 `chore` 提交（文件内容完好、归属错乱、提交信息被截断）。**对策：`git add <路径> && git commit -m ... -- <同一路径>` 写进同一行，中间不插任何耗时动作；一旦被并提交，先核内容是否完整（`git show --stat HEAD`、跑一遍闸门），确认无误就只在报告里记一笔，不要为改提交信息去 rebase——那会把两条线一起拖下水。**
