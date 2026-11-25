@@ -262,26 +262,32 @@
    "faqItems": [
     {
      "q": {
-      "en": "What is the difference between a set anchor and a drop-in anchor?"
+      "en": "What is the difference between a set anchor and a drop-in anchor?",
+      "zh": "定锚栓和落入式锚栓有什么区别？"
      },
      "a": {
-      "en": "A set anchor is a sleeve plus a machine screw that stays in place, so the fixture can be removed and refitted. A drop-in anchor leaves an internal thread in the hole and takes a separate screw."
+      "en": "A set anchor is a sleeve plus a machine screw that stays in place, so the fixture can be removed and refitted. A drop-in anchor leaves an internal thread in the hole and takes a separate screw.",
+      "zh": "定锚栓由套筒加一颗机螺钉组成，锚栓留在孔内，固定件可以拆下后重新装回；落入式锚栓在孔内留下一段内螺纹，另配独立螺钉使用。"
      }
     },
     {
      "q": {
-      "en": "When does a set anchor beat a drop-in?"
+      "en": "When does a set anchor beat a drop-in?",
+      "zh": "什么情况下定锚栓比落入式更合适？"
      },
      "a": {
-      "en": "Where the fixing needs to be adjusted or removed, where the slab is thin, and where the bracket thickness varies. The screw also gives a visual check that the anchor has expanded."
+      "en": "Where the fixing needs to be adjusted or removed, where the slab is thin, and where the bracket thickness varies. The screw also gives a visual check that the anchor has expanded.",
+      "zh": "固定件需要调节或拆卸、基材板较薄、支架厚度不一时，定锚栓更合适；机螺钉还能让人直观判断锚栓是否已经膨胀到位。"
      }
     },
     {
      "q": {
-      "en": "Which material should I specify?"
+      "en": "Which material should I specify?",
+      "zh": "材质应该怎么选？"
      },
      "a": {
-      "en": "Zinc plated for interior, SS304 for general outdoor and wet areas, SS201 only for light indoor duty. In coastal or chemical exposure, A4/316 is the safer choice."
+      "en": "Zinc plated for interior, SS304 for general outdoor and wet areas, SS201 only for light indoor duty. In coastal or chemical exposure, A4/316 is the safer choice.",
+      "zh": "室内用镀锌；一般户外和潮湿场所用 SS304；SS201 仅限室内轻载；沿海或有化学腐蚀的环境，A4/316 更稳妥。"
      }
     }
    ]
