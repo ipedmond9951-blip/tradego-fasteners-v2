@@ -230,8 +230,8 @@
             "zh": "热浸镀锌涂层能持续多久？"
           },
           "a": {
-            "en": "HDG coating typically lasts 50-70 years in rural environments, 25-50 years in urban/industrial, and 10-25 years in marine environments before requiring recoating.",
-            "zh": "HDG涂层通常在农村环境持续50-70年，城市/工业环境25-50年，海洋环境10-25年。"
+            "en": "HDG coating typically lasts 50-70 years in rural environments, 25-50 years in urban/industrial, and 10-25 years in marine environments before requiring recoating. Service life depends on coating thickness, exposure to chloride spray, drainage and whether the joint traps moisture at the head and washer contact. In coastal and splash-zone locations, zinc fades faster because salt-laden moisture keeps the surface wet; specify a thicker galvanized film or a top barrier coat for those sites. Inspect annually in marine service: white zinc oxidation is normal ageing, while red rust under the coating means the zinc has been consumed and the steel needs repair or replacement. On assembled bolts, damage from wrenching or installation scratches is the first place corrosion starts, so touch up cut or damaged areas with zinc-rich paint before putting the joint into service.",
+            "zh": "热浸镀锌层在农村环境通常可用 50–70 年，城市/工业环境 25–50 年，海洋环境 10–25 年，到期后需要重新涂覆。实际寿命取决于镀层厚度、氯离子盐雾暴露、排水条件，以及螺栓头与垫圈接触面是否积存潮气。沿海与飞溅区盐雾使镀锌层消耗更快，这类位置应指定更厚的锌层或加一道封闭涂层。海洋工况每年检查：白色锌氧化层是正常老化，镀层下出现红锈说明锌已被消耗，钢材需要修补或更换。装配后扳手划伤、安装磕碰的缺口是腐蚀最先起的位置；这些切口与损伤点在投用前用富锌漆补涂，避免潮气从破损处渗入镀层。"
           }
         },
         {
@@ -240,8 +240,8 @@
             "zh": "不锈钢螺栓可以和镀锌垫圈一起用吗？"
           },
           "a": {
-            "en": "Yes, but be aware of galvanic corrosion—stainless and zinc are dissimilar metals. In wet environments, use a nylon or plastic barrier washer between them.",
-            "zh": "可以，但要注意电偶腐蚀——不锈钢和锌是不同金属。在潮湿环境中，在它们之间使用尼龙或塑料隔板垫圈。"
+            "en": "Yes, but be aware of galvanic corrosion—stainless and zinc are dissimilar metals. In wet environments, use a nylon or plastic barrier washer between them. When the two metals sit in an electrolyte such as rain, condensation or salt spray, the zinc acts as the more active partner and corrodes preferentially around the contact line; the stainless side stays intact while the galvanized washer or bolt loses metal. The risk rises with exposure to moisture, chloride and a small active-metal area under the noble stainless surface. Where isolation cannot be installed, keep the stainless part small relative to the galvanized one, ensure drainage so moisture does not sit between the faces, and inspect the contact zone at maintenance intervals. In permanently wet or coastal joints, use one material throughout—all galvanized or all A4/316—rather than mixing metals.",
+            "zh": "可以，但要注意电偶腐蚀——不锈钢和锌是不同金属。在潮湿环境中，在它们之间使用尼龙或塑料隔板垫圈。两种金属处在雨水、冷凝水或盐雾形成的电解液里时，锌作为较活泼的一方优先在接触线附近腐蚀；不锈钢一侧保持完好，镀锌垫圈或螺栓却在流失金属。潮湿、氯离子以及活泼金属面积小于不锈钢贵金属面积时，风险更高。无法加装隔离件时，让不锈钢件面积相对镀锌件尽量小，保证排水、不让潮气积在两个端面之间，并在维护周期内检查接触区。长期潮湿、沿海或浸没接头，更稳妥的做法是整套统一材质——全镀锌或全 A4/316——而不是两种混用、只靠一只垫圈隔开。"
           }
         },
         {
@@ -250,7 +250,7 @@
             "zh": "海洋平台甲板该选哪种不锈钢等级？"
           },
           "a": {
-            "en": "A4/316 with molybdenum resists chloride pitting far better than A2/304, so 316 is the minimum for deck and splash-zone work. Below the waterline or in permanent immersion, duplex or a higher alloy is usually specified instead.",
+            "en": "A4/316 with molybdenum resists chloride pitting far better than A2/304, so 316 is the minimum for deck and splash-zone work. Below the waterline or in permanent immersion, duplex or a higher alloy is usually specified instead. When selecting, match the grade to the exposure zone rather than the budget alone: atmospheric inland A2/304 may be enough, but deck rails, fittings near breaking waves and any component touched by salt runoff should start at 316. Confirm the passivation and surface finish on receipt, check head marking against the grade on the order, and avoid crevice traps under washers and in bolt holes where stagnant moisture accelerates pitting. For structural fasteners, record the property class per ISO 898-1 alongside the stainless grade, and keep stainless hardware separated from carbon steel in storage to prevent contact staining before installation.",
             "zh": "含钼的 A4/316 抗氯离子点蚀能力远优于 A2/304，因此甲板和飞溅区作业以 316 为最低等级要求。水线以下或长期浸没的场合，通常改选双相钢或更高合金牌号。选材时要把暴露位置（大气、飞溅、浸没）、氯离子环境和涂层情况一起核对，不能只凭通用不锈钢经验；结构件还应按 ISO 898-1 标注性能等级，表面处理与配对材料也要在采购单上写明，避免异种金属在潮湿环境下产生电偶腐蚀。"
           }
         }
