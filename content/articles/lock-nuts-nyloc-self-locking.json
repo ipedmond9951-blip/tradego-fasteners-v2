@@ -256,26 +256,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "Can I reuse a Nyloc nut?"
+            "en": "Can I reuse a Nyloc nut?",
+            "zh": "Nyloc 螺母能重复使用吗？"
           },
           "a": {
-            "en": "Yes, Nyloc nuts can typically be reused 5-10 times before significant degradation of the nylon insert. For critical applications (safety, heavy vibration), replace with a new Nyloc nut each service interval. If the nylon insert appears cracked, deformed, or glazed, replace immediately."
+            "en": "Yes, Nyloc nuts can typically be reused 5-10 times before significant degradation of the nylon insert. For critical applications (safety, heavy vibration), replace with a new Nyloc nut each service interval. If the nylon insert appears cracked, deformed, or glazed, replace immediately.",
+            "zh": "一般可重复使用 5 至 10 次，之后尼龙嵌件的锁紧性能会明显下降。安全件、强振动等关键用途应在每次检修时更换新的尼龙嵌件螺母；若尼龙环出现裂纹、变形或光滑发亮，应立即更换，不要继续复用。"
           }
         },
         {
           "q": {
-            "en": "What's better — Nyloc or spring lock washer?"
+            "en": "What's better — Nyloc or spring lock washer?",
+            "zh": "Nyloc 螺母和弹簧垫圈哪个更防松？"
           },
           "a": {
-            "en": "For vibration applications, lock nuts outperform spring washers significantly. Spring washers (split lock washers) rely on spring tension and can lose effectiveness under sustained vibration. Nyloc nuts provide consistent prevailing torque throughout the joint's life. For critical joints, use both: Nyloc nut + flat washer."
+            "en": "For vibration applications, lock nuts outperform spring washers significantly. Spring washers (split lock washers) rely on spring tension and can lose effectiveness under sustained vibration. Nyloc nuts provide consistent prevailing torque throughout the joint's life. For critical joints, use both: Nyloc nut + flat washer.",
+            "zh": "振动场合下锁紧螺母明显优于弹簧垫圈。开口弹簧垫圈依靠弹簧张力，在持续振动下防松能力会衰减；Nyloc 螺母在连接副全寿命期内保持稳定的预紧力矩（prevailing torque）。关键连接可两者并用：Nyloc 螺母加平垫圈。"
           }
         },
         {
           "q": {
-            "en": "What does 'prevailing torque' mean?"
+            "en": "What does 'prevailing torque' mean?",
+            "zh": "什么是预紧力矩？"
           },
           "a": {
-            "en": "Prevailing torque is the torque required to rotate the nut onto the bolt before the main tightening torque is applied. It is measured as the torque needed to overcome the locking mechanism's resistance. A quality Nyloc nut typically has prevailing torque of 0.5-2.0 N·m depending on size. This value must be verified in the product datasheet for engineering applications."
+            "en": "Prevailing torque is the torque required to rotate the nut onto the bolt before the main tightening torque is applied. It is measured as the torque needed to overcome the locking mechanism's resistance. A quality Nyloc nut typically has prevailing torque of 0.5-2.0 N·m depending on size. This value must be verified in the product datasheet for engineering applications.",
+            "zh": "预紧力矩（prevailing torque）指在施加主拧紧扭矩之前，把螺母旋到螺栓上所需克服锁紧机构阻力的扭矩。合格 Nyloc 螺母的预紧力矩通常按规格在 0.5 至 2.0 N·m 之间；工程选用时要以产品数据表中的实测范围为准，不能凭经验定值。"
           }
         }
       ],
