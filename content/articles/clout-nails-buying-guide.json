@@ -262,26 +262,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "What sizes of clout nails are used for roofing felt?"
+            "en": "What sizes of clout nails are used for roofing felt?",
+            "zh": "屋顶油毡用什么规格的圆头钉？"
           },
           "a": {
-            "en": "Shank diameters usually run 2.5 to 3.75 mm with lengths from about 20 to 65 mm. Felt and underlay take 20 to 30 mm, insulation board and membrane edges take 40 to 65 mm, and the head diameter matters as much as the length because it holds the sheet."
+            "en": "Shank diameters usually run 2.5 to 3.75 mm with lengths from about 20 to 65 mm. Felt and underlay take 20 to 30 mm, insulation board and membrane edges take 40 to 65 mm, and the head diameter matters as much as the length because it holds the sheet.",
+            "zh": "钉杆直径一般 2.5–3.75 mm，长度约 20–65 mm。油毡和垫层用 20–30 mm；保温板与防水卷材边缘用 40–65 mm。钉头直径和长度同样关键，它负责压住整片卷材，帽径偏小容易在风荷载下拉穿软质材料。"
           }
         },
         {
           "q": {
-            "en": "Smooth or ring shank for wind uplift?"
+            "en": "Smooth or ring shank for wind uplift?",
+            "zh": "抗风揭该选光杆还是环纹杆？"
           },
           "a": {
-            "en": "Ring shank where the fixing is exposed to wind uplift or repeated lifting - membrane edges, eaves and ridge details. Smooth shank for felt that will be covered by tiles or sheeting, where speed of driving matters more."
+            "en": "Ring shank where the fixing is exposed to wind uplift or repeated lifting - membrane edges, eaves and ridge details. Smooth shank for felt that will be covered by tiles or sheeting, where speed of driving matters more.",
+            "zh": "受风揭或反复掀动的部位，如膜材边缘、檐口和屋脊节点，用环纹杆，握裹力更强；被瓦面或盖板压住、以打钉速度为先的油毡部位，用光杆即可。"
           }
         },
         {
           "q": {
-            "en": "Which galvanising for coastal roofs?"
+            "en": "Which galvanising for coastal roofs?",
+            "zh": "沿海屋面选哪种镀锌处理？"
           },
           "a": {
-            "en": "Hot-dip galvanised to ISO 1461 for coastal and high-humidity sites, electro-galvanised only inland under cover. On a coastal roof, thin zinc coatings fail within a couple of seasons at the head and bend."
+            "en": "Hot-dip galvanised to ISO 1461 for coastal and high-humidity sites, electro-galvanised only inland under cover. On a coastal roof, thin zinc coatings fail within a couple of seasons at the head and bend.",
+            "zh": "沿海和高湿环境按 ISO 1461 做热浸镀锌（HDG）；电镀锌只适合内陆有遮蔽的场合。沿海屋面上薄锌层通常一两个季节就会在钉头和弯折处锈蚀失效。"
           }
         }
       ]
