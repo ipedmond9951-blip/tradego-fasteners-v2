@@ -102,3 +102,46 @@ launchctl list | grep -E "tradego|agentops"
   seo-pipeline-guardian）应设 `RunAtLoad false`，否则改时间时会意外触发重跑。
 - **日历任务改时区不能靠 `plutil` 手改**：容易只改 Hour 忘了 Day/Month 的跨日回退
   （CST 00:06 落在前一天的 PST 日期）。
+
+## 关机 / 重启之后（2026-11-26 实测）
+
+**launchd 的日历触发一旦错过，不会补跑** —— 这是和 cron 最大的行为差异：
+
+| 情况 | 行为 |
+|---|---|
+| 机器睡眠中到点 | 唤醒后**补跑一次** |
+| 机器**关机**跨过时间点 | **永久错过**，当天等于没跑 |
+| 开机但没登录 GUI | `~/Library/LaunchAgents` 一个都不加载，全部不跑 |
+| 重启后 | 登录时自动加载（`RunAtLoad=false` 的不会立刻执行，只恢复日程） |
+
+2026-11-25 06:22 PST 真实重启后的实测：55 个 plist 里 49 个自动回来了，
+`com.tradego.seo-pipeline-watcher` 漏载（重启后偶发），说明"重启就自动全好"靠不住。
+
+### 兜底：com.tradego.boot-check
+
+`RunAtLoad=true` + 每 30 分钟，跑 `~/Doubao/agents/tools/after-reboot-check.sh`：
+
+1. `launchd-cst.py check`（时区意图 vs 字面值 + **是否真的被 launchd 载入**）
+2. 发现漏载的自动 `launchctl load -w`（被 `disable` 过的跳过，不硬拉）
+3. CST 00:00–03:00 窗口内、且本地有未推提交、且当天空闲 → 调 `push-cert-clean-*.sh` 补推
+4. 结果写 `~/Doubao/agents/logs/boot-check-<CST日期>.log`，并弹桌面通知
+
+日志：`~/Doubao/agents/logs/boot-check-*.log`、摘要 `~/Doubao/agents/state/boot-check-latest.txt`。
+
+### 两个必知的坑
+
+- **补推也会被预算拦**：2026-11-26 00:00 窗口 content-push 连推 3 次把当日预算打满，
+  00:06 的定时任务准点触发（08:06:08 PST = 00:06 CST）但被 `deploy-budget.sh` 拦下，
+  剩下 19 个本地提交只能等下一个窗口。预算闸门 fail-closed 是**对的**，别用 `DEPLOY_FORCE` 硬推。
+- **pre-push 钩子自己坏了会静默拦一切推送**：当晚 `check-build-assets.py` 在系统 python3.9 下
+  `int | None` 直接 TypeError（且依赖 Pillow），加上 `icon.png/apple-icon.png` 是 RGB 非 RGBA，
+  连续拦掉两次推送。已修：脚本去掉 Pillow 依赖、加 `from __future__ import annotations`，
+  两张图标转 RGBA。**判断"定时推送没生效"时，先看推送日志里的 `git push 失败` 原因，别只看时间**。
+
+### 重启后自查顺序
+
+```bash
+python3 ~/Doubao/agents/tools/launchd-cst.py check     # 期望：全部 PASS（含"已载入"）
+tail -5 ~/Doubao/agents/logs/boot-check-$(TZ=Asia/Shanghai date +%Y%m%d).log
+bash ~/Doubao/agents/tools/after-reboot-check.sh       # 手动补一次
+```
