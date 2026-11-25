@@ -395,6 +395,11 @@ def check_article(path, project_dir):
         # 批量拼接把标签写坏（"<<p>"），渲染时可见但不影响 JSON 合法性
         if "<<p>" in text or "<p><p>" in text:
             issues.b("dirty-text", f"{path} 段落标签重复/写坏（'<<p>'）")
+        # 断句：段落以单个字母收尾（"... coatings c</p>"），说明写到一半被打断
+        # 只看正文：标题、表头、单个单元格里以单字母结尾多为正常缩写
+        if ".body." in path and len(text) > 80:
+            if re.search(r"\s[a-zA-Z]</p>", text) or re.search(r"\s[a-zA-Z]$", text):
+                issues.b("truncated", f"{path} 段落以单个字母收尾，疑似断句")
 
     en_all = " ".join(
         [json.dumps(title.get("en", ""), ensure_ascii=False), json.dumps(desc.get("en", ""), ensure_ascii=False)]

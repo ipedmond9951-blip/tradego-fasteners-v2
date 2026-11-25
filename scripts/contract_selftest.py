@@ -89,6 +89,13 @@ case("公司绑定具体省市要被抓", "geo-leak", geo_leak)
 case("批量替换残句要被抓", "geo-dup", geo_dup)
 
 
+def truncated(d):
+    d["sections"][0]["body"]["en"] = "<p>" + ("filler words here " * 6) + "and the supplier offers a</p>"
+
+
+case("写到一半断句要被抓", "truncated", truncated)
+
+
 def main():
     quiet = "--quiet" in sys.argv
     fails = 0
