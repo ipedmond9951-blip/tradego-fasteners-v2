@@ -210,26 +210,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "Which ASTM F1554 grade should a Zimbabwe project specify?"
+            "en": "Which ASTM F1554 grade should a Zimbabwe project specify?",
+            "zh": "津巴布韦项目选哪个 ASTM F1554 等级？"
           },
           "a": {
-            "en": "Grade 36 for general anchoring, grade 55 where higher strength is needed, and grade 105 only for heavily loaded or compact connections. Grade 105 also brings weldability and embrittlement constraints."
+            "en": "Grade 36 for general anchoring, grade 55 where higher strength is needed, and grade 105 only for heavily loaded or compact connections. Grade 105 also brings weldability and embrittlement constraints.",
+            "zh": "一般锚固用 36 级；需要更高强度用 55 级；105 级只用于重载或紧凑连接，且在可焊性和脆性方面有额外限制。"
           }
         },
         {
           "q": {
-            "en": "What corrosion protection for anchor bolts in Zimbabwe?"
+            "en": "What corrosion protection for anchor bolts in Zimbabwe?",
+            "zh": "津巴布韦锚栓用什么防腐处理？"
           },
           "a": {
-            "en": "Hot-dip galvanising to ISO 1461 for most exposed foundations, and stainless or a duplex system for aggressive ground or coastal conditions. Coating must be applied before the bolt is bent or threaded."
+            "en": "Hot-dip galvanising to ISO 1461 for most exposed foundations, and stainless or a duplex system for aggressive ground or coastal conditions. Coating must be applied before the bolt is bent or threaded.",
+            "zh": "多数外露基础按 ISO 1461 做热浸镀锌（HDG）；腐蚀性强的土壤或沿海条件用不锈钢或双重防腐体系。涂层须在螺栓弯曲或套丝之前完成。"
           }
         },
         {
           "q": {
-            "en": "What should an anchor bolt RFQ contain?"
+            "en": "What should an anchor bolt RFQ contain?",
+            "zh": "锚栓询价单要包含哪些内容？"
           },
           "a": {
-            "en": "Grade and standard, diameter and total length, thread length, bend or hook geometry, coating specification, test certificates required, packing and delivery port. A quote without these cannot be compared."
+            "en": "Grade and standard, diameter and total length, thread length, bend or hook geometry, coating specification, test certificates required, packing and delivery port. A quote without these cannot be compared.",
+            "zh": "等级与标准、直径与总长度、螺纹长度、弯钩或弯折几何、涂层规格、所需测试证书、包装和交货港口。缺这些字段，各家报价无法横向比较。"
           }
         }
       ]
