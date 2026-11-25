@@ -236,11 +236,11 @@
         {
           "q": {
             "en": "What is the difference between heavy hex and standard hex bolts?",
-            "zh": "重型六角螺栓和标准六角螺栓有什么区别？"
+            "zh": "重型六角螺栓和普通六角螺栓有什么区别？"
           },
           "a": {
             "en": "Heavy hex bolts have a larger bearing surface (wider across flats and a thicker head) than standard hex bolts. This provides better load distribution for structural connections with oversized holes.",
-            "zh": "重型六角螺栓比标准六角螺栓具有更大的支撑面积（对面更宽，头部更厚）。这为有超大孔的结构连接提供更好的载荷分布。"
+            "zh": "重型六角螺栓的支承面更大（对边更宽、头部更厚），在结构连接遇到扩孔时能把载荷分布得更好。"
           }
         },
         {
@@ -250,15 +250,17 @@
           },
           "a": {
             "en": "Curtain wall fixing typically uses M12 or M16 Grade 8.8 HDG hex bolts or specialized stainless steel刺客螺栓 with nylon anchors for concrete backup. Spec depends on wind load calculations.",
-            "zh": "幕墙固定通常使用M12或M16级8.8 HDG六角螺栓，或带尼龙锚栓的专用不锈钢塞螺栓用于混凝土基层。规格取决于风荷载计算。"
+            "zh": "幕墙固定一般用 M12 或 M16 的 8.8 级热浸镀锌六角螺栓，或专用不锈钢螺栓配尼龙锚栓做混凝土背墙；具体规格要按风荷载计算确定。"
           }
         },
         {
           "q": {
-            "en": "Which property class for steel structure connections?"
+            "en": "Which property class for steel structure connections?",
+            "zh": "钢结构连接选什么性能等级？"
           },
           "a": {
-            "en": "ISO 898-1 class 8.8 is the general structural default, with 10.9 where the connection is compact and preload matters. Class 8.8 in a large assembly is often more practical than 10.9 because of hydrogen embrittlement risk in coating."
+            "en": "ISO 898-1 class 8.8 is the general structural default, with 10.9 where the connection is compact and preload matters. Class 8.8 in a large assembly is often more practical than 10.9 because of hydrogen embrittlement risk in coating.",
+            "zh": "ISO 898-1 的 8.8 级是一般结构的默认选择，连接紧凑、需要预紧力的部位用 10.9 级。在大型装配中，考虑镀层带来的氢脆风险，8.8 级往往比 10.9 级更实用。"
           }
         }
       ],
