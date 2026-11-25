@@ -246,10 +246,12 @@
         },
         {
           "q": {
-            "en": "Which stainless grade for a marine deck?"
+            "en": "Which stainless grade for a marine deck?",
+            "zh": "海洋平台甲板该选哪种不锈钢等级？"
           },
           "a": {
-            "en": "A4/316 with molybdenum resists chloride pitting far better than A2/304, so 316 is the minimum for deck and splash-zone work. Below the waterline or in permanent immersion, duplex or a higher alloy is usually specified instead."
+            "en": "A4/316 with molybdenum resists chloride pitting far better than A2/304, so 316 is the minimum for deck and splash-zone work. Below the waterline or in permanent immersion, duplex or a higher alloy is usually specified instead.",
+            "zh": "含钼的 A4/316 抗氯离子点蚀能力远优于 A2/304，因此甲板和飞溅区作业以 316 为最低等级要求。水线以下或长期浸没的场合，通常改选双相钢或更高合金牌号。选材时要把暴露位置（大气、飞溅、浸没）、氯离子环境和涂层情况一起核对，不能只凭通用不锈钢经验；结构件还应按 ISO 898-1 标注性能等级，表面处理与配对材料也要在采购单上写明，避免异种金属在潮湿环境下产生电偶腐蚀。"
           }
         }
       ],
