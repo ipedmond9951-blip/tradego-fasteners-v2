@@ -3,6 +3,20 @@ import { getFaq } from '@/lib/faqI18n'
 
 interface FAQSectionProps { locale?: Locale }
 
+// 首页 FAQ 只有 18 组，完整问答（含规格、交期、海运细节）在独立 /faq 页，给 AI 一个可摘取的单一入口
+const allFaqLabel: Record<string, string> = {
+  en: 'See all fastener questions and answers →',
+  zh: '查看全部紧固件问答 →',
+  es: 'Ver todas las preguntas y respuestas →',
+  fr: 'Voir toutes les questions et réponses →',
+  ar: 'اطّلع على جميع الأسئلة والأجوبة →',
+  pt: 'Ver todas as perguntas e respostas →',
+  ru: 'Все вопросы и ответы →',
+  ja: 'すべての質問と回答を見る →',
+  de: 'Alle Fragen und Antworten ansehen →',
+  hi: 'सभी प्रश्न और उत्तर देखें →',
+}
+
 export default function FAQSection({ locale = 'en' }: FAQSectionProps) {
   const title = t(locale, 'faq.title')
   const subtitle = t(locale, 'faq.subtitle')
@@ -23,6 +37,12 @@ export default function FAQSection({ locale = 'en' }: FAQSectionProps) {
               <div className="px-4 md:px-6 pb-3 md:pb-4 text-gray-600 text-xs md:text-sm leading-relaxed">{faq.a}</div>
             </details>
           ))}
+        </div>
+
+        <div className="text-center mt-6">
+          <a href={`/${locale}/faq/`} className="text-sm md:text-base text-primary-700 hover:underline font-medium">
+            {allFaqLabel[locale] || allFaqLabel.en}
+          </a>
         </div>
 
         <div className="text-center mt-8 md:mt-12">

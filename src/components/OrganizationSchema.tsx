@@ -69,11 +69,9 @@ export default function OrganizationSchema({ locale = 'en' }: OrganizationSchema
       'https://www.youtube.com/@TradeGoFasteners',
     ],
 
-    hasCredential: [
-      { '@type': 'EducationalOccupationalCredential', name: 'ISO 9001:2015', credentialCategory: 'quality' },
-      { '@type': 'EducationalOccupationalCredential', name: 'CE Certification', credentialCategory: 'safety' },
-      { '@type': 'EducationalOccupationalCredential', name: 'SABS Approved', credentialCategory: 'regional' },
-    ],
+    // hasCredential 已移除（2026-11-25）。结构化数据里的 "SABS Approved" 属无条件的强断言，
+    // 与 llms.txt / 关于页 "certificate available on request / documented with test reports" 的口径不一致，
+    // 被 AI 交叉核验时会变成实体不可信证据。认证信息统一由页面正文与 llms.txt 以可核实措辞承载。
     makesOffer: {
       '@type': 'Offer',
       areaServed: {

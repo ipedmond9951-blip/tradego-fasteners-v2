@@ -26,7 +26,7 @@ function buildEntries(): Entry[] {
   // lastmod 用构建时刻固定下来, 不再每次请求变化(假 lastmod 反而削弱可信度)
   const now = new Date().toISOString()
 
-  const staticPages = ['', '/products', '/industry', '/steel-prices', '/zimbabwe-fasteners-wholesale', '/privacy-policy', '/terms']
+  const staticPages = ['', '/products', '/industry', '/faq', '/steel-prices', '/zimbabwe-fasteners-wholesale', '/privacy-policy', '/terms']
   const enOnlyPages = new Set(['/steel-prices', '/zimbabwe-fasteners-wholesale'])
 
   const articleSlugs = getIndexableSlugs()
