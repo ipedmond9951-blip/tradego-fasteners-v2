@@ -185,31 +185,37 @@
         {
           "q": {
             "en": "Can FRP fasteners replace steel fasteners in structural applications?",
-            "zh": "FRP 紧固件能替代结构钢件吗？"
+            "zh": "FRP 紧固件能替代结构钢件吗？",
+            "hi": "संरचनात्मक काम में FRP फास्टनर स्टील की जगह ले सकते हैं?"
           },
           "a": {
             "en": "FRP fasteners can replace steel in many applications, but the design approach must change. FRP has lower modulus (more flexible) and different failure characteristics (brittle vs ductile). A structural engineer should verify the joint design. FRP is excellent for secondary structural members, non-load-bearing connections, and anywhere the weight saving or corrosion resistance justifies the higher cost. For primary structural connections in safety-critical applications, steel with appropriate corrosion protection is usually the better choice.",
-            "zh": "在不少场合可以替代，但设计思路必须调整。FRP 弹性模量更低、更柔韧，失效方式也不同（脆性而非延性），接头设计应由结构工程师复核。FRP 适合次要结构构件、非承重连接，以及减重或耐蚀收益足以抵消更高成本的场合；安全关键的主结构连接，通常还是选用带相应防腐保护的钢件更稳妥。"
+            "zh": "在不少场合可以替代，但设计思路必须调整。FRP 弹性模量更低、更柔韧，失效方式也不同（脆性而非延性），接头设计应由结构工程师复核。FRP 适合次要结构构件、非承重连接，以及减重或耐蚀收益足以抵消更高成本的场合；安全关键的主结构连接，通常还是选用带相应防腐保护的钢件更稳妥。",
+            "hi": "FRP कई अनुप्रयोगों में स्टील की जगह ले सकता है, पर डिज़ाइन का तरीका बदलना होगा। FRP का मापांक कम है यानी लचीला और टूटना भंगुर जैसा होता है, संयुक्त डिज़ाइन की पुष्टि संरचनात्मक इंजीनियर से कराएं। FRP द्वितीयक सदस्यों, भार नहीं उठाने वाले जोड़ों और हल्के व जंग-रोधी फायदे के मामले में अच्छा है; सुरक्षा-महत्वपूर्ण मुख्य जोड़ों के लिए उपयुक्त जंग सुरक्षा वाला स्टील आमतौर पर बेहतर रहता है।"
           }
         },
         {
           "q": {
             "en": "What is the lifespan of FRP fasteners in outdoor environments?",
-            "zh": "FRP 紧固件户外能用多少年？"
+            "zh": "FRP 紧固件户外能用多少年？",
+            "hi": "बाहरी माहौल में FRP फास्टनर कितने टिकते हैं?"
           },
           "a": {
             "en": "UV-stabilized vinyl ester or epoxy GRP fasteners can last 20-30+ years outdoors with minimal degradation. Standard polyester GRP without UV stabilization will degrade faster in direct sunlight — typically 5-10 years before significant surface chalking and strength reduction. Always specify UV-stabilized resin systems for outdoor applications, and consider a protective topcoat for critical applications.",
-            "zh": "经抗紫外线处理的乙烯基酯或环氧 GRP 紧固件，户外可使用 20–30 年以上，衰减很小；未经抗紫外线处理的普通聚酯 GRP 在直射阳光下老化更快，通常 5–10 年就出现明显表面粉化和强度下降。户外一律选用抗紫外线树脂体系，关键场合可再加一层保护面漆。"
+            "zh": "经抗紫外线处理的乙烯基酯或环氧 GRP 紧固件，户外可使用 20–30 年以上，衰减很小；未经抗紫外线处理的普通聚酯 GRP 在直射阳光下老化更快，通常 5–10 年就出现明显表面粉化和强度下降。户外一律选用抗紫外线树脂体系，关键场合可再加一层保护面漆。",
+            "hi": "UV-स्थिर विनाइल एस्टर या एपॉक्सी GRP फास्टनर बाहर 20–30 वर्ष या उससे अधिक समय तक न्यूनतम क्षरण के साथ चल सकते हैं। UV-स्थिरता रहित सामान्य पॉलिएस्टर GRP सीधी धूप में तेज़ी से खराब होता है, आमतौर पर 5–10 वर्ष में सतह धूलदार होकर ताकत घटती है। बाहरी काम के लिए हमेशा UV-स्थिर रेज़िन सिस्टम चुनें; महत्वपूर्ण जोड़ों पर सुरक्षा टॉपकोट भी सोचें।"
           }
         },
         {
           "q": {
             "en": "Why do FRP threads strip more easily than steel?",
-            "zh": "FRP 螺纹为什么比钢更容易滑牙？"
+            "zh": "FRP 螺纹为什么比钢更容易滑牙？",
+            "hi": "FRP का धागा स्टील से ज़्यादा क्यों घिसता है?"
           },
           "a": {
             "en": "FRP is less ductile than metal and has lower resistance to thread wear. The fibers can be abraded by repeated engagement, and the resin matrix can crack under stress concentration at the thread roots. To prevent stripping: use the correct torque specification for FRP (lower than steel); apply thread-locking adhesive to secure the joint; avoid repeated assembly/disassembly cycles; use a nut with a metal insert (metal threaded insert in FRP nut) for high-cycle applications.",
-            "zh": "FRP 塑性变形能力不如金属，螺纹耐磨性能也更低：反复旋合会磨断纤维，螺纹根部应力集中时树脂基体还可能开裂。防滑牙要注意：按 FRP 对应的较低扭矩拧紧；涂螺纹锁固胶固定接头；避免反复拆装；高循环场合用带金属螺纹嵌件的 FRP 螺母。"
+            "zh": "FRP 塑性变形能力不如金属，螺纹耐磨性能也更低：反复旋合会磨断纤维，螺纹根部应力集中时树脂基体还可能开裂。防滑牙要注意：按 FRP 对应的较低扭矩拧紧；涂螺纹锁固胶固定接头；避免反复拆装；高循环场合用带金属螺纹嵌件的 FRP 螺母。",
+            "hi": "FRP धातु से कम लचीला है और धागे के घिसाव का प्रतिरोध कम रखता है; बार-बार लगने से फाइबर घिस सकता है और धागे की जड़ों पर तनाव केंद्रित होने से रेज़िन मैट्रिक्स में दरार आ सकती है। बचाव के लिए FRP का सही टॉर्क (स्टील से कम) लगाएं, धागा-लॉकिंग चिपकने वाले से जोड़ सुरक्षित करें, बार-बार जोड़ा-खोला न करें, और उच्च चक्र वाले काम में धातु इंसर्ट वाला FRP नट इस्तेमाल करें।"
           }
         }
       ],
