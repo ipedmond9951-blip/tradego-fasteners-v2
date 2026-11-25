@@ -349,3 +349,16 @@ curl -s "https://api.vercel.com/v4/aliases?limit=100" -H "Authorization: Bearer 
 首次跑就抓到两类真问题：
 - 阿语页空 FAQ 标题（native-only 过滤后标题仍渲染，修法见 `renderSection` 的 `isFaqSection` 判断）；
 - 15 篇改过名的文章旧 slug 直接 404：`generateStaticParams` 把 redirectTo 文章排除了，又设 `dynamicParams=false`，页面里的 `permanentRedirect` 根本不执行 —— 150 个 URL（15 篇 × 10 语种）丢掉外链权重。已改为 redirect slug 也预生成（只输出 301，不占空间）。
+
+## 2026-11-25 补丁四：预算闸门改吃台账（不是 API 现值）
+
+现象：`deploy-budget.sh` 只看 Vercel API 列表里的"现存"部署，剪枝删掉两条旧部署后，当天 6 次真实构建被算成 3 次、4 次，闸门等于被自己的清理动作洗白，继续放行第 7 次。
+
+改法：`deploy-budget.sh` 取 `max(Vercel API, logs/deploy-budget.json, logs/deploy-history.jsonl 当日条数)`。
+台账按 uid 持久化、删部署不丢，是权威口径；API 只用来补"别的 agent 刚推的"；本机计数器作兜底。
+判定输出会同时打印三个数（`Vercel=4 本地=3 台账=6`），一眼能看出是谁在刷。
+
+## FAQ 小节正文：不再渲染英文副本
+
+`renderSection` 原先对 FAQ 小节也渲染 `section.body`，而 body 是英文问答正文的复制；本地化缺失时 `localizedText` 回退 en，非英语种的页面上就整段漏英文（渲染抽检只查问句，一直没抓到这一层）。
+现在 FAQ 小节只渲染 `FAQ_INTRO[locale]` 一句本地化引导语，内链到 `/{locale}/products` 与 `/{locale}/contact`；条目由 native-only 折叠块 + FAQPage JSON-LD 承载。顺带把"FAQ 重复正文"这一层 SEO 重复内容也去掉了。

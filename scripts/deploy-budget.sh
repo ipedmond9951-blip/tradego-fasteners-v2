@@ -24,10 +24,10 @@ AUTH="$HOME/Library/Application Support/com.vercel.cli/auth.json"
 
 mkdir -p "$PROJECT_DIR/logs"
 
-python3 - "$LEDGER" "$LIMIT" "$PROJECT_ID" "$AUTH" <<'PY'
+python3 - "$LEDGER" "$LIMIT" "$PROJECT_ID" "$AUTH" "$PROJECT_DIR/logs/deploy-history.jsonl" <<'PY'
 import json, os, sys, time, datetime, urllib.request
 
-ledger_path, limit, project_id, auth_path = sys.argv[1], int(sys.argv[2]), sys.argv[3], sys.argv[4]
+ledger_path, limit, project_id, auth_path, hist_path = sys.argv[1], int(sys.argv[2]), sys.argv[3], sys.argv[4], sys.argv[5]
 tz = datetime.timezone(datetime.timedelta(hours=8))
 today = datetime.datetime.now(tz).strftime('%Y-%m-%d')  # 统一用北京时间判定"今天"
 
@@ -54,13 +54,24 @@ if d.get('date') != today:
     d = {'date': today, 'count': 0}
 local_count = int(d.get('count', 0))
 
-# API 可用时以 API 为准（它能同时看到别的 agent 的部署）；本地台账只作 API 不可用时的兜底。
-# 之前取 max() 会让历史 push 计数（含 ignoreCommand 跳过的）永久卡住真实构建。
-count = api_count if api_count is not None else local_count
+# 真实构建台账 deploy-history.jsonl(按 uid 持久化, 删部署不影响计数) —— 权威口径
+hist_count = 0
+try:
+    for line in open(hist_path):
+        line = line.strip()
+        if line and json.loads(line).get('ts', '').startswith(today):
+            hist_count += 1
+except Exception:
+    pass
+
+# 2026-11-25 修: 只看 API 会被自己的剪枝洗白 —— 删掉两条旧部署，5 次真实构建就显示成 3 次。
+# 台账按 uid 持久化，删除不影响计数，所以取 max(API, 台账)：API 补"别的 agent 刚推的"，
+# 台账补"已经删掉的"。ignoreCommand 跳过的记录不计入台账（sync 时按 state 过滤）。
+count = max([c for c in (api_count, local_count, hist_count) if c is not None] or [0])
 src = []
 if api_count is not None:
     src.append('Vercel=%d' % api_count)
-src.append('本地=%d' % local_count)
+src.append('本地=%d' % local_count); src.append('台账=%d' % hist_count)
 print('📊 今日已发生部署: %d / 预算 %d（%s；%s）' % (count, limit, today, ' '.join(src)))
 
 if api_count is not None and count >= limit:

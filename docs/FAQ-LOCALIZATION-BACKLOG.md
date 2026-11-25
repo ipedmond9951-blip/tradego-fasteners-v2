@@ -90,3 +90,11 @@
 4. **现状口径**：en/zh/ja 三语问答完整（累计 60 篇手译/自译），其余语种由 `com.tradego.faq-l10n`（600s 一轮）在通道可用时补；通道 429 时按 `logs/faq-l10n-needs-agent.txt` 自译补位。
 
 部署：本地领先 origin/main 6 个提交，当日构建预算 3/3 已用尽，进 09:00 或 17:00 窗口由 `deploy-flush.sh` 自动推，无需手工。
+
+## pt/fr 批次（2026-11-25 13:10 CST）
+
+- pt 5 篇 25 条：`angola-lng-project-fastener-procurement`、`mozambique-fastener-market-case-study`、`mozambique-hardware-supplier`、`mozambique-lng-construction-fasteners-maputo`、`mozambique-lng-construction-fasteners-standards`
+- fr 6 篇 26 条：`senegal-dakar-construction-fastener-wholesale`、`ivory-coast-abidjan-port-fastener-tariff`、`togo-lome-port-fastener-import-procedure`、`madagascar-antananarivo-fastener-sourcing`、`benin-cotonou-fastener-wholesale-market`、`congo-brazzaville-fastener`
+- 覆盖率：pt 215→240 条、fr 216→243 条（es 221、de 220、ru 214、ar 104、hi 184、ja 282、zh 512）
+- 顺手修两处坏问答：贝拉冷链篇的占位问句（"What are the key considerations for…"）与 Maputo LNG 篇"整段当成问句"的条目，后者拆成两个真问题。
+- 仍缺 pt/fr 的候选：`republic-of-congo-fastener-supplier`(5)、`drc-diamond-mining-fasteners`(7)、`drc-mining-concession-fastener-logistics`(3)、`mozambique-*` 已补完。
