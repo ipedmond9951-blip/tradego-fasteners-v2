@@ -35,6 +35,7 @@ def has_script(lang, text):
     return True  # es/fr/pt/de 退化为"与 en 完全相同"判据
 
 missing = {}
+cta_leaks = {'ar':0,'ru':0,'hi':0,'es':0,'fr':0,'pt':0,'de':0,'ja':0,'zh':0}
 
 def scan(path):
     global missing
@@ -64,6 +65,21 @@ def scan(path):
                     if bad:
                         out.setdefault(lang, 0)
                         out[lang] += 1
+    # 2026-11-26: CTA 也是 per-locale 字典，ar/ru/hi 里大面积是英文原文。
+    # 渲染层已按 native-only 回落本地化通用文案，所以这里只做遥测、不影响通过/失败，
+    # 免得数据层的历史债把审计一直染红。
+    cta = d.get("cta") or {}
+    for key in ("text", "buttonText"):
+        val = cta.get(key) or {}
+        en = (val.get("en") or "").strip()
+        if not en:
+            continue
+        for lang in LANGS:
+            if lang == "en":
+                continue
+            v = (val.get(lang) or "").strip()
+            if v and (v == en or (lang in ("ja","zh","ar","ru","hi") and not has_script(lang, v))):
+                cta_leaks[lang] = cta_leaks.get(lang, 0) + 1
     return out
 
 files = (PATHS if PATHS
@@ -102,4 +118,8 @@ if total:
             print(f"  {c:4} {n}")
 else:
     print("✅ 未发现英文泄漏")
+    live_cta = {k: v for k, v in cta_leaks.items() if v}
+    if live_cta:
+        print("ℹ️  CTA 英文副本（渲染层已回落本地化文案，仅遥测）：" +
+              "、".join(f"{k} {v}" for k, v in sorted(live_cta.items(), key=lambda x: -x[1])))
 sys.exit(1 if (STRICT and total) else 0)
