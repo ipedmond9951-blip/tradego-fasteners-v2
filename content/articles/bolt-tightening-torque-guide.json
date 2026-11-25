@@ -181,51 +181,61 @@
         {
           "q": {
             "en": "What torque should I use for M10 bolt Grade 8.8?",
-            "zh": "M10、8.8 级螺栓该用多大扭矩？"
+            "zh": "M10、8.8 级螺栓该用多大扭矩？",
+            "ja": "M10、強度区分8.8のボルトに適切なトルクはどれくらいですか？"
           },
           "a": {
             "en": "For an M10 Grade 8.8 hex bolt, the table value works only against a stated friction condition. At dry, as-received threads with a nut factor K = 0.2, the worked figure is about 45 N·m; the same target preload drops to roughly 36 N·m at K = 0.16 on a lubricated thread. Grade 10.9 runs higher because its proof load is higher, and the property class should be read against ISO 898-1 rather than guessed from the bolt diameter. Confirm the coating and lubricant with the supplier, because an electroplated or oiled thread shifts the friction ratio and can move the required torque by a factor near two. Record the class, finish, K value and resulting preload in kN on the method sheet, and tighten with a calibrated wrench; do not copy a figure off a generic table without those conditions.",
-            "zh": "M10、8.8 级六角螺栓的表列扭矩只在明确摩擦条件下才成立。干燥、未处理螺纹按螺母系数 K = 0.2 计算，参考值约 45 N·m；同一目标预紧力在润滑螺纹 K = 0.16 下降到约 36 N·m。10.9 级因保证载荷更高，扭矩相应更大；性能等级应对照 ISO 898-1 判断，不能只凭螺栓直径估算。镀层与润滑剂要先和供应商确认，电镀锌或上油螺纹会改变摩擦比，所需扭矩可能相差近一倍。工艺单上应写明等级、表面处理、K 值与对应 kN 预紧力，用校准扳手拧紧；脱离这些条件，不要直接照搬通用表上的数字。"
+            "zh": "M10、8.8 级六角螺栓的表列扭矩只在明确摩擦条件下才成立。干燥、未处理螺纹按螺母系数 K = 0.2 计算，参考值约 45 N·m；同一目标预紧力在润滑螺纹 K = 0.16 下降到约 36 N·m。10.9 级因保证载荷更高，扭矩相应更大；性能等级应对照 ISO 898-1 判断，不能只凭螺栓直径估算。镀层与润滑剂要先和供应商确认，电镀锌或上油螺纹会改变摩擦比，所需扭矩可能相差近一倍。工艺单上应写明等级、表面处理、K 值与对应 kN 预紧力，用校准扳手拧紧；脱离这些条件，不要直接照搬通用表上的数字。",
+            "ja": "M10、強度区分8.8の六角ボルトの場合、表記値は特定の摩擦条件に対するもののみです。乾燥状態で、潤滑されていないねじ山、ナット係数K=0.2の条件下では、目安として約45N·mとなります。同じ目張力（プレロード）を得るためには、潤滑されたねじ山ではK=0.16で約36N·mに低下します。強度区分10.9は耐力が高いため、より高くなります。ボルトの直径だけで推測せず、ISO 898-1に基づいて強度区分を確認してください。めっきや潤滑剤によって摩擦係数が変化し、必要なトルクが最大で約2倍になる可能性があるため、仕様に使用するコーティングと潤滑剤をサプライヤーに確認してください。方法書には、強度区分、表面処理、K値、そして結果の目張力（kN単位）を記録し、較正済みの工具で締め付けを行ってください。条件が特定されていない一般的な表の数値をそのまま使用しないでください。"
           }
         },
         {
           "q": {
             "en": "What is the difference between preload and torque?",
-            "zh": "预紧力和扭矩有什么区别？"
+            "zh": "预紧力和扭矩有什么区别？",
+            "ja": "「目張力（プレロード）」と「トルク」の違いは何ですか？"
           },
           "a": {
             "en": "Torque is the rotational force applied at the nut during tightening, measured in N·m; preload, or clamp load, is the axial tension the bolt develops once the joint is seated, expressed in kN. The joint needs the correct preload to hold the members together under service load, and torque is only the indirect method used to reach it, because tension cannot be read directly at the nut. Between torque and preload sits the friction ratio, captured by the nut factor K: thread condition, lubrication, plating and washer surface all change how much of the applied torque turns into tension rather than being burned off as friction. Two bolts at the same torque can therefore hold very different clamp loads, which is why a specification should name the target preload, the assumed K and the finish, not the torque number alone.",
-            "zh": "扭矩是拧紧时施加在螺母上的旋转力，单位 N·m；预紧力（夹紧力）是螺栓接头贴合后产生的轴向拉力，单位 kN。扭矩只是达到预紧力的间接手段，拉力无法在螺母处直接读出。两者之间是摩擦比关系，由螺母系数 K 概括：螺纹状态、润滑、镀层和垫圈支承面都会改变扭矩中有多少转化为拉力、多少被摩擦消耗。同样扭矩下的两根螺栓夹紧力可能相差很大，规格书应写明目标预紧力、K 值和表面处理，不能只给扭矩数字。"
+            "zh": "扭矩是拧紧时施加在螺母上的旋转力，单位 N·m；预紧力（夹紧力）是螺栓接头贴合后产生的轴向拉力，单位 kN。扭矩只是达到预紧力的间接手段，拉力无法在螺母处直接读出。两者之间是摩擦比关系，由螺母系数 K 概括：螺纹状态、润滑、镀层和垫圈支承面都会改变扭矩中有多少转化为拉力、多少被摩擦消耗。同样扭矩下的两根螺栓夹紧力可能相差很大，规格书应写明目标预紧力、K 值和表面处理，不能只给扭矩数字。",
+            "ja": "トルクは、締め付け時にナットに加える回転力で、N·mで測定されます。一方、目張力（またはクランプロード）は、締結部が固定された後にボルトに生じる軸方向の張力で、kNで表されます。締結部が使用中の負荷で構成部品を保持するためには、適切な目張力が必要です。しかし、締結部に直接張力を測定できないため、トルクは目張力を達成するための間接的な手段として使用されます。トルクと目張力の間には、ナット係数Kで表される摩擦係数が存在します。ねじ山の状態、潤滑、めっき、ワッシャーの表面状態などが、加えたトルクのうちどれだけが張力に変わり、どれだけが摩擦として失われるかを変化させます。したがって、同じトルクで締め付けたボルトでも、保持できるクランプロードは大きく異なります。そのため、仕様ではトルクの数値だけでなく、目標の目張力、想定されるK値、そして表面処理を明記する必要があります。"
           }
         },
         {
           "q": {
             "en": "Can torque specification bolts be reused after loosening?",
-            "zh": "拧过的螺栓松开后还能再用吗？"
+            "zh": "拧过的螺栓松开后还能再用吗？",
+            "ja": "トルク管理で締め付けたボルトを、緩めた後再利用できますか？"
           },
           "a": {
             "en": "Generally no for critical structural joints. Once a bolt has been tightened past its yield point and then loosened, it may have been permanently stretched or its thread damaged, and its preload capability on the next cycle is no longer reliable. Reuse is sometimes tolerated on lightly loaded, non-structural fasteners that were turned only to a controlled fraction of proof load, but the decision has to be made against the property class in ISO 898-1 and the application's duty, not by appearance. For 10.9 and 12.9 high-strength bolts, and for any joint carrying pressure, vibration or lifting loads, replace the bolt with a new one of the same class, diameter and finish. Keep removed bolts separate from service stock so a re-used fastener cannot be picked up by mistake during maintenance.",
-            "zh": "关键结构接头一般不能。螺栓拧紧超过屈服点后再松开，可能已发生永久拉伸或螺纹损伤，下一个循环的预紧能力不再可靠。轻载、非结构紧固件若只拧到保证载荷的受控比例以内，有时可以复用，但判断要依据 ISO 898-1 中的性能等级和工况，不能凭外观。10.9、12.9 高强度螺栓，以及承受压力、振动或起重载荷的接头，应换上同等级、同直径、同表面处理的新螺栓。拆下的螺栓要与在用库存分开存放，避免维护时误把复用件装回去。"
+            "zh": "关键结构接头一般不能。螺栓拧紧超过屈服点后再松开，可能已发生永久拉伸或螺纹损伤，下一个循环的预紧能力不再可靠。轻载、非结构紧固件若只拧到保证载荷的受控比例以内，有时可以复用，但判断要依据 ISO 898-1 中的性能等级和工况，不能凭外观。10.9、12.9 高强度螺栓，以及承受压力、振动或起重载荷的接头，应换上同等级、同直径、同表面处理的新螺栓。拆下的螺栓要与在用库存分开存放，避免维护时误把复用件装回去。",
+            "ja": "構造的に重要な締結部については、基本的に再利用できません。一度降伏点を超えて締め付けられたボルトは、永久に伸びたり、ねじ山が損傷したりしている可能性があり、次のサイクルでの目張力性能はもはや信頼できません。荷重のかからない非構造的な締結部で、耐力の一定割合までしか締め付けられていないボルトについては、再利用が許容される場合もありますが、その判断はISO 898-1の強度区分とアプリケーションの使用条件に基づいて行い、外見だけで判断してはいけません。10.9や12.9の高強度ボルト、圧力、振動、または荷重を受ける締結部では、同じ強度区分、径、表面処理の新しいボルトに交換してください。取り外したボルトは、在庫品と別に保管し、メンテナンス時に誤って再利用されないようにしてください。"
           }
         },
         {
           "q": {
             "en": "What is the nut factor (K) in torque calculation?",
-            "zh": "扭矩计算中的螺母系数 K 是什么？"
+            "zh": "扭矩计算中的螺母系数 K 是什么？",
+            "ja": "トルク計算における「ナット係数（K）」とは何ですか？"
           },
           "a": {
             "en": "The nut factor K, or friction coefficient in the torque-tension relationship, folds together thread friction, washer bearing-surface friction and the lubrication condition into one dimensionless value. The standard relationship is T = K · F · d / 2, where T is torque in N·m, F is the target preload in kN and d is the bolt diameter in mm. A plain, unlubricated bolt is commonly assumed at K = 0.2; a lubricated or molybdenum-paste thread may sit at K = 0.15 to 0.18, while a dry zinc-plated or damaged thread can run higher. Because K moves the torque needed for the same preload by roughly a fifth on each side of the range, the specification must state the finish and lubricant the K was measured for. Do not apply a K from a lubricated table to a dry joint, or the clamp load will fall short of design.",
-            "zh": "螺母系数 K，即扭矩-拉力关系中的摩擦系数，把螺纹摩擦、垫圈支承面摩擦和润滑状态合并成一个无量纲值。基本关系为 T = K · F · d / 2，其中 T 为扭矩（N·m），F 为目标预紧力（kN），d 为螺栓直径（mm）。普通未润滑螺栓通常取 K = 0.2；润滑或二硫化钼膏螺纹可能在 K = 0.15 至 0.18；干镀锌或损伤螺纹则偏高。K 在区间两侧各移动约五分之一，就会改变同一预紧力所需的扭矩，所以规格书必须写明该 K 值对应的表面处理与润滑剂。不要把润滑表上的 K 直接用到干态接头，否则夹紧力会低于设计要求。"
+            "zh": "螺母系数 K，即扭矩-拉力关系中的摩擦系数，把螺纹摩擦、垫圈支承面摩擦和润滑状态合并成一个无量纲值。基本关系为 T = K · F · d / 2，其中 T 为扭矩（N·m），F 为目标预紧力（kN），d 为螺栓直径（mm）。普通未润滑螺栓通常取 K = 0.2；润滑或二硫化钼膏螺纹可能在 K = 0.15 至 0.18；干镀锌或损伤螺纹则偏高。K 在区间两侧各移动约五分之一，就会改变同一预紧力所需的扭矩，所以规格书必须写明该 K 值对应的表面处理与润滑剂。不要把润滑表上的 K 直接用到干态接头，否则夹紧力会低于设计要求。",
+            "ja": "ナット係数Kは、トルク-張力関係における摩擦係数であり、ねじ部の摩擦、ワッシャーの当面摩擦、潤滑条件を1つの無次元の値にまとめたものです。標準的な関係式はT = K × F × d / 2 で、Tはトルク（N·m）、Fは目標の目張力（kN）、dはボルト径（mm）です。一般的に、無潤滑のボルトではK=0.2と仮定されます。潤滑されたか、モリブデン系のグリースが塗布されたねじ山ではK=0.15～0.18、一方で乾燥状態の亜鉛めっきや損傷したねじ山では、より高い値となります。Kの値は、同じ目張力を得るために必要なトルクを範囲の両端で約20%変化させるため、仕様にはK値が測定された際の表面処理と潤滑剤を明記する必要があります。潤滑済みの表のK値を乾燥状態の締結部に適用すると、設計値よりクランプロードが不足します。"
           }
         },
         {
           "q": {
             "en": "How do I know if a bolt is properly tightened?",
-            "zh": "怎样判断螺栓已经拧紧到位？"
+            "zh": "怎样判断螺栓已经拧紧到位？",
+            "ja": "ボルトが適切に締め付けられたかどうかを確認するにはどうすればいいですか？"
           },
           "a": {
             "en": "Start with a calibrated torque wrench set to the specification for the stated property class, finish and lubrication, and check the tool at the interval the maintenance manual requires. On critical joints, go beyond torque control: direct tension indicators are washers with raised bumps that flatten to a visible preload sign, while ultrasonic bolt stretch measurement reads the elongation in mm and converts it to preload in kN. Mark the bolt and nut after seating so subsequent loosening or rotation is visible on inspection. Re-check preload after the first operating hours, because bedding-in on washers and rough surfaces releases some clamp load. If a joint shows backing-out, sheared threads or member slip, trace the cause to friction, size or method rather than replacing bolts one by one.",
-            "zh": "先用校准扭矩扳手调到对应等级、表面处理和润滑剂的规格值，并按手册周期校验工具。关键接头不要只靠扭矩控制：直接拉力指示器是带凸点的垫圈，压平后给出可见预紧信号；超声波伸长测量读取 mm 伸长量并换算成 kN 预紧力。贴合后在螺栓和螺母上做标记，便于检查松动转动。运行最初几小时后复查预紧力，垫圈和粗糙表面贴合会释放部分夹紧力。若出现松退、剪切螺纹或构件滑移，应从摩擦、规格或工艺上找原因，而不是逐根换螺栓。"
+            "zh": "先用校准扭矩扳手调到对应等级、表面处理和润滑剂的规格值，并按手册周期校验工具。关键接头不要只靠扭矩控制：直接拉力指示器是带凸点的垫圈，压平后给出可见预紧信号；超声波伸长测量读取 mm 伸长量并换算成 kN 预紧力。贴合后在螺栓和螺母上做标记，便于检查松动转动。运行最初几小时后复查预紧力，垫圈和粗糙表面贴合会释放部分夹紧力。若出现松退、剪切螺纹或构件滑移，应从摩擦、规格或工艺上找原因，而不是逐根换螺栓。",
+            "ja": "まず、指定された強度区分、表面処理、潤滑条件に対応した較正済みのトルクレンチを使用し、メンテナンスマニュアルで指定された間隔で工具の精度を確認します。構造的に重要な締結部では、トルク管理を超えて確認を行います。直接張力指示器は、見える目張力の印となる盛り上がりを持つワッシャーで、押し潰されることで印が現れます。超音波によるボルト伸び測定は、mm単位の伸びを測定し、それをkN単位の目張力に変換します。締め付け後、ボルトとナットに印を付け、後の緩みや回転が検査でわかるようにします。初動作後、ワッシャーや粗い表面で「寝かし」が発生し、一部のクランプロードが解放されるため、目張力の再確認が必要です。締結部が緩んでいる、ねじ山がせん断されている、構成部品が滑っているなどの兆候が見られた場合、原因を摩擦、サイズ、または方法に求め、ボルトを一つずつ交換するのではなく根本的な対策を講じてください。"
           }
         }
       ]
