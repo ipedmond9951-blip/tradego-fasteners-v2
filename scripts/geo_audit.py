@@ -67,14 +67,13 @@ def pick_field(v, locale):
     return v or ""
 
 
-def words(t, locale):
+def count_words(t, locale):
     """按书写系统切词：拉丁按词、CJK 按字折算、西里尔/阿拉伯/天城文按空白切。
 
     旧实现只用 [A-Za-z0-9] 计词，俄语/阿拉伯语/印地语正文里只剩 ISO 898 这类拉丁串，
     分母被压到几十，实体密度被放大到 100–185/千词（实测 ru 155.6）。这里按脚本分开算。
     """
-    t = pick_field(t, locale)
-    plain = TAG.sub(" ", t)
+    plain = TAG.sub(" ", t or "")
     if locale in ("zh", "ja"):
         cjk = len(re.findall(r"[\u4e00-\u9fff\u3040-\u30ff]", plain))
         if cjk:
@@ -84,6 +83,22 @@ def words(t, locale):
         if toks:
             return len(toks)
     return len(WORDS.findall(plain))
+
+
+def words(t, locale):
+    """正文取字段：历史沿用 pick_field（缺键回退 en），正文口径不变。"""
+    return count_words(pick_field(t, locale), locale)
+
+
+def faq_answer_words(a, locale):
+    """FAQ 答案按语种 fail-closed：`a` 为 dict 时只取本语种键；该语种缺键或值空 → 该条计 0 词。
+    `a` 为纯字符串则视为语种无关照常计词。不向 en 回退，避免非英语种拿英文答案词数计分虚高。"""
+    if isinstance(a, dict):
+        v = a.get(locale)
+        if not v:
+            return 0
+        return count_words(v, locale)
+    return count_words(a or "", locale)
 
 
 def paras(body):
@@ -129,7 +144,7 @@ def audit(path, locale="en"):
     ent = len(ENT.findall(TAG.sub(" ", full))) * 1000 / wc
 
     fq = len(faqs)
-    fa = round(sum(words(x.get("a", ""), locale) for x in faqs) / fq) if fq else 0
+    fa = round(sum(faq_answer_words(x.get("a", ""), locale) for x in faqs) / fq) if fq else 0
 
     txt = TAG.sub("", full)
     if locale == "zh":
