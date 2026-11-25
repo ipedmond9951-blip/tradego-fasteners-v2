@@ -291,4 +291,22 @@ python3 scripts/content_gate.py --slug X # 单篇
 
 131. **改某条 FAQ 的中文答案，必须同文件同提交一起检查问句，问句脏不会被现有闸门拦住（本线预约 131）。** 现象：同一批 14 篇的第 2 条 `q.zh` 全是「B2B 买家如何防止 DRC Mining Fastener Market: Copper Belt, Lubumbashi, Kolwezi 失效？」这类英文标题直插中文问句；`check_zh.py` / `content_contract` 都只判 `a.zh`（字数、CJK 占比、连续 5 英词），问句里夹 8–10 个英文词照样全绿，`faq_audit` 的"问句异常"也只查结尾问号。规则：动某条 FAQ 时先扫该条 `q.zh` 有无连续 3+ 拉丁词，有就一起改成 ≤24 字的自然中文问句（同文件、同提交，不单列新任务）；`check_item.py <slug> <序>` 已加该判据（连续 3 英文词即 FAIL），批处理时用它替代整篇 `check_zh`，避免被未动的存量条目误报掩盖。
 
-132. **英文乱码品牌词定名：全文搜 → 全局搜正确写法 → 上下文并列品牌 → 仍不确定退通用表述，且只动英文侧（本线预约 132）。** 现象：`rivets-blind-rivet-nut-guide` 英文答案写成 "CherryMAX or Av奈 rivets"（`Av` + 汉字「奈」），中文答案只写 CherryMAX、未照搬。处置：`grep -c 'Av奈'` 确认只 1 处 → 该篇正文与 `content/` 全局搜 Avdel / Maxlok / Stanley 均无既有写法 → 按"与 CherryMAX 并列的结构盲铆钉品牌、`Av` 前缀"定为 Stanley 旗下 Avdel，写回 `Avdel rivets`（`ebc0187d`，单文件单行，残留 0）；中文侧无乱码即不动，不回填品牌名。若搜完仍无把握，改 `other structural blind rivet brands` 这类通用表述，绝不保留乱码或自造拼写；改完只跑 `content_gate --slug`（未动 UI 不需 `check-claims`），并核对 `git diff` 只有这一行。（本线预约 130–134，本轮用掉 130–132，133–134 留给下一批同线任务。）
+132. **英文乱码品牌词定名：全文搜 → 全局搜正确写法 → 上下文并列品牌 → 仍不确定退通用表述，且只动英文侧（本线预约 132）。** 现象：`rivets-blind-rivet-nut-guide` 英文答案写成 "CherryMAX or Av奈 rivets"（`Av` + 汉字「奈」），中文答案只写 CherryMAX、未照搬。处置：`grep -c 'Av奈'` 确认只 1 处 → 该篇正文与 `content/` 全局搜 Avdel / Maxlok / Stanley 均无既有写法 → 按"与 CherryMAX 并列的结构盲铆钉品牌、`Av` 前缀"定为 Stanley 旗下 Avdel，写回 `Avdel rivets`（`ebc0187d`，单文件单行，残留 0）；中文侧无乱码即不动，不回填品牌名。若搜完仍无把握，改 `other structural blind rivet brands` 这类通用表述，绝不保留乱码或自造拼写；改完只跑 `content_gate --slug`（未动 UI 不需 `check-claims`），并核对 `git diff` 只有这一行。（本线预约 130–134，本轮用掉 130–132；133 起为本批收口追加。）
+
+133. **量具回退盲区：某语种 FAQ 缺键时 `geo_audit` 把 en 答案词数当该语种用，分数虚高。** `words()` 的 `pick_field` 在该语种缺键时回退 en，`fa` 分量于是拿 en 答案长度算该语种的分：`bolt-tightening-torque-guide` zh 显示 90、真实只有 80。**规则：验收不能只看分数，必须遍历 `faqItems` 直接数 `"zh" in item["a"]` 与逐条长度，缺键或短条以实测为准。**
+
+134. **zh 页 FAQ 整块消失，分数看不出来，但页面是真的没有 FAQ。** `src/app/[locale]/industry/[slug]/page.tsx` 的 `nativeText(item.a, locale)` 过滤掉缺该语种的 FAQ 条目；`isFaqSection && nativeFaq.length === 0` 时整节 `return null`，FAQPage 结构化数据为空。A 区 39 篇扫出 10 篇、33 条处于这种状态。**规则：FAQ 覆盖按渲染口径（该语种原生条目 ≥3）判，不能按 JSON 里 en 条目数判。**
+
+135. **90→100 的唯一杠杆是 faq 分量：其余分量满时卡在 90 恒定，就是答案长度没过线。** 权重 `faq 20`，只有 `fq≥3 且 fa≥80 词` 才给满，否则只给 10 分；A 区 18 篇全卡此。扩写规范：保留原句，向后补选型 / 检验 / 公差 / 包装交期 / 失效模式 / 验收清单；en 82–140 词、zh 134–230 汉字（zh 词数按 CJK×0.6）；**先干跑计词再落盘**，超上限回砍一句，不灌形容词。
+
+136. **`µm` 与「小时」不在 ENT 单位白名单，补镀层厚度或交期天数不会让 `ent` 上涨。** 要提实体密度，补 M 规格、标准号，或 mm/MPa/kN/N·m/%/pcs/kg/days 这类白名单内可计数实体；裸 µm、裸小时、裸 HS 子目都不计入。
+
+137. **存量 zh 无 `<p>` 包裹的纯文本段落不要顺手重排。** 重排会扩大 diff，并打乱 `p1` 的首段窗口判定（首段取第一个 `</p>` 之前的全部内容）；只在原段落行内补词，段落化另起任务按既有口径做。
+
+138. **单语种收口必须断言未改语种全等，三道闸门不查这一项。** 闸门只拦新增问题，不校验"未改语种是否被误动"；改完直接与 `git show HEAD:content/articles/<slug>.json` 逐字节比对 body 与非目标 FAQ 字段，键集合与文本都应一致。
+
+139. **税率档位与 HS 子目属政策事实，可写；`%` 已计入 ent。** 分档税率、7318.11/7318.15 这类子目表是可核机制事实，不属无源数字；但具体报价金额、单价数字仍禁写，只讲报价结构。
+
+140. **红线 grep `CE` 会误命中法语 CEDEAO。** 认证扫描要按词边界或上下文判主体（见经验 30/57），别把 ECOWAS 法语缩写里的 `CE` 当 CE 认证自述命中；命中先读句子主语。
+
+141. **`fa` 是均值，逐条验收词数。** 均值到 100 分仍可能有个别条目只有 30 词，那条在页面上就是短答案；提交前逐条列答案词数，不拿均值放行。

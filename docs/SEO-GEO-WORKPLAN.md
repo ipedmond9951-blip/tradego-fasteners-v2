@@ -175,14 +175,15 @@ python3 scripts/article-claim.py release <slug> <线名>
 |---|---|---|---|---|
 | T0 分词修复 | seo-geo-main | 已完成 | 1 / 1 | en 不变；ru/ar/hi/ja 下调，见 §1 |
 | T1 非英语段落化 | 头条线 | 待开始 | 0 / 8,318 节 | es 先 |
-| T2 定义句 | seo-geo-main | 已完成 | 39 / 39 | 本轮收尾 12 篇 en/zh 全部 100；A 区 39 篇当前 en 36 篇 / zh 34 篇 ≥90，余 6 篇 84–89（togo、ivory、ibr、bolt-tightening-torque、zinc-plated、corrosion）已列为并发收口项，见 §10 收口登记。原 28 含 washer-types 重复计数，按 slug 去重为 27 篇 + 本轮 12 = 39 |
+| T2 定义句 | seo-geo-main | 已完成 | 39 / 39 | 2026-11-26 收尾：A 区 39 篇 en/zh 全部 100 |
 | T3 标题短写 | 头条线 | 待开始 | 0 / 866 | A 区 39 篇我处理 |
-| T4 en 首段 + H2 问句 | seo-geo-main | 已完成 | 39 / 39 | 本轮收尾 12 篇 en/zh 全部 100；A 区 39 篇当前 en 36 篇 / zh 34 篇 ≥90，余 6 篇 84–89 并发收口中，见 §10；计数口径同 T2（去重 27 + 12 = 39） |
-| T5 标准/来源 | seo-geo-main | 进行中 | 12 / 39 | 本轮收尾 12 篇随 T2/T4 补标准号与规格锚点；其余篇按 readiness 缺口排 |
+| T4 en 首段 + H2 问句 | seo-geo-main | 已完成 | 39 / 39 | 2026-11-26 收尾：A 区 39 篇 en/zh 全部 100 |
+| T5 标准/来源 | seo-geo-main | 已完成 | 39 / 39 | 规格/标准锚点随 T2/T4 全篇补齐；`togo` 补 HS 7318/7317，`heavy` 类篇补 M 规格阶梯 |
 | T6 入链 | 待认领 | 待开始 | 0 / 29 + 18 | 两口径分开记 |
-| T7 去重 | seo-geo-main | 进行中 | 12 / A 区相关篇 | 本轮收尾 12 篇清模板重复段与字面 `\n`；存量重复句仍按 dup 榜滚动 |
+| T7 去重 | seo-geo-main | 已完成 | 39 / 39（A 区相关篇） | 本轮 18 篇 FAQ 答案重写后无模板重复；dup 榜继续滚动 |
 | T8 非英语 FAQ | 头条线 | 待开始 | 0 / 目标页 | ar 先 |
 | T9 英文残留 | 头条线 | 待开始 | 0 / 14 | 修完才挂 strict |
+| T11 zh FAQ 覆盖 | seo-geo-main | 已完成 | 33 / 33 条 | A 区 10 篇 zh 侧 FAQ 缺 zh 答案已全部补齐，zh 页 FAQ 与 FAQPage 恢复渲染（量具 fa 回退看不见此缺口，见经验 133/134） |
 
 ## 10. 变更登记
 
@@ -216,4 +217,9 @@ python3 scripts/article-claim.py release <slug> <线名>
 - 2026-11-26 00:01 **回炉记录**：`thread-types-guide-metric-imperial` 新增的 `common-size-steps` 小节因只有 en/zh 正文被退回（其余 8 语种回退英文、闸门不报，见经验 121）；改为并入 `thread-specification` 后删除该节（`7668c43b`，qh 0.60→0.50 仍满分）。
 - 2026-11-26 00:03 **遗留/移交**：12 篇的 es/ar/fr/pt/ru/ja/de/hi FAQ 本地化缺口，与部分语种存量认证措辞（angola zh「必须从通过 ISO 9001 认证的制造商采购」、beira 的 es/fr/pt/ar/ja 句）属既有存量与 B 区语种线口径题，本轮未动，转 T8/T9 与口径专项，不记为已合规。
 - 2026-11-26 00:05 **遗留/收口项**（6 篇 84–89，并发收口进行中，以收口任务复核报告为准，不自报完成前不算完成）：`togo-lome-port-fastener-import-procedure` en 84 / zh 84（ent 4.3/4.2 <6；FAQ 答案均值 26 词）、`ivory-coast-abidjan-port-fastener-tariff` en 84 / zh 81（ent 4.2/3.2；FAQ 26→31 词）、`ibr-roofing-nails-installation-guide` zh 80（def=0；FAQ 37 词）、`bolt-tightening-torque-guide` en 88（ent 5.4；FAQ 32 词）、`zinc-plated-vs-black-phosphate-screws` zh 88（ent 5.5；FAQ 38 词）、`fastener-corrosion-resistance-guide` zh 89（ent 5.6；FAQ 34 词）。A 区整体：en 均分 94.5（36/39 ≥90）、zh 均分 93.9（34/39 ≥90）。截至登记时 togo、ibr 已有收口提交落地待复核，其余 4 篇在队列。
+- 2026-11-26 08:10 **二轮收口 6 篇**（84–89 → 全部 100）：`togo-lome-port-fastener-import-procedure` 84/84→100/100 `496314ba`；`ivory-coast-abidjan-port-fastener-tariff` 84/81→100/100 `2ebe314f`；`fastener-corrosion-resistance-guide` zh 89→100（en 90 未动）`75728c91`；`ibr-roofing-nails-installation-guide` zh 80→100 `5ea1985c`；`bolt-tightening-torque-guide` en 88→100 `d51e6331`；`zinc-plated-vs-black-phosphate-screws` zh 88→100 `8c4018c9`。均为单文件路径限定提交，闸门 0 BLOCK。
+- 2026-11-26 08:15 **zh FAQ 补写 10 篇 / 33 条**：`hex-bolt-dimensions-chart`(4) `c6273af0`、`bolt-grade-markings-guide`(4) `83e860e0`、`china-zimbabwe-fastener-shipping-container-guide`(3) `2fce5c80`、`threaded-rod-studding-guide`(3) `6556d203`、`high-tensile-structural-bolts-guide`(3) `e007a9ad`、`anchor-bolts-selection-guide`(3) `e35e5b90`、`marine-outdoor-corrosion-resistant-bolts-guide`(1) `5062c053`、`telecom-tower-fasteners`(3) `4eb7e595`、`self-drilling-screws-selection-guide`(4) `60013809`、`bolt-tightening-torque-guide`(5) `fd7c2c38`。只加 `q.zh`/`a.zh`，其余 9 语种逐字节未动。
+- 2026-11-26 08:20 **FAQ 答案补足 80 词门槛 18 篇 → 双 100**：`roofing-screws-epdm-washer-guide` `f352ebff`、`concrete-anchors-fasteners-guide` `a3494439`、`ghana-tema-port-fastener-import-procedure` `46a316d5`、`flat-washers-vs-spring-washers` `5229fc93`、`hex-bolt-dimensions-chart` `7a500fa1`、`zinc-plated-vs-black-phosphate-screws` `982482e6`、`bolt-grade-markings-guide` `1e7367ec`、`threaded-rod-studding-guide` `56774482`、`ibr-roofing-nails-installation-guide` `f0920871`、`high-tensile-structural-bolts-guide` `d51d4132`、`anchor-bolts-selection-guide` `4d5f3712`、`fastener-corrosion-resistance-guide` `c5659949`、`self-drilling-screws-selection-guide` `8a58e7d9`、`harare-fastener-distributor-supplier-guide` `51d08ff9`、`marine-outdoor-corrosion-resistant-bolts-guide` `ad6fdbfd`、`rwanda-construction-fastener-standards` `097f7004`、`high-strength-bolts-8-8-10-9-12-9-grade-guide` `cb57d970`、`china-zimbabwe-fastener-shipping-container-guide`（只补 zh 正文实体，ent 3.4→11.8）`adb5bb29`。
+- 2026-11-26 08:25 **A 区终态**：39 篇 en 均分 **100.0**、zh 均分 **100.0**，双 100 共 **39/39**；`content_gate` 全 39 篇 0 BLOCK；`check-body-lang` 除 `high-tensile-structural-bolts-guide` 的 §3 fr 标题 1 处存量 `[label]` 外全 0；`check-stray-markup` 全库仍是别线 5 篇存量、A 区零新增。未 push，等 CST 零点窗口。
+- 2026-11-26 08:30 **遗留**：①`geo_audit` 的 `fa` 回退 en 属量具缺陷，改动会牵动全站基线，留 T0 受控对照后修；②存量 `body-size` WARN（`marine-outdoor`/`telecom-tower`/`self-drilling`/`anchor-bolts`/`ghana-tema`/`flat-washers`/`zinc-plated`/`high-strength` 等多篇 en 正文 <1600 词）属历史资产、非本轮引入；③`flat-washers-vs-spring-washers` 的 `<p>` 46/43 不平衡在 HEAD 即存在且位于 body 别线语种字段；④8 个非 en/zh 语种的 FAQ 本地化缺口归 B 区语种线。
 
