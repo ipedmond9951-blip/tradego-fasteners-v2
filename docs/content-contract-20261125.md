@@ -175,3 +175,10 @@ python3 scripts/content_contract.py --baseline logs/content-contract-baseline.js
 | 中文正文偏薄 | 108 篇 | <700 汉字 |
 | 描述长度超限 | 67 篇 | seo-length |
 | 缺语种 / 虚词缺失 | 28 / 14 篇 | es/fr/pt/ar/ru/ja/de/hi 部分缺 |
+
+## 十一、第五轮：字段后处理 + FAQ 数据通路修复（2026-11-25 夜）
+
+1. 新增 `scripts/polish_content_contract.py`（alt-fill / fit-meta / kw-pad，默认 dry-run、幂等），一次修完：imageAlt 补语种 251 处、中英描述长度 86 处、keywords 补足 20 篇。
+2. 发现并修复一个真问题：文章页与 FAQPage schema 只读 `sections[].faqItems`，而 193 篇的 faqItems 用的是 `question/answer` 键名、`q/a` 为空，线上折叠区与结构化数据一直是**空白**；另有 28 篇把问答放在从不渲染的顶层 `faq`。已统一键名并迁移到 faqItems，另按内容新写 8 篇问答。
+3. `content_contract.py` 的 FAQ 检查同步改为读 faqItems，删掉从未被渲染的顶层 faq 检查。
+4. 新增 `scripts/faq_extract.py`（把正文里已成文的 Q/A 抽成结构化问答，只搬运不改写）与 `scripts/faq_migrate.py`（顶层 faq 迁移）。
