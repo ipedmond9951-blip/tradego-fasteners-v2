@@ -17,6 +17,7 @@ import argparse, glob, json, os, re
 
 PAT_MULTI = re.compile(r'(?<![A-Za-z])(?:Tradego|TRADEGO|tradego)[-\s](?:Fasteners|FASTENERS|fasteners)(?![A-Za-z])')
 PAT_SOLO = re.compile(r'(?<![A-Za-z])Tradego(?![A-Za-z])')
+PAT_ASSEMBLED = re.compile(r'(?<![A-Za-z])TradeGo[-]?Fasteners(?![A-Za-z])')
 URLISH = re.compile(r'(https?://|www\.|href=|src=|tradego-fasteners\.com)')
 
 
@@ -29,8 +30,9 @@ def fix_text(s):
             out.append(tok)
             continue
         t2, k = PAT_MULTI.subn('TradeGo Fasteners', tok)
+        t2, k3 = PAT_ASSEMBLED.subn('TradeGo Fasteners', t2)
         t2, k2 = PAT_SOLO.subn('TradeGo', t2)
-        n += k + k2
+        n += k + k2 + k3
         out.append(t2)
     return ''.join(out), n
 
