@@ -89,13 +89,15 @@
             "en": "What is the difference between ISO 4014 and ISO 4017?",
             "zh": "ISO 4014 与 ISO 4017 有什么区别？",
             "ja": "ISO 4014とISO 4017の違いは何ですか？",
-            "es": "¿Cuál es la diferencia entre ISO 4014 e ISO 4017?"
+            "es": "¿Cuál es la diferencia entre ISO 4014 e ISO 4017?",
+            "de": "Was ist der Unterschied zwischen ISO 4014 und ISO 4017?"
           },
           "a": {
             "en": "ISO 4014 covers full-length hex bolts with coarse thread tolerance class 6g, while ISO 4017 covers hex cap screws that may have fine thread. Both are used in agricultural machinery, but ISO 4014 is more common for structural connections where the shank passes through the fastened member.",
             "zh": "ISO 4014 是全螺纹六角头螺栓，粗牙公差等级为 6g；ISO 4017 则是六角头螺钉，可采用细牙。两者均用于农机，但 ISO 4014 更常用于结构连接，让光杆穿过被紧固件。",
             "ja": "ISO 4014は全長ねじ仕様の六角ボルトで、ねじ山の公差等級が6gの粗ねじです。一方、ISO 4017は六角穴付きボルト（キャップスクリュー）で、細ねじも選択可能です。どちらも農業機械に使われますが、被締結部材を貫通させる構造用途ではISO 4014がより一般的です。",
-            "es": "La norma ISO 4014 define los tornillos hexagonales de rosca completa con tolerancia 6g en la rosca gruesa, mientras que la ISO 4017 se aplica a los tornillos de cabeza hexagonal que pueden fabricarse con rosca fina. Ambos se emplean en maquinaria agrícola, aunque el ISO 4014 es el más habitual en uniones estructurales donde el vástago atraviesa las piezas unidas."
+            "es": "La norma ISO 4014 define los tornillos hexagonales de rosca completa con tolerancia 6g en la rosca gruesa, mientras que la ISO 4017 se aplica a los tornillos de cabeza hexagonal que pueden fabricarse con rosca fina. Ambos se emplean en maquinaria agrícola, aunque el ISO 4014 es el más habitual en uniones estructurales donde el vástago atraviesa las piezas unidas.",
+            "de": "ISO 4014 umfasst vollständige Sechskantschrauben mit einer Grob-Neigung der Toleranzklasse 6g, während ISO 4017 Sechskantschrauben mit Kappe abdeckt, die eventuell eine Fein-Neigung haben. Beide werden in landwirtschaftlicher Maschinentechnik verwendet, aber ISO 4014 ist häufiger für strukturelle Verbindungen geeignet, bei denen der Schaft durch das befestigte Bauteil führt."
           }
         },
         {
@@ -103,13 +105,15 @@
             "en": "Are GB/T standards equivalent to ISO standards?",
             "zh": "GB/T 标准是否等同于 ISO 标准？",
             "ja": "GB/T規格はISO規格と同等ですか？",
-            "es": "¿Son equivalentes las normas GB/T a las normas ISO?"
+            "es": "¿Son equivalentes las normas GB/T a las normas ISO?",
+            "de": "Sind GB/T-Standards mit ISO-Standards gleichwertig?"
           },
           "a": {
             "en": "GB/T 5782 is functionally equivalent to ISO 4014, and GB/T 5783 is equivalent to ISO 4017. However, buyers should verify that mechanical properties (tensile and yield strength) meet or exceed the required ISO property class, as manufacturing process controls may vary between suppliers.",
             "zh": "GB/T 5782 在功能上等同于 ISO 4014，GB/T 5783 等同于 ISO 4017。但采购时仍需确认其抗拉强度和屈服强度达到或超过 ISO 规定的性能等级，因不同供应商的工艺控制可能存在差异。",
             "ja": "GB/T 5782はISO 4014と、GB/T 5783はISO 4017と機能的に同等です。ただし、引張強さや降伏点などの機械的特性が要求されるISOのプロパティクラスを満たしているか、または上回っているかを、サプライヤーごとに確認してください。製造工程の管理水準が異なる場合があります。",
-            "es": "GB/T 5782 equivale funcionalmente a la ISO 4014 y GB/T 5783 a la ISO 4017. No obstante, el comprador debe verificar que las propiedades mecánicas (resistencia a la tracción y al límite elástico) cumplan o superen la clase de calidad ISO requerida, ya que los controles de fabricación pueden variar entre proveedores."
+            "es": "GB/T 5782 equivale funcionalmente a la ISO 4014 y GB/T 5783 a la ISO 4017. No obstante, el comprador debe verificar que las propiedades mecánicas (resistencia a la tracción y al límite elástico) cumplan o superen la clase de calidad ISO requerida, ya que los controles de fabricación pueden variar entre proveedores.",
+            "de": "GB/T 5782 ist funktionell mit ISO 4014 gleichwertig, und GB/T 5783 entspricht ISO 4017. Allerdings sollten Käufer überprüfen, ob die mechanischen Eigenschaften (Zug- und Fließfestigkeit) den Anforderungen der entsprechenden ISO-Eigenschaftsklasse entsprechen oder übertreffen, da die Prozesskontrollen zwischen Herstellern variieren können."
           }
         },
         {
@@ -117,13 +121,15 @@
             "en": "When should I use ASTM A307 vs ISO 898-1 Class 8.8?",
             "zh": "什么时候应选用 ASTM A307，而不是 ISO 898-1 8.8 级？",
             "ja": "ASTM A307とISO 898-1 Class 8.8は、どちらを使うべきですか？",
-            "es": "¿Cuándo debo usar ASTM A307 frente a ISO 898-1 Clase 8.8?"
+            "es": "¿Cuándo debo usar ASTM A307 frente a ISO 898-1 Clase 8.8?",
+            "de": "Wann sollte ASTM A307 gegenüber ISO 898-1 Klasse 8.8 verwendet werden?"
           },
           "a": {
             "en": "ASTM A307 is a lower-strength standard suitable for non-critical, non-structural connections. For any high-stress application in agricultural equipment — such as hitch points, axle attachments, or implement mounts — ISO 898-1 Class 8.8 minimum is recommended, with Class 10.9 preferred for critical joints.",
             "zh": "ASTM A307 强度较低，适合非关键、非结构连接。对于农机中承受高应力的部位——如牵引点、车轴连接或农具安装座，建议至少选用 ISO 898-1 8.8 级，关键接合点则优先选用 10.9 级。",
             "ja": "ASTM A307は強度が低いため、非重要・非構造用途に適します。農業機械のヒッチ部、車軸取付け部、作業機取付け部など高応力のかかる箇所では、ISO 898-1 Class 8.8以上（重要箇所ではClass 10.9推奨）を使用してください。",
-            "es": "ASTM A307 es una norma de menor resistencia adecuada para uniones no críticas ni estructurales. En aplicaciones de maquinaria agrícola sometidas a cargas elevadas —como puntos de enganche, fijaciones de eje o soportes de implementos— se recomienda como mínimo la Clase 8.8 según ISO 898-1, y la Clase 10.9 para juntas críticas."
+            "es": "ASTM A307 es una norma de menor resistencia adecuada para uniones no críticas ni estructurales. En aplicaciones de maquinaria agrícola sometidas a cargas elevadas —como puntos de enganche, fijaciones de eje o soportes de implementos— se recomienda como mínimo la Clase 8.8 según ISO 898-1, y la Clase 10.9 para juntas críticas.",
+            "de": "ASTM A307 ist ein niedriger Festigkeitsstandard, der für nicht kritische, nicht strukturelle Verbindungen geeignet ist. Für jede hochbelastete Anwendung in landwirtschaftlicher Ausrüstung – wie Anhängerpunkte, Achsverbindungen oder Anbauten – wird die ISO 898-1 Klasse 8.8 mindestens empfohlen, während für kritische Verbindungen die Klasse 10.9 vorzuziehen ist."
           }
         }
       ],
