@@ -262,26 +262,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "Which fabric weight should I specify for waterproofing?"
+            "en": "Which fabric weight should I specify for waterproofing?",
+            "zh": "防水工程该选多少克重的无纺布？"
           },
           "a": {
-            "en": "60 to 80 gsm as a carrier and separator under membranes, 100 to 150 gsm where mechanical reinforcement or puncture protection is needed. Heavier grades belong to geotextile filtration and civil works."
+            "en": "60 to 80 gsm as a carrier and separator under membranes, 100 to 150 gsm where mechanical reinforcement or puncture protection is needed. Heavier grades belong to geotextile filtration and civil works.",
+            "zh": "做垫层和隔离层用 60 到 80 gsm；需要机械增强或防刺穿的部位用 100 到 150 gsm。更厚的规格属于土工布过滤和土建工程用途，防水垫层不必选到那一级。"
           }
         },
         {
           "q": {
-            "en": "Does non-woven fabric need UV stabilisation?"
+            "en": "Does non-woven fabric need UV stabilisation?",
+            "zh": "无纺布需要做抗紫外线处理吗？"
           },
           "a": {
-            "en": "For exposed covers and temporary outdoor use yes - specify a stabilised grade. Buried or covered applications do not require it, and paying for it there is wasted cost."
+            "en": "For exposed covers and temporary outdoor use yes - specify a stabilised grade. Buried or covered applications do not require it, and paying for it there is wasted cost.",
+            "zh": "外露覆盖和临时户外使用需要，应指定抗紫外线稳定品级；埋地或被覆盖的场合不需要，额外加稳定剂属于浪费成本。"
           }
         },
         {
           "q": {
-            "en": "What tolerances should be locked before ordering?"
+            "en": "What tolerances should be locked before ordering?",
+            "zh": "下单前要锁定哪些公差指标？"
           },
           "a": {
-            "en": "Polymer grade, weight tolerance, tensile strength in machine and cross direction, elongation, roll width, roll length and packing. These are the values that decide whether the roll performs on site."
+            "en": "Polymer grade, weight tolerance, tensile strength in machine and cross direction, elongation, roll width, roll length and packing. These are the values that decide whether the roll performs on site.",
+            "zh": "包括原料牌号、克重公差、纵向和横向抗拉强度、断裂伸长率、幅宽、卷长和包装。这些指标直接决定卷材在现场能不能用，下单前应逐项写进采购规格。"
           }
         }
       ]
