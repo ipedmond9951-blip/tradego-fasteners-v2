@@ -227,9 +227,6 @@ python3 scripts/content_gate.py --slug X # 单篇
 88. **正文里"标题句"单独成句，是模板拼接的残留，任何闸门都抓不到。** `flat-washers-vs-spring-washers` 的中文段落中间插着一句"平垫圈到底在做什么。"，前后文都通顺，只有通读才看得出来。**规则：改中文段时把整段读一遍；出现"××到底…？"这类像小标题的句子，基本是从 heading 掉进 body 的。**
 
 
-87. **空节（body 长度为 0）比半译更伤 SEO/GEO，而且没人报。** 全库扫出 **239 个 0 字符正文**（zh 125 / fr 30 / de 29 / es 28 / pt 27，其中 40 节属 A 区），页面上就是"标题 + 空白"，`check-body-lang` 与 `content_gate` 都不会报，`lang_mix_audit` 因为 0 词也不会报。清单落在 `docs/empty-sections-2026-1125.csv`。**规则：任何内容体检先跑一遍"空节/超短节"扫描（<60 字符也算可疑），再谈半译；补空白节时按英文同节重写，不照抄模板尾巴（原文常带 'The comparison methodology above…' 这类模板段）。**
+87. **"空节"先判节身份，再决定要不要派人补。** 全库扫出 239 个 0 字符正文，初判是"整节缺失"，逐条核验后发现 **239/239 全是 FAQ 小节**：页面由 `page.tsx` 用 `FAQ_INTRO[locale]` + `section.faqItems` 渲染，body 只在"该语种原生且 ≥60 字"时才输出，所以空 body 是无害的，真正缺的是 `faqItems` 里的该语种问答。**规则：看到空节先看 heading/id 是不是 FAQ（`id=faq` 或各语种"常见问题"），是 FAQ 就转去查 `faqItems` 语种覆盖，别派工去补正文。** 清单：`docs/empty-sections-2026-1125.csv`。
 
-89. **只改 en/zh 字段时，永远不要把整个字段字典重写。** 术语表重构时把 `heading` 写成 `{"en","zh"}`，8 个语种标题被整体抹掉，`content_gate` 只报 `i18n-missing` WARN、不阻断。**规则：先 `git show HEAD:<path>` 取原字典，再 `h = dict(orig); h["en"]=…; h["zh"]=…`，覆盖而不重建；改完 `git diff` 看语种数。**
-90. **术语表/清单类页面的首段必须是散文，不是条目列表。** 原首段是 321 词的裸术语串（且没有 `<p>`，`p1` 直接把整页算成首段）。**规则：首段只回答一个问题（这里"螺栓和螺钉怎么区分"），术语条目按 2–3 条一组放进各自的 `<p>`，前面配一句"这一段管什么"的引导句。**
-91. **`metaDescription` 会被写成正文片段，且没人拦。** 该页 en meta 是 "Axial — along the axis…"，等于把术语表前两句当摘要，既超长也没有点击理由。**规则：改文章时把 meta 当独立交付物看，en 120–165 字符、一句话讲清"这页能解决买家什么问题"；`seo-length` 是 WARN，不主动看就漏掉。**
-
+88. **FAQ 语种覆盖是当前最大的 GEO 空白，而且被"native-only"策略放大了。** 全库 1,060 条 FAQ、1,044 条唯一问句（模板复用率低，不是模板病），但 `page.tsx` 只渲染原生问答，缺该语种就整节不输出。实测 **220 篇文章存在语种缺口**（B 区 190），其中 125 篇十语种里只剩 en：zh 131、ru 214、ar 207、es 211、fr 208、de 212、pt 210、ja 195、hi 225 篇缺问答。首页/文章页的 FAQPage 结构化数据在非英语版本上基本是空的——这正是 AI 引擎最爱引用的版块。清单：`docs/faq-native-gap-2026-1125.csv`（slug / faq_items / missing_locales / owner_zone）。补齐顺序：zh → ja → ru/ar，其余按 GSC 曝光排；补写时按英文 5 条逐条译，不套用通用问答。

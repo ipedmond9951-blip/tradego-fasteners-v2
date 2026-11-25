@@ -222,32 +222,36 @@
     {
      "q": {
       "en": "How do I choose the right fastener for my project?",
-      "ar": "كيف أختار المثبت المناسب لمشروعي؟"
+      "ar": "كيف أختار المثبت المناسب لمشروعي؟",
+      "zh": "如何为项目选对紧固件？"
      },
      "a": {
       "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-      "ar": "راعِ المادة التي يتم تثبيتها ومتطلبات الأحمال والتعرض البيئي والمعايير المعمول بها. استشر مهندسًا مختصًا عند عدم التأكد من المواصفات."
+      "ar": "راعِ المادة التي يتم تثبيتها ومتطلبات الأحمال والتعرض البيئي والمعايير المعمول بها. استشر مهندسًا مختصًا عند عدم التأكد من المواصفات.",
+      "zh": "要综合考虑被连接件的材质、荷载要求、环境暴露条件以及适用的标准。规格拿不准时找专业人员确认。"
      }
     },
     {
      "q": {
       "en": "What materials are available for these fasteners?",
-      "ar": "ما المواد المتاحة لهذه البراغي؟"
+      "ar": "ما المواد المتاحة لهذه البراغي؟",
+      "zh": "这类紧固件有哪些材质可选？"
      },
      "a": {
       "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-      "ar": "المواد الشائعة تشمل الفولاذ الكربوني والفولاذ المقاوم للصدأ وفولاذ السبائك وسبائك متخصصة، ولكل منها خصائص مختلفة في القوة ومقاومة التآكل والتكلفة."
+      "ar": "المواد الشائعة تشمل الفولاذ الكربوني والفولاذ المقاوم للصدأ وفولاذ السبائك وسبائك متخصصة، ولكل منها خصائص مختلفة في القوة ومقاومة التآكل والتكلفة.",
+      "zh": "常见的有碳钢、不锈钢、合金钢和特种合金。它们在强度、耐蚀性和成本上各有取舍。"
      }
     },
     {
      "q": {
       "en": "How do I read the markings on a metric bolt head?",
-      "zh": "米制螺栓头部的标记怎么读？",
+      "zh": "如何看懂公制螺栓头部的标记？",
       "ar": "كيف أقرأ العلامات على رأس برغي متري؟"
      },
      "a": {
       "en": "Two numbers such as 8.8 or 10.9 give the property class, where the first number is tensile strength in hundreds of MPa and the second is the yield ratio. Letters identify the manufacturer, and stainless bolts show A2-70 or A4-70 instead of a class number.",
-      "zh": "8.8、10.9 这类两位数字是性能等级：前一位是抗拉强度（百 MPa），后一位是屈强比。字母是制造厂标识，不锈钢螺栓标 A2-70 或 A4-70 而不是等级数字。",
+      "zh": "两个数字（如 8.8、10.9）表示性能等级：第一个数字是抗拉强度的百 MPa 值，第二个是屈强比。字母是制造商标识；不锈钢螺栓标注 A2-70 或 A4-70，而不是等级数字。",
       "ar": "رقمان مثل 8.8 أو 10.9 يمثلان فئة الخواص: الرقم الأول مقاومة الشد بوحدات مئات الميغاباسكال والثاني نسبة الخضوع. الحروف تشير إلى المصنع، والبراغي المقاومة للصدأ تحمل A2-70 أو A4-70 بدل رقم الفئة."
      }
     },
@@ -259,19 +263,19 @@
      },
      "a": {
       "en": "Unmarked bolts must not go into structural or safety-critical work. Sample them for hardness and tensile testing, and reject lots whose origin cannot be traced. Legitimate structural bolts always carry grade and maker marks.",
-      "zh": "无标记螺栓不能用于结构或安全关键部位。应抽样做硬度与抗拉试验，来源无法追溯的整批拒收。正规结构螺栓一定同时有等级和厂标。",
+      "zh": "无标记螺栓不得用于结构或安全关键部位。应抽样做硬度和拉伸试验，来源无法追溯的批次一律拒收。正规结构螺栓一定同时带等级和制造商标记。",
       "ar": "البراغي التي لا تحمل علامة على الرأس لا يجوز استخدامها في الأعمال الإنشائية أو الحرجة أمنيًا. خذ منها عينات لاختبار الصلابة والشد، وارفض الدفعات التي لا يمكن تتبع مصدرها. البراغي الإنشائية الأصلية تحمل دائمًا الفئة وعلامة المصنع."
      }
     },
     {
      "q": {
       "en": "How common is counterfeiting in African project supply?",
-      "zh": "非洲项目供货里伪造标记常见吗？",
+      "zh": "非洲项目供货里假冒螺栓有多普遍？",
       "ar": "ما مدى شيوع التقليد في توريد المشاريع الأفريقية؟"
      },
      "a": {
       "en": "Common enough that head marks alone are not accepted as proof. Verify the heat number on the certificate against the packing list, do third-party sampling on large lots, and re-check hardness because re-marked lower-grade bolts are a known failure source.",
-      "zh": "相当常见，所以单凭头部标记不能作为证据。要把证书炉批号与装箱单核对，大货做第三方抽检，并复测硬度——低等级螺栓改打标记是已知的失效来源。",
+      "zh": "普遍到不能只凭头部标记当真。要把质保书上的炉号与装箱单核对，大批量做第三方抽检，并复测硬度——改标低等级螺栓是已知的失效来源。",
       "ar": "شائع بما يكفي بحيث لا تُقبل علامات الرأس وحدها كدليل. تحقق من رقم الصهرة في الشهادة مقابل قائمة التعبئة، وأجرِ أخذ عينات من طرف ثالث للدفعات الكبيرة، وأعد فحص الصلابة لأن البراغي بفئة أدنى أعيد وسمها مصدر عطل معروف."
      }
     }
