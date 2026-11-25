@@ -249,7 +249,7 @@
     {
      "q": {
       "en": "What is the most common failure mode in Wind Energy Fastener Requirements: Standards for Wind Turbine Towers?",
-      "zh": "Wind Energy Fastener Requirements: Standards for Wind Turbine Towers 中最常见的失效模式是什么？",
+      "zh": "塔筒法兰连接，预紧力为什么会不足？",
       "es": "¿Cuál es el modo de falla más común en Wind Energy Fastener Requirements: Standards for Wind Turbine Towers?",
       "ar": "ما هو وضع الفشل الأكثر شيوعًا في Wind Energy Fastener Requirements: Standards for Wind Turbine Towers؟",
       "fr": "Quel est le mode de défaillance le plus courant dans Wind Energy Fastener Requirements: Standards for Wind Turbine Towers ?",
@@ -261,7 +261,7 @@
      },
      "a": {
       "en": "The most common failure mode in Wind Energy Fastener Requirements: Standards for Wind Turbine Towers is supplier-side quality control deficiency, accounting for over 60% of documented cases. Contributing factors include: missing ISO 9001 certification, inadequate mill test certificates, lack of pre-shipment third-party inspection, and incorrect grade marking. B2B buyers should require documentation before payment release and engage independent testing agencies for batch verification.",
-      "zh": "Wind Energy Fastener Requirements: Standards for Wind Turbine Towers 中最常见的失效模式是供应商端质量控制缺陷，占记录案例的 60% 以上。",
+      "zh": "风电机组塔筒法兰靠高强度螺栓把上下段压紧，现场扭矩工具再准，也架不住供方批次扭矩系数参差不齐。同批螺栓摩擦系数忽高忽低，按同一扭矩上紧后，实际预紧力有的偏松、有的过载，法兰结合面在长期风振下出现滑移、微动，连接刚度随之下降。成因往往落在来料环节：炉号混装、表面处理状态不一、镀层厚度偏离 ISO 4042 规定、进场前没有按 ISO 3269 做批次抽检，等级刻印与材质单也对不上。把扭矩系数记录和材质追溯随货走、付款前抽样复验，才能在塔筒吊装前拦住这类偏松隐患。",
       "es": "El modo de falla más común en Wind Energy Fastener Requirements: Standards for Wind Turbine Towers es la deficiencia de control de calidad del lado del proveedor.",
       "fr": "Le mode de défaillance le plus courant dans Wind Energy Fastener Requirements: Standards for Wind Turbine Towers est la déficience du contrôle qualité côté fournisseur.",
       "pt": "O modo de falha mais comum em Wind Energy Fastener Requirements: Standards for Wind Turbine Towers é a deficiência de controle de qualidade do fornecedor.",
@@ -299,7 +299,7 @@
     {
      "q": {
       "en": "What is the typical cost of a Wind Energy Fastener Requirements: Standards for Wind Turbine Towers failure?",
-      "zh": "Wind Energy Fastener Requirements: Standards for Wind Turbine Towers 失效的典型成本是多少？",
+      "zh": "塔筒螺栓失效，返工代价有多重？",
       "es": "¿Cuál es el costo típico de una falla de Wind Energy Fastener Requirements: Standards for Wind Turbine Towers?",
       "ar": "ما هي التكلفة النموذجية لفشل Wind Energy Fastener Requirements: Standards for Wind Turbine Towers؟",
       "fr": "Quel est le coût typique d'une défaillance de Wind Energy Fastener Requirements: Standards for Wind Turbine Towers ?",
@@ -311,7 +311,7 @@
      },
      "a": {
       "en": "The typical cost of a Wind Energy Fastener Requirements: Standards for Wind Turbine Towers failure ranges from USD 280,000 for small-scale incidents to USD 11.5 million for large infrastructure projects. The cost of preventive measures (third-party inspection, lab testing) is typically 0.5-1.5% of the order value, which is 10-100x cheaper than failure recovery costs. For high-value orders (above USD 50,000), professional failure analysis costs USD 1,500-5,000 per fastener and provides actionable intelligence for future procurement decisions.",
-      "zh": "Wind Energy Fastener Requirements: Standards for Wind Turbine Towers 失效的典型成本从小型事件的 28 万美元到大型基础设施项目的 1,150 万美元不等。预防措施的成本通常为订单价值的 0.5-1.5%，比失效恢复成本便宜 10-100 倍。",
+      "zh": "这类隐患一旦留到吊装之后，代价就不再是一柜螺栓的采购钱。塔筒法兰螺栓预紧力不足，高空摘钩后还要重新搭架、复拧甚至更换连接件，吊装窗口被打乱，机组到场待命的工期往后顺延；连接问题拖到运营阶段暴露，还得停机登塔检修，风场少发电的损失叠加人工与设备调用。相比之下，出厂前逐批核对扭矩系数、留样复验、第三方见证验货所投入的成本，远低于高空返工和停机停运造成的综合损失，预防把关比事后补救划算得多。",
       "es": "El costo típico de una falla de Wind Energy Fastener Requirements: Standards for Wind Turbine Towers oscila entre USD 280,000 y USD 11.5 millones.",
       "fr": "Le coût typique d'une défaillance de Wind Energy Fastener Requirements: Standards for Wind Turbine Towers varie de 280 000 USD à 11,5 millions USD.",
       "pt": "O custo típico de uma falha de Wind Energy Fastener Requirements: Standards for Wind Turbine Towers varia de USD 280,000 a USD 11,5 milhões.",
