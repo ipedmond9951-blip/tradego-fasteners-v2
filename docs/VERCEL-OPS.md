@@ -362,3 +362,14 @@ curl -s "https://api.vercel.com/v4/aliases?limit=100" -H "Authorization: Bearer 
 
 `renderSection` 原先对 FAQ 小节也渲染 `section.body`，而 body 是英文问答正文的复制；本地化缺失时 `localizedText` 回退 en，非英语种的页面上就整段漏英文（渲染抽检只查问句，一直没抓到这一层）。
 现在 FAQ 小节只渲染 `FAQ_INTRO[locale]` 一句本地化引导语，内链到 `/{locale}/products` 与 `/{locale}/contact`；条目由 native-only 折叠块 + FAQPage JSON-LD 承载。顺带把"FAQ 重复正文"这一层 SEO 重复内容也去掉了。
+
+## 2026-11-25 补丁五：直推清零 + 钩子硬闸门
+
+背景：`deploy-flush` 成了"唯一推送入口"，但 `auto-seo-v2.sh`、`auto-seo.sh`、`hybrid-cron-v1/v3.sh`、`publish-queue.sh`、`seo-deploy-only.sh`、`seo-deep-dryrun.sh` 里还留着裸 `git push origin main`。13:13 deploy-flush 拦下人工推送时，13:14 / 13:25 又各起了一次构建，当天真实构建数到 7。
+
+改法两层：
+1. 上述脚本的推送一律替换为 `bash "$PROJECT_DIR/scripts/deploy-flush.sh"`，预算、窗口、promote 全部由它决定；脚本只负责 commit。
+2. `.githooks/pre-push` 增加只读预算校验：非 `DEPLOY_FORCE=1` 推送时先跑 `DEPLOY_BUDGET_READONLY=1 bash scripts/deploy-budget.sh`，超预算 exit 1。只读模式不写计数器，避免钩子与 push 各记一次。
+
+保留的两个逃生口：`DEPLOY_FORCE=1 git push`（彻底跳过）、`DEPLOY_SKIP_BUDGET=1 git push`（只跳过预算）。两者都属事故通道，用完在 `logs/vercel-usage-watch.md` 留痕。
+自检：`echo refs | .githooks/pre-push origin <url>` 可直接验证拦截是否生效（超预算时 rc=1）。
