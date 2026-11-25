@@ -234,6 +234,17 @@ else
   pass "护栏自检已跳过（AUDIT_SELFTEST=0）"
 fi
 
+# --- 11. 非中文语种正文里的中文残留（只报数，属内容队列，不阻断部署）---
+if [ "${AUDIT_CJK:-1}" = "1" ]; then
+  CJKOUT=$(python3 scripts/check-cjk-in-local.py 2>&1 | head -3)
+  if echo "$CJKOUT" | grep -q "成段中文污染：0 个字段"; then
+    pass "本地语正文无成段中文污染（词级残留见 check-cjk-in-local.py）"
+  else
+    pass "本地语正文仍有中文残留（非部署问题，进内容队列）：
+$CJKOUT"
+  fi
+fi
+
 # --- 记录 ---
 RESULT="PASS"; [ "$FAIL" -gt 0 ] && RESULT="FAIL($FAIL)"
 printf '%s | %s | 当日部署=%s 保留=%s cli直推=%s 最新=%s\n' "$(date '+%F %T')" "$RESULT" "$TODAYN" "$TOTAL" "$CLIN" "${LATEST_SHA:0:8}" >> "$LOG"
