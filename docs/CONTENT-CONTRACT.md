@@ -114,3 +114,5 @@ python3 scripts/content_gate.py --slug X # 单篇
 13. **`git add <目录>` 会吞掉并行窗口的在途改动。** 本轮一次 `git add content/articles` 把 108 篇别人的未提交改动卷进自己的提交（回看时只看到 135 行 insertion，很容易误以为是自己写的）。恢复办法是 `git reset --soft HEAD~1` + `git restore --staged .`，再按显式路径提交。**规则：只 `git add` 自己这轮真正改过的文件名，禁止整目录 add；提交命令里也带上 `-- <paths>`。**
 14. **额度触顶时不要等在手边。** 当日真实构建 8/3 触顶后，`pre-push` 会拒绝，本地只能继续攒改动。已加 `~/AgentOps/bin/content-push.sh` + `com.agentops.content-push`（launchd 每 10 分钟唤醒，只在 Asia/Shanghai 00 点窗口动作，当日成功后写 marker）：先跑契约与自检，BLOCK>0 或自检不过就**不推**，通过才 `git push` → `vercel-promote.sh --apply` → 审计，并在桌面通知结果。这样夜间窗口自动放行，白天不占构建预算。
 对应工具：`scripts/contract_selftest.py`（7 个反向用例）、`~/AgentOps/bin/content-push.sh`。
+15. **价格类文章不许写具体数字。** `m10-galvanized-bolt-fob-china-price` 的标题就叫「2026 FOB 价格」，但没有真实报价数据时，写数字等于把页面变成不可追溯的价格承诺。做法是把章节改成结构说明：报价由基价、镀锌加价、包装、内陆运输、单证构成；价格由钢、锌、能源三类输入驱动；比较必须同规格、同 Incoterm、同包装。这样既保住页面意图，也不违反"不得虚构事实"。**规则：没有可核来源的金额、比例、期限，一律用结构性描述替代，或直接不写。**
+16. **并行窗口的 `index.lock` 只能等，不能删。** 提交时撞上锁，正确处置是 `ps aux | grep git` 确认没有进程、等十几秒、再重试；直接删锁可能打断另一个窗口正在写索引。另有窗口把我的文章卷进它自己的提交（`e5c67da6`），内容与计数都正确、归属不同——这种情况不必改写历史，确认文件已入库即可。
