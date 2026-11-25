@@ -37,15 +37,31 @@ TARGET_RE = {'ar': r'[\u0600-\u06ff]', 'ru': r'[\u0400-\u04ff]',
 
 
 def is_english_copy(en, t, lang):
-    """检出「译文槽位里其实是英文原文」：非拉丁语种看字符集，拉丁语种看与 en 的相似度。"""
-    if not en or not t:
+    """检出「译文槽位里其实是英文原文/占位符/错语种」：非拉丁语种按字符集，拉丁语种按与 en 的相似度。"""
+    if not en or not isinstance(t, str) or not t.strip():
         return False
+    plain = re.sub(r'<[^>]+>', '', t)
+    if re.fullmatch(r'[\.\s…·•\-]+', plain.strip()):
+        return True
     rx = TARGET_RE.get(lang)
     if rx:
-        return len(re.findall(rx, t)) < 5 and len(re.findall(r'[A-Za-z]{3,}', t)) > 4
+        target = len(re.findall(rx, plain))
+        other = len(re.findall(r'[\u0600-\u06ff\u0400-\u04ff\u3040-\u30ff\u4e00-\u9fff\u0900-\u097f]', plain))
+        nonspace = len(re.sub(r'\s', '', plain)) or 1
+        words = len(re.findall(r'[A-Za-z]{2,}', plain))
+        if target == 0 and other > 0:
+            return True
+        if target == 0 and words >= 2 and nonspace > 8:
+            return True
+        if (target / float(nonspace)) < 0.15 and words >= 3:
+            return True
+        return False
     try:
         from difflib import SequenceMatcher
-        if SequenceMatcher(None, en, t).ratio() <= 0.9:
+        r = SequenceMatcher(None, en, t).ratio()
+        if r > 0.95 and len(en) >= 30:
+            return True
+        if r <= 0.9:
             return False
     except Exception:
         return False
