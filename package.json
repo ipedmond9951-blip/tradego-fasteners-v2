@@ -19,7 +19,8 @@
     "content:gate:brief": "python3 scripts/content_gate.py --brief",
     "content:append": "python3 scripts/append_body.py",
     "content:selftest": "python3 scripts/contract_selftest.py",
-    "check:claims": "python3 scripts/check-claims.py"
+    "check:claims": "python3 scripts/check-claims.py",
+    "check:social": "python3 scripts/social-link-check.py"
   },
   "dependencies": {
     "@google-analytics/data": "^5.2.2",

@@ -307,6 +307,29 @@ const COPY: Record<string, Copy> = {
   },
 }
 
+const FAQ_EN = [
+  {
+    q: 'What documents ship with a TradeGo fastener order?',
+    a: 'Commercial invoice and packing list with carton weights and dimensions; bill of lading, three originals plus telex release; certificate of origin issued through CCPIT; mill test certificate per heat number from the producing mill; dimensional and visual inspection report against the ordered standard.',
+  },
+  {
+    q: 'Do you provide ISO 9001, SABS or CE certificates?',
+    a: 'Products are made to SABS 1195 / DIN / ANSI / ISO dimensions. ISO 9001, SABS and CE certificates are supplied against your order requirement; application adds two to four weeks and is quoted separately in writing before you commit.',
+  },
+  {
+    q: 'Can a third-party inspection be arranged before shipment?',
+    a: 'Yes. SGS, BV, Intertek or your nominated agency inspect the goods before the container is stuffed, on three to five working days notice, with sampling to ISO 2859-1 AQL 2.5 or to the plan in your purchase order. The fee is on buyer account unless the order is quoted CIF.',
+  },
+  {
+    q: 'Who handles PVoC or SONCAP for destination clearance?',
+    a: 'We prepare the application pack (invoice, test reports, product photos, HS codes) and book the route: Kenya PVoC through KEBS-appointed agencies, Tanzania and Uganda PVoC standard or consolidated, Nigeria SONCAP with product certificate and Form M support.',
+  },
+  {
+    q: 'What can I verify on the mill test certificate?',
+    a: 'Heat number and producing mill, chemical composition (C, Mn, Si, S, P), mechanical properties (tensile, yield, elongation), coating mass in g/m2 and thickness in microns, and thread tolerance class 6g for bolts and 6H for nuts.',
+  },
+]
+
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
 }
@@ -340,6 +363,22 @@ export default async function DocumentsPage({ params }: { params: Promise<{ loca
   return (
     <main className="bg-gray-50">
       <BreadcrumbSchema locale={loc} pageName={c.h1} pageUrl={`/${loc}/documents`} />
+      {loc === 'en' && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: FAQ_EN.map((item) => ({
+                '@type': 'Question',
+                name: item.q,
+                acceptedAnswer: { '@type': 'Answer', text: item.a },
+              })),
+            }),
+          }}
+        />
+      )}
       <section className="bg-white border-b border-gray-100">
         <div className="container mx-auto px-4 py-12 md:py-16 max-w-4xl">
           <p className="text-primary-700 font-semibold text-sm uppercase tracking-wide mb-3">TradeGo Fasteners</p>
