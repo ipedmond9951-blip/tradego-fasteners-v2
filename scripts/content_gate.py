@@ -51,6 +51,53 @@ def i18n_gate(slug=None):
     return r
 
 
+def _leak_counts(path):
+    """用 check-body-lang 的扫描器数一篇正文里的 english/script 残留。"""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        "_cbl", os.path.join(ROOT, "scripts", "check-body-lang.py"))
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    rows = mod.scan_article(path) if os.path.exists(path) else []
+    n = {"english": 0, "script": 0}
+    snippets = []
+    for r in rows:
+        if r["level"] in n:
+            n[r["level"]] += 1
+            snippets.append(f"§{r['section']} {r['field']}.{r['lang']} "
+                            f"{(r['english'][0] if r['english'] else r.get('script',''))[:60]}")
+    return n, snippets
+
+
+def body_lang_gate(slug=None):
+    """正文语种闸门：只堵"新增"的英文残留（对比 origin/main），不要求一次清完存量。
+    清完 B 区后这里会自然接近零；A 区欠账由 seo-geo-main 侧负责，不在此处拦。"""
+    import tempfile
+    if slug:
+        slugs = [slug]
+    else:
+        changed = run(["git", "diff", "--name-only", "origin/main", "--", "content/articles"])
+        slugs = [os.path.basename(f.strip())[:-5]
+                 for f in (changed.stdout or "").splitlines() if f.strip().endswith(".json")]
+    bad = []
+    for s in slugs:
+        cur_p = os.path.join(ROOT, "content", "articles", f"{s}.json")
+        if not os.path.exists(cur_p):
+            continue
+        cur, sn = _leak_counts(cur_p)
+        base = {"english": 0, "script": 0}
+        show = run(["git", "show", f"origin/main:content/articles/{s}.json"])
+        if show.returncode == 0 and show.stdout:
+            with tempfile.NamedTemporaryFile("w", suffix=".json",
+                                            delete=False, encoding="utf-8") as t:
+                t.write(show.stdout)
+                base, _ = _leak_counts(t.name)
+            os.unlink(t.name)
+        if cur["english"] > base["english"] or cur["script"] > base["script"]:
+            bad.append((s, base, cur, sn))
+    return bad
+
+
 def main():
     argv = sys.argv[1:]
     brief = "--brief" in argv
@@ -83,6 +130,17 @@ def main():
         msg = (ig.stdout or "").strip()
         print(("\n" + msg) if not brief else msg.replace("\n", " ")[:180])
         code = 1
+
+    bl = body_lang_gate(slug)
+    if bl:
+        code = 1
+        print("\n⛔ 正文里新混入英文原文（非拉丁语种正文夹整句英文）：")
+        for s, base, cur, sn in bl:
+            print(f"  {s}: english {base['english']}→{cur['english']} / "
+                  f"script {base['script']}→{cur['script']}")
+            for x in sn[:3]:
+                print(f"    {x}")
+        print("  修法：把英文句按原意译回该语种（数字与标准号保留），别删段。")
 
     if brief:
         line = " | ".join(l.strip() for l in out.splitlines()
