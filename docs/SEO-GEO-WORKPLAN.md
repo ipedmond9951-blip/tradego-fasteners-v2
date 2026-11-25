@@ -174,6 +174,7 @@ python3 scripts/article-claim.py release <slug> <线名>
 | 任务 | owner | 状态 | 完成/总量 | 备注 |
 |---|---|---|---|---|
 | T0 分词修复 | seo-geo-main | 已完成 | 1 / 1 | en 不变；ru/ar/hi/ja 下调，见 §1 |
+| T0b fa fail-closed | seo-geo-main | 已完成 | 1 / 1 | en 264 篇零变化；非英语种 FAQ 满分篇数 52/50/52/51/54/49/52/75 → 3/3/3/3/4/5/10/4；zh 均分 63.5 与 A 档 39 不变 |
 | T1 非英语段落化 | 头条线 | 待开始 | 0 / 8,318 节 | es 先 |
 | T2 定义句 | seo-geo-main | 已完成 | 39 / 39 | 2026-11-26 收尾：A 区 39 篇 en/zh 全部 100 |
 | T3 标题短写 | 头条线 | 待开始 | 0 / 866 | A 区 39 篇我处理 |
@@ -183,7 +184,9 @@ python3 scripts/article-claim.py release <slug> <线名>
 | T7 去重 | seo-geo-main | 已完成 | 39 / 39（A 区相关篇） | 本轮 18 篇 FAQ 答案重写后无模板重复；dup 榜继续滚动；A 区 39 篇 `<p>`/`</p>` 已全语种配平 |
 | T8 非英语 FAQ | 头条线 | 待开始 | 0 / 目标页 | ar 先 |
 | T9 英文残留 | 头条线 | 待开始 | 0 / 14 | 修完才挂 strict |
-| T11 zh FAQ 覆盖 | seo-geo-main | 已完成 | 33 / 33 条 | A 区 10 篇 zh 侧 FAQ 缺 zh 答案已全部补齐，zh 页 FAQ 与 FAQPage 恢复渲染（量具 fa 回退看不见此缺口，见经验 133/134） |
+| T10 半截模板残留 | seo-geo-main | 已完成 | 6 / 6 篇（73 处 → 0） | 三类形态：劈开型／重复粘贴型／错位型，全部按语种重写 |
+| T11 zh FAQ 覆盖 | seo-geo-main | 已完成 | 41 篇 / 83 条 | A 区 33 条 + 全库英文冒充 71 条 + 缺 zh 键 18 条全清；全库 zh 缺口实测归零 |
+| T12 body-size 补写 | seo-geo-main | 已完成 | 8 / 8 篇 | A 区 8 篇 en 全部 ≥1658 词、WARN 消除；全库仍余 59 项 body-size 存量 WARN 属 B 区 |
 
 ## 10. 变更登记
 
@@ -255,4 +258,11 @@ python3 scripts/article-claim.py release <slug> <线名>
 - 2026-11-26 08:25 **A 区终态**：39 篇 en 均分 **100.0**、zh 均分 **100.0**，双 100 共 **39/39**；`content_gate` 全 39 篇 0 BLOCK；`check-body-lang` 除 `high-tensile-structural-bolts-guide` 的 §3 fr 标题 1 处存量 `[label]` 外全 0；`check-stray-markup` 全库仍是别线 5 篇存量、A 区零新增。未 push，等 CST 零点窗口。
 - 2026-11-26 08:30 **遗留**：①`geo_audit` 的 `fa` 回退 en 属量具缺陷，改动会牵动全站基线，留 T0 受控对照后修；②存量 `body-size` WARN（`marine-outdoor`/`telecom-tower`/`self-drilling`/`anchor-bolts`/`ghana-tema`/`flat-washers`/`zinc-plated`/`high-strength` 等多篇 en 正文 <1600 词）属历史资产、非本轮引入；③`flat-washers-vs-spring-washers` 的 `<p>` 46/43 不平衡在 HEAD 即存在且位于 body 别线语种字段；④8 个非 en/zh 语种的 FAQ 本地化缺口归 B 区语种线。
 - 2026-11-26 08:40 **A 区正文标签平衡修复 14 篇 / 48 处**：只动 `<p>`/`</p>` 标签、可见文字逐字未变，改后 39 篇 en/zh 仍全部 100，全语种标签配平。14 笔单文件路径限定提交：`6a4bd58b`（roofing 7 处）、`e7fefa5f`（angola es 1）、`2152b65b`（hex 1）、`27c62987`（zinc 3）、`e55ac75d`（concrete 5）、`13efbf13`（marine 1）、`12ac5745`（bolt-tightening 3）、`8208c202`（mozambique-hardware-supplier 6）、`ed59dfe1`（self-drilling 2）、`baceb5e5`（zambia 3）、`0d256962`（flat-washers 7）、`4d8c5461`（congo 5）、`176c7182`（thread-types 3）、`ce7c5e70`（beira 1）。形态台账：结尾未闭合 42、开头孤立闭合 3、闭合过早 2、纯孤立闭合 1；自检：剥标签前后可见文本逐字相等、`content_gate` 0 BLOCK、body-lang / stray-markup 本篇前后一致。经验见 142–147。
+- 2026-11-26 09:00 **T0 收尾（量具 fail-closed）**：`dad61871`（`geo_audit.py` 的 `fa` 按语种 fail-closed，缺本语种键/空值计 0，不再借 en 词数）、`590e9576`（§10 横幅 + 10 语种对照表）、`aa1fd0dc`（`docs/zh-faq-english-gap-2026-1126.csv` 31 篇 / 71 条实测清单）。en 264 篇 `score` 逐篇零变化；zh 均分与 A 档在旧口径下不变。
+- 2026-11-26 09:05 **T10 半截模板残留清零（6 篇 / 73 处 → 0）**：`0eab0b61`（african-ftz 12 处）、`8d1a1dfc`（gaskets 13 处）、`da2d765b`（anchor-bolts-suppliers-africa 4 处）、`bc4ca3c1`（malawi 14 处）、`0b3b0939`（mozambique 10 处）、`7cb9759f`（self-tapping 20 处）。三篇 en 与三篇非英语种分别按语种整句重写，分数全部持平，全库 `check-stray-markup` 归零；三类形态：劈开型／重复粘贴型／错位型。
+- 2026-11-26 09:10 **T11 zh FAQ 覆盖（41 篇 / 83 条）**：39 篇 / 81 条——批一 12 篇 28 条 `58f96315…a682ae91`、批二 12 篇 28 条 `b7fb50c0…998fe39b`、批三 15 篇 25 条 `9d8d6d40…cc9e2a54`（批三另含 5 笔 v2 去重与 1 笔 EOF 回退），加 malawi/mozambique 2 条（`bc4ca3c1`、`0b3b0939`）。每篇只改 `q.zh`/`a.zh`，en 与其余 8 语种逐字节未动；跨篇 12 字滑窗重合压到 0–4 处。A 区 33 条 + 全库英文冒充 71 条 + 缺 zh 键 18 条全清，全库 zh 缺口实测归零。
+- 2026-11-26 09:15 **T12 body-size 补写（8 篇，en/zh 均 100）**：`f56833e6`（marine 864→1862）、`53a2fb38`（zinc 783→1673）、`a812485f`（anchor-bolts-selection 829→1658）、`f0dea4d6`（high-strength 1297→1726）、`143b969e`（telecom 1576→1708）、`4dda7173`（ghana 1590→1715）、`e120cc06`（self-drilling 1372→1734）、`35d910bf`（flat-washers 1373→1741）。新增段落抓实体密度不凑词数，首段 p1 未动；A 区 8 篇 WARN 消除。
+- 2026-11-26 09:20 **量具盲区复核结论**：`check-body-len` 全库 5183 处「半截译文」里，93 个零长 zh 单元格**全部**是 FAQ 小节引导句空译（模板噪声），其余为中文天然紧凑造成的比值偏低，无实质漏译；不要用这个数驱动批量补译。
+- 2026-11-26 09:25 **终验快照**：`check-stray-markup` 0 处；zh FAQ 缺口 0；en 均分 69.1 / A 档 49；zh 均分 64.3 / A 档 39；`content_gate` 0 BLOCK、body-size 存量 59 项；未 push、未跑 `vercel-promote`、部署预算未动。
+- 2026-11-26 09:30 **遗留（不记为本轮已完成）**：①59 项 body-size 存量 WARN（含 3 篇 zim 1551–1555 词级）；②`check-body-lang` 7 处 `label` 存量（他人 6 篇）；③非英语种 FAQ 在 fail-closed 后的真实缺口（es/fr/de/pt/ru/ja/hi/ar 满分篇数仅 3–10）转 T8 语种线。
 
