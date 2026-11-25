@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-25T17:59:08+08:00",
- "total": 786,
+ "generated": "2026-11-25T18:00:18+08:00",
+ "total": 787,
  "items": [
   {
    "slug": "africa-railway-modernization-fastener-demand",
@@ -6226,6 +6226,28 @@
    ]
   },
   {
+   "slug": "stainless-steel-hex-bolt-304-316-guide",
+   "lang": "ar",
+   "coverage": 0.4,
+   "sections": 5,
+   "missing": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "slug": "stainless-steel-hex-bolt-304-316-guide",
+   "lang": "ja",
+   "coverage": 0.4,
+   "sections": 5,
+   "missing": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
    "slug": "tanzania-fastener-market-complete-guide",
    "lang": "ar",
    "coverage": 0.4,
@@ -6416,6 +6438,17 @@
    ]
   },
   {
+   "slug": "africa-informal-construction-fastener-demand",
+   "lang": "zh",
+   "coverage": 0.5,
+   "sections": 6,
+   "missing": [
+    0,
+    1,
+    5
+   ]
+  },
+  {
    "slug": "anchor-bolts-foundation-guide",
    "lang": "hi",
    "coverage": 0.5,
@@ -6424,6 +6457,17 @@
     1,
     2,
     3
+   ]
+  },
+  {
+   "slug": "anchor-bolts-suppliers-africa",
+   "lang": "zh",
+   "coverage": 0.5,
+   "sections": 6,
+   "missing": [
+    0,
+    3,
+    5
    ]
   },
   {
@@ -6776,6 +6820,17 @@
     2,
     4,
     5
+   ]
+  },
+  {
+   "slug": "m10-galvanized-bolt-fob-china-price",
+   "lang": "ar",
+   "coverage": 0.5,
+   "sections": 6,
+   "missing": [
+    1,
+    2,
+    4
    ]
   },
   {
@@ -8074,16 +8129,6 @@
   },
   {
    "slug": "stainless-steel-hex-bolt-304-316-guide",
-   "lang": "ja",
-   "coverage": 0.6,
-   "sections": 5,
-   "missing": [
-    2,
-    3
-   ]
-  },
-  {
-   "slug": "stainless-steel-hex-bolt-304-316-guide",
    "lang": "de",
    "coverage": 0.6,
    "sections": 5,
@@ -8163,16 +8208,6 @@
    ]
   },
   {
-   "slug": "africa-informal-construction-fastener-demand",
-   "lang": "zh",
-   "coverage": 0.67,
-   "sections": 6,
-   "missing": [
-    1,
-    5
-   ]
-  },
-  {
    "slug": "agrifastener-water-infrastructure",
    "lang": "zh",
    "coverage": 0.67,
@@ -8189,16 +8224,6 @@
    "sections": 6,
    "missing": [
     1,
-    5
-   ]
-  },
-  {
-   "slug": "anchor-bolts-suppliers-africa",
-   "lang": "zh",
-   "coverage": 0.67,
-   "sections": 6,
-   "missing": [
-    0,
     5
    ]
   },
@@ -8939,15 +8964,6 @@
   {
    "slug": "china-hex-nuts-manufacturer",
    "lang": "ar",
-   "coverage": 0.75,
-   "sections": 4,
-   "missing": [
-    2
-   ]
-  },
-  {
-   "slug": "china-hex-nuts-manufacturer",
-   "lang": "pt",
    "coverage": 0.75,
    "sections": 4,
    "missing": [
