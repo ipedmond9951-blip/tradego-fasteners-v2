@@ -112,8 +112,22 @@ if ! DEPLOY_FORCE=1 git push -q origin main; then
 fi
 echo "$LOG_PREFIX ✅ 已推送 $UNPUSHED 个提交，Vercel 开始构建"
 
+# 台账：push 即记一笔，之后默认由 API sync 校准（pod 删了也不丢计数）
+if [ "$WILL_BUILD" -eq 1 ]; then
+  python3 scripts/deploy-ledger.py record --sha "$(git rev-parse --short=8 HEAD)" --kind build >/dev/null 2>&1 || true
+else
+  python3 scripts/deploy-ledger.py record --sha "$(git rev-parse --short=8 HEAD)" --kind pushless >/dev/null 2>&1 || true
+fi
+
 if [ -x scripts/vercel-prune.sh ]; then
   bash scripts/vercel-prune.sh --apply 2>&1 | tail -2
+fi
+
+# 上线最后一公里：push 只会拿到 git-main 别名，生产域名钉在旧部署上不动。
+# 起一个后台等待进程，等本次提交 READY 后执行 promote（见 scripts/vercel-promote-wait.sh）。
+if [ "$WILL_BUILD" -eq 1 ] && [ -x scripts/vercel-promote-wait.sh ]; then
+  nohup bash scripts/vercel-promote-wait.sh --sha "$(git rev-parse HEAD)" >> logs/promote.log 2>&1 &
+  echo "$LOG_PREFIX 已挂起 promote 等待进程（logs/promote.log）"
 fi
 
 # 纯 docs/scripts 推送：ignoreCommand 跳过构建，但 CANCELED 记录要十几秒后才落到 API。

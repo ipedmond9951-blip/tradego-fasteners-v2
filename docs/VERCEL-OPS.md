@@ -332,3 +332,20 @@ CANCELED 记录要 push 后十几秒才出现在 API 里，所以 `deploy-flush.
 curl -s "https://api.vercel.com/v4/aliases?limit=100" -H "Authorization: Bearer $TOKEN" | \
   python3 -c "import json,sys;[print(a['alias'],a.get('deploymentId','')[:12]) for a in json.load(sys.stdin)['aliases'] if 'tradego' in a['alias']]"
 ```
+
+## 补丁：计数口径、上线最后一公里、定时器对齐（2026-11-25 晚）
+
+三处结构性漏洞已修：
+
+1. **真实部署计数** `scripts/deploy-ledger.py`：台账 `logs/deploy-history.jsonl` 按 uid 持久化，`sync` 从 API 补账、`count` 按北京时间给当日构建数。`vercel-audit.sh` 改以台账为准——此前数的是"现存部署"，剪枝删两条就把 5 次构建显示成 3 次，闸门被自己的清理动作洗白。今天真实构建 5 次，台账如实记 5 次，审计如实报红。
+2. **上线最后一公里** `scripts/vercel-promote-wait.sh`：git push 只产生部署并给 git-main 别名，三个生产域名钉在旧部署上不动（今天 523ab23a 构建 READY 但线上仍是 3b351da1）。`deploy-flush.sh` 推送后自动挂起等待进程，等本次 sha READY 后跑 `vercel-promote.sh --apply`，日志写 `logs/promote.log`。
+3. **定时器对齐窗口** `com.tradego.deploy-flush` 原为 12:30/21:30 本地(PST)=04:30/13:30 CST，永远落在 09:00–11:00、17:00–19:00 窗口之外，等于永不自动上线。改成 `StartInterval 1800`（每 30 分钟检查一次），由窗口与预算闸门决定推不推。
+
+## 新检测项：多语种渲染抽检
+
+`scripts/check-render-locales.py` 已并入每日审计（第 9 项），抽样抓线上 HTML 断言三条：
+非英文页不得出现英文问句、有 FAQ 标题就必须有问答条目、英文页必须有 FAQPage 结构化数据。
+
+首次跑就抓到两类真问题：
+- 阿语页空 FAQ 标题（native-only 过滤后标题仍渲染，修法见 `renderSection` 的 `isFaqSection` 判断）；
+- 15 篇改过名的文章旧 slug 直接 404：`generateStaticParams` 把 redirectTo 文章排除了，又设 `dynamicParams=false`，页面里的 `permanentRedirect` 根本不执行 —— 150 个 URL（15 篇 × 10 语种）丢掉外链权重。已改为 redirect slug 也预生成（只输出 301，不占空间）。

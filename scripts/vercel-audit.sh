@@ -12,6 +12,7 @@
 #   5. 最近部署的 commit 必须存在于本地 git 历史（未推送代码不得上线）
 #   6. 最新部署最大 Lambda ≤ 5MB
 #   7. 站点可用: /en/ 200 且带 s-maxage=86400
+#   9. 多语种渲染: 非英文页无英文问答、有 FAQ 标题必须有问答、英文页有 FAQPage
 #
 # 退出码: 0 = 合规；1 = 发现违规（需人工处置）
 # 用法:
@@ -96,6 +97,16 @@ for c in cli[:5]:
 TOTAL=$(echo "$STATS" | sed -n 1p | awk '{print $1}')
 TODAYN=$(echo "$STATS" | sed -n 1p | awk '{print $2}')
 CLIN=$(echo "$STATS" | sed -n 1p | awk '{print $3}')
+
+# 2026-11-25 FIX: 上面的 today_ds 只数"现存"部署 —— 剪枝删掉旧部署后，
+# 当天真实构建 5 次会显示成 3 次，闸门被自己的清理动作洗白。
+# 台账 logs/deploy-history.jsonl 按 uid 持久化，删除部署不影响计数，以它为准。
+python3 scripts/deploy-ledger.py sync >/dev/null 2>&1 || true
+LEDGER_TODAY=$(python3 scripts/deploy-ledger.py count 2>/dev/null || echo "")
+case "$LEDGER_TODAY" in
+  ''|*[!0-9]*) : ;;
+  *) if [ "$LEDGER_TODAY" -gt "$TODAYN" ]; then TODAYN=$LEDGER_TODAY; fi ;;
+esac
 
 [ "$CLIN" -eq 0 ] && pass "部署来源全部为 git 集成（无 CLI 直推）" || issue "发现 $CLIN 条 CLI 直推的生产部署（违反第 4 节）"
 echo "$STATS" | grep "^CLI" | while read -r _ sha when; do echo "      违规部署: $sha @ $when"; done
@@ -202,6 +213,18 @@ PY
   esac
 else
   issue "缺少用量快照 logs/vercel-usage.json（跑 scripts/vercel-usage-snapshot.sh）"
+fi
+
+# --- 9. 多语种 FAQ 渲染抽检（空标题 / 英文泄漏 / 缺结构化数据）---
+if [ "${AUDIT_RENDER:-1}" = "1" ] && [ -x scripts/check-render-locales.py ]; then
+  if ROUT=$(python3 scripts/check-render-locales.py --samples "${AUDIT_RENDER_SAMPLES:-4}" --quiet 2>&1); then
+    pass "多语种 FAQ 渲染抽检通过（无英文泄漏 / 无空 FAQ 区）"
+  else
+    issue "多语种渲染抽检发现问题：
+$ROUT"
+  fi
+else
+  pass "多语种渲染抽检已跳过（AUDIT_RENDER=0）"
 fi
 
 # --- 记录 ---

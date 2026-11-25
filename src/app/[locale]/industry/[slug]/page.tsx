@@ -15,17 +15,10 @@ import { categoryLabel, categorySlug } from '@/lib/categoryLabels'
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
 export async function generateStaticParams() {
-  // Exclude redirect articles (articles with redirectTo field) from static generation
-  const allSlugs = getAllSlugs()
-  const redirectSlugs = new Set(
-    allSlugs.filter(slug => {
-      const article = getArticleBySlug(slug)
-      return article?.redirectTo
-    })
-  )
-  return allSlugs
-    .filter(slug => !redirectSlugs.has(slug))
-    .map(slug => ({ slug }))
+  // 2026-11-25 FIX: redirectTo 文章曾被排除在预生成之外，加上 dynamicParams=false,
+  // 旧 slug 直接 404 —— 而页面里的 permanentRedirect 根本不会执行，改名文章丢光外链权重。
+  // 现在把 redirect slug 也预生成：它只输出一个 301 跳转，几乎不占空间。
+  return getAllSlugs().map(slug => ({ slug }))
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
@@ -140,15 +133,17 @@ function renderSection(section: ArticleSection, locale: string) {
     : null
 
   // native-only 之后的新问题：该语种没有原生问答时，条目被过滤掉，
-  // 但 FAQ 小节的 H2 仍然会渲染，页面上就是一个空标题（无正文、无表格）。
-  // 这种"整节只有未本地化问答"的小节直接不输出，避免空 FAQ 区。
+  // 但 FAQ 小节的标题（和它的引导正文）仍然会渲染，页面上就是"有标题没问答"的空 FAQ 区。
+  // FAQ 小节还可能带 body（Related resources 链接），所以不能只按 body/table 判空，
+  // 必须同时认小节身份：id=faq 或标题是各语种的"常见问题"。
   const rawFaq = section.faqItems ?? []
   const nativeFaq = rawFaq
     .map(item => ({ q: nativeText(item.q, locale), a: nativeText(item.a, locale) }))
     .filter(item => item.q && item.a)
-  const hasBody = Boolean(section.body && localizedText(section.body, locale))
-  const hasTable = Boolean(table && Array.isArray(table.headers) && Array.isArray(table.rows))
-  if (rawFaq.length > 0 && nativeFaq.length === 0 && !hasBody && !hasTable) return null
+  const FAQ_HEADING = /faq|frequently asked|常见问题|常問問題|preguntas frecuentes|questions fréquentes|häufige fragen|часто задаваемые|الأسئلة|सामान्य प्रश्न|domande frequenti|perguntas frequentes/i
+  const headingEn = (section.heading as Record<string, string> | undefined)?.en || ''
+  const isFaqSection = section.id === 'faq' || FAQ_HEADING.test(headingEn)
+  if (rawFaq.length > 0 && nativeFaq.length === 0 && isFaqSection) return null
 
   return (
     <section key={section.id} className="mb-8" id={section.id}>
