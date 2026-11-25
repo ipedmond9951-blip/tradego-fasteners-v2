@@ -180,7 +180,7 @@ python3 scripts/content_gate.py --slug X # 单篇
 
 66. **`ent=0` 先用 `findall` 验一次，再决定是量具还是内容。** `threaded-rod-studding-guide` 打 0.0，看着像脚本坏了；实际全篇 1,608 词里真的一个 `M\d`/单位/标准号都没有——通篇在讲"滚压螺纹 vs 切削螺纹"的机制。补一段真实规格阶梯（M6–M30、1 m/3 m、4.8/8.8/A2-70/A4-80、DIN 976-1、ASTM A193 B7、ISO 898-1）后 ent 0→7.1、分数 70→90。**锚点必须是业界通用事实（规格、等级、标准号），不能为了指标编数字。**
 
-67. **`check-body-lang` 的 `[label]` 会把"名词短语型标题"误报成标签。** `high-tensile` 的 fr 第 4 节「Applications dans la construction en Afrique」被判 label，因为它没有谓语动词——这恰恰是法语标题的正常写法。**规则：命中先看主语/谓语，标题类不因误报改译文；为清零而把正确译文加动词，等于用指标改内容。**
+67. **`check-body-lang` 的 `[label]` 会把"名词短语型标题"误报成标签。** `high-tensile` 的 fr 第 4 节「Applications dans la construction en Afrique」被判 label，因为它没有谓语动词——这恰恰是法语标题的正常写法。**规则：命中先看主语/谓语，标题类不因误报改译文；为清零而把正确译文加动词，等于用指标改内容。反过来也要防另一类：label 命中若是带完整主语-谓语的整句，说明是半译残留被降级（动词不在脚本 VERBS 词表内），不能当误报放行——按原意译出，数字、标准号、牌号保留。**
 
 68. **改 JSON 内容前先看原文件的缩进，否则一次 8 行改动会变成 1,168 行 diff。** 这批文章 json 混着 `indent=1` 和 `indent=2` 两种格式；我统一用 `json.dumps(..., indent=2)` 回写，`ibr-roofing-nails-installation-guide` 与 `high-tensile` 两篇直接全文件重排（1,168 / 830 行），根本没法 review，也没法单独回滚。**规则：回写前 print 前两行的缩进宽度，按原宽度 dump；改完看 `git diff --stat`，超过改动字段数×3 就说明格式被带偏了。**
 
@@ -236,7 +236,7 @@ python3 scripts/content_gate.py --slug X # 单篇
 
 107. **国家商业页的病灶是"同一句模板复制到多处"，不是段落质量。** 莫桑比克页 1615 词里有 4 处跨语种复制的模板段（"本采购框架适用于…"、"Supplier evaluation should be…"、"The verification checklist applies to…"），删掉后 en 从 60 分变 100 分，字数只掉了 200。**规则：整块重写前先 `grep -c` 每句的首 8 个词，出现 ≥2 次的句子整句删；这类页按读者决策顺序重排（选港→运费单证→按项目配货→内陆→考察供应商→FAQ），不要逐段润色。**
 108. **正文里出现字面 `undefined` 会被 dirty-text 闸门抓。** 写"只写工艺不写厚度，等于把厚度留成 undefined"，被报 `WARN [dirty-text]`。**规则：想表达"未定义"就写 open to interpretation / 留给对方决定，不要直接借用程序词。**
-109. **多语种 `faqItems` 扩写要逐项 update，不能整体重建列表。** 该页 faqItems 只有 en/pt/ja 三语种，若新建列表写 en/zh，pt/ja 会整批消失。**规则：`old_faq = list(fq["faqItems"])` 后按下标取原 dict，只覆写 `q["en"]/q["zh"]/a["en"]/a["zh"]`；改完核对 `list(x["q"].keys())`。**
+109. **多语种 `faqItems` 扩写要逐项 update，不能整体重建列表。** 该页 faqItems 只有 en/pt/ja 三语种，若新建列表写 en/zh，pt/ja 会整批消失。**规则：`old_faq = list(fq["faqItems"])` 后按下标取原 dict，只覆写 `q["en"]/q["zh"]/a["en"]/a["zh"]`；原 dict 缺 zh 键就在该 dict 上补 `zh`，其余语种键原样保留；改完核对 `list(x["q"].keys())`。**
 110. **中文正文的实体密度靠 M 规格，不靠中文单位。** 写"镀层 40 至 85 微米、起步量 500 公斤"一个都不计数（ENT 只认 mm/MPa/kg 这类拉丁单位和 M 规格），补"M10、M12、M16、M20、M24"后 zh ent 2.3→10.2。**规则：中文段里至少留一串 M 规格或带符号的数值。**
 
 
@@ -262,3 +262,27 @@ python3 scripts/content_gate.py --slug X # 单篇
 116. **多个 agent 并行提交同一个工作区，`.git/index.lock` 是常态而不是故障。** 10 个批次同时提交，单轮累计撞锁 10 次以上。**规则：报锁先 `lsof .git/index.lock`——有活跃 git 进程就等 2 秒重试（最多 5 次）；`lsof` 空才按崩溃残留处理，且只删锁文件、不动 index 内容与工作区。锁久不释放时先把后面几篇写完、最后统一补提交，不要空转。** 派活时必须写死两条红线：`git add <单文件> && git commit -- <同一文件>` 同一行；**禁止 `git restore` / `git checkout` 别人的文件**（工作区里同时有 A 线在途改动）。
 
 117. **批量补语的终验要四项齐全，只跑 `faq_audit.py --brief` 看不出静默损失。** 四项 =（a）逐篇 `content_gate --slug` 无新增 BLOCK；（b）`check_zh.py` 全量 OK；（c）`faq_audit --slug` 目标语种不在缺口、问句异常 0；（d）**语种键集合前后对比**——把每篇每个 `faqItems` 的 `q`/`a` 的 locale key set 与起点提交逐条比，任何"旧有新无"都单独核。本轮 101 篇里只有 `ghana-fastener-market-guide` 命中（14 个 es 键，实为中文错挂），靠 (d) 才确定不是 agent 写坏数据。另附一条核查：`git show --name-only` 逐个确认提交单文件、且 slug 在本批范围内，防"并提交/越界"重演（经验 113）。
+
+118. **echo 判定是标题长词的子串命中（≥60% 即回声），复数与派生词同样命中；改写靠指代词，不靠删信息。** 现象：`congo-brazzaville-fastener` 首段写成 "fasteners into Congo-Brazzaville"，标题去标点后的 5 个长词命中 3 个，echo=1、白丢 15 分；`conveyor-belt-fasteners` 避开了整词 "conveyor/fasteners"，正文却写了 "conveyors"，审计按子串包含匹配，"conveyor" 仍被命中，加 "belt" "fasteners" 共 3/5 判 echo=1。规则：首段写完把标题里 >3 字符的词逐个在首段数子串命中，比例必须 <0.6；品类词与国名用近义/指代替换（conveyor→unit/splice、fasteners→clips/joint、the fixing/this market），写完按审计同套逻辑跑一遍命中再提交；避回声是换说法，不是删信息。
+
+119. **补散文会稀释实体密度，ent 可能不升反降；篇幅与锚点必须同轮补。** 现象：`congo-brazzaville-fastener` 第一次扩写加了三段无锚点散文，en ent 6.6→4.9、分数 100→96；再补一段带 M12/M16/M20/M24、ISO 4042、500 kg 的规格段后回到 9.6。规则：每加一段散文至少带 2–3 个可核锚点（M 规格 / 标准号 / 带拉丁单位的数值）；不要先把水补足、下一轮再想起来补锚点。
+
+120. **body-size WARN 要分清"存量偏薄"和"自己重写压缩造成的回退"，后者不能记成历史资产。** 现象：`zambia-fastener-supplier`、`congo-brazzaville-fastener` 首版重写分别把原稿 1632 / 1626 词压到 874 / 1063，闸门只按 WARN 记；二轮各补三段真实采购内容才回到 1609 / 1659。规则：重写前先记下原稿 en 词数与 zh 字数；en 目标 ≥1600 词、zh ≥800 字，按每节 3–4 段、每段 130–160 词一次下手，写完立刻读词数；贴门槛时优先补规格档位、等级、标准号这类既提词数又提 ent 的内容，按 1.1 倍余量收工（门槛 1600，写到 1630+），不加形容词或重复结论。
+
+121. **新增小节只写 en/zh，会让其余 8 语种线上回落英文正文，三道闸门都不报。** 现象：`thread-types-guide-metric-imperial` 新增 `common-size-steps` 小节，body 只有 en/zh、heading 补齐 10 语种；`localizedText(section.body, locale)` 缺该语种时回退 en，es/ar/fr/pt/ru/ja/de/hi 渲染成"本地语标题 + 英文正文"，正是 T1 要清的非英语英文残留；i18n-missing 只查键存在、不查回退，body 有 en 键就不响。规则：A 区整改不要新增只有 en/zh 正文的节；要补的规格段直接并入既有全语种 section 尾部（en 接 en、zh 接 zh，保留 `<p>…</p>` 边界），删掉单开的节、不留空节；确需新节必须 10 语种正文一次写全。复核要点：逐节打印 `list(body.keys())` 与 `list(heading.keys())` 比对，不能只看闸门 WARN。
+
+122. **zh FAQ 答案按 CJK×0.6 折算词数，80 词门槛约对应 134 汉字，不是 80 汉字。** 现象：`congo-brazzaville-fastener` zh 首轮答案均值 79（约 132 字），差一档拿不满 FAQ 分量；每条补一句 15 字左右的实操提醒后到 94。规则：中文 FAQ 答案按 130–180 字写；`q.zh` 与 `a.zh` 同补，只补答案问句仍回退英文；提交前跑 `geo_audit --locale zh` 看 fa 实测值，不拿英文 80 词的感觉对齐中文，也不拿字符数自行估算。
+
+123. **中文旧稿的模板指纹只能整篇按 en 结构重写清，短语级替换必留残句。** 现象：`drywall-screws-complete-guide` zh 残留无源市场规模（25.8 亿美元 / 42.4 亿 / CAGR 5.7%）、同段"比较方法论 + 2018–2024 经验"出现两遍、字面 `\n`、中文句里夹 ≥4 字母英文串（`construction`），还挂着一条旧 ISO 9001 指南链接；逐句删不干净，按 en 骨架整篇重写后指纹一次消失。规则：见到市场规模/CAGR、整段重复、裸 `\n`、连续 ≥4 字母英文串、旧指南链接这类指纹，zh 直接整篇按 en 结构重写；整改 zh 时除去重复段，还要搜字面 `\\n` 串一并清；写完再扫一遍 CJK 段里的拉丁长串（标准号、牌号白名单除外）。
+
+124. **body-lang 闸门按增量计数，存量污染也会被报成"新增 BLOCK"；验收按该篇现在是否为 0 判。** 现象：`tunisia-mediterranean-fastener-export-guide` 的 ja §0 整句英文与 §2 label 是 HEAD 存量，闸门按 english 0→1 报 ⛔；本轮译清后该篇 english/script/label/noise 全 0。规则：别被增量表述（"新增 1 处 english"）误导成"我这轮写坏了"；先对 HEAD/旧备份比对确认归属，验收结论只看"该篇现在是否 0 BLOCK / 0 污染"。
+
+125. **看板与统计先按 slug 去重再数，同一篇被两条批次各记一次会虚增总量。** 现象：§9 看板原记 28 篇，`washer-types-applications-guide` 被记了两次，28+12=40>39 就是从这里来的；按 slug 去重为 27 篇 + 本轮 12 = 39。规则：写看板前先按 slug 集合去重计数；批次登记按篇记、不按"第 N 篇"序数，避免同一篇跨批重复入册。
+
+126. **红线口径要扫到一条 FAQ 下所有已存在语种字段，别线语种的同类违规会回潮。** 现象：`tunisia-mediterranean-fastener-export-guide` FAQ 第 1 条 en 写 "Exporters need ISO 9001"，同条 ar 镜像了同样表述；只改 en/zh，违规口径就在阿拉伯语答案里留下。规则：改红线条目时把该条 q/a 下所有已存在语种字段过一遍；已是"按订单申请、不承诺已有"合规写法的保留，同类违规陈述一并改成合规口径，新增字段只补缺的语种。
+
+127. **不参与页面渲染的存储字段同样守红线，"不渲染"不等于"不用守口径"。** 现象：`fastener-supply-chain-africa-beira-corridor` 的 `sections[id=faq].body.en/zh` 存着 5 段旧问答（页面实际渲染只取 faqItems，body 因 <60 字阈值不输出），其中 en 写了 "hold ISO 9001 certification"。规则：认证/价格/地域红线扫到每个 leaf 字段；这类冗余旧问答直接清空 body.en/zh，不往 faqItems 里搬；渲染阈值可在 `page.tsx` 的 `faqBodyPlain.length >= 60` 处复核，但不能当免守口径的理由。
+
+128. **H2 问句化只改 en/zh，且问句必须在同节正文被回答。** 现象：`angola-lng-project-fastener-procurement` 7 个标题全是名词短语、qh=0.0，6 个正文 heading 改 Which/How/What、zh 配"哪些/怎么/如何"后 qh 到 0.86；beira 两个陈述句标题改问句后 qh 0.12→0.38。规则：问句化只动 en/zh，其余 8 语种标题保留原样；标题里的疑问词（多少/哪条/怎么）要能在本节前两句找到对应答案，不造空问句，不把标题改成问句后正文仍讲通用背景。
+
+129. **只授权 en/zh 的批次，别线语种欠账先比对 HEAD 确认存量，不顺手改。** 现象：`angola-lng-project-fastener-procurement` es 正文 `<p>` 0 个、`</p>` 1 个，逐字段比对证明本轮 es 未改动、backup 里同样不平衡，属存量段落化欠账；tunisia ja 只译检查器点名的两段英文残留，其余通顺日语未动。规则：发现 `<p>`/`</p>` 不配平或别线语种问题，先取 HEAD/旧备份比对；存量写进报告缺口说明，不在本轮 en/zh 整改里顺手改其他语种（避免越界和扩大 diff）；翻译存量残留时数字（百分比、年限、天数）、标准号（ISO/ASTM/REACH）、牌号（HDG/EU）原样保留，段长与原段对应，回写后 diff 行数约等于改动段落数。

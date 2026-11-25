@@ -175,12 +175,12 @@ python3 scripts/article-claim.py release <slug> <线名>
 |---|---|---|---|---|
 | T0 分词修复 | seo-geo-main | 已完成 | 1 / 1 | en 不变；ru/ar/hi/ja 下调，见 §1 |
 | T1 非英语段落化 | 头条线 | 待开始 | 0 / 8,318 节 | es 先 |
-| T2 定义句 | seo-geo-main | 进行中 | 28 / 39 | en/zh 均 def=1 |
+| T2 定义句 | seo-geo-main | 已完成 | 39 / 39 | 本轮收尾 12 篇 en/zh 全部 100；A 区 39 篇当前 en 36 篇 / zh 34 篇 ≥90，余 6 篇 84–89（togo、ivory、ibr、bolt-tightening-torque、zinc-plated、corrosion）已列为并发收口项，见 §10 收口登记。原 28 含 washer-types 重复计数，按 slug 去重为 27 篇 + 本轮 12 = 39 |
 | T3 标题短写 | 头条线 | 待开始 | 0 / 866 | A 区 39 篇我处理 |
-| T4 en 首段 + H2 问句 | seo-geo-main | 进行中 | 28 / 39 | 12 篇 en 全部 90，zh 89–90 |
-| T5 标准/来源 | seo-geo-main | 待开始 | 0 / 39 | |
+| T4 en 首段 + H2 问句 | seo-geo-main | 已完成 | 39 / 39 | 本轮收尾 12 篇 en/zh 全部 100；A 区 39 篇当前 en 36 篇 / zh 34 篇 ≥90，余 6 篇 84–89 并发收口中，见 §10；计数口径同 T2（去重 27 + 12 = 39） |
+| T5 标准/来源 | seo-geo-main | 进行中 | 12 / 39 | 本轮收尾 12 篇随 T2/T4 补标准号与规格锚点；其余篇按 readiness 缺口排 |
 | T6 入链 | 待认领 | 待开始 | 0 / 29 + 18 | 两口径分开记 |
-| T7 去重 | seo-geo-main | 待开始 | 0 / A 区相关篇 | |
+| T7 去重 | seo-geo-main | 进行中 | 12 / A 区相关篇 | 本轮收尾 12 篇清模板重复段与字面 `\n`；存量重复句仍按 dup 榜滚动 |
 | T8 非英语 FAQ | 头条线 | 待开始 | 0 / 目标页 | ar 先 |
 | T9 英文残留 | 头条线 | 待开始 | 0 / 14 | 修完才挂 strict |
 
@@ -208,4 +208,12 @@ python3 scripts/article-claim.py release <slug> <线名>
 - 2026-11-25 22:25 A 区第 28 篇：`washer-types-applications-guide` 修模板残留，en 90→100 / zh 90→100（第 2、3 节英文正文被半截 class 串污染 700+/380 处，整节重写；FAQ 模板问句换掉，答案 38→84 词）。
 - 2026-11-25 22:30 新增 `scripts/check-stray-markup.py`，全库扫出 **6 篇 / 73 处正文半截模板残留**，其中 4 篇只在非英语种（`malawi-fastener-market-case-study` 14、`mozambique-fastener-market-case-study` 10、`self-tapping-…` de/es/fr/ru 20、`african-ftz-fastener-import-procedures` en 12、`gaskets-specialty-washers-high-temp-guide` en 13、`anchor-bolts-suppliers-africa` en 4）。→ **T10：非英语种残留随 T1 段落化一起重排；两篇 en 残留（african-ftz 12 处、gaskets 13 处、anchor-bolts 4 处）由头条线在各自 A/B 区重写时处理，不要正则盲洗。**
 - 2026-11-25 22:35 **提交归属事故**：`da73bfca`（我的"新增半截模板检测"）里混进了另一条线已 `git add` 的 8 篇 content JSON、`scripts/faq_audit.py`、`docs/T9-REPORT-B-2026-1125.md`、`docs/faq-native-gap-2026-1125.csv`。内容全部完好，只是归属与 message 错位，对方暂存区已被清空。已在 `CONTENT-CONTRACT` 记入经验 100；后续提交一律 `git commit -F - -- <路径…>`。头条线如发现自己的改动"不见了"，先查 `git log --oneline -5` 是否落在 `da73bfca`，不要重做。
+- 2026-11-25 23:50 批次 A1（3 篇）：`zambia-fastener-supplier` en 40→100 / zh 45→100（`81b10bb7`）、`congo-brazzaville-fastener` en 40→100 / zh 45→100（`972787d1`）、`drywall-screws-complete-guide` en 62→100 / zh 73→100（`c7b69865`）。改动：首段结论化去回声、H2 问句化、补规格实体锚点、zh 定义句、FAQ 答案补长并补 zh；drywall zh 按 en 结构整篇重写清模板指纹。
+- 2026-11-25 23:53 批次 A2（3 篇）：`high-tensile-bolts-grade-guide` en 55→100 / zh 80→100（`2812ff55`）、`agricultural-machinery-fastener-guide` en 82→100 / zh 52→100（`904790cb`）、`angola-lng-project-fastener-procurement` en 75→100 / zh 55→100（`cdc5a73a`）。改动：H2 问句化、zh 定义句、标准号/规格阶梯、FAQ 答案长度与 zh 问答；agricultural zh 先补段落化再补机制与验收内容。
+- 2026-11-25 23:56 批次 A3（3 篇）：`conveyor-belt-fasteners` en 70→100 / zh 75→100（`2bcc81c3`）、`libya-tripoli-construction-fastener-sourcing` en 69→100 / zh 65→100（`ae558632`）、`tunisia-mediterranean-fastener-export-guide` en 60→100 / zh 59→100（`742f8270`，同时清 ja §0 整句英文 BLOCK 与 §2 label 存量）。
+- 2026-11-25 23:58 批次 A4（3 篇）：`china-iso-9001-fastener-manufacturer-directory` en 90→100 / zh 80→100（`50807e1f` + `86d4c018`）、`thread-types-guide-metric-imperial` en 90→100 / zh 90→100（`9ed86152` + `7668c43b`）、`fastener-supply-chain-africa-beira-corridor` en 82→100 / zh 72→100（`d1dc7ef2`）。
+- 2026-11-25 23:59 **总收口**：本轮 12 篇全部 en/zh 100；`content_gate` 0 BLOCK / 0 WARN；`check-body-lang` 全库 english 0 / script 0 / noise 0（label 8 处全在别线 7 篇）；`check-stray-markup` 全库仍是 6 篇 73 处存量，本批 12 篇零新增；12 篇非 FAQ 小节 body 与 heading 十语种齐全、`<p>` 配对平衡；认证/价格/地域/署名四红线扫过，en/zh 无「持有/已获得认证」自述。未 push，部署预算仍顶格，等 CST 零点窗口。
+- 2026-11-26 00:01 **回炉记录**：`thread-types-guide-metric-imperial` 新增的 `common-size-steps` 小节因只有 en/zh 正文被退回（其余 8 语种回退英文、闸门不报，见经验 121）；改为并入 `thread-specification` 后删除该节（`7668c43b`，qh 0.60→0.50 仍满分）。
+- 2026-11-26 00:03 **遗留/移交**：12 篇的 es/ar/fr/pt/ru/ja/de/hi FAQ 本地化缺口，与部分语种存量认证措辞（angola zh「必须从通过 ISO 9001 认证的制造商采购」、beira 的 es/fr/pt/ar/ja 句）属既有存量与 B 区语种线口径题，本轮未动，转 T8/T9 与口径专项，不记为已合规。
+- 2026-11-26 00:05 **遗留/收口项**（6 篇 84–89，并发收口进行中，以收口任务复核报告为准，不自报完成前不算完成）：`togo-lome-port-fastener-import-procedure` en 84 / zh 84（ent 4.3/4.2 <6；FAQ 答案均值 26 词）、`ivory-coast-abidjan-port-fastener-tariff` en 84 / zh 81（ent 4.2/3.2；FAQ 26→31 词）、`ibr-roofing-nails-installation-guide` zh 80（def=0；FAQ 37 词）、`bolt-tightening-torque-guide` en 88（ent 5.4；FAQ 32 词）、`zinc-plated-vs-black-phosphate-screws` zh 88（ent 5.5；FAQ 38 词）、`fastener-corrosion-resistance-guide` zh 89（ent 5.6；FAQ 34 词）。A 区整体：en 均分 94.5（36/39 ≥90）、zh 均分 93.9（34/39 ≥90）。截至登记时 togo、ibr 已有收口提交落地待复核，其余 4 篇在队列。
 
