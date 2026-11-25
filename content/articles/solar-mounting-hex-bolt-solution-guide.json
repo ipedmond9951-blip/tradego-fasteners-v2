@@ -160,7 +160,7 @@
           },
           "a": {
             "en": "For ground mount steel structures, use 8.8 or 10.9 hot-dip galvanized hex bolts with matching heavy hex nuts. Ground anchors may require anchor bolts per engineer's specification.",
-            "zh": "对于地面支架钢结构，使用8.8或10.9级热浸镀锌六角螺栓配合重型六角螺母。"
+            "zh": "地面支架钢结构采用 8.8 或 10.9 级热浸镀锌（HDG）六角螺栓，配同规格重型六角螺母；地锚部位可能需要按工程师设计选用锚栓。"
           }
         },
         {
@@ -170,15 +170,17 @@
           },
           "a": {
             "en": "In inland locations, 8.8 zinc-plated is adequate. Within 5km of coastlines or in high-humidity tropical regions, use 316 stainless steel to prevent galvanic corrosion with aluminum rails.",
-            "zh": "在内陆地区，8.8级镀锌足够。在海岸5公里内或高湿度热带地区，使用316不锈钢防止与铝轨的电偶腐蚀。"
+            "zh": "内陆场合用 8.8 级镀锌螺栓即可；距海岸线 5 公里以内或高湿度热带地区，应使用 316 不锈钢，防止与铝轨发生电偶腐蚀。"
           }
         },
         {
           "q": {
-            "en": "What bolts are used for ground mount structures?"
+            "en": "What bolts are used for ground mount structures?",
+            "zh": "地面支架结构用哪种螺栓？"
           },
           "a": {
-            "en": "Hot-dip galvanised hex bolts in class 8.8 with matching nuts, sized from the racking design, or stainless where the site is coastal. The 25 year service life target makes coating the deciding factor, not the bolt price."
+            "en": "Hot-dip galvanised hex bolts in class 8.8 with matching nuts, sized from the racking design, or stainless where the site is coastal. The 25 year service life target makes coating the deciding factor, not the bolt price.",
+            "zh": "采用 8.8 级热浸镀锌六角螺栓配同等级螺母，规格按支架设计选定；沿海场地可用不锈钢。按 25 年使用寿命目标，涂层选择才是决定因素，而不是螺栓单价。"
           }
         }
       ],
