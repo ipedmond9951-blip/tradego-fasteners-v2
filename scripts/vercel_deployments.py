@@ -6,20 +6,17 @@
 
 用法：python3 scripts/vercel_deployments.py [--limit N] [--target production]
 """
-import argparse, json, os, urllib.request
+import argparse, json, os, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from vercel_auth import api_get  # 唯一取 token 入口（auth.json 会过期，见 vercel_auth.py）
 
 PROJECT_ID = "prj_3D7E2O74NPWtxH9vQM5zWkGy9lVZ"
 PROJECT_NAME = "tradego-fasteners"
-AUTH = os.path.expanduser("~/Library/Application Support/com.vercel.cli/auth.json")
 
 
 def list_deployments(limit=100, target=None):
-    token = json.load(open(AUTH))["token"]
-    req = urllib.request.Request(
-        "https://api.vercel.com/v6/deployments?limit=100",
-        headers={"Authorization": "Bearer " + token},
-    )
-    data = json.load(urllib.request.urlopen(req, timeout=20))
+    data = api_get("https://api.vercel.com/v6/deployments?limit=100")
     items = [
         d for d in data.get("deployments", [])
         if d.get("projectId") == PROJECT_ID or d.get("name") == PROJECT_NAME

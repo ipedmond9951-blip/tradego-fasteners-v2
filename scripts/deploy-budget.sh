@@ -18,18 +18,17 @@ LIMIT="${DEPLOY_DAILY_LIMIT:-3}"
 PROJECT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 LEDGER="$PROJECT_DIR/logs/deploy-budget.json"
 PROJECT_ID="${VERCEL_PROJECT_ID:-prj_3D7E2O74NPWtxH9vQM5zWkGy9lVZ}"
-AUTH="${VERCEL_AUTH_FILE:-$HOME/Library/Application Support/com.vercel.cli/auth.json}"
 HIST="${DEPLOY_HIST:-$PROJECT_DIR/logs/deploy-history.jsonl}"
 
 [ "${DEPLOY_FORCE:-0}" = "1" ] && { echo "⚠️ DEPLOY_FORCE=1，跳过部署预算检查"; exit 0; }
 
 mkdir -p "$PROJECT_DIR/logs"
 
-python3 - "$LEDGER" "$LIMIT" "$PROJECT_ID" "$AUTH" "$HIST" "$PROJECT_DIR/scripts/vercel-token.py" <<'PY'
+python3 - "$LEDGER" "$LIMIT" "$PROJECT_ID" "$HIST" "$PROJECT_DIR/scripts/vercel-token.py" <<'PY'
 import json, os, sys, time, datetime, subprocess, urllib.request
 
-ledger_path, limit, project_id, auth_path, hist_path = sys.argv[1], int(sys.argv[2]), sys.argv[3], sys.argv[4], sys.argv[5]
-token_helper = sys.argv[6]
+ledger_path, limit, project_id, hist_path = sys.argv[1], int(sys.argv[2]), sys.argv[3], sys.argv[4]
+token_helper = sys.argv[5]
 tz = datetime.timezone(datetime.timedelta(hours=8))
 today = datetime.datetime.now(tz).strftime('%Y-%m-%d')  # 统一用北京时间判定"今天"
 

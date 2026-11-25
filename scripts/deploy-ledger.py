@@ -23,7 +23,6 @@ import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEDGER = os.path.join(ROOT, "logs", "deploy-history.jsonl")
-AUTH = os.path.expanduser("~/Library/Application Support/com.vercel.cli/auth.json")
 PROJECT_ID = "prj_3D7E2O74NPWtxH9vQM5zWkGy9lVZ"
 TEAM_ID = "team_zpNihQv4m6nG8EPZqu079v8k"
 CST = dt.timezone(dt.timedelta(hours=8))
@@ -33,9 +32,9 @@ def today():
     return dt.datetime.now(CST).strftime("%Y-%m-%d")
 
 
-def token():
-    with open(AUTH) as f:
-        return json.load(f)["token"]
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from vercel_auth import get_token  # 唯一取 token 入口（auth.json 会过期）
 
 
 def load():
@@ -62,7 +61,7 @@ def append(rows):
 def api(path_qs):
     req = urllib.request.Request(
         f"https://api.vercel.com{path_qs}",
-        headers={"Authorization": f"Bearer {token()}"},
+        headers={"Authorization": f"Bearer {get_token()}"},
     )
     with urllib.request.urlopen(req, timeout=30) as resp:
         return json.load(resp)

@@ -16,7 +16,7 @@ cd "$(dirname "$0")/.." || exit 2
 
 PROJECT_ID="prj_3D7E2O74NPWtxH9vQM5zWkGy9lVZ"
 TEAM_ID="team_zpNihQv4m6nG8EPZqu079v8k"
-TOKEN="${VERCEL_TOKEN:-$(python3 -c "import json;print(json.load(open('$HOME/Library/Application Support/com.vercel.cli/auth.json'))['token'])")}"
+TOKEN="${VERCEL_TOKEN:-$(python3 "$(dirname "$0")/vercel-token.py")}"
 TIMEOUT="${TIMEOUT:-900}"
 LOG="logs/promote.log"
 mkdir -p logs

@@ -16,7 +16,7 @@ KEEP="${KEEP:-3}"
 APPLY=0
 [ "${1:-}" = "--apply" ] && APPLY=1
 
-TOKEN=$(python3 -c "import json;print(json.load(open('$HOME/Library/Application Support/com.vercel.cli/auth.json'))['token'])")
+TOKEN="${VERCEL_TOKEN:-$(python3 "$(dirname "$0")/vercel-token.py")}"
 
 LIST=$(python3 scripts/vercel_deployments.py --limit 50)
 

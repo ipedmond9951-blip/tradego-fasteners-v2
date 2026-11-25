@@ -3,7 +3,6 @@
 import json, os, subprocess, sys
 
 PROJECT_ID = "prj_3D7E2O74NPWtxH9vQM5zWkGy9lVZ"
-AUTH = os.path.expanduser("~/Library/Application Support/com.vercel.cli/auth.json")
 
 HELPER = os.path.join(os.path.dirname(os.path.abspath(__file__)), "vercel_deployments.py")
 try:

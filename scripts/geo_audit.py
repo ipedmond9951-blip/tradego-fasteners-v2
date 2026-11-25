@@ -12,7 +12,8 @@
   echo     首段是否逐字复述标题（模板指纹，等于没给答案）
   qh       小标题里问句占比（GEO 靠问题-答案对齐；≥25% 好）
   ent      正文里可核实体密度：尺寸/性能/温度/标准号（每千词命中数）
-  faq      FAQ 可渲染条数、答案平均词数、问句本语种合规率 q_ok（≥3 条、答案 ≥80 词、q_ok ≥0.8）
+  faq      FAQ 可渲染条数、答案平均词数、问句本语种合规率 q_ok（≥3 条、答案 ≥80 词、q_ok ≥0.8）；
+           可渲染口径镜像页面 nativeText：剥前导占位、与 en 逐字相同剔除、ja/zh/ar/ru/hi 须命中书写系统
   def      正文是否有一句"X 是/指的是…"式定义句
 评分 0-100，权重见 WEIGHTS。
 """
@@ -23,6 +24,19 @@ ART = os.path.join(ROOT, "content", "articles")
 TAG = re.compile(r"<[^>]+>")
 WORDS = re.compile(r"[A-Za-z0-9'’\-]+")
 HAN = re.compile(r"[\u4e00-\u9fff]")
+# 渲染层 src/app/[locale]/industry/[slug]/page.tsx 的 PLACEHOLDER_LEAD / FAQ_SCRIPT 同口径镜像：
+# 前导占位句剥除；非英语种与 en 逐字相同视为缺失；ja/zh/ar/ru/hi 另须命中对应书写系统。
+PLACEHOLDER_LEAD = re.compile(
+    r"^(?:<p>)?\s*(?:content coming soon|coming soon|see frequently asked questions below|内容即将上线|敬请期待)[.。]?\s*(?:</p>)?\s*",
+    re.I,
+)
+FAQ_SCRIPT = {
+    "ja": re.compile(r"[\u3040-\u30ff\u4e00-\u9fff]"),
+    "zh": re.compile(r"[\u3040-\u30ff\u4e00-\u9fff]"),
+    "ar": re.compile(r"[\u0600-\u06FF]"),
+    "ru": re.compile(r"[\u0400-\u04FF]"),
+    "hi": re.compile(r"[\u0900-\u097F]"),
+}
 
 Q_EN = re.compile(r"^(how|why|what|when|where|which|who|should|does|do|can|is|are|was|will|would)\b", re.I)
 Q_ZH = re.compile(r"(怎么|如何|为什么|为何|是否|哪些|多少|能不能|要不要|多久|多大)")
@@ -113,6 +127,38 @@ def faq_en_text(v):
     if isinstance(v, dict):
         return str(v.get("en") or "").strip()
     return str(v or "").strip()
+
+
+def strip_placeholder(value):
+    """镜像渲染层 stripPlaceholder：剥前导占位句（大小写不敏感），剥完去首尾空白。"""
+    if not value:
+        return ""
+    return PLACEHOLDER_LEAD.sub("", str(value)).strip()
+
+
+def native_text(v, locale):
+    """镜像渲染层 nativeText：剥前导占位 → 剥完为空视为缺失 → 与 en 逐字相同视为缺失 → 书写系统校验。
+
+    dict 按本语种键取值、不回退 en；纯字符串无 en 对照，只过占位剥离与书写系统校验。
+    返回可渲染的本语种文本；不可渲染返回空串。
+    """
+    if isinstance(v, dict):
+        val = strip_placeholder(v.get(locale))
+        if not val:
+            return ""
+        if locale != "en" and val == strip_placeholder(v.get("en")):
+            return ""
+        script = FAQ_SCRIPT.get(locale)
+        if script and not script.search(val):
+            return ""
+        return val
+    val = strip_placeholder(v)
+    if not val:
+        return ""
+    script = FAQ_SCRIPT.get(locale)
+    if script and not script.search(val):
+        return ""
+    return val
 
 
 NON_LATIN_LOCS = ("zh", "ja", "ru", "ar", "hi", "ko", "th")
@@ -214,12 +260,17 @@ def audit(path, locale="en"):
     wc = words(full, locale) or 1
     ent = len(ENT.findall(TAG.sub(" ", full))) * 1000 / wc
 
-    # fq 只计本语种可渲染条目：q 与 a 都有本语种非空文本（与页面 nativeText 过滤同口径）；
-    # 渲染不出来的条目不进 fa 均值分母，也不进 q_ok 分子。
+    # fq 只计本语种可渲染条目：逐条镜像页面 nativeText 过滤 —— 剥前导占位、与 en 逐字相同剔除、
+    # 书写系统不命中剔除；q 与 a 双侧都通过才进集合。渲染不出来的条目不进 fa 均值分母，也不进 q_ok 分子。
+    # fq_dropped：旧口径（q/a 本语种原始值非空）计入、但被新规则剔掉的条目数，用于对账。
     renderable = []
+    fq_dropped = 0
     for x in faqs:
-        if faq_text(x.get("q", ""), locale) and faq_text(x.get("a", ""), locale):
+        old_ok = bool(faq_text(x.get("q", ""), locale)) and bool(faq_text(x.get("a", ""), locale))
+        if native_text(x.get("q", ""), locale) and native_text(x.get("a", ""), locale):
             renderable.append(x)
+        elif old_ok:
+            fq_dropped += 1
     fq = len(renderable)
     fa = round(sum(faq_answer_words(x.get("a", ""), locale) for x in renderable) / fq) if fq else 0
 
@@ -250,6 +301,7 @@ def audit(path, locale="en"):
         "slug": slug, "score": round(s), "words": wc,
         "p1": p1, "echo": echo, "qh": round(qh_ratio, 2), "ent": round(ent, 1),
         "faq": fq, "fa": fa, "q_ok": q_ok, "def": deff,
+        "fq_dropped": fq_dropped,
     }
 
 

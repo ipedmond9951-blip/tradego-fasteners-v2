@@ -13,7 +13,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 PROJECT_ID="prj_3D7E2O74NPWtxH9vQM5zWkGy9lVZ"
-TOKEN="${VERCEL_TOKEN:-$(python3 -c "import json;print(json.load(open('$HOME/Library/Application Support/com.vercel.cli/auth.json'))['token'])")}"
+TOKEN="${VERCEL_TOKEN:-$(python3 "$(dirname "$0")/vercel-token.py")}"
 DOMAINS="tradego-fasteners.vercel.app tradego-fasteners.com www.tradego-fasteners.com"
 APPLY=0; SLUG="coach-screws-buying-guide"
 while [ $# -gt 0 ]; do

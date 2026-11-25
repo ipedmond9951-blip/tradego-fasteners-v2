@@ -33,7 +33,6 @@ warn() { echo "  ⚠️  $1"; WARN=$((WARN+1)); }
 bad()  { echo "  ❌ $1"; FAIL=$((FAIL+1)); }
 
 PROJECT_ID="prj_3D7E2O74NPWtxH9vQM5zWkGy9lVZ"
-AUTH="$HOME/Library/Application Support/com.vercel.cli/auth.json"
 PROD_URL="https://www.tradego-fasteners.com"
 
 echo "🛡  Vercel 规范自检（模式: ${MODE}）"

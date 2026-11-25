@@ -27,7 +27,6 @@ QUIET=0
 [ "${1:-}" = "--quiet" ] && QUIET=1
 DAILY_LIMIT="${AUDIT_DAILY_LIMIT:-3}"
 KEEP="${AUDIT_KEEP:-3}"
-AUTH="$HOME/Library/Application Support/com.vercel.cli/auth.json"
 # token 会过期（只在 CLI 联网时续期）：统一走 helper，取不到就留空，让调用方自然退化为"读不到"
 VERCEL_TOKEN="$(python3 "$(dirname "$0")/vercel-token.py" 2>/dev/null || true)"
 export VERCEL_TOKEN
@@ -55,9 +54,9 @@ git fetch -q origin main 2>/dev/null || true
 ORIGIN_SHA=$(git rev-parse origin/main 2>/dev/null || echo "")
 HEAD_SHA=$(git rev-parse HEAD 2>/dev/null || echo "")
 
-DATA=$(python3 - "$AUTH" "$PROJECT_ID" "$PWD/scripts/vercel_deployments.py" <<'PY'
+DATA=$(python3 - "$PROJECT_ID" "$PWD/scripts/vercel_deployments.py" <<'PY'
 import json, subprocess, sys
-auth, pid, helper = sys.argv[1], sys.argv[2], sys.argv[3]
+pid, helper = sys.argv[1], sys.argv[2]
 d = json.loads(subprocess.check_output([sys.executable, helper, "--limit", "20"], timeout=25))
 out = []
 for x in d.get("deployments", []):
@@ -110,9 +109,9 @@ esac
 echo "$STATS" | grep "^CLI" | while read -r _ sha when; do echo "      违规部署: $sha @ $when"; done
 
 # 平台侧硬约束：项目只允许 git 来源部署生产（设置了才真正堵死 CLI/REST API）
-POLICY=$(python3 - "$AUTH" "$PROJECT_ID" <<'PY'
+POLICY=$(python3 - "$PROJECT_ID" <<'PY'
 import json, os, sys, urllib.request
-auth, pid = sys.argv[1], sys.argv[2]
+pid = sys.argv[1]
 # 2026-11-26: auth.json 的 token 会过期，改由 scripts/vercel-token.py 统一取用（会按需让 CLI 续期）
 tok = os.environ["VERCEL_TOKEN"]
 req = urllib.request.Request("https://api.vercel.com/v9/projects/%s" % pid,

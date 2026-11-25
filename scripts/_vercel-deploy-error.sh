@@ -4,11 +4,11 @@
 set -u
 UID_ARG="${1:-}"
 [ -z "$UID_ARG" ] && exit 0
-AUTH="$HOME/Library/Application Support/com.vercel.cli/auth.json"
-python3 - "$AUTH" "$UID_ARG" <<'PY'
+TOKEN="${VERCEL_TOKEN:-$(python3 "$(dirname "$0")/vercel-token.py" 2>/dev/null || true)}"
+[ -z "$TOKEN" ] && exit 0
+python3 - "$TOKEN" "$UID_ARG" <<'PY'
 import json, sys, urllib.request
-auth, uid = sys.argv[1], sys.argv[2]
-tok = json.load(open(auth))["token"]
+tok, uid = sys.argv[1], sys.argv[2]
 req = urllib.request.Request("https://api.vercel.com/v13/deployments/" + uid,
                              headers={"Authorization": "Bearer " + tok})
 d = json.load(urllib.request.urlopen(req))
