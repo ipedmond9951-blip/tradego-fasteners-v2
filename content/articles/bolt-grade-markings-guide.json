@@ -378,7 +378,7 @@
             "zh": "8.8 里的小数点是什么意思？"
           },
           "a": {
-            "en": "The dot separates the two numbers. First number (8) = tensile strength / 100 = 800 MPa. Second number (8) = yield ratio × 10 = 0.8, so yield strength = 800 × 0.8 = 640 MPa.",
+            "en": "The dot separates the two numbers in the property class marking. The first number (8) equals tensile strength divided by 100, so 800 MPa tensile strength; the second number (8) equals yield ratio multiplied by 10, giving 0.8, and yield strength = 800 × 0.8 = 640 MPa. The same rule applies to other classes: 10.9 means 1000 MPa tensile and 0.9 yield ratio, while 12.9 means 1200 MPa tensile and 0.9 yield ratio. Read the marking on the head or washer face, not on the thread or packaging, and compare it against the purchase order grade before installation. A common misread is swapping the two numbers or treating the class as a size; if the head marking is worn off or unreadable, do not guess the grade, request material documentation and a hardness check instead.",
             "zh": "小数点把两个数字分开，各自对应一项强度指标。第一位数字 8 表示抗拉强度除以 100，即抗拉强度 800 MPa；第二位数字 8 表示屈强比乘以 10，屈强比为 0.8，屈服强度 = 800 × 0.8 = 640 MPa。性能等级对照 ISO 898-1 评定，等级数字越大，抗拉与屈服强度越高。收货核对时先看头部刻印是否与订单等级一致，再把等级数字与这批螺栓的用途对照；不能只看外观判断等级，关键连接以材质书与硬度抽检结果为准。"
           }
         },
@@ -388,7 +388,7 @@
             "zh": "能用 8.8 级代替 10.9 级吗？"
           },
           "a": {
-            "en": "Only if the engineering design allows it. Grade 8.8 has 80% of the tensile strength but only 71% of the yield strength of Grade 10.9. Never substitute down without engineer approval.",
+            "en": "Only if the engineering design allows it. Grade 8.8 has 80% of the tensile strength but only 71% of the yield strength of Grade 10.9, so the gap in load capacity is wider than the tensile figure suggests. Downgrading matters most in structural, clamping, or dynamic-load joints, where the bolt must hold preload without yielding; a lower grade can stretch permanently, relax preload, or fracture under repeated loading. Never substitute down without engineer approval, even if the diameter and head size look the same. Before any substitution, check the joint design, load case, tightening method, and applicable standard, and record the approval on the purchase or site record. If a batch arrives with a lower grade than ordered, quarantine it rather than mixing it into the specified joint, because grade cannot be confirmed by appearance alone.",
             "zh": "只有在工程设计允许的前提下才能替换。8.8 级的抗拉强度是 10.9 级的 80%，但屈服强度只有 10.9 级的 71%，关键承载接头降等级替换会直接影响预紧力与抗松动能力。没有工程师书面批准，不要把 10.9 级件换成 8.8 级；结构件、高强度螺栓连接受振动与反复荷载时，等级降级风险更明显。采购或现场补件时若原规格缺货，应先把原设计等级、工况与荷载提交设计方确认，再决定是否改用更高等级或同等级替代，不能按直径相同就直接互换。"
           }
         },
@@ -398,7 +398,7 @@
             "zh": "不锈钢螺栓和 8.8 级强度一样吗？"
           },
           "a": {
-            "en": "No. Standard A2-70 stainless bolts have a tensile strength of 700 MPa — less than Grade 8.8 (800 MPa). For equivalent strength, use A4-80 or A2-80 grade stainless, but these are specialty items with premium pricing.",
+            "en": "No. Standard A2-70 stainless bolts have a tensile strength of 700 MPa, less than Grade 8.8 at 800 MPa, so ordinary austenitic stainless is chosen for corrosion resistance rather than strength. For equivalent strength, use A4-80 or A2-80 grade stainless, but these are specialty items with premium pricing and longer lead times, and their property class must be confirmed on the head marking. Do not assume all stainless is equal: A2 and A4 differ in corrosion resistance, while 70 and 80 differ in strength, and mixing the two can lead to under-strength fasteners in a corrosive service. When selecting, match both environment and load case, and on receipt check the grade marking against the order; if strength is the controlling requirement, a zinc-plated or galvanized carbon steel grade may be the more economical choice.",
             "zh": "不一样。普通 A2-70 不锈钢螺栓抗拉强度为 700 MPa，低于 8.8 级的 800 MPa；不锈钢的优势是耐腐蚀，而不是机械强度。要达到与 8.8 级相当的强度，可选 A4-80 或 A2-80 等级不锈钢件，但这类属于特殊牌号，供货周期与价格都高于普通碳钢镀锌件。选型时先分清接头要解决的是强度问题还是腐蚀问题：沿海、潮湿或化工环境优先保证不锈钢牌号，干燥内陆结构连接仍按碳钢性能等级选；不要因为不锈钢防锈就默认它能承担 8.8 级的荷载。"
           }
         },
@@ -408,7 +408,7 @@
             "zh": "收货时怎么核对螺栓等级？"
           },
           "a": {
-            "en": "Check the head marking matches the purchase order specification. For critical applications, request mill test certificates (MTC) per EN 10204 Type 3.1. Random hardness testing is also recommended for large orders.",
+            "en": "Check the head marking matches the purchase order specification first: the class number or dot pattern on the head should agree with the grade, thread size, and finish on the order. For critical applications, request mill test certificates (MTC) per EN 10204 Type 3.1, and match the certificate heat number to the delivered batch; random hardness testing is also recommended for large orders, using a calibrated tester and recording the readings per sample batch. Sort samples by marking before storage, and keep the MTC and hardness record with the purchase file for traceability. A common misjudgment is trusting the packaging label alone, because boxes can be relabeled; if head markings are missing, inconsistent, or do not match the certificate, quarantine the batch and ask the supplier for documentation before releasing it to the job.",
             "zh": "先看螺栓头部刻印是否与采购订单的规格等级一致，刻印模糊、缺字或与订单不符的批次单独隔离，不要上线装配。关键应用按 EN 10204 Type 3.1 索取材质证书（MTC），核对钢种、性能等级、炉批号与热处理状态；大批量订单建议加做随机硬度抽检，硬度偏离等级区间时扩大复检比例。收货记录把头部标记、证书编号、抽检结果与批次号对应归档，后续出现连接争议时这批记录可以追溯等级是否混用；仓储发放时按等级分开码放，避免 8.8 与 10.9 件混批。"
           }
         }
