@@ -419,34 +419,42 @@
       "faqItems": [
         {
           "q": {
-            "en": "What does M12×1.75 mean?"
+            "en": "What does M12×1.75 mean?",
+            "zh": "M12×1.75 是什么意思？"
           },
           "a": {
-            "en": "M12 is the nominal thread diameter (12mm). 1.75 is the thread pitch in millimeters (distance between adjacent threads). This is the standard coarse pitch for M12 bolts."
+            "en": "M12 is the nominal thread diameter (12mm). 1.75 is the thread pitch in millimeters (distance between adjacent threads). This is the standard coarse pitch for M12 bolts.",
+            "zh": "M12×1.75 是螺纹规格标记：M 表示公制螺纹，12 是公称螺纹直径 12 mm，1.75 是螺距，即相邻两道螺纹牙之间的轴向距离，单位为 mm。这是 M12 螺栓的标准粗牙螺距。选型时先看直径再看螺距：同一公称直径还有细牙系列，螺距更小、自锁性更好，但承载与螺纹寿命按粗牙对照 ISO 898-1 评估。画图纸或采购下单时，规格一栏写成 M12×1.75，车削与攻丝都按这个螺距配刀；只写 M12 而不写螺距，默认按粗牙处理，遇到细牙件会出现螺纹配不进或滑牙。"
           }
         },
         {
           "q": {
-            "en": "How do I measure bolt length correctly?"
+            "en": "How do I measure bolt length correctly?",
+            "zh": "螺栓长度怎么量才正确？"
           },
           "a": {
-            "en": "For hex bolts, measure from under the head to the end of the bolt. Do NOT include the head height. For countersunk bolts, measure total length including the head."
+            "en": "For hex bolts, measure from under the head to the end of the bolt. Do NOT include the head height. For countersunk bolts, measure total length including the head.",
+            "zh": "六角螺栓的长度从螺栓头底面量到螺杆末端，不要把螺栓头高度算进去；这是公制与英制六角螺栓通用的量法。埋头螺栓相反，长度要连同头部斜面一起量到尖端。现场复检时把螺栓平贴钢尺或卡尺，先确认头部是六角还是埋头，再决定起量基准；把头高误算进长度，会导致选型偏长、垫片配组不准。量好的长度与公称直径、等级一起记入清单，结构件复核时按长度与直径对照图纸，避免混批后长短件装错位置。"
           }
         },
         {
           "q": {
-            "en": "Can I use a metric wrench on an imperial bolt?"
+            "en": "Can I use a metric wrench on an imperial bolt?",
+            "zh": "公制扳手能套英制螺栓吗？"
           },
           "a": {
-            "en": "Not recommended. Close size matches (e.g., 13mm on 1/2\" bolt) risk rounding the head. Always use the correct wrench size per the bolt standard."
+            "en": "Not recommended. Close size matches (e.g., 13mm on 1/2\" bolt) risk rounding the head. Always use the correct wrench size per the bolt standard.",
+            "zh": "不建议。尺寸接近的搭配（例如 13 mm 扳手套 1/2 英寸螺栓）看似能卡进去，但对边尺寸并不相等，受力后容易把六角头圆角打滑，头圆之后螺栓更难拆下，甚至只能锯掉处理。扳手与套筒都要按螺栓标准对应的对边开口选用：公制件用 mm 扳手，英制件用英寸扳手。现场补件时先量螺栓头对边尺寸或查阅标准号，确认制式再取工具；反复混用会在六角面上磨出圆角。"
           }
         },
         {
           "q": {
-            "en": "What thread engagement depth do I need?"
+            "en": "What thread engagement depth do I need?",
+            "zh": "螺纹咬合深度要多少才够？"
           },
           "a": {
-            "en": "Minimum thread engagement = 1x bolt diameter for steel nuts, 1.5x diameter for aluminum, and 2x diameter for cast iron. Full engagement equals the nut height, which is typically 0.8x diameter."
+            "en": "Minimum thread engagement = 1x bolt diameter for steel nuts, 1.5x diameter for aluminum, and 2x diameter for cast iron. Full engagement equals the nut height, which is typically 0.8x diameter.",
+            "zh": "最小咬合深度按被拧入的基材区分：拧入钢螺母为螺栓直径的 1 倍，拧入铝材为 1.5 倍直径，拧入铸铁为 2 倍直径。满咬合对应螺母全高，螺母高度通常约为直径的 0.8 倍。设计与装配时不要只看螺栓露出几牙，要核对有效啮合长度是否达到基材对应的倍数；啮合不足时预紧力传不进去，振动后容易松脱。孔内有切屑、毛刺先清理再拧入，避免杂物垫高咬合深度。"
           }
         }
       ],
