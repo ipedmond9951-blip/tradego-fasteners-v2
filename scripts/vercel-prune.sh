@@ -26,9 +26,19 @@ echo "📦 主项目当前部署: $TOTAL 条，保留最近 $KEEP 条"
 TO_DELETE=$(echo "$LIST" | python3 -c "
 import json,sys,datetime
 d=json.load(sys.stdin)['deployments']
-for x in d[$KEEP:]:
+keep_ready=$KEEP
+out=[]
+for x in d:
+    st=x['state']
     t=datetime.datetime.fromtimestamp(x['createdAt']/1000).strftime('%Y-%m-%d %H:%M')
-    print(x['uid'], x['state'], (x['meta'].get('githubCommitSha') or '')[:8], t)
+    if st in ('CANCELED','ERROR'):
+        out.append((x['uid'], st, (x['meta'].get('githubCommitSha') or '')[:8], t))
+    elif st=='READY':
+        if keep_ready>0:
+            keep_ready-=1
+        else:
+            out.append((x['uid'], st, (x['meta'].get('githubCommitSha') or '')[:8], t))
+for r in out: print(*r)
 ")
 
 if [ -z "$TO_DELETE" ]; then
