@@ -238,31 +238,37 @@
         {
           "q": {
             "en": "What size range is standard, and how long should the bolt be?",
-            "zh": "标准规格范围是多少，螺栓多长？"
+            "zh": "标准规格范围是多少，螺栓多长？",
+            "hi": "एक्सपेंशन बोल्ट का स्टैंडर्ड साइज़ रेंज क्या है, बोल्ट कितना लंबा हो?"
           },
           "a": {
             "en": "Expansion bolts commonly run M6 to M24. Length is set by fixture thickness plus effective embedment plus the nut and washer stack, so specify the fixture thickness when ordering rather than the bolt length alone.",
-            "zh": "膨胀螺栓常见规格为 M6 至 M24。长度由被固定件厚度、有效埋深以及螺母和垫圈叠厚共同决定，所以订货时应提供被固定件厚度，而不是只报一个螺栓长度。"
+            "zh": "膨胀螺栓常见规格为 M6 至 M24。长度由被固定件厚度、有效埋深以及螺母和垫圈叠厚共同决定，所以订货时应提供被固定件厚度，而不是只报一个螺栓长度。",
+            "hi": "एक्सपेंशन बोल्ट आम तौर पर M6 से M24 तक आते हैं। लंबाई फिक्सचर की मोटाई, असरदार घुसाव, और नट व वॉशर के स्टैक से मिलकर तय होती है, इसलिए ऑर्डर करते समय सिर्फ बोल्ट की लंबाई न बताएं, फिक्सचर की मोटाई ज़रूर स्पष्ट करें। इसी से सही एम्बेडमेंट मिल पाता है।"
           }
         },
         {
           "q": {
             "en": "What causes most expansion bolt failures?",
-            "zh": "膨胀螺栓失效大多是什么原因？"
+            "zh": "膨胀螺栓失效大多是什么原因？",
+            "hi": "ज़्यादातर एक्सपेंशन बोल्ट की विफलता किस वजह से होती है?"
           },
           "a": {
             "en": "An oversized hole, embedment shorter than the rated value, a hole that was not cleaned of dust, and over-torqueing that spins the sleeve. Drill the specified diameter, blow out the hole and tighten to the stated torque.",
-            "zh": "常见原因有：孔径过大、埋深达不到额定值、孔内粉尘未清干净，以及扭矩过大导致套管旋滑。应按规定直径钻孔、吹净孔内粉尘，并按给定扭矩拧紧。"
+            "zh": "常见原因有：孔径过大、埋深达不到额定值、孔内粉尘未清干净，以及扭矩过大导致套管旋滑。应按规定直径钻孔、吹净孔内粉尘，并按给定扭矩拧紧。",
+            "hi": "मोटा बना हुआ होल, रेटेड मान से कम घुसाव, धूल साफ न किया हुआ होल, और ज़्यादा टॉर्क जिससे स्लीव घूमने लगती है। निर्दिष्ट व्यास से ड्रिल करें, होल को उड़ाकर साफ करें, और बताए गए टॉर्क पर ही कसें। ये चारों कारण मिलकर एंकर की पकड़ घटाते हैं, इसलिए इंस्टॉलेशन के हर चरण पर ध्यान दें।"
           }
         },
         {
           "q": {
             "en": "Which finish should I pick?",
-            "zh": "表面处理怎么选？"
+            "zh": "表面处理怎么选？",
+            "hi": "कौन-सी फिनिश चुननी चाहिए?"
           },
           "a": {
             "en": "Yellow zinc for interior and dry service, hot-dip galvanising for outdoor structures, stainless A2 or A4 for coastal and wet areas. Mixing a zinc bolt into a stainless assembly creates a galvanic couple at the joint.",
-            "zh": "室内干燥环境选黄锌，户外结构选热浸镀锌，沿海和潮湿区域选不锈钢 A2 或 A4。镀锌螺栓与不锈钢件混装，会在连接处形成电偶腐蚀。"
+            "zh": "室内干燥环境选黄锌，户外结构选热浸镀锌，沿海和潮湿区域选不锈钢 A2 或 A4。镀锌螺栓与不锈钢件混装，会在连接处形成电偶腐蚀。",
+            "hi": "अंदरूनी और सूखी जगह के लिए येलो ज़िंक; बाहरी संरचनाओं के लिए हॉट-डिप गैल्वनाइज़िंग; तटीय और नम इलाकों के लिए स्टेनलेस A2 या A4। स्टेनलेस असेंबली में ज़िंक बोल्ट मिलाने पर जोड़ पर गैल्वेनिक कपल बन जाता है, इसलिए सामग्री मेल पहले से तय कर लें।"
           }
         }
       ]
