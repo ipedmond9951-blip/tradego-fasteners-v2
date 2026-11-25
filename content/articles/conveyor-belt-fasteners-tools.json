@@ -228,26 +228,32 @@
    "faqItems": [
     {
      "q": {
-      "en": "What is belt fastener 'rating' or 'tension rating'?"
+      "en": "What is belt fastener 'rating' or 'tension rating'?",
+      "zh": "接头拉力等级怎么看？"
      },
      "a": {
-      "en": "Belt fastener tension ratings indicate the maximum conveyor belt tension (in N/mm of belt width) the splice can handle. For example, a fastener rated at 800 N/mm is suitable for belts with belt pull up to 800 N per mm of width. The rating must exceed the actual belt tension at the splice location. Consult the manufacturer's selection guide which correlates belt width, thickness, and pulley diameter with fastener size and rating."
+      "en": "Belt fastener tension ratings indicate the maximum conveyor belt tension (in N/mm of belt width) the splice can handle. For example, a fastener rated at 800 N/mm is suitable for belts with belt pull up to 800 N per mm of width. The rating must exceed the actual belt tension at the splice location. Consult the manufacturer's selection guide which correlates belt width, thickness, and pulley diameter with fastener size and rating.",
+      "zh": "带扣的拉力等级表示该接头能承受的最大输送带张力，单位为每毫米带宽多少牛（N/mm）。例如标注 800 N/mm 的带扣，适用于每毫米带宽拉力不超过 800 N 的输送带。所选等级必须高于接头位置的实际张力；选型时对照厂商选型表，把带宽、带厚和滚筒直径与带扣规格、等级对应起来。"
      }
     },
     {
      "q": {
-      "en": "How long do mechanical belt splices last compared to vulcanized splices?"
+      "en": "How long do mechanical belt splices last compared to vulcanized splices?",
+      "zh": "机械接头比硫化接头寿命短多少？"
      },
      "a": {
-      "en": "Vulcanized splices typically achieve 95-100% of original belt strength and last 3-5 years under ideal conditions. Mechanical splices achieve 80-98% of belt strength (depending on type) and typically last 1-3 years depending on belt tension, material abrasiveness, and operating conditions. For high-abrasion African mining applications, mechanical splice life of 6-18 months is common before scheduled replacement. The speed of field replacement often makes mechanical splices more economical despite shorter service life."
+      "en": "Vulcanized splices typically achieve 95-100% of original belt strength and last 3-5 years under ideal conditions. Mechanical splices achieve 80-98% of belt strength (depending on type) and typically last 1-3 years depending on belt tension, material abrasiveness, and operating conditions. For high-abrasion African mining applications, mechanical splice life of 6-18 months is common before scheduled replacement. The speed of field replacement often makes mechanical splices more economical despite shorter service life.",
+      "zh": "硫化接头通常能达到原带强度的 95–100%，理想工况下可用 3–5 年；机械接头强度保持在 80–98%（视类型而定），一般寿命 1–3 年，取决于带张力、物料磨蚀性和运行条件。在磨蚀较强的非洲矿山工况，机械接头通常 6–18 个月就需计划更换。虽然寿命偏短，但现场更换快，综合算下来往往更经济。"
      }
     },
     {
      "q": {
-      "en": "Why do mechanical splices fail prematurely?"
+      "en": "Why do mechanical splices fail prematurely?",
+      "zh": "机械接头为什么会过早失效？"
      },
      "a": {
-      "en": "The most common causes of premature mechanical splice failure: incorrect fastener size for belt thickness — fasteners either pull through or don't close properly; belt tracking issues — a misaligned belt wears the splice edges; under-tightened fasteners — allow movement that fatigues the belt; over-tightened fasteners — deform the belt carcass; material carryback — abrasive material buildup between belt and pulleys accelerates fastener wear; improper skiving — insufficient cover rubber removal prevents proper fastener engagement with the carcass."
+      "en": "The most common causes of premature mechanical splice failure: incorrect fastener size for belt thickness — fasteners either pull through or don't close properly; belt tracking issues — a misaligned belt wears the splice edges; under-tightened fasteners — allow movement that fatigues the belt; over-tightened fasteners — deform the belt carcass; material carryback — abrasive material buildup between belt and pulleys accelerates fastener wear; improper skiving — insufficient cover rubber removal prevents proper fastener engagement with the carcass.",
+      "zh": "常见原因有六类：带厚与带扣规格不匹配，带扣被拉穿或扣合不严；皮带跑偏，接头边缘被磨损；带扣拧得过松，接头往复活动疲劳皮带；拧得过紧，损伤带芯；物料回粘堆积在皮带与滚筒之间，加速带扣磨损；剥层（skiving）不到位，覆盖胶去除不足，带扣与带芯咬合不牢。"
      }
     }
    ],
