@@ -237,26 +237,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "What screw matches a drop-in anchor?"
+            "en": "What screw matches a drop-in anchor?",
+            "zh": "配锚栓该用什么螺钉？"
           },
           "a": {
-            "en": "A standard metric machine screw or bolt of the same thread size - M6, M8, M10 or M12. The fixture determines the anchor size, so specify from the bracket, not the other way round."
+            "en": "A standard metric machine screw or bolt of the same thread size - M6, M8, M10 or M12. The fixture determines the anchor size, so specify from the bracket, not the other way round.",
+            "zh": "配用同螺纹规格的公制机螺钉或螺栓，常见 M6、M8、M10、M12。锚栓规格由被固定挂件决定，先按支架螺纹需求选锚栓，不要反过来配。"
           }
         },
         {
           "q": {
-            "en": "How is a drop-in anchor set correctly?"
+            "en": "How is a drop-in anchor set correctly?",
+            "zh": "内迫式锚栓怎么安装才到位？"
           },
           "a": {
-            "en": "Drill to the specified diameter and depth, clean the hole, insert the anchor flush with the surface, then drive the setting tool to expand the internal plug. Over-driving is the most common cause of premature failure."
+            "en": "Drill to the specified diameter and depth, clean the hole, insert the anchor flush with the surface, then drive the setting tool to expand the internal plug. Over-driving is the most common cause of premature failure.",
+            "zh": "按规定直径和深度钻孔并清孔，把锚栓敲至与混凝土表面齐平，再用配套胀紧工具把内部塞芯撑开。敲击过量是锚栓过早失效最常见的原因。"
           }
         },
         {
           "q": {
-            "en": "What load limits should I respect?"
+            "en": "What load limits should I respect?",
+            "zh": "承载力要遵守哪些限值？"
           },
           "a": {
-            "en": "Ratings are given in tension and shear for a specific substrate. Suspended services need a safety factor, and never load a drop-in anchor in tension beyond its published value in thin or cracked slabs."
+            "en": "Ratings are given in tension and shear for a specific substrate. Suspended services need a safety factor, and never load a drop-in anchor in tension beyond its published value in thin or cracked slabs.",
+            "zh": "额定载荷分抗拉与抗剪，且对应特定基材条件。悬吊类构件必须预留安全系数；薄楼板或开裂混凝土中，抗拉载荷不得超过公布的限值。"
           }
         }
       ]
