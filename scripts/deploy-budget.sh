@@ -28,7 +28,8 @@ python3 - "$LEDGER" "$LIMIT" "$PROJECT_ID" "$AUTH" <<'PY'
 import json, os, sys, time, datetime, urllib.request
 
 ledger_path, limit, project_id, auth_path = sys.argv[1], int(sys.argv[2]), sys.argv[3], sys.argv[4]
-today = time.strftime('%Y-%m-%d')
+tz = datetime.timezone(datetime.timedelta(hours=8))
+today = datetime.datetime.now(tz).strftime('%Y-%m-%d')  # 统一用北京时间判定"今天"
 
 # --- 1) Vercel API: 今日(Asia/Shanghai)真实部署条数 ---
 api_count = None
@@ -39,7 +40,6 @@ try:
         headers={'Authorization': 'Bearer ' + token},
     )
     data = json.load(urllib.request.urlopen(req, timeout=15))
-    tz = datetime.timezone(datetime.timedelta(hours=8))
     today_start = datetime.datetime.now(tz).replace(hour=0, minute=0, second=0, microsecond=0).timestamp()
     api_count = sum(1 for d in data.get('deployments', []) if d['createdAt'] / 1000 >= today_start and d.get('state') != 'CANCELED')  # ignoreCommand 跳过的记录不占预算
 except Exception as e:
@@ -54,7 +54,9 @@ if d.get('date') != today:
     d = {'date': today, 'count': 0}
 local_count = int(d.get('count', 0))
 
-count = max(api_count if api_count is not None else 0, local_count)
+# API 可用时以 API 为准（它能同时看到别的 agent 的部署）；本地台账只作 API 不可用时的兜底。
+# 之前取 max() 会让历史 push 计数（含 ignoreCommand 跳过的）永久卡住真实构建。
+count = api_count if api_count is not None else local_count
 src = []
 if api_count is not None:
     src.append('Vercel=%d' % api_count)
