@@ -55,6 +55,19 @@ if [ -f "$ROOT/scripts/check-i18n-leakage.py" ]; then
     [ "${LEAK:-0}" -gt 0 ] && echo "⚠️  FAQ 本地化缺口：${LEAK} 条（python3 scripts/check-i18n-leakage.py --fix-list 看明细）"
 fi
 
+# 正文体检软提示（不阻断）：整句英文残留 / 摘要级正文
+if [ -f "$ROOT/scripts/check-body-lang.py" ]; then
+    BL=$(python3 "$ROOT/scripts/check-body-lang.py" 2>/dev/null | head -1)
+    case "$BL" in
+        *"english 0 处"*) ;;
+        *) echo "⚠️  正文语种残留：${BL}" ;;
+    esac
+fi
+if [ -f "$ROOT/scripts/check-body-len.py" ]; then
+    SL=$(python3 "$ROOT/scripts/check-body-len.py" 2>/dev/null | head -1)
+    echo "ℹ️  ${SL}（python3 scripts/check-body-len.py 看明细）"
+fi
+
 while read -r local_ref local_sha remote_ref remote_sha; do
     [ "$remote_ref" = "refs/heads/main" ] || continue
     [ "$local_sha" = "0000000000000000000000000000000000000000" ] && continue
