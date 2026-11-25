@@ -220,6 +220,22 @@
       "hi": "स्पेसिफिकेशन में मानक, ग्रेड, कोटिंग मोटाई, धागा सहनशीलता, टॉर्क मान और चाहिए जाने वाले परीक्षण प्रमाण-पत्र स्पष्ट लिखें; आम तौर पर EN 10204 3.1 प्रमाण-पत्र होता है, जहां तीसरे पक्ष की उपस्थिति अनिवार्य हो वहां 3.2 लगता है। खनन कंपनियां इन दस्तावेज़ों का ऑडिट करती हैं, अधूरा स्पेसिफिकेशन माल खेप खारिज करवा देता है।",
       "ru": "В спецификации указывают стандарт, класс прочности, толщину покрытия, допуск резьбы, момент затяжки и требуемые протоколы испытаний — обычно EN 10204 3.1, а 3.2 там, где требуется свидетель третьей стороны. Горные компании проверяют эти документы при аудите, и неполная спецификация ведёт к отклонению поставки."
      }
+    },
+    {
+     "q": {
+      "en": "What grade of bolts should be used for underground mining in Africa?",
+      "zh": "非洲地下采矿应使用什么级别的螺栓？",
+      "es": "Que grado de pernos?",
+      "fr": "Quel grade de boulons?",
+      "pt": "Que grau de parafusos?"
+     },
+     "a": {
+      "en": "Underground mining in Africa requires minimum Grade 8.8 structural bolts for general applications, Grade 10.9 for critical connections and dynamic loads, and Grade 12.9 for most demanding applications. All bolts should have corrosion protection due to humid underground conditions.",
+      "zh": "非洲地下采矿一般应用需要8.8级以上结构螺栓，关键连接和动态载荷需要10.9级，最苛刻应用需要12.9级。所有螺栓应具有防腐保护。",
+      "es": "Minimo Grado 8.8, preferiblemente 10.9 para conexiones criticas.",
+      "fr": "Minimum Grade 8.8, preferablement 10.9 pour connexions critiques.",
+      "pt": "Minimo Grau 8.8, preferivelmente 10.9 para conexoes criticas."
+     }
     }
    ]
   }
