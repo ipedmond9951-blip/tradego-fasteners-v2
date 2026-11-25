@@ -18,11 +18,32 @@ def plain(s):
     return len(re.sub(r'\s+', '', TAG.sub('', s or '')))
 
 
+def load_filler():
+    """模板文比例。首选 logs/template-filler.json，缺失时现跑检测脚本（logs 不入库）。"""
+    import subprocess
+    try:
+        d = json.load(open('logs/template-filler.json'))
+    except FileNotFoundError:
+        try:
+            out = subprocess.run(['python3', 'scripts/check-template-filler.py', '--json'],
+                                 capture_output=True, text=True, check=True).stdout
+            d = json.loads(out)
+        except Exception:
+            return {}
+    return {i['slug']: i['ratio'] for i in d.get('items', [])}
+
+
 def main():
+    filler = load_filler()
+    blocked = 0
     items = []
     for p in sorted(glob.glob('content/articles/*.json')):
         d = json.load(open(p))
         slug = p.split('/')[-1][:-5]
+        if filler.get(slug, 0) >= 0.5:
+            # 模板文先重写再谈翻译，不占扩写队列
+            blocked += 1
+            continue
         total = {}
         passed = {}
         missing = {}
@@ -48,7 +69,8 @@ def main():
     out = {'generated': datetime.now(timezone(timedelta(hours=8))).isoformat(timespec='seconds'),
            'total': len(items), 'items': items}
     json.dump(out, open('content/locale-backlog.json', 'w'), ensure_ascii=False, indent=1)
-    print(f'队列 {len(items)} 条，最短覆盖 {items[0]["coverage"] if items else 0}')
+    print(f'队列 {len(items)} 条，最短覆盖 {items[0]["coverage"] if items else 0}'
+          + (f'；模板文 {blocked} 篇暂不排队（先重写）' if blocked else ''))
 
 
 if __name__ == '__main__':
