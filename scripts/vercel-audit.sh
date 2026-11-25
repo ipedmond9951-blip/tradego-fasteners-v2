@@ -78,7 +78,10 @@ tz = datetime.timezone(datetime.timedelta(hours=8))
 today = datetime.datetime.now(tz).date()
 today_ds = [d for d in ds if datetime.datetime.fromtimestamp(d["createdAt"]/1000, tz).date() == today]
 cli = [d for d in ds if (d.get("source") or "") != "git" and d.get("target") == "production"]
-print(len(ds), len(today_ds), len(cli))
+# 保留数只算占位部署：CANCELED（ignoreCommand 跳过构建的记录）没有产物，prune 会即时删除，
+# 不能算进"线上保留 3 条"，否则每次纯 docs 推送都会误报第 4 条。
+keep_ds = [d for d in ds if (d.get("state") or "") != "CANCELED"]
+print(len(keep_ds), len(today_ds), len(cli))
 for c in cli[:5]:
     print("CLI", c["sha"], datetime.datetime.fromtimestamp(c["createdAt"]/1000, tz).strftime("%m-%d %H:%M"))
 ')

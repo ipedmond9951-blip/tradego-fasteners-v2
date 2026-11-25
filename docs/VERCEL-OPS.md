@@ -243,7 +243,9 @@ bash scripts/vercel-guard.sh            # 立刻跑一次，确认环境合规
 ### 附：ignoreCommand 的副作用（必须知道）
 `vercel.json` 的 `ignoreCommand` 在"只有 `content/src/public/next.config.ts/package.json` 之外的路径发生变化"时以 exit 0 跳过构建。因此**纯文档/脚本的提交会显示为 CANCELED 部署，不产生线上部署**——这是省额度的正常行为，不是故障。审计脚本已按此语义判定（线上 commit 可以是 origin/main 的祖先，前提是其后没有构建产物相关改动）。
 
-对应地，`deploy-flush.sh` 会先判断本次 diff 是否命中构建路径：没命中就跳过部署预算计数（这类 push 不占"每日 3 次构建"额度），但仍受"每日无构建推送 ≤5 次"的独立上限约束。
+对应地，`deploy-flush.sh` 会先判断本次 diff 是否命中构建路径：没命中就跳过部署预算计数（这类 push 不占"每日 3 次构建"额度），但仍受"每日无构建推送 ≤5 次"的独立上限约束。无构建推送的计数与部署预算统一按 **Asia/Shanghai** 日期滚动（早先按机器本地 PST 日期，会导致北京时间上午永远卡在上一天的 5/5）。
+
+CANCELED 记录要 push 后十几秒才出现在 API 里，所以 `deploy-flush.sh` 在无构建推送后会再等 25 秒补跑一次 `vercel-prune.sh`；同时审计的"保留 ≤3 条"只统计非 CANCELED 部署——CANCELED 没有产物，不该被算成第 4 条。
 
 ### 已知缺口（不粉饰）
 1. `git push --no-verify` 可以跳过 pre-push 钩子 —— 但第三层的 sha 对齐 + 当日次数审计仍会记录，且部署本身仍是一次正常的 git 部署，风险有限

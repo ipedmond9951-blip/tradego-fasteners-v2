@@ -108,4 +108,11 @@ if [ -x scripts/vercel-prune.sh ]; then
   bash scripts/vercel-prune.sh --apply 2>&1 | tail -2
 fi
 
+# 纯 docs/scripts 推送：ignoreCommand 跳过构建，但 CANCELED 记录要十几秒后才落到 API。
+# 立刻 prune 抓不到它，线上就会短暂多一条，被审计计成"保留 4 条"。等记录落地后再收一次。
+if [ "$WILL_BUILD" -eq 0 ] && [ -x scripts/vercel-prune.sh ]; then
+  sleep 25
+  bash scripts/vercel-prune.sh --apply 2>&1 | tail -2
+fi
+
 exit 0
