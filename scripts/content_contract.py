@@ -264,9 +264,13 @@ def check_article(path, project_dir):
         en_body_words += word_count(en_text)
         zh_body_chars += len(HAN_RE.findall(body.get("zh", "") or ""))
         has_items = isinstance(s.get("faqItems"), list) and bool(s["faqItems"])
-        if not norm(en_text) and not has_items:
+        # FAQ 小节的正文由模板按语种生成（FAQ_INTRO + 问答列表），不要求手写 body；
+        # 否则补完问答却被判"缺中文正文"。
+        head_en = (head.get("en") or "").lower()
+        is_faq = s.get("id") == "faq" or "frequently asked question" in head_en or "常见问题" in (head.get("zh") or "")
+        if not norm(en_text) and not has_items and not is_faq:
             issues.b("body", f"sections[{i}] 缺英文正文")
-        if not norm(body.get("zh", "") or "") and not has_items:
+        if not norm(body.get("zh", "") or "") and not has_items and not is_faq:
             issues.b("body", f"sections[{i}] 缺中文正文")
 
     if en_body_words and en_body_words < MIN_EN_BODY_WORDS:
