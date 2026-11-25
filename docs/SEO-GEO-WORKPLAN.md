@@ -175,9 +175,9 @@ python3 scripts/article-claim.py release <slug> <线名>
 |---|---|---|---|---|
 | T0 分词修复 | seo-geo-main | 已完成 | 1 / 1 | en 不变；ru/ar/hi/ja 下调，见 §1 |
 | T1 非英语段落化 | 头条线 | 待开始 | 0 / 8,318 节 | es 先 |
-| T2 定义句 | seo-geo-main | 进行中 | 1 / 39 | 与 T4 同批 |
+| T2 定义句 | seo-geo-main | 进行中 | 4 / 39 | en/zh 均 def=1 |
 | T3 标题短写 | 头条线 | 待开始 | 0 / 866 | A 区 39 篇我处理 |
-| T4 en 首段 + H2 问句 | seo-geo-main | 进行中 | 1 / 39 | roofing-screws-epdm 40→90 |
+| T4 en 首段 + H2 问句 | seo-geo-main | 进行中 | 4 / 39 | 均达标（en 90） |
 | T5 标准/来源 | seo-geo-main | 待开始 | 0 / 39 | |
 | T6 入链 | 待认领 | 待开始 | 0 / 29 + 18 | 两口径分开记 |
 | T7 去重 | seo-geo-main | 待开始 | 0 / A 区相关篇 | |
@@ -191,3 +191,4 @@ python3 scripts/article-claim.py release <slug> <线名>
 - 2026-11-25 20:55 T0 完成：`geo_audit.words()` 按书写系统切词，en 分数零变化，ru 155.6→9.9、hi 160.6→13.4、ja 104.2→3.2、ar 35.1→2.9（同一篇对照）；语种均分据此刷新，验收线改用新值。
 - 2026-11-25 21:10 T0 第二阶段：`def`/`qh` 原来只认英文正则，非英语篇的 10+15 分结构性拿不到（量具缺陷）。补 `DEF_MULTI`/`Q_MULTI`（强定义动词与各语种疑问词）后 es 40.9→48.1、fr 41.3→45.0、pt 40.4→47.3、de 43.3→47.1、ru 45.7→53.1、ja 43.2→51.2、ar 43.5→49.2、hi 44.9→46.5、zh 55.6→55.9，en 62.7 不变。
 - 2026-11-25 21:15 A 区首篇 `roofing-screws-epdm-washer-guide`（曝光 2,244，A 区第一）：en 首段 321→50 词、echo 1→0、两个 H2 改问句（qh 0→0.4）、zh 首段重写并加定义句；**en 40→90、zh 45→90**，`content_gate` 通过（仅存量 WARN zh 758 字偏薄）。
+- 2026-11-25 21:35 A 区第 2–4 篇：`hex-bolt-dimensions-chart` en 49→90 / zh 74→90、`zinc-plated-vs-black-phosphate-screws` en 75→90 / zh 38→82、`bolt-grade-markings-guide` zh 73→89（en 已 90）。三篇均 `content_gate` 通过、`check-body-lang` 0 污染。
