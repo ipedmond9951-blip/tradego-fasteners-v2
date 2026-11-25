@@ -307,6 +307,46 @@
             "ar": "في البيئة الساحلية، تشترط المواصفة الدنيا مراسي F1554 Grade 55 أو 105 مجلفنة بالغمس الساخن. أما التعرض البحري الشديد (على بعد أقل من 500 m من المحيط) فيتطلب مراسي من الفولاذ المقاوم للصدأ 316 أو من الفولاذ الثنائي. يجب حماية جميع الأجزاء المكشوفة فوق الخرسانة، ويجب أن تكون الحلقات والصواميل من الفولاذ المقاوم للصدأ أيضًا. عند الاختيار، خذ في الحسبان رذاذ الملح ودورات الرطوبة والجفاف والتعرض للكلوريدات، واطلب من المهندس تأكيد الدرجة قبل كتابتها في الرسومات والاستعلام. لا ترفع درجة جسم البرغي وحده إلى الفولاذ المقاوم للصدأ مع ترك الصواميل والحلقات من الفولاذ المجلفن العادي؛ فالزوج غير المتجانس يتآكل عند الوصلة. يجب أن يسجل الطلب قطر المرساة والدرجة والتشطيب ومادة الجوز والحلقة المتطابقة، وحماية الخيوط البارزة بعد صب الخرسانة. نظم فحصًا دوريًا للخيوط المكشوفة بحثًا عن الصدأ الأحمر أو نقص المقطع.",
             "zh": "沿海环境最低采用热浸镀锌的 F1554 Grade 55 或 105 锚栓。严重海洋暴露区域（距海 500 m 以内），应规定 316 不锈钢锚栓或双相不锈钢锚栓。混凝土以上外露的所有部分都必须得到保护，配套的垫圈和螺母同样要选用不锈钢件，不能只把螺栓本体升级为不锈钢而连接件仍用普通镀锌钢。选型时还要核对盐雾环境、干湿交替与氯化物影响，必要时由结构或材料工程师确认等级，再写入采购图纸与询价单。"
           }
+        },
+        {
+          "q": {
+            "en": "What are the different types of anchor bolts for concrete?"
+          },
+          "a": {
+            "en": "Main anchor bolt types: J-bolts (L-shaped, for equipment mounting); L-bolts (straight with bent end); Plate anchors (welded base plate, for structural columns); Wedge anchors (expansion type, for cracked/uncracked concrete); Epoxy anchors (adhesive-bonded, for high loads). Each type suits different load requirements and concrete conditions."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I determine the correct anchor bolt size for my project?"
+          },
+          "a": {
+            "en": "Determine anchor bolt size by: 1) Calculate design load (tension and shear); 2) Check concrete strength (typically 20-30 MPa for African construction); 3) Use manufacturer load tables for specific bolt size and embedment depth; 4) Apply appropriate safety factor (typically 4:1 for static loads); 5) Consider edge distance and spacing requirements."
+          }
+        },
+        {
+          "q": {
+            "en": "What is the difference between wedge anchors and J-bolts?"
+          },
+          "a": {
+            "en": "Wedge anchors are expansion anchors that grip the concrete when tightened - one-piece design, for permanent installations in solid concrete. J-bolts are cast-in-place or inserted into wet concrete - repositionable before concrete sets, better for structural connections where alignment is critical."
+          }
+        },
+        {
+          "q": {
+            "en": "How deep should anchor bolts be embedded in concrete?"
+          },
+          "a": {
+            "en": "Embedment depth depends on bolt diameter and load: General rule is 4-6 bolt diameters for medium loads. For structural applications, follow local codes: South Africa uses SABS 10400; minimum typically 8 inches (200mm) for M16 and larger bolts. Insufficient embedment causes pull-out failure - always verify with load calculations."
+          }
+        },
+        {
+          "q": {
+            "en": "When should epoxy anchor bolts be used?"
+          },
+          "a": {
+            "en": "Use epoxy anchors when: 1) High tensile load requirements exceed expansion anchor capacity; 2) Close to concrete edge where expansion anchors would crack concrete; 3) Retrofitting existing concrete structures; 4) Anchoring near vibrating equipment. Epoxy provides chemical bonding and works in both cracked and uncracked concrete when properly installed."
+          }
         }
       ],
       "body": {
