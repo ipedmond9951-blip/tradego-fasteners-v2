@@ -79,3 +79,14 @@
 3. **判据纠正** `scripts/check-i18n-leakage.py`：区分"英文泄漏"（值为英文，算违规，`--strict` exit 1）与"未本地化"（值缺失，页面不展示，只统计覆盖度）。这样闸门只拦真泄漏，不会把"还没翻译"当成失败。
 
 配套：模板问答检测 `scripts/check-faq-boilerplate.py` + 替换器 `scripts/faq-replace-boilerplate.py`，批量译文落盘 `scripts/faq-apply.py`。
+
+## 收口结果（2026-11-25 12:40 CST）
+
+模板问答和伪翻译两条欠账同时清零：
+
+1. **模板问答归零**：`python3 scripts/check-faq-boilerplate.py` → 受影响文章 0 篇、待替换条目 0 条。51 篇一次性替换完成（清掉的模板条目数逐步下降，尾部几篇只删 0–1 条，脚本会按"删多少补多少"自然收敛，不再硬凑 3 条）。新增问答全部为 en + zh，且一问一答限定在本篇题材（管道/矿山/木结构/光伏/清关/证书各不相同）。
+2. **英文泄漏归零**：`python3 scripts/check-i18n-leakage.py` → "✅ 未发现英文泄漏"。`normalize-faq-i18n.py --apply` 一次清掉 5956 条伪翻译 / 144 篇；剩余德语、阿语等语种属"未本地化"（值缺失，页面不渲染，只计覆盖度 14651 条）。
+3. **校验全过**：`check-article-schema.sh` 279 篇全过；144 篇改动逐篇跑 `content_gate.py --slug` 均"完全干净 0 (0%)"。
+4. **现状口径**：en/zh/ja 三语问答完整（累计 60 篇手译/自译），其余语种由 `com.tradego.faq-l10n`（600s 一轮）在通道可用时补；通道 429 时按 `logs/faq-l10n-needs-agent.txt` 自译补位。
+
+部署：本地领先 origin/main 6 个提交，当日构建预算 3/3 已用尽，进 09:00 或 17:00 窗口由 `deploy-flush.sh` 自动推，无需手工。
