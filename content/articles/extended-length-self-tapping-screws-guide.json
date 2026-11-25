@@ -156,29 +156,31 @@
     {
      "q": {
       "en": "What screw length for exterior insulation board?",
-      "zh": "外墙保温板用什么螺丝长度？"
+      "zh": "外墙保温板该用多长螺丝？"
      },
      "a": {
       "en": "Calculate: insulation thickness + sheathing thickness + minimum embedment into substrate (steel: 25mm, wood: 40mm). Add 5-10mm for washer thickness. For example: 100mm insulation + 12mm OSB + 25mm steel stud = 137mm + washer = specify 150mm.",
-      "zh": "计算：保温层厚度+护板厚度+基材最小嵌入（钢:25mm，木:40mm）+垫圈厚度。"
+      "zh": "螺丝长度按保温层厚度加围护板厚度，再加进基材的最小旋合深度计算：进钢材 25 毫米，进木材 40 毫米；垫圈厚度另加 5 至 10 毫米。举例：100 毫米保温层加 12 毫米定向刨花板（OSB）加 25 毫米钢龙骨，合计 137 毫米，再加垫圈余量后选 150 毫米规格。"
      }
     },
     {
      "q": {
       "en": "Why do bathroom screws need to be stainless steel?",
-      "zh": "为什么浴室螺丝需要是不锈钢的？"
+      "zh": "浴室螺丝为什么要用不锈钢？"
      },
      "a": {
       "en": "Bathrooms have high humidity and chlorides from cleaning products. Standard steel rusts quickly, causing staining and eventual failure. 304 stainless resists bathroom conditions adequately.",
-      "zh": "浴室有高湿度和来自清洁产品的氯化物。标准钢快速生锈，导致染色和最终失效。"
+      "zh": "浴室湿度高，清洁剂还会带来氯盐。普通钢材很快生锈，留下锈渍并最终失效。304 不锈钢足以耐受普通浴室环境。"
      }
     },
     {
      "q": {
-      "en": "Why do bathroom fixings need stainless screws?"
+      "en": "Why do bathroom fixings need stainless screws?",
+      "zh": "浴室固定件为什么要不锈钢螺丝？"
      },
      "a": {
-      "en": "Because wet service attacks zinc coatings at the cut edges and the screw head, and a failed fixing in a wet area means a leak path. A2/304 is the practical minimum; A4/316 for chlorine and salt exposure."
+      "en": "Because wet service attacks zinc coatings at the cut edges and the screw head, and a failed fixing in a wet area means a leak path. A2/304 is the practical minimum; A4/316 for chlorine and salt exposure.",
+      "zh": "潮湿环境会侵蚀镀层，切口边缘和螺丝头最先受损；潮湿部位的固定件一旦失效，就形成漏水通道。A2/304 是实用下限；接触氯盐或盐雾时选 A4/316。"
      }
     }
    ],
