@@ -237,26 +237,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "What sizes do common nails come in?"
+            "en": "What sizes do common nails come in?",
+            "zh": "普通圆钉有哪些长度规格？"
           },
           "a": {
-            "en": "Roughly 1 inch to 8 inch, with the common range for construction at 2 to 4 inch. Wire gauge falls as length rises, so a longer nail is not simply a scaled version of a short one."
+            "en": "Roughly 1 inch to 8 inch, with the common range for construction at 2 to 4 inch. Wire gauge falls as length rises, so a longer nail is not simply a scaled version of a short one.",
+            "zh": "长度大致覆盖 1 英寸至 8 英寸，建筑施工最常用的是 2 至 4 英寸。线规随长度增大而变粗（线规数值减小），所以长钉并不是短钉的等比例放大；下单时要同时注明长度和钉杆直径，不能只写长度。"
           }
         },
         {
           "q": {
-            "en": "How long should the nail be for a given timber thickness?"
+            "en": "How long should the nail be for a given timber thickness?",
+            "zh": "木材厚度该配多长的钉子？"
           },
           "a": {
-            "en": "A working rule is that penetration into the receiving member should be about two thirds of the nail length, and the nail should not protrude on the far side. For 50 mm boarding into a 50 mm joist, 75 to 90 mm is typical."
+            "en": "A working rule is that penetration into the receiving member should be about two thirds of the nail length, and the nail should not protrude on the far side. For 50 mm boarding into a 50 mm joist, 75 to 90 mm is typical.",
+            "zh": "经验法则是钉子进入承托构件的深度约为钉长的三分之二，钉尖不能从背面穿出。例如把 50 毫米厚的板材钉到 50 毫米厚的木方上，通常选 75 至 90 毫米的钉子。具体长度还要结合木材密度、边距和接缝移动复核，不能替代结构设计计算。"
           }
         },
         {
           "q": {
-            "en": "Which finish and packing should I order?"
+            "en": "Which finish and packing should I order?",
+            "zh": "表面处理和包装怎么选？"
           },
           "a": {
-            "en": "Bright for interior work, electro-galvanised for sheltered exterior, hot-dip galvanised for coastal and preservative-treated timber. Packing is normally 25 kg cartons on pallets, so confirm carton count per pallet for container planning."
+            "en": "Bright for interior work, electro-galvanised for sheltered exterior, hot-dip galvanised for coastal and preservative-treated timber. Packing is normally 25 kg cartons on pallets, so confirm carton count per pallet for container planning.",
+            "zh": "室内作业用亮面钉；有遮蔽的室外用电镀锌钉；沿海环境和经过防腐药剂处理的木材用热浸镀锌（HDG）钉。包装通常为 25 公斤纸箱、再码成托盘；做集装箱配载前要先确认每托盘的纸箱数量，并核对报价里的 25 公斤是钉子净重还是纸箱毛重。"
           }
         }
       ]
