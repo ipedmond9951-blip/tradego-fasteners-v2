@@ -35,6 +35,7 @@ def main():
     ap.add_argument("patch")
     ap.add_argument("--lang", default="zh", choices=["zh", "en"])
     ap.add_argument("--target", type=int, default=0, help="达到该计数即视为过线，仅用于回显提示")
+    ap.add_argument("--skip-faq", action="store_true", help="跳过 FAQ 小节，正文追加到最后一个非 FAQ 小节")
     args = ap.parse_args()
 
     patch = json.load(open(args.patch, encoding="utf-8"))
@@ -54,6 +55,12 @@ def main():
             print(f"{slug} skip")
             continue
         idx = [i for i, s in enumerate(sections) if (s.get("body") or {}).get(args.lang)]
+        if args.skip_faq:
+            idx = [
+                i for i in idx
+                if not (sections[i].get("id") == "faq"
+                        or "frequently asked question" in ((sections[i].get("heading") or {}).get("en", "") or "").lower())
+            ]
         if not idx:
             print(f"{slug} 没有可追加的 section", file=sys.stderr)
             continue
