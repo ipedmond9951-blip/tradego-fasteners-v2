@@ -194,42 +194,52 @@
    "faqItems": [
     {
      "q": {
-      "en": "Can I use stainless steel fasteners with carbon steel parts?"
+      "en": "Can I use stainless steel fasteners with carbon steel parts?",
+      "zh": "不锈钢紧固件能和碳钢零件配在一起吗？"
      },
      "a": {
-      "en": "Yes, but be aware of galvanic corrosion when dissimilar metals are joined in presence of moisture. The less noble metal (carbon steel) will corrode faster. Using stainless steel throughout the connection is preferred for critical applications."
+      "en": "Yes, but be aware of galvanic corrosion when dissimilar metals are joined in presence of moisture. The less noble metal (carbon steel) will corrode faster. Using stainless steel throughout the connection is preferred for critical applications.",
+      "zh": "可以，但要注意电偶腐蚀：不同金属在有水分的环境中接触时，活性较低的金属（碳钢）会先被腐蚀。关键场合建议整个连接副都采用不锈钢，避免两种材质直接接触。"
      }
     },
     {
      "q": {
-      "en": "What's the difference between 304 and 316 stainless?"
+      "en": "What's the difference between 304 and 316 stainless?",
+      "zh": "304 与 316 不锈钢有什么区别？"
      },
      "a": {
-      "en": "316 contains molybdenum which significantly improves chloride corrosion resistance. For marine/coastal applications, 316 is essential. For inland applications, 304 provides excellent corrosion resistance at lower cost."
+      "en": "316 contains molybdenum which significantly improves chloride corrosion resistance. For marine/coastal applications, 316 is essential. For inland applications, 304 provides excellent corrosion resistance at lower cost.",
+      "zh": "316 含钼，抗氯离子腐蚀能力明显更强。海洋或沿海场合必须用 316；内陆场合用 304 即可，耐腐蚀表现良好且成本更低。"
      }
     },
     {
      "q": {
-      "en": "How do I know if a fastener is strong enough?"
+      "en": "How do I know if a fastener is strong enough?",
+      "zh": "怎么判断紧固件强度够不够？"
      },
      "a": {
-      "en": "Check the grade marking. Higher grades (8.8, 10.9, 12.9 for carbon steel) indicate higher strength. For critical applications, consult a structural engineer."
+      "en": "Check the grade marking. Higher grades (8.8, 10.9, 12.9 for carbon steel) indicate higher strength. For critical applications, consult a structural engineer.",
+      "zh": "看等级标记。碳钢常用 8.8、10.9、12.9 级，等级越高强度越大。关键受力场合应请结构工程师复核，不能只凭外观判断承载能力。"
      }
     },
     {
      "q": {
-      "en": "Can I mix fastener grades in the same assembly?"
+      "en": "Can I mix fastener grades in the same assembly?",
+      "zh": "同一组连接件能混用不同等级吗？"
      },
      "a": {
-      "en": "It's generally acceptable if all fasteners meet or exceed the minimum strength requirement. However, for critical structural applications, use consistent grades throughout."
+      "en": "It's generally acceptable if all fasteners meet or exceed the minimum strength requirement. However, for critical structural applications, use consistent grades throughout.",
+      "zh": "一般情况下可以，前提是所有紧固件都达到或超过最低强度要求。但关键结构场合应整组采用一致的等级，避免强弱件混装。"
      }
     },
     {
      "q": {
-      "en": "What's the best coating for outdoor African conditions?"
+      "en": "What's the best coating for outdoor African conditions?",
+      "zh": "非洲户外环境最适合什么涂层？"
      },
      "a": {
-      "en": "Hot-dip galvanizing provides excellent long-term protection for most outdoor applications. In highly corrosive environments (coastal, mining), stainless steel or specialized coatings like Dacromet are recommended."
+      "en": "Hot-dip galvanizing provides excellent long-term protection for most outdoor applications. In highly corrosive environments (coastal, mining), stainless steel or specialized coatings like Dacromet are recommended.",
+      "zh": "热浸镀锌（HDG）对多数户外场合能提供长期防护。高腐蚀环境（沿海、矿山）建议直接用不锈钢，或达克罗（Zn-Al 涂层）等专用涂层。"
      }
     }
    ]
