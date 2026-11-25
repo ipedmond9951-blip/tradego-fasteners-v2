@@ -100,6 +100,13 @@ def main():
             # 3) 英文页必须有结构化数据
             if loc == "en" and q_count == 0:
                 problems.append(f"en/{art['slug']}: 无 FAQPage 条目")
+            # 4) 有问答就必须有 FAQPage（避免只渲染折叠块、结构化数据丢了）
+            if q_count > 0 and '"@type":"FAQPage"' not in html and "@type&quot;:&quot;FAQPage" not in html:
+                problems.append(f"{loc}/{art['slug']}: 有问答但缺 FAQPage 结构化数据")
+            # 5) FAQ 小节正文的英文副本泄漏：以前 section.body 会整段回退英文，
+            #    抽检只查问句抓不到这一层；现在改成渲染层本地化引导语，这里守回归。
+            if loc != "en" and "See frequently asked questions below" in html:
+                problems.append(f"{loc}/{art['slug']}: FAQ 正文回退了英文原文")
 
     if not a.quiet:
         print(f"🔎 多语种渲染抽检：{len(sample)} 篇 × {len(LOCALES)} 语种 = {checked} 个页面")
