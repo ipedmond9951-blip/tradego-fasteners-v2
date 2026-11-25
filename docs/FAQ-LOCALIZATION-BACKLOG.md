@@ -355,3 +355,11 @@ GEO 和 SEO 的差别在于：SEO 求「被爬到、被排上」，GEO 求「被
 - **无源统计数字**：新增 `scripts/check-unsourced-stats.py`（默认只报告）。全库 198 篇有统计型数字 **1578 处无来源**（占 1743 处的 90%）。其中风险最高的是"市场规模/年增速/需求量预测"，`scripts/oneoff-stats-batch1.py` 把 9 处**完全无出处**的预测改成结构表述（"由项目清单、招标文件、进口记录决定"），带明确出处（6wResearch / AfDB / `[1]` 引用）的原样保留。改完 BLOCK 仍为 0。
 - **判断口径**：`MPa / HV / µm / mm / TPI / °C` 这类工程限值不算"统计数字"，不参与无源判定——否则把标准参数也当谣言删，反而伤内容。
 
+
+### 品牌实体与认证口径：两次「看似简单实则三层坑」
+
+- **品牌写法统一**：全库实测不是策略里记的 148 处，而是 **185 处 / 7 篇**（`Tradego` 小写最普遍，另有 `Tradego-Fasteners` 7 处、`TradeGoFasteners` 1 处连写）。`Organization` 是 `TradeGo Fasteners`，同一实体多种写法会让 AI 引擎归不了档，属于 GEO 实体一致性问题。新增 `scripts/fix-brand-case.py`。
+- 三个坑：①`re.I` 会把正确的 `TradeGo Fasteners` 一起匹配（dry-run 虚报 2216 处），必须大小写敏感；②`\b` 在 CJK 紧邻时不算词界（`ーTradego`），要用 ASCII 边界 `(?<![A-Za-z])…(?![A-Za-z])`；③**URL 保护不能"整段跳过"**——`href=` 与正文常在同一空白 token 串里，整段跳过会漏改，要按空白切成 token 逐个判（含 `://` `/en/` `href=` `src=` `tradego-fasteners.com` 的 token 才跳过）。收尾后残留 0。
+- **认证体检**：`check-claims.py` 的 CERT 正则只认 `TradeGo … certified` 这种顺序，抓不到 `Certificado ISO 9001` / `ISO認証取得` 这类倒装。新增 `scripts/check-cert-claims.py`：先用"认证词 + 标准号"扫全库得 **3755 条**（全是主题词噪音），改成 **11 语种"自称持有"句式模板 + 允许写法白名单**（按订单/as requested/按标准生产/aligned）后降到 **38 条**，其中句子主语是 `TradeGo` 的只有 **2 条**，真需改 1 条（`offering ISO 898-1 certified concrete screws` → `produced to ISO 898-1 mechanical property requirements`）。
+- **标题与内容错配也是一种合规风险**：`china-iso-9001-fastener-manufacturer-directory` 标题承诺"名录"，正文其实是选购指南、没有名录，且标题暗示"已通过 ISO 9001 的厂商"；改成 `China Fastener Quality Systems: ISO 9001 Guide 2026`（51 字符），既贴内容又不越认证红线。
+- **口径**：认证类表述只允许两种写法——"按 SABS 1195 / DIN / ISO 生产"或"证书按订单要求提供"；产品级不得写 `certified`。
