@@ -371,3 +371,11 @@ GEO 和 SEO 的差别在于：SEO 求「被爬到、被排上」，GEO 求「被
 - 三个坑：① `SENT` 若用 `(?<=[.!?])\s+` 会把句子间的空白一起吃掉，删句后变成 `suppliers.This article` 粘连，必须用**前瞻 `(?=\s)`** 只切不吞；② 句子删掉会留下空 `<p></p>`，要再跑一遍「空块清理」（`<(p|div|section)[^>]*>(?:\s|<br\s*/?>)*</\1>`）；③ 批量去重会让 `body-size` WARN 上涨——脚本加**词数回退护栏**（原本 ≥1600 词的英文正文删到 1600 以下就整篇跳过），否则"去重"变成"制造薄页"。
 - **并发下的提交纪律**：改完先做「只删不加」校验（新文本里每个句子都能在 HEAD 文本里找到），筛出**纯删除**的 93 篇单独提交；另外 31 篇同时有别的线在写，留给对方提交，不去抢。
 - 效果：`check-geo-readiness` 均分 86.0→**86.9**、85 分以上 196→**199** 篇、`dup` 缺口 144→**134**；`content_gate` BLOCK 仍为 **0**，没有一篇因去重掉到门槛以下。
+
+### 孤儿页补入站内链：先卡「产品名词重叠」，再谈自动挂
+
+- 孤儿定义：全库没有任何一篇的 `relatedArticles` 指向它（只能靠 sitemap 被发现）。起点 **30 篇**。
+- 新增 `scripts/link-orphans.py`：同 category 加分、关键词重叠打分，给每篇孤儿追加到 ≤6 条的宿主，宿主文件有未提交改动则跳过（fail-closed）。**必须要求共享词里含至少一个产品名词**（screws / bolts / nuts / washers / anchors / rods / coating …），否则「construction / buyers / lead」这种泛词会让 `nigeria-port-upgrades` 挂到 `flat-washers` 下面，等于自己造垃圾内链。
+- 两轮下来孤儿 **30 → 20**（19 条入站链，只改 `relatedArticles`，正文与标题零改动，逐篇 diff 核过）。
+- **数据契约坑**：`keywords` 字段在不同篇里是**字符串**或**数组**两种形态（`agrifastener-water-infrastructure` 是字符串）。按 list 处理会静默丢词，匹配率虚低（第一轮只找到 9 条，修正后同条件找到 19 条）。
+- 剩下 20 篇不再自动挂：候选宿主的"共享词"多为模板样板词（control / inspection / third party / shipment / standards），自动挂会造出 `railway-track` 挂到 `rural-electrification` 这种明显错的链接。已出 `docs/orphan-backlog-2026-1125.csv`（17 篇给候选宿主待人工确认、3 篇无可信候选 → 重写或评估下线）。
