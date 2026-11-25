@@ -269,7 +269,6 @@
       "es": "Obtener Precios de Sujetadores Roscados",
       "ar": "احصل على أسعار المثبتات الملولبة",
       "fr": "Obtenir les Prix des Fixations Filetées",
-      "pt": "Get Threaded Fastener Prices",
       "ru": "Получить цены на резьбовой крепеж",
       "ja": "ねじ付きファスナーの価格を取得する",
       "de": "Preise für Gewindeverbindungselemente anfordern",
@@ -277,15 +276,7 @@
     },
     "buttonText": {
       "en": "Request Quote",
-      "zh": "申请报价",
-      "es": "Request Quote",
-      "ar": "Request Quote",
-      "fr": "Request Quote",
-      "pt": "Request Quote",
-      "ru": "Request Quote",
-      "ja": "Request Quote",
-      "de": "Request Quote",
-      "hi": "Request Quote"
+      "zh": "申请报价"
     },
     "link": "/product-upload"
   },

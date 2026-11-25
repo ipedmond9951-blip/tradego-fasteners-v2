@@ -303,27 +303,11 @@
   "cta": {
     "text": {
       "en": "Need {topic} for your B2B project? TradeGo supplies ISO/EN/ASTM certified fasteners with full documentation and factory-direct pricing.",
-      "zh": "B2B 项目需要{topic}? TradeGo 提供 ISO/EN/ASTM 认证紧固件, 全套文件, 工厂直供价格。",
-      "es": "¿Necesita {topic} para su proyecto B2B? TradeGo suministra sujetadores certificados ISO/EN/ASTM con documentación completa y precios directos de fábrica.",
-      "ar": "هل تحتاج {topic} لمشروع B2B الخاص بك؟ تزود TradeGo مثبتات معتمدة من ISO/EN/ASTM مع وثائق كاملة وأسعار مباشرة من المصنع.",
-      "fr": "Besoin de {topic} pour votre projet B2B ? TradeGo approvisionne des fixations certifiées ISO/EN/ASTM avec documentation complète et prix d'usine direct.",
-      "pt": "Precisa de {topic} para seu projeto B2B? A TradeGo fornece fixadores certificados ISO/EN/ASTM com documentação completa e preços diretos de fábrica.",
-      "ru": "Нужен {topic} для вашего B2B проекта? TradeGo поставляет крепёжные изделия, сертифицированные по ISO/EN/ASTM, с полной документацией и ценами напрямую от производителя.",
-      "ja": "あなたのB2Bプロジェクトに{t.topic}が必要ですか？TradeGoはISO/EN/ASTM認定ファスナーを完全な文書と工場直接価格で供給します。",
-      "de": "Benötigen Sie {topic} für Ihr B2B-Projekt? TradeGo liefert ISO/EN/ASTM zertifizierte Befestigungsmittel mit vollständiger Dokumentation und Werk direktpreisen.",
-      "hi": "अपनी B2B परियोजना के लिए {topic} की आवश्यकता है? TradeGo पूर्ण प्रलेखन और फैक्ट्री-डायरेक्ट मूल्य निर्धारण के साथ ISO/EN/ASTM प्रमाणित फास्टनरों की आपूर्ति करता है।"
+      "ja": "あなたのB2Bプロジェクトに{t.topic}が必要ですか？TradeGoはISO/EN/ASTM認定ファスナーを完全な文書と工場直接価格で供給します。"
     },
     "buttonText": {
       "en": "Request Quote",
-      "zh": "询价",
-      "es": "Request Quote",
-      "ar": "Request Quote",
-      "fr": "Request Quote",
-      "pt": "Request Quote",
-      "ru": "Request Quote",
-      "ja": "Request Quote",
-      "de": "Request Quote",
-      "hi": "Request Quote"
+      "zh": "询价"
     },
     "link": "/contact"
   },
