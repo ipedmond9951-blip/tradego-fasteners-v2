@@ -216,26 +216,32 @@
    "faqItems": [
     {
      "q": {
-      "en": "What's the difference between TEK screws and self-drilling screws?"
+      "en": "What's the difference between TEK screws and self-drilling screws?",
+      "zh": "TEK 螺钉和自钻螺钉有什么区别？"
      },
      "a": {
-      "en": "TEK is a brand name for self-drilling screws (originally from Textron). All TEK screws are self-drilling, but 'self-drilling' is the generic term. TEK screws come in different drill point sizes (#3, #4, #5, #6). When buying TEK screws, always specify the drill point number — a #3 TEK cannot drill through the same thickness as a #5."
+      "en": "TEK is a brand name for self-drilling screws (originally from Textron). All TEK screws are self-drilling, but 'self-drilling' is the generic term. TEK screws come in different drill point sizes (#3, #4, #5, #6). When buying TEK screws, always specify the drill point number — a #3 TEK cannot drill through the same thickness as a #5.",
+      "zh": "TEK 是 Textron 旗下自钻螺钉的品牌名，所有 TEK 螺钉都是自钻螺钉，而“自钻”是通用术语。TEK 螺钉有不同钻尖编号（#3、#4、#5、#6），采购时必须注明钻尖编号：#3 能钻穿的板厚不及 #5。"
      }
     },
     {
      "q": {
-      "en": "Why do roofing screws leak despite having washers?"
+      "en": "Why do roofing screws leak despite having washers?",
+      "zh": "屋面螺钉带垫圈为什么还会漏水？"
      },
      "a": {
-      "en": "The most common causes of leaking roofing screws: incorrect screw driven at an angle — the EPDM washer is compressed unevenly and leaks; over-driven screw — the washer is crushed and displaced; under-driven screw — the washer is not compressed enough and gaps remain; wrong washer material for the temperature range (EPDM hardens in cold); using carbon steel screws on aluminum roofing causing galvanic reaction that corrodes the screw and creates a leak path. Always use stainless steel screws with aluminum and coated steel roofing in coastal areas."
+      "en": "The most common causes of leaking roofing screws: incorrect screw driven at an angle — the EPDM washer is compressed unevenly and leaks; over-driven screw — the washer is crushed and displaced; under-driven screw — the washer is not compressed enough and gaps remain; wrong washer material for the temperature range (EPDM hardens in cold); using carbon steel screws on aluminum roofing causing galvanic reaction that corrodes the screw and creates a leak path. Always use stainless steel screws with aluminum and coated steel roofing in coastal areas.",
+      "zh": "常见原因有五种：螺钉斜打导致 EPDM 垫圈受压不均；拧得过紧把垫圈压溃移位；拧得过松垫圈未压紧、留有缝隙；垫圈材料与温度范围不匹配（EPDM 在低温下变硬）；在铝屋面上用碳钢螺钉产生电化学反应，腐蚀螺钉并形成渗漏通道。沿海地区与铝材、涂层钢板屋面配合时应使用不锈钢螺钉。"
      }
     },
     {
      "q": {
-      "en": "Can self-tapping screws be used in wood?"
+      "en": "Can self-tapping screws be used in wood?",
+      "zh": "自攻螺钉能拧进木材吗？"
      },
      "a": {
-      "en": "Yes, but wood screws are generally better for wood. Self-tapping sheet metal screws can be driven into wood for light-duty fastening (e.g., attaching sheet metal to wooden battens), but their threads are designed for sheet metal, not wood fiber engagement. For wood-to-wood or wood-to-metal connections where significant withdrawal resistance is needed, use proper wood screws or structural screws instead."
+      "en": "Yes, but wood screws are generally better for wood. Self-tapping sheet metal screws can be driven into wood for light-duty fastening (e.g., attaching sheet metal to wooden battens), but their threads are designed for sheet metal, not wood fiber engagement. For wood-to-wood or wood-to-metal connections where significant withdrawal resistance is needed, use proper wood screws or structural screws instead.",
+      "zh": "可以，但木连接一般用木螺钉更合适。钣金自攻螺钉可用于轻载固定（例如把薄板固定到木龙骨上），但其螺纹是为钣金设计的，不是咬住木纤维。需要较大抗拔力的木对木或木对金属连接，应改用专用木螺钉或结构螺钉。"
      }
     }
    ],
