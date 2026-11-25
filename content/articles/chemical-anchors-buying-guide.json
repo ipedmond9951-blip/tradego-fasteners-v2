@@ -237,26 +237,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "How does temperature affect cure time?"
+            "en": "How does temperature affect cure time?",
+            "zh": "温度如何影响固化时间？"
           },
           "a": {
-            "en": "Cure time is a function of substrate temperature: warm concrete sets the resin faster, cold concrete much slower, and near freezing some systems stop curing altogether. Read the cure chart for the actual site temperature, not the laboratory figure."
+            "en": "Cure time is a function of substrate temperature: warm concrete sets the resin faster, cold concrete much slower, and near freezing some systems stop curing altogether. Read the cure chart for the actual site temperature, not the laboratory figure.",
+            "zh": "固化时间由基材温度决定：混凝土温度高，树脂固化快；温度低则明显放慢；接近冰点时，部分体系会完全停止固化。查表要用现场实测温度，不能照搬实验室数据。"
           }
         },
         {
           "q": {
-            "en": "How should the hole be prepared?"
+            "en": "How should the hole be prepared?",
+            "zh": "孔道应该怎么处理？"
           },
           "a": {
-            "en": "Drill to the specified diameter and depth, then brush and blow out the hole in repeated cycles until dust stops coming out. Residual dust is the single biggest cause of low chemical anchor loads."
+            "en": "Drill to the specified diameter and depth, then brush and blow out the hole in repeated cycles until dust stops coming out. Residual dust is the single biggest cause of low chemical anchor loads.",
+            "zh": "按规定的直径和深度钻孔，然后用毛刷和吹气交替反复清孔，直到不再有粉尘吹出。残留粉尘是化学锚栓承载力偏低最常见的原因。"
           }
         },
         {
           "q": {
-            "en": "When is a chemical anchor the wrong choice?"
+            "en": "When is a chemical anchor the wrong choice?",
+            "zh": "什么情况下不该选化学锚栓？"
           },
           "a": {
-            "en": "In hollow block, in continuously wet or flooded holes outside the system's rating, and where the substrate temperature falls outside the published range. In those cases a mechanical anchor or a redesign is safer than a bigger dose of resin."
+            "en": "In hollow block, in continuously wet or flooded holes outside the system's rating, and where the substrate temperature falls outside the published range. In those cases a mechanical anchor or a redesign is safer than a bigger dose of resin.",
+            "zh": "空心砌块、长期浸水或积水的孔洞（超出体系适用范围）、以及基材温度落在标称区间之外时，都不适合。这几种情况改用机械锚栓或重新设计，比单纯加大树脂用量更稳妥。"
           }
         }
       ]
