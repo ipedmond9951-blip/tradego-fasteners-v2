@@ -262,26 +262,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "Which collation angle fits my nailer?"
+            "en": "Which collation angle fits my nailer?",
+            "zh": "钉排角度怎么选？"
           },
           "a": {
-            "en": "15 degrees fits most framing nailers, 21 degrees many European tools and 28 degrees roofing and siding tools. The angle must match the magazine, so confirm the tool model before ordering."
+            "en": "15 degrees fits most framing nailers, 21 degrees many European tools and 28 degrees roofing and siding tools. The angle must match the magazine, so confirm the tool model before ordering.",
+            "zh": "15 度适配大部分框架钉枪，21 度适配多款欧洲工具，28 度用于屋面和墙板钉枪。角度必须与钉匣匹配，订货前先核对钉枪型号。"
           }
         },
         {
           "q": {
-            "en": "Ring shank or smooth shank?"
+            "en": "Ring shank or smooth shank?",
+            "zh": "环纹钉还是光身钉？"
           },
           "a": {
-            "en": "Ring shank for pallets, crates and anything that must resist withdrawal. Smooth shank for framing where driving speed and minimal surface damage matter more than pull-out."
+            "en": "Ring shank for pallets, crates and anything that must resist withdrawal. Smooth shank for framing where driving speed and minimal surface damage matter more than pull-out.",
+            "zh": "托盘、木箱以及任何需要抵抗拔出力的场合选环纹钉；框架施工更看重打钉速度和尽量小的表面损伤，光身钉即可。"
           }
         },
         {
           "q": {
-            "en": "Which coating for African coastal sites?"
+            "en": "Which coating for African coastal sites?",
+            "zh": "非洲沿海工地选什么涂层？"
           },
           "a": {
-            "en": "Hot-dip galvanised or stainless for coastal and preservative-treated timber. Bright or thin electro-zinc is for interior, dry service only."
+            "en": "Hot-dip galvanised or stainless for coastal and preservative-treated timber. Bright or thin electro-zinc is for interior, dry service only.",
+            "zh": "沿海地区和经防腐处理的木材，用热浸镀锌（HDG）或不锈钢；本色裸钉或薄电镀锌只适合室内干燥环境。"
           }
         }
       ]
