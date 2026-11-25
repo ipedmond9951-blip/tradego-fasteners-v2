@@ -80,3 +80,5 @@ python3 scripts/content_gate.py --slug X # 单篇
 ```
 
 技能文件在平台侧可能被还原，仓库内留了副本 `docs/skills/seo-ai-pipeline.SKILL.md`，恢复时直接覆盖回去即可。
+
+<!-- deploy trigger: FAQ 渲染修复上线 2026-11-25 -->
