@@ -17,7 +17,8 @@
     "content:contract:backlog": "python3 scripts/content_contract_backlog.py",
     "content:gate": "python3 scripts/content_gate.py",
     "content:gate:brief": "python3 scripts/content_gate.py --brief",
-    "content:append": "python3 scripts/append_body.py"
+    "content:append": "python3 scripts/append_body.py",
+    "content:selftest": "python3 scripts/contract_selftest.py"
   },
   "dependencies": {
     "@google-analytics/data": "^5.2.2",

@@ -18,6 +18,12 @@ if [ "$N_CONTENT" -gt 20 ]; then
   echo "$DATE | bulk-commit $N_CONTENT/$N_ALL | $(git log -1 --format=%s 2>/dev/null || echo '-')" >> logs/vercel-bulk-commit.log 2>/dev/null || true
 fi
 
+# ── 校验器自检（4 个反向用例）：防止并线写坏脚本后"全库干净"的假通过 ──────────
+python3 scripts/contract_selftest.py --quiet >/tmp/cc-selftest.log 2>&1 || {
+  echo "❌ 内容契约校验器自检未通过，先修脚本（详见 /tmp/cc-selftest.log）"
+  exit 1
+}
+
 # ── 内容契约门禁（只校验本次改动的文章，只拦基线之外的新增问题）────────────
 # 全量报告：python3 scripts/content_contract.py
 # 重刷基线：python3 scripts/content_contract.py --write-baseline content/contract-baseline.json

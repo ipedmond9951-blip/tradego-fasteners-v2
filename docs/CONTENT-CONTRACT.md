@@ -106,3 +106,4 @@ python3 scripts/content_gate.py --slug X # 单篇
 7. **提交分批。** 单次 161 个文件的提交会触发批量改动告警，也容易卷进别处窗口的半个改动。
 
 对应工具：`scripts/content_contract.py`（含 `encoding`）、`scripts/append_body.py`（新增）、`scripts/vercel-promote.sh`、`scripts/vercel-prune.sh`。
+8. **校验器本身会被"写坏"，而且坏得很安静。** 一次并线把认证检查插进 `except` 分支、后面紧跟 `return`，其余检查全成死代码：脚本正常退出、全库显示"完全干净 272 篇"，实际什么都没查。现在加了 `scripts/contract_selftest.py`（4 个反向用例：占位句/undefined/日期倒挂/乱码必须被抓）并挂进 `pre-commit`，脚本被写坏时提交直接拦下。**经验：任何一个"全绿"的结论，先确认它是不是还在检查。**

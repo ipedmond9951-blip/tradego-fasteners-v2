@@ -69,7 +69,7 @@ MIN_FAQ_ANSWER = 80
 # 文案只能写"按 X 尺寸标准生产""认证可按订单申请办理"，不得写成已有资质。
 # 这里拦两类：①第一人称自称已认证 ②把"认证 + 工厂/供应商"当成自有资质讲。
 CERT_CLAIM_PATTERNS = [
-    re.compile(r"(?:we|our\s+(?:factory|plant|company|mill|production)|TradeGo)[^.]{0,40}(?:ISO\s?9001|SABS|CE)\s*(?:-|\s|:)?\s*(?:certified|approved|認証|认证|認證|certificat[oe]s?|zertifiziert|प्रमाणित|معتمد|сертифиц\w*)", re.I),
+    re.compile(r"\b(?:we|our\s+(?:factory|plant|company|mill|production)|TradeGo)\b[^.]{0,40}(?:ISO\s?9001|SABS|CE)\s*(?:-|\s|:)?\s*(?:certified|approved|認証|认证|認證|certificat[oe]s?|zertifiziert|प्रमाणित|معتمد|сертифиц\w*)", re.I),
     re.compile(r"(?:ISO\s?9001|SABS|CE)[^.]{0,20}(?:certified|认证|認証)\s*(?:factory|manufacturer|supplier|plant|厂家|工厂|供应商|工場|usine|fábrica|завод|مصنع)", re.I),
 ]
 CERT_ALLOW_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "content", "cert-claim-allowlist.json")
@@ -218,37 +218,40 @@ def check_article(path, project_dir):
             d = json.load(f)
     except Exception as e:
         issues.b("json", f"JSON 解析失败: {e}")
-        # 10. 认证断言：不得写成"已有资质"
-    allow = cert_allow_slugs()
-    for path, text in walk_leaves(d):
-        if not isinstance(text, str):
-            continue
-        for pat in CERT_CLAIM_PATTERNS:
-            m = pat.search(text)
-            if not m:
-                continue
-            msg = f"{path} 出现已持有认证的断言: '{m.group(0)[:60]}'"
-            if slug_file in allow:
-                issues.w("cert-claim", "[存量] " + msg)
-            else:
-                issues.b("cert-claim", msg)
-            break
-
-    return slug_file, issues, False
+        return slug_file, issues, False
 
     # 0. 重定向存根：只剩跳转信息，不参与内容契约
     if norm(d.get("redirectTo", "")):
         return slug_file, issues, True
 
-    # 0.1 编码完整性：U+FFFD 替换字符说明批量写入时已丢字，页面直接显示乱码
+    # 0.1 编码完整性：U+FFFD 是批量写入丢字的物证，json 合法但页面显示乱码
     try:
         with open(path, encoding="utf-8") as f:
             raw = f.read()
     except Exception:
         raw = ""
     if "\ufffd" in raw:
-        n_bad = raw.count("\ufffd")
-        issues.b("encoding", f"U+FFFD 乱码字符 {n_bad} 处（批量写坏，需按上下文修回）")
+        issues.b("encoding", f"U+FFFD 乱码字符 {raw.count(chr(0xFFFD))} 处（批量写坏，需按上下文修回）")
+
+    # 0.2 认证断言：不得写成"已有资质"；存量记 allowlist 降级 WARN
+    allow = cert_allow_slugs()
+    cert_hit = False
+    for leaf, text in walk_leaves(d):
+        if not isinstance(text, str):
+            continue
+        for pat in CERT_CLAIM_PATTERNS:
+            m = pat.search(text)
+            if not m:
+                continue
+            msg = f"{leaf} 出现已持有认证的断言: '{m.group(0)[:60]}'"
+            if slug_file in allow:
+                issues.w("cert-claim", "[存量] " + msg)
+            else:
+                issues.b("cert-claim", msg)
+            cert_hit = True
+            break
+        if cert_hit:
+            break
 
     # 1. 结构 & slug
     if norm(d.get("slug", "")) != slug_file:
