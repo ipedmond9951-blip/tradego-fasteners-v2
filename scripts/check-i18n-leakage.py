@@ -15,6 +15,10 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LANGS = ["zh", "es", "fr", "pt", "ar", "ru", "ja", "de", "hi"]
 STRICT = "--strict" in sys.argv
 LISTS = "--fix-list" in sys.argv
+PATHS = []
+if "--paths" in sys.argv:
+    PATHS = [x.strip() for x in sys.argv[sys.argv.index("--paths") + 1].split(",") if x.strip()]
+QUIET = "--quiet" in sys.argv
 
 CJK = re.compile(r"[ぁ-んァ-ヶ一-龠]")
 ARABIC = re.compile(r"[\u0600-\u06FF]")
@@ -55,7 +59,8 @@ def scan(path):
                         out[lang] += 1
     return out
 
-files = [f for f in glob.glob(os.path.join(ROOT, "content/articles/*.json"))]
+files = (PATHS if PATHS
+         else sorted(glob.glob(os.path.join(ROOT, "content/articles/*.json"))))
 total = {}
 bad_files = []
 for f in files:
@@ -64,6 +69,16 @@ for f in files:
         bad_files.append((os.path.basename(f), sum(r.values())))
         for k, v in r.items():
             total[k] = total.get(k, 0) + v
+
+if PATHS and STRICT:
+    # 定向模式：只报"这次动过的文章"里还剩多少泄漏，给 content_gate 当硬闸门用
+    for f in files:
+        r = scan(f) or {}
+        n = sum(r.values())
+        if n:
+            print(f"⛔ i18n 泄漏 {os.path.basename(f)[:-5]}: " +
+                  " ".join(f"{k}={v}" for k, v in sorted(r.items())))
+    sys.exit(1 if total else 0)
 
 print("扫描文章:", len(files))
 if total:

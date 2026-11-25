@@ -48,3 +48,11 @@
 ## 已修样例
 
 - `drywall-screws-complete-guide`：ja/zh 已补原生译文（2026-11-25），其余 8 语种待补
+
+## 工具与执行（2026-11-25）
+
+- **字段真相**：页面渲染读 `faqItems[].q/a`（`localizedText(item.q, locale)`），`question/answer` 是历史空壳（700 条里有 5 条 q/a 本身全空，会渲染成空折叠块，已顺手清掉）。翻译只往 `q/a` 写。
+- **批量器** `scripts/faq-l10n-batch.py`：按泄漏条数选篇 → 每篇每语种一次调用 → 术语表约束（石膏ボード/下地/根太、石膏板螺钉/龙骨/托梁）→ 严格校验"条数=输入、q/a 非空"，不合格重试一次后跳过；进度落 `logs/faq-l10n-progress.json`，可断点续跑。`--dry-run` 只统计不落盘。
+- **后台磨工** `scripts/faq-l10n-daemon.sh` + launchd `com.tradego.faq-l10n`（600 秒一次，默认每轮 3 篇 × 9 语种）。通道是免费池限额，只能小步慢跑；通道全忙时脚本 exit 3 不落盘，等下一轮。
+- **定向闸门**：`content_gate.py` 新增 i18n 检查——给了 `--slug` 就查这篇，否则查 `origin/main..HEAD` 里改过的 article；命中泄漏即 exit 1。存量 169 篇不堵全站，只保证"新改的文章不再带英文原文"。
+- **通道实测**：zai 撞 429 冷却 15 分钟；grok-4.3 每 10 分钟 3 次、每天 60 次；openrouter 直连 401 不可用。按 8 次/10 分钟、每次 12 条估算 ≈ 3000 条/天，9000 条约 3 天磨完。

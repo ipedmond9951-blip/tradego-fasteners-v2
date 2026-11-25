@@ -58,7 +58,11 @@ def translate(lang, items):
 只输出 JSON 数组，形如 [{{"q":"...","a":"..."}}]，条数和顺序与输入一致，不要任何解释。
 输入：{json.dumps(payload, ensure_ascii=False)}"""
     for attempt in range(2):
-        out = llm_client.generate(prompt)
+        try:
+            out = llm_client.generate(prompt)
+        except Exception as e:
+            print(f"  [通道忙] {str(e)[:60]}", file=sys.stderr)
+            return None
         m = re.search(r"\[[\s\S]*\]", out)
         if not m:
             time.sleep(2); continue
@@ -109,7 +113,7 @@ def main():
         cand.sort(reverse=True)
         files = [f for _, f in cand][: a.batch]
 
-    done_slugs, wrote = [], 0
+    done_slugs, wrote, fails = [], 0, 0
     for f in files:
         slug = os.path.basename(f)[:-5]
         d = json.load(open(f))
@@ -124,6 +128,7 @@ def main():
                     print(f"[dry] {slug} {lang} 待译 {len(todo)} 条"); continue
                 arr = translate(lang, todo)
                 if not arr:
+                    fails += 1
                     print(f"⚠️  {slug} {lang} 翻译失败（跳过，下次重试）"); continue
                 for it, t in zip(todo, arr):
                     it["q"][lang] = str(t["q"]).strip()
@@ -137,6 +142,9 @@ def main():
             done_slugs.append(slug)
             prog.setdefault("done", {})[slug] = {"langs": langs, "at": time.strftime("%F %T")}
             save_progress(prog)
+    if fails and not wrote:
+        print(f"\n通道不可用（{fails} 次失败），本批未落盘，稍后重试")
+        sys.exit(3)
     print(f"\n完成文章 {wrote} 篇：{', '.join(done_slugs) if done_slugs else '-'}")
 
 if __name__ == "__main__":

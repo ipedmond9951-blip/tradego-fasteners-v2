@@ -7,6 +7,7 @@
   python3 scripts/content_gate.py --fix      # 先跑安全修复（meta/extract/date/image），再体检
   python3 scripts/content_gate.py --slug X   # 只看一篇
 """
+import glob
 import json
 import os
 import signal
@@ -26,6 +27,26 @@ REPORT = os.path.join(ROOT, "logs", "content-contract-latest.json")
 def run(args, capture=True):
     return subprocess.run([sys.executable] + args, cwd=ROOT, text=True,
                           capture_output=capture)
+
+
+def i18n_gate(slug=None):
+    """只查"本次动过的文章"：删掉英文原文泄漏，别让新文章继续复制 en。
+    存量 169 篇的欠账走 docs/FAQ-LOCALIZATION-BACKLOG.md 批量清，不在这里堵全站。"""
+    args = ["scripts/check-i18n-leakage.py", "--strict", "--quiet"]
+    if slug:
+        p = os.path.join(ROOT, "content/articles", f"{slug}.json")
+        if not os.path.exists(p):
+            return None
+        args += ["--paths", p]
+    else:
+        changed = run(["git", "diff", "--name-only", "origin/main", "--", "content/articles"])
+        files = [os.path.join(ROOT, f.strip()) for f in (changed.stdout or "").splitlines() if f.strip()]
+        files = [f for f in files if os.path.exists(f)]
+        if not files:
+            return None
+        args += ["--paths", ",".join(files)]
+    r = run(args)
+    return r
 
 
 def main():
@@ -54,6 +75,12 @@ def main():
     r = check()
     out = (r.stdout or "") + (r.stderr or "")
     code = r.returncode
+
+    ig = i18n_gate(slug)
+    if ig is not None and ig.returncode != 0:
+        msg = (ig.stdout or "").strip()
+        print(("\n" + msg) if not brief else msg.replace("\n", " ")[:180])
+        code = 1
 
     if brief:
         line = " | ".join(l.strip() for l in out.splitlines()
