@@ -688,26 +688,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "Which strength grades suit Lobito Corridor railway fasteners?"
+            "en": "Which strength grades suit Lobito Corridor railway fasteners?",
+            "zh": "洛比托走廊铁路紧固件选什么强度等级？"
           },
           "a": {
-            "en": "Track and structural connections typically use ISO 898-1 class 8.8 and 10.9, with 10.9 dominant where fatigue loading is high. Specify the coating together with the grade, because hydrogen embrittlement risk rises as strength goes up."
+            "en": "Track and structural connections typically use ISO 898-1 class 8.8 and 10.9, with 10.9 dominant where fatigue loading is high. Specify the coating together with the grade, because hydrogen embrittlement risk rises as strength goes up.",
+            "zh": "轨道及结构连接通常采用 ISO 898-1 的 8.8 级和 10.9 级，疲劳载荷高的部位以 10.9 级为主。等级越高氢脆风险越大，镀层要与等级一并提出。"
           }
         },
         {
           "q": {
-            "en": "Hot-dip galvanised or zinc flake for railway bolts?"
+            "en": "Hot-dip galvanised or zinc flake for railway bolts?",
+            "zh": "铁路螺栓用热浸镀锌还是锌片涂层？"
           },
           "a": {
-            "en": "HDG to ISO 1461 suits exposed structural connections where the coating thickness can be accommodated in the thread fit. Zinc flake to ISO 10683 is the better choice for class 10.9 and 12.9 bolts, because the non-electrolytic process limits hydrogen embrittlement."
+            "en": "HDG to ISO 1461 suits exposed structural connections where the coating thickness can be accommodated in the thread fit. Zinc flake to ISO 10683 is the better choice for class 10.9 and 12.9 bolts, because the non-electrolytic process limits hydrogen embrittlement.",
+            "zh": "螺纹配合能容纳镀层厚度的外露结构连接，可采用 ISO 1461 热浸镀锌（HDG）；10.9 级和 12.9 级螺栓更适合 ISO 10683 锌片涂层，非电解工艺可把氢脆风险控制在较低水平。"
           }
         },
         {
           "q": {
-            "en": "What traceability does a rail project expect?"
+            "en": "What traceability does a rail project expect?",
+            "zh": "铁路项目要求怎样的可追溯性？"
           },
           "a": {
-            "en": "Heat numbers on the mill certificate matched to the marking on each bolt, batch records for the coating, and a packing list that maps cartons to installation sections. Without that mapping the site team cannot prove which batch went into which connection."
+            "en": "Heat numbers on the mill certificate matched to the marking on each bolt, batch records for the coating, and a packing list that maps cartons to installation sections. Without that mapping the site team cannot prove which batch went into which connection.",
+            "zh": "材质书上的炉号要与每颗螺栓的标记对应，镀层要有批次记录，装箱单要把箱号对应到安装区段。没有这种对应关系，现场团队无法证明哪一批用在了哪个连接节点上。"
           }
         }
       ]
