@@ -125,3 +125,18 @@
 
 - 5 篇全球通用技术页面补阿语问答 24 条：`bolt-markings-identify-grade`(5)、`anchor-bolts-foundation-guide`(5)、`roofing-screws-epdm-washer-guide`(5)、`nylon-nuts-bolts-guide`(5)、`zinc-plated-vs-galvanized`(4)，全部 Agent 自译（通道 429 期间不依赖外部写作链）。
 - 顺手删 5 条通用套话问答（"What are Technical Guide and how are they used?" 及配套"essential components in construction and manufacturing"答案），涉及 5 篇；这类问答会进 FAQPage 结构化数据，属低质信号。
+
+## 正文语种污染体检（2026-11-26，新指标）
+
+`scripts/check-body-lang.py` 补上了正文体（`sections[].heading/body`）的语种体检——之前只有 FAQ 有硬指标，正文一直是盲区。分三档：
+
+- `english`：非英文语种的正文里整句/半句还是英文（渲染出来就是英文段落），最伤信任；
+- `script`：夹着另一种书写系统（日文页夹中文/韩文、葡语页夹中文、德语页夹阿语），多为机器翻译串语种；
+- `noise`：只夹 1–9 个外文字符，术语残留，仅提示。
+
+首轮结果：**english 239 处 / script 116 处**，涉及 104 篇。两轮机械修复后 english 降到 139：
+
+- 174 处是"本地化字段里嵌着英文标题原文"，直接换成该语种的 `title`（3 篇：`zimbabwe-rural-electrification-fastener-specifications`、`nigeria-lagos-fastener-import-wholesale-guide`、`zimbabwe-road-bridge-rehabilitation-fastener-supply`）。
+- 301 处（4 篇：润滑/包装/预紧力/高强螺栓）是嵌着英文主题标签，按 heading 位（无冠词名词短语）与 body 位（带冠词主语）分别换成九语本地化表达。
+
+剩余 139 english + 116 script 属"段落级未翻译/半句混合"，无法机械替换，只能逐段重译；`check-body-lang.py --slug <slug>` 可看单篇明细，`--json` 供批量任务取数。

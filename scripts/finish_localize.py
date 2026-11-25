@@ -47,11 +47,19 @@ def main():
                     break
                 time.sleep(6)
         if got:
+            sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            import lang_guard
             for lang, v in got.items():
-                if (v.get('title') or '').strip():
-                    art['title'][lang] = v['title'].strip()
-                if (v.get('meta') or '').strip():
-                    art.setdefault('metaDescription', {})[lang] = v['meta'].strip()
+                t = (v.get('title') or '').strip()
+                m = (v.get('meta') or '').strip()
+                if t and lang_guard.ok(lang, t, ((art.get('title') or {}).get('en') or ''))[0]:
+                    art['title'][lang] = t
+                elif t:
+                    print(f'  ⚠️  丢弃 title.{lang}：{lang_guard.reason(lang, t)[0]}')
+                if m and lang_guard.ok(lang, m, ((art.get('metaDescription') or {}).get('en') or ''))[0]:
+                    art.setdefault('metaDescription', {})[lang] = m
+                elif m:
+                    print(f'  ⚠️  丢弃 meta.{lang}：{lang_guard.reason(lang, m)[0]}')
             if apply:
                 with open(path, 'w', encoding='utf-8') as f:
                     json.dump(art, f, ensure_ascii=False, indent=2)

@@ -23,6 +23,13 @@ ART = 'content/articles'
 I18N = 'content/i18n'
 
 
+def _load_guard():
+    """写入口语言校验（scripts/lang_guard.py）：拦住回吐中文/错语种的译文。"""
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import lang_guard
+    return lang_guard
+
+
 def load(slug):
     p = os.path.join(ART, slug + '.json')
     if not os.path.exists(p):
@@ -229,7 +236,8 @@ def cmd_merge(slug):
     parts = sorted(glob.glob(os.path.join(I18N, slug + '*.json')))
     if not parts:
         sys.exit('译文草稿不存在: ' + p)
-    touched = 0
+    touched = dropped = 0
+    guard = _load_guard()
     for part in parts:
         draft = json.load(open(part, encoding='utf-8'))
         by_id = {s.get('id'): s for s in a.get('sections', [])}
@@ -239,15 +247,22 @@ def cmd_merge(slug):
                 print('  跳过未知段落:', ds.get('id'))
                 continue
             for field in ('heading', 'body'):
+                en_ref = ((target.get(field) or {}).get('en') or '').strip()
                 for lang, text in (ds.get(field) or {}).items():
                     if lang in ('en', 'zh'):
                         continue
                     if not str(text).strip():
                         continue
+                    # 写入口语言校验：拦住回吐中文/错语种的"译文"
+                    why = guard.reason(lang, str(text), en_ref)
+                    if why:
+                        dropped += 1
+                        print('  丢弃 %s %s（%s）：%s' % (ds.get('id'), lang, why, str(text)[:40]))
+                        continue
                     target.setdefault(field, {})[lang] = dedupe_text(str(text))
                     touched += 1
     json.dump(a, open(os.path.join(ART, slug + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
-    print('已合并 %d 个字段 -> %s（来源 %d 个草稿）' % (touched, slug, len(parts)))
+    print('已合并 %d 个字段 -> %s（来源 %d 个草稿，丢弃 %d）' % (touched, slug, len(parts), dropped))
 
 
 

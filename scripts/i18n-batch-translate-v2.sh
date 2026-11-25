@@ -205,9 +205,18 @@ if not isinstance(translations, dict):
     import sys; sys.exit(1)
 for lang, items in translations.items():
     trans_map = {t['idx']: t['translation'] for t in items if isinstance(t, dict) and 'idx' in t and 'translation' in t}
+    import sys as _s
+    _s.path.insert(0, 'scripts')
+    import lang_guard as _g
     for s_idx, sec in enumerate(a.get('sections', [])):
         if s_idx in trans_map:
-            sec.setdefault(field, {})[lang] = trans_map[s_idx]
+            v = str(trans_map[s_idx]).strip()
+            en_ref = ((sec.get(field) or {}).get('en') or '').strip()
+            why = _g.reason(lang, v, en_ref)
+            if why:
+                print(f'[merge] 丢弃 {lang} {s_idx} ({why}): {v[:40]}')
+                continue
+            sec.setdefault(field, {})[lang] = v
 with open(file, 'w') as f:
     json.dump(a, f, ensure_ascii=False, indent=2)
 print(f'[merge] updated {len(translations)} langs for {slug}')

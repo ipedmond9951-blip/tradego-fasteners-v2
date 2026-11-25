@@ -51,21 +51,13 @@ def needs(value, en, lang):
     return bool(rx) and not rx.search(v)
 
 HAN = re.compile(r"[\u4e00-\u9fff]")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from lang_guard import ok as _guard_ok  # noqa: E402
 
 def valid(lang, v, en):
-    """译文可用性校验：非空、不等于英文、书写系统匹配目标语种、非中文目标不得夹汉字。
-    模型偶尔会把"翻译"回吐成别的语言（曾把中文写进 ar/ru/hi），这一层必须挡住，
-    否则错误值会绕过 native-only 渲染（非空且≠en），直接显示在阿拉伯语页上。"""
-    v = (v or "").strip()
-    en = (en or "").strip()
-    if not v or v == en:
-        return False
-    rx = SCRIPTS.get(lang)
-    if rx and not rx.search(v):
-        return False
-    if lang not in ("zh", "ja") and HAN.search(v):
-        return False
-    return True
+    """译文可用性校验（统一走 scripts/lang_guard.py）：
+    非空、不等于英文、书写系统匹配目标语种、非中文目标不得夹汉字。"""
+    return _guard_ok(lang, v, en)[0]
 
 def translate(lang, items):
     payload = [{"q": enof(it, "q"), "a": enof(it, "a")} for it in items]

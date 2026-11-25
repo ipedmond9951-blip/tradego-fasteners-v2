@@ -11,6 +11,13 @@
 import json, os, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import lang_guard  # noqa: E402
+
+
+def _reason(lang, v, en):
+    """写入口语言校验：值必须命中目标语种书写系统，且不得回吐中文。"""
+    return lang_guard.reason(lang, v, en)
 
 
 def main(path):
@@ -37,13 +44,25 @@ def main(path):
             bad.append(f"{slug}: 条数不符（文件 {len(flat)} / 译文 {len(p['items'])}）")
             continue
         idx = 0
+        dropped = []
         for _sec, items in allitems:
             for it in items:
                 t = p["items"][idx]; idx += 1
                 for fld in ("q", "a"):
                     for lang, v in (t.get(fld) or {}).items():
+                        if lang == "en":
+                            it.setdefault(fld, {})[lang] = v.strip()
+                            written += 1
+                            continue
+                        en_ref = ((it.get(fld) or {}).get("en") or "").strip()
+                        why = _reason(lang, v, en_ref)
+                        if why:
+                            dropped.append(f"{slug} {fld}.{lang} {why}")
+                            continue
                         it.setdefault(fld, {})[lang] = v.strip()
                         written += 1
+        if dropped:
+            print(f"   ⚠️  丢弃 {len(dropped)} 个不合格值：" + "; ".join(dropped[:5]))
         json.dump(d, open(f, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
         open(f, "a").write("\n")
         print(f"✅ {slug}: 写入 {written} 条")

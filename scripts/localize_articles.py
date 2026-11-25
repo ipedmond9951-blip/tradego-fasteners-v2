@@ -186,11 +186,19 @@ def main() -> None:
             problems += problems2
 
         if ok:
+            _sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            import lang_guard
             for L, v in ok.items():
-                if 'title' in v and v['title'].strip():
-                    art['title'][L] = v['title'].strip()
-                if 'meta' in v and v['meta'].strip():
-                    art['metaDescription'][L] = v['meta'].strip()
+                t = (v.get('title') or '').strip()
+                m = (v.get('meta') or '').strip()
+                if t and lang_guard.ok(L, t, ((art.get('title') or {}).get('en') or ''))[0]:
+                    art['title'][L] = t
+                elif t:
+                    print(f'  ⚠️  丢弃 title.{L}：{lang_guard.reason(L, t)[0]}', flush=True)
+                if m and lang_guard.ok(L, m, ((art.get('metaDescription') or {}).get('en') or ''))[0]:
+                    art['metaDescription'][L] = m
+                elif m:
+                    print(f'  ⚠️  丢弃 meta.{L}：{lang_guard.reason(L, m)[0]}', flush=True)
             with open(path, 'w', encoding='utf-8') as f:
                 json.dump(art, f, ensure_ascii=False, indent=2)
                 f.write('\n')
