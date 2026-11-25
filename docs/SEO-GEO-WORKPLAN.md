@@ -175,9 +175,9 @@ python3 scripts/article-claim.py release <slug> <线名>
 |---|---|---|---|---|
 | T0 分词修复 | seo-geo-main | 已完成 | 1 / 1 | en 不变；ru/ar/hi/ja 下调，见 §1 |
 | T1 非英语段落化 | 头条线 | 待开始 | 0 / 8,318 节 | es 先 |
-| T2 定义句 | seo-geo-main | 进行中 | 19 / 39 | en/zh 均 def=1 |
+| T2 定义句 | seo-geo-main | 进行中 | 22 / 39 | en/zh 均 def=1 |
 | T3 标题短写 | 头条线 | 待开始 | 0 / 866 | A 区 39 篇我处理 |
-| T4 en 首段 + H2 问句 | seo-geo-main | 进行中 | 19 / 39 | 12 篇 en 全部 90，zh 89–90 |
+| T4 en 首段 + H2 问句 | seo-geo-main | 进行中 | 22 / 39 | 12 篇 en 全部 90，zh 89–90 |
 | T5 标准/来源 | seo-geo-main | 待开始 | 0 / 39 | |
 | T6 入链 | 待认领 | 待开始 | 0 / 29 + 18 | 两口径分开记 |
 | T7 去重 | seo-geo-main | 待开始 | 0 / A 区相关篇 | |
@@ -199,4 +199,6 @@ python3 scripts/article-claim.py release <slug> <线名>
 - 2026-11-25 22:30 A 区第 13–14 篇：`togo-lome-port-fastener-import-procedure` en 57→72 / zh 47→72、`ghana-tema-port-fastener-import-procedure` en 70→90 / zh 70→85。两篇闸门通过、语种 0 污染；洛美港 `ent 0.7/千词`、FAQ 答案 26 词仍是短板，留 T5（补 HS 7318/7317 锚点）与 T8（本地 FAQ 由头条线）。已提交。
 - 2026-11-25 22:50 A 区第 15–17 篇：`marine-outdoor-corrosion-resistant-bolts-guide` en 75→90 / zh 25→88、`zimbabwe-import-duty-fastener-tariff-2026` en 56→100 / zh 57→99、`washer-types-applications-guide` en 75→90 / zh 65→90。三篇闸门通过、语种 0 污染。
 - 2026-11-25 23:00 A 区第 18–19 篇：`telecom-tower-fasteners` en 70→100 / zh 75→100、`harare-fastener-distributor-supplier-guide` en 84→90 / zh 74→90。两篇闸门通过、语种 0 污染。A 区累计 19/39，en 全部 ≥90（除洛美 72，卡在 ent 0.7 与 FAQ 26 词）。
+- 2026-11-25 23:20 A 区第 20–22 篇：`ivory-coast-abidjan-port-fastener-tariff` en 55→84 / zh 45→81、`high-strength-bolts-8-8-10-9-12-9-grade-guide` en 40→90 / zh 65→90、`bolt-tightening-torque-guide` en 55→88 / zh 55→90。三篇闸门通过、语种 0 污染。
+- 2026-11-25 23:20 T0 第三阶段（量具）：`geo_audit.ENT` 尾部 `\b` 让 `%` 永不匹配，改正后带百分比的句子计入实体密度；全库 en 平均 62.7→**66.1**、A 档（90+）31 篇。此前"最差 20 篇"与语种均分口径据此刷新，验收线继续用新值。
 
