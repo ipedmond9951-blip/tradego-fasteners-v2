@@ -182,26 +182,32 @@
    "faqItems": [
     {
      "q": {
-      "en": "What is the difference between a bearing-type and a friction-type (slip-critical) connection?"
+      "en": "What is the difference between a bearing-type and a friction-type (slip-critical) connection?",
+      "zh": "承压型和摩擦型连接有什么区别？"
      },
      "a": {
-      "en": "In a bearing-type connection, the bolts carry the applied load by bearing against the connected plates — the bolt itself is in shear. The preload (clamp force) doesn't matter as much; the bolt just needs to be snug-tight. In a friction-type (slip-critical) connection, the applied load is transferred by friction between the connected plates, created by the bolt's preload. If the preload is insufficient, the joint slips — causing failure. Slip-critical connections require higher preload (verified by DTI washers or calibrated wrench), and the connected surfaces must be free of paint and mill scale (cleaned to bare metal) to achieve the specified coefficient of friction."
+      "en": "In a bearing-type connection, the bolts carry the applied load by bearing against the connected plates — the bolt itself is in shear. The preload (clamp force) doesn't matter as much; the bolt just needs to be snug-tight. In a friction-type (slip-critical) connection, the applied load is transferred by friction between the connected plates, created by the bolt's preload. If the preload is insufficient, the joint slips — causing failure. Slip-critical connections require higher preload (verified by DTI washers or calibrated wrench), and the connected surfaces must be free of paint and mill scale (cleaned to bare metal) to achieve the specified coefficient of friction.",
+      "zh": "承压型连接靠螺栓杆顶住连接板件传力，螺栓本身受剪，预紧力（夹紧力）要求不高，拧到贴合即可。摩擦型（抗滑移）连接靠板件之间由预紧力产生的摩擦力传力，预紧不足接头就会滑移失效。抗滑移连接要求更高预紧力，用 DTI 垫片或标定扭矩扳手核验；连接表面要除去油漆和氧化皮、露出金属本色，才能达到规定摩擦系数。"
      }
     },
     {
      "q": {
-      "en": "Why do structural bolts have washers under both the head and the nut?"
+      "en": "Why do structural bolts have washers under both the head and the nut?",
+      "zh": "结构螺栓为什么头尾都放垫圈？"
      },
      "a": {
-      "en": "Under the bolt head — distributes the load from the bolt head onto the connected plate, preventing localized bearing stress that could deform the plate; hardened washers are used with high-strength bolts to prevent embedding. Under the nut — serves the same purpose on the other side of the joint; the nut bearing surface is smaller than the head, so the washer is even more important here. For structural connections using high-strength bolts (Grade 8.8, 10.9), hardened washers (to HRC 38-45) are specified for both positions. Using standard (soft) washers with high-strength bolts can cause the washer to deform and lose preload."
+      "en": "Under the bolt head — distributes the load from the bolt head onto the connected plate, preventing localized bearing stress that could deform the plate; hardened washers are used with high-strength bolts to prevent embedding. Under the nut — serves the same purpose on the other side of the joint; the nut bearing surface is smaller than the head, so the washer is even more important here. For structural connections using high-strength bolts (Grade 8.8, 10.9), hardened washers (to HRC 38-45) are specified for both positions. Using standard (soft) washers with high-strength bolts can cause the washer to deform and lose preload.",
+      "zh": "螺栓头一侧把钉头载荷分散到连接板上，避免局部承压把板压变形；高强度螺栓配淬火硬化垫圈，防止压陷。螺母一侧作用相同，螺母承压面比钉头小，垫圈更关键。8.8、10.9 级高强度螺栓两侧都规定用硬化垫圈（硬度 HRC 38–45）；配普通软垫圈会变形并损失预紧力。"
      }
     },
     {
      "q": {
-      "en": "What is the maximum bolt spacing in a structural connection?"
+      "en": "What is the maximum bolt spacing in a structural connection?",
+      "zh": "结构连接的螺栓间距最大多少？"
      },
      "a": {
-      "en": "Bolt spacing is governed by the structural design code (BS 5950, AISC, SANS, etc.) and the design loads. General guidelines: Minimum spacing — not less than 2.5× bolt diameter (to prevent edge splitting); Maximum spacing in tension — not more than 14× t (thinner connected plate) or 200mm; Maximum spacing in compression — not more than 24× t or 300mm; Edge distance — minimum edge distance varies from 1.5D to 2.0D depending on edge condition (sheared, rolled, etc.) and loading direction. Always follow the structural engineer's connection design — these are general guidelines only."
+      "en": "Bolt spacing is governed by the structural design code (BS 5950, AISC, SANS, etc.) and the design loads. General guidelines: Minimum spacing — not less than 2.5× bolt diameter (to prevent edge splitting); Maximum spacing in tension — not more than 14× t (thinner connected plate) or 200mm; Maximum spacing in compression — not more than 24× t or 300mm; Edge distance — minimum edge distance varies from 1.5D to 2.0D depending on edge condition (sheared, rolled, etc.) and loading direction. Always follow the structural engineer's connection design — these are general guidelines only.",
+      "zh": "间距由结构设计规范（BS 5950、AISC、SANS 等）和设计载荷决定。一般参考：最小间距不小于 2.5 倍螺栓直径，防止边缘劈裂；受拉构件最大间距不超过 14 倍较薄板厚或 200 mm；受压构件不超过 24 倍板厚或 300 mm；边距按边缘状况和受力方向在 1.5D 到 2.0D 之间取值。具体以结构工程师的连接设计为准，这些只是通用参考。"
      }
     }
    ],
