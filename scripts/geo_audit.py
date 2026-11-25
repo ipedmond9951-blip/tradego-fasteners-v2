@@ -12,7 +12,7 @@
   echo     首段是否逐字复述标题（模板指纹，等于没给答案）
   qh       小标题里问句占比（GEO 靠问题-答案对齐；≥25% 好）
   ent      正文里可核实体密度：尺寸/性能/温度/标准号（每千词命中数）
-  faq      FAQ 条数与答案平均词数（≥3 条、答案 ≥80 词）
+  faq      FAQ 可渲染条数、答案平均词数、问句本语种合规率 q_ok（≥3 条、答案 ≥80 词、q_ok ≥0.8）
   def      正文是否有一句"X 是/指的是…"式定义句
 评分 0-100，权重见 WEIGHTS。
 """
@@ -101,6 +101,77 @@ def faq_answer_words(a, locale):
     return count_words(a or "", locale)
 
 
+def faq_text(v, locale):
+    """FAQ 条目字段按语种 fail-closed 取本语种纯文本（去空白）；缺键/空值返回空串，不回退 en。"""
+    if isinstance(v, dict):
+        return str(v.get(locale) or "").strip()
+    return str(v or "").strip()
+
+
+def faq_en_text(v):
+    """问句对照基线：dict 取 en，纯字符串原样返回。"""
+    if isinstance(v, dict):
+        return str(v.get("en") or "").strip()
+    return str(v or "").strip()
+
+
+NON_LATIN_LOCS = ("zh", "ja", "ru", "ar", "hi", "ko", "th")
+STD_PREFIX = {"ISO", "DIN", "EN", "ANSI", "ASTM", "JIS", "GB", "SANS", "SABS", "IS", "BS", "ASME"}
+UNIT_TOKENS = {"mm", "cm", "m", "mpa", "kn", "n", "nm", "n·m", "kg", "pcs", "°c", "%"}
+LATIN_TOKEN = re.compile(r"[A-Za-z0-9][A-Za-z0-9'’.\-]*")
+GRADE_TOKEN = re.compile(r"^\d+(?:\.\d+)?$")
+SPEC_TOKEN = re.compile(r"^[Mm]\d")
+
+
+def _latin_prose_words(qtext):
+    """抽出问句里的拉丁词，并豁免标准号（ISO 898-1）、牌号（8.8）、规格（M10）、单位（N·m）。"""
+    toks = LATIN_TOKEN.findall(qtext)
+    prose, i = [], 0
+    while i < len(toks):
+        t = toks[i]
+        tl = t.lower()
+        if GRADE_TOKEN.match(t) or tl in UNIT_TOKENS or SPEC_TOKEN.match(t):
+            i += 1
+            continue
+        if t.upper() in STD_PREFIX and i + 1 < len(toks) and re.match(r"^\d", toks[i + 1]):
+            i += 2  # ISO 898-1 / DIN 931 整条标准号豁免
+            continue
+        prose.append(tl)
+        i += 1
+    return prose
+
+
+def q_native_ok(q, locale):
+    """问句是否为本地语言原生表达（未拿英文冒充）。
+
+    - en：天然合规，直接 True。
+    - 非拉丁语种（zh/ja/ru/ar/hi/ko/th）：问句里出现连续 ≥3 个未豁免拉丁词即不合规。
+    - 拉丁语种（es/fr/pt/de）：与同条 q.en 逐字相同，或词集 Jaccard > 0.75 即不合规。
+    """
+    if locale == "en":
+        return True
+    qt = faq_text(q, locale)
+    if not qt:
+        return False
+    if locale in NON_LATIN_LOCS:
+        run = 0
+        for w in _latin_prose_words(qt):
+            run = run + 1 if re.search(r"[a-z]", w) else 0
+            if run >= 3:
+                return False
+        return True
+    qen = faq_en_text(q)
+    if not qen:
+        return True
+    if TAG.sub(" ", qt).strip().lower() == TAG.sub(" ", qen).strip().lower():
+        return False
+    ws = lambda s: set(WORDS.findall(s.lower()))
+    a, b = ws(qt), ws(qen)
+    if a and b and len(a & b) / len(a | b) > 0.75:
+        return False
+    return True
+
+
 def paras(body):
     return [p for p in re.split(r"</p>", body) if "<p>" in p]
 
@@ -143,8 +214,20 @@ def audit(path, locale="en"):
     wc = words(full, locale) or 1
     ent = len(ENT.findall(TAG.sub(" ", full))) * 1000 / wc
 
-    fq = len(faqs)
-    fa = round(sum(faq_answer_words(x.get("a", ""), locale) for x in faqs) / fq) if fq else 0
+    # fq 只计本语种可渲染条目：q 与 a 都有本语种非空文本（与页面 nativeText 过滤同口径）；
+    # 渲染不出来的条目不进 fa 均值分母，也不进 q_ok 分子。
+    renderable = []
+    for x in faqs:
+        if faq_text(x.get("q", ""), locale) and faq_text(x.get("a", ""), locale):
+            renderable.append(x)
+    fq = len(renderable)
+    fa = round(sum(faq_answer_words(x.get("a", ""), locale) for x in renderable) / fq) if fq else 0
+
+    if fq:
+        ok = sum(1 for x in renderable if q_native_ok(x.get("q", ""), locale))
+        q_ok = round(ok / fq, 2)
+    else:
+        q_ok = 0.0
 
     txt = TAG.sub("", full)
     if locale == "zh":
@@ -159,12 +242,14 @@ def audit(path, locale="en"):
     s += WEIGHTS["echo"] * (0 if echo else 1)
     s += WEIGHTS["qh"] * min(qh_ratio / 0.25, 1)
     s += WEIGHTS["ent"] * min(ent / 6, 1)
-    s += WEIGHTS["faq"] * (1 if fq >= 3 and fa >= 80 else 0.5 if fq >= 3 else 0)
+    faq_full = fq >= 3 and fa >= 80 and q_ok >= 0.8
+    faq_half = fq >= 3 and not faq_full
+    s += WEIGHTS["faq"] * (1 if faq_full else 0.5 if faq_half else 0)
     s += WEIGHTS["def"] * deff
     return {
         "slug": slug, "score": round(s), "words": wc,
         "p1": p1, "echo": echo, "qh": round(qh_ratio, 2), "ent": round(ent, 1),
-        "faq": fq, "fa": fa, "def": deff,
+        "faq": fq, "fa": fa, "q_ok": q_ok, "def": deff,
     }
 
 
@@ -204,7 +289,7 @@ def main():
     print(f"首段复述标题(echo): {sum(r['echo'] for r in rows)} 篇 | FAQ 不足 3 条: {sum(1 for r in rows if r['faq'] < 3)} 篇 | 实体密度<2/千词: {sum(1 for r in rows if r['ent'] < 2)} 篇")
     print(f"\n最差 {a.top} 篇:")
     for r in sorted(rows, key=lambda x: x["score"])[:a.top]:
-        print(f"{r['score']:>3}  p1={r['p1']:<3} echo={r['echo']} qh={r['qh']:<4} ent={r['ent']:<4} faq={r['faq']}/{r['fa']}  {r['slug']}")
+        print(f"{r['score']:>3}  p1={r['p1']:<3} echo={r['echo']} qh={r['qh']:<4} ent={r['ent']:<4} faq={r['faq']}/{r['fa']}/q{r['q_ok']}  {r['slug']}")
 
 
 if __name__ == "__main__":
