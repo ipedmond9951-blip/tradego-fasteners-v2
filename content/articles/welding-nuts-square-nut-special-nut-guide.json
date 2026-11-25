@@ -204,6 +204,14 @@
             "de": "Standard hex nuts are not designed for welding—the steel composition and geometry are not optimized for weld strength. Use dedicated square welding nuts (DIN 928) or flange welding nuts (DIN 929).",
             "hi": "Standard hex nuts are not designed for welding—the steel composition and geometry are not optimized for weld strength. Use dedicated square welding nuts (DIN 928) or flange welding nuts (DIN 929)."
           }
+        },
+        {
+          "q": {
+            "en": "What is the weld projection on a flange welding nut?"
+          },
+          "a": {
+            "en": "The projection is the small collar that fuses into the sheet during resistance welding, and its height must match the sheet thickness range the nut is designed for. Too little projection welds weakly; too much melts through thin sheet."
+          }
         }
       ],
       "body": {

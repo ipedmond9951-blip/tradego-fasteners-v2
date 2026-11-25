@@ -270,6 +270,14 @@
             "de": "No. UNC and metric threads have different diameters and pitches. A 1/4\"-20 UNC bolt is completely incompatible with an M6 nut despite similar nominal sizes.",
             "hi": "No. UNC and metric threads have different diameters and pitches. A 1/4\"-20 UNC bolt is completely incompatible with an M6 nut despite similar nominal sizes."
           }
+        },
+        {
+          "q": {
+            "en": "Which standard series should I quote for African projects?"
+          },
+          "a": {
+            "en": "ISO metric is the default in most African markets, with DIN dimensions widely recognised for hex bolts and nuts. ANSI and UNC appear in equipment-driven specifications, so quote the standard the buyer named rather than converting."
+          }
         }
       ],
       "body": {

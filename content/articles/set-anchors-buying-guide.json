@@ -244,6 +244,47 @@
         "de": "Für die Projektlieferung von Set-Ankern und Drop-in-Dübeln über Süd- und Ostafrika verhindert eine frühe Planung von Verpackung und Versand Baustellenverzögerungen. Bestätigen Sie zuerst die Ankergrößen wie M6-, M8-, M10- und M12-Maschinenschraubenanker, zusammen mit Edelstahloptionen A2 oder A4 für Küsten- oder Feuchtgebiete und verzinktem Kohlenstoffstahl für Innenziegel oder Beton. Zweitens passen Sie Innenkartonen-Inhalt und Großkarton-Gewicht an manuelles Handlingslimit und Palettenmaße an; ein typischer Branchenwert liegt bei 20 bis 25 kg pro Exportkarton, verpackt in feuchtigkeitsbeständigen Beuteln mit klarer Größen- und Wärme- oder Chargenkennzeichnung. Drittens stimmen Sie Containerverladung und Hafenroute mit dem Baustellenplan ab, nutzen Seefracht über Durban oder Beira für südliche Korridore oder Mombasa für ostafrikanische Standorte und halten Sie Pufferlieferzeit für den Binnentransport nach Simbabwe oder Sambia frei. Viertens gleichen Sie Handelsrechnung, Packliste und Frachtbriefdaten mit den Mengenermittlungen der Baustelle ab, damit jede Phase mit passenden Gewindegrößen und Setzwerkzeugen ankommt. Fordern Sie schließlich vor der Abreise eine Vorversand-Verpackungskontrollcheckliste an, die Kartonanzahl, Gewindeschutz und Etikettenrichtigkeit abdeckt, damit Auftragnehmer sortierte Lose sofort montagebereit erhalten.",
         "hi": "दक्षिणी और पूर्वी अफ्रीका में सेट एंकर और ड्रॉप-इन एंकर की परियोजना आपूर्ति के लिए, पैकिंग और शिपिंग की जल्द योजना साइट देरी रोकती है। पहले, M6, M8, M10 और M12 मशीन स्क्रू एंकर जैसे एंकर आकार की पुष्टि करें, साथ में तटीय या नम क्षेत्रों के लिए स्टेनलेस स्टील A2 या A4 विकल्प और इनडोर ईंट या कंक्रीट के लिए जस्ता प्लेटेड कार्बन स्टील रखें। दूसरे, इनर बॉक्स गिनती और मास्टर कार्टन वजन को मैनुअल हैंडलिंग सीमा और पैलेट आयामों से मिलाएँ; एक विशिष्ट उद्योग मान 20 से 25 kg प्रति एक्सपोर्ट कार्टन है, जो नमी-रोधी बैग में स्पष्ट आकार और हीट या बैच लेबल के साथ पैक होता है। तीसरे, कंटेनर लोडिंग और पोर्ट रूटिंग को अपनी साइट शेड्यूल से मिलाएँ, दक्षिणी कॉरिडोर के लिए डरबन या बेइरा या पूर्वी अफ्रीकी साइटों के लिए मोम्बासा के रास्ते समुद्री फ्रेट का उपयोग करें, और ज़िम्बाब्वे या ज़ाम्बिया में अंतर्देशीय ढुलाई के लिए बफर लीड टाइम छोड़ें। चौथे, कमर्शियल इनवॉइस, पैकिंग लिस्ट और बिल ऑफ लेडिंग विवरण को साइट बिल ऑफ क्वांटिटीज़ के खिलाफ सत्यापित करें ताकि हर चरण मैचिंग थ्रेड आकार और सेटिंग टूल के साथ पहुँचे। अंत में, जहाज रवाना होने से पहले कार्टन गिनती, थ्रेड प्रोटेक्शन और लेबल सटीकता को कवर करने वाली प्री-शिपमेंट पैकिंग निरीक्षण चेकलिस्ट अनुरोध करें, ताकि ठेकेदार तुरंत इंस्टॉलेशन के लिए तैयार सॉर्टेड लॉट प्राप्त करें।"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What is the difference between a set anchor and a drop-in anchor?"
+          },
+          "a": {
+            "en": "A set anchor is a sleeve plus a machine screw that stays in place, so the fixture can be removed and refitted. A drop-in anchor leaves an internal thread in the hole and takes a separate screw."
+          }
+        },
+        {
+          "q": {
+            "en": "When does a set anchor beat a drop-in?"
+          },
+          "a": {
+            "en": "Where the fixing needs to be adjusted or removed, where the slab is thin, and where the bracket thickness varies. The screw also gives a visual check that the anchor has expanded."
+          }
+        },
+        {
+          "q": {
+            "en": "Which material should I specify?"
+          },
+          "a": {
+            "en": "Zinc plated for interior, SS304 for general outdoor and wet areas, SS201 only for light indoor duty. In coastal or chemical exposure, A4/316 is the safer choice."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

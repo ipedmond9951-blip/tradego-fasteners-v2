@@ -192,6 +192,47 @@
         "ja": "板厚、標準荷重、希望タイプ（自穿孔、拡張、トグル）、パック形態（小売箱またはバルク袋）、ねじ仕上げ、サイズ別数量をお知らせください。仕様が決まっていない場合は用途をご記入ください。棚と鏡、テレビブラケット、配線ダクト、浴室備品、天井グリッドなどです。これだけあればサイズとパックを推奨できます。新しい小売ラインには航空便のサンプル箱を、販売代理店にはカートンサンプルをご請求ください。TradeGo は、亜鉛めっきねじ3.5〜4.8 mm、長さ25〜40 mm、白と青のボディの自穿孔石膏ボード用アンカーを供給しています。50〜500個入り箱、カートン内サイズ混載に対応し、印刷小売箱はご要望に応じます。",
         "ru": "Пришлите толщину листа, типичную нагрузку, предпочтительный тип (самосверлящийся, распорный или тоггл), формат упаковки (розничная коробка или насыпной мешок), покрытие винта и количество по размерам. Если у покупателя нет спецификации, опишите применение: полки и зеркала, телевизионные кронштейны, кабель-каналы, сантехника ванной или потолочный профиль. Этого достаточно, чтобы рекомендовать размер и упаковку. Для новой розничной линии запросите коробку-образец авиадоставкой, а для дистрибьютора — образец картона. TradeGo поставляет самосверлящие анкеры для гипсокартона с оцинкованными винтами 3,5–4,8 mm, длиной 25–40 mm, белыми и синими корпусами, в коробках 50–500 штук, со смешанными размерами в коробке и печатными розничными коробками по запросу."
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What load can a drywall anchor realistically carry?"
+          },
+          "a": {
+            "en": "Light items - pictures, small shelves, fittings - in the range of a few kilograms per anchor in sound board. Anything heavier should reach a stud or use a rated anchor with a published test value for the board type."
+          }
+        },
+        {
+          "q": {
+            "en": "Which three anchor types will I be quoted?"
+          },
+          "a": {
+            "en": "Self-drilling anchors that cut their own hole, plugs that need a pre-drilled hole, and toggles that spread load behind the board. The board thickness decides which one works, not the price."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I fit an anchor so it holds?"
+          },
+          "a": {
+            "en": "Match the anchor to the board thickness, drive or drill without tearing the paper face, and stop at the marked depth. Over-driving crushes the board core, which is the usual reason an anchor spins loose a week later."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

@@ -192,6 +192,47 @@
         "de": "<p>Diese RFQ-Vorlage bietet ein sofort einsatzbereites Format für Beschaffungsmanager. Geben Sie Artikelbeschreibungen, Mengen, ASTM-Klassen und Beschichtungsanforderungen in einem Tabellenformat an.</p><p>Einschließlich technischer Spezifikationen (Grundmaterial, Beschichtungstyp, Gewinde, Prüfanforderungen), Lieferanforderungen (Adresse, Zeitrahmen, Verpackung), Preisanforderungen (Stückpreis, Gesamtpreis, Gültigkeitszeitraum) und Qualifikationsanforderungen (Firmenregistrierung, Referenzprojekte, Prüfzertifizierungsfähigkeit).</p><p>Bieter sollten ihre Angebote bis zum Angebotsschluss per E-Mail oder über das eGP/PRAZ-Portal einreichen. Stellen Sie sicher, dass die Angebote Prüfzeugnisse (Mill-Test-Zertifikate) von ISO 17025-akkreditierten Laboren beinhalten, die die Konformität mit ASTM F1554 nachweisen.</p>",
         "hi": "<p>यह RFQ टेम्पलेट खरीद प्रबंधकों के लिए एक उपयोग-तैयार प्रारूप प्रदान करता है। मद विवरण, मात्राएँ, ASTM ग्रेड और कोटिंग आवश्यकताओं को तालिका प्रारूप में निर्दिष्ट करें।</p><p>तकनीकी विशिष्टताएँ (आधार सामग्री, कोटिंग प्रकार, धागे, परीक्षण आवश्यकताएँ), वितरण आवश्यकताएँ (पता, समय-सीमा, पैकेजिंग), मूल्य निर्धारण आवश्यकताएँ (इकाई मूल्य, कुल, वैधता अवधि) और योग्यता आवश्यकताएँ (कंपनी पंजीकरण, संदर्भ परियोजनाएँ, परीक्षण प्रमाणन क्षमता) शामिल करें।</p><p>बोलीदाताओं को समापन तिथि तक ईमेल या eGP/PRAZ पोर्टल के माध्यम से उद्धरण जमा करने चाहिए। सुनिश्चित करें कि उद्धरणों में ISO 17025 मान्यता प्राप्त प्रयोगशालाओं से मिल टेस्ट प्रमाणपत्र शामिल हों, जो ASTM F1554 अनुपालन प्रदर्शित करते हैं।</p>"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Which ASTM F1554 grade should a Zimbabwe project specify?"
+          },
+          "a": {
+            "en": "Grade 36 for general anchoring, grade 55 where higher strength is needed, and grade 105 only for heavily loaded or compact connections. Grade 105 also brings weldability and embrittlement constraints."
+          }
+        },
+        {
+          "q": {
+            "en": "What corrosion protection for anchor bolts in Zimbabwe?"
+          },
+          "a": {
+            "en": "Hot-dip galvanising to ISO 1461 for most exposed foundations, and stainless or a duplex system for aggressive ground or coastal conditions. Coating must be applied before the bolt is bent or threaded."
+          }
+        },
+        {
+          "q": {
+            "en": "What should an anchor bolt RFQ contain?"
+          },
+          "a": {
+            "en": "Grade and standard, diameter and total length, thread length, bend or hook geometry, coating specification, test certificates required, packing and delivery port. A quote without these cannot be compared."
+          }
+        }
+      ]
     }
   ],
   "faqs": [

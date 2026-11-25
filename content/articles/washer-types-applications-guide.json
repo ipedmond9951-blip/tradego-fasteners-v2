@@ -193,54 +193,32 @@
         },
         {
           "q": {
-            "en": "What standards should I follow?",
-            "zh": "应该遵循哪些标准？",
-            "es": "What standards should I follow?",
-            "ar": "What standards should I follow?",
-            "fr": "What standards should I follow?",
-            "pt": "What standards should I follow?",
-            "ru": "What standards should I follow?",
-            "ja": "What standards should I follow?",
-            "de": "What standards should I follow?",
-            "hi": "What standards should I follow?"
+            "en": "Should I use a flat washer and a spring washer together?",
+            "zh": "平垫和弹垫要一起用吗？"
           },
           "a": {
-            "en": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "zh": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "es": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ar": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "fr": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "pt": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ru": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ja": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "de": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "hi": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market."
+            "en": "They serve different jobs, so pairing them is normal: the flat washer spreads load and protects the surface, the spring washer adds friction resistance. Skip the spring washer on stainless and aluminium faces where it scores the surface, and on joints that need a defined preload.",
+            "zh": "两者功能不同，叠用是常规做法：平垫分散压力、保护表面，弹垫增加摩擦阻力。不锈钢与铝件表面会被弹垫划伤，且需要精确预紧力的接头，都不建议加弹垫。"
           }
         },
         {
           "q": {
-            "en": "How do I choose a reliable supplier?",
-            "zh": "如何选择可靠的供应商？",
-            "es": "How do I choose a reliable supplier?",
-            "ar": "How do I choose a reliable supplier?",
-            "fr": "How do I choose a reliable supplier?",
-            "pt": "How do I choose a reliable supplier?",
-            "ru": "How do I choose a reliable supplier?",
-            "ja": "How do I choose a reliable supplier?",
-            "de": "How do I choose a reliable supplier?",
-            "hi": "How do I choose a reliable supplier?"
+            "en": "When do I need an oversized flat washer?",
+            "zh": "什么时候需要加大平垫？"
           },
           "a": {
-            "en": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "zh": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "es": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ar": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "fr": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "pt": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ru": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ja": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "de": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "hi": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region."
+            "en": "Use the oversized series (ISO 7093) for slotted and clearance holes, soft substrates such as timber or aluminium, and hot-dip galvanized assemblies where a standard washer would gouge the zinc layer. The washer must still sit flat with full contact.",
+            "zh": "长圆孔和大间隙孔、木材或铝这类软基材、以及热浸镀锌组合（标准垫圈会刮伤锌层）都要用加大系列（ISO 7093）。同时要保证垫圈平贴、全面接触。"
+          }
+        },
+        {
+          "q": {
+            "en": "How do washer dimensions relate to bolt size?",
+            "zh": "垫圈尺寸和螺栓规格怎么对应？"
+          },
+          "a": {
+            "en": "Take the washer bore from its standard, not from the bolt: an M12 flat washer to ISO 7089 has a 13 mm bore, which clears a 12 mm thread. Thickness class (200 HV for 8.8, 300 HV for 10.9) matters more than diameter for keeping preload.",
+            "zh": "垫圈内径按标准查，不按螺栓凑：M12 的 ISO 7089 平垫内径为 13 mm，正好通过 12 mm 螺纹。要保持预紧力，硬度等级（8.8 配 200 HV、10.9 配 300 HV）比直径更关键。"
           }
         }
       ]

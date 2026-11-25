@@ -249,54 +249,32 @@
         },
         {
           "q": {
-            "en": "What standards should I follow?",
-            "zh": "应该遵循哪些标准？",
-            "es": "What standards should I follow?",
-            "ar": "What standards should I follow?",
-            "fr": "What standards should I follow?",
-            "pt": "What standards should I follow?",
-            "ru": "What standards should I follow?",
-            "ja": "What standards should I follow?",
-            "de": "What standards should I follow?",
-            "hi": "What standards should I follow?"
+            "en": "Which factors move the M10 galvanized bolt FOB price most?",
+            "zh": "M10 镀锌螺栓 FOB 价格受什么影响最大？"
           },
           "a": {
-            "en": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "zh": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "es": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ar": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "fr": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "pt": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ru": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ja": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "de": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "hi": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market."
+            "en": "Zinc and wire-rod prices set the floor, then coating thickness - hot-dip at 50 microns costs clearly more than electro-zinc at 8-12 microns. Order size, packing (cartons vs pallets) and grade (4.8 vs 8.8) account for most of the remaining spread between quotes.",
+            "zh": "锌锭与线材价格决定底价，其次是镀层厚度——50 μm 热浸镀锌明显高于 8–12 μm 电镀锌。订单量、包装（纸箱还是托盘）与等级（4.8 对 8.8）构成各家报价差异的其余部分。"
           }
         },
         {
           "q": {
-            "en": "How do I choose a reliable supplier?",
-            "zh": "如何选择可靠的供应商？",
-            "es": "How do I choose a reliable supplier?",
-            "ar": "How do I choose a reliable supplier?",
-            "fr": "How do I choose a reliable supplier?",
-            "pt": "How do I choose a reliable supplier?",
-            "ru": "How do I choose a reliable supplier?",
-            "ja": "How do I choose a reliable supplier?",
-            "de": "How do I choose a reliable supplier?",
-            "hi": "How do I choose a reliable supplier?"
+            "en": "Why do two suppliers quote very different prices for the same M10 bolt?",
+            "zh": "同样 M10 螺栓为什么两家报价差很多？"
           },
           "a": {
-            "en": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "zh": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "es": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ar": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "fr": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "pt": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ru": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ja": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "de": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "hi": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region."
+            "en": "Usually they are not quoting the same thing: check coating type and thickness, thread tolerance, whether washers and nuts are included, packing, and the Incoterm. A quote 20% cheaper often means thin electro-zinc and bulk cartons rather than coated parts with matched nuts.",
+            "zh": "通常不是同一个东西：要核对镀层种类与厚度、螺纹公差、是否含螺母垫圈、包装以及贸易术语。便宜 20% 的报价，往往意味着薄电镀锌和散装纸箱，而不是配套螺母的镀层件。"
+          }
+        },
+        {
+          "q": {
+            "en": "How should bulk buyers structure an M10 order?",
+            "zh": "批量买家怎么组织 M10 订单？"
+          },
+          "a": {
+            "en": "Fix the coating spec and thread tolerance in writing, require a pre-production sample, and split shipment so the first container can be inspected before the rest is released. Keep the same heat number on structural lots so certificates stay traceable.",
+            "zh": "把镀层规范与螺纹公差写进合同，要求产前样，并分批出运——首柜检验通过再放后续。结构批次保持同一炉号，证书才能追溯。"
           }
         }
       ]

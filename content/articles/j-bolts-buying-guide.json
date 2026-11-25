@@ -219,6 +219,47 @@
         "ja": "サプライヤーには、径と全長、ねじ長さ、設計で定まるフック半径、鋼種、表面処理、サイズ別数量を伝える。用途も添えること。同じ径でもフェンス支柱用アンカーとポール基礎用アンカーでは埋込み長の前提が異なるからだ。図面があれば送付し、なければ制御すべき4寸法を描いた簡単なスケッチでメール往復を一回減らせる。新規プロジェクトでは製造前に3本のサンプルを依頼し、コンテナ出荷前に手でナットがねじ全体を通ることを確認する。TradeGoはM8〜M24、長さ100〜600 mm、Q235とQ345のJボルトを供給しており、溶融亜鉛めっきまたは電気亜鉛めっき、ナットと座金付きで、海運向けに結束・木箱梱包される。",
         "ru": "Сообщите поставщику диаметр и общую длину, длину резьбы, радиус крюка, если он задан проектом, марку стали, покрытие и количество по размерам. Добавьте область применения: анкер под столб забора и анкер под основание опоры при одинаковом диаметре несут разные ожидания по заделке. Если чертежи есть, пришлите их; если нет, простой эскиз с четырьмя определяющими размерами сэкономит круг переписки. Для нового проекта запросите предсерийный образец из трёх штук и проверьте от руки, что гайка проходит по всей резьбе, до отгрузки контейнера. TradeGo поставляет J-болты M8–M24, длиной 100–600 mm, из Q235 и Q345, горячеоцинкованные или с цинковым покрытием, с гайками и шайбами в комплекте, в бандлах и ящиках для морской перевозки."
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "How do I set the embedment length of a J bolt?"
+          },
+          "a": {
+            "en": "Embedment is set by the structural design, usually several times the bolt diameter, and the total length equals embedment plus fixture thickness plus thread and hook allowance. Order by total length and stated embedment, not by an overall size alone."
+          }
+        },
+        {
+          "q": {
+            "en": "What hook radius and bending quality should I expect?"
+          },
+          "a": {
+            "en": "The hook is bent cold to a radius of roughly two and a half to three times the bolt diameter, and the bend should show no cracks or thinning. A crack at the bend is the failure point in service, so ask for a bend inspection record."
+          }
+        },
+        {
+          "q": {
+            "en": "Which grade and coating for outdoor fence and pole work?"
+          },
+          "a": {
+            "en": "ASTM A307 or ISO 898-1 class 4.6 and 4.8 cover most general work, with higher grades only where the design demands them. Hot-dip galvanising to ISO 1461 suits exposed and coastal sites, and the coating must survive the bend."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

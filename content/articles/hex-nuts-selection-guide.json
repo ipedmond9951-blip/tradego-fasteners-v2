@@ -262,106 +262,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "What are Technical Guide and how are they used?",
-            "zh": "What are Technical Guide and how are they used?",
-            "es": "What are Technical Guide and how are they used?",
-            "ar": "What are Technical Guide and how are they used?",
-            "fr": "What are Technical Guide and how are they used?",
-            "pt": "What are Technical Guide and how are they used?",
-            "ru": "What are Technical Guide and how are they used?",
-            "ja": "What are Technical Guide and how are they used?",
-            "de": "What are Technical Guide and how are they used?",
-            "hi": "What are Technical Guide and how are they used?"
+            "en": "How do I match nut grade to bolt grade?",
+            "zh": "螺母等级怎么和螺栓等级匹配？"
           },
           "a": {
-            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "zh": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "es": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "ar": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "fr": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "pt": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "ru": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "ja": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "de": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "hi": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+            "en": "Match property class to the bolt: an 8.8 bolt takes a class 8 nut, a 10.9 bolt takes class 10. A weaker nut strips first and destroys the joint. Also confirm thread tolerance (6H nut on 6g bolt) so the pair assembles without excessive play.",
+            "zh": "按性能等级配对：8.8 螺栓配 8 级螺母，10.9 螺栓配 10 级。螺母弱于螺栓会先滑扣、毁掉整个接头。同时确认螺纹公差（6H 螺母配 6g 螺栓），避免配合过松。"
           }
         },
         {
           "q": {
-            "en": "How do I choose the right fastener for my project?",
-            "zh": "How do I choose the right fastener for my project?",
-            "es": "How do I choose the right fastener for my project?",
-            "ar": "How do I choose the right fastener for my project?",
-            "fr": "How do I choose the right fastener for my project?",
-            "pt": "How do I choose the right fastener for my project?",
-            "ru": "How do I choose the right fastener for my project?",
-            "ja": "How do I choose the right fastener for my project?",
-            "de": "How do I choose the right fastener for my project?",
-            "hi": "How do I choose the right fastener for my project?"
+            "en": "When can I use thin or heavy hex nuts?",
+            "zh": "薄螺母和加厚螺母分别什么时候用？"
           },
           "a": {
-            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "zh": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "es": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "ar": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "fr": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "pt": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "ru": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "ja": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "de": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "hi": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+            "en": "Thin nuts are only for jam nuts and low-load locking, not for primary connections. Heavy hex nuts (ASTM A563 style) suit structural bolting where the nut must develop the full bolt strength. Standard hex nuts cover general machinery and construction.",
+            "zh": "薄螺母只用于锁紧副螺母和低载荷防松，不能做主连接。加厚六角螺母（ASTM A563 型）用于结构螺栓连接，要能发挥螺栓全部强度。标准六角螺母适合一般机械与建筑。"
           }
         },
         {
           "q": {
-            "en": "What materials are available for these fasteners?",
-            "zh": "What materials are available for these fasteners?",
-            "es": "What materials are available for these fasteners?",
-            "ar": "What materials are available for these fasteners?",
-            "fr": "What materials are available for these fasteners?",
-            "pt": "What materials are available for these fasteners?",
-            "ru": "What materials are available for these fasteners?",
-            "ja": "What materials are available for these fasteners?",
-            "de": "What materials are available for these fasteners?",
-            "hi": "What materials are available for these fasteners?"
+            "en": "Which nut finish works in African climates?",
+            "zh": "非洲气候下螺母用什么表面处理？"
           },
           "a": {
-            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "zh": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "es": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "ar": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "fr": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "pt": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "ru": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "ja": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "de": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "hi": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
-          }
-        },
-        {
-          "q": {
-            "en": "Do you offer custom manufacturing?",
-            "zh": "Do you offer custom manufacturing?",
-            "es": "Do you offer custom manufacturing?",
-            "ar": "Do you offer custom manufacturing?",
-            "fr": "Do you offer custom manufacturing?",
-            "pt": "Do you offer custom manufacturing?",
-            "ru": "Do you offer custom manufacturing?",
-            "ja": "Do you offer custom manufacturing?",
-            "de": "Do you offer custom manufacturing?",
-            "hi": "Do you offer custom manufacturing?"
-          },
-          "a": {
-            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "zh": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "es": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "ar": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "fr": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "pt": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "ru": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "ja": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "de": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "hi": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
+            "en": "Hot-dip galvanized for outdoor and coastal, with nuts tapped oversize after galvanizing so they still fit. Zinc-flake coating for 10.9 assemblies to avoid embrittlement. Stainless for marine and chemical. Electro-zinc is only for dry interior work.",
+            "zh": "室外与沿海用热浸镀锌，螺母在镀后攻丝（加大公差）才能装配。10.9 组合用锌铝涂层避免氢脆。海洋与化工用不锈钢。电镀锌只适合室内干燥。"
           }
         }
       ],

@@ -314,54 +314,32 @@
         },
         {
           "q": {
-            "en": "What standards should I follow?",
-            "zh": "应该遵循哪些标准？",
-            "es": "What standards should I follow?",
-            "ar": "What standards should I follow?",
-            "fr": "What standards should I follow?",
-            "pt": "What standards should I follow?",
-            "ru": "What standards should I follow?",
-            "ja": "What standards should I follow?",
-            "de": "What standards should I follow?",
-            "hi": "What standards should I follow?"
+            "en": "What is the difference between EXW and XT Beira pricing?",
+            "zh": "EXW 与 XT Beira 报价有什么区别？"
           },
           "a": {
-            "en": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "zh": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "es": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ar": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "fr": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "pt": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ru": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ja": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "de": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "hi": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market."
+            "en": "EXW leaves everything after the factory gate to the buyer. XT Beira means the seller delivers to Beira with transport and export clearance included, but import duty and local taxes are still the buyer's. CIF adds marine insurance and freight to the named port.",
+            "zh": "EXW 出厂后全部由买家负责。XT Beira 指卖方负责运到贝拉并完成出口清关，但进口关税与当地税费仍由买方承担。CIF 则再加海运费与保险到指定港。"
           }
         },
         {
           "q": {
-            "en": "How do I choose a reliable supplier?",
-            "zh": "如何选择可靠的供应商？",
-            "es": "How do I choose a reliable supplier?",
-            "ar": "How do I choose a reliable supplier?",
-            "fr": "How do I choose a reliable supplier?",
-            "pt": "How do I choose a reliable supplier?",
-            "ru": "How do I choose a reliable supplier?",
-            "ja": "How do I choose a reliable supplier?",
-            "de": "How do I choose a reliable supplier?",
-            "hi": "How do I choose a reliable supplier?"
+            "en": "Which documents does a Mozambique import need?",
+            "zh": "莫桑比克进口需要哪些文件？"
           },
           "a": {
-            "en": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "zh": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "es": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ar": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "fr": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "pt": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ru": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ja": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "de": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "hi": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region."
+            "en": "A DU (documento único) customs declaration, commercial invoice, packing list, bill of lading, certificate of origin, and mill test certificates for structural items. Missing the DU before arrival is the most common cause of port delays.",
+            "zh": "DU（单一报关单）、商业发票、装箱单、提单、原产地证，结构件还需材质证明。到港前未办妥 DU 是港口延误最常见的原因。"
+          }
+        },
+        {
+          "q": {
+            "en": "How long does Beira to the interior take?",
+            "zh": "贝拉港到内陆要多久？"
+          },
+          "a": {
+            "en": "Beira to the Zimbabwe border is about two days by truck; to Malawi's Shire Valley or Zambia's Copper Belt plan five to eight days depending on border queues. Rain season and fuel availability move these numbers, so keep a week of buffer in the schedule.",
+            "zh": "贝拉到津巴布韦边境卡车约两天；到马拉维希雷谷或赞比亚铜带省按五到八天算，取决于边境排队。雨季与燃油供应会影响实际时效，计划里要留一周缓冲。"
           }
         }
       ]

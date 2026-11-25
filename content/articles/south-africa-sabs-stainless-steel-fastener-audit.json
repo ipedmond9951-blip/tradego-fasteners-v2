@@ -273,6 +273,47 @@
       },
       "type": "text",
       "id": "maintaining-sabs-certification-and-ongoing-compliance"
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What does SABS certification require for stainless fasteners?"
+          },
+          "a": {
+            "en": "Compliance with the relevant SANS or ISO product standard, a documented quality system, product marking, and a successful audit of the manufacturing process. Certification is granted to the facility, not to a single shipment."
+          }
+        },
+        {
+          "q": {
+            "en": "How does the audit cycle work?"
+          },
+          "a": {
+            "en": "Initial certification covers application, documentation review and factory audit; surveillance audits then recur on a defined cycle. Lapsed or suspended certificates are common in the market, so buyers should verify current status rather than accept a certificate copy."
+          }
+        },
+        {
+          "q": {
+            "en": "Which documents should accompany a SABS-certified shipment?"
+          },
+          "a": {
+            "en": "Certificate of conformity, mill test reports with heat numbers, marking photographs and the audit or surveillance reference. Keep each document tied to an invoice line item so a customs or customer query can be answered quickly."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

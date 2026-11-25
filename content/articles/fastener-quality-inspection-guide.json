@@ -247,54 +247,32 @@
         },
         {
           "q": {
-            "en": "What standards should I follow?",
-            "zh": "应该遵循哪些标准？",
-            "es": "What standards should I follow?",
-            "ar": "What standards should I follow?",
-            "fr": "What standards should I follow?",
-            "pt": "What standards should I follow?",
-            "ru": "What standards should I follow?",
-            "ja": "What standards should I follow?",
-            "de": "What standards should I follow?",
-            "hi": "What standards should I follow?"
+            "en": "What should visual inspection catch before testing?",
+            "zh": "外观检验在测试前能抓出什么？"
           },
           "a": {
-            "en": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "zh": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "es": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ar": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "fr": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "pt": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ru": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ja": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "de": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "hi": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market."
+            "en": "Thread damage and laps, cracks at head-to-shank transition, coating blistering or bare patches, and illegible or missing head marks. These are the defects that cause rejection at destination, and they are visible without any instrument.",
+            "zh": "螺纹损伤与叠牙、头杆过渡处裂纹、镀层起泡或漏镀、头部标记模糊或缺失。这些正是到货被拒的原因，而且不需要仪器就能看出来。"
           }
         },
         {
           "q": {
-            "en": "How do I choose a reliable supplier?",
-            "zh": "如何选择可靠的供应商？",
-            "es": "How do I choose a reliable supplier?",
-            "ar": "How do I choose a reliable supplier?",
-            "fr": "How do I choose a reliable supplier?",
-            "pt": "How do I choose a reliable supplier?",
-            "ru": "How do I choose a reliable supplier?",
-            "ja": "How do I choose a reliable supplier?",
-            "de": "How do I choose a reliable supplier?",
-            "hi": "How do I choose a reliable supplier?"
+            "en": "How is dimensional inspection done properly?",
+            "zh": "尺寸检验怎么做才算规范？"
           },
           "a": {
-            "en": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "zh": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "es": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ar": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "fr": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "pt": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ru": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ja": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "de": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "hi": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region."
+            "en": "Use go/no-go thread gauges matched to the tolerance class, plus calipers for head diameter, head height, length and thread length against the drawing. Sample per lot and record the readings; a single 'looks fine' is not an inspection.",
+            "zh": "按公差等级配通止规，再用卡尺量头径、头高、长度与螺纹长度并与图纸比对。按批次抽样并记录读数——只写“看着没问题”不算检验。"
+          }
+        },
+        {
+          "q": {
+            "en": "Which mechanical tests matter most for import lots?",
+            "zh": "进口批次最重要的机械测试是哪些？"
+          },
+          "a": {
+            "en": "Hardness first as a cheap screen, then proof load or tensile on samples, wedge test for structural bolts, and hydrogen embrittlement checks for 10.9 and above. Salt spray belongs to coating verification, not to strength assessment.",
+            "zh": "先做硬度作为低成本筛查，再做抽样保证载荷或抗拉、结构螺栓楔负载，10.9 及以上加氢脆检查。盐雾试验属于镀层验证，与强度评估是两件事。"
           }
         }
       ]

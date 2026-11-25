@@ -183,6 +183,47 @@
         "de": "Erstens: Blechdicke und Profil, IBR 0,4 / 0,47 / 0,55 mm sowie die Deckbreite. Zweitens: Pfettentyp und Abstand, C oder Z, 1,2 m oder 1,5 m, sowie die Pfettendicke — eine 1,2 mm Pfette und eine 2,0 mm Pfette vertragen unterschiedliche Schraubenlängen. Drittens: Windzone oder der vom Ingenieur berechnete Sogdruck, denn allein dieser bestimmt die Dichte. Viertens: Beschichtung und Korrosionsaufgabe — feuerverzinkt, Zink-Aluminium oder Edelstahl für Scheibe und Schraube, abgestimmt auf die Salzeinwirkung an der Küste. Fünftens: Verpackung und Anlandung — Kartons pro Palette, und ob die Sendung im Hafen Daressalam unter HS 7318 mit TRA-Unterlagen verzollt wird. Nennen Sie diese fünf Angaben, und das Angebot ist keine Schätzung mehr; fehlen sie, kalkuliert jeder Lieferant ein anderes Dach.",
         "hi": "एक: शीट मोटाई और प्रोफाइल, 0.4 / 0.47 / 0.55 मिमी IBR और कवर विड्थ। दो: पर्लिन प्रकार और अंतर, C या Z, 1.2 मीटर या 1.5 मीटर, और पर्लिन मोटाई — 1.2 मिमी पर्लिन और 2.0 मिमी पर्लिन अलग स्क्रू लंबाई लेते हैं। तीन: हवा का क्षेत्र या इंजीनियर का डिज़ाइन अपलिफ्ट प्रेशर, क्योंकि अकेले यही डेंसिटी तय करता है। चार: कोटिंग और जंग ज़िम्मेदारी — हॉट-डिप जस्तीकृत, जिंक-एल्युमिनियम, या वॉशर और स्क्रू के लिए स्टेनलेस, तटीय नमक के एक्सपोज़र के मुताबिक। पाँच: पैकिंग और लैंडिंग — प्रति पैलेट डिब्बे, और क्या खेप दार एस सलाम बंदरगाह पर HS 7318 के तहत TRA दस्तावेज़ों के साथ क्लियर होती है। ये पाँच बातें दें तो कोटेशन अनुमान नहीं रहता; छोड़ दें तो हर सप्लायर अलग छत की कीमत लगाता है।"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Nail or screw for a Dar es Salaam warehouse roof?"
+          },
+          "a": {
+            "en": "Screws with EPDM washers where the roof must stay watertight and last, which is most coastal warehouses. Nails suit short-span sheltered roofs and repairs where cost dominates and call-backs are acceptable."
+          }
+        },
+        {
+          "q": {
+            "en": "What coating for salt-laden coastal air?"
+          },
+          "a": {
+            "en": "Ruspert or HDG-coated screws, and stainless where the budget allows. Dar es Salaam's chloride load means thin zinc washers and plain screws fail early, often within the first rainy seasons."
+          }
+        },
+        {
+          "q": {
+            "en": "How many fasteners per square metre?"
+          },
+          "a": {
+            "en": "Fixing density follows the wind zone and purlin spacing, commonly several screws per square metre at sheet ends and fewer in the field. Ask for the pattern with the quote, because the density is what determines the real cost."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

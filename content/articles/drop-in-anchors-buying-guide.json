@@ -219,6 +219,47 @@
         "de": "Eine klare Bestellung reduziert Fehler bei der Beschaffung von Drop-in-Dübeln für Exportprojekte. Geben Sie Dübeltyp, Innengewinde, Nenngröße, Länge, Werkstoff, Oberfläche, Setzwerkzeug-Bedarf und die gewünschten technischen Unterlagen an. Beispielsweise formulieren Sie „M8 bündiger Drop-in-Dübel, Kohlenstoffstahl, verzinkt, Menge, passendes M8-Setzwerkzeug“ nur dann, wenn dieser Werkstoff und diese Oberfläche zur Projektumgebung passen. Bei küstennahen, feuchten oder chemisch beanspruchten Standorten fragen Sie die vom Ingenieur geforderte Korrosionskategorie ab und bitten den Lieferanten, einen geeigneten Werkstoff oder eine Beschichtung anzubieten; fügen Sie keine Zertifizierungsangabe hinzu, die nicht vorliegt. Bestätigen Sie, ob Schrauben, Unterlegscheiben, Gewindestangen und Setzwerkzeuge im Lieferumfang enthalten sind oder separat erworben werden müssen. Die Verpackung sollte Dübel nach Gewindegröße und Charge getrennt halten, mit haltbaren Etiketten über Artikelcode, Größe, Menge, Werkstoff und Chargennummer. Kleine Montagewerkzeuge sind so zu verpacken, dass sie die Dübelkartons auf See- oder Landtransport nicht beschädigen können. Für Lieferungen nach Simbabwe, Sambia, Südafrika oder Mosambik stimmen Sie Lieferroute und Empfängerdaten ab, einschließlich der Frage, ob die Ware über Beira oder Durban geht, bevor die Versandzeichen festgelegt werden. Fordern Sie Kartonmaße, Bruttogewicht, Nettogewicht und Packlistenangaben für die Frachtplanung an. TradeGo kann ein werkseitiges Direktangebot nach freigegebener Spezifikation erstellen, doch Lieferzeit, Preis, Verpackung und Liefertermine sind anhand der tatsächlichen Bestellung und Route zu bestätigen. Prüfen Sie vor Versand technische Zeichnung, Etikettenmuster, Mengenaufteilung und Unterlagen gemeinsam mit dem Käufer.",
         "hi": "एक स्पष्ट खरीद ऑर्डर एक्सपोर्ट परियोजनाओं के लिए ड्रॉप-इन एंकर मंगवाते समय गलतियां कम करता है। एंकर का प्रकार, आंतरिक धागा, नॉमिनल साइज़, लंबाई, सामग्री, फिनिश, सेटिंग-टूल की आवश्यकता और अनुरोधित तकनीकी दस्तावेज़ लिखें। उदाहरण के लिए, “M8 फ्लश ड्रॉप-इन एंकर, कार्बन स्टील, जिंक प्लेटेड, मात्रा, मैचिंग M8 सेटिंग टूल” तभी निर्दिष्ट करें जब वह सामग्री और फिनिश प्रोजेक्ट के वातावरण के अनुकूल हों। अगर साइट तटीय, नम या रसायनों के संपर्क में है, तो इंजीनियर की अपेक्षित जंग श्रेणी मांगें और आपूर्तिकर्ता से उपयुक्त सामग्री या कोटिंग कोट करने को कहें; बिना प्रदान किए गए प्रमाणन दावे न जोड़ें। पुष्टि करें कि स्क्रू, वॉशर, थ्रेडेड रॉड और सेटिंग टूल शामिल हैं या अलग से खरीदने होंगे। पैकिंग में एंकर धागे के साइज़ और बैच के हिसाब से अलग रखे जाएं, टिकाऊ लेबल पर आइटम कोड, साइज़, मात्रा, सामग्री और लॉट संदर्भ दिखे। छोटे इंस्टॉलेशन टूल इस तरह पैक करें कि समुद्री या भीतरी परिवहन में वे एंकर के कार्टन को नुकसान न पहुंचाएं। ज़िम्बाब्वे, ज़ाम्बिया, दक्षिण अफ्रीका या मोज़ाम्बिक को शिपमेंट के लिए, शिपिंग मार्क्स पक्के करने से पहले डिलीवरी रूट और कंसाइनी विवरण पर सहमति बनाएं, जिसमें यह भी शामिल है कि कार्गो बेइरा या डरबन से जाएगा या नहीं। फ्रेट योजना के लिए कार्टन डाइमेंशन, सकल वजन, शुद्ध वजन और पैकिंग लिस्ट की जानकारी मांगें। TradeGo अनुमोदित स्पेसिफिकेशन से फैक्ट्री-डायरेक्ट कोटेशन तैयार कर सकता है, लेकिन लीड टाइम, कीमत, पैकिंग और डिलीवरी तारीखें असली ऑर्डर और रूट के अनुसार पक्की करनी चाहिए। डिस्पैच से पहले तकनीकी ड्राइंग, नमूना लेबल, मात्रा का बंटवारा और दस्तावेज़ खरीदार के साथ समीक्षा करें।"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What screw matches a drop-in anchor?"
+          },
+          "a": {
+            "en": "A standard metric machine screw or bolt of the same thread size - M6, M8, M10 or M12. The fixture determines the anchor size, so specify from the bracket, not the other way round."
+          }
+        },
+        {
+          "q": {
+            "en": "How is a drop-in anchor set correctly?"
+          },
+          "a": {
+            "en": "Drill to the specified diameter and depth, clean the hole, insert the anchor flush with the surface, then drive the setting tool to expand the internal plug. Over-driving is the most common cause of premature failure."
+          }
+        },
+        {
+          "q": {
+            "en": "What load limits should I respect?"
+          },
+          "a": {
+            "en": "Ratings are given in tension and shear for a specific substrate. Suspended services need a safety factor, and never load a drop-in anchor in tension beyond its published value in thin or cracked slabs."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

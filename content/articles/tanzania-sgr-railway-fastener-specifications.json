@@ -268,6 +268,47 @@
       },
       "type": "text",
       "id": "sgr-fastener-installation-and-maintenance-in-tanzania"
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Which fastener systems does the Tanzania SGR use?"
+          },
+          "a": {
+            "en": "Elastic rail clip systems with base plates and anchor bolts dominate, specified to project standards derived from UIC and EN practice. Clips, pads and insulators are supplied as matched sets rather than as individual parts."
+          }
+        },
+        {
+          "q": {
+            "en": "What should buyers check in rail clip and anchor bolt specifications?"
+          },
+          "a": {
+            "en": "Clip toe load, pad stiffness, bolt grade and coating, and the anchor bolt's pull-out performance in the sleeper. A mismatched clip and pad combination changes track stiffness, so they should be bought as one system."
+          }
+        },
+        {
+          "q": {
+            "en": "How is quality assured before shipment?"
+          },
+          "a": {
+            "en": "Sample testing for toe load and fatigue, dimensional checks on base plates, coating thickness on anchors, and a first-article inspection approved by the track engineer before volume production starts."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

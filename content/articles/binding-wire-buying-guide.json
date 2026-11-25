@@ -219,6 +219,47 @@
         "de": "Nennen Sie Durchmesser, Ausführung (schwarz geglüht, elektrolytisch verzinkt, schweres Zink oder PVC), Rollengewicht, Gesamttonnage und Bestimmungsort. Fügen Sie den Zugfestigkeitsbereich hinzu, falls das Projekt einen vorgibt, und ob der Draht für Bewehrung, Blockmauerwerk oder allgemeines Bündeln gedacht ist, denn das ändert die Empfehlung. Fragen Sie nach Herkunft des Walzdrahts und der Norm, bei chinesischer Ware üblicherweise GB/T 343, und nach einer Rollenprobe vor dem ersten Container. TradeGo liefert schwarz geglühten und elektrolytisch verzinkten Bindedraht von 0,7 bis 2,5 mm in Rollen zu nominal 25 kg, polyfoliert und palletisiert, mit Tonnage- und Straßenlasthinweisen für südafrikanische Bestimmungsorte.",
         "hi": "व्यास, फिनिश (काला एनील्ड, इलेक्ट्रो-गैल्वनाइज्ड, भारी जिंक या पीवीसी), कॉइल वजन, कुल टन भार और गंतव्य बताएँ। यदि परियोजना निर्देश दे तो टेन्साइल रेंज जोड़ें, और यह भी बताएँ कि वायर रिबार, ब्लॉकवर्क या सामान्य बंडलिंग के लिए है, क्योंकि इससे सिफारिश बदलती है। वायर रॉड का मूल और मानक संदर्भ पूछें, चीनी उत्पाद के लिए आमतौर पर GB/T 343, और पहले कंटेनर से पहले कॉइल नमूना माँगें। TradeGo 0.7 से 2.5 मिमी काला एनील्ड और इलेक्ट्रो-गैल्वनाइज्ड बाइंडिंग वायर, नाममात्र 25 किलो कॉइल में, पॉली-रैप्ड और पैलेटाइज़्ड आपूर्ति करता है, साथ ही दक्षिणी अफ़्रीकी गंतव्यों के लिए टन भार और सड़क सीमा की सलाह देता है।"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Which wire diameter for which rebar size?"
+          },
+          "a": {
+            "en": "Common diameters run 0.8 to 1.6 mm, with 1.2 mm covering most rebar up to about 25 mm and heavier wire used for large bar and tight spacing. Confirm against the tying pattern rather than a single rule."
+          }
+        },
+        {
+          "q": {
+            "en": "Annealed or galvanised binding wire?"
+          },
+          "a": {
+            "en": "Annealed black wire is softer, easier to handle and standard for site tying. Galvanised wire costs more but resists rust in humid storage and in exposed temporary work."
+          }
+        },
+        {
+          "q": {
+            "en": "How much wire does a project consume?"
+          },
+          "a": {
+            "en": "Budget roughly 5 to 10 kg per tonne of rebar as a planning reference, then verify against actual tying on the first pour. Coil weight and tolerance matter as much as the rate, because short coils waste time on site."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

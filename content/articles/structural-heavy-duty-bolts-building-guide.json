@@ -284,6 +284,14 @@
             "de": "Curtain wall fixing typically uses M12 or M16 Grade 8.8 HDG hex bolts or specialized stainless steel刺客螺栓 with nylon anchors for concrete backup. Spec depends on wind load calculations.",
             "hi": "Curtain wall fixing typically uses M12 or M16 Grade 8.8 HDG hex bolts or specialized stainless steel刺客螺栓 with nylon anchors for concrete backup. Spec depends on wind load calculations."
           }
+        },
+        {
+          "q": {
+            "en": "Which property class for steel structure connections?"
+          },
+          "a": {
+            "en": "ISO 898-1 class 8.8 is the general structural default, with 10.9 where the connection is compact and preload matters. Class 8.8 in a large assembly is often more practical than 10.9 because of hydrogen embrittlement risk in coating."
+          }
         }
       ],
       "body": {

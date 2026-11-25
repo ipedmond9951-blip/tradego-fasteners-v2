@@ -275,6 +275,14 @@
             "de": "Yes, but be aware of galvanic corrosion—stainless and zinc are dissimilar metals. In wet environments, use a nylon or plastic barrier washer between them.",
             "hi": "Yes, but be aware of galvanic corrosion—stainless and zinc are dissimilar metals. In wet environments, use a nylon or plastic barrier washer between them."
           }
+        },
+        {
+          "q": {
+            "en": "Which stainless grade for a marine deck?"
+          },
+          "a": {
+            "en": "A4/316 with molybdenum resists chloride pitting far better than A2/304, so 316 is the minimum for deck and splash-zone work. Below the waterline or in permanent immersion, duplex or a higher alloy is usually specified instead."
+          }
         }
       ],
       "body": {

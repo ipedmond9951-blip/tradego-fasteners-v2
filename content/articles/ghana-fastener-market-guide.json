@@ -218,32 +218,6 @@
         },
         {
           "q": {
-            "en": "What payment terms do you offer?",
-            "zh": "What payment terms do you offer?",
-            "es": "What payment terms do you offer?",
-            "ar": "What payment terms do you offer?",
-            "fr": "What payment terms do you offer?",
-            "pt": "What payment terms do you offer?",
-            "ru": "What payment terms do you offer?",
-            "ja": "What payment terms do you offer?",
-            "de": "What payment terms do you offer?",
-            "hi": "What payment terms do you offer?"
-          },
-          "a": {
-            "en": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and major project suppliers, we offer open account terms up to 60 days. Letter of Credit available for larger orders.",
-            "zh": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and major project suppliers, we offer open account terms up to 60 days. Letter of Credit available for larger orders.",
-            "es": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and major project suppliers, we offer open account terms up to 60 days. Letter of Credit available for larger orders.",
-            "ar": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and major project suppliers, we offer open account terms up to 60 days. Letter of Credit available for larger orders.",
-            "fr": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and major project suppliers, we offer open account terms up to 60 days. Letter of Credit available for larger orders.",
-            "pt": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and major project suppliers, we offer open account terms up to 60 days. Letter of Credit available for larger orders.",
-            "ru": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and major project suppliers, we offer open account terms up to 60 days. Letter of Credit available for larger orders.",
-            "ja": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and major project suppliers, we offer open account terms up to 60 days. Letter of Credit available for larger orders.",
-            "de": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and major project suppliers, we offer open account terms up to 60 days. Letter of Credit available for larger orders.",
-            "hi": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and major project suppliers, we offer open account terms up to 60 days. Letter of Credit available for larger orders."
-          }
-        },
-        {
-          "q": {
             "en": "Can you deliver to mining sites in remote areas?",
             "zh": "Can you deliver to mining sites in remote areas?",
             "es": "Can you deliver to mining sites in remote areas?",
@@ -266,6 +240,36 @@
             "ja": "Yes. We coordinate with freight forwarders for delivery to mining sites in Ahafo, Akyem, Obuasi, Tarkwa, and other locations. Additional transport costs apply for remote areas.",
             "de": "Yes. We coordinate with freight forwarders for delivery to mining sites in Ahafo, Akyem, Obuasi, Tarkwa, and other locations. Additional transport costs apply for remote areas.",
             "hi": "Yes. We coordinate with freight forwarders for delivery to mining sites in Ahafo, Akyem, Obuasi, Tarkwa, and other locations. Additional transport costs apply for remote areas."
+          }
+        },
+        {
+          "q": {
+            "en": "How does Ghana's import process work for fasteners?",
+            "zh": "加纳进口紧固件流程怎样？"
+          },
+          "a": {
+            "en": "Ghana uses a destination inspection model: goods clear at Tema or Takoradi with invoice, packing list, bill of lading, certificate of origin and the Ghana Standards Authority conformity documents where applicable. Duty and VAT are assessed at entry, and valuation disputes are the usual delay.",
+            "zh": "加纳采用目的港检验模式：货在特马或塔科拉迪清关，需发票、装箱单、提单、原产地证，适用时还需加纳标准局符合性文件。关税与增值税在入境时核定，估价争议是最常见的延误原因。"
+          }
+        },
+        {
+          "q": {
+            "en": "What sells best to Ghanaian buyers?",
+            "zh": "加纳买家最认哪些产品？"
+          },
+          "a": {
+            "en": "Roofing screws, galvanized structural bolts for warehouses and mining camps, concrete anchors and drywall screws for fit-out work. The oil and gas sector buys stainless and coated hardware with full documentation.",
+            "zh": "屋面钉、仓库与矿营镀锌结构螺栓、混凝土锚栓、装修用干墙钉。油气行业则采购带完整文档的不锈钢与涂层件。"
+          }
+        },
+        {
+          "q": {
+            "en": "Which port and route should I plan for?",
+            "zh": "该按哪个港口和路线规划？"
+          },
+          "a": {
+            "en": "Tema handles most container traffic for Accra and the north, Takoradi serves the western mining belt. Port congestion and demurrage at Tema are seasonal, so add buffer time to the schedule rather than assuming a fixed transit.",
+            "zh": "特马承担阿克拉及北部大部分集装箱货，塔科拉迪服务西部矿区。特马的拥堵与滞港有季节性，排期要留缓冲，不要假设固定转运时间。"
           }
         }
       ]

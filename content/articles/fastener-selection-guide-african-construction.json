@@ -301,54 +301,32 @@
         },
         {
           "q": {
-            "en": "What standards should I follow?",
-            "zh": "应该遵循哪些标准？",
-            "es": "What standards should I follow?",
-            "ar": "What standards should I follow?",
-            "fr": "What standards should I follow?",
-            "pt": "What standards should I follow?",
-            "ru": "What standards should I follow?",
-            "ja": "What standards should I follow?",
-            "de": "What standards should I follow?",
-            "hi": "What standards should I follow?"
+            "en": "What should I check first when selecting fasteners for an African project?",
+            "zh": "非洲项目选型第一步该看什么？"
           },
           "a": {
-            "en": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "zh": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "es": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ar": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "fr": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "pt": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ru": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ja": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "de": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "hi": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market."
+            "en": "Start with the corrosion category of the site, not the price: inland dry, coastal, industrial or mining service each rules out different coatings. Then confirm the load and the standards system the client's engineer will inspect against.",
+            "zh": "先看现场腐蚀等级而不是价格：内陆干燥、沿海、工业、矿山各自排除不同的镀层方案。之后确认荷载，以及客户工程师验收所依据的标准体系。"
           }
         },
         {
           "q": {
-            "en": "How do I choose a reliable supplier?",
-            "zh": "如何选择可靠的供应商？",
-            "es": "How do I choose a reliable supplier?",
-            "ar": "How do I choose a reliable supplier?",
-            "fr": "How do I choose a reliable supplier?",
-            "pt": "How do I choose a reliable supplier?",
-            "ru": "How do I choose a reliable supplier?",
-            "ja": "How do I choose a reliable supplier?",
-            "de": "How do I choose a reliable supplier?",
-            "hi": "How do I choose a reliable supplier?"
+            "en": "What does tropical climate change in the specification?",
+            "zh": "热带气候会改变哪些规范要求？"
           },
           "a": {
-            "en": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "zh": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "es": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ar": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "fr": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "pt": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ru": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ja": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "de": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "hi": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region."
+            "en": "High humidity and heat accelerate zinc consumption and coating blistering, so move up one coating class: hot-dip or AZ150 instead of electro-zinc, 316 instead of 304 near the coast. Timber treated with copper-based preservatives also requires stainless or heavy coated fasteners.",
+            "zh": "高温高湿加速锌消耗与镀层起泡，镀层等级要上调一档：电镀锌改热浸镀锌或 AZ150，沿海 304 改 316。使用含铜防腐剂的木材还必须配不锈钢或厚镀层紧固件。"
+          }
+        },
+        {
+          "q": {
+            "en": "Do local standards or international standards govern acceptance?",
+            "zh": "验收按当地标准还是国际标准？"
+          },
+          "a": {
+            "en": "Regulated products need the local mark - SABS in South Africa, KEBS PVoC in Kenya, SONCAP in Nigeria - regardless of what the drawing says. For non-regulated items, ISO or DIN with a 3.1 mill certificate satisfies most consultants, but the project spec must name it.",
+            "zh": "受规管产品必须有当地标志——南非 SABS、肯尼亚 KEBS PVoC、尼日利亚 SONCAP——不管图纸怎么写。非规管件用 ISO 或 DIN 加 3.1 材质证明通常可被顾问接受，但项目规范里要写明。"
           }
         }
       ]

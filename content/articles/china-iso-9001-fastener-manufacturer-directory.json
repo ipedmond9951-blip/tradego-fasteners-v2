@@ -286,54 +286,32 @@
         },
         {
           "q": {
-            "en": "What standards should I follow?",
-            "zh": "应该遵循哪些标准？",
-            "es": "What standards should I follow?",
-            "ar": "What standards should I follow?",
-            "fr": "What standards should I follow?",
-            "pt": "What standards should I follow?",
-            "ru": "What standards should I follow?",
-            "ja": "What standards should I follow?",
-            "de": "What standards should I follow?",
-            "hi": "What standards should I follow?"
+            "en": "What does ISO 9001 actually prove about a fastener factory?",
+            "zh": "ISO 9001 对紧固件工厂到底证明什么？"
           },
           "a": {
-            "en": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "zh": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "es": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ar": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "fr": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "pt": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ru": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ja": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "de": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "hi": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market."
+            "en": "It proves the factory has a documented quality management system, not that its bolts meet 8.8 or that its coating is 50 microns. Product conformity still needs mill test certificates and dimensional or mechanical test results for the lot you buy.",
+            "zh": "它证明工厂有文件化的质量管理体系，不证明螺栓达到 8.8 级、也不证明镀层有 50 μm。产品符合性仍要靠你所购批次的材质证明与尺寸、机械测试结果。"
           }
         },
         {
           "q": {
-            "en": "How do I choose a reliable supplier?",
-            "zh": "如何选择可靠的供应商？",
-            "es": "How do I choose a reliable supplier?",
-            "ar": "How do I choose a reliable supplier?",
-            "fr": "How do I choose a reliable supplier?",
-            "pt": "How do I choose a reliable supplier?",
-            "ru": "How do I choose a reliable supplier?",
-            "ja": "How do I choose a reliable supplier?",
-            "de": "How do I choose a reliable supplier?",
-            "hi": "How do I choose a reliable supplier?"
+            "en": "How can I verify an ISO 9001 certificate?",
+            "zh": "怎么核实 ISO 9001 证书是真的？"
           },
           "a": {
-            "en": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "zh": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "es": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ar": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "fr": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "pt": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ru": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ja": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "de": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "hi": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region."
+            "en": "Take the certificate number and issuer, then check the issuer's own database rather than a PDF: confirm the certified scope covers fasteners, the site address matches, and the expiry date is current. Certificates for a different product scope are common in trading presentations.",
+            "zh": "拿证书编号与发证机构，去发证机构自己的数据库查而不是看 PDF：确认认证范围含紧固件、地址一致、有效期未过。贸易宣传里常见范围不符的证书。"
+          }
+        },
+        {
+          "q": {
+            "en": "What should I look for beyond the certificate?",
+            "zh": "除了证书还要看什么？"
+          },
+          "a": {
+            "en": "In-house heat treatment and coating lines, capacity that matches your volume, export experience to comparable markets, and willingness to run a pre-production sample. A certified factory that outsources every process cannot control the properties you are buying.",
+            "zh": "自有热处理与镀层产线、产能与你的量匹配、有同类市场出口经验、愿意做产前样。把每道工序都外协的“认证工厂”，控制不了你真正买到的性能。"
           }
         }
       ]

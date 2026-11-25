@@ -278,6 +278,47 @@
       },
       "type": "text",
       "id": "fastener-specifications-for-drc-mining-equipment-brands"
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What makes fastener supply to DRC mining concessions difficult?"
+          },
+          "a": {
+            "en": "Remote sites, long inland haulage from Dar es Salaam or Beira, and equipment fleets that mix several OEM brands, each with its own fastener standard. Customs variability on top of that is what turns a late shipment into a stopped production line."
+          }
+        },
+        {
+          "q": {
+            "en": "How should a concession plan its fastener inventory?"
+          },
+          "a": {
+            "en": "Build the list by equipment brand and assembly, split parts into critical and consumable, and hold buffer stock for critical items at the site warehouse while consumables run on scheduled replenishment from China."
+          }
+        },
+        {
+          "q": {
+            "en": "Which documents support DRC import clearance?"
+          },
+          "a": {
+            "en": "Commercial invoice, packing list, bill of lading, certificate of origin and mill test reports; mining contracts often add a pre-shipment inspection certificate. Invoice values and HS codes must match exactly, because mismatches trigger manual review and demurrage."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

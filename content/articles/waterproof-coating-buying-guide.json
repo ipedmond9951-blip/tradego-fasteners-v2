@@ -243,6 +243,47 @@
         "de": "Für eine Abdichtungsbeschichtungsbestellung nach süd- und ostafrikanischen Häfen wie Beira, Durban und Mombasa sowie Binnenzielen wie Simbabwe schützen sachgemäße Verpackung und Lagerung die Haltbarkeit gegen Hitze und Feuchte. Flüssigmembran-Produkte, ob Polyurethan- oder Gummiasphalt-Beschichtung, werden üblicherweise in versiegelten Stahlfässern von 200 kg oder 220 kg oder Plastikeimern von 20 kg und 25 kg mit manipulationssicherem Deckel versandt. Erstens prüfen Sie vor dem Palettieren Chargennummern, Herstellungsdaten und Gefahrgutkennzeichen gegen Packlisten und Handelsrechnungen. Zweitens sichern Sie Eimer oder Fässer auf hitzebehandelten Holzpaletten nach ISO 445 oder ISPM 15-Verpackungsregeln mit Eckwinkeln und Stretchfolie, damit die Ladung im Transit nicht verrutscht. Drittens laden Sie Container mit Silicagel-Trocknungsbeuteln und sichern die Ladung in 20 ft oder 40 ft Universalcontainern, um Stöße während Seereise und Binnen-Lkw-Transport zu vermeiden. Auf Baustellen oder Lagerhäusern lagern Sie Flüssigmembran-Behälter im Innenraum vom feuchten Boden entfernt, idealerweise zwischen 5 C und 30 C als typischem Branchenwert, und fern von offener Flamme und direkter Sonneneinstrahlung. Folgen Sie ISO 2811 für Dichteprüfungen, ASTM D4226 oder EN 1504-2 wo auf Beschichtungssysteme anwendbar, und prüfen den Verbrauch pro m2 auf Dachuntergründen vor dem Auftrag. Die Zusammenarbeit mit einem zuverlässigen Abdichtungslieferanten mindert Schadensansprüche und Verzögerungen.",
         "hi": "बेइरा, डरबन और मोम्बासा जैसे दक्षिणी और पूर्वी अफ़्रीकी बंदरगाहों तथा ज़िम्बाब्वे जैसे अंतर्देशीय गंतव्यों को भेजे जाने वाले वाटरप्रूफ कोटिंग ऑर्डर के लिए उचित पैकिंग और स्टोरेज गर्मी और आर्द्रता के खिलाफ़ शेल्फ लाइफ बचाता है। लिक्विड वॉटरप्रूफ मेम्ब्रेन उत्पाद, चाहे पॉलीयुरेथेन वाटरप्रूफ कोटिंग हो या रबर-बिटुमेन वाटरप्रूफ कोटिंग, आमतौर पर 200 kg या 220 kg के सीलबंद स्टील ड्रम या 20 kg और 25 kg की प्लास्टिक बाल्टी में टैपर-एविडेंट ढक्कन के साथ भेजे जाते हैं। पहले, पैलेटाइज़ करने से पहले बैच नंबर, मैन्युफ़ैक्चरिंग तारीख और हैज़र्ड लेबल पैकिंग लिस्ट और कमर्शियल इनवॉइस से मिलाते हुए जाँचें। दूसरे, ISO 445 या ISPM 15 वुड पैकेजिंग नियमों के तहत हीट-ट्रीटेड वुडन पैलेट पर कॉर्नर बोर्ड और स्ट्रेच रैप का उपयोग कर बाल्टी या ड्रम स्ट्रैप करें, ताकि ट्रांज़िट में लोड शिफ़्ट न हो। तीसरे, 20 ft या 40 ft जनरल-परपज़ कंटेनर में सिलिका जेल डेसिकेंट बैग लोड करें और कार्गो सुरक्षित करें, ताकि समुद्री यात्रा और अंतर्देशीय ट्रकिंग के दौरान इम्पैक्ट न हो। जॉब साइट या वेयरहाउस में लिक्विड वॉटरप्रूफ मेम्ब्रेन कंटेनरों को गीले फ़्लोर से हटाकर इमारत के अंदर स्टोर करें, आदर्श रूप से सामान्य उद्योग मान के रूप में 5 C से 30 C के बीच, और खुली लौ और सीधी धूप से दूर रखें। डेंसिटी जाँच के लिए ISO 2811, कोटिंग सिस्टम पर लागू होने पर ASTM D4226 या EN 1504-2 गाइडेंस का पालन करें, और लगाने से पहले छत सबस्ट्रेट पर प्रति m2 कवरेज जाँचें। भरोसेमंद वाटरप्रूफ कोटिंग सप्लायर के साथ काम करना डैमेज क्लेम और देरी कम करता है।"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Polyurethane, acrylic or rubber asphalt?"
+          },
+          "a": {
+            "en": "PU for exposed roofs and ponding areas where elasticity matters, acrylic as a UV-stable topcoat on roofs and walls at lower cost, rubber asphalt for basements and detail work where adhesion to damp substrates is needed."
+          }
+        },
+        {
+          "q": {
+            "en": "How much coverage should I plan per coat?"
+          },
+          "a": {
+            "en": "Coverage depends on the wet film thickness in the technical data sheet, not the label on the pail. Most roofs need two coats plus detail reinforcement, so plan consumption from m2 per coat rather than from the container size."
+          }
+        },
+        {
+          "q": {
+            "en": "What causes most coating failures?"
+          },
+          "a": {
+            "en": "Poor surface preparation, too few coats, missing reinforcement at upstands, corners and drains, and application in rain or below the minimum temperature."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

@@ -244,6 +244,47 @@
         "de": "Bei der Beschaffung von Coilnägeln für Hochgeschwindigkeits-Pneumatikgeräte verhindert die Prüfung von Zusammenstellgleichmäßigkeit und Klemmverhalten vor Versand kostspielige Linienstillstände. Beginnen Sie mit der Verifikation der Nagelgeometrie nach ASTM F1667 oder EN 14592, übliche Coilnagelgrößen von 50 bis 90 mm Länge und 2,5 bis 3,1 mm Schaftdurchmesser abdeckend, und prüfen Sie einschlägige DIN- oder ISO-Toleranzen für Drahtstärke und Oberfläche. Inspizieren Sie 15-Grad-Coilnägel und kunststoffzusammengestellte Coilnägel auf gleichmäßigen Drahtschweißabstand, gerade Schaftausrichtung und saubere Streifenformung ohne Grate oder gespaltene Kragen, die Vorschubklinken haken. Prüfen Sie Ringschaft-Coilnägel und 21-Grad-Rahmennägel, um Kopfsitz und Spitzenkonzentrizität zu bestätigen, damit Rollen ohne Haken abrollen. Als Nächstes führen Sie eine schrittweise Bankprüfung über mehrere Rollen je Charge durch: Messen Sie Teilungsabstand und Rolleninnendurchmesser, laden Sie jede Rolle in ein passendes Magazin, feuern Sie Teststöße bei Nenndruck ab und protokollieren Sie jeden Fehlvorschub oder Antriebsklemmung. Eine Klemmquote unter 0,5 Prozent ist ein branchenüblicher Wert für gut geformte drahtverschweißte Rollen, während Kunststoffzusammenstellungen besondere Sorgfalt gegen Erweichung durch Hitze oder Sprödbruch beim Hafen-Hitzetransit über Durban oder Beira zu Binnenmärkten wie Simbabwe erfordern. Abschließend inspizieren Sie Kartonverpackung und Feuchtigkeitsbarrieren, damit Coilnägel für Paletten und konstruktiven Rohbau trocken, unbeschädigt und bereit für unmittelbare Werkzeugladung eintreffen.",
         "hi": "हाई-स्पीड न्यूमेटिक टूल के लिए कॉइल नेल सोर्स करते समय, शिपमेंट से पहले कोलेशन स्थिरता और जैम प्रदर्शन की जांच करना महंगी लाइन रुकावटों को रोकता है। ASTM F1667 या EN 14592 के अनुसार नेल ज्योमेट्री सत्यापित करके शुरू करें, जिसमें 50 से 90 मिमी लंबाई और 2.5 से 3.1 मिमी शैंक व्यास वाले सामान्य कॉइल नेल आकार शामिल हैं, साथ ही वायर गेज और फिनिश पर प्रासंगिक DIN या ISO टॉलरेंस की जांच करें। 15-डिग्री कॉइल नेल और प्लास्टिक कोलेटेड कॉइल नेल की जांच करें कि वायर वेल्ड स्पेसिंग एकसमान हो, शैंक सीधा अलाइनमेंट में हो, और स्ट्रिप मोल्डिंग साफ-सुथरी हो, बिना बर्र या फटे कॉलर के जो फीडर पॉज़िशन में अटकते हैं। रिंग शैंक कॉइल नेल और 21-डिग्री फ्रेमिंग नेल की जांच करें ताकि हेड सीटिंग और पॉइंट कंसेंट्रिसिटी की पुष्टि हो सके, जिससे कॉइल बिना बाइंडिंग के सुचारू रूप से खुलें। इसके बाद प्रति बैच कई कॉइल पर चरण-दर-चरण बेंच जांच चलाएं: पिच स्पेसिंग और कॉइल इनर डायमीटर मापें, प्रत्येक कॉइल को मैचिंग मैगज़ीन में लोड करें, रेटेड एयर प्रेशर पर टेस्ट बर्स्ट फायर करें, और हर फीड मिसफीड या ड्राइवर जैम को लॉग करें। अच्छी तरह बनी वायर-वेल्डेड कॉइल के लिए 0.5 प्रतिशत से कम जैम दर एक सामान्य उद्योग मान है, जबकि प्लास्टिक कोलेशन को डरबन या बेयरा से ज़िंबाब्वे जैसे अंतर्देशीय बाज़ारों तक गर्म पोर्ट ट्रांज़िट के दौरान हीट सॉफ्टनिंग या भंगुर फ्रैक्चर से बचाने के लिए अतिरिक्त सावधानी चाहिए। अंत में, कार्टन पैकिंग और मॉइस्चर बैरियर का निरीक्षण करें ताकि पैलेट और स्ट्रक्चरल फ्रेमिंग के लिए कॉइल नेल सूखे, बिना क्षतिग्रस्त और तुरंत टूल लोडिंग के लिए तैयार पहुंचें।"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Which collation angle fits my nailer?"
+          },
+          "a": {
+            "en": "15 degrees fits most framing nailers, 21 degrees many European tools and 28 degrees roofing and siding tools. The angle must match the magazine, so confirm the tool model before ordering."
+          }
+        },
+        {
+          "q": {
+            "en": "Ring shank or smooth shank?"
+          },
+          "a": {
+            "en": "Ring shank for pallets, crates and anything that must resist withdrawal. Smooth shank for framing where driving speed and minimal surface damage matter more than pull-out."
+          }
+        },
+        {
+          "q": {
+            "en": "Which coating for African coastal sites?"
+          },
+          "a": {
+            "en": "Hot-dip galvanised or stainless for coastal and preservative-treated timber. Bright or thin electro-zinc is for interior, dry service only."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

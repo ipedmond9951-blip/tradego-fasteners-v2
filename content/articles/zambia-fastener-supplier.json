@@ -218,32 +218,6 @@
         },
         {
           "q": {
-            "en": "What payment terms do you offer?",
-            "zh": "What payment terms do you offer?",
-            "es": "What payment terms do you offer?",
-            "ar": "What payment terms do you offer?",
-            "fr": "What payment terms do you offer?",
-            "pt": "What payment terms do you offer?",
-            "ru": "What payment terms do you offer?",
-            "ja": "What payment terms do you offer?",
-            "de": "What payment terms do you offer?",
-            "hi": "What payment terms do you offer?"
-          },
-          "a": {
-            "en": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and mining company suppliers, we offer open account terms up to 60 days. Letter of Credit available for orders exceeding USD 10,000.",
-            "zh": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and mining company suppliers, we offer open account terms up to 60 days. Letter of Credit available for orders exceeding USD 10,000.",
-            "es": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and mining company suppliers, we offer open account terms up to 60 days. Letter of Credit available for orders exceeding USD 10,000.",
-            "ar": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and mining company suppliers, we offer open account terms up to 60 days. Letter of Credit available for orders exceeding USD 10,000.",
-            "fr": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and mining company suppliers, we offer open account terms up to 60 days. Letter of Credit available for orders exceeding USD 10,000.",
-            "pt": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and mining company suppliers, we offer open account terms up to 60 days. Letter of Credit available for orders exceeding USD 10,000.",
-            "ru": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and mining company suppliers, we offer open account terms up to 60 days. Letter of Credit available for orders exceeding USD 10,000.",
-            "ja": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and mining company suppliers, we offer open account terms up to 60 days. Letter of Credit available for orders exceeding USD 10,000.",
-            "de": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and mining company suppliers, we offer open account terms up to 60 days. Letter of Credit available for orders exceeding USD 10,000.",
-            "hi": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and mining company suppliers, we offer open account terms up to 60 days. Letter of Credit available for orders exceeding USD 10,000."
-          }
-        },
-        {
-          "q": {
             "en": "Can you deliver to remote mining locations?",
             "zh": "Can you deliver to remote mining locations?",
             "es": "Can you deliver to remote mining locations?",
@@ -266,6 +240,36 @@
             "ja": "Yes. We coordinate with freight forwarders experienced in Copperbelt logistics for delivery to Kitwe, Ndola, Chingola, Kalulushi, and Chirugulu mining sites. Additional transport costs apply for remote locations.",
             "de": "Yes. We coordinate with freight forwarders experienced in Copperbelt logistics for delivery to Kitwe, Ndola, Chingola, Kalulushi, and Chirugulu mining sites. Additional transport costs apply for remote locations.",
             "hi": "Yes. We coordinate with freight forwarders experienced in Copperbelt logistics for delivery to Kitwe, Ndola, Chingola, Kalulushi, and Chirugulu mining sites. Additional transport costs apply for remote locations."
+          }
+        },
+        {
+          "q": {
+            "en": "What do Zambian mining and construction buyers order most?",
+            "zh": "赞比亚矿山与建筑买家最常订什么？"
+          },
+          "a": {
+            "en": "Galvanized structural bolts and nuts for plant steelwork, conveyor and crusher fasteners, and stainless or heavy-coated hardware for wet processing areas. Copper Belt acid and slurry environments destroy thin zinc coatings within a season.",
+            "zh": "厂房钢结构用镀锌结构螺栓与螺母、输送与破碎设备紧固件、湿法工段用不锈钢或厚镀层件。铜带省的酸性介质与矿浆环境，薄镀锌一个季度就失效。"
+          }
+        },
+        {
+          "q": {
+            "en": "How are goods routed to the Copper Belt?",
+            "zh": "货怎么运到铜带省？"
+          },
+          "a": {
+            "en": "Beira through Zimbabwe is the shortest corridor, roughly 1,900 km; Dar es Salaam is longer and often congested. Compare total landed cost including border delays, because the cheapest ocean freight can lose to the faster corridor on a shutdown deadline.",
+            "zh": "经津巴布韦走贝拉是最短走廊，约 1900 公里；达累斯萨拉姆更远且常拥堵。要比含边境延误的总到岸成本——在停机检修的截止期面前，最便宜的海运费可能反而输给更快的走廊。"
+          }
+        },
+        {
+          "q": {
+            "en": "What documents should accompany a Zambian shipment?",
+            "zh": "发往赞比亚的货要附哪些文件？"
+          },
+          "a": {
+            "en": "Invoice, packing list, bill of lading, certificate of origin, mill test certificates and ZABS conformity documents where regulated. Send scanned copies before the vessel departs so the clearing agent can pre-file and avoid port storage fees.",
+            "zh": "发票、装箱单、提单、原产地证、材质证明，受管制产品还要 ZABS 符合性文件。开船前把扫描件发给报关代理预申报，避免产生堆存费。"
           }
         }
       ]

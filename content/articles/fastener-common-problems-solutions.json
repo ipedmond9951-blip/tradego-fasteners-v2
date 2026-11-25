@@ -193,54 +193,32 @@
         },
         {
           "q": {
-            "en": "What standards should I follow?",
-            "zh": "应该遵循哪些标准？",
-            "es": "What standards should I follow?",
-            "ar": "What standards should I follow?",
-            "fr": "What standards should I follow?",
-            "pt": "What standards should I follow?",
-            "ru": "What standards should I follow?",
-            "ja": "What standards should I follow?",
-            "de": "What standards should I follow?",
-            "hi": "What standards should I follow?"
+            "en": "Why do bolts loosen even when they were tight on installation?",
+            "zh": "螺栓装的时候拧紧了，为什么还会松？"
           },
           "a": {
-            "en": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "zh": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "es": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ar": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "fr": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "pt": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ru": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ja": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "de": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "hi": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market."
+            "en": "Three causes dominate: too little preload so the joint slips, transverse vibration that unwinds the thread, and creep or thermal cycling that relaxes the clamp. Fix the cause, not the symptom - set torque from the bolt class, add lock nuts or wedge-lock washers, and re-torque on schedule.",
+            "zh": "主要有三种原因：预紧力不足导致接头滑移、横向振动使螺纹退扣、以及蠕变或热循环让夹紧力松弛。要从原因入手：按等级定扭矩、加锁紧螺母或楔形垫圈、并按周期复紧。"
           }
         },
         {
           "q": {
-            "en": "How do I choose a reliable supplier?",
-            "zh": "如何选择可靠的供应商？",
-            "es": "How do I choose a reliable supplier?",
-            "ar": "How do I choose a reliable supplier?",
-            "fr": "How do I choose a reliable supplier?",
-            "pt": "How do I choose a reliable supplier?",
-            "ru": "How do I choose a reliable supplier?",
-            "ja": "How do I choose a reliable supplier?",
-            "de": "How do I choose a reliable supplier?",
-            "hi": "How do I choose a reliable supplier?"
+            "en": "How do I stop rust appearing within a year?",
+            "zh": "怎么避免一年内就生锈？"
           },
           "a": {
-            "en": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "zh": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "es": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ar": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "fr": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "pt": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ru": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ja": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "de": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "hi": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region."
+            "en": "Most early failures are specification or handling mistakes: electro-zinc used outdoors, coating damaged during transport, or cut ends left bare. Specify by environment, pack to protect the coating, and touch up cut or scratched areas with zinc-rich paint on site.",
+            "zh": "早期锈蚀多为规范或搬运问题：室外用了电镀锌、运输中镀层受损、切口未补漆。要按环境定镀层、包装保护镀层、现场对切口与划伤补富锌漆。"
+          }
+        },
+        {
+          "q": {
+            "en": "What makes a bolt break instead of bend?",
+            "zh": "螺栓为什么会断而不是弯？"
+          },
+          "a": {
+            "en": "Brittle fracture points to hydrogen embrittlement on high-strength grades, over-tightening past yield, or a heat-treatment problem. Fatigue fracture at the thread root points to vibration and insufficient preload. Send samples for hardness and metallography before changing suppliers.",
+            "zh": "脆性断裂指向高强度等级的氢脆、拧过屈服点或热处理问题；螺纹根部疲劳断裂则指向振动与预紧力不足。换供应商之前，先取样做硬度与金相分析。"
           }
         }
       ]

@@ -219,6 +219,47 @@
         "de": "Nennen Sie Stangendurchmesser und -länge, Einbindetiefe, Untergrundmaterial und Zustand (fest, rissig, nass, Randabstand), Umgebung (innen, Küste, chemisch), ob eine ETA oder ein Prüfbericht benötigt wird, sowie die Menge. Ergänzen Sie den Zubehörbedarf: Mutter, Unterlegscheibe, und ob ein Setzwerkzeug oder eine Mischdüse zum System benötigt wird. Ist die Bemessung bereits festgelegt, schicken Sie das Datenblatt, und wir kalkulieren danach statt zu ersetzen. TradeGo liefert Kapsel-Chemieanker von M8 bis M24, Stangenlänge 110 bis 300 mm, in verzinktem Kohlenstoffstahl und Edelstahl A4; geliefert werden Kapselsets mit Stange, Mutter und Unterlegscheibe, und für die Seefracht sind Kapseln getrennt von den Stangen verpackt.",
         "hi": "रॉड का व्यास और लंबाई, एम्बेडमेंट, आधार सामग्री और स्थिति (ठोस, फटा, गीला, किनारे की दूरी), पर्यावरण (आंतरिक, तटीय, रासायनिक), ETA या टेस्ट रिपोर्ट की आवश्यकता है या नहीं, और मात्रा भेजें। एक्सेसरी आवश्यकता भी जोड़ें: नट, वॉशर, और सिस्टम के साथ सेटिंग टूल या मिक्सिंग नोज़ल चाहिए या नहीं। यदि डिज़ाइन पहले ही तय हो चुका है, स्पेसिफिकेशन शीट भेजें और हम उसके विरुद्ध कोटेशन देंगे, बदलाव नहीं करेंगे। TradeGo M8 से M24 तक, 110 से 300 mm रॉड लंबाई की, जस्तीकृत कार्बन स्टील और A4 स्टेनलेस रॉड वाले कैप्सूल केमिकल एंकर सप्लाई करता है; ये रॉड, नट और वॉशर के साथ कैप्सूल किट के रूप में दिए जाते हैं, और समुद्री माल ढुलाई के लिए कैप्सूल रॉड से अलग पैक किए जाते हैं।"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "How does temperature affect cure time?"
+          },
+          "a": {
+            "en": "Cure time is a function of substrate temperature: warm concrete sets the resin faster, cold concrete much slower, and near freezing some systems stop curing altogether. Read the cure chart for the actual site temperature, not the laboratory figure."
+          }
+        },
+        {
+          "q": {
+            "en": "How should the hole be prepared?"
+          },
+          "a": {
+            "en": "Drill to the specified diameter and depth, then brush and blow out the hole in repeated cycles until dust stops coming out. Residual dust is the single biggest cause of low chemical anchor loads."
+          }
+        },
+        {
+          "q": {
+            "en": "When is a chemical anchor the wrong choice?"
+          },
+          "a": {
+            "en": "In hollow block, in continuously wet or flooded holes outside the system's rating, and where the substrate temperature falls outside the published range. In those cases a mechanical anchor or a redesign is safer than a bigger dose of resin."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

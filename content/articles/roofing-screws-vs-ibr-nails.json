@@ -199,6 +199,47 @@
         "de": "Ist das Dach dauerhaft, die Pfette Stahl oder der Standort starkem Wind und Starkregen ausgesetzt, verwenden Sie selbstbohrende Dachschrauben mit Dichtscheiben. Ist das Dach vorübergehend, die Pfette Holz und der Standort windgeschützt, sind Nägel die wirtschaftliche Wahl und funktionieren ausreichend.\n\nAlles dazwischen ist eine Frage davon, was ein Nachbesuch kostet. Rechnen Sie zuerst die Arbeitsdifferenz durch, dann prüfen Sie, was ein einziger Rückbesuch an einer versagenden Traufe kostet, und die Wahl ergibt sich meist von selbst.",
         "hi": "अगर छत पक्की है, पर्लिन स्टील है, या जगह पर तेज़ हवा और भारी बारिश होती है, तो सीलिंग वॉशर वाली सेल्फ-ड्रिलिंग रूफिंग स्क्रू इस्तेमाल करें। अगर छत अस्थाई है, पर्लिन लकड़ी का है, और जगह हवा से बची हुई है, तो कीलें किफ़ायती विकल्प हैं और स्वीकार्य तरीके से काम करेंगी।\n\nबीच की हर बात इस पर निर्भर करती है कि एक कॉलबैक आपको कितना महँगा पड़ता है। पहले श्रम के अंतर की कीमत लगाएँ, फिर सोचें कि फेल हुए ईव के लिए एक वापसी विज़िट कितनी महँगी होगी, और चुनाव आमतौर पर खुद-ब-खुद साफ हो जाता है।"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Which fastener holds better against wind uplift?"
+          },
+          "a": {
+            "en": "The screw, because it engages the purlin with a thread and the washer seals the hole. A nail relies on friction and can work loose under repeated wind loading, especially at sheet ends and ridge lines."
+          }
+        },
+        {
+          "q": {
+            "en": "Where do IBR nails still make sense?"
+          },
+          "a": {
+            "en": "Low-rise, sheltered roofs with short spans, tight budgets, and repairs where speed matters more than service life. On exposed sites and long sheets the saving on nails is usually lost to call-backs."
+          }
+        },
+        {
+          "q": {
+            "en": "What should the order specify either way?"
+          },
+          "a": {
+            "en": "Fastener type and size, coating class, washer specification for screws, spacing pattern by wind zone, and a wastage allowance. Cost per 1000 pieces is meaningless without the spacing and the coating."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

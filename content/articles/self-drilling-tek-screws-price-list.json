@@ -193,54 +193,32 @@
         },
         {
           "q": {
-            "en": "What standards should I follow?",
-            "zh": "应该遵循哪些标准？",
-            "es": "What standards should I follow?",
-            "ar": "What standards should I follow?",
-            "fr": "What standards should I follow?",
-            "pt": "What standards should I follow?",
-            "ru": "What standards should I follow?",
-            "ja": "What standards should I follow?",
-            "de": "What standards should I follow?",
-            "hi": "What standards should I follow?"
+            "en": "What drives the price of self-drilling screws?",
+            "zh": "自钻螺钉价格由什么决定？"
           },
           "a": {
-            "en": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "zh": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "es": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ar": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "fr": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "pt": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ru": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ja": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "de": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "hi": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market."
+            "en": "Coating is the biggest variable: AZ150 or higher adds real cost over thin electro-zinc, and stainless multiplies it again. Then diameter and length, head type, and whether the order is a full container or a mixed pallet.",
+            "zh": "镀层影响最大：AZ150 及以上比薄电镀锌明显更贵，不锈钢再翻一档。其次是直径与长度、头型，以及订单是整柜还是拼托。"
           }
         },
         {
           "q": {
-            "en": "How do I choose a reliable supplier?",
-            "zh": "如何选择可靠的供应商？",
-            "es": "How do I choose a reliable supplier?",
-            "ar": "How do I choose a reliable supplier?",
-            "fr": "How do I choose a reliable supplier?",
-            "pt": "How do I choose a reliable supplier?",
-            "ru": "How do I choose a reliable supplier?",
-            "ja": "How do I choose a reliable supplier?",
-            "de": "How do I choose a reliable supplier?",
-            "hi": "How do I choose a reliable supplier?"
+            "en": "How much does the Incoterm change the quoted price?",
+            "zh": "贸易术语对报价影响多大？"
           },
           "a": {
-            "en": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "zh": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "es": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ar": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "fr": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "pt": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ru": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ja": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "de": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "hi": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region."
+            "en": "FOB excludes ocean freight and destination charges; CIF adds freight and insurance to a named port, which for African routes can be a meaningful share of the unit price on heavy screws. Compare landed cost per thousand pieces, not per unit FOB.",
+            "zh": "FOB 不含海运费与目的港费用；CIF 加运费与保险到指定港，非洲航线对重的螺钉来说这部分占比不小。要按每千支的到岸成本比价，而不是比 FOB 单价。"
+          }
+        },
+        {
+          "q": {
+            "en": "Do larger orders really lower the unit price?",
+            "zh": "大订单真的能降单价吗？"
+          },
+          "a": {
+            "en": "Partly. Set-up and coating batch costs are spread over more pieces, but steel and zinc costs scale linearly. The biggest savings come from standardising a few lengths and coatings so the factory runs longer campaigns, not from pushing quantity alone.",
+            "zh": "部分能。开机与镀层批次成本被摊薄，但钢材与锌的成本是线性增长的。真正的降本来自把长度与镀层规格收敛到少数几种、让产线跑更长批次，而不仅是压数量。"
           }
         }
       ]

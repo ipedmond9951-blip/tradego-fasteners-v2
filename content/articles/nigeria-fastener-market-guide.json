@@ -220,54 +220,32 @@
         },
         {
           "q": {
-            "en": "What standards should I follow?",
-            "zh": "应该遵循哪些标准？",
-            "es": "What standards should I follow?",
-            "ar": "What standards should I follow?",
-            "fr": "What standards should I follow?",
-            "pt": "What standards should I follow?",
-            "ru": "What standards should I follow?",
-            "ja": "What standards should I follow?",
-            "de": "What standards should I follow?",
-            "hi": "What standards should I follow?"
+            "en": "How does SONCAP work for fastener imports into Nigeria?",
+            "zh": "尼日利亚 SONCAP 对紧固件怎么执行？"
           },
           "a": {
-            "en": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "zh": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "es": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ar": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "fr": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "pt": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ru": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ja": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "de": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "hi": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market."
+            "en": "Register the product and get a SONCAP certificate before shipment, then obtain a Certificate of Conformity (COC) for each consignment from an accredited body. Arriving without a COC means the goods are held at the port, and demurrage usually exceeds the value of the fasteners.",
+            "zh": "出货前先做产品注册并取得 SONCAP 证书，之后每批由认可机构签发符合性证书（COC）。没有 COC 到港会被扣，滞港费往往超过紧固件本身的价值。"
           }
         },
         {
           "q": {
-            "en": "How do I choose a reliable supplier?",
-            "zh": "如何选择可靠的供应商？",
-            "es": "How do I choose a reliable supplier?",
-            "ar": "How do I choose a reliable supplier?",
-            "fr": "How do I choose a reliable supplier?",
-            "pt": "How do I choose a reliable supplier?",
-            "ru": "How do I choose a reliable supplier?",
-            "ja": "How do I choose a reliable supplier?",
-            "de": "How do I choose a reliable supplier?",
-            "hi": "How do I choose a reliable supplier?"
+            "en": "What duties and taxes apply to fasteners in Nigeria?",
+            "zh": "尼日利亚紧固件的关税和税费是多少？"
           },
           "a": {
-            "en": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "zh": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "es": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ar": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "fr": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "pt": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ru": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ja": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "de": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "hi": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region."
+            "en": "HS 7318 fasteners typically attract 10-20% duty depending on the subheading, plus 7.5% VAT and a port levy. Confirm the exact HS code with your broker before quoting, because the subheading drives both duty and whether SONCAP applies.",
+            "zh": "HS 7318 紧固件按子目通常征 10–20% 关税，另加 7.5% 增值税与港口附加费。报价前让报关行确认准确 HS 编码——子目既决定税率，也决定是否适用 SONCAP。"
+          }
+        },
+        {
+          "q": {
+            "en": "Where do Nigerian buyers actually source fasteners?",
+            "zh": "尼日利亚买家实际从哪里采购？"
+          },
+          "a": {
+            "en": "Lagos industrial markets around Ladipo and Oshodi handle most retail and small-project volume, while oil and gas operators buy through approved vendor lists with full traceability. Project supply direct from China works for large orders, but local stock still wins on urgent consumables.",
+            "zh": "拉各斯 Ladipo、Oshodi 一带的工业市场承担大部分零售与小项目用量；油气企业则通过合格供应商名录采购并要求完整追溯。大订单可以直接从中国供项目，但急用耗材还是本地库存更快。"
           }
         }
       ]

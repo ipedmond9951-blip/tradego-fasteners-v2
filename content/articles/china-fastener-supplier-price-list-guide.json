@@ -314,54 +314,32 @@
         },
         {
           "q": {
-            "en": "What standards should I follow?",
-            "zh": "应该遵循哪些标准？",
-            "es": "What standards should I follow?",
-            "ar": "What standards should I follow?",
-            "fr": "What standards should I follow?",
-            "pt": "What standards should I follow?",
-            "ru": "What standards should I follow?",
-            "ja": "What standards should I follow?",
-            "de": "What standards should I follow?",
-            "hi": "What standards should I follow?"
+            "en": "Should I buy on FOB or CIF terms from China?",
+            "zh": "从中国采购该用 FOB 还是 CIF？"
           },
           "a": {
-            "en": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "zh": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "es": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ar": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "fr": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "pt": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ru": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ja": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "de": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "hi": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market."
+            "en": "FOB if you have your own forwarder and want control over routing and cost; CIF if you prefer one number landed at Mombasa, Durban or Beira. CIF hides the freight margin, so ask for the freight breakdown when comparing suppliers.",
+            "zh": "有自己的货代、想控制航线与成本就用 FOB；希望一个价格到蒙巴萨、德班或贝拉就用 CIF。CIF 会把运费利润藏起来，比价时应要求拆分运费。"
           }
         },
         {
           "q": {
-            "en": "How do I choose a reliable supplier?",
-            "zh": "如何选择可靠的供应商？",
-            "es": "How do I choose a reliable supplier?",
-            "ar": "How do I choose a reliable supplier?",
-            "fr": "How do I choose a reliable supplier?",
-            "pt": "How do I choose a reliable supplier?",
-            "ru": "How do I choose a reliable supplier?",
-            "ja": "How do I choose a reliable supplier?",
-            "de": "How do I choose a reliable supplier?",
-            "hi": "How do I choose a reliable supplier?"
+            "en": "How does MOQ work for fasteners from China?",
+            "zh": "中国紧固件的起订量怎么算？"
           },
           "a": {
-            "en": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "zh": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "es": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ar": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "fr": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "pt": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ru": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ja": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "de": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "hi": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region."
+            "en": "MOQ is usually set per size and coating, not per order: a factory may need 1,000-5,000 pieces of one length to justify a coating batch. Mixing sizes within one container is normal, but expect a small-order surcharge below the stated MOQ.",
+            "zh": "起订量通常按规格与镀层计，而不是按整单计：一个长度可能要 1000–5000 支才能凑够一批镀层。一个柜里混多个规格是常态，但低于起订量会有小单附加费。"
+          }
+        },
+        {
+          "q": {
+            "en": "Which factors matter most when comparing price lists?",
+            "zh": "比对价格表时最该看哪些因素？"
+          },
+          "a": {
+            "en": "Confirm the grade, coating thickness, thread tolerance, whether nuts and washers are included, packing, and the validity date of the quote. Price lists without a specification column are not comparable, whatever the numbers say.",
+            "zh": "确认等级、镀层厚度、螺纹公差、是否含螺母垫圈、包装，以及报价有效期。没有规格列的价格表，数字再低也不可比。"
           }
         }
       ]

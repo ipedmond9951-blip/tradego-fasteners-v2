@@ -218,32 +218,6 @@
         },
         {
           "q": {
-            "en": "What payment terms do you offer?",
-            "zh": "What payment terms do you offer?",
-            "es": "What payment terms do you offer?",
-            "ar": "What payment terms do you offer?",
-            "fr": "What payment terms do you offer?",
-            "pt": "What payment terms do you offer?",
-            "ru": "What payment terms do you offer?",
-            "ja": "What payment terms do you offer?",
-            "de": "What payment terms do you offer?",
-            "hi": "What payment terms do you offer?"
-          },
-          "a": {
-            "en": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and major mining company suppliers, we offer open account terms up to 60 days. Letter of Credit available for larger orders.",
-            "zh": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and major mining company suppliers, we offer open account terms up to 60 days. Letter of Credit available for larger orders.",
-            "es": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and major mining company suppliers, we offer open account terms up to 60 days. Letter of Credit available for larger orders.",
-            "ar": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and major mining company suppliers, we offer open account terms up to 60 days. Letter of Credit available for larger orders.",
-            "fr": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and major mining company suppliers, we offer open account terms up to 60 days. Letter of Credit available for larger orders.",
-            "pt": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and major mining company suppliers, we offer open account terms up to 60 days. Letter of Credit available for larger orders.",
-            "ru": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and major mining company suppliers, we offer open account terms up to 60 days. Letter of Credit available for larger orders.",
-            "ja": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and major mining company suppliers, we offer open account terms up to 60 days. Letter of Credit available for larger orders.",
-            "de": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and major mining company suppliers, we offer open account terms up to 60 days. Letter of Credit available for larger orders.",
-            "hi": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers and major mining company suppliers, we offer open account terms up to 60 days. Letter of Credit available for larger orders."
-          }
-        },
-        {
-          "q": {
             "en": "Can you handle orders for remote mining locations?",
             "zh": "Can you handle orders for remote mining locations?",
             "es": "Can you handle orders for remote mining locations?",
@@ -266,6 +240,36 @@
             "ja": "Yes. We coordinate with freight forwarders experienced in DRC logistics for delivery to remote mining sites in Katanga, Kasai, and other provinces. Additional transport costs apply for remote locations.",
             "de": "Yes. We coordinate with freight forwarders experienced in DRC logistics for delivery to remote mining sites in Katanga, Kasai, and other provinces. Additional transport costs apply for remote locations.",
             "hi": "Yes. We coordinate with freight forwarders experienced in DRC logistics for delivery to remote mining sites in Katanga, Kasai, and other provinces. Additional transport costs apply for remote locations."
+          }
+        },
+        {
+          "q": {
+            "en": "Which fasteners do DRC mining operations need?",
+            "zh": "刚果（金）矿山需要哪些紧固件？"
+          },
+          "a": {
+            "en": "Heavy-duty structural bolts for plant and conveyor steelwork, high-strength fasteners for crushers and mills, and corrosion-resistant hardware for washing and chemical areas. Diamond and copper operations both run long hours, so fatigue resistance matters as much as strength.",
+            "zh": "厂房与输送钢构的重型结构螺栓、破碎机与磨机用高强紧固件、洗选与化学品区域用耐蚀件。钻石与铜矿都是长时运行，抗疲劳与强度同等重要。"
+          }
+        },
+        {
+          "q": {
+            "en": "How is freight routed into the DRC?",
+            "zh": "货物怎么运进刚果（金）？"
+          },
+          "a": {
+            "en": "South through Durban or Beira to Lubumbashi and Kolwezi is the common route for the copper belt; the eastern regions come via Dar es Salaam or Mombasa. Border clearance and road conditions dominate transit time more than ocean freight.",
+            "zh": "铜带省通常走德班或贝拉南下到卢本巴希、科卢韦齐；东部地区经达累斯萨拉姆或蒙巴萨。边境清关与路况对时效的影响大于海运段。"
+          }
+        },
+        {
+          "q": {
+            "en": "What documentation is essential for DRC delivery?",
+            "zh": "发刚果（金）必备哪些文件？"
+          },
+          "a": {
+            "en": "Invoice, packing list, bill of lading, certificate of origin, and mill test certificates; some buyers also require third-party inspection before dispatch. Documents must travel ahead of the truck, or the load sits at the border for days.",
+            "zh": "发票、装箱单、提单、原产地证、材质证明，部分买家还要求发运前第三方检验。文件必须先于卡车到达，否则货会在边境压几天。"
           }
         }
       ]

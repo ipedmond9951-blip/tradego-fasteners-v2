@@ -261,6 +261,47 @@
         "de": "Ruandas Markt für Bau-Befestigungsmittel bietet eine überzeugende Kombination aus schnellem Nachfragewachstum, USD-Preisen und präferentiellem Zugang zu einem Regionalmarkt von 150 Millionen Verbrauchern.",
         "hi": "रवांडा का निर्माण फास्टनर बाजार तेजी से बढ़ती मांग, USD मूल्य निर्धारण और AFCFTA के माध्यम से 150 मिलियन उपभोक्ताओं के क्षेत्रीय बाजार तक पहुंच का एक आकर्षक संयोजन प्रदान करता है।"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "How large is Rwanda's fastener market in 2026?"
+          },
+          "a": {
+            "en": "Around USD 180 million by 2026, driven by Kigali's Vision 2050 construction programme, urban housing and public infrastructure. Growth is concentrated in concrete screws, roofing fasteners and drywall anchors."
+          }
+        },
+        {
+          "q": {
+            "en": "Which standards apply to Rwandan projects?"
+          },
+          "a": {
+            "en": "ISO and ASTM product standards are the norm, with RS national standards applied through the regulator. Tenders usually quote ISO 898-1 classes and ISO 1461 coatings rather than local equivalents."
+          }
+        },
+        {
+          "q": {
+            "en": "How do shipments reach Kigali?"
+          },
+          "a": {
+            "en": "Via Mombasa or Dar es Salaam by sea, then road through Uganda or Tanzania to Kigali. Inland transit adds one to two weeks, so landed cost planning must include the border and haulage legs, not just ocean freight."
+          }
+        }
+      ]
     }
   ],
   "faqItems": [

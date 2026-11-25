@@ -219,6 +219,47 @@
         "de": "Eine klare Kaufanfrage verhindert, dass der falsche Anker auf die Baustelle gelangt. Geben Sie Untergrund, Ankerdurchmesser, Gesamtlänge, wirksame Verankerungstiefe, Lochdurchmesser, Gewindeform, Werkstoffgüte, Oberfläche, Unterlegscheiben- und Mutterart, erforderliche Menge und Anwendung an. Fügen Sie Zeichnungen oder Referenzmuster hinzu, wenn Hülse, Konus oder Kopfgeometrie nicht standardmäßig sind. Der MOQ ist für die exakte Spezifikation, Oberfläche und Verpackungsweise zu vereinbaren; gehen Sie nicht davon aus, dass eine gängige M10-Größe denselben Mindestbestand hat wie 316-Edelstahl oder eine Sonderlänge. Fordern Sie ein Handelsangebot mit Angabe der Einheitenbasis, Kartonstückzahl, Netto- und Bruttogewicht, Kartonabmessungen, Lieferzeitabschätzung und Incoterms an. Dies sind zu bestätigende kommerzielle Vereinbarungen, keine Lager- oder Kapazitätszusagen. Verwenden Sie für die Exportverpackung Innenbeutel oder -kästen, die eine Vermischung der Durchmesser verhindern, das Gewinde schützen und Edelstahlgüten von Kohlenstoffstahlteilen trennen. Wellpappkartons sind für Hebebetrieb und Palettierung zu bemessen, schwerere Kartons können verstärkte Ecken oder Umreifung erfordern. Kennzeichnen Sie jedes Paket mit Größe, Werkstoff, Oberfläche, Menge, Chargen- oder Losnummer und Ursprungsland, sofern das Bestimmungsland dies verlangt. Für Sendungen nach Simbabwe, Sambia, Südafrika oder Mosambik bestätigen Sie vor Produktion die endgültige Lieferroute, Hafenabfertigung, Feuchteschutz und Dokumentenanforderungen; Beira und Durban unterscheiden sich in Transit- und Binnenregelungen. TradeGo kann Hülsenanker nach der endgültigen Spezifikation des Käufers kalkulieren und einen Verpackungsvorschlag liefern, während der Käufer Zeichnungen, Etiketten und Ladungsdetails vor der Auftragsbestätigung freigibt.",
         "hi": "स्पष्ट खरीद पूछताछ गलत एंकर को जॉब साइट तक पहुंचने से रोकती है। सब्सट्रेट, एंकर व्यास, कुल लंबाई, प्रभावी एंबेडमेंट, छेद व्यास, थ्रेड फॉर्म, मटेरियल ग्रेड, फिनिश, वॉशर और नट स्टाइल, आवश्यक मात्रा और अनुप्रयोग बताएं। स्लीव, कोन या हेड ज्यामिति मानक न हो तो ड्राइंग या संदर्भ नमूने जोड़ें। MOQ सटीक स्पेसिफिकेशन, फिनिश और पैकिंग विधि के लिए सहमत होना चाहिए; यह न मानें कि सामान्य M10 आकार का MOQ 316 स्टेनलेस या कस्टमाइज़्ड लंबाई जैसा ही है। यूनिट आधार, कार्टन मात्रा, नेट और ग्रॉस वेट, कार्टन माप, लीड-टाइम अनुमान और इंकोटर्म्स दिखाने वाला वाणिज्यिक कोटेशन मांगें। ये पुष्टि करने योग्य वाणिज्यिक प्रतिबद्धताएं हैं, स्टॉक या क्षमता के दावे नहीं। एक्सपोर्ट पैकिंग के लिए ऐसे आंतरिक बैग या बॉक्स इस्तेमाल करें जो व्यास का मिश्रण रोकें, थ्रेड की सुरक्षा करें और स्टेनलेस ग्रेड को कार्बन-स्टील भागों से अलग रखें। कोरुगेटेड कार्टन उठाने और पैलेटाइज़िंग के लिए आकार में हों, भारी कार्टन को रीइन्फोर्स्ड कोनर या स्ट्रैपिंग की आवश्यकता हो सकती है। प्रत्येक पैकेज पर आकार, मटेरियल, फिनिश, मात्रा, बैच या लॉट संदर्भ और जहां गंतव्य देश की आवश्यकता हो, मूल-देश जानकारी अंकित करें। ज़िंबाब्वे, जाम्बिया, दक्षिण अफ़्रीका या मोज़ाम्बिक को शिपमेंट के लिए उत्पादन से पहले अंतिम डिलीवरी रूट, पोर्ट हैंडलिंग, नमी संरक्षण और दस्तावेज़ आवश्यकताएं पुष्टि करें; बेयरा और डरबन की ट्रांजिट और अंतर्देशीय व्यवस्था अलग है। TradeGo खरीदार की अंतिम स्पेसिफिकेशन के अनुसार स्लीव एंकर का कोटेशन और पैकिंग प्रपोज़ल दे सकता है, जबकि ड्राइंग, लेबल और लोडिंग विवरण ऑर्डर कन्फर्मेशन से पहले खरीदार को मंजूर करने होते हैं।"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "How does a sleeve anchor develop its hold?"
+          },
+          "a": {
+            "en": "Tightening the nut pulls the cone into the sleeve, expanding it against the hole wall. The anchor can be removed later, which is the main practical difference from a wedge anchor."
+          }
+        },
+        {
+          "q": {
+            "en": "Do sleeve anchors work in brick or hollow block?"
+          },
+          "a": {
+            "en": "Only in solid masonry. In hollow block or thin brick the sleeve cannot develop full contact, so chemical anchors or through-bolts are more dependable."
+          }
+        },
+        {
+          "q": {
+            "en": "What should a purchase order state?"
+          },
+          "a": {
+            "en": "Substrate, anchor diameter, total length, effective embedment, hole diameter, thread form, material grade, finish and packing. Those are the same fields the site crew uses when drilling."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

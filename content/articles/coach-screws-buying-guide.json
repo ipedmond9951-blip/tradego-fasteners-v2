@@ -219,6 +219,47 @@
         "de": "Der Großeinkauf von Coach-Schrauben soll von einem klaren Produktplan gesteuert werden, nicht von einer kurzen Beschreibung wie verzinktes M10. Jede Größe steht auf eigener Zeile mit Durchmesser, Länge, Gewindelänge, Kopfmaßen, Material, Oberfläche, Unterlegscheibenbedarf, Zielnorm und zulässiger Maßtoleranz. Größen werden nach Kartons getrennt, lesbare Etiketten verwendet und die Menge pro Innenkarton und Masterkarton angegeben. Für Mischaufträge ist eine Packliste zu fordern, die jeden Durchmesser und jede Länge ausweist, damit das Empfangsteam die Sendung abstimmen kann, ohne jeden Karton zu öffnen. Fertige Schrauben sind mit geeigneten Innenbeuteln oder Kartons vor Regen, Kondenswasser und Abrieb zu schützen; die Verpackung soll das Handling unterstützen, darf aber keine Feuchte gegen die Zinkbeschichtung einschließen. Für Seefracht nach Simbabwe, Sambia, Südafrika oder Mosambik sind Palettierung, Kartonfestigkeit, Containerbeladung, Trockenmittelregelung und Kennzeichnung vor Produktion zu besprechen. Beira und Durban sind relevante Routenpunkte, doch Spediteur, Hafenabwicklung und finaler Inlandslieferplan sind separat zu bestätigen. Eine Lieferantenofferte ist nicht als Nachweis für Lagerbestand, Produktionskapazität oder garantierten Liefertermin zu behandeln. Bei neuen Aufträgen oder kritischen Abmessungen sind Muster vor Produktion, maßhaltige Zeichnung, Beschreibung der Beschichtung und Verpackungsfotos anzufragen. Es ist zu vereinbaren, wie Kurzlieferungen, Mischkartons, beschädigte Verpackung und maßliche Abweichungen erfasst werden. Eine Bestellung muss das freigegebene Muster oder die Revisionsnummer nennen und angeben, ob Teillieferung erlaubt ist. TradeGo kann ein werkdirektes Angebot erstellen, wenn der Käufer Größen, geschätzte Menge, Zielort, Oberfläche und Verpackungsbedarf nennt; das Angebot bleibt unter Vorbehalt der schriftlichen Bestätigung von Spezifikation und Plan.",
         "hi": "कोच स्क्रू की थोक खरीद को स्पष्ट उत्पाद शेड्यूल से नियंत्रित किया जाना चाहिए, न कि जिंक-प्लेटेड M10 जैसे छोटे विवरण से। हर साइज़ को एक पंक्ति पर रखें जिसमें व्यास, लंबाई, धागा लंबाई, सिर के नाप, सामग्री, फिनिश, वॉशर आवश्यकता, लक्ष्य मानक और स्वीकार्य आयामी सहनशीलता हो। साइज़ को कार्टन से अलग करें, पढ़ने योग्य लेबल इस्तेमाल करें, और आंतरिक बॉक्स व मास्टर कार्टन में मात्रा शामिल करें। मिश्रित ऑर्डर के लिए पैकिंग लिस्ट माँगें जिसमें हर व्यास और लंबाई दिखे, ताकि प्राप्ति टीम हर कार्टन खोले बिना खेप का मिलान कर सके। तैयार स्क्रू को उपयुक्त आंतरिक बैग या कार्टन से बारिश, संघनन और घर्षण से बचाएँ; पैकिंग हैंडलिंग में सहायक होनी चाहिए, लेकिन जिंक कोटिंग के खिलाफ नमी रोककर न रखे। ज़िंबाब्वे, ज़ाम्बिया, दक्षिण अफ़्रीका या मोज़ाम्बिक समुद्री फ्रेट के लिए उत्पादन से पहले पैलेटाइज़ेशन, कार्टन मज़बूती, कंटेनर लोडिंग, डेसीकेंट नीति और मार्किंग पर चर्चा करें। बेरा और दुरबन प्रासंगिक रूटिंग पॉइंट हैं, लेकिन फॉरवर्डर, पोर्ट हैंडलिंग और अंतिम अंतर्देशीय डिलीवरी योजना अलग से पुष्टि की जानी चाहिए। सप्लायर कोटेशन को स्टॉक, उत्पादन क्षमता या गारंटीकृत डिलीवरी तारीख का प्रमाण न समझें। नया ऑर्डर हो या नाप महत्वपूर्ण हो, तब प्री-प्रोडक्शन नमूना, नाप वाली ड्राइंग, कोटिंग विवरण और पैकिंग फोटो माँगें। कमी, मिश्रित कार्टन, क्षतिग्रस्त पैकिंग और असंगत नाप कैसे दर्ज किए जाएँ, इस पर सहमति बनाएँ। परचेज़ ऑर्डर में मंज़ूर नमूना या रिवीज़न नंबर पहचाना जाना चाहिए और बताया जाना चाहिए कि आंशिक खेप अनुमत है या नहीं। TradeGo फैक्ट्री-डायरेक्ट कोटेशन तैयार कर सकता है, जब खरीदार साइज़, अनुमानित मात्रा, गंतव्य, फिनिश और पैकिंग ज़रूरतें बताता है; कोटेशन विनिर्देशों और शेड्यूल की लिखित पुष्टि के अधीन रहना चाहिए।"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What sizes do coach screws come in and how do I choose one?"
+          },
+          "a": {
+            "en": "Common sizes run M6 to M12 in lengths from about 50 to 200 mm. Pick the diameter by load and timber species, and the length so the threaded section fully engages the receiving member without breaking through the far side."
+          }
+        },
+        {
+          "q": {
+            "en": "What pilot hole size should I drill?"
+          },
+          "a": {
+            "en": "For softwood, drill about 60 to 70 percent of the screw's core diameter; hardwood needs a slightly larger hole, roughly 70 to 80 percent, to avoid splitting. Always pre-drill near edges and ends of the timber."
+          }
+        },
+        {
+          "q": {
+            "en": "HDG or zinc for outdoor decking?"
+          },
+          "a": {
+            "en": "Hot-dip galvanising to ISO 1461 suits exposed decks, coastal sites and ground contact. Electroplated zinc is adequate indoors or in sheltered use, but it wears faster at cut ends and in damp timber."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

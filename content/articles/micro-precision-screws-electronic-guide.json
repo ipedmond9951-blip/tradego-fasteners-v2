@@ -177,6 +177,14 @@
             "de": "Hex socket (Allen key) is preferred for micro screws as it provides precise engagement without the cam-out risk of Phillips/Pozidriv in very small sizes.",
             "hi": "Hex socket (Allen key) is preferred for micro screws as it provides precise engagement without the cam-out risk of Phillips/Pozidriv in very small sizes."
           }
+        },
+        {
+          "q": {
+            "en": "What is the smallest metric screw commonly available?"
+          },
+          "a": {
+            "en": "Micro screws go down to around M1 and M1.2 in production volume, with M2 and M2.5 the practical working sizes for most electronic assemblies. Below M1.5, tooling and inspection costs rise sharply."
+          }
         }
       ],
       "body": {

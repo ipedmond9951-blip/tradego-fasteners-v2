@@ -242,6 +242,47 @@
         "de": "Bestätigen Sie zunächst die benötigten Betonnagelgrößen, etwa 2 Zoll (50 mm), 2,5 Zoll (65 mm) und 3 Zoll (75 mm) Mauerwerknägel unter Bezug auf ASTM F1667 oder ISO 10666 für gehärtete Befestigungselemente sowie ISO 2081 oder ASTM A153 für Schutzbeschichtungen, soweit zutreffend. Zweitens werden Korrosionsschutz und Exportverpackung vor der Schiffsbuchung spezifiziert. Sendungen über Beira oder Durban sind mariner Feuchte und mehrstufigem Handling ausgesetzt, daher verpackt man Betonnägel in innere Polyethylenbeutel innerhalb doppelwelliger Kartons auf begasten Paletten, mit 20 kg oder 25 kg pro Karton als üblichem Industriewert. Drittens werden Handelsrechnungen, Packlisten und Frachtpapiere früh abgestimmt, um Hafenvollgebühren in Beira oder Durban sowie Grenzverzögerungen nach Simbabwe oder ins Binnenmosambik zu vermeiden. Viertens koordiniert man den Zolltransport vom Hafen zur Baustelle, damit eingeschlagene Betonnägel und Blockbefestigungen trocken und nach Länge sowie Schaftprofil sortiert ankommen. Fünftens prüft man bei Ankunft am Standort die Kartons auf Wasserflecken oder beschädigte Spanngurte, bevor sie an Mannschaften ausgegeben werden, die Betonnägel und Schrauben in Mauerwerk und Blockuntergründen setzen. Lagern Sie abschließend die palettierten Kartons auf Unterleghölzern in überdachten Gestellen nahe der Arbeitsfläche, nicht auf feuchtem Boden, und halten Sie Chargenetiketten für genaue Nachbestellungen beim Betonnagellieferanten für Projekte im südlichen und östlichen Afrika intakt. Klare Größentrennung und wetterfeste Umverpackung mindern Baustellenabfall beim Weitertransport von Großchargen durch die Korridore Beiras und Durbans.",
         "hi": "पहले, अपनी आवश्यक कंक्रीट कील आकार पुष्टि करें, जैसे कि 2 इंच (50mm), 2.5 इंच (65mm) और 3 इंच (75mm) मेसनरी कीलें, कठोर फास्टनर के लिए ASTM F1667 या ISO 10666 और जहाँ लागू हो सुरक्षा कोटिंग के लिए ISO 2081 या ASTM A153 का संदर्भ लें। दूसरे, जहाज़ बुकिंग से पहले संक्षारण सुरक्षा और निर्यात पैकिंग निर्दिष्ट करें। बेलेर या डरबन होते हुए जाने वाली खेपें समुद्री नमी और बहु-चरण हैंडलिंग का सामना करती हैं, इसलिए कंक्रीट कीलों को डबल-वॉल कोरुगेटेड कार्टन के अंदर आंतरिक पॉलीथिलीन लाइनर में पैक करें, फ्यूमिगेटेड पैलेट पर स्ट्रैप करें, और प्रति कार्टन 20kg या 25kg को सामान्य उद्योग मान रखें। तीसरे, बेलेर या डरबन में पोर्ट डिम्युरेज और ज़िम्बाब्वे या अंतर्देशीय मोज़ाम्बिक में सीमा देरी से बचने के लिए वाणिज्यिक चालान, पैकिंग लिस्ट और बिल ऑफ लैडिंग शीघ्र संरेखित करें। चौथे, पोर्ट से कार्य स्थल तक बंधक ट्रकिंग समन्वित करें ताकि हथौड़े से ठोकी जाने वाली कंक्रीट कीलें और ब्लॉकवर्क फिक्सिंग सूखी रहें और लंबाई व शैंक प्रोफ़ाइल के अनुसार छँटी हुई पहुँचें। पाँचवें, चिनाई और ब्लॉकवर्क सब्सट्रेट पर कंक्रीट कील बनाम स्क्रू लगाने वाले क्रू को स्टॉक जारी करने से पहले साइट आगमन पर कार्टन की पानी के दाग या फटे स्ट्रैप के लिए जाँच करें। अंत में, पैलेटीकृत बक्सों को नम ज़मीन से दूर, कार्य फेस के पास ढके रैकिंग में डनेज पर रखें, और दक्षिणी व पूर्वी अफ्रीका परियोजनाओं की सेवा करने वाले अपने कंक्रीट कील आपूर्तिकर्ता के पास पुन: ऑर्डर सटीकता के लिए बैच लेबल बरकरार रखें। स्पष्ट आकार पृथक्करण और मौसम रोधी लपेटन बेलेर और डरबन गलियारों से बल्क कंक्रीट कीलें ले जाते समय साइट अपशिष्ट घटाते हैं।"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are concrete nails made of, and what sizes are common?"
+          },
+          "a": {
+            "en": "Hardened carbon steel, often with a slightly conical shank. Common lengths are 50, 65 and 75 mm, referenced to hardened-fastener standards such as ASTM F1667, with coatings to ISO 2081 where zinc is specified."
+          }
+        },
+        {
+          "q": {
+            "en": "When is a concrete nail better than an anchor?"
+          },
+          "a": {
+            "en": "For light, quick fixings into sound concrete or solid masonry - battens, clips, trunking and thin profiles with no pull-out requirement. Anything carrying tension, vibration or a structural load needs an anchor."
+          }
+        },
+        {
+          "q": {
+            "en": "How should they be driven to avoid breakage?"
+          },
+          "a": {
+            "en": "Drill a pilot hole slightly smaller than the nail shank, keep the hammer or tool square to the surface, and drive with short firm blows. Bent nails usually mean the hole is too small or the nail hit aggregate."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

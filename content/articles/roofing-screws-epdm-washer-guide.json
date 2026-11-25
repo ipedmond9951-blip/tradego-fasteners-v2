@@ -224,6 +224,36 @@
             "de": "No. The EPDM washer takes a compression set after installation and will not reseal properly if removed and reinstalled. Always use new screws for any re-roofing or repair work.",
             "hi": "No. The EPDM washer takes a compression set after installation and will not reseal properly if removed and reinstalled. Always use new screws for any re-roofing or repair work."
           }
+        },
+        {
+          "q": {
+            "en": "Why EPDM rather than nylon washers on roofing screws?",
+            "zh": "屋面螺钉为什么用 EPDM 而不是尼龙垫圈？"
+          },
+          "a": {
+            "en": "EPDM keeps elasticity for 20 years under UV and heat, so it stays sealed after the sheet expands and contracts. Nylon hardens and cracks within a few seasons, and once the washer loses compression the hole leaks.",
+            "zh": "EPDM 在紫外和高温下能保持弹性约 20 年，板材热胀冷缩后仍贴合密封。尼龙几个季节就硬化开裂，垫圈一旦失去压缩量，钉孔就开始漏水。"
+          }
+        },
+        {
+          "q": {
+            "en": "How long should a roofing screw be for my purlin?",
+            "zh": "屋面螺钉长度按檩条怎么定？"
+          },
+          "a": {
+            "en": "The screw must pass through the sheet and engage at least 25 mm of purlin, without the point breaking through the bottom face. For steel purlins add the sheet thickness plus 25-30 mm; for timber purlins go one size longer because thread engagement in wood is weaker.",
+            "zh": "螺钉穿过板并旋入檩条不少于 25 mm，同时钉尖不能穿出檩条底面。钢檩条按板厚加 25–30 mm；木檩条要再长一档，因为木材中的螺纹咬合更弱。"
+          }
+        },
+        {
+          "q": {
+            "en": "What actually causes leaks at roofing screws?",
+            "zh": "屋面螺钉处漏水到底是什么原因？"
+          },
+          "a": {
+            "en": "Almost always installation, not the fastener: over-driving crushes the washer, angled driving leaves the washer off-seat, and screws placed away from the purlin line bend the sheet and open the hole. Drive perpendicular, at controlled torque, directly over the purlin.",
+            "zh": "几乎都是安装问题而不是紧固件：过拧把垫圈压扁、斜拧使垫圈不贴合、偏离檩条中心线会把板压变形并撑开钉孔。应垂直、控制扭矩、正对檩条中心施打。"
+          }
         }
       ]
     },
@@ -293,84 +323,6 @@
             "ja": "設置ガイドは施工・製造の基本資料で、固定点や間隔、工具の選定に使います。適切な選定は荷重条件、環境条件、材料の適合性に依存します。",
             "de": "Installation Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
             "hi": "Installation Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
-          }
-        },
-        {
-          "q": {
-            "en": "How do I choose the right fastener for my project?",
-            "zh": "如何为项目选择合适的紧固件？",
-            "es": "How do I choose the right fastener for my project?",
-            "ar": "How do I choose the right fastener for my project?",
-            "fr": "How do I choose the right fastener for my project?",
-            "pt": "How do I choose the right fastener for my project?",
-            "ru": "How do I choose the right fastener for my project?",
-            "ja": "プロジェクトに適した締結部品はどう選びますか？",
-            "de": "How do I choose the right fastener for my project?",
-            "hi": "How do I choose the right fastener for my project?"
-          },
-          "a": {
-            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "zh": "看被连接材料、载荷要求、环境暴露与适用标准。规格不确定时应咨询专业人员，不要凭经验估算。",
-            "es": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "ar": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "fr": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "pt": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "ru": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "ja": "被締結材、荷重条件、環境暴露、適用規格を確認します。仕様に不安がある場合は経験で判断せず、専門家に相談してください。",
-            "de": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "hi": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
-          }
-        },
-        {
-          "q": {
-            "en": "What materials are available for these fasteners?",
-            "zh": "这类紧固件有哪些材料可选？",
-            "es": "What materials are available for these fasteners?",
-            "ar": "What materials are available for these fasteners?",
-            "fr": "What materials are available for these fasteners?",
-            "pt": "What materials are available for these fasteners?",
-            "ru": "What materials are available for these fasteners?",
-            "ja": "これらの締結部品にはどの材料がありますか？",
-            "de": "What materials are available for these fasteners?",
-            "hi": "What materials are available for these fasteners?"
-          },
-          "a": {
-            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "zh": "常用碳钢、不锈钢、合金钢与特种合金，强度、耐蚀性与成本各不相同，按使用环境取舍。",
-            "es": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "ar": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "fr": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "pt": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "ru": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "ja": "一般的には炭素鋼、ステンレス、合金鋼、特殊合金があり、強度・耐食性・コストがそれぞれ異なります。使用環境に応じて選んでください。",
-            "de": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "hi": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
-          }
-        },
-        {
-          "q": {
-            "en": "Do you offer custom manufacturing?",
-            "zh": "你们提供定制生产吗？",
-            "es": "Do you offer custom manufacturing?",
-            "ar": "Do you offer custom manufacturing?",
-            "fr": "Do you offer custom manufacturing?",
-            "pt": "Do you offer custom manufacturing?",
-            "ru": "Do you offer custom manufacturing?",
-            "ja": "カスタム製造には対応していますか？",
-            "de": "Do you offer custom manufacturing?",
-            "hi": "Do you offer custom manufacturing?"
-          },
-          "a": {
-            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "zh": "提供。可按图纸或规格定制紧固件，把尺寸、材质、镀层、包装等要求发给销售团队即可获得报价与交期。",
-            "es": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "ar": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "fr": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "pt": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "ru": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "ja": "対応しています。図面や仕様に基づくカスタム製造が可能です。寸法、材質、めっき、梱包などの要件を営業チームにお知らせいただければ、価格と納期をご案内します。",
-            "de": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "hi": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
           }
         }
       ],

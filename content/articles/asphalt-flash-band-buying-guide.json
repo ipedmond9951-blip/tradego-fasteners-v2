@@ -219,6 +219,47 @@
         "de": "Eine eindeutige Bestellung verhindert, dass das falsche Band auf die Baustelle gelangt. Nennen Sie Produktname, Folienfarbe, Rollenbreite, Rollenlänge, Klebstoffdicke falls vorgegeben, Trennfolientyp, Kerndurchmesser, Kartoninhalt und Palettenvorgabe. Fügen Sie den Anwendungsbereich hinzu, etwa Rinnen, Dachüberlappungen, Durchführungen oder allgemeine Reparatur, und benennen die erwarteten Untergründe. Wenn der Käufer einen bestimmten Zielstandard braucht, formulieren Sie ihn als technische Anforderung und verlangen das zugehörige Datenblatt, den Prüfbericht oder den Prüfnachweis für das exakte Modell; akzeptieren Sie kein Allgemeinzertifikat für ein anderes Produkt. Fragen Sie vor dem Packen nach Chargenkennzeichnung, Außenkarton-Etiketten, Barcode-Anforderungen und Sprachanforderungen. Rollenränder sollten vor Quetschung geschützt sein, Kartons müssen normaler Containerbehandlung standhalten. Bestätigen Sie, ob Rollen stehend oder liegend verpackt werden, wie viele Kartons auf eine Palette passen, ob Paletten wo erforderlich begast oder hitzebehandelt sind, sowie Netz- und Bruttogewicht. Für Lieferungen nach Simbabwe, Sambia, Südafrika oder Mosambik stimmen Sie vor dem Versand Lieferbedingung, Hafen oder inländischen Zielort, Feuchtigkeitsschutz und Dokumentensatz ab. Routen über Beira und Durban können mehrere Handhabungsstufen umfassen, daher verdienen Eckenschutz und Stretchfolie Aufmerksamkeit. Lagern Sie Rollen fern von direkter Sonne und hoher Hitze; stellen Sie keine schweren Güter auf Kartons. Verlangen Sie einen Packzettel, der mit tatsächlicher Rollenanzahl, Maßen und Gewichten übereinstimmt. TradeGo kann diese Angaben für ein fabrikdirektes Angebot zur Bewertung nutzen, Endpreis, Lieferzeit und Verpackung werden aber anhand der tatsächlichen Spezifikation und Bestellung bestätigt.",
         "hi": "स्पष्ट खरीद ऑर्डर साइट पर गलत टेप पहुंचने से रोकता है। उत्पाद नाम, फ़ॉइल रंग, रोल चौड़ाई, रोल लंबाई, यदि निर्दिष्ट हो तो चिपकने वाली मोटाई, रिलीज-लाइनर प्रकार, कोर व्यास, डब्बे में मात्रा और पैलेट आवश्यकता लिखें। आवेदन शामिल करें, जैसे गटर, छत ओवरलैप, पासिंग या सामान्य मरम्मत, और अपेक्षित आधार पहचानें। यदि खरीदार को कोई विशेष लक्ष्य मानक चाहिए, तो उसे तकनीकी आवश्यकता के रूप में लिखें और सटीक मॉडल के लिए संबंधित डेटाशीट, परीक्षण रिपोर्ट या निरीक्षण रिकॉर्ड मांगें; किसी अन्य उत्पाद का सामान्य प्रमाणपत्र स्वीकार न करें। पैकिंग से पहले उत्पादन बैच चिह्नन, बाहरी डब्बा लेबल, बारकोड आवश्यकताएं और भाषा आवश्यकताएं पूछें। रोल किनारों को कुचलने से बचाया जाना चाहिए, और डब्बे सामान्य कंटेनर हैंडलिंग का सामना करने चाहिए। पुष्टि करें कि रोल खड़े या क्षैतिज पैक किए गए हैं, एक पैलेट पर कितने डब्बे आते हैं, जहां आवश्यक हो पैलेट फ्यूमिगेटेड या हीट-ट्रीटेड हैं या नहीं, और नेट व सकल वजन क्या है। ज़िंबाब्वे, ज़ाम्बिया, दक्षिण अफ्रीका या मोज़ाम्बिक को शिपमेंट के लिए डिस्पैच से पहले डिलीवरी शब्द, बंदरगाह या अंतर्देशीय गंतव्य, नमी संरक्षण और दस्तावेज़ सेट तय करें। बेइरा और डरबन रूट में कई हैंडलिंग चरण हो सकते हैं, इसलिए कोने संरक्षण और स्ट्रेच रैप पर ध्यान देना चाहिए। भंडारण के दौरान रोल को सीधी धूप और तेज़ गर्मी से दूर रखें; डब्बों के ऊपर भारी सामान न रखें। ऐसी पैकिंग लिस्ट मांगें जो वास्तविक रोल संख्या, माप और वजन से मेल खाती हो। TradeGo इन विवरणों का इस्तेमाल मूल्यांकन के लिए फैक्ट्री-डायरेक्ट कोटेशन तैयार करने में कर सकता है, लेकिन अंतिम कीमत, लीड टाइम और पैकिंग वास्तविक विनिर्देश व ऑर्डर के अनुसार ही पक्की होगी।"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What widths are used for gutters, laps and penetrations?"
+          },
+          "a": {
+            "en": "Common roll widths run from 50 to 300 mm. Gutters and narrow seams use 50 to 100 mm, roof laps and long joints use 100 to 150 mm, and pipe penetrations or corner details need 150 to 300 mm so the band can wrap and overlap properly."
+          }
+        },
+        {
+          "q": {
+            "en": "How long does asphalt flash band last outdoors?"
+          },
+          "a": {
+            "en": "Service life depends on UV exposure and how much the substrate moves. Under direct sun the bitumen surface hardens and edges lift after a few years; in shaded or sheltered details it holds longer. For permanent roof waterproofing, membrane or coating systems are the safer specification."
+          }
+        },
+        {
+          "q": {
+            "en": "How should the surface be prepared before applying?"
+          },
+          "a": {
+            "en": "Clean, dry and dust-free, with loose coating or rust removed. On metal, wipe with solvent and let it dry fully. Press from the centre outward to push out air pockets, and overlap adjacent strips by at least 25 mm."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

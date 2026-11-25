@@ -265,6 +265,14 @@
             "de": "Specify full thread when母材 thickness is variable, when bolt passes through the母材 and engages a nut beyond, or when maximum clamping range is needed along the bolt length.",
             "hi": "Specify full thread when母材 thickness is variable, when bolt passes through the母材 and engages a nut beyond, or when maximum clamping range is needed along the bolt length."
           }
+        },
+        {
+          "q": {
+            "en": "What is the advantage of a half-thread bolt?"
+          },
+          "a": {
+            "en": "The unthreaded shank carries shear across the joint and resists bearing pressure at the hole, while the thread only needs to cover the nut and washer. That is why structural connections usually specify half thread."
+          }
         }
       ],
       "body": {

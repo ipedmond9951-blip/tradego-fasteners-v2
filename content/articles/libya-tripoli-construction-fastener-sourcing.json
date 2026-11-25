@@ -273,6 +273,47 @@
       },
       "type": "text",
       "id": "why-tradego-delivers-reliable-libya-tripoli-construction-fastener-sourcing-services"
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Which bolt grades should I specify for Tripoli construction projects?"
+          },
+          "a": {
+            "en": "Structural work normally calls for ISO 898-1 class 8.8 and 10.9 hex bolts to ISO 4014 or 4017, with hot-dip galvanising to ISO 1461 on exposed and coastal elements. Foundation work takes ASTM F1554 grade 55 or equivalent anchors. Put the standard number and property class in the tender instead of the phrase high strength."
+          }
+        },
+        {
+          "q": {
+            "en": "What documentation is needed to clear a fastener shipment into Tripoli?"
+          },
+          "a": {
+            "en": "Commercial invoice, packing list, bill of lading, certificate of origin and mill test reports per heat lot, plus a pre-shipment inspection certificate where the contract requires one. Libyan clearance also depends on the importer's registration documents, so confirm them before production starts rather than at the port."
+          }
+        },
+        {
+          "q": {
+            "en": "Which shipping route serves Tripoli, and how long does it take?"
+          },
+          "a": {
+            "en": "Fasteners move by sea into Tripoli port, typically routed through Mediterranean transhipment hubs. Allow roughly 30 to 45 days door to door from a Chinese mill plus inland haulage, and book early because regional schedules change without much notice."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

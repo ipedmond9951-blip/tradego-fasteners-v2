@@ -219,6 +219,47 @@
         "de": "Ein genaues Angebot braucht die Dübelgröße oder die Schraubengröße, die der Kunde bereits einsetzt, den Wandbaustoff, die Art der Last, die Farbanforderung sowie Verpackung und Bestimmungsort. Wenn der Käufer nur nach Schraubengröße anfragt, schließt der Lieferant auf die Dübelreihe und kann falsch schließen; nach Möglichkeit beide Angaben machen. Angeben, ob die Ware ins Regal eines Händlers oder in ein einzelnes Projekt geht, denn das entscheidet über Mischkartons oder Einheitsgrößenkartons. Für Projekte die Spezifikationsreferenz ergänzen, falls vorhanden, das geforderte Datum des Freigabemusters und ob ein Prüfbericht zum Auszug erforderlich ist. TradeGo liefert Nylon-PA6- und PP-Wanddübel mit Außendurchmesser 5 bis 14 mm und Länge 25 bis 75 mm, farbcodiert nach Größe, verpackt zu 100 bis 1.000 Stück, mit größenmischten Kartons und Trockenmittel für Seefracht.",
         "hi": "सटीक कोटेशन के लिए प्लग साइज़ या वह स्क्रू साइज़ जो कस्टमर पहले से इस्तेमाल करता है, दीवार का मटेरियल, भार का प्रकार, कलर की शर्त, पैकिंग और डेस्टिनेशन चाहिए। अगर खरीदार सिर्फ स्क्रू साइज़ से कोटेशन मांगे, तो सप्लायर प्लग सीरीज़ का अनुमान लगाएगा और गलत भी लगा सकता है; हो सके तो दोनों दें। बताएं कि माल डिस्ट्रिब्यूटर शेल्फ़ पर जा रहा है या सिंगल प्रोजेक्ट में, क्योंकि इससे मिक्स्ड कार्टन बनाम सिंगल-साइज़ कार्टन तय होते हैं। प्रोजेक्ट के लिए स्पेसिफिकेशन रेफरेंस जोड़ें, अगर हो, अप्रूवल सैंपल की ज़रूरी तारीख और पुल-आउट की टेस्ट रिपोर्ट चाहिए या नहीं। TradeGo 5 से 14 मिमी बाहरी व्यास, 25 से 75 मिमी लंबाई वाले नायलॉन PA6 और PP वॉल प्लग सप्लाई करता है, साइज़ के हिसाब से कलर-कोडेड, 100 से 1,000 पीस के डिब्बों में, मिक्स्ड-साइज़ कार्टन और समुद्री शिपमेंट पर डेसीकेंट के साथ।"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "How do I match a plastic plug to the drill and screw?"
+          },
+          "a": {
+            "en": "The plug's outside diameter equals the drill diameter, and the screw gauge follows the plug's size table rather than the other way round. Buying a plug and a screw separately is the usual cause of a fixing that spins or splits the wall."
+          }
+        },
+        {
+          "q": {
+            "en": "PA6 or PP - which material?"
+          },
+          "a": {
+            "en": "PA6 is tougher and handles load and temperature better, so it suits concrete and block. PP is cheaper and adequate for light loads in drywall and panels, but it deforms more easily under sustained load."
+          }
+        },
+        {
+          "q": {
+            "en": "Can plastic plugs be used in hollow block?"
+          },
+          "a": {
+            "en": "Only with plugs designed for hollow substrates, which expand into a larger contact area. Standard plugs in hollow block or thin panel develop very little load, and heavy fixings there need a different anchor type altogether."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

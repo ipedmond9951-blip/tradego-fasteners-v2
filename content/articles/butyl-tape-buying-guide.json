@@ -244,6 +244,47 @@
         "de": "Für Butylband-Bestellungen aus China nach Süd- und Ostafrika werden Rollen in Standardbreiten wie 50 mm, 75 mm, 100 mm und 150 mm auf 10 m oder 20 m Rollen in Exportkartons mit Feuchtigkeitsbarriere-Folie verpackt. Ein Branchenwert für die Mindestbestellmenge liegt bei 500 bis 1.000 Rollen je Breite und Dicke, oder rund 2.000 bis 3.000 kg für kundengeschnittenes Aluminiumfolien-Butylband. Für Exportverpackung und Umschlag folgen Sendungen üblicherweise den ISO 780 Kennzeichnungsregeln und ISO 3394 Palettenmaßen, damit Kartons in 20-Fuß- und 40-Fuß-Containern sicher stapeln, ohne Kantendruck oder Rollen-Teleskoping. Vor dem Versand sollten Käufer Rollenkern-Durchmesser, Trennfolientyp sowie geltende ASTM- oder EN-Produktspezifikationen auf Handelsrechnung und Packliste bestätigen. Schritt eins: Rollenmaße, Dicke und Folien-Deckschicht auf der Proforma-Rechnung bestätigen. Schritt zwei: Bruttogewicht der Kartons, Palettierung und Feuchteschutz während der Produktion verifizieren. Schritt drei: Seefracht in Häfen wie Durban, Beira oder Mombasa buchen, danach Binnentransport nach Zimbabwe oder Zambia. Weil Küstenfeuchte und lange Binnenstrecken schwache Kartons und Klebstoffe belasten, helfen feste Außenwellpappe, klare Chargenetiketten und genaue HS-Code-Dokumentation, Verzögerungen und Beschädigungen bei Ankunft zu vermeiden.",
         "hi": "चीन से दक्षिणी और पूर्वी अफ्रीका भेजे जाने वाले ब्यूटिल टेप ऑर्डर में 10 m या 20 m के रोल पर 50 mm, 75 mm, 100 mm और 150 mm जैसी मानक रोल चौड़ाई नमी-बैरियर फ़िल्म से लाइन किए गए एक्सपोर्ट कार्टन में पैक की जाती है। न्यूनतम ऑर्डर मात्रा का उद्योग मान प्रति चौड़ाई और मोटाई 500 से 1,000 रोल है, या कस्टम एल्युमिनियम फ़ॉइल ब्यूटिल टेप स्लिटिंग के लिए लगभग 2,000 से 3,000 kg है। एक्सपोर्ट पैकिंग और हैंडलिंग के लिए खेपें आमतौर पर ISO 780 विज़ुअल मार्किंग नियमों और ISO 3394 पैलेट लोडिंग आयामों का पालन करती हैं, ताकि कार्टन 20-फुट और 40-फुट कंटेनरों में किनारे कुचले या रोल टेलीस्कोप हुए बिना सुरक्षित रूप से ढेर हो सकें। डिस्पैच से पहले खरीदारों को वाणिज्यिक इनवॉइस और पैकिंग लिस्ट पर रोल कोर व्यास, रिलीज़ लाइनर प्रकार, और लागू ASTM या EN उत्पाद विनिर्देशों की पुष्टि करनी चाहिए। पहला चरण प्रोफ़ॉर्मा इनवॉइस पर रोल आयाम, मोटाई और फ़ॉइल फ़ेसिंग की पुष्टि करना है। दूसरा चरण उत्पादन के दौरान कार्टन सकल वजन, पैलेटाइजेशन और नमी सुरक्षा की पुष्टि करना है। तीसरा चरण डरबन, बेइरा या मोम्बासा जैसे बंदरगाहों तक समुद्री मालवाहक बुक करना है, जिसके बाद ज़िंबाब्वे या ज़ाम्बिया की ओर आंतरिक परिवहन होता है। क्योंकि तटीय नमी और लंबी आंतरिक ढुलाई कमजोर कार्टन और चिपकने वाले पर दबाव डाल सकती है, मजबूत बाहरी कोरुगेटेड बोर्ड, स्पष्ट बैच लेबल और सटीक HS कोड दस्तावेज़ पहुंचने पर देरी और क्षति रोकने में मदद करते हैं।"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What widths should I use for each joint?"
+          },
+          "a": {
+            "en": "50 mm for narrow laps, 75 to 100 mm for gutter and seam sealing, 150 mm for wide overlaps and penetrations. Standard roll lengths are 10 m and 20 m, so match the roll to the joint length to limit waste."
+          }
+        },
+        {
+          "q": {
+            "en": "Does heat affect butyl tape performance?"
+          },
+          "a": {
+            "en": "Butyl stays flexible at low temperature but softens and flows under intense sun. On exposed roofs use foil-faced grades and keep the tape under a covered detail wherever possible."
+          }
+        },
+        {
+          "q": {
+            "en": "Where does butyl tape fail?"
+          },
+          "a": {
+            "en": "On dusty, damp or oily surfaces, on joints that move more than the compound can absorb, and where the tape is left exposed to UV without a cover layer."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

@@ -237,54 +237,32 @@
         },
         {
           "q": {
-            "en": "What standards should I follow?",
-            "zh": "应该遵循哪些标准？",
-            "es": "What standards should I follow?",
-            "ar": "What standards should I follow?",
-            "fr": "What standards should I follow?",
-            "pt": "What standards should I follow?",
-            "ru": "What standards should I follow?",
-            "ja": "What standards should I follow?",
-            "de": "What standards should I follow?",
-            "hi": "What standards should I follow?"
+            "en": "304 or 316 for African sites?",
+            "zh": "非洲项目选 304 还是 316？"
           },
           "a": {
-            "en": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "zh": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "es": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ar": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "fr": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "pt": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ru": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ja": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "de": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "hi": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market."
+            "en": "304 is adequate for inland and indoor service away from chlorides. Within a few kilometres of the coast, or in chemical, food and desalination plants, use 316 because its molybdenum resists chloride pitting. Coastal roofs and pool areas should be treated as 316 territory.",
+            "zh": "内陆、室内、远离氯化物的场合 304 足够。距海数公里内、化工、食品、海水淡化厂要用 316，钼元素抗氯离子点蚀。沿海屋面与泳池区域都应归入 316 的适用范围。"
           }
         },
         {
           "q": {
-            "en": "How do I choose a reliable supplier?",
-            "zh": "如何选择可靠的供应商？",
-            "es": "How do I choose a reliable supplier?",
-            "ar": "How do I choose a reliable supplier?",
-            "fr": "How do I choose a reliable supplier?",
-            "pt": "How do I choose a reliable supplier?",
-            "ru": "How do I choose a reliable supplier?",
-            "ja": "How do I choose a reliable supplier?",
-            "de": "How do I choose a reliable supplier?",
-            "hi": "How do I choose a reliable supplier?"
+            "en": "Why does stainless steel sometimes rust?",
+            "zh": "不锈钢为什么也会生锈？"
           },
           "a": {
-            "en": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "zh": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "es": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ar": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "fr": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "pt": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ru": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ja": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "de": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "hi": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region."
+            "en": "Three usual causes: chloride attack in coastal air, iron contamination from carbon steel tools or grinding dust, and oxygen-starved crevices under washers or trapped water. Passivate after fabrication, use dedicated stainless tools, and design drainage so water does not sit in gaps.",
+            "zh": "常见三种：沿海空气的氯化物侵蚀、碳钢工具或打磨粉尘带来的铁污染、垫圈下或积水缝隙缺氧。加工后要酸洗钝化，使用不锈钢专用工具，并在设计上让水能排走、不积在缝隙里。"
+          }
+        },
+        {
+          "q": {
+            "en": "What should I verify when buying stainless fasteners?",
+            "zh": "采购不锈钢紧固件要核实什么？"
+          },
+          "a": {
+            "en": "Confirm the steel family (A2/304 or A4/316) rather than just 'stainless', the property class (70 or 80), and whether parts are passivated. Ask for a PMI or chemical composition report on critical lots, and isolate stainless from galvanized steel in wet joints.",
+            "zh": "不要只写“不锈钢”，要确认钢种（A2/304 或 A4/316）、性能等级（70 或 80）以及是否做钝化。关键批次要 PMI 或化学成分报告，潮湿接头中不锈钢与镀锌钢必须隔离。"
           }
         }
       ]

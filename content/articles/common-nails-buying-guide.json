@@ -219,6 +219,47 @@
         "de": "Für Käufer in Simbabwe, Sambia, Südafrika und Mosambik ist eine Bestellung gewöhnlicher Nägel gemeinsam nach Produktspezifikation und Lieferroute zu planen. Beginnen Sie mit einer einzigen schriftlichen Spezifikation über Größe, Durchmesser, Finish, Spitze, Kartongewicht, Palettenregeln, Prüfverfahren und erforderliche Dokumente. Fordern Sie ein Angebot an, das Produktkosten, Verpackung, Inlandtransport, Seefracht, Versicherung falls erforderlich, Hafengebühren und Zielzustellung getrennt ausweist. Beira kann für Mosambik sowie Korridore ins Binnenland Richtung Simbabwe und Teile Sambias relevant sein, Durban wird oft für die südafrikanische Distribution und einzelne regionale Frachtströme betrachtet. Die beste Route hängt vom Endempfänger, Grenzabwicklung, Transitplan, Containerverfügbarkeit und Gesamtlanded Cost ab; kein Hafen ist für jede Bestellung automatisch schneller oder billiger. Klären Sie, ob die Sendung als Vollcontainer oder Sammelladung geht, und prüfen Sie, wie 25 kg-Kartons beim Umschlag behandelt werden. Bei blanken Nägeln ist die Feuchte bei Lagerung und Inlandtransport zu kontrollieren. Bei verzinkten Nägeln bleiben die Kartons trocken, stehendes Wasser darf nicht an das Metall gelangen. Fragen Sie TradeGo nach dem Vorserien-Spezifikationsblatt, dem Kartonmarkierungsentwurf, dem Packlistenformat und dem Prüfplan, und lassen Sie bei sensibler Anwendung vor der Serienfertigung ein Referenzmuster freigeben. Gehen Sie nicht davon aus, dass das Angebot Zollabfertigung, lokale Steuern, Terminalumschlag oder Endzustellung umfasst. Ein klarer Incoterm, Empfängeradresse und Dokumentenliste vermeiden vermeidbare Verzögerungen, ohne unbelegte Zusagen über Vorrat, Produktionskapazität oder Transitzeit zu machen.",
         "hi": "ज़िम्बाब्वे, ज़ाम्बिया, दक्षिण अफ्रीका और मोज़ाम्बिक के खरीदारों के लिए आम कील के ऑर्डर को उत्पाद विनिर्देश और डिलीवरी मार्ग को साथ मिलाकर योजनाबद्ध करना चाहिए। आकार, व्यास, फिनिश, नोक, कार्टन भार, पैलेट नियम, निरीक्षण विधि और आवश्यक दस्तावेज़ों को कवर करने वाली एक लिखित विनिर्देश से शुरुआत करें। एक ऐसा उद्धरण मांगें जिसमें उत्पाद लागत, पैकिंग, अंतर्देशीय परिवहन, समुद्री भाड़ा, आवश्यक हो तो बीमा, बंदरगाह शुल्क और गंतव्य डिलीवरी अलग-अलग दिखाए गए हों। बेरा मोज़ाम्बिक तथा ज़िम्बाब्वे और ज़ाम्बिया के कुछ हिस्सों की ओर जाने वाले अंतर्देशीय कॉरिडोर के लिए प्रासंगिक हो सकता है, जबकि डरबन अक्सर दक्षिण अफ्रीका वितरण और कुछ क्षेत्रीय कार्गो प्रवाह के लिए माना जाता है। सबसे अच्छा मार्ग अंतिम कंसाइनी, सीमा प्रक्रिया, ट्रांज़िट योजना, कंटेनर उपलब्धता और कुल लैंडेड लागत पर निर्भर करता है; कोई भी बंदरगाह हर ऑर्डर के लिए अपने आप तेज़ या सस्ता नहीं होता। पुष्टि करें कि खेप फुल-कंटेनर है या कंसोलिडेटेड कार्गो, और देखें कि ट्रांसशिपमेंट के दौरान 25 kg के कार्टन कैसे हैंडल होंगे। ब्राइट कीलों के लिए भंडारण और अंतर्देशीय परिवहन के दौरान नमी नियंत्रित करें। गैल्वनाइज्ड कीलों के लिए कार्टन सूखे रखें और खड़े पानी को धातु से संपर्क नहीं करने दें। TradeGo से प्री-प्रोडक्शन विनिर्देश शीट, कार्टन मार्किंग ड्राफ्ट, पैकिंग लिस्ट प्रारूप और निरीक्षण योजना मांगें, फिर जब अनुप्रयोग संवेदनशील हो तो सामूहिक उत्पादन से पहले संदर्भ नमूना अनुमोदित करें। यह न समझें कि उद्धरण में कस्टम क्लीयरेंस, स्थानीय कर, टर्मिनल हैंडलिंग या अंतिम मील डिलीवरी शामिल है। स्पष्ट Incoterm, कंसाइनी पता और दस्तावेज़ सूची अनावश्यक देरी घटाती हैं, और स्टॉक, उत्पादन क्षमता या ट्रांज़िट समय का असमर्थित वादा नहीं करतीं।"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What sizes do common nails come in?"
+          },
+          "a": {
+            "en": "Roughly 1 inch to 8 inch, with the common range for construction at 2 to 4 inch. Wire gauge falls as length rises, so a longer nail is not simply a scaled version of a short one."
+          }
+        },
+        {
+          "q": {
+            "en": "How long should the nail be for a given timber thickness?"
+          },
+          "a": {
+            "en": "A working rule is that penetration into the receiving member should be about two thirds of the nail length, and the nail should not protrude on the far side. For 50 mm boarding into a 50 mm joist, 75 to 90 mm is typical."
+          }
+        },
+        {
+          "q": {
+            "en": "Which finish and packing should I order?"
+          },
+          "a": {
+            "en": "Bright for interior work, electro-galvanised for sheltered exterior, hot-dip galvanised for coastal and preservative-treated timber. Packing is normally 25 kg cartons on pallets, so confirm carton count per pallet for container planning."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

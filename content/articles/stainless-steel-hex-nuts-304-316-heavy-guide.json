@@ -204,6 +204,14 @@
             "de": "Proof load is the maximum load a nut can withstand without thread stripping. For A4-80 (316 stainless), proof load is 800 MPa × stress area = the load at which permanent deformation occurs.",
             "hi": "Proof load is the maximum load a nut can withstand without thread stripping. For A4-80 (316 stainless), proof load is 800 MPa × stress area = the load at which permanent deformation occurs."
           }
+        },
+        {
+          "q": {
+            "en": "Which stainless grade for coastal or chemical exposure?"
+          },
+          "a": {
+            "en": "A4/316 for chloride, marine and most chemical service, A2/304 for general outdoor and food-adjacent work. The grade on the nut must match the bolt, otherwise the couple accelerates corrosion at the joint."
+          }
         }
       ],
       "body": {

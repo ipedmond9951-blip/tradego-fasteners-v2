@@ -268,6 +268,47 @@
       },
       "type": "text",
       "id": "cost-saving-strategies-for-kenya-fastener-wholesale-buyers"
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Which fasteners dominate Kenya's affordable housing projects?"
+          },
+          "a": {
+            "en": "Roofing screws and nails, concrete anchors, drywall and self-drilling screws, and structural bolts in class 8.8. Volume sits in the roofing and internal fit-out stages rather than in heavy structural steel."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I buy wholesale without losing quality?"
+          },
+          "a": {
+            "en": "Fix the specification per line - standard, grade, coating, pack size - then sample each lot and check mill certificates. Bulk pricing only pays off when the specification is stable across shipments."
+          }
+        },
+        {
+          "q": {
+            "en": "What is the shipping route and lead time?"
+          },
+          "a": {
+            "en": "Sea freight to Mombasa, with FCL transit from Shanghai typically 28 to 35 days plus clearance and inland delivery. Booking early protects the project schedule when several sites need material in the same month."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

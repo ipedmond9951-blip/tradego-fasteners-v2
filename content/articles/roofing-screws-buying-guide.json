@@ -218,6 +218,47 @@
         "ja": "問い合わせに五つの事実があれば、サプライヤーは一日で正確に見積もれます。板の形状と板厚、母屋の種類と厚さ、屋根面積（平方メートル）またはビス本数、環境（内陸・沿岸・工業・農業）、仕向港です。色合わせが必要なら頭部の色、倉庫体制がある顧客なら梱包の希望も加えます。この五つが欠けると見積は推測になり、最も安い提案が誤った仕様で勝ちます。最初のコンテナ前にサンプルを求めてください。実物の板と母屋に20本打ち込めば、長さ・先端・ワッシャーが適切か分かり、一週間のサンプルサイクルは誤った長さのコンテナよりはるかに安いです。TradeGoはTEK先端とEPDMワッシャー付きの屋根ビス、HDGとRuspertの表面処理、直径4.2〜6.3mm、長さ50〜150mm、500〜1,000本入り、要望に応じた色合わせを供給します。",
         "ru": "Поставщик может точно просчитать цену за день, если в запросе есть пять фактов: профиль и толщина листа, тип и толщина прогона, площадь кровли в квадратных метрах или число саморезов, среда (внутренняя, прибрежная, промышленная, сельскохозяйственная) и порт назначения. Добавьте цвет головки, если нужен подбор, и предпочтение по упаковке, если у клиента есть складская система. Без этих пяти предложения строятся на догадках, и самое дешёвое обычно выигрывает с неверной спецификацией. Просите образцы до первого контейнера: двадцать саморезов, вкрученных в реальный лист и прогон на верстаке, покажут, верны ли длина, жало и шайба, а недельный цикл образцов гораздо дешевле контейнера неверной длины. TradeGo поставляет кровельные саморезы с жалом TEK и шайбами EPDM, покрытиями HDG и Ruspert, диаметром 4,2–6,3 мм и длиной 50–150 мм, в коробках по 500–1 000 штук, с подбором цвета по запросу."
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "How long should a roofing screw be?"
+          },
+          "a": {
+            "en": "Length equals sheet thickness plus purlin or batten penetration plus about 25 mm of driving allowance. Too short and the thread never fully engages the purlin; too long and the point breaks through where it can be seen or catch."
+          }
+        },
+        {
+          "q": {
+            "en": "Does the washer really do the waterproofing?"
+          },
+          "a": {
+            "en": "Yes. The EPDM washer under the screw head seals the hole, and it only works if the screw is driven to the correct depth - over-driving crushes the washer, under-driving leaves a gap. Replace cracked washers rather than reusing them."
+          }
+        },
+        {
+          "q": {
+            "en": "Which coating for a coastal roof?"
+          },
+          "a": {
+            "en": "Ruspert or comparable multilayer coatings and hot-dip galvanising both hold up on coastal roofs; plain thin zinc does not. Match the coating class to the distance from the sea, and specify it explicitly because the same screw is sold in several coating grades."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

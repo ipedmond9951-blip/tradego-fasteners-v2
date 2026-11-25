@@ -247,6 +247,36 @@
             "de": "Stacking spring washers is not recommended. It does not proportionally increase locking force and can create uneven bearing surfaces. Instead, use a more effective locking method such as a Nord-Lock washer or prevailing torque nut.",
             "hi": "Stacking spring washers is not recommended. It does not proportionally increase locking force and can create uneven bearing surfaces. Instead, use a more effective locking method such as a Nord-Lock washer or prevailing torque nut."
           }
+        },
+        {
+          "q": {
+            "en": "What does a flat washer do that a spring washer does not?",
+            "zh": "平垫能做而弹垫做不到的是什么？"
+          },
+          "a": {
+            "en": "A flat washer spreads the clamp load over a larger area, protects the surface finish and bridges oversized or slotted holes. A spring washer only adds a small friction torque; it does not increase the bearing area or the joint's fatigue life.",
+            "zh": "平垫把夹紧力分散到更大面积、保护表面涂层、并可跨越超大孔或长圆孔。弹垫只提供很小的摩擦阻力矩，既不增大承压面积，也不改善接头疲劳寿命。"
+          }
+        },
+        {
+          "q": {
+            "en": "Are spring washers reliable for vibration loosening?",
+            "zh": "弹垫防振松真的可靠吗？"
+          },
+          "a": {
+            "en": "Only marginally. Tests show split spring washers lose preload quickly under transverse vibration. For real dynamic duty use thread-locking adhesive, nylon-insert lock nuts, or wedge-lock washers, and keep enough preload in the joint.",
+            "zh": "作用有限。试验表明开口弹垫在横向振动下很快失去预紧力。真正有动态载荷的场合应用螺纹锁固胶、尼龙嵌件锁紧螺母或楔形防松垫圈，并保证接头有足够预紧力。"
+          }
+        },
+        {
+          "q": {
+            "en": "Which flat washer standard and hardness should I specify?",
+            "zh": "平垫的标准和硬度怎么指定？"
+          },
+          "a": {
+            "en": "ISO 7089/7090 cover standard and chamfered washers, ISO 7093 the oversized series for slotted holes. Hardness must match the bolt class: 200 HV for 8.8 and below, 300 HV for 10.9, otherwise the washer deforms and preload is lost.",
+            "zh": "ISO 7089/7090 为标准与倒角平垫，ISO 7093 为长圆孔用加大系列。硬度要与螺栓等级匹配：8.8 及以下配 200 HV，10.9 配 300 HV，否则垫圈被压陷、预紧力损失。"
+          }
         }
       ]
     },
@@ -289,84 +319,6 @@
             "ja": "Product Comparison are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
             "de": "Product Comparison are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
             "hi": "Product Comparison are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
-          }
-        },
-        {
-          "q": {
-            "en": "How do I choose the right fastener for my project?",
-            "zh": "How do I choose the right fastener for my project?",
-            "es": "How do I choose the right fastener for my project?",
-            "ar": "How do I choose the right fastener for my project?",
-            "fr": "How do I choose the right fastener for my project?",
-            "pt": "How do I choose the right fastener for my project?",
-            "ru": "How do I choose the right fastener for my project?",
-            "ja": "How do I choose the right fastener for my project?",
-            "de": "How do I choose the right fastener for my project?",
-            "hi": "How do I choose the right fastener for my project?"
-          },
-          "a": {
-            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "zh": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "es": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "ar": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "fr": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "pt": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "ru": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "ja": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "de": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "hi": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
-          }
-        },
-        {
-          "q": {
-            "en": "What materials are available for these fasteners?",
-            "zh": "What materials are available for these fasteners?",
-            "es": "What materials are available for these fasteners?",
-            "ar": "What materials are available for these fasteners?",
-            "fr": "What materials are available for these fasteners?",
-            "pt": "What materials are available for these fasteners?",
-            "ru": "What materials are available for these fasteners?",
-            "ja": "What materials are available for these fasteners?",
-            "de": "What materials are available for these fasteners?",
-            "hi": "What materials are available for these fasteners?"
-          },
-          "a": {
-            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "zh": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "es": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "ar": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "fr": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "pt": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "ru": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "ja": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "de": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "hi": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
-          }
-        },
-        {
-          "q": {
-            "en": "Do you offer custom manufacturing?",
-            "zh": "Do you offer custom manufacturing?",
-            "es": "Do you offer custom manufacturing?",
-            "ar": "Do you offer custom manufacturing?",
-            "fr": "Do you offer custom manufacturing?",
-            "pt": "Do you offer custom manufacturing?",
-            "ru": "Do you offer custom manufacturing?",
-            "ja": "Do you offer custom manufacturing?",
-            "de": "Do you offer custom manufacturing?",
-            "hi": "Do you offer custom manufacturing?"
-          },
-          "a": {
-            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "zh": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "es": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "ar": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "fr": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "pt": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "ru": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "ja": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "de": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "hi": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
           }
         }
       ],

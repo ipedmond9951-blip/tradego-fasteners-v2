@@ -236,6 +236,36 @@
             "de": "This usually means the hole is oversized or the anchor is not properly expanded. Remove the anchor, redrill with the correct bit size if needed, and reinstall. Never overtighten as this can damage the expansion mechanism.",
             "hi": "This usually means the hole is oversized or the anchor is not properly expanded. Remove the anchor, redrill with the correct bit size if needed, and reinstall. Never overtighten as this can damage the expansion mechanism."
           }
+        },
+        {
+          "q": {
+            "en": "Which anchor type fits cracked versus uncracked concrete?",
+            "zh": "开裂与未开裂混凝土分别该用哪种锚栓？"
+          },
+          "a": {
+            "en": "Cracked concrete needs an anchor qualified for it - look for ETA or ICC-ES approval covering cracked concrete and seismic categories. Uncrusted solid concrete accepts standard wedge or sleeve anchors. Chemical anchors suit close spacing or near-edge work where mechanical expansion is impractical.",
+            "zh": "开裂混凝土必须用通过开裂混凝土与抗震等级认证（ETA 或 ICC-ES）的锚栓；未开裂的实体混凝土可用标准楔形或套管锚栓。化学锚栓适合小间距、近边缘、机械膨胀不便的场合。"
+          }
+        },
+        {
+          "q": {
+            "en": "What spacing and edge distance do concrete anchors need?",
+            "zh": "混凝土锚栓的边距和间距要求是多少？"
+          },
+          "a": {
+            "en": "As a rule, keep at least 10 anchor diameters from an edge and 12 diameters between anchors, and no closer than about 6 diameters to a crack. Always use the manufacturer's ETA table for the specific anchor, because reduced spacing cuts capacity and can split the concrete.",
+            "zh": "一般边距不小于 10 倍锚栓直径、间距不小于 12 倍，距裂缝不小于约 6 倍。具体按厂家 ETA 表取值——间距缩小会降低承载力，甚至劈裂混凝土。"
+          }
+        },
+        {
+          "q": {
+            "en": "What are the most common anchor installation mistakes?",
+            "zh": "锚栓安装最常见的错误有哪些？"
+          },
+          "a": {
+            "en": "Poor hole cleaning is the biggest one: blow, brush, blow again with the specified brush and pump. Others are using the wrong bit size, drilling through the aggregate with a worn bit, and tightening with an impact driver instead of a torque wrench. Each of these cuts capacity well below the rated value.",
+            "zh": "清孔不到位是头号问题：按规定毛刷与气泵做“吹—刷—吹”。其次是钻头规格不对、钻头磨损导致孔径偏大、用冲击扳手代替扭矩扳手紧固。每一项都会让承载力远低于额定值。"
+          }
         }
       ]
     },
@@ -253,112 +283,7 @@
         "de": "Häufig gestellte Fragen",
         "hi": "अक्सर पूछे जाने वाले प्रश्न"
       },
-      "faqItems": [
-        {
-          "q": {
-            "en": "What are Technical Guide and how are they used?",
-            "zh": "What are Technical Guide and how are they used?",
-            "es": "What are Technical Guide and how are they used?",
-            "ar": "What are Technical Guide and how are they used?",
-            "fr": "What are Technical Guide and how are they used?",
-            "pt": "What are Technical Guide and how are they used?",
-            "ru": "What are Technical Guide and how are they used?",
-            "ja": "What are Technical Guide and how are they used?",
-            "de": "What are Technical Guide and how are they used?",
-            "hi": "What are Technical Guide and how are they used?"
-          },
-          "a": {
-            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "zh": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "es": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "ar": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "fr": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "pt": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "ru": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "ja": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "de": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "hi": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
-          }
-        },
-        {
-          "q": {
-            "en": "How do I choose the right fastener for my project?",
-            "zh": "How do I choose the right fastener for my project?",
-            "es": "How do I choose the right fastener for my project?",
-            "ar": "How do I choose the right fastener for my project?",
-            "fr": "How do I choose the right fastener for my project?",
-            "pt": "How do I choose the right fastener for my project?",
-            "ru": "How do I choose the right fastener for my project?",
-            "ja": "How do I choose the right fastener for my project?",
-            "de": "How do I choose the right fastener for my project?",
-            "hi": "How do I choose the right fastener for my project?"
-          },
-          "a": {
-            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "zh": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "es": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "ar": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "fr": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "pt": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "ru": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "ja": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "de": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "hi": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
-          }
-        },
-        {
-          "q": {
-            "en": "What materials are available for these fasteners?",
-            "zh": "What materials are available for these fasteners?",
-            "es": "What materials are available for these fasteners?",
-            "ar": "What materials are available for these fasteners?",
-            "fr": "What materials are available for these fasteners?",
-            "pt": "What materials are available for these fasteners?",
-            "ru": "What materials are available for these fasteners?",
-            "ja": "What materials are available for these fasteners?",
-            "de": "What materials are available for these fasteners?",
-            "hi": "What materials are available for these fasteners?"
-          },
-          "a": {
-            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "zh": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "es": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "ar": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "fr": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "pt": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "ru": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "ja": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "de": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "hi": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
-          }
-        },
-        {
-          "q": {
-            "en": "Do you offer custom manufacturing?",
-            "zh": "Do you offer custom manufacturing?",
-            "es": "Do you offer custom manufacturing?",
-            "ar": "Do you offer custom manufacturing?",
-            "fr": "Do you offer custom manufacturing?",
-            "pt": "Do you offer custom manufacturing?",
-            "ru": "Do you offer custom manufacturing?",
-            "ja": "Do you offer custom manufacturing?",
-            "de": "Do you offer custom manufacturing?",
-            "hi": "Do you offer custom manufacturing?"
-          },
-          "a": {
-            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "zh": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "es": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "ar": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "fr": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "pt": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "ru": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "ja": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "de": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "hi": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
-          }
-        }
-      ],
+      "faqItems": [],
       "body": {
         "en": "<p>See frequently asked questions below.</p> Related resources: <a href=\"/en/products/high-tensile-bolts\">high-tensile bolts</a> <a href=\"/en/products/anchor-bolts\">anchor bolts</a> <a href=\"/en/products/stainless-bolts\">stainless steel fasteners</a> <a href=\"/en/products/hex-bolts\">hex bolts</a> <a href=\"/en/products/lock-nuts\">lock nuts</a> <a href=\"/en/products/washers\">washers</a> <a href=\"/en/products/self-drilling-screws\">self-drilling screws</a> <a href=\"/en/products/socket-screws\">socket screws</a>. The verification checklist applies to both initial supplier qualification and ongoing batch inspection. For high-risk applications (load-bearing structural, pressure vessels, mining, marine), add fatigue testing, salt-spray testing (ASTM B117), torque-tension testing, and post-installation inspection. The cost of additional verification is 0.1-0.3% of order value, while undetected quality failures can be 10-100x the order value in damages.",
         "zh": "<p>See frequently asked questions below.</p>",

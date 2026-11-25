@@ -209,32 +209,6 @@
       "faqItems": [
         {
           "q": {
-            "en": "What is the minimum order quantity for African markets?",
-            "zh": "非洲市场的最低起订量是多少？",
-            "es": "¿Cuál es la cantidad mínima de pedido para los mercados africanos?",
-            "ar": "ما هي الحد الأدنى للطلب للأسواق الأفريقية؟",
-            "fr": "Quelle est la quantité minimum de commande pour les marchés africains ?",
-            "pt": "Qual é a quantidade mínima de pedido para os mercados africanos?",
-            "ru": "Каков минимальный объем заказа для африканских рынков?",
-            "ja": "アフリカ市場の最低注文数量は？",
-            "de": "Was ist die Mindestbestellmenge für afrikanische Märkte?",
-            "hi": "अफ्रीकी बाजारों के लिए न्यूनतम ऑर्डर मात्रा क्या है?"
-          },
-          "a": {
-            "en": "Most Chinese manufacturers accept orders starting from 1-5 tons per specification. For mixed container orders (LCL), the minimum is typically $5,000-$10,000 USD total value. Some suppliers offer smaller trial orders of 500-1000 kg for new customers in African markets.",
-            "zh": "大多数中国制造商接受每个规格1-5吨起订。拼箱订单（LCL）最低总价通常为5,000-10,000美元。一些供应商为非洲市场新客户提供500-1000公斤的试订单。",
-            "es": "La mayoría de los fabricantes chinos aceptan pedidos desde 1-5 toneladas por especificación. Para pedidos en contenedores consolidados (LCL), el mínimo es típicamente $5,000-$10,000 USD. Algunos proveedores ofrecen pedidos de prueba más pequeños de 500-1000 kg para nuevos clientes.",
-            "ar": "يقبل معظم المصنّعين الصينيين طلبات تبدأ من 1-5 أطنان لكل مواصفة. للطلبات المختلطة (LCL)، الحد الأدنى عادة 5,000-10,000 دولار. بعض الموردين يقدمون طلبات تجريبية 500-1000 كجم.",
-            "fr": "La plupart des fabricants chinois acceptent des commandes à partir de 1-5 tonnes par spécification. Pour les conteneurs groupés (LCL), le minimum est typiquement de 5 000 à 10 000 USD.",
-            "pt": "A maioria dos fabricantes chineses aceita pedidos a partir de 1-5 toneladas por especificação. Para contêineres consolidados (LCL), o mínimo é tipicamente 5.000-10.000 USD.",
-            "ru": "Большинство китайских производителей принимают заказы от 1-5 тонн на спецификацию. Для сборных контейнеров (LCL) минимум обычно 5000-10000 долларов США.",
-            "ja": "ほとんどの中国メーカーは仕様ごとに1〜5トンからの注文を受け付けます。混載（LCL）の場合、最低でも通常5,000〜10,000米ドルです。",
-            "de": "Die meisten chinesischen Hersteller akzeptieren Bestellungen ab 1-5 Tonnen pro Spezifikation. Für Sammelcontainer (LCL) liegt das Minimum typischerweise bei 5.000-10.000 USD.",
-            "hi": "अधिकांश चीनी निर्माता प्रति विशिष्टता 1-5 टन से ऑर्डर स्वीकार करते हैं। मिश्रित कंटेनर (LCL) के लिए न्यूनतम आमतौर पर 5,000-10,000 अमेरिकी डॉलर है।"
-          }
-        },
-        {
-          "q": {
             "en": "How long does shipping take from China to East Africa?",
             "zh": "从中国运到东非需要多长时间？",
             "es": "¿Cuánto tarda el envío desde China a África Oriental?",
@@ -283,6 +257,36 @@
             "ja": "一般的な支払い条件：(1) T/T - 30%の頭金、出荷前に70%、(2) L/C一覧または30/60/90日、(3) D/P、(4) 確立された顧客のオープンアカウント。",
             "de": "Häufige Zahlungsbedingungen: (1) T/T - 30% Anzahlung, 70% vor Versand, (2) Akkreditiv, (3) Dokumente gegen Zahlung, (4) Offenes Konto.",
             "hi": "सामान्य भुगतान शर्तें: (1) T/T - 30% जमा, शिपमेंट से पहले 70%, (2) L/C सा�ight या 30/60/90 दिन, (3) D/P, (4) स्थापित ग्राहकों के लिए खुला खाता।"
+          }
+        },
+        {
+          "q": {
+            "en": "How do South Africa and Botswana demand differ?",
+            "zh": "南非和博茨瓦纳的需求有什么不同？"
+          },
+          "a": {
+            "en": "South Africa has a broad industrial base - automotive, mining, construction and retail - so it buys across the whole fastener range. Botswana is narrower and mining-led, with larger average order sizes and stricter delivery windows tied to plant shutdowns.",
+            "zh": "南非工业门类广——汽车、矿业、建筑、零售——采购覆盖全品类紧固件。博茨瓦纳需求窄、以矿业为主，单笔订单更大，交期窗口严格绑定工厂停机检修。"
+          }
+        },
+        {
+          "q": {
+            "en": "Does SADC membership remove the need for certification?",
+            "zh": "SADC 成员身份能免掉认证吗？"
+          },
+          "a": {
+            "en": "No. SADC reduces tariffs on qualifying goods but does not replace national conformity requirements - SABS in South Africa, BOBS in Botswana. Origin documentation is needed to claim preferential duty, and it must match the actual production location.",
+            "zh": "不能。SADC 只对合格货物降关税，不替代各国符合性要求——南非 SABS、博茨瓦纳 BOBS。享受优惠税率需要原产地文件，且要与实际生产地一致。"
+          }
+        },
+        {
+          "q": {
+            "en": "Which coatings work across both markets?",
+            "zh": "两个市场通用的镀层方案是什么？"
+          },
+          "a": {
+            "en": "Hot-dip galvanized covers most structural and outdoor work in both, with zinc-flake for high-strength bolts and 316 for coastal or chemical exposure. Electro-zinc is acceptable only indoor and dry, which rules it out for most mining and civil work.",
+            "zh": "热浸镀锌在两个市场的结构与室外工程中通用，高强螺栓用锌铝涂层，沿海或化工用 316。电镀锌只适合室内干燥环境，矿业与土木工程基本都用不上。"
           }
         }
       ],

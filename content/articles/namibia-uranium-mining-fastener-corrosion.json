@@ -268,6 +268,47 @@
       },
       "type": "text",
       "id": "supply-chain-solutions-for-namibia-mining-fastener-procurement"
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Why is corrosion so severe for Namibian uranium mine fasteners?"
+          },
+          "a": {
+            "en": "Acid leach circuits, chloride-bearing dust and abrasive ore handling attack zinc coatings quickly. A failed fastener in a conveyor or tank anchorage can stop a processing line, so corrosion is a production risk rather than a cosmetic one."
+          }
+        },
+        {
+          "q": {
+            "en": "Which materials hold up in uranium processing?"
+          },
+          "a": {
+            "en": "316 stainless for wet acid and chloride exposure, duplex 2205 where chloride stress corrosion cracking is a concern, and hot-dip galvanised or zinc-flake carbon steel only in dry, sheltered areas."
+          }
+        },
+        {
+          "q": {
+            "en": "How should procurement secure supply for remote sites?"
+          },
+          "a": {
+            "en": "Qualify two sources, hold critical spares at the mine, and set replenishment triggers by consumption instead of the calendar. Remote Namibian sites can wait weeks for a reorder that was planned too late."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [

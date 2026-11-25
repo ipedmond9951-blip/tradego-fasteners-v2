@@ -193,54 +193,32 @@
         },
         {
           "q": {
-            "en": "What standards should I follow?",
-            "zh": "应该遵循哪些标准？",
-            "es": "What standards should I follow?",
-            "ar": "What standards should I follow?",
-            "fr": "What standards should I follow?",
-            "pt": "What standards should I follow?",
-            "ru": "What standards should I follow?",
-            "ja": "What standards should I follow?",
-            "de": "What standards should I follow?",
-            "hi": "What standards should I follow?"
+            "en": "Which fasteners do conveyor systems need?",
+            "zh": "输送系统需要哪些紧固件？"
           },
           "a": {
-            "en": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "zh": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "es": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ar": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "fr": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "pt": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ru": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "ja": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "de": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
-            "hi": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market."
+            "en": "Conveyor structures take galvanized 8.8 structural bolts, skirt and chute liners take countersunk or hex bolts in stainless or heavy galvanized, and pulley lagging uses high-strength fasteners with controlled torque. Vibration is continuous, so specify lock nuts or wedge-lock washers rather than relying on spring washers.",
+            "zh": "输送机结构用镀锌 8.8 结构螺栓；溜槽与裙板衬板用沉头或六角螺栓，材质取不锈钢或厚镀锌；滚筒包胶用高强紧固件并控制扭矩。振动是持续的，应指定锁紧螺母或楔形防松垫圈，别指望弹垫。"
           }
         },
         {
           "q": {
-            "en": "How do I choose a reliable supplier?",
-            "zh": "如何选择可靠的供应商？",
-            "es": "How do I choose a reliable supplier?",
-            "ar": "How do I choose a reliable supplier?",
-            "fr": "How do I choose a reliable supplier?",
-            "pt": "How do I choose a reliable supplier?",
-            "ru": "How do I choose a reliable supplier?",
-            "ja": "How do I choose a reliable supplier?",
-            "de": "How do I choose a reliable supplier?",
-            "hi": "How do I choose a reliable supplier?"
+            "en": "What changes for underground mining duty?",
+            "zh": "井下工况有什么不同要求？"
           },
           "a": {
-            "en": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "zh": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "es": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ar": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "fr": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "pt": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ru": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "ja": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "de": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
-            "hi": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region."
+            "en": "Humidity and seepage mean electro-zinc fails fast; use hot-dip galvanized, zinc-flake or stainless. Underground codes may also require specific fire ratings for non-metallic components. Keep traceability per stope or shaft section so failed lots can be isolated.",
+            "zh": "井下潮湿渗水，电镀锌很快失效，应改用热浸镀锌、锌铝涂层或不锈钢。井下规程对非金属件还可能有阻燃等级要求。按采场或井段保留追溯记录，出问题能隔离批次。"
+          }
+        },
+        {
+          "q": {
+            "en": "How should mining fastener specs be documented?",
+            "zh": "矿山紧固件规范怎么写才算完整？"
+          },
+          "a": {
+            "en": "Name the standard, grade, coating thickness, thread tolerance, torque value and the test certificates required - usually EN 10204 3.1, with 3.2 where third-party witness is mandated. Mining houses audit these documents, so an incomplete spec becomes a rejected delivery.",
+            "zh": "要写清标准、等级、镀层厚度、螺纹公差、扭矩值以及所需证书——通常是 EN 10204 3.1，要求第三方见证时用 3.2。矿业公司会审这些文件，规范不完整就会导致到货被拒。"
           }
         }
       ]

@@ -243,6 +243,47 @@
         "de": "Setznägel eignen sich hervorragend für schnelle leichte Befestigungen in Beton oder Stahlblech, doch mechanische oder chemische Anker sind die sicherere Wahl, sobald Zug-Auszugskräfte, Vibration oder schwere strukturelle Lasten maßgeblich sind. Ein üblicher Branchenwert für den Auszug eines flachen Stifts ist niedrig im Vergleich zu durchgesteckten Bolzen- oder Wedge-Ankern, geprüft nach ASTM E488 oder DIN EN 1992-4; daher verwendet man Anker für Grundplatten, Geräteskids und Überkopf-Abhängungen. Man wählt einen Anker, wenn Setznagel-Größen wie 25 mm bis 50 mm in gerissenem, abplatzendem oder niedrigfestem Beton keine ausreichende Einbettung erreichen können oder wenn Setznägel für Stahlblech in dicken Strukturabschnitten Abplatzen oder Versagen riskieren. Pulvergetriebene Befestigungsmittel beruhen auf kinetischer Reibung und können unter zyklischer Vibration locker werden; Spreiz- oder Verbundanker liefern kontrollierte Klemmkraft und nachprüfbares Drehmoment. Wo vor Ort eine Zulassung für pulvergetriebene Geräte oder ein zertifizierter Bediener fehlt oder Patronen strengen Transport- oder Genehmigungsregeln unterliegen, ist das Bohren eines Ankers oft einfacher. Vor der Bestellung bei einem Setznagel-Lieferanten folgt man einer klaren Vier-Schritte-Prüfung: Zuerst bestätigt man Konstruktionszug, Schub sowie seismische oder dynamische Lasten mit dem Statiker; zweitens prüft man Untergrunddicke, Randabstand und Rissrisiko; drittens kontrolliert man Bedienerzulassung und Baustellenbeschränkungen; viertens wählt man Ankertyp und Korrosionsgüte, etwa feuerverzinkt nach ISO 1461 oder nichtrostend nach ISO 3506 für Küstenluft nahe Durban und Beira oder Industriestandorte in Simbabwe.",
         "hi": "शूटिंग नेल्स कंक्रीट या स्टील प्लेट में त्वरित हल्के कार्य के लिए उत्कृष्ट हैं, फिर भी जब टेंसाइल अपलिफ्ट, कंपन या भारी संरचनात्मक भार निर्णायक हों तो मैकेनिकल या केमिकल एंकर अधिक सुरक्षित विकल्प होते हैं। ASTM E488 या DIN EN 1992-4 के तहत परीक्षित थ्रू-बोल्टेड या वेज एंकर की तुलना में उथले पिन के पुल-आउट का विशिष्ट उद्योग मान कम होता है, इसलिए बेसप्लेट, उपकरण स्किड और ओवरहेड सस्पेंशन के लिए एंकर उपयोग करें। चुनें एंकर, जब 25 mm से 50 mm जैसे शूटिंग नेल्स आकार फटे, छिलने वाले या कम ताकत वाले कंक्रीट में पर्याप्त एम्बेडमेंट हासिल नहीं कर सकते, या जब स्टील प्लेट के शूटिंग नेल्स मोटे स्ट्रक्चरल सेक्शन में छिलने या विफलता का जोखिम रखते हों। पाउडर-एक्ट्यूएटेड फास्टनर काइनेटिक घर्षण पर निर्भर करते हैं और चक्रीय कंपन के तहत ढीले हो सकते हैं; एक्सपैंशन या बॉन्डेड एंकर नियंत्रित क्लैंपिंग फोर्स और सत्यापनीय टॉर्क प्रदान करते हैं। जहां साइट पर पाउडर-एक्ट्यूएटेड टूल लाइसेंस या प्रमाणित ऑपरेटर उपलब्ध न हो, या जहां कारतूस सख्त परिवहन या परमिट नियमों का सामना करते हों, वहां एंकर ड्रिल करना अक्सर सरल होता है। शूटिंग नेल्स सप्लायर से ऑर्डर करने से पहले स्पष्ट चार-चरण जांच अपनाएं: पहले स्ट्रक्चरल इंजीनियर के साथ डिजाइन टेंशन, शियर और सीस्मिक या डायनैमिक लोड की पुष्टि करें; दूसरे आधार सामग्री की मोटाई, एज डिस्टेंस और क्रैक जोखिम का निरीक्षण करें; तीसरे ऑपरेटर लाइसेंसिंग और साइट प्रतिबंध जांचें; चौथे एंकर प्रकार और जंग ग्रेड चुनें, जैसे दुरबन और बेरा के पास तटीय हवा या ज़िंबाब्वे के औद्योगिक स्थानों के लिए ISO 1461 के अनुसार हॉट-डिप गैल्वनाइज़्ड या ISO 3506 के अनुसार स्टेनलेस।"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "When should powder-actuated fastening be avoided?"
+          },
+          "a": {
+            "en": "Whenever there is tensile uplift, vibration, fatigue or a structural load path - use mechanical or chemical anchors instead. Avoid thin steel, unknown base material and any use outside the tool's rated energy."
+          }
+        },
+        {
+          "q": {
+            "en": "What do collar colours mean?"
+          },
+          "a": {
+            "en": "The collar colour codes pin length and application range for a specific tool. Using the wrong collar overdrives or underdrives the pin and can damage the base material."
+          }
+        },
+        {
+          "q": {
+            "en": "How are shooting nails shipped?"
+          },
+          "a": {
+            "en": "As hazardous-adjacent goods with powder charges packed separately under the applicable regulation, declared correctly on the shipping documents, and never mixed loose with general cargo."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
