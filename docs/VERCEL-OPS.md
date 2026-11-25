@@ -199,6 +199,8 @@ bash scripts/vercel-guard.sh            # 立刻跑一次，确认环境合规
 | `bash scripts/vercel-prune.sh --apply` | 保留 3 条，其余删除（删除前自动归档） |
 | `bash scripts/vercel-guard.sh` | 推送前规范自检（默认模式） |
 | `bash scripts/vercel-guard.sh --live` | 上线后验收（sha/状态/包体/页面/缓存头） |
+| `bash scripts/vercel-usage-snapshot.sh` | 抓 Usage 页六项数字落盘（信用额度/带宽/函数/存储/ISR/构建），审计依赖它 |
+| `bash scripts/vercel-audit-daily.sh` | 无人值守入口：先抓用量快照，再跑审计，写状态文件 + 失败通知（launchd 6 小时一次） |
 | `npx vercel ls tradego-fasteners --json` | 部署列表（含 sha、状态、时间） |
 | `npx vercel inspect <url>` | 构建产物与 Lambda 尺寸 |
 
@@ -281,3 +283,5 @@ CANCELED 记录要 push 后十几秒才出现在 API 里，所以 `deploy-flush.
 | `vercel inspect` 直接 grep | 抓不到尺寸 | 输出在 stderr，必须 `2>&1` |
 | 以为 `deploymentsToKeep` 能设 | PATCH 400 `should NOT have additional property` | 只读；条数靠 prune，平台只有天数型 Retention Policy |
 | 平台 cron / `at` 当可靠调度 | 到点 `last_run_time` 不动 | 本机一律用 launchd（RunAtLoad + StartInterval/StartCalendarInterval），写状态 json |
+| 2026-11-25 | 接入 `@vercel/speed-insights`（CWV 实测数据，服务 SEO）；Vercel Web Analytics 与 GA4 重复，保持不接线 | Speed Insights 仪表盘早已启用但 `hasData:false`，等于白开 |
+| 2026-11-25 | 新增 `vercel-usage-snapshot.sh`，用量快照进审计（第 10 项：信用额度/带宽/函数/存储/ISR/构建） | 402 事故的根因是"发现太晚"：Vercel 只在 75%/100% 发邮件，而邮件到达时站已经挂了 |

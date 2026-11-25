@@ -9,6 +9,7 @@ import { locales, type Locale } from '@/i18n'
 import { clampDescription } from '@/lib/seo'
 const AIChatWidget = dynamic(() => import('@/components/AIChatWidget'))
 import Analytics from '@/components/Analytics'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 const CookieConsent = dynamic(() => import('@/components/CookieConsent') )
 const WhatsAppCTA = dynamic(() => import('@/components/WhatsAppCTA') )
 import VideoSchema from '@/components/VideoSchema'
@@ -135,6 +136,7 @@ export default async function LocaleLayout({
             <AIChatWidget locale={loc} />
             <WhatsAppCTA locale={loc} />
             <Analytics />
+            <SpeedInsights />
             <CookieConsent locale={locale} />
           </CurrencyProvider>
         </GeoProvider>

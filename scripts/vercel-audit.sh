@@ -166,6 +166,36 @@ CODE=$(curl -s -o /dev/null -w "%{http_code}" -L https://www.tradego-fasteners.c
 CC=$(curl -sI -L https://www.tradego-fasteners.com/en/ | grep -i cache-control | head -1)
 case "$CC" in *s-maxage=86400*) pass "CDN 长缓存正常";; *) issue "缓存头异常: ${CC:-<空>}";; esac
 
+# --- 8. 用量快照（防 402 复发：Vercel 只在 75%/100% 发邮件，必须自己看） ---
+USAGE="$ROOT/logs/vercel-usage.json"
+if [ -s "$USAGE" ]; then
+  URES=$(python3 - "$USAGE" <<'PY'
+import json, sys, datetime
+d = json.load(open(sys.argv[1]))
+ts = d.get("checked_at", "")
+try:
+    age_h = (datetime.datetime.now(datetime.timezone.utc) - datetime.datetime.fromisoformat(ts.replace("Z", "+00:00"))).total_seconds() / 3600
+except Exception:
+    age_h = 999
+pct = float(d.get("credit_pct") or 0)
+if age_h > 36:
+    print("STALE|%.0f|%.1f" % (age_h, pct))
+elif pct >= 95:
+    print("HIGH|%.0f|%.1f" % (age_h, pct))
+else:
+    print("OK|%.0f|%.1f" % (age_h, pct))
+PY
+)
+  USTATE=${URES%%|*}; REST=${URES#*|}; UAGE=${REST%%|*}; UPCT=${REST##*|}
+  case "$USTATE" in
+    OK) pass "用量快照 ${UAGE}h 前，信用额度已用 ${UPCT}%" ;;
+    HIGH) issue "信用额度已用 ${UPCT}%（$20 含额度快要吃满），查最近部署/Lambda/流量" ;;
+    STALE) issue "用量快照已过期 ${UAGE}h（跑 scripts/vercel-usage-snapshot.sh）" ;;
+  esac
+else
+  issue "缺少用量快照 logs/vercel-usage.json（跑 scripts/vercel-usage-snapshot.sh）"
+fi
+
 # --- 记录 ---
 RESULT="PASS"; [ "$FAIL" -gt 0 ] && RESULT="FAIL($FAIL)"
 printf '%s | %s | 当日部署=%s 保留=%s cli直推=%s 最新=%s\n' "$(date '+%F %T')" "$RESULT" "$TODAYN" "$TOTAL" "$CLIN" "${LATEST_SHA:0:8}" >> "$LOG"
