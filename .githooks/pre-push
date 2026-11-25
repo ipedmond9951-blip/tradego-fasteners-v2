@@ -4,6 +4,18 @@
 set -uo pipefail
 
 FORCE="${DEPLOY_FORCE:-0}"
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+# 品牌资产体检（2026-11-25 加，fail-closed，毫秒级）：favicon 的 PNG 帧不是 RGBA 会让
+# Turbopack 直接中止构建（当天挂了两次生产部署）。这一步不受 DEPLOY_FORCE 影响，
+# 也不该被绕过——它不是预算/排队问题，是“推上去必然炸”。
+if [ -f "$ROOT/scripts/check-build-assets.py" ]; then
+    if ! python3 "$ROOT/scripts/check-build-assets.py" >&2; then
+        echo "⛔ 品牌资产体检未通过（构建必炸），push 已拦截。" >&2
+        exit 1
+    fi
+fi
+
 [ "$FORCE" = "1" ] && exit 0
 
 REMOTE="$1"; URL="$2"
@@ -12,7 +24,6 @@ case "$URL" in *tradego-fasteners-v2*) ;; *) exit 0 ;; esac
 
 # 2026-11-25 规范合规(docs/VERCEL-OPS.md): 直推也要过一遍规范自检。
 # 返回 2 仅代表有警告（如工作区有未提交文件），允许继续；返回 1 为硬性违规，拦截。
-ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 if [ -x "$ROOT/scripts/vercel-guard.sh" ]; then
     bash "$ROOT/scripts/vercel-guard.sh"
     GUARD_RC=$?

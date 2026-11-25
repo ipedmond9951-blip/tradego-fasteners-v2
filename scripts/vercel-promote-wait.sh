@@ -51,13 +51,13 @@ else:
       fi
       echo "[promote-wait $(date '+%F %T')] ❌ promote 失败" >> "$LOG"; exit 2 ;;
     ERROR|CANCELED)
-      echo "[promote-wait $(date '+%F %T')] ❌ 构建 $state（${SHA:0:8}）" >> "$LOG"; exit 1 ;;
+      echo "[promote-wait $(date '+%F %T')] ❌ 构建 ${state}（${SHA:0:8}）" >> "$LOG"; exit 1 ;;
     NOTFOUND)
       : ;;
   esac
   now=$(date +%s)
   if [ $((now - start)) -ge "$TIMEOUT" ]; then
-    echo "[promote-wait $(date '+%F %T')] ⏱ 超时（最后状态 $state），仍需人工 promote" >> "$LOG"
+    echo "[promote-wait $(date '+%F %T')] ⏱ 超时（最后状态 ${state}），仍需人工 promote" >> "$LOG"
     exit 1
   fi
   sleep 20

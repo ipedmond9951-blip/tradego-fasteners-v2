@@ -152,15 +152,22 @@ else
 fi
 [ "$HEAD_SHA" != "$ORIGIN_SHA" ] && say "  ⚠️  本地 HEAD ${HEAD_SHA:0:8} 领先 origin/main，有未推送提交"
 
-# 构建失败要单独报：线上不是"没部署"，而是"部署挂了"
-FAILED=$(printf '%s' "$DATA" | python3 -c 'import json,sys;ds=json.load(sys.stdin);bad=[d for d in ds if d.get("state")=="ERROR"];print(json.dumps(bad[0]) if bad else "")')
+# 构建失败要单独报：线上不是"没部署"，而是"部署挂了"。
+# 2026-11-25 修：只报“比线上更晚”的失败。之前取 bad[0]，prune 保留的旧 ERROR 会被当成
+# “最新部署构建失败”，报出与事实相反的告警（生产域名早已指向更新的 READY 部署）。
+FAILED=$(printf '%s' "$DATA" | python3 -c '
+import json,sys
+ds=json.load(sys.stdin)
+live=next((d for d in ds if d.get("state")=="READY" and d.get("target")=="production"),{})
+live_at=live.get("createdAt") or 0
+bad=[d for d in ds if d.get("state")=="ERROR" and (d.get("createdAt") or 0)>live_at]
+bad.sort(key=lambda d:d.get("createdAt") or 0, reverse=True)
+print(json.dumps(bad[0]) if bad else "")')
 if [ -n "$FAILED" ]; then
   FUID=$(printf '%s' "$FAILED" | python3 -c 'import json,sys;print(json.load(sys.stdin).get("uid",""))')
   FSHA=$(printf '%s' "$FAILED" | python3 -c 'import json,sys;print(json.load(sys.stdin).get("sha_full","")[:8])')
   ECODE=$(bash "$ROOT/scripts/_vercel-deploy-error.sh" "$FUID" 2>/dev/null || true)
-  if [ "$FSHA" != "${LATEST_SHA:0:8}" ]; then
-    issue "最新部署 ${FSHA} 构建失败（${ECODE:-unknown}），线上仍是 ${LATEST_SHA:0:8}；修 forward 后重推，别用 CLI 绕"
-  fi
+  issue "有一次比线上更新的构建失败（${FSHA}，${ECODE:-unknown}），线上仍是 ${LATEST_SHA:0:8}；确认那次提交是否需要上线，需要就修好后重推（别用 CLI 绕）"
 fi
 
 # --- 6. Lambda 尺寸 ---

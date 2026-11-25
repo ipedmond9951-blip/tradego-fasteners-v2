@@ -106,6 +106,13 @@ json.dump(d,open(p,'w'),ensure_ascii=False)
   fi
 fi
 
+# 本地构建体检（2026-11-25 加）：远端失败一次就烧一次额度 + 生产停留旧版 + 一封失败邮件。
+# 体检项见 scripts/deploy-preflight.sh；明确要跳过时用 PREFLIGHT_SKIP=1。
+if ! bash scripts/deploy-preflight.sh; then
+  echo "$LOG_PREFIX ❌ 本地体检未通过，$UNPUSHED 个提交保留在本地（修好后再推）"
+  exit 1
+fi
+
 if ! DEPLOY_FORCE=1 git push -q origin main; then
   echo "$LOG_PREFIX ❌ push 失败"
   exit 1

@@ -395,7 +395,26 @@ curl -s "https://api.vercel.com/v4/aliases?limit=100" -H "Authorization: Bearer 
 - **新增护栏**：`.githooks/pre-commit` 在"同时暂存 content/ 与 src|scripts|docs 且总数 ≥4"时打跨领域混合告警，提示改用 `git commit -- <paths>` 只提交自己的文件，并写入 `logs/vercel-bulk-commit.log`（只告警不阻断，避免打断合法的跨领域提交）。
 - **约定**：每个 agent 提交时用路径限定（`git commit -- <本轮改的路径>`），不要 `git add -A`；发现别人的在途改动就留在工作区，不替它提交。
 
+## 变更记录 2026-11-25 晚（邮件驱动的失败复盘：两次构建挂在同一个本地资产上）
+
+从 Vercel 通知邮件（`notifications@vercel.com`、`billing@vercel.com`）里翻出来的事实：
+
+- **两封失败邮件，不是一次事故**：`058ea10`（2026-11-25 00:51 UTC / 08:51 CST）和 `a48bd40`（11:44 UTC / 19:44 CST）都让 `next build` 退 1。前一次发生在任何人工介入之前，说明品牌线换图标那天线上就已经滞后了十几个小时，只是没人看邮件。
+- **根因同一个**：`src/app/favicon.ico` 里的 PNG 帧是 RGB，Turbopack 报 `Format error decoding Ico: The PNG is not in RGBA format!` 直接中止构建。
+- **账单侧**：`$20.00` Pro，账期 Nov 24–Dec 23，2026-11-24 已付（发票 `Invoice-QFPY9VWU-0003.pdf`）。Free 团队的 "sites are offline / 198% Fast Origin" 邮件都发生在升级之前，不是当前状态。
+
+对应改动（都在 `scripts/`，不改业务代码）：
+
+1. `scripts/check-build-assets.py` —— 直接读 ICO 二进制目录 + PNG IHDR 颜色类型，要求每帧 RGBA 且含 16/32/48。**不用 PIL 判断**：PIL 读 ICO 只暴露一帧，还会把 RGB 静默转成 RGBA，正好放过这次事故的文件。
+2. `scripts/deploy-preflight.sh` —— push 前的本地体检（fail-closed）：资产体检永远跑；改了 `content/articles` 跑 schema；改了 `src/public/依赖` 跑本地 `npm run build`。`PREFLIGHT_SKIP=1` 才跳过，且会打醒目告警。
+3. `deploy-flush.sh` 在 `git push` 前强制调用它：体检不过就保留提交、不推。
+4. `vercel-promote-wait.sh` 修 `$state` 后紧跟中文全角括号导致老 bash 把多字节吃进变量名的 `unbound variable`（`line 54: state?: unbound variable`）—— 这就是之前每次 push 后自动 promote 必崩的原因，现在 READY/超时两条分支都跑通。
+5. `vercel-audit.sh` 的失败告警改成“只报比线上更晚的失败”，并且措辞不再写成"最新部署构建失败"。之前 prune 保留的旧 ERROR 会被 `bad[0]` 选中，报出与事实相反的告警。
+
+教训：**Vercel 失败邮件是"生产已滞后"的第一信号，不是噪音**。看到 `Production deployment failed` 先查 `vercel_deployments.py` 里生产域名指向的 sha，再决定是补 promote 还是修构建。
+
 ## 夜间自动推送（2026-11-25 加）
+
 
 当日构建预算触顶后，`pre-push` 会拒绝推送，白天不再消耗预算。夜间窗口由 launchd 兜住：
 
