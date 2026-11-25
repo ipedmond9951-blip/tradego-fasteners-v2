@@ -112,3 +112,16 @@
 - 只删"伪值"，真译文一律保留（zh 的 CTA 文案、各语种真本地化按钮全部留下），删除后页面输出不变。
 - `.githooks/pre-push` 加了只报告不写盘的 CTA 巡检，避免 pre-push 把工作区弄脏；超阈值时开机提示。
 - 校验：`check-article-schema.sh` 279 篇全绿、`content_gate.py` 0 BLOCK、`check-i18n-leakage.py` ✅ 且 CTA 遥测归零。
+
+## 写入口语言校验（2026-11-26，根因修复）
+
+- 现象：农业机械篇 ar/ru/hi 的 FAQ 槽位里的中文，前一天已清空并提交，第二天又回来了。
+- 根因：`scripts/faq-l10n-batch.py`（launchd `com.tradego.faq-l10n` 每轮跑）把模型返回当"译文"直接写回，**没有校验书写系统**；通道被限流后模型偶尔回吐中文，这些值非空且 ≠ en，绕过 native-only 判定，会直接渲染到阿拉伯语页。
+- 修法：新增 `valid(lang, v, en)`——非空、≠en、书写系统匹配目标语种、非中文目标不得含汉字；不达标逐条丢弃并打印 `⚠️ 丢弃错语种/异常译文`，不再整批写入。
+- 兜底扩面：`normalize-faq-i18n.py` 原来只判"== en"与 ar/ru/hi/ja/zh 的书写系统，现在拉丁语种（es/fr/pt/de）夹汉字/阿语/西里尔同样剔除；本轮清 78 条脏值、13 篇（含 `senegal-fastener-market` 的 "Pour trouver… 可以考虑:" 混血句）。
+- 验证：`check-i18n-leakage.py` 恢复 ✅；`check-article-schema.sh` 279 篇全绿；`content_gate.py` 0 BLOCK。
+
+## ar 技术指南批次（2026-11-26）
+
+- 5 篇全球通用技术页面补阿语问答 24 条：`bolt-markings-identify-grade`(5)、`anchor-bolts-foundation-guide`(5)、`roofing-screws-epdm-washer-guide`(5)、`nylon-nuts-bolts-guide`(5)、`zinc-plated-vs-galvanized`(4)，全部 Agent 自译（通道 429 期间不依赖外部写作链）。
+- 顺手删 5 条通用套话问答（"What are Technical Guide and how are they used?" 及配套"essential components in construction and manufacturing"答案），涉及 5 篇；这类问答会进 FAQPage 结构化数据，属低质信号。
