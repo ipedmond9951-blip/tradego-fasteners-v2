@@ -296,26 +296,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "What makes fastener supply to DRC mining concessions difficult?"
+            "en": "What makes fastener supply to DRC mining concessions difficult?",
+            "zh": "刚果（金）矿区供货难在哪？"
           },
           "a": {
-            "en": "Remote sites, long inland haulage from Dar es Salaam or Beira, and equipment fleets that mix several OEM brands, each with its own fastener standard. Customs variability on top of that is what turns a late shipment into a stopped production line."
+            "en": "Remote sites, long inland haulage from Dar es Salaam or Beira, and equipment fleets that mix several OEM brands, each with its own fastener standard. Customs variability on top of that is what turns a late shipment into a stopped production line.",
+            "zh": "矿区位置偏远，从达累斯萨拉姆或贝拉港出发的内陆运距很长；车队又混用好几个整机品牌，每个品牌对应各自的紧固件标准；再叠加海关环节的变数，一批货延误就可能让整条生产线停工。"
           }
         },
         {
           "q": {
-            "en": "How should a concession plan its fastener inventory?"
+            "en": "How should a concession plan its fastener inventory?",
+            "zh": "矿区紧固件库存该怎么规划？"
           },
           "a": {
-            "en": "Build the list by equipment brand and assembly, split parts into critical and consumable, and hold buffer stock for critical items at the site warehouse while consumables run on scheduled replenishment from China."
+            "en": "Build the list by equipment brand and assembly, split parts into critical and consumable, and hold buffer stock for critical items at the site warehouse while consumables run on scheduled replenishment from China.",
+            "zh": "按设备品牌和总成件整理清单，把零件分成关键件与消耗件两类：关键件在现场仓库备缓冲库存，消耗件按计划批次从中国补货。"
           }
         },
         {
           "q": {
-            "en": "Which documents support DRC import clearance?"
+            "en": "Which documents support DRC import clearance?",
+            "zh": "清关需要准备哪些单证？"
           },
           "a": {
-            "en": "Commercial invoice, packing list, bill of lading, certificate of origin and mill test reports; mining contracts often add a pre-shipment inspection certificate. Invoice values and HS codes must match exactly, because mismatches trigger manual review and demurrage."
+            "en": "Commercial invoice, packing list, bill of lading, certificate of origin and mill test reports; mining contracts often add a pre-shipment inspection certificate. Invoice values and HS codes must match exactly, because mismatches trigger manual review and demurrage.",
+            "zh": "商业发票、装箱单、提单、产地证和材质书；矿业合同通常还会要求装船前检验证书。发票金额与 HS 编码必须逐项一致，对不上会触发人工审核并产生滞港费。"
           }
         }
       ]
