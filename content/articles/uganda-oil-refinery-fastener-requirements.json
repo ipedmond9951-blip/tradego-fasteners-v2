@@ -327,6 +327,22 @@
             "ru": "Да, опытный производитель может поставлять крепёж оптом с полным пакетом документов, прослеживаемостью материалов, поддержкой сторонней инспекции, экспортной упаковкой и координацией логистики через порты Восточной Африки до объекта НПЗ.",
             "ar": "نعم. يمكن لمصنعي B2B ذوي الخبرة توفير مسامير المصفاة بكميات كبيرة مع وثائق جودة كاملة وتتبع المواد ودعم فحص الطرف الثالث وتعبئة تصديرية وتنسيق لوجستي عبر موانئ شرق أفريقيا للتسليم إلى مشروع مصفاة أوغندا. وتُؤكد جودة الدفعات قبل الشحن وفق متطلبات المشروع."
           }
+        },
+        {
+          "q": {
+            "en": "Are there special requirements for hydrogen sulfide (H2S) service?"
+          },
+          "a": {
+            "en": "Yes. Because Ugandan oil fields carry high H2S concentrations, corrosion-resistant alloy bolts must be used. A193 B7 alone is not adequate and must be specified with a suitable coating or liner. Stress corrosion cracking (SCC) testing must be carried out to ASTM G36."
+          }
+        },
+        {
+          "q": {
+            "en": "What operating temperature ranges are permitted?"
+          },
+          "a": {
+            "en": "Typical operating temperatures range from 30 °C to 200 °C. Fastener materials must be verified to retain their mechanical properties across this range. Grade B7 bolts are suitable for temperatures up to 450 °C, although a reduction in allowable stress values must be considered."
+          }
         }
       ],
       "body": {
