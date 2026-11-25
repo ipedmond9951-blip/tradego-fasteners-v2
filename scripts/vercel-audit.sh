@@ -88,18 +88,51 @@ CLIN=$(echo "$STATS" | sed -n 1p | awk '{print $3}')
 [ "$CLIN" -eq 0 ] && pass "部署来源全部为 git 集成（无 CLI 直推）" || issue "发现 $CLIN 条 CLI 直推的生产部署（违反第 4 节）"
 echo "$STATS" | grep "^CLI" | while read -r _ sha when; do echo "      违规部署: $sha @ $when"; done
 
+# 平台侧硬约束：项目只允许 git 来源部署生产（设置了才真正堵死 CLI/REST API）
+POLICY=$(python3 - "$AUTH" "$PROJECT_ID" <<'PY'
+import json, sys, urllib.request
+auth, pid = sys.argv[1], sys.argv[2]
+tok = json.load(open(auth))["token"]
+req = urllib.request.Request("https://api.vercel.com/v9/projects/%s" % pid,
+                             headers={"Authorization": "Bearer " + tok})
+d = json.load(urllib.request.urlopen(req))
+pol = (d.get("deploymentPolicy") or {}).get("deploymentSources") or []
+srcs = set()
+for rule in pol:
+    if rule.get("enabled"):
+        srcs.update(rule.get("sources") or [])
+print(",".join(sorted(srcs)) if srcs else "unrestricted")
+PY
+)
+case "$POLICY" in
+  git) pass "平台已限制生产部署来源=git（CLI/REST API 被 Vercel 拒绝）" ;;
+  unrestricted) issue "项目未启用部署来源限制（任何人可用 CLI 直推），去 Settings→Build and Deployment 设 Override=仅 Git" ;;
+  *) issue "部署来源限制异常: $POLICY（应为 git）" ;;
+esac
+
 [ "$TODAYN" -le "$DAILY_LIMIT" ] && pass "当日部署 ${TODAYN} 次（≤${DAILY_LIMIT}）" || issue "当日部署 $TODAYN 次，超过 $DAILY_LIMIT 次上限"
 [ "$TOTAL" -le "$KEEP" ] && pass "线上保留 ${TOTAL} 条（≤${KEEP}）" || issue "线上保留 $TOTAL 条，超过 $KEEP 条（跑 vercel-prune.sh --apply）"
 
 # --- 4/5. sha 对齐与来源合法性 ---
-LATEST_SHA=$(printf '%s' "$DATA" | python3 -c 'import json,sys;d=json.load(sys.stdin);print(d[0]["sha_full"] if d else "")')
+LIVE=$(printf '%s' "$DATA" | python3 -c 'import json,sys;ds=json.load(sys.stdin);x=next((d for d in ds if d.get("state")=="READY" and d.get("target")=="production"),{});print(json.dumps(x))')
+LATEST_SHA=$(printf '%s' "$LIVE" | python3 -c 'import json,sys;d=json.load(sys.stdin);print(d.get("sha_full",""))')
 if [ -z "$LATEST_SHA" ]; then
   issue "取不到线上最新部署 sha"
-elif [ "$LATEST_SHA" = "$HEAD_SHA" ] && [ "$LATEST_SHA" = "$ORIGIN_SHA" ]; then
-  pass "线上最新 ${LATEST_SHA:0:8} = 本地 HEAD = origin/main"
+elif [ "$LATEST_SHA" = "$ORIGIN_SHA" ]; then
+  pass "线上最新 ${LATEST_SHA:0:8} = origin/main"
 else
-  issue "线上最新 ${LATEST_SHA:0:8} 与 本地 ${HEAD_SHA:0:8} / origin ${ORIGIN_SHA:0:8} 不一致"
+  # 允许“仅文档/脚本变更”落后：vercel.json 的 ignoreCommand 会跳过不必要的构建
+  if git merge-base --is-ancestor "$LATEST_SHA" "$ORIGIN_SHA" 2>/dev/null; then
+    if git diff --quiet "$LATEST_SHA" "$ORIGIN_SHA" -- content src public next.config.ts package.json 2>/dev/null; then
+      pass "线上 ${LATEST_SHA:0:8} 是 origin/main 祖先，其后仅 docs/scripts 变更（ignoreCommand 已跳过构建，最新提交 ${ORIGIN_SHA:0:8} 无生产部署）"
+    else
+      issue "线上 ${LATEST_SHA:0:8} 落后于 origin/main，且其间有构建产物相关变更未上线"
+    fi
+  else
+    issue "线上 ${LATEST_SHA:0:8} 不是 origin/main 的祖先（代码来源可疑）"
+  fi
 fi
+[ "$HEAD_SHA" != "$ORIGIN_SHA" ] && say "  ⚠️  本地 HEAD ${HEAD_SHA:0:8} 领先 origin/main，有未推送提交"
 
 UNTRACKED=$(printf '%s' "$DATA" | python3 -c '
 import json,sys,subprocess
@@ -117,7 +150,7 @@ UB=$(echo "$UNTRACKED" | sed -n 1p)
 [ "$UB" -eq 0 ] && pass "所有线上部署的 commit 都存在于本地 git 历史" || issue "有 $UB 条部署的 commit 不在本地 git 历史（疑似未推送代码上线）"
 
 # --- 6. Lambda 尺寸 ---
-URL=$(printf '%s' "$DATA" | python3 -c 'import json,sys;d=json.load(sys.stdin);print(d[0]["url"] if d else "")')
+URL=$(printf '%s' "$LIVE" | python3 -c 'import json,sys;d=json.load(sys.stdin);print(d.get("url",""))')
 if [ -n "$URL" ]; then
   MAXMB=$(npx --yes vercel inspect "$URL" 2>&1 | grep -oE "λ [^ ]+ ?\([0-9.]+MB\)" | grep -oE "[0-9.]+MB" | sed 's/MB//' | sort -rn | head -1)
   if [ -n "$MAXMB" ]; then
