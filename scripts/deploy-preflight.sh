@@ -35,6 +35,12 @@ fi
 
 say "本地构建体检开始（baseline=${BASELINE:0:8}${BASELINE:+...}）"
 
+# 远端只构建“已提交”的树，本地构建读的是工作区。两者不一致时体检结论会失真，必须先说清楚。
+DIRTY="$(git diff --name-only HEAD -- content src public next.config.ts package.json 2>/dev/null | head -3)"
+if [ -n "$DIRTY" ]; then
+  say "⚠️  工作区有未提交改动（本地构建会包含它们，远端不会）：$(echo "$DIRTY" | tr '\n' ' ')"
+fi
+
 # 1) 品牌资产（本次事故根因）
 if python3 scripts/check-build-assets.py; then
   say "品牌资产 OK"
@@ -88,7 +94,7 @@ if [ "$NEED_BUILD" -eq 1 ]; then
     fi
     # 2026-11-25 实测：另一个 agent 正在写文章 JSON 时，构建期读目录会读到半截文件，
     # 报 `SyntaxError: Unexpected end of JSON input`。这是竞态、不是代码坏了 —— 等一会儿重跑一次。
-    if grep -qE 'Unexpected end of JSON input|Unexpected token .* in JSON' /tmp/preflight-build.log; then
+    if grep -qE 'Unexpected end of JSON input|in JSON at position|Unexpected token .* in JSON' /tmp/preflight-build.log; then
       say "⚠️  构建撞上 JSON 写入竞态（Unexpected end of JSON input），15s 后重试一次"
       sleep 15
       continue
