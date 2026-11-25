@@ -222,26 +222,32 @@
    "faqItems": [
     {
      "q": {
-      "en": "What is the difference between a mill test report (MTR) and a certificate of conformance (COC)?"
+      "en": "What is the difference between a mill test report (MTR) and a certificate of conformance (COC)?",
+      "zh": "材质检测报告和合格证有什么区别？"
      },
      "a": {
-      "en": "A Mill Test Report (MTR) or Material Test Report contains actual measured test values from testing of the specific batch — it is quantitative data. A Certificate of Conformance (COC) or Certificate of Compliance simply states that the product meets the specified requirements — it does not provide actual test data. Always request MTRs, not just COCs. A COC from an unverified supplier could simply be a document saying 'these bolts are Grade 10.9' with no actual evidence. Insist on MTRs with actual chemical and mechanical values."
+      "en": "A Mill Test Report (MTR) or Material Test Report contains actual measured test values from testing of the specific batch — it is quantitative data. A Certificate of Conformance (COC) or Certificate of Compliance simply states that the product meets the specified requirements — it does not provide actual test data. Always request MTRs, not just COCs. A COC from an unverified supplier could simply be a document saying 'these bolts are Grade 10.9' with no actual evidence. Insist on MTRs with actual chemical and mechanical values.",
+      "zh": "材质检测报告（MTR，Mill Test Report）给出该批次紧固件实测的化学成分与力学性能数据，属于定量记录；合格证（COC，Certificate of Conformance）只声明产品符合规定要求，不含任何实测数据。下单时应坚持索要 MTR，而不是仅凭 COC——未经核实的供应商开出的 COC 可能只写了“10.9 级”字样，却没有实测依据。合同里应明确随货提供带实际化学与力学数值的 MTR。"
      }
     },
     {
      "q": {
-      "en": "How do I verify fastener grade marking is correct?"
+      "en": "How do I verify fastener grade marking is correct?",
+      "zh": "怎么核对螺栓上的等级标记？"
      },
      "a": {
-      "en": "Verify markings: metric hex bolts grade 8.8 are marked '8.8' on the head; Grade 10.9 marked '10.9'; Grade 12.9 marked '12.9'; ISO standard also requires manufacturer identification mark. Imperial (UNC/UNF) grades use radial lines (3 lines for Grade 5, 6 lines for Grade 8). If in doubt, hardness testing with a portable hardness tester provides a non-destructive verification of strength. Send samples to a testing lab for full tensile testing if critical application."
+      "en": "Verify markings: metric hex bolts grade 8.8 are marked '8.8' on the head; Grade 10.9 marked '10.9'; Grade 12.9 marked '12.9'; ISO standard also requires manufacturer identification mark. Imperial (UNC/UNF) grades use radial lines (3 lines for Grade 5, 6 lines for Grade 8). If in doubt, hardness testing with a portable hardness tester provides a non-destructive verification of strength. Send samples to a testing lab for full tensile testing if critical application.",
+      "zh": "公制六角螺栓头部应打等级标记：8.8 级标“8.8”，10.9 级标“10.9”，12.9 级标“12.9”，按 ISO 标准还需带制造商识别标记。英制 UNC/UNF 用头部放射线条纹区分：5 级三条线，8 级六条线。有疑问时可用便携式硬度计做无损核验；属于关键工况的，应抽样送检测实验室做完整拉伸试验。"
      }
     },
     {
      "q": {
-      "en": "Are batch test reports sufficient or do I need to test every fastener?"
+      "en": "Are batch test reports sufficient or do I need to test every fastener?",
+      "zh": "批次抽检报告够用吗，还要逐件检测？"
      },
      "a": {
-      "en": "Batch testing is standard industry practice — one sample per batch is destructively tested to represent the entire batch. Batch sizes vary by manufacturer, typically 1,000-10,000 pieces per batch for hex bolts. For construction codes that require it (ASTM A325, A490), specific sampling rates are defined in the standard. For most standard applications, MTRs from the manufacturer's batch testing are sufficient. For extremely critical applications (seismic, nuclear, aerospace), 100% testing (every fastener tested) may be required, which significantly increases cost."
+      "en": "Batch testing is standard industry practice — one sample per batch is destructively tested to represent the entire batch. Batch sizes vary by manufacturer, typically 1,000-10,000 pieces per batch for hex bolts. For construction codes that require it (ASTM A325, A490), specific sampling rates are defined in the standard. For most standard applications, MTRs from the manufacturer's batch testing are sufficient. For extremely critical applications (seismic, nuclear, aerospace), 100% testing (every fastener tested) may be required, which significantly increases cost.",
+      "zh": "批次抽检是行业通行做法：每批抽一件做破坏性试验，结果代表整批。六角螺栓常见批量为每批 1,000–10,000 件；按 ASTM A325、A490 等建筑规范，标准内规定了具体抽样比例。一般普通用途凭厂家批次检测出具的 MTR 即可满足；抗震、核电、航空航天等极关键场合可能要求 100% 逐件检测，成本会明显上升。"
      }
     }
    ],
