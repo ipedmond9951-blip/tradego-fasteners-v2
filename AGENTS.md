@@ -24,3 +24,17 @@ This version has breaking changes — APIs, conventions, and file structure may 
 4. **验收以 Ready + 线上内容比对为准**，不看单独 HTTP 200；构建还没跑完就下"没生效"的结论是误判。
 5. **pre-push 节流钩子**：仓库已启用 `.githooks/pre-push`（`core.hooksPath=.githooks`）。推 `main` 时若 Vercel 已有 `QUEUED/BUILDING`，默认**拦下**并提示继续攒批；确需立即发布用 `DEPLOY_FORCE=1 git push`。生产流水线 `seo-ai-pipeline.sh` 是单一发布入口，已自带该变量。
 <!-- END:deploy-batching -->
+
+<!-- BEGIN:content-contract -->
+## 内容改动必跑校验（自动执行，不需用户要求）
+
+只要这次会话动了 `content/articles/*.json`（新建、改写正文、改标题/描述/元描述、翻译、批量补段、修配图或日期），就按下面三条走，**不要等用户开口**：
+
+1. **动手前**：`python3 scripts/content_gate.py --brief`，先知道当前有多少存量 BLOCK。
+2. **改完一篇就查一篇**：`python3 scripts/content_gate.py --slug <slug>`；有 BLOCK 就修，修不了（缺素材）就明说，不要交"看起来干净"的稿。
+3. **收口**：一批改完跑 `python3 scripts/content_contract.py --write-baseline content/contract-baseline.json` 收敛基线，再 `python3 scripts/content_gate.py` 确认新增 BLOCK 为 0。
+
+配套：`python3 scripts/fix_content_contract.py {meta|extract|zh-strip|date|image} --dry-run` 先看命中，`--apply` 才落盘。commit 时 `.githooks/pre-commit` 还会再拦一次（`CONTENT_CONTRACT_SKIP=1` 可绕过，非必要不用）。
+
+判定口径与两种问题的处理见 `docs/CONTENT-CONTRACT.md`。
+<!-- END:content-contract -->

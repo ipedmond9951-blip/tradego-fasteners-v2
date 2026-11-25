@@ -63,3 +63,20 @@ python3 scripts/fill_body_zh.py patch.json --apply # 补中文正文（≥120 �
 - "英文混入"只统计**被空格/标点直接相连**的英文词，并列的标准号（`DIN、ANSI、GB`）不算混入；正文里夹整句英文仍会命中。
 - 机翻提示（`i18n-copy` WARN）只在长文本（≥12 词）且与英文重合 >85% 时给出，短描述和型号标题不再刷屏。
 - 每轮修完立刻 `python3 scripts/content_contract.py --write-baseline content/contract-baseline.json` 收口，否则门禁会拦下正常改动。
+
+## 怎么让它自己跑起来（三层，按顺序兜底）
+
+1. **会话内主动跑**——`AGENTS.md` 的 `content-contract` 段 + `seo-ai-pipeline` 技能的「自动执行」节都写死了：动过 `content/articles/*.json` 就先 `content_gate.py`、改完再跑一次，不需要用户开口。
+2. **提交时强制拦**——`.githooks/pre-commit` 对本次改动涉及的 slug 逐个校验，新增 BLOCK 直接 exit 1。
+3. **每日巡检**——launchd `com.agentops.content-contract`，每天 08:35（Asia/Shanghai）跑全量，报告落 `~/AgentOps/reports/content/<日期>.txt`，有新增 BLOCK 弹桌面通知。
+
+一条命令入口：
+
+```bash
+python3 scripts/content_gate.py          # 体检 + 新增 BLOCK 判定（exit 1 表示有新增）
+python3 scripts/content_gate.py --brief  # 只打一行结论
+python3 scripts/content_gate.py --fix    # 先自动修 meta/extract/date/image，再体检
+python3 scripts/content_gate.py --slug X # 单篇
+```
+
+技能文件在平台侧可能被还原，仓库内留了副本 `docs/skills/seo-ai-pipeline.SKILL.md`，恢复时直接覆盖回去即可。
