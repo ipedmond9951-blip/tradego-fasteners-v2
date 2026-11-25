@@ -45,10 +45,22 @@ def pick_field(v, locale):
 
 
 def words(t, locale):
+    """按书写系统切词：拉丁按词、CJK 按字折算、西里尔/阿拉伯/天城文按空白切。
+
+    旧实现只用 [A-Za-z0-9] 计词，俄语/阿拉伯语/印地语正文里只剩 ISO 898 这类拉丁串，
+    分母被压到几十，实体密度被放大到 100–185/千词（实测 ru 155.6）。这里按脚本分开算。
+    """
     t = pick_field(t, locale)
-    if locale == "zh":
-        return len(HAN.findall(TAG.sub("", t)))
-    return len(WORDS.findall(TAG.sub(" ", t)))
+    plain = TAG.sub(" ", t)
+    if locale in ("zh", "ja"):
+        cjk = len(re.findall(r"[\u4e00-\u9fff\u3040-\u30ff]", plain))
+        if cjk:
+            return int(round(cjk * 0.6))
+    if locale in ("ru", "ar", "hi", "fa", "ur", "th", "ko"):
+        toks = [w for w in re.split(r"\s+", re.sub(r"[^\w\u0600-\u06ff\u0900-\u097f]+", " ", plain)) if w]
+        if toks:
+            return len(toks)
+    return len(WORDS.findall(plain))
 
 
 def paras(body):
