@@ -249,7 +249,7 @@
     {
      "q": {
       "en": "What is the most common failure mode in Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion?",
-      "zh": "Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion 中最常见的失效模式是什么？",
+      "zh": "沿海光伏支架的紧固件为何会松动或锈蚀？",
       "es": "¿Cuál es el modo de falla más común en Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion?",
       "ar": "ما هو وضع الفشل الأكثر شيوعًا في Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion؟",
       "fr": "Quel est le mode de défaillance le plus courant dans Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion ?",
@@ -261,7 +261,7 @@
      },
      "a": {
       "en": "The most common failure mode in Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion is supplier-side quality control deficiency, accounting for over 60% of documented cases. Contributing factors include: missing ISO 9001 certification, inadequate mill test certificates, lack of pre-shipment third-party inspection, and incorrect grade marking. B2B buyers should require documentation before payment release and engage independent testing agencies for batch verification.",
-      "zh": "Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion 中最常见的失效模式是供应商端质量控制缺陷，占记录案例的 60% 以上。",
+      "zh": "沿海场地空气含盐量大，支架长期承受盐雾侵蚀，镀层偏薄或附着力不足时，表面会先出现起泡、锈点，螺杆与垫片配合处也容易锈蚀咬死；大风工况下，连接件若扭矩配套不到位、垫圈规格与等级不匹配，风载反复作用后螺纹连接逐步松动，支架节点出现位移。成因上，多数是选型时按内陆通用件配了沿海工况，出厂前又没核对镀层外观与扭矩配套，问题往往在支架竖起、经历几轮大风之后才暴露出来。",
       "es": "El modo de falla más común en Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion es la deficiencia de control de calidad del lado del proveedor.",
       "fr": "Le mode de défaillance le plus courant dans Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion est la déficience du contrôle qualité côté fournisseur.",
       "pt": "O modo de falha mais comum em Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion é a deficiência de controle de qualidade do fornecedor.",
@@ -299,7 +299,7 @@
     {
      "q": {
       "en": "What is the typical cost of a Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion failure?",
-      "zh": "Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion 失效的典型成本是多少？",
+      "zh": "支架连接失效后，返修损失有多大？",
       "es": "¿Cuál es el costo típico de una falla de Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion?",
       "ar": "ما هي التكلفة النموذجية لفشل Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion؟",
       "fr": "Quel est le coût typique d'une défaillance de Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion ?",
@@ -311,7 +311,7 @@
      },
      "a": {
       "en": "The typical cost of a Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion failure ranges from USD 280,000 for small-scale incidents to USD 11.5 million for large infrastructure projects. The cost of preventive measures (third-party inspection, lab testing) is typically 0.5-1.5% of the order value, which is 10-100x cheaper than failure recovery costs. For high-value orders (above USD 50,000), professional failure analysis costs USD 1,500-5,000 per fastener and provides actionable intelligence for future procurement decisions.",
-      "zh": "Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion 失效的典型成本从小型事件的 28 万美元到大型基础设施项目的 1,150 万美元不等。预防措施的成本通常为订单价值的 0.5-1.5%，比失效恢复成本便宜 10-100 倍。",
+      "zh": "屋顶或地面支架一旦连接松动、镀层锈蚀失效，运维团队要登架排查、逐节点更换连接件，施工需要停机配合，已架好的组件阵列局部也要拆卸复位；沿海屋顶作业还受天气窗口限制，返修工期拉长。阵列松动或渗水会影响组件工作状态，造成发电能力折损，客户对项目质量的信任也随之下降。事前把镀层等级按盐雾工况选配、在 ASTM G44 盐雾试验口径下确认耐蚀表现，成本只是整套支架造价的一小部分，远低于事后登架返修、停机减发与信誉损失叠加的代价。",
       "es": "El costo típico de una falla de Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion oscila entre USD 280,000 y USD 11.5 millones.",
       "fr": "Le coût typique d'une défaillance de Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion varie de 280 000 USD à 11,5 millions USD.",
       "pt": "O custo típico de uma falha de Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion varia de USD 280,000 a USD 11,5 milhões.",
