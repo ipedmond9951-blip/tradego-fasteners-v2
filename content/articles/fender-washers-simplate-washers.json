@@ -261,26 +261,32 @@
    "faqItems": [
     {
      "q": {
-      "en": "Should I use a washer under both the bolt head and the nut?"
+      "en": "Should I use a washer under both the bolt head and the nut?",
+      "zh": "螺栓头和螺母两侧都要放垫圈吗？"
      },
      "a": {
-      "en": "Yes, for structural connections and any joint where the bearing surface may compress. Standard practice is: flat washer under the bolt head; flat washer under the nut (on the far side). This distributes the load on both sides of the joint. For thin material connections, use fender washers (larger OD) on both sides for maximum bearing area."
+      "en": "Yes, for structural connections and any joint where the bearing surface may compress. Standard practice is: flat washer under the bolt head; flat washer under the nut (on the far side). This distributes the load on both sides of the joint. For thin material connections, use fender washers (larger OD) on both sides for maximum bearing area.",
+      "zh": "需要。结构连接以及承压面可能被压陷的接头，两侧都应放：螺栓头下垫平垫圈，螺母一侧（远端）也垫平垫圈，使接头两侧载荷均匀分布。连接薄材料时，两侧都用外径更大的挡圈垫圈，以获得最大承压面积。"
      }
     },
     {
      "q": {
-      "en": "When should I use hardened washers?"
+      "en": "When should I use hardened washers?",
+      "zh": "什么时候要用淬火垫圈？"
      },
      "a": {
-      "en": "Use hardened washers (through-hardened to HRC 38-45) in high-strength structural connections (Grade 8.8, 10.9, 12.9 bolts). Standard (unhardened) washers can deform (embed) under the high contact pressure from high-strength bolts, reducing the effective clamp load. Hardened washers are also required when the bolt bearing surface is smaller than the washer ID — the hardened washer prevents the bolt from 'punching through' the washer under load."
+      "en": "Use hardened washers (through-hardened to HRC 38-45) in high-strength structural connections (Grade 8.8, 10.9, 12.9 bolts). Standard (unhardened) washers can deform (embed) under the high contact pressure from high-strength bolts, reducing the effective clamp load. Hardened washers are also required when the bolt bearing surface is smaller than the washer ID — the hardened washer prevents the bolt from 'punching through' the washer under load.",
+      "zh": "高强度结构连接（配 8.8、10.9、12.9 级螺栓）应使用整体淬硬至 HRC 38–45 的淬火垫圈。普通未淬硬垫圈在高强螺栓的高接触压力下会压陷嵌入，使有效预紧力下降。当螺栓承压面小于垫圈内径时也必须用淬火垫圈，防止受力后螺栓把垫圈击穿。"
      }
     },
     {
      "q": {
-      "en": "Are fender washers and repair washers the same thing?"
+      "en": "Are fender washers and repair washers the same thing?",
+      "zh": "挡圈垫圈和修理垫圈是一回事吗？"
      },
      "a": {
-      "en": "Yes, fender washers and repair washers are the same product — washers with an oversized outer diameter relative to the inner hole. They are called 'fender washers' because they were originally used to repair automotive fenders (thin sheet metal). In construction, they are essential for any thin-sheet or soft-material connection to prevent pull-through of the fastener head or nut."
+      "en": "Yes, fender washers and repair washers are the same product — washers with an oversized outer diameter relative to the inner hole. They are called 'fender washers' because they were originally used to repair automotive fenders (thin sheet metal). In construction, they are essential for any thin-sheet or soft-material connection to prevent pull-through of the fastener head or nut.",
+      "zh": "是同一种产品，即外径相对内孔放大的垫圈。名称来源于最初用于修理汽车挡泥板这类薄钣金件。在建筑连接中，凡是薄板或软材料接头，都靠它防止螺栓头或螺母被拉穿。"
      }
     }
    ],
