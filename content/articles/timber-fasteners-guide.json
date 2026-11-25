@@ -1,293 +1,297 @@
 {
-  "slug": "timber-fasteners-guide",
-  "category": "Technical Guide",
-  "date": "2026-04-02",
-  "readTime": 7,
-  "image": "/images/articles/timber-fasteners-guide.jpg",
-  "title": {
-    "en": "Timber Fasteners: Wood Screws and Connectors Guide",
-    "zh": "木工紧固件指南：木螺丝、马车螺丝和木结构连接件",
-    "es": "Fijaciones para madera: tornillos, tirafondos y conectores",
-    "ar": "دليل المثبتات الخشبية: مسامير الخشب ومسامير العربة وموصلات الخشب",
-    "fr": "Guide des Fixations pour Bois: Vis à Bois, Tirefonds et Connecteurs",
-    "pt": "Fixadores para madeira: parafusos, tirafundos e conectores",
-    "ru": "Руководство по Крепежу для Дерева: Шурупы, Глухари и Коннекторы",
-    "ja": "木材用ファスナーガイド：木ねじ、コーachねじ、木質Connector",
-    "de": "Holz Befestigungen: Holzschrauben, Holzbauschrauben und Holzverbinder",
-    "hi": "टिम्बर फास्टनर गाइड: वुड स्क्रू, कोच स्क्रू, और टिम्बर कनेक्टर"
+ "slug": "timber-fasteners-guide",
+ "category": "Technical Guide",
+ "date": "2026-04-02",
+ "readTime": 7,
+ "image": "/images/articles/timber-fasteners-guide.jpg",
+ "title": {
+  "en": "Timber Fasteners: Wood Screws and Connectors Guide",
+  "zh": "木工紧固件指南：木螺丝、马车螺丝和木结构连接件",
+  "es": "Fijaciones para madera: tornillos, tirafondos y conectores",
+  "ar": "دليل المثبتات الخشبية: مسامير الخشب ومسامير العربة وموصلات الخشب",
+  "fr": "Guide des Fixations pour Bois: Vis à Bois, Tirefonds et Connecteurs",
+  "pt": "Fixadores para madeira: parafusos, tirafundos e conectores",
+  "ru": "Руководство по Крепежу для Дерева: Шурупы, Глухари и Коннекторы",
+  "ja": "木材用ファスナーガイド：木ねじ、コーachねじ、木質Connector",
+  "de": "Holz Befestigungen: Holzschrauben, Holzbauschrauben und Holzverbinder",
+  "hi": "टिम्बर फास्टनर गाइड: वुड स्क्रू, कोच स्क्रू, और टिम्बर कनेक्टर"
+ },
+ "description": {
+  "en": "Wood screws are designed for fastening wood to wood: Types: - Flat head: Countersinks for flush surface - Round head: Provides bearing surface - Bugle head",
+  "zh": "木结构项目可按连接方式选择木螺丝、马车螺栓及结构连接件。了解木材厚度、载荷、预钻孔和防腐要求，为非洲木框架建筑匹配紧固件规格。",
+  "es": "Guía completa de sujetadores para madera. Aprenda sobre tornillos para madera, tirafondos, conectores timber y selección adecuada.",
+  "ar": "دليل شامل للمثبتات الخشبية. تعلم عن مسامير الخشب ومسامير العربة وموصلات الخشب والاختيار الصحيح.",
+  "fr": "Guide complet des fixations pour bois. Apprenez les vis à bois, tirefonds, connecteurs timber et la sélection appropriée.",
+  "pt": "Guia completo de fixadores para madeira. Aprenda sobre parafusos para madeira, tirafões, conectores timber e seleção adequada.",
+  "ru": "Полное руководство по крепежу для дерева. Узнайте о шурупах, глухарях, коннекторах и правильном выборе.",
+  "ja": "木材用ファスナーの完全ガイド。木ねじ、コーachねじ、木質Connector、木质フレーム建築のための適切な選択について学びます。",
+  "de": "Vollständiger Leitfaden für Holzverbindungselemente. Lernen Sie über Holzschrauben, Holzbauschrauben, Holzverbinder und正确 Auswahl.",
+  "hi": "टिम्बर फास्टनर की पूर्ण गाइड। वुड स्क्रू, कोच स्क्रू, टिम्बर कनेक्टर, और वुड फ्रेम निर्माण के लिए उचित चयन के बारे में जानें।"
+ },
+ "keywords": "timber fasteners, wood screws, coach screws, timber connectors, wood frame construction, lag screws",
+ "sections": [
+  {
+   "id": "wood-screws",
+   "heading": {
+    "en": "Wood Screws: Selection and Use",
+    "es": "Tornillos para madera: Selección y uso",
+    "ar": "براغي الخشب: الاختيار والاستخدام",
+    "fr": "Vis à bois : Sélection et utilisation",
+    "pt": "Parafusos para madeira: Seleção e uso",
+    "ru": "Шурупы по дереву: выбор и применение",
+    "ja": "木ねじ：選定と使用方法",
+    "de": "Holzschrauben: Auswahl und Verwendung",
+    "hi": "लकड़ी के पेंच: चयन और उपयोग",
+    "zh": "木螺丝：选型与使用"
+   },
+   "body": {
+    "en": "<p>Wood screws work by cutting or displacing their own path, so the material they enter, not the screw's strength, sets the design rule. In softwood a coarse thread with a sharp point will draw the parts together and hold; in hardwood the same screw will split the board unless a pilot hole is drilled, and in engineered timber the screw must be selected for the panel's density rather than for the timber it replaces. Choosing a screw by length and head shape alone is the reason most timber joints fail early.</p>\n<p>The head decides function. A countersunk head sits flush and suits surfaces that will be finished or walked on; a round or pan head leaves a bearing face for brackets and thin parts; a bugle head spreads load under a drywall or sheathing panel and reduces the risk of punching through. The recess matters as much: a Phillips drive cam-outs at a designed torque, which protects the head, while a Torx or square drive transmits more torque without cam-out and suits dense timber and long screws where driving effort is high.</p>\n<p>Length and gauge follow from the thickness being joined rather than from a rule of thumb. A common convention is that the threaded length in the receiving member should be about two-thirds of the thickness of the top board, with the screw long enough to pass through the top board without its thread engaging there. If the thread engages in both boards the joint cannot be drawn tight, which is the most frequent cause of a squeaking floor or a rattling panel.</p>\n<p>Coating is a decision about moisture, not appearance. Bright zinc plating suits indoor work in dry conditions; hot-dip galvanised or zinc flake is needed wherever timber stays damp, and stainless is the answer for coastal, marine and preservative-treated timber, where the treatment chemicals are aggressive to zinc. Where two different metals meet, the less noble one corrodes first, so a galvanised bracket with stainless screws should be assessed rather than assumed safe.</p>\n\n<p>Driving practice completes the selection. A wood screw driven without a pilot hole into hardwood creates a splitting stress along the grain, and the crack appears weeks later rather than at installation. A pilot hole of the root diameter, drilled to the length of the threaded section, prevents that; a wax or soap lubricant on the thread halves the driving torque in dense timber; and a driver with a clutch set below the head's cam-out torque protects both the head and the board. None of these costs money, and together they remove most of the failure modes that a specification alone cannot.</p>\n\n<p>One commercial note that matters for export buyers: timber screws are sold by count in some markets and by weight in others, and a carton marked by weight is of little use on a site where the fixing schedule is written in pieces. Stating the count, the gauge and the length convention on the carton, and agreeing the packing quantity at order, avoids the shortfalls that appear only when a crew reaches the last row of a deck.</p>",
+    "zh": "<p>木螺丝专为木材与木材连接而设计：\\n\\n类型：\\n- 平头：沉孔，形成平整表面\\n- 圆头：提供承载面\\n- 喇叭头：适用于石膏板和护墙板\\n\\n主要特点：\\n- 锋利尖端便于轻松起钻\\n- 粗牙螺纹增强木材握裹力\\n- 光杆设计便于插入\\n- 多种长度和规格可选\\n\\n选型建议：\\n- 长度：应为面板厚度的2.5倍\\n- 规格：根据载荷要求选择\\n- 头部：根据应用场景选择\\n- 涂层：户外使用需具备耐腐蚀性能\\n\\n相关资源：<a href=\"/en/products/high-tensile-bolts\">高强度螺栓</a> <a href=\"/en/products/anchor-bolts\">锚栓</a> <a href=\"/en/products/stainless-bolts\">不锈钢紧固件</a> <a href=\"/en/products/hex-bolts\">六角螺栓</a> <a href=\"/en/products/lock-nuts\">锁紧螺母</a> <a href=\"/en/products/washers\">垫圈</a> <a href=\"/en/products/self-drilling-screws\">自钻螺丝</a> <a href=\"/en/products/socket-screws\">内六角螺丝</a>。</p>\n<p>此采购框架适用于建筑、采矿、能源、汽车及一般工业应用的紧固件采购。决策逻辑优先考虑质量一致性、供应商可靠性及总拥有成本，而非短期单价。对于非洲、拉丁美洲及东南亚的B2B买家，还需额外考虑区域海关要求、集装箱整合选项及支付安全保障机制。</p>\n<p>跨项目统一使用的标准化规格可减少培训时间、询价处理时间及供应商入职工作量。此采购框架适用于建筑、采矿、能源、汽车及一般工业应用的紧固件采购。决策逻辑优先考虑质量一致性、供应商可靠性及总拥有成本，而非短期单价。</p>\n<p>对于非洲、拉丁美洲及东南亚的B2B买家，还需额外考虑区域海关要求、集装箱整合选项及支付安全保障机制。跨项目统一使用的标准化规格可减少培训时间、询价处理时间及供应商入职工作量。此采购框架适用于建筑、采矿、能源、汽车及一般工业应用的紧固件采购。</p>\n<p>决策逻辑优先考虑质量一致性、供应商可靠性及总拥有成本，而非短期单价。对于非洲、拉丁美洲及东南亚的B2B买家，还需额外考虑区域海关要求、集装箱整合选项及支付安全保障机制。跨项目统一使用的标准化规格可减少培训时间、询价处理时间及供应商入职工作量。</p>\n\n<p>跨项目统一使用的标准化规格可减少培训时间、询价处理时间及供应商入职工作量。</p>",
+    "es": "Los tornillos para madera están diseñados para unir madera con madera:\n\nTipos:\n- Cabeza plana: Avellanado para una superficie a ras\n- Cabeza redonda: Proporciona superficie de apoyo\n- Cabeza de corneta: Para paneles de yeso y revestimientos\n\nCaracterísticas clave:\n- Punta afilada para un inicio fácil\n- Rosca gruesa para agarre en madera\n- Vástago liso para una fácil inserción\n- Varias longitudes y calibres\n\nConsejos de selección:\n- Longitud: 2.5 veces el espesor de la tabla superior\n- Calibre: Ajustar a los requisitos de carga\n- Cabeza: Ajustar a la aplicación\n- Recubrimiento: El uso en exteriores requiere resistencia a la corrosión. Recursos relacionados: pernos de alta resistencia pernos de anclaje fijaciones de acero inoxidable pernos hexagonales tuercas de seguridad arandelas tornillos autoperforantes tornillos de cabeza hueca. Este marco de adquisiciones se aplica al abastecimiento de fijaciones para construcción, minería, energía, automoción y aplicaciones industriales generales. La lógica de decisión prioriza la consistencia de la calidad, la fiabilidad del proveedor y el costo total de propiedad sobre el precio unitario a corto plazo. Para los compradores B2B en África, América Latina y el Sudeste Asiático, las consideraciones adicionales incluyen requisitos aduaneros regionales, opciones de consolidación de contenedores y mecanismos de seguridad de pago. Las especificaciones estandarizadas que se aplican a través de los proyectos reducen el tiempo de capacitación, el tiempo de procesamiento de solicitudes de cotización (RFQ) y el esfuerzo de incorporación de proveedores.",
+    "ar": "صُممت براغي الخشب لتثبيت الخشب بالخشب:\n\nالأنواع:\n- رأس مسطح: للغرس في السطح ليكون بمستوى واحد\n- رأس مستدير: يوفر سطح تحميل\n- رأس بوقي: لألواح الجبس والتغطية\n\nالميزات الرئيسية:\n- طرف حاد لبدء سهل\n- أسنان خشنة لتماسك أفضل مع الخشب\n- ساق ملساء لسهولة الإدخال\n- أطوال ومقاييس متنوعة\n\nنصائح الاختيار:\n- الطول: 2.5 ضعف سمك اللوح العلوي\n- القياس: طابقه مع متطلبات الحمل\n- الرأس: طابقه مع التطبيق\n- الطلاء: الاستخدام الخارجي يتطلب مقاومة للتآكل الموارد ذات الصلة: براغي عالية الشد براغي تثبيت (أنكر) مثبتات الفولاذ المقاوم للصدأ براغي سداسية صواميل قفل حلقات (وردات) براغي ثقب ذاتي براغي رأس مقبس. ينطبق إطار المشتريات هذا على توريد المثبتات لقطاعات البناء والتعدين والطاقة والسيارات والتطبيقات الصناعية العامة. تعطي منطق اتخاذ القرار الأولوية لاتساق الجودة وموثوقية المورد والتكلفة الإجمالية للملكية بدلاً من سعر الوحدة قصير الأجل. بالنسبة للمشترين في قطاع الأعمال (B2B) في أفريقيا وأمريكا اللاتينية وجنوب شرق آسيا، تشمل الاعتبارات الإضافية متطلبات الجمارك الإقليمية وخيارات تجميع الحاويات وآليات أمن الدفع. تساعد المواصفات الموحدة التي يمكن تطبيقها عبر المشاريع في تقليل وقت التدريب، ووقت معالجة طلبات الأسعار (RFQ)، وجهد ضم الموردين الجدد.",
+    "fr": "Les vis à bois sont conçues pour fixer le bois sur le bois :\n\nTypes :\n- Tête fraisée : S'encastre pour une surface affleurante\n- Tête ronde : Offre une surface d'appui\n- Tête trompette : Pour les cloisons sèches et le bardage\n\nCaractéristiques principales :\n- Pointe acérée pour un amorçage facile\n- Filetage grossier pour une meilleure accroche dans le bois\n- Tige lisse pour une insertion facile\n- Diverses longueurs et calibres\n\nConseils de sélection :\n- Longueur : 2,5 fois l'épaisseur de la planche supérieure\n- Calibre : À adapter aux exigences de charge\n- Tête : À adapter à l'application\n- Revêtement : L'utilisation en extérieur nécessite une résistance à la corrosion. Ressources connexes : boulons à haute résistance goujons d'ancrage fixations en acier inoxydable boulons hexagonaux écrous frein rondelles vis autoperceuses vis à six pans creux. Ce cadre d'approvisionnement s'applique à l'achat de fixations pour la construction, l'exploitation minière, l'énergie, l'automobile et les applications industrielles générales. La logique de décision privilégie la cohérence de la qualité, la fiabilité des fournisseurs et le coût total de possession plutôt que le prix unitaire à court terme. Pour les acheteurs B2B en Afrique, en Amérique latine et en Asie du Sud-Est, les considérations supplémentaires incluent les exigences douanières régionales, les options de groupage de conteneurs et les mécanismes de sécurisation des paiements. Les spécifications normalisées applicables à travers divers projets réduisent le temps de formation, le temps de traitement des appels d'offres et les efforts d'intégration des fournisseurs.",
+    "pt": "Os parafusos para madeira são projetados para fixar madeira em madeira:\n\nTipos:\n- Cabeça chata: Escareados para superfície nivelada\n- Cabeça redonda: Fornece superfície de apoio\n- Cabeça corneta: Para drywall e revestimentos\n\nPrincipais características:\n- Ponta afiada para início fácil\n- Rosca grossa para fixação na madeira\n- Haste lisa para inserção fácil\n- Vários comprimentos e bitolas\n\nDicas de seleção:\n- Comprimento: 2,5x a espessura da tábua superior\n- Bitola: Combine com os requisitos de carga\n- Cabeça: Combine com a aplicação\n- Revestimento: Uso externo requer resistência à corrosão Recursos relacionados: parafusos de alta resistência parafusos de ancoragem fixadores de aço inoxidável parafusos sextavados porcas autotravantes arruelas parafusos autoperfurantes parafusos com soquete. Esta estrutura de aquisição aplica-se ao fornecimento de fixadores para construção, mineração, energia, automotivo e aplicações industriais gerais. A lógica de decisão prioriza a consistência da qualidade, a confiabilidade do fornecedor e o custo total de propriedade em vez do preço unitário de curto prazo. Para compradores B2B na África, América Latina e Sudeste Asiático, considerações adicionais incluem requisitos aduaneiros regionais, opções de consolidação de contêineres e mecanismos de segurança de pagamento. Especificações padronizadas que funcionam em vários projetos reduzem o tempo de treinamento, o tempo de processamento de RFQ e o esforço de integração de fornecedores.",
+    "ru": "Шурупы по дереву предназначены для крепления деревянных элементов:\n\nТипы:\n- Потайная головка: для установки заподлицо с поверхностью\n- Круглая головка: обеспечивает опорную поверхность\n- Рожковая головка: для гипсокартона и обшивки\n\nОсновные характеристики:\n- Острый наконечник для легкого засверливания\n- Крупная резьба для надежного удержания в дереве\n- Гладкий стержень для легкого вхождения\n- Различные длины и диаметры\n\nСоветы по выбору:\n- Длина: 2,5x толщины верхней детали\n- Диаметр: подбирается под требования нагрузки\n- Головка: подбирается под тип применения\n- Покрытие: для наружных работ требуется антикоррозийная защита. Похожие ресурсы: высокопрочные болты анкерные болты крепеж из нержавеющей стали болты с шестигранной головкой стопорные гайки шайбы самосверлящие винты винты с внутренним шестигранником. Эта закупочная модель применяется для поиска крепежа в строительстве, горнодобывающей промышленности, энергетике, автомобилестроении и общепромышленных целях. Логика принятия решений отдает приоритет стабильности качества, надежности поставщика и совокупной стоимости владения, а не краткосрочной цене за единицу продукции. Для B2B-покупателей в Африке, Латинской Америке и Юго-Восточной Азии дополнительными факторами являются региональные таможенные требования, возможности консолидации контейнеров и механизмы безопасности платежей. Стандартизированные спецификации, применяемые в различных проектах, сокращают время на обучение, обработку запросов (RFQ) и адаптацию поставщиков.",
+    "ja": "木ネジは、木材同士を締結するために設計されています：\n\n種類：\n- 皿頭：沈み込み、表面を平らにする\n- 丸頭：座面を確保する\n- ラッパ頭：乾式壁や外装下地用\n\n主な特徴：\n- 簡単に食い込む鋭い先端\n- 木材にしっかり食いつく粗目ねじ\n- 挿入がスムーズな滑らかなシャンク\n- 豊富な長さと径のバリエーション\n\n選定のヒント：\n- 長さ：締結する板厚の2.5倍\n- 径：荷重要件に合わせる\n- 頭部：用途に合わせる\n- 表面処理：屋外使用時は耐食性が必要 関連リソース: 高張力ボルト アンカーボルト ステンレス鋼ファスナー 六角ボルト ロックナット ワッシャー ドリルねじ ソケットスクリュー。本調達フレームワークは、建設、鉱業、エネルギー、自動車、および一般産業用途のファスナー調達に適用されます。意思決定ロジックでは、短期的な単価よりも、品質の一貫性、サプライヤーの信頼性、および総所有コスト（TCO）を優先します。アフリカ、ラテンアメリカ、東南アジアのB2Bバイヤー向けには、地域の税関要件、コンテナ混載オプション、および支払いセキュリティメカニズムを考慮する必要があります。プロジェクト間で共通化された仕様書は、トレーニング時間、RFQ（見積依頼）処理時間、およびサプライヤーのオンボーディングの手間を削減します。",
+    "de": "Holzschrauben sind für die Befestigung von Holz auf Holz konzipiert:\n\nTypen:\n- Senkkopf: Versenkt für bündige Oberflächen\n- Rundkopf: Bietet eine Auflagefläche\n- Trompetenkopf: Für Trockenbau und Schalungen\n\nHauptmerkmale:\n- Scharfe Spitze für einfaches Ansetzen\n- Grobgewinde für festen Halt im Holz\n- Glatter Schaft für einfaches Eindrehen\n- Verschiedene Längen und Stärken\n\nAuswahlhilfe:\n- Länge: 2,5-fache Dicke des oberen Brettes\n- Stärke: Passend zu den Lastanforderungen\n- Kopf: Passend zur Anwendung\n- Beschichtung: Außenbereich erfordert Korrosionsbeständigkeit. Verwandte Ressourcen: hochfeste Schrauben Ankerschrauben Edelstahl-Verbindungselemente Sechskantschrauben Sicherungsmuttern Unterlegscheiben Bohrschrauben Innensechskantschrauben. Dieser Beschaffungsrahmen gilt für die Beschaffung von Verbindungselementen für das Bauwesen, den Bergbau, die Energiebranche, die Automobilindustrie sowie allgemeine industrielle Anwendungen. Die Entscheidungslogik priorisiert Qualitätskonsistenz, Lieferantenzuverlässigkeit und Gesamtbetriebskosten gegenüber kurzfristigen Stückpreisen. Für B2B-Einkäufer in Afrika, Lateinamerika und Südostasien umfassen zusätzliche Überlegungen regionale Zollanforderungen, Optionen für die Containerkonsolidierung und Mechanismen zur Zahlungssicherheit. Standardisierte Spezifikationen, die projektübergreifend gelten, reduzieren den Schulungsaufwand, die Zeit für die RFQ-Bearbeitung und den Aufwand für das Lieferanten-Onboarding.",
+    "hi": "लकड़ी के पेंच (Wood screws) लकड़ी को लकड़ी से जोड़ने के लिए डिज़ाइन किए गए हैं:\n\nप्रकार:\n- फ्लैट हेड: सतह के बराबर (flush) करने के लिए काउंटरसिंक\n- राउंड हेड: बेयरिंग सतह प्रदान करता है\n- बगल हेड: ड्राईवॉल और शीथिंग के लिए\n\nप्रमुख विशेषताएँ:\n- आसानी से शुरू करने के लिए नुकीला सिरा\n- लकड़ी को पकड़ने के लिए मोटा चूड़ी (coarse thread)\n- आसानी से डालने के लिए चिकना शैंक (shank)\n- विभिन्न लंबाई और गेज में उपलब्ध\n\nचयन युक्तियाँ:\n- लंबाई: ऊपर के बोर्ड की मोटाई का 2.5 गुना\n- गेज: लोड आवश्यकताओं से मेल खाएं\n- हेड: उपयोग के अनुसार चुनें\n- कोटिंग: बाहरी उपयोग के लिए जंग प्रतिरोध आवश्यक है संबंधित संसाधन: हाई-टेन्साइल बोल्ट एंकर बोल्ट स्टेनलेस स्टील फास्टनर्स हेक्स बोल्ट लॉक नट वॉशर सेल्फ-ड्रिलिंग स्क्रू सॉकेट स्क्रू। यह खरीद ढांचा निर्माण, खनन, ऊर्जा, ऑटोमोटिव और सामान्य औद्योगिक अनुप्रयोगों के लिए फास्टनर सोर्सिंग पर लागू होता है। निर्णय तर्क अल्पकालिक इकाई मूल्य के बजाय गुणवत्ता स्थिरता, आपूर्तिकर्ता विश्वसनीयता और स्वामित्व की कुल लागत को प्राथमिकता देता है। अफ्रीका, लैटिन अमेरिका और दक्षिण पूर्व एशिया में B2B खरीदारों के लिए, अतिरिक्त विचारों में क्षेत्रीय सीमा शुल्क आवश्यकताएं, कंटेनर समेकन विकल्प और भुगतान सुरक्षा तंत्र शामिल हैं। मानकीकृत विनिर्देश जो परियोजनाओं में उपयोग होते हैं, प्रशिक्षण समय, RFQ प्रसंस्करण समय और आपूर्तिकर्ता ऑनबोर्डिंग प्रयास को कम करते हैं।"
+   }
   },
-  "description": {
-    "en": "Wood screws are designed for fastening wood to wood: Types: - Flat head: Countersinks for flush surface - Round head: Provides bearing surface - Bugle head",
-    "zh": "木结构项目可按连接方式选择木螺丝、马车螺栓及结构连接件。了解木材厚度、载荷、预钻孔和防腐要求，为非洲木框架建筑匹配紧固件规格。",
-    "es": "Guía completa de sujetadores para madera. Aprenda sobre tornillos para madera, tirafondos, conectores timber y selección adecuada.",
-    "ar": "دليل شامل للمثبتات الخشبية. تعلم عن مسامير الخشب ومسامير العربة وموصلات الخشب والاختيار الصحيح.",
-    "fr": "Guide complet des fixations pour bois. Apprenez les vis à bois, tirefonds, connecteurs timber et la sélection appropriée.",
-    "pt": "Guia completo de fixadores para madeira. Aprenda sobre parafusos para madeira, tirafões, conectores timber e seleção adequada.",
-    "ru": "Полное руководство по крепежу для дерева. Узнайте о шурупах, глухарях, коннекторах и правильном выборе.",
-    "ja": "木材用ファスナーの完全ガイド。木ねじ、コーachねじ、木質Connector、木质フレーム建築のための適切な選択について学びます。",
-    "de": "Vollständiger Leitfaden für Holzverbindungselemente. Lernen Sie über Holzschrauben, Holzbauschrauben, Holzverbinder und正确 Auswahl.",
-    "hi": "टिम्बर फास्टनर की पूर्ण गाइड। वुड स्क्रू, कोच स्क्रू, टिम्बर कनेक्टर, और वुड फ्रेम निर्माण के लिए उचित चयन के बारे में जानें।"
+  {
+   "id": "coach-screws",
+   "heading": {
+    "en": "Coach Screws (Lag Screws)",
+    "es": "Tornillos tirafondo",
+    "ar": "براغي تثبيت خشبية (Tirafondo)",
+    "fr": "Tirefonds",
+    "pt": "Parafusos tira-fundo",
+    "ru": "Глухари (шурупы с шестигранной головкой)",
+    "ja": "コーチスクリュー（ラグスクリュー）",
+    "de": "Holzschrauben mit Sechskantkopf (Schlüsselschrauben)",
+    "hi": "कोच स्क्रू (लैग स्क्रू)",
+    "zh": "板式螺丝（Lag Screw / 方头木螺丝）"
+   },
+   "body": {
+    "en": "<p>Coach screws, also called lag screws, do the work that a wood screw cannot: they carry structural load into heavy timber, and they are installed with a spanner rather than a driver. Their geometry reflects that. A hexagonal head accepts a real torque, the shank is thick enough to carry shear across a joint, and the coarse thread is designed to bite into timber rather than to cut a fine path through it. The consequence is that a coach screw needs a pilot hole sized to its shank, and a washer under the head to spread the clamp load.</p>\n<p>Installation decides whether a coach screw performs. The pilot hole should be the shank diameter in the member being pulled and smaller in the member receiving the thread, so that the thread bites without splitting. Driving with an impact tool rather than a steady torque risks over-tightening, which crushes the timber under the washer and removes the preload that the joint depended on. In softwood the crushing is visible; in hardwood it happens first at the surface and shows up later as a loose connection.</p>\n<p>Where a coach screw replaces a bolt in a structural connection, the substitution should be checked rather than assumed. A bolt develops capacity through bearing on the member and shear across its section, with a nut providing the clamp; a coach screw develops capacity through thread engagement in one member only. That single-sided engagement is why coach screws are common in decking, fencing, sleepers and light frame work, and rare in connections that a structural engineer has designed around a bolted joint.</p>\n<p>Durability follows the same logic as wood screws but with higher stakes, because coach screws are used outdoors. Hot-dip galvanised is the baseline for exposed timber, stainless for coastal and preservative-treated applications, and the washer should be of the same material as the screw, since a mismatched washer is the first place a joint rusts.</p>\n\n<p>Where a coach screw is used in a treated timber that is still wet, the joint will loosen as the timber dries and shrinks around the thread. Installing them after the timber has reached its service moisture, or accepting a re-tightening step as part of the programme, avoids the complaint that follows a first summer. Detailing that keeps water off the screw head is worth as much as an extra coating class, because a dry joint survives where a wet one will not.</p>\n\n<p>For buyers comparing offers, the useful question is not which coach screw is cheapest but which quotation states the shank diameter, the thread length, the head diameter and the coating class. Two screws of the same nominal size can differ in the length of the threaded portion, and that difference decides how much of the joint is actually held.</p>\n\n<p>A final site habit: keep one box of the specified coach screws and washers sealed until the inspection walk, so that a missing item can be replaced from the same batch rather than from a mixed bin that has already lost its labelling.</p>",
+    "zh": "<p>板式螺丝（Lag Screws / 方头木螺丝）是一种重型木结构紧固件。\\n\\nDIN 571 / ISO 8678：六角头木螺丝\\n\\n产品特点：\\n- 六角头设计，适用于扳手紧固\\n- 粗牙锋利螺纹\\n- 全牙或半牙规格\\n- 加厚杆身结构\\n\\n典型应用：\\n- 木框架连接\\n- 露台Deck construction\\n- 花架和凉亭建造\\n- 家具组装\\n\\n安装要点：\\n- 预钻导向孔（尤其对于硬木）\\n- 螺帽下方使用垫圈washers\\n- 使用扳手或冲击钻驱动\\n\\nTradeGo板式螺丝 coach screws采用热浸镀锌处理，适用于户外环境。</p>\n<p>\\n\\n基于标准的采购需要持续学习，因为ISO、ASTM、DIN和GB标准每3-5年修订一次。订阅标准更新通知，每年审核产品规格。国际紧固件贸易中最常用的标准包括：ISO 898-1（机械性能）、ISO 3506-1（不锈钢）、ISO 3269（验收检验）、ISO 4042（镀层）和ISO 1502（螺纹量规）。对于B2B采购商而言，建立标准参考库至关重要，至少应涵盖与您的产品组合相关的20项核心标准。</p>\n\n\n",
+    "es": "Tornillos de coche (tirafondos) son fijaciones de madera de alta resistencia:\n\nDIN 571 / ISO 8678: Tornillos para madera con cabeza hexagonal\n\nCaracterísticas:\n- Cabeza hexagonal para apretar con llave\n- Roscas gruesas y afiladas\n- Rosca completa o parcial\n- Construcción de alto calibre\n\nAplicaciones:\n- Conexiones de estructuras de madera\n- Construcción de terrazas\n- Construcción de pérgolas y gazebos\n- Montaje de muebles\n\nInstalación:\n- Realizar un agujero piloto (especialmente para maderas duras)\n- Usar arandelas debajo de la cabeza\n- Ajustar con llave o destornillador\n\nLos tornillos de coche TradeGo están galvanizados por inmersión en caliente para uso en exteriores. Las adquisiciones basadas en estándares requieren aprendizaje continuo a medida que los estándares ISO, ASTM, DIN y GB se revisan cada 3-5 años. Suscríbase a las notificaciones de actualización de estándares y revise las especificaciones anualmente. Los estándares más comunes utilizados en el comercio internacional de fijaciones son ISO 898-1 (propiedades mecánicas), ISO 3506-1 (acero inoxidable), ISO 3269 (inspección de aceptación), ISO 4042 (recubrimientos) e ISO 1502 (calibradores de rosca). Para los compradores B2B, es esencial construir una biblioteca de referencia de estándares con al menos los 20 principales estándares relevantes para su mezcla de productos.",
+    "ar": "براغي الخشب الثقيلة (Coach screws) (تُعرف أيضاً بـ lag screws) هي مثبتات خشبية للخدمة الشاقة:\n\nمعيار DIN 571 / ISO 8678: براغي خشب برأس سداسي\n\nالميزات:\n- رأس سداسي للربط بالمفتاح\n- أسنان خشنة وحادة\n- أسنان كاملة أو جزئية\n- هيكل عالي السماكة\n\nالتطبيقات:\n- وصلات الإطارات الخشبية\n- بناء الأسطح الخشبية (الديكينج)\n- بناء العريش والأكشاك\n- تجميع الأثاث\n\nالتركيب:\n- قم بعمل ثقب تجريبي (خاصة للأخشاب الصلبة)\n- استخدم حلقة (وردة) تحت الرأس\n- اربطها باستخدام مفتاح ربط أو مفك\n\nتتميز براغي TradeGo Coach screws بأنها مغلفنة بالغمس الساخن للاستخدام الخارجي. تتطلب المشتريات القائمة على المعايير تعلماً مستمراً حيث يتم مراجعة معايير ISO وASTM وDIN وGB كل 3-5 سنوات. اشترك في إشعارات تحديث المعايير وراجع المواصفات سنوياً. المعايير الأكثر شيوعاً المستخدمة في تجارة المثبتات الدولية هي ISO 898-1 (الخصائص الميكانيكية)، وISO 3506-1 (الفولاذ المقاوم للصدأ)، وISO 3269 (فحص القبول)، وISO 4042 (الطلاء)، وISO 1502 (مقاييس الأسنان). بالنسبة لمشتري B2B، من الضروري بناء مكتبة مرجعية للمعايير تحتوي على الأقل على أفضل 20 معياراً ذات صلة بمزيج منتجاتك.",
+    "fr": "Tirefonds (vis tirefond) sont des fixations robustes pour bois :\n\nDIN 571 / ISO 8678 : Vis à bois à tête hexagonale\n\nCaractéristiques :\n- Tête hexagonale pour serrage à la clé\n- Filetages grossiers et acérés\n- Filetage total ou partiel\n- Construction de gros calibre\n\nApplications :\n- Connexions de charpentes bois\n- Construction de terrasses\n- Construction de pergolas et tonnelles\n- Assemblage de meubles\n\nInstallation :\n- Pré-percer un trou pilote (surtout pour les bois durs)\n- Utiliser des rondelles sous la tête\n- Visser avec une clé ou une visseuse\n\nLes tirefonds TradeGo sont galvanisés à chaud pour une utilisation en extérieur. L'approvisionnement basé sur des normes nécessite une formation continue, car les normes ISO, ASTM, DIN et GB sont révisées tous les 3 à 5 ans. Abonnez-vous aux notifications de mise à jour des normes et examinez les spécifications chaque année. Les normes les plus courantes utilisées dans le commerce international des fixations sont l'ISO 898-1 (propriétés mécaniques), l'ISO 3506-1 (inox), l'ISO 3269 (contrôle de réception), l'ISO 4042 (revêtements) et l'ISO 1502 (calibres de filetage). Pour les acheteurs B2B, il est essentiel de constituer une bibliothèque de référence des normes incluant au moins les 20 principales normes pertinentes pour votre gamme de produits.",
+    "pt": "Parafusos franceses (parafusos lag) são fixadores de madeira para serviços pesados:\n\nDIN 571 / ISO 8678: Parafusos sextavados para madeira\n\nCaracterísticas:\n- Cabeça sextavada para aperto com chave\n- Roscas grossas e afiadas\n- Rosca total ou parcial\n- Construção de bitola pesada\n\nAplicações:\n- Conexões de estruturas de madeira\n- Construção de decks\n- Construção de pérgulas e gazebos\n- Montagem de móveis\n\nInstalação:\n- Faça um furo piloto (especialmente para madeiras duras)\n- Use arruelas sob a cabeça\n- Aperte com chave ou parafusadeira\n\nOs parafusos franceses da TradeGo são galvanizados a fogo para uso externo. A aquisição baseada em normas exige aprendizado contínuo, pois as normas ISO, ASTM, DIN e GB são revisadas a cada 3-5 anos. Inscreva-se para notificações de atualização de normas e revise as especificações anualmente. As normas mais comuns usadas no comércio internacional de fixadores são ISO 898-1 (propriedades mecânicas), ISO 3506-1 (inoxidável), ISO 3269 (inspeção de aceitação), ISO 4042 (revestimentos) e ISO 1502 (calibradores de rosca). Para compradores B2B, criar uma biblioteca de referência de normas com pelo menos as 20 principais normas relevantes para o seu mix de produtos é essencial.",
+    "ru": "Шурупы глухари (путевые шурупы) — это усиленные крепежные изделия для дерева:\n\nDIN 571 / ISO 8678: Шурупы по дереву с шестигранной головкой\n\nОсобенности:\n- Шестигранная головка для затяжки гаечным ключом\n- Крупная, острая резьба\n- Полная или неполная резьба\n- Усиленная конструкция\n\nПрименение:\n- Соединения деревянных каркасов\n- Строительство настилов\n- Возведение пергол и беседок\n- Сборка мебели\n\nУстановка:\n- Предварительное сверление пилотного отверстия (особенно для твердых пород дерева)\n- Использовать шайбы под головку\n- Завинчивать ключом или шуруповертом\n\nШурупы глухари TradeGo имеют горячеоцинкованное покрытие для использования снаружи помещений. Закупки на основе стандартов требуют постоянного обучения, так как стандарты ISO, ASTM, DIN и GB пересматриваются каждые 3-5 лет. Подпишитесь на уведомления об обновлении стандартов и ежегодно пересматривайте спецификации. Наиболее распространенные стандарты в международной торговле крепежом: ISO 898-1 (механические свойства), ISO 3506-1 (нержавеющая сталь), ISO 3269 (приемочный контроль), ISO 4042 (покрытия) и ISO 1502 (резьбовые калибры). Для B2B-покупателей важно создать библиотеку стандартов, включающую не менее 20 основных стандартов, соответствующих вашему ассортименту продукции.",
+    "ja": "コーチスクリュー（ラグスクリュー）は、木材用の重量級ファスナーです：\n\nDIN 571 / ISO 8678：六角頭木ネジ\n\n特徴：\n- レンチで締め付け可能な六角頭\n- 粗く鋭いねじ山\n- 全ねじまたは半ねじ\n- 太径設計\n\n用途：\n- 木造フレームの接合\n- デッキ製作\n- パーゴラやガゼボの組み立て\n- 家具製作\n\n施工：\n- 下穴あけ（特に硬い木材の場合）\n- 頭部にワッシャーを使用\n- レンチまたはインパクトドライバーで締め付け\n\nTradeGoのコーチスクリューは、屋外用に溶融亜鉛メッキが施されています。規格に基づいた調達には継続的な学習が必要です。ISO、ASTM、DIN、およびGB規格は3～5年ごとに改訂されるためです。規格更新通知を購読し、毎年仕様を見直してください。国際的なファスナー取引で最も一般的な規格は、ISO 898-1（機械的性質）、ISO 3506-1（ステンレス鋼）、ISO 3269（受入検査）、ISO 4042（コーティング）、およびISO 1502（ねじゲージ）です。B2Bバイヤーにとって、取り扱う製品に関連する上位20の規格だけでも、規格リファレンスライブラリを構築しておくことは不可欠です。",
+    "de": "Holzschrauben mit Sechskantkopf (auch bekannt als Schlüsselschrauben) sind robuste Verbindungselemente für Holz:\n\nDIN 571 / ISO 8678: Sechskant-Holzschrauben\n\nMerkmale:\n- Sechskantkopf für das Festziehen mit einem Schraubenschlüssel\n- Grobe, scharfe Gewinde\n- Voll- oder Teilgewinde\n- Stabile Ausführung\n\nAnwendungen:\n- Holzrahmenverbindungen\n- Terrassenbau\n- Bau von Pergolen und Gartenhäusern\n- Möbelmontage\n\nInstallation:\n- Vorbohren (besonders bei Hartholz)\n- Unterlegscheibe unter dem Kopf verwenden\n- Mit Schraubenschlüssel oder Schlagschrauber eindrehen\n\nTradeGo Holzschrauben mit Sechskantkopf sind feuerverzinkt für den Außenbereich. Die normbasierte Beschaffung erfordert kontinuierliches Lernen, da ISO-, ASTM-, DIN- und GB-Normen alle 3-5 Jahre überarbeitet werden. Abonnieren Sie Benachrichtigungen zu Normänderungen und überprüfen Sie die Spezifikationen jährlich. Die häufigsten Normen im internationalen Handel mit Verbindungselementen sind ISO 898-1 (mechanische Eigenschaften), ISO 3506-1 (Edelstahl), ISO 3269 (Abnahmeprüfung), ISO 4042 (Beschichtungen) und ISO 1502 (Gewindelehren). Für B2B-Einkäufer ist der Aufbau einer Referenzbibliothek mit den wichtigsten 20 Normen, die für den eigenen Produktmix relevant sind, unerlässlich.",
+    "hi": "कोच स्क्रू (लैग स्क्रू) भारी-भरकम लकड़ी के फास्टनर हैं:\n\nDIN 571 / ISO 8678: हेक्स हेड वुड स्क्रू\n\nविशेषताएँ:\n- रिंच से कसने के लिए हेक्स हेड\n- मोटे, नुकीले धागे\n- पूर्ण चूड़ी या आंशिक चूड़ी\n- भारी-गेज निर्माण\n\nअनुप्रयोग:\n- टिम्बर फ्रेम कनेक्शन\n- डेक निर्माण\n- पेर्गोला और गज़ेबो निर्माण\n- फर्नीचर असेंबली\n\nइंस्टालेशन:\n- पायलट होल को पहले ड्रिल करें (विशेषकर सख्त लकड़ी के लिए)\n- सिर के नीचे वॉशर का उपयोग करें\n- रिंच या इम्पैक्ट ड्राइवर से चलाएं\n\nTradeGo कोच स्क्रू बाहरी उपयोग के लिए हॉट-डिप गैल्वनाइज्ड होते हैं। मानक-आधारित खरीद के लिए निरंतर सीखने की आवश्यकता होती है क्योंकि ISO, ASTM, DIN और GB मानकों को हर 3-5 वर्षों में संशोधित किया जाता है। मानक अपडेट नोटिफिकेशन के लिए सब्सक्राइब करें और विनिर्देशों की वार्षिक समीक्षा करें। अंतर्राष्ट्रीय फास्टनर व्यापार में उपयोग किए जाने वाले सबसे सामान्य मानक ISO 898-1 (यांत्रिक गुण), ISO 3506-1 (स्टेनलेस), ISO 3269 (स्वीकृति निरीक्षण), ISO 4042 (कोटिंग्स), और ISO 1502 (थ्रेड गेज) हैं। B2B खरीदारों के लिए, अपने उत्पाद मिश्रण के लिए प्रासंगिक शीर्ष 20 मानकों के साथ एक मानक संदर्भ पुस्तकालय बनाना आवश्यक है।"
+   }
   },
-  "keywords": "timber fasteners, wood screws, coach screws, timber connectors, wood frame construction, lag screws",
-  "sections": [
+  {
+   "id": "connectors",
+   "heading": {
+    "en": "Timber Connectors",
+    "es": "Conectores para madera",
+    "ar": "وصلات الأخشاب",
+    "fr": "Connecteurs pour bois",
+    "pt": "Conectores para madeira",
+    "ru": "Крепежные элементы для дерева",
+    "ja": "木材用コネクタ",
+    "de": "Holzverbinder",
+    "hi": "टिम्बर कनेक्टर (लकड़ी के जोड़)",
+    "zh": "木材连接件"
+   },
+   "body": {
+    "en": "<p>Timber connectors transfer load between members without relying on the screw's own capacity, and they exist because timber is weak in tension perpendicular to the grain and strong in bearing parallel to it. A connector spreads load over an area, converts a tension demand into bearing and shear, and lets a joint be designed rather than estimated. The main families are joist hangers and post bases, which carry vertical load into a member; straps and ties, which resist uplift and lateral movement; and plate and bracket systems for heavier frame connections.</p>\n<p>Connector performance depends on the fasteners that attach it, which is where most site failures originate. A hanger specified with a given number and type of nails or screws performs as tested only when those fasteners are used in that number and pattern; substituting longer screws, fewer nails, or a different diameter changes the capacity without any visible sign. The right practice is to keep the connector's published fastener schedule with the drawings and to require it at inspection.</p>\n<p>Corrosion is the second issue and it is often hidden. Connectors are usually galvanised, and in preservative-treated or damp timber the zinc is consumed faster than the published rating suggests. The safe approach is to match the connector's coating class to the timber treatment and the exposure, and to inspect the connector, not only the timber, at service intervals. A joint that looks sound from the outside can have a connector that has lost most of its section at the embedded face.</p>\n<p>Where connectors and timber meet, detailing matters as much as the hardware. Water trapped between a connector and timber is the standard cause of premature failure, so a capillary break, a drained detail or a raised base is worth more than a heavier coating. Designers who treat the connector as a piece of hardware and the detail as part of the structure get joints that last; those who select the connector and leave the detail to the site get joints that pass inspection and fail in service.</p>\n\n<p>A practical inspection routine for timber connections is short: check that the specified connector is present rather than a general-purpose bracket, that the fastener count and pattern match the schedule, that the coating is intact at the embedded face, and that no water is standing against the connector. Each of those four checks catches a class of failure that is invisible once the structure is closed up, and together they take less time than a single repair.</p>\n\n<p>Connector selection should also account for the direction of load, not only its size. A hanger carrying a joist downward is a bearing problem, while the same hanger resisting uplift after a roof has been lifted by wind is a different problem in the same hardware; specifying by catalogue number alone can meet the first and miss the second. Writing the load direction on the drawing, with the connector's published capacity for that direction, is the check that prevents a roof strap from being chosen for a joist.</p>",
+    "zh": "<p>金属连接件可提高木结构连接强度：\\n\\n类型：\\n- 托梁连接件：支撑托梁与主梁的连接\\n- 钢带连接件：加强节点\\n- 柱底座：将立柱固定于混凝土基础上\\n- 抗拔连接件：抵抗上拔力\\n\\n材料：\\n- 镀锌钢：标准室内使用\\n- 热浸镀锌钢：室外/潮湿环境\\n- 不锈钢：海洋/沿海环境\\n\\n优势：\\n- 提高承载能力\\n- 减少木材开槽\\n- 标准化的连接节点\\n- 加快安装速度\\n\\n上述比较方法基于 TradeGo 采购部门 2018-2024 年的行业数据。</p>\n<p>市场价格随原材料成本（钢材、锌、镍）、能源成本、人工成本和汇率波动而变化。为进行准确比较，请向 3-5 家合格供应商获取相同的询价文件，并比较到岸成本（产品价格 + 运费 + 保险 + 关税）。最低单价很少是最低的总拥有成本。</p>\n<p>\\n\\n上述比较方法基于 TradeGo 采购部门 2018-2024 年的行业数据。市场价格随原材料成本（钢材、锌、镍）、能源成本、人工成本和汇率波动而变化。为进行准确比较，请向 3-5 家合格供应商获取相同的询价文件，并比较到岸成本（产品价格 + 运费 + 保险 + 关税）。</p>\n<p>最低单价很少是最低的总拥有成本。\\n\\n上述比较方法基于 TradeGo 采购部门 2018-2024 年的行业数据。市场价格随原材料成本（钢材、锌、镍）、能源成本、人工成本和汇率波动而变化。为进行准确比较，请向 3-5 家合格供应商获取相同的询价文件，并比较到岸成本（产品价格 + 运费 + 保险 + 关税）。</p>\n\n<p>最低单价很少是最低的总拥有成本。</p>",
+    "es": "Los conectores metálicos mejoran la resistencia de las conexiones de madera:\n\nTipos:\n- Soportes para viguetas: Sostienen las viguetas en las vigas\n- Abrazaderas de fleje: Refuerzan las uniones\n- Bases de postes: Aseguran los postes al concreto\n- Conectores de retención: Resisten fuerzas de elevación\n\nMateriales:\n- Acero galvanizado: Interior estándar\n- Galvanizado por inmersión en caliente: Exterior/ubicaciones húmedas\n- Acero inoxidable: Marino/costero\n\nBeneficios:\n- Mayor capacidad de carga\n- Menor necesidad de muescas en la madera\n- Detalles de conexión estandarizados\n- Instalación más rápida. La metodología de comparación anterior utiliza rangos típicos de datos de la industria y la experiencia de adquisiciones de TradeGo 2018-2024. Los precios reales del mercado fluctúan con los costos de las materias primas (acero, zinc, níquel), los costos de energía, los costos laborales y los tipos de cambio de divisas. Para una comparación precisa, solicite RFQ idénticas a 3-5 proveedores calificados y compare el costo puesto en destino (producto + envío + seguro + aranceles). El precio unitario más bajo rara vez es el menor costo total de propiedad.",
+    "ar": "تعمل الموصلات المعدنية على تحسين قوة الوصلات الخشبية:\n\nالأنواع:\n- علاقات الروافد: لدعم الروافد عند العوارض\n- أشرطة الربط: لتعزيز الوصلات\n- قواعد الأعمدة: لتثبيت الأعمدة بالخرسانة\n- مثبتات التثبيت: لمقاومة قوى الرفع\n\nالمواد:\n- فولاذ مجلفن: للاستخدام الداخلي القياسي\n- مجلفن بالغمس الساخن: للمناطق الخارجية/الرطبة\n- فولاذ مقاوم للصدأ: للمناطق البحرية/الساحلية\n\nالفوائد:\n- زيادة قدرة التحمل\n- تقليل الحاجة لنقر الخشب\n- تفاصيل وصلات موحدة\n- تركيب أسرع. تستخدم منهجية المقارنة أعلاه نطاقات نموذجية من بيانات الصناعة وخبرة المشتريات لدى TradeGo للفترة 2018-2024. تتقلب أسعار السوق الفعلية مع تكاليف المواد الخام (الفولاذ، الزنك، النيكل)، وتكاليف الطاقة، وتكاليف العمالة، وأسعار صرف العملات. للمقارنة الدقيقة، اطلب عروض أسعار متطابقة من 3-5 موردين مؤهلين وقارن التكلفة الواصلة (المنتج + الشحن + التأمين + الرسوم). نادراً ما يكون سعر الوحدة الأقل هو التكلفة الإجمالية الأقل للملكية.",
+    "fr": "Les connecteurs métalliques améliorent la résistance des assemblages en bois :\n\nTypes :\n- Sabots de solive : Soutiennent les solives sur les poutres\n- Équerres et sangles : Renforcent les joints\n- Pieds de poteau : Fixent les poteaux sur le béton\n- Équerres de retenue : Résistent aux forces de soulèvement\n\nMatériaux :\n- Acier galvanisé : Usage intérieur standard\n- Galvanisation à chaud : Usage extérieur/milieux humides\n- Acier inoxydable : Usage marin/côtier\n\nAvantages :\n- Capacité de charge accrue\n- Réduction des entailles dans le bois\n- Détails de connexion normalisés\n- Installation plus rapide. La méthodologie de comparaison ci-dessus utilise des plages typiques issues de données industrielles et de l'expérience d'approvisionnement TradeGo 2018-2024. Les prix réels du marché fluctuent en fonction des coûts des matières premières (acier, zinc, nickel), des coûts de l'énergie, de la main-d'œuvre et des taux de change. Pour une comparaison précise, demandez des devis identiques à 3-5 fournisseurs qualifiés et comparez le coût rendu (produit + expédition + assurance + droits de douane). Le prix unitaire le plus bas est rarement le coût total de possession le plus bas.",
+    "pt": "Conectores metálicos melhoram a resistência das conexões de madeira:\n\nTipos:\n- Suportes para vigas: Suportam vigas em caibros\n- Fitas de amarração: Reforçam juntas\n- Bases de poste: Fixam postes ao concreto\n- Conectores de ancoragem: Resistem a forças de levantamento\n\nMateriais:\n- Aço galvanizado: Padrão interno\n- Galvanizado a fogo: Locais externos/úmidos\n- Aço inoxidável: Marítimo/costeiro\n\nBenefícios:\n- Maior capacidade de carga\n- Redução de entalhes na madeira\n- Detalhes de conexão padronizados\n- Instalação mais rápida A metodologia de comparação acima usa faixas típicas de dados do setor e experiência de aquisição da TradeGo de 2018-2024. Os preços reais de mercado flutuam com os custos de matérias-primas (aço, zinco, níquel), custos de energia, custos de mão de obra e taxas de câmbio. Para uma comparação precisa, solicite RFQs idênticas de 3-5 fornecedores qualificados e compare o custo de entrega (produto + frete + seguro + impostos). O preço unitário mais baixo raramente é o menor custo total de propriedade.",
+    "ru": "Металлические соединители повышают прочность деревянных конструкций:\n\nТипы:\n- Опоры для балок: поддержка балок на опорах\n- Перфорированные ленты: усиление стыков\n- Базы для стоек: крепление опор к бетону\n- Анкеры для защиты от подъема: сопротивление вертикальным нагрузкам\n\nМатериалы:\n- Оцинкованная сталь: стандарт для помещений\n- Горячеоцинкованная сталь: для наружных и влажных условий\n- Нержавеющая сталь: для морских и прибрежных зон\n\nПреимущества:\n- Повышенная несущая способность\n- Снижение количества зарубок в древесине\n- Стандартизированные узлы соединений\n- Более быстрый монтаж. Методология сравнения выше использует типичные диапазоны на основе отраслевых данных и опыта закупок TradeGo за 2018–2024 годы. Фактические рыночные цены колеблются в зависимости от стоимости сырья (сталь, цинк, никель), затрат на энергию, оплату труда и курсов валют. Для точного сравнения запрашивайте идентичные RFQ у 3–5 квалифицированных поставщиков и сравнивайте стоимость с учетом доставки (товар + доставка + страховка + пошлины). Самая низкая цена за единицу редко означает минимальную совокупную стоимость владения.",
+    "ja": "金属製コネクタは木造建築の接合強度を向上させます：\n\n種類：\n- ジョイストハンガー：梁で根太を支持\n- ストラップタイ：接合部を補強\n- 柱脚金物：柱をコンクリートに固定\n- ホールドダウン金物：浮き上がり力に抵抗\n\n材料：\n- 亜鉛メッキ鋼：屋内標準\n- 溶融亜鉛メッキ：屋外・湿潤場所\n- ステンレス鋼：海洋・沿岸部\n\n利点：\n- 耐荷重の増加\n- 木材の欠き込み減少\n- 標準化された接合部詳細\n- 迅速な施工 上記の比較手法は、業界データおよびTradeGoの2018年～2024年の調達経験に基づく一般的な範囲を使用しています。実際の市場価格は、原材料（鋼、亜鉛、ニッケル）、エネルギーコスト、人件費、および為替レートにより変動します。正確な比較のために、3～5社の認定サプライヤーから同一のRFQを取得し、ランデッドコスト（製品価格＋送料＋保険料＋関税）を比較してください。最低単価が常に最低の総所有コスト（TCO）になるとは限りません。",
+    "de": "Metallverbinder verbessern die Festigkeit von Holzverbindungen:\n\nTypen:\n- Balkenschuhe: Stützen Balken an Trägern\n- Lochbleche: Verstärken Verbindungen\n- Pfostenträger: Sichern Pfosten auf Beton\n- Zuganker: Widerstehen Abhebekräften\n\nMaterialien:\n- Verzinkter Stahl: Standard für den Innenbereich\n- Feuerverzinkt: Außen- oder feuchte Bereiche\n- Edelstahl: Marine- oder Küstenbereiche\n\nVorteile:\n- Erhöhte Tragfähigkeit\n- Weniger Ausklinkungen im Holz erforderlich\n- Standardisierte Verbindungsdetails\n- Schnellere Montage. Die oben genannte Vergleichsmethodik verwendet typische Bereiche aus Branchendaten und der Beschaffungserfahrung von TradeGo zwischen 2018 und 2024. Die tatsächlichen Marktpreise schwanken mit den Rohstoffkosten (Stahl, Zink, Nickel), Energiekosten, Arbeitskosten und Wechselkursen. Für einen genauen Vergleich fordern Sie identische RFQs von 3-5 qualifizierten Lieferanten an und vergleichen Sie die gelandeten Kosten (Produkt + Versand + Versicherung + Zölle). Der niedrigste Stückpreis entspricht selten den niedrigsten Gesamtbetriebskosten.",
+    "hi": "धातु के कनेक्टर लकड़ी के कनेक्शन की मजबूती में सुधार करते हैं:\n\nप्रकार:\n- जॉइस्ट हैंगर: बीम पर जॉइस्ट को सहारा देते हैं\n- स्ट्रैप टाई: जोड़ों को मजबूत करते हैं\n- पोस्ट बेस: पोस्ट को कंक्रीट में सुरक्षित करते हैं\n- होल्डडाउन: उत्थान बलों (uplift forces) का विरोध करते हैं\n\nसामग्री:\n- गैल्वनाइज्ड स्टील: मानक आंतरिक\n- हॉट-डिप गैल्वनाइज्ड: बाहरी/नम स्थान\n- स्टेनलेस स्टील: समुद्री/तटीय\n\nलाभ:\n- बढ़ी हुई लोड क्षमता\n- लकड़ी की नॉचिंग में कमी\n- मानकीकृत कनेक्शन विवरण\n- तेज़ स्थापना उपरोक्त तुलना पद्धति उद्योग डेटा और TradeGo खरीद अनुभव 2018-2024 से सामान्य श्रेणियों का उपयोग करती है। वास्तविक बाजार मूल्य कच्चे माल (स्टील, जस्ता, निकल), ऊर्जा लागत, श्रम लागत और मुद्रा विनिमय दरों के साथ उतार-चढ़ाव करते हैं। सटीक तुलना के लिए, 3-5 योग्य आपूर्तिकर्ताओं से समान RFQ का अनुरोध करें और लैंडेड लागत (उत्पाद + शिपिंग + बीमा + शुल्क) की तुलना करें। सबसे कम इकाई मूल्य शायद ही कभी स्वामित्व की सबसे कम कुल लागत होती है।"
+   }
+  },
+  {
+   "id": "faq",
+   "heading": {
+    "en": "Frequently Asked Questions",
+    "zh": "常见问题",
+    "es": "Preguntas Frecuentes",
+    "ar": "الأسئلة الشائعة",
+    "fr": "Questions Fréquemment Posées",
+    "pt": "Perguntas Frequentes",
+    "ru": "Часто задаваемые вопросы",
+    "ja": "よくある質問",
+    "de": "Häufig Gestellte Fragen",
+    "hi": "अक्सर पूछे जाने वाले प्रश्न"
+   },
+   "body": {
+    "en": "<p>See frequently asked questions below.</p> Related resources: <a href=\"/en/products/high-tensile-bolts\">high-tensile bolts</a> <a href=\"/en/products/anchor-bolts\">anchor bolts</a> <a href=\"/en/products/stainless-bolts\">stainless steel fasteners</a> <a href=\"/en/products/hex-bolts\">hex bolts</a> <a href=\"/en/products/lock-nuts\">lock nuts</a> <a href=\"/en/products/washers\">washers</a> <a href=\"/en/products/self-drilling-screws\">self-drilling screws</a> <a href=\"/en/products/socket-screws\">socket screws</a>. The verification checklist applies to both initial supplier qualification and ongoing batch inspection. For high-risk applications (load-bearing structural, pressure vessels, mining, marine), add fatigue testing, salt-spray testing (ASTM B117), torque-tension testing, and post-installation inspection. The cost of additional verification is 0.1-0.3% of order value, while undetected quality failures can be 10-100x the order value in damages.",
+    "zh": "",
+    "es": "",
+    "ar": "<p>الأسئلة الشائعة مذكورة أدناه.",
+    "fr": "",
+    "pt": "",
+    "ru": "<p>Часто задаваемые вопросы приведены ниже.",
+    "ja": "<p>よくある質問は以下をご覧ください。</p> 関連リソース：<a href=\"/en/products/high-tensile-bolts\">高張力ボルト</a> <a href=\"/en/products/anchor-bolts\">アンカーボルト</a> <a href=\"/en/products/stainless-bolts\">ステンレス製ファスナー</a> <a href=\"/en/products/hex-bolts\">六角ボルト</a> <a href=\"/en/products/lock-nuts\">ロックナット</a> <a href=\"/en/products/washers\">ワッシャー</a> <a href=\"/en/products/self-drilling-screws\">セルフドリリングビス</a> <a href=\"/en/products/socket-screws\">ソケットスクリュー</a>. この検証チェックリストは、初回のサプライヤー認定と継続的なロット検査の双方に適用されます。高リスク用途（耐荷重構造、圧力容器、鉱業、海洋）では、疲労試験、塩水噴霧試験（ASTM B117）、トルク−張力試験、施工後の検査を追加してください。追加検証のコストは発注額の0.1〜0.3%ですが、見出せなかった品質不良は発注額の10〜100倍の損害になり得ます。",
+    "de": "",
+    "hi": "<p>सामान्य प्रश्न नीचे दिए गए हैं।"
+   },
+   "faqItems": [
     {
-      "id": "wood-screws",
-      "heading": {
-        "en": "Wood Screws: Selection and Use",
-        "es": "Tornillos para madera: Selección y uso",
-        "ar": "براغي الخشب: الاختيار والاستخدام",
-        "fr": "Vis à bois : Sélection et utilisation",
-        "pt": "Parafusos para madeira: Seleção e uso",
-        "ru": "Шурупы по дереву: выбор и применение",
-        "ja": "木ねじ：選定と使用方法",
-        "de": "Holzschrauben: Auswahl und Verwendung",
-        "hi": "लकड़ी के पेंच: चयन और उपयोग",
-        "zh": "木螺丝：选型与使用"
-      },
-      "body": {
-        "en": "<p>Wood screws work by cutting or displacing their own path, so the material they enter, not the screw's strength, sets the design rule. In softwood a coarse thread with a sharp point will draw the parts together and hold; in hardwood the same screw will split the board unless a pilot hole is drilled, and in engineered timber the screw must be selected for the panel's density rather than for the timber it replaces. Choosing a screw by length and head shape alone is the reason most timber joints fail early.</p>\n<p>The head decides function. A countersunk head sits flush and suits surfaces that will be finished or walked on; a round or pan head leaves a bearing face for brackets and thin parts; a bugle head spreads load under a drywall or sheathing panel and reduces the risk of punching through. The recess matters as much: a Phillips drive cam-outs at a designed torque, which protects the head, while a Torx or square drive transmits more torque without cam-out and suits dense timber and long screws where driving effort is high.</p>\n<p>Length and gauge follow from the thickness being joined rather than from a rule of thumb. A common convention is that the threaded length in the receiving member should be about two-thirds of the thickness of the top board, with the screw long enough to pass through the top board without its thread engaging there. If the thread engages in both boards the joint cannot be drawn tight, which is the most frequent cause of a squeaking floor or a rattling panel.</p>\n<p>Coating is a decision about moisture, not appearance. Bright zinc plating suits indoor work in dry conditions; hot-dip galvanised or zinc flake is needed wherever timber stays damp, and stainless is the answer for coastal, marine and preservative-treated timber, where the treatment chemicals are aggressive to zinc. Where two different metals meet, the less noble one corrodes first, so a galvanised bracket with stainless screws should be assessed rather than assumed safe.</p>\n\n<p>Driving practice completes the selection. A wood screw driven without a pilot hole into hardwood creates a splitting stress along the grain, and the crack appears weeks later rather than at installation. A pilot hole of the root diameter, drilled to the length of the threaded section, prevents that; a wax or soap lubricant on the thread halves the driving torque in dense timber; and a driver with a clutch set below the head's cam-out torque protects both the head and the board. None of these costs money, and together they remove most of the failure modes that a specification alone cannot.</p>\n\n<p>One commercial note that matters for export buyers: timber screws are sold by count in some markets and by weight in others, and a carton marked by weight is of little use on a site where the fixing schedule is written in pieces. Stating the count, the gauge and the length convention on the carton, and agreeing the packing quantity at order, avoids the shortfalls that appear only when a crew reaches the last row of a deck.</p>",
-        "zh": "<p>木螺丝专为木材与木材连接而设计：\\n\\n类型：\\n- 平头：沉孔，形成平整表面\\n- 圆头：提供承载面\\n- 喇叭头：适用于石膏板和护墙板\\n\\n主要特点：\\n- 锋利尖端便于轻松起钻\\n- 粗牙螺纹增强木材握裹力\\n- 光杆设计便于插入\\n- 多种长度和规格可选\\n\\n选型建议：\\n- 长度：应为面板厚度的2.5倍\\n- 规格：根据载荷要求选择\\n- 头部：根据应用场景选择\\n- 涂层：户外使用需具备耐腐蚀性能\\n\\n相关资源：<a href=\"/en/products/high-tensile-bolts\">高强度螺栓</a> <a href=\"/en/products/anchor-bolts\">锚栓</a> <a href=\"/en/products/stainless-bolts\">不锈钢紧固件</a> <a href=\"/en/products/hex-bolts\">六角螺栓</a> <a href=\"/en/products/lock-nuts\">锁紧螺母</a> <a href=\"/en/products/washers\">垫圈</a> <a href=\"/en/products/self-drilling-screws\">自钻螺丝</a> <a href=\"/en/products/socket-screws\">内六角螺丝</a>。</p>\n<p>此采购框架适用于建筑、采矿、能源、汽车及一般工业应用的紧固件采购。决策逻辑优先考虑质量一致性、供应商可靠性及总拥有成本，而非短期单价。对于非洲、拉丁美洲及东南亚的B2B买家，还需额外考虑区域海关要求、集装箱整合选项及支付安全保障机制。</p>\n<p>跨项目统一使用的标准化规格可减少培训时间、询价处理时间及供应商入职工作量。此采购框架适用于建筑、采矿、能源、汽车及一般工业应用的紧固件采购。决策逻辑优先考虑质量一致性、供应商可靠性及总拥有成本，而非短期单价。</p>\n<p>对于非洲、拉丁美洲及东南亚的B2B买家，还需额外考虑区域海关要求、集装箱整合选项及支付安全保障机制。跨项目统一使用的标准化规格可减少培训时间、询价处理时间及供应商入职工作量。此采购框架适用于建筑、采矿、能源、汽车及一般工业应用的紧固件采购。</p>\n<p>决策逻辑优先考虑质量一致性、供应商可靠性及总拥有成本，而非短期单价。对于非洲、拉丁美洲及东南亚的B2B买家，还需额外考虑区域海关要求、集装箱整合选项及支付安全保障机制。跨项目统一使用的标准化规格可减少培训时间、询价处理时间及供应商入职工作量。</p>\n\n<p>跨项目统一使用的标准化规格可减少培训时间、询价处理时间及供应商入职工作量。</p>",
-        "es": "Los tornillos para madera están diseñados para unir madera con madera:\n\nTipos:\n- Cabeza plana: Avellanado para una superficie a ras\n- Cabeza redonda: Proporciona superficie de apoyo\n- Cabeza de corneta: Para paneles de yeso y revestimientos\n\nCaracterísticas clave:\n- Punta afilada para un inicio fácil\n- Rosca gruesa para agarre en madera\n- Vástago liso para una fácil inserción\n- Varias longitudes y calibres\n\nConsejos de selección:\n- Longitud: 2.5 veces el espesor de la tabla superior\n- Calibre: Ajustar a los requisitos de carga\n- Cabeza: Ajustar a la aplicación\n- Recubrimiento: El uso en exteriores requiere resistencia a la corrosión. Recursos relacionados: pernos de alta resistencia pernos de anclaje fijaciones de acero inoxidable pernos hexagonales tuercas de seguridad arandelas tornillos autoperforantes tornillos de cabeza hueca. Este marco de adquisiciones se aplica al abastecimiento de fijaciones para construcción, minería, energía, automoción y aplicaciones industriales generales. La lógica de decisión prioriza la consistencia de la calidad, la fiabilidad del proveedor y el costo total de propiedad sobre el precio unitario a corto plazo. Para los compradores B2B en África, América Latina y el Sudeste Asiático, las consideraciones adicionales incluyen requisitos aduaneros regionales, opciones de consolidación de contenedores y mecanismos de seguridad de pago. Las especificaciones estandarizadas que se aplican a través de los proyectos reducen el tiempo de capacitación, el tiempo de procesamiento de solicitudes de cotización (RFQ) y el esfuerzo de incorporación de proveedores.",
-        "ar": "صُممت براغي الخشب لتثبيت الخشب بالخشب:\n\nالأنواع:\n- رأس مسطح: للغرس في السطح ليكون بمستوى واحد\n- رأس مستدير: يوفر سطح تحميل\n- رأس بوقي: لألواح الجبس والتغطية\n\nالميزات الرئيسية:\n- طرف حاد لبدء سهل\n- أسنان خشنة لتماسك أفضل مع الخشب\n- ساق ملساء لسهولة الإدخال\n- أطوال ومقاييس متنوعة\n\nنصائح الاختيار:\n- الطول: 2.5 ضعف سمك اللوح العلوي\n- القياس: طابقه مع متطلبات الحمل\n- الرأس: طابقه مع التطبيق\n- الطلاء: الاستخدام الخارجي يتطلب مقاومة للتآكل الموارد ذات الصلة: براغي عالية الشد براغي تثبيت (أنكر) مثبتات الفولاذ المقاوم للصدأ براغي سداسية صواميل قفل حلقات (وردات) براغي ثقب ذاتي براغي رأس مقبس. ينطبق إطار المشتريات هذا على توريد المثبتات لقطاعات البناء والتعدين والطاقة والسيارات والتطبيقات الصناعية العامة. تعطي منطق اتخاذ القرار الأولوية لاتساق الجودة وموثوقية المورد والتكلفة الإجمالية للملكية بدلاً من سعر الوحدة قصير الأجل. بالنسبة للمشترين في قطاع الأعمال (B2B) في أفريقيا وأمريكا اللاتينية وجنوب شرق آسيا، تشمل الاعتبارات الإضافية متطلبات الجمارك الإقليمية وخيارات تجميع الحاويات وآليات أمن الدفع. تساعد المواصفات الموحدة التي يمكن تطبيقها عبر المشاريع في تقليل وقت التدريب، ووقت معالجة طلبات الأسعار (RFQ)، وجهد ضم الموردين الجدد.",
-        "fr": "Les vis à bois sont conçues pour fixer le bois sur le bois :\n\nTypes :\n- Tête fraisée : S'encastre pour une surface affleurante\n- Tête ronde : Offre une surface d'appui\n- Tête trompette : Pour les cloisons sèches et le bardage\n\nCaractéristiques principales :\n- Pointe acérée pour un amorçage facile\n- Filetage grossier pour une meilleure accroche dans le bois\n- Tige lisse pour une insertion facile\n- Diverses longueurs et calibres\n\nConseils de sélection :\n- Longueur : 2,5 fois l'épaisseur de la planche supérieure\n- Calibre : À adapter aux exigences de charge\n- Tête : À adapter à l'application\n- Revêtement : L'utilisation en extérieur nécessite une résistance à la corrosion. Ressources connexes : boulons à haute résistance goujons d'ancrage fixations en acier inoxydable boulons hexagonaux écrous frein rondelles vis autoperceuses vis à six pans creux. Ce cadre d'approvisionnement s'applique à l'achat de fixations pour la construction, l'exploitation minière, l'énergie, l'automobile et les applications industrielles générales. La logique de décision privilégie la cohérence de la qualité, la fiabilité des fournisseurs et le coût total de possession plutôt que le prix unitaire à court terme. Pour les acheteurs B2B en Afrique, en Amérique latine et en Asie du Sud-Est, les considérations supplémentaires incluent les exigences douanières régionales, les options de groupage de conteneurs et les mécanismes de sécurisation des paiements. Les spécifications normalisées applicables à travers divers projets réduisent le temps de formation, le temps de traitement des appels d'offres et les efforts d'intégration des fournisseurs.",
-        "pt": "Os parafusos para madeira são projetados para fixar madeira em madeira:\n\nTipos:\n- Cabeça chata: Escareados para superfície nivelada\n- Cabeça redonda: Fornece superfície de apoio\n- Cabeça corneta: Para drywall e revestimentos\n\nPrincipais características:\n- Ponta afiada para início fácil\n- Rosca grossa para fixação na madeira\n- Haste lisa para inserção fácil\n- Vários comprimentos e bitolas\n\nDicas de seleção:\n- Comprimento: 2,5x a espessura da tábua superior\n- Bitola: Combine com os requisitos de carga\n- Cabeça: Combine com a aplicação\n- Revestimento: Uso externo requer resistência à corrosão Recursos relacionados: parafusos de alta resistência parafusos de ancoragem fixadores de aço inoxidável parafusos sextavados porcas autotravantes arruelas parafusos autoperfurantes parafusos com soquete. Esta estrutura de aquisição aplica-se ao fornecimento de fixadores para construção, mineração, energia, automotivo e aplicações industriais gerais. A lógica de decisão prioriza a consistência da qualidade, a confiabilidade do fornecedor e o custo total de propriedade em vez do preço unitário de curto prazo. Para compradores B2B na África, América Latina e Sudeste Asiático, considerações adicionais incluem requisitos aduaneiros regionais, opções de consolidação de contêineres e mecanismos de segurança de pagamento. Especificações padronizadas que funcionam em vários projetos reduzem o tempo de treinamento, o tempo de processamento de RFQ e o esforço de integração de fornecedores.",
-        "ru": "Шурупы по дереву предназначены для крепления деревянных элементов:\n\nТипы:\n- Потайная головка: для установки заподлицо с поверхностью\n- Круглая головка: обеспечивает опорную поверхность\n- Рожковая головка: для гипсокартона и обшивки\n\nОсновные характеристики:\n- Острый наконечник для легкого засверливания\n- Крупная резьба для надежного удержания в дереве\n- Гладкий стержень для легкого вхождения\n- Различные длины и диаметры\n\nСоветы по выбору:\n- Длина: 2,5x толщины верхней детали\n- Диаметр: подбирается под требования нагрузки\n- Головка: подбирается под тип применения\n- Покрытие: для наружных работ требуется антикоррозийная защита. Похожие ресурсы: высокопрочные болты анкерные болты крепеж из нержавеющей стали болты с шестигранной головкой стопорные гайки шайбы самосверлящие винты винты с внутренним шестигранником. Эта закупочная модель применяется для поиска крепежа в строительстве, горнодобывающей промышленности, энергетике, автомобилестроении и общепромышленных целях. Логика принятия решений отдает приоритет стабильности качества, надежности поставщика и совокупной стоимости владения, а не краткосрочной цене за единицу продукции. Для B2B-покупателей в Африке, Латинской Америке и Юго-Восточной Азии дополнительными факторами являются региональные таможенные требования, возможности консолидации контейнеров и механизмы безопасности платежей. Стандартизированные спецификации, применяемые в различных проектах, сокращают время на обучение, обработку запросов (RFQ) и адаптацию поставщиков.",
-        "ja": "木ネジは、木材同士を締結するために設計されています：\n\n種類：\n- 皿頭：沈み込み、表面を平らにする\n- 丸頭：座面を確保する\n- ラッパ頭：乾式壁や外装下地用\n\n主な特徴：\n- 簡単に食い込む鋭い先端\n- 木材にしっかり食いつく粗目ねじ\n- 挿入がスムーズな滑らかなシャンク\n- 豊富な長さと径のバリエーション\n\n選定のヒント：\n- 長さ：締結する板厚の2.5倍\n- 径：荷重要件に合わせる\n- 頭部：用途に合わせる\n- 表面処理：屋外使用時は耐食性が必要 関連リソース: 高張力ボルト アンカーボルト ステンレス鋼ファスナー 六角ボルト ロックナット ワッシャー ドリルねじ ソケットスクリュー。本調達フレームワークは、建設、鉱業、エネルギー、自動車、および一般産業用途のファスナー調達に適用されます。意思決定ロジックでは、短期的な単価よりも、品質の一貫性、サプライヤーの信頼性、および総所有コスト（TCO）を優先します。アフリカ、ラテンアメリカ、東南アジアのB2Bバイヤー向けには、地域の税関要件、コンテナ混載オプション、および支払いセキュリティメカニズムを考慮する必要があります。プロジェクト間で共通化された仕様書は、トレーニング時間、RFQ（見積依頼）処理時間、およびサプライヤーのオンボーディングの手間を削減します。",
-        "de": "Holzschrauben sind für die Befestigung von Holz auf Holz konzipiert:\n\nTypen:\n- Senkkopf: Versenkt für bündige Oberflächen\n- Rundkopf: Bietet eine Auflagefläche\n- Trompetenkopf: Für Trockenbau und Schalungen\n\nHauptmerkmale:\n- Scharfe Spitze für einfaches Ansetzen\n- Grobgewinde für festen Halt im Holz\n- Glatter Schaft für einfaches Eindrehen\n- Verschiedene Längen und Stärken\n\nAuswahlhilfe:\n- Länge: 2,5-fache Dicke des oberen Brettes\n- Stärke: Passend zu den Lastanforderungen\n- Kopf: Passend zur Anwendung\n- Beschichtung: Außenbereich erfordert Korrosionsbeständigkeit. Verwandte Ressourcen: hochfeste Schrauben Ankerschrauben Edelstahl-Verbindungselemente Sechskantschrauben Sicherungsmuttern Unterlegscheiben Bohrschrauben Innensechskantschrauben. Dieser Beschaffungsrahmen gilt für die Beschaffung von Verbindungselementen für das Bauwesen, den Bergbau, die Energiebranche, die Automobilindustrie sowie allgemeine industrielle Anwendungen. Die Entscheidungslogik priorisiert Qualitätskonsistenz, Lieferantenzuverlässigkeit und Gesamtbetriebskosten gegenüber kurzfristigen Stückpreisen. Für B2B-Einkäufer in Afrika, Lateinamerika und Südostasien umfassen zusätzliche Überlegungen regionale Zollanforderungen, Optionen für die Containerkonsolidierung und Mechanismen zur Zahlungssicherheit. Standardisierte Spezifikationen, die projektübergreifend gelten, reduzieren den Schulungsaufwand, die Zeit für die RFQ-Bearbeitung und den Aufwand für das Lieferanten-Onboarding.",
-        "hi": "लकड़ी के पेंच (Wood screws) लकड़ी को लकड़ी से जोड़ने के लिए डिज़ाइन किए गए हैं:\n\nप्रकार:\n- फ्लैट हेड: सतह के बराबर (flush) करने के लिए काउंटरसिंक\n- राउंड हेड: बेयरिंग सतह प्रदान करता है\n- बगल हेड: ड्राईवॉल और शीथिंग के लिए\n\nप्रमुख विशेषताएँ:\n- आसानी से शुरू करने के लिए नुकीला सिरा\n- लकड़ी को पकड़ने के लिए मोटा चूड़ी (coarse thread)\n- आसानी से डालने के लिए चिकना शैंक (shank)\n- विभिन्न लंबाई और गेज में उपलब्ध\n\nचयन युक्तियाँ:\n- लंबाई: ऊपर के बोर्ड की मोटाई का 2.5 गुना\n- गेज: लोड आवश्यकताओं से मेल खाएं\n- हेड: उपयोग के अनुसार चुनें\n- कोटिंग: बाहरी उपयोग के लिए जंग प्रतिरोध आवश्यक है संबंधित संसाधन: हाई-टेन्साइल बोल्ट एंकर बोल्ट स्टेनलेस स्टील फास्टनर्स हेक्स बोल्ट लॉक नट वॉशर सेल्फ-ड्रिलिंग स्क्रू सॉकेट स्क्रू। यह खरीद ढांचा निर्माण, खनन, ऊर्जा, ऑटोमोटिव और सामान्य औद्योगिक अनुप्रयोगों के लिए फास्टनर सोर्सिंग पर लागू होता है। निर्णय तर्क अल्पकालिक इकाई मूल्य के बजाय गुणवत्ता स्थिरता, आपूर्तिकर्ता विश्वसनीयता और स्वामित्व की कुल लागत को प्राथमिकता देता है। अफ्रीका, लैटिन अमेरिका और दक्षिण पूर्व एशिया में B2B खरीदारों के लिए, अतिरिक्त विचारों में क्षेत्रीय सीमा शुल्क आवश्यकताएं, कंटेनर समेकन विकल्प और भुगतान सुरक्षा तंत्र शामिल हैं। मानकीकृत विनिर्देश जो परियोजनाओं में उपयोग होते हैं, प्रशिक्षण समय, RFQ प्रसंस्करण समय और आपूर्तिकर्ता ऑनबोर्डिंग प्रयास को कम करते हैं।"
-      }
+     "q": {
+      "en": "What is the difference between coach screws and wood screws?"
+     },
+     "a": {
+      "en": "Coach screws (lag screws) have a hex head for wrench tightening and are heavy-duty for wood-to-wood connections. Wood screws have slotted or Phillips heads and are lighter duty, designed for assembling wood components."
+     }
     },
     {
-      "id": "coach-screws",
-      "heading": {
-        "en": "Coach Screws (Lag Screws)",
-        "es": "Tornillos tirafondo",
-        "ar": "براغي تثبيت خشبية (Tirafondo)",
-        "fr": "Tirefonds",
-        "pt": "Parafusos tira-fundo",
-        "ru": "Глухари (шурупы с шестигранной головкой)",
-        "ja": "コーチスクリュー（ラグスクリュー）",
-        "de": "Holzschrauben mit Sechskantkopf (Schlüsselschrauben)",
-        "hi": "कोच स्क्रू (लैग स्क्रू)",
-        "zh": "板式螺丝（Lag Screw / 方头木螺丝）"
-      },
-      "body": {
-        "en": "<p>Coach screws, also called lag screws, do the work that a wood screw cannot: they carry structural load into heavy timber, and they are installed with a spanner rather than a driver. Their geometry reflects that. A hexagonal head accepts a real torque, the shank is thick enough to carry shear across a joint, and the coarse thread is designed to bite into timber rather than to cut a fine path through it. The consequence is that a coach screw needs a pilot hole sized to its shank, and a washer under the head to spread the clamp load.</p>\n<p>Installation decides whether a coach screw performs. The pilot hole should be the shank diameter in the member being pulled and smaller in the member receiving the thread, so that the thread bites without splitting. Driving with an impact tool rather than a steady torque risks over-tightening, which crushes the timber under the washer and removes the preload that the joint depended on. In softwood the crushing is visible; in hardwood it happens first at the surface and shows up later as a loose connection.</p>\n<p>Where a coach screw replaces a bolt in a structural connection, the substitution should be checked rather than assumed. A bolt develops capacity through bearing on the member and shear across its section, with a nut providing the clamp; a coach screw develops capacity through thread engagement in one member only. That single-sided engagement is why coach screws are common in decking, fencing, sleepers and light frame work, and rare in connections that a structural engineer has designed around a bolted joint.</p>\n<p>Durability follows the same logic as wood screws but with higher stakes, because coach screws are used outdoors. Hot-dip galvanised is the baseline for exposed timber, stainless for coastal and preservative-treated applications, and the washer should be of the same material as the screw, since a mismatched washer is the first place a joint rusts.</p>\n\n<p>Where a coach screw is used in a treated timber that is still wet, the joint will loosen as the timber dries and shrinks around the thread. Installing them after the timber has reached its service moisture, or accepting a re-tightening step as part of the programme, avoids the complaint that follows a first summer. Detailing that keeps water off the screw head is worth as much as an extra coating class, because a dry joint survives where a wet one will not.</p>\n\n<p>For buyers comparing offers, the useful question is not which coach screw is cheapest but which quotation states the shank diameter, the thread length, the head diameter and the coating class. Two screws of the same nominal size can differ in the length of the threaded portion, and that difference decides how much of the joint is actually held.</p>\n\n<p>A final site habit: keep one box of the specified coach screws and washers sealed until the inspection walk, so that a missing item can be replaced from the same batch rather than from a mixed bin that has already lost its labelling.</p>",
-        "zh": "<p>板式螺丝（Lag Screws / 方头木螺丝）是一种重型木结构紧固件。\\n\\nDIN 571 / ISO 8678：六角头木螺丝\\n\\n产品特点：\\n- 六角头设计，适用于扳手紧固\\n- 粗牙锋利螺纹\\n- 全牙或半牙规格\\n- 加厚杆身结构\\n\\n典型应用：\\n- 木框架连接\\n- 露台Deck construction\\n- 花架和凉亭建造\\n- 家具组装\\n\\n安装要点：\\n- 预钻导向孔（尤其对于硬木）\\n- 螺帽下方使用垫圈washers\\n- 使用扳手或冲击钻驱动\\n\\nTradeGo板式螺丝 coach screws采用热浸镀锌处理，适用于户外环境。</p>\n<p>\\n\\n基于标准的采购需要持续学习，因为ISO、ASTM、DIN和GB标准每3-5年修订一次。订阅标准更新通知，每年审核产品规格。国际紧固件贸易中最常用的标准包括：ISO 898-1（机械性能）、ISO 3506-1（不锈钢）、ISO 3269（验收检验）、ISO 4042（镀层）和ISO 1502（螺纹量规）。对于B2B采购商而言，建立标准参考库至关重要，至少应涵盖与您的产品组合相关的20项核心标准。</p>\n\n\n",
-        "es": "Tornillos de coche (tirafondos) son fijaciones de madera de alta resistencia:\n\nDIN 571 / ISO 8678: Tornillos para madera con cabeza hexagonal\n\nCaracterísticas:\n- Cabeza hexagonal para apretar con llave\n- Roscas gruesas y afiladas\n- Rosca completa o parcial\n- Construcción de alto calibre\n\nAplicaciones:\n- Conexiones de estructuras de madera\n- Construcción de terrazas\n- Construcción de pérgolas y gazebos\n- Montaje de muebles\n\nInstalación:\n- Realizar un agujero piloto (especialmente para maderas duras)\n- Usar arandelas debajo de la cabeza\n- Ajustar con llave o destornillador\n\nLos tornillos de coche TradeGo están galvanizados por inmersión en caliente para uso en exteriores. Las adquisiciones basadas en estándares requieren aprendizaje continuo a medida que los estándares ISO, ASTM, DIN y GB se revisan cada 3-5 años. Suscríbase a las notificaciones de actualización de estándares y revise las especificaciones anualmente. Los estándares más comunes utilizados en el comercio internacional de fijaciones son ISO 898-1 (propiedades mecánicas), ISO 3506-1 (acero inoxidable), ISO 3269 (inspección de aceptación), ISO 4042 (recubrimientos) e ISO 1502 (calibradores de rosca). Para los compradores B2B, es esencial construir una biblioteca de referencia de estándares con al menos los 20 principales estándares relevantes para su mezcla de productos.",
-        "ar": "براغي الخشب الثقيلة (Coach screws) (تُعرف أيضاً بـ lag screws) هي مثبتات خشبية للخدمة الشاقة:\n\nمعيار DIN 571 / ISO 8678: براغي خشب برأس سداسي\n\nالميزات:\n- رأس سداسي للربط بالمفتاح\n- أسنان خشنة وحادة\n- أسنان كاملة أو جزئية\n- هيكل عالي السماكة\n\nالتطبيقات:\n- وصلات الإطارات الخشبية\n- بناء الأسطح الخشبية (الديكينج)\n- بناء العريش والأكشاك\n- تجميع الأثاث\n\nالتركيب:\n- قم بعمل ثقب تجريبي (خاصة للأخشاب الصلبة)\n- استخدم حلقة (وردة) تحت الرأس\n- اربطها باستخدام مفتاح ربط أو مفك\n\nتتميز براغي TradeGo Coach screws بأنها مغلفنة بالغمس الساخن للاستخدام الخارجي. تتطلب المشتريات القائمة على المعايير تعلماً مستمراً حيث يتم مراجعة معايير ISO وASTM وDIN وGB كل 3-5 سنوات. اشترك في إشعارات تحديث المعايير وراجع المواصفات سنوياً. المعايير الأكثر شيوعاً المستخدمة في تجارة المثبتات الدولية هي ISO 898-1 (الخصائص الميكانيكية)، وISO 3506-1 (الفولاذ المقاوم للصدأ)، وISO 3269 (فحص القبول)، وISO 4042 (الطلاء)، وISO 1502 (مقاييس الأسنان). بالنسبة لمشتري B2B، من الضروري بناء مكتبة مرجعية للمعايير تحتوي على الأقل على أفضل 20 معياراً ذات صلة بمزيج منتجاتك.",
-        "fr": "Tirefonds (vis tirefond) sont des fixations robustes pour bois :\n\nDIN 571 / ISO 8678 : Vis à bois à tête hexagonale\n\nCaractéristiques :\n- Tête hexagonale pour serrage à la clé\n- Filetages grossiers et acérés\n- Filetage total ou partiel\n- Construction de gros calibre\n\nApplications :\n- Connexions de charpentes bois\n- Construction de terrasses\n- Construction de pergolas et tonnelles\n- Assemblage de meubles\n\nInstallation :\n- Pré-percer un trou pilote (surtout pour les bois durs)\n- Utiliser des rondelles sous la tête\n- Visser avec une clé ou une visseuse\n\nLes tirefonds TradeGo sont galvanisés à chaud pour une utilisation en extérieur. L'approvisionnement basé sur des normes nécessite une formation continue, car les normes ISO, ASTM, DIN et GB sont révisées tous les 3 à 5 ans. Abonnez-vous aux notifications de mise à jour des normes et examinez les spécifications chaque année. Les normes les plus courantes utilisées dans le commerce international des fixations sont l'ISO 898-1 (propriétés mécaniques), l'ISO 3506-1 (inox), l'ISO 3269 (contrôle de réception), l'ISO 4042 (revêtements) et l'ISO 1502 (calibres de filetage). Pour les acheteurs B2B, il est essentiel de constituer une bibliothèque de référence des normes incluant au moins les 20 principales normes pertinentes pour votre gamme de produits.",
-        "pt": "Parafusos franceses (parafusos lag) são fixadores de madeira para serviços pesados:\n\nDIN 571 / ISO 8678: Parafusos sextavados para madeira\n\nCaracterísticas:\n- Cabeça sextavada para aperto com chave\n- Roscas grossas e afiadas\n- Rosca total ou parcial\n- Construção de bitola pesada\n\nAplicações:\n- Conexões de estruturas de madeira\n- Construção de decks\n- Construção de pérgulas e gazebos\n- Montagem de móveis\n\nInstalação:\n- Faça um furo piloto (especialmente para madeiras duras)\n- Use arruelas sob a cabeça\n- Aperte com chave ou parafusadeira\n\nOs parafusos franceses da TradeGo são galvanizados a fogo para uso externo. A aquisição baseada em normas exige aprendizado contínuo, pois as normas ISO, ASTM, DIN e GB são revisadas a cada 3-5 anos. Inscreva-se para notificações de atualização de normas e revise as especificações anualmente. As normas mais comuns usadas no comércio internacional de fixadores são ISO 898-1 (propriedades mecânicas), ISO 3506-1 (inoxidável), ISO 3269 (inspeção de aceitação), ISO 4042 (revestimentos) e ISO 1502 (calibradores de rosca). Para compradores B2B, criar uma biblioteca de referência de normas com pelo menos as 20 principais normas relevantes para o seu mix de produtos é essencial.",
-        "ru": "Шурупы глухари (путевые шурупы) — это усиленные крепежные изделия для дерева:\n\nDIN 571 / ISO 8678: Шурупы по дереву с шестигранной головкой\n\nОсобенности:\n- Шестигранная головка для затяжки гаечным ключом\n- Крупная, острая резьба\n- Полная или неполная резьба\n- Усиленная конструкция\n\nПрименение:\n- Соединения деревянных каркасов\n- Строительство настилов\n- Возведение пергол и беседок\n- Сборка мебели\n\nУстановка:\n- Предварительное сверление пилотного отверстия (особенно для твердых пород дерева)\n- Использовать шайбы под головку\n- Завинчивать ключом или шуруповертом\n\nШурупы глухари TradeGo имеют горячеоцинкованное покрытие для использования снаружи помещений. Закупки на основе стандартов требуют постоянного обучения, так как стандарты ISO, ASTM, DIN и GB пересматриваются каждые 3-5 лет. Подпишитесь на уведомления об обновлении стандартов и ежегодно пересматривайте спецификации. Наиболее распространенные стандарты в международной торговле крепежом: ISO 898-1 (механические свойства), ISO 3506-1 (нержавеющая сталь), ISO 3269 (приемочный контроль), ISO 4042 (покрытия) и ISO 1502 (резьбовые калибры). Для B2B-покупателей важно создать библиотеку стандартов, включающую не менее 20 основных стандартов, соответствующих вашему ассортименту продукции.",
-        "ja": "コーチスクリュー（ラグスクリュー）は、木材用の重量級ファスナーです：\n\nDIN 571 / ISO 8678：六角頭木ネジ\n\n特徴：\n- レンチで締め付け可能な六角頭\n- 粗く鋭いねじ山\n- 全ねじまたは半ねじ\n- 太径設計\n\n用途：\n- 木造フレームの接合\n- デッキ製作\n- パーゴラやガゼボの組み立て\n- 家具製作\n\n施工：\n- 下穴あけ（特に硬い木材の場合）\n- 頭部にワッシャーを使用\n- レンチまたはインパクトドライバーで締め付け\n\nTradeGoのコーチスクリューは、屋外用に溶融亜鉛メッキが施されています。規格に基づいた調達には継続的な学習が必要です。ISO、ASTM、DIN、およびGB規格は3～5年ごとに改訂されるためです。規格更新通知を購読し、毎年仕様を見直してください。国際的なファスナー取引で最も一般的な規格は、ISO 898-1（機械的性質）、ISO 3506-1（ステンレス鋼）、ISO 3269（受入検査）、ISO 4042（コーティング）、およびISO 1502（ねじゲージ）です。B2Bバイヤーにとって、取り扱う製品に関連する上位20の規格だけでも、規格リファレンスライブラリを構築しておくことは不可欠です。",
-        "de": "Holzschrauben mit Sechskantkopf (auch bekannt als Schlüsselschrauben) sind robuste Verbindungselemente für Holz:\n\nDIN 571 / ISO 8678: Sechskant-Holzschrauben\n\nMerkmale:\n- Sechskantkopf für das Festziehen mit einem Schraubenschlüssel\n- Grobe, scharfe Gewinde\n- Voll- oder Teilgewinde\n- Stabile Ausführung\n\nAnwendungen:\n- Holzrahmenverbindungen\n- Terrassenbau\n- Bau von Pergolen und Gartenhäusern\n- Möbelmontage\n\nInstallation:\n- Vorbohren (besonders bei Hartholz)\n- Unterlegscheibe unter dem Kopf verwenden\n- Mit Schraubenschlüssel oder Schlagschrauber eindrehen\n\nTradeGo Holzschrauben mit Sechskantkopf sind feuerverzinkt für den Außenbereich. Die normbasierte Beschaffung erfordert kontinuierliches Lernen, da ISO-, ASTM-, DIN- und GB-Normen alle 3-5 Jahre überarbeitet werden. Abonnieren Sie Benachrichtigungen zu Normänderungen und überprüfen Sie die Spezifikationen jährlich. Die häufigsten Normen im internationalen Handel mit Verbindungselementen sind ISO 898-1 (mechanische Eigenschaften), ISO 3506-1 (Edelstahl), ISO 3269 (Abnahmeprüfung), ISO 4042 (Beschichtungen) und ISO 1502 (Gewindelehren). Für B2B-Einkäufer ist der Aufbau einer Referenzbibliothek mit den wichtigsten 20 Normen, die für den eigenen Produktmix relevant sind, unerlässlich.",
-        "hi": "कोच स्क्रू (लैग स्क्रू) भारी-भरकम लकड़ी के फास्टनर हैं:\n\nDIN 571 / ISO 8678: हेक्स हेड वुड स्क्रू\n\nविशेषताएँ:\n- रिंच से कसने के लिए हेक्स हेड\n- मोटे, नुकीले धागे\n- पूर्ण चूड़ी या आंशिक चूड़ी\n- भारी-गेज निर्माण\n\nअनुप्रयोग:\n- टिम्बर फ्रेम कनेक्शन\n- डेक निर्माण\n- पेर्गोला और गज़ेबो निर्माण\n- फर्नीचर असेंबली\n\nइंस्टालेशन:\n- पायलट होल को पहले ड्रिल करें (विशेषकर सख्त लकड़ी के लिए)\n- सिर के नीचे वॉशर का उपयोग करें\n- रिंच या इम्पैक्ट ड्राइवर से चलाएं\n\nTradeGo कोच स्क्रू बाहरी उपयोग के लिए हॉट-डिप गैल्वनाइज्ड होते हैं। मानक-आधारित खरीद के लिए निरंतर सीखने की आवश्यकता होती है क्योंकि ISO, ASTM, DIN और GB मानकों को हर 3-5 वर्षों में संशोधित किया जाता है। मानक अपडेट नोटिफिकेशन के लिए सब्सक्राइब करें और विनिर्देशों की वार्षिक समीक्षा करें। अंतर्राष्ट्रीय फास्टनर व्यापार में उपयोग किए जाने वाले सबसे सामान्य मानक ISO 898-1 (यांत्रिक गुण), ISO 3506-1 (स्टेनलेस), ISO 3269 (स्वीकृति निरीक्षण), ISO 4042 (कोटिंग्स), और ISO 1502 (थ्रेड गेज) हैं। B2B खरीदारों के लिए, अपने उत्पाद मिश्रण के लिए प्रासंगिक शीर्ष 20 मानकों के साथ एक मानक संदर्भ पुस्तकालय बनाना आवश्यक है।"
-      }
+     "q": {
+      "en": "What size coach screw do I need for deck joists?"
+     },
+     "a": {
+      "en": "For deck joist connections, M8 × 80mm or M10 × 100mm coach screws are typically used. The screw should penetrate at least 2.5x the thickness of the second board. Check local building codes for specific requirements."
+     }
     },
     {
-      "id": "connectors",
-      "heading": {
-        "en": "Timber Connectors",
-        "es": "Conectores para madera",
-        "ar": "وصلات الأخشاب",
-        "fr": "Connecteurs pour bois",
-        "pt": "Conectores para madeira",
-        "ru": "Крепежные элементы для дерева",
-        "ja": "木材用コネクタ",
-        "de": "Holzverbinder",
-        "hi": "टिम्बर कनेक्टर (लकड़ी के जोड़)",
-        "zh": "木材连接件"
-      },
-      "body": {
-        "en": "<p>Timber connectors transfer load between members without relying on the screw's own capacity, and they exist because timber is weak in tension perpendicular to the grain and strong in bearing parallel to it. A connector spreads load over an area, converts a tension demand into bearing and shear, and lets a joint be designed rather than estimated. The main families are joist hangers and post bases, which carry vertical load into a member; straps and ties, which resist uplift and lateral movement; and plate and bracket systems for heavier frame connections.</p>\n<p>Connector performance depends on the fasteners that attach it, which is where most site failures originate. A hanger specified with a given number and type of nails or screws performs as tested only when those fasteners are used in that number and pattern; substituting longer screws, fewer nails, or a different diameter changes the capacity without any visible sign. The right practice is to keep the connector's published fastener schedule with the drawings and to require it at inspection.</p>\n<p>Corrosion is the second issue and it is often hidden. Connectors are usually galvanised, and in preservative-treated or damp timber the zinc is consumed faster than the published rating suggests. The safe approach is to match the connector's coating class to the timber treatment and the exposure, and to inspect the connector, not only the timber, at service intervals. A joint that looks sound from the outside can have a connector that has lost most of its section at the embedded face.</p>\n<p>Where connectors and timber meet, detailing matters as much as the hardware. Water trapped between a connector and timber is the standard cause of premature failure, so a capillary break, a drained detail or a raised base is worth more than a heavier coating. Designers who treat the connector as a piece of hardware and the detail as part of the structure get joints that last; those who select the connector and leave the detail to the site get joints that pass inspection and fail in service.</p>\n\n<p>A practical inspection routine for timber connections is short: check that the specified connector is present rather than a general-purpose bracket, that the fastener count and pattern match the schedule, that the coating is intact at the embedded face, and that no water is standing against the connector. Each of those four checks catches a class of failure that is invisible once the structure is closed up, and together they take less time than a single repair.</p>\n\n<p>Connector selection should also account for the direction of load, not only its size. A hanger carrying a joist downward is a bearing problem, while the same hanger resisting uplift after a roof has been lifted by wind is a different problem in the same hardware; specifying by catalogue number alone can meet the first and miss the second. Writing the load direction on the drawing, with the connector's published capacity for that direction, is the check that prevents a roof strap from being chosen for a joist.</p>",
-        "zh": "<p>金属连接件可提高木结构连接强度：\\n\\n类型：\\n- 托梁连接件：支撑托梁与主梁的连接\\n- 钢带连接件：加强节点\\n- 柱底座：将立柱固定于混凝土基础上\\n- 抗拔连接件：抵抗上拔力\\n\\n材料：\\n- 镀锌钢：标准室内使用\\n- 热浸镀锌钢：室外/潮湿环境\\n- 不锈钢：海洋/沿海环境\\n\\n优势：\\n- 提高承载能力\\n- 减少木材开槽\\n- 标准化的连接节点\\n- 加快安装速度\\n\\n上述比较方法基于 TradeGo 采购部门 2018-2024 年的行业数据。</p>\n<p>市场价格随原材料成本（钢材、锌、镍）、能源成本、人工成本和汇率波动而变化。为进行准确比较，请向 3-5 家合格供应商获取相同的询价文件，并比较到岸成本（产品价格 + 运费 + 保险 + 关税）。最低单价很少是最低的总拥有成本。</p>\n<p>\\n\\n上述比较方法基于 TradeGo 采购部门 2018-2024 年的行业数据。市场价格随原材料成本（钢材、锌、镍）、能源成本、人工成本和汇率波动而变化。为进行准确比较，请向 3-5 家合格供应商获取相同的询价文件，并比较到岸成本（产品价格 + 运费 + 保险 + 关税）。</p>\n<p>最低单价很少是最低的总拥有成本。\\n\\n上述比较方法基于 TradeGo 采购部门 2018-2024 年的行业数据。市场价格随原材料成本（钢材、锌、镍）、能源成本、人工成本和汇率波动而变化。为进行准确比较，请向 3-5 家合格供应商获取相同的询价文件，并比较到岸成本（产品价格 + 运费 + 保险 + 关税）。</p>\n\n<p>最低单价很少是最低的总拥有成本。</p>",
-        "es": "Los conectores metálicos mejoran la resistencia de las conexiones de madera:\n\nTipos:\n- Soportes para viguetas: Sostienen las viguetas en las vigas\n- Abrazaderas de fleje: Refuerzan las uniones\n- Bases de postes: Aseguran los postes al concreto\n- Conectores de retención: Resisten fuerzas de elevación\n\nMateriales:\n- Acero galvanizado: Interior estándar\n- Galvanizado por inmersión en caliente: Exterior/ubicaciones húmedas\n- Acero inoxidable: Marino/costero\n\nBeneficios:\n- Mayor capacidad de carga\n- Menor necesidad de muescas en la madera\n- Detalles de conexión estandarizados\n- Instalación más rápida. La metodología de comparación anterior utiliza rangos típicos de datos de la industria y la experiencia de adquisiciones de TradeGo 2018-2024. Los precios reales del mercado fluctúan con los costos de las materias primas (acero, zinc, níquel), los costos de energía, los costos laborales y los tipos de cambio de divisas. Para una comparación precisa, solicite RFQ idénticas a 3-5 proveedores calificados y compare el costo puesto en destino (producto + envío + seguro + aranceles). El precio unitario más bajo rara vez es el menor costo total de propiedad.",
-        "ar": "تعمل الموصلات المعدنية على تحسين قوة الوصلات الخشبية:\n\nالأنواع:\n- علاقات الروافد: لدعم الروافد عند العوارض\n- أشرطة الربط: لتعزيز الوصلات\n- قواعد الأعمدة: لتثبيت الأعمدة بالخرسانة\n- مثبتات التثبيت: لمقاومة قوى الرفع\n\nالمواد:\n- فولاذ مجلفن: للاستخدام الداخلي القياسي\n- مجلفن بالغمس الساخن: للمناطق الخارجية/الرطبة\n- فولاذ مقاوم للصدأ: للمناطق البحرية/الساحلية\n\nالفوائد:\n- زيادة قدرة التحمل\n- تقليل الحاجة لنقر الخشب\n- تفاصيل وصلات موحدة\n- تركيب أسرع. تستخدم منهجية المقارنة أعلاه نطاقات نموذجية من بيانات الصناعة وخبرة المشتريات لدى TradeGo للفترة 2018-2024. تتقلب أسعار السوق الفعلية مع تكاليف المواد الخام (الفولاذ، الزنك، النيكل)، وتكاليف الطاقة، وتكاليف العمالة، وأسعار صرف العملات. للمقارنة الدقيقة، اطلب عروض أسعار متطابقة من 3-5 موردين مؤهلين وقارن التكلفة الواصلة (المنتج + الشحن + التأمين + الرسوم). نادراً ما يكون سعر الوحدة الأقل هو التكلفة الإجمالية الأقل للملكية.",
-        "fr": "Les connecteurs métalliques améliorent la résistance des assemblages en bois :\n\nTypes :\n- Sabots de solive : Soutiennent les solives sur les poutres\n- Équerres et sangles : Renforcent les joints\n- Pieds de poteau : Fixent les poteaux sur le béton\n- Équerres de retenue : Résistent aux forces de soulèvement\n\nMatériaux :\n- Acier galvanisé : Usage intérieur standard\n- Galvanisation à chaud : Usage extérieur/milieux humides\n- Acier inoxydable : Usage marin/côtier\n\nAvantages :\n- Capacité de charge accrue\n- Réduction des entailles dans le bois\n- Détails de connexion normalisés\n- Installation plus rapide. La méthodologie de comparaison ci-dessus utilise des plages typiques issues de données industrielles et de l'expérience d'approvisionnement TradeGo 2018-2024. Les prix réels du marché fluctuent en fonction des coûts des matières premières (acier, zinc, nickel), des coûts de l'énergie, de la main-d'œuvre et des taux de change. Pour une comparaison précise, demandez des devis identiques à 3-5 fournisseurs qualifiés et comparez le coût rendu (produit + expédition + assurance + droits de douane). Le prix unitaire le plus bas est rarement le coût total de possession le plus bas.",
-        "pt": "Conectores metálicos melhoram a resistência das conexões de madeira:\n\nTipos:\n- Suportes para vigas: Suportam vigas em caibros\n- Fitas de amarração: Reforçam juntas\n- Bases de poste: Fixam postes ao concreto\n- Conectores de ancoragem: Resistem a forças de levantamento\n\nMateriais:\n- Aço galvanizado: Padrão interno\n- Galvanizado a fogo: Locais externos/úmidos\n- Aço inoxidável: Marítimo/costeiro\n\nBenefícios:\n- Maior capacidade de carga\n- Redução de entalhes na madeira\n- Detalhes de conexão padronizados\n- Instalação mais rápida A metodologia de comparação acima usa faixas típicas de dados do setor e experiência de aquisição da TradeGo de 2018-2024. Os preços reais de mercado flutuam com os custos de matérias-primas (aço, zinco, níquel), custos de energia, custos de mão de obra e taxas de câmbio. Para uma comparação precisa, solicite RFQs idênticas de 3-5 fornecedores qualificados e compare o custo de entrega (produto + frete + seguro + impostos). O preço unitário mais baixo raramente é o menor custo total de propriedade.",
-        "ru": "Металлические соединители повышают прочность деревянных конструкций:\n\nТипы:\n- Опоры для балок: поддержка балок на опорах\n- Перфорированные ленты: усиление стыков\n- Базы для стоек: крепление опор к бетону\n- Анкеры для защиты от подъема: сопротивление вертикальным нагрузкам\n\nМатериалы:\n- Оцинкованная сталь: стандарт для помещений\n- Горячеоцинкованная сталь: для наружных и влажных условий\n- Нержавеющая сталь: для морских и прибрежных зон\n\nПреимущества:\n- Повышенная несущая способность\n- Снижение количества зарубок в древесине\n- Стандартизированные узлы соединений\n- Более быстрый монтаж. Методология сравнения выше использует типичные диапазоны на основе отраслевых данных и опыта закупок TradeGo за 2018–2024 годы. Фактические рыночные цены колеблются в зависимости от стоимости сырья (сталь, цинк, никель), затрат на энергию, оплату труда и курсов валют. Для точного сравнения запрашивайте идентичные RFQ у 3–5 квалифицированных поставщиков и сравнивайте стоимость с учетом доставки (товар + доставка + страховка + пошлины). Самая низкая цена за единицу редко означает минимальную совокупную стоимость владения.",
-        "ja": "金属製コネクタは木造建築の接合強度を向上させます：\n\n種類：\n- ジョイストハンガー：梁で根太を支持\n- ストラップタイ：接合部を補強\n- 柱脚金物：柱をコンクリートに固定\n- ホールドダウン金物：浮き上がり力に抵抗\n\n材料：\n- 亜鉛メッキ鋼：屋内標準\n- 溶融亜鉛メッキ：屋外・湿潤場所\n- ステンレス鋼：海洋・沿岸部\n\n利点：\n- 耐荷重の増加\n- 木材の欠き込み減少\n- 標準化された接合部詳細\n- 迅速な施工 上記の比較手法は、業界データおよびTradeGoの2018年～2024年の調達経験に基づく一般的な範囲を使用しています。実際の市場価格は、原材料（鋼、亜鉛、ニッケル）、エネルギーコスト、人件費、および為替レートにより変動します。正確な比較のために、3～5社の認定サプライヤーから同一のRFQを取得し、ランデッドコスト（製品価格＋送料＋保険料＋関税）を比較してください。最低単価が常に最低の総所有コスト（TCO）になるとは限りません。",
-        "de": "Metallverbinder verbessern die Festigkeit von Holzverbindungen:\n\nTypen:\n- Balkenschuhe: Stützen Balken an Trägern\n- Lochbleche: Verstärken Verbindungen\n- Pfostenträger: Sichern Pfosten auf Beton\n- Zuganker: Widerstehen Abhebekräften\n\nMaterialien:\n- Verzinkter Stahl: Standard für den Innenbereich\n- Feuerverzinkt: Außen- oder feuchte Bereiche\n- Edelstahl: Marine- oder Küstenbereiche\n\nVorteile:\n- Erhöhte Tragfähigkeit\n- Weniger Ausklinkungen im Holz erforderlich\n- Standardisierte Verbindungsdetails\n- Schnellere Montage. Die oben genannte Vergleichsmethodik verwendet typische Bereiche aus Branchendaten und der Beschaffungserfahrung von TradeGo zwischen 2018 und 2024. Die tatsächlichen Marktpreise schwanken mit den Rohstoffkosten (Stahl, Zink, Nickel), Energiekosten, Arbeitskosten und Wechselkursen. Für einen genauen Vergleich fordern Sie identische RFQs von 3-5 qualifizierten Lieferanten an und vergleichen Sie die gelandeten Kosten (Produkt + Versand + Versicherung + Zölle). Der niedrigste Stückpreis entspricht selten den niedrigsten Gesamtbetriebskosten.",
-        "hi": "धातु के कनेक्टर लकड़ी के कनेक्शन की मजबूती में सुधार करते हैं:\n\nप्रकार:\n- जॉइस्ट हैंगर: बीम पर जॉइस्ट को सहारा देते हैं\n- स्ट्रैप टाई: जोड़ों को मजबूत करते हैं\n- पोस्ट बेस: पोस्ट को कंक्रीट में सुरक्षित करते हैं\n- होल्डडाउन: उत्थान बलों (uplift forces) का विरोध करते हैं\n\nसामग्री:\n- गैल्वनाइज्ड स्टील: मानक आंतरिक\n- हॉट-डिप गैल्वनाइज्ड: बाहरी/नम स्थान\n- स्टेनलेस स्टील: समुद्री/तटीय\n\nलाभ:\n- बढ़ी हुई लोड क्षमता\n- लकड़ी की नॉचिंग में कमी\n- मानकीकृत कनेक्शन विवरण\n- तेज़ स्थापना उपरोक्त तुलना पद्धति उद्योग डेटा और TradeGo खरीद अनुभव 2018-2024 से सामान्य श्रेणियों का उपयोग करती है। वास्तविक बाजार मूल्य कच्चे माल (स्टील, जस्ता, निकल), ऊर्जा लागत, श्रम लागत और मुद्रा विनिमय दरों के साथ उतार-चढ़ाव करते हैं। सटीक तुलना के लिए, 3-5 योग्य आपूर्तिकर्ताओं से समान RFQ का अनुरोध करें और लैंडेड लागत (उत्पाद + शिपिंग + बीमा + शुल्क) की तुलना करें। सबसे कम इकाई मूल्य शायद ही कभी स्वामित्व की सबसे कम कुल लागत होती है।"
-      }
+     "q": {
+      "en": "Can coach screws be used in pressure-treated timber?"
+     },
+     "a": {
+      "en": "Yes, hot-dip galvanized (HDG) coach screws are recommended for ACQ (alkaline copper quaternary) pressure-treated timber. Standard zinc-plated screws may corrode. Always check the coating compatibility with your treatment type."
+     }
     },
     {
-      "id": "faq",
-      "heading": {
-        "en": "Frequently Asked Questions",
-        "zh": "常见问题",
-        "es": "Preguntas Frecuentes",
-        "ar": "الأسئلة الشائعة",
-        "fr": "Questions Fréquemment Posées",
-        "pt": "Perguntas Frequentes",
-        "ru": "Часто задаваемые вопросы",
-        "ja": "よくある質問",
-        "de": "Häufig Gestellte Fragen",
-        "hi": "अक्सर पूछे जाने वाले प्रश्न"
-      },
-      "body": {
-        "en": "<p>See frequently asked questions below.</p> Related resources: <a href=\"/en/products/high-tensile-bolts\">high-tensile bolts</a> <a href=\"/en/products/anchor-bolts\">anchor bolts</a> <a href=\"/en/products/stainless-bolts\">stainless steel fasteners</a> <a href=\"/en/products/hex-bolts\">hex bolts</a> <a href=\"/en/products/lock-nuts\">lock nuts</a> <a href=\"/en/products/washers\">washers</a> <a href=\"/en/products/self-drilling-screws\">self-drilling screws</a> <a href=\"/en/products/socket-screws\">socket screws</a>. The verification checklist applies to both initial supplier qualification and ongoing batch inspection. For high-risk applications (load-bearing structural, pressure vessels, mining, marine), add fatigue testing, salt-spray testing (ASTM B117), torque-tension testing, and post-installation inspection. The cost of additional verification is 0.1-0.3% of order value, while undetected quality failures can be 10-100x the order value in damages.",
-        "zh": "",
-        "es": "",
-        "ar": "<p>الأسئلة الشائعة مذكورة أدناه.",
-        "fr": "",
-        "pt": "",
-        "ru": "<p>Часто задаваемые вопросы приведены ниже.",
-        "ja": "<p>よくある質問は以下をご覧ください。</p> 関連リソース：<a href=\"/en/products/high-tensile-bolts\">高張力ボルト</a> <a href=\"/en/products/anchor-bolts\">アンカーボルト</a> <a href=\"/en/products/stainless-bolts\">ステンレス製ファスナー</a> <a href=\"/en/products/hex-bolts\">六角ボルト</a> <a href=\"/en/products/lock-nuts\">ロックナット</a> <a href=\"/en/products/washers\">ワッシャー</a> <a href=\"/en/products/self-drilling-screws\">セルフドリリングビス</a> <a href=\"/en/products/socket-screws\">ソケットスクリュー</a>. この検証チェックリストは、初回のサプライヤー認定と継続的なロット検査の双方に適用されます。高リスク用途（耐荷重構造、圧力容器、鉱業、海洋）では、疲労試験、塩水噴霧試験（ASTM B117）、トルク−張力試験、施工後の検査を追加してください。追加検証のコストは発注額の0.1〜0.3%ですが、見出せなかった品質不良は発注額の10〜100倍の損害になり得ます。",
-        "de": "",
-        "hi": "<p>सामान्य प्रश्न नीचे दिए गए हैं।"
-      },
-      "faqItems": [
-        {
-          "q": {
-            "en": "What is the difference between coach screws and wood screws?"
-          },
-          "a": {
-            "en": "Coach screws (lag screws) have a hex head for wrench tightening and are heavy-duty for wood-to-wood connections. Wood screws have slotted or Phillips heads and are lighter duty, designed for assembling wood components."
-          }
-        },
-        {
-          "q": {
-            "en": "What size coach screw do I need for deck joists?"
-          },
-          "a": {
-            "en": "For deck joist connections, M8 × 80mm or M10 × 100mm coach screws are typically used. The screw should penetrate at least 2.5x the thickness of the second board. Check local building codes for specific requirements."
-          }
-        },
-        {
-          "q": {
-            "en": "Can coach screws be used in pressure-treated timber?"
-          },
-          "a": {
-            "en": "Yes, hot-dip galvanized (HDG) coach screws are recommended for ACQ (alkaline copper quaternary) pressure-treated timber. Standard zinc-plated screws may corrode. Always check the coating compatibility with your treatment type."
-          }
-        },
-        {
-          "q": {
-            "en": "Do I need to pre-drill pilot holes for coach screws?"
-          },
-          "a": {
-            "en": "Yes, especially for hardwoods. Pre-drill a pilot hole equal to the screw's root (core) diameter. This prevents splitting and ensures proper thread engagement. For softwoods, you may skip pre-drilling for smaller sizes."
-          }
-        },
-        {
-          "q": {
-            "en": "How far should coach screws penetrate into the second timber?"
-          },
-          "a": {
-            "en": "For proper holding power, coach screws should penetrate at least 2.5x the screw diameter into the receiving timber. For an M10 screw, that means at least 25mm penetration into the second board."
-          }
-        }
-      ]
+     "q": {
+      "en": "Do I need to pre-drill pilot holes for coach screws?"
+     },
+     "a": {
+      "en": "Yes, especially for hardwoods. Pre-drill a pilot hole equal to the screw's root (core) diameter. This prevents splitting and ensures proper thread engagement. For softwoods, you may skip pre-drilling for smaller sizes."
+     }
+    },
+    {
+     "q": {
+      "en": "How far should coach screws penetrate into the second timber?"
+     },
+     "a": {
+      "en": "For proper holding power, coach screws should penetrate at least 2.5x the screw diameter into the receiving timber. For an M10 screw, that means at least 25mm penetration into the second board."
+     }
     }
-  ],
-  "cta": {
-    "text": {
-      "en": "Request Timber Fasteners",
-      "zh": "请求木工紧固件",
-      "es": "Solicitar Sujetadores para Madera",
-      "ar": "طلب المثبتات الخشبية",
-      "fr": "Demander Fixations pour Bois",
-      "pt": "Solicitar Fixadores para Madeira",
-      "ru": "Запросить Крепеж для Дерева",
-      "ja": "木材用ファスナーをご希望",
-      "de": "Holzverbinder Anfordern",
-      "hi": "टिम्बर फास्टनर का अनुरोध करें"
-    },
-    "buttonText": {
-      "en": "Request Quote",
-      "zh": "询价"
-    },
-    "link": "/quote"
-  },
-  "relatedProducts": [
-    "coach-screws",
-    "wood-screws",
-    "timber-connectors"
-  ],
-  "imageAlt": {
-    "en": "Timber fasteners - TradeGo Fasteners",
-    "zh": "木工紧固件指南：木螺丝、马车螺丝和木结构连接件｜TradeGo 紧固件",
-    "es": "Fijaciones para madera: tornillos, tirafondos y conectores - TradeGo Fasteners",
-    "ar": "دليل المثبتات الخشبية: مسامير الخشب ومسامير العربة وموصلات الخشب - TradeGo Fasteners",
-    "fr": "Guide des Fixations pour Bois: Vis à Bois, Tirefonds et Connecteurs - TradeGo Fasteners",
-    "pt": "Fixadores para madeira: parafusos, tirafundos e conectores - TradeGo Fasteners",
-    "ru": "Руководство по Крепежу для Дерева: Шурупы, Глухари и Коннекторы - TradeGo Fasteners",
-    "ja": "木材用ファスナーガイド：木ねじ、コーachねじ、木質Connector - TradeGo Fasteners",
-    "de": "Holz Befestigungen: Holzschrauben, Holzbauschrauben und Holzverbinder - TradeGo Fasteners",
-    "hi": "टिम्बर फास्टनर गाइड: वुड स्क्रू, कोच स्क्रू, और टिम्बर कनेक्टर - TradeGo Fasteners"
-  },
-  "_file": "timber-fasteners-guide",
-  "relatedArticles": [
-    {
-      "slug": "timber-screws-construction-guide",
-      "title": "Timber Construction Screws Guide: Selection for Wood Fram..."
-    },
-    {
-      "slug": "lag-screws-timber-connections",
-      "title": "Lag Screws for Timber Connections: Complete Selection Gui..."
-    },
-    {
-      "slug": "drywall-screws-complete-guide",
-      "title": "Drywall Screws Complete Guide: Types, Sizes & Selection f..."
-    },
-    {
-      "slug": "washer-types-applications",
-      "title": "Washers Types & Applications: Complete Guide for Construc..."
-    }
-  ],
-  "dataSource": [
-    {
-      "name": "World Bank Doing Business Report 2024",
-      "url": "https://www.doingbusiness.org/en/data",
-      "accessDate": "2026-01-15"
-    },
-    {
-      "name": "ISO 898-1:2024 Fastener Standards",
-      "url": "https://www.iso.org/standard/82002.html",
-      "accessDate": "2026-01-15"
-    },
-    {
-      "name": "African Development Bank Infrastructure Data",
-      "url": "https://www.afdb.org/en/projects-and-operations",
-      "accessDate": "2026-01-15"
-    },
-    {
-      "name": "ASTM F1554 Anchor Bolt Specifications",
-      "url": "https://www.astm.org/f1554-18.html",
-      "accessDate": "2026-01-15"
-    },
-    {
-      "name": "DIN 933 Hexagon Head Bolt Standard",
-      "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
-      "accessDate": "2026-01-15"
-    }
-  ],
-  "author": {
-    "name": "Industry Expert",
-    "title": "B2B Export Specialist",
-    "bio": "Experienced professional in fastener industry with expertise in African markets and international trade.",
-    "credentials": "Fastener export and quality-documentation specialist (B2B, Africa)",
-    "linkedin": "https://www.linkedin.com/in/industry-expert",
-    "expertise": [
-      "Fastener Manufacturing",
-      "Export Logistics",
-      "African Markets",
-      "B2B Sales"
-    ]
-  },
-  "region": "global",
-  "updated": "2026-11-24",
-  "metaDescription": {
-    "en": "Wood screws are designed for fastening wood to wood: Types: - Flat head: Countersinks for flush surface - Round head: Provides bearing surface - Bugle head",
-    "zh": "木工紧固件完整指南。了解木螺丝、马车螺丝、木结构连接件和木框架建筑的正确选择。",
-    "es": "Guía completa de sujetadores para madera. Aprenda sobre tornillos para madera, tirafondos, conectores timber y selección adecuada.",
-    "ar": "دليل شامل للمثبتات الخشبية. تعلم عن مسامير الخشب ومسامير العربة وموصلات الخشب والاختيار الصحيح.",
-    "fr": "Guide complet des fixations pour bois. Apprenez les vis à bois, tirefonds, connecteurs timber et la sélection appropriée.",
-    "pt": "Guia completo de fixadores para madeira. Aprenda sobre parafusos para madeira, tirafões, conectores timber e seleção adequada.",
-    "ru": "Полное руководство по крепежу для дерева. Узнайте о шурупах, глухарях, коннекторах и правильном выборе.",
-    "ja": "木材用ファスナーの完全ガイド。木ねじ、コーachねじ、木質Connector、木质フレーム建築のための適切な選択について学びます。",
-    "de": "Vollständiger Leitfaden für Holzverbindungselemente. Lernen Sie über Holzschrauben, Holzbauschrauben, Holzverbinder und正确 Auswahl.",
-    "hi": "टिम्बर फास्टनर की पूर्ण गाइड। वुड स्क्रू, कोच स्क्रू, टिम्बर कनेक्टर, और वुड फ्रेम निर्माण के लिए उचित चयन के बारे में जानें।"
+   ]
   }
+ ],
+ "cta": {
+  "text": {
+   "en": "Request Timber Fasteners",
+   "zh": "请求木工紧固件",
+   "es": "Solicitar Sujetadores para Madera",
+   "ar": "طلب المثبتات الخشبية",
+   "fr": "Demander Fixations pour Bois",
+   "pt": "Solicitar Fixadores para Madeira",
+   "ru": "Запросить Крепеж для Дерева",
+   "ja": "木材用ファスナーをご希望",
+   "de": "Holzverbinder Anfordern",
+   "hi": "टिम्बर फास्टनर का अनुरोध करें"
+  },
+  "buttonText": {
+   "en": "Request Quote",
+   "zh": "询价"
+  },
+  "link": "/quote"
+ },
+ "relatedProducts": [
+  "coach-screws",
+  "wood-screws",
+  "timber-connectors"
+ ],
+ "imageAlt": {
+  "en": "Timber fasteners - TradeGo Fasteners",
+  "zh": "木工紧固件指南：木螺丝、马车螺丝和木结构连接件｜TradeGo 紧固件",
+  "es": "Fijaciones para madera: tornillos, tirafondos y conectores - TradeGo Fasteners",
+  "ar": "دليل المثبتات الخشبية: مسامير الخشب ومسامير العربة وموصلات الخشب - TradeGo Fasteners",
+  "fr": "Guide des Fixations pour Bois: Vis à Bois, Tirefonds et Connecteurs - TradeGo Fasteners",
+  "pt": "Fixadores para madeira: parafusos, tirafundos e conectores - TradeGo Fasteners",
+  "ru": "Руководство по Крепежу для Дерева: Шурупы, Глухари и Коннекторы - TradeGo Fasteners",
+  "ja": "木材用ファスナーガイド：木ねじ、コーachねじ、木質Connector - TradeGo Fasteners",
+  "de": "Holz Befestigungen: Holzschrauben, Holzbauschrauben und Holzverbinder - TradeGo Fasteners",
+  "hi": "टिम्बर फास्टनर गाइड: वुड स्क्रू, कोच स्क्रू, और टिम्बर कनेक्टर - TradeGo Fasteners"
+ },
+ "_file": "timber-fasteners-guide",
+ "relatedArticles": [
+  {
+   "slug": "timber-screws-construction-guide",
+   "title": "Timber Construction Screws Guide: Selection for Wood Fram..."
+  },
+  {
+   "slug": "lag-screws-timber-connections",
+   "title": "Lag Screws for Timber Connections: Complete Selection Gui..."
+  },
+  {
+   "slug": "drywall-screws-complete-guide",
+   "title": "Drywall Screws Complete Guide: Types, Sizes & Selection f..."
+  },
+  {
+   "slug": "washer-types-applications",
+   "title": "Washers Types & Applications: Complete Guide for Construc..."
+  },
+  {
+   "slug": "screws-different-materials-guide",
+   "title": "Screws for Wood, Metal, Concrete and Plastic Materials"
+  }
+ ],
+ "dataSource": [
+  {
+   "name": "World Bank Doing Business Report 2024",
+   "url": "https://www.doingbusiness.org/en/data",
+   "accessDate": "2026-01-15"
+  },
+  {
+   "name": "ISO 898-1:2024 Fastener Standards",
+   "url": "https://www.iso.org/standard/82002.html",
+   "accessDate": "2026-01-15"
+  },
+  {
+   "name": "African Development Bank Infrastructure Data",
+   "url": "https://www.afdb.org/en/projects-and-operations",
+   "accessDate": "2026-01-15"
+  },
+  {
+   "name": "ASTM F1554 Anchor Bolt Specifications",
+   "url": "https://www.astm.org/f1554-18.html",
+   "accessDate": "2026-01-15"
+  },
+  {
+   "name": "DIN 933 Hexagon Head Bolt Standard",
+   "url": "https://www.din.de/en/getting-involved/standards-committees/nasg/standards/wdc-beuth:din21:268931035",
+   "accessDate": "2026-01-15"
+  }
+ ],
+ "author": {
+  "name": "Industry Expert",
+  "title": "B2B Export Specialist",
+  "bio": "Experienced professional in fastener industry with expertise in African markets and international trade.",
+  "credentials": "Fastener export and quality-documentation specialist (B2B, Africa)",
+  "linkedin": "https://www.linkedin.com/in/industry-expert",
+  "expertise": [
+   "Fastener Manufacturing",
+   "Export Logistics",
+   "African Markets",
+   "B2B Sales"
+  ]
+ },
+ "region": "global",
+ "updated": "2026-11-24",
+ "metaDescription": {
+  "en": "Wood screws are designed for fastening wood to wood: Types: - Flat head: Countersinks for flush surface - Round head: Provides bearing surface - Bugle head",
+  "zh": "木工紧固件完整指南。了解木螺丝、马车螺丝、木结构连接件和木框架建筑的正确选择。",
+  "es": "Guía completa de sujetadores para madera. Aprenda sobre tornillos para madera, tirafondos, conectores timber y selección adecuada.",
+  "ar": "دليل شامل للمثبتات الخشبية. تعلم عن مسامير الخشب ومسامير العربة وموصلات الخشب والاختيار الصحيح.",
+  "fr": "Guide complet des fixations pour bois. Apprenez les vis à bois, tirefonds, connecteurs timber et la sélection appropriée.",
+  "pt": "Guia completo de fixadores para madeira. Aprenda sobre parafusos para madeira, tirafões, conectores timber e seleção adequada.",
+  "ru": "Полное руководство по крепежу для дерева. Узнайте о шурупах, глухарях, коннекторах и правильном выборе.",
+  "ja": "木材用ファスナーの完全ガイド。木ねじ、コーachねじ、木質Connector、木质フレーム建築のための適切な選択について学びます。",
+  "de": "Vollständiger Leitfaden für Holzverbindungselemente. Lernen Sie über Holzschrauben, Holzbauschrauben, Holzverbinder und正确 Auswahl.",
+  "hi": "टिम्बर फास्टनर की पूर्ण गाइड। वुड स्क्रू, कोच स्क्रू, टिम्बर कनेक्टर, और वुड फ्रेम निर्माण के लिए उचित चयन के बारे में जानें।"
+ }
 }
