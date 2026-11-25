@@ -104,3 +104,11 @@
 - `algeria-algiers-oil-gas-fastener-specifications`(5)、`egypt-suez-canal-industrial-fastener-tariff`(5)、`tunisia-mediterranean-fastener-export-guide`(5)、`libya-tripoli-construction-fastener-sourcing`(3)，共 18 条阿语问答。
 - 这 4 篇正文早已 100% 阿语化，只差 FAQ；补完后北非板块 ar 全部可渲染（FAQPage 同口径）。
 - 现状勘误：正文（body）已 9 语种 100% 本地化（1674/1674），之前"14547 条未本地化"全部是 FAQ 条目，其中大部分本来就不渲染，只影响覆盖度统计，不影响页面质量。
+
+## CTA 归一化（2026-11-26）
+
+- 渲染层 `ctaNative()` 已 native-only 回落 `uiCopy.articleCta`；数据层同步清理：`scripts/normalize-cta-i18n.py`（默认只报告，`--apply` 落盘）。
+- 首次清理 190 篇 2156 处：与 en 逐字相同 2119、含 `{topic}` 占位符 33、罗马字转写 3（俄语/印地语/日语写成拼音，直接删）、空值 1。
+- 只删"伪值"，真译文一律保留（zh 的 CTA 文案、各语种真本地化按钮全部留下），删除后页面输出不变。
+- `.githooks/pre-push` 加了只报告不写盘的 CTA 巡检，避免 pre-push 把工作区弄脏；超阈值时开机提示。
+- 校验：`check-article-schema.sh` 279 篇全绿、`content_gate.py` 0 BLOCK、`check-i18n-leakage.py` ✅ 且 CTA 遥测归零。
