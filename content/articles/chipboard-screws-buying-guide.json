@@ -237,26 +237,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "How do I choose chipboard screw length for a given board thickness?"
+            "en": "How do I choose chipboard screw length for a given board thickness?",
+            "zh": "板厚不同，螺钉长度怎么选？"
           },
           "a": {
-            "en": "Thread length should engage roughly two thirds of the receiving board. An 18 mm panel over an 18 mm substrate typically takes a 30 to 35 mm screw; going shorter risks pull-out, going longer risks breakthrough."
+            "en": "Thread length should engage roughly two thirds of the receiving board. An 18 mm panel over an 18 mm substrate typically takes a 30 to 35 mm screw; going shorter risks pull-out, going longer risks breakthrough.",
+            "zh": "螺钉螺纹旋入基层板的深度约为被夹持板厚的三分之二。18 mm 面板搭在 18 mm 基层上，一般选用 30–35 mm 的螺钉；偏短握持不足容易拔出，偏长则可能穿透基层背面。"
           }
         },
         {
           "q": {
-            "en": "Coarse or fine thread - which do I need?"
+            "en": "Coarse or fine thread - which do I need?",
+            "zh": "粗牙还是细牙该怎么选？"
           },
           "a": {
-            "en": "Coarse thread suits soft chipboard and MDF, where fast driving and grip matter. Fine thread suits hardwood or denser boards where a tighter thread pattern gives higher pull-out resistance and less splitting."
+            "en": "Coarse thread suits soft chipboard and MDF, where fast driving and grip matter. Fine thread suits hardwood or denser boards where a tighter thread pattern gives higher pull-out resistance and less splitting.",
+            "zh": "软质刨花板和中密度纤维板（MDF）用粗牙，拧入快、握持力好；硬木或密度更高的板材用细牙，螺纹排布更密，抗拔出力更高，拧紧时也不易把板材劈裂。"
           }
         },
         {
           "q": {
-            "en": "What packing and MOQ details should be fixed before price?"
+            "en": "What packing and MOQ details should be fixed before price?",
+            "zh": "报价前要先定好哪些包装和起订细节？"
           },
           "a": {
-            "en": "Agree pieces per inner box, inner boxes per carton, carton dimensions and weight limit, whether mixed sizes are allowed, and the carton mark. Packing drives cost as much as the screw itself on small-gauge items."
+            "en": "Agree pieces per inner box, inner boxes per carton, carton dimensions and weight limit, whether mixed sizes are allowed, and the carton mark. Packing drives cost as much as the screw itself on small-gauge items.",
+            "zh": "先商定内盒装多少颗、每箱装几个内盒、外箱尺寸与重量上限、是否允许混规格，以及箱唛标记。小规格螺钉上，包装方式对成本的影响不亚于螺钉本身。"
           }
         }
       ]
