@@ -159,7 +159,10 @@ function renderSection(section: ArticleSection, locale: string) {
   const FAQ_HEADING = /faq|frequently asked|常见问题|常問問題|preguntas frecuentes|questions fréquentes|häufige fragen|часто задаваемые|الأسئلة|सामान्य प्रश्न|domande frequenti|perguntas frequentes/i
   const headingEn = (section.heading as Record<string, string> | undefined)?.en || ''
   const isFaqSection = section.id === 'faq' || FAQ_HEADING.test(headingEn)
-  if (rawFaq.length > 0 && nativeFaq.length === 0 && isFaqSection) return null
+  // 2026-11-25: 去掉 rawFaq.length > 0 这个前置条件 —— 有一批文章 FAQ 小节压根没有 faqItems
+  // (thread-types-guide、high-strength-bolting、africa-railway 等)，小节标题照样渲染出来，
+  // 页面上就是"常见问题"下面空一片。只要认得出是 FAQ 小节且该语言没有原生问答，整节都不输出。
+  if (isFaqSection && nativeFaq.length === 0) return null
 
   return (
     <section key={section.id} className="mb-8" id={section.id}>
