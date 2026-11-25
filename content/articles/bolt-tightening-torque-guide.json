@@ -180,42 +180,52 @@
       "faqItems": [
         {
           "q": {
-            "en": "What torque should I use for M10 bolt Grade 8.8?"
+            "en": "What torque should I use for M10 bolt Grade 8.8?",
+            "zh": "M10、8.8 级螺栓该用多大扭矩？"
           },
           "a": {
-            "en": "For an M10 Grade 8.8 hex bolt, the table value works only against a stated friction condition. At dry, as-received threads with a nut factor K = 0.2, the worked figure is about 45 N·m; the same target preload drops to roughly 36 N·m at K = 0.16 on a lubricated thread. Grade 10.9 runs higher because its proof load is higher, and the property class should be read against ISO 898-1 rather than guessed from the bolt diameter. Confirm the coating and lubricant with the supplier, because an electroplated or oiled thread shifts the friction ratio and can move the required torque by a factor near two. Record the class, finish, K value and resulting preload in kN on the method sheet, and tighten with a calibrated wrench; do not copy a figure off a generic table without those conditions."
+            "en": "For an M10 Grade 8.8 hex bolt, the table value works only against a stated friction condition. At dry, as-received threads with a nut factor K = 0.2, the worked figure is about 45 N·m; the same target preload drops to roughly 36 N·m at K = 0.16 on a lubricated thread. Grade 10.9 runs higher because its proof load is higher, and the property class should be read against ISO 898-1 rather than guessed from the bolt diameter. Confirm the coating and lubricant with the supplier, because an electroplated or oiled thread shifts the friction ratio and can move the required torque by a factor near two. Record the class, finish, K value and resulting preload in kN on the method sheet, and tighten with a calibrated wrench; do not copy a figure off a generic table without those conditions.",
+            "zh": "M10、8.8 级六角螺栓的表列扭矩只在明确摩擦条件下才成立。干燥、未处理螺纹按螺母系数 K = 0.2 计算，参考值约 45 N·m；同一目标预紧力在润滑螺纹 K = 0.16 下降到约 36 N·m。10.9 级因保证载荷更高，扭矩相应更大；性能等级应对照 ISO 898-1 判断，不能只凭螺栓直径估算。镀层与润滑剂要先和供应商确认，电镀锌或上油螺纹会改变摩擦比，所需扭矩可能相差近一倍。工艺单上应写明等级、表面处理、K 值与对应 kN 预紧力，用校准扳手拧紧；脱离这些条件，不要直接照搬通用表上的数字。"
           }
         },
         {
           "q": {
-            "en": "What is the difference between preload and torque?"
+            "en": "What is the difference between preload and torque?",
+            "zh": "预紧力和扭矩有什么区别？"
           },
           "a": {
-            "en": "Torque is the rotational force applied at the nut during tightening, measured in N·m; preload, or clamp load, is the axial tension the bolt develops once the joint is seated, expressed in kN. The joint needs the correct preload to hold the members together under service load, and torque is only the indirect method used to reach it, because tension cannot be read directly at the nut. Between torque and preload sits the friction ratio, captured by the nut factor K: thread condition, lubrication, plating and washer surface all change how much of the applied torque turns into tension rather than being burned off as friction. Two bolts at the same torque can therefore hold very different clamp loads, which is why a specification should name the target preload, the assumed K and the finish, not the torque number alone."
+            "en": "Torque is the rotational force applied at the nut during tightening, measured in N·m; preload, or clamp load, is the axial tension the bolt develops once the joint is seated, expressed in kN. The joint needs the correct preload to hold the members together under service load, and torque is only the indirect method used to reach it, because tension cannot be read directly at the nut. Between torque and preload sits the friction ratio, captured by the nut factor K: thread condition, lubrication, plating and washer surface all change how much of the applied torque turns into tension rather than being burned off as friction. Two bolts at the same torque can therefore hold very different clamp loads, which is why a specification should name the target preload, the assumed K and the finish, not the torque number alone.",
+            "zh": "扭矩是拧紧时施加在螺母上的旋转力，单位 N·m；预紧力（夹紧力）是螺栓接头贴合后产生的轴向拉力，单位 kN。扭矩只是达到预紧力的间接手段，拉力无法在螺母处直接读出。两者之间是摩擦比关系，由螺母系数 K 概括：螺纹状态、润滑、镀层和垫圈支承面都会改变扭矩中有多少转化为拉力、多少被摩擦消耗。同样扭矩下的两根螺栓夹紧力可能相差很大，规格书应写明目标预紧力、K 值和表面处理，不能只给扭矩数字。"
           }
         },
         {
           "q": {
-            "en": "Can torque specification bolts be reused after loosening?"
+            "en": "Can torque specification bolts be reused after loosening?",
+            "zh": "拧过的螺栓松开后还能再用吗？"
           },
           "a": {
-            "en": "Generally no for critical structural joints. Once a bolt has been tightened past its yield point and then loosened, it may have been permanently stretched or its thread damaged, and its preload capability on the next cycle is no longer reliable. Reuse is sometimes tolerated on lightly loaded, non-structural fasteners that were turned only to a controlled fraction of proof load, but the decision has to be made against the property class in ISO 898-1 and the application's duty, not by appearance. For 10.9 and 12.9 high-strength bolts, and for any joint carrying pressure, vibration or lifting loads, replace the bolt with a new one of the same class, diameter and finish. Keep removed bolts separate from service stock so a re-used fastener cannot be picked up by mistake during maintenance."
+            "en": "Generally no for critical structural joints. Once a bolt has been tightened past its yield point and then loosened, it may have been permanently stretched or its thread damaged, and its preload capability on the next cycle is no longer reliable. Reuse is sometimes tolerated on lightly loaded, non-structural fasteners that were turned only to a controlled fraction of proof load, but the decision has to be made against the property class in ISO 898-1 and the application's duty, not by appearance. For 10.9 and 12.9 high-strength bolts, and for any joint carrying pressure, vibration or lifting loads, replace the bolt with a new one of the same class, diameter and finish. Keep removed bolts separate from service stock so a re-used fastener cannot be picked up by mistake during maintenance.",
+            "zh": "关键结构接头一般不能。螺栓拧紧超过屈服点后再松开，可能已发生永久拉伸或螺纹损伤，下一个循环的预紧能力不再可靠。轻载、非结构紧固件若只拧到保证载荷的受控比例以内，有时可以复用，但判断要依据 ISO 898-1 中的性能等级和工况，不能凭外观。10.9、12.9 高强度螺栓，以及承受压力、振动或起重载荷的接头，应换上同等级、同直径、同表面处理的新螺栓。拆下的螺栓要与在用库存分开存放，避免维护时误把复用件装回去。"
           }
         },
         {
           "q": {
-            "en": "What is the nut factor (K) in torque calculation?"
+            "en": "What is the nut factor (K) in torque calculation?",
+            "zh": "扭矩计算中的螺母系数 K 是什么？"
           },
           "a": {
-            "en": "The nut factor K, or friction coefficient in the torque-tension relationship, folds together thread friction, washer bearing-surface friction and the lubrication condition into one dimensionless value. The standard relationship is T = K · F · d / 2, where T is torque in N·m, F is the target preload in kN and d is the bolt diameter in mm. A plain, unlubricated bolt is commonly assumed at K = 0.2; a lubricated or molybdenum-paste thread may sit at K = 0.15 to 0.18, while a dry zinc-plated or damaged thread can run higher. Because K moves the torque needed for the same preload by roughly a fifth on each side of the range, the specification must state the finish and lubricant the K was measured for. Do not apply a K from a lubricated table to a dry joint, or the clamp load will fall short of design."
+            "en": "The nut factor K, or friction coefficient in the torque-tension relationship, folds together thread friction, washer bearing-surface friction and the lubrication condition into one dimensionless value. The standard relationship is T = K · F · d / 2, where T is torque in N·m, F is the target preload in kN and d is the bolt diameter in mm. A plain, unlubricated bolt is commonly assumed at K = 0.2; a lubricated or molybdenum-paste thread may sit at K = 0.15 to 0.18, while a dry zinc-plated or damaged thread can run higher. Because K moves the torque needed for the same preload by roughly a fifth on each side of the range, the specification must state the finish and lubricant the K was measured for. Do not apply a K from a lubricated table to a dry joint, or the clamp load will fall short of design.",
+            "zh": "螺母系数 K，即扭矩-拉力关系中的摩擦系数，把螺纹摩擦、垫圈支承面摩擦和润滑状态合并成一个无量纲值。基本关系为 T = K · F · d / 2，其中 T 为扭矩（N·m），F 为目标预紧力（kN），d 为螺栓直径（mm）。普通未润滑螺栓通常取 K = 0.2；润滑或二硫化钼膏螺纹可能在 K = 0.15 至 0.18；干镀锌或损伤螺纹则偏高。K 在区间两侧各移动约五分之一，就会改变同一预紧力所需的扭矩，所以规格书必须写明该 K 值对应的表面处理与润滑剂。不要把润滑表上的 K 直接用到干态接头，否则夹紧力会低于设计要求。"
           }
         },
         {
           "q": {
-            "en": "How do I know if a bolt is properly tightened?"
+            "en": "How do I know if a bolt is properly tightened?",
+            "zh": "怎样判断螺栓已经拧紧到位？"
           },
           "a": {
-            "en": "Start with a calibrated torque wrench set to the specification for the stated property class, finish and lubrication, and check the tool at the interval the maintenance manual requires. On critical joints, go beyond torque control: direct tension indicators are washers with raised bumps that flatten to a visible preload sign, while ultrasonic bolt stretch measurement reads the elongation in mm and converts it to preload in kN. Mark the bolt and nut after seating so subsequent loosening or rotation is visible on inspection. Re-check preload after the first operating hours, because bedding-in on washers and rough surfaces releases some clamp load. If a joint shows backing-out, sheared threads or member slip, trace the cause to friction, size or method rather than replacing bolts one by one."
+            "en": "Start with a calibrated torque wrench set to the specification for the stated property class, finish and lubrication, and check the tool at the interval the maintenance manual requires. On critical joints, go beyond torque control: direct tension indicators are washers with raised bumps that flatten to a visible preload sign, while ultrasonic bolt stretch measurement reads the elongation in mm and converts it to preload in kN. Mark the bolt and nut after seating so subsequent loosening or rotation is visible on inspection. Re-check preload after the first operating hours, because bedding-in on washers and rough surfaces releases some clamp load. If a joint shows backing-out, sheared threads or member slip, trace the cause to friction, size or method rather than replacing bolts one by one.",
+            "zh": "先用校准扭矩扳手调到对应等级、表面处理和润滑剂的规格值，并按手册周期校验工具。关键接头不要只靠扭矩控制：直接拉力指示器是带凸点的垫圈，压平后给出可见预紧信号；超声波伸长测量读取 mm 伸长量并换算成 kN 预紧力。贴合后在螺栓和螺母上做标记，便于检查松动转动。运行最初几小时后复查预紧力，垫圈和粗糙表面贴合会释放部分夹紧力。若出现松退、剪切螺纹或构件滑移，应从摩擦、规格或工艺上找原因，而不是逐根换螺栓。"
           }
         }
       ]
