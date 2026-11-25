@@ -72,11 +72,11 @@ if [ "$FORCE" -eq 0 ]; then
   if [ "$WILL_BUILD" -eq 0 ]; then
     COUNT_FILE="logs/deploy-pushless.json"
     PUSHES=$(python3 -c "
-import json,os,time
+import json,os,datetime
 p='$COUNT_FILE'
 try: d=json.load(open(p))
 except Exception: d={}
-today=time.strftime('%Y-%m-%d')
+today=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).strftime('%Y-%m-%d')
 print(d['count'] if d.get('date')==today else 0)
 ")
     if [ "$PUSHES" -ge 5 ]; then
@@ -85,8 +85,8 @@ print(d['count'] if d.get('date')==today else 0)
     fi
     echo "$LOG_PREFIX 本次仅 docs/scripts 改动，ignoreCommand 会跳过构建，不占部署预算（今日无构建推送 ${PUSHES}/5）"
     python3 -c "
-import json,time
-p='$COUNT_FILE'; today=time.strftime('%Y-%m-%d')
+import json,datetime
+p='$COUNT_FILE'; today=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).strftime('%Y-%m-%d')
 try: d=json.load(open(p))
 except Exception: d={}
 d={'date':today,'count':(d.get('count',0) if d.get('date')==today else 0)+1}
