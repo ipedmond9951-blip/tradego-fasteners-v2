@@ -18,6 +18,19 @@ if [ "$N_CONTENT" -gt 20 ]; then
   echo "$DATE | bulk-commit $N_CONTENT/$N_ALL | $(git log -1 --format=%s 2>/dev/null || echo '-')" >> logs/vercel-bulk-commit.log 2>/dev/null || true
 fi
 
+# ── 跨领域混合提交告警（两个 agent 同仓库时，git commit -a 会把对方的 WIP 卷进来）──
+# 判据：同时出现 content/ 与 src|public|scripts|docs，且各自 ≥1 个文件、总数 ≥4。
+# 不阻断（合法的跨领域改动也存在），但会打出"像不像 commit -a"的判断依据，并留痕。
+N_SRC=$(printf '%s\n' "$STAGED" | grep -cE '^(src|public|scripts|docs|package\.json|next\.config\.ts|vercel\.json)' || true)
+if [ "$N_CONTENT" -ge 1 ] && [ "$N_SRC" -ge 1 ] && [ "$N_ALL" -ge 4 ]; then
+  echo "⚠️  跨领域混合提交：content/public ${N_CONTENT} 个 + src/scripts/docs ${N_SRC} 个（共 ${N_ALL} 个）"
+  echo "    如果是 git commit -a / git add -A 带进来的另一个 agent 的在途改动，请改用："
+  echo "    git commit -- <你这轮真正改的路径>     （只提交自己的文件，避免归属错乱）"
+  DATE2=$(TZ=Asia/Shanghai date '+%F %T')
+  mkdir -p logs
+  echo "$DATE2 | mixed-commit content=$N_CONTENT src=$N_SRC total=$N_ALL" >> logs/vercel-bulk-commit.log 2>/dev/null || true
+fi
+
 # ── 校验器自检（4 个反向用例）：防止并线写坏脚本后"全库干净"的假通过 ──────────
 python3 scripts/contract_selftest.py --quiet >/tmp/cc-selftest.log 2>&1 || {
   echo "❌ 内容契约校验器自检未通过，先修脚本（详见 /tmp/cc-selftest.log）"

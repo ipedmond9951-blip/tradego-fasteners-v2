@@ -386,3 +386,11 @@ curl -s "https://api.vercel.com/v4/aliases?limit=100" -H "Authorization: Bearer 
 - **修复**：拦截改为只看 `count >= limit`；新增 `scripts/vercel_deployments.py`（全量拉取 + 本地按 projectId/name 过滤，输出与 API 同形），promote / promote-wait / prune / _prev-prod-sha / audit / ledger sync 全部改走它。
 - **防复发**：新增 `scripts/vercel-gate-selftest.sh`（预算=0 必须拦、预算放大必须放、`DEPLOY_FORCE` 必须放、取数脚本可用、pre-push 已挂载），作为审计第 10 项；护栏脚本每次改动都必须跑。
 - **铁律**：护栏里"读不到上游数据就放行"的分支等于没有护栏；取数失败只能影响"能否看到别人的推送"，不能影响"我自己能不能推"。
+
+## 变更记录 2026-11-25（并发提交归属错乱，第二次）
+
+- **现象**：本地两个 agent 同写一份工作区，一边跑 `git commit -a` 把另一边刚落地的内容改动一起卷进提交，commit message 只描述了自己那部分 → 归属错乱、事后无法按 commit 追溯是谁改了什么（上一次同样的问题记在 44ddbe7d）。
+- **本轮受影响**：`fda34896`（标题写的是"输送带接头与 IBR 屋面条补足 1600+ 词"）实际还包含 13 篇文章 41 处"单词级串语"修正（ja/es/fr/pt/de 各语种零星混入俄语/中文词），见 `scripts/oneoff-stray-word-fix.py`。
+- **处置**：不改写历史（rebase 会打断另一条流水线），改为在审计层面留痕 + 提高未来可见性。
+- **新增护栏**：`.githooks/pre-commit` 在"同时暂存 content/ 与 src|scripts|docs 且总数 ≥4"时打跨领域混合告警，提示改用 `git commit -- <paths>` 只提交自己的文件，并写入 `logs/vercel-bulk-commit.log`（只告警不阻断，避免打断合法的跨领域提交）。
+- **约定**：每个 agent 提交时用路径限定（`git commit -- <本轮改的路径>`），不要 `git add -A`；发现别人的在途改动就留在工作区，不替它提交。
