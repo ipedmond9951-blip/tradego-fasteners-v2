@@ -250,8 +250,8 @@
             "zh": "可以在指定8.8的地方用10.9螺栓替代吗？"
           },
           "a": {
-            "en": "Generally yes—using a higher grade bolt where lower is specified is usually acceptable. However, always verify torque specifications match, and consider thread engagement depth.",
-            "zh": "通常可以——在指定较低等级的地方使用较高等级螺栓通常可接受。但务必确认扭矩规格匹配，并考虑螺纹啮合深度。"
+            "en": "Generally yes, using a higher grade bolt where a lower one is specified is usually acceptable, but the substitution should be confirmed against the design intent rather than treated as a universal rule. A 10.9 bolt offers roughly 1040 MPa minimum tensile strength and 940 MPa yield strength, compared with about 800 MPa and 640 MPa for an 8.8 bolt under ISO 898-1. Always verify that the torque specification, grip length, hole clearance, and thread engagement depth match the joint, and check that the higher-grade head marking and coating are suitable for the environment. Do not mix grades in the same joint, because different grades deform differently under preload and the lowest-grade bolt tends to fail first. If the connection is a slip-critical or fatigue-controlled joint, have the design engineer sign off on the substitution before installation.",
+            "zh": "通常可以——在指定较低等级的地方使用较高等级螺栓一般可以接受，但替代应回到设计意图确认，不能当作通用规则。按 ISO 898-1，10.9 级螺栓最小抗拉强度约 1040 MPa、屈服强度约 940 MPa，而 8.8 级约为 800 MPa 和 640 MPa。替代前务必核对扭矩规格、夹持长度、孔间隙和螺纹啮合深度是否与接头匹配，并确认高等级螺栓的头部标识和镀层适合使用环境。同一接头不要混用等级，因为不同等级在预紧力下变形量不同，预紧力分配不均时最先失效的往往是等级最低的那一颗。抗滑移或疲劳控制接头的替代，应先取得设计工程师书面确认再安装。"
           }
         },
         {
@@ -260,8 +260,8 @@
             "zh": "室外高强度螺栓应该用什么涂层？"
           },
           "a": {
-            "en": "Hot-dip galvanizing (HDG) is recommended for outdoor structural bolts. The zinc coating provides cathodic protection. Note: HDG reduces thread class from 6g to 8g.",
-            "zh": "热浸镀锌（HDG）推荐用于室外结构螺栓。锌涂层提供阴极保护。注意：HDG会将螺纹等级从6g降低到8g。"
+            "en": "Hot-dip galvanizing (HDG) is the usual recommendation for outdoor structural bolts, because the zinc coating provides cathodic protection that slows rust even if the surface is slightly scratched. Electroplated zinc is thinner and generally suited to indoor use, while HDG coatings are built up to a greater thickness for exposed bridges, warehouses, and utility structures. In chloride or coastal-type environments, A4 (316) stainless steel fasteners may outlast galvanized carbon steel despite the higher purchase cost. Note that HDG can shift the thread class from 6g to 8g, so nuts and tap drills may need to be reworked after galvanizing. For 12.9 grade parts, plating must include a hydrogen-embrittlement baking process; otherwise delayed cracking can occur after assembly. Always state the coating and thickness on the purchase specification and request salt spray or coating thickness records with the batch.",
+            "zh": "热浸镀锌（HDG）推荐用于室外结构螺栓，锌层提供阴极保护，即使表面轻微划伤也能减缓锈蚀。电镀锌镀层较薄，一般适合室内使用；HDG 镀层更厚，用于暴露在外的桥梁、仓库和公用设施结构。存在氯离子或类似沿海腐蚀环境时，A4（316）不锈钢紧固件的寿命可能优于镀锌碳钢，尽管采购成本更高。注意 HDG 会把螺纹等级从 6g 降到 8g，镀锌后螺母和底孔可能需要重新攻丝修整。12.9 级件电镀必须带去氢烘焙工艺，否则装配后可能出现延迟开裂。采购技术条件中应写明涂层与厚度，并随批次索取镀层厚度或盐雾试验记录。"
           }
         },
         {
@@ -270,8 +270,8 @@
             "zh": "六角螺栓和内六角螺栓有什么区别？"
           },
           "a": {
-            "en": "Hex bolts use an external hex drive requiring a wrench. Socket head cap screws use an internal hex (Allen) drive, allowing lower profile installation in recessed areas.",
-            "zh": "六角螺栓使用外六角驱动需要扳手。内六角螺栓使用内六角（艾伦）驱动，允许在凹槽区域低剖面安装。"
+            "en": "Hex bolts use an external hex drive that requires an open-end, ring, or socket wrench, and their protruding head sits above the joint surface. Socket head cap screws use an internal hex (Allen) drive, which allows a lower-profile installation in recessed or counterbored areas where a wrench cannot fit around the head. Hex bolts are the common choice for structural steel, bridges, machinery frames, and heavy connections where high clamp loads are applied with standard tools. Socket head cap screws are typical in jigs, fixtures, molds, precision machinery, and equipment where space around the head is limited. When selecting, compare head height, required socket depth, access from above, shear and clamp load, and whether the joint will be assembled repeatedly. Head markings should clearly show the property grade so the fastener can be traced to its test records.",
+            "zh": "六角螺栓采用外六角驱动，需要开口扳手、梅花扳手或套筒扳手，头部凸出在接合面之上。内六角螺栓采用内六角（艾伦）驱动，可在扳手无法围住头部的凹槽或沉孔区域做低剖面安装。六角螺栓是钢结构、桥梁、机械机架和重型连接的常用选择，适合用普通工具施加较高夹紧力；内六角螺栓多见于夹具、模具、精密机械和头部周围空间受限的设备。选型时应比较头部高度、所需套筒深度、上方操作空间、抗剪与夹紧载荷，以及接头是否需要反复拆装。头部标识应清晰显示性能等级，以便追溯到对应的试验记录。"
           }
         }
       ],
