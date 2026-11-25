@@ -323,6 +323,30 @@
             "hi": "डालते वक्त स्थिति का खिसकना सबसे बड़ी समस्या है; दृढ़ टेम्पलेट इस्तेमाल करें और कंकाल डालने से पहले तथा बाद में दोबारा जांचें। कंकाल के संपर्क से धागे को पहुंचने वाला नुकसान भी देखें, और बेस प्लेट को ठीक से ग्राउट करें ताकि भार ग्राउट के जरिए संचारित हो, अकेले बोल्ट पर न टिके।",
             "ru": "Главная проблема — смещение позиции при заливке: используйте жёсткий шаблон и перепроверяйте положение до и после укладки бетона. Следите и за повреждением резьбы при контакте с бетоном, а плиту основания заанкеривайте через раствор так, чтобы нагрузка шла через слой раствора, а не только через болт."
           }
+        },
+        {
+          "q": {
+            "en": "What are anchor bolts used for in foundations?"
+          },
+          "a": {
+            "en": "Anchor bolts secure structural steel columns, equipment, and machinery to concrete foundations. They transfer tensile and shear loads from the structure to the concrete foundation. Critical for: building columns, pre-engineered metal buildings, solar panel mounts, transmission towers, and heavy equipment bases."
+          }
+        },
+        {
+          "q": {
+            "en": "What types of anchor bolts are best for seismic zones?"
+          },
+          "a": {
+            "en": "Seismic zones require: 1) ASTM F1554 Grade 55 or 105 (higher yield strength); 2) Plate anchors with large base plates for improved load distribution; 3) Headed anchor bolts (better than J-bolts under cyclic loading); 4) Supplementary reinforcement (hooks or plates) to prevent concrete cone failure. Always specify seismic design category per local building codes."
+          }
+        },
+        {
+          "q": {
+            "en": "What is the difference between J-bolts and L-bolts?"
+          },
+          "a": {
+            "en": "J-bolts have a J-shaped bend at the embedded end - shaped like the letter J. L-bolts have a 90-degree bend - shaped like the letter L. Both provide anchorage through mechanical interlock with concrete. J-bolts are more common for equipment mounting; L-bolts are preferred for structural columns where the bend hooks around rebar. Both must be positioned before concrete pour (cast-in-place)."
+          }
         }
       ],
       "body": {
