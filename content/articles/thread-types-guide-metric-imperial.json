@@ -284,13 +284,13 @@
         "en": "<p><strong>Can an M10 nut be used on a 3/8 inch bolt?</strong> No. The diameters differ (10.000 mm versus 9.525 mm) and so does the pitch. The pair may engage a turn or two and then strip; a failed thread is the best outcome and a joint that lets go under load is the worst.</p>\n<p><strong>What does 16 TPI mean?</strong> Sixteen threads per inch, which corresponds to a pitch of 25.4 / 16 = 1.5875 mm. UNC and UNF differ in thread count, not in nominal diameter.</p>\n<p><strong>Which thread do African construction projects normally use?</strong> Metric coarse, almost everywhere. The exceptions are imported equipment built to inch standards — pumps, valves, US-made machinery and older British-origin plant — where the mating fasteners must match what the equipment was built with.</p>\n<p><strong>How do I confirm the pitch without a gauge?</strong> Measure across 10 threads and divide, or measure the distance for a known number of turns. For 1.5 mm versus 16 TPI the difference over 10 threads is under 1 mm, so a caliper reading is not reliable enough to decide; use a pitch gauge for anything that will be load-bearing.</p>\n<p><strong>Are BSP and NPT interchangeable?</strong> No. Both are pipe threads but the flank angles and the taper differ, and forcing one into the other produces a joint that leaks or cracks. Keep pipe threads out of the fastener RFQ unless the equipment genuinely needs them.</p>",
         "zh": "<p><strong>M10 螺母能拧 3/8 英寸螺栓吗？</strong>不能。直径不同（10.000 mm 对 9.525 mm），螺距也不同。勉强能进一两圈然后滑牙——滑牙还算最好的结果，最坏是接头在承载时松开。</p>\n<p><strong>16 TPI 是什么意思？</strong>每英寸 16 牙，换算螺距是 25.4 / 16 = 1.5875 mm。UNC 与 UNF 的区别在牙数，不在标称直径。</p>\n<p><strong>非洲建筑项目通常用哪种螺纹？</strong>几乎全是公制粗牙。例外是进口设备：泵、阀、美制机械和较老的英系设备，配套紧固件必须跟着设备原设计走。</p>\n<p><strong>没有牙距规怎么确认螺距？</strong>量 10 牙的总长再除以 10，或量已知圈数的距离。1.5 mm 与 16 TPI 在 10 牙上的差不到 1 mm，卡尺读数不足以定案；凡是要承力的件，用牙距规。</p>\n<p><strong>BSP 和 NPT 能互换吗？</strong>不能。两者都是管螺纹，但牙侧角和锥度都不同，硬拧进去的结果是漏或裂。除非设备确实需要，紧固件询价单里不要出现管螺纹。</p>",
         "es": "",
-        "ar": "<p>الأسئلة الشائعة مذكورة أدناه.",
+        "ar": "<p>الأسئلة الشائعة مذكورة أدناه.</p>",
         "fr": "",
         "pt": "",
-        "ru": "<p>Часто задаваемые вопросы приведены ниже.",
+        "ru": "<p>Часто задаваемые вопросы приведены ниже.</p>",
         "ja": "<p>よくある質問は以下をご覧ください。</p> 関連リソース：<a href=\"/en/products/high-tensile-bolts\">高張力ボルト</a> <a href=\"/en/products/anchor-bolts\">アンカーボルト</a> <a href=\"/en/products/stainless-bolts\">ステンレス製ファスナー</a> <a href=\"/en/products/hex-bolts\">六角ボルト</a> <a href=\"/en/products/lock-nuts\">ロックナット</a> <a href=\"/en/products/washers\">ワッシャー</a> <a href=\"/en/products/self-drilling-screws\">セルフドリリングビス</a> <a href=\"/en/products/socket-screws\">ソケットスクリュー</a>. この検証チェックリストは、初回のサプライヤー認定と継続的なロット検査の双方に適用されます。高リスク用途（耐荷重構造、圧力容器、鉱業、海洋）では、疲労試験、塩水噴霧試験（ASTM B117）、トルク−張力試験、施工後の検査を追加してください。追加検証のコストは発注額の0.1〜0.3%ですが、見出せなかった品質不良は発注額の10〜100倍の損害になり得ます。",
         "de": "",
-        "hi": "<p>सामान्य प्रश्न नीचे दिए गए हैं।"
+        "hi": "<p>सामान्य प्रश्न नीचे दिए गए हैं।</p>"
       }
     }
   ],
