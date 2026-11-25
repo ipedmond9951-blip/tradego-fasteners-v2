@@ -25,30 +25,41 @@ HIST="${DEPLOY_HIST:-$PROJECT_DIR/logs/deploy-history.jsonl}"
 
 mkdir -p "$PROJECT_DIR/logs"
 
-python3 - "$LEDGER" "$LIMIT" "$PROJECT_ID" "$AUTH" "$HIST" <<'PY'
-import json, os, sys, time, datetime, urllib.request
+python3 - "$LEDGER" "$LIMIT" "$PROJECT_ID" "$AUTH" "$HIST" "$PROJECT_DIR/scripts/vercel-token.py" <<'PY'
+import json, os, sys, time, datetime, subprocess, urllib.request
 
 ledger_path, limit, project_id, auth_path, hist_path = sys.argv[1], int(sys.argv[2]), sys.argv[3], sys.argv[4], sys.argv[5]
+token_helper = sys.argv[6]
 tz = datetime.timezone(datetime.timedelta(hours=8))
 today = datetime.datetime.now(tz).strftime('%Y-%m-%d')  # 统一用北京时间判定"今天"
 
 # --- 1) Vercel API: 今日(Asia/Shanghai)真实部署条数 ---
 api_count = None
-try:
-    token = json.load(open(os.path.expanduser(auth_path)))['token']
+def _pull(token):
     # 2026-11-25: 带 projectId 查会被 403（项目在团队下、token 无该团队 deployments 读权限），
     # 改成拉全量再按 projectId / name 本地过滤；团队口径变了也不会再瞎。
     req = urllib.request.Request(
         'https://api.vercel.com/v6/deployments?limit=100',
         headers={'Authorization': 'Bearer ' + token},
     )
-    data = json.load(urllib.request.urlopen(req, timeout=15))
+    data = json.load(urllib.request.urlopen(req, timeout=20))
     today_start = datetime.datetime.now(tz).replace(hour=0, minute=0, second=0, microsecond=0).timestamp()
-    api_count = sum(1 for d in data.get('deployments', [])
-                    if (d.get('projectId') == project_id or d.get('name') == 'tradego-fasteners')
-                    and d['createdAt'] / 1000 >= today_start and d.get('state') != 'CANCELED')  # ignoreCommand 跳过的记录不占预算
-except Exception as e:
-    print('⚠️ 读 Vercel 部署数失败(%s), 回退本地台账' % type(e).__name__)
+    return sum(1 for d in data.get('deployments', [])
+               if (d.get('projectId') == project_id or d.get('name') == 'tradego-fasteners')
+               and d['createdAt'] / 1000 >= today_start and d.get('state') != 'CANCELED')  # ignoreCommand 跳过的记录不占预算
+
+# 2026-11-26 修: auth.json 的 token 会过期（只在 CLI 联网时自动续期），直接读文件常拿到
+# 过期 token → invalidToken → 只能回退台账。改用 scripts/vercel-token.py 取"当前可用"token，
+# 遇到 401/403 再强制续期重试一次。
+try:
+    token = subprocess.check_output(['/usr/bin/env', 'python3', token_helper], text=True, timeout=90).strip()
+    api_count = _pull(token)
+except Exception:
+    try:
+        token = subprocess.check_output(['/usr/bin/env', 'python3', token_helper, '--force'], text=True, timeout=90).strip()
+        api_count = _pull(token)
+    except Exception as e:
+        print('⚠️ 读 Vercel 部署数失败(%s), 回退本地台账' % type(e).__name__)
 
 # --- 2) 本地台账 ---
 try:
@@ -57,7 +68,7 @@ except Exception:
     d = {}
 if d.get('date') != today:
     d = {'date': today, 'count': 0}
-local_count = int(d.get('count', 0))
+local_count = 0  # 2026-11-26: 历史字段不再参与判定（会把尝试当构建）
 
 # 真实构建台账 deploy-history.jsonl(按 uid 持久化, 删部署不影响计数) —— 权威口径
 hist_count = 0
@@ -99,7 +110,12 @@ if count >= limit:
 if os.environ.get('DEPLOY_BUDGET_READONLY') == '1':
     print('✅ 预算内，放行（钩子只读校验，不计数）')
     raise SystemExit(0)
-d['count'] = count + 1
+# 2026-11-26 修: 原来自增本地 count 会把"尝试推送"也算成一次构建 —— 推送失败/被钩子拦截
+# 同样 +1，一晚上能把 3 次额度凭空烧光（11-26 零点就这样全满）。现在只记录尝试时间戳，
+# 预算一律以 Vercel API 与 uid 台账（真实构建）为准。
+d.setdefault('attempts', []).append(datetime.datetime.now(tz).strftime('%Y-%m-%dT%H:%M:%S'))
+d['attempts'] = d['attempts'][-20:]
+d['count'] = int(d.get('count', 0))  # 仅留历史值，不再参与判定
 json.dump(d, open(ledger_path, 'w'), ensure_ascii=False)
 print('✅ 预算内，放行（push 后将是今日第 %d 次）' % (count + 1))
 PY
