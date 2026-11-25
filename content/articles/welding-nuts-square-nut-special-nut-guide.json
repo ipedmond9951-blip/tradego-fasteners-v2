@@ -156,31 +156,37 @@
         {
           "q": {
             "en": "What is the weld projection on flange welding nuts?",
-            "zh": "法兰焊接螺母上的焊接凸点是什么？"
+            "zh": "法兰焊接螺母上的焊接凸点是什么？",
+            "hi": "फ्लेंज वेल्डिंग नट में वेल्ड प्रोजेक्शन क्या है?"
           },
           "a": {
             "en": "Flange welding nuts (DIN 929) have 3-4 smallbumps (projections) on the underside of the flange that concentrate resistance welding current, ensuring fast, strong welds at lower current.",
-            "zh": "法兰焊接螺母（DIN 929）在法兰下侧有3-4个小凸点，集中电阻焊电流，确保更快更强的焊接。"
+            "zh": "法兰焊接螺母（DIN 929）在法兰下侧有3-4个小凸点，集中电阻焊电流，确保更快更强的焊接。",
+            "hi": "फ्लेंज वेल्डिंग नट (DIN 929) के फ्लेंज की निचली सतह पर 3–4 छोटे उभार होते हैं; ये रेज़िस्टेंस वेल्डिंग करंट को एक जगह केंद्रित करते हैं, जिससे कम करंट पर तेज़ और मज़बूत वेल्ड मिलती है।"
           }
         },
         {
           "q": {
             "en": "Can I weld a standard hex nut directly to steel?",
-            "zh": "我可以直接焊接标准六角螺母到钢上吗？"
+            "zh": "我可以直接焊接标准六角螺母到钢上吗？",
+            "hi": "सामान्य हेक्स नट सीधे स्टील पर वेल्ड कर सकते हैं?"
           },
           "a": {
             "en": "Standard hex nuts are not designed for welding—the steel composition and geometry are not optimized for weld strength. Use dedicated square welding nuts (DIN 928) or flange welding nuts (DIN 929).",
-            "zh": "标准六角螺母不适合焊接。专用方焊接螺母（DIN 928）或法兰焊接螺母（DIN 929）才是正确的。"
+            "zh": "标准六角螺母不适合焊接。专用方焊接螺母（DIN 928）或法兰焊接螺母（DIN 929）才是正确的。",
+            "hi": "सामान्य हेक्स नट वेल्डिंग के लिए बने ही नहीं होते: स्टील की संरचना और ज्यामिति वेल्ड ताकत के हिसाब से अनुकूलित नहीं है। समर्पित स्क्वायर वेल्डिंग नट (DIN 928) या फ्लेंज वेल्डिंग नट (DIN 929) इस्तेमाल करें।"
           }
         },
         {
           "q": {
             "en": "What is the weld projection on a flange welding nut?",
-            "zh": "法兰螺母的焊接凸点高度怎么选？"
+            "zh": "法兰螺母的焊接凸点高度怎么选？",
+            "hi": "फ्लेंज वेल्डिंग नट का उभार कितना होना चाहिए?"
           },
           "a": {
             "en": "The projection is the small collar that fuses into the sheet during resistance welding, and its height must match the sheet thickness range the nut is designed for. Too little projection welds weakly; too much melts through thin sheet.",
-            "zh": "凸点是电阻焊时熔入板件的小凸台，其高度必须与螺母设计适配的板厚范围匹配。凸点过小则焊接强度不足；过大则容易熔穿薄板。"
+            "zh": "凸点是电阻焊时熔入板件的小凸台，其高度必须与螺母设计适配的板厚范围匹配。凸点过小则焊接强度不足；过大则容易熔穿薄板。",
+            "hi": "प्रोजेक्शन वह छोटा कॉलर है जो रेज़िस्टेंस वेल्डिंग के दौरान शीट में जुड़ जाता है; उसकी ऊंचाई शीट की उस मोटाई सीमा से मेल खानी चाहिए जिसके लिए नट बना है। उभार कम हो तो वेल्ड कमज़ोर लगती है, ज़्यादा हो तो पतली शीट पिघल कर छेद हो जाता है।"
           }
         }
       ],
