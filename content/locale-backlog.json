@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-25T15:37:53+08:00",
- "total": 568,
+ "generated": "2026-11-25T16:13:31+08:00",
+ "total": 582,
  "items": [
   {
    "slug": "africa-railway-modernization-fastener-demand",
@@ -532,21 +532,6 @@
    "lang": "hi",
    "coverage": 0.0,
    "sections": 8,
-   "missing": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6
-   ]
-  },
-  {
-   "slug": "self-tapping-screws-complete-classification-guide",
-   "lang": "zh",
-   "coverage": 0.0,
-   "sections": 7,
    "missing": [
     0,
     1,
@@ -1189,6 +1174,20 @@
    ]
   },
   {
+   "slug": "full-thread-half-thread-coarse-fine-thread-guide",
+   "lang": "zh",
+   "coverage": 0.0,
+   "sections": 6,
+   "missing": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
    "slug": "ghana-building-materials",
    "lang": "zh",
    "coverage": 0.0,
@@ -1400,20 +1399,6 @@
   },
   {
    "slug": "rivets-blind-rivets-guide",
-   "lang": "zh",
-   "coverage": 0.0,
-   "sections": 6,
-   "missing": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5
-   ]
-  },
-  {
-   "slug": "structural-steel-connections-guide",
    "lang": "zh",
    "coverage": 0.0,
    "sections": 6,
@@ -2793,6 +2778,20 @@
    ]
   },
   {
+   "slug": "self-tapping-screws-complete-classification-guide",
+   "lang": "zh",
+   "coverage": 0.14,
+   "sections": 7,
+   "missing": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6
+   ]
+  },
+  {
    "slug": "solar-panel-mounting-fastener-requirements",
    "lang": "es",
    "coverage": 0.14,
@@ -3132,7 +3131,7 @@
    ]
   },
   {
-   "slug": "full-thread-half-thread-coarse-fine-thread-guide",
+   "slug": "gb-din-ansi-fastener-standards-export-guide",
    "lang": "zh",
    "coverage": 0.17,
    "sections": 6,
@@ -3141,7 +3140,7 @@
     1,
     2,
     3,
-    5
+    4
    ]
   },
   {
@@ -3246,6 +3245,19 @@
     2,
     3,
     4
+   ]
+  },
+  {
+   "slug": "structural-steel-connections-guide",
+   "lang": "zh",
+   "coverage": 0.17,
+   "sections": 6,
+   "missing": [
+    0,
+    1,
+    2,
+    3,
+    5
    ]
   },
   {
@@ -4459,18 +4471,6 @@
    ]
   },
   {
-   "slug": "gb-din-ansi-fastener-standards-export-guide",
-   "lang": "zh",
-   "coverage": 0.33,
-   "sections": 6,
-   "missing": [
-    0,
-    1,
-    2,
-    3
-   ]
-  },
-  {
    "slug": "marine-grade-fastener-selection-guide",
    "lang": "es",
    "coverage": 0.33,
@@ -5414,6 +5414,28 @@
    ]
   },
   {
+   "slug": "libya-tripoli-construction-fastener-sourcing",
+   "lang": "es",
+   "coverage": 0.5,
+   "sections": 7,
+   "missing": [
+    2,
+    4,
+    5
+   ]
+  },
+  {
+   "slug": "libya-tripoli-construction-fastener-sourcing",
+   "lang": "de",
+   "coverage": 0.5,
+   "sections": 7,
+   "missing": [
+    2,
+    4,
+    5
+   ]
+  },
+  {
    "slug": "machine-screws-specifications",
    "lang": "zh",
    "coverage": 0.5,
@@ -5455,6 +5477,17 @@
     1,
     3,
     4
+   ]
+  },
+  {
+   "slug": "nigeria-abuja-construction-fastener-standards",
+   "lang": "de",
+   "coverage": 0.5,
+   "sections": 7,
+   "missing": [
+    3,
+    4,
+    5
    ]
   },
   {
@@ -6064,6 +6097,16 @@
    ]
   },
   {
+   "slug": "fastener-common-problems-solutions",
+   "lang": "zh",
+   "coverage": 0.6,
+   "sections": 5,
+   "missing": [
+    3,
+    4
+   ]
+  },
+  {
    "slug": "fastener-galvanic-corrosion-prevention-guide",
    "lang": "hi",
    "coverage": 0.6,
@@ -6251,6 +6294,26 @@
    "missing": [
     1,
     3
+   ]
+  },
+  {
+   "slug": "gb-din-ansi-fastener-standards-export-guide",
+   "lang": "es",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    4,
+    5
+   ]
+  },
+  {
+   "slug": "libya-tripoli-construction-fastener-sourcing",
+   "lang": "pt",
+   "coverage": 0.67,
+   "sections": 7,
+   "missing": [
+    4,
+    5
    ]
   },
   {
@@ -6719,6 +6782,78 @@
    "sections": 4,
    "missing": [
     3
+   ]
+  },
+  {
+   "slug": "mozambique-hardware-supplier",
+   "lang": "es",
+   "coverage": 0.75,
+   "sections": 4,
+   "missing": [
+    2
+   ]
+  },
+  {
+   "slug": "mozambique-hardware-supplier",
+   "lang": "ar",
+   "coverage": 0.75,
+   "sections": 4,
+   "missing": [
+    2
+   ]
+  },
+  {
+   "slug": "mozambique-hardware-supplier",
+   "lang": "fr",
+   "coverage": 0.75,
+   "sections": 4,
+   "missing": [
+    2
+   ]
+  },
+  {
+   "slug": "mozambique-hardware-supplier",
+   "lang": "pt",
+   "coverage": 0.75,
+   "sections": 4,
+   "missing": [
+    2
+   ]
+  },
+  {
+   "slug": "mozambique-hardware-supplier",
+   "lang": "ru",
+   "coverage": 0.75,
+   "sections": 4,
+   "missing": [
+    2
+   ]
+  },
+  {
+   "slug": "mozambique-hardware-supplier",
+   "lang": "ja",
+   "coverage": 0.75,
+   "sections": 4,
+   "missing": [
+    2
+   ]
+  },
+  {
+   "slug": "mozambique-hardware-supplier",
+   "lang": "de",
+   "coverage": 0.75,
+   "sections": 4,
+   "missing": [
+    2
+   ]
+  },
+  {
+   "slug": "mozambique-hardware-supplier",
+   "lang": "hi",
+   "coverage": 0.75,
+   "sections": 4,
+   "missing": [
+    2
    ]
   },
   {

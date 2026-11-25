@@ -103,7 +103,7 @@ export const productGridCopy = {
   },
   quoteNote: {
     en: 'Quote on request',
-    zh: '工厂直供 · 按需报价',
+    zh: '工厂直采 · 按需报价',
     es: 'Cotización a solicitud',
     fr: 'Devis sur demande',
     pt: 'Cotação sob consulta',
@@ -487,14 +487,14 @@ export const chatFallback = L10(
 // 避免非英语页面出现英文 CTA（2026-11-24 修）
 export const articleCta = {
   text: L10(
-    'Need fasteners in bulk? Get a factory-direct quote from TradeGo.',
-    '需要批量采购紧固件？获取 TradeGo 工厂直供报价。',
+    'Need fasteners in bulk? Get a mill-direct quote from TradeGo.',
+    '需要批量采购紧固件？获取 TradeGo 工厂直采报价。',
     '¿Necesita fijaciones al por mayor? Solicite una cotización directa de fábrica.',
     'Besoin de visserie en gros ? Demandez un devis direct usine.',
     'Precisa de fixações a granel? Peça uma cotação direta de fábrica.',
     'هل تحتاج مثبتات بالجملة؟ اطلب عرض سعر مباشرًا من المصنع.',
     'Нужны крепёжные изделия оптом? Запросите цену напрямую с завода.',
-    'ボルト・ねじをまとめて調達されますか。工場直送の見積をご依頼ください。',
+    'ボルト・ねじをまとめて調達されますか。工場直調達の見積をご依頼ください。',
     'Benötigen Sie Verbindungselemente in großen Mengen? Fordern Sie ein Direktangebot ab Werk an.',
     'बल्क में फास्टनर चाहिए? फैक्ट्री-डायरेक्ट कोटेशन मांगें।',
   ),

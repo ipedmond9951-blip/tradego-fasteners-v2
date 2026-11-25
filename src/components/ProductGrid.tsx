@@ -11,8 +11,8 @@ import { productGridCopy } from '@/lib/uiCopy'
 interface ProductGridProps { locale?: Locale }
 
 const heading: Record<string, { featured: string; featuredSub: string; all: string; inStock: string; tag: string }> = {
-  en: { featured: 'Featured products', featuredSub: 'Our most requested lines for Zimbabwe and Southern Africa — factory direct, quote on request.', all: 'All products by category', inStock: '59 lines in the production programme', tag: 'Bestseller' },
-  zh: { featured: '重点推荐', featuredSub: '面向津巴布韦与南部非洲最常被询价的品类，工厂直供、按需报价。', all: '全部产品（按品类）', inStock: '59 个品类常备生产', tag: '主推' },
+  en: { featured: 'Featured products', featuredSub: 'Our most requested lines for Zimbabwe and Southern Africa — mill-direct, quote on request.', all: 'All products by category', inStock: '59 lines in the production programme', tag: 'Bestseller' },
+  zh: { featured: '重点推荐', featuredSub: '面向津巴布韦与南部非洲最常被询价的品类，工厂直采、按需报价。', all: '全部产品（按品类）', inStock: '59 个品类常备生产', tag: '主推' },
   es: { featured: 'Productos destacados', featuredSub: 'Las líneas más solicitadas para Zimbabue y el sur de África.', all: 'Todos los productos por categoría', inStock: '59 líneas en programa', tag: 'Más vendido' },
   fr: { featured: 'Produits phares', featuredSub: 'Nos lignes les plus demandées pour le Zimbabwe et l’Afrique australe.', all: 'Tous les produits par catégorie', inStock: '59 lignes au programme', tag: 'Best-seller' },
   pt: { featured: 'Produtos em destaque', featuredSub: 'As linhas mais procuradas para o Zimbabué e a África Austral.', all: 'Todos os produtos por categoria', inStock: '59 linhas em catálogo', tag: 'Mais vendido' },

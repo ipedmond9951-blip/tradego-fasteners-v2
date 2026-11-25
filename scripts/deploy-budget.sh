@@ -18,13 +18,14 @@ LIMIT="${DEPLOY_DAILY_LIMIT:-3}"
 PROJECT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 LEDGER="$PROJECT_DIR/logs/deploy-budget.json"
 PROJECT_ID="${VERCEL_PROJECT_ID:-prj_3D7E2O74NPWtxH9vQM5zWkGy9lVZ}"
-AUTH="$HOME/Library/Application Support/com.vercel.cli/auth.json"
+AUTH="${VERCEL_AUTH_FILE:-$HOME/Library/Application Support/com.vercel.cli/auth.json}"
+HIST="${DEPLOY_HIST:-$PROJECT_DIR/logs/deploy-history.jsonl}"
 
 [ "${DEPLOY_FORCE:-0}" = "1" ] && { echo "⚠️ DEPLOY_FORCE=1，跳过部署预算检查"; exit 0; }
 
 mkdir -p "$PROJECT_DIR/logs"
 
-python3 - "$LEDGER" "$LIMIT" "$PROJECT_ID" "$AUTH" "$PROJECT_DIR/logs/deploy-history.jsonl" <<'PY'
+python3 - "$LEDGER" "$LIMIT" "$PROJECT_ID" "$AUTH" "$HIST" <<'PY'
 import json, os, sys, time, datetime, urllib.request
 
 ledger_path, limit, project_id, auth_path, hist_path = sys.argv[1], int(sys.argv[2]), sys.argv[3], sys.argv[4], sys.argv[5]
@@ -60,6 +61,7 @@ local_count = int(d.get('count', 0))
 
 # 真实构建台账 deploy-history.jsonl(按 uid 持久化, 删部署不影响计数) —— 权威口径
 hist_count = 0
+hist_ok = os.path.exists(hist_path)
 try:
     for line in open(hist_path):
         line = line.strip()
@@ -77,6 +79,13 @@ if api_count is not None:
     src.append('Vercel=%d' % api_count)
 src.append('本地=%d' % local_count); src.append('台账=%d' % hist_count)
 print('📊 今日已发生部署: %d / 预算 %d（%s；%s）' % (count, limit, today, ' '.join(src)))
+
+# fail-closed（2026-11-25 用户口径：护栏/预算类脚本上游读不到数据时不能放行）
+# Vercel API 读不到、且本地 uid 台账也不存在 → 无法判定当天真实构建数，一律拦下。
+if api_count is None and not hist_ok:
+    print('❌ 上游(Vercel API)与本地台账都不可读，无法判定今日构建数 —— 按 fail-closed 拦下。')
+    print('   确认当天确实没有构建过，再用 DEPLOY_FORCE=1 git push 显式放行。')
+    raise SystemExit(1)
 
 # 2026-11-25 修: 原先只有 api_count 有效时才拦，API 一失败(401/超时)就直接放行，
 # 结果今天真实推到 10 次。预算判定不该依赖 API 是否读得到 —— 取 max 的任何一个来源够数就拦。

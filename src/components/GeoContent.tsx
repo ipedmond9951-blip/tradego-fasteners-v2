@@ -44,8 +44,8 @@ const regionalContent: Record<string, Record<string, { promotion: string; shippi
     zh: { promotion: '莫桑比克批量订单 — 最高15%折扣', shipping: '海运至马普托，25-30天', payment: '接受付款: T/T, L/C, 支付宝, 微信' },
   },
   ZW: {
-    en: { promotion: 'Zimbabwe customers — factory direct pricing', shipping: 'Sea freight to Beira, 28-33 days', payment: 'Accepted: T/T, L/C, Alipay, WeChat Pay' },
-    zh: { promotion: '津巴布韦客户 — 工厂直供价格', shipping: '海运至贝拉，28-33天', payment: '接受付款: T/T, L/C, 支付宝, 微信' },
+    en: { promotion: 'Zimbabwe customers — mill-direct pricing', shipping: 'Sea freight to Beira, 28-33 days', payment: 'Accepted: T/T, L/C, Alipay, WeChat Pay' },
+    zh: { promotion: '津巴布韦客户 — 工厂直采价格', shipping: '海运至贝拉，28-33天', payment: '接受付款: T/T, L/C, 支付宝, 微信' },
   },
   ZM: {
     en: { promotion: 'Zambia construction — CE & made to SABS 1195 spec products', shipping: 'Sea freight to Durban, 30-35 days + transit', payment: 'Accepted: T/T, L/C, Alipay, WeChat Pay' },
