@@ -10,11 +10,11 @@
 
 | 项 | 值 |
 |---|---|
-| 半译欠账 | **391 节 / 65 篇 / 5,950 英文词** |
-| 语种分布 | ja 1,772 / ru 1,507 / zh 930 / hi 889 / ar 852 |
+| 半译欠账 | **363 节 / 62 篇 / 5,293 英文词** |
+| 语种分布 | ja 1,695 / ru 1,288 / hi 857 / zh 796 / ar 657 |
 | 分区 | A 区 39 篇（不碰）｜B 区 225 篇（本线） |
 | 闸门 | `content_gate.py` 的 `body_lang_gate` 已上线（增量拦截，基线 = origin/main） |
-| 已清完的篇章 | 12 篇（见 `docs/T9-REPORT-B-2026-1125.md` §1） |
+| 已清完的篇章 | 16 篇（见 `docs/T9-REPORT-B-2026-1125.md` §1、§5） |
 | 推送 | 本线**只 commit 不 push**；`~/AgentOps/bin/content-push.sh` 在北京 00:00 统一推 |
 
 口径（务必用这个，别用"拉丁词总数"）：剥 HTML 标签 → 按非 ASCII 字符切段 → 只算连续 ≥4 个非代码英文词。
@@ -39,6 +39,7 @@
 | P1 | 20–40 词 | `--min 20` |
 | P2 | <20 词（收尾） | 全量 CSV |
 
+- **模板文优先**：对比表类模板（第 2 栏头塞英文合成产品名、单元格留 `Moderate`/`Low (uncoated)`/`4-6 weeks`）用 `scripts/fix_compare_template.py` 一条命令清 57 节，先 `--slug X --show` 看一篇再 `--apply`。
 - 清单文件：`docs/lang-mix-backlog-2026-1125.csv`（列 `slug,section,lang,latin_words,chars,sample`，按词量降序）。
 - **A 区 `tunisia-mediterranean-fastener-export-guide`（6 节 / 约 1.5k 词）永不在本线队列里**，它是全库最脏单篇，归 A 线。
 - 每清完一篇，跑一次 `lang_mix_audit.py` 记新总数，写进本文件 §0 与 T9 报告，别靠嘴记。
@@ -70,6 +71,9 @@ python3 scripts/content_gate.py --slug <slug>          # 期望"闸门通过"
 git add content/articles/<slug>.json
 git commit -m "content(T9b): <篇> <语种>§N 重写" -- content/articles/<slug>.json
 python3 scripts/article-claim.py release <slug> 今日头条分析
+
+# 回写一律走 json_rewrite，按 git HEAD 缩进落盘（否则整文件重排）
+python3 -c "import sys;sys.path.insert(0,'scripts');import json_rewrite as jr;d=jr.load(p);...;jr.dump_same(p,d)"
 ```
 
 提交前**打印接缝**：`print(body[i-160:i+60])` 看有没有残句或重复短句。
