@@ -249,7 +249,7 @@
     {
      "q": {
       "en": "What is the most common failure mode in Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications?",
-      "zh": "Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications 中最常见的失效模式是什么？",
+      "zh": "售后通用件为什么会顶替整车厂图纸件？",
       "es": "¿Cuál es el modo de falla más común en Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications?",
       "ar": "ما هو وضع الفشل الأكثر شيوعًا في Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications؟",
       "fr": "Quel est le mode de défaillance le plus courant dans Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications ?",
@@ -261,7 +261,7 @@
      },
      "a": {
       "en": "The most common failure mode in Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications is supplier-side quality control deficiency, accounting for over 60% of documented cases. Contributing factors include: missing ISO 9001 certification, inadequate mill test certificates, lack of pre-shipment third-party inspection, and incorrect grade marking. B2B buyers should require documentation before payment release and engage independent testing agencies for batch verification.",
-      "zh": "Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications 中最常见的失效模式是供应商端质量控制缺陷，占记录案例的 60% 以上。",
+      "zh": "汽车供应链里高发的差错，是拿售后渠道的目录件去替代图纸列明的规格件：目录号看似通用，直径、强度等级、表面处理与公差却未必对应整车厂要求，装到总成上出现紧固力矩不匹配、共振松动。采购若对着通用目录选件而非对照整车厂图纸与设备手册，首件确认环节又没把尺寸、标记与批次报告核齐，偏差就会随批量件流入装配线。整车级应用对连接件一致性要求高，错件混入后影响的不只是单台车。",
       "es": "El modo de falla más común en Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications es la deficiencia de control de calidad del lado del proveedor.",
       "fr": "Le mode de défaillance le plus courant dans Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications est la déficience du contrôle qualité côté fournisseur.",
       "pt": "O modo de falha mais comum em Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications é a deficiência de controle de qualidade do fornecedor.",
@@ -301,7 +301,7 @@
     {
      "q": {
       "en": "What is the typical cost of a Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications failure?",
-      "zh": "Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications 失效的典型成本是多少？",
+      "zh": "规格件被错用，整车厂侧的代价是什么？",
       "es": "¿Cuál es el costo típico de una falla de Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications?",
       "ar": "ما هي التكلفة النموذجية لفشل Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications؟",
       "fr": "Quel est le coût typique d'une défaillance de Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications ?",
@@ -313,7 +313,7 @@
      },
      "a": {
       "en": "The typical cost of a Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications failure ranges from USD 280,000 for small-scale incidents to USD 11.5 million for large infrastructure projects. The cost of preventive measures (third-party inspection, lab testing) is typically 0.5-1.5% of the order value, which is 10-100x cheaper than failure recovery costs. For high-value orders (above USD 50,000), professional failure analysis costs USD 1,500-5,000 per fastener and provides actionable intelligence for future procurement decisions.",
-      "zh": "Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications 失效的典型成本从小型事件的 28 万美元到大型基础设施项目的 1,150 万美元不等。预防措施的成本通常为订单价值的 0.5-1.5%，比失效恢复成本便宜 10-100 倍。",
+      "zh": "错规格件一旦进入整车装配链，代价从首件返工开始：装配线停线排查，已装车的批次拆解复检，问题批次若流出，还要面对整车厂的索赔与批次召回，逆向物流、客户沟通与品牌信誉损失接连发生。这些成本远高于首件阶段按图纸确认、批次留样送检的投入。汽车件的等级与规格必须锚定图纸而非通用目录，前置核验省下的是批量问题暴露后召回、索赔与产线返工的综合代价。",
       "es": "El costo típico de una falla de Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications oscila entre USD 280,000 y USD 11.5 millones.",
       "fr": "Le coût typique d'une défaillance de Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications varie de 280 000 USD à 11,5 millions USD.",
       "pt": "O custo típico de uma falha de Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications varia de USD 280,000 a USD 11,5 milhões.",
