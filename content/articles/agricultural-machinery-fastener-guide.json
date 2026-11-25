@@ -228,26 +228,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "How long does hot-dipped galvanized coating last in agricultural environments?"
+            "en": "How long does hot-dipped galvanized coating last in agricultural environments?",
+            "fr": "Dans les environnements agricoles, combien de temps dure le revêtement galvanisé à chaud ?"
           },
           "a": {
-            "en": "In moderate agricultural environments, hot-dipped galvanized coating (ISO 1461, 55–85 μm) provides 20–40 years of corrosion protection without maintenance. In highly corrosive environments such as livestock barns or near fertilizer storage, service life may be reduced to 10–15 years. Regular inspection for coating damage at welded areas and bolt head bearing surfaces is recommended."
+            "en": "In moderate agricultural environments, hot-dipped galvanized coating (ISO 1461, 55–85 μm) provides 20–40 years of corrosion protection without maintenance. In highly corrosive environments such as livestock barns or near fertilizer storage, service life may be reduced to 10–15 years. Regular inspection for coating damage at welded areas and bolt head bearing surfaces is recommended.",
+            "fr": "En conditions agricoles modérées, le revêtement galvanisé à chaud (ISO 1461, 55-85 µm) assure une protection anticorrosion de 20 à 40 ans sans entretien. Dans les environnements fortement corrosifs (étables, proximité des engrais), la durée de vie peut descendre à 10-15 ans. Il est recommandé d’inspecter régulièrement les zones soudées et les surfaces d’appui des têtes de vis pour détecter tout endommagement du revêtement."
           }
         },
         {
           "q": {
-            "en": "What coating is best for high-strength Class 10.9 bolts exposed to fertilizer?"
+            "en": "What coating is best for high-strength Class 10.9 bolts exposed to fertilizer?",
+            "fr": "Quel revêtement privilégier pour les boulons haute résistance de classe 10.9 exposés aux engrais ?"
           },
           "a": {
-            "en": "For Class 10.9 and higher strength bolts in fertilizer-exposed applications, zinc-nickel electroplating (ISO 4042) or zinc flake coating (ISO 10683) are the preferred options. Both provide excellent corrosion resistance without the hydrogen embrittlement risk associated with some electroplating processes on high-strength steel. Avoid standard zinc plating on Class 10.9+ bolts due to hydrogen embrittlement risk."
+            "en": "For Class 10.9 and higher strength bolts in fertilizer-exposed applications, zinc-nickel electroplating (ISO 4042) or zinc flake coating (ISO 10683) are the preferred options. Both provide excellent corrosion resistance without the hydrogen embrittlement risk associated with some electroplating processes on high-strength steel. Avoid standard zinc plating on Class 10.9+ bolts due to hydrogen embrittlement risk.",
+            "fr": "Pour les boulons de classe 10.9 et supérieurs en contact avec les engrais, le zingage nickelé électrolytique (ISO 4042) ou le revêtement lamellaire de zinc (ISO 10683) sont les solutions recommandées. Ces deux traitements offrent une excellente résistance à la corrosion sans risque de fragilisation par l’hydrogène, contrairement au zingage classique sur acier haute résistance."
           }
         },
         {
           "q": {
-            "en": "When should I use 316 stainless instead of 304 stainless in agricultural applications?"
+            "en": "When should I use 316 stainless instead of 304 stainless in agricultural applications?",
+            "fr": "Quand faut-il choisir de l’inox 316 plutôt que de l’inox 304 en agriculture ?"
           },
           "a": {
-            "en": "Use 316 stainless (A4-80, ISO 3506-1) whenever the fastener will be exposed to chloride-containing substances: manure with high salt content, irrigation water with high mineral content, coastal or saline farming environments, or silage storage where organic acids produce chloride byproducts. The 2–3% molybdenum content in 316 stainless provides critical pitting and crevice corrosion resistance that 304 stainless (A2-70) cannot provide in these conditions."
+            "en": "Use 316 stainless (A4-80, ISO 3506-1) whenever the fastener will be exposed to chloride-containing substances: manure with high salt content, irrigation water with high mineral content, coastal or saline farming environments, or silage storage where organic acids produce chloride byproducts. The 2–3% molybdenum content in 316 stainless provides critical pitting and crevice corrosion resistance that 304 stainless (A2-70) cannot provide in these conditions.",
+            "fr": "Utilisez de l’inox 316 (A4-80, ISO 3506-1) dès que la fixation est exposée aux chlorures : fumier riche en sel, eau d’irrigation fortement minéralisée, zones côtières ou salines, stockage d’ensilage produisant des acides organiques chlorés. La teneur de 2-3 % de molybdène confère à l’inox 316 une résistance au piquage et à la corrosion caverneuse que l’inox 304 (A2-70) ne peut garantir dans ces conditions."
           }
         }
       ],
