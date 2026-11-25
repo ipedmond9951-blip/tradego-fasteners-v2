@@ -19,6 +19,7 @@ Turbopack 直接拒绝解码：`Format error decoding Ico: The PNG is not in RGB
   python3 scripts/check-build-assets.py
   python3 scripts/check-build-assets.py --verbose
 """
+from __future__ import annotations
 
 import struct
 import sys
@@ -113,29 +114,31 @@ def check_ico(path: Path) -> None:
 
 
 def check_png(path: Path, min_side: int) -> None:
-    try:
-        from PIL import Image
-    except ImportError:
-        fail("缺少 Pillow（pip install pillow）", "python3 -m pip install pillow")
-        return
+    """只读 PNG 头（不依赖 Pillow）：签名 + IHDR 的宽高，够判断"能不能被构建解码"。"""
     rel = path.relative_to(ROOT)
     if not path.exists():
         fail(f"{rel} 不存在", "补一张正方形 PNG")
         return
     try:
-        im = Image.open(path)
-        w, h = im.size
-        im.load()
-    except Exception as exc:  # noqa: BLE001
-        fail(f"{rel} 打不开：{exc}", "重新导出 PNG")
+        head = path.read_bytes()[:33]
+    except OSError as exc:
+        fail(f"{rel} 读不了：{exc}", "重新导出 PNG")
         return
+    if head[:8] != b"\x89PNG\r\n\x1a\n" or head[12:16] != b"IHDR":
+        fail(f"{rel} 不是 PNG（签名/IHDR 不对）", "重新导出 PNG")
+        return
+    w, h = struct.unpack(">II", head[16:24])
+    color_type = head[25]
     if w != h:
         fail(f"{rel} 不是正方形（{w}×{h}）", "导出正方形 PNG")
         return
     if min(w, h) < min_side:
         fail(f"{rel} 太小（{w}×{h}，要求 ≥{min_side}）", f"导出 ≥{min_side}px 正方形 PNG")
         return
-    ok(f"{rel} {im.format} {w}×{h}")
+    if color_type != 6:
+        fail(f"{rel} 颜色类型 {color_type}（Turbopack 需要 RGBA=6）", "导出 RGBA PNG")
+        return
+    ok(f"{rel} PNG RGBA {w}×{h}")
 
 
 def main() -> int:
