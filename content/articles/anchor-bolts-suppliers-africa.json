@@ -247,6 +247,30 @@
       "hi": "हमारे पास J-बोल्ट, L-बोल्ट, स्वेज बोल्ट और हेडेड ऐंकर बोल्ट जैसे कस्टम ऐंकर बोल्ट डिज़ाइन के लिए इन-हाउस टूलिंग है। कस्टम डिज़ाइन में टूलिंग लीड टाइम 20–30 दिन लगता है, जिसके बाद उत्पादन का समय अलग से जुड़ता है।",
       "ru": "Собственный инструментальный участок позволяет изготавливать анкеры по спецпроекту: J-образные, L-образные, клинокрепежные и болты с головкой. Под заказную конфигурацию требуется 20–30 дней на оснастку, после чего добавляется время производства. Для расчета укажите чертеж, класс стали, покрытие, длину, диаметр и объём партии; нестандартные изгибы и длину оценивают отдельно от типовой номенклатуры."
      }
+    },
+    {
+     "q": {
+      "en": "How do I verify anchor bolt quality from Chinese suppliers?"
+     },
+     "a": {
+      "en": "Quality verification steps: 1) Request mill test certificates (MTC) per EN 10204 3.1, 2) Verify chemical composition (spectro test), 3) Check mechanical properties (tensile/yield testing), 4) Inspect galvanizing coating thickness (magnetic gauge), 5) Third-party inspection (SGS, Bureau Veritas) recommended for orders over $10,000."
+     }
+    },
+    {
+     "q": {
+      "en": "What is the typical MOQ for anchor bolts from Chinese manufacturers?"
+     },
+     "a": {
+      "en": "MOQ varies by type: standard L-bolts/J-bolts 500-1000 pcs, custom fabricated anchor assemblies 200-500 pcs, large structural anchors (M30+) 50-200 pcs. Sample orders of 10-50 pcs available at 2-3× unit price. FOB pricing benefits appear at 5,000+ kg orders."
+     }
+    },
+    {
+     "q": {
+      "en": "What certifications are required for anchor bolts entering African markets?"
+     },
+     "a": {
+      "en": "Required certifications by country: Kenya (KEBS mark), Tanzania (TBS certification), South Africa (SABS LOA), Nigeria (SON cap), Ghana (GSA approval). ISO 9001:2015 from manufacturer is universally accepted. CE marking required for EU-funded projects. FM/UL certifications for fire protection applications."
+     }
     }
    ]
   }
