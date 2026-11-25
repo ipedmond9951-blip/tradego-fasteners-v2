@@ -98,3 +98,9 @@
 - 覆盖率：pt 215→240 条、fr 216→243 条（es 221、de 220、ru 214、ar 104、hi 184、ja 282、zh 512）
 - 顺手修两处坏问答：贝拉冷链篇的占位问句（"What are the key considerations for…"）与 Maputo LNG 篇"整段当成问句"的条目，后者拆成两个真问题。
 - 仍缺 pt/fr 的候选：`republic-of-congo-fastener-supplier`(5)、`drc-diamond-mining-fasteners`(7)、`drc-mining-concession-fastener-logistics`(3)、`mozambique-*` 已补完。
+
+## 北非 ar 批次（2026-11-25 23:10 PST / 11-26 15:10 CST）
+
+- `algeria-algiers-oil-gas-fastener-specifications`(5)、`egypt-suez-canal-industrial-fastener-tariff`(5)、`tunisia-mediterranean-fastener-export-guide`(5)、`libya-tripoli-construction-fastener-sourcing`(3)，共 18 条阿语问答。
+- 这 4 篇正文早已 100% 阿语化，只差 FAQ；补完后北非板块 ar 全部可渲染（FAQPage 同口径）。
+- 现状勘误：正文（body）已 9 语种 100% 本地化（1674/1674），之前"14547 条未本地化"全部是 FAQ 条目，其中大部分本来就不渲染，只影响覆盖度统计，不影响页面质量。
