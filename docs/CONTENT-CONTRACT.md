@@ -90,9 +90,9 @@ python3 scripts/content_gate.py --slug X # 单篇
 
 `git push` 只产生部署，不会自动切换生产域名。每次推送后：
 
-1. `bash scripts/vercel-promote.sh` 看最新 READY 部署与域名指向是否一致；
-2. `bash scripts/vercel-promote.sh --apply` 把域名指过去；
-3. 抽检一篇文章页，确认 `FAQPage` 与正文在位。
+100. `bash scripts/vercel-promote.sh` 看最新 READY 部署与域名指向是否一致；
+101. `bash scripts/vercel-promote.sh --apply` 把域名指过去；
+102. 抽检一篇文章页，确认 `FAQPage` 与正文在位。
 
 日常兜底已并入 `~/AgentOps/bin/content_audit.sh`（每天 08:35），无需手动记得。
 
@@ -100,9 +100,9 @@ python3 scripts/content_gate.py --slug X # 单篇
 
 这一轮把 BLOCK 从 151 清零、清掉 316 处不合规认证自述、补了几十篇正文，过程中暴露的问题比修掉的问题更值得记：
 
-1. **校验器要按"数据真实来源"判，不能按字段外形判。** FAQ 的正文由 `faqItems` 按语种渲染，`body.zh` 空着是正常的；按 body 判定会造出假 BLOCK（当轮 2 篇）。同理，任何"模板生成"的字段都不该进手写校验。
-2. **批量写入必须验编码。** U+FFFD 是丢字的物证，json 依然合法、字段依然非空，只有渲染出来才看得见。现已升级为 `encoding` BLOCK，扫描全库无残留。
-3. **补正文别凭字数感。** 手写中文段落实测比目标少 30~40% 汉字（英文同理），所以补写一律走 `scripts/append_body.py` 回显计数，不够就再补一轮。
+103. **校验器要按"数据真实来源"判，不能按字段外形判。** FAQ 的正文由 `faqItems` 按语种渲染，`body.zh` 空着是正常的；按 body 判定会造出假 BLOCK（当轮 2 篇）。同理，任何"模板生成"的字段都不该进手写校验。
+104. **批量写入必须验编码。** U+FFFD 是丢字的物证，json 依然合法、字段依然非空，只有渲染出来才看得见。现已升级为 `encoding` BLOCK，扫描全库无残留。
+105. **补正文别凭字数感。** 手写中文段落实测比目标少 30~40% 汉字（英文同理），所以补写一律走 `scripts/append_body.py` 回显计数，不够就再补一轮。
 4. **幂等键要稳，且语种必须显式。** 脚本按首 30 字判重，重复推送自动 skip；漏传 `--lang en` 会把英文段塞进中文正文，直接换成 `lang-leak` 问题。
 5. **批量改表述只能做短语级替换。** 整句模板替换会改到 `heading` 与 HTML 结构，一次写坏多语种标题，只能整目录回滚重来。
 6. **push 不等于上线。** Git 部署只更新 `git-main` 别名，生产域名要 `vercel-promote.sh --apply`；预算闸门按 Asia/Shanghai 计，CANCELED 记录延迟生成，prune 要跑第二次。
@@ -194,7 +194,7 @@ python3 scripts/content_gate.py --slug X # 单篇
 
 69. **跨对话协作没有消息通道，唯一可靠的通道是仓库。** 与"今日头条分析"那条线分工，口头说好没用：两边各写一份排期就必然打架（段落化口径 8 语种 8,318 节 vs 我只做 es/fr/pt 93 篇、标题短写 905 个 vs 13 篇、入链两个口径）。落成三样东西才成立：**一份总排期**（谁都能读、顶部写"唯一排期"）+ **分区清单 CSV**（每篇一个 owner，不重叠）+ **领锁脚本**（`article-claim.py`，30 分钟 TTL）。另一方旧排期不删，加"已并入、不要再据此排期"横幅和 W→T 映射，避免有人照着旧表动手。
 
-75. **按"前缀"替换正文段落一定会留残句，同一轮我犯了两次。** `rep()` 用 `startswith` 命中原段前缀后把新文字接上去，原段的**后半截**仍然留在原地：`ibr-roofing-nails` 的中文首段变成"以每年6.8%的速度增长…"（主语被删掉了），`high-tensile` 变成"…连接件。与普通六角螺栓不同钢结构中承受载荷的连接…"（重复短语）。**规则：改首段只允许"整段替换"（替换到 `</p>` 为止），或替换后立刻打印首段纯文本念一遍；残句特征是无主语动词开头、或出现两个"与…不同"。**
+106. **按"前缀"替换正文段落一定会留残句，同一轮我犯了两次。** `rep()` 用 `startswith` 命中原段前缀后把新文字接上去，原段的**后半截**仍然留在原地：`ibr-roofing-nails` 的中文首段变成"以每年6.8%的速度增长…"（主语被删掉了），`high-tensile` 变成"…连接件。与普通六角螺栓不同钢结构中承受载荷的连接…"（重复短语）。**规则：改首段只允许"整段替换"（替换到 `</p>` 为止），或替换后立刻打印首段纯文本念一遍；残句特征是无主语动词开头、或出现两个"与…不同"。**
 
 
 76. **把"另一种语言"写进语言字段，只有 script 计数能抓。** 重写 `uganda-oil-refinery-fastener-requirements` 的 ru §5 时，我把整段阿拉伯语写进了 `body.ru`——英文 0 处、label 0 处，看着完全"干净"，只有 `script 1 处` 亮红灯，`body_lang_gate` 直接 BLOCK。**规则：整段重写后必过 `check-body-lang.py --slug`，`script` 不为 0 一律当写错字段处理；多语种批量同日作业时，字段名和语种在脚本里显式打印一次。**
@@ -234,8 +234,10 @@ python3 scripts/content_gate.py --slug X # 单篇
 
 88. **FAQ 语种覆盖是当前最大的 GEO 空白，而且被"native-only"策略放大了。** 全库 1,060 条 FAQ、1,044 条唯一问句（模板复用率低，不是模板病），但 `page.tsx` 只渲染原生问答，缺该语种就整节不输出。实测 **220 篇文章存在语种缺口**（B 区 190），其中 125 篇十语种里只剩 en：zh 131、ru 214、ar 207、es 211、fr 208、de 212、pt 210、ja 195、hi 225 篇缺问答。首页/文章页的 FAQPage 结构化数据在非英语版本上基本是空的——这正是 AI 引擎最爱引用的版块。清单：`docs/faq-native-gap-2026-1125.csv`（slug / faq_items / missing_locales / owner_zone）。补齐顺序：zh → ja → ru/ar，其余按 GSC 曝光排；补写时按英文 5 条逐条译，不套用通用问答。
 
-92. **国家商业页的病灶是"同一句模板复制到多处"，不是段落质量。** 莫桑比克页 1615 词里有 4 处跨语种复制的模板段（"本采购框架适用于…"、"Supplier evaluation should be…"、"The verification checklist applies to…"），删掉后 en 从 60 分变 100 分，字数只掉了 200。**规则：整块重写前先 `grep -c` 每句的首 8 个词，出现 ≥2 次的句子整句删；这类页按读者决策顺序重排（选港→运费单证→按项目配货→内陆→考察供应商→FAQ），不要逐段润色。**
-93. **正文里出现字面 `undefined` 会被 dirty-text 闸门抓。** 写"只写工艺不写厚度，等于把厚度留成 undefined"，被报 `WARN [dirty-text]`。**规则：想表达"未定义"就写 open to interpretation / 留给对方决定，不要直接借用程序词。**
-94. **多语种 `faqItems` 扩写要逐项 update，不能整体重建列表。** 该页 faqItems 只有 en/pt/ja 三语种，若新建列表写 en/zh，pt/ja 会整批消失。**规则：`old_faq = list(fq["faqItems"])` 后按下标取原 dict，只覆写 `q["en"]/q["zh"]/a["en"]/a["zh"]`；改完核对 `list(x["q"].keys())`。**
-95. **中文正文的实体密度靠 M 规格，不靠中文单位。** 写"镀层 40 至 85 微米、起步量 500 公斤"一个都不计数（ENT 只认 mm/MPa/kg 这类拉丁单位和 M 规格），补"M10、M12、M16、M20、M24"后 zh ent 2.3→10.2。**规则：中文段里至少留一串 M 规格或带符号的数值。**
+107. **国家商业页的病灶是"同一句模板复制到多处"，不是段落质量。** 莫桑比克页 1615 词里有 4 处跨语种复制的模板段（"本采购框架适用于…"、"Supplier evaluation should be…"、"The verification checklist applies to…"），删掉后 en 从 60 分变 100 分，字数只掉了 200。**规则：整块重写前先 `grep -c` 每句的首 8 个词，出现 ≥2 次的句子整句删；这类页按读者决策顺序重排（选港→运费单证→按项目配货→内陆→考察供应商→FAQ），不要逐段润色。**
+108. **正文里出现字面 `undefined` 会被 dirty-text 闸门抓。** 写"只写工艺不写厚度，等于把厚度留成 undefined"，被报 `WARN [dirty-text]`。**规则：想表达"未定义"就写 open to interpretation / 留给对方决定，不要直接借用程序词。**
+109. **多语种 `faqItems` 扩写要逐项 update，不能整体重建列表。** 该页 faqItems 只有 en/pt/ja 三语种，若新建列表写 en/zh，pt/ja 会整批消失。**规则：`old_faq = list(fq["faqItems"])` 后按下标取原 dict，只覆写 `q["en"]/q["zh"]/a["en"]/a["zh"]`；改完核对 `list(x["q"].keys())`。**
+110. **中文正文的实体密度靠 M 规格，不靠中文单位。** 写"镀层 40 至 85 微米、起步量 500 公斤"一个都不计数（ENT 只认 mm/MPa/kg 这类拉丁单位和 M 规格），补"M10、M12、M16、M20、M24"后 zh ent 2.3→10.2。**规则：中文段里至少留一串 M 规格或带符号的数值。**
 
+
+105. **FAQ 的问答错位没有任何闸门能查，只能人读。** `anchor-bolts-suppliers-africa` 的 `faqItems` 里第 2、3 条的 `q` 字段装的是上一题的答案段落（"Standard lead time is 15-25 days…"、"For tropical/coastal Africa: Hot-dip galvanized…"），真正的问句被挤掉了。页面照样渲染，FAQPage 结构化数据里就出现"一个问题位塞着一段陈述"。**规则：补任何语种 FAQ 前，先把英文 `q` 逐条读一遍确认是问句；发现错位先修 en 的 `q`，再按修好的问句译各语种。**
