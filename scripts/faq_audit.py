@@ -27,9 +27,18 @@ FAQ_HEADING = re.compile(
 
 
 def faq_sections(doc):
+    """识别含 FAQ 的 section。
+
+    口径（2026-11-26 修订，T9h-ru）：heading 命中 FAQ 关键词 **或** 该 section 带
+    `faqItems`，两者取并集。旧口径只认 heading，导致"FAQ 条目挂在非 FAQ 命名小节里"
+    的文章整篇不计入（实测 257 篇 vs 真实 279 篇，carriage-bolts-specifications /
+    construction-fastener-standards-comparison / nylon-nuts-bolts-guide 等恒显示
+    「含 FAQ 文章 0 篇」，漏掉它们的语种缺口）。页面渲染看的是 `faqItems` 是否存在，
+    所以按 `faqItems` 为准更接近真实 FAQ 面；`FAQ_HEADING` 保留用于诊断（--slug 里
+    仍会标出 heading 是否命中，便于发现"FAQ 条目挂错小节"的结构问题）。
+    """
     for sec in doc.get("sections", []):
-        head = (sec.get("heading") or {}).get("en", "") + " " + str(sec.get("id", ""))
-        if FAQ_HEADING.search(head) and sec.get("faqItems"):
+        if sec.get("faqItems"):
             yield sec
 
 
