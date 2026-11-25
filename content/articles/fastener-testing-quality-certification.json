@@ -223,31 +223,37 @@
     {
      "q": {
       "en": "What is the difference between a mill test report (MTR) and a certificate of conformance (COC)?",
-      "zh": "材质检测报告和合格证有什么区别？"
+      "zh": "材质检测报告和合格证有什么区别？",
+      "hi": "MTR और COC में क्या फ़र्क है?"
      },
      "a": {
       "en": "A Mill Test Report (MTR) or Material Test Report contains actual measured test values from testing of the specific batch — it is quantitative data. A Certificate of Conformance (COC) or Certificate of Compliance simply states that the product meets the specified requirements — it does not provide actual test data. Always request MTRs, not just COCs. A COC from an unverified supplier could simply be a document saying 'these bolts are Grade 10.9' with no actual evidence. Insist on MTRs with actual chemical and mechanical values.",
-      "zh": "材质检测报告（MTR，Mill Test Report）给出该批次紧固件实测的化学成分与力学性能数据，属于定量记录；合格证（COC，Certificate of Conformance）只声明产品符合规定要求，不含任何实测数据。下单时应坚持索要 MTR，而不是仅凭 COC——未经核实的供应商开出的 COC 可能只写了“10.9 级”字样，却没有实测依据。合同里应明确随货提供带实际化学与力学数值的 MTR。"
+      "zh": "材质检测报告（MTR，Mill Test Report）给出该批次紧固件实测的化学成分与力学性能数据，属于定量记录；合格证（COC，Certificate of Conformance）只声明产品符合规定要求，不含任何实测数据。下单时应坚持索要 MTR，而不是仅凭 COC——未经核实的供应商开出的 COC 可能只写了“10.9 级”字样，却没有实测依据。合同里应明确随货提供带实际化学与力学数值的 MTR。",
+      "hi": "मिल टेस्ट रिपोर्ट (MTR) में उस खास लॉट के असली मापे गए परीक्षण मान होते हैं — यह मात्रात्मक डेटा है। कन्फॉर्मेंस सर्टिफ़िकेट (COC) सिर्फ़ यह बताता है कि उत्पाद तय शर्तों को पूरा करता है, असली परीक्षण डेटा उसमें नहीं। हमेशा MTR माँगें, सिर्फ़ COC नहीं। बिना जाँचे आपूर्तिकर्ता का COC ऐसा दस्तावेज़ हो सकता है जिस पर बोल्ट ग्रेड 10.9 लिखा हो, पर कोई सबूत न हो; रासायनिक और यांत्रिक मान वाला MTR ही ज़रूर रखें।"
      }
     },
     {
      "q": {
       "en": "How do I verify fastener grade marking is correct?",
-      "zh": "怎么核对螺栓上的等级标记？"
+      "zh": "怎么核对螺栓上的等级标记？",
+      "hi": "ग्रेड की निशानी सही है या नहीं कैसे जाँचें?"
      },
      "a": {
       "en": "Verify markings: metric hex bolts grade 8.8 are marked '8.8' on the head; Grade 10.9 marked '10.9'; Grade 12.9 marked '12.9'; ISO standard also requires manufacturer identification mark. Imperial (UNC/UNF) grades use radial lines (3 lines for Grade 5, 6 lines for Grade 8). If in doubt, hardness testing with a portable hardness tester provides a non-destructive verification of strength. Send samples to a testing lab for full tensile testing if critical application.",
-      "zh": "公制六角螺栓头部应打等级标记：8.8 级标“8.8”，10.9 级标“10.9”，12.9 级标“12.9”，按 ISO 标准还需带制造商识别标记。英制 UNC/UNF 用头部放射线条纹区分：5 级三条线，8 级六条线。有疑问时可用便携式硬度计做无损核验；属于关键工况的，应抽样送检测实验室做完整拉伸试验。"
+      "zh": "公制六角螺栓头部应打等级标记：8.8 级标“8.8”，10.9 级标“10.9”，12.9 级标“12.9”，按 ISO 标准还需带制造商识别标记。英制 UNC/UNF 用头部放射线条纹区分：5 级三条线，8 级六条线。有疑问时可用便携式硬度计做无损核验；属于关键工况的，应抽样送检测实验室做完整拉伸试验。",
+      "hi": "निशानी देखें: मीट्रिक हेक्स बोल्ट ग्रेड 8.8 पर सिर पर '8.8', ग्रेड 10.9 पर '10.9', ग्रेड 12.9 पर '12.9' अंकित होते हैं; ISO मानक निर्माता पहचान चिह्न भी चाहता है। इम्पीरियल (UNC/UNF) ग्रेड रेडियल लाइनों से बताए जाते हैं — ग्रेड 5 पर तीन और ग्रेड 8 पर छह लाइन। शक होने पर पोर्टेबल हार्डनेस टेस्टर से गैर-नष्टीकारक जाँच होती है; महत्वपूर्ण लगान वाले हिस्से के लिए नमूना पूर्ण तनाव परीक्षण को प्रयोगशाला भेजें।"
      }
     },
     {
      "q": {
       "en": "Are batch test reports sufficient or do I need to test every fastener?",
-      "zh": "批次抽检报告够用吗，还要逐件检测？"
+      "zh": "批次抽检报告够用吗，还要逐件检测？",
+      "hi": "लॉट रिपोर्ट काफ़ी हैं, या हर फास्टनर का परीक्षण चाहिए?"
      },
      "a": {
       "en": "Batch testing is standard industry practice — one sample per batch is destructively tested to represent the entire batch. Batch sizes vary by manufacturer, typically 1,000-10,000 pieces per batch for hex bolts. For construction codes that require it (ASTM A325, A490), specific sampling rates are defined in the standard. For most standard applications, MTRs from the manufacturer's batch testing are sufficient. For extremely critical applications (seismic, nuclear, aerospace), 100% testing (every fastener tested) may be required, which significantly increases cost.",
-      "zh": "批次抽检是行业通行做法：每批抽一件做破坏性试验，结果代表整批。六角螺栓常见批量为每批 1,000–10,000 件；按 ASTM A325、A490 等建筑规范，标准内规定了具体抽样比例。一般普通用途凭厂家批次检测出具的 MTR 即可满足；抗震、核电、航空航天等极关键场合可能要求 100% 逐件检测，成本会明显上升。"
+      "zh": "批次抽检是行业通行做法：每批抽一件做破坏性试验，结果代表整批。六角螺栓常见批量为每批 1,000–10,000 件；按 ASTM A325、A490 等建筑规范，标准内规定了具体抽样比例。一般普通用途凭厂家批次检测出具的 MTR 即可满足；抗震、核电、航空航天等极关键场合可能要求 100% 逐件检测，成本会明显上升。",
+      "hi": "लॉट परीक्षण सामान्य पद्धति है: एक लॉट के प्रतिनिधि नमूने का नष्टीकारक परीक्षण पूरे लॉट के लिए माना जाता है। हेक्स बोल्ट का लॉट आम तौर पर 1,000–10,000 पीस का होता है। ASTM A325, A490 जैसे निर्माण कोड में मानक के हिसाब से नमूनाकरण दरें तय हैं। साधारण लगान के लिए निर्माता के MTR पर्याप्त होते हैं। भूकंपीय, परमाणु या एयरोस्पेस जैसे अति महत्वपूर्ण कामों में 100% परीक्षण चाहिए हो सकता है, जिससे लागत काफ़ी बढ़ती है।"
      }
     }
    ],
