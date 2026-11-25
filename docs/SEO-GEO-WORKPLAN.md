@@ -1,146 +1,153 @@
-# SEO/GEO 总排期与分工（2026-11-25 起 30 天）
+# SEO/GEO 总排期与分工（合并版 · 2026-11-25 20:40 起）
 
-> 这份文件回答"这周谁做什么、按什么顺序、做完什么算完"。它不重复口径，也不重复工单明细。
+> 这份文件回答"这周谁做什么、按什么顺序、做完什么算完"。口径不在本文件，工单明细也不在本文件。
 
 ## 0. 读文件顺序（其他对话开工前照这个来）
 
-1. `docs/SEO-GEO-STRATEGY.md` — **口径**：认证/单证/价格/地域怎么写，谁能写哪里，验收闸门。改文案前必读。
-2. `docs/seo-geo-worklist-2026-1125.csv` + `docs/seo-geo-worklist-guide-2026-1125.md` — **工单**：一篇一行，`batch`/`issues`/`actions`。重跑 `python3 scripts/build-seo-geo-worklist.py` 即更新，别手改。
-3. 本文件 — **排期与分工**：批次先后、任务卡、owner、窗口、交付物。
-4. `docs/reports/seo-geo-<日期>.md` — **度量**：每天 20:16 由 `bash scripts/seo-geo-weekly.sh` 自动生成。
+1. `docs/SEO-GEO-STRATEGY.md` — **口径**：认证/单证/价格/地域怎么写，谁能写哪里。改文案前必读。
+2. `docs/SEO-GEO-WORKPLAN.md`（本文件）— **排期、分区、任务卡、owner**。
+3. `docs/seo-geo-worklist-2026-1125.csv` + `docs/seo-geo-worklist-guide-2026-1125.md` — **逐篇工单**，重跑 `python3 scripts/build-seo-geo-worklist.py` 更新，别手改。
+4. `docs/SEO-GEO-WORKPLAN-2026-1126.md`（今日头条分析线产出）— **明细附录**，W1–W6 的原始判据与清单出处，已并入本文件任务卡，不再作为排期依据。
+5. `docs/reports/seo-geo-<日期>.md` — **度量**，每日 20:16 自动生成。
 
-四者冲突时，以策略文件为准，其余三个重跑脚本对齐，不要手工调数字。
+四者冲突时以策略文件为准，其余重跑脚本对齐。
 
-## 1. 今天实测的现状（2026-11-25 20:20 CST，线上）
+## 1. 现状（2026-11-25 20:40，两线独立实测的一致结论）
 
-**已确认上线**：`origin/main == HEAD`（0 未推）、工作区干净；`https://www.tradego-fasteners.com/{en,zh,es,de,ar}/industry/china-iso-9001-fastener-manufacturer-directory/` 已返回新标题（en `China Fastener Suppliers: Certification by Order`）。批次 1 的 13 个 snippet 目标全部落地。sitemap 4,092 条，279 篇（264 篇计入 GEO 评分）。
+**已上线**：`origin/main == HEAD`（0 未推，工作区干净）；生产部署 `667780d3` 三域名一致；抽查 `/{en,zh,es,de,ar}/industry/china-iso-9001-fastener-manufacturer-directory/` 标题已是新口径。文章路径形态是 `/{locale}/industry/<slug>/`（用 `/articles/` 测会 404）。
 
-**GEO 均分按语种（这是本次最关键的发现）**
+**英文侧这一轮修得好，非英语侧几乎没动过**——这是两条线独立量出来的同一个结论：
 
-| 语种 | 均分 | A 90+ | E <60 | 说明 |
-|---|---|---|---|---|
-| en | 62.7 | 11 | 106 | 基线，改进中 |
-| ru | 53.0 | 2 | 158 | 分数偏高，疑分词口径失真（见 T0） |
-| ar | 52.9 | 0 | 159 | |
-| zh | 51.0 | 2 | 190 | 节覆盖不足叠加 |
-| ja | 50.5 | 0 | 191 | |
-| hi | 50.4 | 2 | 202 | 首段巨型段最多（61 篇） |
-| de | 43.3 | 0 | 249 | |
-| fr | 41.3 | 0 | 247 | |
-| es | 40.9 | 0 | 248 | |
-| pt | 40.4 | 0 | 250 | |
+| 项 | 数值 | 来源 |
+|---|---|---|
+| GEO 均分（en 口径） | 62.7（A 11 / E 106） | geo_audit |
+| 语种均分 | en 62.7 / ru 53.0 / ar 52.9 / zh 51.0 / ja 50.5 / hi 50.4 / de 43.3 / fr 41.3 / es 40.9 / pt 40.4 | geo_audit --locale |
+| 非英语段落缺口 | 8,318 节（en 仅剩 24、zh 3） | geo_locale_plan |
+| 首段巨型段（>300 词） | hi 61 / fr 34 / es 31 / pt 28 / ar 11 / ru 9 / de 6 / en 2 | 本次实测 |
+| 标题 >55 字符 | 905 个「篇×语种」组合，其中非英语 834（es 154 / fr 150 / de 132 / ru 130 / pt 115 / ar 83 / hi 70） | 头条线 |
+| 非英语 FAQPage | 只有 en 输出；本地 FAQ 覆盖 en 100%、zh 47.7%、ar 10.6% | 头条线 |
+| 非英语正文英文残留 | 14 处（es/fr/pt/de 同段、ar 夹英文谓语等） | 头条线 |
+| 重复句 >15% | 120 篇 | 头条线 |
+| 模板文 | 11 篇 / 34 节（原 30 / 128） | check-template-filler |
+| 内容闸门 | 203 篇完全干净（77%）、0 BLOCK、WARN 65（全为 body-size） | content_gate --brief |
+| 就绪度缺口 | dup 134 / std 76 / entity 44 / link 29 / src 20 / lead 8 | check-geo-readiness（均分 87.4） |
+| 入链 | 正文出链中位 0；`relatedArticles` 口径零入链 18 篇 | 头条线 |
+| 金额断言 | 2,205 处 / 50 篇，价格语义 0 处 | check-money-claims |
+| GSC | 仍停在 11-22：点击 280 / 曝光 29,476 / CTR 0.95% | gsc-pages-2026-11-22.json |
+| 发布 | 今日部署 12 / 预算 3，拦截中；下一窗口上海 00:00 | deploy-budget |
 
-**为什么 es/pt/fr 只有 40 分**：抽查 `concrete-anchors-fasteners-guide`、`hex-bolt-dimensions-chart`，这三个语种的首段是 1,000–1,600 "词" 的巨型段（`p1` 权重 20 直接归零），正文没有"X 是指…"定义句（`def` 10 分归零），H2 全是名词短语（`qh` 15 分归零）。翻译把段落边界丢了，不是内容不够。首段 >300 词的篇数：hi 61、fr 34、es 31、pt 28、ar 11、ru 9、de 6、en 2、zh 0、ja 0。
+**为什么 es/pt/fr 只有 40 分**（抽查 `concrete-anchors-fasteners-guide`、`hex-bolt-dimensions-chart`）：首段 1,000–1,600 "词"（段落边界在翻译时丢失），`p1` 20 分归零；正文没有"X 是指…"定义句，`def` 10 分归零；H2 全是名词短语，`qh` 15 分归零。三块 45 分一起丢。
 
-**其他缺口（`check-geo-readiness.py`，均分 87.4）**：dup 134 / std 76 / entity 44 / link 29 / src 20 / lead 8 / fresh 5。
-
-**内容与合规**：`geo_audit` echo 141 篇、实体密度 <2 共 63 篇、FAQ 不足 3 条 0 篇；模板文 11 篇 / 34 节（原 30 / 128）；`content_gate --brief` 203 篇完全干净（77%）、0 BLOCK；`check-claims` 与 `check-cert-claims` 通过；金额断言 2,205 处但价格语义 0 处。
-
-**发布**：今日部署 12 / 预算 3，`deploy-budget.sh` 拦截中。**下一窗口是上海 00:00 的 launchd push + `vercel-promote.sh`**。今天所有内容改动已上线，新一轮改动要等这个窗口。
-
-**数据**：GSC 最新仍是 `gsc-pages-2026-11-22.json`（点击 280 / 曝光 29,476 / CTR 0.95%）。批次 1 的 CTR 效果要等 3–14 天，且需要重新导出才能验收。
+**一个量具问题（先修再用它下结论）**：`scripts/geo_audit.py` 的 `words()` 按空格切词，俄语出现过实体密度 155.6 这种失真值。ru/ar/ja 的分数在 T0 修完前只能当趋势看。
 
 ## 2. 阶段目标
 
 | 时点 | 目标 |
 |---|---|
-| 12-02（W1 末） | es/pt/fr 首段巨型段清零；三语种均分 ≥55；echo 141 → ≤100；部署回到 ≤3 次/天 |
-| 12-09（W2 末） | std 76 → ≤20、src 20 → ≤5、link 29 → 0；dup 134 → ≤60；模板文 11 → ≤5 |
-| 12-16（W3 末） | zh 节覆盖 27 → ≥80 篇满覆盖；新文 3 篇/周稳定产出 |
-| 12-23（W4 末） | GEO 全站均分 ≥75（en 基线口径）；GSC 回收一次，判定批次 1 CTR 是否达标（≥2.0%） |
+| 11-26 | 14 处英文残留清零（才能给 `check-body-lang` 挂 `--strict`）；T0 分词修完 |
+| 12-02 | es/pt/fr 首段巨型段清零，三语种均分 ≥55；905 个超长标题的非英语部分降到 ≤200；GEO 均分 ≥68 |
+| 12-09 | std 76 → ≤20、src 20 → ≤5、link 29 → 0、零入链 18 → 0；dup 120 → ≤60；模板文 11 → ≤5 |
+| 12-16 | 非英语段落覆盖率 ≥95%；ar 的 FAQ 覆盖 10.6% → ≥40%；GEO 均分 ≥72 |
+| 12-23 | GEO 均分 ≥75；GSC 回收，判定批次 1 CTR 是否 ≥2.0% |
 
-## 3. 任务卡（按顺序做，别插队）
+## 3. 先分区，再动文件（两条线唯一的防撞规则）
 
-每张卡的 `owner` 是唯一写权人。别人想动同一篇，先看 §4。
+**同一时刻，一篇 JSON 只能有一个 owner。** 分区按文章集，不按"我改标题你改正文"：
 
-### T0 修 GEO 评分器对 ru/ar/ja 的分词（0.5 天，工程类，先做）
-
-- **为什么**：ru 的 `ent` 出现 155.6 这种值，说明 `scripts/geo_audit.py` 的 `words()` 按空格切词，对西里尔/阿拉伯/日文失真。不修就先别拿 ru/ar/ja 的分数当验收线。
-- **怎么做**：改 `words()` 按脚本类型切（CJK 按字符×0.6、西里尔/阿拉伯按空格但过滤符号），改完对同一批 5 篇跑前后对照，输出记进 `docs/reports/`。
-- **验收**：同一篇 en 分数不变；ru/ar/ja 的 `ent` 落到 5–20 的合理区间；`bash scripts/seo-geo-weekly.sh` 跑通。
-- **owner**：seo-geo-main
-
-### T1 本地化段落修复（W1 核心，约 93 篇 × 部分语种）
-
-- **对象**：首段 >300 词的 es 31 / fr 34 / pt 28 篇，加 hi 61 篇（先做曝光高的 40 篇，按 `docs/geo-locale-para-plan-2026-1125.csv` 的顺序）。
-- **怎么做**：
-  ```bash
-  python3 scripts/article-claim.py claim <slug> seo-geo-main
-  python3 scripts/paragrapher.py --slug <slug> --locale es,fr,pt --show   # 先看切分结果
-  python3 scripts/paragrapher.py --slug <slug> --locale es,fr,pt --apply  # 再落盘
-  python3 scripts/geo_audit.py --slug <slug>
-  python3 scripts/article-claim.py release <slug> seo-geo-main
-  ```
-- **注意**：`--apply` 只动指定语种，别带 `--locale all`；落盘后立刻对比其它语种 md5 未变。
-- **验收**：该篇 es/pt/fr 的 `p1` 落在 40–130；语种均分上涨 ≥8 分；`content_gate --slug` 无新增 BLOCK。
-
-### T2 补定义句（与 T1 同批做，别分两次动文件）
-
-- **为什么**：`def` 占 10 分，es/pt/fr 几乎全为 0。
-- **怎么做**：在该篇首个 H2 后加一句"X 是指……"，用当地语言、≤40 词，含一个可核事实（标准号或尺寸范围）。同一批语种一起写，避免二次开同一 JSON。
-- **验收**：`geo_audit` 的 `def` = 1；句子能独立回答"这是什么"。
-
-### T3 H2 问题化（W1 后半，先 40 篇高曝光）
-
-- **为什么**：`qh` 占 15 分，全站 `qh` 普遍 0–0.14。
-- **怎么做**：每篇挑 2 个 H2 改成问句（en `How do I choose…` / `What thickness…`；zh「怎么选…」「为什么…」），10 语种 `heading` 同步改，正文可不动。
-- **验收**：`qh ≥ 0.25`；标题改动后 `check-body-lang --slug` 0 污染；关键词不堆砌。
-- **owner**：头条分析线（它已在做模板文重写，顺手改 heading）
-
-### T4 en 首段答案化（W1，21 篇）
-
-- **对象**：`scripts/geo_audit.py --top` 里 echo=1 且曝光最高的 21 篇（ISO 9001 篇已完成）。
-- **怎么做**：首段 40–60 词直接给结论（含一个数字），不复述标题；保留原文事实，不新增承诺。
-- **验收**：`echo` 0，`p1` 40–130，均分 ≥75。
-
-### T5 标准与来源补齐（W2，std 76 / src 20）
-
-- **怎么做**：正文补"标准号 + 机构 + 版本年"（ISO 898-1:2013、ASTM A307、SABS 1195、DIN 933），文末加"数据来源"段（GSC/协会/海关公开数据，写清年份）。
-- **验收**：`check-geo-readiness.py` 该篇 `std`、`src` 缺口消失；不得出现"已获认证"类表述。
-
-### T6 入链（W2，link 29）
-
-- **对象**：`docs/internal-link-plan-2026-1125.csv`、`docs/orphan-backlog-2026-1125.csv`。
-- **怎么做**：每篇加 2 条入链：同簇文章 1 条 + `/products` 或 `/documents` 1 条，锚文本用目标页真实主题词。
-- **验收**：该篇入链 ≥2；目标页不是重定向页。
-
-### T7 去重（W2–W3，dup 134）
-
-- **怎么做**：`python3 scripts/dedupe-sentences.py --slug <slug>` 先看，再人工改写重复整句（>15% 共用句的篇优先）。别整段删，改成当地市场的具体事实。
-- **验收**：`check-geo-readiness` 的 `dup` 归零；`content_gate` 通过。
-
-### T8 中文补齐 + 新文供给（W3）
-
-- **zh**：27 → ≥80 篇满覆盖（节覆盖 ≥0.9），按曝光排序，先 `zh` 曝光前 40 篇。
-- **新文**：每周 3 篇，只做三个簇（港口清关 / 标准选型 / 区域市场），每篇上线前 `geo_audit ≥70` 且 10 语种齐全。
-
-## 4. 分工与写权限
-
-| 线 | 能写 | 不能写 | 交付物 |
+| 分区 | 文章集 | owner | 做什么 |
 |---|---|---|---|
-| seo-geo-main（本对话） | `content/articles/*`（T1/T2/T4/T5/T8 认领的篇）、`scripts/*`、`docs/*` | 品牌资产、`src` 视觉层 | 任务卡完成记录 + 提交 |
-| 头条分析线 | 模板文 11 篇、heading 改写（T3） | 别人已领锁的篇、`scripts` | 篇章重写提交 |
-| vercel 运维线（A 线） | 只做发布：`vercel-promote.sh`、预算、审计 | **任何内容文件** | 部署台账、审计报告 |
-| 品牌/社媒线 | `public/brand/*`、logo/icon、社媒事实卡、`public/llms.txt` | `content/articles/*` | 品牌资产与事实卡同步 |
+| A 区 | `docs/seo-geo-main-owned-40-2026-1125.csv` 里的 39 篇（GSC 曝光最高） | seo-geo-main | 一篇一次做完 T2/T4/T5/T7 全部适用项 |
+| B 区 | 其余 225 篇 | 今日头条分析线 | T1/T3/T8（段落化、标题短写、非英语 FAQ） |
+| 全站工程 | `scripts/`、`docs/` | 按任务卡 owner | T0/T6、闸门接线 |
 
-**五条铁律**（违反一次就会重演整篇被覆盖的事故）：
+A 区的 39 篇，B 线**不要碰**（包括标题短写）；B 区这 225 篇我不碰。谁要把活干到对方分区，先改这张表并提交，再动手。
 
-1. 动文章先领锁 `python3 scripts/article-claim.py claim <slug> <线名>`，领不到换一篇。
-2. 原子单位是「一篇 × 全部语种」，同一个 JSON 只开一次、只改自己负责的字段。
-3. 只 `git add <具体路径>` 再 `git commit -- <同一路径>`；禁 `git add -A`、禁 `git add content`。
-4. 内容线只 commit 不 push；push 只在发布线上海 00:00 窗口做一次。
-5. 认证/单证/价格口径改动要三处同步：站点 UI、`public/llms.txt`、社媒事实卡。
+## 4. 任务卡
 
-## 5. 节奏
+### T0 修 `geo_audit` 对 ru/ar/ja 的分词（工程，0.5 天，先做）
+
+- 改 `words()` 按脚本类型切：CJK 按字符折算、西里尔/阿拉伯按空格但过滤符号与标点；同一批 5 篇跑前后对照。
+- **验收**：en 分数不变；ru/ar/ja 的 `ent` 落到 5–20；`seo-geo-weekly.sh` 跑通；改动记进当日周报。
+- owner：seo-geo-main。**做完立刻通知两条线，因为 T4 的验收线建立在它上面。**
+
+### T1 非英语段落化（B 区，5–6 天，8,318 节）
+
+- 顺序 es → pt → fr → de → ru → ar → hi → ja，按 `docs/geo-locale-para-plan-2026-1125.csv` 排。
+- 命令：`python3 scripts/paragrapher.py --slug <slug> --locale es,pt,fr --show` → 确认切分 → `--apply`；一篇一次只带自己的语种，别 `--locale all`。
+- **验收**：该语种段落覆盖率 ≥95%（`geo_locale_plan` 复查）；`p1` 落回 40–130；`content_gate --slug` 无新增 BLOCK；重复句不增加。
+- owner：今日头条分析线。
+
+### T2 定义句（A 区，与 T4 同批做）
+
+- 在该篇首个 H2 后加一句"X 是指…"，用当地语言、≤40 词、含一个可核事实（标准号或尺寸范围）。`def` 占 10 分，es/pt/fr 现为 0。
+- **验收**：`geo_audit` 的 `def`=1，句子能独立回答"这是什么"。
+- owner：seo-geo-main。
+
+### T3 905 个超长标题短写（B 区 + 全站清单，1–2 天）
+
+- 判据：`title` 超过 55 字符（代码 `slice(0, 55)+"..."` 会截断）。按曝光降序做，先 es/fr/de/ru。
+- 只改 `title[locale]`，不动正文；en 文案不要为了凑长度删掉差异点。
+- **验收**：`build-seo-geo-worklist.py` 里 B 区 `title>55` 归零（A 区 39 篇由我这边一并处理）；线上抽查 3 个语种标题无 `...` 截断。
+- owner：今日头条分析线。
+
+### T4 en 首段答案化 + H2 问题化（A 区）
+
+- 首段 40–60 词直接给结论（含一个数字），不复述标题；每篇挑 2 个 H2 改问句（`How do I…` / `What thickness…`），10 语种 `heading` 同步。
+- **验收**：`echo`=0、`p1` 40–130、`qh` ≥0.25、该篇均分 ≥75。
+- owner：seo-geo-main。
+
+### T5 标准与来源补齐（A 区）
+
+- 补"标准号 + 机构 + 版本年"（ISO 898-1:2013 / ASTM A307 / SABS 1195 / DIN 933），文末加"数据来源"段（写清数据出处与年份）。
+- **验收**：`check-geo-readiness` 该篇 `std`、`src` 缺口消失；不得出现"已获认证"类表述。
+- owner：seo-geo-main。
+
+### T6 入链（全站，1 天）
+
+- 两条口径分开做，不要混：①正文出链 29 个缺口（`check-geo-readiness` 的 `link`），每篇加 2 条正文内链（同簇文章 + `/products` 或 `/documents`）；②`relatedArticles` 口径零入链 18 篇，补 54 条边（`docs/orphan-backlog-2026-1125.csv`）。
+- **验收**：两个口径都归零；锚文本用目标页真实主题词；目标页不是重定向页。
+- owner：待认领（B 线 W4 已出清单，谁先领谁做，领了改本表）。
+
+### T7 去重（A 区）
+
+- `python3 scripts/dedupe-sentences.py --slug <slug>` 先看，人工改写共用整句（120 篇里 A 区涉及的优先）。别整段删，改成当地市场具体事实。
+- **验收**：`check-geo-readiness` 的 `dup` 归零；`content_gate` 通过。
+- owner：seo-geo-main。
+
+### T8 非英语 FAQ 本地化（B 区，1–2 周）
+
+- 判据：每篇 ≥3 条本地问答才会输出 FAQPage，现在 9/10 语言面没有这块。按曝光排序，先 ar（10.6%）、es/pt/fr（23%）。
+- **验收**：目标页 `@type` 里出现 FAQPage（线上抓 JSON-LD，en 9 块、非英语应到 9 块）；问答必须是本地语言、不许回退英文。
+- owner：今日头条分析线。
+
+### T9 14 处非英语英文残留（11-26 当天，约 1 小时）
+
+- 位置：`fastener-glossary-africa-procurement`（es/fr/pt/de 各一段）、`ghana-building-materials`（pt 2 节）、`botswana-construction-boom-fastener-import`（ar 2 节）、`east-africa-…`、`kenya-fastener-market-case-study`、`kenya-infrastructure-…`、`south-africa-sabs-…`、`tunisia-…`、`uganda-oil-refinery-…`。
+- **顺序不能反**：先修完，再给 `check-body-lang.py` 挂 `--strict`；否则夜间 `content-push.sh` 会在第一步契约校验就被卡死。
+- **验收**：`check-body-lang` 全库 english 0；然后才改闸门。
+- owner：今日头条分析线。
+
+## 5. 分工与写权限
+
+| 线 | 能写 | 不能写 |
+|---|---|---|
+| seo-geo-main（本对话） | A 区 39 篇、`scripts/`（T0）、`docs/` 中本文件与策略 | B 区文章、品牌资产、`src` 视觉层 |
+| 今日头条分析线 | B 区 225 篇、`docs/` 下自己的清单 | A 区 39 篇、`scripts/geo_audit.py`（T0 归我） |
+| vercel 运维线 | 发布：`vercel-promote.sh`、预算、审计 | **任何内容文件** |
+| 品牌/社媒线 | `public/brand/*`、logo/icon、社媒事实卡、`public/llms.txt` | `content/articles/*` |
+
+五条铁律：①动文章先 `article-claim.py claim <slug> <线名>`，拿不到换一篇；②一篇 × 全语种 × 自己分区内的全部适用任务，一次做完，别二次开同一 JSON；③`git add <具体路径>` 再 `git commit -- <同一路径>`，禁 `git add -A`；④内容线只 commit 不 push，push 只在 00:00 发布窗口；⑤认证/单证/价格口径改动三处同步（UI、`public/llms.txt`、社媒事实卡）。
+
+## 6. 节奏
 
 | 时间（Asia/Shanghai） | 动作 |
 |---|---|
-| 每日 20:16 | `bash scripts/seo-geo-weekly.sh` 生成当日体检，看 `docs/reports/seo-geo-<日期>.md` |
-| 每日 08:30 | Vercel 合规审计（A 线），有问题先修再谈内容 |
+| 每日 20:16 | `bash scripts/seo-geo-weekly.sh`，看 `docs/reports/seo-geo-<日期>.md` |
 | 每日 00:00 | launchd 单次 push + `vercel-promote.sh`（唯一发布窗口） |
-| 每周一 09:00 | 从 GSC 导出上周数据，替换 `logs/seo-ai-pipeline/gsc-pages-<日期>.json`，重跑工单与周报，填周报第 7 节 |
+| 每日 08:30 | Vercel 合规审计（A 线） |
+| 每周一 09:00 | GSC 导出替换 `logs/seo-ai-pipeline/gsc-pages-<日期>.json`，重跑工单与周报 |
 
-## 6. 闸门（缺一项不算完成）
+## 7. 闸门（缺一项不算完成）
 
 ```bash
 python3 scripts/content_gate.py --slug <slug>
@@ -151,31 +158,33 @@ python3 scripts/geo_audit.py --slug <slug>
 python3 scripts/article-claim.py release <slug> <线名>
 ```
 
-回到工单里重跑 `build-seo-geo-worklist.py`，**该篇掉出原批次才算真改完**。
+改完重跑 `build-seo-geo-worklist.py`，**该篇掉出原批次才算真改完**。
 
-## 7. 已知坑（都是踩过的）
+## 8. 已知坑
 
-- 并行两条线各读旧 JSON、各写新 JSON → 后写把先写的多语种清回摘要级。领锁 + 只改自己字段。
-- 未跟踪文件不能 `git commit -- <path>`，先 `git add` 再 commit 同一路径。
-- 仓库 pre-commit 会拦"批量 content 提交"和"跨领域混合提交"，一次提交只带一个领域。
-- 这台 Mac 的平台 `cron`/`at` 不触发，定时一律用 launchd；launchd 脚本里 `log()` 必须先定义再调用。
-- `deploy-budget.sh` fail-closed：读不到 Vercel 数据时直接拦，不要 `DEPLOY_FORCE=1` 绕过。
-- `geo_audit` 对 ru/ar/ja 分词失真（T0 修完前别用它们的分数下结论）。
+- 并行两线各读旧 JSON 各写新 JSON，后写的把先写的多语种清回摘要级——这是分区与领锁存在的原因。
+- `scripts/vercel-audit.sh` 正被另一条线修改（20:17 仍为未提交状态），它打出的 `✅` 在收口前不能当验收依据。
+- 未跟踪文件不能 `git commit -- <path>`，先 `git add` 再 commit 同一路径；pre-commit 会拦"批量 content"和"跨领域混合"。
+- 这台 Mac 平台 `cron`/`at` 不触发，定时一律 launchd；launchd 脚本里 `log()` 必须先定义。
+- `deploy-budget.sh` fail-closed，别用 `DEPLOY_FORCE=1` 绕过。
+- 入链有两个口径（正文出链 29、`relatedArticles` 18），统计 href 要同时兼容绝对域名与语言前缀，否则会得出"全站零内链"的错结论。
 
-## 8. 状态看板（各线自己改这一张表，别另开文件）
+## 9. 状态看板（各线自己改这一张）
 
-| 任务 | owner | 状态 | 完成数/总数 | 备注 |
+| 任务 | owner | 状态 | 完成/总量 | 备注 |
 |---|---|---|---|---|
-| T0 分词修复 | seo-geo-main | 待开始 | — | |
-| T1 本地化段落 | seo-geo-main | 待开始 | 0 / 93 | 先 es31/fr34/pt28，后 hi40 |
-| T2 定义句 | seo-geo-main | 待开始 | 0 / 93 | 与 T1 同批 |
-| T3 H2 问题化 | 头条分析线 | 待开始 | 0 / 40 | |
-| T4 en 首段答案化 | seo-geo-main | 进行中 | 1 / 21 | ISO 9001 篇已完成 |
-| T5 标准/来源 | 待认领 | 待开始 | 0 / 96 | std76 + src20 |
-| T6 入链 | 待认领 | 待开始 | 0 / 29 | |
-| T7 去重 | 待认领 | 待开始 | 0 / 134 | |
-| T8 zh 补齐 + 新文 | 待认领 | 待开始 | 27 / 80 | |
+| T0 分词修复 | seo-geo-main | 进行中 | — | |
+| T1 非英语段落化 | 头条线 | 待开始 | 0 / 8,318 节 | es 先 |
+| T2 定义句 | seo-geo-main | 待开始 | 0 / 39 | 与 T4 同批 |
+| T3 标题短写 | 头条线 | 待开始 | 0 / 866 | A 区 39 篇我处理 |
+| T4 en 首段 + H2 问句 | seo-geo-main | 待开始 | 0 / 39 | |
+| T5 标准/来源 | seo-geo-main | 待开始 | 0 / 39 | |
+| T6 入链 | 待认领 | 待开始 | 0 / 29 + 18 | 两口径分开记 |
+| T7 去重 | seo-geo-main | 待开始 | 0 / A 区相关篇 | |
+| T8 非英语 FAQ | 头条线 | 待开始 | 0 / 目标页 | ar 先 |
+| T9 英文残留 | 头条线 | 待开始 | 0 / 14 | 修完才挂 strict |
 
-## 9. 变更登记
+## 10. 变更登记
 
-- 2026-11-25 20:20 建立本文件。数据取自当日 20:16 周报与语种抽查；确认全部在途改动已上线（`origin/main == HEAD`）。
+- 2026-11-25 20:20 建立本文件（T0–T8，seo-geo-main 单线口径）。
+- 2026-11-25 20:40 与 `docs/SEO-GEO-WORKPLAN-2026-1126.md`（今日头条分析线）对账合并：新增 T9、把 T1/T3/T8 归 B 区并把 T6 拆成两个口径；正式确立"按文章集分区"，A 区 39 篇见 `docs/seo-geo-main-owned-40-2026-1125.csv`；本文件成为唯一排期，2026-1126 那份转为明细附录。
