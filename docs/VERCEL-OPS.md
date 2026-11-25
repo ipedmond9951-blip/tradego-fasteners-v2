@@ -423,3 +423,11 @@ curl -s "https://api.vercel.com/v4/aliases?limit=100" -H "Authorization: Bearer 
 - 顺序：契约校验（BLOCK>0 即停）→ `contract_selftest.py`（失败即停）→ `git push origin main` → `vercel-promote.sh --apply` → `vercel-audit.sh`，结果写 `~/AgentOps/logs/content-push.log` 并弹桌面通知。
 - 失败重试：推送成功后才写 marker，所以 00 点窗口内失败每 10 分钟重试一次；出了窗口自动停，等第二天。
 - 手动放行单次：`FORCE=1 bash ~/AgentOps/bin/content-push.sh`（会跳过时间门控，其余护栏不变）。
+
+## 变更记录 2026-11-25 夜（sitemap 缺口归因 + 旧 slug 跳转收口 + 并发写竞态）
+
+- **sitemap 4332→4092 的 240 条不是丢页**：264 篇已发布 × 各语种 + 15 篇合并文章（`redirectTo`）× 16 个 locale URL = 恰好 240。15 篇 alias 都是 301 收口后的旧 slug，被 sitemap 正确排除。
+- **但旧 slug 的跳转质量有问题**：15 条里 14 条是 `308 → /canonical`（无尾斜杠）再一跳 308 补斜杠；`senegal-fastener-market-complete-guide` 更差，首跳是页面级 `redirect()` 的 **307 临时跳转**（因为它没手工登记进 `next.config.ts`）。
+- **修法**：`next.config.ts` 顶部的 `aliasRedirects` 直接从 `content/articles/*.json` 的 `redirectTo` 生成 `permanent: true` 跳转，目标带尾斜杠；以后再做合并不用手工补配置。本地 `next start` 实测三条都是单跳 `308 → /…/`，canonical 200。
+- **新增 `scripts/check-alias-redirects.py`**：线上逐条校验“首跳 301/308 + 直达 canonical + canonical 200”，审计里作为 9.5 项每天跑（`AUDIT_ALIAS=0` 可跳）。
+- **并发写竞态**：本地构建时撞到 `SyntaxError: Unexpected end of JSON input`（另一条线正在写文章 JSON，构建读到半截文件）。同一棵树立刻重跑就通过，说明不是代码问题。`deploy-preflight.sh` 现在对这种错误自动等 15s 重试一次；仍失败才拦。

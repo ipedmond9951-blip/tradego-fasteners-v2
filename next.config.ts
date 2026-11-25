@@ -1,4 +1,32 @@
+import fs from "node:fs";
+import path from "node:path";
 import type { NextConfig } from "next";
+
+// 2026-11-25: 合并文章的旧 slug（content/articles/*.json 的 redirectTo）统一在这里出 308。
+// 之前只有手工登记的那几条是 permanent:true；漏登记的会落到页面级 redirect()，那是 307
+// 临时跳转、还会多一跳 no-slash→slash（实测 senegal 那条是 307→308→200）。
+// 这里从内容文件直接生成，以后再做 301 合并不用记得回来改配置。
+const LOCALE_PATTERN = ":locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)";
+const aliasRedirects = (() => {
+  const dir = path.join(process.cwd(), "content", "articles");
+  if (!fs.existsSync(dir)) return [];
+  const out: { source: string; destination: string; permanent: boolean }[] = [];
+  for (const file of fs.readdirSync(dir)) {
+    if (!file.endsWith(".json")) continue;
+    try {
+      const data = JSON.parse(fs.readFileSync(path.join(dir, file), "utf8"));
+      if (!data?.slug || !data?.redirectTo) continue;
+      out.push({
+        source: `/${LOCALE_PATTERN}/industry/${data.slug}/`,
+        destination: `/${LOCALE_PATTERN}/industry/${data.redirectTo}/`,
+        permanent: true,
+      });
+    } catch {
+      // 坏文件交给 content_gate 报，不在这里阻断构建
+    }
+  }
+  return out;
+})();
 
 const nextConfig: NextConfig = {
   turbopack: {
@@ -20,6 +48,8 @@ const nextConfig: NextConfig = {
   // PageSpeed Insights flagged redirect chain (/) → (/en) costing ~200ms.
   async redirects() {
     return [
+      // 合并旧 slug 的永久跳转（从 content/articles/*.json 的 redirectTo 生成，见文件顶部）
+      ...aliasRedirects,
       {
         source: '/',
         destination: '/en',

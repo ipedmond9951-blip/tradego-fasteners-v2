@@ -78,8 +78,25 @@ esac
 
 if [ "$NEED_BUILD" -eq 1 ]; then
   say "改动触及构建代码/资产，跑本地 next build（这是唯一能复现远端报错的办法）"
-  if npm run build >/tmp/preflight-build.log 2>&1; then
-    say "本地构建 OK（$(grep -c . /tmp/preflight-build.log) 行日志，/tmp/preflight-build.log）"
+  ATTEMPT=0
+  BUILD_OK=0
+  while [ "$ATTEMPT" -lt 2 ]; do
+    ATTEMPT=$((ATTEMPT + 1))
+    if npm run build >/tmp/preflight-build.log 2>&1; then
+      BUILD_OK=1
+      break
+    fi
+    # 2026-11-25 实测：另一个 agent 正在写文章 JSON 时，构建期读目录会读到半截文件，
+    # 报 `SyntaxError: Unexpected end of JSON input`。这是竞态、不是代码坏了 —— 等一会儿重跑一次。
+    if grep -qE 'Unexpected end of JSON input|Unexpected token .* in JSON' /tmp/preflight-build.log; then
+      say "⚠️  构建撞上 JSON 写入竞态（Unexpected end of JSON input），15s 后重试一次"
+      sleep 15
+      continue
+    fi
+    break
+  done
+  if [ "$BUILD_OK" -eq 1 ]; then
+    say "本地构建 OK（第 ${ATTEMPT} 次；日志 /tmp/preflight-build.log）"
   else
     say "❌ 本地构建失败，远端必然失败 —— 不要 push。日志末尾："
     tail -40 /tmp/preflight-build.log

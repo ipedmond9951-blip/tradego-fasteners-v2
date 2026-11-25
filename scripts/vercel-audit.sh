@@ -229,6 +229,20 @@ else
   pass "多语种渲染抽检已跳过（AUDIT_RENDER=0）"
 fi
 
+# --- 9.5 合并文章旧 slug 的跳转质量（2026-11-25 加）---
+# sitemap 少了 240 条不是事故，是 15 篇合并 × 16 locale；但旧 slug 必须是 301/308 直达，
+# 不能像 senegal 那样落到页面级 307 再补斜杠跳一次。
+if [ "${AUDIT_ALIAS:-1}" = "1" ] && [ -x scripts/check-alias-redirects.py ]; then
+  if ALIASOUT=$(python3 scripts/check-alias-redirects.py 2>&1); then
+    pass "旧 slug 跳转全部 308 直达 canonical"
+  else
+    issue "旧 slug 跳转不达标：
+$(echo "$ALIASOUT" | grep -E '❌|   - ' | head -8)"
+  fi
+else
+  pass "旧 slug 跳转检查已跳过（AUDIT_ALIAS=0）"
+fi
+
 # --- 10. 护栏自检（闸门必须真的拦得住，而不是永远打印"放行"）---
 if [ "${AUDIT_SELFTEST:-1}" = "1" ] && [ -x scripts/vercel-gate-selftest.sh ]; then
   if OUT=$(bash scripts/vercel-gate-selftest.sh 2>&1); then
