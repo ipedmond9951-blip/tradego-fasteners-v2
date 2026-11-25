@@ -238,31 +238,37 @@
         {
           "q": {
             "en": "How does temperature affect cure time?",
-            "zh": "温度如何影响固化时间？"
+            "zh": "温度如何影响固化时间？",
+            "hi": "तापमान क्योर समय को कैसे प्रभावित करता है?"
           },
           "a": {
             "en": "Cure time is a function of substrate temperature: warm concrete sets the resin faster, cold concrete much slower, and near freezing some systems stop curing altogether. Read the cure chart for the actual site temperature, not the laboratory figure.",
-            "zh": "固化时间由基材温度决定：混凝土温度高，树脂固化快；温度低则明显放慢；接近冰点时，部分体系会完全停止固化。查表要用现场实测温度，不能照搬实验室数据。"
+            "zh": "固化时间由基材温度决定：混凝土温度高，树脂固化快；温度低则明显放慢；接近冰点时，部分体系会完全停止固化。查表要用现场实测温度，不能照搬实验室数据。",
+            "hi": "क्योर समय आधार सामग्री के तापमान पर निर्भर करता है: गर्म कंक्रीट में रेजिन जल्दी जमता है, ठंडे में बहुत धीमा, और जमाव के पास के तापमान पर कुछ सिस्टम पूरी तरह क्योर होना बंद कर देते हैं। प्रयोगशाला के आँकड़े की जगह साइट के असली तापमान के लिए क्योर चार्ट पढ़ें।"
           }
         },
         {
           "q": {
             "en": "How should the hole be prepared?",
-            "zh": "孔道应该怎么处理？"
+            "zh": "孔道应该怎么处理？",
+            "hi": "छेद की तैयारी कैसे करनी चाहिए?"
           },
           "a": {
             "en": "Drill to the specified diameter and depth, then brush and blow out the hole in repeated cycles until dust stops coming out. Residual dust is the single biggest cause of low chemical anchor loads.",
-            "zh": "按规定的直径和深度钻孔，然后用毛刷和吹气交替反复清孔，直到不再有粉尘吹出。残留粉尘是化学锚栓承载力偏低最常见的原因。"
+            "zh": "按规定的直径和深度钻孔，然后用毛刷和吹气交替反复清孔，直到不再有粉尘吹出。残留粉尘是化学锚栓承载力偏低最常见的原因。",
+            "hi": "निर्दिष्ट व्यास और गहराई तक ड्रिल करें, फिर बार-बार ब्रश और हवा से छेद साफ करें जब तक धूल निकलनी बंद न हो जाए। बची हुई धूल केमिकल एंकर की कम लोड क्षमता का सबसे बड़ा कारण होती है।"
           }
         },
         {
           "q": {
             "en": "When is a chemical anchor the wrong choice?",
-            "zh": "什么情况下不该选化学锚栓？"
+            "zh": "什么情况下不该选化学锚栓？",
+            "hi": "केमिकल एंकर कब सही विकल्प नहीं होता?"
           },
           "a": {
             "en": "In hollow block, in continuously wet or flooded holes outside the system's rating, and where the substrate temperature falls outside the published range. In those cases a mechanical anchor or a redesign is safer than a bigger dose of resin.",
-            "zh": "空心砌块、长期浸水或积水的孔洞（超出体系适用范围）、以及基材温度落在标称区间之外时，都不适合。这几种情况改用机械锚栓或重新设计，比单纯加大树脂用量更稳妥。"
+            "zh": "空心砌块、长期浸水或积水的孔洞（超出体系适用范围）、以及基材温度落在标称区间之外时，都不适合。这几种情况改用机械锚栓或重新设计，比单纯加大树脂用量更稳妥。",
+            "hi": "खोखले ब्लॉक में, सिस्टम की रेटिंग से बाहर लगातार गीले या भरे छेद में, और आधार तापमान प्रकाशित सीमा से बाहर होने पर केमिकल एंकर न चुनें। ऐसी जगहों पर रेजिन की ज़्यादा खुराक से बेहतर मैकेनिकल एंकर या डिज़ाइन में बदलाव सुरक्षित रहता है।"
           }
         }
       ]
