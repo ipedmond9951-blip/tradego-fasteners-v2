@@ -155,26 +155,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "Can I use standard HDG bolts with ACQ-treated timber?"
+            "en": "Can I use standard HDG bolts with ACQ-treated timber?",
+            "zh": "ACQ 防腐木上能用普通热浸镀锌螺栓吗？"
           },
           "a": {
-            "en": "No — ACQ (Alkaline Copper Quaternary) treated timber will rapidly corrode standard hot-dip galvanized fasteners. The high alkalinity of ACQ accelerates zinc corrosion, and once the zinc is consumed, the underlying steel corrodes. For outdoor ACQ-treated timber applications, specify stainless steel 316 or specialized ACQ-compatible coated fasteners. For indoor ACQ-treated timber (above ground, protected from direct moisture), some manufacturers claim HDG works, but SS316 remains the safer choice."
+            "en": "No — ACQ (Alkaline Copper Quaternary) treated timber will rapidly corrode standard hot-dip galvanized fasteners. The high alkalinity of ACQ accelerates zinc corrosion, and once the zinc is consumed, the underlying steel corrodes. For outdoor ACQ-treated timber applications, specify stainless steel 316 or specialized ACQ-compatible coated fasteners. For indoor ACQ-treated timber (above ground, protected from direct moisture), some manufacturers claim HDG works, but SS316 remains the safer choice.",
+            "zh": "不能。ACQ（碱性铜季铵盐）处理木碱性较高，会加速镀锌层腐蚀，镀层耗尽后内部钢材随即锈蚀。户外 ACQ 防腐木应选用 316 不锈钢，或与 ACQ 兼容的专用涂层紧固件；室内离地、不直接受潮的 ACQ 木材，部分厂家认为热浸镀锌可用，但 316 不锈钢仍是更稳妥的选择。"
           }
         },
         {
           "q": {
-            "en": "What is the difference between a coach screw and a lag screw?"
+            "en": "What is the difference between a coach screw and a lag screw?",
+            "zh": "coach screw 与 lag screw 有何区别？"
           },
           "a": {
-            "en": "Technically, 'coach screw' and 'lag screw' are the same thing — a heavy wood screw with a hex head. In the UK and much of Africa, they are called coach screws; in North America, they are called lag screws. Both have a coarse thread designed for wood and require pre-drilling. The hex head is driven with a spanner or socket wrench. They are used for heavy timber connections where bolts are impractical."
+            "en": "Technically, 'coach screw' and 'lag screw' are the same thing — a heavy wood screw with a hex head. In the UK and much of Africa, they are called coach screws; in North America, they are called lag screws. Both have a coarse thread designed for wood and require pre-drilling. The hex head is driven with a spanner or socket wrench. They are used for heavy timber connections where bolts are impractical.",
+            "zh": "两者本质是同一种零件：粗牙、六角头的重型木螺钉。英国及非洲多数地区称 coach screw，北美称 lag screw。螺纹专为木材设计，安装前需预钻孔，六角头用扳手或套筒拧紧，用于螺栓不便施工的重型木构件连接。"
           }
         },
         {
           "q": {
-            "en": "How do I prevent splitting when nailing near the end of timber?"
+            "en": "How do I prevent splitting when nailing near the end of timber?",
+            "zh": "靠近木材端头钉钉如何防止劈裂？"
           },
           "a": {
-            "en": "Splitting is caused by the nail wedging the wood fibers apart. Prevention methods: Pre-drill pilot holes — for hardwoods and near end grain, drill a pilot hole slightly smaller than the nail diameter; for softwoods, pre-drilling is only needed near the end. Stagger nail positions — instead of driving two nails in a straight line, stagger them at slight angles; this reduces the splitting plane. Use nails with smaller diameter — spiral shank or annular ring shank nails split less than smooth shank. Nail to the side grain, not end grain where possible — end grain has much lower holding power and splits more easily. Maintain minimum edge distances — typically 2x nail diameter from the edge and 10x nail diameter from the end."
+            "en": "Splitting is caused by the nail wedging the wood fibers apart. Prevention methods: Pre-drill pilot holes — for hardwoods and near end grain, drill a pilot hole slightly smaller than the nail diameter; for softwoods, pre-drilling is only needed near the end. Stagger nail positions — instead of driving two nails in a straight line, stagger them at slight angles; this reduces the splitting plane. Use nails with smaller diameter — spiral shank or annular ring shank nails split less than smooth shank. Nail to the side grain, not end grain where possible — end grain has much lower holding power and splits more easily. Maintain minimum edge distances — typically 2x nail diameter from the edge and 10x nail diameter from the end.",
+            "zh": "劈裂是钉子把木纤维撑开造成的。硬木和靠近端纹处先钻略小于钉径的引导孔，软木只在端头附近预钻；两枚钉子错开角度布置，不要排成一条直线；优先选钉径较小的麻花钉或环纹钉，比光杆钉更不易劈裂；尽量钉在侧纹而非端纹；边距一般留钉径的 2 倍，端距留 10 倍。"
           }
         }
       ],
