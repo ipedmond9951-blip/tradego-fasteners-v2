@@ -291,26 +291,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "What does SABS certification require for stainless fasteners?"
+            "en": "What does SABS certification require for stainless fasteners?",
+            "zh": "不锈钢紧固件申请 SABS 认证要具备什么条件？"
           },
           "a": {
-            "en": "Compliance with the relevant SANS or ISO product standard, a documented quality system, product marking, and a successful audit of the manufacturing process. Certification is granted to the facility, not to a single shipment."
+            "en": "Compliance with the relevant SANS or ISO product standard, a documented quality system, product marking, and a successful audit of the manufacturing process. Certification is granted to the facility, not to a single shipment.",
+            "zh": "产品符合相应 SANS 或 ISO 标准、有文件化的质量体系、产品带有可追溯标记，并通过制造过程审核。认证授给生产工厂，而不是某一批出货；采购时应核对工厂资质状态，不能把单批货物等同于持证。"
           }
         },
         {
           "q": {
-            "en": "How does the audit cycle work?"
+            "en": "How does the audit cycle work?",
+            "zh": "认证审核周期是怎么安排的？"
           },
           "a": {
-            "en": "Initial certification covers application, documentation review and factory audit; surveillance audits then recur on a defined cycle. Lapsed or suspended certificates are common in the market, so buyers should verify current status rather than accept a certificate copy."
+            "en": "Initial certification covers application, documentation review and factory audit; surveillance audits then recur on a defined cycle. Lapsed or suspended certificates are common in the market, so buyers should verify current status rather than accept a certificate copy.",
+            "zh": "初次认证包括申请、文件审查和工厂审核；之后按规定周期进行监督审核。市场上过期或被暂停的证书并不少见，采购方应核实证书当前状态，而不能只凭一份复印件就认可。"
           }
         },
         {
           "q": {
-            "en": "Which documents should accompany a SABS-certified shipment?"
+            "en": "Which documents should accompany a SABS-certified shipment?",
+            "zh": "认证批次应随附哪些文件？"
           },
           "a": {
-            "en": "Certificate of conformity, mill test reports with heat numbers, marking photographs and the audit or surveillance reference. Keep each document tied to an invoice line item so a customs or customer query can be answered quickly."
+            "en": "Certificate of conformity, mill test reports with heat numbers, marking photographs and the audit or surveillance reference. Keep each document tied to an invoice line item so a customs or customer query can be answered quickly.",
+            "zh": "包括符合性证书、带炉号的材质书（出厂检验报告）、标记照片以及审核或监督记录编号。每份文件应与发票上的对应行项挂钩，遇到海关或客户问询时能快速调取核对。"
           }
         }
       ]
