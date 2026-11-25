@@ -253,34 +253,42 @@
       "faqItems": [
         {
           "q": {
-            "en": "What HS heading covers fasteners imported into Tanzania?"
+            "en": "What HS heading covers fasteners imported into Tanzania?",
+            "zh": "进口坦桑尼亚紧固件归哪个 HS 税号？"
           },
           "a": {
-            "en": "Bolts, nuts, screws, and similar fasteners fall under HS heading 7318. Duty and VAT follow the specific tariff line, and declared values must be defensible against comparable shipments."
+            "en": "Bolts, nuts, screws, and similar fasteners fall under HS heading 7318. Duty and VAT follow the specific tariff line, and declared values must be defensible against comparable shipments.",
+            "zh": "螺栓、螺母、螺钉及类似紧固件归入 HS 7318 税号。关税和增值税按具体税目执行，申报价格要能与同类货盘相比、站得住脚。"
           }
         },
         {
           "q": {
-            "en": "When should conformity assessment be arranged?"
+            "en": "When should conformity assessment be arranged?",
+            "zh": "符合性评定应在什么时候办理？"
           },
           "a": {
-            "en": "Before the container leaves the factory. Applying after arrival is the most common cause of clearance running from weeks into months."
+            "en": "Before the container leaves the factory. Applying after arrival is the most common cause of clearance running from weeks into months.",
+            "zh": "应在货柜离厂前安排好装船前检验（符合性评定）。货到港后再补办，是清关从几周拖成几个月最常见的原因。"
           }
         },
         {
           "q": {
-            "en": "Can Dar es Salaam cargo transit to Zambia or DRC?"
+            "en": "Can Dar es Salaam cargo transit to Zambia or DRC?",
+            "zh": "达累斯萨拉姆货物能转运赞比亚或刚果（金）吗？"
           },
           "a": {
-            "en": "Yes. Transit cargo moves under a transit bond on designated routes, and the paperwork must name the correct exit border post."
+            "en": "Yes. Transit cargo moves under a transit bond on designated routes, and the paperwork must name the correct exit border post.",
+            "zh": "可以。过境货物凭过境保函在指定路线运输，单证上必须写明正确的出境口岸。"
           }
         },
         {
           "q": {
-            "en": "Should I choose road or rail for inland delivery?"
+            "en": "Should I choose road or rail for inland delivery?",
+            "zh": "内陆派送选公路还是铁路？"
           },
           "a": {
-            "en": "Road is faster for smaller lots and lower risk on a first shipment. Rail is cheaper per tonne for heavy fastener cargo but requires planning around departure schedules."
+            "en": "Road is faster for smaller lots and lower risk on a first shipment. Rail is cheaper per tonne for heavy fastener cargo but requires planning around departure schedules.",
+            "zh": "小批量和首单货物走公路更快、风险更低；重型紧固件货载走铁路每吨成本更低，但要按发车班次提前规划。"
           }
         }
       ]
