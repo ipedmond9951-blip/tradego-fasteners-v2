@@ -29,6 +29,7 @@ export default function Header({ locale = 'en' }: HeaderProps) {
         { href: `/${locale}/industry/`, label: t(locale, 'nav.geoOptim'), anchor: 'geo' },
       ],
     },
+    { href: `/${locale}/documents/`, label: t(locale, 'nav.documents') },
     { href: `/${locale}/#faq`, label: t(locale, 'nav.faq') },
     { href: `/${locale}/#about`, label: t(locale, 'nav.about') },
   ]
