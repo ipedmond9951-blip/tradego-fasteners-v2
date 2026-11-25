@@ -107,6 +107,9 @@ def main():
                 problems.append(f"{loc}/{art['slug']}: 有问答但缺 FAQPage 结构化数据")
             # 5) FAQ 小节正文的英文副本泄漏：以前 section.body 会整段回退英文，
             #    抽检只查问句抓不到这一层；现在改成渲染层本地化引导语，这里守回归。
+            # 6) CTA 占位符/英文按钮泄漏：文章 cta 里 {topic} 未替换、按钮文案等于英文
+            if "{topic}" in html:
+                problems.append(f"{loc}/{art['slug']}: CTA 残留 {{topic}} 占位符")
             if loc != "en" and "See frequently asked questions below" in html:
                 problems.append(f"{loc}/{art['slug']}: FAQ 正文回退了英文原文")
 

@@ -228,8 +228,18 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
   // 不能让西语/法语页出现英文 CTA（2026-11-24 修）
   const ctaTextMap = article.cta?.text as Record<string, string> | undefined
   const ctaBtnMap = article.cta?.buttonText as Record<string, string> | undefined
-  const ctaText = ctaTextMap?.[locale] || pick(articleCta.text, locale)
-  const ctaBtn = ctaBtnMap?.[locale] || pick(articleCta.button, locale)
+  // 2026-11-26 修: 文章 CTA 里 ar/ru/hi 大面积是英文原文（"Request Quote"），
+  // 以及大量文案带未替换的 {topic} 占位符，线上直接显示 "Need {topic} for your B2B project?"。
+  // 口径同 FAQ：该语种值等于 en 视为缺失、残留占位符视为不可用，一律回落本地化通用 CTA。
+  const ctaNative = (m?: Record<string, string>, fallback?: Record<string, string>) => {
+    const v = (m?.[locale] || '').trim()
+    if (!v) return pick(fallback!, locale)
+    if (locale !== 'en' && v === (m?.en || '').trim()) return pick(fallback!, locale)
+    if (v.includes('{topic}')) return pick(fallback!, locale)
+    return v
+  }
+  const ctaText = ctaNative(ctaTextMap, articleCta.text)
+  const ctaBtn = ctaNative(ctaBtnMap, articleCta.button)
   // 文章 cta.link 历史上写成 /en/products/xxx，拼上 locale 会变成 /es/en/products/xxx（双语种死链）
   const ctaHref = `/${locale}${(article.cta?.link || '/contact').replace(/^\/en(?=\/|$)/, '')}/`
 
