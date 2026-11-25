@@ -234,26 +234,42 @@
    "faqItems": [
     {
      "q": {
-      "en": "What is the minimum order quantity (MOQ) for bulk fastener orders from China?"
+      "en": "What is the minimum order quantity (MOQ) for bulk fastener orders from China?",
+      "zh": "从中国批量采购紧固件的最小起订量是多少？"
      },
      "a": {
-      "en": "Typical MOQ ranges from 100-500 kg per size, with total order of 1-5 tons for mixed product orders. Some manufacturers accept smaller MOQ for standard sizes with price premiums. Custom specifications typically require higher MOQ."
+      "en": "Typical MOQ ranges from 100-500 kg per size, with total order of 1-5 tons for mixed product orders. Some manufacturers accept smaller MOQ for standard sizes with price premiums. Custom specifications typically require higher MOQ.",
+      "zh": "典型为每规格 100–500 kg，混装订单总量 1–5 吨；标准规格有些厂家接受更小起订但加价；非标规格起订量更高。"
      }
     },
     {
      "q": {
-      "en": "Request EN 10204 3.1 Mill Test Certificates showing chemical composition and mechanical properties. Order samples before bulk. Use third-party inspection agencies like SGS, Bureau Veritas, or Intertek for container inspection. What is the typical lead time for fastener orders from China?"
+      "en": "What quality documents and inspection should I require before shipping?",
+      "zh": "出运前应要求哪些质量文件和检验？"
      },
      "a": {
-      "en": "Production takes 15-30 days depending on order size and complexity. Sea freight to African ports adds 20-35 days depending on destination. Total lead time: 5-10 weeks from order confirmation to port arrival."
+      "en": "Request EN 10204 3.1 Mill Test Certificates showing chemical composition and mechanical properties. Order samples before bulk. Use third-party inspection agencies such as SGS, Bureau Veritas or Intertek for container inspection.",
+      "zh": "要求 EN 10204 3.1 材质证明，列明化学成分与力学性能；批量前先要样品；整柜检验委托 SGS、Bureau Veritas、Intertek 等第三方机构。"
      }
     },
     {
      "q": {
-      "en": "FOB (Free on Board) price includes the product cost and packaging. It excludes freight charges, insurance, and handling from the port. CIF price includes cost, insurance, and freight to your destination port. What payment terms are standard for China fastener orders?"
+      "en": "What is the typical lead time for fastener orders from China?",
+      "zh": "从中国订货的典型交期是多少？"
      },
      "a": {
-      "en": "Common terms: 30% deposit, 70% balance against copy of Bill of Lading (TT). For established relationships, some suppliers offer open account or letter of credit (L/C) terms. New customers typically pay 100% upfront or 30/70."
+      "en": "Production takes 15-30 days depending on order size and complexity. Sea freight to African ports adds 20-35 days depending on destination. Total lead time: 5-10 weeks from order confirmation to port arrival.",
+      "zh": "生产 15–30 天（视订单量与复杂度），海运到非洲港口另加 20–35 天，从确认订单到到港共 5–10 周。"
+     }
+    },
+    {
+     "q": {
+      "en": "How do FOB and CIF prices differ, and what payment terms are standard?",
+      "zh": "FOB 和 CIF 价格有何区别，常用付款方式是什么？"
+     },
+     "a": {
+      "en": "FOB (Free on Board) price includes the product cost and packaging and excludes freight, insurance and port handling. CIF price includes cost, insurance and freight to your destination port. Common terms: 30% deposit, 70% balance against copy of Bill of Lading (TT). For established relationships, some suppliers offer open account or letter of credit (L/C) terms. New customers typically pay 100% upfront or 30/70.",
+      "zh": "FOB 含产品成本与包装，不含运费、保险和港口操作费；CIF 含到目的港的成本、保险与运费。常用付款：30% 定金、70% 见提单副本电汇（TT）；长期合作可谈赊账或信用证，新客户多为全款预付或 30/70。"
      }
     }
    ]

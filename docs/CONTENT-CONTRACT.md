@@ -241,3 +241,11 @@ python3 scripts/content_gate.py --slug X # 单篇
 
 
 111. **FAQ 的问答错位没有任何闸门能查，只能人读。** `anchor-bolts-suppliers-africa` 的 `faqItems` 里第 2、3 条的 `q` 字段装的是上一题的答案段落（"Standard lead time is 15-25 days…"、"For tropical/coastal Africa: Hot-dip galvanized…"），真正的问句被挤掉了。页面照样渲染，FAQPage 结构化数据里就出现"一个问题位塞着一段陈述"。**规则：补任何语种 FAQ 前，先把英文 `q` 逐条读一遍确认是问句；发现错位先修 en 的 `q`，再按修好的问句译各语种。**
+
+96. **半译字段没人拦：`description` / `metaDescription` 的 en 版本里会嵌中文。** 自攻螺钉页的 en meta 是 "…create their own mating thread in the母材 as…"，`check-body-lang` 只扫 section body，`content_gate` 不查 meta 语种。**规则：改完 `python3 -c` 扫一遍全库 en 的 title/description/metaDescription 有没有 CJK（本轮扫出 2 处，另一处仍在 `industrial-washers-flat-spring-lock-guide`）。**
+97. **模板批量替换会把 `<a>` 标签截断，半截 class 串落进正文变成页面上可见的乱码。** `washer-types-applications-guide` 英文第 2、3 节各 700/380 处残片，13.3KB 正文里大半是重复的 "washers lass=\"text-primary-600…"。**规则：新增 `scripts/check-stray-markup.py`（剥标签后找 text-primary / underline / lass= / ss="），改动后跑一次；`content_gate` 的 dirty-text 只认 undefined / null 这类词，抓不到它。**
+98. **这类残留不能盲洗。** 用正则删 class 串会把锚文本一起吃掉（德语节首句直接少半句 "Selbstschneidende Schrauben aus 304 Edelstahl"）。**规则：英文本区整节重写；非英语种交给 T1 的段落化重排，不要在乱码文本上做增量修补。**
+99. **FAQ 模板问句是 faq 分永远拿不到满分的根因。** 判断法：问题里带页面标题（"What are the key considerations for washer types applications guide?"）、答案里带 "See the detailed analysis above"。**规则：`fq≥3` 但 `fa<80` 时先查这两句，命中就整条换掉，换成买家真会问的问题。**
+
+
+112. **FAQ 体检要成为常规动作，`scripts/faq_audit.py` 就是入口。** 判据两条：英文 `q` 超过 160 字符、或不以 `?` 结尾（说明"问句位"装了陈述或整段答案）；以及某语种 `faqItems` 0 条（该语种页面整节 FAQ 不输出）。首轮全库扫出 3 篇问答错位（`anchor-bolts-suppliers-africa`、`botswana-construction-boom-fastener-import`、`buy-construction-fasteners-wholesale-china`），`content_gate`、`check-body-lang` 全部照过。**顺带一个脚本坑：按 `heading` 是否含 "faq" 匹配会漏掉 `Frequently Asked Questions`，脚本会打印 ok 但一条没改——匹配一律用 `faq|frequently asked|常见问题` 完整正则，改完必须 `faq_audit.py` 复测归零。**

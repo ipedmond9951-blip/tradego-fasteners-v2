@@ -262,26 +262,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "What widths should I use for each joint?"
+            "en": "What widths should I use for each joint?",
+            "zh": "各类接缝该用多宽的胶带？"
           },
           "a": {
-            "en": "50 mm for narrow laps, 75 to 100 mm for gutter and seam sealing, 150 mm for wide overlaps and penetrations. Standard roll lengths are 10 m and 20 m, so match the roll to the joint length to limit waste."
+            "en": "50 mm for narrow laps, 75 to 100 mm for gutter and seam sealing, 150 mm for wide overlaps and penetrations. Standard roll lengths are 10 m and 20 m, so match the roll to the joint length to limit waste.",
+            "zh": "窄搭接 50 mm，檐口与接缝密封 75–100 mm，宽搭接和穿管部位 150 mm。标准卷长 10 m 和 20 m，按接缝长度选卷以减少浪费。"
           }
         },
         {
           "q": {
-            "en": "Does heat affect butyl tape performance?"
+            "en": "Does heat affect butyl tape performance?",
+            "zh": "温度会影响丁基胶带的性能吗？"
           },
           "a": {
-            "en": "Butyl stays flexible at low temperature but softens and flows under intense sun. On exposed roofs use foil-faced grades and keep the tape under a covered detail wherever possible."
+            "en": "Butyl stays flexible at low temperature but softens and flows under intense sun. On exposed roofs use foil-faced grades and keep the tape under a covered detail wherever possible.",
+            "zh": "丁基在低温下仍保持柔韧，但强烈日照下会变软流动。外露屋面用带铝箔面的型号，并尽量把胶带压在覆盖层下。"
           }
         },
         {
           "q": {
-            "en": "Where does butyl tape fail?"
+            "en": "Where does butyl tape fail?",
+            "zh": "丁基胶带通常从哪里失效？"
           },
           "a": {
-            "en": "On dusty, damp or oily surfaces, on joints that move more than the compound can absorb, and where the tape is left exposed to UV without a cover layer."
+            "en": "On dusty, damp or oily surfaces, on joints that move more than the compound can absorb, and where the tape is left exposed to UV without a cover layer.",
+            "zh": "在起尘、潮湿或有油的基层上；在位移超过胶层吸收能力的接缝上；以及长期裸露受紫外线、没有覆盖层的部位。"
           }
         }
       ]
