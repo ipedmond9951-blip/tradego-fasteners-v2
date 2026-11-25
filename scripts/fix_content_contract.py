@@ -35,12 +35,15 @@ SCRIPTS = {
 
 def english_run(text, min_words=4):
     best = cur = 0
-    for tok in re.split(r"[^A-Za-z'\u2019-]+", text or ""):
-        if tok and len(tok) >= 2 and tok.isascii() and tok.isalpha():
+    prev_end = -1
+    for m in re.finditer(r"[A-Za-z][A-Za-z'\u2019-]*", text or ""):
+        gap = text[prev_end:m.start()] if prev_end >= 0 else ""
+        if prev_end >= 0 and gap.strip() == "" and len(gap) <= 3:
             cur += 1
-            best = max(best, cur)
         else:
-            cur = 0
+            cur = 1
+        best = max(best, cur)
+        prev_end = m.end()
     return best
 
 
@@ -302,6 +305,230 @@ def fix_date(apply, only=None):
                 f.write("\n")
 
 
+SEP = {"zh": "：", "ja": "：", "ar": " — ", "ru": " — ", "hi": " — "}
+
+
+def strip_english(t):
+    """去掉成串英文（≥3 个空格相连的词），保留标准号/型号等短代号"""
+    groups, cur = [], []
+    prev_end = -1
+    for m in re.finditer(r"[A-Za-z][A-Za-z0-9'\u2019/&.\-]*", t or ""):
+        gap = t[prev_end:m.start()] if prev_end >= 0 else ""
+        if prev_end >= 0 and gap.strip() == "" and len(gap) <= 3:
+            cur.append(m)
+        else:
+            if cur:
+                groups.append(cur)
+            cur = [m]
+        prev_end = m.end()
+    if cur:
+        groups.append(cur)
+    drop = []
+    for grp in groups:
+        if len(grp) < 3:
+            continue
+        # 全是全大写代号（DIN/ISO/ASTM/SABS…）就不算英文句子
+        if all(g.group().isupper() and len(g.group()) <= 6 for g in grp):
+            continue
+        drop.append((grp[0].start(), grp[-1].end()))
+    out, last = [], 0
+    for a, b in drop:
+        out.append(t[last:a])
+        last = b
+    out.append(t[last:])
+    txt = "".join(out)
+    txt = re.sub(r"[ \t]{2,}", " ", txt)
+    txt = re.sub(r"^[\s，,、：:；;·—\-]+", "", txt)
+    txt = re.sub(r"[\s，,、：:；;·—\-]+$", "", txt)
+    return txt.strip()
+
+
+STANDARD_RX = re.compile(r"\b(ISO|DIN|EN|ASTM|GB|JIS|ANSI|SABS|API|AISC|SAE)\s*[- ]?\d{2,5}")
+KEEP_TOKENS = {"LEED", "BREEAM", "TCO", "FAQ", "B2B", "OEM", "SGR", "XT", "CIF", "FOB",
+               "MOQ", "QEHS", "ISO", "DIN", "ASTM", "GB", "JIS", "ANSI", "SABS", "HDG", "UV", "PVD"}
+
+
+def strip_chunks(t, lg):
+    """按"块"剥离英文：含本语种文字的块留下，纯 ASCII 且较长的块丢掉（保留标准号/常用缩写）"""
+    rx = SCRIPTS.get(lg, r"[A-Za-z]")
+    out = []
+    for chunk in re.split("(" + rx + "+)", t or ""):
+        if not chunk:
+            continue
+        if re.search(rx, chunk):
+            out.append(chunk)
+            continue
+        words = re.findall(r"[A-Za-z][A-Za-z0-9'&./-]*", chunk)
+        n_ascii = len(re.findall(r"[A-Za-z0-9]", chunk))
+        if not words:
+            out.append(chunk if n_ascii <= 6 else " ")
+            continue
+        if n_ascii < 8 or STANDARD_RX.search(chunk) or (len(words) == 1 and words[0].upper() in KEEP_TOKENS):
+            out.append(chunk)
+            continue
+        out.append(" ")
+    txt = "".join(out)
+    txt = re.sub(r"\s+", " ", txt)
+    comma = "，" if lg in ("zh", "ja") else ("، " if lg == "ar" else ", ")
+    colon = "：" if lg in ("zh", "ja") else (": " if lg == "hi" else " — ")
+    txt = re.sub(r"[，,、：:；;·\-\s]{2,}", lambda m: comma if ("，" in m.group() or "," in m.group()) else "", txt)
+    txt = txt.replace("，", comma.strip()).replace("、", comma.strip()).replace("：", colon.strip()).replace("；", comma.strip())
+    txt = re.sub(r"^[\s，,、：:；;·—\-]+", "", txt)
+    txt = re.sub(r"[\s，,、：:；;·—\-]+$", "", txt)
+    return txt.strip()
+
+
+def native_len(t, lg):
+    rx = SCRIPTS.get(lg)
+    return len(re.findall(rx, t or "")) if rx else len(t or "")
+
+
+def compose_from_headings(d, lg, limit=META_MAX):
+    """用本地化标题 + 本地化小标题拼一句原生描述，不翻译、不编造"""
+    title = strip_english((d.get("title") or {}).get(lg) or "")
+    head = []
+    for sec in d.get("sections", []) or []:
+        h = strip_english((sec.get("heading") or {}).get(lg) or "")
+        if len(h) >= 4 and english_run(h) < 3 and h != title:
+            head.append(h.rstrip("。.：:"))
+    if native_len(title, lg) < 6 or not head:
+        return None
+    out = title.rstrip("。.：: ") + SEP[lg] + SEP[lg].join(head[:2])
+    while len(out) < META_MIN and len(head) > 2:
+        head = head[1:] + [head[0]]
+        out = title.rstrip("。.：: ") + SEP[lg] + SEP[lg].join(head[:3])
+        break
+    if lg in ("zh", "ja") and len(out) > limit - 20:
+        out = out[: limit - 1].rstrip("、，·—") + "…"
+    elif len(out) > limit:
+        out = clip(out, limit)
+    return out
+
+
+def fix_compose(apply, only=None):
+    """本地化描述/元描述里的英文块剥掉；剥完太薄就用同语种标题或同语种 description 补足"""
+    changed = 0
+    manual = 0
+    for slug, path, d in iter_articles(only):
+        if d.get("redirectTo"):
+            continue
+        t_box = d.get("title") or {}
+        dirty = False
+        for lg in ("zh", "ja", "hi", "ar", "ru"):
+            nat_title = strip_chunks(t_box.get(lg) or "", lg)
+            # 1) description：剥英文块，不够就标题+尾巴
+            desc_box = d.get("description")
+            if isinstance(desc_box, dict) and isinstance(desc_box.get(lg), str):
+                cur = desc_box[lg]
+                if english_run(cur) >= 4:
+                    t = strip_chunks(cur, lg)
+                    if native_len(t, lg) < 40 and native_len(nat_title, lg) >= 6 and native_len(t, lg) >= 8:
+                        t = f"{nat_title.rstrip('。.：: ')}{SEP[lg]}{t}"
+                    if english_run(t) < 4 and native_len(t, lg) >= 30:
+                        print(f"[{slug}] description.{lg}\n   - {cur[:88]}\n   + {t[:88]}")
+                        desc_box[lg] = t
+                        dirty = True
+                        changed += 1
+                    else:
+                        manual += 1
+                        print(f"[{slug}] description.{lg} 素材不足，留人工：{cur[:70]}")
+            # 2) metaDescription：优先用干净的 description，其次标题+剥过的尾巴
+            meta_box = d.get("metaDescription")
+            if isinstance(meta_box, dict) and isinstance(meta_box.get(lg), str):
+                cur = meta_box[lg]
+                if english_run(cur) >= 4:
+                    src = (desc_box or {}).get(lg) if isinstance(desc_box, dict) else ""
+                    new = None
+                    if src and english_run(src) < 4 and native_len(src, lg) >= 60:
+                        new = clip(src, META_MAX)
+                    if new is None:
+                        t = strip_chunks(cur, lg)
+                        if native_len(t, lg) < 60 and native_len(nat_title, lg) >= 6 and native_len(t, lg) >= 8:
+                            t = f"{nat_title.rstrip('。.：: ')}{SEP[lg]}{t}"
+                        if english_run(t) < 4 and native_len(t, lg) >= 30:
+                            new = clip(t, META_MAX)
+                    if new is None:
+                        manual += 1
+                        print(f"[{slug}] metaDescription.{lg} 素材不足，留人工：{cur[:70]}")
+                    else:
+                        print(f"[{slug}] metaDescription.{lg}\n   - {cur[:88]}\n   + {new[:88]}")
+                        meta_box[lg] = new
+                        dirty = True
+                        changed += 1
+        if dirty and apply:
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(d, f, ensure_ascii=False, indent=2)
+                f.write("\n")
+    print(f"\ncompose: 改写 {changed} 个字段，留人工 {manual} 个")
+
+
+def _eng_variants(eng):
+    """英文标题的若干变体：整句、冒号前部分、以及按词截断的前缀（≥5 词）"""
+    eng = (eng or "").strip()
+    if not eng:
+        return []
+    out = [eng]
+    if ":" in eng:
+        out.append(eng.split(":", 1)[0])
+    words = eng.split()
+    for n in range(len(words) - 1, 4, -1):
+        out.append(" ".join(words[:n]))
+    return [v for v in dict.fromkeys(out) if len(v.split()) >= 4]
+
+
+def _replace_ci(text, phrase, repl):
+    pat = re.compile(r"\s+".join(re.escape(w) for w in phrase.split()), re.IGNORECASE)
+    return pat.sub(repl, text)
+
+
+def fix_detitle(apply, only=None):
+    """正文/描述里嵌着的英文标题，换成同语种标题（不翻译、不新造内容）"""
+    changed = 0
+    for slug, path, d in iter_articles(only):
+        if d.get("redirectTo"):
+            continue
+        eng = (d.get("title") or {}).get("en") or ""
+        variants = _eng_variants(eng)
+        if not variants:
+            continue
+        dirty = False
+        for lg in LANGS:
+            nat = (d.get("title") or {}).get(lg) or ""
+            if not nat or nat.strip().lower() == eng.strip().lower():
+                continue
+            fields = []
+            for key in ("title", "description", "metaDescription"):
+                box = d.get(key)
+                if isinstance(box, dict) and isinstance(box.get(lg), str):
+                    fields.append((f"{key}.{lg}", box, lg))
+            for idx, sec in enumerate(d.get("sections", []) or []):
+                hb = sec.get("heading")
+                if isinstance(hb, dict) and isinstance(hb.get(lg), str):
+                    fields.append((f"sections[{idx}].heading.{lg}", hb, lg))
+                bb = sec.get("body")
+                if isinstance(bb, dict) and isinstance(bb.get(lg), str):
+                    fields.append((f"sections[{idx}].body.{lg}", bb, lg))
+            for name, box, key in fields:
+                t0 = box[key]
+                t = t0
+                for v in variants:
+                    if v.lower() in t.lower():
+                        t = _replace_ci(t, v, nat)
+                if t != t0:
+                    before = english_run(t0)
+                    after = english_run(t)
+                    if after < before:
+                        print(f"[{slug}] {name} 英文串 {before}→{after}")
+                        box[key] = t
+                        dirty = True
+                        changed += 1
+        if dirty and apply:
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(d, f, ensure_ascii=False, indent=2)
+                f.write("\n")
+    print(f"\ndetitle: 改了 {changed} 个字段")
+
+
 def fix_image(apply, only=None):
     for slug, path, d in iter_articles(only):
         img = d.get("image")
@@ -330,7 +557,7 @@ def fix_image(apply, only=None):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("target", choices=["meta", "extract", "date", "image", "zh-strip"])
+    ap.add_argument("target", choices=["meta", "extract", "date", "image", "zh-strip", "compose", "detitle"])
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--only")
@@ -338,7 +565,7 @@ def main():
     if not args.apply:
         print("（dry-run：不写文件，加 --apply 生效）\n")
     {"meta": fix_meta, "extract": fix_extract, "date": fix_date, "image": fix_image,
-     "zh-strip": fix_zh_strip}[args.target](args.apply, args.only)
+     "zh-strip": fix_zh_strip, "compose": fix_compose, "detitle": fix_detitle}[args.target](args.apply, args.only)
 
 
 if __name__ == "__main__":

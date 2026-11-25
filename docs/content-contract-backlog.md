@@ -1,123 +1,9 @@
 # 内容契约待办清单
 
-生成时间：2026-11-24 19:19　来源：`logs/content-contract-latest.json`
+生成时间：2026-11-24 19:41　来源：`logs/content-contract-latest.json`
 
-校验口径：264 篇文章，96 篇有 BLOCK，166 篇只有 WARN。 BLOCK 修完即可从基线摘除；WARN 按项目排期处理。
+校验口径：264 篇文章，0 篇有 BLOCK，262 篇只有 WARN。 BLOCK 修完即可从基线摘除；WARN 按项目排期处理。
 
-
-## 中文正文占位（需补写真实中文段落）（48 处 / 38 篇）
-
-- `agrifastener-water-infrastructure`：sections[2].body.zh 含占位文案 'content coming soon'
-- `anchor-bolts-foundation-guide`：sections[1].body.zh 含占位文案 'content coming soon'
-- `anchor-bolts-selection-guide`：sections[2].body.zh 含占位文案 'content coming soon'
-- `anchor-bolts-suppliers-africa`：sections[0].body.zh 含占位文案 'content coming soon'
-- `butyl-tape-buying-guide`：sections[2].body.pt 含占位文案 'todo:'
-- `china-fastener-supplier-price-list-guide`：sections[0].body.zh 含占位文案 'content coming soon'
-- `din-iso-fastener-standards-guide`：sections[1].body.zh 含占位文案 'content coming soon'；sections[4].body.zh 含占位文案 'content coming soon'
-- `fastener-cost-analysis-template`：sections[1].body.zh 含占位文案 'content coming soon'；sections[2].body.zh 含占位文案 'content coming soon'
-- `fastener-quality-inspection-guide`：sections[2].body.zh 含占位文案 'content coming soon'
-- `fastener-standards-din-iso-astm-comparison`：sections[1].body.zh 含占位文案 'content coming soon'
-- `full-thread-half-thread-coarse-fine-thread-guide`：sections[4].body.en 含占位文案 'content coming soon'
-- `gaskets-specialty-washers-high-temp-guide`：sections[3].body.zh 含占位文案 'content coming soon'
-- `gb-din-ansi-fastener-standards-export-guide`：sections[4].body.en 含占位文案 'content coming soon'
-- `hex-bolt-dimensions-chart`：sections[5].body.zh 含占位文案 'content coming soon'
-- `high-tensile-structural-bolts-guide`：sections[2].body.zh 含占位文案 'content coming soon'；sections[3].body.zh 含占位文案 'content coming soon'；sections[4].body.zh 含占位文案 'content coming soon'
-- `imperial-metric-hex-nut-export-guide`：sections[2].body.en 含占位文案 'content coming soon'
-- `industrial-washers-flat-spring-lock-guide`：sections[4].body.en 含占位文案 'content coming soon'
-- `lag-screws-timber-connections`：sections[3].body.zh 含占位文案 'content coming soon'
-- `lock-nuts-flange-nuts-vibration-proof-guide`：sections[3].body.en 含占位文案 'content coming soon'
-- `machine-screws-specifications`：sections[0].body.zh 含占位文案 'content coming soon'
-- `malawi-fastener-market-case-study`：sections[5].body.zh 含占位文案 'content coming soon'
-- `marine-outdoor-corrosion-resistant-bolts-guide`：sections[4].body.en 含占位文案 'content coming soon'
-- `mozambique-fastener-market-case-study`：sections[0].body.zh 含占位文案 'content coming soon'；sections[2].body.zh 含占位文案 'content coming soon'；sections[4].body.zh 含占位文案 'content coming soon'
-- `nigeria-fastener-market-guide`：sections[1].body.zh 含占位文案 'content coming soon'
-- `payment-terms-international-fastener-trade`：sections[2].body.es 含占位文案 'todo:'
-- `rivets-blind-rivet-nut-guide`：sections[0].body.zh 含占位文案 'content coming soon'；sections[3].body.zh 含占位文案 'content coming soon'
-- `self-drilling-screws-selection-guide`：sections[1].body.zh 含占位文案 'content coming soon'
-- `self-tapping-screws-complete-classification-guide`：sections[5].body.zh 含占位文案 'content coming soon'
-- `stainless-steel-bolts-africa-guide`：sections[0].body.zh 含占位文案 'content coming soon'
-- `structural-heavy-duty-bolts-building-guide`：sections[4].body.en 含占位文案 'content coming soon'
-- `threaded-rod-studding-guide`：sections[0].body.zh 含占位文案 'content coming soon'
-- `threaded-rods-fasteners-guide`：sections[0].body.zh 含占位文案 'content coming soon'
-- `washer-types-applications-guide`：sections[0].body.zh 含占位文案 'content coming soon'；sections[1].body.zh 含占位文案 'content coming soon'；sections[2].body.zh 含占位文案 'content coming soon'；sections[3].body.zh 含占位文案 'content coming soon'
-- `wind-power-machinery-high-strength-bolts-guide`：sections[3].body.en 含占位文案 'content coming soon'
-- `wood-screws-machine-screws-furniture-guide`：sections[3].body.en 含占位文案 'content coming soon'
-- `zambia-fastener-market-case-study`：sections[2].body.en 含占位文案 'content coming soon'
-- `zimbabwe-construction-fastener-market`：sections[4].body.zh 含占位文案 'content coming soon'
-- `zimbabwe-fastener-market-case-study`：sections[1].body.en 含占位文案 'content coming soon'
-
-## 英文夹带未清（本地化标题/描述/元描述需重写）（280 处 / 70 篇）
-
-- `africa-railway-modernization-fastener-demand`：'metaDescription.zh' 夹着 10 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 10 个连续英文单词 — 英文原文混入
-- `africa-solar-energy-fastener-procurement-guide`：'metaDescription.zh' 夹着 6 个连续英文单词 — 英文原文混入
-- `algeria-algiers-oil-gas-fastener-specifications`：'metaDescription.zh' 夹着 5 个连续英文单词 — 英文原文混入
-- `angola-construction-boom-fastener-demand`：'metaDescription.zh' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 9 个连续英文单词 — 英文原文混入
-- `automotive-fastener-grade-comparison`：'metaDescription.zh' 夹着 8 个连续英文单词 — 英文原文混入
-- `congo-brazzaville-fastener`：'metaDescription.ja' 夹着 12 个连续英文单词 — 英文原文混入
-- `construction-building-self-tapping-screws-tco-analysis-joint-stiffness`：'metaDescription.zh' 夹着 10 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 10 个连续英文单词 — 英文原文混入
-- `construction-building-self-tapping-screws-tco-analysis-uv-degradation`：'metaDescription.zh' 夹着 10 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 10 个连续英文单词 — 英文原文混入
-- `construction-fastener-standards-comparison`：'title.zh' 夹着 4 个连续英文单词 — 英文原文混入；'title.ar' 夹着 4 个连续英文单词 — 英文原文混入；'title.ru' 夹着 4 个连续英文单词 — 英文原文混入；'title.hi' 夹着 4 个连续英文单词 — 英文原文混入；'description.zh' 夹着 4 个连续英文单词 — 英文原文混入；'description.ja' 夹着 4 个连续英文单词
-- `din-iso-fastener-standards-guide`：'title.hi' 夹着 6 个连续英文单词 — 英文原文混入；'description.zh' 夹着 6 个连续英文单词 — 英文原文混入；'description.ar' 夹着 6 个连续英文单词 — 英文原文混入；'description.ja' 夹着 6 个连续英文单词 — 英文原文混入；'description.hi' 夹着 6 个连续英文单词 — 英文原文混入；'metaDescri
-- `dr-congo-drc-mining-fastener-market`：'metaDescription.zh' 夹着 8 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 8 个连续英文单词 — 英文原文混入
-- `extended-length-self-tapping-screws-guide`：'metaDescription.ja' 夹着 7 个连续英文单词 — 英文原文混入
-- `fastener-cost-reduction-china-vs-turkey`：'metaDescription.zh' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 9 个连续英文单词 — 英文原文混入
-- `fastener-failure-analysis-case-studies`：'metaDescription.zh' 夹着 5 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 5 个连续英文单词 — 英文原文混入
-- `fastener-glossary-africa-procurement`：'metaDescription.ja' 夹着 12 个连续英文单词 — 英文原文混入
-- `fastener-lubrication-thread-locking-guide`：'metaDescription.zh' 夹着 11 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 11 个连续英文单词 — 英文原文混入
-- `fastener-packaging-export-requirements`：'description.ja' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 9 个连续英文单词 — 英文原文混入
-- `fastener-preload-torque-calculation-methods`：'metaDescription.zh' 夹着 9 个连续英文单词 — 英文原文混入
-- `fastener-quality-certification-comparison`：'title.zh' 夹着 5 个连续英文单词 — 英文原文混入；'title.ar' 夹着 6 个连续英文单词 — 英文原文混入；'title.ru' 夹着 6 个连续英文单词 — 英文原文混入；'title.ja' 夹着 6 个连续英文单词 — 英文原文混入；'title.hi' 夹着 6 个连续英文单词 — 英文原文混入；'description.zh' 夹着 6 个连续英文单词 — 英文原
-- `fastener-quality-control-inspection-procedures`：'description.ja' 夹着 8 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 8 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 8 个连续英文单词 — 英文原文混入
-- `fastener-standards-din-iso-astm-comparison`：'title.zh' 夹着 4 个连续英文单词 — 英文原文混入；'title.ar' 夹着 4 个连续英文单词 — 英文原文混入；'title.ru' 夹着 4 个连续英文单词 — 英文原文混入；'title.ja' 夹着 7 个连续英文单词 — 英文原文混入；'title.hi' 夹着 4 个连续英文单词 — 英文原文混入；'description.zh' 夹着 5 个连续英文单词 — 英文原
-- `fastener-warehouse-management-best-practices`：'description.ja' 夹着 8 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 8 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 8 个连续英文单词 — 英文原文混入
-- `food-beverage-fastener-hygiene-standards`：'description.ru' 夹着 8 个连续英文单词 — 英文原文混入；'description.ja' 夹着 8 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 8 个连续英文单词 — 英文原文混入；'metaDescription.ru' 夹着 8 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 8 个连续英文单词 — 
-- `gaskets-specialty-washers-high-temp-guide`：'metaDescription.ja' 夹着 12 个连续英文单词 — 英文原文混入
-- `gb-din-ansi-fastener-standards-export-guide`：'description.zh' 夹着 4 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 4 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 14 个连续英文单词 — 英文原文混入
-- `green-building-fastener-requirements`：'description.ru' 夹着 9 个连续英文单词 — 英文原文混入；'description.ja' 夹着 9 个连续英文单词 — 英文原文混入；'description.hi' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.ar' 夹着 4 个连续英文单词 — 英文原文
-- `high-strength-bolting-structural-steel`：'description.ja' 夹着 8 个连续英文单词 — 英文原文混入；'description.hi' 夹着 8 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 8 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 8 个连续英文单词 — 英文原文混入；'metaDescription.hi' 夹着 8 个连续英文单词 — 
-- `high-strength-bolts-8-8-10-9-12-9-grade-guide`：'metaDescription.ja' 夹着 10 个连续英文单词 — 英文原文混入
-- `high-tensile-bolts-grade-guide`：'metaDescription.ja' 夹着 12 个连续英文单词 — 英文原文混入
-- `imperial-metric-hex-nut-export-guide`：'metaDescription.ja' 夹着 14 个连续英文单词 — 英文原文混入
-- `industrial-washers-flat-spring-lock-guide`：'metaDescription.ja' 夹着 14 个连续英文单词 — 英文原文混入
-- `kenya-east-africa-fastener-distribution-hub`：'description.ru' 夹着 12 个连续英文单词 — 英文原文混入；'description.ja' 夹着 12 个连续英文单词 — 英文原文混入；'description.hi' 夹着 12 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 12 个连续英文单词 — 英文原文混入；'metaDescription.ru' 夹着 12 个连续英文单词 —
-- `lock-nuts-flange-nuts-vibration-proof-guide`：'metaDescription.ja' 夹着 7 个连续英文单词 — 英文原文混入
-- `malawi-fastener-market-case-study`：'description.ja' 夹着 4 个连续英文单词 — 英文原文混入；'description.hi' 夹着 5 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 4 个连续英文单词 — 英文原文混入；'metaDescription.hi' 夹着 5 个连续英文单词 — 英文原文混入
-- `marine-fasteners-guide`：'metaDescription.ja' 夹着 4 个连续英文单词 — 英文原文混入
-- `marine-grade-fastener-selection-guide`：'description.ar' 夹着 9 个连续英文单词 — 英文原文混入；'description.ja' 夹着 9 个连续英文单词 — 英文原文混入；'description.hi' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.ar' 夹着 9 个连续英文单词 — 英文原文
-- `mozambique-fastener-import-market-guide`：'description.ru' 夹着 8 个连续英文单词 — 英文原文混入；'description.ja' 夹着 8 个连续英文单词 — 英文原文混入；'description.hi' 夹着 8 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 8 个连续英文单词 — 英文原文混入；'metaDescription.ru' 夹着 8 个连续英文单词 — 英文原文
-- `mozambique-lng-construction-fasteners-maputo`：'description.ja' 夹着 5 个连续英文单词 — 英文原文混入；'description.hi' 夹着 4 个连续英文单词 — 英文原文混入
-- `mozambique-lng-construction-fasteners-standards`：'metaDescription.ja' 夹着 4 个连续英文单词 — 英文原文混入
-- `non-standard-special-shape-screws-custom-guide`：'metaDescription.ja' 夹着 5 个连续英文单词 — 英文原文混入
-- `precast-concrete-fastener-applications`：'description.ja' 夹着 8 个连续英文单词 — 英文原文混入；'description.hi' 夹着 8 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 8 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 8 个连续英文单词 — 英文原文混入；'metaDescription.hi' 夹着 8 个连续英文单词 — 
-- `railway-track-fastener-specifications`：'description.ar' 夹着 9 个连续英文单词 — 英文原文混入；'description.ja' 夹着 9 个连续英文单词 — 英文原文混入；'description.hi' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.ar' 夹着 9 个连续英文单词 — 英文原文
-- `republic-of-congo-fastener-supplier`：'metaDescription.ja' 夹着 14 个连续英文单词 — 英文原文混入
-- `rwanda-construction-fastener-standards`：'description.zh' 夹着 4 个连续英文单词 — 英文原文混入；'description.ar' 夹着 4 个连续英文单词 — 英文原文混入；'description.ru' 夹着 4 个连续英文单词 — 英文原文混入；'description.ja' 夹着 4 个连续英文单词 — 英文原文混入；'description.hi' 夹着 4 个连续英文单词 — 英文原文混入；'meta
-- `self-drilling-screws-market-demand-and-procurement-guide`：'metaDescription.de' 与英文完全相同 — 英文原文混入
-- `self-drilling-tek-screws-price-list`：'description.zh' 夹着 5 个连续英文单词 — 英文原文混入；'description.ru' 夹着 4 个连续英文单词 — 英文原文混入；'description.ja' 夹着 6 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 5 个连续英文单词 — 英文原文混入；'metaDescription.ru' 夹着 4 个连续英文单词 — 英文原文
-- `self-tapping-screws-complete-classification-guide`：'metaDescription.ja' 夹着 12 个连续英文单词 — 英文原文混入
-- `solar-panel-mounting-fastener-requirements`：'description.ru' 夹着 9 个连续英文单词 — 英文原文混入；'description.ja' 夹着 9 个连续英文单词 — 英文原文混入；'description.hi' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.ru' 夹着 9 个连续英文单词 — 英文原文
-- `south-africa-sabs-fastener-import-requirements`：'description.hi' 夹着 8 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 8 个连续英文单词 — 英文原文混入；'metaDescription.hi' 夹着 8 个连续英文单词 — 英文原文混入
-- `stainless-steel-hex-bolt-304-316-guide`：'metaDescription.ja' 夹着 14 个连续英文单词 — 英文原文混入
-- `stainless-steel-hex-nuts-304-316-heavy-guide`：'metaDescription.ja' 夹着 6 个连续英文单词 — 英文原文混入
-- `tanzania-fastener-market-opportunities-2026`：'description.ar' 夹着 10 个连续英文单词 — 英文原文混入；'description.ja' 夹着 10 个连续英文单词 — 英文原文混入；'description.hi' 夹着 10 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 10 个连续英文单词 — 英文原文混入；'metaDescription.ar' 夹着 10 个连续英文单词 —
-- `wind-energy-fastener-requirements-2026`：'description.ja' 夹着 9 个连续英文单词 — 英文原文混入；'description.hi' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.hi' 夹着 9 个连续英文单词 — 
-- `wood-screws-machine-screws-furniture-guide`：'metaDescription.ja' 夹着 14 个连续英文单词 — 英文原文混入
-- `zambia-fastener-market-case-study`：'description.ja' 夹着 7 个连续英文单词 — 英文原文混入；'description.hi' 夹着 7 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 7 个连续英文单词 — 英文原文混入；'metaDescription.hi' 夹着 7 个连续英文单词 — 英文原文混入
-- `zim-construction-anchor-bolts-lifecycle-cost-salt-spray`：'description.ja' 夹着 9 个连续英文单词 — 英文原文混入；'description.hi' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.hi' 夹着 9 个连续英文单词 — 
-- `zim-construction-flat-washers-standard-explainer-lead-time`：'description.ar' 夹着 10 个连续英文单词 — 英文原文混入；'description.ja' 夹着 10 个连续英文单词 — 英文原文混入；'description.hi' 夹着 10 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 10 个连续英文单词 — 英文原文混入；'metaDescription.ar' 夹着 10 个连续英文单词 —
-- `zim-construction-lock-nuts-rfq-template-bolt-pattern`：'description.ar' 夹着 9 个连续英文单词 — 英文原文混入；'description.ja' 夹着 9 个连续英文单词 — 英文原文混入；'description.hi' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.ar' 夹着 9 个连续英文单词 — 英文原文
-- `zim-construction-lock-washers-tco-analysis-stress-cracking`：'description.ja' 夹着 9 个连续英文单词 — 英文原文混入；'description.hi' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.hi' 夹着 9 个连续英文单词 — 
-- `zim-construction-threaded-rods-supplier-evaluation-cost-optimization`：'description.ja' 夹着 9 个连续英文单词 — 英文原文混入；'description.hi' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.hi' 夹着 9 个连续英文单词 — 
-- `zim-construction-u-bolts-spec-checklist-mill-cert-traceability`：'description.ar' 夹着 8 个连续英文单词 — 英文原文混入；'description.ja' 夹着 8 个连续英文单词 — 英文原文混入；'description.hi' 夹着 8 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 8 个连续英文单词 — 英文原文混入；'metaDescription.ar' 夹着 8 个连续英文单词 — 英文原文
-- `zim-construction-u-bolts-supplier-evaluation-galvanic-corrosion`：'description.ar' 夹着 6 个连续英文单词 — 英文原文混入；'description.ja' 夹着 6 个连续英文单词 — 英文原文混入；'description.hi' 夹着 6 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 6 个连续英文单词 — 英文原文混入；'metaDescription.ar' 夹着 6 个连续英文单词 — 英文原文
-- `zimbabwe-agricultural-fastener-requirements`：'description.ru' 夹着 9 个连续英文单词 — 英文原文混入；'description.hi' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.ru' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.hi' 夹着 9 个连续英文单词 — 
-- `zimbabwe-bulawayo-construction-hardware-supply`：'description.ar' 夹着 9 个连续英文单词 — 英文原文混入；'description.ja' 夹着 9 个连续英文单词 — 英文原文混入；'description.hi' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.ar' 夹着 9 个连续英文单词 — 英文原文
-- `zimbabwe-construction-megaprojects-fastener-demand`：'description.hi' 夹着 5 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 7 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 4 个连续英文单词 — 英文原文混入；'metaDescription.hi' 夹着 7 个连续英文单词 — 英文原文混入
-- `zimbabwe-fastener-market-case-study`：'description.ja' 夹着 4 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 4 个连续英文单词 — 英文原文混入
-- `zimbabwe-mining-fastener-grade-selection`：'description.hi' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 9 个连续英文单词 — 英文原文混入；'metaDescription.hi' 夹着 9 个连续英文单词 — 英文原文混入
-- `zimbabwe-road-bridge-rehabilitation-fastener-supply`：'description.ar' 夹着 10 个连续英文单词 — 英文原文混入；'description.ja' 夹着 10 个连续英文单词 — 英文原文混入；'description.hi' 夹着 10 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 10 个连续英文单词 — 英文原文混入；'metaDescription.ar' 夹着 10 个连续英文单词 —
-- `zimbabwe-rural-electrification-fastener-specifications`：'description.hi' 夹着 6 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 6 个连续英文单词 — 英文原文混入；'metaDescription.ja' 夹着 6 个连续英文单词 — 英文原文混入；'metaDescription.hi' 夹着 6 个连续英文单词 — 英文原文混入
-- `zimbabwe-warehousing-racking-fastener-safety`：'description.ar' 夹着 10 个连续英文单词 — 英文原文混入；'description.ja' 夹着 10 个连续英文单词 — 英文原文混入；'description.hi' 夹着 10 个连续英文单词 — 英文原文混入；'metaDescription.zh' 夹着 10 个连续英文单词 — 英文原文混入；'metaDescription.ar' 夹着 10 个连续英文单词 —
 
 ## FAQ 缺失或过短（GEO 结构化问答）（456 处 / 232 篇）
 
@@ -469,7 +355,7 @@
 - `kenya-mombasa-port-fastener-warehouse-guide`：英文正文 512 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 752 汉字，偏薄
 - `lag-screws-timber-connections`：英文正文 892 词 < 门槛 1600（历史资产，按 WARN 计）
 - `lagos-industrial-fasteners`：英文正文 560 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 470 汉字，偏薄
-- `lock-nuts-flange-nuts-vibration-proof-guide`：英文正文 802 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 401 汉字，偏薄
+- `lock-nuts-flange-nuts-vibration-proof-guide`：英文正文 776 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 401 汉字，偏薄
 - `lock-nuts-nyloc-self-locking`：英文正文 810 词 < 门槛 1600（历史资产，按 WARN 计）
 - `lock-nuts-selflocking-nuts-guide`：英文正文 657 词 < 门槛 1600（历史资产，按 WARN 计）
 - `m10-galvanized-bolt-fob-china-price`：英文正文 877 词 < 门槛 1600（历史资产，按 WARN 计）
@@ -478,7 +364,7 @@
 - `malawi-fastener-market-case-study`：英文正文 1502 词 < 门槛 1600（历史资产，按 WARN 计）
 - `marine-fasteners-guide`：英文正文 1007 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 232 汉字，偏薄
 - `marine-grade-fastener-selection-guide`：英文正文 1550 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 449 汉字，偏薄
-- `marine-outdoor-corrosion-resistant-bolts-guide`：英文正文 896 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 624 汉字，偏薄
+- `marine-outdoor-corrosion-resistant-bolts-guide`：英文正文 864 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 624 汉字，偏薄
 - `micro-precision-screws-electronic-guide`：英文正文 633 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 94 汉字，偏薄
 - `mining-equipment-fasteners-zambia-southafrica`：英文正文 976 词 < 门槛 1600（历史资产，按 WARN 计）
 - `mining-fasteners-africa`：英文正文 809 词 < 门槛 1600（历史资产，按 WARN 计）
@@ -523,7 +409,7 @@
 - `stainless-steel-fasteners-africa`：英文正文 730 词 < 门槛 1600（历史资产，按 WARN 计）
 - `stainless-steel-hex-bolt-304-316-guide`：英文正文 702 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 681 汉字，偏薄
 - `stainless-steel-hex-nuts-304-316-heavy-guide`：英文正文 823 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 131 汉字，偏薄
-- `structural-heavy-duty-bolts-building-guide`：英文正文 945 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 548 汉字，偏薄
+- `structural-heavy-duty-bolts-building-guide`：英文正文 900 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 548 汉字，偏薄
 - `structural-steel-connection-fasteners`：英文正文 1056 词 < 门槛 1600（历史资产，按 WARN 计）
 - `structural-steel-connections-guide`：英文正文 908 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 273 汉字，偏薄
 - `tanzania-dar-es-salaam-port-fastener-import-procedure`：英文正文 455 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 669 汉字，偏薄
@@ -542,7 +428,7 @@
 - `washer-types-applications-guide`：英文正文 1186 词 < 门槛 1600（历史资产，按 WARN 计）
 - `welding-nuts-square-nut-special-nut-guide`：英文正文 820 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 114 汉字，偏薄
 - `wind-energy-fastener-requirements-2026`：英文正文 1573 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 637 汉字，偏薄
-- `wind-power-machinery-high-strength-bolts-guide`：英文正文 780 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 431 汉字，偏薄
+- `wind-power-machinery-high-strength-bolts-guide`：英文正文 736 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 431 汉字，偏薄
 - `wood-screws-machine-screws-furniture-guide`：英文正文 761 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 508 汉字，偏薄
 - `zambia-fastener-market-case-study`：英文正文 1152 词 < 门槛 1600（历史资产，按 WARN 计）
 - `zambia-fastener-supplier`：英文正文 863 词 < 门槛 1600（历史资产，按 WARN 计）；中文正文 102 汉字，偏薄
