@@ -37,6 +37,11 @@ trap 'rmdir "$LOCK" 2>/dev/null' EXIT
 FORCE=0
 [ "${1:-}" = "--force" ] && FORCE=1
 
+# 守卫自检：hook 没挂上时自动补齐（新克隆最常漏这一步）
+if [ "$(git config core.hooksPath 2>/dev/null)" != ".githooks" ]; then
+  git config core.hooksPath .githooks && echo "$LOG_PREFIX 已自动挂载 core.hooksPath=.githooks"
+fi
+
 git fetch -q origin main || { echo "$LOG_PREFIX fetch 失败"; exit 1; }
 
 UNPUSHED=$(git rev-list --count origin/main..HEAD 2>/dev/null || echo 0)

@@ -39,6 +39,14 @@ pass() { say "  ✅ $1"; }
 
 [ "$QUIET" -eq 0 ] && echo "🕵  Vercel 合规审计 $(date '+%Y-%m-%d %H:%M')"
 
+# --- 本地守卫是否真的挂上（新克隆/新机器最容易漏，漏了 guard 等于不存在）---
+HP=$(git config core.hooksPath 2>/dev/null || echo "")
+if [ "$HP" = ".githooks" ] && [ -x .githooks/pre-push ]; then
+  pass "本地 pre-push 守卫已挂载（core.hooksPath=.githooks）"
+else
+  issue "本地守卫未挂载（core.hooksPath=${HP:-空}），push 会绕过 guard：git config core.hooksPath .githooks"
+fi
+
 git fetch -q origin main 2>/dev/null || true
 ORIGIN_SHA=$(git rev-parse origin/main 2>/dev/null || echo "")
 HEAD_SHA=$(git rev-parse HEAD 2>/dev/null || echo "")

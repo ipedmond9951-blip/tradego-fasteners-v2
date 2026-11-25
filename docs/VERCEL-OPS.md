@@ -212,7 +212,7 @@ bash scripts/vercel-guard.sh            # 立刻跑一次，确认环境合规
 
 ## 9. 保障机制：怎么确保真的按规范执行
 
-规范不是靠自觉。四层叠加：平台硬拒 → 本地拦截 → 事后审计 → 凭证收敛，每层都能独立证伪"没按规定来"。
+规范不是靠自觉。五层叠加：平台硬拒 → 本地拦截 → 事后审计 → **告警到达** → 凭证收敛，每层都能独立证伪"没按规定来"。
 
 ### 第一层 · 平台硬拒（Vercel 自己不接受）
 项目 Settings → Build and Deployment → **Deployment Sources** 已设为 `Override`，生产环境**只勾 Git**，`Vercel CLI / REST API / v0 / Deploy Hooks / Marketplace` 全部取消勾选。
@@ -227,7 +227,7 @@ bash scripts/vercel-guard.sh            # 立刻跑一次，确认环境合规
 | `_deny-direct-deploy.sh` | 8 个历史脚本里的 `npx vercel --prod` 全部改指向拦截器，执行即报错 |
 
 ### 第三层 · 事后检测（违规发生当天就能发现）
-`scripts/vercel-audit.sh` 每天 08:30 由定时任务自动跑（`--quiet` 模式只在违规时出声）。检测 9 项：
+`scripts/vercel-audit.sh` 每天 08:30 由定时任务自动跑（`--quiet` 模式只在违规时出声）。检测 **11 项**：
 
 1. 生产部署的 `source` 必须是 `git` —— **CLI 直推会留成 `source: cli`，这是最硬的证据**
 2. 平台策略必须仍是"仅 git"（防止有人把开关又打开）
@@ -238,8 +238,15 @@ bash scripts/vercel-guard.sh            # 立刻跑一次，确认环境合规
 7. 最新部署最大 Lambda ≤ 5MB
 8. `/en/` 200
 9. CDN 长缓存头正常
+10. 用量快照未过期（>36h 报错）且信用额度未到 95%
+11. 本地 `core.hooksPath=.githooks` 且 `.githooks/pre-push` 可执行 —— 新克隆/新机器最容易漏，漏了 guard 等于不存在（`deploy-flush.sh` 启动时会自动补齐）
 
-违规会写进 `logs/vercel-audit.log` 并在当日摘要里报出来，不会静默。
+### 第三层补充 · 告警必须"到达人"，不是只写日志
+早先审计失败只弹 macOS 桌面通知——人不在电脑前等于静默。现在：
+- `~/.agents/bin/vercel-alert.sh` 由 launchd（`com.tradego.vercel-alert`，30 分钟一次）调用，读 `logs/vercel-audit-last.json`
+- **连续 2 次失败才推 Telegram**（防抖），同一个巡检时间点只推一次；恢复后推一条"已恢复"并清除标记
+- 通道复用仓库里的 `scripts/telegram-notify.sh`（其他 cron 已在用，`TELEGRAM_CHAT_ID` 默认 8758157215）
+- 该脚本只读状态文件，不碰仓库、不占部署额度
 
 ### 第四层 · 凭证收敛（把能力本身限制住）
 - Vercel CLI token 只在**这台 Mac**（`~/Library/Application Support/com.vercel.cli/auth.json`）；云主机 `vm` 与 Windows 机器都没有登录态，物理上跑不了部署
@@ -256,7 +263,8 @@ CANCELED 记录要 push 后十几秒才出现在 API 里，所以 `deploy-flush.
 ### 已知缺口（不粉饰）
 1. `git push --no-verify` 可以跳过 pre-push 钩子 —— 但第三层的 sha 对齐 + 当日次数审计仍会记录，且部署本身仍是一次正常的 git 部署，风险有限
 2. ~~能读到本机 token 的进程仍可 `vercel --prod`~~ —— 已被平台层堵死（来源策略仅 git）；万一有人把开关打开，第三层审计当天就会报"未启用部署来源限制"
-3. 若将来多人协作或代理增多，应升级为 **GitHub 分支保护（main 必须走 PR + 必过 checks）**；当前单人直推流程与之冲突，暂不启用，写在这里作为下一步选项
+3. 审计只在**这台 Mac 醒着**时才跑；机器关机/休眠期间没有检测，也没有告警——恢复供电后 launchd 的 `RunAtLoad` 会补跑一次
+4. 若将来多人协作或代理增多，应升级为 **GitHub 分支保护（main 必须走 PR + 必过 checks）**；当前单人直推流程与之冲突，暂不启用，写在这里作为下一步选项
 
 ## 10. 变更记录
 
@@ -272,6 +280,9 @@ CANCELED 记录要 push 后十几秒才出现在 API 里，所以 `deploy-flush.
 | 2026-11-25 | 预算口径改为"真实构建数"；prune 保留 ERROR 作证据；审计识别构建失败 | 058ea106 因 function_creation_throttled 构建失败，旧口径误判/漏报 |
 | 2026-11-25 | Project Settings → Build and Deployment → Deployment Retention Policy：Production 部署 **30 days → 1 week** | 该设置只有天数粒度、没有"保留 N 条"字段；条数由 deploy-flush 后的 prune 控制（3 条），天数策略只作长尾兜底。1 week 给足一周回滚窗口，最长堆积 7 条 |
 | 2026-11-25 | 无构建推送计数改按 `Asia/Shanghai`；无构建推送后补跑一次 prune；审计保留数只计非 CANCELED | 机器时区 PST 导致北京时间上午永远卡在 5/5；CANCELED 记录延迟生成，prune 抓不到会误报"保留 4 条" |
+| 2026-11-25 | 审计扩到 11 项：加"用量快照/信用额度"与"本地守卫是否挂载"；`deploy-flush.sh` 自动补齐 `core.hooksPath` | 新克隆/新机器漏设 hook 时，pre-push 守卫等于不存在，而审计看不出来 |
+| 2026-11-25 | 审计失败告警从"Mac 桌面通知"改为 **Telegram 推送**（`vercel-alert.sh` + launchd 30 分钟，连续 2 次才发、恢复发一条） | 桌面通知人不在电脑前等于静默 |
+| 2026-11-25 | 新增 `.githooks/pre-commit` 批量改动软告警（>20 个 content/public 文件时列清单并记 `logs/vercel-bulk-commit.log`） | 工作区常驻他人 i18n 批量改动，`git add -A` 易把它们混进一次部署；只警告不阻断，避免打断内容流水线 |
 | 2026-11-25 | `seo-pipeline-guardian.sh` 的 `log()` 移到使用之前 | 早期分支误调 macOS `/usr/bin/log`，`Unknown subcommand` + exit 64，launchd 每次报失败 |
 
 ## 11. 踩坑清单（都是真撞出来的，别再重犯）
