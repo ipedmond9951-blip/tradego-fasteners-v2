@@ -140,10 +140,18 @@ bash scripts/vercel-guard.sh --live
 - 全过程记入 `logs/vercel-usage-watch.md`，包含：触发项、百分比、暂停时间、处置动作、恢复时间
 
 ### 6.2 构建失败
-1. `npx vercel inspect <url>` 看构建日志尾部
+1. `npx vercel inspect <url>` 看构建日志尾部；或直接 `bash scripts/vercel-audit.sh`，它会报出 `errorCode`
 2. 本地复现：`rm -rf .next && npx next build`
 3. **不要在线上反复重试**（每次都算一次部署）
 4. 定位不了就 `git revert` 上一个提交再走一次发布流程
+
+#### `function_creation_throttled`（函数创建被限流）
+现象：构建跑到 `Deploying outputs...` 后报错，`errorCode = function_creation_throttled`，线上仍是旧 sha。
+原因：短时间内创建了太多 Vercel Functions（每次部署都会重建全部函数 + 删除部署会销毁函数，一来一回就是一次函数 churn）。
+处置：
+1. **等 15–30 分钟**，让限流窗口过去
+2. 只推 **1 次**（推一次就会重建函数），不要连环重试
+3. 之后尽量把改动攒成一次发布；非构建类提交（docs/scripts）不会走到这一步
 
 ### 6.3 回滚
 - 首选：`git revert <sha>` → 走正常发布会话（保留 3 条部署，旧版仍可切回）
@@ -252,4 +260,6 @@ bash scripts/vercel-guard.sh            # 立刻跑一次，确认环境合规
 | 2026-11-25 | 本文档 v1.0 + `vercel-guard.sh` 落地 | 规范需要可执行，而非口头约定 |
 | 2026-11-25 | 新增 `vercel-audit.sh`（事后检测）+ 每日 08:30 定时审计 | 钩子可被 `--no-verify` 绕过，需要独立检测层 |
 | 2026-11-25 | 平台层 Deployment Sources 设为"生产仅 Git"，CLI/REST/v0/Hook/Marketplace 全部关闭 | 让"只能 git push"成为平台事实，而非约定 |
+| 2026-11-25 | GitHub main 开分支保护（禁强推/禁删除/线性历史/含 admin） | 本地钩子可被 --no-verify 绕过，加一层远端硬拦 |
+| 2026-11-25 | 预算口径改为"真实构建数"；prune 保留 ERROR 作证据；审计识别构建失败 | 058ea106 因 function_creation_throttled 构建失败，旧口径误判/漏报 |
 | 2026-11-25 | Project Settings → Build and Deployment → Deployment Retention Policy：Production 部署 **30 days → 1 week** | 该设置只有天数粒度、没有"保留 N 条"字段；条数由 deploy-flush 后的 prune 控制（3 条），天数策略只作长尾兜底。1 week 给足一周回滚窗口，最长堆积 7 条 |
