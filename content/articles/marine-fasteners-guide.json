@@ -195,51 +195,61 @@
         {
           "q": {
             "en": "Why do stainless fasteners gall in marine environments?",
-            "zh": "不锈钢紧固件为什么在海洋环境里咬死？"
+            "zh": "不锈钢紧固件为什么在海洋环境里咬死？",
+            "hi": "समुद्री वातावरण में स्टेनलेस फास्टनर गैल क्यों करते हैं?"
           },
           "a": {
             "en": "Stainless steel is prone to galling (thread seizure) when installed without lubrication or with excessive torque. Always use marine-grade lubricant during installation.",
-            "zh": "不锈钢在缺少润滑或扭矩过大时容易发生擦伤咬合（galling，即螺纹咬死）。安装时应使用海事级润滑剂，螺纹保持清洁并按规定扭矩拧紧，不要干拧或超扭矩施压。"
+            "zh": "不锈钢在缺少润滑或扭矩过大时容易发生擦伤咬合（galling，即螺纹咬死）。安装时应使用海事级润滑剂，螺纹保持清洁并按规定扭矩拧紧，不要干拧或超扭矩施压。",
+            "hi": "बिना लुब्रिकेशन के या ज़्यादा टॉर्क से लगाने पर स्टेनलेस स्टील में गैलिंग यानी थ्रीड सीज़र होने की आशंका रहती है। लगाते समय हमेशा मरीन-ग्रेड लुब्रिकेंट का इस्तेमाल करें।"
           }
         },
         {
           "q": {
             "en": "Can I use galvanized fasteners underwater?",
-            "zh": "镀锌紧固件能用在水下吗？"
+            "zh": "镀锌紧固件能用在水下吗？",
+            "hi": "पानी के नीचे गैल्वनाइज़्ड फास्टनर लगा सकते हैं?"
           },
           "a": {
             "en": "Not recommended. HDG works above water but rapidly degrades in saltwater immersion. Use A4 stainless or super duplex for underwater applications.",
-            "zh": "不建议。热浸镀锌（HDG）在水面以上可以工作，但在海水浸没环境中会迅速腐蚀失效。水下部位应选用 A4 不锈钢或超双相不锈钢。"
+            "zh": "不建议。热浸镀锌（HDG）在水面以上可以工作，但在海水浸没环境中会迅速腐蚀失效。水下部位应选用 A4 不锈钢或超双相不锈钢。",
+            "hi": "यह सुझाव नहीं दिया जाता। HDG पानी के ऊपर तो चलता है, लेकिन खारे पानी में डूबे रहने पर तेज़ी से खराब होता है। पानी के नीचे लगने वाले हिस्सों के लिए A4 स्टेनलेस या सुपर डुप्लेक्स इस्तेमाल करें।"
           }
         },
         {
           "q": {
             "en": "What's the difference between 304 and 316 stainless for marine use?",
-            "zh": "海洋用 304 和 316 不锈钢差在哪？"
+            "zh": "海洋用 304 和 316 不锈钢差在哪？",
+            "hi": "समुद्री उपयोग में 304 और 316 स्टेनलेस में क्या फर्क है?"
           },
           "a": {
             "en": "316 contains molybdenum which significantly improves chloride corrosion resistance. Use 304 only for protected indoor marine environments. Always use 316 for outdoor marine exposure.",
-            "zh": "316 含钼，耐氯离子腐蚀能力明显更好；304 只能用于有遮蔽的室内海事环境，户外海洋暴露一律用 316（即 A4）。选型时不要图价差把 304 用到飞溅或露天部位。"
+            "zh": "316 含钼，耐氯离子腐蚀能力明显更好；304 只能用于有遮蔽的室内海事环境，户外海洋暴露一律用 316（即 A4）。选型时不要图价差把 304 用到飞溅或露天部位。",
+            "hi": "316 में मोलिब्डेनम होता है, जो क्लोराइड जंग के प्रतिरोध को काफी बेहतर करता है। 304 केवल सुरक्षित इनडोर समुद्री वातावरण के लिए उपयुक्त है; खुले बाहरी समुद्री संपर्क में हमेशा 316 इस्तेमाल करें।"
           }
         },
         {
           "q": {
             "en": "How often should marine fasteners be inspected?",
-            "zh": "海洋紧固件多久检查一次？"
+            "zh": "海洋紧固件多久检查一次？",
+            "hi": "समुद्री फास्टनरों का निरीक्षण कितनी बार करें?"
           },
           "a": {
             "en": "Annual inspection is minimum. More frequent inspection (6 months) for critical structures and harsh environments. Inspect for corrosion, loosening, and fatigue cracks.",
-            "zh": "至少每年检查一次；关键结构和恶劣环境缩短到每 6 个月一次。检查内容包括腐蚀痕迹、松动和疲劳裂纹，发现螺纹损伤或点蚀应及时更换，不要只做表面清理。"
+            "zh": "至少每年检查一次；关键结构和恶劣环境缩短到每 6 个月一次。检查内容包括腐蚀痕迹、松动和疲劳裂纹，发现螺纹损伤或点蚀应及时更换，不要只做表面清理。",
+            "hi": "सालाना निरीक्षण न्यूनतम मानक है। महत्वपूर्ण संरचनाओं और कठोर वातावरण में 6 महीने की अधिक बारीकी से जांच करें; जंग, ढीलापन और थकान दरारों पर ध्यान दें।"
           }
         },
         {
           "q": {
             "en": "Can I paint over stainless fasteners?",
-            "zh": "不锈钢紧固件外面能刷漆吗？"
+            "zh": "不锈钢紧固件外面能刷漆吗？",
+            "hi": "स्टेनलेस फास्टनरों पर पेंट कर सकते हैं?"
           },
           "a": {
             "en": "Not necessary and not recommended. Paint won't adhere well to stainless and may hide corrosion problems. Leave stainless fasteners unpainted.",
-            "zh": "既没必要也不建议。油漆在不锈钢表面附着性差，还会遮盖已经发生的腐蚀问题；不锈钢紧固件应保持不涂装状态，便于日常目视检查。"
+            "zh": "既没必要也不建议。油漆在不锈钢表面附着性差，还会遮盖已经发生的腐蚀问题；不锈钢紧固件应保持不涂装状态，便于日常目视检查。",
+            "hi": "न ज़रूरत है और न सुझाव। स्टेनलेस पर पेंट अच्छी तरह चिपकती नहीं और जंग की समस्या छिपा सकती है; स्टेनलेस फास्टनरों को बिना पेंट के ही छोड़ें।"
           }
         }
       ]
