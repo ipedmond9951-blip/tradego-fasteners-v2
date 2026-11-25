@@ -176,7 +176,7 @@ const COPY: Record<string, Copy> = {
     title: 'Documents export et inspection - certificats matière, COC, SGS/BV | TradeGo',
     desc: 'Ce qui accompagne chaque commande TradeGo : facture, liste de colisage, connaissement, certificat d origine et certificats matière. Inspection SGS/BV, ISO 9001 et homologation SABS sont engagées selon votre commande.',
     h1: 'Documents et inspection',
-    lead: 'Chaque expédition part avec le dossier qui passe la douane et la réception. Inspection tierce et homologations exigées par un appel d offres sont engagées par commande : nous n annonçons pas de certificats que nous ne détenons pas.',
+    lead: 'Chaque expédition part avec le dossier qui passe la douane et la réception. Inspection tierce et homologations exigées par un appel d offres sont engagées par commande ; les certificats sont fournis selon les exigences de votre commande.',
     cards: [
       { h: 'Dossier documentaire standard', sub: 'Avec chaque commande, sans surcoût', items: ['Facture commerciale et liste de colisage avec poids et dimensions par carton', 'Connaissement, trois originaux plus telex release', 'Certificat d origine émis par la CCPIT', 'Certificat matière par numéro de coulée', 'Rapport de contrôle dimensionnel et visuel selon la norme commandée'] },
       { h: 'Inspection tierce', sub: 'SGS, BV, Intertek ou votre organisme', items: ['Inspection avant expédition, en entrepôt', 'Préavis de trois à cinq jours ouvrés avant chargement', 'Échantillonnage ISO 2859-1 AQL 2.5 ou selon votre commande', 'Frais à la charge de l acheteur ou inclus en cotation CIF'] },

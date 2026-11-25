@@ -11,6 +11,7 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
   const [submitted, setSubmitted] = useState(false)
   const [undelivered, setUndelivered] = useState(false)
   const [loading, setLoading] = useState(false)
+  const [certRequested, setCertRequested] = useState(false)
   // 表单进入页面的时刻，用来算"填表时长"；脚本通常瞬间提交
   const mountedAt = useRef(0)
 
@@ -41,7 +42,7 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
       country: val('country'),
       products: val('products'),
       quantity: val('quantity'),
-      message: val('message'),
+      message: [val('message'), certRequested ? '\n[Certificate request] Attach ISO 9001 / SABS / CE certificates with this order; cost and lead time quoted separately.' : ''].filter(Boolean).join(''),
       // 反滥用元数据：蜜罐字段（真人不会填）+ 填表耗时
       _honeypot: val('website'),
       _elapsed: mountedAt.current ? Date.now() - mountedAt.current : -1,
@@ -159,6 +160,16 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
             <input id="inquiry-quantity" name="quantity" className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" placeholder="e.g. 5 tons" />
           </div>
           <div>
+            <label className="flex items-start gap-2 text-xs md:text-sm text-gray-700 bg-gray-50 border border-gray-200 rounded-lg px-3 py-2.5 cursor-pointer">
+              <input
+                type="checkbox"
+                checked={certRequested}
+                onChange={(e) => setCertRequested(e.target.checked)}
+                className="mt-0.5 h-4 w-4 text-primary-700 border-gray-300 rounded"
+              />
+              <span>{t(locale, 'inquiry.certNote')}</span>
+            </label>
+
             <label htmlFor="inquiry-message" className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.message')}</label>
             <textarea id="inquiry-message" name="message" rows={3} className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent" />
           </div>
