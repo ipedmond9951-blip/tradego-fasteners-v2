@@ -183,31 +183,37 @@
         {
           "q": {
             "en": "What fastener coating is suitable for buried water pipeline joints?",
-            "zh": "埋地水管接头该选什么紧固件涂层？"
+            "zh": "埋地水管接头该选什么紧固件涂层？",
+            "hi": "दफन पानी पाइपलाइन जोड़ों के लिए कौन सी कोटिंग ठीक रहती है?"
           },
           "a": {
             "en": "For buried water pipelines in African soil conditions: Hot-dip galvanizing (HDG) per ISO 1461 is the standard for most buried applications — the zinc coating provides cathodic protection even if the coating is slightly damaged. For highly corrosive soil (black cotton soil, mine drainage-contaminated ground), specify FBE (fusion-bonded epoxy) coating on the fasteners — provides barrier protection superior to HDG in aggressive soils. For pipe joints that may need future access, use HDG with Denso tape wrap (petrolatum-based) over the bolt and flange face. For critical potable water pipelines, specify potable-water-approved epoxy coating (e.g., ANSI/NSF 61 certified) or stainless steel 316.",
-            "zh": "按非洲土壤条件分：多数埋地场合用符合 ISO 1461 的热浸镀锌，镀层局部破损时锌仍能提供阴极保护；黑棉土、矿山排水污染等强腐蚀土壤建议螺栓做熔结环氧（FBE）涂层，屏障保护优于镀锌；日后可能需要检修的接头用热浸镀锌外加 Denso 胶带（石油脂基）缠包螺栓与法兰面；饮用水关键管线用饮用水认证环氧涂层（如 ANSI/NSF 61）或 316 不锈钢。"
+            "zh": "按非洲土壤条件分：多数埋地场合用符合 ISO 1461 的热浸镀锌，镀层局部破损时锌仍能提供阴极保护；黑棉土、矿山排水污染等强腐蚀土壤建议螺栓做熔结环氧（FBE）涂层，屏障保护优于镀锌；日后可能需要检修的接头用热浸镀锌外加 Denso 胶带（石油脂基）缠包螺栓与法兰面；饮用水关键管线用饮用水认证环氧涂层（如 ANSI/NSF 61）或 316 不锈钢。",
+            "hi": "ज़्यादातर दफन जोड़ों के लिए ISO 1461 के अनुसार हॉट-डिप गैल्वनाइज़्ड (HDG) कोटिंग मानक है; ज़िंक परत मामूली क्षति पर भी कैथोडिक सुरक्षा देती है। अत्यधिक क्षारक मिट्टी (काली कपास मिट्टी, खनन-प्रदूषित भूमि) में फ़्यूज़न-बॉन्डेड इपॉक्सी (FBE) कोटिंग बताएं, जो HDG से बेहतर अवरोध सुरक्षा करती है। बाद में खोलने वाले जोड़ों पर पेट्रोलेटम टेप लपेटें। पेयजल की महत्वपूर्ण लाइनों में ANSI/NSF 61 जैसे पेयजल मानक के अनुरूप इपॉक्सी या स्टेनलेस 316 चुनें।"
           }
         },
         {
           "q": {
             "en": "Why does stainless steel sometimes rust in water treatment plants?",
-            "zh": "不锈钢在水处理厂里为什么会生锈？"
+            "zh": "不锈钢在水处理厂里为什么会生锈？",
+            "hi": "जल शोधन संयंत्रों में स्टेनलेस स्टील कभी-कभी जंग क्यों खाता है?"
           },
           "a": {
             "en": "Stainless steel 304/316 can experience 'crevice corrosion' and 'pitting' in water treatment environments when: Chlorine levels are too high — high chlorine (>1 ppm) accelerates pitting in stainless; specify 316L or duplex stainless for high-chlorine environments. Temperature exceeds 50°C — elevated temperature reduces pitting resistance; use higher alloy grades in hot water applications. Biofilm forms — bacteria under biofilm create localized acidic conditions that attack the passive layer; specify super-duplex or apply biocide treatments. Surface is scratched or damaged — mechanical damage to the passive layer can initiate pitting; always use stainless tools for installation to avoid iron contamination.",
-            "zh": "304/316 在水处理环境中会出现缝隙腐蚀和点蚀：氯含量偏高（>1 ppm）会加速点蚀，应改用 316L 或双相不锈钢；水温超过 50℃ 会降低耐点蚀能力，热水场合要用更高合金；生物膜下方的细菌会形成局部酸性环境破坏钝化膜，需选超级双相或投加杀菌剂；表面被划伤或铁污染也会诱发点蚀，安装必须用不锈钢工具。"
+            "zh": "304/316 在水处理环境中会出现缝隙腐蚀和点蚀：氯含量偏高（>1 ppm）会加速点蚀，应改用 316L 或双相不锈钢；水温超过 50℃ 会降低耐点蚀能力，热水场合要用更高合金；生物膜下方的细菌会形成局部酸性环境破坏钝化膜，需选超级双相或投加杀菌剂；表面被划伤或铁污染也会诱发点蚀，安装必须用不锈钢工具。",
+            "hi": "304/316 स्टेनलेस में दरार और गड्ढा क्षरण तब आता है जब क्लोरीन 1 ppm से ऊपर हो; ऐसी जगह 316L या ड्यूप्लेक्स स्टेनलेस बताएं। तापमान 50°C से अधिक हो तो पिटिंग रोधक क्षमता घटती है, गर्म पानी में उच्च मिश्रधातु ग्रेड लें। बायोफिल्म के नीचे बैक्टीरिया स्थानीय अम्लीय स्थिति बनाकर निष्क्रिय परत पर हमला करते हैं; सुपर-ड्यूप्लेक्स चुनें या बायोसाइड उपचार कराएं। लगाने में स्टेनलेस औज़ार ही इस्तेमाल करें ताकि खरोंच से लोहे का मैल न चढ़े।"
           }
         },
         {
           "q": {
             "en": "What is the lifespan difference between HDG and stainless steel fasteners in water pipelines?",
-            "zh": "水管线里热浸镀锌和不锈钢的寿命差多少？"
+            "zh": "水管线里热浸镀锌和不锈钢的寿命差多少？",
+            "hi": "पानी पाइपलाइनों में HDG और स्टेनलेस की अवधि में क्या अंतर है?"
           },
           "a": {
             "en": "In buried water pipeline conditions: HDG fasteners typically last 20-40 years in neutral pH soil and water; acidic soils (pH < 5.5) or aggressive backfill can reduce this to 5-10 years; HDG in flowing seawater has very short life (2-5 years). Stainless steel 316 fasteners in buried water pipelines typically last 50-80 years in neutral conditions; 316 in seawater or high-chloride water lasts 20-40 years. Duplex stainless (2205) lasts 40-60 years in most water environments. The choice depends on the total lifecycle cost — HDG is cheaper initially but may need replacement, while SS316 has higher initial cost but rarely needs replacement in normal water conditions.",
-            "zh": "埋地条件下，镀锌紧固件在中性 pH 土壤和水体中通常可用 20–40 年，酸性土壤（pH<5.5）或侵蚀性回填土会缩短到 5–10 年，流动海水里只有 2–5 年；316 不锈钢在中性埋地环境中通常 50–80 年，海水或高氯水中 20–40 年；双相不锈钢 2205 在多数水环境为 40–60 年。选择要看全生命周期成本——镀锌初期便宜但可能要更换，316 初期贵但在正常水环境中基本不换。"
+            "zh": "埋地条件下，镀锌紧固件在中性 pH 土壤和水体中通常可用 20–40 年，酸性土壤（pH<5.5）或侵蚀性回填土会缩短到 5–10 年，流动海水里只有 2–5 年；316 不锈钢在中性埋地环境中通常 50–80 年，海水或高氯水中 20–40 年；双相不锈钢 2205 在多数水环境为 40–60 年。选择要看全生命周期成本——镀锌初期便宜但可能要更换，316 初期贵但在正常水环境中基本不换。",
+            "hi": "तटस्थ pH मिट्टी और पानी में HDG फास्टनर 20–40 साल चलते हैं; अम्लीय मिट्टी (pH < 5.5) या आक्रामक बैकफ़िल में 5–10 साल, बहते समुद्री पानी में 2–5 साल तक सीमित रहते हैं। स्टेनलेस 316 तटस्थ स्थिति में 50–80 साल, समुद्री या उच्च क्लोराइड पानी में 20–40 साल चलता है; ड्यूप्लेक्स 2205 ज़्यादातर पानी में 40–60 साल टिकता है। चुनाव जीवन-चक्र लागत पर निर्भर: HDG शुरू में सस्ता पर बदलना पड़ सकता है, SS316 महंगा पर सामान्य पानी में लगभग कभी नहीं बदलना पड़ता।"
           }
         }
       ],
