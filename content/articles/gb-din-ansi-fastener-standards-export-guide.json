@@ -226,7 +226,7 @@
      },
      "a": {
       "en": "Yes, DIN and ISO metric hex bolts are harmonized under the Vienna Agreement. Dimensions and tolerances are essentially identical. ISO 4017 replaces DIN 933, and ISO 4014 replaces DIN 931.",
-      "zh": "是的，DIN和ISO公制六角螺栓在维也纳协议下已协调。尺寸和公差基本相同。ISO 4017替代DIN 933，ISO 4014替代DIN 931。"
+      "zh": "可以互换。依据维也纳协议，DIN 与 ISO 公制六角螺栓已经协调统一，外形尺寸和公差基本相同。标准对应关系为：ISO 4017 替代原 DIN 933，ISO 4014 替代原 DIN 931，采购时可按这两组编号对照选用。"
      }
     },
     {
@@ -241,10 +241,12 @@
     },
     {
      "q": {
-      "en": "Which standard series should I quote for African projects?"
+      "en": "Which standard series should I quote for African projects?",
+      "zh": "非洲项目报价该按哪个标准系列？"
      },
      "a": {
-      "en": "ISO metric is the default in most African markets, with DIN dimensions widely recognised for hex bolts and nuts. ANSI and UNC appear in equipment-driven specifications, so quote the standard the buyer named rather than converting."
+      "en": "ISO metric is the default in most African markets, with DIN dimensions widely recognised for hex bolts and nuts. ANSI and UNC appear in equipment-driven specifications, so quote the standard the buyer named rather than converting.",
+      "zh": "多数非洲市场默认采用 ISO 公制，六角螺栓和螺母上 DIN 尺寸也被广泛认可。ANSI 和 UNC 多出现在按设备提出的规格里，所以应按买方指定的标准报价，不要自行换算。"
      }
     }
    ],
