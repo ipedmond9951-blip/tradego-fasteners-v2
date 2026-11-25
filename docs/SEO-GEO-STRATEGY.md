@@ -275,6 +275,9 @@ bash scripts/vercel-audit.sh           # 第 9–13 项必须绿
 | 2026-11-25 | 建立 v1：基线、四瓶颈、批次 0–4、写权限表、租约、闸门 | F |
 | 2026-11-25 | 低 CTR 拆成两类：排名 ≤10 = snippet 改文案；排名 >10 = 排名问题补内容/内链。批次 1 收窄到 15 行 | F |
 | 2026-11-25 | 批次 1 已落地 8 篇 + industry 聚合页（`b2e2bc01`、`9ad21f3b`）：6 篇 en、1 篇 es、1 篇 zh；正文 md5 校验未动 | F |
+| 2026-11-25 | 品牌实体一致性收口：正文/CTA 的 185 处 `Tradego`/`Tradego-Fasteners`/`TradeGoFasteners` 统一为 `TradeGo` / `TradeGo Fasteners`，URL 域名不动（`59d8301c`、`c054d4e2`、`d688a388`）。实测是 185 处 / 7 篇，不是原先记的 148 处 | B |
+| 2026-11-25 | 认证口径加一道体检：新增 `scripts/check-cert-claims.py`（11 语种「自称持有」句式 + 允许写法白名单，38 条命中里仅 2 条主语为本公司），修 rwanda 篇产品级 `ISO 898-1 certified` → `produced to ISO 898-1`（`05c99ecc`） | B |
+| 2026-11-25 | `china-iso-9001-fastener-manufacturer-directory` 已按本文件决定改题：`China Fastener Quality Systems: ISO 9001 Guide 2026`（51 字符），不再以"ISO 9001 名录"为卖点（`05c99ecc`） | B |
 
 ## 11. 执行记录（批次 1 首批，2026-11-25）
 
@@ -293,12 +296,12 @@ bash scripts/vercel-audit.sh           # 第 9–13 项必须绿
 | high-tensile-bolts-grade-guide | es | 114 | Pernos de alta resistencia: 8.8, 10.9 y 12.9 |
 | nuts-bolts-glossary-terminology | zh | 116 | 紧固件术语表：采购必懂的螺栓螺母术语 |
 
-**批次 1 收口**：13 个 snippet 目标完成 12 个；`china-iso-9001-fastener-manufacturer-directory` 暂缓——它整篇以 ISO 9001 名录为卖点，与"不持有 ISO 9001"的口径冲突，需先决定是改题（改成"按订单办理认证的供应商清单"）还是下线。
+**批次 1 收口**：13 个 snippet 目标全部完成。第 13 个 `china-iso-9001-fastener-manufacturer-directory` 按用户拍板改成「认证按订单办理」口径，见下条。
 
 **顺带修掉的合规问题**（同一批提交）：`industry` / `products` / `products/[slug]` / `markets/[market]` 四个页面的 es/fr/pt/ru/hi/ar 文案原写"ISO 9001 / SABS 已认证"，已统一改成"按 SABS 1195 / DIN / ISO 生产 + 证书按订单申请"。`check-claims` 与 `tsc` 均通过。
 
 **口径提醒**：`check-claims.py` 的 CERT 正则只认"TradeGo … certified"这种顺序，抓不到"Certificado ISO 9001"这类倒装与非英语形容词。写 UI 文案时不要依赖它兜底，认证表述只允许两种写法。
 
-**仍挂在别的线**：正文里 148 处 `Tradego` 小写（品牌实体一致性，纳入批次 3）；`china-iso-9001-fastener-manufacturer-directory` 这篇的标题与内容需按认证口径复核。
+**已收口**：正文/CTA 的品牌写法 185 处已全部统一为 `TradeGo` / `TradeGo Fasteners`（复扫残留 0）；`china-iso-9001-fastener-manufacturer-directory` 已改题为质量体系指南，不再承诺名录。认证表述体检脚本 `scripts/check-cert-claims.py` 已并入闸门候选。
 
 > 下一版触发条件：批次 0 上线完成，或 GSC 新数据与基线偏差 >20%。
