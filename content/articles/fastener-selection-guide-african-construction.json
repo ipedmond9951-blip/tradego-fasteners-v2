@@ -352,6 +352,38 @@
       "hi": "नियमित उत्पादों को स्थानीय चिह्न चाहिए: दक्षिण अफ्रीका में SABS, केन्या में KEBS PVoC, नाइजीरिया में SONCAP, चाहे ड्राइंग कुछ भी बताए। गैर-नियमित वस्तुओं के लिए ISO या DIN और 3.1 मिल सर्टिफिकेट अधिकांश सलाहकारों को संतुष्ट करते हैं, पर परियोजना स्पेसिफिकेशन में इसे नाम से बताना होगा।",
       "ru": "Регулируемая продукция требует местного знака: SABS в ЮАР, KEBS PVoC в Кении, SONCAP в Нигерии, что бы ни было написано на чертеже. Для нерегулируемых позиций ISO или DIN с сертификатом 3.1 mill устраивают большинства консультантов, но проектная спецификация должна это назвать явно."
      }
+    },
+    {
+     "q": {
+      "en": "What fastener materials work best in coastal African environments?"
+     },
+     "a": {
+      "en": "For coastal projects (within 5km of ocean): use 316 stainless steel (A4) for maximum corrosion resistance. HDG (hot-dip galvanized) fasteners acceptable for 10+ year projects 5-20km from coast. For most African construction, hot-dip galvanized Class 8.8 structural bolts provide best value. Avoid uncoated carbon steel in coastal zones."
+     }
+    },
+    {
+     "q": {
+      "en": "What is the difference between Grade 4.8, 8.8, and 10.9 bolts?"
+     },
+     "a": {
+      "en": "Grade 4.8: Low-carbon steel, proof load 310 MPa, used for light structural and non-structural applications. Grade 8.8: Medium-carbon steel quenched and tempered, proof load 580 MPa, standard for African construction. Grade 10.9: Alloy steel, proof load 830 MPa, for high-load applications and heavy equipment mounting."
+     }
+    },
+    {
+     "q": {
+      "en": "How do African building codes affect fastener specification?"
+     },
+     "a": {
+      "en": "South Africa: SANS 10162 (steel structures) specifies hex bolt installation. Kenya: KNBS standards for public infrastructure. Nigeria: NIS for construction materials. Most African codes derive from BS, EN, or ASTM standards. Confirm local authority requirements before procurement. Compulsory standards testing required for government projects."
+     }
+    },
+    {
+     "q": {
+      "en": "How should fasteners be stored on African construction sites?"
+     },
+     "a": {
+      "en": "Storage requirements: 1) Indoor dry storage mandatory for stainless steel, 2) Elevated off ground (pallet minimum 150mm), 3) Original packaging preferred until use, 4) Humidity control (dehumidifier) for coastal locations, 5) FIFO inventory rotation, 6) Separate storage by grade/type to prevent mixing. Maximum outdoor storage: 6 months with visual inspection monthly."
+     }
     }
    ]
   }
