@@ -191,8 +191,8 @@
             "zh": "可以在湿混凝土中安装锚栓吗？"
           },
           "a": {
-            "en": "No. Mechanical anchors must be installed in fully cured concrete (minimum 28 days). Wet or green concrete does not provide adequate compressive strength for reliable anchor performance.",
-            "zh": "不可以。机械锚栓必须在完全养护的混凝土中安装（至少28天）。湿混凝土或未充分养护的混凝土抗压强度不足，无法提供可靠的锚栓性能。"
+            "en": "No. Mechanical anchors must be installed in fully cured concrete, at least 28 days after pour. Wet or green concrete does not provide adequate compressive strength for reliable anchor performance, and an anchor set in fresh concrete will lose capacity as the mix continues to shrink and cure. Before drilling, confirm the concrete age, mix strength in MPa, and that the slab has no ongoing shrinkage cracks. If the substrate is young, postpone the fixing or use a temporary mechanical connection designed for the stage. Never set a wedge, sleeve or chemical anchor into wet concrete and expect the published load values to apply; test reports and capacity tables are based on cured, reference concrete.",
+            "zh": "不可以。机械锚栓必须在完全养护的混凝土中安装，浇筑后至少养护 28 天。湿混凝土或未充分养护的混凝土抗压强度不足，无法提供可靠的锚栓性能；埋入新浇混凝土的锚栓会随混合料继续收缩、硬化而损失承载力。钻孔前要确认混凝土龄期、强度等级（MPa）以及板内没有正在发展的收缩裂缝。若基材还偏新，应推迟固定，或改用适合该阶段的临时机械连接。不要把楔形锚、套管锚或化学锚栓打进湿混凝土后仍指望套用公布的荷载值；测试报告和承载力表都是以养护完成的参考混凝土为基础得出的。"
           }
         },
         {
@@ -201,8 +201,8 @@
             "zh": "拧紧螺母时锚栓旋转怎么办？"
           },
           "a": {
-            "en": "This usually means the hole is oversized or the anchor is not properly expanded. Remove the anchor, redrill with the correct bit size if needed, and reinstall. Never overtighten as this can damage the expansion mechanism.",
-            "zh": "通常意味着孔径过大或锚栓未正确膨胀。取出锚栓，必要时用正确尺寸钻头重新钻孔后重新安装。切勿过度拧紧，以免损坏膨胀机构。"
+            "en": "This usually means the hole is oversized or the anchor is not properly expanded. Remove the anchor, redrill with the correct bit size if the hole has grown too large, and reinstall at the specified depth. Never overtighten, because this can damage the expansion mechanism, strip the threads or overload the concrete around the hole. Check that the drill depth matches the anchor length, that dust and loose aggregate were cleaned out, and that the setting tool was used rather than an improvised hammer. If the anchor still spins after a correct reinstall, the concrete near the hole may be damaged; relocate to a new position away from cracks, reinforcement and existing fixings, and record the change on the site inspection sheet.",
+            "zh": "拧紧螺母时锚栓还转，通常意味着孔径过大或锚栓未正确膨胀。取出锚栓；若孔已被钻大，换正确尺寸钻头重新钻孔，再按规定深度重装。切勿过度拧紧，否则会损坏膨胀机构、滑牙螺纹，或使孔周混凝土过载。要核对钻孔深度与锚栓长度一致，孔内粉尘和松散骨料已清理，使用了专用安装工具而不是临时敲打的方式。正确重装后仍转，说明孔周混凝土可能已损伤；应在远离裂缝、钢筋和既有固定件的新位置重新埋设，并把变更记到现场检验记录上。"
           }
         },
         {
@@ -211,8 +211,8 @@
             "zh": "开裂与未开裂混凝土分别该用哪种锚栓？"
           },
           "a": {
-            "en": "Cracked concrete needs an anchor qualified for it - look for ETA or ICC-ES approval covering cracked concrete and seismic categories. Uncrusted solid concrete accepts standard wedge or sleeve anchors. Chemical anchors suit close spacing or near-edge work where mechanical expansion is impractical.",
-            "zh": "开裂混凝土必须用通过开裂混凝土与抗震等级认证（ETA 或 ICC-ES）的锚栓；未开裂的实体混凝土可用标准楔形或套管锚栓。化学锚栓适合小间距、近边缘、机械膨胀不便的场合。"
+            "en": "Cracked concrete needs an anchor qualified for it: look for ETA or ICC-ES approval covering cracked concrete and the relevant seismic or fatigue category. Uncracked solid concrete accepts standard wedge or sleeve anchors in normal static conditions. Chemical anchors suit close spacing, near-edge work, or heavy vibration where mechanical expansion is impractical. Match the anchor to the base material, load type (tension, shear or combined) and crack condition listed on the approval. Do not substitute a standard mechanical anchor into cracked or seismic-rated work without the manufacturer’s qualification; capacity drops sharply, and the listing that covers the actual substrate must be cited on the procurement record.",
+            "zh": "开裂混凝土必须用通过开裂混凝土及相应抗震或疲劳等级认证的锚栓，看 ETA 或 ICC-ES 批准范围是否覆盖开裂混凝土。未开裂的实体混凝土在普通静力工况下可用标准楔形或套管锚栓。化学锚栓适合间距小、近边缘，或机械膨胀不便的重振动场合。选型要同时匹配基材、荷载类型（拉、剪或复合）和认证所列裂缝状态。没有厂家认证，不要把普通机械锚栓代用到开裂或抗震工况；承载力会明显下降，采购记录上必须引用覆盖实际基材的那份认证文件。"
           }
         },
         {
@@ -221,8 +221,8 @@
             "zh": "混凝土锚栓的边距和间距要求是多少？"
           },
           "a": {
-            "en": "As a rule, keep at least 10 anchor diameters from an edge and 12 diameters between anchors, and no closer than about 6 diameters to a crack. Always use the manufacturer's ETA table for the specific anchor, because reduced spacing cuts capacity and can split the concrete.",
-            "zh": "一般边距不小于 10 倍锚栓直径、间距不小于 12 倍，距裂缝不小于约 6 倍。具体按厂家 ETA 表取值——间距缩小会降低承载力，甚至劈裂混凝土。"
+            "en": "As a rule, keep at least 10 anchor diameters from an edge and 12 diameters between anchors, and no closer than about 6 diameters to a crack. Always use the manufacturer’s ETA table for the specific anchor, because reduced spacing cuts capacity and can split the concrete, while an edge distance that is too small causes blow-out when loaded. Account for reinforcement position, slab thickness and any openings in the member. For groups of anchors, the design is checked as a group, not as individual fixings; mark centres on the surface before drilling and confirm each hole clears the rebar. If spacing or edge distance cannot be met, a larger base plate, reduced load per anchor or a relocated layout should be agreed with the structural engineer rather than forcing the fixings closer.",
+            "zh": "一般边距不小于 10 倍锚栓直径、锚栓间距不小于 12 倍，距裂缝不小于约 6 倍。具体取值按厂家针对该锚栓的 ETA 表：间距缩小会降低承载力，甚至劈裂混凝土；边距过小受载时会发生边缘崩脱。还要考虑钢筋位置、板厚和构件上的开孔。成组锚栓按整体验算，而不是逐个固定件单独看；钻孔前在表面标出中心，并确认每个孔避开钢筋。若间距或边距无法满足，应与结构工程师商定加大底板、降低单锚荷载或调整布置，而不是强行把锚栓压近。"
           }
         },
         {
@@ -231,8 +231,8 @@
             "zh": "锚栓安装最常见的错误有哪些？"
           },
           "a": {
-            "en": "Poor hole cleaning is the biggest one: blow, brush, blow again with the specified brush and pump. Others are using the wrong bit size, drilling through the aggregate with a worn bit, and tightening with an impact driver instead of a torque wrench. Each of these cuts capacity well below the rated value.",
-            "zh": "清孔不到位是头号问题：按规定毛刷与气泵做“吹—刷—吹”。其次是钻头规格不对、钻头磨损导致孔径偏大、用冲击扳手代替扭矩扳手紧固。每一项都会让承载力远低于额定值。"
+            "en": "Poor hole cleaning is the biggest one: blow, brush, blow again with the specified brush and pump, so dust and aggregate residue do not remain in the bore. Others are using the wrong bit size, drilling through aggregate with a worn bit, and tightening with an impact driver instead of a torque wrench. Each of these cuts capacity well below the rated value. Further common mistakes include drilling too shallow or too deep, setting the anchor over a crack without qualification, omitting the specified embedment depth, and overtightening after expansion. Work from a written installation sheet: bit diameter, hole depth, cleaning steps, setting torque and embedment length all recorded. After fixing, do a pull or inspection check where required, and tag any anchor that could not meet the stated spacing or edge conditions.",
+            "zh": "清孔不到位是头号问题：按规定毛刷和气泵做“吹—刷—吹”，把粉尘和骨料残屑清出孔内。其次是钻头规格不对、钻头磨损导致孔径偏大、用冲击扳手代替扭矩扳手紧固。每一项都会让承载力远低于额定值。其他常见错误包括钻孔过浅或过深、未经认证就把锚栓设在裂缝上、漏掉规定埋深，以及膨胀后继续过度拧紧。按书面安装表施工：钻头直径、孔深、清孔步骤、设定扭矩和埋入长度都要记录。固定后按需做拉拔或检查，凡无法满足规定间距、边距条件的锚栓单独挂牌标注。"
           }
         }
       ]
