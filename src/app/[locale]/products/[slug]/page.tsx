@@ -76,7 +76,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
     es: 'Producción según SABS 1195 / DIN / ISO, FOB Qingdao / Tianjin. Se aceptan pedidos de muestra y contenedores mixtos.',
     fr: 'Usine produisant selon SABS 1195 / DIN / ISO, FOB Qingdao / Tianjin. Commandes d\'échantillons et conteneurs mixtes acceptés.',
     pt: 'Producción según SABS 1195 / DIN / ISO, FOB Qingdao / Tianjin. Aceitamos pedidos de amostra e contêineres mistos.',
-    ar: 'مصنع مطابق ISO 9001، FOB تشينغداو / تيانجين. نقبل طلبات العينات والحاويات المختلطة.',
+    ar: 'مصنع ينتج وفق SABS 1195 / DIN / ISO، FOB تشينغداو / تيانجين. نقبل طلبات العينات والحاويات المختلطة.',
     ru: 'Производство по SABS 1195 / DIN / ISO, FOB Циндао / Тяньцзинь. Принимаем пробные заказы и сборные контейнеры.',
     ja: 'SABS 1195 / DIN / ISO 規格で製造する工場、FOB 青島 / 天津。サンプル注文・混載コンテナも承ります。',
     de: 'Fabrik, die nach SABS 1195 / DIN / ISO fertigt, FOB Qingdao / Tianjin. Musterbestellungen und Mischcontainer möglich.',

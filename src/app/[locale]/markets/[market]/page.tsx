@@ -94,21 +94,21 @@ const copy: Record<string, Copy> = {
     home: 'Inicio', markets: 'Mercados',
     portsLabel: 'Puertos y rutas', docsLabel: 'Documentos y despacho', linesLabel: 'Qué se vende en este mercado',
     faqLabel: 'Preguntas frecuentes', cta: 'Solicitar cotización', allMarkets: 'Todos los mercados',
-    sub: 'Directo de fábrica desde Qingdao / Tianjin, líneas ISO 9001 y conformes SABS.',
+    sub: 'Directo de fábrica desde Qingdao / Tianjin, producción según SABS 1195 / DIN / ISO; certificados por pedido.',
     h1: 'Fijaciones para {c}', seeAll: 'Ver las {n} líneas de producto',
   },
   fr: {
     home: 'Accueil', markets: 'Marchés',
     portsLabel: 'Ports et itinéraires', docsLabel: 'Documents et dédouanement', linesLabel: 'Ce qui se vend sur ce marché',
     faqLabel: 'Questions fréquentes', cta: 'Demander un devis', allMarkets: 'Tous les marchés',
-    sub: 'Direct usine de Qingdao / Tianjin, gammes ISO 9001 et conformes SABS.',
+    sub: 'Direct usine de Qingdao / Tianjin, production selon SABS 1195 / DIN / ISO ; certificats sur demande.',
     h1: 'Visserie et fixations pour {c}', seeAll: 'Voir les {n} gammes',
   },
   pt: {
     home: 'Início', markets: 'Mercados',
     portsLabel: 'Portos e rotas', docsLabel: 'Documentos e desembaraço', linesLabel: 'O que vende neste mercado',
     faqLabel: 'Perguntas frequentes', cta: 'Pedir cotação', allMarkets: 'Todos os mercados',
-    sub: 'Direto da fábrica em Qingdao / Tianjin, linhas ISO 9001 e conformes SABS.',
+    sub: 'Direto da fábrica em Qingdao / Tianjin, produção segundo SABS 1195 / DIN / ISO; certificados sob pedido.',
     h1: 'Fixadores para {c}', seeAll: 'Ver as {n} linhas de produto',
   },
   ar: {
@@ -122,7 +122,7 @@ const copy: Record<string, Copy> = {
     home: 'Главная', markets: 'Рынки',
     portsLabel: 'Порты и маршруты', docsLabel: 'Документы и растаможка', linesLabel: 'Что покупают на этом рынке',
     faqLabel: 'Вопросы', cta: 'Запросить цену', allMarkets: 'Все рынки',
-    sub: 'Напрямую с завода в Циндао / Тяньцзине, позиции ISO 9001 и по SABS.',
+    sub: 'Напрямую с завода в Циндао / Тяньцзине, производство по SABS 1195 / DIN / ISO; сертификаты под заказ.',
     h1: 'Крепёж — {c}', seeAll: 'Все {n} позиций',
   },
   ja: {
@@ -143,7 +143,7 @@ const copy: Record<string, Copy> = {
     home: 'होम', markets: 'बाज़ार',
     portsLabel: 'बंदरगाह और मार्ग', docsLabel: 'दस्तावेज़ और क्लीयरेंस', linesLabel: 'इस बाज़ार में क्या बिकता है',
     faqLabel: 'सामान्य प्रश्न', cta: 'कोटेशन मांगें', allMarkets: 'सभी बाज़ार',
-    sub: 'किंगदाओ / तियानजिन से सीधे फ़ैक्टरी, ISO 9001 और SABS अनुरूप लाइनें।',
+    sub: 'किंगदाओ / तियानजिन से सीधे फ़ैक्टरी, SABS 1195 / DIN / ISO मानक पर उत्पादन; प्रमाण पत्र ऑर्डर पर।',
     h1: '{c} के लिए फ़ासनर', seeAll: 'सभी {n} उत्पाद लाइन देखें',
   },
 }

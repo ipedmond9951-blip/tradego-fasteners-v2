@@ -10,7 +10,7 @@ import { categoryLabel, categorySlug } from '@/lib/categoryLabels'
 import { navLabels } from '@/lib/uiCopy'
 
 const titles: Record<string, string> = {
-  en: 'Fastener Guides: Import, Grades and Sourcing',
+  en: 'Fastener Guides: Grades, Ports and China Sourcing',
   zh: '紧固件指南：进口清关、等级与采购',
   es: 'Guías de fijaciones: importación, grados y compras',
   fr: 'Guides de fixations : importation, classes et achats',
@@ -23,13 +23,13 @@ const titles: Record<string, string> = {
 }
 
 const descriptions: Record<string, string> = {
-  en: 'Practical guides on bolt grades, coatings, port clearance and buying fasteners from China to Africa. ISO 9001 and SABS documented suppliers.',
+  en: 'Bolt grades, coatings, port clearance documents and China-to-Africa sourcing — from a manufacturer producing to SABS 1195 and DIN/ISO, quoting at mill level.',
   zh: '螺栓等级、表面处理、非洲港口清关与中国采购的实操指南。按 SABS 1195 / DIN / ISO 规格生产供应商，含落地成本与单证清单。',
-  es: 'Guías prácticas sobre grados de pernos, recubrimientos, despacho portuario y compra de fijaciones de China a África. Proveedor con ISO 9001 y SABS documentados.',
+  es: 'Guías prácticas sobre grados de pernos, recubrimientos, despacho portuario y compra de fijaciones de China a África. Fabricante que produce según SABS 1195 / DIN / ISO, cotiza a nivel de fábrica.',
   fr: 'Guides pratiques sur les classes de boulons, les revêtements, le dédouanement portuaire et l’achat de fixations de la Chine vers l’Afrique. Fournisseur produisant selon SABS 1195 / DIN / ISO.',
-  pt: 'Guias práticos sobre classes de parafusos, revestimentos, desembaraço portuário e compra de fixadores da China para a África. Fornecedor com ISO 9001 e SABS documentados.',
+  pt: 'Guias práticos sobre classes de parafusos, revestimentos, desembaraço portuário e compra de fixadores da China para a África. Fabricante que produz segundo SABS 1195 / DIN / ISO, cotação em nível de fábrica.',
   ar: 'أدلة عملية حول درجات البراغي والطلاءات والتخليص الجمركي في الموانئ وشراء المثبتات من الصين إلى أفريقيا. مورّد ينتج وفق SABS 1195 / DIN / ISO.',
-  ru: 'Практические руководства по классам прочности болтов, покрытиям, таможенному оформлению в портах и закупке крепежа из Китая в Африку. Поставщик с ISO 9001 и SABS.',
+  ru: 'Практические руководства по классам прочности болтов, покрытиям, таможенному оформлению в портах и закупке крепежа из Китая в Африку. Производство по SABS 1195 / DIN / ISO, котировка на уровне завода.',
   ja: 'ボルトの強度区分、表面処理、港での通関、中国からアフリカへの締結部品調達の実務ガイド。SABS 1195 / DIN / ISO 規格で製造する工場。',
   de: 'Praxisratgeber zu Festigkeitsklassen, Beschichtungen, Hafenabfertigung und Beschaffung von Verbindungselementen aus China nach Afrika. Lieferant, der nach SABS 1195 / DIN / ISO fertigt.',
   hi: 'बोल्ट ग्रेड, कोटिंग, बंदरगाह क्लीयरेंस और चीन से अफ्रीका तक फास्टनर खरीद पर व्यावहारिक गाइड। SABS 1195 / DIN / ISO मानक पर उत्पादन आपूर्तिकर्ता।',
