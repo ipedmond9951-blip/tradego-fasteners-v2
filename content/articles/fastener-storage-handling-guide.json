@@ -194,42 +194,52 @@
    "faqItems": [
     {
      "q": {
-      "en": "How long can fasteners be stored?"
+      "en": "How long can fasteners be stored?",
+      "zh": "紧固件能存放多久？"
      },
      "a": {
-      "en": "Properly stored in original packaging in controlled conditions, most fasteners have an indefinite shelf life. Coated fasteners (zinc-plated, galvanized) may show gradual coating degradation over years but remain functional."
+      "en": "Properly stored in original packaging in controlled conditions, most fasteners have an indefinite shelf life. Coated fasteners (zinc-plated, galvanized) may show gradual coating degradation over years but remain functional.",
+      "zh": "保持原包装、仓储条件受控时，多数紧固件没有明确保质期，可长期存放。镀锌等带镀层紧固件的镀层在数年间可能逐渐老化，但使用功能通常仍在；关键是防潮、防包装破损和防止混料。"
      }
     },
     {
      "q": {
-      "en": "What's the best storage for stainless steel?"
+      "en": "What's the best storage for stainless steel?",
+      "zh": "不锈钢紧固件怎么存放最合适？"
      },
      "a": {
-      "en": "Store indoors in dry conditions. Stainless steel is corrosion-resistant but not immune to staining in humid or chloride-rich environments. Keep in original packaging until use."
+      "en": "Store indoors in dry conditions. Stainless steel is corrosion-resistant but not immune to staining in humid or chloride-rich environments. Keep in original packaging until use.",
+      "zh": "放在室内干燥处。不锈钢只是耐蚀，并不意味着在潮湿或含氯环境下不会出现表面色斑；未用完前尽量保留原包装，避免长期裸露堆放。"
      }
     },
     {
      "q": {
-      "en": "Can I store different fastener types together?"
+      "en": "Can I store different fastener types together?",
+      "zh": "不同种类紧固件能混放吗？"
      },
      "a": {
-      "en": "Generally yes, but segregate by material to prevent galvanic concerns and by size to prevent mix-ups. Keep stainless separate from carbon steel."
+      "en": "Generally yes, but segregate by material to prevent galvanic concerns and by size to prevent mix-ups. Keep stainless separate from carbon steel.",
+      "zh": "一般可以，但应按材质分开以防电偶腐蚀，按规格分开以防错用。不锈钢件必须与碳钢件隔离存放；混堆不仅增加分拣成本，还可能造成材质混用。"
      }
     },
     {
      "q": {
-      "en": "How do I prevent thread damage during storage?"
+      "en": "How do I prevent thread damage during storage?",
+      "zh": "存放时怎么保护螺纹不受伤？"
      },
      "a": {
-      "en": "Keep fasteners in original packaging or use protective caps. Don't over-pack containers causing pressure on threads. Handle precision fasteners with extra care."
+      "en": "Keep fasteners in original packaging or use protective caps. Don't over-pack containers causing pressure on threads. Handle precision fasteners with extra care.",
+      "zh": "尽量保留原包装或加装保护帽；容器不要装得过满、挤压螺纹。精密紧固件搬运要更小心，螺纹受损后拧入时容易卡死或咬死。"
      }
     },
     {
      "q": {
-      "en": "What causes white staining on zinc-plated fasteners?"
+      "en": "What causes white staining on zinc-plated fasteners?",
+      "zh": "镀锌件表面的白锈是什么？"
      },
      "a": {
-      "en": "White staining is typically zinc oxide or zinc hydroxide from moisture exposure. It doesn't significantly affect fastener performance. Heavy white buildup may indicate extended moisture exposure."
+      "en": "White staining is typically zinc oxide or zinc hydroxide from moisture exposure. It doesn't significantly affect fastener performance. Heavy white buildup may indicate extended moisture exposure.",
+      "zh": "白色斑迹通常是受潮后生成的氧化锌或氢氧化锌，对紧固件性能影响不大；如果白色附着物很厚，说明受潮时间较长，应检查包装防潮是否失效。"
      }
     }
    ]
