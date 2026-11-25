@@ -286,26 +286,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "Why is corrosion so severe for Namibian uranium mine fasteners?"
+            "en": "Why is corrosion so severe for Namibian uranium mine fasteners?",
+            "zh": "纳米比亚铀矿紧固件为什么腐蚀这么重？"
           },
           "a": {
-            "en": "Acid leach circuits, chloride-bearing dust and abrasive ore handling attack zinc coatings quickly. A failed fastener in a conveyor or tank anchorage can stop a processing line, so corrosion is a production risk rather than a cosmetic one."
+            "en": "Acid leach circuits, chloride-bearing dust and abrasive ore handling attack zinc coatings quickly. A failed fastener in a conveyor or tank anchorage can stop a processing line, so corrosion is a production risk rather than a cosmetic one.",
+            "zh": "酸性浸出回路、含氯粉尘和磨蚀性矿石处理都会快速侵蚀锌层。输送带或罐体锚固上的紧固件一旦失效，可能停掉整条生产线，所以腐蚀在这里是生产风险，不只是外观问题。"
           }
         },
         {
           "q": {
-            "en": "Which materials hold up in uranium processing?"
+            "en": "Which materials hold up in uranium processing?",
+            "zh": "铀矿加工现场耐得住的材质有哪些？"
           },
           "a": {
-            "en": "316 stainless for wet acid and chloride exposure, duplex 2205 where chloride stress corrosion cracking is a concern, and hot-dip galvanised or zinc-flake carbon steel only in dry, sheltered areas."
+            "en": "316 stainless for wet acid and chloride exposure, duplex 2205 where chloride stress corrosion cracking is a concern, and hot-dip galvanised or zinc-flake carbon steel only in dry, sheltered areas.",
+            "zh": "接触湿酸和氯盐选 316 不锈钢；有氯应力腐蚀开裂风险的场合用双相钢 2205；热浸镀锌或锌片涂层碳钢只用于干燥、有遮蔽的区域。"
           }
         },
         {
           "q": {
-            "en": "How should procurement secure supply for remote sites?"
+            "en": "How should procurement secure supply for remote sites?",
+            "zh": "偏远矿区怎么保障供应？"
           },
           "a": {
-            "en": "Qualify two sources, hold critical spares at the mine, and set replenishment triggers by consumption instead of the calendar. Remote Namibian sites can wait weeks for a reorder that was planned too late."
+            "en": "Qualify two sources, hold critical spares at the mine, and set replenishment triggers by consumption instead of the calendar. Remote Namibian sites can wait weeks for a reorder that was planned too late.",
+            "zh": "开发两家合格供应渠道，关键备件留在矿上，按消耗量而不是日历周期设补货触发点。纳米比亚偏远场地补货规划晚了，到货就要再等几周。"
           }
         }
       ]
