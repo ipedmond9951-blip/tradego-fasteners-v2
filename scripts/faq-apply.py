@@ -21,7 +21,9 @@ def main(path):
         if not os.path.exists(f):
             bad.append(f"{slug}: 文件不存在"); continue
         d = json.load(open(f, encoding="utf-8"))
-        written, mismatch = 0, False
+        written = 0
+        # 先跨 section 收集非空 FAQ（一篇文章的 FAQ 可能分散在多个 section）
+        allitems = []
         for sec in d.get("sections", []):
             items = sec.get("faqItems") or []
             if not items:
@@ -29,17 +31,19 @@ def main(path):
             if p.get("drop_empty"):
                 items = [it for it in items if ((it.get("q") or {}).get("en") or "").strip()]
                 sec["faqItems"] = items
-            if len(items) != len(p["items"]):
-                mismatch = True
-                bad.append(f"{slug}: 条数不符（文件 {len(items)} / 译文 {len(p['items'])}）")
-                break
-            for it, t in zip(items, p["items"]):
+            allitems.append((sec, items))
+        flat = [it for _, items in allitems for it in items]
+        if len(flat) != len(p["items"]):
+            bad.append(f"{slug}: 条数不符（文件 {len(flat)} / 译文 {len(p['items'])}）")
+            continue
+        idx = 0
+        for _sec, items in allitems:
+            for it in items:
+                t = p["items"][idx]; idx += 1
                 for fld in ("q", "a"):
                     for lang, v in (t.get(fld) or {}).items():
                         it.setdefault(fld, {})[lang] = v.strip()
                         written += 1
-        if mismatch:
-            continue
         json.dump(d, open(f, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
         open(f, "a").write("\n")
         print(f"✅ {slug}: 写入 {written} 条")
