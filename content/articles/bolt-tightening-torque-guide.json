@@ -277,6 +277,38 @@
             "zh": "先用校准扭矩扳手调到对应等级、表面处理和润滑剂的规格值，并按手册周期校验工具。关键接头不要只靠扭矩控制：直接拉力指示器是带凸点的垫圈，压平后给出可见预紧信号；超声波伸长测量读取 mm 伸长量并换算成 kN 预紧力。贴合后在螺栓和螺母上做标记，便于检查松动转动。运行最初几小时后复查预紧力，垫圈和粗糙表面贴合会释放部分夹紧力。若出现松退、剪切螺纹或构件滑移，应从摩擦、规格或工艺上找原因，而不是逐根换螺栓。",
             "ja": "まず、指定された強度区分、表面処理、潤滑条件に対応した較正済みのトルクレンチを使用し、メンテナンスマニュアルで指定された間隔で工具の精度を確認します。構造的に重要な締結部では、トルク管理を超えて確認を行います。直接張力指示器は、見える目張力の印となる盛り上がりを持つワッシャーで、押し潰されることで印が現れます。超音波によるボルト伸び測定は、mm単位の伸びを測定し、それをkN単位の目張力に変換します。締め付け後、ボルトとナットに印を付け、後の緩みや回転が検査でわかるようにします。初動作後、ワッシャーや粗い表面で「寝かし」が発生し、一部のクランプロードが解放されるため、目張力の再確認が必要です。締結部が緩んでいる、ねじ山がせん断されている、構成部品が滑っているなどの兆候が見られた場合、原因を摩擦、サイズ、または方法に求め、ボルトを一つずつ交換するのではなく根本的な対策を講じてください。"
           }
+        },
+        {
+          "q": {
+            "en": "What is the correct torque specification for Grade 8.8 bolts?"
+          },
+          "a": {
+            "en": "Grade 8.8 torque values (Nm) for lubricated bolts: M6=10Nm, M8=25Nm, M10=49Nm, M12=85Nm, M16=210Nm, M20=410Nm, M24=710Nm. For plain (unlubricated) bolts, increase by 25%. These values are approximate - always refer to specific torque charts for your application and consider friction coefficients."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I calculate torque for a specific bolt application?"
+          },
+          "a": {
+            "en": "Torque calculation formula: T = K × F × d where: T = torque (Nm); K = friction coefficient (typically 0.2 for lubricated, 0.3 for plain); F = desired preload (N) = σ × As (stress × stress area); d = nominal bolt diameter (m). For African mining equipment, always use manufacturer-specified torque values with certified torque charts."
+          }
+        },
+        {
+          "q": {
+            "en": "What happens if bolts are over-tightened or under-tightened?"
+          },
+          "a": {
+            "en": "Over-tightening risks: Bolt yield or fracture; Thread stripping; Gasket crushing; Distortion of joint components; Catastrophic failure in service. Under-tightening risks: Joint separation under load; Bolt fatigue from dynamic loads; Vibration-induced loosening; Leakage in flanged joints; Pre-mature failure in critical applications."
+          }
+        },
+        {
+          "q": {
+            "en": "How do I use a torque wrench correctly?"
+          },
+          "a": {
+            "en": "Torque wrench usage: 1) Select correct torque value for bolt grade and size; 2) Set wrench to desired value; 3) Apply smooth, steady pull - avoid jerky movements; 4) Listen/feel for click or release; 5) Never use as a breaker bar; 6) Calibrate annually. For African field conditions, use dial-type or click-type wrenches - digital requires battery management."
+          }
         }
       ]
     }
