@@ -140,42 +140,52 @@
    "faqItems": [
     {
      "q": {
-      "en": "What is the difference between coach screws and wood screws?"
+      "en": "What is the difference between coach screws and wood screws?",
+      "zh": "马车螺丝和木螺丝有什么区别？"
      },
      "a": {
-      "en": "Coach screws (lag screws) have a hex head for wrench tightening and are heavy-duty for wood-to-wood connections. Wood screws have slotted or Phillips heads and are lighter duty, designed for assembling wood components."
+      "en": "Coach screws (lag screws) have a hex head for wrench tightening and are heavy-duty for wood-to-wood connections. Wood screws have slotted or Phillips heads and are lighter duty, designed for assembling wood components.",
+      "zh": "马车螺丝（lag screw）是六角头，用扳手拧紧，属于重型木材连接；木螺丝是开槽头或十字头，承载较轻，用于木构件组装。"
      }
     },
     {
      "q": {
-      "en": "What size coach screw do I need for deck joists?"
+      "en": "What size coach screw do I need for deck joists?",
+      "zh": "露台龙骨连接用多大马车螺丝？"
      },
      "a": {
-      "en": "For deck joist connections, M8 × 80mm or M10 × 100mm coach screws are typically used. The screw should penetrate at least 2.5x the thickness of the second board. Check local building codes for specific requirements."
+      "en": "For deck joist connections, M8 × 80mm or M10 × 100mm coach screws are typically used. The screw should penetrate at least 2.5x the thickness of the second board. Check local building codes for specific requirements.",
+      "zh": "露台龙骨连接一般用 M8 × 80mm 或 M10 × 100mm 马车螺丝；拧入第二块木料的深度至少达到该板厚度的 2.5 倍，具体还要对照当地建筑规范。"
      }
     },
     {
      "q": {
-      "en": "Can coach screws be used in pressure-treated timber?"
+      "en": "Can coach screws be used in pressure-treated timber?",
+      "zh": "防腐木上能用马车螺丝吗？"
      },
      "a": {
-      "en": "Yes, hot-dip galvanized (HDG) coach screws are recommended for ACQ (alkaline copper quaternary) pressure-treated timber. Standard zinc-plated screws may corrode. Always check the coating compatibility with your treatment type."
+      "en": "Yes, hot-dip galvanized (HDG) coach screws are recommended for ACQ (alkaline copper quaternary) pressure-treated timber. Standard zinc-plated screws may corrode. Always check the coating compatibility with your treatment type.",
+      "zh": "可以，但用于 ACQ（碱性铜季铵盐）防腐处理木材时推荐热浸镀锌（HDG）马车螺丝；普通电镀锌螺丝可能锈蚀。选用前要确认镀层与处理药剂类型相容。"
      }
     },
     {
      "q": {
-      "en": "Do I need to pre-drill pilot holes for coach screws?"
+      "en": "Do I need to pre-drill pilot holes for coach screws?",
+      "zh": "马车螺丝需要预先钻导向孔吗？"
      },
      "a": {
-      "en": "Yes, especially for hardwoods. Pre-drill a pilot hole equal to the screw's root (core) diameter. This prevents splitting and ensures proper thread engagement. For softwoods, you may skip pre-drilling for smaller sizes."
+      "en": "Yes, especially for hardwoods. Pre-drill a pilot hole equal to the screw's root (core) diameter. This prevents splitting and ensures proper thread engagement. For softwoods, you may skip pre-drilling for smaller sizes.",
+      "zh": "需要，硬木尤其如此。导向孔直径等于螺钉根径（芯径），可防止木材劈裂并保证螺纹有效咬合；软木的小规格螺丝有时可以免预钻。"
      }
     },
     {
      "q": {
-      "en": "How far should coach screws penetrate into the second timber?"
+      "en": "How far should coach screws penetrate into the second timber?",
+      "zh": "马车螺丝要拧入第二根木料多深？"
      },
      "a": {
-      "en": "For proper holding power, coach screws should penetrate at least 2.5x the screw diameter into the receiving timber. For an M10 screw, that means at least 25mm penetration into the second board."
+      "en": "For proper holding power, coach screws should penetrate at least 2.5x the screw diameter into the receiving timber. For an M10 screw, that means at least 25mm penetration into the second board.",
+      "zh": "为保证握裹力，拧入接收木料的深度至少为螺钉直径的 2.5 倍；以 M10 为例，拧入第二块木板的深度至少 25mm。"
      }
     }
    ]
