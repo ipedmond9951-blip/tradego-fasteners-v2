@@ -208,31 +208,37 @@
     {
      "q": {
       "en": "What is the difference between a gasket and a washer?",
-      "zh": "垫片和垫圈有什么区别？"
+      "zh": "垫片和垫圈有什么区别？",
+      "hi": "गैस्केट और वॉशर में क्या अंतर है?"
      },
      "a": {
       "en": "A washer is a load-spreading hardware component used with a bolt/nut. A gasket is a sealing element (often soft or compressible) used between two flat faces (like flanges) to prevent leakage.",
-      "zh": "垫圈是配合螺栓、螺母使用、分散载荷的五金件；垫片是密封元件，质地常偏软或可压缩，夹在两个平面（如法兰）之间防止泄漏。"
+      "zh": "垫圈是配合螺栓、螺母使用、分散载荷的五金件；垫片是密封元件，质地常偏软或可压缩，夹在两个平面（如法兰）之间防止泄漏。",
+      "hi": "वॉशर भार फैलाने वाला हार्डवेयर हिस्सा है, जो बोल्ट या नट के साथ लगता है। गैस्केट सीलिंग तत्व है (अक्सर नरम या दबाव योग्य), जो दो सपाट सतहों (जैसे फ्लैंज) के बीच रिसाव रोकने के लिए लगाया जाता है।"
      }
     },
     {
      "q": {
       "en": "Can plastic washers be used at high temperatures?",
-      "zh": "塑料垫圈能耐高温吗？"
+      "zh": "塑料垫圈能耐高温吗？",
+      "hi": "प्लास्टिक वॉशर ज़्यादा तापमान पर चल सकते हैं?"
      },
      "a": {
       "en": "Standard nylon washers are limited to 105°C. For higher temperatures, use PTFE (260°C), PEEK (250°C), or graphite (450°C+) depending on the application.",
-      "zh": "普通尼龙垫圈上限为 105 摄氏度；温度更高时按工况选用 PTFE（260 摄氏度）、PEEK（250 摄氏度）或石墨（450 摄氏度以上）。"
+      "zh": "普通尼龙垫圈上限为 105 摄氏度；温度更高时按工况选用 PTFE（260 摄氏度）、PEEK（250 摄氏度）或石墨（450 摄氏度以上）。",
+      "hi": "सामान्य नायलॉन वॉशर 105°C तक सीमित हैं। इससे ऊपर के तापमान में काम के हिसाब से PTFE (260°C), PEEK (250°C) या ग्रेफाइट (450°C और ऊपर) इस्तेमाल करें।"
      }
     },
     {
      "q": {
       "en": "Which gasket material for high temperature service?",
-      "zh": "高温工况选哪种垫片材料？"
+      "zh": "高温工况选哪种垫片材料？",
+      "hi": "उच्च तापमान सेवा के लिए कौन-सी गैस्केट सामग्री चुनें?"
      },
      "a": {
       "en": "Graphite gaskets for the highest temperatures and aggressive media, copper sealing gaskets for smaller joints and good thermal cycling, and fibre or rubber-based sheets for lower temperatures where cost dominates.",
-      "zh": "温度最高、介质腐蚀性强的场合用石墨垫片；接头较小且要耐冷热循环的用铜质密封垫片；温度较低、成本优先的场合用纤维或橡胶基板材。"
+      "zh": "温度最高、介质腐蚀性强的场合用石墨垫片；接头较小且要耐冷热循环的用铜质密封垫片；温度较低、成本优先的场合用纤维或橡胶基板材。",
+      "hi": "सबसे ऊँचे तापमान और आक्रामक माध्यम के लिए ग्रेफाइट गैस्केट; छोटे जोड़ों और अच्छे ताप चक्र के लिए कॉपर सीलिंग गैस्केट; कम तापमान पर जहाँ लागत मुख्य हो, फाइबर या रबर आधारित शीट चलती हैं।"
      }
     }
    ],
