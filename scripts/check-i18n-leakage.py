@@ -34,7 +34,10 @@ def has_script(lang, text):
     if lang == "hi": return bool(DEVANAGARI.search(text))
     return True  # es/fr/pt/de 退化为"与 en 完全相同"判据
 
+missing = {}
+
 def scan(path):
+    global missing
     try:
         d = json.load(open(path))
     except Exception:
@@ -50,8 +53,12 @@ def scan(path):
                 for lang in LANGS:
                     v = (val.get(lang) or "").strip()
                     same = v == en
+                    if not v:
+                        # 缺译文不算泄漏：渲染层已按 native-only 过滤，不会露英文
+                        missing[lang] = missing.get(lang, 0) + 1
+                        continue
                     if lang in ("ja", "zh", "ar", "ru", "hi"):
-                        bad = same or not has_script(lang, v) if v else True
+                        bad = same or not has_script(lang, v)
                     else:
                         bad = same
                     if bad:
@@ -79,6 +86,10 @@ if PATHS and STRICT:
             print(f"⛔ i18n 泄漏 {os.path.basename(f)[:-5]}: " +
                   " ".join(f"{k}={v}" for k, v in sorted(r.items())))
     sys.exit(1 if total else 0)
+
+if missing:
+    top = ", ".join(f"{k} {v}" for k, v in sorted(missing.items(), key=lambda x: -x[1])[:4])
+    print(f"未本地化（页面不展示，无泄漏）：{sum(missing.values())} 条（{top} …）")
 
 print("扫描文章:", len(files))
 if total:

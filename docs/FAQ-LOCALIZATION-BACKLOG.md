@@ -69,3 +69,13 @@
 
 - `scripts/deploy-window.sh`：只在 `09:00-11:00 / 17:00-19:00`（Asia/Shanghai）允许真构建，其余时间 `deploy-flush.sh` 攒提交不开工；紧急用 `DEPLOY_WINDOW_FORCE=1`。
 - 目的：日均真实构建压在 3 次以内，不和内容流水线抢额度；提交不会丢，到窗口自动上线。
+
+## 系统性整改：从源头止漏（2026-11-25）
+
+不再靠逐条翻译去追欠账，改成三层治理：
+
+1. **渲染层 native-only**（`src/app/[locale]/industry/[slug]/page.tsx`）：新增 `nativeText()`——该语种值与 `en` 逐字相同即视为缺失；ja/zh/ar/ru/hi 另要求命中书写系统。FAQ 折叠块与 `FAQPage` JSON-LD 都只输出原生问答，没有原生译文就不渲染、不进 schema。效果：任何页面都不再露英文问答，且不再给搜索引擎喂"语言不符"的结构化数据。
+2. **数据归一化** `scripts/normalize-faq-i18n.py`：把"非英文语种=英文原文"的伪翻译直接删掉（零信息损失）。全站待清理 9177 条 / 192 篇；已接进 `content_gate.py`（查哪篇就清哪篇）和 `.githooks/pre-push`（清本次改动过的文章），跟着编辑自动收敛，避免一次性大 diff 撞上内容流水线的在途改动。低峰期可一次跑完：`python3 scripts/normalize-faq-i18n.py --apply`。
+3. **判据纠正** `scripts/check-i18n-leakage.py`：区分"英文泄漏"（值为英文，算违规，`--strict` exit 1）与"未本地化"（值缺失，页面不展示，只统计覆盖度）。这样闸门只拦真泄漏，不会把"还没翻译"当成失败。
+
+配套：模板问答检测 `scripts/check-faq-boilerplate.py` + 替换器 `scripts/faq-replace-boilerplate.py`，批量译文落盘 `scripts/faq-apply.py`。

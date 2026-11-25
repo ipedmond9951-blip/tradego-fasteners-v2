@@ -22,6 +22,12 @@ if [ -x "$ROOT/scripts/vercel-guard.sh" ]; then
     fi
 fi
 
+# FAQ 伪翻译归一化（不阻断）：把"非英文语种=英文原文"的副本清掉，再查泄漏
+if [ -f "$ROOT/scripts/normalize-faq-i18n.py" ]; then
+    CHANGED=$(git diff --name-only "$(git merge-base HEAD origin/main 2>/dev/null || echo HEAD)" HEAD -- content/articles 2>/dev/null | sed "s|^|$ROOT/|" | paste -sd, -)
+    [ -n "$CHANGED" ] && python3 "$ROOT/scripts/normalize-faq-i18n.py" --apply --paths "$CHANGED" >/dev/null 2>&1 || true
+fi
+
 # 内容契约软提示（不阻断）：非英文语种的 FAQ 仍是英文原文时提示一下
 if [ -f "$ROOT/scripts/check-i18n-leakage.py" ]; then
     LEAK=$(python3 "$ROOT/scripts/check-i18n-leakage.py" 2>/dev/null | awk '/^  (zh|ja|es|fr|pt|ar|ru|de|hi) /{s+=$2} END{print s+0}')

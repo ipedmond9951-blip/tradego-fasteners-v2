@@ -95,6 +95,27 @@ function stripPlaceholder(value: string | undefined): string {
   return value.replace(PLACEHOLDER_LEAD, '').trim()
 }
 
+// 2026-11-25 FIX: FAQ 不能回退到英文原文。
+// 非英文页面出现英文问答既违反内容契约，也浪费 FAQPage schema（语言不匹配会被忽略）。
+// 判据：该语种值与 en 相同 → 视为缺失；ja/zh/ar/ru/hi 另要求命中对应书写系统。
+const FAQ_SCRIPT: Record<string, RegExp> = {
+  ja: /[\u3040-\u30ff\u4e00-\u9fff]/,
+  zh: /[\u3040-\u30ff\u4e00-\u9fff]/,
+  ar: /[\u0600-\u06FF]/,
+  ru: /[\u0400-\u04FF]/,
+  hi: /[\u0900-\u097F]/,
+}
+
+function nativeText(obj: Record<string, string> | undefined, locale: string): string {
+  if (!obj) return ''
+  const value = stripPlaceholder(obj[locale])
+  if (!value) return ''
+  if (locale !== 'en' && value === stripPlaceholder(obj['en'])) return ''
+  const script = FAQ_SCRIPT[locale]
+  if (script && !script.test(value)) return ''
+  return value
+}
+
 function localizedText(obj: Record<string, string> | undefined, locale: string): string {
   if (!obj) return ''
   const ordered = [obj[locale], obj['en'], ...Object.values(obj)]
@@ -146,16 +167,22 @@ function renderSection(section: ArticleSection, locale: string) {
           </table>
         </div>
       )}
-      {section.faqItems && (
-        <div className="space-y-4">
-          {section.faqItems.map((item, i) => (
-            <details key={i} className="bg-gray-50 rounded-lg p-4">
-              <summary className="font-semibold text-gray-900 cursor-pointer">{localizedText(item.q, locale)}</summary>
-              <p className="mt-2 text-gray-700">{localizedText(item.a, locale)}</p>
-            </details>
-          ))}
-        </div>
-      )}
+      {(() => {
+        const nativeFaq = (section.faqItems ?? [])
+          .map(item => ({ q: nativeText(item.q, locale), a: nativeText(item.a, locale) }))
+          .filter(item => item.q && item.a)
+        if (nativeFaq.length === 0) return null
+        return (
+          <div className="space-y-4">
+            {nativeFaq.map((item, i) => (
+              <details key={i} className="bg-gray-50 rounded-lg p-4">
+                <summary className="font-semibold text-gray-900 cursor-pointer">{item.q}</summary>
+                <p className="mt-2 text-gray-700">{item.a}</p>
+              </details>
+            ))}
+          </div>
+        )
+      })()}
     </section>
   )
 }
@@ -188,15 +215,17 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
   const faqItems = article.sections
     .filter(s => s.faqItems)
     .flatMap(s => s.faqItems!)
+    .map(item => ({ q: nativeText(item.q, locale), a: nativeText(item.a, locale) }))
+    .filter(item => item.q && item.a)
   const faqSchema = faqItems.length > 0 ? {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
     mainEntity: faqItems.map(item => ({
       '@type': 'Question',
-      name: localizedText(item.q, locale),
+      name: item.q,
       acceptedAnswer: {
         '@type': 'Answer',
-        text: localizedText(item.a, locale),
+        text: item.a,
       },
     })),
   } : null

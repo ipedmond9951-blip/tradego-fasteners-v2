@@ -45,6 +45,8 @@ def i18n_gate(slug=None):
         if not files:
             return None
         args += ["--paths", ",".join(files)]
+    # 先做增量归一化：把"非英文=英文原文"的伪翻译清掉（不影响真实译文），再判泄漏
+    run(["scripts/normalize-faq-i18n.py", "--apply", "--paths", args[-1]])
     r = run(args)
     return r
 
