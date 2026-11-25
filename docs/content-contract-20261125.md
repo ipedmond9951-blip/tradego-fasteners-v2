@@ -155,3 +155,23 @@ python3 scripts/content_contract.py --baseline logs/content-contract-baseline.js
 基线放在 `content/contract-baseline.json`（不是 `logs/`，因为 `logs/` 被 gitignore）。门禁的语义是**只对新内容负责**：存量问题冻结成白名单，新写的假翻译一定拦得住。
 
 实测门禁：塞进去一篇带 `lorem ipsum` 且缺中文正文的假文章 → 提交被拦，退出码 1；干净的改动 → 放行。
+
+## 十、第四轮：BLOCK 清零与上线（2026-11-25 晚）
+
+**结果**：279 篇（含 15 篇 redirect 存根不校验）中 **BLOCK 0 篇**，WARN 256 篇。
+
+本轮动作：
+1. 40 处占位正文全部补写完成——中文 21 段、英文 7 段、葡语 1 段、西语 1 段；中文段落均 ≥110 汉字并含 `<p>` 结构，英文段落 84–122 词。
+2. `imageAlt` 全语本地化：1311 + 350 个字段按各语种原生标题重建（`标题 - TradeGo Fasteners` / `标题｜TradeGo 紧固件`），一次消掉 1464 条 "与英文完全相同 / 夹英文" 告警。
+3. 三处字段级 BLOCK 修完：`title.ja` 去掉 `vs` 连写、`metaDescription.zh` 换中文原生表述、`metaDescription.de` 重写德语。
+4. 基线归零：`content/contract-baseline.json` 按 0 篇存量问题重写，后续 pre-commit 只拦新增。
+5. 已 `git push` 触发 Vercel 部署，线上抽检通过：`/en/industry/full-thread-half-thread-coarse-fine-thread-guide`（200，新章节在位、无占位文案）、`/zh/industry/agrifastener-water-infrastructure`（200，中文正文已渲染）。
+
+**剩余 WARN（按价值排序，非阻塞）**
+| 项 | 量 | 说明 |
+| --- | --- | --- |
+| FAQ 本地化缺口 | 8227 条 | 232 篇无 faq section；另一种口径下 i18n 复制缺口 |
+| 英文正文 <1600 词 | 209 篇 | 历史资产，Vercel 站点质量门槛按 WARN 计 |
+| 中文正文偏薄 | 108 篇 | <700 汉字 |
+| 描述长度超限 | 67 篇 | seo-length |
+| 缺语种 / 虚词缺失 | 28 / 14 篇 | es/fr/pt/ar/ru/ja/de/hi 部分缺 |
