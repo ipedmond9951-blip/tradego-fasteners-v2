@@ -194,42 +194,52 @@
       "faqItems": [
         {
           "q": {
-            "en": "What are the major shipping routes from China to Africa?"
+            "en": "What are the major shipping routes from China to Africa?",
+            "zh": "中国到非洲主要走哪些航线？"
           },
           "a": {
-            "en": "Key routes: Shanghai/Ningbo → Durban (20-25 days), → Lagos/Nigeria (28-35 days), → Mombasa/Kenya (18-22 days), → Dar es Salaam/Tanzania (20-25 days), → Djibouti/Ethiopia (18-22 days sea + 2-3 days overland)."
+            "en": "Key routes: Shanghai/Ningbo → Durban (20-25 days), → Lagos/Nigeria (28-35 days), → Mombasa/Kenya (18-22 days), → Dar es Salaam/Tanzania (20-25 days), → Djibouti/Ethiopia (18-22 days sea + 2-3 days overland).",
+            "zh": "主要航线与参考时效：上海/宁波到德班 20–25 天；到拉各斯（尼日利亚）28–35 天；到蒙巴萨（肯尼亚）18–22 天；到达累斯萨拉姆（坦桑尼亚）20–25 天；到吉布提（衔接埃塞俄比亚）海运 18–22 天，再加 2–3 天内陆运输。"
           }
         },
         {
           "q": {
-            "en": "What is the shipping cost per container to Africa?"
+            "en": "What is the shipping cost per container to Africa?",
+            "zh": "到非洲的海运费怎么算？"
           },
           "a": {
-            "en": "20ft container: $1,500-$3,000. 40ft container: $2,500-$5,000. Rates vary by season, fuel surcharges, and destination port. Durban and Mombasa routes are typically more affordable than West African ports."
+            "en": "20ft container: $1,500-$3,000. 40ft container: $2,500-$5,000. Rates vary by season, fuel surcharges, and destination port. Durban and Mombasa routes are typically more affordable than West African ports.",
+            "zh": "20 尺柜与 40 尺柜运价不同，随季节、燃油附加费和目的港浮动；德班、蒙巴萨航线通常比西非港口便宜。报价要按柜型、货量和船期单独询价，不能只看单柜标价。"
           }
         },
         {
           "q": {
-            "en": "How long does sea freight take from China to African ports?"
+            "en": "How long does sea freight take from China to African ports?",
+            "zh": "海运到非洲各港口要多久？"
           },
           "a": {
-            "en": "Transit times: Durban 20-25 days, Lagos 28-35 days (port congestion may add 7-14 days), Mombasa 18-22 days, Dar es Salaam 20-25 days, Djibouti 18-22 days to port."
+            "en": "Transit times: Durban 20-25 days, Lagos 28-35 days (port congestion may add 7-14 days), Mombasa 18-22 days, Dar es Salaam 20-25 days, Djibouti 18-22 days to port.",
+            "zh": "各航线海运时效参考如下：到德班 20–25 天；到拉各斯 28–35 天，遇港口拥堵可能再延误 7–14 天；到蒙巴萨 18–22 天；到达累斯萨拉姆 20–25 天；到吉布提 18–22 天到港。订舱时要把拥堵余量算进交货计划，避免用最短时效倒排工期。"
           }
         },
         {
           "q": {
-            "en": "What documentation is required for importing fasteners into Africa?"
+            "en": "What documentation is required for importing fasteners into Africa?",
+            "zh": "紧固件进口非洲需要哪些单证？"
           },
           "a": {
-            "en": "Required: Commercial Invoice, Packing List, Bill of Lading (B/L), Certificate of Origin (Form E for preferential tariffs), Mill Test Certificates (EN 10204 3.1), Fumigation Certificate (if wood packaging), Import Declaration, SONCAP (Nigeria) or SABS CoC (South Africa)."
+            "en": "Required: Commercial Invoice, Packing List, Bill of Lading (B/L), Certificate of Origin (Form E for preferential tariffs), Mill Test Certificates (EN 10204 3.1), Fumigation Certificate (if wood packaging), Import Declaration, SONCAP (Nigeria) or SABS CoC (South Africa).",
+            "zh": "必备商业发票、装箱单、提单（B/L）、产地证（Form E 可享优惠关税）、材质书（EN 10204 3.1）；木质包装需熏蒸证书；另办进口申报，尼日利亚走 SONCAP，南非办 SABS 符合性证书（CoC）。文件随货或按目的国要求在装船前办妥。"
           }
         },
         {
           "q": {
-            "en": "How do I calculate landed cost for African imports?"
+            "en": "How do I calculate landed cost for African imports?",
+            "zh": "到岸成本怎么计算？"
           },
           "a": {
-            "en": "Landed cost = FOB + Freight + Insurance + Port handling ($200-500/container) + Customs duties (varies by country, typically 10-25% for steel products) + Import VAT (varies) + Inland transport to your location. Budget 1.4-1.8x FOB cost for full landed cost."
+            "en": "Landed cost = FOB + Freight + Insurance + Port handling ($200-500/container) + Customs duties (varies by country, typically 10-25% for steel products) + Import VAT (varies) + Inland transport to your location. Budget 1.4-1.8x FOB cost for full landed cost.",
+            "zh": "到岸成本 = 出厂价（FOB）+ 海运费 + 保险 + 港口操作费 + 进口关税（钢铁制品各国通常 10–25%）+ 进口增值税（按各国规定）+ 目的地内陆运输。做预算时按出厂价的 1.4–1.8 倍估算完整到岸成本。"
           }
         }
       ]
