@@ -253,34 +253,42 @@
       "faqItems": [
         {
           "q": {
-            "en": "Which port serves Uganda, Rwanda, and eastern DRC?"
+            "en": "Which port serves Uganda, Rwanda, and eastern DRC?",
+            "zh": "乌干达、卢旺达和刚果金东部走哪个港？"
           },
           "a": {
-            "en": "Mombasa is the primary gateway for the Northern Corridor, serving Uganda, Rwanda, Burundi, eastern DRC, and South Sudan, with the Nairobi inland container depot used for onward consolidation."
+            "en": "Mombasa is the primary gateway for the Northern Corridor, serving Uganda, Rwanda, Burundi, eastern DRC, and South Sudan, with the Nairobi inland container depot used for onward consolidation.",
+            "zh": "蒙巴萨是北部走廊的主门户，服务乌干达、卢旺达、布隆迪、刚果（金）东部和南苏丹；后续拼箱转运走内罗毕内陆集装箱堆场。"
           }
         },
         {
           "q": {
-            "en": "What documents are needed to clear fasteners at Mombasa?"
+            "en": "What documents are needed to clear fasteners at Mombasa?",
+            "zh": "紧固件在蒙巴萨清关要哪些单证？"
           },
           "a": {
-            "en": "A customs declaration filed by a licensed broker, a commercial invoice and packing list that match the cargo line by line, and conformity documentation covering material grade, tensile strength, and coating thickness."
+            "en": "A customs declaration filed by a licensed broker, a commercial invoice and packing list that match the cargo line by line, and conformity documentation covering material grade, tensile strength, and coating thickness.",
+            "zh": "持牌报关行提交的海关申报单；与货物逐条对应的商业发票和装箱单；覆盖材质等级、抗拉强度和镀层厚度的符合性文件。"
           }
         },
         {
           "q": {
-            "en": "Is hot-dip galvanizing necessary for Kenyan projects?"
+            "en": "Is hot-dip galvanizing necessary for Kenyan projects?",
+            "zh": "肯尼亚项目必须做热浸镀锌吗？"
           },
           "a": {
-            "en": "Inland projects usually accept zinc plating. Coastal and marine projects around Mombasa and Lamu normally specify hot-dip galvanizing or stainless steel because of salt-air corrosion."
+            "en": "Inland projects usually accept zinc plating. Coastal and marine projects around Mombasa and Lamu normally specify hot-dip galvanizing or stainless steel because of salt-air corrosion.",
+            "zh": "内陆项目一般接受电镀锌；蒙巴萨、拉穆一带的沿海与海事项目，因盐雾腐蚀，通常要求热浸镀锌或不锈钢。"
           }
         },
         {
           "q": {
-            "en": "How much buffer should a first shipment allow?"
+            "en": "How much buffer should a first shipment allow?",
+            "zh": "首批发货要预留多少缓冲时间？"
           },
           "a": {
-            "en": "Allow one to two weeks beyond the expected clearance time. Most delays come from mismatched certificates, incomplete declarations, or undervalued invoices rather than from port congestion itself."
+            "en": "Allow one to two weeks beyond the expected clearance time. Most delays come from mismatched certificates, incomplete declarations, or undervalued invoices rather than from port congestion itself.",
+            "zh": "在预计清关时间之外再多留一到两周。多数延误来自证书不符、申报不完整或发票低报，而不是港口本身拥堵。"
           }
         }
       ]
