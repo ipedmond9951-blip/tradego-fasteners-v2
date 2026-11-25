@@ -20,6 +20,11 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ART = os.path.join(ROOT, "content", "articles")
 NONLAT = {"ar", "ru", "hi", "ja", "zh"}
 WORD = re.compile(r"[A-Za-z][A-Za-z'’\-]{2,}")
+CODE = re.compile(r"^(ISO|DIN|ANSI|ASME|ASTM|GB|JIS|SANS|EN|GOST|BS|API|NPS|UNS|SA|SMO|"
+                  r"PTFE|CNC|LNG|LPG|HS|USD|EUR|EXW|FOB|CIF|CFR|DAP|DDP|SLA|EPC|CAD|"
+                  r"MTC|PVoC|CoC|SGS|BV|BIS|KEBS|TBS|ZIMRA|SON|AfCFTA|ETLS|BURS|GSA|"
+                  r"MINPET|APA|SIGI|AGO|SONANGOL|PCC|ISPM|HRC|HV|MPa|ksi|NACE|SCZONE|"
+                  r"GOEIC|Incoterm|Incoterms|Tier|OEM|PVoC)$", re.I)
 TAG = re.compile(r"<[^>]+>")
 # 标准号、牌号、产品名、站点域名等白名单：不算"夹英文"
 WHITE = {
@@ -33,6 +38,30 @@ WHITE = {
 }
 
 
+def english_run_words(body):
+    """只数"真被当成英文句子夹进去"的词：先剥 HTML 标签，再按非 ASCII 字符切段，
+    每段里连续 >=4 个非代码拉丁词才算一次泄漏（Bureau Veritas / Porto de Luanda
+    这类 2-3 词专名、ASTM/ISO 代码、ТН ВЭД 之类不算）。"""
+    text = TAG.sub(" ", body)
+    runs, cur = [], []
+    for piece in re.split(r"([^\x00-\x7F]+)", text):
+        if piece and re.match(r"^[^\x00-\x7F]", piece):
+            if cur:
+                runs.append(cur)
+                cur = []
+            continue
+        for w in WORD.findall(piece):
+            cur.append(w)
+    if cur:
+        runs.append(cur)
+    out = []
+    for r in runs:
+        real = [w for w in r if not (w in WHITE or CODE.match(w) or w.isupper() and len(w) <= 5)]
+        if len(real) >= 4:
+            out += real
+    return out
+
+
 def scan(path, min_words):
     rows = []
     d = json.load(open(path, encoding="utf-8"))
@@ -41,7 +70,7 @@ def scan(path, min_words):
         for lang, body in (s.get("body") or {}).items():
             if lang not in NONLAT or not isinstance(body, str):
                 continue
-            words = [w for w in WORD.findall(TAG.sub(" ", body)) if w not in WHITE]
+            words = english_run_words(body)
             if len(words) >= min_words:
                 rows.append({
                     "slug": slug, "section": i, "lang": lang,
