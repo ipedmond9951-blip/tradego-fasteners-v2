@@ -196,7 +196,41 @@ bash scripts/vercel-guard.sh            # 立刻跑一次，确认环境合规
 
 ---
 
-## 9. 变更记录
+## 9. 保障机制：怎么确保真的按规范执行
+
+规范不是靠自觉，靠三层机制叠加。三层都在这台机器上落地了。
+
+### 第一层 · 事前拦截（不让违规发生）
+| 手段 | 拦什么 |
+|---|---|
+| `deploy-flush.sh` 为唯一入口 | 目录锁、rebase、预算闸门、prune 全在一处，绕过它就绕过了全部 |
+| `.githooks/pre-push` 串 `vercel-guard.sh` | 直推 main 也会被检查：配置被改坏、又出现直推写法、部署超 3 条 → 直接拦截 |
+| `_deny-direct-deploy.sh` | 8 个历史脚本里的 `npx vercel --prod` 全部改指向拦截器，执行即报错 |
+
+### 第二层 · 事后检测（违规发生当天就能发现）
+`scripts/vercel-audit.sh` 每天 08:30 由定时任务自动跑（`--quiet` 模式只在违规时出声）。检测 7 项：
+
+1. 生产部署的 `source` 必须是 `git` —— **CLI 直推会留成 `source: cli`，这是最硬的证据**
+2. 当日部署次数 ≤ 3
+3. 线上保留部署 ≤ 3
+4. 线上最新 commit == 本地 HEAD == origin/main
+5. 线上每条部署的 commit 都存在于本地 git 历史（挡住"未推送代码直接上线"）
+6. 最新部署最大 Lambda ≤ 5MB
+7. 站点 200 且缓存头正常
+
+违规会写进 `logs/vercel-audit.log` 并在当日摘要里报出来，不会静默。
+
+### 第三层 · 凭证收敛（把能力本身限制住）
+- Vercel CLI token 只在**这台 Mac**（`~/Library/Application Support/com.vercel.cli/auth.json`）；云主机 `vm` 与 Windows 机器都没有登录态，物理上跑不了部署
+- 团队 owner 只有 `ipedmond9951@gmail.com`；没有第二个可部署身份
+- 不为任何 agent 单独发放 token；所有代理一律通过 `deploy-flush.sh` 这条命令上线
+
+### 已知缺口（不粉饰）
+1. `git push --no-verify` 可以跳过 pre-push 钩子 —— 但第 2 层的 sha 对齐 + 当日次数审计仍会记录，且部署本身仍是一次正常的 git 部署，风险有限
+2. 能读到本机 token 的进程仍可 `vercel --prod` —— 第 2 层会在次日审计中以 `source: cli` 暴露
+3. 若将来多人协作或代理增多，应升级为 **GitHub 分支保护（main 必须走 PR + 必过 checks）**；当前单人直推流程与之冲突，暂不启用，写在这里作为下一步选项
+
+## 10. 变更记录
 
 | 日期 | 变更 | 触发原因 |
 |---|---|---|
@@ -204,3 +238,4 @@ bash scripts/vercel-guard.sh            # 立刻跑一次，确认环境合规
 | 2026-11-24 | 全站 402（FOT 198%），升级 Pro 解除；部署清理到 3 条 | Hobby fair-use 暂停 |
 | 2026-11-25 | `outputFileTracingExcludes` 剔除 content/public；llms.txt 静态化；动态路由 `dynamicParams=false`；λ 136MB→2.03MB | Function/Deployment Storage 超限 |
 | 2026-11-25 | 本文档 v1.0 + `vercel-guard.sh` 落地 | 规范需要可执行，而非口头约定 |
+| 2026-11-25 | 新增 `vercel-audit.sh`（事后检测）+ 每日 08:30 定时审计 | 钩子可被 `--no-verify` 绕过，需要独立检测层 |

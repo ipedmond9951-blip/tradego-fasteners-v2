@@ -1,0 +1,149 @@
+#!/bin/bash
+# vercel-audit.sh - Vercel 操作合规审计（事后检测层）2026-11-25
+#
+# 定位：vercel-guard.sh 是"事前预防"（钩子拦 push、封禁直推命令），本脚本是"事后检测"——
+# 就算有人用 git push --no-verify、或在别的机器上用 CLI 直接部署，这里都能查出来。
+#
+# 检测项（对应 docs/VERCEL-OPS.md）：
+#   1. 部署来源: 生产部署的 source 必须是 git（CLI 直推会是 cli）
+#   2. 当日部署数（北京时间）≤ AUDIT_DAILY_LIMIT（默认 3）
+#   3. 线上保留部署数 ≤ AUDIT_KEEP（默认 3）
+#   4. 线上最新 commit sha == origin/main HEAD
+#   5. 最近部署的 commit 必须存在于本地 git 历史（未推送代码不得上线）
+#   6. 最新部署最大 Lambda ≤ 5MB
+#   7. 站点可用: /en/ 200 且带 s-maxage=86400
+#
+# 退出码: 0 = 合规；1 = 发现违规（需人工处置）
+# 用法:
+#   bash scripts/vercel-audit.sh              # 审计 + 打印结论
+#   bash scripts/vercel-audit.sh --quiet      # 仅在违规时输出（给定时任务用）
+
+set -u
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+cd "$ROOT" || exit 1
+
+QUIET=0
+[ "${1:-}" = "--quiet" ] && QUIET=1
+DAILY_LIMIT="${AUDIT_DAILY_LIMIT:-3}"
+KEEP="${AUDIT_KEEP:-3}"
+AUTH="$HOME/Library/Application Support/com.vercel.cli/auth.json"
+PROJECT_ID="prj_3D7E2O74NPWtxH9vQM5zWkGy9lVZ"
+LOG="$ROOT/logs/vercel-audit.log"
+mkdir -p "$ROOT/logs"
+
+FAIL=0
+declare -a ISSUES
+say() { [ "$QUIET" -eq 0 ] && echo "$1"; return 0; }
+issue() { ISSUES+=("$1"); FAIL=$((FAIL+1)); say "  ❌ $1"; }
+pass() { say "  ✅ $1"; }
+
+[ "$QUIET" -eq 0 ] && echo "🕵  Vercel 合规审计 $(date '+%Y-%m-%d %H:%M')"
+
+git fetch -q origin main 2>/dev/null || true
+ORIGIN_SHA=$(git rev-parse origin/main 2>/dev/null || echo "")
+HEAD_SHA=$(git rev-parse HEAD 2>/dev/null || echo "")
+
+DATA=$(python3 - "$AUTH" "$PROJECT_ID" <<'PY'
+import json, sys, urllib.request
+auth, pid = sys.argv[1], sys.argv[2]
+tok = json.load(open(auth))["token"]
+req = urllib.request.Request(
+    "https://api.vercel.com/v6/deployments?projectId=%s&limit=20" % pid,
+    headers={"Authorization": "Bearer " + tok},
+)
+d = json.load(urllib.request.urlopen(req))
+out = []
+for x in d.get("deployments", []):
+    m = x.get("meta") or {}
+    out.append({
+        "url": x.get("url"),
+        "source": x.get("source"),
+        "state": x.get("state"),
+        "target": x.get("target"),
+        "createdAt": x.get("createdAt"),
+        "sha": (m.get("githubCommitSha") or "")[:8],
+        "sha_full": m.get("githubCommitSha") or "",
+        "ref": m.get("githubCommitRef") or "",
+    })
+print(json.dumps(out, ensure_ascii=False))
+PY
+) || { issue "无法读取 Vercel 部署列表（检查 CLI 登录）"; DATA="[]"; }
+
+# --- 1. 部署来源 + 2/3. 数量统计 ---
+STATS=$(printf '%s' "$DATA" | python3 -c '
+import json, sys, datetime
+ds = json.load(sys.stdin)
+tz = datetime.timezone(datetime.timedelta(hours=8))
+today = datetime.datetime.now(tz).date()
+today_ds = [d for d in ds if datetime.datetime.fromtimestamp(d["createdAt"]/1000, tz).date() == today]
+cli = [d for d in ds if (d.get("source") or "") != "git" and d.get("target") == "production"]
+print(len(ds), len(today_ds), len(cli))
+for c in cli[:5]:
+    print("CLI", c["sha"], datetime.datetime.fromtimestamp(c["createdAt"]/1000, tz).strftime("%m-%d %H:%M"))
+')
+TOTAL=$(echo "$STATS" | sed -n 1p | awk '{print $1}')
+TODAYN=$(echo "$STATS" | sed -n 1p | awk '{print $2}')
+CLIN=$(echo "$STATS" | sed -n 1p | awk '{print $3}')
+
+[ "$CLIN" -eq 0 ] && pass "部署来源全部为 git 集成（无 CLI 直推）" || issue "发现 $CLIN 条 CLI 直推的生产部署（违反第 4 节）"
+echo "$STATS" | grep "^CLI" | while read -r _ sha when; do echo "      违规部署: $sha @ $when"; done
+
+[ "$TODAYN" -le "$DAILY_LIMIT" ] && pass "当日部署 ${TODAYN} 次（≤${DAILY_LIMIT}）" || issue "当日部署 $TODAYN 次，超过 $DAILY_LIMIT 次上限"
+[ "$TOTAL" -le "$KEEP" ] && pass "线上保留 ${TOTAL} 条（≤${KEEP}）" || issue "线上保留 $TOTAL 条，超过 $KEEP 条（跑 vercel-prune.sh --apply）"
+
+# --- 4/5. sha 对齐与来源合法性 ---
+LATEST_SHA=$(printf '%s' "$DATA" | python3 -c 'import json,sys;d=json.load(sys.stdin);print(d[0]["sha_full"] if d else "")')
+if [ -z "$LATEST_SHA" ]; then
+  issue "取不到线上最新部署 sha"
+elif [ "$LATEST_SHA" = "$HEAD_SHA" ] && [ "$LATEST_SHA" = "$ORIGIN_SHA" ]; then
+  pass "线上最新 ${LATEST_SHA:0:8} = 本地 HEAD = origin/main"
+else
+  issue "线上最新 ${LATEST_SHA:0:8} 与 本地 ${HEAD_SHA:0:8} / origin ${ORIGIN_SHA:0:8} 不一致"
+fi
+
+UNTRACKED=$(printf '%s' "$DATA" | python3 -c '
+import json,sys,subprocess
+ds=json.load(sys.stdin)
+bad=[]
+for d in ds:
+    sha=d.get("sha_full") or ""
+    if not sha: continue
+    rc=subprocess.run(["git","cat-file","-e",sha],capture_output=True).returncode
+    if rc!=0: bad.append(sha[:8])
+print(len(bad))
+for b in bad[:5]: print("OUT", b)
+')
+UB=$(echo "$UNTRACKED" | sed -n 1p)
+[ "$UB" -eq 0 ] && pass "所有线上部署的 commit 都存在于本地 git 历史" || issue "有 $UB 条部署的 commit 不在本地 git 历史（疑似未推送代码上线）"
+
+# --- 6. Lambda 尺寸 ---
+URL=$(printf '%s' "$DATA" | python3 -c 'import json,sys;d=json.load(sys.stdin);print(d[0]["url"] if d else "")')
+if [ -n "$URL" ]; then
+  MAXMB=$(npx --yes vercel inspect "$URL" 2>&1 | grep -oE "λ [^ ]+ ?\([0-9.]+MB\)" | grep -oE "[0-9.]+MB" | sed 's/MB//' | sort -rn | head -1)
+  if [ -n "$MAXMB" ]; then
+    if [ "$(echo "$MAXMB < 5" | bc -l 2>/dev/null || echo 1)" = "1" ]; then pass "最大 Lambda ${MAXMB}MB（≤5MB）"; else issue "最大 Lambda ${MAXMB}MB 超过 5MB"; fi
+  else
+    say "  ℹ️  未能解析 Lambda 尺寸（跳过）"
+  fi
+fi
+
+# --- 7. 站点可用 ---
+CODE=$(curl -s -o /dev/null -w "%{http_code}" -L https://www.tradego-fasteners.com/en/)
+[ "$CODE" = "200" ] && pass "/en/ → 200" || issue "/en/ → $CODE（站点不可用）"
+CC=$(curl -sI -L https://www.tradego-fasteners.com/en/ | grep -i cache-control | head -1)
+case "$CC" in *s-maxage=86400*) pass "CDN 长缓存正常";; *) issue "缓存头异常: ${CC:-<空>}";; esac
+
+# --- 记录 ---
+RESULT="PASS"; [ "$FAIL" -gt 0 ] && RESULT="FAIL($FAIL)"
+printf '%s | %s | 当日部署=%s 保留=%s cli直推=%s 最新=%s\n' "$(date '+%F %T')" "$RESULT" "$TODAYN" "$TOTAL" "$CLIN" "${LATEST_SHA:0:8}" >> "$LOG"
+
+if [ "$FAIL" -gt 0 ]; then
+  echo ""
+  echo "❌ 审计发现 $FAIL 项违规，按 docs/VERCEL-OPS.md 第 6 节处置："
+  for i in "${ISSUES[@]}"; do echo "   - $i"; done
+  echo "   记录已写入 logs/vercel-audit.log"
+  exit 1
+fi
+say ""
+say "✅ 审计通过：未发现绕过闸门或超额的操作。"
+exit 0
