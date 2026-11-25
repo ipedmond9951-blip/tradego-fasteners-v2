@@ -245,6 +245,17 @@ $CJKOUT"
   fi
 fi
 
+# --- 12. 日语正文洁净度（简体字形/中文词/中文虚词/外文 token，只报数不阻断）---
+if [ "${AUDIT_JA:-1}" = "1" ]; then
+  JAOUT=$(python3 scripts/check-ja-clean.py --top 5 2>&1 | head -8)
+  if echo "$JAOUT" | grep -q "共 0 个字段"; then
+    pass "日语正文洁净：简体字形/中文词/中文虚词/外文 token 均为 0"
+  else
+    pass "日语正文仍有残留（非部署问题，进内容队列）：
+$JAOUT"
+  fi
+fi
+
 # --- 记录 ---
 RESULT="PASS"; [ "$FAIL" -gt 0 ] && RESULT="FAIL($FAIL)"
 printf '%s | %s | 当日部署=%s 保留=%s cli直推=%s 最新=%s\n' "$(date '+%F %T')" "$RESULT" "$TODAYN" "$TOTAL" "$CLIN" "${LATEST_SHA:0:8}" >> "$LOG"

@@ -399,64 +399,86 @@
       "faqItems": [
         {
           "q": {
-            "en": "What is the minimum order quantity for African markets?"
+            "en": "What is the minimum order quantity for African markets?",
+            "zh": "非洲市场的最低起订量是多少？",
+            "ja": "アフリカ市場の最低発注数量は？"
           },
           "a": {
-            "en": "Distributors typically expect 20ft container loads (18-25 tons). For initial orders, some distributors accept 10ft or LCL shipments, but unit costs increase 15-25%. Start with a full container of your best-selling product line."
+            "en": "Distributors typically expect 20ft container loads (18-25 tons). For initial orders, some distributors accept 10ft or LCL shipments, but unit costs increase 15-25%. Start with a full container of your best-selling product line.",
+            "zh": "经销商通常要求以20英尺集装箱为单位（18-25吨）。初次合作时，部分经销商可接受10英尺或拼箱发货，但单价会上升15-25%。建议先用热销产品线装满一整柜。",
+            "ja": "現地流通業者は通常20フィートコンテナ単位（18-25トン）を想定します。初回に限り10フィートまたは混載（LCL）を受け入れるケースもありますが、単価が15-25%上昇します。まずは主力品種でフルコンテナから開始してください。"
           }
         },
         {
           "q": {
-            "en": "Do I need a local agent to sell in Africa?"
+            "en": "Do I need a local agent to sell in Africa?",
+            "zh": "在非洲销售是否必须聘请当地代理？",
+            "ja": "アフリカで販売するのに現地代理店は必要か？"
           },
           "a": {
-            "en": "Not legally required in most countries, but highly recommended. A good agent handles customs clearance, local certification, distributor relationships, and payment collection. Commission rates are typically 3-8% depending on market and product."
+            "en": "Not legally required in most countries, but highly recommended. A good agent handles customs clearance, local certification, distributor relationships, and payment collection. Commission rates are typically 3-8% depending on market and product.",
+            "zh": "法律上大多数国家并无强制要求，但强烈建议聘请。优秀代理可处理清关、本地认证、经销商维护和收款，佣金通常为3-8%，视市场和产品而定。",
+            "ja": "法規上は多くの国で不要ですが、実務上は強く推奨されます。信頼できる代理店は通関、認証取得、流通業者との交渉、代金回収までを担い、手数料は市場・品目により3-8%程度が一般的です。"
           }
         },
         {
           "q": {
-            "en": "How long does it take to get SABS certification?"
+            "en": "How long does it take to get SABS certification?",
+            "zh": "取得SABS认证需要多长时间？",
+            "ja": "SABS認証の取得期間は？"
           },
           "a": {
-            "en": "8-12 weeks for standard fasteners. You'll need to submit samples for testing (4-6 weeks), factory documentation, and quality system evidence. Using a local consultant reduces this to 6-8 weeks."
+            "en": "8-12 weeks for standard fasteners. You'll need to submit samples for testing (4-6 weeks), factory documentation, and quality system evidence. Using a local consultant reduces this to 6-8 weeks.",
+            "zh": "标准紧固件需8-12周。流程包括送样测试（4-6周）、工厂文件提交和质量体系审核。若聘请当地顾问，可缩短至6-8周。",
+            "ja": "標準的なファスナーで8-12週間を要します。サンプル試験（4-6週間）、工場資料、品質管理システムの提出が必要です。現地コンサルタントを活用すれば6-8週間まで短縮可能です。"
           }
         },
         {
           "q": {
-            "en": "What payment methods are safest for African exports?"
+            "en": "What payment methods are safest for African exports?",
+            "zh": "对非洲出口 safest 的付款方式有哪些？",
+            "ja": "アフリカ向け輸出で最も安全な決済方法は？"
           },
           "a": {
-            "en": "For new relationships: Irrevocable Letter of Credit (LC) at sight. After 3+ successful transactions: 30% advance + 70% against Bill of Lading. For established partners: Open account with credit insurance (Euler Hermes, Coface)."
+            "en": "For new relationships: Irrevocable Letter of Credit (LC) at sight. After 3+ successful transactions: 30% advance + 70% against Bill of Lading. For established partners: Open account with credit insurance (Euler Hermes, Coface).",
+            "zh": "新客户建议使用即期不可撤销信用证；3次以上成功交易后可采用30%预付+70%提单付款；与成熟伙伴合作时，可使用赊销并购买出口信用保险（如Euler Hermes、Coface）。",
+            "ja": "新規取引では即時払い取消不能信用状（LC）が推奨されます。3回以上の実績後は船積書類到着払い70%・前払い30%が一般的です。取引実績のある相手には信用保険（Euler Hermes、Coface）を活用した掛け取引も可能です。"
           }
         },
         {
           "q": {
             "en": "Which product categories carry the most opportunity in 2026?",
-            "zh": "2026 年哪些品类机会最大？"
+            "zh": "2026 年哪些品类机会最大？",
+            "ja": "2026年に有望な品目カテゴリは？"
           },
           "a": {
             "en": "Roofing and self-drilling screws, galvanized structural bolts, concrete anchors, and solar mounting hardware. Solar and telecom hardware is growing fastest, while commodity drywall and wood screws remain price-driven and low-margin.",
-            "zh": "屋面与自钻螺钉、镀锌结构螺栓、混凝土锚栓、光伏支架件。光伏与通讯件的增速最快；普通干墙钉与木螺钉仍是价格驱动、利润薄。"
+            "zh": "屋面与自钻螺钉、镀锌结构螺栓、混凝土锚栓、光伏支架件。光伏与通讯件的增速最快；普通干墙钉与木螺钉仍是价格驱动、利润薄。",
+            "ja": "屋根用・セルフドリリングねじ、溶融亜鉛めっき構造用ボルト、コンクリート用アンカー、太陽光発電架台金具が有望です。太陽光・通信向け金具の伸びが顕著で、石膏ボード用や木工用ビスは価格競争が激しく利益率が低いまま推移しています。"
           }
         },
         {
           "q": {
             "en": "How do compliance requirements differ across regions?",
-            "zh": "各区域的合规要求差异在哪？"
+            "zh": "各区域的合规要求差异在哪？",
+            "ja": "地域ごとの法規適合要件の違いは？"
           },
           "a": {
             "en": "South Africa needs SABS/NRCS, Kenya and Tanzania need PVoC or TBS conformity, Nigeria SONCAP, and Zambia or Malawi request ZABS or MBS documents on regulated items. A single West African shipment can require more paperwork than three East African ones.",
-            "zh": "南非要 SABS/NRCS，肯尼亚与坦桑尼亚要 PVoC 或 TBS 符合性，尼日利亚要 SONCAP，赞比亚与马拉维对受管制件要 ZABS 或 MBS 文件。一票西非货的文件量可能超过三票东非货。"
+            "zh": "南非要 SABS/NRCS，肯尼亚与坦桑尼亚要 PVoC 或 TBS 符合性，尼日利亚要 SONCAP，赞比亚与马拉维对受管制件要 ZABS 或 MBS 文件。一票西非货的文件量可能超过三票东非货。",
+            "ja": "南アフリカはSABS/NRCS、ケニア・タンザニアはPVoCまたはTBS、ナイジェリアはSONCAP、ザンビア・マラウイはZABS/MBSの書類が必要です。西アフリカ1カ国への出荷で、東アフリカ3カ国分を超える書類を求められるケースもあります。"
           }
         },
         {
           "q": {
             "en": "What is the fastest route to a first order?",
-            "zh": "拿到首单最快的路径是什么？"
+            "zh": "拿到首单最快的路径是什么？",
+            "ja": "初回受注を最短で獲得する方法は？"
           },
           "a": {
             "en": "Target one corridor and one product family, quote landed cost to a named port with documents included, and offer a small trial container. Buyers who have been burned by rejected lots respond to traceability and inspection support faster than to a lower unit price.",
-            "zh": "聚焦一条走廊、一个品类，报出含文件到指定港的到岸成本，并提供小批量试单。被退过货的买家，对可追溯性与检验支持的反应，比对更低单价更快。"
+            "zh": "聚焦一条走廊、一个品类，报出含文件到指定港的到岸成本，并提供小批量试单。被退过货的买家，对可追溯性与检验支持的反应，比对更低单价更快。",
+            "ja": "1つの地域・1品目群に絞り、指定港までの運賃込み価格を提示し、少量トライアルコンテナを提案してください。過去に不良品で苦労したバイヤーは、単価よりトレーサビリティや検査対応を重視します。"
           }
         }
       ],
