@@ -194,42 +194,52 @@
       "faqItems": [
         {
           "q": {
-            "en": "Why do stainless fasteners gall in marine environments?"
+            "en": "Why do stainless fasteners gall in marine environments?",
+            "zh": "不锈钢紧固件为什么在海洋环境里咬死？"
           },
           "a": {
-            "en": "Stainless steel is prone to galling (thread seizure) when installed without lubrication or with excessive torque. Always use marine-grade lubricant during installation."
+            "en": "Stainless steel is prone to galling (thread seizure) when installed without lubrication or with excessive torque. Always use marine-grade lubricant during installation.",
+            "zh": "不锈钢在缺少润滑或扭矩过大时容易发生擦伤咬合（galling，即螺纹咬死）。安装时应使用海事级润滑剂，螺纹保持清洁并按规定扭矩拧紧，不要干拧或超扭矩施压。"
           }
         },
         {
           "q": {
-            "en": "Can I use galvanized fasteners underwater?"
+            "en": "Can I use galvanized fasteners underwater?",
+            "zh": "镀锌紧固件能用在水下吗？"
           },
           "a": {
-            "en": "Not recommended. HDG works above water but rapidly degrades in saltwater immersion. Use A4 stainless or super duplex for underwater applications."
+            "en": "Not recommended. HDG works above water but rapidly degrades in saltwater immersion. Use A4 stainless or super duplex for underwater applications.",
+            "zh": "不建议。热浸镀锌（HDG）在水面以上可以工作，但在海水浸没环境中会迅速腐蚀失效。水下部位应选用 A4 不锈钢或超双相不锈钢。"
           }
         },
         {
           "q": {
-            "en": "What's the difference between 304 and 316 stainless for marine use?"
+            "en": "What's the difference between 304 and 316 stainless for marine use?",
+            "zh": "海洋用 304 和 316 不锈钢差在哪？"
           },
           "a": {
-            "en": "316 contains molybdenum which significantly improves chloride corrosion resistance. Use 304 only for protected indoor marine environments. Always use 316 for outdoor marine exposure."
+            "en": "316 contains molybdenum which significantly improves chloride corrosion resistance. Use 304 only for protected indoor marine environments. Always use 316 for outdoor marine exposure.",
+            "zh": "316 含钼，耐氯离子腐蚀能力明显更好；304 只能用于有遮蔽的室内海事环境，户外海洋暴露一律用 316（即 A4）。选型时不要图价差把 304 用到飞溅或露天部位。"
           }
         },
         {
           "q": {
-            "en": "How often should marine fasteners be inspected?"
+            "en": "How often should marine fasteners be inspected?",
+            "zh": "海洋紧固件多久检查一次？"
           },
           "a": {
-            "en": "Annual inspection is minimum. More frequent inspection (6 months) for critical structures and harsh environments. Inspect for corrosion, loosening, and fatigue cracks."
+            "en": "Annual inspection is minimum. More frequent inspection (6 months) for critical structures and harsh environments. Inspect for corrosion, loosening, and fatigue cracks.",
+            "zh": "至少每年检查一次；关键结构和恶劣环境缩短到每 6 个月一次。检查内容包括腐蚀痕迹、松动和疲劳裂纹，发现螺纹损伤或点蚀应及时更换，不要只做表面清理。"
           }
         },
         {
           "q": {
-            "en": "Can I paint over stainless fasteners?"
+            "en": "Can I paint over stainless fasteners?",
+            "zh": "不锈钢紧固件外面能刷漆吗？"
           },
           "a": {
-            "en": "Not necessary and not recommended. Paint won't adhere well to stainless and may hide corrosion problems. Leave stainless fasteners unpainted."
+            "en": "Not necessary and not recommended. Paint won't adhere well to stainless and may hide corrosion problems. Leave stainless fasteners unpainted.",
+            "zh": "既没必要也不建议。油漆在不锈钢表面附着性差，还会遮盖已经发生的腐蚀问题；不锈钢紧固件应保持不涂装状态，便于日常目视检查。"
           }
         }
       ]
