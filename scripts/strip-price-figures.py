@@ -12,7 +12,7 @@ import argparse, json, re, sys
 
 from price_structure import STRUCT
 
-MONEY = re.compile(r'(?:USD\s?[\d,.]+|\$\s?[\d,.]+|€\s?[\d,.]+|[\d,.]+\s?(?:USD|EUR|RMB|CNY|MAD)|[\d,.]+\s?元|RMB\s?\d)')
+MONEY = re.compile(r'(?:USD\s?[\d,.]+|\$\s?[\d,.]+|€\s?[\d,.]+|[\d,.]+ ?(?:万 ?)?(?:USD|EUR|RMB|CNY|MAD|美元|美金|兰特|奈拉|卢比|港元)| ?[0-9,.]+ ?元|RMB\s?\d)')
 PRICE_CTX = re.compile(r'(price|quote|quotation|pricing|cost|价格|报价|价目|单价|成本|precio|preço|prix|preis|цена|سعر|価格|मूल्य|कीमत)', re.I)
 SENT_SPLIT = re.compile(r'(?<=[.。।؟])\s+')
 

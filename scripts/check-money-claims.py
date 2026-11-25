@@ -8,7 +8,7 @@
 """
 import json, glob, re, sys
 
-MONEY = re.compile(r'(?:USD\s?[\d,.]+|\$[\d,.]+|€\s?[\d,.]+|[\d,.]+\s?(?:USD|EUR|RMB|CNY|MAD)|[\d,.]+\s?元)')
+MONEY = re.compile(r'(?:USD\s?[\d,.]+|\$[\d,.]+|€\s?[\d,.]+|[\d,.]+\s?(?:万\s?)?(?:USD|EUR|RMB|CNY|MAD|美元|美金|兰特|奈拉|卢比|港元)|[\d,.]+\s?元)')
 PRICE_CTX = re.compile(r'(price|quote|quotation|cost per|per ton|per tonne|per kg|价格|报价|价目|单价|每吨|每公斤)', re.I)
 
 
