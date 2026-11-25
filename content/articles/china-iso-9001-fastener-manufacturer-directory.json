@@ -261,30 +261,36 @@
         {
           "q": {
             "en": "How does an ISO 9001:2015 quality system differ from a product certificate?",
+            "ar": "ما الفرق بين نظام ISO 9001 وشهادة المنتج؟",
             "zh": "ISO 9001:2015 质量体系与产品证书有什么区别？"
           },
           "a": {
             "en": "An ISO 9001:2015 certificate describes the management system that runs the factory: documented procedures, batch traceability, internal audits and corrective action. It does not state that a particular bolt meets property class 8.8, that a stainless nut follows ISO 3506-1, or that a coating reaches 50 µm. Those product facts are proven by the lot’s mill test certificate under EN 10204 3.1, dimensional gauges and the coating report. Buyers should ask for both: the system certificate shows how the factory is run, while the product documentation shows what this specific lot actually meets. If a tender names ISO 9001 explicitly, that certificate can be arranged with the order; the product standard on the purchase order still has to be checked lot by lot.",
+            "ar": "تصف شهادة ISO 9001:2015 نظام الإدارة الذي يدير المصنع: الإجراءات الموثقة، وتتبع الدفعات، والتدقيقات الداخلية، والإجراءات التصحيحية. وهي لا تثبت أن برغي معين يفي بالفئة 8.8، أو أن صامولة من الفولاذ المقاوم للصدأ تتبع ISO 3506-1، أو أن طلاء يبلغ سماكة 50 µm. أما هذه الحقائق المنتجة فتُثبتها شهادة اختبار المصنع للدفعة وفق EN 10204 3.1، والقياسات البعدية، وتقرير الطلاء. وينبغي للمشتري أن يطلب النوعين معاً: فشهادة النظام تبين كيف يُدار المصنع، بينما تبين وثائق المنتج ما يفي بهذه الدفعة تحديداً فعلاً. وإذا ذكرت المناقصة ISO 9001 صراحة، فيمكن ترتيب هذه الشهادة مع أمر الشراء؛ ويظل المعيار المنتجي المذكور في أمر الشراء يُفحص دفعة بعد دفعة.",
             "zh": "ISO 9001:2015 证书说明的是工厂运行的管理体系：文件化流程、批次可追溯、内部审核与纠正措施。它并不表示某一颗螺栓达到 8.8 级、某只不锈钢螺母符合 ISO 3506-1，或镀层达到 50 µm。这些产品事实要靠该批次的 EN 10204 3.1 材质证书、尺寸量规和镀层报告来证明。买家应同时索取两类文件：体系证书看工厂怎么运行，产品文件看这一批实际达到什么标准。若招标明确要求 ISO 9001，证书可随订单办理；采购单上写明的产品标准仍需逐批核验。"
           }
         },
         {
           "q": {
             "en": "What does ISO 9001 actually prove about a fastener factory?",
+            "ar": "ماذا تثبت شهادة ISO 9001 فعلاً؟",
             "zh": "ISO 9001 对紧固件工厂到底证明什么？"
           },
           "a": {
             "en": "It proves the factory operates a documented quality management system, not that its bolts meet 8.8 or that its coating is 50 µm. Product conformity still needs the mill test certificates and dimensional and mechanical test results for the lot you are buying. Read the certificate scope carefully: a valid system certificate can still exclude heat treatment or coating, which means those steps are bought in. Ask whether the supplier runs in-house induction hardening and plating lines, and keep the ISO 898-1 property class, the ISO 3506-1 stainless grade or the DIN/ISO product standard on the purchase order beside the system certificate. Where the end use is a mine, a utility or a public project, an incoming inspection at destination is the step that will actually be applied, so rehearse it before loading.",
+            "ar": "إنها تثبت أن المصنع يدير نظام إدارة جودة موثقاً، لا أن براغيه تفي بالفئة 8.8 أو أن طلاءه يبلغ 50 µm. ولا تزال المطابقة المنتجية بحاجة إلى شهادات اختبار المصنع ونتائج الفحوص البعدية والميكانيكية للدفعة التي تشتريها. اقرأ نطاق الشهادة بعناية: فالشهادة النظامية الصالحة قد تستثني المعالجة الحرارية أو الطلاء، ما يعني أن هاتين المرحلتين تُشتريان من الخارج. اسأل عما إذا كان المورد يشغل خطوط التقسية بالحث والطلاء داخل المصنع، وأبقِ فئة الخواص وفق ISO 898-1، أو درجة الفولاذ المقاوم للصدأ وفق ISO 3506-1، أو معيار DIN/ISO المنتجي في أمر الشراء إلى جانب شهادة النظام. وحيث يكون الاستخدام النهائي في منجم أو مرفق خدمة أو مشروع عام، فإن فحص الواردات في الوجهة هو الخطوة التي ستطبق فعلاً، فجرّبها قبل التحميل.",
             "zh": "它证明工厂运行着文件化的质量管理体系，不证明螺栓达到 8.8 级，也不证明镀层有 50 µm。产品符合性仍要靠你所购批次的材质证明，以及尺寸、机械测试结果。读证书范围时要仔细：有效的体系证书仍可能不含热处理或镀层，说明这两道工序是外购的。要问清感应淬火与镀层产线是否自有；采购单上除体系证书外，还应写明 ISO 898-1 性能等级、ISO 3506-1 不锈钢牌号或 DIN/ISO 产品标准。最终用途是矿山、公用工程或公共项目时，到港到货检验才是真正落地的一环，装柜前应先把这一步预演清楚。"
           }
         },
         {
           "q": {
             "en": "How can I verify an ISO 9001 certificate?",
+            "ar": "كيف أتحقق من صلاحية الشهادة؟",
             "zh": "怎么核实 ISO 9001 证书是真的？"
           },
           "a": {
             "en": "Take the certificate number and the issuer, then check the issuer’s own database rather than a PDF: confirm the certified scope covers fastener manufacture, the site address matches your supplier, and the expiry date is current. Verify that the body is accredited by a recognized national accreditation service, and ask for the most recent surveillance audit summary and the corrective actions it raised. Marketing materials often quote a scope that does not match the products ordered, or a site that has since closed. If the certificate cannot be opened on the register, treat the supplier as unverified until the gap is resolved in writing, and do not rely on the scan alone. Product-level checks (ISO 898-1 tests, coating mass, dimensions) remain separate from this system verification.",
+            "ar": "خذ رقم الشهادة وجهة الإصدار، ثم تحقق من قاعدة بيانات الجهة نفسها بدل الاكتفاء بملف PDF: تأكد من أن النطاق المعتمد يشمل تصنيع المثبتات، وأن عنوان الموقع يطابق موردك، وأن تاريخ الانتهاء سارٍ. وتحقق من أن الجهة معتمدة من هيئة اعتماد وطنية معترف بها، واطلب ملخص أحدث تدقيق رقابي والإجراءات التصحيحية التي أثيرت فيه. وكثيراً ما تنقل المواد التسويقية نطاقاً لا يطابق المنتجات المطلوبة، أو موقعاً أُغلق لاحقاً. وإذا تعذر فتح الشهادة في السجل، فاعتبر المورد غير موثق حتى يُحل الفرق خطياً، ولا تعتمد على الصورة الممسوحة وحدها. وتبقى الفحوص على مستوى المنتج، مثل اختبارات ISO 898-1 وكتلة الطلاء والأبعاد، منفصلة عن هذا التحقق النظامي.",
             "zh": "拿证书编号与发证机构，去发证机构自己的数据库查，而不是只看 PDF：确认认证范围覆盖紧固件制造，工厂地址与你的供应商一致，有效期未过。核实该机构受认可机构认可，并索取最近一次监督审核摘要及其提出的纠正措施。宣传资料常出现范围与所订产品不符、或工厂地址已关闭的情况。若登记册上打不开这份证书，在书面澄清之前应把该供应商视为未核实，不能只凭扫描件采信。产品层面的核验（ISO 898-1 测试、镀层质量、尺寸）与体系核实是两回事，仍要单独做。"
           }
         },
