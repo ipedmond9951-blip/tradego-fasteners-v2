@@ -83,6 +83,51 @@ def english_copy(article):
     return out
 
 
+SCRIPT_ALLOWED = {
+    'en': (), 'es': (), 'fr': (), 'pt': (), 'de': (),
+    'zh': ('cjk',),
+    'ja': ('cjk', 'kana'),
+    'ru': ('cyr',),
+    'ar': ('ar',),
+    'hi': ('dev',),
+}
+FOREIGN_RX = {
+    'cjk': re.compile('[\u4e00-\u9fff]'),
+    'kana': re.compile('[\u3040-\u30ff]'),
+    'cyr': re.compile('[\u0400-\u04ff]'),
+    'ar': re.compile('[\u0600-\u06ff]'),
+    'dev': re.compile('[\u0900-\u097f]'),
+}
+
+
+def cross_script(article):
+    """译文槽里出现其它文种字符（中/日/韩/西里尔/阿拉伯/天城）的字段。"""
+    out = []
+
+    def visit(node, path):
+        if isinstance(node, dict):
+            for k, v in node.items():
+                if k in SCRIPT_ALLOWED and isinstance(v, str):
+                    allow = SCRIPT_ALLOWED[k]
+                    bad = ''
+                    for name, rx in FOREIGN_RX.items():
+                        if name in allow:
+                            continue
+                        bad += ''.join(rx.findall(v))
+                    if bad:
+                        out.append({'path': path, 'lang': k, 'chars': bad[:12]})
+                else:
+                    visit(v, path + '.' + str(k))
+        elif isinstance(node, list):
+            for i, v in enumerate(node):
+                visit(v, path + '[%d]' % i)
+
+    visit({k: v for k, v in article.items() if k != 'sections'}, '')
+    for i, s in enumerate(article.get('sections', [])):
+        visit(s, 'sections[%d]' % i)
+    return out
+
+
 def missing(article):
     out = []
     for s in article.get('sections', []):
@@ -96,30 +141,36 @@ def missing(article):
 def cmd_status(as_json):
     rows = []
     copies = 0
+    xscript = 0
     for f in sorted(glob.glob(os.path.join(ART, '*.json'))):
         a = json.load(open(f, encoding='utf-8'))
         m = missing(a)
         c = english_copy(a)
-        if m or c:
+        x = cross_script(a)
+        if m or c or x:
             copies += len(c)
+            xscript += len(x)
             rows.append({
                 'slug': a.get('slug'),
                 'date': a.get('date'),
                 'category': a.get('category'),
                 'sections': len(a.get('sections', [])),
                 'missing_sections': len(m),
-                'langs_missing': sorted({l for x in m for l in x['body_missing']}),
+                'langs_missing': sorted({l for x2 in m for l in x2['body_missing']}),
                 'detail': m,
                 'english_copy_fields': len(c),
                 'english_copy': c,
+                'cross_script_fields': len(x),
+                'cross_script': x,
             })
     if as_json:
         print(json.dumps(rows, ensure_ascii=False, indent=2))
         return
-    print('缺语种/英文占位文章: %d 篇，英文占位字段 %d 个' % (len(rows), copies))
-    for r in sorted(rows, key=lambda x: -x['english_copy_fields']):
-        print('  %-58s %2d段 缺: %-24s 英文占位: %d' % (
-            r['slug'][:58], r['sections'], ','.join(r['langs_missing']) or '-', r['english_copy_fields']))
+    print('缺语种/英文占位文章: %d 篇，英文占位字段 %d 个，跨文种残留字段 %d 个' % (len(rows), copies, xscript))
+    for r in sorted(rows, key=lambda x: -(x['english_copy_fields'] + x['cross_script_fields'])):
+        print('  %-58s %2d段 缺: %-24s 英文占位: %d 跨文种: %d' % (
+            r['slug'][:58], r['sections'], ','.join(r['langs_missing']) or '-',
+            r['english_copy_fields'], r['cross_script_fields']))
 
 
 def cmd_init(slug):
