@@ -223,26 +223,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "Q: Can stainless steel bolts be used with galvanized steel?"
+            "en": "Q: Can stainless steel bolts be used with galvanized steel?",
+            "zh": "不锈钢螺栓能和镀锌钢混用吗？"
           },
           "a": {
-            "en": "A: Avoid using stainless steel with galvanized steel in wet environments due to galvanic corrosion. Use stainless steel throughout or separate with plastic washers."
+            "en": "A: Avoid using stainless steel with galvanized steel in wet environments due to galvanic corrosion. Use stainless steel throughout or separate with plastic washers.",
+            "zh": "潮湿环境下避免不锈钢与镀锌钢搭配，会产生电偶腐蚀。要么整组连接件都用不锈钢，要么用塑料垫圈把两者隔开。"
           }
         },
         {
           "q": {
-            "en": "Q: What's the typical lead time from China to Africa?"
+            "en": "Q: What's the typical lead time from China to Africa?",
+            "zh": "中国到非洲的交期一般多久？"
           },
           "a": {
-            "en": "A: Sea freight typically 25-35 days from Chinese ports to major African ports like Durban, Mombasa, or Lagos. Air freight reduces to 5-7 days but costs 3-4x more."
+            "en": "A: Sea freight typically 25-35 days from Chinese ports to major African ports like Durban, Mombasa, or Lagos. Air freight reduces to 5-7 days but costs 3-4x more.",
+            "zh": "海运从中国港口到德班、蒙巴萨、拉各斯等非洲主要港口通常 25–35 天；空运压缩到 5–7 天，但成本是海运的 3–4 倍。"
           }
         },
         {
           "q": {
-            "en": "Q: Are A4 (316) bolts worth the extra cost for coastal projects?"
+            "en": "Q: Are A4 (316) bolts worth the extra cost for coastal projects?",
+            "zh": "沿海项目值得为 A4（316）螺栓加价吗？"
           },
           "a": {
-            "en": "A: Yes—the 20-30% price premium for A4 vs A2 is justified by 3-4x longer service life in coastal environments, reducing replacement costs significantly."
+            "en": "A: Yes—the 20-30% price premium for A4 vs A2 is justified by 3-4x longer service life in coastal environments, reducing replacement costs significantly.",
+            "zh": "值得。A4 相对 A2 有 20–30% 的价格溢价，但在沿海环境使用寿命是后者的 3–4 倍，可显著降低后续更换成本。"
           }
         }
       ]
