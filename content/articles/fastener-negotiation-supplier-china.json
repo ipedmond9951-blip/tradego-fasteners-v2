@@ -128,26 +128,32 @@
    "faqItems": [
     {
      "q": {
-      "en": "What is the best payment term for first-time fastener orders from China?"
+      "en": "What is the best payment term for first-time fastener orders from China?",
+      "zh": "首单用什么付款条件最稳妥？"
      },
      "a": {
-      "en": "For first-time orders, use T/T 30% deposit + 70% against copy of BL (Bill of Lading). This protects the buyer — you only pay the balance when the goods are shipped and you receive proof. Avoid 100% T/T in advance for orders over $5,000. For established suppliers with a track record, you can negotiate T/T 30 days after B/L date."
+      "en": "For first-time orders, use T/T 30% deposit + 70% against copy of BL (Bill of Lading). This protects the buyer — you only pay the balance when the goods are shipped and you receive proof. Avoid 100% T/T in advance for orders over $5,000. For established suppliers with a track record, you can negotiate T/T 30 days after B/L date.",
+      "zh": "首单建议电汇（T/T）30% 定金，凭提单副本付 70% 尾款：货已发出并拿到凭证后再付余款，买方更有保障。金额超过 5,000 美元的订单避免 100% 预付。合作稳定、有业绩记录的供应商，可谈提单日期后 30 天电汇。"
      }
     },
     {
      "q": {
-      "en": "How much discount can I expect when ordering fasteners in full containers?"
+      "en": "How much discount can I expect when ordering fasteners in full containers?",
+      "zh": "整柜订紧固件能拿到多少折扣？"
      },
      "a": {
-      "en": "Full container orders (20ft) typically get 15-25% lower pricing compared to less-than-container-load (LCL) orders. The discount increases with volume commitment — ordering 2-4 containers per order can achieve 20-30% savings. Annual volume commitments (100+ containers/year) can reach 25-40% discount from Chinese factories."
+      "en": "Full container orders (20ft) typically get 15-25% lower pricing compared to less-than-container-load (LCL) orders. The discount increases with volume commitment — ordering 2-4 containers per order can achieve 20-30% savings. Annual volume commitments (100+ containers/year) can reach 25-40% discount from Chinese factories.",
+      "zh": "整柜（20 英尺）订单相比拼箱散货，价格通常低 15–25%。单笔承诺 2–4 个柜，可省 20–30%；年用量 100 柜以上的年度承诺，工厂报价可再低 25–40%。"
      }
     },
     {
      "q": {
-      "en": "What quality certifications should I request from Chinese fastener suppliers?"
+      "en": "What quality certifications should I request from Chinese fastener suppliers?",
+      "zh": "应向供应商索取哪些质量证明？"
      },
      "a": {
-      "en": "Request: (1) Certificate of Origin (COO) for tariff verification; (2) Mill Test Reports (MTR) / Material Certificates showing steel grade and chemical composition; (3) ISO 9001:2015 certificate of the factory; (4) SGS or similar third-party inspection report for quality verification; (5) For specific standards (DIN, ISO, ASTM), request compliance documentation."
+      "en": "Request: (1) Certificate of Origin (COO) for tariff verification; (2) Mill Test Reports (MTR) / Material Certificates showing steel grade and chemical composition; (3) ISO 9001:2015 certificate of the factory; (4) SGS or similar third-party inspection report for quality verification; (5) For specific standards (DIN, ISO, ASTM), request compliance documentation.",
+      "zh": "产地证（COO）用于关税核验；材质证明书（MTR）列明钢号与化学成分；DIN、ISO、ASTM 等对应标准的符合性文件；必要时附 SGS 一类第三方检验报告；工厂体系与认证类文件按订单要求提供。"
      }
     }
    ],
