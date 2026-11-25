@@ -167,42 +167,52 @@
    "faqItems": [
     {
      "q": {
-      "en": "What length threaded rod should I order?"
+      "en": "What length threaded rod should I order?",
+      "zh": "螺杆该订多长？"
      },
      "a": {
-      "en": "Order slightly longer than needed, then cut to exact length on-site. Standard lengths of 1m, 2m, and 3m cover most requirements. For custom lengths, contact TradeGo for availability."
+      "en": "Order slightly longer than needed, then cut to exact length on-site. Standard lengths of 1m, 2m, and 3m cover most requirements. For custom lengths, contact TradeGo for availability.",
+      "zh": "订货略长于实际所需，现场再截到精确长度。标准长度 1 米、2 米、3 米可覆盖多数需求；定尺长度可向供应商确认可供规格。"
      }
     },
     {
      "q": {
-      "en": "Can threaded rod be used for underground mining support?"
+      "en": "Can threaded rod be used for underground mining support?",
+      "zh": "地下矿山支护能用螺杆吗？"
      },
      "a": {
-      "en": "Yes, but use appropriate material for the environment. Hot-dip galvanized or stainless steel for humid underground conditions. Some mining applications require specialized corrosion-resistant coatings."
+      "en": "Yes, but use appropriate material for the environment. Hot-dip galvanized or stainless steel for humid underground conditions. Some mining applications require specialized corrosion-resistant coatings.",
+      "zh": "可以，但要按环境选材料。潮湿井下条件用热浸镀锌（HDG）或不锈钢；部分矿山工况还需要专用耐腐蚀涂层。"
      }
     },
     {
      "q": {
-      "en": "What's the difference between fine thread and coarse thread?"
+      "en": "What's the difference between fine thread and coarse thread?",
+      "zh": "细牙和粗牙有什么区别？"
      },
      "a": {
-      "en": "Coarse thread (standard metric) is easier to assemble and provides better fatigue resistance. Fine thread offers better adjustment precision and higher load capacity in the same diameter."
+      "en": "Coarse thread (standard metric) is easier to assemble and provides better fatigue resistance. Fine thread offers better adjustment precision and higher load capacity in the same diameter.",
+      "zh": "粗牙（标准公制）装配更容易，抗疲劳性能更好；细牙在同一公称直径下调节精度更高、承载能力更大。"
      }
     },
     {
      "q": {
-      "en": "How do I cut threaded rod on site?"
+      "en": "How do I cut threaded rod on site?",
+      "zh": "现场怎么切断螺杆？"
      },
      "a": {
-      "en": "Use a hacksaw with fine-tooth blade, angle grinder with cutting disc, or pipe cutter for smaller diameters. Wear safety glasses and protect threads from debris."
+      "en": "Use a hacksaw with fine-tooth blade, angle grinder with cutting disc, or pipe cutter for smaller diameters. Wear safety glasses and protect threads from debris.",
+      "zh": "可用细齿钢锯、带切割片的角磨机，小直径也可用管子割刀。操作时戴护目镜，并保护螺纹不受碎屑污染。"
      }
     },
     {
      "q": {
-      "en": "Can I weld threaded rod?"
+      "en": "Can I weld threaded rod?",
+      "zh": "螺杆可以焊接吗？"
      },
      "a": {
-      "en": "Carbon steel threaded rod can be welded using appropriate procedures. Remove any plating or coating before welding. Stainless rod requires specialized welding techniques."
+      "en": "Carbon steel threaded rod can be welded using appropriate procedures. Remove any plating or coating before welding. Stainless rod requires specialized welding techniques.",
+      "zh": "碳钢螺杆按相应工艺可以焊接，焊前须去除镀层或涂层；不锈钢螺杆则需要专用焊接工艺。"
      }
     }
    ]
