@@ -280,13 +280,22 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
     datePublished: article.date,
     dateModified: article.updated || article.date,
     image: `https://www.tradego-fasteners.com${article.image}`,
+    // GEO: 给回答引擎一个明确的实体与主题锚点，避免被当成泛泛的"某篇文章"
+    url: `https://www.tradego-fasteners.com/${locale}/industry/${slug}/`,
+    keywords: Array.isArray(article.keywords) ? article.keywords.slice(0, 12) : undefined,
+    about: {
+      '@type': 'Thing',
+      name: categoryLabel(article.category, locale),
+    },
+    isAccessibleForFree: true,
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': `https://www.tradego-fasteners.com/${locale}/industry/${slug}/`,
     },
-    author: { '@type': 'Organization', name: 'TradeGo Fasteners' },
+    author: { '@type': 'Organization', '@id': 'https://www.tradego-fasteners.com/#organization', name: 'TradeGo Fasteners' },
     publisher: {
       '@type': 'Organization',
+      '@id': 'https://www.tradego-fasteners.com/#organization',
       name: 'TradeGo Fasteners',
       logo: {
         '@type': 'ImageObject',
