@@ -175,9 +175,9 @@ python3 scripts/article-claim.py release <slug> <线名>
 |---|---|---|---|---|
 | T0 分词修复 | seo-geo-main | 已完成 | 1 / 1 | en 不变；ru/ar/hi/ja 下调，见 §1 |
 | T1 非英语段落化 | 头条线 | 待开始 | 0 / 8,318 节 | es 先 |
-| T2 定义句 | seo-geo-main | 进行中 | 25 / 39 | en/zh 均 def=1 |
+| T2 定义句 | seo-geo-main | 进行中 | 26 / 39 | en/zh 均 def=1 |
 | T3 标题短写 | 头条线 | 待开始 | 0 / 866 | A 区 39 篇我处理 |
-| T4 en 首段 + H2 问句 | seo-geo-main | 进行中 | 25 / 39 | 12 篇 en 全部 90，zh 89–90 |
+| T4 en 首段 + H2 问句 | seo-geo-main | 进行中 | 26 / 39 | 12 篇 en 全部 90，zh 89–90 |
 | T5 标准/来源 | seo-geo-main | 待开始 | 0 / 39 | |
 | T6 入链 | 待认领 | 待开始 | 0 / 29 + 18 | 两口径分开记 |
 | T7 去重 | seo-geo-main | 待开始 | 0 / A 区相关篇 | |
@@ -201,6 +201,7 @@ python3 scripts/article-claim.py release <slug> <线名>
 - 2026-11-25 23:00 A 区第 18–19 篇：`telecom-tower-fasteners` en 70→100 / zh 75→100、`harare-fastener-distributor-supplier-guide` en 84→90 / zh 74→90。两篇闸门通过、语种 0 污染。A 区累计 19/39，en 全部 ≥90（除洛美 72，卡在 ent 0.7 与 FAQ 26 词）。
 - 2026-11-25 23:20 A 区第 20–22 篇：`ivory-coast-abidjan-port-fastener-tariff` en 55→84 / zh 45→81、`high-strength-bolts-8-8-10-9-12-9-grade-guide` en 40→90 / zh 65→90、`bolt-tightening-torque-guide` en 55→88 / zh 55→90。三篇闸门通过、语种 0 污染。
 - 2026-11-25 23:20 T0 第三阶段（量具）：`geo_audit.ENT` 尾部 `\b` 让 `%` 永不匹配，改正后带百分比的句子计入实体密度；全库 en 平均 62.7→**66.1**、A 档（90+）31 篇。此前"最差 20 篇"与语种均分口径据此刷新，验收线继续用新值。
-- 2026-11-25 23:35 A 区第 23–24 篇：`self-drilling-screws-selection-guide` en 62→90 / zh 65→90、`flat-washers-vs-spring-washers` en 75→90 / zh 65→90。两篇闸门通过、语种 0 污染。A 区累计 24/39，en 均 ≥84（洛美 72 最低）。
-- 2026-11-25 23:55 A 区第 25 篇：`nuts-bolts-glossary-terminology` 整块重构，en 40→100 / zh 65→100（首段 321 词的裸术语表 → 79 词问题式回答；6 节重排、5 节问句标题；zh 清掉 30+ 处字面 `\n\n`；FAQ 0→4 条，答案 en 84 / zh 81 词；meta en 从术语片段改成 149 字符）。闸门 0 BLOCK、语种 0 污染。
+- 2026-11-25 21:00 A 区第 23–24 篇：`self-drilling-screws-selection-guide` en 62→90 / zh 65→90、`flat-washers-vs-spring-washers` en 75→90 / zh 65→90。两篇闸门通过、语种 0 污染。A 区累计 24/39，en 均 ≥84（洛美 72 最低）。
+- 2026-11-25 21:20 A 区第 25 篇：`nuts-bolts-glossary-terminology` 整块重构，en 40→100 / zh 65→100（首段 321 词的裸术语表 → 79 词问题式回答；6 节重排、5 节问句标题；zh 清掉 30+ 处字面 `\n\n`；FAQ 0→4 条，答案 en 84 / zh 81 词；meta en 从术语片段改成 149 字符）。闸门 0 BLOCK、语种 0 污染。
+- 2026-11-25 21:35 A 区第 26 篇：`mozambique-hardware-supplier` 重构，en 60→100 / zh 35→100（4 节→6 节、5 个问句标题；FAQ 答案 33→83 词；删 4 处模板段；zh 540→1367 词）。闸门 0 WARN / 0 BLOCK、语种 0 污染。
 

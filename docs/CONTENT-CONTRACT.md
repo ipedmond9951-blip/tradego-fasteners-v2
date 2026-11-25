@@ -233,3 +233,9 @@ python3 scripts/content_gate.py --slug X # 单篇
 87. **"空节"先判节身份，再决定要不要派人补。** 全库扫出 239 个 0 字符正文，初判是"整节缺失"，逐条核验后发现 **239/239 全是 FAQ 小节**：页面由 `page.tsx` 用 `FAQ_INTRO[locale]` + `section.faqItems` 渲染，body 只在"该语种原生且 ≥60 字"时才输出，所以空 body 是无害的，真正缺的是 `faqItems` 里的该语种问答。**规则：看到空节先看 heading/id 是不是 FAQ（`id=faq` 或各语种"常见问题"），是 FAQ 就转去查 `faqItems` 语种覆盖，别派工去补正文。** 清单：`docs/empty-sections-2026-1125.csv`。
 
 88. **FAQ 语种覆盖是当前最大的 GEO 空白，而且被"native-only"策略放大了。** 全库 1,060 条 FAQ、1,044 条唯一问句（模板复用率低，不是模板病），但 `page.tsx` 只渲染原生问答，缺该语种就整节不输出。实测 **220 篇文章存在语种缺口**（B 区 190），其中 125 篇十语种里只剩 en：zh 131、ru 214、ar 207、es 211、fr 208、de 212、pt 210、ja 195、hi 225 篇缺问答。首页/文章页的 FAQPage 结构化数据在非英语版本上基本是空的——这正是 AI 引擎最爱引用的版块。清单：`docs/faq-native-gap-2026-1125.csv`（slug / faq_items / missing_locales / owner_zone）。补齐顺序：zh → ja → ru/ar，其余按 GSC 曝光排；补写时按英文 5 条逐条译，不套用通用问答。
+
+92. **国家商业页的病灶是"同一句模板复制到多处"，不是段落质量。** 莫桑比克页 1615 词里有 4 处跨语种复制的模板段（"本采购框架适用于…"、"Supplier evaluation should be…"、"The verification checklist applies to…"），删掉后 en 从 60 分变 100 分，字数只掉了 200。**规则：整块重写前先 `grep -c` 每句的首 8 个词，出现 ≥2 次的句子整句删；这类页按读者决策顺序重排（选港→运费单证→按项目配货→内陆→考察供应商→FAQ），不要逐段润色。**
+93. **正文里出现字面 `undefined` 会被 dirty-text 闸门抓。** 写"只写工艺不写厚度，等于把厚度留成 undefined"，被报 `WARN [dirty-text]`。**规则：想表达"未定义"就写 open to interpretation / 留给对方决定，不要直接借用程序词。**
+94. **多语种 `faqItems` 扩写要逐项 update，不能整体重建列表。** 该页 faqItems 只有 en/pt/ja 三语种，若新建列表写 en/zh，pt/ja 会整批消失。**规则：`old_faq = list(fq["faqItems"])` 后按下标取原 dict，只覆写 `q["en"]/q["zh"]/a["en"]/a["zh"]`；改完核对 `list(x["q"].keys())`。**
+95. **中文正文的实体密度靠 M 规格，不靠中文单位。** 写"镀层 40 至 85 微米、起步量 500 公斤"一个都不计数（ENT 只认 mm/MPa/kg 这类拉丁单位和 M 规格），补"M10、M12、M16、M20、M24"后 zh ent 2.3→10.2。**规则：中文段里至少留一串 M 规格或带符号的数值。**
+
