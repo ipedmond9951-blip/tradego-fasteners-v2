@@ -304,4 +304,6 @@ bash scripts/vercel-audit.sh           # 第 9–13 项必须绿
 
 **已收口**：正文/CTA 的品牌写法 185 处已全部统一为 `TradeGo` / `TradeGo Fasteners`（复扫残留 0）；`china-iso-9001-fastener-manufacturer-directory` 已改题为质量体系指南，不再承诺名录。认证表述体检脚本 `scripts/check-cert-claims.py` 已并入闸门候选。
 
+**口径定稿（2026-11-25，用户拍板）**：`china-iso-9001-fastener-manufacturer-directory` 的定位是「认证按订单办理」，既不是「名录」也不是「质量体系指南」。已落地的改动面：10 语种标题（en `China Fastener Suppliers: Certification by Order`／zh「中国紧固件供应商：认证按订单办理」）与 metaDescription 全重写；§2 公司段 10 语种改为「2004 年成立于河北，按 ISO/DIN 与 SABS 1195 生产，ISO 9001／CE／SABS 证书按订单要求办理，周期与费用随报价说明」；§5 CTA 首句 10 语种去掉 verified ISO 9001 manufacturer；§6 en/pt 的「ISO 9001 名录」框架句改为 supplier list；`keywords` 去掉 `ISO 9001 certified`；顺带修掉该文 zh 的 §1／§3／§4／§5 共 4 处字面 `\n`（原先整段粘成一行）。slug 不变，URL 与内链不失效。闸门：`content_gate --slug` 0 BLOCK 0 WARN、`check-body-lang` 0 污染、`geo_audit` 90 分（echo 0、FAQ 4、实体密度 12.6）。
+
 > 下一版触发条件：批次 0 上线完成，或 GSC 新数据与基线偏差 >20%。
