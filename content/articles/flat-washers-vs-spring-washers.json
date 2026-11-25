@@ -202,8 +202,8 @@
             "zh": "螺母是否总应搭配弹簧垫圈？"
           },
           "a": {
-            "en": "No. For static loads with no vibration, a flat washer alone is sufficient. Spring washers are only needed when vibration or dynamic loading is expected. Overuse of spring washers adds cost without benefit.",
-            "zh": "不是。对于无振动的静态载荷，仅用平垫圈即可。弹簧垫圈仅在预期有振动或动态载荷时需要。过度使用弹簧垫圈增加成本而无益处。"
+            "en": "No. For static loads with no vibration, a flat washer alone is sufficient. Spring washers are only needed when vibration or dynamic loading is expected. Overuse of spring washers adds cost without benefit. Typical static joints are steel structure connections, furniture fixing and general machinery under steady load; there a spring washer can seat unevenly and mark a finished surface rather than help. Before choosing, list the load type, any vibration source, joint relaxation from gaskets or timber, and the surface finish to protect. A common misjudgment is putting a spring washer on every bolt out of habit. Work from the preload, joint stiffness and load direction: on coated or soft surfaces, use a flat washer to spread the clamp load and shield the finish. Reserve the spring washer for joints where movement or vibration is genuinely expected.",
+            "zh": "不是。对于无振动的静态载荷，仅用平垫圈即可。弹簧垫圈仅在预期有振动或动态载荷时需要。过度使用弹簧垫圈增加成本而无益处。典型的静态接头包括钢结构连接、家具固定与稳态载荷下的一般机械；这类场合弹垫反而可能承压不均，并在精加工表面留下压痕。选型前先列出载荷类型、振源、垫片或木材引起的接头松弛，以及需要保护的表面涂层。常见误判是出于习惯给每个螺栓都配弹垫。应按预紧力、接头刚度与载荷方向判断：涂层件或软表面用平垫分散夹紧力、保护面层；只有在确有活动或振动的接头上才保留弹垫。"
           }
         },
         {
@@ -212,8 +212,8 @@
             "zh": "可以叠加多个弹簧垫圈增加锁紧力吗？"
           },
           "a": {
-            "en": "Stacking spring washers is not recommended. It does not proportionally increase locking force and can create uneven bearing surfaces. Instead, use a more effective locking method such as a Nord-Lock washer or prevailing torque nut.",
-            "zh": "不推荐叠加弹簧垫圈。它不会成比例增加锁紧力，还可能造成不均匀承压面。应使用更有效的锁紧方法如Nord-Lock垫圈或施力螺母。"
+            "en": "Stacking spring washers is not recommended. It does not proportionally increase locking force and can create uneven bearing surfaces. Instead, use a more effective locking method such as a Nord-Lock washer or prevailing torque nut. A split washer relies on a single elastic lift; stacked washers bind against one another, the spring rate changes, contact height becomes uneven, and the faces fret together. Under clamp load the stack often flattens into a solid ring. For real dynamic duty, choose one reliable method by condition: wedge-locking washers, a nylon insert lock nut, a prevailing torque nut, thread-locking adhesive or lock wire. Do not pile several weak devices onto one joint; recheck torque at the first service interval. Field failures are almost always stacked washers that collapsed and left the joint free to rotate.",
+            "zh": "不推荐叠加弹簧垫圈。它不会成比例增加锁紧力，还可能造成不均匀承压面。应使用更有效的锁紧方法如Nord-Lock垫圈或施力螺母。开口弹垫靠单次弹性回弹工作；多层叠放时互相咬死，弹性刚度改变，接触高度不平，叠合面之间还会发生微动磨损。在夹紧力下，整叠往往被压成实心环。真正有动态载荷的场合，按工况选一种可靠方式：楔形锁紧垫圈、尼龙嵌件锁紧螺母、施力螺母、螺纹锁固胶或锁丝。不要在同一个接头上叠加多个薄弱方案；装配后在首次保养间隔复检扭矩。现场见到的失效案例，几乎都是叠层垫圈压塌后，接头随即失去防松能力。"
           }
         },
         {
@@ -222,8 +222,8 @@
             "zh": "平垫能做而弹垫做不到的是什么？"
           },
           "a": {
-            "en": "A flat washer spreads the clamp load over a larger area, protects the surface finish and bridges oversized or slotted holes. A spring washer only adds a small friction torque; it does not increase the bearing area or the joint's fatigue life.",
-            "zh": "平垫把夹紧力分散到更大面积、保护表面涂层、并可跨越超大孔或长圆孔。弹垫只提供很小的摩擦阻力矩，既不增大承压面积，也不改善接头疲劳寿命。"
+            "en": "A flat washer spreads the clamp load over a larger area, protects the surface finish and bridges oversized or slotted holes. A spring washer only adds a small friction torque; it does not increase the bearing area or the joint's fatigue life. Pick the outside diameter so bearing pressure stays below what soft aluminium, plastic or coated panels can take, and match thickness and series to the hole; hardness should match the bolt class. The split gap leaves a point contact that can dimple soft surfaces. On receipt, check ID and OD, thickness, flatness, burrs and hardness against the drawing. Match the washer to bolt diameter and hole size, and use the oversized series for slotted or elongated holes. The washer sits in the load path between fastener and part, so its contact face is what the joint depends on.",
+            "zh": "平垫把夹紧力分散到更大面积、保护表面涂层、并可跨越超大孔或长圆孔。弹垫只提供很小的摩擦阻力矩，既不增大承压面积，也不改善接头疲劳寿命。外径要按软铝、塑料或涂层板能承受的承压压力选取，厚度与系列按被跨接的孔径匹配，硬度与螺栓等级对应。弹垫的开口间隙形成点接触，容易在软表面压出凹痕。收货时对照图纸检查内外径、厚度、平整度、毛刺与硬度。垫圈与螺栓直径、孔径相匹配，长圆孔或腰形孔使用加大系列。垫圈处在紧固件与工件之间的传力路径上，接头依赖的正是它的贴合面。"
           }
         },
         {
@@ -232,8 +232,8 @@
             "zh": "弹垫防振松真的可靠吗？"
           },
           "a": {
-            "en": "Only marginally. Tests show split spring washers lose preload quickly under transverse vibration. For real dynamic duty use thread-locking adhesive, nylon-insert lock nuts, or wedge-lock washers, and keep enough preload in the joint.",
-            "zh": "作用有限。试验表明开口弹垫在横向振动下很快失去预紧力。真正有动态载荷的场合应用螺纹锁固胶、尼龙嵌件锁紧螺母或楔形防松垫圈，并保证接头有足够预紧力。"
+            "en": "Only marginally. Tests show split spring washers lose preload quickly under transverse vibration. For real dynamic duty use thread-locking adhesive, nylon-insert lock nuts, or wedge-lock washers, and keep enough preload in the joint. Loosening starts with transverse slip, which rotates the bolt faster than axial unloading; the washer ends bite locally but cannot stop rotation once slip begins. In fastening vibration practice, mechanical locking is paired with controlled preload, not chosen instead of it. Rank the options this way: establish sufficient preload first, then add the locking device, and set a re-torque interval. Watch for washer fracture under fatigue, a flattened ring and fretting corrosion at the contact faces. A frequent misjudgment is applying adhesive without cleaning the threads; degrease first, and inspect the joint after the initial run-in period.",
+            "zh": "作用有限。试验表明开口弹垫在横向振动下很快失去预紧力。真正有动态载荷的场合应用螺纹锁固胶、尼龙嵌件锁紧螺母或楔形防松垫圈，并保证接头有足够预紧力。松动始于横向滑移，它比轴向卸荷更容易让螺栓转动；弹垫端部只能局部咬合，滑移一旦开始便无法阻止转动。在紧固件振动实践中，机械锁紧要与可控预紧配合，而不是用来替代预紧。方案排序如下：先建立足够预紧，再加锁紧装置，并设定复紧周期。需要留意的失效有疲劳断裂、垫圈压平、贴合面微动腐蚀。常见误判是螺纹不清洁就上胶；应先脱脂处理，并在初始磨合期之后检查一次接头。"
           }
         },
         {
@@ -242,8 +242,8 @@
             "zh": "平垫的标准和硬度怎么指定？"
           },
           "a": {
-            "en": "ISO 7089/7090 cover standard and chamfered washers, ISO 7093 the oversized series for slotted holes. Hardness must match the bolt class: 200 HV for 8.8 and below, 300 HV for 10.9, otherwise the washer deforms and preload is lost.",
-            "zh": "ISO 7089/7090 为标准与倒角平垫，ISO 7093 为长圆孔用加大系列。硬度要与螺栓等级匹配：8.8 及以下配 200 HV，10.9 配 300 HV，否则垫圈被压陷、预紧力损失。"
+            "en": "ISO 7089/7090 cover standard and chamfered washers, ISO 7093 the oversized series for slotted holes. Hardness must match the bolt class: 200 HV for 8.8 and below, 300 HV for 10.9, otherwise the washer deforms and preload is lost. Choose narrow, regular or oversized series by the actual hole diameter, and state material on the enquiry: carbon steel zinc-plated for general duty, A2 or A4 stainless in corrosive duty. Thickness follows the diameter range, hardness confirmed by a batch test report. On receipt, check ID and OD, thickness, chamfer, flatness and coating thickness. A hard bolt paired with a soft washer is the classic mismatch: the washer dents under load and clamp force drops. Put the standard and class on enquiry and mill certificate; documents are prepared per order rather than held in advance.",
+            "zh": "ISO 7089/7090 为标准与倒角平垫，ISO 7093 为长圆孔用加大系列。硬度要与螺栓等级匹配：8.8 及以下配 200 HV，10.9 配 300 HV，否则垫圈被压陷、预紧力损失。窄系列、普通系列与加大系列按实际孔径选择，询价时写明材质：一般工况用碳钢镀锌，有真实腐蚀暴露的场合用 A2 或 A4 不锈钢。厚度随直径区间选取，硬度以批次检测报告确认。收货时检查内外径、厚度、倒角、平整度与镀层厚度。硬螺栓配软垫圈是典型错配：载荷下垫圈压陷，夹紧力随之下降。标准号与性能等级同时写进询价与材质书；符合性文件按订单要求办理，不在发货前预先持有。"
           }
         }
       ]
