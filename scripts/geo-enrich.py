@@ -12,7 +12,7 @@
 
 用法：python3 scripts/geo-enrich.py [--apply] [--slug S]
 """
-import argparse, glob, json, os, re
+import argparse, subprocess, glob, json, os, re
 
 TAG = re.compile(r'<[^>]+>')
 PRODUCTS_TS = 'src/lib/products.ts'
@@ -87,8 +87,14 @@ def main():
     slugs_ok = product_slugs()
     pool = source_pool()
     files = [f'content/articles/{args.slug}.json'] if args.slug else sorted(glob.glob('content/articles/*.json'))
+    dirty = set()
+    out = subprocess.run(['git', 'status', '--porcelain', '--', 'content/articles'], capture_output=True, text=True).stdout
+    dirty = {l[3:].strip() for l in out.splitlines() if l.strip()}
+
     n_link = n_src = n_skip = 0
     for p in files:
+        if p in dirty:
+            continue
         a = json.load(open(p))
         changed = False
         # 1) 内链
