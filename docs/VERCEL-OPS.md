@@ -394,3 +394,13 @@ curl -s "https://api.vercel.com/v4/aliases?limit=100" -H "Authorization: Bearer 
 - **处置**：不改写历史（rebase 会打断另一条流水线），改为在审计层面留痕 + 提高未来可见性。
 - **新增护栏**：`.githooks/pre-commit` 在"同时暂存 content/ 与 src|scripts|docs 且总数 ≥4"时打跨领域混合告警，提示改用 `git commit -- <paths>` 只提交自己的文件，并写入 `logs/vercel-bulk-commit.log`（只告警不阻断，避免打断合法的跨领域提交）。
 - **约定**：每个 agent 提交时用路径限定（`git commit -- <本轮改的路径>`），不要 `git add -A`；发现别人的在途改动就留在工作区，不替它提交。
+
+## 夜间自动推送（2026-11-25 加）
+
+当日构建预算触顶后，`pre-push` 会拒绝推送，白天不再消耗预算。夜间窗口由 launchd 兜住：
+
+- 任务：`com.agentops.content-push`（`~/Library/LaunchAgents/`），脚本 `~/AgentOps/bin/content-push.sh`，`StartInterval 600`。
+- 门控：只在 Asia/Shanghai `00` 点窗口动作；当日成功后写 `~/AgentOps/state/content-push-<日期>.done`，同一天不会重复推。
+- 顺序：契约校验（BLOCK>0 即停）→ `contract_selftest.py`（失败即停）→ `git push origin main` → `vercel-promote.sh --apply` → `vercel-audit.sh`，结果写 `~/AgentOps/logs/content-push.log` 并弹桌面通知。
+- 失败重试：推送成功后才写 marker，所以 00 点窗口内失败每 10 分钟重试一次；出了窗口自动停，等第二天。
+- 手动放行单次：`FORCE=1 bash ~/AgentOps/bin/content-push.sh`（会跳过时间门控，其余护栏不变）。
