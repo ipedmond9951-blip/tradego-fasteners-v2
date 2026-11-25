@@ -403,41 +403,49 @@
     {
      "q": {
       "en": "Can I paint over galvanized fasteners?",
-      "zh": "镀锌件表面可以再刷漆吗？"
+      "zh": "镀锌件表面可以再刷漆吗？",
+      "hi": "क्या गैल्वनाइज़्ड फ़ास्टनर्स पर पेंट किया जा सकता है?"
      },
      "a": {
       "en": "Yes, but proper surface preparation is essential. Use a zinc chromate or etching primer designed for galvanized surfaces. Standard primers will peel within months due to zinc's self-healing properties preventing adhesion.",
-      "zh": "可以，但基面处理必须到位。要选用专为镀锌面设计的锌铬底漆或蚀刻底漆。普通底漆附着不住，几个月内就会起皮，原因是锌层的自修复特性会阻碍漆膜附着力。"
+      "zh": "可以，但基面处理必须到位。要选用专为镀锌面设计的锌铬底漆或蚀刻底漆。普通底漆附着不住，几个月内就会起皮，原因是锌层的自修复特性会阻碍漆膜附着力。",
+      "hi": "किया जा सकता है, पर सतह की तैयारी ज़रूरी है। गैल्वनाइज़्ड सतह के लिए ज़िंक क्रोमेट या एचिंग प्राइमर इस्तेमाल करें; साधारण प्राइमर महीनों में उड़ जाता है, क्योंकि ज़िंक का आत्म-सुधार गुण चिपकाव में बाधा डालता है।"
      }
     },
     {
      "q": {
       "en": "Why do stainless bolts sometimes rust?",
-      "zh": "不锈钢螺栓为什么有时也会生锈？"
+      "zh": "不锈钢螺栓为什么有时也会生锈？",
+      "hi": "स्टेनलेस बोल्ट पर कभी-कभी जंग क्यों लगती है?"
      },
      "a": {
       "en": "Surface contamination (iron particles from manufacturing or installation) can create rust spots on stainless steel. This is not the stainless itself corroding — it's embedded iron rusting. Clean with passivation solution (nitric acid) or specialized stainless cleaner.",
-      "zh": "表面污染（制造或安装带来的铁屑颗粒）会在不锈钢表面形成锈点。这不是不锈钢本体锈蚀，而是嵌入的铁在生锈。可用钝化液（硝酸）或专用不锈钢清洁剂清理。"
+      "zh": "表面污染（制造或安装带来的铁屑颗粒）会在不锈钢表面形成锈点。这不是不锈钢本体锈蚀，而是嵌入的铁在生锈。可用钝化液（硝酸）或专用不锈钢清洁剂清理。",
+      "hi": "विनिर्माण या लगाने के दौरान लगे लोहे के कण जैसी सतह गंदगी से जंग के धब्बे पड़ जाते हैं। यह स्टेनलेस का अपना संक्षारण नहीं, बल्कि धँसे लोहे की जंग है। पासिवेशन घोल (नाइट्रिक एसिड) या विशेष स्टेनलेस क्लीनर से साफ़ करें।"
      }
     },
     {
      "q": {
       "en": "Is hot-dip galvanizing safe for high-strength bolts?",
-      "zh": "高强度螺栓能做热浸镀锌吗？"
+      "zh": "高强度螺栓能做热浸镀锌吗？",
+      "hi": "हाई-स्ट्रेंथ बोल्ट पर हॉट-डिप गैल्वनाइज़िंग सुरक्षित है?"
      },
      "a": {
       "en": "For Grade 8.8 and below: yes. For Grade 10.9: proceed with caution — HDG temperatures (450°C) can affect heat treatment. For Grade 12.9: never hot-dip galvanize — use mechanical galvanizing instead.",
-      "zh": "8.8 级及以下可以；10.9 级要谨慎，热浸镀锌（HDG）温度约 450 摄氏度，会影响热处理组织；12.9 级绝不能热浸镀锌，改用机械镀锌。"
+      "zh": "8.8 级及以下可以；10.9 级要谨慎，热浸镀锌（HDG）温度约 450 摄氏度，会影响热处理组织；12.9 级绝不能热浸镀锌，改用机械镀锌。",
+      "hi": "ग्रेड 8.8 और इससे नीचे के लिए हाँ। ग्रेड 10.9 में सावधानी बरतें: HDG का 450°C ताप गर्मी उपचार को प्रभावित कर सकता है। ग्रेड 12.9 पर कभी हॉट-डिप गैल्वनाइज़िंग न करें; इसके बजाय मैकेनिकल गैल्वनाइज़िंग इस्तेमाल करें।"
      }
     },
     {
      "q": {
       "en": "How do I specify the right galvanizing thickness?",
-      "zh": "镀锌层厚度怎么标注？"
+      "zh": "镀锌层厚度怎么标注？",
+      "hi": "गैल्वनाइज़िंग मोटाई कैसे तय करें?"
      },
      "a": {
       "en": "Use the ISO 10684 standard designations: Z275 (275g/m², ~40μm) for general outdoor, Z600 (600g/m², ~85μm) for coastal/marine-adjacent. Always specify by zinc weight (g/m²), not just 'galvanized'.",
-      "zh": "按 ISO 10684 代号标注：Z275（275 克每平方米，约 40 微米）用于一般户外；Z600（600 克每平方米，约 85 微米）用于沿海或近海洋环境。订货要按锌层重量写明，不能只写“镀锌”。"
+      "zh": "按 ISO 10684 代号标注：Z275（275 克每平方米，约 40 微米）用于一般户外；Z600（600 克每平方米，约 85 微米）用于沿海或近海洋环境。订货要按锌层重量写明，不能只写“镀锌”。",
+      "hi": "ISO 10684 पदनाम इस्तेमाल करें: सामान्य बाहरी काम के लिए Z275 (275 g/m², लगभग 40 μm), तटीय व समुद्र निकट के लिए Z600 (600 g/m², लगभग 85 μm)। सिर्फ़ \"गैल्वनाइज़्ड\" लिखने के बजाय ज़िंक भार (g/m²) से मोटाई बताएँ।"
      }
     }
    ],
