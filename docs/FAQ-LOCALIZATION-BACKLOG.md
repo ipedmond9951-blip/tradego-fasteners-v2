@@ -321,3 +321,10 @@
 - **孤儿小标题清理只能作用于本轮改过的字段**：对整篇做「短行+冒号」清洗，会把 `Major Markets:`、`Free Zone:` 这类正常小标题一起删掉（nigeria 一篇 46 个字段被误伤，已 revert 重做）。正确姿势是先把本轮改动的 section id 列出来，只在这些 section 上清。
 - **fail-closed 触发多的字段要手写**：案例成效、物流费、中文纯价格表这三类，脚本命中率低于一半，硬改必然腰斩；直接整段手写 10 语种更省事也更可控。
 - 收口数据：价格语义上下文 **415 → 0**，全库金额 2 619 → **2 218 处 / 51 篇**，content_gate 完全干净 **227 篇（86%）**、0 BLOCK；扩写队列 787 → **901**（清完金额，真实语种缺口又露出来）。
+
+### 翻译前的第一道闸：模板填充物检测（668ea647）
+
+- 扩写队列 901 条时先抽样看英文原文，发现大量小节是生成器模板：`A project in the fastener industry encountered quality / manufacturing defect issues…`、`Standards-based procurement requires continuous learning…`、同一段话在同一字段里重复两遍、案例里没有任何真实项目/规格/时间。
+- 新增 `scripts/check-template-filler.py`：三条判据（模板句指纹 / 同字段长句重复 ≥40 字 / 未替换占位符），按小节打分，≥50% 判为「模板文」。结果 **37 篇 / 156 节**命中，`africa-railway-modernization-fastener-demand` 属其中最典型的一篇（英文 5/7 节是模板）。
+- `build-locale-backlog.py` 改为跳过模板文（`logs/template-filler.json` 缺失时现跑检测，`logs/` 不入库）：队列 **901 → 604**。**不先做这道闸，翻译等于把垃圾 ×10 语种复制一遍，还把队列数字做得很"努力"。**
+- 本批同时把 `fastener-coating-systems-guide` 的中文整篇补齐（6 节 500-1600 字），顺手删掉英文里的模板尾巴（采购框架段/标准学习段/比价方法论段），只译有信息量的部分。
