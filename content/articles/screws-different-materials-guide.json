@@ -194,42 +194,52 @@
    "faqItems": [
     {
      "q": {
-      "en": "What's the difference between wood screws and drywall screws?"
+      "en": "What's the difference between wood screws and drywall screws?",
+      "zh": "木螺丝和干墙螺钉有什么区别？"
      },
      "a": {
-      "en": "Drywall screws have fine threads for holding drywall to steel or wood studs. They are brittle and can snap under stress. Wood screws have coarse threads for wood-to-wood connections and are more ductile."
+      "en": "Drywall screws have fine threads for holding drywall to steel or wood studs. They are brittle and can snap under stress. Wood screws have coarse threads for wood-to-wood connections and are more ductile.",
+      "zh": "干墙螺钉牙距细，用于把石膏板固定到钢龙骨或木龙骨上，但材质偏脆，受力时容易折断；木螺丝牙距粗，用于木材之间连接，塑性更好、不易脆断。"
      }
     },
     {
      "q": {
-      "en": "Can I use wood screws in metal?"
+      "en": "Can I use wood screws in metal?",
+      "zh": "木螺丝能拧进金属吗？"
      },
      "a": {
-      "en": "No - wood screws are not designed for metal. Use machine screws or self-tapping screws for metal connections."
+      "en": "No - wood screws are not designed for metal. Use machine screws or self-tapping screws for metal connections.",
+      "zh": "不能。木螺丝不是为金属连接设计的，金属连接应改用机螺钉或自攻螺钉，否则螺纹咬合不足，容易滑牙或脱出。"
      }
     },
     {
      "q": {
-      "en": "What size pilot hole for wood screws?"
+      "en": "What size pilot hole for wood screws?",
+      "zh": "木螺丝的导向孔钻多大？"
      },
      "a": {
-      "en": "Match the hole to the screw's core diameter (before threads). For hard woods, use a slightly smaller hole. For soft woods, the full core diameter is fine."
+      "en": "Match the hole to the screw's core diameter (before threads). For hard woods, use a slightly smaller hole. For soft woods, the full core diameter is fine.",
+      "zh": "孔径与螺钉芯径（螺纹之前的杆径）对应。硬木可略钻小一点；软木按芯径钻即可。导向孔过小会把木材撑裂，过大则握钉力不够。"
      }
     },
     {
      "q": {
-      "en": "How do I anchor into brick instead of concrete?"
+      "en": "How do I anchor into brick instead of concrete?",
+      "zh": "砖墙用什么锚栓代替混凝土锚栓？"
      },
      "a": {
-      "en": "Use sleeve anchors or brick anchors specifically rated for masonry. Standard concrete anchors may not hold in brick. Check that your anchor is approved for the specific brick type."
+      "en": "Use sleeve anchors or brick anchors specifically rated for masonry. Standard concrete anchors may not hold in brick. Check that your anchor is approved for the specific brick type.",
+      "zh": "用专门评定过砌体适用范围的套管锚栓或砖墙锚栓。普通混凝土锚栓在砖墙上未必锚固得住；选用前要确认锚栓适用于所砌砖的具体类型。"
      }
     },
     {
      "q": {
-      "en": "What's the best screw for outdoor decking in Africa?"
+      "en": "What's the best screw for outdoor decking in Africa?",
+      "zh": "非洲户外露台用哪种螺钉最好？"
      },
      "a": {
-      "en": "Stainless steel (A4/316) deck screws or hot-dip galvanized screws. Coarse thread for hardwoods. Spacing should account for wood movement with humidity changes."
+      "en": "Stainless steel (A4/316) deck screws or hot-dip galvanized screws. Coarse thread for hardwoods. Spacing should account for wood movement with humidity changes.",
+      "zh": "选不锈钢（A4/316）露台螺钉或热浸镀锌螺钉；硬木用粗牙。钉距布置要考虑木材随湿度变化的胀缩，预留伸缩余量。"
      }
     }
    ]
