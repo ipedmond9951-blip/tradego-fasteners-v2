@@ -262,26 +262,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "Why do duplex nails have two heads?"
+            "en": "Why do duplex nails have two heads?",
+            "zh": "双头钉为什么有两个钉头？"
           },
           "a": {
-            "en": "The upper head lets the nail be pulled out without damaging the timber, which is what makes reusable formwork and scaffold boards practical. The lower head does the holding during the pour."
+            "en": "The upper head lets the nail be pulled out without damaging the timber, which is what makes reusable formwork and scaffold boards practical. The lower head does the holding during the pour.",
+            "zh": "上钉头方便把钉子拔出而不伤木材，模板和脚手板才能反复使用；下钉头在浇筑期间负责抱紧固定。"
           }
         },
         {
           "q": {
-            "en": "What sizes are used for formwork and scaffold boards?"
+            "en": "What sizes are used for formwork and scaffold boards?",
+            "zh": "模板和脚手板各用多大规格？"
           },
           "a": {
-            "en": "Lengths typically run 50 to 90 mm with diameters around 3 to 4.5 mm. Scaffold board fixings use the longer end of that range, thin formwork panels the shorter."
+            "en": "Lengths typically run 50 to 90 mm with diameters around 3 to 4.5 mm. Scaffold board fixings use the longer end of that range, thin formwork panels the shorter.",
+            "zh": "长度通常 50–90 mm，直径约 3–4.5 mm。脚手板固定取该范围的较长规格，薄模板取较短规格。"
           }
         },
         {
           "q": {
-            "en": "How many times can they be reused?"
+            "en": "How many times can they be reused?",
+            "zh": "双头钉能重复用多少次？"
           },
           "a": {
-            "en": "A few cycles in practice - reuse ends when the lower head deforms, the shank bends or the point dulls. Counting cycles per site is more reliable than assuming a fixed number."
+            "en": "A few cycles in practice - reuse ends when the lower head deforms, the shank bends or the point dulls. Counting cycles per site is more reliable than assuming a fixed number.",
+            "zh": "实际能周转的次数有限：下钉头变形、钉身弯曲或钉尖变钝就该报废。按现场实际周转次数逐批清点，比假设固定次数更可靠。"
           }
         }
       ]
