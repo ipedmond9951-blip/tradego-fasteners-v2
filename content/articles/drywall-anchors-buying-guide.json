@@ -210,26 +210,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "What load can a drywall anchor realistically carry?"
+            "en": "What load can a drywall anchor realistically carry?",
+            "zh": "干墙锚实际能承重多少？"
           },
           "a": {
-            "en": "Light items - pictures, small shelves, fittings - in the range of a few kilograms per anchor in sound board. Anything heavier should reach a stud or use a rated anchor with a published test value for the board type."
+            "en": "Light items - pictures, small shelves, fittings - in the range of a few kilograms per anchor in sound board. Anything heavier should reach a stud or use a rated anchor with a published test value for the board type.",
+            "zh": "在完好的板材上，挂画、小搁板、挂件这类轻物品，每个锚栓一般只能承受几公斤。更重的物件应固定到木龙骨上，或选用有针对该板种发布测试值的额定锚栓，不要凭经验估重。"
           }
         },
         {
           "q": {
-            "en": "Which three anchor types will I be quoted?"
+            "en": "Which three anchor types will I be quoted?",
+            "zh": "报价时常见哪三种锚栓？"
           },
           "a": {
-            "en": "Self-drilling anchors that cut their own hole, plugs that need a pre-drilled hole, and toggles that spread load behind the board. The board thickness decides which one works, not the price."
+            "en": "Self-drilling anchors that cut their own hole, plugs that need a pre-drilled hole, and toggles that spread load behind the board. The board thickness decides which one works, not the price.",
+            "zh": "自钻式锚栓，自己切孔；膨胀塞，需要先钻孔；Toggle 式飞机胀塞，在板后张开分散受力。选哪一种取决于板厚，而不是价格高低。"
           }
         },
         {
           "q": {
-            "en": "How do I fit an anchor so it holds?"
+            "en": "How do I fit an anchor so it holds?",
+            "zh": "怎么装才能让锚栓不松脱？"
           },
           "a": {
-            "en": "Match the anchor to the board thickness, drive or drill without tearing the paper face, and stop at the marked depth. Over-driving crushes the board core, which is the usual reason an anchor spins loose a week later."
+            "en": "Match the anchor to the board thickness, drive or drill without tearing the paper face, and stop at the marked depth. Over-driving crushes the board core, which is the usual reason an anchor spins loose a week later.",
+            "zh": "锚栓要与板厚匹配，打入或钻孔时不要撕破纸面，并在标记深度处停手。拧得过深会压碎板芯，这通常就是锚栓一周后自己打转松脱的原因。"
           }
         }
       ]
