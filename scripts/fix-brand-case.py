@@ -21,24 +21,18 @@ URLISH = re.compile(r'(https?://|www\.|href=|src=|tradego-fasteners\.com)')
 
 
 def fix_text(s):
-    """返回 (新串, 替换数)；含 URL 的段跳过。"""
-    if URLISH.search(s):
-        # 逐段处理：把 URL 片段保护起来，只改普通文本
-        parts = re.split(r'(https?://[^\s"<\'>]*|/en/[^\s"<\'>]*|tradego-fasteners\.com)', s)
-        n = 0
-        out = []
-        for p in parts:
-            if URLISH.search(p):
-                out.append(p)
-                continue
-            p2, k = PAT_MULTI.subn('TradeGo Fasteners', p)
-            p2, k2 = PAT_SOLO.subn('TradeGo', p2)
-            n += k + k2
-            out.append(p2)
-        return ''.join(out), n
-    s2, k = PAT_MULTI.subn('TradeGo Fasteners', s)
-    s2, k2 = PAT_SOLO.subn('TradeGo', s2)
-    return s2, k + k2
+    """按空白切成 token，逐个替换；含 URL 标记的 token 整段跳过。"""
+    n = 0
+    out = []
+    for tok in re.split(r'(\s+)', s):
+        if any(m in tok for m in ('://', '/en/', 'href=', 'src=', 'tradego-fasteners.com')):
+            out.append(tok)
+            continue
+        t2, k = PAT_MULTI.subn('TradeGo Fasteners', tok)
+        t2, k2 = PAT_SOLO.subn('TradeGo', t2)
+        n += k + k2
+        out.append(t2)
+    return ''.join(out), n
 
 
 def walk(node):
