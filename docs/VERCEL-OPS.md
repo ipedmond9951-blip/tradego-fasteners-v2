@@ -252,3 +252,4 @@ bash scripts/vercel-guard.sh            # 立刻跑一次，确认环境合规
 | 2026-11-25 | 本文档 v1.0 + `vercel-guard.sh` 落地 | 规范需要可执行，而非口头约定 |
 | 2026-11-25 | 新增 `vercel-audit.sh`（事后检测）+ 每日 08:30 定时审计 | 钩子可被 `--no-verify` 绕过，需要独立检测层 |
 | 2026-11-25 | 平台层 Deployment Sources 设为"生产仅 Git"，CLI/REST/v0/Hook/Marketplace 全部关闭 | 让"只能 git push"成为平台事实，而非约定 |
+| 2026-11-25 | Project Settings → Build and Deployment → Deployment Retention Policy：Production 部署 **30 days → 1 week** | 该设置只有天数粒度、没有"保留 N 条"字段；条数由 deploy-flush 后的 prune 控制（3 条），天数策略只作长尾兜底。1 week 给足一周回滚窗口，最长堆积 7 条 |

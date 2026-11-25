@@ -56,6 +56,7 @@ out = []
 for x in d.get("deployments", []):
     m = x.get("meta") or {}
     out.append({
+        "uid": x.get("uid"),
         "url": x.get("url"),
         "source": x.get("source"),
         "state": x.get("state"),
@@ -134,20 +135,16 @@ else
 fi
 [ "$HEAD_SHA" != "$ORIGIN_SHA" ] && say "  ⚠️  本地 HEAD ${HEAD_SHA:0:8} 领先 origin/main，有未推送提交"
 
-UNTRACKED=$(printf '%s' "$DATA" | python3 -c '
-import json,sys,subprocess
-ds=json.load(sys.stdin)
-bad=[]
-for d in ds:
-    sha=d.get("sha_full") or ""
-    if not sha: continue
-    rc=subprocess.run(["git","cat-file","-e",sha],capture_output=True).returncode
-    if rc!=0: bad.append(sha[:8])
-print(len(bad))
-for b in bad[:5]: print("OUT", b)
-')
-UB=$(echo "$UNTRACKED" | sed -n 1p)
-[ "$UB" -eq 0 ] && pass "所有线上部署的 commit 都存在于本地 git 历史" || issue "有 $UB 条部署的 commit 不在本地 git 历史（疑似未推送代码上线）"
+# 构建失败要单独报：线上不是"没部署"，而是"部署挂了"
+FAILED=$(printf '%s' "$DATA" | python3 -c 'import json,sys;ds=json.load(sys.stdin);bad=[d for d in ds if d.get("state")=="ERROR"];print(json.dumps(bad[0]) if bad else "")')
+if [ -n "$FAILED" ]; then
+  FUID=$(printf '%s' "$FAILED" | python3 -c 'import json,sys;print(json.load(sys.stdin).get("uid",""))')
+  FSHA=$(printf '%s' "$FAILED" | python3 -c 'import json,sys;print(json.load(sys.stdin).get("sha_full","")[:8])')
+  ECODE=$(bash "$ROOT/scripts/_vercel-deploy-error.sh" "$FUID" 2>/dev/null || true)
+  if [ "$FSHA" != "${LATEST_SHA:0:8}" ]; then
+    issue "最新部署 ${FSHA} 构建失败（${ECODE:-unknown}），线上仍是 ${LATEST_SHA:0:8}；修 forward 后重推，别用 CLI 绕"
+  fi
+fi
 
 # --- 6. Lambda 尺寸 ---
 URL=$(printf '%s' "$LIVE" | python3 -c 'import json,sys;d=json.load(sys.stdin);print(d.get("url",""))')
