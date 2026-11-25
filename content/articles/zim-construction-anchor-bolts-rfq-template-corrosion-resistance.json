@@ -123,7 +123,7 @@
         "pt": "Proteção contra Corrosão: Opções de Galvanização a Quente e Aço Inoxidável",
         "ru": "Защита от коррозии: Варианты горячего цинкования и нержавеющей стали",
         "ja": "腐食保護：溶融亜鉛めっきとステンレス鋼のオプション",
-        "de": "Corrosion Protection: Hot-Dip Galvanizing and Stainless Steel Options",
+        "de": "Korrosionsschutz: Feuerverzinkung und Edelstahl-Optionen",
         "hi": "संक्षारण सुरक्षा: हॉट-डिप गैल्वनाइजिंग और स्टेनलेस स्टील विकल्प"
       },
       "body": {
@@ -147,10 +147,10 @@
         "es": "Regulaciones de Importación y Aranceles Preferenciales SADC",
         "ar": "اللوائح الاستيرادية والتعريفات التفضيلية لتجمع جنوب أفريقيا للتنمية",
         "fr": "Réglementation des importations et tarifs préférentiels de la SADC",
-        "pt": "Import Regulations and SADC Preferential Tariffs",
+        "pt": "Regulamentos de importação e tarifas preferenciais da SADC",
         "ru": "Импортные правила и преференциальные тарифы САДК",
-        "ja": "輸入規則とSADC特恵関税",
-        "de": "Import Regulations and SADC Preferential Tariffs",
+        "ja": "輸入規制とSADC域内特恵関税",
+        "de": "Importvorschriften und Präferenzzölle der SADC",
         "hi": "आयात नियम और SADC प्राथमिकता शुल्क"
       },
       "body": {
@@ -174,10 +174,10 @@
         "es": "Plantilla de RFQ para pernos de anclaje resistentes a la corrosión",
         "ar": "نموذج طلب عروض أسعار لمسامير المرساة المقاومة للتآكل",
         "fr": "Modèle de RFQ pour boulons d'ancrage résistants à la corrosion",
-        "pt": "RFQ Template for Corrosion-Resistant Anchor Bolts",
+        "pt": "Modelo de RFQ para parafusos de ancoragem resistentes à corrosão",
         "ru": "Шаблон RFQ для коррозионностойких анкерных болтов",
         "ja": "耐食アンカーボルトの RFQ テンプレート",
-        "de": "RFQ Template for Corrosion-Resistant Anchor Bolts",
+        "de": "RFQ-Vorlage für korrosionsbeständige Ankerbolzen",
         "hi": "जंग-रोधी एंकर बोल्ट के लिए RFQ टेम्पलेट"
       },
       "body": {
@@ -292,5 +292,6 @@
     "zim-construction-u-bolts-supplier-evaluation-galvanic-corrosion",
     "zim-construction-anchor-bolts-lifecycle-cost-salt-spray",
     "zim-construction-threaded-rods-supplier-evaluation-cost-optimization"
-  ]
+  ],
+  "updated": "2026-11-24"
 }

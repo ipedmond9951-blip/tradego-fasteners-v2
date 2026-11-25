@@ -96,3 +96,11 @@
 - 最严重两篇：`mozambique-lng-construction-fasteners-maputo`（60 字段，ar/ru/ja/hi 全篇英文）、`lobito-corridor-railway-fastener-procurement`（56 字段，2026-11-21 新文，ar/ru/ja/hi 近全篇英文）。
 - 处理约定：这两篇由我直写译文；其余按清单派给组织方并行补；`verify` 的 `english-copy` 属必须修为 0 的硬缺陷（length-ratio 仍按噪声处理）。
 
+
+## 2026-11-25 追加三：英文占位清零，检测口径收紧
+
+- `english_copy()` 判定升级：新增「与 en 相似度 >0.95 且长度≥30」「非拉丁语种目标字符占比 <15%」「占位符（. / … / • 单字符重复）」「错语种（槽位里出现其它文种字母）」四类信号；同时排除 `Conclusion`、`Contacter TradeGo Fasteners` 这类与英文本就同形的法/英词。
+- 依此口径全库重扫，新增暴露两类此前漏检的缺陷：(1) es/fr/pt/de 的 **442 个小标题** 仍是英文（早期只本地化了 ar/ja/ru/hi）；(2) ja/ar/ru/hi 里 67 个小标题是「本地化前缀 + 英文标题题目」的半成品。
+- 处理：小标题改为「本地化前缀 + 该语种原生文章标题」组合（Introduction/Comparison/FAQ/Case/Standards…），固定小标题走词表；正文缺失与占位符（`...`、`....`、`...Hindi translation...`）逐篇直写译文，共补 15 段正文（含 tunisia 日语两段全篇重译、zimbabwe 阿拉伯语结论段重写、gaskets/washer 俄语三段的污染原文重写）。
+- 结果：`python3 scripts/body_i18n.py status` → **0 篇 / 0 字段**，`BACKLOG-untranslated.json` 置空。
+- 已知残留（非本类缺陷，另行处理）：es/fr/pt/de 的「部分英文混写」正文（相似度低于阈值，检测不到）；length-ratio 仍按噪声处理。
