@@ -156,31 +156,37 @@
     {
      "q": {
       "en": "Can I use a stainless nut on a carbon steel bolt?",
-      "zh": "不锈钢螺母可以和碳钢螺栓一起用吗？"
+      "zh": "不锈钢螺母可以和碳钢螺栓一起用吗？",
+      "hi": "क्या कार्बन स्टील बोल्ट पर स्टेनलेस नट लगा सकते हैं?"
      },
      "a": {
       "en": "Yes, but be aware of galvanic corrosion in wet environments—the stainless nut on a carbon steel bolt creates a galvanic couple. In dry conditions this is acceptable.",
-      "zh": "可以，但要注意潮湿环境中的电偶腐蚀——不锈钢螺母和碳钢螺栓会产生电偶对。"
+      "zh": "可以，但要注意潮湿环境中的电偶腐蚀——不锈钢螺母和碳钢螺栓会产生电偶对。",
+      "hi": "लगा सकते हैं, लेकिन नम वातावरण में गैल्वेनिक जंग का ध्यान रखें — कार्बन स्टील बोल्ट पर स्टेनलेस नट गैल्वेनिक जोड़ बनाता है। सूखी परिस्थितियों में यह संयोजन चलता है।"
      }
     },
     {
      "q": {
       "en": "What is proof load for hex nuts?",
-      "zh": "六角螺母的保证载荷是什么？"
+      "zh": "六角螺母的保证载荷是什么？",
+      "hi": "हेक्स नट का प्रूफ लोड क्या है?"
      },
      "a": {
       "en": "Proof load is the maximum load a nut can withstand without thread stripping. For A4-80 (316 stainless), proof load is 800 MPa × stress area = the load at which permanent deformation occurs.",
-      "zh": "保证载荷是螺母在螺纹剥离前能承受的最大载荷。对于A4-80（316不锈钢），保证载荷是800 MPa × 应力面积。"
+      "zh": "保证载荷是螺母在螺纹剥离前能承受的最大载荷。对于A4-80（316不锈钢），保证载荷是800 MPa × 应力面积。",
+      "hi": "प्रूफ लोड वह अधिकतम भार है जिसे नट धागा खुरचे बिना सहन कर लेता है। A4-80 (316 स्टेनलेस) में प्रूफ लोड 800 MPa × स्ट्रेस एरिया होता है; यह वह भार है जिस पर स्थायी विकृति शुरू हो जाती है।"
      }
     },
     {
      "q": {
       "en": "Which stainless grade for coastal or chemical exposure?",
-      "zh": "沿海或化工环境选哪种不锈钢牌号？"
+      "zh": "沿海或化工环境选哪种不锈钢牌号？",
+      "hi": "तटीय या रासायनिक वातावरण के लिए कौन-सा ग्रेड लें?"
      },
      "a": {
       "en": "A4/316 for chloride, marine and most chemical service, A2/304 for general outdoor and food-adjacent work. The grade on the nut must match the bolt, otherwise the couple accelerates corrosion at the joint.",
-      "zh": "含氯、海洋及多数化工场合用 A4/316；一般户外和近食品场合用 A2/304。螺母牌号必须与螺栓匹配，否则异质材料在连接副处会加速节点腐蚀。"
+      "zh": "含氯、海洋及多数化工场合用 A4/316；一般户外和近食品场合用 A2/304。螺母牌号必须与螺栓匹配，否则异质材料在连接副处会加速节点腐蚀。",
+      "hi": "क्लोराइड, समुद्री और ज्यादातर रासायनिक काम के लिए A4/316, सामान्य बाहरी और खाद्य-संलग्न काम के लिए A2/304। नट का ग्रेड बोल्ट से मेल खाना चाहिए, वरना यह जोड़ जंग की रफ्तार बढ़ा देता है।"
      }
     }
    ],
