@@ -41,7 +41,7 @@ try:
     data = json.load(urllib.request.urlopen(req, timeout=15))
     tz = datetime.timezone(datetime.timedelta(hours=8))
     today_start = datetime.datetime.now(tz).replace(hour=0, minute=0, second=0, microsecond=0).timestamp()
-    api_count = sum(1 for d in data.get('deployments', []) if d['createdAt'] / 1000 >= today_start)
+    api_count = sum(1 for d in data.get('deployments', []) if d['createdAt'] / 1000 >= today_start and d.get('state') != 'CANCELED')  # ignoreCommand 跳过的记录不占预算
 except Exception as e:
     print('⚠️ 读 Vercel 部署数失败(%s), 回退本地台账' % type(e).__name__)
 

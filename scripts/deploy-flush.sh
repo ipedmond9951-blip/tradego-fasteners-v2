@@ -58,8 +58,36 @@ fi
 
 echo "$LOG_PREFIX 待推送提交: $UNPUSHED 个"
 
+# 只改 docs/scripts 等非构建路径时, vercel.json 的 ignoreCommand 会跳过构建 →
+# 不产生新部署、不占部署预算。按真实构建计数, 而不是按 push 次数。
+WILL_BUILD=1
+[ -z "$(git diff --name-only origin/main..HEAD -- content src public next.config.ts package.json 2>/dev/null)" ] && WILL_BUILD=0
+
 if [ "$FORCE" -eq 0 ]; then
-  if ! bash scripts/deploy-budget.sh; then
+  if [ "$WILL_BUILD" -eq 0 ]; then
+    COUNT_FILE="logs/deploy-pushless.json"
+    PUSHES=$(python3 -c "
+import json,os,time
+p='$COUNT_FILE'
+try: d=json.load(open(p))
+except Exception: d={}
+today=time.strftime('%Y-%m-%d')
+print(d['count'] if d.get('date')==today else 0)
+")
+    if [ "$PUSHES" -ge 5 ]; then
+      echo "$LOG_PREFIX ⏸ 今日无构建推送已达 5 次，先停手（避免刷屏部署记录）"
+      exit 0
+    fi
+    echo "$LOG_PREFIX 本次仅 docs/scripts 改动，ignoreCommand 会跳过构建，不占部署预算（今日无构建推送 ${PUSHES}/5）"
+    python3 -c "
+import json,time
+p='$COUNT_FILE'; today=time.strftime('%Y-%m-%d')
+try: d=json.load(open(p))
+except Exception: d={}
+d={'date':today,'count':(d.get('count',0) if d.get('date')==today else 0)+1}
+json.dump(d,open(p,'w'),ensure_ascii=False)
+"
+  elif ! bash scripts/deploy-budget.sh; then
     echo "$LOG_PREFIX ⏸ 今日部署预算已用完，$UNPUSHED 个提交保留在本地，等下一个部署窗口或人工 --force"
     exit 0
   fi
