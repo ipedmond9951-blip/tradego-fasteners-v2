@@ -172,7 +172,7 @@ git push origin main 2>&1 | tee -a "$LOG_FILE" | tail -2
 # Vercel deploy with --force
 # ============================================
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] 🚀 Vercel deploy..." | tee -a "$LOG_FILE"
-DEPLOY_OUT=$(timeout 240 npx vercel --prod --yes --force 2>&1)
+DEPLOY_OUT=$(timeout 240 bash "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/_deny-direct-deploy.sh" --yes --force 2>&1)
 echo "$DEPLOY_OUT" | tee -a "$LOG_FILE" | tail -5
 
 DEPLOY_URL=$(echo "$DEPLOY_OUT" | grep -oE 'https://tradego-fasteners-[a-z0-9]+-ipedmond9951-8331s-projects\.vercel\.app' | head -1)

@@ -159,7 +159,7 @@ else
       [ -n "$url" ] && npx vercel rm "$url" --yes 2>&1 | tail -1
     done
   fi
-  npx vercel --prod --yes 2>&1 | tail -5 | tee -a "$LOG_FILE"
+  bash "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/_deny-direct-deploy.sh" --yes 2>&1 | tail -5 | tee -a "$LOG_FILE"
   log "${GREEN}✅ Deploy initiated${NC}"
 fi
 

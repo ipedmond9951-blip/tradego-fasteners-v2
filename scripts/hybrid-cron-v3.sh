@@ -191,7 +191,7 @@ run_one_article() {
     DEPLOYED=false
     for attempt in 1 2 3; do
       log "  Deploy attempt $attempt/3:"
-      DEPLOY_OUTPUT=$(npx vercel --prod --force --yes 2>&1 | tail -20)
+      DEPLOY_OUTPUT=$(bash "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/_deny-direct-deploy.sh" --force --yes 2>&1 | tail -20)
       echo "$DEPLOY_OUTPUT" | tee -a "$LOG_FILE"
       if echo "$DEPLOY_OUTPUT" | grep -qE "(Production|Aliased|✅)"; then
         DEPLOYED=true
@@ -233,7 +233,7 @@ run_one_article() {
     python3 "$SCRIPTS_DIR/hybrid-auto-fix.py" "$article_file" 2>&1 | tail -3 | tee -a "$LOG_FILE"
 
     if [ "$SKIP_DEPLOY" != "true" ]; then
-      npx vercel --prod --force --yes 2>&1 | tail -5 | tee -a "$LOG_FILE"
+      bash "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/_deny-direct-deploy.sh" --force --yes 2>&1 | tail -5 | tee -a "$LOG_FILE"
       sleep 90
     fi
 

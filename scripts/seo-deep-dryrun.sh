@@ -486,7 +486,7 @@ log "📤 Pushing to main..."
 git push origin main 2>&1 | tail -2
 
 log "🚀 Deploying to Vercel..."
-DEPLOY_OUT=$(timeout 180 npx vercel --prod --yes --force 2>&1 | tail -5)
+DEPLOY_OUT=$(timeout 180 bash "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/_deny-direct-deploy.sh" --yes --force 2>&1 | tail -5)
 echo "$DEPLOY_OUT"
 
 # 提取部署 URL

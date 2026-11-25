@@ -96,7 +96,7 @@ rollback_to() {
     
     # 7. 部署到Vercel（强制清除缓存）
     echo_color "\n🚀 部署到Vercel（强制清除缓存）..." "$YELLOW"
-    npx vercel --prod --force
+    bash "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/_deny-direct-deploy.sh" --force
     
     # 8. 清理临时分支
     git branch -D "$temp_branch" 2>/dev/null || true

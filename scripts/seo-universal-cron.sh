@@ -234,7 +234,7 @@ if [ "$SKIP_DEPLOY" = false ] && [ "$DRY_RUN" = false ]; then
         log "   ✅ Build successful"
         
         log "   Deploying to Vercel (--force)..."
-        npx vercel --prod --force 2>&1 | tail -5 | tee -a "$SEO_LOG"
+        bash "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/_deny-direct-deploy.sh" --force 2>&1 | tail -5 | tee -a "$SEO_LOG"
     else
         log "   ❌ Build failed, skipping deploy"
     fi

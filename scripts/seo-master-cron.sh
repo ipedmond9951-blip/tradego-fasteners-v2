@@ -310,7 +310,7 @@ elif [ "$NEW_COUNT" -gt 0 ] || [ "$OPTIMIZED_COUNT" -gt 0 ]; then
   fi
   
   log "🚀 部署..."
-  if npx vercel --prod --force 2>&1 | tail -5; then
+  if bash "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/_deny-direct-deploy.sh" --force 2>&1 | tail -5; then
     log "✅ 部署完成"
   else
     log "⚠️ 部署可能失败, 检查 vercel ls"

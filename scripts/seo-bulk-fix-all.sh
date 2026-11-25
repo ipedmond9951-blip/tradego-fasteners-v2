@@ -211,7 +211,7 @@ if [ "$DEPLOY" = true ] && [ "$DRY_RUN" = false ]; then
     echo "🚀 Building & deploying..."
     cd "$PROJECT_DIR"
     npm run build 2>&1 | tail -3
-    npx vercel --prod --force 2>&1 | tail -3
+    bash "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/_deny-direct-deploy.sh" --force 2>&1 | tail -3
 fi
 
 echo ""
