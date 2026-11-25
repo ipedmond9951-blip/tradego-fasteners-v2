@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-25T16:13:31+08:00",
- "total": 582,
+ "generated": "2026-11-25T16:43:50+08:00",
+ "total": 641,
  "items": [
   {
    "slug": "africa-railway-modernization-fastener-demand",
@@ -1412,6 +1412,48 @@
    ]
   },
   {
+   "slug": "roofing-screws-vs-ibr-nails",
+   "lang": "zh",
+   "coverage": 0.0,
+   "sections": 7,
+   "missing": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "slug": "roofing-screws-vs-ibr-nails",
+   "lang": "ar",
+   "coverage": 0.0,
+   "sections": 7,
+   "missing": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "slug": "roofing-screws-vs-ibr-nails",
+   "lang": "ja",
+   "coverage": 0.0,
+   "sections": 7,
+   "missing": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
    "slug": "zim-construction-anchor-bolts-lifecycle-cost-salt-spray",
    "lang": "ja",
    "coverage": 0.0,
@@ -2680,6 +2722,20 @@
    ]
   },
   {
+   "slug": "hex-bolt-dimensions-chart",
+   "lang": "ar",
+   "coverage": 0.14,
+   "sections": 7,
+   "missing": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
    "slug": "kenya-east-africa-fastener-distribution-hub",
    "lang": "es",
    "coverage": 0.14,
@@ -2733,6 +2789,20 @@
     3,
     4,
     6
+   ]
+  },
+  {
+   "slug": "lag-screws-timber-connections",
+   "lang": "ja",
+   "coverage": 0.14,
+   "sections": 7,
+   "missing": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
    ]
   },
   {
@@ -3183,6 +3253,32 @@
    ]
   },
   {
+   "slug": "industrial-washers-flat-spring-lock-guide",
+   "lang": "ar",
+   "coverage": 0.17,
+   "sections": 6,
+   "missing": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "slug": "industrial-washers-flat-spring-lock-guide",
+   "lang": "ja",
+   "coverage": 0.17,
+   "sections": 6,
+   "missing": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
    "slug": "marine-grade-fastener-selection-guide",
    "lang": "zh",
    "coverage": 0.17,
@@ -3222,6 +3318,19 @@
    ]
   },
   {
+   "slug": "roofing-screws-vs-ibr-nails",
+   "lang": "hi",
+   "coverage": 0.17,
+   "sections": 7,
+   "missing": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
    "slug": "screws-different-materials-guide",
    "lang": "zh",
    "coverage": 0.17,
@@ -3232,6 +3341,19 @@
     2,
     3,
     5
+   ]
+  },
+  {
+   "slug": "self-tapping-sheet-metal-screws",
+   "lang": "ar",
+   "coverage": 0.17,
+   "sections": 6,
+   "missing": [
+    0,
+    1,
+    2,
+    3,
+    4
    ]
   },
   {
@@ -3258,6 +3380,32 @@
     2,
     3,
     5
+   ]
+  },
+  {
+   "slug": "structural-steel-connections-guide",
+   "lang": "ar",
+   "coverage": 0.17,
+   "sections": 6,
+   "missing": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "slug": "structural-steel-connections-guide",
+   "lang": "ja",
+   "coverage": 0.17,
+   "sections": 6,
+   "missing": [
+    0,
+    1,
+    2,
+    3,
+    4
    ]
   },
   {
@@ -3443,6 +3591,18 @@
    ]
   },
   {
+   "slug": "automotive-fasteners-guide",
+   "lang": "ar",
+   "coverage": 0.2,
+   "sections": 5,
+   "missing": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
    "slug": "egypt-fastener-market-complete-guide",
    "lang": "es",
    "coverage": 0.2,
@@ -3515,6 +3675,18 @@
    ]
   },
   {
+   "slug": "roofing-screws-epdm-washer-guide",
+   "lang": "zh",
+   "coverage": 0.2,
+   "sections": 5,
+   "missing": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
    "slug": "senegal-fastener-market-complete-guide",
    "lang": "es",
    "coverage": 0.2,
@@ -3565,6 +3737,18 @@
   {
    "slug": "senegal-fastener-market",
    "lang": "es",
+   "coverage": 0.2,
+   "sections": 5,
+   "missing": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "slug": "set-screws-dowel-pins-guide",
+   "lang": "ar",
    "coverage": 0.2,
    "sections": 5,
    "missing": [
@@ -3653,6 +3837,34 @@
     8,
     9,
     10
+   ]
+  },
+  {
+   "slug": "self-drilling-screws-selection-guide",
+   "lang": "ar",
+   "coverage": 0.25,
+   "sections": 8,
+   "missing": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "slug": "self-drilling-screws-selection-guide",
+   "lang": "ja",
+   "coverage": 0.25,
+   "sections": 8,
+   "missing": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6
    ]
   },
   {
@@ -3900,6 +4112,19 @@
    ]
   },
   {
+   "slug": "fastener-quality-inspection-guide",
+   "lang": "ar",
+   "coverage": 0.29,
+   "sections": 7,
+   "missing": [
+    0,
+    1,
+    3,
+    4,
+    5
+   ]
+  },
+  {
    "slug": "food-beverage-fastener-hygiene-standards",
    "lang": "ar",
    "coverage": 0.29,
@@ -3988,6 +4213,19 @@
     3,
     4,
     5
+   ]
+  },
+  {
+   "slug": "hex-bolt-dimensions-chart",
+   "lang": "ja",
+   "coverage": 0.29,
+   "sections": 7,
+   "missing": [
+    0,
+    1,
+    2,
+    3,
+    4
    ]
   },
   {
@@ -4519,6 +4757,18 @@
    ]
   },
   {
+   "slug": "nuts-bolts-glossary-terminology",
+   "lang": "ar",
+   "coverage": 0.33,
+   "sections": 6,
+   "missing": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
    "slug": "offshore-fasteners-fire-protection-and-certification",
    "lang": "pt",
    "coverage": 0.33,
@@ -4588,6 +4838,42 @@
     2,
     3,
     4
+   ]
+  },
+  {
+   "slug": "roofing-screws-vs-ibr-nails",
+   "lang": "pt",
+   "coverage": 0.33,
+   "sections": 7,
+   "missing": [
+    0,
+    1,
+    2,
+    5
+   ]
+  },
+  {
+   "slug": "socket-head-cap-screws-guide",
+   "lang": "ar",
+   "coverage": 0.33,
+   "sections": 6,
+   "missing": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "slug": "socket-head-cap-screws-guide",
+   "lang": "ja",
+   "coverage": 0.33,
+   "sections": 6,
+   "missing": [
+    0,
+    1,
+    2,
+    3
    ]
   },
   {
@@ -4832,6 +5118,17 @@
    ]
   },
   {
+   "slug": "automotive-commercial-vehicle-fasteners",
+   "lang": "zh",
+   "coverage": 0.4,
+   "sections": 5,
+   "missing": [
+    1,
+    3,
+    4
+   ]
+  },
+  {
    "slug": "cameroon-fastener-market-complete-guide",
    "lang": "ja",
    "coverage": 0.4,
@@ -4931,17 +5228,6 @@
    ]
   },
   {
-   "slug": "roofing-screws-epdm-washer-guide",
-   "lang": "zh",
-   "coverage": 0.4,
-   "sections": 5,
-   "missing": [
-    0,
-    1,
-    2
-   ]
-  },
-  {
    "slug": "senegal-fastener-market",
    "lang": "fr",
    "coverage": 0.4,
@@ -4950,6 +5236,17 @@
     0,
     1,
     3
+   ]
+  },
+  {
+   "slug": "set-screws-dowel-pins-guide",
+   "lang": "zh",
+   "coverage": 0.4,
+   "sections": 5,
+   "missing": [
+    1,
+    3,
+    4
    ]
   },
   {
@@ -5053,6 +5350,18 @@
    ]
   },
   {
+   "slug": "lag-screws-timber-connections",
+   "lang": "ar",
+   "coverage": 0.43,
+   "sections": 7,
+   "missing": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
    "slug": "mozambique-fastener-market-case-study",
    "lang": "zh",
    "coverage": 0.43,
@@ -5114,6 +5423,18 @@
     2,
     3,
     9
+   ]
+  },
+  {
+   "slug": "self-drilling-screws-selection-guide",
+   "lang": "hi",
+   "coverage": 0.5,
+   "sections": 8,
+   "missing": [
+    2,
+    3,
+    4,
+    6
    ]
   },
   {
@@ -5601,6 +5922,28 @@
    ]
   },
   {
+   "slug": "roofing-screws-vs-ibr-nails",
+   "lang": "es",
+   "coverage": 0.5,
+   "sections": 7,
+   "missing": [
+    0,
+    1,
+    5
+   ]
+  },
+  {
+   "slug": "self-tapping-sheet-metal-screws",
+   "lang": "pt",
+   "coverage": 0.5,
+   "sections": 6,
+   "missing": [
+    1,
+    3,
+    4
+   ]
+  },
+  {
    "slug": "south-africa-sabs-fastener-import-requirements",
    "lang": "fr",
    "coverage": 0.5,
@@ -5651,6 +5994,17 @@
    "sections": 6,
    "missing": [
     1,
+    3,
+    4
+   ]
+  },
+  {
+   "slug": "structural-heavy-duty-bolts-building-guide",
+   "lang": "ja",
+   "coverage": 0.5,
+   "sections": 6,
+   "missing": [
+    2,
     3,
     4
    ]
@@ -5952,6 +6306,16 @@
    ]
   },
   {
+   "slug": "botswana-fastener-supplier",
+   "lang": "ar",
+   "coverage": 0.5,
+   "sections": 4,
+   "missing": [
+    0,
+    1
+   ]
+  },
+  {
    "slug": "fastener-cost-analysis-template",
    "lang": "zh",
    "coverage": 0.5,
@@ -5979,6 +6343,39 @@
    "missing": [
     0,
     1
+   ]
+  },
+  {
+   "slug": "hex-bolt-dimensions-chart",
+   "lang": "hi",
+   "coverage": 0.57,
+   "sections": 7,
+   "missing": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "slug": "lag-screws-timber-connections",
+   "lang": "zh",
+   "coverage": 0.57,
+   "sections": 7,
+   "missing": [
+    3,
+    5,
+    6
+   ]
+  },
+  {
+   "slug": "lag-screws-timber-connections",
+   "lang": "hi",
+   "coverage": 0.57,
+   "sections": 7,
+   "missing": [
+    1,
+    2,
+    4
    ]
   },
   {
@@ -6247,6 +6644,46 @@
    ]
   },
   {
+   "slug": "zinc-plated-vs-galvanized",
+   "lang": "es",
+   "coverage": 0.6,
+   "sections": 5,
+   "missing": [
+    3,
+    4
+   ]
+  },
+  {
+   "slug": "zinc-plated-vs-galvanized",
+   "lang": "fr",
+   "coverage": 0.6,
+   "sections": 5,
+   "missing": [
+    3,
+    4
+   ]
+  },
+  {
+   "slug": "zinc-plated-vs-galvanized",
+   "lang": "pt",
+   "coverage": 0.6,
+   "sections": 5,
+   "missing": [
+    3,
+    4
+   ]
+  },
+  {
+   "slug": "zinc-plated-vs-galvanized",
+   "lang": "de",
+   "coverage": 0.6,
+   "sections": 5,
+   "missing": [
+    3,
+    4
+   ]
+  },
+  {
    "slug": "africa-informal-construction-fastener-demand",
    "lang": "zh",
    "coverage": 0.67,
@@ -6287,6 +6724,16 @@
    ]
   },
   {
+   "slug": "conveyor-belt-fasteners",
+   "lang": "zh",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    4,
+    5
+   ]
+  },
+  {
    "slug": "fastener-preload-torque-calculation-methods",
    "lang": "ar",
    "coverage": 0.67,
@@ -6317,6 +6764,16 @@
    ]
   },
   {
+   "slug": "mining-equipment-fasteners-zambia-southafrica",
+   "lang": "zh",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    4,
+    5
+   ]
+  },
+  {
    "slug": "nigeria-fastener-market-guide",
    "lang": "zh",
    "coverage": 0.67,
@@ -6324,6 +6781,16 @@
    "missing": [
     1,
     5
+   ]
+  },
+  {
+   "slug": "nuts-bolts-glossary-terminology",
+   "lang": "ja",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    1,
+    3
    ]
   },
   {
@@ -6347,6 +6814,46 @@
    ]
   },
   {
+   "slug": "roofing-screws-vs-ibr-nails",
+   "lang": "fr",
+   "coverage": 0.67,
+   "sections": 7,
+   "missing": [
+    0,
+    5
+   ]
+  },
+  {
+   "slug": "roofing-screws-vs-ibr-nails",
+   "lang": "de",
+   "coverage": 0.67,
+   "sections": 7,
+   "missing": [
+    0,
+    5
+   ]
+  },
+  {
+   "slug": "self-tapping-sheet-metal-screws",
+   "lang": "ru",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    1,
+    4
+   ]
+  },
+  {
+   "slug": "socket-head-cap-screws-guide",
+   "lang": "hi",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    2,
+    3
+   ]
+  },
+  {
    "slug": "south-africa-sabs-fastener-import-requirements",
    "lang": "ar",
    "coverage": 0.67,
@@ -6364,6 +6871,116 @@
    "missing": [
     1,
     3
+   ]
+  },
+  {
+   "slug": "structural-heavy-duty-bolts-building-guide",
+   "lang": "es",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    4,
+    5
+   ]
+  },
+  {
+   "slug": "structural-heavy-duty-bolts-building-guide",
+   "lang": "ar",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    1,
+    4
+   ]
+  },
+  {
+   "slug": "structural-heavy-duty-bolts-building-guide",
+   "lang": "fr",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    4,
+    5
+   ]
+  },
+  {
+   "slug": "structural-heavy-duty-bolts-building-guide",
+   "lang": "pt",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    4,
+    5
+   ]
+  },
+  {
+   "slug": "structural-heavy-duty-bolts-building-guide",
+   "lang": "de",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    4,
+    5
+   ]
+  },
+  {
+   "slug": "structural-steel-connections-guide",
+   "lang": "hi",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    0,
+    2
+   ]
+  },
+  {
+   "slug": "telecom-tower-fasteners",
+   "lang": "zh",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    4,
+    5
+   ]
+  },
+  {
+   "slug": "telecom-tower-fasteners",
+   "lang": "es",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    4,
+    5
+   ]
+  },
+  {
+   "slug": "telecom-tower-fasteners",
+   "lang": "fr",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    4,
+    5
+   ]
+  },
+  {
+   "slug": "telecom-tower-fasteners",
+   "lang": "pt",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    4,
+    5
+   ]
+  },
+  {
+   "slug": "telecom-tower-fasteners",
+   "lang": "de",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    4,
+    5
    ]
   },
   {
@@ -6443,6 +7060,16 @@
    ]
   },
   {
+   "slug": "concrete-screws-anchors-guide",
+   "lang": "zh",
+   "coverage": 0.71,
+   "sections": 7,
+   "missing": [
+    5,
+    6
+   ]
+  },
+  {
    "slug": "din-iso-fastener-standards-guide",
    "lang": "zh",
    "coverage": 0.71,
@@ -6473,6 +7100,16 @@
    ]
   },
   {
+   "slug": "fender-washers-simplate-washers",
+   "lang": "zh",
+   "coverage": 0.71,
+   "sections": 7,
+   "missing": [
+    5,
+    6
+   ]
+  },
+  {
    "slug": "harare-fastener-distributor-supplier-guide",
    "lang": "zh",
    "coverage": 0.71,
@@ -6494,12 +7131,12 @@
   },
   {
    "slug": "lag-screws-timber-connections",
-   "lang": "zh",
+   "lang": "de",
    "coverage": 0.71,
    "sections": 7,
    "missing": [
     3,
-    6
+    4
    ]
   },
   {
@@ -6569,16 +7206,6 @@
    "sections": 7,
    "missing": [
     1,
-    6
-   ]
-  },
-  {
-   "slug": "southern-africa-fastener-market-southafrica-botswana",
-   "lang": "zh",
-   "coverage": 0.71,
-   "sections": 7,
-   "missing": [
-    5,
     6
    ]
   },
@@ -6693,6 +7320,26 @@
    ]
   },
   {
+   "slug": "self-drilling-screws-selection-guide",
+   "lang": "es",
+   "coverage": 0.75,
+   "sections": 8,
+   "missing": [
+    2,
+    6
+   ]
+  },
+  {
+   "slug": "self-drilling-screws-selection-guide",
+   "lang": "pt",
+   "coverage": 0.75,
+   "sections": 8,
+   "missing": [
+    2,
+    6
+   ]
+  },
+  {
    "slug": "south-africa-fastener-market-case-study",
    "lang": "zh",
    "coverage": 0.75,
@@ -6710,6 +7357,15 @@
    "missing": [
     4,
     7
+   ]
+  },
+  {
+   "slug": "botswana-fastener-supplier",
+   "lang": "ja",
+   "coverage": 0.75,
+   "sections": 4,
+   "missing": [
+    0
    ]
   },
   {
@@ -7133,6 +7789,16 @@
    "sections": 4,
    "missing": [
     3
+   ]
+  },
+  {
+   "slug": "ibr-roofing-nails-installation-guide",
+   "lang": "zh",
+   "coverage": 0.78,
+   "sections": 9,
+   "missing": [
+    7,
+    8
    ]
   }
  ]
