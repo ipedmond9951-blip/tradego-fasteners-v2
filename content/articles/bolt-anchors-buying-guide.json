@@ -262,26 +262,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "How do I choose the diameter for a base plate?"
+            "en": "How do I choose the diameter for a base plate?",
+            "zh": "底板锚栓直径怎么定？"
           },
           "a": {
-            "en": "Work back from the base plate hole and the design load: the anchor diameter must match the hole with the specified clearance, and the embedment depth grows with diameter. If the hole is oversized, use a plate with the correct hole rather than a thinner anchor."
+            "en": "Work back from the base plate hole and the design load: the anchor diameter must match the hole with the specified clearance, and the embedment depth grows with diameter. If the hole is oversized, use a plate with the correct hole rather than a thinner anchor.",
+            "zh": "从底板孔和设计荷载倒推：锚栓直径要与孔径在规定的间隙下匹配，埋深随直径增大。孔开大了应换成孔径正确的底板，而不是用更细的锚栓。"
           }
         },
         {
           "q": {
-            "en": "What embedment and edge distance are needed?"
+            "en": "What embedment and edge distance are needed?",
+            "zh": "埋深和边距要多少？"
           },
           "a": {
-            "en": "Embedment typically runs four to six times the anchor diameter for full load, and edge distance should be at least 1.5 times the embedment depth in uncracked concrete. Closer to an edge, the anchor must be derated."
+            "en": "Embedment typically runs four to six times the anchor diameter for full load, and edge distance should be at least 1.5 times the embedment depth in uncracked concrete. Closer to an edge, the anchor must be derated.",
+            "zh": "要发挥全部承载力，埋深一般为锚栓直径的 4–6 倍；未开裂混凝土中边距至少为埋深的 1.5 倍。靠近边缘时必须按规范折减。"
           }
         },
         {
           "q": {
-            "en": "Which finish for outdoor and coastal sites?"
+            "en": "Which finish for outdoor and coastal sites?",
+            "zh": "户外和沿海部位用什么表面处理？"
           },
           "a": {
-            "en": "Hot-dip galvanising to ISO 1461 for general outdoor work, A4/316 stainless for coastal and chemical exposure, zinc plating for dry interior installation only."
+            "en": "Hot-dip galvanising to ISO 1461 for general outdoor work, A4/316 stainless for coastal and chemical exposure, zinc plating for dry interior installation only.",
+            "zh": "一般户外按 ISO 1461 热浸镀锌；沿海和化学品暴露用 A4/316 不锈钢；电镀锌只用于室内干燥安装。"
           }
         }
       ]

@@ -237,26 +237,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "Which wire diameter for which rebar size?"
+            "en": "Which wire diameter for which rebar size?",
+            "zh": "不同钢筋直径该配多粗的绑扎丝？"
           },
           "a": {
-            "en": "Common diameters run 0.8 to 1.6 mm, with 1.2 mm covering most rebar up to about 25 mm and heavier wire used for large bar and tight spacing. Confirm against the tying pattern rather than a single rule."
+            "en": "Common diameters run 0.8 to 1.6 mm, with 1.2 mm covering most rebar up to about 25 mm and heavier wire used for large bar and tight spacing. Confirm against the tying pattern rather than a single rule.",
+            "zh": "常用直径 0.8–1.6 mm，1.2 mm 基本覆盖 25 mm 以下钢筋，大直径钢筋和密集排布用更粗的丝。具体要按绑扎方式确认，不能只套一条规则。"
           }
         },
         {
           "q": {
-            "en": "Annealed or galvanised binding wire?"
+            "en": "Annealed or galvanised binding wire?",
+            "zh": "退火黑丝还是镀锌绑扎丝？"
           },
           "a": {
-            "en": "Annealed black wire is softer, easier to handle and standard for site tying. Galvanised wire costs more but resists rust in humid storage and in exposed temporary work."
+            "en": "Annealed black wire is softer, easier to handle and standard for site tying. Galvanised wire costs more but resists rust in humid storage and in exposed temporary work.",
+            "zh": "退火黑丝更软、好操作，是现场绑扎的常规选择；镀锌丝贵一些，但在潮湿存放和暴露的临时工程中不易生锈。"
           }
         },
         {
           "q": {
-            "en": "How much wire does a project consume?"
+            "en": "How much wire does a project consume?",
+            "zh": "一个项目大概用多少绑扎丝？"
           },
           "a": {
-            "en": "Budget roughly 5 to 10 kg per tonne of rebar as a planning reference, then verify against actual tying on the first pour. Coil weight and tolerance matter as much as the rate, because short coils waste time on site."
+            "en": "Budget roughly 5 to 10 kg per tonne of rebar as a planning reference, then verify against actual tying on the first pour. Coil weight and tolerance matter as much as the rate, because short coils waste time on site.",
+            "zh": "按每吨钢筋 5–10 kg 做计划参考，首仓浇筑后按实际绑扎量校正。卷重和公差同样重要——短卷在现场会浪费大量时间。"
           }
         }
       ]

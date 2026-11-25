@@ -195,26 +195,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "Why do wheel nuts sometimes loosen on African roads?"
+            "en": "Why do wheel nuts sometimes loosen on African roads?",
+            "zh": "非洲路况下轮毂螺母为什么会松？"
           },
           "a": {
-            "en": "Wheel nut loosening on African roads is caused by: Under-torquing at the workshop — the most common cause; always use a calibrated torque wrench and follow the vehicle manufacturer's specification. Over-torquing and then relaxing — over-torquing causes the wheel stud to yield, then it relaxes below the clamp load needed to keep the wheel seated; always torque to specification, not 'extra tight.' Thermal cycling — long hauls cause heating and cooling cycles that can reduce clamp load; use flanged wheel nuts that provide a locking feature. Improper wheel seating — if the wheel is not fully seated against the hub before torquing, the wheel studs will flex under load and loosen; always hand-tighten all nuts in a star pattern before final torque."
+            "en": "Wheel nut loosening on African roads is caused by: Under-torquing at the workshop — the most common cause; always use a calibrated torque wrench and follow the vehicle manufacturer's specification. Over-torquing and then relaxing — over-torquing causes the wheel stud to yield, then it relaxes below the clamp load needed to keep the wheel seated; always torque to specification, not 'extra tight.' Thermal cycling — long hauls cause heating and cooling cycles that can reduce clamp load; use flanged wheel nuts that provide a locking feature. Improper wheel seating — if the wheel is not fully seated against the hub before torquing, the wheel studs will flex under load and loosen; always hand-tighten all nuts in a star pattern before final torque.",
+            "zh": "常见原因有四类：一是维修店拧紧不足，这是最主要的一条，必须用校准过的扭矩扳手并按主机厂规定值；二是过拧后回弹，过拧会让轮毂螺栓屈服，随后夹紧力反而低于保持轮子就位所需的水平，所以要按规格拧而不是“越紧越好”；三是热循环，长途行驶的反复升降温会降低夹紧力，建议用带防松功能的法兰面轮毂螺母；四是轮子没贴合，扭矩施加前轮子没完全贴合轮毂，螺栓受载后会产生挠曲并松动，所以要先按星形顺序手拧到位再终紧。"
           }
         },
         {
           "q": {
-            "en": "What is the difference between wheel nuts with conical (taper) seat and ball seat?"
+            "en": "What is the difference between wheel nuts with conical (taper) seat and ball seat?",
+            "zh": "锥面（球面）座与球座轮毂螺母差在哪？"
           },
           "a": {
-            "en": "Conical (taper) seat wheel nuts have a 60-degree taper that matches a similar taper in the wheel's mounting holes; this provides self-centering as the nut is tightened. Ball seat wheel nuts have a spherical seat that matches a spherical depression in the wheel — it allows some angular misalignment. Never mix seating types — a conical seat nut will not seat properly in a ball-seat wheel and vice versa; the wheel will not be properly centered and can loosen. Always verify the seating type before purchasing aftermarket wheel nuts."
+            "en": "Conical (taper) seat wheel nuts have a 60-degree taper that matches a similar taper in the wheel's mounting holes; this provides self-centering as the nut is tightened. Ball seat wheel nuts have a spherical seat that matches a spherical depression in the wheel — it allows some angular misalignment. Never mix seating types — a conical seat nut will not seat properly in a ball-seat wheel and vice versa; the wheel will not be properly centered and can loosen. Always verify the seating type before purchasing aftermarket wheel nuts.",
+            "zh": "锥面座轮毂螺母是 60° 锥面，与轮辋安装孔的锥面相配，拧紧过程自动定心；球座螺母是球面，对应轮辋上的球面凹坑，允许一定角度偏差。两类绝不可混用——锥面螺母装进球座轮辋就位不对，反之亦然，轮子无法正确对中且容易松动。买售后轮毂螺母前一定先确认座型。"
           }
         },
         {
           "q": {
-            "en": "Can I use Grade 8.8 wheel nuts instead of Grade 10.9 if they are the same size?"
+            "en": "Can I use Grade 8.8 wheel nuts instead of Grade 10.9 if they are the same size?",
+            "zh": "同规格的 8.8 级能替代 10.9 级轮毂螺母吗？"
           },
           "a": {
-            "en": "No — wheel nuts must be replaced with the same grade as originally specified by the vehicle manufacturer. The wheel nut grade relates to the wheel stud strength — if a lower-grade nut is used, the nut material may yield before the wheel studs, causing the wheel to become loose. Wheel nuts are heat-treated to the specific grade — Grade 10.9 wheel nuts are significantly stronger and harder than Grade 8.8. Using Grade 8.8 wheel nuts where Grade 10.9 is specified is a safety hazard."
+            "en": "No — wheel nuts must be replaced with the same grade as originally specified by the vehicle manufacturer. The wheel nut grade relates to the wheel stud strength — if a lower-grade nut is used, the nut material may yield before the wheel studs, causing the wheel to become loose. Wheel nuts are heat-treated to the specific grade — Grade 10.9 wheel nuts are significantly stronger and harder than Grade 8.8. Using Grade 8.8 wheel nuts where Grade 10.9 is specified is a safety hazard.",
+            "zh": "不能。轮毂螺母必须按主机厂原规定等级更换。螺母等级与轮毂螺栓强度相配：用了低等级螺母，螺母材料可能先于螺栓屈服，导致轮子松脱。轮毂螺母按等级做过专门热处理，10.9 级在强度和硬度上明显高于 8.8 级；在要求 10.9 的位置用 8.8 是安全隐患。"
           }
         }
       ],
