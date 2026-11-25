@@ -237,26 +237,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "What size range is standard, and how long should the bolt be?"
+            "en": "What size range is standard, and how long should the bolt be?",
+            "zh": "标准规格范围是多少，螺栓多长？"
           },
           "a": {
-            "en": "Expansion bolts commonly run M6 to M24. Length is set by fixture thickness plus effective embedment plus the nut and washer stack, so specify the fixture thickness when ordering rather than the bolt length alone."
+            "en": "Expansion bolts commonly run M6 to M24. Length is set by fixture thickness plus effective embedment plus the nut and washer stack, so specify the fixture thickness when ordering rather than the bolt length alone.",
+            "zh": "膨胀螺栓常见规格为 M6 至 M24。长度由被固定件厚度、有效埋深以及螺母和垫圈叠厚共同决定，所以订货时应提供被固定件厚度，而不是只报一个螺栓长度。"
           }
         },
         {
           "q": {
-            "en": "What causes most expansion bolt failures?"
+            "en": "What causes most expansion bolt failures?",
+            "zh": "膨胀螺栓失效大多是什么原因？"
           },
           "a": {
-            "en": "An oversized hole, embedment shorter than the rated value, a hole that was not cleaned of dust, and over-torqueing that spins the sleeve. Drill the specified diameter, blow out the hole and tighten to the stated torque."
+            "en": "An oversized hole, embedment shorter than the rated value, a hole that was not cleaned of dust, and over-torqueing that spins the sleeve. Drill the specified diameter, blow out the hole and tighten to the stated torque.",
+            "zh": "常见原因有：孔径过大、埋深达不到额定值、孔内粉尘未清干净，以及扭矩过大导致套管旋滑。应按规定直径钻孔、吹净孔内粉尘，并按给定扭矩拧紧。"
           }
         },
         {
           "q": {
-            "en": "Which finish should I pick?"
+            "en": "Which finish should I pick?",
+            "zh": "表面处理怎么选？"
           },
           "a": {
-            "en": "Yellow zinc for interior and dry service, hot-dip galvanising for outdoor structures, stainless A2 or A4 for coastal and wet areas. Mixing a zinc bolt into a stainless assembly creates a galvanic couple at the joint."
+            "en": "Yellow zinc for interior and dry service, hot-dip galvanising for outdoor structures, stainless A2 or A4 for coastal and wet areas. Mixing a zinc bolt into a stainless assembly creates a galvanic couple at the joint.",
+            "zh": "室内干燥环境选黄锌，户外结构选热浸镀锌，沿海和潮湿区域选不锈钢 A2 或 A4。镀锌螺栓与不锈钢件混装，会在连接处形成电偶腐蚀。"
           }
         }
       ]
