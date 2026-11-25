@@ -392,6 +392,9 @@ def check_article(path, project_dir):
         for bad in ["undefined", "not found"]:
             if re.search(r"(?<![a-z])" + re.escape(bad) + r"(?![a-z])", low):
                 issues.w("dirty-text", f"{path} 含脏文本 '{bad}'")
+        # 批量拼接把标签写坏（"<<p>"），渲染时可见但不影响 JSON 合法性
+        if "<<p>" in text or "<p><p>" in text:
+            issues.b("dirty-text", f"{path} 段落标签重复/写坏（'<<p>'）")
 
     en_all = " ".join(
         [json.dumps(title.get("en", ""), ensure_ascii=False), json.dumps(desc.get("en", ""), ensure_ascii=False)]
