@@ -27,7 +27,7 @@ STOP = {'fastener', 'fasteners', 'guide', 'buying', 'guide:', 'sourcing', 'suppl
 
 def toks(a):
     t = ' '.join([(a.get('title') or {}).get('en') or '',
-                  ' '.join(a.get('keywords') or []) if isinstance(a.get('keywords'), list) else ''])
+                  a.get('keywords') if isinstance(a.get('keywords'), str) else ' '.join(a.get('keywords') or [])])
     return {w for w in re.findall(r'[a-z]{4,}', t.lower())} - STOP
 
 
