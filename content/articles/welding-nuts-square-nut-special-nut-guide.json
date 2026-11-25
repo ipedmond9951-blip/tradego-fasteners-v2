@@ -175,10 +175,12 @@
         },
         {
           "q": {
-            "en": "What is the weld projection on a flange welding nut?"
+            "en": "What is the weld projection on a flange welding nut?",
+            "zh": "法兰螺母的焊接凸点高度怎么选？"
           },
           "a": {
-            "en": "The projection is the small collar that fuses into the sheet during resistance welding, and its height must match the sheet thickness range the nut is designed for. Too little projection welds weakly; too much melts through thin sheet."
+            "en": "The projection is the small collar that fuses into the sheet during resistance welding, and its height must match the sheet thickness range the nut is designed for. Too little projection welds weakly; too much melts through thin sheet.",
+            "zh": "凸点是电阻焊时熔入板件的小凸台，其高度必须与螺母设计适配的板厚范围匹配。凸点过小则焊接强度不足；过大则容易熔穿薄板。"
           }
         }
       ],
