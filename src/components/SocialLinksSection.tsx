@@ -2,6 +2,7 @@
 
 import type { ReactNode } from 'react'
 import type { Locale } from '@/i18n'
+import { trackGA4Event } from '@/components/Analytics'
 
 interface SocialLinksSectionProps {
   locale?: Locale
@@ -178,6 +179,7 @@ export default function SocialLinksSection({ locale = 'en' }: SocialLinksSection
               rel="noopener noreferrer me"
               aria-label={`${ch.brand} — ${c.cta}`}
               title={`${ch.brand} ${ch.handle}`}
+              onClick={() => trackGA4Event('click_social', { event_category: 'outbound', platform: ch.key, locale })}
               className={`group flex flex-col items-center justify-center gap-2 rounded-xl border ${ch.ring} bg-white px-3 py-4 text-center transition-colors duration-200 text-gray-800 ${ch.bg} hover:text-white focus:outline-none focus:ring-2 focus:ring-primary-500`}
             >
               <span className="w-9 h-9 rounded-full flex items-center justify-center bg-gray-100 text-gray-700 group-hover:bg-white/20 group-hover:text-white">

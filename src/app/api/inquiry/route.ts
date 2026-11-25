@@ -207,7 +207,7 @@ async function sendEmail(data: InquiryData, isHighValue: boolean): Promise<boole
         from: 'TradeGo Inquiry <inquiry@tradego-fasteners.com>',
         to: INQUIRY_EMAIL,
         replyTo: data.email,
-        subject: `${isHighValue ? '⭐ HIGH VALUE ' : ''}Inquiry from ${data.company || data.name} (${data.country || 'Unknown'})`,
+        subject: `${isHighValue ? '⭐ HIGH VALUE ' : ''}${/certificate request|随订单附.*证书|要求.*证书/i.test(data.message || '') ? '[CERT] ' : ''}Inquiry from ${data.company || data.name} (${data.country || 'Unknown'})`,
         html: `
           <h2>New Inquiry from TradeGo Website</h2>
           <table style="border-collapse: collapse; width: 100%;">
