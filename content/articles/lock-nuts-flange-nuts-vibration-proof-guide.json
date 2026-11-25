@@ -213,7 +213,7 @@
      },
      "a": {
       "en": "Yes, nylon insert nuts can be reused approximately 15-20 times before the nylon loses its grip. Mark or discard after extended reuse cycles.",
-      "zh": "可以，尼龙锁紧螺母可重复使用约15-20次，然后尼龙失去抓力。"
+      "zh": "可以重复使用，但尼龙嵌件约可复用 15–20 次，之后尼龙失去抱紧力。经过多次重复使用的螺母应做标记或直接报废，不要再装到关键部位上。"
      }
     },
     {
@@ -223,15 +223,17 @@
      },
      "a": {
       "en": "Standard nylon insert nuts begin losing effectiveness above 120°C. High-temperature versions (with heat stabilizers) are good to 200°C.",
-      "zh": "标准尼龙锁紧螺母在120°C以上开始失去有效性。高温版本可耐受200°C。"
+      "zh": "普通尼龙嵌件螺母在 120°C 以上开始失去防松效果；加入耐热稳定剂的高温版本可耐受 200°C。超出温度范围应改用全金属锁紧螺母。"
      }
     },
     {
      "q": {
-      "en": "At what temperature does the nylon insert fail?"
+      "en": "At what temperature does the nylon insert fail?",
+      "zh": "尼龙嵌件在什么温度下会软化？"
      },
      "a": {
-      "en": "Nylon softens well below metal limits, so lock nuts are not for hot service - exhaust, furnace and high-temperature machinery need all-metal lock nuts or a different locking method."
+      "en": "Nylon softens well below metal limits, so lock nuts are not for hot service - exhaust, furnace and high-temperature machinery need all-metal lock nuts or a different locking method.",
+      "zh": "尼龙远低于金属的耐热极限就会软化，所以锁紧螺母不能用于高温工况；排气系统、熔炉和高温机械应选用全金属锁紧螺母，或改用其他防松方式。"
      }
     }
    ],
