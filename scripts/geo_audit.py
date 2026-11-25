@@ -33,6 +33,29 @@ ENT = re.compile(
 )
 DEF_EN = re.compile(r"\b(is|are|refers to|means|describes)\b[^.]{10,120}\.", re.I)
 DEF_ZH = re.compile(r"(指的是|是指|是指那种|意思是)[^。]{5,60}。")
+# 非英语的定义句与问句标记：原先只认英文，导致 es/fr/pt/de/ru/ar/hi/ja 的 def 恒为 0，
+# 那是量具问题不是内容问题。这里只收"强定义动词/疑问词"，避免 any sentence 误命中。
+DEF_MULTI = {
+    "es": re.compile(r"(se refiere a|se define como|significa|consiste en|es un tipo de|son un tipo de)", re.I),
+    "fr": re.compile(r"(désigne|se réfère à|signifie|consiste à|est un type de|sont un type de)", re.I),
+    "pt": re.compile(r"(refere-se a|significa|consiste em|é um tipo de|são um tipo de)", re.I),
+    "de": re.compile(r"(bezeichnet|bedeutet|besteht aus|ist eine Art|sind eine Art)", re.I),
+    "ru": re.compile(r"(означает|относится к|представляет собой)", re.I),
+    "ar": re.compile(r"(يعني|يشير إلى|عبارة عن)"),
+    "hi": re.compile(r"(का अर्थ|को दर्शाता|का मतलब)"),
+    "ja": re.compile(r"(とは|を指す|のことです)"),
+}
+Q_MULTI = {
+    "es": re.compile(r"^(qué|cómo|cuál|cuáles|por qué|cuándo|dónde|quién)\b", re.I),
+    "fr": re.compile(r"^(quel|quelle|quels|quelles|comment|pourquoi|quand|où|qui)\b", re.I),
+    "pt": re.compile(r"^(qual|quais|como|por que|porque|quando|onde|quem)\b", re.I),
+    "de": re.compile(r"^(was|wie|warum|wann|wo|wer|welche|welcher)\b", re.I),
+    "ru": re.compile(r"^(что|как|почему|когда|где|кто|какой)\b", re.I),
+    "ar": re.compile(r"^(ما|كيف|لماذا|متى|أين|من)"),
+    "hi": re.compile(r"^(क्या|कैसे|क्यों|कब|कहाँ)"),
+    "ja": re.compile(r"(とは|なぜ|どう|どの|いつ)"),
+}
+
 
 WEIGHTS = {"p1": 20, "echo": 15, "qh": 15, "ent": 20, "faq": 20, "def": 10}
 
@@ -97,7 +120,9 @@ def audit(path, locale="en"):
     qh = 0
     if heads:
         for h in heads:
-            qh += 1 if (h.strip().endswith("?") or Q_EN.match(h.strip()) or Q_ZH.search(h)) else 0
+            hs = h.strip()
+            if hs.endswith(("?", "？", "؟")) or Q_EN.match(hs) or Q_ZH.search(hs) or Q_MULTI.get(locale, Q_EN).match(hs):
+                qh += 1
     qh_ratio = qh / len(heads) if heads else 0
 
     wc = words(full, locale) or 1
@@ -107,7 +132,12 @@ def audit(path, locale="en"):
     fa = round(sum(words(x.get("a", ""), locale) for x in faqs) / fq) if fq else 0
 
     txt = TAG.sub("", full)
-    deff = 1 if (DEF_ZH.search(txt) if locale == "zh" else DEF_EN.search(txt)) else 0
+    if locale == "zh":
+        deff = 1 if DEF_ZH.search(txt) else 0
+    elif locale == "en":
+        deff = 1 if DEF_EN.search(txt) else 0
+    else:
+        deff = 1 if (DEF_EN.search(txt) or DEF_MULTI.get(locale, DEF_EN).search(txt)) else 0
 
     s = 0
     s += WEIGHTS["p1"] * (1 if 40 <= p1 <= 130 else 0.5 if 15 <= p1 < 40 or 130 < p1 <= 200 else 0)
