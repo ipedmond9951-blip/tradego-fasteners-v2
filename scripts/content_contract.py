@@ -208,8 +208,6 @@ def check_article(path, project_dir):
     for k in ["category", "date", "readTime", "image", "sections"]:
         if not d.get(k):
             issues.b("schema", f"缺字段 '{k}'")
-    if not d.get("faq"):
-        issues.w("faq", "缺 faq 字段（GEO 结构化问答缺失，建议补）")
 
     # 2. 日期
     for k in ["date", "updated"]:
