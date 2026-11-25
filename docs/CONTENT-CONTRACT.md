@@ -1,0 +1,65 @@
+# 内容契约：怎么用（日常手册）
+
+给写文章的人（包括 AI）看的一页纸。检查器是 `scripts/content_contract.py`，它只判断"文章 JSON 里的字段对不对"，不判断"内容讲得对不对"。
+
+## 三条命令
+
+```bash
+python3 scripts/content_contract.py --slug <slug>   # 写/改完一篇，先跑这个
+python3 scripts/content_contract.py                 # 全量体检，看趋势
+python3 scripts/content_contract_backlog.py         # 生成待办清单 docs/content-contract-backlog.md
+```
+
+退出码：0 干净、1 有 BLOCK、2 路径问题。可以用来串进任何脚本。
+
+## 两种问题，两种处理
+
+**BLOCK = 页面会露馅，必须修**
+- 正文里有 `Content coming soon` / `lorem ipsum` / `todo:`
+- 标题、描述、元描述照抄英文，或本地化字段里夹着 4 个以上连续英文词
+- 某语种字段整个是空的
+- ar/ru/hi/zh 字段几乎没有该语言文字（英文粘错槽位）
+- 配图路径指向不存在的文件、`updated` 早于 `date`、缺中文正文
+
+**WARN = 不影响上线，按排期修**
+- `imageAlt` 直接复用英文（SEO 收益有限）
+- 缺 `faq` 字段（GEO 结构化问答缺失）
+- 正文体量偏薄（英文 <1600 词）、标题/描述长度越界
+
+## 存量与新内容分开管
+
+存量问题冻结在 `content/contract-baseline.json`（99 篇）。**门禁只对基线之外的新增问题负责**，所以不会因为历史欠账卡住发布。
+
+```bash
+python3 scripts/content_contract.py --write-baseline content/contract-baseline.json  # 修完一批，收窄一次
+```
+
+基线文件必须放在 `content/` 或 `docs/`，不能放 `logs/`（`logs/` 被 gitignore）。
+
+## 修存量的四个工具
+
+```bash
+python3 scripts/fix_content_contract.py meta      # 用本语种 title+desc 重组被英文污染的元描述
+python3 scripts/fix_content_contract.py extract   # 元描述/描述没素材时，改用本语种正文首句
+python3 scripts/fix_content_contract.py zh-strip  # 剥掉"内容即将发布"开头、去掉重复段落
+python3 scripts/fix_content_contract.py date / image
+python3 scripts/fill_body_zh.py patch.json --apply # 补中文正文（≥120 汉字质量闸）
+```
+
+全部默认 dry-run，加 `--apply` 才落盘；`--only <slug>` 只处理一篇。
+
+## 门禁
+
+`.githooks/pre-commit` 自动对**本次改动的文章**跑 `--baseline`，有新 BLOCK 就拒绝提交。绕过：`CONTENT_CONTRACT_SKIP=1 git commit ...`。
+
+## 边界（别指望它做这些）
+
+- 不判断技术内容正确性（等级对应、标准编号对不对，靠人）
+- 不判断行情数字真假（价格、产量这类给区间即可，不必逐条标来源）
+- 不判断文风、可读性、是否机翻腔——`i18n-mixed` 只能发现"英文没翻译干净"
+
+## 判定口径备忘（第三轮）
+
+- "英文混入"只统计**被空格/标点直接相连**的英文词，并列的标准号（`DIN、ANSI、GB`）不算混入；正文里夹整句英文仍会命中。
+- 机翻提示（`i18n-copy` WARN）只在长文本（≥12 词）且与英文重合 >85% 时给出，短描述和型号标题不再刷屏。
+- 每轮修完立刻 `python3 scripts/content_contract.py --write-baseline content/contract-baseline.json` 收口，否则门禁会拦下正常改动。

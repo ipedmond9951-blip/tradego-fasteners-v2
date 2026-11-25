@@ -10,7 +10,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint src --max-warnings 4",
-    "postbuild": "next-sitemap"
+    "postbuild": "next-sitemap",
+    "content:contract": "python3 scripts/content_contract.py",
+    "content:contract:fix": "python3 scripts/fix_content_contract.py",
+    "content:contract:baseline": "python3 scripts/content_contract.py --write-baseline content/contract-baseline.json",
+    "content:contract:backlog": "python3 scripts/content_contract_backlog.py"
   },
   "dependencies": {
     "@google-analytics/data": "^5.2.2",
