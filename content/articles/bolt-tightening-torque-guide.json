@@ -180,132 +180,42 @@
       "faqItems": [
         {
           "q": {
-            "en": "What torque should I use for M10 bolt Grade 8.8?",
-            "zh": "What torque should I use for M10 bolt Grade 8.8?",
-            "es": "What torque should I use for M10 bolt Grade 8.8?",
-            "ar": "What torque should I use for M10 bolt Grade 8.8?",
-            "fr": "What torque should I use for M10 bolt Grade 8.8?",
-            "pt": "What torque should I use for M10 bolt Grade 8.8?",
-            "ru": "What torque should I use for M10 bolt Grade 8.8?",
-            "ja": "What torque should I use for M10 bolt Grade 8.8?",
-            "de": "What torque should I use for M10 bolt Grade 8.8?",
-            "hi": "What torque should I use for M10 bolt Grade 8.8?"
+            "en": "What torque should I use for M10 bolt Grade 8.8?"
           },
           "a": {
-            "en": "For M10 Grade 8.8 hex bolts, the recommended torque is 50-60 Nm (37-44 ft-lb). For Grade 10.9, use 70-80 Nm (52-59 ft-lb). Always refer to your specific application requirements.",
-            "zh": "For M10 Grade 8.8 hex bolts, the recommended torque is 50-60 Nm (37-44 ft-lb). For Grade 10.9, use 70-80 Nm (52-59 ft-lb). Always refer to your specific application requirements.",
-            "es": "For M10 Grade 8.8 hex bolts, the recommended torque is 50-60 Nm (37-44 ft-lb). For Grade 10.9, use 70-80 Nm (52-59 ft-lb). Always refer to your specific application requirements.",
-            "ar": "For M10 Grade 8.8 hex bolts, the recommended torque is 50-60 Nm (37-44 ft-lb). For Grade 10.9, use 70-80 Nm (52-59 ft-lb). Always refer to your specific application requirements.",
-            "fr": "For M10 Grade 8.8 hex bolts, the recommended torque is 50-60 Nm (37-44 ft-lb). For Grade 10.9, use 70-80 Nm (52-59 ft-lb). Always refer to your specific application requirements.",
-            "pt": "For M10 Grade 8.8 hex bolts, the recommended torque is 50-60 Nm (37-44 ft-lb). For Grade 10.9, use 70-80 Nm (52-59 ft-lb). Always refer to your specific application requirements.",
-            "ru": "For M10 Grade 8.8 hex bolts, the recommended torque is 50-60 Nm (37-44 ft-lb). For Grade 10.9, use 70-80 Nm (52-59 ft-lb). Always refer to your specific application requirements.",
-            "ja": "For M10 Grade 8.8 hex bolts, the recommended torque is 50-60 Nm (37-44 ft-lb). For Grade 10.9, use 70-80 Nm (52-59 ft-lb). Always refer to your specific application requirements.",
-            "de": "For M10 Grade 8.8 hex bolts, the recommended torque is 50-60 Nm (37-44 ft-lb). For Grade 10.9, use 70-80 Nm (52-59 ft-lb). Always refer to your specific application requirements.",
-            "hi": "For M10 Grade 8.8 hex bolts, the recommended torque is 50-60 Nm (37-44 ft-lb). For Grade 10.9, use 70-80 Nm (52-59 ft-lb). Always refer to your specific application requirements."
+            "en": "For M10 Grade 8.8 hex bolts, the recommended torque is 50-60 Nm (37-44 ft-lb). For Grade 10.9, use 70-80 Nm (52-59 ft-lb). Always refer to your specific application requirements."
           }
         },
         {
           "q": {
-            "en": "What is the difference between preload and torque?",
-            "zh": "What is the difference between preload and torque?",
-            "es": "What is the difference between preload and torque?",
-            "ar": "What is the difference between preload and torque?",
-            "fr": "What is the difference between preload and torque?",
-            "pt": "What is the difference between preload and torque?",
-            "ru": "What is the difference between preload and torque?",
-            "ja": "What is the difference between preload and torque?",
-            "de": "What is the difference between preload and torque?",
-            "hi": "What is the difference between preload and torque?"
+            "en": "What is the difference between preload and torque?"
           },
           "a": {
-            "en": "Torque is the rotational force applied to tighten a bolt. Preload (clamp force) is the tension created in the bolt when tightened. The goal is to achieve correct preload; torque is just the method to reach it.",
-            "zh": "Torque is the rotational force applied to tighten a bolt. Preload (clamp force) is the tension created in the bolt when tightened. The goal is to achieve correct preload; torque is just the method to reach it.",
-            "es": "Torque is the rotational force applied to tighten a bolt. Preload (clamp force) is the tension created in the bolt when tightened. The goal is to achieve correct preload; torque is just the method to reach it.",
-            "ar": "Torque is the rotational force applied to tighten a bolt. Preload (clamp force) is the tension created in the bolt when tightened. The goal is to achieve correct preload; torque is just the method to reach it.",
-            "fr": "Torque is the rotational force applied to tighten a bolt. Preload (clamp force) is the tension created in the bolt when tightened. The goal is to achieve correct preload; torque is just the method to reach it.",
-            "pt": "Torque is the rotational force applied to tighten a bolt. Preload (clamp force) is the tension created in the bolt when tightened. The goal is to achieve correct preload; torque is just the method to reach it.",
-            "ru": "Torque is the rotational force applied to tighten a bolt. Preload (clamp force) is the tension created in the bolt when tightened. The goal is to achieve correct preload; torque is just the method to reach it.",
-            "ja": "Torque is the rotational force applied to tighten a bolt. Preload (clamp force) is the tension created in the bolt when tightened. The goal is to achieve correct preload; torque is just the method to reach it.",
-            "de": "Torque is the rotational force applied to tighten a bolt. Preload (clamp force) is the tension created in the bolt when tightened. The goal is to achieve correct preload; torque is just the method to reach it.",
-            "hi": "Torque is the rotational force applied to tighten a bolt. Preload (clamp force) is the tension created in the bolt when tightened. The goal is to achieve correct preload; torque is just the method to reach it."
+            "en": "Torque is the rotational force applied to tighten a bolt. Preload (clamp force) is the tension created in the bolt when tightened. The goal is to achieve correct preload; torque is just the method to reach it."
           }
         },
         {
           "q": {
-            "en": "Can torque specification bolts be reused after loosening?",
-            "zh": "Can torque specification bolts be reused after loosening?",
-            "es": "Can torque specification bolts be reused after loosening?",
-            "ar": "Can torque specification bolts be reused after loosening?",
-            "fr": "Can torque specification bolts be reused after loosening?",
-            "pt": "Can torque specification bolts be reused after loosening?",
-            "ru": "Can torque specification bolts be reused after loosening?",
-            "ja": "Can torque specification bolts be reused after loosening?",
-            "de": "Can torque specification bolts be reused after loosening?",
-            "hi": "Can torque specification bolts be reused after loosening?"
+            "en": "Can torque specification bolts be reused after loosening?"
           },
           "a": {
-            "en": "Generally no. Once a bolt has been torqued beyond its yield point and then loosened, it may have been permanently stretched. Replace with new bolts for critical structural applications.",
-            "zh": "Generally no. Once a bolt has been torqued beyond its yield point and then loosened, it may have been permanently stretched. Replace with new bolts for critical structural applications.",
-            "es": "Generally no. Once a bolt has been torqued beyond its yield point and then loosened, it may have been permanently stretched. Replace with new bolts for critical structural applications.",
-            "ar": "Generally no. Once a bolt has been torqued beyond its yield point and then loosened, it may have been permanently stretched. Replace with new bolts for critical structural applications.",
-            "fr": "Generally no. Once a bolt has been torqued beyond its yield point and then loosened, it may have been permanently stretched. Replace with new bolts for critical structural applications.",
-            "pt": "Generally no. Once a bolt has been torqued beyond its yield point and then loosened, it may have been permanently stretched. Replace with new bolts for critical structural applications.",
-            "ru": "Generally no. Once a bolt has been torqued beyond its yield point and then loosened, it may have been permanently stretched. Replace with new bolts for critical structural applications.",
-            "ja": "Generally no. Once a bolt has been torqued beyond its yield point and then loosened, it may have been permanently stretched. Replace with new bolts for critical structural applications.",
-            "de": "Generally no. Once a bolt has been torqued beyond its yield point and then loosened, it may have been permanently stretched. Replace with new bolts for critical structural applications.",
-            "hi": "Generally no. Once a bolt has been torqued beyond its yield point and then loosened, it may have been permanently stretched. Replace with new bolts for critical structural applications."
+            "en": "Generally no. Once a bolt has been torqued beyond its yield point and then loosened, it may have been permanently stretched. Replace with new bolts for critical structural applications."
           }
         },
         {
           "q": {
-            "en": "What is the nut factor (K) in torque calculation?",
-            "zh": "What is the nut factor (K) in torque calculation?",
-            "es": "What is the nut factor (K) in torque calculation?",
-            "ar": "What is the nut factor (K) in torque calculation?",
-            "fr": "What is the nut factor (K) in torque calculation?",
-            "pt": "What is the nut factor (K) in torque calculation?",
-            "ru": "What is the nut factor (K) in torque calculation?",
-            "ja": "What is the nut factor (K) in torque calculation?",
-            "de": "What is the nut factor (K) in torque calculation?",
-            "hi": "What is the nut factor (K) in torque calculation?"
+            "en": "What is the nut factor (K) in torque calculation?"
           },
           "a": {
-            "en": "The nut factor K accounts for friction in the torque-tension relationship. K = 0.2 is commonly used for plain (unlubricated) bolts. For lubricated bolts, K may be 0.15-0.18. Always check with your specific coating/lubrication condition.",
-            "zh": "The nut factor K accounts for friction in the torque-tension relationship. K = 0.2 is commonly used for plain (unlubricated) bolts. For lubricated bolts, K may be 0.15-0.18. Always check with your specific coating/lubrication condition.",
-            "es": "The nut factor K accounts for friction in the torque-tension relationship. K = 0.2 is commonly used for plain (unlubricated) bolts. For lubricated bolts, K may be 0.15-0.18. Always check with your specific coating/lubrication condition.",
-            "ar": "The nut factor K accounts for friction in the torque-tension relationship. K = 0.2 is commonly used for plain (unlubricated) bolts. For lubricated bolts, K may be 0.15-0.18. Always check with your specific coating/lubrication condition.",
-            "fr": "The nut factor K accounts for friction in the torque-tension relationship. K = 0.2 is commonly used for plain (unlubricated) bolts. For lubricated bolts, K may be 0.15-0.18. Always check with your specific coating/lubrication condition.",
-            "pt": "The nut factor K accounts for friction in the torque-tension relationship. K = 0.2 is commonly used for plain (unlubricated) bolts. For lubricated bolts, K may be 0.15-0.18. Always check with your specific coating/lubrication condition.",
-            "ru": "The nut factor K accounts for friction in the torque-tension relationship. K = 0.2 is commonly used for plain (unlubricated) bolts. For lubricated bolts, K may be 0.15-0.18. Always check with your specific coating/lubrication condition.",
-            "ja": "The nut factor K accounts for friction in the torque-tension relationship. K = 0.2 is commonly used for plain (unlubricated) bolts. For lubricated bolts, K may be 0.15-0.18. Always check with your specific coating/lubrication condition.",
-            "de": "The nut factor K accounts for friction in the torque-tension relationship. K = 0.2 is commonly used for plain (unlubricated) bolts. For lubricated bolts, K may be 0.15-0.18. Always check with your specific coating/lubrication condition.",
-            "hi": "The nut factor K accounts for friction in the torque-tension relationship. K = 0.2 is commonly used for plain (unlubricated) bolts. For lubricated bolts, K may be 0.15-0.18. Always check with your specific coating/lubrication condition."
+            "en": "The nut factor K accounts for friction in the torque-tension relationship. K = 0.2 is commonly used for plain (unlubricated) bolts. For lubricated bolts, K may be 0.15-0.18. Always check with your specific coating/lubrication condition."
           }
         },
         {
           "q": {
-            "en": "How do I know if a bolt is properly tightened?",
-            "zh": "How do I know if a bolt is properly tightened?",
-            "es": "How do I know if a bolt is properly tightened?",
-            "ar": "How do I know if a bolt is properly tightened?",
-            "fr": "How do I know if a bolt is properly tightened?",
-            "pt": "How do I know if a bolt is properly tightened?",
-            "ru": "How do I know if a bolt is properly tightened?",
-            "ja": "How do I know if a bolt is properly tightened?",
-            "de": "How do I know if a bolt is properly tightened?",
-            "hi": "How do I know if a bolt is properly tightened?"
+            "en": "How do I know if a bolt is properly tightened?"
           },
           "a": {
-            "en": "Use a calibrated torque wrench set to the correct specification. For critical joints, use direct tension indicators (washers with raised bumps) or ultrasonic bolt stretch measurement.",
-            "zh": "Use a calibrated torque wrench set to the correct specification. For critical joints, use direct tension indicators (washers with raised bumps) or ultrasonic bolt stretch measurement.",
-            "es": "Use a calibrated torque wrench set to the correct specification. For critical joints, use direct tension indicators (washers with raised bumps) or ultrasonic bolt stretch measurement.",
-            "ar": "Use a calibrated torque wrench set to the correct specification. For critical joints, use direct tension indicators (washers with raised bumps) or ultrasonic bolt stretch measurement.",
-            "fr": "Use a calibrated torque wrench set to the correct specification. For critical joints, use direct tension indicators (washers with raised bumps) or ultrasonic bolt stretch measurement.",
-            "pt": "Use a calibrated torque wrench set to the correct specification. For critical joints, use direct tension indicators (washers with raised bumps) or ultrasonic bolt stretch measurement.",
-            "ru": "Use a calibrated torque wrench set to the correct specification. For critical joints, use direct tension indicators (washers with raised bumps) or ultrasonic bolt stretch measurement.",
-            "ja": "Use a calibrated torque wrench set to the correct specification. For critical joints, use direct tension indicators (washers with raised bumps) or ultrasonic bolt stretch measurement.",
-            "de": "Use a calibrated torque wrench set to the correct specification. For critical joints, use direct tension indicators (washers with raised bumps) or ultrasonic bolt stretch measurement.",
-            "hi": "Use a calibrated torque wrench set to the correct specification. For critical joints, use direct tension indicators (washers with raised bumps) or ultrasonic bolt stretch measurement."
+            "en": "Use a calibrated torque wrench set to the correct specification. For critical joints, use direct tension indicators (washers with raised bumps) or ultrasonic bolt stretch measurement."
           }
         }
       ]

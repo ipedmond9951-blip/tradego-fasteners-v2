@@ -206,27 +206,11 @@
         {
           "q": {
             "en": "How can I identify whether an existing bolt is metric or imperial?",
-            "zh": "如何识别现有螺栓是公制还是英制？",
-            "es": "How can I identify whether an existing bolt is metric or imperial?",
-            "ar": "How can I identify whether an existing bolt is metric or imperial?",
-            "fr": "How can I identify whether an existing bolt is metric or imperial?",
-            "pt": "How can I identify whether an existing bolt is metric or imperial?",
-            "ru": "How can I identify whether an existing bolt is metric or imperial?",
-            "ja": "How can I identify whether an existing bolt is metric or imperial?",
-            "de": "How can I identify whether an existing bolt is metric or imperial?",
-            "hi": "How can I identify whether an existing bolt is metric or imperial?"
+            "zh": "如何识别现有螺栓是公制还是英制？"
           },
           "a": {
             "en": "Use a thread gauge (also called a screw pitch gauge) to measure the thread pitch. If the pitch matches a metric value (e.g., 1.5mm), it's metric. If it matches a TPI value (e.g., 16 threads per inch), it's imperial. Calipers can confirm the nominal diameter.",
-            "zh": "使用螺纹规测量螺距。如果螺距匹配公制值（如1.5mm），则为公制。如果匹配每英寸牙数值，则为英制。卡尺可确认公称直径。",
-            "es": "Use a thread gauge (also called a screw pitch gauge) to measure the thread pitch. If the pitch matches a metric value (e.g., 1.5mm), it's metric. If it matches a TPI value (e.g., 16 threads per inch), it's imperial. Calipers can confirm the nominal diameter.",
-            "ar": "Use a thread gauge (also called a screw pitch gauge) to measure the thread pitch. If the pitch matches a metric value (e.g., 1.5mm), it's metric. If it matches a TPI value (e.g., 16 threads per inch), it's imperial. Calipers can confirm the nominal diameter.",
-            "fr": "Use a thread gauge (also called a screw pitch gauge) to measure the thread pitch. If the pitch matches a metric value (e.g., 1.5mm), it's metric. If it matches a TPI value (e.g., 16 threads per inch), it's imperial. Calipers can confirm the nominal diameter.",
-            "pt": "Use a thread gauge (also called a screw pitch gauge) to measure the thread pitch. If the pitch matches a metric value (e.g., 1.5mm), it's metric. If it matches a TPI value (e.g., 16 threads per inch), it's imperial. Calipers can confirm the nominal diameter.",
-            "ru": "Use a thread gauge (also called a screw pitch gauge) to measure the thread pitch. If the pitch matches a metric value (e.g., 1.5mm), it's metric. If it matches a TPI value (e.g., 16 threads per inch), it's imperial. Calipers can confirm the nominal diameter.",
-            "ja": "Use a thread gauge (also called a screw pitch gauge) to measure the thread pitch. If the pitch matches a metric value (e.g., 1.5mm), it's metric. If it matches a TPI value (e.g., 16 threads per inch), it's imperial. Calipers can confirm the nominal diameter.",
-            "de": "Use a thread gauge (also called a screw pitch gauge) to measure the thread pitch. If the pitch matches a metric value (e.g., 1.5mm), it's metric. If it matches a TPI value (e.g., 16 threads per inch), it's imperial. Calipers can confirm the nominal diameter.",
-            "hi": "Use a thread gauge (also called a screw pitch gauge) to measure the thread pitch. If the pitch matches a metric value (e.g., 1.5mm), it's metric. If it matches a TPI value (e.g., 16 threads per inch), it's imperial. Calipers can confirm the nominal diameter."
+            "zh": "使用螺纹规测量螺距。如果螺距匹配公制值（如1.5mm），则为公制。如果匹配每英寸牙数值，则为英制。卡尺可确认公称直径。"
           },
           "question": {},
           "answer": {}
@@ -234,27 +218,11 @@
         {
           "q": {
             "en": "Can I use a helicoil to convert imperial threads to metric?",
-            "zh": "可以用螺纹嵌件将英制螺纹转换为公制吗？",
-            "es": "Can I use a helicoil to convert imperial threads to metric?",
-            "ar": "Can I use a helicoil to convert imperial threads to metric?",
-            "fr": "Can I use a helicoil to convert imperial threads to metric?",
-            "pt": "Can I use a helicoil to convert imperial threads to metric?",
-            "ru": "Can I use a helicoil to convert imperial threads to metric?",
-            "ja": "Can I use a helicoil to convert imperial threads to metric?",
-            "de": "Can I use a helicoil to convert imperial threads to metric?",
-            "hi": "Can I use a helicoil to convert imperial threads to metric?"
+            "zh": "可以用螺纹嵌件将英制螺纹转换为公制吗？"
           },
           "a": {
             "en": "Yes, helicoil inserts can repair damaged threads or convert between thread systems in non-structural applications. However, for structural connections, thread conversion is not recommended — use the original thread specification.",
-            "zh": "可以，螺纹嵌件可修复损坏螺纹或在非结构应用中转换螺纹体系。但结构连接不建议转换，使用原始螺纹规格。",
-            "es": "Yes, helicoil inserts can repair damaged threads or convert between thread systems in non-structural applications. However, for structural connections, thread conversion is not recommended — use the original thread specification.",
-            "ar": "Yes, helicoil inserts can repair damaged threads or convert between thread systems in non-structural applications. However, for structural connections, thread conversion is not recommended — use the original thread specification.",
-            "fr": "Yes, helicoil inserts can repair damaged threads or convert between thread systems in non-structural applications. However, for structural connections, thread conversion is not recommended — use the original thread specification.",
-            "pt": "Yes, helicoil inserts can repair damaged threads or convert between thread systems in non-structural applications. However, for structural connections, thread conversion is not recommended — use the original thread specification.",
-            "ru": "Yes, helicoil inserts can repair damaged threads or convert between thread systems in non-structural applications. However, for structural connections, thread conversion is not recommended — use the original thread specification.",
-            "ja": "Yes, helicoil inserts can repair damaged threads or convert between thread systems in non-structural applications. However, for structural connections, thread conversion is not recommended — use the original thread specification.",
-            "de": "Yes, helicoil inserts can repair damaged threads or convert between thread systems in non-structural applications. However, for structural connections, thread conversion is not recommended — use the original thread specification.",
-            "hi": "Yes, helicoil inserts can repair damaged threads or convert between thread systems in non-structural applications. However, for structural connections, thread conversion is not recommended — use the original thread specification."
+            "zh": "可以，螺纹嵌件可修复损坏螺纹或在非结构应用中转换螺纹体系。但结构连接不建议转换，使用原始螺纹规格。"
           },
           "question": {},
           "answer": {}

@@ -374,106 +374,34 @@
       "faqItems": [
         {
           "q": {
-            "en": "What does the dot in 8.8 mean?",
-            "zh": "What does the dot in 8.8 mean?",
-            "es": "What does the dot in 8.8 mean?",
-            "ar": "What does the dot in 8.8 mean?",
-            "fr": "What does the dot in 8.8 mean?",
-            "pt": "What does the dot in 8.8 mean?",
-            "ru": "What does the dot in 8.8 mean?",
-            "ja": "What does the dot in 8.8 mean?",
-            "de": "What does the dot in 8.8 mean?",
-            "hi": "What does the dot in 8.8 mean?"
+            "en": "What does the dot in 8.8 mean?"
           },
           "a": {
-            "en": "The dot separates the two numbers. First number (8) = tensile strength / 100 = 800 MPa. Second number (8) = yield ratio × 10 = 0.8, so yield strength = 800 × 0.8 = 640 MPa.",
-            "zh": "The dot separates the two numbers. First number (8) = tensile strength / 100 = 800 MPa. Second number (8) = yield ratio × 10 = 0.8, so yield strength = 800 × 0.8 = 640 MPa.",
-            "es": "The dot separates the two numbers. First number (8) = tensile strength / 100 = 800 MPa. Second number (8) = yield ratio × 10 = 0.8, so yield strength = 800 × 0.8 = 640 MPa.",
-            "ar": "The dot separates the two numbers. First number (8) = tensile strength / 100 = 800 MPa. Second number (8) = yield ratio × 10 = 0.8, so yield strength = 800 × 0.8 = 640 MPa.",
-            "fr": "The dot separates the two numbers. First number (8) = tensile strength / 100 = 800 MPa. Second number (8) = yield ratio × 10 = 0.8, so yield strength = 800 × 0.8 = 640 MPa.",
-            "pt": "The dot separates the two numbers. First number (8) = tensile strength / 100 = 800 MPa. Second number (8) = yield ratio × 10 = 0.8, so yield strength = 800 × 0.8 = 640 MPa.",
-            "ru": "The dot separates the two numbers. First number (8) = tensile strength / 100 = 800 MPa. Second number (8) = yield ratio × 10 = 0.8, so yield strength = 800 × 0.8 = 640 MPa.",
-            "ja": "The dot separates the two numbers. First number (8) = tensile strength / 100 = 800 MPa. Second number (8) = yield ratio × 10 = 0.8, so yield strength = 800 × 0.8 = 640 MPa.",
-            "de": "The dot separates the two numbers. First number (8) = tensile strength / 100 = 800 MPa. Second number (8) = yield ratio × 10 = 0.8, so yield strength = 800 × 0.8 = 640 MPa.",
-            "hi": "The dot separates the two numbers. First number (8) = tensile strength / 100 = 800 MPa. Second number (8) = yield ratio × 10 = 0.8, so yield strength = 800 × 0.8 = 640 MPa."
+            "en": "The dot separates the two numbers. First number (8) = tensile strength / 100 = 800 MPa. Second number (8) = yield ratio × 10 = 0.8, so yield strength = 800 × 0.8 = 640 MPa."
           }
         },
         {
           "q": {
-            "en": "Can I use Grade 8.8 instead of 10.9?",
-            "zh": "Can I use Grade 8.8 instead of 10.9?",
-            "es": "Can I use Grade 8.8 instead of 10.9?",
-            "ar": "Can I use Grade 8.8 instead of 10.9?",
-            "fr": "Can I use Grade 8.8 instead of 10.9?",
-            "pt": "Can I use Grade 8.8 instead of 10.9?",
-            "ru": "Can I use Grade 8.8 instead of 10.9?",
-            "ja": "Can I use Grade 8.8 instead of 10.9?",
-            "de": "Can I use Grade 8.8 instead of 10.9?",
-            "hi": "Can I use Grade 8.8 instead of 10.9?"
+            "en": "Can I use Grade 8.8 instead of 10.9?"
           },
           "a": {
-            "en": "Only if the engineering design allows it. Grade 8.8 has 80% of the tensile strength but only 71% of the yield strength of Grade 10.9. Never substitute down without engineer approval.",
-            "zh": "Only if the engineering design allows it. Grade 8.8 has 80% of the tensile strength but only 71% of the yield strength of Grade 10.9. Never substitute down without engineer approval.",
-            "es": "Only if the engineering design allows it. Grade 8.8 has 80% of the tensile strength but only 71% of the yield strength of Grade 10.9. Never substitute down without engineer approval.",
-            "ar": "Only if the engineering design allows it. Grade 8.8 has 80% of the tensile strength but only 71% of the yield strength of Grade 10.9. Never substitute down without engineer approval.",
-            "fr": "Only if the engineering design allows it. Grade 8.8 has 80% of the tensile strength but only 71% of the yield strength of Grade 10.9. Never substitute down without engineer approval.",
-            "pt": "Only if the engineering design allows it. Grade 8.8 has 80% of the tensile strength but only 71% of the yield strength of Grade 10.9. Never substitute down without engineer approval.",
-            "ru": "Only if the engineering design allows it. Grade 8.8 has 80% of the tensile strength but only 71% of the yield strength of Grade 10.9. Never substitute down without engineer approval.",
-            "ja": "Only if the engineering design allows it. Grade 8.8 has 80% of the tensile strength but only 71% of the yield strength of Grade 10.9. Never substitute down without engineer approval.",
-            "de": "Only if the engineering design allows it. Grade 8.8 has 80% of the tensile strength but only 71% of the yield strength of Grade 10.9. Never substitute down without engineer approval.",
-            "hi": "Only if the engineering design allows it. Grade 8.8 has 80% of the tensile strength but only 71% of the yield strength of Grade 10.9. Never substitute down without engineer approval."
+            "en": "Only if the engineering design allows it. Grade 8.8 has 80% of the tensile strength but only 71% of the yield strength of Grade 10.9. Never substitute down without engineer approval."
           }
         },
         {
           "q": {
-            "en": "Are stainless steel bolts as strong as Grade 8.8?",
-            "zh": "Are stainless steel bolts as strong as Grade 8.8?",
-            "es": "Are stainless steel bolts as strong as Grade 8.8?",
-            "ar": "Are stainless steel bolts as strong as Grade 8.8?",
-            "fr": "Are stainless steel bolts as strong as Grade 8.8?",
-            "pt": "Are stainless steel bolts as strong as Grade 8.8?",
-            "ru": "Are stainless steel bolts as strong as Grade 8.8?",
-            "ja": "Are stainless steel bolts as strong as Grade 8.8?",
-            "de": "Are stainless steel bolts as strong as Grade 8.8?",
-            "hi": "Are stainless steel bolts as strong as Grade 8.8?"
+            "en": "Are stainless steel bolts as strong as Grade 8.8?"
           },
           "a": {
-            "en": "No. Standard A2-70 stainless bolts have a tensile strength of 700 MPa — less than Grade 8.8 (800 MPa). For equivalent strength, use A4-80 or A2-80 grade stainless, but these are specialty items with premium pricing.",
-            "zh": "No. Standard A2-70 stainless bolts have a tensile strength of 700 MPa — less than Grade 8.8 (800 MPa). For equivalent strength, use A4-80 or A2-80 grade stainless, but these are specialty items with premium pricing.",
-            "es": "No. Standard A2-70 stainless bolts have a tensile strength of 700 MPa — less than Grade 8.8 (800 MPa). For equivalent strength, use A4-80 or A2-80 grade stainless, but these are specialty items with premium pricing.",
-            "ar": "No. Standard A2-70 stainless bolts have a tensile strength of 700 MPa — less than Grade 8.8 (800 MPa). For equivalent strength, use A4-80 or A2-80 grade stainless, but these are specialty items with premium pricing.",
-            "fr": "No. Standard A2-70 stainless bolts have a tensile strength of 700 MPa — less than Grade 8.8 (800 MPa). For equivalent strength, use A4-80 or A2-80 grade stainless, but these are specialty items with premium pricing.",
-            "pt": "No. Standard A2-70 stainless bolts have a tensile strength of 700 MPa — less than Grade 8.8 (800 MPa). For equivalent strength, use A4-80 or A2-80 grade stainless, but these are specialty items with premium pricing.",
-            "ru": "No. Standard A2-70 stainless bolts have a tensile strength of 700 MPa — less than Grade 8.8 (800 MPa). For equivalent strength, use A4-80 or A2-80 grade stainless, but these are specialty items with premium pricing.",
-            "ja": "No. Standard A2-70 stainless bolts have a tensile strength of 700 MPa — less than Grade 8.8 (800 MPa). For equivalent strength, use A4-80 or A2-80 grade stainless, but these are specialty items with premium pricing.",
-            "de": "No. Standard A2-70 stainless bolts have a tensile strength of 700 MPa — less than Grade 8.8 (800 MPa). For equivalent strength, use A4-80 or A2-80 grade stainless, but these are specialty items with premium pricing.",
-            "hi": "No. Standard A2-70 stainless bolts have a tensile strength of 700 MPa — less than Grade 8.8 (800 MPa). For equivalent strength, use A4-80 or A2-80 grade stainless, but these are specialty items with premium pricing."
+            "en": "No. Standard A2-70 stainless bolts have a tensile strength of 700 MPa — less than Grade 8.8 (800 MPa). For equivalent strength, use A4-80 or A2-80 grade stainless, but these are specialty items with premium pricing."
           }
         },
         {
           "q": {
-            "en": "How do I verify bolt grade on receipt?",
-            "zh": "How do I verify bolt grade on receipt?",
-            "es": "How do I verify bolt grade on receipt?",
-            "ar": "How do I verify bolt grade on receipt?",
-            "fr": "How do I verify bolt grade on receipt?",
-            "pt": "How do I verify bolt grade on receipt?",
-            "ru": "How do I verify bolt grade on receipt?",
-            "ja": "How do I verify bolt grade on receipt?",
-            "de": "How do I verify bolt grade on receipt?",
-            "hi": "How do I verify bolt grade on receipt?"
+            "en": "How do I verify bolt grade on receipt?"
           },
           "a": {
-            "en": "Check the head marking matches the purchase order specification. For critical applications, request mill test certificates (MTC) per EN 10204 Type 3.1. Random hardness testing is also recommended for large orders.",
-            "zh": "Check the head marking matches the purchase order specification. For critical applications, request mill test certificates (MTC) per EN 10204 Type 3.1. Random hardness testing is also recommended for large orders.",
-            "es": "Check the head marking matches the purchase order specification. For critical applications, request mill test certificates (MTC) per EN 10204 Type 3.1. Random hardness testing is also recommended for large orders.",
-            "ar": "Check the head marking matches the purchase order specification. For critical applications, request mill test certificates (MTC) per EN 10204 Type 3.1. Random hardness testing is also recommended for large orders.",
-            "fr": "Check the head marking matches the purchase order specification. For critical applications, request mill test certificates (MTC) per EN 10204 Type 3.1. Random hardness testing is also recommended for large orders.",
-            "pt": "Check the head marking matches the purchase order specification. For critical applications, request mill test certificates (MTC) per EN 10204 Type 3.1. Random hardness testing is also recommended for large orders.",
-            "ru": "Check the head marking matches the purchase order specification. For critical applications, request mill test certificates (MTC) per EN 10204 Type 3.1. Random hardness testing is also recommended for large orders.",
-            "ja": "Check the head marking matches the purchase order specification. For critical applications, request mill test certificates (MTC) per EN 10204 Type 3.1. Random hardness testing is also recommended for large orders.",
-            "de": "Check the head marking matches the purchase order specification. For critical applications, request mill test certificates (MTC) per EN 10204 Type 3.1. Random hardness testing is also recommended for large orders.",
-            "hi": "Check the head marking matches the purchase order specification. For critical applications, request mill test certificates (MTC) per EN 10204 Type 3.1. Random hardness testing is also recommended for large orders."
+            "en": "Check the head marking matches the purchase order specification. For critical applications, request mill test certificates (MTC) per EN 10204 Type 3.1. Random hardness testing is also recommended for large orders."
           }
         }
       ],

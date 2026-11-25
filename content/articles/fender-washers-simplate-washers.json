@@ -261,80 +261,26 @@
       "faqItems": [
         {
           "q": {
-            "en": "Should I use a washer under both the bolt head and the nut?",
-            "zh": "Should I use a washer under both the bolt head and the nut?",
-            "es": "Should I use a washer under both the bolt head and the nut?",
-            "ar": "Should I use a washer under both the bolt head and the nut?",
-            "fr": "Should I use a washer under both the bolt head and the nut?",
-            "pt": "Should I use a washer under both the bolt head and the nut?",
-            "ru": "Should I use a washer under both the bolt head and the nut?",
-            "ja": "Should I use a washer under both the bolt head and the nut?",
-            "de": "Should I use a washer under both the bolt head and the nut?",
-            "hi": "Should I use a washer under both the bolt head and the nut?"
+            "en": "Should I use a washer under both the bolt head and the nut?"
           },
           "a": {
-            "en": "Yes, for structural connections and any joint where the bearing surface may compress. Standard practice is: flat washer under the bolt head; flat washer under the nut (on the far side). This distributes the load on both sides of the joint. For thin material connections, use fender washers (larger OD) on both sides for maximum bearing area.",
-            "zh": "Yes, for structural connections and any joint where the bearing surface may compress. Standard practice is: flat washer under the bolt head; flat washer under the nut (on the far side). This distributes the load on both sides of the joint. For thin material connections, use fender washers (larger OD) on both sides for maximum bearing area.",
-            "es": "Yes, for structural connections and any joint where the bearing surface may compress. Standard practice is: flat washer under the bolt head; flat washer under the nut (on the far side). This distributes the load on both sides of the joint. For thin material connections, use fender washers (larger OD) on both sides for maximum bearing area.",
-            "ar": "Yes, for structural connections and any joint where the bearing surface may compress. Standard practice is: flat washer under the bolt head; flat washer under the nut (on the far side). This distributes the load on both sides of the joint. For thin material connections, use fender washers (larger OD) on both sides for maximum bearing area.",
-            "fr": "Yes, for structural connections and any joint where the bearing surface may compress. Standard practice is: flat washer under the bolt head; flat washer under the nut (on the far side). This distributes the load on both sides of the joint. For thin material connections, use fender washers (larger OD) on both sides for maximum bearing area.",
-            "pt": "Yes, for structural connections and any joint where the bearing surface may compress. Standard practice is: flat washer under the bolt head; flat washer under the nut (on the far side). This distributes the load on both sides of the joint. For thin material connections, use fender washers (larger OD) on both sides for maximum bearing area.",
-            "ru": "Yes, for structural connections and any joint where the bearing surface may compress. Standard practice is: flat washer under the bolt head; flat washer under the nut (on the far side). This distributes the load on both sides of the joint. For thin material connections, use fender washers (larger OD) on both sides for maximum bearing area.",
-            "ja": "Yes, for structural connections and any joint where the bearing surface may compress. Standard practice is: flat washer under the bolt head; flat washer under the nut (on the far side). This distributes the load on both sides of the joint. For thin material connections, use fender washers (larger OD) on both sides for maximum bearing area.",
-            "de": "Yes, for structural connections and any joint where the bearing surface may compress. Standard practice is: flat washer under the bolt head; flat washer under the nut (on the far side). This distributes the load on both sides of the joint. For thin material connections, use fender washers (larger OD) on both sides for maximum bearing area.",
-            "hi": "Yes, for structural connections and any joint where the bearing surface may compress. Standard practice is: flat washer under the bolt head; flat washer under the nut (on the far side). This distributes the load on both sides of the joint. For thin material connections, use fender washers (larger OD) on both sides for maximum bearing area."
+            "en": "Yes, for structural connections and any joint where the bearing surface may compress. Standard practice is: flat washer under the bolt head; flat washer under the nut (on the far side). This distributes the load on both sides of the joint. For thin material connections, use fender washers (larger OD) on both sides for maximum bearing area."
           }
         },
         {
           "q": {
-            "en": "When should I use hardened washers?",
-            "zh": "When should I use hardened washers?",
-            "es": "When should I use hardened washers?",
-            "ar": "When should I use hardened washers?",
-            "fr": "When should I use hardened washers?",
-            "pt": "When should I use hardened washers?",
-            "ru": "When should I use hardened washers?",
-            "ja": "When should I use hardened washers?",
-            "de": "When should I use hardened washers?",
-            "hi": "When should I use hardened washers?"
+            "en": "When should I use hardened washers?"
           },
           "a": {
-            "en": "Use hardened washers (through-hardened to HRC 38-45) in high-strength structural connections (Grade 8.8, 10.9, 12.9 bolts). Standard (unhardened) washers can deform (embed) under the high contact pressure from high-strength bolts, reducing the effective clamp load. Hardened washers are also required when the bolt bearing surface is smaller than the washer ID — the hardened washer prevents the bolt from 'punching through' the washer under load.",
-            "zh": "Use hardened washers (through-hardened to HRC 38-45) in high-strength structural connections (Grade 8.8, 10.9, 12.9 bolts). Standard (unhardened) washers can deform (embed) under the high contact pressure from high-strength bolts, reducing the effective clamp load. Hardened washers are also required when the bolt bearing surface is smaller than the washer ID — the hardened washer prevents the bolt from 'punching through' the washer under load.",
-            "es": "Use hardened washers (through-hardened to HRC 38-45) in high-strength structural connections (Grade 8.8, 10.9, 12.9 bolts). Standard (unhardened) washers can deform (embed) under the high contact pressure from high-strength bolts, reducing the effective clamp load. Hardened washers are also required when the bolt bearing surface is smaller than the washer ID — the hardened washer prevents the bolt from 'punching through' the washer under load.",
-            "ar": "Use hardened washers (through-hardened to HRC 38-45) in high-strength structural connections (Grade 8.8, 10.9, 12.9 bolts). Standard (unhardened) washers can deform (embed) under the high contact pressure from high-strength bolts, reducing the effective clamp load. Hardened washers are also required when the bolt bearing surface is smaller than the washer ID — the hardened washer prevents the bolt from 'punching through' the washer under load.",
-            "fr": "Use hardened washers (through-hardened to HRC 38-45) in high-strength structural connections (Grade 8.8, 10.9, 12.9 bolts). Standard (unhardened) washers can deform (embed) under the high contact pressure from high-strength bolts, reducing the effective clamp load. Hardened washers are also required when the bolt bearing surface is smaller than the washer ID — the hardened washer prevents the bolt from 'punching through' the washer under load.",
-            "pt": "Use hardened washers (through-hardened to HRC 38-45) in high-strength structural connections (Grade 8.8, 10.9, 12.9 bolts). Standard (unhardened) washers can deform (embed) under the high contact pressure from high-strength bolts, reducing the effective clamp load. Hardened washers are also required when the bolt bearing surface is smaller than the washer ID — the hardened washer prevents the bolt from 'punching through' the washer under load.",
-            "ru": "Use hardened washers (through-hardened to HRC 38-45) in high-strength structural connections (Grade 8.8, 10.9, 12.9 bolts). Standard (unhardened) washers can deform (embed) under the high contact pressure from high-strength bolts, reducing the effective clamp load. Hardened washers are also required when the bolt bearing surface is smaller than the washer ID — the hardened washer prevents the bolt from 'punching through' the washer under load.",
-            "ja": "Use hardened washers (through-hardened to HRC 38-45) in high-strength structural connections (Grade 8.8, 10.9, 12.9 bolts). Standard (unhardened) washers can deform (embed) under the high contact pressure from high-strength bolts, reducing the effective clamp load. Hardened washers are also required when the bolt bearing surface is smaller than the washer ID — the hardened washer prevents the bolt from 'punching through' the washer under load.",
-            "de": "Use hardened washers (through-hardened to HRC 38-45) in high-strength structural connections (Grade 8.8, 10.9, 12.9 bolts). Standard (unhardened) washers can deform (embed) under the high contact pressure from high-strength bolts, reducing the effective clamp load. Hardened washers are also required when the bolt bearing surface is smaller than the washer ID — the hardened washer prevents the bolt from 'punching through' the washer under load.",
-            "hi": "Use hardened washers (through-hardened to HRC 38-45) in high-strength structural connections (Grade 8.8, 10.9, 12.9 bolts). Standard (unhardened) washers can deform (embed) under the high contact pressure from high-strength bolts, reducing the effective clamp load. Hardened washers are also required when the bolt bearing surface is smaller than the washer ID — the hardened washer prevents the bolt from 'punching through' the washer under load."
+            "en": "Use hardened washers (through-hardened to HRC 38-45) in high-strength structural connections (Grade 8.8, 10.9, 12.9 bolts). Standard (unhardened) washers can deform (embed) under the high contact pressure from high-strength bolts, reducing the effective clamp load. Hardened washers are also required when the bolt bearing surface is smaller than the washer ID — the hardened washer prevents the bolt from 'punching through' the washer under load."
           }
         },
         {
           "q": {
-            "en": "Are fender washers and repair washers the same thing?",
-            "zh": "Are fender washers and repair washers the same thing?",
-            "es": "Are fender washers and repair washers the same thing?",
-            "ar": "Are fender washers and repair washers the same thing?",
-            "fr": "Are fender washers and repair washers the same thing?",
-            "pt": "Are fender washers and repair washers the same thing?",
-            "ru": "Are fender washers and repair washers the same thing?",
-            "ja": "Are fender washers and repair washers the same thing?",
-            "de": "Are fender washers and repair washers the same thing?",
-            "hi": "Are fender washers and repair washers the same thing?"
+            "en": "Are fender washers and repair washers the same thing?"
           },
           "a": {
-            "en": "Yes, fender washers and repair washers are the same product — washers with an oversized outer diameter relative to the inner hole. They are called 'fender washers' because they were originally used to repair automotive fenders (thin sheet metal). In construction, they are essential for any thin-sheet or soft-material connection to prevent pull-through of the fastener head or nut.",
-            "zh": "Yes, fender washers and repair washers are the same product — washers with an oversized outer diameter relative to the inner hole. They are called 'fender washers' because they were originally used to repair automotive fenders (thin sheet metal). In construction, they are essential for any thin-sheet or soft-material connection to prevent pull-through of the fastener head or nut.",
-            "es": "Yes, fender washers and repair washers are the same product — washers with an oversized outer diameter relative to the inner hole. They are called 'fender washers' because they were originally used to repair automotive fenders (thin sheet metal). In construction, they are essential for any thin-sheet or soft-material connection to prevent pull-through of the fastener head or nut.",
-            "ar": "Yes, fender washers and repair washers are the same product — washers with an oversized outer diameter relative to the inner hole. They are called 'fender washers' because they were originally used to repair automotive fenders (thin sheet metal). In construction, they are essential for any thin-sheet or soft-material connection to prevent pull-through of the fastener head or nut.",
-            "fr": "Yes, fender washers and repair washers are the same product — washers with an oversized outer diameter relative to the inner hole. They are called 'fender washers' because they were originally used to repair automotive fenders (thin sheet metal). In construction, they are essential for any thin-sheet or soft-material connection to prevent pull-through of the fastener head or nut.",
-            "pt": "Yes, fender washers and repair washers are the same product — washers with an oversized outer diameter relative to the inner hole. They are called 'fender washers' because they were originally used to repair automotive fenders (thin sheet metal). In construction, they are essential for any thin-sheet or soft-material connection to prevent pull-through of the fastener head or nut.",
-            "ru": "Yes, fender washers and repair washers are the same product — washers with an oversized outer diameter relative to the inner hole. They are called 'fender washers' because they were originally used to repair automotive fenders (thin sheet metal). In construction, they are essential for any thin-sheet or soft-material connection to prevent pull-through of the fastener head or nut.",
-            "ja": "Yes, fender washers and repair washers are the same product — washers with an oversized outer diameter relative to the inner hole. They are called 'fender washers' because they were originally used to repair automotive fenders (thin sheet metal). In construction, they are essential for any thin-sheet or soft-material connection to prevent pull-through of the fastener head or nut.",
-            "de": "Yes, fender washers and repair washers are the same product — washers with an oversized outer diameter relative to the inner hole. They are called 'fender washers' because they were originally used to repair automotive fenders (thin sheet metal). In construction, they are essential for any thin-sheet or soft-material connection to prevent pull-through of the fastener head or nut.",
-            "hi": "Yes, fender washers and repair washers are the same product — washers with an oversized outer diameter relative to the inner hole. They are called 'fender washers' because they were originally used to repair automotive fenders (thin sheet metal). In construction, they are essential for any thin-sheet or soft-material connection to prevent pull-through of the fastener head or nut."
+            "en": "Yes, fender washers and repair washers are the same product — washers with an oversized outer diameter relative to the inner hole. They are called 'fender washers' because they were originally used to repair automotive fenders (thin sheet metal). In construction, they are essential for any thin-sheet or soft-material connection to prevent pull-through of the fastener head or nut."
           }
         }
       ],

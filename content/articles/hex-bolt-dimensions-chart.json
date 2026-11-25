@@ -419,106 +419,34 @@
       "faqItems": [
         {
           "q": {
-            "en": "What does M12×1.75 mean?",
-            "zh": "What does M12×1.75 mean?",
-            "es": "What does M12×1.75 mean?",
-            "ar": "What does M12×1.75 mean?",
-            "fr": "What does M12×1.75 mean?",
-            "pt": "What does M12×1.75 mean?",
-            "ru": "What does M12×1.75 mean?",
-            "ja": "What does M12×1.75 mean?",
-            "de": "What does M12×1.75 mean?",
-            "hi": "What does M12×1.75 mean?"
+            "en": "What does M12×1.75 mean?"
           },
           "a": {
-            "en": "M12 is the nominal thread diameter (12mm). 1.75 is the thread pitch in millimeters (distance between adjacent threads). This is the standard coarse pitch for M12 bolts.",
-            "zh": "M12 is the nominal thread diameter (12mm). 1.75 is the thread pitch in millimeters (distance between adjacent threads). This is the standard coarse pitch for M12 bolts.",
-            "es": "M12 is the nominal thread diameter (12mm). 1.75 is the thread pitch in millimeters (distance between adjacent threads). This is the standard coarse pitch for M12 bolts.",
-            "ar": "M12 is the nominal thread diameter (12mm). 1.75 is the thread pitch in millimeters (distance between adjacent threads). This is the standard coarse pitch for M12 bolts.",
-            "fr": "M12 is the nominal thread diameter (12mm). 1.75 is the thread pitch in millimeters (distance between adjacent threads). This is the standard coarse pitch for M12 bolts.",
-            "pt": "M12 is the nominal thread diameter (12mm). 1.75 is the thread pitch in millimeters (distance between adjacent threads). This is the standard coarse pitch for M12 bolts.",
-            "ru": "M12 is the nominal thread diameter (12mm). 1.75 is the thread pitch in millimeters (distance between adjacent threads). This is the standard coarse pitch for M12 bolts.",
-            "ja": "M12 is the nominal thread diameter (12mm). 1.75 is the thread pitch in millimeters (distance between adjacent threads). This is the standard coarse pitch for M12 bolts.",
-            "de": "M12 is the nominal thread diameter (12mm). 1.75 is the thread pitch in millimeters (distance between adjacent threads). This is the standard coarse pitch for M12 bolts.",
-            "hi": "M12 is the nominal thread diameter (12mm). 1.75 is the thread pitch in millimeters (distance between adjacent threads). This is the standard coarse pitch for M12 bolts."
+            "en": "M12 is the nominal thread diameter (12mm). 1.75 is the thread pitch in millimeters (distance between adjacent threads). This is the standard coarse pitch for M12 bolts."
           }
         },
         {
           "q": {
-            "en": "How do I measure bolt length correctly?",
-            "zh": "How do I measure bolt length correctly?",
-            "es": "How do I measure bolt length correctly?",
-            "ar": "How do I measure bolt length correctly?",
-            "fr": "How do I measure bolt length correctly?",
-            "pt": "How do I measure bolt length correctly?",
-            "ru": "How do I measure bolt length correctly?",
-            "ja": "How do I measure bolt length correctly?",
-            "de": "How do I measure bolt length correctly?",
-            "hi": "How do I measure bolt length correctly?"
+            "en": "How do I measure bolt length correctly?"
           },
           "a": {
-            "en": "For hex bolts, measure from under the head to the end of the bolt. Do NOT include the head height. For countersunk bolts, measure total length including the head.",
-            "zh": "For hex bolts, measure from under the head to the end of the bolt. Do NOT include the head height. For countersunk bolts, measure total length including the head.",
-            "es": "For hex bolts, measure from under the head to the end of the bolt. Do NOT include the head height. For countersunk bolts, measure total length including the head.",
-            "ar": "For hex bolts, measure from under the head to the end of the bolt. Do NOT include the head height. For countersunk bolts, measure total length including the head.",
-            "fr": "For hex bolts, measure from under the head to the end of the bolt. Do NOT include the head height. For countersunk bolts, measure total length including the head.",
-            "pt": "For hex bolts, measure from under the head to the end of the bolt. Do NOT include the head height. For countersunk bolts, measure total length including the head.",
-            "ru": "For hex bolts, measure from under the head to the end of the bolt. Do NOT include the head height. For countersunk bolts, measure total length including the head.",
-            "ja": "For hex bolts, measure from under the head to the end of the bolt. Do NOT include the head height. For countersunk bolts, measure total length including the head.",
-            "de": "For hex bolts, measure from under the head to the end of the bolt. Do NOT include the head height. For countersunk bolts, measure total length including the head.",
-            "hi": "For hex bolts, measure from under the head to the end of the bolt. Do NOT include the head height. For countersunk bolts, measure total length including the head."
+            "en": "For hex bolts, measure from under the head to the end of the bolt. Do NOT include the head height. For countersunk bolts, measure total length including the head."
           }
         },
         {
           "q": {
-            "en": "Can I use a metric wrench on an imperial bolt?",
-            "zh": "Can I use a metric wrench on an imperial bolt?",
-            "es": "Can I use a metric wrench on an imperial bolt?",
-            "ar": "Can I use a metric wrench on an imperial bolt?",
-            "fr": "Can I use a metric wrench on an imperial bolt?",
-            "pt": "Can I use a metric wrench on an imperial bolt?",
-            "ru": "Can I use a metric wrench on an imperial bolt?",
-            "ja": "Can I use a metric wrench on an imperial bolt?",
-            "de": "Can I use a metric wrench on an imperial bolt?",
-            "hi": "Can I use a metric wrench on an imperial bolt?"
+            "en": "Can I use a metric wrench on an imperial bolt?"
           },
           "a": {
-            "en": "Not recommended. Close size matches (e.g., 13mm on 1/2\" bolt) risk rounding the head. Always use the correct wrench size per the bolt standard.",
-            "zh": "Not recommended. Close size matches (e.g., 13mm on 1/2\" bolt) risk rounding the head. Always use the correct wrench size per the bolt standard.",
-            "es": "Not recommended. Close size matches (e.g., 13mm on 1/2\" bolt) risk rounding the head. Always use the correct wrench size per the bolt standard.",
-            "ar": "Not recommended. Close size matches (e.g., 13mm on 1/2\" bolt) risk rounding the head. Always use the correct wrench size per the bolt standard.",
-            "fr": "Not recommended. Close size matches (e.g., 13mm on 1/2\" bolt) risk rounding the head. Always use the correct wrench size per the bolt standard.",
-            "pt": "Not recommended. Close size matches (e.g., 13mm on 1/2\" bolt) risk rounding the head. Always use the correct wrench size per the bolt standard.",
-            "ru": "Not recommended. Close size matches (e.g., 13mm on 1/2\" bolt) risk rounding the head. Always use the correct wrench size per the bolt standard.",
-            "ja": "Not recommended. Close size matches (e.g., 13mm on 1/2\" bolt) risk rounding the head. Always use the correct wrench size per the bolt standard.",
-            "de": "Not recommended. Close size matches (e.g., 13mm on 1/2\" bolt) risk rounding the head. Always use the correct wrench size per the bolt standard.",
-            "hi": "Not recommended. Close size matches (e.g., 13mm on 1/2\" bolt) risk rounding the head. Always use the correct wrench size per the bolt standard."
+            "en": "Not recommended. Close size matches (e.g., 13mm on 1/2\" bolt) risk rounding the head. Always use the correct wrench size per the bolt standard."
           }
         },
         {
           "q": {
-            "en": "What thread engagement depth do I need?",
-            "zh": "What thread engagement depth do I need?",
-            "es": "What thread engagement depth do I need?",
-            "ar": "What thread engagement depth do I need?",
-            "fr": "What thread engagement depth do I need?",
-            "pt": "What thread engagement depth do I need?",
-            "ru": "What thread engagement depth do I need?",
-            "ja": "What thread engagement depth do I need?",
-            "de": "What thread engagement depth do I need?",
-            "hi": "What thread engagement depth do I need?"
+            "en": "What thread engagement depth do I need?"
           },
           "a": {
-            "en": "Minimum thread engagement = 1x bolt diameter for steel nuts, 1.5x diameter for aluminum, and 2x diameter for cast iron. Full engagement equals the nut height, which is typically 0.8x diameter.",
-            "zh": "Minimum thread engagement = 1x bolt diameter for steel nuts, 1.5x diameter for aluminum, and 2x diameter for cast iron. Full engagement equals the nut height, which is typically 0.8x diameter.",
-            "es": "Minimum thread engagement = 1x bolt diameter for steel nuts, 1.5x diameter for aluminum, and 2x diameter for cast iron. Full engagement equals the nut height, which is typically 0.8x diameter.",
-            "ar": "Minimum thread engagement = 1x bolt diameter for steel nuts, 1.5x diameter for aluminum, and 2x diameter for cast iron. Full engagement equals the nut height, which is typically 0.8x diameter.",
-            "fr": "Minimum thread engagement = 1x bolt diameter for steel nuts, 1.5x diameter for aluminum, and 2x diameter for cast iron. Full engagement equals the nut height, which is typically 0.8x diameter.",
-            "pt": "Minimum thread engagement = 1x bolt diameter for steel nuts, 1.5x diameter for aluminum, and 2x diameter for cast iron. Full engagement equals the nut height, which is typically 0.8x diameter.",
-            "ru": "Minimum thread engagement = 1x bolt diameter for steel nuts, 1.5x diameter for aluminum, and 2x diameter for cast iron. Full engagement equals the nut height, which is typically 0.8x diameter.",
-            "ja": "Minimum thread engagement = 1x bolt diameter for steel nuts, 1.5x diameter for aluminum, and 2x diameter for cast iron. Full engagement equals the nut height, which is typically 0.8x diameter.",
-            "de": "Minimum thread engagement = 1x bolt diameter for steel nuts, 1.5x diameter for aluminum, and 2x diameter for cast iron. Full engagement equals the nut height, which is typically 0.8x diameter.",
-            "hi": "Minimum thread engagement = 1x bolt diameter for steel nuts, 1.5x diameter for aluminum, and 2x diameter for cast iron. Full engagement equals the nut height, which is typically 0.8x diameter."
+            "en": "Minimum thread engagement = 1x bolt diameter for steel nuts, 1.5x diameter for aluminum, and 2x diameter for cast iron. Full engagement equals the nut height, which is typically 0.8x diameter."
           }
         }
       ],

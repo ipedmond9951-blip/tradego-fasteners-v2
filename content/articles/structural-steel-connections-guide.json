@@ -194,132 +194,42 @@
       "faqItems": [
         {
           "q": {
-            "en": "What's the difference between ASTM A325 and A490 bolts?",
-            "zh": "What's the difference between ASTM A325 and A490 bolts?",
-            "es": "What's the difference between ASTM A325 and A490 bolts?",
-            "ar": "What's the difference between ASTM A325 and A490 bolts?",
-            "fr": "What's the difference between ASTM A325 and A490 bolts?",
-            "pt": "What's the difference between ASTM A325 and A490 bolts?",
-            "ru": "What's the difference between ASTM A325 and A490 bolts?",
-            "ja": "What's the difference between ASTM A325 and A490 bolts?",
-            "de": "What's the difference between ASTM A325 and A490 bolts?",
-            "hi": "What's the difference between ASTM A325 and A490 bolts?"
+            "en": "What's the difference between ASTM A325 and A490 bolts?"
           },
           "a": {
-            "en": "A325 bolts (minimum 825 MPa tensile strength) are most common for structural connections. A490 bolts (minimum 1035 MPa) are higher strength, used for larger diameters or when higher capacity needed. A490 should not be used in shear connections.",
-            "zh": "A325 bolts (minimum 825 MPa tensile strength) are most common for structural connections. A490 bolts (minimum 1035 MPa) are higher strength, used for larger diameters or when higher capacity needed. A490 should not be used in shear connections.",
-            "es": "A325 bolts (minimum 825 MPa tensile strength) are most common for structural connections. A490 bolts (minimum 1035 MPa) are higher strength, used for larger diameters or when higher capacity needed. A490 should not be used in shear connections.",
-            "ar": "A325 bolts (minimum 825 MPa tensile strength) are most common for structural connections. A490 bolts (minimum 1035 MPa) are higher strength, used for larger diameters or when higher capacity needed. A490 should not be used in shear connections.",
-            "fr": "A325 bolts (minimum 825 MPa tensile strength) are most common for structural connections. A490 bolts (minimum 1035 MPa) are higher strength, used for larger diameters or when higher capacity needed. A490 should not be used in shear connections.",
-            "pt": "A325 bolts (minimum 825 MPa tensile strength) are most common for structural connections. A490 bolts (minimum 1035 MPa) are higher strength, used for larger diameters or when higher capacity needed. A490 should not be used in shear connections.",
-            "ru": "A325 bolts (minimum 825 MPa tensile strength) are most common for structural connections. A490 bolts (minimum 1035 MPa) are higher strength, used for larger diameters or when higher capacity needed. A490 should not be used in shear connections.",
-            "ja": "A325 bolts (minimum 825 MPa tensile strength) are most common for structural connections. A490 bolts (minimum 1035 MPa) are higher strength, used for larger diameters or when higher capacity needed. A490 should not be used in shear connections.",
-            "de": "A325 bolts (minimum 825 MPa tensile strength) are most common for structural connections. A490 bolts (minimum 1035 MPa) are higher strength, used for larger diameters or when higher capacity needed. A490 should not be used in shear connections.",
-            "hi": "A325 bolts (minimum 825 MPa tensile strength) are most common for structural connections. A490 bolts (minimum 1035 MPa) are higher strength, used for larger diameters or when higher capacity needed. A490 should not be used in shear connections."
+            "en": "A325 bolts (minimum 825 MPa tensile strength) are most common for structural connections. A490 bolts (minimum 1035 MPa) are higher strength, used for larger diameters or when higher capacity needed. A490 should not be used in shear connections."
           }
         },
         {
           "q": {
-            "en": "Can I use ordinary hex bolts for structural connections?",
-            "zh": "Can I use ordinary hex bolts for structural connections?",
-            "es": "Can I use ordinary hex bolts for structural connections?",
-            "ar": "Can I use ordinary hex bolts for structural connections?",
-            "fr": "Can I use ordinary hex bolts for structural connections?",
-            "pt": "Can I use ordinary hex bolts for structural connections?",
-            "ru": "Can I use ordinary hex bolts for structural connections?",
-            "ja": "Can I use ordinary hex bolts for structural connections?",
-            "de": "Can I use ordinary hex bolts for structural connections?",
-            "hi": "Can I use ordinary hex bolts for structural connections?"
+            "en": "Can I use ordinary hex bolts for structural connections?"
           },
           "a": {
-            "en": "No. Structural connections require high-strength bolts (Grade 8.8+) with controlled pre-tension. Ordinary bolts (Grade 4.6) are for non-structural connections only.",
-            "zh": "No. Structural connections require high-strength bolts (Grade 8.8+) with controlled pre-tension. Ordinary bolts (Grade 4.6) are for non-structural connections only.",
-            "es": "No. Structural connections require high-strength bolts (Grade 8.8+) with controlled pre-tension. Ordinary bolts (Grade 4.6) are for non-structural connections only.",
-            "ar": "No. Structural connections require high-strength bolts (Grade 8.8+) with controlled pre-tension. Ordinary bolts (Grade 4.6) are for non-structural connections only.",
-            "fr": "No. Structural connections require high-strength bolts (Grade 8.8+) with controlled pre-tension. Ordinary bolts (Grade 4.6) are for non-structural connections only.",
-            "pt": "No. Structural connections require high-strength bolts (Grade 8.8+) with controlled pre-tension. Ordinary bolts (Grade 4.6) are for non-structural connections only.",
-            "ru": "No. Structural connections require high-strength bolts (Grade 8.8+) with controlled pre-tension. Ordinary bolts (Grade 4.6) are for non-structural connections only.",
-            "ja": "No. Structural connections require high-strength bolts (Grade 8.8+) with controlled pre-tension. Ordinary bolts (Grade 4.6) are for non-structural connections only.",
-            "de": "No. Structural connections require high-strength bolts (Grade 8.8+) with controlled pre-tension. Ordinary bolts (Grade 4.6) are for non-structural connections only.",
-            "hi": "No. Structural connections require high-strength bolts (Grade 8.8+) with controlled pre-tension. Ordinary bolts (Grade 4.6) are for non-structural connections only."
+            "en": "No. Structural connections require high-strength bolts (Grade 8.8+) with controlled pre-tension. Ordinary bolts (Grade 4.6) are for non-structural connections only."
           }
         },
         {
           "q": {
-            "en": "What's the correct tightening sequence?",
-            "zh": "What's the correct tightening sequence?",
-            "es": "What's the correct tightening sequence?",
-            "ar": "What's the correct tightening sequence?",
-            "fr": "What's the correct tightening sequence?",
-            "pt": "What's the correct tightening sequence?",
-            "ru": "What's the correct tightening sequence?",
-            "ja": "What's the correct tightening sequence?",
-            "de": "What's the correct tightening sequence?",
-            "hi": "What's the correct tightening sequence?"
+            "en": "What's the correct tightening sequence?"
           },
           "a": {
-            "en": "For multiple-bolt connections, tighten in a star pattern from center outward. This prevents uneven loading and warping of the connection.",
-            "zh": "For multiple-bolt connections, tighten in a star pattern from center outward. This prevents uneven loading and warping of the connection.",
-            "es": "For multiple-bolt connections, tighten in a star pattern from center outward. This prevents uneven loading and warping of the connection.",
-            "ar": "For multiple-bolt connections, tighten in a star pattern from center outward. This prevents uneven loading and warping of the connection.",
-            "fr": "For multiple-bolt connections, tighten in a star pattern from center outward. This prevents uneven loading and warping of the connection.",
-            "pt": "For multiple-bolt connections, tighten in a star pattern from center outward. This prevents uneven loading and warping of the connection.",
-            "ru": "For multiple-bolt connections, tighten in a star pattern from center outward. This prevents uneven loading and warping of the connection.",
-            "ja": "For multiple-bolt connections, tighten in a star pattern from center outward. This prevents uneven loading and warping of the connection.",
-            "de": "For multiple-bolt connections, tighten in a star pattern from center outward. This prevents uneven loading and warping of the connection.",
-            "hi": "For multiple-bolt connections, tighten in a star pattern from center outward. This prevents uneven loading and warping of the connection."
+            "en": "For multiple-bolt connections, tighten in a star pattern from center outward. This prevents uneven loading and warping of the connection."
           }
         },
         {
           "q": {
-            "en": "Why do structural bolts sometimes need washers?",
-            "zh": "Why do structural bolts sometimes need washers?",
-            "es": "Why do structural bolts sometimes need washers?",
-            "ar": "Why do structural bolts sometimes need washers?",
-            "fr": "Why do structural bolts sometimes need washers?",
-            "pt": "Why do structural bolts sometimes need washers?",
-            "ru": "Why do structural bolts sometimes need washers?",
-            "ja": "Why do structural bolts sometimes need washers?",
-            "de": "Why do structural bolts sometimes need washers?",
-            "hi": "Why do structural bolts sometimes need washers?"
+            "en": "Why do structural bolts sometimes need washers?"
           },
           "a": {
-            "en": "Washers serve multiple purposes: distribution of load over connected material, protection of coated surfaces, and in some cases, indicating proper pre-tensioning.",
-            "zh": "Washers serve multiple purposes: distribution of load over connected material, protection of coated surfaces, and in some cases, indicating proper pre-tensioning.",
-            "es": "Washers serve multiple purposes: distribution of load over connected material, protection of coated surfaces, and in some cases, indicating proper pre-tensioning.",
-            "ar": "Washers serve multiple purposes: distribution of load over connected material, protection of coated surfaces, and in some cases, indicating proper pre-tensioning.",
-            "fr": "Washers serve multiple purposes: distribution of load over connected material, protection of coated surfaces, and in some cases, indicating proper pre-tensioning.",
-            "pt": "Washers serve multiple purposes: distribution of load over connected material, protection of coated surfaces, and in some cases, indicating proper pre-tensioning.",
-            "ru": "Washers serve multiple purposes: distribution of load over connected material, protection of coated surfaces, and in some cases, indicating proper pre-tensioning.",
-            "ja": "Washers serve multiple purposes: distribution of load over connected material, protection of coated surfaces, and in some cases, indicating proper pre-tensioning.",
-            "de": "Washers serve multiple purposes: distribution of load over connected material, protection of coated surfaces, and in some cases, indicating proper pre-tensioning.",
-            "hi": "Washers serve multiple purposes: distribution of load over connected material, protection of coated surfaces, and in some cases, indicating proper pre-tensioning."
+            "en": "Washers serve multiple purposes: distribution of load over connected material, protection of coated surfaces, and in some cases, indicating proper pre-tensioning."
           }
         },
         {
           "q": {
-            "en": "How do I know if a connection is pre-tensioned?",
-            "zh": "How do I know if a connection is pre-tensioned?",
-            "es": "How do I know if a connection is pre-tensioned?",
-            "ar": "How do I know if a connection is pre-tensioned?",
-            "fr": "How do I know if a connection is pre-tensioned?",
-            "pt": "How do I know if a connection is pre-tensioned?",
-            "ru": "How do I know if a connection is pre-tensioned?",
-            "ja": "How do I know if a connection is pre-tensioned?",
-            "de": "How do I know if a connection is pre-tensioned?",
-            "hi": "How do I know if a connection is pre-tensioned?"
+            "en": "How do I know if a connection is pre-tensioned?"
           },
           "a": {
-            "en": "Specifications and drawings indicate pre-tensioning requirements. If not specified, check applicable code requirements. Critical structures typically require pre-tensioning.",
-            "zh": "Specifications and drawings indicate pre-tensioning requirements. If not specified, check applicable code requirements. Critical structures typically require pre-tensioning.",
-            "es": "Specifications and drawings indicate pre-tensioning requirements. If not specified, check applicable code requirements. Critical structures typically require pre-tensioning.",
-            "ar": "Specifications and drawings indicate pre-tensioning requirements. If not specified, check applicable code requirements. Critical structures typically require pre-tensioning.",
-            "fr": "Specifications and drawings indicate pre-tensioning requirements. If not specified, check applicable code requirements. Critical structures typically require pre-tensioning.",
-            "pt": "Specifications and drawings indicate pre-tensioning requirements. If not specified, check applicable code requirements. Critical structures typically require pre-tensioning.",
-            "ru": "Specifications and drawings indicate pre-tensioning requirements. If not specified, check applicable code requirements. Critical structures typically require pre-tensioning.",
-            "ja": "Specifications and drawings indicate pre-tensioning requirements. If not specified, check applicable code requirements. Critical structures typically require pre-tensioning.",
-            "de": "Specifications and drawings indicate pre-tensioning requirements. If not specified, check applicable code requirements. Critical structures typically require pre-tensioning.",
-            "hi": "Specifications and drawings indicate pre-tensioning requirements. If not specified, check applicable code requirements. Critical structures typically require pre-tensioning."
+            "en": "Specifications and drawings indicate pre-tensioning requirements. If not specified, check applicable code requirements. Critical structures typically require pre-tensioning."
           }
         }
       ]
