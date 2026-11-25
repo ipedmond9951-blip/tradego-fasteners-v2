@@ -28,6 +28,15 @@ fi
 LOCK_DIR="/tmp/seo-pipeline.lock"
 LOCK_FILE="$LOCK_DIR/pid"
 
+# 2026-11-25: log() 必须在使用之前定义 —— 原先定义在 flock 检查之后，
+# 早期分支调用 log 会落到 macOS 系统 /usr/bin/log，报 "Unknown subcommand" 并以 64 退出。
+LOG_DIR="$HOME/workspace/tradego-fasteners-v2/logs/seo-ai-pipeline"
+LOG_FILE="$LOG_DIR/guardian-$(date +%Y-%m-%d).log"
+mkdir -p "$LOG_DIR"
+log() {
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" | tee -a "$LOG_FILE"
+}
+
 # 2026-11-23: 当日已成功发布过一篇就不再补跑，避免重复题材
 DAILY_MARK="$HOME/workspace/tradego-fasteners-v2/logs/seo-ai-pipeline/published-$(date +%F).lock"
 if [ -f "$DAILY_MARK" ]; then
@@ -52,18 +61,10 @@ if [ -d "$LOCK_DIR" ]; then
 fi
 
 PROJECT_DIR="/Users/zhangming/workspace/tradego-fasteners-v2"
-LOG_DIR="$PROJECT_DIR/logs/seo-ai-pipeline"
-LOG_FILE="$LOG_DIR/guardian-$(date +%Y-%m-%d).log"
 STATE_FILE="$LOG_DIR/state.json"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 TELEGRAM_TOKEN="${TELEGRAM_BOT_TOKEN:-}"
 TELEGRAM_CHAT="${TELEGRAM_CHAT_ID:-8758157215}"
-
-mkdir -p "$LOG_DIR"
-
-log() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" | tee -a "$LOG_FILE"
-}
 
 notify_telegram() {
     local msg="$1"
