@@ -16,7 +16,8 @@
     "content:contract:baseline": "python3 scripts/content_contract.py --write-baseline content/contract-baseline.json",
     "content:contract:backlog": "python3 scripts/content_contract_backlog.py",
     "content:gate": "python3 scripts/content_gate.py",
-    "content:gate:brief": "python3 scripts/content_gate.py --brief"
+    "content:gate:brief": "python3 scripts/content_gate.py --brief",
+    "content:append": "python3 scripts/append_body.py"
   },
   "dependencies": {
     "@google-analytics/data": "^5.2.2",

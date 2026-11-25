@@ -92,3 +92,17 @@ python3 scripts/content_gate.py --slug X # 单篇
 3. 抽检一篇文章页，确认 `FAQPage` 与正文在位。
 
 日常兜底已并入 `~/AgentOps/bin/content_audit.sh`（每天 08:35），无需手动记得。
+
+## 经验沉淀（2026-11-25，本轮整改）
+
+这一轮把 BLOCK 从 151 清零、清掉 316 处不合规认证自述、补了几十篇正文，过程中暴露的问题比修掉的问题更值得记：
+
+1. **校验器要按"数据真实来源"判，不能按字段外形判。** FAQ 的正文由 `faqItems` 按语种渲染，`body.zh` 空着是正常的；按 body 判定会造出假 BLOCK（当轮 2 篇）。同理，任何"模板生成"的字段都不该进手写校验。
+2. **批量写入必须验编码。** U+FFFD 是丢字的物证，json 依然合法、字段依然非空，只有渲染出来才看得见。现已升级为 `encoding` BLOCK，扫描全库无残留。
+3. **补正文别凭字数感。** 手写中文段落实测比目标少 30~40% 汉字（英文同理），所以补写一律走 `scripts/append_body.py` 回显计数，不够就再补一轮。
+4. **幂等键要稳，且语种必须显式。** 脚本按首 30 字判重，重复推送自动 skip；漏传 `--lang en` 会把英文段塞进中文正文，直接换成 `lang-leak` 问题。
+5. **批量改表述只能做短语级替换。** 整句模板替换会改到 `heading` 与 HTML 结构，一次写坏多语种标题，只能整目录回滚重来。
+6. **push 不等于上线。** Git 部署只更新 `git-main` 别名，生产域名要 `vercel-promote.sh --apply`；预算闸门按 Asia/Shanghai 计，CANCELED 记录延迟生成，prune 要跑第二次。
+7. **提交分批。** 单次 161 个文件的提交会触发批量改动告警，也容易卷进别处窗口的半个改动。
+
+对应工具：`scripts/content_contract.py`（含 `encoding`）、`scripts/append_body.py`（新增）、`scripts/vercel-promote.sh`、`scripts/vercel-prune.sh`。
