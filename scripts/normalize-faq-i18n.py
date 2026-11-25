@@ -22,6 +22,9 @@ SCRIPT = {
 }
 
 
+FOREIGN = re.compile(r"[\u4e00-\u9fff\u3040-\u30ff\u0600-\u06FF\u0400-\u04FF\u0900-\u097F]")
+
+
 def clean_file(path, apply):
     d = json.load(open(path, encoding="utf-8"))
     removed = 0
@@ -37,6 +40,9 @@ def clean_file(path, apply):
                     if not v:
                         continue
                     bad = (v == en) or (lang in SCRIPT and not SCRIPT[lang].search(v))
+                    # 拉丁语种（es/fr/pt/de）里夹汉字/阿语/西里尔，同样属错语种占位
+                    if not bad and lang in ("es", "fr", "pt", "de") and FOREIGN.search(v):
+                        bad = True
                     if bad:
                         del val[lang]
                         removed += 1

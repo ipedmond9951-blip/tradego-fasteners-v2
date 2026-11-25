@@ -50,6 +50,23 @@ def needs(value, en, lang):
     rx = SCRIPTS.get(lang)
     return bool(rx) and not rx.search(v)
 
+HAN = re.compile(r"[\u4e00-\u9fff]")
+
+def valid(lang, v, en):
+    """译文可用性校验：非空、不等于英文、书写系统匹配目标语种、非中文目标不得夹汉字。
+    模型偶尔会把"翻译"回吐成别的语言（曾把中文写进 ar/ru/hi），这一层必须挡住，
+    否则错误值会绕过 native-only 渲染（非空且≠en），直接显示在阿拉伯语页上。"""
+    v = (v or "").strip()
+    en = (en or "").strip()
+    if not v or v == en:
+        return False
+    rx = SCRIPTS.get(lang)
+    if rx and not rx.search(v):
+        return False
+    if lang not in ("zh", "ja") and HAN.search(v):
+        return False
+    return True
+
 def translate(lang, items):
     payload = [{"q": enof(it, "q"), "a": enof(it, "a")} for it in items]
     prompt = f"""你是{LANGS[lang]}母语的紧固件行业技术编辑。把下面英文 FAQ 译成{LANGS[lang]}原生问答。
@@ -130,11 +147,21 @@ def main():
                 if not arr:
                     fails += 1
                     print(f"⚠️  {slug} {lang} 翻译失败（跳过，下次重试）"); continue
+                kept = 0
                 for it, t in zip(todo, arr):
-                    it["q"][lang] = str(t["q"]).strip()
-                    it["a"][lang] = str(t["a"]).strip()
+                    qv = str(t.get("q") or "").strip()
+                    av = str(t.get("a") or "").strip()
+                    if not valid(lang, qv, enof(it, "q")) or not valid(lang, av, enof(it, "a")):
+                        print(f"⚠️  {slug} {lang} 丢弃错语种/异常译文：{qv[:45]!r}")
+                        continue
+                    it["q"][lang] = qv
+                    it["a"][lang] = av
+                    kept += 1
+                if not kept:
+                    fails += 1
+                    continue
                 changed = True
-                print(f"   {slug} {lang} 写入 {len(arr)} 条")
+                print(f"   {slug} {lang} 写入 {kept} 条")
         if changed and not a.dry_run:
             json.dump(d, open(f, "w"), ensure_ascii=False, indent=2)
             open(f, "a").write("\n")

@@ -216,56 +216,58 @@
       "faqItems": [
         {
           "q": {
-            "en": "What are Technical Guide and how are they used?"
+            "en": "How do I choose the right fastener for my project?",
+            "ar": "كيف أختار المثبت المناسب لمشروعي؟"
           },
           "a": {
-            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
+            "ar": "راعِ المادة التي يتم تثبيتها ومتطلبات الأحمال والتعرض البيئي والمعايير المعمول بها. استشر مهندسًا مختصًا عند عدم التأكد من المواصفات."
           }
         },
         {
           "q": {
-            "en": "How do I choose the right fastener for my project?"
+            "en": "What materials are available for these fasteners?",
+            "ar": "ما المواد المتاحة لهذه البراغي؟"
           },
           "a": {
-            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
-          }
-        },
-        {
-          "q": {
-            "en": "What materials are available for these fasteners?"
-          },
-          "a": {
-            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
+            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
+            "ar": "المواد الشائعة تشمل الفولاذ الكربوني والفولاذ المقاوم للصدأ وفولاذ السبائك وسبائك متخصصة، ولكل منها خصائص مختلفة في القوة ومقاومة التآكل والتكلفة."
           }
         },
         {
           "q": {
             "en": "Which foundation anchor type should I use?",
-            "zh": "基础锚栓该用哪种型式？"
+            "zh": "基础锚栓该用哪种型式？",
+            "ar": "أي نوع من مراسي الأساسات أستخدم؟"
           },
           "a": {
             "en": "Cast-in L or J bolts are placed before the concrete pour and give the most reliable capacity. For retrofits or existing foundations use chemical or mechanical anchors with published load tables. Plate-anchored systems suit heavy equipment bases and tanks.",
-            "zh": "L 型或 J 型预埋锚栓在浇筑前埋入，承载力最可靠。改造或既有基础用有公开承载力表的化学或机械锚栓。板式锚固系统适合重型设备基础与储罐。"
+            "zh": "L 型或 J 型预埋锚栓在浇筑前埋入，承载力最可靠。改造或既有基础用有公开承载力表的化学或机械锚栓。板式锚固系统适合重型设备基础与储罐。",
+            "ar": "البراغي المصبوبة على شكل L أو J تُركّب قبل صب الخرسانة وتعطي أوثق سعة تحمل. وللتعديلات أو الأساسات القائمة استخدم مراسي كيميائية أو ميكانيكية مع جداول أحمال منشورة. أنظمة تثبيت الألواح تناسب قواعد المعدات الثقيلة والخزانات."
           }
         },
         {
           "q": {
             "en": "How deep must anchor bolts be embedded?",
-            "zh": "锚栓埋深要多深？"
+            "zh": "锚栓埋深要多深？",
+            "ar": "ما عمق تضمين براغي الأساسات؟"
           },
           "a": {
             "en": "Embedment is set by design, typically 12 diameters or more for cast-in bolts and per the anchor's qualification report for post-installed ones. Edge distance and bolt spacing also control capacity, so do not move anchors closer together on site without recalculating.",
-            "zh": "埋深由设计确定，预埋锚栓一般不少于 12 倍直径，后装锚栓按认证报告取值。边距与间距同样控制承载力，现场不得擅自把锚栓挪近而不重算。"
+            "zh": "埋深由设计确定，预埋锚栓一般不少于 12 倍直径，后装锚栓按认证报告取值。边距与间距同样控制承载力，现场不得擅自把锚栓挪近而不重算。",
+            "ar": "يحدد التصميم عمق التضمين، وعادة لا يقل عن 12 قطرًا للبراغي المصبوبة، ووفق تقرير تأهيل المرسى للمثبتة لاحقًا. المسافة الحافية وتباعد البراغي يؤثران أيضًا في السعة، فلا تقرّب البراغي في الموقع دون إعادة حساب."
           }
         },
         {
           "q": {
             "en": "What goes wrong during anchor bolt installation?",
-            "zh": "锚栓安装容易出什么问题？"
+            "zh": "锚栓安装容易出什么问题？",
+            "ar": "ما الذي يخطئ أثناء تركيب براغي الأساسات؟"
           },
           "a": {
             "en": "Position drift during the pour is the main one - use a rigid template and re-check before and after concrete placement. Also watch thread damage from concrete contact, and grout the base plate properly so load transfers through the grout, not the bolt alone.",
-            "zh": "浇筑时位移是主要问题——用刚性定位模板，浇筑前后各复测一次。还要防止混凝土接触损伤螺纹，并做好底板灌浆，让荷载通过灌浆层传递而不是只压在锚栓上。"
+            "zh": "浇筑时位移是主要问题——用刚性定位模板，浇筑前后各复测一次。还要防止混凝土接触损伤螺纹，并做好底板灌浆，让荷载通过灌浆层传递而不是只压在锚栓上。",
+            "ar": "أكبر مشكلة هي انحراف الموضع أثناء الصب: استخدم قالبًا صلبًا وأعد الفحص قبل الصب وبعده. راقب أيضًا تلف القلاووظ من ملامسة الخرسانة، واحقن مونة أسفل صفيحة القاعدة جيدًا لينتقل الحمل عبر المونة لا عبر البرغي وحده."
           }
         }
       ],

@@ -140,64 +140,92 @@
       "faqItems": [
         {
           "q": {
-            "en": "What are Ghana's import duties for fasteners?"
+            "en": "What are Ghana's import duties for fasteners?",
+            "ja": "ガーナの留め具輸入関税はどの程度ですか？",
+            "es": "加纳对紧固件的进口关税是多少？"
           },
           "a": {
-            "en": "Import duties on fasteners range from 10-20% depending on product type. Ghana uses the ECOWAS common external tariff. Our invoices include detailed HS code classifications for customs purposes."
+            "en": "Import duties on fasteners range from 10-20% depending on product type. Ghana uses the ECOWAS common external tariff. Our invoices include detailed HS code classifications for customs purposes.",
+            "ja": "製品の種類により10-20%程度の関税が課されます。ECOWAS共通外部関税制度が適用され、当社のインボイスには通関用に詳細なHSコード分類を記載しています。",
+            "es": "紧固件进口关税依产品类型在10-20%之间浮动。加纳采用ECOWAS共同对外关税。我们的发票会附上详细的HS编码分类，以便海关清关。"
           }
         },
         {
           "q": {
-            "en": "How long does shipping from China to Tema take?"
+            "en": "How long does shipping from China to Tema take?",
+            "ja": "中国からテマ港までの海上輸送は何日かかりますか？",
+            "es": "从中国海运到Tema港需要多长时间？"
           },
           "a": {
-            "en": "Sea freight takes 25-35 days depending on routing. We recommend ordering 45-55 days ahead of project requirements to account for shipping and customs clearance."
+            "en": "Sea freight takes 25-35 days depending on routing. We recommend ordering 45-55 days ahead of project requirements to account for shipping and customs clearance.",
+            "ja": "航路により25-35日程度です。輸送および通関日数を考慮し、現場納入希望日の45-55日前までのご発注をお勧めします。",
+            "es": "海运通常需要25-35天，具体取决于航线。建议在项目需求前45-55天下单，以留出海运及清关时间。"
           }
         },
         {
           "q": {
-            "en": "Do your fasteners meet Ghana Standards Authority requirements?"
+            "en": "Do your fasteners meet Ghana Standards Authority requirements?",
+            "ja": "貴社の留め具はガーナ基準局（GSA）の要件を満たしていますか？",
+            "es": "贵司紧固件是否符合加纳标准局（GSA）的要求？"
           },
           "a": {
-            "en": "We supply fasteners meeting ISO, DIN, and BS standards accepted in Ghana. For GSA compliance verification, we provide documentation packages including mill test certificates and quality declarations."
+            "en": "We supply fasteners meeting ISO, DIN, and BS standards accepted in Ghana. For GSA compliance verification, we provide documentation packages including mill test certificates and quality declarations.",
+            "ja": "ISO、DIN、BS規格に適合した製品を供給しており、これらの規格はガーナでも認められています。GSA適合確認用に、材料試験成績書および品質宣言書を含む書類一式をご用意しています。",
+            "es": "我们提供的紧固件符合ISO、DIN、BS等标准，这些标准在加纳被认可。如需GSA合规验证，我们可提供包括材质报告及质量声明在内的整套文件。"
           }
         },
         {
           "q": {
-            "en": "Can you deliver to mining sites in remote areas?"
+            "en": "Can you deliver to mining sites in remote areas?",
+            "ja": "鉱山などの遠隔地へも納入可能ですか？",
+            "es": "是否能送货到偏远矿区？"
           },
           "a": {
-            "en": "Yes. We coordinate with freight forwarders for delivery to mining sites in Ahafo, Akyem, Obuasi, Tarkwa, and other locations. Additional transport costs apply for remote areas."
+            "en": "Yes. We coordinate with freight forwarders for delivery to mining sites in Ahafo, Akyem, Obuasi, Tarkwa, and other locations. Additional transport costs apply for remote areas.",
+            "ja": "可能です。Ahafo、Akyem、Obuasi、Tarkwaなど各鉱山への輸送は、フォワーダーと連携して手配いたします。遠隔地の場合は別途輸送費が発生します。",
+            "es": "可以。我们可协调货代将货物送达Ahafo、Akyem、Obuasi、Tarkwa等矿区，偏远地区会产生额外运费。"
           }
         },
         {
           "q": {
             "en": "How does Ghana's import process work for fasteners?",
-            "zh": "加纳进口紧固件流程怎样？"
+            "zh": "加纳进口紧固件流程怎样？",
+            "ja": "ガーナでの留め具輸入手続きの流れを教えてください。",
+            "es": "加纳紧固件进口流程如何？"
           },
           "a": {
             "en": "Ghana uses a destination inspection model: goods clear at Tema or Takoradi with invoice, packing list, bill of lading, certificate of origin and the Ghana Standards Authority conformity documents where applicable. Duty and VAT are assessed at entry, and valuation disputes are the usual delay.",
-            "zh": "加纳采用目的港检验模式：货在特马或塔科拉迪清关，需发票、装箱单、提单、原产地证，适用时还需加纳标准局符合性文件。关税与增值税在入境时核定，估价争议是最常见的延误原因。"
+            "zh": "加纳采用目的港检验模式：货在特马或塔科拉迪清关，需发票、装箱单、提单、原产地证，适用时还需加纳标准局符合性文件。关税与增值税在入境时核定，估价争议是最常见的延误原因。",
+            "ja": "目的地検査方式を採用しており、テマ港またはタコラディ港で通関します。必要書類はインボイス、パッキングリスト、船荷証券、原産地証明書および必要に応じてGSA適合書類です。関税・VATは入港時に査定され、価格評価で紛争が起きやすいため、余裕を持ったスケジュール設定が必要です。",
+            "es": "加纳实行到岸检验制度：货物在Tema或Takoradi口岸清关，需提供发票、装箱单、提单、产地证及加纳标准局合格文件（如适用）。关税与增值税在入境时核定，估价争议是常见延误原因。"
           }
         },
         {
           "q": {
             "en": "What sells best to Ghanaian buyers?",
-            "zh": "加纳买家最认哪些产品？"
+            "zh": "加纳买家最认哪些产品？",
+            "ja": "ガーナでよく売れる留め具はどれですか？",
+            "es": "哪些产品在加纳市场最畅销？"
           },
           "a": {
             "en": "Roofing screws, galvanized structural bolts for warehouses and mining camps, concrete anchors and drywall screws for fit-out work. The oil and gas sector buys stainless and coated hardware with full documentation.",
-            "zh": "屋面钉、仓库与矿营镀锌结构螺栓、混凝土锚栓、装修用干墙钉。油气行业则采购带完整文档的不锈钢与涂层件。"
+            "zh": "屋面钉、仓库与矿营镀锌结构螺栓、混凝土锚栓、装修用干墙钉。油气行业则采购带完整文档的不锈钢与涂层件。",
+            "ja": "屋根用ビス、倉庫・鉱山キャンプ向けの亜鉛めっき構造用ボルト、コンクリートアンカー、石膏ボード用ビスが定番です。石油・ガス分野では、ステンレスおよび表面処理品で全書類を揃えた製品の需要が高いです。",
+            "es": "彩钢瓦螺钉、镀锌结构螺栓（用于仓库与矿区营地）、混凝土锚栓及石膏板螺钉（用于室内装修）。油气行业则采购附带完整文件的优质不锈钢或涂层紧固件。"
           }
         },
         {
           "q": {
             "en": "Which port and route should I plan for?",
-            "zh": "该按哪个港口和路线规划？"
+            "zh": "该按哪个港口和路线规划？",
+            "ja": "どの港・どのルートを利用すべきですか？",
+            "es": "应选择哪个港口及航线？"
           },
           "a": {
             "en": "Tema handles most container traffic for Accra and the north, Takoradi serves the western mining belt. Port congestion and demurrage at Tema are seasonal, so add buffer time to the schedule rather than assuming a fixed transit.",
-            "zh": "特马承担阿克拉及北部大部分集装箱货，塔科拉迪服务西部矿区。特马的拥堵与滞港有季节性，排期要留缓冲，不要假设固定转运时间。"
+            "zh": "特马承担阿克拉及北部大部分集装箱货，塔科拉迪服务西部矿区。特马的拥堵与滞港有季节性，排期要留缓冲，不要假设固定转运时间。",
+            "ja": "アクラおよび北部へはテマ港、西側鉱山地帯へはタコラディ港が便利です。テマ港は季節的に混雑し、デマレージが発生しやすいため、固定日数ではなく余裕を持ったスケジュールを組んでください。",
+            "es": "Tema港承担通往阿克拉及北部地区的大部分集装箱业务，Takoradi港服务西部矿业带。Tema港拥堵及滞期费具有季节性，建议在计划中预留缓冲时间，而非假设固定在途时间。"
           }
         }
       ]
