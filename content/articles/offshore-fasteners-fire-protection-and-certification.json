@@ -19,7 +19,7 @@
     "hi": "अपतटीय प्लेटफ़ॉर्म के लिए अग्नि-रोधी कोटिंग वाले बोल्ट और नट"
   },
   "title": {
-    "en": "Offshore Fire-Rated Fasteners: Africa's Critical Infrastructure Shield",
+    "en": "Offshore Fasteners: Fire Protection and Certification",
     "zh": "海上石油平台防火紧固件：认证要求与采购要点",
     "es": "Sujetadores marinos ignífugos: certificación y selección",
     "ar": "مثبتات مقاومة للحريق لمنصات البحر: الاعتماد والاختيار",
@@ -43,7 +43,7 @@
     "hi": "अफ़्रीका के अपतटीय तेल, गैस और ऊर्जा परियोजनाओं के लिए प्रमाणित अग्नि-रोधी फ़ास्टनर के चयन और ख़रीद की मार्गदर्शिका।"
   },
   "metaDescription": {
-    "en": "Secure Africa's energy and infrastructure projects with certified offshore fire-rated fasteners. Explore sourcing guides, local market insights, and compliance strategies for 2027.",
+    "en": "Secure Africa's energy and infrastructure projects with certified offshore fire-rated fasteners. Explore sourcing guides, local market insights, and compliance.",
     "zh": "面向非洲海上油气与能源项目的认证防火紧固件选型与合规采购指南。",
     "es": "Guía de selección y compra de sujetadores ignífugos certificados para proyectos offshore de petróleo, gas y energía en África.",
     "ar": "دليل اختيار وشراء المثبتات المقاومة للحريق المعتمدة لمشاريع النفط والغاز والطاقة البحرية في أفريقيا.",
@@ -298,6 +298,63 @@
       },
       "type": "text",
       "id": "sourcing-offshore-fire-rated-fasteners-a-b2b-procurement-strategy"
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What certifications are required for offshore fire-rated fasteners in Africa?"
+          },
+          "a": {
+            "en": "Essential certifications include EN 1337-4 for structural bearings and ISO 15835 for fire resistance. Local requirements may vary, but compliance with international standards is critical for African infrastructure projects [1]."
+          }
+        },
+        {
+          "q": {
+            "en": "How will South Africa's reduced steel tariffs affect fastener sourcing?"
+          },
+          "a": {
+            "en": "Reduced tariffs from January 2027 will lower costs for imported steel fasteners. However, local content policies may still favor domestically manufactured components, creating a balanced sourcing strategy [2]."
+          }
+        },
+        {
+          "q": {
+            "en": "What are the key applications for fire-rated fasteners in Nigeria?"
+          },
+          "a": {
+            "en": "Primary applications include offshore oil platforms, port infrastructure upgrades, and mining equipment. Fire-rated fasteners are critical for structural integrity in high-risk environments [7]."
+          }
+        },
+        {
+          "q": {
+            "en": "How can B2B buyers ensure fastener quality in African markets?"
+          },
+          "a": {
+            "en": "Verify certifications, request third-party testing reports, and establish clear quality control protocols in contracts. Partner with suppliers experienced in African infrastructure projects [1]."
+          }
+        },
+        {
+          "q": {
+            "en": "What trends are shaping fire protection in African infrastructure?"
+          },
+          "a": {
+            "en": "Growing renewable energy projects, stricter local content policies, and increased focus on port and railway safety are driving demand for certified fire-rated fasteners across the continent [3]."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -366,27 +423,5 @@
       "hi": "Request Quote"
     },
     "link": "/en/contact"
-  },
-  "faq": [
-    {
-      "q": "What certifications are required for offshore fire-rated fasteners in Africa?",
-      "a": "Essential certifications include EN 1337-4 for structural bearings and ISO 15835 for fire resistance. Local requirements may vary, but compliance with international standards is critical for African infrastructure projects [1]."
-    },
-    {
-      "q": "How will South Africa's reduced steel tariffs affect fastener sourcing?",
-      "a": "Reduced tariffs from January 2027 will lower costs for imported steel fasteners. However, local content policies may still favor domestically manufactured components, creating a balanced sourcing strategy [2]."
-    },
-    {
-      "q": "What are the key applications for fire-rated fasteners in Nigeria?",
-      "a": "Primary applications include offshore oil platforms, port infrastructure upgrades, and mining equipment. Fire-rated fasteners are critical for structural integrity in high-risk environments [7]."
-    },
-    {
-      "q": "How can B2B buyers ensure fastener quality in African markets?",
-      "a": "Verify certifications, request third-party testing reports, and establish clear quality control protocols in contracts. Partner with suppliers experienced in African infrastructure projects [1]."
-    },
-    {
-      "q": "What trends are shaping fire protection in African infrastructure?",
-      "a": "Growing renewable energy projects, stricter local content policies, and increased focus on port and railway safety are driving demand for certified fire-rated fasteners across the continent [3]."
-    }
-  ]
+  }
 }

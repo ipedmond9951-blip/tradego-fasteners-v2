@@ -43,7 +43,7 @@
     "hi": "अफ्रीका की तटवर्ती पवन ऊर्जा परियोजनाओं के लिए फास्टनर ग्रेड, सामग्री और मजबूती के विनिर्देश जानें। सही चयन सुरक्षित स्थापना और लंबे समय तक टिकाऊपन सुनिश्चित करता है।"
   },
   "metaDescription": {
-    "en": "Wind turbine failures cluster at connections. Learn the bolt grades, preload control and corrosion protection specified for towers, blades and foundations in African wind projects.",
+    "en": "Wind turbine failures cluster at connections. Learn the bolt grades, preload control and corrosion protection specified for towers, blades and foundations in.",
     "zh": "风电项目紧固件的等级与规范指南：10.9 级与 8.8 级的选用条件、疲劳与预紧力要求、沿海与海上镀层方案，以及安装前后应留存的证据。",
     "es": "Las turbinas eólicas fallan más en las uniones que en los componentes. Asegure el suministro con pernos de alta resistencia.",
     "ar": "تتعطل توربينات الرياح عند الوصلات أكثر من المكونات نفسها. احمِ مشاريعك الصناعية بمسامير تثبيت عالية المقاومة للتآكل.",
@@ -235,6 +235,55 @@
         "ja": "炉番号付きの材料証明書、該当する場合は低温衝撃を含む機械的性質、めっき厚の測定値、張力付与装置の校正記録を求めてください。加えて、サプライヤーの工程試験に基づくサンプル軸力検証報告書も入手します。<p>据付後も記録を残してください。風力資産は数十年にわたり点検され、所有者も変わります。締め付け記録が見つからない接合は再締め付けまたは交換の対象となり、タワー上でのこうした作業は日常メンテナンスではなくクレーン作業です。</p>",
         "ru": "Запрашивайте сертификаты материала с номерами плавки, механические свойства, включая удар при низкой температуре там, где это применимо, измерения толщины покрытия и записи калибровки натяжного оборудования. Добавьте образцовый протокол проверки преднатяга, полученный по технологическому испытанию поставщика.<p>Сохраняйте след и после монтажа. Ветроактивы осматривают десятилетиями, и владелец у них меняется; соединение, по которому невозможно найти запись о натяжении, придётся повторно натянуть или заменить, а на башне это работа с краном, а не рутинное обслуживание.</p>"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Is grade 10.9 always required for wind turbine bolting?"
+          },
+          "a": {
+            "en": "It is the common default for tower and foundation connections, with 8.8 used in secondary positions. The grade must be specified together with bolt size, joint geometry, and tensioning method."
+          }
+        },
+        {
+          "q": {
+            "en": "Why does the material route matter if the grade is the same?"
+          },
+          "a": {
+            "en": "A 10.9 property class reached through a different alloy and heat treatment behaves differently under low-temperature impact, which matters at cold and high-altitude sites."
+          }
+        },
+        {
+          "q": {
+            "en": "Which tensioning method should be specified?"
+          },
+          "a": {
+            "en": "Name the method - hydraulic tensioning, torque control, or direct tension indication - plus the acceptance window, and require sample verification, because each method produces different preload scatter."
+          }
+        },
+        {
+          "q": {
+            "en": "What coating is used for offshore wind structures?"
+          },
+          "a": {
+            "en": "Hot-dip galvanizing with a defined minimum thickness is the baseline, often with a duplex topcoat where maintenance intervals are long. Thread coatings must be specified separately from the shank."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -283,23 +332,5 @@
       "hi": "Request Quote"
     },
     "link": "/en/contact"
-  },
-  "faq": [
-    {
-      "q": "Is grade 10.9 always required for wind turbine bolting?",
-      "a": "It is the common default for tower and foundation connections, with 8.8 used in secondary positions. The grade must be specified together with bolt size, joint geometry, and tensioning method."
-    },
-    {
-      "q": "Why does the material route matter if the grade is the same?",
-      "a": "A 10.9 property class reached through a different alloy and heat treatment behaves differently under low-temperature impact, which matters at cold and high-altitude sites."
-    },
-    {
-      "q": "Which tensioning method should be specified?",
-      "a": "Name the method - hydraulic tensioning, torque control, or direct tension indication - plus the acceptance window, and require sample verification, because each method produces different preload scatter."
-    },
-    {
-      "q": "What coating is used for offshore wind structures?",
-      "a": "Hot-dip galvanizing with a defined minimum thickness is the baseline, often with a duplex topcoat where maintenance intervals are long. Thread coatings must be specified separately from the shank."
-    }
-  ]
+  }
 }

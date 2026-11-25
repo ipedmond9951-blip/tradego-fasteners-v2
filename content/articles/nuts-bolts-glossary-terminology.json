@@ -316,9 +316,7 @@
             "ja": "The K-factor (torque coefficient) is the constant that relates applied torque to clamp force. It accounts for friction in the threads and under the bearing surface. T = K × D × F, where T=torque (N·m), D=bolt diameter (m), F=clamp load (N). For bare steel threads with no lubrication, K≈0.20. For lightly oiled, K≈0.15. For wax or anti-seize, K≈0.12. Always use the correct K-factor for your coating/lubricant when calculating torque specifications.",
             "de": "The K-factor (torque coefficient) is the constant that relates applied torque to clamp force. It accounts for friction in the threads and under the bearing surface. T = K × D × F, where T=torque (N·m), D=bolt diameter (m), F=clamp load (N). For bare steel threads with no lubrication, K≈0.20. For lightly oiled, K≈0.15. For wax or anti-seize, K≈0.12. Always use the correct K-factor for your coating/lubricant when calculating torque specifications.",
             "hi": "The K-factor (torque coefficient) is the constant that relates applied torque to clamp force. It accounts for friction in the threads and under the bearing surface. T = K × D × F, where T=torque (N·m), D=bolt diameter (m), F=clamp load (N). For bare steel threads with no lubrication, K≈0.20. For lightly oiled, K≈0.15. For wax or anti-seize, K≈0.12. Always use the correct K-factor for your coating/lubricant when calculating torque specifications."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -344,9 +342,7 @@
             "ja": "Proof load is a test requirement — the load a fastener must withstand without permanent set when tested. Yield strength is a material property — the stress at which plastic deformation begins. For fasteners, proof load corresponds to approximately 85-90% of the yield strength. Proof load is what manufacturers must demonstrate in testing; yield strength is a design parameter.",
             "de": "Proof load is a test requirement — the load a fastener must withstand without permanent set when tested. Yield strength is a material property — the stress at which plastic deformation begins. For fasteners, proof load corresponds to approximately 85-90% of the yield strength. Proof load is what manufacturers must demonstrate in testing; yield strength is a design parameter.",
             "hi": "Proof load is a test requirement — the load a fastener must withstand without permanent set when tested. Yield strength is a material property — the stress at which plastic deformation begins. For fasteners, proof load corresponds to approximately 85-90% of the yield strength. Proof load is what manufacturers must demonstrate in testing; yield strength is a design parameter."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -372,9 +368,7 @@
             "ja": "Standards are sometimes revoked when they are superseded by an international standard. For example, many DIN standards for fasteners were officially withdrawn when ISO adopted equivalent standards. In practice, DIN and ISO fastener dimensions are nearly identical, so DIN designations (DIN 931, DIN 933) are still widely used in industry even though the standards are technically withdrawn. Always check if the current project specification references ISO or DIN standards.",
             "de": "Standards are sometimes revoked when they are superseded by an international standard. For example, many DIN standards for fasteners were officially withdrawn when ISO adopted equivalent standards. In practice, DIN and ISO fastener dimensions are nearly identical, so DIN designations (DIN 931, DIN 933) are still widely used in industry even though the standards are technically withdrawn. Always check if the current project specification references ISO or DIN standards.",
             "hi": "Standards are sometimes revoked when they are superseded by an international standard. For example, many DIN standards for fasteners were officially withdrawn when ISO adopted equivalent standards. In practice, DIN and ISO fastener dimensions are nearly identical, so DIN designations (DIN 931, DIN 933) are still widely used in industry even though the standards are technically withdrawn. Always check if the current project specification references ISO or DIN standards."
-          },
-          "question": {},
-          "answer": {}
+          }
         }
       ],
       "body": {

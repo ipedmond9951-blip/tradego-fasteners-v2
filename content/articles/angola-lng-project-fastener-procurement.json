@@ -433,5 +433,31 @@
     "ghana-tema-port-fastener-import-procedure",
     "uganda-oil-refinery-fastener-requirements",
     "rwanda-construction-fastener-standards"
+  ],
+  "faq": [
+    {
+      "q": "What are the main fastener specifications for the Angola LNG project?",
+      "a": "The main fastener specifications for the Angola LNG plant comply with API 6A and ASTM A193 B7. All fasteners must be sourced from manufacturers certified to ISO 9001:2015. Bolts used with BX series gaskets must meet the required material and special coating requirements. All fasteners classified under HS code 7318 must be properly marked and traceable."
+    },
+    {
+      "q": "Which fastener materials are recommended for H2S service?",
+      "a": "For corrosive service caused by hydrogen sulfide, 316 stainless steel, duplex stainless steel or Inconel 625/825 alloys are recommended. These materials offer excellent corrosion resistance and long-term durability in sour environments. PTFE coating or Dacromet can also be used as surface treatment. Materials acceptable for H2S service should be determined in accordance with NACE MR0175/ISO 15156."
+    },
+    {
+      "q": "What inspection requirements apply to fasteners?",
+      "a": "All fasteners must be approved by a third-party inspection body. Random sampling must cover at least 10% of the quantity. Impact testing, hardness testing and chemical composition analysis must follow ISO 148-1 and ASTM E23. Every lot must be accompanied by a type 3.1 mill test certificate (MTC)."
+    },
+    {
+      "q": "Are there special documentation requirements?",
+      "a": "Yes. The Angola LNG project requires a complete documentation package, including mill test certificates to EN 10204 3.1, heat-number traceability records, impact test reports (Charpy V-notch testing at -30 °C to three standards, with a minimum of 27 joules), hardness test reports and surface treatment certificates. All documents must be submitted in English and use SI units."
+    },
+    {
+      "q": "What are the storage and handling guidelines?",
+      "a": "Fasteners must be stored in a controlled environment with a temperature not exceeding 25 °C and humidity below 50%. Each lot must be stored separately with identification labels. Stainless steel and carbon steel fasteners must be stored separately to avoid cross-contamination. Inspect the surface condition and markings of all fasteners before use."
+    },
+    {
+      "q": "What are the main considerations for urgent procurement?",
+      "a": "For urgent procurement, all specifications and quality requirements must still be fully met. Even with a tight lead time, third-party inspection reports and mill test certificates are mandatory. A real-time inventory traceability system should be in place to ensure stable supply of critical specifications. [1] [2] [3]"
+    }
   ]
 }

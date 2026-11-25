@@ -265,9 +265,10 @@ def check_article(path, project_dir):
         en_text = body.get("en", "") or ""
         en_body_words += word_count(en_text)
         zh_body_chars += len(HAN_RE.findall(body.get("zh", "") or ""))
-        if not norm(en_text):
+        has_items = isinstance(s.get("faqItems"), list) and bool(s["faqItems"])
+        if not norm(en_text) and not has_items:
             issues.b("body", f"sections[{i}] 缺英文正文")
-        if not norm(body.get("zh", "") or ""):
+        if not norm(body.get("zh", "") or "") and not has_items:
             issues.b("body", f"sections[{i}] 缺中文正文")
 
     if en_body_words and en_body_words < MIN_EN_BODY_WORDS:
@@ -279,15 +280,33 @@ def check_article(path, project_dir):
         issues.w("body-size", f"中文正文 {zh_body_chars} 汉字，偏薄")
 
     # 7. FAQ
-    faq = d.get("faq") or []
-    if not isinstance(faq, list) or len(faq) < MIN_FAQ:
-        issues.w("faq", f"FAQ 仅 {len(faq) if isinstance(faq, list) else 0} 条（建议 ≥{MIN_FAQ}）")
-    for i, item in enumerate(faq if isinstance(faq, list) else []):
-        if isinstance(item, dict):
-            if not norm(item.get("q", "")) or not norm(item.get("a", "")):
-                issues.b("faq", f"faq[{i}] q/a 为空")
-            elif len(norm(item.get("a", ""))) < MIN_FAQ_ANSWER:
-                issues.w("faq", f"faq[{i}] 答案仅 {len(norm(item.get('a','')))} 字符，偏短")
+    # FAQ 的真实来源是 sections[].faqItems（页面与 FAQPage schema 只读它）；
+    # 顶层 faq 是历史字段，已迁移，仅作兜底计数。
+    sec_items = []
+    for s in d.get("sections", []):
+        if isinstance(s.get("faqItems"), list):
+            sec_items.extend(s["faqItems"])
+    legacy = d.get("faq") if isinstance(d.get("faq"), list) else []
+    n_faq = max(len(sec_items), len(legacy))
+    has_faq_section = any(
+        s.get("id") == "faq" or "frequently asked question" in ((s.get("heading") or {}).get("en", "") or "").lower()
+        for s in d.get("sections", [])
+    )
+    if n_faq < MIN_FAQ:
+        issues.w("faq", f"FAQ 仅 {n_faq} 条（建议 ≥{MIN_FAQ}）")
+    elif has_faq_section and not sec_items:
+        issues.w("faq", "FAQ 小节没有 faqItems（页面渲染不出问答，schema 也不生成）")
+    for i, item in enumerate(sec_items or legacy):
+        if not isinstance(item, dict):
+            continue
+        q = item.get("q")
+        a = item.get("a")
+        q_txt = q.get("en") if isinstance(q, dict) else q
+        a_txt = a.get("en") if isinstance(a, dict) else a
+        if not norm(q_txt or "") or not norm(a_txt or ""):
+            issues.b("faq", f"faq[{i}] q/a 为空")
+        elif len(norm(a_txt or "")) < MIN_FAQ_ANSWER:
+            issues.w("faq", f"faq[{i}] 答案仅 {len(norm(a_txt))} 字符，偏短")
 
     # 8. 占位 / 脏文本（按字段定位，同一字段同一问题只报一次）
     for path, text in walk_leaves(d):

@@ -235,6 +235,55 @@
         "de": "Legen Sie vor der Buchung Folgendes fest: die genaue Güteklasse und Norm je Position; die Beschichtungsspezifikation mit Dicke; eine Karton- und Palettenkennzeichnung, die der Handelsrechnung Zeile für Zeile entspricht; Zertifizierungsunterlagen, die vor der Versendung ausgestellt werden, nicht danach; sowie ein Landed-Cost-Modell, das Zoll, Hafengebühren, den Transport nach Nairobi oder zur Grenze und einen realistischen Lagerkostenansatz enthält.<p>Klären Sie außerdem, wer den Korridorabschnitt trägt. Wenn Ihr Einkäufer in Kampala oder Kigali den Transit organisiert, endet Ihre Verantwortung in der Regel im Lager von Mombasa oder im Depot von Nairobi — halten Sie das schriftlich fest, denn Lay-up-Streitigkeiten auf dieser Route führen fast immer auf einen unklaren Übergabepunkt zurück.</p>",
         "hi": "बुकिंग से पहले ये तय कर लें: लाइन आइटम के हिसाब से सटीक ग्रेड और स्टैंडर्ड; मोटाई सहित कोटिंग स्पेसिफिकेशन; कार्टन और पैलेट लेबलिंग जो कमर्शियल इनवॉइस से लाइन-बाय-लाइन मेल खाती हो; शिपमेंट के बाद नहीं, उससे पहले जारी किए गए सर्टिफिकेशन दस्तावेज़; और एक लैंडेड-कॉस्ट मॉडल जिसमें ड्यूटी, पोर्ट चार्ज, नैरोबी या बॉर्डर तक का ट्रांसपोर्ट और यथार्थवादी स्टोरेज अलाउंस शामिल हो।<p>यह भी तय करें कि गलियारे वाले हिस्से का स्वामित्व किसके पास है। यदि कंपाला या किगाली का आपका खरीदार ट्रांज़िट की व्यवस्था कर रहा है, तो आपकी ज़िम्मेदारी आम तौर पर मोम्बासा वेयरहाउस या नैरोबी डिपो पर खत्म हो जाती है — इसे लिखित रूप में ले लें, क्योंकि इस रूट पर डेम्यरेज विवाद लगभग हमेशा अस्पष्ट हैंडओवर पॉइंट से जुड़े होते हैं।</p>"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Which port serves Uganda, Rwanda, and eastern DRC?"
+          },
+          "a": {
+            "en": "Mombasa is the primary gateway for the Northern Corridor, serving Uganda, Rwanda, Burundi, eastern DRC, and South Sudan, with the Nairobi inland container depot used for onward consolidation."
+          }
+        },
+        {
+          "q": {
+            "en": "What documents are needed to clear fasteners at Mombasa?"
+          },
+          "a": {
+            "en": "A customs declaration filed by a licensed broker, a commercial invoice and packing list that match the cargo line by line, and conformity documentation covering material grade, tensile strength, and coating thickness."
+          }
+        },
+        {
+          "q": {
+            "en": "Is hot-dip galvanizing necessary for Kenyan projects?"
+          },
+          "a": {
+            "en": "Inland projects usually accept zinc plating. Coastal and marine projects around Mombasa and Lamu normally specify hot-dip galvanizing or stainless steel because of salt-air corrosion."
+          }
+        },
+        {
+          "q": {
+            "en": "How much buffer should a first shipment allow?"
+          },
+          "a": {
+            "en": "Allow one to two weeks beyond the expected clearance time. Most delays come from mismatched certificates, incomplete declarations, or undervalued invoices rather than from port congestion itself."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -283,23 +332,5 @@
       "hi": "Request Quote"
     },
     "link": "/en/contact"
-  },
-  "faq": [
-    {
-      "q": "Which port serves Uganda, Rwanda, and eastern DRC?",
-      "a": "Mombasa is the primary gateway for the Northern Corridor, serving Uganda, Rwanda, Burundi, eastern DRC, and South Sudan, with the Nairobi inland container depot used for onward consolidation."
-    },
-    {
-      "q": "What documents are needed to clear fasteners at Mombasa?",
-      "a": "A customs declaration filed by a licensed broker, a commercial invoice and packing list that match the cargo line by line, and conformity documentation covering material grade, tensile strength, and coating thickness."
-    },
-    {
-      "q": "Is hot-dip galvanizing necessary for Kenyan projects?",
-      "a": "Inland projects usually accept zinc plating. Coastal and marine projects around Mombasa and Lamu normally specify hot-dip galvanizing or stainless steel because of salt-air corrosion."
-    },
-    {
-      "q": "How much buffer should a first shipment allow?",
-      "a": "Allow one to two weeks beyond the expected clearance time. Most delays come from mismatched certificates, incomplete declarations, or undervalued invoices rather than from port congestion itself."
-    }
-  ]
+  }
 }

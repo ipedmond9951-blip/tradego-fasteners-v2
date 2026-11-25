@@ -221,7 +221,7 @@
       },
       "faqItems": [
         {
-          "question": {
+          "q": {
             "en": "What is the effective total duty rate for standard carbon steel fasteners into Zimbabwe in 2026?",
             "zh": "2026年津巴布韦标准碳钢紧固件的实际总税率是多少?",
             "es": "¿Cuál es la tasa de impuesto total efectiva para los sujetadores estándar de acero al carbono en Zimbabue en 2026?",
@@ -233,7 +233,7 @@
             "de": "Wie hoch ist der effektive Gesamtzollsatz für Standard-Kohlenstoffstahl-Befestigungsmittel in Simbabwe im Jahr 2026?",
             "hi": "2026 में जिम्बाब्वे में मानक कार्बन स्टील फास्टनरों के लिए प्रभावी कुल शुल्क दर क्या है?"
           },
-          "answer": {
+          "a": {
             "en": "The effective total duty and tax rate for standard carbon steel fasteners (HS 7318.15) in 2026 is approximately 38% of CIF value. This is composed of 20% import duty + 15% VAT calculated on the duty-inclusive CIF value (CIF + 20% duty). The calculation is: 20% base duty + (1.2 × 15%) VAT = 20% + 18% = 38%. Importers should budget for approximately 40-42% of CIF value to account for port handling fees and clearance charges. If a 10% surtax is re-introduced on fastener imports, the effective rate increases to approximately 51.8%.",
             "zh": "2026年标准碳钢紧固件(HS 7318.15)的有效总关税和税率约为CIF价值的38%。这包括20%的进口关税+按含关税CIF价值(CIF+20%关税)计算的15%增值税。计算方式为:20%基础关税+(1.2×15%)增值税=20%+18%=38%。进口商应按CIF价值的约40-42%编制预算,以支付港口处理费和清关费。如果紧固件进口重新征收10%的附加税,则有效税率将增加至约51.8%。",
             "es": "La tasa total efectiva de impuestos y derechos para los sujetadores estándar de acero al carbono (HS 7318.15) en 2026 es aproximadamente el 38% del valor CIF. Esto se compone de un 20% de derecho de importación + un 15% de IVA calculado sobre el valor CIF que incluye el derecho (CIF + 20% de derecho). El cálculo es: 20% de derecho base + (1,2 × 15%) IVA = 20% + 18% = 38%. Los importadores deben presupuestar aproximadamente el 40-42% del valor CIF para cubrir las tarifas de manipulación portuaria y los gastos de despacho. Si se reintroduce un impuesto adicional del 10% en las importaciones de sujetadores, la tasa efectiva aumenta a aproximadamente el 51,8%.",
@@ -244,12 +244,10 @@
             "ja": "2026年の標準炭素鋼ファスナー(HS 7318.15)に対する関税および税の実効総額は、CIF価値の約38%です。これは、20%の輸入関税+関税込みCIF価値(CIF+20%関税)に対して計算された15%のVATで構成されています。計算式は:20%基本関税+(1.2×15%)VAT=20%+18%=38%です。輸入業者は、港湾荷役料と通関手数料を支払うために、CIF価値の約40-42%を予算に計上する必要があります。ファスナー輸入に10%の附加税が再導入された場合、実効税率は約51.8%に増加します。",
             "de": "Der effektive Gesamtzoll- und Steuersatz für Standard-Kohlenstoffstahl-Befestigungsmittel (HS 7318.15) im Jahr 2026 beträgt etwa 38% des CIF-Werts. Dies setzt sich zusammen aus 20% Einfuhrzoll + 15% MWSt, berechnet auf den zollinclusive CIF-Wert (CIF + 20% Zoll). Die Berechnung lautet: 20% Grundzoll + (1,2 × 15%) MWSt = 20% + 18% = 38%. Importeure sollten etwa 40-42% des CIF-Werts für Hafenhandling- und Abfertigungsgebühren einkalkulieren. Wenn ein Zusatzsteuer von 10% auf Befestigungsmittelimporte wieder eingeführt wird, steigt der effektive Satz auf etwa 51,8%.",
             "hi": "2026 में मानक कार्बन स्टील फास्टनरों (HS 7318.15) के लिए प्रभावी कुल शुल्क और कर दर CIF मूल्य का लगभग 38% है। यह 20% आयात शुल्क + शुल्क-समावेशी CIF मूल्य (CIF + 20% शुल्क) पर गणना की गई 15% VAT से बना है। गणना है: 20% आधार शुल्क + (1.2 × 15%) VAT = 20% + 18% = 38%। आयातकों को बंदरगाह हैंडलिंग शुल्क और निकासी शुल्क के लिए CIF मूल्य के लगभग 40-42% का बजट बनाना चाहिए। यदि फास्टनर आयात पर 10% अतिरिक्त कर को फिर से लागू किया जाता है, तो प्रभावी दर लगभग 51.8% तक बढ़ जाती है।"
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "Can I use a single import license for multiple fastener shipments?",
             "zh": "我可以用一个进口许可证用于多次紧固件装运吗?",
             "es": "¿Puedo usar una sola licencia de importación para múltiples envíos de sujetadores?",
@@ -261,7 +259,7 @@
             "de": "Kann ich eine einzige Einfuhrlizenz für mehrere Befestigungsmittelsendungen verwenden?",
             "hi": "क्या मैं एक ही आयात लाइसेंस का उपयोग कई फास्टनर शिपमेंट के लिए कर सकता हूं?"
           },
-          "answer": {
+          "a": {
             "en": "No. Under SI 59 of 2026, each fastener import shipment requires its own dedicated import license approved before the vessel departs the loading port. Licenses are non-transferable, consignee-specific, and typically valid for 6 months from issuance. However, a single license may cover multiple containers if they all depart within the license validity period and match the product codes and quantities specified on the license. Your clearing agent can advise on whether partial shipments or multiple containers under one license are acceptable for your specific product categories.",
             "zh": "不可以。根据2026年第59号法定文书,每次紧固件进口装运都需要在船舶离开装货港前获得其专门的进口许可证。许可证不可转让,是特定收货人的,通常自签发之日起6个月内有效。但是,如果多个集装箱都在许可证有效期内出发且与许可证上指定的产品代码和数量相符,则一个许可证可以涵盖多个集装箱。您的清关代理可以根据您的具体产品类别告知分批装运或一个许可证下的多个集装箱是否可以接受。",
             "es": "No. Bajo el SI 59 de 2026, cada envío de importación de sujetadores requiere su propia licencia de importación dedicada aprobada antes de que el buque salga del puerto de carga. Las licencias son intransferibles, específicas del consignatario y típicamente válidas por 6 meses desde su emisión. Sin embargo, una sola licencia puede cubrir múltiples contenedores si todos parten dentro del período de validez de la licencia y coinciden con los códigos de producto y las cantidades especificadas en la licencia. Su agente de aduanas puede aconsejarle sobre si los envíos parciales o múltiples contenedores bajo una sola licencia son aceptables para sus categorías de productos específicas.",
@@ -272,12 +270,10 @@
             "ja": "いいえ。2026年のSI 59に基づき、ファスナーの各輸入出荷には、船舶が積港を出発する前に承認された専用の輸入許可証が必要です。許可証は譲渡不能であり、荷受人固有であり、通常は発行から6ヶ月間有効です。ただし、すべてのコンテナが許可証の有効期間内に出発し、許可証に記載されている製品コードおよび数量と一致する場合、1つの許可証で複数のコンテナをカバーできる場合があります。特定の製品カテゴリーについて、分割出荷または1つの許可証の下での複数のコンテナが許容されるかどうかについては、通関業者に相談できます。",
             "de": "Nein. Nach SI 59 von 2026 erfordert jede Befestigungsmittel-Einfuhrsendung eine eigene, dedizierte Einfuhrlizenz, die genehmigt wird, bevor das Schiff den Verladehafen verlässt. Lizenzen sind nicht übertragbar, empfängerspezifisch und typischerweise 6 Monate ab Ausstellung gültig. Eine einzige Lizenz kann jedoch mehrere Container abdecken, wenn diese alle innerhalb des Gültigkeitszeitraums der Lizenz abreisen und den auf der Lizenz angegebenen Produktcodes und Mengen entsprechen. Ihr Zollagent kann Sie beraten, ob Teilsendungen oder mehrere Container unter einer Lizenz für Ihre spezifischen Produktkategorien akzeptabel sind.",
             "hi": "नहीं। 2026 के SI 59 के तहत, प्रत्येक फास्टनर आयात शिपमेंट के लिए जहाज लोडिंग बंदरगाह से प्रस्थान करने से पहले अपने स्वयं के समर्पित आयात लाइसेंस की आवश्यकता होती है। लाइसेंस गैर-हस्तांतरणीय हैं, प्राप्तकर्ता-विशिष्ट हैं, और आमतौर पर जारी होने से 6 महीने तक वैध हैं। हालांकि, एक एकल लाइसेंस कई कंटेनरों को कवर कर सकता है यदि वे सभी लाइसेंस वैधता अवधि के भीतर प्रस्थान करते हैं और लाइसेंस पर निर्दिष्ट उत्पाद कोड और मात्रा से मेल खाते हैं। आपका क्लीयरिंग एजेंट सलाह दे सकता है कि आपकी विशिष्ट उत्पाद श्रेणियों के लिए आंशिक शिपमेंट या एक लाइसेंस के तहत कई कंटेनर स्वीकार्य हैं या नहीं।"
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "What happens if my fastener shipment arrives in Beira without a valid import license?",
             "zh": "如果我的紧固件货物没有有效的进口许可证抵达贝拉会怎样?",
             "es": "¿Qué sucede si mi envío de sujetadores llega a Beira sin una licencia de importación válida?",
@@ -289,7 +285,7 @@
             "de": "Was passiert, wenn meine Befestigungsmittelsendung ohne gültige Einfuhrlizenz in Beira ankommt?",
             "hi": "क्या होगा यदि मेरी फास्टनर शिपमेंट बिना वैध आयात लाइसेंस के बेरा पहुंच जाती है?"
           },
-          "answer": {
+          "a": {
             "en": "Any fastener shipment arriving in Beira without a valid SI 59 import license will be automatically detained by ZIMRA and placed in a government-controlled bonded warehouse. After 30 days of detention without a license being produced, the cargo becomes subject to public auction. Importers face additional penalties including storage charges (approximately US$15-25 per day per 20ft container), late submission fees (2% of CIF value per month), and potential blacklisting from future import privileges. In practice, most importers can still obtain a retroactive license within the first 14 days by paying a 5% penalty on the CIF value plus expedited license processing fees, but this is not guaranteed and depends on the specific product category and current ZIMRA enforcement directives. Always submit license applications at least 30 days before vessel departure from China to avoid this scenario.",
             "zh": "任何没有有效SI 59进口许可证抵达贝拉的紧固件货物将被ZIMRA自动扣留并放置在政府控制的保税仓库中。在30天扣留期后仍未出示许可证的,货物将被公开拍卖。进口商面临额外罚款,包括仓储费(每个20尺集装箱每天约15-25美元)、逾期提交费(每月CIF价值的2%)以及可能被列入未来进口特权的黑名单。在实践中,大多数进口商在头14天内仍可通过支付CIF价值5%的罚款加快速许可证处理费获得追溯许可证,但这不能保证,取决于具体产品类别和当前ZIMRA执法指令。始终在船舶离开中国前至少30天提交许可证申请以避免这种情况。",
             "es": "Cualquier envío de sujetadores que llegue a Beira sin una licencia de importación válida SI 59 será retenido automáticamente por ZIMRA y colocado en un depósito aduanero controlado por el gobierno. Después de 30 días de retención sin que se presente una licencia, la carga se somete a subasta pública. Los importadores enfrentan sanciones adicionales, incluidos cargos de almacenamiento (aproximadamente US$15-25 por día por contenedor de 20 pies), tasas de presentación tardía (2% del valor CIF por mes) y potencial inclusión en una lista negra de futuros privilegios de importación. En la práctica, la mayoría de los importadores aún pueden obtener una licencia retroactiva dentro de los primeros 14 días pagando una multa del 5% sobre el valor CIF más las tarifas de procesamiento acelerado de la licencia, pero esto no está garantizado y depende de la categoría de producto específica y las directivas de cumplimiento actuales de ZIMRA. Presente siempre las solicitudes de licencia al menos 30 días antes de la salida del buque desde China para evitar este escenario.",
@@ -300,12 +296,10 @@
             "ja": "有効なSI 59輸入許可証なしにベイラに到着したファスナー貨物は、ZIMRAによって自動的に留置され、政府管理の保税倉庫に保管されます。許可証が提示されないまま30日間留置された後、貨物は公売にかけられます。輸入業者は、保管料(20フィートコンテナあたり1日約15-25米ドル)、遅延提出料(月額CIF価値の2%)、将来の輸入特権からのブラックリスト入りの可能性を含む追加の罰金に直面します。実際には、ほとんどの輸入業者はCIF価値の5%の罰金に加えて迅速な許可処理料を支払うことで、最初の14日以内に遡及的な許可証を取得できますが、これは保証されておらず、特定の製品カテゴリーと現在のZIMRA執行指示に依存します。このシナリオを回避するために、船舶が中国を出発する少なくとも30日前には常に許可申請を提出してください。",
             "de": "Jede Befestigungsmittelsendung, die ohne gültige SI 59-Einfuhrlizenz in Beira eintrifft, wird automatisch von ZIMRA zurückgehalten und in einem staatlich kontrollierten Zolllager untergebracht. Nach 30 Tagen der Zurückhaltung ohne Vorlage einer Lizenz wird die Fracht öffentlich versteigert. Importeure sehen sich zusätzlichen Strafen gegenüber, darunter Lagergebühren (ca. 15-25 US$ pro Tag pro 20-Fuß-Container), Verspätungsgebühren (2% des CIF-Werts pro Monat) und eine potenzielle Schwarzlisterung, die sie von künftigen Einfuhrprivilegien ausschließt. In der Praxis können die meisten Importeure noch innerhalb der ersten 14 Tage eine rückwirkende Lizenz erhalten, indem sie eine Strafe von 5% des CIF-Werts plus beschleunigte Lizenzbearbeitungsgebühren zahlen, aber dies ist nicht garantiert und hängt von der spezifischen Produktkategorie und den aktuellen Durchsetzungsrichtlinien von ZIMRA ab. Reichen Sie Lizenzanträge immer mindestens 30 Tage vor Abfahrt des Schiffes aus China ein, um dieses Szenario zu vermeiden.",
             "hi": "किसी भी फास्टनर शिपमेंट जो बिना वैध SI 59 आयात लाइसेंस के बेरा पहुंचती है, उसे ZIMRA द्वारा स्वचालित रूप से निरोध कर दिया जाएगा और सरकारी-नियंत्रित बांडेड गोदाम में रखा जाएगा। लाइसेंस प्रस्तुत किए बिना 30 दिनों के निरोध के बाद, कार्गो सार्वजनिक नीलामी के अधीन हो जाता है। आयातकों को अतिरिक्त दंडों का सामना करना पड़ता है जिसमें भंडारण शुल्क (20 फुट के कंटेनर प्रति दिन लगभग 15-25 अमेरिकी डॉलर), देर से जमा करने का शुल्क (प्रति माह CIF मूल्य का 2%), और भविष्य के आयात विशेषाधिकारों से संभावित ब्लैकलिस्टिंग शामिल है। व्यवहार में, अधिकांश आयातक अभी भी पहले 14 दिनों के भीतर CIF मूल्य पर 5% जुर्माना और त्वरित लाइसेंस प्रसंस्करण शुल्क का भुगतान करके पूर्वव्यापी लाइसेंस प्राप्त कर सकते हैं, लेकिन इसकी गारंटी नहीं है और यह विशिष्ट उत्पाद श्रेणी और वर्तमान ZIMRA प्रवर्तन निर्देशों पर निर्भर करता है। इस परिदृश्य से बचने के लिए हमेशा चीन से जहाज के प्रस्थान से कम से कम 30 दिन पहले लाइसेंस आवेदन जमा करें।"
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "Are stainless steel fasteners subject to different duty rates than carbon steel?",
             "zh": "不锈钢紧固件的税率与碳钢不同吗?",
             "es": "¿Los sujetadores de acero inoxidable están sujetos a tasas de impuesto diferentes a las del acero al carbono?",
@@ -317,7 +311,7 @@
             "de": "Unterliegen Befestigungsmittel aus Edelstahl anderen Zollsätzen als solche aus Kohlenstoffstahl?",
             "hi": "क्या स्टेनलेस स्टील फास्टनर कार्बन स्टील की तुलना में अलग-अलग शुल्क दरों के अधीन हैं?"
           },
-          "answer": {
+          "a": {
             "en": "Yes. Stainless steel fasteners under HS code 7318.21 carry a base import duty rate of 25% ad valorem on CIF value, compared to 20% for standard carbon steel fasteners under HS 7318.15. With VAT calculated on the duty-inclusive CIF value, the effective total rate for stainless steel fasteners is approximately 43.75% (25% duty + 18.75% VAT), versus 38% for carbon steel. This 5.75% effective rate difference reflects Zimbabwe's policy of providing some protection to local manufacturers of lower-value standard fasteners while recognizing that high-alloy stainless steel fasteners are not currently produced domestically and must be imported. Stainless steel fasteners also face stricter documentation requirements, including mandatory mill test certificates and origin verification.",
             "zh": "是的。HS代码7318.21下的不锈钢紧固件基础进口关税税率为CIF价的25%,而HS 7318.15下的标准碳钢紧固件为20%。按含关税CIF价计算增值税后,不锈钢紧固件的实际总税率约为43.75%(25%关税+18.75%增值税),而碳钢为38%。这5.75%的有效税率差异反映了津巴布韦的政策:为低价值标准紧固件的本地制造商提供一定保护,同时认识到高合金不锈钢紧固件目前国内不生产,必须进口。不锈钢紧固件还面临更严格的文件要求,包括强制性工厂测试证书和原产地验证。",
             "es": "Sí. Los sujetadores de acero inoxidable bajo el código HS 7318.21 tienen una tasa de derecho de importación base del 25% ad valorem sobre el valor CIF, en comparación con el 20% para los sujetadores estándar de acero al carbono bajo el HS 7318.15. Con el IVA calculado sobre el valor CIF que incluye el derecho, la tasa total efectiva para los sujetadores de acero inoxidable es aproximadamente del 43,75% (25% de derecho + 18,75% de IVA), frente al 38% para el acero al carbono. Esta diferencia de tasa efectiva del 5,75% refleja la política de Zimbabue de proporcionar cierta protección a los fabricantes locales de sujetadores estándar de menor valor, al tiempo que reconoce que los sujetadores de acero inoxidable de alta aleación no se producen actualmente en el país y deben ser importados. Los sujetadores de acero inoxidable también enfrentan requisitos de documentación más estrictos, incluidos certificados obligatorios de prueba de fábrica y verificación de origen.",
@@ -328,12 +322,10 @@
             "ja": "はい。HSコード7318.21のステンレス鋼ファスナーの基礎輸入関税率はCIF価格に対して25%アドヴァローレムであり、HS 7318.15の標準炭素鋼ファスナーの20%と比較されます。関税込みCIF価格で計算されたVATにより、ステンレス鋼ファスナーの実効総税率は約43.75%(25%関税+18.75%VAT)であり、炭素鋼の38%に対してです。この5.75%の実効税率の差は、低価値標準ファスナーの国内メーカーに一定の保護を提供する一方で、高合金ステンレス鋼ファスナーは現在国内で生産されておらず、輸入しなければならないことを認識するジンバブエの政策を反映しています。ステンレス鋼ファスナーはまた、強制的な工場試験証明書や原産地確認を含む、より厳しい書類要件にも直面しています。",
             "de": "Ja. Befestigungsmittel aus Edelstahl unter dem HS-Code 7318.21 unterliegen einem grundlegenden Einfuhrzollsatz von 25% ad valorem auf den CIF-Wert, verglichen mit 20% für Standard-Kohlenstoffstahl-Befestigungsmittel unter HS 7318.15. Bei Berechnung der MWSt auf den zollinclusive CIF-Wert beträgt der effektive Gesamtsatz für Edelstahlbefestigungsmittel etwa 43,75% (25% Zoll + 18,75% MWSt), gegenüber 38% für Kohlenstoffstahl. Dieser Unterschied im effektiven Satz von 5,75% spiegelt die Politik Simbabwes wider, lokalen Herstellern von Standardbefestigungsmitteln mit geringerem Wert einen gewissen Schutz zu gewähren, während anerkannt wird, dass hochlegierte Edelstahlbefestigungsmittel derzeit nicht im Inland hergestellt werden und importiert werden müssen. Befestigungsmittel aus Edelstahl sehen sich auch strengeren Dokumentationsanforderungen gegenüber, einschließlich verbindlicher Werksprüfzeugnisse und Ursprungsüberprüfung.",
             "hi": "हां। HS कोड 7318.21 के तहत स्टेनलेस स्टील फास्टनर की CIF मूल्य पर आधार आयात शुल्क दर 25% ad valorem है, जबकि HS 7318.15 के तहत मानक कार्बन स्टील फास्टनर के लिए 20% है। शुल्क-समावेशी CIF मूल्य पर गणना किए गए VAT के साथ, स्टेनलेस स्टील फास्टनर के लिए प्रभावी कुल दर लगभग 43.75% (25% शुल्क + 18.75% VAT) है, जबकि कार्बन स्टील के लिए 38% है। यह 5.75% प्रभावी दर अंतर जिम्बाब्वे की निम्न-मूल्य मानक फास्टनरों के स्थानीय निर्माताओं को कुछ सुरक्षा प्रदान करने की नीति को दर्शाता है, जबकि यह मान्यता देता है कि उच्च-मिश्र धातु स्टेनलेस स्टील फास्टनर वर्तमान में घरेलू स्तर पर नहीं बनाए जाते हैं और उन्हें आयात करना आवश्यक है। स्टेनलेस स्टील फास्टनर को सख्त दस्तावेज़ीकरण आवश्यकताओं का भी सामना करना पड़ता है, जिसमें अनिवार्य मिल परीक्षण प्रमाण पत्र और उत्पत्ति सत्यापन शामिल हैं।"
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "How does the CIF valuation work when importing mixed fastener containers with multiple HS codes?",
             "zh": "进口具有多个HS代码的混合紧固件集装箱时CIF估值如何运作?",
             "es": "¿Cómo funciona la valoración CIF al importar contenedores de sujetadores mixtos con múltiples códigos HS?",
@@ -345,7 +337,7 @@
             "de": "Wie funktioniert die CIF-Bewertung beim Import von Containern mit gemischten Befestigungsmitteln und mehreren HS-Codes?",
             "hi": "कई HS कोड वाले मिश्रित फास्टनर कंटेनरों को आयात करते समय CIF मूल्यांकन कैसे काम करता है?"
           },
-          "answer": {
+          "a": {
             "en": "When importing mixed fastener containers with multiple HS codes, ZIMRA requires that the commercial invoice separately itemizes and values each product category with its corresponding HS code. Each line item is then assessed individually at its applicable duty rate. For example: a container with US$10,000 CIF of carbon steel hex bolts (HS 7318.15 at 20%) + US$5,000 CIF of stainless steel nuts (HS 7318.21 at 25%) would be calculated as ($10,000 × 20%) + ($5,000 × 25%) = $2,000 + $1,250 = $3,250 import duty, then VAT at 15% on (CIF $15,000 + duty $3,250) = $2,737.50, for total duties and taxes of $5,987.50. If the invoice does not properly segregate values by HS code, ZIMRA will assess the entire shipment at the highest applicable duty rate among the products present (typically 25% for stainless steel). This is a common source of unexpected cost overruns, so always require your supplier to provide HS-coded line-item pricing on all commercial invoices.",
             "zh": "进口具有多个HS代码的混合紧固件集装箱时,ZIMRA要求商业发票按相应的HS代码分别列出和估值每个产品类别。然后每个行项目按适用的税率单独评估。例如:一个装有10,000美元CIF碳钢六角螺栓(HS 7318.15,税率20%)+5,000美元CIF不锈钢螺母(HS 7318.21,税率25%)的集装箱将计算为(10,000美元×20%)+(5,000美元×25%)=2,000美元+1,250美元=3,250美元进口关税,然后按(CIF 15,000美元+关税3,250美元)的15%计算增值税=2,737.50美元,总关税和税收为5,987.50美元。如果发票没有按HS代码正确区分价值,ZIMRA将按存在的产品中最高适用税率(通常不锈钢为25%)评估整批货物。这是意外成本超支的常见来源,所以始终要求您的供应商在所有商业发票上提供HS编码的行项目定价。",
             "es": "Al importar contenedores de sujetadores mixtos con múltiples códigos HS, ZIMRA requiere que la factura comercial detalle y valore por separado cada categoría de producto con su código HS correspondiente. Cada elemento de línea se evalúa entonces individualmente a su tasa de derecho aplicable. Por ejemplo: un contenedor con US$10.000 CIF de pernos hexagonales de acero al carbono (HS 7318.15 al 20%) + US$5.000 CIF de tuercas de acero inoxidable (HS 7318.21 al 25%) se calcularía como ($10.000 × 20%) + ($5.000 × 25%) = $2.000 + $1.250 = $3.250 de derecho de importación, luego IVA al 15% sobre (CIF $15.000 + derecho $3.250) = $2.737,50, para un total de derechos e impuestos de $5.987,50. Si la factura no separa adecuadamente los valores por código HS, ZIMRA evaluará todo el envío a la tasa de derecho aplicable más alta entre los productos presentes (típicamente 25% para acero inoxidable). Esta es una fuente común de sobrecostos inesperados, así que exija siempre a su proveedor que proporcione precios detallados por elemento con código HS en todas las facturas comerciales.",
@@ -356,9 +348,7 @@
             "ja": "複数のHSコードを持つ混合ファスナーコンテナを輸入する場合、ZIMRAは商業インボイスに各製品カテゴリーを対応するHSコードと共に個別に記載し、評価することを要求します。次に、各ラインアイテムはそれぞれの適用関税率で個別に評価されます。例えば:炭素鋼六角ボルトのCIF 10,000米ドル(HS 7318.15,20%)+ステンレス鋼ナットのCIF 5,000米ドル(HS 7318.21,25%)のコンテナは、(10,000米ドル×20%)+(5,000米ドル×25%)=2,000米ドル+1,250米ドル=3,250米ドルの輸入関税と計算され、次に(CIF 15,000米ドル+関税3,250米ドル)に対して15%のVAT=2,737.50米ドル、関税および税の合計は5,987.50米ドルとなります。インボイスがHSコード別に価値を適切に分離していない場合、ZIMRAは存在する製品の中で最も高い適用関税率(通常はステンレス鋼の25%)で貨物全体を評価します。これは予期しないコスト超過の一般的な原因であるため、すべての商業インボイスでサプライヤーにHSコード付きのラインアイテム価格を提供するよう常に要求してください。",
             "de": "Beim Import von Containern mit gemischten Befestigungsmitteln und mehreren HS-Codes verlangt ZIMRA, dass die Handelsrechnung jede Produktkategorie separat mit dem entsprechenden HS-Code auflistet und bewertet. Jede Einzelposition wird dann einzeln mit ihrem jeweiligen Zollsatz bewertet. Zum Beispiel: Ein Container mit Sechskantschrauben aus Kohlenstoffstahl für 10.000 US$ CIF (HS 7318.15 zu 20%) + Muttern aus Edelstahl für 5.000 US$ CIF (HS 7318.21 zu 25%) würde berechnet als ($10.000 × 20%) + ($5.000 × 25%) = $2.000 + $1.250 = $3.250 Einfuhrzoll, dann MWSt von 15% auf (CIF $15.000 + Zoll $3.250) = $2.737,50, für Gesamtzölle und Steuern von $5.987,50. Wenn die Rechnung die Werte nicht ordnungsgemäß nach HS-Code trennt, wird ZIMRA die gesamte Sendung zum höchsten geltenden Zollsatz unter den vorhandenen Produkten bewerten (typischerweise 25% für Edelstahl). Dies ist eine häufige Ursache für unerwartete Kostenüberschreitungen, also verlangen Sie immer von Ihrem Lieferanten, dass er in allen Handelsrechnungen preislich ausgewiesene Einzelpositionen mit HS-Code bereitstellt.",
             "hi": "कई HS कोड वाले मिश्रित फास्टनर कंटेनरों को आयात करते समय, ZIMRA की आवश्यकता होती है कि वाणिज्यिक चालान में प्रत्येक उत्पाद श्रेणी को उसके संबंधित HS कोड के साथ अलग-अलग सूचीबद्ध और मूल्यांकित किया जाए। प्रत्येक लाइन आइटम को तब उसकी लागू शुल्क दर पर व्यक्तिगत रूप से मूल्यांकन किया जाता है। उदाहरण के लिए: कार्बन स्टील हेक्स बोल्ट्स के CIF 10,000 अमेरिकी डॉलर (HS 7318.15 20% पर) + स्टेनलेस स्टील नट्स के CIF 5,000 अमेरिकी डॉलर (HS 7318.21 25% पर) वाले कंटेनर की गणना ($10,000 × 20%) + ($5,000 × 25%) = $2,000 + $1,250 = $3,250 आयात शुल्क के रूप में की जाएगी, फिर (CIF $15,000 + शुल्क $3,250) पर 15% VAT = $2,737.50, कुल शुल्क और करों के लिए $5,987.50। यदि चालान मूल्यों को HS कोड द्वारा ठीक से अलग नहीं करता है, तो ZIMRA पूरी शिपमेंट का मूल्यांकन मौजूद उत्पादों में सबसे अधिक लागू होने वाली शुल्क दर (आमतौर पर स्टेनलेस स्टील के लिए 25%) पर करेगा। यह अप्रत्याशित लागत अतिक्रमण का एक सामान्य स्रोत है, इसलिए हमेशा अपने आपूर्तिकर्ता से सभी वाणिज्यिक चालानों पर HS-कोडेड लाइन-आइटम मूल्य निर्धारण प्रदान करने की मांग करें।"
-          },
-          "q": {},
-          "a": {}
+          }
         }
       ]
     }

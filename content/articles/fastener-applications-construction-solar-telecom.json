@@ -17,7 +17,7 @@
     "hi": "उद्योग अनुसार फास्टनर अनुप्रयोग: निर्माण, सौर, दूरसंचार"
   },
   "description": {
-    "en": "Construction projects require specialized fasteners for structural integrity: 1.",
+    "en": "Construction projects require specialized fasteners for structural integrity: 1. TradeGo quotes CIF prices with mill test reports included.",
     "zh": "建筑、光伏支架和电信塔项目对螺栓、锚栓及自攻螺丝的要求各异。按载荷、基材、户外腐蚀和安装方式匹配规格，明确材料等级与防护涂层。",
     "es": "Descubra qué fijaciones usar en obras de construcción, el montaje de paneles solares y torres de telecomunicaciones, según los requisitos de cada aplicación.",
     "ar": "دليل تطبيقات المثبتات لمشاريع البناء وتركيب الألواح الشمسية وأبراج الاتصالات. تعرف على المثبتات المراد استخدامها لكل تطبيق.",
@@ -139,7 +139,7 @@
       },
       "faqItems": [
         {
-          "question": {
+          "q": {
             "en": "What are the key considerations for fastener applications construction solar telecom?",
             "zh": "关于fastener applications construction solar telecom的关键考虑因素是什么？",
             "es": "What are the key considerations for fastener applications construction solar telecom?",
@@ -151,7 +151,7 @@
             "de": "What are the key considerations for fastener applications construction solar telecom?",
             "hi": "What are the key considerations for fastener applications construction solar telecom?"
           },
-          "answer": {
+          "a": {
             "en": "See the detailed analysis above for specifications, applications, and best practices for fastener applications construction solar telecom.",
             "zh": "See the detailed analysis above for specifications, applications, and best practices for fastener applications construction solar telecom.",
             "es": "See the detailed analysis above for specifications, applications, and best practices for fastener applications construction solar telecom.",
@@ -162,12 +162,10 @@
             "ja": "See the detailed analysis above for specifications, applications, and best practices for fastener applications construction solar telecom.",
             "de": "See the detailed analysis above for specifications, applications, and best practices for fastener applications construction solar telecom.",
             "hi": "See the detailed analysis above for specifications, applications, and best practices for fastener applications construction solar telecom."
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "What standards should I follow?",
             "zh": "应该遵循哪些标准？",
             "es": "What standards should I follow?",
@@ -179,7 +177,7 @@
             "de": "What standards should I follow?",
             "hi": "What standards should I follow?"
           },
-          "answer": {
+          "a": {
             "en": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
             "zh": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
             "es": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
@@ -190,12 +188,10 @@
             "ja": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
             "de": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
             "hi": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market."
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "How do I choose a reliable supplier?",
             "zh": "如何选择可靠的供应商？",
             "es": "How do I choose a reliable supplier?",
@@ -207,7 +203,7 @@
             "de": "How do I choose a reliable supplier?",
             "hi": "How do I choose a reliable supplier?"
           },
-          "answer": {
+          "a": {
             "en": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
             "zh": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
             "es": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
@@ -218,9 +214,7 @@
             "ja": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
             "de": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
             "hi": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region."
-          },
-          "q": {},
-          "a": {}
+          }
         }
       ]
     }
@@ -331,7 +325,7 @@
   "region": "global",
   "updated": "2026-11-24",
   "metaDescription": {
-    "en": "Construction projects require specialized fasteners for structural integrity: 1.",
+    "en": "Construction projects require specialized fasteners for structural integrity: 1. TradeGo quotes CIF prices with mill test reports included.",
     "zh": "建筑、光伏板安装和电信塔项目的紧固件应用指南。了解每种应用使用哪些紧固件及其原因。",
     "es": "Guía de aplicaciones de sujetadores para proyectos de construcción, montaje de paneles solares y torres de telecomunicaciones. Aprenda qué sujetadores usar para cada aplicación.",
     "ar": "دليل تطبيقات المثبتات لمشاريع البناء وتركيب الألواح الشمسية وأبراج الاتصالات. تعرف على المثبتات المراد استخدامها لكل تطبيق.",

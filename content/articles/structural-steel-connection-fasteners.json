@@ -204,9 +204,7 @@
             "ja": "In a bearing-type connection, the bolts carry the applied load by bearing against the connected plates — the bolt itself is in shear. The preload (clamp force) doesn't matter as much; the bolt just needs to be snug-tight. In a friction-type (slip-critical) connection, the applied load is transferred by friction between the connected plates, created by the bolt's preload. If the preload is insufficient, the joint slips — causing failure. Slip-critical connections require higher preload (verified by DTI washers or calibrated wrench), and the connected surfaces must be free of paint and mill scale (cleaned to bare metal) to achieve the specified coefficient of friction.",
             "de": "In a bearing-type connection, the bolts carry the applied load by bearing against the connected plates — the bolt itself is in shear. The preload (clamp force) doesn't matter as much; the bolt just needs to be snug-tight. In a friction-type (slip-critical) connection, the applied load is transferred by friction between the connected plates, created by the bolt's preload. If the preload is insufficient, the joint slips — causing failure. Slip-critical connections require higher preload (verified by DTI washers or calibrated wrench), and the connected surfaces must be free of paint and mill scale (cleaned to bare metal) to achieve the specified coefficient of friction.",
             "hi": "In a bearing-type connection, the bolts carry the applied load by bearing against the connected plates — the bolt itself is in shear. The preload (clamp force) doesn't matter as much; the bolt just needs to be snug-tight. In a friction-type (slip-critical) connection, the applied load is transferred by friction between the connected plates, created by the bolt's preload. If the preload is insufficient, the joint slips — causing failure. Slip-critical connections require higher preload (verified by DTI washers or calibrated wrench), and the connected surfaces must be free of paint and mill scale (cleaned to bare metal) to achieve the specified coefficient of friction."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -232,9 +230,7 @@
             "ja": "Under the bolt head — distributes the load from the bolt head onto the connected plate, preventing localized bearing stress that could deform the plate; hardened washers are used with high-strength bolts to prevent embedding. Under the nut — serves the same purpose on the other side of the joint; the nut bearing surface is smaller than the head, so the washer is even more important here. For structural connections using high-strength bolts (Grade 8.8, 10.9), hardened washers (to HRC 38-45) are specified for both positions. Using standard (soft) washers with high-strength bolts can cause the washer to deform and lose preload.",
             "de": "Under the bolt head — distributes the load from the bolt head onto the connected plate, preventing localized bearing stress that could deform the plate; hardened washers are used with high-strength bolts to prevent embedding. Under the nut — serves the same purpose on the other side of the joint; the nut bearing surface is smaller than the head, so the washer is even more important here. For structural connections using high-strength bolts (Grade 8.8, 10.9), hardened washers (to HRC 38-45) are specified for both positions. Using standard (soft) washers with high-strength bolts can cause the washer to deform and lose preload.",
             "hi": "Under the bolt head — distributes the load from the bolt head onto the connected plate, preventing localized bearing stress that could deform the plate; hardened washers are used with high-strength bolts to prevent embedding. Under the nut — serves the same purpose on the other side of the joint; the nut bearing surface is smaller than the head, so the washer is even more important here. For structural connections using high-strength bolts (Grade 8.8, 10.9), hardened washers (to HRC 38-45) are specified for both positions. Using standard (soft) washers with high-strength bolts can cause the washer to deform and lose preload."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -260,9 +256,7 @@
             "ja": "Bolt spacing is governed by the structural design code (BS 5950, AISC, SANS, etc.) and the design loads. General guidelines: Minimum spacing — not less than 2.5× bolt diameter (to prevent edge splitting); Maximum spacing in tension — not more than 14× t (thinner connected plate) or 200mm; Maximum spacing in compression — not more than 24× t or 300mm; Edge distance — minimum edge distance varies from 1.5D to 2.0D depending on edge condition (sheared, rolled, etc.) and loading direction. Always follow the structural engineer's connection design — these are general guidelines only.",
             "de": "Bolt spacing is governed by the structural design code (BS 5950, AISC, SANS, etc.) and the design loads. General guidelines: Minimum spacing — not less than 2.5× bolt diameter (to prevent edge splitting); Maximum spacing in tension — not more than 14× t (thinner connected plate) or 200mm; Maximum spacing in compression — not more than 24× t or 300mm; Edge distance — minimum edge distance varies from 1.5D to 2.0D depending on edge condition (sheared, rolled, etc.) and loading direction. Always follow the structural engineer's connection design — these are general guidelines only.",
             "hi": "Bolt spacing is governed by the structural design code (BS 5950, AISC, SANS, etc.) and the design loads. General guidelines: Minimum spacing — not less than 2.5× bolt diameter (to prevent edge splitting); Maximum spacing in tension — not more than 14× t (thinner connected plate) or 200mm; Maximum spacing in compression — not more than 24× t or 300mm; Edge distance — minimum edge distance varies from 1.5D to 2.0D depending on edge condition (sheared, rolled, etc.) and loading direction. Always follow the structural engineer's connection design — these are general guidelines only."
-          },
-          "question": {},
-          "answer": {}
+          }
         }
       ],
       "body": {

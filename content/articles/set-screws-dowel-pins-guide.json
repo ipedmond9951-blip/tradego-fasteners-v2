@@ -257,9 +257,7 @@
             "ja": "Set screw loosening on shafts is caused by: insufficient tightening torque — ensure you are using the correct socket size and applying adequate torque; a 3mm set screw requires only 0.5-1 N·m, while an M8 requires 5-10 N·m; vibration — specify cup point or knurled cup for vibration environments; consider adding a second set screw at 90 degrees to the first; soft shaft material — cup point set screws indent soft shafts over time; use a shaft with a drilled positioning hole (half-dog) or specify a harder shaft material; inadequate thread engagement — the set screw must thread fully into the component (minimum 1.5× diameter engagement); if the component is too thin, the set screw bottoms out before providing adequate clamping force.",
             "de": "Set screw loosening on shafts is caused by: insufficient tightening torque — ensure you are using the correct socket size and applying adequate torque; a 3mm set screw requires only 0.5-1 N·m, while an M8 requires 5-10 N·m; vibration — specify cup point or knurled cup for vibration environments; consider adding a second set screw at 90 degrees to the first; soft shaft material — cup point set screws indent soft shafts over time; use a shaft with a drilled positioning hole (half-dog) or specify a harder shaft material; inadequate thread engagement — the set screw must thread fully into the component (minimum 1.5× diameter engagement); if the component is too thin, the set screw bottoms out before providing adequate clamping force.",
             "hi": "Set screw loosening on shafts is caused by: insufficient tightening torque — ensure you are using the correct socket size and applying adequate torque; a 3mm set screw requires only 0.5-1 N·m, while an M8 requires 5-10 N·m; vibration — specify cup point or knurled cup for vibration environments; consider adding a second set screw at 90 degrees to the first; soft shaft material — cup point set screws indent soft shafts over time; use a shaft with a drilled positioning hole (half-dog) or specify a harder shaft material; inadequate thread engagement — the set screw must thread fully into the component (minimum 1.5× diameter engagement); if the component is too thin, the set screw bottoms out before providing adequate clamping force."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -285,9 +283,7 @@
             "ja": "Use taper pins for: permanent, high-accuracy positioning where the joint will not be disassembled; applications requiring very high positional accuracy (machine tool fixtures, precision instruments); joints where the pin must also transmit shear load. Use parallel dowel pins for: applications where components may need to be disassembled and reassembled; general precision alignment in machinery; where ease of assembly/disassembly is important. Taper pins require matching taper holes (reamed with a taper reamer) which are more expensive to produce than straight holes for parallel dowels.",
             "de": "Use taper pins for: permanent, high-accuracy positioning where the joint will not be disassembled; applications requiring very high positional accuracy (machine tool fixtures, precision instruments); joints where the pin must also transmit shear load. Use parallel dowel pins for: applications where components may need to be disassembled and reassembled; general precision alignment in machinery; where ease of assembly/disassembly is important. Taper pins require matching taper holes (reamed with a taper reamer) which are more expensive to produce than straight holes for parallel dowels.",
             "hi": "Use taper pins for: permanent, high-accuracy positioning where the joint will not be disassembled; applications requiring very high positional accuracy (machine tool fixtures, precision instruments); joints where the pin must also transmit shear load. Use parallel dowel pins for: applications where components may need to be disassembled and reassembled; general precision alignment in machinery; where ease of assembly/disassembly is important. Taper pins require matching taper holes (reamed with a taper reamer) which are more expensive to produce than straight holes for parallel dowels."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -313,9 +309,7 @@
             "ja": "Spring pins (tension pins) and roll pins (coiled spring pins) are both split longitudinally to allow compression during insertion, but they differ in manufacture and performance: Spring pins are a single piece of spring steel with a longitudinal slit; roll pins are a coiled strip of steel — essentially a spring wound into a pin shape. Roll pins are significantly stronger than spring pins (approximately 3× the shear strength) and resist jamming better. Roll pins are the preferred choice for most industrial applications; spring pins are used where very precise control of expansion force is needed.",
             "de": "Spring pins (tension pins) and roll pins (coiled spring pins) are both split longitudinally to allow compression during insertion, but they differ in manufacture and performance: Spring pins are a single piece of spring steel with a longitudinal slit; roll pins are a coiled strip of steel — essentially a spring wound into a pin shape. Roll pins are significantly stronger than spring pins (approximately 3× the shear strength) and resist jamming better. Roll pins are the preferred choice for most industrial applications; spring pins are used where very precise control of expansion force is needed.",
             "hi": "Spring pins (tension pins) and roll pins (coiled spring pins) are both split longitudinally to allow compression during insertion, but they differ in manufacture and performance: Spring pins are a single piece of spring steel with a longitudinal slit; roll pins are a coiled strip of steel — essentially a spring wound into a pin shape. Roll pins are significantly stronger than spring pins (approximately 3× the shear strength) and resist jamming better. Roll pins are the preferred choice for most industrial applications; spring pins are used where very precise control of expansion force is needed."
-          },
-          "question": {},
-          "answer": {}
+          }
         }
       ],
       "body": {

@@ -202,9 +202,7 @@
             "ja": "For M10 Grade 8.8 hex bolts, the recommended torque is 50-60 Nm (37-44 ft-lb). For Grade 10.9, use 70-80 Nm (52-59 ft-lb). Always refer to your specific application requirements.",
             "de": "For M10 Grade 8.8 hex bolts, the recommended torque is 50-60 Nm (37-44 ft-lb). For Grade 10.9, use 70-80 Nm (52-59 ft-lb). Always refer to your specific application requirements.",
             "hi": "For M10 Grade 8.8 hex bolts, the recommended torque is 50-60 Nm (37-44 ft-lb). For Grade 10.9, use 70-80 Nm (52-59 ft-lb). Always refer to your specific application requirements."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -230,9 +228,7 @@
             "ja": "Torque is the rotational force applied to tighten a bolt. Preload (clamp force) is the tension created in the bolt when tightened. The goal is to achieve correct preload; torque is just the method to reach it.",
             "de": "Torque is the rotational force applied to tighten a bolt. Preload (clamp force) is the tension created in the bolt when tightened. The goal is to achieve correct preload; torque is just the method to reach it.",
             "hi": "Torque is the rotational force applied to tighten a bolt. Preload (clamp force) is the tension created in the bolt when tightened. The goal is to achieve correct preload; torque is just the method to reach it."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -258,9 +254,7 @@
             "ja": "Generally no. Once a bolt has been torqued beyond its yield point and then loosened, it may have been permanently stretched. Replace with new bolts for critical structural applications.",
             "de": "Generally no. Once a bolt has been torqued beyond its yield point and then loosened, it may have been permanently stretched. Replace with new bolts for critical structural applications.",
             "hi": "Generally no. Once a bolt has been torqued beyond its yield point and then loosened, it may have been permanently stretched. Replace with new bolts for critical structural applications."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -286,9 +280,7 @@
             "ja": "The nut factor K accounts for friction in the torque-tension relationship. K = 0.2 is commonly used for plain (unlubricated) bolts. For lubricated bolts, K may be 0.15-0.18. Always check with your specific coating/lubrication condition.",
             "de": "The nut factor K accounts for friction in the torque-tension relationship. K = 0.2 is commonly used for plain (unlubricated) bolts. For lubricated bolts, K may be 0.15-0.18. Always check with your specific coating/lubrication condition.",
             "hi": "The nut factor K accounts for friction in the torque-tension relationship. K = 0.2 is commonly used for plain (unlubricated) bolts. For lubricated bolts, K may be 0.15-0.18. Always check with your specific coating/lubrication condition."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -314,9 +306,7 @@
             "ja": "Use a calibrated torque wrench set to the correct specification. For critical joints, use direct tension indicators (washers with raised bumps) or ultrasonic bolt stretch measurement.",
             "de": "Use a calibrated torque wrench set to the correct specification. For critical joints, use direct tension indicators (washers with raised bumps) or ultrasonic bolt stretch measurement.",
             "hi": "Use a calibrated torque wrench set to the correct specification. For critical joints, use direct tension indicators (washers with raised bumps) or ultrasonic bolt stretch measurement."
-          },
-          "question": {},
-          "answer": {}
+          }
         }
       ]
     }

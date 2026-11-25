@@ -235,6 +235,55 @@
         "ja": "指定されている場合は、ヒートナンバー付きの材料証明書、機械的性質の結果、非破壊検査報告書を用意することになります。高圧サービスでは低温での衝撃試験が求められることが多く、証明書には結果だけでなく試験温度も記載されていなければなりません。<p>トレーサビリティは双方向です。証明書ではロットを特定でき、ロットは納入部品上で判別できる必要があります。通常は被膜や取り扱い後も残るマーキングによります。実物の部品と紐付けられない証明書は証拠とはならず、製油所の検査官もそのように扱います。</p>",
         "ru": "Готовьтесь предоставлять сертификаты материала с номерами плавки, результаты механических испытаний и отчёты по неразрушающему контролю там, где это указано. Для службы под высоким давлением часто требуется испытание на удар при низкой температуре, и в сертификате должна быть указана температура испытания, а не только результат.<p>Прослеживаемость работает в обе стороны: сертификат должен идентифицировать партию, а партия должна быть опознаваема на поставленных деталях — обычно маркировкой, сохраняющейся после покрытия и перемещения. Сертификат, который нельзя привязать к физической детали, не является доказательством, и инспектор НПЗ отнесётся к нему именно так.</p>"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What makes refinery bolting different from construction bolting?"
+          },
+          "a": {
+            "en": "Pressure, temperature, cyclic loading, and in some units hydrogen or sour service. Material selection and bolting procedure are driven by design conditions rather than by price."
+          }
+        },
+        {
+          "q": {
+            "en": "Which documents are typically required?"
+          },
+          "a": {
+            "en": "Material certificates with heat numbers, mechanical test results, low-temperature impact testing where specified, non-destructive test reports, and marking that lets the certificate be tied to the delivered parts."
+          }
+        },
+        {
+          "q": {
+            "en": "Why does lubricant choice matter?"
+          },
+          "a": {
+            "en": "For the same preload, different lubricants produce different effective torque. The tightening procedure must name the lubricant so the specified torque is repeatable across crews."
+          }
+        },
+        {
+          "q": {
+            "en": "How should coastal refinery structures be protected?"
+          },
+          "a": {
+            "en": "Choose coatings by exposure: hot-dip galvanizing or zinc-rich systems for structural bolting, stainless or composite where chloride levels are high, and isolation between dissimilar metals."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -283,23 +332,5 @@
       "hi": "Request Quote"
     },
     "link": "/en/contact"
-  },
-  "faq": [
-    {
-      "q": "What makes refinery bolting different from construction bolting?",
-      "a": "Pressure, temperature, cyclic loading, and in some units hydrogen or sour service. Material selection and bolting procedure are driven by design conditions rather than by price."
-    },
-    {
-      "q": "Which documents are typically required?",
-      "a": "Material certificates with heat numbers, mechanical test results, low-temperature impact testing where specified, non-destructive test reports, and marking that lets the certificate be tied to the delivered parts."
-    },
-    {
-      "q": "Why does lubricant choice matter?",
-      "a": "For the same preload, different lubricants produce different effective torque. The tightening procedure must name the lubricant so the specified torque is repeatable across crews."
-    },
-    {
-      "q": "How should coastal refinery structures be protected?",
-      "a": "Choose coatings by exposure: hot-dip galvanizing or zinc-rich systems for structural bolting, stainless or composite where chloride levels are high, and isolation between dissimilar metals."
-    }
-  ]
+  }
 }

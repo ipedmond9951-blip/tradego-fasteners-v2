@@ -17,7 +17,7 @@
     "hi": "GB / DIN / ANSI फास्टनर मानक: निर्यात विशिष्टता गाइड"
   },
   "description": {
-    "en": "Fastener standards vary significantly between regions.",
+    "en": "Fastener standards vary significantly between regions. Contact TradeGo for specifications, MOQ and CIF pricing.",
     "zh": "紧固件标准因地区而差异显著。DIN是欧洲标准系统，在非洲和亚洲被广泛引用。GB（中国国家标准）作为中国制造商主导全球供应而日益重要。ANSI/ASME使用英寸测量。GB标准不锈钢六角螺栓（GB/T 5782/5783）是DIN标准的等效中国标准。",
     "es": "Compare normas GB, DIN y ANSI para pernos y tornillos de exportación. Revise especificaciones y documentos al comprar fijaciones.",
     "ar": "دليل معايير GB وDIN وANSI للمثبتات، يشمل المواصفات والتطبيقات وكيفية اختيار الموردين لتصدير المنتجات إلى الأسواق الأفريقية.",
@@ -243,9 +243,7 @@
             "ja": "Yes, DIN and ISO metric hex bolts are harmonized under the Vienna Agreement. Dimensions and tolerances are essentially identical. ISO 4017 replaces DIN 933, and ISO 4014 replaces DIN 931.",
             "de": "Yes, DIN and ISO metric hex bolts are harmonized under the Vienna Agreement. Dimensions and tolerances are essentially identical. ISO 4017 replaces DIN 933, and ISO 4014 replaces DIN 931.",
             "hi": "Yes, DIN and ISO metric hex bolts are harmonized under the Vienna Agreement. Dimensions and tolerances are essentially identical. ISO 4017 replaces DIN 933, and ISO 4014 replaces DIN 931."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -271,9 +269,7 @@
             "ja": "No. UNC and metric threads have different diameters and pitches. A 1/4\"-20 UNC bolt is completely incompatible with an M6 nut despite similar nominal sizes.",
             "de": "No. UNC and metric threads have different diameters and pitches. A 1/4\"-20 UNC bolt is completely incompatible with an M6 nut despite similar nominal sizes.",
             "hi": "No. UNC and metric threads have different diameters and pitches. A 1/4\"-20 UNC bolt is completely incompatible with an M6 nut despite similar nominal sizes."
-          },
-          "question": {},
-          "answer": {}
+          }
         }
       ],
       "body": {
@@ -394,7 +390,7 @@
   ],
   "region": "global",
   "metaDescription": {
-    "en": "GB, DIN and ANSI fastener standards differ in thread pitch, head dimensions and marking. Learn how to map a local standard to an export order and avoid rejection at destination inspection.",
+    "en": "GB, DIN and ANSI fastener standards differ in thread pitch, head dimensions and marking. Learn how to map a local standard to an export order and avoid rejection.",
     "zh": "紧固件标准因地区而差异显著。DIN是欧洲标准系统，在非洲和亚洲被广泛引用。GB（中国国家标准）作为中国制造商主导全球供应而日益重要。ANSI/ASME使用英寸测量。GB标准不锈钢六角螺栓（GB/T 5782/5783）是DIN标准的等效中国标准。",
     "es": "GB / DIN / ANSI Fastener Standards: Export Specifi. Guía completa de GB / DIN / ANSI Fastener Standards: Export Specifi - especificaciones, aplicaciones y selección de proveedores para exportación B2B a mercados africanos.",
     "ar": "دليل معايير GB وDIN وANSI للمثبتات، يشمل المواصفات والتطبيقات وكيفية اختيار الموردين لتصدير المنتجات إلى الأسواق الأفريقية.",
@@ -409,7 +405,7 @@
     "en": "GB / DIN / ANSI Fastener Standards: Export Specification Guide",
     "zh": "GB/DIN/ANSI紧固件标准：出口规格指南",
     "ja": "GB / DIN / ANSI 締結器具規格：輸出仕様ガイド",
-    "de": "GB / DIN / ANSI Befestigungsnormen: Exportleitfaden",
+    "de": "GB-, DIN- und ANSI-Normen für Verbindungselemente im Export - TradeGo Fasteners",
     "ru": "Стандарты GB / DIN / ANSI крепежа: Руководство по экспорту",
     "pt": "Normas GB / DIN / ANSI para fixadores: Guia de exportação",
     "es": "Normas GB / DIN / ANSI para sujetadores: Guía de exportación",

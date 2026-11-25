@@ -235,6 +235,55 @@
         "de": "Eisenbahnprojekte in Afrika werden üblicherweise finanziert und daher nach einem benannten Standard geprüft — oft eine nationale Bahn-Spezifikation, ein auf UIC aufbauendes Dokument oder ein Geberstandard. Klären Sie vor der Angebotsabgabe, welches Dokument maßgeblich ist, denn die Zustimmung zu einer gleichwertigen Alternative ist langsam und wird manchmal abgelehnt.<p>Auch die Logistik bestimmt die Bestellung. Schwellen und Befestigungen sind schwer und sperrig, daher muss die Versandplanung der Montagereihenfolge folgen, nicht dem Werkskomfort: liefern Sie die Befestigungen in der Reihenfolge, in der das Gleis verlegt wird, und halten Sie Ersatzklemmen und Isolatoren im gleichen Verhältnis zur eingebauten Menge vor. Ein Mangel auf einer Bahnbaustelle stoppt die gesamte Sperrung, nicht nur eine einzelne Tätigkeit.</p>",
         "hi": "अफ्रीका में रेल परियोजनाएँ आमतौर पर वित्तपोषित होती हैं और इसलिए किसी निर्दिष्ट मानक के अनुसार निरीक्षण की जाती हैं — अक्सर कोई राष्ट्रीय रेलवे स्पेसिफिकेशन, UIC आधारित दस्तावेज़, या डोनर मानक। कोटेशन से पहले यह तय कर लें कि कौन सा दस्तावेज़ प्रमुख है, क्योंकि समकक्ष विकल्प की मंज़ूरी धीमी होती है और कभी-कभी मिलती भी नहीं है।<p>लॉजिस्टिक्स भी ऑर्डर को आकार देती है। स्लीपर और फास्टनिंग्स भारी और भारी-भरकम होते हैं, इसलिए शिपमेंट योजना फैक्ट्री की सुविधा के बजाय स्थापना क्रम से मेल खानी चाहिए: फास्टनिंग्स उस क्रम में पहुँचाएँ जिस क्रम में ट्रैक बिछाया जाएगा, और अतिरिक्त क्लिप व इंसुलेटर लगाए गए स्टॉक के समान अनुपात में रखें। रेल काम में सामान की कमी एक गतिविधि नहीं, पूरे पज़ेशन को रोक देती है।</p>"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Can fastening components from different sleeper systems be mixed?"
+          },
+          "a": {
+            "en": "No. A clip dimensioned for one shoulder will not seat correctly in another system, and mixing components is a common cause of track geometry problems in new construction."
+          }
+        },
+        {
+          "q": {
+            "en": "Is torque enough to confirm correct installation?"
+          },
+          "a": {
+            "en": "No. Elastic fastenings are specified by toe load, so the installed gap, a toe load sample test, and the condition of the pad and insulator must also be checked and recorded."
+          }
+        },
+        {
+          "q": {
+            "en": "What coating is usual for rail fastenings?"
+          },
+          "a": {
+            "en": "Hot-dip galvanizing covers general service. Heavy-duty and coastal corridors often require thicker coatings or stainless components at the clip and insulator interface."
+          }
+        },
+        {
+          "q": {
+            "en": "How should fastenings be shipped for a rail project?"
+          },
+          "a": {
+            "en": "Match the installation sequence rather than factory convenience, and keep spare clips and insulators at the same ratio as installed quantities, because a shortage stops the whole possession."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -283,23 +332,5 @@
       "hi": "Request Quote"
     },
     "link": "/en/contact"
-  },
-  "faq": [
-    {
-      "q": "Can fastening components from different sleeper systems be mixed?",
-      "a": "No. A clip dimensioned for one shoulder will not seat correctly in another system, and mixing components is a common cause of track geometry problems in new construction."
-    },
-    {
-      "q": "Is torque enough to confirm correct installation?",
-      "a": "No. Elastic fastenings are specified by toe load, so the installed gap, a toe load sample test, and the condition of the pad and insulator must also be checked and recorded."
-    },
-    {
-      "q": "What coating is usual for rail fastenings?",
-      "a": "Hot-dip galvanizing covers general service. Heavy-duty and coastal corridors often require thicker coatings or stainless components at the clip and insulator interface."
-    },
-    {
-      "q": "How should fastenings be shipped for a rail project?",
-      "a": "Match the installation sequence rather than factory convenience, and keep spare clips and insulators at the same ratio as installed quantities, because a shortage stops the whole possession."
-    }
-  ]
+  }
 }

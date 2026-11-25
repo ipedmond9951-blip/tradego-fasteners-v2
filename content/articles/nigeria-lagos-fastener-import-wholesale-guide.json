@@ -268,6 +268,63 @@
       },
       "type": "text",
       "id": "financing-and-foreign-exchange-management-for-wholesale-importers"
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are the main documents required for importing fasteners into Lagos, Nigeria?"
+          },
+          "a": {
+            "en": "Key documents include Form M, SONCAP certificate, Pre-Arrival Assessment Report (PAAR), Bill of Lading, Commercial Invoice, and Packing List to ensure smooth customs clearance at Lagos ports. Supplementary mandatory records include mill test certificates for fastener mechanical properties, CCVO certificates, and local cargo insurance documentation mandated by NCS regulations."
+          }
+        },
+        {
+          "q": {
+            "en": "Which ports are used for Lagos fastener import wholesale shipments?"
+          },
+          "a": {
+            "en": "Most containerized fastener shipments arrive through the Apapa Port and the Tin Can Island Port in Lagos, which are the primary maritime gateways for commercial cargo into Nigeria. Lekki Deep Sea Port serves as an emerging secondary alternative for importers seeking reduced congestion-related delays, though terminal service maturity remains lower compared to the two traditional Lagos ports."
+          }
+        },
+        {
+          "q": {
+            "en": "How can I verify the quality of imported fasteners in Lagos?"
+          },
+          "a": {
+            "en": "You should request mill test certificates, conduct pre-shipment inspections through agencies like SGS or Intertek, and ensure compliance with SONCAP standards before cargo dispatches from the factory. Post-arrival spot tensile testing at accredited Lagos material labs further validates fastener grade integrity against ISO 898-1 specifications before wholesale distribution to local buyers."
+          }
+        },
+        {
+          "q": {
+            "en": "What is the typical import duty rate for steel bolts and nuts in Nigeria?"
+          },
+          "a": {
+            "en": "Import duties for industrial fasteners typically follow the Common External Tariff (CET) structure, often ranging between 5% and 20% depending on the specific material grade and application category. Bulk industrial unassembled bolts and nuts under HS 7318 attract a standard 10% base duty rate, while pre-packaged retail fastener kits incur the upper 20% finished goods tariff tier plus applicable 7.5% VAT and 1% CISS levy."
+          }
+        },
+        {
+          "q": {
+            "en": "Where are the major wholesale fastener distribution centers located in Lagos?"
+          },
+          "a": {
+            "en": "Major wholesale distribution hubs are concentrated in commercial districts such as Alaba International Market, Idumota Market, and various hardware clusters across industrial zones like Ikeja. Secondary wholesale stock depots operate within Oshodi, Apapa industrial layouts and Amuwo-Odofin, supporting last-mile fastener supply to small-scale hardware retailers across Lagos metropolitan area and neighboring Ogun State construction sites."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -316,47 +373,5 @@
       "hi": "Request Quote"
     },
     "link": "/en/contact"
-  },
-  "faq": [
-    {
-      "q": {
-        "en": "What are the main documents required for importing fasteners into Lagos, Nigeria?"
-      },
-      "a": {
-        "en": "Key documents include Form M, SONCAP certificate, Pre-Arrival Assessment Report (PAAR), Bill of Lading, Commercial Invoice, and Packing List to ensure smooth customs clearance at Lagos ports. Supplementary mandatory records include mill test certificates for fastener mechanical properties, CCVO certificates, and local cargo insurance documentation mandated by NCS regulations."
-      }
-    },
-    {
-      "q": {
-        "en": "Which ports are used for Lagos fastener import wholesale shipments?"
-      },
-      "a": {
-        "en": "Most containerized fastener shipments arrive through the Apapa Port and the Tin Can Island Port in Lagos, which are the primary maritime gateways for commercial cargo into Nigeria. Lekki Deep Sea Port serves as an emerging secondary alternative for importers seeking reduced congestion-related delays, though terminal service maturity remains lower compared to the two traditional Lagos ports."
-      }
-    },
-    {
-      "q": {
-        "en": "How can I verify the quality of imported fasteners in Lagos?"
-      },
-      "a": {
-        "en": "You should request mill test certificates, conduct pre-shipment inspections through agencies like SGS or Intertek, and ensure compliance with SONCAP standards before cargo dispatches from the factory. Post-arrival spot tensile testing at accredited Lagos material labs further validates fastener grade integrity against ISO 898-1 specifications before wholesale distribution to local buyers."
-      }
-    },
-    {
-      "q": {
-        "en": "What is the typical import duty rate for steel bolts and nuts in Nigeria?"
-      },
-      "a": {
-        "en": "Import duties for industrial fasteners typically follow the Common External Tariff (CET) structure, often ranging between 5% and 20% depending on the specific material grade and application category. Bulk industrial unassembled bolts and nuts under HS 7318 attract a standard 10% base duty rate, while pre-packaged retail fastener kits incur the upper 20% finished goods tariff tier plus applicable 7.5% VAT and 1% CISS levy."
-      }
-    },
-    {
-      "q": {
-        "en": "Where are the major wholesale fastener distribution centers located in Lagos?"
-      },
-      "a": {
-        "en": "Major wholesale distribution hubs are concentrated in commercial districts such as Alaba International Market, Idumota Market, and various hardware clusters across industrial zones like Ikeja. Secondary wholesale stock depots operate within Oshodi, Apapa industrial layouts and Amuwo-Odofin, supporting last-mile fastener supply to small-scale hardware retailers across Lagos metropolitan area and neighboring Ogun State construction sites."
-      }
-    }
-  ]
+  }
 }

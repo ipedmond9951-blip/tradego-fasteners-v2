@@ -287,7 +287,7 @@
       },
       "faqItems": [
         {
-          "question": {
+          "q": {
             "en": "What are the key considerations for china fastener supplier price list guide?",
             "zh": "关于china fastener supplier price list guide的关键考虑因素是什么？",
             "es": "What are the key considerations for china fastener supplier price list guide?",
@@ -299,7 +299,7 @@
             "de": "What are the key considerations for china fastener supplier price list guide?",
             "hi": "What are the key considerations for china fastener supplier price list guide?"
           },
-          "answer": {
+          "a": {
             "en": "See the detailed analysis above for specifications, applications, and best practices for china fastener supplier price list guide.",
             "zh": "See the detailed analysis above for specifications, applications, and best practices for china fastener supplier price list guide.",
             "es": "See the detailed analysis above for specifications, applications, and best practices for china fastener supplier price list guide.",
@@ -310,12 +310,10 @@
             "ja": "See the detailed analysis above for specifications, applications, and best practices for china fastener supplier price list guide.",
             "de": "See the detailed analysis above for specifications, applications, and best practices for china fastener supplier price list guide.",
             "hi": "See the detailed analysis above for specifications, applications, and best practices for china fastener supplier price list guide."
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "What standards should I follow?",
             "zh": "应该遵循哪些标准？",
             "es": "What standards should I follow?",
@@ -327,7 +325,7 @@
             "de": "What standards should I follow?",
             "hi": "What standards should I follow?"
           },
-          "answer": {
+          "a": {
             "en": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
             "zh": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
             "es": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
@@ -338,12 +336,10 @@
             "ja": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
             "de": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
             "hi": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market."
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "How do I choose a reliable supplier?",
             "zh": "如何选择可靠的供应商？",
             "es": "How do I choose a reliable supplier?",
@@ -355,7 +351,7 @@
             "de": "How do I choose a reliable supplier?",
             "hi": "How do I choose a reliable supplier?"
           },
-          "answer": {
+          "a": {
             "en": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
             "zh": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
             "es": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
@@ -366,9 +362,7 @@
             "ja": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
             "de": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
             "hi": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region."
-          },
-          "q": {},
-          "a": {}
+          }
         }
       ]
     }
@@ -474,7 +468,7 @@
   ],
   "region": "global",
   "metaDescription": {
-    "en": "China remains the world's largest fastener producer, manufacturing approximately 40% of global fastener output.",
+    "en": "China remains the world's largest fastener producer, manufacturing approximately 40% of global fastener output. Contact TradeGo for specifications, MOQ and CIF.",
     "zh": "中国紧固件供应商价格表完整指南。了解FOB与CIF定价、最小起订量要求、批量折扣以及如何比较中国制造商的报价。",
     "es": "Guía completa para entender las listas de precios de proveedores de tornillería chinos. Aprenda precios FOB vs CIF, requisitos de MOQ, descuentos por volumen y cómo comparar cotizaciones de fabricantes chinos.",
     "ar": "دليل شامل لفهم قوائم أسعار موردي المثبتات الصينيين. تعلم أسعار FOB مقابل CIF ومتطلبات MOQ والخصومات بالجملة وكيفية مقارنة عروض الشركات المصنعة الصينية.",

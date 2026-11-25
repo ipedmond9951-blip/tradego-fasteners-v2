@@ -43,7 +43,7 @@
     "hi": "मेडागास्कर और अंतानानारिवो के लिए सीधे निर्माता से B2B फास्टनर सोर्सिंग और निर्यात समाधान पाएँ। थोक ऑर्डर के लिए कोटेशन माँगें।"
   },
   "metaDescription": {
-    "en": "Madagascar is a thin market with limited local stock. This guide covers Antananarivo demand, import routes via Toamasina, small-lot consolidation and realistic lead times for projects.",
+    "en": "Madagascar is a thin market with limited local stock. This guide covers Antananarivo demand, import routes via Toamasina, small-lot consolidation and realistic.",
     "zh": "面向塔那那利佛买家的紧固件采购指南：图阿马西纳港口到首都的物流现实、适合当地的小批量包装方式，以及如何按到岸成本报价。",
     "es": "Streamline Madagascar Antananarivo fastener sourcing with our direct B2B manufacturing and export solutions. Request a quote today for bulk orders.",
     "ar": "سوق مدغشقر ليس سوق كميات كبيرة. اكتشف تحليل السوق وفرص التوريد المخصصة عبر TradeGo للمشترين.",
@@ -235,6 +235,55 @@
         "de": "Bauen Sie das Angebot auf den Landekosten auf, nicht auf dem FOB: Fracht nach Toamasina, Zollabfertigung, Straßentransport in die Hauptstadt und ein realistischer Puffer für Regenzeitverzögerungen. Bestätigen Sie den Normwert, den der Projektingenieur akzeptiert, und ob die Finanzierungsstelle Inspektions- oder Prüfzertifikate verlangt; von Gebern finanzierte Projekte legen oft Dokumente vor, die ein reiner Handelskäufer nicht fordern würde.<p>Vereinbaren Sie schließlich von Anfang an die Aufteilung zwischen Vollcontainern und Sammelladungen. Die meisten Erstbestellungen hier sind Halbcontainer oder weniger, und ein Lieferant, der diese ohne Frachtzuschlag planen kann, ist mehr wert als einer, der einen niedrigeren Kopfpreis bei einer Mindestbestellung nennt, die der Käufer nicht aufnehmen kann.</p>",
         "hi": "उद्धरण FOB के बजाय लैंडेड कॉस्ट के आधार पर बनाएं: तुआमासिना तक फ्रेट, क्लीयरेंस, राजधानी तक सड़क मार्ग पर परिवहन, और बारिश के मौसम की देरी के लिए यथार्थवादी रिजर्व। उस मानक की पुष्टि करें जिसे परियोजना इंजीनियर स्वीकार करेगा, और क्या वित्तपोषण संस्था को निरीक्षण या परीक्षण प्रमाणपत्र चाहिए; दानदाताओं द्वारा वित्तपोषित परियोजनाएं अक्सर ऐसे दस्तावेज़ लगाती हैं जो केवल व्यापारी खरीदार नहीं मांगता।<p>अंत में, शुरुआत में ही पूरे कंटेनर और समेकित शिपमेंट के बीच बंटवारा तय कर लें। यहां अधिकतर पहले ऑर्डर आधे कंटेनर या उससे कम के होते हैं, और जो आपूर्तिकर्ता बिना अतिरिक्त फ्रेट सरचार्ज के ऐसी योजना बना सकता है, वह उस आपूर्तिकर्ता से ज्यादा मूल्यवान है जो खरीदार की क्षमता से बाहर की न्यूनतम ऑर्डर मात्रा पर कम हेडलाइन कीमत बताता है।</p>"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Which port do fastener imports to Madagascar use?"
+          },
+          "a": {
+            "en": "Almost all container freight enters through Toamasina on the east coast, then moves by road roughly 350 km to Antananarivo. Rainy-season delays are common on that corridor."
+          }
+        },
+        {
+          "q": {
+            "en": "Do I need a full container to buy fasteners for Madagascar?"
+          },
+          "a": {
+            "en": "No. Most first orders are half containers or consolidated shipments. Ask for mixed cartons so you can cover several sizes without overstocking."
+          }
+        },
+        {
+          "q": {
+            "en": "What grades are commonly specified?"
+          },
+          "a": {
+            "en": "Grades 4.8 and 8.8 cover most building and infrastructure work. Grade 10.9 appears occasionally in structural packages, and corrosion-resistant grades are preferred for mining and coastal sites."
+          }
+        },
+        {
+          "q": {
+            "en": "What documentation helps in Madagascar?"
+          },
+          "a": {
+            "en": "French-language quotes, packing lists, and instructions reduce friction, and donor-funded projects often require inspection or test certificates that should be agreed before shipment."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -287,23 +336,5 @@
       "hi": "Request Quote"
     },
     "link": "/en/contact"
-  },
-  "faq": [
-    {
-      "q": "Which port do fastener imports to Madagascar use?",
-      "a": "Almost all container freight enters through Toamasina on the east coast, then moves by road roughly 350 km to Antananarivo. Rainy-season delays are common on that corridor."
-    },
-    {
-      "q": "Do I need a full container to buy fasteners for Madagascar?",
-      "a": "No. Most first orders are half containers or consolidated shipments. Ask for mixed cartons so you can cover several sizes without overstocking."
-    },
-    {
-      "q": "What grades are commonly specified?",
-      "a": "Grades 4.8 and 8.8 cover most building and infrastructure work. Grade 10.9 appears occasionally in structural packages, and corrosion-resistant grades are preferred for mining and coastal sites."
-    },
-    {
-      "q": "What documentation helps in Madagascar?",
-      "a": "French-language quotes, packing lists, and instructions reduce friction, and donor-funded projects often require inspection or test certificates that should be agreed before shipment."
-    }
-  ]
+  }
 }

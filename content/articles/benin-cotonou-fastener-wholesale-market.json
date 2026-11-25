@@ -235,6 +235,55 @@
         "ja": "発注を確定する前に五つの事項を確認する。<strong>第一</strong>：買い手が求める正確な規格——DIN、ISO、または同等の現地仕様——であり、証明書類を貨物に添える必要があるかどうか。<strong>第二</strong>：表面処理の名称だけでなく膜厚を確認し、亜鉛めっきについてはマイクロメートル値を要求する。<strong>第三</strong>：カートン表示はフランス語とし、各箱に等級、サイズ、数量を印刷する。<strong>第四</strong>：倉庫が混載コンテナを希望するか単一SKU積みを希望するか。混載はピッキングコストを伴うためである。<strong>第五</strong>：支払い条件——生産に対する手付金と書類に対する残金が標準で、新規の買い手はオープンクレジットではなく書類決済を想定すべきである。<p>この五つを正しく押さえれば卸売層は再注文してくる。誤っていれば、同じカートンが倉庫に数か月も寝かされることになる。</p>",
         "ru": "До обязательств по сделке подтвердите пять пунктов. <strong>Первый</strong>: точный стандарт, которого ждёт покупатель, — DIN, ISO или эквивалентная местная спецификация, и нужно ли перевозить с товаром сертификационные документы. <strong>Второй</strong>: толщина покрытия, а не только его название; запрашивайте значения в микрометрах для оцинкования. <strong>Третий</strong>: маркировка коробок на французском языке, с классом, размером и количеством, напечатанными на каждой упаковке. <strong>Четвёртый</strong>: нужна ли складу смешанная по размерам загрузка или контейнер с одной позицией SKU, поскольку смешанные сборки несут затраты на комплектацию. <strong>Пятый</strong>: структура оплаты — предоплата под производство и остаток по документам считается нормой, а новым покупателям стоит рассчитывать на документарные условия, а не на открытый кредит.<p>Если эти пять пунктов сделаны правильно, оптовый слой вернётся с повторным заказом; если они упущены, та же коробка месяцами пролежит на складе.</p>"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Which fasteners sell best in Cotonou's wholesale market?"
+          },
+          "a": {
+            "en": "Galvanized hex bolts and nuts in grades 4.8 and 8.8, roofing nails, self-drilling screws, concrete anchors, and threaded rod move fastest. Demand is driven by construction and infrastructure projects rather than precision industry."
+          }
+        },
+        {
+          "q": {
+            "en": "What coating should I specify for Benin's coastal climate?"
+          },
+          "a": {
+            "en": "Hot-dip galvanizing is the safe default for outdoor and structural fasteners, and 304 stainless for wet or food-processing environments. Plain zinc plating is acceptable mainly for indoor, dry applications."
+          }
+        },
+        {
+          "q": {
+            "en": "How long does clearance take at Cotonou port?"
+          },
+          "a": {
+            "en": "A clean, correctly declared fastener container typically clears in a few working days, but mis-declared weights, missing packing lists, or conformity queries can add a week or more. Allow 10–20 days of buffer on a first shipment."
+          }
+        },
+        {
+          "q": {
+            "en": "Can I ship mixed sizes in one container?"
+          },
+          "a": {
+            "en": "Yes, but confirm with your buyer first. Depots often prefer single-SKU cartons because mixed loads increase picking cost and slow down resale."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -287,23 +336,5 @@
       "hi": "Request Quote"
     },
     "link": "/en/contact"
-  },
-  "faq": [
-    {
-      "q": "Which fasteners sell best in Cotonou's wholesale market?",
-      "a": "Galvanized hex bolts and nuts in grades 4.8 and 8.8, roofing nails, self-drilling screws, concrete anchors, and threaded rod move fastest. Demand is driven by construction and infrastructure projects rather than precision industry."
-    },
-    {
-      "q": "What coating should I specify for Benin's coastal climate?",
-      "a": "Hot-dip galvanizing is the safe default for outdoor and structural fasteners, and 304 stainless for wet or food-processing environments. Plain zinc plating is acceptable mainly for indoor, dry applications."
-    },
-    {
-      "q": "How long does clearance take at Cotonou port?",
-      "a": "A clean, correctly declared fastener container typically clears in a few working days, but mis-declared weights, missing packing lists, or conformity queries can add a week or more. Allow 10–20 days of buffer on a first shipment."
-    },
-    {
-      "q": "Can I ship mixed sizes in one container?",
-      "a": "Yes, but confirm with your buyer first. Depots often prefer single-SKU cartons because mixed loads increase picking cost and slow down resale."
-    }
-  ]
+  }
 }

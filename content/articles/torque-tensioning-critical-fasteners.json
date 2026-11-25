@@ -243,9 +243,7 @@
             "ja": "少なくとも年1回、酷使する場合はより頻繁に。工場で毎日使うなら四半期ごとの校正が推奨され、現場では校正証明書を携行し年1回確認します。落下や誤使用があった場合は使用前に必ず再校正してください。証明書は設定値1点ではなく、レンジ内の複数点で試験したことを示す必要があります。",
             "de": "Torque wrenches should be calibrated at least annually, and more frequently for heavy use. For workshop use (daily), quarterly calibration is recommended. For field use, a calibration certificate should accompany the wrench and be verified annually. Any torque wrench that has been dropped or subjected to misuse should be re-calibrated immediately before further use. The calibration certificate must show the wrench was tested at multiple points across its range, not just at one setting.",
             "hi": "Torque wrenches should be calibrated at least annually, and more frequently for heavy use. For workshop use (daily), quarterly calibration is recommended. For field use, a calibration certificate should accompany the wrench and be verified annually. Any torque wrench that has been dropped or subjected to misuse should be re-calibrated immediately before further use. The calibration certificate must show the wrench was tested at multiple points across its range, not just at one setting."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -271,9 +269,7 @@
             "ja": "主な原因は、ガスケットの損傷や過圧縮歴、使用条件に合わない材質・グレード、フランジ面の引っかき傷・孔食・腐食による漏れ経路、計算前提どおりに潤滑されないことによる実締付力不足、熱サイクルによるガスケットの緩和、配管の熱膨張・自重・振動による外部荷重で継手が除荷されることです。",
             "de": "Common causes of flange leakage despite proper torque: gasket damage — the gasket was damaged or previously over-compressed; incorrect gasket — wrong material or grade for the service conditions; flange surface damage — scratches, pitting, or corrosion on the flange face creates leakage paths; inadequate lubrication — if threads or bearing surfaces were not lubricated as assumed in the torque calculation, the actual preload was lower than calculated; thermal cycling — gasket relaxation under thermal cycling can reduce preload; pipe strain — external loads on the flange from pipe thermal expansion, gravity, or vibration can unload the joint.",
             "hi": "Common causes of flange leakage despite proper torque: gasket damage — the gasket was damaged or previously over-compressed; incorrect gasket — wrong material or grade for the service conditions; flange surface damage — scratches, pitting, or corrosion on the flange face creates leakage paths; inadequate lubrication — if threads or bearing surfaces were not lubricated as assumed in the torque calculation, the actual preload was lower than calculated; thermal cycling — gasket relaxation under thermal cycling can reduce preload; pipe strain — external loads on the flange from pipe thermal expansion, gravity, or vibration can unload the joint."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -299,9 +295,7 @@
             "ja": "スナッグタイトは低い締付力で継手各部材を密着させる状態で、インパクトレンチで数打撃または手回し2〜3回転で得られます。全ボルト装着前に継手を保持するのが目的で、数値ではなく感覚的な状態です。フルトルク（またはターンオブナットの完了）は規定の順序・値で与える最終トルクです。ターンオブナット法はスナッグタイト後に計算した追い回転を与える方法で、大径ボルトでは直接トルク法より安定します。",
             "de": "Snug tight is the condition where the bolt is tightened to a relatively low preload just to draw the joint members into firm contact — typically achieved by a few impacts from an impact wrench or 2-3 hand turns of a wrench. The purpose is to hold the joint together while all bolts are installed before final torque. Snug tight is not a measured value; it is a feel-based condition. Full torque (or 'turn-of-nut' completion) is the final specified torque applied in a controlled pattern. The 'turn-of-nut' method uses snug tight + a calculated additional rotation to achieve preload, which is often more consistent than direct torque for large bolts.",
             "hi": "Snug tight is the condition where the bolt is tightened to a relatively low preload just to draw the joint members into firm contact — typically achieved by a few impacts from an impact wrench or 2-3 hand turns of a wrench. The purpose is to hold the joint together while all bolts are installed before final torque. Snug tight is not a measured value; it is a feel-based condition. Full torque (or 'turn-of-nut' completion) is the final specified torque applied in a controlled pattern. The 'turn-of-nut' method uses snug tight + a calculated additional rotation to achieve preload, which is often more consistent than direct torque for large bolts."
-          },
-          "question": {},
-          "answer": {}
+          }
         }
       ],
       "body": {

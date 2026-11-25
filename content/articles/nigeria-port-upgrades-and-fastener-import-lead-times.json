@@ -43,7 +43,7 @@
     "hi": "जानें कि Apapa और Tin Can बंदरगाहों का उन्नयन फास्टनर आयात समय, सीमा शुल्क योजना और निर्माण आपूर्ति को कैसे प्रभावित करता है। कोटेशन मांगें।"
   },
   "metaDescription": {
-    "en": "Nigeria fastener import lead times are not the same as ocean transit time.",
+    "en": "Nigeria fastener import lead times are not the same as ocean transit time. Request a specification-matched quote from TradeGo.",
     "zh": "了解 Apapa 与 Tin Can 港口升级如何影响尼日利亚紧固件进口交期、清关规划及建筑供应，立即询价。",
     "es": "Conozca cómo las mejoras en Apapa y Tin Can afectan los plazos de importación, las aduanas y el suministro para la construcción. Solicite cotización.",
     "ar": "تعرّف على تأثير تطوير ميناءي Apapa وTin Can في مواعيد استيراد المثبتات والتخليص الجمركي وتوريد مستلزمات البناء. اطلب عرض سعر.",
@@ -278,6 +278,63 @@
       },
       "type": "text",
       "id": "how-to-shorten-nigeria-fastener-import-lead-times"
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are Nigeria fastener import lead times?"
+          },
+          "a": {
+            "en": "Nigeria fastener import lead times include manufacturing, export preparation, ocean freight, port handling, customs clearance, and inland delivery. The actual schedule depends on order complexity, destination, documentation, vessel availability, terminal conditions, and inspection requirements, so buyers should request a milestone-based delivery plan rather than one transit estimate."
+          }
+        },
+        {
+          "q": {
+            "en": "Will Apapa and Tin Can upgrades reduce fastener delivery times?"
+          },
+          "a": {
+            "en": "They may improve capacity and handling efficiency over time, but upgrade works can also create temporary access, traffic, or scheduling disruption. Importers should treat the projects as a long-term logistics improvement, confirm current terminal conditions before each shipment, and maintain contingency time for customs and inland transport [1]."
+          }
+        },
+        {
+          "q": {
+            "en": "Which documents help avoid customs delays in Nigeria?"
+          },
+          "a": {
+            "en": "Accurate commercial invoices, packing lists, bills of lading, certificates of origin, product descriptions, declared grades, and any requested inspection or conformity documents help reduce clarification requests. The supplier, importer, customs broker, and bank should review the same shipment data before dispatch to prevent inconsistent declarations [3]."
+          }
+        },
+        {
+          "q": {
+            "en": "Should Nigerian buyers use Apapa, Tin Can, or another port?"
+          },
+          "a": {
+            "en": "The best gateway depends on cargo destination, shipping service, terminal availability, inland transport cost, and current congestion. Apapa and Tin Can remain important options, while emerging infrastructure such as the Cross River deepwater port may support future regional trade [2]. Confirm available services and handling conditions before booking."
+          }
+        },
+        {
+          "q": {
+            "en": "How can a fastener manufacturer support Nigerian project schedules?"
+          },
+          "a": {
+            "en": "A manufacturer can reserve production capacity, confirm technical specifications early, provide complete export documents, arrange pre-shipment checks, pack by project phase, and coordinate with the buyer’s broker and forwarder. Sharing the project deadline, port, quantity, grade, coating, and certificate requirements enables a more reliable quotation and delivery plan."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -342,27 +399,5 @@
       "hi": "Request Quote"
     },
     "link": "/en/contact"
-  },
-  "faq": [
-    {
-      "q": "What are Nigeria fastener import lead times?",
-      "a": "Nigeria fastener import lead times include manufacturing, export preparation, ocean freight, port handling, customs clearance, and inland delivery. The actual schedule depends on order complexity, destination, documentation, vessel availability, terminal conditions, and inspection requirements, so buyers should request a milestone-based delivery plan rather than one transit estimate."
-    },
-    {
-      "q": "Will Apapa and Tin Can upgrades reduce fastener delivery times?",
-      "a": "They may improve capacity and handling efficiency over time, but upgrade works can also create temporary access, traffic, or scheduling disruption. Importers should treat the projects as a long-term logistics improvement, confirm current terminal conditions before each shipment, and maintain contingency time for customs and inland transport [1]."
-    },
-    {
-      "q": "Which documents help avoid customs delays in Nigeria?",
-      "a": "Accurate commercial invoices, packing lists, bills of lading, certificates of origin, product descriptions, declared grades, and any requested inspection or conformity documents help reduce clarification requests. The supplier, importer, customs broker, and bank should review the same shipment data before dispatch to prevent inconsistent declarations [3]."
-    },
-    {
-      "q": "Should Nigerian buyers use Apapa, Tin Can, or another port?",
-      "a": "The best gateway depends on cargo destination, shipping service, terminal availability, inland transport cost, and current congestion. Apapa and Tin Can remain important options, while emerging infrastructure such as the Cross River deepwater port may support future regional trade [2]. Confirm available services and handling conditions before booking."
-    },
-    {
-      "q": "How can a fastener manufacturer support Nigerian project schedules?",
-      "a": "A manufacturer can reserve production capacity, confirm technical specifications early, provide complete export documents, arrange pre-shipment checks, pack by project phase, and coordinate with the buyer’s broker and forwarder. Sharing the project deadline, port, quantity, grade, coating, and certificate requirements enables a more reliable quotation and delivery plan."
-    }
-  ]
+  }
 }

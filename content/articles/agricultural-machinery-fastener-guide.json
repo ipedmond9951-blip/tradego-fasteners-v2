@@ -85,7 +85,7 @@
       "id": "iso-standards",
       "faqItems": [
         {
-          "question": {
+          "q": {
             "en": "What is the difference between ISO 4014 and ISO 4017?",
             "zh": "What is the difference between ISO 4014 and ISO 4017?",
             "es": "What is the difference between ISO 4014 and ISO 4017?",
@@ -97,7 +97,7 @@
             "de": "What is the difference between ISO 4014 and ISO 4017?",
             "hi": "What is the difference between ISO 4014 and ISO 4017?"
           },
-          "answer": {
+          "a": {
             "en": "ISO 4014 covers full-length hex bolts with coarse thread tolerance class 6g, while ISO 4017 covers hex cap screws that may have fine thread. Both are used in agricultural machinery, but ISO 4014 is more common for structural connections where the shank passes through the fastened member.",
             "zh": "ISO 4014 covers full-length hex bolts with coarse thread tolerance class 6g, while ISO 4017 covers hex cap screws that may have fine thread. Both are used in agricultural machinery, but ISO 4014 is more common for structural connections where the shank passes through the fastened member.",
             "es": "ISO 4014 covers full-length hex bolts with coarse thread tolerance class 6g, while ISO 4017 covers hex cap screws that may have fine thread. Both are used in agricultural machinery, but ISO 4014 is more common for structural connections where the shank passes through the fastened member.",
@@ -108,12 +108,10 @@
             "ja": "ISO 4014 covers full-length hex bolts with coarse thread tolerance class 6g, while ISO 4017 covers hex cap screws that may have fine thread. Both are used in agricultural machinery, but ISO 4014 is more common for structural connections where the shank passes through the fastened member.",
             "de": "ISO 4014 covers full-length hex bolts with coarse thread tolerance class 6g, while ISO 4017 covers hex cap screws that may have fine thread. Both are used in agricultural machinery, but ISO 4014 is more common for structural connections where the shank passes through the fastened member.",
             "hi": "ISO 4014 covers full-length hex bolts with coarse thread tolerance class 6g, while ISO 4017 covers hex cap screws that may have fine thread. Both are used in agricultural machinery, but ISO 4014 is more common for structural connections where the shank passes through the fastened member."
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "Are GB/T standards equivalent to ISO standards?",
             "zh": "Are GB/T standards equivalent to ISO standards?",
             "es": "Are GB/T standards equivalent to ISO standards?",
@@ -125,7 +123,7 @@
             "de": "Are GB/T standards equivalent to ISO standards?",
             "hi": "Are GB/T standards equivalent to ISO standards?"
           },
-          "answer": {
+          "a": {
             "en": "GB/T 5782 is functionally equivalent to ISO 4014, and GB/T 5783 is equivalent to ISO 4017. However, buyers should verify that mechanical properties (tensile and yield strength) meet or exceed the required ISO property class, as manufacturing process controls may vary between suppliers.",
             "zh": "GB/T 5782 is functionally equivalent to ISO 4014, and GB/T 5783 is equivalent to ISO 4017. However, buyers should verify that mechanical properties (tensile and yield strength) meet or exceed the required ISO property class, as manufacturing process controls may vary between suppliers.",
             "es": "GB/T 5782 is functionally equivalent to ISO 4014, and GB/T 5783 is equivalent to ISO 4017. However, buyers should verify that mechanical properties (tensile and yield strength) meet or exceed the required ISO property class, as manufacturing process controls may vary between suppliers.",
@@ -136,12 +134,10 @@
             "ja": "GB/T 5782 is functionally equivalent to ISO 4014, and GB/T 5783 is equivalent to ISO 4017. However, buyers should verify that mechanical properties (tensile and yield strength) meet or exceed the required ISO property class, as manufacturing process controls may vary between suppliers.",
             "de": "GB/T 5782 is functionally equivalent to ISO 4014, and GB/T 5783 is equivalent to ISO 4017. However, buyers should verify that mechanical properties (tensile and yield strength) meet or exceed the required ISO property class, as manufacturing process controls may vary between suppliers.",
             "hi": "GB/T 5782 is functionally equivalent to ISO 4014, and GB/T 5783 is equivalent to ISO 4017. However, buyers should verify that mechanical properties (tensile and yield strength) meet or exceed the required ISO property class, as manufacturing process controls may vary between suppliers."
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "When should I use ASTM A307 vs ISO 898-1 Class 8.8?",
             "zh": "When should I use ASTM A307 vs ISO 898-1 Class 8.8?",
             "es": "When should I use ASTM A307 vs ISO 898-1 Class 8.8?",
@@ -153,7 +149,7 @@
             "de": "When should I use ASTM A307 vs ISO 898-1 Class 8.8?",
             "hi": "When should I use ASTM A307 vs ISO 898-1 Class 8.8?"
           },
-          "answer": {
+          "a": {
             "en": "ASTM A307 is a lower-strength standard suitable for non-critical, non-structural connections. For any high-stress application in agricultural equipment — such as hitch points, axle attachments, or implement mounts — ISO 898-1 Class 8.8 minimum is recommended, with Class 10.9 preferred for critical joints.",
             "zh": "ASTM A307 is a lower-strength standard suitable for non-critical, non-structural connections. For any high-stress application in agricultural equipment — such as hitch points, axle attachments, or implement mounts — ISO 898-1 Class 8.8 minimum is recommended, with Class 10.9 preferred for critical joints.",
             "es": "ASTM A307 is a lower-strength standard suitable for non-critical, non-structural connections. For any high-stress application in agricultural equipment — such as hitch points, axle attachments, or implement mounts — ISO 898-1 Class 8.8 minimum is recommended, with Class 10.9 preferred for critical joints.",
@@ -164,9 +160,7 @@
             "ja": "ASTM A307 is a lower-strength standard suitable for non-critical, non-structural connections. For any high-stress application in agricultural equipment — such as hitch points, axle attachments, or implement mounts — ISO 898-1 Class 8.8 minimum is recommended, with Class 10.9 preferred for critical joints.",
             "de": "ASTM A307 is a lower-strength standard suitable for non-critical, non-structural connections. For any high-stress application in agricultural equipment — such as hitch points, axle attachments, or implement mounts — ISO 898-1 Class 8.8 minimum is recommended, with Class 10.9 preferred for critical joints.",
             "hi": "ASTM A307 is a lower-strength standard suitable for non-critical, non-structural connections. For any high-stress application in agricultural equipment — such as hitch points, axle attachments, or implement mounts — ISO 898-1 Class 8.8 minimum is recommended, with Class 10.9 preferred for critical joints."
-          },
-          "q": {},
-          "a": {}
+          }
         }
       ],
       "internalLinks": [
@@ -207,7 +201,7 @@
       "id": "bolt-grades",
       "faqItems": [
         {
-          "question": {
+          "q": {
             "en": "What bolt grade does John Deere specify for three-point hitch components?",
             "zh": "What bolt grade does John Deere specify for three-point hitch components?",
             "es": "What bolt grade does John Deere specify for three-point hitch components?",
@@ -219,7 +213,7 @@
             "de": "What bolt grade does John Deere specify for three-point hitch components?",
             "hi": "What bolt grade does John Deere specify for three-point hitch components?"
           },
-          "answer": {
+          "a": {
             "en": "John Deere specifies Class 10.9 (metric) or equivalent SAE Grade 8 for three-point hitch components, PTO connections, and loader arm attachments. Standard bodywork and non-structural panels typically use Class 8.8 / SAE Grade 5. Always consult the specific parts catalog for your equipment model year.",
             "zh": "John Deere specifies Class 10.9 (metric) or equivalent SAE Grade 8 for three-point hitch components, PTO connections, and loader arm attachments. Standard bodywork and non-structural panels typically use Class 8.8 / SAE Grade 5. Always consult the specific parts catalog for your equipment model year.",
             "es": "John Deere specifies Class 10.9 (metric) or equivalent SAE Grade 8 for three-point hitch components, PTO connections, and loader arm attachments. Standard bodywork and non-structural panels typically use Class 8.8 / SAE Grade 5. Always consult the specific parts catalog for your equipment model year.",
@@ -230,12 +224,10 @@
             "ja": "John Deere specifies Class 10.9 (metric) or equivalent SAE Grade 8 for three-point hitch components, PTO connections, and loader arm attachments. Standard bodywork and non-structural panels typically use Class 8.8 / SAE Grade 5. Always consult the specific parts catalog for your equipment model year.",
             "de": "John Deere specifies Class 10.9 (metric) or equivalent SAE Grade 8 for three-point hitch components, PTO connections, and loader arm attachments. Standard bodywork and non-structural panels typically use Class 8.8 / SAE Grade 5. Always consult the specific parts catalog for your equipment model year.",
             "hi": "John Deere specifies Class 10.9 (metric) or equivalent SAE Grade 8 for three-point hitch components, PTO connections, and loader arm attachments. Standard bodywork and non-structural panels typically use Class 8.8 / SAE Grade 5. Always consult the specific parts catalog for your equipment model year."
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "Can I substitute Class 8.8 for Class 10.9 in high-stress applications?",
             "zh": "Can I substitute Class 8.8 for Class 10.9 in high-stress applications?",
             "es": "Can I substitute Class 8.8 for Class 10.9 in high-stress applications?",
@@ -247,7 +239,7 @@
             "de": "Can I substitute Class 8.8 for Class 10.9 in high-stress applications?",
             "hi": "Can I substitute Class 8.8 for Class 10.9 in high-stress applications?"
           },
-          "answer": {
+          "a": {
             "en": "No. Substituting a lower-grade bolt in a high-stress application is a safety risk and can lead to catastrophic joint failure. Class 8.8 has a tensile strength of 800 MPa compared to 1,000 MPa for Class 10.9. The reduced strength margin can result in bolt yield or fracture under agricultural shock loads.",
             "zh": "No. Substituting a lower-grade bolt in a high-stress application is a safety risk and can lead to catastrophic joint failure. Class 8.8 has a tensile strength of 800 MPa compared to 1,000 MPa for Class 10.9. The reduced strength margin can result in bolt yield or fracture under agricultural shock loads.",
             "es": "No. Substituting a lower-grade bolt in a high-stress application is a safety risk and can lead to catastrophic joint failure. Class 8.8 has a tensile strength of 800 MPa compared to 1,000 MPa for Class 10.9. The reduced strength margin can result in bolt yield or fracture under agricultural shock loads.",
@@ -258,12 +250,10 @@
             "ja": "No. Substituting a lower-grade bolt in a high-stress application is a safety risk and can lead to catastrophic joint failure. Class 8.8 has a tensile strength of 800 MPa compared to 1,000 MPa for Class 10.9. The reduced strength margin can result in bolt yield or fracture under agricultural shock loads.",
             "de": "No. Substituting a lower-grade bolt in a high-stress application is a safety risk and can lead to catastrophic joint failure. Class 8.8 has a tensile strength of 800 MPa compared to 1,000 MPa for Class 10.9. The reduced strength margin can result in bolt yield or fracture under agricultural shock loads.",
             "hi": "No. Substituting a lower-grade bolt in a high-stress application is a safety risk and can lead to catastrophic joint failure. Class 8.8 has a tensile strength of 800 MPa compared to 1,000 MPa for Class 10.9. The reduced strength margin can result in bolt yield or fracture under agricultural shock loads."
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "What is the difference between plow bolt grades?",
             "zh": "What is the difference between plow bolt grades?",
             "es": "What is the difference between plow bolt grades?",
@@ -275,7 +265,7 @@
             "de": "What is the difference between plow bolt grades?",
             "hi": "What is the difference between plow bolt grades?"
           },
-          "answer": {
+          "a": {
             "en": "Grade 8 plow bolts (minimum 120,000 PSI / 827 MPa tensile) are the standard for agricultural ground-engaging equipment. The countersunk head profile reduces soil interference, while the heavy body provides superior shear resistance. Grade 5 plow bolts (75,000 PSI / 517 MPa) are used for lighter-duty equipment where cost is the primary driver.",
             "zh": "Grade 8 plow bolts (minimum 120,000 PSI / 827 MPa tensile) are the standard for agricultural ground-engaging equipment. The countersunk head profile reduces soil interference, while the heavy body provides superior shear resistance. Grade 5 plow bolts (75,000 PSI / 517 MPa) are used for lighter-duty equipment where cost is the primary driver.",
             "es": "Grade 8 plow bolts (minimum 120,000 PSI / 827 MPa tensile) are the standard for agricultural ground-engaging equipment. The countersunk head profile reduces soil interference, while the heavy body provides superior shear resistance. Grade 5 plow bolts (75,000 PSI / 517 MPa) are used for lighter-duty equipment where cost is the primary driver.",
@@ -286,9 +276,7 @@
             "ja": "Grade 8 plow bolts (minimum 120,000 PSI / 827 MPa tensile) are the standard for agricultural ground-engaging equipment. The countersunk head profile reduces soil interference, while the heavy body provides superior shear resistance. Grade 5 plow bolts (75,000 PSI / 517 MPa) are used for lighter-duty equipment where cost is the primary driver.",
             "de": "Grade 8 plow bolts (minimum 120,000 PSI / 827 MPa tensile) are the standard for agricultural ground-engaging equipment. The countersunk head profile reduces soil interference, while the heavy body provides superior shear resistance. Grade 5 plow bolts (75,000 PSI / 517 MPa) are used for lighter-duty equipment where cost is the primary driver.",
             "hi": "Grade 8 plow bolts (minimum 120,000 PSI / 827 MPa tensile) are the standard for agricultural ground-engaging equipment. The countersunk head profile reduces soil interference, while the heavy body provides superior shear resistance. Grade 5 plow bolts (75,000 PSI / 517 MPa) are used for lighter-duty equipment where cost is the primary driver."
-          },
-          "q": {},
-          "a": {}
+          }
         }
       ],
       "internalLinks": [
@@ -329,7 +317,7 @@
       "id": "corrosion-resistance",
       "faqItems": [
         {
-          "question": {
+          "q": {
             "en": "How long does hot-dipped galvanized coating last in agricultural environments?",
             "zh": "How long does hot-dipped galvanized coating last in agricultural environments?",
             "es": "How long does hot-dipped galvanized coating last in agricultural environments?",
@@ -341,7 +329,7 @@
             "de": "How long does hot-dipped galvanized coating last in agricultural environments?",
             "hi": "How long does hot-dipped galvanized coating last in agricultural environments?"
           },
-          "answer": {
+          "a": {
             "en": "In moderate agricultural environments, hot-dipped galvanized coating (ISO 1461, 55–85 μm) provides 20–40 years of corrosion protection without maintenance. In highly corrosive environments such as livestock barns or near fertilizer storage, service life may be reduced to 10–15 years. Regular inspection for coating damage at welded areas and bolt head bearing surfaces is recommended.",
             "zh": "In moderate agricultural environments, hot-dipped galvanized coating (ISO 1461, 55–85 μm) provides 20–40 years of corrosion protection without maintenance. In highly corrosive environments such as livestock barns or near fertilizer storage, service life may be reduced to 10–15 years. Regular inspection for coating damage at welded areas and bolt head bearing surfaces is recommended.",
             "es": "In moderate agricultural environments, hot-dipped galvanized coating (ISO 1461, 55–85 μm) provides 20–40 years of corrosion protection without maintenance. In highly corrosive environments such as livestock barns or near fertilizer storage, service life may be reduced to 10–15 years. Regular inspection for coating damage at welded areas and bolt head bearing surfaces is recommended.",
@@ -352,12 +340,10 @@
             "ja": "In moderate agricultural environments, hot-dipped galvanized coating (ISO 1461, 55–85 μm) provides 20–40 years of corrosion protection without maintenance. In highly corrosive environments such as livestock barns or near fertilizer storage, service life may be reduced to 10–15 years. Regular inspection for coating damage at welded areas and bolt head bearing surfaces is recommended.",
             "de": "In moderate agricultural environments, hot-dipped galvanized coating (ISO 1461, 55–85 μm) provides 20–40 years of corrosion protection without maintenance. In highly corrosive environments such as livestock barns or near fertilizer storage, service life may be reduced to 10–15 years. Regular inspection for coating damage at welded areas and bolt head bearing surfaces is recommended.",
             "hi": "In moderate agricultural environments, hot-dipped galvanized coating (ISO 1461, 55–85 μm) provides 20–40 years of corrosion protection without maintenance. In highly corrosive environments such as livestock barns or near fertilizer storage, service life may be reduced to 10–15 years. Regular inspection for coating damage at welded areas and bolt head bearing surfaces is recommended."
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "What coating is best for high-strength Class 10.9 bolts exposed to fertilizer?",
             "zh": "What coating is best for high-strength Class 10.9 bolts exposed to fertilizer?",
             "es": "What coating is best for high-strength Class 10.9 bolts exposed to fertilizer?",
@@ -369,7 +355,7 @@
             "de": "What coating is best for high-strength Class 10.9 bolts exposed to fertilizer?",
             "hi": "What coating is best for high-strength Class 10.9 bolts exposed to fertilizer?"
           },
-          "answer": {
+          "a": {
             "en": "For Class 10.9 and higher strength bolts in fertilizer-exposed applications, zinc-nickel electroplating (ISO 4042) or zinc flake coating (ISO 10683) are the preferred options. Both provide excellent corrosion resistance without the hydrogen embrittlement risk associated with some electroplating processes on high-strength steel. Avoid standard zinc plating on Class 10.9+ bolts due to hydrogen embrittlement risk.",
             "zh": "For Class 10.9 and higher strength bolts in fertilizer-exposed applications, zinc-nickel electroplating (ISO 4042) or zinc flake coating (ISO 10683) are the preferred options. Both provide excellent corrosion resistance without the hydrogen embrittlement risk associated with some electroplating processes on high-strength steel. Avoid standard zinc plating on Class 10.9+ bolts due to hydrogen embrittlement risk.",
             "es": "For Class 10.9 and higher strength bolts in fertilizer-exposed applications, zinc-nickel electroplating (ISO 4042) or zinc flake coating (ISO 10683) are the preferred options. Both provide excellent corrosion resistance without the hydrogen embrittlement risk associated with some electroplating processes on high-strength steel. Avoid standard zinc plating on Class 10.9+ bolts due to hydrogen embrittlement risk.",
@@ -380,12 +366,10 @@
             "ja": "For Class 10.9 and higher strength bolts in fertilizer-exposed applications, zinc-nickel electroplating (ISO 4042) or zinc flake coating (ISO 10683) are the preferred options. Both provide excellent corrosion resistance without the hydrogen embrittlement risk associated with some electroplating processes on high-strength steel. Avoid standard zinc plating on Class 10.9+ bolts due to hydrogen embrittlement risk.",
             "de": "For Class 10.9 and higher strength bolts in fertilizer-exposed applications, zinc-nickel electroplating (ISO 4042) or zinc flake coating (ISO 10683) are the preferred options. Both provide excellent corrosion resistance without the hydrogen embrittlement risk associated with some electroplating processes on high-strength steel. Avoid standard zinc plating on Class 10.9+ bolts due to hydrogen embrittlement risk.",
             "hi": "For Class 10.9 and higher strength bolts in fertilizer-exposed applications, zinc-nickel electroplating (ISO 4042) or zinc flake coating (ISO 10683) are the preferred options. Both provide excellent corrosion resistance without the hydrogen embrittlement risk associated with some electroplating processes on high-strength steel. Avoid standard zinc plating on Class 10.9+ bolts due to hydrogen embrittlement risk."
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "When should I use 316 stainless instead of 304 stainless in agricultural applications?",
             "zh": "When should I use 316 stainless instead of 304 stainless in agricultural applications?",
             "es": "When should I use 316 stainless instead of 304 stainless in agricultural applications?",
@@ -397,7 +381,7 @@
             "de": "When should I use 316 stainless instead of 304 stainless in agricultural applications?",
             "hi": "When should I use 316 stainless instead of 304 stainless in agricultural applications?"
           },
-          "answer": {
+          "a": {
             "en": "Use 316 stainless (A4-80, ISO 3506-1) whenever the fastener will be exposed to chloride-containing substances: manure with high salt content, irrigation water with high mineral content, coastal or saline farming environments, or silage storage where organic acids produce chloride byproducts. The 2–3% molybdenum content in 316 stainless provides critical pitting and crevice corrosion resistance that 304 stainless (A2-70) cannot provide in these conditions.",
             "zh": "Use 316 stainless (A4-80, ISO 3506-1) whenever the fastener will be exposed to chloride-containing substances: manure with high salt content, irrigation water with high mineral content, coastal or saline farming environments, or silage storage where organic acids produce chloride byproducts. The 2–3% molybdenum content in 316 stainless provides critical pitting and crevice corrosion resistance that 304 stainless (A2-70) cannot provide in these conditions.",
             "es": "Use 316 stainless (A4-80, ISO 3506-1) whenever the fastener will be exposed to chloride-containing substances: manure with high salt content, irrigation water with high mineral content, coastal or saline farming environments, or silage storage where organic acids produce chloride byproducts. The 2–3% molybdenum content in 316 stainless provides critical pitting and crevice corrosion resistance that 304 stainless (A2-70) cannot provide in these conditions.",
@@ -408,9 +392,7 @@
             "ja": "Use 316 stainless (A4-80, ISO 3506-1) whenever the fastener will be exposed to chloride-containing substances: manure with high salt content, irrigation water with high mineral content, coastal or saline farming environments, or silage storage where organic acids produce chloride byproducts. The 2–3% molybdenum content in 316 stainless provides critical pitting and crevice corrosion resistance that 304 stainless (A2-70) cannot provide in these conditions.",
             "de": "Use 316 stainless (A4-80, ISO 3506-1) whenever the fastener will be exposed to chloride-containing substances: manure with high salt content, irrigation water with high mineral content, coastal or saline farming environments, or silage storage where organic acids produce chloride byproducts. The 2–3% molybdenum content in 316 stainless provides critical pitting and crevice corrosion resistance that 304 stainless (A2-70) cannot provide in these conditions.",
             "hi": "Use 316 stainless (A4-80, ISO 3506-1) whenever the fastener will be exposed to chloride-containing substances: manure with high salt content, irrigation water with high mineral content, coastal or saline farming environments, or silage storage where organic acids produce chloride byproducts. The 2–3% molybdenum content in 316 stainless provides critical pitting and crevice corrosion resistance that 304 stainless (A2-70) cannot provide in these conditions."
-          },
-          "q": {},
-          "a": {}
+          }
         }
       ],
       "internalLinks": [
@@ -554,6 +536,47 @@
         "th": "จีนเป็นผู้ผลิตสลักเกลียวเกษตรที่ใหญ่ที่สุดในโลก อย่างไรก็ตาม การจัดหาจากจีนต้องให้ความสนใจอย่างระมัดระวังต่อการปฏิบัติตามข้อกำหนด การตรวจสอบคุณภาพ และการจัดการความเสี่ยงของห่วงโซ่อุปทาน",
         "hi": "चीन कृषि फास्टनरों का दुनिया का प्रमुख उत्पादक है, जो विश्वभर के OEM, आफ्टरमार्केट डिस्ट्रीब्यूटर और किसानों को आपूर्ति करता है। हालांकि, चीन से फास्टनर सोर्सिंग के लिए स्पेसिफिकेशन अनुपालन, गुणवत्ता सत्यापन और आपूर्ति श्रृंखला जोखिम प्रबंधन पर सावधानीपूर्वक ध्यान देना ज़रूरी है।\n\nचीनी राष्ट्रीय मानक बनाम ISO\nचीनी फास्टनर निर्माता GB/T (राष्ट्रीय मानक) और अंतर्राष्ट्रीय मानक (ISO, DIN, ASME) दोनों के अनुसार उत्पादन करते हैं। चीनी आपूर्तिकर्ताओं से सोर्सिंग करते समय हमेशा पुष्टि करें कि उत्पाद किस मानक के अनुसार बना है। “GB/T 5783 Class 10.9” चिह्नित बोल्ट ISO 898-1 Class 10.9 यांत्रिक आवश्यकताओं को पूरा करना चाहिए, लेकिन निर्माण प्रक्रिया नियंत्रण, ट्रेसेबिलिटी दस्तावेज़ और लॉट परीक्षण ISO-प्रमाणित उत्पाद से भिन्न हो सकते हैं। प्रत्येक प्रोडक्शन लॉट के लिए निर्माता की मटीरियल टेस्ट रिपोर्ट (MTR / EN 10204 3.1) मांगें।\n\nमुख्य निरीक्षण और सत्यापन चरण\n1. आयामी सत्यापन: ISO 4014 / ISO 4017 / DIN 6921 टॉलरेंस के विरुद्ध थ्रेड पिच, शैंक डायमीटर, लंबाई और हेड आयाम की जांच गो/नो-गो गेज या कोऑर्डिनेट मेज़रमेंट उपकरण से करें।\n2. यांत्रिक परीक्षण: ISO 898-1 के अनुसार प्रत्येक लॉट के नमूना बोल्ट पर टेंसाइल और यील्ड परीक्षण करें, खासतौर पर Class 10.9 और 12.9 फास्टनरों के लिए।\n3. कोटिंग मोटाई और आसंजन: चुंबकीय या एडी करंट गेज से ISO 2063 या ISO 1461 के अनुसार कोटिंग मोटाई सत्यापित करें। प्लेटेड कोटिंग के लिए बेंड-एंड-टेप आसंजन परीक्षण करें।\n4. कठोरता सत्यापन: रॉकवेल या विकर्स कठोरता परीक्षण हीट ट्रीटमेंट क्लास की पुष्टि करता है। Class 10.9 बोल्ट 33–39 HRC दर्शाना चाहिए।\n\nआपूर्ति श्रृंखला और लीड टाइम विचार\nकृषि फास्टनर प्रोक्योरमेंट अत्यधिक मौसमी है। चरम मांग अवधि दक्षिणी गोलार्ध में वसंत बुवाई की तैयारी के लिए Q4 (अक्टूबर–दिसंबर) और उत्तरी गोलार्ध की वसंत बुवाई के लिए Q1 (जनवरी–मार्च) है। ऑफ-पीक अवधि (Q2–Q3) में ऑर्डर करने पर आमतौर पर 10–20% बेहतर मूल्य और अधिक भरोसेमंद डिलीवरी शेड्यूल मिलता है। चीनी निर्माताओं से मानक आकार के हेक्स बोल्ट का लीड टाइम 3–6 सप्ताह होता है, विशेष कोटिंग्स में 1–2 सप्ताह जुड़ते हैं। OEM मात्रा वाले ऑर्डर लक्ष्य डिलीवरी तारीख से 12–16 सप्ताह पहले दिए जाने चाहिए।\n\nन्यूनतम ऑर्डर मात्रा और मूल्य स्तर\nमानक कृषि आकारों (M8–M20) में Class 8.8 और Class 10.9 हेक्स बोल्ट के लिए MOQ आमतौर पर आपूर्तिकर्ता के अनुसार प्रति आकार 500–5,000 टुकड़ों तक होता है। मूल्य अंतर आमतौर पर 5,000, 20,000 और 100,000 टुकड़ों पर आते हैं। 2026 तक ज़िंक-निकेल फिनिश वाले Class 10.9 हेक्स बोल्ट M10–M16 के कंटेनर ऑर्डर का FOB शंघाई मूल्य USD 1.80–3.20 प्रति किलोग्राम है, जो मानक कृषि ऑर्डर के लिए लगभग USD 1,500–2,600 प्रति मीट्रिक टन बनता है। Grade 8.8/10.9 विकल्पों के लिए हमारा <a href=\"/products/{'name': 'Hex Bolts', 'slug': 'hex-bolts', 'description': 'Grade 8.8/10.9 hex bolts for general agricultural machinery assembly'}\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">प्रोडक्ट कैटलॉग</a> देखें। Related resources: <a href=\"/en/products/high-tensile-bolts\">हाई-टेंसाइल बोल्ट</a> <a href=\"/en/products/anchor-bolts\">एंकर बोल्ट</a> <a href=\"/en/products/stainless-bolts\">स्टेनलेस स्टील फास्टनर</a> <a href=\"/en/products/hex-bolts\">हेक्स बोल्ट</a> <a href=\"/en/products/lock-nuts\">लॉक नट</a> <a href=\"/en/products/washers\">वॉशर</a> <a href=\"/en/products/self-drilling-screws\">सेल्फ-ड्रिलिंग स्क्रू</a> <a href=\"/en/products/socket-screws\">सॉकेट स्क्रू</a>."
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What makes agricultural machinery fasteners different from construction bolts?"
+          },
+          "a": {
+            "en": "They work in slurry, fertiliser and continuous field vibration, and implement fasteners are removed and refitted every season. Corrosion resistance, thread durability and field serviceability therefore matter more than static strength alone."
+          }
+        },
+        {
+          "q": {
+            "en": "Which bolt grades are used on tractors and harvesters?"
+          },
+          "a": {
+            "en": "Most assemblies use ISO metric bolts in classes 8.8 and 10.9, with plow bolts on ground-engaging tools and finer threads on hydraulic and engine sub-assemblies where preload control matters."
+          }
+        },
+        {
+          "q": {
+            "en": "How should buyers handle Chinese GB/T versus ISO supply?"
+          },
+          "a": {
+            "en": "State the required standard on the drawing, ask for the GB/T or ISO designation on the mill certificate, and verify dimensional and property-class equivalence on the first article before releasing volume."
+          }
+        }
+      ]
     }
   ],
   "faqSchema": {

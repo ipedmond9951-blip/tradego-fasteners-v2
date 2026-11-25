@@ -286,7 +286,7 @@
       },
       "faqItems": [
         {
-          "question": {
+          "q": {
             "en": "Can I use stainless steel bolts in aluminum without isolation?",
             "zh": "不锈钢螺栓在铝中能不使用隔离吗？",
             "es": "¿Puedo usar pernos de acero inoxidable en aluminio sin aislamiento?",
@@ -298,7 +298,7 @@
             "de": "Kann ich Edelstahlschrauben in Aluminium ohne Isolierung verwenden?",
             "hi": "क्या मैं अल्युमीनियम में स्टेनलेस स्टील बोल्ट को बिना अलगाव के उपयोग कर सकता हूँ?"
           },
-          "answer": {
+          "a": {
             "en": "No, this is a classic galvanic corrosion risk. The 0.70 V potential difference between stainless steel 316 and aluminum 6061-T6 will cause the aluminum to pit and eventually perforate if the joint is exposed to moisture. Use EPDM isolation washers (1-3 mm thick) under both the bolt head and the nut, plus a nylon or PTFE sleeve if the shank passes through an aluminum wall. TradeGo can supply complete isolation kits pre-assembled to the bolt.",
             "zh": "不，这是经典的电偶腐蚀风险。如果接头暴露于潮湿，不锈钢316和铝6061-T6之间的0.70 V电位差将导致铝点蚀并最终穿孔。在螺栓头和螺母下都使用EPDM隔离垫圈（1-3毫米厚），如果杆穿过铝壁，还要加尼龙或PTFE套管。TradeGo可以提供预先组装到螺栓的完整隔离套件。",
             "es": "No, este es un riesgo clásico de corrosión galvánica. La diferencia de potencial de 0.70 V entre el acero inoxidable 316 y el aluminio 6061-T6 causará picadura y eventual perforación del aluminio si la junta está expuesta a la humedad. Use arandelas de aislamiento EPDM (1-3 mm de espesor).",
@@ -309,12 +309,10 @@
             "de": "Nein, dies ist ein klassisches Risiko galvanischer Korrosion. Die Potentialdifferenz von 0,70 V zwischen Edelstahl 316 und Aluminium 6061-T6 führt zu Lochfraß und eventueller Perforation des Aluminiums, wenn die Verbindung Feuchtigkeit ausgesetzt ist. Verwenden Sie EPDM-Isolierscheiben (1-3 mm dick).",
             "hi": "नहीं, यह एक क्लासिक गैल्वेनिक जंग जोखिम है। स्टेनलेस स्टील 316 और एल्युमीनियम 6061-T6 के बीच 0.70 V क्षमता अंतर, यदि जोड़ नमी के संपर्क में है, तो एल्युमीनियम को गड्ढा और अंततः छिद्रित कर देगा। EPDM अलगाव वॉशर (1-3 मिमी मोटी) का उपयोग करें।",
             "ar": "<p>نعم، مع العزل المناسب. وفقاً لمعيار ASTM G82 ودليل سلسلة الجلفان، فإن الفولاذ المقاوم للصدأ (الكاثود) عند إقرانه بالألومنيوم (الأنود) في بيئة رطبة يسبب تآكل حفر سريع للألومنيوم - يمكن أن تفقد ورادة الألومنيوم الصغيرة في أسابيع عند إقرانها بقوس كبير من الفولاذ المقاوم للصدأ. يجب تركيب وراد وأكمام عزل غير موصلة (EPDM أو النيوبرين أو النايلون أو PTFE) على جانبي الوصلة، وتطبيق برايمر غني بالزنك أو طلاء بيتوميني على منطقة التلامس لمزيد من الأمان. في البيئات الداخلية الجافة المتحكم في مناخها، يكون الجمع عادة آمناً بدون عزل.</p><p>كقاعدة عملية، افترض أن أي زوج من الفولاذ المقاوم للصدأ والألومنيوم في الخدمة الخارجية أو البحرية أو الرطبة يتطلب عزلاً - الفرق المحتمل العالي بين المعدنين (~0.7 فولت) يجعل التآكل السريع شبه مضمون بمجرد وجود الإلكتروليت.</p>"
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "What is the maximum safe potential difference for fastener couples?",
             "zh": "紧固件电偶的最大安全电位差是多少？",
             "es": "¿Cuál es la diferencia de potencial máxima segura para parejas de sujetadores?",
@@ -326,7 +324,7 @@
             "de": "Was ist die maximale sichere Potentialdifferenz für Befestigungsmittel-Paarungen?",
             "hi": "फास्टनर जोड़े के लिए अधिकतम सुरक्षित क्षमता अंतर क्या है?"
           },
-          "answer": {
+          "a": {
             "en": "Industry practice is 0.25 V maximum for general applications and 0.15 V maximum for wet, marine or critical service. These limits are derived from the work of ASTM G82 and NACE / AMPP SP0775. If the potential difference cannot be reduced by material choice, use isolation methods or a sacrificial coating on the more noble metal to bring the effective difference below the threshold.",
             "zh": "行业惯例为一般应用最大0.25 V，潮湿、海洋或关键服务最大0.15 V。这些限制源自ASTM G82和NACE/AMPP SP0775的工作。如果电位差不能通过材料选择降低，使用隔离方法或更贵金属上的牺牲涂层以将有效差值降至阈值以下。",
             "es": "La práctica de la industria es 0,25 V máximo para aplicaciones generales y 0,15 V máximo para servicio húmedo, marino o crítico. Estos límites se derivan del trabajo de ASTM G82 y NACE/AMPP SP0775.",
@@ -337,12 +335,10 @@
             "de": "Die Branchenpraxis ist 0,25 V maximal für allgemeine Anwendungen und 0,15 V maximal für nasse, marine oder kritische Anwendungen. Diese Grenzwerte stammen aus der Arbeit von ASTM G82 und NACE/AMPP SP0775.",
             "hi": "उद्योग अभ्यास सामान्य अनुप्रयोगों के लिए अधिकतम 0.25 V और गीले, समुद्री या महत्वपूर्ण सेवा के लिए अधिकतम 0.15 V है। ये सीमाएँ ASTM G82 और NACE/AMPP SP0775 के कार्य से प्राप्त होती हैं।",
             "ar": "<p>نعم. تستخدم الحشوات العازلة غير الموصلة بين الشفاه المعدنية المختلفة لكسر الاستمرارية الكهربائية ومنع تدفق التيار الجلفاني. المواد الشائعة هي EPDM، النيوبرين، النايلون، PTFE، مركبات الجرافيت، والألياف الأراميدية. يجب أن تكون الحشوة بسماكة كافية (عادة 1.5-3.0 ملم) لملء جميع المخالفات السطحية والحفاظ على الضغط المناسب تحت حمل التثبيت. هذا مهم بشكل خاص في خطوط أنابيب العمليات الكيميائية ومحطات معالجة مياه الصرف الصحي حيث توجد اختلافات محتملة كبيرة وفشل مبكر إذا لم يتم العزل.</p>"
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "Is hot-dip galvanized steel safe to use with stainless steel fasteners?",
             "zh": "热浸镀锌钢与不锈钢紧固件一起使用安全吗？",
             "es": "¿Es seguro el acero galvanizado en caliente con sujetadores de acero inoxidable?",
@@ -354,7 +350,7 @@
             "de": "Ist feuerverzinkter Stahl in Kombination mit Edelstahl-Befestigungsmitteln sicher?",
             "hi": "क्या हॉट-डिप गैल्वनाइज्ड स्टील स्टेनलेस स्टील फास्टनर के साथ उपयोग करने के लिए सुरक्षित है?"
           },
-          "answer": {
+          "a": {
             "en": "Generally yes, because the zinc coating is itself a sacrificial layer and acts as a buffer between the underlying carbon steel and the stainless steel fastener. The zinc will protect the base steel if the coating is intact. If the zinc coating is scratched or cut during installation, the exposed carbon steel underneath will corrode preferentially — but this is generally limited to the damaged area and does not propagate aggressively. For high-humidity or coastal service, isolate the joint with an EPDM washer to prevent zinc runoff staining and extend the service life.",
             "zh": "通常是的，因为锌涂层本身是牺牲层，作为底层碳钢和不锈钢紧固件之间的缓冲。如果涂层完整，锌将保护基体钢。如果锌涂层在安装过程中划伤或切割，下方暴露的碳钢将优先腐蚀——但这通常仅限于损坏区域，不会主动扩散。对于高湿度或沿海服务，使用EPDM垫圈隔离接头以防止锌径流染色并延长使用寿命。",
             "es": "Generalmente sí, porque el recubrimiento de zinc es en sí mismo una capa sacrificial y actúa como un amortiguador entre el acero al carbono subyacente y el sujetador de acero inoxidable. El zinc protegerá el acero base si el recubrimiento está intacto.",
@@ -365,12 +361,10 @@
             "de": "Im Allgemeinen ja, da die Zinkbeschichtung selbst eine Opferschicht ist und als Puffer zwischen dem darunterliegenden Kohlenstoffstahl und der Edelstahl-Befestigung wirkt. Das Zink schützt den Grundstahl, wenn die Beschichtung intakt ist.",
             "hi": "आमतौर पर हाँ, क्योंकि जिंक कोटिंग स्वयं एक बलिदान परत है और अंतर्निहित कार्बन स्टील और स्टेनलेस स्टील फास्टनर के बीच बफर के रूप में कार्य करती है। यदि कोटिंग अक्षत है तो जिंक बेस स्टील की रक्षा करेगा।",
             "ar": "<p>توفر طلاءات الزنك الحماية الكاثودية التضحوية. عندما يتعرض الطلاء للتلف، يتآكل الزنك (الأنود) قبل الفولاذ الأساسي (الكاثود) - وهذا هو الغرض من الطلاء. تستمر الحماية طالما أن هناك زنك غير متآكل. بالنسبة لطلاءات HDG 85 ميكرومتر في البيئات الصناعية/البحرية، توقع 20-50 سنة قبل الحاجة إلى الصيانة. تستمر الطلاءات الكهربائية الرقيقة (5-25 ميكرومتر) من 5-15 سنة في البيئات المماثلة.</p><p>عند هذه النقطة (انتهاء عمر خدمة طلاء الزنك)، يصبح الفولاذ الأساسي عرضة للتآكل، ويجب إما إعادة طلاء المثبتات (إذا كانت قابلة للإزالة) أو استبدالها. يعد الفحص البصري المنتظم للكشف عن منتج التآكل الأحمر (صدأ الحديد) أو الفقدان الواضح في سمك الطلاء أمراً ضرورياً. في التطبيقات الحرجة، ضع في اعتبارك الحماية الكاثودية التضحوية الإضافية لزيادة عمر الخدمة.</p>"
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "Does TradeGo offer complete fastener-isolation-washer kits?",
             "zh": "TradeGo是否提供完整的紧固件-隔离垫圈套件？",
             "es": "¿TradeGo ofrece kits completos de sujetador-arandela de aislamiento?",
@@ -382,7 +376,7 @@
             "de": "Bietet TradeGo komplette Befestigungsmittel-Isolierscheiben-Kits an?",
             "hi": "क्या TradeGo पूर्ण फास्टनर-अलगाव वॉशर किट प्रदान करता है?"
           },
-          "answer": {
+          "a": {
             "en": "Yes. TradeGo assembles kitted fastener packages with matched EPDM isolation washers, sealing washers, and bushings, supplied in sealed bags with a kit identification label. The kits are popular for solar PV, curtain wall, and marine applications where on-site kitting is impractical. Standard kit configurations cover M6-M20 in 30 mm, 50 mm and 70 mm bolt lengths; custom configurations are available on request.",
             "zh": "是的。TradeGo组装配套紧固件包，配有匹配的EPDM隔离垫圈、密封垫圈和衬套，供应时采用密封袋包装，附套件识别标签。该套件在太阳能PV、幕墙和海洋应用中很受欢迎，因为现场配套不切实际。标准套件配置涵盖M6-M20的30毫米、50毫米和70毫米螺栓长度；可根据要求提供定制配置。",
             "es": "Sí. TradeGo ensambla paquetes de sujetadores en kit con arandelas de aislamiento EPDM, arandelas de sellado y casquillos coincidentes, suministrados en bolsas selladas con una etiqueta de identificación del kit.",
@@ -393,12 +387,10 @@
             "de": "Ja. TradeGo assembliert Befestigungsmittel-Kits mit abgestimmten EPDM-Isolierscheiben, Dichtscheiben und Buchsen, geliefert in versiegelten Beuteln mit Kit-Identifikationsetikett.",
             "hi": "हाँ। TradeGo मिलान वाले EPDM अलगाव वॉशर, सीलिंग वॉशर और बुशिंग के साथ किट किए गए फास्टनर पैकेज इकट्ठा करता है, जो किट पहचान लेबल के साथ सीलबंद बैग में आपूर्ति किए जाते हैं।",
             "ar": "<p>نعم. بصفتها مبدأ توجيهي عام، فإن مثبتات الفولاذ المقاوم للصدأ (A2/A4-70 أو A2/A4-80) تتفوق على مثبتات الفولاذ الكربوني في البيئات المسببة للتآكل، وذلك بفضل طبقة الأكسيد السلبي الواقي الذاتي على سطحها. مع ذلك، الفولاذ المقاوم للصدأ ليس محصناً: في بيئات الكلوريد (المياه المالحة، أملاح إذابة الجليد، حمامات السباحة)، يمكن أن يحدث تآكل حفر وتآكل شقوق، خاصة في درجات الفولاذ المقاوم للصدأ الأدنى (مثل 304 مقابل 316). للمعالجة البحرية أو الساحلية، حدد 316 (A4) على الأقل؛ للمعالجة البحرية الكلية أو تطبيقات مياه البحر، ضع في اعتبارك السبائك الأعلى (904L، سبائك 625، أو Hastelloy).</p><p>والأهم من ذلك: حتى الفولاذ المقاوم للصدأ يحتاج إلى عزل عند إقرانه بمعادن مختلفة في الخدمة الرطبة. الاختلاف في الجهد المحتمل يعني أن الفولاذ المقاوم للصدأ سيظل يحمي الألومنيوم أو الفولاذ المجلفن المجاور، مما يتسبب في تآكل سريع لتلك المواد.</p>"
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "How often should I inspect galvanic-fastener joints in service?",
             "zh": "我应该多久检查一次使用中的电偶紧固件接头？",
             "es": "¿Con qué frecuencia debo inspeccionar las uniones de sujetadores galvánicos en servicio?",
@@ -410,7 +402,7 @@
             "de": "Wie oft sollte ich galvanische Verbindungselementverbindungen im Betrieb inspizieren?",
             "hi": "सेवा में गैल्वेनिक फास्टनर जोड़ों का निरीक्षण कितनी बार करना चाहिए?"
           },
-          "answer": {
+          "a": {
             "en": "For critical structural applications (bridges, transmission towers, marine platforms, pressure vessels), annual visual inspection is the minimum. Look for tell-tale signs: white or red corrosion product at the joint, bolt elongation, loss of preload indicated by visible gaps under bolt heads, and any noise or movement during thermal cycling. In marine and offshore service, 6-monthly inspection is recommended. For indoor or sheltered applications with no galvanic incompatibility, 5-year inspection intervals are typical. Always record inspection results in the asset's maintenance log, including photographs, torque readings, and any corrective actions taken. Where sacrificial anodes are fitted, replace them when they have lost more than 50% of their original mass, or according to the manufacturer's schedule.",
             "zh": "对于关键结构应用（桥梁、输电塔、海洋平台、压力容器），每年目视检查是最低要求。寻找明显的迹象：接头处的白色或红色腐蚀产物、螺栓伸长、螺栓头下可见间隙所指示的预紧力损失，以及热循环期间的任何噪音或移动。在海洋和海上服务中，建议每6个月检查一次。对于没有电偶不相容性的室内或遮蔽应用，典型的检查间隔为5年。始终将检查结果记录在资产的维护日志中，包括照片、扭矩读数和采取的任何纠正措施。在安装牺牲阳极的情况下，当其损失超过原始质量的50%时更换，或根据制造商的计划进行更换。",
             "es": "Para aplicaciones estructurales críticas (puentes, torres de transmisión, plataformas marinas, recipientes a presión), la inspección visual anual es el mínimo. Busque señales reveladoras: producto de corrosión blanco o rojo en la unión, elongación del perno, pérdida de precarga indicada por huecos visibles bajo las cabezas de los pernos, y cualquier ruido o movimiento durante el ciclo térmico. En servicio marino y offshore, se recomienda inspección cada 6 meses. Para aplicaciones interiores o protegidas sin incompatibilidad galvánica, los intervalos de inspección típicos son de 5 años. Registre siempre los resultados de la inspección en el registro de mantenimiento del activo, incluidas fotografías, lecturas de par y cualquier acción correctiva tomada. Cuando se ajustan ánodos de sacrificio, reemplácelos cuando hayan perdido más del 50% de su masa original, o según el programa del fabricante.",
@@ -421,9 +413,7 @@
             "ja": "重要な構造用途（橋、変電塔、海洋プラットフォーム、圧力容器）の場合、毎年の目視検査が最低要件です。以下の兆候を探してください：接合部の白色または赤色の腐食生成物、ボルトの伸び、ボルト頭下の目に見える隙間によって示される予張力の喪失、熱サイクル中の騒音や動き。海洋および沖合サービスでは、6か月ごとの検査を推奨します。ガルバニック不適合のない屋内または遮蔽用途では、典型的な検査間隔は5年です。検査結果は必ず資産のメンテナンスログに記録し、写真、トルク測定値、講じた是正措置を含めます。犠牲陽極が装着されている場合、元の質量の50％以上を失ったとき、または製造元のスケジュールに従って交換します。",
             "de": "Für kritische Strukturanwendungen (Brücken, Strommasten, Marineplattformen, Druckbehälter) ist eine jährliche Sichtprüfung das Minimum. Achten Sie auf verräterische Anzeichen: weißes oder rotes Korrosionsprodukt an der Verbindung, Bolzenverlängerung, Vorspannungsverlust, angezeigt durch sichtbare Spalten unter den Bolzenköpfen, und jegliche Geräusche oder Bewegungen während des Thermozyklus. Für Meeres- und Offshore-Dienst wird eine 6-monatige Inspektion empfohlen. Für Innen- oder geschützte Anwendungen ohne galvanische Inkompatibilität sind typische Inspektionsintervalle 5 Jahre. Zeichnen Sie die Inspektionsergebnisse immer im Wartungsprotokoll der Anlage auf, einschließlich Fotos, Drehmomentmessungen und ergriffener Korrekturmaßnahmen. Wo Opferanoden installiert sind, ersetzen Sie diese, wenn sie mehr als 50 % ihrer ursprünglichen Masse verloren haben, oder gemäß dem Zeitplan des Herstellers.",
             "hi": "महत्वपूर्ण संरचनात्मक अनुप्रयोगों (पुल, ट्रांसमिशन टावर, समुद्री प्लेटफॉर्म, प्रेशर वेसल) के लिए, वार्षिक दृश्य निरीक्षण न्यूनतम है। बताने वाले संकेत देखें: जोड़ पर सफेद या लाल जंग उत्पाद, बोल्ट का बढ़ना, बोल्ट हेड के नीचे दिखने वाले अंतराल द्वारा संकेतित प्रीलोड का नुकसान, और थर्मल साइकलिंग के दौरान कोई शोर या गति। समुद्री और offshore सेवा में, 6-मासिक निरीक्षण की सिफारिश की जाती है। गैल्वेनिक असंगति के बिना इनडोर या आश्रय अनुप्रयोगों के लिए, 5-वर्षीय निरीक्षण अंतराल विशिष्ट हैं। हमेशा निरीक्षण परिणामों को परिसंपत्ति के रखरखाव लॉग में रिकॉर्ड करें, जिसमें फोटो, टॉर्क रीडिंग, और कोई भी सुधारात्मक कार्रवाई शामिल हो। जहां बलिदान एनोड लगाए जाते हैं, उन्हें तब बदलें जब वे अपने मूल द्रव्यमान का 50% से अधिक खो चुके हों, या निर्माता के कार्यक्रम के अनुसार।"
-          },
-          "q": {},
-          "a": {}
+          }
         }
       ]
     }
@@ -447,5 +437,19 @@
     "ja": "2026年ガルバニック腐食防止：陽極指数、ASTM F1941コーティング、ISO 14713亜鉛、EPDMワッシャー、異種金属ファスナー対、TradeGoソリューション。",
     "de": "Galvanische Korrosionsprävention 2026: anodischer Index, ASTM F1941 Beschichtungen, ISO 14713 Zink, EPDM-Scheiben, Paarungen ungleicher Metalle, TradeGo-Lösu...",
     "hi": "गैल्वेनिक जंग रोकथाम 2026: एनोडिक इंडेक्स, ASTM F1941 कोटिंग्स, ISO 14713 जिंक, EPDM वॉशर, असमान धातु फास्टनर जोड़े, TradeGo समाधान।"
-  }
+  },
+  "faq": [
+    {
+      "q": "Which metal pairs cause the worst galvanic corrosion in fasteners?",
+      "a": "The widest anodic-index gap: stainless or zinc-coated steel coupled to aluminium, and carbon steel coupled to stainless steel in wet chloride service. As a working rule, keep the index difference within about 0.25 V."
+    },
+    {
+      "q": "How do I isolate a stainless bolt from an aluminium structure?",
+      "a": "Use non-conductive barriers - polymer or EPDM washers and sleeves - plus sealant at the joint, so the two metals never share an electrolyte path. Isolation is cheaper than replacing a corroded assembly."
+    },
+    {
+      "q": "Do coatings alone solve the problem?",
+      "a": "Coatings buy time rather than remove risk. Zinc works as a sacrificial anode under ISO 14713 and ASTM F1941 systems act as a barrier, but in permanently wet chloride exposure material selection and isolation are still required."
+    }
+  ]
 }

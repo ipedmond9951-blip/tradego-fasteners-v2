@@ -235,6 +235,55 @@
         "de": "Vor der Vergabe eines Teils: Zeichnungsrevision und Toleranzen bestätigen, Material- und Beschichtungsspezifikation mit angegebenen Prüfmethoden vereinbaren, Erstmusterprüfberichte fordern und die Klausel zur Änderungsmitteilung explizit festlegen. Ergänzen Sie eine Verpackungsnorm — Mehrwegbehälter oder festgelegte Kartonmengen — denn Automobillinien öffnen keine Großgebinde.<p>Schließlich vereinbaren Sie, wie das Audit abläuft. Ein Werk, das Chargennummer-Rückverfolgbarkeit, Kalibrierunterlagen und eine dokumentierte Schichtdickenprüfung vorweisen kann, ist für Automobilarbeiten bereit; eines, das Fragen mit Zusicherungen beantwortet, ist es nicht, so gut die Muster auch aussehen mögen.</p>",
         "hi": "पार्ट देने से पहले: ड्राइंग रिवीज़न और सहनशीलता की पुष्टि करें, परीक्षण विधियाँ बताकर मटेरियल और कोटिंग स्पेसिफ़िकेशन तय करें, फ़र्स्ट-आर्टिकल निरीक्षण रिपोर्ट माँगें, और चेंज-नोटिफ़िकेशन क्लॉज़ स्पष्ट रूप से परिभाषित करें। एक पैकेजिंग मानक जोड़ें — रिटर्नेबल बिन या निर्धारित कार्टन मात्रा — क्योंकि ऑटोमोटिव लाइनें बल्क नहीं तोड़तीं।<p>अंत में, तय करें कि आप ऑडिट कैसे करेंगे। जो फ़ैक्टरी हीट-नंबर ट्रेसेबिलिटी, कैलिब्रेशन रिकॉर्ड और दस्तावेज़ी प्लेटिंग-मोटाई जाँच दिखा सकती है, वह ऑटोमोटिव काम के लिए तैयार है; जो सवालों का जवाब आश्वासनों से देती है, वह तैयार नहीं है, चाहे सैंपल कितने ही अच्छे दिखें।</p>"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What quality documents do automotive buyers request?"
+          },
+          "a": {
+            "en": "Material certificates tied to heat numbers, dimensional reports against the drawing, process evidence for heat treatment and plating, thread inspection records, and first-article inspection reports before volume supply."
+          }
+        },
+        {
+          "q": {
+            "en": "Which grades are typical for automotive fasteners in Africa?"
+          },
+          "a": {
+            "en": "Grades 8.8 and 10.9 dominate chassis, suspension, and body applications, with 12.9 used for specific high-load parts. Coating choice is driven by corrosion cycles rather than by grade alone."
+          }
+        },
+        {
+          "q": {
+            "en": "Why does change control matter more than price?"
+          },
+          "a": {
+            "en": "A silent process change - a new heat-treatment subcontractor or plating line - keeps the part number identical while altering performance. Documented notification and first-article approval protect the assembly line."
+          }
+        },
+        {
+          "q": {
+            "en": "Should plants import directly or buy from a regional distributor?"
+          },
+          "a": {
+            "en": "Smaller markets usually work better through a regional distributor holding stock under a supplier agreement, which keeps lead time in days and concentrates the audit burden."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -283,23 +332,5 @@
       "hi": "Request Quote"
     },
     "link": "/en/contact"
-  },
-  "faq": [
-    {
-      "q": "What quality documents do automotive buyers request?",
-      "a": "Material certificates tied to heat numbers, dimensional reports against the drawing, process evidence for heat treatment and plating, thread inspection records, and first-article inspection reports before volume supply."
-    },
-    {
-      "q": "Which grades are typical for automotive fasteners in Africa?",
-      "a": "Grades 8.8 and 10.9 dominate chassis, suspension, and body applications, with 12.9 used for specific high-load parts. Coating choice is driven by corrosion cycles rather than by grade alone."
-    },
-    {
-      "q": "Why does change control matter more than price?",
-      "a": "A silent process change - a new heat-treatment subcontractor or plating line - keeps the part number identical while altering performance. Documented notification and first-article approval protect the assembly line."
-    },
-    {
-      "q": "Should plants import directly or buy from a regional distributor?",
-      "a": "Smaller markets usually work better through a regional distributor holding stock under a supplier agreement, which keeps lead time in days and concentrates the audit burden."
-    }
-  ]
+  }
 }

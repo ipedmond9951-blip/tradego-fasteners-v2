@@ -268,6 +268,63 @@
       },
       "type": "text",
       "id": "quality-assurance-for-oil-gas-fasteners-supplied-to-algeria"
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are the standard fastener specifications for Algeria oil and gas projects?"
+          },
+          "a": {
+            "en": "Algeria oil gas fastener specifications typically require compliance with ISO 4017, ASTM A193 B7, and ASTM A194 2H materials for high-pressure applications. Contact our technical team for project-specific requirements."
+          }
+        },
+        {
+          "q": {
+            "en": "Which fastener materials are recommended for Algiers coastal refineries?"
+          },
+          "a": {
+            "en": "Stainless steel grades 316/316L and duplex stainless steel are recommended for Algiers coastal refineries due to excellent corrosion resistance against chloride-rich marine atmospheres. Super duplex options available for aggressive environments."
+          }
+        },
+        {
+          "q": {
+            "en": "Do your fasteners comply with international oil gas industry standards?"
+          },
+          "a": {
+            "en": "Yes, our fasteners meet ASTM, ISO, and DIN standards required for oil and gas applications. All products include material test reports, certificates of conformance, and full traceability documentation for Algeria projects."
+          }
+        },
+        {
+          "q": {
+            "en": "What corrosion protection options exist for Algeria offshore gas platforms?"
+          },
+          "a": {
+            "en": "We offer marine-grade coatings including hot-dip galvanizing, Xylan, and GEOMET treatments specifically designed for Algeria offshore platforms. These provide 1000+ hour salt spray resistance for extended service life."
+          }
+        },
+        {
+          "q": {
+            "en": "How can I source bulk fasteners for large-scale Algiers refinery construction?"
+          },
+          "a": {
+            "en": "We provide complete procurement services for bulk fastener orders including kitting, custom packaging, and logistics coordination through Port of Algiers. Request a detailed quote with your project specifications today."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -316,27 +373,5 @@
       "hi": "Request Quote"
     },
     "link": "/en/contact"
-  },
-  "faq": [
-    {
-      "q": "What are the standard fastener specifications for Algeria oil and gas projects?",
-      "a": "Algeria oil gas fastener specifications typically require compliance with ISO 4017, ASTM A193 B7, and ASTM A194 2H materials for high-pressure applications. Contact our technical team for project-specific requirements."
-    },
-    {
-      "q": "Which fastener materials are recommended for Algiers coastal refineries?",
-      "a": "Stainless steel grades 316/316L and duplex stainless steel are recommended for Algiers coastal refineries due to excellent corrosion resistance against chloride-rich marine atmospheres. Super duplex options available for aggressive environments."
-    },
-    {
-      "q": "Do your fasteners comply with international oil gas industry standards?",
-      "a": "Yes, our fasteners meet ASTM, ISO, and DIN standards required for oil and gas applications. All products include material test reports, certificates of conformance, and full traceability documentation for Algeria projects."
-    },
-    {
-      "q": "What corrosion protection options exist for Algeria offshore gas platforms?",
-      "a": "We offer marine-grade coatings including hot-dip galvanizing, Xylan, and GEOMET treatments specifically designed for Algeria offshore platforms. These provide 1000+ hour salt spray resistance for extended service life."
-    },
-    {
-      "q": "How can I source bulk fasteners for large-scale Algiers refinery construction?",
-      "a": "We provide complete procurement services for bulk fastener orders including kitting, custom packaging, and logistics coordination through Port of Algiers. Request a detailed quote with your project specifications today."
-    }
-  ]
+  }
 }

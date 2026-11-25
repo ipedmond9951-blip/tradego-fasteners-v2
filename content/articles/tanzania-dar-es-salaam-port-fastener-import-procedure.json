@@ -235,6 +235,55 @@
         "de": "An erster Stelle steht die falsch deklarierte Gewichtsangabe: Befestigungselemente sind dicht, und eine einzeilige Deklaration verbirgt mehrere Palettenkonfigurationen. Zweitens deckt das Zertifikat eine Beschichtung ab, während der Container drei trägt. Drittens ist der Empfänger im Frachtbrief nicht in der Lage, die Ware zu verzollen, ein häufiges Problem, wenn der Käufer ein Agent und nicht der eingetragene Importeur ist. Viertens die Lagerung: Stahlbefestigungen, die drei Wochen in einem feuchten Terminal-Lager liegen, zeigen Rost, bevor sie die Baustelle erreichen. Fünftens die Etikettierung in der falschen Sprache, die jede nachgelagerte Prüfung verlangsamt.<p>Jedes dieser Probleme ist am Ursprungsort günstig zu verhindern und bei Ankunft teuer zu beheben – genau das ist das Argument dafür, die Dokumentation als Teil des Produkts zu behandeln.</p>",
         "hi": "गलत घोषित वज़न सूची में सबसे ऊपर है, क्योंकि फास्टनर घने होते हैं और एक पंक्ति की घोषणा कई पैलेट विन्यासों को छिपा देती है। दूसरी, प्रमाणपत्र एक कोटिंग को कवर करता है जबकि कंटेनर में तीन होती हैं। तीसरी, बिल ऑफ लेडिंग का कन्साइनी माल को क्लियर नहीं कर सकता — यह आम समस्या तब होती है जब खरीदार पंजीकृत आयातकर्ता नहीं, बल्कि एजेंट होता है। चौथी, भंडारण: नम टर्मिनल गोदाम में तीन हफ्ते रखे स्टील फास्टनर साइट पर पहुँचने से पहले जंग दिखा देंगे। पाँचवीं, गलत भाषा में लेबलिंग, जो हर बाद के निरीक्षण को धीमा कर देती है।<p>इनमें से हर समस्या मूल स्थान पर रोकना सस्ता और आगमन पर ठीक करना महँगा है — यही वह पूरी दलील है जिसके आधार पर दस्तावेज़ों को उत्पाद का हिस्सा माना जाना चाहिए।</p>"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What HS heading covers fasteners imported into Tanzania?"
+          },
+          "a": {
+            "en": "Bolts, nuts, screws, and similar fasteners fall under HS heading 7318. Duty and VAT follow the specific tariff line, and declared values must be defensible against comparable shipments."
+          }
+        },
+        {
+          "q": {
+            "en": "When should conformity assessment be arranged?"
+          },
+          "a": {
+            "en": "Before the container leaves the factory. Applying after arrival is the most common cause of clearance running from weeks into months."
+          }
+        },
+        {
+          "q": {
+            "en": "Can Dar es Salaam cargo transit to Zambia or DRC?"
+          },
+          "a": {
+            "en": "Yes. Transit cargo moves under a transit bond on designated routes, and the paperwork must name the correct exit border post."
+          }
+        },
+        {
+          "q": {
+            "en": "Should I choose road or rail for inland delivery?"
+          },
+          "a": {
+            "en": "Road is faster for smaller lots and lower risk on a first shipment. Rail is cheaper per tonne for heavy fastener cargo but requires planning around departure schedules."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -287,23 +336,5 @@
       "hi": "Request Quote"
     },
     "link": "/en/contact"
-  },
-  "faq": [
-    {
-      "q": "What HS heading covers fasteners imported into Tanzania?",
-      "a": "Bolts, nuts, screws, and similar fasteners fall under HS heading 7318. Duty and VAT follow the specific tariff line, and declared values must be defensible against comparable shipments."
-    },
-    {
-      "q": "When should conformity assessment be arranged?",
-      "a": "Before the container leaves the factory. Applying after arrival is the most common cause of clearance running from weeks into months."
-    },
-    {
-      "q": "Can Dar es Salaam cargo transit to Zambia or DRC?",
-      "a": "Yes. Transit cargo moves under a transit bond on designated routes, and the paperwork must name the correct exit border post."
-    },
-    {
-      "q": "Should I choose road or rail for inland delivery?",
-      "a": "Road is faster for smaller lots and lower risk on a first shipment. Rail is cheaper per tonne for heavy fastener cargo but requires planning around departure schedules."
-    }
-  ]
+  }
 }

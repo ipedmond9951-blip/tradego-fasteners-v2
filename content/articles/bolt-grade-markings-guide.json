@@ -396,9 +396,7 @@
             "ja": "The dot separates the two numbers. First number (8) = tensile strength / 100 = 800 MPa. Second number (8) = yield ratio × 10 = 0.8, so yield strength = 800 × 0.8 = 640 MPa.",
             "de": "The dot separates the two numbers. First number (8) = tensile strength / 100 = 800 MPa. Second number (8) = yield ratio × 10 = 0.8, so yield strength = 800 × 0.8 = 640 MPa.",
             "hi": "The dot separates the two numbers. First number (8) = tensile strength / 100 = 800 MPa. Second number (8) = yield ratio × 10 = 0.8, so yield strength = 800 × 0.8 = 640 MPa."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -424,9 +422,7 @@
             "ja": "Only if the engineering design allows it. Grade 8.8 has 80% of the tensile strength but only 71% of the yield strength of Grade 10.9. Never substitute down without engineer approval.",
             "de": "Only if the engineering design allows it. Grade 8.8 has 80% of the tensile strength but only 71% of the yield strength of Grade 10.9. Never substitute down without engineer approval.",
             "hi": "Only if the engineering design allows it. Grade 8.8 has 80% of the tensile strength but only 71% of the yield strength of Grade 10.9. Never substitute down without engineer approval."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -452,9 +448,7 @@
             "ja": "No. Standard A2-70 stainless bolts have a tensile strength of 700 MPa — less than Grade 8.8 (800 MPa). For equivalent strength, use A4-80 or A2-80 grade stainless, but these are specialty items with premium pricing.",
             "de": "No. Standard A2-70 stainless bolts have a tensile strength of 700 MPa — less than Grade 8.8 (800 MPa). For equivalent strength, use A4-80 or A2-80 grade stainless, but these are specialty items with premium pricing.",
             "hi": "No. Standard A2-70 stainless bolts have a tensile strength of 700 MPa — less than Grade 8.8 (800 MPa). For equivalent strength, use A4-80 or A2-80 grade stainless, but these are specialty items with premium pricing."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -480,9 +474,7 @@
             "ja": "Check the head marking matches the purchase order specification. For critical applications, request mill test certificates (MTC) per EN 10204 Type 3.1. Random hardness testing is also recommended for large orders.",
             "de": "Check the head marking matches the purchase order specification. For critical applications, request mill test certificates (MTC) per EN 10204 Type 3.1. Random hardness testing is also recommended for large orders.",
             "hi": "Check the head marking matches the purchase order specification. For critical applications, request mill test certificates (MTC) per EN 10204 Type 3.1. Random hardness testing is also recommended for large orders."
-          },
-          "question": {},
-          "answer": {}
+          }
         }
       ],
       "body": {

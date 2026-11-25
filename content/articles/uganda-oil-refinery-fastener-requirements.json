@@ -43,7 +43,7 @@
     "hi": "युगांडा की कबाले रिफाइनरी (होइमा जिला) के लिए फास्टनर सामग्री ग्रेड, API/ASTM/ISO मानक और गुणवत्ता जांच।"
   },
   "metaDescription": {
-    "en": "The Uganda Oil Refinery represents one of the largest industrial investments in the country's petroleum sector.",
+    "en": "The Uganda Oil Refinery represents one of the largest industrial investments in the country's petroleum sector. TradeGo quotes CIF prices with mill test reports.",
     "zh": "乌干达炼油厂是该国石油领域规模最大的工业投资项目之一。与普通建筑工程不同，炼油装置在苛刻的机械与化学条件下连续运转，一颗紧固件失效就可能导致设备停机、环境事故或人员安全风险。关键应用部位包括： 钢结构连接 压力容器装配 管道法兰接头 换热器安装 储罐建造 管道支吊架 电气设备锚固 机械设备基础…",
     "es": "Material grades, API/ASTM/ISO standards, and quality checks for fasteners in Uganda's planned 60,000 bpd Kabaale refinery (Hoima District).",
     "ar": "درجات المواد ومعايير API/ASTM/ISO وعمليات فحص الجودة لأدوات التثبيت في مصفاة كابالي في أوغندا.",
@@ -433,5 +433,31 @@
     "ghana-tema-port-fastener-import-procedure",
     "angola-lng-project-fastener-procurement",
     "rwanda-construction-fastener-standards"
+  ],
+  "faq": [
+    {
+      "q": "What standards are required for fasteners in Ugandan oil refineries?",
+      "a": "Fasteners must comply with API 6A and ASTM A193 Grade B7 requirements for high-strength bolts. ISO 9001 quality management system requirements must also be met. Ring gaskets are specified according to the BX series in API 6A."
+    },
+    {
+      "q": "Are there special requirements for hydrogen sulfide (H2S) service?",
+      "a": "Yes. Because Ugandan oil fields carry high H2S concentrations, corrosion-resistant alloy bolts must be used. A193 B7 alone is not adequate and must be specified with a suitable coating or liner. Stress corrosion cracking (SCC) testing must be carried out to ASTM G36."
+    },
+    {
+      "q": "What operating temperature ranges are permitted?",
+      "a": "Typical operating temperatures range from 30 °C to 200 °C. Fastener materials must be verified to retain their mechanical properties across this range. Grade B7 bolts are suitable for temperatures up to 450 °C, although a reduction in allowable stress values must be considered."
+    },
+    {
+      "q": "Which HS code applies to imports?",
+      "a": "Industrial fasteners and screws are classified under HS code 7318. Sub-codes vary by screw type and size. Specific classification should be confirmed with the Ugandan customs authorities."
+    },
+    {
+      "q": "What quality testing is required before delivery?",
+      "a": "Required testing includes chemical composition analysis [1], tensile and hardness testing [2], and impact resistance testing [3]. All results must be documented in certified test reports."
+    },
+    {
+      "q": "Are there special requirements for installation in marine environments?",
+      "a": "Yes. Coastal areas of Uganda require salt- and corrosion-resistant coating. Epoxy coating or hot-dip galvanizing is recommended. Specifications should comply with ISO 12944 for corrosion protection."
+    }
   ]
 }

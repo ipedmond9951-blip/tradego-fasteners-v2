@@ -294,7 +294,7 @@
       },
       "faqItems": [
         {
-          "question": {
+          "q": {
             "en": "What are the key considerations for malawi fastener market case study?",
             "zh": "关于malawi fastener market case study的关键考虑因素是什么？",
             "es": "What are the key considerations for malawi fastener market case study?",
@@ -306,7 +306,7 @@
             "de": "What are the key considerations for malawi fastener market case study?",
             "hi": "What are the key considerations for malawi fastener market case study?"
           },
-          "answer": {
+          "a": {
             "en": "See the detailed analysis above for specifications, applications, and best practices for malawi fastener market case study.",
             "zh": "See the detailed analysis above for specifications, applications, and best practices for malawi fastener market case study.",
             "es": "See the detailed analysis above for specifications, applications, and best practices for malawi fastener market case study.",
@@ -317,12 +317,10 @@
             "ja": "See the detailed analysis above for specifications, applications, and best practices for malawi fastener market case study.",
             "de": "See the detailed analysis above for specifications, applications, and best practices for malawi fastener market case study.",
             "hi": "See the detailed analysis above for specifications, applications, and best practices for malawi fastener market case study."
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "What standards should I follow?",
             "zh": "应该遵循哪些标准？",
             "es": "What standards should I follow?",
@@ -334,7 +332,7 @@
             "de": "What standards should I follow?",
             "hi": "What standards should I follow?"
           },
-          "answer": {
+          "a": {
             "en": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
             "zh": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
             "es": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
@@ -345,12 +343,10 @@
             "ja": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
             "de": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market.",
             "hi": "Common standards include ISO 898, DIN 933, ASTM F1554, and GB/T specifications depending on your market."
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "How do I choose a reliable supplier?",
             "zh": "如何选择可靠的供应商？",
             "es": "How do I choose a reliable supplier?",
@@ -362,7 +358,7 @@
             "de": "How do I choose a reliable supplier?",
             "hi": "How do I choose a reliable supplier?"
           },
-          "answer": {
+          "a": {
             "en": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
             "zh": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
             "es": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
@@ -373,9 +369,7 @@
             "ja": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
             "de": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region.",
             "hi": "Look for manufacturers with ISO 9001 certification, documented QA processes, and proven export experience to your region."
-          },
-          "q": {},
-          "a": {}
+          }
         }
       ]
     }
@@ -487,5 +481,27 @@
     "ar": "دراسة حالة سوق التثبيتات في ملاوي: مشروع تحويل وادي شاير",
     "fr": "Étude de Marché des Fixations au Malawi: Projet de Transformation de la Vallée du Shire",
     "hi": "मलावी फास्टनर बाज़ार केस स्टडी: शायर वैली ट्रांसफॉर्मेशन प्रोजेक्ट"
-  }
+  },
+  "faq": [
+    {
+      "q": "What is the typical delivery time for fasteners to Malawi?",
+      "a": "The total transit time from the factory in China to the job site in Malawi is typically 28-32 days. This includes 21-24 days of sea freight to the Port of Beira, 1-2 days for overland transport to the Marka border, and 2 days to the Shire Valley. For urgent orders, air freight can reduce the time to 7-10 days, although at significantly higher costs."
+    },
+    {
+      "q": "What certifications do fasteners need for World Bank projects in Malawi?",
+      "a": "Fasteners for World Bank projects in Malawi must comply with the standards of the Malawi Bureau of Standards (MBS), which recognizes international certifications such as ISO, ASTM, and DIN. A Certificate of Conformity (CoC) is mandatory for construction materials. For World Bank-funded projects, pre-approved documentation can speed up customs clearance at the Malawi Revenue Authority (MRA)."
+    },
+    {
+      "q": "What are the import taxes for fasteners in Malawi?",
+      "a": "Malawi applies a 25% import tax on the CIF value of fasteners, which is above the regional average. Additionally, there is a 16.5% VAT and a 20% withholding tax on payments to foreign suppliers. World Bank-funded projects may qualify for tax exemption under the MRA Development Division."
+    },
+    {
+      "q": "How can I reduce fastener costs for projects in Malawi?",
+      "a": "Effective cost reduction strategies include consolidating shipments to lower per-unit shipping costs, using suppliers experienced in African projects who understand documentation requirements, pre-planning your needs to avoid expensive urgent shipments, and analyzing the total cost of ownership rather than just the unit price. Experience shows that higher-quality fasteners with a higher initial price often result in a lower total cost due to reduced failures and rework."
+    },
+    {
+      "q": "What fastener specifications are required for irrigation infrastructure?",
+      "a": "Irrigation projects like the SVTP require fasteners of various grades. These include Class 8.8 or 10.9 hex bolts for structural connections in pumping stations, A2-70 or A4-70 stainless steel fasteners for components exposed to water and irrigation chemicals, HDG anchors for external structures, and matching washers and nuts for the"
+    }
+  ]
 }

@@ -43,7 +43,7 @@
     "hi": "अफ्रीका के सौर फार्म के लिए फास्टनर मानक, जंग से सुरक्षा और ढुलाई की योजना जानें। परियोजना की जरूरत के अनुसार टिकाऊ फास्टनर चुनें और थोक खरीद की तैयारी करें।"
   },
   "metaDescription": {
-    "en": "Utility-scale solar is a fastener business disguised as an energy business.",
+    "en": "Utility-scale solar is a fastener business disguised as an energy business. Contact TradeGo for specifications, MOQ and CIF pricing.",
     "zh": "公用事业级光伏项目的紧固件采购指南：支架物料清单、按区块配装发运、镀层与扭矩验收，以及按到岸加配装的真实成本比较方法。",
     "es": "La energía solar a gran escala es ante todo un negocio de fijaciones estructurales y herrajes industriales.",
     "fr": "Le solaire à grande échelle repose avant tout sur la maîtrise des fixations structurelles et de la boulonnerie.",
@@ -235,6 +235,55 @@
         "ja": "施工速度を含めると、単価は費用の等式の一部に過ぎない。手直しが必要な安いボルトや、混載の段ボールで届いて現場仕分けを要するボルトは、人件費で価格差全体を上回るコストになりかねない。<p>現実的な方法は、着港・キット込みの価格で比較することである。比較に運賃、めっき検査、ブロック別キット化、バッファ分の予備費を含める。この比較は大抵、均一性を保証できる供給元に有利に傾き、施工スケジュールと向き合っても生き残る唯一の数値である。</p>",
         "ru": "После того как в расчёт включают скорость монтажа, цена за единицу становится малой частью уравнения. Болт дешевле, но требующий доработки или прибывший смешанными коробками с сортировкой на площадке, может обойтись в рабочей силе дороже, чем вся разница в цене.<p>Практичный подход — сравнивать цену с доставкой и комплектацией: в сопоставление включают фрахт, проверку покрытия, покомплектную сборку под блоки и буферный резерв. Такое сравнение обычно в пользу поставщика, который может гарантировать однородность, и это единственная цифра, которая устоит при контакте со строительным графиком.</p>"
       }
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Which fasteners dominate a solar mounting bill of materials?"
+          },
+          "a": {
+            "en": "Foundation bolts and anchor assemblies, module clamps, rail-to-purlin fasteners, and structural bolts for torque-tube connections, mostly grade 8.8 with hot-dip galvanizing."
+          }
+        },
+        {
+          "q": {
+            "en": "Why does consistency matter more than variety?"
+          },
+          "a": {
+            "en": "The item count is small but volumes are large. Bolts from different production runs can differ in coating thickness and thread fit, which shows up as stripped nuts during installation."
+          }
+        },
+        {
+          "q": {
+            "en": "Should fasteners be shipped kitted per block?"
+          },
+          "a": {
+            "en": "Yes. Shipping in installation-block sequence with per-block kitting costs little at origin and avoids crew hours spent sorting mixed fasteners on site."
+          }
+        },
+        {
+          "q": {
+            "en": "What is the most useful inspection point?"
+          },
+          "a": {
+            "en": "Torque behaviour during the first installation block. It reveals coating, lubricity, and thread tolerance combinations that dimensional reports alone cannot catch."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -283,23 +332,5 @@
       "hi": "Request Quote"
     },
     "link": "/en/contact"
-  },
-  "faq": [
-    {
-      "q": "Which fasteners dominate a solar mounting bill of materials?",
-      "a": "Foundation bolts and anchor assemblies, module clamps, rail-to-purlin fasteners, and structural bolts for torque-tube connections, mostly grade 8.8 with hot-dip galvanizing."
-    },
-    {
-      "q": "Why does consistency matter more than variety?",
-      "a": "The item count is small but volumes are large. Bolts from different production runs can differ in coating thickness and thread fit, which shows up as stripped nuts during installation."
-    },
-    {
-      "q": "Should fasteners be shipped kitted per block?",
-      "a": "Yes. Shipping in installation-block sequence with per-block kitting costs little at origin and avoids crew hours spent sorting mixed fasteners on site."
-    },
-    {
-      "q": "What is the most useful inspection point?",
-      "a": "Torque behaviour during the first installation block. It reveals coating, lubricity, and thread tolerance combinations that dimensional reports alone cannot catch."
-    }
-  ]
+  }
 }

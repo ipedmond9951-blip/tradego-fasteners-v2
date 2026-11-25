@@ -277,9 +277,7 @@
             "ja": "海岸からの距離と暴露条件によります。1〜2km以内では304は通常5〜10年で腐食します。2〜5kmでは維持管理次第で10〜15年程度は持ちます。5km以遠の低湿地域なら一般に使用可能です。5km以内の重要構造物は最低316を指定してください。",
             "de": "It depends on proximity and exposure. Within 1-2km of the coast, 304 will corrode within 5-10 years. Between 2-5km, 304 may survive 10-15 years with maintenance. Beyond 5km in low-humidity areas, 304 is generally acceptable. For critical structures within 5km, specify 316 minimum.",
             "hi": "It depends on proximity and exposure. Within 1-2km of the coast, 304 will corrode within 5-10 years. Between 2-5km, 304 may survive 10-15 years with maintenance. Beyond 5km in low-humidity areas, 304 is generally acceptable. For critical structures within 5km, specify 316 minimum."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -305,9 +303,7 @@
             "ja": "Lは低炭素（上限0.03％、標準316は0.08％）を意味します。溶接時の炭化クロム析出による「溶接腐食（ウェルドディケイ）」を防ぎます。溶接する場合や溶接構造に使う締結部品は316Lを指定してください。",
             "de": "The 'L' indicates low carbon content (maximum 0.03% vs 0.08% for standard 316). This prevents chromium carbide precipitation during welding, which would otherwise cause 'weld decay' — a zone adjacent to welds that is depleted in chromium and susceptible to corrosion. Use 316L whenever the fasteners will be welded or are for use in welded assemblies.",
             "hi": "The 'L' indicates low carbon content (maximum 0.03% vs 0.08% for standard 316). This prevents chromium carbide precipitation during welding, which would otherwise cause 'weld decay' — a zone adjacent to welds that is depleted in chromium and susceptible to corrosion. Use 316L whenever the fasteners will be welded or are for use in welded assemblies."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -333,9 +329,7 @@
             "ja": "あります。二相ステンレス（2205など）は耐力が316の約2倍で耐塩化物性に優れ、コストは2〜3倍です。スーパー二相（2507）や904Lは極端な海洋・化学環境に使われます。アフリカの多くの案件では316がコストと性能のバランスに優れます。",
             "de": "Yes. Duplex stainless steel (e.g., 2205) offers roughly double the yield strength of 316 with superior chloride resistance, though at 2-3× the cost. Super-duplex (2507) and 904L are used in extremely aggressive marine and chemical environments. For most African applications, 316 provides the best balance of cost and performance.",
             "hi": "Yes. Duplex stainless steel (e.g., 2205) offers roughly double the yield strength of 316 with superior chloride resistance, though at 2-3× the cost. Super-duplex (2507) and 904L are used in extremely aggressive marine and chemical environments. For most African applications, 316 provides the best balance of cost and performance."
-          },
-          "question": {},
-          "answer": {}
+          }
         }
       ],
       "body": {

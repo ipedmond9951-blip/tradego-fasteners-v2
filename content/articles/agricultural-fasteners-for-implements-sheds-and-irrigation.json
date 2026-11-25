@@ -278,6 +278,63 @@
       },
       "type": "text",
       "id": "installation-maintenance-and-total-cost-control"
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What are agricultural fasteners used for?"
+          },
+          "a": {
+            "en": "Agricultural fasteners secure machinery components, shed frames, irrigation pipes, pumps, gates, greenhouse structures and storage equipment. Common products include hex bolts, nuts, washers, U-bolts, clamps and threaded rods selected according to load, vibration, moisture and corrosion conditions."
+          }
+        },
+        {
+          "q": {
+            "en": "Which coating is best for irrigation applications?"
+          },
+          "a": {
+            "en": "Hot-dip galvanized fasteners are a practical choice for many irrigation applications because they provide stronger corrosion protection than basic zinc plating. Stainless steel may be preferred in highly corrosive, coastal or fertilizer-exposed environments, provided compatible materials are used."
+          }
+        },
+        {
+          "q": {
+            "en": "What information should buyers provide when requesting a quote?"
+          },
+          "a": {
+            "en": "Provide product type, diameter, length, thread standard, material grade, coating, quantity, packaging, delivery location and application. Include drawings or photos for unusual parts. Confirm whether the order requires inspection reports, samples, certificates or mixed-size container loading."
+          }
+        },
+        {
+          "q": {
+            "en": "How can African distributors reduce fastener import costs?"
+          },
+          "a": {
+            "en": "Distributors can reduce landed cost by consolidating recurring demand, confirming HS classifications, comparing duty and tax exposure, optimizing carton sizes and selecting suitable Incoterms. Supplier audits and pre-shipment inspections also help prevent costly shortages, incorrect specifications and rejected deliveries."
+          }
+        },
+        {
+          "q": {
+            "en": "Are stainless steel fasteners always better for farm equipment?"
+          },
+          "a": {
+            "en": "Not always. Stainless steel offers excellent corrosion resistance but may cost more and may not provide the required strength for heavily loaded or highly vibrating joints. Carbon steel or galvanized high-strength fasteners can be more suitable when engineering requirements and environmental conditions are properly assessed."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -354,27 +411,5 @@
       "hi": "Request Quote"
     },
     "link": "/en/contact"
-  },
-  "faq": [
-    {
-      "q": "What are agricultural fasteners used for?",
-      "a": "Agricultural fasteners secure machinery components, shed frames, irrigation pipes, pumps, gates, greenhouse structures and storage equipment. Common products include hex bolts, nuts, washers, U-bolts, clamps and threaded rods selected according to load, vibration, moisture and corrosion conditions."
-    },
-    {
-      "q": "Which coating is best for irrigation applications?",
-      "a": "Hot-dip galvanized fasteners are a practical choice for many irrigation applications because they provide stronger corrosion protection than basic zinc plating. Stainless steel may be preferred in highly corrosive, coastal or fertilizer-exposed environments, provided compatible materials are used."
-    },
-    {
-      "q": "What information should buyers provide when requesting a quote?",
-      "a": "Provide product type, diameter, length, thread standard, material grade, coating, quantity, packaging, delivery location and application. Include drawings or photos for unusual parts. Confirm whether the order requires inspection reports, samples, certificates or mixed-size container loading."
-    },
-    {
-      "q": "How can African distributors reduce fastener import costs?",
-      "a": "Distributors can reduce landed cost by consolidating recurring demand, confirming HS classifications, comparing duty and tax exposure, optimizing carton sizes and selecting suitable Incoterms. Supplier audits and pre-shipment inspections also help prevent costly shortages, incorrect specifications and rejected deliveries."
-    },
-    {
-      "q": "Are stainless steel fasteners always better for farm equipment?",
-      "a": "Not always. Stainless steel offers excellent corrosion resistance but may cost more and may not provide the required strength for heavily loaded or highly vibrating joints. Carbon steel or galvanized high-strength fasteners can be more suitable when engineering requirements and environmental conditions are properly assessed."
-    }
-  ]
+  }
 }

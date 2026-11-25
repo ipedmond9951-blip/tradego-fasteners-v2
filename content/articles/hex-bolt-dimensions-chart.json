@@ -17,7 +17,7 @@
     "hi": "हेक्स बोल्ट आयाम चार्ट: मीट्रिक और इम्पीरियल आकार"
   },
   "description": {
-    "en": "Incorrect bolt dimensions are one of the top causes of fastener failure in construction and manufacturing.",
+    "en": "Incorrect bolt dimensions are one of the top causes of fastener failure in construction and manufacturing. Request a specification-matched quote from TradeGo.",
     "zh": "六角螺栓尺寸选型涵盖M6至M48公制及四分之一至两英寸英制规格。核对头部尺寸、螺纹长度与公差，按配套螺母、工具空间和项目图纸采购。",
     "es": "Consulte medidas métricas e imperiales de pernos hexagonales. Compare diámetro, longitud, rosca y especificaciones antes de comprar.",
     "ar": "جدول أبعاد البراغي السداسية بالمقاسات المترية والإمبراطورية، مع إرشادات لفهم القياسات واختيار البرغي المناسب.",
@@ -441,9 +441,7 @@
             "ja": "M12 is the nominal thread diameter (12mm). 1.75 is the thread pitch in millimeters (distance between adjacent threads). This is the standard coarse pitch for M12 bolts.",
             "de": "M12 is the nominal thread diameter (12mm). 1.75 is the thread pitch in millimeters (distance between adjacent threads). This is the standard coarse pitch for M12 bolts.",
             "hi": "M12 is the nominal thread diameter (12mm). 1.75 is the thread pitch in millimeters (distance between adjacent threads). This is the standard coarse pitch for M12 bolts."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -469,9 +467,7 @@
             "ja": "For hex bolts, measure from under the head to the end of the bolt. Do NOT include the head height. For countersunk bolts, measure total length including the head.",
             "de": "For hex bolts, measure from under the head to the end of the bolt. Do NOT include the head height. For countersunk bolts, measure total length including the head.",
             "hi": "For hex bolts, measure from under the head to the end of the bolt. Do NOT include the head height. For countersunk bolts, measure total length including the head."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -497,9 +493,7 @@
             "ja": "Not recommended. Close size matches (e.g., 13mm on 1/2\" bolt) risk rounding the head. Always use the correct wrench size per the bolt standard.",
             "de": "Not recommended. Close size matches (e.g., 13mm on 1/2\" bolt) risk rounding the head. Always use the correct wrench size per the bolt standard.",
             "hi": "Not recommended. Close size matches (e.g., 13mm on 1/2\" bolt) risk rounding the head. Always use the correct wrench size per the bolt standard."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -525,9 +519,7 @@
             "ja": "Minimum thread engagement = 1x bolt diameter for steel nuts, 1.5x diameter for aluminum, and 2x diameter for cast iron. Full engagement equals the nut height, which is typically 0.8x diameter.",
             "de": "Minimum thread engagement = 1x bolt diameter for steel nuts, 1.5x diameter for aluminum, and 2x diameter for cast iron. Full engagement equals the nut height, which is typically 0.8x diameter.",
             "hi": "Minimum thread engagement = 1x bolt diameter for steel nuts, 1.5x diameter for aluminum, and 2x diameter for cast iron. Full engagement equals the nut height, which is typically 0.8x diameter."
-          },
-          "question": {},
-          "answer": {}
+          }
         }
       ],
       "body": {
@@ -636,7 +628,7 @@
   ],
   "region": "global",
   "metaDescription": {
-    "en": "Incorrect bolt dimensions are one of the top causes of fastener failure in construction and manufacturing.",
+    "en": "Incorrect bolt dimensions are one of the top causes of fastener failure in construction and manufacturing. Request a specification-matched quote from TradeGo.",
     "zh": "完整六角螺栓尺寸表，涵盖M6-M48公制和1/4-2英寸英制尺寸。包括头部尺寸、螺纹长度和公差。",
     "es": "Hex Bolt Dimensions Chart: Complete Metric & Imper. Guía completa de Hex Bolt Dimensions Chart: Complete Metric & Imper - especificaciones, aplicaciones y selección de proveedores para exportación B2B a mercados africanos.",
     "ar": "جدول أبعاد البراغي السداسية: دليل المقاسات المترية والإمبراطورية. جدول أبعاد البراغي السداسية بالمقاسات المترية والإمبراطورية، مع إرشادات لفهم القياسات واختيار…",

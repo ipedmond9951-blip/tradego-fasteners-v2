@@ -268,6 +268,63 @@
       },
       "type": "text",
       "id": "optimizing-logistics-and-mitigating-risks-in-lome-port"
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What is the primary shipping document required for importing fasteners through Lome port?"
+          },
+          "a": {
+            "en": "Importers must provide an original Bill of Lading, a detailed commercial invoice, a packing list, and a validated Electronic Cargo Tracking Note known locally as the BESC or ECTN."
+          }
+        },
+        {
+          "q": {
+            "en": "Is a pre-shipment inspection mandatory for hardware shipments entering Togo?"
+          },
+          "a": {
+            "en": "Yes, designated inspection agencies like Cotecna execute mandatory pre-shipment checks on commercial goods to verify quality, quantity, and value against declared import documentation."
+          }
+        },
+        {
+          "q": {
+            "en": "How does Le Guichet Unique facilitate the Togo Lome port fastener import procedure?"
+          },
+          "a": {
+            "en": "Le Guichet Unique serves as Togo's single window trade portal, enabling importers to digitally submit customs declarations, manage electronic payments, and track clearance milestones online."
+          }
+        },
+        {
+          "q": {
+            "en": "What are the common financial charges applicable to fastener imports at Lome?"
+          },
+          "a": {
+            "en": "Fastener imports are subject to customs duties, value-added tax, statistical taxes, port handling fees, and container scanning charges calculated on the CIF value of the shipment."
+          }
+        },
+        {
+          "q": {
+            "en": "Can Lome port serve as a transit hub for fasteners destined for landlocked African countries?"
+          },
+          "a": {
+            "en": "Yes, Lome acts as a vital gateway for transit cargo heading to landlocked nations like Burkina Faso, Mali, and Niger, requiring specialized transit declarations and dual tracking notes."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -317,48 +374,6 @@
     },
     "link": "/en/contact"
   },
-  "faq": [
-    {
-      "q": {
-        "en": "What is the primary shipping document required for importing fasteners through Lome port?"
-      },
-      "a": {
-        "en": "Importers must provide an original Bill of Lading, a detailed commercial invoice, a packing list, and a validated Electronic Cargo Tracking Note known locally as the BESC or ECTN."
-      }
-    },
-    {
-      "q": {
-        "en": "Is a pre-shipment inspection mandatory for hardware shipments entering Togo?"
-      },
-      "a": {
-        "en": "Yes, designated inspection agencies like Cotecna execute mandatory pre-shipment checks on commercial goods to verify quality, quantity, and value against declared import documentation."
-      }
-    },
-    {
-      "q": {
-        "en": "How does Le Guichet Unique facilitate the Togo Lome port fastener import procedure?"
-      },
-      "a": {
-        "en": "Le Guichet Unique serves as Togo's single window trade portal, enabling importers to digitally submit customs declarations, manage electronic payments, and track clearance milestones online."
-      }
-    },
-    {
-      "q": {
-        "en": "What are the common financial charges applicable to fastener imports at Lome?"
-      },
-      "a": {
-        "en": "Fastener imports are subject to customs duties, value-added tax, statistical taxes, port handling fees, and container scanning charges calculated on the CIF value of the shipment."
-      }
-    },
-    {
-      "q": {
-        "en": "Can Lome port serve as a transit hub for fasteners destined for landlocked African countries?"
-      },
-      "a": {
-        "en": "Yes, Lome acts as a vital gateway for transit cargo heading to landlocked nations like Burkina Faso, Mali, and Niger, requiring specialized transit declarations and dual tracking notes."
-      }
-    }
-  ],
   "metaOptimized": {
     "date": "2026-11-22",
     "reason": "GSC high impressions low CTR",

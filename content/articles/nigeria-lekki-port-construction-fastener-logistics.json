@@ -268,6 +268,63 @@
       },
       "type": "text",
       "id": "partnering-with-a-reliable-b2b-fastener-export-manufacturer"
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Why should construction importers choose Nigeria Lekki port over Apapa?"
+          },
+          "a": {
+            "en": "Nigeria Lekki port offers deep-water berthing for larger vessels, automated customs scanning, and faster container turnaround times, eliminating severe congestion delays common at Apapa and Tin Can Island ports while providing direct access to the Lekki Free Zone [1.1.1, 1.1.2, 1.1.4]."
+          }
+        },
+        {
+          "q": {
+            "en": "Is SONCAP certification mandatory for importing construction fasteners into Nigeria?"
+          },
+          "a": {
+            "en": "Yes, the Standards Organisation of Nigeria requires a valid SONCAP Certificate for all regulated steel fasteners before customs clearance [1.2.1, 1.2.3]. Exporters must obtain a Product Certificate and undergo pre-shipment inspection to generate the mandatory Form M and PAAR [1.2.1, 1.2.3]."
+          }
+        },
+        {
+          "q": {
+            "en": "What corrosion protection is best for fasteners shipped to Lagos?"
+          },
+          "a": {
+            "en": "Hot-dip galvanized coatings meeting ASTM A153 or ISO 1461 standards, alongside Grade 316 stainless steel, provide optimal protection against the high coastal humidity, salt spray, and tropical rainfall prevalent around Lagos and the Lekki peninsula [5, 6]."
+          }
+        },
+        {
+          "q": {
+            "en": "How are heavy steel fasteners packaged to survive maritime transit to West Africa?"
+          },
+          "a": {
+            "en": "Export-grade fasteners are packed in reinforced 25kg cartons or heavy-duty woven bags lined with vapor corrosion inhibitor film, then shrink-wrapped onto fumigated ISPM-15 wooden pallets to prevent shifting, rust, and moisture ingress during ocean freight."
+          }
+        },
+        {
+          "q": {
+            "en": "What documents are required for smooth clearance at Lekki Deep Sea Port?"
+          },
+          "a": {
+            "en": "Importers need the Bill of Lading, Commercial Invoice, Packing List, Combined Certificate of Value and Origin, Form M, Pre-Arrival Assessment Report, SONCAP Certificate, and Mill Test Reports verifying mechanical properties and chemical composition [1.2.3]."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -316,27 +373,5 @@
       "hi": "Request Quote"
     },
     "link": "/en/contact"
-  },
-  "faq": [
-    {
-      "q": "Why should construction importers choose Nigeria Lekki port over Apapa?",
-      "a": "Nigeria Lekki port offers deep-water berthing for larger vessels, automated customs scanning, and faster container turnaround times, eliminating severe congestion delays common at Apapa and Tin Can Island ports while providing direct access to the Lekki Free Zone [1.1.1, 1.1.2, 1.1.4]."
-    },
-    {
-      "q": "Is SONCAP certification mandatory for importing construction fasteners into Nigeria?",
-      "a": "Yes, the Standards Organisation of Nigeria requires a valid SONCAP Certificate for all regulated steel fasteners before customs clearance [1.2.1, 1.2.3]. Exporters must obtain a Product Certificate and undergo pre-shipment inspection to generate the mandatory Form M and PAAR [1.2.1, 1.2.3]."
-    },
-    {
-      "q": "What corrosion protection is best for fasteners shipped to Lagos?",
-      "a": "Hot-dip galvanized coatings meeting ASTM A153 or ISO 1461 standards, alongside Grade 316 stainless steel, provide optimal protection against the high coastal humidity, salt spray, and tropical rainfall prevalent around Lagos and the Lekki peninsula [5, 6]."
-    },
-    {
-      "q": "How are heavy steel fasteners packaged to survive maritime transit to West Africa?",
-      "a": "Export-grade fasteners are packed in reinforced 25kg cartons or heavy-duty woven bags lined with vapor corrosion inhibitor film, then shrink-wrapped onto fumigated ISPM-15 wooden pallets to prevent shifting, rust, and moisture ingress during ocean freight."
-    },
-    {
-      "q": "What documents are required for smooth clearance at Lekki Deep Sea Port?",
-      "a": "Importers need the Bill of Lading, Commercial Invoice, Packing List, Combined Certificate of Value and Origin, Form M, Pre-Arrival Assessment Report, SONCAP Certificate, and Mill Test Reports verifying mechanical properties and chemical composition [1.2.3]."
-    }
-  ]
+  }
 }

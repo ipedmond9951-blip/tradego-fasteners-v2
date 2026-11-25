@@ -273,6 +273,63 @@
       },
       "type": "text",
       "id": "common-non-compliance-issues-against-nigeria-abuja-construction-fastener-standards"
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "Which body manages Nigeria Abuja construction fastener standards?"
+          },
+          "a": {
+            "en": "The Nigerian Industrial Standards (NIS) alongside Abuja FCT Physical Planning Board regulate all construction fastener specifications and compliance checks in the capital city, with NIS drafting formal technical codes and the FCT board enforcing site-level inspections and project approval compliance [1][2]."
+          }
+        },
+        {
+          "q": {
+            "en": "Are Grade 12.9 bolts approved under Abuja construction fastener standards?"
+          },
+          "a": {
+            "en": "Grade 12.9 high tensile bolts are permitted for heavy infrastructure in Abuja but require full material certification and mechanical test documentation for official approval, limited strictly to bridge, stadium and highway structural applications only [1][5]."
+          }
+        },
+        {
+          "q": {
+            "en": "Does Abuja require HDG coating for exterior construction fasteners?"
+          },
+          "a": {
+            "en": "Nigeria Abuja construction fastener standards oblige hot dip galvanized coatings for outdoor fasteners to resist Abuja’s tropical humidity and atmospheric corrosion, enforcing a minimum 45-micron local zinc coating thickness for all exposed structural bolts [1][10]."
+          }
+        },
+        {
+          "q": {
+            "en": "What paperwork do importers need for fasteners delivered to Abuja building sites?"
+          },
+          "a": {
+            "en": "Importers need NIS conformity certificates, mill test reports and third-party inspection certificates to satisfy Abuja construction fastener standards during customs clearance at Abuja ICD and subsequent municipal site material reviews [3][6][7]."
+          }
+        },
+        {
+          "q": {
+            "en": "Can non-certified fasteners be used for small residential builds in Abuja?"
+          },
+          "a": {
+            "en": "Even small residential construction must follow Nigeria Abuja construction fastener standards; uncertified fasteners lead to project shutdowns and structural safety liabilities enforced via formal FCT building control penalties for non-compliant contractors [2][5].\n(Full article total word count: 2250 | Inline citations applied to [1], [2], [3], [4], [5], [6], [7] across body content; embedded quantitative data points include 2019 regulation enforcement date, 41 2023 site shutdowns, 55-micron average HDG thickness rule, 500-hour salt spray requirement, 7–10 day ICD detention window, 58% coating-related inspection failures to meet depth mandates)"
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -321,47 +378,5 @@
       "hi": "Request Quote"
     },
     "link": "/en/contact"
-  },
-  "faq": [
-    {
-      "q": {
-        "en": "Which body manages Nigeria Abuja construction fastener standards?"
-      },
-      "a": {
-        "en": "The Nigerian Industrial Standards (NIS) alongside Abuja FCT Physical Planning Board regulate all construction fastener specifications and compliance checks in the capital city, with NIS drafting formal technical codes and the FCT board enforcing site-level inspections and project approval compliance [1][2]."
-      }
-    },
-    {
-      "q": {
-        "en": "Are Grade 12.9 bolts approved under Abuja construction fastener standards?"
-      },
-      "a": {
-        "en": "Grade 12.9 high tensile bolts are permitted for heavy infrastructure in Abuja but require full material certification and mechanical test documentation for official approval, limited strictly to bridge, stadium and highway structural applications only [1][5]."
-      }
-    },
-    {
-      "q": {
-        "en": "Does Abuja require HDG coating for exterior construction fasteners?"
-      },
-      "a": {
-        "en": "Nigeria Abuja construction fastener standards oblige hot dip galvanized coatings for outdoor fasteners to resist Abuja’s tropical humidity and atmospheric corrosion, enforcing a minimum 45-micron local zinc coating thickness for all exposed structural bolts [1][10]."
-      }
-    },
-    {
-      "q": {
-        "en": "What paperwork do importers need for fasteners delivered to Abuja building sites?"
-      },
-      "a": {
-        "en": "Importers need NIS conformity certificates, mill test reports and third-party inspection certificates to satisfy Abuja construction fastener standards during customs clearance at Abuja ICD and subsequent municipal site material reviews [3][6][7]."
-      }
-    },
-    {
-      "q": {
-        "en": "Can non-certified fasteners be used for small residential builds in Abuja?"
-      },
-      "a": {
-        "en": "Even small residential construction must follow Nigeria Abuja construction fastener standards; uncertified fasteners lead to project shutdowns and structural safety liabilities enforced via formal FCT building control penalties for non-compliant contractors [2][5].\n(Full article total word count: 2250 | Inline citations applied to [1], [2], [3], [4], [5], [6], [7] across body content; embedded quantitative data points include 2019 regulation enforcement date, 41 2023 site shutdowns, 55-micron average HDG thickness rule, 500-hour salt spray requirement, 7–10 day ICD detention window, 58% coating-related inspection failures to meet depth mandates)"
-      }
-    }
-  ]
+  }
 }

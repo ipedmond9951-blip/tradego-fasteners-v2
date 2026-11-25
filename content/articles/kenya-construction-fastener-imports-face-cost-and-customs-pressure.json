@@ -278,6 +278,63 @@
       },
       "type": "text",
       "id": "a-lower-risk-buying-plan-for-kenya-construction-fastener-imports"
+    },
+    {
+      "id": "faq",
+      "heading": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题解答",
+        "es": "Preguntas frecuentes",
+        "fr": "Questions fréquemment posées",
+        "pt": "Perguntas frequentes",
+        "ar": "الأسئلة الشائعة",
+        "ru": "Часто задаваемые вопросы",
+        "ja": "よくある質問",
+        "de": "Häufig gestellte Fragen",
+        "hi": "अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "faqItems": [
+        {
+          "q": {
+            "en": "What should Kenyan buyers compare when importing construction fasteners?"
+          },
+          "a": {
+            "en": "Compare the complete landed cost, not only the factory price. Review material grade, coating, dimensions, standards, MOQ, packaging, production lead time, freight, customs charges, inspection requirements, and inland delivery. A technically correct fastener with reliable documentation may cost less overall than a cheaper but risky shipment."
+          }
+        },
+        {
+          "q": {
+            "en": "Why can customs classification delay fastener imports into Kenya?"
+          },
+          "a": {
+            "en": "Fasteners may be classified differently according to product type, material, finish, and intended use. Inconsistent descriptions across invoices, packing lists, and customs entries can trigger valuation questions or inspection. Buyers should confirm HS classification and required documents with a qualified Kenyan customs broker before shipment."
+          }
+        },
+        {
+          "q": {
+            "en": "Which fastener documents should Kenyan construction importers request?"
+          },
+          "a": {
+            "en": "Request a commercial invoice, packing list, bill of lading, certificate of origin, product specification sheet, applicable test reports, coating or material certificates, and inspection records. For project work, also retain approved drawings, purchase specifications, batch traceability, and installation guidance so quality can be verified after delivery."
+          }
+        },
+        {
+          "q": {
+            "en": "Are galvanized fasteners suitable for Kenyan construction projects?"
+          },
+          "a": {
+            "en": "Galvanized fasteners are often suitable for general outdoor construction, roofing, steel fabrication, and solar structures, but suitability depends on exposure, coating thickness, design life, and compatibility with connected materials. Coastal or highly corrosive environments may require stainless steel or a project-specific protective system approved by the engineer."
+          }
+        },
+        {
+          "q": {
+            "en": "How can a manufacturer reduce Kenya fastener procurement risk?"
+          },
+          "a": {
+            "en": "A manufacturer can reduce risk through clear quotations, pre-production drawing review, controlled material grades, batch traceability, sample approval, pre-shipment inspection, export-ready documents, and planned delivery schedules. Mixed-container consolidation and staged shipments can also help buyers manage MOQ, warehouse capacity, cash flow, and project deadlines."
+          }
+        }
+      ]
     }
   ],
   "relatedProducts": [
@@ -346,27 +403,5 @@
       "hi": "Request Quote"
     },
     "link": "/en/contact"
-  },
-  "faq": [
-    {
-      "q": "What should Kenyan buyers compare when importing construction fasteners?",
-      "a": "Compare the complete landed cost, not only the factory price. Review material grade, coating, dimensions, standards, MOQ, packaging, production lead time, freight, customs charges, inspection requirements, and inland delivery. A technically correct fastener with reliable documentation may cost less overall than a cheaper but risky shipment."
-    },
-    {
-      "q": "Why can customs classification delay fastener imports into Kenya?",
-      "a": "Fasteners may be classified differently according to product type, material, finish, and intended use. Inconsistent descriptions across invoices, packing lists, and customs entries can trigger valuation questions or inspection. Buyers should confirm HS classification and required documents with a qualified Kenyan customs broker before shipment."
-    },
-    {
-      "q": "Which fastener documents should Kenyan construction importers request?",
-      "a": "Request a commercial invoice, packing list, bill of lading, certificate of origin, product specification sheet, applicable test reports, coating or material certificates, and inspection records. For project work, also retain approved drawings, purchase specifications, batch traceability, and installation guidance so quality can be verified after delivery."
-    },
-    {
-      "q": "Are galvanized fasteners suitable for Kenyan construction projects?",
-      "a": "Galvanized fasteners are often suitable for general outdoor construction, roofing, steel fabrication, and solar structures, but suitability depends on exposure, coating thickness, design life, and compatibility with connected materials. Coastal or highly corrosive environments may require stainless steel or a project-specific protective system approved by the engineer."
-    },
-    {
-      "q": "How can a manufacturer reduce Kenya fastener procurement risk?",
-      "a": "A manufacturer can reduce risk through clear quotations, pre-production drawing review, controlled material grades, batch traceability, sample approval, pre-shipment inspection, export-ready documents, and planned delivery schedules. Mixed-container consolidation and staged shipments can also help buyers manage MOQ, warehouse capacity, cash flow, and project deadlines."
-    }
-  ]
+  }
 }

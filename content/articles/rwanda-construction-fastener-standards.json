@@ -426,5 +426,31 @@
     "nigeria-abuja-construction-fastener-standards",
     "mozambique-lng-construction-fasteners-standards",
     "timber-construction-fasteners-africa"
+  ],
+  "faq": [
+    {
+      "q": "What are the main regulatory requirements for construction fasteners in Rwanda?",
+      "a": "Construction fasteners in Rwanda are regulated by the Rwanda Standards Board (RSB). All construction fasteners must comply with ISO standards or equivalent Rwandan national standards. The main reference is RSB/Z 001-2018, General technical requirements for metal fasteners in construction [1]. Imported fasteners also require an RSB product certification certificate and must comply with the Trade and Investment Facilitation Law."
+    },
+    {
+      "q": "What special requirements apply to bolt materials for H2S service?",
+      "a": "In H2S-containing environments, select materials resistant to sulfide stress cracking. ASTM A193 Grade B7 bolts are a common choice, made from quenched and tempered chromium-molybdenum alloy steel. For more severe service, ASTM A193 Grade B7M or stainless steel grades such as 304/316 are recommended. All materials must be supported by H2S compatibility test reports complying with NACE MR0175 [2]."
+    },
+    {
+      "q": "How should high-strength structural bolt grades be selected?",
+      "a": "High-strength structural bolts are classified under ISO 898-1 as grades 8.8, 10.9 and 12.9. Grade 8.8 suits general building structures; grade 10.9 is recommended for high-rise buildings and bridges; grade 12.9 is used for special heavy-load applications. Selection should consider design load, safety factor and connected plate thickness. Grade 10.9 bolts have a tensile strength of at least 1040 MPa and a yield strength of at least 940 MPa [3]."
+    },
+    {
+      "q": "How are HS codes and duties for construction fasteners set in Rwanda?",
+      "a": "Construction fasteners fall mainly under HS heading 7318. Sub-headings include ordinary steel bolts and nuts (7318.12), screws and studs (7318.14), washers (7318.21) and rivets (7318.23). Import duty ranges from 10% to 25% depending on product type and country of origin. Chinese products may qualify for preferential treatment under AGOA."
+    },
+    {
+      "q": "What special requirements apply to fasteners for oil and gas wellheads?",
+      "a": "Wellhead fasteners must comply with API 6A or API 6D. BX series ring gaskets are the critical sealing component and use the special alloy materials specified in API 6A Annex B. Flange bolts must be high-strength bolts meeting API 6A PSP requirements. Materials must pass stringent impact toughness testing, with a typical service temperature range of -29 °C to +121 °C. Where H2S partial pressure exceeds 0.05 psi, special corrosion-resistant alloys are required."
+    },
+    {
+      "q": "Which quality documents should be reviewed when purchasing construction fasteners?",
+      "a": "Documents to review include the material test certificate (MTC) showing chemical composition and mechanical properties; heat-treatment reports; hardness test reports; dimensional inspection reports; and certificates for surface treatment such as galvanizing or Dacromet. For API-licensed products, also require the API 6A certificate and design verification report. All documents should be traceable to a specific lot number and production date."
+    }
   ]
 }

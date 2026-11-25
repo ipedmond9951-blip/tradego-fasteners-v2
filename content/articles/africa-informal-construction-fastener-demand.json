@@ -42,7 +42,7 @@
     "de": "Wie informelle Bauaktivitaten die Nachfrage nach Befestigungsmitteln in Subsahara-Afrika antreiben, Schlusselvertriebskanale.",
     "hi": "अफ्रीका के अनौपचारिक निर्माण क्षेत्र की वृद्धि उप-सहारा अफ्रीका में फास्टनर की माँग को कैसे बढ़ाती है, जानें। प्रमुख वितरण माध्यमों और बाज़ार तक पहुँच की जानकारी पाएँ।"
   },
-  "keywords": "informal construction fasteners Africa, Sub-Saharan fastener market, hardware distribution Africa, construction fastener types",
+  "keywords": "informal construction fasteners Africa, Sub-Saharan fastener market, hardware distribution Africa, construction fastener types, fastener supplier China",
   "author": "TradeGo Research Team",
   "dataSource": [
     "https://www.worldbank.org/en/topic/urbandevelopment/brief/housing",
@@ -214,7 +214,7 @@
       },
       "faqItems": [
         {
-          "question": {
+          "q": {
             "en": "What fastener types are most in demand in Africa's informal construction sector?",
             "zh": "非洲非正规建筑行业需求最大的紧固件类型是什么？",
             "es": "Que tipos de sujetadores tienen mas demanda en el sector de construccion informal de Africa?",
@@ -226,7 +226,7 @@
             "de": "Welche Befestigungstypen sind im informellen Bausektor Afrikas am meisten nachgefragt?",
             "hi": "Africa ki informal construction sector mein sabse zyada maang wali fastener types kaun si hain?"
           },
-          "answer": {
+          "a": {
             "en": "Self-tapping screws for metal roofing (sizes 8-14 gauge, 25-75mm length) represent the single highest-volume fastener category in informal construction, followed by masonry anchors for concrete block walls, coach screws for timber connections, and hex bolts (M8-M16) for structural steel connections. Zinc-plated carbon steel products dominate due to their balance of corrosion resistance and cost, with China as the primary source country for economy-tier products. Coastal zone applications typically use stainless steel variants at 3-4x the price of zinc-plated equivalents.",
             "zh": "金属屋顶自钻螺丝（8-14号，25-75毫米）是非正规建筑中单一体积最高的紧固件类别，其次是混凝土砌块墙用的膨胀锚栓、木材连接用的板式螺钉以及结构钢连接用的六角螺栓（M8-M16）。镀锌碳钢产品因耐腐蚀性和成本的平衡而占主导地位，中国是非经济级产品的主要来源国。沿海地区应用通常使用不锈钢变体，价格是镀锌同类产品的3-4倍。",
             "es": "Los tornillos autorroscantes para techos metalicos (calibres 8-14, longitudes 25-75mm) representan la categoria de sujetadores de mayor volumen en la construccion informal, seguidos por anclajes de mamposteria, tornillos de coche y pernos hexagonales.",
@@ -237,12 +237,10 @@
             "ja": "金属屋根用の自穿孔ねじ（サイズ8-14ゲージ、25-75mm長さ）がインフォーマル建築で最大ボリュームのファスナーカテゴリ représent，然后在其中添加相应的本地化版本。",
             "de": "Selbstbohrende Schrauben fur Metalldacher (Grossen 8-14, Langen 25-75mm) vertreten die volumenstarkste Befestigungskategorie, gefolgt von Mauerwerksankern, Coachschrauben und Sechskantbolzen.",
             "hi": "Metal roofing ke liye self-tapping screws (sizes 8-14 gauge, 25-75mm length) informal construction mein sabse high-volume fastener category represent karte hain, fir masonry anchors for concrete block walls, coach screws for timber connections, aur hex bolts (M8-M16) for structural steel connections."
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "How do informal construction buyers purchase fasteners — individual units or bulk boxes?",
             "zh": "非正规建筑买家如何购买紧固件——单独购买还是整盒购买？",
             "es": "Como compran los compradores de construccion informal los sujetadores — unidades individuales o cajas al por mayor?",
@@ -254,7 +252,7 @@
             "de": "Wie kaufen informelle Bauherren Befestigungsmittel — einzelne Einheiten oder Grosspackungen?",
             "hi": "Informal construction buyers fasteners kaise purchase karte hain — individual units ya bulk boxes?"
           },
-          "answer": {
+          "a": {
             "en": "Purchasing behavior varies by product type and buyer scale. Small-scale builders typically buy individual units or small packs (10-50 units) from local hardware retailers at 2-3x the bulk box price. Larger informal builders and micro-contractors may purchase full boxes (100-1,000 units) to access bulk discounts, but still split purchases across multiple retailers to manage cash flow. Credit purchases from established retailers represent 25-40% of total transaction volume in mature markets like Nigeria and Ghana, where hardware shop owners extend 2-6 week credit terms to regular builder customers against anticipated project completion payments.",
             "zh": "购买行为因产品类型和买家规模而异。小型建筑商通常以批量盒子价格2-3倍从当地五金店购买单个或小包装（10-50个）。较大的非正规建筑商和微型承包商可能购买整盒（100-1,000个）以获得批量折扣，但仍分散到多个零售商购买以管理现金流。在尼日利亚和加纳等成熟市场，来自成熟零售商的信用购买占交易总量的25-40%，五金店主向常规建筑商客户提供2-6周信贷条款以应对预期项目完成付款。",
             "es": "El comportamiento de compra varia segun el tipo de producto y la escala del comprador. Los constructores de pequena escala compran tipicamente unidades individuales o pequenos paquetes (10-50 unidades) a precios 2-3x superiores.",
@@ -265,12 +263,10 @@
             "ja": "購入行動は製品タイプとバイヤースケールによって変わります。小規模建築家は通常、批量ボックス価格の2〜3倍で、個別のユニットまたは小さなパック（10〜50個）を購入します。",
             "de": "Das Kaufverhalten variiert je nach Produkttyp und Kaufermassstab. Kleine Bauherren kaufen typischerweise einzelne Einheiten oder kleine Packungen (10-50 Einheiten) zu 2-3-fachen Preisen.",
             "hi": "Purchasing behavior product type aur buyer scale se vary karti hai. Small-scale builders typically individual units ya small packs (10-50 units) purchase karte hain local hardware retailers se 2-3x bulk box price par."
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "What import duties apply to fasteners entering Sub-Saharan African markets?",
             "zh": "进入撒哈拉以南非洲市场的紧固件适用哪些进口关税？",
             "es": "Que derechos de importacion se aplican a los sujetadores que entran en los mercados del Africa subsahariana?",
@@ -282,7 +278,7 @@
             "de": "Welche Einfuhrzolle gelten fur Befestigungsmittel, die in Subsahara-Afrika-Markte eingehen?",
             "hi": "Sub-Saharan African markets mein enter karne wali fasteners par konsa import duty applicable hai?"
           },
-          "answer": {
+          "a": {
             "en": "Import duties on fasteners vary significantly by country and product category. Under the AfCFTA framework, certain fastener categories face Common External Tariffs of 25-35% when imported from non-African countries. However, fasteners sourced from other African Union member states under the AfCFTA rules of origin may qualify for reduced or zero tariffs. Countries like Kenya and Ghana have maintained lower applied tariffs (10-18%) on fastener imports to support construction sector competitiveness. South Africa's applied tariff on nuts and bolts is approximately 20% for most categories. Importers should verify current tariff rates with customs authorities in each target market, as applied rates may differ from statutory rates due to preferential trade agreements and duty exemption schemes for manufacturing inputs.",
             "zh": "紧固件进口关税因国家和产品类别而显著不同。根据AfCFTA框架，某些紧固件类别在从非非洲国家进口时面临25-35%的共同外部关税。但是，根据AfCFTA原产地规则从其他非洲联盟成员国采购的紧固件可能有资格获得降低或零关税。肯尼亚和加纳等国家维持较低的适用关税（10-18%）以支持建筑业竞争力。南非对螺母和螺栓的大多数类别的适用关税约为20%。进口商应在每个目标市场核实当前关税税率，因为由于优惠贸易协定和制造投入关税豁免计划，适用税率可能与法定税率不同。",
             "es": "Los derechos de importacion sobre los sujetadores varian significativamente segun el pais y la categoria de producto. Bajo el marco de AfCFTA, ciertas categorias de sujetadores enfrentan Tarifas Externas Comunes de 25-35%.",
@@ -293,12 +289,10 @@
             "ja": "ファスナーの輸入関税は国と製品カテゴリによって大きく異なります。AfCFTAフレームワークの下で、特定のファスナーカテゴリは非アフリカ諸国からの輸入時に25-35%の共通外部関税に直面します。",
             "de": "Die Einfuhrzolle fur Befestigungsmittel variieren je nach Land und Produktkategorie erheblich. Unter dem AfCFTA-Rahmen sehen bestimmte Befestigungskategorien Gemeinsame Aussenzolle von 25-35% vor.",
             "hi": "Import duties on fasteners significantly vary karti hain by country aur product category. AfCFTA framework ke under, certain fastener categories Common External Tariffs ka 25-35% face karte hain non-African countries se import karte waqt."
-          },
-          "q": {},
-          "a": {}
+          }
         },
         {
-          "question": {
+          "q": {
             "en": "How can fastener suppliers build effective distribution networks in informal construction markets?",
             "zh": "紧固件供应商如何在非正规建筑市场建立有效的分销网络？",
             "es": "Como pueden los proveedores de sujetadores construir redes de distribucion efectivas en mercados de construccion informal?",
@@ -310,7 +304,7 @@
             "de": "Wie konnen Befestigungsmittellieferanten effektive Vertriebsnetzwerke in informellen Baumarkten aufbauen?",
             "hi": "Fastener suppliers informal construction markets mein effective distribution networks kaise build kar sakte hain?"
           },
-          "answer": {
+          "a": {
             "en": "Effective distribution in informal construction markets requires three core capabilities. First, a network of small independent hardware retailers as primary channel partners, with credit terms and small-quantity delivery capability that matches the purchasing patterns of informal builders who buy in small quantities and frequently on credit. Second, working capital management systems that can support 25-40% of sales on credit terms without disrupting supplier inventory purchasing cycles. Third, product familiarity programs that train hardware shop staff on correct fastener selection for informal construction applications, creating demand pull for technically appropriate products rather than purely price-driven purchasing. The most successful fastener distributors in Africa operate as market development partners rather than passive order-takers, actively building retailer capability and customer demand in their assigned territories through technical training, inventory planning support, and credit facility management.",
             "zh": "在非正规建筑市场进行有效分销需要三个核心能力。首先，作为主要渠道合作伙伴的小型独立五金零售商网络，具有符合非正规建筑商小批量、经常赊购购买模式的信贷条款和小批量交付能力。其次，能够支持25-40%的信用条款销售而不中断供应商库存采购周期的营运资金管理系统。第三，产品熟悉度计划，培训五金店员工正确选择非正规建筑应用的紧固件，创造技术适当产品的需求拉动而非纯粹价格驱动的购买。非洲最成功的紧固件分销商作为市场开发合作伙伴而非被动订单接收者运营，通过技术培训、库存规划支持和信贷设施管理在其指定领地积极建设零售商能力和客户需求。",
             "es": "La distribucion efectiva en mercados de construccion informal requiere tres capacidades centrales: una red de pequenos minoristas de ferreteria independientes, sistemas de gestion de capital de trabajo y programas de familiarizacion con productos.",
@@ -321,9 +315,7 @@
             "ja": "インフォーマル建築市場での効果的な流通には、XNUMXつのコア能力が必要です：小さな独立したハードウェア零售店のネットワーク、運転資金管理システム、製品熟悉度プログラム。",
             "de": "Effektive Distribution in informellen Baumarkten erfordert drei Kernfahigkeiten: ein Netzwerk unabhängiger Klein-Einzelhändler, Working-Capital-Management-Systeme und Produktvertrautheitsprogramme.",
             "hi": "Effective distribution informal construction markets mein three core capabilities require karti hai: small independent hardware retailers ka network, working capital management systems, aur product familiarity programs."
-          },
-          "q": {},
-          "a": {}
+          }
         }
       ]
     }
@@ -396,5 +388,19 @@
     "ja": "サブサハラ・アフリカのインフォーマル建築がファスナー需要をどう促進するか、主な流通経路、製品タイプ、采购戦略。",
     "de": "Wie informelle Bauaktivitaten die Nachfrage nach Befestigungsmitteln in Subsahara-Afrika antreiben, Schlusselvertriebskanale.",
     "hi": "उप-सहारा अफ्रीका के गैर-शहरी क्षेत्रों में 75-80% निर्माण अनौपचारिक क्षेत्र में होता है। थोक खरीदारों के लिए बाजार के अवसर और सही फास्टनर आपूर्ति की पूरी जानकारी।"
-  }
+  },
+  "faq": [
+    {
+      "q": "Which markets are largest for informal construction fasteners?",
+      "a": "Nigeria is the largest single market, followed by the East African economies of Kenya, Tanzania and Uganda. Housing deficits, urbanisation rates and self-build traditions set the size of each market."
+    },
+    {
+      "q": "Which products dominate this channel?",
+      "a": "Roofing screws and nails, coach screws, hinges and general-purpose galvanised bolts sold in small retail packs. Price is set by the pack, not by the tonne, which changes how a supplier should build the offer."
+    },
+    {
+      "q": "How should a supplier approach informal construction demand?",
+      "a": "Sell through hardware wholesalers and local distributors in retail-ready packs, keep buffer stock close to the market, and protect consistent quality at a low unit price rather than pushing project-grade certification."
+    }
+  ]
 }

@@ -277,9 +277,7 @@
             "ja": "IBR（逆ボックスリブ）は台形リブで平坦部が狭くリブが強い断面、波板は正弦波で曲面が多くなります。太陽光設置ではL字金具はIBRの方が使いやすく（リブ上の平坦面に接触）、波板では曲面を挟む専用クランプが必要なことが多いです。水はけを理由に波板を選ぶ施工者もいますが、金具選定が正しければ双方使えます。",
             "de": "IBR (Inverted Box Rib) has a trapezoidal rib profile — the flat area is narrow and the rib creates a strong section. Corrugated has a sinusoidal wave profile with more curved surface area. For solar mounting, L-foot brackets work better on IBR (flat contact surface on the rib) while corrugated roofs often require specialized clamp brackets that grip the curved profile. Some installers prefer corrugated because the curved profile allows water to shed more easily, but both work well when the correct bracket type is used.",
             "hi": "IBR (Inverted Box Rib) has a trapezoidal rib profile — the flat area is narrow and the rib creates a strong section. Corrugated has a sinusoidal wave profile with more curved surface area. For solar mounting, L-foot brackets work better on IBR (flat contact surface on the rib) while corrugated roofs often require specialized clamp brackets that grip the curved profile. Some installers prefer corrugated because the curved profile allows water to shed more easily, but both work well when the correct bracket type is used."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -305,9 +303,7 @@
             "ja": "地上架台はアレイ当たり通常4〜8本のグランドスクリュー（土質と規模による）。標準的な4kW（約10枚）なら6〜8本です。屋根設置はレール方向に1.0〜1.5m間隔で固定点を設け、10枚なら8〜12点程度。風の揚力が大きい地域（アフリカ沿岸や露出した高原）では固定点を密にします。",
             "de": "For ground-mounted residential systems: typically 4-8 ground screws per array, depending on soil conditions and array size. A standard 4kW residential array (approximately 10 panels) might use 6-8 ground screws. For roof-mounted systems, attachment points are typically spaced at 1.0-1.5m intervals along the rails — a 10-panel array might have 8-12 roof attachment points. Wind uplift forces (higher in exposed African coastal and highland areas) will increase the required attachment density.",
             "hi": "For ground-mounted residential systems: typically 4-8 ground screws per array, depending on soil conditions and array size. A standard 4kW residential array (approximately 10 panels) might use 6-8 ground screws. For roof-mounted systems, attachment points are typically spaced at 1.0-1.5m intervals along the rails — a 10-panel array might have 8-12 roof attachment points. Wind uplift forces (higher in exposed African coastal and highland areas) will increase the required attachment density."
-          },
-          "question": {},
-          "answer": {}
+          }
         },
         {
           "q": {
@@ -333,9 +329,7 @@
             "ja": "湿潤環境で直接接触させるのは不可で、亜鉛めっきがより卑な金属として陽極となり腐食が加速します。実際にはHDG構造鋼に少量のステンレスボルト・クランプを使う例は多く、その場合はプラスチックワッシャーやナイロン絶縁で直接接触を避けます。長寿命が重要な設備では系全体を同一材料系に統一してください。",
             "de": "Galvanized steel and stainless steel should not be directly coupled in the presence of moisture — this creates a galvanic cell where the galvanized (more active) metal corrodes faster. In practice, small amounts of stainless-steel hardware (bolts, clamps) used with HDG structural steel is common, but the stainless components should be isolated from direct contact with the galvanized surface using plastic washers or nylon isolation. For critical long-life installations, standardize on one material system throughout.",
             "hi": "Galvanized steel and stainless steel should not be directly coupled in the presence of moisture — this creates a galvanic cell where the galvanized (more active) metal corrodes faster. In practice, small amounts of stainless-steel hardware (bolts, clamps) used with HDG structural steel is common, but the stainless components should be isolated from direct contact with the galvanized surface using plastic washers or nylon isolation. For critical long-life installations, standardize on one material system throughout."
-          },
-          "question": {},
-          "answer": {}
+          }
         }
       ],
       "body": {
