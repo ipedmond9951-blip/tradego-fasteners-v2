@@ -254,7 +254,7 @@
             "zh": "典型钢柱需要多大规格的地脚螺栓？"
           },
           "a": {
-            "en": "For a typical H-beam column (HEA 200-300) with base plate, M20 J-bolts (20mm diameter) set in 200×200mm base plates are standard for 2-3 story structures. For taller buildings or heavier loads, M24 or M30 bolts are used. Always have the structural engineer calculate based on actual loads and concrete compressive strength.",
+            "en": "For a typical H-beam column (HEA 200-300) with base plate, M20 J-bolts (20mm diameter) set in 200×200mm base plates are standard for 2-3 story structures. For taller buildings or heavier loads, M24 or M30 bolts are used. Always have the structural engineer calculate based on actual loads and concrete compressive strength. The anchorage depth, hook or anchor plate form, base-plate hole clearance, and washer arrangement must all be shown on the drawing; do not copy the diameter from a neighbouring project, nor replace an anchorage calculation with a larger bolt. On site, check embedment depth and concrete cover, and keep the bolt plumb during pouring. The specification should record diameter, embedment length, grade, finish, and the matched nut and washer set. For heavy columns or moment-resisting bases, use the engineer's calculated layout rather than the standard M20 assumption.",
             "zh": "典型 H 型钢柱（HEA 200-300）带底板时，2–3 层结构常用 M20 J 形螺栓（直径 20 mm），配 200×200 mm 底板；更高的建筑或更重的载荷，则改用 M24 或 M30 螺栓。具体规格必须由结构工程师按实际载荷和混凝土抗压强度计算确定。锚栓的埋入深度、弯钩或锚固板形式、底板孔径与垫圈布置也要在图纸上一并标明，不能仅凭柱截面直接照搬邻栋工程的规格，也不能用增大直径替代合格的锚固计算。"
           }
         },
@@ -264,7 +264,7 @@
             "zh": "地脚螺栓可以装在非洲的空心砌块墙里吗？"
           },
           "a": {
-            "en": "Standard expansion anchors do not work in hollow blocks — the expansion grip falls into the void. Use sleeve anchors designed for hollow masonry, or epoxy anchors with screen tubes (to fill the void) in solid grouted cells. For structural connections in blockwork, consider through-bolts where possible or special masonry anchor systems (Hilti Hul, Rawl-Spike).",
+            "en": "Standard expansion anchors do not work in hollow blocks — the expansion grip falls into the void. Use sleeve anchors designed for hollow masonry, or epoxy anchors with screen tubes (to fill the void) in solid grouted cells. For structural connections in blockwork, consider through-bolts where possible or special masonry anchor systems (Hilti Hul, Rawl-Spike). Before drilling, verify block strength, cell layout, and grouted cells; do not transfer a solid-concrete fixing onto a hollow wall. On site, inspect hole depth and cleanliness, place the grout or sleeve correctly, and let the adhesive cure to its stated time before loading the bolt. The selection sheet should record block type, anchor family, embedment depth, and test load; loose hollow cells and poor grout are the main failure modes, and an anchor gripping only the face shell pulls out under lateral load.",
             "zh": "普通膨胀锚栓不适合空心砌块：膨胀后的握裹力落进空腔就会失效。空心砌体应改用专门的套筒锚栓，或在灌实的砌块孔中使用带网孔套管的环氧锚栓，由胶凝材料与套管形成握裹。砌块墙内的结构连接，条件允许时优先采用穿对螺栓，或选用专用砌体锚栓体系（Hilti Hul、Rawl-Spike 一类）。施工前应核对砌块强度、孔洞布置与灌浆状态，不能把实心混凝土上的锚固方案直接照搬到空心墙体上。"
           }
         },
@@ -274,7 +274,7 @@
             "zh": "非洲沿海环境下如何规定地脚螺栓？"
           },
           "a": {
-            "en": "For coastal environments, hot-dip galvanized F1554 Grade 55 or 105 is the minimum specification. For severe marine exposure (within 500m of the ocean), specify 316 stainless steel anchors or duplex stainless anchors. All exposed portions (above concrete) must be protected. Always specify stainless steel washers and nuts as well.",
+            "en": "For coastal environments, hot-dip galvanized F1554 Grade 55 or 105 is the minimum specification. For severe marine exposure (within 500m of the ocean), specify 316 stainless steel anchors or duplex stainless anchors. All exposed portions (above concrete) must be protected, and stainless steel washers and nuts should be specified as well. When selecting, account for salt spray, wet-dry cycling, and chloride exposure, and have the engineer confirm the grade before it is written into drawings and inquiry. Do not upgrade only the bolt body to stainless while leaving nuts and washers in ordinary galvanized steel; the dissimilar pair will corrode at the joint. The order should record anchor diameter, grade, finish, and matching nut and washer material, and protect the protruding threads after concrete placement. Schedule periodic inspection of exposed anchor threads for red rust or section loss.",
             "zh": "沿海环境最低采用热浸镀锌的 F1554 Grade 55 或 105 锚栓。严重海洋暴露区域（距海 500 m 以内），应规定 316 不锈钢锚栓或双相不锈钢锚栓。混凝土以上外露的所有部分都必须得到保护，配套的垫圈和螺母同样要选用不锈钢件，不能只把螺栓本体升级为不锈钢而连接件仍用普通镀锌钢。选型时还要核对盐雾环境、干湿交替与氯化物影响，必要时由结构或材料工程师确认等级，再写入采购图纸与询价单。"
           }
         }
