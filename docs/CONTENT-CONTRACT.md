@@ -165,3 +165,6 @@ python3 scripts/content_gate.py --slug X # 单篇
 
 59. **「FAQ 100% 覆盖」只在 en 成立，别把它当成全站事实。** 统计：en 264/264 篇有 ≥3 条本地问答，zh 126 篇（47.7%），es 60、fr 61、pt 61、de 57、ru 58、ja 75、hi 53，ar 只有 28 篇（10.6%）。原因是 `industry/[slug]/page.tsx` 的 `nativeText()` 有意禁止 FAQ 回退英文（语言不匹配的 FAQPage 会被搜索忽略），所以非英语页在缺本地问答时**直接不输出 FAQPage**。设计是对的，后果是全站 9/10 的语言面上，约 78% 的文章页没有 FAQ 结构化数据。结论：「不再加 FAQ」这条决策的前提是错的，非英语 FAQ 本地化应单列，并按曝光排序做（先做有曝光的那批，不要平铺 264 × 8）。
 60. **审计脚本读线上 HTML 必须大小写不敏感。** React 输出的是 `hrefLang`（大写 L），我用 `hreflang="` 小写数，结果 11 条全判成 0，差点当成 hreflang 缺失去报障。同理：看到「非英语页少 2 个 JSON-LD」先按 `@type` 逐块比对，实际差异只有 `FAQPage` 一块（en 9 块、es/zh 8 块），不是 schema 整体缺失。规则：属性名大小写不敏感匹配；schema 差异按类型清单比，不按块数比。
+
+61. **正文内链根本没做，全站靠 `relatedArticles` 撑着。** 量出来：264 篇正文里指向其它文章的 href，出链中位数 **0**、最大值 1；内链全部来自 `relatedArticles`（平均 3.75 条/篇）。所以策略第 5 节批次 3「正文首次出现产品名处链产品页」这条从未落地，而「零入链 29 篇」按 relatedArticles 口径实际是 18 篇（口径不同，别互相当校验）。另一个坑：统计 href 必须兼容绝对域名与语言前缀（`https://www.tradego-fasteners.com/en/industry/x/`），我第一次只用 `href="/xx/industry/"`，出链全算成 0，差点得出「全站零内链」的错误结论。
+62. **`check-body-lang.py` 早已能抓「非英文正文里的整句英文」，但没进 fail-closed 链。** 实测 english 级 14 处、涉及 18 篇（`fastener-glossary-africa-procurement` 一节 es/fr/pt/de 四种语言各塞一段英文、`ghana-building-materials` pt 两节、`botswana-…` ar 两节…）。这些页在非英语语种上直接掉可信度，比缺词更伤 CTR。注意顺序：**先修完这 14 处再挂 `--strict`**，否则挂上的当天就把夜间推送卡死。
