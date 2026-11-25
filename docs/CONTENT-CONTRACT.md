@@ -82,3 +82,13 @@ python3 scripts/content_gate.py --slug X # 单篇
 技能文件在平台侧可能被还原，仓库内留了副本 `docs/skills/seo-ai-pipeline.SKILL.md`，恢复时直接覆盖回去即可。
 
 <!-- deploy trigger: FAQ 渲染修复上线 2026-11-25 -->
+
+## 部署后必做（2026-11-25 起）
+
+`git push` 只产生部署，不会自动切换生产域名。每次推送后：
+
+1. `bash scripts/vercel-promote.sh` 看最新 READY 部署与域名指向是否一致；
+2. `bash scripts/vercel-promote.sh --apply` 把域名指过去；
+3. 抽检一篇文章页，确认 `FAQPage` 与正文在位。
+
+日常兜底已并入 `~/AgentOps/bin/content_audit.sh`（每天 08:35），无需手动记得。

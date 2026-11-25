@@ -315,3 +315,20 @@ CANCELED 记录要 push 后十几秒才出现在 API 里，所以 `deploy-flush.
 ## 附：部署窗口（2026-11-25）
 
 `deploy-flush.sh` 在预算检查之后多一道窗口闸门 `scripts/deploy-window.sh`：只在 `09:00-11:00` 与 `17:00-19:00`（Asia/Shanghai）允许真构建，其余时间把提交攒在本地、exit 0；紧急上线用 `DEPLOY_WINDOW_FORCE=1`。窗口可用 `DEPLOY_WINDOWS="09:00-11:00,13:00-14:00"` 覆盖。与预算闸门串联后，单日最多 3 次构建且集中在两个窗口，避免和 OpenClaw 内容管线互相抢额度。
+
+## 域名别名：push 成功≠上线（2026-11-25 事故复盘）
+
+三个生产域名（`tradego-fasteners.com`、`www.tradego-fasteners.com`、`tradego-fasteners.vercel.app`）在 2026-07 被手工钉在 `dpl_77MMMsya` 上，之后所有 Git 部署只拿到 `tradego-fasteners-git-main-...` 别名。结果是：push 成功、构建 READY、线上内容几周不变。
+
+处置与固化：
+
+- `bash scripts/vercel-promote.sh`：比对「最新 READY 的 production 部署」与「域名当前指向」；
+- `bash scripts/vercel-promote.sh --apply`：把三个域名指向最新部署，并抽检文章页是否出现 `FAQPage`；
+- 每日 08:35 的 `~/AgentOps/bin/content_audit.sh` 已内嵌 promote + 抽检，抽不到 `FAQPage` 会弹桌面通知。
+
+自查命令：
+
+```bash
+curl -s "https://api.vercel.com/v4/aliases?limit=100" -H "Authorization: Bearer $TOKEN" | \
+  python3 -c "import json,sys;[print(a['alias'],a.get('deploymentId','')[:12]) for a in json.load(sys.stdin)['aliases'] if 'tradego' in a['alias']]"
+```

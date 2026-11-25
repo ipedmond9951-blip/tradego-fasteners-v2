@@ -182,3 +182,28 @@ python3 scripts/content_contract.py --baseline logs/content-contract-baseline.js
 2. 发现并修复一个真问题：文章页与 FAQPage schema 只读 `sections[].faqItems`，而 193 篇的 faqItems 用的是 `question/answer` 键名、`q/a` 为空，线上折叠区与结构化数据一直是**空白**；另有 28 篇把问答放在从不渲染的顶层 `faq`。已统一键名并迁移到 faqItems，另按内容新写 8 篇问答。
 3. `content_contract.py` 的 FAQ 检查同步改为读 faqItems，删掉从未被渲染的顶层 faq 检查。
 4. 新增 `scripts/faq_extract.py`（把正文里已成文的 Q/A 抽成结构化问答，只搬运不改写）与 `scripts/faq_migrate.py`（顶层 faq 迁移）。
+
+
+## 十二、FAQ 全量补齐与多语字段清理（2026-11-25 第四批）
+
+### 1. FAQ：59 篇 → 0
+- 59 篇缺 FAQ 的文章全部补写，每篇 3 条、每条答案 ≥80 字符，共写入约 180 条问答。
+- 内容按文章主题手写，不套模板：标准与等级、涂层选择、施工步骤、单证、航线与工期。
+- angola-lng 一文原有 5 条问答的 en 字段是中文（10 个语种全部复制同一段中文），已整篇重写为原生英文 + 原生中文。
+- 校验口径保持「读 `sections[].faqItems`」，写入用 `scripts/faq_add.py`（patch.json + `--apply`，按问句去重、补到 3 条）。
+
+### 2. 多语字段：80 条告警 → 0
+- `imageAlt` 缺语种 11 条、与英文同抄 29 条：逐条按原生语言重写（de/es/fr/pt/zh/ar/ru/ja/hi）。
+- `description` / `metaDescription` 被判定「像英文原文」31 条：重写为 es/fr/pt/de 原生文案，保留原文信息量，不缩写。
+- `title.ja` 与 `imageAlt.ja` 出现中文化日文 2 篇：改为带假名的日文标题。
+- 校验器要求：非 en 语种必须出现该语言虚词，否则判 `i18n-native`；出现连续英文词判 `i18n-mixed`。
+
+### 3. 部署：域名别名才是"上线"
+- 现象：push 后构建 READY，线上仍是旧内容；三个生产域名（`tradego-fasteners.com`、`www`、`.vercel.app`）被手工钉在旧部署 `dpl_77MMMsya` 上，只有 `git-main` 别名跟着新提交走。
+- 处置：`scripts/vercel-promote.sh`（`--apply` 把三个域名指到最新 READY 的 production 部署，并抽检 `FAQPage`）。
+- 固化：`~/AgentOps/bin/content_audit.sh` 每天在内容闸门之后自动跑 promote + 抽检，抽检不到 FAQPage 就弹通知。
+- 结论：本项目「上线」= push 触发构建 + promote 域名；只看 `git push` 成功会误判。
+
+### 4. 当前基线（2026-11-25 收盘）
+- 264 篇受校验文章：BLOCK 0 篇，完全干净 54 篇，WARN 210 篇。
+- WARN 只剩 `body-size` 317 条（英文正文 <1600 词 209 篇、中文 <700 汉字 108 篇），属于内容扩写计划，不再阻塞发布。

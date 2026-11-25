@@ -36,5 +36,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 配套：`python3 scripts/fix_content_contract.py {meta|extract|zh-strip|date|image} --dry-run` 先看命中，`--apply` 才落盘。commit 时 `.githooks/pre-commit` 还会再拦一次（`CONTENT_CONTRACT_SKIP=1` 可绕过，非必要不用）。
 
+4. **推送后**：`bash scripts/vercel-promote.sh --apply`。本项目的生产域名被手工钉在某个部署上，`git push` 只会更新 `git-main` 别名，**不 promote 就等于没上线**；promote 后脚本会自动抽检 `FAQPage`。
+
 判定口径与两种问题的处理见 `docs/CONTENT-CONTRACT.md`。
 <!-- END:content-contract -->
