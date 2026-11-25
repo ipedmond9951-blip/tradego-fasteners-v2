@@ -363,3 +363,11 @@ GEO 和 SEO 的差别在于：SEO 求「被爬到、被排上」，GEO 求「被
 - **认证体检**：`check-claims.py` 的 CERT 正则只认 `TradeGo … certified` 这种顺序，抓不到 `Certificado ISO 9001` / `ISO認証取得` 这类倒装。新增 `scripts/check-cert-claims.py`：先用"认证词 + 标准号"扫全库得 **3755 条**（全是主题词噪音），改成 **11 语种"自称持有"句式模板 + 允许写法白名单**（按订单/as requested/按标准生产/aligned）后降到 **38 条**，其中句子主语是 `TradeGo` 的只有 **2 条**，真需改 1 条（`offering ISO 898-1 certified concrete screws` → `produced to ISO 898-1 mechanical property requirements`）。
 - **标题与内容错配也是一种合规风险**：`china-iso-9001-fastener-manufacturer-directory` 标题承诺"名录"，正文其实是选购指南、没有名录，且标题暗示"已通过 ISO 9001 的厂商"；改成 `China Fastener Quality Systems: ISO 9001 Guide 2026`（51 字符），既贴内容又不越认证红线。
 - **口径**：认证类表述只允许两种写法——"按 SABS 1195 / DIN / ISO 生产"或"证书按订单要求提供"；产品级不得写 `certified`。
+
+### 句级去重：段落去重之后还剩 4500 句重复
+
+- `dedupe-body.py` 只删「整块 `<p>` 纯文本完全相同」的段落，模板文的另一种形态是**同一句换个段落再抄一遍**（典型是每节末尾都挂同一组 "supplier evaluation should be a continuous process…"、"standards-based procurement requires continuous learning…"）。实测全库 **4500 句级重复 / 198 篇**，单篇最多 128 处。
+- 新增 `scripts/dedupe-sentences.py`：**只在文本节点内切句**（`<[^>]+>` 与文本交替切分，标签一律不碰），同篇同语种里第二次及以后出现的整句删掉，句子 ≥40 字符，删完整节纯文本 <300 字符则整节跳过。落盘 2956 处 / 124 篇。
+- 三个坑：① `SENT` 若用 `(?<=[.!?])\s+` 会把句子间的空白一起吃掉，删句后变成 `suppliers.This article` 粘连，必须用**前瞻 `(?=\s)`** 只切不吞；② 句子删掉会留下空 `<p></p>`，要再跑一遍「空块清理」（`<(p|div|section)[^>]*>(?:\s|<br\s*/?>)*</\1>`）；③ 批量去重会让 `body-size` WARN 上涨——脚本加**词数回退护栏**（原本 ≥1600 词的英文正文删到 1600 以下就整篇跳过），否则"去重"变成"制造薄页"。
+- **并发下的提交纪律**：改完先做「只删不加」校验（新文本里每个句子都能在 HEAD 文本里找到），筛出**纯删除**的 93 篇单独提交；另外 31 篇同时有别的线在写，留给对方提交，不去抢。
+- 效果：`check-geo-readiness` 均分 86.0→**86.9**、85 分以上 196→**199** 篇、`dup` 缺口 144→**134**；`content_gate` BLOCK 仍为 **0**，没有一篇因去重掉到门槛以下。
