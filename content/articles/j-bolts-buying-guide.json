@@ -237,26 +237,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "How do I set the embedment length of a J bolt?"
+            "en": "How do I set the embedment length of a J bolt?",
+            "zh": "J 型螺栓的埋深怎么定？"
           },
           "a": {
-            "en": "Embedment is set by the structural design, usually several times the bolt diameter, and the total length equals embedment plus fixture thickness plus thread and hook allowance. Order by total length and stated embedment, not by an overall size alone."
+            "en": "Embedment is set by the structural design, usually several times the bolt diameter, and the total length equals embedment plus fixture thickness plus thread and hook allowance. Order by total length and stated embedment, not by an overall size alone.",
+            "zh": "埋深由结构设计确定，通常为螺栓直径的数倍；螺栓总长等于埋深加上被固定件厚度，再加螺纹段和弯钩预留量。下单时要同时注明总长和埋深，不能只报一个整体尺寸。"
           }
         },
         {
           "q": {
-            "en": "What hook radius and bending quality should I expect?"
+            "en": "What hook radius and bending quality should I expect?",
+            "zh": "弯钩半径和弯曲质量有什么要求？"
           },
           "a": {
-            "en": "The hook is bent cold to a radius of roughly two and a half to three times the bolt diameter, and the bend should show no cracks or thinning. A crack at the bend is the failure point in service, so ask for a bend inspection record."
+            "en": "The hook is bent cold to a radius of roughly two and a half to three times the bolt diameter, and the bend should show no cracks or thinning. A crack at the bend is the failure point in service, so ask for a bend inspection record.",
+            "zh": "弯钩为冷弯成形，半径约为螺栓直径的 2.5 至 3 倍；弯曲处不得出现裂纹或壁厚减薄。弯曲处裂纹是使用中的失效点，应索取弯曲检验记录。"
           }
         },
         {
           "q": {
-            "en": "Which grade and coating for outdoor fence and pole work?"
+            "en": "Which grade and coating for outdoor fence and pole work?",
+            "zh": "户外围栏和立柱选什么等级与镀层？"
           },
           "a": {
-            "en": "ASTM A307 or ISO 898-1 class 4.6 and 4.8 cover most general work, with higher grades only where the design demands them. Hot-dip galvanising to ISO 1461 suits exposed and coastal sites, and the coating must survive the bend."
+            "en": "ASTM A307 or ISO 898-1 class 4.6 and 4.8 cover most general work, with higher grades only where the design demands them. Hot-dip galvanising to ISO 1461 suits exposed and coastal sites, and the coating must survive the bend.",
+            "zh": "一般场合采用 ASTM A307 或 ISO 898-1 的 4.6、4.8 级，设计有更高要求时才选更高等级。外露及沿海场地按 ISO 1461 做热浸镀锌（HDG），镀层在弯曲后仍应保持完整。"
           }
         }
       ]
