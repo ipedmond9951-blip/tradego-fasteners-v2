@@ -161,3 +161,15 @@
 1. 新增文章禁止摘要级本地化——`content_gate.py` 增补"本地正文 < 英文 55%"即 BLOCK。
 2. 存量按市场优先级逐篇扩写，优先 zh/ja（中文买家与日本买家是可转化受众），其次 pt/fr（非洲葡语区/法语区）。
 3. 扩写前不要删摘要，避免出现空小节。
+
+## 认证表述合规清理（2026-11-26）
+
+口径：TradeGo 目前**没有** ISO 9001 / CE / SABS 认证，任何"我方已认证"的说法都要改成"按标准制造 + 随批 EN 10204 3.1 材质证明 + 可按需安排第三方验货"；"客户/供应商须持有某认证"这类对外要求不在清理范围。
+
+`scripts/fix-cert-claims.py`（默认报告，`--apply` 落盘）本轮改了 **85 处 / 30 余篇**：
+- CTA 模板：`ISO/EN/ASTM certified` → `built to ISO, EN and ASTM standards, with batch-level mill test certificates`（八语种同步）
+- `DIN, GB, and SABS certified products` → 按尺寸标准制造 + 材质证明
+- 供应商页描述里的 `SABS认证产品` / `INNOQ认证支持` / `加纳标准局认证产品` → "可按 X 要求供货，随批提供检验文件"
+- `author.credentials` 归一到岗位描述（**151 篇**）：`ISO 9001 Certified Export Specialist`、`ISO 9001 Lead Auditor`、`CSCP`、`FIATA Diploma` 这类查不到实证的头衔全部换成"fastener sourcing / quality-documentation specialist"等中性表述。
+
+留待下一轮：正文里仍有少量"供应商须持 ISO 9001"的正常叙述（属要求，不是声称），以及 `china-iso-9001-fastener-manufacturer-directory` 这类"名录"文的行业科普表述。

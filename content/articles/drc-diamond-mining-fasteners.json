@@ -140,34 +140,42 @@
       "faqItems": [
         {
           "q": {
-            "en": "What are the import duties for fasteners in DRC?"
+            "en": "What are the import duties for fasteners in DRC?",
+            "zh": "刚果民主共和国的紧固件进口关税是多少？"
           },
           "a": {
-            "en": "Import duties on fasteners in the DRC typically range from 10-20% depending on material and product type. The DRC uses the CEMAC (Economic Community of Central African States) common external tariff. Our invoices include detailed HS code classifications for customs purposes."
+            "en": "Import duties on fasteners in the DRC typically range from 10-20% depending on material and product type. The DRC uses the CEMAC (Economic Community of Central African States) common external tariff. Our invoices include detailed HS code classifications for customs purposes.",
+            "zh": "刚果民主共和国的紧固件进口关税通常在 10-20% 之间，具体取决于材质和产品类型。该国采用中非经济共同体（CEMAC）共同对外关税。我们的发票会附上详细的 HS 编码，便于海关清关。"
           }
         },
         {
           "q": {
-            "en": "How long does shipping from China to Lubumbashi take?"
+            "en": "How long does shipping from China to Lubumbashi take?",
+            "zh": "从中国海运到卢本巴希需要多长时间？"
           },
           "a": {
-            "en": "Sea freight to Durban takes 25-30 days, then 14-18 days by road to Lubumbashi. Total lead time is typically 50-60 days from order confirmation. We recommend ordering 10-12 weeks ahead of project requirements."
+            "en": "Sea freight to Durban takes 25-30 days, then 14-18 days by road to Lubumbashi. Total lead time is typically 50-60 days from order confirmation. We recommend ordering 10-12 weeks ahead of project requirements.",
+            "zh": "海运到德班约需 25-30 天，再经公路转运至卢本巴希需 14-18 天。从订单确认到到货全程通常为 50-60 天。建议在项目需求前 10-12 周下单。"
           }
         },
         {
           "q": {
-            "en": "Do your fasteners meet international mining standards?"
+            "en": "Do your fasteners meet international mining standards?",
+            "zh": "贵司紧固件是否符合国际矿业标准？"
           },
           "a": {
-            "en": "Yes. We supply fasteners meeting ISO, DIN, ASTM, and GB standards. Products can be accompanied by mill test certificates, mechanical property reports, and coating thickness verification for mining company procurement requirements."
+            "en": "Yes. We supply fasteners meeting ISO, DIN, ASTM, and GB standards. Products can be accompanied by mill test certificates, mechanical property reports, and coating thickness verification for mining company procurement requirements.",
+            "zh": "符合。我们可提供符合 ISO、DIN、ASTM、GB 标准的紧固件，并可附带材质单、力学性能报告和镀层厚度检测报告，以满足矿业公司的采购要求。"
           }
         },
         {
           "q": {
-            "en": "Can you handle orders for remote mining locations?"
+            "en": "Can you handle orders for remote mining locations?",
+            "zh": "能否将货送到偏远矿区？"
           },
           "a": {
-            "en": "Yes. We coordinate with freight forwarders experienced in DRC logistics for delivery to remote mining sites in Katanga, Kasai, and other provinces. Additional transport costs apply for remote locations."
+            "en": "Yes. We coordinate with freight forwarders experienced in DRC logistics for delivery to remote mining sites in Katanga, Kasai, and other provinces. Additional transport costs apply for remote locations.",
+            "zh": "可以。我们与熟悉刚果民主共和国物流的货代合作，可将货物送达加丹加、开赛等省份的偏远矿区。偏远地区将产生额外运费。"
           }
         },
         {
@@ -295,7 +303,7 @@
     "name": "Industry Expert",
     "title": "B2B Export Specialist",
     "bio": "Experienced professional in fastener industry with expertise in African markets and international trade.",
-    "credentials": "ISO 9001 Certified Export Specialist",
+    "credentials": "Fastener export and quality-documentation specialist (B2B, Africa)",
     "linkedin": "https://www.linkedin.com/in/industry-expert",
     "expertise": [
       "Fastener Manufacturing",
