@@ -278,6 +278,7 @@ bash scripts/vercel-audit.sh           # 第 9–13 项必须绿
 | 2026-11-25 | 品牌实体一致性收口：正文/CTA 的 185 处 `Tradego`/`Tradego-Fasteners`/`TradeGoFasteners` 统一为 `TradeGo` / `TradeGo Fasteners`，URL 域名不动（`59d8301c`、`c054d4e2`、`d688a388`）。实测是 185 处 / 7 篇，不是原先记的 148 处 | B |
 | 2026-11-25 | 认证口径加一道体检：新增 `scripts/check-cert-claims.py`（11 语种「自称持有」句式 + 允许写法白名单，38 条命中里仅 2 条主语为本公司），修 rwanda 篇产品级 `ISO 898-1 certified` → `produced to ISO 898-1`（`05c99ecc`） | B |
 | 2026-11-25 | `china-iso-9001-fastener-manufacturer-directory` 已按本文件决定改题：`China Fastener Quality Systems: ISO 9001 Guide 2026`（51 字符），不再以"ISO 9001 名录"为卖点（`05c99ecc`） | B |
+| 2026-11-25 | 句级去重 2956 处 / 124 篇（`105eda38`）：段落去重后再清「同句换段抄一遍」，A 线脚本 `scripts/dedupe-sentences.py`；`dup` 缺口 144→134、结构均分 86.0→86.9 | A |
 
 ## 11. 执行记录（批次 1 首批，2026-11-25）
 
