@@ -211,31 +211,37 @@
         {
           "q": {
             "en": "Which ASTM F1554 grade should a Zimbabwe project specify?",
-            "zh": "津巴布韦项目选哪个 ASTM F1554 等级？"
+            "zh": "津巴布韦项目选哪个 ASTM F1554 等级？",
+            "hi": "ज़िमाबाब्वे परियोजना को ASTM F1554 कौन-सा ग्रेड निर्दिष्ट करना चाहिए?"
           },
           "a": {
             "en": "Grade 36 for general anchoring, grade 55 where higher strength is needed, and grade 105 only for heavily loaded or compact connections. Grade 105 also brings weldability and embrittlement constraints.",
-            "zh": "一般锚固用 36 级；需要更高强度用 55 级；105 级只用于重载或紧凑连接，且在可焊性和脆性方面有额外限制。"
+            "zh": "一般锚固用 36 级；需要更高强度用 55 级；105 级只用于重载或紧凑连接，且在可焊性和脆性方面有额外限制。",
+            "hi": "सामान्य ऐंकरिंग के लिए ग्रेड 36, अधिक ताकत की जगहों पर ग्रेड 55, और केवल भारी भार या कॉम्पैक्ट कनेक्शन में ग्रेड 105 लगता है। ग्रेड 105 में वेल्डेबिलिटी और भंगुरता की सीमाएं भी आती हैं।"
           }
         },
         {
           "q": {
             "en": "What corrosion protection for anchor bolts in Zimbabwe?",
-            "zh": "津巴布韦锚栓用什么防腐处理？"
+            "zh": "津巴布韦锚栓用什么防腐处理？",
+            "hi": "ज़िमाबाब्वे में ऐंकर बोल्ट का जंग-रोधन कैसे हो?"
           },
           "a": {
             "en": "Hot-dip galvanising to ISO 1461 for most exposed foundations, and stainless or a duplex system for aggressive ground or coastal conditions. Coating must be applied before the bolt is bent or threaded.",
-            "zh": "多数外露基础按 ISO 1461 做热浸镀锌（HDG）；腐蚀性强的土壤或沿海条件用不锈钢或双重防腐体系。涂层须在螺栓弯曲或套丝之前完成。"
+            "zh": "多数外露基础按 ISO 1461 做热浸镀锌（HDG）；腐蚀性强的土壤或沿海条件用不锈钢或双重防腐体系。涂层须在螺栓弯曲或套丝之前完成。",
+            "hi": "ज़्यादातर खुले फाउंडेशन के लिए ISO 1461 के अनुसार हॉट-डिप गैल्वनाइज़िंग; आक्रामक मिट्टी या तटीय स्थितियों में स्टेनलेस या डुप्लेक्स सिस्टम। कोटिंग बोल्ट को मोड़ने या धागा काटने से पहले लगानी चाहिए।"
           }
         },
         {
           "q": {
             "en": "What should an anchor bolt RFQ contain?",
-            "zh": "锚栓询价单要包含哪些内容？"
+            "zh": "锚栓询价单要包含哪些内容？",
+            "hi": "ऐंकर बोल्ट RFQ में क्या-क्या होना चाहिए?"
           },
           "a": {
             "en": "Grade and standard, diameter and total length, thread length, bend or hook geometry, coating specification, test certificates required, packing and delivery port. A quote without these cannot be compared.",
-            "zh": "等级与标准、直径与总长度、螺纹长度、弯钩或弯折几何、涂层规格、所需测试证书、包装和交货港口。缺这些字段，各家报价无法横向比较。"
+            "zh": "等级与标准、直径与总长度、螺纹长度、弯钩或弯折几何、涂层规格、所需测试证书、包装和交货港口。缺这些字段，各家报价无法横向比较。",
+            "hi": "ग्रेड और मानक, व्यास और कुल लंबाई, धागे की लंबाई, मोड़ या हुक की ज्यामिति, कोटिंग स्पेसिफिकेशन, आवश्यक टेस्ट सर्टिफिकेट, पैकिंग और डिलीवरी बंदरगाह। इनके बिना दी गई कोट्स की तुलना नहीं की जा सकती।"
           }
         }
       ]
