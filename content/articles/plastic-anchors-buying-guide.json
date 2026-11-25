@@ -237,26 +237,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "How do I match a plastic plug to the drill and screw?"
+            "en": "How do I match a plastic plug to the drill and screw?",
+            "zh": "塑料膨胀管怎么配钻头和螺钉？"
           },
           "a": {
-            "en": "The plug's outside diameter equals the drill diameter, and the screw gauge follows the plug's size table rather than the other way round. Buying a plug and a screw separately is the usual cause of a fixing that spins or splits the wall."
+            "en": "The plug's outside diameter equals the drill diameter, and the screw gauge follows the plug's size table rather than the other way round. Buying a plug and a screw separately is the usual cause of a fixing that spins or splits the wall.",
+            "zh": "膨胀管外径等于钻头直径，螺钉规格按膨胀管的尺寸表选配，而不是反过来。膨胀管和螺钉分开乱买，是固定件打转或撑裂墙面最常见的原因。"
           }
         },
         {
           "q": {
-            "en": "PA6 or PP - which material?"
+            "en": "PA6 or PP - which material?",
+            "zh": "PA6 和 PP 选哪种材料？"
           },
           "a": {
-            "en": "PA6 is tougher and handles load and temperature better, so it suits concrete and block. PP is cheaper and adequate for light loads in drywall and panels, but it deforms more easily under sustained load."
+            "en": "PA6 is tougher and handles load and temperature better, so it suits concrete and block. PP is cheaper and adequate for light loads in drywall and panels, but it deforms more easily under sustained load.",
+            "zh": "PA6 韧性更好，承重和耐温表现更佳，适合混凝土和砌块；PP 价格更低，用于石膏板、面板等轻载场合足够，但长期受力下更容易变形。"
           }
         },
         {
           "q": {
-            "en": "Can plastic plugs be used in hollow block?"
+            "en": "Can plastic plugs be used in hollow block?",
+            "zh": "空心砌块里能用塑料膨胀管吗？"
           },
           "a": {
-            "en": "Only with plugs designed for hollow substrates, which expand into a larger contact area. Standard plugs in hollow block or thin panel develop very little load, and heavy fixings there need a different anchor type altogether."
+            "en": "Only with plugs designed for hollow substrates, which expand into a larger contact area. Standard plugs in hollow block or thin panel develop very little load, and heavy fixings there need a different anchor type altogether.",
+            "zh": "只能用专为空心基材设计的膨胀管，撑开后形成更大接触面积。普通膨胀管用在空心砌块或薄板里承载力很低，重型固定需要改用其它类型锚栓。"
           }
         }
       ]
