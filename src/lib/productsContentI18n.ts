@@ -22,7 +22,7 @@ When selecting anchor bolts for foundation work, ensure the bolt grade matches y
     qualityTitle: 'Quality Assurance & Certifications',
     qualityText: `Every batch of TradeGo fasteners undergoes rigorous quality control before shipment. We provide Mill Test Certificates (MTC) and SGS inspection reports with each order, certifying material composition, tensile strength, and dimensional accuracy.
 
-Our manufacturing facilities are third-party inspected (SGS/BV) on request, and our products meet relevant African standards including SABS (South Africa), SSA/BS (Zimbabwe), and KEBS (Kenya). For projects requiring specific grade bolts, we can provide third-party testing certificates from Bureau Veritas or Intertek.
+Our products are made to SABS 1195 / DIN / ISO dimensions and third-party inspection (SGS/BV) can be arranged; we also work to African standards including SABS (South Africa), SSA/BS (Zimbabwe), and KEBS (Kenya). For projects requiring specific grade bolts, we can provide third-party testing certificates from Bureau Veritas or Intertek.
 
 Common quality issues to avoid: bolts with irregular thread spacing (indicates worn threading dies), rust spots appearing within weeks of installation (poor galvanization), and inconsistent head dimensions (sign of substandard manufacturing).`,
     shippingTitle: 'Shipping to Africa',
@@ -70,7 +70,7 @@ En anclajes de cimentación, el grado debe corresponder a la carga: 8.8 para ser
     qualityTitle: 'Calidad y certificaciones',
     qualityText: `Cada lote pasa por control dimensional, de par, de dureza y niebla salina antes del embarque; entregamos MTC e informes SGS con cada pedido.
 
-Nuestra planta está certificada ISO 9001:2015 y cumple normas africanas como SABS (Sudáfrica), SSA/BS (Zimbabue) y KEBS (Kenia); a pedido enviamos certificados de terceros de Bureau Veritas o Intertek.
+Nuestra planta produce según SABS 1195 / DIN / ISO y cumple normas africanas como SABS (Sudáfrica), SSA/BS (Zimbabue) y KEBS (Kenia); a pedido enviamos certificados de terceros de Bureau Veritas o Intertek.
 
 Señales de alerta: paso de rosca irregular (machos desgastados), óxido en pocas semanas (galvanizado deficiente) y cabezas fuera de tolerancia (fabricación por debajo de norma).`,
     shippingTitle: 'Envío a África',
@@ -94,7 +94,7 @@ Pour les ancrages de fondation, la classe doit correspondre à la charge : 8.8 p
     qualityTitle: 'Qualité et certifications',
     qualityText: `Chaque lot est contrôlé (dimensions, couple, dureté, brouillard salin) avant expédition ; nous fournissons MTC et rapports SGS avec chaque commande.
 
-Notre usine est certifiée ISO 9001:2015 et nos produits respectent les normes africaines SABS (Afrique du Sud), SSA/BS (Zimbabwe) et KEBS (Kenya) ; des certificats tiers Bureau Veritas ou Intertek sont disponibles sur demande.
+Notre usine produit selon SABS 1195 / DIN / ISO et nos produits respectent les normes africaines SABS (Afrique du Sud), SSA/BS (Zimbabwe) et KEBS (Kenya) ; des certificats tiers Bureau Veritas ou Intertek sont disponibles sur demande.
 
 Signaux d’alerte : pas de vis irrégulier (filières usées), rouille en quelques semaines (galvanisation insuffisante) et têtes hors tolérance (fabrication dégradée).`,
     shippingTitle: 'Expédition vers l’Afrique',
@@ -118,7 +118,7 @@ Em chumbadores de fundação, a classe deve corresponder à carga: 8.8 para serv
     qualityTitle: 'Qualidade e certificações',
     qualityText: `Cada lote passa por controle dimensional, de torque, de dureza e névoa salina antes do embarque; fornecemos MTC e relatórios SGS com cada pedido.
 
-A fábrica é certificada ISO 9001:2015 e atende normas africanas como SABS (África do Sul), SSA/BS (Zimbábue) e KEBS (Quênia); certificados de terceiros Bureau Veritas ou Intertek sob consulta.
+A fábrica produz conforme SABS 1195 / DIN / ISO e atende normas africanas como SABS (África do Sul), SSA/BS (Zimbábue) e KEBS (Quênia); certificados de terceiros Bureau Veritas ou Intertek sob consulta.
 
 Sinais de alerta: passo de rosca irregular (cossinetes gastos), ferrugem em poucas semanas (galvanização deficiente) e cabeças fora de tolerância (fabricação abaixo da norma).`,
     shippingTitle: 'Envio para a África',
@@ -142,7 +142,7 @@ Embalagem para a logística africana: sacos internos impermeáveis, caixas refor
     qualityTitle: 'الجودة والاعتمادات',
     qualityText: `كل دفعة تخضع لفحص الأبعاد وعزم الربط والصلادة ورش الضباب الملحي قبل الشحن؛ ونقدم شهادة MTC وتقارير SGS مع كل طلب.
 
-المصنع معتمد ISO 9001:2015 ومنتجاتنا تلبي المعايير الأفريقية SABS (جنوب أفريقيا) وSSA/BS (زيمبابوي) وKEBS (كينيا)، مع إمكانية شهادات طرف ثالث من Bureau Veritas أو Intertek.
+المصنع ينتج وفق SABS 1195 / DIN / ISO ومنتجاتنا تلبي المعايير الأفريقية SABS (جنوب أفريقيا) وSSA/BS (زيمبابوي) وKEBS (كينيا)، مع إمكانية شهادات طرف ثالث من Bureau Veritas أو Intertek.
 
 علامات تحذيرية: خطوة لولبة غير منتظمة (أدوات قص متآكلة)، صدأ خلال أسابيع (جلفنة ضعيفة)، ورؤوس خارج التفاوت (تصنيع دون المستوى).`,
     shippingTitle: 'الشحن إلى أفريقيا',
@@ -190,7 +190,7 @@ Bei Fundamentankern muss die Festigkeitsklasse zur Last passen: 8.8 für mittler
     qualityTitle: 'Qualität und Zertifizierungen',
     qualityText: `Jede Charge wird vor Versand auf Maße, Drehmoment, Härte und Salzsprühnebel geprüft; zu jeder Bestellung liefern wir MTC und SGS-Berichte.
 
-Unser Werk ist nach ISO 9001:2015 zertifiziert, die Produkte erfüllen afrikanische Normen wie SABS (Südafrika), SSA/BS (Simbabwe) und KEBS (Kenia); Fremdprüfungen von Bureau Veritas oder Intertek auf Wunsch.
+Unser Werk fertigt nach SABS 1195 / DIN / ISO, die Produkte erfüllen afrikanische Normen wie SABS (Südafrika), SSA/BS (Simbabwe) und KEBS (Kenia); Fremdprüfungen von Bureau Veritas oder Intertek auf Wunsch.
 
 Warnzeichen: unregelmäßige Gewindesteigung (verschlissene Werkzeuge), Rost nach Wochen (schwache Verzinkung), Kopffehlmaße (minderwertige Fertigung).`,
     shippingTitle: 'Versand nach Afrika',
@@ -214,7 +214,7 @@ Verpackung für afrikanische Logistik: wasserdichte Innensäcke, eckenverstärkt
     qualityTitle: '品質保証と認証',
     qualityText: `出荷前に全ロットで寸法・締付トルク・硬さ・塩水噴霧試験を実施し、各注文に MTC と SGS 検査報告書を添付します。
 
-工場は ISO 9001:2015 認証を取得し、SABS（南アフリカ）、SSA/BS（ジンバブエ）、KEBS（ケニア）などのアフリカ規格に適合しています。必要に応じ Bureau Veritas や Intertek の第三者証明も発行します。
+工場は SABS 1195 / DIN / ISO 規格で製造し、SABS（南アフリカ）、SSA/BS（ジンバブエ）、KEBS（ケニア）などのアフリカ規格に適合しています。必要に応じ Bureau Veritas や Intertek の第三者証明も発行します。
 
 要注意事例：ねじピッチの不揃い（転造工具の摩耗）、数週間での錆（めっき不良）、頭部寸法のばらつき（製造品質の不足）。`,
     shippingTitle: 'アフリカへの輸送',
@@ -238,7 +238,7 @@ Verpackung für afrikanische Logistik: wasserdichte Innensäcke, eckenverstärkt
     qualityTitle: 'गुणवत्ता और प्रमाणन',
     qualityText: `शिपमेंट से पहले हर बैच की आयाम, टॉर्क, कठोरता और साल्ट-स्प्रे जाँच होती है; हर ऑर्डर के साथ MTC और SGS रिपोर्ट देते हैं।
 
-हमारा प्लांट ISO 9001:2015 प्रमाणित है और उत्पाद SABS (दक्षिण अफ्रीका), SSA/BS (ज़िम्बाब्वे) और KEBS (कीनिया) मानकों के अनुरूप हैं; अनुरोध पर Bureau Veritas या Intertek के थर्ड-पार्टी प्रमाणपत्र।
+हमारा प्लांट SABS 1195 / DIN / ISO मानक पर उत्पादन करता है और उत्पाद SABS (दक्षिण अफ्रीका), SSA/BS (ज़िम्बाब्वे) और KEBS (कीनिया) मानकों के अनुरूप हैं; अनुरोध पर Bureau Veritas या Intertek के थर्ड-पार्टी प्रमाणपत्र।
 
 चेतावनी संकेत: अनियमित थ्रेड पिच (घिसे डाई), कुछ हफ्तों में जंग (कमजोर गैल्वनाइज़िंग), और सिर के आयाम में अंतर (घटिया निर्माण)।`,
     shippingTitle: 'अफ्रीका को शिपिंग',

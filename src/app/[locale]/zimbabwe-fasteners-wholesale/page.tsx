@@ -113,7 +113,7 @@ export default async function ZimbabweFastenersPage({ params }: { params: Promis
             </details>
             <details className="bg-white rounded p-4 shadow">
               <summary className="font-semibold cursor-pointer">Do you have made to SABS 1195 spec products?</summary>
-              <p className="mt-2 text-gray-600">Yes, we have made to SABS 1195 spec fasteners available for South African and Zimbabwean market requirements. Contact us for SABS certification documentation and test reports.</p>
+              <p className="mt-2 text-gray-600">Yes, we have fasteners made to SABS 1195 spec available for South African and Zimbabwean market requirements. Contact us for SABS certification documentation and test reports.</p>
             </details>
             <details className="bg-white rounded p-4 shadow">
               <summary className="font-semibold cursor-pointer">What payment methods do you accept?</summary>

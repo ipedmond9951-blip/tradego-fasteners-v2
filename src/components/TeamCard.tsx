@@ -24,7 +24,7 @@ export default function TeamCard({ locale = 'en' }: TeamCardProps) {
             <div className="flex flex-wrap gap-x-3 gap-y-1 text-[11px] md:text-sm text-gray-400">
               <span className="inline-flex items-center gap-1">🏢 Founded: 2004</span>
               <span className="text-gray-300">·</span>
-              <span className="inline-flex items-center gap-1">✅ ISO 9001:2015 Certified</span>
+              <span className="inline-flex items-center gap-1">✅ SABS 1195 / DIN / ISO specs</span>
               <span className="text-gray-300">·</span>
               <span className="inline-flex items-center gap-1">👥 150+ Employees</span>
             </div>

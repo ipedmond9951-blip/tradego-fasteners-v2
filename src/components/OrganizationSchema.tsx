@@ -39,14 +39,6 @@ export default function OrganizationSchema({ locale = 'en' }: OrganizationSchema
     address: {
       '@type': 'PostalAddress',
       addressCountry: 'CN',
-      addressRegion: 'Shandong',
-      addressLocality: 'Weifang',
-      streetAddress: 'China',
-    },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: '36.7069',
-      longitude: '119.1618',
     },
     contactPoint: {
       '@type': 'ContactPoint',

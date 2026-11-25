@@ -43,7 +43,7 @@ export const statistics: Record<string, Block> = {
   },
   fr: {
     title: 'Pourquoi TradeGo ?',
-    sub: 'Les chiffres parlent : usine certifiée ISO 9001 et SABS, 20 ans dédiés à l’Afrique',
+    sub: 'Les chiffres parlent : production selon SABS 1195 / DIN / ISO, 20 ans dédiés à l’Afrique',
     stats: [
       { value: '20+', label: 'Ans d’expérience', sublabel: 'Focalisés sur l’Afrique depuis 2004' },
       { value: '500+', label: 'Clients internationaux', sublabel: 'Dans plus de 20 pays africains' },
@@ -67,7 +67,7 @@ export const statistics: Record<string, Block> = {
   },
   ar: {
     title: 'لماذا TradeGo؟',
-    sub: 'الأرقام تثبت الجودة — مصنع معتمد ISO 9001 وSABS، و20 عاماً من التركيز على أفريقيا',
+    sub: 'الأرقام تثبت الجودة — مصنع ينتج وفق SABS 1195 / DIN / ISO، و20 عاماً من التركيز على أفريقيا',
     stats: [
       { value: '20+', label: 'عاماً من الخبرة', sublabel: 'في أفريقيا منذ 2004' },
       { value: '500+', label: 'عميل حول العالم', sublabel: 'في أكثر من 20 دولة أفريقية' },
@@ -91,7 +91,7 @@ export const statistics: Record<string, Block> = {
   },
   ja: {
     title: 'TradeGo を選ぶ理由',
-    sub: '数字が品質を証明 — ISO 9001・SABS 認証工場、アフリカ市場に20年の実績',
+    sub: '数字が品質を証明 — SABS 1195 / DIN / ISO 規格で製造、アフリカ市場に20年の実績',
     stats: [
       { value: '20+', label: '業界経験年数', sublabel: '2004年からアフリカ市場に注力' },
       { value: '500+', label: 'グローバル顧客', sublabel: 'アフリカ20カ国以上' },
@@ -103,7 +103,7 @@ export const statistics: Record<string, Block> = {
   },
   de: {
     title: 'Warum TradeGo?',
-    sub: 'Zahlen belegen Qualität — ISO 9001- und SABS-zertifizierte Fabrik, 20 Jahre Afrikafokus',
+    sub: 'Zahlen belegen Qualität — gefertigt nach SABS 1195 / DIN / ISO, 20 Jahre Afrikafokus',
     stats: [
       { value: '20+', label: 'Jahre Erfahrung', sublabel: 'Afrika-Fokus seit 2004' },
       { value: '500+', label: 'Kunden weltweit', sublabel: 'In über 20 afrikanischen Ländern' },
@@ -115,7 +115,7 @@ export const statistics: Record<string, Block> = {
   },
   hi: {
     title: 'TradeGo क्यों?',
-    sub: 'आँकड़े गुणवत्ता साबित करते हैं — ISO 9001 और SABS प्रमाणित फैक्ट्री, 20 वर्ष अफ्रीका केंद्रित',
+    sub: 'आँकड़े गुणवत्ता साबित करते हैं — SABS 1195 / DIN / ISO मानक पर उत्पादन फैक्ट्री, 20 वर्ष अफ्रीका केंद्रित',
     stats: [
       { value: '20+', label: 'वर्षों का अनुभव', sublabel: '2004 से अफ्रीका पर केंद्रित' },
       { value: '500+', label: 'वैश्विक ग्राहक', sublabel: '20+ अफ्रीकी देशों में' },

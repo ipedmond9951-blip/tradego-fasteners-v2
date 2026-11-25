@@ -33,15 +33,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   }
   const descriptions: Record<string, string> = {
     en: 'Wholesale 304/316 stainless hex bolts, Grade 8.8/10.9 structural bolts, drywall/TEK screws, lock nuts, IBR nails. SGS/BV inspection on request. Ships to Africa.',
-    zh: '批发304/316不锈钢螺栓、8.8/10.9级结构螺栓、干墙/自钻螺丝、锁紧螺母、IBR钉。可按订单申请 ISO 9001 认证。',
+    zh: '批发304/316不锈钢螺栓、8.8/10.9级结构螺栓、干墙/自钻螺丝、锁紧螺母、IBR钉。按 SABS 1195 / DIN / ISO 规格生产。',
     es: 'Mayorista de pernos inox 304/316, pernos estructurales 8.8/10.9, tornillos para pladur y TEK, tuercas de bloqueo y clavos IBR. Certificado ISO 9001. Envíos a África.',
     fr: 'Grossiste en boulons inox 304/316, boulons de structure 8.8/10.9, vis à plaque de plâtre et TEK, écrous de blocage et clous IBR. Certifié ISO 9001. Expéditions vers l’Afrique.',
     pt: 'Atacado de parafusos inox 304/316, parafusos estruturais 8.8/10.9, parafusos para gesso e TEK, porcas de travamento e pregos IBR. Certificado ISO 9001. Envios para a África.',
-    ar: 'بيع بالجملة لبراغي الستانلس 304/316 والبراغي الإنشائية 8.8/10.9 وبراغي الجبس وTEK وصواميل القفل ومسامير IBR. معتمد ISO 9001. شحن إلى أفريقيا.',
-    ru: 'Оптовая продажа болтов из нержавеющей стали 304/316, конструкционных болтов 8.8/10.9, саморезов для ГКЛ и TEK, стопорных гаек и гвоздей IBR. Сертификат ISO 9001. Отгрузка в Африку.',
-    ja: 'ステンレス304/316ボルト、構造用8.8/10.9ボルト、石膏ボードねじ・TEKねじ、ロックナット、IBR釘の卸売。ISO 9001認証。アフリカへ出荷。',
-    de: 'Großhandel mit Edelstahlschrauben 304/316, Konstruktionsschrauben 8.8/10.9, Trockenbau- und TEK-Schrauben, Sicherungsmuttern und IBR-Nägeln. ISO 9001 zertifiziert. Versand nach Afrika.',
-    hi: 'स्टेनलेस 304/316 बोल्ट, स्ट्रक्चरल 8.8/10.9 बोल्ट, ड्राईवॉल/TEK स्क्रू, लॉक नट और IBR नेल का थोक। ISO 9001 प्रमाणित। अफ्रीका तक शिपिंग।',
+    ar: 'بيع بالجملة لبراغي الستانلس 304/316 والبراغي الإنشائية 8.8/10.9 وبراغي الجبس وTEK وصواميل القفل ومسامير IBR. وفق SABS 1195 / DIN / ISO. شحن إلى أفريقيا.',
+    ru: 'Оптовая продажа болтов из нержавеющей стали 304/316, конструкционных болтов 8.8/10.9, саморезов для ГКЛ и TEK, стопорных гаек и гвоздей IBR. По SABS 1195 / DIN / ISO. Отгрузка в Африку.',
+    ja: 'ステンレス304/316ボルト、構造用8.8/10.9ボルト、石膏ボードねじ・TEKねじ、ロックナット、IBR釘の卸売。SABS 1195 / DIN / ISO 規格で製造。アフリカへ出荷。',
+    de: 'Großhandel mit Edelstahlschrauben 304/316, Konstruktionsschrauben 8.8/10.9, Trockenbau- und TEK-Schrauben, Sicherungsmuttern und IBR-Nägeln. Gefertigt nach SABS 1195 / DIN / ISO. Versand nach Afrika.',
+    hi: 'स्टेनलेस 304/316 बोल्ट, स्ट्रक्चरल 8.8/10.9 बोल्ट, ड्राईवॉल/TEK स्क्रू, लॉक नट और IBR नेल का थोक। ISO 9001 (ऑर्डर पर)। अफ्रीका तक शिपिंग।',
   }
   
   return {

@@ -14,8 +14,8 @@ const knowledgeBase: Record<string, string[]> = {
 
 const responses: Record<string, Record<string, string>> = {
   products: {
-    en: 'We manufacture drywall screws, self-drilling screws, bolts, nuts, and IBR nails. All products are SGS/BV inspection on request. Would you like a quote for a specific product?',
-    zh: '我们生产干壁钉、自钻螺丝、螺栓、螺母和IBR钉。所有产品均通过可按订单申请 ISO 9001 认证。您需要哪种产品的报价？',
+    en: 'We manufacture drywall screws, self-drilling screws, bolts, nuts, and IBR nails. All products are made to DIN / ISO / SABS 1195 specs; SGS/BV inspection on request. Would you like a quote for a specific product?',
+    zh: '我们生产干壁钉、自钻螺丝、螺栓、螺母和IBR钉。产品按 SABS 1195 / DIN / ISO 规格生产。您需要哪种产品的报价？',
   },
   moq: {
     en: 'Our minimum order quantity varies by product. For standard items, MOQ is typically 100kg or 10,000 pieces. Custom orders may require higher MOQ. What products are you interested in?',
@@ -30,16 +30,16 @@ const responses: Record<string, Record<string, string>> = {
     zh: '联系方式：\n📧 aimingtrade@hotmail.com\n📞 +86-135-6265-9951 / +86-159-6340-9951\n💬 WhatsApp: +86-159-6340-9951\n我们会在24小时内回复！',
   },
   company: {
-    en: 'TradeGo Fasteners has 20+ years of Africa-focused experience. We\'re Made to SABS 1195 / DIN / ISO and SGS tested. Based in Weifang, China, serving 20+ African countries with sea freight to Durban, Lagos, Mombasa.',
-    zh: 'TradeGo Fasteners拥有20年非洲专注经验。通过SABS和ISO 9001（可按订单申请）及SGS检测。位于中国中国，海运至德班、拉各斯、蒙巴萨等服务20多个非洲国家。',
+    en: 'TradeGo Fasteners has 20+ years of Africa-focused experience. Products are made to SABS 1195 / DIN / ISO dimensions, with SGS testing on request. Based in China, serving 20+ African countries with sea freight to Durban, Lagos, Mombasa.',
+    zh: 'TradeGo Fasteners拥有20年非洲专注经验。产品按 SABS 1195 / DIN / ISO 尺寸标准生产，可按订单申请 ISO 9001 与 SABS 认证，并可安排 SGS 检测。位于中国，海运至德班、拉各斯、蒙巴萨等服务20多个非洲国家。',
   },
   price: {
     en: 'Our prices are competitive for wholesale quantities. Prices vary by material, coating, and order size. Please tell us what products and quantities you need for an accurate quote.',
     zh: '我们的批发价格具有竞争力。价格因材质、涂层和订单量而异。请告诉我们您需要的产品和数量，以便提供准确报价。',
   },
   certification: {
-    en: 'We are third-party inspected (SGS/BV) on request and products are SGS tested. We comply with DIN, ANSI, JIS, and GB standards.',
-    zh: '我们通过ISO 9001（可按订单申请），产品经过SGS检测。符合DIN、ANSI、JIS和GB标准。',
+    en: 'Products are made to DIN, ANSI, JIS, GB and SABS 1195 dimensions; third-party inspection (SGS/BV) can be arranged on request; ISO 9001 and SABS approvals can be applied for against your order.',
+    zh: '产品按 DIN、ANSI、JIS、GB 与 SABS 1195 尺寸标准生产；SGS/BV 第三方检测可按订单安排；ISO 9001 与 SABS 认证可按订单申请办理。',
   },
 };
 

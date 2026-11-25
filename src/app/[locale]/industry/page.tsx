@@ -30,9 +30,9 @@ const descriptions: Record<string, string> = {
   pt: 'Guias práticos sobre classes de parafusos, revestimentos, desembaraço portuário e compra de fixadores da China para a África. Fornecedor com ISO 9001 e SABS documentados.',
   ar: 'أدلة عملية حول درجات البراغي والطلاءات والتخليص الجمركي في الموانئ وشراء المثبتات من الصين إلى أفريقيا. مورّد موثّق بشهادتي ISO 9001 وSABS.',
   ru: 'Практические руководства по классам прочности болтов, покрытиям, таможенному оформлению в портах и закупке крепежа из Китая в Африку. Поставщик с ISO 9001 и SABS.',
-  ja: 'ボルトの強度区分、表面処理、港での通関、中国からアフリカへの締結部品調達の実務ガイド。ISO 9001・SABS 取得工場。',
-  de: 'Praxisratgeber zu Festigkeitsklassen, Beschichtungen, Hafenabfertigung und Beschaffung von Verbindungselementen aus China nach Afrika. ISO-9001- und SABS-zertifizierter Lieferant.',
-  hi: 'बोल्ट ग्रेड, कोटिंग, बंदरगाह क्लीयरेंस और चीन से अफ्रीका तक फास्टनर खरीद पर व्यावहारिक गाइड। ISO 9001 और SABS प्रमाणित आपूर्तिकर्ता।',
+  ja: 'ボルトの強度区分、表面処理、港での通関、中国からアフリカへの締結部品調達の実務ガイド。SABS 1195 / DIN / ISO 規格で製造する工場。',
+  de: 'Praxisratgeber zu Festigkeitsklassen, Beschichtungen, Hafenabfertigung und Beschaffung von Verbindungselementen aus China nach Afrika. Lieferant, der nach SABS 1195 / DIN / ISO fertigt.',
+  hi: 'बोल्ट ग्रेड, कोटिंग, बंदरगाह क्लीयरेंस और चीन से अफ्रीका तक फास्टनर खरीद पर व्यावहारिक गाइड। SABS 1195 / DIN / ISO मानक पर उत्पादन आपूर्तिकर्ता।',
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {

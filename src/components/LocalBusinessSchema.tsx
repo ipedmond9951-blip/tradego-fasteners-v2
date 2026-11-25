@@ -20,14 +20,6 @@ export default function LocalBusinessSchema({}: LocalBusinessSchemaProps) {
     address: {
       '@type': 'PostalAddress',
       addressCountry: 'CN',
-      addressRegion: 'Shandong',
-      addressLocality: 'Weifang',
-      streetAddress: 'China',
-    },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: 36.7069,
-      longitude: 119.1618,
     },
     telephone: '+86-159-6340-9951',
     whatsapp: '+8615963409951',

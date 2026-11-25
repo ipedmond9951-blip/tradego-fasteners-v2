@@ -72,15 +72,15 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   const label = (key: string) => pick(uiLabels[key], locale)
   const sidebarNote = {
     en: 'SGS/BV inspection on request factory, FOB Qingdao / Tianjin. Sample orders and mixed containers accepted.',
-    zh: '通过 可按订单申请 ISO 9001 认证工厂，FOB 青岛 / 天津。接受样品单与混柜装载。',
+    zh: '按 SABS 1195 / DIN / ISO 规格生产，FOB 青岛 / 天津。接受样品单与混柜装载。',
     es: 'Fábrica certificada ISO 9001, FOB Qingdao / Tianjin. Se aceptan pedidos de muestra y contenedores mixtos.',
-    fr: 'Usine certifiée ISO 9001, FOB Qingdao / Tianjin. Commandes d\'échantillons et conteneurs mixtes acceptés.',
+    fr: 'Usine produisant selon SABS 1195 / DIN / ISO, FOB Qingdao / Tianjin. Commandes d\'échantillons et conteneurs mixtes acceptés.',
     pt: 'Fábrica certificada ISO 9001, FOB Qingdao / Tianjin. Aceitamos pedidos de amostra e contêineres mistos.',
     ar: 'مصنع مطابق ISO 9001، FOB تشينغداو / تيانجين. نقبل طلبات العينات والحاويات المختلطة.',
     ru: 'Завод с сертификатом ISO 9001, FOB Циндао / Тяньцзинь. Принимаем пробные заказы и сборные контейнеры.',
-    ja: 'ISO 9001 認証工場、FOB 青島 / 天津。サンプル注文・混載コンテナも承ります。',
-    de: 'ISO 9001-zertifizierte Fabrik, FOB Qingdao / Tianjin. Musterbestellungen und Mischcontainer möglich.',
-    hi: 'ISO 9001 प्रमाणित फैक्टरी, FOB क्विंगदाओ / तियानजिन। नमूना ऑर्डर और मिश्रित कंटेनर स्वीकार्य।',
+    ja: 'SABS 1195 / DIN / ISO 規格で製造する工場、FOB 青島 / 天津。サンプル注文・混載コンテナも承ります。',
+    de: 'Fabrik, die nach SABS 1195 / DIN / ISO fertigt, FOB Qingdao / Tianjin. Musterbestellungen und Mischcontainer möglich.',
+    hi: 'SABS 1195 / DIN / ISO मानक पर उत्पादन करने वाली फैक्टरी, FOB क्विंगदाओ / तियानजिन। नमूना ऑर्डर और मिश्रित कंटेनर स्वीकार्य।',
   }
   const specLabelText = (key: string) => pick(specLabels[key], locale)
 
