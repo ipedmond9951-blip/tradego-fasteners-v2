@@ -354,7 +354,7 @@
             "zh": "自钻螺钉能用在木材上吗？"
           },
           "a": {
-            "en": "Standard self-drilling screws are designed for metal. For wood applications, use winged self-drilling screws which have reaming wings that clear wood fibers before the threads engage the metal substrate.",
+            "en": "Standard self-drilling screws are designed for metal. For wood applications, use winged self-drilling screws which have reaming wings that clear wood fibers before the threads engage the metal substrate. Check the substrate before choosing: the steel sheet thickness sets the drill-point number, and a wood-to-metal mixed connection needs the matched winged version. If the drawing calls for a plain self-drilling screw, confirm the connection before swapping the metal specification onto wood. On site, watch for splitting, fibres packed under the head, or a thread that cannot bite; these mean the point type or size does not suit the material. Select the wing size and point length to the combined thickness, record the substrate and screw type on the order, and keep wood-only screws separate from metal-drilling stock so the wrong type is not driven into a timber frame.",
             "zh": "标准自钻螺钉是为金属设计的，不适合直接拧进木材。木材场合要用带翼自钻螺钉，它的排屑翼在螺纹咬合金属基材之前先清出木纤维，避免木料被挤裂或螺纹卡滞。选材时还要分清基材：钢板厚度决定钻点号数，木材和金属混接时优先选配套的翼片型号；若设计图上标的是普通自钻螺钉，应先核对连接对象，不要把金属件规格直接照搬到木结构上。"
           }
         },
@@ -364,7 +364,7 @@
             "zh": "钻点选得太小会怎样？"
           },
           "a": {
-            "en": "The screw will stall or strip the drive socket before the threads engage. Always match the drill point number to the material thickness. When in doubt, go one size larger.",
+            "en": "The screw will stall or strip the drive socket before the threads engage. Always match the drill point number to the material thickness. When in doubt, go one size larger. Thicker, harder sheet needs a longer, higher-strength point; a too-short point dulls before breaking through, and the whole screw is scrapped, sometimes damaging the connected part. Before driving, check sheet thickness, grade, and coating against the boxed point number; do not swap points by looks, and discard a stripped socket whole rather than reusing it. If the point stalls repeatedly, confirm the drilling speed, alignment, and that the screw is perpendicular to the sheet; tilted driving wears the point sideways. The specification should list substrate thickness, point number, and screw size, and installers should keep the correct point family on the cart rather than reaching for the nearest screw.",
             "zh": "螺钉会在螺纹咬合之前停转，或者把驱动槽磨滑牙。钻点号数必须与材料厚度匹配；拿不准时选大一号的钻点，而不是偏小。板材越厚、硬度越高，需要的钻点越长、强度越高；钻点过短会在穿透前磨钝，整颗螺钉报废，还可能伤及连接件。安装前按板材厚度、牌号和涂层核对钻点编号，现场不要凭外观近似互换，打滑的驱动槽也要整颗弃用，不要回拧复用。"
           }
         },
@@ -374,7 +374,7 @@
             "zh": "自钻螺钉可以重复使用吗？"
           },
           "a": {
-            "en": "No. Self-drilling screws are designed for single use. The drill point is consumed during installation. Reusing will result in poor thread engagement and potential failure.",
+            "en": "No. Self-drilling screws are designed for single use. The drill point is consumed during installation. Reusing will result in poor thread engagement and potential failure. A removed self-drilling screw should be scrapped, not reinstalled in the same hole or elsewhere; if the position needs refixing, use a new screw of the same size, and inspect whether the original hole has enlarged or stripped. Structural and roofing fasteners should especially avoid reuse, because neither clamping force nor locking performance can be guaranteed after the point has worn. On site, keep removed screws out of reusable boxes, and check the hole for ovality or thread damage before refastening. Records note why the screw was removed — missed hole, split substrate, or failed drive — so the cause is fixed rather than reused. A reused point cannot re-cut its own pilot hole.",
             "zh": "不可以。自钻螺钉按一次性使用设计，钻点在安装过程中已经被磨损消耗，重复使用时螺纹啮合不良，存在连接失效风险。拆下来的自钻螺钉应按报废处理，不要回装到同一孔位或别处；若孔位需要重装，应换用同规格新螺钉，并检查基材孔位是否扩孔、滑牙。结构件和屋面紧固场合尤其要避免复用，因为夹紧力和防松性能都无法保证。"
           }
         },
@@ -384,7 +384,7 @@
             "zh": "Tek 螺钉和自钻螺钉有什么区别？"
           },
           "a": {
-            "en": "Tek is a brand name that has become genericized. All Tek screws are self-drilling, but not all self-drilling screws are Tek brand. The drill point numbering system (#1-#5) originated with Tek and is now an industry standard.",
+            "en": "Tek is a brand name that has become genericized. All Tek screws are self-drilling, but not all self-drilling screws are Tek brand. The drill point numbering system (#1-#5) originated with Tek and is now an industry standard. When ordering, specify by point number, substrate thickness, and screw size rather than brand alone; grade, finish, point length, and connection standard go on the inquiry, so a supplier cannot substitute a near-match brand mismatched to the sheet. On site, that mismatch shows as failing to drill through, stalling, or stripping the drive. Compare point number and length against sheet thickness before installation; the #1 to #5 range describes drill capacity, not quality class. If the drawing references Tek, clarify whether a self-drilling screw meeting the same point capacity is acceptable, and record the chosen type and coating with each delivery.",
             "zh": "Tek 是一个已经被通用化的品牌名：所有 Tek 螺钉都是自钻螺钉，但自钻螺钉不都是 Tek 品牌。钻点编号体系（#1 到 #5）最初来自 Tek，现在已是行业通用标准。采购时按钻点号数、基材厚度和螺钉规格下单，不要只写品牌名；牌号、表面处理、钻点长度和连接标准要在询价单上写清，避免供应商用近似品牌顶替，造成钻点长度与板材厚度不匹配，现场打不穿或滑牙。"
           }
         }
