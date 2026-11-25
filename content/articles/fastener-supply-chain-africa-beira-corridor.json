@@ -312,6 +312,38 @@
             "de": "Alle Befestigungsmittelimporte nach Mosambik über 1.000 USD FOB erfordern ein Vorversand-Inspektionszertifikat (PSI) von SGS, Bureau Veritas oder Intertek. Für Transitfracht nach Simbabwe muss das Zertifikat die DU-Erklärung in Beira begleiten.",
             "hi": "मोज़ाम्बिक में 1,000 अमेरिकी डॉलर FOB से अधिक के सभी फास्टनर आयात के लिए SGS, Bureau Veritas, या Intertek से प्री-शिपमेंट इंस्पेक्शन (PSI) प्रमाणपत्र आवश्यक है। जिम्बाब्वे जाने वाले ट्रांज़िट कार्गो के लिए, प्रमाणपत्र बेरा में DU घोषणा के साथ होना चाहिए।"
           }
+        },
+        {
+          "q": {
+            "en": "When sourcing fasteners through the Beira Corridor, how do I verify compliance with ISO and ASTM standards?"
+          },
+          "a": {
+            "en": "Buy from qualified manufacturers that hold ISO 9001 certification. Require a mill test report for every product and verify the chemical composition, mechanical properties (tensile strength, yield point, elongation, hardness) and heat-treatment condition. For ASTM A193 B7, confirm chromium content between 1.0% and 1.5% and molybdenum content between 0.45% and 0.65%; for H2S service, specify material compliant with NACE MR0175/ISO 15156 [1]."
+          }
+        },
+        {
+          "q": {
+            "en": "What export-control considerations apply when shipping fasteners to landlocked Southern African countries?"
+          },
+          "a": {
+            "en": "Confirm the supplier country's export regulations, sanctions rules and re-export rules for each destination in advance. Make sure the HS code is accurate for every product (7318.15 for solid threaded bolts, 7318.23 for rings), and prepare a formal invoice and certificate of origin suitable for customs valuation. For Zimbabwe, also confirm whether additional regulations apply [2]."
+          }
+        },
+        {
+          "q": {
+            "en": "What should I check when verifying BX Series ring specifications?"
+          },
+          "a": {
+            "en": "API 6A BX Series rings use specific structural materials by size (soft iron, low-carbon steel or 316 stainless steel). Confirm that flange connection dimensions and pressure ratings (13.8 MPa, 20.7 MPa, 34.5 MPa and so on) match the intended specification, request material certificates, and assess the supplier's track record and technical support capability [2]."
+          }
+        },
+        {
+          "q": {
+            "en": "How should urgent orders and shipment tracking be handled?"
+          },
+          "a": {
+            "en": "An annual supply agreement with a primary supplier or authorized distributor secures priority handling in emergencies. From a logistics standpoint, routing through Mozambique and the Port of Beira is efficient and supports multimodal movements to several DOT countries. Use real-time shipment tracking, verify the estimated arrival date, and build flexible lead times into the plan [2]."
+          }
         }
       ],
       "body": {
