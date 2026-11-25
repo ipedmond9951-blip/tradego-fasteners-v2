@@ -22,6 +22,12 @@ if [ -x "$ROOT/scripts/vercel-guard.sh" ]; then
     fi
 fi
 
+# 内容契约软提示（不阻断）：非英文语种的 FAQ 仍是英文原文时提示一下
+if [ -f "$ROOT/scripts/check-i18n-leakage.py" ]; then
+    LEAK=$(python3 "$ROOT/scripts/check-i18n-leakage.py" 2>/dev/null | awk '/^  (zh|ja|es|fr|pt|ar|ru|de|hi) /{s+=$2} END{print s+0}')
+    [ "${LEAK:-0}" -gt 0 ] && echo "⚠️  FAQ 本地化缺口：${LEAK} 条（python3 scripts/check-i18n-leakage.py --fix-list 看明细）"
+fi
+
 while read -r local_ref local_sha remote_ref remote_sha; do
     [ "$remote_ref" = "refs/heads/main" ] || continue
     [ "$local_sha" = "0000000000000000000000000000000000000000" ] && continue

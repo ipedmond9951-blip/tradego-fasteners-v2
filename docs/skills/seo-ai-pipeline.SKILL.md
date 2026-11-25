@@ -6,7 +6,7 @@ description: TradeGo 站点 SEO 文章生产流水线的真实运行手册 — �
 # SEO AI Pipeline（TradeGo-fasteners-v2）
 
 ## Keywords
-SEO 文章, 文章流水线, seo-ai-pipeline, 写文章, 改文章, 大纲, 审计, 内容校验, 内容契约, 检查文章质量, 配图, 首图, 占位文案, Content coming soon, 软404, 多语言补译, 英文夹带, 部署验证
+SEO 文章, 站内文章, 文章, 文章流水线, seo-ai-pipeline, 写文章, 改文章, 改稿, 改写, 大纲, 审计, 内容校验, 内容契约, 检查文章质量, 文章质量, 本地化, 标题, 描述, 元描述, 翻译, 补译, 多语言, 十种语言, 配图, 首图, 占位文案, 占位, Content coming soon, 软404, 英文夹带, 部署验证
 
 ## 触发条件
 - 要新增 / 重写 / 补译站内文章（content/articles/*.json）
@@ -74,6 +74,24 @@ bash scripts/seo-ai-pipeline.sh <slug> <主题/关键词>    # STEP1-4 全流程
 - 正文字数 **≥1600 词**，低于直接 FAIL（300 词级假成功是真正要挡的）。
 - 审计分数 ≥60，评分脚本回 `SCORE: N`。
 - JSON 必须含 en + zh 正文；其余语种走 en 回退也可以接受，但不能出现 `Content coming soon`。
+
+## 内容契约校验（每篇收工必跑）
+
+字段级断言，不是"看着像"的检查。**新写或改动的文章必须过，存量问题由基线冻结。**（完整说明见仓库 `docs/content-contract-20261125.md`）
+
+```bash
+python3 scripts/content_contract.py --slug <slug>                       # 单篇
+python3 scripts/content_contract.py                                     # 全量
+python3 scripts/content_contract.py --write-baseline content/contract-baseline.json   # 收窄基线
+python3 scripts/content_contract_backlog.py                             # 生成待办清单 docs/content-contract-backlog.md
+```
+
+- BLOCK（必须修）：`Content coming soon`/`lorem ipsum` 占位、标题/描述/元描述照抄英文或夹着 4 个以上连续英文词、某语种字段为空、脚本字符缺失（ar/ru/hi/zh 几乎没有该语言文字）、配图文件不存在、`updated` 早于 `date`、缺中文正文。
+- WARN（可排期）：`imageAlt` 复用英文、缺 `faq`（GEO 结构化问答）、正文体量偏薄、SEO 长度越界。
+- 退出门禁：`.githooks/pre-commit` 会对改动过的文章跑 `--baseline`，**只拦基线之外的新增问题**；确需绕过用 `CONTENT_CONTRACT_SKIP=1 git commit ...`。
+- 修存量：`scripts/fix_content_contract.py extract|meta|zh-strip|date|image`（机械修复，默认 dry-run）→ `scripts/fill_body_zh.py patch.json --apply`（补中文正文，带 ≥120 汉字质量闸）。
+
+**事实纪律（按项目尺度掌握，不必过度考据）**：标准编号、等级对应、螺纹规格这类"写错就等于错货"的对应关系必须准确；价格、产量、失效比例这类市场数字给区间、注明"参考值，以项目实测为准"即可，不用逐条标来源。原则是宁可少写一个数字，也不要把对应关系写反。
 
 ## 配图
 

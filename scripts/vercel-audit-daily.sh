@@ -13,6 +13,7 @@ cd "$ROOT" || { echo "$(date '+%F %T') 仓库不存在" >> "$LOG"; exit 1; }
 
 # 先抓用量快照（best-effort：ego 抓不到也不该让审计整体失败，审计会按"快照过期"报出来）
 bash scripts/vercel-usage-snapshot.sh >> "$LOG" 2>&1 || echo "$(date '+%F %T') 用量快照抓取失败（审计会报快照过期）" >> "$LOG"
+bash scripts/vercel-usage-weekly.sh >> "$LOG" 2>&1 || true
 
 OUT=$(bash scripts/vercel-audit.sh --quiet 2>&1)
 CODE=$?
