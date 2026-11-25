@@ -1,0 +1,265 @@
+batch,batches,slug,category,exposure,clicks,ctr_pct,best_position,title_len,meta_len,echo,p1,ent,qh,zh_share,inbound,template_score,issues,actions
+1,"1,2,3",roofing-screws-epdm-washer-guide,Installation Guide,1918,16,0.83,13.1,51,135,1,321,14.4,0.0,0.0,4,0,"ctr<1%,echo,p1_out,zh_thin","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文"
+1,1,zinc-plated-vs-black-phosphate-screws,Product Comparison,1362,8,0.59,6.5,49,136,0,59,7.7,0.0,0.25,3,0,ctr<1%,
+1,1,bolt-grade-markings-guide,Technical Guide,1163,5,0.43,7.0,52,132,0,62,6.9,0.29,0.86,6,0,ctr<1%,
+1,"1,2",china-zimbabwe-fastener-shipping-container-guide,Logistics Guide,1028,8,0.78,5.7,52,161,1,107,5.3,0.17,1.0,4,0,"meta>160,ctr<1%,echo","描述120-155；首段答案化(≤130词,首句定义)"
+1,"1,2",threaded-rod-studding-guide,Technical Guide,916,1,0.11,10.1,53,128,0,77,0.0,0.17,0.5,3,0,"ctr<1%,ent<2",补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+1,1,ibr-roofing-nails-installation-guide,Technical Guide,877,5,0.57,6.3,50,136,0,66,11.6,0.11,0.78,9,0,ctr<1%,
+1,"1,2",high-tensile-structural-bolts-guide,Technical Guide,851,2,0.24,26.5,51,153,1,215,7.0,0.14,0.29,6,0,"ctr<1%,echo,p1_out","首段答案化(≤130词,首句定义)；首段长度落40-130"
+1,1,anchor-bolts-selection-guide,Technical Guide,733,2,0.27,15.6,52,120,0,71,13.0,0.0,0.83,22,0,ctr<1%,
+1,"1,2",hex-bolt-dimensions-chart,Technical Guide,723,2,0.28,7.9,52,158,1,293,14.0,0.14,0.71,4,0,"ctr<1%,echo,p1_out","首段答案化(≤130词,首句定义)；首段长度落40-130"
+1,"1,3",agricultural-machinery-fastener-guide,Technical Guide,543,4,0.74,10.6,38,152,0,57,23.0,0.12,0.0,2,0,"ctr<1%,zh_thin",zh补正文
+1,1,marine-outdoor-corrosion-resistant-bolts-guide,Product Guide,395,1,0.25,24.2,59,137,0,58,6.9,0.0,0.33,4,0,"title>55,ctr<1%",收短标题≤55
+1,"1,3",washer-types-applications-guide,Technical Guide,356,2,0.56,28.5,46,161,0,56,8.4,0.0,0.0,12,0,"meta>160,ctr<1%,zh_thin",描述120-155；zh补正文
+1,"1,2",ghana-tema-port-fastener-import-procedure,Import Guide,346,0,0.0,7.3,47,164,1,99,15.2,0.17,1.0,4,0,"meta>160,ctr<1%,echo","描述120-155；首段答案化(≤130词,首句定义)"
+1,"1,2",concrete-anchors-fasteners-guide,Technical Guide,327,0,0.0,8.2,48,161,1,69,11.6,0.0,0.25,11,0,"meta>160,ctr<1%,echo","描述120-155；首段答案化(≤130词,首句定义)"
+1,"1,2",drywall-screws-complete-guide,Technical Guide,306,0,0.0,12.1,48,155,0,61,0.0,0.12,0.75,9,0,"ctr<1%,ent<2",补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+1,"1,2",togo-lome-port-fastener-import-procedure,Market Analysis,289,2,0.69,7.5,50,152,1,57,0.7,0.0,1.0,3,0,"ctr<1%,echo,ent<2","首段答案化(≤130词,首句定义)；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)"
+1,1,harare-fastener-distributor-supplier-guide,Regional Supplier,286,2,0.7,7.4,54,133,0,59,14.9,0.14,0.71,3,0,ctr<1%,
+1,"1,3",fastener-corrosion-resistance-guide,Technical Guide,237,0,0.0,11.5,47,121,0,56,6.8,0.0,0.0,5,0,"ctr<1%,zh_thin",zh补正文
+1,"1,2,3",high-strength-bolts-8-8-10-9-12-9-grade-guide,Technical Guide,232,0,0.0,39.0,51,123,1,309,11.1,0.0,0.17,8,0,"ctr<1%,echo,p1_out,zh_thin","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文"
+1,"1,2",rwanda-construction-fastener-standards,Construction,215,0,0.0,37.5,44,152,1,199,13.7,0.14,1.0,5,0,"ctr<1%,echo,p1_out","首段答案化(≤130词,首句定义)；首段长度落40-130"
+1,1,china-iso-9001-fastener-manufacturer-directory,Supplier Directory,160,1,0.62,5.6,51,148,0,65,13.3,0.43,0.86,5,0.286,ctr<1%,
+1,1,flat-washers-vs-spring-washers,Product Comparison,160,0,0.0,19.9,47,140,0,54,8.7,0.0,1.0,3,0,ctr<1%,
+1,"1,2",self-drilling-screws-selection-guide,Technical Guide,139,0,0.0,24.6,57,150,0,261,3.0,0.12,0.75,5,0,"title>55,ctr<1%,p1_out",收短标题≤55；首段长度落40-130
+1,"1,2",nuts-bolts-glossary-terminology,Technical Guide,116,0,0.0,6.2,50,138,1,321,9.2,0.0,0.67,3,0,"ctr<1%,echo,p1_out","首段答案化(≤130词,首句定义)；首段长度落40-130"
+1,"1,2",high-tensile-bolts-grade-guide,Technical Guide,114,0,0.0,6.7,44,143,1,93,0.0,0.33,0.5,4,0,"ctr<1%,echo,ent<2","首段答案化(≤130词,首句定义)；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)"
+1,"1,2",ethiopia-industrial-park-fastener-supply,Regional Supplier,110,1,0.91,52.7,56,150,1,70,20.6,0.0,1.0,1,0,"title>55,ctr<1%,echo","收短标题≤55；首段答案化(≤130词,首句定义)"
+1,1,angola-lng-project-fastener-procurement,Energy,109,1,0.92,60.8,50,141,0,59,10.9,0.0,1.0,2,0,ctr<1%,
+1,"1,2,3",africa-solar-energy-fastener-procurement-guide,Procurement Guide,,,,,57,138,1,33,15.7,0.0,0.17,0,0.5,"title>55,echo,p1_out,zh_thin,template,orphan","收短标题≤55；首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写；relatedArticles双向+首现产品名挂链"
+1,"1,2",algeria-algiers-oil-gas-fastener-specifications,Market Analysis,,,,,58,156,1,72,11.0,0.0,1.0,2,0,"title>55,echo","收短标题≤55；首段答案化(≤130词,首句定义)"
+1,1,anchor-bolts-suppliers-africa,Supplier Directory,,,,,56,128,0,86,3.9,0.0,0.5,2,0,title>55,收短标题≤55
+1,"1,2,3",automotive-fastener-grade-comparison,Industry Guide,,,,,57,149,1,32,9.4,0.0,0.0,1,0.857,"title>55,echo,p1_out,zh_thin,template","收短标题≤55；首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+1,1,benin-cotonou-fastener-wholesale-market,Market Analysis,,,,,59,136,0,117,10.9,0.33,1.0,4,0,title>55,收短标题≤55
+1,"1,2",botswana-construction-boom-fastener-import,Market Analysis,,,,,56,156,1,124,9.5,0.0,1.0,3,0,"title>55,echo","收短标题≤55；首段答案化(≤130词,首句定义)"
+1,"1,2,3",botswana-fastener-supplier,Regional Supplier,,,,,58,151,1,362,10.0,0.0,0.0,6,0,"title>55,echo,p1_out,zh_thin","收短标题≤55；首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文"
+1,"1,2",bulk-fastener-quantity-discounts,Buying Guide,,,,,54,163,0,84,0.0,0.0,0.8,2,0,"meta>160,ent<2",描述120-155；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+1,"1,2,3",buy-construction-fasteners-wholesale-china,Procurement Guide,,,,,52,164,1,90,13.3,0.17,0.83,0,0.167,"meta>160,echo,orphan","描述120-155；首段答案化(≤130词,首句定义)；relatedArticles双向+首现产品名挂链"
+1,1,chemical-anchors-buying-guide,Anchors,,,,,59,152,0,70,2.5,0.25,0.86,2,0,title>55,收短标题≤55
+1,1,china-fastener-supplier-price-list-guide,Procurement Guide,,,,,58,160,0,58,5.4,0.29,0.29,8,0,title>55,收短标题≤55
+1,1,china-fasteners-zimbabwe-procurement-guide,Regional Supplier,,,,,60,151,0,68,7.2,0.15,0.23,10,0.154,title>55,收短标题≤55
+1,"1,2,3",china-hex-nuts-manufacturer,Supplier Directory,,,,,59,135,0,87,0.0,0.0,0.0,1,0,"title>55,ent<2,zh_thin",收短标题≤55；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)；zh补正文
+1,1,concrete-nails-buying-guide,Nails,,,,,41,161,0,56,29.9,0.25,1.0,5,0,meta>160,描述120-155
+1,"1,2,3",drc-diamond-mining-fasteners,Mining Fasteners,,,,,60,157,1,339,10.4,0.0,0.0,1,0,"title>55,echo,p1_out,zh_thin","收短标题≤55；首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文"
+1,"1,3",drywall-anchors-buying-guide,Anchors,,,,,61,156,0,61,15.1,0.29,1.0,0,0,"title>55,orphan",收短标题≤55；relatedArticles双向+首现产品名挂链
+1,1,duplex-nails-buying-guide,Nails,,,,,41,162,0,55,20.6,0.12,1.0,5,0,meta>160,描述120-155
+1,"1,2",east-africa-construction-fastener-market,Market Analysis,,,,,60,151,1,97,4.8,0.0,0.75,7,0,"title>55,echo","收短标题≤55；首段答案化(≤130词,首句定义)"
+1,"1,2,3",emergency-2026-07-06-fastener-sourcing-guide,Fastener guide,,,,,43,162,1,127,2.5,0.0,1.0,0,0,"meta>160,echo,orphan","描述120-155；首段答案化(≤130词,首句定义)；relatedArticles双向+首现产品名挂链"
+1,1,expansion-bolts-buying-guide,Anchors,,,,,43,161,0,57,18.1,0.12,1.0,2,0,meta>160,描述120-155
+1,"1,2,3",fastener-applications-construction-solar-telecom,Technical Guide,,,,,56,139,0,65,0.0,0.0,0.0,0,0,"title>55,ent<2,zh_thin,orphan",收短标题≤55；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)；zh补正文；relatedArticles双向+首现产品名挂链
+1,1,fastener-coating-systems-guide,Technical Guide,,,,,56,138,0,55,5.0,0.0,0.83,1,0,title>55,收短标题≤55
+1,"1,2",fastener-cost-reduction-china-vs-turkey,Procurement Guide,,,,,59,161,0,47,0.0,0.33,1.0,1,0,"title>55,meta>160,ent<2",收短标题≤55；描述120-155；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+1,"1,2",fastener-export-china-to-africa-guide,Logistics Guide,,,,,58,150,1,10,12.4,0.0,0.83,9,0.333,"title>55,echo,p1_out","收短标题≤55；首段答案化(≤130词,首句定义)；首段长度落40-130"
+1,1,fastener-glossary-africa-procurement,Procurement Guide,,,,,47,165,0,56,16.7,0.0,0.71,3,0,meta>160,描述120-155
+1,"1,2",fastener-packaging-export-requirements,Logistics Guide,,,,,60,127,0,67,0.0,0.17,1.0,1,0,"title>55,ent<2",收短标题≤55；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+1,"1,2,3",fastener-packaging-shipping-guide,Logistics Guide,,,,,56,143,1,63,9.0,0.0,0.0,1,0.167,"title>55,echo,zh_thin","收短标题≤55；首段答案化(≤130词,首句定义)；zh补正文"
+1,"1,2,3",fastener-preload-torque-calculation-methods,Technical Guide,,,,,57,161,0,62,0.0,0.33,1.0,0,0,"title>55,meta>160,ent<2,orphan",收短标题≤55；描述120-155；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)；relatedArticles双向+首现产品名挂链
+1,"1,2,3",fastener-quality-certification-comparison,Reference Guide,,,,,58,127,0,31,16.4,0.0,0.17,1,0.5,"title>55,p1_out,zh_thin,template",收短标题≤55；首段长度落40-130；zh补正文；按4节骨架重写
+1,"1,2",fastener-quality-control-inspection-procedures,Technical Guide,,,,,60,122,0,75,0.0,0.17,1.0,1,0,"title>55,ent<2",收短标题≤55；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+1,"1,2",fastener-selection-guide-african-construction,Technical Guide,,,,,58,151,1,68,7.4,0.0,0.22,3,0,"title>55,echo","收短标题≤55；首段答案化(≤130词,首句定义)"
+1,"1,2",fastener-standards-din-iso-astm-comparison,Technical Guide,,,,,57,156,0,93,0.6,0.0,0.6,2,0,"title>55,ent<2",收短标题≤55；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+1,"1,2,3",fastener-storage-handling-guide,Technical Guide,,,,,60,122,1,246,5.3,0.17,0.0,5,0,"title>55,echo,p1_out,zh_thin","收短标题≤55；首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文"
+1,1,fastener-supply-chain-africa-beira-corridor,Logistics Guide,,,,,53,163,0,66,18.6,0.12,1.0,5,0,meta>160,描述120-155
+1,"1,2,3",full-thread-half-thread-coarse-fine-thread-guide,Technical Guide,,,,,55,161,1,72,7.8,0.0,0.0,2,0,"meta>160,echo,zh_thin","描述120-155；首段答案化(≤130词,首句定义)；zh补正文"
+1,"1,2",galvanized-vs-stainless-steel-fasteners,Technical Guide,,,,,56,129,0,69,0.0,0.0,0.75,8,0,"title>55,ent<2",收短标题≤55；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+1,"1,3",gb-din-ansi-fastener-standards-export-guide,Technical Guide,,,,,46,162,0,63,17.0,0.0,0.17,3,0,"meta>160,zh_thin",描述120-155；zh补正文
+1,"1,2",hex-nuts-selection-guide,Technical Guide,,,,,42,163,0,71,0.6,0.17,0.67,8,0,"meta>160,ent<2",描述120-155；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+1,"1,2,3",high-strength-bolting-structural-steel,Technical Guide,,,,,59,122,1,30,18.1,0.0,0.17,1,0.667,"title>55,echo,p1_out,zh_thin,template","收短标题≤55；首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+1,"1,2,3",industrial-washers-flat-spring-lock-guide,Product Guide,,,,,57,155,0,299,11.1,0.0,0.17,4,0,"title>55,p1_out,zh_thin",收短标题≤55；首段长度落40-130；zh补正文
+1,"1,2",kenya-mombasa-port-fastener-warehouse-guide,Market Analysis,,,,,60,144,1,89,3.9,0.17,1.0,2,0,"title>55,echo","收短标题≤55；首段答案化(≤130词,首句定义)"
+1,"1,2",lagos-industrial-fasteners,Regional Supplier,,,,,60,158,1,75,0.0,0.0,0.25,5,0,"title>55,echo,ent<2","收短标题≤55；首段答案化(≤130词,首句定义)；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)"
+1,"1,2",libya-tripoli-construction-fastener-sourcing,Market Analysis,,,,,57,151,1,60,3.6,0.14,1.0,3,0,"title>55,echo","收短标题≤55；首段答案化(≤130词,首句定义)"
+1,1,lock-nuts-flange-nuts-vibration-proof-guide,Product Guide,,,,,58,155,0,73,23.2,0.0,0.2,6,0,title>55,收短标题≤55
+1,"1,3",marine-fasteners-guide,Industry Guide,,,,,56,149,0,75,3.1,0.0,0.0,7,0,"title>55,zh_thin",收短标题≤55；zh补正文
+1,"1,2,3",micro-precision-screws-electronic-guide,Product Guide,,,,,58,153,1,136,9.1,0.0,0.0,0,0,"title>55,echo,p1_out,zh_thin,orphan","收短标题≤55；首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；relatedArticles双向+首现产品名挂链"
+1,"1,2",morocco-casablanca-port-fastener-import-procedure,Market Analysis,,,,,57,124,1,82,4.9,0.0,1.0,3,0,"title>55,echo","收短标题≤55；首段答案化(≤130词,首句定义)"
+1,1,mozambique-lng-construction-fasteners-maputo,Procurement Guide,,,,,58,163,0,116,12.4,0.0,1.0,2,0,"title>55,meta>160",收短标题≤55；描述120-155
+1,"1,2",mozambique-lng-construction-fasteners-standards,Market Analysis,,,,,59,141,1,92,7.9,0.0,1.0,5,0,"title>55,echo","收短标题≤55；首段答案化(≤130词,首句定义)"
+1,"1,2,3",namibia-uranium-mining-fastener-corrosion,Market Analysis,,,,,44,162,1,75,10.4,0.0,1.0,0,0,"meta>160,echo,orphan","描述120-155；首段答案化(≤130词,首句定义)；relatedArticles双向+首现产品名挂链"
+1,"1,2",nigeria-abuja-construction-fastener-standards,Market Analysis,,,,,58,152,1,91,3.5,0.0,1.0,4,0,"title>55,echo","收短标题≤55；首段答案化(≤130词,首句定义)"
+1,1,nigeria-fastener-market-guide,Market Guide,,,,,57,146,0,55,2.9,0.0,0.33,3,0.333,title>55,收短标题≤55
+1,"1,2",nigeria-lekki-port-construction-fastener-logistics,Market Analysis,,,,,56,153,1,149,2.2,0.0,1.0,1,0,"title>55,echo,p1_out","收短标题≤55；首段答案化(≤130词,首句定义)；首段长度落40-130"
+1,1,non-woven-fabric-buying-guide,Waterproofing,,,,,40,163,0,58,28.1,0.0,1.0,4,0,meta>160,描述120-155
+1,"1,2",payment-terms-international-fastener-trade,Trade Guide,,,,,46,164,1,62,0.0,0.0,0.5,4,0,"meta>160,echo,ent<2","描述120-155；首段答案化(≤130词,首句定义)；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)"
+1,"1,2",precast-concrete-fastener-applications,Technical Guide,,,,,57,123,1,80,0.6,0.17,1.0,1,0,"title>55,echo,ent<2","收短标题≤55；首段答案化(≤130词,首句定义)；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)"
+1,"1,2,3",rivets-blind-rivets-guide,Technical Guide,,,,,57,138,1,85,4.8,0.0,0.0,3,0,"title>55,echo,zh_thin","收短标题≤55；首段答案化(≤130词,首句定义)；zh补正文"
+1,"1,2,3",rwanda-construction-fastener-market-2026,Market Analysis,,,,,57,151,1,47,14.8,0.0,0.0,6,0,"title>55,echo,zh_thin","收短标题≤55；首段答案化(≤130词,首句定义)；zh补正文"
+1,"1,2",senegal-dakar-construction-fastener-wholesale,Market Analysis,,,,,60,152,1,67,1.9,0.0,0.83,2,0,"title>55,echo,ent<2","收短标题≤55；首段答案化(≤130词,首句定义)；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)"
+1,"1,2,3",senegal-fastener-market,Market Analysis,,,,,58,153,0,80,0.0,0.0,0.2,0,0,"title>55,ent<2,orphan",收短标题≤55；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)；relatedArticles双向+首现产品名挂链
+1,"1,2,3",solar-mounting-hex-bolt-solution-guide,Product Guide,,,,,51,163,1,273,7.8,0.0,0.0,1,0,"meta>160,echo,p1_out,zh_thin","描述120-155；首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文"
+1,"1,2,3",south-africa-fasteners-china-import-guide,Import Guide,,,,,51,164,0,86,0.6,0.0,0.25,0,0,"meta>160,ent<2,orphan",描述120-155；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)；relatedArticles双向+首现产品名挂链
+1,"1,2,3",south-africa-sabs-stainless-steel-fastener-audit,Market Analysis,,,,,59,136,1,85,8.0,0.0,1.0,0,0,"title>55,echo,orphan","收短标题≤55；首段答案化(≤130词,首句定义)；relatedArticles双向+首现产品名挂链"
+1,"1,2",southern-africa-fastener-market-southafrica-botswana,Market Analysis,,,,,58,150,1,77,15.3,0.0,0.86,3,0,"title>55,echo","收短标题≤55；首段答案化(≤130词,首句定义)"
+1,"1,2",stainless-steel-fasteners-africa,Product Guide,,,,,58,157,0,103,0.0,0.4,0.8,2,0,"title>55,ent<2",收短标题≤55；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+1,"1,2",stainless-steel-hex-nuts-304-316-heavy-guide,Product Guide,,,,,54,162,1,300,9.9,0.0,0.2,3,0,"meta>160,echo,p1_out","描述120-155；首段答案化(≤130词,首句定义)；首段长度落40-130"
+1,"1,2",structural-heavy-duty-bolts-building-guide,Technical Guide,,,,,57,129,1,308,10.8,0.0,0.33,2,0,"title>55,echo,p1_out","收短标题≤55；首段答案化(≤130词,首句定义)；首段长度落40-130"
+1,"1,3",tanzania-ibr-roofing-fasteners-dar-es-salaam,Screws,,,,,56,160,0,61,29.5,0.5,1.0,0,0,"title>55,orphan",收短标题≤55；relatedArticles双向+首现产品名挂链
+1,1,thread-types-guide-metric-imperial,Technical Guide,,,,,57,153,0,66,28.5,0.25,1.0,1,0,title>55,收短标题≤55
+1,1,torque-tensioning-critical-fasteners,Technical Guide,,,,,56,120,0,82,3.7,0.17,0.83,8,0,title>55,收短标题≤55
+1,"1,2,3",uganda-construction-fastener-market-2026,Market Analysis,,,,,55,164,1,77,17.8,0.25,0.12,10,0,"meta>160,echo,zh_thin","描述120-155；首段答案化(≤130词,首句定义)；zh补正文"
+1,"1,2",uganda-oil-refinery-fastener-requirements,Market Analysis,,,,,41,161,1,49,4.6,0.0,1.0,10,0,"meta>160,echo","描述120-155；首段答案化(≤130词,首句定义)"
+1,"1,2,3",wind-energy-fastener-requirements-2026,Industry Guide,,,,,57,146,1,33,10.2,0.0,0.14,7,0.857,"title>55,echo,p1_out,zh_thin,template","收短标题≤55；首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+1,1,wind-power-machinery-high-strength-bolts-guide,Product Guide,,,,,59,153,0,57,19.0,0.0,0.2,4,0,title>55,收短标题≤55
+1,"1,2",wood-screws-machine-screws-furniture-guide,Product Guide,,,,,56,152,1,78,18.4,0.0,0.4,2,0,"title>55,echo","收短标题≤55；首段答案化(≤130词,首句定义)"
+1,"1,2",zambia-copper-mining-fasteners-grade-selection-2026,Market Analysis,,,,,57,155,1,93,7.2,0.0,1.0,13,0,"title>55,echo","收短标题≤55；首段答案化(≤130词,首句定义)"
+1,"1,2,3",zim-construction-anchor-bolts-lifecycle-cost-salt-spray,Procurement Guide - Africa,,,,,56,165,1,29,16.1,0.0,0.17,2,0.5,"title>55,meta>160,echo,p1_out,zh_thin,template","收短标题≤55；描述120-155；首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+1,"1,2",zim-construction-anchor-bolts-rfq-template-corrosion-resistance,Procurement Guide - Africa,,,,,59,145,1,26,10.0,0.0,1.0,2,0,"title>55,echo,p1_out","收短标题≤55；首段答案化(≤130词,首句定义)；首段长度落40-130"
+1,"1,2,3",zim-construction-anchor-bolts-supplier-evaluation-corrosion-resistance,Procurement Guide,,,,,56,132,1,70,13.7,0.12,0.12,1,0,"title>55,echo,zh_thin","收短标题≤55；首段答案化(≤130词,首句定义)；zh补正文"
+1,"1,2,3",zim-construction-flat-washers-standard-explainer-lead-time,Reference Guide - Africa,,,,,60,121,0,30,17.2,0.0,0.17,0,0.5,"title>55,p1_out,zh_thin,template,orphan",收短标题≤55；首段长度落40-130；zh补正文；按4节骨架重写；relatedArticles双向+首现产品名挂链
+1,"1,2,3",zim-construction-lock-nuts-rfq-template-bolt-pattern,Procurement Guide - Africa,,,,,57,158,1,29,16.0,0.0,0.17,4,0.5,"title>55,echo,p1_out,zh_thin,template","收短标题≤55；首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+1,"1,2,3",zim-construction-lock-washers-tco-analysis-stress-cracking,Procurement Guide - Africa,,,,,50,163,1,29,16.1,0.0,0.17,2,0.5,"meta>160,echo,p1_out,zh_thin,template","描述120-155；首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+1,"1,2,3",zim-construction-threaded-rods-supplier-evaluation-cost-optimization,Procurement Guide - Africa,,,,,58,129,1,29,16.1,0.0,0.17,4,0.5,"title>55,echo,p1_out,zh_thin,template","收短标题≤55；首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+1,"1,2,3",zim-construction-u-bolts-supplier-evaluation-galvanic-corrosion,Procurement Guide - Africa,,,,,59,124,1,29,16.1,0.0,0.17,5,0.5,"title>55,echo,p1_out,zh_thin,template","收短标题≤55；首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+1,"1,2",zimbabwe-construction-megaprojects-fastener-demand,Market Analysis,,,,,53,161,1,79,22.0,0.2,0.5,1,0,"meta>160,echo","描述120-155；首段答案化(≤130词,首句定义)"
+1,"1,2",zimbabwe-fastener-market-case-study,Case Study,,,,,56,126,0,31,6.2,0.0,0.71,4,0.286,"title>55,p1_out",收短标题≤55；首段长度落40-130
+1,"1,2,3",zimbabwe-fastener-supplier,Regional Supplier,,,,,55,163,1,76,15.6,0.0,0.0,10,0,"meta>160,echo,zh_thin","描述120-155；首段答案化(≤130词,首句定义)；zh补正文"
+1,"1,2,3",zimbabwe-road-bridge-rehabilitation-fastener-supply,Logistics Guide,,,,,60,131,1,31,15.9,0.0,0.0,2,0.5,"title>55,echo,p1_out,zh_thin,template","收短标题≤55；首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+1,"1,2,3",zimbabwe-warehousing-racking-fastener-safety,Technical Guide,,,,,59,125,1,30,15.9,0.0,0.0,1,0.5,"title>55,echo,p1_out,zh_thin,template","收短标题≤55；首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+1,"1,2",zinc-plated-vs-galvanized,Product Comparison,,,,,52,161,1,75,5.0,0.0,0.2,1,0,"meta>160,echo","描述120-155；首段答案化(≤130词,首句定义)"
+2,"2,3",africa-automotive-fastener-oem-sourcing,Market Analysis,,,,,45,155,0,85,0.0,0.33,1.0,0,0,"ent<2,orphan",补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)；relatedArticles双向+首现产品名挂链
+2,2,africa-fastener-market-opportunities-2026,Market Analysis,,,,,49,156,1,67,7.5,0.0,0.86,8,0,echo,"首段答案化(≤130词,首句定义)"
+2,2,africa-informal-construction-fastener-demand,Market Analysis,,,,,55,151,1,74,2.6,0.0,0.5,5,0,echo,"首段答案化(≤130词,首句定义)"
+2,2,africa-oil-refinery-high-pressure-fastener-guide,Market Analysis,,,,,48,150,1,67,0.0,0.0,1.0,1,0,"echo,ent<2","首段答案化(≤130词,首句定义)；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)"
+2,"2,3",africa-railway-modernization-fastener-demand,Industry Guide,,,,,49,152,1,35,9.5,0.0,0.0,0,0.714,"echo,p1_out,zh_thin,template,orphan","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写；relatedArticles双向+首现产品名挂链"
+2,2,africa-railway-sleeper-fastener-specification,Market Analysis,,,,,51,155,0,78,0.0,0.17,1.0,3,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,2,africa-solar-farm-fastener-procurement-guide,Market Analysis,,,,,44,132,0,86,0.0,0.33,1.0,1,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,2,africa-wind-energy-fastener-grade-specifications,Market Analysis,,,,,54,158,0,64,0.0,0.0,1.0,2,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,2,agricultural-fasteners-for-implements-sheds-and-irrigation,Market Analysis,,,,,48,141,1,93,1.2,0.14,1.0,3,0,"echo,ent<2","首段答案化(≤130词,首句定义)；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)"
+2,"2,3",agrifastener-water-infrastructure,Market Analysis,,,,,54,150,1,64,8.8,0.0,0.67,0,0,"echo,orphan","首段答案化(≤130词,首句定义)；relatedArticles双向+首现产品名挂链"
+2,2,anchor-bolts-foundation-guide,Technical Guide,,,,,51,151,0,93,0.0,0.17,0.5,15,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,"2,3",angola-construction-boom-fastener-demand,Market Analysis,,,,,53,158,1,34,9.5,0.0,0.14,3,0.857,"echo,p1_out,zh_thin,template","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+2,2,automotive-commercial-vehicle-fasteners,Technical Guide,,,,,49,154,1,295,9.3,0.0,0.4,2,0,"echo,p1_out","首段答案化(≤130词,首句定义)；首段长度落40-130"
+2,"2,3",automotive-fasteners-guide,Industry Guide,,,,,50,142,0,302,8.2,0.0,0.0,2,0.2,"p1_out,zh_thin",首段长度落40-130；zh补正文
+2,2,bolt-markings-identify-grade,Technical Guide,,,,,44,159,1,81,0.0,0.33,0.67,1,0,"echo,ent<2","首段答案化(≤130词,首句定义)；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)"
+2,2,bolt-tightening-torque-guide,Technical Guide,,,,,52,160,0,80,0.0,0.0,0.25,2,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,2,bolt-types-applications-guide,Technical Guide,,,,,53,154,0,84,0.0,0.0,0.4,4,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,"2,3",bulk-fastener-ordering-strategies,Procurement Guide,,,,,49,129,1,274,4.2,0.0,0.0,0,0,"echo,p1_out,zh_thin,orphan","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；relatedArticles双向+首现产品名挂链"
+2,2,carriage-bolts-guide,Technical Guide,,,,,44,157,1,106,1.2,0.17,0.67,3,0,"echo,ent<2","首段答案化(≤130词,首句定义)；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)"
+2,2,coil-nails-buying-guide,Nails,,,,,38,156,1,110,27.1,0.12,1.0,5,0,echo,"首段答案化(≤130词,首句定义)"
+2,"2,3",concrete-anchors-selection-guide,Technical Guide,,,,,51,152,1,86,0.0,0.0,0.0,2,0,"echo,ent<2,zh_thin","首段答案化(≤130词,首句定义)；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)；zh补正文"
+2,2,concrete-screws-anchors-guide,Technical Guide,,,,,55,160,1,62,11.8,0.0,0.71,6,0,echo,"首段答案化(≤130词,首句定义)"
+2,"2,3",congo-brazzaville-fastener,Regional Supplier,,,,,55,144,1,349,6.2,0.0,0.0,4,0,"echo,p1_out,zh_thin","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文"
+2,"2,3",construction-building-self-tapping-screws-tco-analysis-joint-stiffness,Procurement Guide,,,,,48,126,1,30,16.5,0.0,0.0,1,0.5,"echo,p1_out,zh_thin,template","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+2,"2,3",construction-building-self-tapping-screws-tco-analysis-uv-degradation,Procurement Guide,,,,,47,125,1,30,16.0,0.0,0.0,3,0.5,"echo,p1_out,zh_thin,template","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+2,2,construction-fastener-standards-comparison,Technical Guide,,,,,49,145,1,68,22.3,0.0,0.25,3,0,echo,"首段答案化(≤130词,首句定义)"
+2,2,conveyor-belt-fasteners,Technical Guide,,,,,47,160,1,63,3.0,0.17,0.67,3,0,echo,"首段答案化(≤130词,首句定义)"
+2,"2,3",dr-congo-drc-mining-fastener-market,Market Analysis,,,,,52,138,1,32,9.4,0.0,0.14,3,0.857,"echo,p1_out,zh_thin,template","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+2,2,drc-mining-concession-fastener-logistics,Market Analysis,,,,,47,147,1,85,2.0,0.0,1.0,3,0,echo,"首段答案化(≤130词,首句定义)"
+2,"2,3",durban-fastener-supplier,Regional Supplier,,,,,54,153,1,105,0.0,0.25,0.0,10,0,"echo,ent<2,zh_thin","首段答案化(≤130词,首句定义)；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)；zh补正文"
+2,2,egypt-cairo-construction-fastener-wholesale,Market Analysis,,,,,52,131,1,61,5.2,0.14,0.83,1,0,echo,"首段答案化(≤130词,首句定义)"
+2,2,egypt-suez-canal-industrial-fastener-tariff,Market Analysis,,,,,49,160,1,134,3.1,0.12,0.86,1,0,"echo,p1_out","首段答案化(≤130词,首句定义)；首段长度落40-130"
+2,"2,3",extended-length-self-tapping-screws-guide,Product Guide,,,,,54,154,1,175,4.7,0.0,0.0,3,0,"echo,p1_out,zh_thin","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文"
+2,"2,3",fastener-common-problems-solutions,Technical Guide,,,,,48,144,1,9,6.8,0.0,0.6,0,0.6,"echo,p1_out,template,orphan","首段答案化(≤130词,首句定义)；首段长度落40-130；按4节骨架重写；relatedArticles双向+首现产品名挂链"
+2,2,fastener-cost-analysis-template,Procurement Guide,,,,,53,157,1,61,0.0,0.0,0.25,4,0,"echo,ent<2","首段答案化(≤130词,首句定义)；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)"
+2,"2,3",fastener-failure-analysis-case-studies,Case Study,,,,,52,150,1,34,9.4,0.0,0.14,1,0.857,"echo,p1_out,zh_thin,template","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+2,"2,3",fastener-galvanic-corrosion-prevention-guide,Technical Guide,,,,,55,154,1,79,12.3,0.0,0.2,0,0,"echo,orphan","首段答案化(≤130词,首句定义)；relatedArticles双向+首现产品名挂链"
+2,"2,3",fastener-lubrication-thread-locking-guide,Technical Guide,,,,,55,129,0,62,0.0,0.0,1.0,0,0,"ent<2,orphan",补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)；relatedArticles双向+首现产品名挂链
+2,"2,3",fastener-material-selection-guide,Technical Guide,,,,,55,153,1,75,3.6,0.0,0.0,3,0,"echo,zh_thin","首段答案化(≤130词,首句定义)；zh补正文"
+2,2,fastener-negotiation-supplier-china,Trade Guide,,,,,54,157,0,75,0.0,0.0,0.5,1,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,2,fastener-quality-control-iso9001,Quality Standards,,,,,44,147,0,65,0.6,0.14,0.86,1,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,"2,3",fastener-quality-inspection-guide,Quality Guide,,,,,47,146,1,232,4.4,0.14,0.57,0,0,"echo,p1_out,orphan","首段答案化(≤130词,首句定义)；首段长度落40-130；relatedArticles双向+首现产品名挂链"
+2,2,fastener-supplier-verification-checklist,Procurement Guide,,,,,40,146,1,74,8.0,0.14,0.86,5,0.286,echo,"首段答案化(≤130词,首句定义)"
+2,2,fastener-testing-quality-certification,Technical Guide,,,,,48,155,1,68,9.7,0.0,0.83,3,0.167,echo,"首段答案化(≤130词,首句定义)"
+2,2,fastener-warehouse-management-best-practices,Procurement Guide,,,,,54,126,1,71,0.0,0.0,1.0,4,0,"echo,ent<2","首段答案化(≤130词,首句定义)；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)"
+2,"2,3",food-beverage-fastener-hygiene-standards,Industry Guide,,,,,51,140,1,33,9.5,0.0,0.14,4,0.857,"echo,p1_out,zh_thin,template","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+2,"2,3",frp-grp-composite-fasteners,Technical Guide,,,,,48,133,0,79,0.0,0.2,0.6,0,0,"ent<2,orphan",补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)；relatedArticles双向+首现产品名挂链
+2,"2,3",gaskets-specialty-washers-high-temp-guide,Product Guide,,,,,52,153,0,26,3.1,0.0,0.0,2,0,"p1_out,zh_thin",首段长度落40-130；zh补正文
+2,"2,3",ghana-building-materials,Regional Supplier,,,,,55,149,0,214,6.8,0.0,0.0,4,0.333,"p1_out,zh_thin",首段长度落40-130；zh补正文
+2,"2,3",ghana-fastener-market-guide,Market Guide,,,,,49,160,1,344,9.8,0.0,0.0,6,0,"echo,p1_out,zh_thin","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文"
+2,"2,3",green-building-fastener-requirements,Industry Guide,,,,,53,158,1,33,9.3,0.0,0.0,4,0.857,"echo,p1_out,zh_thin,template","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+2,2,imperial-metric-hex-nut-export-guide,Product Guide,,,,,50,150,1,87,14.9,0.0,0.5,11,0,echo,"首段答案化(≤130词,首句定义)"
+2,2,ivory-coast-abidjan-port-fastener-tariff,Market Analysis,,,,,52,157,0,64,0.0,0.0,1.0,7,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,2,ivory-coast-fastener-market-complete-guide,Market Analysis,,,,,45,157,0,92,0.0,0.0,0.2,1,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,2,kenya-affordable-housing-fasteners-wholesale,Market Analysis,,,,,53,150,1,83,11.4,0.0,1.0,1,0,echo,"首段答案化(≤130词,首句定义)"
+2,2,kenya-construction-fastener-imports-face-cost-and-customs-pressure,Market Analysis,,,,,51,153,1,70,0.4,0.14,1.0,8,0,"echo,ent<2","首段答案化(≤130词,首句定义)；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)"
+2,"2,3",kenya-east-africa-fastener-distribution-hub,Regional Supplier,,,,,50,157,1,37,9.4,0.0,0.0,1,0.714,"echo,p1_out,zh_thin,template","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+2,2,kenya-fastener-market-guide,Market Guide,,,,,49,154,1,265,9.9,0.0,0.8,4,0.4,"echo,p1_out","首段答案化(≤130词,首句定义)；首段长度落40-130"
+2,"2,3",kenya-infrastructure-fastener-demand,Market Analysis,,,,,54,150,1,87,18.8,0.14,0.14,4,0,"echo,zh_thin","首段答案化(≤130词,首句定义)；zh补正文"
+2,2,lag-screws-timber-connections,Technical Guide,,,,,50,149,1,254,9.0,0.14,0.43,3,0,"echo,p1_out","首段答案化(≤130词,首句定义)；首段长度落40-130"
+2,2,lobito-corridor-railway-fastener-procurement,Market Analysis,,,,,50,152,0,36,15.1,0.4,1.0,4,0,p1_out,首段长度落40-130
+2,2,lock-nuts-nyloc-self-locking,Technical Guide,,,,,44,145,0,59,0.6,0.17,0.67,1,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,2,lock-nuts-selflocking-nuts-guide,Technical Guide,,,,,48,160,0,82,0.0,0.0,0.33,4,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,"2,3",m10-galvanized-bolt-fob-china-price,Price Guide,,,,,46,140,0,243,17.4,0.0,0.5,0,0,"p1_out,orphan",首段长度落40-130；relatedArticles双向+首现产品名挂链
+2,2,madagascar-antananarivo-fastener-sourcing,Market Analysis,,,,,55,160,1,96,10.0,0.17,1.0,1,0,echo,"首段答案化(≤130词,首句定义)"
+2,2,malawi-fastener-market-case-study,Case Study,,,,,55,136,0,38,11.6,0.0,0.57,2,0,p1_out,首段长度落40-130
+2,2,marine-grade-fastener-selection-guide,Technical Guide,,,,,55,129,0,70,0.0,0.0,1.0,3,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,2,mining-fasteners-africa,Industry Guide,,,,,54,155,0,74,0.0,0.0,0.4,3,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,"2,3",mombasa-port-fasteners,Regional Supplier,,,,,42,146,1,286,8.0,0.0,0.0,7,0.2,"echo,p1_out,zh_thin","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文"
+2,2,morocco-tangier-med-port-fastener-re-export,Market Analysis,,,,,41,154,1,71,2.0,0.14,1.0,1,0,echo,"首段答案化(≤130词,首句定义)"
+2,"2,3",mozambique-fastener-import-market-guide,Regional Supplier,,,,,54,153,1,33,9.5,0.0,0.14,2,0.857,"echo,p1_out,zh_thin,template","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+2,2,mozambique-fastener-market-case-study,Case Study,,,,,49,124,0,269,6.3,0.0,0.57,2,0,p1_out,首段长度落40-130
+2,"2,3",mozambique-hardware-supplier,Regional Supplier,,,,,53,156,1,66,6.8,0.0,0.0,9,0,"echo,zh_thin","首段答案化(≤130词,首句定义)；zh补正文"
+2,2,nigeria-lagos-fastener-import-wholesale-guide,Market Analysis,,,,,45,157,1,91,2.9,0.0,1.0,2,0,echo,"首段答案化(≤130词,首句定义)"
+2,2,nigeria-port-upgrades-and-fastener-import-lead-times,Market Analysis,,,,,54,126,1,57,0.4,0.29,1.0,3,0,"echo,ent<2","首段答案化(≤130词,首句定义)；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)"
+2,"2,3",non-standard-special-shape-screws-custom-guide,Product Guide,,,,,55,135,1,294,4.6,0.2,0.0,4,0,"echo,p1_out,zh_thin","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文"
+2,"2,3",offshore-fasteners-fire-protection-and-certification,Market Analysis,,,,,53,160,1,83,5.9,0.0,0.0,4,0,"echo,zh_thin","首段答案化(≤130词,首句定义)；zh补正文"
+2,2,plastic-anchors-buying-guide,Anchors,,,,,55,144,1,91,13.4,0.25,0.86,4,0,echo,"首段答案化(≤130词,首句定义)"
+2,"2,3",railway-track-fastener-specifications,Technical Guide,,,,,48,127,0,86,0.0,0.0,1.0,0,0,"ent<2,orphan",补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)；relatedArticles双向+首现产品名挂链
+2,"2,3",republic-of-congo-fastener-supplier,Regional Supplier,,,,,55,144,1,366,6.1,0.0,0.0,2,0,"echo,p1_out,zh_thin","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文"
+2,2,rivets-blind-rivet-nut-guide,Technical Guide,,,,,48,123,1,307,6.5,0.0,0.33,1,0,"echo,p1_out","首段答案化(≤130词,首句定义)；首段长度落40-130"
+2,"2,3",roofing-screws-vs-ibr-nails,Screws,,,,,45,139,0,222,4.4,0.43,0.0,1,0,"p1_out,zh_thin",首段长度落40-130；zh补正文
+2,"2,3",screws-different-materials-guide,Technical Guide,,,,,54,148,1,66,5.6,0.0,0.17,0,0,"echo,zh_thin,orphan","首段答案化(≤130词,首句定义)；zh补正文；relatedArticles双向+首现产品名挂链"
+2,2,self-drilling-screws-market-demand-and-procurement-guide,Market Analysis,,,,,38,160,1,69,1.0,0.0,1.0,3,0,"echo,ent<2","首段答案化(≤130词,首句定义)；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)"
+2,2,self-drilling-tek-screws-price-list,Price Guide,,,,,51,141,0,100,0.0,0.0,0.8,2,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,"2,3",self-tapping-screws-complete-classification-guide,Product Guide,,,,,49,154,0,58,1.2,0.14,0.14,11,0,"ent<2,zh_thin",补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)；zh补正文
+2,2,self-tapping-sheet-metal-screws,Technical Guide,,,,,52,160,1,332,7.6,0.0,0.67,6,0,"echo,p1_out","首段答案化(≤130词,首句定义)；首段长度落40-130"
+2,2,set-screws-dowel-pins-guide,Technical Guide,,,,,49,160,1,359,3.3,0.0,0.2,1,0,"echo,p1_out","首段答案化(≤130词,首句定义)；首段长度落40-130"
+2,2,shooting-nails-buying-guide,Nails,,,,,43,154,1,102,25.4,0.25,1.0,5,0,echo,"首段答案化(≤130词,首句定义)"
+2,2,socket-head-cap-screws-guide,Technical Guide,,,,,49,158,0,275,13.2,0.17,0.5,2,0,p1_out,首段长度落40-130
+2,"2,3",solar-panel-mounting-fastener-requirements,Industry Guide,,,,,50,145,1,33,9.5,0.0,0.0,6,0.714,"echo,p1_out,zh_thin,template","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+2,2,south-africa-fastener-market-guide,Market Guide,,,,,55,149,0,10,16.2,0.0,0.71,3,0.286,p1_out,首段长度落40-130
+2,2,south-africa-sabs-fastener-import-requirements,Procurement Guide,,,,,55,120,0,88,0.0,0.33,1.0,4,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,2,stainless-steel-bolts-africa-guide,Technical Guide,,,,,49,156,0,79,0.0,0.4,0.2,3,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,2,stainless-steel-fasteners-304-316,Technical Guide,,,,,49,132,0,70,0.0,0.17,0.5,8,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,2,stainless-steel-hex-bolt-304-316-guide,Product Guide,,,,,53,147,0,57,0.0,0.0,0.2,5,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,2,tanzania-dar-es-salaam-port-fastener-import-procedure,Market Analysis,,,,,53,143,1,73,0.0,0.0,1.0,4,0,"echo,ent<2","首段答案化(≤130词,首句定义)；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)"
+2,"2,3",tanzania-fastener-market-opportunities-2026,Market Analysis,,,,,49,148,1,35,9.4,0.0,0.14,1,0.857,"echo,p1_out,zh_thin,template","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+2,2,tanzania-sgr-railway-fastener-specifications,Market Analysis,,,,,50,152,1,87,12.8,0.0,1.0,7,0,echo,"首段答案化(≤130词,首句定义)"
+2,2,telecom-tower-fasteners,Technical Guide,,,,,52,154,1,75,11.2,0.0,0.67,2,0,echo,"首段答案化(≤130词,首句定义)"
+2,"2,3",threaded-rod-applications-guide,Technical Guide,,,,,51,142,1,88,19.6,0.0,0.0,5,0,"echo,zh_thin","首段答案化(≤130词,首句定义)；zh补正文"
+2,2,threaded-rods-fasteners-guide,Technical Guide,,,,,51,149,0,96,0.0,0.14,0.57,2,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,2,timber-construction-fasteners-africa,Technical Guide,,,,,52,151,1,56,0.0,0.0,0.6,1,0,"echo,ent<2","首段答案化(≤130词,首句定义)；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)"
+2,2,timber-fasteners-guide,Technical Guide,,,,,50,155,0,91,0.0,0.0,0.25,4,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,"2,3",tunisia-mediterranean-fastener-export-guide,Market Analysis,,,,,48,157,1,116,3.9,0.0,1.0,0,0,"echo,orphan","首段答案化(≤130词,首句定义)；relatedArticles双向+首现产品名挂链"
+2,2,u-bolts-pipe-clamps-guide,Technical Guide,,,,,48,127,0,79,0.0,0.33,0.33,7,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,2,waterproof-coating-buying-guide,Waterproofing,,,,,47,158,1,68,35.4,0.0,1.0,4,0,echo,"首段答案化(≤130词,首句定义)"
+2,2,waterproof-membrane-buying-guide,Waterproofing,,,,,44,154,1,98,35.7,0.0,1.0,4,0,echo,"首段答案化(≤130词,首句定义)"
+2,2,welding-nuts-square-nut-special-nut-guide,Product Guide,,,,,48,154,1,320,8.6,0.0,0.2,3,0,"echo,p1_out","首段答案化(≤130词,首句定义)；首段长度落40-130"
+2,"2,3",zambia-fastener-supplier,Regional Supplier,,,,,53,158,1,334,8.0,0.0,0.0,11,0,"echo,p1_out,zh_thin","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文"
+2,"2,3",zim-construction-u-bolts-spec-checklist-mill-cert-traceability,Procurement Guide - Africa,,,,,54,129,1,31,16.1,0.0,0.17,1,0.5,"echo,p1_out,zh_thin,template","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+2,"2,3",zimbabwe-agricultural-fastener-requirements,Industry Guide,,,,,55,153,1,33,9.5,0.0,0.14,0,0.714,"echo,p1_out,zh_thin,template,orphan","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写；relatedArticles双向+首现产品名挂链"
+2,2,zimbabwe-bolts-screws-b2b-construction-exports-2026,Market Analysis,,,,,47,149,1,68,8.1,0.0,1.0,16,0,echo,"首段答案化(≤130词,首句定义)"
+2,"2,3",zimbabwe-bulawayo-construction-hardware-supply,Regional Supplier,,,,,55,149,1,34,9.5,0.0,0.0,1,0.714,"echo,p1_out,zh_thin,template","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+2,2,zimbabwe-import-duty-fastener-tariff-2026,Procurement Guide,,,,,48,157,1,64,1.8,0.0,0.86,3,0,"echo,ent<2","首段答案化(≤130词,首句定义)；补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)"
+2,2,zimbabwe-mining-fastener-grade-selection,Technical Guide,,,,,50,128,0,59,0.0,0.33,1.0,2,0,ent<2,补可核实体(M10×1.5/8.8/ISO4014/HDG≥50µm)
+2,"2,3",zimbabwe-rural-electrification-fastener-specifications,Technical Guide,,,,,54,146,1,30,15.8,0.0,0.0,1,0.5,"echo,p1_out,zh_thin,template","首段答案化(≤130词,首句定义)；首段长度落40-130；zh补正文；按4节骨架重写"
+3,3,construction-fastener-rough-in-guide,Technical Guide,,,,,51,153,0,64,26.6,0.0,0.86,0,0,orphan,relatedArticles双向+首现产品名挂链
+4,4,african-ftz-fastener-import-procedures,Procurement Guide,,,,,53,146,0,56,3.4,0.0,0.89,2,0,,
+4,4,asphalt-flash-band-buying-guide,Waterproofing,,,,,42,141,0,64,5.4,0.0,1.0,4,0,,
+4,4,binding-wire-buying-guide,Product Guide,,,,,50,146,0,82,12.3,0.12,0.86,1,0,,
+4,4,bolt-anchors-buying-guide,Anchors,,,,,46,154,0,73,21.9,0.0,1.0,6,0,,
+4,4,butyl-tape-buying-guide,Waterproofing,,,,,50,147,0,80,33.1,0.25,1.0,4,0,,
+4,4,chipboard-screws-buying-guide,Screws,,,,,39,151,0,63,10.8,0.12,1.0,1,0,,
+4,4,clout-nails-buying-guide,Nails,,,,,46,150,0,80,40.6,0.12,1.0,3,0,,
+4,4,coach-screws-buying-guide,Screws,,,,,40,156,0,65,16.2,0.0,1.0,1,0,,
+4,4,common-nails-buying-guide,Nails,,,,,45,155,0,87,7.9,0.12,1.0,2,0,,
+4,4,din-iso-fastener-standards-guide,Technical Guide,,,,,36,157,0,60,4.4,0.14,0.29,7,0,,
+4,4,drop-in-anchors-buying-guide,Anchors,,,,,44,144,0,63,21.6,0.0,1.0,8,0,,
+4,4,drywall-screws-bulk-price-africa-procurement,Procurement Guide,,,,,54,150,0,56,10.3,0.17,0.67,5,0.333,,
+4,4,ethiopia-industrial-park-fastener-sourcing,Market Analysis,,,,,55,154,0,76,8.4,0.0,1.0,2,0,,
+4,4,fender-washers-simplate-washers,Technical Guide,,,,,45,132,0,56,6.1,0.14,0.71,6,0,,
+4,4,galvanic-corrosion-fastener-selection,Technical Guide,,,,,48,157,0,66,3.7,0.14,0.86,3,0,,
+4,4,j-bolts-buying-guide,Product Guide,,,,,49,149,0,84,9.0,0.12,0.86,1,0,,
+4,4,machine-screws-specifications,Technical Guide,,,,,53,160,0,85,2.4,0.17,0.33,6,0,,
+4,4,mining-equipment-fasteners-zambia-southafrica,Market Analysis,,,,,51,124,0,97,6.2,0.0,0.67,9,0,,
+4,4,nairobi-construction-hardware,Regional Supplier,,,,,52,129,0,48,5.9,0.8,1.0,9,0,,
+4,4,nylon-nuts-bolts-guide,Technical Guide,,,,,55,149,0,60,21.8,0.0,0.25,1,0,,
+4,4,roofing-screws-buying-guide,Screws,,,,,51,154,0,88,7.3,0.12,0.86,4,0,,
+4,4,set-anchors-buying-guide,Anchors,,,,,46,156,0,65,22.6,0.12,1.0,5,0,,
+4,4,sleeve-anchors-buying-guide,Anchors,,,,,43,145,0,86,10.6,0.12,1.0,6,0,,
+4,4,structural-steel-connection-fasteners,Technical Guide,,,,,52,123,0,62,9.5,0.0,0.83,4,0,,
+4,4,structural-steel-connections-guide,Technical Guide,,,,,53,122,0,55,4.3,0.83,1.0,3,0,,
+4,4,timber-screws-construction-guide,Technical Guide,,,,,54,150,0,72,12.4,0.0,0.71,8,0,,
+4,4,wedge-anchors-buying-guide,Anchors,,,,,46,144,0,79,19.6,0.12,1.0,2,0,,
+4,4,zambia-fastener-market-case-study,Case Study,,,,,49,147,0,52,9.6,0.0,0.57,2,0.143,,
+4,4,zimbabwe-construction-fastener-market,Market Analysis,,,,,50,128,0,90,6.8,0.0,0.75,7,0,,
