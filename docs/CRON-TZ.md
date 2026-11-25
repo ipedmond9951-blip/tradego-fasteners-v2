@@ -46,6 +46,31 @@ python3 ~/Doubao/agents/tools/launchd-cst.py set --label X --cst 08:30   # 改�
 | com.agentops.content-contract | 每日 08:35 | 16:35 | `docs/CONTENT-CONTRACT.md` 口径 |
 | com.tradego.social-link-check | 每日 09:05 | 17:05 | 社媒主页死链 |
 | com.agentops.i18n | 每日 09:10 | 17:10 | i18n 队列清理 |
+| com.skillclaw.nightly | 每日 03:30 | 11:30 | skillclaw：每夜 3:30 自进化 |
+| com.kk-electric.cwv-audit | 每日 08:00 | 16:00 | yoke-voltage-regulator |
+| com.kk-electric.indexnow-ping | 每日 05:30 | 13:30 | 赶抓取前推 IndexNow |
+| com.kk-electric.schema-validator | 周日 03:00 | 周六 11:00（Weekday=6） | 周任务星期会顺移一天，见下 |
+| com.kk-electric.hreflang-audit | 周日 04:00 | 周六 12:00（Weekday=6） | 排在 schema 之后 |
+
+**周任务的星期也要换算**：launchd 的 `Weekday` 0/7=周日，本地 = CST − 16h 会**退回一天**，
+所以 CST 周日 → 本地周六（`Weekday=6`）。工具里按 `(cst周 − 1) mod 7` 算，改完用
+`list` 看"下次本地 → 下次 CST"是否仍落在你想要的星期。
+
+### 有意保持现状（不要平移）
+
+| 任务 | 字面（PST） | 实际（CST） | 为什么保留 |
+|---|---|---|---|
+| tradebrain.auto-prospect | 8:00 | 00:00 | 凌晨抓线索，不占白天 |
+| tradebrain.engaged-queue | 8:40 | 00:40 | 抓完再排队 |
+| tradebrain.process-sequences | 9:00 | 01:00 | **在 19:00–04:00 发信窗口内** |
+| tradebrain.leadgen | 16:30 | 08:30 | 早上补线索 |
+| tradebrain.log-rotate | 5:10 | 21:10 | 与发信窗口错开 |
+| tradebrain.resend-sync | 7:30 / 21:30 | 23:30 / 13:30 | 事件回写频次 |
+| user.backup | 2:00 | 18:00 | 本机凌晨备份，按机器本地时间有意为之 |
+
+这批没有平移任何一条：TradeBrain 的发信时间是**围绕发送窗口 19:00–04:00（北京）**设的，
+把它们"纠正"成 09:30 CST 反而会把冷邮件发到窗口外。已登记在 `launchd-intent.json` 的
+`keep` 段，`check` 会校验字面值有没有被谁偷偷改掉。
 
 不受影响（`StartInterval`，与时区无关）：`com.agentops.content-push`(600s)、
 `com.tradego.deploy-flush`(1800s)、`faq-l10n`(600s)、`ga4-monitor`(900s)、
