@@ -261,3 +261,14 @@
 **副作用（必须记住）**：整句重写的新句若自带 `<p>`，会和原句边界的 `<p>` 撞成 `<p><p>`，或把段落的 `</p>` 吃掉——`content_gate` 的 `dirty-text` 立刻 BLOCK。这轮踩了 3 次，修法是重写后统一扫一遍 `<p><p>` / 缺 `</p>` 的段落。
 
 **结果**：`check-ja-clean.py` 四维全 0（简体字形 0、中文词 0、中文虚词 0、外文 token 0）；`content_gate` 完全干净 **199 篇（75%）**、0 BLOCK；schema 279 全绿；扩写队列 700 → **711**。审计新增第 12 项（日语洁净度，只报数不阻断）。
+
+## 第一个「整语种补齐」样板：农机篇西语（2026-11-25）
+
+清污清到后面，问题从「脏」变成「薄」。挑 `agricultural-machinery-fastener-guide` 做样板：英文 7 节 3000 字上下，西语只有 400–500 字摘要（coverage 0%），完整度判定直接判薄 → noindex + 摘 sitemap。做法是**逐节整段翻译英文**（不新增事实、数字全部与英文对齐、保留 `<a>` 锚点与「Recursos relacionados」链接块），分两批写完 7 节，西语 coverage 从 0% 到出队列。
+
+顺手挖出一个系统性 404：这篇英文正文里有 21 处 `href="/products/{'name': 'Hex Bolts', 'slug': 'hex-bolts', ...}"`——产品卡的模板占位符对象被当成字符串塞进了 href，前端渲染出来全是坏链（10 个语种 × 出现次数）。新增 `scripts/fix-broken-links.py`（按 slug 改写成 `/en/products/<slug>`，默认 dry-run、`--apply` 落盘），21 处清完，并顺手扫了 `href="{' / [object / undefined / javascript:` 这几类，全库 0 处。
+
+**可复用的补齐规矩**：
+1. 只翻英文已有内容，不自己造事实；数字、标准号、MPa、HRC、FOB 价区间逐条对齐。
+2. 每节写完就断言「无中文字符、无 `<p><p>`」，避免历史那两次标签事故重演。
+3. 一次只补一个语种的一篇，补完立刻 `build-locale-backlog.py` 看这条是否出队，出队才算真的补完（章节覆盖率是按节算的，少一节就还是 0）。

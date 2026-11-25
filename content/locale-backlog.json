@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-25T17:13:44+08:00",
- "total": 711,
+ "generated": "2026-11-25T17:17:24+08:00",
+ "total": 725,
  "items": [
   {
    "slug": "africa-railway-modernization-fastener-demand",
@@ -50,21 +50,6 @@
   {
    "slug": "agricultural-machinery-fastener-guide",
    "lang": "zh",
-   "coverage": 0.0,
-   "sections": 8,
-   "missing": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6
-   ]
-  },
-  {
-   "slug": "agricultural-machinery-fastener-guide",
-   "lang": "es",
    "coverage": 0.0,
    "sections": 8,
    "missing": [
@@ -3717,6 +3702,30 @@
    ]
   },
   {
+   "slug": "ivory-coast-fastener-market-complete-guide",
+   "lang": "ar",
+   "coverage": 0.2,
+   "sections": 5,
+   "missing": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "slug": "ivory-coast-fastener-market-complete-guide",
+   "lang": "hi",
+   "coverage": 0.2,
+   "sections": 5,
+   "missing": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
    "slug": "lock-nuts-flange-nuts-vibration-proof-guide",
    "lang": "zh",
    "coverage": 0.2,
@@ -3849,6 +3858,30 @@
    ]
   },
   {
+   "slug": "senegal-fastener-market",
+   "lang": "ar",
+   "coverage": 0.2,
+   "sections": 5,
+   "missing": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "slug": "senegal-fastener-market",
+   "lang": "hi",
+   "coverage": 0.2,
+   "sections": 5,
+   "missing": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
    "slug": "set-screws-dowel-pins-guide",
    "lang": "ar",
    "coverage": 0.2,
@@ -3875,6 +3908,90 @@
   {
    "slug": "solar-mounting-hex-bolt-solution-guide",
    "lang": "ja",
+   "coverage": 0.2,
+   "sections": 5,
+   "missing": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "slug": "stainless-steel-bolts-africa-guide",
+   "lang": "es",
+   "coverage": 0.2,
+   "sections": 5,
+   "missing": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "slug": "stainless-steel-bolts-africa-guide",
+   "lang": "ar",
+   "coverage": 0.2,
+   "sections": 5,
+   "missing": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "slug": "stainless-steel-bolts-africa-guide",
+   "lang": "fr",
+   "coverage": 0.2,
+   "sections": 5,
+   "missing": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "slug": "stainless-steel-bolts-africa-guide",
+   "lang": "pt",
+   "coverage": 0.2,
+   "sections": 5,
+   "missing": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "slug": "stainless-steel-bolts-africa-guide",
+   "lang": "ja",
+   "coverage": 0.2,
+   "sections": 5,
+   "missing": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "slug": "stainless-steel-bolts-africa-guide",
+   "lang": "de",
+   "coverage": 0.2,
+   "sections": 5,
+   "missing": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "slug": "stainless-steel-bolts-africa-guide",
+   "lang": "hi",
    "coverage": 0.2,
    "sections": 5,
    "missing": [
@@ -4145,6 +4262,39 @@
   {
    "slug": "lagos-industrial-fasteners",
    "lang": "zh",
+   "coverage": 0.25,
+   "sections": 4,
+   "missing": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "slug": "lagos-industrial-fasteners",
+   "lang": "ar",
+   "coverage": 0.25,
+   "sections": 4,
+   "missing": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "slug": "lagos-industrial-fasteners",
+   "lang": "fr",
+   "coverage": 0.25,
+   "sections": 4,
+   "missing": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "slug": "lagos-industrial-fasteners",
+   "lang": "ja",
    "coverage": 0.25,
    "sections": 4,
    "missing": [
@@ -5597,6 +5747,17 @@
   },
   {
    "slug": "ivory-coast-fastener-market-complete-guide",
+   "lang": "ru",
+   "coverage": 0.4,
+   "sections": 5,
+   "missing": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "slug": "ivory-coast-fastener-market-complete-guide",
    "lang": "ja",
    "coverage": 0.4,
    "sections": 5,
@@ -5673,6 +5834,17 @@
    ]
   },
   {
+   "slug": "senegal-fastener-market",
+   "lang": "ru",
+   "coverage": 0.4,
+   "sections": 5,
+   "missing": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
    "slug": "set-screws-dowel-pins-guide",
    "lang": "zh",
    "coverage": 0.4,
@@ -5692,6 +5864,17 @@
     0,
     1,
     4
+   ]
+  },
+  {
+   "slug": "stainless-steel-bolts-africa-guide",
+   "lang": "ru",
+   "coverage": 0.4,
+   "sections": 5,
+   "missing": [
+    1,
+    2,
+    3
    ]
   },
   {
@@ -6844,6 +7027,26 @@
    ]
   },
   {
+   "slug": "lagos-industrial-fasteners",
+   "lang": "pt",
+   "coverage": 0.5,
+   "sections": 4,
+   "missing": [
+    1,
+    2
+   ]
+  },
+  {
+   "slug": "lagos-industrial-fasteners",
+   "lang": "ru",
+   "coverage": 0.5,
+   "sections": 4,
+   "missing": [
+    1,
+    2
+   ]
+  },
+  {
    "slug": "micro-precision-screws-electronic-guide",
    "lang": "es",
    "coverage": 0.5,
@@ -7152,26 +7355,6 @@
    ]
   },
   {
-   "slug": "ivory-coast-fastener-market-complete-guide",
-   "lang": "ar",
-   "coverage": 0.6,
-   "sections": 5,
-   "missing": [
-    0,
-    1
-   ]
-  },
-  {
-   "slug": "ivory-coast-fastener-market-complete-guide",
-   "lang": "ru",
-   "coverage": 0.6,
-   "sections": 5,
-   "missing": [
-    0,
-    2
-   ]
-  },
-  {
    "slug": "kenya-fastener-market-guide",
    "lang": "ar",
    "coverage": 0.6,
@@ -7213,16 +7396,6 @@
   },
   {
    "slug": "senegal-fastener-market",
-   "lang": "ar",
-   "coverage": 0.6,
-   "sections": 5,
-   "missing": [
-    0,
-    1
-   ]
-  },
-  {
-   "slug": "senegal-fastener-market",
    "lang": "pt",
    "coverage": 0.6,
    "sections": 5,
@@ -7233,12 +7406,12 @@
   },
   {
    "slug": "senegal-fastener-market",
-   "lang": "ru",
+   "lang": "de",
    "coverage": 0.6,
    "sections": 5,
    "missing": [
-    0,
-    1
+    1,
+    2
    ]
   },
   {
@@ -8220,15 +8393,6 @@
    "sections": 4,
    "missing": [
     2
-   ]
-  },
-  {
-   "slug": "lagos-industrial-fasteners",
-   "lang": "fr",
-   "coverage": 0.75,
-   "sections": 4,
-   "missing": [
-    3
    ]
   },
   {
