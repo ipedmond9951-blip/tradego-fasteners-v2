@@ -167,42 +167,52 @@
       "faqItems": [
         {
           "q": {
-            "en": "What is the typical lead time for shipments to Mombasa?"
+            "en": "What is the typical lead time for shipments to Mombasa?",
+            "zh": "发往蒙巴萨通常要多久？"
           },
           "a": {
-            "en": "Sea freight from China to Mombasa takes 25-35 days. Air freight is faster (5-7 days) but significantly more expensive."
+            "en": "Sea freight from China to Mombasa takes 25-35 days. Air freight is faster (5-7 days) but significantly more expensive.",
+            "zh": "从中国海运到蒙巴萨港约 25–35 天；空运 5–7 天，速度快但运费明显更高。批量紧固件优先走海运，只有急件才考虑空运。"
           }
         },
         {
           "q": {
-            "en": "What import duties apply to fasteners in Kenya?"
+            "en": "What import duties apply to fasteners in Kenya?",
+            "zh": "肯尼亚紧固件进口关税多少？"
           },
           "a": {
-            "en": "Import duty is typically 25% for iron and steel hardware under HS Chapter 73. VAT at 16% applies on CIF value plus duty. Additional levies may apply."
+            "en": "Import duty is typically 25% for iron and steel hardware under HS Chapter 73. VAT at 16% applies on CIF value plus duty. Additional levies may apply.",
+            "zh": "HS 第 73 章钢铁五金件进口关税通常为 25%；增值税 16%，按到岸价（CIF）加关税后的金额计征，此外还可能有其他附加税费。测算到岸成本时要把这些税费一并计入。"
           }
         },
         {
           "q": {
-            "en": "Can I clear goods at Mombasa for Uganda?"
+            "en": "Can I clear goods at Mombasa for Uganda?",
+            "zh": "能否在蒙巴萨清关后转运乌干达？"
           },
           "a": {
-            "en": "Yes, goods can be customs-cleared in Mombasa for transit to Uganda under bond. Work with a customs agent experienced in transit procedures."
+            "en": "Yes, goods can be customs-cleared in Mombasa for transit to Uganda under bond. Work with a customs agent experienced in transit procedures.",
+            "zh": "可以，货物可在蒙巴萨报关后以保税方式转运乌干达。这类过境手续建议委托熟悉过境流程的报关行办理，避免货物在港口积压产生滞港费用。"
           }
         },
         {
           "q": {
-            "en": "What documentation do I need for KEBS certification?"
+            "en": "What documentation do I need for KEBS certification?",
+            "zh": "KEBS 认证需要哪些单证？"
           },
           "a": {
-            "en": "KEBS import permit application, product test reports, technical specifications, and quality certificates. Lead time for certification is typically 2-4 weeks."
+            "en": "KEBS import permit application, product test reports, technical specifications, and quality certificates. Lead time for certification is typically 2-4 weeks.",
+            "zh": "办理 KEBS 进口许可需提交产品测试报告、技术规格书和质量证书；认证办理周期通常 2–4 周。出口侧证书按订单要求提供，单证办理时点以站内单证说明为准。"
           }
         },
         {
           "q": {
-            "en": "Are there customs warehouses at Mombasa?"
+            "en": "Are there customs warehouses at Mombasa?",
+            "zh": "蒙巴萨港有没有海关仓库？"
           },
           "a": {
-            "en": "Yes, licensed warehouses are available for temporary storage. This is useful if you need time to arrange inland transport or complete documentation."
+            "en": "Yes, licensed warehouses are available for temporary storage. This is useful if you need time to arrange inland transport or complete documentation.",
+            "zh": "有，持牌仓库可用于货物临时存放。如果内陆运输还没安排好或单证尚未齐备，可以先入仓缓冲，避免货物在码头滞留产生额外费用。"
           }
         }
       ]
