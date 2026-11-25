@@ -87,3 +87,6 @@ memory/
 
 # 每日市场/热点采集缓存（本地生成，不入库）
 content/trends/
+
+# 文章写锁（本地并发控制，不进 git）
+/content/.locks/
