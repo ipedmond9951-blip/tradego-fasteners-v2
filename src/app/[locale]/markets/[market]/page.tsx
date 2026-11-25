@@ -25,16 +25,16 @@ const marketTitles: Record<string, string> = {
 }
 
 const marketDescriptions: Record<string, string> = {
-  en: 'Wholesale fasteners for {c}: structural bolts, roofing screws, anchors, screws and waterproofing. ISO 9001 factory, FOB/CIF quotes with port and document guidance.',
-  zh: '{c}市场紧固件批发：结构螺栓、屋面钉、锚栓、螺丝与防水材料，ISO 9001 工厂，FOB/CIF 报价，含港口与单证说明。',
-  es: 'Fijaciones al por mayor para {c}: pernos estructurales, tornillos de tejado, anclajes, tornillos e impermeabilización. Fábrica ISO 9001, cotización FOB/CIF con guía de puertos y documentos.',
-  fr: 'Visserie en gros pour {c} : boulons de structure, vis de toiture, ancrages, vis et étanchéité. Usine ISO 9001, devis FOB/CIF avec guide des ports et documents.',
-  pt: 'Fixadores por atacado para {c}: parafusos estruturais, parafusos de telhado, chumbadores, parafusos e impermeabilização. Fábrica ISO 9001, cotação FOB/CIF com guia de portos e documentos.',
-  ar: 'مواد تثبيت بالجملة إلى {c}: براغي إنشائية وبراغي أسقف ومراسي وبراغي ومواد عزل مائي. مصنع ISO 9001، عرض FOB/CIF مع دليل الموانئ والمستندات.',
-  ru: 'Крепёж оптом — {c}: конструкционные болты, кровельные саморезы, анкеры, саморезы и гидроизоляция. Завод ISO 9001, цены FOB/CIF с данными по портам и документам.',
-  ja: '{c}向けファスナー卸：構造用ボルト、屋根用ビス、アンカー、ビス、防水資材。ISO 9001工場、港と書類の案内付きのFOB/CIF見積。',
-  de: 'Verbindungselemente im Großhandel für {c}: Konstruktionsbolzen, Dachschrauben, Anker, Schrauben und Abdichtung. ISO-9001-Werk, FOB/CIF-Angebot mit Hafen- und Dokumentenberatung.',
-  hi: '{c} के लिए थोक फ़ासनर: स्ट्रक्चरल बोल्ट, रूफिंग स्क्रू, एंकर, स्क्रू और वॉटरप्रूफिंग। ISO 9001 फ़ैक्टरी, बंदरगाह और दस्तावेज़ मार्गदर्शन के साथ FOB/CIF कोटेशन।',
+  en: 'Wholesale fasteners for {c}: structural bolts, roofing screws, anchors, screws and waterproofing. made to SABS 1195 / DIN / ISO, FOB/CIF quotes with port and document guidance.',
+  zh: '{c}市场紧固件批发：结构螺栓、屋面钉、锚栓、螺丝与防水材料，按 SABS 1195 / DIN / ISO 规格生产，FOB/CIF 报价，含港口与单证说明。',
+  es: 'Fijaciones al por mayor para {c}: pernos estructurales, tornillos de tejado, anclajes, tornillos e impermeabilización. Producción según SABS 1195 / DIN / ISO, cotización FOB/CIF con guía de puertos y documentos.',
+  fr: 'Visserie en gros pour {c} : boulons de structure, vis de toiture, ancrages, vis et étanchéité. Production selon SABS 1195 / DIN / ISO, devis FOB/CIF avec guide des ports et documents.',
+  pt: 'Fixadores por atacado para {c}: parafusos estruturais, parafusos de telhado, chumbadores, parafusos e impermeabilização. Producción según SABS 1195 / DIN / ISO, cotação FOB/CIF com guia de portos e documentos.',
+  ar: 'مواد تثبيت بالجملة إلى {c}: براغي إنشائية وبراغي أسقف ومراسي وبراغي ومواد عزل مائي. وفق SABS 1195 / DIN / ISO، عرض FOB/CIF مع دليل الموانئ والمستندات.',
+  ru: 'Крепёж оптом — {c}: конструкционные болты, кровельные саморезы, анкеры, саморезы и гидроизоляция. Поставки по SABS 1195 / DIN / ISO, цены FOB/CIF с данными по портам и документам.',
+  ja: '{c}向けファスナー卸：構造用ボルト、屋根用ビス、アンカー、ビス、防水資材。SABS 1195 / DIN / ISO 規格で製造、港と書類の案内付きのFOB/CIF見積。',
+  de: 'Verbindungselemente im Großhandel für {c}: Konstruktionsbolzen, Dachschrauben, Anker, Schrauben und Abdichtung. gefertigt nach SABS 1195 / DIN / ISO, FOB/CIF-Angebot mit Hafen- und Dokumentenberatung.',
+  hi: '{c} के लिए थोक फ़ासनर: स्ट्रक्चरल बोल्ट, रूफिंग स्क्रू, एंकर, स्क्रू और वॉटरप्रूफिंग। SABS 1195 / DIN / ISO मानक पर निर्मित, बंदरगाह और दस्तावेज़ मार्गदर्शन के साथ FOB/CIF कोटेशन।',
 }
 
 // 津巴布韦已有独立落地页（/zimbabwe-fasteners-wholesale），此处不重复生成，避免自我竞争
@@ -87,7 +87,7 @@ const copy: Record<string, Copy> = {
     home: '首页', markets: '市场',
     portsLabel: '港口与航线', docsLabel: '单证与清关', linesLabel: '这个市场主要买什么',
     faqLabel: '常见问题', cta: '索取报价', allMarkets: '全部市场',
-    sub: '青岛/天津工厂直供，可提供 ISO 9001 与符合 SABS 的品类。',
+    sub: '按 SABS 1195 / DIN / ISO 规格生产，青岛/天津起运；ISO 9001 与 SABS 认证可按订单申请办理。',
     h1: '{c}紧固件批发供应', seeAll: '查看全部 {n} 个品类',
   },
   es: {
@@ -129,7 +129,7 @@ const copy: Record<string, Copy> = {
     home: 'ホーム', markets: '市場',
     portsLabel: '港と輸送ルート', docsLabel: '書類と通関', linesLabel: 'この市場で売れる品目',
     faqLabel: 'よくある質問', cta: '見積依頼', allMarkets: 'すべての市場',
-    sub: '青島・天津から工場直送、ISO 9001 とSABS対応品目あり。',
+    sub: '青島・天津から出荷、SABS 1195 / DIN / ISO 規格で製造；ISO 9001・SABS 認証はご注文に応じ申請可能。',
     h1: '{c}向けファスナー卸', seeAll: '全{n}品目を見る',
   },
   de: {

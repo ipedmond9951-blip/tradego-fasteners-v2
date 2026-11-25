@@ -26,16 +26,16 @@ const stdTitles: Record<string, string> = {
 }
 
 const stdDescs: Record<string, string> = {
-  en: '{code} supplied wholesale — {n} product lines, ISO 9001 factory, FOB Qingdao/Tianjin, sea freight to Beira and Durban.',
-  zh: '{code} 批发供应，{n} 个在售品类，ISO 9001 工厂，FOB 青岛/天津，海运至贝拉、德班。',
-  es: '{code} al por mayor: {n} líneas de producto, fábrica ISO 9001, FOB Qingdao/Tianjin, flete marítimo a Beira y Durban.',
-  fr: '{code} en gros : {n} gammes, usine ISO 9001, FOB Qingdao/Tianjin, fret maritime vers Beira et Durban.',
-  pt: '{code} por atacado: {n} linhas de produto, fábrica ISO 9001, FOB Qingdao/Tianjin, frete marítimo para Beira e Durban.',
-  ar: '{code} بالجملة: {n} خط إنتاج، مصنع ISO 9001، FOB تشينغداو/تيانجين، شحن بحري إلى بيرا وديربان.',
-  ru: '{code} оптом: {n} позиций, завод ISO 9001, FOB Циндао/Тяньцзинь, морская доставка в Бейру и Дурбан.',
-  ja: '{code} 卸売：{n}品目、ISO 9001工場、FOB青島/天津、ベイラ・ダーバン向け海上輸送。',
-  de: '{code} im Großhandel: {n} Produktlinien, ISO-9001-Werk, FOB Qingdao/Tianjin, Seefracht nach Beira und Durban.',
-  hi: '{code} थोक में: {n} उत्पाद लाइन, ISO 9001 फ़ैक्टरी, FOB किंगदाओ/तियानजिंग, बेरा और डरबन के लिए समुद्री माल।',
+  en: '{code} supplied wholesale — {n} product lines, made to SABS 1195 / DIN / ISO, FOB Qingdao/Tianjin, sea freight to Beira and Durban.',
+  zh: '{code} 批发供应，{n} 个在售品类，按 SABS 1195 / DIN / ISO 规格生产，FOB 青岛/天津，海运至贝拉、德班。',
+  es: '{code} al por mayor: {n} líneas de producto, producción según SABS 1195 / DIN / ISO, FOB Qingdao/Tianjin, flete marítimo a Beira y Durban.',
+  fr: '{code} en gros : {n} gammes, production selon SABS 1195 / DIN / ISO, FOB Qingdao/Tianjin, fret maritime vers Beira et Durban.',
+  pt: '{code} por atacado: {n} linhas de produto, producción según SABS 1195 / DIN / ISO, FOB Qingdao/Tianjin, frete marítimo para Beira e Durban.',
+  ar: '{code} بالجملة: {n} خط إنتاج، وفق SABS 1195 / DIN / ISO، FOB تشينغداو/تيانجين، شحن بحري إلى بيرا وديربان.',
+  ru: '{code} оптом: {n} позиций, по SABS 1195 / DIN / ISO, FOB Циндао/Тяньцзинь, морская доставка в Бейру и Дурбан.',
+  ja: '{code} 卸売：{n}品目、SABS 1195 / DIN / ISO 規格で製造、FOB青島/天津、ベイラ・ダーバン向け海上輸送。',
+  de: '{code} im Großhandel: {n} Produktlinien, gefertigt nach SABS 1195 / DIN / ISO, FOB Qingdao/Tianjin, Seefracht nach Beira und Durban.',
+  hi: '{code} थोक में: {n} उत्पाद लाइन, SABS 1195 / DIN / ISO मानक पर निर्मित, FOB किंगदाओ/तियानजिंग, बेरा और डरबन के लिए समुद्री माल।',
 }
 
 export function generateStaticParams() {

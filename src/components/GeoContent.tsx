@@ -15,8 +15,8 @@ const regionalContent: Record<string, Record<string, { promotion: string; shippi
     zh: { promotion: '非洲市场批量折扣 — 最高15%优惠', shipping: '海运至德班，25-30天', payment: '接受付款: T/T, L/C, 支付宝, 微信支付' },
   },
   EU: {
-    en: { promotion: 'CE certified products available', shipping: 'Delivery to EU ports in 20-25 days', payment: 'Accepted: T/T, L/C, PayPal' },
-    zh: { promotion: '提供CE认证产品', shipping: '海运至欧盟港口，20-25天', payment: '接受付款: T/T, L/C, PayPal' },
+    en: { promotion: 'Products built to DIN/EN, CE marking arranged on request', shipping: 'Delivery to EU ports in 20-25 days', payment: 'Accepted: T/T, L/C, PayPal' },
+    zh: { promotion: '按 DIN/EN 标准生产，CE 认证可按订单办理', shipping: '海运至欧盟港口，20-25天', payment: '接受付款: T/T, L/C, PayPal' },
   },
   CN: {
     en: { promotion: '', shipping: '', payment: '' },

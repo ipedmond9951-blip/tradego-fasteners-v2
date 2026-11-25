@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     fr: 'Contactez TradeGo Fasteners pour les commandes de fixation en gros. Fabricant produisant selon SABS 1195 / DIN / ISO. Fret maritime vers l\'Afrique.',
     ar: 'تواصل مع TradeGo Fasteners لطلبات التثبيت بالجملة. مصنع ينتج وفق SABS 1195 / DIN / ISO. الشحن البحري إلى أفريقيا.',
     pt: 'Contate TradeGo Fasteners para pedidos de fixadores em atacado. Fabricante que produce según SABS 1195 / DIN / ISO. Frete marítimo para África.',
-    ru: 'Свяжитесь с TradeGo Fasteners для оптовых заказов крепежа. Производитель сертифицирован по ISO 9001 и SABS. Морская доставка в Африку.',
+    ru: 'Свяжитесь с TradeGo Fasteners для оптовых заказов крепежа. Продукция производится по SABS 1195 / DIN / ISO; сертификация ISO 9001 и SABS оформляется под заказ. Морская доставка в Африку.',
     ja: 'TradeGo Fastenersへの大口注文お問い合わせ。SABS 1195 / DIN / ISO 規格で製造するメーカー。海上輸送アフリカ向け。',
     de: 'Kontaktieren Sie TradeGo Fasteners für Schrauben-Großbestellungen. Hersteller, der nach SABS 1195 / DIN / ISO fertigt. Seefracht nach Afrika.',
     hi: 'बल्क फास्टनर ऑर्डर के लिए TradeGo Fasteners से संपर्क करें। SABS 1195 / DIN / ISO मानक पर उत्पादन करने वाला निर्माता, अफ्रीका को समुद्री माल, 24 घंटे में कोट।',

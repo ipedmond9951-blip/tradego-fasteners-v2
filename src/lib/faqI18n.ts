@@ -5,7 +5,7 @@
 export type FaqItem = { q: string; a: string }
 
 const en: FaqItem[] = [
-  { q: 'What types of fasteners do you manufacture?', a: 'Drywall screws, self-drilling (TEK) screws, hex bolts and nuts, IBR roofing nails, anchor bolts, washers and threaded rods. ISO 9001 and SABS 1195 compliant.' },
+  { q: 'What types of fasteners do you manufacture?', a: 'Drywall screws, self-drilling (TEK) screws, hex bolts and nuts, IBR roofing nails, anchor bolts, washers and threaded rods. made to SABS 1195 and DIN/ISO dimensions.' },
   { q: 'Which material should I choose for my fastener application?', a: 'Carbon steel for indoor use; stainless steel 304 or 316 for outdoor, coastal and marine environments; 316 for chloride-rich sites.' },
   { q: 'Which surface finish should I choose?', a: 'Zinc plating for dry indoor use, hot-dip galvanizing for outdoor, marine and structural work, Dacromet for demanding industrial environments.' },
   { q: 'What is the difference between zinc plated and hot-dip galvanized fasteners?', a: 'Zinc plating is 5–15 µm and suits indoor use; hot-dip galvanizing is 45–85 µm and gives five to seven times more protection outdoors.' },
@@ -26,7 +26,7 @@ const en: FaqItem[] = [
 ]
 
 const zh: FaqItem[] = [
-  { q: '你们生产哪些紧固件？', a: '干墙螺钉、自钻（TEK）螺钉、六角螺栓与螺母、IBR 屋面钉、锚栓、垫圈和牙条，符合 ISO 9001 与 SABS 1195。' },
+  { q: '你们生产哪些紧固件？', a: '干墙螺钉、自钻（TEK）螺钉、六角螺栓与螺母、IBR 屋面钉、锚栓、垫圈和牙条，按 SABS 1195 / DIN / ISO 尺寸标准生产。' },
   { q: '我的应用该选什么材质？', a: '室内用碳钢；室外、沿海与海洋环境用 304 或 316 不锈钢；氯离子环境选 316。' },
   { q: '表面处理怎么选？', a: '干燥室内用镀锌；室外、海洋与结构件用热镀锌；要求严苛的工业环境用达克罗。' },
   { q: '镀锌和热镀锌有什么区别？', a: '电镀锌 5–15 µm，适合室内；热镀锌 45–85 µm，户外防护提升 5 至 7 倍。' },
@@ -47,7 +47,7 @@ const zh: FaqItem[] = [
 ]
 
 const es: FaqItem[] = [
-  { q: '¿Qué tipos de fijaciones fabrican?', a: 'Tornillos para placa de yeso, autorroscantes (TEK), tornillos y tuercas hexagonales, clavos IBR, anclajes, arandelas y varillas roscadas, conformes a ISO 9001 y SABS 1195.' },
+  { q: '¿Qué tipos de fijaciones fabrican?', a: 'Tornillos para placa de yeso, autorroscantes (TEK), tornillos y tuercas hexagonales, clavos IBR, anclajes, arandelas y varillas roscadas, fabricadas según dimensiones SABS 1195 y DIN/ISO.' },
   { q: '¿Qué material debo elegir?', a: 'Acero al carbono para interior; inoxidable 304 o 316 para exterior, costa y ambiente marino; 316 en zonas con cloruros.' },
   { q: '¿Qué acabado superficial conviene?', a: 'Cincado para interior seco, galvanizado en caliente para exterior y estructuras, Dacromet para industria exigente.' },
   { q: '¿Diferencia entre cincado y galvanizado en caliente?', a: 'El cincado aporta 5–15 µm y sirve para interior; el galvanizado 45–85 µm, con cinco a siete veces más protección en exterior.' },
@@ -68,7 +68,7 @@ const es: FaqItem[] = [
 ]
 
 const fr: FaqItem[] = [
-  { q: 'Quels types de fixations fabriquez-vous ?', a: 'Vis à plaque de plâtre, vis autoperceuses (TEK), vis et écrous hexagonaux, pointes IBR, ancrages, rondelles et tiges filetées, conformes ISO 9001 et SABS 1195.' },
+  { q: 'Quels types de fixations fabriquez-vous ?', a: 'Vis à plaque de plâtre, vis autoperceuses (TEK), vis et écrous hexagonaux, pointes IBR, ancrages, rondelles et tiges filetées, fabriquées selon les dimensions SABS 1195 et DIN/ISO.' },
   { q: 'Quel matériau choisir ?', a: 'Acier au carbone pour l’intérieur ; inox 304 ou 316 pour l’extérieur, le littoral et le milieu marin ; 316 en ambiance chlorée.' },
   { q: 'Quel traitement de surface ?', a: 'Zingage pour l’intérieur sec, galvanisation à chaud pour l’extérieur et les structures, Dacromet pour l’industrie exigeante.' },
   { q: 'Différence entre zingage et galvanisation à chaud ?', a: 'Le zingage dépose 5 à 15 µm pour l’intérieur ; la galvanisation 45 à 85 µm, soit cinq à sept fois plus de protection dehors.' },
@@ -89,7 +89,7 @@ const fr: FaqItem[] = [
 ]
 
 const pt: FaqItem[] = [
-  { q: 'Que tipos de fixações vocês fabricam?', a: 'Parafusos para drywall, autoatarraxantes (TEK), parafusos e porcas sextavados, pregos IBR, chumbadores, arruelas e tirantes, conforme ISO 9001 e SABS 1195.' },
+  { q: 'Que tipos de fixações vocês fabricam?', a: 'Parafusos para drywall, autoatarraxantes (TEK), parafusos e porcas sextavados, pregos IBR, chumbadores, arruelas e tirantes, fabricados segundo dimensões SABS 1195 e DIN/ISO.' },
   { q: 'Qual material devo escolher?', a: 'Aço carbono para interiores; inox 304 ou 316 para exterior, litoral e ambiente marinho; 316 em ambientes com cloretos.' },
   { q: 'Qual acabamento superficial?', a: 'Zincagem para interior seco, galvanização a quente para exterior e estruturas, Dacromet para indústria exigente.' },
   { q: 'Diferença entre zincagem e galvanização a quente?', a: 'A zincagem deposita 5–15 µm para interior; a galvanização 45–85 µm, com cinco a sete vezes mais proteção em exterior.' },
@@ -104,20 +104,20 @@ const pt: FaqItem[] = [
   { q: 'Meios de pagamento para compradores africanos?', a: 'T/T, L/C, Alipay e WeChat Pay; descontos por volume de até 15%.' },
   { q: 'Prazo marítimo para portos africanos?', a: 'Durban 25–30 dias, Beira e Maputo 20–25, Mombaça 28–32, Dar es Salaam 28–33, Lagos e Tema 30–35.' },
   { q: 'Emitem documentos para desembaraço?', a: 'Sim: fatura comercial, packing list, conhecimento de embarque, certificado de origem e de fumigação.' },
-  { q: 'Por que escolher a TradeGo?', a: 'Mais de 20 anos focados na África, certificação SABS e ISO 9001, 98% de entregas no prazo e defeitos bem abaixo da média do setor.' },
+  { q: 'Por que escolher a TradeGo?', a: 'Mais de 20 anos focados na África, produção conforme SABS 1195 / DIN / ISO, 98% de entregas no prazo e defeitos bem abaixo da média do setor.' },
   { q: 'Quem são os clientes típicos?', a: 'Construtoras, telhadores, instaladores solares, mineração e distribuidores de ferragens em mais de 20 países africanos.' },
   { q: 'Como faço um pedido?', a: 'Envie as especificações, receba cotação em 24 horas, confirme com 30% de sinal, produção em 15–20 dias, inspeção antes do embarque e saldo.' },
 ]
 
 const ar: FaqItem[] = [
-  { q: 'ما أنواع المثبتات التي تصنعونها؟', a: 'براغي الجبس، وبراغي الحفر الذاتي (TEK)، وبراغي وصواميل سداسية، ومسامير IBR للأسقف، ومراسي، وحلقات، وقضبان ملولبة، متوافقة مع ISO 9001 وSABS 1195.' },
+  { q: 'ما أنواع المثبتات التي تصنعونها؟', a: 'براغي الجبس، وبراغي الحفر الذاتي (TEK)، وبراغي وصواميل سداسية، ومسامير IBR للأسقف، ومراسي، وحلقات، وقضبان ملولبة، مصنّعة على أبعاد SABS 1195 وDIN/ISO.' },
   { q: 'أي مادة أختار لتطبيقي؟', a: 'فولاذ كربوني للاستخدام الداخلي؛ وفولاذ مقاوم للصدأ 304 أو 316 للخارج والسواحل والبيئة البحرية؛ و316 في المواقع الغنية بالكلوريد.' },
   { q: 'أي معالجة سطحية أختار؟', a: 'الجلفنة الكهربائية للداخل الجاف، والجلفنة بالغمس الساخن للخارج والهياكل، وDacromet للبيئات الصناعية القاسية.' },
   { q: 'ما الفرق بين الجلفنة الكهربائية والغمس الساخن؟', a: 'الكهربائية 5–15 ميكرون وتناسب الداخل؛ والغمس الساخن 45–85 ميكرون ويوفر حماية أكبر بخمس إلى سبع مرات في الخارج.' },
   { q: 'ما الحد الأدنى للطلب؟', a: 'طن متري واحد لكل صنف؛ وطلبات تجريبية من 500 كجم؛ وعينات مجانية على أن يتحمل المشتري تكلفة الشحن.' },
   { q: 'ما شروط الدفع وخيارات الشحن؟', a: 'حوالة مصرفية أو اعتماد مستندي؛ 30% دفعة مقدمة و70% قبل الشحن؛ FOB أو CIF أو DDP؛ والشحن البحري 15–30 يومًا.' },
   { q: 'هل تصنعون حسب مواصفاتي؟', a: 'نعم، OEM/ODM في اللولبة والمادة والطلاء والتعبئة؛ والحد الأدنى 5 أطنان للأصناف المخصصة.' },
-  { q: 'ما الشهادات والمعايير التي تستوفونها؟', a: 'ISO 9001:2015 وSABS؛ ومطابقة DIN وANSI/ASME وJIS وGB؛ وشهادات المواد وتقارير الاختبار عند الطلب.' },
+  { q: 'ما الشهادات والمعايير التي تستوفونها؟', a: 'الإنتاج وفق أبعاد SABS 1195 وDIN وANSI/ASME وJIS وGB؛ وشهادات المواد وتقارير الاختبار مع كل شحنة؛ وشهادات ISO 9001 وSABS تُطلب حسب الطلب.' },
   { q: 'ما مدة التسليم المعتادة؟', a: '15–20 يومًا للأصناف القياسية، و25–30 للمخصصة، و7–10 للطلبات العاجلة بزيادة 15%؛ والتسليم في الموعد 98%.' },
   { q: 'هل تقدمون أسعار جملة للموزعين؟', a: 'نعم، أسعار متدرجة حسب الكمية وخصومات وعلامة خاصة وشحن مباشر.' },
   { q: 'كيف تضبطون الجودة؟', a: 'فحص على ثلاث مراحل مع اختبارات الشد والرش الملحي؛ ونسبة العيوب أقل من 0.5%.' },
@@ -125,20 +125,20 @@ const ar: FaqItem[] = [
   { q: 'ما وسائل الدفع المقبولة من المشترين الأفارقة؟', a: 'حوالة مصرفية واعتماد مستندي وAlipay وWeChat Pay؛ وخصومات تصل إلى 15% للأسواق الأفريقية.' },
   { q: 'كم تستغرق الشحنة البحرية إلى الموانئ الأفريقية؟', a: 'دوربان 25–30 يومًا، وبيرا ومابوتو 20–25، ومومباسا 28–32، ودار السلام 28–33، ولاغوس وتيما 30–35.' },
   { q: 'هل توفرون مستندات التخليص الجمركي؟', a: 'نعم: فاتورة تجارية وقائمة تعبئة وبوليصة شحن وشهادة منشأ وشهادة تبخير.' },
-  { q: 'لماذا أختار TradeGo؟', a: 'أكثر من 20 عامًا من التركيز على أفريقيا، وشهادتا SABS وISO 9001، وتسليم في الموعد بنسبة 98%، وعيوب أقل بكثير من متوسط القطاع.' },
+  { q: 'لماذا أختار TradeGo؟', a: 'أكثر من 20 عامًا من التركيز على أفريقيا، وإنتاج وفق SABS 1195 / DIN / ISO، وتسليم في الموعد بنسبة 98%، وعيوب أقل بكثير من متوسط القطاع.' },
   { q: 'من هم عملاؤكم المعتادون؟', a: 'شركات المقاولات ومقاولو الأسقف وفنيو الطاقة الشمسية وعمليات التعدين وموزعو الأدوات في أكثر من 20 دولة أفريقية.' },
   { q: 'كيف أقدم طلبًا؟', a: 'أرسل المواصفات لتحصل على عرض سعر خلال 24 ساعة، ثم أكد بدفعة 30%، والإنتاج في 15–20 يومًا، وفحص قبل الشحن، ثم سداد الباقي والشحن.' },
 ]
 
 const ru: FaqItem[] = [
-  { q: 'Какие виды крепежа вы производите?', a: 'Шурупы для гипсокартона, саморезы TEK, болты и гайки с шестигранной головкой, кровельные гвозди IBR, анкеры, шайбы и шпильки — по ISO 9001 и SABS 1195.' },
+  { q: 'Какие виды крепежа вы производите?', a: 'Шурупы для гипсокартона, саморезы TEK, болты и гайки с шестигранной головкой, кровельные гвозди IBR, анкеры, шайбы и шпильки — по размерам SABS 1195 и DIN/ISO.' },
   { q: 'Какой материал выбрать?', a: 'Углеродистая сталь для помещений; нержавеющая сталь 304 или 316 для улицы, побережья и морской среды; 316 при высоком содержании хлоридов.' },
   { q: 'Какое покрытие выбрать?', a: 'Цинкование для сухих помещений, горячее цинкование для улицы и конструкций, Dacromet для тяжёлых промышленных условий.' },
   { q: 'Чем отличается гальваническое цинкование от горячего?', a: 'Гальваническое покрытие 5–15 мкм подходит для помещений; горячее 45–85 мкм даёт в пять–семь раз большую защиту на улице.' },
   { q: 'Каков минимальный заказ?', a: 'Одна тонна на позицию; пробные заказы от 500 кг; образцы бесплатно, доставку оплачивает покупатель.' },
   { q: 'Условия оплаты и доставки?', a: 'Банковский перевод или аккредитив; 30% предоплата и 70% до отгрузки; FOB, CIF или DDP; морская доставка 15–30 дней.' },
   { q: 'Возможен крепёж по моим чертежам?', a: 'Да, OEM/ODM по резьбе, материалу, покрытию и упаковке; нестандартные позиции от 5 тонн.' },
-  { q: 'Какие сертификаты и стандарты?', a: 'ISO 9001:2015 и SABS; соответствие DIN, ANSI/ASME, JIS и GB; сертификаты на металл и протоколы испытаний по запросу.' },
+  { q: 'Какие сертификаты и стандарты?', a: 'Выпуск по размерам SABS 1195, DIN, ANSI/ASME, JIS и GB; сертификаты на металл и протоколы испытаний с каждой партией; сертификацию ISO 9001 и SABS оформляем под заказ.' },
   { q: 'Какие сроки поставки?', a: '15–20 дней для стандартных позиций, 25–30 для нестандартных, 7–10 для срочных с наценкой 15%; 98% поставок в срок.' },
   { q: 'Есть ли оптовые цены для дистрибьюторов?', a: 'Да: ступенчатые цены, скидки за объём, private label и прямая отгрузка.' },
   { q: 'Как вы контролируете качество?', a: 'Трёхступенчатый контроль плюс испытания на растяжение и солевой туман; доля брака ниже 0,5%.' },
@@ -146,13 +146,13 @@ const ru: FaqItem[] = [
   { q: 'Какие способы оплаты для африканских покупателей?', a: 'Перевод, аккредитив, Alipay и WeChat Pay; скидки за объём до 15%.' },
   { q: 'Сколько идёт груз до африканских портов?', a: 'Дурбан 25–30 дней, Бейра и Мапуту 20–25, Момбаса 28–32, Дар-эс-Салам 28–33, Лагос и Тема 30–35.' },
   { q: 'Даёте документы для таможни?', a: 'Да: инвойс, упаковочный лист, коносамент, сертификат происхождения и фумигации.' },
-  { q: 'Почему стоит выбрать TradeGo?', a: 'Более 20 лет работы на рынке Африки, SABS и ISO 9001, 98% поставок в срок и брак значительно ниже среднего по отрасли.' },
+  { q: 'Почему стоит выбрать TradeGo?', a: 'Более 20 лет работы на рынке Африки по стандартам SABS и DIN/ISO, 98% поставок в срок и брак значительно ниже среднего по отрасли.' },
   { q: 'Кто ваши типичные клиенты?', a: 'Строительные компании, кровельщики, монтажники солнечных станций, горные предприятия и оптовики более чем в 20 странах Африки.' },
   { q: 'Как оформляется заказ?', a: 'Пришлите спецификацию, получите расчёт за 24 часа, подтвердите 30% предоплатой, производство 15–20 дней, инспекция перед отгрузкой, затем остаток и отправка.' },
 ]
 
 const ja: FaqItem[] = [
-  { q: 'どのような締結具を製造していますか？', a: '石膏ボード用ねじ、セルフドリリング（TEK）ねじ、六角ボルト・ナット、IBR 屋根くぎ、アンカー、ワッシャー、全ねじを取り扱い、ISO 9001 と SABS 1195 に適合しています。' },
+  { q: 'どのような締結具を製造していますか？', a: '石膏ボード用ねじ、セルフドリリング（TEK）ねじ、六角ボルト・ナット、IBR 屋根くぎ、アンカー、ワッシャー、全ねじを取り扱い、SABS 1195 と DIN/ISO の寸法規格に基づいて製造しています。' },
   { q: '材質はどう選べばよいですか？', a: '屋内は炭素鋼、屋外・海岸・海洋環境はステンレス 304 または 316、塩化物が多い場所は 316 を推奨します。' },
   { q: '表面処理はどう選べばよいですか？', a: '乾燥した屋内は亜鉛めっき、屋外や構造物は溶融亜鉛めっき、厳しい工業環境はダクロメットを推奨します。' },
   { q: '亜鉛めっきと溶融亜鉛めっきの違いは？', a: '電気亜鉛めっきは 5〜15µm で屋内向け、溶融亜鉛めっきは 45〜85µm で屋外の保護性能が 5〜7 倍になります。' },
@@ -173,14 +173,14 @@ const ja: FaqItem[] = [
 ]
 
 const de: FaqItem[] = [
-  { q: 'Welche Befestigungsarten fertigen Sie?', a: 'Trockenbauschrauben, selbstbohrende TEK-Schrauben, Sechskantschrauben und -muttern, IBR-Dachnägel, Anker, Scheiben und Gewindestangen – nach ISO 9001 und SABS 1195.' },
+  { q: 'Welche Befestigungsarten fertigen Sie?', a: 'Trockenbauschrauben, selbstbohrende TEK-Schrauben, Sechskantschrauben und -muttern, IBR-Dachnägel, Anker, Scheiben und Gewindestangen – nach den Maßnormen SABS 1195 und DIN/ISO.' },
   { q: 'Welches Material soll ich wählen?', a: 'Baustahl für innen; Edelstahl 304 oder 316 für außen, Küste und Meer; 316 bei chloridhaltiger Umgebung.' },
   { q: 'Welche Oberflächenbehandlung ist geeignet?', a: 'Verzinkung für trockene Innenbereiche, Feuerverzinkung für außen und Konstruktionen, Dacromet für anspruchsvolle Industrieumgebungen.' },
   { q: 'Unterschied zwischen verzinkt und feuerverzinkt?', a: 'Elektrolytische Verzinkung liegt bei 5–15 µm und eignet sich für innen; Feuerverzinkung bei 45–85 µm und bietet außen fünf- bis siebenfachen Schutz.' },
   { q: 'Wie hoch ist die Mindestbestellmenge?', a: 'Eine Tonne pro Artikel; Testbestellungen ab 500 kg; Muster kostenlos, Fracht trägt der Käufer.' },
   { q: 'Zahlungsbedingungen und Versand?', a: 'Überweisung oder Akkreditiv; 30 % Anzahlung und 70 % vor Verschiffung; FOB, CIF oder DDP; Seefracht 15–30 Tage.' },
   { q: 'Fertigung nach eigenen Spezifikationen?', a: 'Ja, OEM/ODM für Gewinde, Werkstoff, Beschichtung und Verpackung; Sonderartikel ab 5 Tonnen.' },
-  { q: 'Welche Zertifikate und Normen erfüllen die Produkte?', a: 'ISO 9001:2015 und SABS; konform zu DIN, ANSI/ASME, JIS und GB; Werkzeugnisse und Prüfberichte auf Anfrage.' },
+  { q: 'Welche Zertifikate und Normen erfüllen die Produkte?', a: 'Fertigung nach den Maßnormen SABS 1195, DIN, ANSI/ASME, JIS und GB; Werkzeugnisse und Prüfberichte zu jeder Lieferung; ISO 9001- und SABS-Zertifizierung auf Bestellung.' },
   { q: 'Wie lange ist die Lieferzeit?', a: '15–20 Tage für Standardartikel, 25–30 Tage für Sonderanfertigungen, 7–10 Tage für Eilaufträge mit 15 % Aufschlag; 98 % pünktlich.' },
   { q: 'Gibt es Händlerpreise für Distributoren?', a: 'Ja: Staffelpreise nach Menge, Rabatte, Eigenmarke und Direktversand.' },
   { q: 'Wie sichern Sie die Qualität?', a: 'Dreistufige Prüfung bei Wareneingang, im Prozess und vor Versand sowie Zug- und Salzsprühtests; Fehlerquote unter 0,5 %.' },
@@ -194,14 +194,14 @@ const de: FaqItem[] = [
 ]
 
 const hi: FaqItem[] = [
-  { q: 'आप किस प्रकार के फास्टनर बनाते हैं?', a: 'ड्राईवॉल स्क्रू, सेल्फ-ड्रिलिंग (TEK) स्क्रू, हेक्स बोल्ट व नट, IBR रूफिंग कील, एंकर, वॉशर और थ्रेडेड रॉड; ISO 9001 और SABS 1195 के अनुरूप।' },
+  { q: 'आप किस प्रकार के फास्टनर बनाते हैं?', a: 'ड्राईवॉल स्क्रू, सेल्फ-ड्रिलिंग (TEK) स्क्रू, हेक्स बोल्ट व नट, IBR रूफिंग कील, एंकर, वॉशर और थ्रेडेड रॉड; SABS 1195 और DIN/ISO आयाम मानक पर बने हैं।' },
   { q: 'मेरे उपयोग के लिए कौन-सी सामग्री सही है?', a: 'इनडोर के लिए कार्बन स्टील; बाहर, तटीय और समुद्री वातावरण के लिए स्टेनलेस 304 या 316; क्लोराइड अधिक होने पर 316।' },
   { q: 'सतह उपचार कौन-सा चुनें?', a: 'सूखे इनडोर के लिए ज़िंक प्लेटिंग, बाहर और ढाँचों के लिए हॉट-डिप गैल्वनाइज़िंग, कठिन औद्योगिक परिवेश के लिए डैक्रोमेट।' },
   { q: 'ज़िंक प्लेटिंग और हॉट-डिप में क्या अंतर है?', a: 'प्लेटिंग 5–15 माइक्रोन होती है और इनडोर के लिए ठीक है; हॉट-डिप 45–85 माइक्रोन, जो बाहर पाँच से सात गुना अधिक सुरक्षा देती है।' },
   { q: 'न्यूनतम ऑर्डर मात्रा कितनी है?', a: 'प्रति आइटम एक मीट्रिक टन; 500 किग्रा से ट्रायल ऑर्डर; नमूने नि:शुल्क, भाड़ा खरीदार वहन करेगा।' },
   { q: 'भुगतान शर्तें और शिपिंग विकल्प क्या हैं?', a: 'T/T या L/C; 30% अग्रिम और 70% शिपमेंट से पहले; FOB, CIF या DDP; समुद्री माल 15–30 दिन।' },
   { q: 'क्या मेरी स्पेसिफिकेशन के अनुसार निर्माण हो सकता है?', a: 'हाँ — थ्रेड, सामग्री, कोटिंग और पैकेजिंग में OEM/ODM; कस्टम आइटम 5 टन से।' },
-  { q: 'उत्पाद किन प्रमाणन और मानकों पर खरे उतरते हैं?', a: 'ISO 9001:2015 और SABS; DIN, ANSI/ASME, JIS और GB अनुरूप; मिल सर्टिफिकेट और परीक्षण रिपोर्ट उपलब्ध।' },
+  { q: 'उत्पाद किन प्रमाणन और मानकों पर खरे उतरते हैं?', a: 'उत्पाद SABS 1195 / DIN / ANSI-ASME / JIS / GB आयाम मानक पर बनते हैं; हर लॉट के साथ मिल सर्टिफिकेट और परीक्षण रिपोर्ट; ISO 9001 और SABS प्रमाणन ऑर्डर के अनुसार आवेदन से।' },
   { q: 'सामान्य डिलीवरी समय कितना है?', a: 'मानक आइटम 15–20 दिन, कस्टम 25–30 दिन, अर्जेंट 7–10 दिन (15% अतिरिक्त); समय पर डिलीवरी 98%।' },
   { q: 'वितरकों के लिए थोक मूल्य मिलते हैं?', a: 'हाँ — वॉल्यूम के अनुसार थोक मूल्य, छूट, प्राइवेट लेबल और सीधा शिपमेंट।' },
   { q: 'गुणवत्ता नियंत्रण कैसे होता है?', a: 'आवक, प्रक्रिया और शिपमेंट-पूर्व तीन चरणों की जाँच के साथ टेंसाइल और सॉल्ट स्प्रे परीक्षण; खराबी दर 0.5% से कम।' },
@@ -209,7 +209,7 @@ const hi: FaqItem[] = [
   { q: 'अफ़्रीकी खरीदार किन तरीकों से भुगतान कर सकते हैं?', a: 'T/T, L/C, Alipay और WeChat Pay; अफ़्रीकी बाज़ारों के लिए 15% तक थोक छूट।' },
   { q: 'अफ़्रीकी बंदरगाहों तक समुद्री माल कितने दिन में पहुँचता है?', a: 'डरबन 25–30 दिन, बेइरा और मापुतो 20–25, मोम्बासा 28–32, दार एस सलाम 28–33, लागोस और टेमा 30–35 दिन।' },
   { q: 'कस्टम क्लीयरेंस के दस्तावेज़ देते हैं?', a: 'हाँ — कमर्शियल इनवॉइस, पैकिंग लिस्ट, बिल ऑफ लेडिंग, सर्टिफिकेट ऑफ ओरिजिन और फ्यूमिगेशन सर्टिफिकेट।' },
-  { q: 'TradeGo को क्यों चुनें?', a: 'अफ़्रीका पर 20 वर्ष से अधिक का फोकस, SABS और ISO 9001 प्रमाणन, 98% समय पर डिलीवरी और उद्योग औसत से बहुत कम खराबी दर।' },
+  { q: 'TradeGo को क्यों चुनें?', a: 'अफ़्रीका पर 20 वर्ष से अधिक का फोकस, SABS 1195 / DIN / ISO मानक पर निर्माण, 98% समय पर डिलीवरी और उद्योग औसत से बहुत कम खराबी दर।' },
   { q: 'आपके सामान्य ग्राहक कौन हैं?', a: '20 से अधिक अफ़्रीकी देशों की निर्माण कंपनियाँ, रूफिंग ठेकेदार, सोलर इंस्टॉलर, खनन इकाइयाँ और हार्डवेयर वितरक।' },
   { q: 'ऑर्डर कैसे दें?', a: 'स्पेसिफिकेशन भेजें, 24 घंटे में कोटेशन मिलेगा, 30% अग्रिम पर पुष्टि, 15–20 दिन उत्पादन, शिपमेंट से पहले निरीक्षण, फिर शेष भुगतान और शिपमेंट।' },
 ]

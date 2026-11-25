@@ -31,7 +31,7 @@ export const statistics: Record<string, Block> = {
   },
   es: {
     title: '¿Por qué TradeGo?',
-    sub: 'Los números demuestran la calidad: fábrica certificada ISO 9001 y SABS, 20 años centrada en África',
+    sub: 'Los números demuestran la calidad: producción según SABS 1195 / DIN / ISO, 20 años centrada en África',
     stats: [
       { value: '20+', label: 'Años de experiencia', sublabel: 'En África desde 2004' },
       { value: '500+', label: 'Clientes globales', sublabel: 'En más de 20 países africanos' },
@@ -55,7 +55,7 @@ export const statistics: Record<string, Block> = {
   },
   pt: {
     title: 'Por que a TradeGo?',
-    sub: 'Números comprovam a qualidade — fábrica certificada ISO 9001 e SABS, 20 anos focada na África',
+    sub: 'Números comprovam a qualidade — produção conforme SABS 1195 / DIN / ISO, 20 anos focada na África',
     stats: [
       { value: '20+', label: 'Anos de experiência', sublabel: 'Foco na África desde 2004' },
       { value: '500+', label: 'Clientes globais', sublabel: 'Em mais de 20 países africanos' },
@@ -79,7 +79,7 @@ export const statistics: Record<string, Block> = {
   },
   ru: {
     title: 'Почему TradeGo?',
-    sub: 'Цифры подтверждают качество — завод с сертификатами ISO 9001 и SABS, 20 лет работы на Африку',
+    sub: 'Цифры подтверждают качество — поставки по SABS 1195 / DIN / ISO, 20 лет работы на Африку',
     stats: [
       { value: '20+', label: 'Лет в отрасли', sublabel: 'Фокус на Африке с 2004 года' },
       { value: '500+', label: 'Клиентов по всему миру', sublabel: 'Более чем в 20 странах Африки' },

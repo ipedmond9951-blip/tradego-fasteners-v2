@@ -163,12 +163,20 @@ function renderSection(section: ArticleSection, locale: string) {
   // (thread-types-guide、high-strength-bolting、africa-railway 等)，小节标题照样渲染出来，
   // 页面上就是"常见问题"下面空一片。只要认得出是 FAQ 小节且该语言没有原生问答，整节都不输出。
   if (isFaqSection && nativeFaq.length === 0) return null
+  // FAQ 小节原本不渲染 body（模板固定用本地语 FAQ_INTRO），导致一批补写好的本地语问答导语/要点被埋掉。
+  // 只取"该语种原生、且去标签后 >=60 字"的 body，避免把英文样板句或空壳又渲染出来。
+  const faqBodyRaw = ((section.body as Record<string, string> | undefined)?.[locale] || '').trim()
+  const faqBodyPlain = faqBodyRaw.replace(/<[^>]+>/g, '').replace(/\s+/g, '')
+  const faqBodyHtml = faqBodyPlain.length >= 60 ? faqBodyRaw : ''
 
   return (
     <section key={section.id} className="mb-8" id={section.id}>
       <h2 className="text-2xl font-bold text-gray-900 mb-4">{localizedText(section.heading, locale)}</h2>
       {isFaqSection && (
         <p className="text-gray-700 mb-4 leading-relaxed" dangerouslySetInnerHTML={{ __html: (FAQ_INTRO[locale] || FAQ_INTRO.en).replace(/\{l\}/g, locale) }} />
+      )}
+      {isFaqSection && faqBodyHtml && (
+        <div className="text-gray-700 mb-4 leading-relaxed" dangerouslySetInnerHTML={{ __html: faqBodyHtml }} />
       )}
       {!isFaqSection && section.body && (
         <p className="text-gray-700 mb-4 leading-relaxed" dangerouslySetInnerHTML={{ __html: localizedText(section.body, locale) }} />
