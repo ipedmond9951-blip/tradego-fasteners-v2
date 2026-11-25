@@ -240,4 +240,4 @@ python3 scripts/content_gate.py --slug X # 单篇
 110. **中文正文的实体密度靠 M 规格，不靠中文单位。** 写"镀层 40 至 85 微米、起步量 500 公斤"一个都不计数（ENT 只认 mm/MPa/kg 这类拉丁单位和 M 规格），补"M10、M12、M16、M20、M24"后 zh ent 2.3→10.2。**规则：中文段里至少留一串 M 规格或带符号的数值。**
 
 
-105. **FAQ 的问答错位没有任何闸门能查，只能人读。** `anchor-bolts-suppliers-africa` 的 `faqItems` 里第 2、3 条的 `q` 字段装的是上一题的答案段落（"Standard lead time is 15-25 days…"、"For tropical/coastal Africa: Hot-dip galvanized…"），真正的问句被挤掉了。页面照样渲染，FAQPage 结构化数据里就出现"一个问题位塞着一段陈述"。**规则：补任何语种 FAQ 前，先把英文 `q` 逐条读一遍确认是问句；发现错位先修 en 的 `q`，再按修好的问句译各语种。**
+111. **FAQ 的问答错位没有任何闸门能查，只能人读。** `anchor-bolts-suppliers-africa` 的 `faqItems` 里第 2、3 条的 `q` 字段装的是上一题的答案段落（"Standard lead time is 15-25 days…"、"For tropical/coastal Africa: Hot-dip galvanized…"），真正的问句被挤掉了。页面照样渲染，FAQPage 结构化数据里就出现"一个问题位塞着一段陈述"。**规则：补任何语种 FAQ 前，先把英文 `q` 逐条读一遍确认是问句；发现错位先修 en 的 `q`，再按修好的问句译各语种。**
