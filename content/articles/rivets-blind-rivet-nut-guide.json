@@ -256,26 +256,32 @@
    "faqItems": [
     {
      "q": {
-      "en": "What is the difference between a pop rivet and a structural rivet?"
+      "en": "What is the difference between a pop rivet and a structural rivet?",
+      "zh": "抽芯铆钉和结构铆钉有什么区别？"
      },
      "a": {
-      "en": "Structural rivets (such as CherryMAX or Av奈 rivets) are designed for load-bearing aerospace and industrial applications. They have higher shear strength (typically 700-1500 kg per rivet) and are installed with special pneumatic tools. Standard pop rivets (3.2-6.4mm) are for non-structural sheet metal joining. For critical structural connections, specify structural rivets or use bolts instead."
+      "en": "Structural rivets (such as CherryMAX or Av奈 rivets) are designed for load-bearing aerospace and industrial applications. They have higher shear strength (typically 700-1500 kg per rivet) and are installed with special pneumatic tools. Standard pop rivets (3.2-6.4mm) are for non-structural sheet metal joining. For critical structural connections, specify structural rivets or use bolts instead.",
+      "zh": "结构铆钉（如 CherryMAX）面向承力的航空与工业场合，抗剪强度通常每颗 700–1500 kg，需专用气动工具安装。普通抽芯铆钉规格 3.2–6.4 mm，用于非结构钣金连接。关键承力连接应指定结构铆钉，或改用螺栓。"
      }
     },
     {
      "q": {
-      "en": "Can pop rivets be removed if needed?"
+      "en": "Can pop rivets be removed if needed?",
+      "zh": "抽芯铆钉以后能拆下来吗？"
      },
      "a": {
-      "en": "Yes. Drill through the center of the rivet head with a bit slightly larger than the rivet body diameter — this destroys the rivet and allows the pieces to be removed. For closed-end rivets, drill completely through. Be aware this creates a hole that may need to be filled or used for a bolt replacement."
+      "en": "Yes. Drill through the center of the rivet head with a bit slightly larger than the rivet body diameter — this destroys the rivet and allows the pieces to be removed. For closed-end rivets, drill completely through. Be aware this creates a hole that may need to be filled or used for a bolt replacement.",
+      "zh": "可以。用比铆钉本体直径略大的钻头钻穿钉头中心，铆钉被破坏后即可拆开工件；封闭型铆钉要整体钻穿。注意钻孔会留下孔位，后续可能需要填补，或改用螺栓穿过该孔。"
      }
     },
     {
      "q": {
-      "en": "When should I use closed-end pop rivets?"
+      "en": "When should I use closed-end pop rivets?",
+      "zh": "什么场合该用封闭型抽芯铆钉？"
      },
      "a": {
-      "en": "Use closed-end (sealed) pop rivets when: the joint must be watertight (outdoor enclosures, marine applications); the application involves liquids or gases (tanks, pipes); corrosion prevention is critical (galvanic separation between materials); the rivet may be exposed to pressure differential. The sealed end prevents water ingress and eliminates galvanic corrosion between the mandrel and rivet body."
+      "en": "Use closed-end (sealed) pop rivets when: the joint must be watertight (outdoor enclosures, marine applications); the application involves liquids or gases (tanks, pipes); corrosion prevention is critical (galvanic separation between materials); the rivet may be exposed to pressure differential. The sealed end prevents water ingress and eliminates galvanic corrosion between the mandrel and rivet body.",
+      "zh": "接缝需要防水时（户外机箱、船舶场合）；接触液体或气体时（箱体、管道）；防腐要求高、需要隔开不同材料电偶腐蚀时；以及铆钉可能承受压差的场合。封闭端头阻止水进入，并消除芯杆与钉体之间的电偶腐蚀。"
      }
     }
    ],
