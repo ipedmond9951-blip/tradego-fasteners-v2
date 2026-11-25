@@ -1,6 +1,6 @@
 import { type Locale } from '@/i18n'
 import { pick, statistics } from '@/lib/statisticsI18n'
-import { badgeCopy } from '@/lib/uiCopy'
+import { badgeCopy, certCardCopy } from '@/lib/uiCopy'
 
 interface StatisticsSectionProps {
   locale?: Locale
@@ -33,7 +33,7 @@ export default function StatisticsSection({ locale = 'en' }: StatisticsSectionPr
         <div className="mt-10 flex flex-wrap justify-center items-center gap-4 md:gap-6">
           <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg">
             <span className="text-xl">🏭</span>
-            <span className="text-sm font-medium">ISO 9001:2015</span>
+            <span className="text-sm font-medium">{pick(certCardCopy.iso.name, locale)}</span>
           </div>
           <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg">
             <span className="text-xl">✅</span>

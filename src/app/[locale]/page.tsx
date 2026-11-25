@@ -12,6 +12,7 @@ import { GeoPromotion } from '@/components/GeoContent'
 import HomeLocalizedGuides from '@/components/HomeLocalizedGuides'
 import ShareButtons from '@/components/ShareButtons'
 import VideoSection from '@/components/VideoSection'
+import SocialLinksSection from '@/components/SocialLinksSection'
 import StatisticsSection from '@/components/StatisticsSection'
 import SourcesSection from '@/components/SourcesSection'
 import { navLabels, pick, schemaCopy, shareCopy } from '@/lib/uiCopy'
@@ -135,7 +136,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">Fastener Applications & Industries</h2>
-          <p className="text-gray-600 text-center max-w-3xl mx-auto mb-10 text-sm md:text-base">Our fasteners serve African construction and industrial projects. From residential buildings to commercial developments, TradeGo delivers Made to SABS 1195 / DIN / ISO quality at factory prices with sea freight to Africa.</p>
+          <p className="text-gray-600 text-center max-w-3xl mx-auto mb-10 text-sm md:text-base">Our fasteners serve African construction and industrial projects. From residential buildings to commercial developments, TradeGo delivers Made to SABS 1195 / DIN / ISO quality at mill-level prices with sea freight to Africa.</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-primary-900 mb-2">🏗️ Construction & Building</h3>
@@ -319,6 +320,8 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
 
       {/* Video Content Section - factory tour, product showcase, testimonials */}
       <VideoSection locale={locale} />
+
+      <SocialLinksSection locale={locale} />
 
       <FAQSection locale={locale} />
       <TestimonialsSection locale={locale} />

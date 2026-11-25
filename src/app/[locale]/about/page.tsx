@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import { locales, type Locale } from '@/i18n'
 import { t } from '@/i18n'
-import { badgeCopy, pick } from '@/lib/uiCopy'
+import { badgeCopy, certCardCopy, pick } from '@/lib/uiCopy'
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     ru: 'TradeGo Fasteners: китайский производитель крепежа, работающий по SABS 1195 / DIN / ISO, с более чем 20-летним опытом экспорта в Африку.',
     ja: 'TradeGo Fasteners：SABS 1195 / DIN / ISO 規格で製造する中国ファスナーメーカー。20年以上のアフリカ輸出経験。',
     de: 'TradeGo Fasteners: Hersteller, der nach SABS 1195 / DIN / ISO fertigt mit über 20 Jahren Export nach Afrika.',
-    hi: 'TradeGo Fasteners: SABS 1195 / DIN / ISO मानक पर उत्पादन करने वाला चीनी फास्टनर निर्माता जिसके 12+ वर्षों का अफ्रीका निर्यात अनुभव है।',
+    hi: 'TradeGo Fasteners: SABS 1195 / DIN / ISO मानक पर उत्पादन करने वाला चीनी फास्टनर निर्माता जिसके 20+ वर्षों का अफ्रीका निर्यात अनुभव है।',
   }
 
   const siteUrl = 'https://www.tradego-fasteners.com'
@@ -88,7 +88,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
           {/* Key Numbers */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="bg-white rounded-xl p-6 text-center shadow-sm">
-              <div className="text-3xl md:text-4xl font-bold text-primary-700 mb-2">12+</div>
+              <div className="text-3xl md:text-4xl font-bold text-primary-700 mb-2">20+</div>
               <div className="text-gray-600 text-sm">{t(loc, 'about.yearsExp')}</div>
             </div>
             <div className="bg-white rounded-xl p-6 text-center shadow-sm">
@@ -111,7 +111,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center p-4 bg-gray-50 rounded-lg">
                 <div className="text-4xl mb-3">🏭</div>
-                <h3 className="font-bold mb-2">ISO 9001:2015</h3>
+                <h3 className="font-bold mb-2">{pick(certCardCopy.iso.name, loc)}</h3>
                 <p className="text-sm text-gray-600">{t(loc, 'about.isoDesc')}</p>
               </div>
               <div className="text-center p-4 bg-gray-50 rounded-lg">

@@ -4,7 +4,7 @@ import { permanentRedirect } from 'next/navigation'
 
 export const metadata: Metadata = {
   title: 'Zimbabwe Fasteners Wholesale | Bulk Bolts & Screws Supplier | TradeGo',
-  description: 'Professional Zimbabwe fastener wholesale supplier. Factory prices for drywall screws, hex bolts, IBR nails, self-drilling screws. Shipping to Harare, Bulawayo, Mutare. Made to SABS 1195 / DIN / ISO.',
+  description: 'Professional Zimbabwe fastener wholesale supplier. Mill-level prices for drywall screws, hex bolts, IBR nails, self-drilling screws. Shipping to Harare, Bulawayo, Mutare. Made to SABS 1195 / DIN / ISO.',
   keywords: ['Zimbabwe fasteners', 'Harare bolts', 'Zimbabwe wholesale screws', 'Bulawayo nuts', 'African construction fasteners', 'mining fasteners Zimbabwe'],
   // 2026-07-16 23:30 GSC 修复: 加 canonical + 10-lang hreflang
   alternates: {
@@ -35,7 +35,7 @@ export default async function ZimbabweFastenersPage({ params }: { params: Promis
             Your Trusted Zimbabwe Fasteners Wholesale Partner
           </h1>
           <p className="text-xl mb-6">
-            20+ years supplying drywall screws, hex bolts, IBR nails, and self-drilling screws to Zimbabwe, South Africa, and Southern Africa at factory prices.
+            20+ years supplying drywall screws, hex bolts, IBR nails, and self-drilling screws to Zimbabwe, South Africa, and Southern Africa at mill-level prices.
           </p>
           <div className="flex flex-wrap gap-4">
             <a href={`/${locale}/products/`} className="bg-white text-[#0A3D62] px-6 py-3 rounded font-semibold hover:bg-gray-100">

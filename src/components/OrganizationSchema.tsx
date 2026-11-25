@@ -55,10 +55,14 @@ export default function OrganizationSchema({ locale = 'en' }: OrganizationSchema
       closes: '18:00',
       timeZone: 'Asia/Shanghai',
     },
-    // sameAs 只放实测可访问的官方账号，404 空号比不写更伤实体可信度（2026-11-24 逐个 curl 验证 200）
+    // sameAs 只放实测可访问的官方账号（2026-11-25 用已登录真浏览器逐个打开核对，FB/IG/Quora/Reddit 对 curl 有反爬，不能只信状态码）
     sameAs: [
+      'https://www.instagram.com/tradegofasteners/',
+      'https://www.facebook.com/profile.php?id=61596617862433',
       'https://x.com/tradego_fast',
       'https://www.youtube.com/@TradeGoFasteners',
+      'https://www.quora.com/profile/Edmond-Zhang-18',
+      'https://www.reddit.com/user/TradeGoFasteners/',
     ],
 
     // hasCredential 已移除（2026-11-25）。结构化数据里的 "made to SABS 1195 spec" 属无条件的强断言，

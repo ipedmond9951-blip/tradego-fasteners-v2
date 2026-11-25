@@ -7,7 +7,7 @@ interface CertificationsSectionProps { locale?: Locale }
 const certifications = [
   {
     key: 'iso',
-    name: 'ISO 9001:2015',
+    name: 'ISO 9001 (per order)',
     description: 'Quality Management System',
     // Professional checkmark icon for quality certification
     iconSvg: (

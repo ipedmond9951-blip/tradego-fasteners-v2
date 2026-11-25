@@ -3,7 +3,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'TradeGo Fasteners | ISO 9001 Africa Distributor',
-  description: 'SABS + ISO 9001 fastener manufacturer & exporter: drywall screws, self-drilling screws, bolts, nuts, IBR nails. Factory prices, sea freight to Africa.',
+  description: 'Fastener manufacturer & exporter working to SABS 1195 / DIN / ISO dimensions: drywall screws, self-drilling screws, bolts, nuts, IBR nails. Mill-level prices, sea freight to Africa.',
   verification: {
     google: 'B8o4b_2zfT64y2bbOMBlBLBpyMsc01wKJKcB8HlUYTg',
   },

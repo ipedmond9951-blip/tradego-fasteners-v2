@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   
   // 首页标题压到 55-60 字符（搜索结果页不截断），保留品类 + 认证 + 核心市场
   const titles: Record<string, string> = {
-    zh: '紧固件批发厂家｜ISO 9001 & SABS｜直供南部非洲',
+    zh: '紧固件批发厂家｜按 SABS 1195 规格生产｜南部非洲',
     en: 'Wholesale Fastener Manufacturer | Zimbabwe & S. Africa',
     es: 'Fabricante mayorista de fijaciones | África Austral',
     fr: 'Fabricant grossiste de fixations | Afrique australe',
@@ -49,16 +49,16 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     hi: 'फास्टनर थोक निर्माता | ज़िम्बाब्वे और दक्षिणी अफ्रीका',
   }
   const descriptions: Record<string, string> = {
-    zh: 'ISO 9001 & 按 SABS 1195 规格中国紧固件制造商,20年出口津巴布韦、南非、赞比亚、莫桑比克、博茨瓦纳。干壁钉、六角螺栓、IBR瓦钉、自钻螺丝,出厂价直供。发货至德班、贝拉、哈拉雷。',
-    en: 'Made to SABS 1195 / DIN / ISO China fastener manufacturer with 20+ years exporting to Zimbabwe, South Africa, Zambia, Mozambique, Botswana. Drywall screws, hex bolts, IBR nails, self-drilling screws at factory prices. Shipping to Durban, Beira, Harare.',
-    es: 'Fabricante chino de fijaciones con ISO 9001 y SABS, más de 20 años exportando a Zimbabue, Sudáfrica, Zambia, Mozambique y Botswana. Tornillos para pladur, pernos hexagonales, clavos IBR y tornillos autotaladrantes a precio de fábrica. Envíos a Durban, Beira y Harare.',
-    fr: 'Fabricant chinois de fixations produisant selon SABS 1195 / DIN / ISO, plus de 20 ans d’export vers le Zimbabwe, l’Afrique du Sud, la Zambie, le Mozambique et le Botswana. Vis à plaque de plâtre, boulons hexagonaux, clous IBR et vis autoperceuses au prix usine. Expéditions vers Durban, Beira et Harare.',
-    pt: 'Fabricante chinês de fixadores com ISO 9001 e SABS, há mais de 20 anos exportando para Zimbabué, África do Sul, Zâmbia, Moçambique e Botswana. Parafusos para gesso acartonado, parafusos sextavados, pregos IBR e parafusos autoperfurantes a preço de fábrica. Envios para Durban, Beira e Harare.',
-    ar: 'مصنع صيني للمثبتات حاصل على ISO 9001 وSABS، يصدّر منذ أكثر من 20 عامًا إلى زيمبابوي وجنوب أفريقيا وزامبيا وموزمبيق وبوتسوانا. براغي الجبس والبراغي السداسية ومسامير IBR والبراغي ذاتية الحفر بأسعار المصنع. شحن إلى ديربان وبيرا وهاراري.',
-    ru: 'Китайский производитель крепежа по SABS 1195 / DIN / ISO, более 20 лет поставок в Зимбабве, ЮАР, Замбию, Мозамбик и Ботсвану. Саморезы для гипсокартона, шестигранные болты, гвозди IBR и саморезы по металлу по заводским ценам. Отгрузка в Дурбан, Бейру и Хараре.',
-    ja: 'SABS 1195 / DIN / ISO 規格で製造する中国ファスナーメーカー。ジンバブエ、南アフリカ、ザンビア、モザンビーク、ボツワナへ 20 年以上輸出。石膏ボードねじ、六角ボルト、IBR 屋根釘、自穿孔ねじを工場価格で供給。ダーバン、ベイラ、ハラレへ出荷。',
-    de: 'Chinesischer Hersteller, der nach SABS 1195 / DIN / ISO fertigt von Verbindungselementen, seit über 20 Jahren Export nach Simbabwe, Südafrika, Sambia, Mosambik und Botswana. Trockenbau-Schrauben, Sechskantschrauben, IBR-Dachnägel und Bohrschrauben zu Fabrikpreisen. Versand nach Durban, Beira und Harare.',
-    hi: 'SABS 1195 / DIN / ISO मानक पर उत्पादन करने वाला चीनी फास्टनर निर्माता, 20 से अधिक वर्षों से ज़िम्बाब्वे, दक्षिण अफ्रीका, ज़ाम्बिया, मोज़ाम्बिक और बोत्सवाना को निर्यात। ड्राईवॉल स्क्रू, हेक्स बोल्ट, IBR नेल और सेल्फ-ड्रिलिंग स्क्रू फैक्ट्री मूल्य पर। डरबन, बेरा और हरारे तक शिपिंग।',
+    zh: '按 SABS 1195 / DIN / ISO 尺寸规格生产的中国紧固件制造商，20 年出口津巴布韦、南非、赞比亚、莫桑比克、博茨瓦纳。干壁钉、六角螺栓、IBR 瓦钉、自钻螺丝，工厂直采价；ISO 9001 与 SABS 证书按订单要求提供。发货至德班、贝拉、哈拉雷。',
+    en: 'Made to SABS 1195 / DIN / ISO China fastener manufacturer with 20+ years exporting to Zimbabwe, South Africa, Zambia, Mozambique, Botswana. Drywall screws, hex bolts, IBR nails, self-drilling screws at mill-level prices. Shipping to Durban, Beira, Harare.',
+    es: 'Fabricante chino de fijaciones según SABS 1195 / DIN / ISO, más de 20 años exportando a Zimbabue, Sudáfrica, Zambia, Mozambique y Botswana. Tornillos para pladur, pernos hexagonales, clavos IBR y tornillos autotaladrantes a precio de origen. Envíos a Durban, Beira y Harare.',
+    fr: 'Fabricant chinois de fixations produisant selon SABS 1195 / DIN / ISO, plus de 20 ans d’export vers le Zimbabwe, l’Afrique du Sud, la Zambie, le Mozambique et le Botswana. Vis à plaque de plâtre, boulons hexagonaux, clous IBR et vis autoperceuses au prix de production. Expéditions vers Durban, Beira et Harare.',
+    pt: 'Fabricante chinês de fixadores conforme SABS 1195 / DIN / ISO, há mais de 20 anos exportando para Zimbabué, África do Sul, Zâmbia, Moçambique e Botswana. Parafusos para gesso acartonado, parafusos sextavados, pregos IBR e parafusos autoperfurantes a preço de origem. Envios para Durban, Beira e Harare.',
+    ar: 'مصنع صيني للمثبتات يعمل وفق أبعاد SABS 1195 / DIN / ISO، يصدّر منذ أكثر من 20 عامًا إلى زيمبابوي وجنوب أفريقيا وزامبيا وموزمبيق وبوتسوانا. براغي الجبس والبراغي السداسية ومسامير IBR والبراغي ذاتية الحفر بأسعار المنشأ. شحن إلى ديربان وبيرا وهاراري.',
+    ru: 'Китайский производитель крепежа по SABS 1195 / DIN / ISO, более 20 лет поставок в Зимбабве, ЮАР, Замбию, Мозамбик и Ботсвану. Саморезы для гипсокартона, шестигранные болты, гвозди IBR и саморезы по металлу по ценам производителя. Отгрузка в Дурбан, Бейру и Хараре.',
+    ja: 'SABS 1195 / DIN / ISO 規格で製造する中国ファスナーメーカー。ジンバブエ、南アフリカ、ザンビア、モザンビーク、ボツワナへ 20 年以上輸出。石膏ボードねじ、六角ボルト、IBR 屋根釘、自穿孔ねじをメーカー価格で供給。ダーバン、ベイラ、ハラレへ出荷。',
+    de: 'Chinesischer Hersteller, der nach SABS 1195 / DIN / ISO fertigt von Verbindungselementen, seit über 20 Jahren Export nach Simbabwe, Südafrika, Sambia, Mosambik und Botswana. Trockenbau-Schrauben, Sechskantschrauben, IBR-Dachnägel und Bohrschrauben zu Herstellerpreisen. Versand nach Durban, Beira und Harare.',
+    hi: 'SABS 1195 / DIN / ISO मानक पर उत्पादन करने वाला चीनी फास्टनर निर्माता, 20 से अधिक वर्षों से ज़िम्बाब्वे, दक्षिण अफ्रीका, ज़ाम्बिया, मोज़ाम्बिक और बोत्सवाना को निर्यात। ड्राईवॉल स्क्रू, हेक्स बोल्ट, IBR नेल और सेल्फ-ड्रिलिंग स्क्रू निर्माता मूल्य पर। डरबन, बेरा और हरारे तक शिपिंग।',
   }
   
   return {

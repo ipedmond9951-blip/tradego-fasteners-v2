@@ -229,15 +229,15 @@ export const navLabels = {
 export const orgCopy = {
   description: L10(
     'TradeGo is a fastener manufacturer and exporter specializing in serving African construction markets for 20+ years. Products include drywall screws, self-drilling screws, hex bolts, nuts, IBR nails. Mill-direct pricing with sea freight to Durban, Lagos, Mombasa and 20+ African countries.',
-    'TradeGo 是按 SABS 1195 / DIN / ISO 规格生产的紧固件生产商与出口商，专注服务非洲建筑市场 20 余年。产品包括干墙螺丝、自钻螺丝、螺栓螺母、IBR 钉等。工厂价，海运至德班、拉各斯、蒙巴萨等 20 余个非洲国家。',
+    'TradeGo 是按 SABS 1195 / DIN / ISO 规格生产的紧固件生产商与出口商，专注服务非洲建筑市场 20 余年。产品包括干墙螺丝、自钻螺丝、螺栓螺母、IBR 钉等。工厂直采价，海运至德班、拉各斯、蒙巴萨等 20 余个非洲国家。',
     'TradeGo es un fabricante y exportador de fijaciones que produce según SABS 1195 / DIN / ISO, especializado en el mercado de la construcción africano desde hace más de 20 años. Productos: tornillos para placas de yeso, autotaladrantes, pernos hexagonales, tuercas, clavos IBR. Precios de fábrica con flete marítimo a Durban, Lagos, Mombasa y más de 20 países africanos.',
     "TradeGo est un fabricant et exportateur de visserie produisant selon SABS 1195 / DIN / ISO, spécialisé sur les marchés de la construction africains depuis plus de 20 ans. Produits : vis plaque de plâtre, vis autoforeuses, boulons hexagonaux, écrous, pointes IBR. Prix départ usine, fret maritime vers Durban, Lagos, Mombasa et plus de 20 pays africains.",
     'A TradeGo é uma fabricante e exportadora de fixadores que produz conforme SABS 1195 / DIN / ISO, especializada no mercado de construção africano há mais de 20 anos. Produtos: parafusos para drywall, autoatarraxantes, parafusos sextavados, porcas, pregos IBR. Preço de fábrica com frete marítimo para Durban, Lagos, Mombaça e mais de 20 países africanos.',
-    'TradeGo مصنّع ومصدّر مثبتات ينتج وفق SABS 1195 / DIN / ISO، متخصص في أسواق البناء الأفريقية منذ أكثر من 20 عاماً. تشمل المنتجات براغي الجبس وذاتية الحفر ومسامير سداسية وصواميل ومسامير IBR. أسعار المصنع مع شحن بحري إلى ديربان ولاغوس ومومباسا وأكثر من 20 دولة أفريقية.',
+    'TradeGo مصنّع ومصدّر مثبتات ينتج وفق SABS 1195 / DIN / ISO، متخصص في أسواق البناء الأفريقية منذ أكثر من 20 عاماً. تشمل المنتجات براغي الجبس وذاتية الحفر ومسامير سداسية وصواميل ومسامير IBR. أسعار المنشأ مع شحن بحري إلى ديربان ولاغوس ومومباسا وأكثر من 20 دولة أفريقية.',
     'TradeGo — производитель и экспортёр крепежа, работающий по SABS 1195 / DIN / ISO, специализируется на строительных рынках Африки более 20 лет. Продукция: винты для гипсокартона, саморезы, болты с шестигранной головкой, гайки, гвозди IBR. Заводские цены, морская доставка в Дурбан, Лагос, Момбасу и более 20 африканских стран.',
-    'TradeGo は SABS 1195 / DIN / ISO 規格で製造するファスナーメーカー兼輸出業者で、20 年以上にわたりアフリカ建設市場に特化しています。石膏ボード用ねじ、自穿孔ねじ、六角ボルト、ナット、IBR くぎなどを扱い、工場価格でダーバン、ラゴス、モンバサなど 20 カ国以上へ海上輸送します。',
-    'TradeGo ist ein Befestigungselemente-Hersteller, der nach SABS 1195 / DIN / ISO fertigt und Exporteur mit über 20 Jahren Fokus auf afrikanische Baumärkte. Sortiment: Trockenbauschrauben, Bohrschrauben, Sechskantschrauben, Muttern, IBR-Nägel. Fabrikpreise mit Seefracht nach Durban, Lagos, Mombasa und über 20 afrikanische Länder.',
-    'TradeGo SABS 1195 / DIN / ISO मानक पर उत्पादन करने वाला फास्टनर निर्माता एवं निर्यातक है, जो 20 से अधिक वर्षों से अफ्रीकी निर्माण बाज़ारों पर केंद्रित है। उत्पाद: ड्राईवॉल स्क्रू, सेल्फ-ड्रिलिंग स्क्रू, हेक्स बोल्ट, नट, IBR कील। फैक्ट्री मूल्य और डरबन, लागोस, मोम्बासा सहित 20+ अफ्रीकी देशों तक समुद्री ढुलाई।',
+    'TradeGo は SABS 1195 / DIN / ISO 規格で製造するファスナーメーカー兼輸出業者で、20 年以上にわたりアフリカ建設市場に特化しています。石膏ボード用ねじ、自穿孔ねじ、六角ボルト、ナット、IBR くぎなどを扱い、メーカー価格でダーバン、ラゴス、モンバサなど 20 カ国以上へ海上輸送します。',
+    'TradeGo ist ein Befestigungselemente-Hersteller, der nach SABS 1195 / DIN / ISO fertigt und Exporteur mit über 20 Jahren Fokus auf afrikanische Baumärkte. Sortiment: Trockenbauschrauben, Bohrschrauben, Sechskantschrauben, Muttern, IBR-Nägel. Herstellerpreise mit Seefracht nach Durban, Lagos, Mombasa und über 20 afrikanische Länder.',
+    'TradeGo SABS 1195 / DIN / ISO मानक पर उत्पादन करने वाला फास्टनर निर्माता एवं निर्यातक है, जो 20 से अधिक वर्षों से अफ्रीकी निर्माण बाज़ारों पर केंद्रित है। उत्पाद: ड्राईवॉल स्क्रू, सेल्फ-ड्रिलिंग स्क्रू, हेक्स बोल्ट, नट, IBR कील। निर्माता मूल्य और डरबन, लागोस, मोम्बासा सहित 20+ अफ्रीकी देशों तक समुद्री ढुलाई।',
   ),
   slogan: L10(
     'Reliable Fasteners, Delivered to Africa',
@@ -327,15 +327,15 @@ export const teamText = L10(
 export const siteSchemaCopy = {
   description: L10(
     'Made to SABS 1195 / DIN / ISO China fastener manufacturer. 20+ years exporting to Africa. Mill-direct prices for drywall screws, IBR nails, and construction fasteners.',
-    '按 SABS 1195 / DIN / ISO 规格生产的中国紧固件制造商。20 余年对非出口经验。干墙螺丝、IBR 钉、建筑紧固件工厂价直销。',
+    '按 SABS 1195 / DIN / ISO 规格生产的中国紧固件制造商。20 余年对非出口经验。干墙螺丝、IBR 钉、建筑紧固件工厂直采价。',
     'Fabricante chino de fijaciones que produce según SABS 1195 / DIN / ISO. Más de 20 años exportando a África. Precios de fábrica para tornillos para placas de yeso, clavos IBR y fijaciones de construcción.',
-    "Fabricant produisant selon SABS 1195 / DIN / ISO. Plus de 20 ans d'export vers l'Afrique. Prix d'usine pour vis plaque de plâtre, pointes IBR et visserie de construction.",
+    "Fabricant produisant selon SABS 1195 / DIN / ISO. Plus de 20 ans d'export vers l'Afrique. Prix de production pour vis plaque de plâtre, pointes IBR et visserie de construction.",
     'Fabricante chinês de fixadores que produce según SABS 1195 / DIN / ISO. Mais de 20 anos exportando para a África. Preços de fábrica para parafusos para drywall, pregos IBR e fixadores de construção.',
-    'مصنّع صيني للمثبتات ينتج وفق SABS 1195 / DIN / ISO. أكثر من 20 عاماً من التصدير إلى أفريقيا. أسعار المصنع لبراغي الجبس ومسامير IBR ومثبتات البناء.',
+    'مصنّع صيني للمثبتات ينتج وفق SABS 1195 / DIN / ISO. أكثر من 20 عاماً من التصدير إلى أفريقيا. أسعار المنشأ لبراغي الجبس ومسامير IBR ومثبتات البناء.',
     'Китайский производитель крепежа по SABS 1195 / DIN / ISO. Более 20 лет экспорта в Африку. Заводские цены на винты для гипсокартона, гвозди IBR и строительный крепёж.',
-    'SABS 1195 / DIN / ISO 規格で製造する中国ファスナーメーカー。20 年以上アフリカへ輸出。石膏ボード用ねじ、IBR くぎ、建築ファスナーを工場価格で供給。',
-    'Chinesischer Befestigungselemente-Hersteller, gefertigt nach SABS 1195 / DIN / ISO. Über 20 Jahre Export nach Afrika. Fabrikpreise für Trockenbauschrauben, IBR-Nägel und Baubefestigungen.',
-    'SABS 1195 / DIN / ISO मानक पर उत्पादन करने वाला चीनी फास्टनर निर्माता। 20+ वर्षों से अफ्रीका को निर्यात। ड्राईवॉल स्क्रू, IBR कील और निर्माण फास्टनर फैक्ट्री मूल्य पर।',
+    'SABS 1195 / DIN / ISO 規格で製造する中国ファスナーメーカー。20 年以上アフリカへ輸出。石膏ボード用ねじ、IBR くぎ、建築ファスナーをメーカー価格で供給。',
+    'Chinesischer Befestigungselemente-Hersteller, gefertigt nach SABS 1195 / DIN / ISO. Über 20 Jahre Export nach Afrika. Herstellerpreise für Trockenbauschrauben, IBR-Nägel und Baubefestigungen.',
+    'SABS 1195 / DIN / ISO मानक पर उत्पादन करने वाला चीनी फास्टनर निर्माता। 20+ वर्षों से अफ्रीका को निर्यात। ड्राईवॉल स्क्रू, IBR कील और निर्माण फास्टनर निर्माता मूल्य पर।',
   ),
   keywords: L10(
     'drywall screws, IBR nails, fastener, China manufacturer, Africa, construction, wholesale',
@@ -515,7 +515,7 @@ export const articleCta = {
 // 认证徽标与询盘表单选项（2026-11-24 新增，原为硬编码英文）
 export const badgeCopy = {
   sabs: L10('made to SABS 1195 spec', '按 SABS 1195 规格', 'según SABS 1195', 'selon SABS 1195', 'conforme SABS 1195', 'وفق SABS 1195', 'по SABS 1195', 'SABS 1195 規格', 'nach SABS 1195', 'SABS 1195 मानक'),
-  ce: L10('CE Marked', 'CE 认证', 'Marcado CE', 'Marquage CE', 'Marcação CE', 'علامة CE', 'Маркировка CE', 'CE マーク', 'CE-Kennzeichnung', 'CE चिह्नित'),
+  ce: L10('CE marking, per order', 'CE 按订单办理', 'CE según pedido', 'CE selon commande', 'CE conforme pedido', 'CE حسب الطلب', 'CE под заказ', 'CE（注文単位）', 'CE nach Auftrag', 'CE ऑर्डर अनुसार'),
   madeIn: L10('Made in China', '中国制造', 'Fabricado en China', 'Fabriqué en Chine', 'Fabricado na China', 'صناعة صينية', 'Сделано в Китае', '中国製', 'Hergestellt in China', 'चीन में निर्मित'),
   b2b: L10('B2B Verified', 'B2B 认证', 'Verificado B2B', 'Vérifié B2B', 'Verificado B2B', 'موثّق B2B', 'Проверено B2B', 'B2B 認証', 'B2B-geprüft', 'B2B सत्यापित'),
 }
@@ -648,7 +648,7 @@ export const allCategoriesLabel = L10('All', '全部', 'Todos', 'Tous', 'Todos',
 // 认证卡片：名称与释义十语（原先非英语站只显示英文 Certification 说明）
 export const certCardCopy: Record<string, { name: Record<string, string>; desc: Record<string, string> }> = {
   iso: {
-    name: L10('ISO 9001:2015', 'ISO 9001:2015', 'ISO 9001:2015', 'ISO 9001:2015', 'ISO 9001:2015', 'ISO 9001:2015', 'ISO 9001:2015', 'ISO 9001:2015', 'ISO 9001:2015', 'ISO 9001:2015'),
+    name: L10('ISO 9001 (per order)', 'ISO 9001（按订单）', 'ISO 9001 (según pedido)', 'ISO 9001 (selon commande)', 'ISO 9001 (conforme pedido)', 'ISO 9001 (حسب الطلب)', 'ISO 9001 (под заказ)', 'ISO 9001（注文単位）', 'ISO 9001 (nach Auftrag)', 'ISO 9001 (ऑर्डर अनुसार)'),
     desc: L10('Quality Management System', '质量管理体系', 'Sistema de gestión de calidad', 'Système de management de la qualité', 'Sistema de gestão da qualidade', 'نظام إدارة الجودة', 'Система менеджмента качества', '品質マネジメントシステム', 'Qualitätsmanagementsystem', 'गुणवत्ता प्रबंधन प्रणाली'),
   },
   sabs: {
@@ -656,7 +656,7 @@ export const certCardCopy: Record<string, { name: Record<string, string>; desc: 
     desc: L10('South African Standards', '南非国家标准', 'Normas sudafricanas', 'Normes sud-africaines', 'Normas sul-africanas', 'المعايير الجنوب أفريقية', 'Стандарты ЮАР', '南アフリカ規格', 'Südafrikanische Normen', 'दक्षिण अफ़्रीकी मानक'),
   },
   ce: {
-    name: L10('CE Marking', 'CE 认证', 'Marcado CE', 'Marquage CE', 'Marcação CE', 'علامة CE', 'Маркировка CE', 'CE マーク', 'CE-Kennzeichnung', 'CE मार्किंग'),
+    name: L10('CE marking (per order)', 'CE（按订单）', 'CE (según pedido)', 'CE (selon commande)', 'CE (conforme pedido)', 'CE (حسب الطلب)', 'CE (под заказ)', 'CE（注文単位）', 'CE (nach Auftrag)', 'CE (ऑर्डर अनुसार)'),
     desc: L10('European Conformity', '欧盟合规', 'Conformidad europea', 'Conformité européenne', 'Conformidade europeia', 'المطابقة الأوروبية', 'Соответствие ЕС', '欧州適合', 'Europäische Konformität', 'यूरोपीय अनुरूपता'),
   },
   tests: {
