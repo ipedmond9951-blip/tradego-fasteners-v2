@@ -194,42 +194,52 @@
    "faqItems": [
     {
      "q": {
-      "en": "Which coating is best for African outdoor use?"
+      "en": "Which coating is best for African outdoor use?",
+      "zh": "非洲户外用哪种涂层最划算？"
      },
      "a": {
-      "en": "Hot-dip galvanizing provides the best value for general outdoor use in African climates. For harsh environments (coastal, mining), consider Dacromet or stainless steel."
+      "en": "Hot-dip galvanizing provides the best value for general outdoor use in African climates. For harsh environments (coastal, mining), consider Dacromet or stainless steel.",
+      "zh": "非洲户外一般工况下，热浸镀锌（HDG）性价比最高；沿海、矿山等严酷环境，可考虑达克罗（Zn-Al 涂层）或不锈钢。"
      }
     },
     {
      "q": {
-      "en": "Can coatings be applied to stainless steel fasteners?"
+      "en": "Can coatings be applied to stainless steel fasteners?",
+      "zh": "不锈钢紧固件还能再做涂层吗？"
      },
      "a": {
-      "en": "Generally no - stainless steel's corrosion resistance comes from the material itself, not a coating. Coatings on stainless are unnecessary and may cause issues."
+      "en": "Generally no - stainless steel's corrosion resistance comes from the material itself, not a coating. Coatings on stainless are unnecessary and may cause issues.",
+      "zh": "一般不需要。不锈钢的耐腐蚀性能来自材料本身，而非表面涂层；在不锈钢上再加涂层没有必要，反而可能带来问题。"
      }
     },
     {
      "q": {
-      "en": "What's the difference between zinc plating and zinc flake coatings?"
+      "en": "What's the difference between zinc plating and zinc flake coatings?",
+      "zh": "电镀锌和锌片涂层有什么区别？"
      },
      "a": {
-      "en": "Zinc plating is smooth and thin (5-15μm). Zinc flake (Dacromet/GEOMET) is thicker (8-12μm) with a textured surface providing superior corrosion resistance."
+      "en": "Zinc plating is smooth and thin (5-15μm). Zinc flake (Dacromet/GEOMET) is thicker (8-12μm) with a textured surface providing superior corrosion resistance.",
+      "zh": "电镀锌表面光滑、镀层薄，约 5–15μm；锌片涂层（达克罗）镀层更厚，约 8–12μm，表面呈纹理状，耐腐蚀性能优于电镀锌。"
      }
     },
     {
      "q": {
-      "en": "Do coated fasteners affect thread strength?"
+      "en": "Do coated fasteners affect thread strength?",
+      "zh": "涂层会影响螺纹配合吗？"
      },
      "a": {
-      "en": "Coatings add thickness that can affect thread fit. Specify oversize threads or minimum thread engagement where coating thickness is significant."
+      "en": "Coatings add thickness that can affect thread fit. Specify oversize threads or minimum thread engagement where coating thickness is significant.",
+      "zh": "涂层会增加厚度，从而影响螺纹配合。当镀层较厚时，应注明加大螺纹或保证最小螺纹旋合长度。"
      }
     },
     {
      "q": {
-      "en": "Can different coated fasteners be used together?"
+      "en": "Can different coated fasteners be used together?",
+      "zh": "不同涂层的紧固件能混用吗？"
      },
      "a": {
-      "en": "Avoid mixing significantly different metals. Coated carbon steel fasteners are generally compatible with each other."
+      "en": "Avoid mixing significantly different metals. Coated carbon steel fasteners are generally compatible with each other.",
+      "zh": "应避免金属性质差异很大的材料混装；同样经过涂层处理的碳钢紧固件之间，一般可以配合使用。"
      }
     }
    ]
