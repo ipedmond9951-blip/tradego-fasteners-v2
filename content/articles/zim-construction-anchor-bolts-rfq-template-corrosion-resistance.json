@@ -255,6 +255,56 @@
             "ru": "В запросе (RFQ) указывают класс и стандарт, диаметр и полную длину, длину резьбы, геометрию изгиба или крюка, спецификацию покрытия, нужные сертификаты испытаний, упаковку и порт поставки. Без этих данных предложения между собой не сравнить: неполный запрос даёт разные по конструкции болты под одной и той же позицией.",
             "ar": "الدرجة والمعيار، والقطر والطول الكلي، وطول الخيط، وهندسة الانحناء أو الخطاف، ومواصفة الطلاء، وشهادات الفحص المطلوبة، والتعبئة وميناء التسليم. لا يمكن مقارنة عرض سعر يخلو من هذه العناصر. ويُرفق الرسم الهندسي للمرساة وقياسات التثبيت في القاعدة، لتجنب اختلاف تفسير طول الخيط وموضع الانحناء بين المشتري والمورد."
           }
+        },
+        {
+          "q": {
+            "en": "What ASTM grade should we specify for highway guardrail anchor bolts?",
+            "zh": "公路护栏锚栓应指定什么ASTM等级？"
+          },
+          "a": {
+            "en": "For highway guardrail installations, ASTM F1554 Grade 36 is typically sufficient and cost-effective. Grade 36 provides adequate yield strength (36 ksi / 248 MPa) with good ductility. However, in high-load crash barriers or variable soil conditions, consider Grade 55 for additional safety margin. Always verify design loads with the structural engineer.",
+            "zh": "对于公路护栏安装，ASTM F1554 Grade 36通常足够且具有成本效益。Grade 36提供足够的屈服强度（36 ksi / 248 MPa），具有良好的延展性。然而，在高荷载护栏或可变土壤条件下，请考虑使用Grade 55以增加安全余度。务必与结构工程师确认设计荷载。"
+          }
+        },
+        {
+          "q": {
+            "en": "Can we use Grade 105 anchor bolts in corrosive environments?",
+            "zh": "Grade 105锚栓能在腐蚀环境中使用吗？"
+          },
+          "a": {
+            "en": "Yes, Grade 105 anchor bolts can be galvanized. However, hydrogen embrittlement risk increases with tensile strengths above 150 ksi. For most galvanizing operations, the risk is low, but verify with the manufacturer that proper post-galvanizing baking is performed. For highly corrosive environments, consider stainless steel Grade 316 (A4) as an alternative.",
+            "zh": "是的，Grade 105锚栓可以镀锌。然而，当抗拉强度超过150 ksi时，氢脆风险增加。对于大多数镀锌操作，风险较低，但请验证制造商是否进行了适当的镀锌后烘烤。对于高腐蚀环境，请考虑使用不锈钢Grade 316（A4）作为替代方案。"
+          }
+        },
+        {
+          "q": {
+            "en": "How do we verify that anchor bolts meet ASTM F1554?",
+            "zh": "如何验证锚栓符合ASTM F1554？"
+          },
+          "a": {
+            "en": "Request mill test certificates from the supplier, which should include heat number, chemical composition, tensile test results, and coating thickness verification. Ensure testing is performed by an ISO 17025 accredited laboratory. For critical applications, consider third-party inspection at the manufacturer's facility before shipment.",
+            "zh": "向供应商索取工厂测试证书，包括炉号、化学成分、拉伸试验结果和涂层厚度验证。确保由ISO 17025认可实验室进行测试。对于关键应用，请考虑在装运前在制造商设施进行第三方检验。"
+          }
+        },
+        {
+          "q": {
+            "en": "What is the lead time for ASTM F1554 anchor bolts from South Africa or China?",
+            "zh": "从南非或中国采购ASTM F1554锚栓的交货时间是多久？"
+          },
+          "a": {
+            "en": "Lead times vary by source: South Africa (SADC origin) offers 2-4 weeks for standard grades, 4-6 weeks for custom galvanized, with SADC duty-free and shorter shipping. China requires 6-10 weeks for standard production, 8-12 weeks for custom galvanized. For urgent requirements, South African suppliers offer faster delivery. Plan procurement at least 8 weeks ahead.",
+            "zh": "交货时间因来源而异：南非（SADC来源）标准等级2-4周，定制镀锌4-6周，SADC免税且运输较短。中国标准生产6-10周，定制镀锌8-12周。对于紧急要求，南非供应商提供更快的交货。提前至少8周计划采购。"
+          }
+        },
+        {
+          "q": {
+            "en": "Are SADC Certificate of Origin requirements strict for fastener imports?",
+            "zh": "SADC原产地证书要求对紧固件进口严格吗？"
+          },
+          "a": {
+            "en": "Yes, SADC Rules of Origin requirements are enforced by ZIMRA. To qualify for duty-free treatment, minimum 35% local content or value addition must be achieved, and the product must be substantially transformed. A valid Certificate of Origin must accompany the shipment. False claims can result in penalties and cargo seizure.",
+            "zh": "是的，ZIMRA执行SADC原产地规则。要获得免税资格，必须达到最低35%当地含量或增值，且产品必须经过实质性改造。有效原产地证书必须随货同行。虚假申报可能导致处罚和货物扣押。"
+          }
         }
       ]
     }
