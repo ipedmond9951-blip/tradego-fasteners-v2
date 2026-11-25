@@ -237,26 +237,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "How does a sleeve anchor develop its hold?"
+            "en": "How does a sleeve anchor develop its hold?",
+            "zh": "套管锚栓靠什么锚固？"
           },
           "a": {
-            "en": "Tightening the nut pulls the cone into the sleeve, expanding it against the hole wall. The anchor can be removed later, which is the main practical difference from a wedge anchor."
+            "en": "Tightening the nut pulls the cone into the sleeve, expanding it against the hole wall. The anchor can be removed later, which is the main practical difference from a wedge anchor.",
+            "zh": "拧紧螺母时，锥头被拉入套管，套管向外胀开贴紧孔壁。套管锚栓日后可以拆卸，这是它与楔型锚栓在使用上的主要区别。"
           }
         },
         {
           "q": {
-            "en": "Do sleeve anchors work in brick or hollow block?"
+            "en": "Do sleeve anchors work in brick or hollow block?",
+            "zh": "砖墙或空心砌块上能用套管锚栓吗？"
           },
           "a": {
-            "en": "Only in solid masonry. In hollow block or thin brick the sleeve cannot develop full contact, so chemical anchors or through-bolts are more dependable."
+            "en": "Only in solid masonry. In hollow block or thin brick the sleeve cannot develop full contact, so chemical anchors or through-bolts are more dependable.",
+            "zh": "只能用于实心砌体。空心砌块或薄砖中套管无法形成充分接触，这种场合改用化学锚栓或贯穿螺栓更可靠。"
           }
         },
         {
           "q": {
-            "en": "What should a purchase order state?"
+            "en": "What should a purchase order state?",
+            "zh": "采购订单要写明哪些参数？"
           },
           "a": {
-            "en": "Substrate, anchor diameter, total length, effective embedment, hole diameter, thread form, material grade, finish and packing. Those are the same fields the site crew uses when drilling."
+            "en": "Substrate, anchor diameter, total length, effective embedment, hole diameter, thread form, material grade, finish and packing. Those are the same fields the site crew uses when drilling.",
+            "zh": "基材、锚栓直径、总长度、有效埋深、钻孔直径、螺纹形式、材料等级、表面处理和包装。这些字段与现场钻孔时使用的参数一致，写全才能避免错发规格。"
           }
         }
       ]
