@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-25T17:26:48+08:00",
- "total": 742,
+ "generated": "2026-11-25T17:31:18+08:00",
+ "total": 762,
  "items": [
   {
    "slug": "africa-railway-modernization-fastener-demand",
@@ -4224,6 +4224,17 @@
    ]
   },
   {
+   "slug": "china-hex-nuts-manufacturer",
+   "lang": "fr",
+   "coverage": 0.25,
+   "sections": 4,
+   "missing": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
    "slug": "concrete-anchors-fasteners-guide",
    "lang": "zh",
    "coverage": 0.25,
@@ -4276,6 +4287,39 @@
     1,
     2,
     3
+   ]
+  },
+  {
+   "slug": "fastener-cost-analysis-template",
+   "lang": "zh",
+   "coverage": 0.25,
+   "sections": 4,
+   "missing": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "slug": "fastener-cost-analysis-template",
+   "lang": "ar",
+   "coverage": 0.25,
+   "sections": 4,
+   "missing": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "slug": "fastener-negotiation-supplier-china",
+   "lang": "ja",
+   "coverage": 0.25,
+   "sections": 4,
+   "missing": [
+    0,
+    1,
+    2
    ]
   },
   {
@@ -4347,6 +4391,17 @@
   {
    "slug": "nylon-nuts-bolts-guide",
    "lang": "zh",
+   "coverage": 0.25,
+   "sections": 4,
+   "missing": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "slug": "payment-terms-international-fastener-trade",
+   "lang": "ar",
    "coverage": 0.25,
    "sections": 4,
    "missing": [
@@ -5518,6 +5573,18 @@
     1,
     2,
     3
+   ]
+  },
+  {
+   "slug": "u-bolts-pipe-clamps-guide",
+   "lang": "ja",
+   "coverage": 0.33,
+   "sections": 6,
+   "missing": [
+    1,
+    2,
+    3,
+    4
    ]
   },
   {
@@ -7142,6 +7209,36 @@
    ]
   },
   {
+   "slug": "china-hex-nuts-manufacturer",
+   "lang": "zh",
+   "coverage": 0.5,
+   "sections": 4,
+   "missing": [
+    0,
+    3
+   ]
+  },
+  {
+   "slug": "china-hex-nuts-manufacturer",
+   "lang": "es",
+   "coverage": 0.5,
+   "sections": 4,
+   "missing": [
+    1,
+    2
+   ]
+  },
+  {
+   "slug": "china-hex-nuts-manufacturer",
+   "lang": "de",
+   "coverage": 0.5,
+   "sections": 4,
+   "missing": [
+    1,
+    2
+   ]
+  },
+  {
    "slug": "durban-fastener-supplier",
    "lang": "fr",
    "coverage": 0.5,
@@ -7182,8 +7279,18 @@
    ]
   },
   {
-   "slug": "fastener-cost-analysis-template",
-   "lang": "zh",
+   "slug": "fastener-negotiation-supplier-china",
+   "lang": "ar",
+   "coverage": 0.5,
+   "sections": 4,
+   "missing": [
+    0,
+    1
+   ]
+  },
+  {
+   "slug": "fastener-negotiation-supplier-china",
+   "lang": "fr",
    "coverage": 0.5,
    "sections": 4,
    "missing": [
@@ -7253,6 +7360,26 @@
   },
   {
    "slug": "micro-precision-screws-electronic-guide",
+   "lang": "de",
+   "coverage": 0.5,
+   "sections": 4,
+   "missing": [
+    1,
+    2
+   ]
+  },
+  {
+   "slug": "payment-terms-international-fastener-trade",
+   "lang": "zh",
+   "coverage": 0.5,
+   "sections": 4,
+   "missing": [
+    0,
+    3
+   ]
+  },
+  {
+   "slug": "payment-terms-international-fastener-trade",
    "lang": "de",
    "coverage": 0.5,
    "sections": 4,
@@ -8090,6 +8217,36 @@
    ]
   },
   {
+   "slug": "u-bolts-pipe-clamps-guide",
+   "lang": "zh",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    1,
+    5
+   ]
+  },
+  {
+   "slug": "u-bolts-pipe-clamps-guide",
+   "lang": "ar",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    3,
+    4
+   ]
+  },
+  {
+   "slug": "u-bolts-pipe-clamps-guide",
+   "lang": "pt",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    3,
+    5
+   ]
+  },
+  {
    "slug": "china-fasteners-zimbabwe-procurement-guide",
    "lang": "ar",
    "coverage": 0.69,
@@ -8465,20 +8622,29 @@
   },
   {
    "slug": "china-hex-nuts-manufacturer",
-   "lang": "zh",
+   "lang": "ar",
    "coverage": 0.75,
    "sections": 4,
    "missing": [
-    3
+    2
    ]
   },
   {
    "slug": "china-hex-nuts-manufacturer",
-   "lang": "fr",
+   "lang": "pt",
    "coverage": 0.75,
    "sections": 4,
    "missing": [
-    3
+    2
+   ]
+  },
+  {
+   "slug": "china-hex-nuts-manufacturer",
+   "lang": "ru",
+   "coverage": 0.75,
+   "sections": 4,
+   "missing": [
+    2
    ]
   },
   {
@@ -8515,6 +8681,33 @@
    "sections": 4,
    "missing": [
     3
+   ]
+  },
+  {
+   "slug": "fastener-cost-analysis-template",
+   "lang": "pt",
+   "coverage": 0.75,
+   "sections": 4,
+   "missing": [
+    1
+   ]
+  },
+  {
+   "slug": "fastener-cost-analysis-template",
+   "lang": "ru",
+   "coverage": 0.75,
+   "sections": 4,
+   "missing": [
+    1
+   ]
+  },
+  {
+   "slug": "fastener-cost-analysis-template",
+   "lang": "ja",
+   "coverage": 0.75,
+   "sections": 4,
+   "missing": [
+    2
    ]
   },
   {
@@ -8654,16 +8847,25 @@
   },
   {
    "slug": "payment-terms-international-fastener-trade",
-   "lang": "zh",
+   "lang": "es",
    "coverage": 0.75,
    "sections": 4,
    "missing": [
-    3
+    2
    ]
   },
   {
    "slug": "payment-terms-international-fastener-trade",
-   "lang": "es",
+   "lang": "fr",
+   "coverage": 0.75,
+   "sections": 4,
+   "missing": [
+    1
+   ]
+  },
+  {
+   "slug": "payment-terms-international-fastener-trade",
+   "lang": "ja",
    "coverage": 0.75,
    "sections": 4,
    "missing": [
