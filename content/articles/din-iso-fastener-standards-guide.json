@@ -340,26 +340,32 @@
    "faqItems": [
     {
      "q": {
-      "en": "Are DIN and ISO fasteners interchangeable?"
+      "en": "Are DIN and ISO fasteners interchangeable?",
+      "zh": "DIN 与 ISO 紧固件可以互换吗？"
      },
      "a": {
-      "en": "Yes, in most cases. DIN and ISO hex bolt standards are dimensionally identical. A DIN 931 bolt will fit an ISO 4014 application. However, always verify the property class and coating match the engineering specification."
+      "en": "Yes, in most cases. DIN and ISO hex bolt standards are dimensionally identical. A DIN 931 bolt will fit an ISO 4014 application. However, always verify the property class and coating match the engineering specification.",
+      "zh": "多数情况下可以。DIN 与 ISO 的六角螺栓标准尺寸一致，DIN 931 螺栓可以装到 ISO 4014 的应用场合。但选用前仍须核对性能等级与涂层是否符合工程规范，不能只凭外形通用就直接替代。"
      }
     },
     {
      "q": {
-      "en": "What property class should I use for structural steel in Africa?"
+      "en": "What property class should I use for structural steel in Africa?",
+      "zh": "非洲钢结构连接该选什么性能等级？"
      },
      "a": {
-      "en": "Property class 10.9 (ISO) or 8.8 (DIN) is standard for structural steel connections in most African building codes. For coastal or high-humidity environments, specify hot-dip galvanized 10.9 bolts. Always consult local SABS or equivalent standards."
+      "en": "Property class 10.9 (ISO) or 8.8 (DIN) is standard for structural steel connections in most African building codes. For coastal or high-humidity environments, specify hot-dip galvanized 10.9 bolts. Always consult local SABS or equivalent standards.",
+      "zh": "多数非洲建筑规范中，钢结构连接常用 ISO 10.9 级或 DIN 8.8 级。沿海或高湿度环境应指定热浸镀锌（HDG）的 10.9 级螺栓；具体还要对照当地 SABS 或同等标准执行。"
      }
     },
     {
      "q": {
-      "en": "Can I use DIN bolts with ISO nuts?"
+      "en": "Can I use DIN bolts with ISO nuts?",
+      "zh": "DIN 螺栓能配 ISO 螺母吗？"
      },
      "a": {
-      "en": "Yes, DIN 934 nuts and ISO 4032 nuts are dimensionally identical and fully interchangeable. The same applies to washers (DIN 125 / ISO 7089). Mixing DIN and ISO components from the same property class is standard industry practice."
+      "en": "Yes, DIN 934 nuts and ISO 4032 nuts are dimensionally identical and fully interchangeable. The same applies to washers (DIN 125 / ISO 7089). Mixing DIN and ISO components from the same property class is standard industry practice.",
+      "zh": "可以。DIN 934 与 ISO 4032 螺母尺寸一致、完全互换；垫圈也对应一致（DIN 125 与 ISO 7089）。只要性能等级相同，德标与国标零件混合搭配是行业通行做法，采购时按等级核对即可。"
      }
     }
    ],
