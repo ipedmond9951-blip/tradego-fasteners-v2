@@ -199,51 +199,61 @@
     {
      "q": {
       "en": "Can I substitute DIN bolts for SABS bolts on a South African project?",
-      "zh": "在南非项目中可以用DIN螺栓替代SABS螺栓吗？"
+      "zh": "在南非项目中可以用DIN螺栓替代SABS螺栓吗？",
+      "hi": "दक्षिण अफ्रीका परियोजना में SABS बोल्ट की जगह DIN बोल्ट लगा सकते हैं?"
      },
      "a": {
       "en": "Only if the project specifications allow it and the DIN bolts meet equivalent mechanical properties. For government-funded projects, SABS certification is typically mandatory. Check with the project engineer before substituting.",
-      "zh": "仅在项目规范允许且DIN螺栓满足等效机械性能时可以。政府资助项目通常强制要求SABS认证。替换前需与项目工程师确认。"
+      "zh": "仅在项目规范允许且DIN螺栓满足等效机械性能时可以。政府资助项目通常强制要求SABS认证。替换前需与项目工程师确认。",
+      "hi": "तभी, जब परियोजना की स्पेसिफिकेशन अनुमति दें और DIN बोल्ट समकक्ष यांत्रिक गुणधर्म पूरे करते हों। सरकारी वित्तपोषित परियोजनाओं में SABS अनुरूपता आम तौर पर अनिवार्य होती है; जरूरी प्रमाण-पत्र ऑर्डर पर उपलब्ध कराए जाते हैं। बदलाव से पहले परियोजना इंजीनियर से पुष्टि करें।"
      }
     },
     {
      "q": {
       "en": "Are GB standard fasteners acceptable for international projects?",
-      "zh": "GB标准紧固件在国际项目中是否可接受？"
+      "zh": "GB标准紧固件在国际项目中是否可接受？",
+      "hi": "क्या GB मानक फास्टनर अंतरराष्ट्रीय परियोजनाओं के लिए स्वीकार्य हैं?"
      },
      "a": {
       "en": "Yes, provided they meet the specified mechanical grade requirements and come with proper test certifications. GB/T standards are increasingly aligned with ISO standards. Always request MTC and test reports.",
-      "zh": "是的，前提是满足规定的机械等级要求并附有适当的测试认证。GB/T标准日益与ISO标准对齐。务必要求MTC和测试报告。"
+      "zh": "是的，前提是满足规定的机械等级要求并附有适当的测试认证。GB/T标准日益与ISO标准对齐。务必要求MTC和测试报告。",
+      "hi": "हां, बशर्ते वे निर्दिष्ट ग्रेड की यांत्रिक आवश्यकताएं पूरी करें और साथ में उचित परीक्षण दस्तावेज़ हों। GB/T मानक तेज़ी से ISO मानकों के साथ मेल खा रहे हैं। ऑर्डर करते समय हमेशा MTC और परीक्षण रिपोर्ट मांगें; ये दस्तावेज़ ऑर्डर पर उपलब्ध कराए जाते हैं।"
      }
     },
     {
      "q": {
       "en": "Can DIN, ANSI and GB fasteners be substituted for each other?",
-      "zh": "DIN、ANSI、GB 紧固件能互相替代吗？"
+      "zh": "DIN、ANSI、GB 紧固件能互相替代吗？",
+      "hi": "DIN, ANSI और GB फास्टनर एक-दूसरे की जगह इस्तेमाल हो सकते हैं?"
      },
      "a": {
       "en": "Only after comparing dimensions and mechanical properties item by item. DIN/EN ISO and GB share the metric M series and often interchange in size, while ANSI/ASME uses inch diameters with UNC/UNF threads and different head dimensions. Substituting by grade number alone (8.8 vs Grade 5) without checking thread, head and length is how joints fail inspection.",
-      "zh": "必须逐项对比尺寸与机械性能后才能替代。DIN/EN ISO 与 GB 同属米制 M 系列，尺寸常可互换；ANSI/ASME 用英寸直径与 UNC/UNF 螺纹，头型尺寸也不同。只看等级编号（8.8 对 Grade 5）而不核对螺纹、头型与长度，是验收出问题的常见原因。"
+      "zh": "必须逐项对比尺寸与机械性能后才能替代。DIN/EN ISO 与 GB 同属米制 M 系列，尺寸常可互换；ANSI/ASME 用英寸直径与 UNC/UNF 螺纹，头型尺寸也不同。只看等级编号（8.8 对 Grade 5）而不核对螺纹、头型与长度，是验收出问题的常见原因。",
+      "hi": "आयामों और यांत्रिक गुणधर्मों की एक-एक करके तुलना करने के बाद ही। DIN/EN ISO और GB मीट्रिक M श्रृंखला साझा करते हैं और अक्सर आकार में अदला-बदली हो जाती है, जबकि ANSI/ASME इंच व्यास, UNC/UNF धागे और अलग सिर के आयाम रखता है। केवल ग्रेड नंबर (8.8 बनाम ग्रेड 5) देखकर धागा, सिर और लंबाई जांचे बिना बदलाव जोड़ की जांच विफल कर देता है।"
      }
     },
     {
      "q": {
       "en": "How do grade systems compare across standards?",
-      "zh": "不同标准的等级体系怎么对照？"
+      "zh": "不同标准的等级体系怎么对照？",
+      "hi": "मानकों के बीच ग्रेड प्रणाली कैसे मिलान करें?"
      },
      "a": {
       "en": "Metric 8.8 corresponds roughly to SAE J429 Grade 5, and 10.9 to Grade 8 in tensile strength, but proof load, head size and thread form still differ. Stainless A2-70 and A4-70 map to 304 and 316 families. Always compare the actual mechanical property table, not the label.",
-      "zh": "米制 8.8 抗拉强度大致对应 SAE J429 Grade 5，10.9 对应 Grade 8，但保证载荷、头型尺寸与螺纹型式仍有差异。不锈钢 A2-70、A4-70 分别对应 304、316 系。要以机械性能表逐项对照，而不是看标签。"
+      "zh": "米制 8.8 抗拉强度大致对应 SAE J429 Grade 5，10.9 对应 Grade 8，但保证载荷、头型尺寸与螺纹型式仍有差异。不锈钢 A2-70、A4-70 分别对应 304、316 系。要以机械性能表逐项对照，而不是看标签。",
+      "hi": "मीट्रिक 8.8 लगभग SAE J429 ग्रेड 5 से मेल खाता है, और 10.9 तनाव शक्ति में ग्रेड 8 के बराबर है, परंतु प्रूफ लोड, सिर का आकार और धागे का रूप अलग रहता है। स्टेनलेस A2-70 और A4-70 क्रमशः 304 और 316 परिवार से जुड़े हैं। लेबल के बजाय हमेशा असली यांत्रिक गुणधर्म तालिका की तुलना करें।"
      }
     },
     {
      "q": {
       "en": "What certification does an African buyer usually require?",
-      "zh": "非洲买家通常要求哪些认证？"
+      "zh": "非洲买家通常要求哪些认证？",
+      "hi": "अफ्रीकी खरीदार आम तौर पर कौन-से प्रमाण-पत्र मांगते हैं?"
      },
      "a": {
       "en": "Expect EN 10204 3.1 mill test certificates for structural lots, ISO 9001 for the supplier, and destination-specific conformity such as SABS or SONCAP. Large projects often add third-party pre-shipment inspection. Certificates must reference the actual heat number and match the delivered parts.",
-      "zh": "结构批次要 EN 10204 3.1 材质证明，供应商要 ISO 9001，目的国还可能要 SABS 或 SONCAP 等符合性认证。大项目常加第三方发货前检验。证书必须对应实际炉批号，且与到货件一致。"
+      "zh": "结构批次要 EN 10204 3.1 材质证明，供应商要 ISO 9001，目的国还可能要 SABS 或 SONCAP 等符合性认证。大项目常加第三方发货前检验。证书必须对应实际炉批号，且与到货件一致。",
+      "hi": "संरचनात्मक लॉट के लिए EN 10204 3.1 मिल टेस्ट सर्टिफिकेट, आपूर्तिकर्ता प्रबंधन से जुड़ा ISO 9001 आधारित दस्तावेज़, और SABS या SONCAP जैसे गंतव्य-विशिष्ट अनुरूपता दस्तावेज़ अपेक्षित हो सकते हैं। बड़ी परियोजनाओं में अक्सर तीसरे पक्ष का प्री-शिपमेंट निरीक्षण भी जोड़ा जाता है। प्रमाण-पत्र में असली हीट नंबर होना चाहिए और भेजे गए हिस्सों से मेल खाना चाहिए; सभी प्रमाण-पत्र ऑर्डर पर उपलब्ध कराए जाते हैं।"
      }
     }
    ]
