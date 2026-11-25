@@ -56,3 +56,16 @@
 - **后台磨工** `scripts/faq-l10n-daemon.sh` + launchd `com.tradego.faq-l10n`（600 秒一次，默认每轮 3 篇 × 9 语种）。通道是免费池限额，只能小步慢跑；通道全忙时脚本 exit 3 不落盘，等下一轮。
 - **定向闸门**：`content_gate.py` 新增 i18n 检查——给了 `--slug` 就查这篇，否则查 `origin/main..HEAD` 里改过的 article；命中泄漏即 exit 1。存量 169 篇不堵全站，只保证"新改的文章不再带英文原文"。
 - **通道实测**：zai 撞 429 冷却 15 分钟；grok-4.3 每 10 分钟 3 次、每天 60 次；openrouter 直连 401 不可用。按 8 次/10 分钟、每次 12 条估算 ≈ 3000 条/天，9000 条约 3 天磨完。
+
+## 通道断了谁补：Agent 自译路径（2026-11-25）
+
+- 写作通道被限额/429 卡住时，不再等：由 Agent（我）直接译，用 `scripts/faq-apply.py` 落盘。
+- 落盘格式：`{"slug": {"items": [{"q": {"zh": "...", "ja": "..."}, "a": {...}}]}}`。脚本会**逐篇校验条数与文件内非空 FAQ 完全一致**，不一致整篇跳过、不猜顺序（防止错位）。
+- 已落地样例（zh+ja 各 3 条）：`torque-tensioning-critical-fasteners`、`solar-panel-mounting-fasteners`、`lag-screws-timber-connections`、`stainless-steel-fasteners-304-316`。
+- 通道失败时 `faq-l10n-batch.py` 会把待办清单写到 `logs/faq-l10n-needs-agent.txt`，下一次会话按清单自译，不靠记忆。
+- 仍缺的语种（es/fr/pt/de/ru/ar/hi）优先交给通道磨；Agent 自译只做"补位"，不替代批量。
+
+## 部署节奏（同日确定）
+
+- `scripts/deploy-window.sh`：只在 `09:00-11:00 / 17:00-19:00`（Asia/Shanghai）允许真构建，其余时间 `deploy-flush.sh` 攒提交不开工；紧急用 `DEPLOY_WINDOW_FORCE=1`。
+- 目的：日均真实构建压在 3 次以内，不和内容流水线抢额度；提交不会丢，到窗口自动上线。

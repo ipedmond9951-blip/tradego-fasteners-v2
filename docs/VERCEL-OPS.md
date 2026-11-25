@@ -311,3 +311,7 @@ CANCELED 记录要 push 后十几秒才出现在 API 里，所以 `deploy-flush.
 | 2026-11-25 | 接入 `@vercel/speed-insights`（CWV 实测数据，服务 SEO）；Vercel Web Analytics 与 GA4 重复，保持不接线 | Speed Insights 仪表盘早已启用但 `hasData:false`，等于白开 |
 | 2026-11-25 | 新增 `vercel-usage-snapshot.sh`，用量快照进审计（第 10 项：信用额度/带宽/函数/存储/ISR/构建） | 402 事故的根因是"发现太晚"：Vercel 只在 75%/100% 发邮件，而邮件到达时站已经挂了 |
 | 2026-11-25 | Instant Rollback 实测演练一次（切 145c2d25 → 验证 → 切回 896c65c8），流程写进 6.3 | 回滚方案没演练过等于没有；顺带摸清"rollback 不算部署、不占预算" |
+
+## 附：部署窗口（2026-11-25）
+
+`deploy-flush.sh` 在预算检查之后多一道窗口闸门 `scripts/deploy-window.sh`：只在 `09:00-11:00` 与 `17:00-19:00`（Asia/Shanghai）允许真构建，其余时间把提交攒在本地、exit 0；紧急上线用 `DEPLOY_WINDOW_FORCE=1`。窗口可用 `DEPLOY_WINDOWS="09:00-11:00,13:00-14:00"` 覆盖。与预算闸门串联后，单日最多 3 次构建且集中在两个窗口，避免和 OpenClaw 内容管线互相抢额度。

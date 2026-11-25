@@ -143,7 +143,13 @@ def main():
             prog.setdefault("done", {})[slug] = {"langs": langs, "at": time.strftime("%F %T")}
             save_progress(prog)
     if fails and not wrote:
-        print(f"\n通道不可用（{fails} 次失败），本批未落盘，稍后重试")
+        # 通道挂了就留清单给 Agent 自己补译（faq-apply.py），别让欠账无人管
+        mark = os.path.join(ROOT, "logs", "faq-l10n-needs-agent.txt")
+        with open(mark, "w") as fh:
+            fh.write(time.strftime("# %F %T 通道不可用，待 Agent 自译\n"))
+            for f in files:
+                fh.write(os.path.basename(f)[:-5] + "\n")
+        print(f"\n通道不可用（{fails} 次失败），本批未落盘，清单已写 {os.path.relpath(mark, ROOT)}")
         sys.exit(3)
     print(f"\n完成文章 {wrote} 篇：{', '.join(done_slugs) if done_slugs else '-'}")
 

@@ -100,6 +100,9 @@ json.dump(d,open(p,'w'),ensure_ascii=False)
   elif ! bash scripts/deploy-budget.sh; then
     echo "$LOG_PREFIX ⏸ 今日部署预算已用完，$UNPUSHED 个提交保留在本地，等下一个部署窗口或人工 --force"
     exit 0
+  elif ! bash scripts/deploy-window.sh; then
+    echo "$LOG_PREFIX $UNPUSHED 个提交留在本地，等下一个窗口"
+    exit 0
   fi
 fi
 
