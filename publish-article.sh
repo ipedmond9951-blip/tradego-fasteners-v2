@@ -36,9 +36,9 @@ else
   MSG="content: add/update articles"
   [ -n "$SLUG" ] && MSG="content: publish article '$SLUG'"
   git commit -m "$MSG"
-  echo "🚀 推送到GitHub..."
-  git push origin main 2>/dev/null || git push origin master 2>/dev/null
-  echo "✅ 推送成功！Vercel将自动部署（约1-2分钟）"
+  echo "🚀 交给 deploy-flush 决定上线（预算/窗口/promote 统一收口）..."
+  bash "$(cd "$(dirname "$0")" && pwd)/scripts/deploy-flush.sh" | tail -3
+  echo "✅ 已提交；若预算/窗口不允许，提交会留在本地等自动推送"
 fi
 
 # 部署地址
