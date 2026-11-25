@@ -27,7 +27,7 @@ HAN = re.compile(r"[\u4e00-\u9fff]")
 Q_EN = re.compile(r"^(how|why|what|when|where|which|who|should|does|do|can|is|are|was|will|would)\b", re.I)
 Q_ZH = re.compile(r"(怎么|如何|为什么|为何|是否|哪些|多少|能不能|要不要|多久|多大)")
 ENT = re.compile(
-    r"\b(?:M\d{1,2}(?:\.\d)?|#\d{1,2}|\d+(?:\.\d+)?\s?(?:mm|cm|m|MPa|kN|N·m|Nm|°C|%|pcs|kg|days?)\b)"
+    r"\b(?:M\d{1,2}(?:\.\d)?|#\d{1,2}|\d+(?:\.\d+)?\s?(?:mm|cm|m|MPa|kN|N·m|Nm|°C|%|pcs|kg|days?)(?![A-Za-z0-9]))"
     r"|\b(?:DIN|ISO|EN|ANSI|ASTM|JIS|GB|SANS|SABS|IS|BS)\s?[\d\-]{2,}",
     re.I,
 )
