@@ -186,6 +186,12 @@ bash scripts/vercel-guard.sh --live
 
 ---
 
+### 图片优化（`next/image`）计费结论（2026-11-25 评估）
+
+- 现状：10 个源文件使用 `next/image`；本周期 `image_transformation = 2` 次，成本可忽略（$0.59 总消耗里占不到 1 分钱）
+- 结论：**不动**。改成 `images.unoptimized` 会丢掉 srcset/AVIF/按需尺寸，直接伤 CWV 与图片搜索，而站点首要目标是 SEO/GEO，不划算
+- 重新评估的阈值：单周期 transformations **> 2 万次**，或图片相关成本 **> $2（约额度 10%）**，才值得讨论关掉或走自建 CDN
+
 ## 8. 工具速查
 
 **新机器首次接入**（否则 pre-push 钩子不生效）：
@@ -283,6 +289,10 @@ CANCELED 记录要 push 后十几秒才出现在 API 里，所以 `deploy-flush.
 | 2026-11-25 | 审计扩到 11 项：加"用量快照/信用额度"与"本地守卫是否挂载"；`deploy-flush.sh` 自动补齐 `core.hooksPath` | 新克隆/新机器漏设 hook 时，pre-push 守卫等于不存在，而审计看不出来 |
 | 2026-11-25 | 审计失败告警从"Mac 桌面通知"改为 **Telegram 推送**（`vercel-alert.sh` + launchd 30 分钟，连续 2 次才发、恢复发一条） | 桌面通知人不在电脑前等于静默 |
 | 2026-11-25 | 新增 `.githooks/pre-commit` 批量改动软告警（>20 个 content/public 文件时列清单并记 `logs/vercel-bulk-commit.log`） | 工作区常驻他人 i18n 批量改动，`git add -A` 易把它们混进一次部署；只警告不阻断，避免打断内容流水线 |
+| 2026-11-25 | 新增 `vercel-usage-weekly.sh`：按天落 `logs/vercel-usage-history.jsonl`，出 7 天增量与"额度用完预计天数"，接进每日审计 | 只有单日快照，看不到趋势，信用额度是"用完才知道" |
+| 2026-11-25 | 新增 `check-i18n-leakage.py`：扫 10 语种 FAQ 是否仍是英文原文（`--strict` 可给 CI）；pre-push 只做软提示 | `/ja/` 页面 4 段 FAQ 是英文；全量扫描发现 169 篇文章、约 9000 条泄漏，属系统性问题 |
+| 2026-11-25 | `drywall-screws-complete-guide` 的 FAQ 补 ja/zh 原生译文（其余 8 语种列 backlog） | 该页是本次被点名的样例 |
+| 2026-11-25 | `next/image` 计费评估：维持现状（transformations=2，成本可忽略） | 关掉优化会伤 CWV/图片搜索，违背 SEO 优先 |
 | 2026-11-25 | `seo-pipeline-guardian.sh` 的 `log()` 移到使用之前 | 早期分支误调 macOS `/usr/bin/log`，`Unknown subcommand` + exit 64，launchd 每次报失败 |
 
 ## 11. 踩坑清单（都是真撞出来的，别再重犯）
