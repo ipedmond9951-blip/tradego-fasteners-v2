@@ -275,42 +275,62 @@
       "faqItems": [
         {
           "q": {
-            "en": "A 2024 internal review of fastener rejection rates on SADC energy projects found that quotes landing 8–15% below the median typically fail at one of three checkpoints: (1) Charpy impact values not actually tested, only certified on paper; (2) dimensional tolerances out of ISO 4759-1 Product Grade A limits despite the certificate saying \"A\"; (3) zinc-flake coating thickness below the specified 8–12 µm because the actual deposit was 5 µm. The cost of a single rejected lot — demurrage at Maputo, back-shipment, project schedule slip — is consistently 4–8x the savings on the original quote."
+            "en": "What do the cheapest Mozambique LNG fastener quotes usually get wrong?",
+            "pt": "No que os orçamentos mais baratos de fixadores para GNL em Moçambique costumam errar?"
           },
           "a": {
-            "en": "The right sourcing model for Mozambique LNG fasteners is the one TotalEnergies' Tier-1 EPCs already use: pre-qualified Chinese mill + South African consolidator with SADC origin + local Matola/Maputo clearing agent. The price is 5–10% above the cheapest quote. The on-time-in-full rate, in field data, runs 95–98% versus 70–80% for direct-from-mill shipments. That gap is the entire profit margin of the project.\nFor EPCs and procurement managers evaluating suppliers now, three immediate actions:\n1. **Lock the grade map before RFQ issuance.** Do not let a B7 default leak into cryogenic SKUs. Specify A320 L7/L7M for low-temp and B8M (A4-80) for marine, with B7 only for non-cryogenic flanges.\n2. **Insist on witnessed Charpy testing at the mill** for any lot bound for cryogenic service, even if the order is small. The TPI's job is to physically witness the test, not accept a paper certificate.\n3. **Stage at Maputo, not Durban.** Maputo's 2025 rail and container capacity upgrades mean a Maputo-cleared shipment can be at the Afungi laydown yard in 7–10 days. Durban adds 4–6 days of cross-border road movement and breaks the SADC origin chain."
+            "en": "Three checkpoints fail most often: Charpy impact values certified on paper but never tested; dimensional tolerances outside ISO 4759-1 Product Grade A while the certificate claims grade A; and zinc-flake coating at about 5 µm against the specified 8–12 µm. One rejected lot - Maputo demurrage, back-shipment, schedule slip - costs 4–8x the saving on the quote.",
+            "pt": "Três pontos falham com frequência: valores de impacto Charpy certificados no papel mas nunca ensaiados; tolerâncias dimensionais fora do Grau de Produto A da ISO 4759-1 embora o certificado diga A; e revestimento zinco-lamelar de cerca de 5 µm contra os 8–12 µm especificados. Um lote rejeitado — demurrage em Maputo, retorno da carga, atraso de cronograma — custa de 4 a 8 vezes a economia do orçamento."
           }
         },
         {
           "q": {
-            "en": "What is the correct fastener grade for an LNG storage tank primary flange at -162°C?"
+            "en": "Which sourcing model works for Mozambique LNG fasteners?",
+            "pt": "Que modelo de suprimento funciona para fixadores do GNL de Moçambique?"
           },
           "a": {
-            "en": "A: ASTM A320 Grade L43 (austenitic stainless steel, 304/316 chemistry) per ASME B16.5. Do not use A193 B7, A320 L7, or A320 L7M at this temperature — L7/L7M are rated to -101°C and require specific stress-relief protocols for the lower end; L43 is the only common bolting grade that handles true LNG service without special dispensation."
+            "en": "Pre-qualified Chinese mill plus a South African consolidator holding SADC origin, cleared through a Matola/Maputo agent. It costs 5–10% more than the cheapest quote but runs 95–98% on-time-in-full against 70–80% for direct mill shipments. Lock the grade map before RFQ, witness Charpy testing at the mill, and stage at Maputo rather than Durban to keep the SADC chain intact.",
+            "pt": "Usina chinesa pré-qualificada mais um consolidador sul-africano com origem SADC, desembaraçado por agente em Matola/Maputo. Custa 5% a 10% mais que o orçamento mais barato, mas entrega 95–98% no prazo e completo, contra 70–80% no embarque direto da usina. Fixe o mapa de graus antes do RFQ, testemunhe o ensaio Charpy na usina e faça o staging em Maputo, não em Durban."
           }
         },
         {
           "q": {
-            "en": "Can a Chinese mill ship directly to Matola, Mozambique without a South African consolidator?"
+            "en": "What is the correct fastener grade for an LNG storage tank primary flange at -162°C?",
+            "pt": "Qual é o grau correto para o flange primário de um tanque de GNL a -162 °C?"
           },
           "a": {
-            "en": "A: Yes, but expect 30–40 day transit, mandatory 8-digit HS code compliance (73.18 family, 7318.29.00 for threaded articles not elsewhere specified), and 7.5% import duty + 16% VAT + 2.5% TSA on CIF value. Without SADC origin, you pay the MFN rate. Most EPCs use a South African consolidator to recover the SADC preference and reduce lead-time risk."
+            "en": "A: ASTM A320 Grade L43 (austenitic stainless steel, 304/316 chemistry) per ASME B16.5. Do not use A193 B7, A320 L7, or A320 L7M at this temperature — L7/L7M are rated to -101°C and require specific stress-relief protocols for the lower end; L43 is the only common bolting grade that handles true LNG service without special dispensation.",
+            "pt": "ASTM A320 Grau L43 (inox austenítico, química 304/316) conforme ASME B16.5. Não use A193 B7, A320 L7 ou L7M nessa temperatura: L7/L7M são qualificados até -101 °C; L43 é o grau comum que atende GNL sem dispensas especiais."
           }
         },
         {
           "q": {
-            "en": "Does ISO 3506 A4-80 (316 stainless) qualify for marine splash-zone bolting?"
+            "en": "Can a Chinese mill ship directly to Matola, Mozambique without a South African consolidator?",
+            "pt": "Uma usina chinesa pode embarcar direto para Matola sem consolidador sul-africano?"
           },
           "a": {
-            "en": "A: Yes. A4-80 specifies 16.0–18.5% chromium, 10.0–14.0% nickel, 2.0–3.0% molybdenum, C ≤ 0.08%, with a minimum tensile strength of 800 MPa. The 2–3% molybdenum is the key — it prevents pitting and crevice corrosion in chloride-rich marine air. It is the metric equivalent of ASTM A193 B8M Class 1 and is accepted by Afungi QA."
+            "en": "A: Yes, but expect 30–40 day transit, mandatory 8-digit HS code compliance (73.18 family, 7318.29.00 for threaded articles not elsewhere specified), and 7.5% import duty + 16% VAT + 2.5% TSA on CIF value. Without SADC origin, you pay the MFN rate. Most EPCs use a South African consolidator to recover the SADC preference and reduce lead-time risk.",
+            "pt": "Pode, mas espere 30 a 40 dias de trânsito, código HS de 8 dígitos obrigatório (família 73.18, 7318.29.00 para artigos roscados), direito de 7,5%, IVA de 16% e TSA de 2,5% sobre o valor CIF. Sem origem SADC paga-se a tarifa MFN; por isso a maioria dos EPCs usa consolidador sul-africano para recuperar a preferência e reduzir risco de prazo."
           }
         },
         {
           "q": {
-            "en": "What is the current Maputo container terminal capacity?"
+            "en": "Does ISO 3506 A4-80 (316 stainless) qualify for marine splash-zone bolting?",
+            "pt": "O ISO 3506 A4-80 (inox 316) serve para fixação na zona de spray marinho?"
           },
           "a": {
-            "en": "A: 255,000 TEUs as of 2025, with a $165M expansion underway (started May 1, 2025) to reach 530,000 TEUs by 2027. Quay length extends from 308 m to 650 m, berth depth from 12 m to 16 m. The concession runs through 2058 under DP World operation. Rail volumes into the port hit 11.7 Mt in 2025, up 17% year-on-year."
+            "en": "A: Yes. A4-80 specifies 16.0–18.5% chromium, 10.0–14.0% nickel, 2.0–3.0% molybdenum, C ≤ 0.08%, with a minimum tensile strength of 800 MPa. The 2–3% molybdenum is the key — it prevents pitting and crevice corrosion in chloride-rich marine air. It is the metric equivalent of ASTM A193 B8M Class 1 and is accepted by Afungi QA.",
+            "pt": "Serve. A4-80 especifica 16,0–18,5% de cromo, 10,0–14,0% de níquel, 2,0–3,0% de molibdênio, C ≤ 0,08% e resistência mínima de 800 MPa. O molibdênio é o ponto-chave: evita pite e corrosão em frestas no ar marinho rico em cloretos. É o equivalente métrico do ASTM A193 B8M Classe 1 e é aceito pela QA de Afungi."
+          }
+        },
+        {
+          "q": {
+            "en": "What is the current Maputo container terminal capacity?",
+            "pt": "Qual é a capacidade atual do terminal de contêineres de Maputo?"
+          },
+          "a": {
+            "en": "A: 255,000 TEUs as of 2025, with a $165M expansion underway (started May 1, 2025) to reach 530,000 TEUs by 2027. Quay length extends from 308 m to 650 m, berth depth from 12 m to 16 m. The concession runs through 2058 under DP World operation. Rail volumes into the port hit 11.7 Mt in 2025, up 17% year-on-year.",
+            "pt": "255 mil TEUs em 2025, com expansão de US$ 165 milhões em curso (iniciada em maio de 2025) para chegar a 530 mil TEUs em 2027. O cais passa de 308 m para 650 m e a profundidade de 12 m para 16 m. A concessão vai até 2058 sob operação da DP World, e o volume ferroviário chegou a 11,7 Mt em 2025, alta de 17% no ano."
           }
         }
       ]

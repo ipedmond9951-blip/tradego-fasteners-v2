@@ -291,26 +291,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "Which international standards apply to Mozambique LNG construction fasteners?"
+            "en": "Which international standards apply to Mozambique LNG construction fasteners?",
+            "pt": "Quais normas internacionais se aplicam aos fixadores da construção do GNL de Moçambique?"
           },
           "a": {
-            "en": "The core set is ISO 898-1 for mechanical properties, ISO 4014 and 4017 for hex bolt dimensions, and ISO 1461 for hot-dip galvanising. Cryogenic and sour service packages add ASTM A193 or A320 grades, often with NACE MR0175 for wet H2S."
+            "en": "The core set is ISO 898-1 for mechanical properties, ISO 4014 and 4017 for hex bolt dimensions, and ISO 1461 for hot-dip galvanising. Cryogenic and sour service packages add ASTM A193 or A320 grades, often with NACE MR0175 for wet H2S.",
+            "pt": "O conjunto básico é ISO 898-1 para propriedades mecânicas, ISO 4014 e 4017 para dimensões de parafusos sextavados e ISO 1461 para galvanização a quente. Pacotes criogênicos e de serviço ácido acrescentam graus ASTM A193 ou A320, muitas vezes com NACE MR0175 para H2S úmido."
           }
         },
         {
           "q": {
-            "en": "How is fastener compliance verified on an LNG site?"
+            "en": "How is fastener compliance verified on an LNG site?",
+            "pt": "Como se verifica a conformidade dos fixadores em obra de GNL?"
           },
           "a": {
-            "en": "In three phases: incoming inspection on arrival, documentation and traceability review against heat numbers, and ongoing monitoring during operation. Each phase checks a different object, which is why missing mill certificates cannot be fixed later at site."
+            "en": "In three phases: incoming inspection on arrival, documentation and traceability review against heat numbers, and ongoing monitoring during operation. Each phase checks a different object, which is why missing mill certificates cannot be fixed later at site.",
+            "pt": "Em três etapas: inspeção de recebimento na chegada, revisão de documentação e rastreabilidade contra os números de corrida, e monitoramento contínuo em operação. Cada etapa checa um objeto diferente, e é por isso que certificado de usina faltante não se resolve depois, no canteiro."
           }
         },
         {
           "q": {
-            "en": "What should procurement lock in before the mill starts?"
+            "en": "What should procurement lock in before the mill starts?",
+            "pt": "O que o comprador deve fixar antes de a usina iniciar a produção?"
           },
           "a": {
-            "en": "Material grade and impact-testing temperature, coating system and thickness, marking and traceability format, and the third-party inspection scope. Fixing these before fabrication avoids re-work that an LNG schedule cannot absorb."
+            "en": "Material grade and impact-testing temperature, coating system and thickness, marking and traceability format, and the third-party inspection scope. Fixing these before fabrication avoids re-work that an LNG schedule cannot absorb.",
+            "pt": "Grau do material e temperatura de ensaio de impacto, sistema e espessura de revestimento, formato de marcação e rastreabilidade, e escopo da inspeção por terceiros. Fixar isso antes da fabricação evita retrabalho que o cronograma de GNL não absorve."
           }
         }
       ]

@@ -253,34 +253,42 @@
       "faqItems": [
         {
           "q": {
-            "en": "Which fasteners sell best in Cotonou's wholesale market?"
+            "en": "Which fasteners sell best in Cotonou's wholesale market?",
+            "fr": "Quelles fixations se vendent le mieux sur le marché de gros de Cotonou ?"
           },
           "a": {
-            "en": "Galvanized hex bolts and nuts in grades 4.8 and 8.8, roofing nails, self-drilling screws, concrete anchors, and threaded rod move fastest. Demand is driven by construction and infrastructure projects rather than precision industry."
+            "en": "Galvanized hex bolts and nuts in grades 4.8 and 8.8, roofing nails, self-drilling screws, concrete anchors, and threaded rod move fastest. Demand is driven by construction and infrastructure projects rather than precision industry.",
+            "fr": "Boulons et écrous hexagonaux galvanisés en classes 4.8 et 8.8, clous de toiture, vis autoperceuses, ancrages béton et tiges filetées. La demande vient de la construction et des infrastructures plutôt que de l'industrie de précision."
           }
         },
         {
           "q": {
-            "en": "What coating should I specify for Benin's coastal climate?"
+            "en": "What coating should I specify for Benin's coastal climate?",
+            "fr": "Quel revêtement choisir pour le climat côtier du Bénin ?"
           },
           "a": {
-            "en": "Hot-dip galvanizing is the safe default for outdoor and structural fasteners, and 304 stainless for wet or food-processing environments. Plain zinc plating is acceptable mainly for indoor, dry applications."
+            "en": "Hot-dip galvanizing is the safe default for outdoor and structural fasteners, and 304 stainless for wet or food-processing environments. Plain zinc plating is acceptable mainly for indoor, dry applications.",
+            "fr": "La galvanisation à chaud est le choix par défaut pour l'extérieur et le structurel, et l'inox 304 pour les milieux humides ou agroalimentaires. Le zingage électrolytique simple convient surtout en intérieur sec."
           }
         },
         {
           "q": {
-            "en": "How long does clearance take at Cotonou port?"
+            "en": "How long does clearance take at Cotonou port?",
+            "fr": "Combien de temps prend le dédouanement au port de Cotonou ?"
           },
           "a": {
-            "en": "A clean, correctly declared fastener container typically clears in a few working days, but mis-declared weights, missing packing lists, or conformity queries can add a week or more. Allow 10–20 days of buffer on a first shipment."
+            "en": "A clean, correctly declared fastener container typically clears in a few working days, but mis-declared weights, missing packing lists, or conformity queries can add a week or more. Allow 10–20 days of buffer on a first shipment.",
+            "fr": "Un conteneur correctement déclaré passe en quelques jours ouvrés, mais des poids mal déclarés, un packing list manquant ou une question de conformité ajoutent une semaine ou plus. Prévoyez 10 à 20 jours de marge sur une première expédition."
           }
         },
         {
           "q": {
-            "en": "Can I ship mixed sizes in one container?"
+            "en": "Can I ship mixed sizes in one container?",
+            "fr": "Peut-on expédier plusieurs dimensions dans un seul conteneur ?"
           },
           "a": {
-            "en": "Yes, but confirm with your buyer first. Depots often prefer single-SKU cartons because mixed loads increase picking cost and slow down resale."
+            "en": "Yes, but confirm with your buyer first. Depots often prefer single-SKU cartons because mixed loads increase picking cost and slow down resale.",
+            "fr": "Oui, mais validez-le avec l'acheteur. Les dépôts préfèrent souvent des cartons mono-référence, car les lots mixtes augmentent le coût de préparation et ralentissent la revente."
           }
         }
       ]

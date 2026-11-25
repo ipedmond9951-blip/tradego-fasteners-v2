@@ -109,6 +109,22 @@ function nativeText(obj: Record<string, string> | undefined, locale: string): st
   return value
 }
 
+// 2026-11-25 FIX: FAQ 小节的 body 是英文问答正文的复制（本地化缺失时还会回退英文，
+// 在 es/fr/pt/de 页面上直接漏出英文整段）。FAQ 条目已由 native-only 折叠块 + FAQPage
+// JSON-LD 承载，这里改为渲染一条本地化的引导语，并带上指向产品页与询价页的内链。
+const FAQ_INTRO: Record<string, string> = {
+  en: 'Browse the <a class="text-primary-600 underline" href="/{l}/products">fastener catalogue</a> or <a class="text-primary-600 underline" href="/{l}/contact">send your specification</a> and we will quote grades, coatings and lead time.',
+  zh: '可查看<a class="text-primary-600 underline" href="/{l}/products">紧固件产品目录</a>，或<a class="text-primary-600 underline" href="/{l}/contact">提交规格清单</a>，我们会按钢级、涂层与交期报价。',
+  es: 'Consulte el <a class="text-primary-600 underline" href="/{l}/products">catálogo de fijaciones</a> o <a class="text-primary-600 underline" href="/{l}/contact">envíe su especificación</a> y cotizaremos grados, recubrimientos y plazo.',
+  fr: 'Consultez le <a class="text-primary-600 underline" href="/{l}/products">catalogue de fixations</a> ou <a class="text-primary-600 underline" href="/{l}/contact">envoyez votre spécification</a> : nous chiffrons nuances, revêtements et délais.',
+  pt: 'Veja o <a class="text-primary-600 underline" href="/{l}/products">catálogo de fixadores</a> ou <a class="text-primary-600 underline" href="/{l}/contact">envie sua especificação</a> e cotamos graus, revestimentos e prazo.',
+  de: 'Im <a class="text-primary-600 underline" href="/{l}/products">Verbindungselemente-Katalog</a> stöbern oder <a class="text-primary-600 underline" href="/{l}/contact">Spezifikation senden</a> – wir kalkulieren Festigkeitsklassen, Beschichtung und Lieferzeit.',
+  ru: 'Смотрите <a class="text-primary-600 underline" href="/{l}/products">каталог крепежа</a> или <a class="text-primary-600 underline" href="/{l}/contact">пришлите спецификацию</a> — рассчитаем классы прочности, покрытие и срок.',
+  ja: '「<a class="text-primary-600 underline" href="/{l}/products">ファスナー製品カタログ</a>」をご覧いただくか、<a class="text-primary-600 underline" href="/{l}/contact">仕様書をお送り</a>ください。強度区分・表面処理・納期でお見積りします。',
+  ar: 'تصفّح <a class="text-primary-600 underline" href="/{l}/products">كتالوج المثبتات</a> أو <a class="text-primary-600 underline" href="/{l}/contact">أرسل مواصفاتك</a> لنقدّم عرضاً للدرجات والطلاء ومدة التسليم.',
+  hi: 'फ़ासनर <a class="text-primary-600 underline" href="/{l}/products">उत्पाद सूची</a> देखें या <a class="text-primary-600 underline" href="/{l}/contact">अपनी विशिष्टता भेजें</a>, हम ग्रेड, कोटिंग और समय-सीमा का कोटेशन देंगे।',
+}
+
 function localizedText(obj: Record<string, string> | undefined, locale: string): string {
   if (!obj) return ''
   const ordered = [obj[locale], obj['en'], ...Object.values(obj)]
@@ -148,7 +164,10 @@ function renderSection(section: ArticleSection, locale: string) {
   return (
     <section key={section.id} className="mb-8" id={section.id}>
       <h2 className="text-2xl font-bold text-gray-900 mb-4">{localizedText(section.heading, locale)}</h2>
-      {section.body && (
+      {isFaqSection && (
+        <p className="text-gray-700 mb-4 leading-relaxed" dangerouslySetInnerHTML={{ __html: (FAQ_INTRO[locale] || FAQ_INTRO.en).replace(/\{l\}/g, locale) }} />
+      )}
+      {!isFaqSection && section.body && (
         <p className="text-gray-700 mb-4 leading-relaxed" dangerouslySetInnerHTML={{ __html: localizedText(section.body, locale) }} />
       )}
       {table && Array.isArray(table.headers) && Array.isArray(table.rows) && (
