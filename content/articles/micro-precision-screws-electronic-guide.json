@@ -133,7 +133,7 @@
      },
      "a": {
       "en": "Standard production goes down to M0.6 (0.6mm diameter) for precision instruments. M1 and M1.2 are more commonly stocked. Thread pitch decreases with size: M1×0.2 is standard coarse.",
-      "zh": "标准生产最小到M0.6（0.6mm直径）。M1和M1.2更常见库存。"
+      "zh": "标准产能可以做到 M0.6（直径 0.6 mm）的精密仪器螺丝；常用库存更多是 M1 和 M1.2。螺距随规格缩小而减小，M1×0.2 是标准粗牙。"
      }
     },
     {
@@ -148,10 +148,12 @@
     },
     {
      "q": {
-      "en": "What is the smallest metric screw commonly available?"
+      "en": "What is the smallest metric screw commonly available?",
+      "zh": "常用最小微型螺丝是哪些规格？"
      },
      "a": {
-      "en": "Micro screws go down to around M1 and M1.2 in production volume, with M2 and M2.5 the practical working sizes for most electronic assemblies. Below M1.5, tooling and inspection costs rise sharply."
+      "en": "Micro screws go down to around M1 and M1.2 in production volume, with M2 and M2.5 the practical working sizes for most electronic assemblies. Below M1.5, tooling and inspection costs rise sharply.",
+      "zh": "量产微型螺丝大致到 M1、M1.2；多数电子装配的实用规格是 M2 和 M2.5。规格降到 M1.5 以下时，模具和检测成本会明显上升，采购报价时要把这部分成本算进去。"
      }
     }
    ],
