@@ -140,42 +140,52 @@
    "faqItems": [
     {
      "q": {
-      "en": "Which anchor type is best for solid concrete?"
+      "en": "Which anchor type is best for solid concrete?",
+      "zh": "实心混凝土选哪种锚栓最合适？"
      },
      "a": {
-      "en": "Wedge anchors provide the highest load capacity for solid concrete and are ideal for structural connections. Sleeve anchors offer good general-purpose performance. Both require solid, uncracked concrete for optimal performance."
+      "en": "Wedge anchors provide the highest load capacity for solid concrete and are ideal for structural connections. Sleeve anchors offer good general-purpose performance. Both require solid, uncracked concrete for optimal performance.",
+      "zh": "楔形锚栓承载力最高，适合结构连接；套筒锚栓通用性好、表现稳定。两种都要求基材是密实、无裂缝的混凝土才能发挥性能。"
      }
     },
     {
      "q": {
-      "en": "What's the difference between wedge anchors and sleeve anchors?"
+      "en": "What's the difference between wedge anchors and sleeve anchors?",
+      "zh": "楔形锚栓和套筒锚栓有什么区别？"
      },
      "a": {
-      "en": "Wedge anchors feature a full-length expansion mechanism against the concrete borehole wall, delivering maximum load capacity. Sleeve anchors expand at multiple points along the sleeve, making them suitable for solid concrete, hollow masonry, and grout-filled block."
+      "en": "Wedge anchors feature a full-length expansion mechanism against the concrete borehole wall, delivering maximum load capacity. Sleeve anchors expand at multiple points along the sleeve, making them suitable for solid concrete, hollow masonry, and grout-filled block.",
+      "zh": "楔形锚栓沿全长在孔壁上胀紧，承载力最高；套筒锚栓在套筒上多点胀开，除实心混凝土外，也适用于空心砌块和注浆密实的砌块墙。"
      }
     },
     {
      "q": {
-      "en": "What is the minimum spacing between concrete anchors?"
+      "en": "What is the minimum spacing between concrete anchors?",
+      "zh": "锚栓之间最小间距是多少？"
      },
      "a": {
-      "en": "Maintain 10x the anchor diameter from edges (e.g., 120mm for M12 anchors) and 12x the diameter between anchors. From cracks, maintain minimum 6x diameter spacing. Proper spacing ensures full load capacity without interference."
+      "en": "Maintain 10x the anchor diameter from edges (e.g., 120mm for M12 anchors) and 12x the diameter between anchors. From cracks, maintain minimum 6x diameter spacing. Proper spacing ensures full load capacity without interference.",
+      "zh": "距构件边部不小于 10 倍锚栓直径（M12 锚栓即 120 mm），锚栓之间不小于 12 倍直径；距裂缝边缘至少 6 倍直径。间距够大，承载力才不会相互削弱。"
      }
     },
     {
      "q": {
-      "en": "Can concrete anchors be removed and reused?"
+      "en": "Can concrete anchors be removed and reused?",
+      "zh": "混凝土锚栓能拆下重复使用吗？"
      },
      "a": {
-      "en": "Wedge anchors are permanent and cannot be removed. Sleeve anchors can be removed by unscrewing. Strike anchors offer temporary installation. Choose anchor type based on whether permanent or temporary installation is needed."
+      "en": "Wedge anchors are permanent and cannot be removed. Sleeve anchors can be removed by unscrewing. Strike anchors offer temporary installation. Choose anchor type based on whether permanent or temporary installation is needed.",
+      "zh": "楔形锚栓属于永久固定件，无法拆除；套筒锚栓可以旋出；敲击式锚栓偏临时安装。选型时先明确现场需要永久固定还是临时固定。"
      }
     },
     {
      "q": {
-      "en": "What coating should I use for outdoor concrete anchors?"
+      "en": "What coating should I use for outdoor concrete anchors?",
+      "zh": "户外混凝土锚栓用什么镀层？"
      },
      "a": {
-      "en": "For exterior applications, use hot-dip galvanized (HDG) or stainless steel 304/316 anchors to prevent corrosion. Zinc-plated anchors are suitable for dry interior applications only."
+      "en": "For exterior applications, use hot-dip galvanized (HDG) or stainless steel 304/316 anchors to prevent corrosion. Zinc-plated anchors are suitable for dry interior applications only.",
+      "zh": "室外环境选用热浸镀锌（HDG）或不锈钢 304/316 锚栓防腐；电镀锌锚栓只适合干燥的室内环境。"
      }
     }
    ]
