@@ -235,26 +235,32 @@
    "faqItems": [
     {
      "q": {
-      "en": "What happens if a set screw keeps loosening on my shaft?"
+      "en": "What happens if a set screw keeps loosening on my shaft?",
+      "zh": "轴上的止动螺钉总松怎么办？"
      },
      "a": {
-      "en": "Set screw loosening on shafts is caused by: insufficient tightening torque — ensure you are using the correct socket size and applying adequate torque; a 3mm set screw requires only 0.5-1 N·m, while an M8 requires 5-10 N·m; vibration — specify cup point or knurled cup for vibration environments; consider adding a second set screw at 90 degrees to the first; soft shaft material — cup point set screws indent soft shafts over time; use a shaft with a drilled positioning hole (half-dog) or specify a harder shaft material; inadequate thread engagement — the set screw must thread fully into the component (minimum 1.5× diameter engagement); if the component is too thin, the set screw bottoms out before providing adequate clamping force."
+      "en": "Set screw loosening on shafts is caused by: insufficient tightening torque — ensure you are using the correct socket size and applying adequate torque; a 3mm set screw requires only 0.5-1 N·m, while an M8 requires 5-10 N·m; vibration — specify cup point or knurled cup for vibration environments; consider adding a second set screw at 90 degrees to the first; soft shaft material — cup point set screws indent soft shafts over time; use a shaft with a drilled positioning hole (half-dog) or specify a harder shaft material; inadequate thread engagement — the set screw must thread fully into the component (minimum 1.5× diameter engagement); if the component is too thin, the set screw bottoms out before providing adequate clamping force.",
+      "zh": "先查四个原因：扭矩不足——用对套头并施加足够扭矩，3 mm 止动螺钉只需 0.5–1 N·m，M8 需 5–10 N·m；振动——振动场合选杯尖式或滚花杯尖，可在 90° 方向再加一颗；轴材质偏软——杯尖会逐渐压入软轴，可在轴上加工定位孔配半爪形螺钉，或提高轴材质硬度；拧入长度不够——螺钉要完全拧入构件，旋合至少 1.5 倍直径，构件太薄时螺钉先触底、夹紧力上不去。"
      }
     },
     {
      "q": {
-      "en": "When should I use a taper pin vs a parallel dowel pin?"
+      "en": "When should I use a taper pin vs a parallel dowel pin?",
+      "zh": "锥形销和平行销怎么选？"
      },
      "a": {
-      "en": "Use taper pins for: permanent, high-accuracy positioning where the joint will not be disassembled; applications requiring very high positional accuracy (machine tool fixtures, precision instruments); joints where the pin must also transmit shear load. Use parallel dowel pins for: applications where components may need to be disassembled and reassembled; general precision alignment in machinery; where ease of assembly/disassembly is important. Taper pins require matching taper holes (reamed with a taper reamer) which are more expensive to produce than straight holes for parallel dowels."
+      "en": "Use taper pins for: permanent, high-accuracy positioning where the joint will not be disassembled; applications requiring very high positional accuracy (machine tool fixtures, precision instruments); joints where the pin must also transmit shear load. Use parallel dowel pins for: applications where components may need to be disassembled and reassembled; general precision alignment in machinery; where ease of assembly/disassembly is important. Taper pins require matching taper holes (reamed with a taper reamer) which are more expensive to produce than straight holes for parallel dowels.",
+      "zh": "锥形销用于永久固定、高精度定位且不拆的连接，如机床夹具、精密仪器，销子还要承受剪切载荷。平行销用于构件需要反复拆装的场合，以及一般机械精度对齐，装拆方便。锥形销需配匹配锥孔（用锥铰刀铰制），加工成本比直孔高。"
      }
     },
     {
      "q": {
-      "en": "What is the difference between a spring pin and a roll pin?"
+      "en": "What is the difference between a spring pin and a roll pin?",
+      "zh": "弹簧张力销和卷销有什么区别？"
      },
      "a": {
-      "en": "Spring pins (tension pins) and roll pins (coiled spring pins) are both split longitudinally to allow compression during insertion, but they differ in manufacture and performance: Spring pins are a single piece of spring steel with a longitudinal slit; roll pins are a coiled strip of steel — essentially a spring wound into a pin shape. Roll pins are significantly stronger than spring pins (approximately 3× the shear strength) and resist jamming better. Roll pins are the preferred choice for most industrial applications; spring pins are used where very precise control of expansion force is needed."
+      "en": "Spring pins (tension pins) and roll pins (coiled spring pins) are both split longitudinally to allow compression during insertion, but they differ in manufacture and performance: Spring pins are a single piece of spring steel with a longitudinal slit; roll pins are a coiled strip of steel — essentially a spring wound into a pin shape. Roll pins are significantly stronger than spring pins (approximately 3× the shear strength) and resist jamming better. Roll pins are the preferred choice for most industrial applications; spring pins are used where very precise control of expansion force is needed.",
+      "zh": "两者都沿轴向开槽，装配时可被压缩，但制造和性能不同：弹簧张力销是单片弹簧钢带开槽制成；卷销是钢带卷绕成销形。卷销强度明显更高（剪切强度约为 3 倍），抗卡滞更好，多数工业场合优先选用；弹簧张力销用于膨胀力需要精确控制的场合。"
      }
     }
    ],
