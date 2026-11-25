@@ -18,7 +18,8 @@
     "content:gate": "python3 scripts/content_gate.py",
     "content:gate:brief": "python3 scripts/content_gate.py --brief",
     "content:append": "python3 scripts/append_body.py",
-    "content:selftest": "python3 scripts/contract_selftest.py"
+    "content:selftest": "python3 scripts/contract_selftest.py",
+    "check:claims": "python3 scripts/check-claims.py"
   },
   "dependencies": {
     "@google-analytics/data": "^5.2.2",

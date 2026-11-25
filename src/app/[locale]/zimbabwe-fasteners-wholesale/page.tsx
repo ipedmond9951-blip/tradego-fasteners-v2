@@ -136,7 +136,7 @@ export default async function ZimbabweFastenersPage({ params }: { params: Promis
               <div className="text-3xl">🏭</div>
               <div>
                 <h3 className="font-bold">15+ Years Manufacturing</h3>
-                <p className="text-gray-600">Factory direct pricing, no middleman markup</p>
+                <p className="text-gray-600">Mill-direct pricing, one margin covering sourcing, QC and export documents</p>
               </div>
             </div>
             <div className="flex gap-4">
@@ -169,7 +169,7 @@ export default async function ZimbabweFastenersPage({ params }: { params: Promis
         "@context": "https://schema.org",
         "@type": "WholesaleStore",
         "name": "TradeGo Fasteners - Zimbabwe Wholesale",
-        "description": "Professional fastener wholesale supplier for Zimbabwe market. Factory direct prices for drywall screws, hex bolts, IBR nails, self-drilling screws. Shipping to Harare, Bulawayo, Mutare.",
+        "description": "Professional fastener wholesale supplier for Zimbabwe market. Mill-direct prices for drywall screws, hex bolts, IBR nails, self-drilling screws. Shipping to Harare, Bulawayo, Mutare.",
         "url": "https://www.tradego-fasteners.com/en/zimbabwe-fasteners-wholesale",
         "telephone": "+86-159-6340-9951",
         "image": "https://www.tradego-fasteners.com/images/zimbabwe-warehouse.jpg",

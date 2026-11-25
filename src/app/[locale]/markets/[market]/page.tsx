@@ -80,7 +80,7 @@ const copy: Record<string, Copy> = {
     home: 'Home', markets: 'Markets',
     portsLabel: 'Ports and routing', docsLabel: 'Documents and clearance', linesLabel: 'What sells in this market',
     faqLabel: 'FAQ', cta: 'Request a quote', allMarkets: 'All markets',
-    sub: 'Factory direct from Qingdao / Tianjin, ISO 9001 and SABS 1195 spec lines available.',
+    sub: 'Mill-direct from Qingdao / Tianjin; SABS 1195 spec lines; ISO 9001 and SABS approval can be applied for per order.',
     h1: 'Fasteners for {c}', seeAll: 'See all {n} product lines',
   },
   zh: {
@@ -136,7 +136,7 @@ const copy: Record<string, Copy> = {
     home: 'Start', markets: 'Märkte',
     portsLabel: 'Häfen und Routen', docsLabel: 'Dokumente und Zoll', linesLabel: 'Was sich in diesem Markt verkauft',
     faqLabel: 'Häufige Fragen', cta: 'Angebot anfordern', allMarkets: 'Alle Märkte',
-    sub: 'Direkt ab Werk in Qingdao / Tianjin, ISO-9001- und SABS-konforme Linien.',
+    sub: 'Direktpreis ab Werk in Qingdao / Tianjin; SABS 1195-Linien; ISO 9001 und SABS je Auftrag auf Anfrage.',
     h1: 'Verbindungselemente für {c}', seeAll: 'Alle {n} Produktlinien',
   },
   hi: {

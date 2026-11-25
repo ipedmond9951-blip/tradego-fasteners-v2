@@ -25,6 +25,7 @@ export default function Footer({ locale = 'en' }: FooterProps) {
               <Link href={`/${locale}/`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.home')}</Link>
               <Link href={`/${locale}/#products`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.products')}</Link>
               <Link href={`/${locale}/industry/`} className="block text-gray-400 hover:text-white">{pick(navLabels.industry, locale)}</Link>
+              <Link href={`/${locale}/documents/`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.documents')}</Link>
               <Link href={`/${locale}/#about`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.about')}</Link>
               <Link href={`/${locale}/#inquiry`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.contact')}</Link>
             </div>

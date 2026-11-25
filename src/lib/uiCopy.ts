@@ -228,7 +228,7 @@ export const navLabels = {
 
 export const orgCopy = {
   description: L10(
-    'TradeGo is a fastener manufacturer and exporter specializing in serving African construction markets for 20+ years. Products include drywall screws, self-drilling screws, hex bolts, nuts, IBR nails. Factory-direct pricing with sea freight to Durban, Lagos, Mombasa and 20+ African countries.',
+    'TradeGo is a fastener manufacturer and exporter specializing in serving African construction markets for 20+ years. Products include drywall screws, self-drilling screws, hex bolts, nuts, IBR nails. Mill-direct pricing with sea freight to Durban, Lagos, Mombasa and 20+ African countries.',
     'TradeGo 是按 SABS 1195 / DIN / ISO 规格生产的紧固件生产商与出口商，专注服务非洲建筑市场 20 余年。产品包括干墙螺丝、自钻螺丝、螺栓螺母、IBR 钉等。工厂价，海运至德班、拉各斯、蒙巴萨等 20 余个非洲国家。',
     'TradeGo es un fabricante y exportador de fijaciones que produce según SABS 1195 / DIN / ISO, especializado en el mercado de la construcción africano desde hace más de 20 años. Productos: tornillos para placas de yeso, autotaladrantes, pernos hexagonales, tuercas, clavos IBR. Precios de fábrica con flete marítimo a Durban, Lagos, Mombasa y más de 20 países africanos.',
     "TradeGo est un fabricant et exportateur de visserie produisant selon SABS 1195 / DIN / ISO, spécialisé sur les marchés de la construction africains depuis plus de 20 ans. Produits : vis plaque de plâtre, vis autoforeuses, boulons hexagonaux, écrous, pointes IBR. Prix départ usine, fret maritime vers Durban, Lagos, Mombasa et plus de 20 pays africains.",
@@ -326,7 +326,7 @@ export const teamText = L10(
 
 export const siteSchemaCopy = {
   description: L10(
-    'Made to SABS 1195 / DIN / ISO China fastener manufacturer. 20+ years exporting to Africa. Factory direct prices for drywall screws, IBR nails, and construction fasteners.',
+    'Made to SABS 1195 / DIN / ISO China fastener manufacturer. 20+ years exporting to Africa. Mill-direct prices for drywall screws, IBR nails, and construction fasteners.',
     '按 SABS 1195 / DIN / ISO 规格生产的中国紧固件制造商。20 余年对非出口经验。干墙螺丝、IBR 钉、建筑紧固件工厂价直销。',
     'Fabricante chino de fijaciones que produce según SABS 1195 / DIN / ISO. Más de 20 años exportando a África. Precios de fábrica para tornillos para placas de yeso, clavos IBR y fijaciones de construcción.',
     "Fabricant produisant selon SABS 1195 / DIN / ISO. Plus de 20 ans d'export vers l'Afrique. Prix d'usine pour vis plaque de plâtre, pointes IBR et visserie de construction.",
