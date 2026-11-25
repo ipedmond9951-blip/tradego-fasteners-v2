@@ -216,106 +216,38 @@
       "faqItems": [
         {
           "q": {
-            "en": "What are Technical Guide and how are they used?",
-            "zh": "What are Technical Guide and how are they used?",
-            "es": "What are Technical Guide and how are they used?",
-            "ar": "What are Technical Guide and how are they used?",
-            "fr": "What are Technical Guide and how are they used?",
-            "pt": "What are Technical Guide and how are they used?",
-            "ru": "What are Technical Guide and how are they used?",
-            "ja": "What are Technical Guide and how are they used?",
-            "de": "What are Technical Guide and how are they used?",
-            "hi": "What are Technical Guide and how are they used?"
+            "en": "How do I size a U-bolt for a pipe?",
+            "zh": "U 型螺栓怎么按管道选型？",
+            "ja": "Uボルトは配管に対してどうサイズ選定しますか？"
           },
           "a": {
-            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "zh": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "es": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "ar": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "fr": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "pt": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "ru": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "ja": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "de": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "hi": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+            "en": "Size by the pipe's outside diameter, not the nominal bore. The U-bolt's inner width should be slightly larger than the pipe OD including insulation, and the leg length must cover bracket thickness plus two nuts and washers. On high-vibration lines such as mining slurry piping, add lock nuts or double nuts.",
+            "zh": "按管道外径选，不要按公称通径。U 型螺栓内宽应略大于管外径（含保温层厚度），螺杆长度要覆盖支架厚度加两个螺母和垫圈。矿山浆管等振动大的管线建议加防松螺母或双螺母。",
+            "ja": "呼び径ではなく配管の外径で選定します。Uボルトの内幅は保温材を含む管外径よりやや大きく、脚長はブラケット厚さにナット2個とワッシャー分を加えた長さが必要です。鉱山スラリー配管のような振動の大きいラインでは緩み止めナットやダブルナットを使います。"
           }
         },
         {
           "q": {
-            "en": "How do I choose the right fastener for my project?",
-            "zh": "How do I choose the right fastener for my project?",
-            "es": "How do I choose the right fastener for my project?",
-            "ar": "How do I choose the right fastener for my project?",
-            "fr": "How do I choose the right fastener for my project?",
-            "pt": "How do I choose the right fastener for my project?",
-            "ru": "How do I choose the right fastener for my project?",
-            "ja": "How do I choose the right fastener for my project?",
-            "de": "How do I choose the right fastener for my project?",
-            "hi": "How do I choose the right fastener for my project?"
+            "en": "Why do U-bolts fail on African mining piping?",
+            "zh": "非洲矿山管道上 U 型螺栓为什么容易失效？",
+            "ja": "アフリカの鉱山配管でUボルトが破損・緩みする原因は？"
           },
           "a": {
-            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "zh": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "es": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "ar": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "fr": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "pt": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "ru": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "ja": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "de": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "hi": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+            "en": "The usual causes are undersized bolts that leave a gap and allow movement, insufficient coating that rusts quickly in wet dusty conditions, and tightening without a torque wrench so vibration loosens the joint. Specify hot-dip galvanized or stainless U-bolts for mining service and tighten to the maker's torque value.",
+            "zh": "常见原因是规格偏小留下间隙导致位移、镀层不足在潮湿粉尘环境快速锈蚀、以及未按扭矩紧固造成振动松脱。矿用应选热浸镀锌或不锈钢 U 型螺栓，并用扭矩扳手按厂家扭矩值紧固。",
+            "ja": "主な原因は、サイズ不足で隙間ができ移動する、皮膜が薄く湿った粉塵環境で早期に錆びる、トルクレンチを使わず振動で緩む、の3つです。鉱山用途では溶融亜鉛めっきまたはステンレスのUボルトを選び、メーカー指定トルクで締め付けてください。"
           }
         },
         {
           "q": {
-            "en": "What materials are available for these fasteners?",
-            "zh": "What materials are available for these fasteners?",
-            "es": "What materials are available for these fasteners?",
-            "ar": "What materials are available for these fasteners?",
-            "fr": "What materials are available for these fasteners?",
-            "pt": "What materials are available for these fasteners?",
-            "ru": "What materials are available for these fasteners?",
-            "ja": "What materials are available for these fasteners?",
-            "de": "What materials are available for these fasteners?",
-            "hi": "What materials are available for these fasteners?"
+            "en": "How do U-bolts and pipe clamps work together?",
+            "zh": "U 型螺栓和管夹怎么配合使用？",
+            "ja": "Uボルトとパイプクランプはどう組み合わせて使いますか？"
           },
           "a": {
-            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "zh": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "es": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "ar": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "fr": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "pt": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "ru": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "ja": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "de": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "hi": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
-          }
-        },
-        {
-          "q": {
-            "en": "Do you offer custom manufacturing?",
-            "zh": "Do you offer custom manufacturing?",
-            "es": "Do you offer custom manufacturing?",
-            "ar": "Do you offer custom manufacturing?",
-            "fr": "Do you offer custom manufacturing?",
-            "pt": "Do you offer custom manufacturing?",
-            "ru": "Do you offer custom manufacturing?",
-            "ja": "Do you offer custom manufacturing?",
-            "de": "Do you offer custom manufacturing?",
-            "hi": "Do you offer custom manufacturing?"
-          },
-          "a": {
-            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "zh": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "es": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "ar": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "fr": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "pt": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "ru": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "ja": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "de": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "hi": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
+            "en": "A U-bolt provides transverse clamping, while a pipe clamp gives axial location and damping. At sliding supports use a clamp that allows axial movement; at anchor points the U-bolt plus bracket takes the axial thrust. Space supports per the piping support standard to avoid concentrated loads.",
+            "zh": "U 型螺栓提供横向夹持，管夹提供轴向定位与减振。滑动支架处用允许轴向位移的管夹；固定点处用 U 型螺栓加支架承受轴向推力。支撑间距按管道支撑标准布置，避免集中载荷。",
+            "ja": "Uボルトは横方向の締付けを担い、パイプクランプは軸方向の位置決めと制振を担います。滑り支持では軸方向移動を許すクランプを使い、固定点ではUボルトとブラケットで軸方向推力を受けます。支持間隔は配管支持規格に従い、集中荷重を避けてください。"
           }
         }
       ],

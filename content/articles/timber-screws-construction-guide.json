@@ -243,106 +243,38 @@
       "faqItems": [
         {
           "q": {
-            "en": "What are Technical Guide and how are they used?",
-            "zh": "What are Technical Guide and how are they used?",
-            "es": "What are Technical Guide and how are they used?",
-            "ar": "What are Technical Guide and how are they used?",
-            "fr": "What are Technical Guide and how are they used?",
-            "pt": "What are Technical Guide and how are they used?",
-            "ru": "What are Technical Guide and how are they used?",
-            "ja": "What are Technical Guide and how are they used?",
-            "de": "What are Technical Guide and how are they used?",
-            "hi": "What are Technical Guide and how are they used?"
+            "en": "How do timber screw threads differ by wood species?",
+            "zh": "木螺钉螺纹怎么按木材种类选？",
+            "ja": "木ねじのねじ山は樹種によってどう選びますか？"
           },
           "a": {
-            "en": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "zh": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "es": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "ar": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "fr": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "pt": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "ru": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "ja": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "de": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility.",
-            "hi": "Technical Guide are essential components in construction and manufacturing. Proper selection depends on load requirements, environmental conditions, and material compatibility."
+            "en": "Softwoods such as pine and fir take coarse-thread, large-pitch timber screws. Hardwoods such as teak and eucalyptus need fine threads and a pilot hole, otherwise the timber splits. Engineered wood (LVL, glulam) requires screws specified by the manufacturer; ordinary wood screws are not suitable.",
+            "zh": "软木（松、杉）用粗牙、大螺距的木螺钉；硬木（柚木、桉木）需细牙并预钻引孔，否则易劈裂。工程木（LVL、胶合木）要按厂家说明选专用螺钉，普通木螺钉不适用。",
+            "ja": "松や杉などの針葉樹は粗いねじ山・大きなピッチの木ねじを使います。チークやユーカリなどの広葉樹は細いねじ山と下穴が必要で、なければ割れます。LVLや集成材などのエンジニアードウッドはメーカー指定の専用ねじが必要で、一般の木ねじは適しません。"
           }
         },
         {
           "q": {
-            "en": "How do I choose the right fastener for my project?",
-            "zh": "How do I choose the right fastener for my project?",
-            "es": "How do I choose the right fastener for my project?",
-            "ar": "How do I choose the right fastener for my project?",
-            "fr": "How do I choose the right fastener for my project?",
-            "pt": "How do I choose the right fastener for my project?",
-            "ru": "How do I choose the right fastener for my project?",
-            "ja": "How do I choose the right fastener for my project?",
-            "de": "How do I choose the right fastener for my project?",
-            "hi": "How do I choose the right fastener for my project?"
+            "en": "What should I watch for with timber screws in hot dry African climates?",
+            "zh": "非洲高温干燥环境用木螺钉要注意什么？",
+            "ja": "アフリカの高温乾燥環境で木ねじを使う際の注意点は？"
           },
           "a": {
-            "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "zh": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "es": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "ar": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "fr": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "pt": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "ru": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "ja": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "de": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "hi": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications."
+            "en": "Moisture content swings reduce holding power and loosen screws, so choose reamer-thread screws of adequate length and avoid installing while the timber is wet. Outdoors, specify hot-dip galvanized or stainless screws; plain electro-zinc rusts quickly in the rainy season.",
+            "zh": "木材含水率变化会降低握钉力、使螺钉松动，建议选带再攻丝（reamer）螺纹、长度足够的型号，并避免在木材含水率过高时安装。户外必须用热浸镀锌或不锈钢螺钉，普通电镀锌在雨季很快锈蚀。",
+            "ja": "含水率の変動で保持力が下がりねじが緩むため、リーマーねじを備えた十分な長さの製品を選び、木材が湿っている間の施工は避けます。屋外では溶融亜鉛めっきまたはステンレスを指定し、通常の電気亜鉛めっきは雨季に早期腐食します。"
           }
         },
         {
           "q": {
-            "en": "What materials are available for these fasteners?",
-            "zh": "What materials are available for these fasteners?",
-            "es": "What materials are available for these fasteners?",
-            "ar": "What materials are available for these fasteners?",
-            "fr": "What materials are available for these fasteners?",
-            "pt": "What materials are available for these fasteners?",
-            "ru": "What materials are available for these fasteners?",
-            "ja": "What materials are available for these fasteners?",
-            "de": "What materials are available for these fasteners?",
-            "hi": "What materials are available for these fasteners?"
+            "en": "What edge and end distances do timber screws need?",
+            "zh": "木螺钉安装的最小边距和端距是多少？",
+            "ja": "木ねじに必要な最小の縁距離・端距離は？"
           },
           "a": {
-            "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "zh": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "es": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "ar": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "fr": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "pt": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "ru": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "ja": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "de": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "hi": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics."
-          }
-        },
-        {
-          "q": {
-            "en": "Do you offer custom manufacturing?",
-            "zh": "Do you offer custom manufacturing?",
-            "es": "Do you offer custom manufacturing?",
-            "ar": "Do you offer custom manufacturing?",
-            "fr": "Do you offer custom manufacturing?",
-            "pt": "Do you offer custom manufacturing?",
-            "ru": "Do you offer custom manufacturing?",
-            "ja": "Do you offer custom manufacturing?",
-            "de": "Do you offer custom manufacturing?",
-            "hi": "Do you offer custom manufacturing?"
-          },
-          "a": {
-            "en": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "zh": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "es": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "ar": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "fr": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "pt": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "ru": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "ja": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "de": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times.",
-            "hi": "Yes, we offer custom fastener manufacturing to spec. Contact our sales team with your requirements for pricing and lead times."
+            "en": "Keep at least 3 times the screw diameter from the side edge and 4 times from the end, otherwise the timber splits. Spacing along an edge depends on design load, typically 150-300 mm. Drive screws perpendicular to the surface; angled driving creates bending stress and reduces capacity.",
+            "zh": "侧边距至少为螺钉直径的 3 倍，端距至少 4 倍，否则容易劈裂。沿构件边缘的间距按设计荷载确定，一般 150–300 mm。螺钉应垂直打入，斜向打入会产生弯曲应力、降低承载力。",
+            "ja": "側縁からはねじ径の3倍以上、端からは4倍以上離してください。近すぎると木材が割れます。縁に沿った間隔は設計荷重で決まり、通常150〜300mmです。ねじは面に対して直角に打ち込み、斜め打ちは曲げ応力を生み耐力を低下させます。"
           }
         }
       ],
