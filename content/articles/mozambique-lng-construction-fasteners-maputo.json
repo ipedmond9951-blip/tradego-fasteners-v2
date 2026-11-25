@@ -368,6 +368,38 @@
             "hi": "2025 तक 255,000 TEU; मई 1, 2025 से विस्तार कार्य चल रहा है जिससे 2027 तक 530,000 TEU पहुँचना है। घाट की लंबाई 308 मीटर से 650 मीटर और बर्थ की गहराई 12 मीटर से 16 मीटर तक बढ़ाई जा रही है। DP World के संचालन में रियायत 2058 तक चलती है। 2025 में बंदरगाह में रेल माल 11.7 Mt पहुंचा, जो साल-दर-साल 17% ज़्यादा है।",
             "ru": "255 000 TEU по состоянию на 2025 год; идёт расширение за 165 млн долларов, начатое 1 мая 2025 года, и к 2027 году вместимость дойдёт до 530 000 TEU. Длина причала вырастет с 308 м до 650 м, глубина у причала — с 12 м до 16 м. Концессия действует до 2058 года под управлением DP World. Железнодорожный грузопоток в порт достиг 11.7 Mt в 2025 году, рост 17% год к году."
           }
+        },
+        {
+          "q": {
+            "en": "What is the correct fastener grade for an LNG storage tank primary flange at -162°C?"
+          },
+          "a": {
+            "en": "A: ASTM A320 Grade L43 (austenitic stainless steel, 304/316 chemistry) per ASME B16.5. Do not use A193 B7, A320 L7, or A320 L7M at this temperature — L7/L7M are rated to -101°C and require specific stress-relief protocols for the lower end; L43 is the only common bolting grade that handles true LNG service without special dispensation."
+          }
+        },
+        {
+          "q": {
+            "en": "Can a Chinese mill ship directly to Matola, Mozambique without a South African consolidator?"
+          },
+          "a": {
+            "en": "A: Yes, but expect 30–40 day transit, mandatory 8-digit HS code compliance (73.18 family, 7318.29.00 for threaded articles not elsewhere specified), and 7.5% import duty + 16% VAT + 2.5% TSA on CIF value. Without SADC origin, you pay the MFN rate. Most EPCs use a South African consolidator to recover the SADC preference and reduce lead-time risk."
+          }
+        },
+        {
+          "q": {
+            "en": "Does ISO 3506 A4-80 (316 stainless) qualify for marine splash-zone bolting?"
+          },
+          "a": {
+            "en": "A: Yes. A4-80 specifies 16.0–18.5% chromium, 10.0–14.0% nickel, 2.0–3.0% molybdenum, C ≤ 0.08%, with a minimum tensile strength of 800 MPa. The 2–3% molybdenum is the key — it prevents pitting and crevice corrosion in chloride-rich marine air. It is the metric equivalent of ASTM A193 B8M Class 1 and is accepted by Afungi QA."
+          }
+        },
+        {
+          "q": {
+            "en": "What is the current Maputo container terminal capacity?"
+          },
+          "a": {
+            "en": "A: 255,000 TEUs as of 2025, with a $165M expansion underway (started May 1, 2025) to reach 530,000 TEUs by 2027. Quay length extends from 308 m to 650 m, berth depth from 12 m to 16 m. The concession runs through 2058 under DP World operation. Rail volumes into the port hit 11.7 Mt in 2025, up 17% year-on-year."
+          }
         }
       ]
     }
