@@ -217,6 +217,9 @@
         {
           "q": {
             "en": "How do I choose the right fastener for my project?",
+            "fr": "Comment déterminer l'ancrage adapté à l'ouvrage ?",
+            "pt": "Como definir a ancoragem adequada para a obra?",
+            "es": "¿Cómo determinar el anclaje adecuado para la obra?",
             "ar": "كيف أختار المثبت المناسب لمشروعي؟",
             "zh": "如何为项目选对紧固件？",
             "hi": "परियोजना के लिए सही फास्टनर कैसे चुनूं?",
@@ -224,7 +227,10 @@
           },
           "a": {
             "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
-            "ar": "راعِ المادة التي يتم تثبيتها ومتطلبات الأحمال والتعرض البيئي والمعايير المعمول بها. استشر مهندسًا مختصًا عند عدم التأكد من المواصفات.",
+            "fr": "Pour ancrer un équipement ou une charpente, on commence par inventorier le support : béton existant, fondation neuve, sol chargé ou mur porteur. On recense ensuite les charges reprises — traction, cisaillement, effort de soulèvement — ainsi que l'ambiance : humidité, gel, produits chimiques ou corrosion proche du sol. Chaque application suit la norme d'ancrage correspondante, et la nuance de l'acier est choisie selon la classe exigée, par exemple 8.8 pour les aciers alliés ou A2-70 pour l'inox. Si le diamètre M8 à M30, la profondeur de scellement ou le serrage en N·m restent incertains, il faut faire vérifier le dossier par un bureau d'études plutôt que d'augmenter arbitrairement le nombre de tirants.",
+            "pt": "Para fixar um equipamento ou uma estrutura, parte-se do inventário do suporte: concreto existente, fundação nova, solo carregado ou parede de carga. Depois levantam-se as cargas recuperadas — tração, cisalhamento, esforço de levantamento — e o ambiente: umidade, geada, produtos químicos ou corrosão junto ao solo. Cada aplicação segue a norma de ancoragem correspondente, e a liga do aço é escolhida conforme a classe exigida, por exemplo 8.8 para aços ligados ou A2-70 para o inox. Se o diâmetro M8 a M30, a profundidade de chumbamento ou o aperto em N·m continuarem incertos, o projeto deve ser verificado por um escritório de engenharia, em vez de aumentar arbitrariamente o número de tirantes.",
+            "es": "Para anclar un equipo o una estructura, se empieza por inventariar el soporte: hormigón existente, cimentación nueva, suelo cargado o muro portante. Luego se registran las cargas que se recuperan — tracción, cortante, esfuerzo de arranque — y el entorno: humedad, heladas, productos químicos o corrosión cerca del suelo. Cada aplicación sigue la norma de anclaje correspondiente, y el acero se elige según la clase exigida, por ejemplo 8.8 para aceros aleados o A2-70 para el inoxidable. Si el diámetro M8 a M30, la profundidad de empotramiento o el apriete en N·m siguen siendo dudosos, el expediente debe revisarlo un estudio de ingeniería, en lugar de subir de forma arbitraria el número de pernos.",
+            "ar": "لتثبيت معدات أو هيكل، يبدأ العمل بحصر الدعم: خرسانة قائمة أو أساس جديد أو تربة محملة أو جدار حامل. ثم تُسجل الأحمال التي يتحملها التثبيت: الشد أو القص أو قوة الرفع، مع مراعاة البيئة: الرطوبة أو الصقيع أو المواد الكيميائية أو التآكل القريب من التربة. ويتبع كل تطبيق معيار التثبيت المناسب، وتُختار سبيكة الفولاذ حسب الفئة المطلوبة مثل 8.8 للفولاذ السبائكي أو A2-70 للستانلس. وعند بقاء القطر من M8 إلى M30 أو عمق التثبيت أو عزم الشد بوحدة N·m غير مؤكدة، يجب مراجعة الملف لدى مكتب هندسي بدل زيادة عدد المراسي بشكل عشوائي.",
             "zh": "要综合考虑被连接件的材质、荷载要求、环境暴露条件以及适用的标准。规格拿不准时找专业人员确认。",
             "hi": "किन सामग्रियों को जोड़ना है, भार कितना है, परिवेश का जोखिम क्या है और कौन-से मानक लागू होते हैं, ये बातें मिलकर चयन तय करती हैं। स्पेसिफिकेशन पर भरोसा न हो तो किसी पेशेवर से सलाह लें।",
             "ru": "Опирайтесь на материал соединяемых деталей, требуемую нагрузку, воздействие среды и применимые стандарты. Если по спецификации остаются сомнения, проконсультируйтесь со специалистом до заказа: неверно выбранный крепёж в ответственной конструкции дешевле заменить на бумаге, чем на объекте после монтажа."
@@ -233,6 +239,9 @@
         {
           "q": {
             "en": "What materials are available for these fasteners?",
+            "fr": "De quels matériaux ces ancrages sont-ils faits ?",
+            "pt": "De quais materiais são feitos estes chumbadores?",
+            "es": "¿De qué materiales están hechos estos anclajes?",
             "ar": "ما المواد المتاحة لهذه البراغي؟",
             "zh": "这类紧固件有哪些材质可选？",
             "hi": "इन फास्टनरों के लिए कौन-कौन सी सामग्री मिलती है?",
@@ -240,7 +249,10 @@
           },
           "a": {
             "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
-            "ar": "المواد الشائعة تشمل الفولاذ الكربوني والفولاذ المقاوم للصدأ وفولاذ السبائك وسبائك متخصصة، ولكل منها خصائص مختلفة في القوة ومقاومة التآكل والتكلفة.",
+            "fr": "L'offre matériau couvre l'acier au carbone, l'inoxydable, l'acier allié et les alliages spéciaux. L'acier au carbone sert les ancrages courants en milieu sec, avec une protection par zingage ou galvanisation selon l'exposition. L'inox A2-70 résiste mieux à l'humidité et aux ambiances maritimes, tandis que l'inox A4-80 est réservé aux milieux les plus agressifs. L'acier allié couvre les ancrages à haute résistance, et les alliages spéciaux répondent aux environnements acides ou à température élevée. Le coût, la résistance mécanique et la tenue anticorrosion ne varient pas dans le même sens: un inox plus cher n'est pas plus fort en traction, et un acier carbone bien protégé peut suffire en intérieur.",
+            "pt": "A oferta de materiais abrange aço carbono, inoxidável, aço ligado e ligas especiais. O aço carbono serve aos chumbadores comuns em ambiente seco, com proteção por zincagem ou galvanização conforme a exposição. O inox A2-70 resiste melhor à umidade e a ambientes marítimos, enquanto o inox A4-80 fica reservado aos meios mais agressivos. O aço ligado cobre chumbadores de alta resistência, e as ligas especiais atendem ambientes ácidos ou de alta temperatura. Custo, resistência mecânica e proteção anticorrosiva não variam no mesmo sentido: um inox mais caro não é mais forte em tração, e um aço carbono bem protegido pode bastar em interior.",
+            "es": "La oferta de materiales abarca acero al carbono, inoxidable, acero aleado y aleaciones especiales. El acero al carbono sirve para anclajes corrientes en ambiente seco, con protección por cincado o galvanizado según la exposición. El inoxidable A2-70 resiste mejor la humedad y los entornos marinos, mientras el A4-80 se reserva para los medios más agresivos. El acero aleado cubre anclajes de alta resistencia, y las aleaciones especiales atienden entornos ácidos o de alta temperatura. Costo, resistencia mecánica y protección anticorrosiva no varían en el mismo sentido: un inoxidable más caro no es más fuerte a tracción, y un acero al carbono bien protegido puede bastar en interior.",
+            "ar": "تشمل تشكيلة المواد الفولاذ الكربوني والفولاذ المقاوم للصدأ والفولاذ السبائكي وسبائك خاصة. ويخدم الفولاذ الكربوني المراسي الشائعة في البيئة الجافة، مع حماية بالطلاء الزنكي أو الجلفنة حسب التعرض. ويتصدى الستانلس A2-70 للرطوبة والأجواء البحرية بشكل أفضل، بينما يخصص A4-80 للبيئات الأشد قساوة. ويغطي الفولاذ السبائكي المراسي عالية المقاومة، وتلبي السبائك الخاصة البيئات الحمضية أو مرتفعة الحرارة. ولا تتغير التكلفة والمقاومة الميكانيكية ومقاومة التآكل في اتجاه واحد: فالستانلس الأغلى ليس أقوى شداً، وقد يكفي الفولاذ الكربوني المحمي جيداً في الأماكن الداخلية.",
             "zh": "常见的有碳钢、不锈钢、合金钢和特种合金。它们在强度、耐蚀性和成本上各有取舍。",
             "hi": "आम सामग्रियों में कार्बन स्टील, स्टेनलेस स्टील, एलॉय स्टील और विशेष एलॉय शामिल हैं। हर सामग्री की ताकत, क्षरण रोधक क्षमता और लागत अलग-अलग होती है, इसलिए परिवेश और भार के हिसाब से मटेरियल चुनें।",
             "ru": "Распространённые материалы — углеродистая сталь, нержавеющая сталь, легированная сталь и специальные сплавы. У каждого своя прочность, стойкость к коррозии и ценовой уровень; выбор делают по расчётной нагрузке и среде эксплуатации, а не только по одному показателю."
@@ -249,15 +261,21 @@
         {
           "q": {
             "en": "Which foundation anchor type should I use?",
-            "zh": "基础锚固应该选哪种形式？",
+            "fr": "Quel type d'ancrage de fondation choisir ?",
+            "pt": "Qual tipo de fixação de fundação devo usar?",
+            "es": "¿Qué tipo de anclaje de cimentación debo usar?",
             "ar": "أي نوع من مراسي الأساسات أستخدم؟",
+            "zh": "基础锚固应该选哪种形式？",
             "hi": "फाउंडेशन एंकर का कौन-सा प्रकार इस्तेमाल करूं?",
             "ru": "Какой тип фундаментного анкера выбрать?"
           },
           "a": {
             "en": "Cast-in L or J bolts are placed before the concrete pour and give the most reliable capacity. For retrofits or existing foundations use chemical or mechanical anchors with published load tables. Plate-anchored systems suit heavy equipment bases and tanks.",
+            "fr": "Les tirants L ou J scellés avant le bétonnage sont placés avant la coulée et offrent la capacité la plus fiable, car leur reprise d'effort passe par le fût et le crochet noyés dans la masse. Pour une rénovation ou une fondation existante, on utilise des ancrages chimiques ou mécaniques, toujours avec les tableaux de charges publiés par le fabricant: on y relève la charge admissible par diamètre, la profondeur et l'entraxe minimum. Les systèmes à plaque d'ancrage conviennent aux bases d'équipements lourds et aux cuves, où plusieurs tirants reprennent ensemble le moment de basculement. Le choix ne dépend pas seulement du diamètre M12 à M24: il dépend du béton, de l'épaisseur disponible et du type de charge repris.",
+            "pt": "Os tirantes em L ou J chumbados antes da concretagem são colocados antes da cura e dão a capacidade mais confiável, porque a transmissão de esforço passa pelo fuste e pelo gancho embutidos na massa. Para reforma ou fundação existente, usam-se âncoras químicas ou mecânicas, sempre com as tabelas de carga publicadas pelo fabricante: nelas se consulta a carga admissível por diâmetro, a profundidade e o espaçamento mínimo. Os sistemas com placa de ancoragem servem às bases de equipamentos pesados e aos tanques, onde vários tirantes recuperam juntos o momento de tombamento. A escolha não depende só do diâmetro M12 a M24: depende do concreto, da espessura disponível e do tipo de carga assumido.",
+            "es": "Los pernos en L o J embebidos antes del hormigonado se colocan antes del vertido y ofrecen la capacidad más fiable, porque la transmisión de esfuerzo pasa por el fuste y el gancho empotrados en la masa. Para una reforma o cimentación existente, se usan anclajes químicos o mecánicos, siempre con las tablas de carga publicadas por el fabricante: en ellas se consulta la carga admisible por diámetro, la profundidad y la separación mínima. Los sistemas con placa de anclaje sirven para bases de equipos pesados y depósitos, donde varios pernos recuperan juntos el momento de vuelco. La elección no depende solo del diámetro M12 a M24: depende del hormigón, del espesor disponible y del tipo de carga asumido.",
+            "ar": "تُوضع المراسي على شكل L أو J قبل صب الخرسانة وتعطي أوثق سعة تحمل، لأن انتقال الإجهاد يمر بالقضيب والعلاقة المغمورين في الكتلة. وللتعديلات أو الأساسات القائمة تستخدم مراسي كيميائية أو ميكانيكية، مع الاطلاع دائماً على جداول الأحمال المنشورة من الجهة المصنعة: يُقرأ منها الحمل المسموح لكل قطر والعمق والتباعد الأدنى. وتناسب أنظمة صفيحة التثبيت قواعد المعدات الثقيلة والخزانات، حيث تستعيد عدة مراسي معاً لحظة الانقلاب. ولا يعتمد الاختيار على القطر من M12 إلى M24 وحده، بل يعتمد على الخرسانة والسمك المتاح ونوع الحمل المبذول.",
             "zh": "预埋 L 型或 J 型螺栓在浇筑前就位，承载力最可靠。改造工程或既有基础用化学锚栓或机械锚栓，按厂家公布的荷载表取值。带锚板的系统适合重型设备底座和罐体。",
-            "ar": "البراغي المصبوبة على شكل L أو J تُركّب قبل صب الخرسانة وتعطي أوثق سعة تحمل. وللتعديلات أو الأساسات القائمة استخدم مراسي كيميائية أو ميكانيكية مع جداول أحمال منشورة. أنظمة تثبيت الألواح تناسب قواعد المعدات الثقيلة والخزانات.",
             "hi": "कास्ट-इन L या J बोल्ट कंकाल डालने से पहले रखे जाते हैं और सबसे भरोसेमंद क्षमता देते हैं। पुरानी या मौजूदा फाउंडेशन में रेट्रोफिट के लिए केमिकल या मैकेनिकल एंकर लें, जिनके पास प्रकाशित भार सारणी उपलब्ध हो। प्लेट-एंकर वाले सिस्टम भारी उपकरण के बेस और टैंकों के लिए उपयुक्त होते हैं।",
             "ru": "Заливаемые болты с изгибом L или J ставят до бетонирования, и они дают самую надёжную несущую способность. Для реконструкции или готовых оснований берут химические либо механические анкеры по опубликованным таблицам нагрузок. Системы с приварной плитой подходят под основания тяжёлого оборудования и резервуары."
           }
@@ -265,15 +283,21 @@
         {
           "q": {
             "en": "How deep must anchor bolts be embedded?",
-            "zh": "地脚螺栓要埋多深？",
+            "fr": "À quelle profondeur les boulons d'ancrage doivent-ils être noyés ?",
+            "pt": "Qual deve ser a profundidade de embutimento dos parafusos?",
+            "es": "¿Qué profundidad de empotramiento deben tener los pernos?",
             "ar": "ما عمق تضمين براغي الأساسات؟",
+            "zh": "地脚螺栓要埋多深？",
             "hi": "एंकर बोल्ट को कितनी गहराई में जड़ना चाहिए?",
             "ru": "На какую глубину заделывают анкерные болты?"
           },
           "a": {
             "en": "Embedment is set by design, typically 12 diameters or more for cast-in bolts and per the anchor's qualification report for post-installed ones. Edge distance and bolt spacing also control capacity, so do not move anchors closer together on site without recalculating.",
+            "fr": "La profondeur de scellement est fixée par le calcul de structure: pour les tirants noyés, on compte en général 12 diamètres ou plus, tandis que les ancrages rapportés suivent le rapport de qualification du fabricant, qui donne la profondeur efficace selon le matériau du support. La distance au bord et l'entraxe entre boulons conditionnent aussi la capacité: un ancrage trop près d'un bord ou d'un autre tirant réduit la charge reprise, même si le diamètre et la classe restent les mêmes. Sur chantier, il ne faut pas rapprocher les ancrages entre eux sans un nouveau calcul, car la zone de collage ne se développe plus correctement. Vérifier aussi que le béton a atteint la résistance prévue en MPa avant la mise en charge des pièces.",
+            "pt": "A profundidade de chumbamento é definida pelo cálculo estrutural: para tirantes embutidos, conta-se em geral 12 diâmetros ou mais, enquanto as âncoras pós-instaladas seguem o relatório de qualificação do fabricante, que informa a profundidade eficaz conforme o material do suporte. A distância até a borda e o espaçamento entre parafusos também condicionam a capacidade: uma âncora perto demais da borda ou de outro tirante reduz a carga recuperada, mesmo que diâmetro e classe permaneçam iguais. Em obra, não se devem aproximar os ancoramentos sem um novo cálculo, pois a zona de aderência deixa de se desenvolver corretamente. Confira também se o concreto atingiu a resistência prevista em MPa antes de colocar as peças sob carga.",
+            "es": "La profundidad de empotramiento la fija el cálculo estructural: para pernos embebidos se cuentan en general 12 diámetros o más, mientras los anclajes posteriores siguen el informe de cualificación del fabricante, que da la profundidad eficaz según el material del soporte. La distancia al borde y la separación entre pernos también condicionan la capacidad: un anclaje demasiado cerca del borde o de otro perno reduce la carga recuperada, aunque el diámetro y la clase sean los mismos. En obra no se deben acercar los anclajes sin un nuevo cálculo, porque la zona de adherencia deja de desarrollarse correctamente. Verifique también que el hormigón haya alcanzado la resistencia prevista en MPa antes de poner las piezas bajo carga.",
+            "ar": "يحدد الحساب الإنشائي عمق التضمين: فبالنسبة للمراسي المصبوبة تُحسب عادة 12 قطراً أو أكثر، أما المراسي المثبتة لاحقاً فتتبع تقرير تأهيل الجهة المصنعة الذي يبين العمق الفعال حسب مادة الدعم. وتتحكم المسافة الحافية والتباعد بين البراغي أيضاً في السعة: فالمرسى القريب جداً من الحافة أو من مرسى آخر يقلل الحمل المقبول حتى لو بقي القطر والفئة كما هما. ولا يجوز في الموقع تقريب المراسي دون إعادة حساب، لأن منطقة التماسك لم تعد تتطور بشكل صحيح. وتحقق أيضاً من بلوغ الخرسانة المقاومة المتوقعة بوحدة MPa قبل تحميل القطع.",
             "zh": "埋深由设计确定，预埋螺栓一般不少于 12 倍直径；后置锚栓按锚固件的认证报告取值。边距和螺栓间距同样影响承载力，所以现场不得擅自把锚栓挪近而不重新核算。",
-            "ar": "يحدد التصميم عمق التضمين، وعادة لا يقل عن 12 قطرًا للبراغي المصبوبة، ووفق تقرير تأهيل المرسى للمثبتة لاحقًا. المسافة الحافية وتباعد البراغي يؤثران أيضًا في السعة، فلا تقرّب البراغي في الموقع دون إعادة حساب.",
             "hi": "जड़ाव गहराई डिजाइन से तय होती है: कास्ट-इन बोल्ट के लिए आम तौर पर 12 व्यास या उससे ज्यादा, और बाद में लगाए गए एंकरों के लिए उनकी क्वालिफिकेशन रिपोर्ट के अनुसार। किनारे से दूरी और बोल्ट के बीच का फासला भी क्षमता को नियंत्रित करता है, इसलिए साइट पर बिना दोबारा हिसाब किए एंकरों को पास-पास न खिसकाएं।",
             "ru": "Глубина заделки задаётся проектом: для заливаемых болтов это обычно не менее 12 диаметров, для установленного после бетонирования анкера — по его квалификационному отчёту. На несущую способность также влияют расстояние до края и шаг между анкерами, поэтому на объекте нельзя сближать их без повторного расчёта."
           }
@@ -281,15 +305,21 @@
         {
           "q": {
             "en": "What goes wrong during anchor bolt installation?",
-            "zh": "地脚螺栓安装最容易出什么问题？",
+            "fr": "Quels défauts surviennent pendant la pose des tirants ?",
+            "pt": "Quais falhas ocorrem durante a instalação dos chumbadores?",
+            "es": "¿Qué fallas aparecen durante la instalación de los anclajes?",
             "ar": "ما الذي يخطئ أثناء تركيب براغي الأساسات؟",
+            "zh": "地脚螺栓安装最容易出什么问题？",
             "hi": "एंकर बोल्ट लगाते समय क्या गलतियां हो जाती हैं?",
             "ru": "Что чаще всего идёт не так при монтаже анкеров?"
           },
           "a": {
             "en": "Position drift during the pour is the main one - use a rigid template and re-check before and after concrete placement. Also watch thread damage from concrete contact, and grout the base plate properly so load transfers through the grout, not the bolt alone.",
+            "fr": "Le principal aléa est le déplacement de position pendant la coulée: on utilise un gabarit rigide et l'on recontrôle l'emplacement avant puis après la mise en place du béton. On surveille aussi l'endommagement du filetage par contact avec le béton, en protégeant les parties vissées pendant le gâchage et le vibrage. La plaque de base doit être correctement calée au mortier de façon que la charge passe par le mortier de réglage, et non par le seul boulon d'ancrage. Un serrage prématuré avant durcissement du mortier, ou des trous de platine désalignés, font reprendre l'effort aux tirants en traction et flexion. La vérification finale porte sur l'aplomb, l'entraxe et la propreté des filets avant montage de l'équipement.",
+            "pt": "O principal imprevisto é o desvio de posição durante a concretagem: usa-se um gabarito rígido e reconfirma-se a localização antes e depois do lançamento do concreto. Observa-se também o dano à rosca por contato com o concreto, protegendo as partes rosqueadas durante o preparo e a vibração. A placa de base deve ser corretamente rejuntada para que a carga passe pela argamassa de nivelamento, e não pelo único parafuso de ancoragem. Um aperto prematuro antes da cura da argamassa, ou furos da platina desalinhados, fazem os tirantes recuperar o esforço em tração e flexão. A verificação final trata do prumo, do espaçamento e da limpeza das roscas antes da montagem do equipamento.",
+            "es": "El principal imprevisto es el desplazamiento de posición durante el vertido: se usa una plantilla rígida y se revisa la ubicación antes y después de colocar el hormigón. Se vigila también el daño de la rosca por contacto con el hormigón, protegiendo las partes roscadas durante la preparación y el vibrado. La placa base debe quedar correctamente lechada para que la carga pase por el mortero de nivelación, y no por el único perno de anclaje. Un apriete prematuro antes del curado del mortero, o unos taladros de la platina desalineados, hacen que los pernos recuperen el esfuerzo en tracción y flexión. La comprobación final trata de la plomada, la separación y la limpieza de las roscas antes del montaje del equipo.",
+            "ar": "أكبر عائق هو انحراف الموضع أثناء الصب: يُستخدم قالب تثبيت صلب وتُعاد قراءة الموضع قبل وضع الخرسانة وبعده. ويراقب أيضاً تلف الخيط المسماري من ملامسة الخرسانة، مع حماية الأجزاء الملولبة أثناء الخلط والاهتزاز. ويجب حقن صفيحة القاعدة بالمونة بشكل صحيح لينتقل الحمل عبر مونة التسوية لا عبر مرسى واحد. أما الشد المبكر قبل تصلب المونة أو ثقوب الصفيحة غير المحاذاة فتجعل المراسي تستعيد الإجهاد شداً وثنيًا. ويشمل الفحص النهائي الاستقامة والتباعد ونظافة الخيوط قبل تركيب المعدة. كما يُرفع تقرير معاينة يوضح حالة كل مرسى وموقعه الدقيق قبل تغطية القاعدة.",
             "zh": "主要是浇筑过程中的位置漂移——用刚性模板固定，浇筑前后各复核一次。另外要防止螺纹被混凝土污染，底座板必须灌浆密实，让荷载通过灌浆层传递，而不是只压在螺栓上。",
-            "ar": "أكبر مشكلة هي انحراف الموضع أثناء الصب: استخدم قالبًا صلبًا وأعد الفحص قبل الصب وبعده. راقب أيضًا تلف القلاووظ من ملامسة الخرسانة، واحقن مونة أسفل صفيحة القاعدة جيدًا لينتقل الحمل عبر المونة لا عبر البرغي وحده.",
             "hi": "डालते वक्त स्थिति का खिसकना सबसे बड़ी समस्या है; दृढ़ टेम्पलेट इस्तेमाल करें और कंकाल डालने से पहले तथा बाद में दोबारा जांचें। कंकाल के संपर्क से धागे को पहुंचने वाला नुकसान भी देखें, और बेस प्लेट को ठीक से ग्राउट करें ताकि भार ग्राउट के जरिए संचारित हो, अकेले बोल्ट पर न टिके।",
             "ru": "Главная проблема — смещение позиции при заливке: используйте жёсткий шаблон и перепроверяйте положение до и после укладки бетона. Следите и за повреждением резьбы при контакте с бетоном, а плиту основания заанкеривайте через раствор так, чтобы нагрузка шла через слой раствора, а не только через болт."
           }
