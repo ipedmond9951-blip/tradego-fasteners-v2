@@ -263,31 +263,37 @@
     {
      "q": {
       "en": "How do I match nut grade to bolt grade?",
-      "zh": "螺母等级怎么和螺栓等级匹配？"
+      "zh": "螺母等级怎么和螺栓等级匹配？",
+      "hi": "नट ग्रेड को बोल्ट ग्रेड से कैसे मिलाएं?"
      },
      "a": {
       "en": "Match property class to the bolt: an 8.8 bolt takes a class 8 nut, a 10.9 bolt takes class 10. A weaker nut strips first and destroys the joint. Also confirm thread tolerance (6H nut on 6g bolt) so the pair assembles without excessive play.",
-      "zh": "按性能等级配对：8.8 螺栓配 8 级螺母，10.9 螺栓配 10 级。螺母弱于螺栓会先滑扣、毁掉整个接头。同时确认螺纹公差（6H 螺母配 6g 螺栓），避免配合过松。"
+      "zh": "按性能等级配对：8.8 螺栓配 8 级螺母，10.9 螺栓配 10 级。螺母弱于螺栓会先滑扣、毁掉整个接头。同时确认螺纹公差（6H 螺母配 6g 螺栓），避免配合过松。",
+      "hi": "प्रॉपर्टी क्लास बोल्ट से मिलाएं: 8.8 बोल्ट में क्लास 8 नट, 10.9 बोल्ट में क्लास 10 नट। कमज़ोर नट पहले घिसकर जोड़ खराब कर देता है। धागा सहनशीलता भी पक्की करें—6g बोल्ट पर 6H नट—ताकि जोड़ ज़्यादा खेल के बिना लगे।"
      }
     },
     {
      "q": {
       "en": "When can I use thin or heavy hex nuts?",
-      "zh": "薄螺母和加厚螺母分别什么时候用？"
+      "zh": "薄螺母和加厚螺母分别什么时候用？",
+      "hi": "पतले या भारी हेक्स नट का उपयोग कब करें?"
      },
      "a": {
       "en": "Thin nuts are only for jam nuts and low-load locking, not for primary connections. Heavy hex nuts (ASTM A563 style) suit structural bolting where the nut must develop the full bolt strength. Standard hex nuts cover general machinery and construction.",
-      "zh": "薄螺母只用于锁紧副螺母和低载荷防松，不能做主连接。加厚六角螺母（ASTM A563 型）用于结构螺栓连接，要能发挥螺栓全部强度。标准六角螺母适合一般机械与建筑。"
+      "zh": "薄螺母只用于锁紧副螺母和低载荷防松，不能做主连接。加厚六角螺母（ASTM A563 型）用于结构螺栓连接，要能发挥螺栓全部强度。标准六角螺母适合一般机械与建筑。",
+      "hi": "पतले नट केवल जैम नट और कम भार वाली लॉकिंग के लिए हैं, मुख्य कनेक्शन में नहीं। भारी हेक्स नट (ASTM A563 शैली) स्ट्रक्चरल बोल्टिंग में चलते हैं, जहां नट को बोल्ट की पूरी ताकत विकसित करनी हो। साधारण हेक्स नट सामान्य मशीनरी और निर्माण के लिए हैं।"
      }
     },
     {
      "q": {
       "en": "Which nut finish works in African climates?",
-      "zh": "非洲气候下螺母用什么表面处理？"
+      "zh": "非洲气候下螺母用什么表面处理？",
+      "hi": "अफ्रीकी जलवायु के लिए कौन-सा नट फिनिश चलेगा?"
      },
      "a": {
       "en": "Hot-dip galvanized for outdoor and coastal, with nuts tapped oversize after galvanizing so they still fit. Zinc-flake coating for 10.9 assemblies to avoid embrittlement. Stainless for marine and chemical. Electro-zinc is only for dry interior work.",
-      "zh": "室外与沿海用热浸镀锌，螺母在镀后攻丝（加大公差）才能装配。10.9 组合用锌铝涂层避免氢脆。海洋与化工用不锈钢。电镀锌只适合室内干燥。"
+      "zh": "室外与沿海用热浸镀锌，螺母在镀后攻丝（加大公差）才能装配。10.9 组合用锌铝涂层避免氢脆。海洋与化工用不锈钢。电镀锌只适合室内干燥。",
+      "hi": "बाहरी और तटीय काम के लिए हॉट-डिप गैल्वनाइज़्ड; गैल्वनाइज़िंग के बाद नट को ओवरसाइज़ टैप करें ताकि फिट रहे। 10.9 असेंबली में भंगुरता बचाने के लिए ज़िंक-फ्लेक कोटिंग लें। समुद्री और रासायनिक काम में स्टेनलेस, इलेक्ट्रो-ज़िन्क केवल शुष्क अंदरूनी काम के लिए।"
      }
     }
    ],
