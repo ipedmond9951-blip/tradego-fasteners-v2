@@ -96,6 +96,15 @@ def truncated(d):
 case("写到一半断句要被抓", "truncated", truncated)
 
 
+def dup_para(d):
+    """同一语言里整段出现两次（模板拼接粘重，2026-11-25 全库清过 425 处）"""
+    para = "<p>" + "This paragraph is long enough to count as a body paragraph and appears twice in the same section." * 2 + "</p>"
+    d["sections"][0]["body"]["en"] = para + "\n\n" + para
+
+
+case("同段重复两遍", "dup-para", dup_para)
+
+
 def main():
     quiet = "--quiet" in sys.argv
     fails = 0

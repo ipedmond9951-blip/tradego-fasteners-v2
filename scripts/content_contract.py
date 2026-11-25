@@ -346,6 +346,25 @@ def check_article(path, project_dir):
         if not norm(body.get("zh", "") or "") and not has_items and not is_faq:
             issues.b("body", f"sections[{i}] 缺中文正文")
 
+    # 6.1 同段重复：同一语言里整段出现两次以上，说明模板拼接把同一块粘了两遍
+    #     （全库清扫时一次性去掉 425 处，规则在此兜住不再复发）
+    for i, s in enumerate(sections):
+        if not isinstance(s, dict):
+            continue
+        body = s.get("body") or {}
+        for lg, text in body.items():
+            if not isinstance(text, str) or "</p>" not in text:
+                continue
+            plain = [re.sub(r"\s+", " ", TAG_RE.sub("", chunk)).strip() for chunk in text.split("</p>")]
+            plain = [p for p in plain if len(p) > 80]
+            counts = {}
+            for p in plain:
+                counts[p] = counts.get(p, 0) + 1
+            for p, n in counts.items():
+                if n > 1:
+                    issues.b("dup-para", f"sections[{i}].body.{lg} 同一段出现 {n} 次: '{p[:60]}'")
+                    break
+
     if en_body_words and en_body_words < MIN_EN_BODY_WORDS:
         if STRICT:
             issues.b("body-size", f"英文正文 {en_body_words} 词 < 门槛 {MIN_EN_BODY_WORDS}")
