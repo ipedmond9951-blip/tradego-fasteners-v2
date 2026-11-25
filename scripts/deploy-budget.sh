@@ -35,13 +35,17 @@ today = datetime.datetime.now(tz).strftime('%Y-%m-%d')  # 统一用北京时间�
 api_count = None
 try:
     token = json.load(open(os.path.expanduser(auth_path)))['token']
+    # 2026-11-25: 带 projectId 查会被 403（项目在团队下、token 无该团队 deployments 读权限），
+    # 改成拉全量再按 projectId / name 本地过滤；团队口径变了也不会再瞎。
     req = urllib.request.Request(
-        'https://api.vercel.com/v6/deployments?projectId=' + project_id + '&limit=50',
+        'https://api.vercel.com/v6/deployments?limit=100',
         headers={'Authorization': 'Bearer ' + token},
     )
     data = json.load(urllib.request.urlopen(req, timeout=15))
     today_start = datetime.datetime.now(tz).replace(hour=0, minute=0, second=0, microsecond=0).timestamp()
-    api_count = sum(1 for d in data.get('deployments', []) if d['createdAt'] / 1000 >= today_start and d.get('state') != 'CANCELED')  # ignoreCommand 跳过的记录不占预算
+    api_count = sum(1 for d in data.get('deployments', [])
+                    if (d.get('projectId') == project_id or d.get('name') == 'tradego-fasteners')
+                    and d['createdAt'] / 1000 >= today_start and d.get('state') != 'CANCELED')  # ignoreCommand 跳过的记录不占预算
 except Exception as e:
     print('⚠️ 读 Vercel 部署数失败(%s), 回退本地台账' % type(e).__name__)
 
@@ -74,7 +78,9 @@ if api_count is not None:
 src.append('本地=%d' % local_count); src.append('台账=%d' % hist_count)
 print('📊 今日已发生部署: %d / 预算 %d（%s；%s）' % (count, limit, today, ' '.join(src)))
 
-if api_count is not None and count >= limit:
+# 2026-11-25 修: 原先只有 api_count 有效时才拦，API 一失败(401/超时)就直接放行，
+# 结果今天真实推到 10 次。预算判定不该依赖 API 是否读得到 —— 取 max 的任何一个来源够数就拦。
+if count >= limit:
     print('❌ 已达每日部署预算，本次 push 被拦下。')
     print('   原因: 每次部署都会新增 1–1.9GB 产物并重写全站预渲染缓存，Hobby 免费额度扛不住高频部署。')
     print('   把改动合并成一次提交再推；确需立即部署: DEPLOY_FORCE=1 git push')

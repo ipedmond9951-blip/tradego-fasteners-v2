@@ -72,10 +72,11 @@ def sync():
     """把 API 里能看到的部署 uid 补进台账（不覆盖已有记录）。"""
     seen = {r.get("uid") for r in load()}
     added = []
-    for page in range(1, 4):  # 最近 300 条足够覆盖一个月
-        data = api(
-            f"/v6/deployments?projectId={PROJECT_ID}&teamId={TEAM_ID}&limit=100&page={page}"
-        )
+    # 2026-11-25: 带 projectId/teamId 的查询会 403，改用共享取数脚本（全量拉取后本地过滤）
+    import subprocess, sys as _sys
+    helper = os.path.join(os.path.dirname(os.path.abspath(__file__)), "vercel_deployments.py")
+    data = json.loads(subprocess.check_output([_sys.executable, helper, "--limit", "100"], timeout=30))
+    for _page in range(1):
         deployments = data.get("deployments", [])
         if not deployments:
             break

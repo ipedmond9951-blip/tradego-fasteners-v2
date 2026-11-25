@@ -18,7 +18,7 @@ APPLY=0
 
 TOKEN=$(python3 -c "import json;print(json.load(open('$HOME/Library/Application Support/com.vercel.cli/auth.json'))['token'])")
 
-LIST=$(curl -s "https://api.vercel.com/v6/deployments?projectId=$PROJECT_ID&limit=50" -H "Authorization: Bearer $TOKEN")
+LIST=$(python3 scripts/vercel_deployments.py --limit 50)
 
 TOTAL=$(echo "$LIST" | python3 -c "import json,sys;print(len(json.load(sys.stdin)['deployments']))")
 echo "📦 主项目当前部署: $TOTAL 条，保留最近 $KEEP 条"

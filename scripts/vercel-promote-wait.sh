@@ -33,8 +33,7 @@ echo "[promote-wait $(date '+%F %T')] 等待提交 ${SHA:0:8} 构建完成（超
 
 start=$(date +%s)
 while :; do
-  state=$(curl -s "https://api.vercel.com/v6/deployments?projectId=$PROJECT_ID&teamId=$TEAM_ID&limit=20" \
-    -H "Authorization: Bearer $TOKEN" | SHA="$SHA" python3 -c '
+  state=$(python3 scripts/vercel_deployments.py --limit 50 | SHA="$SHA" python3 -c '
 import json,os,sys
 want=os.environ["SHA"]
 for x in json.load(sys.stdin).get("deployments",[]):

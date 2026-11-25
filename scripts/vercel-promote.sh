@@ -23,8 +23,7 @@ while [ $# -gt 0 ]; do
   esac; shift
 done
 
-latest=$(curl -s "https://api.vercel.com/v6/deployments?projectId=$PROJECT_ID&target=production&limit=10" \
-  -H "Authorization: Bearer $TOKEN" | python3 -c '
+latest=$(python3 scripts/vercel_deployments.py --limit 10 --target production | python3 -c '
 import json,sys
 d=json.load(sys.stdin)["deployments"]
 for x in d:
