@@ -265,3 +265,19 @@ CANCELED 记录要 push 后十几秒才出现在 API 里，所以 `deploy-flush.
 | 2026-11-25 | GitHub main 开分支保护（禁强推/禁删除/线性历史/含 admin） | 本地钩子可被 --no-verify 绕过，加一层远端硬拦 |
 | 2026-11-25 | 预算口径改为"真实构建数"；prune 保留 ERROR 作证据；审计识别构建失败 | 058ea106 因 function_creation_throttled 构建失败，旧口径误判/漏报 |
 | 2026-11-25 | Project Settings → Build and Deployment → Deployment Retention Policy：Production 部署 **30 days → 1 week** | 该设置只有天数粒度、没有"保留 N 条"字段；条数由 deploy-flush 后的 prune 控制（3 条），天数策略只作长尾兜底。1 week 给足一周回滚窗口，最长堆积 7 条 |
+| 2026-11-25 | 无构建推送计数改按 `Asia/Shanghai`；无构建推送后补跑一次 prune；审计保留数只计非 CANCELED | 机器时区 PST 导致北京时间上午永远卡在 5/5；CANCELED 记录延迟生成，prune 抓不到会误报"保留 4 条" |
+| 2026-11-25 | `seo-pipeline-guardian.sh` 的 `log()` 移到使用之前 | 早期分支误调 macOS `/usr/bin/log`，`Unknown subcommand` + exit 64，launchd 每次报失败 |
+
+## 11. 踩坑清单（都是真撞出来的，别再重犯）
+
+| 坑 | 症状 | 正确做法 |
+|---|---|---|
+| 用机器本地时区算"今天" | 北京时间上午预算永远显示已用满 | 所有计数显式用 `Asia/Shanghai` |
+| prune 紧贴 push 跑 | 审计报"保留 4 条"，几分钟后又自己好了 | CANCELED 生成有十几秒延迟，无构建推送后 sleep 25 秒再 prune 一次 |
+| 把 CANCELED 算进保留数 | 每次纯文档推送都误报超标 | 保留数只统计非 CANCELED |
+| 用 `origin/main..HEAD` 判断会不会构建 | 别人推了未上线的 content 时误判"会跳过" | 用上次 READY+production 的 sha..HEAD，与 ignoreCommand 同口径 |
+| 在 launchd 脚本里先调用 `log()` 再定义 | `Unknown subcommand '...'`，launchctl 第二列 64 | 函数定义放在最前；排查先 `launchctl list` 看非 0，再看 `*.err` 里的系统命令 usage |
+| 全角括号紧跟变量名 | `unbound variable` | 写 `${VAR}` |
+| `vercel inspect` 直接 grep | 抓不到尺寸 | 输出在 stderr，必须 `2>&1` |
+| 以为 `deploymentsToKeep` 能设 | PATCH 400 `should NOT have additional property` | 只读；条数靠 prune，平台只有天数型 Retention Policy |
+| 平台 cron / `at` 当可靠调度 | 到点 `last_run_time` 不动 | 本机一律用 launchd（RunAtLoad + StartInterval/StartCalendarInterval），写状态 json |
