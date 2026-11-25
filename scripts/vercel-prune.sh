@@ -31,7 +31,7 @@ out=[]
 for x in d:
     st=x['state']
     t=datetime.datetime.fromtimestamp(x['createdAt']/1000).strftime('%Y-%m-%d %H:%M')
-    if st in ('CANCELED','ERROR'):
+    if st in ('CANCELED',):  # ERROR 保留作证据, 供审计识别构建失败
         out.append((x['uid'], st, (x['meta'].get('githubCommitSha') or '')[:8], t))
     elif st=='READY':
         if keep_ready>0:

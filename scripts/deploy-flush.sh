@@ -60,8 +60,13 @@ echo "$LOG_PREFIX 待推送提交: $UNPUSHED 个"
 
 # 只改 docs/scripts 等非构建路径时, vercel.json 的 ignoreCommand 会跳过构建 →
 # 不产生新部署、不占部署预算。按真实构建计数, 而不是按 push 次数。
+# 判定依据是 vercel.json 里 ignoreCommand 的实际口径: 上一次成功部署的 sha .. HEAD。
+# 不能用 origin/main..HEAD：中间若有别人推的 content 变更没上线, 这次 push 会连带构建。
 WILL_BUILD=1
-[ -z "$(git diff --name-only origin/main..HEAD -- content src public next.config.ts package.json 2>/dev/null)" ] && WILL_BUILD=0
+PREV_SHA=$(python3 scripts/_prev-prod-sha.py)
+if [ -n "$PREV_SHA" ] && git cat-file -e "$PREV_SHA" 2>/dev/null; then
+  [ -z "$(git diff --name-only "$PREV_SHA"..HEAD -- content src public next.config.ts package.json 2>/dev/null)" ] && WILL_BUILD=0
+fi
 
 if [ "$FORCE" -eq 0 ]; then
   if [ "$WILL_BUILD" -eq 0 ]; then
