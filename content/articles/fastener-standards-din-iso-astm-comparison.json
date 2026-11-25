@@ -202,40 +202,48 @@
     {
      "q": {
       "en": "What are the key considerations for fastener standards din iso astm comparison?",
-      "zh": "关于fastener standards din iso astm comparison的关键考虑因素是什么？"
+      "zh": "关于fastener standards din iso astm comparison的关键考虑因素是什么？",
+      "hi": "DIN, ISO, ASTM और ANSI मानकों की तुलना करते समय मुख्य बातें क्या हैं?"
      },
      "a": {
-      "en": "See the detailed analysis above for specifications, applications, and best practices for fastener standards din iso astm comparison."
+      "en": "See the detailed analysis above for specifications, applications, and best practices for fastener standards din iso astm comparison.",
+      "hi": "इन मानकों की तुलना में स्पेसिफिकेशन, उपयोग क्षेत्र और सर्वोत्तम अभ्यास ऊपर विस्तार से दिए गए हैं। चुनाव से पहले परियोजना की ड्राइंग, सामग्री का ग्रेड, धागे का माप और जोड़ पर लगने वाला भार मिलाएं; एक ही कनेक्शन में मानक प्रणाली मिलाकर चलने से बदलाव और गलत बदली का जोखिम घटता है।"
      }
     },
     {
      "q": {
       "en": "How do DIN, ISO, ASTM and ANSI differ in practice?",
-      "zh": "DIN、ISO、ASTM、ANSI 实际差在哪？"
+      "zh": "DIN、ISO、ASTM、ANSI 实际差在哪？",
+      "hi": "व्यवहार में DIN, ISO, ASTM और ANSI में क्या अंतर है?"
      },
      "a": {
       "en": "DIN has largely been superseded by EN ISO for metric fasteners, so DIN 933 and ISO 4017 describe the same hex bolt. ASTM covers US industrial products (A325, A490, F436) while ANSI/ASME sets inch dimensional standards. A project should name one system per connection.",
-      "zh": "米制紧固件中 DIN 大多已被 EN ISO 取代，DIN 933 与 ISO 4017 就是同一种六角螺栓。ASTM 覆盖美国工业产品（A325、A490、F436），ANSI/ASME 规定英寸尺寸标准。每个连接点只写一套体系。"
+      "zh": "米制紧固件中 DIN 大多已被 EN ISO 取代，DIN 933 与 ISO 4017 就是同一种六角螺栓。ASTM 覆盖美国工业产品（A325、A490、F436），ANSI/ASME 规定英寸尺寸标准。每个连接点只写一套体系。",
+      "hi": "मीट्रिक फास्टनरों में DIN की जगह अब काफी हद तक EN ISO ने ले ली है, इसलिए DIN 933 और ISO 4017 एक ही हेक्स बोल्ट को दर्शाते हैं। ASTM अमेरिकी औद्योगिक उत्पादों को कवर करता है (A325, A490, F436), जबकि ANSI/ASME इंच आयाम मानक तय करता है। हर कनेक्शन के लिए एक ही प्रणाली का नाम लिखा जाना चाहिए।"
      }
     },
     {
      "q": {
       "en": "How do head markings differ between these systems?",
-      "zh": "这些体系的头部标记怎么区分？"
+      "zh": "这些体系的头部标记怎么区分？",
+      "hi": "इन प्रणालियों में हेड की मार्किंग कैसे अलग है?"
      },
      "a": {
       "en": "Metric bolts mark the property class (8.8, 10.9, A2-70), ASTM structural bolts mark the specification (A325, A490) plus the manufacturer, and inch commercial bolts mark grade (Grade 5, Grade 8) or nothing at all on low grades. Marking style tells you which system you are holding.",
-      "zh": "米制螺栓标性能等级（8.8、10.9、A2-70），ASTM 结构螺栓标规范号（A325、A490）加厂标，英寸商用螺栓标等级（Grade 5、Grade 8），低等级甚至不标。标记方式本身就能告诉你手里是哪套体系。"
+      "zh": "米制螺栓标性能等级（8.8、10.9、A2-70），ASTM 结构螺栓标规范号（A325、A490）加厂标，英寸商用螺栓标等级（Grade 5、Grade 8），低等级甚至不标。标记方式本身就能告诉你手里是哪套体系。",
+      "hi": "मीट्रिक बोल्ट पर प्रॉपर्टी क्लास (8.8, 10.9, A2-70) की मार्किंग होती है; ASTM स्ट्रक्चरल बोल्ट पर स्पेसिफिकेशन (A325, A490) और निर्माता का निशान लगता है; इंच वाले कमर्शियल बोल्ट पर ग्रेड (Grade 5, Grade 8) का निशान होता है या निचले ग्रेड पर कोई निशान नहीं। मार्किंग की शैली से पता चलता है कि आप कौन-सी प्रणाली पकड़े हुए हैं।"
      }
     },
     {
      "q": {
       "en": "Can I substitute an ISO bolt for an ASTM one?",
-      "zh": "ISO 螺栓能替代 ASTM 螺栓吗？"
+      "zh": "ISO 螺栓能替代 ASTM 螺栓吗？",
+      "hi": "क्या ASTM बोल्ट की जगह ISO बोल्ट लगाया जा सकता है?"
      },
      "a": {
       "en": "Only after checking dimensions, thread and mechanical properties. M20 ISO bolts are close to 3/4 inch but not interchangeable in a pre-drilled hole, and ASTM A325 has different proof load requirements from 8.8. Substitution needs engineering approval, not a supplier's assurance.",
-      "zh": "必须核对尺寸、螺纹与机械性能后才能替代。M20 的 ISO 螺栓接近 3/4 英寸，但在已钻好的孔里并不通用；ASTM A325 的保证载荷要求也与 8.8 不同。替代要工程师批准，不能只听供应商保证。"
+      "zh": "必须核对尺寸、螺纹与机械性能后才能替代。M20 的 ISO 螺栓接近 3/4 英寸，但在已钻好的孔里并不通用；ASTM A325 的保证载荷要求也与 8.8 不同。替代要工程师批准，不能只听供应商保证。",
+      "hi": "आयाम, धागा और यांत्रिक गुण जांचने के बाद ही यह संभव है। M20 ISO बोल्ट 3/4 इंच के करीब तो है, पर पहले से ड्रिल होल में ये एक-दूसरे के बदले नहीं चलते; ASTM A325 की प्रूफ लोड शर्तें 8.8 से अलग हैं। बदलाव के लिए इंजीनियरिंग मंजूरी चाहिए, सिर्फ सप्लायर के भरोसे पर यह फैसला नहीं लेना चाहिए।"
      }
     }
    ]
