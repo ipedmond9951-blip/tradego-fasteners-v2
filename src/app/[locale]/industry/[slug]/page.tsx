@@ -139,6 +139,17 @@ function renderSection(section: ArticleSection, locale: string) {
     ? (Array.isArray(rawTable.headers) ? rawTable : (rawTable[locale] || rawTable.en || Object.values(rawTable)[0]))
     : null
 
+  // native-only 之后的新问题：该语种没有原生问答时，条目被过滤掉，
+  // 但 FAQ 小节的 H2 仍然会渲染，页面上就是一个空标题（无正文、无表格）。
+  // 这种"整节只有未本地化问答"的小节直接不输出，避免空 FAQ 区。
+  const rawFaq = section.faqItems ?? []
+  const nativeFaq = rawFaq
+    .map(item => ({ q: nativeText(item.q, locale), a: nativeText(item.a, locale) }))
+    .filter(item => item.q && item.a)
+  const hasBody = Boolean(section.body && localizedText(section.body, locale))
+  const hasTable = Boolean(table && Array.isArray(table.headers) && Array.isArray(table.rows))
+  if (rawFaq.length > 0 && nativeFaq.length === 0 && !hasBody && !hasTable) return null
+
   return (
     <section key={section.id} className="mb-8" id={section.id}>
       <h2 className="text-2xl font-bold text-gray-900 mb-4">{localizedText(section.heading, locale)}</h2>
@@ -167,22 +178,16 @@ function renderSection(section: ArticleSection, locale: string) {
           </table>
         </div>
       )}
-      {(() => {
-        const nativeFaq = (section.faqItems ?? [])
-          .map(item => ({ q: nativeText(item.q, locale), a: nativeText(item.a, locale) }))
-          .filter(item => item.q && item.a)
-        if (nativeFaq.length === 0) return null
-        return (
-          <div className="space-y-4">
-            {nativeFaq.map((item, i) => (
-              <details key={i} className="bg-gray-50 rounded-lg p-4">
-                <summary className="font-semibold text-gray-900 cursor-pointer">{item.q}</summary>
-                <p className="mt-2 text-gray-700">{item.a}</p>
-              </details>
-            ))}
-          </div>
-        )
-      })()}
+      {nativeFaq.length > 0 && (
+        <div className="space-y-4">
+          {nativeFaq.map((item, i) => (
+            <details key={i} className="bg-gray-50 rounded-lg p-4">
+              <summary className="font-semibold text-gray-900 cursor-pointer">{item.q}</summary>
+              <p className="mt-2 text-gray-700">{item.a}</p>
+            </details>
+          ))}
+        </div>
+      )}
     </section>
   )
 }
