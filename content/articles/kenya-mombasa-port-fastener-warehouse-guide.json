@@ -254,41 +254,49 @@
         {
           "q": {
             "en": "Which port serves Uganda, Rwanda, and eastern DRC?",
-            "zh": "乌干达、卢旺达和刚果金东部走哪个港？"
+            "zh": "乌干达、卢旺达和刚果金东部走哪个港？",
+            "hi": "युगांडा, रवांडा और पूर्वी DRC के लिए कौन-सा बंदरगाह है?"
           },
           "a": {
             "en": "Mombasa is the primary gateway for the Northern Corridor, serving Uganda, Rwanda, Burundi, eastern DRC, and South Sudan, with the Nairobi inland container depot used for onward consolidation.",
-            "zh": "蒙巴萨是北部走廊的主门户，服务乌干达、卢旺达、布隆迪、刚果（金）东部和南苏丹；后续拼箱转运走内罗毕内陆集装箱堆场。"
+            "zh": "蒙巴萨是北部走廊的主门户，服务乌干达、卢旺达、布隆迪、刚果（金）东部和南苏丹；后续拼箱转运走内罗毕内陆集装箱堆场。",
+            "hi": "मोम्बासा नॉर्दर्न कॉरिडोर का मुख्य प्रवेश द्वार है; यह युगांडा, रवांडा, बुरुंडी, पूर्वी DRC और दक्षिण सूडान को सेवा देता है। आगे एकत्रीकरण के लिए नैरोबी इनलैंड कंटेनर डिपो का इस्तेमाल होता है।"
           }
         },
         {
           "q": {
             "en": "What documents are needed to clear fasteners at Mombasa?",
-            "zh": "紧固件在蒙巴萨清关要哪些单证？"
+            "zh": "紧固件在蒙巴萨清关要哪些单证？",
+            "hi": "मोम्बासा में फ़ास्टनर्स क्लियर करने के लिए कौन-से दस्तावेज़ चाहिए?"
           },
           "a": {
             "en": "A customs declaration filed by a licensed broker, a commercial invoice and packing list that match the cargo line by line, and conformity documentation covering material grade, tensile strength, and coating thickness.",
-            "zh": "持牌报关行提交的海关申报单；与货物逐条对应的商业发票和装箱单；覆盖材质等级、抗拉强度和镀层厚度的符合性文件。"
+            "zh": "持牌报关行提交的海关申报单；与货物逐条对应的商业发票和装箱单；覆盖材质等级、抗拉强度和镀层厚度的符合性文件。",
+            "hi": "लाइसेंस-प्राप्त ब्रोकर द्वारा दाखिल कस्टम्स डिक्लेरेशन, माल से पंक्ति-दर-पंक्ति मिलती-जुलती वाणिज्यिक चालान और पैकिंग लिस्ट, तथा सामग्री ग्रेड, तनाव शक्ति और कोटिंग मोटाई की अनुरूपता दस्तावेज़ चाहिए।"
           }
         },
         {
           "q": {
             "en": "Is hot-dip galvanizing necessary for Kenyan projects?",
-            "zh": "肯尼亚项目必须做热浸镀锌吗？"
+            "zh": "肯尼亚项目必须做热浸镀锌吗？",
+            "hi": "क्या केन्याई परियोजनाओं में हॉट-डिप गैल्वनाइज़िंग ज़रूरी है?"
           },
           "a": {
             "en": "Inland projects usually accept zinc plating. Coastal and marine projects around Mombasa and Lamu normally specify hot-dip galvanizing or stainless steel because of salt-air corrosion.",
-            "zh": "内陆项目一般接受电镀锌；蒙巴萨、拉穆一带的沿海与海事项目，因盐雾腐蚀，通常要求热浸镀锌或不锈钢。"
+            "zh": "内陆项目一般接受电镀锌；蒙巴萨、拉穆一带的沿海与海事项目，因盐雾腐蚀，通常要求热浸镀锌或不锈钢。",
+            "hi": "आंतरिक इलाकों की परियोजनाओं में आम तौर पर ज़िंक प्लेटिंग चल जाती है। मोम्बासा और लामू के आस-पास तटीय व समुद्री कामों में नमक युक्त हवा के संक्षारण के कारण आम तौर पर हॉट-डिप गैल्वनाइज़िंग या स्टेनलेस स्टील बताया जाता है।"
           }
         },
         {
           "q": {
             "en": "How much buffer should a first shipment allow?",
-            "zh": "首批发货要预留多少缓冲时间？"
+            "zh": "首批发货要预留多少缓冲时间？",
+            "hi": "पहली खेप में कितना अतिरिक्त समय रखना चाहिए?"
           },
           "a": {
             "en": "Allow one to two weeks beyond the expected clearance time. Most delays come from mismatched certificates, incomplete declarations, or undervalued invoices rather than from port congestion itself.",
-            "zh": "在预计清关时间之外再多留一到两周。多数延误来自证书不符、申报不完整或发票低报，而不是港口本身拥堵。"
+            "zh": "在预计清关时间之外再多留一到两周。多数延误来自证书不符、申报不完整或发票低报，而不是港口本身拥堵。",
+            "hi": "अनुमानित क्लियरेंस समय से एक-दो सप्ताह का अतिरिक्त बफ़र रखें। ज़्यादातर देरी बंदरगाह की भीड़ से नहीं, बल्कि प्रमाण-पत्रों के बेमेल, अधूरी डिक्लेरेशन या कम आँकी गई चालान रकम के कारण होती है।"
           }
         }
       ]
