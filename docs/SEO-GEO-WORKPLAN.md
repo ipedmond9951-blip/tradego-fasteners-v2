@@ -175,9 +175,9 @@ python3 scripts/article-claim.py release <slug> <线名>
 |---|---|---|---|---|
 | T0 分词修复 | seo-geo-main | 已完成 | 1 / 1 | en 不变；ru/ar/hi/ja 下调，见 §1 |
 | T1 非英语段落化 | 头条线 | 待开始 | 0 / 8,318 节 | es 先 |
-| T2 定义句 | seo-geo-main | 进行中 | 8 / 39 | en/zh 均 def=1 |
+| T2 定义句 | seo-geo-main | 进行中 | 12 / 39 | en/zh 均 def=1 |
 | T3 标题短写 | 头条线 | 待开始 | 0 / 866 | A 区 39 篇我处理 |
-| T4 en 首段 + H2 问句 | seo-geo-main | 进行中 | 8 / 39 | 8 篇 en/zh 均 ≥80，6 篇 90+ |
+| T4 en 首段 + H2 问句 | seo-geo-main | 进行中 | 12 / 39 | 12 篇 en 全部 90，zh 89–90 |
 | T5 标准/来源 | seo-geo-main | 待开始 | 0 / 39 | |
 | T6 入链 | 待认领 | 待开始 | 0 / 29 + 18 | 两口径分开记 |
 | T7 去重 | seo-geo-main | 待开始 | 0 / A 区相关篇 | |
@@ -194,4 +194,6 @@ python3 scripts/article-claim.py release <slug> <线名>
 - 2026-11-25 21:35 A 区第 2–4 篇：`hex-bolt-dimensions-chart` en 49→90 / zh 74→90、`zinc-plated-vs-black-phosphate-screws` en 75→90 / zh 38→82、`bolt-grade-markings-guide` zh 73→89（en 已 90）。三篇均 `content_gate` 通过、`check-body-lang` 0 污染。
 - 2026-11-25 22:05 A 区第 5–8 篇（曝光 1,054 / 1,037 / 1,001 / 959）：`china-zimbabwe-fastener-shipping-container-guide` en 78→100 / zh 65→80、`threaded-rod-studding-guide` en 65→90 / zh 55→90、`ibr-roofing-nails-installation-guide` en 82→90 / zh 78→80、`high-tensile-structural-bolts-guide` en 49→90 / zh 74→90。四篇 `content_gate` 通过、`check-body-lang` 0 污染（`high-tensile` 的 fr 标题 1 处 [label] 为存量误报，见经验 67）。
 - 2026-11-25 22:05 本轮新增两条经验（把量具语义写进操作前提）：①`p1` 的首段 = 第一个 `</p>` 之前的全部内容，正文开头若是无 `<p>` 的纯文本，答案段必须插到它**前面**并把它包成 `<p>` 挪后；②`ent=0` 先用 `findall` 验一次，确属内容缺口再补真实规格阶梯，不要归因为量具。
+- 2026-11-25 22:20 A 区第 9–12 篇（曝光 805 / 745 / 429 / 419）：`anchor-bolts-selection-guide` en 75→90 / zh 65→90、`fastener-corrosion-resistance-guide` en 75→90 / zh 32→89、`concrete-anchors-fasteners-guide` en 60→90 / zh 32→90、`rwanda-construction-fastener-standards` en 59→90 / zh 55→90。四篇 `content_gate` 通过、`check-body-lang` 0 污染；已提交 `3dfc73c5`。
+- 2026-11-25 22:20 事故与教训：这四篇首次改完后（未提交）被另一条线的批量重写抹掉，重跑脚本才恢复，记入经验 76（一篇一提交）。另记 77–79：中文首段窗口只有 67–217 字、无 `<p>` 的整块正文会让 p1 跨节虚高、定义句句号不能换分号。
 
