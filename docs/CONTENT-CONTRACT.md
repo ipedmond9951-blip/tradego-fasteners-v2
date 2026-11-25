@@ -216,3 +216,5 @@ python3 scripts/content_gate.py --slug X # 单篇
 82. **中文词数只有英文一半时，低分不是"翻译差"，是每一节都是 60–75 字的残块。** `marine-outdoor-corrosion-resistant-bolts-guide` 英文 864 词、中文 427 词，zh 各节 75/58/61/75 字，分数 25。补法是**按节补机制与验收标准**（ISO 9223 的 C5-M 分级、ISO 1461 的 85 μm、A4-70 的 316 材质），一节一句，不写形容词；补完 zh 25→88。
 83. **政策/关税类长标题文章，首段要回答"错了会怎样"，不要复述标题里的年份和法规号。** 津巴布韦篇原标题式首段（"2026 年第 59 号法定文书带来重大监管变化"）把 echo 判成 1；改成"归类决定税率与许可，7318.15 的螺栓报成 7318.16 的螺母，到港后估价重开、柜子压在保税库"之后 echo 1→0、分数 56→100。
 
+
+86. **引用来源的英文刊名、术语的双语括注，都会被"连续英文串"计入，但这两类不是欠账。** 这一轮 `east-africa` ja §5 的 25 个"英文词"全是 `African Development Bank, East Africa Economic Outlook 2025` 这类出处刊名；`socket-head-cap-screws-guide` zh §1 的 22 个是 `Socket Head Cap Screw（内六角螺栓）` 这种"术语+中文全称"。真正要改的是同一节的第三种情况：`egypt-suez` 里的 `[2] ([uat.customs.gov.eg](https://uat.customs.gov.eg/...?utm_source=openai))`——预发域名 + 追踪参数 + markdown 链接裸写在正文里。**规则：审计命中先分三类（出处刊名 / 术语括注 / 真混排），只改第三类；`utm_source=`、`uat.` 域名、正文里的 `[x](url)` 一律当缺陷清。**
