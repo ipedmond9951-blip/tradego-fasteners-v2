@@ -258,7 +258,7 @@
       "hi": "Preload and Torque Calculation Methods for Critical Bolted Joints के लिए न्यूनतम ऑर्डर मात्रा (MOQ) क्या है?"
      },
      "a": {
-      "en": "MOQ for Preload and Torque Calculation Methods for Critical Bolted Joints varies by supplier: small-scale Chinese factories may accept orders from 1-5 tons, mid-size suppliers typically require 5-20 tons, and large mills have MOQs of 20+ tons. For first-time orders, expect higher per-unit pricing below 10 tons due to setup costs. For African B2B buyers, consolidated container loads (FCL 20ft = ~18-20 tons) typically offer the best unit economics. LCL shipments of 1-5 tons are available but at 30-50% higher per-kg cost.",
+      "en": "MOQ varies by supplier: small-scale Chinese factories may accept orders from 1-5 tons, mid-size suppliers typically require 5-20 tons, and large mills have MOQs of 20+ tons. For first-time orders, expect higher per-unit pricing below 10 tons due to setup costs. For African B2B buyers, consolidated container loads (FCL 20ft = ~18-20 tons) typically offer the best unit economics; LCL shipments of 1-5 tons are available but at 30-50% higher per-kg cost. For critical bolted joints, the RFQ should state the property class, coating class, lubrication condition, and washer or flange form, because friction changes the torque needed to reach the same preload.",
       "zh": "门槛分层：小厂 1–5 吨，中型 5–20 吨，大厂 20 吨以上；首单不满 10 吨，调机换型推高单件价。关键接头螺栓常按批次配套垫圈和润滑状态订货，混批会改变摩擦区间，短刚接头与长柔接头同一个扭矩拉出的拉力也不同。20 英尺整柜约 18–20 吨经济性最好，1–5 吨拼箱每公斤上浮 30–50%。用过一次再松开的螺栓摩擦与新件不同，关键接头的复用应作为留记录的决定，而不是默认习惯；一张扭矩表换了镀层、垫圈或工具就不再成立。",
       "es": "El MOQ para Preload and Torque Calculation Methods for Critical Bolted Joints varía según el proveedor.",
       "fr": "La QMC pour Preload and Torque Calculation Methods for Critical Bolted Joints varie selon le fournisseur.",
@@ -266,7 +266,7 @@
       "ru": "Ответные болтовые соединения: минимальный заказ зависит от мощности изготовителя: мелкие фабрики Китая берут 1–5 тонн, средние поставщики держат 5–20 тонн, крупные мельницы начинают с 20+ тонн. Объём до 10 тонн несёт наладочные расходы, и удельная цена растёт. Контейнерная загрузка FCL 20ft ~18–20 тонн оптимум по экономике; сборный груз LCL 1–5 тонн берут при нехватке объёма, но он дороже за килограмм.",
       "ja": "Preload and Torque Calculation Methods for Critical Bolted JointsのMOQはサプライヤーによって異なります。",
       "de": "Die MOQ für Preload and Torque Calculation Methods for Critical Bolted Joints variiert je nach Lieferant.",
-      "hi": "Preload and Torque Calculation Methods for Critical Bolted Joints के लिए MOQ आपूर्तिकर्ता के अनुसार भिन्न होता है।"
+      "hi": "MOQ आपूर्तिकर्ता पर निर्भर है: छोटी चीनी फैक्ट्रियां 1-5 टन, मध्यम 5-20 टन, बड़ी मिलें 20+ टन लेती हैं; 10 टन से पहला ऑर्डर सेटअप लागत से महंगा होता है। FCL 20ft (≈18-20 टन) सबसे किफायती है, LCL 1-5 टन पर प्रति किलो 30-50% महंगा आता है। महत्वपूर्ण जोड़ के RFQ में बोल्ट क्लास, कोटिंग, स्नेहन और वाशर या फ्लैंज आकार स्पष्ट करें; घर्षण बदलने पर वही प्रीलोड के लिए टॉर्क बदल जाता है।"
      }
     },
     {
