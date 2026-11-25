@@ -206,11 +206,13 @@
         {
           "q": {
             "en": "How can I identify whether an existing bolt is metric or imperial?",
-            "zh": "如何识别现有螺栓是公制还是英制？"
+            "zh": "如何识别现有螺栓是公制还是英制？",
+            "ja": "既存のボルトがメートル規格かインチ規格かどうかを判断するにはどうすればよいですか？"
           },
           "a": {
             "en": "Use a thread pitch gauge (also called a screw pitch gauge) to measure the pitch. If the pitch matches a metric value such as 1.5 mm or 1.75 mm, the thread is metric; if it matches a threads-per-inch value such as 16 TPI or 18 TPI, it is unified inch. A caliper can confirm the nominal diameter class, but it cannot settle the series: M10 (10.000 mm) and 3/8 inch (9.525 mm) sit very close, and 5/16 inch (7.938 mm) sits near M8 (8 mm). Counting threads over 10 mm or one inch is only a first pass, because 1.5 mm pitch and 16 TPI (1.5875 mm) differ by under 0.09 mm. For any load-bearing joint, finish the check with the gauge and record both diameter and pitch on the inspection note.",
-            "zh": "用螺纹规（牙距规）测量螺距：螺距匹配 1.5 mm、1.75 mm 这类公制值即为公制；匹配 16 TPI、18 TPI 这类每英寸牙数即为统一英寸制。卡尺只能确认标称直径档位，定不了系列：M10（10.000 mm）与 3/8 英寸（9.525 mm）很接近，5/16 英寸（7.938 mm）挨着 M8（8 mm）。数 10 mm 或一英寸内的牙数只能做初判，因为 1.5 mm 螺距与 16 TPI（1.5875 mm）只差不到 0.09 mm。凡承力接头，最后都要用牙距规复核，并把直径与螺距一起记进检验记录。"
+            "zh": "用螺纹规（牙距规）测量螺距：螺距匹配 1.5 mm、1.75 mm 这类公制值即为公制；匹配 16 TPI、18 TPI 这类每英寸牙数即为统一英寸制。卡尺只能确认标称直径档位，定不了系列：M10（10.000 mm）与 3/8 英寸（9.525 mm）很接近，5/16 英寸（7.938 mm）挨着 M8（8 mm）。数 10 mm 或一英寸内的牙数只能做初判，因为 1.5 mm 螺距与 16 TPI（1.5875 mm）只差不到 0.09 mm。凡承力接头，最后都要用牙距规复核，并把直径与螺距一起记进检验记录。",
+            "ja": "ねじピッチゲージ（ねじ山ゲージとも）を使用してピッチを測定します。ピッチが1.5mmや1.75mmといったメートル値と一致すればメートルねじであり、16TPIや18TPIといった1インチあたりの山数と一致すれば統一インチねじです。ノミナル径のクラスはノギスで確認できますが、シリーズの特定はできません。M10（10.000mm）と3/8インチ（9.525mm）、あるいは5/16インチ（7.938mm）とM8（8mm）は数値が非常に近いためです。10mmまたは1インチあたりの山数を数えるのは、あくまで第一段階の確認です。なぜなら、1.5mmピッチと16TPI（1.5875mm）では差が0.09mm未満に収まるためです。力を受ける継手の場合は、ゲージでの測定を完了し、検査票に直径とピッチの両方を記録してください。"
           },
           "question": {},
           "answer": {}
@@ -218,11 +220,13 @@
         {
           "q": {
             "en": "Can I use a helicoil to convert imperial threads to metric?",
-            "zh": "可以用螺纹嵌件将英制螺纹转换为公制吗？"
+            "zh": "可以用螺纹嵌件将英制螺纹转换为公制吗？",
+            "ja": "ヘリコイルを使用してインチねじをメートルねじに変換することはできますか？"
           },
           "a": {
             "en": "Yes, a helicoil-style insert can repair a damaged thread or bridge between systems in non-structural, non-load-bearing applications, where the joint is assembled once and sees little shock or vibration. For structural connections, pressure vessels, mining equipment and any joint carrying preload, do not convert the thread system; replace the fastener with the original specification. Converting in a structural joint changes the engagement length, the shear area and the torque to preload relationship, and the insert rating rarely matches the original bolt property class such as 8.8 or 10.9. When in doubt, keep the original thread designation on the drawing and order the mating nut or bolt to match rather than adapting the joint on site.",
-            "zh": "在非结构、不承力、装配一次且很少受冲击振动的场合，螺纹嵌件可以修复损坏螺纹或在两套体系之间过渡。结构连接、压力容器、采矿设备和任何带预紧力的接头不要转换螺纹体系，应按原规格更换紧固件。结构接头里转换螺纹会改变啮合长度、剪切面积和扭矩-预紧力关系，嵌件的额定承载也往往达不到 8.8、10.9 这类原螺栓等级。拿不准时，图纸上保留原螺纹标记，按配套螺母或螺栓去订货，不要在现场临时改接头。"
+            "zh": "在非结构、不承力、装配一次且很少受冲击振动的场合，螺纹嵌件可以修复损坏螺纹或在两套体系之间过渡。结构连接、压力容器、采矿设备和任何带预紧力的接头不要转换螺纹体系，应按原规格更换紧固件。结构接头里转换螺纹会改变啮合长度、剪切面积和扭矩-预紧力关系，嵌件的额定承载也往往达不到 8.8、10.9 这类原螺栓等级。拿不准时，图纸上保留原螺纹标记，按配套螺母或螺栓去订货，不要在现场临时改接头。",
+            "ja": "はい、ヘリコイル式インサートは、非構造的で力を受けない用途において、損傷したねじを修復したり、異なる規格のねじを接続したりすることができます。ただし、これは継手が一度組み立てられ、衝撃や振動がほとんどない場合に限られます。構造継手、圧力容器、採掘機、およびプレロードを受けるいかなる継手においても、ねじ規格を変換してはなりません。ボルトは元の規格品に交換してください。構造継手で規格を変換すると、係合長、せん断面積、そしてトルクとプレロードの関係が変化します。また、インサートの等級は、元のボルトの強度区分（8.8や10.9など）と一致することは稀です。判断に迷った場合は、図面上で元のねじ規格を維持し、現場で継手を合わせるのではなく、対応するナットやボルトを注文してください。"
           },
           "question": {},
           "answer": {}
