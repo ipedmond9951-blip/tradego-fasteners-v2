@@ -228,3 +228,8 @@ python3 scripts/content_gate.py --slug X # 单篇
 
 
 87. **空节（body 长度为 0）比半译更伤 SEO/GEO，而且没人报。** 全库扫出 **239 个 0 字符正文**（zh 125 / fr 30 / de 29 / es 28 / pt 27，其中 40 节属 A 区），页面上就是"标题 + 空白"，`check-body-lang` 与 `content_gate` 都不会报，`lang_mix_audit` 因为 0 词也不会报。清单落在 `docs/empty-sections-2026-1125.csv`。**规则：任何内容体检先跑一遍"空节/超短节"扫描（<60 字符也算可疑），再谈半译；补空白节时按英文同节重写，不照抄模板尾巴（原文常带 'The comparison methodology above…' 这类模板段）。**
+
+89. **只改 en/zh 字段时，永远不要把整个字段字典重写。** 术语表重构时把 `heading` 写成 `{"en","zh"}`，8 个语种标题被整体抹掉，`content_gate` 只报 `i18n-missing` WARN、不阻断。**规则：先 `git show HEAD:<path>` 取原字典，再 `h = dict(orig); h["en"]=…; h["zh"]=…`，覆盖而不重建；改完 `git diff` 看语种数。**
+90. **术语表/清单类页面的首段必须是散文，不是条目列表。** 原首段是 321 词的裸术语串（且没有 `<p>`，`p1` 直接把整页算成首段）。**规则：首段只回答一个问题（这里"螺栓和螺钉怎么区分"），术语条目按 2–3 条一组放进各自的 `<p>`，前面配一句"这一段管什么"的引导句。**
+91. **`metaDescription` 会被写成正文片段，且没人拦。** 该页 en meta 是 "Axial — along the axis…"，等于把术语表前两句当摘要，既超长也没有点击理由。**规则：改文章时把 meta 当独立交付物看，en 120–165 字符、一句话讲清"这页能解决买家什么问题"；`seo-length` 是 WARN，不主动看就漏掉。**
+
