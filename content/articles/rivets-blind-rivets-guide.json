@@ -195,51 +195,61 @@
     {
      "q": {
       "en": "When should I use blind rivets instead of screws?",
-      "zh": "什么情况用盲铆钉而不用螺钉？"
+      "zh": "什么情况用盲铆钉而不用螺钉？",
+      "hi": "स्क्रू की जगह ब्लाइंड रिवेट कब इस्तेमाल करने चाहिए?"
      },
      "a": {
       "en": "Blind rivets are ideal when: only one side is accessible, you need rapid installation, the joint is non-critical and non-structural, or you need a clean appearance without protruding fasteners.",
-      "zh": "以下情况适合用盲铆钉：只能从单侧施工、需要快速装配、接头非关键且非结构受力，或者要求表面整洁、没有突出的紧固件。"
+      "zh": "以下情况适合用盲铆钉：只能从单侧施工、需要快速装配、接头非关键且非结构受力，或者要求表面整洁、没有突出的紧固件。",
+      "hi": "ब्लाइंड रिवेट तब उपयुक्त हैं जब: जोड़ का सिर्फ एक ही तरफ पहुंच हो, तुरंत लगाव करना हो, जोड़ गैर-महत्वपूर्ण और गैर-संरचनात्मक हो, या बिना उभरे फास्टनर के साफ दिखावट चाहिए।"
      }
     },
     {
      "q": {
       "en": "What is the shear strength of blind rivets?",
-      "zh": "盲铆钉的抗剪强度是多少？"
+      "zh": "盲铆钉的抗剪强度是多少？",
+      "hi": "ब्लाइंड रिवेट की शीयर ताकत कितनी होती है?"
      },
      "a": {
       "en": "Varies by material and diameter. Typical values: 3.2mm aluminum: 200kg, 4.0mm aluminum: 350kg, 4.8mm steel: 500kg, 4.8mm stainless: 400kg. Check manufacturer specifications for your specific rivet.",
-      "zh": "随材料和直径变化。典型值：3.2 毫米铝钉约 200 公斤，4.0 毫米铝钉约 350 公斤，4.8 毫米钢钉约 500 公斤，4.8 毫米不锈钢钉约 400 公斤。具体规格以对应铆钉的厂家参数为准。"
+      "zh": "随材料和直径变化。典型值：3.2 毫米铝钉约 200 公斤，4.0 毫米铝钉约 350 公斤，4.8 毫米钢钉约 500 公斤，4.8 毫米不锈钢钉约 400 公斤。具体规格以对应铆钉的厂家参数为准。",
+      "hi": "सामग्री और व्यास के अनुसार बदलती है। सामान्य मान: 3.2 mm एल्युमीनियम 200 kg, 4.0 mm एल्युमीनियम 350 kg, 4.8 mm स्टील 500 kg, 4.8 mm स्टेनलेस 400 kg। अपने रिवेट के लिए निर्माता की स्पेसिफिकेशन ज़रूर देखें।"
      }
     },
     {
      "q": {
       "en": "Can blind rivets be removed?",
-      "zh": "盲铆钉能拆卸吗？"
+      "zh": "盲铆钉能拆卸吗？",
+      "hi": "क्या ब्लाइंड रिवेट निकाले जा सकते हैं?"
      },
      "a": {
       "en": "Yes, by drilling out the set rivet body. Use a drill slightly smaller than the original hole to avoid damaging the parent material.",
-      "zh": "可以，把已铆好的钉体钻掉即可。钻头要比原孔略小，避免损伤母材。"
+      "zh": "可以，把已铆好的钉体钻掉即可。钻头要比原孔略小，避免损伤母材。",
+      "hi": "हां, लगे हुए रिवेट के शरीर को ड्रिल करके निकाला जा सकता है। मूल छेद से थोड़ा छोटा ड्रिल बिट इस्तेमाल करें ताकि मूल सामग्री को नुकसान न पहुंचे।"
      }
     },
     {
      "q": {
       "en": "What's the difference between open and closed-end rivets?",
-      "zh": "开口型和封闭型铆钉有何区别？"
+      "zh": "开口型和封闭型铆钉有何区别？",
+      "hi": "ओपन-एंड और क्लोज्ड-एंड रिवेट में क्या फर्क है?"
      },
      "a": {
       "en": "Open-end: Hollow rivet body, lighter, less expensive, suitable for general use. Closed-end: Sealed end prevents water/particle entry, essential for watertight applications.",
-      "zh": "开口型钉体中空、更轻、成本更低，适合一般用途；封闭型端部密封，能阻挡水和碎屑进入，水密场合必须选用。"
+      "zh": "开口型钉体中空、更轻、成本更低，适合一般用途；封闭型端部密封，能阻挡水和碎屑进入，水密场合必须选用。",
+      "hi": "ओपन-एंड: खोखला रिवेट शरीर, हल्का, सस्ता, सामान्य काम के लिए। क्लोज्ड-एंड: बंद सिरा पानी और कणों को अंदर नहीं घुसने देता, पानी-रोधी लगाव के लिए ज़रूरी है।"
      }
     },
     {
      "q": {
       "en": "Why did my rivet fail during installation?",
-      "zh": "安装时铆钉为什么会失效？"
+      "zh": "安装时铆钉为什么会失效？",
+      "hi": "लगाव के दौरान रिवेट फेल क्यों हो गया?"
      },
      "a": {
       "en": "Common causes: wrong rivet for material thickness, dull rivet tool, damaged rivet, or defective rivet batch. Check tool condition and rivet grip range.",
-      "zh": "常见原因：铆钉与板材厚度不匹配、铆接工具磨损、铆钉本身受损，或批次质量有问题。应检查工具状态和铆钉夹持范围。"
+      "zh": "常见原因：铆钉与板材厚度不匹配、铆接工具磨损、铆钉本身受损，或批次质量有问题。应检查工具状态和铆钉夹持范围。",
+      "hi": "आम वजहें: सामग्री की मोटाई के लिए गलत रिवेट, कुंद रिवेट औज़ार, क्षतिग्रस्त रिवेट या खराब लॉट। औज़ार की हालत और रिवेट की पकड़ सीमा (grip range) जांचें।"
      }
     }
    ]
