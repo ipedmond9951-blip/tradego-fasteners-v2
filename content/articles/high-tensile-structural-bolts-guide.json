@@ -286,7 +286,7 @@
       "zh": "A325 和 10.9 级螺栓有什么区别？"
      },
      "a": {
-      "en": "A325 and Grade 10.9 are roughly equivalent in strength. A325 has a minimum tensile of 825 MPa while Grade 10.9 is 1000 MPa. However, A325 is specifically designed for structural applications with controlled installation requirements, while 10.9 is a general mechanical property class. For structural steel work, either is acceptable if specified by the engineer.",
+      "en": "A325 and Grade 10.9 are roughly equivalent in strength. A325 has a minimum tensile of 825 MPa while Grade 10.9 is 1000 MPa. However, A325 is specifically designed for structural applications with controlled installation requirements, while 10.9 is a general mechanical property class. For structural steel work, either is acceptable if specified by the engineer. Do not substitute one for the other without that written approval: check whether the joint is friction-type or bearing-type, and match the nut and washer grade to the bolt. Friction-type joints need a prepared slip-critical contact area, while bearing-type joints rely on bolt shear and hole wall bearing. On site, confirm the class marking on the head and record grade, finish, and lot in the inspection checklist. Follow the drawing callout; mixed grades in one joint give inconsistent preload.",
       "zh": "A325 与 10.9 级强度大致相当：A325 最低抗拉强度 825 MPa，10.9 级为 1000 MPa。但 A325 是专门为结构连接设计的牌号，配套受控的安装要求（扭矩或转角施工、摩擦面处理）；10.9 级是通用机械性能等级。钢结构工程中，只要设计工程师在图纸上写明，两者都可采用。选型时不能只看强度数字，还要核对连接类型（摩擦型或承压型）、表面处理和配套螺母等级；摩擦型节点的接触面还需按规范处理抗滑移面，承压型节点则核对孔壁承压与螺栓剪切承载力。"
      }
     },
@@ -296,8 +296,8 @@
       "zh": "A490 螺栓可以热浸镀锌吗？"
      },
      "a": {
-      "en": "No, ASTM A490 prohibits hot-dip galvanizing due to risk of hydrogen embrittlement. For corrosion resistance, A490 bolts must use alternative coatings such as zinc-flake (Geomet, Magni) or mechanically deposited zinc. This significantly increases cost compared to A325.",
-      "zh": "不可以。ASTM A490 禁止热浸镀锌，原因是高强度钢在酸洗与镀锌过程中存在氢脆风险。需要耐蚀时，A490 螺栓只能改用其他涂层，如锌片涂层（Geomet、Magni 一类）或机械镀锌。这类替代涂层的成本明显高于 A325 常用的热浸镀锌。采购 A490 结构螺栓时，要在订单上写明允许的涂层体系，不能默认按普通镀锌件供货；镀层与螺纹公差也要在图纸或询价单中注明。"
+      "en": "No, ASTM A490 prohibits hot-dip galvanizing due to risk of hydrogen embrittlement. For corrosion resistance, A490 bolts must use alternative coatings such as zinc-flake (Geomet, Magni) or mechanically deposited zinc. This significantly increases cost compared to A325. On an order, write the approved coating system on the drawing or inquiry, because plain zinc-plated supply is not acceptable for this grade; state thread fit and coating thickness so the nut assembles without binding. At inspection, check even coverage on head, shank and threads, confirm no plating build-up blocks the thread, and verify the lot certificate lists the coating used. Pair coated A490 bolts with compatible nuts and washers, and record coating and batch in the inspection sheet; the finish route cannot be chosen after installation.",
+      "zh": "不可以。ASTM A490 禁止热浸镀锌，原因是高强度钢在酸洗与镀锌过程中存在氢脆风险。需要耐蚀时，A490 螺栓只能改用其他涂层，如锌片涂层（Geomet、Magni 一类）或机械镀锌，成本明显高于 A325 的热浸镀锌。订单上要写明允许的涂层体系，不能默认按普通镀锌件供货，螺纹配合与镀层厚度也要在图纸或询价单注明。进场验收检查头部、杆部与螺纹覆盖均匀，镀层堆积不得影响螺母旋入，批次证书所列涂层须与订单一致；外露节点配套同体系螺母与垫圈。最高强度等级氢脆风险最高，涂层路线必须在生产前确定，不能事后补做。"
      }
     },
     {
@@ -306,7 +306,7 @@
       "zh": "结构螺栓拧紧不足会怎样？"
      },
      "a": {
-      "en": "Under-tightened structural bolts act as ordinary bearing-type connections rather than friction-type connections. This reduces the load-carrying capacity of the joint and can lead to joint slippage, which may cause structural failure under dynamic or cyclic loading. Always follow the specified tightening procedure.",
+      "en": "Under-tightened structural bolts act as ordinary bearing-type connections rather than friction-type connections. This reduces the load-carrying capacity of the joint and can lead to joint slippage, which may cause structural failure under dynamic or cyclic loading. Always follow the specified tightening procedure. The procedure should state thread condition and lubrication, the torque or turn-of-nut step, and the preload target, with joint preload rechecked in inspection. On site, watch for bolts installed without the matched washer, damaged threads, or a dry unlubricated surface that changes the friction factor. If a joint slips, trace the cause to friction, bolt size, or installation method rather than replacing bolts one by one; rework the high-strength joint per the engineer's procedure and record torque, rotation, and recheck results. Never compensate for a wrong bolt class by tightening harder.",
       "zh": "拧紧不足的结构螺栓，接头实际按普通承压型连接工作，而不是设计假定的摩擦型连接。这会降低接头的承载能力，并可能引起接头滑移；在动载或循环载荷下，滑移进一步发展可能导致结构失效。因此必须按规定的拧紧工艺施工，写明润滑状态、扭矩或转角步骤，并在节点复检夹紧力。不能用加大拧紧扭矩弥补螺栓等级不足，也不能把承压型节点当作摩擦型节点使用。"
      }
     }
