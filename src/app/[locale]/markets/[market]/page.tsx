@@ -80,7 +80,7 @@ const copy: Record<string, Copy> = {
     home: 'Home', markets: 'Markets',
     portsLabel: 'Ports and routing', docsLabel: 'Documents and clearance', linesLabel: 'What sells in this market',
     faqLabel: 'FAQ', cta: 'Request a quote', allMarkets: 'All markets',
-    sub: 'Factory direct from Qingdao / Tianjin, ISO 9001 and SABS-compliant lines available.',
+    sub: 'Factory direct from Qingdao / Tianjin, ISO 9001 and SABS 1195 spec lines available.',
     h1: 'Fasteners for {c}', seeAll: 'See all {n} product lines',
   },
   zh: {

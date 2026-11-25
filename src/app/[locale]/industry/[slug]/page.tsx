@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { permanentRedirect, notFound } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
-import { getAllSlugs, getArticleBySlug, getRelatedByCategory, getArticleTitle, humanizeSlug, isThinArticle } from '@/lib/articles'
+import { getAllSlugs, getArticleBySlug, getRelatedByCategory, getArticleTitle, humanizeSlug, isThinArticle, isThinForLocale } from '@/lib/articles'
 import { type Locale, t, locales } from '@/i18n'
 import type { ArticleSection } from '@/lib/articles'
 import ShareButtons from '@/components/ShareButtons'
@@ -49,7 +49,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title,
     description: desc,
     keywords: article.keywords,
-    ...(isThinArticle(article) ? { robots: { index: false, follow: true } } : {}),
+    ...(isThinArticle(article) || isThinForLocale(article, locale) ? { robots: { index: false, follow: true } } : {}),
     openGraph: {
       title: fullTitle,
       description: rawDesc,

@@ -24,7 +24,7 @@ export default function OrganizationSchema({ locale = 'en' }: OrganizationSchema
     foundingDate: '2004',
     foundingLocation: {
       '@type': 'Place',
-      name: 'Weifang, Shandong, China',
+      name: 'China',
     },
     numberOfEmployees: {
       '@type': 'QuantitativeValue',
@@ -41,7 +41,7 @@ export default function OrganizationSchema({ locale = 'en' }: OrganizationSchema
       addressCountry: 'CN',
       addressRegion: 'Shandong',
       addressLocality: 'Weifang',
-      streetAddress: 'Weifang, Shandong, China',
+      streetAddress: 'China',
     },
     geo: {
       '@type': 'GeoCoordinates',
@@ -69,7 +69,7 @@ export default function OrganizationSchema({ locale = 'en' }: OrganizationSchema
       'https://www.youtube.com/@TradeGoFasteners',
     ],
 
-    // hasCredential 已移除（2026-11-25）。结构化数据里的 "SABS Approved" 属无条件的强断言，
+    // hasCredential 已移除（2026-11-25）。结构化数据里的 "made to SABS 1195 spec" 属无条件的强断言，
     // 与 llms.txt / 关于页 "certificate available on request / documented with test reports" 的口径不一致，
     // 被 AI 交叉核验时会变成实体不可信证据。认证信息统一由页面正文与 llms.txt 以可核实措辞承载。
     makesOffer: {

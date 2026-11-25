@@ -71,8 +71,8 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   const desc = productDescriptions[slug]?.[locale] || productDescriptions[slug]?.en || ''
   const label = (key: string) => pick(uiLabels[key], locale)
   const sidebarNote = {
-    en: 'ISO 9001 certified factory, FOB Qingdao / Tianjin. Sample orders and mixed containers accepted.',
-    zh: '通过 ISO 9001 认证工厂，FOB 青岛 / 天津。接受样品单与混柜装载。',
+    en: 'SGS/BV inspection on request factory, FOB Qingdao / Tianjin. Sample orders and mixed containers accepted.',
+    zh: '通过 可按订单申请 ISO 9001 认证工厂，FOB 青岛 / 天津。接受样品单与混柜装载。',
     es: 'Fábrica certificada ISO 9001, FOB Qingdao / Tianjin. Se aceptan pedidos de muestra y contenedores mixtos.',
     fr: 'Usine certifiée ISO 9001, FOB Qingdao / Tianjin. Commandes d\'échantillons et conteneurs mixtes acceptés.',
     pt: 'Fábrica certificada ISO 9001, FOB Qingdao / Tianjin. Aceitamos pedidos de amostra e contêineres mistos.',

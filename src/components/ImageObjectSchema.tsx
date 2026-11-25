@@ -21,7 +21,7 @@ const productImages = [
   },
   {
     url: '/images/products/ibr-nails-1.webp',
-    caption: 'IBR Roofing Nails - SABS Certified',
+    caption: 'IBR Roofing Nails - made to SABS 1195 spec',
   },
   {
     url: '/images/products/anchor-bolts.webp',

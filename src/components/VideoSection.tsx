@@ -22,7 +22,7 @@ const translations: Record<string, {
     title: 'Video Content',
     subtitle: 'See our manufacturing process, products, and customer testimonials in action',
     factoryTitle: 'Factory Tour',
-    factoryDesc: 'Take a virtual tour of our SABS & ISO 9001 certified fastener production facilities serving African markets',
+    factoryDesc: 'Take a virtual tour of our Made to SABS 1195 / DIN / ISO fastener production facilities serving African markets',
     productTitle: 'Product Showcase',
     productDesc: 'Watch detailed demonstrations of our fastener products and applications',
     testimonialTitle: 'Customer Testimonials',
@@ -245,7 +245,7 @@ export default function VideoSection({ locale }: VideoSectionProps) {
               ref={videoRef}
               src={isPlaying ? activeVideoData.videoSrc : undefined}
               preload="none"
-              title={activeVideo === 'factory' ? 'TradeGo Fasteners factory tour - ISO 9001 certified fastener production facility in China serving African markets' : activeVideo === 'product' ? 'TradeGo fastener product showcase - drywall screws, self-drilling screws, hex bolts, IBR nails for construction applications' : 'TradeGo customer testimonials - construction companies from South Africa, Zimbabwe, Kenya share their experience'}
+              title={activeVideo === 'factory' ? 'TradeGo Fasteners factory tour - SGS/BV inspection on request fastener production facility in China serving African markets' : activeVideo === 'product' ? 'TradeGo fastener product showcase - drywall screws, self-drilling screws, hex bolts, IBR nails for construction applications' : 'TradeGo customer testimonials - construction companies from South Africa, Zimbabwe, Kenya share their experience'}
               aria-label={activeVideo === 'factory' ? 'Factory tour video showing TradeGo fastener manufacturing and quality control process' : activeVideo === 'product' ? 'Product showcase video demonstrating TradeGo fastener product range and applications' : 'Customer testimonial video featuring African construction professionals'}
               className="w-full h-full object-cover cursor-pointer"
               onClick={handleVideoClick}

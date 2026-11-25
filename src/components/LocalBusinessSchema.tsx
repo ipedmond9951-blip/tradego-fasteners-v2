@@ -22,7 +22,7 @@ export default function LocalBusinessSchema({}: LocalBusinessSchemaProps) {
       addressCountry: 'CN',
       addressRegion: 'Shandong',
       addressLocality: 'Weifang',
-      streetAddress: 'Weifang, Shandong, China',
+      streetAddress: 'China',
     },
     geo: {
       '@type': 'GeoCoordinates',

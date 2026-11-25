@@ -24,7 +24,7 @@ const titles: Record<string, string> = {
 
 const descriptions: Record<string, string> = {
   en: 'Practical guides on bolt grades, coatings, port clearance and buying fasteners from China to Africa. ISO 9001 and SABS documented suppliers.',
-  zh: '螺栓等级、表面处理、非洲港口清关与中国采购的实操指南。ISO 9001 与 SABS 认证供应商，含落地成本与单证清单。',
+  zh: '螺栓等级、表面处理、非洲港口清关与中国采购的实操指南。按 SABS 1195 / DIN / ISO 规格生产供应商，含落地成本与单证清单。',
   es: 'Guías prácticas sobre grados de pernos, recubrimientos, despacho portuario y compra de fijaciones de China a África. Proveedor con ISO 9001 y SABS documentados.',
   fr: 'Guides pratiques sur les classes de boulons, les revêtements, le dédouanement portuaire et l’achat de fixations de la Chine vers l’Afrique. Fournisseur certifié ISO 9001 et SABS.',
   pt: 'Guias práticos sobre classes de parafusos, revestimentos, desembaraço portuário e compra de fixadores da China para a África. Fornecedor com ISO 9001 e SABS documentados.',

@@ -22,7 +22,7 @@ When selecting anchor bolts for foundation work, ensure the bolt grade matches y
     qualityTitle: 'Quality Assurance & Certifications',
     qualityText: `Every batch of TradeGo fasteners undergoes rigorous quality control before shipment. We provide Mill Test Certificates (MTC) and SGS inspection reports with each order, certifying material composition, tensile strength, and dimensional accuracy.
 
-Our manufacturing facilities are ISO 9001:2015 certified, and our products meet relevant African standards including SABS (South Africa), SSA/BS (Zimbabwe), and KEBS (Kenya). For projects requiring specific grade bolts, we can provide third-party testing certificates from Bureau Veritas or Intertek.
+Our manufacturing facilities are third-party inspected (SGS/BV) on request, and our products meet relevant African standards including SABS (South Africa), SSA/BS (Zimbabwe), and KEBS (Kenya). For projects requiring specific grade bolts, we can provide third-party testing certificates from Bureau Veritas or Intertek.
 
 Common quality issues to avoid: bolts with irregular thread spacing (indicates worn threading dies), rust spots appearing within weeks of installation (poor galvanization), and inconsistent head dimensions (sign of substandard manufacturing).`,
     shippingTitle: 'Shipping to Africa',
@@ -46,7 +46,7 @@ Our packaging is designed for African logistics: inner waterproof bags, outer re
     qualityTitle: '质量保证与认证',
     qualityText: `每批次TradeGo紧固件在装运前都经过严格的质量控制。我们为每个订单提供材料试验证书（MTC）和SGS检验报告，证明材料成分、抗拉强度和尺寸精度。
 
-我们的制造设施已获得ISO 9001:2015认证，我们的产品符合相关非洲标准，包括SABS（南非）、SSA/BS（津巴布韦）和KEBS（肯尼亚）。对于需要特定等级螺栓的项目，我们可以提供来自必维国际检验集团或天祥集团的第三方测试证书。
+我们的制造设施已获得ISO 9001（可按订单申请），我们的产品符合相关非洲标准，包括SABS（南非）、SSA/BS（津巴布韦）和KEBS（肯尼亚）。对于需要特定等级螺栓的项目，我们可以提供来自必维国际检验集团或天祥集团的第三方测试证书。
 
 避免常见质量问题：螺纹间距不规则的螺栓（表示螺纹模具磨损），安装后几周内出现锈斑（镀锌不良），以及头部尺寸不一致（表明制造质量差）。`,
     shippingTitle: '非洲航运',

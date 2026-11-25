@@ -141,8 +141,8 @@ export const shareCopy = {
     hi: 'TradeGo Fasteners - पेशेवर निर्माता',
   },
   desc: {
-    en: 'ISO 9001 certified wholesale fastener manufacturer',
-    zh: 'ISO 9001 认证紧固件批发商，专业生产干墙螺丝、自钻螺丝、螺栓螺母等',
+    en: 'SGS/BV inspection on request wholesale fastener manufacturer',
+    zh: '可按订单申请 ISO 9001 认证紧固件批发商，专业生产干墙螺丝、自钻螺丝、螺栓螺母等',
     es: 'Fabricante mayorista de fijaciones con certificación ISO 9001',
     fr: 'Fabricant grossiste de visserie certifié ISO 9001',
     pt: 'Fabricante atacadista de fixadores com certificação ISO 9001',
@@ -228,8 +228,8 @@ export const navLabels = {
 
 export const orgCopy = {
   description: L10(
-    'TradeGo is a SABS & ISO 9001 certified fastener manufacturer and exporter specializing in serving African construction markets for 20+ years. Products include drywall screws, self-drilling screws, hex bolts, nuts, IBR nails. Factory-direct pricing with sea freight to Durban, Lagos, Mombasa and 20+ African countries.',
-    'TradeGo 是专业的 SABS 和 ISO 9001 认证紧固件生产商与出口商，专注服务非洲建筑市场 20 余年。产品包括干墙螺丝、自钻螺丝、螺栓螺母、IBR 钉等。工厂价，海运至德班、拉各斯、蒙巴萨等 20 余个非洲国家。',
+    'TradeGo is a Made to SABS 1195 / DIN / ISO fastener manufacturer and exporter specializing in serving African construction markets for 20+ years. Products include drywall screws, self-drilling screws, hex bolts, nuts, IBR nails. Factory-direct pricing with sea freight to Durban, Lagos, Mombasa and 20+ African countries.',
+    'TradeGo 是专业的 按 SABS 1195 / DIN / ISO 规格生产紧固件生产商与出口商，专注服务非洲建筑市场 20 余年。产品包括干墙螺丝、自钻螺丝、螺栓螺母、IBR 钉等。工厂价，海运至德班、拉各斯、蒙巴萨等 20 余个非洲国家。',
     'TradeGo es un fabricante y exportador de fijaciones certificado SABS e ISO 9001, especializado en el mercado de la construcción africano desde hace más de 20 años. Productos: tornillos para placas de yeso, autotaladrantes, pernos hexagonales, tuercas, clavos IBR. Precios de fábrica con flete marítimo a Durban, Lagos, Mombasa y más de 20 países africanos.',
     "TradeGo est un fabricant et exportateur de visserie certifié SABS et ISO 9001, spécialisé sur les marchés de la construction africains depuis plus de 20 ans. Produits : vis plaque de plâtre, vis autoforeuses, boulons hexagonaux, écrous, pointes IBR. Prix départ usine, fret maritime vers Durban, Lagos, Mombasa et plus de 20 pays africains.",
     'A TradeGo é uma fabricante e exportadora de fixadores certificada SABS e ISO 9001, especializada no mercado de construção africano há mais de 20 anos. Produtos: parafusos para drywall, autoatarraxantes, parafusos sextavados, porcas, pregos IBR. Preço de fábrica com frete marítimo para Durban, Lagos, Mombaça e mais de 20 países africanos.',
@@ -326,8 +326,8 @@ export const teamText = L10(
 
 export const siteSchemaCopy = {
   description: L10(
-    'ISO 9001 & SABS certified China fastener manufacturer. 20+ years exporting to Africa. Factory direct prices for drywall screws, IBR nails, and construction fasteners.',
-    'ISO 9001 与 SABS 认证的中国紧固件制造商。20 余年对非出口经验。干墙螺丝、IBR 钉、建筑紧固件工厂价直销。',
+    'Made to SABS 1195 / DIN / ISO China fastener manufacturer. 20+ years exporting to Africa. Factory direct prices for drywall screws, IBR nails, and construction fasteners.',
+    '按 SABS 1195 / DIN / ISO 规格生产的中国紧固件制造商。20 余年对非出口经验。干墙螺丝、IBR 钉、建筑紧固件工厂价直销。',
     'Fabricante chino de fijaciones certificado ISO 9001 y SABS. Más de 20 años exportando a África. Precios de fábrica para tornillos para placas de yeso, clavos IBR y fijaciones de construcción.',
     "Fabricant chinois de visserie certifié ISO 9001 et SABS. Plus de 20 ans d'export vers l'Afrique. Prix d'usine pour vis plaque de plâtre, pointes IBR et visserie de construction.",
     'Fabricante chinês de fixadores certificado ISO 9001 e SABS. Mais de 20 anos exportando para a África. Preços de fábrica para parafusos para drywall, pregos IBR e fixadores de construção.',
@@ -380,8 +380,8 @@ export const siteSchemaCopy = {
 export const imageSchemaCopy = {
   logoCaption: L10('TradeGo Fasteners Logo', 'TradeGo 紧固件标志', 'Logotipo de TradeGo Fasteners', 'Logo TradeGo Fasteners', 'Logotipo da TradeGo Fasteners', 'شعار TradeGo Fasteners', 'Логотип TradeGo Fasteners', 'TradeGo Fasteners ロゴ', 'TradeGo Fasteners Logo', 'TradeGo Fasteners लोगो'),
   productDesc: {
-    en: (c: string) => `High-quality ${c}, ISO 9001 and SABS certified`,
-    zh: (c: string) => `高质量${c}，ISO 9001 和 SABS 认证`,
+    en: (c: string) => `High-quality ${c}, Made to SABS 1195 / DIN / ISO`,
+    zh: (c: string) => `高质量${c}，按 SABS 1195 / DIN / ISO 规格生产`,
     es: (c: string) => `Producto de alta calidad: ${c}, certificado ISO 9001 y SABS`,
     fr: (c: string) => `Produit de haute qualité : ${c}, certifié ISO 9001 et SABS`,
     pt: (c: string) => `Produto de alta qualidade: ${c}, certificado ISO 9001 e SABS`,
@@ -514,7 +514,7 @@ export const articleCta = {
 
 // 认证徽标与询盘表单选项（2026-11-24 新增，原为硬编码英文）
 export const badgeCopy = {
-  sabs: L10('SABS Certified', 'SABS 认证', 'Certificado SABS', 'Certifié SABS', 'Certificado SABS', 'معتمد من SABS', 'Сертификат SABS', 'SABS 認証', 'SABS-zertifiziert', 'SABS प्रमाणित'),
+  sabs: L10('made to SABS 1195 spec', '按 SABS 1195 规格', 'Certificado SABS', 'Certifié SABS', 'Certificado SABS', 'معتمد من SABS', 'Сертификат SABS', 'SABS 認証', 'SABS-zertifiziert', 'SABS प्रमाणित'),
   ce: L10('CE Marked', 'CE 认证', 'Marcado CE', 'Marquage CE', 'Marcação CE', 'علامة CE', 'Маркировка CE', 'CE マーク', 'CE-Kennzeichnung', 'CE चिह्नित'),
   madeIn: L10('Made in China', '中国制造', 'Fabricado en China', 'Fabriqué en Chine', 'Fabricado na China', 'صناعة صينية', 'Сделано в Китае', '中国製', 'Hergestellt in China', 'चीन में निर्मित'),
   b2b: L10('B2B Verified', 'B2B 认证', 'Verificado B2B', 'Vérifié B2B', 'Verificado B2B', 'موثّق B2B', 'Проверено B2B', 'B2B 認証', 'B2B-geprüft', 'B2B सत्यापित'),
@@ -619,7 +619,7 @@ export const categoryPageCopy = {
   },
   desc: {
     en: (n: number, label: string) => `${n} practical guides on ${label.toLowerCase()}: bolt grades, coatings, port clearance and fastener sourcing for African and global buyers. ISO 9001 and SABS documented.`,
-    zh: (n: number, label: string) => `${n} 篇${label}实操指南：螺栓等级、表面处理、港口清关与紧固件采购，面向非洲及全球买家，ISO 9001 与 SABS 认证。`,
+    zh: (n: number, label: string) => `${n} 篇${label}实操指南：螺栓等级、表面处理、港口清关与紧固件采购，面向非洲及全球买家，按 SABS 1195 / DIN / ISO 规格生产。`,
     es: (n: number, label: string) => `${n} guías prácticas de ${label.toLowerCase()}: clases de pernos, recubrimientos, despacho portuario y compra de fijaciones para África y mercados globales. ISO 9001 y SABS documentados.`,
     fr: (n: number, label: string) => `${n} guides pratiques sur ${label.toLowerCase()} : classes de boulons, revêtements, dédouanement portuaire et achat de fixations pour l’Afrique et les marchés mondiaux. ISO 9001 et SABS documentés.`,
     pt: (n: number, label: string) => `${n} guias práticos de ${label.toLowerCase()}: classes de parafusos, revestimentos, desembaraço portuário e compra de fixadores para a África e mercados globais. ISO 9001 e SABS documentados.`,
@@ -652,7 +652,7 @@ export const certCardCopy: Record<string, { name: Record<string, string>; desc: 
     desc: L10('Quality Management System', '质量管理体系', 'Sistema de gestión de calidad', 'Système de management de la qualité', 'Sistema de gestão da qualidade', 'نظام إدارة الجودة', 'Система менеджмента качества', '品質マネジメントシステム', 'Qualitätsmanagementsystem', 'गुणवत्ता प्रबंधन प्रणाली'),
   },
   sabs: {
-    name: L10('SABS Approved', 'SABS 认证', 'Homologado SABS', 'Homologué SABS', 'Aprovado SABS', 'معتمد من SABS', 'Одобрено SABS', 'SABS 認証', 'SABS-zertifiziert', 'SABS स्वीकृत'),
+    name: L10('made to SABS 1195 spec', '按 SABS 1195 规格', 'Homologado SABS', 'Homologué SABS', 'Aprovado SABS', 'معتمد من SABS', 'Одобрено SABS', 'SABS 認証', 'SABS-zertifiziert', 'SABS स्वीकृत'),
     desc: L10('South African Standards', '南非国家标准', 'Normas sudafricanas', 'Normes sud-africaines', 'Normas sul-africanas', 'المعايير الجنوب أفريقية', 'Стандарты ЮАР', '南アフリカ規格', 'Südafrikanische Normen', 'दक्षिण अफ़्रीकी मानक'),
   },
   ce: {

@@ -49,8 +49,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     hi: 'फास्टनर थोक निर्माता | ज़िम्बाब्वे और दक्षिणी अफ्रीका',
   }
   const descriptions: Record<string, string> = {
-    zh: 'ISO 9001 & SABS认证中国紧固件制造商,20年出口津巴布韦、南非、赞比亚、莫桑比克、博茨瓦纳。干壁钉、六角螺栓、IBR瓦钉、自钻螺丝,出厂价直供。发货至德班、贝拉、哈拉雷。',
-    en: 'ISO 9001 & SABS certified China fastener manufacturer with 20+ years exporting to Zimbabwe, South Africa, Zambia, Mozambique, Botswana. Drywall screws, hex bolts, IBR nails, self-drilling screws at factory prices. Shipping to Durban, Beira, Harare.',
+    zh: 'ISO 9001 & 按 SABS 1195 规格中国紧固件制造商,20年出口津巴布韦、南非、赞比亚、莫桑比克、博茨瓦纳。干壁钉、六角螺栓、IBR瓦钉、自钻螺丝,出厂价直供。发货至德班、贝拉、哈拉雷。',
+    en: 'Made to SABS 1195 / DIN / ISO China fastener manufacturer with 20+ years exporting to Zimbabwe, South Africa, Zambia, Mozambique, Botswana. Drywall screws, hex bolts, IBR nails, self-drilling screws at factory prices. Shipping to Durban, Beira, Harare.',
     es: 'Fabricante chino de fijaciones con ISO 9001 y SABS, más de 20 años exportando a Zimbabue, Sudáfrica, Zambia, Mozambique y Botswana. Tornillos para pladur, pernos hexagonales, clavos IBR y tornillos autotaladrantes a precio de fábrica. Envíos a Durban, Beira y Harare.',
     fr: 'Fabricant chinois de fixations certifié ISO 9001 et SABS, plus de 20 ans d’export vers le Zimbabwe, l’Afrique du Sud, la Zambie, le Mozambique et le Botswana. Vis à plaque de plâtre, boulons hexagonaux, clous IBR et vis autoperceuses au prix usine. Expéditions vers Durban, Beira et Harare.',
     pt: 'Fabricante chinês de fixadores com ISO 9001 e SABS, há mais de 20 anos exportando para Zimbabué, África do Sul, Zâmbia, Moçambique e Botswana. Parafusos para gesso acartonado, parafusos sextavados, pregos IBR e parafusos autoperfurantes a preço de fábrica. Envios para Durban, Beira e Harare.',

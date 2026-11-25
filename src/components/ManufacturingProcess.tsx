@@ -40,7 +40,7 @@ const translations: Record<string, {
       },
       {
         title: 'Quality Inspection',
-        description: 'Every batch undergoes rigorous testing: dimensional verification, torque testing, hardness testing, and salt spray tests. ISO 9001:2015 certified lab with SGS, BV inspection capabilities.',
+        description: 'Every batch undergoes rigorous testing: dimensional verification, torque testing, hardness testing, and salt spray tests. third-party inspected (SGS/BV) on request lab with SGS, BV inspection capabilities.',
         icon: '🔬'
       },
       {
@@ -77,7 +77,7 @@ const translations: Record<string, {
       },
       {
         title: '质量检测',
-        description: '每批产品均经过严格测试：尺寸检验、扭矩测试、硬度测试和盐雾测试。ISO 9001:2015认证实验室，具备SGS、BV检测能力。',
+        description: '每批产品均经过严格测试：尺寸检验、扭矩测试、硬度测试和盐雾测试。ISO 9001（可按订单申请）实验室，具备SGS、BV检测能力。',
         icon: '🔬'
       },
       {

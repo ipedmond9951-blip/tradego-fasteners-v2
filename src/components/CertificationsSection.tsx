@@ -18,7 +18,7 @@ const certifications = [
   },
   {
     key: 'sabs',
-    name: 'SABS Approved',
+    name: 'made to SABS 1195 spec',
     description: 'South African Standards',
     // Shield icon for certification/trust mark
     iconSvg: (

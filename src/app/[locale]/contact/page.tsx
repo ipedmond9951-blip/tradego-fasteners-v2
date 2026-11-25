@@ -23,8 +23,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     hi: 'TradeGo Fasteners से संपर्क करें - कोट प्राप्त करें',
   }
   const descriptions: Record<string, string> = {
-    en: 'Contact TradeGo Fasteners for bulk fastener orders. ISO 9001 & SABS certified manufacturer. Sea freight to Africa. Get a quote in 24 hours.',
-    zh: '联系TradeGo紧固件获取批量紧固件订单报价。ISO 9001和SABS认证制造商。海运至非洲。24小时内获得报价。',
+    en: 'Contact TradeGo Fasteners for bulk fastener orders. Made to SABS 1195 / DIN / ISO manufacturer. Sea freight to Africa. Get a quote in 24 hours.',
+    zh: '联系TradeGo紧固件获取批量紧固件订单报价。按 SABS 1195 / DIN / ISO 规格生产制造商。海运至非洲。24小时内获得报价。',
     es: 'Contacte a TradeGo Fasteners para pedidos de sujetadores al por mayor. Fabricante certificado ISO 9001 & SABS. Flete marítimo a África.',
     fr: 'Contactez TradeGo Fasteners pour les commandes de fixation en gros. Fabricant certifié ISO 9001 & SABS. Fret maritime vers l\'Afrique.',
     ar: 'تواصل مع TradeGo Fasteners لطلبات التثبيت بالجملة. مصنع معتمد ISO 9001 و SABS. الشحن البحري إلى أفريقيا.',
@@ -141,7 +141,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
               <div>
                 <h3 className="font-semibold text-lg mb-3">{t(loc, 'contact.officeAddress')}</h3>
                 <p className="text-gray-700">TradeGo Fasteners Co., Ltd.</p>
-                <p className="text-gray-600">Weifang, Shandong, China</p>
+                <p className="text-gray-600">China</p>
               </div>
               <div>
                 <h3 className="font-semibold text-lg mb-3">{t(loc, 'contact.shipping')}</h3>

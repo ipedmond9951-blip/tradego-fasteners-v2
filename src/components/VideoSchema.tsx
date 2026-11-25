@@ -15,7 +15,7 @@ const videoData: Record<string, Array<{ name: string; description: string; durat
     },
     {
       name: 'TradeGo Fastener Product Showcase',
-      description: 'Explore our complete range of wholesale fasteners including drywall screws, self-drilling screws, hex bolts, and IBR nails. ISO 9001 certified manufacturer.',
+      description: 'Explore our complete range of wholesale fasteners including drywall screws, self-drilling screws, hex bolts, and IBR nails. SGS/BV inspection on request manufacturer.',
       duration: 'PT2M30S',
       uploadDate: '2026-04-10',
       thumbnail: 'https://www.tradego-fasteners.com/images/products/product-showcase.jpg',

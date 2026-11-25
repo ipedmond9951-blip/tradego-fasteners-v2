@@ -32,8 +32,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     hi: 'फास्टनर थोक | TradeGo Fasteners',
   }
   const descriptions: Record<string, string> = {
-    en: 'Wholesale 304/316 stainless hex bolts, Grade 8.8/10.9 structural bolts, drywall/TEK screws, lock nuts, IBR nails. ISO 9001 certified. Ships to Africa.',
-    zh: '批发304/316不锈钢螺栓、8.8/10.9级结构螺栓、干墙/自钻螺丝、锁紧螺母、IBR钉。ISO 9001认证。',
+    en: 'Wholesale 304/316 stainless hex bolts, Grade 8.8/10.9 structural bolts, drywall/TEK screws, lock nuts, IBR nails. SGS/BV inspection on request. Ships to Africa.',
+    zh: '批发304/316不锈钢螺栓、8.8/10.9级结构螺栓、干墙/自钻螺丝、锁紧螺母、IBR钉。可按订单申请 ISO 9001 认证。',
     es: 'Mayorista de pernos inox 304/316, pernos estructurales 8.8/10.9, tornillos para pladur y TEK, tuercas de bloqueo y clavos IBR. Certificado ISO 9001. Envíos a África.',
     fr: 'Grossiste en boulons inox 304/316, boulons de structure 8.8/10.9, vis à plaque de plâtre et TEK, écrous de blocage et clous IBR. Certifié ISO 9001. Expéditions vers l’Afrique.',
     pt: 'Atacado de parafusos inox 304/316, parafusos estruturais 8.8/10.9, parafusos para gesso e TEK, porcas de travamento e pregos IBR. Certificado ISO 9001. Envios para a África.',

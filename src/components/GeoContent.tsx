@@ -28,16 +28,16 @@ const regionalContent: Record<string, Record<string, { promotion: string; shippi
     zh: { promotion: '尼日利亚批量订单优惠 — 最高15%折扣', shipping: '海运至拉各斯，30-35天', payment: '接受付款: T/T, L/C, 支付宝, 微信' },
   },
   KE: {
-    en: { promotion: 'Kenya construction projects — SABS certified fasteners', shipping: 'Sea freight to Mombasa, 28-32 days', payment: 'Accepted: T/T, L/C, Alipay, WeChat Pay' },
-    zh: { promotion: '肯尼亚建筑项目 — SABS认证紧固件', shipping: '海运至蒙巴萨，28-32天', payment: '接受付款: T/T, L/C, 支付宝, 微信' },
+    en: { promotion: 'Kenya construction projects — made to SABS 1195 spec fasteners', shipping: 'Sea freight to Mombasa, 28-32 days', payment: 'Accepted: T/T, L/C, Alipay, WeChat Pay' },
+    zh: { promotion: '肯尼亚建筑项目 — 按 SABS 1195 规格紧固件', shipping: '海运至蒙巴萨，28-32天', payment: '接受付款: T/T, L/C, 支付宝, 微信' },
   },
   GH: {
     en: { promotion: 'Ghana market — competitive pricing for bulk orders', shipping: 'Sea freight to Tema, 30-35 days', payment: 'Accepted: T/T, L/C, Alipay, WeChat Pay' },
     zh: { promotion: '加纳市场 — 批量订单优惠价格', shipping: '海运至特马，30-35天', payment: '接受付款: T/T, L/C, 支付宝, 微信' },
   },
   TZ: {
-    en: { promotion: 'Tanzania projects — SABS compliant fasteners available', shipping: 'Sea freight to Dar es Salaam, 28-33 days', payment: 'Accepted: T/T, L/C, Alipay, WeChat Pay' },
-    zh: { promotion: '坦桑尼亚项目 — SABS认证紧固件', shipping: '海运至达累斯萨拉姆，28-33天', payment: '接受付款: T/T, L/C, 支付宝, 微信' },
+    en: { promotion: 'Tanzania projects — SABS 1195 spec fasteners available', shipping: 'Sea freight to Dar es Salaam, 28-33 days', payment: 'Accepted: T/T, L/C, Alipay, WeChat Pay' },
+    zh: { promotion: '坦桑尼亚项目 — 按 SABS 1195 规格紧固件', shipping: '海运至达累斯萨拉姆，28-33天', payment: '接受付款: T/T, L/C, 支付宝, 微信' },
   },
   MZ: {
     en: { promotion: 'Mozambique bulk orders — up to 15% discount', shipping: 'Sea freight to Maputo, 25-30 days', payment: 'Accepted: T/T, L/C, Alipay, WeChat Pay' },
@@ -48,8 +48,8 @@ const regionalContent: Record<string, Record<string, { promotion: string; shippi
     zh: { promotion: '津巴布韦客户 — 工厂直供价格', shipping: '海运至贝拉，28-33天', payment: '接受付款: T/T, L/C, 支付宝, 微信' },
   },
   ZM: {
-    en: { promotion: 'Zambia construction — CE & SABS certified products', shipping: 'Sea freight to Durban, 30-35 days + transit', payment: 'Accepted: T/T, L/C, Alipay, WeChat Pay' },
-    zh: { promotion: '赞比亚建筑项目 — CE和SABS认证产品', shipping: '海运至德班，30-35天+陆运', payment: '接受付款: T/T, L/C, 支付宝, 微信' },
+    en: { promotion: 'Zambia construction — CE & made to SABS 1195 spec products', shipping: 'Sea freight to Durban, 30-35 days + transit', payment: 'Accepted: T/T, L/C, Alipay, WeChat Pay' },
+    zh: { promotion: '赞比亚建筑项目 — CE和按 SABS 1195 规格产品', shipping: '海运至德班，30-35天+陆运', payment: '接受付款: T/T, L/C, 支付宝, 微信' },
   },
 }
 

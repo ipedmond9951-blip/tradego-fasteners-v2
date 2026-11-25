@@ -8,7 +8,7 @@ export default function AboutPageSchema({ locale = 'en' }: AboutPageSchemaProps)
   const aboutData = {
     en: {
       name: 'TradeGo Fasteners',
-      description: 'TradeGo Fasteners is a SABS & ISO 9001 certified fastener manufacturer and exporter based in China, specializing in serving African construction markets since 2004. We export IBR roofing nails, drywall screws, self-drilling screws, and hex bolts to 20+ African countries including South Africa, Nigeria, and Kenya. Factory-direct pricing with sea freight to Durban, Lagos, and Mombasa.',
+      description: 'TradeGo Fasteners is a Made to SABS 1195 / DIN / ISO fastener manufacturer and exporter based in China, specializing in serving African construction markets since 2004. We export IBR roofing nails, drywall screws, self-drilling screws, and hex bolts to 20+ African countries including South Africa, Nigeria, and Kenya. Factory-direct pricing with sea freight to Durban, Lagos, and Mombasa.',
       url: 'https://www.tradego-fasteners.com/about',
       foundingDate: '2004',
       numberOfEmployees: '50-100',
@@ -16,7 +16,7 @@ export default function AboutPageSchema({ locale = 'en' }: AboutPageSchemaProps)
     },
     zh: {
       name: 'TradeGo 紧固件',
-      description: 'TradeGo紧固件是一家专业紧固件制造商和出口商，总部位于中国，为20+个非洲国家提供SABS和ISO 9001认证的紧固件，包括津巴布韦、南非、肯尼亚、尼日利亚、加纳、坦桑尼亚等。海运至德班、拉各斯和蒙巴萨。',
+      description: 'TradeGo紧固件是一家专业紧固件制造商和出口商，总部位于中国，为20+个非洲国家提供按 SABS 1195 / DIN / ISO 规格生产的紧固件，包括津巴布韦、南非、肯尼亚、尼日利亚、加纳、坦桑尼亚等。海运至德班、拉各斯和蒙巴萨。',
 
       url: 'https://www.tradego-fasteners.com/zh/about',
       foundingDate: '2004',

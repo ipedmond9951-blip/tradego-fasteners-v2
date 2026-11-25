@@ -229,7 +229,7 @@ export const productDescriptions: Record<string, Dict> = {
   },
   'ibr-nails': {
     en: 'Umbrella-head roofing nails for IBR and corrugated sheeting, SABS 1195 compliant. Smooth or ring shank, electro-galvanized, 2.5–4.0 mm × 30–100 mm.',
-    zh: '伞形头屋面钉，专用于 IBR 与波纹屋面板，符合 SABS 1195。光杆或环纹杆，电镀锌，规格 2.5–4.0mm × 30–100mm。',
+    zh: '伞形头屋面钉，专用于 IBR 与波纹屋面板，按 SABS 1195 规格生产。光杆或环纹杆，电镀锌，规格 2.5–4.0mm × 30–100mm。',
     es: 'Clavos de cubierta con cabeza paraguas para chapa IBR y ondulada, conformes a SABS 1195. Vástago liso o anillado, electrocincado, 2,5–4,0 mm × 30–100 mm.',
     fr: 'Pointes de toiture à tête parapluie pour bacs IBR et ondulés, conformes SABS 1195. Tige lisse ou annelée, électrozinguée, 2,5–4,0 mm × 30–100 mm.',
     pt: 'Pregos de cobertura com cabeça guarda-chuva para chapa IBR e ondulada, conformes SABS 1195. Haste lisa ou anelada, eletrozincada, 2,5–4,0 mm × 30–100 mm.',

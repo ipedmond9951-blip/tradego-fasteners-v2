@@ -173,3 +173,15 @@
 - `author.credentials` 归一到岗位描述（**151 篇**）：`ISO 9001 Certified Export Specialist`、`ISO 9001 Lead Auditor`、`CSCP`、`FIATA Diploma` 这类查不到实证的头衔全部换成"fastener sourcing / quality-documentation specialist"等中性表述。
 
 留待下一轮：正文里仍有少量"供应商须持 ISO 9001"的正常叙述（属要求，不是声称），以及 `china-iso-9001-fastener-manufacturer-directory` 这类"名录"文的行业科普表述。
+
+## 本地语完整度分档与索引策略（2026-11-26）
+
+不再用"字符长度比"单一判据（中文天然比英文短一半，会把正常译文判成摘要）。改为**小节完整度**：某小节本地语字符数 × 语种系数（zh 2.0 / ja 1.6 / 其他 1.0）达到英文同节 50%，即算"该节译完"；页面完整度 = 译完小节占可译小节的比例。
+
+- `src/lib/articles.ts` 新增 `localeSectionShare()` / `isThinForLocale()`；`detail` 页 `generateMetadata` 与 `sitemap.xml` 同口径。
+- **完整度 <20%**（基本只有一句摘要）：该语种页面 `robots:noindex, follow`，并从 sitemap 摘除。当前 266 个 URL（zh 111、ja 37、hi 32、ar 21、es 19、de 13、ru 12、fr 11、pt 10），占 2511 个文章的 10.6%。
+- **20%–80%**：保留索引，进 `content/locale-backlog.json` 排队扩写，扩到 80% 以上自动变为"完整页面"。
+- `scripts/build-locale-backlog.py` 生成队列（当前 568 条，含每篇需要补的小节序号）。
+- `scripts/oneoff-zim-supplier-zh.py`：`zimbabwe-fastener-supplier`（津巴布韦供应商落地页）zh 四节整节扩写，从 2% 提到 75%，是队列里第一个完成项。
+
+判断依据：薄页面本来就排不上，留着只占抓取预算、拉低站点质量信号；但只摘"几乎没有内容"的 10%，摘要级（20–80%）不动索引，避免误伤还有长尾排名的页面。

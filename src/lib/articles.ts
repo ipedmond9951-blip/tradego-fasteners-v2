@@ -67,6 +67,40 @@ export function countArticleWords(article: Article): number {
   return count
 }
 
+function plainLen(s?: string): number {
+  if (!s) return 0
+  return String(s).replace(/<[^>]+>/g, '').replace(/\s+/g, '').length
+}
+
+/**
+ * 本地语正文完整度 = 达到"约半篇幅"的小节占比。
+ * 中文/日文信息密度高，字符数按 1.6 折算后再比，否则正常译文也会被判成摘要。
+ * 用途：识别"一句话摘要"式本地语页面，避免薄内容被索引。
+ */
+export function localeSectionShare(article: Article, locale: string): number {
+  if (locale === 'en') return 1
+  const factor = locale === 'zh' ? 2 : locale === 'ja' ? 1.6 : 1
+  let total = 0
+  let pass = 0
+  for (const section of article.sections || []) {
+    const body = (section.body || {}) as Record<string, string>
+    const en = plainLen(body.en)
+    if (en < 100) continue
+    total += 1
+    if (plainLen(body[locale]) * factor >= en * 0.5) pass += 1
+  }
+  return total ? pass / total : 0
+}
+
+/**
+ * 分两档：完整度 <20% 的本地语页面基本没有内容，robots:noindex 并从 sitemap 摘掉；
+ * 20%–80% 的"摘要级"页面暂不摘索引，进 content/locale-backlog.json 排队扩写。
+ */
+export function isThinForLocale(article: Article, locale: string): boolean {
+  if (locale === 'en') return false
+  return localeSectionShare(article, locale) < 0.2
+}
+
 /** Stub articles (title + one-line summary only) should not be indexed and should not claim a read time. */
 export function isThinArticle(article: Article, minWords = 300): boolean {
   return countArticleWords(article) < minWords

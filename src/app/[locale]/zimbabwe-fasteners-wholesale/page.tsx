@@ -4,7 +4,7 @@ import { permanentRedirect } from 'next/navigation'
 
 export const metadata: Metadata = {
   title: 'Zimbabwe Fasteners Wholesale | Bulk Bolts & Screws Supplier | TradeGo',
-  description: 'Professional Zimbabwe fastener wholesale supplier. Factory prices for drywall screws, hex bolts, IBR nails, self-drilling screws. Shipping to Harare, Bulawayo, Mutare. SABS & ISO 9001 certified.',
+  description: 'Professional Zimbabwe fastener wholesale supplier. Factory prices for drywall screws, hex bolts, IBR nails, self-drilling screws. Shipping to Harare, Bulawayo, Mutare. Made to SABS 1195 / DIN / ISO.',
   keywords: ['Zimbabwe fasteners', 'Harare bolts', 'Zimbabwe wholesale screws', 'Bulawayo nuts', 'African construction fasteners', 'mining fasteners Zimbabwe'],
   // 2026-07-16 23:30 GSC 修复: 加 canonical + 10-lang hreflang
   alternates: {
@@ -112,8 +112,8 @@ export default async function ZimbabweFastenersPage({ params }: { params: Promis
               <p className="mt-2 text-gray-600">Sea freight from China to Durban (South Africa) takes 25-30 days, then overland to Harare takes 5-7 days. Total lead time: 35-45 days. Air freight available for urgent orders (7-10 days) at higher cost.</p>
             </details>
             <details className="bg-white rounded p-4 shadow">
-              <summary className="font-semibold cursor-pointer">Do you have SABS certified products?</summary>
-              <p className="mt-2 text-gray-600">Yes, we have SABS certified fasteners available for South African and Zimbabwean market requirements. Contact us for SABS certification documentation and test reports.</p>
+              <summary className="font-semibold cursor-pointer">Do you have made to SABS 1195 spec products?</summary>
+              <p className="mt-2 text-gray-600">Yes, we have made to SABS 1195 spec fasteners available for South African and Zimbabwean market requirements. Contact us for SABS certification documentation and test reports.</p>
             </details>
             <details className="bg-white rounded p-4 shadow">
               <summary className="font-semibold cursor-pointer">What payment methods do you accept?</summary>
@@ -142,7 +142,7 @@ export default async function ZimbabweFastenersPage({ params }: { params: Promis
             <div className="flex gap-4">
               <div className="text-3xl">✅</div>
               <div>
-                <h3 className="font-bold">ISO 9001 & SABS Certified</h3>
+                <h3 className="font-bold">Made to SABS 1195 / DIN / ISO</h3>
                 <p className="text-gray-600">Quality guaranteed with certification documents</p>
               </div>
             </div>

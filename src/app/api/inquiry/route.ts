@@ -276,7 +276,7 @@ async function sendConfirmationEmail(data: InquiryData): Promise<boolean> {
           
           <h3>Why choose TradeGo?</h3>
           <ul>
-            <li>✅ ISO 9001 & SABS certified manufacturer</li>
+            <li>✅ Made to SABS 1195 / DIN / ISO manufacturer</li>
             <li>✅ 20+ years experience in fastener production</li>
             <li>✅ Sea freight to Africa - competitive rates</li>
             <li>✅ Custom packaging available</li>

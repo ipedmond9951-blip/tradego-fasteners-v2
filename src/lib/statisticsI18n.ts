@@ -7,7 +7,7 @@ type Block = { title: string; sub: string; stats: Stat[] }
 export const statistics: Record<string, Block> = {
   en: {
     title: 'Why TradeGo?',
-    sub: 'Numbers prove quality — ISO 9001 & SABS certified factory, 20 years Africa-focused',
+    sub: 'Numbers prove quality — Made to SABS 1195 / DIN / ISO factory, 20 years Africa-focused',
     stats: [
       { value: '20+', label: 'Years Experience', sublabel: 'Since 2004, Africa-focused' },
       { value: '500+', label: 'Global Clients', sublabel: 'Across 20+ African countries' },
@@ -19,7 +19,7 @@ export const statistics: Record<string, Block> = {
   },
   zh: {
     title: '为什么选择 TradeGo？',
-    sub: '数字证明实力 — ISO 9001 与 SABS 认证工厂，专注非洲市场 20 年',
+    sub: '数字证明实力 — 按 SABS 1195 / DIN / ISO 规格生产工厂，专注非洲市场 20 年',
     stats: [
       { value: '20+', label: '年行业经验', sublabel: '自 2004 年，专注非洲市场' },
       { value: '500+', label: '全球客户', sublabel: '遍布 20+ 非洲国家' },

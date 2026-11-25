@@ -100,7 +100,7 @@ export const markets: MarketPage[] = [
     topSlugs: ['ibr-nails', 'self-drilling-screws', 'bolts-nuts', 'washers', 'wedge-anchors', 'waterproof-membrane', 'roofing-screws', 'chemical-anchors'],
     faq: {
       en: [
-        ['Are your IBR nails SABS compliant?', 'Roofing nails are produced to SABS 1195 requirements; test reports are available on request.'],
+        ['Are your IBR nails SABS 1195 spec?', 'Roofing nails are produced to SABS 1195 requirements; test reports are available on request.'],
         ['Do you quote CIF Durban?', 'Yes — FOB Qingdao/Tianjin as standard, CIF Durban or Cape Town on request.'],
         ['Can you supply small trial orders?', 'Yes — trial quantities are accepted before a full container, with samples available.'],
       ],
