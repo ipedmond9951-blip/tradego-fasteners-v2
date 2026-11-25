@@ -330,26 +330,32 @@
       "faqItems": [
         {
           "q": {
-            "en": "Which port route is used for fasteners from China to Zimbabwe?"
+            "en": "Which port route is used for fasteners from China to Zimbabwe?",
+            "zh": "中国到津巴布韦的紧固件走哪条港口路线？"
           },
           "a": {
-            "en": "Beira in Mozambique is the standard ocean gateway. Realistic door-to-door transit is 30 to 40 days to Harare and 33 to 45 days to Bulawayo, including inland haulage and border clearance."
+            "en": "Beira in Mozambique is the standard ocean gateway. Realistic door-to-door transit is 30 to 40 days to Harare and 33 to 45 days to Bulawayo, including inland haulage and border clearance.",
+            "zh": "莫桑比克的贝拉（Beira）港是紧固件发往津巴布韦的标准海运门户。实际门到门时效：到哈拉雷 30 至 40 天，到布拉瓦约 33 至 45 天，其中包含内陆拖车与口岸清关段。船期先靠贝拉港卸货，再走贝拉走廊陆路入境；雨季或口岸压港时内陆段可能顺延，订舱时把口岸等待时间预留进去。备选路线是南非德班港，但内陆距离更长、转运环节更多；项目排产按贝拉走廊估算交期，关键件提前备货，避免港口拥堵把到货周期拉长。"
           }
         },
         {
           "q": {
-            "en": "What duties and documents apply at ZIMRA?"
+            "en": "What duties and documents apply at ZIMRA?",
+            "zh": "津巴布韦税务局（ZIMRA）征哪些关税、要哪些单证？"
           },
           "a": {
-            "en": "Finished fasteners under HS code 7318 attract roughly 5 to 15 percent duty on CIF value plus VAT, cleared at Forbes Border Post with BATOKA documentation. Rates depend on the specific tariff line, so confirm before quoting."
+            "en": "Finished fasteners under HS code 7318 attract roughly 5 to 15 percent duty on CIF value plus VAT, cleared at Forbes Border Post with BATOKA documentation. Rates depend on the specific tariff line, so confirm before quoting.",
+            "zh": "归在 HS 7318 项下的成品紧固件，按 CIF 货值计征约 5% 至 15% 的关税，另加增值税，在福布斯口岸（Forbes Border Post）凭 BATOKA 单证清关。具体税率随子目不同有差别，报价前先按准确子目核对税率。随货资料包括商业发票、装箱单、提单、原产地证与符合性文件；发票、装箱单与原产地证上的 HS 编码、货值、数量要一致，单一窗口申报时对不上会在口岸卡住。清关代理提前核对品名归类与单证口径，货到口岸后再补改文件会产生堆存与滞期费用。"
           }
         },
         {
           "q": {
-            "en": "How early should I book the shipment?"
+            "en": "How early should I book the shipment?",
+            "zh": "货要提前多久订舱？"
           },
           "a": {
-            "en": "Book ocean space about four weeks before the required warehouse date, and ask for a landed CIF Beira plus DAP Harare quote with the BAF locked for 30 days so the freight element cannot drift."
+            "en": "Book ocean space about four weeks before the required warehouse date, and ask for a landed CIF Beira plus DAP Harare quote with the BAF locked for 30 days so the freight element cannot drift.",
+            "zh": "在要求到仓日期前约四周订下海运舱位；同时索取贝拉 CIF 加哈拉雷 DAP 的报价，并把 BAF（燃油附加费）锁定 30 天，使运费部分不会在订舱后随行情浮动。紧固件拼柜或整柜的备货、验货与装柜也要留出时间：生产收尾、装柜、单证核对与订舱确认按倒排计划串起来。旺季港口舱位紧张时订舱窗口还要再提前；报价阶段把运费锁定天数与舱位确认条件写进合同，避免临近发货才发现舱位不足或附加费上涨，影响门店或工地的到货安排。"
           }
         }
       ]
