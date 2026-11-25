@@ -38,6 +38,7 @@
 | 零点击页 | 863 页有曝光但 0 点击，占 36% 曝光 |
 | 语言结构 | en 18,312 曝光（62%）、zh 3,808（13%）、es 2,017；非英语合计 38% 曝光，CTR 反而略高于 en |
 | **最高杠杆** | 39 个页面行（27 篇文章 + 3 个聚合页）曝光 ≥100 且 CTR <1%，吃掉 **53% 总曝光**；其中文章 14,011 曝光（47.5%）只换来 71 次点击 |
+| **低 CTR 分两类**（2026-11-25 修正） | **排名 ≤10 且 CTR <1%：15 行 / 6,220 曝光 / 48 点击（0.77%）→ 纯 snippet 问题，改标题与描述**；排名 >10 且 CTR <1%：24 行 / 9,391 曝光 → 排名问题，补内容、补内链，改标题没用 |
 
 ### 内容面
 
@@ -126,9 +127,12 @@
 
 ### 批次 1（11-26 → 11-30）· 点击率 P0｜B 线 + A 线（按 category 分）
 
-对象：`docs/seo-p0-ctr-pages-2026-1125.csv` 的 27 篇文章，按曝光从大到小，一轮 6 篇。
+对象：`docs/seo-p0-ctr-pages-2026-1125.csv` 里 **`rank_band=<=10` 的 15 行**（snippet 问题），一轮 6 篇；`rank_band=11+` 的 24 行不进本批，归批次 3 补内容与内链。
 
 改法（统一口径，避免每人一套）：
+
+- **只改有曝光的语种**（en 为主，另有 es/zh/ru/ja/de/pt 若干）；meta 字段不是正文，不必强求 10 语种同步，但要记进 `content/locale-backlog.json`。正文改动仍须全语种。
+- 先降"排名 ≤10 却 CTR <1%"，这类页面已经站在首页边缘，只差一句能打的摘要。
 
 - **标题 ≤55 字符**（含空格）。公式：`品类 + 场景 + 一个可核差异`。
   例：`EPDM Roofing Washers: 14–22 mm, 1.5 mm Rubber`（48 字符）。
@@ -269,5 +273,27 @@ bash scripts/vercel-audit.sh           # 第 9–13 项必须绿
 | 日期 | 改动 | 线 |
 |---|---|---|
 | 2026-11-25 | 建立 v1：基线、四瓶颈、批次 0–4、写权限表、租约、闸门 | F |
+| 2026-11-25 | 低 CTR 拆成两类：排名 ≤10 = snippet 改文案；排名 >10 = 排名问题补内容/内链。批次 1 收窄到 15 行 | F |
+| 2026-11-25 | 批次 1 已落地 8 篇 + industry 聚合页（`b2e2bc01`、`9ad21f3b`）：6 篇 en、1 篇 es、1 篇 zh；正文 md5 校验未动 | F |
+
+## 11. 执行记录（批次 1 首批，2026-11-25）
+
+| 页面 | 语种 | 曝光/点击 | 改后标题 |
+|---|---|---|---|
+| zinc-plated-vs-black-phosphate-screws | en | 1,362 / 8 | Zinc vs Black Phosphate Screws: Which Finish Lasts |
+| china-zimbabwe-fastener-shipping-container-guide | en | 1,028 / 8 | Fasteners to Zimbabwe: The Beira Corridor Route |
+| ibr-roofing-nails-installation-guide | en | 877 / 5 | IBR Roofing Nails: Length by Sheet, Purlin Spacing |
+| ghana-tema-port-fastener-import-procedure | en | 346 / 0 | Tema Port Fasteners: 6 Documents, 3–7 Day Clearance |
+| harare-fastener-distributor-supplier-guide | en | 286 / 2 | Harare Fasteners: Graniteside Stock and Lead Times |
+| togo-lome-port-fastener-import-procedure | en | 289 / 2 | Lome Port: Cotecna PSI and the Clearance File |
+| concrete-anchors-fasteners-guide | es | 327 / 0 | Anclajes para hormigón: tipos, carga e instalación |
+| bolt-grade-markings-guide | zh | 151 / 1 | 螺栓等级标记：4.6、8.8、10.9、12.9 怎么读 |
+| /en/industry/ 聚合页 | en | 573 / 5 | Fastener Guides: Grades, Ports and China Sourcing |
+
+**顺带修掉的合规问题**（同一批提交）：`industry` / `products` / `products/[slug]` / `markets/[market]` 四个页面的 es/fr/pt/ru/hi/ar 文案原写"ISO 9001 / SABS 已认证"，已统一改成"按 SABS 1195 / DIN / ISO 生产 + 证书按订单申请"。`check-claims` 与 `tsc` 均通过。
+
+**口径提醒**：`check-claims.py` 的 CERT 正则只认"TradeGo … certified"这种顺序，抓不到"Certificado ISO 9001"这类倒装与非英语形容词。写 UI 文案时不要依赖它兜底，认证表述只允许两种写法。
+
+**仍挂在别的线**：正文里 148 处 `Tradego` 小写（品牌实体一致性，纳入批次 3）；`china-iso-9001-fastener-manufacturer-directory` 这篇的标题与内容需按认证口径复核。
 
 > 下一版触发条件：批次 0 上线完成，或 GSC 新数据与基线偏差 >20%。
