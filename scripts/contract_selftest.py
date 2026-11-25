@@ -77,6 +77,18 @@ case("updated 早于 date 要被抓", "date", bad_date)
 case("乱码要被抓", "encoding", broken_json_text)
 
 
+def geo_leak(d):
+    d["sections"][0]["body"]["en"] = "<p>TradeGo factory is located in Weifang, Shandong.</p>"
+
+
+def geo_dup(d):
+    d["sections"][0]["body"]["zh"] = "<p>我们位于中国中国。</p>"
+
+
+case("公司绑定具体省市要被抓", "geo-leak", geo_leak)
+case("批量替换残句要被抓", "geo-dup", geo_dup)
+
+
 def main():
     quiet = "--quiet" in sys.argv
     fails = 0

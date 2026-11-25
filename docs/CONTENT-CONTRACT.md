@@ -107,3 +107,4 @@ python3 scripts/content_gate.py --slug X # 单篇
 
 对应工具：`scripts/content_contract.py`（含 `encoding`）、`scripts/append_body.py`（新增）、`scripts/vercel-promote.sh`、`scripts/vercel-prune.sh`。
 8. **校验器本身会被"写坏"，而且坏得很安静。** 一次并线把认证检查插进 `except` 分支、后面紧跟 `return`，其余检查全成死代码：脚本正常退出、全库显示"完全干净 272 篇"，实际什么都没查。现在加了 `scripts/contract_selftest.py`（4 个反向用例：占位句/undefined/日期倒挂/乱码必须被抓）并挂进 `pre-commit`，脚本被写坏时提交直接拦下。**经验：任何一个"全绿"的结论，先确认它是不是还在检查。**
+9. **地域口径要机器兜住，不能靠自觉。** 对外只写 China，具体省市（潍坊/山东/Weifang/Shandong 及阿拉伯、俄、印地写法）不得与公司或工厂绑定；批量把地址换成 China 之后还要查"中国中国""China (China)"这类替换残句。已加入 `geo-leak` / `geo-dup` 两类 BLOCK，并有反向用例覆盖——因为这一类错误一旦上线，等于把采购地址写在了客户面前。

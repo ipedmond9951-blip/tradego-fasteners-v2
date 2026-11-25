@@ -253,6 +253,28 @@ def check_article(path, project_dir):
         if cert_hit:
             break
 
+    # 0.3 地域口径：对外只写 China；具体省市（含非拉丁写法）不得与公司/工厂绑定
+    GEO_TERMS = ("潍坊", "濰坊", "Weifang", "WEIFANG", "Shandong", "山东",
+                 "Вэйфан", "وييفانغ", "शानदोंग")
+    DUP_PHRASES = ("中国中国", "China (China)", "China China", "China, China", "中国（中国）")
+    for leaf, text in walk_leaves(d):
+        if not isinstance(text, str):
+            continue
+        for bad in DUP_PHRASES:
+            if bad in text:
+                issues.b("geo-dup", f"{leaf} 出现批量替换残留：'{bad}'")
+                break
+        low = text.lower()
+        for term in GEO_TERMS:
+            if term.lower() not in low:
+                continue
+            idx = low.find(term.lower())
+            win = low[max(0, idx - 80): idx + 80]
+            if any(k in win for k in ("tradego", "our factory", "our plant", "our company",
+                                      "本司", "我们", "工厂", "我厂")):
+                issues.b("geo-leak", f"{leaf} 把公司/工厂绑定到具体地域：'{term}'")
+            break
+
     # 1. 结构 & slug
     if norm(d.get("slug", "")) != slug_file:
         issues.b("schema", f"slug 字段 '{d.get('slug')}' 与文件名不一致")

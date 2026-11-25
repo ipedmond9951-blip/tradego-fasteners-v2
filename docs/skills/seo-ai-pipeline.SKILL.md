@@ -92,7 +92,8 @@ python3 scripts/content_contract_backlog.py                             # 生成
 - 修存量：`scripts/fix_content_contract.py extract|meta|zh-strip|date|image`（机械修复，默认 dry-run）→ `scripts/fill_body_zh.py patch.json --apply`（补中文正文，带 ≥120 汉字质量闸）。
 - 正文扩写（EN ≥1600 词 / ZH ≥800 汉字）：写 `{"slug":"<p>…</p>"}` 的 patch，用 `python3 scripts/append_body.py patch.json --lang en --target 1600` 追加，脚本回显当前计数与"还差多少"，**不够就再跑一轮同一 patch**（幂等，同段自动 skip）。凭"字数感"写常少 30~40%，必须看回显再决定补不补。
 - `--lang` 必须显式传：漏传会把英文段写进 `body.zh`，直接触发 `lang-leak`，需手工摘除。
-- 改完校验器先自检：`python3 scripts/contract_selftest.py`（4 个反向用例必须全绿）。它挂在 `pre-commit` 上，专治"脚本被写坏但照样报全库干净"的假通过。
+- 改完校验器先自检：`python3 scripts/contract_selftest.py`（6 个反向用例必须全绿）。它挂在 `pre-commit` 上，专治"脚本被写坏但照样报全库干净"的假通过。
+- 地域口径：对外只写 China。公司/工厂不得绑定潍坊、山东、Weifang、Shandong 及其非拉丁写法；批量替换后必查"中国中国""China (China)"残句（`geo-leak` / `geo-dup` 会拦）。
 
 **2026-11-25 实战补丁（都是踩过才加的）**
 
