@@ -187,31 +187,37 @@
     {
      "q": {
       "en": "What nut grade matches an 8.8 bolt?",
-      "zh": "8.8 级螺栓配什么等级螺母？"
+      "zh": "8.8 级螺栓配什么等级螺母？",
+      "hi": "8.8 बोल्ट से मेल खाने वाला नट ग्रेड क्या है?"
      },
      "a": {
       "en": "Grade 8 (proof load 890 MPa) is the minimum match for 8.8 bolts. Heavy hex Grade 8 is preferred for structural connections.",
-      "zh": "与 8.8 级螺栓相配，最低应选 8 级螺母（保证载荷 890 MPa）；结构连接场合优先采用重型 8 级螺母，承载裕度更足。"
+      "zh": "与 8.8 级螺栓相配，最低应选 8 级螺母（保证载荷 890 MPa）；结构连接场合优先采用重型 8 级螺母，承载裕度更足。",
+      "hi": "ग्रेड 8 (प्रूफ लोड 890 MPa) 8.8 बोल्ट के लिए न्यूनतम मिलान ग्रेड है। संरचनात्मक जोड़ों में Heavy hex Grade 8 को प्राथमिकता दी जाती है; नट की शक्ति बोल्ट से कम नहीं होनी चाहिए, वरना जोड़ नट में ही खराब हो सकता है।"
      }
     },
     {
      "q": {
       "en": "Can GB and DIN nuts be used interchangeably?",
-      "zh": "GB 和 DIN 螺母可以互换吗？"
+      "zh": "GB 和 DIN 螺母可以互换吗？",
+      "hi": "GB और DIN नट एक-दूसरे की जगह चल सकते हैं?"
      },
      "a": {
       "en": "Yes, GB and DIN metric nuts are harmonized under the ISO agreement and are dimensionally interchangeable. ISO 4032 replaces both DIN 934 and GB/T 6170.",
-      "zh": "可以。GB 与 DIN 公制螺母在 ISO 协议下已经协调一致，安装尺寸可以互换；ISO 4032 同时替代了 DIN 934 与 GB/T 6170 两个旧标准，订货时按对应标准号选规格即可。"
+      "zh": "可以。GB 与 DIN 公制螺母在 ISO 协议下已经协调一致，安装尺寸可以互换；ISO 4032 同时替代了 DIN 934 与 GB/T 6170 两个旧标准，订货时按对应标准号选规格即可。",
+      "hi": "हां, GB और DIN मीट्रिक नट ISO समझौते के तहत सामंजस्य में हैं और आयामी रूप से एक-दूसरे की जगह चल सकते हैं। ISO 4032, DIN 934 और GB/T 6170 दोनों का स्थान लेता है; बदलते समय धागा और फेस का मिलान जरूर कर लें।"
      }
     },
     {
      "q": {
       "en": "Which thread form for the US and Caribbean market?",
-      "zh": "美国和加勒比市场用哪种螺纹制式？"
+      "zh": "美国和加勒比市场用哪种螺纹制式？",
+      "hi": "अमेरिका और कैरिबियाई बाज़ार के लिए कौन-सा धागा?"
      },
      "a": {
       "en": "UNC for general coarse work and UNF where finer pitch is specified, in fractional sizes from 1/4 inch upward. Mixing UNC nuts with metric bolts is the most common import error in this segment.",
-      "zh": "一般粗牙工况用 UNC，要求更细螺距时用 UNF，规格为 1/4 英寸起的分数尺寸。这一品类最常见的进口差错，就是把 UNC 螺母和公制螺栓混配；选型时螺纹制式必须与螺栓一致，不能凭外径近似互换。"
+      "zh": "一般粗牙工况用 UNC，要求更细螺距时用 UNF，规格为 1/4 英寸起的分数尺寸。这一品类最常见的进口差错，就是把 UNC 螺母和公制螺栓混配；选型时螺纹制式必须与螺栓一致，不能凭外径近似互换。",
+      "hi": "आम मोटे धागे के काम के लिए UNC, बारीक पिच बताए जाने पर UNF चुनें; फ्रैक्शनल साइज़ 1/4 इंच से ऊपर तक मिलती है। UNC नट को मीट्रिक बोल्ट के साथ मिलाना इस खंड में सबसे आम आयात गलती है, इसलिए धागा प्रणाली एक जैसी रखें।"
      }
     }
    ],
