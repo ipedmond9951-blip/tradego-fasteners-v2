@@ -200,29 +200,31 @@
     {
      "q": {
       "en": "Can machine screws be used in wood?",
-      "zh": "机器螺丝可以用在木材上吗？"
+      "zh": "机器螺丝能拧进木头吗？"
      },
      "a": {
       "en": "Not effectively. Machine screws are not designed to cut threads in wood and will either not engage properly or split the wood. Use wood screws for wood.",
-      "zh": "不能有效使用。机器螺丝不是为在木材中切割螺纹而设计的。"
+      "zh": "效果不好。机器螺丝不是为在木头上切削螺纹设计的，要么咬不住，要么把木头撑裂。木结构固定还是用木螺丝。"
      }
     },
     {
      "q": {
       "en": "What screws for pressure treated wood?",
-      "zh": "处理过的木材用什么螺丝？"
+      "zh": "防腐处理木材用什么螺丝？"
      },
      "a": {
       "en": "Always use stainless steel screws (304 minimum, 316 for coastal/outdoor) with pressure treated wood. Standard zinc-plated screws will corrode rapidly.",
-      "zh": "始终使用不锈钢螺丝（最低304，沿海/户外用316）与处理过的木材。标准镀锌螺丝会快速腐蚀。"
+      "zh": "防腐木一律用不锈钢螺丝，下限 304，沿海或户外环境用 316。普通镀锌螺丝在防腐木里会很快腐蚀。"
      }
     },
     {
      "q": {
-      "en": "Which screws for pressure-treated timber?"
+      "en": "Which screws for pressure-treated timber?",
+      "zh": "防腐木材选哪种螺丝？"
      },
      "a": {
-      "en": "Hot-dip galvanised or stainless screws, because the treatment chemicals accelerate corrosion of bright and thin zinc coatings. Coarse thread wood screws hold better in soft treated timber than fine thread."
+      "en": "Hot-dip galvanised or stainless screws, because the treatment chemicals accelerate corrosion of bright and thin zinc coatings. Coarse thread wood screws hold better in soft treated timber than fine thread.",
+      "zh": "选热浸镀锌或不锈钢螺丝，因为防腐处理药剂会加速光面和薄锌层镀层的腐蚀。在松软的防腐木材里，粗牙木螺丝的握钉力优于细牙。"
      }
     }
    ],
