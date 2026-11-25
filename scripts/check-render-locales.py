@@ -19,7 +19,7 @@ import json
 import os
 import random
 import sys
-import urllib.request
+import re, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://www.tradego-fasteners.com"
@@ -87,8 +87,10 @@ def main():
                 problems.append(f"{loc}/{art['slug']}: 抓取失败 {html[9:60]}")
                 continue
             q_count = html.count('"@type":"Question"')
+            # 2026-11-25 修: 之前只判 heading 文本出现在 HTML 里, 结果被导航栏的"FAQ/常见问题"链接
+            # 命中了 (ar 的 الأسئلة 就在顶部菜单), 5 处"空 FAQ"全是误报。必须限定在 <h2> 里。
             heading = FAQ_HEADINGS.get(loc, "")
-            has_heading = bool(heading) and heading in html
+            has_heading = bool(heading) and bool(re.search(r'<h2[^>]*>' + re.escape(heading), html))
             # 1) 语言泄漏：非英文页出现英文问句（取前 24 字符，避开 HTML 转义差异）
             if loc != "en" and art["en_q"]:
                 snippet = art["en_q"][:24]
