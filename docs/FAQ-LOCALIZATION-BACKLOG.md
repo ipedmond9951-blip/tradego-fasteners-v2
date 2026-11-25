@@ -146,3 +146,4 @@
 - 判定器收紧：`check-body-lang.py` 原来只看"拉丁词占比 + 2 个英文功能词"，把德语里的英文机构名（"… eine Genehmigung des Department of Trade and Industry"）误判成整句英文；改为用 200 词英文常见词表要求**密度 ≥45%**。收紧后英文句子检出更准，存量数字随之从 139 变成 227（多出来的是此前漏掉的真泄漏）。
 - 新脚本 `scripts/fix-label-embeds.py`：只替换"与英文标题词重叠 ≥60% 且长度接近"的英文串（即模板化本地化留下的标题位标签），避免误把普通英文句子换成标题。首轮 18 篇 702 处。曾用"出现次数最多"当判据，结果把 `See frequently asked questions below` 也当成标签（4555 处），已废弃该判据并在脚本里注明原因。
 - 整段重译：`african-ftz-fastener-import-procedures` 的 ar §2–§6、ja §2、ru §2 全文重写（原译文混入英语、印尼语 `sebagai ambang batas`、韩语 `혜택/되어야`），该篇现在 english/script 均为 0，内容闸门 100% 干净。
+- 第三轮细分：英文串里**没有谓语动词**的归为 `label` 档（"相关资源"里的 high-tensile bolts / anchor bolts 这类产品名列表），不计入 english 硬指标。口径变为 english 23 / script 116 / label 204，剩下 23 处是真·整句英文，涉及 12 篇。

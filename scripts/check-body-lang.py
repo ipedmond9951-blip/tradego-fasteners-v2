@@ -38,6 +38,8 @@ WORD = re.compile(r"[A-Za-z][A-Za-z'\-]+")
 # 英文常见词表：用来给"拉丁语种"的判定加一道密度门槛，
 # 否则德语/西语里夹一个英文机构名（"… eine Genehmigung des Department of Trade and Industry"）
 # 会被误判成整句英文。
+VERBS = set("is are was were be been have has had must should can could will would may might do does did provide provides provided require requires required include includes included ensure ensures use uses used make makes made need needs allow allows allow enable enables offer offers contain contains meet meets exceed exceeds range ranges vary varies depend depends".split())
+
 EN_WORDS = set("""
 the a an and or but for with without to of in on at by from as is are was were be been being
 this that these those it its they their we our you your he she his her not no if then than
@@ -90,10 +92,17 @@ def scan_field(lang, value):
         if name in allow:
             continue
         frag += rx.findall(plain)
-    if not eng and len(frag) < 10:
+    # 没有谓语动词的英文串属于"标签/词组"（如相关资源里的产品名列表），不算整句英文
+    labels = []
+    for e in eng:
+        words = {w.lower().strip(".,;:()") for w in e.split()}
+        if not (words & VERBS):
+            labels.append(e)
+    eng = [e for e in eng if e not in labels]
+    if not eng and not labels and len(frag) < 10:
         return None
-    return {"english": eng[:3], "script": "".join(frag)[:40],
-            "level": "english" if eng else ("script" if len(frag) >= 10 else "noise")}
+    level = "english" if eng else ("label" if labels else ("script" if len(frag) >= 10 else "noise"))
+    return {"english": eng[:3], "labels": labels[:2], "script": "".join(frag)[:40], "level": level}
 
 
 def scan_article(path):
@@ -117,7 +126,7 @@ def main():
 
     files = ([os.path.join(ART, a.slug + ".json")] if a.slug
              else sorted(glob.glob(os.path.join(ART, "*.json"))))
-    total = {"english": 0, "script": 0, "noise": 0}
+    total = {"english": 0, "script": 0, "label": 0, "noise": 0}
     per_art = []
     for f in files:
         rows = scan_article(f)
@@ -133,7 +142,8 @@ def main():
         print(json.dumps({"summary": total, "articles": per_art}, ensure_ascii=False, indent=1))
         return 0
 
-    print(f"正文语种污染：english {total['english']} 处 / script {total['script']} 处 / noise {total['noise']} 处")
+    print(f"正文语种污染：english {total['english']} 处 / script {total['script']} 处 / "
+          f"label {total['label']} 处（无谓语、词组型，如产品名列表）/ noise {total['noise']} 处")
     print(f"涉及文章 {len(per_art)} 篇")
     if a.slug:
         rows = per_art[0]["rows"] if per_art else []
