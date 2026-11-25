@@ -33,13 +33,13 @@ ALLOW = re.compile(
     r'(on request|as required|per order|按订单|依订单|按订单要求|à la demande|sur demande|'
     r'auf Anfrage|por pedido|a pedido|по запросу|по заказу|عند الطلب|依頼|オンデマンド|'
     r'aligned|aligned procedures|按\s?(?:SABS|DIN|ISO)[^。]{0,8}生产|合规生产)', re.I)
-SENT = re.compile(r'(?<=[.!?。！？؛])\s?')
+SENT = re.compile(r'(?<=[.!?。！？؛])\s?|\n')
 TAG = re.compile(r'<[^>]+>')
 
 
 def scan_text(txt):
     hits = []
-    for s in SENT.split(TAG.sub(' ', txt)):
+    for s in SENT.split(TAG.sub(' ', txt.replace('\\n', '\n'))):
         s = s.strip()
         if not s or ALLOW.search(s):
             continue
@@ -65,11 +65,15 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--json', action='store_true')
     ap.add_argument('--top', type=int, default=20)
+    ap.add_argument('--strict', action='store_true', help='存在本公司自述认证的句子时以退出码 1 结束（可接闸门）')
     args = ap.parse_args()
     rows = []
     for p in sorted(glob.glob('content/articles/*.json')):
         a = json.load(open(p, encoding='utf-8'))
-        strs = [json.dumps({k: a[k] for k in ('title', 'description', 'metaDescription', 'cta') if k in a}, ensure_ascii=False)]
+        strs = []
+        for k in ('title', 'description', 'metaDescription', 'cta'):
+            if k in a:
+                walk_strings(a[k], strs)
         walk_strings(a.get('sections') or [], strs)
         hits = [h for s in strs for h in scan_text(s)]
         if hits:
@@ -91,6 +95,14 @@ def main():
         print('  %-52s %d' % (r['slug'], r['count']))
         for name, it in r['items'][:2]:
             print('      [%s] %s' % (name, it[:150]))
+    if args.strict:
+        hard = [(r['slug'], it) for r in rows for _, it in r['items'] if 'TradeGo' in it]
+        if hard:
+            print('❌ 本公司自述认证 %d 处，涉及 %d 个文件' % (len(hard), len({h[0] for h in hard})))
+            for slug, it in hard[:5]:
+                print('   %s | %s' % (slug, it[:120]))
+            raise SystemExit(1)
+        print('✅ 无本公司自述认证表述')
 
 
 if __name__ == '__main__':
