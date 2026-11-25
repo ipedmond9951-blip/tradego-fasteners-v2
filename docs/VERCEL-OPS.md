@@ -156,6 +156,10 @@ bash scripts/vercel-guard.sh --live
 ### 6.3 回滚
 - 首选：`git revert <sha>` → 走正常发布会话（保留 3 条部署，旧版仍可切回）
 - 紧急：Vercel 后台 Instant Rollback 到上一条 READY 部署（Pro 支持），事后仍须用 git revert 对齐代码
+- 命令行等价（**已演练过，2026-11-25**）：`npx vercel rollback <deployment-id或url> --yes`
+  - 它只切别名，不产生新部署、不重建函数，所以不占"每日 3 次构建"，也不违反"生产只能 git 部署"（这条约束管的是"造部署"，不管"指哪个部署"）
+  - 演练结论：切换约 1 秒生效；用 `GET /v9/projects/{id}` 读 `targets.production.meta.githubCommitSha` 可以客观验证切到了哪一条；切回同样一条命令。演练耗时约 1 分钟，期间站点始终 200
+  - 演练后要补跑 `vercel-prune.sh --apply`（回滚不会自动清旧记录，可能短暂 4 条）
 - 备份分支：`git branch backup/...`，删除前确认 `logs/vercel-archive/` 有记录
 
 ### 6.4 额度即将超线
@@ -285,3 +289,4 @@ CANCELED 记录要 push 后十几秒才出现在 API 里，所以 `deploy-flush.
 | 平台 cron / `at` 当可靠调度 | 到点 `last_run_time` 不动 | 本机一律用 launchd（RunAtLoad + StartInterval/StartCalendarInterval），写状态 json |
 | 2026-11-25 | 接入 `@vercel/speed-insights`（CWV 实测数据，服务 SEO）；Vercel Web Analytics 与 GA4 重复，保持不接线 | Speed Insights 仪表盘早已启用但 `hasData:false`，等于白开 |
 | 2026-11-25 | 新增 `vercel-usage-snapshot.sh`，用量快照进审计（第 10 项：信用额度/带宽/函数/存储/ISR/构建） | 402 事故的根因是"发现太晚"：Vercel 只在 75%/100% 发邮件，而邮件到达时站已经挂了 |
+| 2026-11-25 | Instant Rollback 实测演练一次（切 145c2d25 → 验证 → 切回 896c65c8），流程写进 6.3 | 回滚方案没演练过等于没有；顺带摸清"rollback 不算部署、不占预算" |
