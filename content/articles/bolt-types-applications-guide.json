@@ -234,6 +234,38 @@
       "hi": "महत्वपूर्ण संरचनात्मक जोड़ों में बोल्ट आम तौर पर दोबारा नहीं चलाने चाहिए: निकालने पर धागे की क्षति, झुकना या कोटिंग का घिसना बोल्ट की ताकत काफी कम कर देता है। गैर-संरचनात्मक कामों में ध्यान से जांचें और कोई क्षति दिखे तो बदल दें।",
       "ru": "В ответственных несущих соединениях болты обычно не повторно используют. Повреждение резьбы, изгиб или износ покрытия при снятии заметно снижают прочность болта. В ненагруженных узлах деталь осматривают и при любом видимом повреждении заменяют новой."
      }
+    },
+    {
+     "q": {
+      "en": "How do I choose the right bolt type for my application?"
+     },
+     "a": {
+      "en": "Choose bolt type based on: 1) Material being fastened (wood requires carriage bolts, metal uses hex bolts); 2) Load requirements (structural uses Grade 8.8/10.9); 3) Environment (outdoor/African humidity requires HDG or stainless steel); 4) Access for installation (hex bolts need wrenches, eye bolts need loops for lifting)."
+     }
+    },
+    {
+     "q": {
+      "en": "What is the difference between hex bolts and carriage bolts?"
+     },
+     "a": {
+      "en": "Hex bolts have a six-sided head for wrench engagement and can be used on both sides of a joint. Carriage bolts have a round head with a square neck that prevents rotation during installation - ideal for wood and timber where you want a smooth appearance on one side."
+     }
+    },
+    {
+     "q": {
+      "en": "What bolt grades are recommended for structural applications in Africa?"
+     },
+     "a": {
+      "en": "For structural applications in Africa's demanding environments: Grade 8.8 (800 MPa tensile) for general structures; Grade 10.9 (1000 MPa tensile) for high-load structural connections; Hot-dip galvanized (HDG) or stainless steel 316 for corrosion resistance against African humidity and coastal conditions."
+     }
+    },
+    {
+     "q": {
+      "en": "How do I prevent bolt corrosion in African climates?"
+     },
+     "a": {
+      "en": "Prevent corrosion in African climates by: 1) Using hot-dip galvanized (HDG) bolts for outdoor construction - 45-85μm zinc coating; 2) Using stainless steel 316 for mining and coastal areas with high humidity; 3) Using the correct material for the environment - avoid carbon steel without coating; 4) Regular inspection and maintenance schedule."
+     }
     }
    ]
   }
