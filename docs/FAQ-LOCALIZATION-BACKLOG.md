@@ -140,3 +140,9 @@
 - 301 处（4 篇：润滑/包装/预紧力/高强螺栓）是嵌着英文主题标签，按 heading 位（无冠词名词短语）与 body 位（带冠词主语）分别换成九语本地化表达。
 
 剩余 139 english + 116 script 属"段落级未翻译/半句混合"，无法机械替换，只能逐段重译；`check-body-lang.py --slug <slug>` 可看单篇明细，`--json` 供批量任务取数。
+
+## 正文污染第二轮（2026-11-26 晚）
+
+- 判定器收紧：`check-body-lang.py` 原来只看"拉丁词占比 + 2 个英文功能词"，把德语里的英文机构名（"… eine Genehmigung des Department of Trade and Industry"）误判成整句英文；改为用 200 词英文常见词表要求**密度 ≥45%**。收紧后英文句子检出更准，存量数字随之从 139 变成 227（多出来的是此前漏掉的真泄漏）。
+- 新脚本 `scripts/fix-label-embeds.py`：只替换"与英文标题词重叠 ≥60% 且长度接近"的英文串（即模板化本地化留下的标题位标签），避免误把普通英文句子换成标题。首轮 18 篇 702 处。曾用"出现次数最多"当判据，结果把 `See frequently asked questions below` 也当成标签（4555 处），已废弃该判据并在脚本里注明原因。
+- 整段重译：`african-ftz-fastener-import-procedures` 的 ar §2–§6、ja §2、ru §2 全文重写（原译文混入英语、印尼语 `sebagai ambang batas`、韩语 `혜택/되어야`），该篇现在 english/script 均为 0，内容闸门 100% 干净。

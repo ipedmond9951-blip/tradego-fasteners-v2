@@ -35,20 +35,44 @@ OSCRIPT = {
 TAG = re.compile(r"<[^>]+>")
 SENT = re.compile(r"[^.!?。！？\n]+")
 WORD = re.compile(r"[A-Za-z][A-Za-z'\-]+")
+# 英文常见词表：用来给"拉丁语种"的判定加一道密度门槛，
+# 否则德语/西语里夹一个英文机构名（"… eine Genehmigung des Department of Trade and Industry"）
+# 会被误判成整句英文。
+EN_WORDS = set("""
+the a an and or but for with without to of in on at by from as is are was were be been being
+this that these those it its they their we our you your he she his her not no if then than
+must should can could may might will would do does did has have had been more most less least
+than when where which who whom whose what how why all any both each few many some such only
+also very well just even still yet about into over under between through during before after
+above below up down out off again further once here there
+fastener fasteners bolt bolts nut nuts screw screws washer washers anchor anchors steel
+stainless carbon galvanized plated grade grades class classes strength tensile shear load
+loads torque preload thread threads diameter length size sizes standard standards iso astm
+din en jis gb certification certified supplier suppliers supply buyer buyers import imports
+importer importers export exports shipment shipments container containers port ports customs
+duty duties tariff tariffs invoice packing list certificate origin price prices cost costs
+per unit ton kg mm inch inches project projects construction mining infrastructure market
+markets demand growth volume annual production manufacturer manufacturers factory factories
+quality inspection test testing tested specification specifications requirement requirements
+application applications installation installed use used using ensure ensure including include
+includes based according typically usually often generally however therefore because since
+while within across per plus minus percent percentage value valued adding added addition
+""".split())
+
 
 
 def en_text(s):
-    """判断一句是不是英文：>=6 个词，且 85% 以上是纯粹拉丁词、长度像英文单词。"""
+    """判断一句是不是英文：>=6 个词、85% 拉丁词，且英文常见词占比 >=45%。"""
     toks = s.split()
     if len(toks) < 6:
         return False
-    latin = [t for t in toks if WORD.fullmatch(t.strip(".,;:()\"'")) ]
+    latin = [t for t in toks if WORD.fullmatch(t.strip(".,;:()\"'"))]
     if len(latin) / len(toks) < 0.85:
         return False
-    # 纯拉丁语种的句子也长这样，用常见英文功能词兜一层
-    low = {w.lower() for w in latin}
-    stop = {"the", "and", "for", "with", "must", "are", "is", "of", "to", "in", "that", "a", "an", "be", "by"}
-    return len(low & stop) >= 2
+    if len(latin) < 4:
+        return False
+    hits = sum(1 for t in latin if t.lower() in EN_WORDS)
+    return hits / len(latin) >= 0.45
 
 
 def scan_field(lang, value):
@@ -112,7 +136,8 @@ def main():
     print(f"正文语种污染：english {total['english']} 处 / script {total['script']} 处 / noise {total['noise']} 处")
     print(f"涉及文章 {len(per_art)} 篇")
     if a.slug:
-        for r in per_art[0]["rows"]:
+        rows = per_art[0]["rows"] if per_art else []
+        for r in rows:
             print(f"  §{r['section']} {r['field']}.{r['lang']} [{r['level']}] {r['english'][0] if r['english'] else r['script']}")
     else:
         for art in per_art[:15]:
