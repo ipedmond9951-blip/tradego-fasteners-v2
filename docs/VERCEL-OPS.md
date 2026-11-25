@@ -431,3 +431,21 @@ curl -s "https://api.vercel.com/v4/aliases?limit=100" -H "Authorization: Bearer 
 - **修法**：`next.config.ts` 顶部的 `aliasRedirects` 直接从 `content/articles/*.json` 的 `redirectTo` 生成 `permanent: true` 跳转，目标带尾斜杠；以后再做合并不用手工补配置。本地 `next start` 实测三条都是单跳 `308 → /…/`，canonical 200。
 - **新增 `scripts/check-alias-redirects.py`**：线上逐条校验“首跳 301/308 + 直达 canonical + canonical 200”，审计里作为 9.5 项每天跑（`AUDIT_ALIAS=0` 可跳）。
 - **并发写竞态**：本地构建时撞到 `SyntaxError: Unexpected end of JSON input`（另一条线正在写文章 JSON，构建读到半截文件）。同一棵树立刻重跑就通过，说明不是代码问题。`deploy-preflight.sh` 现在对这种错误自动等 15s 重试一次；仍失败才拦。
+
+## 变更记录 2026-11-26 凌晨（token 过期 × 预算把「尝试」当「构建」）
+
+- **现象**：零点窗口 `push-cert-clean` 准点触发，却被 `deploy-budget.sh` 判成 `3/3` 全满拦下；
+  同一时间 `vercel-audit.sh` 读不到 API。根因两个，互相叠加：
+  1. `~/Library/Application Support/com.vercel.cli/auth.json` 里的 token 会过期（`expiresAt`，秒级），
+     **只在 CLI 有联网动作时才自动续期**。后台脚本直接读文件 → `invalidToken` → 只能回退本地台账。
+  2. `deploy-budget.sh` 非只读调用时会自增本地 `count`，**把"尝试推送"也算成一次构建**；
+     钩子拦截、push 失败同样 +1，一晚上能把 3 次额度凭空烧光。
+- **修法**：
+  - 新增 `scripts/vercel-token.py`：先看 `expiresAt`，快过期/收到 401-403 时跑一次 `vercel whoami` 让 CLI 续期，再读文件；`--force` 强制续期。预算与审计都改用它（审计通过 `VERCEL_TOKEN` 环境变量传入）。
+  - 预算只认**真实构建**：`max(Vercel API 当日条数, deploy-history.jsonl 当日条数)`；本地台账只记 `attempts` 时间戳，不再参与判定（`count` 字段仅留历史值）。
+  - 两道护栏仍 fail-closed：API 与 uid 台账都读不到 → 直接拦。
+- **实测**（2026-11-26 00:37 CST）：预算读数从"本地=3"变成"Vercel=1"→ 放行；推 109 个提交 →
+  `dpl_HgiFFwvjfrx5ayBxokj2LPQiPNxF` READY（commit `4b081a1e`）→ promote 成功、首页 200、抽检 FAQPage=yes；
+  `vercel-prune.sh --apply` 两次把部署收到 3 条，审计复跑 ✅ 通过。
+- **教训**：看到"预算已满"先核对读数来源——本地台账的 `count` 会把失败尝试计入；
+  `vercel whoami` 能连上不代表 `auth.json` 里的 token 可用（CLI 会自己用 refreshToken 换新，文件是缓存）。
