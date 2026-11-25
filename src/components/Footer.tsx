@@ -14,7 +14,10 @@ export default function Footer({ locale = 'en' }: FooterProps) {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mb-8">
           {/* Company */}
           <div className="col-span-2 lg:col-span-1">
-            <h3 className="text-lg md:text-xl font-bold mb-3">TradeGo Fasteners</h3>
+            <h3 className="text-lg md:text-xl font-bold mb-3 flex items-center gap-2">
+              <img src="/brand/logo-mark-white-96.png" alt="TradeGo Fasteners" width={32} height={32} className="h-8 w-8" />
+              TradeGo Fasteners
+            </h3>
             <p className="text-gray-400 text-xs md:text-sm mb-0">{t(locale, 'footer.companyDesc')}</p>
           </div>
           
@@ -51,7 +54,7 @@ export default function Footer({ locale = 'en' }: FooterProps) {
           <div>
             <h4 className="font-semibold mb-3 text-sm">{t(locale, 'footer.certifications') || 'Certifications'}</h4>
             <div className="space-y-1.5 text-xs md:text-sm">
-              <a href="https://www.iso.org/standard/62085.html" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-white">ISO 9001:2015</a>
+              <a href="https://www.iso.org/standard/62085.html" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-white">ISO 9001 certificates on order</a>
               <a href="https://www.din.de" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-white">{pick(footerExtra.dinStandards, locale)}</a>
               <a href="https://www.iso.org/standard/76502.html" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-white">ISO 4014 / 4017</a>
               <a href="https://www.sabs.co.za" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-white">{pick(footerExtra.sabs, locale)}</a>

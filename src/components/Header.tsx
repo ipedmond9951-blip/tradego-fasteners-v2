@@ -39,7 +39,14 @@ export default function Header({ locale = 'en' }: HeaderProps) {
       <nav className="container mx-auto px-4">
         <div className="flex justify-between items-center h-14 md:h-16">
           <a href={`/${locale}/`} className="flex items-center flex-shrink-0">
-            <span className="text-xl md:text-2xl font-bold text-primary-700">TradeGo</span>
+            <img
+              src="/brand/logo-mark-96.png"
+              alt="TradeGo Fasteners"
+              width={28}
+              height={28}
+              className="h-8 w-8 md:h-9 md:w-9 mr-2.5 flex-shrink-0"
+            />
+            <span className="text-xl md:text-2xl font-bold tracking-tight text-primary-900">TradeGo</span>
             <span className="ml-1 md:ml-2 text-sm md:text-lg text-gray-600 hidden sm:inline">Fasteners</span>
           </a>
 
