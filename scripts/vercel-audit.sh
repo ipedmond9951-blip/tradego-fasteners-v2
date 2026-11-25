@@ -256,6 +256,17 @@ $JAOUT"
   fi
 fi
 
+# --- 13. 金额断言（价格语义上下文，只报数不阻断）---
+if [ "${AUDIT_MONEY:-1}" = "1" ]; then
+  MONEYOUT=$(python3 scripts/check-money-claims.py --top 3 2>&1 | head -5)
+  if echo "$MONEYOUT" | grep -q "价格语义 0 处"; then
+    pass "金额断言：价格语义上下文无金额数字"
+  else
+    pass "金额断言仍存在（非部署问题，按 docs/CONTENT-CONTRACT.md 第 15/24 条去数字化）：
+$MONEYOUT"
+  fi
+fi
+
 # --- 记录 ---
 RESULT="PASS"; [ "$FAIL" -gt 0 ] && RESULT="FAIL($FAIL)"
 printf '%s | %s | 当日部署=%s 保留=%s cli直推=%s 最新=%s\n' "$(date '+%F %T')" "$RESULT" "$TODAYN" "$TOTAL" "$CLIN" "${LATEST_SHA:0:8}" >> "$LOG"

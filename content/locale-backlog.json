@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-25T17:22:10+08:00",
- "total": 739,
+ "generated": "2026-11-25T17:26:48+08:00",
+ "total": 742,
  "items": [
   {
    "slug": "africa-railway-modernization-fastener-demand",
@@ -65,21 +65,6 @@
   {
    "slug": "agricultural-machinery-fastener-guide",
    "lang": "ar",
-   "coverage": 0.0,
-   "sections": 8,
-   "missing": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6
-   ]
-  },
-  {
-   "slug": "agricultural-machinery-fastener-guide",
-   "lang": "de",
    "coverage": 0.0,
    "sections": 8,
    "missing": [
@@ -5080,6 +5065,30 @@
    ]
   },
   {
+   "slug": "anchor-bolts-foundation-guide",
+   "lang": "ar",
+   "coverage": 0.33,
+   "sections": 6,
+   "missing": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "slug": "anchor-bolts-foundation-guide",
+   "lang": "ja",
+   "coverage": 0.33,
+   "sections": 6,
+   "missing": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
    "slug": "carriage-bolts-guide",
    "lang": "ar",
    "coverage": 0.33,
@@ -6166,6 +6175,17 @@
     3,
     4,
     6
+   ]
+  },
+  {
+   "slug": "anchor-bolts-foundation-guide",
+   "lang": "hi",
+   "coverage": 0.5,
+   "sections": 6,
+   "missing": [
+    1,
+    2,
+    3
    ]
   },
   {
@@ -7716,6 +7736,16 @@
    "sections": 6,
    "missing": [
     2,
+    5
+   ]
+  },
+  {
+   "slug": "anchor-bolts-foundation-guide",
+   "lang": "zh",
+   "coverage": 0.67,
+   "sections": 6,
+   "missing": [
+    1,
     5
    ]
   },
