@@ -90,6 +90,15 @@ python3 scripts/content_contract_backlog.py                             # 生成
 - WARN（可排期）：`imageAlt` 复用英文、缺 `faq`（GEO 结构化问答）、正文体量偏薄、SEO 长度越界。
 - 退出门禁：`.githooks/pre-commit` 会对改动过的文章跑 `--baseline`，**只拦基线之外的新增问题**；确需绕过用 `CONTENT_CONTRACT_SKIP=1 git commit ...`。
 - 修存量：`scripts/fix_content_contract.py extract|meta|zh-strip|date|image`（机械修复，默认 dry-run）→ `scripts/fill_body_zh.py patch.json --apply`（补中文正文，带 ≥120 汉字质量闸）。
+- 正文扩写（EN ≥1600 词 / ZH ≥800 汉字）：写 `{"slug":"<p>…</p>"}` 的 patch，用 `python3 scripts/append_body.py patch.json --lang en --target 1600` 追加，脚本回显当前计数与"还差多少"，**不够就再跑一轮同一 patch**（幂等，同段自动 skip）。凭"字数感"写常少 30~40%，必须看回显再决定补不补。
+- `--lang` 必须显式传：漏传会把英文段写进 `body.zh`，直接触发 `lang-leak`，需手工摘除。
+
+**2026-11-25 实战补丁（都是踩过才加的）**
+
+1. **FAQ 小节 body 不判缺语种**：FAQ 的正文来源是 `sections[].faqItems`，渲染按语种生成；按 `body` 判定会造出"假 BLOCK"（曾一次冒出 2 篇）。
+2. **U+FFFD 乱码升级为 BLOCK**：批量写入丢字时 json 仍合法、页面却显示"�"，只查字段查不出来；`encoding` 分类专门抓它（本轮修掉 6 个文件）。
+3. **认证表述只能短语级替换**：整句模板批量替换会连 `heading` 和 HTML 标签一起改，一次写坏五个语种的标题，只能 `git checkout` 回滚；正确做法是按语种替换核心断言短语（`ISO 9001:2015 certified` → `ISO 9001-aligned` 这类）。
+4. **提交按语种/主题分批**：161 个文件一次性提交会触发批量改动告警，也会把别处窗口的改动裹进来。
 
 **事实纪律（按项目尺度掌握，不必过度考据）**：标准编号、等级对应、螺纹规格这类"写错就等于错货"的对应关系必须准确；价格、产量、失效比例这类市场数字给区间、注明"参考值，以项目实测为准"即可，不用逐条标来源。原则是宁可少写一个数字，也不要把对应关系写反。
 

@@ -65,6 +65,28 @@ MIN_EN_BODY_WORDS = 1600
 MIN_FAQ = 3
 MIN_FAQ_ANSWER = 80
 
+# 认证断言（2026-11-25 口径）：TradeGo 目前不持有 ISO 9001 / CE / SABS。
+# 文案只能写"按 X 尺寸标准生产""认证可按订单申请办理"，不得写成已有资质。
+# 这里拦两类：①第一人称自称已认证 ②把"认证 + 工厂/供应商"当成自有资质讲。
+CERT_CLAIM_PATTERNS = [
+    re.compile(r"(?:we|our\s+(?:factory|plant|company|mill|production)|TradeGo)[^.]{0,40}(?:ISO\s?9001|SABS|CE)\s*(?:-|\s|:)?\s*(?:certified|approved|認証|认证|認證|certificat[oe]s?|zertifiziert|प्रमाणित|معتمد|сертифиц\w*)", re.I),
+    re.compile(r"(?:ISO\s?9001|SABS|CE)[^.]{0,20}(?:certified|认证|認証)\s*(?:factory|manufacturer|supplier|plant|厂家|工厂|供应商|工場|usine|fábrica|завод|مصنع)", re.I),
+]
+CERT_ALLOW_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "content", "cert-claim-allowlist.json")
+_CERT_ALLOW_CACHE = None
+
+
+def cert_allow_slugs():
+    """存量已命中的文章先记进 allowlist（降级 WARN），新出现的断言一律 BLOCK。"""
+    global _CERT_ALLOW_CACHE
+    if _CERT_ALLOW_CACHE is None:
+        try:
+            with open(os.path.abspath(CERT_ALLOW_FILE), encoding="utf-8") as f:
+                _CERT_ALLOW_CACHE = set(json.load(f).get("slugs", []))
+        except Exception:
+            _CERT_ALLOW_CACHE = set()
+    return _CERT_ALLOW_CACHE
+
 STRICT = False  # --strict 时把 body 体量等"历史资产容忍项"升级为 BLOCK
 
 
@@ -196,11 +218,37 @@ def check_article(path, project_dir):
             d = json.load(f)
     except Exception as e:
         issues.b("json", f"JSON 解析失败: {e}")
-        return slug_file, issues, False
+        # 10. 认证断言：不得写成"已有资质"
+    allow = cert_allow_slugs()
+    for path, text in walk_leaves(d):
+        if not isinstance(text, str):
+            continue
+        for pat in CERT_CLAIM_PATTERNS:
+            m = pat.search(text)
+            if not m:
+                continue
+            msg = f"{path} 出现已持有认证的断言: '{m.group(0)[:60]}'"
+            if slug_file in allow:
+                issues.w("cert-claim", "[存量] " + msg)
+            else:
+                issues.b("cert-claim", msg)
+            break
+
+    return slug_file, issues, False
 
     # 0. 重定向存根：只剩跳转信息，不参与内容契约
     if norm(d.get("redirectTo", "")):
         return slug_file, issues, True
+
+    # 0.1 编码完整性：U+FFFD 替换字符说明批量写入时已丢字，页面直接显示乱码
+    try:
+        with open(path, encoding="utf-8") as f:
+            raw = f.read()
+    except Exception:
+        raw = ""
+    if "\ufffd" in raw:
+        n_bad = raw.count("\ufffd")
+        issues.b("encoding", f"U+FFFD 乱码字符 {n_bad} 处（批量写坏，需按上下文修回）")
 
     # 1. 结构 & slug
     if norm(d.get("slug", "")) != slug_file:

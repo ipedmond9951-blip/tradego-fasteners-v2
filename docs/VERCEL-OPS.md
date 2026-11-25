@@ -378,3 +378,11 @@ curl -s "https://api.vercel.com/v4/aliases?limit=100" -H "Authorization: Bearer 
 
 线上实测两处：`en/ar` 页底部 CTA 直接显示 `Need {topic} for your B2B project?`（4 篇文章的 `cta.text` 带未替换占位符）；188 篇文章的 `cta.buttonText` 在 ar/ru/hi 里是英文 `Request Quote`，非英语页出现英文按钮。
 口径统一到和 FAQ 一致：该语种值等于 en 视为缺失、含 `{topic}` 视为不可用，一律回落 `uiCopy.articleCta` 的本地化通用文案。抽检脚本新增 `{topic}` 残留断言。
+
+## 变更记录 2026-11-25（预算闸门 fail-open 事故）
+
+- **事故**：当日真实构建 10 次（预算 3），`deploy-budget.sh` 全程打印"预算内，放行"。
+- **根因**：① Vercel `GET /v6/deployments?projectId=...`（含加 `teamId`）对 CLI token 返回 403，`api_count` 为 None；② 拦截条件写成 `if api_count is not None and count >= limit`，读不到就跳过 —— 典型 fail-open。
+- **修复**：拦截改为只看 `count >= limit`；新增 `scripts/vercel_deployments.py`（全量拉取 + 本地按 projectId/name 过滤，输出与 API 同形），promote / promote-wait / prune / _prev-prod-sha / audit / ledger sync 全部改走它。
+- **防复发**：新增 `scripts/vercel-gate-selftest.sh`（预算=0 必须拦、预算放大必须放、`DEPLOY_FORCE` 必须放、取数脚本可用、pre-push 已挂载），作为审计第 10 项；护栏脚本每次改动都必须跑。
+- **铁律**：护栏里"读不到上游数据就放行"的分支等于没有护栏；取数失败只能影响"能否看到别人的推送"，不能影响"我自己能不能推"。

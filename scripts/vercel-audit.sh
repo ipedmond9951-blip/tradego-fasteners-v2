@@ -52,13 +52,10 @@ git fetch -q origin main 2>/dev/null || true
 ORIGIN_SHA=$(git rev-parse origin/main 2>/dev/null || echo "")
 HEAD_SHA=$(git rev-parse HEAD 2>/dev/null || echo "")
 
-DATA=$(python3 - "$AUTH" "$PROJECT_ID" <<'PY'
-import json, os, sys
-auth, pid = sys.argv[1], sys.argv[2]
-tok = json.load(open(auth))["token"]
-import subprocess, sys as _sys
-helper = os.path.join(os.path.dirname(os.path.abspath(__file__)), "vercel_deployments.py")
-d = json.loads(subprocess.check_output([_sys.executable, helper, "--limit", "20"], timeout=25))
+DATA=$(python3 - "$AUTH" "$PROJECT_ID" "$PWD/scripts/vercel_deployments.py" <<'PY'
+import json, subprocess, sys
+auth, pid, helper = sys.argv[1], sys.argv[2], sys.argv[3]
+d = json.loads(subprocess.check_output([sys.executable, helper, "--limit", "20"], timeout=25))
 out = []
 for x in d.get("deployments", []):
     m = x.get("meta") or {}
@@ -111,7 +108,7 @@ echo "$STATS" | grep "^CLI" | while read -r _ sha when; do echo "      违规部
 
 # 平台侧硬约束：项目只允许 git 来源部署生产（设置了才真正堵死 CLI/REST API）
 POLICY=$(python3 - "$AUTH" "$PROJECT_ID" <<'PY'
-import json, os, sys
+import json, sys, urllib.request
 auth, pid = sys.argv[1], sys.argv[2]
 tok = json.load(open(auth))["token"]
 req = urllib.request.Request("https://api.vercel.com/v9/projects/%s" % pid,
@@ -223,6 +220,18 @@ $ROUT"
   fi
 else
   pass "多语种渲染抽检已跳过（AUDIT_RENDER=0）"
+fi
+
+# --- 10. 护栏自检（闸门必须真的拦得住，而不是永远打印"放行"）---
+if [ "${AUDIT_SELFTEST:-1}" = "1" ] && [ -x scripts/vercel-gate-selftest.sh ]; then
+  if OUT=$(bash scripts/vercel-gate-selftest.sh 2>&1); then
+    pass "护栏自检通过（预算拦截/放行/逃生口/取数/钩子 5 项）"
+  else
+    issue "护栏自检失败：
+$OUT"
+  fi
+else
+  pass "护栏自检已跳过（AUDIT_SELFTEST=0）"
 fi
 
 # --- 记录 ---
