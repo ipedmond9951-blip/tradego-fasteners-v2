@@ -347,7 +347,8 @@
             "ar": "هل مسامير DIN وISO قابلة للتبديل؟",
             "es": "¿Son intercambiables las fijaciones DIN e ISO?",
             "fr": "Les fixations DIN et ISO sont-elles interchangeables ?",
-            "pt": "Fixadores DIN e ISO são intercambiáveis?"
+            "pt": "Fixadores DIN e ISO são intercambiáveis?",
+            "de": "Sind DIN- und ISO-Befestigungsteile austauschbar?"
           },
           "a": {
             "en": "Yes, in most cases. DIN and ISO hex bolt standards are dimensionally identical. A DIN 931 bolt will fit an ISO 4014 application. However, always verify the property class and coating match the engineering specification.",
@@ -357,7 +358,8 @@
             "ar": "نعم في معظم الحالات. معايير البراغي سداسية الرأس من DIN وISO متطابقة الأبعاد، فبرغي DIN 931 يناسب تطبيق ISO 4014. ومع ذلك تحقق دائماً من مطابقة فئة الخواص والطلاء لمواصفة الهندسة قبل الاعتماد.",
             "es": "Sí, en la mayoría de los casos. Las normas DIN e ISO de perno hexagonal son dimensionalmente idénticas. Un perno DIN 931 encaja en una aplicación ISO 4014. Sin embargo, verifique siempre que la clase de propiedad y el recubrimiento coincidan con la especificación de ingeniería. La dimensión es común, pero la resistencia y el recubrimiento deben revisarse.",
             "fr": "Oui, dans la plupart des cas. Les normes de boulon hexagonal DIN et ISO sont dimensionnellement identiques. Un boulon DIN 931 convient à une application ISO 4014. Vérifiez cependant toujours que la classe de propriété et le revêtement correspondent à la spécification d'ingénierie. La dimension commune ne dispense pas du contrôle de grade. Le montage associe boulon et écrou de même classe. Une référence croisée se fait sur le dessin technique.",
-            "pt": "Na maioria dos casos sim. As normas de parafuso sextavado DIN e ISO são dimensionalmente idênticas. Um parafuso DIN 931 serve em uma aplicação ISO 4014. Porém, verifica-se sempre se a classe de propriedade e o revestimento batem com a especificação de engenharia. A intercambiabilidade dimensional não cobre diferença de classe ou tratamento de superfície."
+            "pt": "Na maioria dos casos sim. As normas de parafuso sextavado DIN e ISO são dimensionalmente idênticas. Um parafuso DIN 931 serve em uma aplicação ISO 4014. Porém, verifica-se sempre se a classe de propriedade e o revestimento batem com a especificação de engenharia. A intercambiabilidade dimensional não cobre diferença de classe ou tratamento de superfície.",
+            "de": "In den meisten Fällen ja. Die Sechskantschrauben-Normen von DIN und ISO sind maßlich identisch; eine DIN-931-Schraube passt in eine ISO-4014-Anwendung. Dennoch sind Festigkeitsklasse und Beschichtung stets mit der technischen Spezifikation abzugleichen."
           }
         },
         {
@@ -369,7 +371,8 @@
             "ar": "ما فئة الخواص المناسبة للفولاذ الإنشائي في أفريقيا؟",
             "es": "¿Qué clase de propiedad uso para acero estructural en África?",
             "fr": "Quelle classe pour l'acier de construction en Afrique ?",
-            "pt": "Que classe de propriedade usar em aço estrutural na África?"
+            "pt": "Que classe de propriedade usar em aço estrutural na África?",
+            "de": "Welche Festigkeitsklasse für Baustahl in Afrika?"
           },
           "a": {
             "en": "Property class 10.9 (ISO) or 8.8 (DIN) is standard for structural steel connections in most African building codes. For coastal or high-humidity environments, specify hot-dip galvanized 10.9 bolts. Always consult local SABS or equivalent standards.",
@@ -379,7 +382,8 @@
             "ar": "فئة الخواص 10.9 وفق ISO أو 8.8 وفق DIN قياسية للوصلات الفولاذية الإنشائية في معظم أكواد البناء الأفريقية. وللبيئات الساحلية أو عالية الرطوبة حدد براغي 10.9 مجلفنة بالغمس الساخن. وراجع معايير SABS المحلية أو ما يعادلها حسب بلد المشروع.",
             "es": "La clase de propiedad 10.9 (ISO) o 8.8 (DIN) es estándar para uniones de acero estructural en la mayoría de los códigos africanos de construcción. En ambientes costeros o de alta humedad, especifique pernos 10.9 galvanizados en caliente. Consulte la norma local pertinente o su equivalente. El recubrimiento acompaña al grado según la exposición.",
             "fr": "La classe 10.9 (ISO) ou 8.8 (DIN) est standard pour les liaisons d'acier de construction dans la plupart des codes du bâtiment africains. Pour les milieux côtiers ou très humides, spécifiez des boulons 10.9 galvanisés à chaud. Consultez toujours les normes SABS locales ou équivalentes. Le grade suit la charge et la conception de la liaison. L'exposition au sel impose la protection adaptée.",
-            "pt": "A classe 10.9, ISO, ou 8.8, DIN, é padrão para conexões de aço estrutural na maioria dos códigos africanos de edificação. Em ambientes costeiros ou de alta umidade, especificam-se parafusos 10.9 galvanizados a quente. Consultam-se as normas locais SABS ou equivalentes para o projeto. A classe é conferida na cabeça e no certificado do lote estrutural."
+            "pt": "A classe 10.9, ISO, ou 8.8, DIN, é padrão para conexões de aço estrutural na maioria dos códigos africanos de edificação. Em ambientes costeiros ou de alta umidade, especificam-se parafusos 10.9 galvanizados a quente. Consultam-se as normas locais SABS ou equivalentes para o projeto. A classe é conferida na cabeça e no certificado do lote estrutural.",
+            "de": "Klasse 10.9 (ISO) beziehungsweise 8.8 (DIN) ist in den meisten Bauregelwerken für Stahlbaubindungen üblich. Für Küsten- oder hohe Feuchtigkeit sind feuerverzinkte 10.9-Schrauben vorzusehen; die örtliche SABS- oder vergleichbare Norm ist jeweils zu berücksichtigen."
           }
         },
         {
@@ -391,7 +395,8 @@
             "ar": "هل يمكن خلط صواميل DIN مع صواميل ISO؟",
             "es": "¿Puedo usar pernos DIN con tuercas ISO?",
             "fr": "Peut-on associer des boulons DIN à des écrous ISO ?",
-            "pt": "Posso usar parafuso DIN com porca ISO?"
+            "pt": "Posso usar parafuso DIN com porca ISO?",
+            "de": "Darf man DIN-Schrauben mit ISO-Muttern kombinieren?"
           },
           "a": {
             "en": "Yes, DIN 934 nuts and ISO 4032 nuts are dimensionally identical and fully interchangeable. The same applies to washers (DIN 125 / ISO 7089). Mixing DIN and ISO components from the same property class is standard industry practice.",
@@ -401,7 +406,8 @@
             "ar": "نعم، صامولة DIN 934 وصامولة ISO 4032 متطابقتان الأبعاد وقابلتان للتبديل بالكامل، وكذلك الغسالات DIN 125 وISO 7089. ويعتبر خلط مكونات DIN وISO من نفس فئة الخواص ممارسة قياسية في الصناعة.",
             "es": "Sí, las tuercas DIN 934 e ISO 4032 son dimensionalmente idénticas y totalmente intercambiables. Lo mismo ocurre con las arandelas (DIN 125 / ISO 7089). Mezclar componentes DIN e ISO de la misma clase de propiedad es práctica habitual del sector. El juego se revisa por clase y tolerancia de rosca.",
             "fr": "Oui, les écrous DIN 934 et ISO 4032 sont dimensionnellement identiques et pleinement interchangeables. Il en va de même pour les rondelles (DIN 125 / ISO 7089). Associer des composants DIN et ISO d'une même classe de propriété est une pratique courante du secteur. L'ajustement fileté reste vérifié à la réception. La compatibilité dimensionnelle ne remplace pas la cohérence de grade. Une paire boulon-écrou se contrôle sur le montage.",
-            "pt": "Sim, as porcas DIN 934 e ISO 4032 são dimensionalmente idênticas e totalmente intercambiáveis. O mesmo vale para as arruelas, DIN 125 / ISO 7089. Misturar componentes DIN e ISO de uma mesma classe de propriedade é prática padrão da indústria. O casamento de rosca e a classe continuam sendo conferidos na junta, independentemente da norma de origem."
+            "pt": "Sim, as porcas DIN 934 e ISO 4032 são dimensionalmente idênticas e totalmente intercambiáveis. O mesmo vale para as arruelas, DIN 125 / ISO 7089. Misturar componentes DIN e ISO de uma mesma classe de propriedade é prática padrão da indústria. O casamento de rosca e a classe continuam sendo conferidos na junta, independentemente da norma de origem.",
+            "de": "Ja, DIN-934- und ISO-4032-Muttern sind maßlich gleich und voll austauschbar, ebenso Unterlegscheiben (DIN 125 / ISO 7089). Das Mischen von DIN- und ISO-Teilen gleicher Festigkeitsklasse ist branchenüblich."
           }
         }
       ],
