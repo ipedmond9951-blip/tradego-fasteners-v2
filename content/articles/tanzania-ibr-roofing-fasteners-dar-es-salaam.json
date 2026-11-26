@@ -209,7 +209,8 @@
             "es": "¿Clavo o tornillo para un techo de almacén en Dar es Salaam?",
             "fr": "Clou ou vis pour le toit d'un entrepôt de Dar es Salaam ?",
             "pt": "Prego ou parafuso para cobertura de galpão em Dar es Salaam?",
-            "de": "Nagel oder Schraube für ein Dachlager in Daressalam?"
+            "de": "Nagel oder Schraube für ein Dachlager in Daressalam?",
+            "ja": "ダルエスサラームの倉庫屋根には釘とねじのどちらですか？"
           },
           "a": {
             "en": "Screws with EPDM washers where the roof must stay watertight and last, which is most coastal warehouses. Nails suit short-span sheltered roofs and repairs where cost dominates and call-backs are acceptable.",
@@ -220,7 +221,8 @@
             "es": "Tornillos con arandela EPDM donde el techo debe quedar estanco y durar, que es la mayoría de almacenes costeros. Los clavos van en techos protegidos de poca luz y reparaciones donde manda el costo y se aceptan intervenciones de vuelta. La estanqueidad y la vida útil deciden entre uno y otro tipo.",
             "fr": "Vis avec rondelle EPDM lorsque le toit doit rester étanche et durable, ce qui est le cas de la plupart des entrepôts côtiers. Les clous conviennent aux toits abrités de courte portée et aux réparations où le coût domine et les reprises sont acceptables. L'étanchéité attendue guide le choix.",
             "pt": "Parafusos com arruela EPDM onde a cobertura deve permanecer estanque e durar, que é a maioria dos galpões costeiros. Os pregos servem telhados de vão curto protegidos e reparos onde o custo pesa e retrabalhos são aceitáveis. O tipo segue a exposição e a durabilidade exigida, e a arruela é conferida no material.",
-            "de": "Schrauben mit EPDM-Scheiben dort, wo das Dach dicht bleiben und halten soll, was die meisten Küstenlager betrifft. Nägel passen für kurz gespannte, geschützte Dächer und Reparaturen, wo der Kostenaspekt dominiert und Rückrufe hinnehmbar sind."
+            "de": "Schrauben mit EPDM-Scheiben dort, wo das Dach dicht bleiben und halten soll, was die meisten Küstenlager betrifft. Nägel passen für kurz gespannte, geschützte Dächer und Reparaturen, wo der Kostenaspekt dominiert und Rückrufe hinnehmbar sind.",
+            "ja": "防水性を保ち長持ちさせる必要がある屋根、つまり海岸沿いの多くの倉庫には、EPDM 座金付きのねじが適します。釘は短いスパンの囲われた屋根や、費用が優先され手直しを許容できる補修に適します。屋根の用途と環境を踏まえて留め付け方法を選んでください。"
           }
         },
         {
@@ -233,7 +235,8 @@
             "es": "¿Qué recubrimiento para el aire costero cargado de sal?",
             "fr": "Quel revêtement pour l'air côtier chargé en sel ?",
             "pt": "Que revestimento para ar costeiro carregado de sal?",
-            "de": "Welche Beschichtung für salzhaltige Küstenluft?"
+            "de": "Welche Beschichtung für salzhaltige Küstenluft?",
+            "ja": "塩分を含む海岸の空気にはどの被膜が適しますか？"
           },
           "a": {
             "en": "Ruspert or HDG-coated screws, and stainless where the budget allows. Dar es Salaam's chloride load means thin zinc washers and plain screws fail early, often within the first rainy seasons.",
@@ -244,7 +247,8 @@
             "es": "Tornillos Ruspert o HDG, e inoxidable donde el presupuesto lo permita. La carga de cloruros de Dar es Salaam hace que las arandelas de zinc fino y los tornillos simples fallen temprano, a menudo en las primeras temporadas de lluvia. El ambiente salino exige un recubrimiento más grueso para que la fijación dure.",
             "fr": "Vis revêtues Ruspert ou HDG, et inox lorsque le budget le permet. La charge chlorée de Dar es Salaam fait que les rondelles en zinc mince et les vis simples lâchent tôt, souvent dès les premières saisons des pluies. Un revêtement adapté retient la fixation en milieu salin.",
             "pt": "Parafusos com revestimento Ruspert ou HDG, e inoxidável onde o orçamento permite. A carga de cloreto de Dar es Salaam faz arruelas de zinco fino e parafusos simples falharem cedo, muitas vezes nas primeiras estações chuvosas. A classe de revestimento segue a névoa salina, e a espessura é verificada no lote.",
-            "de": "Ruspert- oder HDG-beschichtete Schrauben, und Edelstahl wo es das Budget erlaubt. Die Chloridlast von Daressalam bedeutet, dass dünne Zinkscheiben und unbeschichtete Schrauben früh versagen, oft schon in den ersten Regenzeiten."
+            "de": "Ruspert- oder HDG-beschichtete Schrauben, und Edelstahl wo es das Budget erlaubt. Die Chloridlast von Daressalam bedeutet, dass dünne Zinkscheiben und unbeschichtete Schrauben früh versagen, oft schon in den ersten Regenzeiten.",
+            "ja": "ラスパートまたは HDG 被膜のねじ、予算が許せばステンレスを使います。ダルエスサラームの塩分負荷により、薄い亜鉛座金や無処理のねじは早く不具合を起こし、最初の雨季のうちに劣化することがよくあります。暴露環境に合わせて被膜と材料を選定してください。"
           }
         },
         {
@@ -257,7 +261,8 @@
             "es": "¿Cuántas fijaciones por metro cuadrado?",
             "fr": "Combien de fixations au mètre carré ?",
             "pt": "Quantos fixadores por metro quadrado?",
-            "de": "Wie viele Befestiger je Quadratmeter?"
+            "de": "Wie viele Befestiger je Quadratmeter?",
+            "ja": "平方メートル当たりの留め具は何本ですか？"
           },
           "a": {
             "en": "Fixing density follows the wind zone and purlin spacing, commonly several screws per square metre at sheet ends and fewer in the field. Ask for the pattern with the quote, because the density is what determines the real cost.",
@@ -268,7 +273,8 @@
             "es": "La densidad de fijación sigue la zona de viento y la separación de los purlines, normalmente varios tornillos por metro cuadrado en los extremos de chapa y menos en el campo. Pida el patrón junto con la cotización, porque la densidad es lo que determina el costo real. El espaciamiento se define por el viento y la estructura.",
             "fr": "La densité de fixation suit la zone de vent et l'entraînement des panneaux, typiquement plusieurs vis au mètre carré aux abouts de feuille et moins au champ. Demander le calepinage avec le devis, car c'est la densité qui détermine le coût réel. Le nombre de pièces conditionne la facture finale.",
             "pt": "A densidade de fixação segue a zona de vento e o espaçamento dos terçados, comumente vários parafusos por metro quadrado nas pontas das chapas e menos no campo. Pede-se o desenho de fixação junto com a cotação, pois a densidade é o que define o custo real. O padrão é conferido contra o projeto da cobertura.",
-            "de": "Die Befestigungsdichte richtet sich nach Windzone und Pfettenabstand, üblicherweise mehrere Schrauben je Quadratmeter an Blechenden und weniger im Feld. Das Muster ist mit dem Angebot abzufragen, denn die Dichte bestimmt die wirklichen Kosten."
+            "de": "Die Befestigungsdichte richtet sich nach Windzone und Pfettenabstand, üblicherweise mehrere Schrauben je Quadratmeter an Blechenden und weniger im Feld. Das Muster ist mit dem Angebot abzufragen, denn die Dichte bestimmt die wirklichen Kosten.",
+            "ja": "留め付け密度は風の区域と母屋の間隔に従い、一般にシート端部には平方メートル当たり複数本、中間部は少なくなります。密度が実際の費用を決めるため、見積もりとともに配置パターンを求めてください。風圧と下地の間隔を確認して本数を算出します。配置図を確認し、端部と中間の本数を仕様に反映してください。"
           }
         }
       ]
