@@ -267,7 +267,8 @@
             "ru": "Можно ли крепить алюминиевую кровлю нержавеющими винтами?",
             "ar": "هل أستطيع استخدام براغي ستانلس مع تسقيف الألمنيوم؟",
             "es": "¿Puedo usar tornillos de inoxidable con cubiertas de aluminio?",
-            "fr": "Puis-je utiliser des vis inox sur une couverture en aluminium ?"
+            "fr": "Puis-je utiliser des vis inox sur une couverture en aluminium ?",
+            "de": "Kann ich Edelstahlschrauben mit Aluminiumdachung verwenden?"
           },
           "a": {
             "en": "In coastal African environments, using stainless steel screws with aluminum roofing is risky. Stainless steel (especially 304/316 passive) is more noble than aluminum, meaning in the presence of saltwater, the aluminum will corrode preferentially — potentially around the screw holes, causing roof leaks and structural weakness. Use aluminum or polymer-coated fasteners specifically designed for aluminum roofing. In inland dry environments, the risk is much lower, but isolation washers are still recommended.",
@@ -276,7 +277,8 @@
             "ru": "В прибрежной африканской среде такая пара рискованная: пассивная нержавейка, особенно 304/316, благороднее алюминия, и в солёной воде алюминий корродирует первым — обычно вокруг винтовых отверстий, откуда идут протечки и потеря несущей способности. Для алюминиевой кровли берут алюминиевый крепёж или винты с полимерным покрытием. В сухом районе риск ниже, но изолирующие шайбы всё равно рекомендуются.",
             "ar": "في البيئات الساحلية الأفريقية يحمل مزيج براغي الستانلس مع تسقيف الألمنيوم مخاطرة. فالستانلس 304/316 السالب أكثر نبلاً من الألمنيوم، ومع وجود ماء الملح يتآكل الألمنيوم أولاً، وقد يبدأ حول ثقوب البراغي مسبباً تسرب السقف وضعفاً إنشائياً. استخدم مثبتات ألمنيوم أو مثبتات مغلفة بالبوليمر مصممة خصيصاً لتسقيف الألمنيوم. وفي البيئات الداخلية الجافة تنخفض المخاطرة كثيراً، لكن يُنصح بغسالات عازلة رغم ذلك.",
             "es": "Lo que resulta arriesgado en la costa es mezclar inoxidable con aluminio, porque el inoxidable pasivo 304/316 es más noble. Con agua salada, el aluminio se corroe alrededor de los taladros y salen fugas. Use piezas de aluminio o recubiertas de polímero; en el secano el riesgo es menor, aunque convenga una arandela de aislamiento.",
-            "fr": "En milieu côtier africain, utiliser des vis inox sur une toiture en aluminium est risqué. L'inox 304/316 passif est plus noble que l'aluminium : en présence d'eau salée, l'aluminium se corrode en priorité autour des trous de vis, causant fuites et faiblesse structurelle. Utilisez des fixations en aluminium ou revêtues polymère, conçues pour la toiture aluminium."
+            "fr": "En milieu côtier africain, utiliser des vis inox sur une toiture en aluminium est risqué. L'inox 304/316 passif est plus noble que l'aluminium : en présence d'eau salée, l'aluminium se corrode en priorité autour des trous de vis, causant fuites et faiblesse structurelle. Utilisez des fixations en aluminium ou revêtues polymère, conçues pour la toiture aluminium.",
+            "de": "In Küstengebieten Afrikas ist die Kombination von Edelstahlschrauben mit Aluminiumdachung riskant. Edelstahl, besonders passiver 304/316, ist edler als Aluminium, so dass bei Salzfeuchte das Aluminium bevorzugt korrodiert, etwa rund um die Schraublöcher. Für Aluminiumdachungen sind Befestigungsmittel aus Aluminium oder mit Polymerbeschichtung zu nutzen. Im trockenen Binnenland ist das Risiko geringer, doch Isolationsscheiben sind zu empfehlen."
           }
         },
         {
@@ -287,7 +289,8 @@
             "ru": "Почему болт с горячим цинкованием ржавеет рядом с нержавейкой?",
             "ar": "لماذا يصدأ برغي HDG عند استخدامه مع الستانلس؟",
             "es": "¿Por qué se oxida un perno galvanizado junto a acero inoxidable?",
-            "fr": "Pourquoi mon boulon HDG rouille-t-il avec de l'inox ?"
+            "fr": "Pourquoi mon boulon HDG rouille-t-il avec de l'inox ?",
+            "de": "Warum rostet mein HDG-Bolzen mit Edelstahl zusammen?"
           },
           "a": {
             "en": "HDG (hot-dip galvanized) bolts have an anodic index around -1.05 to -1.20V, while passive stainless steel 304/316 is around -0.10 to -0.20V. The HDG bolt is much more active, meaning it will corrode preferentially when coupled with stainless steel in the presence of an electrolyte. This is actually the desired behavior in some applications (HDG sacrifices itself to protect the stainless), but if you want the HDG bolt to last, they should be isolated with a non-conductive washer, or a stainless steel bolt should be used instead.",
@@ -296,7 +299,8 @@
             "ru": "У горячеоцинкованного (HDG) болта анодный индекс около -1.05 до -1.20 В, а у пассивной нержавейки 304/316 — около -0.10 до -0.20 В. HDG заметно активнее, и в присутствии электролита именно он корродирует первым при паре с нержавейкой. В некоторых задачах это полезно: цинк жертвует собой, защищая сталь. Но если срок службы HDG-болта важен, пару разделяют непроводящей шайбой либо вместо него ставят болт из нержавейки.",
             "ar": "براغي الجلفنة بالغمس الساخن HDG ذات جهد قطبي نحو -1.05 إلى -1.20 فولت، بينما الستانلس السالب 304/316 نحو -0.10 إلى -0.20 فولت. وبرغي HDG أكثر نشاطاً، فيتآكل أولاً عند اقترانه بالستانلس في وجود إلكتروليت. وهذا سلوك مرغوب في بعض التطبيقات حيث يضحي HDG بحماية الستانلس، لكن إن أردت بقاء برغي HDG طويلاً فعزله بغسالة غير موصلة، أو استخدم برغي ستانلس بدلاً منه.",
             "es": "Lo que pasa es que el galvanizado es más activo: su índice anódico está en -1.05 a -1.20 V, frente a -0.10 a -0.20 V del inoxidable 304/316. Con electrolito, el galvanizado se corroe primero y puede llegar a proteger el inoxidable. Si quiere que dure, aísle con una arandela no conductora o cambie el perno por uno de inoxidable.",
-            "fr": "Les boulons HDG ont un indice anodique autour de -1,05 à -1,20 V, tandis que l'inox passif 304/316 est autour de -0,10 à -0,20 V. Le boulon HDG est beaucoup plus actif, donc il se corrode en priorité couplé à l'inox en présence d'un électrolyte. C'est parfois le comportement recherché : le HDG se sacrifie pour protéger l'inox. Mais si vous voulez que le boulon HDG dure, isolez-le avec une rondelle non conductrice, ou utilisez un boulon inox."
+            "fr": "Les boulons HDG ont un indice anodique autour de -1,05 à -1,20 V, tandis que l'inox passif 304/316 est autour de -0,10 à -0,20 V. Le boulon HDG est beaucoup plus actif, donc il se corrode en priorité couplé à l'inox en présence d'un électrolyte. C'est parfois le comportement recherché : le HDG se sacrifie pour protéger l'inox. Mais si vous voulez que le boulon HDG dure, isolez-le avec une rondelle non conductrice, ou utilisez un boulon inox.",
+            "de": "HDG-Bolzen, also feuerverzinkte Bolzen, haben einen Anodenindex von etwa -1.05 bis -1.20 V, passiver Edelstahl 304/316 liegt bei -0.10 bis -0.20 V. Der HDG-Bolzen ist deutlich aktiver und korrodiert bei Kontakt mit Edelstahl unter einem Elektrolyten bevorzugt. Manchmal ist das gewünscht, da sich die Verzinkung opfert; soll der Bolzen aber lange halten, ist er mit einer nichtleitenden Scheibe zu isolieren oder durch Edelstahl zu ersetzen."
           }
         },
         {
@@ -307,7 +311,8 @@
             "ru": "Что такое белая ржавчина на оцинкованном крепеже?",
             "ar": "ما هو الصدأ الأبيض على المثبتات المجلفنة؟",
             "es": "¿Qué es el \"óxido blanco\" en las fijaciones galvanizadas?",
-            "fr": "Qu'est-ce que la rouille blanche sur les fixations galvanisées ?"
+            "fr": "Qu'est-ce que la rouille blanche sur les fixations galvanisées ?",
+            "de": "Was ist Weißrost auf verzinkten Befestigungsmitteln?"
           },
           "a": {
             "en": "White rust is zinc oxide/hydroxide — the corrosion product of hot-dip galvanized zinc coating. It appears as white powdery deposits on the surface, especially when galvanized parts are stored wet or stacked wet. While white rust is not structurally dangerous (the underlying zinc still provides protection), it indicates improper storage. To prevent white rust: keep HDG fasteners dry during storage; separate stacked items with wooden dunnage to allow air circulation; do not stack wet parts. If white rust has formed, remove it by wire brushing and the underlying zinc coating is still functional.",
@@ -316,7 +321,8 @@
             "ru": "Белая ржавчина — оксид и гидроксид цинка, продукт коррозии покрытия горячего цинкования (HDG). Она выглядит белым налётом и возникает, когда оцинкованные детали хранятся мокрыми или сложены влажными. Несущей опасности нет: цинк под ней ещё работает, но это признак неверного хранения. Держите крепёж сухим, между штабелями прокладывайте дерево для воздуха, влажные детали в стопку не кладите; налёт снимают щёткой, покрытие под ним рабочее.",
             "ar": "الصدأ الأبيض هو أكسيد وهيدروكسيد الزنك، ناتج تآكل طلاء الزنك بالجلفنة الساخنة، ويظهر ترسباً مسحوقياً أبيض على السطح، خصوصاً عند تخزين القطع المجلفنة رطبة أو تكديسها رطبة. وهو ليس خطراً إنشائياً، فالزنك تحت السطح لا يزال واقياً، لكنه يدل على سوء التخزين. ولمنعه أبقِ مثبتات HDG جافة في المخزن، وافصل القطع المكدسة برافدة خشبية تسمح بمرور الهواء، ولا تكدس قطعاً رطبة. وإن تكون الصدأ الأبيض فأزلته بالفرشاة السلكية، ويبقى طلاء الزنك تحتها صالحاً.",
             "es": "Lo que se ve como polvo blanco es óxido o hidróxido de zinc del galvanizado, sobre todo al guardar piezas mojadas. No pone en peligro la estructura, porque el zinc sigue protegiendo, pero indica mal almacenamiento. Mantenga las piezas secas, separe las pilas con madera que deje aire y no apile mojado; si sale, retirelo con cepillo de alambre.",
-            "fr": "La rouille blanche est l'oxyde ou hydroxyde de zinc : le produit de corrosion du zinc galvanisé à chaud. Elle apparaît en dépôts poudreux blancs en surface, surtout quand les pièces sont stockées mouillées ou empilées humides. Sans danger structurellement, car le zinc de dessous protège encore, elle signale un mauvais stockage."
+            "fr": "La rouille blanche est l'oxyde ou hydroxyde de zinc : le produit de corrosion du zinc galvanisé à chaud. Elle apparaît en dépôts poudreux blancs en surface, surtout quand les pièces sont stockées mouillées ou empilées humides. Sans danger structurellement, car le zinc de dessous protège encore, elle signale un mauvais stockage.",
+            "de": "Weißrost ist Zinkoxid beziehungsweise Zinkhydroxid, das Korrosionsprodukt der verzinkten Zinkschicht. Er erscheint als weißer, pulvriger Belag, wenn Teile feucht gelagert oder gestapelt werden. Er ist statisch nicht gefährlich, das Zink schützt weiter, zeigt aber unsachgemäße Lagerung. HDG-Teile sind trocken zu lagern und mit Holzunterlagen zu stapeln. Weißrost wird mit Drahtbürste entfernt, die Zinkschicht bleibt funktionsfähig."
           }
         }
       ],
