@@ -245,7 +245,8 @@
             "es": "¿Cómo fijo la longitud de empotramiento de un perno en J?",
             "fr": "Comment fixer la longueur d'encastrement d'un boulon en J ?",
             "pt": "Como definir o comprimento de embebição de um parafuso J?",
-            "de": "Wie legt man die Einbettlänge eines J-Bolzens fest?"
+            "de": "Wie legt man die Einbettlänge eines J-Bolzens fest?",
+            "ja": "J ボルトの埋め込み長さはどのように決めますか？"
           },
           "a": {
             "en": "Embedment is set by the structural design, usually several times the bolt diameter, and the total length equals embedment plus fixture thickness plus thread and hook allowance. Order by total length and stated embedment, not by an overall size alone.",
@@ -256,7 +257,8 @@
             "es": "El empotramiento lo fija el diseño estructural, normalmente varias veces el diámetro del perno, y la longitud total es empotramiento más grosor del accesorio más margen de rosca y gancho. Pida por la longitud total y el empotramiento indicado, no solo por un tamaño global. La orden debe reflejar ambas medidas para el montaje.",
             "fr": "L'encastrement est fixé par la conception structurelle, généralement plusieurs fois le diamètre du boulon, et la longueur totale vaut l'encastrement plus l'épaisseur de fixation plus la marge de filetage et de crochet. Commandez par longueur totale et encastrement déclaré, non par une taille globale seule. Le dessin porte ces deux cotes. Un encastrement insuffisant réduit la tenue au tirant.",
             "pt": "A embebição é definida pelo projeto estrutural, normalmente várias vezes o diâmetro do parafuso, e o comprimento total equivale à embebição mais a espessura do fixativo, mais a folga de rosca e gancho. Pede-se pelo comprimento total e pela embebição declarada, não apenas por um tamanho global. O desenho da ancoragem define a profundidade e o gancho do parafuso J.",
-            "de": "Die Einbettlänge legt der Tragwerksentwurf fest, üblicherweise ein Mehrfaches des Bolzendurchmessers; die Gesamtlänge ergibt sich aus Einbettlänge plus Befestigungsdicke zuzüglich Gewinde- und Hakenanteil. Zu bestellen ist nach Gesamtlänge und angegebener Einbettlänge, nicht allein nach einer Gesamtgröße."
+            "de": "Die Einbettlänge legt der Tragwerksentwurf fest, üblicherweise ein Mehrfaches des Bolzendurchmessers; die Gesamtlänge ergibt sich aus Einbettlänge plus Befestigungsdicke zuzüglich Gewinde- und Hakenanteil. Zu bestellen ist nach Gesamtlänge und angegebener Einbettlänge, nicht allein nach einer Gesamtgröße.",
+            "ja": "埋め込み長さは構造設計によって決められ、通常はボルト径の数倍程度です。全長は埋め込み長さ、取り付ける部材の厚み、ねじ部とフックの余裕を合わせた長さとなります。発注する際は全体のサイズだけでなく、全長と指定された埋め込み長さを明示してください。仕様に合わせて図面や設計指示を確認することが重要です。"
           }
         },
         {
@@ -269,7 +271,8 @@
             "es": "¿Qué radio de gancho y calidad de doblado debo esperar?",
             "fr": "Quel rayon de crochet et quelle qualité de pliage attendre ?",
             "pt": "Que raio de gancho e qualidade de dobra esperar?",
-            "de": "Welcher Hakenradius und welche Biegequalität sind zu erwarten?"
+            "de": "Welcher Hakenradius und welche Biegequalität sind zu erwarten?",
+            "ja": "フックの半径と曲げ品質はどのようなものですか？"
           },
           "a": {
             "en": "The hook is bent cold to a radius of roughly two and a half to three times the bolt diameter, and the bend should show no cracks or thinning. A crack at the bend is the failure point in service, so ask for a bend inspection record.",
@@ -280,7 +283,8 @@
             "es": "El gancho se dobla en frío a un radio de unas dos y media a tres veces el diámetro del perno, y el doblado no debe mostrar grietas ni adelgazamiento. Una grieta en la curva es el punto de falla en servicio, así que pida un registro de inspección del doblado. La curva revisada evita roturas bajo carga.",
             "fr": "Le crochet est plié à froid sur un rayon d'environ deux fois et demie à trois fois le diamètre du boulon, et le pli ne doit montrer ni fissure ni amincissement. Une fissure au pli est le point de rupture en service, donc demandez un relevé d'inspection du cintrage. Le pliage à froid conserve la ductilité de l'acier. Un crochet trop serré crée une zone fragile. L'inspection repère les déformations visibles avant mise en place.",
             "pt": "O gancho é dobrado a frio com raio de cerca de duas vezes e meia a três vezes o diâmetro do parafuso, e a dobra não deve mostrar trinca ou afinamento. Uma trinca na dobra é o ponto de falha em serviço, por isso se pede registro de inspeção da dobra. A superfície dobrada é inspecionada na amostra, e qualquer rachadura rejeita o lote da ancoragem.",
-            "de": "Der Haken wird kalt auf einen Radius von etwa dem 2,5- bis 3-fachen Bolzendurchmesser gebogen; der Bogen darf keine Risse oder Dünnungen zeigen. Ein Riss am Bogen ist im Einsatz der Ausfallpunkt, daher ist ein Biegeprüfprotokoll anzufordern."
+            "de": "Der Haken wird kalt auf einen Radius von etwa dem 2,5- bis 3-fachen Bolzendurchmesser gebogen; der Bogen darf keine Risse oder Dünnungen zeigen. Ein Riss am Bogen ist im Einsatz der Ausfallpunkt, daher ist ein Biegeprüfprotokoll anzufordern.",
+            "ja": "フックは冷間で曲げられ、半径はボルト径の約 2.5〜3 倍程度です。曲げ部には亀裂や肉痩せがないことが求められます。曲げ部の亀裂は使用時の破損箇所となりやすいため、曲げ検査の記録を求めることをおすすめします。外観とともに曲げの状態を確認し、不具合のない製品を選定してください。"
           }
         },
         {
@@ -293,7 +297,8 @@
             "es": "¿Qué grado y recubrimiento para cerca y poste al exterior?",
             "fr": "Quel grade et revêtement pour clôture et poteaux extérieurs ?",
             "pt": "Qual classe e revestimento para cerca e poste externos?",
-            "de": "Welche Güte und Beschichtung für Zaun- und Pfostenarbeit?"
+            "de": "Welche Güte und Beschichtung für Zaun- und Pfostenarbeit?",
+            "ja": "屋外の柵や柱の工事にはどの等級と表面処理が適しますか？"
           },
           "a": {
             "en": "ASTM A307 or ISO 898-1 class 4.6 and 4.8 cover most general work, with higher grades only where the design demands them. Hot-dip galvanising to ISO 1461 suits exposed and coastal sites, and the coating must survive the bend.",
@@ -304,7 +309,8 @@
             "es": "ASTM A307 o clase 4.6 y 4.8 según ISO 898-1 cubren la mayor parte del trabajo general, con grados mayores solo donde el diseño los exija. El galvanizado en caliente según ISO 1461 va en sitios expuestos y costeros, y el recubrimiento debe resistir el doblado. La protección se elige según la exposición de la obra.",
             "fr": "L'ASTM A307 ou la classe ISO 898-1 4.6 et 4.8 couvrent la plupart des travaux généraux, les grades supérieurs seulement là où la conception l'exige. La galvanisation à chaud selon ISO 1461 convient aux sites exposés et côtiers, et le revêtement doit résister au cintrage. Le milieu extérieur guide la protection de surface. Un acier non protégé rouille rapidement en extérieur. Vérifiez l'état de la couche après le pliage.",
             "pt": "ASTM A307 ou classe ISO 898-1 4.6 e 4.8 cobrem a maioria dos trabalhos gerais, com classes mais altas apenas onde o projeto as exige. A galvanização a quente conforme ISO 1461 serve a sítios expostos e costeiros, e o revestimento deve sobreviver à dobra. A classe segue a carga da estrutura, e a espessura do zinco é verificada no certificado do lote.",
-            "de": "ASTM A307 oder ISO 898-1 Klasse 4.6 und 4.8 decken die meisten allgemeinen Arbeiten ab, höhere Klassen nur wo der Entwurf es fordert. Feuerverzinkung nach ISO 1461 eignet sich für freiliegende und Küstenstandorte, und der Überzug muss den Bogen aushalten."
+            "de": "ASTM A307 oder ISO 898-1 Klasse 4.6 und 4.8 decken die meisten allgemeinen Arbeiten ab, höhere Klassen nur wo der Entwurf es fordert. Feuerverzinkung nach ISO 1461 eignet sich für freiliegende und Küstenstandorte, und der Überzug muss den Bogen aushalten.",
+            "ja": "一般的な用途には ASTM A307 または ISO 898-1 の 4.6 級、4.8 級が対応し、設計上必要な場合に限りより高い等級を選びます。屋外や海岸付近の環境には ISO 1461 に基づく溶融亜鉛めっきが適し、めっき被膜は曲げ後も健全である必要があります。使用環境と負荷を考慮して等級と処理を組み合わせてください。"
           }
         }
       ]
