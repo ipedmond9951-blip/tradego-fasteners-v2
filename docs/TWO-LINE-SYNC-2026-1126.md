@@ -268,3 +268,83 @@
 | `tanzania-dar-es-salaam-port-fastener-import-procedure` | ent 0.0 | 10 语种与 FAQ 均无标准号/尺寸/单位/百分比/交期（HS 7318 非识别前缀） |
 
 > 结论：`ent` 是每千词命中数，1600–2400 词文章要达 2.0 需 3–5 处可核实体；这 8 篇的可复用实体上限低于该门槛，**继续追这条指标只能靠造事实，按禁造口径停手**。
+
+## §8 B 线 R-T9p 上线窗口前分工与协调（2026-11-27 00:20 CST 写入）
+
+> A 线 11-26 23:44 那轮已把价格违规 42 处清到 0（`harare-fastener-distributor-supplier-guide` 11 语种、PT 正文市场规模数字）、认证 3 处清到 0（`fastener-supply-chain-africa-beira-corridor` 中/日、`angola-lng-project-fastener-procurement` 中），并称"下一轮做 45 篇 WARN 和 GEO 62–67 那批，等 B 线点头"。以下五条为本轮（R-T9p）约定。
+
+### 8.1 三篇已改篇目归档（A 线已改、B 线不得回写，累计 7 篇）
+
+| # | 文件 | A 线改动 | B 线规则 |
+|---|---|---|---|
+| 5 | `content/articles/harare-fastener-distributor-supplier-guide.json` | 价格 11 语种改结构口径 + PT 正文市场规模数字删除 | 保留现文，只补缺不覆盖 |
+| 6 | `content/articles/fastener-supply-chain-africa-beira-corridor.json` | 认证中/日改「按 SABS 1195/DIN/ISO 体系组织生产」 | 同上；日语句不动 |
+| 7 | `content/articles/angola-lng-project-fastener-procurement.json` | 认证中文句同上 | 同上 |
+
+- 按 `docs/seo-geo-main-owned-40-2026-1125.csv` 核对：**这三篇均属 A 区**（B 线本轮本就不碰 A 区）。
+- **请 A 线回一句确认归属**：若 A 线认为其中某篇已划归 B 区，B 线按上表「只补缺、不覆盖价格/认证口径」执行。
+- 前缀编号 1–4 仍为 §6-B.6 的 `china-hex-nuts-manufacturer`、`solar-panel-mounting-fasteners-africa`、`mining-fasteners-africa`、`durban-fastener-supplier`。
+
+### 8.2 本轮分工（45 篇 WARN + GEO 62–67 那批）
+
+- **A 区归 A 线、B 区归 B 线**，两边不重复派活；同篇同时改必撞车（§6-B.4 已写死）。
+- B 区 WARN 共 **44 篇**，本轮上限 **35 篇**（按 GEO 分从低到高、WARN 与低分重叠优先），**slug 清单见 8.3**。剩余 9 篇（见 8.4）留待下轮。
+- GEO 62–67 那批若含 A 区篇目，B 线不认领；B 线只认领上表 35 个 slug。
+
+### 8.3 B 线本轮认领清单（35 篇，请 A 线不要重复派活）
+
+1. `fastener-failure-analysis-case-studies`
+2. `kenya-east-africa-fastener-distribution-hub`
+3. `africa-railway-modernization-fastener-demand`
+4. `africa-oil-refinery-high-pressure-fastener-guide`
+5. `africa-wind-energy-fastener-grade-specifications`
+6. `tanzania-dar-es-salaam-port-fastener-import-procedure`
+7. `gaskets-specialty-washers-high-temp-guide`
+8. `zim-construction-threaded-rods-supplier-evaluation-cost-optimization`
+9. `zim-construction-u-bolts-spec-checklist-mill-cert-traceability`
+10. `wood-screws-machine-screws-furniture-guide`
+11. `zim-construction-lock-washers-tco-analysis-stress-cracking`
+12. `threaded-rod-applications-guide`
+13. `zim-construction-u-bolts-supplier-evaluation-galvanic-corrosion`
+14. `zimbabwe-fastener-supplier`
+15. `fastener-packaging-shipping-guide`
+16. `imperial-metric-hex-nut-export-guide`
+17. `fastener-material-selection-guide`
+18. `rivets-blind-rivets-guide`
+19. `tanzania-fastener-market-opportunities-2026`
+20. `kenya-mombasa-port-fastener-warehouse-guide`
+21. `emergency-2026-07-06-fastener-sourcing-guide`
+22. `africa-railway-sleeper-fastener-specification`
+23. `stainless-steel-hex-bolt-304-316-guide`
+24. `buy-construction-fasteners-wholesale-china`
+25. `fastener-testing-quality-certification`
+26. `madagascar-antananarivo-fastener-sourcing`
+27. `agrifastener-water-infrastructure`
+28. `africa-automotive-fastener-oem-sourcing`
+29. `zimbabwe-bulawayo-construction-hardware-supply`
+30. `lock-nuts-flange-nuts-vibration-proof-guide`
+31. `wind-power-machinery-high-strength-bolts-guide`
+32. `zim-construction-flat-washers-standard-explainer-lead-time`
+33. `fastener-glossary-africa-procurement`
+34. `zim-construction-anchor-bolts-rfq-template-corrosion-resistance`
+35. `green-building-fastener-requirements`
+
+### 8.4 B 线本轮不做（剩余 WARN 9 篇，下轮认领）
+
+`africa-fastener-market-opportunities-2026`、`china-fasteners-zimbabwe-procurement-guide`、`drc-diamond-mining-fasteners`、`ghana-fastener-market-guide`、`malawi-fastener-market-case-study`、`mining-fasteners-africa`、`solar-panel-mounting-fasteners-africa`、`china-hex-nuts-manufacturer`、`durban-fastener-supplier`（后 4 篇属 §6-B.6「A 线已改」清单，B 线只补缺；前 5 篇为昨夜在途篇，本轮不排）。
+
+### 8.5 §6-B.5 回填状态
+
+- 第 4 项（B 区 body 改造清单）**作废不用回**：B 线 R-T9o 已完成 83 篇 + 19 条入站链（`TWO-LINE-SYNC` §7）。
+- 剩 4 项（12 篇未提交清单 / C2 港口名取舍 / 减页 slug / 那 4 篇 diff 确认）请在 **09:00 `deploy-flush` 之前**回；回不了按 §6-B 默认动作走（B 线不催、不空转）。
+
+### 8.6 上线协调（09:00–11:00 deploy-flush）
+
+1. B 线 **08:00 CST 硬冻结**全部 commit（07:00 停止开新篇），冻结后不再写仓库。
+2. A 线在 09:00 推之前请跑一次 `python3 scripts/content_gate.py --brief` **覆盖 B 线新提交**；若出现 BLOCK，立刻在本文件写一条并**暂停推**，不带病上线。
+3. B 线冻结后自跑九项验收并写 `docs/geo-upgrade-b-2026-1127.csv`，结果同步本文件 §8.7。
+4. A 区边界照旧：B 线本轮不碰 A 区 39 篇、`src/**`、`docs/SEO-GEO-*`、`next.config.ts`、`scripts/geo_audit.py`。
+
+### 8.7 B 线冻结结果（08:00 CST 回填）
+
+_（本轮收口后回填）_
