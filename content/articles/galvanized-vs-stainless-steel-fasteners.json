@@ -267,7 +267,7 @@
     {
       "id": "decision-framework",
       "heading": {
-        "en": "Decision Framework: 4 Questions to the Right Choice",
+        "en": "What four questions decide whether a joint needs galvanized or stainless fasteners?",
         "es": "Marco de Decisión: 4 Preguntas Para la Elección Correcta",
         "ar": "إطار القرار: 4 أسئلة للوصول إلى الاختيار الصحيح",
         "fr": "Cadre de décision : 4 questions pour le bon choix",
@@ -276,7 +276,7 @@
         "ja": "意思決定フレームワーク：4つの質問で正解へ導く",
         "de": "Entscheidungsrahmen: 4 Fragen zur richtigen Wahl",
         "hi": "निर्णय ढांचा: सही चुनाव के लिए 4 प्रश्न",
-        "zh": "决策框架：正确选择的四个问题"
+        "zh": "哪四个问题决定接头该用镀锌件还是不锈钢件？"
       },
       "body": {
         "en": "<p>The decision is a short sequence of questions, and the first one is the environment rather than the budget. Dry, sheltered interior: electroplated is adequate and hot-dip is unnecessary. Exposed outdoor, rained on, or in an agricultural or industrial atmosphere: hot-dip galvanised is the default. Coastal, subject to salt spray, or washed with chloride-bearing water: stainless of the appropriate grade, and the grade is part of the answer.</p>\n<p>The second question is service life and access. A part that can be reached and replaced is a part where a coating that wears out is acceptable; a part that is sealed inside a structure, welded over, or reachable only with scaffolding is a part where the coating should outlast the structure. That single question moves more projects to stainless than any corrosion calculation does.</p>\n<p>The third is the load path. Where the fastener carries structural load, the strength of the base material matters and galvanised carbon steel usually wins; where the fastener holds cladding, walkway, cable tray or a non-structural assembly, stainless is often the more sensible choice because the strength is not the constraint.</p>\n<p>The fourth is the other metals in the assembly. A stainless fastener in an aluminium structure, or a galvanised one against stainless, creates a couple that has to be managed. If the design already mixes materials, the fastener choice has to fit the couple rather than the other way around.</p>",
@@ -321,7 +321,7 @@
     {
       "id": "bimetallic-corrosion",
       "heading": {
-        "en": "Bimetallic Corrosion: The Hidden Killer",
+        "en": "When does a small anode against a large cathode corrode fastest?",
         "es": "Corrosión Bimetálica: El Asesino Oculto",
         "ar": "التآكل ثنائي المعدن: القاتل الخفي",
         "fr": "Corrosion bimétallique : le tueur caché",
@@ -330,7 +330,7 @@
         "ja": "異種金属接触腐食：隠れた殺し屋",
         "de": "Bimetallische Korrosion: Der versteckte Killer",
         "hi": "द्विधात्विक संक्षारण: छिपा हुआ हत्यारा",
-        "zh": "双金属腐蚀：隐藏的杀手"
+        "zh": "小阳极对大阴极时，双金属腐蚀为什么最快？"
       },
       "body": {
         "en": "<p>Bimetallic corrosion is the mechanism behind most of these failures, and it is worth stating plainly because it decides more joints than the choice of fastener does. When two metals with different potentials are in contact in the presence of an electrolyte — rain, condensation, wash water — the less noble metal becomes the anode and corrodes, and the more noble one is protected. Zinc is less noble than steel, which is why it protects a galvanised part; steel is far less noble than stainless, which is why a galvanised bolt against stainless loses its coating.</p>\n<p>The rate depends on the area ratio more than on the metals involved. A small anode against a large cathode corrodes fast, because the current from a small area is concentrated; a large anode against a small cathode is comparatively harmless. A galvanised bolt in a stainless structure is the bad case; a stainless bolt in a large galvanised structure is the tolerable one, and even that leaves the coating to do the work.</p>\n<p>The remedies are the familiar ones: keep the pair within one family, isolate the contact with a coated or non-metallic barrier at the joint, choose a coating system that tolerates the couple, and design so that water does not sit at the interface. None of them is expensive at design stage and all of them are expensive after installation.</p>",
@@ -414,7 +414,7 @@
             "ja": "亜鉛めっき締結具の上に塗装できますか？"
           },
           "a": {
-            "en": "Yes, but proper surface preparation is essential. Use a zinc chromate or etching primer designed for galvanized surfaces. Standard primers will peel within months due to zinc's self-healing properties preventing adhesion.",
+            "en": "Painting over galvanized fasteners is possible, but surface preparation is essential because zinc does not hold a standard primer like bare steel does. Use a primer designed for galvanized surfaces, such as a zinc-rich or etching primer, and remove grease and oxidation before application; a standard general-purpose primer peels within months because adhesion to zinc is poor. The galvanized layer is itself sacrificial protection, so paint is only an extra barrier, not the main corrosion defence. Record the process and surface treatment so the coating is checked against specification, not appearance.",
             "zh": "可以，但基面处理必须到位。要选用专为镀锌面设计的锌铬底漆或蚀刻底漆。普通底漆附着不住，几个月内就会起皮，原因是锌层的自修复特性会阻碍漆膜附着力。涂装前应先清除锌层表面白锈、油污和浮尘，必要时做磷化或拉毛处理，再按底漆说明涂布；漆膜起皮多发生在预处理不足的节点，验收时看边角和接缝处涂层是否连续、有无起泡脱落。",
             "hi": "किया जा सकता है, पर सतह की तैयारी ज़रूरी है। गैल्वनाइज़्ड सतह के लिए ज़िंक क्रोमेट या एचिंग प्राइमर इस्तेमाल करें; साधारण प्राइमर महीनों में उड़ जाता है, क्योंकि ज़िंक का आत्म-सुधार गुण चिपकाव में बाधा डालता है।",
             "ru": "Можно, но обязательна подготовка поверхности. Используйте грунт с хроматом цинка или протравливающий праймер, предназначенный для оцинкованных поверхностей. Обычные грунты за несколько месяцев облупятся: у цинка самовосстанавливающаяся плёнка плохо держит адгезию, и краска ложится на неподготовленный металл ненадёжно.",
@@ -440,7 +440,7 @@
             "ja": "ステンレスボルトが錆びることがあるのはなぜですか？"
           },
           "a": {
-            "en": "Surface contamination (iron particles from manufacturing or installation) can create rust spots on stainless steel. This is not the stainless itself corroding — it's embedded iron rusting. Clean with passivation solution (nitric acid) or specialized stainless cleaner.",
+            "en": "Stainless resists corrosion through a chromium oxide layer that reforms when scratched, provided there is oxygen and no chloride to break it down. The spots usually come from surface contamination: iron particles from manufacturing or installation embed and rust, so the stain is embedded iron rather than the stainless corroding. Chloride is the other route, because salt spray or chloride-bearing water breaks down the protective oxide. Clean with a specialized stainless cleaner or passivation treatment, remove the iron, and in chloride service choose the molybdenum-bearing austenitic grade over the general-purpose one.",
             "zh": "表面污染（制造或安装带来的铁屑颗粒）会在不锈钢表面形成锈点。这不是不锈钢本体锈蚀，而是嵌入的铁在生锈。可用钝化液（硝酸）或专用不锈钢清洁剂清理。安装后应及时清理切割、打磨留下的铁屑和焊渣，避免碳钢颗粒长期附着；出现浮锈点时先清洁并观察是否扩散，清洁后仍反复锈蚀的，需排查周围是否有碳钢件接触或氯离子环境。",
             "hi": "विनिर्माण या लगाने के दौरान लगे लोहे के कण जैसी सतह गंदगी से जंग के धब्बे पड़ जाते हैं। यह स्टेनलेस का अपना संक्षारण नहीं, बल्कि धँसे लोहे की जंग है। पासिवेशन घोल (नाइट्रिक एसिड) या विशेष स्टेनलेस क्लीनर से साफ़ करें।",
             "ru": "Пятна ржавчины дают поверхностные загрязнения — частицы железа с производства или монтажа. Корродирует не сама нержавейка, а внедрившееся в неё железо. Чистят детали раствором пассивации на основе азотной кислоты или специальным составом для нержавеющей стали; после чистки деталь вновь получает стабильную защитную плёнку.",
@@ -466,7 +466,7 @@
             "ja": "高力ボルトへの溶融亜鉛めっきは安全ですか？"
           },
           "a": {
-            "en": "For Grade 8.8 and below: yes. For Grade 10.9: proceed with caution — HDG temperatures (450°C) can affect heat treatment. For Grade 12.9: never hot-dip galvanize — use mechanical galvanizing instead.",
+            "en": "Hot-dip galvanizing near 450 C can affect heat-treated high-strength grades, so the answer depends on property class. Grade 8.8 and below are generally safe; Grade 10.9 needs caution because the heat can alter the heat-treated microstructure and raise delayed cracking risk. For the highest classes, avoid hot-dip and use mechanical plating or zinc-flake coating instead, which apply zinc without the hydrogen route electroplating introduces. Confirm class, coating process, and any baking requirement with the supplier, and state the coating class with its standard rather than the name alone.",
             "zh": "8.8 级及以下可以；10.9 级要谨慎，热浸镀锌（HDG）温度约 450 摄氏度，会影响热处理组织；12.9 级绝不能热浸镀锌，改用机械镀锌。高强度件镀锌前应核对等级对应的热处理状态，酸洗和热浸过程都可能引起氢脆或回火软化；等级越高越要控制镀层工艺，10.9 以上优先机械镀锌或锌片涂层，并在镀层后做相应氢脆复核。",
             "hi": "ग्रेड 8.8 और इससे नीचे के लिए हाँ। ग्रेड 10.9 में सावधानी बरतें: HDG का 450°C ताप गर्मी उपचार को प्रभावित कर सकता है। ग्रेड 12.9 पर कभी हॉट-डिप गैल्वनाइज़िंग न करें; इसके बजाय मैकेनिकल गैल्वनाइज़िंग इस्तेमाल करें।",
             "ru": "Для класса 8.8 и ниже — да. Для класса 10.9 действуйте осторожно: температура HDG около 450 °C может повлиять на структуру после термообработки. Для класса 12.9 горячее цинкование не применяется — вместо него используйте механическое цинкование, чтобы не вызвать охрупчивание стали.",
@@ -492,7 +492,7 @@
             "ja": "適切な亜鉛めっき厚さはどう指定しますか？"
           },
           "a": {
-            "en": "Use the ISO 10684 standard designations: Z275 (275g/m², ~40μm) for general outdoor, Z600 (600g/m², ~85μm) for coastal/marine-adjacent. Always specify by zinc weight (g/m²), not just 'galvanized'.",
+            "en": "Specify the coating under ISO 10684 by zinc weight or coating class, not by writing only galvanized. Match the designation to exposure: a general outdoor or agricultural atmosphere takes a lighter designation, while coastal or marine-adjacent service calls for the heavier zinc layer. Naming the weight per square metre and the class on the order lets inspection measure the coating on site rather than judge it by appearance. The process matters as much as thickness: a bonded hot-dipped layer and a thicker electroplated layer behave differently, so name process, standard, and class together.",
             "zh": "按 ISO 10684 代号标注：Z275（275 克每平方米，约 40 微米）用于一般户外；Z600（600 克每平方米，约 85 微米）用于沿海或近海洋环境。订货要按锌层重量写明，不能只写“镀锌”。标注时把锌层重量、对应微米厚度和适用环境写进订单与技术图；验收可抽检镀层重量或厚度，沿海、工业腐蚀环境应选用更厚一档镀层，干燥室内则不必提高等级。",
             "hi": "ISO 10684 पदनाम इस्तेमाल करें: सामान्य बाहरी काम के लिए Z275 (275 g/m², लगभग 40 μm), तटीय व समुद्र निकट के लिए Z600 (600 g/m², लगभग 85 μm)। सिर्फ़ \"गैल्वनाइज़्ड\" लिखने के बजाय ज़िंक भार (g/m²) से मोटाई बताएँ।",
             "ru": "Ориентируйтесь на обозначения стандарта ISO 10684: Z275 (275 г/м², около 40 мкм) для общего наружного применения, Z600 (600 г/м², около 85 мкм) для прибрежных морских зон. Всегда указывайте массу цинка в г/м², а не просто слово «оцинкованный»: толщина определяет срок службы в атмосферных условиях.",
