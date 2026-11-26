@@ -259,7 +259,7 @@ python3 -c "import sys;sys.path.insert(0,'scripts');import json_rewrite as jr;d=
 
 ### 0.9 R-T9n 轮收口与 R-T9a 入口（2026-11-26）
 
-**收口状态**：起点 `95a87699`；本轮 `T9n-*`（ar/5files/trans 系列）89 笔单文件提交，全部本地未 push；累计 `a9f4c356..HEAD` **718 笔**。执行细节 `docs/T9-REPORT-B-2026-1125.md` §18；跨线通道 `docs/TWO-LINE-SYNC-2026-1126.md` §6-B（决议）+ §6-C（结果）。
+**收口状态**：起点 `95a87699`；本轮 `T9n-*`（ar/5files/trans/docs/CSV 全系列）98 笔单文件提交，全部本地未 push；累计 `a9f4c356..HEAD` **727 笔**。执行细节 `docs/T9-REPORT-B-2026-1125.md` §18；跨线通道 `docs/TWO-LINE-SYNC-2026-1126.md` §6-B（决议）+ §6-C（结果）。
 
 **十项验收**：见 §18-6。超长 / 短答 / 占位 = 0，新增 BLOCK 0，键删除 0，锁 0；拉丁 13 全部 keep_proper。**B 区可清债归零**。
 
