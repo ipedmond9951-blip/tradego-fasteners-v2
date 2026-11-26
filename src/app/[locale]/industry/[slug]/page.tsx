@@ -143,6 +143,18 @@ function localizedText(obj: Record<string, string> | undefined, locale: string):
   return ''
 }
 
+// 2026-11-26: 站内链接统一补尾斜杠。站点 trailingSlash: true，站内任何不带 / 的链接
+// 都会先吃一次 308（GSC「网页会自动重定向」1,530 条基本都是这么来的，白白消耗抓取配额）。
+// 正文/FAQ 导语里 178 条内链是历史遗留的不带斜杠写法，这里在渲染层统一归一化，不必再批量改内容。
+// 只处理以 / 开头的站内路径：跳过带 # 、带 ? 的锚点/查询，跳过已是 / 结尾的，跳过静态文件。
+function withTrailingSlash(html: string): string {
+  if (!html) return html
+  return html.replace(/href="(\/[^"#?]*[^"#?/])"/g, (match, path: string) => {
+    if (/\/[^/]*\.[a-zA-Z0-9]{1,8}$/.test(path)) return match
+    return `href="${path}/"`
+  })
+}
+
 function renderSection(section: ArticleSection, locale: string) {
   // 2026-11-22 FIX: 文章的 table 字段有两种历史写法 —— 扁平的 {headers, rows},
   // 以及按语言分组的 {en:{headers,rows}, zh:{...}, ...}(lobito 那篇就是后者)。
@@ -181,13 +193,13 @@ function renderSection(section: ArticleSection, locale: string) {
     <section key={section.id} className="mb-8" id={section.id}>
       <h2 className="text-2xl font-bold text-gray-900 mb-4">{localizedText(section.heading, locale)}</h2>
       {isFaqSection && (
-        <p className="text-gray-700 mb-4 leading-relaxed" dangerouslySetInnerHTML={{ __html: (FAQ_INTRO[locale] || FAQ_INTRO.en).replace(/\{l\}/g, locale) }} />
+        <p className="text-gray-700 mb-4 leading-relaxed" dangerouslySetInnerHTML={{ __html: withTrailingSlash((FAQ_INTRO[locale] || FAQ_INTRO.en).replace(/\{l\}/g, locale)) }} />
       )}
       {isFaqSection && faqBodyHtml && (
-        <div className="text-gray-700 mb-4 leading-relaxed" dangerouslySetInnerHTML={{ __html: faqBodyHtml }} />
+        <div className="text-gray-700 mb-4 leading-relaxed" dangerouslySetInnerHTML={{ __html: withTrailingSlash(faqBodyHtml) }} />
       )}
       {!isFaqSection && section.body && (
-        <p className="text-gray-700 mb-4 leading-relaxed" dangerouslySetInnerHTML={{ __html: localizedText(section.body, locale) }} />
+        <p className="text-gray-700 mb-4 leading-relaxed" dangerouslySetInnerHTML={{ __html: withTrailingSlash(localizedText(section.body, locale)) }} />
       )}
       {table && Array.isArray(table.headers) && Array.isArray(table.rows) && (
         <div className="overflow-x-auto mb-4">
