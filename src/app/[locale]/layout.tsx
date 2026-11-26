@@ -12,10 +12,8 @@ import Analytics from '@/components/Analytics'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 const CookieConsent = dynamic(() => import('@/components/CookieConsent') )
 const WhatsAppCTA = dynamic(() => import('@/components/WhatsAppCTA') )
-import VideoSchema from '@/components/VideoSchema'
 import OrganizationSchema from '@/components/OrganizationSchema'
 import NavigationSchema from '@/components/NavigationSchema'
-import LocalBusinessSchema from '@/components/LocalBusinessSchema'
 import WebSiteSchema from '@/components/WebSiteSchema'
 import ImageObjectSchema from '@/components/ImageObjectSchema'
 
@@ -128,9 +126,8 @@ export default async function LocaleLayout({
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="TradeGo" />
         <meta name="theme-color" content="#0A3D62" />
-        <VideoSchema locale={loc} />
+        {/* 全站只输出一次 Organization；LocalBusiness 仅在首页/联系页挂载（见对应页面） */}
         <OrganizationSchema locale={loc} />
-        <LocalBusinessSchema locale={loc} />
         <NavigationSchema locale={loc} />
         <WebSiteSchema locale={loc} />
         <ImageObjectSchema locale={loc} />
