@@ -236,7 +236,8 @@
             "es": "¿Qué es la clasificación o tensión de una grapa de cinta?",
             "fr": "Que signifie la « capacité » d'une bride de courroie ?",
             "pt": "O que é a classificação de tensão de um fixador de correia?",
-            "de": "Was bedeutet die Tragkraft eines Gurtbefestigers?"
+            "de": "Was bedeutet die Tragkraft eines Gurtbefestigers?",
+            "ja": "ベルトファスナーの張力定格とは何ですか？"
           },
           "a": {
             "en": "Belt fastener tension ratings indicate the maximum conveyor belt tension (in N/mm of belt width) the splice can handle. For example, a fastener rated at 800 N/mm is suitable for belts with belt pull up to 800 N per mm of width. The rating must exceed the actual belt tension at the splice location. Consult the manufacturer's selection guide which correlates belt width, thickness, and pulley diameter with fastener size and rating.",
@@ -247,7 +248,8 @@
             "es": "La clasificación de tensión indica la tensión máxima de la cinta (en N/mm de ancho) que puede soportar el empalme. Una grapa de 800 N/mm sirve para cintas con tracción hasta 800 N por mm de ancho. La clasificación debe superar la tensión real en el punto del empalme. Consulte la guía de selección del fabricante, que relaciona ancho, grosor y diámetro de polea con el tamaño y la clasificación de la grapa.",
             "fr": "La capacité de tension d'une bride indique la tension maximale de la courroie transporteuse (en N/mm de largeur) que l'assemblage peut supporter. Par exemple, une bride notée 800 N/mm convient à des courroies dont la traction ne dépasse pas 800 N par mm de largeur. La capacité doit dépasser la tension réelle au point d'assemblage. Consultez le guide du fabricant pour relier largeur, épaisseur et diamètre de poulie à la bride.",
             "pt": "A classificação de tensão indica a tensão máxima da correia, em N/mm de largura, que a emenda suporta. Um fixador de 800 N/mm serve para correias com tração até 800 N por mm de largura. A classificação deve superar a tensão real no ponto da emenda. Consulta-se o guia de seleção do fabricante, que relaciona largura e espessura da correia e diâmetro do rolo com o tamanho e a classificação do fixador.",
-            "de": "Die Spannungsbewertung eines Gurtbefestigers gibt die maximale Gurtspannung in N/mm Gurtbreite an, die die Verbindung aushält. Ein Befestiger mit 800 N/mm ist für Gurte mit Zugkraft bis 800 N je Millimeter Breite geeignet. Der Wert muss die tatsächliche Gurtspannung an der Verbindungsstelle übertreffen. Der Auswahlleitfaden des Herstellers führt Gurtbreite, Dicke und Rollendurchmesser mit Befestigergröße und Bewertung zusammen."
+            "de": "Die Spannungsbewertung eines Gurtbefestigers gibt die maximale Gurtspannung in N/mm Gurtbreite an, die die Verbindung aushält. Ein Befestiger mit 800 N/mm ist für Gurte mit Zugkraft bis 800 N je Millimeter Breite geeignet. Der Wert muss die tatsächliche Gurtspannung an der Verbindungsstelle übertreffen. Der Auswahlleitfaden des Herstellers führt Gurtbreite, Dicke und Rollendurchmesser mit Befestigergröße und Bewertung zusammen.",
+            "ja": "ベルトファスナーの張力定格は、接合部が扱えるベルトの最大張力を表します。例えば定格が800 N/mmの品は、幅1 mmあたりのベルト引張力がその範囲に収まるものに適します。定格は接合箇所の実際のベルト張力を上回っている必要があります。ベルト幅、厚み、プーリー径とファスナーの大きさや定格の対応を、選定ガイドで確認してください。"
           }
         },
         {
@@ -260,7 +262,8 @@
             "es": "¿Cuánto duran los empalmes mecánicos frente a los vulcanizados?",
             "fr": "Combien durent les assemblages mécaniques face aux vulcanisés ?",
             "pt": "Quanto duram as emendas mecânicas versus vulcanizadas?",
-            "de": "Wie lange halten mechanische Gurtverbindungen?"
+            "de": "Wie lange halten mechanische Gurtverbindungen?",
+            "ja": "機械式ベルト継ぎ手は加硫継ぎ手と比べてどのくらい持ちますか？"
           },
           "a": {
             "en": "Vulcanized splices typically achieve 95-100% of original belt strength and last 3-5 years under ideal conditions. Mechanical splices achieve 80-98% of belt strength (depending on type) and typically last 1-3 years depending on belt tension, material abrasiveness, and operating conditions. For high-abrasion African mining applications, mechanical splice life of 6-18 months is common before scheduled replacement. The speed of field replacement often makes mechanical splices more economical despite shorter service life.",
@@ -271,7 +274,8 @@
             "es": "Los empalmes vulcanizados alcanzan el 95-100% de la fuerza original y duran de 3 a 5 años en condiciones ideales. Los mecánicos llegan al 80-98% de la fuerza, según el tipo, y duran de 1 a 3 años según tensión, abrasión y condiciones de trabajo. En minería africana de alta abrasión, la vida mecánica suele ser de 6 a 18 meses antes del recambio programado. La rapidez del recambio en campo suele hacerlos más económicos pese a su vida más corta.",
             "fr": "Les assemblages vulcanisés atteignent 95 à 100 % de la force d'origine et durent 3 à 5 ans en conditions idéales. Les mécaniques atteignent 80 à 98 % de la force (selon le type) et durent 1 à 3 ans, selon la tension et l'abrasivité. En mines africaines très abrasives, 6 à 18 mois est courant avant remplacement. Le remplacement rapide sur site rend souvent les mécaniques plus économiques.",
             "pt": "As emendas vulcanizadas atingem de 95% a 100% da resistência original e duram de 3 a 5 anos em condições ideais. As mecânicas chegam de 80% a 98%, conforme o tipo, e duram de 1 a 3 anos, conforme tensão, abrasão e operação. Na mineração africana de alta abrasão, a emenda mecânica dura de 6 a 18 meses antes da troca programada. A troca rápida em campo muitas vezes torna a mecânica mais econômica, apesar da vida mais curta.",
-            "de": "Vulkanisierte Verbindungen erreichen üblicherweise 95 bis 100% der Gurtfestigkeit und halten 3 bis 5 Jahre. Mechanische Verbindungen erreichen 80 bis 98% der Festigkeit und halten meist 1 bis 3 Jahre, je nach Gurtspannung, Abrieb und Betrieb. Bei stark abriebhaltenden Bergbauanwendungen in Afrika sind sie oft nur 6 bis 18 Monate bis zum Ersatz haltbar. Der schnelle Austausch vor Ort macht sie trotz kürzerer Lebensdauer oft wirtschaftlicher."
+            "de": "Vulkanisierte Verbindungen erreichen üblicherweise 95 bis 100% der Gurtfestigkeit und halten 3 bis 5 Jahre. Mechanische Verbindungen erreichen 80 bis 98% der Festigkeit und halten meist 1 bis 3 Jahre, je nach Gurtspannung, Abrieb und Betrieb. Bei stark abriebhaltenden Bergbauanwendungen in Afrika sind sie oft nur 6 bis 18 Monate bis zum Ersatz haltbar. Der schnelle Austausch vor Ort macht sie trotz kürzerer Lebensdauer oft wirtschaftlicher.",
+            "ja": "加硫継ぎ手は元のベルト強度の大半を保ち、理想的な条件では長期間使われます。機械式継ぎ手は種類により強度が変わり、ベルト張力、材料の摩耗性、稼働条件に応じて寿命が決まります。摩耗の激しいアフリカの鉱山では、機械式継ぎ手の交換までの期間が短くなることが一般的です。現場での交換の速さが、寿命の短さを補って経済的になる場面もあります。"
           }
         },
         {
@@ -284,7 +288,8 @@
             "es": "¿Por qué fallan pronto los empalmes mecánicos?",
             "fr": "Pourquoi les assemblages mécaniques lâchent-ils prématurément ?",
             "pt": "Por que as emendas mecânicas falham cedo demais?",
-            "de": "Warum versagen mechanische Verbindungen vorzeitig?"
+            "de": "Warum versagen mechanische Verbindungen vorzeitig?",
+            "ja": "機械式継ぎ手が早く破損するのはなぜですか？"
           },
           "a": {
             "en": "The most common causes of premature mechanical splice failure: incorrect fastener size for belt thickness — fasteners either pull through or don't close properly; belt tracking issues — a misaligned belt wears the splice edges; under-tightened fasteners — allow movement that fatigues the belt; over-tightened fasteners — deform the belt carcass; material carryback — abrasive material buildup between belt and pulleys accelerates fastener wear; improper skiving — insufficient cover rubber removal prevents proper fastener engagement with the carcass.",
@@ -295,7 +300,8 @@
             "es": "Las causas más comunes son: tamaño de grapa incorrecto para el grosor, lo que hace que ceda o no cierre bien; mala guía de la cinta, que desgasta los bordes del empalme; grapas flojas, que dejan movimiento y fatigan la cinta; grapas apretadas de más, que deforman el armazón; material arrastrado entre cinta y poleas, que acelera el desgaste; y un biselado insuficiente, que impide que la grapa encaje en el armazón.",
             "fr": "Les causes fréquentes : une bride trop petite ou trop grande pour l'épaisseur, qui passe à travers ou ne ferme pas ; une courroie mal alignée qui use les bords ; des brides sous serrées, dont le mouvement fatigue la courroie ; des brides trop serrées qui déforment l'âme ; un matériau résiduel entre courroie et poulies ; ou un écornage insuffisant empêchant une bonne prise.",
             "pt": "As causas comuns: tamanho de fixador errado para a espessura da correia, de modo que ele atravessa ou não fecha direito; desalinhamento da correia que desgasta as bordas da emenda; fixadores soltos demais, que deixam movimento e fadigam a correia; apertados demais, que deformam o núcleo; material carregado de volta, que acumula entre correia e rolo e acelera o desgaste; e skiving insuficiente, que impede o engate do fixador no núcleo.",
-            "de": "Die häufigsten Gründe: falsche Befestigergröße zur Gurtdicke, sodass sie durchziehen oder nicht schließen; Gurtführungsprobleme, ein versetzter Gurt verschleißt die Ränder; zu schwache Befestiger lassen Bewegungen und Ermüdung zu; zu starke verformen die Gurtkonstruktion; Materialrückstände zwischen Gurt und Rollen beschleunigen den Verschleiß; unzureichendes Abschälen, bei dem der Befestiger nicht greift."
+            "de": "Die häufigsten Gründe: falsche Befestigergröße zur Gurtdicke, sodass sie durchziehen oder nicht schließen; Gurtführungsprobleme, ein versetzter Gurt verschleißt die Ränder; zu schwache Befestiger lassen Bewegungen und Ermüdung zu; zu starke verformen die Gurtkonstruktion; Materialrückstände zwischen Gurt und Rollen beschleunigen den Verschleiß; unzureichendes Abschälen, bei dem der Befestiger nicht greift.",
+            "ja": "機械式継ぎ手の早期破損にはよくある原因が複数あります。ベルト厚みに合わないファスナーサイズでは、抜けたり十分に閉じなかったりします。ベルトの寄りで端部が摩耗する場合、締め付けが弱いと動きが疲労を招き、強すぎると心線を変形させます。搬送物の付着やスカイブ加工の不十分さも係合を損ないます。原因を一つずつ確認してください。"
           }
         }
       ],
