@@ -201,6 +201,7 @@ python3 scripts/article-claim.py release <slug> <线名>
 | T24 索引管道 | seo-geo-main | 部分完成（配额所限） | sitemap 重提交成功；20 条 URL 成功入队 7 条 | #8 起当日配额耗尽，余 12 条待次日续跑；见 §10.10.3 |
 | T25 合规红点 | seo-geo-main | 已完成（2 篇），存量 107 篇在册待排 | ghana 10 语种 + angola 10 语种改净；全库真违规去重 109 篇 | 清单 `docs/compliance-redspots-2026-1126.md`；见 §10.10.4 |
 | T26 样板块方案 + 试点 | seo-geo-main | 方案已落、试点 5 篇通过 | 5 篇命中族 23/20/19/19/19 → 各 4 | 全库族数 70→70（机制所致）；`docs/DUP-BLOCK-PLAN.md`；见 §10.10.5 |
+| T27 首页定位改「大字全球 + 小字区域」 | seo-geo-main | 已完成（待随构建上线） | 10 语种 H1 + titles + Organization.areaServed | 首屏大字不再宣布专供某市场；见 §10.11 |
 
 ## 10. 变更登记
 
@@ -487,3 +488,20 @@ python3 scripts/article-claim.py release <slug> <线名>
 - 索引侧：sitemap 已重新提交、7 条 URL 已入队（配额所限，余 12 条次日续）；GSC 数据已刷新到 11-23。
 - 内容侧：本轮只动 2 篇红线 + 5 篇试点，未做全站内容扩写。
 - **遗留待决**：① 存量 107 篇真违规是否排期（跨 A/B 区，需借调口径）；② C2 起运港城市 30 篇是否算地域违规；③ `content/freshness.json` 在部署前需重跑一次（并发线会持续推动 HEAD 漂移；`--check` 已可接闸门）。
+
+### 10.11 首页区域定位折中（2026-11-26 晚，T27）
+
+用户口径：主做津巴布韦周边，但不排斥全球客户；首屏大字写「专供津巴布韦与南非」等于自断其他市场。改法按「大字全球、小字区域」三层处理：
+
+| 位置 | 改前 | 改后 | 目的 |
+|---|---|---|---|
+| `HeroSection.tsx` 的 `heroH1`（10 语种）| `… Manufacturer for Zimbabwe & Southern Africa`（`lg:text-[52px]`）| `… Manufacturer — SABS 1195 Spec, Ships Worldwide`（zh：`批发厂家｜按 SABS 1195 规格，全球发货`）| 大字讲能力，不限定市场 |
+| H1 下方新增 `note` 小字（`text-[11px] md:text-xs`，opacity 65%）| 无 | `Primary markets: Zimbabwe, South Africa, Zambia, Mozambique, Botswana — other regions welcome`（10 语种）| 地域实体仍对 Google/AI 可见，视觉不压过全球定位 |
+| `layout.tsx` 的 `titles`（10 语种）| `… | Zimbabwe & S. Africa` / `南部非洲` | `… | Zimbabwe & Worldwide` / `非洲与全球直供` | 保留一个区域词吃现有排名，同时给出全球口径 |
+| `i18n` 的 `hero.global` badge | `Africa Delivery` / `非洲发货` 等 | `Worldwide Delivery` / `全球发货` 等（8 语种）| 首屏不再暗示只做非洲 |
+| `i18n` 的 `why.title`（en/zh 断言「非洲首选」）| `Why TradeGo is Africa's Preferred Fastener Supplier` / `为什么TradeGo是非洲首选紧固件供应商？` | `Why TradeGo Is a Preferred Fastener Supplier for Africa & Beyond` / `为什么非洲与全球项目会选择 TradeGo？` | 去掉独占式定语 |
+| `OrganizationSchema` 的 `areaServed` | `Africa, Middle East, Southeast Asia` | `Worldwide — primary focus: Southern Africa, East Africa, West Africa, Middle East, Southeast Asia, Latin America` | 实体层声明全球覆盖 |
+
+未动：`/zimbabwe-fasteners-wholesale`、`/markets/[market]`、`markets.ts` / `products.ts` 里的区域词（这些是专门承接区域意图的落地页，就该把区域写重）。
+
+验证：`npx tsc --noEmit` 0 错；`check-claims.py` 通过（首版 `工厂直供 / Mill-Direct` 被 `[factory]` 拦下，已改成「按 SABS 1195 规格」）；`next dev` 单页取证 en/zh 的 H1、note、badge、H2 全部命中新文案。全量 `next build` 两次被别线并发写内容打断（`Unexpected end of JSON input` 落在 `getAllArticles` 的 `Array.map`，每次失败 slug 都不同、content mtime 是刚刚），属环境竞态，故以 `tsc` + dev 渲染 + 明早构建产物复核为准（经验 195/196）。
