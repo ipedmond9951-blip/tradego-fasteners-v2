@@ -127,3 +127,65 @@
 |---|---|---|
 | 2026-11-26 | B 线 | 起草（R-T9m）：现状对照、6 项请求、4 项接手、防撞与期限 |
 | 2026-11-26 | B 线 | 收口：§3 四项状态回填、新增 §3-补（5 篇在途残留归属确认 + 无答复默认做法）、新增 §6 收口结果 |
+
+## §6-B B 线本轮决议与承诺（R-T9n，2026-11-26 19:45 CST 写入，不再等答复）
+
+> 本轮起 B 线对下列四条**自行执行、不再等 A 线答复**；A 线只需在 §6-B.5 回填清单，不回的项按本条默认动作生效。
+
+### 6-B.1 5 篇在途由 B 线本轮接手（原 §3-补 悬置项关闭）
+
+- 接手范围：`africa-fastener-market-opportunities-2026`、`china-fasteners-zimbabwe-procurement-guide`、`drc-diamond-mining-fasteners`、`ghana-fastener-market-guide`、`malawi-fastener-market-case-study`。
+- 事实前提（B 线实测）：5 篇 mtime 均已停 >12h（区间 11-25 14:40 ～ 11-26 01:24）、当前无写锁、JSON 合法、单篇 `content_gate --slug` 全部「✅ 闸门通过」、`check-claims.py` 通过。
+- 动作：B 线按 R4 逐篇领锁 → 清掉卡在这 5 篇里的 82 条剩余债（超长 25 / 短答 55 / 拉丁 1 / `a.en` 占位 1）→ 逐篇单文件提交；**以磁盘现状为基准改，不回退任何他线已写入的 de/es/fr/pt/ru/ar 译文**；每篇改前/改后各读一次 mtime，被外部再次写入即退出该篇并登记。
+- 承诺：**21:00 CST 前收口**，赶得上明早 00:00 push 窗口；20:30 未清完则停手只交剩余清单，不提交半成品。
+- 请 A 线复核"B 线还有 12 篇未提交"这一说法：B 线 `content/articles` 下无未提交文章（R-T9l 376 笔 + R-T9m 629 笔，均逐篇单文件 commit，全部本地未 push、明早统一推）。那 12 篇请按 §6-B.5 第 1 项给出 slug + `git status` 原文，B 线逐篇核归属；若属 A 线/G 线未提交件，请各自在本轮内提交，避免明早包混。
+
+### 6-B.2 C2 起运港城市（30 篇/401 行）
+
+- B 线意见：**按 C1 同口径处理** —— 写 `China`、不点城市名，用 `port in China` / `nearest port in China on request` 一类表述。依据是既有口径「地域只写 China（含非拉丁写法）」，且 R-T9m 的 C1 已按此清完 2 篇、事后无异议。
+- 执行归属：**代码与 UI 在 A 线，由 A 线执行**，并跑 `python3 scripts/check-claims.py` + 三处同步（站点 UI / `public/llms.txt` / 社媒事实卡）。
+- 例外：若 A 线判断装运港名属须保留的物流事实（如 FOB 报价须指港），请按 §6-B.5 第 2 项写明理由并给出**不冲突的表述模板**；B 线不干预文案决定，但模板不得出现 `Shanghai, China` 这类城市级写法（与「地域只写 China」冲突）。
+- B 线不做：不碰 `src/**` 与 C2 涉及的 UI 文案。
+
+### 6-B.3 4,480 条未收录减页
+
+- B 线**不参与**"是否减页"的决策（属 A 线与用户范围）。
+- 唯一约束：**若对 B 区文章做 noindex / 合并 / 删除，先按 §6-B.5 第 3 项列出 slug 清单**（slug + 动作 + 预计生效时间），B 线自清单发布起 **48 小时内不再为该文补任何语种**（正文/FAQ/meta 全部不补），避免白干。
+
+### 6-B.4 body 改造防撞（最高优先，写死）
+
+- 冲突点：A 线计划动 body（首段复述标题 123 篇、实体密度 <2 的 44 篇、29 篇孤儿内链），载体同为 `content/articles/*.json`，与 B 线语种批（`faq` / `sections[].body.<lang>`）同文件，字段相邻即会撞。
+- 约定（**双方硬约束**）：
+  1. **凡写 body 必须逐篇 `article-claim.py claim`**（R4，TTL 30 分钟），不持锁不得写；写完必须 `release`。
+  2. **按区归属执行**：A 区 39 篇（`docs/seo-geo-main-owned-40-2026-1125.csv`）body 归 A 线；**B 区 240 篇 body 归 B 线**；跨区不越界。
+  3. A 线需要改 B 区某篇 body 的，**本轮不直接改**，只按 §6-B.5 第 4 项提交「slug + 改造说明」清单，由 **B 线下一轮统一做**并按清单回填 commit。
+  4. 同篇同语种以**先提交者为准**（R3），后到线只登记不改回。
+  5. 孤儿内链若指向待删/待合并文章，先走 6-B.3 清单流程，再谈内链改写。
+
+### 6-B.5 A 线待回填清单（A 线填，B 线不再催）
+
+| 序 | 待回填内容 | 用途 |
+|---|---|---|
+| 1 | "B 线还有 12 篇未提交"的 slug + `git status` 原文 | B 线核归属，防明早包混 |
+| 2 | C2 是否保留港口名；若保留，给出不冲突的表述模板 | 6-B.2 例外路径 |
+| 3 | 减页 slug 清单（slug / 动作 / 预计生效时间） | 触发 6-B.3 的 48 小时冻结 |
+| 4 | 需 B 线做的 B 区 body 改造：slug + 改造说明 | 排入 B 线下一轮 |
+| 5 | 6-B.6 表中 4 篇的最终 diff 确认（B 线已实读磁盘；若与 A 线预期不符请指出） | 防 B 线按错版本对齐 |
+
+### 6-B.6 「已被 A 线改过、B 线不得回写旧句」清单
+
+| # | 文件 | 位置 | B 线规则 |
+|---|---|---|---|
+| 1 | `content/articles/china-hex-nuts-manufacturer.json` | 目录 description（十语种） | 保留 A 线现句；补语种只补缺，不覆盖、不"统一口径" |
+| 2 | `content/articles/solar-panel-mounting-fasteners-africa.json` | FAQ 第 5 条 | 同上 |
+| 3 | `content/articles/mining-fasteners-africa.json` | 日语规格行 | 同上；日语句不动 |
+| 4 | `content/articles/durban-fastener-supplier.json` | 日语 IBR 句 | 同上；日语句不动 |
+| 5 | `content/cert-claims-baseline.json` | 32 处第三方式表述（全库基线） | 命中即保留原句；不重译、不改写成"已持有/已通过认证" |
+
+- 兜底规则：B 线补语种一律 R1「只补缺、不覆盖」。若发现 A 线整改后，B 线旧句仍残留在**其它语种**，B 线按同一合规口径就地对齐（改为「按 SABS 1195 / DIN / ISO 体系组织生产，证书按订单要求提供」的对应语言），**不反向回写 A 线已改语种**。
+
+### 6-B.7 §2⑥ 109 vs 107 红点差 2 — B 线对账已闭合
+
+- 实测（按 `docs/compliance-redspots-2026-1126.md` 表格首列 slug 逐行解析）：§1 已整改表 **2 篇** + §3–§5 表 **203 行 / 去重 109 篇** = **总去重 111 篇**（A 区 14 / B 区 97）。
+- 差 2 的具体来源：§0 汇总行的「真违规 109 篇 / 剩余 107 篇」是**只减未加**——109 其实等于 §3–§5 的去重数，漏掉了 §1 已整改的 2 篇：**`ghana-building-materials`、`angola-lng-project-procurement`**。所以 107 是"剩余"，不是"总数"；差 2 就是这 2 篇已整改文章，**不存在两篇漏统计的新文章**。
+- 归属：A 区 14 篇（含 `angola-lng-project-procurement`）由 A 线处理；B 区 97 篇中 `ghana-building-materials` 已整改，余 96 篇为本轮 ar 认证清债对象（结果见 §6-C）。
