@@ -206,7 +206,7 @@
           },
           "a": {
             "en": "Yes - KEBS operates a pre-export verification of conformity (PVoC) scheme, so a certificate of conformity must be obtained in the country of supply before shipment. Goods arriving without it are inspected at Mombasa at the importer's cost and risk rejection.",
-            "zh": "有——肯尼亚 KEBS 实施出口前符合性验证（PVoC），必须在供货国出货前取得符合性证书。没有证书到蒙巴萨要接受检验，费用由进口商承担且有被拒风险。",
+            "zh": "有——肯尼亚 KEBS 实施出口前符合性验证（PVoC），必须在供货国出货前取得符合性证书。没有证书到蒙巴萨要接受检验，费用由进口商承担且有被拒风险。发货前先确认该类紧固件是否在 PVoC 目录内，向授权检验机构提交产品资料、发票和批次信息，装船前完成评定并取得 CoC；证书随货备齐再安排发运，无证到港可能被查验、滞留或退运，相关费用和延误由进口方承担，项目报价和交期应把装船前评定时间预留进去。",
             "hi": "हां, KEBS एक PVoC (निर्यात से पहले अनुरूपता सत्यापन) योजना चलाता है, इसलिए अनुरूपता प्रमाण-पत्र शिपमेंट से पहले आपूर्ति वाले देश में ही लेना होता है। बिना प्रमाण-पत्र के आ माल की मोम्बासा में जांच आयातक के खर्च पर होती है और उसे अस्वीकार किया जा सकता है।",
             "ru": "Да: KEBS ведёт схему предэкспортной проверки соответствия (PVoC), и сертификат соответствия оформляют в стране поставки до отгрузки. Если груз придёт без него, в Момбасе его досмотрят за счёт и под риск импортёра, а партию могут отклонить. Документы согласовывают с агентом на берегу заранее, не по факту прибытия судна в порт.",
             "ar": "نعم، يشغّل KEBS مخطط التحقق من المطابقة قبل التصدير PVoC، فيجب الحصول على شهادة مطابقة في بلد التوريد قبل الشحن. البضاعة الوصولة دونها تُفحص في مومباسا على حساب المستورد وقد تُرفض. رتّب تقييم المطابقة قبل مغادرة المصنع، وأرفق الوثيقة مع مستندات البوليصة، وأبلغ الوكيل بأي متطلب خاص للمنتج.",
@@ -232,7 +232,7 @@
           },
           "a": {
             "en": "Three to seven days for a clean consignment with documents in order; longer if PVoC is missing or the HS code is queried. Pre-clear the entry with your agent while the vessel is at sea, and budget demurrage for the first shipment as a contingency.",
-            "zh": "单证齐全一般 3–7 天；缺 PVoC 或 HS 编码被质疑会更久。船在海上时就与代理预清关，首柜要预留滞港费作为应急。",
+            "zh": "单证齐全一般 3–7 天；缺 PVoC 或 HS 编码被质疑会更久。船在海上时就与代理预清关，首柜要预留滞港费作为应急。清关快慢取决于单证完整度、HS 编码归类是否被海关认可以及证书是否齐备；货物在途期间把发票、装箱单、产地证和 CoC 交代理预审，编码有疑问提前沟通归类；首柜到港可能产生查验和滞港费用，预留缓冲时间和费用，单证不齐会拖慢提货并影响工地用料节奏。",
             "hi": "सही दस्तावेज़ों वाले साफ-सुथरे शिपमेंट में तीन से सात दिन लगते हैं; PVoC गुम हो या HS कोड पर सवाल हो तो अवधि बढ़ जाती है। जहाज के समुद्र में रहते ही अपने एजेंट से एंट्री पहले साफ करा लें, और पहली खेप के लिए डेमरेज का बजट सुरक्षा राशि के तौर पर रखें।",
             "ru": "Для чистой партии с полным пакетом документов — три-семь дней; если нет PVoC или таможня запросила код HS, срок растягивается. Пока судно в море, агент заранее подаёт декларацию на предварительную проверку, а на первую партию закладывают бюджет на демюрраж как непредвиденный резерв. Задержка с кодом HS удлиняет простой у причала сильнее всего.",
             "ar": "ثلاثة إلى سبعة أيام لشحنة نظيفة بمستندات سليمة؛ ويطول إذا غاب PVoC أو استُفسر عن رمز HS. سجّل البيانات المسبقة مع وكيلك أثناء وجود السفينة في البحر، واحسب غرامة التأخير للشحنة الأولى كاحتياط. تابع حالة التخليص أسبوعيًا، وأصلح أي نقص في الأوراق قبل الوصول، وحدد موعد التسليم الأرضي لا موعد رسو السفينة فقط.",
@@ -258,7 +258,7 @@
           },
           "a": {
             "en": "Construction contractors around Nairobi, Mombasa port and logistics operators, tea and food processing plants, and solar EPCs. Industrial areas such as Industrial Area Nairobi and Changamwe in Mombasa hold most distributor stock, and project buyers usually work through them.",
-            "zh": "内罗毕周边施工承包商、蒙巴萨港口与物流企业、茶叶与食品加工厂、以及光伏 EPC。内罗毕工业区与蒙巴萨 Changamwe 聚集了大部分分销商库存，项目采购通常也通过这些渠道。",
+            "zh": "内罗毕周边施工承包商、蒙巴萨港口与物流企业、茶叶与食品加工厂、以及光伏 EPC。内罗毕工业区与蒙巴萨 Changamwe 聚集了大部分分销商库存，项目采购通常也通过这些渠道。客户类型按用途划分：建筑承包商采购结构件和固定件，港口物流和厂房维护采购耐磨耐蚀件，光伏项目采购支架连接紧固件；分销库存集中在主要工业区，工程项目常经分销商或直接对接承包商采购，供货前先确认客户所属行业、使用环境和批量渠道，再匹配品类和包装。",
             "hi": "नैरोबी के आसपास के निर्माण ठेकेदार, मोम्बासा बंदरगाह और लॉजिस्टिक्स संचालक, चाय व खाद्य प्रसाधन संयंत्र और सोलर EPC कंपनियां खरीदार हैं। नैरोबी का इंडस्ट्रियल एरिया और मोम्बासा का चांगाम्वे इलाका ज्यादातर वितरक स्टॉक रखते हैं, और परियोजना खरीदार आम तौर पर उनके जरिए ही काम करते हैं।",
             "ru": "Спрос держат строительные подрядчики в районе Найроби, операторы порта и логистики Момбасы, чайные и пищевые предприятия и подрядчики солнечных систем (EPC). Основной дистрибьюторский запас сосредоточен в промышленных зонах Industrial Area Найроби и Чангамве в Момбасе; проектные закупки чаще идут через этих держателей склада, чем разовыми контактами с заводами.",
             "ar": "مقاولو الإنشاء حول نايروبي، ومشغلو ميناء مومباسا والخدمات اللوجستية، ومعامل الشاي وتجهيز الأغذية، وشركات الطاقة الشمسية EPC. المناطق الصناعية مثل Industrial Area نايروبي وChangamwe في مومباسا تحمل معظم مخزون الموزعين، وعادة ما يشتري المشترون المشاريع عبرهم. حدد قطاع العميل عند التسعير، واعرض الأصناف الأكثر طلبًا في الإنشاء المحلي.",
@@ -284,7 +284,7 @@
           },
           "a": {
             "en": "Fasteners imported to Kenya must meet KEBS (Kenya Bureau of Standards) requirements. SONCAP (now replaced by DS443) certification is required. Common requirements include: manufacturer working to ISO 9001-aligned procedures, proper packaging with country of origin marking, and documentation including bill of lading, commercial invoice, and certificate of conformity.",
-            "zh": "进口到肯尼亚的紧固件必须符合KEBS（肯尼亚标准局）要求。需要DS443认证。常见要求包括：ISO 9001认证制造商、带有原产国标记的正确包装，以及提单、商业发票和合格证书等文件。",
+            "zh": "进口到肯尼亚的紧固件须符合 KEBS 肯尼亚标准局要求，按 PVoC 或 DS443 完成出口前符合性评定；制造按 ISO 9001 体系组织生产，相关证书或符合性文件按订单要求提供。包装带原产国标记，随附提单、商业发票和符合性证书等文件。申报时核对 HS 编码、钢种等级和镀层与单证一致；规管类货物缺符合性证书会影响清关，项目供货前确认目的国目录和文件要求，制造商体系证明按需提供，不把体系认证等同于单批合格证。",
             "es": "Los fijadores importados a Kenia deben cumplir los requisitos de la KEBS y contar con la certificación DS443, que sustituyó al antiguo esquema SONCAP. El fabricante trabaja con procedimientos alineados a ISO 9001, el embalaje marca el país de origen, y el envío incluye conocimiento de embarque, factura comercial y certificado de conformidad. Conviene revisar estos documentos antes de cerrar el pedido para evitar retenciones en Mombasa.",
             "fr": "Les fixations importées au Kenya doivent satisfaire aux exigences de la KEBS et disposer de la certification DS443, qui a remplacé l'ancien dispositif SONCAP. Le fabricant suit des procédures alignées sur ISO 9001, l'emballage indique le pays d'origine, et le dossier réunit connaissement, facture commerciale et certificat de conformité. Ces pièces sont à vérifier avant la commande pour éviter tout blocage à Mombasa.",
             "pt": "Os fixadores importados no Quênia devem atender aos requisitos da KEBS e dispor da certificação DS443, que substituiu o antigo esquema SONCAP. O fabricante trabalha com procedimentos alinhados à ISO 9001, a embalagem identifica o país de origem, e o envio inclui conhecimento de embarque, fatura comercial e certificado de conformidade. Confira esses documentos antes de fechar o pedido para evitar retenções em Mombaça.",
@@ -310,7 +310,7 @@
           },
           "a": {
             "en": "Kenya imports fasteners under HS Code 7318 at a duty rate of 25% CIF plus 16% VAT. East African Community (EAC) partner states enjoy duty-free access. Construction-grade fasteners typically fall under subheadings 7318.15 to 7318.19 with varying rates depending on type (bolts, screws, nuts, washers).",
-            "zh": "肯尼亚进口紧固件的海关编码为7318，关税为CIF价的25%加16%增值税。东非共同体成员国享受免税待遇。建筑级紧固件通常归入7318.15至7318.19子目，根据类型（螺栓、螺丝、螺母、垫圈）不同税率不同。",
+            "zh": "肯尼亚进口紧固件归入 HS 编码 7318，建筑级件通常落在 7318.15 至 7318.19 子目，按螺栓、螺丝、螺母、垫圈等类型分别归类；关税和增值税按当时税则计征，东非共同体成员国之间有相应优惠安排。报价和清关前应核对具体子目和适用税率，归类以货物类型、材质和用途为准；不同子类税率可能不同，单证上的品名、规格与 HS 编码要对应，避免归类被质疑延误清关，具体税费以海关核定和当期税则为准。",
             "es": "Tasa de derechos del 25% CIF más 16% IVA.",
             "fr": "Droit de 25% CIF plus 16% TVA.",
             "pt": "Taxa de importação de 25% CIF mais 16% IVA.",
