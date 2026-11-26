@@ -323,3 +323,17 @@ bash scripts/vercel-audit.sh           # 第 9–13 项必须绿
 > 下一版触发条件：GSC 新数据与基线偏差 >20%。
 
 | 2026-11-25 | 批次 0 完成：`667780d3` 上线并 promote（三域名一致）。基线刷新：GEO 61.7→62.7、echo 145→141、模板文 30→11、积压 216→0；新增执行层工单 `docs/SEO-GEO-WORKPLAN-2026-1126.md`（W1–W6），本文件仍是唯一排期表 | B |
+
+---
+
+## 首页定位与地域词的层级（2026-11-26 定稿，用户拍板）
+
+经营事实优先于关键词密度：主做津巴布韦与南部非洲周边，但不排斥全球客户。因此地域词按层级投放，不允许在首屏大字里宣布「专供某个市场」。
+
+| 层级 | 承载处 | 写法 |
+|---|---|---|
+| L1 首屏大字 | `<h1>` + `<title>` | 品类 + 规格 + 全球履约；标题标签可留一个区域词（`Zimbabwe & Worldwide`），不写 `only for` / `专供` |
+| L2 小字 | H1 下方 `text-[11px]` note | 列主力市场国名，收尾写 `other regions welcome` / `其他地区同样接单` |
+| L3 结构化 + 专题 | `Organization.areaServed`、`meta description`、`/markets/[market]`、`/zimbabwe-fasteners-wholesale` | 全球口径 + 区域重点；专题页可把区域写重 |
+
+约束：十语种同步改；`factory direct / 工厂直供` 一类工厂产权词一律不出现在首屏（`check-claims.py` 会拦）；改完跑 `tsc` + `check-claims` + dev 渲染取证。经验 195/196。
