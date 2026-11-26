@@ -242,7 +242,8 @@
             "ar": "ما الفرق بين برغي السداسي الثقيل والسداسي العادي؟",
             "es": "¿Qué diferencia hay entre perno pesado y hexagonal estándar?",
             "fr": "Quelle différence entre boulon hex lourd et boulon hex standard ?",
-            "pt": "Qual a diferença entre parafuso sextavado pesado e padrão?"
+            "pt": "Qual a diferença entre parafuso sextavado pesado e padrão?",
+            "de": "Was unterscheidet schwere Sechskantschrauben von normalen?"
           },
           "a": {
             "en": "Heavy hex bolts have a larger bearing surface (wider across flats and a thicker head) than standard hex bolts. This provides better load distribution for structural connections with oversized holes.",
@@ -252,7 +253,8 @@
             "ar": "يتمتع برغي السداسي الثقيل بسطح ارتكاب أكبر، أي عرض أوسع بين المسطحات ورأس أسمك، مقارنة بالبرغي السداسي العادي. ويوفر ذلك توزيعًا أفضل للحمل في الوصلات الإنشائية ذات الثقوب الأكبر من القياس.",
             "es": "El perno pesado tiene una superficie de apoyo mayor (más ancho entre caras y cabeza más gruesa) que el perno hexagonal estándar. Esto da mejor reparto de carga en uniones estructurales con huecos sobredimensionados. La cabeza amplia reparte la fuerza sobre la placa de apoyo.",
             "fr": "Les boulons hex lourd ont une surface d'appui plus grande (larger entre plats et tête plus épaisse) que les boulons hex standard. Ils assurent une meilleure répartition de charge pour les liaisons structurales à trous surdimensionnés. La tête élargie répartit l'effort sur la pièce assemblée.",
-            "pt": "Os parafusos sextavados pesados têm superfície de apoio maior, com cabeça mais larga entre faces e mais espessa, que os parafusos sextavados padrão. Isso melhora a distribuição da carga em ligações estruturais com furos maiores que o padrão. O tipo segue a condição do furo e a carga da junta, e a cabeça é conferida contra o desenho estrutural."
+            "pt": "Os parafusos sextavados pesados têm superfície de apoio maior, com cabeça mais larga entre faces e mais espessa, que os parafusos sextavados padrão. Isso melhora a distribuição da carga em ligações estruturais com furos maiores que o padrão. O tipo segue a condição do furo e a carga da junta, e a cabeça é conferida contra o desenho estrutural.",
+            "de": "Schwere Sechskantschrauben haben eine größere Auflagefläche (breiter über Flachse und dickerer Kopf) als normale. Das sorgt für bessere Lastverteilung in Stahlbaubindungen mit übergroßen Löchern."
           }
         },
         {
@@ -264,7 +266,8 @@
             "ar": "ما البراغي المستخدمة لتثبيت الجدران الستائرية؟",
             "es": "¿Qué pernos se usan para fijación de muro cortina?",
             "fr": "Quels boulons pour la fixation de mur-rideau ?",
-            "pt": "Que parafusos se usam na fixação de fachadas cortinas?"
+            "pt": "Que parafusos se usam na fixação de fachadas cortinas?",
+            "de": "Welche Schrauben werden für Fassadenbefestigung genutzt?"
           },
           "a": {
             "en": "Curtain wall fixing typically uses M12 or M16 Grade 8.8 HDG hex bolts or specialized stainless steel刺客螺栓 with nylon anchors for concrete backup. Spec depends on wind load calculations.",
@@ -274,7 +277,8 @@
             "ar": "يستخدم تثبيت الجدران الستائرية عادة براغي سداسية من الدرجة 8.8 مجلفنة بالغمس الساخن بمقاس M12 أو M16، أو براغي خاصة من الفولاذ المقاوم للصدأ مع مرساة نايلون في دعامة الخرسانة. ويعتمد المواصف على حساب حمل الرياح.",
             "es": "La fijación de muro cortina usa típicamente pernos hexagonales HDG M12 o M16 grado 8.8, o pernos inoxidables especiales con anclajes de nailon para respaldo de hormigón. La especificación depende del cálculo de carga de viento. El material y el tamaño se definen según el cálculo de la fachada.",
             "fr": "La fixation de mur-rideau emploie typiquement des boulons hex M12 ou M16 classe 8.8 HDG, ou des boulons inox spécialisés avec ancrages nylon pour le contreventement béton. La spécification dépend des calculs de charge au vent. Le vent repris par la façade fixe le choix et la classe.",
-            "pt": "A fixação de fachada cortina costuma usar parafusos sextavados M12 ou M16 classe 8.8 HDG, ou parafusos inoxidáveis especializados com buchas de nylon para apoio em concreto. A especificação depende dos cálculos de carga de vento. O material e a classe seguem o projeto da fachada, e o apoio é verificado na estrutura de base."
+            "pt": "A fixação de fachada cortina costuma usar parafusos sextavados M12 ou M16 classe 8.8 HDG, ou parafusos inoxidáveis especializados com buchas de nylon para apoio em concreto. A especificação depende dos cálculos de carga de vento. O material e a classe seguem o projeto da fachada, e o apoio é verificado na estrutura de base.",
+            "de": "Die Fassadenbefestigung nutzt typisch M12 oder M16 Güte 8.8 HDG Sechskantschrauben oder spezielle Edelstahlanker mit Nylondübeln für die Betonrückwand. Die Spezifikation hängt von der Windlastberechnung ab."
           }
         },
         {
@@ -286,7 +290,8 @@
             "ar": "أي فئة الخواص تناسب وصلات المنشآت الفولاذية؟",
             "es": "¿Qué clase de propiedad para uniones de estructura de acero?",
             "fr": "Quelle classe de propriété pour les liaisons de structure acier ?",
-            "pt": "Qual classe de propriedade para ligações de estrutura de aço?"
+            "pt": "Qual classe de propriedade para ligações de estrutura de aço?",
+            "de": "Welche Festigkeitsklasse für Stahlbaubindungen?"
           },
           "a": {
             "en": "ISO 898-1 class 8.8 is the general structural default, with 10.9 where the connection is compact and preload matters. Class 8.8 in a large assembly is often more practical than 10.9 because of hydrogen embrittlement risk in coating.",
@@ -296,7 +301,8 @@
             "ar": "فئة ISO 898-1 الدرجة 8.8 هي الافتراض الإنشائي العام، وتستخدم 10.9 حيث تكون الوصلة مدمجة ويعتمد فيها الشد المسبق. والمقارنة بدرجة 10.9، كثيرًا ما تكون 8.8 في التجميع الكبير أكثر عملية بسبب خطر هشاشة الهيدروجين المصاحب للطلاء.",
             "es": "La clase ISO 898-1 8.8 es el valor por defecto estructural general, con 10.9 donde la unión es compacta y el pretensado importa. La clase 8.8 en un conjunto grande suele ser más práctica que la 10.9 por el riesgo de fragilización por hidrógeno del recubrimiento. La clase se elige según la compacidad y la carga de la unión.",
             "fr": "La classe 8.8 ISO 898-1 est la valeur structurale générale, avec la 10.9 lorsque la liaison est compacte et que le précharge compte. En grand assemblage, la classe 8.8 est souvent plus pratique que la 10.9 du fait du risque de fragilisation par hydrogène dans le revêtement. La classe suit la géométrie et le risque.",
-            "pt": "A classe 8.8 da ISO 898-1 é o padrão estrutural geral, com 10.9 onde a ligação é compacta e o pré-carregamento importa. A classe 8.8 em uma montagem grande costuma ser mais prática que a 10.9 pelo risco de fragilização por hidrogênio no revestimento. A classe é conferida na cabeça do parafuso, e o certificado do lote acompanha a entrega."
+            "pt": "A classe 8.8 da ISO 898-1 é o padrão estrutural geral, com 10.9 onde a ligação é compacta e o pré-carregamento importa. A classe 8.8 em uma montagem grande costuma ser mais prática que a 10.9 pelo risco de fragilização por hidrogênio no revestimento. A classe é conferida na cabeça do parafuso, e o certificado do lote acompanha a entrega.",
+            "de": "ISO 898-1 Klasse 8.8 ist der allgemeine Stahlbaustandard, 10.9 wo die Bindung kompakt ist und Vorspannung zählt. Klasse 8.8 ist in großer Baugruppe oft praktikabler als 10.9 wegen Wasserstoffversprödungsrisiko in der Beschichtung."
           }
         }
       ],
