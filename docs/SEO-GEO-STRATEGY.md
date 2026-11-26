@@ -99,7 +99,7 @@
 ### 三条明确不做的决策（避免下轮又绕回来）
 
 - **不靠新增页面增长**。279 × 10 = 2,790 个文章页，索引预算早就被自己占满；新增一篇的 ROI 远低于把 4–10 名的 609 页推到前 3。
-- **不再加 FAQ（2026-11-26 口径升级，本节为唯一来源）**。两层理由：① 覆盖已 100%，再加边际为零；② Google 官方口径——**FAQ rich results 现只对政府和医疗类站点开放，B2B 站点即便输出 FAQPage 结构化数据也不会出折叠富结果**，它只帮助内容理解。所以：**已补的 FAQ 一律不回退**（对 AI 搜索/AI Overview 的抓取理解仍有价值，属 GEO 收益）；**从 2026-11-26 起停止以"补满多少条"为目标的扩 FAQ**，B 区剩余语种缺口由 B 线按他们节奏走，A 线不再加派；预算转向首段、实体密度、内链与新鲜度信号。
+- **不再加 FAQ（2026-11-26 口径升级，本节为唯一来源）**。两层理由：① 覆盖已 100%，再加边际为零；② Google 官方口径——**FAQ 富结果自 2026-05-07 起在 Google 搜索完全停用**（旧稿"仅政府和医疗类站点开放"是 2023 版口径，已被本次全站停用取代；FAQPage 文档 2026-06 下线，`/structured-data/faqpage` 已 301 到 `/search/updates`），B2B 站点输出 FAQPage 不会出折叠富结果，它只帮助内容理解；官方未要求移除，保留无害。所以：**已补的 FAQ 一律不回退**（对 AI 搜索/AI Overview 的抓取理解仍有价值，属 GEO 收益）；**从 2026-11-26 起停止以"补满多少条"为目标的扩 FAQ**，B 区剩余语种缺口由 B 线按他们节奏走，A 线不再加派；预算转向首段、实体密度、内链与新鲜度信号。
 - **不再堆 schema**。单页 18 块已足够，继续加只会稀释信号、增加 HTML 体积。
 
 ---
@@ -289,7 +289,7 @@ bash scripts/vercel-audit.sh           # 第 9–13 项必须绿
 | 2026-11-26 | 新鲜度信号单一来源落地：`scripts/content-freshness.py` + `content/freshness.json` + `src/lib/freshness.ts`；`dateModified ≥ datePublished` 强制成立；sitemap 文章 lastmod 改用真实日期、构建戳只留非文章页（`a559cfaf`、`4b24c64c`、`dc93c22d`、`faca5504`） | A |
 | 2026-11-26 | Google 技术口径四项：robots 删 `/_next/` 与 `Host:`（20 段同步）、robots meta 补 `max-image-preview:large`+`max-snippet:-1`、Article author 改 Person、停出 `meta keywords`（`a94a11ff`、`e3265df8`、`824a9529`、`0e171dfd`、`571cc332`、`338ab8df`） | A |
 | 2026-11-26 | 索引管道：sitemap 重提交成功（`11:37:58 CST`，GSC 复核已发现 4,101）；20 条重点 URL 入队 7 条后触发当日配额（`docs/GSC-INDEX-2026-1126.md`，`d6bbca68`）；GSC 数据刷新至 2026-11-23：clicks 272 / impressions 2.61 万 / CTR 1% / 均排 13.1；覆盖率 1,272 已索引、4,480 未索引 | A |
-| 2026-11-26 | FAQ 战略口径定稿：不再以"补满条数"为目标扩 FAQ，已补不回退（官方口径：FAQ 富结果仅政府/医疗类开放）；见 §3 决策条 | A |
+| 2026-11-26 | FAQ 战略口径定稿：不再以"补满条数"为目标扩 FAQ，已补不回退（订正：FAQ 富结果 2026-05-07 起全站停用，旧"仅政府/医疗"口径作废）；见 §3 决策条 | A |
 | 2026-11-26 | 合规红点：`ghana-building-materials`（10 语种 PVoC 段去上海地点与 USD 档位）、`angola-lng-project-fastener-procurement`（10 语种改"按 ISO 9001 体系生产、证书按订单提供"）；全库扫描真违规去重 109 篇，余 107 篇在册待排（`docs/compliance-redspots-2026-1126.md`，`111c9c3e`、`45995e59`、`4e464b14`） | A |
 | 2026-11-26 | 样板块治理方案 `docs/DUP-BLOCK-PLAN.md`（hub=`high-tensile-structural-bolts-guide`，5% 词数硬线）；A 区 5 篇试点命中族 23/20/19/19/19 → 各 4，全库族数 70→70（机制所致），`bebdbed5` 起 15 笔 | A |
 
