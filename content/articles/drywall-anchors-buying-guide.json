@@ -218,7 +218,8 @@
             "es": "¿Qué carga puede soportar de forma realista un anclaje de yeso?",
             "fr": "Quelle charge une cheville de plâtre supporte-t-elle réalistement ?",
             "pt": "Que carga uma bucha de drywall suporta de fato?",
-            "de": "Welche Last trägt ein Trockenbaudübel realistisch?"
+            "de": "Welche Last trägt ein Trockenbaudübel realistisch?",
+            "ja": "ドライウォールアンカーは現実的にどの程度の荷重を支えられますか？"
           },
           "a": {
             "en": "Light items - pictures, small shelves, fittings - in the range of a few kilograms per anchor in sound board. Anything heavier should reach a stud or use a rated anchor with a published test value for the board type.",
@@ -229,7 +230,8 @@
             "es": "Artículos ligeros: cuadros, estantes pequeños, accesorios, del orden de unos pocos kilogramos por anclaje en tablero sano. Todo lo más pesado debe llegar a un montante o usar un anclaje clasificado con valor de ensayo publicado para ese tipo de tablero. El peso decide si basta un anclaje de placa o hace falta un soporte real.",
             "fr": "Des objets légers : tableaux, petites étagères, appareils, de l'ordre de quelques kilogrammes par cheville dans un panneau sain. Tout élément plus lourd doit atteindre une ossature ou employer un ancrage nominal avec une valeur d'essai publiée pour le type de panneau. La capacité réelle dépend du support.",
             "pt": "Itens leves — quadros, prateleiras pequenas, acessórios — na faixa de alguns quilogramas por bucha em painel sólido. Mais pesado deve alcançar um montante ou usar uma âncora com valor de ensaio publicado para o tipo de painel. A carga é conferida contra a ficha da bucha, e a espessura do painel define a escolha.",
-            "de": "Leichte Gegenstände - Bilder, kleine Regale, Armaturen - im Bereich weniger Kilogramm je Dübel in fester Platte. Alles Schwerere sollte auf einen Ständer treffen oder einen bewerteten Dübel mit angegebenem Prüfwert für den Plattentyp nutzen."
+            "de": "Leichte Gegenstände - Bilder, kleine Regale, Armaturen - im Bereich weniger Kilogramm je Dübel in fester Platte. Alles Schwerere sollte auf einen Ständer treffen oder einen bewerteten Dübel mit angegebenem Prüfwert für den Plattentyp nutzen.",
+            "ja": "健全なボードでは、各アンカーで数キロ程度の軽い物品、つまり絵、小さな棚、小さな取付け品を支えられます。それより重いものは間柱まで届けるか、ボードの種類に対する公表試験値のある定格アンカーを使うべきです。取り付ける物品の重さを確認してアンカーを選んでください。"
           }
         },
         {
@@ -242,7 +244,8 @@
             "es": "¿Qué tres tipos de anclaje me van a cotizar?",
             "fr": "Quels trois types d'ancrage vais-je voir proposés ?",
             "pt": "Quais três tipos de âncora eu recebo em cotação?",
-            "de": "Welche drei Dübeltypen werden angeboten?"
+            "de": "Welche drei Dübeltypen werden angeboten?",
+            "ja": "見積もりに出る三種類のアンカーは何ですか？"
           },
           "a": {
             "en": "Self-drilling anchors that cut their own hole, plugs that need a pre-drilled hole, and toggles that spread load behind the board. The board thickness decides which one works, not the price.",
@@ -253,7 +256,8 @@
             "es": "Anclajes autoperforantes que cortan su propio hueco, tacos que necesitan un hueco pre-taladrado, y anclajes de paleta que reparten la carga detrás del tablero. El grosor del tablero decide cuál sirve, no el precio. Cada tipo se adapta a un espesor y una forma de fijación distintos.",
             "fr": "Les ancrages autoperceurs qui coupent leur propre trou, les chevilles nécessitant un avant-trou, et les tirants qui répartissent la charge derrière le panneau. L'épaisseur du panneau décide du type efficace, pas le prix. Chaque famille répond à un support et une charge donnés.",
             "pt": "Âncoras autoperfurantes que fazem o próprio furo, buchas que precisam de furo pré-perfurado, e toggles que espalham a carga atrás do painel. A espessura do painel decide qual funciona, não o preço. O tipo é casado com a base, e a capacidade é verificada na documentação do produto.",
-            "de": "Selbstbohrende Dübel, die ihr eigenes Loch schneiden, Dübel die ein vorgebohrtes Loch brauchen, und Toggle, die die Last hinter der Platte verteilen. Die Plattendicke entscheidet über den passenden Typ, nicht der Preis."
+            "de": "Selbstbohrende Dübel, die ihr eigenes Loch schneiden, Dübel die ein vorgebohrtes Loch brauchen, und Toggle, die die Last hinter der Platte verteilen. Die Plattendicke entscheidet über den passenden Typ, nicht der Preis.",
+            "ja": "自身で穴を切る自己穿孔アンカー、下穴を必要とするプラグ、ボードの裏側で荷重を広げるタグルです。どれが使えるかは価格ではなくボードの厚みで決まります。ボードの厚みと下地を確認して種類を選定してください。それぞれの仕組みを理解し、ボードと下地の状況に合った方式を選んでください。"
           }
         },
         {
@@ -266,7 +270,8 @@
             "es": "¿Cómo coloco un anclaje para que agarre?",
             "fr": "Comment poser une cheville pour qu'elle tienne ?",
             "pt": "Como instalar uma âncora para que segure?",
-            "de": "Wie montiert man einen Dübel, damit er hält?"
+            "de": "Wie montiert man einen Dübel, damit er hält?",
+            "ja": "保持させるにはアンカーをどのように取り付けますか？"
           },
           "a": {
             "en": "Match the anchor to the board thickness, drive or drill without tearing the paper face, and stop at the marked depth. Over-driving crushes the board core, which is the usual reason an anchor spins loose a week later.",
@@ -277,7 +282,8 @@
             "es": "Empareje el anclaje con el grosor del tablero, clave o taladre sin romper la cara de papel, y deténgase a la profundidad marcada. Pasarse de largo aplasta el núcleo del tablero, que es la razón habitual por la que un anclaje gira suelto una semana después. La colocación pareja y a la profundidad justa mantiene el agarre.",
             "fr": "Accorder l'ancrage à l'épaisseur du panneau, enfoncer ou percer sans déchirer le papier de face, et s'arrêter à la profondeur marquée. Un sur-enfoncement écrase l'âme du panneau, raison habituelle pour laquelle une cheville tourne et se desserre une semaine plus tard. La pose sans abîmer le panneau assure la rétention.",
             "pt": "Casa-se a âncora com a espessura do painel, crava-se ou perfura-se sem rasgar a face de papel, e para-se na profundidade marcada. Apertar demais esmaga o núcleo do painel, que é o motivo usual de a bucha folgar uma semana depois. A profundidade é conferida na marca da âncora, e a face é inspecionada após a instalação.",
-            "de": "Den Dübel an die Plattendicke anpassen, eindrehen oder bohren ohne die Papieroberfläche zu zerreißen, und bei der markierten Tiefe anhalten. Zu starkes Eindrehen zermalmt den Plattenkern, was üblicher Grund dafür ist, dass ein Dübel eine Woche später lose dreht."
+            "de": "Den Dübel an die Plattendicke anpassen, eindrehen oder bohren ohne die Papieroberfläche zu zerreißen, und bei der markierten Tiefe anhalten. Zu starkes Eindrehen zermalmt den Plattenkern, was üblicher Grund dafür ist, dass ein Dübel eine Woche später lose dreht.",
+            "ja": "アンカーをボードの厚みに合わせ、表面の紙を破らないよう打ち込みまたは穿孔し、目印の深さで止めます。打ち込み過ぎるとボードの芯材が潰れ、一週間後にアンカーが空回りして緩む原因になります。深さを守って施工してください。取り付け後にガタつきがないか確認し、保持状態を定期的に点検してください。"
           }
         }
       ]
