@@ -186,3 +186,13 @@
 ### 5.3 可复用判据脚本（都在 `$T9L`）
 
 `dup_paragraph.py`（跨篇整段重复）、`lang_consistency.py`（ar 三组 + 9 语种交叉）、`lang_consistency_ruja.py`（ru/ja/zh/hi 口径）、`check_latin.py`（es/fr/de/pt）、`check_zh.py`、`check_ja.py`、`check_hi.py`、`scan_longans.py`、`scan_shortans.py`、`scan_s5_index.py`、`final_account.py`（起点快照 vs 当前逐条对账）。
+
+### 3.6 合规复核（本轮新增行全量扫过）
+
+| 检查 | 口径 | 结果 |
+|---|---|---|
+| 持证表述 | `已持有｜持有 ISO/CE/SABS｜certified by` | 新增行命中 **0**；改写统一为「按 SABS 1195/DIN/ISO 生产」或「证书按订单要求提供」 |
+| 产地重复残句 | `China (China)`、`中国中国`、`Китай (Китай)` | 新增行命中 **0** |
+| 乱码 / 双空格 | `U+FFFD`、字符串内 `\S  +\S` | U+FFFD **0**；双空格全库 136 条**均为存量**，本轮新增 **0** |
+| 金额类 | `USD/€/£/million/单价/折扣/unit price/price list` | 非 en 语种出现金额表述的篇目 81→**83**，新增 2 篇（`lag-screws-timber-connections`「单价更高」、`offshore-fasteners-fire-protection-and-certification`「不只比较单价」）——均为**定性比较、无具体数值**，不构成报价；en 侧 76 篇**零新增**。金额清单仍以 G 类线统一口径处置（439 条） |
+| 闸门 | `content_gate`（单篇 + 全量） | 全量 279 篇：BLOCK 0、新增 BLOCK 0、EXIT=0 |
