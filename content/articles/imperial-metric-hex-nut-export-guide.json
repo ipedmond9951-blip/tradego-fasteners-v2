@@ -194,7 +194,8 @@
             "es": "¿Qué tuerca de clase corresponde a un perno 8.8?",
             "fr": "Quelle classe d'écrou correspond à un boulon 8.8 ?",
             "pt": "Que classe de porca casa com um parafuso 8.8?",
-            "de": "Welche Mutterngüte passt zu einer 8.8-Schraube?"
+            "de": "Welche Mutterngüte passt zu einer 8.8-Schraube?",
+            "ja": "8.8 ボルトに合うナットクラスは何ですか？"
           },
           "a": {
             "en": "Grade 8 (proof load 890 MPa) is the minimum match for 8.8 bolts. Heavy hex Grade 8 is preferred for structural connections.",
@@ -205,7 +206,8 @@
             "es": "La Grade 8 (carga de prueba 890 MPa) es el emparejamiento mínimo para pernos 8.8. Para uniones estructurales se prefiere la tuerca pesada Grade 8. Una tuerca de clase inferior se romperá antes de que el perno alcance la precarga prevista. El par y la clase deben coincidir en toda la unión.",
             "fr": "La classe 8 (charge d'épreuve 890 MPa) est l'appariement minimal pour les boulons 8.8. L'écrou hex lourd classe 8 est préféré pour les liaisons structurales. La classe de l'écrou doit suivre la résistance du boulon pour ne pas être l'élément faible du joint.",
             "pt": "A classe 8, com carga de prova de 890 MPa, é o casamento mínimo para parafusos 8.8. A porca sextavada pesada classe 8 é preferida em ligações estruturais. A classe é conferida no corpo da porca, e o par com o parafuso é verificado na ficha do conjunto estrutural.",
-            "de": "Güte 8 (Prüflast 890 MPa) ist die Mindestpassung zu 8.8-Schrauben. Für Tragverbindungen wird die schwere Sechskantmutter Güte 8 bevorzugt."
+            "de": "Güte 8 (Prüflast 890 MPa) ist die Mindestpassung zu 8.8-Schrauben. Für Tragverbindungen wird die schwere Sechskantmutter Güte 8 bevorzugt.",
+            "ja": "クラス 8（保証荷重 890 MPa）が 8.8 ボルトへの最低限の組み合わせです。構造接続には重量用六角のクラス 8 が好まれます。ボルト側の強度を下回るナットを使うとねじの崩れが先に生じるため、クラスの組み合わせを仕様で確認してください。"
           }
         },
         {
@@ -218,7 +220,8 @@
             "es": "¿Son intercambiables tuercas GB y DIN?",
             "fr": "Les écrous GB et DIN sont-ils interchangeables ?",
             "pt": "Porcas GB e DIN são intercambiáveis?",
-            "de": "Lassen sich GB- und DIN-Muttern austauschen?"
+            "de": "Lassen sich GB- und DIN-Muttern austauschen?",
+            "ja": "GB と DIN のナットは互換性がありますか？"
           },
           "a": {
             "en": "Yes, GB and DIN metric nuts are harmonized under the ISO agreement and are dimensionally interchangeable. ISO 4032 replaces both DIN 934 and GB/T 6170.",
@@ -229,7 +232,8 @@
             "es": "Sí, las tuercas métricas GB y DIN están armonizadas según el acuerdo ISO y son dimensionalmente intercambiables. La ISO 4032 sustituye tanto a la DIN 934 como a la GB/T 6170. Aun así, conviene indicar en el plano la norma y la clase, para que el suministro no mezcle referencias sin comprobar.",
             "fr": "Oui, les écrous métriques GB et DIN sont harmonisés par l'accord ISO et sont dimensionnellement interchangeables. L'ISO 4032 remplace à la fois le DIN 934 et la norme GB/T 6170. Les deux systèmes décrivent les mêmes écrous métriques.",
             "pt": "Sim, as porcas métricas GB e DIN estão harmonizadas pelo acordo ISO e são dimensionalmente intercambiáveis. A ISO 4032 substitui tanto a DIN 934 quanto a GB/T 6170. A intercambiabilidade dimensional não cobre diferença de classe, e a norma é conferida contra a especificação de engenharia.",
-            "de": "Ja, GB- und DIN-metrische Muttern sind durch die ISO-Vereinbarung harmonisiert und maßlich austauschbar. ISO 4032 löst sowohl DIN 934 als auch GB/T 6170 ab."
+            "de": "Ja, GB- und DIN-metrische Muttern sind durch die ISO-Vereinbarung harmonisiert und maßlich austauschbar. ISO 4032 löst sowohl DIN 934 als auch GB/T 6170 ab.",
+            "ja": "はい、GB と DIN のメトリックナットは ISO 協定に基づいて調和しており、寸法上互換性があります。ISO 4032 は DIN 934 と GB/T 6170 の両方を置き換えています。輸出仕様では旧規格番号と新規格番号を併記し、読み違いを防いでください。"
           }
         },
         {
@@ -242,7 +246,8 @@
             "es": "¿Qué forma de rosca para el mercado de EE. UU. y el Caribe?",
             "fr": "Quel filetage pour le marché américain et Caraïbe ?",
             "pt": "Qual forma de rosca para o mercado dos EUA e Caribe?",
-            "de": "Welche Gewindeform für den USA- und Karibikmarkt?"
+            "de": "Welche Gewindeform für den USA- und Karibikmarkt?",
+            "ja": "米国とカリブ市場にはどのねじ形式ですか？"
           },
           "a": {
             "en": "UNC for general coarse work and UNF where finer pitch is specified, in fractional sizes from 1/4 inch upward. Mixing UNC nuts with metric bolts is the most common import error in this segment.",
@@ -253,7 +258,8 @@
             "es": "UNC para trabajo grueso general y UNF donde se especifique un paso más fino, en tamaños fraccionarios desde 1/4 de pulgada arriba. Mezclar tuercas UNC con pernos métricos es el error de importación más frecuente en este segmento. Antes de pedir se verifica el sistema de rosca del destino.",
             "fr": "UNC pour le gros œuvre général et UNF lorsqu'un pas plus fin est spécifié, en dimensions fractionnaires à partir de 1/4 de pouce. Mélanger des écrous UNC avec des boulons métriques est l'erreur d'importation la plus courante dans ce segment. Le système de filetage suit le marché d'exportation.",
             "pt": "UNC para trabalho grossa geral e UNF onde passo mais fino é especificado, em tamanhos fracionários a partir de 1/4 de polegada. Misturar porcas UNC com parafusos métricos é o erro de importação mais comum neste segmento. A rosca é casada entre peças do mesmo sistema, e a bitola é conferida antes do pedido do conjunto.",
-            "de": "UNC für allgemeine Grobarbeiten und UNF wo eine feinere Steigung vorgegeben ist, in Zollgrößen ab 1/4 Zoll. Das Mischen von UNC-Muttern mit metrischen Schrauben ist der häufigste Importfehler in diesem Segment."
+            "de": "UNC für allgemeine Grobarbeiten und UNF wo eine feinere Steigung vorgegeben ist, in Zollgrößen ab 1/4 Zoll. Das Mischen von UNC-Muttern mit metrischen Schrauben ist der häufigste Importfehler in diesem Segment.",
+            "ja": "一般の並びねじ作業には UNC、細かいピッチが指定される箇所には UNF を使い、分数サイズは 1/4 インチ以上です。この分野で最も多い輸入誤りは、UNC ナットをメトリックボルトと混用することです。ねじ系を揃え、呼びサイズとピッチを注文書に明記してください。"
           }
         }
       ],
