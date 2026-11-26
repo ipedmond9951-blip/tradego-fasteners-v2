@@ -277,3 +277,28 @@ python3 -c "import sys;sys.path.insert(0,'scripts');import json_rewrite as jr;d=
 **硬不变量（延续）**：写锁 owner `今日头条分析`（TTL 30 分钟）必领必释；单文件 `git add <文件> && git commit -F <msg> -- <文件>` 同行；提交前查暂存区；禁 `-F -`、`add -A/-a`、reset/rebase/restore/stash、共享索引 `--amend`；只 commit 不 push；不碰 A 区 39 篇、`docs/SEO-GEO-*`、`next.config.ts`、`scripts/geo_audit.py`、`src/**`、他线 ` M`。
 
 **经验号段**：本轮占 **218–223**；下一轮开工前 `grep` 复核最大号。
+
+### 0.10 R-T9o 轮收口与下一轮入口（2026-11-26 23:30 CST 冻结）
+
+**收口状态**：起点 `dd84f11e`；`dd84f11e..HEAD` **188 笔全单文件提交**，全部本地未 push（明早 00:00 `~/AgentOps/bin/content-push.sh` 统一推）。执行细节 `docs/T9-REPORT-B-2026-1125.md` §19；跨线措辞 `docs/TWO-LINE-SYNC-2026-1126.md` §7；整改方案 `docs/GSC-CONTENT-REMEDIATION-B-2026-1126.md` §6；逐篇台账 `docs/geo-body-b-2026-1126.csv`（85 行已回填）。
+
+**三块结果**：① 实体密度 `ent<2` 44→剩 8（全结构性不可达，不宜再追）；② 孤儿 19→0（15 篇 2 条入站 / 4 篇 1 条）；③ 首段复述（最低 40 篇）40→0。改动 107 篇（83 改造 + 34 宿主 + 修复净额），82 篇有前后分、平均 **+16.7**。
+
+**七项验收**：① ent 剩 8；② 孤儿 0；③ echo 0；④ gate 干净 219/264（83%）、BLOCK 0、新增 0；⑤ 键删除 0 / `faqItems` 改动 0 / 正文缩水>15% 0；⑥ 数量型编造 0（新增标准号 20 + 常识数值 5，均可回退）；⑦ 188 笔全单文件、多文件 0、无 amend/reset/stash、无锁、暂存空、A 区交集 0。
+
+**本轮踩过的坑（都已在 §19 记账）**
+1. `ent` 是每千词命中数——"补 1–2 个实体"是错的量级估算（经验 224）。
+2. 孤儿只补出站链不改变状态，必须由宿主 `relatedArticles` 追加（经验 225）。
+3. 首段改造必须"前插"，整段替换会丢正文（9 篇/26 语种，经验 226）。
+4. 语种键齐全 ≠ 内容完整，验收要加"剥离标签长度 ≥ 基线 95%"（经验 227）。
+5. JSON 库写回会整文件重排，动到 A 区必须立刻回滚（经验 228）。
+
+**下一轮入口顺序**
+1. **上线验证优先**：push 后核 40 篇首段渲染（`ja/hi/ar` 纯文本前插段）+ 19 条入站链可点；08:30 Vercel 合规审计照跑。
+2. **微调两笔（可选）**：`south-africa-fasteners-china-import-guide` 首段 131→≤130 词；`nigeria-lekki-port-construction-fastener-logistics` 首段 31→≥40 词。
+3. **A 线接口**：只等 §6-B.5 五项回填；A 区 39 篇净变化 0，两篇误改已回滚，若需同簇链由 A 线自加。
+4. **不再做**：8 篇 ent 不可达、`ethiopia`/`cameroon`/`morocco` 三篇 redirect 存根的 body 改造。
+
+**硬不变量（延续）**：写锁 owner `今日头条分析`（TTL 30 分钟）必领必释；`git add <单文件> && git commit -F <msg> -- <单文件>` 同一行；禁 `-F -`/`add -A`/reset/rebase/restore/stash/`--amend`；只 commit 不 push；不碰 A 区 39 篇、`docs/SEO-GEO-*`、`next.config.ts`、`scripts/geo_audit.py`、`src/**`、他线 ` M`。
+
+**经验号段**：本轮占 **224–228**；下一轮开工前先 `grep` 复核最大号。
