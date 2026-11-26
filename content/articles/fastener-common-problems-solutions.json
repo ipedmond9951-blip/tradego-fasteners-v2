@@ -172,7 +172,8 @@
             "hi": "फास्टनरों की आम समस्याओं के समाधान की मुख्य बातें क्या हैं?",
             "ru": "С чего начать разбор типичных проблем с крепежом?",
             "ar": "ما أبرز مشكلات المثبتات وحلولها الشائعة؟",
-            "es": "¿Qué problemas frecuentes de fijaciones cubre esta guía de soluciones?"
+            "es": "¿Qué problemas frecuentes de fijaciones cubre esta guía de soluciones?",
+            "fr": "Quels points clés pour résoudre les problèmes courants de fixations ?"
           },
           "a": {
             "en": "See the detailed analysis above for specifications, applications, and best practices for fastener common problems solutions.",
@@ -180,7 +181,8 @@
             "hi": "फास्टनरों की आम समस्याओं और व्यावहारिक समाधानों से जुड़ी स्पेसिफिकेशन, उपयोग और कार्यप्रणाली की पूरी समीक्षा ऊपर के लेख में दी गई है; वहां दी गई बातें अपने जोड़ और पर्यावरण के अनुसार मिलाकर देखें।",
             "ru": "Разбор ведут по трём позициям: какое изделие и для чего применяется, как оно установлено и в какой среде работает. В типичные случаи входят потеря затяжки на соединении, ранняя коррозия и хрупкий либо усталостный излом резьбы. Спецификацию, условия эксплуатации и способ монтажа сверяют до заказа, а не после поломки узла; это сокращает и число повторных рекламаций, и потери на замену.",
             "ar": "تعالج المقالة أربع مشكلات رئيسية: الارتخاء من نقص الشد المسبق أو الاهتزاز العرضي أو الدورات الحرارية؛ والتآكل والصدأ من الرطوبة أو الطلاء غير المناسب؛ وتلف الخيوط من الشد الزائد أو الالتقاط الخاطئ؛ والكسر من الإجهاد الزائد أو الهشاشة. ويعالج كل سبب من المصدر: ضبط عزم الربط حسب الفئة، واختيار الطلاء حسب الوسط، والبدء بالخيط يدوياً، وإرسال العينات للفحص عند الكسر قبل تغيير المورد.",
-            "es": "La guía repasa los fallos más habituales: afloje por vibración y térmica, corrosión por humedad o contacto entre metales distintos, roscas dañadas por apriete excesivo o roscado cruzado, y roturas por sobrecarga, fatiga o grado inadecuado. Cada causa se relaciona con su solución: elemento de bloqueo, material resistente al entorno, reparación de rosca o cambio de pieza. Conviene revisar la especificación antes de cambiar de proveedor."
+            "es": "La guía repasa los fallos más habituales: afloje por vibración y térmica, corrosión por humedad o contacto entre metales distintos, roscas dañadas por apriete excesivo o roscado cruzado, y roturas por sobrecarga, fatiga o grado inadecuado. Cada causa se relaciona con su solución: elemento de bloqueo, material resistente al entorno, reparación de rosca o cambio de pieza. Conviene revisar la especificación antes de cambiar de proveedor.",
+            "fr": "Les problèmes les plus fréquents sont le desserrement sous vibration, la corrosion et la rouille, les filets abîmés et la casse. Chaque cas se traite en identifiant la cause d'origine — couple, serrage, matériau, revêtement, stockage — plutôt qu'en changeant simplement la fixation. Le contrôle du couple, le choix du revêtement selon l'exposition et le soin des filets limitent les répétitions de panne sur chantier."
           }
         },
         {
@@ -190,7 +192,8 @@
             "hi": "लगातार कसने पर भी बोल्ट ढीले क्यों हो जाते हैं?",
             "ru": "Почему болты ослабляются, хотя при монтаже были затянуты?",
             "ar": "لماذا ترتخي البراغي رغم شدّها عند التركيب؟",
-            "es": "¿Por qué se aflojan los pernos aunque quedaron apretados?"
+            "es": "¿Por qué se aflojan los pernos aunque quedaron apretados?",
+            "fr": "Pourquoi les boulons se desserrent-ils après avoir été serrés ?"
           },
           "a": {
             "en": "Three causes dominate: too little preload so the joint slips, transverse vibration that unwinds the thread, and creep or thermal cycling that relaxes the clamp. Fix the cause, not the symptom - set torque from the bolt class, add lock nuts or wedge-lock washers, and re-torque on schedule.",
@@ -198,7 +201,8 @@
             "hi": "तीन मुख्य कारण हैं: प्री-लोड कम रहने से जोड़ फिसलने लगता है, अनुप्रस्थ कंपन धागा खोल देती है, और क्रीप या तापीय चक्र क्लैंप दबाव कम कर देता है। लक्षण नहीं, कारण ठीक करें: बोल्ट वर्ग के हिसाब से टॉर्क तय करें, लॉक नट या वेज-लॉक वॉशर लगाएं, और तय कार्यक्रम से दोबारा टॉर्क करें।",
             "ru": "Доминируют три причины: малая предварительная затяжка (preload), из-за которой соединение скользит; поперечная вибрация, сматывающая резьбу; ползучесть или температурные циклы, снимающие усилие зажатия. Чинят первопричину, а не симптом: момент (torque) задают от класса болта, ставят стопорные гайки или клиновидные стопорные шайбы, повторную затяжку проводят по графику.",
             "ar": "تهيمن ثلاثة أسباب: شد مسبق قليل فينزلق الوصل، واهتزاز عرضي يفك الخيط، وزحف أو دورات حرارية تخفض ضغط التثبيت. ويعالج السبب لا العرض: اضبط عزم الربط من فئة البرغي، وأضف صواميل قفل أو حلقات قفل إسفينية، وأعد الشد وفق جدول زمني محدد. والمراجعة الدورية تمنع عودة الارتخاء في الوصلات المعرضة للاهتزاز المستمر.",
-            "es": "Dominan tres causas: precarga insuficiente que hace deslizar la unión, vibración transversal que desenrosca la rosca, y fluencia o ciclos térmicos que relajan la sujeción. Hay que corregir la causa, no el síntoma: fijar el par según la clase del perno, añadir tuercas autoblocantes o arandelas de cuña, y reapretar según programa."
+            "es": "Dominan tres causas: precarga insuficiente que hace deslizar la unión, vibración transversal que desenrosca la rosca, y fluencia o ciclos térmicos que relajan la sujeción. Hay que corregir la causa, no el síntoma: fijar el par según la clase del perno, añadir tuercas autoblocantes o arandelas de cuña, y reapretar según programa.",
+            "fr": "Trois causes dominent : un précharge trop faible qui laisse glisser le joint, la vibration transversale qui déroule le filet, et le fluage ou cyclage thermique qui relâche le serrage. On traite la cause et non le symptôme : couple défini selon la classe du boulon, écrous freinants ou rondelles à coin, et re-serrage selon calendrier. Un joint sous vibration mérite un moyen de blocage adapté."
           }
         },
         {
@@ -208,7 +212,8 @@
             "hi": "एक साल के भीतर जंग कैसे रोकें?",
             "ru": "Как остановить появление ржавчины в первый же год?",
             "ar": "كيف أمنع ظهور الصدأ خلال أقل من سنة؟",
-            "es": "¿Cómo evitar que aparezca óxido antes de un año?"
+            "es": "¿Cómo evitar que aparezca óxido antes de un año?",
+            "fr": "Comment éviter la rouille dans l'année ?"
           },
           "a": {
             "en": "Most early failures are specification or handling mistakes: electro-zinc used outdoors, coating damaged during transport, or cut ends left bare. Specify by environment, pack to protect the coating, and touch up cut or scratched areas with zinc-rich paint on site.",
@@ -216,7 +221,8 @@
             "hi": "शुरुआती कई खराबियां स्पेसिफिकेशन या हैंडलिंग की गलती से होती हैं: बाहर इलेक्ट्रो-जिंक का इस्तेमाल, शिपिंग में कोटिंग का खराब होना, या कटे सिरे नंगे छोड़ देना। पर्यावरण के हिसाब से कोटिंग तय करें, पैकिंग में उसकी सुरक्षा करें, और कटे या खरोंच वाले हिस्से पर साइट पर जिंक-रिच पेंट से छूट दें।",
             "ru": "Большинство ранних отказов — ошибки в спецификации или обращении: электролитическое цинкование поставили на улицу, покрытие повредили при перевозке, обрезанные концы оставили без защиты. Подбирайте покрытие по среде эксплуатации, упаковывайте так, чтобы защитить слой, а на месте срезы и царапины подкрашивайте цинксодержащей грунтовкой.",
             "ar": "معظم الإخفاقات المبكرة أخطاء في المواصفات أو المناولة: استخدام طلاء زنك كهربائي في الهواء الطلق، أو تلف الطلاء أثناء النقل، أو ترك الأطراف المقطوعة عارية. لذلك حدد المواصفات حسب البيئة، وعبّئ المنتجات بما يحمي الطلاء، ولمس المناطق المقطوعة أو المخدوشة في الموقع بطلاء غني بالزنك. فالطلاء الرقيق لا يصمد في الأجواء الرطبة أو الساحلية، ويجب اختيار جلفنة غمس ساخن أو فولاذ مقاوم للصدأ عند الحاجة.",
-            "es": "La mayoría de los fallos tempranos son errores de especificación o manipulación: zincado eléctrico usado en exterior, recubrimiento dañado durante el transporte, o cortes dejados sin protección. Se especifica por entorno, se embala para proteger el recubrimiento, y se retocan con pintura rica en zinc las zonas cortadas o rayadas en obra."
+            "es": "La mayoría de los fallos tempranos son errores de especificación o manipulación: zincado eléctrico usado en exterior, recubrimiento dañado durante el transporte, o cortes dejados sin protección. Se especifica por entorno, se embala para proteger el recubrimiento, y se retocan con pintura rica en zinc las zonas cortadas o rayadas en obra.",
+            "fr": "La plupart des défaillances précoces viennent d'erreur de spécification ou de manipulation : zinc électrolytique utilisé en extérieur, revêtement abîmé au transport, ou abouts coupés laissés nus. On spécifie selon le milieu, on emballe pour protéger le revêtement, et l'on retouche sur place les zones coupées ou rayées avec une peinture riche en zinc. Le stockage au sec complète ces mesures."
           }
         },
         {
@@ -226,7 +232,8 @@
             "hi": "बोल्ट झुकने की जगह टूट क्यों जाता है?",
             "ru": "Почему болт ломается, а не гнётся?",
             "ar": "لماذا ينكسر البرغي بدل أن ينحني؟",
-            "es": "¿Qué hace que un perno se rompa en lugar de doblarse?"
+            "es": "¿Qué hace que un perno se rompa en lugar de doblarse?",
+            "fr": "Pourquoi un boulon casse-t-il plutôt que de se plier ?"
           },
           "a": {
             "en": "Brittle fracture points to hydrogen embrittlement on high-strength grades, over-tightening past yield, or a heat-treatment problem. Fatigue fracture at the thread root points to vibration and insufficient preload. Send samples for hardness and metallography before changing suppliers.",
@@ -234,7 +241,8 @@
             "hi": "भंगुर टूटना उच्च शक्ति ग्रेड में हाइड्रोजन भंगुरता, यील्ड से ज्यादा कसने या हीट-ट्रीटमेंट की दिक्कत की ओर इशारा करता है। धागे की जड़ में थकान टूटना कंपन और अपर्याप्त प्री-लोड से जुड़ा होता है। आपूर्तिकर्ता बदलने से पहले नमूनों की कठोरता और धातु-संरचना जांच कराएं।",
             "ru": "Хрупкий излом указывает на водородное охрупчивание у высокопрочных классов, перетяжку за предел текучести либо нарушение термообработки. Усталостный излом у корня резьбы говорит о вибрации и недостаточной предварительной затяжке. Прежде чем менять поставщика, отправьте образцы на твёрдость и металлографию: так отделят брак партии от ошибки сборки.",
             "ar": "الكسر الهش يشير إلى تقصف الهيدروجين في الدرجات عالية الشد، أو الشد الزائد بعد حد الخضوع، أو مشكلة في المعالجة الحرارية. أما كسر التعب عند جذر الخيط فيدل على الاهتزاز ونقص الشد المسبق. وأرسل العينات لفحص الصلابة والفحص المعدني قبل تغيير المورد، لأن مصدر الكسر يحدد الإصلاح: معالجة سطحية للهيدروجين، أو تصحيح عزم الربط، أو إعادة ضبط حرارة الدفعة.",
-            "es": "Una fractura frágil apunta a fragilización por hidrógeno en clases altas, a un apriete por encima del límite elástico, o a un problema de tratamiento térmico. La fractura por fatiga en la raíz de la rosca apunta a vibración y precarga insuficiente. Envíe muestras para dureza y metalografía antes de cambiar de proveedor."
+            "es": "Una fractura frágil apunta a fragilización por hidrógeno en clases altas, a un apriete por encima del límite elástico, o a un problema de tratamiento térmico. La fractura por fatiga en la raíz de la rosca apunta a vibración y precarga insuficiente. Envíe muestras para dureza y metalografía antes de cambiar de proveedor.",
+            "fr": "Une rupture fragile renvoie à une fragilisation par hydrogène sur les classes haute résistance, à un serrage au-delà de la limite d'élasticité, ou à un problème de traitement thermique. Une rupture par fatigue au fond du filet renvoie à la vibration et à un précharge insuffisant. On fait analyser les éprouvettes en dureté et métallographie avant de changer de fournisseur."
           }
         }
       ]
