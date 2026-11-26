@@ -242,7 +242,8 @@
             "hi": "तापमान क्योर समय को कैसे प्रभावित करता है?",
             "ru": "Как температура влияет на время отверждения химического анкера?",
             "ar": "كيف تؤثر الحرارة في زمن تثبيت الراتنج؟",
-            "es": "¿Cómo afecta la temperatura al tiempo de curado?"
+            "es": "¿Cómo afecta la temperatura al tiempo de curado?",
+            "fr": "Comment la température affecte-t-elle le temps de polymérisation ?"
           },
           "a": {
             "en": "Cure time is a function of substrate temperature: warm concrete sets the resin faster, cold concrete much slower, and near freezing some systems stop curing altogether. Read the cure chart for the actual site temperature, not the laboratory figure.",
@@ -250,7 +251,8 @@
             "hi": "क्योर समय आधार सामग्री के तापमान पर निर्भर करता है: गर्म कंक्रीट में रेजिन जल्दी जमता है, ठंडे में बहुत धीमा, और जमाव के पास के तापमान पर कुछ सिस्टम पूरी तरह क्योर होना बंद कर देते हैं। प्रयोगशाला के आँकड़े की जगह साइट के असली तापमान के लिए क्योर चार्ट पढ़ें।",
             "ru": "Время отверждения зависит от температуры основания: в тёплом бетоне смола схватывается быстрее, в холодном заметно медленнее, а около нуля часть систем вообще перестаёт полимеризоваться. Берут график отверждения фактической температуры на объекте, а не лабораторную цифру из паспорта, и подбирают состав под реальные условия зимней или летней заливки.",
             "ar": "زمن التثبيت دالة على حرارة الركيزة: فالخرسانة الدافئة تصلب الراتنج أسرع، والخرسانة الباردة أبطأ بكثير، وعند ما يقرب من التجمد قد تتوقف بعض الأنظمة عن التثبيت تمامًا. اقرأ مخطط التثبيت بحرارة الموقع الفعلية، لا الرقم المختبري.",
-            "es": "El tiempo de curado depende de la temperatura del soporte: el hormigón tibio fragua la resina más rápido, el frío mucho más lento, y cerca del punto de congelación algunos sistemas dejan de curar por completo. Lea la tabla de curado para la temperatura real del sitio, no la cifra de laboratorio. La temperatura de la obra es la que manda sobre el fraguado."
+            "es": "El tiempo de curado depende de la temperatura del soporte: el hormigón tibio fragua la resina más rápido, el frío mucho más lento, y cerca del punto de congelación algunos sistemas dejan de curar por completo. Lea la tabla de curado para la temperatura real del sitio, no la cifra de laboratorio. La temperatura de la obra es la que manda sobre el fraguado.",
+            "fr": "Le temps de durcissement dépend de la température du support : un béton chaud fait prendre la résine plus vite, un béton froid beaucoup plus lentement, et près du gel certains systèmes cessent complètement de polymériser. On lit la courbe de durcissement à la température réelle du chantier, pas à la valeur de laboratoire."
           }
         },
         {
@@ -260,7 +262,8 @@
             "hi": "छेद की तैयारी कैसे करनी चाहिए?",
             "ru": "Как готовят отверстие под химический анкер?",
             "ar": "كيف تُجهَّز الفتحة قبل التثبيت الكيميائي؟",
-            "es": "¿Cómo se prepara el hueco?"
+            "es": "¿Cómo se prepara el hueco?",
+            "fr": "Comment préparer le trou de perçage ?"
           },
           "a": {
             "en": "Drill to the specified diameter and depth, then brush and blow out the hole in repeated cycles until dust stops coming out. Residual dust is the single biggest cause of low chemical anchor loads.",
@@ -268,7 +271,8 @@
             "hi": "निर्दिष्ट व्यास और गहराई तक ड्रिल करें, फिर बार-बार ब्रश और हवा से छेद साफ करें जब तक धूल निकलनी बंद न हो जाए। बची हुई धूल केमिकल एंकर की कम लोड क्षमता का सबसे बड़ा कारण होती है।",
             "ru": "Бурят на заданный диаметр и глубину, затем циклами щётки и продувки очищают отверстие, пока из него не перестаёт выходить пыль. Остатки пыли — главная причина заниженной выдерживающей нагрузки на анкер: грязь мешает смоле сцепиться с бетоном по всей глубине заделки, и узел выдает себя уже при нагружении конструкции.",
             "ar": "احفر بالقطر والعمق المحددين، ثم نظّف الفتحة بالفرشاة والنفخ في دورات متكررة حتى يتوقف الغبار عن الخروج. والغبار المتبقي هو أكبر سبب منفرد لانخفاض حمل التثبيت الكيميائي.",
-            "es": "Taladre al diámetro y la profundidad especificados, luego cepille y sople el hueco en ciclos repetidos hasta que deje de salir polvo. El polvo residual es la causa principal de cargas bajas en anclaje químico. Un hueco limpio es la base para que la resina agarre y transmita la carga."
+            "es": "Taladre al diámetro y la profundidad especificados, luego cepille y sople el hueco en ciclos repetidos hasta que deje de salir polvo. El polvo residual es la causa principal de cargas bajas en anclaje químico. Un hueco limpio es la base para que la resina agarre y transmita la carga.",
+            "fr": "Percer au diamètre et à la profondeur prescrits, puis brosser et souffler le trou par cycles répétés jusqu'à ce que la poussière cesse de sortir. Le résidu de poussière est la cause la plus fréquente de charges faibles sur ancrages chimiques. Un trou mal nettoyé laisse la résine enrobée de poussière et réduit l'adhérence au béton."
           }
         },
         {
@@ -278,7 +282,8 @@
             "hi": "केमिकल एंकर कब सही विकल्प नहीं होता?",
             "ru": "В каком случае химический анкер выбирать не стоит?",
             "ar": "متى يكون التثبيت الكيميائي خيارًا غير مناسب؟",
-            "es": "¿Cuándo un anclaje químico es la elección equivocada?"
+            "es": "¿Cuándo un anclaje químico es la elección equivocada?",
+            "fr": "Dans quel cas l'ancrage chimique est-il un mauvais choix ?"
           },
           "a": {
             "en": "In hollow block, in continuously wet or flooded holes outside the system's rating, and where the substrate temperature falls outside the published range. In those cases a mechanical anchor or a redesign is safer than a bigger dose of resin.",
@@ -286,7 +291,8 @@
             "hi": "खोखले ब्लॉक में, सिस्टम की रेटिंग से बाहर लगातार गीले या भरे छेद में, और आधार तापमान प्रकाशित सीमा से बाहर होने पर केमिकल एंकर न चुनें। ऐसी जगहों पर रेजिन की ज़्यादा खुराक से बेहतर मैकेनिकल एंकर या डिज़ाइन में बदलाव सुरक्षित रहता है।",
             "ru": "Полые блоки, постоянно влажные или залитые водой отверстия вне рейтинга системы, основание с температурой за пределами опубликованного диапазона. В этих случаях безопаснее механический анкер или перепроектирование узла, а не увеличение дозы смолы: лишний состав не компенсирует неподходящее основание и не вернёт расчётное усилие заделки.",
             "ar": "في البلوك المجوف، وفي الفتحات الرطبة أو المغمورة باستمرار خارج تصنيف النظام، وحين تنخفض حرارة الركيزة عن المدى المنشور. في هذه الحالات يكون التثبيت الميكانيكي أو إعادة التصميم أأمن من زيادة جرعة الراتنج.",
-            "es": "En bloque hueco, en huecos continuamente húmedos o inundados fuera de la clasificación del sistema, y donde la temperatura del soporte cae fuera del rango publicado. En esos casos un anclaje mecánico o un rediseño es más seguro que una dosis mayor de resina. El soporte y el ambiente definen el tipo de anclaje."
+            "es": "En bloque hueco, en huecos continuamente húmedos o inundados fuera de la clasificación del sistema, y donde la temperatura del soporte cae fuera del rango publicado. En esos casos un anclaje mecánico o un rediseño es más seguro que una dosis mayor de resina. El soporte y el ambiente definen el tipo de anclaje.",
+            "fr": "Dans un bloc creux, dans des trous continûment humides ou inondés hors du domaine de validité du système, et lorsque la température du support sort de la plage publiée. Dans ces situations, un ancrage mécanique ou une reprise de conception est plus sûr qu'une dose supplémentaire de résine."
           }
         }
       ]
