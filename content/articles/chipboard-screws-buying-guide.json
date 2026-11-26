@@ -242,7 +242,8 @@
             "hi": "बोर्ड की मोटाई के हिसाब से चिपबोर्ड स्क्रू की लंबाई कैसे चुनें?",
             "ru": "Как выбрать длину самореза по толщине плиты?",
             "ar": "كيف أختار طول برغي اللوح الحبيبي لسمك معين؟",
-            "es": "¿Cómo elijo la longitud del tornillo para tablero de aglomerado?"
+            "es": "¿Cómo elijo la longitud del tornillo para tablero de aglomerado?",
+            "fr": "Comment choisir la longueur de vis pour une épaisseur de panneau ?"
           },
           "a": {
             "en": "Thread length should engage roughly two thirds of the receiving board. An 18 mm panel over an 18 mm substrate typically takes a 30 to 35 mm screw; going shorter risks pull-out, going longer risks breakthrough.",
@@ -250,7 +251,8 @@
             "hi": "थ्रेड की लंबाई धारक बोर्ड में लगभग दो-तिहाई तक घुसनी चाहिए। 18 मिमी पैनल पर 18 मिमी आधार के लिए आम तौर पर 30 से 35 मिमी का स्क्रू चलता है; छोटा करने पर निकलने का खतरा, लंबा करने पर पार होकर निकलने का खतरा रहता है।",
             "ru": "Длина резьбовой части должна врезаться примерно на две трети в принимаемую плиту. Панель 18 мм по основанию 18 мм обычно крепят саморезом 30–35 мм; короче — риск вырыва, длиннее — риск сквозного прорыва, поэтому длину сверяют по фактической толщине обеих деталей.",
             "ar": "يجب أن يشتبك طول الخيط في ثلثي اللوح المستقبل تقريبًا. لوح 18mm فوق ركيزة 18mm يأخذ عادة برغي 30–35 mm؛ الأقصر يخاطر بالانسحاب، والأطول بالاختراق. قسّم سماكة اللوح والركيزة، وطابق الطول مع عمق التشابك المطلوب، واختبر في عينة من نفس المادة قبل الدفعة.",
-            "es": "La longitud de rosca debe engranar unas dos terceras partes del tablero receptor. Un panel de 18 mm sobre un soporte de 18 mm toma típicamente un tornillo de 30 a 35 mm; más corto arriesga el arranque, más largo arriesga atravesar. La longitud se calcula sobre el espesor de ambas piezas."
+            "es": "La longitud de rosca debe engranar unas dos terceras partes del tablero receptor. Un panel de 18 mm sobre un soporte de 18 mm toma típicamente un tornillo de 30 a 35 mm; más corto arriesga el arranque, más largo arriesga atravesar. La longitud se calcula sobre el espesor de ambas piezas.",
+            "fr": "La longueur filetée doit engager environ les deux tiers du panneau récepteur. Un panneau de 18 mm sur un support de 18 mm prend typiquement une vis de 30 à 35 mm : trop court, le risque est l'arrachage, trop long, le percement au travers. L'engagement dans le support voisin fixe la longueur."
           }
         },
         {
@@ -260,7 +262,8 @@
             "hi": "मोटा या बारीक थ्रेड — कौन-सा चाहिए?",
             "ru": "Крупная или мелкая резьба — что выбрать?",
             "ar": "خيط خشن أم ناعم: أيهما أحتاج؟",
-            "es": "¿Roscas gruesa o fina, cuál necesito?"
+            "es": "¿Roscas gruesa o fina, cuál necesito?",
+            "fr": "Filetage gros ou fin : lequel faut-il ?"
           },
           "a": {
             "en": "Coarse thread suits soft chipboard and MDF, where fast driving and grip matter. Fine thread suits hardwood or denser boards where a tighter thread pattern gives higher pull-out resistance and less splitting.",
@@ -268,7 +271,8 @@
             "hi": "मुलायम चिपबोर्ड व MDF के लिए मोटा थ्रेड ठीक रहता है, जहाँ तेज़ चलाना और पकड़ ज़रूरी है। दृढ़ लकड़ी या घने बोर्डों के लिए बारीक थ्रेड बेहतर है; इसका सघन पैटर्न निकलने का रोधन बढ़ाता है और बोर्ड फटने से बचाता है।",
             "ru": "Крупная резьба подходит мягкой ДСП и МДФ, где важны быстрый ввод и сцепление. Мелкая резьба — для твёрдой древесины или плотных плит: более плотный профиль даёт выше сопротивление вырыву и меньше раскалывает материал, а шаг резьбы подбирают по плотности основания.",
             "ar": "الخيط الخشن يناسب اللوح الحبيبي الناعم وMDF حيث يهم السرعة والتماسك. الخيط الناعم يناسب الخشب الصلب أو الألواح الأكثر كثافة، حيث يعطي نمط خيط أضيق مقاومة سحب أعلى وانشلالًا أقل. حدد كثافة الركيزة، وجرّب النمط المناسب في عينة، وأكد مقاومة الانسحاب في التطبيقات الحاملة.",
-            "es": "La rosca gruesa va con aglomerado blando y MDF, donde importan el clavado rápido y el agarre. La rosca fina va con madera dura o tableros más densos, donde un patrón de rosca más ajustado da mayor resistencia al arranque y menos rajado. El tipo de rosca sigue la densidad del material."
+            "es": "La rosca gruesa va con aglomerado blando y MDF, donde importan el clavado rápido y el agarre. La rosca fina va con madera dura o tableros más densos, donde un patrón de rosca más ajustado da mayor resistencia al arranque y menos rajado. El tipo de rosca sigue la densidad del material.",
+            "fr": "Le filetage grossier convient au panneau de particules tendre et au MDF, où la vitesse de pose et la préhension comptent. Le filetage fin convient au bois dur ou aux panneaux denses, où un pas serré donne une meilleure résistance à l'arrachage et moins d'éclatement. La nature du support guide le pas."
           }
         },
         {
@@ -278,7 +282,8 @@
             "hi": "कीमत तय करने से पहले पैकिंग व MOQ की कौन-सी बातें पक्की करें?",
             "ru": "Что зафиксировать по упаковке и минимальному заказу до цены?",
             "ar": "ما تفاصيل التعبئة والكمية التي تُثبت قبل السعر؟",
-            "es": "¿Qué detalles de empaque y MOQ conviene cerrar antes del precio?"
+            "es": "¿Qué detalles de empaque y MOQ conviene cerrar antes del precio?",
+            "fr": "Quels détails d'emballage et de MOQ fixer avant le prix ?"
           },
           "a": {
             "en": "Agree pieces per inner box, inner boxes per carton, carton dimensions and weight limit, whether mixed sizes are allowed, and the carton mark. Packing drives cost as much as the screw itself on small-gauge items.",
@@ -286,7 +291,8 @@
             "hi": "भीतरी डिब्बे में पीस संख्या, डिब्बों की गत्ते में संख्या, कार्टन का आकार व वज़न सीमा, मिश्रित साइज़ चलती है या नहीं, और कार्टन का चिह्न तय करें। पतले गेज वाले छोटे स्क्रू में पैकिंग का खर्च स्क्रू की कीमत जितना ही प्रभाव डालता है।",
             "ru": "Согласовывают число штук во внутренней коробке, число коробок в картоне, габариты и весовой лимит картона, допускается ли смешение размеров и маркировку картона. У мелкого крепежа упаковка влияет на стоимость не меньше самого самореза; объём партии и условия фиксируют в коммерческом предложении.",
             "ar": "اتفق على القطع في الصندوق الداخلي، والصناديق الداخلية في الكرتون، وأبعاد الكرتون وحد الوزن، وهل يُسمح بمقاسات مختلطة، وعلامة الكرتون. التعبئة تقود التكلفة بقدر البرغي نفسه في الأصناف الرقيقة. اثبت مواصفات العبوة في الاستفسار، واطلب رسمًا تعبيئيًا مرجعيًا، وحدد علامة المنشأ على الكرتون قبل التسعير.",
-            "es": "Acuerde piezas por caja interior, cajas interiores por cartón, dimensiones y límite de peso del cartón, si se permiten tamaños mezclados, y la marca del cartón. El empaque mueve el coste tanto como el propio tornillo en artículos de calibre pequeño. Los detalles de caja se fijan antes de hablar del precio unitario."
+            "es": "Acuerde piezas por caja interior, cajas interiores por cartón, dimensiones y límite de peso del cartón, si se permiten tamaños mezclados, y la marca del cartón. El empaque mueve el coste tanto como el propio tornillo en artículos de calibre pequeño. Los detalles de caja se fijan antes de hablar del precio unitario.",
+            "fr": "Convenir du nombre de pièces par boîte intérieure, des boîtes par carton, des dimensions et du poids limite du carton, de l'autorisation de mélanger les tailles, et du marquage carton. Sur les articles de petit calibre, l'emballage pèse autant dans le coût que la vis elle-même."
           }
         }
       ]
