@@ -256,3 +256,24 @@ python3 -c "import sys;sys.path.insert(0,'scripts');import json_rewrite as jr;d=
 - 不碰 A 区 39 篇、`docs/SEO-GEO-*`、`next.config.ts`、`scripts/geo_audit.py`、`src/**`、他线 ` M` 在途文件。
 
 **经验号段**：本轮占 **212–217**（已写入 `docs/CONTENT-CONTRACT.md`）；R-T9n 开工前先 `grep` 复核最大号，从 **218** 起。
+
+### 0.9 R-T9n 轮收口与 R-T9a 入口（2026-11-26）
+
+**收口状态**：起点 `95a87699`；本轮 `T9n-*`（ar/5files/trans 系列）89 笔单文件提交，全部本地未 push；累计 `a9f4c356..HEAD` **718 笔**。执行细节 `docs/T9-REPORT-B-2026-1125.md` §18；跨线通道 `docs/TWO-LINE-SYNC-2026-1126.md` §6-B（决议）+ §6-C（结果）。
+
+**十项验收**：见 §18-6。超长 / 短答 / 占位 = 0，新增 BLOCK 0，键删除 0，锁 0；拉丁 13 全部 keep_proper。**B 区可清债归零**。
+
+**跨线状态（A 线侧未闭合项）**
+1. §6-B.5 五项回填：① 它所说"B 线 12 篇未提交"的 slug + `git status`；② C2 是否保留港口名（保留须给模板）；③ 减页 slug 清单；④ 需 B 线做的 B 区 body 改造清单；⑤ 4 篇已改篇目 diff 确认。
+2. A 区 `ivory-coast-abidjan-port-fastener-tariff` 的 `cta/text.ar` 我方产品自证句，本轮已书面请 A 线改。
+3. `china-hex-nuts-manufacturer` 的 `metaDescription.ar` 保留判断待 A 线确认（目录筛选语境，B 线不回写）。
+
+**下一轮（R-T9a）建议顺序**
+1. **body 改造**：只做 §6-B.5 第 4 项清单里的 B 区篇目；逐篇领锁、按区归属，A 区 39 篇不碰。清单未到就空转，不要自造范围。
+2. **A 区 ar/CTA 登记项**：等 A 线改完后复核一遍（`china-iso-9001-*`、`beira-corridor`、`rwanda-construction-fastener-standards`、`ivory-coast`），只核不改。
+3. **减页清单落地后的连锁**：清单发布 → 该篇 48 小时内不补语种；若已补，登记作废不删除（保留可回溯）。
+4. **存量短译壳**：`rwanda-construction-fastener-market-2026` 其余章节、`mozambique-lng-construction-fasteners-standards` 的 zh/ja 仍为短译壳（本批外），按语种整段重译再收。
+
+**硬不变量（延续）**：写锁 owner `今日头条分析`（TTL 30 分钟）必领必释；单文件 `git add <文件> && git commit -F <msg> -- <文件>` 同行；提交前查暂存区；禁 `-F -`、`add -A/-a`、reset/rebase/restore/stash、共享索引 `--amend`；只 commit 不 push；不碰 A 区 39 篇、`docs/SEO-GEO-*`、`next.config.ts`、`scripts/geo_audit.py`、`src/**`、他线 ` M`。
+
+**经验号段**：本轮占 **218–223**；下一轮开工前 `grep` 复核最大号。
