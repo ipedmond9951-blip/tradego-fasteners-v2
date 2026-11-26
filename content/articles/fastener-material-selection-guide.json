@@ -202,7 +202,8 @@
             "es": "¿Puedo usar inoxidable con piezas de acero al carbono?",
             "fr": "Peut-on associer des fixations inox à des pièces acier carbone ?",
             "pt": "Posso usar fixadores de inoxidável com peças de aço-carbono?",
-            "de": "Kann ich Edelstahl-Befestiger mit Stahlteilen verbinden?"
+            "de": "Kann ich Edelstahl-Befestiger mit Stahlteilen verbinden?",
+            "ja": "ステンレス鋼ファスナーを炭素鋼部品と一緒に使えますか？"
           },
           "a": {
             "en": "Yes, but be aware of galvanic corrosion when dissimilar metals are joined in presence of moisture. The less noble metal (carbon steel) will corrode faster. Using stainless steel throughout the connection is preferred for critical applications.",
@@ -213,7 +214,8 @@
             "es": "Sí, pero conviene tener en cuenta la corrosión galvánica al unir metales distintos en presencia de humedad. El metal menos noble, el acero al carbono, se corroe más rápido. Para aplicaciones críticas es preferible usar inoxidable en toda la unión, evitando la mezcla de aceros que acelera el deterioro en zonas con condensación o lavados frecuentes.",
             "fr": "Oui, mais en gardant à l'esprit la corrosion galvanique lorsque deux métaux dissemblables se rejoignent en présence d'humidité. Le métal le moins noble (l'acier carbone) corrodera plus vite. Pour les applications critiques, on préfère utiliser l'inox sur l'ensemble de l'assemblage, afin d'éviter le couple galvanique et la tenue dans le temps.",
             "pt": "Sim, mas atenção à corrosão galvânica quando metais diferentes são unidos na presença de umidade. O metal menos nobre, o aço-carbono, corrói mais rápido. O uso de inoxidável em toda a conexão é preferido em aplicações críticas. Na prática, isola-se o inoxidável do aço com arruela plástica ou nylon, e a escolha do material segue a umidade e a exposição da obra.",
-            "de": "Ja, aber achten Sie auf Kontaktkorrosion, wenn verschiedene Metalle bei Feuchte zusammenkommen. Das edelere Metall (Edelstahl) bleibt beständiger, das unedlere (Kohlenstoffstahl) korrodiert schneller. Für kritische Anwendungen wird die durchgängige Verwendung von Edelstahl in der Verbindung bevorzugt."
+            "de": "Ja, aber achten Sie auf Kontaktkorrosion, wenn verschiedene Metalle bei Feuchte zusammenkommen. Das edelere Metall (Edelstahl) bleibt beständiger, das unedlere (Kohlenstoffstahl) korrodiert schneller. Für kritische Anwendungen wird die durchgängige Verwendung von Edelstahl in der Verbindung bevorzugt.",
+            "ja": "はい。ただし湿気のある場所で異種金属を組むと電食が起きる点に注意してください。卑な金属である炭素鋼の方が早く腐食します。重要な用途では接続全体をステンレスにそろえるのが望ましいです。接触する材料と環境を確認して絶縁の要否を判断します。仕様と現地の環境をあわせて確認し、長く使える接合を選んでください。"
           }
         },
         {
@@ -226,7 +228,8 @@
             "es": "¿Qué diferencia hay entre el acero inoxidable 304 y el 316?",
             "fr": "Quelle différence entre inox 304 et 316 ?",
             "pt": "Qual a diferença entre inoxidável 304 e 316?",
-            "de": "Was unterscheidet 304 und 316 Edelstahl?"
+            "de": "Was unterscheidet 304 und 316 Edelstahl?",
+            "ja": "304と316ステンレスの違いは何ですか？"
           },
           "a": {
             "en": "316 contains molybdenum which significantly improves chloride corrosion resistance. For marine/coastal applications, 316 is essential. For inland applications, 304 provides excellent corrosion resistance at lower cost.",
@@ -237,7 +240,8 @@
             "es": "El 316 contiene molibdeno, lo que mejora de forma notable la resistencia a la corrosión por cloruros. En aplicaciones marinas o costeras el 316 es esencial. Para aplicaciones del interior, el 304 ofrece una excelente resistencia a un coste menor. La elección entre uno y otro depende de la exposición ambiental de la unión y de la presencia de sal o productos químicos en el entorno.",
             "fr": "Le 316 contient du molybdène, qui améliore nettement la résistance à la corrosion chlorure. En milieu marin ou côtier, le 316 est indispensable. En zone intérieure, le 304 offre une excellente résistance à moindre coût. Le choix suit donc l'exposition : humidité, sel, produits chimiques, et la durée de vie attendue de l'assemblage.",
             "pt": "O 316 contém molibdênio, que melhora expressivamente a resistência à corrosão por cloreto. Em aplicações marítimas e costeiras, o 316 é essencial. Em aplicações interiores, o 304 oferece boa resistência à corrosão a custo menor. A escolha entre os dois segue a proximidade do mar, a lavagem química e a manutenção prevista, e a família é registrada no certificado do lote.",
-            "de": "316 enthält Molybdän, das die Beständigkeit gegen Chloridkorrosion deutlich verbessert. Für Marine- und Küstenanwendungen ist 316 unerlässlich. Für Binnenanwendungen bietet 304 ausgezeichnete Korrosionsbeständigkeit bei geringeren Kosten."
+            "de": "316 enthält Molybdän, das die Beständigkeit gegen Chloridkorrosion deutlich verbessert. Für Marine- und Küstenanwendungen ist 316 unerlässlich. Für Binnenanwendungen bietet 304 ausgezeichnete Korrosionsbeständigkeit bei geringeren Kosten.",
+            "ja": "316にはモリブデンが含まれ、塩化物への耐食性が大きく向上します。海洋・沿岸用途には316が欠かせません。内陸用途では304が低コストで優れた耐食性を出します。塩害の程度を見てグレードを選んでください。必要な記録を整え、納品時にロットと照合できるようにしてください。"
           }
         },
         {
@@ -250,7 +254,8 @@
             "es": "¿Cómo sé si una fijación es lo bastante resistente?",
             "fr": "Comment savoir si une fixation est assez résistante ?",
             "pt": "Como sei se um fixador é forte o bastante?",
-            "de": "Woher weiß ich, ob ein Befestiger stark genug ist?"
+            "de": "Woher weiß ich, ob ein Befestiger stark genug ist?",
+            "ja": "ファスナーが十分な強度かどうかはどう分かりますか？"
           },
           "a": {
             "en": "Check the grade marking. Higher grades (8.8, 10.9, 12.9 for carbon steel) indicate higher strength. For critical applications, consult a structural engineer.",
@@ -261,7 +266,8 @@
             "es": "Se comprueba la marca de grado. Las clases superiores, 8.8, 10.9 y 12.9 en acero al carbono, indican mayor resistencia. Para aplicaciones críticas conviene consultar a un ingeniero estructural antes de fijar el grado. Las marcas de la cabeza deben coincidir con la clase indicada en el plano o el pliego del proyecto, y el certificado de material debe reflejar esa misma clasificación.",
             "fr": "Vérifier la marque de classe. Les classes supérieures (8.8, 10.9, 12.9 pour l'acier carbone) indiquent une résistance plus élevée. Pour les applications critiques, on consulte l'ingénieur structural, qui dimensionne la classe selon la reprise de charge et les contraintes de l'assemblage. La seule apparence ne suffit pas à juger la capacité mécanique.",
             "pt": "Confere-se a marcação de classe. Classes mais altas, 8.8, 10.9 e 12.9 no aço-carbono, indicam maior resistência. Em aplicações críticas, consulta-se um engenheiro estrutural. A classe deve bater com a cabeça do fixador e com o certificado do lote, e a substituição por classe inferior não é aceita em junta de segurança.",
-            "de": "Prüfen Sie die Festigkeitskennzeichnung. Höhere Festigkeitsklassen (8.8, 10.9, 12.9 bei Kohlenstoffstahl) zeigen höhere Festigkeit an. Bei kritischen Anwendungen ist ein Tragwerksplaner zu konsultieren."
+            "de": "Prüfen Sie die Festigkeitskennzeichnung. Höhere Festigkeitsklassen (8.8, 10.9, 12.9 bei Kohlenstoffstahl) zeigen höhere Festigkeit an. Bei kritischen Anwendungen ist ein Tragwerksplaner zu konsultieren.",
+            "ja": "等級マークを確認します。炭素鋼の高い等級ほど強度が高いことを示します。重要な用途では構造設計者に相談してください。マークとミル証明書の記録を照合し、荷重に見合う等級か確認します。用途の荷重と暴露条件を踏まえ、品番と被覆を決めることが大切です。"
           }
         },
         {
@@ -274,7 +280,8 @@
             "es": "¿Puedo mezclar grados de fijación en el mismo ensamblaje?",
             "fr": "Peut-on mélanger des classes de fixation dans un même assemblage ?",
             "pt": "Posso misturar classes de fixadores no mesmo conjunto?",
-            "de": "Darf ich in einer Baugruppe verschiedene Festigkeitsklassen mischen?"
+            "de": "Darf ich in einer Baugruppe verschiedene Festigkeitsklassen mischen?",
+            "ja": "同じ組立ての中でファスナーの等級を混ぜてもよいですか？"
           },
           "a": {
             "en": "It's generally acceptable if all fasteners meet or exceed the minimum strength requirement. However, for critical structural applications, use consistent grades throughout.",
@@ -285,7 +292,8 @@
             "es": "En general es aceptable si todas las fijaciones cumplen o superan el requisito mínimo de resistencia. No obstante, en aplicaciones estructurales críticas conviene usar grados consistentes en toda la unión. La mezcla puede esconder errores de almacenamiento o de despacho, por lo que el lote debe revisarse antes del montaje y separarse según clase y diámetro.",
             "fr": "C'est généralement acceptable si toutes les fixations atteignent ou dépassent l'exigence de résistance minimale. En revanche, pour les applications structurales critiques, on utilise des classes homogènes sur tout l'assemblage. Un mélange de classes peut créer des points de faiblesse ou des reprises de charge inégales, et compliquer le contrôle ultérieur.",
             "pt": "Em geral, é aceitável se todos os fixadores atenderem ou superarem o requisito mínimo de resistência. Porém, em aplicações estruturais críticas, usam-se classes consistentes em toda a junta. A mistura de classes pode gerar concentração de tensão nas peças mais fracas. Em junta sujeita a vibração ou carga pesada, padroniza-se uma única classe e revestimento.",
-            "de": "Im Allgemeinen ist es zulässig, wenn alle Befestiger die Mindestfestigkeitsanforderung erfüllen oder übertreffen. Für kritische Tragwerksanwendungen sollten jedoch durchgängig dieselben Klassen verwendet werden."
+            "de": "Im Allgemeinen ist es zulässig, wenn alle Befestiger die Mindestfestigkeitsanforderung erfüllen oder übertreffen. Für kritische Tragwerksanwendungen sollten jedoch durchgängig dieselben Klassen verwendet werden.",
+            "ja": "すべてのファスナーが最低強度要件を満たすか上回るなら一般的に認められます。ただし重要な構造用途では、組立て全体で等級をそろえてください。混在による強度のばらつきを避け、図面で等級を統一します。不明な点は図面や案件仕様をもとに供給元と確認してください。"
           }
         },
         {
@@ -298,7 +306,8 @@
             "es": "¿Qué recubrimiento es mejor para las condiciones exteriores africanas?",
             "fr": "Quel meilleur revêtement pour conditions extérieures africaines ?",
             "pt": "Qual o melhor revestimento para condições externas africanas?",
-            "de": "Welche Beschichtung für den Außeneinsatz in Afrika?"
+            "de": "Welche Beschichtung für den Außeneinsatz in Afrika?",
+            "ja": "アフリカの屋外条件に最適な被覆は何ですか？"
           },
           "a": {
             "en": "Hot-dip galvanizing provides excellent long-term protection for most outdoor applications. In highly corrosive environments (coastal, mining), stainless steel or specialized coatings like Dacromet are recommended.",
@@ -309,7 +318,8 @@
             "es": "El galvanizado en caliente ofrece una excelente protección a largo plazo en la mayoría de aplicaciones exteriores. En entornos muy corrosivos (costa, minería) se recomienda acero inoxidable o recubrimientos especializados tipo Dacromet. La elección se hace según la humedad, los cloruros y el polvo abrasivo de la ubicación de obra, y se verifica con el espesor de zinc medido sobre la pieza.",
             "fr": "La galvanisation à chaud offre une excellente protection durable pour la plupart des usages extérieurs. Dans les milieux très corrosifs (côte, mine), on recommande l'inox ou des revêtements spécialisés type Dacromet. Le choix dépend de l'exposition à l'humidité, au sel et aux produits chimiques ; on évite de surspécifier un revêtement au-delà du besoin réel du site.",
             "pt": "A galvanização a quente oferece boa proteção de longo prazo na maioria das aplicações externas. Em ambientes altamente corrosivos, costeiros e de mineração, recomendam-se inoxidável ou revestimentos especiais como Dacromet. A escolha do revestimento segue a umidade, a névoa salina e a frequência de manutenção, e a espessura é conferida no certificado do lote.",
-            "de": "Feuerverzinkung bietet für die meisten Außenanwendungen ausgezeichneten Langzeitschutz. In stark korrosiven Umgebungen (Küste, Bergbau) sind nichtrostender Stahl oder Spezialbeschichtungen wie Dacromet zu empfehlen."
+            "de": "Feuerverzinkung bietet für die meisten Außenanwendungen ausgezeichneten Langzeitschutz. In stark korrosiven Umgebungen (Küste, Bergbau) sind nichtrostender Stahl oder Spezialbeschichtungen wie Dacromet zu empfehlen.",
+            "ja": "溶融亜鉛めっきは多くの屋外用途で優れた長期保護を出します。沿岸や鉱山など高腐食環境にはステンレス鋼やダクロタイプのような特殊被覆が推奨されます。暴露環境と期待寿命をもとに材料と被覆を選んでください。現地の施工慣行と保管状況も考えて、品揃えを調整してください。"
           }
         }
       ]
