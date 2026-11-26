@@ -49,3 +49,50 @@
 - 另一处：`de` 的 "Zuverlässige Lieferanten finden sich über folgende Wege…" 重复 9 次（同源同段）。
 - 处置建议：**交 A 线**按各篇主题分篇改写这 5 条预防措施，B 线下一轮按新 en 重译这 14 篇 × 9 语种；本轮不动（属在途源文）。
 - 说明：6-gram ≥15 的去重判据抓不到这一条（14 < 15），已用"整段逐字相同"补查，结论如上。
+
+## 6. R-T9l S2 跨篇重复段落（2026-11-26，B 线首批整改 + 剩余登记）
+
+- 判据脚本：`t9l/dup_paragraph.py`（不进仓库 scripts/）。归一化＝去 HTML 标签 → 实体解码 → 全角/半角与中英标点归一 → 合并空白；文字与数字原样保留（数字不同即不同段）。分组键 `(语种, 归一文本)`，同一段落出现在 **≥3 篇** 即 FAIL，语种间分开统计；指纹 sha1 前 12 位。
+- 明细：`docs/gsc-dup-paragraph-2026-1126.csv`（列：fingerprint,locale,kind,articles,item_nos,slug_list,text_head,zone,action）。
+- 扫描面：**279 篇 × 10 语种**，41205 个 FAQ 答案/正文段落单元。
+
+### 6.1 A 区登记（42 组 / 225 篇次，owned-40，B 线未碰）
+按语种组数：en 11、ar 6、ja 5、fr 4、es 3、ru 3、pt 3、zh 3、hi 2、de 2。详见 CSV `zone=A` 行。
+
+### 6.2 B 区只登记（87 组 / 1275 篇次）
+- **en 31 组 / ar 21 组**：非本轮 B 线语种（en 源文归 A 线；ar 归别线，见 §1）。
+- **结构性样板导航段**（FAQ 引导句、相关产品链接、WhatsApp 联系方式、占位预告）：其余 fr/ja/pt/de/ru/hi/es 组，属页面固定导航，不按内容重复整改。
+- **FAQ 答案 1 组**：de "Zuverlässige Lieferanten finden sich über folgende Wege…"（9 篇，同源源文缺陷，见 §5）。
+
+### 6.3 B 区剩余待改写（127 组 / 624 篇次 / 63 篇，本轮未清完）
+- **案例研究模板段：106 组 / 516 篇次 / 14 篇**。14 篇共用 5 个失效案例的「背景 / 根本原因 / 实验室验证 / 财务影响 / 经验教训」译文模板，跨 hi/zh/ja/es/fr/ru/de；en 案例段已带本篇主题与失效模式，译文 collapsed 成通用模板。需按各篇 en 案例事实逐篇重译，不得沿用模板句。
+- **采购建议样板段：21 组 / 108 篇次**。zh/es/de/pt/ru 的 TCO、区域标准、B2B 预防路径、危险信号、报价结构等通用句，散在产品/市场指南正文，需改写为本篇主题表述。
+
+剩余按语种（组数 / 篇次）：
+
+| 语种 | 组数 | 篇次 |
+|---|---|---|
+| zh | 25 | 166 |
+| hi | 21 | 107 |
+| es | 21 | 66 |
+| ru | 14 | 68 |
+| ja | 14 | 88 |
+| fr | 13 | 65 |
+| de | 16 | 52 |
+| pt | 3 | 12 |
+
+案例模板 14 篇：`africa-railway-modernization-fastener-demand`、`angola-construction-boom-fastener-demand`、`automotive-fastener-grade-comparison`、`dr-congo-drc-mining-fastener-market`、`fastener-failure-analysis-case-studies`、`food-beverage-fastener-hygiene-standards`、`green-building-fastener-requirements`、`kenya-east-africa-fastener-distribution-hub`、`mozambique-fastener-import-market-guide`、`solar-panel-mounting-fastener-requirements`、`tanzania-fastener-market-opportunities-2026`、`wind-energy-fastener-requirements-2026`、`zimbabwe-agricultural-fastener-requirements`、`zimbabwe-bulawayo-construction-hardware-supply`。
+
+### 6.4 本轮已整改（6 篇，均 zh；单文件 commit，闸门均 ✅）
+
+| slug | 改写组 | 段落数 | commit |
+|---|---|---|---|
+| nigeria-fastener-market-guide | 3（TCO 总拥有 / 标准化规格 / 报价结构） | 4 | 8afbb40b |
+| kenya-fastener-market-guide | 1（标准化规格） | 1 | 1a8135d7 |
+| u-bolts-pipe-clamps-guide | 2（标准化规格 / TCO 总体） | 5 | d649b4df |
+| fastener-common-problems-solutions | 1（TCO 总体） | 3 | dc0f190d |
+| fastener-standards-din-iso-astm-comparison | 1（TCO 总体） | 2 | 054bdcd7 |
+| imperial-metric-hex-nut-export-guide | 1（TCO 总体） | 2 | c49b0b23 |
+
+- 改动均在正文 body，FAQ 问答未动；每篇提交前 `content_gate.py --slug` 输出「✅ 闸门通过：没有新增 BLOCK」。
+- zh 无专用正文判据（check_zh 只校 FAQ），正文按结构自检：无 U+FFFD、无异种文字、汉字占比正常、无英文整句。
