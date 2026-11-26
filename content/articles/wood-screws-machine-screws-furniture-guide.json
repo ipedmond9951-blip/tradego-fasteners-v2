@@ -207,7 +207,8 @@
             "es": "¿Pueden usarse tornillos de máquina en la madera?",
             "fr": "Les vis machine peuvent-elles servir dans le bois ?",
             "pt": "Parafusos de máquina servem em madeira?",
-            "de": "Können Maschinenschrauben im Holz genutzt werden?"
+            "de": "Können Maschinenschrauben im Holz genutzt werden?",
+            "ja": "機械ネジを木材に使えますか？"
           },
           "a": {
             "en": "Not effectively. Machine screws are not designed to cut threads in wood and will either not engage properly or split the wood. Use wood screws for wood.",
@@ -218,7 +219,8 @@
             "es": "No de forma eficaz. Los tornillos de máquina no están diseñados para cortar rosca en la madera y no engranan bien o la rajantan. Para la madera se usan tornillos para madera, con su rosca gruesa y perfil que muerde la fibra. En tableros manufacturados conviene además respetar el taladrado cerca de los bordes.",
             "fr": "Pas efficacement. Les vis machine ne sont pas conçues pour couper un filetage dans le bois : elles n'engagent pas correctement ou fendent le bois. Utiliser des vis à bois pour le bois. Le filetage de vis machine est adapté à un écrou ou un taraudage préexistant, pas au matériau fibreux.",
             "pt": "Não de forma eficaz. Os parafusos de máquina não são projetados para cortar rosca na madeira e ou não engastam corretamente ou racham a madeira. Para madeira, usam-se parafusos para madeira. O tipo de parafuso segue o material base, e a rosca é conferida contra a peça de fixação no projeto.",
-            "de": "Nicht sinnvoll. Maschinenschrauben sind nicht darauf ausgelegt, im Holz Gewinde zu schneiden; sie greifen entweder nicht richtig oder spalten das Holz. Nutzen Sie für Holz Holzschrauben."
+            "de": "Nicht sinnvoll. Maschinenschrauben sind nicht darauf ausgelegt, im Holz Gewinde zu schneiden; sie greifen entweder nicht richtig oder spalten das Holz. Nutzen Sie für Holz Holzschrauben.",
+            "ja": "効果的ではありません。機械ネジは木材にねじを切るようにできておらず、かかりが不十分になるか木材を割ってしまいます。木材には木ネジを使ってください。金物への直接締結が必要な場合でも、木材に先に木ネジを効かせてから相手材と組み立て、材質違いのねじ混用は避けてください。"
           }
         },
         {
@@ -231,7 +233,8 @@
             "es": "¿Qué tornillos van para madera tratada a presión?",
             "fr": "Quelles vis pour le bois traité sous pression ?",
             "pt": "Que parafusos usar em madeira tratada preservativa?",
-            "de": "Welche Schrauben für druckimprägniertes Holz?"
+            "de": "Welche Schrauben für druckimprägniertes Holz?",
+            "ja": "防腐処理木材にはどのネジを使いますか？"
           },
           "a": {
             "en": "Always use stainless steel screws (304 minimum, 316 for coastal/outdoor) with pressure treated wood. Standard zinc-plated screws will corrode rapidly.",
@@ -242,7 +245,8 @@
             "es": "Use siempre tornillos de acero inoxidable (304 como mínimo, 316 en costa o exterior) con la madera tratada a presión. Los tornillos zincados estándar se corroen con rapidez. Las sales del tratamiento aceleran el ataque del zinc fino, por lo que el acabado debe elegirse según el producto de preservación aplicado.",
             "fr": "Toujours employer des vis inox (304 minimum, 316 pour le côtier/l'extérieur) avec le bois traité sous pression. Les vis zinguées standard corrodent rapidement dans ce milieu. Le traitement de préservation accélère l'attaque des revêtements minces de zinc.",
             "pt": "Use sempre parafusos inoxidáveis, mínimo 304, sendo 316 para costa e exterior, com a madeira tratada preservativa. Os parafusos zincados padrão corroem rapidamente. O grau inoxidável segue a exposição, e a proteção é verificada no certificado do lote do fixador.",
-            "de": "Zu druckimprägniertem Holz sollten Sie immer Edelstahlschrauben wählen, mindestens 304, für Küste oder den Außenbereich sogar 316. Normale verzinkte Stahlschrauben würden in diesem Umfeld rasch korrodieren, weil die Imprägnierung die dünne Zinkschicht angreift."
+            "de": "Zu druckimprägniertem Holz sollten Sie immer Edelstahlschrauben wählen, mindestens 304, für Küste oder den Außenbereich sogar 316. Normale verzinkte Stahlschrauben würden in diesem Umfeld rasch korrodieren, weil die Imprägnierung die dünne Zinkschicht angreift.",
+            "ja": "必ずステンレスネジを使い、最低でも 304、沿岸や屋外には 316 を選んでください。標準の亜鉛めっきネジは急速に腐食します。処理直後の木材は湿気を多く含むためめっきの薄いネジは腐食が早く進み、屋外の家具や構造物ではステンレスを基本としてください。"
           }
         },
         {
@@ -255,7 +259,8 @@
             "es": "¿Qué tornillos para madera tratada contra la humedad?",
             "fr": "Quelles vis pour le bois traité ?",
             "pt": "Quais parafusos para madeira tratada?",
-            "de": "Welche Schrauben für imprägniertes Bauholz?"
+            "de": "Welche Schrauben für imprägniertes Bauholz?",
+            "ja": "防腐処理材にはどのネジが適しますか？"
           },
           "a": {
             "en": "Hot-dip galvanised or stainless screws, because the treatment chemicals accelerate corrosion of bright and thin zinc coatings. Coarse thread wood screws hold better in soft treated timber than fine thread.",
@@ -266,7 +271,8 @@
             "es": "Tornillos galvanizados en caliente o inoxidables, porque los químicos del tratamiento aceleran la corrosión del zinc brillante o fino. En madera blanda tratada, la rosca gruesa agarra mejor que la rosca fina. La elección también depende de si la pieza queda en interior seco o en expuesto exterior.",
             "fr": "Vis galvanisées à chaud ou inox, car les produits de traitement accélèrent la corrosion des revêtements brillants et zinc mince. Le filetage grossier retient mieux dans le bois tendre traité que le filetage fin. La tenue dans le bois humide traité commande la finition adaptée.",
             "pt": "Parafusos galvanizados a quente ou inoxidáveis, pois os produtos químicos do tratamento aceleram a corrosão de revestimentos brilhantes e de zinco fino. A rosca grossa segura melhor na madeira tratada macia que a rosca fina. O revestimento segue o tratamento da madeira, e o tipo de rosca é conferido na amostra de montagem.",
-            "de": "Feuerverzinkte oder Edelstahlschrauben, weil die Imprägnierungschemie die Korrosion blanker und dünner Zinkbeschichtungen beschleunigt. Grobgewindige Holzschrauben halten in weichem imprägniertem Holz besser als Feingewinde."
+            "de": "Feuerverzinkte oder Edelstahlschrauben, weil die Imprägnierungschemie die Korrosion blanker und dünner Zinkbeschichtungen beschleunigt. Grobgewindige Holzschrauben halten in weichem imprägniertem Holz besser als Feingewinde.",
+            "ja": "溶融亜鉛めっきまたはステンレスのネジです。処理の薬剤が光沢めっきや薄い亜鉛被膜の腐食を加速するためです。柔らかい処理材では、細ねじより並びねじの木ネジの方が保持力が良くなります。木材が柔らかいほどねじの食い込みを助ける形状が重要になります。"
           }
         }
       ],
