@@ -259,7 +259,8 @@
             "ru": "Можно ли смешивать крепёж из разных систем скреплений?",
             "ar": "هل يمكن خلط مكونات التثبيت من أنظمة دعامات مختلفة؟",
             "es": "¿Pueden mezclarse piezas de distintos sistemas de traviesa?",
-            "fr": "Peut-on mélanger des fixations de différents systèmes de traverse ?"
+            "fr": "Peut-on mélanger des fixations de différents systèmes de traverse ?",
+            "pt": "Componentes de sistemas de dormentes diferentes podem ser misturados?"
           },
           "a": {
             "en": "No. A clip dimensioned for one shoulder will not seat correctly in another system, and mixing components is a common cause of track geometry problems in new construction.",
@@ -268,7 +269,8 @@
             "ru": "Смешивать детали разных систем нельзя. Клемма рассчитана на конкретную боковину рельсового скрепления и в чужой системе не садится как надо: размеры посадочных мест, усилие прижатия и форма контакта не совпадают. На новом пути такая замена нередко даёт сбой геометрии рельсовой колеи, поэтому комплекты заказывают под одну утверждённую систему и не дополняют её деталями с другого проекта.",
             "ar": "لا. فمشبك مقاس لكتف نظام واحد لن يثبت جيدًا في نظام آخر، وخلط المكونات سبب شائع لمشاكل هندسة المسار في الإنشاء الجديد. وأبقِ كل مجموعة مشابك وعوازل تابعة لنظام الدعامة المعتمد في الخط، ولا تستبدل مشبكًا من نظام آخر لمجرد تقارب الشكل.",
             "es": "No. Una grapa dimensionada para un hombro no asienta bien en otro sistema, y mezclar componentes es una causa común de problemas de geometría de vía en obra nueva. Cada sistema lleva su propio juego de piezas, y el recambio debe coincidir con el diseño original.",
-            "fr": "Non. Un écu dimensionné pour un épaulement donné ne se place pas correctement dans un autre système, et le mélange de composants est une cause fréquente de problèmes de géométrie de voie en construction neuve. Chaque pièce suit le système de traverse retenu. Un composant décalé n'assure pas la tenue attendue. Le montage respecte la référence du système choisi."
+            "fr": "Non. Un écu dimensionné pour un épaulement donné ne se place pas correctement dans un autre système, et le mélange de composants est une cause fréquente de problèmes de géométrie de voie en construction neuve. Chaque pièce suit le système de traverse retenu. Un composant décalé n'assure pas la tenue attendue. Le montage respecte la référence du système choisi.",
+            "pt": "Não. Uma braçadeira dimensionada para um ombro não assenta corretamente em outro sistema, e misturar componentes é causa comum de problemas de geometria de via em obra nova. Cada sistema de fixação é comprado como conjunto compatível, e a peça de reposição deve seguir a mesma referência do original. A troca de sistema requer revisão do projeto da via."
           }
         },
         {
@@ -279,7 +281,8 @@
             "ru": "Достаточно ли момента, чтобы убедиться в правильном монтаже?",
             "ar": "هل يكفي العزم للتأكد من التركيب الصحيح؟",
             "es": "¿Basta el par para confirmar un montaje correcto?",
-            "fr": "Le couple suffit-il à confirmer un montage correct ?"
+            "fr": "Le couple suffit-il à confirmer un montage correct ?",
+            "pt": "O torque basta para confirmar a instalação correta?"
           },
           "a": {
             "en": "No. Elastic fastenings are specified by toe load, so the installed gap, a toe load sample test, and the condition of the pad and insulator must also be checked and recorded.",
@@ -288,7 +291,8 @@
             "ru": "Одного момента недостаточно. Упругие скрепления нормируются по усилию прижатия к подошве (toe load), а не по величине затяжки болта. После монтажа проверяют установленный зазор, делают выборочный контроль усилия прижатия и осматривают состояние подкладки и изолятора; все результаты записывают.",
             "ar": "لا. فالمثبتات المرنة تحدد بحمل الإصبع toe load، لذا يجب أيضًا فحص وتسجيل الفجوة المركبة، وعينة اختبار حمل الإصبع، وحالة الوسادة والعازل. والعزم وحده لا يثبت أن المشبك يضغط على الدعامة بالحمل المطلوب عبر عمر الخدمة.",
             "es": "No. Las fijaciones elásticas se especifican por carga de punta, así que también deben revisarse y registrarse el hueco instalado, una prueba de muestra de carga de punta, y el estado de la almohadilla y el aislante. El par por sí solo no prueba la sujeción real de la grapa.",
-            "fr": "Non. Les fixations élastiques sont spécifiées par charge d'appui, donc le jeu installé, un essai d'échantillon de charge d'appui, et l'état du patin et de l'isolant doivent aussi être contrôlés et relevés. Le couple seul ne décrit pas la précharge réelle de la fixation. Chaque mesure est enregistrée pour l'inspection de voie. Un manque d'isolant altère la tenue à long terme. Les contrôles se répètent selon la phase de pose."
+            "fr": "Non. Les fixations élastiques sont spécifiées par charge d'appui, donc le jeu installé, un essai d'échantillon de charge d'appui, et l'état du patin et de l'isolant doivent aussi être contrôlés et relevés. Le couple seul ne décrit pas la précharge réelle de la fixation. Chaque mesure est enregistrée pour l'inspection de voie. Un manque d'isolant altère la tenue à long terme. Les contrôles se répètent selon la phase de pose.",
+            "pt": "Não. As fixações elásticas são especificadas pela carga de ponta, por isso o vão instalado, um ensaio de amostra de carga de ponta e a condição da almofada e do isolador também devem ser verificados e registrados. O torque é um dos sinais, não a prova única de assentamento. Os registros de montagem acompanham a aceitação do trecho ferroviário."
           }
         },
         {
@@ -299,7 +303,8 @@
             "ru": "Какое покрытие обычно применяют для рельсового крепежа?",
             "ar": "ما الطلاء المعتاد لمثبتات السكك الحديد؟",
             "es": "¿Qué recubrimiento es habitual en fijaciones de vía?",
-            "fr": "Quel revêtement est habituel pour les fixations de voie ?"
+            "fr": "Quel revêtement est habituel pour les fixations de voie ?",
+            "pt": "Qual revestimento é usual nas fixações ferroviárias?"
           },
           "a": {
             "en": "Hot-dip galvanizing covers general service. Heavy-duty and coastal corridors often require thicker coatings or stainless components at the clip and insulator interface.",
@@ -308,7 +313,8 @@
             "ru": "В стандартной службе ограничиваются горячим цинкованием. На нагруженных участках и прибрежных коридорах закладывают более толстый слой покрытия или нержавеющие детали там, где клемма контактирует с изолятором; подбор согласуют с условиями среды на трассе.",
             "ar": "تغطي الجلفنة بالغمس الساخن الخدمة العامة. وغالبًا ما تتطلب الممرات الثقيلة والساحلية طلاءات أسمك أو مكونات فولاذ مقاوم للصدأ عند واجهة المشبك والعازل. ويُختار سمك الطلاء حسب بيئة الخط والرطوبة والرذاذ الملحي، ويُوثق في مواصفة التوريد.",
             "es": "El galvanizado en caliente cubre el servicio general. Los corredores pesados y costeros suelen exigir recubrimientos más gruesos o componentes inoxidables en la interfaz de grapa y aislante. El ambiente de la línea define el nivel de protección de cada pieza.",
-            "fr": "La galvanisation à chaud couvre le service général. Les corridors lourds et côtiers exigent souvent des revêtements plus épais ou des composants inox à l'interface écu et isolant. L'exposition au sel et au poids du train guide la protection. Les pièces en contact avec l'isolant sont contrôlées contre la corrosion. Une couche inadaptée réduit la durée de service du système. L'épaisseur se vérifie sur échantillon réception."
+            "fr": "La galvanisation à chaud couvre le service général. Les corridors lourds et côtiers exigent souvent des revêtements plus épais ou des composants inox à l'interface écu et isolant. L'exposition au sel et au poids du train guide la protection. Les pièces en contact avec l'isolant sont contrôlées contre la corrosion. Une couche inadaptée réduit la durée de service du système. L'épaisseur se vérifie sur échantillon réception.",
+            "pt": "A galvanização a quente cobre o serviço geral. Corredores pesados e costeiros frequentemente exigem revestimentos mais espessos ou componentes inoxidáveis na interface da braçadeira e do isolador. A escolha segue a exposição do corredor, e a espessura é verificada nos lotes de braçadeiras e parafusos da via."
           }
         },
         {
@@ -319,7 +325,8 @@
             "ru": "Как отгружать крепёж для железнодорожного проекта?",
             "ar": "كيف ينبغي شحن المثبتات لمشروع سكة حديد؟",
             "es": "¿Cómo deben enviarse las fijaciones de un proyecto ferroviario?",
-            "fr": "Comment expédier les fixations d'un projet ferroviaire ?"
+            "fr": "Comment expédier les fixations d'un projet ferroviaire ?",
+            "pt": "Como as fixações devem ser embarcadas em um projeto ferroviário?"
           },
           "a": {
             "en": "Match the installation sequence rather than factory convenience, and keep spare clips and insulators at the same ratio as installed quantities, because a shortage stops the whole possession.",
@@ -328,7 +335,8 @@
             "ru": "Упаковку и комплектацию ведут под очерёдность монтажа, а не под удобство завода; запасные клеммы и изоляторы держат в том же соотношении, что и установленные количества, потому что нехватка одного комплекта останавливает всю путевую работу.",
             "ar": "طابق ترتيب التركيب بدل راحة المصنع، واحتفظ بالمشابك والعوازل الاحتياطية بنفس نسبة الكميات المركبة، فالنقص في صنف واحد يوقف نافذة التوقف الكاملة. وعبّئ الأصناف حسب مراحل التركيب الميدانية وسمِّ كل حزمة برقم المسار وموضع التركيب.",
             "es": "Empareje la secuencia de montaje en vez de la conveniencia de fábrica, y mantenga grapas y aislantes de repuesto en la misma proporción que las cantidades instaladas, porque una escasez detiene toda la ocupación de vía. El embalaje sigue el orden de la obra para no frenar el tendido.",
-            "fr": "Faites correspondre la séquence de montage plutôt que la commodité de l'usine, et gardez les écus et isolants de rechange au même ratio que les quantités posées, car une rupture d'une seule pièce arrête tout le chantier de pose. Le colisage suit l'ordre des sections de voie. Les rechanges sont suivis au même inventaire que les pièces posées. Un manque ralentit l'avancement du train de montage. L'étiquetage relie chaque carton à sa section."
+            "fr": "Faites correspondre la séquence de montage plutôt que la commodité de l'usine, et gardez les écus et isolants de rechange au même ratio que les quantités posées, car une rupture d'une seule pièce arrête tout le chantier de pose. Le colisage suit l'ordre des sections de voie. Les rechanges sont suivis au même inventaire que les pièces posées. Un manque ralentit l'avancement du train de montage. L'étiquetage relie chaque carton à sa section.",
+            "pt": "Casa-se a sequência de instalação, não a conveniência da fábrica, e mantêm-se braçadeiras e isoladores de reserva na mesma proporção das quantidades instaladas, pois uma falta paralisa toda a janela de manutenção. O embarque é organizado por seção da via, e o estoque de reserva fica identificado junto ao material de montagem."
           }
         }
       ]
