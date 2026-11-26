@@ -202,7 +202,8 @@
             "ar": "ما الحد الأدنى للطلب في الشحن البحري؟",
             "es": "¿Cuál es el mínimo para envío por mar?",
             "fr": "Quelle commande minimum pour le fret maritime ?",
-            "pt": "Qual o pedido mínimo para frete marítimo?"
+            "pt": "Qual o pedido mínimo para frete marítimo?",
+            "de": "Was ist die Mindestbestellung für Seefracht?"
           },
           "a": {
             "en": "Minimum is typically 500kg for sea freight, but 1000kg+ is more economical. Full container loads (15-25 tonnes) offer the best unit shipping cost.",
@@ -213,7 +214,8 @@
             "ar": "الحد الأدنى عادة 500 kg للشحن البحري، لكن الشحن من 1000 kg فأكثر أكثر اقتصادًا. التحميل الكامل للحاوية بما بين 15–25 طنًا يعطي أفضل تكلفة شحن للوحدة. عند تكوين أمر شراء لمثبتات من مقاسات متعددة، اجمع الأصناف في حاوية كاملة بدل شحن متعدد الأجزاء لتخفيض تكلفة الكيلوغرام، وراجع مع وكيل الشحن وزن الحمولة وحجمها قبل إرسال الاستفسار.",
             "es": "El mínimo suele ser de 500kg para flete marítimo, aunque desde 1000kg resulta más económico. Los contenedores completos, de 15 a 25 toneladas, ofrecen el menor coste unitario de envío. La cantidad y el embalaje se definen según el tipo de fijaciones y el destino del pedido.",
             "fr": "Le minimum est typiquement de 500 kg pour le fret maritime, mais 1000 kg et plus sont plus économiques. Les chargements complets de conteneur (15 à 25 tonnes) offrent le meilleur coût de transport unitaire. Pour les petits essais, les options groupées restent possibles selon le type de fixation.",
-            "pt": "O mínimo costuma ser de 500 kg no frete marítimo, mas acima de 1.000 kg fica mais econômico. Os contêineres cheios, de 15 a 25 toneladas, dão o melhor custo de frete unitário. Para volume pequeno, pode-se agrupar com outros itens ou avaliar frete aéreo. A embalagem e o peso total devem ser definidos na cotação, conforme a linha do produto."
+            "pt": "O mínimo costuma ser de 500 kg no frete marítimo, mas acima de 1.000 kg fica mais econômico. Os contêineres cheios, de 15 a 25 toneladas, dão o melhor custo de frete unitário. Para volume pequeno, pode-se agrupar com outros itens ou avaliar frete aéreo. A embalagem e o peso total devem ser definidos na cotação, conforme a linha do produto.",
+            "de": "Die Mindestmenge für Seefracht liegt üblicherweise bei 500 kg, doch ab 1.000 kg wird es wirtschaftlicher. Volle Containerladungen mit 15 bis 25 Tonnen bieten die besten Versandkosten je Einheit."
           }
         },
         {
@@ -226,7 +228,8 @@
             "ar": "كيف أمنع تآكل المثبتات أثناء الشحن البحري؟",
             "es": "¿Cómo evitar la corrosión de las fijaciones en el envío marítimo?",
             "fr": "Comment éviter la corrosion pendant le transport maritime ?",
-            "pt": "Como evitar corrosão do fixador no frete marítimo?"
+            "pt": "Como evitar corrosão do fixador no frete marítimo?",
+            "de": "Wie verhindere ich Korrosion während der Seefracht?"
           },
           "a": {
             "en": "Use VCI (Vapor Corrosion Inhibitor) packaging materials, desiccant packs, and ensure fasteners are completely dry before packing. For highly corrosive environments, specify hot-dip galvanized or stainless steel fasteners.",
@@ -237,7 +240,8 @@
             "ar": "استخدم مواد تغليف مثبط التآكل البخاري VCI، وأكياس امتصاص الرطوبة، وتأكد من جفاف المثبتات تمامًا قبل التعبئة. في البيئات عالية التآكل اطلب مثبتات مجلفنة بالغمس الساخن أو من الفولاذ المقاوم للصدأ. افحص التعبئة عند التجهيز، واغلق العبوات بإحكام، وأضف طبقة حماية داخل الحاوية ضد التكثيف، وأرجع أي مظهر صدأ مبكر إلى قسم الجودة قبل قبول الدفعة في المستودع.",
             "es": "Use materiales de embalaje con inhibidor de corrosión por vapor (VCI), sobres desecantes y asegúrese de que las fijaciones estén completamente secas antes de empacar. En entornos muy corrosivos, especifique fijaciones galvanizadas en caliente o de acero inoxidable. Un buen sellado del embalaje reduce la entrada de humedad durante el trayecto.",
             "fr": "Utilisez des matériaux d'emballage VCI (inhibiteur de corrosion par vapeur), des sachets déshydratants, et assurez-vous que les fixations sont complètement sèches avant l'emballage. En milieu très corrosif, spécifiez des fixations galvanisées à chaud ou en inox. Une séparation entre cartons et une ventilation des piles limitent la condensation.",
-            "pt": "Usam-se materiais de embalagem VCI, inibidor de corrosão por vapor, pacotes dessecantes, e garante-se que os fixadores estejam completamente secos antes de embalar. Em ambientes altamente corrosivos, especificam-se fixadores galvanizados a quente ou de inoxidável. A madeira da embalagem deve estar seca e o contêiner fechado contra umidade. A inspeção pré-embarque confirma a condição do lote antes do carregamento."
+            "pt": "Usam-se materiais de embalagem VCI, inibidor de corrosão por vapor, pacotes dessecantes, e garante-se que os fixadores estejam completamente secos antes de embalar. Em ambientes altamente corrosivos, especificam-se fixadores galvanizados a quente ou de inoxidável. A madeira da embalagem deve estar seca e o contêiner fechado contra umidade. A inspeção pré-embarque confirma a condição do lote antes do carregamento.",
+            "de": "Nutzen Sie VCI-Verpackungsmaterial, also Dampfkorrosionsschutz, Trockenbeutel und achten Sie darauf, dass die Befestiger vor dem Packen völlig trocken sind. Für stark korrosive Umgebungen sind feuerverzinkte oder nichtrostende Befestiger vorzusehen."
           }
         },
         {
@@ -250,7 +254,8 @@
             "ar": "هل يمكنكم ترتيب الشحن إلى الموانئ الأفريقية؟",
             "es": "¿Pueden organizar el transporte a puertos africanos?",
             "fr": "Pouvez-vous organiser le fret vers les ports africains ?",
-            "pt": "Vocês organizam despacho para portos africanos?"
+            "pt": "Vocês organizam despacho para portos africanos?",
+            "de": "Können Sie die Spedition zu afrikanischen Häfen organisieren?"
           },
           "a": {
             "en": "Yes. TradeGo works with experienced international freight forwarders who handle African port clearance and inland transport. We can quote CIF (Cost, Insurance, Freight) to destination port or FCA (Free Carrier) from Chinese port.",
@@ -261,7 +266,8 @@
             "ar": "نعم. نتعامل مع وكلاء شحن دوليين ذوي خبرة في التخليص المرفئي الأفريقي والنقل الداخلي. يمكننا التسعير CIF بالتكلفة والتأمين والشحن إلى ميناء الوجهة، أو FCA الناقل الحر من الميناء الصيني. حدد في استفسارك اسم الميناء النهائي ونمط العبء والكمية، وسنرتب مسار النقل والتوثيق المناسب، مع إبلاغك بزمن العبور المتوقع والمتطلبات الجمركية للبلد المستورد.",
             "es": "Sí. TradeGo trabaja con transitarios internacionales con experiencia que gestionan el despacho en puerto africano y el transporte interior. Se puede cotizar CIF (coste, seguro y flete) hasta el puerto de destino, o FCA (libre transportista) desde el puerto chino. La ruta y el Incoterm se eligen según el destino y el tipo de carga.",
             "fr": "Oui. TradeGo travaille avec des commissionnaires de transport internationaux expérimentés qui gèrent le dédouanement portuaire africain et le transport intérieur. Nous pouvons chiffrer en CIF (coût, assurance, fret) jusqu'au port de destination, ou en FCA (franco transporteur) depuis le port chinois. L'Incoterm est choisi selon la responsabilité attendue par l'acheteur.",
-            "pt": "Sim, a TradeGo trabalha com despachantes internacionais experientes que tratam do desembaraço portuário e do transporte interno na África. Pode-se cotar CIF, custo, seguro e frete até o porto de destino, ou FCA, Free Carrier, do porto chinês. O comprador informa o destino e as condições desejadas; o trecho terrestre e o seguro são separados na cotação conforme o Incoterm escolhido."
+            "pt": "Sim, a TradeGo trabalha com despachantes internacionais experientes que tratam do desembaraço portuário e do transporte interno na África. Pode-se cotar CIF, custo, seguro e frete até o porto de destino, ou FCA, Free Carrier, do porto chinês. O comprador informa o destino e as condições desejadas; o trecho terrestre e o seguro são separados na cotação conforme o Incoterm escolhido.",
+            "de": "Ja. TradeGo arbeitet mit erfahrenen internationalen Spediteuren zusammen, die die Zollabfertigung am afrikanischen Hafen und den Inlandstransport übernehmen. Wir können CIF, Kosten, Versicherung und Fracht, bis zum Zielhafen oder FCA, Frei Frachtführer, ab chinesischem Hafen kalkulieren."
           }
         },
         {
@@ -274,7 +280,8 @@
             "ar": "ماذا لو وصلت المثبتات تالفة؟",
             "es": "¿Qué pasa si las fijaciones llegan dañadas?",
             "fr": "Que faire si les fixations arrivent endommagées ?",
-            "pt": "O que fazer se os fixadores chegarem danificados?"
+            "pt": "O que fazer se os fixadores chegarem danificados?",
+            "de": "Was passiert, wenn Befestiger beschädigt ankommen?"
           },
           "a": {
             "en": "Document any damage with photos at time of receipt. File claims with the shipping line within their specified time limits (typically 24-48 hours for visible damage). TradeGo assists with claims documentation and coordinates with freight partners.",
@@ -285,7 +292,8 @@
             "ar": "وثّق أي تلف بالصور وقت الاستلام. قدّم المطالبة لشركة الشحن ضمن المهلة المحددة، وعادة 24–48 ساعة للتلف الظاهر. نحن نساعد في مستندات المطالبة والتنسيق مع شركاء الشحن. احتفظ بالعبوة الأصلية والقطع التالفة، واذكر رقم البوليصة ورقم الدفعة في المراسلة، وافصل البضاعة المتضررة عن الصالحة في المستودع لحين البت، وأرفق الفاتورة وقائمة التعبئة بطلب التعويض.",
             "es": "Documente cualquier daño con fotos en el momento de recibir la mercancía. Presente la reclamación a la naviera dentro de sus plazos, habitualmente de 24 a 48 horas para daños visibles. TradeGo ayuda con la documentación de la reclamación y coordina con los socios de transporte. Conviene revisar la carga a la llegada, antes de almacenarla.",
             "fr": "Documentez tout dommage par photos dès la réception. Déposez les réclamations auprès de la ligne maritime dans les délais impartis (typiquement 24 à 48 heures pour les dommages visibles). TradeGo aide au dossier de réclamation et se coordonne avec les partenaires fret. Un constat rapide et complet préserve les droits de l'acheteur.",
-            "pt": "Documenta-se qualquer dano com fotos no momento do recebimento. A reclamação é apresentada à companhia de navegação dentro dos prazos dela, geralmente de 24 a 48 horas para dano visível. A TradeGo auxilia na documentação da reclamação e coordena com os parceiros de frete. A reserva de fotos, nota e registro de lote acelera o atendimento do sinistro e a reposição."
+            "pt": "Documenta-se qualquer dano com fotos no momento do recebimento. A reclamação é apresentada à companhia de navegação dentro dos prazos dela, geralmente de 24 a 48 horas para dano visível. A TradeGo auxilia na documentação da reclamação e coordena com os parceiros de frete. A reserva de fotos, nota e registro de lote acelera o atendimento do sinistro e a reposição.",
+            "de": "Dokumentieren Sie jeden Schaden mit Fotos bei Erhalt. Stellen Sie Schadensmeldung innerhalb der Frist der Reederei ein, üblicherweise 24 bis 48 Stunden bei sichtbarem Schaden. TradeGo hilft bei den Unterlagen und stimmt sich mit den Frachtpartnern ab."
           }
         },
         {
@@ -298,7 +306,8 @@
             "ar": "هل أحتاج إلى وكيل شحن؟",
             "es": "¿Necesito un transitario?",
             "fr": "Ai-je besoin d'un commissionnaire de transport ?",
-            "pt": "Preciso de um despachante de frete?"
+            "pt": "Preciso de um despachante de frete?",
+            "de": "Brauche ich einen Spediteur?"
           },
           "a": {
             "en": "For small orders under 500kg, air freight or courier may be more practical despite higher per-unit cost. For larger orders, a freight forwarder optimizes costs and handles documentation. We can recommend experienced forwarders for African destinations.",
@@ -309,7 +318,8 @@
             "ar": "للطلبات الصغيرة دون 500 kg قد يكون الشحن الجوي أو الساعي أكثر عملية رغم ارتفاع تكلفة الوحدة. للطلبات الأكبر ينظم وكيل الشحن التكاليف ويتولى المستندات. يمكننا ترشيح وكلاء ذوي خبرة للوجهات الأفريقية. قارن بين تكلفة الكيلوغرام والزمن والمستندات قبل اختيار النمط، واطلب من الوكيل تفصيل الرسوم المرفئية والخدمة الأرضية، ولا تجمع حمولات غير متجانسة في عبوة شحن واحدة.",
             "es": "Para pedidos pequeños, bajo 500kg, el flete aéreo o mensajería puede ser más práctico pese a su coste por unidad mayor. Para pedidos mayores, un transitario optimiza el coste y gestiona la documentación. Se pueden recomendar transitarios con experiencia en destinos africanos. La decisión depende del tamaño y la urgencia del pedido.",
             "fr": "Pour les petites commandes sous 500 kg, le fret aérien ou le messager peut être plus pratique malgré un coût unitaire plus élevé. Pour les commandes plus importantes, un commissionnaire optimise les coûts et gère la documentation. Nous pouvons recommander des transitaires expérimentés pour les destinations africaines. Le choix dépend du volume et de la nature de l'envoi.",
-            "pt": "Para pedidos pequenos, abaixo de 500 kg, o frete aéreo ou courier pode ser mais prático, apesar do custo unitário maior. Para pedidos maiores, um despachante otimiza custos e trata da documentação. Podem-se recomendar despachantes experientes para destinos africanos. A escolha depende do peso, do valor da carga e da urgência da entrega ao canteiro."
+            "pt": "Para pedidos pequenos, abaixo de 500 kg, o frete aéreo ou courier pode ser mais prático, apesar do custo unitário maior. Para pedidos maiores, um despachante otimiza custos e trata da documentação. Podem-se recomendar despachantes experientes para destinos africanos. A escolha depende do peso, do valor da carga e da urgência da entrega ao canteiro.",
+            "de": "Für kleine Aufträge unter 500 kg kann Luftfracht oder Kurier trotz höherer Einheitskosten praktischer sein. Bei größeren Aufträgen optimiert ein Spediteur die Kosten und übernimmt die Unterlagen. Wir können erfahrene Spediteure für afrikanische Zielorte empfehlen."
           }
         },
         {
@@ -322,7 +332,8 @@
             "ar": "ما مدى دقة تقديرات زمن العبور؟",
             "es": "¿Qué precisión tienen los plazos de tránsito estimados?",
             "fr": "Les estimations de délai de transit sont-elles précises ?",
-            "pt": "Quão precisas são as estimativas de trânsito?"
+            "pt": "Quão precisas são as estimativas de trânsito?",
+            "de": "Wie zuverlässig sind Transitzeit-Schätzungen?"
           },
           "a": {
             "en": "Base transit times are reliable, but add 5-10 days for African ports to account for potential congestion, customs clearance delays, and inland transport. Port delays are common at Durban, Lagos, and some other African ports.",
@@ -333,7 +344,8 @@
             "ar": "أزمنة العبور الأساسية موثوقة، لكن أضف 5–10 أيام للموانئ الأفريقية لاحتمال الازدحام وتأخير التخليص والنقل الداخلي. تأخيرات الموانئ شائعة في دوربان ولاغوس وبعض الموانئ الأفريقية الأخرى. خطط جدول التركيب بمرونة تحسبًا للتباطؤ، وتابع حالة الحاوية مع الوكيل أسبوعيًا، وحدد موعد التسليم الأرضي لا موعد وصول السفينة فقط، واحتفظ باحتياطي جدول زمني للمشاريع الحرجة.",
             "es": "Los plazos base son fiables, pero añada de 5 a 10 días en los puertos africanos por posible congestión, retrasos aduaneros y transporte interior. Los retrasos portuarios son frecuentes en Durban, Lagos y algunos otros puertos de África. Conviene planificar el inventario con margen frente a esas demoras.",
             "fr": "Les délais de transit de base sont fiables, mais ajoutez 5 à 10 jours pour les ports africains afin de tenir compte d'une éventuelle congestion, des retards de douane et du transport intérieur. Les retards portuaires sont fréquents à Durban, Lagos et quelques autres ports africains. Planifiez le stock en conséquence.",
-            "pt": "Os tempos base de trânsito são confiáveis, mas acrescentam-se de 5 a 10 dias nos portos africanos para congestionamento, atrasos alfandegários e transporte interno. Atrasos portuários são comuns em Durban, Lagos e alguns outros portos africanos. O plano de entrega deve manter contingência, e o cronograma do projeto não deve depender do melhor caso de trânsito."
+            "pt": "Os tempos base de trânsito são confiáveis, mas acrescentam-se de 5 a 10 dias nos portos africanos para congestionamento, atrasos alfandegários e transporte interno. Atrasos portuários são comuns em Durban, Lagos e alguns outros portos africanos. O plano de entrega deve manter contingência, e o cronograma do projeto não deve depender do melhor caso de trânsito.",
+            "de": "Die Basis-Transitzeiten sind zuverlässig, doch für afrikanische Häfen sollten 5 bis 10 Tage für möglichen Stau, Zollverzögerungen und Inlandstransport hinzugefügt werden. Hafeverzögerungen kommen in Durban, Lagos und manchen anderen afrikanischen Häfen vor."
           }
         }
       ]
