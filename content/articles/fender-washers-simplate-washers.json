@@ -265,14 +265,16 @@
       "zh": "螺栓头和螺母两侧都要放垫圈吗？",
       "hi": "बोल्ट के सिर और नट दोनों तरफ़ वॉशर लगाना चाहिए?",
       "ru": "Нужна ли шайба и под головку, и под гайку?",
-      "ar": "هل أضع غسالة تحت رأس البولت وتحت الصامولة معاً؟"
+      "ar": "هل أضع غسالة تحت رأس البولت وتحت الصامولة معاً؟",
+      "es": "¿Pongo arandela bajo la cabeza y bajo la tuerca?"
      },
      "a": {
       "en": "Yes, for structural connections and any joint where the bearing surface may compress. Standard practice is: flat washer under the bolt head; flat washer under the nut (on the far side). This distributes the load on both sides of the joint. For thin material connections, use fender washers (larger OD) on both sides for maximum bearing area.",
       "zh": "需要。结构连接以及承压面可能被压陷的接头，两侧都应放：螺栓头下垫平垫圈，螺母一侧（远端）也垫平垫圈，使接头两侧载荷均匀分布。连接薄材料时，两侧都用外径更大的挡圈垫圈，以获得最大承压面积。",
       "hi": "संरचनात्मक जोड़ों और वहाँ जहाँ बेयरिंग सतह दब सकती है, हाँ। सामान्य तरीका यह है: बोल्ट सिर के नीचे फ़्लैट वॉशर और नट के नीचे दूसरी तरफ़ फ़्लैट वॉशर, ताकि भार जोड़ के दोनों तरफ़ बँटे। पतली सामग्री के जोड़ों में अधिकतम बेयरिंग क्षेत्र के लिए दोनों तरफ़ फेंडर वॉशर, यानी बड़ा बाहरी व्यास, इस्तेमाल करें।",
       "ru": "Да, для структурных узлов и любого соединения, где опорная поверхность может продавиться. Принятая схема: плоская шайба под головкой болта и плоская шайба под гайкой с обратной стороны, так усилие распределяется на обе стороны узла. При соединении тонких материалов шайбы увеличенного наружного диаметра (fender washers) ставят с обеих сторон, чтобы максимально расширить опорную площадь.",
-      "ar": "نعم، في الوصلات الإنشائية وأي وصلة قد تنضغط فيها السطح الحامل. والممارسة المعتادة: غسالة مسطحة تحت رأس البولت، وغسالة مسطحة تحت الصامولة في الجهة البعيدة، فيتوزع الحمل على جانبي الوصلة. وفي وصلات المواد الرقيقة تستخدم غسالات الفندر ذات القطر الخارجي الأكبر على الجانبين معاً للحصول على أكبر مساحة تحميل ممكنة تمنع انغماس السطح تحت الضغط."
+      "ar": "نعم، في الوصلات الإنشائية وأي وصلة قد تنضغط فيها السطح الحامل. والممارسة المعتادة: غسالة مسطحة تحت رأس البولت، وغسالة مسطحة تحت الصامولة في الجهة البعيدة، فيتوزع الحمل على جانبي الوصلة. وفي وصلات المواد الرقيقة تستخدم غسالات الفندر ذات القطر الخارجي الأكبر على الجانبين معاً للحصول على أكبر مساحة تحميل ممكنة تمنع انغماس السطح تحت الضغط.",
+      "es": "Sí, en uniones estructurales y en toda unión donde la superficie de apoyo pueda comprimirse. La práctica estándar es: arandela plana bajo la cabeza del perno y arandela plana bajo la tuerca, en el lado opuesto. Esto reparte la carga a ambos lados de la unión. En uniones de material fino, use arandelas anchas (mayor diámetro exterior) en ambos lados."
      }
     },
     {
@@ -281,14 +283,16 @@
       "zh": "什么时候要用淬火垫圈？",
       "hi": "हार्डन्ड वॉशर कब लगाने चाहिए?",
       "ru": "Когда применяют закалённые шайбы?",
-      "ar": "متى أستخدم الغسالات المصلدة؟"
+      "ar": "متى أستخدم الغسالات المصلدة؟",
+      "es": "¿Cuándo usar arandelas endurecidas?"
      },
      "a": {
       "en": "Use hardened washers (through-hardened to HRC 38-45) in high-strength structural connections (Grade 8.8, 10.9, 12.9 bolts). Standard (unhardened) washers can deform (embed) under the high contact pressure from high-strength bolts, reducing the effective clamp load. Hardened washers are also required when the bolt bearing surface is smaller than the washer ID — the hardened washer prevents the bolt from 'punching through' the washer under load.",
       "zh": "高强度结构连接（配 8.8、10.9、12.9 级螺栓）应使用整体淬硬至 HRC 38–45 的淬火垫圈。普通未淬硬垫圈在高强螺栓的高接触压力下会压陷嵌入，使有效预紧力下降。当螺栓承压面小于垫圈内径时也必须用淬火垫圈，防止受力后螺栓把垫圈击穿。",
       "hi": "उच्च शक्ति वाले संरचनात्मक जोड़ों, ग्रेड 8.8, 10.9, 12.9 बोल्ट, में थ्रू-हार्डन्ड HRC 38-45 वाले हार्डन्ड वॉशर इस्तेमाल करें। साधारण बिना हार्डन किए वाला वॉशर उच्च शक्ति बोल्ट के तेज़ संपर्क दबाव में दबकर धँस सकता है, जिससे असरदार क्लैंप लोड घटता है। जब बोल्ट का बेयरिंग सतह वॉशर के आंतरिक व्यास से छोटा हो, तब भी हार्डन्ड वॉशर चाहिए; यह बोल्ट को भार के नीचे वॉशर में से छेदकर निकलने से रोकता है।",
       "ru": "Закалённые шайбы с твёрдостью по всему сечению HRC 38-45 ставят в высокопрочных структурных соединениях с болтами классов 8.8, 10.9 и 12.9. Обычная незакалённая шайба под высоким контактным давлением вдавливается и теряет часть прижимного усилия. Закалённая шайба также нужна, когда опорная поверхность болта меньше внутреннего отверстия шайбы: она не даёт болту продавить шайбу под нагрузкой.",
-      "ar": "استخدم الغسالات المصلدة، المصلدة كلياً حتى HRC 38-45، في الوصلات الإنشائية عالية القوة مع براغي درجة 8.8 و10.9 و12.9. فالغسالات العادية غير المصلدة قد تتشوه وتنغرس تحت ضغط التلامس العالي للبراغي عالية القوة، ما يقلل حمل التثبيت الفعال. وتلزم الغسالة المصلدة أيضاً عندما يكون سطح تحمل البولت أصغر من القطر الداخلي للغسالة؛ فهي تمنع اختراق البولت للغسالة تحت الحمل وتحافظ على توزيع الضغط."
+      "ar": "استخدم الغسالات المصلدة، المصلدة كلياً حتى HRC 38-45، في الوصلات الإنشائية عالية القوة مع براغي درجة 8.8 و10.9 و12.9. فالغسالات العادية غير المصلدة قد تتشوه وتنغرس تحت ضغط التلامس العالي للبراغي عالية القوة، ما يقلل حمل التثبيت الفعال. وتلزم الغسالة المصلدة أيضاً عندما يكون سطح تحمل البولت أصغر من القطر الداخلي للغسالة؛ فهي تمنع اختراق البولت للغسالة تحت الحمل وتحافظ على توزيع الضغط.",
+      "es": "Use arandelas endurecidas (temple total HRC 38-45) en uniones estructurales de alta resistencia (pernos 8.8, 10.9, 12.9). Las arandelas normales, sin endurecer, pueden deformarse o embeberse bajo la alta presión de contacto de pernos de alta resistencia, reduciendo el apriete útil. También hacen falta cuando la superficie de apoyo del perno es menor que el agujero de la arandela, para que el perno no traspase la arandela bajo carga."
      }
     },
     {
@@ -297,14 +301,16 @@
       "zh": "挡圈垫圈和修理垫圈是一回事吗？",
       "hi": "फेंडर वॉशर और रिपेयर वॉशर एक ही चीज़ हैं?",
       "ru": "Шайбы-кузовки и ремонтные шайбы — это одно и то же?",
-      "ar": "هل غسالات الفندر وغسالات الإصلاح منتج واحد؟"
+      "ar": "هل غسالات الفندر وغسالات الإصلاح منتج واحد؟",
+      "es": "¿Son lo mismo arandela ancha y arandela de reparación?"
      },
      "a": {
       "en": "Yes, fender washers and repair washers are the same product — washers with an oversized outer diameter relative to the inner hole. They are called 'fender washers' because they were originally used to repair automotive fenders (thin sheet metal). In construction, they are essential for any thin-sheet or soft-material connection to prevent pull-through of the fastener head or nut.",
       "zh": "是同一种产品，即外径相对内孔放大的垫圈。名称来源于最初用于修理汽车挡泥板这类薄钣金件。在建筑连接中，凡是薄板或软材料接头，都靠它防止螺栓头或螺母被拉穿。",
       "hi": "हाँ, दोनों एक ही उत्पाद हैं: ऐसे वॉशर जिनका बाहरी व्यास आंतरिक छेद की तुलना में बड़ा होता है। नाम फेंडर इसलिए पड़ा कि पहले ये ऑटोमोबाइल फेंडर, पतली शीट मेटल, ठीक करने में चलते थे। निर्माण में ये किसी भी पतली शीट या नरम सामग्री के जोड़ में बोल्ट सिर या नट को अंदर खिंच जाने से बचाते हैं।",
       "ru": "Да, fender washer и repair washer — один и тот же вид: шайба с увеличенным относительно внутреннего отверстия наружным диаметром. Название fender пошло от ремонта автомобильных крыльев, то есть тонкого листового металла. В строительстве такие шайбы незаменимы в соединениях по тонкому листу или мягкому материалу: они не дают головке болта или гайке продавить материал насквозь.",
-      "ar": "نعم، غسالات الفندر وغسالات الإصلاح منتج واحد: غسالة بقطر خارجي مكبر نسبة إلى الثقب الداخلي. سُميت بغسالات الفندر لأنها استخدمت أصلاً في إصلاح رفارف السيارات من الصاج الرقيق. وفي البناء، لا غنى عنها في أي وصلة من الصاج الرقيق أو المواد الرقيقة لمنع سحب رأس المسمار أو الصامولة عبر السطح وتثبيت الوصلة دون نزف أو هبوط."
+      "ar": "نعم، غسالات الفندر وغسالات الإصلاح منتج واحد: غسالة بقطر خارجي مكبر نسبة إلى الثقب الداخلي. سُميت بغسالات الفندر لأنها استخدمت أصلاً في إصلاح رفارف السيارات من الصاج الرقيق. وفي البناء، لا غنى عنها في أي وصلة من الصاج الرقيق أو المواد الرقيقة لمنع سحب رأس المسمار أو الصامولة عبر السطح وتثبيت الوصلة دون نزف أو هبوط.",
+      "es": "Sí, la arandela ancha y la de reparación son el mismo producto: arandelas con diámetro exterior sobredimensionado respecto al agujero interior. Se llaman así porque al principio se usaban para reparar guardabarros de automóvil, chapa fina. En construcción son imprescindibles en uniones de chapa fina o material blando, para evitar que la cabeza o la tuerca atraviesen la pieza."
      }
     }
    ],
