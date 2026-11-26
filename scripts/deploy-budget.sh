@@ -73,10 +73,24 @@ local_count = 0  # 2026-11-26: 历史字段不再参与判定（会把尝试当�
 hist_count = 0
 hist_ok = os.path.exists(hist_path)
 try:
+    # 2026-11-26 修：原来按行数计，一次 push 的 local-PUSHED 记录 + 之后 API 补的同 sha 记录
+    # 会被数成两次（实测把 4 次真实构建报成 6 次）。改为按 uid 去重，且同 sha 已有 API 记录时
+    # 忽略本地占位记录。
+    rows = []
     for line in open(hist_path):
         line = line.strip()
-        if line and json.loads(line).get('ts', '').startswith(today):
-            hist_count += 1
+        if line:
+            try:
+                r = json.loads(line)
+            except Exception:
+                continue
+            if r.get('ts', '').startswith(today) and r.get('kind') == 'build' and r.get('state') != 'CANCELED':
+                rows.append(r)
+    api_rows = [r for r in rows if r.get('source') == 'api']
+    local_rows = [r for r in rows if r.get('source') != 'api']
+    api_shas = {(r.get('sha') or '')[:8] for r in api_rows}
+    hist_count = len({r.get('uid') for r in api_rows})
+    hist_count += len({r.get('uid') for r in local_rows if (r.get('sha') or '')[:8] not in api_shas})
 except Exception:
     pass
 
