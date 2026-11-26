@@ -25,7 +25,11 @@
 | sitemap | 线上 4,332 条 URL，`force-static` 构建期生成，CDN 直出 |
 | hreflang | 每页 11 条（10 语种 + x-default），canonical 带尾斜杠 |
 | 结构化数据 | 单页 18 个 JSON-LD 块（Article / FAQPage / BreadcrumbList / Organization / LocalBusiness / WebSite / VideoObject 等），服务端直出、不依赖 JS |
-| robots.txt | 显式放行 19 个 AI 爬虫（GPTBot、OAI-SearchBot、ClaudeBot、PerplexityBot、Google-Extended、Grok 等） |
+| robots.txt | 显式放行 19 个 AI 爬虫（GPTBot、OAI-SearchBot、ClaudeBot、PerplexityBot、Google-Extended、Grok 等）。**2026-11-26 更正：此前每段都带 `Disallow: /_next/`，把页面 CSS/JS 一起挡了（已删）；`Host:` 已废弃指令一并删除；见 §10 变更登记** |
+| robots meta | **2026-11-26 更正：此前只有 `index, follow`，缺 `max-image-preview:large` / `max-snippet:-1`，等于放弃大图预览（已补，含 googleBot）** |
+| 作者结构化数据 | **2026-11-26 更正：Article `author` 此前是 Organization，与页面署名「Edmond \| TradeGo Fasteners」不符；已改 `Person{name:Edmond,url:/en/about/,worksFor:Organization}`，publisher 仍为 Organization** |
+| meta keywords | **2026-11-26 更正：此前输出 `meta name="keywords"`（Google 官方完全忽略）；已停出（JSON 数据保留）** |
+| 新鲜度信号 | **2026-11-26 新增：`dateModified`/sitemap `lastmod` 改由 `scripts/content-freshness.py` 单一来源产出（git 末次提交日 + JSON 字段补正），强制 `modified ≥ published`；文章 URL 用构建戳冒充 lastmod 已归零。届时全站 lastmod 只有 11-25/11-26 两个值——真实原因是全仓这两日集中改过，不是取数错** |
 | llms.txt | `public/llms.txt` 6,121 B，含公司事实、产品线矩阵、市场、10 语入口表 |
 | 噪音数据 | 虚构 AggregateRating 已移除；单 H1；薄页 noindex 且不进 sitemap |
 | 性能 | 桌面 LCP 0.7–0.9 s、移动真实网络 0.9 s；`/en/industry/` 聚合页 194 KB（已从 970 KB 降） |
@@ -95,7 +99,7 @@
 ### 三条明确不做的决策（避免下轮又绕回来）
 
 - **不靠新增页面增长**。279 × 10 = 2,790 个文章页，索引预算早就被自己占满；新增一篇的 ROI 远低于把 4–10 名的 609 页推到前 3。
-- **不再加 FAQ**。FAQ 已 100% 覆盖、FAQPage 已全站输出，边际为零。GEO 现在的瓶颈是首段和实体密度。
+- **不再加 FAQ（2026-11-26 口径升级，本节为唯一来源）**。两层理由：① 覆盖已 100%，再加边际为零；② Google 官方口径——**FAQ rich results 现只对政府和医疗类站点开放，B2B 站点即便输出 FAQPage 结构化数据也不会出折叠富结果**，它只帮助内容理解。所以：**已补的 FAQ 一律不回退**（对 AI 搜索/AI Overview 的抓取理解仍有价值，属 GEO 收益）；**从 2026-11-26 起停止以"补满多少条"为目标的扩 FAQ**，B 区剩余语种缺口由 B 线按他们节奏走，A 线不再加派；预算转向首段、实体密度、内链与新鲜度信号。
 - **不再堆 schema**。单页 18 块已足够，继续加只会稀释信号、增加 HTML 体积。
 
 ---
@@ -282,6 +286,12 @@ bash scripts/vercel-audit.sh           # 第 9–13 项必须绿
 | 2026-11-25 | 句级去重 2956 处 / 124 篇（`105eda38`）：段落去重后再清「同句换段抄一遍」，A 线脚本 `scripts/dedupe-sentences.py`；`dup` 缺口 144→134、结构均分 86.0→86.9 | A |
 | 2026-11-25 | 正文内链再补 18 处、`link` 缺口 43→29（`9761e90c`）；孤儿 30→20，19 条入站链只改 `relatedArticles`（`b39298e9`、`c8ca53f7` 之外两条）；剩 20 篇出候选清单 `docs/orphan-backlog-2026-1125.csv` 待人工确认 | A |
 | 2026-11-25 | 结构 GEO 均分 86.0→87.4，85 分以上 196→200 篇；`src` 缺口 20 篇（全是 buying-guide 类，正文无标准号可挂来源）判定为内容重写项，不再自动补 | A |
+| 2026-11-26 | 新鲜度信号单一来源落地：`scripts/content-freshness.py` + `content/freshness.json` + `src/lib/freshness.ts`；`dateModified ≥ datePublished` 强制成立；sitemap 文章 lastmod 改用真实日期、构建戳只留非文章页（`a559cfaf`、`4b24c64c`、`dc93c22d`、`faca5504`） | A |
+| 2026-11-26 | Google 技术口径四项：robots 删 `/_next/` 与 `Host:`（20 段同步）、robots meta 补 `max-image-preview:large`+`max-snippet:-1`、Article author 改 Person、停出 `meta keywords`（`a94a11ff`、`e3265df8`、`824a9529`、`0e171dfd`、`571cc332`、`338ab8df`） | A |
+| 2026-11-26 | 索引管道：sitemap 重提交成功（`11:37:58 CST`，GSC 复核已发现 4,101）；20 条重点 URL 入队 7 条后触发当日配额（`docs/GSC-INDEX-2026-1126.md`，`d6bbca68`）；GSC 数据刷新至 2026-11-23：clicks 272 / impressions 2.61 万 / CTR 1% / 均排 13.1；覆盖率 1,272 已索引、4,480 未索引 | A |
+| 2026-11-26 | FAQ 战略口径定稿：不再以"补满条数"为目标扩 FAQ，已补不回退（官方口径：FAQ 富结果仅政府/医疗类开放）；见 §3 决策条 | A |
+| 2026-11-26 | 合规红点：`ghana-building-materials`（10 语种 PVoC 段去上海地点与 USD 档位）、`angola-lng-project-fastener-procurement`（10 语种改"按 ISO 9001 体系生产、证书按订单提供"）；全库扫描真违规去重 109 篇，余 107 篇在册待排（`docs/compliance-redspots-2026-1126.md`，`111c9c3e`、`45995e59`、`4e464b14`） | A |
+| 2026-11-26 | 样板块治理方案 `docs/DUP-BLOCK-PLAN.md`（hub=`high-tensile-structural-bolts-guide`，5% 词数硬线）；A 区 5 篇试点命中族 23/20/19/19/19 → 各 4，全库族数 70→70（机制所致），`bebdbed5` 起 15 笔 | A |
 
 ## 11. 执行记录（批次 1 首批，2026-11-25）
 
