@@ -223,7 +223,8 @@
             "ar": "هل يمكن استخدام صامولة خيط ناعم مع برغي خيط خشن؟",
             "es": "¿Puedo usar una tuerca de rosca fina en un perno de rosca gruesa?",
             "fr": "Peut-on mettre un écrou filetage fin sur un boulon filetage gros ?",
-            "pt": "Posso usar porca de rosca fina em parafuso de rosca grossa?"
+            "pt": "Posso usar porca de rosca fina em parafuso de rosca grossa?",
+            "de": "Kann ich eine Feingewindemutter auf eine Grobgewindeschraube setzen?"
           },
           "a": {
             "en": "No. Coarse and fine threads have different pitches and are not interchangeable. M12×1.75 coarse bolt requires M12×1.75 nut; M12×1.25 fine bolt requires M12×1.25 nut.",
@@ -233,7 +234,8 @@
             "ar": "لا. الخيط الخشن والناعم لهما ميل مختلف وغير قابلين للتبديل. فالبرغي الخشن M12×1.75 يحتاج صامولة M12×1.75، والبرغي الناعم M12×1.25 يحتاج صامولة M12×1.25.",
             "es": "No. Las roscas gruesa y fina tienen pasos distintos y no son intercambiables. Un perno grueso M12×1.75 necesita una tuerca M12×1.75; un perno fino M12×1.25 necesita una tuerca M12×1.25. El paso debe coincidir exactamente entre perno y tuerca.",
             "fr": "Non. Les filetages gros et fin ont des pas différents et ne sont pas interchangeables. Un boulon M12×1,75 gros requiert un écrou M12×1,75 ; un boulon M12×1,25 fin requiert un écrou M12×1,25. Le mélange de pas sur un même assemblage ne s'engage pas correctement et compromet la tenue.",
-            "pt": "Não. Rosca grossa e fina têm passos diferentes e não são intercambiáveis. Um parafuso M12×1,75 grossa exige porca M12×1,75; um parafuso M12×1,25 fina exige porca M12×1,25. A rosca é casada entre peças do mesmo passo, e a bitola é conferida na ficha antes do pedido do conjunto."
+            "pt": "Não. Rosca grossa e fina têm passos diferentes e não são intercambiáveis. Um parafuso M12×1,75 grossa exige porca M12×1,75; um parafuso M12×1,25 fina exige porca M12×1,25. A rosca é casada entre peças do mesmo passo, e a bitola é conferida na ficha antes do pedido do conjunto.",
+            "de": "Nein. Grob- und Feingewinde haben unterschiedliche Steigungen und sind nicht austauschbar. Eine M12×1,75-Grobgewindeschraube braucht eine M12×1,75-Mutter; eine M12×1,25-Feingewindeschraube eine M12×1,25-Mutter."
           }
         },
         {
@@ -245,7 +247,8 @@
             "ar": "متى أحدد براغي خيط كامل؟",
             "es": "¿Cuándo especifico pernos de rosca completa?",
             "fr": "Quand spécifier des boulons filetage intégral ?",
-            "pt": "Quando devo especificar parafusos de rosca total?"
+            "pt": "Quando devo especificar parafusos de rosca total?",
+            "de": "Wann sind Vollgewinde-Schrauben vorzusehen?"
           },
           "a": {
             "en": "Specify full thread when母材 thickness is variable, when bolt passes through the母材 and engages a nut beyond, or when maximum clamping range is needed along the bolt length.",
@@ -255,7 +258,8 @@
             "ar": "حدد الخيط الكامل عندما تكون سماكة المادة الأم متغيرة، أو عندما يمر البرغي عبر المادة الأم ويدخل في صامولة من الجهة الأخرى، أو عند الحاجة إلى أقصى نطاق تثبيت على طول البرغي.",
             "es": "Especifique rosca completa cuando el grosor del soporte es variable, cuando el perno atraviesa el soporte y engrana una tuerca al otro lado, o cuando se necesita el máximo rango de apriete a lo largo del perno. La rosca cubre la parte que queda bajo apriete en la unión.",
             "fr": "Spécifier le filetage intégral lorsque l'épaisseur de pièce est variable, lorsque le boulon traverse la pièce et engage un écrou au-delà, ou lorsque la plage de bridage maximale est voulue sur toute la longueur. La partie lisse étant absente, la fixation s'adapte à des épaisseurs d'assemblage diverses.",
-            "pt": "Especifica-se rosca total quando a espessura do material base é variável, quando o parafuso atravessa o material e engasta uma porca do outro lado, ou quando é preciso o máximo intervalo de aperto ao longo do comprimento. A condição da junta define a escolha, e a rosca é conferida contra o desenho do furo e do fixativo."
+            "pt": "Especifica-se rosca total quando a espessura do material base é variável, quando o parafuso atravessa o material e engasta uma porca do outro lado, ou quando é preciso o máximo intervalo de aperto ao longo do comprimento. A condição da junta define a escolha, e a rosca é conferida contra o desenho do furo e do fixativo.",
+            "de": "Sehen Sie Vollgewinde vor, wenn die Grundwerkstoffdicke schwankt, wenn die Schraube durch den Werkstoff läuft und dahinter eine Mutter greift, oder wenn über die Schraubenlänge ein maximaler Klemmbereich nötig ist."
           }
         },
         {
@@ -267,7 +271,8 @@
             "ar": "ما ميزة برغي نصف الخيط؟",
             "es": "¿Qué ventaja tiene un perno de media rosca?",
             "fr": "Quel avantage au boulon à filetage partiel ?",
-            "pt": "Qual a vantagem de um parafuso de meia rosca?"
+            "pt": "Qual a vantagem de um parafuso de meia rosca?",
+            "de": "Welchen Vorteil hat eine Teilgewindeschraube?"
           },
           "a": {
             "en": "The unthreaded shank carries shear across the joint and resists bearing pressure at the hole, while the thread only needs to cover the nut and washer. That is why structural connections usually specify half thread.",
@@ -277,7 +282,8 @@
             "ar": "يحمل الساق غير الملولب القص بين طرفي الوحدة ويقاوم ضغط الارتكاز عند الثقب، بينما يحتاج الخيط فقط إلى تغطية الصامولة والغسالة. ولهذا تحدد الوصلات الإنشائية عادة نصف الخيط.",
             "es": "El vástago sin rosca soporta el cortante a través de la unión y resiste la presión de apoyo en el hueco, mientras la rosca solo necesita cubrir la tuerca y la arandela. Por eso las uniones estructurales suelen especificar media rosca. El tramo liso concentra la resistencia al corte.",
             "fr": "La tige lisse reprend le cisaillement au travers du joint et résiste à la pression d'appui au trou, tandis que le filetage ne doit couvrir que l'écrou et la rondelle. C'est pourquoi les liaisons structurales spécifient généralement le filetage partiel. La tige pleine offre une section plus résistante au cisaillement.",
-            "pt": "A haste sem rosca suporta o cisalhamento na junta e resiste à pressão de apoio no furo, enquanto a rosca só precisa cobrir a porca e a arruela. É por isso que as ligações estruturais costumam especificar meia rosca. A seção lisa segue a carga de cisalhamento, e a classe é conferida no projeto estrutural."
+            "pt": "A haste sem rosca suporta o cisalhamento na junta e resiste à pressão de apoio no furo, enquanto a rosca só precisa cobrir a porca e a arruela. É por isso que as ligações estruturais costumam especificar meia rosca. A seção lisa segue a carga de cisalhamento, e a classe é conferida no projeto estrutural.",
+            "de": "Der gewindelose Schaft trägt die Scherung über die Verbindung und widersteht dem Lagerdruck am Loch, während das Gewinde nur Mutter und Scheibe zu erfassen braucht. Deshalb sehen Tragverbindungen üblicherweise Teilgewinde vor."
           }
         }
       ],
