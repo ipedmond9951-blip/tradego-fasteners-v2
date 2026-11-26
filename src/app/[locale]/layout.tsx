@@ -35,18 +35,19 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const loc = (locale as Locale) || 'en'
   const siteUrl = 'https://www.tradego-fasteners.com'
   
-  // 首页标题压到 55-60 字符（搜索结果页不截断），保留品类 + 认证 + 核心市场
+  // 首页标题压到 55-60 字符（搜索结果页不截断），保留品类 + 认证 + 核心市场，
+  // 但地域不再写成“只做津巴布韦/南部非洲”，改成“非洲与全球”口径，避免把其他市场挡在门外
   const titles: Record<string, string> = {
-    zh: '紧固件批发厂家｜按 SABS 1195 规格生产｜南部非洲',
-    en: 'Wholesale Fastener Manufacturer | Zimbabwe & S. Africa',
-    es: 'Fabricante mayorista de fijaciones | África Austral',
-    fr: 'Fabricant grossiste de fixations | Afrique australe',
-    pt: 'Fabricante atacadista de fixadores | África Austral',
-    ar: 'مصنع مثبتات بالجملة لزيمبابوي والجنوب الأفريقي',
-    ru: 'Производитель крепежа оптом | Зимбабве и Юг Африки',
-    ja: 'ファスナー卸売メーカー｜ジンバブエ・南部アフリカ',
-    de: 'Großhandel Verbindungselemente | Südliches Afrika',
-    hi: 'फास्टनर थोक निर्माता | ज़िम्बाब्वे और दक्षिणी अफ्रीका',
+    zh: '紧固件批发厂家｜按 SABS 1195 规格生产｜非洲与全球直供',
+    en: 'Wholesale Fastener Manufacturer | Zimbabwe & Worldwide',
+    es: 'Fabricante mayorista de fijaciones | África y todo el mundo',
+    fr: 'Fabricant grossiste de fixations | Afrique et monde entier',
+    pt: 'Fabricante atacadista de fixadores | África e mundo',
+    ar: 'مصنع مثبتات بالجملة لأفريقيا والعالم',
+    ru: 'Производитель крепежа оптом | Африка и мир',
+    ja: 'ファスナー卸売メーカー｜アフリカ・世界向け',
+    de: 'Großhandel Verbindungselemente | Afrika und weltweit',
+    hi: 'फास्टनर थोक निर्माता | अफ्रीका और दुनिया',
   }
   const descriptions: Record<string, string> = {
     zh: '按 SABS 1195 / DIN / ISO 尺寸规格生产的中国紧固件制造商，20 年出口津巴布韦、南非、赞比亚、莫桑比克、博茨瓦纳。干壁钉、六角螺栓、IBR 瓦钉、自钻螺丝，工厂直采价；ISO 9001 与 SABS 证书按订单要求提供。发货至德班、贝拉、哈拉雷。',
