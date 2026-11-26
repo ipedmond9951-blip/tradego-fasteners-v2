@@ -449,15 +449,20 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
                   const aTitle = getArticleTitle(a, locale)
                   const truncated = aTitle.length > 70 ? aTitle.substring(0, 70) + '…' : aTitle
                   return (
-                    <Link
+                    <div
                       key={a.slug}
-                      href={`/${locale}/industry/${a.slug}/`}
-                      className="block p-4 border border-gray-200 rounded-lg hover:border-primary-300 hover:bg-primary-50 transition-colors"
+                      className="group block p-4 border border-gray-200 rounded-lg hover:border-primary-300 hover:bg-primary-50 transition-colors"
                     >
                       <div className="text-sm text-primary-600 font-medium mb-1">{categoryLabel(a.category, locale)}</div>
-                      <div className="text-gray-900 font-medium">{truncated}</div>
+                      {/* P2-4: 锚文本只含文章标题；类目名与日期留在锚外，避免提取成「类目名+标题+日期」粘连文本 */}
+                      <Link
+                        href={`/${locale}/industry/${cleanSlug(a.slug)}/`}
+                        className="text-gray-900 font-medium group-hover:text-primary-700"
+                      >
+                        {truncated}
+                      </Link>
                       <div className="text-xs text-gray-500 mt-1">{a.date}</div>
-                    </Link>
+                    </div>
                   )
                 })}
               </div>
