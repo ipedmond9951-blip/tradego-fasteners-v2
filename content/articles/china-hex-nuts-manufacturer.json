@@ -60,7 +60,7 @@
     {
       "id": "specifications",
       "heading": {
-        "en": "Hex Nut Specifications",
+        "en": "Which specification items must match the paired bolt?",
         "es": "Especificaciones de Tuercas Hexagonales",
         "ar": "مواصفات الصواميل السداسية",
         "fr": "Spécifications des écrous hexagonaux",
@@ -69,7 +69,7 @@
         "ja": "六角ナットの仕様",
         "de": "Sechskantmuttern-Spezifikationen",
         "hi": "हेक्स नट विनिर्देश",
-        "zh": "六角螺母规格"
+        "zh": "哪些规格项必须与配对螺栓匹配？"
       },
       "body": {
         "en": "<p>Specification of a hex nut is a short list in which every item is a decision. Diameter and thread pitch set the fit. The property class sets the strength, and it should match or exceed the class of the bolt it will be used with. The coating sets the service life and, in the case of hot-dip galvanising, the fit, because a thick coating on a nut requires either an oversize tap or a coated bolt to match.</p>\n<p>Standard references do the work that a description cannot. A metric hex nut specification names the dimension series, the thread tolerance, the mechanical property class and the test methods, so a supplier who quotes to the reference is quoting a defined object. Where a project cites a standard without a class, the class is still required, because the standard says how the nut will be judged and not what it must carry.</p>\n<p>Stainless nuts follow the same logic with a different language: the grade designation identifies the steel family, and the strength follows from the family plus cold working rather than from a class number. The practical pairing rule holds — a stainless nut on a stainless bolt, with a defined lubricant to prevent galling, because a seized stainless assembly on a structural bolt becomes a cutting job.</p>\n<p>Marking completes the specification. A nut intended for a graded connection carries its class and its maker's mark, and a carton that mixes classes is a carton that has been re-packed. The check at goods-in is a minute per batch, and it is the only check that travels with the goods.</p>\n\n<p>One tolerance point that causes real problems is the relationship between coating thickness and thread fit. Hot-dip galvanising adds thickness to both the inside and the outside of a nut, and a nut that is tapped to the standard before galvanising may not run onto a galvanised bolt afterwards. The practical answers are to specify a nut tapped oversize for the coating, to specify a zinc flake coating that does not disturb the fit, or to buy the bolt and nut as a matched galvanised pair from the same source.</p>\n\n<p>Sampling and testing are proportionate to the part. A dimensional check of the thread with a gauge, a hardness check for a graded nut, and a proof load test on a sample from each batch will confirm more than any document, and they can be done with equipment that a distributor already has. The certificate then becomes the record of what was done rather than a promise about it.</p>\n\n<p>A nut that arrives with no marking beside a graded bolt is the most common non-conformity in this category, and it is the one that a photograph of the carton label settles in a minute.</p>\n\n<p>Where a project requires third-party inspection, agree before production which batches will be sampled and which tests will be witnessed, because an inspection request raised after the goods are packed becomes a re-packing cost rather than a test.</p>",
@@ -87,7 +87,7 @@
     {
       "id": "pricing",
       "heading": {
-        "en": "Hex Nut Wholesale Pricing",
+        "en": "What makes up the wholesale price of a hex nut?",
         "es": "Precios al por Mayor de Tuercas Hexagonales",
         "ar": "أسعار الجملة للصواميل السداسية",
         "fr": "Tarifs de gros des écrous hexagonaux",
@@ -96,7 +96,7 @@
         "ja": "六角ナットの卸売価格",
         "de": "Sechskantmuttern-Großhandelspreise",
         "hi": "हेक्स नट थोक मूल्य निर्धारण",
-        "zh": "六角螺母批发价格"
+        "zh": "六角螺母批发价格由哪些部分构成？"
       },
       "body": {
         "en": "<p>Wholesale pricing for hex nuts is a structure, not a published number: no fixed figure printed on a page survives a change in the wire price, the zinc price or the energy cost, and a page that presents one is presenting a snapshot as if it were a price. What a buyer can work with is the composition, because each element can be discussed separately.</p>\n<p>The base is material and forming: the mass of the nut at the specified diameter and class, plus cold or hot forming, tapping and, where the class requires it, heat treatment. A heavy hex nut carries more mass than a standard one at the same diameter, and that difference is in the price before any coating is considered. The second element is the coating: plating to a stated thickness, mechanical zinc, zinc flake to a coating class, or hot-dip galvanising, each with its own cost and its own implication for the tap size.</p>\n<p>The third element is packing and presentation: bulk cartons, printed cartons, small boxes, palletisation and labelling. On nuts this element is larger than buyers expect, because the parts are heavy relative to their value and the packing is a real share of the landed cost. The fourth is the document package and the freight, which move the price from ex-works to delivered, and the fifth is volume and payment terms.</p>\n<p>The commercial lever with the most effect is consolidation. Nuts are bought in sets with bolts, and a supplier who can pack matched sets and ship them as one line removes handling and documentation from both sides. A buyer who consolidates diameters, classes and coatings into a small number of order lines usually does better than one who negotiates a unit price on a fragmented order.</p>\n\n<p>Minimum order quantities on nuts follow the same logic as on bolts, and they are usually set by the coating batch rather than by the forming run. A plating barrel or a galvanising batch has a working minimum, and a supplier who explains that minimum is telling the buyer where the real constraint sits. Consolidating diameters or combining with bolts in the same order is usually the way to meet it without paying a penalty.</p>\n\n<p>The comparison that matters is landed cost for a defined specification, with the packing and the document package included on both sides. A price quoted for a bulk carton and a price quoted for a printed retail box are not the same offer, and the difference is often larger than the difference in the nut.</p>\n\n<p>Finally, ask what the supplier will not change. A supplier who can hold one thread tolerance, one coating class and one marking standard across repeat orders is worth more than one who can match any price once.</p>\n\n<p>A buyer who keeps the quotation, the certificate and the carton label for each batch is running a small quality system, and it is the only one that most distributors can afford.</p>\n<p>That record is also what makes the next order cheaper to place: the specification is already written, the sample already approved, and the price discussion has nothing left to hide behind.</p>\n\n<p>A supplier who will state, in writing, which lines are held in stock and which are made to order is giving the buyer the only schedule information that matters at quotation stage.</p>",
@@ -178,7 +178,7 @@
             "ja": "製造元はナットをどのように作りますか？"
           },
           "a": {
-            "en": "Standard, thin, heavy, flange, nylon-insert lock and weld nuts are all routine. Each maps to a different standard - ISO 4032, DIN 934, DIN 985 for nylon lock - so name the standard and grade, not just 'hex nut'.",
+            "en": "Factories routinely supply standard, thin, heavy, flange, nylon-insert lock, distorted-thread, mechanical-key, castellated, coupling and weld nuts. Standard hex nuts follow DIN 934 / ISO 4032, flange nuts DIN 6923, nylon lock nuts DIN 985; properties reference ISO 898-1, stainless ISO 3506-1, coating ISO 4042. Thin nuts are jam nuts where space is limited, not a substitute in a loaded connection. Flange nuts carry an integral bearing surface that spreads load on thin or soft material and remove the separate washer. On the order, name standard, dimension series, thread tolerance and class, not just 'hex nut'.",
             "zh": "标准型、薄型、加厚、法兰、尼龙锁紧和焊接螺母都是常规供货品类。它们各对应不同标准：普通六角螺母对应 ISO 4032、DIN 934，尼龙锁紧螺母对应 DIN 985 等，因此采购时要写明标准号、型式和性能等级，不能只笼统写“六角螺母”。螺母必须与相配螺栓的等级和螺纹制式匹配，法兰面、锁紧件等附加结构也要在清单中注明，避免到货后型式不符无法配对安装。",
             "hi": "स्टैंडर्ड, पतले, भारी, फ्लैंज, नायलॉन-इन्सर्ट लॉक और वेल्ड नट सभी सामान्य हैं। हर एक अलग मानक से जुड़ा है — नायलॉन लॉक के लिए ISO 4032, DIN 934, DIN 985 — इसलिए केवल हेक्स नट न कहकर मानक और ग्रेड स्पष्ट करें।",
             "ru": "В серии ходят стандартные, тонкие, усиленные, фланцевые, гайки с нейлоновой вставкой и приварные. Каждый тип привязан к своему стандарту — ISO 4032, DIN 934, DIN 985 для нейлонового стопора, — поэтому в заказе называют стандарт и класс, а не просто «гайка».",
@@ -204,7 +204,7 @@
             "ja": "ナットの品質を確認する検査は何ですか？"
           },
           "a": {
-            "en": "M3 to M36 in classes 6, 8, 10 and 12 is standard range, with M8 to M20 the highest-volume sizes for African construction orders. Class 10 nuts for 10.9 bolts often need heat treatment and are priced accordingly.",
+            "en": "The common range runs M3 to M36 in classes 6, 8, 10 and 12, M8 to M20 lead African construction orders. The nut class should match or exceed its paired bolt; a class 10 nut for a 10.9 bolt needs heat treatment, priced accordingly. Stainless nuts follow the A2/A4 grade family, pair with a stainless bolt and defined lubricant to avoid galling. Hot-dip galvanising changes fit: a thick coating may need an oversize tap or a matched coated bolt. The nut carries its class and maker's mark, and the carton must not mix classes.",
             "zh": "常规规格覆盖 M3–M36，性能等级有 6、8、10、12 级，非洲建筑订单量最大的集中在 M8–M20。配 10.9 级螺栓的 10 级螺母通常需要热处理，材质和工艺要求更高，价格也相应更高。选型时螺母等级不得低于相配螺栓的承载要求，螺纹直径、螺距和制式要与螺栓一致；大规格或高等级件应核对材质证明和热处理状态，订货清单里把规格、等级、表面处理一并写清。",
             "hi": "मानक श्रेणी M3 से M36 तक वर्ग 6, 8, 10 और 12 में आती है; अफ्रीकी निर्माण ऑर्डर में M8 से M20 तक के साइज़ सबसे ज्यादा चलते हैं। 10.9 बोल्ट के लिए वर्ग 10 नट अक्सर हीट ट्रीटमेंट मांगते हैं, और उनकी दर उसी हिसाब से तय होती है।",
             "ru": "Стандартный диапазон M3…M36, классы 6, 8, 10 и 12; наибольший объём у заказов в Африке приходится на размеры M8…M20. Гайки класса 10 под болты 10.9 часто проходят термообработку, и это закладывается в изготовление; цена формируется под класс и технологию.",
@@ -230,7 +230,7 @@
             "ja": "標準納期はどのくらい見込みますか？"
           },
           "a": {
-            "en": "Wire rod cost, tapping speed and tool life, coating type, and whether nuts are chamfered on both faces. Packaging and container loading matter on cheap items where freight is a large share of landed cost.",
+            "en": "Wholesale price is a structure, not a published number, as wire rod, zinc and energy costs move. The base is material and forming: nut mass, forming, tapping, and heat treatment where required; a heavy hex carries more mass than a standard one at the same diameter. Next comes coating — plating to thickness, mechanical zinc, zinc flake to class, or hot-dip galvanising. Then packing: cartons, small boxes, palletisation, labelling. Finally the document package, freight, volume and payment terms. Consolidating nuts with bolts in matched sets as one line is the strongest lever.",
             "zh": "六角螺母批发价受线材成本、攻丝效率与刀具寿命、镀层种类、是否双面倒角等因素影响。这类单价较低的紧固件，运费在到岸成本中占比不小，包装方式和装柜排布同样影响实际到手成本。比价时不能只看单支价格，还要把每箱数量、装箱体积、柜内利用率和镀层费用一起核算；数量、等级和表面处理固定后，再比较不同报价的总成本口径是否一致。",
             "hi": "वायर रॉड की लागत, टैपिंग की गति और टूल की उम्र, कोटिंग का प्रकार, तथा नट के दोनों फेस पर चैम्फर है या नहीं — ये दरें चलाते हैं। सस्ती चीज़ों पर पैकिंग और कंटेनर लोडिंग भी मायने रखती है, क्योंकि ऐसी वस्तु में भाड़ा लैंडेड लागत का बड़ा हिस्सा होता है।",
             "ru": "Стоимость формируют проволочная заготовка, скорость нарезки резьбы и ресурс инструмента, тип покрытия, а также наличие фасок с двух граней. Упаковка и загрузка в контейнер важны для недорогих позиций, где фрахт составляет большую долю стоимости доставки; ставки зависят от объёма партии и спецификации.",
