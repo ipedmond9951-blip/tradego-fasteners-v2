@@ -163,7 +163,8 @@
             "es": "¿Qué longitud de tornillo para placa aislante exterior?",
             "fr": "Quelle longueur de vis pour panneau isolant extérieur ?",
             "pt": "Qual o comprimento do parafuso para placa de isolamento externa?",
-            "de": "Welche Schraubenlänge für Außenwärmedämmung?"
+            "de": "Welche Schraubenlänge für Außenwärmedämmung?",
+            "ja": "外張り断熱ボードにはどのねじの長さが必要ですか？"
           },
           "a": {
             "en": "Calculate: insulation thickness + sheathing thickness + minimum embedment into substrate (steel: 25mm, wood: 40mm). Add 5-10mm for washer thickness. For example: 100mm insulation + 12mm OSB + 25mm steel stud = 137mm + washer = specify 150mm.",
@@ -174,7 +175,8 @@
             "es": "Calcule: grosor del aislante más grosor del revestimiento más empotramiento mínimo en el soporte (acero: 25 mm, madera: 40 mm). Añada 5-10 mm por el grosor de la arandela. Por ejemplo: 100 mm de aislante + 12 mm de OSB + 25 mm de montante de acero = 137 mm, más arandela, y se especifica 150 mm. La suma de capas define la longitud real del tornillo.",
             "fr": "On détermine la longueur voulue en additionnant l'épaisseur de l'isolant, l'épaisseur du contreventement et l'encastrement minimal dans le support : 25 mm pour l'acier et 40 mm pour le bois. On ajoute ensuite 5 à 10 mm pour l'épaisseur de la rondelle. Par exemple, 100 mm d'isolant + 12 mm d'OSB + 25 mm de montant acier donnent 137 mm, rondelle comprise, et l'on spécifie une vis de 150 mm.",
             "pt": "Calcula-se: espessura do isolamento + espessura do revestimento + embebição mínima no substrato (aço: 25 mm, madeira: 40 mm). Acrescentam-se 5 a 10 mm para a espessura da arruela. No exemplo: 100 mm de isolamento + 12 mm de OSB + 25 mm na estrutura de aço dá 137 mm, mais a arruela, e especifica-se 150 mm.",
-            "de": "Bei der Längenberechnung ist zu beachten: Dämmdicke plus Bekleidungsdicke plus Mindesteinbettung in den Untergrund, wobei Stahl 25 mm und Holz 40 mm gilt; dazu kommen noch 5 bis 10 mm für die Unterlegscheibe. Als Beispiel: 100 mm Dämmung plus 12 mm OSB plus 25 mm Stahlständer ergibt 137 mm mit Scheibe, daher sind dann 150 mm anzugeben."
+            "de": "Bei der Längenberechnung ist zu beachten: Dämmdicke plus Bekleidungsdicke plus Mindesteinbettung in den Untergrund, wobei Stahl 25 mm und Holz 40 mm gilt; dazu kommen noch 5 bis 10 mm für die Unterlegscheibe. Als Beispiel: 100 mm Dämmung plus 12 mm OSB plus 25 mm Stahlständer ergibt 137 mm mit Scheibe, daher sind dann 150 mm anzugeben.",
+            "ja": "断熱材の厚さ、下張り板の厚さ、下地への最小貫入量を合計して算出します。鉄下地では 25 mm、木下地では 40 mm の貫入が目安で、座金の厚さ分として 5〜10 mm を加えます。例えば断熱材 100 mm、OSB 12 mm、鉄スタッドへの貫入 25 mm に座金を加えた場合、150 mm を指定します。下地の種類と各部材の厚みを確認して長さを出してください。"
           }
         },
         {
@@ -187,7 +189,8 @@
             "es": "¿Por qué los tornillos de baño deben ser de acero inoxidable?",
             "fr": "Pourquoi les vis de salle de bain doivent-elles être en inox ?",
             "pt": "Por que os parafusos de banheiro precisam ser inoxidáveis?",
-            "de": "Warum brauchen Badezimmerschrauben Edelstahl?"
+            "de": "Warum brauchen Badezimmerschrauben Edelstahl?",
+            "ja": "浴室のねじはステンレス鋼が必要なのはなぜですか？"
           },
           "a": {
             "en": "Bathrooms have high humidity and chlorides from cleaning products. Standard steel rusts quickly, causing staining and eventual failure. 304 stainless resists bathroom conditions adequately.",
@@ -198,7 +201,8 @@
             "es": "Los baños tienen alta humedad y cloruros de los productos de limpieza. El acero estándar oxida rápido, causando manchas y fallo eventual. El inoxidable 304 responde adecuadamente a las condiciones del baño. El ambiente húmedo es lo que exige el material resistente a la oxidación.",
             "fr": "La salle de bain cumule forte humidité et chlorures des produits d'entretien. L'acier standard rouille vite, provoquant des taches puis une défaillance à terme. L'inox 304 résiste convenablement aux conditions de salle de bain. Un environnement humide et chloruré justifie la montée en matériau inoxydable.",
             "pt": "Banheiros têm umidade alta e cloretos de produtos de limpeza. O aço comum enferruja rápido, causando manchas e falha eventual. O inoxidável 304 resiste adequadamente às condições de banheiro. A escolha do material segue a umidade e os cloretos do ambiente, e a superfície do parafuso é inspecionada na recepção da carga.",
-            "de": "Badezimmer haben hohe Feuchte und Chloride aus Reinigungsmitteln. Normalstahl rostet rasch, was Verfärbung und schließlich Ausfall verursacht. 304 Edelstahl widersteht den Badezimmerbedingungen ausreichend."
+            "de": "Badezimmer haben hohe Feuchte und Chloride aus Reinigungsmitteln. Normalstahl rostet rasch, was Verfärbung und schließlich Ausfall verursacht. 304 Edelstahl widersteht den Badezimmerbedingungen ausreichend.",
+            "ja": "浴室は高湿度であり、洗浄剤に含まれる塩化物もあります。普通の鋼は錆びやすく、染みや最終的な不具合につながります。304 ステンレスは浴室の環境に十分耐えます。湿潤な環境であることを考慮し、材料を選定してください。錆の広がりは表面だけでなく保持力にも影響するため、初期の段階で材料を見直すことが大切です。"
           }
         },
         {
@@ -211,7 +215,8 @@
             "es": "¿Por qué las fijaciones de baño necesitan tornillos inoxidables?",
             "fr": "Pourquoi les fixations de zone humide doivent-elles être en inox ?",
             "pt": "Por que os fixadores de área úmida precisam de aço inoxidável?",
-            "de": "Warum brauchen Nassraumbefestigungen Edelstahlschrauben?"
+            "de": "Warum brauchen Nassraumbefestigungen Edelstahlschrauben?",
+            "ja": "浴室の留め付けにステンレスねじが必要な理由は何ですか？"
           },
           "a": {
             "en": "Because wet service attacks zinc coatings at the cut edges and the screw head, and a failed fixing in a wet area means a leak path. A2/304 is the practical minimum; A4/316 for chlorine and salt exposure.",
@@ -222,7 +227,8 @@
             "es": "Porque el servicio húmedo ataca los recubrimientos de zinc en los bordes cortados y la cabeza del tornillo, y una fijación fallida en una zona mojada abre una vía de fuga. A2/304 es el mínimo práctico; A4/316 para exposición a cloro y sal. El material se elige según el contacto con humedad y productos químicos.",
             "fr": "Parce que le service humide attaque les revêtements de zinc aux bords coupés et à la tête de vis, et qu'une fixation défaillante en zone humide crée un chemin de fuite. A2/304 est le minimum pratique ; A4/316 pour l'exposition au chlore et au sel. Le degré d'humidité et de chlorure fixe la nuance requise.",
             "pt": "Porque o serviço úmido ataca os revestimentos de zinco nas arestas cortadas e na cabeça, e um fixador falho em área úmida vira caminho de infiltração. A2/304 é o mínimo prático; A4/316 para exposição a cloro e sal. O grau inoxidável é escolhido pela exposição química, e a proteção é verificada no lote do fixador.",
-            "de": "Weil nasser Betrieb die Zinküberzüge an Schneidkanten und am Schraubenkopf angreift, und eine ausgefallene Befestigung im Nassbereich eine Undichtigkeit bedeutet. A2/304 ist das praktische Minimum; A4/316 bei Chlor- und Salzeinwirkung."
+            "de": "Weil nasser Betrieb die Zinküberzüge an Schneidkanten und am Schraubenkopf angreift, und eine ausgefallene Befestigung im Nassbereich eine Undichtigkeit bedeutet. A2/304 ist das praktische Minimum; A4/316 bei Chlor- und Salzeinwirkung.",
+            "ja": "湿潤な使用環境は切断された縁やねじ頭の亜鉛被膜を侵すためです。湿潤箇所で留め付けが不具合を起こすと漏水の経路になります。A2/304 が実用上の下限で、塩素や塩分にさらされる箇所には A4/316 を使います。暴露条件に合わせてステンレスの種類を選んでください。"
           }
         }
       ],
