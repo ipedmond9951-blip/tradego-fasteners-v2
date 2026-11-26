@@ -218,7 +218,8 @@
             "es": "¿Qué grado ASTM F1554 debe especificar un proyecto de Zimbabwe?",
             "fr": "Quel ASTM F1554 spécifier pour le Zimbabwe ?",
             "pt": "Qual grau ASTM F1554 um projeto do Zimbábue deve especificar?",
-            "de": "Welche F1554-Klasse ist für ein Simbabwe-Projekt vorzusehen?"
+            "de": "Welche F1554-Klasse ist für ein Simbabwe-Projekt vorzusehen?",
+            "ja": "ジンバブエの案件でASTM F1554のどの等級を指定すべきですか？"
           },
           "a": {
             "en": "Grade 36 for general anchoring, grade 55 where higher strength is needed, and grade 105 only for heavily loaded or compact connections. Grade 105 also brings weldability and embrittlement constraints.",
@@ -229,7 +230,8 @@
             "es": "El Grado 36 sirve para el anclaje general; el Grado 55, donde se necesita mayor resistencia; y el Grado 105 solo para conexiones muy cargadas o compactas. El Grado 105 también trae restricciones de soldabilidad y de fragilización.",
             "fr": "Le Grade 36 sert l'ancrage général, le Grade 55 là où une résistance plus élevée est requise, et le Grade 105 seulement pour les assemblages très chargés ou compacts. Le Grade 105 apporte aussi des contraintes de soudabilité et de fragilisation qu'il faut prendre en compte dès la spécification de la pièce.",
             "pt": "Grau 36 para ancoragem geral, grau 55 onde se precisa de maior resistência, e grau 105 apenas para conexões muito carregadas ou compactas. O grau 105 traz também restrições de soldabilidade e de fragilização que devem ser avaliadas no projeto da fixação.",
-            "de": "Für allgemeine Verankerung dient Klasse 36, bei höherer Festigkeit Klasse 55, und Klasse 105 nur für stark belastete oder kompakte Verbindungen. Klasse 105 bringt zudem Einschränkungen bei Schweißbarkeit und Versprödung mit sich. Die Wahl ist nach Traglast, Bauteilgeometrie und den Angaben des Tragwerksplaners zu treffen."
+            "de": "Für allgemeine Verankerung dient Klasse 36, bei höherer Festigkeit Klasse 55, und Klasse 105 nur für stark belastete oder kompakte Verbindungen. Klasse 105 bringt zudem Einschränkungen bei Schweißbarkeit und Versprödung mit sich. Die Wahl ist nach Traglast, Bauteilgeometrie und den Angaben des Tragwerksplaners zu treffen.",
+            "ja": "一般的な定着にはGrade 36、より高い強度が必要な箇所にはGrade 55、高荷重またはコンパクトな接合に限りGrade 105を使います。Grade 105には溶接性と脆化の制約も伴います。用途と荷重を確認し、構造技術者の仕様に沿って等級を選んでください。"
           }
         },
         {
@@ -242,7 +244,8 @@
             "es": "¿Qué protección anticorrosiva para pernos de anclaje en Zimbabwe?",
             "fr": "Quelle protection anticorrosion pour les chevilles au Zimbabwe ?",
             "pt": "Que proteção contra corrosão para chumbadores no Zimbábue?",
-            "de": "Welcher Korrosionsschutz für Ankerbolzen in Simbabwe?"
+            "de": "Welcher Korrosionsschutz für Ankerbolzen in Simbabwe?",
+            "ja": "ジンバブエのアンカーボルトの腐食保護はどうしますか？"
           },
           "a": {
             "en": "Hot-dip galvanising to ISO 1461 for most exposed foundations, and stainless or a duplex system for aggressive ground or coastal conditions. Coating must be applied before the bolt is bent or threaded.",
@@ -253,7 +256,8 @@
             "es": "El galvanizado en caliente según ISO 1461 para la mayoría de cimentaciones expuestas, y acero inoxidable o un sistema dúplex para suelos agresivos o condiciones costeras. El recubrimiento debe aplicarse antes de doblar o roscar el perno.",
             "fr": "La galvanisation à chaud selon ISO 1461 convient à la plupart des fondations exposées ; l'inox ou un système duplex sert les sols agressifs ou les zones côtières. Le revêtement doit être appliqué avant que le boulon ne soit cintré ou fileté, sinon la protection est altérée sur les zones travaillées de la pièce.",
             "pt": "Galvanização a quente conforme ISO 1461 na maioria das fundações expostas, e inoxidável ou sistema duplex para solo agressivo ou condições costeiras. O revestimento deve ser aplicado antes de o parafuso ser dobrado ou roscado, para não perder aderência nas partes trabalhadas.",
-            "de": "Für die meisten freiliegenden Fundamente ist Feuerverzinkung nach ISO 1461 vorzusehen; für aggressiven Boden oder Küstenlage dienen Edelstahl oder ein Duplex-System. Der Überzug muss aufgebracht werden, bevor der Bolzen gebogen oder das Gewinde geschnitten wird, damit Schicht und Gewinde nicht beschädigt werden."
+            "de": "Für die meisten freiliegenden Fundamente ist Feuerverzinkung nach ISO 1461 vorzusehen; für aggressiven Boden oder Küstenlage dienen Edelstahl oder ein Duplex-System. Der Überzug muss aufgebracht werden, bevor der Bolzen gebogen oder das Gewinde geschnitten wird, damit Schicht und Gewinde nicht beschädigt werden.",
+            "ja": "多くの露出基礎にはISO 1461に従う溶融亜鉛めっきを、過酷な地盤や沿岸条件にはステンレス鋼またはデュプレックス系を使います。被覆はボルトの曲げ加工やねじ切りに先立ち施します。加工後の傷や端面を点検し、環境に合わせた保護を欠かさないでください。"
           }
         },
         {
@@ -266,7 +270,8 @@
             "es": "¿Qué debe contener una consulta de pernos de anclaje?",
             "fr": "Que doit contenir une RFQ de chevilles ?",
             "pt": "O que deve conter um RFQ de chumbador?",
-            "de": "Was gehört in eine Ankerbolzen-Anfrage (RFQ)?"
+            "de": "Was gehört in eine Ankerbolzen-Anfrage (RFQ)?",
+            "ja": "アンカーボルトのRFQには何を含めるべきですか？"
           },
           "a": {
             "en": "Grade and standard, diameter and total length, thread length, bend or hook geometry, coating specification, test certificates required, packing and delivery port. A quote without these cannot be compared.",
@@ -277,7 +282,8 @@
             "es": "Grado y norma, diámetro y longitud total, longitud de rosca, geometría de la dobla o gancho, especificación de recubrimiento, certificados de ensayo requeridos, embalaje y puerto de entrega. Una cotización sin estos datos no puede compararse con otra.",
             "fr": "La classe et la norme, le diamètre et la longueur totale, la longueur de filetage, la géométrie du cintrage ou de la béquille, la spécification de revêtement, les certificats d'essai requis, le conditionnement et le port de livraison. Un devis sans ces éléments n'est pas comparable d'un fournisseur à l'autre.",
             "pt": "Grau e norma, diâmetro e comprimento total, comprimento de rosca, geometria da dobra ou gancho, especificação de revestimento, certificados de ensaio exigidos, embalagem e porto de entrega. Uma cotação sem esses dados não pode ser comparada de forma justa entre fornecedores.",
-            "de": "Klasse und Norm, Durchmesser und Gesamtlänge, Gewindelänge, Biege- oder Hakenform, Beschichtungsspezifikation, geforderte Prüfzeugnisse sowie Verpackung und Lieferhafen. Ein Angebot ohne diese Angaben lässt sich nicht vergleichen. Je präziser die Spezifikation ist, desto weniger Nachfragen und Abweichungen gibt es bei der späteren Bestellung."
+            "de": "Klasse und Norm, Durchmesser und Gesamtlänge, Gewindelänge, Biege- oder Hakenform, Beschichtungsspezifikation, geforderte Prüfzeugnisse sowie Verpackung und Lieferhafen. Ein Angebot ohne diese Angaben lässt sich nicht vergleichen. Je präziser die Spezifikation ist, desto weniger Nachfragen und Abweichungen gibt es bei der späteren Bestellung.",
+            "ja": "等級と規格、呼び径と全長、ねじ長さ、曲げまたはフック形状、被覆仕様、必要な試験証明書、包装、配送港を記載します。これらのない見積もりは比較できません。発注に先立ち形状と寸法を図面と照合し、必要な記録を明確にしてください。個別の形状や特殊仕様は図面を添え、見積もり項目に漏れがないようにします。"
           }
         },
         {
@@ -290,7 +296,8 @@
             "es": "¿Qué grado ASTM especificar para anclajes de barrera vial?",
             "fr": "Grade ASTM pour chevilles de glissière routière ?",
             "pt": "Qual grau ASTM para chumbadores de guarda-corpo rodoviário?",
-            "de": "Welche Klasse für Schutzplanken-Ankerbolzen?"
+            "de": "Welche Klasse für Schutzplanken-Ankerbolzen?",
+            "ja": "高速道路の防護柵アンカーボルトにはどのASTM等級を指定すべきですか？"
           },
           "a": {
             "en": "For highway guardrail installations, ASTM F1554 Grade 36 is typically sufficient and cost-effective. Grade 36 provides adequate yield strength (36 ksi / 248 MPa) with good ductility. However, in high-load crash barriers or variable soil conditions, consider Grade 55 for additional safety margin. Always verify design loads with the structural engineer.",
@@ -301,7 +308,8 @@
             "es": "Para instalaciones de barrera vial, el ASTM F1554 Grado 36 suele bastar y es económico. El Grado 36 da un límite elástico adecuado (36 ksi / 248 MPa) con buena ductilidad. En barreras anticolisión de alta carga o suelos variables, conviene considerar el Grado 55 para margen de seguridad adicional. La carga de diseño siempre debe verificarse con el ingeniero estructural.",
             "fr": "Pour les glissières autoroutières, l'ASTM F1554 Grade 36 suffit généralement et reste économique. Le Grade 36 donne une limite d'élasticité adequate (36 ksi / 248 MPa) avec une bonne ductilité. Sur les barrières de choc très chargées ou en sols variables, on considère le Grade 55 pour une marge de sécurité supplémentaire. On vérifie toujours les charges de calcul avec l'ingénieur structural.",
             "pt": "Em guarda-corpos rodoviários, o ASTM F1554 Grau 36 costuma ser suficiente e custo-efetivo. O Grau 36 dá resistência ao escoamento adequada, 36 ksi / 248 MPa, com boa ductilidade. Entretanto, em barreiras de alta carga ou solos variáveis, considera-se o Grau 55 por margem de segurança adicional. Sempre confirme as cargas de projeto com o engenheiro estrutural.",
-            "de": "Für Schutzplanken ist ASTM F1554 Klasse 36 meist ausreichend und wirtschaftlich. Sie bietet eine Streckgrenze von 36 ksi (248 MPa) bei guter Duktilität. Bei hoch belasteten Anprallschutzvorrichtungen oder wechselnden Bodenverhältnissen ist Klasse 55 für zusätzliche Sicherheitsreserven zu erwägen. Die Entwurfslasten sind stets mit dem Tragwerksplaner abzustimmen."
+            "de": "Für Schutzplanken ist ASTM F1554 Klasse 36 meist ausreichend und wirtschaftlich. Sie bietet eine Streckgrenze von 36 ksi (248 MPa) bei guter Duktilität. Bei hoch belasteten Anprallschutzvorrichtungen oder wechselnden Bodenverhältnissen ist Klasse 55 für zusätzliche Sicherheitsreserven zu erwägen. Die Entwurfslasten sind stets mit dem Tragwerksplaner abzustimmen.",
+            "ja": "高速道路の防護柵ではASTM F1554 Grade 36が通常十分で費用効率も良いです。Grade 36は適切な降伏強さと延性を持ちます。高荷重の衝突防止柵や土壌条件が変わる箇所では、安全余裕としてGrade 55を検討します。設計荷重は構造技術者と確認してください。"
           }
         },
         {
@@ -314,7 +322,8 @@
             "es": "¿Se pueden usar pernos Grado 105 en entornos corrosivos?",
             "fr": "Grade 105 en milieu corrosif, possible ?",
             "pt": "Chumbadores Grau 105 podem ser usados em ambiente corrosivo?",
-            "de": "Kann man Klasse-105-Bolzen in korrosiver Umgebung einsetzen?"
+            "de": "Kann man Klasse-105-Bolzen in korrosiver Umgebung einsetzen?",
+            "ja": "腐食環境でGrade 105アンカーボルトは使えますか？"
           },
           "a": {
             "en": "Yes, Grade 105 anchor bolts can be galvanized. However, hydrogen embrittlement risk increases with tensile strengths above 150 ksi. For most galvanizing operations, the risk is low, but verify with the manufacturer that proper post-galvanizing baking is performed. For highly corrosive environments, consider stainless steel Grade 316 (A4) as an alternative.",
@@ -325,7 +334,8 @@
             "es": "Sí, los pernos Grado 105 pueden galvanizarse. Sin embargo, el riesgo de fragilización por hidrógeno sube con resistencias por encima de 150 ksi. En la mayoría de operaciones de galvanizado el riesgo es bajo, pero hay que confirmar con el fabricante que se realiza el horneado posterior adecuado. Para entornos muy corrosivos, puede considerarse el inoxidable Grado 316 (A4) como alternativa.",
             "fr": "Oui, les chevilles Grade 105 peuvent être galvanisées. Le risque de fragilisation par l'hydrogène croît toutefois au-delà de 150 ksi de traction. Pour la plupart des opérations de galvanisation, le risque est faible, mais on vérifie auprès du fabricant qu'un revenu après galvanisation est bien réalisé. En milieu très corrosif, l'inox Grade 316 (A4) sert d'alternative.",
             "pt": "Sim, os chumbadores Grau 105 podem ser galvanizados. Porém o risco de fragilização por hidrogênio aumenta com resistências acima de 150 ksi. Na maioria das galvanizações o risco é baixo, mas deve-se confirmar com o fabricante que o cozimento pós-galvanização adequado é realizado. Em ambientes muito corrosivos, considera-se o inoxidável Grau 316 (A4) como alternativa.",
-            "de": "Ja, Klasse 105 lässt sich verzinken. Bei Zugfestigkeiten über 150 ksi steigt allerdings die Wasserstoffversprödungsgefahr. Für die meisten Verzinkungen ist das Risiko gering, aber beim Hersteller ist das richtige Auslagern nach dem Verzinken zu bestätigen. In stark korrosiver Umgebung kommt alternativ Edelstahl 316 (A4) in Betracht."
+            "de": "Ja, Klasse 105 lässt sich verzinken. Bei Zugfestigkeiten über 150 ksi steigt allerdings die Wasserstoffversprödungsgefahr. Für die meisten Verzinkungen ist das Risiko gering, aber beim Hersteller ist das richtige Auslagern nach dem Verzinken zu bestätigen. In stark korrosiver Umgebung kommt alternativ Edelstahl 316 (A4) in Betracht.",
+            "ja": "はい、Grade 105のアンカーボルトは亜鉛めっきできます。ただし高い引張強さでは水素脆化のリスクが上がるため、めっき後のベーキングが適切に行われるか製造元に確認してください。非常に腐食性の強い環境では、代替としてステンレス鋼316（A4）を検討します。"
           }
         },
         {
@@ -338,7 +348,8 @@
             "es": "¿Cómo verificar que los pernos cumplen ASTM F1554?",
             "fr": "Comment vérifier la conformité ASTM F1554 ?",
             "pt": "Como verificar se os chumbadores atendem ao ASTM F1554?",
-            "de": "Wie wird die Einhaltung von ASTM F1554 nachgewiesen?"
+            "de": "Wie wird die Einhaltung von ASTM F1554 nachgewiesen?",
+            "ja": "アンカーボルトがASTM F1554を満たすかどうかはどう確認しますか？"
           },
           "a": {
             "en": "Request mill test certificates from the supplier, which should include heat number, chemical composition, tensile test results, and coating thickness verification. Ensure testing is performed by an ISO 17025 accredited laboratory. For critical applications, consider third-party inspection at the manufacturer's facility before shipment.",
@@ -349,7 +360,8 @@
             "es": "Pida al proveedor los certificados de ensayo de fábrica, que deben incluir número de colada, composición química, resultados de ensayo a tracción y verificación del espesor de recubrimiento. Asegúrese de que el ensayo lo haga un laboratorio acreditado ISO 17025. Para aplicaciones críticas, conviene una inspección de terceros en la fábrica antes del envío.",
             "fr": "On demande au fournisseur les certificats matière, qui doivent comporter le numéro de four, la composition chimique, les résultats d'essai de traction et la vérification de l'épaisseur de revêtement. Les essais doivent être menés par un laboratoire accrédité ISO 17025. Pour les applications critiques, une inspection tierce partie sur site fabricant avant expédition peut être envisagée.",
             "pt": "Peça ao fornecedor os certificados de ensaio de metalúrgica, que devem incluir número de calor, composição química, resultados de ensaio de tração e verificação da espessura de revestimento. Garanta que o ensaio seja feito por laboratório acreditado ISO 17025. Em aplicações críticas, considere inspeção terceira na fabricação antes do embarque.",
-            "de": "Vom Lieferanten sind Werkszeugnisse anzufordern, die Wärmenummer, chemische Zusammensetzung, Zugversuchsergebnisse und die Schichtdickenprüfung enthalten. Die Prüfung sollte von einem nach ISO 17025 akkreditierten Labor erfolgen. Für kritische Anwendungen ist vor Versand eine Drittinspektion beim Hersteller in Betracht zu ziehen."
+            "de": "Vom Lieferanten sind Werkszeugnisse anzufordern, die Wärmenummer, chemische Zusammensetzung, Zugversuchsergebnisse und die Schichtdickenprüfung enthalten. Die Prüfung sollte von einem nach ISO 17025 akkreditierten Labor erfolgen. Für kritische Anwendungen ist vor Versand eine Drittinspektion beim Hersteller in Betracht zu ziehen.",
+            "ja": "仕入先からミル試験証明書を求め、ヒートナンバー、化学成分、引張試験結果、被覆厚さの確認を含めます。試験はISO 17025認定の試験所で行われることを確認してください。重要用途では、出荷に先立ち製造元で第三者検査を受けることも検討します。記録はロットごとに保管し、現場での照合に使える状態にしてください。"
           }
         },
         {
@@ -362,7 +374,8 @@
             "es": "¿Cuál es el plazo de pernos ASTM F1554 desde Sudáfrica o China?",
             "fr": "Délai des chevilles ASTM F1554 depuis SA ou Chine ?",
             "pt": "Qual o prazo dos chumbadores F1554 da África do Sul ou da China?",
-            "de": "Wie ist die Lieferzeit für F1554-Ankerbolzen aus Südafrika oder China?"
+            "de": "Wie ist die Lieferzeit für F1554-Ankerbolzen aus Südafrika oder China?",
+            "ja": "南アフリカまたは遠隔地製造元からのASTM F1554アンカーボルトの納期はどのくらいですか？"
           },
           "a": {
             "en": "Lead times vary by source: South Africa (SADC origin) offers 2-4 weeks for standard grades, 4-6 weeks for custom galvanized, with SADC duty-free and shorter shipping. China requires 6-10 weeks for standard production, 8-12 weeks for custom galvanized. For urgent requirements, South African suppliers offer faster delivery. Plan procurement at least 8 weeks ahead.",
@@ -373,7 +386,8 @@
             "es": "El plazo varía según el origen: desde Sudáfrica (origen SADC) hay de 2 a 4 semanas en grados estándar y de 4 a 6 semanas en galvanizado especial, con arancel SADC libre y envío más corto. Desde China se requieren de 6 a 10 semanas en producción estándar y de 8 a 12 semanas en galvanizado especial. Para urgencias, el proveedor sudafricano entrega más rápido; planifique la compra con al menos 8 semanas de antelación.",
             "fr": "Les délais varient selon la source : l'Afrique du Sud (origine SADC) donne 2 à 4 semaines pour les classes standard, 4 à 6 semaines pour le galvanisé sur mesure, avec l'exonération SADC et un fret court. La Chine exige 6 à 10 semaines en production standard, 8 à 12 semaines pour le galvanisé sur mesure. Pour l'urgent, les fournisseurs sud-africains livrent plus vite ; il faut planifier l'achat au moins huit semaines à l'avance.",
             "pt": "Os prazos variam conforme a origem: a África do Sul, origem SADC, dá 2 a 4 semanas nos graus padrão e 4 a 6 semanas no galvanizado personalizado, com isenção de direito SADC e frete mais curto. A China exige 6 a 10 semanas na produção padrão e 8 a 12 semanas no galvanizado personalizado. Para urgências, os fornecedores sul-africanos entregam mais rápido. Deve-se planejar a compra com pelo menos 8 semanas de antecedência.",
-            "de": "Der Vorlauf hängt vom Ursprung ab: Südafrika als SADC-Ursprung bietet 2 bis 4 Wochen für Standardklassen, 4 bis 6 Wochen für Sonderverzinkung, mit SADC-Zollfreiheit und kürzerem Versand. China benötigt 6 bis 10 Wochen für Standardfertigung, 8 bis 12 Wochen für Sonderverzinkung. Für Dringendes liefern südafrikanische Zulieferer schneller; die Beschaffung sollte mindestens 8 Wochen voraus geplant werden."
+            "de": "Der Vorlauf hängt vom Ursprung ab: Südafrika als SADC-Ursprung bietet 2 bis 4 Wochen für Standardklassen, 4 bis 6 Wochen für Sonderverzinkung, mit SADC-Zollfreiheit und kürzerem Versand. China benötigt 6 bis 10 Wochen für Standardfertigung, 8 bis 12 Wochen für Sonderverzinkung. Für Dringendes liefern südafrikanische Zulieferer schneller; die Beschaffung sollte mindestens 8 Wochen voraus geplant werden.",
+            "ja": "調達元で納期が変わります。SADC原産の南アフリカは標準等級で2〜4週間、特注亜鉛めっきで4〜6週間、関税優遇と短い輸送を利点とします。遠隔地製造元は標準生産で6〜10週間、特注亜鉛めっきで8〜12週間です。緊急時には南アフリカ供給元が速く、少なくとも8週間の余裕を持って調達計画を立ててください。"
           }
         },
         {
@@ -386,7 +400,8 @@
             "es": "¿Son estrictos los requisitos de origen SADC para sujetadores?",
             "fr": "Les règles d'origine SADC sont-elles strictes ?",
             "pt": "As regras de Origem SADC são rigorosas para fixadores?",
-            "de": "Sind die SADC-Herkunftsnachweise streng durchgesetzt?"
+            "de": "Sind die SADC-Herkunftsnachweise streng durchgesetzt?",
+            "ja": "締結具輸入のSADC原産証明の要件は厳しいですか？"
           },
           "a": {
             "en": "Yes, SADC Rules of Origin requirements are enforced by ZIMRA. To qualify for duty-free treatment, minimum 35% local content or value addition must be achieved, and the product must be substantially transformed. A valid Certificate of Origin must accompany the shipment. False claims can result in penalties and cargo seizure.",
@@ -397,7 +412,8 @@
             "es": "Sí, las normas de origen del SADC las hace cumplir la ZIMRA. Para acceder al trato arancelario libre debe lograrse un contenido local o valor añadido mínimo del 35%, y el producto debe transformarse sustancialmente. Un certificado de origen válido debe acompañar al envío. Las declaraciones falsas pueden acarrear sanciones y decomiso de la carga.",
             "fr": "Oui, les règles d'origine SADC sont appliquées par la ZIMRA. Pour bénéficier du droit exonéré, il faut atteindre au moins 35 % de contenu local ou de valeur ajoutée, et le produit doit subir une transformation substantielle. Un certificat d'origine valide accompagne l'envoi. Une déclaration erronée expose à des pénalités et à la saisie de la cargaison.",
             "pt": "Sim, as Regras de Origem da SADC são aplicadas pela ZIMRA. Para obter tratamento sem direito, é preciso atingir pelo menos 35% de conteúdo local ou agregação de valor, e o produto deve ser substancialmente transformado. Um Certificado de Origem válido deve acompanhar a remessa. Reivindicações falsas podem levar a penalidades e apreensão da carga.",
-            "de": "Ja, die SADC-Ursprungsregeln werden von der ZIMRA durchgesetzt. Für die zollfreie Behandlung müssen mindestens 35 % lokaler Gehalt oder Wertschöpfung erreicht und das Produkt wesentlich umgewandelt worden sein. Ein gültiger Ursprungsnachweis muss die Sendung begleiten. Falsche Angaben können Strafen und die Beschlagnahme der Ware nach sich ziehen."
+            "de": "Ja, die SADC-Ursprungsregeln werden von der ZIMRA durchgesetzt. Für die zollfreie Behandlung müssen mindestens 35 % lokaler Gehalt oder Wertschöpfung erreicht und das Produkt wesentlich umgewandelt worden sein. Ein gültiger Ursprungsnachweis muss die Sendung begleiten. Falsche Angaben können Strafen und die Beschlagnahme der Ware nach sich ziehen.",
+            "ja": "はい、ZIMRAによってSADC原産規則が執行されます。免税待遇を受けるには、一定の現地含有または付加価値を満たし、製品が実質的に変形加工されている必要があります。有効な原産証明書を貨物に添付し、虚偽の主張は罰則と貨物差押えの原因になります。"
           }
         }
       ]
