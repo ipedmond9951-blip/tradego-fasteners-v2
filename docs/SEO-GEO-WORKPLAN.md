@@ -196,6 +196,11 @@ python3 scripts/article-claim.py release <slug> <线名>
 | T19 legacy FAQ 迁移 | seo-geo-main | 已完成 | 30 篇 / 迁入 112 条 / 丢弃 103 条 | 顶层 `faq`/`faqs`/`faqItems` 三种形态共 54 篇 226 条；渲染层此前完全不读 → 迁移等于页面新增内容，逐条预筛 |
 | T20 FAQ 第二档（26–60 曝光 × fr/pt/es/ar，再探 de/ru/ja） | seo-geo-main | 已完成 | 85 篇中 32 篇为 FAQ 补位；fr/pt/es/ar 该档每篇每语种 ≥3 | 起补缺口 309 条；de 由该档近乎全 0 补至 23 篇达标，ru/ja 补 29 条 |
 | T21 跨篇重复句治理 | seo-geo-main | 部分完成（未达 ≤45） | 42 篇改写（计划 44）/ 约 700 句 → 族 101 → 70 | 残留主干为 23 族覆盖 90–97 篇的采购框架样板块，机制见 §10.9 |
+| T22 新鲜度信号 | seo-geo-main | 已完成（待随构建上线） | 279 篇真实日期；文章 URL 构建时间戳冒充 0 条 | 唯一来源 `scripts/content-freshness.py`；dateModified ≥ datePublished 强制成立；见 §10.10.1 |
+| T23 Google 技术口径四项 | seo-geo-main | 已完成（待随构建上线） | robots 去 `/_next/`、meta 补大图预览、author 改 Person、停出 keywords | 12 页抽样 + 全站 4,164 索引页复验；见 §10.10.2 |
+| T24 索引管道 | seo-geo-main | 部分完成（配额所限） | sitemap 重提交成功；20 条 URL 成功入队 7 条 | #8 起当日配额耗尽，余 12 条待次日续跑；见 §10.10.3 |
+| T25 合规红点 | seo-geo-main | 已完成（2 篇），存量 107 篇在册待排 | ghana 10 语种 + angola 10 语种改净；全库真违规去重 109 篇 | 清单 `docs/compliance-redspots-2026-1126.md`；见 §10.10.4 |
+| T26 样板块方案 + 试点 | seo-geo-main | 方案已落、试点 5 篇通过 | 5 篇命中族 23/20/19/19/19 → 各 4 | 全库族数 70→70（机制所致）；`docs/DUP-BLOCK-PLAN.md`；见 §10.10.5 |
 
 ## 10. 变更登记
 
@@ -378,3 +383,107 @@ python3 scripts/article-claim.py release <slug> <线名>
 
 **本轮本线改动覆盖面**：去重后 **85 篇**（legacy 迁移 30、重复句改写 42、FAQ 补位 32，三类有重叠）。
 
+
+### 10.10 第四程（2026-11-26 晚）：修信号、修索引、清红点、样板块试点
+
+**本轮口径**：主攻"爬虫侧收到的信号"，不做全站内容扩写。四件事：新鲜度信号、Google 技术口径四项、索引管道、合规红点；另加样板块方案落纸 + A 区 5 篇试点。全部**只 commit 不 push**（今日 Vercel 真实构建 3/3 已用尽，本地提交次日由 deploy-flush 带出）。
+
+#### 10.10.1 新鲜度信号（T22）
+
+**病根**：线上 `dateModified` 是 `2026-11-24`、`datePublished` 是 `2026-11-25`——修改日比发布日早一天；sitemap 4,101 条里 1,702 条共用构建时间戳 `2026-11-25T18:37:49.235Z`，另有 1,256 条 `2026-11-25`、1,050 条 `2026-11-24`。等于对外声明"全站没动过"。
+
+**做法**：唯一来源 `scripts/content-freshness.py`（`--json` / `--check` / `--slug`），生成 `content/freshness.json` 供构建读取（`src/lib/freshness.ts` 统一解析）：`modified = max(git 末次作者日, JSON updated/updatedDate)`、`published = min(JSON date, 首次提交日)`；页面与 sitemap 共用同一解析，强制 `modified ≥ published`；构建时间戳只留在首页/列表/产品/市场/标准/分类页。旧 `getSlugDateMap` 已删除。
+
+**前后对比**（构建产物实测）：
+
+| 项 | 改前 | 改后 |
+|---|---|---|
+| sitemap URL 总数 | 4,101（线上） | 4,096 |
+| 文章 URL | — | 2,394 条，lastmod **2 个值**：`2026-11-25` 1,263 / `2026-11-26` 1,131 |
+| 非文章页 | 3 个值覆盖千余条（含构建戳 1,702 条） | 1,702 条统一用构建戳（合理） |
+| 文章 URL 用构建戳冒充 | 1,702 条 | **0 条** |
+
+**未达预期的地方（如实记）**：文章 lastmod 只有 2 个日期，未达到"按真实日期分散（>100 个值）"。根因不是取数 bug（逐文件 `git log -1` 复核、重生成后不一致数 0），而是**近两日全仓批量整改扫到了几乎每一篇**（CTA 归一、合规口径、FAQ 补写、多语原生化），279 篇末次提交全部落在 11-25/11-26（UTC）。这是真实信号——"全站确实这两天集中改过"。等后续改动按篇散开，日期自然拉开；没有为了凑分散度去改用不可信的 `updated` 字段。
+
+**提交**：`a559cfaf`（脚本）、`1c80cb07`/`e54a1c4a`/`38029103`（缓存三次刷新，对齐并发线推进的 HEAD）、`4b24c64c`（读取层）、`895284c3`（删旧日期图）、`dc93c22d`（页面 schema）、`faca5504`（sitemap）。本地 `next build` 两次通过（4586/4586，exit 0）。
+
+#### 10.10.2 Google 技术口径四项（T23）
+
+| 项 | 改前 | 改后 | 复验 |
+|---|---|---|---|
+| robots.txt `/_next/` | `Disallow: /_next/`（把渲染必需的 CSS/JS 一起挡了；样式表实测在 `/_next/static/chunks/…css`） | 删除；`/api/`、`/admin/` 保留 | 产物 0 处；`/api/`、`/admin/` 20 段各 1 条 |
+| robots.txt `Host:` | 存在（已废弃指令） | 删除 | 0 处 |
+| AI 爬虫段 | 每段各抄一遍 `/_next/` | 同步清除 | 20 段（1 `*` + 19 个 AI 爬虫；此前记 17，实际代码清单 19） |
+| robots meta | `index, follow` | `index, follow, max-image-preview:large, max-snippet:-1`（googleBot 同步） | 12 页抽样全中；全站 4,164 索引页一致，无旧值残留 |
+| Article author | `Organization: TradeGo Fasteners` | `Person: Edmond, url=/en/about/, worksFor: Organization` | 12/12；`/en/about/` 构建 200 |
+| publisher / mainEntityOfPage / image / dateModified | 齐 | 齐 | 12/12 |
+| meta keywords | 输出（Google 完全忽略） | 停出（JSON 里的 `keywords` 数据保留） | 全站构建 HTML 0 条 |
+| 错误路径 | — | — | `/en/industry/no-such-slug-xyz/` 与错前缀 `/en/articles/<slug>/` 均真 404 |
+
+**生效源判定**：线上 robots 带 AI 段 → 生效的是路由 `src/app/robots.ts`；`public/robots.txt`、`public/sitemap.xml` 是 next-sitemap postbuild 产物且在 `.gitignore`（本地 `next start` 会优先读静态文件，已把路由产物同步到本地镜像）。`next-sitemap.config.js` 的 postbuild 配置也同步去掉 `/_next/`，否则下次构建又写回来。
+
+**提交**：`a94a11ff`（robots.ts）、`e3265df8`（next-sitemap 配置）、`824a9529`（layout robots meta）、`0e171dfd`（文章页 author Person + 停 keywords）、`571cc332`（产品页 keywords）、`338ab8df`（津巴布韦落地页 keywords）。
+
+#### 10.10.3 索引管道（T24）
+
+| 步骤 | 结果 |
+|---|---|
+| sitemap 重提交 | **成功**，`11:37:58 CST` 回执"已成功提交站点地图"；`12:03:36` 复核：www 行上次读取刷新到 2026-11-25、状态成功、已发现网页 4,101 |
+| 20 条重点 URL 入队 | **7 条成功**（#1–7，面板回执"已请求编入索引"，索引状态均已编入）；**#8 `anchor-bolts-selection-guide` 触发当日配额**（原文"超出了配额…请明天再尝试"），按纪律立即停；**#9–20 共 12 条未尝试**，次日配额恢复续跑 |
+| GSC 效果数据 | 拉到最新（界面直读，窗口 2026/8/24–2026/11/23，更新于 3 小时前）：Clicks **272**、Impressions **2.61 万**、CTR **1%**、均排 **13.1**；覆盖率 已索引 **1,272** / 未索引 **4,480** |
+| 通道 | 第一次尝试三条链路全断（`ECONNREFUSED`、OAuth `invalid_grant`、SA 401）；本轮改用独立 profile `Chrome-Debug` 起 Chrome + `--remote-debugging-port=18800` 后跑通，GSC 已登录（`sc-domain:tradego-fasteners.com`） |
+
+**时间差必须记住**：线上 sitemap 仍是旧 lastmod 版本，新版本要等下次构建（明天 deploy-flush）才生效；"已提交/已排队"不等于新 lastmod 已上线。临时脚本全部在 `/tmp`，未改仓库脚本端口常量，未生成新缓存。
+
+**提交**：`abb6304a` → `99040af7` → `b93db5e4` → `d6bbca68`（报告 `docs/GSC-INDEX-2026-1126.md`，四次都是单文件）。
+
+#### 10.10.4 合规红点（T25）
+
+**两处已确认红点改净（各 10 语种同口径）**：
+
+| 篇 | 改前 | 改后 |
+|---|---|---|
+| `ghana-building-materials` | "28 吨 M16 六角螺栓**从上海**发…费用：A 路线 **380 USD/票 + 1.40 USD/吨**；B 路线 **320 USD/票 + 0.90 USD/吨**" | "PVoC 由**出口国**授权检验机构在装船前办理；周期按批次而定；检验费用由机构**按批次报价**，我方不列示固定费用数字" |
+| `angola-lng-project-fastener-procurement` | zh "必须从**通过 ISO 9001:2015 认证的制造商**处采购" | "紧固件**按 ISO 9001 体系组织生产，证书按订单要求提供**" |
+
+两篇闸门：content_gate 0 BLOCK、body-lang 全 0、stray 0、check-claims 通过、`ent` 未掉（13.8 / 16.3）；未改字段逐字节全等（ghana 仅 10 个 body 段、angola 仅 20 个 body 段变化）。
+
+**全库扫描（命中 >15 篇，先出清单）**：`docs/compliance-redspots-2026-1126.md`
+
+| 类别 | 判定 | 命中行 | 命中篇 | 真违规去重篇 |
+|---|---|---:|---:|---:|
+| A1 ISO 9001 持证/必须从认证方采购 | 真违规 | 148 | 70 | 109（三类的并集） |
+| B1 单价/运费/检验费/滞港费/测算示例金额 | 真违规 | 1,168 | 53 | 同上 |
+| C1 我方工厂/仓库/库存绑具体中国城市 | 真违规 | 2 | 2 | 同上 |
+| A2 材质证明 MTR / 记分卡措辞 / SABS·SONCAP·KEBS 产品标志 | 噪声 | 131 | — | 0 |
+| B2 宏观市场规模/项目投资/汇率 | 噪声 | 30 | 14 | 0 |
+| C2 起运港城市（Shanghai/Ningbo/Qingdao/Shenzhen/Yantian） | 待口径裁决 | 401 | 30 | 0 |
+
+即：**已改 2 篇，剩余 107 篇待分组整改**；C2 的 30 篇需先定"起运港是否算地域违规"再动。C1 落点两篇：`fastener-galvanic-corrosion-prevention-guide`（en "our Shanghai stock"）、`kenya-infrastructure-fastener-demand`（zh "深圳仓库"，中途被别线领为在途，已让位）。
+
+**提交**：`ac423d53`（LINE-DIVISION 借调登记）、`111c9c3e`（ghana）、`45995e59`（angola）、`4e464b14`（清单）、`a268d353`（登记回填 commit 号）。
+
+#### 10.10.5 样板块方案与试点（T26）
+
+**方案**：`docs/DUP-BLOCK-PLAN.md`（`bebdbed5`）。决策按用户口径落纸——不全站铺开、不整段删：选 1 篇做 canonical hub（`high-tensile-structural-bolts-guide`，锚 `#procurement-checklist`），其余篇保留 2–3 句本篇专属摘要 + 内链到 hub、删逐字框架句；硬线：替换后该 section 词数不得低于原值 95%（补本篇已有事实，不许编造），body-size WARN 只许减不许增；B 线 10 篇/批、并发 ≤3；回滚单笔 `git revert`。
+
+**A 区 5 篇试点**（按残留族命中排序，排除禁改/在途/持锁）：
+
+| slug | 改前命中族 | 改后命中族 | 词数比 |
+|---|---:|---:|---:|
+| telecom-tower-fasteners | 23 | 4 | ≥100% |
+| fastener-corrosion-resistance-guide | 20 | 4 | 98.8% |
+| hex-bolt-dimensions-chart | 19 | 4 | 99.1% |
+| marine-outdoor-corrosion-resistant-bolts-guide | 19 | 4 | 97.3% |
+| high-strength-bolts-8-8-10-9-12-9-grade-guide | 19 | 4 | 97.3% |
+
+残留 4 族均为判定保留的合规块（内链导航 138、标准定义行 112、标准订阅两句 92/92）。**全库族数 70 → 70**：旧族成员从数十篇降到仍 >2 篇，没有一族跌破 ≤2，故族数不减——这是机制内预期，不是改写失效。中途出现过 71（5 篇共用同一句 hub 引导语自造了一个新族），已用 5 个跟进提交按篇差异化引导语与锚文本（href 不变）归零。5 篇闸门全绿（0 BLOCK / 0 WARN）、geo score 100、两轮 8 词滑窗 max 4。
+
+**提交**：`bebdbed5`（方案）+ 10 笔改写/回链 + 5 笔引导语差异化。
+
+#### 10.10.6 本轮结论与遗留
+
+- 信号侧：文章页与 sitemap 不再对外声称"全站没动"；构建戳冒充文章 lastmod 归零；robots 不再挡渲染资源；大图预览与 Person 作者落地。
+- 索引侧：sitemap 已重新提交、7 条 URL 已入队（配额所限，余 12 条次日续）；GSC 数据已刷新到 11-23。
+- 内容侧：本轮只动 2 篇红线 + 5 篇试点，未做全站内容扩写。
+- **遗留待决**：① 存量 107 篇真违规是否排期（跨 A/B 区，需借调口径）；② C2 起运港城市 30 篇是否算地域违规；③ `content/freshness.json` 在部署前需重跑一次（并发线会持续推动 HEAD 漂移；`--check` 已可接闸门）。
