@@ -202,7 +202,8 @@
             "es": "¿Qué diferencia hay entre tornillo para madera y de cartón yeso?",
             "fr": "Quelle différence entre vis bois et vis plâtre ?",
             "pt": "Qual a diferença entre parafuso para madeira e parafuso drywall?",
-            "de": "Was unterscheidet Holzschrauben von Trockenbauschrauben?"
+            "de": "Was unterscheidet Holzschrauben von Trockenbauschrauben?",
+            "ja": "木ねじと石膏ボードねじの違いは何ですか？"
           },
           "a": {
             "en": "Drywall screws have fine threads for holding drywall to steel or wood studs. They are brittle and can snap under stress. Wood screws have coarse threads for wood-to-wood connections and are more ductile.",
@@ -213,7 +214,8 @@
             "es": "Los tornillos de cartón yeso tienen rosca fina para sujetar el panel a montantes de acero o madera; son frágiles y pueden romperse bajo esfuerzo. Los de madera tienen rosca gruesa para uniones madera-madera y son más dúctiles. Cada rosca está pensada para un material distinto, y mezclarlos empeora la sujeción.",
             "fr": "Les vis plâtre ont un filetage fin pour tenir le plâtre sur montant métallique ou bois. Elles sont fragiles et peuvent casser sous contrainte. Les vis bois ont un gros filetage pour les liaisons bois sur bois et sont plus ductiles. Le filetage suit le support visé. Une vis plâtre n'a pas la plasticité attendue d'une fixation bois durable.",
             "pt": "Os parafusos drywall têm rosca fina para fixar drywall em montante metálico ou de madeira; são frágeis e podem quebrar sob tensão. Os parafusos para madeira têm rosca grossa para ligações madeira-madeira e são mais dúcteis. A escolha segue o material base: rosca grossa engasta na fibra da madeira, enquanto a fina prende o gesso ao montante.",
-            "de": "Trockenbauschrauben haben Feingewinde für die Befestigung von Platten an Metall- oder Holzständer. Sie sind spröde und können unter Spannung brechen. Holzschrauben haben Grobgewinde für Holz-auf-Holz-Verbindungen und sind duktiler. Das Gewinde richtet sich nach dem Träger. Eine Trockenbauschraube fehlt die Plastizität einer dauerhaften Holzverbindung."
+            "de": "Trockenbauschrauben haben Feingewinde für die Befestigung von Platten an Metall- oder Holzständer. Sie sind spröde und können unter Spannung brechen. Holzschrauben haben Grobgewinde für Holz-auf-Holz-Verbindungen und sind duktiler. Das Gewinde richtet sich nach dem Träger. Eine Trockenbauschraube fehlt die Plastizität einer dauerhaften Holzverbindung.",
+            "ja": "石膏ボードねじは細目ねじでボードを鋼または木材の間柱に留めますが、もろく応力で折れやすいです。木ねじは並目ねじで木材同士の接合に向き、延性があります。相手材と用途に合わせてねじ種を選び、細目と並目を混同しないでください。現場の条件を記録し、同じ仕様を繰り返し使うことで、供給と管理を安定させられます。"
           }
         },
         {
@@ -226,7 +228,8 @@
             "es": "¿Puedo usar tornillos de madera en metal?",
             "fr": "Puis-je utiliser des vis bois dans le métal ?",
             "pt": "Posso usar parafuso para madeira em metal?",
-            "de": "Darf ich Holzschrauben im Metall verwenden?"
+            "de": "Darf ich Holzschrauben im Metall verwenden?",
+            "ja": "木ねじを金属に使えますか？"
           },
           "a": {
             "en": "No - wood screws are not designed for metal. Use machine screws or self-tapping screws for metal connections.",
@@ -237,7 +240,8 @@
             "es": "No: los tornillos de madera no están diseñados para el metal. En uniones metálicas use tornillos de máquina o autorroscantes apropiados para chapa. La rosca de madera no engancha bien la fibra metálica y puede soltarse con el tiempo. Conviene elegir el tipo según el material de la unión.",
             "fr": "Non, les vis bois ne sont pas conçues pour le métal. Utilisez des vis machine ou des vis autotaraudeuses pour les liaisons métal. Leur filetage et leur pointe sont adaptés au métal, tandis que la vis bois cherche à mordre le bois. Un usage détourné n'assure pas l'ancrage ni le précharge. Choisissez la fixation selon le matériau d'assemblage.",
             "pt": "Não, os parafusos para madeira não são projetados para metal. Usam-se parafusos máquina ou autoperfurantes nas ligações metálicas. A rosca grossa e a crista afiada do parafuso de madeira não formam engaste confiável no aço, e a substituição pode escorregar a rosca ou deixar a junta sem pré-carga.",
-            "de": "Nein, Holzschrauben sind nicht für Metall ausgelegt. Verwenden Sie für Metallverbindungen Maschinenschrauben oder Blechschrauben. Gewinde und Spitze sind für das Metall ausgelegt, während die Holzschraube auf das Holz beißt. Ein falscher Einsatz stellt den Halt oder die Vorspannung nicht sicher. Wählen Sie die Befestigung nach dem Material der Verbindung."
+            "de": "Nein, Holzschrauben sind nicht für Metall ausgelegt. Verwenden Sie für Metallverbindungen Maschinenschrauben oder Blechschrauben. Gewinde und Spitze sind für das Metall ausgelegt, während die Holzschraube auf das Holz beißt. Ein falscher Einsatz stellt den Halt oder die Vorspannung nicht sicher. Wählen Sie die Befestigung nach dem Material der Verbindung.",
+            "ja": "いいえ、木ねじは金属向けに設計されていません。金属の接合には機械ねじまたはタッピンねじを使います。木ねじの形状とねじ山は金属のかみ合わせに適さず、緩みや破損の原因になります。相手材の種類を確認して適切なねじを選んでください。環境と相手材を確認し、記録を残して手順を守ることで、後の不具合を減らせます。"
           }
         },
         {
@@ -250,7 +254,8 @@
             "es": "¿Qué tamaño de orificio guía para tornillos de madera?",
             "fr": "Quel diamètre de trou pilote pour une vis bois ?",
             "pt": "Que diâmetro de furo piloto para parafuso de madeira?",
-            "de": "Welches Bohrloch für Holzschrauben?"
+            "de": "Welches Bohrloch für Holzschrauben?",
+            "ja": "木ねじの下穴はどの径にしますか？"
           },
           "a": {
             "en": "Match the hole to the screw's core diameter (before threads). For hard woods, use a slightly smaller hole. For soft woods, the full core diameter is fine.",
@@ -261,7 +266,8 @@
             "es": "Iguale el hueco al diámetro del núcleo del tornillo, antes de la rosca. En maderas duras use un hueco algo menor; en blandas basta el diámetro del núcleo completo. Un orificio demasiado grande deja sin agarre, y uno demasiado pequeño hace rajar la madera. La medida depende de la dureza de la pieza.",
             "fr": "Faites correspondre le trou au diamètre du noyau de la vis (avant filets). Pour les bois durs, utilisez un trou légèrement plus petit ; pour les bois tendres, le diamètre plein du noyau convient. Un trou trop large affaiblit la prise, un trou trop petit risque de fendre le bois. Adaptez le foret à l'essence et à l'humidité du bois. Vérifiez l'essai sur une chute avant la série.",
             "pt": "O furo bate com o diâmetro do núcleo do parafuso, antes da rosca. Em madeiras duras, usa-se um furo ligeiramente menor; em madeiras macias, o diâmetro integral do núcleo serve. A broca é escolhida pela haste e pela rosca, e o furo evita rachaduras da madeira e garante o engaste da rosca no material.",
-            "de": "Richten Sie das Loch auf den Kerndurchmesser der Schraube (vor den Gewinden) ein. Bei Hartholz verwenden Sie ein leicht kleineres Loch; bei Weichholz reicht der volle Kerndurchmesser. Ein zu weites Loch mindert den Halt, ein zu kleines Loch spaltet das Holz. Passen Sie den Bohrer der Holzart und Feuchte an. Prüfen Sie den Versuch an einem Abfallholz vor der Serie."
+            "de": "Richten Sie das Loch auf den Kerndurchmesser der Schraube (vor den Gewinden) ein. Bei Hartholz verwenden Sie ein leicht kleineres Loch; bei Weichholz reicht der volle Kerndurchmesser. Ein zu weites Loch mindert den Halt, ein zu kleines Loch spaltet das Holz. Passen Sie den Bohrer der Holzart und Feuchte an. Prüfen Sie den Versuch an einem Abfallholz vor der Serie.",
+            "ja": "下穴はねじの谷径（ねじ山を除いた芯径）に合わせます。硬い木材には少し細めの穴、軟らかい木材には芯径どおりの穴で構いません。下穴が太すぎると保持力が落ち、細すぎると割れやすくなります。材質の硬さに合わせて径を調整してください。書類と現物を照合し、納品までの工程を整えておくと、現場の手間を抑えられます。"
           }
         },
         {
@@ -274,7 +280,8 @@
             "es": "¿Cómo anclar en ladrillo en vez de hormigón?",
             "fr": "Comment ancrer dans la brique plutôt que dans le béton ?",
             "pt": "Como fixar em tijolo em vez de concreto?",
-            "de": "Wie verankert man in Mauerwerk statt Beton?"
+            "de": "Wie verankert man in Mauerwerk statt Beton?",
+            "ja": "コンクリートではなくレンガに固定するにはどうしますか？"
           },
           "a": {
             "en": "Use sleeve anchors or brick anchors specifically rated for masonry. Standard concrete anchors may not hold in brick. Check that your anchor is approved for the specific brick type.",
@@ -285,7 +292,8 @@
             "es": "Use anclajes de manguito o anclajes para ladrillo clasificados específicamente para mampostería. Los anclajes de hormigón estándar pueden no sujetar en el ladrillo. Compruebe que el anclaje esté aprobado para el tipo de ladrillo concreto. La mampostería porosa exige un producto pensado para ese soporte.",
             "fr": "Utilisez des chevilles à manchon ou des ancres brique spécifiquement évalués pour la maçonnerie. Les ancres béton standard peuvent ne pas tenir dans la brique. Vérifiez que votre ancrage est approuvé pour le type de brique précis. La brique est plus fragile que le béton et se fissure facilement sous expansion. Un essai de tirage confirme la capacité sur le support réel.",
             "pt": "Usam-se chumbadores de bucha ou âncoras para tijolo classificados especificamente para alvenaria. Os chumbadores de concreto padrão podem não segurar no tijolo. Confere-se se a âncora é aprovada para o tipo específico de tijolo. A alvenaria oca e o bloco exigem tipo de ancoragem diferente do concreto sólido, e a carga é verificada contra a ficha do fixador.",
-            "de": "Verwenden Sie Hülsenanker oder Mauerwerksanker, die spezifisch für Mauerwerk bewertet sind. Standardbetonanker halten im Mauerstein möglicherweise nicht. Prüfen Sie, ob Ihr Anker für den konkreten Steintyp zugelassen ist. Mauerwerk ist spröder als Beton und splittert leicht unter Ausweitung. Ein Zugversuch bestätigt die Kapazität auf dem tatsächlichen Träger."
+            "de": "Verwenden Sie Hülsenanker oder Mauerwerksanker, die spezifisch für Mauerwerk bewertet sind. Standardbetonanker halten im Mauerstein möglicherweise nicht. Prüfen Sie, ob Ihr Anker für den konkreten Steintyp zugelassen ist. Mauerwerk ist spröder als Beton und splittert leicht unter Ausweitung. Ein Zugversuch bestätigt die Kapazität auf dem tatsächlichen Träger.",
+            "ja": "組立てアンカーまたはレンガ専用のアンカーで、組積造に対する定格を確認して使います。標準のコンクリートアンカーはレンガで効かないことがあります。使用するレンガの種類に適合しているかを確認し、壁の強度と荷重を照合してください。用途ごとに仕様を分け、必要な品質を満たす範囲で選定してください。"
           }
         },
         {
@@ -298,7 +306,8 @@
             "es": "¿Cuál es el mejor tornillo para terraza exterior en África?",
             "fr": "Quelle est la meilleure vis pour une terrasse extérieure en Afrique ?",
             "pt": "Qual o melhor parafuso para deck externo na África?",
-            "de": "Welche Schraube ist für die Außenterrasse in Afrika am besten?"
+            "de": "Welche Schraube ist für die Außenterrasse in Afrika am besten?",
+            "ja": "アフリカの屋外デッキに最適なねじは何ですか？"
           },
           "a": {
             "en": "Stainless steel (A4/316) deck screws or hot-dip galvanized screws. Coarse thread for hardwoods. Spacing should account for wood movement with humidity changes.",
@@ -309,7 +318,8 @@
             "es": "Para terraza exterior use tornillos de inoxidable A4/316 o galvanizados en caliente. En maderas duras vaya con rosca gruesa. La separación debe tener en cuenta el movimiento de la madera con los cambios de humedad. El recubrimiento protege frente a la intemperie y la rosca se adapta al tipo de madera.",
             "fr": "Des vis de terrasse inox A4/316, ou des vis galvanisées à chaud. Le gros filetage sert les bois durs. L'espacement doit tenir compte du mouvement du bois avec l'humidité ambiante. L'exposition solaire et la brume saline pèsent aussi sur le revêtement. La vis inox résiste mieux au lavage et à l'humidité extérieure. Prévoyez une finition adaptée avant la pose finale.",
             "pt": "Parafusos de deck em inoxidável A4/316 ou parafusos galvanizados a quente. Rosca grossa para madeiras duras. O espaçamento deve levar em conta o movimento da madeira com as mudanças de umidade. A escolha do revestimento segue a exposição ao ar livre e à chuva, e a ponta e a cabeça são conferidas no ensaio de acionamento da amostra.",
-            "de": "Terrassenschrauben Edelstahl A4/316 oder feuerverzinkte Schrauben. Grobgewinde für Harthölzer. Der Abstand muss die Holzbewegung bei Feuchtewechseln berücksichtigen. Die Sonneneinstrahlung und die Salznähe wirken ebenfalls auf die Beschichtung. Der Edelstahl hält besser aus Wäsche und Feuchte außen. Planen Sie eine an die Exposition passende Oberfläche vor der Endmontage."
+            "de": "Terrassenschrauben Edelstahl A4/316 oder feuerverzinkte Schrauben. Grobgewinde für Harthölzer. Der Abstand muss die Holzbewegung bei Feuchtewechseln berücksichtigen. Die Sonneneinstrahlung und die Salznähe wirken ebenfalls auf die Beschichtung. Der Edelstahl hält besser aus Wäsche und Feuchte außen. Planen Sie eine an die Exposition passende Oberfläche vor der Endmontage.",
+            "ja": "ステンレス鋼（A4/316）のデッキねじ、または溶融亜鉛めっきのねじを使います。硬い木材には並目ねじを選びます。湿度変化による木材の動きを見込んで間隔を決めてください。暴露環境に合った材質と被覆を選び、頭部が沈み込まないよう締めてください。現場の条件を記録し、同じ仕様を繰り返し使うことで、供給と管理を安定させられます。"
           }
         }
       ]
