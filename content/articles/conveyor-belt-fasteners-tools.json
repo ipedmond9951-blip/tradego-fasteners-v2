@@ -232,14 +232,16 @@
       "zh": "接头拉力等级怎么看？",
       "hi": "बेल्ट फास्टनर की रेटिंग या टेंशन रेटिंग क्या होती है?",
       "ru": "Что означает рейтинг натяжения крепления ленты?",
-      "ar": "ما المقصود بتصنيف مثبت السير أو تصنيف الشد؟"
+      "ar": "ما المقصود بتصنيف مثبت السير أو تصنيف الشد؟",
+      "es": "¿Qué es la clasificación o tensión de una grapa de cinta?"
      },
      "a": {
       "en": "Belt fastener tension ratings indicate the maximum conveyor belt tension (in N/mm of belt width) the splice can handle. For example, a fastener rated at 800 N/mm is suitable for belts with belt pull up to 800 N per mm of width. The rating must exceed the actual belt tension at the splice location. Consult the manufacturer's selection guide which correlates belt width, thickness, and pulley diameter with fastener size and rating.",
       "zh": "带扣的拉力等级表示该接头能承受的最大输送带张力，单位为每毫米带宽多少牛（N/mm）。例如标注 800 N/mm 的带扣，适用于每毫米带宽拉力不超过 800 N 的输送带。所选等级必须高于接头位置的实际张力；选型时对照厂商选型表，把带宽、带厚和滚筒直径与带扣规格、等级对应起来。",
       "hi": "बेल्ट फास्टनर की टेंशन रेटिंग उस अधिकतम कन्वेयर बेल्ट टेंशन को बताती है, जिसे स्प्लाइस संभाल सकता है; इकाई बेल्ट चौड़ाई के प्रति मिमी N में दी जाती है। उदाहरण के लिए 800 N/mm रेटिंग वाला फास्टनर उस बेल्ट के लिए ठीक है जिसकी खिंचाव चौड़ाई के प्रति मिमी 800 N तक हो। रेटिंग स्प्लाइस की असल बेल्ट टेंशन से ज्यादा होनी चाहिए। निर्माता की चयन गाइड देखें, जो बेल्ट की चौड़ाई, मोटाई और पुली व्यास को फास्टनर के आकार और रेटिंग से जोड़ती है।",
       "ru": "Рейтинг натяжения (tension rating) крепежа ленты — это максимальное натяжение конвейерной ленты в N на мм ширины, которое выдерживает стык. Например, крепёж с рейтингом 800 N/mm подходит для лент с тяговым усилием до 800 N на мм ширины. Рейтинг должен превышать фактическое натяжение в месте стыка. Подбор ведут по руководству производителя, где ширина и толщина ленты и диаметр барабана соотнесены с размером крепежа и его рейтингом.",
-      "ar": "تشير تصنيفات شد مثبتات السير إلى أقصى شد لسير الناقل، بوحدة N/mm من عرض السير، يستطيع الوصلة تحمله. فمثلًا مثبت مصنف 800 N/mm يناسب السيور التي يبلغ شد سحبها حتى 800 نيوتن لكل ملم عرض. ويجب أن يتجاوز التصنيف الشد الفعلي عند موقع الوصلة. وراجع دليل اختيار المصنع الذي يربط بين عرض السير وسمكه وقطر البكرة وبين مقاس المثبت وتصنيفه."
+      "ar": "تشير تصنيفات شد مثبتات السير إلى أقصى شد لسير الناقل، بوحدة N/mm من عرض السير، يستطيع الوصلة تحمله. فمثلًا مثبت مصنف 800 N/mm يناسب السيور التي يبلغ شد سحبها حتى 800 نيوتن لكل ملم عرض. ويجب أن يتجاوز التصنيف الشد الفعلي عند موقع الوصلة. وراجع دليل اختيار المصنع الذي يربط بين عرض السير وسمكه وقطر البكرة وبين مقاس المثبت وتصنيفه.",
+      "es": "La clasificación de tensión indica la tensión máxima de la cinta (en N/mm de ancho) que puede soportar el empalme. Una grapa de 800 N/mm sirve para cintas con tracción hasta 800 N por mm de ancho. La clasificación debe superar la tensión real en el punto del empalme. Consulte la guía de selección del fabricante, que relaciona ancho, grosor y diámetro de polea con el tamaño y la clasificación de la grapa."
      }
     },
     {
@@ -248,14 +250,16 @@
       "zh": "机械接头比硫化接头寿命短多少？",
       "hi": "वल्कनाइज़्ड स्प्लाइस के मुकाबले मैकेनिकल बेल्ट स्प्लाइस कितने टिकते हैं?",
       "ru": "Сколько служат механические стыки против вулканизированных?",
-      "ar": "كم تدوم الوصلات الميكانيكية مقابل الوصلات المفلكنة؟"
+      "ar": "كم تدوم الوصلات الميكانيكية مقابل الوصلات المفلكنة؟",
+      "es": "¿Cuánto duran los empalmes mecánicos frente a los vulcanizados?"
      },
      "a": {
       "en": "Vulcanized splices typically achieve 95-100% of original belt strength and last 3-5 years under ideal conditions. Mechanical splices achieve 80-98% of belt strength (depending on type) and typically last 1-3 years depending on belt tension, material abrasiveness, and operating conditions. For high-abrasion African mining applications, mechanical splice life of 6-18 months is common before scheduled replacement. The speed of field replacement often makes mechanical splices more economical despite shorter service life.",
       "zh": "硫化接头通常能达到原带强度的 95–100%，理想工况下可用 3–5 年；机械接头强度保持在 80–98%（视类型而定），一般寿命 1–3 年，取决于带张力、物料磨蚀性和运行条件。在磨蚀较强的非洲矿山工况，机械接头通常 6–18 个月就需计划更换。虽然寿命偏短，但现场更换快，综合算下来往往更经济。",
       "hi": "वल्कनाइज़्ड स्प्लाइस आम हालत में बेल्ट मूल ताकत का 95-100% तक देते हैं और आदर्श परिस्थिति में 3-5 साल चलते हैं। मैकेनिकल स्प्लाइस बेल्ट ताकत का 80-98% (प्रकार के हिसाब से) देते हैं और टेंशन, घिसावट तथा परिचालन परिस्थितियों के अनुसार 1-3 साल चलते हैं। घिसावट वाले अफ्रीकी खनन अनुप्रयोगों में ये 6-18 महीने में नियत बदलाव से पहले का जीवनकाल दिखाते हैं। मैदान में जल्दी बदलाव की सुविधा से छोटी उम्र के बावजूद अकसर किफायती रहते हैं।",
       "ru": "Вулканизированный стык обычно держит 95–100% исходной прочности ленты и служит 3–5 лет в идеальных условиях. Механический стык даёт 80–98% прочности в зависимости типа и живёт обычно 1–3 года в зависимости от натяжения, абразивности материала и режима работы. В сильно абразивных горных условиях механический стык чаще меняют через 6–18 месяцев. Быстрота замены на месте нередко делает механический стык экономичнее даже при меньшем сроке службы.",
-      "ar": "تحقق الوصلات المفلكنة عادة 95–100% من قوة السير الأصلية وتدوم 3–5 سنوات في الظروف المثالية. أما الوصلات الميكانيكية فتحقق 80–98% من قوة السير حسب النوع، وتدوم عادة 1–3 سنوات حسب شد السير وخدشة المادة وظروف التشغيل. وفي تطبيقات التعدين الأفريقية عالية الكشط، يبلغ عمر الوصلة الميكانيكية 6–18 شهرًا قبل الاستبدال المجدول. وسرعة الاستبدال الميداني كثيرًا ما تجعل الوصلات الميكانيكية أوفر رغم أقصر عمر خدمة."
+      "ar": "تحقق الوصلات المفلكنة عادة 95–100% من قوة السير الأصلية وتدوم 3–5 سنوات في الظروف المثالية. أما الوصلات الميكانيكية فتحقق 80–98% من قوة السير حسب النوع، وتدوم عادة 1–3 سنوات حسب شد السير وخدشة المادة وظروف التشغيل. وفي تطبيقات التعدين الأفريقية عالية الكشط، يبلغ عمر الوصلة الميكانيكية 6–18 شهرًا قبل الاستبدال المجدول. وسرعة الاستبدال الميداني كثيرًا ما تجعل الوصلات الميكانيكية أوفر رغم أقصر عمر خدمة.",
+      "es": "Los empalmes vulcanizados alcanzan el 95-100% de la fuerza original y duran de 3 a 5 años en condiciones ideales. Los mecánicos llegan al 80-98% de la fuerza, según el tipo, y duran de 1 a 3 años según tensión, abrasión y condiciones de trabajo. En minería africana de alta abrasión, la vida mecánica suele ser de 6 a 18 meses antes del recambio programado. La rapidez del recambio en campo suele hacerlos más económicos pese a su vida más corta."
      }
     },
     {
@@ -264,14 +268,16 @@
       "zh": "机械接头为什么会过早失效？",
       "hi": "मैकेनिकल स्प्लाइस समय से पहले क्यों खराब हो जाते हैं?",
       "ru": "Почему механические стыки выходят из строя раньше срока?",
-      "ar": "لماذا تفشل الوصلات الميكانيكية قبل أوانها؟"
+      "ar": "لماذا تفشل الوصلات الميكانيكية قبل أوانها؟",
+      "es": "¿Por qué fallan pronto los empalmes mecánicos?"
      },
      "a": {
       "en": "The most common causes of premature mechanical splice failure: incorrect fastener size for belt thickness — fasteners either pull through or don't close properly; belt tracking issues — a misaligned belt wears the splice edges; under-tightened fasteners — allow movement that fatigues the belt; over-tightened fasteners — deform the belt carcass; material carryback — abrasive material buildup between belt and pulleys accelerates fastener wear; improper skiving — insufficient cover rubber removal prevents proper fastener engagement with the carcass.",
       "zh": "常见原因有六类：带厚与带扣规格不匹配，带扣被拉穿或扣合不严；皮带跑偏，接头边缘被磨损；带扣拧得过松，接头往复活动疲劳皮带；拧得过紧，损伤带芯；物料回粘堆积在皮带与滚筒之间，加速带扣磨损；剥层（skiving）不到位，覆盖胶去除不足，带扣与带芯咬合不牢。",
       "hi": "समय पूर्व खराबी के मुख्य कारण ये हैं: बेल्ट मोटाई के हिसाब से गलत फास्टनर आकार, जिससे वह अंदर खिंच जाता है या ठीक से बंद नहीं होता; ट्रैकिंग गलत होने से मिसालाइन बेल्ट स्प्लाइस के किनारे घिसते हैं; कम कसे फास्टनर हिलने की जगह देकर बेल्ट थकाते हैं; ज्यादा कसे फास्टनर कार्कस को विकृत कर देते हैं; घिसावट वाली सामग्री बेल्ट और पुली के बीच जमा होकर घिसावट तेज करती है; और स्कीविंग कम होने पर कवर रबर न हटकर फास्टनर कार्कस से ठीक से जुड़ नहीं पाता।",
       "ru": "Чаще всего причинами становятся неверный размер крепежа под толщину ленты: он либо продавливает ленту, либо не закрывается как надо; смещение ленты изнашивает кромки стыка; недотянутый крепёж даёт ход и утомляет ленту; перетяжка деформирует каркас; налипший абразивный материал между лентой и барабаном ускоряет износ крепежа; неправильная зачистка, когда снято недостаточно верхнего слоя резины, мешает сцеплению с каркасом.",
-      "ar": "أشهر أسباب الفشل المبكر: مقاس المثبت غير المناسب لسمك السير، فينخلع أو لا ينغلق جيدًا؛ ومشاكل توجيه السير، فالسير المنحرف يحتك بحواف الوصلة؛ والمثبتات غير مشدودة كفاية فتسمح بالحركة التي تُجهّد السير؛ والمثبتات مشدودة أكثر من اللازم فتدمر هيكل السير؛ وتراكم المادة المحمولة بين السير والبكرات فيسرع تآكل المثبت؛ والتشطيب غير الصحيح للوجه، فعدم كشط المطاط يمنع تعشيق المثبت بالهيكل."
+      "ar": "أشهر أسباب الفشل المبكر: مقاس المثبت غير المناسب لسمك السير، فينخلع أو لا ينغلق جيدًا؛ ومشاكل توجيه السير، فالسير المنحرف يحتك بحواف الوصلة؛ والمثبتات غير مشدودة كفاية فتسمح بالحركة التي تُجهّد السير؛ والمثبتات مشدودة أكثر من اللازم فتدمر هيكل السير؛ وتراكم المادة المحمولة بين السير والبكرات فيسرع تآكل المثبت؛ والتشطيب غير الصحيح للوجه، فعدم كشط المطاط يمنع تعشيق المثبت بالهيكل.",
+      "es": "Las causas más comunes son: tamaño de grapa incorrecto para el grosor, lo que hace que ceda o no cierre bien; mala guía de la cinta, que desgasta los bordes del empalme; grapas flojas, que dejan movimiento y fatigan la cinta; grapas apretadas de más, que deforman el armazón; material arrastrado entre cinta y poleas, que acelera el desgaste; y un biselado insuficiente, que impide que la grapa encaje en el armazón."
      }
     }
    ],
