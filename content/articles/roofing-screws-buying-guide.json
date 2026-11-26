@@ -243,7 +243,8 @@
             "ar": "ما الطول المناسب لبرغي السقف؟",
             "es": "¿Qué longitud debe tener un tornillo de cubierta?",
             "fr": "Quelle longueur doit avoir une vis de couverture ?",
-            "pt": "Quão longo deve ser um parafuso de cobertura?"
+            "pt": "Quão longo deve ser um parafuso de cobertura?",
+            "de": "Welche Länge sollte eine Dachschraube haben?"
           },
           "a": {
             "en": "Length equals sheet thickness plus purlin or batten penetration plus about 25 mm of driving allowance. Too short and the thread never fully engages the purlin; too long and the point breaks through where it can be seen or catch.",
@@ -253,7 +254,8 @@
             "ar": "يساوي الطول سماكة الصفائح + عمق التثبيت في المدادة أو الخشبة الحاملة + نحو 25 ملم كقدرة دخول إضافية. فإذا كان البرغي أقصر من اللازم لا يلتفت الخيط بالكامل في المدادة، وإذا كان أطول من اللازم يخترق الطرف الظاهر فيمكن رؤيته أو تعلقه بمواد أخرى.",
             "es": "La longitud es el grosor de chapa más la penetración en purlín o listón más unos 25 mm de margen de roscado. Demasiado corto y la rosca nunca engrana por completo el purlín; demasiado largo y la punta asoma donde puede verse o enganchar. La longitud se calcula sobre el espesor real del montaje.",
             "fr": "La longueur vaut l'épaisseur de tôle plus la pénétration dans la panne ou le liteau, plus environ 25 mm de marge de vissage. Trop courte, le filetage n'engage jamais pleinement la panne ; trop longue, la perce perce à travers là où elle est visible ou peut accrocher. La longueur se calcule sur le support réel de la couverture. Un essai sur profil confirme la valeur retenue. La marge évite que la vis ne dépasse sous la panne.",
-            "pt": "O comprimento equivale à espessura da chapa mais a penetração no terçado ou ripa, mais cerca de 25 mm de folga de acionamento. Curto demais e a rosca nunca engasta por completo no terçado; longo demais a ponta rompe onde pode ser vista ou presa. O comprimento é conferido contra a espessura do suporte, e o ponto é verificado na amostra de instalação."
+            "pt": "O comprimento equivale à espessura da chapa mais a penetração no terçado ou ripa, mais cerca de 25 mm de folga de acionamento. Curto demais e a rosca nunca engasta por completo no terçado; longo demais a ponta rompe onde pode ser vista ou presa. O comprimento é conferido contra a espessura do suporte, e o ponto é verificado na amostra de instalação.",
+            "de": "Die Länge ergibt sich aus Blechdicke plus Eindringtiefe in Pfette oder Latte zuzüglich etwa 25 mm Einschlagspielraum. Zu kurz, dann greift das Gewinde nie vollständig in die Pfette; zu lang, dann bricht die Spitze dort durch, wo sie sichtbar ist oder hängen bleibt."
           }
         },
         {
@@ -265,7 +267,8 @@
             "ar": "هل الغسالة وحدها تحقق العزل المائي؟",
             "es": "¿La arandela realmente impermeabiliza?",
             "fr": "La rondelle assure-t-elle vraiment l'étanchéité ?",
-            "pt": "A arruela realmente faz a impermeabilização?"
+            "pt": "A arruela realmente faz a impermeabilização?",
+            "de": "Übernimmt die Scheibe wirklich die Abdichtung?"
           },
           "a": {
             "en": "Yes. The EPDM washer under the screw head seals the hole, and it only works if the screw is driven to the correct depth - over-driving crushes the washer, under-driving leaves a gap. Replace cracked washers rather than reusing them.",
@@ -275,7 +278,8 @@
             "ar": "نعم، فغسالة EPDM تحت رأس البرغي تُغلق الفتحة، وهي لا تعمل إلا إذا دُق البرغي بالعمق الصحيح؛ فالإفراط في الدفع يسحق الغسالة، والنقص يترك فجوة. واستبدل الغسالات المتشققة بدل إعادة استخدامها، لأن التآكل أو التشقق يفقدها قدرتها على الإغلاق المرن مع الزمن.",
             "es": "Sí. La arandela EPDM bajo la cabeza del tornillo sella el hueco, y solo funciona si el tornillo se lleva a la profundidad correcta: pasarse de largo aplasta la arandela, y quedarse corto deja una rendija. Cambie las arandelas agrietadas en vez de reutilizarlas. El sello depende de la arandela y de la profundidad de aprieto.",
             "fr": "Oui. La rondelle EPDM sous la tête de vis ferme le trou, et elle ne fonctionne que si la vis est vissée à la profondeur correcte : un serrage excessif écrase la rondelle, un serrage insuffisant laisse un vide. Remplacez les rondelles fendues plutôt que de les réutiliser. La rondelle se comprime juste sous la tête, pas en dessous. Un contrôle visuel repère les rondelles tassées ou craquelées. L'étanchéité dépend aussi de l'état du support.",
-            "pt": "Sim. A arruela EPDM sob a cabeça do parafuso veda o furo, e só funciona se o parafuso for acionado na profundidade correta: aperto excessivo esmaga a arruela, aperto insuficiente deixa folga. Arruelas rachadas são trocadas, não reutilizadas. A condição da arruela é inspecionada na manutenção da cobertura, e a vedação depende também do aperto uniforme dos parafusos."
+            "pt": "Sim. A arruela EPDM sob a cabeça do parafuso veda o furo, e só funciona se o parafuso for acionado na profundidade correta: aperto excessivo esmaga a arruela, aperto insuficiente deixa folga. Arruelas rachadas são trocadas, não reutilizadas. A condição da arruela é inspecionada na manutenção da cobertura, e a vedação depende também do aperto uniforme dos parafusos.",
+            "de": "Ja. Die EPDM-Scheibe unter dem Schraubenkopf dichtet das Loch ab, und sie wirkt nur bei richtiger Einschlagtiefe – zu festes Anziehen quetscht die Scheibe, zu lockeres lässt eine Lücke. Rissige Scheiben sind zu ersetzen und nicht wiederzuverwenden."
           }
         },
         {
@@ -287,7 +291,8 @@
             "ar": "أي طلاء يناسب سقفًا ساحليًا؟",
             "es": "¿Qué recubrimiento para un techo costero?",
             "fr": "Quel revêtement pour une toiture côtière ?",
-            "pt": "Qual revestimento para cobertura costeira?"
+            "pt": "Qual revestimento para cobertura costeira?",
+            "de": "Welche Beschichtung für ein Küstendach?"
           },
           "a": {
             "en": "Ruspert or comparable multilayer coatings and hot-dip galvanising both hold up on coastal roofs; plain thin zinc does not. Match the coating class to the distance from the sea, and specify it explicitly because the same screw is sold in several coating grades.",
@@ -297,7 +302,8 @@
             "ar": "تتحمل أسقف المناطق الساحلية طلاء Ruspert أو طبقات متعددة مماثلة، وكذلك الجلفنة بالغمس الساخن، بينما لا يصمد الزنك الرقيق العادي. طابق فئة الطلاء مع المسافة عن البحر، وحددها صراحة في الطلب، لأن نفس البرغي يُباع بعدة درجات طلاء مختلفة.",
             "es": "Ruspert o recubrimientos multicapa equivalentes y el galvanizado en caliente aguantan ambos en techos costeros; el zinc fino simple no lo hace. Empareje la clase de recubrimiento con la distancia al mar, y especifíquela explícitamente, porque el mismo tornillo se vende en varios grados de recubrimiento. La clase se elige según la exposición salina del sitio.",
             "fr": "Les revêtements multicouches type Ruspert ou équivalent, et la galvanisation à chaud, tiennent tous sur les toitures côtières ; le zinc fin simple non. Faites correspondre la classe de revêtement à la distance de la mer, et spécifiez-la explicitement, car la même vis est vendue en plusieurs grades de protection. L'air salé accélère la corrosion sur les pièces exposées. Vérifiez l'épaisseur sur échantillon avant la commande.",
-            "pt": "Revestimentos multicamada tipo Ruspert e a galvanização a quente resistem em coberturas costeiras; o zinco fino simples não. A classe de revestimento casa com a distância ao mar, e é especificada explicitamente, pois o mesmo parafuso é vendido em várias classes de revestimento. A espessura é verificada no certificado do lote e na inspeção de recebimento da carga."
+            "pt": "Revestimentos multicamada tipo Ruspert e a galvanização a quente resistem em coberturas costeiras; o zinco fino simples não. A classe de revestimento casa com a distância ao mar, e é especificada explicitamente, pois o mesmo parafuso é vendido em várias classes de revestimento. A espessura é verificada no certificado do lote e na inspeção de recebimento da carga.",
+            "de": "Ruspert oder vergleichbare Mehrschichtbeschichtungen und Feuerverzinkung halten auf Küstendächern; reiner dünner Zinküberzug nicht. Die Beschichtungsklasse ist dem Meerabstand anzupassen und ausdrücklich anzugeben, da dieselbe Schraube in mehreren Beschichtungsstufen verkauft wird."
           }
         }
       ]
