@@ -163,7 +163,8 @@
             "es": "¿Qué pernos uso para estructuras solares de suelo?",
             "fr": "Quels boulons pour structures solaires au sol ?",
             "pt": "Que parafusos uso em estruturas solares de solo?",
-            "de": "Welche Schrauben nutze ich für Solarmontagen auf dem Boden?"
+            "de": "Welche Schrauben nutze ich für Solarmontagen auf dem Boden?",
+            "ja": "地上設置型ソーラー架台にはどのボルトを使いますか？"
           },
           "a": {
             "en": "For ground mount steel structures, use 8.8 or 10.9 hot-dip galvanized hex bolts with matching heavy hex nuts. Ground anchors may require anchor bolts per engineer's specification.",
@@ -174,7 +175,8 @@
             "es": "Para estructuras de acero de montaje en suelo, use pernos hexagonales 8.8 o 10.9 galvanizados en caliente con tuercas hexagonales pesadas emparejadas. Los anclajes de suelo pueden requerir pernos de anclaje según la especificación del ingeniero. El material y el recubrimiento se definen sobre el diseño de la estructura.",
             "fr": "Pour les structures acier au sol, employer des boulons hex 8.8 ou 10.9 galvanisés à chaud avec écrous hex lourds assortis. Les ancrages de fondation peuvent exiger des boulons d'ancrage selon la spécification de l'ingénieur. La classe et le revêtement suivent la structure porteuse.",
             "pt": "Para estruturas de aço montadas no solo, usam-se parafusos sextavados 8.8 ou 10.9 galvanizados a quente com porcas sextavadas pesadas correspondentes. Âncoras de solo podem exigir parafusos de ancoragem conforme a especificação do engenheiro. A classe e o revestimento seguem o projeto da estrutura, e a compatibilidade das peças é conferida na lista de material.",
-            "de": "Für Stahlkonstruktionen am Boden nutzen Sie feuerverzinkte Sechskantschrauben der Klasse 8.8 oder 10.9 mit passenden schweren Sechskantmuttern. Bodenanker können je nach Vorgabe des Ingenieurs Ankerbolzen erfordern."
+            "de": "Für Stahlkonstruktionen am Boden nutzen Sie feuerverzinkte Sechskantschrauben der Klasse 8.8 oder 10.9 mit passenden schweren Sechskantmuttern. Bodenanker können je nach Vorgabe des Ingenieurs Ankerbolzen erfordern.",
+            "ja": "地上設置型の鉄骨架台には、8.8 または 10.9 の溶融亜鉛めっき六角ボルトと、それに合う重量用六角ナットを使用します。地中アンカーについては、設計者の仕様に従ってアンカーボルトが必要になる場合があります。構造の荷重と風荷重を考慮して、クラスとめっきを選定してください。"
           }
         },
         {
@@ -187,7 +189,8 @@
             "es": "¿Uso pernos inoxidables o galvanizados para solar en cubierta?",
             "fr": "Inox ou boulons galvanisés pour le solaire en toiture ?",
             "pt": "Devo usar parafuso inoxidável ou galvanizado em solar de telhado?",
-            "de": "Edelstahl oder verzinkte Schrauben für Solardächer?"
+            "de": "Edelstahl oder verzinkte Schrauben für Solardächer?",
+            "ja": "屋根置きソーラーにはステンレスと亜鉛めっきのどちらを使いますか？"
           },
           "a": {
             "en": "In inland locations, 8.8 zinc-plated is adequate. Within 5km of coastlines or in high-humidity tropical regions, use 316 stainless steel to prevent galvanic corrosion with aluminum rails.",
@@ -198,7 +201,8 @@
             "es": "En ubicaciones del interior, el 8.8 cincado es suficiente. A menos de 5 km de costas o en regiones tropicales de alta humedad, use acero inoxidable 316 para evitar corrosión galvánica con los raíles de aluminio. La distancia al mar y la humedad deciden el material del perno.",
             "fr": "En sites intérieurs des terres, le zincage classe 8.8 suffit. À moins de 5 km du littoral ou en régions tropicales très humides, employer l'inox 316 pour éviter la corrosion galvanique avec les rails en aluminium. La proximité du sel et de l'humidité commande la nuance.",
             "pt": "Em locais do interior, o 8.8 zincado é adequado. A até cerca de 5 km da costa ou em regiões tropicais úmidas, usa-se aço inoxidável 316 para evitar corrosão galvânica com os trilhos de alumínio. O material segue a distância ao litoral e a umidade, e o par é isolado quando dissimilar, conforme a ficha do projeto.",
-            "de": "Im Binnenland ist verzinkter Stahl 8.8 ausreichend. In Küstennähe (innerhalb 5 km) oder in hoher Luftfeuchtigkeit der Tropen nutzen Sie nichtrostenden Stahl 316, um galvanische Korrosion mit den Aluminiumschienen zu vermeiden."
+            "de": "Im Binnenland ist verzinkter Stahl 8.8 ausreichend. In Küstennähe (innerhalb 5 km) oder in hoher Luftfeuchtigkeit der Tropen nutzen Sie nichtrostenden Stahl 316, um galvanische Korrosion mit den Aluminiumschienen zu vermeiden.",
+            "ja": "内陸部であれば、亜鉛めっきの 8.8 で十分です。海岸から 5 km 以内、または湿度の高い熱帯地域では、アルミレールとの電食を防ぐためにステンレス 316 を使用してください。設置場所の環境によって材料を使い分けることが、長期の耐久性につながります。"
           }
         },
         {
@@ -211,7 +215,8 @@
             "es": "¿Qué pernos se usan para estructuras de montaje en suelo?",
             "fr": "Quels boulons pour les structures au sol ?",
             "pt": "Que parafusos se usam em estruturas de solo?",
-            "de": "Welche Schrauben werden für Bodenmontagen verwendet?"
+            "de": "Welche Schrauben werden für Bodenmontagen verwendet?",
+            "ja": "地上架台に使われるボルトは何ですか？"
           },
           "a": {
             "en": "Hot-dip galvanised hex bolts in class 8.8 with matching nuts, sized from the racking design, or stainless where the site is coastal. The 25 year service life target makes coating the deciding factor, not the bolt price.",
@@ -222,7 +227,8 @@
             "es": "Pernos hexagonales galvanizados en caliente clase 8.8 con tuercas emparejadas, dimensionados desde el diseño del rack, o inoxidables donde el sitio es costero. El objetivo de vida útil de 25 años hace del recubrimiento el factor decisivo, no el precio del perno. La protección acompaña a la exposición del emplazamiento.",
             "fr": "Boulons hex galvanisés à chaud classe 8.8 avec écrous assortis, dimensionnés d'après la conception du supportage, ou inox lorsque le site est côtier. L'objectif de durée de service de 25 ans fait du revêtement le facteur décisif, pas du prix du boulon. La tenue dans le temps prime le coût pièce.",
             "pt": "Parafusos sextavados galvanizados a quente classe 8.8 com porcas correspondentes, dimensionados pelo projeto do suporte, ou inoxidável onde o sítio é costeiro. O alvo de vida útil de serviço longo faz do revestimento o fator decisivo, não o preço do parafuso. A classe é conferida na cabeça, e a espessura do zinco no certificado do lote.",
-            "de": "Feuerverzinkte Sechskantschrauben der Klasse 8.8 mit passenden Muttern, bemessen nach der Gestellplanung, oder Edelstahl am Küstenstandort. Das angestrebte 25-jährige Leben macht die Beschichtung zum entscheidenden Faktor, nicht den Schraubenpreis."
+            "de": "Feuerverzinkte Sechskantschrauben der Klasse 8.8 mit passenden Muttern, bemessen nach der Gestellplanung, oder Edelstahl am Küstenstandort. Das angestrebte 25-jährige Leben macht die Beschichtung zum entscheidenden Faktor, nicht den Schraubenpreis.",
+            "ja": "架台の設計に合わせて選ばれるのは、クラス 8.8 の溶融亜鉛めっき六角ボルトと合うナット、または海岸立地ではステンレスです。目標とする 25 年の耐用年数から、ボルトの価格ではなくめっきや表面処理が決定要因となります。環境に合った防食仕様を優先して選定してください。"
           }
         }
       ],
