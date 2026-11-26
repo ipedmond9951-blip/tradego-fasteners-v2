@@ -103,3 +103,58 @@
 - 明细：`docs/gsc-shortanswer-enresidue-2026-1126.csv` 中 `metric=en_placeholder` 行，共 **22 条，均为各篇 `#1`**。
 - 处置：请 A 线按本篇正文补齐 `a.en` 事实后，B 线下一轮再据新 en 重译各语种；本轮 B 线对这些条目只登记，**不改 en、不改其译文**。
 - 22 篇：`china-fastener-supplier-price-list-guide`、`china-hex-nuts-manufacturer`、`drywall-screws-bulk-price-africa-procurement`、`fastener-applications-construction-solar-telecom`、`fastener-common-problems-solutions`、`fastener-cost-analysis-template`、`fastener-quality-inspection-guide`、`fastener-selection-guide-african-construction`、`fastener-standards-din-iso-astm-comparison`、`fastener-supplier-verification-checklist`、`kenya-fastener-market-case-study`、`kenya-fastener-market-guide`、`m10-galvanized-bolt-fob-china-price`、`malawi-fastener-market-case-study`、`mining-fasteners-africa`、`nigeria-fastener-market-guide`、`self-drilling-tek-screws-price-list`、`solar-panel-mounting-fasteners-africa`、`south-africa-fastener-market-case-study`、`south-africa-fastener-market-guide`、`stainless-steel-fasteners-africa`、`zambia-fastener-market-case-study`。
+
+## 8. R-T9l S3 语言一致性扫描登记（2026-11-26，A 区只登记；B 线未改 A 文件）
+
+- 判据：`$T9L/lang_consistency.py`；明细 `docs/gsc-lang-consistency-2026-1126.csv`（列 slug,locale,field,item_no,metric,value,zone,action）。
+- 口径：`latin_sentence` 非拉丁语种连续 ≥4 拉丁词；`foreign_script` 夹目标语种外文字；`latin_title` 标题拉丁字符占比 >30%；ar 分组 `q_embed_en` / `a_over450`(>450) / `a_under120`(<120) 为 raw 长度。
+- **A 区 `a_over450`（ar 答案超长）：122 条 / 35 篇**，B 线本轮未触，请 A 线压缩到 120–450、事实数字不动：
+
+  - `agricultural-machinery-fastener-guide`：3 条 s2#1(560), s2#2(485), s2#3(485)
+  - `anchor-bolts-selection-guide`：3 条 s6#1(771), s6#2(758), s6#3(803)
+  - `angola-lng-project-fastener-procurement`：9 条 s7#1(602), s7#2(541), s7#3(523), s7#4(490), s7#5(535), s7#6(513), s7#7(503), s7#8(530), s7#9(483)
+  - `bolt-grade-markings-guide`：3 条 s7#1(605), s7#2(718), s7#3(697)
+  - `bolt-tightening-torque-guide`：5 条 s4#1(623), s4#2(671), s4#3(598), s4#4(642), s4#5(657)
+  - `china-iso-9001-fastener-manufacturer-directory`：3 条 s7#1(638), s7#2(700), s7#3(624)
+  - `china-zimbabwe-fastener-shipping-container-guide`：3 条 s5#1(781), s5#2(997), s5#3(1234)
+  - `concrete-anchors-fasteners-guide`：3 条 s3#1(568), s3#2(550), s3#3(627)
+  - `congo-brazzaville-fastener`：5 条 s4#1(795), s4#2(627), s4#3(653), s4#4(604), s4#5(563)
+  - `conveyor-belt-fasteners`：3 条 s6#1(589), s6#2(715), s6#3(710)
+  - `drywall-screws-complete-guide`：4 条 s8#1(495), s8#2(555), s8#3(522), s8#4(511)
+  - `fastener-corrosion-resistance-guide`：3 条 s4#1(697), s4#2(735), s4#3(757)
+  - `flat-washers-vs-spring-washers`：3 条 s3#1(779), s3#2(767), s3#3(744)
+  - `ghana-tema-port-fastener-import-procedure`：3 条 s6#1(767), s6#2(751), s6#3(746)
+  - `harare-fastener-distributor-supplier-guide`：3 条 s1#1(811), s3#1(751), s7#4(680)
+  - `hex-bolt-dimensions-chart`：3 条 s7#1(642), s7#2(591), s7#3(623)
+  - `high-strength-bolts-8-8-10-9-12-9-grade-guide`：3 条 s6#1(520), s6#2(677), s6#3(688)
+  - `high-tensile-bolts-grade-guide`：3 条 s6#1(581), s6#2(547), s6#3(536)
+  - `high-tensile-structural-bolts-guide`：3 条 s7#1(729), s7#2(694), s7#3(823)
+  - `ibr-roofing-nails-installation-guide`：3 条 s9#1(729), s9#2(600), s9#3(675)
+  - `ivory-coast-abidjan-port-fastener-tariff`：3 条 s7#1(682), s7#2(721), s7#3(727)
+  - `libya-tripoli-construction-fastener-sourcing`：3 条 s7#1(666), s7#2(689), s7#3(747)
+  - `marine-outdoor-corrosion-resistant-bolts-guide`：3 条 s6#1(742), s6#2(727), s6#3(755)
+  - `nuts-bolts-glossary-terminology`：4 条 s6#1(608), s6#2(592), s6#3(515), s6#4(566)
+  - `rwanda-construction-fastener-standards`：3 条 s7#6(534), s7#7(507), s7#8(519)
+  - `self-drilling-screws-selection-guide`：4 条 s8#1(779), s8#2(718), s8#3(754), s8#4(718)
+  - `self-tapping-screws-complete-classification-guide`：3 条 s7#1(590), s7#2(487), s7#3(587)
+  - `telecom-tower-fasteners`：3 条 s6#1(635), s6#2(604), s6#3(678)
+  - `threaded-rod-studding-guide`：3 条 s6#1(697), s6#2(714), s6#3(660)
+  - `togo-lome-port-fastener-import-procedure`：3 条 s7#1(679), s7#2(647), s7#3(633)
+  - `tunisia-mediterranean-fastener-export-guide`：5 条 s7#1(717), s7#2(771), s7#3(730), s7#4(763), s7#5(883)
+  - `washer-types-applications-guide`：3 条 s5#1(591), s5#2(533), s5#3(546)
+  - `zambia-fastener-supplier`：3 条 s4#2(583), s4#3(599), s4#5(666)
+  - `zimbabwe-import-duty-fastener-tariff-2026`：5 条 s7#1(524), s7#2(530), s7#3(816), s7#4(777), s7#5(994)
+  - `zinc-plated-vs-black-phosphate-screws`：3 条 s3#1(714), s3#2(720), s4#1(712)
+
+- **A 区 `foreign_script`：10 条 / 4 篇**：
+  - `agricultural-machinery-fastener-guide`：ja.a s4#1(1), zh.a s4#1(1), es.a s4#1(1)
+  - `bolt-tightening-torque-guide`：ja.a s4#7(1), zh.a s4#7(1), es.a s4#7(1)
+  - `fastener-corrosion-resistance-guide`：ja.a s4#3(2), zh.a s4#3(2)
+  - `harare-fastener-distributor-supplier-guide`：ja.q s3#2(6), ru.a s5#1(3)
+
+- **A 区 `latin_sentence`：2 条 / 2 篇**：
+  - `harare-fastener-distributor-supplier-guide`：zh.a s7#1(run=4)
+  - `rwanda-construction-fastener-standards`：ar.a s7#6(run=4)
+
+- 注：A 区无 `q_embed_en`、无 `a_under120`、无 `latin_title` 命中。
+- 工作树中 `anchor-bolts-selection-guide`、`bolt-tightening-torque-guide`、`rwanda-construction-fastener-standards` 等已有他线未提交改动，B 线未 stage、未覆盖。
