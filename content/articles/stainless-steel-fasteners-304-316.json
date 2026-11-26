@@ -262,7 +262,8 @@
             "ru": "Можно ли использовать сталь 304 у океана в Африке?",
             "ar": "هل يمكن استخدام فولاذ 304 قرب المحيط في أفريقيا؟",
             "es": "¿Puedo usar acero inoxidable 304 cerca del océano en África?",
-            "fr": "Peut-on utiliser du 304 près de l'océan en Afrique ?"
+            "fr": "Peut-on utiliser du 304 près de l'océan en Afrique ?",
+            "pt": "Posso usar inoxidável 304 perto do mar na África?"
           },
           "a": {
             "en": "It depends on proximity and exposure. Within 1-2km of the coast, 304 will corrode within 5-10 years. Between 2-5km, 304 may survive 10-15 years with maintenance. Beyond 5km in low-humidity areas, 304 is generally acceptable. For critical structures within 5km, specify 316 minimum.",
@@ -272,7 +273,8 @@
             "ru": "Решает близость к морю и степень воздействия. В пределах 1–2 км от побережья сталь 304 корродирует за 5–10 лет. На расстоянии 2–5 км при уходе она может прослужить 10–15 лет. Дальше 5 км в сухих местах 304 обычно приемлема. Для ответственных конструкций в радиусе 5 км закладывают минимум 316.",
             "ar": "يعتمد ذلك على المسافة ودرجة التعرض. فخلال 1–2 كلم من الساحل، يتآكل 304 خلال 5–10 سنوات. وبين 2–5 كلم، قد يصمد 304 مدة 10–15 سنة مع الصيانة. وراء 5 كلم في المناطق قليلة الرطوبة، يكون 304 مقبولًا عمومًا. وللمنشآت الحرجة ضمن 5 كلم، اطلب درجة 316 كحد أدنى.",
             "es": "Depende de la proximidad y la exposición. A menos de 1-2 km de la costa, el 304 se corroe en 5-10 años. Entre 2 y 5 km, el 304 puede durar 10-15 años con mantenimiento. Más allá de 5 km, en zonas de baja humedad, el 304 es generalmente aceptable. Para estructuras críticas dentro de los 5 km, se especifica como mínimo el 316.",
-            "fr": "Cela dépend de la proximité et de l'exposition. À moins de 1 à 2 km de la côte, le 304 corrodera en 5 à 10 ans. Entre 2 et 5 km, il peut tenir 10 à 15 ans avec entretien. Au-delà de 5 km en zone peu humide, le 304 est généralement acceptable. Pour les structures critiques à moins de 5 km, on spécifie du 316 au minimum."
+            "fr": "Cela dépend de la proximité et de l'exposition. À moins de 1 à 2 km de la côte, le 304 corrodera en 5 à 10 ans. Entre 2 et 5 km, il peut tenir 10 à 15 ans avec entretien. Au-delà de 5 km en zone peu humide, le 304 est généralement acceptable. Pour les structures critiques à moins de 5 km, on spécifie du 316 au minimum.",
+            "pt": "Depende da proximidade e da exposição. A 1 a 2 km da costa, o 304 corrói em 5 a 10 anos. Entre 2 e 5 km, o 304 pode durar 10 a 15 anos com manutenção. Além de 5 km, em áreas de baixa umidade, o 304 costuma ser aceitável. Para estruturas críticas dentro de 5 km, especifica-se no mínimo 316. A distância ao mar e a lavagem de névoa salina definem a família do fixador."
           }
         },
         {
@@ -284,7 +286,8 @@
             "ru": "Что означает буква L в маркировке 316L?",
             "ar": "ماذا تعني لاحقة L في فولاذ 316L؟",
             "es": "¿Qué significa la «L» en el acero inoxidable 316L?",
-            "fr": "Que signifie « L » dans l'inox 316L ?"
+            "fr": "Que signifie « L » dans l'inox 316L ?",
+            "pt": "O que significa o 'L' no inoxidável 316L?"
           },
           "a": {
             "en": "The 'L' indicates low carbon content (maximum 0.03% vs 0.08% for standard 316). This prevents chromium carbide precipitation during welding, which would otherwise cause 'weld decay' — a zone adjacent to welds that is depleted in chromium and susceptible to corrosion. Use 316L whenever the fasteners will be welded or are for use in welded assemblies.",
@@ -294,7 +297,8 @@
             "ru": "Буква L указывает на низкое содержание углерода: максимум 0.03% против 0.08% у обычной 316. Это не даёт выпадения карбидов хрома при сварке, иначе зона рядом со швом обедняется хромом и склонна к коррозии, так называемый сварочный распад. 316L берут там, где крепёж будут сваривать или он входит в сварную сборку.",
             "ar": "تشير اللاحقة L إلى محتوى كربون منخفض، بحد أقصى 0.03% مقابل 0.08% في 316 القياسي. وهذا يمنع ترسيب كربيد الكروم أثناء اللحام، الذي قد يسبب ما يسمى تآكل اللحام، وهي منطقة قرب اللحام ينضب فيها الكروم وتصبح عرضة للتآكل. واستخدم 316L حيث ستُلحم المثبتات أو تدخل في تجميعات ملحومة.",
             "es": "La «L» indica bajo contenido de carbono (máximo 0,03% frente al 0,08% del 316 estándar). Esto evita la precipitación de carburos de cromo durante la soldadura, que de otro modo provocaría decaimiento por soldadura: una zona junto a los cordones empobrecida en cromo y sensible a la corrosión. Use 316L siempre que las fijaciones se vayan a soldar o formen parte de ensambles soldados.",
-            "fr": "Le « L » indique une faible teneur en carbone (maximum 0,03 % contre 0,08 % pour le 316 standard). Cela évite la précipitation de carbures de chrome lors du soudage, qui provoquerait une corrosion intergranulaire — une zone près des souds appauvrie en chrome et sensible à la corrosion. On utilise le 316L dès que les fixations seront soudées ou intégrées à des ensembles soudés."
+            "fr": "Le « L » indique une faible teneur en carbone (maximum 0,03 % contre 0,08 % pour le 316 standard). Cela évite la précipitation de carbures de chrome lors du soudage, qui provoquerait une corrosion intergranulaire — une zone près des souds appauvrie en chrome et sensible à la corrosion. On utilise le 316L dès que les fixations seront soudées ou intégrées à des ensembles soudés.",
+            "pt": "O 'L' indica baixo teor de carbono, máximo 0,03% contra 0,08% no 316 padrão. Isso evita a precipitação de carboneto de cromo durante a solda, o que causaria 'decaimento de solda', uma zona adjacente à solda empobrecida em cromo e suscetível à corrosão. Usa-se 316L sempre que os fixadores forem soldados ou fizerem parte de conjuntos soldados. A escolha fica registrada na ficha do material."
           }
         },
         {
@@ -306,7 +310,8 @@
             "ru": "Есть ли альтернативы 316 с лучшей стойкостью к коррозии?",
             "ar": "هل توجد بدائل لـ316 بمقاومة تآكل أفضل؟",
             "es": "¿Hay alternativas al 316 con mejor resistencia a la corrosión?",
-            "fr": "Des alternatives au 316 à meilleure résistance ?"
+            "fr": "Des alternatives au 316 à meilleure résistance ?",
+            "pt": "Há alternativa ao 316 com melhor resistência à corrosão?"
           },
           "a": {
             "en": "Yes. Duplex stainless steel (e.g., 2205) offers roughly double the yield strength of 316 with superior chloride resistance, though at 2-3× the cost. Super-duplex (2507) and 904L are used in extremely aggressive marine and chemical environments. For most African applications, 316 provides the best balance of cost and performance.",
@@ -316,7 +321,8 @@
             "ru": "Да. Дуплексная нержавеющая сталь, например 2205, даёт примерно вдвое выше предел текучести, чем 316, и лучше сопротивляется хлоридам, но обходится заметно дороже. Супердуплекс 2507 и 904L применяют в крайне агрессивных морских и химических средах. Для большинства африканских задач 316 держит лучший баланс цены и свойств.",
             "ar": "نعم، فالفولاذ المزدوج مثل 2205 يوفر ضعفي حد إثبات 316 تقريبًا مع مقاومة أفضل للكلوريد، لكنه يكلف ضعفين إلى ثلاثة أضعاف. ويستخدم الفولاذ المزدوج الفائق 2507 و904L في البيئات البحرية والكيميائية الأكثر عدوانية. ومعظم التطبيقات الأفريقية، يوفر 316 أفضل توازن بين الكلفة والأداء.",
             "es": "Sí. El acero inoxidable dúplex (por ejemplo, 2205) ofrece aproximadamente el doble del límite elástico del 316 y mejor resistencia a cloruros, aunque a un coste 2-3 veces superior. El superdúplex (2507) y el 904L se usan en entornos marinos y químicos muy agresivos. Para la mayoría de aplicaciones africanas, el 316 da el mejor equilibrio entre coste y comportamiento.",
-            "fr": "Oui. L'inox duplex (type 2205) offre environ deux fois la limite d'élasticité du 316 et une résistance chlorure supérieure, à un coût 2 à 3 fois plus élevé. Le super-duplex (2507) et le 904L servent en milieux marin et chimique extrêmement agressifs. Pour la plupart des applications africaines, le 316 reste le meilleur équilibre coût-performance."
+            "fr": "Oui. L'inox duplex (type 2205) offre environ deux fois la limite d'élasticité du 316 et une résistance chlorure supérieure, à un coût 2 à 3 fois plus élevé. Le super-duplex (2507) et le 904L servent en milieux marin et chimique extrêmement agressifs. Pour la plupart des applications africaines, le 316 reste le meilleur équilibre coût-performance.",
+            "pt": "Sim. O inoxidável duplex, como o 2205, oferece quase o dobro da resistência ao escoamento do 316 com resistência superior ao cloreto, embora a um custo maior. O superduplex 2507 e o 904L são usados em ambientes marítimos e químicos extremamente agressivos. Na maioria das aplicações africanas, o 316 oferece o melhor equilíbrio entre custo e desempenho. A escolha segue a exposição química e a manutenção prevista."
           }
         }
       ],
