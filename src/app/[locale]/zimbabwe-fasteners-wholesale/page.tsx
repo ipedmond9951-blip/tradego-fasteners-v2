@@ -5,7 +5,7 @@ import { permanentRedirect } from 'next/navigation'
 export const metadata: Metadata = {
   title: 'Zimbabwe Fasteners Wholesale | Bulk Bolts & Screws Supplier | TradeGo',
   description: 'Professional Zimbabwe fastener wholesale supplier. Mill-level prices for drywall screws, hex bolts, IBR nails, self-drilling screws. Shipping to Harare, Bulawayo, Mutare. Made to SABS 1195 / DIN / ISO.',
-  keywords: ['Zimbabwe fasteners', 'Harare bolts', 'Zimbabwe wholesale screws', 'Bulawayo nuts', 'African construction fasteners', 'mining fasteners Zimbabwe'],
+  // 2026-11-26: 不再输出 meta keywords（Google 忽略，属噪音）
   // 2026-07-16 23:30 GSC 修复: 加 canonical + 10-lang hreflang
   alternates: {
     canonical: 'https://www.tradego-fasteners.com/en/zimbabwe-fasteners-wholesale/',
