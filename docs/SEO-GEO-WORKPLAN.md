@@ -202,6 +202,22 @@ python3 scripts/article-claim.py release <slug> <线名>
 | T25 合规红点 | seo-geo-main | 已完成（2 篇），存量 107 篇在册待排 | ghana 10 语种 + angola 10 语种改净；全库真违规去重 109 篇 | 清单 `docs/compliance-redspots-2026-1126.md`；见 §10.10.4 |
 | T26 样板块方案 + 试点 | seo-geo-main | 方案已落、试点 5 篇通过 | 5 篇命中族 23/20/19/19/19 → 各 4 | 全库族数 70→70（机制所致）；`docs/DUP-BLOCK-PLAN.md`；见 §10.10.5 |
 | T27 首页定位改「大字全球 + 小字区域」 | seo-geo-main | 已完成（待随构建上线） | 10 语种 H1 + titles + Organization.areaServed | 首屏大字不再宣布专供某市场；见 §10.11 |
+| T28 GSC 第二轮整改（P2-6/7/9/10/11 + F9/F10） | seo-geo-main | 已完成（待随构建上线） | 5 模板 10 语种 title/desc 收口、LocalBusiness 收窄、VideoObject 首页专属、删 Product/Offer/Review 残留、无前缀行业路径 308 | 15 笔单文件提交；见 §10.12 与 `docs/GSC-ROUND2-2026-1126.md` |
+
+### 10.12 GSC 第二轮整改（2026-11-26 深夜，T28）
+
+重扫 13 次只读请求（带基线对账）后修复，全部落本地单文件提交、未 push：
+
+- P2-6 元数据：FAQ / about / documents / 产品列表 / 产品详情 五个模板 10 语种 title ≤60、description 统一 `clampDescription(...,155)`；语种词与规格/单证词逐条保留（en 终值 FAQ 60/152、详情 45/145、列表 47/143、about 55/112、documents 59/134）。
+- P2-7 LocalBusiness 收窄：从 `layout.tsx` 全站注入中移除，只挂首页与联系页；`@id` 对齐 `#localbusiness`、`parentOrganization` 指 `#organization`；全站仅保留一份 Organization。
+- P2-9 VideoObject 收窄：删全站注入的 `VideoSchema.tsx`，新增首页专属 `HomeVideoSchema.tsx`，3 条与 `VideoSection` 播放器一一对应（`factory-tour`/`product-showcase`/`testimonial` 线上均 200），`uploadDate` 带 `+00:00`、`duration: PT8S`（ffprobe 8.04s）。
+- P2-11 Product/Offer 清理：删死组件 `OfferSchema.tsx`；产品列表不再批量输出 65 条 Product+Offer；详情页移除内联 Product/Offer（线上 36 条 `price=0.000` 属"标记与可见内容不一致"），保留 BreadcrumbList + FAQPage。
+- F9 无前缀行业路径改 308 到 `/en/industry/:slug*/`（只覆盖该前缀，不动 `proxy.ts` geo 逻辑，规则排在别名重定向之后）。
+- F10 zh/ja 两条短标题补到 20/23 字；P2-10 复查为 0 命中（全仓无 `aggregateRating/itemReviewed/"Review"`），不做虚构补字段。
+
+验证：`tsc --noEmit` 0 错、`check-claims.py` 通过、279 篇 schema 校验通过；dev 6 页 JSON-LD 顶层类型逐一核对（首页 Organization1+LocalBusiness1+Video3，FAQ/产品/文章页 Product=0、Video=0）。
+
+未做：P2-1 跨语种 FAQPage 归 B 线语种批；P2-8 分因处置等 GSC 明细刷新；F8 裸语言码保留不改。经验 203–206。
 
 ## 10. 变更登记
 

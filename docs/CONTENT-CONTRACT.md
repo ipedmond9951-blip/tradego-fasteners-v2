@@ -412,3 +412,23 @@ python3 scripts/content_gate.py --slug X # 单篇
 195. **首页定位写成「大字全球 + 小字区域」，别在首屏大字里宣布专供某个市场。** 现象：H1 原为 `Wholesale Fastener Manufacturer for Zimbabwe & Southern Africa`（52px 大字），与「主要做津巴布韦周边但不排斥全球客户」的经营事实不符，等于用最大字号把其他市场挡在门外。做法：H1 只讲品类 + 规格 + 全球履约（`… Manufacturer — SABS 1195 Spec, Ships Worldwide`），区域实体降级到 H1 下方 `text-[11px]` 小字 `Primary markets: Zimbabwe, South Africa, … — other regions welcome`，再让 `meta description`、`Organization.areaServed`（`Worldwide — primary focus: …`）、`/markets/[market]` 与 `/zimbabwe-fasteners-wholesale` 专项页承接地域词。判据：页面里对 Google/机器人可见的区域实体一个都不能少（小字、schema、专题页三处都算），但 `<h1>` 与标题标签不得出现「专供 / only for」。规则：H1 改十个语种要同步改 `layout.tsx` 的 titles 字典；每改一次跑 `check-claims.py`。
 
 196. **`check-claims.py` 把 `工厂直供 / factory direct` 判过界，写「全球发货」时别顺手带上工厂产权词。** 现象：本轮 H1 首版写 `工厂直供，全球发货` / `Mill-Direct`，被 `[factory] src/components/HeroSection.tsx:18` 拦下——站点是贸易商身份，工厂产权式表述站不住。改法：把「工厂直供」换成「按 SABS 1195 规格」这类可核实的生产口径，十个语种一起替换（es `precio de fábrica`、fr `prix usine`、ru `заводские цены` 同样算违规）。判据：`check-claims.py` 输出 `✅ 文案体检通过`；规则：H1/首屏文案定稿前必跑该脚本，别等提交后自查。
+
+197. **语言纯度必须归一化到存量中位数再设阈值，用绝对目标语占比会与存量水位脱节。** 判据：`check_latin` 初版 0.45 绝对阈值让新写自然译文普遍 0.17–0.42 全部误判；改成（停用词命中/词数）÷ BASE 全库存量中位（es .367 / fr .341 / de .284 / pt .308）、阈值 0.55 后才与存量可比。规则：换语种或重写存量前先跑全库中位基线，阈值贴水位而不是拍固定占比。
+
+198. **判据脚本的禁字表必须来自仓库既有映射表，凭手写字表会误判目标语自身常用字。** 判据：`check_ja` 初版手写简体表把国/前/会/号/対/無/処 等 30 余字当日文常用字误判；改取 `scripts/fix-ja-simplified.py` 的 MAP 源字形键后收窄。规则：新增禁用字类先在仓库找既有对照映射，没有映射再人工补并全库回扫存量。
+
+199. **幂等判据要落到"条目 × 语种 × 侧"粒度，整篇判已填会漏掉半填条目。** 判据：一篇里可能 q.ja 已有、a.ja 为空，或反之；整篇"是否有 ja"会把半填条目当成已写跳过。规则：逐条逐语种逐 q/a 两侧判——两侧都非空才跳，单侧空只补空侧，两侧空才都写。
+
+200. **并发多线同改一篇时，提交会带进他线新增键，核验要区分"整键剥离 identical"与"仅新增他键"。** 判据：父子提交剥离目标语键后语义相等 = 未改写非目标语；若他线在同一提交补了 es/fr 键，剥离目标语后仍可能不等，须单列"仅新增他键"而不是误判改写。规则：回报分两类计数，不把他线新增键记成本线改动。
+
+201. **源文层面的整段重复逃得过 6-gram 去重，必须补"整段逐字相同"检查。** 判据：14 篇共用同一条 en 答案、译后各语种段落在库内重复 14 次，但 14 < 15 的 6-gram 阈值抓不到；另加整段逐字相同比对才暴露。规则：去重判据除滑窗外，另跑同条目 a 文本归一化后全等计数，<15 次的整段重复也入登记。
+
+202. **每语种的模板尾句要准备多套轮换，否则新增条目会把 8-gram 重复数推高。** 判据：ja 本轮新增 144 处 ≥15 片段，集中在"確認してください/選定してください/用途ごとに仕様を分け"等礼貌收尾套话，答案基数 367→966、重复密度 21%→23%。规则：每语种备 ≥10 套合规收尾构式按篇轮换，批量写完必跑 `dedupe_*` 看新增片段数。
+
+203. **站内有真实视频时，视频标记要「收窄到观看页」而不是一刀切删除。** 判据：初判"站点无真实视频"是错的——首页 `VideoSection` 渲染 3 个真实 `<video>`，`/videos/{factory-tour,product-showcase,testimonial}.mp4` 线上 HEAD 均 200。正确形态＝首页保留 VideoObject 并与播放器一一对应（`uploadDate` 带时区偏移、`duration` 用 ffprobe 实测），其它页面零 VideoObject；旧组件错在全站错挂 + 假条目 + 裸日期。规则：删标记前先 curl 资源确认是否真实存在，别把"我没找到"当"不存在"。
+
+204. **没有可见价格就别留 Product 标记，`price=0` 比没有标记更糟。** 判据：产品详情页不展示任何价格（内容站禁止写报价），而线上 65 条 Product 中 36 条 `price` 为 0.000 —— 0 价当售价＝标记与可见内容不一致的直接证据；只删 `price` 保留 `offers` 会转报"offers 缺 price"，保留 `price` 又不可核实。做法：列表页与详情页整块移除 Product/Offer（组件保留待真实价格页复用），只留 BreadcrumbList + FAQPage。规则：结构化数据字段必须在页面上可被用户看见，虚构/补零都不是选项。
+
+205. **无前缀路径改 308 是拿"语种自适应"换"索引合并"，只覆盖出问题的那一段前缀。** 判据：`proxy.ts` 的 307 让爬虫侧留下 2,104 条"网页会自动重定向"；把 `/industry/:slug*/` 在 `next.config.ts` 固定永久指向 `/en/...`（x-default），合并信号明确，代价是非英语用户落到 en。规则：只改出问题的前缀（`/about`、`/contact` 仍走 geo 逻辑），新规则必须排在别名重定向之后并抽测别名目标未被吞。
+
+206. **多线并发时全量 `next build` 会被别人的半写 JSON 打断，别把它当代码缺陷。** 判据：报 `Unexpected end of JSON input` 落在 `getAllArticles` 的 `Array.map`，每次失败的 slug 都不同、`content/*.json` mtime 是刚刚 —— 属环境竞态。处置：改用 `npx tsc --noEmit` + 复用已有 dev 实例单页 curl 验证（Next 有单实例锁，别另起端口），等构建窗口再做全量。规则：失败特征"随机目标 + 刚改的 mtime"＝并发写，先查 `git status` 与他人提交，不要改业务代码去"修"。
