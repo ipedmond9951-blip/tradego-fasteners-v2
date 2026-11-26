@@ -140,6 +140,15 @@
 - **怎么验**：批次 B 上线后（若需改）：文章页 JSON-LD 类型清单不含 LocalBusiness；首页/联系页两类标记保留。若核对结论为保留现状：线上现状登记为「全站复用，符合预期」，不发版。
 - **依赖与风险**：先核对再决定是否改；不与 H5 的 Article author 改动混在同一字段。`需部署 批次：B`（仅当核对后确需收窄输出范围）。
 
+#### 执行记录（A 线技术，2026-11-26）
+
+- **改动文件/字段**：
+  - `src/app/[locale]/layout.tsx`：移除 `<LocalBusinessSchema>` 的 import 与渲染；`<OrganizationSchema>` 仍由布局全站注入一次。
+  - `src/app/[locale]/page.tsx`（首页）、`src/app/[locale]/contact/page.tsx`（联系页）：各挂载一份 `<LocalBusinessSchema locale={…} />`。
+  - `src/components/LocalBusinessSchema.tsx`：`@id` 由 `#business` 对齐为 `#localbusiness`；`parentOrganization` 仍指向 `#organization`，两实体 `@id` 各不相同、交叉引用保留。
+- **验证命令与结果**：`npx tsc --noEmit` 0 error；dev（3101）curl 取证——`/en/` Organization 1 / LocalBusiness 1；`/en/contact/` Organization 1 / LocalBusiness 1；`/en/faq/`、`/en/products/`、`/en/products/roofing-screws/`、文章页 LocalBusiness 均 0；抽样每页 Organization 恰 1 份，无同 `@type` 重复块。
+- **状态**：已改待发（批次 B）。commit `e5a1b0aca274776b5b3e1c7d7f54eca70ff06d4d`、`f7fbd763e473456b2c1327f8868a804e80b77389`、`c9acb8f95e4f3782a2dfba89a62c6ec2b6bd7950`、`9bcc6de720a058cc4b1196568683ec86b75c92b0`。
+
 ### P2-8 索引未收录分因处置（对应 D2）
 
 - **要改什么**：按八类原因分流，不逐个当 bug：
@@ -161,6 +170,21 @@
 - **怎么验**：批次 B 上线后，下一周期视频索引报告「视频不在观看页面上」条目下降；增强功能 Video 报告两条警告清零。预期：标记与内嵌视频一一对应。
 - **依赖与风险**：若站点本就没有内嵌视频，应评估移除页面内 VideoObject 标记，不留无对应视频的空标记。`需部署 批次：B`。
 
+#### 执行记录（A 线技术，2026-11-26）
+
+- **事实核对（收窄而非一刀切删除的依据）**：
+  - `src/app/[locale]/page.tsx` 渲染 `<VideoSection locale>`；`src/components/VideoSection.tsx` 第 244 行是真 `<video>` 标签，三个源 `/videos/factory-tour.mp4`、`/videos/product-showcase.mp4`、`/videos/testimonial.mp4`。
+  - 线上实测三条 mp4 均 **HTTP 200**（factory-tour 4.32MB），三张 poster `/images/videos/*-poster.webp` 均 **200**；除首页外其它页面无任何 `<video>`/iframe。
+  - 旧 `VideoSchema` 被 layout 全站每页注入，而播放器只在首页 → 这是 GSC「视频不在观看页面上」1,299 条的根因；旧组件另含裸日期 `uploadDate`（缺时区）、编造时长、单对象挂三视频。
+- **改动文件/字段**：
+  - `layout.tsx`：移除 `<VideoSchema>` 全站注入（保留）。
+  - 新增 `src/components/HomeVideoSchema.tsx`：**仅首页**输出 3 条 VideoObject，与播放器三条真实视频一一对应；`contentUrl`/`thumbnailUrl` 取站内已核实 200 的 URL；`duration` 由 ffprobe 实测 8.04s 归一 `PT8S`（旧编造时长弃用）；`uploadDate` 取本地文件创建时间戳 `2026-04-23T08:02:13+00:00`（mp4 内嵌 tags 无 creation_time，来源已在组件注释注明），ISO 8601 带时区偏移；publisher 指向 `#organization`。
+  - 删除 `src/components/VideoSchema.tsx`（旧全站注入假数据组件，src 内无引用）。
+  - `page.tsx`：挂载 `<HomeVideoSchema locale={locale} />`。
+- **验证命令与结果**：`npx tsc --noEmit` 0 error；`python3 scripts/check-claims.py` 通过。dev 取证——`/en/` VideoObject **3**，三条 `uploadDate` 均命中时区正则 `T.*[+-]\d\d:\d\d|Z`，`contentUrl` 三条线上 200；`/en/contact/`、`/en/faq/`、`/en/products/`、`/en/products/roofing-screws/`、文章页 VideoObject 均 **0**。
+- **剩余红点（非本线闭环）**：1,299 条「视频不在观看页面上」属视频缺少合格观看页/内容质量层面的问题；移除错挂标记只能消掉 Video 报告 204 条 uploadDate 警告，**视频索引本身仍要靠真实观看页与内容建设**，归运营/内容线后续跟进。
+- **状态**：已改待发（批次 B）。commit `f7fbd763e473456b2c1327f8868a804e80b77389`、`22ce1fb5d8e81a73bf1e17ff4e2e71b519978430`、`553949f3ec4cec628fd441a252f44c6d8d077022`。
+
 ### P2-10 评价摘要缺 `itemReviewed`（对应 D4 Review）
 
 - **要改什么**：Review schema 模板补 `itemReviewed`，指向被评价对象（对应文章/产品的 URL）；若现有标记没有真实评价依据，按「宁少而准」移除 Review 标记，不凑评价字段。
@@ -169,6 +193,12 @@
 - **怎么验**：批次 B 上线后，增强功能评价摘要严重问题条目 175 → 显著下降；Rich Results Test 单页校验不再报缺 itemReviewed。预期：175 条严重问题收敛。
 - **依赖与风险**：先确认评价内容真实存在且可见；无真实评价则移除标记，不虚构 review 主体。`需部署 批次：B`。
 
+#### 执行记录（A 线技术，2026-11-26）
+
+- **取证**：`grep -rn "aggregateRating|itemReviewed|\"Review\"" src/` 0 命中；`grep -rln` 扫 `content/` 0 命中；dev 抽样 `/en/`、`/en/contact/`、`/en/faq/`、`/en/products/`、`/en/products/roofing-screws/`、文章页 HTML 中 `Review`、`aggregateRating` 计数均 **0**。
+- **结论**：本地无任何 Review / aggregateRating 标记可删；GSC 175 条「未填写 itemReviewed」属历史构建残留或 Google 从页面文本推断，待批次 B 上线后下一轮增强功能报告复查是否自愈。**本条未改任何码**；若后续在源码或内容里发现真实命中，再按"宁少而准"删除该字段并登记。
+- **状态**：无代码改动；结论待上线后 GSC 复查。
+
 ### P2-11 产品摘要 / 商家信息严重问题（对应 D4 Product / Merchant）
 
 - **要改什么**：核对列表页条目级 Product 标记（样例落在 `/fr/` 产品列表页）：严重问题「应指定 offers/review/aggregateRating」8 项、「offers 中缺 price」8 项；商家信息「offers 中缺 price」8 项。B2B 站无公开单价时，不虚构 price/priceSpecification；按三选一规则补齐可证字段，或移除条目级 Product/Offer 标记。警告项（aggregateRating 15、review 15、hasMerchantReturnPolicy 8、shippingDetails 8、validFrom 8、shippingRate 7、category 无效 3）随严重问题修复后再复核是否冒出新警告。
@@ -176,6 +206,16 @@
 - **谁改**：`A 线技术`
 - **怎么验**：批次 B 上线后，产品摘要与商家信息严重问题条目下降；列表页标记字段与页面可见内容一致；RRT 校验通过。预期：两类报告严重问题清零或标记被合理移除。
 - **依赖与风险**：价格/物流政策字段无真实数据时保留缺失警告也优于虚构；修完语法错误后被隐藏的警告可能冒出，属正常现象，下一轮报告再核。`需部署 批次：B`。
+
+#### 执行记录（A 线技术，2026-11-26）
+
+- **移除依据（标记须与正文一致）**：产品列表/详情正文均不展示任何价格，站点口径禁写具体报价，也无真实库存。本地 `src/lib/products.ts` 实测 65 条产品：**36 条 `pricePerPiece = 0.000`**、29 条 0.006–3.200 USD——0 价当售价输出是"标记与正文不一致"的铁证。若只删 price 保留 offers，GSC 会报"offers 缺 price / 应指定 offers、review 或 aggregateRating"严重错误；保留 price 又与可见内容冲突。两条都错，故整块移除 Product/Merchant 标记，将来上线可见价格页再按 Merchant 规范重建。
+- **改动文件/字段**：
+  - `src/app/[locale]/products/page.tsx`：删除 `<ProductSchema>` import 与渲染（原列表页批量输出 65 条 Product+Offer）；`description` 包 `clampDescription(…, 155)`，消除 160 临界。
+  - `src/app/[locale]/products/[slug]/page.tsx`：删除内联 `productSchema` 整块（price/priceValidUntil/availability/priceSpecification/hasMerchantReturnPolicy/shippingDetails/seller/sku/mpn 等）及其 `<script>` 渲染；保留 BreadcrumbList 与 FAQPage；清理不再使用的 `googleCategory` import。标题模板改为 `${name} — ${suffix}`（去掉品牌尾缀，保留产品名规格词与语种限定词）。
+  - 删除死组件 `src/components/OfferSchema.tsx`（grep 全 src 无引用）。`src/components/ProductSchema.tsx` 移除引用后亦成未引用组件，暂留不删；`src/components/ArticleSchema.tsx` 同样无引用，按 H5 复核口径暂不删（可能属内容线在途），仅登记。
+- **验证命令与结果**：`npx tsc --noEmit` 0 error；`bash scripts/check-article-schema.sh` → ✅ All 279 articles schema valid；`python3 scripts/check-claims.py` 通过。dev 取证——`/en/products/` Product 命中 0、description 143 字符；`/en/products/roofing-screws/` Product 0、aggregateRating 0、VideoObject 0、title 45 字符；非英语种抽样 ru/pt/de/es/fr/zh 详情标题 13–55 字符，均 ≤60。
+- **状态**：已改待发（批次 B）。commit `80af13288e818bba1b0edbb91675275cf5a08336`、`5fc56252aa4b2fdc731e2cb85ff5858c67065874`、`751b5d4aa414f0c151ebe37f3c38feb6fb279f5e`。
 
 ---
 
@@ -196,6 +236,13 @@
 - **谁改**：`A 线技术`
 - **怎么验**：改后抽样无前缀入口到达规范 en 版本，状态码为 308、1 跳 200。
 - **依赖与风险**：仅在确认永久迁移后改状态码；语言回退不必强行 301/308。`需部署 批次：B`（可选）。
+
+#### 执行记录（A 线技术，2026-11-26）
+
+- **改动文件/字段**：`next.config.ts` 的 `redirects()` 末尾追加规则 `source: '/industry/:slug*/'` → `destination: '/en/industry/:slug*/'`，`permanent: true`（308）。**位置**：排在 `content/articles/*.json` 的 `redirectTo` 别名规则与既有 `/products/:slug/`、`/articles/:slug*`、扁平旧 slug 规则之后——Next redirects 首命中即停，宽泛通配前置会吞掉别名。未改 `src/proxy.ts` geo 中间件逻辑。
+- **取舍（有意为之）**：proxy 的 307 是按 IP 国家选语种（临时语义正确），但爬虫侧重复产生自动重定向；本规则只覆盖 `/industry/:slug*/`，把无前缀行业旧链永久归并到 en（x-default 语言）换取索引合并。代价：非英语国家用户访问无前缀旧链会落到 en 而非本国语种；其它无前缀路径仍走 proxy geo 逻辑，不在本规则内。
+- **验证命令与结果**：改动前 `curl -sI http://localhost:3101/industry/tanzania-ibr-roofing-fasteners-dar-es-salaam/` → **307**；改动后同 URL → **308**，`location: /en/industry/tanzania-ibr-roofing-fasteners-dar-es-salaam/`。别名未被吞：`/en/industry/self-tapping-screws-guide/` 仍 308 → `/en/industry/self-tapping-screws-complete-classification-guide/`；`/fr/industry/senegal-fastener-market-complete-guide/` 仍 308 → `/fr/industry/senegal-fastener-market/`；`/products/hex-nuts/` 仍 308 → `/en/products/`。
+- **状态**：已改待发（批次 B）。commit `d18c34b59f0e9b2bb50c9633301a39460bd97cd9`。
 
 ### OBS-3 个别标题过短（对应 F10）
 
@@ -218,6 +265,12 @@
 - **谁改**：`A 线技术`
 - **怎么验**：上线后抽样文章分享锚带可访问名称；锚文本提取为空但 aria-label 齐全属正常（图标链接）。
 - **依赖与风险**：可访问性观察项，非索引硬规则。`需部署 批次：B`（仅当核对发现内联块缺 label）。
+
+#### 执行记录（A 线技术，2026-11-26）
+
+- **取证**：`src/components/ShareButtons.tsx` 5 个分享控件均带非空 `aria-label`——LinkedIn（39 行）、Facebook（52 行）、Twitter/X（65 行）、WhatsApp（78 行）、Copy link（89 行，`<button>`）。文章页 `src/app/[locale]/industry/[slug]/page.tsx` 第 375 行与首页引用的都是该组件，无第二套内联分享块。dev 文章页 HTML 实测渲染出 `Share on LinkedIn/Facebook/Twitter/WhatsApp` 与 `Copy link` 五个可访问名。
+- **结论**：本地已满足；线上抽样缺 aria-label 是旧构建表现，待批次 B 上线后复核。**本条未改码**。
+- **状态**：本地已满足，待批次 B 上线 GSC/页面复核。
 
 ### OBS-5 效果报告转化偏弱（对应 D1）
 
