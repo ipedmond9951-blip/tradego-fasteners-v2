@@ -33,7 +33,7 @@
     {
       "id": "304-vs-316-comparison",
       "heading": {
-        "en": "304 vs 316 Stainless Steel: Key Differences",
+        "en": "When should I choose 316 over 304 stainless steel bolts?",
         "es": "Acero inoxidable 304 vs 316: Diferencias clave",
         "ar": "الفولاذ المقاوم للصدأ 304 مقابل 316: الاختلافات الرئيسية",
         "fr": "Acier inoxydable 304 vs 316 : Différences clés",
@@ -42,7 +42,7 @@
         "ja": "ステンレス鋼304と316：主な違い",
         "de": "Edelstahl 304 vs. 316: Wichtige Unterschiede",
         "hi": "304 बनाम 316 स्टेनलेस स्टील: मुख्य अंतर",
-        "zh": "304 与 316 不锈钢的关键区别"
+        "zh": "什么情况下应选用 316 而不是 304 不锈钢螺栓？"
       },
       "body": {
         "en": "<p>Choosing between two corrosion-resistant grades comes down to the alloying element in the composition, the surrounding moisture and chemical exposure, and how the assembled parts will be maintained over time. The notes below compare where each grade fits, what supply records to check, how to store and handle the parts, and which marks on the head should match the paperwork.</p><p>On a drawing, 304 and 316 differ by one alloying element. On a bolt, they differ by a marking, a property class and a set of supply decisions that the drawing usually does not mention. This page takes the second view: the difference as it appears on the part, on the certificate and on the purchase order.</p>\n<p>Stainless bolts do not carry the carbon steel property classes. Their strength is expressed as a material condition — the cold-worked condition being the normal supply for fasteners, with a higher cold-work level available for parts that need more strength. That is why a stainless bolt is not \"a stronger 8.8\": the number on the head describes a different thing, and a buyer who compares a stainless class with a carbon steel class has compared two languages.</p>\n<p>The marking tells the buyer which language they are reading. A stainless hex bolt should carry the material designation and the condition, and it should carry it in a way that survives passivation and does not disappear under a coating that was never needed in the first place. A batch that arrives marked ambiguously has already cost the receiver an inspection.</p>\n<p>Two bolt-specific consequences follow from the material. Stainless work-hardens, so the thread is usually rolled rather than cut on smaller sizes, and the head is formed rather than machined; both processes change how the part behaves under load compared with a carbon steel bolt of the same shape. And stainless is prone to galling, so the thread finish and the lubrication specified for installation are part of the product rather than a shop-floor preference.</p>\n\n<p>Bearing area is the bolt detail that most often ruins a stainless joint. Stainless assemblies frequently use thinner sections than steel ones, and a stainless head bearing directly on a thin plate crushes the plate rather than clamping it. A washer of the same material, with a diameter matched to the section, is part of a correct specification and not an accessory.</p>\n\n<p>The head shape itself is a supply choice worth confirming. Because a stainless head is formed rather than machined, the across-flats dimension and the marking position are part of the tooling, and a change of supplier can change both without changing the designation.</p>\n\n<p>A buyer who states those four attributes, plus the certificate, has given the mill everything it needs to quote the same part three times.</p><p>Related reading: <a href=\"/en/industry/stainless-steel-fasteners-304-316\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">stainless steel 304 and 316 fasteners</a> · <a href=\"/en/industry/galvanized-vs-stainless-steel-fasteners\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">galvanized vs stainless steel fasteners</a> · <a href=\"/en/industry/fastener-material-selection-guide\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener material selection</a></p>",
@@ -87,7 +87,7 @@
     {
       "id": "marine-applications",
       "heading": {
-        "en": "Marine Grade 316 Hex Bolts for Ship Building",
+        "en": "What should a shipyard actually require on a marine stainless bolt?",
         "es": "Pernos hexagonales grado marino 316 para construcción naval",
         "ar": "براغي سداسية من الفولاذ 316 المخصص للبحرية لبناء السفن",
         "fr": "Boulons hexagonaux 316 qualité marine pour la construction navale",
@@ -96,7 +96,7 @@
         "ja": "造船用マリングレード316六角ボルト",
         "de": "Seewasserfeste 316 Sechskantschrauben für den Schiffbau",
         "hi": "जहाज निर्माण के लिए मरीन ग्रेड 316 हेक्स बोल्ट",
-        "zh": "造船用 316 船用级六角螺栓"
+        "zh": "船厂采购船用不锈钢螺栓时应明确哪些要求？"
       },
       "body": {
         "en": "<p>Shipbuilding is the application where the grade question is asked most often and answered least carefully. Marine service means chlorides continuously, plus crevices where water sits, plus the galvanic couples that a steel hull and aluminium superstructure create. In that environment the molybdenum-bearing grade is the normal answer for exposed structure, and the lower-carbon variant of it is the normal answer where the assembly is welded or where the part sits in a position that will be heat-affected.</p>\n<p>The word \"marine grade\" is a marketing term, not a specification. Two bolts described that way can differ in carbon content, in surface condition and in marking. What a shipyard or a marine outfitter should actually require is the material designation, the condition, the manufacturing standard and a certificate that identifies the heat, and then a surface that has been passivated or pickled and passivated so it starts its life clean.</p>\n<p>Crevice corrosion, not general rust, is what fails marine stainless. It begins under a washer, between a bolt head and a plate, or where a bracket traps water against the structure. The grade raises the threshold, but the detail decides whether the threshold is reached: a drained joint with a sealed crevice survives where an open pocket fails.</p>\n<p>Galvanic risk is the other marine issue, and it is usually created by the structure rather than by the bolt. A stainless bolt in an aluminium fitting makes the aluminium the anode; a stainless bolt in a coated steel structure is generally acceptable until the coating is breached. The fastener choice should follow the couple rather than the other way around, and where the couple cannot be avoided the joint needs isolation.</p>\n\n<p>Where a vessel is under classification, the material certificate is a survey item rather than a commercial courtesy, and the surface condition after welding nearby is part of it: heat tint left around a weld on stainless is a corrosion site, and pickling or passivation after fabrication restores the layer that the heat destroyed.</p>\n\n<p>None of this makes stainless the automatic marine answer. Where the structure is carbon steel and well coated, a galvanised fastener of the right class is the more economical choice, and the stainless premium buys protection the structure itself does not have.</p>",
@@ -221,7 +221,7 @@
             "ja": "304 と 316 の六角ボルトの価格差はどの程度ですか？"
           },
           "a": {
-            "en": "316 stainless steel hex bolts typically cost 20-30% more than 304 grade. The premium is due to molybdenum content and superior corrosion resistance.",
+            "en": "316 stainless steel hex bolts typically carry a 20–30% premium over 304. The difference comes from composition: 316 adds 2–3% molybdenum and a higher nickel range, giving it excellent resistance to chlorides and marine exposure, while 304 has no molybdenum and limited chloride resistance. The premium is justified where the bolt sits in a coastal, marine or chemical environment, or in a crevice that traps moisture. For dry indoor and non-coastal outdoor use, 304 is the more economical choice. The order should state the grade, condition and certificate, since a vague material reference invites disputes.",
             "zh": "316 不锈钢六角螺栓含钼，耐点蚀和耐氯离子性能优于 304，材料成本通常也高于 304；两者的取舍主要看使用环境而不是单一材料报价。干燥室内一般结构用 304 即可，沿海、含盐雾、化工或潮湿缝隙部位选 316；选型先核对腐蚀等级和接触介质，再决定牌号。订货分别注明 304 或 316 钢种、规格和表面状态，随附材质证明，按环境匹配材料，避免高腐蚀节点误用 304 造成早期锈蚀。",
             "hi": "316 स्टेनलेस स्टील बोल्ट मोलिब्डेनम मिश्रण और बेहतर जंग प्रतिरोध के कारण 304 ग्रेड से ऊपरी श्रेणी में आता है। ठोस मूल्य ग्रेड, ऑर्डर मात्रा, स्पेसिफिकेशन और डिलीवरी शर्तों पर तय होता है; थोक मात्रा के हिसाब से दर अलग-अलग हो सकती है।",
             "ru": "Болты из нержавеющей стали 316 обычно дороже, чем 304: надбавка связана с содержанием молибдена и более высокой стойкостью к коррозии. Конкретная ставка зависит от объёма партии, размера и стандарта, окончательное условие фиксируется в коммерческом предложении после согласования спецификации.",
@@ -247,7 +247,7 @@
             "ja": "304 ステンレスボルトは屋外で使えますか？"
           },
           "a": {
-            "en": "304 bolts work outdoors in dry, non-coastal environments. For coastal, marine, or high-chloride environments, always use 316 or higher grade.",
+            "en": "304 bolts work outdoors in dry, non-coastal environments, where its resistance is rated good for indoor and outdoor service. Its chloride resistance is limited, so for coastal, marine, or high-chloride exposures the molybdenum-bearing 316 grade is safer, with a lower-carbon variant where the assembly is welded or heat-affected. Failure often starts as crevice corrosion under a washer, between head and plate, or where a bracket traps water. Keep the joint drained, use a same-material washer, require a passivated surface, and do not pack stainless parts against carbon steel on site.",
             "zh": "304 螺栓可用于干燥、非沿海的室外环境；沿海、海洋或高氯化物环境，应始终使用 316 或更高等级。选型核对距海距离、湿度和介质暴露，干燥内陆有遮挡部位可用 304，盐雾和高湿部位不用低牌号不锈钢。螺栓与配套螺母牌号一致，不同金属接触注意电偶隔离。订单中写明环境和牌号要求，供应商匹配材质；到货核对标记和批次，沿海项目定期检查表面锈蚀和点蚀，发现低牌号误用及时更换。",
             "hi": "304 बोल्ट शुष्क, गैर-तटीय वातावरण में बाहर चल सकते हैं। तटीय, समुद्री या ज़्यादा क्लोराइड वाली जगह पर हमेशा 316 या उससे ऊपर का ग्रेड इस्तेमाल करें।",
             "ru": "Сталь 304 работает на открытом воздухе в сухих, не прибрежных условиях. Для побережья, морской среды и участков с высоким содержанием хлорида применяют всегда 316 или более высокий класс; ошибка с маркой ведёт к ранней точечной коррозии.",
@@ -273,7 +273,7 @@
             "ja": "A2-70 と A4-80 は何を意味しますか？"
           },
           "a": {
-            "en": "A2-70 is the designation for 304 stainless steel with minimum tensile strength of 700 MPa. A4-80 is 316 stainless steel with 800 MPa minimum tensile strength.",
+            "en": "Stainless bolts do not carry carbon steel property classes such as 8.8; their strength is stated as a material condition. A2-70 refers to the 304-type austenitic grade with a minimum tensile strength of 700 MPa, and A4-80 to the molybdenum-bearing 316-type grade with a minimum of 800 MPa. The letter group identifies the material family, and the trailing number is the cold-worked strength condition. The head marking should match the mill certificate, which identifies the heat, material and condition; independent verification can use a positive material identification test on the delivered batch.",
             "zh": "A2-70 是 304 不锈钢的牌号标记，最小抗拉强度 700 兆帕；A4-80 是 316 不锈钢，最小抗拉强度 800 兆帕。标记由钢系和性能等级两部分组成，选型时据此核对材质和强度是否符合连接要求。配套螺母的等级与螺栓匹配，结构件保留质保记录。订单中写明牌号和等级，供应商按对应材料生产；到货核对头部或螺母标记与证书一致，强度和材质不匹配的批次不投入结构连接使用。",
             "hi": "A2-70 304 स्टेनलेस स्टील का पदनाम है, जिसकी न्यूनतम तनाव शक्ति 700 MPa है। A4-80 316 स्टेनलेस स्टील है, जिसकी न्यूनतम तनाव शक्ति 800 MPa है।",
             "ru": "A2-70 — обозначение нержавеющей стали 304 с минимальным временным сопротивлением разрыву 700 МПа. A4-80 относится к стали 316 с минимумом 800 МПа. Число после дефиса отражает прочность, а буква серии — семейство стали и состав легирования.",
