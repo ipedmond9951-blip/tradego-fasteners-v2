@@ -267,7 +267,8 @@
             "ru": "Нужна ли шайба и под головку, и под гайку?",
             "ar": "هل أضع غسالة تحت رأس البولت وتحت الصامولة معاً؟",
             "es": "¿Pongo arandela bajo la cabeza y bajo la tuerca?",
-            "pt": "Uso arruela sob a cabeça e sob a porca?"
+            "pt": "Uso arruela sob a cabeça e sob a porca?",
+            "fr": "Faut-il une rondelle sous la tête et sous l'écrou ?"
           },
           "a": {
             "en": "Yes, for structural connections and any joint where the bearing surface may compress. Standard practice is: flat washer under the bolt head; flat washer under the nut (on the far side). This distributes the load on both sides of the joint. For thin material connections, use fender washers (larger OD) on both sides for maximum bearing area.",
@@ -276,7 +277,8 @@
             "ru": "Да, для структурных узлов и любого соединения, где опорная поверхность может продавиться. Принятая схема: плоская шайба под головкой болта и плоская шайба под гайкой с обратной стороны, так усилие распределяется на обе стороны узла. При соединении тонких материалов шайбы увеличенного наружного диаметра (fender washers) ставят с обеих сторон, чтобы максимально расширить опорную площадь.",
             "ar": "نعم، في الوصلات الإنشائية وأي وصلة قد تنضغط فيها السطح الحامل. والممارسة المعتادة: غسالة مسطحة تحت رأس البولت، وغسالة مسطحة تحت الصامولة في الجهة البعيدة، فيتوزع الحمل على جانبي الوصلة. وفي وصلات المواد الرقيقة تستخدم غسالات الفندر ذات القطر الخارجي الأكبر على الجانبين معاً للحصول على أكبر مساحة تحميل ممكنة تمنع انغماس السطح تحت الضغط.",
             "es": "Sí, en uniones estructurales y en toda unión donde la superficie de apoyo pueda comprimirse. La práctica estándar es: arandela plana bajo la cabeza del perno y arandela plana bajo la tuerca, en el lado opuesto. Esto reparte la carga a ambos lados de la unión. En uniones de material fino, use arandelas anchas (mayor diámetro exterior) en ambos lados.",
-            "pt": "Sim, em ligações estruturais e em qualquer junta onde a superfície de apoio possa comprimir. A prática padrão é arruela lisa sob a cabeça e arruela lisa sob a porca, no lado oposto. Isso distribui a carga nos dois lados da junta. Em ligações de material fino, usam-se arruelas grandes, maior diâmetro externo, dos dois lados para maximizar a área de apoio."
+            "pt": "Sim, em ligações estruturais e em qualquer junta onde a superfície de apoio possa comprimir. A prática padrão é arruela lisa sob a cabeça e arruela lisa sob a porca, no lado oposto. Isso distribui a carga nos dois lados da junta. Em ligações de material fino, usam-se arruelas grandes, maior diâmetro externo, dos dois lados para maximizar a área de apoio.",
+            "fr": "Oui, pour les liaisons structurelles et tout joint où la surface d'appui peut se comprimer. La pratique standard : une rondelle plate sous la tête de boulon, et une rondelle plate sous l'écrou (côté opposé). Cela répartit la charge des deux côtés du joint. Pour les assemblages sur tôle fine, utilisez des rondelles fender (grand diamètre extérieur) des deux côtés pour une surface d'appui maximale."
           }
         },
         {
@@ -287,7 +289,8 @@
             "ru": "Когда применяют закалённые шайбы?",
             "ar": "متى أستخدم الغسالات المصلدة؟",
             "es": "¿Cuándo usar arandelas endurecidas?",
-            "pt": "Quando usar arruela endurecida?"
+            "pt": "Quando usar arruela endurecida?",
+            "fr": "Quand utiliser des rondelles trempées ?"
           },
           "a": {
             "en": "Use hardened washers (through-hardened to HRC 38-45) in high-strength structural connections (Grade 8.8, 10.9, 12.9 bolts). Standard (unhardened) washers can deform (embed) under the high contact pressure from high-strength bolts, reducing the effective clamp load. Hardened washers are also required when the bolt bearing surface is smaller than the washer ID — the hardened washer prevents the bolt from 'punching through' the washer under load.",
@@ -296,7 +299,8 @@
             "ru": "Закалённые шайбы с твёрдостью по всему сечению HRC 38-45 ставят в высокопрочных структурных соединениях с болтами классов 8.8, 10.9 и 12.9. Обычная незакалённая шайба под высоким контактным давлением вдавливается и теряет часть прижимного усилия. Закалённая шайба также нужна, когда опорная поверхность болта меньше внутреннего отверстия шайбы: она не даёт болту продавить шайбу под нагрузкой.",
             "ar": "استخدم الغسالات المصلدة، المصلدة كلياً حتى HRC 38-45، في الوصلات الإنشائية عالية القوة مع براغي درجة 8.8 و10.9 و12.9. فالغسالات العادية غير المصلدة قد تتشوه وتنغرس تحت ضغط التلامس العالي للبراغي عالية القوة، ما يقلل حمل التثبيت الفعال. وتلزم الغسالة المصلدة أيضاً عندما يكون سطح تحمل البولت أصغر من القطر الداخلي للغسالة؛ فهي تمنع اختراق البولت للغسالة تحت الحمل وتحافظ على توزيع الضغط.",
             "es": "Use arandelas endurecidas (temple total HRC 38-45) en uniones estructurales de alta resistencia (pernos 8.8, 10.9, 12.9). Las arandelas normales, sin endurecer, pueden deformarse o embeberse bajo la alta presión de contacto de pernos de alta resistencia, reduciendo el apriete útil. También hacen falta cuando la superficie de apoyo del perno es menor que el agujero de la arandela, para que el perno no traspase la arandela bajo carga.",
-            "pt": "Usam-se arruelas endurecidas, têmpera total HRC 38-45, em ligações estruturais de alta resistência com parafusos 8.8, 10.9 e 12.9. As arruelas padrão, não endurecidas, podem deformar ou embutir sob a alta pressão de contato dos parafusos de alta resistência, reduzindo a carga de aperto efetiva. Também são exigidas quando a superfície de apoio é menor que o furo interno da arruela, para evitar rompimento sob carga."
+            "pt": "Usam-se arruelas endurecidas, têmpera total HRC 38-45, em ligações estruturais de alta resistência com parafusos 8.8, 10.9 e 12.9. As arruelas padrão, não endurecidas, podem deformar ou embutir sob a alta pressão de contato dos parafusos de alta resistência, reduzindo a carga de aperto efetiva. Também são exigidas quando a superfície de apoio é menor que o furo interno da arruela, para evitar rompimento sob carga.",
+            "fr": "Utilisez des rondelles trempées (trempées à cœur HRC 38-45) dans les liaisons haute résistance (boulons 8.8, 10.9, 12.9). Les rondelles standard non trempées peuvent se déformer sous la forte pression de contact des boulons haute résistance, réduisant le serrage effectif. Les rondelles trempées sont aussi requises quand la surface d'appui est plus petite que l'alésage : elles empêchent le boulon de poinçonner sous charge."
           }
         },
         {
@@ -307,7 +311,8 @@
             "ru": "Шайбы-кузовки и ремонтные шайбы — это одно и то же?",
             "ar": "هل غسالات الفندر وغسالات الإصلاح منتج واحد؟",
             "es": "¿Son lo mismo arandela ancha y arandela de reparación?",
-            "pt": "Arruela fender e arruela de reparo são a mesma coisa?"
+            "pt": "Arruela fender e arruela de reparo são a mesma coisa?",
+            "fr": "Rondelles fender et rondelles de réparation sont-elles les mêmes ?"
           },
           "a": {
             "en": "Yes, fender washers and repair washers are the same product — washers with an oversized outer diameter relative to the inner hole. They are called 'fender washers' because they were originally used to repair automotive fenders (thin sheet metal). In construction, they are essential for any thin-sheet or soft-material connection to prevent pull-through of the fastener head or nut.",
@@ -316,7 +321,8 @@
             "ru": "Да, fender washer и repair washer — один и тот же вид: шайба с увеличенным относительно внутреннего отверстия наружным диаметром. Название fender пошло от ремонта автомобильных крыльев, то есть тонкого листового металла. В строительстве такие шайбы незаменимы в соединениях по тонкому листу или мягкому материалу: они не дают головке болта или гайке продавить материал насквозь.",
             "ar": "نعم، غسالات الفندر وغسالات الإصلاح منتج واحد: غسالة بقطر خارجي مكبر نسبة إلى الثقب الداخلي. سُميت بغسالات الفندر لأنها استخدمت أصلاً في إصلاح رفارف السيارات من الصاج الرقيق. وفي البناء، لا غنى عنها في أي وصلة من الصاج الرقيق أو المواد الرقيقة لمنع سحب رأس المسمار أو الصامولة عبر السطح وتثبيت الوصلة دون نزف أو هبوط.",
             "es": "Sí, la arandela ancha y la de reparación son el mismo producto: arandelas con diámetro exterior sobredimensionado respecto al agujero interior. Se llaman así porque al principio se usaban para reparar guardabarros de automóvil, chapa fina. En construcción son imprescindibles en uniones de chapa fina o material blando, para evitar que la cabeza o la tuerca atraviesen la pieza.",
-            "pt": "Sim, fender e repair washers são o mesmo produto: arruela com diâmetro externo sobredimensionado em relação ao furo interno. Chamam-se fender por terem sido usadas originalmente no reparo de para-lamas automotivos, chapa metálica fina. Na construção, são essenciais em ligações de chapa fina ou material macio, para evitar o arrancamento da cabeça ou da porca."
+            "pt": "Sim, fender e repair washers são o mesmo produto: arruela com diâmetro externo sobredimensionado em relação ao furo interno. Chamam-se fender por terem sido usadas originalmente no reparo de para-lamas automotivos, chapa metálica fina. Na construção, são essenciais em ligações de chapa fina ou material macio, para evitar o arrancamento da cabeça ou da porca.",
+            "fr": "Oui, les rondelles fender et les rondelles de réparation sont le même produit : des rondelles dont le diamètre extérieur est surdimensionné par rapport au trou intérieur. On les appelle fender parce qu'elles servaient à l'origine à réparer les ailes automobiles (tôle fine). En construction, elles sont essentielles pour toute liaison sur tôle fine ou matériau tendre, afin d'éviter le passage à travers de la tête ou de l'écrou."
           }
         }
       ],
