@@ -270,7 +270,8 @@
             "es": "¿Cómo emparejo la clase de tuerca con la del perno?",
             "fr": "Comment associer la classe de l'écrou à celle du boulon ?",
             "pt": "Como casar a classe da porca com a do parafuso?",
-            "de": "Wie gleicht man die Mutternklasse an die Bolzenklasse an?"
+            "de": "Wie gleicht man die Mutternklasse an die Bolzenklasse an?",
+            "ja": "ナットをボルトと合わせる要点は何ですか？"
           },
           "a": {
             "en": "Match property class to the bolt: an 8.8 bolt takes a class 8 nut, a 10.9 bolt takes class 10. A weaker nut strips first and destroys the joint. Also confirm thread tolerance (6H nut on 6g bolt) so the pair assembles without excessive play.",
@@ -281,7 +282,8 @@
             "es": "Iguale la clase de propiedad a la del perno: un perno 8.8 lleva tuerca clase 8, un perno 10.9 lleva tuerca clase 10. Una tuerca más débil pela primero y destruye la unión. Confirme además la tolerancia de rosca (tuerca 6H sobre perno 6g) para que la pareja arme sin juego excesivo. El par debe quedar equilibrado en resistencia.",
             "fr": "Faites correspondre la classe de propriété au boulon : un boulon 8.8 prend un écrou classe 8, un boulon 10.9 prend un écrou classe 10. Un écrou plus faible arrache le premier et détruit le joint. Confirmez aussi la tolérance de filetage (écrou 6H sur boulon 6G) pour que la paire s'assemble sans jeu excessif. L'écrou est l'élément le plus faible de la paire. La classe se contrôle sur le marquage et le certificat.",
             "pt": "A classe de propriedade casa com a do parafuso: parafuso 8.8 leva porca classe 8, parafuso 10.9 leva classe 10. Uma porca mais fraca escorrega primeiro e destrói a junta. Confere-se também a tolerância de rosca, porca 6H em parafuso 6g, para que o par monte sem folga excessiva. A compatibilidade é verificada na amostra e no certificado do lote.",
-            "de": "Passen Sie die Klasse der Eigentumsfestigkeit an den Bolzen an: ein 8.8-Bolzen nimmt eine Mutter Klasse 8, ein 10.9-Bolzen eine Mutter Klasse 10. Eine schwächere Mutter reißt zuerst und zerstört das Gelenk. Bestätigen Sie auch die Gewindetoleranz (Mutter 6H auf Bolzen 6G), damit das Paar ohne übermäßiges Spiel zusammengebaut wird. Die Mutter ist das schwächste Glied der Paarung. Die Klasse prüft man am Merkmal und am Zeugnis."
+            "de": "Passen Sie die Klasse der Eigentumsfestigkeit an den Bolzen an: ein 8.8-Bolzen nimmt eine Mutter Klasse 8, ein 10.9-Bolzen eine Mutter Klasse 10. Eine schwächere Mutter reißt zuerst und zerstört das Gelenk. Bestätigen Sie auch die Gewindetoleranz (Mutter 6H auf Bolzen 6G), damit das Paar ohne übermäßiges Spiel zusammengebaut wird. Die Mutter ist das schwächste Glied der Paarung. Die Klasse prüft man am Merkmal und am Zeugnis.",
+            "ja": "等級、ねじ規格、呼び径を一致させます。高強度ボルトにはそれに見合う強度のナットを組み合わせ、ねじのピッチも揃えてください。接合の荷重を確認し、ボルト側の仕様に合わせてナットを選びます。環境と相手材を確認し、記録を残して手順を守ることで、後の不具合を減らせます。"
           }
         },
         {
@@ -294,7 +296,8 @@
             "es": "¿Cuándo puedo usar tuercas delgadas o pesadas?",
             "fr": "Quand utiliser des écrous hexagonaux fins ou lourds ?",
             "pt": "Quando usar porca fina ou pesada sextavada?",
-            "de": "Wann kann man dünne oder schwere Sechskantmuttern verwenden?"
+            "de": "Wann kann man dünne oder schwere Sechskantmuttern verwenden?",
+            "ja": "ナットの高さはどう選びますか？"
           },
           "a": {
             "en": "Thin nuts are only for jam nuts and low-load locking, not for primary connections. Heavy hex nuts (ASTM A563 style) suit structural bolting where the nut must develop the full bolt strength. Standard hex nuts cover general machinery and construction.",
@@ -305,7 +308,8 @@
             "es": "Las tuercas delgadas son solo para contratuercas y bloqueo de baja carga, no para uniones primarias. Las tuercas pesadas (estilo ASTM A563) van en bulonado estructural donde la tuerca debe desarrollar toda la resistencia del perno. Las tuercas estándar cubren maquinaria general y construcción. El espesor de la tuerca se elige según el papel de la unión.",
             "fr": "Les écrous fins servent seulement d'écrous chapeau et de blocage à faible charge, non de liaison primaire. Les écrous hexagonaux lourds (type ASTM A563) conviennent au boulonnage structurel là où l'écrou doit développer la pleine force du boulon. Les écrous standards couvrent la machine générale et la construction. L'épaisseur de l'écrou suit la charge reprise. Un modèle fin ne doit pas porter une liaison porteuse.",
             "pt": "As porcas finas servem apenas como contraporca e trava de baixa carga, não para conexões primárias. As porcas pesadas sextavadas, estilo ASTM A563, servem à parafusaria estrutural onde a porca deve desenvolver a resistência total do parafuso. As porcas sextavadas padrão cobrem máquina geral e construção. A escolha da porca segue a carga e a função da junta.",
-            "de": "Dünne Muttern dienen nur als Kontermutter und zur gering belasteten Sicherung, nicht für primäre Verbindungen. Schwere Sechskantmuttern (Typ ASTM A563) eignen sich für das Strukturbolzen, wo die Mutter die volle Bolzenkraft entwickeln muss. Standard-Sechskantmuttern decken die allgemeine Maschine und den Bau ab. Die Dicke der Mutter folgt der aufgenommenen Last. Ein dünnes Modell darf keine tragende Verbindung tragen."
+            "de": "Dünne Muttern dienen nur als Kontermutter und zur gering belasteten Sicherung, nicht für primäre Verbindungen. Schwere Sechskantmuttern (Typ ASTM A563) eignen sich für das Strukturbolzen, wo die Mutter die volle Bolzenkraft entwickeln muss. Standard-Sechskantmuttern decken die allgemeine Maschine und den Bau ab. Die Dicke der Mutter folgt der aufgenommenen Last. Ein dünnes Modell darf keine tragende Verbindung tragen.",
+            "ja": "標準ナットと厚手ナットがあり、振動や繰返し荷重のある箇所では厚手を使います。薄手ナットは軽量用途に限ります。荷重と緩みの条件を確認し、必要な高さと相手ボルトのかかり代を確保してください。書類と現物を照合し、納品までの工程を整えておくと、現場の手間を抑えられます。"
           }
         },
         {
@@ -318,7 +322,8 @@
             "es": "¿Qué acabado de tuerca funciona en climas africanos?",
             "fr": "Quelle finition d'écrou convient aux climats africains ?",
             "pt": "Que acabamento de porca funciona nos climas africanos?",
-            "de": "Welche Mutternfinishs passt zu afrikanischen Klimaten?"
+            "de": "Welche Mutternfinishs passt zu afrikanischen Klimaten?",
+            "ja": "緩み止めナットにはどんな種類がありますか？"
           },
           "a": {
             "en": "Hot-dip galvanized for outdoor and coastal, with nuts tapped oversize after galvanizing so they still fit. Zinc-flake coating for 10.9 assemblies to avoid embrittlement. Stainless for marine and chemical. Electro-zinc is only for dry interior work.",
@@ -329,7 +334,8 @@
             "es": "Galvanizado en caliente para exterior y costa, con tuercas machacadas sobredimensionadas tras el galvanizado para que todavía encajen. Recubrimiento de escamas de zinc para conjuntos 10.9 y evitar fragilización. Inoxidable para marino y químico. El cincado electroquímico es solo para trabajo interior seco. El ambiente define el acabado de la tuerca.",
             "fr": "Galvanisé à chaud pour l'extérieur et le côtier, avec écrous taraudés surdimensionnés après galvanisation pour encore s'assembler. Revêtement zinc-flocons pour les assemblages 10.9 afin d'éviter la fragilisation. Inox pour le marin et le chimique. Le zinc électrolytique ne sert qu'au travail intérieur sec. La protection suit l'exposition du site. Vérifiez l'ajustement après traitement de surface.",
             "pt": "Galvanizada a quente para externo e costeiro, com porcas rosqueadas sobredimensionadas após a galvanização para que ainda caibam. Flake de zinco para conjuntos 10.9, para evitar embrittlement. Inoxidável para marítimo e químico. Eletrozincagem serve apenas a trabalho interno seco. O acabamento é escolhido pela exposição e conferido na inspeção de recebimento.",
-            "de": "Feuerverzinkt für Außen- und Küstenbereich, mit nach der Verzinkung übermaßig gebohrten Muttern, damit sie noch passen. Zinkflocken-Beschichtung für 10.9-Verschraubungen zur Vermeidung der Versprödung. Edelstahl für Marine und Chemie. Elektrozink nur für trockene Innenarbeiten. Der Schutz folgt der Einwirkung am Standort. Prüfen Sie den Sitz nach der Oberflächenbehandlung."
+            "de": "Feuerverzinkt für Außen- und Küstenbereich, mit nach der Verzinkung übermaßig gebohrten Muttern, damit sie noch passen. Zinkflocken-Beschichtung für 10.9-Verschraubungen zur Vermeidung der Versprödung. Edelstahl für Marine und Chemie. Elektrozink nur für trockene Innenarbeiten. Der Schutz folgt der Einwirkung am Standort. Prüfen Sie den Sitz nach der Oberflächenbehandlung.",
+            "ja": "ナイロン挿入型、金属拡張型、フリクション式、フランジ付き、ばね座金併用の型式があります。温度と振動の条件に合う種類を選び、繰返し再使用の可否も確認してください。環境と用途に合った緩み止めを定めます。用途ごとに仕様を分け、必要な品質を満たす範囲で選定してください。"
           }
         }
       ],
