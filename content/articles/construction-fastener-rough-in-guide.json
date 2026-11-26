@@ -247,14 +247,16 @@
       "zh": "结构钢阶段要锁定什么？",
       "hi": "संरचनात्मक स्टील चरण में क्या पक्का कर लेना चाहिए?",
       "ru": "Что зафиксировать ещё на стадии стальных конструкций?",
-      "ar": "ما الذي أثبته في مرحلة الفولاذ الإنشائي؟"
+      "ar": "ما الذي أثبته في مرحلة الفولاذ الإنشائي؟",
+      "es": "¿Qué debo fijar en la etapa de acero estructural?"
      },
      "a": {
       "en": "Fix bolt grade, coating and size per connection, and require mill test certificates with each heat. Record the torque and the wrench used for every structural node, because auditors check torque records before they check the bolts.",
       "zh": "逐节点锁定螺栓等级、镀层与规格，并要求随批材质证明。每个结构节点记录扭矩值和所用扳手——审核先看扭矩记录，再查螺栓本身。",
       "hi": "हर कनेक्शन के लिए बोल्ट ग्रेड, कोटिंग और साइज़ पहले ही तय करें, और प्रत्येक हीट के साथ मिल टेस्ट सर्टिफिकेट माँगें। हर संरचनात्मक नोड पर टॉर्क और इस्तेमाल की गई रिंच दर्ज करें—लेखा-परीक्षण करने वाले बोल्ट देखने से पहले टॉर्क रिकॉर्ड जाँचते हैं।",
       "ru": "По каждому соединению фиксируют класс болта, покрытие и размер, а к каждой плавке требуют заводские протоколы испытаний. Для каждого конструктивного узла записывают момент затяжки и ключ, которым он выполнен: аудиторы в первую очередь проверяют записи момента, а не сами болты.",
-      "ar": "حدّد درجة البرغي والطلاء والمقاس لكل وصلة، واطلب شهادات اختبار المصنع مع كل دفعة سباكة. وسجل العزم ومفتاح الربط المستخدم لكل عقدة إنشائية، لأن المدققين يفحصون سجلات العزم قبل فحص البراغي نفسها."
+      "ar": "حدّد درجة البرغي والطلاء والمقاس لكل وصلة، واطلب شهادات اختبار المصنع مع كل دفعة سباكة. وسجل العزم ومفتاح الربط المستخدم لكل عقدة إنشائية، لأن المدققين يفحصون سجلات العزم قبل فحص البراغي نفسها.",
+      "es": "Fije el grado del perno, el recubrimiento y el tamaño por unión, y exija certificados de ensayo de fábrica con cada colada. Registre el par y la llave usados en cada nudo estructural, porque los auditores revisan los registros de par antes que los pernos. El apunte queda documentado para la inspección de la obra."
      }
     },
     {
@@ -263,14 +265,16 @@
       "zh": "屋面与围护阶段该备哪些紧固件？",
       "hi": "रूफिंग और क्लैडिंग चरण में कौन से फास्टनर लगते हैं?",
       "ru": "Какой крепёж ставят на фазе кровли и облицовки?",
-      "ar": "أي مثبتات تنتمي إلى مرحلة الأسقف والكسوة؟"
+      "ar": "أي مثبتات تنتمي إلى مرحلة الأسقف والكسوة؟",
+      "es": "¿Qué fijaciones van en la fase de cubierta y revestimiento?"
      },
      "a": {
       "en": "Self-drilling screws with EPDM washers, coating at least AZ150 for coastal sites, plus stitch screws and bracing. Check screw length against purlin thickness: too short means no thread engagement, too long means the point pierces the profile and rusts.",
       "zh": "带 EPDM 垫圈的自钻螺钉，沿海项目镀层至少 AZ150，另配拉结钉与支撑件。螺钉长度要对檩条厚度核算：太短没有有效螺纹，太长钉尖穿透型材成为锈源。",
       "hi": "EPDM वॉशर वाले सेल्फ-ड्रिलिंग स्क्रू, तटीय साइटों के लिए कम से कम AZ150 कोटिंग, साथ में स्टिच स्क्रू और ब्रेसिंग इस्तेमाल होते हैं। पर्लिन की मोटाई से स्क्रू की लंबाई मिलाएँ: बहुत छोटा धागा नहीं पकड़ेगा, बहुत लंबा पॉइंट प्रोफाइल छेद कर जंग पकड़ लेता है।",
       "ru": "Сверлящие саморезы с шайбами EPDM, для прибрежных площадок покрытие не ниже AZ150, плюс пристрелочные саморезы и крепление раскоса. Длину самореза сверяют по толщине прогона: слишком короткая даёт неполное вхождение резьбы, слишком длинная — наконечник протыкает профиль и ржавеет.",
-      "ar": "براغي ذاتية الحفر مع غسالات EPDM، وطلاء AZ150 على الأقل للمواقع الساحلية، إضافة إلى براغي التثبيت المؤقت والدعامات. افحص طول البرغي مقابل سماكة المدادة: فالقصر يعني عدم تشابك الخيط، والطول الزائد يعني اختراق النقطة للملف وتآكله."
+      "ar": "براغي ذاتية الحفر مع غسالات EPDM، وطلاء AZ150 على الأقل للمواقع الساحلية، إضافة إلى براغي التثبيت المؤقت والدعامات. افحص طول البرغي مقابل سماكة المدادة: فالقصر يعني عدم تشابك الخيط، والطول الزائد يعني اختراق النقطة للملف وتآكله.",
+      "es": "Tornillos autoperforantes con arandela EPDM, recubrimiento al menos AZ150 en sitios costeros, más tornillos de amarre y arriostramiento. Compruebe la longitud del tornillo contra el grosor del purlín: demasiado corto no engancha rosca, demasiado largo hace que la punta atraviese el perfil y se oxide. La longitud se ajusta al espesor de la pieza."
      }
     },
     {
@@ -279,14 +283,16 @@
       "zh": "投标阶段怎么估算紧固件用量？",
       "hi": "टेंडर चरण में फास्टनर मात्रा का अनुमान कैसे लगाएँ?",
       "ru": "Как оценить количество крепежа на стадии тендера?",
-      "ar": "كيف أقدر كميات المثبتات في مرحلة المناقصة؟"
+      "ar": "كيف أقدر كميات المثبتات في مرحلة المناقصة؟",
+      "es": "¿Cómo estimar las cantidades de fijaciones en licitación?"
      },
      "a": {
       "en": "Count nodes from the drawings rather than by floor area: bolts per connection, screws per square metre of roofing and per linear metre of partition. Add 3-5% for site loss and damage, and separate structural items from consumables so the quote stays readable.",
       "zh": "按图纸节点统计，而不是按建筑面积拍数：每个连接点的螺栓数、屋面每平方米钉数、隔墙每延米的螺钉数。加 3–5% 现场损耗，并把结构件与耗材分列，报价才清楚。",
       "hi": "फर्श क्षेत्र से नहीं, ड्राइंग से नोड गिनें: हर कनेक्शन में बोल्ट, रूफिंग के प्रति वर्ग मीटर और विभाजन के प्रति लीनियर मीटर स्क्रू। साइट पर होने वाले नुकसान और टूट-फूट के लिए 3–5% जोड़ें। संरचनात्मक मदों को खपत वाली मदों से अलग रखें ताकि कोटेशन स्पष्ट बना रहे।",
       "ru": "Считают узлы по чертежам, а не по площади этажа: болтов на соединение, саморезов на квадратный метр кровли и на погонный метр перегородки. На потери и бой на площадке добавляют 3–5%, несущие позиции отделяют от расходных, чтобы смета оставалась читаемой и корректировалась вместе с проектом.",
-      "ar": "عدّ العقد من الرسومات بدل المساحة الأرضية: براغي لكل وصلة، وبراغي لكل متر مربع من السقف ولكل متر طولي من الفواصل. وأضف 3–5% للفقد والتلف في الموقع، وافصل الأصناف الإنشائية عن المستهلكات ليبقى العرض واضحًا."
+      "ar": "عدّ العقد من الرسومات بدل المساحة الأرضية: براغي لكل وصلة، وبراغي لكل متر مربع من السقف ولكل متر طولي من الفواصل. وأضف 3–5% للفقد والتلف في الموقع، وافصل الأصناف الإنشائية عن المستهلكات ليبقى العرض واضحًا.",
+      "es": "Cuente los nudos del plano en vez de por superficie de planta: pernos por unión, tornillos por metro cuadrado de cubierta y por metro lineal de tabique. Sume un 3-5% para pérdidas y daños en obra, y separe los artículos estructurales de los consumibles para que la cotización sea clara. El conteo por dibujo da una base más fiable que el área."
      }
     }
    ],
