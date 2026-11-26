@@ -418,7 +418,8 @@
             "pt": "Qual grau para flange criogênica de tanque de GNL?",
             "fr": "Quelle nuance pour bride cryogénique de réservoir GNL ?",
             "ar": "ما الدرجة المناسبة لفلنك الخزان عند درجات التجمد المنخفضة؟",
-            "ru": "Какой класс крепежа годится для основного фланца резервуара СПГ при −162 °C?"
+            "ru": "Какой класс крепежа годится для основного фланца резервуара СПГ при −162 °C?",
+            "zh": "-162°C 液化气储罐主法兰用什么等级？"
           },
           "a": {
             "en": "A: ASTM A320 Grade L43 (austenitic stainless steel, 304/316 chemistry) per ASME B16.5. Do not use A193 B7, A320 L7, or A320 L7M at this temperature — L7/L7M are rated to -101°C and require specific stress-relief protocols for the lower end; L43 is the only common bolting grade that handles true LNG service without special dispensation.",
@@ -426,7 +427,8 @@
             "pt": "Numa flange primária de tanque de GNL a −162 °C, o grau escolhido é a ASTM A320 Grau L43 em inox austenítico 304/316, conforme ASME B16.5. Descarte A193 B7, A320 L7 e L7M: L7/L7M param em −101 °C e pedem protocolos de tratamento específicos para as faixas inferiores. L43 é a referência usual única que cobre o serviço de GNL sem autorização excepcional. O certificado deve mostrar a composição química em percentagens e o ensaio de impacto Charpy no frio, e o grau se cruza com a especificação de junta indicada no desenho da flange.",
             "fr": "Sur une bride primaire de réservoir GNL à −162 °C, la nuance retenue est l'ASTM A320 Grade L43 en inox austénitique 304/316, conforme ASME B16.5. Écartez A193 B7, A320 L7 et L7M : L7/L7M s'arrêtent à −101 °C et demandent des protocoles de traitement spécifiques pour les extrémités basses. L43 est la référence habituelle unique qui couvre le service GNL sans autorisation exceptionnelle. Le certificat doit montrer la composition chimique en pourcentages et l'essai d'impact Charpy au froid, et la nuance se recoupe avec la spécification de joint indiquée sur le dessin de bride.",
             "ar": "في الفلنجة الأساسية لخزان الغاز المسال عند −162 °C، تعتمد فئة ASTM A320 Grade L43 بفولاذ أوستنيتي مقاوم للصدأ 304/316 وفق ASME B16.5. تجنب A193 B7 وA320 L7 وL7M؛ فدرجة L7/L7M تنتهي عند -101°C وتحتاج إجراءات إجهاد خاصة للطرف الأدنى. L43 هو المرجع الشائع الوحيد الذي يلائم تشغيل الغاز المسال دون موافقة استثنائية. ويجب أن تبيّن الشهادة التركيب الكيميائي بالنسب المئوية واختبار صدم Charpy البارد، وتُقارن الفئة مع مواصفة الوصلة المذكورة في رسم الفلنجة. وتُسجل درجة الحرارة المصممة على بند الفحص، ولا تُستخدم القطع المخصصة لخدمة دافئة في الخدمة الباردة.",
-            "ru": "По ASME B16.5 это ASTM A320 Grade L43 (аустенитная нержавеющая сталь, химия 304/316). При такой температуре не используйте A193 B7, A320 L7 или A320 L7M: L7/L7M рассчитаны на −101 °C, а для нижнего предела нужны особые режимы термообработки. L43 — единственный ходовой класс болтов, который без специального допуска работает в настоящей СПГ-среде."
+            "ru": "По ASME B16.5 это ASTM A320 Grade L43 (аустенитная нержавеющая сталь, химия 304/316). При такой температуре не используйте A193 B7, A320 L7 или A320 L7M: L7/L7M рассчитаны на −101 °C, а для нижнего предела нужны особые режимы термообработки. L43 — единственный ходовой класс болтов, который без специального допуска работает в настоящей СПГ-среде.",
+            "zh": "储罐主法兰处于深低温工况，应按 ASME B16.5 选用 ASTM A320 L43 级螺栓，材质为奥氏体不锈钢，化学成分对应 304/316 范围。这个温度下不得改用 A193 B7、A320 L7 或 A320 L7M：L7 与 L7M 的额定低温只到 -101°C，更低温度必须配合专门的去应力处理方案；L43 是少数无需额外特殊许可即可直接用于真实 LNG 深冷工况的常用螺栓等级，订货时还要核对炉号和冲击试验记录。"
           }
         },
         {
@@ -436,7 +438,8 @@
             "pt": "A usina chinesa pode dispensar o trânsito sul-africano?",
             "fr": "La usine chinoise peut-elle éviter le transit sud-africain ?",
             "ar": "هل يمكن تجنب الوسيط الجنوب أفريقي؟",
-            "ru": "Можно ли отправить партию с китайского завода прямо в Матолу, Мозамбик, без южноафриканского консолидатора?"
+            "ru": "Можно ли отправить партию с китайского завода прямо в Матолу, Мозамбик, без южноафриканского консолидатора?",
+            "zh": "中国钢厂能不经南非集货商直发 Matola 吗？"
           },
           "a": {
             "en": "A: Yes, but expect 30–40 day transit, mandatory 8-digit HS code compliance (73.18 family, 7318.29.00 for threaded articles not elsewhere specified), and 7.5% import duty + 16% VAT + 2.5% TSA on CIF value. Without SADC origin, you pay the MFN rate. Most EPCs use a South African consolidator to recover the SADC preference and reduce lead-time risk.",
@@ -444,7 +447,8 @@
             "pt": "O embarque direto a Matola continua possível, com trânsito de 30 a 40 dias, código HS de 8 dígitos obrigatório na família 73.18, posição 7318.29.00 para artigos roscados, direito de 7,5%, IVA de 16% e taxa TSA de 2,5% sobre o CIF. Sem origem SADC aplica-se a tarifa da nação mais favorecida. É por isso que a maioria dos EPC recorre a um consolidador sul-africano para recuperar a preferência SADC e reduzir o risco de prazo. Os documentos comerciais e técnicos devem coincidir na mesma referência HS, e o contêiner é conferido na chegada pelo agente de Matola antes da entrega ao canteiro.",
             "fr": "L'expédition directe vers Matola reste possible, avec un transit de 30 à 40 jours, un code HS à 8 chiffres obligatoire sous la famille 73.18, le poste 7318.29.00 pour articles filetés, un droit de 7,5 %, une TVA de 16 % et la redevance TSA de 2,5 % sur CIF. Sans origine SADC, le taux de la nation la plus favorisée s'applique. C'est pourquoi la majorité des EPC passe par un consolidateur sud-africain pour retrouver la préférence SADC et limiter le risque de délai. Les documents commerciaux et techniques doivent concorder sur la même référence HS, et le conteneur est contrôlé à l'arrivée par l'agent matolais avant livraison au site.",
             "ar": "يبقى الشحن المباشر إلى ماتولا ممكنًا، بعبور 30–40 يومًا، ورمز HS إلزامي من 8 أرقام ضمن عائلة 73.18، وبند 7318.29.00 للمقالات الملولة، ورسم 7.5% وضريبة 16% ورسوم TSA 2.5% على CIF. وبدون منشأ SADC تطبق نسبة الدولة الأكثر رعاية. لذلك يستعين أغلب مقاولي EPC بمُجمِّع جنوب أفريقي لاسترجاع أفضلية SADC وخفض مخاطر التسليم. ويجب أن تتطابق المستندات التجارية والفنية على المرجع HS نفسه، ويُفحص الحاوية لدى الوصول من وكيل ماتولا قبل التسليم إلى الموقع. وأي اختلاف في رمز البند يوقف التخليص حتى تصحح المستندات لدى جهة الشحن.",
-            "ru": "Можно, но переход займёт 30–40 суток; обязательна 8-значная кодировка HS (группа 73.18, 7318.29.00 для резьбовых изделий, не указанных в другом месте), плюс пошлина 7.5%, НДС 16% и сбор TSA 2.5% от стоимости CIF. Без происхождения из SADC платится ставка MFN. Большинство EPC берут южноафриканского консолидатора, чтобы вернуть преференцию SADC и снизить риски по сроку поставки."
+            "ru": "Можно, но переход займёт 30–40 суток; обязательна 8-значная кодировка HS (группа 73.18, 7318.29.00 для резьбовых изделий, не указанных в другом месте), плюс пошлина 7.5%, НДС 16% и сбор TSA 2.5% от стоимости CIF. Без происхождения из SADC платится ставка MFN. Большинство EPC берут южноафриканского консолидатора, чтобы вернуть преференцию SADC и снизить риски по сроку поставки.",
+            "zh": "可以直发，但要接受几个代价：运输周期约 30–40 天；必须满足 8 位 HS 编码合规，归入 73.18 章节，未列名螺纹件对应 7318.29.00；税费按 CIF 价计征，包括 7.5% 进口关税、16% 增值税和 2.5% TSA 附加费。若拿不到 SADC 原产地资格，只能按最惠国（MFN）税率完税，无法享受区域优惠。多数 EPC 总包方仍选择南非集货商路径，以取回 SADC 关税优惠并降低长途交期风险。"
           }
         },
         {
@@ -454,7 +458,8 @@
             "pt": "A4-80 aguenta a zona de respingo marinha?",
             "fr": "A4-80 peut-il tenir la zone de splash maritime ?",
             "ar": "هل تناسب درجة A4-80 وصلات الواجهة البحرية؟",
-            "ru": "Подходит ли ISO 3506 A4-80 (нержавеющая сталь 316) для болтов в зоне морских брызг?"
+            "ru": "Подходит ли ISO 3506 A4-80 (нержавеющая сталь 316) для болтов в зоне морских брызг?",
+            "zh": "ISO 3506 A4-80（316 不锈钢）能用于海洋飞溅区吗？"
           },
           "a": {
             "en": "A: Yes. A4-80 specifies 16.0–18.5% chromium, 10.0–14.0% nickel, 2.0–3.0% molybdenum, C ≤ 0.08%, with a minimum tensile strength of 800 MPa. The 2–3% molybdenum is the key — it prevents pitting and crevice corrosion in chloride-rich marine air. It is the metric equivalent of ASTM A193 B8M Class 1 and is accepted by Afungi QA.",
@@ -462,7 +467,8 @@
             "pt": "O ISO 3506 A4-80 em aço 316 atende ao ambiente de ressaco marinho. Análise: cromo 16,0–18,5%, níquel 10,0–14,0%, molibdênio 2,0–3,0%, carbono ≤ 0,08%, tração mínima 800 MPa. O molibdênio bloqueia pite e corrosão sob junta no ar salino. É o equivalente métrico do ASTM A193 B8M Class 1, aceito pela QA de Afungi. Nas estruturas expostas, controle o aperto ao binário N·m prescrito e examine os vestígios de depósito clorado nas revisões periódicas do cais.",
             "fr": "L'ISO 3506 A4-80 en acier 316 répond au milieu de ressac marin. Son analyse : chrome 16,0 à 18,5 %, nickel 10,0 à 14,0 %, molybdène 2,0 à 3,0 %, carbone ≤ 0,08 %, traction minimale 800 MPa. Le molybdène bloque la piqûre et la corrosion sous joint dans l'air salin. C'est l'équivalent métrique de l'ASTM A193 B8M Class 1, accepté par la QA d'Afungi. Sur les structures exposées, contrôlez le serrage au couple N·m prescrit et examine les traces de dépôt chloruré lors des révisions périodiques du quai.",
             "ar": "تتوافق ISO 3506 A4-80 بمعدن 316 مع بيئة رذاذ البحر. تحليلها: كروم 16.0–18.5%، نيكل 10.0–14.0%، موليبدنوم 2.0–3.0%، كربون ≤ 0.08%، وشد أدناه 800 MPa. الموليبدنوم يمنع التنقر والتآكل الشقي في الهواء المالح. وهو المكافئ المتري لـ ASTM A193 B8M Class 1 وتقبله جهة الجودة في Afungi. وفي المنشآت المكشوفة، تحقق الشد بعزم N·m المحدد وافحص بقايا الرواسب الكلورية في المراجعات الدورية للرصيف. ويُربط البرغي والصامولة من الفئة ذاتها، وتُستبدل أي قطعة تظهر عليها علامات تنقر قبل دورة الصيانة التالية، ويُسجل رقم الدفعة في بطاقة القطعة البديلة.",
-            "ru": "Да. A4-80 содержит 16.0–18.5% хрома, 10.0–14.0% никеля, 2.0–3.0% молибдена, углерод C ≤ 0.08%, минимальное временное сопротивление 800 МПа. Ключевой элемент — молибден 2–3%: он защищает от точечной и щелевой коррозии в хлоридном морском воздухе. Это метрический аналог ASTM A193 B8M Class 1 и принят службой качества Afungi."
+            "ru": "Да. A4-80 содержит 16.0–18.5% хрома, 10.0–14.0% никеля, 2.0–3.0% молибдена, углерод C ≤ 0.08%, минимальное временное сопротивление 800 МПа. Ключевой элемент — молибден 2–3%: он защищает от точечной и щелевой коррозии в хлоридном морском воздухе. Это метрический аналог ASTM A193 B8M Class 1 и принят службой качества Afungi.",
+            "zh": "可以用于飞溅区这一海洋暴露部位。按 ISO 3506 标准，A4-80 不锈钢规定铬含量 16.0–18.5%、镍含量 10.0–14.0%、钼含量 2.0–3.0%、碳含量 ≤ 0.08%，抗拉强度不低于 800 MPa。起决定作用的是 2–3% 的钼元素：它能在富含氯离子的海洋潮湿空气中抑制点蚀和缝隙腐蚀，避免连接副早期锈穿。该等级在公制体系中相当于 ASTM A193 B8M Class 1，已被 Afungi 项目的质量部门接受，飞溅区螺栓可按此等级订货并核对材质书。"
           }
         },
         {
@@ -472,7 +478,8 @@
             "pt": "Quantos contêineres o porto de Maputo movimenta?",
             "fr": "Combien de conteneurs le port de Maputo traite-t-il ?",
             "ar": "كم تبلغ سعة ميناء مابوتو للحاويات اليوم؟",
-            "ru": "Какова текущая мощность контейнерного терминала Мапуту?"
+            "ru": "Какова текущая мощность контейнерного терминала Мапуту?",
+            "zh": "马普托集装箱码头目前吞吐能力多少？"
           },
           "a": {
             "en": "A: 255,000 TEUs as of 2025, with a $165M expansion underway (started May 1, 2025) to reach 530,000 TEUs by 2027. Quay length extends from 308 m to 650 m, berth depth from 12 m to 16 m. The concession runs through 2058 under DP World operation. Rail volumes into the port hit 11.7 Mt in 2025, up 17% year-on-year.",
@@ -480,7 +487,8 @@
             "pt": "A capacidade do terminal de Maputo chega a 255 mil TEUs em 2025, e o projeto de expansão visa 530 mil TEUs até 2027. O cais passa de 308 m a 650 m de comprimento, e a profundidade de 12 m a 16 m. A concessão vai até 2058 sob operação da DP World. O tráfego ferroviário ao porto avançou para 11,7 Mt em 2025, ou +17% no ano. Esses números servem para ajustar a chegada dos lotes de fixadores e evitar a espera dos navios em fundeadouro antes da descarga.",
             "fr": "La capacité du terminal de Maputo atteint 255 000 TEU en 2025, et le projet d'extension vise 530 000 TEU d'ici 2027. Le quai passe de 308 m à 650 m de long, et le tirant d'eau de 12 m à 16 m. La concession court jusqu'en 2058 sous exploitation DP World. Le trafic ferroviaire vers le port a progressé de 11,7 Mt en 2025, soit +17 % sur un an. Ces chiffres servent à caler l'arrivée des lots de fixations et à éviter l'attente des navires en mouillage avant déchargement.",
             "ar": "بلغت سعة محطة مابوتو 255,000 TEU سنة 2025، ويهدف مشروع التوسع إلى 530,000 TEU بحلول 2027. يرتفع طول الرصيف من 308 m إلى 650 m، وعمق المياه من 12 m إلى 16 m. يستمر الامتياز حتى 2058 تحت تشغيل DP World. نمت حركة السكك الحديدية إلى الميناء إلى 11.7 Mt في 2025 بارتفاع 17% سنويًا. وتستخدم هذه الأرقام لضبط وصول دفعات المثبتات وتجنب انتظار السفن في المرسى قبل الإنزال. وتُقارن المواعيد المتاحة مع جدول أعمال البناء في أفونغي، ويُفضل الشحن المجمّع عندما تسمح كميات الطلب بذلك.",
-            "ru": "На 2025 год это 255 000 TEU; идёт проект расширения на 165 млн долларов, начатый 1 мая 2025 года, чтобы к 2027 году выйти на 530 000 TEU. Длина причала вырастет с 308 м до 650 м, глубина у причала — с 12 м до 16 м. Концессия под управлением DP World действует до 2058 года. Железнодорожные перевозки в порт достигли 11.7 млн тонн в 2025 году, рост 17% к прошлому году."
+            "ru": "На 2025 год это 255 000 TEU; идёт проект расширения на 165 млн долларов, начатый 1 мая 2025 года, чтобы к 2027 году выйти на 530 000 TEU. Длина причала вырастет с 308 м до 650 м, глубина у причала — с 12 м до 16 м. Концессия под управлением DP World действует до 2058 года. Железнодорожные перевозки в порт достигли 11.7 млн тонн в 2025 году, рост 17% к прошлому году.",
+            "zh": "截至 2025 年，马普托集装箱码头现有吞吐能力为 255,000 TEU，是莫桑比克东部沿海主要集装箱进出通道。扩建工程于 2025 年 5 月 1 日开工，投资额 1.65 亿美元（$165M），计划到 2027 年把年吞吐能力提升到 530,000 TEU。码头岸线由 308 米延长至 650 米，泊位水深由 12 米加深至 16 米，可靠泊更大吨位集装箱船。码头特许经营权由 DP World 运营，期限至 2058 年；2025 年经铁路进入港口的货量达 11.7 Mt，同比增长 17%，内陆集疏运能力持续改善。"
           }
         }
       ]
