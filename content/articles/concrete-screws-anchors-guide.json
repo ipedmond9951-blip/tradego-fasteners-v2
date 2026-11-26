@@ -251,7 +251,8 @@
             "es": "¿Dónde convienen los tornillos para hormigón y dónde no?",
             "fr": "Où les vis à béton conviennent-elles, et où non ?",
             "pt": "Onde os parafusos para concreto servem e onde não servem?",
-            "de": "Wo sind Betonschrauben geeignet, und wo nicht?"
+            "de": "Wo sind Betonschrauben geeignet, und wo nicht?",
+            "ja": "コンクリートねじはどこに適し、どこに適しませんか？"
           },
           "a": {
             "en": "They suit light to medium loads up to about M10 in solid concrete or block - brackets, fixtures, framing anchors. They are not approved for cracked concrete, overhead tension loads, or seismic bracing, where a qualified mechanical or chemical anchor is required.",
@@ -262,7 +263,8 @@
             "es": "Sirven para cargas ligeras a medias, hasta unos M10, en hormigón macizo o bloque: soportes, accesorios anclados y anclajes de estructura. No están aprobados para hormigón agrietado, cargas de tracción en techo ni arriostramiento sísmico, donde hace falta un anclaje mecánico o químico cualificado. La elección depende de la carga y del estado del soporte.",
             "fr": "Elles conviennent aux charges légères à moyennes jusqu'à environ M10 dans le béton plein ou le bloc : supports, fixations, ancrages de charpente. Elles ne sont pas admises dans le béton fissuré, les charges en suspension en tête, ou le contreventement parasismique, où un ancrage mécanique ou chimique qualifié est requis. Le choix suit la charge reprise et l'état du support. Pour un élément structurel, recours à un ancrage certifié adapté.",
             "pt": "Servem a cargas leves a médias até cerca de M10 em concreto sólido ou bloco: suportes, fixações e âncoras de estrutura. Não são aprovados para concreto fissurado, cargas de tração sobre head ou contração sísmica, onde se exige âncora mecânica ou química qualificada. A escolha parte da carga, da condição do concreto e da inspeção prevista da fixação.",
-            "de": "Sie eignen sich für leichte bis mittlere Lasten bis etwa M10 in festem Beton oder Mauerstein: Konsolen, Befestigungen, Anker der Rahmen. Sie sind nicht zugelassen für gerissenen Beton, hängende Zuglasten oder Erdbebenaussteifung, wo ein qualifizierter mechanischer oder chemischer Anker nötig ist. Die Wahl folgt der Last und dem Zustand des Trägers. Für ein tragendes Bauteil greift man zu einem zertifizierten Anker."
+            "de": "Sie eignen sich für leichte bis mittlere Lasten bis etwa M10 in festem Beton oder Mauerstein: Konsolen, Befestigungen, Anker der Rahmen. Sie sind nicht zugelassen für gerissenen Beton, hängende Zuglasten oder Erdbebenaussteifung, wo ein qualifizierter mechanischer oder chemischer Anker nötig ist. Die Wahl folgt der Last und dem Zustand des Trägers. Für ein tragendes Bauteil greift man zu einem zertifizierten Anker.",
+            "ja": "無垢のコンクリートやブロックで、M10程度までの軽中荷重のブラケット、器具、骨組み固定に適します。ひび割れコンクリート、天井の引張荷重、耐震ブレースには認められず、適切な機械式または接着系アンカーが必要です。荷重方向と母材の状態を確認して選んでください。"
           }
         },
         {
@@ -275,7 +277,8 @@
             "es": "¿Qué práctica de taladro hace que agarren los tornillos?",
             "fr": "Quelle pratique de forage fait tenir les vis à béton ?",
             "pt": "Que prática de perfuração faz os parafusos de concreto segurarem?",
-            "de": "Welche Bohrpraxis lässt Betonschrauben halten?"
+            "de": "Welche Bohrpraxis lässt Betonschrauben halten?",
+            "ja": "コンクリートねじを効かせる穿孔の手順は何ですか？"
           },
           "a": {
             "en": "Use the exact bit diameter specified for the screw, drill to the required depth, and clean the hole by blowing and brushing. Drive with a torque-controlled driver, not an impact gun, and stop before the screw strips its own thread in the concrete.",
@@ -286,7 +289,8 @@
             "es": "Use la broca exacta que indica el tornillo, taladre a la profundidad pedida y limpie el hueco soplando y cepillando. Apriete con atornillador de par controlado, no con pistola de impacto, y deténgase antes de que el tornillo pele su propia rosca en el hormigón. Un hueco limpio y la herramienta adecuada mantienen el agarre durante la instalación.",
             "fr": "Utilisez le diamètre de foret exact spécifié pour la vis, percez à la profondeur requise, puis nettoyez le trou par soufflage et brossage. Vissez avec une visseuse à couple contrôlé, non une perceuse à choc, et arrêtez avant que la vis n'arrache son propre filetage dans le béton. Un trou poussiéreux réduit la résistance de fixation. Vérifiez la profondeur et le nettoyage avant de poser la vis.",
             "pt": "Usa-se o diâmetro exato de broca especificado para o parafuso, perfura-se até a profundidade exigida e limpa-se o furo com sopro e escova. Aciona-se com parafusadeira de torque controlado, não com martelete, e para antes que o parafuso desgaste a própria rosca no concreto. A limpeza do furo é o fator que mais influencia a capacidade de arrancamento da fixação.",
-            "de": "Verwenden Sie den exakten, für die Schraube angegebenen Bohrerdurchmesser, bohren Sie auf die erforderliche Tiefe, und säubern Sie das Loch durch Blasen und Bürsten. Schrauben Sie mit einem drehmomentgeregelten Schrauber, nicht mit einem Schlagschrauber, und hören Sie auf, bevor die Schraube ihr eigenes Gewinde im Beton zerstört. Ein staubiges Loch mindert die Haltekraft. Prüfen Sie Tiefe und Sauberkeit vor dem Setzen."
+            "de": "Verwenden Sie den exakten, für die Schraube angegebenen Bohrerdurchmesser, bohren Sie auf die erforderliche Tiefe, und säubern Sie das Loch durch Blasen und Bürsten. Schrauben Sie mit einem drehmomentgeregelten Schrauber, nicht mit einem Schlagschrauber, und hören Sie auf, bevor die Schraube ihr eigenes Gewinde im Beton zerstört. Ein staubiges Loch mindert die Haltekraft. Prüfen Sie Tiefe und Sauberkeit vor dem Setzen.",
+            "ja": "ねじに指定された正確なドリル径を使い、必要な深さまで穿孔し、穴をブローとブラシで清掃します。トルク管理のできるドライバーで打ち込み、インパクトガンは使いません。コンクリート内でねじ山が損傷しないよう締め過ぎに注意してください。穴の清掃が不十分だと保持力が落ちます。"
           }
         },
         {
@@ -299,7 +303,8 @@
             "es": "¿Cómo se comparan los tornillos de hormigón con los anclajes de cuña?",
             "fr": "Comment les vis à béton se comparent-elles aux chevilles à expansion ?",
             "pt": "Como os parafusos de concreto comparam aos chumbadores de cunha?",
-            "de": "Wie vergleichen sich Betonschrauben mit Keilankern?"
+            "de": "Wie vergleichen sich Betonschrauben mit Keilankern?",
+            "ja": "コンクリートねじはウェッジアンカーとどう違いますか？"
           },
           "a": {
             "en": "Concrete screws are easier to install, removable and repositionable, but carry lower load ratings and poorer fatigue performance. Wedge anchors develop higher capacity and are certified for cracked concrete and seismic use. Choose by load, inspection requirement and whether the fixture may move.",
@@ -310,7 +315,8 @@
             "es": "Los tornillos de hormigón son más fáciles de instalar, se quitan y recolocan, pero tienen clasificaciones de carga menores y peor comportamiento a fatiga. Los anclajes de cuña desarrollan mayor capacidad y están certificados para hormigón agrietado y uso sísmico. Elija según la carga, el requisito de inspección y si el accesorio puede moverse.",
             "fr": "Les vis à béton sont plus faciles à poser, démontables et repositionnables, mais elles affichent des charges admissibles plus basses et une moins bonne tenue en fatigue. Les chevilles à expansion développent une capacité plus élevée et sont certifiées pour le béton fissuré et l'usage parasismique. Choisissez selon la charge, l'exigence d'inspection et la possibilité de déplacer la fixation. L'ancrage lourd ne se remplace pas par une vis simple.",
             "pt": "Os parafusos de concreto são mais fáceis de instalar, removíveis e reposicionáveis, mas têm classificação de carga menor e fadiga inferior. Os chumbadores de cunha desenvolvem capacidade maior e são certificados para concreto fissurado e uso sísmico. A escolha segue carga, exigência de inspeção e se a fixação pode ser deslocada.",
-            "de": "Betonschrauben sind leichter zu montieren, demontierbar und neu positionierbar, tragen aber niedrigere Lastwerte und eine geringere Ermüdungsfestigkeit. Keilanker entwickeln eine höhere Tragfähigkeit und sind für gerissenen Beton und den Seismikeinsatz zertifiziert. Wählen Sie nach Last, Prüfungsanforderung und danach, ob die Befestigung beweglich sein darf. Eine schwere Verankerung lässt sich nicht durch eine einfache Schraube ersetzen."
+            "de": "Betonschrauben sind leichter zu montieren, demontierbar und neu positionierbar, tragen aber niedrigere Lastwerte und eine geringere Ermüdungsfestigkeit. Keilanker entwickeln eine höhere Tragfähigkeit und sind für gerissenen Beton und den Seismikeinsatz zertifiziert. Wählen Sie nach Last, Prüfungsanforderung und danach, ob die Befestigung beweglich sein darf. Eine schwere Verankerung lässt sich nicht durch eine einfache Schraube ersetzen.",
+            "ja": "コンクリートねじは施工が容易で取り外しや位置変更ができますが、荷重定格は低く疲労性能も劣ります。ウェッジアンカーは高い能力を発揮し、ひび割れコンクリートや耐震用途の認証を持ちます。荷重、検査要件、器具の移動の有無で選定してください。用途ごとに仕様を分け、必要な品質を満たす範囲で選定してください。"
           }
         }
       ],
