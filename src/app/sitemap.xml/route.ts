@@ -5,7 +5,8 @@
 // 改为 route handler + force-static: 构建时就生成一份静态 XML, 之后由 CDN 直接返回,
 // 内容仍是同一份逻辑(文章/产品/标准/市场/分类页全量), SEO 侧零损失。
 import { locales } from '@/i18n'
-import { getIndexableSlugs, getSlugDateMap, getAllArticles, isThinForLocale } from '@/lib/articles'
+import { getIndexableSlugs, getAllArticles, isThinForLocale } from '@/lib/articles'
+import { getFreshness } from '@/lib/freshness'
 import { allProducts } from '@/lib/products'
 import { markets } from '@/lib/markets'
 import { standardEntries } from '@/lib/standards'
@@ -30,7 +31,6 @@ function buildEntries(): Entry[] {
   const enOnlyPages = new Set(['/steel-prices', '/zimbabwe-fasteners-wholesale'])
 
   const articleSlugs = getIndexableSlugs()
-  const slugDateMap = getSlugDateMap()
   const articleBySlug = new Map(getAllArticles().map(a => [a.slug, a]))
 
   const catSlugify = (c: string) => c.toLowerCase().replace(/\s*-\s*/g, '-').replace(/\s+/g, '-')
@@ -66,7 +66,9 @@ function buildEntries(): Entry[] {
       const article = articleBySlug.get(slug)
       if (article && isThinForLocale(article, locale)) continue
       const encodedSlug = encodeURIComponent(slug)
-      const articleDate = slugDateMap[slug] || now.slice(0, 10)
+      // 文章 lastmod 用真实更新日（freshness 缓存，git 最后提交与 JSON 字段取较晚者）；
+      // 不再用构建时间戳冒充。缓存缺失时回退文章 JSON 日期，最后才退到构建日。
+      const articleDate = getFreshness(slug)?.modified || article?.updated || article?.date || now.slice(0, 10)
       entries.push({
         url: `${BASE_URL}/${locale}/industry/${encodedSlug}/`,
         lastModified: articleDate,
