@@ -232,3 +232,27 @@ python3 -c "import sys;sys.path.insert(0,'scripts');import json_rewrite as jr;d=
 **硬不变量（延续）**：写锁 owner `今日头条分析`（TTL 30 分钟）；`git add <单文件> && git commit -F <msg文件> -- <单文件>`，禁 `-F -`、禁 `add -A/-a`、**禁共享索引下 `--amend`**、禁 reset/rebase/restore/stash；只 commit 不 push；不碰 A 区 39 篇、`docs/SEO-GEO-*`、`next.config.ts`、`scripts/geo_audit.py`、`src/**`、他线 ` M` 在途文件；批量改写只按 `(slug, section, item, locale)` 精确写键并断言 `en` 未变（经验 210）。
 
 **经验号段**：本轮占 **207–211**（已写入 `docs/CONTENT-CONTRACT.md`）；R-T9m 开工前先 `grep` 复核最大号，从 **212** 起。
+
+### 0.8 R-T9m 轮收口与 R-T9n 入口（2026-11-26）
+
+**本轮用户拍板三口径（生效，不再回问）**：① zh 短答下限 = 汉字 ≥80 且总字符 ≤450；② 红点顺序 认证 → 地名 → 金额，金额只改"我方报价口吻"（行情/项目数字保留 + 注口径与时间）；③ A 区一律不碰（含 A 线跨区补进 B 区的 `ar`）。
+
+**收口状态**：起点 `a9f4c356`；本轮 `T9m-*` 提交全部单文件 pathspec、全部过 `content_gate`、全部未 push。执行细节 `docs/T9-REPORT-B-2026-1125.md` §17，跨线通道 `docs/TWO-LINE-SYNC-2026-1126.md`（`c95433c0`）。
+
+**九项验收（`$T9M/verify9.py` 一键复跑）**：见 §17-8 表。达不到零的项已给逐条剩余清单与阻塞原因（核心阻塞是 5 篇工作区长期未提交的在途文件）。
+
+**R-T9n 建议顺序**
+
+1. **先解 5 篇在途文件**（`africa-fastener-market-opportunities-2026`、`china-fasteners-zimbabwe-procurement-guide`、`drc-diamond-mining-fasteners`、`ghana-fastener-market-guide`、`malawi-fastener-market-case-study`）：先在 `TWO-LINE-SYNC` §3 与 A 线确认归属；**确认无主后**按「备份 patch → 校验 `content_gate`/`check-claims` → 单文件 commit 或 revert 后重做」三选一，禁直接 `git checkout --`。这 5 篇一解，超长 19 / 短答 55 / 拉丁 3 / 占位 1 条债随之清零。
+2. **body 整段散文 17 单元**：按语种整段重译（事实、数字、`[n]` 引用、href 全保留）。清单 `$T9M/batch3-body-r4-residual-list.csv`。
+3. **ar 认证口径 96 篇 / 172 处**：归 ar owner 线，本线只在 `TWO-LINE-SYNC` §2 催办。
+4. **翻译缺口**：`rwanda-construction-fastener-market-2026` hi/zh、`mozambique-lng-...-maputo` sec4 zh/ja/hi —— 由补译线补齐后再核认证/金额口径，本线不补造数字。
+5. **金额尾项**：仅剩 ar（登记）；`uruguay` 类新篇若上线，金额口径照 §17-4 三分法执行。
+
+**硬不变量（延续 + 本轮新增）**：
+- 写锁 owner `今日头条分析`（TTL 30 分钟）；`git add <单文件> && git commit -F <msg文件> -- <单文件>`；禁 `-F -`、`add -A/-a`、共享索引下 `--amend`、reset/rebase/restore/stash；只 commit 不 push。
+- **新增：提交前必查暂存区**（`git diff --cached --name-only`，出现非本篇文件先 `git restore --staged <该文件>`）——`git commit -- <pathspec>` 并不能阻止索引里其它已暂存条目被一并提交（本轮 `72b63d9a` 事故根因）。
+- 多批并行时，同一篇以 **claim 锁**为唯一排序器：领不到就登记 `held`，不硬写、不删锁、不代释放别线锁。
+- 不碰 A 区 39 篇、`docs/SEO-GEO-*`、`next.config.ts`、`scripts/geo_audit.py`、`src/**`、他线 ` M` 在途文件。
+
+**经验号段**：本轮占 **212–217**（已写入 `docs/CONTENT-CONTRACT.md`）；R-T9n 开工前先 `grep` 复核最大号，从 **218** 起。
