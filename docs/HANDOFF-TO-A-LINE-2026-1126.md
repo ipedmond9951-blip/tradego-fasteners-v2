@@ -158,3 +158,29 @@
 
 - 注：A 区无 `q_embed_en`、无 `a_under120`、无 `latin_title` 命中。
 - 工作树中 `anchor-bolts-selection-guide`、`bolt-tightening-torque-guide`、`rwanda-construction-fastener-standards` 等已有他线未提交改动，B 线未 stage、未覆盖。
+
+## 9. R-T9l S2 第二轮分片整改（2026-11-26，B 线案例簇 + 采购样板段）
+
+- 判据/脚本同 §6；明细以 `docs/gsc-dup-paragraph-2026-1126.csv` 最新重扫为准。
+- 本轮 B 线可改语种（es/fr/de/pt/ja/hi/zh/ru）正文重复模板段就地改写为本篇主题表述；FAQ 问答未动；en/ar 未碰。每篇 `content_gate.py --slug` 闸门 ✅，单文件 commit。
+- **本轮已整改（B 线，42 篇，48 笔 content(T9l-dup) commit；含同篇补提交/缩进修复）**：
+  `africa-railway-modernization-fastener-demand`、`africa-solar-energy-fastener-procurement-guide`、`automotive-fastener-grade-comparison`、`bolt-types-applications-guide`、`buy-construction-fasteners-wholesale-china`、`carriage-bolts-guide`、`construction-building-self-tapping-screws-tco-analysis-joint-stiffness`、`construction-building-self-tapping-screws-tco-analysis-uv-degradation`、`fastener-glossary-africa-procurement`、`fastener-preload-torque-calculation-methods`、`fastener-quality-certification-comparison`、`fastener-supplier-verification-checklist`、`fastener-warehouse-management-best-practices`、`food-beverage-fastener-hygiene-standards`、`frp-grp-composite-fasteners`、`galvanized-vs-stainless-steel-fasteners`、`hex-nuts-selection-guide`、`high-strength-bolting-structural-steel`、`kenya-east-africa-fastener-distribution-hub`、`machine-screws-specifications`、`marine-grade-fastener-selection-guide`、`payment-terms-international-fastener-trade`、`self-tapping-sheet-metal-screws`、`solar-panel-mounting-fastener-requirements`、`south-africa-fastener-market-guide`、`south-africa-sabs-fastener-import-requirements`、`stainless-steel-bolts-africa-guide`、`stainless-steel-fasteners-africa`、`structural-steel-connection-fasteners`、`tanzania-fastener-market-opportunities-2026`、`timber-fasteners-guide`、`wind-energy-fastener-requirements-2026`、`zim-construction-anchor-bolts-lifecycle-cost-salt-spray`、`zim-construction-flat-washers-standard-explainer-lead-time`、`zim-construction-lock-nuts-rfq-template-bolt-pattern`、`zim-construction-lock-washers-tco-analysis-stress-cracking`、`zim-construction-threaded-rods-supplier-evaluation-cost-optimization`、`zim-construction-u-bolts-spec-checklist-mill-cert-traceability`、`zim-construction-u-bolts-supplier-evaluation-galvanic-corrosion`、`zimbabwe-agricultural-fastener-requirements`、`zimbabwe-bulawayo-construction-hardware-supply`、`zimbabwe-rural-electrification-fastener-specifications`。
+- **未形成 commit、重复组随同组其他篇整改后降至 <3 阈值**（6 篇，工作树未留改动）：`fastener-negotiation-supplier-china`、`zimbabwe-warehousing-racking-fastener-safety`、`precast-concrete-fastener-applications`、`railway-track-fastener-specifications`、`zimbabwe-mining-fastener-grade-selection`、`zambia-fastener-market-case-study`。其残留段仅出现在 CSV 的 registered（样板导航/FAQ）行，无 rewrite 命中。
+- 注：`dr-congo-drc-mining-fastener-market`、`fastener-failure-analysis-case-studies`、`green-building-fastener-requirements`、`mozambique-fastener-import-market-guide`、`angola-construction-boom-fastener-demand` 属另两个分片，B 线未改其内容。
+
+### 9.1 第二轮只登记（rewrite 队列清零后保留的 3 组 / 16 篇次）
+
+| 指纹 | 语种 | 组数 | 篇次 | 性质 / 处置 |
+|---|---|---|---|---|
+| 4237b9c474 | zh | 1 | 9 | FAQ 段内「相关产品页」导航链接段，样板导航，registered，不改链接 |
+| 8df2ca6bc7 | es | 1 | 3 | FAQ 引导句样板导航，registered |
+| 7e601fbf54 | pt | 1 | 4 | 报价构成长段（含材质/镀层/包装/运保/单证/批量与付款条件说明），合规敏感，B 线未改写，留待下一轮按 en 逐篇重写 |
+
+- 7e601fbf54 成员：`anchor-bolts-suppliers-africa`、`south-africa-fastener-market-case-study`、`zambia-fastener-market-case-study`、`zimbabwe-construction-megaprojects-fastener-demand`。
+- 4237b9c474 成员：`fastener-cost-reduction-china-vs-turkey`、`fastener-lubrication-thread-locking-guide`、`fastener-preload-torque-calculation-methods`、`fastener-quality-control-inspection-procedures`、`marine-grade-fastener-selection-guide`、`precast-concrete-fastener-applications`、`railway-track-fastener-specifications`、`south-africa-sabs-fastener-import-requirements`、`zimbabwe-mining-fastener-grade-selection`。
+- 8df2ca6bc7 成员：`fastener-quality-control-iso9001`、`lag-screws-timber-connections`、`zimbabwe-construction-megaprojects-fastener-demand`。
+
+### 9.2 重扫基线（2026-11-26 收尾）
+
+- 扫描面 279 篇 × 10 语种，41209 单元；FAIL 组 B 90 组 / 1291 篇次、A 39 组 / 222 篇次，全部 action=registered；B 线可改语种 rewrite 队列 **0 组**。
+- A 区 39 组仍归 A 线处置（见 §5、§6.1）；B 区 registered 含 en/ar 非本轮语种、样板导航、FAQ 同源段。
