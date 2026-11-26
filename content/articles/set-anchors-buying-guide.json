@@ -269,7 +269,8 @@
             "ar": "ما الفرق بين مرساة التثبيت ومرساة الإدخال؟",
             "es": "¿Qué diferencia hay entre anclaje de fijación y anclaje insertable?",
             "fr": "Différence entre cheville à vis et ancrage chemisé ?",
-            "pt": "Qual a diferença entre âncora de fixação e de encaixe?"
+            "pt": "Qual a diferença entre âncora de fixação e de encaixe?",
+            "de": "Was unterscheidet einen Spreizdübel und einen Einsetzanker?"
           },
           "a": {
             "en": "A set anchor is a sleeve plus a machine screw that stays in place, so the fixture can be removed and refitted. A drop-in anchor leaves an internal thread in the hole and takes a separate screw.",
@@ -279,7 +280,8 @@
             "ar": "مرساة التثبيت عبارة عن جلبة مع برغي آلي يبقى مكانه، فيمكن فك التركيب وإعادة تثبيته. أما مرساة الإدخال فتترك خيطًا داخليًا في الثقب وتستخدم برغيًا منفصلًا يُدخل عند كل تركيب. ويعتمد الاختيار على تكرار الفك وإعادة التركيب وسماكة القاعدة.",
             "es": "Un anclaje de fijación es un manguito más un tornillo de máquina que queda en su sitio, de modo que el accesorio puede quitarse y volver a montarse. Un anclaje insertable deja una rosca interna en el hueco y toma un tornillo aparte. El primero retira la pieza sin soltar el anclaje del soporte.",
             "fr": "La cheville à vis est une chemise plus une vis machine qui reste en place, si bien que la fixation peut être déposée puis reposée. L'ancrage chemisé laisse un filetage interne dans le trou et reçoit une vis séparée. La possibilité de reposer la pièce distingue les deux familles d'ancrage.",
-            "pt": "A âncora de fixação é uma bucha mais um parafuso de máquina que permanece no lugar, para que o acessório possa ser removido e recolocado. A âncora de encaixe deixa uma rosca interna no furo e recebe um parafuso separado. O tipo segue se o acessório será removido, e a peça é conferida contra a espessura do suporte."
+            "pt": "A âncora de fixação é uma bucha mais um parafuso de máquina que permanece no lugar, para que o acessório possa ser removido e recolocado. A âncora de encaixe deixa uma rosca interna no furo e recebe um parafuso separado. O tipo segue se o acessório será removido, e a peça é conferida contra a espessura do suporte.",
+            "de": "Ein Spreizdübel ist eine Hülse plus eine Maschinenschraube, die sitzen bleibt, sodass der Befestiger abgenommen und wieder angebracht werden kann. Ein Einsetzanker lässt ein Innengewinde im Loch zurück und nimmt eine separate Schraube auf."
           }
         },
         {
@@ -291,7 +293,8 @@
             "ar": "متى تتفوق مرساة التثبيت على مرساة الإدخال؟",
             "es": "¿Cuándo el anclaje de fijación supera al insertable?",
             "fr": "Quand la cheville à vis l'emporte-t-elle sur l'ancrage chemisé ?",
-            "pt": "Quando a âncora de fixação vence a de encaixe?"
+            "pt": "Quando a âncora de fixação vence a de encaixe?",
+            "de": "Wann ist der Spreizdübel dem Einsetzanker überlegen?"
           },
           "a": {
             "en": "Where the fixing needs to be adjusted or removed, where the slab is thin, and where the bracket thickness varies. The screw also gives a visual check that the anchor has expanded.",
@@ -301,7 +304,8 @@
             "ar": "تتفوق مرساة التثبيت حيث يحتاج التثبيت إلى ضبط متكرر أو إزالة لاحقة، وحيث تكون البلاطة خفيفة السماكة، وحيث تتفاوت سماكة القوس المركب. ويعطي البرغي داخل الجلبة فحصًا بصريًا واضحًا يؤكد أن المرساة تمددت وثبتت في الخرسانة، وهو ما لا يتوفر في كل أنواع المراسي الأخرى.",
             "es": "Donde la fijación necesita ajustarse o quitarse, donde la losa es fina, y donde el grosor del soporte varía. El tornillo da además un control visual de que el anclaje se ha expandido. La reutilización y el grosor del soporte deciden el tipo elegido.",
             "fr": "Lorsque la fixation doit être réglée ou retirée, lorsque la dalle est mince, et lorsque l'épaisseur de la bride varie. La vis permet aussi un contrôle visuel que l'ancrage s'est bien dilaté. Ces situations appellent un produit démontable plutôt qu'un ancrage à filetage interne.",
-            "pt": "Onde a fixação precisa ser ajustada ou removida, onde a laje é fina, e onde a espessura do suporte varia. O parafuso também dá uma verificação visual de que a âncora se expandiu. A escolha segue a necessidade de ajuste e a base, e a expansão é conferida após a instalação."
+            "pt": "Onde a fixação precisa ser ajustada ou removida, onde a laje é fina, e onde a espessura do suporte varia. O parafuso também dá uma verificação visual de que a âncora se expandiu. A escolha segue a necessidade de ajuste e a base, e a expansão é conferida após a instalação.",
+            "de": "Wo die Befestigung angepasst oder entfernt werden muss, wo die Platte dünn ist und wo die Halterungsdicke schwankt. Die Schraube erlaubt außerdem eine sichtbare Prüfung, dass der Anker gespreizt hat."
           }
         },
         {
@@ -313,7 +317,8 @@
             "ar": "أي مادة أحدد؟",
             "es": "¿Qué material especifico?",
             "fr": "Quel matériau spécifier ?",
-            "pt": "Qual material devo especificar?"
+            "pt": "Qual material devo especificar?",
+            "de": "Welcher Werkstoff ist vorzusehen?"
           },
           "a": {
             "en": "Zinc plated for interior, SS304 for general outdoor and wet areas, SS201 only for light indoor duty. In coastal or chemical exposure, A4/316 is the safer choice.",
@@ -323,7 +328,8 @@
             "ar": "حدّد المطلية بالزنك للاستخدام الداخلي، وSS304 للخارجية العامة والمناطق الرطبة، ولا تستخدم SS201 إلا للخدمة الداخلية الخفيفة. وفي التعرض الساحلي أو الكيميائي، تكون درجة A4/316 الخيار الأكثر أمانًا، مع مطابقة مادة المرساة لمادة البرغي والقوس لتجنب التآكل الجلفاني.",
             "es": "Cincado para interior, SS304 para exterior general y zonas húmedas, SS201 solo para trabajo ligero interior. En exposición costera o química, A4/316 es la opción más segura. El material se elige por la exposición del sitio y el contacto con el medio.",
             "fr": "Zincage pour l'intérieur, inox 304 pour l'extérieur courant et les zones humides, inox 201 seulement pour un usage intérieur léger. En exposition côtière ou chimique, l'A4/316 est le choix le plus sûr. Le matériau suit l'humidité et l'agressivité du site d'emploi.",
-            "pt": "Zincado para interior, SS304 para exterior geral e áreas úmidas, SS201 apenas para serviço leve em interior. Em exposição costeira ou química, A4/316 é a escolha mais segura. O material segue a exposição, e o grau é conferido no certificado do lote da âncora."
+            "pt": "Zincado para interior, SS304 para exterior geral e áreas úmidas, SS201 apenas para serviço leve em interior. Em exposição costeira ou química, A4/316 é a escolha mais segura. O material segue a exposição, e o grau é conferido no certificado do lote da âncora.",
+            "de": "Verzinkt für Innenräume, SS304 für allgemeinen Außenbereich und feuchte Zonen, SS201 nur für leichte Innenbeanspruchung. Bei Küsten- oder Chemiebelastung ist A4/316 die sicherere Wahl."
           }
         }
       ]
