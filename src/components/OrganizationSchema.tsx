@@ -72,7 +72,7 @@ export default function OrganizationSchema({ locale = 'en' }: OrganizationSchema
       '@type': 'Offer',
       areaServed: {
         '@type': 'Place',
-        name: 'Africa, Middle East, Southeast Asia',
+        name: 'Worldwide — primary focus: Southern Africa, East Africa, West Africa, Middle East, Southeast Asia, Latin America',
       },
       availableDeliveryMethod: ['Sea Freight', 'Air Freight', 'Express'],
     },
