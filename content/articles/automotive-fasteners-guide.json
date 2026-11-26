@@ -175,7 +175,8 @@
             "es": "¿Puedo sustituir una fijación por otra de distinto grado?",
             "fr": "Peut-on substituer une fixation d'une autre classe ?",
             "pt": "Posso substituir um fixador por outra classe?",
-            "de": "Darf ich einen Befestiger anderer Festigkeitsklasse ersetzen?"
+            "de": "Darf ich einen Befestiger anderer Festigkeitsklasse ersetzen?",
+            "ja": "別の等級の締結具で代用できますか？"
           },
           "a": {
             "en": "Only if the substitute meets or exceeds original specifications. Using lower-grade fasteners for critical applications (engine, suspension, brakes) is dangerous and can cause component failure.",
@@ -186,7 +187,8 @@
             "es": "Solo si la sustituta cumple o supera las especificaciones originales. Usar fijaciones de grado inferior en aplicaciones críticas (motor, suspensión, frenos) es peligroso y puede provocar la avería del componente. Conviene contrastar la clase y la norma con el plano de taller antes de montar la pieza.",
             "fr": "Seulement si le substitut atteint ou dépasse les spécifications d'origine. Utiliser des fixations de classe inférieure dans les applications critiques (moteur, suspension, freins) est dangereux et peut entraîner la défaillance du composant. On vérifie la classe, le marquage et les propriétés avant montage, et l'on ne descend pas en spécification sur un organe de sécurité.",
             "pt": "Só se o substituto atender ou superar as especificações originais. Usar fixadores de classe inferior em aplicações críticas, motor, suspensão e freios, é perigoso e pode causar falha do componente. A substituição deve ser conferida contra a ficha de serviço original, e a classe do fixador novo deve bater com a especificação de montagem do conjunto.",
-            "de": "Nur, wenn der Ersatz die Originalspezifikation erfüllt oder übertrifft. Niedrigere Klassen in kritischen Anwendungen (Motor, Fahrwerk, Bremsen) zu verwenden, ist gefährlich und kann zum Bauteilausfall führen."
+            "de": "Nur, wenn der Ersatz die Originalspezifikation erfüllt oder übertrifft. Niedrigere Klassen in kritischen Anwendungen (Motor, Fahrwerk, Bremsen) zu verwenden, ist gefährlich und kann zum Bauteilausfall führen.",
+            "ja": "代用品が元の仕様を満たすか上回る場合に限ります。重要用途（エンジン、足回り、ブレーキ）に下位等級を使うのは危険で、部品の故障を招くことがあります。指定等級と同じか上位のものを使い、交換に先立ち図面の材料と強度要件を確認してください。迷ったら構造の専門家に照合してもらいます。"
           }
         },
         {
@@ -199,7 +201,8 @@
             "es": "¿Qué hace que las fijaciones del coche se aflojen?",
             "fr": "Qu'est-ce qui desserre les fixations automobiles ?",
             "pt": "O que faz fixadores automotivos afrouxarem?",
-            "de": "Wodurch lockern sich Befestiger am Fahrzeug?"
+            "de": "Wodurch lockern sich Befestiger am Fahrzeug?",
+            "ja": "自動車の締結具が緩む原因は何ですか？"
           },
           "a": {
             "en": "Vibration is the primary cause, but thermal cycling, improper installation, and thread damage also contribute. Using lock washers or thread-locking compounds helps prevent loosening.",
@@ -210,7 +213,8 @@
             "es": "La vibración es la causa principal, pero también contribuyen el ciclo térmico, la instalación incorrecta y el daño de la rosca. Usar arandelas elásticas o productos de bloqueo de rosca ayuda a prevenir el afloje. El apriete debe seguir el par indicado por el fabricante del vehículo.",
             "fr": "La vibration est la cause première, mais le cyclage thermique, le montage incorrect et l'endommagement du filet contribuent aussi. L'usage de rondelles freinantes ou de produits de blocage fileté aide à prévenir le desserrement. Les reprises de serrage et l'inspection des filets comptent pour tenir dans le temps les assemblages soumis aux mouvements.",
             "pt": "A vibração é a causa principal, mas o ciclo térmico, a instalação incorreta e o dano de rosca também contribuem. Usar arruelas de trava ou compostos de trava de rosca ajuda a prevenir o afrouxamento. O aperto segue a classe e o torque de montagem, e a inspeção revisa a condição da rosca antes da reinstalação do conjunto.",
-            "de": "Vibration ist die Hauptursache, doch auch Temperaturwechsel, fehlerhafter Einbau und Gewindeschäden tragen dazu bei. Federringe oder Gewindesicherungsmittel helfen, das Loslockern zu verhindern."
+            "de": "Vibration ist die Hauptursache, doch auch Temperaturwechsel, fehlerhafter Einbau und Gewindeschäden tragen dazu bei. Federringe oder Gewindesicherungsmittel helfen, das Loslockern zu verhindern.",
+            "ja": "振動が主な原因ですが、温度変化、不適切な施工、ねじの損傷も影響します。緩みを防ぐにはスプリングワッシャーやねじロック剤を使います。ねじ山の傷やかじりがないか確認し、指定トルクを守って締めてください。振動の多い箇所では緩み止めの方式を部品ごとに選定します。"
           }
         },
         {
@@ -223,7 +227,8 @@
             "es": "¿Debo reutilizar las fijaciones viejas?",
             "fr": "Faut-il réutiliser d'anciennes fixations ?",
             "pt": "Devo reutilizar fixadores antigos?",
-            "de": "Sollte man alte Befestiger wiederverwenden?"
+            "de": "Sollte man alte Befestiger wiederverwenden?",
+            "ja": "古い締結具を再利用してもよいですか？"
           },
           "a": {
             "en": "Replace torque-to-yield (TTF) fasteners like head bolts when specified. For other fasteners, inspect for damage, stretching, or corrosion before reuse. When in doubt, replace.",
@@ -234,7 +239,8 @@
             "es": "Las fijaciones de par a límite elástico (TTF), como los pernos de culata, deben sustituirse cuando así lo indique el procedimiento. En las demás, revise si hay daño, estiramiento o corrosión antes de reutilizarlas. En caso de duda, conviene cambiarlas por piezas nuevas del mismo grado.",
             "fr": "Remplacer les fixations à limite d'élasticité (TTY), comme les boulons de culasse, lorsque la spécification l'exige. Pour les autres fixations, inspecter les dommages, l'étirage ou la corrosion avant réemploi. En cas de doute, remplacer. Une fixation étirée ou corrodée ne retrouve pas sa capacité d'origine une fois démontée.",
             "pt": "Substituem-se os fixadores torque-to-yield, TTF, como os parafusos de cabeça do motor, quando a especificação manda. Nos demais fixadores, inspeciona-se dano, alongamento ou corrosão antes do reuso. Na dúvida, troca-se. Um fixador esticado ou com corrosão não recupera a pré-carga original, e a reutilização em junta crítica deve ser evitada.",
-            "de": "Drehmoment-Streckgrenze-Befestiger (TTF) wie Zylinderkopfschrauben sind laut Vorgabe zu ersetzen. Bei anderen Befestigern prüfen Sie vor der Wiederverwendung auf Beschädigung, Dehnung oder Korrosion. Im Zweifel ist zu ersetzen."
+            "de": "Drehmoment-Streckgrenze-Befestiger (TTF) wie Zylinderkopfschrauben sind laut Vorgabe zu ersetzen. Bei anderen Befestigern prüfen Sie vor der Wiederverwendung auf Beschädigung, Dehnung oder Korrosion. Im Zweifel ist zu ersetzen.",
+            "ja": "トルク法降伏ボルト（TTF）など頭付きボルトは指定どおり交換します。その他の締結具は、再利用に先立ち損傷、伸び、腐食を点検してください。傷や伸び、錆が見られれば交換し、判断に迷う場合も交換を基本とします。一度緩んだ構造部のボルトを再使用しないでください。"
           }
         },
         {
@@ -247,7 +253,8 @@
             "es": "¿Por qué algunas fijaciones llevan arandela y otras no?",
             "fr": "Pourquoi certaines fixations ont-elles des rondelles, d'autres non ?",
             "pt": "Por que alguns fixadores usam arruela e outros não?",
-            "de": "Warum bekommen manche Befestiger Scheiben, andere nicht?"
+            "de": "Warum bekommen manche Befestiger Scheiben, andere nicht?",
+            "ja": "ワッシャーを使う締結具と使わないものの違いは何ですか？"
           },
           "a": {
             "en": "Washers distribute load over a larger area for soft materials, prevent surface damage, and can provide locking function. Always follow manufacturer specifications.",
@@ -258,7 +265,8 @@
             "es": "La arandela reparte la carga sobre una superficie mayor en materiales blandos, evita daños en la superficie y puede aportar función de bloqueo. Hay que seguir siempre las especificaciones del fabricante. En juntas críticas, la ausencia de arandela debe justificarse en el plano de montaje.",
             "fr": "Les rondelles répartissent la charge sur une plus grande surface pour les matériaux tendres, protègent la surface et peuvent assurer une fonction de blocage. On suit toujours les spécifications du fabricant. L'ajout d'une rondelle ne remplace pas le choix de la classe ni le couple adapté à l'assemblage.",
             "pt": "As arruelas distribuem a carga em uma área maior em materiais macios, protegem a superfície e podem dar função de trava. Segue-se sempre a especificação do fabricante. A necessidade de arruela depende da superfície de apoio, da dureza do material base e do método de trava da junta, não do costume de montagem.",
-            "de": "Scheiben verteilen die Last auf einer größeren Fläche bei weichen Werkstoffen, schützen die Oberfläche und können eine Sicherungsfunktion übernehmen. Folgen Sie stets den Herstellerspezifikationen."
+            "de": "Scheiben verteilen die Last auf einer größeren Fläche bei weichen Werkstoffen, schützen die Oberfläche und können eine Sicherungsfunktion übernehmen. Folgen Sie stets den Herstellerspezifikationen.",
+            "ja": "ワッシャーは軟らかい材料で受圧面積を広げ、表面の傷を防ぎ、緩み止めの役割を持つこともあります。材料と荷重に合わせて使用の有無を決め、製造元の仕様に従ってください。軟質材や相手材の陥没が懸念される箇所では平ワッシャーを挟みます。相手材の種類に合わせてワッシャーの有無を判断し、締付け後の表面状態も確認してください。"
           }
         },
         {
@@ -271,7 +279,8 @@
             "es": "¿Fijaciones métricas o imperiales en el coche?",
             "fr": "Différence fixations métriques et impériales automobile ?",
             "pt": "Qual a diferença entre fixador métrico e imperial no automotivo?",
-            "de": "Was unterscheidet metrische und imperiale Auto-Befestiger?"
+            "de": "Was unterscheidet metrische und imperiale Auto-Befestiger?",
+            "ja": "メートル系とインチ系の自動車用締結具はどう違いますか？"
           },
           "a": {
             "en": "Most modern vehicles use metric fasteners. Some older American vehicles and some heavy-duty applications use imperial (UNC/UNF) threads. Always verify thread pitch before purchasing replacements.",
@@ -282,7 +291,8 @@
             "es": "La mayoría de vehículos modernos usan fijaciones métricas. Algunos vehículos estadounidenses antiguos y ciertas aplicaciones de servicio pesado usan roscas imperiales (UNC/UNF). Antes de comprar recambios hay que verificar siempre el paso de rosca, porque ambas no son intercambiables.",
             "fr": "La plupart des véhicules modernes utilisent des fixations métriques. Certains véhicules américains anciens et certaines applications lourdes emploient des filets impériaux (UNC/UNF). On vérifie toujours le pas de filet avant d'acheter des pièces de remplacement, car une substitution de pas ne se rattrape pas au montage.",
             "pt": "A maioria dos veículos modernos usa fixadores métricos. Alguns veículos americanos mais antigos e algumas aplicações pesadas usam rosca imperial, UNC/UNF. Confere-se sempre o passo da rosca antes de comprar substitutos. A mistura entre sistema métrico e polegada não é aceita em montagem, pois o furo e a porca não engastam corretamente.",
-            "de": "Die meisten modernen Fahrzeuge nutzen metrische Befestiger. Einige ältere amerikanische Fahrzeuge und bestimmte Schwerlastanwendungen verwenden imperiale Gewinde (UNC/UNF). Prüfen Sie vor dem Kauf von Ersatzteilen stets die Gewindesteigung."
+            "de": "Die meisten modernen Fahrzeuge nutzen metrische Befestiger. Einige ältere amerikanische Fahrzeuge und bestimmte Schwerlastanwendungen verwenden imperiale Gewinde (UNC/UNF). Prüfen Sie vor dem Kauf von Ersatzteilen stets die Gewindesteigung.",
+            "ja": "近年の車両の多くはメートル系締結具を使います。古い北米製車や一部の重型用途ではインチ（UNC/UNF）ねじが使われます。交換品を購入に先立ちねじピッチを必ず確認してください。径が同じでもピッチが違えばかみ合わず、締結不良の原因になります。交換時には元のねじ規格を図面で確認し、径とピッチを記録してください。"
           }
         }
       ]
