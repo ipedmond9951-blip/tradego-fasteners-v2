@@ -195,7 +195,8 @@
             "es": "¿Qué diferencia hay entre rosca gruesa y fina en pernos de cuello?",
             "pt": "Qual a diferença entre rosca grossa e fina no parafuso de alavanca?",
             "fr": "Quelle différence entre filetage gros et fin sur boulons carrossiers ?",
-            "de": "Was unterscheidet grobes und feines Gewinde bei Karosserieschrauben?"
+            "de": "Was unterscheidet grobes und feines Gewinde bei Karosserieschrauben?",
+            "ja": "並目ねじと細目ねじのキャリッジボルトの違いは何ですか？"
           },
           "a": {
             "en": "Coarse thread (standard pitch) is more common and easier to install, resists cross-threading, and performs better in wood. Fine thread provides higher clamping force and better vibration resistance but is harder to source in some markets.",
@@ -206,7 +207,8 @@
             "es": "La rosca gruesa (paso estándar) es la más común y fácil de instalar, resiste el cruce de rosca y va mejor en madera. La rosca fina da mayor fuerza de apriete y mejor resistencia a la vibración, pero en algunos mercados es más difícil de conseguir. La elección depende del material y del tipo de unión.",
             "pt": "A rosca grossa, passo padrão, é mais comum e fácil de instalar, resiste ao cruzamento de rosca e se desempenha melhor na madeira. A rosca fina dá força de aperto maior e melhor resistência à vibração, mas é mais difícil de encontrar em alguns mercados. A escolha depende do material base e do tipo de junta, não apenas do tamanho nominal.",
             "fr": "Le filetage gros (pas standard) est plus courant et plus facile à poser, résiste au croisement de filetage et se comporte mieux dans le bois. Le filetage fin donne une force de serrage plus élevée et une meilleure résistance aux vibrations, mais il est plus difficile à trouver sur certains marchés. Le choix dépend de l'assemblage et de l'environnement vibratoire du projet.",
-            "de": "Grobes Gewinde, Standardsteigung, ist üblicher und leichter zu montieren, widersteht Falschgewinden und funktioniert besser in Holz. Feines Gewinde liefert höhere Spannkraft und besseren Vibrationswiderstand, ist in manchen Märkten aber schwerer zu beziehen."
+            "de": "Grobes Gewinde, Standardsteigung, ist üblicher und leichter zu montieren, widersteht Falschgewinden und funktioniert besser in Holz. Feines Gewinde liefert höhere Spannkraft und besseren Vibrationswiderstand, ist in manchen Märkten aber schwerer zu beziehen.",
+            "ja": "並目ねじ（標準ピッチ）が一般的で取り付けやすく、ねじ山のかみ違いに強く、木材での性能も良いです。細目ねじは締付け力が高く振動への耐性も優れますが、一部の市場では入手が難しいことがあります。木材への使用や標準的な固定には並目を、高いクランプ力が要る箇所には細目を検討してください。相手材料の硬さと振動環境に合わせて選びます。"
           }
         },
         {
@@ -219,7 +221,8 @@
             "es": "¿Pueden usarse pernos de cuello en uniones acero-acero?",
             "pt": "Parafusos de alavanca servem em ligação aço-aço?",
             "fr": "Les boulons carrossiers peuvent-ils aller en liaison acier-acier ?",
-            "de": "Können Karosserieschrauben in Stahl-Stahl-Verbindungen genutzt werden?"
+            "de": "Können Karosserieschrauben in Stahl-Stahl-Verbindungen genutzt werden?",
+            "ja": "キャリッジボルトは鋼同士の接続に使えますか？"
           },
           "a": {
             "en": "Generally no. The square neck is designed to embed into wood or similar soft materials to prevent rotation. In steel-to-steel connections, the neck cannot lock, and standard hex bolts or structural bolts should be used instead.",
@@ -230,7 +233,8 @@
             "es": "Generalmente no. El cuello cuadrado está diseñado para embeberse en madera o materiales blandos parecidos y así evitar el giro. En una unión acero-acero el cuello no se traba, y deben usarse pernos hexagonales o estructurales estándar. Si la superficie es metálica, busque otro tipo de cabeza.",
             "pt": "Em geral, não. O pescoço quadrado foi projetado para embutir na madeira ou material macio similar e evitar rotação. Na ligação aço-aço, o pescoço não trava, e devem ser usados parafusos sextavados ou parafusos estruturais no lugar. O uso indevido nesse tipo de junta pode soltar sob vibração e reduzir a capacidade de carga.",
             "fr": "En général non. Le carré de coulée est conçu pour se loger dans le bois ou un matériau tendre similaire et empêcher la rotation. En liaison acier-acier, le coulée ne peut pas se bloquer, et il faut utiliser plutôt des boulons hexagonaux ou des boulons structurels. Vérifiez la nature des matériaux avant de choisir la tête.",
-            "de": "In der Regel nein. Der Vierkantansatz ist dafür ausgelegt, sich in Holz oder ähnlich weiche Werkstoffe einzubetten und Drehen zu verhindern. In Stahl-Stahl-Verbindungen kann der Ansatz nicht sperren, statt dessen sind normale Sechskantschrauben oder Strukturschrauben zu verwenden."
+            "de": "In der Regel nein. Der Vierkantansatz ist dafür ausgelegt, sich in Holz oder ähnlich weiche Werkstoffe einzubetten und Drehen zu verhindern. In Stahl-Stahl-Verbindungen kann der Ansatz nicht sperren, statt dessen sind normale Sechskantschrauben oder Strukturschrauben zu verwenden.",
+            "ja": "一般的には使えません。角根は木材や似た柔らかい材料に埋まって回転を止めるよう設計されています。鋼同士の接続では角根が効かず、代わりに標準六角ボルトまたは構造用ボルトを使うべきです。相手材料の硬さを確認し、回り止めが利く接合を選んでください。"
           }
         },
         {
@@ -243,7 +247,8 @@
             "es": "¿Para qué sirve el cuello cuadrado de un perno de cuello?",
             "pt": "Para que serve o pescoço quadrado do parafuso de alavanca?",
             "fr": "À quoi sert le coulée carré d'un boulon carrossier ?",
-            "de": "Wozu dient der Vierkantansatz einer Karosserieschraube?"
+            "de": "Wozu dient der Vierkantansatz einer Karosserieschraube?",
+            "ja": "キャリッジボルトの角根は何のためにありますか？"
           },
           "a": {
             "en": "The square neck beds into a square hole in timber or steel and stops the bolt from turning, so it can be installed from one side without a second wrench. Hole size must match the neck or the bolt spins and the neck tears the material.",
@@ -254,7 +259,8 @@
             "es": "El cuello cuadrado encaja en un hueco cuadrado de la madera o el acero y frena el giro del perno, de modo que se instala desde un solo lado sin segunda llave. El tamaño del hueco debe coincidir con el cuello, o el perno gira y el cuello desgarra el material. Un ajuste justo mantiene la sujeción durante el apriete.",
             "pt": "O pescoço quadrado assenta em um furo quadrado na madeira ou no aço e impede que o parafuso gire, de modo que ele possa ser instalado de um lado sem segunda chave. O tamanho do furo deve bater com o pescoço, senão o parafuso gira e o pescoço rasga o material. Na chapa fina, confere-se também a profundidade de embutimento do pescoço.",
             "fr": "Le coulée carré se loge dans un trou carré du bois ou de l'acier et empêche le boulon de tourner, ce qui permet de le poser d'un seul côté sans deuxième clé. Le trou doit correspondre au coulée, sinon le boulon pivote et le coulée déchire le matériau. Un ajustement trop large perd l'effet anti-rotation recherché.",
-            "de": "Der Vierkantansatz legt sich in ein Vierkantloch in Holz oder Stahl und verhindert das Drehen der Schraube, so dass sie von einer Seite ohne zweiten Schraubenschlüssel montiert werden kann. Die Lochgröße muss zum Ansatz passen, sonst dreht sich die Schraube und der Ansatz beschädigt das Material."
+            "de": "Der Vierkantansatz legt sich in ein Vierkantloch in Holz oder Stahl und verhindert das Drehen der Schraube, so dass sie von einer Seite ohne zweiten Schraubenschlüssel montiert werden kann. Die Lochgröße muss zum Ansatz passen, sonst dreht sich die Schraube und der Ansatz beschädigt das Material.",
+            "ja": "角根は木材または鋼の四角い穴に収まってボルトの回転を止め、片側からもう一本のレンチなしで取り付けられるようにします。穴の大きさが角根に合っていないとボルトが空回りし、角根が材料を破ります。穴径と根の形状を図面で照合してください。座面と穴の寸法を図面と突き合わせ、施工時に回り止めが効くことを確認してください。"
           }
         },
         {
@@ -267,7 +273,8 @@
             "es": "¿En qué grados se fabrican los pernos de cuello?",
             "pt": "Em quais classes se fabricam os parafusos de alavanca?",
             "fr": "En quels grades les boulons carrossiers sont-ils fabriqués ?",
-            "de": "Aus welchen Güteklassen werden Karosserieschrauben gefertigt?"
+            "de": "Aus welchen Güteklassen werden Karosserieschrauben gefertigt?",
+            "ja": "キャリッジボルトはどの等級で作られますか？"
           },
           "a": {
             "en": "Common supply is SAE J429 Grade 2 and Grade 5 for inch sizes, with metric equivalents around 4.6/4.8 and 8.8. Head markings show the grade. For structural timber connections confirm the required grade and coating before ordering, since Grade 2 is not a structural bolt.",
@@ -278,7 +285,8 @@
             "es": "El suministro común es SAE J429 Grado 2 y Grado 5 en tamaños en pulgada, con equivalentes métricos alrededor de 4.6/4.8 y 8.8. Las marcas de cabeza indican el grado. En uniones estructurales de madera confirme el grado y el recubrimiento antes de pedir, porque el Grado 2 no es un perno estructural.",
             "pt": "O fornecimento comum é SAE J429 Grade 2 e Grade 5 nas medidas em polegada, com equivalentes métricos em torno de 4.6/4.8 e 8.8. As marcações na cabeça indicam a classe. Em ligações estruturais de madeira, confirma-se a classe e o revestimento exigidos antes do pedido, pois a Grade 2 não é parafuso estrutural.",
             "fr": "L'offre courante est SAE J429 Grade 2 et Grade 5 pour les tailles en pouce, avec équivalents métriques autour de 4.6/4.8 et 8.8. Le marquage de tête indique le grade. Pour les liaisons bois structurales, confirmez le grade et le revêtement avant commande, car le Grade 2 n'est pas un boulon structural. La charge d'usage doit rester dans la classe validée.",
-            "de": "Üblich sind Zollgrößen nach SAE J429 Güte 2 und Güte 5, metrische Entsprechungen etwa 4.6/4.8 und 8.8. Die Kopfmarkierung zeigt die Güte. Für tragende Holzverbindungen sind vor der Bestellung die geforderte Güte und Beschichtung zu bestätigen, denn Güte 2 ist keine Strukturschraube."
+            "de": "Üblich sind Zollgrößen nach SAE J429 Güte 2 und Güte 5, metrische Entsprechungen etwa 4.6/4.8 und 8.8. Die Kopfmarkierung zeigt die Güte. Für tragende Holzverbindungen sind vor der Bestellung die geforderte Güte und Beschichtung zu bestätigen, denn Güte 2 ist keine Strukturschraube.",
+            "ja": "入手が多いのはインチサイズのSAE J429 Grade 2とGrade 5で、メートル系の相当は4.6/4.8や8.8付近です。頭部のマークが等級を示します。構造用木材接続では発注に先立ち必要な等級と被覆を確認してください。Grade 2は構造用ボルトではない点に注意します。"
           }
         },
         {
@@ -291,7 +299,8 @@
             "es": "¿Cómo elegir la longitud y la rosca del perno de cuello?",
             "pt": "Como escolher comprimento e rosca do parafuso de alavanca?",
             "fr": "Comment choisir la longueur et le filetage d'un boulon carrossier ?",
-            "de": "Wie wählt man Länge und Gewindelänge der Karosserieschraube?"
+            "de": "Wie wählt man Länge und Gewindelänge der Karosserieschraube?",
+            "ja": "キャリッジボルトの長さとねじ部長さはどう選びますか？"
           },
           "a": {
             "en": "Length equals the total thickness of joined parts plus nut and washer stack. The threaded portion must be at least the nut height plus two or three pitches, and no thread may sit inside the shear plane of a structural joint. Galvanized bolts need oversize nuts to fit.",
@@ -302,7 +311,8 @@
             "es": "La longitud equivale al grosor total de las piezas unidas más la pila de tuerca y arandela. La parte roscada debe medir al menos la altura de la tuerca más dos o tres pasos, y ninguna rosca debe quedar dentro del plano de cizallamiento de una unión estructural. Los pernos galvanizados necesitan tuercas de sobremedida para encajar.",
             "pt": "O comprimento equivale à espessura total das peças unidas, mais a pilha de porca e arruela. A parte roscada deve ter pelo menos a altura da porca mais dois ou três passos, e nenhuma rosca pode ficar dentro do plano de cisalhamento de uma junta estrutural. Os parafusos galvanizados precisam de porcas sobredimensionadas para ajuste.",
             "fr": "La longueur égale l'épaisseur totale des pièces assemblées plus l'empilement écrou et rondelle. La partie filetée doit atteindre au moins la hauteur d'écrou plus deux ou trois pas de filetage, et aucun filetage ne doit se placer dans le plan de cisaillement d'un joint structural. Les boulons galvanisés exigent des écrous surdimensionnés pour l'ajustement. Vérifiez la longueur sur les pièces réelles.",
-            "de": "Die Länge ergibt sich aus der Gesamtdicke der verbundenen Teile plus Mutter und Scheibenstapel. Der Gewindeanteil muss mindestens der Mutterhöhe plus zwei oder drei Steigungen entsprechen, und im Scherschnitt einer Tragverbindung darf kein Gewinde sitzen. Verzinkte Schrauben brauchen Übergrößenmuttern."
+            "de": "Die Länge ergibt sich aus der Gesamtdicke der verbundenen Teile plus Mutter und Scheibenstapel. Der Gewindeanteil muss mindestens der Mutterhöhe plus zwei oder drei Steigungen entsprechen, und im Scherschnitt einer Tragverbindung darf kein Gewinde sitzen. Verzinkte Schrauben brauchen Übergrößenmuttern.",
+            "ja": "長さは接合部品の合計厚みにナットと座金の積み重ねを加えたものです。ねじ部は少なくともナット高さに二、三ピッチ分を加えた長さが要り、構造接続のせん断面の中にねじ部を入れてはいけません。溶融亜鉛めっきボルトには収まるオーバーサイズナットが必要です。"
           }
         }
       ]
