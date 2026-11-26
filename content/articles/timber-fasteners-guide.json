@@ -60,7 +60,7 @@
     {
       "id": "coach-screws",
       "heading": {
-        "en": "Coach Screws (Lag Screws)",
+        "en": "When should a timber joint use a coach screw instead of a wood screw?",
         "es": "Tornillos tirafondo",
         "ar": "براغي تثبيت خشبية (Tirafondo)",
         "fr": "Tirefonds",
@@ -69,7 +69,7 @@
         "ja": "コーチスクリュー（ラグスクリュー）",
         "de": "Holzschrauben mit Sechskantkopf (Schlüsselschrauben)",
         "hi": "कोच स्क्रू (लैग स्क्रू)",
-        "zh": "板式螺丝（Lag Screw / 方头木螺丝）"
+        "zh": "木结构接头什么时候用马车螺栓而不是木螺钉？"
       },
       "body": {
         "en": "<p>Coach screws, also called lag screws, do the work that a wood screw cannot: they carry structural load into heavy timber, and they are installed with a spanner rather than a driver. Their geometry reflects that. A hexagonal head accepts a real torque, the shank is thick enough to carry shear across a joint, and the coarse thread is designed to bite into timber rather than to cut a fine path through it. The consequence is that a coach screw needs a pilot hole sized to its shank, and a washer under the head to spread the clamp load.</p>\n<p>Installation decides whether a coach screw performs. The pilot hole should be the shank diameter in the member being pulled and smaller in the member receiving the thread, so that the thread bites without splitting. Driving with an impact tool rather than a steady torque risks over-tightening, which crushes the timber under the washer and removes the preload that the joint depended on. In softwood the crushing is visible; in hardwood it happens first at the surface and shows up later as a loose connection.</p>\n<p>Where a coach screw replaces a bolt in a structural connection, the substitution should be checked rather than assumed. A bolt develops capacity through bearing on the member and shear across its section, with a nut providing the clamp; a coach screw develops capacity through thread engagement in one member only. That single-sided engagement is why coach screws are common in decking, fencing, sleepers and light frame work, and rare in connections that a structural engineer has designed around a bolted joint.</p>\n<p>Durability follows the same logic as wood screws but with higher stakes, because coach screws are used outdoors. Hot-dip galvanised is the baseline for exposed timber, stainless for coastal and preservative-treated applications, and the washer should be of the same material as the screw, since a mismatched washer is the first place a joint rusts.</p>\n\n<p>Where a coach screw is used in a treated timber that is still wet, the joint will loosen as the timber dries and shrinks around the thread. Installing them after the timber has reached its service moisture, or accepting a re-tightening step as part of the programme, avoids the complaint that follows a first summer. Detailing that keeps water off the screw head is worth as much as an extra coating class, because a dry joint survives where a wet one will not.</p>\n\n<p>For buyers comparing offers, the useful question is not which coach screw is cheapest but which quotation states the shank diameter, the thread length, the head diameter and the coating class. Two screws of the same nominal size can differ in the length of the threaded portion, and that difference decides how much of the joint is actually held.</p>\n\n<p>A final site habit: keep one box of the specified coach screws and washers sealed until the inspection walk, so that a missing item can be replaced from the same batch rather than from a mixed bin that has already lost its labelling.</p>",
@@ -152,7 +152,7 @@
             "ja": "コーチねじと木ねじの違いは何ですか？"
           },
           "a": {
-            "en": "Coach screws (lag screws) have a hex head for wrench tightening and are heavy-duty for wood-to-wood connections. Wood screws have slotted or Phillips heads and are lighter duty, designed for assembling wood components.",
+            "en": "Coach screws, also called lag screws to DIN 571, have a hex head driven with a wrench and a coarse thread for heavy timber-to-timber work: deck framing, sleeper retaining walls and roof purlins. Wood screws have a countersunk or pan head, a tapered core and a finer thread, and are driven with a bit for joinery, boards and furniture. Coach screws carry the structural load; wood screws hold a surface. For a joint that must resist withdrawal under load, specify the coach screw and check penetration depth.",
             "zh": "马车螺丝（即 lag screw）带六角头，用扳手拧紧，是木材之间的重型连接件；普通木螺丝是一字或十字槽头，用于较轻的木连接。选型按载荷和连接对象区分：梁柱、龙骨等受力木连接用马车螺丝，饰面和轻固定用普通木螺丝。马车螺丝螺纹粗、头部承压面大，配套扳手工具。订单中写明用途、木材种类和规格，供应商匹配螺钉型式；到货核对槽头或六角头，结构部位不使用普通木螺丝替代重型马车螺丝。",
             "hi": "कोच स्क्रू (लैग स्क्रू) का हेड हेक्स होता है, जिसे रिंच से कसा जाता है; ये लकड़ी-से-लकड़ी जोड़ों के भारी-भरकम काम के लिए बने होते हैं। वुड स्क्रू में स्लॉटेड या फिलिप्स हेड होता है और ये हल्के भार वाले हैं, लकड़ी के हिस्से जोड़ने के लिए डिज़ाइन किए जाते हैं। चुनाव जोड़ के भार और लकड़ी की किस्म के हिसाब से करें।",
             "ru": "Глухарь (coach screw, lag screw) имеет шестигранную головку под ключ и предназначен для тяжёлых деревянных соединений дерево–дерево. Деревянный шуруп имеет шлиц или крестообразный привод и рассчитан на меньшую нагрузку, он собирает деревянные элементы в лёгких конструкциях.",
@@ -178,7 +178,7 @@
             "ja": "デッキの根太にはどのサイズのコーチねじが必要ですか？"
           },
           "a": {
-            "en": "For deck joist connections, M8 × 80mm or M10 × 100mm coach screws are typically used. The screw should penetrate at least 2.5x the thickness of the second board. Check local building codes for specific requirements.",
+            "en": "For deck joists to a rim or ledger, M8 × 80 mm and M10 × 100 mm coach screws are the common sizes, with the screw penetrating at least 2.5 times its diameter into the receiving timber: 20 mm for M8, 25 mm for M10. Two screws per connection, offset from the grain edge by at least 1.5 diameters, hold better than one larger screw. Pre-drill hardwood to the root diameter; in softwood pre-drill only near the ends, where splitting starts.",
             "zh": "露台龙骨连接常用 M8×80 或 M10×100 马车螺丝。螺钉拧入受木方的深度至少达到螺钉直径的二点五倍，以保证握钉力。选型按龙骨厚度、木材硬度和露台载荷确定直径与长度，硬木预钻导向孔。螺钉间距和边距按木结构布置控制，避免木材劈裂。订单中写明龙骨规格、木材种类和连接部位，供应商配套规格；到货核对长度和螺纹，安装后检查握钉和紧固状态。",
             "hi": "डेक जॉइस्ट जोड़ों में आम तौर पर M8 × 80mm या M10 × 100mm कोच स्क्रू इस्तेमाल होते हैं। स्क्रू को दूसरे तख्ते में उसकी मोटाई के कम से कम 2.5 गुना तक घुसना चाहिए। खास शर्तों के लिए स्थानीय बिल्डिंग कोड ज़रूर देख लें, क्योंकि कुछ परियोजनाएं अलग माप या ग्रेड मांगती हैं।",
             "ru": "Для соединения лаг террасы обычно ставят глухари M8 × 80 мм или M10 × 100 мм. Винт должен входить в примыкающую доску минимум в 2,5 раза толщины этой доски. Конкретные требования сверяйте с местными строительными нормами.",
@@ -204,7 +204,7 @@
             "ja": "防腐処理木材にコーチねじを使えますか？"
           },
           "a": {
-            "en": "Yes, hot-dip galvanized (HDG) coach screws are recommended for ACQ (alkaline copper quaternary) pressure-treated timber. Standard zinc-plated screws may corrode. Always check the coating compatibility with your treatment type.",
+            "en": "Yes, but use hot-dip galvanized to ISO 1461 or stainless, not electroplated. ACQ and copper azole treatments are alkaline and aggressive: a zinc-plated screw loses its coating and rusts within a season, and the corrosion products stain the timber. Stainless A2 is the default for exposed decking in coastal air, A4 where chlorides are heavy. Keep the coating class consistent across screws, connectors and joist hangers, because a galvanized hanger with plated screws creates a small galvanic cell at every fixing point.",
             "zh": "防腐处理木材上建议用热浸镀锌（HDG）马车螺丝，适配 ACQ（碱性铜季铵盐）加压处理木材；普通电镀锌螺丝在这类木材中会较快腐蚀。选型按防腐药剂种类和暴露环境选择镀层，沿海或潮湿部位可升级不锈钢。防腐木中的化学药剂会加速亮锌和薄镀层消耗，不能用普通镀锌件。订单中写明木材处理方式和镀层要求，供应商匹配防腐等级；到货核对镀层标记，安装后复查锈点和松动。",
             "hi": "चल सकते हैं, पर ACQ (अल्कलाइन कॉपर क्वाटर्नरी) प्रेशर-ट्रीटेड लकड़ी के लिए हॉट-डिप गैल्वनाइज़्ड (HDG) कोच स्क्रू की सिफ़ारिश की जाती है। साधारण ज़िंक-प्लेटेड स्क्रू ऐसी लकड़ी में जल्दी कट सकते हैं। अपनी ट्रीटमेंट किस्म के साथ कोटिंग की अनुकूलता हमेशा पहले जांच लें।",
             "ru": "Да, для древесины, обработанной пропиткой ACQ (щелочная медь четвертичная), рекомендуют глухари горячего цинкования (HDG). Обычный оцинкованный винт в такой древесине может корродировать; совместимость покрытия с типом пропитки проверяйте заранее.",
@@ -230,7 +230,7 @@
             "ja": "コーチねじに下穴は必要ですか？"
           },
           "a": {
-            "en": "Yes, especially for hardwoods. Pre-drill a pilot hole equal to the screw's root (core) diameter. This prevents splitting and ensures proper thread engagement. For softwoods, you may skip pre-drilling for smaller sizes.",
+            "en": "Pre-drill a pilot hole equal to the screw's root, or core, diameter: about 5 mm for an M8 coach screw and 6.5 mm for M10. This removes the risk of splitting in hardwood and in softwood near the ends, and lowers the driving torque, which matters with a long screw and a battery driver. Do not pre-drill to the full diameter, because the thread needs material to bite. In green or wet timber drill slightly larger to allow for shrinkage as the section dries.",
             "zh": "马车螺丝需要预先钻导向孔，硬木尤其必要。导向孔直径等于螺钉根部（芯径），可防止木材劈裂并保证螺纹正常咬合。软木按芯径钻孔，硬木用略小孔径；钻孔避开木节和裂纹，孔深与拧入深度对应。组装前在边角料试钻试拧，确认配合顺畅。订单中写明木材硬度和螺钉规格，钻头按芯径配套；安装时控制拧入进度，不强行攻入，避免木材开裂或螺纹损伤。",
             "hi": "हां, खासकर सख्त लकड़ी (हार्डवुड) में। स्क्रू के रूट (कोर) व्यास के बराबर पायलट होल पहले ड्रिल करें; इससे लकड़ी फटती नहीं और धागा सही जुड़ता है। नरम लकड़ी (सॉफ्टवुड) में छोटे साइज़ के लिए पायलट होल छोड़ा जा सकता है, पर मोटे जोड़ों में यही तरीका सुरक्षित रहता है।",
             "ru": "Да, особенно в твёрдой древесине. Сверлят направляющее отверстие диаметром по внутреннему, сердечному, диаметру резьбы; это предотвращает раскол и обеспечивает нормальное вхождение резьбы. В мягкой древесине для небольших размеров предварительное сверление можно пропустить.",
@@ -256,7 +256,7 @@
             "ja": "コーチねじは相手木材にどのくらい貫入させるべきですか？"
           },
           "a": {
-            "en": "For proper holding power, coach screws should penetrate at least 2.5x the screw diameter into the receiving timber. For an M10 screw, that means at least 25mm penetration into the second board.",
+            "en": "Penetration into the receiving timber should be at least 2.5 times the screw diameter for full withdrawal capacity: 20 mm for M8, 25 mm for M10, 30 mm for M12. Where the receiving member is too thin, use a through-bolt with a washer and nut rather than a longer screw, because a screw that penetrates less than 1.5 diameters loses most of its capacity. Check the penetration figure against the actual section, not the nominal one, since sawn timber runs undersize.",
             "zh": "为保证握钉力，马车螺丝拧入第二根木料的深度至少达到螺钉直径的二点五倍。以 M10 螺丝为例，相应最小拧入深度按该比例计算。选型按受木厚度和螺钉直径核对埋入深度，深度不足会导致握钉力不够，过长则可能穿透背面。硬木配合导向孔，螺钉长度与构件厚度匹配。订单中写明构件厚度和螺钉规格，供应商匹配长度；安装后测量有效拧入深度，结构连接不使用埋深不足的螺钉。",
             "hi": "सही पकड़ के लिए कोच स्क्रू को सामने वाली लकड़ी में स्क्रू व्यास के कम से कम 2.5 गुना तक घुसाना चाहिए। M10 स्क्रू के लिए इसका मतलब है दूसरे तख्ते में कम से कम 25mm की घुसाव। कम घुसाव पर पकड़ कमज़ोर पड़ती है, इसलिए माप नाप से पहले जोड़ की लोड गणना ज़रूर देखें।",
             "ru": "Для надёжного удержания глухарь входит в принимающую древесину минимум на 2,5 диаметра винта. Для винта M10 это означает не менее 25 мм захода во вторую доску.",
@@ -371,7 +371,7 @@
     ]
   },
   "region": "global",
-  "updated": "2026-11-24",
+  "updated": "2026-11-27",
   "metaDescription": {
     "en": "Wood screws are designed for fastening wood to wood: Types: - Flat head: Countersinks for flush surface - Round head: Provides bearing surface - Bugle head",
     "zh": "木工紧固件完整指南。了解木螺丝、马车螺丝、木结构连接件和木框架建筑的正确选择。",

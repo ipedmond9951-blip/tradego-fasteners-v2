@@ -2,7 +2,7 @@
   "slug": "tanzania-dar-es-salaam-port-fastener-import-procedure",
   "category": "Market Analysis",
   "date": "2026-08-09",
-  "updated": "2026-11-22",
+  "updated": "2026-11-27",
   "readTime": 6,
   "region": "africa",
   "image": "/images/articles/tanzania-dar-es-salaam-port-fastener-import-procedure.jpg",
@@ -131,8 +131,8 @@
     {
       "id": "pre-shipment",
       "heading": {
-        "en": "Step 1–2: Before the Container Leaves the Factory",
-        "zh": "第 1–2 步：集装箱出厂之前",
+        "en": "What has to be done before the container leaves the factory?",
+        "zh": "集装箱出厂前必须先办哪些事？",
         "ar": "الخطوتان 1–2: قبل مغادرة الحاوية للمصنع",
         "es": "Pasos 1–2: antes de que el contenedor salga de la fábrica",
         "fr": "Étapes 1–2 : avant que le conteneur ne quitte l'usine",
@@ -212,8 +212,8 @@
     {
       "id": "pitfalls",
       "heading": {
-        "en": "The Five Failures That Repeat on This Route",
-        "zh": "这条线上反复出现的五个问题",
+        "en": "Which five failures repeat on the Dar es Salaam route?",
+        "zh": "达累斯萨拉姆这条线反复出现哪五个失误？",
         "ar": "الأعطال الخمسة التي تتكرر على هذا المسار",
         "es": "Los cinco fallos que se repiten en esta ruta",
         "fr": "Les cinq défauts qui se répètent sur cette route",
@@ -265,7 +265,7 @@
             "ja": "タンザニアに輸入する留め具はどの HS 番号に該当しますか？"
           },
           "a": {
-            "en": "Bolts, nuts, screws, and similar fasteners fall under HS heading 7318. Duty and VAT follow the specific tariff line, and declared values must be defensible against comparable shipments.",
+            "en": "Fasteners sit under HS 7318: screws, bolts, nuts, coach screws, threaded articles and similar goods of iron or steel, with subheadings split by product type. Duty and VAT follow the specific tariff line, and the rate you are quoted depends on how the goods are described, so the invoice description should name the product, the standard and the material rather than a generic hardware line. A wrong subheading is the fastest route to a query, and queries on this corridor are resolved at the port, in person.",
             "zh": "螺栓、螺母、螺钉及类似紧固件归入 HS 税号 7318 项下。关税和增值税按具体税目确定，申报价格应能与合同、发票和成交依据对应。归类时写明品名、材质、等级和用途，便于准确确定税则号列；结构批次附质保记录。订单中写明产品明细和归类口径，供应商配合发票和装箱单；发货前由报关专家核对税号和申报依据，避免到港后因归类争议或价格核实延误放行。",
             "hi": "बोल्ट, नट, स्क्रू और इसी तरह के फास्टनर HS heading 7318 के तहत आते हैं। शुल्क और VAT उसी टैरिफ लाइन के अनुसार लगते हैं, और घोषित मूल्य तुलनीय खेपों के सामने तर्कसंगत बना रहना चाहिए; कम दिखाया गया मूल्य निकासी में रुकावट बनता है।",
             "ru": "Болты, гайки, винты и аналогичный крепёж относятся к позиции HS 7318. Пошлина и НДС следуют конкретной тарифной строке, а заявленная стоимость должна быть обоснованной по сравнению с сопоставимыми отгрузками.",
@@ -291,7 +291,7 @@
             "ja": "適合性評価はいつ手配すべきですか？"
           },
           "a": {
-            "en": "Before the container leaves the factory. Applying after arrival is the most common cause of clearance running from weeks into months.",
+            "en": "Conformity assessment should be arranged before the container leaves the factory, because the applicable Tanzanian standard and the sampling plan decide what the goods must be tested against. Applying after arrival is the most common cause of clearance running from weeks into months: the goods sit on the quay, storage accrues, and the inspection body schedules when it schedules. Book the pre-shipment inspection against the correct standard reference, keep the mill certificates per heat lot with the invoice, and confirm consignee details before the bill of lading is issued.",
             "zh": "符合性评定应在集装箱离开工厂之前办理。到港后再申请，是清关从数周拖到数月的最常见原因。流程上先确定适用标准和检验范围，批次留样送验，证书与批次货物对应；产品按相关标准组织生产，符合性证书按订单要求提供。订单中写明认证节点和文件要求，供应商在排产阶段配合取样和审核；结构批次保留质保记录，发货前备齐文件，避免货物到港后补办评定造成港区扣留和堆存。",
             "hi": "कंटेनर को फ़ैक्टरी से रवाना करने से पहले ही अनुरूपता मूल्यांकन पूरा कर लें। माल पहुंचने के बाद आवेदन करना सबसे आम वजह है जिससे निकासी हफ्तों से बढ़कर महीनों तक चली जाती है।",
             "ru": "До того как контейнер покинет завод. Обращение после прибытия — самая частая причина, по которой оформление растягивается с недель на месяцы.",
@@ -317,7 +317,7 @@
             "ja": "ダルエスサラームの貨物をザンビアやコンゴ民主共和国へ通過させられますか？"
           },
           "a": {
-            "en": "Yes. Transit cargo moves under a transit bond on designated routes, and the paperwork must name the correct exit border post.",
+            "en": "Yes. Transit cargo moves under a transit bond on designated routes, and the paperwork must name the correct exit border post: Tunduma for Zambia, Kigoma or Kabanga for the lake and DRC corridors. The bond is discharged at exit, so the container must actually leave through the declared post; diverting inside the country voids the bond and triggers duty on the full consignment. Keep the transit documents with the driver rather than in a sealed folder at the office, and allow extra days because the border posts work to their own rhythm.",
             "zh": "达累斯萨拉姆的货物可以转运赞比亚或刚果（金）。过境货物按过境担保在指定路线运输，单证上必须写明正确的出境口岸。转运文件、申报和批次标记保持一致，包装适应长途陆运；交接责任点写进合同。订单中写明最终目的地、过境路线和交接安排，与货代确认口岸和担保要求；结构批次提前锁文件，首批发货跑通过境通道后再放量，避免口岸排队或单证不符造成滞留。",
             "hi": "हां। ट्रांजिट माल निर्धारित मार्ग पर ट्रांजिट बॉन्ड के तहत जाता है, और कागज़ात में सही निकासी सीमा चौक का नाम दर्ज होना चाहिए; गलत चौक लिखने पर मार्ग में रोक लग सकती है।",
             "ru": "Да. Транзитный груз идёт под транзитной гарантией по установленным маршрутам, а в документации должен быть указан правильный пограничный пункт выхода.",
@@ -343,7 +343,7 @@
             "ja": "内陸配送は道路と鉄道のどちらを選びますか？"
           },
           "a": {
-            "en": "Road is faster for smaller lots and lower risk on a first shipment. Rail is cheaper per tonne for heavy fastener cargo but requires planning around departure schedules.",
+            "en": "Road is faster for smaller lots and lower risk on a first shipment: a 20-foot container moves to Dodoma or Mbeya within one to three days of clearance, and you can inspect at destination. Rail, on the Tanzania-Zambia Railway or the central line, is cheaper per tonne for heavy fastener cargo and less exposed to axle-load enforcement, but the schedule is fixed and a loss-and-damage claim resolves slowly. For a first order under ten tonnes use road; for repeat structural tonnage use rail plus a short truck leg.",
             "zh": "内陆派送选公路还是铁路，看批量和时效。小批量和首批货走公路更快、风险更低；重型紧固件批量走铁路每吨成本更优，但要围绕发车时刻和装卸计划安排。选型结合货物目的地、批量、交期和内陆路况，两种方式可分段衔接。订单中写明批量、目的地和交期节点，与货代核对班期和装卸条件；运输包装适应不同方式的搬运，批次标记便于沿途核对，避免到港后内陆衔接滞后影响工地安装。",
             "hi": "छोटी खेप और पहली बार की डिलीवरी में सड़क तेज़ होती है और जोखिम कम रहता है। भारी फास्टनर माल के लिए रेल प्रति टन सस्ती पड़ती है, लेकिन रवानगी समय-सारणी के हिसाब से योजना बनानी पड़ती है।",
             "ru": "Автомобильный транспорт быстрее для небольших партий и при первом отгрузке несёт меньший риск. Железная дорога дешевле за тонну для тяжёлого крепежа, но требует планирования под расписание отправлений.",

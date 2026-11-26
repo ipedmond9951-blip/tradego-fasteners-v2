@@ -60,7 +60,7 @@
     {
       "id": "solar",
       "heading": {
-        "en": "Solar Panel Mounting Fasteners",
+        "en": "What does a solar mounting system need from its fasteners?",
         "es": "Sujetadores para Montaje de Paneles Solares",
         "ar": "مثبتات تركيب الألواح الشمسية",
         "fr": "Fixations pour le montage de panneaux solaires",
@@ -69,7 +69,7 @@
         "ja": "太陽光パネル取り付けファスナー",
         "de": "Befestigungselemente für Solarmodul-Montage",
         "hi": "सौर पैनल माउंटिंग फास्टनर",
-        "zh": "太阳能电池板安装紧固件"
+        "zh": "光伏支架对紧固件有什么要求？"
       },
       "body": {
         "en": "<p>Solar mounting is a different problem: the structure is light, the loads are wind and thermal, and the asset is expected to sit in the weather for a very long time. The fasteners are a small part of the capital cost and a large part of the maintenance risk, which is why the specification is driven by corrosion rather than by strength.</p>\n<p>Ground mount structures typically combine hot-dip galvanised steel with galvanised or zinc-flake coated fasteners, on the logic that the structure and the fastener should weather at a similar rate. Where the array sits near the coast or in a saline industrial atmosphere, the specification moves to stainless in the exposed positions and to a deliberate separation of dissimilar metals at the interfaces. Rooftop mounting adds a different constraint: the fastener must not create a leak path, so sealing washers, correct clamping of the rail and a defined tightening method matter more than the class of the bolt.</p>\n<p>Thermal cycling is the failure mode that gets underestimated. A mounting frame heats and cools every day, and a joint that was tight at commissioning relaxes as the seasons pass; a fastener that resists that has both adequate preload and a locking element, and the design should say which. Wind adds vibration, and the array's own geometry turns a steady wind into oscillating load on the rail connections.</p>\n<p>The interfaces are where dissimilar metals meet and where most field corrosion starts: aluminium rail against galvanised bracket, stainless bolt against aluminium profile, coated steel against concrete. Each pairing is manageable, but only if it was designed rather than discovered, and the practical remedies are isolation washers, matching coatings and draining the detail so water does not sit at the joint.</p>\n<p>For procurement, the useful specification states the substrate, the exposure, the expected service and the fastening method — and then buys the coating that matches, with a certificate for the batch. An array that is planned around a long service life cannot be fastened with parts whose coating was chosen to meet a unit price.</p>\n\n<p>Panel clamps and rail fixings are a separate family from the structural frame and are often bought as a kit. A kit is convenient and it also hides the coating decision inside a part number, so the buyer should confirm what the clamp and the bolt are coated with rather than assume that the kit's price reflects the exposure on site.</p>\n\n<p>Service life drives the maintenance plan as much as the material does. An array designed to be untouched needs fasteners whose coating is chosen to outlast the warranty, because the alternative is a crew on the roof inspecting joints that were never meant to be inspected.</p>\n\n<p>The specification that survives a decade of weather is the one written around the exposure, the substrate and the service life at the same time, and the coating follows from those three rather than from the quotation sheet.</p>\n\n<p>Two small items finish the picture for a solar buyer: the bolt that holds the rail and the bolt that grounds the array are not always the same bolt, and keeping them separate avoids buying an insulated part for a joint that needs to conduct.</p>",
@@ -178,7 +178,7 @@
             "ja": "各分野が最も求めているものは何ですか？"
           },
           "a": {
-            "en": "Construction is dominated by structural bolts, anchors and roofing screws; solar by corrosion-resistant clamps and earthing bonds on aluminium; telecom by galvanized tower bolts with reliable locking. Specification discipline matters more than product breadth in all three.",
+            "en": "Construction runs on structural bolts to ISO 898-1 class 8.8 or 10.9, anchors sized to the base and roofing screws with bonded washers. Solar needs corrosion-resistant clamps, rail hardware and isolation washers that keep aluminium away from steel, plus anchors rated for wind uplift. Telecom towers are dominated by hot-dip galvanized 8.8 bolting to ISO 1461 with controlled torque and a documented re-tightening interval, because the tower is inspected after a year in service and the bolting has to still sit within the specified preload range.",
             "zh": "建筑以结构螺栓、锚栓、屋面钉为主；光伏以耐蚀压块与铝件接地为主；通讯以镀锌塔材螺栓和可靠防松为主。三者都更依赖规范管理而不是产品种类多。选型时先分清行业工况：建筑连接看重等级和承载，光伏看重耐蚀和电偶隔离，通讯看重防松和可追溯。各行业常用规格和检验节点不同，采购清单按用途分列标准、等级和表面处理；规范一致、节点清晰，比盲目扩充品类更能保证连接可靠和验收通过。",
             "hi": "निर्माण में संरचनात्मक बोल्ट, एंकर और रूफिंग स्क्रू मुख्य हैं; सौर में एल्युमिनियम पर संक्षारण-रोधी क्लैंप और अर्थिंग बॉन्ड; दूरसंचार में विश्वसनीय लॉकिंग वाले गैल्वनाइज़्ड टॉवर बोल्ट। तीनों में उत्पादों की चौड़ाई से ज़्यादा स्पेसिफिकेशन का अनुशासन मायने रखता है।",
             "ru": "Строительство опирается на конструкционные болты, анкеры и кровельные саморезы; солнечная энергетика — на коррозионно-стойкие хомуты и заземляющие перемычки на алюминии; связь — на оцинкованные болты вышки с надёжным стопорением. Во всех трёх дисциплина спецификации важнее широты ассортимента.",
@@ -204,7 +204,7 @@
             "ja": "太陽光架台の金物にはどんな特殊性がありますか？"
           },
           "a": {
-            "en": "Aluminium rails create galvanic pairs with steel, so isolation washers or stainless clamps are mandatory. Wind uplift governs the torque value, and thermal cycling means lock washers alone are not enough - use serrated flange nuts or wedge-lock pairs.",
+            "en": "Aluminium rails and steel bolts form a galvanic pair, so the fastener detail has to break the contact: isolation washers, stainless clamps, or a coated interface, otherwise the aluminium corrodes at the joint within two wet seasons. Wind uplift governs the anchor rather than dead load, and the uplift figure comes from the local wind map and the module layout. Use A2-70 or A4-80 stainless to ISO 3506-1 on exposed coastal sites, keep the rail-to-post connection in one metal family, and verify the earth continuity path separately, because plastic isolation can break it.",
             "zh": "铝导轨与钢件构成电偶对，必须用隔离垫或不锈钢压块。风吸力决定扭矩值，热循环又让单靠弹垫不够，要用带齿法兰螺母或楔形防松对。光伏支架长期户外受温度胀缩和风荷载作用，普通弹簧垫圈在反复松动后防松能力下降。选型时核对铝钢接触面隔离措施、连接副材质相容性和扭矩要求；支架连接按风荷载计算确定紧固值，防松形式与振动、热循环条件匹配，到货后按节点核对压块、垫圈和螺母型式。",
             "hi": "एल्युमिनियम रेल और स्टील मिलकर गैल्वेनिक जोड़ी बनाते हैं, इसलिए आइसोलेशन वॉशर या स्टेनलेस क्लैंप अनिवार्य हैं। हवा से ऊपर उठने का भार टॉर्क मान तय करता है। तापमान चक्र के चलते अकेले लॉक वॉशर काफी नहीं होते—सेरेटेड फ्लेंज नट या वेज-लॉक जोड़ी इस्तेमाल करें।",
             "ru": "Алюминиевые профили образуют гальваническую пару со сталью, поэтому изоляционные шайбы или нержавеющие хомуты обязательны. Ветер на подъём задаёт величину момента, а тепловые циклы означают, что одних стопорных шайб недостаточно: применяйте фланцевые гайки с зубьями или пару клиновых стопоров.",
@@ -230,7 +230,7 @@
             "ja": "通信鉄塔はどのように締結すべきですか？"
           },
           "a": {
-            "en": "Hot-dip galvanized 8.8 bolts with defined torque and a documented re-tightening interval after the first months of service, when seating losses occur. Tower bolts must never be replaced with unmarked hardware, and climbing safety depends on the locking method.",
+            "en": "Tower bolting is hot-dip galvanized class 8.8 to ISO 898-1 with coating to ISO 1461, tightened to the torque stated in the erection drawing with a calibrated wrench, and re-tightened after the first months of service as the galvanized surfaces settle. Record the lot, the heat number and the torque per connection, because a tower inspection asks for that file. Guy anchors, base plates and ladder brackets take the same treatment. On coastal or dust-heavy sites add the re-tightening interval to the maintenance schedule instead of relying on one pass.",
             "zh": "热浸镀锌 8.8 级螺栓，规定扭矩，并在投用头几个月座合损失发生后按周期复紧。塔上螺栓绝不能用无标记件替换，攀爬安全直接取决于防松方式。通讯塔属于高空受力结构，每颗螺栓的等级、标记和防松都可追溯；安装按规定扭矩紧固，投用初期构件座合后按周期检查复紧。维护时同等级、同标准的件才能替换，锈蚀或无标记螺栓及时更换；塔身连接副纳入巡检记录，保证攀爬和作业荷载下连接始终可靠。",
             "hi": "हॉट-डिप गैल्वनाइज़्ड ग्रेड 8.8 बोल्ट, तय टॉर्क के साथ लगाएँ, और सेवा के पहले महीनों में जब बैठाव हानि होती है, फिर से कसने की लिखित अंतराल व्यवस्थित करें। टॉवर बोल्ट को कभी भी बिना निशान वाले हार्डवेयर से न बदलें; चढ़ाई की सुरक्षा लॉकिंग तरीके पर निर्भर करती है।",
             "ru": "Болты класса 8.8 горячего цинкования (HDG) с заданным моментом и документированным интервалом подтяжки после первых месяцев работы, когда происходит осадка соединений. Болты вышки нельзя заменять немаркированным крепежом, а безопасность подъёма зависит от способа стопорения.",
@@ -341,7 +341,7 @@
     ]
   },
   "region": "global",
-  "updated": "2026-11-24",
+  "updated": "2026-11-27",
   "metaDescription": {
     "en": "Construction projects require specialized fasteners for structural integrity: 1. TradeGo quotes CIF prices with mill test reports included.",
     "zh": "建筑、光伏板安装和电信塔项目的紧固件应用指南。了解每种应用使用哪些紧固件及其原因。",
