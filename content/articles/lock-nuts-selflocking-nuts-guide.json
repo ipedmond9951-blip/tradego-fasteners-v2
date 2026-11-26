@@ -121,7 +121,7 @@
     {
       "id": "nylon-insert",
       "heading": {
-        "en": "Nylon Insert Lock Nuts (Nyloc)",
+        "en": "Where does a nylon insert Nyloc nut reach its temperature and chemical limits?",
         "es": "Tuercas de Seguridad con Inserto de Nylon (Nyloc)",
         "ar": "صواميل القفل ذات الحلقة النايلون (نيلوك)",
         "fr": "Écrous Freins à Insert Nylon (Nyloc)",
@@ -130,7 +130,7 @@
         "ja": "ナイロンインサートロックナット（ナイロック）",
         "de": "Nylon-Einlage Kontermuttern (Nyloc)",
         "hi": "नायलॉन इन्सर्ट लॉक नट (नायलॉक)",
-        "zh": "尼龙嵌件锁紧螺母 (Nyloc)"
+        "zh": "尼龙嵌件 Nyloc 螺母在哪些温度和化学环境下会失效？"
       },
       "body": {
         "en": "<p>The nylon insert nut deserves its own note because it is the default choice in so much of the world and because its limits are so often ignored. Its geometry is simple: a nut with a recess at the top into which a nylon ring is fitted, sized so that the bolt thread cuts a path through it. The result is a prevailing torque that is independent of the metal-to-metal friction and that survives the loss of preload, which is exactly what a vibrating joint needs.</p>\n<p>Its limits are specific. Temperature is the first: the insert deforms and loses elasticity at elevated temperature, so a nut specified for an engine bay, a furnace area or a hot process line needs an all-metal alternative. Chemical exposure is the second: solvents, fuels and some cleaning agents attack the insert, and a nut that has been in contact with them should be replaced rather than reused. Reuse is the third: the prevailing torque drops with each application, and a nut that has been on and off five times is not the nut that was tested.</p>\n<p>The practical specification items are the grade of the nut, the colour of the insert where the supplier uses colour to denote temperature range, the prevailing torque requirement on first and fifth application, and the coating. Those items are not decoration: a nut that passes a dimensional check and fails a prevailing torque check is the failure mode this product exists to prevent, and it can only be caught by testing rotation torque rather than by looking.</p>\n<p>Assembly practice decides whether the product works. The nut must be run down to contact and then tightened to the joint's torque, not to the lock nut's own specification; and it must not be reused on a joint that is inspected only once. Where a joint is expected to be opened several times, the honest approach is to specify a replacement nut per opening rather than to rely on a nut that has already lost part of its function.</p>",
@@ -175,7 +175,7 @@
     {
       "id": "selection",
       "heading": {
-        "en": "Selection Guide",
+        "en": "Which five questions narrow the lock-nut choice down to one or two families?",
         "es": "Guía de Selección",
         "ar": "دليل الاختيار",
         "fr": "Guide de Sélection",
@@ -184,7 +184,7 @@
         "ja": "選定ガイド",
         "de": "Auswahlleitfaden",
         "hi": "चयन गाइड",
-        "zh": "选型指南"
+        "zh": "哪五个问题能把锁紧螺母的选型缩小到一两个系列？"
       },
       "body": {
         "en": "<p>A selection guide that fits on one page has five questions. What is the temperature at the joint? Is the joint opened more than once in its life? Is the movement transverse and continuous, or occasional? Is a positive lock required because failure is a safety event? And what coating does the environment demand? Answering those five narrows the choice to one or two families, and everything else is commercial.</p>\n<p>The second page is about process. A nylon insert nut requires the insert to be undamaged at installation and the nut to be replaced on removal; an all-metal nut tolerates temperature and contamination but needs a defined prevailing torque; an adhesive needs a clean thread, a defined quantity and a cure time; a castle nut needs a hole in the bolt and a wire or pin in the store. Each of those is a process requirement, and a lock nut specified without its process is a part without a home.</p>\n<p>The third page is about verification. Prevailing torque can be checked with a torque gauge on a sample; a nylon insert's condition can be checked visually for cuts and deformation; an adhesive joint can be checked by a pull test on a sample; a mechanical lock can be checked by inspection for the wire or pin. Each check is cheap, and each catches a failure that assembly will otherwise hide until service.</p>\n<p>The fourth page is about the joint, not the nut. A lock nut on an under-preloaded joint, a soft bearing surface or a joint with a compressible gasket will not hold, because the nut is resisting rotation while the joint is losing tension for another reason. Fixing the joint — a harder bearing surface, a defined torque, a controlled tightening sequence — does more for reliability than upgrading the nut, and it costs less.</p>",
@@ -228,7 +228,7 @@
             "de": "Welche Temperatur hält eine Sicherungsmutter mit Nylon-Einsatz aus?"
           },
           "a": {
-            "en": "The nylon insert is generally rated -50 to 120 C continuous, with short-term excursions to about 150 C. Above that the insert softens and loses its locking action, so hot joints should use all-metal lock nuts such as staked or wedge-lock designs.",
+            "en": "The nylon insert is generally rated -50 to 120 C continuous, with short-term excursions to about 150 C. Above that range the insert softens and loses its prevailing torque, so an engine bay, furnace area, or hot process line should use an all-metal lock nut, such as a staked or wedge-lock design. Check the insert colour for the temperature range it denotes, and keep solvents, fuels, and cleaning agents away from the ring, because chemical attack also degrades it. Nylon insert nuts follow DIN 985, stainless variants ISO 3506-1, and acceptance inspection ISO 3269.",
             "zh": "尼龙嵌件的适用温度一般为零下 50 到 120 摄氏度连续工作，短时可承受到约 150 摄氏度。超过这一范围，嵌件软化后便失去锁紧作用，因此高温接头应改用全金属锁紧螺母，例如压铆式或楔形锁紧结构。选型时还要核对介质、拆装频次与装配扭矩，温度上限和防松机理写进技术要求；普通尼龙件不应用于排气、炉窑等高温部位，否则服役中嵌件失效会导致连接松动。",
             "ja": "ナイロンインサートは一般に連続 -50〜120℃、短時間で約150℃まで対応します。それ以上ではインサートが軟化し防松機能を失うため、高温部には圧点式やウェッジロック式の全金属ロックナットを使ってください。周囲温度の連続値とピーク値を個別に確認し、温度域に合った形式を選ぶことで戻り回転を防ぎます。",
             "hi": "नाइलॉन इन्सर्ट आमतौर पर लगातार -50 से 120 C तक चलता है, थोड़ी देर के लिए लगभग 150 C तक। इससे ऊपर इन्सर्ट नरम होकर लॉकिंग असर खो देता है, इसलिए गर्म जोड़ों में स्टेक्ड या वेज-लॉक जैसे पूर्ण-धातु लॉक नट इस्तेमाल करें।",
@@ -254,7 +254,7 @@
             "de": "Lassen sich Sicherungsmuttern nach dem Ausbau wiederverwenden?"
           },
           "a": {
-            "en": "A Nyloc loses insert elasticity after two or three reuses and its locking performance drops sharply, so critical joints should not be reused. All-metal lock nuts can be reused if inspected for deformation. On vibrating mining equipment, replace at every major overhaul.",
+            "en": "A Nyloc loses insert elasticity after two or three reuses and its locking performance drops sharply, so critical joints should not reuse a nylon insert; replace the nut on removal. All-metal prevailing torque nuts can be reused if inspected for deformation, thread damage, and corrosion, with a defined prevailing torque still present. On vibrating mining equipment, replace lock nuts at every major overhaul rather than returning removed nuts to service. A nut cycled on and off five times is not the originally tested part, and a loosening mark at installation lets inspection spot back-off early.",
             "zh": "尼龙锁紧螺母在重复使用两三次后，嵌件弹性会下降，防松性能明显减弱，因此关键接头不应重复使用。全金属锁紧螺母在检查无变形、无裂纹的前提下可以复用。振动强烈的矿山设备，每次大修都应更换锁紧件，不凭外观判断是否还能继续用；拆下的螺母应核对螺纹与锁紧面状态，关键部位宁可换新，也不要把弹性衰减的嵌件螺母重新拧回原位。",
             "ja": "ナイロックは2〜3回の脱着でインサートの弾性が低下し防松性能が大きく落ちるため、重要接合では再利用しないでください。全金属ロックナットは変形を確認したうえで再利用可能です。振動の大きい鉱山設備では大修理ごとに交換します。再利用の可否は座面やねじ山の傷、緩みの跡を点検して個別に判断してください。",
             "hi": "नाइलॉक नट दो-तीन बार दोबारा चलाने पर इन्सर्ट की लोच खो देता है और लॉकिंग प्रदर्शन तेज़ी से गिरता है, इसलिए कठिन जोड़ों में दोबारा न चलाएँ। पूर्ण-धातु लॉक नट विकृति की जाँच पर दोबारा इस्तेमाल हो सकते हैं। कंपन वाली खनन मशीनरी में हर बड़े ओवरहाल पर बदल दें।",
@@ -280,7 +280,7 @@
             "de": "Welche Sicherungsmutter passt zur afrikanischen Bergwerksausrüstung?"
           },
           "a": {
-            "en": "For strong vibration and dust, use all-metal lock nuts with hot-dip galvanized or zinc-flake coating paired with 10.9 bolts; nylon-insert nuts suit low-to-medium vibration at normal temperature. Tighten to torque and apply a loosening mark so inspections can spot back-off early.",
+            "en": "Mining uses three tiers: a preloaded joint tightened to a defined torque, a prevailing torque nut on joints that cannot be inspected daily, and a positive mechanical lock such as a castle nut with wire or pin on safety-critical joints. All-metal lock nuts with hot-dip galvanized or zinc-flake coating pair with 10.9 bolts; nylon-insert nuts suit only low-to-medium vibration at normal temperature. Mark the tier on the drawing, tighten to torque, and apply a loosening mark so inspection can spot back-off early. Coating selection follows ISO 4042 where corrosion protection is specified.",
             "zh": "在强振动和多尘的矿山设备上，宜选用全金属锁紧螺母，配热浸镀锌或锌片涂层，并与 10.9 级螺栓配套；尼龙嵌件螺母更适合中低振动、常温工况。装配按规定扭矩拧紧，并做松动标记，便于检修时发现位移。选型时把振动等级、温度、介质和镀层一起纳入判断，订单里写明防松型式、材质等级与涂层要求；只笼统写锁紧螺母，收到的往往是成本最低的通用件，矿山工况下可靠性不足。",
             "ja": "強い振動と粉塵の環境では、溶融亜鉛めっきまたはジンクフレークコートの全金属ロックナットを10.9ボルトと組み合わせます。ナイロンインサート式は中低振動・常温部に適します。規定トルクで締め、緩み止めマークを付けて点検時に戻りを早期発見できるようにしてください。",
             "hi": "तेज़ कंपन और धूल में हॉट-डिप गैल्वनाइज़्ड या ज़िंक-फ्लेक कोटिंग वाले पूर्ण-धातु लॉक नट 10.9 बोल्ट के साथ चलाएँ; नाइलॉन-इन्सर्ट नट सामान्य तापमान पर कम-से-मध्यम कंपन के लिए उपयुक्त हैं। टॉर्क से कसकर ढीलेपन का निशान लगा दें, ताकि निरीक्षण में बैक-ऑफ जल्दी पकड़ा जा सके।",
