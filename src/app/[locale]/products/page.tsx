@@ -2,9 +2,9 @@ import { type Locale, t, locales } from '@/i18n'
 import type { Metadata } from 'next'
 import MaterialsSection from '@/components/MaterialsSection'
 import ProductSearchSection from '@/components/ProductSearchSection'
-import ProductSchema from '@/components/ProductSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { navLabels, pick } from '@/lib/uiCopy'
+import { clampDescription } from '@/lib/seo'
 import ProductsContentSection from '@/components/ProductsContentSection'
 import StatisticsSection from '@/components/StatisticsSection'
 
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   
   return {
     title: titles[locale] || titles.en,
-    description: descriptions[locale] || descriptions.en,
+    description: clampDescription(descriptions[locale] || descriptions.en, 155),
     openGraph: {
       title: titles[locale] || titles.en,
       description: descriptions[locale] || descriptions.en,
@@ -93,8 +93,8 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
       {/* Unique Content Section - Helps with SEO indexing */}
       <ProductsContentSection locale={locale} />
 
-      {/* Product Schema for SEO */}
-      <ProductSchema products={allProducts} locale={locale} />
+      {/* 2026-11-26 P2-11: 列表页不再批量输出 Product/Offer 标记——详情页不展示价格、
+          站点口径禁写具体报价、无真实库存，offers/price 断言与可见内容不一致，整块移除。 */}
 
       {/* Breadcrumb Schema for SEO */}
       <BreadcrumbSchema locale={locale} pageName={pick(navLabels.products, locale)} pageUrl="/products" />
