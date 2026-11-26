@@ -102,13 +102,20 @@ def sync():
 
 
 def count(date):
-    rows = load()
-    uids = {
-        r.get("uid")
-        for r in rows
-        if r.get("date") == date and r.get("kind") == "build" and r.get("state") != "CANCELED"
-    }
-    print(len(uids))
+    """当日真实构建数 = API 部署 uid + 没有对应 API 记录的本地 push 记录。
+
+    坑（2026-11-26）：一次 push 会先写一条 local-PUSHED 记录，之后 sync 又从 API 补一条
+    同 sha 的真实部署，两条 uid 不同 → 一次构建被数成两次，审计凭空报"当日 6 次超 3"。
+    所以同一个 sha 只要有 API 记录，本地那条只当占位，不再计数。
+    """
+    rows = [r for r in load()
+            if r.get("date") == date and r.get("kind") == "build" and r.get("state") != "CANCELED"]
+    api = [r for r in rows if r.get("source") == "api"]
+    local = [r for r in rows if r.get("source") != "api"]
+    api_shas = {(r.get("sha") or "")[:8] for r in api}
+    n = len({r.get("uid") for r in api})
+    n += len({r.get("uid") for r in local if (r.get("sha") or "")[:8] not in api_shas})
+    print(n)
 
 
 def record(sha, kind):
