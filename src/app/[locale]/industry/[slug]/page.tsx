@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title,
     description: desc,
-    keywords: article.keywords,
+    // 2026-11-26: 不再输出 meta keywords（Google 忽略，属噪音）；JSON-LD 的 keywords 属性保留
     ...(isThinArticle(article) || isThinForLocale(article, locale) ? { robots: { index: false, follow: true } } : {}),
     openGraph: {
       title: fullTitle,
@@ -304,7 +304,17 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
       '@type': 'WebPage',
       '@id': `https://www.tradego-fasteners.com/${locale}/industry/${slug}/`,
     },
-    author: { '@type': 'Organization', '@id': 'https://www.tradego-fasteners.com/#organization', name: 'TradeGo Fasteners' },
+    // 作者是真实联系人（Person），publisher 才是机构；worksFor 挂到 TradeGo Fasteners
+    author: {
+      '@type': 'Person',
+      name: 'Edmond',
+      url: 'https://www.tradego-fasteners.com/en/about/',
+      worksFor: {
+        '@type': 'Organization',
+        name: 'TradeGo Fasteners',
+        url: 'https://www.tradego-fasteners.com',
+      },
+    },
     publisher: {
       '@type': 'Organization',
       '@id': 'https://www.tradego-fasteners.com/#organization',
