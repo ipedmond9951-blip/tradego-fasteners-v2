@@ -163,7 +163,8 @@
             "es": "¿Puedo usar pernos galvanizados estándar con madera tratada con ACQ?",
             "fr": "Puis-je utiliser des boulons HDG standard avec du bois traité ACQ ?",
             "pt": "Posso usar parafusos HDG padrão com madeira tratada ACQ?",
-            "de": "Kann ich normale HDG-Bolzen mit ACQ-Holz verwenden?"
+            "de": "Kann ich normale HDG-Bolzen mit ACQ-Holz verwenden?",
+            "ja": "ACQ 処理材に標準の HDG ボルトを使ってもよいですか"
           },
           "a": {
             "en": "No — ACQ (Alkaline Copper Quaternary) treated timber will rapidly corrode standard hot-dip galvanized fasteners. The high alkalinity of ACQ accelerates zinc corrosion, and once the zinc is consumed, the underlying steel corrodes. For outdoor ACQ-treated timber applications, specify stainless steel 316 or specialized ACQ-compatible coated fasteners. For indoor ACQ-treated timber (above ground, protected from direct moisture), some manufacturers claim HDG works, but SS316 remains the safer choice.",
@@ -174,7 +175,8 @@
             "es": "Lo que no conviene es mezclar ACQ con galvanizado estándar, porque la alta alcalinidad del ACQ corroe el zinc y luego el acero. En exterior con esa madera, especifique inoxidable 316 o un recubrimiento compatible. En interior sobre rasante algunos admiten galvanizado, aunque el SS316 sigue siendo lo más seguro.",
             "fr": "Non : le bois traité ACQ (cuivre quaternaire alcalin) fait corroder rapidement les fixations galvanisées à chaud standard. La forte alcalinité de l'ACQ accélère la corrosion du zinc, et une fois le zinc consommé, l'acier sous-jacent se corrode. Pour l'extérieur sur bois traité ACQ, spécifiez de l'inox 316 ou des fixations revêtues compatibles ACQ. Pour le bois ACQ intérieur hors sol, le 316 reste le choix le plus sûr.",
             "pt": "Não. A madeira ACQ corrói rapidamente fixadores HDG padrão: a alcalinidade alta acelera a corrosão do zinco, e depois de consumido o zinco, o aço abaixo corrói. Em ACQ externo, especificam-se inoxidável 316 ou revestimento compatível com ACQ. No ACQ interior, acima do solo e protegido da umidade, alguns afirmam que o HDG funciona, mas o 316 segue sendo a escolha mais segura.",
-            "de": "Nein, mit ACQ-behandeltem Holz korrodieren normale feuerverzinkte Befestigungsmittel schnell. Die hohe Alkalinität von ACQ beschleunigt die Zinkkorrosion, sobald das Zink verbraucht ist, rostet der Stahl darunter. Für Außenanwendungen mit ACQ-Holz sind Edelstahl 316 oder spezielle ACQ-verträgliche Beschichtungen vorzugeben. Im Innenbereich, über Erdhöhe und ohne Feuchte, geben manche Hersteller HDG frei, doch SS316 bleibt die sicherere Wahl."
+            "de": "Nein, mit ACQ-behandeltem Holz korrodieren normale feuerverzinkte Befestigungsmittel schnell. Die hohe Alkalinität von ACQ beschleunigt die Zinkkorrosion, sobald das Zink verbraucht ist, rostet der Stahl darunter. Für Außenanwendungen mit ACQ-Holz sind Edelstahl 316 oder spezielle ACQ-verträgliche Beschichtungen vorzugeben. Im Innenbereich, über Erdhöhe und ohne Feuchte, geben manche Hersteller HDG frei, doch SS316 bleibt die sicherere Wahl.",
+            "ja": "いいえ。ACQ（アルカリ銅四級）処理材は標準の HDG 締結具を急速に腐食させます。ACQ の高いアルカリ性が亜鉛の腐食を加速し、亜鉛が消耗すると下地の鋼が腐食します。屋外の ACQ 処理材用途には 316 ステンレスまたは ACQ 対応の特殊被膜締結具を指定します。屋内で直射湿気から守られた ACQ 材では HDG を認める製造者もありますが、316 がより安全です。"
           }
         },
         {
@@ -187,7 +189,8 @@
             "es": "¿Qué diferencia hay entre un tornillo coach y un tornillo lag?",
             "fr": "Quelle différence entre coach screw et lag screw ?",
             "pt": "Qual a diferença entre parafuso coach e parafuso lag?",
-            "de": "Was unterscheidet eine Holzschraube von einer Lagenschraube?"
+            "de": "Was unterscheidet eine Holzschraube von einer Lagenschraube?",
+            "ja": "コーチスクリューとラグスクリューの違いは何ですか"
           },
           "a": {
             "en": "Technically, 'coach screw' and 'lag screw' are the same thing — a heavy wood screw with a hex head. In the UK and much of Africa, they are called coach screws; in North America, they are called lag screws. Both have a coarse thread designed for wood and require pre-drilling. The hex head is driven with a spanner or socket wrench. They are used for heavy timber connections where bolts are impractical.",
@@ -198,7 +201,8 @@
             "es": "Lo que hay que saber es que coach y lag son lo mismo: un tornillo grueso para madera con cabeza hexagonal. En el Reino Unido y África se llama coach; en Norteamérica, lag. Tiene rosca gruesa, requiere taladro previo y se aprieta con llave o carraca. Se usa en uniones pesadas donde no caben pernos, a menudo con arandela de reparto.",
             "fr": "Techniquement, « coach screw » et « lag screw » désignent la même pièce : une grosse vis à bois à tête hexagonale. Au Royaume-Uni et dans une grande partie de l'Afrique, on l'appelle coach screw ; en Amérique du Nord, lag screw. Les deux ont un filetage grossier pour le bois et demandent un pré-perçage. La tête hexagonale se tourne avec une clé plate ou une douille. Elles servent aux assemblages de bois lourd où les boulons ne sont pas pratiques.",
             "pt": "Coach screw e lag screw são a mesma coisa: parafuso pesado para madeira com cabeça sextavada. No Reino Unido e na África chamam-se coach screws; na América do Norte, lag screws. Têm rosca grossa para madeira e exigem pré-perfuração; a cabeça aciona com chave ou soquete. Usam-se em ligações de madeira pesada, e a bitola combina com a carga e a espessura das peças.",
-            "de": "Technisch sind Coach Screw und Lag Screw dasselbe: eine schwere Holzschraube mit Sechskantkopf. Im Vereinigten Königreich und in weiten Afrika nennt man sie Coach Screws, in Nordamerika Lag Screws. Beide haben ein grobes Gewinde für Holz und benötigen ein Vorbohren. Der Sechskantkopf wird mit Schraubenschlüssel oder Stecknuss angezogen. Sie dienen schweren Holzverbindungen, bei denen Bolzen unpraktisch sind."
+            "de": "Technisch sind Coach Screw und Lag Screw dasselbe: eine schwere Holzschraube mit Sechskantkopf. Im Vereinigten Königreich und in weiten Afrika nennt man sie Coach Screws, in Nordamerika Lag Screws. Beide haben ein grobes Gewinde für Holz und benötigen ein Vorbohren. Der Sechskantkopf wird mit Schraubenschlüssel oder Stecknuss angezogen. Sie dienen schweren Holzverbindungen, bei denen Bolzen unpraktisch sind.",
+            "ja": "技術的には「コーチスクリュー」と「ラグスクリュー」は同じもので、六角頭を持つ太径木ねじです。英国とアフリカの多くの地域ではコーチスクリュー、北米ではラグスクリューと呼ばれます。どちらも木材用の荒いねじ山を持ち、下穴が必要です。六角頭はスパナまたはソケットレンチで締め、ボルトでは実用的でない厚木の接合に使われます。"
           }
         },
         {
@@ -211,7 +215,8 @@
             "es": "¿Cómo evitar la fisura al clavar cerca del extremo de la madera?",
             "fr": "Comment éviter le fendillement près de l'extrémité du bois ?",
             "pt": "Como evitar fendilhamento ao prego perto da ponta da madeira?",
-            "de": "Wie verhindere ich Rissbildung beim Nageln in Holzendnähe?"
+            "de": "Wie verhindere ich Rissbildung beim Nageln in Holzendnähe?",
+            "ja": "木材の端近くに釘を打つとき割れを防ぐにはどうしますか"
           },
           "a": {
             "en": "Splitting is caused by the nail wedging the wood fibers apart. Prevention methods: Pre-drill pilot holes — for hardwoods and near end grain, drill a pilot hole slightly smaller than the nail diameter; for softwoods, pre-drilling is only needed near the end. Stagger nail positions — instead of driving two nails in a straight line, stagger them at slight angles; this reduces the splitting plane. Use nails with smaller diameter — spiral shank or annular ring shank nails split less than smooth shank. Nail to the side grain, not end grain where possible — end grain has much lower holding power and splits more easily. Maintain minimum edge distances — typically 2x nail diameter from the edge and 10x nail diameter from the end.",
@@ -222,7 +227,8 @@
             "es": "Lo que causa la fisura es que el clavo abre las fibras. Taladre un orificio guía en duras y junto a la testa; en blandas basta junto al extremo. Alterne los clavos en ángulos distintos en vez de una línea recta, y use clavos finos, que rompen menos. Clave sobre la cara lateral y guarde distancia: dos diámetros del borde y diez del extremo.",
             "fr": "Le fendillement vient du clou qui écarte les fibres. Pré-percez un trou guide un peu plus petit que le diamètre du clou en bois dur et près du bout ; en bois tendre, le pré-perçage ne sert que près de l'extrémité. Décalez les clous plutôt que de les aligner, à de légers angles, pour réduire le plan de fente. Utilisez des clous de faible diamètre : tige spiralée ou annelée fendille moins que la tige lisse.",
             "pt": "O fendilhamento vem do prego que abre as fibras. Prevenção: pré-perfurar furo-piloto, ligeiramente menor que o prego na madeira dura e perto da ponta; na macia, só perto da extremidade. Escalonam-se as posições em ângulos leves, em vez de alinhar duas peças; usam-se pregos menores de haste espiral ou anelada, que fendilham menos; prega-se no lado das fibras, não na ponta. Distanciamentos mínimos: cerca de 2× o diâmetro da borda e 10× da ponta.",
-            "de": "Risse entstehen, weil der Nagel die Holzfasern aufkeilt. Dagegen hilft: bei Hartholz und in Endnähe ein Pilotloch vorbohren, etwas kleiner als der Nageldurchmesser; bei Weichholz nur am Ende. Die Nagelpositionen versetzen, statt zwei Nägel gerade nebeneinander leicht schräg anordnen. Kleinere Spiral- oder Ringrillennägel spalten weniger. Nach Möglichkeit in die Seitenfaser statt in die Endfaser nageln und Mindestabstände einhalten."
+            "de": "Risse entstehen, weil der Nagel die Holzfasern aufkeilt. Dagegen hilft: bei Hartholz und in Endnähe ein Pilotloch vorbohren, etwas kleiner als der Nageldurchmesser; bei Weichholz nur am Ende. Die Nagelpositionen versetzen, statt zwei Nägel gerade nebeneinander leicht schräg anordnen. Kleinere Spiral- oder Ringrillennägel spalten weniger. Nach Möglichkeit in die Seitenfaser statt in die Endfaser nageln und Mindestabstände einhalten.",
+            "ja": "割れは釘が木繊維を押し分けることで生じます。予防策は、硬い材や木口近くでは釘径より少し小さい下穴を開け、軟らかい材では端近くのみ下穴を開けます。釘の位置を一直線にせず角度をずらして配置し、割れの進展面を減らします。小径の釘やスパイラル・リングシャンクの釘は平滑シャンクより割れにくいです。可能な限り木口でなく側木に打ち、縁と端からの最小距離を保ってください。"
           }
         }
       ],
