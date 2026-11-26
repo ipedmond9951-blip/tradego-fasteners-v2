@@ -8,7 +8,7 @@
 
 用法：python3 scripts/check-cert-claims.py [--json] [--top N]
 """
-import argparse, glob, json, re
+import argparse, glob, hashlib, json, os, re
 
 PATTERNS = [
     ('EN-self-is', re.compile(
@@ -61,13 +61,33 @@ def walk_strings(node, out):
             walk_strings(v, out)
 
 
+BASE_PATH = 'content/cert-claims-baseline.json'
+
+
+def sha(s):
+    return hashlib.sha1(re.sub(r'\s+', ' ', s).strip().encode('utf-8')).hexdigest()[:16]
+
+
+def load_base():
+    if not os.path.exists(BASE_PATH):
+        return {}
+    try:
+        d = json.load(open(BASE_PATH, encoding='utf-8'))
+        return {(e['slug'], e['sha1']) for e in d.get('entries', [])}
+    except Exception:
+        return {}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--json', action='store_true')
     ap.add_argument('--top', type=int, default=20)
+    ap.add_argument('--write-baseline', action='store_true', help='把当前命中全部登记为已复核基线（只登记判定为非违规的句子）')
     ap.add_argument('--strict', action='store_true', help='存在本公司自述认证的句子时以退出码 1 结束（可接闸门）')
     args = ap.parse_args()
+    base = load_base()
     rows = []
+    skipped = 0
     for p in sorted(glob.glob('content/articles/*.json')):
         a = json.load(open(p, encoding='utf-8'))
         strs = []
@@ -76,6 +96,9 @@ def main():
                 walk_strings(a[k], strs)
         walk_strings(a.get('sections') or [], strs)
         hits = [h for s in strs for h in scan_text(s)]
+        keep = [h for h in hits if (a['slug'], sha(h[1])) not in base]
+        skipped += len(hits) - len(keep)
+        hits = keep
         if hits:
             rows.append({'slug': a['slug'], 'count': len(hits), 'items': hits})
     for p in ['public/llms.txt'] + glob.glob('src/**/*.tsx', recursive=True) + glob.glob('src/**/*.ts', recursive=True):
@@ -84,13 +107,26 @@ def main():
         except Exception:
             continue
         hits = scan_text(txt)
+        keep = [h for h in hits if (p, sha(h[1])) not in base]
+        skipped += len(hits) - len(keep)
+        hits = keep
         if hits:
             rows.append({'slug': p, 'count': len(hits), 'items': hits})
     rows.sort(key=lambda r: -r['count'])
+    if getattr(args, 'write_baseline', False):
+        cur = json.load(open(BASE_PATH, encoding='utf-8')) if os.path.exists(BASE_PATH) else {'note': '已人工复核、判定不构成「自称持有认证」的句子；新增命中才需复核', 'entries': []}
+        have = {(e['slug'], e['sha1']) for e in cur['entries']}
+        for r in rows:
+            for name, it in r['items']:
+                if (r['slug'], sha(it)) not in have:
+                    cur['entries'].append({'slug': r['slug'], 'sha1': sha(it), 'pattern': name, 'sample': it[:160]})
+        json.dump(cur, open(BASE_PATH, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+        print('baseline 已写入 %d 条' % len(cur['entries']))
+        return
     if args.json:
         print(json.dumps(rows, ensure_ascii=False, indent=1))
         return
-    print('待复核 %d 处，涉及 %d 个文件' % (sum(r['count'] for r in rows), len(rows)))
+    print('待复核 %d 处，涉及 %d 个文件%s' % (sum(r['count'] for r in rows), len(rows), '（已复核基线跳过 %d 处）' % skipped if skipped else ''))
     for r in rows[:args.top]:
         print('  %-52s %d' % (r['slug'], r['count']))
         for name, it in r['items'][:2]:
