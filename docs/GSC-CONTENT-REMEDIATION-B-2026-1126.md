@@ -19,7 +19,7 @@
 | # | 验收项 | 结果 | 证据 |
 |---|---|---|---|
 | ① | S1 口径 grep 残留 = 0 | **通过**：本线 doc/`scripts`/`content` 命中只剩更正段与硬约束本身；跨线 1 处（`src/i18n/zh.json:112`"供 Google 富摘要展示"）交 A 线 | 见 §3.1、交接单 §10.1 |
-| ② | S2「≥3 篇整段重复」在 B 区归 0 | **通过**：`dup_paragraph.py` 收尾 B 区 rewrite = **0 组**；余 90 组全部 `registered` 并注明原因（en 源文 31 / ar 21 / 样板导航与引导句 38） | `docs/gsc-dup-paragraph-2026-1126.csv`（129 行，`ec4408c4` 后补注 `dc67f2a1`） |
+| ② | S2「≥3 篇整段重复」在 B 区归 0 | **通过**：`dup_paragraph.py` 收尾 B 区 rewrite = **0 组**；余 90 组全部 `registered` 并注明原因（en 源文 31 / ar 21 / 样板导航与引导句 38） | `docs/gsc-dup-paragraph-2026-1126.csv`（129 行，`ec4408c4` 后补注 `750d56f7`） |
 | ③ | S3 B 区跨文字残留归 0，CSV 带 A 区分因 | **部分达成**：ar 三组 B 区 **0/0/0**；ja/hi/zh/ru 拉丁残留收尾 **86/83/62/33**（判据口径见 §1.2），逐条分类入 `docs/gsc-lang-residual-b-2026-1126.csv`：`prose_residue` 135（可 clean 6 组合 7 行，其余 128 行卡 19 个冲突 slug）/ `mixed_residue` 34（专名嵌句，口径保留）/ `proper_noun` 0。未归零部分已按 slug 级量化，非"无限遗留" | 同左 CSV + `gsc-lang-consistency-*.csv`（含 A 区 135 行分因） |
 | ④ | S4 清理篇数/条数 + 剩余清单 | **通过**：超长 fixed **241 条/19 篇**（余 B 187 pending）、短答 fixed **406 条/135 篇**（余 B 600）、英文残留 fixed **162 条/36 篇**（余 B 88）；三类均"起点快照 vs 当前磁盘逐条比对"，明细见台账 CSV | `$T9L/final_account.py` 输出、`gsc-longanswer-*`、`gsc-shortanswer-enresidue-*` |
 | ⑤ | 279 篇 `content_gate` 全绿 | **通过**：`完全干净 219 (83%) / 只 WARN 45 (17%) / 有 BLOCK 0`，`新增 BLOCK: 0 篇`，`✅ 闸门通过`，EXIT=0 | `logs/content-contract-latest.json` |
