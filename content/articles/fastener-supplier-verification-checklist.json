@@ -271,7 +271,8 @@
             "es": "¿Qué cubre la lista de comprobación para verificar un proveedor?",
             "fr": "Quels points clés pour vérifier un fournisseur de fixations ?",
             "pt": "Quais pontos cobrir na lista de verificação de fornecedor?",
-            "de": "Was gehört zur Checkliste der Lieferanten-Verifizierung?"
+            "de": "Was gehört zur Checkliste der Lieferanten-Verifizierung?",
+            "ja": "供給元の確認チェックリストで押さえる要点は何ですか？"
           },
           "a": {
             "en": "See the detailed analysis above for specifications, applications, and best practices for fastener supplier verification checklist.",
@@ -282,7 +283,8 @@
             "es": "La lista recoge el proceso de verificación: preguntas directas sobre fábrica real, sistema de gestión y controles; recorrido por instalaciones o vídeo; revisión de trazabilidad de materia prima, líneas de tratamiento y calibradores; referencias de clientes; y ensayo previo de muestras. Las señales de alarma incluyen negativa a la visita, precios anómalos o pago total a cuenta antes de producir. Cada punto se documenta antes del pedido grande.",
             "fr": "La vérification porte sur la fabrication réelle, la documentation matière, le contrôle en usine et les références clients. Un fournisseur légitime doit répondre clairement à la classe produite, l'épaisseur de revêtement maîtrisée, le certificat lié au numéro de coulée, le taux de rebut et ses grands clients. Les réponses vagues trahissent souvent un négoce se présentant comme une usine.",
             "pt": "Este guia reúne especificações, aplicações e boas práticas para a lista de verificação de fornecedor de fixadores, conforme a análise acima. A verificação cobre norma e classe produzidas, controle de espessura de revestimento, rastreabilidade ao número de lingote, taxa de rejeição e referências de clientes. Respostas vagas nesses pontos são o sinal mais rápido de um comerciante se passando por fábrica, e a auditoria registra cada item verificado.",
-            "de": "Die Verifizierung deckt Werksadresse und Video- oder Werksbesichtigung, das gelebte Qualitätsmanagementsystem, Eigenprüfung und Optionen der Drittinspektion, den Exportnachweis sowie Belege wie Gewerbe- und Ausfuhrlizenz ab. Vor der Großcharge sind Muster zu prüfen und Kundenreferenzen direkt nachzufragen. Ein systematisches Vorgehen erkennt Warnzeichen, bevor ein Auftrag erteilt wird."
+            "de": "Die Verifizierung deckt Werksadresse und Video- oder Werksbesichtigung, das gelebte Qualitätsmanagementsystem, Eigenprüfung und Optionen der Drittinspektion, den Exportnachweis sowie Belege wie Gewerbe- und Ausfuhrlizenz ab. Vor der Großcharge sind Muster zu prüfen und Kundenreferenzen direkt nachzufragen. Ein systematisches Vorgehen erkennt Warnzeichen, bevor ein Auftrag erteilt wird.",
+            "ja": "基準を満たさない製品、書類の不備、支払い後の不応答、サンプルと量産の不一致といったリスクを、体系的な確認で減らします。実際の製造拠点、品質管理体制、一貫した品質の出し方を質問で確認し、工場見学で設備、生産能力、検査体制を見ます。危険兆候の兆候を見極め、顧客参照先とサンプル試験で裏付けてください。"
           }
         },
         {
@@ -295,7 +297,8 @@
             "es": "¿Cuáles son las preguntas clave para un proveedor nuevo?",
             "fr": "Quelles questions poser à un nouveau fournisseur ?",
             "pt": "Quais perguntas centrais fazer a um fornecedor novo?",
-            "de": "Welche Kernfragen stellt man einem neuen Befestiger-Lieferanten?"
+            "de": "Welche Kernfragen stellt man einem neuen Befestiger-Lieferanten?",
+            "ja": "新しいファスナー供給元に聞く核心的な質問は何ですか？"
           },
           "a": {
             "en": "Which standard and grade do you actually produce, what coating thickness do you control, can you show a mill test certificate tied to the heat number, what is your reject rate, and who are your three largest customers. Vague answers to these are the fastest way to spot a trader posing as a factory.",
@@ -306,7 +309,8 @@
             "es": "Qué norma y clase produce realmente, qué espesor de recubrimiento controla, si puede mostrar un certificado de fábrica ligado al número de colada, cuál es su tasa de rechazo y quiénes son sus tres clientes mayores. Las respuestas vagas a estas preguntas son la forma más rápida de detectar a un comerciante que se hace pasar por fábrica.",
             "fr": "Quel référentiel et quelle classe produisez-vous réellement, quelle épaisseur de revêtement contrôlez-vous, pouvez-vous montrer un certificat matière lié au numéro de coulée, quel est votre taux de rebut, et qui sont vos trois plus gros clients. Les réponses imprécises à ces points sont le moyen le plus rapide de repérer un négociant se faisant passer pour une usine.",
             "pt": "Qual norma e classe vocês realmente produzem, que espessura de revestimento controlam, podem mostrar certificado de ensaio vinculado ao número de lingote, qual a taxa de rejeição, e quem são seus três maiores clientes. Respostas vagas a essas perguntas são a forma mais rápida de identificar um comerciante que finge de fábrica. A documentação deve ser conferida contra a amostra e o lote efetivamente entregue.",
-            "de": "Welche Norm und Klasse wird tatsächlich gefertigt, welche Beschichtungsdicke wird kontrolliert, lässt sich ein Werkszeugnis mit Schmelznummer vorzeigen, wie hoch ist die Ausschussrate, und wer sind die drei größten Kunden? Unklare Antworten darauf erkennen am schnellsten einen Händler, der sich als Werk ausgibt."
+            "de": "Welche Norm und Klasse wird tatsächlich gefertigt, welche Beschichtungsdicke wird kontrolliert, lässt sich ein Werkszeugnis mit Schmelznummer vorzeigen, wie hoch ist die Ausschussrate, und wer sind die drei größten Kunden? Unklare Antworten darauf erkennen am schnellsten einen Händler, der sich als Werk ausgibt.",
+            "ja": "実際にどの規格と等級を作っているか、どの被覆厚みを管理しているか、シュメルナンバーに結び付くミル証明書を見せられるか、不良率はどの程度か、最も大きな三件の顧客は誰かを聞きます。これらにあいまいな答えをするのは、工場を装う業者を見抜く最も速い手がかりです。"
           }
         },
         {
@@ -319,7 +323,8 @@
             "es": "¿Qué debe revisar una auditoría de fábrica?",
             "fr": "Que vérifier réellement lors d'un audit usine ?",
             "pt": "O que uma auditoria de fábrica deve realmente checar?",
-            "de": "Was prüft eine Werksaudit wirklich?"
+            "de": "Was prüft eine Werksaudit wirklich?",
+            "ja": "工場点検では実際に何を確認すべきですか？"
           },
           "a": {
             "en": "Raw material traceability from wire rod to finished lot, heat-treatment and coating lines with recorded parameters, gauges and hardness testers in calibration, and packing checks. Walk the warehouse: mixed grades on one shelf is a systemic risk, not a small housekeeping issue.",
@@ -330,7 +335,8 @@
             "es": "Trazabilidad de la materia prima desde alambrón hasta el lote terminado, líneas de tratamiento térmico y recubrimiento con parámetros registrados, calibradores y durómetros calibrados, y controles de embalaje. Recorra el almacén: mezclar grados en un estante es un riesgo sistémico, no un pequeño problema de orden.",
             "fr": "La traçabilité matière du fil machine au lot fini, les lignes de traitement thermique et de revêtement avec paramètres enregistrés, les gabarits et dureté-mètres calibrés, et le contrôle de l'emballage. On parcourt l'entrepôt : des classes mélangées sur une même étagère sont un risque systémique, pas un simple détail de rangement.",
             "pt": "Rastreabilidade da matéria-prima do arame ao lote acabado, linhas de tratamento térmico e revestimento com parâmetros registrados, calibres e durômetros calibrados, e verificações de embalagem. Percorre-se o depósito: classes mistas em uma mesma prateleira são risco sistêmico, não um pequeno problema de arrumação. A auditoria revisa também a segregação de lotes e o controle de identificação durante a produção.",
-            "de": "Rückverfolgbarkeit des Rohstoffs vom Drahtstab bis zur fertigen Charge, Wärmebehandlungs- und Beschichtungslinien mit aufgezeichneten Parametern, geeichte Lehren und Härteprüfgeräte sowie die Packkontrolle. Gehen Sie durchs Lager: Vermischte Klassen auf einem Regal sind ein systemisches Risiko, keine kleine Ordnungsfrage."
+            "de": "Rückverfolgbarkeit des Rohstoffs vom Drahtstab bis zur fertigen Charge, Wärmebehandlungs- und Beschichtungslinien mit aufgezeichneten Parametern, geeichte Lehren und Härteprüfgeräte sowie die Packkontrolle. Gehen Sie durchs Lager: Vermischte Klassen auf einem Regal sind ein systemisches Risiko, keine kleine Ordnungsfrage.",
+            "ja": "線材から完成ロットまでの材料追跡、記録されたパラメータのある熱処理と被覆ライン、校正されたゲージと硬度計、梱包状態を見ます。倉庫を回り、一つの棚に等級が混ざっているのは整理の小さな問題ではなく体系的なリスクです。現地の施工慣行と保管状況も考えて、品揃えを調整してください。"
           }
         },
         {
@@ -343,7 +349,8 @@
             "es": "¿Qué señales rojas deben detener un pedido?",
             "fr": "Quels signaux rouges doivent stopper une commande ?",
             "pt": "Que sinais vermelhos devem interromper um pedido?",
-            "de": "Welche Warnzeichen stoppen einen Auftrag?"
+            "de": "Welche Warnzeichen stoppen einen Auftrag?",
+            "ja": "注文を止めるべき危険兆候は何ですか？"
           },
           "a": {
             "en": "Refusing a factory visit, quoting a grade they cannot certify, offering to 'adjust' head markings, no fixed address or only a trading licence, and pressure for full prepayment to a personal account. Any one of these justifies walking away.",
@@ -354,7 +361,8 @@
             "es": "Negarse a la visita de fábrica, ofrecer un grado que no puede certificar, proponer ajustar las marcas de cabeza, no tener dirección fija o solo licencia de comercio, y presionar por el pago completo a una cuenta personal. Cualquiera de estos motivos justifica retirarse del trato.",
             "fr": "Refuser la visite d'usine, coter une classe qu'il ne peut certifier, proposer d'« ajuster » les marques de tête, n'avoir pas d'adresse fixe ou seulement une licence de négoce, et presser au paiement intégral sur un compte personnel. Chacun de ces éléments justifie de renoncer à la commande, même si le prix affiché est attractif.",
             "pt": "Recusar visita à fábrica, cotar uma classe que não consegue certificar, oferecer 'ajustar' marcações de cabeça, não ter endereço fixo ou apenas licença de comerciante, e pressionar por pagamento antecipado integral em conta pessoal. Qualquer um desses itens justifica recusar o fornecedor. A troca por outro canal fica registrada no histórico de qualificação antes do próximo pedido.",
-            "de": "Die Verweigerung eines Werksbesuchs, das Anbieten einer Klasse, die nicht nachweisbar ist, das Versprechen, Kopfmarkierungen zu „anpassen“, keine feste Adresse oder nur eine Handelslizenz, und Druck zur vollständigen Vorkasse auf ein Privatkonto. Jedes dieser Zeichen allein rechtfertigt den Abbruch."
+            "de": "Die Verweigerung eines Werksbesuchs, das Anbieten einer Klasse, die nicht nachweisbar ist, das Versprechen, Kopfmarkierungen zu „anpassen“, keine feste Adresse oder nur eine Handelslizenz, und Druck zur vollständigen Vorkasse auf ein Privatkonto. Jedes dieser Zeichen allein rechtfertigt den Abbruch.",
+            "ja": "工場見学を拒む、証明できない等級を見積もる、頭部マークの調整を申し出る、固定住所がないか販売業の登録しかない、個人口座への全額一括支払いを求める、といった兆候です。どれか一つでも当てはまれば見送る理由になります。接合の目的と耐力を明確にし、過不足のない仕様を整えます。"
           }
         }
       ]
