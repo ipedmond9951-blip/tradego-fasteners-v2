@@ -302,3 +302,26 @@ python3 -c "import sys;sys.path.insert(0,'scripts');import json_rewrite as jr;d=
 **硬不变量（延续）**：写锁 owner `今日头条分析`（TTL 30 分钟）必领必释；`git add <单文件> && git commit -F <msg> -- <单文件>` 同一行；禁 `-F -`/`add -A`/reset/rebase/restore/stash/`--amend`；只 commit 不 push；不碰 A 区 39 篇、`docs/SEO-GEO-*`、`next.config.ts`、`scripts/geo_audit.py`、`src/**`、他线 ` M`。
 
 **经验号段**：本轮占 **224–228**；下一轮开工前先 `grep` 复核最大号。
+
+### 0.11 R-T9p 轮（2026-11-27 00:01–07:15 CST）：B 区 35 篇 N5/N6/N7 + 窗口前冻结
+
+**窗口依赖**：A 线 `deploy-flush` 09:00–11:00 CST → B 线 07:00 停新篇 / 08:00 硬冻结 / 只 commit 不 push。**执行现状**：07:00 停写、07:15 三份文档落库，全程未 push；B 区 35 篇工作树 0 脏文件（另 42 个他线 ` M` 未碰）。
+
+**交付物**：① `docs/geo-upgrade-b-2026-1127.csv`（35 行，`score_after/words_added/locales_touched/tail` 已回填，33 completed + 2 partial）；② 本 §0.11；③ 报告 §20；④ `TWO-LINE-SYNC` §8.7 冻结结果；⑤ 经验 229–236（`docs/CONTENT-CONTRACT.md`）。
+
+**九项验收（`verify9.py` 定版）**：① 35 篇掉分 0，B 区均分 69.8→79.5（中位 75，区间 67–90）；② WARN 45→2（B 区 0）；③ en ≥1600 35/35、zh ≥2000 35/35；④ 整篇口径 5 槽 <95%（主动去重所致，均 ≥ 中位线），分节口径 44 处；⑤ gate 干净 262/264、BLOCK 0、新增 0；⑥ 三件批次级 exit 0；⑦ 键/faq 改动 0/0；⑧ 多文件 5（全为并发扫入）、无锁、A 区交集 5（他线 `298de142` 所致）；⑨ 08:00 冻结达成。
+
+**本轮增量产出（超出原计划的四块）**
+1. **N7 内链体检**：2,578 条内链 → 死链 847 实例 / 8 目标 → 修复 842 + 降级 5，B 区 dead 0（`$T9P/link-audit.md`）。
+2. **跨篇母版复用清零**：60 重度槽 → 0（19 篇），余 147 轻度槽（3–19）。
+3. **重复长句去重**：首扫 100 槽命中（单篇最多 54 句）→ 面板余 1 槽（实为共用内链锚文本）。
+4. **语种槽位**：339/350 达中位线（96.9%），11 槽未达（8 个 en 软缺口 + sleeper hi/zh、mombasa es、packaging zh）。
+
+**下一轮入口顺序**
+1. **上线验证**：A 线 09:00–11:00 推完，核 35 篇首段渲染、内链可点、`hi/ru/ar` 等小语种不乱码；08:30 Vercel 合规审计照跑。
+2. **补 11 个未达标槽**（按缺口）：sleeper hi +20 / zh +43、mombasa es +86、packaging zh +56、8 个 en 软缺口 +23~+69。
+3. **轻度复用 147 槽抽检**：剥离标准号/锚点后逐篇收口。
+4. **§8.4 剩余 9 篇**进下一轮；`material-selection` ja 需先扩 en 源段；`fastener-quality-certification-comparison` 9 槽属历史未扩写。
+5. **A 区同类死链**（`rwanda-*`、`construction-building-self-tapping-*`）交 A 线或下轮。
+
+**经验号段**：本轮占 **229–236**（235/236 为复用与去重口径）；下一轮开工前先 `grep` 复核最大号。
