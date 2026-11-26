@@ -24,7 +24,9 @@ const AI_CRAWLERS = [
   'DuckAssistBot',
 ];
 
-const BLOCKED = ['/api/', '/_next/', '/admin/'];
+// 2026-11-26: 不再 Disallow /_next/ —— 渲染必需的 CSS/JS chunk 就在 /_next/static/chunks/
+// 下，挡住会让爬虫拿不到可渲染页面。仅保留 API 与后台路径。
+const BLOCKED = ['/api/', '/admin/'];
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -42,6 +44,5 @@ export default function robots(): MetadataRoute.Robots {
       })),
     ],
     sitemap: 'https://www.tradego-fasteners.com/sitemap.xml',
-    host: 'https://www.tradego-fasteners.com',
   };
 }
