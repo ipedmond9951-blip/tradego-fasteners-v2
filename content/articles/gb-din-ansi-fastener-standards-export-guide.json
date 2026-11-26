@@ -229,7 +229,8 @@
             "es": "¿Son intercambiables los pernos hexagonales DIN e ISO?",
             "fr": "Les boulons hex DIN et ISO sont-ils interchangeables ?",
             "pt": "Parafusos sextavados DIN e ISO são intercambiáveis?",
-            "de": "Sind DIN- und ISO-Sechskantschrauben austauschbar?"
+            "de": "Sind DIN- und ISO-Sechskantschrauben austauschbar?",
+            "ja": "DIN と ISO の六角ボルトは互換性がありますか？"
           },
           "a": {
             "en": "Yes, DIN and ISO metric hex bolts are harmonized under the Vienna Agreement. Dimensions and tolerances are essentially identical. ISO 4017 replaces DIN 933, and ISO 4014 replaces DIN 931.",
@@ -240,7 +241,8 @@
             "es": "Sí, los pernos hexagonales métricos DIN e ISO están armonizados bajo el Acuerdo de Viena. Dimensiones y tolerancias son esencialmente idénticas. ISO 4017 reemplaza a DIN 933, e ISO 4014 reemplaza a DIN 931. La equivalencia dimensional permite cruzar referencias entre normas.",
             "fr": "Oui, les boulons hex métriques DIN et ISO sont harmonisés par l'Accord de Vienne. Dimensions et tolérances sont essentiellement identiques. L'ISO 4017 remplace le DIN 933, et l'ISO 4014 remplace le DIN 931. Les deux référentiels décrivent les mêmes éléments métriques.",
             "pt": "Sim, os parafusos sextavados métricos DIN e ISO estão harmonizados pelo Acordo de Viena. Dimensões e tolerâncias são essencialmente idênticas. A ISO 4017 substitui a DIN 933, e a ISO 4014 substitui a DIN 931. A intercambiabilidade dimensional não cobre diferença de classe ou revestimento, e a norma é conferida contra a especificação de engenharia.",
-            "de": "Ja, die metrischen Sechskantschrauben nach DIN und ISO sind durch das Wiener Abkommen harmonisiert. Maße und Toleranzen sind im Wesentlichen identisch. ISO 4017 löst DIN 933 ab, und ISO 4014 löst DIN 931 ab."
+            "de": "Ja, die metrischen Sechskantschrauben nach DIN und ISO sind durch das Wiener Abkommen harmonisiert. Maße und Toleranzen sind im Wesentlichen identisch. ISO 4017 löst DIN 933 ab, und ISO 4014 löst DIN 931 ab.",
+            "ja": "はい、DIN と ISO のメトリック六角ボルトはウィーン協定に基づいて調和が進んでおり、寸法と公差は基本的に同一です。ISO 4017 が DIN 933 を、ISO 4014 が DIN 931 を置き換えています。輸出仕様では旧規格番号と新規格番号を両方併記すると、現場での読み違いを防げます。"
           }
         },
         {
@@ -253,7 +255,8 @@
             "es": "¿Puedo usar pernos UNC con tuercas métricas?",
             "fr": "Peut-on employer des boulons UNC avec des écrous métriques ?",
             "pt": "Posso usar parafuso UNC com porca métrica?",
-            "de": "Kann ich UNC-Schrauben mit metrischen Muttern nutzen?"
+            "de": "Kann ich UNC-Schrauben mit metrischen Muttern nutzen?",
+            "ja": "UNC ボルトをメトリックのナットと組み合わせて使えますか？"
           },
           "a": {
             "en": "No. UNC and metric threads have different diameters and pitches. A 1/4\"-20 UNC bolt is completely incompatible with an M6 nut despite similar nominal sizes.",
@@ -264,7 +267,8 @@
             "es": "No. Las roscas UNC y métricas tienen diámetros y pasos distintos. Un perno UNC 1/4\"-20 es totalmente incompatible con una tuerca M6 a pesar de tamaños nominales similares. El sistema de rosca debe coincidir entre perno y tuerca.",
             "fr": "Non. Filetages UNC et métriques ont diamètres et pas différents. Un boulon UNC 1/4 po-20 est totalement incompatible avec un écrou M6 malgré des dimensions nominales proches. Le mélange de systèmes de filetage ne s'ajuste pas au montage.",
             "pt": "Não. Rosca UNC e métrica têm diâmetros e passos diferentes. Um parafuso 1/4\"-20 UNC é totalmente incompatível com uma porca M6, apesar de tamanhos nominais parecidos. A rosca é casada entre peças do mesmo sistema, e a bitola é conferida antes do pedido do conjunto.",
-            "de": "Nein. UNC- und metrische Gewinde haben unterschiedliche Durchmesser und Steigungen. Eine 1/4\"-20-UNC-Schraube ist mit einer M6-Mutter völlig unvereinbar, trotz ähnlicher Nenngröße."
+            "de": "Nein. UNC- und metrische Gewinde haben unterschiedliche Durchmesser und Steigungen. Eine 1/4\"-20-UNC-Schraube ist mit einer M6-Mutter völlig unvereinbar, trotz ähnlicher Nenngröße.",
+            "ja": "いいえ、UNC とメトリックのねじは径とピッチが異なります。呼び径が似ていても、1/4 インチ 20 山の UNC ボルトは M6 ナットとは完全に適合しません。ねじ系が違う組み合わせは締結不良を起こすため、必ず同じねじ系で揃えてください。"
           }
         },
         {
@@ -277,7 +281,8 @@
             "es": "¿Qué serie de norma debo cotizar para proyectos africanos?",
             "fr": "Quelle série normative citer pour les projets africains ?",
             "pt": "Que série de norma citar em projetos africanos?",
-            "de": "Welche Normreihe für afrikanische Projekte anbieten?"
+            "de": "Welche Normreihe für afrikanische Projekte anbieten?",
+            "ja": "アフリカ向け案件ではどの規格体系で見積もりますか？"
           },
           "a": {
             "en": "ISO metric is the default in most African markets, with DIN dimensions widely recognised for hex bolts and nuts. ANSI and UNC appear in equipment-driven specifications, so quote the standard the buyer named rather than converting.",
@@ -288,7 +293,8 @@
             "es": "La métrica ISO es el valor por defecto en la mayoría de mercados africanos, con las dimensiones DIN ampliamente reconocidas para pernos y tuercas hexagonales. ANSI y UNC aparecen en especificaciones impulsadas por equipo, así que cotice la norma que nombró el comprador, no convierta. La referencia sigue el documento del proyecto.",
             "fr": "Le métrique ISO est la valeur par défaut sur la plupart des marchés africains, les cotes DIN étant largement reconnues pour boulons et écrous hex. ANSI et UNC apparaissent dans des spécifications pilotées par équipement : citer le référentiel nommé par l'acheteur plutôt que de convertir. On suit la norme demandée.",
             "pt": "A métrica ISO é o padrão na maioria dos mercados africanos, com as dimensões DIN amplamente reconhecidas para parafusos e porcas sextavados. ANSI e UNC aparecem em especificações ditadas por equipamento, por isso se cita a norma nomeada pelo comprador, em vez de converter. A norma segue a exigência do projeto, e a referência é confirmada na cotação.",
-            "de": "ISO metrisch ist in den meisten afrikanischen Märkten der Standard, DIN-Maße sind bei Sechskantschrauben und Muttern weithin anerkannt. ANSI und UNC treten in gerätebezogenen Vorgaben auf; nennen Sie daher die vom Käufer genannte Norm, statt umzurechnen."
+            "de": "ISO metrisch ist in den meisten afrikanischen Märkten der Standard, DIN-Maße sind bei Sechskantschrauben und Muttern weithin anerkannt. ANSI und UNC treten in gerätebezogenen Vorgaben auf; nennen Sie daher die vom Käufer genannte Norm, statt umzurechnen.",
+            "ja": "多くのアフリカ市場では ISO メトリックが既定となり、六角ボルトやナットでは DIN 寸法も広く認知されています。ANSI や UNC は機器指定の仕様で現れることがあります。単位を変換して提案するのではなく、購入者が指定した規格をそのまま見積もりに反映してください。"
           }
         }
       ],
