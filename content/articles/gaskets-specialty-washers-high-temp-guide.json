@@ -213,7 +213,8 @@
             "ru": "Чем отличается прокладка от шайбы?",
             "ar": "ما الفرق بين الحشية والوسادة؟",
             "es": "¿Qué diferencia hay entre junta y arandela?",
-            "fr": "Quelle différence entre joint d'étanchéité et rondelle ?"
+            "fr": "Quelle différence entre joint d'étanchéité et rondelle ?",
+            "pt": "Qual a diferença entre uma junta e uma arruela?"
           },
           "a": {
             "en": "A washer is a load-spreading hardware component used with a bolt/nut. A gasket is a sealing element (often soft or compressible) used between two flat faces (like flanges) to prevent leakage.",
@@ -222,7 +223,8 @@
             "ru": "Шайба — это деталь, распределяющая нагрузку и работающая с болтом или гайкой. Прокладка — уплотнительный элемент, часто мягкий или сжимаемый, который ставят между двумя плоскими поверхностями, например фланцами, чтобы не было протечки.",
             "ar": "الوسادة مكوّن Hardware يوزع الحمل مع البرغي أو الصامولة. أما الحشية فعنصر إحكام غالبًا مرن أو قابل للانضغاط يُستخدم بين سطحين مستويين مثل الفلانكات لمنع التسرب. وضّح الغرض في الاستفسار: توزيع حمل أم منع تسرب سائل أو غاز. اختر المقاس حسب القطر الداخلي والخارجي وسماكة الفلانكة، وطابق المادة مع الوسط والحرارة، وراجع توصية الشركة المصنعة لنوع الوصلة، ولا تستخدم وسادة معدنية مكان حشية مانعة للتسرب.",
             "es": "Una arandela es un componente de reparto de carga que se usa con perno/tuerca. Una junta es un elemento de sellado (a menudo blando o compresible) entre dos caras planas, como bridas, para evitar fugas. La arandela reparte presión; la junta cierra el paso de fluido.",
-            "fr": "La rondelle est un organe de répartition de charge utilisé avec boulon ou écrou. Le joint d'étanchéité est un élément d'étanchéité, souvent souple ou compressible, disposé entre deux faces planes (comme des brides) pour empêcher toute fuite. L'un protège l'assemblage mécanique, l'autre bloque le passage du fluide."
+            "fr": "La rondelle est un organe de répartition de charge utilisé avec boulon ou écrou. Le joint d'étanchéité est un élément d'étanchéité, souvent souple ou compressible, disposé entre deux faces planes (comme des brides) pour empêcher toute fuite. L'un protège l'assemblage mécanique, l'autre bloque le passage du fluide.",
+            "pt": "A arruela é um componente de hardware que espalha carga, usado com parafuso ou porca. A junta é um elemento de vedação, muitas vezes macio ou compressível, colocado entre duas faces planas como flanges, para evitar vazamento. A peça segue sua função de apoio ou vedação, e a escolha é conferida contra a superfície de contato do equipamento."
           }
         },
         {
@@ -233,7 +235,8 @@
             "ru": "Можно ли применять пластиковые шайбы при высокой температуре?",
             "ar": "هل تستخدم وسائد بلاستيكية عند درجات حرارة عالية؟",
             "es": "¿Pueden usarse arandelas plásticas a alta temperatura?",
-            "fr": "Les rondelles plastiques tiennent-elles les hautes températures ?"
+            "fr": "Les rondelles plastiques tiennent-elles les hautes températures ?",
+            "pt": "Arruelas plásticas servem em altas temperaturas?"
           },
           "a": {
             "en": "Standard nylon washers are limited to 105°C. For higher temperatures, use PTFE (260°C), PEEK (250°C), or graphite (450°C+) depending on the application.",
@@ -242,7 +245,8 @@
             "ru": "Обычные нейлоновые ограничены 105 °C. Выше берут PTFE (260 °C), PEEK (250 °C) или графит (450 °C и больше) — выбор зависит от среды и условий узла.",
             "ar": "وسائد النايلون القياسية محدودة عند 105°C. لدرجات أعلى استخدم PTFE عند 260°C أو PEEK عند 250°C أو الجرافيت فوق 450°C حسب التطبيق. حدّد ذروة الحرارة المستمرة لا اللحظية، وراجع توافق المادة مع الوسط الكيميائي، واختر سمك الوسادة مع فجوة الوصلة، وتحقق من مقاومة التمدد الحراري، وأرجع اختيار المادة إلى جهة تصنيع الوسائد عند وجود وسط عدواني.",
             "es": "Las arandelas de nailon estándar están limitadas a 105 °C. Para temperaturas mayores, use PTFE (260 °C), PEEK (250 °C) o grafito (450 °C o más) según la aplicación. El material se elige por la temperatura y el medio de la unión.",
-            "fr": "Les rondelles nylon standard sont limitées à 105 °C. Pour des températures plus élevées, on emploie le PTFE (260 °C), le PEEK (250 °C) ou le graphite (450 °C et plus), selon l'application. Le matériau doit être choisi d'après la température de service réelle et le milieu environnant."
+            "fr": "Les rondelles nylon standard sont limitées à 105 °C. Pour des températures plus élevées, on emploie le PTFE (260 °C), le PEEK (250 °C) ou le graphite (450 °C et plus), selon l'application. Le matériau doit être choisi d'après la température de service réelle et le milieu environnant.",
+            "pt": "As arruelas de nylon padrão estão limitadas a 105 °C. Para temperaturas mais altas, usam-se PTFE (260 °C), PEEK (250 °C) ou grafite (450 °C para cima), conforme a aplicação. O material segue a temperatura de serviço, e o limite é conferido na ficha do polímero antes da especificação do conjunto."
           }
         },
         {
@@ -253,7 +257,8 @@
             "ru": "Какой материал прокладки выбрать для высокотемпературной службы?",
             "ar": "أي مادة حشية للخدمة عالية الحرارة؟",
             "es": "¿Qué material de junta para servicio de alta temperatura?",
-            "fr": "Quel matériau de joint pour le service haute température ?"
+            "fr": "Quel matériau de joint pour le service haute température ?",
+            "pt": "Qual material de junta para serviço de alta temperatura?"
           },
           "a": {
             "en": "Graphite gaskets for the highest temperatures and aggressive media, copper sealing gaskets for smaller joints and good thermal cycling, and fibre or rubber-based sheets for lower temperatures where cost dominates.",
@@ -262,7 +267,8 @@
             "ru": "Графитовые прокладки — для самых высоких температур и агрессивных сред; медные уплотнительные — для небольших соединений и хорошего термоциклирования; волокнистые или резиновые листы — для нижних температур, где решающую роль играет стоимость.",
             "ar": "حشيات الجرافيت لأعلى درجات الحرارة والأوساط العدوانية؛ وحشيات النحاس المانعة للتسرب للوصلات الصغيرة ودورات حرارية جيدة؛ وألواح الألياف أو المطاط للحرارات المنخفضة حيث يغلب عامل التكلفة. طابق المادة مع ضغط الوصلة وطبيعة الوسط، وتحقق من حدود الحرارة في جدول الشركة المصنعة، واختار سمك الحشية مع تسريب الفلانكة، واستبدل الحشية عند إعادة فتح الوصلة، وأغلق مسامير الربط بالتسلسل الصحيح.",
             "es": "Juntas de grafito para las temperaturas más altas y medios agresivos, juntas de sellado de cobre para uniones menores y buen ciclo térmico, y láminas de fibra o base de goma para temperaturas menores donde manda el costo. El material sigue la temperatura y la agresividad del medio.",
-            "fr": "Joints graphite pour les températures les plus élevées et les milieux agressifs, joints d'étanchéité cuivre pour les petites liaisons et le bon cyclage thermique, et feuilles fibre ou caoutchouc pour les basses températures où le coût domine. Le fluide et la plage de température orientent la matière du joint."
+            "fr": "Joints graphite pour les températures les plus élevées et les milieux agressifs, joints d'étanchéité cuivre pour les petites liaisons et le bon cyclage thermique, et feuilles fibre ou caoutchouc pour les basses températures où le coût domine. Le fluide et la plage de température orientent la matière du joint.",
+            "pt": "Juntas de grafite para as temperaturas mais altas e meios agressivos; juntas de vedação de cobre para ligações menores e bom ciclo térmico; chapas de fibra ou borracha para temperaturas mais baixas onde o custo pesa. O material segue a temperatura e o meio, e a espessura é conferida contra a flange da ligação."
           }
         }
       ],
