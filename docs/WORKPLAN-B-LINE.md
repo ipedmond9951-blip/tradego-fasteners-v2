@@ -194,3 +194,17 @@ python3 -c "import sys;sys.path.insert(0,'scripts');import json_rewrite as jr;d=
 - 只 commit 不 push；A 区 39 篇与别线在途文件（` M`）一律不 `add`、不改、不 restore。
 - 交期/付款/MOQ 三类模板句按篇轮换句式，数字不动（经验 180），批量写完必跑 `dedupe_*`。
 - 经验号段先 `grep` 再预约：本轮已占 **176–180**，下一轮从 **181** 起。
+
+### 0.6 R-T9k 轮入口与顺序（2026-11-26 收口后）
+
+**当前 B 区缺口（磁盘实跑）**：ru 30 / ar 32 / es 16 / fr 34 / de 27 / pt 41 / ja 21 / hi 10 / zh 0，合计 **211 条**；存量技术债 **519 侧次**（清单 `docs/faq-native-legacy-debt-2026-1126.md`）。
+
+**建议顺序**
+
+1. **先吃 5 篇冻结/在途**（等 A 线答复、`git status` 干净后再动，不 restore/checkout）：`africa-fastener-market-opportunities-2026` 7 条（ru/ar/es/fr/pt）、`china-fasteners-zimbabwe-procurement-guide` 6 条（ru/ar/fr/de/pt）、`ghana-fastener-market-guide` 7 条（ru/ar/fr/de/pt）、`drc-diamond-mining-fasteners` 12 条（ru 5 / ar 12 / de 5 / pt 12 / hi 5，归属待确认）、`malawi-fastener-market-case-study` 9 条（ru 5 / es 9 / fr 9 / de 9 / pt 9 / hi 5，ja 0）。
+2. **malawi 各语种补齐**：es 9 / fr 9 / de 9 / pt 9 / ru 5 / hi 5；ja 按下轮扫描结果定（当前 0 缺口）。
+3. **存量技术债分批**：按遗留债清单分类，先"答案超长 >450"（65 侧次）再"答案 <120"（61）；其后问句超长 84、纯度不足 29、简体专用字 14、异种文字/拉丁整句 227、金额/折扣/百分比 12、源文占位 22、源文错位/残缺/重复 5；hi 226 侧次多为口径收紧后暴露，非上一轮写坏。
+4. **ja 产地口径统一**：把「出荷元・供給元・海外」改写为「中国を出荷元とする」类表述；涉及条数未逐条统计，开工前先扫描 ja 答案定位。
+5. **pt/ja 去重新增项改写**：pt 2 处 ≥15 占位句回显片段；ja 144 处礼貌收尾套话 8-gram，按多套尾句轮换拆解。
+
+**硬不变量**：沿用 §0.5——写锁 owner `今日头条分析`、逐条幂等、单文件提交、只 commit 不 push、不碰 A 区 39 篇与 ` M` 在途文件；经验号段本轮已占至 **202**，R-T9k 从 **203** 起。
