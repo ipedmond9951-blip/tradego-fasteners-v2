@@ -205,7 +205,8 @@
             "ar": "هل أستطيع استبدال براغي DIN ببراغي SABS في مشروع جنوب أفريقي؟",
             "es": "¿Puedo sustituir pernos DIN por pernos SABS en obra sudafricana?",
             "fr": "Peut-on remplacer des boulons DIN par des boulons SABS ?",
-            "pt": "Posso substituir parafusos DIN por SABS em projeto sul-africano?"
+            "pt": "Posso substituir parafusos DIN por SABS em projeto sul-africano?",
+            "de": "Darf ich DIN-Bolzen in Südafrika durch SABS-Bolzen ersetzen?"
           },
           "a": {
             "en": "Only if the project specifications allow it and the DIN bolts meet equivalent mechanical properties. For government-funded projects, SABS certification is typically mandatory. Check with the project engineer before substituting.",
@@ -215,7 +216,8 @@
             "ar": "لا يجوز إلا إذا سمحت مواصفات المشروع بذلك، واستوفت براغي DIN الخواص الميكانيكية المكافئة. وفي المشاريع الممولة حكومياً تكون المطابقة SABS إلزامية عادة. راجع مهندس المشروع قبل أي استبدال، وأرفق ما يثبت الدرجة والخواص عند الطلب.",
             "es": "Solo si las especificaciones del proyecto lo permiten y los pernos DIN cumplen propiedades mecánicas equivalentes. En proyectos financiados con fondos públicos la certificación SABS suele ser obligatoria. Antes de sustituir, consulte al ingeniero del proyecto. La sustitución no debe basarse solo en el grado, sino en la comparación real de dimensiones y propiedades.",
             "fr": "Seulement si les spécifications du projet l'autorisent et que les boulons DIN présentent des propriétés mécaniques équivalentes. Pour les projets financés par l'État, la certification SABS est généralement obligatoire. Vérifiez auprès de l'ingénieur du projet avant toute substitution. La norme de production peut être citée sur le document, mais la conformité doit être validée avant approbation.",
-            "pt": "Só se as especificações do projeto permitirem e os parafusos DIN atenderem a propriedades mecânicas equivalentes. Em projetos financiados pelo governo, a certificação SABS costuma ser obrigatória. Antes de substituir, confirma-se com o engenheiro do projeto; a troca por classe de número sem conferir dimensão, rosca e cabeça é uma causa comum de falha na inspeção."
+            "pt": "Só se as especificações do projeto permitirem e os parafusos DIN atenderem a propriedades mecânicas equivalentes. Em projetos financiados pelo governo, a certificação SABS costuma ser obrigatória. Antes de substituir, confirma-se com o engenheiro do projeto; a troca por classe de número sem conferir dimensão, rosca e cabeça é uma causa comum de falha na inspeção.",
+            "de": "Nur, wenn die Projektspezifikationen es erlauben und die DIN-Bolzen gleichwertige mechanische Eigenschaften erfüllen. Bei staatlich geförderten Projekten ist eine SABS-Konformität üblicherweise Pflicht. Ersetzungen sollten vor dem Austausch mit dem Projektingenieur abgestimmt werden."
           }
         },
         {
@@ -227,7 +229,8 @@
             "ar": "هل مثبتات المعيار GB مقبولة في المشاريع الدولية؟",
             "es": "¿Son aceptables las fijaciones norma GB en proyectos internacionales?",
             "fr": "Les fixations norme GB conviennent-elles aux projets internationaux ?",
-            "pt": "Fixadores GB servem em projetos internacionais?"
+            "pt": "Fixadores GB servem em projetos internacionais?",
+            "de": "Sind GB-Befestigungsmittel für internationale Projekte akzeptabel?"
           },
           "a": {
             "en": "Yes, provided they meet the specified mechanical grade requirements and come with proper test certifications. GB/T standards are increasingly aligned with ISO standards. Always request MTC and test reports.",
@@ -237,7 +240,8 @@
             "ar": "نعم، شريطة أن تستوفي متطلبات الدرجة الميكانيكية المحددة وتأتي بشهادات فحص سليمة. وتتوافق معايير GB/T مع معايير ISO على نحو متزايد. اطلب دائماً شهادة فحص المطحنة MTC وتقارير الاختبار، وطابق رقم الحرارة مع القطع المسلمة.",
             "es": "Sí, siempre que cumplan el grado mecánico exigido y vayan con los certificados de ensayo adecuados. Las normas GB/T están cada vez más alineadas con las ISO. Pida siempre el MTC y los informes de ensayo. La aceptación final depende de lo que pida la especificación del destino y de la conformidad que exija el comprador.",
             "fr": "Oui, à condition qu'elles répondent aux exigences de classe mécanique spécifiées et qu'elles soient accompagnées des certificats d'essai appropriés. Les normes GB/T sont de plus en plus alignées sur l'ISO. Demandez toujours le certificat d'essai matière (MTC) et les rapports d'essai. Sans document vérifiable, le grade ne peut être confirmé à réception.",
-            "pt": "Sim, desde que atendam aos requisitos de classe mecânica especificados e venham com certificados de ensaio adequados. As normas GB/T estão cada vez mais alinhadas às ISO. Pede-se sempre o MTR e os relatórios de ensaio, e a ficha do lote deve bater com a entrega. A aceitação final segue a norma exigida pelo destino e pelo projeto."
+            "pt": "Sim, desde que atendam aos requisitos de classe mecânica especificados e venham com certificados de ensaio adequados. As normas GB/T estão cada vez mais alinhadas às ISO. Pede-se sempre o MTR e os relatórios de ensaio, e a ficha do lote deve bater com a entrega. A aceitação final segue a norma exigida pelo destino e pelo projeto.",
+            "de": "Ja, sofern sie die geforderten mechanischen Güteklassen erfüllen und mit ordentlichen Prüfzertifikaten geliefert werden. Die GB/T-Normen sind zunehmend auf die ISO-Normen abgestimmt. Fordern Sie stets das Werkszeugnis und Prüfberichte an."
           }
         },
         {
@@ -249,7 +253,8 @@
             "ar": "هل يمكن استبدال مثبتات DIN وANSI وGB ببعضها؟",
             "es": "¿Pueden intercambiarse fijaciones DIN, ANSI y GB?",
             "fr": "Peut-on substituer entre elles les fixations DIN, ANSI et GB ?",
-            "pt": "DIN, ANSI e GB podem ser trocados entre si?"
+            "pt": "DIN, ANSI e GB podem ser trocados entre si?",
+            "de": "Lassen sich DIN-, ANSI- und GB-Befestiger gegeneinander ersetzen?"
           },
           "a": {
             "en": "Only after comparing dimensions and mechanical properties item by item. DIN/EN ISO and GB share the metric M series and often interchange in size, while ANSI/ASME uses inch diameters with UNC/UNF threads and different head dimensions. Substituting by grade number alone (8.8 vs Grade 5) without checking thread, head and length is how joints fail inspection.",
@@ -259,7 +264,8 @@
             "ar": "لا يتم ذلك إلا بعد مقارنة الأبعاد والخواص الميكانيكية بندٍ بندٍ. تتقاسم DIN/EN ISO وGB سلسلة M المترية وغالباً تتبادل في المقاس، بينما تستخدم ANSI/ASME أقطاراً بوصبية بخيوط UNC/UNF وأبعاد رؤوس مختلفة. والاستبدال برقم الدرجة وحده، مثل 8.8 مقابل Grade 5، دون فحص الخيط والرأس والطول هو سبب فشل الوصلات في الفحص.",
             "es": "Solo después de comparar dimensión y propiedad mecánica pieza por pieza. DIN/EN ISO y GB comparten la serie métrica M y a menudo coinciden en tamaño, mientras que ANSI/ASME usa diámetros en pulgada con rosca UNC/UNF y otras cabezas. Sustituir por el número de grado solo (8.8 frente a Grado 5) sin mirar rosca, cabeza y longitud es como fallar la inspección de la unión.",
             "fr": "Seulement après comparaison dimension par dimension des dimensions et des propriétés mécaniques. DIN/EN ISO et GB partagent la série métrique M et s'interchangent souvent en taille, tandis que ANSI/ASME utilise des diamètres en pouce avec filetage UNC/UNF et des têtes différentes. Substituer par le seul numéro de grade (8.8 contre Grade 5) sans vérifier filetage, tête et longueur est la cause fréquente des échecs au contrôle.",
-            "pt": "Só depois de comparar dimensões e propriedades mecânicas item por item. DIN/EN ISO e GB compartilham a série métrica M e muitas vezes intercambiam de tamanho, enquanto ANSI/ASME usa diâmetros em polegada com rosca UNC/UNF e dimensões de cabeça diferentes. Trocar só pelo número de classe, 8.8 versus Grade 5, sem checar rosca, cabeça e comprimento, é como as juntas falham na inspeção."
+            "pt": "Só depois de comparar dimensões e propriedades mecânicas item por item. DIN/EN ISO e GB compartilham a série métrica M e muitas vezes intercambiam de tamanho, enquanto ANSI/ASME usa diâmetros em polegada com rosca UNC/UNF e dimensões de cabeça diferentes. Trocar só pelo número de classe, 8.8 versus Grade 5, sem checar rosca, cabeça e comprimento, é como as juntas falham na inspeção.",
+            "de": "Nur nach Gegenüberstellung der Abmessungen und mechanischen Eigenschaften im Einzelnen. DIN/EN ISO und GB teilen die metrische M-Reihe und sind oft in der Größe austauschbar, während ANSI/ASME Zollabmessungen mit UNC/UNF-Gewinden und andere Kopfabmessungen nutzt. Ein Ersatz nach Gütenummer allein, 8.8 gegenüber Güte 5, ohne Gewinde, Kopf und Länge zu prüfen, ist ein Grund dafür, dass Verbindungen die Prüfung nicht bestehen."
           }
         },
         {
@@ -271,7 +277,8 @@
             "ar": "كيف تقارن أنظمة الدرجات عبر المعايير؟",
             "es": "¿Cómo se comparan los sistemas de grado entre normas?",
             "fr": "Comment les systèmes de grade se comparent-ils entre normes ?",
-            "pt": "Como se comparam os sistemas de classe entre normas?"
+            "pt": "Como se comparam os sistemas de classe entre normas?",
+            "de": "Wie vergleichen sich die Gütesysteme der Normen?"
           },
           "a": {
             "en": "Metric 8.8 corresponds roughly to SAE J429 Grade 5, and 10.9 to Grade 8 in tensile strength, but proof load, head size and thread form still differ. Stainless A2-70 and A4-70 map to 304 and 316 families. Always compare the actual mechanical property table, not the label.",
@@ -281,7 +288,8 @@
             "ar": "يقابل المتري 8.8 تقريباً SAE J429 Grade 5، و10.9 Grade 8 في مقاومة الشد، لكن حمل الإثبات وحجم الرأس وشكل الخيط لا يزال مختلفاً. وينتمي A2-70 وA4-70 إلى عائلتي 304 و316. قارن دائماً جدول الخواص الميكانيكية الفعلي، لا الملصق.",
             "es": "El 8.8 métrico equivale aproximadamente al SAE J429 Grado 5, y el 10.9 al Grado 8 en tracción, pero la carga de prueba, el tamaño de cabeza y la forma de rosca siguen siendo distintos. El inoxidable A2-70 y A4-70 corresponden a las familias 304 y 316. Compare siempre la tabla real de propiedades mecánicas, no la etiqueta.",
             "fr": "Le métrique 8.8 correspond grosso modo au SAE J429 Grade 5, et le 10.9 au Grade 8 en résistance à la traction, mais la charge d'épreuve, la taille de tête et la forme du filetage diffèrent encore. Les inox A2-70 et A4-70 correspondent respectivement aux familles 304 et 316. Comparez toujours le tableau réel des propriétés mécaniques, pas l'étiquette.",
-            "pt": "O métrico 8.8 corresponde mais ou menos ao SAE J429 Grade 5, e o 10.9 ao Grade 8 em resistência à tração, mas carga de prova, tamanho de cabeça e forma de rosca ainda diferem. A2-70 e A4-70 mapeiam para as famílias 304 e 316. Compara-se sempre a tabela real de propriedades mecânicas, não o rótulo. A classe deve ser conferida na cabeça do fixador e no certificado do lote."
+            "pt": "O métrico 8.8 corresponde mais ou menos ao SAE J429 Grade 5, e o 10.9 ao Grade 8 em resistência à tração, mas carga de prova, tamanho de cabeça e forma de rosca ainda diferem. A2-70 e A4-70 mapeiam para as famílias 304 e 316. Compara-se sempre a tabela real de propriedades mecânicas, não o rótulo. A classe deve ser conferida na cabeça do fixador e no certificado do lote.",
+            "de": "Metrisch 8.8 entspricht in der Zugfestigkeit etwa der SAE J429 Güte 5, 10.9 etwa Güte 8, doch Streckgrenze, Kopfgröße und Gewindeform bleiben unterschiedlich. A2-70 und A4-70 aus nichtrostendem Stahl gehören zu den Familien 304 beziehungsweise 316. Vergleichen Sie stets die tatsächliche Eigenschaftstabelle, nicht nur die Bezeichnung."
           }
         },
         {
@@ -293,7 +301,8 @@
             "ar": "ما الشهادة التي يطلبها المشتري الأفريقي عادة؟",
             "es": "¿Qué certificación pide habitualmente un comprador africano?",
             "fr": "Quelle certification l'acheteur africain exige-t-il habituellement ?",
-            "pt": "Que certificação um comprador africano costuma exigir?"
+            "pt": "Que certificação um comprador africano costuma exigir?",
+            "de": "Welche Zertifizierung verlangt ein afrikanischer Käufer üblicherweise?"
           },
           "a": {
             "en": "Expect EN 10204 3.1 mill test certificates for structural lots, ISO 9001 for the supplier, and destination-specific conformity such as SABS or SONCAP. Large projects often add third-party pre-shipment inspection. Certificates must reference the actual heat number and match the delivered parts.",
@@ -303,7 +312,8 @@
             "ar": "توقع شهادات فحص مطحنة EN 10204 3.1 للدفع الإنشائية، ووثائق نظام الجودة للمورد، ومطابقة خاصة بالوجهة مثل SABS أو SONCAP. وكثيراً ما تضيف المشاريع الكبيرة فحص طرف ثالث قبل الشحن. ويجب أن تشير الشهادات إلى رقم الحرارة الفعلي وتطابق القطع المسلمة.",
             "es": "Suelen pedirse certificados de ensayo de lote EN 10204 3.1 para partidas estructurales y conformidad de destino, como SABS o SONCAP. En proyectos grandes se suma una inspección previa al envío de tercera parte. Los certificados deben referirse al número de colada real y coincidir con las piezas entregadas; la documentación de calidad se entrega según el pedido.",
             "fr": "Attendez des certificats d'essai d'usine EN 10204 3.1 pour les lots structurels, un dossier qualité fournisseur conforme, et une conformité propre à la destination telle que SABS ou SONCAP. Les grands projets ajoutent souvent une inspection tierce partie avant expédition. Les certificats doivent référencer le numéro de fonte réel et correspondre aux pièces livrées ; les attestations sont fournies selon la commande.",
-            "pt": "Esperam-se MTR EN 10204 3.1 nos lotes estruturais, e conformidade do destino, como SABS ou SONCAP. Projetos grandes costumam acrescentar inspeção de terceira parte pré-embarque. Os certificados devem referir o número de calor real e bater com as peças entregues. O fabricante produz conforme SABS 1195, DIN ou ISO, e os certificados vêm conforme o pedido do projeto."
+            "pt": "Esperam-se MTR EN 10204 3.1 nos lotes estruturais, e conformidade do destino, como SABS ou SONCAP. Projetos grandes costumam acrescentar inspeção de terceira parte pré-embarque. Os certificados devem referir o número de calor real e bater com as peças entregues. O fabricante produz conforme SABS 1195, DIN ou ISO, e os certificados vêm conforme o pedido do projeto.",
+            "de": "Für Strukturlieferungen sind Werkszeugnisse nach EN 10204 3.1 zu erwarten, ein am ISO 9001 ausgerichtetes Qualitätssystem beim Lieferanten sowie zielortspezifische Konformität wie SABS oder SONCAP. Große Projekte nehmen oft eine Drittinspektion vor dem Versand hinzu. Die Zertifikate müssen die tatsächliche Schmelznummer nennen und mit den gelieferten Teilen übereinstimmen."
           }
         }
       ]
