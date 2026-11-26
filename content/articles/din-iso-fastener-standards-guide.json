@@ -345,7 +345,8 @@
       "hi": "DIN और ISO फास्टनर एक-दूसरे से बदले जा सकते हैं?",
       "ru": "Являются ли крепёж DIN и ISO взаимозаменяемыми?",
       "ar": "هل مسامير DIN وISO قابلة للتبديل؟",
-      "es": "¿Son intercambiables las fijaciones DIN e ISO?"
+      "es": "¿Son intercambiables las fijaciones DIN e ISO?",
+      "fr": "Les fixations DIN et ISO sont-elles interchangeables ?"
      },
      "a": {
       "en": "Yes, in most cases. DIN and ISO hex bolt standards are dimensionally identical. A DIN 931 bolt will fit an ISO 4014 application. However, always verify the property class and coating match the engineering specification.",
@@ -353,7 +354,8 @@
       "hi": "ज़्यादातर मामलों में हां: DIN और ISO हेक्स बोल्ट मानक आयामी रूप से एक जैसे होते हैं। DIN 931 बोल्ट ISO 4014 वाली जगह लग सकता है। फिर भी इंजीनियरिंग स्पेसिफिकेशन से प्रॉपर्टी क्लास और कोटिंग का मिलान अवश्य जांच लें।",
       "ru": "В большинстве случаев да: стандарты болтов DIN и ISO совпадают по размерам. Болт DIN 931 подходит под применение ISO 4014. Тем не менее класс прочности и покрытие всегда сверяют с инженерной спецификацией узла: совпадение габаритов не отменяет требования по механическим свойствам и защите от коррозии, особенно в несущем соединении.",
       "ar": "نعم في معظم الحالات. معايير البراغي سداسية الرأس من DIN وISO متطابقة الأبعاد، فبرغي DIN 931 يناسب تطبيق ISO 4014. ومع ذلك تحقق دائماً من مطابقة فئة الخواص والطلاء لمواصفة الهندسة قبل الاعتماد.",
-      "es": "Sí, en la mayoría de los casos. Las normas DIN e ISO de perno hexagonal son dimensionalmente idénticas. Un perno DIN 931 encaja en una aplicación ISO 4014. Sin embargo, verifique siempre que la clase de propiedad y el recubrimiento coincidan con la especificación de ingeniería. La dimensión es común, pero la resistencia y el recubrimiento deben revisarse."
+      "es": "Sí, en la mayoría de los casos. Las normas DIN e ISO de perno hexagonal son dimensionalmente idénticas. Un perno DIN 931 encaja en una aplicación ISO 4014. Sin embargo, verifique siempre que la clase de propiedad y el recubrimiento coincidan con la especificación de ingeniería. La dimensión es común, pero la resistencia y el recubrimiento deben revisarse.",
+      "fr": "Oui, dans la plupart des cas. Les normes de boulon hexagonal DIN et ISO sont dimensionnellement identiques. Un boulon DIN 931 convient à une application ISO 4014. Vérifiez cependant toujours que la classe de propriété et le revêtement correspondent à la spécification d'ingénierie. La dimension commune ne dispense pas du contrôle de grade. Le montage associe boulon et écrou de même classe. Une référence croisée se fait sur le dessin technique."
      }
     },
     {
@@ -363,7 +365,8 @@
       "hi": "अफ्रीका में स्ट्रक्चरल स्टील के लिए कौन-सी प्रॉपर्टी क्लास लें?",
       "ru": "Какой класс прочности брать для стальных конструкций в Африке?",
       "ar": "ما فئة الخواص المناسبة للفولاذ الإنشائي في أفريقيا؟",
-      "es": "¿Qué clase de propiedad uso para acero estructural en África?"
+      "es": "¿Qué clase de propiedad uso para acero estructural en África?",
+      "fr": "Quelle classe pour l'acier de construction en Afrique ?"
      },
      "a": {
       "en": "Property class 10.9 (ISO) or 8.8 (DIN) is standard for structural steel connections in most African building codes. For coastal or high-humidity environments, specify hot-dip galvanized 10.9 bolts. Always consult local SABS or equivalent standards.",
@@ -371,7 +374,8 @@
       "hi": "ज़्यादातर अफ्रीकी बिल्डिंग कोड में स्ट्रक्चरल स्टील कनेक्शन के लिए क्लास 10.9 (ISO) या 8.8 (DIN) मानक है। तटीय या उच्च आर्द्रता वाले परिवेश में हॉट-डिप गैल्वनाइज़्ड 10.9 बोल्ट बताएं। स्थानीय SABS या समकक्ष मानक से मिलान हमेशा जांच लें।",
       "ru": "Для соединений стальных конструкций в большинстве строительных норм Африки стандартны класс 10.9 по ISO либо 8.8 по DIN. Для прибрежных районов и влажного климата закладывают болты 10.9 с горячим цинкованием (HDG). Местные требования по SABS или эквивалентному стандарту проверяют по проекту: нормы региона могут ужесточать класс либо покрытие.",
       "ar": "فئة الخواص 10.9 وفق ISO أو 8.8 وفق DIN قياسية للوصلات الفولاذية الإنشائية في معظم أكواد البناء الأفريقية. وللبيئات الساحلية أو عالية الرطوبة حدد براغي 10.9 مجلفنة بالغمس الساخن. وراجع معايير SABS المحلية أو ما يعادلها حسب بلد المشروع.",
-      "es": "La clase de propiedad 10.9 (ISO) o 8.8 (DIN) es estándar para uniones de acero estructural en la mayoría de los códigos africanos de construcción. En ambientes costeros o de alta humedad, especifique pernos 10.9 galvanizados en caliente. Consulte la norma local pertinente o su equivalente. El recubrimiento acompaña al grado según la exposición."
+      "es": "La clase de propiedad 10.9 (ISO) o 8.8 (DIN) es estándar para uniones de acero estructural en la mayoría de los códigos africanos de construcción. En ambientes costeros o de alta humedad, especifique pernos 10.9 galvanizados en caliente. Consulte la norma local pertinente o su equivalente. El recubrimiento acompaña al grado según la exposición.",
+      "fr": "La classe 10.9 (ISO) ou 8.8 (DIN) est standard pour les liaisons d'acier de construction dans la plupart des codes du bâtiment africains. Pour les milieux côtiers ou très humides, spécifiez des boulons 10.9 galvanisés à chaud. Consultez toujours les normes SABS locales ou équivalentes. Le grade suit la charge et la conception de la liaison. L'exposition au sel impose la protection adaptée."
      }
     },
     {
@@ -381,7 +385,8 @@
       "hi": "DIN बोल्ट के साथ ISO नट चला सकते हैं?",
       "ru": "Можно ли ставить гайку ISO на болт DIN?",
       "ar": "هل يمكن خلط صواميل DIN مع صواميل ISO؟",
-      "es": "¿Puedo usar pernos DIN con tuercas ISO?"
+      "es": "¿Puedo usar pernos DIN con tuercas ISO?",
+      "fr": "Peut-on associer des boulons DIN à des écrous ISO ?"
      },
      "a": {
       "en": "Yes, DIN 934 nuts and ISO 4032 nuts are dimensionally identical and fully interchangeable. The same applies to washers (DIN 125 / ISO 7089). Mixing DIN and ISO components from the same property class is standard industry practice.",
@@ -389,7 +394,8 @@
       "hi": "हां: DIN 934 और ISO 4032 नट आयामी रूप से एक जैसे और पूरी तरह बदले जा सकते हैं। यही बात वॉशर पर लागू होती है (DIN 125 / ISO 7089)। एक ही प्रॉपर्टी क्लास के DIN और ISO हिस्से मिलाना उद्योग का सामान्य चलन है।",
       "ru": "Да: гайки DIN 934 и ISO 4032 совпадают по размерам и полностью взаимозаменяемы; то же касается шайб DIN 125 и ISO 7089. Смешивать компоненты DIN и ISO одного класса прочности — обычная отраслевая практика. Контролируйте только класс: гайка должна соответствовать болту по нагрузке, а не только по размеру резьбы.",
       "ar": "نعم، صامولة DIN 934 وصامولة ISO 4032 متطابقتان الأبعاد وقابلتان للتبديل بالكامل، وكذلك الغسالات DIN 125 وISO 7089. ويعتبر خلط مكونات DIN وISO من نفس فئة الخواص ممارسة قياسية في الصناعة.",
-      "es": "Sí, las tuercas DIN 934 e ISO 4032 son dimensionalmente idénticas y totalmente intercambiables. Lo mismo ocurre con las arandelas (DIN 125 / ISO 7089). Mezclar componentes DIN e ISO de la misma clase de propiedad es práctica habitual del sector. El juego se revisa por clase y tolerancia de rosca."
+      "es": "Sí, las tuercas DIN 934 e ISO 4032 son dimensionalmente idénticas y totalmente intercambiables. Lo mismo ocurre con las arandelas (DIN 125 / ISO 7089). Mezclar componentes DIN e ISO de la misma clase de propiedad es práctica habitual del sector. El juego se revisa por clase y tolerancia de rosca.",
+      "fr": "Oui, les écrous DIN 934 et ISO 4032 sont dimensionnellement identiques et pleinement interchangeables. Il en va de même pour les rondelles (DIN 125 / ISO 7089). Associer des composants DIN et ISO d'une même classe de propriété est une pratique courante du secteur. L'ajustement fileté reste vérifié à la réception. La compatibilité dimensionnelle ne remplace pas la cohérence de grade. Une paire boulon-écrou se contrôle sur le montage."
      }
     }
    ],
