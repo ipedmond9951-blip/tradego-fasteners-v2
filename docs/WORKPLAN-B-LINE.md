@@ -208,3 +208,27 @@ python3 -c "import sys;sys.path.insert(0,'scripts');import json_rewrite as jr;d=
 5. **pt/ja 去重新增项改写**：pt 2 处 ≥15 占位句回显片段；ja 144 处礼貌收尾套话 8-gram，按多套尾句轮换拆解。
 
 **硬不变量**：沿用 §0.5——写锁 owner `今日头条分析`、逐条幂等、单文件提交、只 commit 不 push、不碰 A 区 39 篇与 ` M` 在途文件；经验号段本轮已占至 **202**，R-T9k 从 **203** 起。
+
+### 0.7 R-T9l 轮收口与 R-T9m 入口（2026-11-26）
+
+**本轮做法（一轮做完）**：按 GSC 官方口径先扫描出数（五组、7 份台账 CSV）→ 再按 P0/P1/P2 分级整改 → 收尾全量复跑。方案正文 `docs/GSC-CONTENT-REMEDIATION-B-2026-1126.md`，执行细节 `docs/T9-REPORT-B-2026-1125.md` §16，交 A 线项 `docs/HANDOFF-TO-A-LINE-2026-1126.md` §10。
+
+**收口状态**：起点 `8bbedfa5`；本轮 `T9l-*` 提交 376 笔（lang 168 / debt 145 / dup 60 / s1 2 / s2 1），涉及 185 篇；全部单文件、全部过 `content_gate`、全部未 push；写锁收尾为空；A 区 39 篇交集 0。
+
+**B 区可改队列已清零**：跨篇重复 rewrite（127→0 组）、ar 三组（111/229/20→0/0/0，A 区 a>450 122 只登记）、title>70（B 22→0，余 1 条 A 区 ru 75）。
+
+**存量债（起点快照 vs 当前逐条比对）**：fixed 超长 241 / 短答 406 / 残留 162，合计 **809 侧次 / 190 篇次**；剩余超长 B 187、短答 B 600、残留 B 88。
+
+**R-T9m 建议顺序**
+
+1. **先清"可 clean"残留 7 行**（6 个篇-语种组合：`africa-railway-modernization-fastener-demand` ja 2、`gaskets-specialty-washers-high-temp-guide` ja meta、`marine-fasteners-guide` ja meta、`non-standard-special-shape-screws-custom-guide` ja meta、`rwanda-construction-fastener-market-2026` hi a#9、`zim-construction-anchor-bolts-supplier-evaluation-corrosion-resistance` ja a#1）。
+2. **再解 19 个冲突 slug 的锁**（128 行 `prose_residue` 卡在这里）：按 `docs/gsc-lang-residual-b-2026-1126.csv` 的 `slug` 汇总，逐篇与持锁线打招呼后再动，禁硬上他线 ` M`。
+3. **超长 pending 187**：`zambia-copper`(26)、`ethiopia-industrial-park`(42)、`zimbabwe-b2b`(29) 按 15 条/批闭环，单篇超 30 条拆两轮；其余按语种 es/fr/pt 为主。
+4. **短答 600 条**：先定 **zh 下限口径**（现 120 字符；470 条"紧凑中文"落在 80–120）——放宽到汉字 ≥80 还是 130–180 需用户拍板，定了再批量补写。
+5. **金额/百分比 439 条**：等 G 类源文金额线统一口径，**不在内容层就地改**，避免半改再制造纠缠。
+6. **合规红点 B 区 96 篇**：认证（64 篇/132 行）→ 地名（2/2）→ 金额（44/44），顺序不可倒；认证文案只写「按 SABS 1195/DIN/ISO 生产」或「证书按订单要求提供」，改完跑 `scripts/check-claims.py`。
+7. **设计性 noindex 246 个"篇×语种"页**：等 A 线技术判断（扩写 vs 收缩索引），扩写优先级 zh 62 / ja 41 / ar 36 / hi 35。
+
+**硬不变量（延续）**：写锁 owner `今日头条分析`（TTL 30 分钟）；`git add <单文件> && git commit -F <msg文件> -- <单文件>`，禁 `-F -`、禁 `add -A/-a`、**禁共享索引下 `--amend`**、禁 reset/rebase/restore/stash；只 commit 不 push；不碰 A 区 39 篇、`docs/SEO-GEO-*`、`next.config.ts`、`scripts/geo_audit.py`、`src/**`、他线 ` M` 在途文件；批量改写只按 `(slug, section, item, locale)` 精确写键并断言 `en` 未变（经验 210）。
+
+**经验号段**：本轮占 **207–211**（已写入 `docs/CONTENT-CONTRACT.md`）；R-T9m 开工前先 `grep` 复核最大号，从 **212** 起。
