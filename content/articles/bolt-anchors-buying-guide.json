@@ -267,7 +267,8 @@
             "hi": "बेस प्लेट के लिए डायमीटर कैसे चुनें?",
             "ru": "Как подобрать диаметр анкера под базовую плиту?",
             "ar": "كيف أختار القطر لقاعدة اللوحة؟",
-            "es": "¿Cómo elijo el diámetro para una placa base?"
+            "es": "¿Cómo elijo el diámetro para una placa base?",
+            "fr": "Choisir le diamètre pour une plaque de base ?"
           },
           "a": {
             "en": "Work back from the base plate hole and the design load: the anchor diameter must match the hole with the specified clearance, and the embedment depth grows with diameter. If the hole is oversized, use a plate with the correct hole rather than a thinner anchor.",
@@ -275,7 +276,8 @@
             "hi": "बेस प्लेट के छेद और डिज़ाइन लोड से पीछे की ओर हिसाब करें: एंकर का व्यास निर्दिष्ट क्लीयरेंस के साथ छेद से मेल खाना चाहिए, और घुसाव की गहराई व्यास के साथ बढ़ती है। अगर छेद बड़ा है, तो पतला एंकर लेने के बजाय सही छेद वाली प्लेट इस्तेमाल करें।",
             "ru": "Исходят из отверстия плиты и расчётной нагрузки: диаметр анкера совпадает с отверстием с заданным зазором, а глубина заделки растёт вместе с диаметром. Если отверстие увеличено, лучше взять плиту с правильным отверстием, чем уменьшать анкер. Расчёт ведут от усилия на узел, а подбор диаметра и заделки подтверждают проектом основания до сверления бетона.",
             "ar": "ابدأ بالعكس من ثقب قاعدة اللوحة والحمل التصميمي: يجب أن يطابق قطر المرساة الثقب مع الخلوص المحدد، وعمق التثبيت يزداد مع القطر. إذا كان الثقب كبيرًا، استخدم لوحة بالثقب الصحيح لا مرساة أرفع. طابق التثبيت مع قاعدة اللوحة وثقبها، وراجع عمق التداخل قبل الطلب.",
-            "es": "Trabaje hacia atrás desde el hueco de la placa base y la carga de diseño: el diámetro del anclaje debe coincidir con el hueco con la holgura especificada, y la profundidad de empotramiento sube con el diámetro. Si el hueco está sobredimensionado, use una placa con el hueco correcto antes que un anclaje más fino. El ajuste con la placa manda sobre el espesor de la pieza."
+            "es": "Trabaje hacia atrás desde el hueco de la placa base y la carga de diseño: el diámetro del anclaje debe coincidir con el hueco con la holgura especificada, y la profundidad de empotramiento sube con el diámetro. Si el hueco está sobredimensionado, use una placa con el hueco correcto antes que un anclaje más fino. El ajuste con la placa manda sobre el espesor de la pieza.",
+            "fr": "Partir du trou de la plaque de base et de la charge de conception : le diamètre de l'ancrage doit épouser le trou avec le jeu prescrit, et la profondeur d'encastrement grandit avec le diamètre. Si le trou est surdimensionné, utiliser une plaque au trou correct plutôt qu'un ancrage plus fin."
           }
         },
         {
@@ -285,7 +287,8 @@
             "hi": "कितना एम्बेडमेंट और किनारे से कितनी दूरी चाहिए?",
             "ru": "Какие нужны глубина заделки и расстояние до края?",
             "ar": "ما عمق التثبيت ومسافة الحافة اللازمة؟",
-            "es": "¿Qué empotramiento y distancia al borde se necesitan?"
+            "es": "¿Qué empotramiento y distancia al borde se necesitan?",
+            "fr": "Quel encastrement et quel éloignement de bord ?"
           },
           "a": {
             "en": "Embedment typically runs four to six times the anchor diameter for full load, and edge distance should be at least 1.5 times the embedment depth in uncracked concrete. Closer to an edge, the anchor must be derated.",
@@ -293,7 +296,8 @@
             "hi": "पूरे भार के लिए घुसाव आम तौर पर एंकर व्यास का चार से छह गुना होता है; बिना दरार वाले कंक्रीट में किनारे से दूरी घुसाव गहराई की कम से कम 1.5 गुना होनी चाहिए। किनारे के ज़्यादा पास होने पर एंकर की क्षमता घटाकर इस्तेमाल करनी पड़ती है।",
             "ru": "Для полной несущей способности глубина заделки (embedment) составляет обычно четыре-шесть диаметров анкера. Расстояние до края в нерастрескавшемся бетоне берут не менее 1.5 глубины заделки. Ближе к кромке несущую способность анкера снижают по расчёту. Параметры сверяют с проектом основания: осадка, трещиностойкость и армирование в зоне установки меняют итоговые цифры.",
             "ar": "عمق التثبيت عادة أربعة إلى ستة أضعاف قطر المرساة للوصول للحمل الكامل، ومسافة الحافة لا تقل عن 1.5 ضعف عمق التثبيت في الخرسانة غير المتشققة. بالقرب من حافة أكثر من ذلك يجب تخفيض قدرة المرساة. احسب التباعد والمسافة للحافة حسب ركيزة الموقع، ولا تعتمد القيمة الاسمية في سطح ضعيف.",
-            "es": "El empotramiento va típicamente de cuatro a seis veces el diámetro del anclaje para carga completa, y la distancia al borde debe ser al menos 1.5 veces la profundidad de empotramiento en hormigón no agrietado. Más cerca del borde, el anclaje debe reducir su capacidad. La proximidad al borde recorta la carga que puede soportar."
+            "es": "El empotramiento va típicamente de cuatro a seis veces el diámetro del anclaje para carga completa, y la distancia al borde debe ser al menos 1.5 veces la profundidad de empotramiento en hormigón no agrietado. Más cerca del borde, el anclaje debe reducir su capacidad. La proximidad al borde recorta la carga que puede soportar.",
+            "fr": "L'encastrement court typiquement de quatre à six fois le diamètre de l'ancrage pour la charge complète, et l'éloignement de bord doit valoir au moins 1,5 fois la profondeur d'encastrement en béton non fissuré. Plus près d'un bord, l'ancrage doit être déclassé. La proximité des bords réduit la capacité admissible."
           }
         },
         {
@@ -303,7 +307,8 @@
             "hi": "बाहरी और तटीय जगहों के लिए कौन-सी फिनिश ठीक रहती है?",
             "ru": "Какое покрытие нужно для улицы и прибрежных площадок?",
             "ar": "أي إنهاء للواقع الخارجي والساحلي؟",
-            "es": "¿Qué acabado para sitios exteriores y costeros?"
+            "es": "¿Qué acabado para sitios exteriores y costeros?",
+            "fr": "Quelle finition pour l'extérieur et le côtier ?"
           },
           "a": {
             "en": "Hot-dip galvanising to ISO 1461 for general outdoor work, A4/316 stainless for coastal and chemical exposure, zinc plating for dry interior installation only.",
@@ -311,7 +316,8 @@
             "hi": "सामान्य बाहरी काम के लिए ISO 1461 के अनुसार हॉट-डिप गैल्वनाइज़िंग; तटीय और रासायनिक संपर्क वाली जगहों के लिए A4/316 स्टेनलेस; ज़िंक प्लेटिंग केवल सूखी अंदरूनी इंस्टॉलेशन के लिए है। पर्यावरण के जंग चक्र के हिसाब से फिनिश चुनें, सिर्फ दिखावे पर भरोसा न करें।",
             "ru": "Для общей уличной эксплуатации применяют горячее цинкование по ISO 1461. На побережье и в химически агрессивной среде ставят нержавеющую сталь A4/316. Цинковое покрытие подходит только для сухого внутреннего монтажа. Выход за пределы сухого помещения с простым цинком ведёт к быстрой коррозии, поэтому отделку фиксируют по климату и соседству с агрессивными производствами.",
             "ar": "الجلفنة بالغمس الساخن وفق ISO 1461 للأعمال الخارجية العامة، والفولاذ المقاوم للصدأ A4/316 للتعرض الساحلي والكيميائي، والطلاء بالزنك للتركيب الداخلي الجاف فقط. طابق الإنهاء مع البيئة والمعدن المقترن، وراجع سمك الطلاء مقابل ملاءمة الخيط عند الدرجات العالية.",
-            "es": "Galvanizado en caliente según ISO 1461 para trabajo exterior general, inoxidable A4/316 para exposición costera y química, cincado solo para instalación interior seca. El acabado se elige por la exposición del sitio y el contacto con cloruros del ambiente."
+            "es": "Galvanizado en caliente según ISO 1461 para trabajo exterior general, inoxidable A4/316 para exposición costera y química, cincado solo para instalación interior seca. El acabado se elige por la exposición del sitio y el contacto con cloruros del ambiente.",
+            "fr": "Galvanisation à chaud selon ISO 1461 pour l'extérieur courant, inox A4/316 pour l'exposition côtière et chimique, zincage pour l'installation en intérieur sec uniquement. Le revêtement suit l'humidité et l'agressivité du site d'emploi."
           }
         }
       ]
