@@ -15,6 +15,10 @@ import { getFreshness, resolveArticleDates } from '@/lib/freshness'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
+// 2026-11-26 P2-3: 去掉 slug/link 首尾及内部多余斜杠，避免拼出 `/{loc}/products/x//` 双斜杠非规范变体
+const cleanSlug = (s: string | undefined): string =>
+  String(s ?? '').replace(/^\/+/, '').replace(/\/+$/, '').replace(/\/{2,}/g, '/')
+
 export async function generateStaticParams() {
   // 2026-11-25 FIX: redirectTo 文章曾被排除在预生成之外，加上 dynamicParams=false,
   // 旧 slug 直接 404 —— 而页面里的 permanentRedirect 根本不会执行，改名文章丢光外链权重。
@@ -260,8 +264,10 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
   }
   const ctaText = ctaNative(ctaTextMap, articleCta.text)
   const ctaBtn = ctaNative(ctaBtnMap, articleCta.button)
-  // 文章 cta.link 历史上写成 /en/products/xxx，拼上 locale 会变成 /es/en/products/xxx（双语种死链）
-  const ctaHref = `/${locale}${(article.cta?.link || '/contact').replace(/^\/en(?=\/|$)/, '')}/`
+  // 文章 cta.link 历史上写成 /en/products/xxx，拼上 locale 会变成 /es/en/products/xxx（双语种死链）；
+  // 旧数据 link 尾部常带 `/`，再加末尾斜杠会产生双斜杠，这里统一归一化后补单尾斜杠（trailingSlash: true）
+  const rawCta = (article.cta?.link || '/contact').replace(/^\/en(?=\/|$)/, '')
+  const ctaHref = `/${locale}/${cleanSlug(rawCta)}/`
 
   // JSON-LD FAQ Schema
   const faqItems = article.sections
@@ -393,7 +399,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
                 // 关联产品名优先取产品目录的十语名，避免西语/阿语页出现英文产品名
                 const display = productNames[slug]?.[locale] || humanizeSlug(label)
                 return (
-                  <Link key={typeof p === 'string' ? p : `${slug}-${i}`} href={`/${locale}/products/${slug}/`} className="px-4 py-2 bg-gray-100 rounded-lg text-sm text-gray-700 hover:bg-primary-100 hover:text-primary-700 transition-colors">
+                  <Link key={typeof p === 'string' ? p : `${slug}-${i}`} href={`/${locale}/products/${cleanSlug(slug)}/`} className="px-4 py-2 bg-gray-100 rounded-lg text-sm text-gray-700 hover:bg-primary-100 hover:text-primary-700 transition-colors">
                     {display}
                   </Link>
                 )
@@ -416,7 +422,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
                   : humanizeSlug(typeof a === 'string' ? a : (a.title || a.slug))
                 const truncated = display.length > 60 ? display.substring(0, 60) + '…' : display
                 return (
-                  <Link key={`${slug}-${i}`} href={`/${locale}/industry/${slug}/`} className="px-4 py-2 bg-blue-50 rounded-lg text-sm text-blue-700 hover:bg-blue-100 transition-colors">
+                  <Link key={`${slug}-${i}`} href={`/${locale}/industry/${cleanSlug(slug)}/`} className="px-4 py-2 bg-blue-50 rounded-lg text-sm text-blue-700 hover:bg-blue-100 transition-colors">
                     {truncated}
                   </Link>
                 )
