@@ -224,7 +224,8 @@
             "ar": "كيف أختار المثبت المناسب لمشروعي؟",
             "zh": "如何为项目选对紧固件？",
             "hi": "परियोजना के लिए सही फास्टनर कैसे चुनूं?",
-            "ru": "Как подобрать крепёж под свой проект?"
+            "ru": "Как подобрать крепёж под свой проект?",
+            "ja": "プロジェクトに適した締結具をどう選べばよいですか"
           },
           "a": {
             "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
@@ -235,7 +236,8 @@
             "ar": "لتثبيت معدات أو هيكل، يبدأ العمل بحصر الدعم: خرسانة قائمة أو أساس جديد أو تربة محملة أو جدار حامل. ثم تُسجل الأحمال التي يتحملها التثبيت: الشد أو القص أو قوة الرفع، مع مراعاة البيئة: الرطوبة أو الصقيع أو المواد الكيميائية أو التآكل القريب من التربة. ويتبع كل تطبيق معيار التثبيت المناسب، وتُختار سبيكة الفولاذ حسب الفئة المطلوبة مثل 8.8 للفولاذ السبائكي أو A2-70 للستانلس. وعند بقاء القطر من M8 إلى M30 أو عمق التثبيت أو عزم الشد بوحدة N·m غير مؤكدة، يجب مراجعة الملف لدى مكتب هندسي بدل زيادة عدد المراسي بشكل عشوائي.",
             "zh": "要综合考虑被连接件的材质、荷载要求、环境暴露条件以及适用的标准。规格拿不准时找专业人员确认。",
             "hi": "किन सामग्रियों को जोड़ना है, भार कितना है, परिवेश का जोखिम क्या है और कौन-से मानक लागू होते हैं, ये बातें मिलकर चयन तय करती हैं। स्पेसिफिकेशन पर भरोसा न हो तो किसी पेशेवर से सलाह लें।",
-            "ru": "Опирайтесь на материал соединяемых деталей, требуемую нагрузку, воздействие среды и применимые стандарты. Если по спецификации остаются сомнения, проконсультируйтесь со специалистом до заказа: неверно выбранный крепёж в ответственной конструкции дешевле заменить на бумаге, чем на объекте после монтажа."
+            "ru": "Опирайтесь на материал соединяемых деталей, требуемую нагрузку, воздействие среды и применимые стандарты. Если по спецификации остаются сомнения, проконсультируйтесь со специалистом до заказа: неверно выбранный крепёж в ответственной конструкции дешевле заменить на бумаге, чем на объекте после монтажа.",
+            "ja": "締結具を選ぶ際には、固定する材料、必要な荷重、環境での暴露、適用される規格を考慮します。仕様に迷う場合は専門家に相談してください。接合部にかかる力と腐食条件をもとに材料と形状を決め、図面で規格を確定します。納入前には製品と図面の一致を検査し、ロットごとの品質を証明書で確認します。"
           }
         },
         {
@@ -248,7 +250,8 @@
             "ar": "ما المواد المتاحة لهذه البراغي؟",
             "zh": "这类紧固件有哪些材质可选？",
             "hi": "इन फास्टनरों के लिए कौन-कौन सी सामग्री मिलती है?",
-            "ru": "Из каких материалов выпускается такой крепёж?"
+            "ru": "Из каких материалов выпускается такой крепёж?",
+            "ja": "これらの締結具にはどのような材料がありますか"
           },
           "a": {
             "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
@@ -259,7 +262,8 @@
             "ar": "تشمل تشكيلة المواد الفولاذ الكربوني والفولاذ المقاوم للصدأ والفولاذ السبائكي وسبائك خاصة. ويخدم الفولاذ الكربوني المراسي الشائعة في البيئة الجافة، مع حماية بالطلاء الزنكي أو الجلفنة حسب التعرض. ويتصدى الستانلس A2-70 للرطوبة والأجواء البحرية بشكل أفضل، بينما يخصص A4-80 للبيئات الأشد قساوة. ويغطي الفولاذ السبائكي المراسي عالية المقاومة، وتلبي السبائك الخاصة البيئات الحمضية أو مرتفعة الحرارة. ولا تتغير التكلفة والمقاومة الميكانيكية ومقاومة التآكل في اتجاه واحد: فالستانلس الأغلى ليس أقوى شداً، وقد يكفي الفولاذ الكربوني المحمي جيداً في الأماكن الداخلية.",
             "zh": "常见的有碳钢、不锈钢、合金钢和特种合金。它们在强度、耐蚀性和成本上各有取舍。",
             "hi": "आम सामग्रियों में कार्बन स्टील, स्टेनलेस स्टील, एलॉय स्टील और विशेष एलॉय शामिल हैं। हर सामग्री की ताकत, क्षरण रोधक क्षमता और लागत अलग-अलग होती है, इसलिए परिवेश और भार के हिसाब से मटेरियल चुनें।",
-            "ru": "Распространённые материалы — углеродистая сталь, нержавеющая сталь, легированная сталь и специальные сплавы. У каждого своя прочность, стойкость к коррозии и ценовой уровень; выбор делают по расчётной нагрузке и среде эксплуатации, а не только по одному показателю."
+            "ru": "Распространённые материалы — углеродистая сталь, нержавеющая сталь, легированная сталь и специальные сплавы. У каждого своя прочность, стойкость к коррозии и ценовой уровень; выбор делают по расчётной нагрузке и среде эксплуатации, а не только по одному показателю.",
+            "ja": "一般的な材料には炭素鋼、ステンレス鋼、合金鋼、特殊合金があり、それぞれ強さ、耐食性、コストの特性が異なります。荷重の大きさと腐食環境に合わせて材料を選び、機械的性質はロットの証明書で確認します。屋外や湿潤箇所では耐食性を優先し、室内の一般構造物では炭素鋼の適用を検討します。"
           }
         },
         {
@@ -272,7 +276,8 @@
             "ar": "أي نوع من مراسي الأساسات أستخدم؟",
             "zh": "基础锚固应该选哪种形式？",
             "hi": "फाउंडेशन एंकर का कौन-सा प्रकार इस्तेमाल करूं?",
-            "ru": "Какой тип фундаментного анкера выбрать?"
+            "ru": "Какой тип фундаментного анкера выбрать?",
+            "ja": "基礎用のアンカーはどの種類を使うべきですか"
           },
           "a": {
             "en": "Cast-in L or J bolts are placed before the concrete pour and give the most reliable capacity. For retrofits or existing foundations use chemical or mechanical anchors with published load tables. Plate-anchored systems suit heavy equipment bases and tanks.",
@@ -283,7 +288,8 @@
             "ar": "تُوضع المراسي على شكل L أو J قبل صب الخرسانة وتعطي أوثق سعة تحمل، لأن انتقال الإجهاد يمر بالقضيب والعلاقة المغمورين في الكتلة. وللتعديلات أو الأساسات القائمة تستخدم مراسي كيميائية أو ميكانيكية، مع الاطلاع دائماً على جداول الأحمال المنشورة من الجهة المصنعة: يُقرأ منها الحمل المسموح لكل قطر والعمق والتباعد الأدنى. وتناسب أنظمة صفيحة التثبيت قواعد المعدات الثقيلة والخزانات، حيث تستعيد عدة مراسي معاً لحظة الانقلاب. ولا يعتمد الاختيار على القطر من M12 إلى M24 وحده، بل يعتمد على الخرسانة والسمك المتاح ونوع الحمل المبذول.",
             "zh": "预埋 L 型或 J 型螺栓在浇筑前就位，承载力最可靠。改造工程或既有基础用化学锚栓或机械锚栓，按厂家公布的荷载表取值。带锚板的系统适合重型设备底座和罐体。",
             "hi": "कास्ट-इन L या J बोल्ट कंकाल डालने से पहले रखे जाते हैं और सबसे भरोसेमंद क्षमता देते हैं। पुरानी या मौजूदा फाउंडेशन में रेट्रोफिट के लिए केमिकल या मैकेनिकल एंकर लें, जिनके पास प्रकाशित भार सारणी उपलब्ध हो। प्लेट-एंकर वाले सिस्टम भारी उपकरण के बेस और टैंकों के लिए उपयुक्त होते हैं।",
-            "ru": "Заливаемые болты с изгибом L или J ставят до бетонирования, и они дают самую надёжную несущую способность. Для реконструкции или готовых оснований берут химические либо механические анкеры по опубликованным таблицам нагрузок. Системы с приварной плитой подходят под основания тяжёлого оборудования и резервуары."
+            "ru": "Заливаемые болты с изгибом L или J ставят до бетонирования, и они дают самую надёжную несущую способность. Для реконструкции или готовых оснований берут химические либо механические анкеры по опубликованным таблицам нагрузок. Системы с приварной плитой подходят под основания тяжёлого оборудования и резервуары.",
+            "ja": "打ち込み前に設ける L 形または J 形ボルトはコンクリート打設前に配置し、最も信頼できる耐力を得られます。後付けや既存基礎には、公表された荷重表を持つケミカルアンカーまたは機械式アンカーを使います。重量機械の基礎やタンクにはプレート定着方式が適します。種類は基礎の構造と荷重に合わせて選定します。"
           }
         },
         {
@@ -296,7 +302,8 @@
             "zh": "地脚螺栓要埋多深？",
             "hi": "एंकर बोल्ट को कितनी गहराई में जड़ना चाहिए?",
             "ru": "На какую глубину заделывают анкерные болты?",
-            "de": "Wie tief müssen Ankerbolzen eingebettet werden?"
+            "de": "Wie tief müssen Ankerbolzen eingebettet werden?",
+            "ja": "アンカーボルトはどれだけ深く埋め込む必要がありますか"
           },
           "a": {
             "en": "Embedment is set by design, typically 12 diameters or more for cast-in bolts and per the anchor's qualification report for post-installed ones. Edge distance and bolt spacing also control capacity, so do not move anchors closer together on site without recalculating.",
@@ -307,7 +314,8 @@
             "zh": "埋深由设计确定，预埋螺栓一般不少于 12 倍直径；后置锚栓按锚固件的认证报告取值。边距和螺栓间距同样影响承载力，所以现场不得擅自把锚栓挪近而不重新核算。",
             "hi": "जड़ाव गहराई डिजाइन से तय होती है: कास्ट-इन बोल्ट के लिए आम तौर पर 12 व्यास या उससे ज्यादा, और बाद में लगाए गए एंकरों के लिए उनकी क्वालिफिकेशन रिपोर्ट के अनुसार। किनारे से दूरी और बोल्ट के बीच का फासला भी क्षमता को नियंत्रित करता है, इसलिए साइट पर बिना दोबारा हिसाब किए एंकरों को पास-पास न खिसकाएं।",
             "ru": "Глубина заделки задаётся проектом: для заливаемых болтов это обычно не менее 12 диаметров, для установленного после бетонирования анкера — по его квалификационному отчёту. На несущую способность также влияют расстояние до края и шаг между анкерами, поэтому на объекте нельзя сближать их без повторного расчёта.",
-            "de": "Die Einbettung legt die Entwurfsperson fest; bei eingegossenen Bolzen üblicherweise mindestens das 12-fache des Durchmessers, bei nachträglich gesetzten Ankern nach dem Qualifizierungsbericht des Ankers. Randabstand und Achsabstand bestimmen ebenfalls die Tragfähigkeit, daher dürfen Anker vor Ort nicht ohne erneute Berechnung enger zusammengerückt werden."
+            "de": "Die Einbettung legt die Entwurfsperson fest; bei eingegossenen Bolzen üblicherweise mindestens das 12-fache des Durchmessers, bei nachträglich gesetzten Ankern nach dem Qualifizierungsbericht des Ankers. Randabstand und Achsabstand bestimmen ebenfalls die Tragfähigkeit, daher dürfen Anker vor Ort nicht ohne erneute Berechnung enger zusammengerückt werden.",
+            "ja": "埋め込み長さは設計で定められ、打ち込みボルトでは通常直径の 12 倍以上、後付けアンカーではその認定報告書に従います。縁距離とボルト間隔も耐力を左右するため、現場で無断に間隔を詰めず再計算を行ってください。縁との距離は設計図に従い、打設前後に位置を再確認します。"
           }
         },
         {
@@ -320,7 +328,8 @@
             "zh": "地脚螺栓安装最容易出什么问题？",
             "hi": "एंकर बोल्ट लगाते समय क्या गलतियां हो जाती हैं?",
             "ru": "Что чаще всего идёт не так при монтаже анкеров?",
-            "de": "Was geht beim Einbau von Ankerbolzen schief?"
+            "de": "Was geht beim Einbau von Ankerbolzen schief?",
+            "ja": "アンカーボルトの施工では何が問題になりますか"
           },
           "a": {
             "en": "Position drift during the pour is the main one - use a rigid template and re-check before and after concrete placement. Also watch thread damage from concrete contact, and grout the base plate properly so load transfers through the grout, not the bolt alone.",
@@ -331,7 +340,8 @@
             "zh": "主要是浇筑过程中的位置漂移——用刚性模板固定，浇筑前后各复核一次。另外要防止螺纹被混凝土污染，底座板必须灌浆密实，让荷载通过灌浆层传递，而不是只压在螺栓上。",
             "hi": "डालते वक्त स्थिति का खिसकना सबसे बड़ी समस्या है; दृढ़ टेम्पलेट इस्तेमाल करें और कंकाल डालने से पहले तथा बाद में दोबारा जांचें। कंकाल के संपर्क से धागे को पहुंचने वाला नुकसान भी देखें, और बेस प्लेट को ठीक से ग्राउट करें ताकि भार ग्राउट के जरिए संचारित हो, अकेले बोल्ट पर न टिके।",
             "ru": "Главная проблема — смещение позиции при заливке: используйте жёсткий шаблон и перепроверяйте положение до и после укладки бетона. Следите и за повреждением резьбы при контакте с бетоном, а плиту основания заанкеривайте через раствор так, чтобы нагрузка шла через слой раствора, а не только через болт.",
-            "de": "Die Hauptursache ist Positionsverschieben während des Betonierens: Eine starre Schablone dient dem Halten, und vor sowie nach dem Betoneinbau wird die Lage erneut geprüft. Weiter ist auf Gewindeschäden durch Betonkontakt zu achten; die Fußplatte ist ordnungsgemäß zu unterfüttern, damit die Last durch den Verguss, nicht allein durch den Bolzen übertragen wird."
+            "de": "Die Hauptursache ist Positionsverschieben während des Betonierens: Eine starre Schablone dient dem Halten, und vor sowie nach dem Betoneinbau wird die Lage erneut geprüft. Weiter ist auf Gewindeschäden durch Betonkontakt zu achten; die Fußplatte ist ordnungsgemäß zu unterfüttern, damit die Last durch den Verguss, nicht allein durch den Bolzen übertragen wird.",
+            "ja": "打設中の位置ずれが主な原因です。剛性のあるテンプレートを使い、コンクリート打設の前後に位置を再確認してください。コンクリートの接触によるねじ山の損傷にも注意し、ベースプレートのグラウトを適切に充填して、荷重をボルト単体ではなくグラウトに伝えます。施工後は位置とグラウト状態を検査します。"
           }
         },
         {
@@ -344,7 +354,8 @@
             "es": "¿Para qué se usan los pernos de anclaje en las cimentaciones?",
             "fr": "À quoi servent les chevilles dans les fondations ?",
             "pt": "Para que servem os chumbadores nas fundações?",
-            "de": "Wofür dienen Ankerbolzen im Fundament?"
+            "de": "Wofür dienen Ankerbolzen im Fundament?",
+            "ja": "基礎においてアンカーボルトは何のために使われますか"
           },
           "a": {
             "en": "Anchor bolts secure structural steel columns, equipment, and machinery to concrete foundations. They transfer tensile and shear loads from the structure to the concrete foundation. Critical for: building columns, pre-engineered metal buildings, solar panel mounts, transmission towers, and heavy equipment bases.",
@@ -355,7 +366,8 @@
             "es": "Los pernos de anclaje fijan las columnas de acero estructural, los equipos y la maquinaria a las cimentaciones de hormigón. Transmiten las cargas de tracción y cortante de la estructura hacia la cimentación de hormigón. Son críticos para columnas de edificio, edificios metálicos prefabricados, soportes de paneles solares, torres de transmisión y bases de equipo pesado.",
             "fr": "Les chevilles fixent les colonnes métalliques, les équipements et les machines aux fondations en béton. Elles transmettent les efforts de traction et de cisaillement de la structure au béton. Elles sont critiques pour les colonnes de bâtiment, les bâtiments métalliques préfabriqués, les supports de panneaux solaires, les pylônes de transmission et les bases d'équipements lourds.",
             "pt": "Os chumbadores fixam colunas de aço estrutural, equipamentos e máquinas às fundações de concreto. Eles transferem as cargas de tração e cisalhamento da estrutura para a fundação de concreto. São críticos para colunas de edifícios, edifícios metálicos pré-fabricados, suportes de painéis solares, torres de transmissão e bases de equipamentos pesados.",
-            "de": "Ankerbolzen befestigen Stahlstützen, Geräte und Maschinen auf Betonfundamenten. Sie leiten Zug- und Schubkräfte vom Bauwerk in das Betonfundament weiter. Sie sind maßgebend für Gebäudestützen, vorgefertigte Metallbauten, Solarmodulhalterungen, Übertragungsmasten und schwere Gerätefundamente."
+            "de": "Ankerbolzen befestigen Stahlstützen, Geräte und Maschinen auf Betonfundamenten. Sie leiten Zug- und Schubkräfte vom Bauwerk in das Betonfundament weiter. Sie sind maßgebend für Gebäudestützen, vorgefertigte Metallbauten, Solarmodulhalterungen, Übertragungsmasten und schwere Gerätefundamente.",
+            "ja": "アンカーボルトは鉄骨柱、機器、装置をコンクリート基礎に固定し、構造物から基礎へ引張力とせん断力を伝える役割を持ちます。建物の柱、プレハブ鉄骨建物、ソーラー架台、送電鉄塔、重量機械の基礎などで重要です。用途ごとに必要な耐力と埋め込みを設計し、ロットの証明書を添えて納入します。"
           }
         },
         {
@@ -368,7 +380,8 @@
             "es": "¿Qué tipos de anclaje convienen en zonas sísmicas?",
             "fr": "Quels types de chevilles en zone sismique ?",
             "pt": "Quais tipos de chumbadores são melhores em zonas sísmicas?",
-            "de": "Welche Ankerbolzenarten eignen sich in Erdbebenzonen?"
+            "de": "Welche Ankerbolzenarten eignen sich in Erdbebenzonen?",
+            "ja": "耐震地域に最適なアンカーボルトはどの種類ですか"
           },
           "a": {
             "en": "Seismic zones require: 1) ASTM F1554 Grade 55 or 105 (higher yield strength); 2) Plate anchors with large base plates for improved load distribution; 3) Headed anchor bolts (better than J-bolts under cyclic loading); 4) Supplementary reinforcement (hooks or plates) to prevent concrete cone failure. Always specify seismic design category per local building codes.",
@@ -379,7 +392,8 @@
             "es": "Las zonas sísmicas requieren: 1) ASTM F1554 Grado 55 o 105, con mayor límite elástico; 2) anclajes de placa con placas base grandes para mejor distribución de carga; 3) pernos de anclaje con cabeza, mejores que los pernos J bajo carga cíclica; 4) refuerzo complementario (ganchos o placas) para evitar el fallo de cono de hormigón. Siempre conviene especificar la categoría de diseño sísmico según el código de construcción local.",
             "fr": "Les zones sismiques exigent : l'ASTM F1554 Grade 55 ou 105, à plus haute limite d'élasticité ; des ancres à plaque avec de grandes platines pour mieux répartir la charge ; des chevilles à tête, meilleures que les boulons en J sous charge cyclique ; et un renfort complémentaire (crochets ou plaques) pour éviter la rupture du cône de béton. On spécifie toujours la catégorie de conception sismique selon le code local.",
             "pt": "Zonas sísmicas exigem: 1) ASTM F1554 Grau 55 ou 105, maior resistência ao escoamento; 2) chumbadores de placa com placas de base grandes para melhor distribuição de carga; 3) chumbadores cabeçados, melhores que parafuso J sob carga cíclica; 4) reforço complementar, ganchos ou placas, para evitar ruptura do cone de concreto. Sempre especifique a categoria de projeto sísmico conforme os códigos locais.",
-            "de": "Erdbebenzonen erfordern: 1) ASTM F1554 Klasse 55 oder 105 mit höherer Streckgrenze; 2) Plattenanker mit großen Fußplatten für bessere Lastverteilung; 3) Kopfbolzen, die unter Wechselbelastung besser als J-Bolzen wirken; 4) Zusatzbewehrung mit Haken oder Platten gegen den Betonkegelbruch. Die erdbebenbedingte Entwurfskategorie ist nach den lokalen Bauvorschriften festzulegen."
+            "de": "Erdbebenzonen erfordern: 1) ASTM F1554 Klasse 55 oder 105 mit höherer Streckgrenze; 2) Plattenanker mit großen Fußplatten für bessere Lastverteilung; 3) Kopfbolzen, die unter Wechselbelastung besser als J-Bolzen wirken; 4) Zusatzbewehrung mit Haken oder Platten gegen den Betonkegelbruch. Die erdbebenbedingte Entwurfskategorie ist nach den lokalen Bauvorschriften festzulegen.",
+            "ja": "耐震地域では ASTM F1554 のグレード 55 または 105 の高降伏強度ボルト、大きなベースプレートを持つプレートアンカー、繰返し荷重下で J 形ボルトより優れた頭付きアンカー、コンクリート円錐破壊を防ぐ補強フックやプレートが求められます。耐震設計区分は現地の建築規格に従って指定します。"
           }
         },
         {
@@ -392,7 +406,8 @@
             "es": "¿Qué diferencia hay entre pernos J y pernos L?",
             "fr": "Différence entre boulon en J et boulon en L ?",
             "pt": "Qual a diferença entre parafuso J e parafuso L?",
-            "de": "Was unterscheidet J-Bolzen und L-Bolzen?"
+            "de": "Was unterscheidet J-Bolzen und L-Bolzen?",
+            "ja": "J 形ボルトと L 形ボルトの違いは何ですか"
           },
           "a": {
             "en": "J-bolts have a J-shaped bend at the embedded end - shaped like the letter J. L-bolts have a 90-degree bend - shaped like the letter L. Both provide anchorage through mechanical interlock with concrete. J-bolts are more common for equipment mounting; L-bolts are preferred for structural columns where the bend hooks around rebar. Both must be positioned before concrete pour (cast-in-place).",
@@ -403,7 +418,8 @@
             "es": "El perno J tiene una dobla en forma de J en el extremo embebido, como la letra J. El perno L tiene una dobla de 90 grados, como la letra L. Ambos aseguran el anclaje por enclavamiento mecánico con el hormigón. El perno J es más común para el montaje de equipos; el perno L se prefiere en columnas estructurales donde la dobla engancha la armadura. Ambos deben colocarse antes del vertido del hormigón.",
             "fr": "Le boulon en J a une extrémité noyée pliée en J. Le boulon en L a un pli à 90 degrés en forme de L. Tous deux assurent l'ancrage par verrouillage mécanique avec le béton. Le J est plus courant pour le montage d'équipements ; le L se préfère pour les colonnes structurales lorsque le crochet enrobe un ferraillage. Les deux se positionnent avant le coulage du béton.",
             "pt": "Os parafusos J têm dobra em forma de J na extremidade embutida, como a letra J. Os parafusos L têm dobra de 90 graus, como a letra L. Ambos dão ancoragem por interligação mecânica com o concreto. Os J são mais comuns em montagem de equipamentos; os L são preferidos em colunas estruturais, onde a dobra prende no vergalhão. Ambos devem ser posicionados antes do concreto ser lançado, moldados no lugar.",
-            "de": "J-Bolzen haben am eingebetteten Ende eine J-förmige Biegung, L-Bolzen einen 90-Grad-Winkel. Beide halten durch mechanischen Formschluss mit dem Beton. J-Bolzen sind bei der Gerätebefestigung üblicher; L-Bolzen werden für Stahlstützen bevorzugt, wo die Biegung um die Bewehrung greift. Beide müssen vor dem Betonieren positioniert und eingegossen werden."
+            "de": "J-Bolzen haben am eingebetteten Ende eine J-förmige Biegung, L-Bolzen einen 90-Grad-Winkel. Beide halten durch mechanischen Formschluss mit dem Beton. J-Bolzen sind bei der Gerätebefestigung üblicher; L-Bolzen werden für Stahlstützen bevorzugt, wo die Biegung um die Bewehrung greift. Beide müssen vor dem Betonieren positioniert und eingegossen werden.",
+            "ja": "J 形ボルトは埋め込み側が J の形に曲がり、L 形ボルトは 90 度に曲がります。どちらもコンクリートとの機械的かみ合わせによって定着力を得ます。機器の取付けには J 形が多く、曲げ部が鉄筋に巻き付く柱構造には L 形が選ばれます。両者ともコンクリート打設前に位置決めする打ち込み方式です。"
           }
         }
       ],
