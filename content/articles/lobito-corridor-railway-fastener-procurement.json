@@ -696,7 +696,8 @@
             "es": "¿Qué grados van con los ferrocarriles del Corredor del Lobito?",
             "fr": "Quels grades pour les fixations du corridor de Lobito ?",
             "pt": "Quais classes de resistência servem aos fixadores da ferrovia Lobito?",
-            "de": "Welche Klassen passen zu Eisenbahn-Befestigungen im Lobito-Korridor?"
+            "de": "Welche Klassen passen zu Eisenbahn-Befestigungen im Lobito-Korridor?",
+            "ja": "ロビト回廊沿いの案件でなぜ段階的供給が重要ですか？"
           },
           "a": {
             "en": "Track and structural connections typically use ISO 898-1 class 8.8 and 10.9, with 10.9 dominant where fatigue loading is high. Specify the coating together with the grade, because hydrogen embrittlement risk rises as strength goes up.",
@@ -707,7 +708,8 @@
             "es": "Las uniones de vía y estructura usan normalmente la clase 8.8 y 10.9 según ISO 898-1, con la 10.9 dominante donde la carga fatiga es alta. Especifique el recubrimiento junto con el grado, porque el riesgo de fragilización por hidrógeno sube al aumentar la resistencia. El grado y el recubrimiento se deciden de forma conjunta para el clima y la carga del tramo.",
             "fr": "Les liaisons de voie et structurelles utilisent normalement les classes 8.8 et 10.9 de l'ISO 898-1, le 10.9 dominant là où le chargement en fatigue est élevé. Spécifiez le revêtement avec le grade, car le risque de fragilisation par l'hydrogène monte avec la résistance. La classe ne se choisit pas seule : elle va avec la protection de surface. Un acier trop dur est plus sensible au traitement électrolytique.",
             "pt": "As conexões de via e estruturais usam normalmente classe ISO 898-1 8.8 e 10.9, com 10.9 dominando onde a carga de fadiga é alta. O revestimento é especificado junto à classe, pois o risco de fragilização por hidrogênio sobe com a resistência. A escolha segue o esforço da ligação e a exposição do corredor, e o lote fica rastreável por certificado e marcação.",
-            "de": "Die Gleis- und Strukturverbindungen verwenden normalerweise die Klassen 8.8 und 10.9 nach ISO 898-1, wobei das 10.9 dort dominiert, wo die Ermüdungsbelastung hoch ist. Spezifizieren Sie die Beschichtung zusammen mit der Klasse, denn das Risiko der Wasserstoffversprödung steigt mit der Festigkeit. Die Klasse wählt man nicht allein: sie gehört zur Oberflächenbehandlung. Ein zu harter Stahl ist empfindlicher gegen das elektrolytische Verfahren."
+            "de": "Die Gleis- und Strukturverbindungen verwenden normalerweise die Klassen 8.8 und 10.9 nach ISO 898-1, wobei das 10.9 dort dominiert, wo die Ermüdungsbelastung hoch ist. Spezifizieren Sie die Beschichtung zusammen mit der Klasse, denn das Risiko der Wasserstoffversprödung steigt mit der Festigkeit. Die Klasse wählt man nicht allein: sie gehört zur Oberflächenbehandlung. Ein zu harter Stahl ist empfindlicher gegen das elektrolytische Verfahren.",
+            "ja": "内陸への輸送は港湾滞留と鉄道・トラックの段取りに左右され、現場に一度に在庫を抱えられないことが多いためです。線路に沿った工事の進捗に合わせ、構造部を先に、消耗品を後に供給します。工程と輸送日程を照合し、安全在庫を見込んでください。現場の条件を記録し、同じ仕様を繰り返し使うことで、供給と管理を安定させられます。"
           }
         },
         {
@@ -720,7 +722,8 @@
             "es": "¿Galvanizado en caliente o escamas de zinc para pernos de vía?",
             "fr": "Galvanisé à chaud ou zinc-flocons pour les boulons de voie ?",
             "pt": "HDG ou flake de zinco para parafusos ferroviários?",
-            "de": "Feuerverzinkung oder Zinkflocken für Eisenbahnbolzen?"
+            "de": "Feuerverzinkung oder Zinkflocken für Eisenbahnbolzen?",
+            "ja": "道路と線路の締結具で被覆をどう分けますか？"
           },
           "a": {
             "en": "HDG to ISO 1461 suits exposed structural connections where the coating thickness can be accommodated in the thread fit. Zinc flake to ISO 10683 is the better choice for class 10.9 and 12.9 bolts, because the non-electrolytic process limits hydrogen embrittlement.",
@@ -731,7 +734,8 @@
             "es": "El HDG según ISO 1461 va en uniones estructurales expuestas donde el espesor de recubrimiento puede alojarse en el ajuste de rosca. Las escamas de zinc según ISO 10683 son la mejor opción para pernos 10.9 y 12.9, porque el proceso no electrolítico limita la fragilización por hidrógeno. La elección depende del grado y del ajuste de rosca.",
             "fr": "La galvanisation à chaud selon ISO 1461 convient aux liaisons structurelles exposées quand l'épaisseur de revêtement passe dans l'ajustement fileté. Le zinc-flocons selon ISO 10683 est le meilleur choix pour les boulons classes 10.9 et 12.9, car le procédé non électrolytique limite la fragilisation par l'hydrogène. L'épaisseur de couche modifie le montage de l'écrou. La résistance haute classe appelle un traitement doux.",
             "pt": "A HDG conforme ISO 1461 serve às conexões estruturais expostas, onde a espessura do revestimento cabe no ajuste da rosca. O flake de zinco conforme ISO 10683 é a escolha melhor para parafusos classe 10.9 e 12.9, pois o processo não eletrolítico limita a fragilização por hidrogênio. A compatibilidade revestimento-rosca é conferida na montagem e registrada na especificação do projeto.",
-            "de": "Feuerverzinkung nach ISO 1461 passt zu freiliegenden Strukturverbindungen, wo die Schichtdicke im Gewindesitz untergebracht werden kann. Zinkflocken nach ISO 10683 ist die bessere Wahl für Bolzen der Klassen 10.9 und 12.9, weil das nicht elektrolytische Verfahren die Wasserstoffversprödung begrenzt. Die Dicke der Schicht ändert die Montage der Mutter. Die Hochfestigkeit verlangt ein schonendes Beschichtungsverfahren."
+            "de": "Feuerverzinkung nach ISO 1461 passt zu freiliegenden Strukturverbindungen, wo die Schichtdicke im Gewindesitz untergebracht werden kann. Zinkflocken nach ISO 10683 ist die bessere Wahl für Bolzen der Klassen 10.9 und 12.9, weil das nicht elektrolytische Verfahren die Wasserstoffversprödung begrenzt. Die Dicke der Schicht ändert die Montage der Mutter. Die Hochfestigkeit verlangt ein schonendes Beschichtungsverfahren.",
+            "ja": "高架と外構の暴露部には耐食性の高い被覆を選び、線路付近の湿潤・泥はねがかかる箇所では厚めの溶融亜鉛めっきまたはステンレスを検討します。大気と接触材質を確認し、部位ごとに被覆を定めてください。環境と相手材を確認し、記録を残して手順を守ることで、後の不具合を減らせます。"
           }
         },
         {
@@ -744,7 +748,8 @@
             "es": "¿Qué trazabilidad espera un proyecto ferroviario?",
             "fr": "Quelle traçabilité un projet ferroviaire attend-il ?",
             "pt": "Que rastreabilidade um projeto ferroviário espera?",
-            "de": "Welche Rückverfolgung erwartet ein Eisenbahnprojekt?"
+            "de": "Welche Rückverfolgung erwartet ein Eisenbahnprojekt?",
+            "ja": "鉄道関連の書類はどのように整えますか？"
           },
           "a": {
             "en": "Heat numbers on the mill certificate matched to the marking on each bolt, batch records for the coating, and a packing list that maps cartons to installation sections. Without that mapping the site team cannot prove which batch went into which connection.",
@@ -755,7 +760,8 @@
             "es": "Números de colada en el certificado de fábrica que coincidan con la marcación de cada perno, registros de lote para el recubrimiento y una lista de empaque que asocie las cajas con los tramos de montaje. Sin esa asociación, el equipo de obra no puede probar qué lote entró en qué unión. La trazabilidad acompaña cada bulón hasta su posición en la vía.",
             "fr": "Les numéros de coulée sur le certificat usine correspondent au marquage de chaque boulon, les enregistrements de lot pour le revêtement, et une liste de colisage reliant les cartons aux sections de montage. Sans ce repérage, l'équipe de site ne peut prouver quel lot est entré dans quelle liaison. La traçabilité suit le boulon de la matière jusqu'au joint. Chaque carton est rattaché à sa zone d'ouvrage.",
             "pt": "Números de lingote no certificado de fábrica batendo com a marcação de cada parafuso, registros de lote do revestimento, e uma lista de embalagem que mapeie as caixas às seções de instalação. Sem esse mapeamento, a equipe do canteiro não prova qual lote entrou em qual conexão. A rastreabilidade é conferida antes do embarque e mantida até a aceitação da via.",
-            "de": "Schmelznummern auf dem Werksprüfzeugnis, abgestimmt mit der Kennzeichnung an jedem Bolzen, Losaufzeichnungen für die Beschichtung, und eine Packliste, die die Kartons den Montageabschnitten zuordnet. Ohne diese Zuordnung kann das Baustellenteam nicht nachweisen, welches Los in welche Verbindung ging. Die Rückverfolgung folgt dem Bolzen vom Werkstoff zum Gelenk. Jeder Karton ist seinem Bauabschnitt zugeordnet."
+            "de": "Schmelznummern auf dem Werksprüfzeugnis, abgestimmt mit der Kennzeichnung an jedem Bolzen, Losaufzeichnungen für die Beschichtung, und eine Packliste, die die Kartons den Montageabschnitten zuordnet. Ohne diese Zuordnung kann das Baustellenteam nicht nachweisen, welches Los in welche Verbindung ging. Die Rückverfolgung folgt dem Bolzen vom Werkstoff zum Gelenk. Jeder Karton ist seinem Bauabschnitt zugeordnet.",
+            "ja": "材料等級、機械試験、被覆厚さの記録をロットごとに残し、仕向け地の規制要件に合わせて適合書類を添えます。鉄道の発注側は工程検査で記録を求めるため、納品に先立ち内容を照合してください。書類と現物を一致させて追跡できる状態にします。書類と現物を照合し、納品までの工程を整えておくと、現場の手間を抑えられます。"
           }
         }
       ]
