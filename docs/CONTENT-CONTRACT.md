@@ -432,3 +432,14 @@ python3 scripts/content_gate.py --slug X # 单篇
 205. **无前缀路径改 308 是拿"语种自适应"换"索引合并"，只覆盖出问题的那一段前缀。** 判据：`proxy.ts` 的 307 让爬虫侧留下 2,104 条"网页会自动重定向"；把 `/industry/:slug*/` 在 `next.config.ts` 固定永久指向 `/en/...`（x-default），合并信号明确，代价是非英语用户落到 en。规则：只改出问题的前缀（`/about`、`/contact` 仍走 geo 逻辑），新规则必须排在别名重定向之后并抽测别名目标未被吞。
 
 206. **多线并发时全量 `next build` 会被别人的半写 JSON 打断，别把它当代码缺陷。** 判据：报 `Unexpected end of JSON input` 落在 `getAllArticles` 的 `Array.map`，每次失败的 slug 都不同、`content/*.json` mtime 是刚刚 —— 属环境竞态。处置：改用 `npx tsc --noEmit` + 复用已有 dev 实例单页 curl 验证（Next 有单实例锁，别另起端口），等构建窗口再做全量。规则：失败特征"随机目标 + 刚改的 mtime"＝并发写，先查 `git status` 与他人提交，不要改业务代码去"修"。
+
+## 口径硬约束（R-T9l · 2026-11-26 追加）
+
+> **对 189 条的更正**：189 条写的「FAQ 富结果已只对政府和医疗开放」已经过期。现状以官方文档为准：**自 2026-05-07 起 FAQ 富结果在 Google 搜索全站完全停用**，FAQPage 文档同年 6 月下线（`/search/structured-data/faqpage` 301 到 `/search/updates`）；**官方未要求移除标记，保留不会造成问题，为它返工没有收益**（依据：`google-search-central` 技能 §3 时间线 + §5 第 4 条；`references/appearance-structured-data.md` 冲突区 FAQPage 两次口径变更）。
+
+**硬约束（写文章、写脚本注释、写方案文档一律照此表述）**
+
+1. 本线补多语种 FAQ 的价值定位只有两条：**本地语种页面完整度**（该语种页面不再整节缺失）与 **AI 摘要取材**（页面可见问答是 AI 引擎最常引用的版块）。**不得**写成"拿 FAQ 富结果 / 富摘要 / 出结构化数据拿流量"。
+2. 任何"补 FAQPage schema 以争取富结果"的动议一律驳回；`site/factory` 等页面已有的 FAQPage 标记保留即可，不新增、不删除、不为它写验收项。
+3. 验收 FAQ 工作时只看：该语种原生条目数、答案长度 120–450、语种纯度、问句形态、`content_gate` 闸门——不看 Rich Results Test 是否报 FAQPage。
+4. 若历史文档里出现"FAQ 富结果/富摘要"作为目标或 KPI，按本条更正后再引用；`docs/SEO-GEO-*` 与 A 线审计文档由 A 线自行更正，本线只在交接单里点名。
