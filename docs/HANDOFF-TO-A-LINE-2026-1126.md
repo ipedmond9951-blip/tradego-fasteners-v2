@@ -27,6 +27,8 @@
 
 > B 线补该语种时**按现有 en 事实翻译、不补数字**；上述截断/错位处若被 B 线遇到，只按上下文保守补写，不编造截断后的规格。
 
+| `kenya-east-africa-fastener-distribution-hub`、`dr-congo-drc-mining-fastener-market`、`mozambique-fastener-import-market-guide`、`zimbabwe-bulawayo-construction-hardware-supply`、`automotive-fastener-grade-comparison`、`angola-construction-boom-fastener-demand`、`solar-panel-mounting-fastener-requirements`、`zimbabwe-agricultural-fastener-requirements`、`tanzania-fastener-market-opportunities-2026`、`green-building-fastener-requirements`、`wind-energy-fastener-requirements-2026`、`food-beverage-fastener-hygiene-standards`、`africa-railway-modernization-fastener-demand`、`fastener-failure-analysis-case-studies` | 各篇 section[1] 第 2 条 | **14 篇共用同一条英文答案**（"Five prevention measures: 1) Specify ISO 9001 certification, 2) Third-party inspection, 3) Independent lab testing, 4) Specification alignment, 5) Training."）。九语种翻译后形成 14×N 的整段重复答案（详见 §5） |
+
 ## 3. 归属待确认
 
 - `drc-diamond-mining-fasteners`：不在 A 区 39 篇 CSV 里，`git status` 长期为 ` M`（疑似别线整文重排中），B 线未碰。请 A 线确认归属：若归 A 线，B 线本轮不再等它；若归 B 线，请对方提交后通知，B 线下轮补 ar 12 条。
@@ -34,3 +36,16 @@
 ## 4. 保护名单（B 线两轮均未碰，等对方提交后再补）
 
 `africa-fastener-market-opportunities-2026`（ar 7 / ru 7）、`china-fasteners-zimbabwe-procurement-guide`（ar 6 / ru 6）、`ghana-fastener-market-guide`（ar 7 / ru 7）。
+
+## 5. 跨篇整段答案重复（源文缺陷，九语种同源）
+
+- 上述 14 篇在 `content/articles/*.json` 的 `sections[1].faqItems[1]` 共用同一条 `a.en`。各语种按条翻译后，同一段落在语料库中重复出现 14 次（实测，B 区 240 篇范围内）：
+
+| 语种 | 该段重复次数 | ≥2 重复长答组数 | 最大单组重复 |
+|---|---|---|---|
+| es / fr / de / pt / ja / hi / en | 14 | es 11 / fr 6 / de 9 / pt 6 / ja 5 / hi 4 / en 13 | 14 |
+| zh / ru | 2（本轮未重写这两篇，旧译只有 2 处） | zh 9 / ru 5 | 2 |
+
+- 另一处：`de` 的 "Zuverlässige Lieferanten finden sich über folgende Wege…" 重复 9 次（同源同段）。
+- 处置建议：**交 A 线**按各篇主题分篇改写这 5 条预防措施，B 线下一轮按新 en 重译这 14 篇 × 9 语种；本轮不动（属在途源文）。
+- 说明：6-gram ≥15 的去重判据抓不到这一条（14 < 15），已用"整段逐字相同"补查，结论如上。
