@@ -304,7 +304,8 @@
             "es": "¿Qué dificulta el suministro a concesiones mineras de la RDC?",
             "pt": "O que dificulta o abastecimento na mina da RDC?",
             "fr": "L'approvisionnement en fixations des mines en RDC est-il difficile ?",
-            "de": "Was erschwert die Befestigungsversorgung in DRC-Konzessionen?"
+            "de": "Was erschwert die Befestigungsversorgung in DRC-Konzessionen?",
+            "ja": "内陸の採掘区域への輸送段取りは何を押さえますか？"
           },
           "a": {
             "en": "Remote sites, long inland haulage from Dar es Salaam or Beira, and equipment fleets that mix several OEM brands, each with its own fastener standard. Customs variability on top of that is what turns a late shipment into a stopped production line.",
@@ -315,7 +316,8 @@
             "es": "Emplazamientos remotos, transporte terrestre largo desde Dar es Salaam o Beira, y flotas de equipo que mezclan varias marcas OEM, cada una con su propia norma de fijación. La variabilidad aduanera, encima de eso, es lo que convierte un envío tardío en una línea de producción parada. La lejanía y la mezcla de marcas exigen previsión de stock.",
             "pt": "Sítios remotos, transporte interno longo de Dar es Salaam ou Beira, e frotas de equipamento que misturam várias marcas OEM, cada uma com sua norma de fixador. A variabilidade alfandegária sobre isso é o que transforma um atraso de embarque em linha de produção parada. O planejamento leva em conta rota, estoque de segurança e compatibilidade de marcas do equipamento.",
             "fr": "Sites reculés, long trajet intérieur depuis Dar es Salaam ou Beira, et parcs d'équipement qui mélangent plusieurs marques OEM, chacune avec sa propre norme de fixation. La variabilité douanière vient s'ajouter : c'est elle qui transforme une expédition tardive en ligne de production arrêtée. Chaque étape du trajet compte sur la tenue du délai. Les stocks doivent couvrir les pièces critiques jusqu'à l'arrivée du lot suivant.",
-            "de": "Ablegende Standorte, langer Landweg von Dar es Salaam oder Beira, und Geräteparks, die mehrere OEM-Marken mischen, jede mit eigener Befestigungsnorm. Die zollrechtliche Unsicherheit kommt hinzu: sie verwandelt eine verspätete Sendung in eine stillstehende Produktionslinie. Jeder Schritt des Weges hängt vom Halten des Termins ab. Die Vorräte müssen die kritischen Teile bis zur Ankunft des nächsten Loses decken."
+            "de": "Ablegende Standorte, langer Landweg von Dar es Salaam oder Beira, und Geräteparks, die mehrere OEM-Marken mischen, jede mit eigener Befestigungsnorm. Die zollrechtliche Unsicherheit kommt hinzu: sie verwandelt eine verspätete Sendung in eine stillstehende Produktionslinie. Jeder Schritt des Weges hängt vom Halten des Termins ab. Die Vorräte müssen die kritischen Teile bis zur Ankunft des nächsten Loses decken.",
+            "ja": "主要港から区域までの回廊、通関と陸送の段取り、区域での保管場所、定修枠に合わせた納品順序を押さえます。内陸ほど滞留の影響が大きいため、輸送日程と書類を早めに整えてください。工程と物流を照合し、安全在庫を見込みます。用途ごとに仕様を分け、必要な品質を満たす範囲で選定してください。"
           }
         },
         {
@@ -328,7 +330,8 @@
             "es": "¿Cómo debe planificar una concesión su inventario de fijaciones?",
             "pt": "Como uma concessão planeja o estoque de fixadores?",
             "fr": "Comment une concession planifie-t-elle son stock de fixations ?",
-            "de": "Wie plant eine Konzession ihren Bestand an Befestigungen?"
+            "de": "Wie plant eine Konzession ihren Bestand an Befestigungen?",
+            "ja": "鉱山定修用の部品はどう発注しますか？"
           },
           "a": {
             "en": "Build the list by equipment brand and assembly, split parts into critical and consumable, and hold buffer stock for critical items at the site warehouse while consumables run on scheduled replenishment from China.",
@@ -339,7 +342,8 @@
             "es": "Arme la lista por marca de equipo y montaje, divida piezas en críticas y consumibles, y mantenga stock de reserva para los artículos críticos en el almacén del sitio, mientras los consumibles van por reposición programada desde China. El plan separa lo que no puede faltar de lo que se renueva de forma periódica.",
             "pt": "Monta-se a lista por marca de equipamento e conjunto, divide-se peças em críticas e consumíveis, e mantém-se estoque buffer dos itens críticos no depósito da mina, enquanto os consumíveis correm por reposição programada da China. O buffer cobre os itens de maior desgaste, e a reposição segue o consumo registrado em vez de calendário fixo.",
             "fr": "Établissez la liste par marque d'équipement et par assemblage, séparez les pièces critiques des consommables, et tenez un stock tampon pour les articles critiques à l'entrepôt du site, tandis que les consommables suivent un réapprovisionnement planifié depuis la Chine. La rotation guide la quantité de chaque référence. Une pièce critique en rupture bloque l'engin concerné. Le réassort se calcule sur la consommation réelle du parc.",
-            "de": "Erstellen Sie die Liste nach Gerätemarke und Baugruppe, teilen Sie die Teile in kritische und Verbrauchsteile auf, und halten Sie einen Pufferbestand für die kritischen Artikel am Standortlager, während die Verbrauchsteile nach Planung aus China nachgeliefert werden. Der Umschlag leitet die Menge jeder Referenz. Ein kritisches Teil im Stillstand blockiert das betroffene Gerät. Der Nachschub rechnet sich nach dem tatsächlichen Verbrauch des Parks."
+            "de": "Erstellen Sie die Liste nach Gerätemarke und Baugruppe, teilen Sie die Teile in kritische und Verbrauchsteile auf, und halten Sie einen Pufferbestand für die kritischen Artikel am Standortlager, während die Verbrauchsteile nach Planung aus China nachgeliefert werden. Der Umschlag leitet die Menge jeder Referenz. Ein kritisches Teil im Stillstand blockiert das betroffene Gerät. Der Nachschub rechnet sich nach dem tatsächlichen Verbrauch des Parks.",
+            "ja": "定修の開始に間に合うよう余裕を持って発注し、重要品を先に手配します。現場では交換頻度の高い呼び径を在庫として持ち、定常の補充を計画します。定修日程を起点に逆算し、部品の到着を工程に組み込んでください。現場の条件を記録し、同じ仕様を繰り返し使うことで、供給と管理を安定させられます。"
           }
         },
         {
@@ -352,7 +356,8 @@
             "es": "¿Qué documentos apoyan el despacho de importación en la RDC?",
             "pt": "Que documentos apoiam o desembaraço de importação na RDC?",
             "fr": "Quels documents appuient le dédouanement en RDC ?",
-            "de": "Welche Dokumente stützen die DRC-Einfuhrabwicklung?"
+            "de": "Welche Dokumente stützen die DRC-Einfuhrabwicklung?",
+            "ja": "保管で注意する点は何ですか？"
           },
           "a": {
             "en": "Commercial invoice, packing list, bill of lading, certificate of origin and mill test reports; mining contracts often add a pre-shipment inspection certificate. Invoice values and HS codes must match exactly, because mismatches trigger manual review and demurrage.",
@@ -363,7 +368,8 @@
             "es": "Factura comercial, lista de empaque, conocimiento de embarque, certificado de origen e informes de ensayo de fábrica; los contratos mineros suelen añadir un certificado de inspección previa al envío. Los valores de factura y los códigos HS deben coincidir exactamente, porque las discrepancias activan revisión manual y demora. La documentación cuadra con la carga para pasar la aduana.",
             "pt": "Fatura comercial, lista de embalagem, conhecimento de embarque, certificado de origem e relatórios de ensaio de fábrica; contratos de mina frequentemente acrescentam certificado de inspeção pré-embarque. Os valores da fatura e os códigos HS devem bater exatamente, pois divergências acionam revisão manual e sobreestadia. A papelada é conferida linha a linha antes do fechamento da carga.",
             "fr": "Facture commerciale, liste de colisage, connaissement, certificat d'origine et rapports d'essai matière ; les contrats miniers ajoutent souvent un certificat d'inspection avant expédition. Les valeurs facture et les codes HS doivent coïncider exactement, car un écart déclenche une revue manuelle et du surestoc. Chaque document suit la cargaison jusqu'à la remise en concession. Un dossier incomplet retarde la libération du conteneur.",
-            "de": "Handelsrechnung, Packliste, Konnossement, Ursprungszeugnis und Werksprüfberichte; Bergwerkverträge fügen oft ein Inspektionszertifikat vor Versand hinzu. Rechnungswerte und HS-Codes müssen genau übereinstimmen, weil eine Abweichung eine manuelle Prüfung und Liegezeit auslöst. Jedes Dokument begleitet die Ladung bis zur Übergabe in der Konzession. Ein unvollständiges Dossier verzögert die Freigabe des Containers."
+            "de": "Handelsrechnung, Packliste, Konnossement, Ursprungszeugnis und Werksprüfberichte; Bergwerkverträge fügen oft ein Inspektionszertifikat vor Versand hinzu. Rechnungswerte und HS-Codes müssen genau übereinstimmen, weil eine Abweichung eine manuelle Prüfung und Liegezeit auslöst. Jedes Dokument begleitet die Ladung bis zur Übergabe in der Konzession. Ein unvollständiges Dossier verzögert die Freigabe des Containers.",
+            "ja": "湿気と塵を防ぎ、被覆の劣化を抑える場所に置きます。品番と呼び径ごとに整理し、保管期間中も被覆と表面を点検してください。長期在庫は腐食やねじ部の損傷を招くため、回転と保管条件を管理します。環境と相手材を確認し、記録を残して手順を守ることで、後の不具合を減らせます。"
           }
         }
       ]
