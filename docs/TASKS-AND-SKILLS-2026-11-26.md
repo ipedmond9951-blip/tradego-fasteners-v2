@@ -109,3 +109,16 @@
 * **删装饰数字**：PT 正文的全球市场规模（8.014 亿 / 11.199 亿 USD、CAGR）删除；英文补一段「询价五项信息」实质内容，使 EN 正文 1536 → **1611 词**，达 N5 的 1600 词底线。
 * **闸门结果**：`content_gate` 0 BLOCK（218 干净 + 45 只 WARN）；`check-claims.py` src/llms.txt 无过界表述；`check-article-schema.sh` 279 篇全通过；`link-orphans.py` 孤儿仅剩 1 篇且无空闲宿主；`check-template-filler` 仅 2 篇命中阈值。
 * **上线**：提交 `ee463244`，与前述 4 个提交合计 5 个待推，由 `deploy-flush` 在 09:00-11:00 窗口自动推。
+
+## 八、正文结构一轮归一（11-27 00:45 CST，commit `298de142` + 本篇）
+
+依据 `seo-geo-site-spec` §N6（首段 60-80 词直答）与 GEO 量具口径，对 279 篇正文做结构性修复。根因不是内容薄，是**正文 HTML 缺段落包裹**：`body` 字段大量以裸文本开头（`Set screws are headless screws…</p>`），渲染层 `dangerouslySetInnerHTML` 直接输出，裸文本落在 `<p>` 外，既无段距，也让 `geo_audit` 把整节当成一个「首段」，实测首段长度虚高到 200-370 词。
+
+* **段落包裹补全**：正文起始裸文本 7668 处、最后一个 `</p>` 之后的裸露尾文 1362 处，按句界/<p> 边界重新包成 `<p>`；跨 221 篇。修复后 `p1` 40-130 词的达标率 225/264 → **247/264**。
+* **首段长度归一**：161 篇首段按句界拆分（>130 词）或与下一段合并（<40 词），拆分点落在 55-128 词且优先贴近 92 词，保证 N6 的「一个自然段直答」不被拆碎。
+* **模板句清理**：命中指纹句 390 处、同字段重复长句 508 处，涉及 103 篇；清理会让 57 篇英文跌破 1600 词门槛，这 57 篇按「不把达标页降成薄页」原则回滚原文（清单见 `/tmp/regressed.txt`），模板句留给内容线重写时一并替换。
+* **转义修复**：5 篇正文里 `\u5E95\u84DD\u87E0\u6876` 这类未解码转义改回汉字（`anchor-bolts-foundation-guide`、`ethiopia-industrial-park-fastener-supply`、`fastener-cost-analysis-template`、`southern-africa-fastener-market-southafrica-botswana`、`structural-steel-connection-fasteners`）。
+* **定义句补齐**：`waterproof-coating-buying-guide`、`drc-mining-concession-fastener-logistics`、`zambia-copper-mining-fasteners-grade-selection-2026` 各补一句实体定义，`def=0` 清零。
+* **量具结果**：`geo_audit` 均分 76.4 → **77.6**，≥80 分 97 → **98** 篇，<60 分 28 → **10** 篇；`p1` 达标 247/264；`def=0` **0** 篇。
+* **闸门**：`content_gate` 0 新增 BLOCK、完全干净 238 → **251（95%）**；`check-article-schema.sh` 279 全通过；`check-claims.py` src/llms.txt 通过；`check-template-filler` 仍是原来的 2 篇（未降级、未动）。
+* **仍未动的两块**（都要逐篇写，不能机械替换，交内容线）：`qh=0` **151 篇**（缺问句式小标题，占 15 分）、FAQ 答案均长 <80 词 **175 篇**（占 20 分）。这两块是剩下 60-79 分那 156 篇的主要缺口。
