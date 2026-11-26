@@ -325,3 +325,30 @@ python3 -c "import sys;sys.path.insert(0,'scripts');import json_rewrite as jr;d=
 5. **A 区同类死链**（`rwanda-*`、`construction-building-self-tapping-*`）交 A 线或下轮。
 
 **经验号段**：本轮占 **229–236**（235/236 为复用与去重口径）；下一轮开工前先 `grep` 复核最大号。
+
+### 0.12 R-T9q 轮：§20-9 两项缺口收口（2026-11-27）
+
+**触发**：§0.11 冻结后用户要求「看看 B 线，然后整改一轮完成」。本轮只做 §20-9 第 1、2 项——en 中位线软缺口 + 真实语种缺口，共 8 个槽位；第 3 项（轻度复用抽检）、第 4 项（`material-selection` ja 需先扩 en）、第 5 项（`fastener-quality-certification-comparison` 历史槽）不在本轮。
+
+**量具口径先钉死（经验 237）**：报告里的 `sleeper hi 1408`、`mombasa es 1128` 是"空白切词"单位，`zh` 是汉字数。本轮统一用一支 `size()`：zh/ja 计汉字与假名、其余语种按空白切词；目标取**全库中位线**（en 1710 / es 1282 / hi 1529 词、zh 2030 汉字），不取批次内中位线。
+
+**结果**（逐篇台账 `docs/geo-fill-t9q-2026-1127.csv`）
+
+| slug | 语种 | before → after | 中位线 | 内容 |
+|---|---|---|---|---|
+| imperial-metric-hex-nut-export-guide | en | 1651 → 1733 | 1710 | ASME B18.2.2 与 ISO 4032 的螺母高度/对边差；混装按尺寸标准标箱 |
+| tanzania-fastener-market-opportunities-2026 | en | 1624 → 1731 | 1710 | 以规格书作第一道到货检验；单证与箱唛不符先隔离 |
+| anchor-bolts-foundation-guide | en | 1675 → 1731 | 1710 | 模板位/植入深度/交付扭矩三件记录随锚栓走 |
+| fastener-failure-analysis-case-studies | en | 1620 → 1719 | 1710 | 断口拍照、批号+日期码、实数扭矩、按位分装 |
+| zim-construction-lock-washers-tco-analysis-stress-cracking | en | 1617 → 1715 | 1710 | 电镀后烘烤窗口与氢脆；产线/烘烤间隔/硬度区间随批 |
+| zim-construction-threaded-rods-supplier-evaluation-cost-optimization | en | 1605 → 1716 | 1710 | 滚丝 vs 车丝、长度公差与直线度两条隐性成本 |
+| africa-railway-sleeper-fastener-specification | hi | 1408 → 1531 | 1529 | 真印地语：等级与扣件匹配、镀层区间、到货三查 |
+| mombasa-port-fasteners | es | 1152 → 1301 | 1282 | 真西语：卸货四查清单 + 场地复核记录 |
+
+**验收**：① 8 槽全部 ≥ 全库中位线；② `geo_audit` 分数不降（75/85 与 CSV `score_after` 持平）；③ `content_gate --slug` 8/8 无新增 BLOCK；④ `check-body-lang --slug` english/script/label/noise 全 0；⑤ `check-article-schema.sh` 279 通过；⑥ `check-money-claims` 价格语义 0、`check-cert-claims` 待复核 0、`check-template-filler` 仍 2 篇（未动）；⑦ 语种键删除 0 / `faqItems` 改动 0；⑧ 跨篇 12-gram 自检：新增段最大共享 slug 数 = 1（按 `<p>` 精确取段，见经验 238）；⑨ 8 笔全单文件提交、暂存区空、无锁残留、A 区 0 交集。
+
+**下一轮入口（顺延 §0.11）**：① 轻度复用 147 槽抽检（`reuse_scope.py` 口径，勿用滑动窗口粗扫）；② §8.4 剩余 9 篇；③ `material-selection` ja 先扩 en 源段；④ `fastener-quality-certification-comparison` 9 槽历史未扩写；⑤ 上线后核 43 篇（35+8）首段渲染与 `hi/es` 小语种不乱码。
+
+**经验号段**：本轮占 **237–240**。
+
+**硬不变量（延续 §0.11）**：写锁 owner `今日头条分析` 必领必释；单文件 `git add <文件> && git commit -F <msg> -- <文件>`；只 commit 不 push；不碰 A 区 39 篇、`docs/SEO-GEO-*`、`next.config.ts`、`scripts/geo_audit.py`、`src/**`、他线 ` M`。
