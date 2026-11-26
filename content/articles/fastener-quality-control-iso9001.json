@@ -401,7 +401,8 @@
             "es": "¿Qué es un certificado de ensayo de fábrica (MTC)?",
             "pt": "O que é um Certificado de Ensaio de Fábrica, MTC?",
             "fr": "Qu'est-ce qu'un certificat d'essai d'usine (MTC) ?",
-            "de": "Was ist ein Werkszeugnis (MTC)?"
+            "de": "Was ist ein Werkszeugnis (MTC)?",
+            "ja": "ミル試験証明書（MTC）とは何ですか？"
           },
           "a": {
             "en": "An MTC (EN 10204 Type 3.1) is a quality document signed by the manufacturer's quality director that certifies the chemical composition and mechanical properties of a specific production lot. It traces the material back to the steel heat number. Always request Type 3.1 (not 2.2) for structural applications.",
@@ -412,7 +413,8 @@
             "es": "El MTC (EN 10204 tipo 3.1) es un documento de calidad firmado por el responsable de calidad del fabricante que certifica la composición química y las propiedades mecánicas de un lote de producción concreto. Traza el material hasta el número de colada del acero. En aplicaciones estructurales pida siempre el tipo 3.1, y no el 2.2.",
             "pt": "Um MTC, EN 10204 Tipo 3.1, é um documento de qualidade assinado pelo diretor de qualidade do fabricante, que certifica a composição química e as propriedades mecânicas de um lote de produção específico. Ele rastreia o material até o número de lingote de aço. Em aplicações estruturais, pede-se sempre o Tipo 3.1, não o 2.2, e o certificado deve bater com a marcação do lote entregue.",
             "fr": "Un MTC (EN 10204 type 3.1) est un document qualité signé par le directeur qualité du fabricant, qui atteste la composition chimique et les propriétés mécaniques d'un lot de production précis. Il rattache le matériau au numéro de fonte de l'acier. Demandez toujours le type 3.1 (et non 2.2) pour les applications structurales. Le document doit être traçable jusqu'au lot livré.",
-            "de": "Ein MTC nach EN 10204 Typ 3.1 ist ein Qualitätsdokument, das vom Qualitätsleiter des Herstellers unterzeichnet wird und chemische Zusammensetzung sowie mechanische Eigenschaften einer bestimmten Chargennummer bescheinigt. Es führt das Material bis zur Stahlschmelznummer zurück. Für Traganwendungen ist stets Typ 3.1 (nicht 2.2) anzufordern."
+            "de": "Ein MTC nach EN 10204 Typ 3.1 ist ein Qualitätsdokument, das vom Qualitätsleiter des Herstellers unterzeichnet wird und chemische Zusammensetzung sowie mechanische Eigenschaften einer bestimmten Chargennummer bescheinigt. Es führt das Material bis zur Stahlschmelznummer zurück. Für Traganwendungen ist stets Typ 3.1 (nicht 2.2) anzufordern.",
+            "ja": "MTC（EN 10204 3.1）は、製造元の品質責任者が署名し、特定の製造ロットの化学成分と機械的性質を証明する品質文書です。材料を鋼のシュメルナンバーまで追跡します。構造用途では2.2ではなく3.1を求めてください。証明書のロットと納品品を照合してください。"
           }
         },
         {
@@ -425,7 +427,8 @@
             "es": "¿Con qué frecuencia auditar a los proveedores de fijaciones?",
             "pt": "Com que frequência auditar fornecedores de fixadores?",
             "fr": "À quelle fréquence auditer les fournisseurs de fixations ?",
-            "de": "Wie oft sollten Befestiger-Lieferanten auditiert werden?"
+            "de": "Wie oft sollten Befestiger-Lieferanten auditiert werden?",
+            "ja": "ファスナー供給元はどのくらいの頻度で点検すべきですか？"
           },
           "a": {
             "en": "Per ISO 9001 clause 8.4, supplier performance should be monitored continuously and formally audited at minimum annually. For critical fastener applications (structural, automotive), consider semi-annual audits including witness testing.",
@@ -436,7 +439,8 @@
             "es": "El desempeño del proveedor debe monitorizarse de forma continua y auditarse de forma formal, como mínimo una vez al año. En aplicaciones críticas, como estructuras o automoción, convienen auditorías semestrales con ensayo testigo. La revisión periódica detecta desviaciones antes de que afecten a la remesa entregada.",
             "pt": "O desempenho do fornecedor deve ser monitorado continuamente e auditado formalmente no mínimo uma vez ao ano. Em aplicações críticas de fixadores, estruturais ou automotivas, consideram-se auditorias semestrais com testemunha de ensaio. A auditoria revisa documentação do lote, controle dimensional, tratamento de superfície e reclamações anteriores, e o resultado fica registrado no histórico do fornecedor.",
             "fr": "Selon les pratiques qualité usuelles, la performance fournisseur doit être surveillée en continu et auditée formellement au moins une fois par an. Pour les applications de fixation critiques (structure, automobile), envisagez des audits semestriels avec essais témoins. Le niveau de contrôle suit le risque de l'application et l'historique du fournisseur.",
-            "de": "Nach Kapitel 8.4 eines am ISO 9001 ausgerichteten Managementsystems ist die Lieferantenleistung laufend zu überwachen und mindestens einmal jährlich formell zu auditieren. Für kritische Befestigeranwendungen (Tragwerk, Automobil) sind halbjährliche Audits mit Begutachtung von Prüfungen in Erwägung zu ziehen."
+            "de": "Nach Kapitel 8.4 eines am ISO 9001 ausgerichteten Managementsystems ist die Lieferantenleistung laufend zu überwachen und mindestens einmal jährlich formell zu auditieren. Für kritische Befestigeranwendungen (Tragwerk, Automobil) sind halbjährliche Audits mit Begutachtung von Prüfungen in Erwägung zu ziehen.",
+            "ja": "品質管理の体系に沿って供給元の実績を継続的に監視し、少なくとも年1回の公式な点検を行います。構造や自動車向けの重要用途では、第三者試験を含む半年ごとの点検も検討してください。納期、品質、クレームの記録をもとに評価を更新します。現地の施工慣行と保管状況も考えて、品揃えを調整してください。"
           }
         },
         {
@@ -449,7 +453,8 @@
             "es": "¿Qué nivel AQL especificar en fijaciones?",
             "pt": "Que nível AQL especificar para fixadores?",
             "fr": "Quel niveau AQL spécifier pour les fixations ?",
-            "de": "Welche AQL-Stufe sollte man für Befestiger festlegen?"
+            "de": "Welche AQL-Stufe sollte man für Befestiger festlegen?",
+            "ja": "ファスナーに指定するAQL水準はどのくらいですか？"
           },
           "a": {
             "en": "For general fasteners: AQL 1.0 for critical dimensions (thread, strength), AQL 2.5 for non-critical (appearance, minor dimensions). For structural/safety fasteners: AQL 0.65 for all critical parameters. Reference ISO 2859-1 for sampling plans.",
@@ -460,7 +465,8 @@
             "es": "Para fijaciones generales: AQL 1.0 en dimensiones críticas (rosca, resistencia) y AQL 2.5 en las no críticas (aspecto, dimensiones menores). Para fijaciones estructurales o de seguridad: AQL 0.65 en todos los parámetros críticos. Los planes de muestreo se consultan en la norma ISO 2859-1.",
             "pt": "Para fixadores gerais: AQL 1.0 para dimensões críticas, rosca e resistência, e AQL 2.5 para não críticas, aparência e dimensões menores. Para fixadores estruturais ou de segurança: AQL 0.65 em todos os parâmetros críticos. Os planos de amostragem seguem ISO 2859-1. O nível AQL é definido antes da inspeção de embarque, junto com os pontos de medição do lote.",
             "fr": "Pour les fixations générales : AQL 1.0 pour les dimensions critiques (filetage, résistance), AQL 2.5 pour les non critiques (aspect, dimensions mineures). Pour les fixations structurales ou de sécurité : AQL 0.65 sur tous les paramètres critiques. Reportez-vous à ISO 2859-1 pour les plans d'échantillonnage. Le niveau AQL doit être fixé avant la commande.",
-            "de": "Für allgemeine Befestiger: AQL 1.0 für kritische Maße (Gewinde, Festigkeit), AQL 2.5 für nicht kritische (Aussehen, kleine Maße). Für Trag- oder Sicherheitsbefestiger: AQL 0.65 für alle kritischen Parameter. Die Stichprobenpläne richten sich nach ISO 2859-1."
+            "de": "Für allgemeine Befestiger: AQL 1.0 für kritische Maße (Gewinde, Festigkeit), AQL 2.5 für nicht kritische (Aussehen, kleine Maße). Für Trag- oder Sicherheitsbefestiger: AQL 0.65 für alle kritischen Parameter. Die Stichprobenpläne richten sich nach ISO 2859-1.",
+            "ja": "一般ファスナーでは、重要な寸法（ねじ、強度）に厳しめの水準、非重要項目（外観、軽微な寸法）に緩めの水準を当てます。構造・安全ファスナーではすべての重要パラメータに厳しい水準を使います。抜取り計画はISO 2859-1を参照してください。接合の目的と耐力を明確にし、過不足のない仕様を整えます。"
           }
         },
         {
@@ -473,7 +479,8 @@
             "es": "¿Se puede confiar en certificados de autodeclaración del proveedor?",
             "pt": "Posso confiar nos certificados declarados pelo próprio fornecedor?",
             "fr": "Peut-on se fier aux certificats auto-déclarés d'un fournisseur ?",
-            "de": "Kann man Eigenbescheinigungen eines Lieferanten vertrauen?"
+            "de": "Kann man Eigenbescheinigungen eines Lieferanten vertrauen?",
+            "ja": "供給元の自己申告証明を信用できますか？"
           },
           "a": {
             "en": "For non-critical applications, Type 2.2 certificates (supplier's declaration) may suffice. For structural, safety-critical, or regulated applications, always require Type 3.1 certificates (independently verified by the manufacturer's QA department) and consider third-party inspection (Type 3.2).",
@@ -484,7 +491,8 @@
             "es": "En aplicaciones no críticas pueden bastar los certificados tipo 2.2, declaración del proveedor. En aplicaciones estructurales, de seguridad o reguladas, exija siempre certificados tipo 3.1, verificados por el departamento de calidad del fabricante, y valore una inspección de tercera parte tipo 3.2. La confianza se apoya en el documento verificable, no en una declaración genérica.",
             "pt": "Para aplicações não críticas, certificados Tipo 2.2, declaração do fornecedor, podem ser suficientes. Em aplicações estruturais, críticas à segurança ou reguladas, exigem-se sempre certificados Tipo 3.1, verificados pelo setor de qualidade do fabricante, e considera-se inspeção de terceira parte, Tipo 3.2. A ficha do material deve ser conferida contra o pedido e a entrega do lote.",
             "fr": "Pour les applications non critiques, les certificats type 2.2 (déclaration du fournisseur) peuvent suffire. Pour les applications structurales, critiques pour la sécurité ou réglementées, exigez toujours des certificats type 3.1 (vérifiés indépendamment par le service qualité du fabricant), et envisagez une inspection tierce partie (type 3.2). La déclaration seule ne remplace pas la vérification pour un joint important.",
-            "de": "Für nicht kritische Anwendungen können Typ-2.2-Zeugnisse (Lieferantenerklärung) ausreichen. Für Trag-, sicherheitskritische oder geregelte Anwendungen sind stets Typ-3.1-Zeugnisse zu verlangen (unabhängig von der QS-Abteilung des Herstellers geprüft), und eine Drittinspektion (Typ 3.2) ist zu erwägen."
+            "de": "Für nicht kritische Anwendungen können Typ-2.2-Zeugnisse (Lieferantenerklärung) ausreichen. Für Trag-, sicherheitskritische oder geregelte Anwendungen sind stets Typ-3.1-Zeugnisse zu verlangen (unabhängig von der QS-Abteilung des Herstellers geprüft), und eine Drittinspektion (Typ 3.2) ist zu erwägen.",
+            "ja": "非重要用途では2.2証明（供給元の宣言）で足りることがあります。構造、安全重要、規制対象の用途では、製造元の品質部門が確認する3.1証明を求め、第三者検査（3.2）も検討してください。宣言だけでなく記録と試験の存在を確認します。到着後の抜き取り確認も含め、品質を継続して管理してください。"
           }
         }
       ],
