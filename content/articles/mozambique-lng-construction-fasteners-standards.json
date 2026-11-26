@@ -331,7 +331,7 @@
           "a": {
             "en": "In three phases: incoming inspection on arrival, documentation and traceability review against heat numbers, and ongoing monitoring during operation. Each phase checks a different object, which is why missing mill certificates cannot be fixed later at site.",
             "pt": "Em três etapas: inspeção de recebimento na chegada, revisão de documentação e rastreabilidade contra os números de corrida, e monitoramento contínuo em operação. Cada etapa checa um objeto diferente, e é por isso que certificado de usina faltante não se resolve depois, no canteiro.",
-            "zh": "分三个阶段：到货时进料检验；按炉批号核对文件与可追溯性；运行期间持续监控。各阶段核查对象不同，所以材质证明书缺失无法到现场后再补救。",
+            "zh": "LNG 现场的紧固件合规核验分三个阶段：到货进厂检验、对照炉号的文件与可追溯性审查，以及服役过程中的持续监控。每个阶段核验对象不同，因此缺失钢厂质保书无法在后续环节补齐。到货阶段核对外观、标记、等级与数量；文件阶段把质保书炉号、批次记录和装箱映射对应起来；运行阶段跟踪松动、腐蚀和疲劳迹象。结构批次按阶段留存检验记录，出现问题可回溯到对应批次和责任环节。",
             "hi": "तीन चरणों में: पहुंचने पर आने वाली माल का निरीक्षण, हीट नंबर के हिसाब से दस्तावेज़ और ट्रेसेबिलिटी की समीक्षा, तथा चल रहे परिचालन के दौरान लगातार निगरानी। हर चरण अलग चीज़ पर जांच करता है, इसलिए मिल सर्टिफिकेट की कमी साइट पर बाद में नहीं भरी जा सकती। निरीक्षण के दायरे और रिकॉर्ड फॉर्मेट को ऑर्डर से पहले ही तय करना बेहतर रहता है।",
             "ru": "В три этапа: входной контроль при поступлении, проверка документации и прослеживаемость по плавкам (heat numbers), а также текущее наблюдение в период эксплуатации. На каждом этапе проверяется свой объект, поэтому отсутствие заводских сертификатов потом на площадке уже не исправить.",
             "ar": "على ثلاث مراحل: فحص عند الوصول، ومراجعة المستندات وقابلية التتبع مقابل أرقام السباكة، والمراقبة المستمرة أثناء التشغيل. وتفحص كل مرحلة هدفًا مختلفًا، لذلك لا يمكن تعويض شهادات المصنع الناقصة لاحقًا في الموقع.",
@@ -357,7 +357,7 @@
           "a": {
             "en": "Material grade and impact-testing temperature, coating system and thickness, marking and traceability format, and the third-party inspection scope. Fixing these before fabrication avoids re-work that an LNG schedule cannot absorb.",
             "pt": "Grau do material e temperatura de ensaio de impacto, sistema e espessura de revestimento, formato de marcação e rastreabilidade, e escopo da inspeção por terceiros. Fixar isso antes da fabricação evita retrabalho que o cronograma de GNL não absorve.",
-            "zh": "材料等级与冲击试验温度、镀层体系与厚度、标识与可追溯方式、第三方检验范围。这些在制造前定死，才能避免返工——LNG 项目工期没有余量吸收返工。",
+            "zh": "投产前采购应先锁定材质等级与冲击试验温度、镀层体系与厚度、标记和可追溯格式，以及第三方检验范围。这些内容在制造前确定，可避免 LNG 工期无法承受的返工。规格书中明确标准、等级、涂层和验收方式，供应商据此安排工艺和文件；结构件的头部标记、质保文件与批次记录一并约定。检验范围和放行条件写进订单，到货后按同一口径验收；材料与镀层方案先于制造确认，减少现场不符导致的停工更换。",
             "hi": "मटेरियल ग्रेड और इम्पैक्ट टेस्टिंग तापमान, कोटिंग सिस्टम और मोटाई, मार्किंग तथा ट्रेसेबिलिटी का फॉर्मेट, और तीसरे पक्ष निरीक्षण का दायरा। फैब्रिकेशन से पहले ये चीज़ें तय कर लेने पर वह दोबारा काम नहीं पड़ता, जिसे LNG शेड्यूल में जगह नहीं होती। ऑर्डर दस्तावेज़ में हर बिंदु लिखित रूप से दर्ज करें, बाद में मौखिक सहमति पर भरोसा न करें।",
             "ru": "Марку стали и температуру ударных испытаний, систему покрытия и его толщину, формат маркировки и прослеживаемости, а также объём сторонней инспекции. Эти условия фиксируют до изготовления, чтобы избежать переделок, которые график проекта СПГ не позволяет.",
             "ar": "درجة المادة ودرجة حرارة اختبار الصدم، ونظام الطلاء وسمكه، وصيغة العلامة وقابلية التتبع، ونطاق فحص الطرف الثالث. وتثبيت هذه العناصر قبل التصنيع يجنب إعادة العمل التي لا تستوعبها جدولة مشاريع الغاز المسال.",
