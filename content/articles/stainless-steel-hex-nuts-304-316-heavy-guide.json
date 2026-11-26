@@ -161,7 +161,8 @@
             "ru": "Можно ли ставить гайку из нержавейки на болт из углеродистой стали?",
             "ar": "هل يمكن استخدام صامولة مقاومة للصدأ على برغي فولاذ كربوني؟",
             "es": "¿Puedo usar una tuerca inoxidable en un perno de acero al carbono?",
-            "fr": "Peut-on employer un écrou inox sur un boulon acier carbone ?"
+            "fr": "Peut-on employer un écrou inox sur un boulon acier carbone ?",
+            "pt": "Posso usar porca inoxidável em parafuso de aço-carbono?"
           },
           "a": {
             "en": "Yes, but be aware of galvanic corrosion in wet environments—the stainless nut on a carbon steel bolt creates a galvanic couple. In dry conditions this is acceptable.",
@@ -170,7 +171,8 @@
             "ru": "Можно, но во влажной среде учитывайте гальваническую пару: нержавеющая гайка на углеродистом болте создаёт контакт двух разных металлов, и коррозия со временем идёт по более активному из них. В сухих условиях такая пара приемлема; если узел мокнет или работает на улице, лучше держать материалы болта и гайки в одной группе либо разделить их изолирующей прокладкой.",
             "ar": "نعم، لكن انتبه للتآكل الجلفاني في البيئات الرطبة؛ فالصامولة المقاومة للصدأ على برغي كربوني تكوّن زوجًا جلفانيًا. أما في الظروف الجافة فهذا مقبول.",
             "es": "Sí, pero preste atención a la corrosión galvánica en ambientes húmedos: la tuerca inoxidable sobre un perno de acero al carbono forma una pareja galvánica. En condiciones secas esto es aceptable. El contacto de metales distintos se revisa según la humedad del servicio.",
-            "fr": "Oui, mais en gardant à l'esprit la corrosion galvanique en milieu humide : l'écrou inox sur boulon acier carbone forme un couple galvanique. En conditions sèches, l'association reste acceptable. En humidité, il vaut mieux harmoniser les matériaux ou prévoir une isolation entre les métaux dissemblables."
+            "fr": "Oui, mais en gardant à l'esprit la corrosion galvanique en milieu humide : l'écrou inox sur boulon acier carbone forme un couple galvanique. En conditions sèches, l'association reste acceptable. En humidité, il vaut mieux harmoniser les matériaux ou prévoir une isolation entre les métaux dissemblables.",
+            "pt": "Sim, mas atente para a corrosão galvânica em ambientes úmidos: a porca inoxidável no parafuso de aço-carbono forma um par galvânico. Em condições secas isso é aceitável. O par é conferido contra a umidade do ambiente, e os materiais são isolados quando dissimilar, conforme a ficha do projeto da ligação."
           }
         },
         {
@@ -181,7 +183,8 @@
             "ru": "Что такое контролируемая нагрузка для шестигранных гаек?",
             "ar": "ما حمل الإثبات للصواميل السداسية؟",
             "es": "¿Qué es la carga de prueba para tuercas hexagonales?",
-            "fr": "Que représente la charge d'épreuve d'un écrou hex ?"
+            "fr": "Que représente la charge d'épreuve d'un écrou hex ?",
+            "pt": "O que é carga de prova em porcas sextavadas?"
           },
           "a": {
             "en": "Proof load is the maximum load a nut can withstand without thread stripping. For A4-80 (316 stainless), proof load is 800 MPa × stress area = the load at which permanent deformation occurs.",
@@ -190,7 +193,8 @@
             "ru": "Proof load — максимальная нагрузка, которую гайка держит без срыва резьбы. Для A4-80 (нержавейка 316) она считается как 800 МПа на площадь сечения резьбы: это усилие, при котором возникает остаточная деформация. Запас под гайку закладывают относительно этого значения, а контрольную затяжку сверяют с классом болта, чтобы резьба не разрушалась раньше самой соединяемой детали.",
             "ar": "حمل الإثبات هو أقصى حمل تتحمله الصامولة دون تقشير الخيط. بالنسبة لـ A4-80 (فولاذ 316)، يساوي حمل الإثبات 800 مضروبًا في مساحة الإجهاد، وهو الحمل الذي يحدث عنده تشوه دائم.",
             "es": "La carga de prueba es la carga máxima que una tuerca soporta sin pelar la rosca. Para A4-80 (inoxidable 316), la carga de prueba es 800 MPa por área de tensión = la carga a la que aparece la deformación permanente. Ese valor marca el límite antes de que la rosca falle.",
-            "fr": "La charge d'épreuve est la charge maximale qu'un écrou supporte sans éraflure de filetage. Pour l'A4-80 (inox 316), la charge d'épreuve vaut 800 MPa multipliée par la surface de contrainte : c'est la charge à laquelle apparaît une déformation permanente. Cette valeur conditionne la sélection de l'écrou sous la reprise de charge prévue."
+            "fr": "La charge d'épreuve est la charge maximale qu'un écrou supporte sans éraflure de filetage. Pour l'A4-80 (inox 316), la charge d'épreuve vaut 800 MPa multipliée par la surface de contrainte : c'est la charge à laquelle apparaît une déformation permanente. Cette valeur conditionne la sélection de l'écrou sous la reprise de charge prévue.",
+            "pt": "A carga de prova é a carga máxima que uma porca suporta sem rasgar a rosca. No A4-80 (inoxidável 316), a carga de prova é 800 MPa multiplicado pela área de tensão, o limite em que ocorre deformação permanente. A carga é conferida na ficha da classe, e a porca é casada com o parafuso da mesma família inoxidável."
           }
         },
         {
@@ -201,7 +205,8 @@
             "ru": "Какую нержавеющую сталь брать для побережья и химии?",
             "ar": "أي درجة فولاذ مقاوم للصدأ للتعرض الساحلي أو الكيميائي؟",
             "es": "¿Qué grado inoxidable para exposición costera o química?",
-            "fr": "Quelle nuance inox pour l'exposition côtière ou chimique ?"
+            "fr": "Quelle nuance inox pour l'exposition côtière ou chimique ?",
+            "pt": "Qual grau inoxidável para exposição costeira ou química?"
           },
           "a": {
             "en": "A4/316 for chloride, marine and most chemical service, A2/304 for general outdoor and food-adjacent work. The grade on the nut must match the bolt, otherwise the couple accelerates corrosion at the joint.",
@@ -210,7 +215,8 @@
             "ru": "Под хлористую, морскую и большую часть химической среды идёт A4/316; для обычных уличных работ и контакта с пищевыми средами достаточно A2/304. Марка на гайке должна совпадать с маркой болта, иначе разнородная пара ускоряет коррозию в самом стыке. Перед заказом сверьте среду эксплуатации, контакт с водой и покрытие, чтобы класс подбирался под узел целиком.",
             "ar": "الدرجة A4/316 للكلوريدات والخدمة البحرية ومعظم البيئات الكيميائية، وA2/304 للاستخدام الخارجي العام والأعمال القريبة من المواد الغذائية. ويجب أن تتطابق درجة الصامولة مع البرغي، وإلا عجّل الزوج التآكل في الوصلة.",
             "es": "A4/316 para cloruros, servicio marino y la mayoría de medios químicos, A2/304 para exterior general y trabajo próximo a alimentos. El grado de la tuerca debe coincidir con el perno, de otro modo la pareja acelera la corrosión en la unión. El material se empareja entre las dos piezas.",
-            "fr": "A4/316 pour le chlorure, le milieu marin et la plupart des services chimiques, A2/304 pour l'extérieur courant et les travaux au contact alimentaire. La nuance de l'écrou doit correspondre à celle du boulon, sinon le couple accélère la corrosion au joint. L'association inox/inox évite ce déséquilibre galvanique."
+            "fr": "A4/316 pour le chlorure, le milieu marin et la plupart des services chimiques, A2/304 pour l'extérieur courant et les travaux au contact alimentaire. La nuance de l'écrou doit correspondre à celle du boulon, sinon le couple accélère la corrosion au joint. L'association inox/inox évite ce déséquilibre galvanique.",
+            "pt": "A4/316 para cloreto, serviço marinho e a maioria dos meios químicos; A2/304 para exterior geral e trabalho adjacente a alimentos. O grau na porca deve casar com o parafuso, senão o par acelera a corrosão na junta. O material segue a exposição, e a compatibilidade é conferida no conjunto da ligação."
           }
         }
       ],
