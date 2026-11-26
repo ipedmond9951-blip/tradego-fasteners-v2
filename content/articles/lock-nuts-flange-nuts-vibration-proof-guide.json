@@ -216,7 +216,8 @@
             "es": "¿Pueden reutilizarse las tuercas autoblocantes de inserto de nylon?",
             "fr": "Les écrous freinants à insert nylon peuvent-ils être réutilisés ?",
             "pt": "As porcas autoblocantes com inserção de nylon podem ser reutilizadas?",
-            "de": "Können Nylon-Sicherungsmuttern wiederverwendet werden?"
+            "de": "Können Nylon-Sicherungsmuttern wiederverwendet werden?",
+            "ja": "ナイロン嵌め込みロックナットは再利用できますか？"
           },
           "a": {
             "en": "Yes, nylon insert nuts can be reused approximately 15-20 times before the nylon loses its grip. Mark or discard after extended reuse cycles.",
@@ -227,7 +228,8 @@
             "es": "Sí, las tuercas de inserto de nylon pueden reutilizarse unas 15-20 veces antes de que el nylon pierda agarre. Marque o descarte la pieza tras ciclos prolongados de reutilización. Si el inserto aparece agrietado, deformado o vidriado, sustitúyala de inmediato, aunque queden usos teóricos por delante.",
             "fr": "Oui, les écrous à insert nylon peuvent être réutilisés une quinzaine à une vingtaine de cycles avant que le nylon ne perde sa préhension. Marquer ou jeter après des cycles de réemploi prolongés. L'état de l'insert conditionne la possibilité d'une nouvelle pose.",
             "pt": "Sim, as porcas com inserção de nylon podem ser reutilizadas cerca de 15 a 20 vezes antes de o nylon perder a aderência. Marque ou descarte após ciclos prolongados de reuso. O número de ciclos é conferido pelo estado da inserção, e as porcas desgastadas são substituídas na manutenção da ligação.",
-            "de": "Ja, Nylonringmuttern lassen sich etwa 15 bis 20 Mal wiederverwenden, bevor der Nylonring seinen Halt verliert. Kennzeichnen oder entsorgen Sie sie nach längeren Wiederverwendungszyklen."
+            "de": "Ja, Nylonringmuttern lassen sich etwa 15 bis 20 Mal wiederverwenden, bevor der Nylonring seinen Halt verliert. Kennzeichnen oder entsorgen Sie sie nach längeren Wiederverwendungszyklen.",
+            "ja": "はい、ナイロンの食い付きが失われるまでおよそ 15 から 20 回程度再利用できます。長く繰り返し使ったものは印を付けるか廃棄してください。再締めにナイロンリングの締まりが弱くなったら新しいナットへ交換し、再利用回数を現場で管理してください。"
           }
         },
         {
@@ -240,7 +242,8 @@
             "es": "¿A qué temperatura fallan las tuercas de inserto de nylon?",
             "fr": "À quelle température les écrous à insert nylon lâchent-ils ?",
             "pt": "A que temperatura as porcas de inserção de nylon falham?",
-            "de": "Ab welcher Temperatur versagen Nylonringmuttern?"
+            "de": "Ab welcher Temperatur versagen Nylonringmuttern?",
+            "ja": "ナイロン嵌め込みナットは何度で性能が落ちますか？"
           },
           "a": {
             "en": "Standard nylon insert nuts begin losing effectiveness above 120°C. High-temperature versions (with heat stabilizers) are good to 200°C.",
@@ -251,7 +254,8 @@
             "es": "Las tuercas estándar de inserto de nylon empiezan a perder eficacia por encima de 120 °C. Las versiones de alta temperatura, con estabilizadores térmicos, aguantan hasta 200 °C. Por encima de ese rango el inserto se relaja y deja de bloquear la rosca, por lo que se elige otro tipo de bloqueo.",
             "fr": "Les écrous à insert nylon standard commencent à perdre leur efficacité au-dessus de 120 °C. Les versions haute température (avec stabilisants thermiques) tiennent jusqu'à 200 °C. La plage de température de l'insert fixe l'usage admissible de l'écrou freinant.",
             "pt": "As porcas padrão com inserção de nylon começam a perder eficácia acima de 120 °C. As versões de alta temperatura, com estabilizantes de calor, resistem até 200 °C. A temperatura de serviço é conferida na ficha da porca, e a escolha segue o regime térmico da ligação.",
-            "de": "Normale Nylonringmuttern beginnen oberhalb von 120 °C ihre Wirkung zu verlieren. Hochtemperaturversionen mit Wärmestabilisatoren halten dagegen bis 200 °C, und sie sind für diese heißen Einsätze vorzusehen."
+            "de": "Normale Nylonringmuttern beginnen oberhalb von 120 °C ihre Wirkung zu verlieren. Hochtemperaturversionen mit Wärmestabilisatoren halten dagegen bis 200 °C, und sie sind für diese heißen Einsätze vorzusehen.",
+            "ja": "標準のナイロン嵌め込みナットは 120 ℃ を超えると効き目を失い始めます。耐熱安定剤を入れた高温仕様は 200 ℃ まで使えます。長期の高温暴露では樹脂の弾力が失われやすく、直射日光下の暴露も劣化を早めるため、最高温度を仕様に照合してください。"
           }
         },
         {
@@ -264,7 +268,8 @@
             "es": "¿A qué temperatura falla el inserto de nylon?",
             "fr": "À quelle température l'insert nylon cède-t-il ?",
             "pt": "A que temperatura o inserto de nylon falha?",
-            "de": "Bei welcher Temperatur versagt der Nylonring?"
+            "de": "Bei welcher Temperatur versagt der Nylonring?",
+            "ja": "ナイロン嵌め込みは何度で機能しなくなりますか？"
           },
           "a": {
             "en": "Nylon softens well below metal limits, so lock nuts are not for hot service - exhaust, furnace and high-temperature machinery need all-metal lock nuts or a different locking method.",
@@ -275,7 +280,8 @@
             "es": "El nylon se ablanda muy por debajo de los límites del metal, de modo que las tuercas autoblocantes no sirven para servicio en caliente: escape, horno y maquinaria de alta temperatura necesitan tuercas autoblocantes totalmente metálicas u otro método de bloqueo. La elección se confirma con la temperatura continua de la unión.",
             "fr": "Le nylon ramollit bien avant les limites du métal, donc les écrous freinants ne conviennent pas au service chaud : échappement, four et machines haute température exigent des écrous freinants tout métal ou un autre moyen de blocage. Un milieu chaud exclut l'insert polymère du joint.",
             "pt": "O amolecimento do nylon ocorre bem abaixo dos limites do metal, por isso as porcas autoblocantes não servem serviço quente: escapamento, fornalha e máquinas de alta temperatura precisam de porcas metálicas autoblocantes ou de outro método de travamento. O material segue a temperatura, e a porca é conferida contra o regime térmico do equipamento.",
-            "de": "Nylon erweicht weit unter den Metallgrenzen, daher sind Sicherungsmuttern nicht für heiße Einsätze – Abgasanlage, Ofen und Hochtemperaturmaschinen brauchen Metall-Sicherungsmuttern oder eine andere Sicherungsart."
+            "de": "Nylon erweicht weit unter den Metallgrenzen, daher sind Sicherungsmuttern nicht für heiße Einsätze – Abgasanlage, Ofen und Hochtemperaturmaschinen brauchen Metall-Sicherungsmuttern oder eine andere Sicherungsart.",
+            "ja": "ナイロンは金属の限界よりずっと低い温度で軟化するため、ロックナットは高温用途には向きません。排気、炉、高温の機械には全金属製ロックナットか別のゆるみ止め方式が必要です。高温部のゆるみ止めには金属製の保持機構を選び、接続部の温度を確認して種類を決めてください。"
           }
         }
       ],
