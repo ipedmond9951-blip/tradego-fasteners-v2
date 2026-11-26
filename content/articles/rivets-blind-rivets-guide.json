@@ -202,7 +202,8 @@
             "es": "¿Cuándo conviene usar remaches ciegos en lugar de tornillos?",
             "pt": "Quando usar rebites cegos em vez de parafusos?",
             "fr": "Quand utiliser des rivets aveugles plutôt que des vis ?",
-            "de": "Wann verwende ich Blindnieten statt Schrauben?"
+            "de": "Wann verwende ich Blindnieten statt Schrauben?",
+            "ja": "ねじの代わりにブラインドリベットを使うのはどんな場合ですか？"
           },
           "a": {
             "en": "Blind rivets are ideal when: only one side is accessible, you need rapid installation, the joint is non-critical and non-structural, or you need a clean appearance without protruding fasteners.",
@@ -213,7 +214,8 @@
             "es": "Los remaches ciegos son ideales cuando solo se accede por un lado, se necesita una instalación rápida, la unión no es crítica ni estructural, o se busca un aspecto limpio sin piezas salientes. No sustituyen a los elementos de fijación que llevan carga estructural. La elección se confirma con el material y el grosor de las dos chapas.",
             "pt": "Os rebites cegos são ideais quando: só um lado está acessível, precisa-se de instalação rápida, a junta é não crítica e não estrutural, ou se deseja um acabamento limpo sem fixadores salientes. Em conexões estruturais ou sujeitas a carga pesada, usam-se parafusos ou rebites estruturais. A escolha parte do acesso à junta e da função do conjunto, não apenas da velocidade de montagem.",
             "fr": "Les rivets aveugles conviennent quand un seul côté est accessible, que la pose doit être rapide, que le joint est non critique et non structurel, ou qu'on veut un aspect propre sans fixation qui dépasse. Ils se posent depuis l'extérieur et ne demandent pas d'accès arrière. En revanche, pour une liaison porteuse ou soumise à vibration, préférez un boulon ou une vis adapté. Le choix se fait selon l'accès, la charge et l'aspect attendu.",
-            "de": "Blindnieten eignen sich, wenn nur eine Seite zugänglich ist, die Montage schnell gehen soll, die Verbindung nicht kritisch und nicht tragend ist, oder eine saubere Ansicht ohne hervorstehende Befestigung gewünscht wird. Für eine tragende oder schwingungsbelastete Verbindung nimmt man besser einen Bolzen oder eine passende Schraube. Die Wahl richtet sich nach Zugang, Last und gewünschter Optik."
+            "de": "Blindnieten eignen sich, wenn nur eine Seite zugänglich ist, die Montage schnell gehen soll, die Verbindung nicht kritisch und nicht tragend ist, oder eine saubere Ansicht ohne hervorstehende Befestigung gewünscht wird. Für eine tragende oder schwingungsbelastete Verbindung nimmt man besser einen Bolzen oder eine passende Schraube. Die Wahl richtet sich nach Zugang, Last und gewünschter Optik.",
+            "ja": "片側からしかアクセスできない、迅速な施工が必要、接合が非構造で重要でない、突起のない滑らかな仕上げが欲しい場合に適します。ブラインドリベットは裏側の作業を省けるため薄板の組立てに向きます。構造荷重を担う接合には使わず、用途と相手材の厚さを確認してください。"
           }
         },
         {
@@ -226,7 +228,8 @@
             "es": "¿Cuál es la resistencia al corte de un remache ciego?",
             "pt": "Qual a resistência ao cisalhamento dos rebites cegos?",
             "fr": "Quelle est la résistance au cisaillement des rivets aveugles ?",
-            "de": "Wie groß ist die Scherfestigkeit von Blindnieten?"
+            "de": "Wie groß ist die Scherfestigkeit von Blindnieten?",
+            "ja": "ブラインドリベットのせん断強さはどのくらいですか？"
           },
           "a": {
             "en": "Varies by material and diameter. Typical values: 3.2mm aluminum: 200kg, 4.0mm aluminum: 350kg, 4.8mm steel: 500kg, 4.8mm stainless: 400kg. Check manufacturer specifications for your specific rivet.",
@@ -237,7 +240,8 @@
             "es": "Varía según material y diámetro. Valores típicos: aluminio 3,2 mm: 200 kg; aluminio 4,0 mm: 350 kg; acero 4,8 mm: 500 kg; inoxidable 4,8 mm: 400 kg. Compruebe las especificaciones del fabricante para su remache concreto. La carga de diseño debe quedar por debajo del valor de corte indicado en la ficha.",
             "pt": "Varia por material e diâmetro. Valores típicos: alumínio 3,2 mm, 200 kg; alumínio 4,0 mm, 350 kg; aço 4,8 mm, 500 kg; inoxidável 4,8 mm, 400 kg. Confere-se a especificação do fabricante para o rebite específico. A carga de trabalho é verificada contra a ficha técnica, e o rebite não é usado em junta onde a resistência estrutural é critério de segurança.",
             "fr": "Elle varie selon le matériau et le diamètre. Valeurs typiques : aluminium 3,2 mm environ 200 kg, aluminium 4,0 mm environ 350 kg, acier 4,8 mm environ 500 kg, inox 4,8 mm environ 400 kg. Consultez les spécifications du fabricant pour le rivet précis que vous retenez. La résistance dépend aussi de l'épaisseur assemblée et de la qualité de pose. Ne comparez pas deux rivets sans leur diamètre et leur matière.",
-            "de": "Sie hängt von Material und Durchmesser ab. Typische Werte: Aluminium 3,2 mm etwa 200 kg, Aluminium 4,0 mm etwa 350 kg, Stahl 4,8 mm etwa 500 kg, Edelstahl 4,8 mm etwa 400 kg. Prüfen Sie die Herstellerangaben für den jeweiligen Niet. Die Festigkeit hängt auch von der Stärke der verbundenen Teile und der Montagequalität ab. Vergleichen Sie zwei Nieten nur mit Durchmesser und Material."
+            "de": "Sie hängt von Material und Durchmesser ab. Typische Werte: Aluminium 3,2 mm etwa 200 kg, Aluminium 4,0 mm etwa 350 kg, Stahl 4,8 mm etwa 500 kg, Edelstahl 4,8 mm etwa 400 kg. Prüfen Sie die Herstellerangaben für den jeweiligen Niet. Die Festigkeit hängt auch von der Stärke der verbundenen Teile und der Montagequalität ab. Vergleichen Sie zwei Nieten nur mit Durchmesser und Material.",
+            "ja": "材質と呼び径で変わります。代表値として、アルミ3.2mm、アルミ4.0mm、鋼4.8mm、ステンレス4.8mmでそれぞれ異なるせん断荷重になります。詳しい値は製造元の仕様書で該当リベットを確認してください。相手材の厚さと荷重に合った呼び径と材質を選びます。"
           }
         },
         {
@@ -250,7 +254,8 @@
             "es": "¿Pueden quitarse los remaches ciegos?",
             "pt": "Os rebites cegos podem ser removidos?",
             "fr": "Les rivets aveugles peuvent-ils être retirés ?",
-            "de": "Lassen sich Blindnieten wieder entfernen?"
+            "de": "Lassen sich Blindnieten wieder entfernen?",
+            "ja": "ブラインドリベットは取り外せますか？"
           },
           "a": {
             "en": "Yes, by drilling out the set rivet body. Use a drill slightly smaller than the original hole to avoid damaging the parent material.",
@@ -261,7 +266,8 @@
             "es": "Sí, perforando el cuerpo del remache ya colocado. Use una broca algo menor que el agujero original para no dañar el material base. Después de quitar el remache, revise el agujero por si hay rasguños o deformación antes de colocar la pieza nueva. En chapas finas conviene pasar una broca de limpieza suave.",
             "pt": "Sim, perfurando-se o corpo do rebite já fechado. Usa-se uma broca ligeiramente menor que o furo original, para não danificar o material base. Após a remoção, o furo pode precisar ser preenchido ou aproveitado para um parafuso. A operação é destrutiva e não permite reuso do rebite original, e a peça substituída é inspecionada antes de nova fixação.",
             "fr": "Oui, en perçant le corps du rivet posé. Utilisez un foret légèrement plus petit que le trou d'origine pour ne pas endommager le matériau de base. Après retrait, le trou reste et devra être rebouché ou repris par un boulon de remplacement. Le rivet retiré ne se réutilise pas. Prévoyez cette étape si l'assemblage doit pouvoir être démonté plus tard.",
-            "de": "Ja, indem der gesetzte Nietkörper ausgebohrt wird. Verwenden Sie einen Bohrer etwas kleiner als das ursprüngliche Loch, um das Grundmaterial nicht zu beschädigen. Nach dem Ausbau bleibt das Loch und muss wieder verschlossen oder durch einen Ersatzbolzen aufgenommen werden. Der entfernte Niet kann nicht wiederverwendet werden. Planen Sie diesen Schritt ein, falls die Verbindung später demontiert werden muss."
+            "de": "Ja, indem der gesetzte Nietkörper ausgebohrt wird. Verwenden Sie einen Bohrer etwas kleiner als das ursprüngliche Loch, um das Grundmaterial nicht zu beschädigen. Nach dem Ausbau bleibt das Loch und muss wieder verschlossen oder durch einen Ersatzbolzen aufgenommen werden. Der entfernte Niet kann nicht wiederverwendet werden. Planen Sie diesen Schritt ein, falls die Verbindung später demontiert werden muss.",
+            "ja": "はい、かしめたリベット本体をドリルで抜くことで取り外せます。元の穴より少し細いドリルを使い、母材を傷つけないようにします。外した跡の穴と母材を点検し、再施工の可否を判断してください。用途ごとに仕様を分け、必要な品質を満たす範囲で選定してください。現場の条件を記録し、同じ仕様を繰り返し使うことで、供給と管理を安定させられます。"
           }
         },
         {
@@ -274,7 +280,8 @@
             "es": "¿Qué diferencia hay entre remache de extremo abierto y cerrado?",
             "pt": "Qual a diferença entre rebite aberto e de fechamento fechado?",
             "fr": "Quelle différence entre rivet ouvert et rivet fermé ?",
-            "de": "Was unterscheidet offene und geschlossene Nieten?"
+            "de": "Was unterscheidet offene und geschlossene Nieten?",
+            "ja": "オープン型とクローズド型のリベットの違いは何ですか？"
           },
           "a": {
             "en": "Open-end: Hollow rivet body, lighter, less expensive, suitable for general use. Closed-end: Sealed end prevents water/particle entry, essential for watertight applications.",
@@ -285,7 +292,8 @@
             "es": "Abierto: cuerpo hueco, más ligero y económico, apto para uso general. Cerrado: el extremo sellado impide la entrada de agua y partículas, y es esencial para aplicaciones estancas. En exteriores o zonas con lavado, el remache cerrado protege la unión interior de la humedad.",
             "pt": "Rebite aberto: corpo oco, mais leve e mais barato, adequado para uso geral. Rebite de fechamento fechado: ponta vedada impede entrada de água e partículas, essencial em aplicações estanques. A escolha segue a exposição a líquidos ou poeira e a necessidade de vedação da junta. O tipo é declarado na especificação do conjunto e conferido na inspeção de recebimento.",
             "fr": "Le rivet ouvert a un corps creux : il est plus léger et moins cher, et convient à l'usage général. Le rivet fermé a un bout étanche qui empêche l'entrée d'eau et de particules ; il est indispensable pour les applications étanches. Le choix suit l'exposition à l'humidité et aux liquides. Pour une enveloppe extérieure ou un réservoir, le modèle fermé est le plus sûr.",
-            "de": "Der offene Niet hat einen hohlen Körper: er ist leichter und günstiger und für den allgemeinen Gebrauch geeignet. Der geschlossene Niet hat ein abgedichtetes Ende, das Wasser und Partikel abhält; er ist für dichte Anwendungen unverzichtbar. Die Wahl folgt der Einwirkung von Feuchte und Flüssigkeiten. Für eine Außenhülle oder einen Behälter ist das geschlossene Modell die sichere Wahl."
+            "de": "Der offene Niet hat einen hohlen Körper: er ist leichter und günstiger und für den allgemeinen Gebrauch geeignet. Der geschlossene Niet hat ein abgedichtetes Ende, das Wasser und Partikel abhält; er ist für dichte Anwendungen unverzichtbar. Die Wahl folgt der Einwirkung von Feuchte und Flüssigkeiten. Für eine Außenhülle oder einen Behälter ist das geschlossene Modell die sichere Wahl.",
+            "ja": "オープン型は本体が中空で軽量、価格も抑えられ一般用途に適します。クローズド型は端部が密封され、水や粒子の侵入を防ぐため、水密が必要な箇所に不可欠です。暴露環境と止水の要否で型式を選び、相手材の厚さに合うかしめ範囲を確認してください。環境と相手材を確認し、記録を残して手順を守ることで、後の不具合を減らせます。"
           }
         },
         {
@@ -298,7 +306,8 @@
             "es": "¿Por qué falló mi remache durante la instalación?",
             "pt": "Por que meu rebite falhou durante a instalação?",
             "fr": "Pourquoi mon rivet a-t-il lâché au montage ?",
-            "de": "Warum ist mein Niet bei der Montage ausgefallen?"
+            "de": "Warum ist mein Niet bei der Montage ausgefallen?",
+            "ja": "施工中にリベットが失敗する原因は何ですか？"
           },
           "a": {
             "en": "Common causes: wrong rivet for material thickness, dull rivet tool, damaged rivet, or defective rivet batch. Check tool condition and rivet grip range.",
@@ -309,7 +318,8 @@
             "es": "Causas frecuentes: remache equivocado para el grosor del material, herramienta de remachado desgastada, remache dañado o lote defectuoso. Revise el estado de la herramienta y el rango de agarre del remache. Si la cabeza no forma bien, compruebe la boquilla y el material antes de seguir con la siguiente pieza.",
             "pt": "Causas comuns: rebite errado para a espessura do material, ferramenta de rebite desgastada, rebite danificado, ou lote defeituoso. Confere-se a condição da ferramenta e a faixa de aperto do rebite. O tipo e diâmetro do rebite devem bater com a espessura total da junta, e o lote é verificado se a falha se repete em várias peças.",
             "fr": "Causes fréquentes : rivet inadapté à l'épaisseur du matériau, outil de rivetage émoussé, rivet endommagé ou lot défectueux. Vérifiez l'état de l'outil et la plage de serrage du rivet avant de continuer. Également, une épaisseur assemblée hors gamme fait mal former le corps. Un essai sur pièce témoin permet de confirmer le réglage avant la série.",
-            "de": "Häufige Gründe: falscher Niet für die Materialstärke, stumpfes Nietwerkzeug, beschädigter Niet oder fehlerhaftes Nietlos. Prüfen Sie den Zustand des Werkzeugs und den Klemmbereich des Niets, bevor Sie weitermachen. Auch eine außerhalb der Bandbreite liegende Materialstärke formt den Körper nicht richtig. Ein Probeversuch an einem Muster bestätigt die Einstellung vor der Serie."
+            "de": "Häufige Gründe: falscher Niet für die Materialstärke, stumpfes Nietwerkzeug, beschädigter Niet oder fehlerhaftes Nietlos. Prüfen Sie den Zustand des Werkzeugs und den Klemmbereich des Niets, bevor Sie weitermachen. Auch eine außerhalb der Bandbreite liegende Materialstärke formt den Körper nicht richtig. Ein Probeversuch an einem Muster bestätigt die Einstellung vor der Serie.",
+            "ja": "相手材の厚さに合わないリベット、工具の摩耗、リベットの損傷、不良ロットがよくある原因です。工具の状態とリベットのかしめ範囲を確認してください。同じ不具合が繰り返す場合はロットと工具の両方を点検し、不良品を混入させないでください。書類と現物を照合し、納品までの工程を整えておくと、現場の手間を抑えられます。"
           }
         }
       ]
