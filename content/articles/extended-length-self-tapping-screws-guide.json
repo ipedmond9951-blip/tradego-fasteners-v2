@@ -161,7 +161,8 @@
             "ru": "Какую длину самореза брать для наружной теплоизоляционной плиты?",
             "ar": "ما طول البرغي للوحة العزل الخارجية؟",
             "es": "¿Qué longitud de tornillo para placa aislante exterior?",
-            "fr": "Quelle longueur de vis pour panneau isolant extérieur ?"
+            "fr": "Quelle longueur de vis pour panneau isolant extérieur ?",
+            "pt": "Qual o comprimento do parafuso para placa de isolamento externa?"
           },
           "a": {
             "en": "Calculate: insulation thickness + sheathing thickness + minimum embedment into substrate (steel: 25mm, wood: 40mm). Add 5-10mm for washer thickness. For example: 100mm insulation + 12mm OSB + 25mm steel stud = 137mm + washer = specify 150mm.",
@@ -170,7 +171,8 @@
             "ru": "Считайте: толщина утеплителя плюс толщина обшивки плюс минимальное заглубление в основание (сталь 25 мм, древесина 40 мм), добавьте 5–10 мм на толщину шайбы. Пример: 100 мм утеплителя + 12 мм OSB + 25 мм в стальной профиль = 137 мм, плюс шайба, под заказ идёт 150 мм.",
             "ar": "احسب: سماكة العزل + سماكة الغلاف + الحد الأدنى للثبيت في الركيزة، 25 مم في الفولاذ و40 مم في الخشب. وأضف 5 إلى 10 مم لسماكة الغسالة. مثال: عزل 100 مم + OSB 12 مم + دعامة فولاذية 25 مم = 137 مم مع الغسالة، فيُحدد مقاس 150 مم. وتحقق من عدم ملامسة الطرف لأسلاك أو أنابيب خلف الركيزة قبل التثبيت.",
             "es": "Calcule: grosor del aislante más grosor del revestimiento más empotramiento mínimo en el soporte (acero: 25 mm, madera: 40 mm). Añada 5-10 mm por el grosor de la arandela. Por ejemplo: 100 mm de aislante + 12 mm de OSB + 25 mm de montante de acero = 137 mm, más arandela, y se especifica 150 mm. La suma de capas define la longitud real del tornillo.",
-            "fr": "On détermine la longueur voulue en additionnant l'épaisseur de l'isolant, l'épaisseur du contreventement et l'encastrement minimal dans le support : 25 mm pour l'acier et 40 mm pour le bois. On ajoute ensuite 5 à 10 mm pour l'épaisseur de la rondelle. Par exemple, 100 mm d'isolant + 12 mm d'OSB + 25 mm de montant acier donnent 137 mm, rondelle comprise, et l'on spécifie une vis de 150 mm."
+            "fr": "On détermine la longueur voulue en additionnant l'épaisseur de l'isolant, l'épaisseur du contreventement et l'encastrement minimal dans le support : 25 mm pour l'acier et 40 mm pour le bois. On ajoute ensuite 5 à 10 mm pour l'épaisseur de la rondelle. Par exemple, 100 mm d'isolant + 12 mm d'OSB + 25 mm de montant acier donnent 137 mm, rondelle comprise, et l'on spécifie une vis de 150 mm.",
+            "pt": "Calcula-se: espessura do isolamento + espessura do revestimento + embebição mínima no substrato (aço: 25 mm, madeira: 40 mm). Acrescentam-se 5 a 10 mm para a espessura da arruela. No exemplo: 100 mm de isolamento + 12 mm de OSB + 25 mm na estrutura de aço dá 137 mm, mais a arruela, e especifica-se 150 mm."
           }
         },
         {
@@ -181,7 +183,8 @@
             "ru": "Почему саморезы для ванной комнаты нужны из нержавеющей стали?",
             "ar": "لماذا تحتاج براغي الحمام إلى فولاذ مقاوم للصدأ؟",
             "es": "¿Por qué los tornillos de baño deben ser de acero inoxidable?",
-            "fr": "Pourquoi les vis de salle de bain doivent-elles être en inox ?"
+            "fr": "Pourquoi les vis de salle de bain doivent-elles être en inox ?",
+            "pt": "Por que os parafusos de banheiro precisam ser inoxidáveis?"
           },
           "a": {
             "en": "Bathrooms have high humidity and chlorides from cleaning products. Standard steel rusts quickly, causing staining and eventual failure. 304 stainless resists bathroom conditions adequately.",
@@ -190,7 +193,8 @@
             "ru": "В ванной комнате высокая влажность и хлориды из моющих средств. Обычная сталь быстро ржавеет, оставляет пятна и в итоге теряет несущую способность. Нержавеющая сталь 304 вполне выдерживает условия ванной, а для более жёсткой среды смотрите марку выше.",
             "ar": "الحمامات رطوبة عالية وكلوريدات من مواد التنظيف. والفولاذ العادي يصدأ بسرعة مسبباً بقع الفشل النهائي. وستانلس 304 يقاوم ظروف الحمام بقدر كافٍ. وفي حالات التعرض المتكرر للماء والمنظفات ارفع الدرجة إلى A4/316، وأختر خيطاً وغسالة من نفس مادة مقاومة التآكل لتجنب التآكل الجلفاني.",
             "es": "Los baños tienen alta humedad y cloruros de los productos de limpieza. El acero estándar oxida rápido, causando manchas y fallo eventual. El inoxidable 304 responde adecuadamente a las condiciones del baño. El ambiente húmedo es lo que exige el material resistente a la oxidación.",
-            "fr": "La salle de bain cumule forte humidité et chlorures des produits d'entretien. L'acier standard rouille vite, provoquant des taches puis une défaillance à terme. L'inox 304 résiste convenablement aux conditions de salle de bain. Un environnement humide et chloruré justifie la montée en matériau inoxydable."
+            "fr": "La salle de bain cumule forte humidité et chlorures des produits d'entretien. L'acier standard rouille vite, provoquant des taches puis une défaillance à terme. L'inox 304 résiste convenablement aux conditions de salle de bain. Un environnement humide et chloruré justifie la montée en matériau inoxydable.",
+            "pt": "Banheiros têm umidade alta e cloretos de produtos de limpeza. O aço comum enferruja rápido, causando manchas e falha eventual. O inoxidável 304 resiste adequadamente às condições de banheiro. A escolha do material segue a umidade e os cloretos do ambiente, e a superfície do parafuso é inspecionada na recepção da carga."
           }
         },
         {
@@ -201,7 +205,8 @@
             "ru": "Почему крепёж во влажном помещении нуждается в нержавеющих саморезах?",
             "ar": "لماذا تحتاج تثبيتات الحمام إلى براغي ستانلس؟",
             "es": "¿Por qué las fijaciones de baño necesitan tornillos inoxidables?",
-            "fr": "Pourquoi les fixations de zone humide doivent-elles être en inox ?"
+            "fr": "Pourquoi les fixations de zone humide doivent-elles être en inox ?",
+            "pt": "Por que os fixadores de área úmida precisam de aço inoxidável?"
           },
           "a": {
             "en": "Because wet service attacks zinc coatings at the cut edges and the screw head, and a failed fixing in a wet area means a leak path. A2/304 is the practical minimum; A4/316 for chlorine and salt exposure.",
@@ -210,7 +215,8 @@
             "ru": "Потому что влажная среда разрушает цинковое покрытие на срезах и у головки самореза, а вышедший из строя крепёж во влажном месте создаёт путь протечки. A2/304 — практический минимум; A4/316 берут при воздействии хлора и соли.",
             "ar": "لأن الخدمة الرطبة تهاجم طلاء الزنك عند حواف القطع ورأس البرغي، والثبيت الفاشل في منطقة رطبة يعني مسرب تسرب. وA2/304 هو الحد العملي الأدنى، وA4/316 عند التعرض للكلور والملح. وأختر مثبتات مجلفنة للجفف فقط، وأبعدها عن مناطق التلامس المباشر مع الماء في الحمام.",
             "es": "Porque el servicio húmedo ataca los recubrimientos de zinc en los bordes cortados y la cabeza del tornillo, y una fijación fallida en una zona mojada abre una vía de fuga. A2/304 es el mínimo práctico; A4/316 para exposición a cloro y sal. El material se elige según el contacto con humedad y productos químicos.",
-            "fr": "Parce que le service humide attaque les revêtements de zinc aux bords coupés et à la tête de vis, et qu'une fixation défaillante en zone humide crée un chemin de fuite. A2/304 est le minimum pratique ; A4/316 pour l'exposition au chlore et au sel. Le degré d'humidité et de chlorure fixe la nuance requise."
+            "fr": "Parce que le service humide attaque les revêtements de zinc aux bords coupés et à la tête de vis, et qu'une fixation défaillante en zone humide crée un chemin de fuite. A2/304 est le minimum pratique ; A4/316 pour l'exposition au chlore et au sel. Le degré d'humidité et de chlorure fixe la nuance requise.",
+            "pt": "Porque o serviço úmido ataca os revestimentos de zinco nas arestas cortadas e na cabeça, e um fixador falho em área úmida vira caminho de infiltração. A2/304 é o mínimo prático; A4/316 para exposição a cloro e sal. O grau inoxidável é escolhido pela exposição química, e a proteção é verificada no lote do fixador."
           }
         }
       ],
