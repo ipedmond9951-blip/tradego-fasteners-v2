@@ -199,7 +199,9 @@
             "hi": "स्लिप-क्रिटिकल और बेयरिंग कनेक्शन में क्या अंतर है?",
             "ru": "Чем отличается соединение по трению от соединения по смятию?",
             "ar": "ما الفرق بين وصلات الاحتكاك ووصلات التحمل؟",
-            "es": "¿Qué diferencia hay entre una unión antideslizante y una de apoyo?"
+            "es": "¿Qué diferencia hay entre una unión antideslizante y una de apoyo?",
+            "pt": "Qual a diferença entre junta antiderrapante e junta de apoio?",
+            "fr": "Glissement ou appui, quelle différence ?"
           },
           "a": {
             "en": "A slip-critical connection carries load by friction between the clamped plates: the bolts are preloaded so that the plates do not move, and the hole never comes into bearing. A bearing connection lets the plates slip until the bolt presses against the hole wall, after which the load travels through bolt shear and plate bearing. The type decides the inspection: slip-critical is accepted on preload and records, bearing on hole size, edge distance and fit. It also decides the coating, because a slip-critical faying surface needs a known and stable slip resistance.",
@@ -207,7 +209,9 @@
             "hi": "स्लिप-क्रिटिकल कनेक्शन में बोल्ट प्री-लोड होते हैं, प्लेटें संपीड़ित घर्षण से भार उठाती हैं, छेद बेयरिंग में नहीं आता। बेयरिंग कनेक्शन में प्लेटें तब तक फिसलती हैं जब तक बोल्ट छेद की दीवार से नहीं टकराता, फिर भार बोल्ट की शियर और प्लेट बेयरिंग से जाता है। निरीक्षण भी अलग: स्लिप-क्रिटिकल को प्री-लोड व रिकॉर्ड पर, बेयरिंग को छेद आकार, किनारे दूरी और फिट पर; स्लिप-क्रिटिकल फेयिंग सरफेस का घर्षण ज्ञात व स्थिर होना चाहिए।",
             "ru": "Соединение по трению передаёт нагрузку через трение между стянутыми листами: болты затянуты предварительно (preload), листы не смещаются, отверстие не работает на смятие. В соединении по смятию листы сначала сдвигаются до упора болта в стенку отверстия, дальше нагрузка идёт через срез болта и смятие листа. Тип задаёт и приёмку: по трению принимают по затяжке и записям, по смятию — по диаметру отверстия, краевым расстояниям и прилеганию; он же задаёт покрытие, поскольку контактной поверхности по трению нужен стабильный коэффициент трения.",
             "ar": "في وصلة الاحتكاك (slip-critical) ينتقل الحمل بالاحتكاك بين الصفائح؛ يُشد البولت شدًا مسبقًا (preload) فلا تنزلق الصفائح، ولا يلامس البولت جدار الثقب. أما وصلة التحمل (bearing) فتنزلق الصفائح حتى يضغط على جدار الثقب، وينتقل الحمل بقص البولت وتحمل الصفيحة. نوع الوصلة يحدد أسلوب القبول: الاحتكاك يُقبل على الشد المسبق وسجلاته، والتحمل على مقاس الثقب والمسافة للحافة والتركيب. كما يحدد المعالجة السطحية، فسطح التلامس يحتاج مقاومة انزلاق معروفة ومستقرة.",
-            "es": "La unión antideslizante lleva la carga por fricción entre las placas abrazadas: los pernos se precargan para que las placas no se muevan. La de apoyo deja resbalar las placas hasta que el perno presiona la pared del agujero, y la carga va por cortante del perno y apoyo de la placa. El tipo define la inspección y el recubrimiento: la antideslizante se acepta por precarga y registros; la de apoyo, por tamaño de agujero, distancia al borde y ajuste."
+            "es": "La unión antideslizante lleva la carga por fricción entre las placas abrazadas: los pernos se precargan para que las placas no se muevan. La de apoyo deja resbalar las placas hasta que el perno presiona la pared del agujero, y la carga va por cortante del perno y apoyo de la placa. El tipo define la inspección y el recubrimiento: la antideslizante se acepta por precarga y registros; la de apoyo, por tamaño de agujero, distancia al borde y ajuste.",
+            "pt": "A junta antiderrapante transmite a carga por atrito entre as placas: os parafusos são pré-carregados para que as placas não se movam e o furo não entre em apoio. A de apoio deixa as placas deslizarem até o parafuso encostar na parede do furo, e então a carga passa pelo cisalhamento e pelo apoio da placa. O tipo define a inspeção: a antiderrapante é aceita pelo pré-carregamento, a de apoio pelo furo, pela distância de borda e pelo encaixe.",
+            "fr": "L'assemblage critique au glissement reprend la charge par frottement entre plaques serrées : les boulons sont prétensionnés pour que les plaques ne bougent pas et le trou n'entre jamais en appui. L'assemblage par appui laisse glisser les plaques jusqu'à ce que le boulon presse la paroi du trou ; ensuite la charge passe par le cisaillement et l'appui. Le type décide du contrôle et du revêtement de contact."
           }
         },
         {
@@ -217,7 +221,9 @@
             "hi": "क्या गैल्वनाइज़्ड बोल्ट स्लिप-क्रिटिकल जोड़ में इस्तेमाल हो सकते हैं?",
             "ru": "Допустимы ли горячеоцинкованные болты в соединении по трению?",
             "ar": "هل يمكن استخدام براغٍ مجلفنة في وصلة احتكاك؟",
-            "es": "¿Se pueden usar pernos galvanizados en una unión antideslizante?"
+            "es": "¿Se pueden usar pernos galvanizados en una unión antideslizante?",
+            "pt": "Parafusos galvanizados servem em junta antiderrapante?",
+            "fr": "Boulons galvanisés en joint critique au glissement ?"
           },
           "a": {
             "en": "They can, if the joint was designed for it. The controlling value is the slip resistance of the faying surface, and a hot-dip galvanised surface does not have the same slip resistance as a blast-cleaned or specially coated one. Where the design assumed a blast-cleaned surface and the fabricator galvanised the plates, the joint is no longer the joint that was calculated. The safe route is to decide the surface treatment at design stage, state it in the connection specification, and confirm with the engineer before substituting a coating on the faying faces.",
@@ -225,7 +231,9 @@
             "hi": "हो सकते हैं, बशर्ते जोड़ इसी के लिए डिज़ाइन किया गया हो। नियंत्रक मान फेयिंग सरफेस का स्लिप रेज़िस्टेंस है; हॉट-डिप गैल्वनाइज़्ड सतह का घर्षण ब्लास्ट-क्लीन या विशेष कोटिंग वाली सतह जितना नहीं होता। ब्लास्ट-क्लीन मानी गई सतह पर बाद में गैल्वनाइज़्ड करने से जोड़ वह नहीं रहता जिसकी गणना हुई थी। सतह उपचार डिज़ाइन चरण में तय करें, कनेक्शन स्पेसिफिकेशन में लिखें, और फेयिंग फेस पर कोटिंग बदलने से पहले इंजीनियर से पुष्टि लें।",
             "ru": "Допустимы, если соединение рассчитывалось под такое покрытие: решающий параметр — коэффициент трения контактной поверхности, а у горячего цинкования (HDG) он не такой, как у дробеструйной очистки или специальных покрытий. Если расчёт вели под очищенную поверхность, а листы оцинковали, соединение уже не то, что считали. Надёжный путь — задать обработку поверхности на стадии проектирования, прописать её в спецификации соединения и подтвердить у инженера до замены покрытия на контактных поверхностях.",
             "ar": "يمكن ذلك إذا صُممت الوصلة من الأصل على هذا الأساس. القيمة الحاكمة هي مقاومة انزلاق سطح التلامس، فسطح الجلفنة بالغمس الساخن (HDG) لا يقدّم مقاومة الانزلاق نفسها التي يقدّمها السطح المنظف بالسفع أو المطلي بطبقة خاصة. وإذا افترض التصميم سطحًا بالسفع ثم جُلفنت الصفائح، لم تعد الوصلة مطابقة للحساب. المسار الآمن: تحديد المعالجة في مرحلة التصميم، وذكرها في مواصفات الوصلة، والتأكد من المهندس قبل تغيير طلاء سطوح التلامس.",
-            "es": "Se pueden, si la unión se diseñó para ello. El valor que manda es la resistencia al deslizamiento de la superficie, y una galvanizada en caliente no iguala a una arenada o con recubrimiento especial. Si el diseño suponía arenado y el taller galvanizó las placas, la unión ya no es la calculada. Conviene decidir el tratamiento en diseño, indicarlo y confirmarlo con el ingeniero antes de cambiar el recubrimiento en las caras de contacto."
+            "es": "Se pueden, si la unión se diseñó para ello. El valor que manda es la resistencia al deslizamiento de la superficie, y una galvanizada en caliente no iguala a una arenada o con recubrimiento especial. Si el diseño suponía arenado y el taller galvanizó las placas, la unión ya no es la calculada. Conviene decidir el tratamiento en diseño, indicarlo y confirmarlo con el ingeniero antes de cambiar el recubrimiento en las caras de contacto.",
+            "pt": "Servem, se a junta tiver sido projetada para isso. O valor controlador é a resistência de atrito da superfície de contato, e uma galvanizada a quente não tem a mesma resistência que uma limpa por jato ou com revestimento especial. Se o projeto assumia jato e a montadora galvanizou as placas, a junta deixa de ser a calculada. O seguro é definir o tratamento na fase de projeto e confirmar com o engenheiro antes de trocar o revestimento.",
+            "fr": "C'est possible si le joint a été conçu pour cela. La valeur maîtresse est la résistance au glissement de la surface de contact, et une surface galvanisée à chaud n'a pas la même résistance qu'une surface sablée ou spécialement revêtue. Si le calcul supposait du sablé et que le fabricant a galvanisé les plaques, le joint n'est plus celui calculé. On arrête le traitement en étude, on l'écrit dans la spécification, et on confirme avec l'ingénieur."
           }
         },
         {
@@ -235,7 +243,9 @@
             "hi": "कमीशनिंग के बाद कनेक्शन ढीला क्यों पड़ जाता है?",
             "ru": "Почему соединение ослабевает после ввода в эксплуатацию?",
             "ar": "لماذا ترتخي الوصلة بعد التشغيل؟",
-            "es": "¿Por qué se afloja una conexión tras la puesta en marcha?"
+            "es": "¿Por qué se afloja una conexión tras la puesta en marcha?",
+            "pt": "Por que uma conexão afrouxa após o comissionamento?",
+            "fr": "Pourquoi un joint se desserre après mise en service ?"
           },
           "a": {
             "en": "Most often it is relaxation rather than vibration. Coatings and galvanised layers settle under sustained load, the clamped plates creep fractionally, and part of the preload is lost without any relative movement of the bolt. Vibration loosening is a different mechanism: it needs relative movement, and it is what prevailing-torque nuts and thread locking address. The diagnosis matters, because adding a stronger lock to a relaxing joint changes nothing, while a design change in the connection type or the preload does.",
@@ -243,7 +253,9 @@
             "hi": "ज़्यादातर मामलों में यह कंपन नहीं, रिलैक्सेशन होता है। कोटिंग और गैल्वनाइज़्ड परतें भार में बैठती हैं, प्लेटें थोड़ी क्रीप करती हैं, बोल्ट की हलचल के बिना ही कुछ प्री-लोड खो जाता है। कंपन से ढीलापन दूसरी क्रिया है, उसमें हलचल ज़रूरी है; यही प्रीवेलिंग-टॉर्क नट्स या थ्रेड लॉकिंग से रोका जाता है। रिलैक्स जोड़ में सिर्फ मज़बूत लॉक जोड़ने से कुछ नहीं बदलता, कनेक्शन प्रकार या प्री-लोड बदलना पड़ता है।",
             "ru": "Чаще это релаксация, а не вибрация: покрытия и цинковый слой обминаются под длительной нагрузкой, стянутые листы немного ползут, и часть предварительной затяжки (preload) теряется без взаимного смещения болта. Ослабление от вибрации — другой механизм: ему нужно относительное смещение, и именно с ним работают гайки с гарантированным моментом и фиксация резьбы. Диагноз важен: усиленный стопор в соединении с релаксацией ничего не меняет, а помогает изменение типа соединения или величины затяжки.",
             "ar": "السبب الأغلب هو الاسترخاء لا الاهتزاز. الطبقات الطلائية والجلفنة تستقر تحت الحمل المستمر، والصفائح المثبتة تزحف قدرًا ضئيلاً، فيفقد جزء من الشد المسبق دون حركة نسبية للبولت. أما فك الاهتزاز فآلية مختلفة: يحتاج حركة نسبية، وتعالجه صواميل عزم التثبيت المسبق (prevailing-torque) ومانع الخيوط. التشخيص مهم: قفل أقوى في وصلة مسترخية لا يغيّر شيئًا، بينما تغيير نوع الوصلة أو مستوى الشد المسبق في التصميم هو الحل.",
-            "es": "Generalmente es relajación, no vibración. Los recubrimientos y capas galvanizadas se asientan bajo carga, las placas ceden de forma fraccionada y se pierde precarga sin movimiento del perno. El aflojamiento por vibración necesita movimiento relativo, y lo atacan las tuercas de par prevalente y el bloqueo de rosca. Un bloqueo más fuerte no ayuda a una unión que relaja; sí ayuda un ajuste de diseño en la conexión o en la precarga."
+            "es": "Generalmente es relajación, no vibración. Los recubrimientos y capas galvanizadas se asientan bajo carga, las placas ceden de forma fraccionada y se pierde precarga sin movimiento del perno. El aflojamiento por vibración necesita movimiento relativo, y lo atacan las tuercas de par prevalente y el bloqueo de rosca. Un bloqueo más fuerte no ayuda a una unión que relaja; sí ayuda un ajuste de diseño en la conexión o en la precarga.",
+            "pt": "Na maioria dos casos é relaxamento, e não vibração. Os revestimentos e as camadas de galvanizado se acomodam sob carga sustentada, as placas sofrem um pequeno fluimento, e parte do pré-carregamento se perde sem movimento do parafuso. O afrouxamento por vibração é outro mecanismo: ele exige movimento relativo, e é o que as porcas de torque e o trava-rosca resolvem. O diagnóstico importa, pois um trava mais forte não muda uma junta que relaxa.",
+            "fr": "Le plus souvent c'est un relâchement, pas une vibration. Les revêtements et couches de zinc se tassent sous charge, les plaques fléchissent un peu, et une partie de la prétension se perd sans mouvement relatif du boulon. Le desserrement vibratoire exige un mouvement relatif, traité par les écrous autobloquants et le freinage de filet. Le diagnostic compte : un frein plus fort n'aide pas un joint qui se relâche."
           }
         },
         {
@@ -253,7 +265,9 @@
             "hi": "साइट पर बोल्ट का प्री-लोड कैसे जाँचा जाता है?",
             "ru": "Как проверяют предварительную затяжку болтов на объекте?",
             "ar": "كيف يتحقق من الشد المسبق في موقع العمل؟",
-            "es": "¿Cómo se verifica la precarga de un perno en obra?"
+            "es": "¿Cómo se verifica la precarga de un perno en obra?",
+            "pt": "Como o pré-carregamento dos parafusos é verificado em obra?",
+            "fr": "Comment vérifier la prétension sur chantier ?"
           },
           "a": {
             "en": "By the tightening method rather than by a final torque check. The accepted methods are torque controlled with a calibrated wrench, torque plus a defined turn, or direct measurement such as a tension calibrator or a load-indicating washer on a sample. Checking by pulling a tightened bolt a second time loads the joint twice and can push the preload past yield, particularly where friction is low. What the inspection should produce is a record: which method, which wrench, which calibration date, and who did the work.",
@@ -261,7 +275,9 @@
             "hi": "अंतिम टॉर्क जाँच से नहीं, संयोजन विधि से तय होता है। स्वीकृत तरीके: कैलिब्रेटेड रेंच से टॉर्क नियंत्रण, टॉर्क के बाद निर्धारित घुमाव, या सैंपल पर टेंशन कैलिब्रेटर या लोड-इंडिकेटिंग वाशर जैसा सीधा मापन। कसे हुए बोल्ट को दोबारा खींचने से जोड़ पर दो बार भार पड़ता है और प्री-लोड यील्ड से आगे जा सकता है, खासकर कम घर्षण पर। निरीक्षण से रिकॉर्ड बनना चाहिए: कौन सी विधि, कौन सा रेंच, कैलिब्रेशन की तारीख और काम करने वाला।",
             "ru": "Методом затяжки, а не финальной проверкой момента: применяют контроль калиброванным ключом, затяжку моментом с нормированным доворотом либо прямое измерение — тарировочный стенд или индикаторная шайба на выборке. Повторная подтяжка уже затянутого болта нагружает соединение дважды и может вывести затяжку за предел текучести, особенно при низком трении. Приёмка должна оставлять запись: какой метод, какой ключ, дата калибровки и кто выполнял работу.",
             "ar": "التحقق يتم بطريقة الشد لا بفحص العزم النهائي. الطرق المقبولة: الشد بعزم مع مفتاح معاير، أو عزم متبوع بدوران محدد، أو القياس المباشر مثل جهاز معايرة الشد أو غسالة مؤشرة على عينة. إعادة شد البولت بعد تثبيته تحمّل الوصلة مرتين وقد تدفع الشد المسبق إلى ما بعد حد الخضوع، خاصة عند انخفاض الاحتكاك. ما ينتج عن الفحص هو سجل: الطريقة المستخدمة، رقم المفتاح وتاريخ معايرته، ومن نفذ العمل.",
-            "es": "Por el método de apriete, no por una comprobación final de par. Lo aceptado es par controlado con llave calibrada, par más una vuelta definida, o medición directa con calibrador de tensión o arandela indicadora en muestra. Tirar de nuevo de un perno apretado carga la unión dos veces y puede pasar la precarga del límite elástico, sobre todo con fricción baja. La inspección debe dejar registro de método, llave, calibración y responsable."
+            "es": "Por el método de apriete, no por una comprobación final de par. Lo aceptado es par controlado con llave calibrada, par más una vuelta definida, o medición directa con calibrador de tensión o arandela indicadora en muestra. Tirar de nuevo de un perno apretado carga la unión dos veces y puede pasar la precarga del límite elástico, sobre todo con fricción baja. La inspección debe dejar registro de método, llave, calibración y responsable.",
+            "pt": "Verifica-se pelo método de aperto, e não por uma checagem final de torque. Os métodos aceitos são torque com chave calibrada, torque mais uma volta definida, ou medição direta com calibrador de tensão ou arruela indicadora de carga. Checar um parafuso já apertado uma segunda vez carrega a junta duas vezes e pode levar o pré-carregamento além do escoamento. A inspeção deve deixar registro de método, chave, calibração e responsável.",
+            "fr": "On vérifie par la méthode de serrage, pas par un contrôle de couple final. Les méthodes admises : couple contrôlé avec clé étalonnée, couple plus tour défini, ou mesure directe avec calibrateur de traction ou rondelle indicatrice sur échantillon. Revenir tirer un boulon déjà serré charge le joint deux fois et peut dépasser l'élasticité. Le contrôle produit un relevé : méthode, clé, date d'étalonnage et intervenant."
           }
         },
         {
@@ -271,7 +287,9 @@
             "hi": "स्टील संरचना के बोल्ट ऑर्डर करने से पहले क्या तय करना चाहिए?",
             "ru": "Что указывают до заказа болтов на стальную конструкцию?",
             "ar": "ما المواصفات التي تحدد قبل طلب براغٍ لمنشأة فولاذية؟",
-            "es": "¿Qué se especifica antes de pedir pernos para una estructura de acero?"
+            "es": "¿Qué se especifica antes de pedir pernos para una estructura de acero?",
+            "pt": "O que especificar antes de pedir parafusos para estrutura de aço?",
+            "fr": "Que spécifier avant de commander des boulons ?"
           },
           "a": {
             "en": "Four things: the connection type, because it decides whether preload or fit is the acceptance criterion; the bolt class and size together with the thread standard, because the marking 8.8 alone does not define a part; the surface treatment of both the bolt and the faying surface, because they set the friction the design assumed; and the verification method with its records. Bolts ordered against a drawing that lists only a diameter and a grade are bolts that will be argued about on site rather than accepted.",
@@ -279,7 +297,9 @@
             "hi": "चार बातें: कनेक्शन का प्रकार, इससे तय होता है स्वीकृति का मापदंड प्री-लोड है या फिट; बोल्ट ग्रेड व साइज़ थ्रेड स्टैंडर्ड के साथ, सिर्फ 8.8 मार्किंग पार्ट परिभाषित नहीं करती; बोल्ट व फेयिंग सरफेस दोनों का सतह उपचार, जो डिज़ाइन माना घर्षण तय करते हैं; और रिकॉर्ड सहित सत्यापन विधि। सिर्फ व्यास व ग्रेड वाली ड्रॉइंग से ऑर्डर बोल्ट साइट पर विवाद का कारण बनते हैं।",
             "ru": "Четыре пункта: тип соединения, потому что от него зависит критерий приёмки — затяжка или прилегание; класс и размер болта вместе со стандартом резьбы, так как маркировка 8.8 сама по себе деталь не определяет; обработку поверхности болта и контактных поверхностей, которая задаёт принятое в расчёте трение; метод контроля с записями. Болты, заказанные по чертежу, где есть только диаметр и класс, на объекте становятся предметом споров, а не приёмки.",
             "ar": "أربع نقاط: نوع الوصلة، لأنه يحدد ما إذا كان معيار القبول هو الشد المسبق أو الملاءمة؛ درجة قوة البولت ومقاسه مع معيار الخيط، لأن علامة 8.8 وحدها لا تعرّف قطعة كاملة؛ المعالجة السطحية للبولت وسطح التلامس معًا، فهما يضبطان الاحتكاك الذي افترضه التصميم؛ وطريقة التحقق مع سجلاتها. والبراغي المطلوبة بناءً على رسم يذكر القطر والدرجة فقط، ستكون موضع جدل في الموقع بدل أن تُقبل مباشرة.",
-            "es": "Cuatro cosas: el tipo de conexión, que decide si la aceptación es por precarga o por ajuste; la clase y el tamaño del perno con la norma de rosca, pues la marca 8.8 por sí sola no define la pieza; el tratamiento de superficie del perno y de la superficie de contacto, que fijan la fricción del diseño; y el método de verificación con sus registros. Un plano que solo indica diámetro y grado da lugar a disputas en obra en lugar de aceptarse."
+            "es": "Cuatro cosas: el tipo de conexión, que decide si la aceptación es por precarga o por ajuste; la clase y el tamaño del perno con la norma de rosca, pues la marca 8.8 por sí sola no define la pieza; el tratamiento de superficie del perno y de la superficie de contacto, que fijan la fricción del diseño; y el método de verificación con sus registros. Un plano que solo indica diámetro y grado da lugar a disputas en obra en lugar de aceptarse.",
+            "pt": "Quatro pontos: o tipo de conexão, que define se o aceite é pelo pré-carregamento ou pelo encaixe; a classe e o diâmetro junto à norma de rosca, pois a marcação 8.8 sozinha não define a peça; o tratamento de superfície do parafuso e da face de contato, que define o atrito do projeto; e o método de verificação com seus registros. Um desenho que lista só diâmetro e classe gera discussão em obra.",
+            "fr": "Quatre éléments : le type d'assemblage, qui décide si prétension ou ajustement est le critère de réception ; la classe et le diamètre avec la norme de filetage, car le seul 8.8 ne définit pas une pièce ; le traitement de surface du boulon et de la plaque de contact, qui fixent le frottement du calcul ; et la méthode de vérification avec relevés. Un plan ne listant que diamètre et classe crée des litiges sur chantier."
           }
         }
       ]
