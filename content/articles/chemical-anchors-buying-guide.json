@@ -245,7 +245,8 @@
             "es": "¿Cómo afecta la temperatura al tiempo de curado?",
             "fr": "Comment la température affecte-t-elle le temps de polymérisation ?",
             "pt": "Como a temperatura afeta o tempo de cura?",
-            "de": "Wie beeinflusst die Temperatur die Aushärtezeit?"
+            "de": "Wie beeinflusst die Temperatur die Aushärtezeit?",
+            "ja": "温度は硬化時間にどのように影響しますか？"
           },
           "a": {
             "en": "Cure time is a function of substrate temperature: warm concrete sets the resin faster, cold concrete much slower, and near freezing some systems stop curing altogether. Read the cure chart for the actual site temperature, not the laboratory figure.",
@@ -256,7 +257,8 @@
             "es": "El tiempo de curado depende de la temperatura del soporte: el hormigón tibio fragua la resina más rápido, el frío mucho más lento, y cerca del punto de congelación algunos sistemas dejan de curar por completo. Lea la tabla de curado para la temperatura real del sitio, no la cifra de laboratorio. La temperatura de la obra es la que manda sobre el fraguado.",
             "fr": "Le temps de durcissement dépend de la température du support : un béton chaud fait prendre la résine plus vite, un béton froid beaucoup plus lentement, et près du gel certains systèmes cessent complètement de polymériser. On lit la courbe de durcissement à la température réelle du chantier, pas à la valeur de laboratoire.",
             "pt": "O tempo de cura é função da temperatura do substrato: concreto quente endurece a resina mais rápido, concreto frio bem mais devagar, e perto do congelamento alguns sistemas deixam de curar. Lê-se a tabela de cura para a temperatura real do canteiro, não o valor de laboratório. A temperatura do furo é registrada na instalação da âncora química.",
-            "de": "Die Aushärtezeit hängt von der Temperatur des Untergrunds ab: warmer Beton lässt den Harz schneller erstarren, kalter Beton deutlich langsamer, und nahe dem Gefrierpunkt hören manche Systeme ganz auf zu härten. Für die tatsächliche Baustellentemperatur ist das Aushärtediagramm zu lesen, nicht der Laborwert."
+            "de": "Die Aushärtezeit hängt von der Temperatur des Untergrunds ab: warmer Beton lässt den Harz schneller erstarren, kalter Beton deutlich langsamer, und nahe dem Gefrierpunkt hören manche Systeme ganz auf zu härten. Für die tatsächliche Baustellentemperatur ist das Aushärtediagramm zu lesen, nicht der Laborwert.",
+            "ja": "硬化時間は下地の温度に左右されます。温かいコンクリートでは樹脂が速く硬化し、冷たいコンクリートではかなり遅くなります。氷点付近では硬化が止まってしまうシステムもあります。実際の現場温度に合わせた硬化時間表を確認し、実験室の数値ではなく現場の状況を基準にしてください。"
           }
         },
         {
@@ -269,7 +271,8 @@
             "es": "¿Cómo se prepara el hueco?",
             "fr": "Comment préparer le trou de perçage ?",
             "pt": "Como preparar o furo?",
-            "de": "Wie ist das Bohrloch vorzubereiten?"
+            "de": "Wie ist das Bohrloch vorzubereiten?",
+            "ja": "下穴はどのように準備すべきですか？"
           },
           "a": {
             "en": "Drill to the specified diameter and depth, then brush and blow out the hole in repeated cycles until dust stops coming out. Residual dust is the single biggest cause of low chemical anchor loads.",
@@ -280,7 +283,8 @@
             "es": "Taladre al diámetro y la profundidad especificados, luego cepille y sople el hueco en ciclos repetidos hasta que deje de salir polvo. El polvo residual es la causa principal de cargas bajas en anclaje químico. Un hueco limpio es la base para que la resina agarre y transmita la carga.",
             "fr": "Percer au diamètre et à la profondeur prescrits, puis brosser et souffler le trou par cycles répétés jusqu'à ce que la poussière cesse de sortir. Le résidu de poussière est la cause la plus fréquente de charges faibles sur ancrages chimiques. Un trou mal nettoyé laisse la résine enrobée de poussière et réduit l'adhérence au béton.",
             "pt": "Perfura-se ao diâmetro e à profundidade especificados, depois escova-se e sopra-se o furo em ciclos repetidos até não sair mais poeira. A poeira residual é a maior causa de cargas baixas em âncora química. A limpeza é conferida antes da aplicação da resina, e o furo não deve ficar úmido além do que o sistema aceita.",
-            "de": "Auf den vorgeschriebenen Durchmesser und die Tiefe bohren, dann den Bohrloch wiederholt ausbürsten und auspusten, bis kein Staub mehr austritt. Reststaub ist die häufigste Ursache für geringe Traglasten chemischer Dübel."
+            "de": "Auf den vorgeschriebenen Durchmesser und die Tiefe bohren, dann den Bohrloch wiederholt ausbürsten und auspusten, bis kein Staub mehr austritt. Reststaub ist die häufigste Ursache für geringe Traglasten chemischer Dübel.",
+            "ja": "指定された直径と深さでドリルで穴を開け、その後ブラシ掃除と吹き出しを繰り返して、粉塵が出なくなるまで清掃します。残留する粉塵はケミカルアンカーの保持力を低下させる最大の原因です。穴の清掃が十分でないと後の施工に影響するため、手順を省略せず確認してください。"
           }
         },
         {
@@ -293,7 +297,8 @@
             "es": "¿Cuándo un anclaje químico es la elección equivocada?",
             "fr": "Dans quel cas l'ancrage chimique est-il un mauvais choix ?",
             "pt": "Quando a âncora química é a escolha errada?",
-            "de": "Wann ist ein chemischer Dübel die falsche Wahl?"
+            "de": "Wann ist ein chemischer Dübel die falsche Wahl?",
+            "ja": "ケミカルアンカーが適さないのはどのような場合ですか？"
           },
           "a": {
             "en": "In hollow block, in continuously wet or flooded holes outside the system's rating, and where the substrate temperature falls outside the published range. In those cases a mechanical anchor or a redesign is safer than a bigger dose of resin.",
@@ -304,7 +309,8 @@
             "es": "En bloque hueco, en huecos continuamente húmedos o inundados fuera de la clasificación del sistema, y donde la temperatura del soporte cae fuera del rango publicado. En esos casos un anclaje mecánico o un rediseño es más seguro que una dosis mayor de resina. El soporte y el ambiente definen el tipo de anclaje.",
             "fr": "Dans un bloc creux, dans des trous continûment humides ou inondés hors du domaine de validité du système, et lorsque la température du support sort de la plage publiée. Dans ces situations, un ancrage mécanique ou une reprise de conception est plus sûr qu'une dose supplémentaire de résine.",
             "pt": "Em bloco oco, em furos continuamente úmidos ou inundados fora da avaliação do sistema, e onde a temperatura do substrato cai fora da faixa publicada. Nesses casos, uma âncora mecânica ou um redesenho é mais seguro que uma dose maior de resina. A escolha é conferida contra o tipo de base e as condições do local da fixação.",
-            "de": "In Hohlblockstein, in dauerhaft nassen oder gefluteten Löchern außerhalb der Systemzulassung, sowie wenn die Untergrundtemperatur außerhalb des angegebenen Bereichs liegt. In diesen Fällen ist ein mechanischer Dübel oder eine Umplanung sicherer als eine höhere Harzdosis."
+            "de": "In Hohlblockstein, in dauerhaft nassen oder gefluteten Löchern außerhalb der Systemzulassung, sowie wenn die Untergrundtemperatur außerhalb des angegebenen Bereichs liegt. In diesen Fällen ist ein mechanischer Dübel oder eine Umplanung sicherer als eine höhere Harzdosis.",
+            "ja": "中空ブロック、システムの許容範囲を超えて常に濡れているか浸水した穴、下地温度が公表範囲外となる場合には適しません。このような状況では、樹脂の量を増やすよりも機械式アンカーや設計の見直しの方が安全です。下地の状態を確認してから最適な留め付け方法を選んでください。"
           }
         }
       ]
