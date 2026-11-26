@@ -12,7 +12,8 @@ const nextSitemapConfig = {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/_next/'],
+        // 2026-11-26: 去掉 /_next/ —— CSS/JS chunk 在 /_next/static 下，不能挡
+        disallow: ['/api/'],
       },
     ],
     additionalSitemaps: [
