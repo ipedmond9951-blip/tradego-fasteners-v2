@@ -377,3 +377,82 @@
 3. 本文件 §8.5 剩 4 项仍挂 A 线（12 篇未提交清单 / C2 港口名取舍 / 减页 slug / 4 篇 diff 确认）；B 线已按 §6-B 默认动作推进，不阻塞上线。
 
 **下一轮（§8.4 同步）**：11 个未达标槽 + 轻度复用 147 槽抽检 + §8.4 剩余 9 篇 + `material-selection` ja 源料扩写 + A 区同类死链（`rwanda-*`、`construction-building-self-tapping-*`）。
+
+## §9 R-T9q 对账（2026-11-27 06:30–08:00 CST）：A 线两轮扫过 B 区的影响核查
+
+> 触发：A 线 00:18 / 02:41 两轮（`298de142`+`845137ba`+`022c9f63`、`d4b9ed72`）是全库级改动，覆盖 B 区。B 线昨天（R-T9p）刚在这 35 篇里做过前插扩写与多语种补齐，所以先对账再谈新债。核查只读 + 定点补回，不回滚、不改 A 线已提交语义。
+
+### 9.1 对账方法
+
+- 取 A 线四笔提交（`298de142` 217 文件、`845137ba` 57、`022c9f63` 4、`d4b9ed72` 59），对 **B 区 35 篇**逐篇做 `git diff <c>^ <c>` 句级 + 8-gram 比对，并在 HEAD 上验"被删句现在还在不在"。
+- 8-gram 用拉丁词切分（en/es/fr/pt/de 有效）；ja/hi/ru/ar/zh 的拉丁 token 少，只用句级判定，不据此下结论。
+- 长度基线与键集合用 `docs/geo-upgrade-b-2026-1127.csv` 的 `cur_<locale>` 与开工快照 `$T9Q/geo.json`。
+
+### 9.2 三项核查结果（对账通过）
+
+| 项 | 口径 | 结果 |
+|---|---|---|
+| ① `faqItems` 语种键完整 | 35 篇 × 全部 FAQ 条目 × 10 语种，`q` 与 `a` 同时非空才算有 | **129 条 FAQ、缺键 0**（`hi/ru/ar` 等小语种无一处空洞） |
+| ② `a.en` 是否被 A 线覆盖 | 逐条比对 `d4b9ed72^` 与 `d4b9ed72` 的 `a.en` | B 区 35 篇里**只有 2 篇被 A 线改写**：`tanzania-dar-es-salaam-port-fastener-import-procedure`（4/4 条，26→87 词级）与 `gaskets-specialty-washers-high-temp-guide`（3/3 条，26→88 词级）；**同两条的 `a.zh` 与其他 8 语种零改动**，没有冲掉我们的多语种答案 |
+| ③ 各语种长度 ≥ 冻结基线 95% | HEAD vs CSV `cur_<locale>` | 350 槽中**仅 3 槽 <95%**，全部是 R-T9p 我们自己主动删重复句所致（`material-selection` ja 3843/5093、`buy-construction` zh 2689/2927、`testing-certification` zh 2545/2886），且均 ≥ 该语种中位线；**A 线两轮未造成任何缩水** |
+
+- 另核：B 区 35 篇的 `faqItems` 共 129 条、`a.en` 最短 18 词；**26/35 篇 en 答案均长 <80 词**——这是 A 线本轮明确"归内容线"的债，本轮由 B 线认领 20 篇（见 §9.7）。
+
+### 9.3 句级删改归属（谁删的、删了什么）
+
+| 提交 | 命中 B 区 35 篇 | 删除句 | 判定 |
+|---|---|---|---|
+| `298de142`（段落包裹 + 首段归一 + 去模板/去重复） | **25 篇** | 25 篇里共 47 句唯一句被删（另 97 句为篇内重复句） | **模板指纹句与重复句**：`This procurement framework applies to…`、`La logique de décision privilégie…`、`Standards-based procurement requires continuous learning…`、`The comparison methodology above uses…2018-2024` 等，在 HEAD 已不存在且**属 A 线声明要清的 390+508 处**；抽样 8 篇逐句确认**没有整段正文被删** |
+| `845137ba`（补 305 处未闭合 `</p>`） | 10 篇 | 6 句（`flat-washers` 段落边界重排） | 纯段落边界，**句子内容全在** |
+| `d4b9ed72`（10 篇最低分 qh+FAQ / 65 篇内联标签起头包裹） | 11 篇 | **正文 0 句** | 对 B35 只做了段落包裹；**qh 标题对 B35 改动 0**（那 10 篇最低分与 B35 只有 2 篇重叠），`a.en` 只改上表 2 篇 |
+
+### 9.4 真内容被删 → 已定点补回（5 处，2 篇）
+
+判定标准：删掉的句子里含**可核事实**（规格/镀层/检验标准/包装限重），且在 HEAD 的同语种文本里**找不到等价表述**。
+
+| 篇 | 语种 | 被删事实 | 处置 | commit |
+|---|---|---|---|---|
+| `fastener-packaging-shipping-guide` | es | 箱重 ≤25 kg 上限、托盘捆扎（`flejes`） | 段尾补 1 句（es） | `6b603af9` |
+| 同上 | pt | 箱重 ≤25 kg 上限 | 段尾补 1 句（pt） | 同上 |
+| 同上 | fr | 箱重 ≤25 kg 上限 | 段尾补 1 句（fr） | 同上 |
+| 同上 | de | 箱重 ≤25 kg 上限、Stretchfolie + Spanngurt | 段尾补 1 句（de） | 同上 |
+| `zimbabwe-fastener-supplier` | en | 高风险件加疲劳 + ASTM B117 盐雾、要 EN 10204 3.1 炉批记录 | 段尾补 1 句（en） | `2193b08e` |
+
+- 两篇补回后：`content_gate` 无新增 BLOCK、`check-claims` 通过、`check-body-lang` 0 污染、`geo_audit` 分不降（均 75→75）。
+- **不回补的三张对比表**：`zim-construction-flat-washers`、`zim-construction-threaded-rods-supplier`、`zim-construction-u-bolts-spec` 的 en 对比表被 `298de142` 整体删除，表内含 **Cost per kg (USD) 2.50–4.00 / 5.00–8.00 与 lead time 4–6 weeks**——按合规红线（不写我方报价与交期承诺）**不回补**，只保留表外的等级与标准说明（`ISO 898-1`/`ISO 3506-1`/`ASTM A307` 在正文仍在）。
+
+### 9.5 「已被 A 线改过、B 线不得回写」清单扩至 18 篇
+
+在 §6-B.6（4 条）+ §8.1（3 篇）基础上新增 11 篇 = **A 线 `d4b9ed72` 那 10 篇最低分清单全部落在 B 区**：
+
+| # | slug | A 线改了什么 | B 线规则 |
+|---|---|---|---|
+| 8 | `industrial-washers-flat-spring-lock-guide` | qh 小标题 + FAQ en 扩写 | 保留现文；只补缺、不覆盖 |
+| 9 | `mozambique-fastener-market-case-study` | 同上 | 同上 |
+| 10 | `self-tapping-sheet-metal-screws` | 同上 | 同上 |
+| 11 | `lagos-industrial-fasteners` | 同上 | 同上 |
+| 12 | `tanzania-dar-es-salaam-port-fastener-import-procedure` | 同上（**FAQ 4/4 条被改**，多语种未动） | **本轮起不碰其 FAQ 与标题**；正文如需改走 R1 |
+| 13 | `solar-mounting-hex-bolt-solution-guide` | 同上 | 保留现文 |
+| 14 | `fastener-applications-construction-solar-telecom` | 同上 | 同上 |
+| 15 | `senegal-dakar-construction-fastener-wholesale` | 同上 | 同上 |
+| 16 | `timber-fasteners-guide` | 同上 | 同上 |
+| 17 | `nigeria-lekki-port-construction-fastener-logistics` | 同上（B 线 R-T9p 也压过首段，两侧共存） | 首段与 FAQ 均保留现文 |
+| 18 | `gaskets-specialty-washers-high-temp-guide` | 同上（**FAQ 3/3 条被改**） | 同 #12 |
+
+- 兜底不变：B 线补语种一律 R1「只补缺、不覆盖」；发现 A 线整改后 B 线旧句仍留在**其它语种**，按同一合规口径就地**对齐**，不反向回写 A 线已改语种。
+
+### 9.6 分工口径（写死，两边照此执行）
+
+- **问句小标题（qh）与 FAQ 答案长度**：**A 区 39 篇归 A 线，B 区 240 篇归 B 线**。
+- A 线已做的那 10 篇（§9.5 #8–#18）**B 线不再改标题与 FAQ**；B 线只做其正文缺漏（若本轮有新债另记）。
+- 两边都不许为凑分把标题机翻成九语种：**只改 `title.en` + `title.zh`**（A 线实测：九语种机翻会把质量拉回去）。
+
+### 9.7 B 线本轮认领（20 篇，对账后剩余时间做）
+
+- 取 B 区 geo 分从低到高 20 篇，做「1–2 个问句小标题（中英）+ en FAQ 答案补到 80–95 词」；`malawi-fastener-market-case-study` 因他线未提交改动（` M`）按 R5 跳过，顺延补入 `china-hex-nuts-manufacturer`。
+- 逐篇五道闸：`content_gate --slug` → `check-claims.py` → `check-body-lang.py --slug` → `geo_audit --slug`（不降）→ `check-geo-readiness --slug`（dup 不升）。
+
+### 9.8 请 A 线回的两句
+
+1. §8.1 那三篇归属确认（已挂两轮）；§8.5 剩 4 项是否在 09:00 前回。
+2. 本轮 B 线对 B 区 35 篇的补回只动了 2 篇 5 句（§9.4），均未触碰 A 线语义；A 线 09:00 推之前请把 `content_gate --brief` 跑在**含这 2 笔**的 HEAD 上。
