@@ -244,7 +244,8 @@
             "ar": "أي قطر سلك يناسب أي قطر حديد تسليح؟",
             "es": "¿Qué diámetro de alambre para qué tamaño de varilla?",
             "fr": "Quel diamètre de fil pour quel fer à béton ?",
-            "pt": "Qual diâmetro de arame para cada bitola de vergalhão?"
+            "pt": "Qual diâmetro de arame para cada bitola de vergalhão?",
+            "de": "Welcher Drahtdurchmesser für welche Bewehrungsstärke?"
           },
           "a": {
             "en": "Common diameters run 0.8 to 1.6 mm, with 1.2 mm covering most rebar up to about 25 mm and heavier wire used for large bar and tight spacing. Confirm against the tying pattern rather than a single rule.",
@@ -254,7 +255,8 @@
             "ar": "الأقطار الشائعة من 0.8 إلى 1.6 مم، ويغطي قطر 1.2 مم معظم حديد التسليح حتى نحو 25 مم، ويستخدم سلك أثقل للقضبان الكبيرة والتباعد الضيق. وثبّت القطر حسب نمط الربط الفعلي لا بقاعدة واحدة.",
             "es": "Los diámetros comunes van de 0.8 a 1.6 mm, con 1.2 mm cubriendo la mayoría de varillas hasta unas 25 mm, y alambre más pesado para barras grandes y separación ajustada. Confirme contra el patrón de atado, no contra una sola regla. El calibre se empareja con el tamaño y el espacio del armado.",
             "fr": "Les diamètres courants vont de 0,8 à 1,6 mm, le 1,2 mm couvrant la plupart des fers jusqu'à environ 25 mm, et un fil plus lourd sert pour les barres grandes et l'entraînement serré. Confirmer selon le mode de ligature plutôt qu'une règle unique. Le diamètre suit le diamètre de barre et la maille.",
-            "pt": "Diâmetros comuns vão de 0,8 a 1,6 mm, com 1,2 mm cobrindo a maioria dos vergalhões até cerca de 25 mm, e arame mais pesado usado para barras grandes e espaçamento apertado. Confirma-se pelo padrão de amarração, não por uma regra única. O diâmetro segue a bitola da barra, e a amarração é conferida no primeiro trecho da obra."
+            "pt": "Diâmetros comuns vão de 0,8 a 1,6 mm, com 1,2 mm cobrindo a maioria dos vergalhões até cerca de 25 mm, e arame mais pesado usado para barras grandes e espaçamento apertado. Confirma-se pelo padrão de amarração, não por uma regra única. O diâmetro segue a bitola da barra, e a amarração é conferida no primeiro trecho da obra.",
+            "de": "Übliche Durchmesser liegen bei 0,8 bis 1,6 mm; 1,2 mm deckt die meisten Stäbe bis etwa 25 mm ab, für große Stäbe und engen Abstand wird stärkerer Draht genutzt. Bestätigen Sie den Draht nach dem Bindeplan statt nach einer einzigen Regel."
           }
         },
         {
@@ -266,7 +268,8 @@
             "ar": "هل أستخدم سلك الربط الملين أم المجلفن؟",
             "es": "¿Alambre de atado recocido o galvanizado?",
             "fr": "Fil recuit ou galvanisé pour ligature ?",
-            "pt": "Arame recozido ou galvanizado de amarração?"
+            "pt": "Arame recozido ou galvanizado de amarração?",
+            "de": "Weichgeglühter oder verzinkter Bindedraht?"
           },
           "a": {
             "en": "Annealed black wire is softer, easier to handle and standard for site tying. Galvanised wire costs more but resists rust in humid storage and in exposed temporary work.",
@@ -276,7 +279,8 @@
             "ar": "السلك الأسود الملين أنعم وأسهل تداولًا، وهو القياسي لربط الموقع. والسلك المجلفن أغلى لكنه يقاوم الصدأ في التخزين الرطب والأعمال المؤقتة المكشوفة.",
             "es": "El alambre negro recocido es más blando, fácil de manejar y estándar para el atado en obra. El alambre galvanizado cuesta más pero resiste el óxido en almacén húmedo y en trabajo temporal expuesto. El acabado va según el almacenamiento y la exposición de la obra.",
             "fr": "Le fil noir recuit est plus souple, plus facile à manier et standard pour le nouage sur chantier. Le fil galvanisé coûte plus cher mais résiste à la rouille au stockage humide et en travaux temporaires exposés. L'usage et le stockage décident du traitement du fil.",
-            "pt": "O arame preto recozido é mais macio, mais fácil de manusear, e padrão para amarração em canteiro. O arame galvanizado custa mais, mas resiste à ferrugem no armazenamento úmido e no trabalho temporário exposto. O material segue a condição de armazenamento e a exposição, e a bobina é inspecionada na recepção."
+            "pt": "O arame preto recozido é mais macio, mais fácil de manusear, e padrão para amarração em canteiro. O arame galvanizado custa mais, mas resiste à ferrugem no armazenamento úmido e no trabalho temporário exposto. O material segue a condição de armazenamento e a exposição, e a bobina é inspecionada na recepção.",
+            "de": "Schwarz geglühter Draht ist weicher, leichter zu handhaben und Standard für die Baustellenbindung. Verzinkter Draht kostet mehr, widersteht aber Rost bei feuchter Lagerung und bei freiliegenden, vorübergehenden Arbeiten."
           }
         },
         {
@@ -288,7 +292,8 @@
             "ar": "كم يستهلك المشروع من سلك الربط؟",
             "es": "¿Cuánto alambre consume un proyecto?",
             "fr": "Quelle quantité de fil consomme un projet ?",
-            "pt": "Quanto arame um projeto consome?"
+            "pt": "Quanto arame um projeto consome?",
+            "de": "Wie viel Draht verbraucht ein Projekt?"
           },
           "a": {
             "en": "Budget roughly 5 to 10 kg per tonne of rebar as a planning reference, then verify against actual tying on the first pour. Coil weight and tolerance matter as much as the rate, because short coils waste time on site.",
@@ -298,7 +303,8 @@
             "ar": "خطط بنحو 5 إلى 10 كجم لكل طن من حديد التسليح كمرجع أولي، ثم تحقق من الاستهلاك الفعلي في الصبة الأولى. ووزن اللفة وتسامحه مهمان بمقدار المعدل، فاللفات القصيرة تضيع وقت الموقع.",
             "es": "Presupuesto unas 5 a 10 kg por tonelada de varilla como referencia de planificación, luego verifique contra el atado real del primer vaciado. El peso del carrete y la tolerancia importan tanto como el precio, porque los carretes cortos hacen perder tiempo en sitio. El consumo real se confirma en la primera hormigonada.",
             "fr": "Budgéter environ 5 à 10 kg par tonne de fer à béton comme repère de planification, puis vérifier sur la ligature réelle du premier béton. Le poids et la tolérance des bobines comptent autant que le débit, car des bobines courtes font perdre du temps sur site. La consommation se valide au premier coulage.",
-            "pt": "Orça-se cerca de 5 a 10 kg por tonelada de vergalhão como referência de planejamento, depois verifica-se pela amarração real na primeira concretagem. O peso da bobina e a tolerância importam tanto quanto a taxa, pois bobinas curtas desperdiçam tempo no canteiro. O consumo é ajustado ao lance real, e o peso é conferido na entrega."
+            "pt": "Orça-se cerca de 5 a 10 kg por tonelada de vergalhão como referência de planejamento, depois verifica-se pela amarração real na primeira concretagem. O peso da bobina e a tolerância importam tanto quanto a taxa, pois bobinas curtas desperdiçam tempo no canteiro. O consumo é ajustado ao lance real, e o peso é conferido na entrega.",
+            "de": "Planen Sie grob 5 bis 10 kg pro Tonne Bewehrung als Bezugswert ein, und bestätigen Sie dies anhand des tatsächlichen Bindens beim ersten Betoniervorgang. Spulengewicht und Toleranz zählen ebenso wie die Rate, weil kurze Spulen auf der Baustelle Zeit kosten."
           }
         }
       ]
