@@ -270,7 +270,8 @@
             "es": "¿Qué grosor elijo: 3, 4 o 5 mm?",
             "fr": "Quelle épaisseur choisir : 3, 4 ou 5 mm ?",
             "pt": "Qual espessura escolher, 3, 4 ou 5 mm?",
-            "de": "Welche Dicke wählen: 3, 4 oder 5 mm?"
+            "de": "Welche Dicke wählen: 3, 4 oder 5 mm?",
+            "ja": "厚みは 3、4、5 mm のどれを選びますか？"
           },
           "a": {
             "en": "3 mm for protected roofs and detail work, 4 mm as the common exposed-roof standard, 5 mm where puncture risk is high - traffic areas, ballasted roofs and basement tanking.",
@@ -281,7 +282,8 @@
             "es": "3 mm para techos protegidos y trabajo de detalle, 4 mm como estándar común de techo expuesto, 5 mm donde el riesgo de punción es alto: zonas de paso, techos lastrados y estanqueización de sótanos. El grosor sigue el riesgo de daño y el uso de la cubierta.",
             "fr": "3 mm pour toits protégés et travaux de détail, 4 mm comme standard courant de toit exposé, 5 mm là où le risque de perforation est élevé : zones circulées, toits lestés et cuvelage de soubassement. L'exposition et la circulation guident l'épaisseur de membrane.",
             "pt": "3 mm para telhados protegidos e trabalhos de detalhe; 4 mm como padrão comum de telhado exposto; 5 mm onde o risco de perfuração é alto — áreas de tráfego, telhados com lastro e impermeabilização de subsolo. A espessura segue o risco e o uso da superfície, e a camada é conferida contra o projeto impermeabilizante.",
-            "de": "3 mm für geschützte Dächer und Detailarbeiten; 4 mm als üblicher Standard für freiliegende Dächer; 5 mm wo das Durchstichrisiko hoch ist – Verkehrsflächen, beschwerte Dächer und Kellerabdichtungen."
+            "de": "3 mm für geschützte Dächer und Detailarbeiten; 4 mm als üblicher Standard für freiliegende Dächer; 5 mm wo das Durchstichrisiko hoch ist – Verkehrsflächen, beschwerte Dächer und Kellerabdichtungen.",
+            "ja": "保護された屋根や細部の施工には 3 mm、露出屋根の一般的な標準として 4 mm、突き破りのリスクが高い箇所、通行場所、重ね置き屋根、地下室の防水には 5 mm を選びます。用途と下地の状態に合わせて厚みを決め、薄い仕様を損傷しやすい箇所に使わないでください。"
           }
         },
         {
@@ -294,7 +296,8 @@
             "es": "¿Betún SBS, PVC o TPO?",
             "fr": "Bitume SBS, PVC ou TPO ?",
             "pt": "Betume SBS, PVC ou TPO?",
-            "de": "SBS-Bitumen, PVC oder TPO?"
+            "de": "SBS-Bitumen, PVC oder TPO?",
+            "ja": "SBS 改質アスファルト、PVC、TPO のどれを選びますか？"
           },
           "a": {
             "en": "SBS suits torch-on and self-adhesive detailing at low material cost. PVC and TPO single-ply systems suit large roofs, high exposure and projects that want welded seams and solvent resistance.",
@@ -305,7 +308,8 @@
             "es": "El SBS va con detalle de aplicación a soplete y autoadhesivo a bajo costo de material. Los sistemas de una sola lámina PVC y TPO van con techos grandes, alta exposición y proyectos que buscan soldadura de juntas y resistencia a solventes. El sistema se elige por tamaño de cubierta y acabado buscado.",
             "fr": "Le SBS convient au pose à chalumeau et au détail autocollant à faible coût matière. Les systèmes monocouche PVC et TPO conviennent aux grands toits, à forte exposition et aux projets voulant soudures de jointure et résistance aux solvants. La surface et la nature des joints orientent le choix.",
             "pt": "O SBS serve aplicação a tocha e detalhes autoadesivos a custo de material baixo. Os sistemas de camada única PVC e TPO servem telhados grandes, exposição alta, e projetos que querem soldaduras por fusão e resistência a solventes. O material segue o tipo de telhado e a exposição, e a junta é conferida no método de aplicação.",
-            "de": "SBS eignet sich für Aufschweiß- und selbstklebende Details bei geringem Materialaufwand. PVC- und TPO-Eindachsysteme passen für große Dächer, hohe Belastung und Projekte, die geschweißte Nähte sowie Lösungsmittelbeständigkeit wünschen."
+            "de": "SBS eignet sich für Aufschweiß- und selbstklebende Details bei geringem Materialaufwand. PVC- und TPO-Eindachsysteme passen für große Dächer, hohe Belastung und Projekte, die geschweißte Nähte sowie Lösungsmittelbeständigkeit wünschen.",
+            "ja": "SBS はトーチ貼りや自己粘着の細部施工に向き、材料コストを抑えられます。PVC と TPO のシングルプライシステムは、広い屋根、露出が多い現場、溶接継ぎ目と耐溶剤性を求める工事に向いています。規模と露出環境、継ぎ目の工法を比較して選定してください。"
           }
         },
         {
@@ -318,7 +322,8 @@
             "es": "¿Se usa la misma membrana en sótanos y techos?",
             "fr": "Emploie-t-on la même membrane pour soubassements et toits ?",
             "pt": "A mesma membrana serve subsolo e telhado?",
-            "de": "Wird dieselbe Bahn für Keller und Dächer genutzt?"
+            "de": "Wird dieselbe Bahn für Keller und Dächer genutzt?",
+            "ja": "地下室と屋根で同じ防水膜を使いますか？"
           },
           "a": {
             "en": "Not normally. Basement tanking prioritises puncture resistance and hydrostatic performance, roof exposure prioritises UV and heat resistance. Specify per application rather than one product for both.",
@@ -329,7 +334,8 @@
             "es": "Normalmente no. La estanqueización de sótanos prioriza resistencia a punción y comportamiento hidrostático; la exposición de techo prioriza resistencia UV y al calor. Especifique por aplicación, no un producto para ambos. Cada entorno exige propiedades distintas de la membrana.",
             "fr": "Pas normalement. Le cuvelage de soubassement priorise la résistance à la perforation et au débit hydrostatique, l'exposition de toit priorise la tenue aux UV et à la chaleur. Spécifier selon l'application plutôt qu'un seul produit pour les deux. Chaque ouvrage a sa propre exigence.",
             "pt": "Normalmente não. A impermeabilização de subsolo prioriza resistência à perfuração e desempenho hidrostático; a exposição de telhado prioriza resistência a UV e ao calor. Especifica-se por aplicação, não um produto para ambos. A escolha é conferida contra o regime de cada superfície, e a camada é adaptada ao ambiente.",
-            "de": "Normalerweise nicht. Die Kellerabdichtung stellt Durchstichfestigkeit und Hydrostatikleistung voran, die Dachfreilegung UV- und Hitzebeständigkeit. Spezifizieren Sie nach Anwendung, statt ein Produkt für beides einzusetzen."
+            "de": "Normalerweise nicht. Die Kellerabdichtung stellt Durchstichfestigkeit und Hydrostatikleistung voran, die Dachfreilegung UV- und Hitzebeständigkeit. Spezifizieren Sie nach Anwendung, statt ein Produkt für beides einzusetzen.",
+            "ja": "通常は使いません。地下室の防水では突き破り抵抗と静水圧への性能を優先し、屋根の露出では紫外線と耐熱性を優先します。両方に一つの製品を充てるのではなく、用途ごとに仕様を分けてください。設置場所が受ける力と環境に応じた材料選びが、防水の長期性能を左右します。"
           }
         }
       ]
