@@ -10,7 +10,6 @@ import { clampDescription } from '@/lib/seo'
 import { getArticleBySlug, getArticleTitle } from '@/lib/articles'
 import { productGuides } from '@/lib/productGuides'
 import { siblingsOf, categoryOf } from '@/lib/productCategories'
-import { googleCategory } from '@/lib/gCategory'
 import ProductBuyingNotes from '@/components/ProductBuyingNotes'
 import { productAsideCopy, navLabels } from '@/lib/uiCopy'
 
@@ -35,7 +34,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     de: 'Großhandelslieferant', hi: 'थोक आपूर्तिकर्ता',
   }
   const suffix = titleSuffix[locale] || titleSuffix.en
-  const title = `${name} — ${suffix} | TradeGo Fasteners`
+  // 2026-11-26 P2-6/P2-11: 去掉品牌尾缀以把标题压到 ≤60 字符；保留产品名（规格词）与语种限定词
+  const title = `${name} — ${suffix}`
   const canonical = `${SITE_URL}/${locale}/products/${slug}/`
 
   return {
@@ -97,57 +97,10 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   const canonical = `${SITE_URL}/${locale}/products/${slug}/`
   const inLanguage = locale === 'zh' ? 'zh-CN' : locale
 
-  const productSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    name,
-    description: desc,
-    image: [`${SITE_URL}${product.image}`],
-    sku: `TG-${slug.toUpperCase()}`,
-    brand: { '@type': 'Brand', name: 'TradeGo Fasteners' },
-    material: product.specs.material,
-    category: googleCategory(slug),
-    url: canonical,
-    offers: {
-      '@type': 'Offer',
-      url: canonical,
-      priceCurrency: 'USD',
-      // GSC 2026-11-23 报"offer 缺 price"：起订单价按件计价，priceSpecification 标注计量单位
-      price: product.pricePerPiece.toFixed(3),
-      priceValidUntil: '2027-12-31',
-      validFrom: '2026-01-01',
-      availability: 'https://schema.org/InStock',
-      itemCondition: 'https://schema.org/NewCondition',
-      priceSpecification: {
-        '@type': 'UnitPriceSpecification',
-        price: product.pricePerPiece.toFixed(3),
-        priceCurrency: 'USD',
-        unitCode: 'C62',
-        referenceQuantity: { '@type': 'QuantitativeValue', value: 1, unitCode: 'C62' },
-      },
-      seller: { '@type': 'Organization', name: 'TradeGo Fasteners', url: SITE_URL },
-      shippingDetails: {
-        '@type': 'OfferShippingDetails',
-        shippingDestination: { '@type': 'DefinedRegion', addressCountry: ['ZA', 'ZW', 'ZM', 'MZ', 'BW', 'MW', 'NA'] },
-        deliveryTime: {
-          '@type': 'ShippingDeliveryTime',
-          handlingTime: { '@type': 'QuantitativeValue', minValue: 7, maxValue: 14, unitCode: 'DAY' },
-          transitTime: { '@type': 'QuantitativeValue', minValue: 15, maxValue: 35, unitCode: 'DAY' },
-        },
-      },
-      // 出口批发订单按合同与质量索赔处理，不接受无理由退货——如实声明
-      hasMerchantReturnPolicy: {
-        '@type': 'MerchantReturnPolicy',
-        applicableCountry: ['ZA', 'ZW', 'ZM', 'MZ', 'BW', 'MW', 'NA'],
-        returnPolicyCategory: 'https://schema.org/MerchantReturnNotPermitted',
-      },
-    },
-    additionalProperty: specs.map(([k, v]) => ({
-      '@type': 'PropertyValue',
-      name: specLabelText(k) || k,
-      value: v,
-    })),
-  }
+  // 2026-11-26 P2-11: 整块 Product/Offer 标记移除。判定依据：本页正文不展示任何价格，站点口径禁写具体
+  // 报价，也无真实库存数据——若只删 price 保留 offers，GSC 会报"offers 缺 price / 应指定 offers、review
+  // 或 aggregateRating"严重错误；若保留 price 则与可见内容不一致（违反"标记须与正文一致"）。两条都错，
+  // 故整块移除 Product/Merchant 标记；将来上线可见价格页再按 Merchant 规范重建。Breadcrumb 与 FAQPage 保留。
 
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
@@ -174,7 +127,6 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       {showFaq && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
 
