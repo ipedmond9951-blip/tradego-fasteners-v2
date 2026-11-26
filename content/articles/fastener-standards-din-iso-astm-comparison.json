@@ -33,7 +33,7 @@
     {
       "id": "standards-overview",
       "heading": {
-        "en": "Understanding Fastener Standards Systems",
+        "en": "What job does each fastener standard actually do?",
         "es": "Entendiendo los Sistemas de Normas de Fijaciones",
         "ar": "فهم أنظمة معايير المثبتات",
         "fr": "Comprendre les systèmes de normes de fixations",
@@ -42,7 +42,7 @@
         "ja": "ファスナー規格体系の理解",
         "de": "Verständnis von Verbindungselemente-Normsystemen",
         "hi": "फ़ास्टनर मानक प्रणालियों को समझना",
-        "zh": "理解紧固件标准体系"
+        "zh": "紧固件标准各自管什么环节？"
       },
       "body": {
         "en": "<p>Fastener standards do three different jobs, and conflating them is the source of most confusion in cross-standard purchasing. A dimensional standard defines the shape: head across-flats, thread length, chamfer, point. A material or property standard defines what the part can do: tensile strength, hardness, proof load, and the marking that goes on the head. A test or acceptance standard defines how a batch is checked: sampling, gauging, coating measurement, acceptance criteria. A part can comply with one, two or all three, and a supplier who cites only one has not described the part.</p>\n<p>The systems themselves reflect their origins. ISO standards are the international baseline and are widely adopted in Europe and Asia; DIN remains in use for legacy drawings and for product families that ISO has not fully harmonised; ASTM and SAE dominate North American practice, with their own thread and marking conventions; GB is the Chinese national system and now largely aligned with ISO for common products. JIS has its own head markings and a small number of dimensional differences that matter at the interface.</p>\n<p>For a buyer, the practical way through this is to convert a description into a standard reference. \"M10 bolt, grade 8.8, galvanised\" becomes a dimensional standard plus a property standard plus a coating standard, each cited, plus a marking requirement. That conversion takes ten minutes at the quotation stage and prevents the more expensive conversation that happens when a batch arrives marked differently from the drawing and nobody can say whether it is compliant.</p>\n<p>The reason this matters commercially is that standards are the only neutral ground on which two suppliers can be compared. Without a cited standard, a lower price is not a lower price for the same part; it is a lower price for a part of unknown specification. Any buyer who has been through a rejected shipment understands the asymmetry: saving a few per cent at order, losing a week and a client relationship at arrival.</p>\n\n<p>One habit that removes most of the risk is keeping a project standards sheet: the five or six standards that apply, with the exact designation and edition, agreed by the customer and the supplier before the first order. When a question arises later about a substitution, the sheet is the reference, and a dispute is settled by reading a line rather than by reconstructing a conversation.</p>",
@@ -60,7 +60,7 @@
     {
       "id": "head-markers",
       "heading": {
-        "en": "Head Marking Comparison",
+        "en": "What can a bolt head mark tell you, and what can't it?",
         "es": "Comparación de Marcados en la Cabeza",
         "ar": "مقارنة علامات الرأس",
         "fr": "Comparaison des marquages sur tête",
@@ -69,7 +69,7 @@
         "ja": "頭部マーク比較",
         "de": "Vergleich von Kopfkennzeichnungen",
         "hi": "हेड मार्किंग तुलना",
-        "zh": "头部标记对照"
+        "zh": "螺栓头部标记能说明什么、不能说明什么？"
       },
       "body": {
         "en": "<p>Head marking is the part of the standard that travels with the product and therefore the one an inspector reads first. A property class mark such as 8.8, 10.9 or 12.9 on a metric bolt indicates tensile and yield requirements and a defined material condition; an ASTM bolt carries a designation such as A325 or A490 type markings, sometimes together with a manufacturer's symbol; stainless parts carry an A2 or A4 designation with a strength number. The mark is not decoration: it is the only visible claim the part makes about itself.</p>\n<p>Reading a head correctly requires knowing which system is in use, because the same characters mean different things across systems. A \"8\" on a nut in the ISO system denotes a nut class, not a bolt class; a similar character on an SAE part denotes a grade in a different scale with different strength. A buyer who treats every number on a head as a property class will at some point accept a part that is substantially weaker than the drawing assumed.</p>\n<p>What the mark cannot tell you is equally important. It does not state the coating, the thread tolerance, the heat number, or whether the part was tested individually or by batch. Those items belong on the certificate and on the packaging, which is why a documented delivery carries three layers of identification: the head mark, the carton label with the batch, and the certificate with the test values. Removing any layer turns traceability into memory.</p>\n<p>For incoming inspection, the practical routine is short and cheap: check the mark against the purchase order, check the thread with a gauge of the specified class, check the dimensions that the joint depends on, and check the coating thickness on a sample. None of these requires a laboratory, and together they catch the substitution that a visual inspection misses, which is usually a part of the right shape and the wrong property class.</p>\n\n<p>Marks also differ in where they sit. On a small part the mark may be on the side of the head rather than the top, and on a very small part it may be absent because there is no room; in that case the identification moves entirely to the label and the certificate, and the buyer should say so in the specification so that an inspector does not reject a compliant part for lacking a mark it could not physically carry.</p>",
@@ -239,7 +239,7 @@
             "ja": "DIN、ISO、ASTM、ANSIは実務でどう違いますか？"
           },
           "a": {
-            "en": "DIN has largely been superseded by EN ISO for metric fasteners, so DIN 933 and ISO 4017 describe the same hex bolt. ASTM covers US industrial products (A325, A490, F436) while ANSI/ASME sets inch dimensional standards. A project should name one system per connection.",
+            "en": "DIN has largely been superseded by EN ISO for metric fasteners, so DIN 933 and ISO 4017 describe the same hex bolt; DIN remains on legacy drawings and unharmonized families. ISO is the international baseline, adopted across Europe and Asia. ASTM and SAE dominate North American practice, covering products such as A325, A490 and F436, while ANSI/ASME sets the inch dimensional standards; GB is now largely ISO-aligned, and JIS keeps its own markings. Name one system per connection, and cite dimensional, property and test standards separately rather than relying on an equivalence number.",
             "zh": "米制紧固件中 DIN 大多已被 EN ISO 取代，DIN 933 与 ISO 4017 就是同一种六角螺栓。ASTM 覆盖美国工业产品（A325、A490、F436），ANSI/ASME 规定英寸尺寸标准。每个连接点只写一套体系。比对时先确认螺栓是米制还是英寸制，再核对对应的规范号；同一连接不要混用米制与英寸件，材料证明、头部标记和图纸标注应指向同一标准，验收时按该体系的尺寸和性能条款判定。",
             "hi": "मीट्रिक फास्टनरों में DIN की जगह अब काफी हद तक EN ISO ने ले ली है, इसलिए DIN 933 और ISO 4017 एक ही हेक्स बोल्ट को दर्शाते हैं। ASTM अमेरिकी औद्योगिक उत्पादों को कवर करता है (A325, A490, F436), जबकि ANSI/ASME इंच आयाम मानक तय करता है। हर कनेक्शन के लिए एक ही प्रणाली का नाम लिखा जाना चाहिए।",
             "ru": "Для метрического крепежа DIN во многом заменён на EN ISO: например, DIN 933 и ISO 4017 описывают один и тот же болт с шестигранной головкой. ASTM охватывает промышленную продукцию США — A325, A490, F436, а ANSI/ASME задаёт дюймовые размерные нормы. В каждом соединении проект должен называть одну систему; смешивать метрику и дюйм на одном узле не стоит.",
@@ -265,7 +265,7 @@
             "ja": "これらの体系で頭部マークはどう違いますか？"
           },
           "a": {
-            "en": "Metric bolts mark the property class (8.8, 10.9, A2-70), ASTM structural bolts mark the specification (A325, A490) plus the manufacturer, and inch commercial bolts mark grade (Grade 5, Grade 8) or nothing at all on low grades. Marking style tells you which system you are holding.",
+            "en": "Metric bolts mark the property class, such as 8.8, 10.9 or 12.9, and stainless parts carry an A2 or A4 designation with a strength number. ASTM structural bolts mark the specification, such as A325 or A490, sometimes with the manufacturer's symbol; inch commercial bolts mark an SAE grade such as Grade 5 or Grade 8, or no mark on low grades. The mark does not state coating, tolerance, heat number or test method; those belong on the carton label and certificate. Know which system you hold, as the same character means different things across systems.",
             "zh": "米制螺栓标性能等级（8.8、10.9、A2-70），ASTM 结构螺栓标规范号（A325、A490）加厂标，英寸商用螺栓标等级（Grade 5、Grade 8），低等级甚至不标。标记方式本身就能告诉你手里是哪套体系。验收时应逐个核对头部标记与订单等级：米制看性能等级，ASTM 看规范号，件上无标记或标记对不上的批次不得按高强度结构件使用，应留样复核材质。",
             "hi": "मीट्रिक बोल्ट पर प्रॉपर्टी क्लास (8.8, 10.9, A2-70) की मार्किंग होती है; ASTM स्ट्रक्चरल बोल्ट पर स्पेसिफिकेशन (A325, A490) और निर्माता का निशान लगता है; इंच वाले कमर्शियल बोल्ट पर ग्रेड (Grade 5, Grade 8) का निशान होता है या निचले ग्रेड पर कोई निशान नहीं। मार्किंग की शैली से पता चलता है कि आप कौन-सी प्रणाली पकड़े हुए हैं।",
             "ru": "Метрические болты метят классом прочности: 8.8, 10.9, A2-70. Конструкционные болты ASTM несут обозначение спецификации A325 или A490 плюс метку изготовителя. Дюймовые коммерческие болты маркируют классом Grade 5 или Grade 8, а низкие классы часто остаются без метки. По стилю маркировки сразу видно, какая система перед вами, и это же облегчает приёмку на объекте.",
@@ -291,7 +291,7 @@
             "ja": "ISOボルトをASTMの代わりに使えますか？"
           },
           "a": {
-            "en": "Only after checking dimensions, thread and mechanical properties. M20 ISO bolts are close to 3/4 inch but not interchangeable in a pre-drilled hole, and ASTM A325 has different proof load requirements from 8.8. Substitution needs engineering approval, not a supplier's assurance.",
+            "en": "Only after checking dimensions, thread and mechanical properties, with engineering approval rather than a supplier's assurance. An M20 ISO bolt nears 3/4 inch but is not interchangeable in a pre-drilled hole, and ASTM A325 has different proof load requirements from an 8.8 class. Equivalence tables are an index, not a specification: identify the candidate, read both standards for joint dimensions and properties, and confirm delivered parts meet the specified one. With no equivalent, specify by function — diameter, pitch, length, head form, class, coating and tests — and have the supplier propose a matching standard.",
             "zh": "只有在核对尺寸、螺纹和机械性能之后才能考虑替代。M20 的 ISO 螺栓规格接近 3/4 英寸，但在已钻好的孔位中两者并不互换；ASTM A325 的保证载荷要求也与 8.8 级不同，不能凭公称尺寸相近就混用。任何牌号或标准之间的替代都须经工程师书面批准，不能仅凭供应商的口头保证。",
             "hi": "आयाम, धागा और यांत्रिक गुण जांचने के बाद ही यह संभव है। M20 ISO बोल्ट 3/4 इंच के करीब तो है, पर पहले से ड्रिल होल में ये एक-दूसरे के बदले नहीं चलते; ASTM A325 की प्रूफ लोड शर्तें 8.8 से अलग हैं। बदलाव के लिए इंजीनियरिंग मंजूरी चाहिए, सिर्फ सप्लायर के भरोसे पर यह फैसला नहीं लेना चाहिए।",
             "ru": "Только после проверки размеров, резьбы и механических свойств. Болт M20 по ISO близок к дюймовому 3/4 дюйма, но в заранее просверленное отверстие они не взаимозаменяемы; у ASTM A325 другие требования по контролируемой нагрузке, чем у класса 8.8. Замену допускает инженерное заключение, а не заверение поставщика: без такого подтверждения подстановка меняет несущую способность соединения.",
