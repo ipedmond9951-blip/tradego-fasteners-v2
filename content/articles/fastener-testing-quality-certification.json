@@ -228,7 +228,8 @@
             "ru": "Чем MTR отличается от сертификата соответствия COC?",
             "ar": "ما الفرق بين تقرير اختبار المصنع MTR وشهادة المطابقة COC؟",
             "es": "¿Diferencia entre el MTR y el certificado de conformidad (COC)?",
-            "fr": "Quelle différence entre MTR et certificat de conformité (COC) ?"
+            "fr": "Quelle différence entre MTR et certificat de conformité (COC) ?",
+            "pt": "Qual a diferença entre MTR e certificado de conformidade COC?"
           },
           "a": {
             "en": "A Mill Test Report (MTR) or Material Test Report contains actual measured test values from testing of the specific batch — it is quantitative data. A Certificate of Conformance (COC) or Certificate of Compliance simply states that the product meets the specified requirements — it does not provide actual test data. Always request MTRs, not just COCs. A COC from an unverified supplier could simply be a document saying 'these bolts are Grade 10.9' with no actual evidence. Insist on MTRs with actual chemical and mechanical values.",
@@ -237,7 +238,8 @@
             "ru": "Протокол испытаний материала (MTR) содержит фактические измеренные значения по конкретной партии. Сертификат соответствия (COC) лишь подтверждает, что продукция отвечает заявленным требованиям, без результатов испытаний. Всегда запрашивают MTR, а не ограничиваются COC: у непроверенного поставщика он может просто декларировать класс прочности 10.9 без доказательств. Настаивайте на MTR с реальными химическими и механическими значениями.",
             "ar": "يحتوي تقرير اختبار المصنع MTR أو تقرير اختبار المادة على قيم الاختبار الفعلية المقاسة للدفعة المحددة، وهو بيانات كمية. أما شهادة المطابقة COC فتنص فقط على أن المنتج يفي بالمتطلبات المحددة، دون تقديم بيانات اختبار فعلية. واطلب MTRs لا COCs وحدها: فشهادة من مورد غير موثق قد تكون مجرد ورقة تقول إن البراغي درجة 10.9 دون دليل فعلي، وأصر على MTRs بقيم كيميائية وميكانيكية حقيقية.",
             "es": "Lo que lleva el MTR son los valores medidos reales del lote: datos cuantitativos. El COC solo declara que cumple lo especificado, sin datos de ensayo. Pida siempre el MTR y no solo el COC, porque un certificado no verificado puede decir Grado 10.9 sin prueba. Insista en valores químicos y mecánicos reales antes de aceptar la remesa.",
-            "fr": "Un rapport d'essai d'usine (MTR) contient les valeurs mesurées réellement sur l'essai du lot : c'est une donnée quantitative. Un certificat de conformité (COC) indique simplement que le produit répond aux exigences, sans données d'essai réelles. Demandez toujours des MTR, pas seulement des COC. Un COC non vérifié peut se réduire à une déclaration de classe sans preuve. Insistez sur des MTR avec valeurs chimiques et mécaniques réelles."
+            "fr": "Un rapport d'essai d'usine (MTR) contient les valeurs mesurées réellement sur l'essai du lot : c'est une donnée quantitative. Un certificat de conformité (COC) indique simplement que le produit répond aux exigences, sans données d'essai réelles. Demandez toujours des MTR, pas seulement des COC. Un COC non vérifié peut se réduire à une déclaration de classe sans preuve. Insistez sur des MTR avec valeurs chimiques et mécaniques réelles.",
+            "pt": "O MTR contém valores reais medidos no ensaio do lote específico: dados quantitativos. O COC apenas declara que o produto atende aos requisitos, sem dados de ensaio. Devem-se pedir MTRs, não só COCs. Um COC de fornecedor não verificado pode ser só um rótulo dizendo classe 10.9, sem evidência; insista em MTR com valores químicos e mecânicos efetivos."
           }
         },
         {
@@ -248,7 +250,8 @@
             "ru": "Как проверить правильность маркировки класса прочности крепежа?",
             "ar": "كيف أتحقق من صحة علامة درجة المثبت؟",
             "es": "¿Cómo verifico que la marca de grado de la fijación es correcta?",
-            "fr": "Comment vérifier que le marquage de grade est correct ?"
+            "fr": "Comment vérifier que le marquage de grade est correct ?",
+            "pt": "Como verificar se a marcação de classe do fixador está correta?"
           },
           "a": {
             "en": "Verify markings: metric hex bolts grade 8.8 are marked '8.8' on the head; Grade 10.9 marked '10.9'; Grade 12.9 marked '12.9'; ISO standard also requires manufacturer identification mark. Imperial (UNC/UNF) grades use radial lines (3 lines for Grade 5, 6 lines for Grade 8). If in doubt, hardness testing with a portable hardness tester provides a non-destructive verification of strength. Send samples to a testing lab for full tensile testing if critical application.",
@@ -257,7 +260,8 @@
             "ru": "У метрических болтов класса прочности 8.8 на головке стоит маркировка 8.8; для 10.9 и 12.9 — соответственно 10.9 и 12.9, а стандарт ISO также требует клеймо изготовителя. Дюймовые исполнения UNC/UNF маркируются радиальными рисками: три риски для Grade 5, шесть для Grade 8. При сомнении неразрушающей проверкой служит измерение твёрдости переносным твердомером; для ответственных узлов образцы отправляют в лабораторию на полное растяжение.",
             "ar": "تحقق من العلامات: براغي سداسية مترية درجة 8.8 تحمل علامة 8.8 على الرأس، ودرجة 10.9 علامة 10.9، ودرجة 12.9 علامة 12.9، ويشترط المعيار ISO أيضًا علامة تعريف الشركة المصنعة. أما الدرجات الإمبراطورية UNC/UNF فتستخدم خطوطًا شعاعية: 3 خطوط للدرجة 5 و6 خطوط للدرجة 8. وعند الشك، يوفر اختبار الصلابة بجهاز محمول تحققًا غير إتلافي للمقاومة، وأرسل العينات إلى معمل اختبار للشد الكامل في التطبيقات الحرجة.",
             "es": "Lo que se mira es la cabeza: el 8.8 marca 8.8, el 10.9 y el 12.9 se marcan igual, e ISO exige la marca del fabricante. Los grados imperiales UNC/UNF usan líneas radiales: tres para el Grado 5 y seis para el Grado 8. En duda, un ensayo de dureza portátil verifica sin destruir; para casos críticos, envíe muestras a laboratorio.",
-            "fr": "Vérifiez les marquages : les boulons hexagonaux grade 8.8 portent « 8.8 » sur la tête ; le 10.9 porte « 10.9 » ; le 12.9 porte « 12.9 ». La norme ISO exige aussi la marque du fabricant. Les grades impériaux UNC/UNF utilisent des lignes radiales : trois pour le grade 5, six pour le grade 8. En doute, un essai de dureté portable donne une vérification non destructive ; pour une application critique, envoyez des échantillons au laboratoire."
+            "fr": "Vérifiez les marquages : les boulons hexagonaux grade 8.8 portent « 8.8 » sur la tête ; le 10.9 porte « 10.9 » ; le 12.9 porte « 12.9 ». La norme ISO exige aussi la marque du fabricant. Les grades impériaux UNC/UNF utilisent des lignes radiales : trois pour le grade 5, six pour le grade 8. En doute, un essai de dureté portable donne une vérification non destructive ; pour une application critique, envoyez des échantillons au laboratoire.",
+            "pt": "Nas marcações, 8.8, 10.9 e 12.9 vão na cabeça; a ISO exige a marca do fabricante. Classes imperiais UNC/UNF usam linhas radiais: três para Grade 5, seis para Grade 8. Em dúvida, o medidor portátil de dureza dá verificação não destrutiva; em aplicação crítica, amostras seguem para ensaio de tração em laboratório."
           }
         },
         {
@@ -268,7 +272,8 @@
             "ru": "Достаточно протоколов по партии или нужно испытывать каждый крепёж?",
             "ar": "هل تكفي تقارير اختبار الدفعة أم أحتاج اختبار كل مثبت؟",
             "es": "¿Son suficientes los informes de lote o debo ensayar cada fijación?",
-            "fr": "Les rapports de lot suffisent-ils ou faut-il tester chaque fixation ?"
+            "fr": "Les rapports de lot suffisent-ils ou faut-il tester chaque fixation ?",
+            "pt": "Relatórios de lote bastam ou é preciso testar cada fixador?"
           },
           "a": {
             "en": "Batch testing is standard industry practice — one sample per batch is destructively tested to represent the entire batch. Batch sizes vary by manufacturer, typically 1,000-10,000 pieces per batch for hex bolts. For construction codes that require it (ASTM A325, A490), specific sampling rates are defined in the standard. For most standard applications, MTRs from the manufacturer's batch testing are sufficient. For extremely critical applications (seismic, nuclear, aerospace), 100% testing (every fastener tested) may be required, which significantly increases cost.",
@@ -277,7 +282,8 @@
             "ru": "Стандартная практика — испытания по партии: один разрушаемый образец представляет всю партию. Размер партии у разных производителей различается, обычно 1 000–10 000 штук у шестигранных болтов; где требует норма (ASTM A325, A490), частоту отбора задаёт сам стандарт. Для обычных приложений MTR заводских испытаний партии достаточно. В особо ответственных узлах (сейсмика, авиация) возможен 100% контроль каждого изделия, что повышает стоимость.",
             "ar": "اختبار الدفعة هو الممارسة القياسية في الصناعة: تختبر عينة واحدة من الدفعة بطريقة إتلافية لتمثيل كامل الدفعة. وتختلف أحجام الدفعات حسب المصنع، وعادة 1,000–10,000 قطعة لكل دفعة من البراغي السداسية. وللأكواد الإنشائية ASTM A325 وA490، تحدد معدلات أخذ العينات في المعيار. ولمعظم التطبيقات القياسية، تكفي MTRs من اختبار دفعة المصنع، أما التطبيقات الحرجة للغاية فقد يلزم اختبار 100% من كل مثبت، مما يرفع التكلفة بشكل كبير.",
             "es": "Lo que es práctica habitual es el ensayo por lote: una muestra se destruye para representar al conjunto. El lote varía por fabricante, entre 1.000 y 10.000 piezas en pernos hexagonales; códigos como ASTM A325 y A490 definen el muestreo. En usos estándar bastan los MTR; en casos extremos puede exigirse el 100% de ensayo, con coste alto.",
-            "fr": "L'essai par lot est la pratique standard : un échantillon par lot est détruit à l'essai pour représenter l'ensemble. La taille de lot varie selon le fabricant et le code produit. Pour les codes qui l'exigent (ASTM A325, A490), des taux d'échantillonnage précis sont définis. Pour la plupart des applications standard, les MTR du fabricant suffisent ; pour les applications critiques, un contrôle à 100 % peut être requis."
+            "fr": "L'essai par lot est la pratique standard : un échantillon par lot est détruit à l'essai pour représenter l'ensemble. La taille de lot varie selon le fabricant et le code produit. Pour les codes qui l'exigent (ASTM A325, A490), des taux d'échantillonnage précis sont définis. Pour la plupart des applications standard, les MTR du fabricant suffisent ; pour les applications critiques, un contrôle à 100 % peut être requis.",
+            "pt": "O ensaio de lote é prática padrão: uma amostra por lote é ensaiada destrutivamente para representar o conjunto. Lotes variam por fabricante, de 1.000 a 10.000 peças em parafusos sextavados. Em códigos como A325 e A490, a amostragem é definida na norma. Para a maioria dos usos, os MTRs do lote bastam; em aplicações críticas como sísmica ou nuclear, pode-se exigir ensaio 100%, que eleva o custo."
           }
         }
       ],
