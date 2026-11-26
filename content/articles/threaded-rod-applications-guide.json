@@ -173,7 +173,8 @@
             "ru": "Какую длину шпильки (threaded rod) заказывать?",
             "ar": "ما طول قضيب الخيط الذي ينبغي طلبه؟",
             "es": "¿Qué longitud de varilla roscada debo pedir?",
-            "fr": "Quelle longueur de tige filetée commander ?"
+            "fr": "Quelle longueur de tige filetée commander ?",
+            "pt": "Que comprimento de barra roscada pedir?"
           },
           "a": {
             "en": "Order slightly longer than needed, then cut to exact length on-site. Standard lengths of 1m, 2m, and 3m cover most requirements. For custom lengths, contact TradeGo for availability.",
@@ -182,7 +183,8 @@
             "ru": "Берут немного длиннее расчётной величины, а точный размер режут уже на объекте. Стандартные длины 1 м, 2 м и 3 м закрывают большинство задач. Нестандартную длину уточняют у поставщика перед заказом, чтобы не закладывать лишний металл или недолёт по монтажу.",
             "ar": "اطلب أطول قليلاً من اللازم ثم قصّه إلى الطول الدقيق في الموقع. وتغطي الأطوال القياسية 1م و2م و3م معظم الاحتياجات، وتتوفر أطوال خاصة عند الاستفسار عن مدى التوفّر. ويجنبك الترتيب على مقاس قصير جداً الاضطرار إلى وصلة إضافية، ويقلل الفائض الطويل من الهدر عند القص.",
             "es": "Pida una longitud algo mayor de la necesaria y corte después la medida exacta en obra. Las longitudes estándar de 1 m, 2 m y 3 m cubren la mayoría de necesidades. Para longitudes especiales, consulte la disponibilidad con TradeGo. La rosca debe protegerse en el corte para no dañar el tramo final.",
-            "fr": "Commander une longueur légèrement supérieure au besoin, puis couper à la cote exacte sur place. Les longueurs standard de 1 m, 2 m et 3 m couvrent la plupart des besoins. Pour les longueurs sur mesure, on vérifie la disponibilité auprès du fournisseur avant commande. Une réserve de coupe évite une livraison trop courte impossible à rattraper."
+            "fr": "Commander une longueur légèrement supérieure au besoin, puis couper à la cote exacte sur place. Les longueurs standard de 1 m, 2 m et 3 m couvrent la plupart des besoins. Pour les longueurs sur mesure, on vérifie la disponibilité auprès du fournisseur avant commande. Une réserve de coupe évite une livraison trop courte impossible à rattraper.",
+            "pt": "Pede-se um pouco mais longo que o necessário e corta-se no local ao comprimento exato. Comprimentos padrão de 1 m, 2 m e 3 m cobrem a maioria das necessidades. Para comprimentos personalizados, consulta-se a disponibilidade com o fornecedor. O excesso de haste é cortado antes da montagem, e a extremidade cortada recebe retocagem de revestimento quando aplicável."
           }
         },
         {
@@ -193,7 +195,8 @@
             "ru": "Можно ли шпильку использовать для крепей подземных горных выработок?",
             "ar": "هل يمكن استخدام قضبان الخيط في دعامات التعدين تحت الأرض؟",
             "es": "¿Puede usarse la varilla roscada en sostenimiento minero subterráneo?",
-            "fr": "La tige filetée peut-elle servir en soutènement minier souterrain ?"
+            "fr": "La tige filetée peut-elle servir en soutènement minier souterrain ?",
+            "pt": "A barra roscada serve para sustentação de mina subterrânea?"
           },
           "a": {
             "en": "Yes, but use appropriate material for the environment. Hot-dip galvanized or stainless steel for humid underground conditions. Some mining applications require specialized corrosion-resistant coatings.",
@@ -202,7 +205,8 @@
             "ru": "Да, но материал подбирают под среду: для влажных подземных условий — горячее цинкование (HDG) или нержавеющая сталь. Отдельные горные применения требуют специальных антикоррозионных покрытий, рассчитанных на агрессивную среду выработки.",
             "ar": "نعم، لكن استخدم المادة المناسبة للبيئة: جلفنة بالغمس الساخن أو فولاذ مقاوم للصدأ في الظروف الرطبة تحت الأرض. وتحتاج بعض تطبيقات التعدين إلى طلاءات مقاومة للتآكل متخصصة، خاصة في المناطق المشبعة بالماء أو المواد الكيميائية. وحدد الدرجة والطلاء مع مهندس المنجم قبل الطلب لتجنب تقصير عمر الخدمة في الدعامات الحاملة.",
             "es": "Sí, pero con el material adecuado para el entorno. En condiciones subterráneas húmedas se usa galvanizado en caliente o acero inoxidable. Algunas aplicaciones mineras requieren recubrimientos especiales resistentes a la corrosión. La clase de acero y el recubrimiento se fijan según el agua y el polvo de la galería.",
-            "fr": "Oui, mais avec le matériau adapté au milieu. Galvanisé à chaud ou inox pour les conditions humides souterraines. Certaines applications minières exigent des revêtements résistants à la corrosion spécialisés. On spécifie la classe et le revêtement selon l'eau, l'humidité et les produits chimiques du site, et l'on contrôle la traçabilité matière du lot."
+            "fr": "Oui, mais avec le matériau adapté au milieu. Galvanisé à chaud ou inox pour les conditions humides souterraines. Certaines applications minières exigent des revêtements résistants à la corrosion spécialisés. On spécifie la classe et le revêtement selon l'eau, l'humidité et les produits chimiques du site, et l'on contrôle la traçabilité matière du lot.",
+            "pt": "Sim, mas usa-se material adequado ao ambiente. Galvanizado a quente ou inoxidável para condições subterrâneas úmidas. Algumas aplicações de mineração exigem revestimentos especiais resistentes à corrosão. A escolha segue a umidade, a infiltração e a vibração do trecho, e a rastreabilidade do lote deve permitir isolamento de peças defeituosas."
           }
         },
         {
@@ -213,7 +217,8 @@
             "ru": "Чем отличается мелкая резьба от крупной?",
             "ar": "ما الفرق بين الخيط الناعم والخيط الخشن؟",
             "es": "¿Qué diferencia hay entre rosca fina y rosca gruesa?",
-            "fr": "Différence filetage fin et filetage gros ?"
+            "fr": "Différence filetage fin et filetage gros ?",
+            "pt": "Qual a diferença entre rosca fina e rosca grossa?"
           },
           "a": {
             "en": "Coarse thread (standard metric) is easier to assemble and provides better fatigue resistance. Fine thread offers better adjustment precision and higher load capacity in the same diameter.",
@@ -222,7 +227,8 @@
             "ru": "Крупная резьба (стандартная метрическая) проще собирается и лучше сопротивляется усталостным нагрузкам. Мелкая обеспечивает более точную регулировку и при том же диаметре несёт повышенную нагрузку; выбор резьбы решает сопряжение с гайками и муфтами в узле.",
             "ar": "الخيط الخشن (المتري القياسي) أسهل في التجميع ويمنح مقاومة أفضل للتعب. أما الخيط الناعم فيوفر دقة ضبط أعلى وقدرة حمل أكبر في نفس القطر. والاختيار بينهما يعتمد على حركة الضبط المطلوبة وطبيعة الحمل؛ فالوصلات التي تحتاج ضبطاً دقيقاً تميل للناعم، والتجميع السريع والتحميل الديناميكي يميل للخشن.",
             "es": "La rosca gruesa (métrica estándar) es más fácil de montar y da mejor resistencia a la fatiga. La rosca fina ofrece mayor precisión de ajuste y capacidad de carga en el mismo diámetro. La elección depende de la carga, del espacio de apriete y de la necesidad de regulación de la unión.",
-            "fr": "Le filetage gros (métrique standard) est plus facile à assembler et offre une meilleure résistance en fatigue. Le filetage fin apporte une meilleure précision de réglage et une capacité de charge plus élevée dans le même diamètre. Le choix suit l'usage : assemblage rapide vs réglage fin et reprise de charge."
+            "fr": "Le filetage gros (métrique standard) est plus facile à assembler et offre une meilleure résistance en fatigue. Le filetage fin apporte une meilleure précision de réglage et une capacité de charge plus élevée dans le même diamètre. Le choix suit l'usage : assemblage rapide vs réglage fin et reprise de charge.",
+            "pt": "A rosca grossa, métrica padrão, é mais fácil de montar e oferece melhor resistência à fadiga. A rosca fina dá melhor precisão de ajuste e capacidade de carga maior no mesmo diâmetro. A escolha depende da função da junta, do material base e da necessidade de regulagem, e a série de rosca é declarada na especificação do pedido."
           }
         },
         {
@@ -233,7 +239,8 @@
             "ru": "Как резать шпильку на объекте?",
             "ar": "كيف أقص قضيب الخيط في الموقع؟",
             "es": "¿Cómo se corta la varilla roscada en obra?",
-            "fr": "Comment couper une tige filetée sur place ?"
+            "fr": "Comment couper une tige filetée sur place ?",
+            "pt": "Como cortar a barra roscada no local?"
           },
           "a": {
             "en": "Use a hacksaw with fine-tooth blade, angle grinder with cutting disc, or pipe cutter for smaller diameters. Wear safety glasses and protect threads from debris.",
@@ -242,7 +249,8 @@
             "ru": "Применяют ножовку с полотном по металлу, болгарку с отрезным диском либо труборез для малых диаметров. Обязательны защитные очки, резьбу закрывают от стружки и абразива, после резки зачищают кромку и обрабатывают срез против коррозии.",
             "ar": "استخدم منشاراً أيدياً بنصل ذي أسنان دقيقة، أو طاحونة زاوية بقرص قطع، أو مقص أنابيب للأقطار الصغيرة. وارتد نظارات السلامة، واحمِ الخيوط من الشظايا والرواسب بعد القص. وأزل النتوءات من طرف القص قبل التجميع، لأن الخيط التالف عند الطرف يعيق الإدخال السليم للصامولة.",
             "es": "Use una sierra de arco con hoja de diente fino, una radial con disco de corte, o un cortatubos para diámetros pequeños. Lleve gafas de protección y proteja la rosca frente a los restos de corte. Después del corte se revisa el extremo para eliminar rebabas antes del montaje.",
-            "fr": "Utiliser une scie à métaux à lame fine, une meuleuse d'angle avec disque à tronçonner, ou un coupe-tube pour les petits diamètres. Porter des lunettes de protection et protéger les filets des copeaux. Après coupe, on ébavure l'extrémité et l'on contrôle que le filet reste engageable sur l'écrou."
+            "fr": "Utiliser une scie à métaux à lame fine, une meuleuse d'angle avec disque à tronçonner, ou un coupe-tube pour les petits diamètres. Porter des lunettes de protection et protéger les filets des copeaux. Après coupe, on ébavure l'extrémité et l'on contrôle que le filet reste engageable sur l'écrou.",
+            "pt": "Usa-se serra manual com lâmina de dente fino, esmerilhadeira com disco de corte, ou cortador de tubo para diâmetros menores. Usa-se óculos de proteção e protegem-se as roscas de resíduos. Após o corte, a extremidade é limpa e o revestimento original é retocado, para que a ponta cortada não se torne o primeiro ponto de corrosão."
           }
         },
         {
@@ -253,7 +261,8 @@
             "ru": "Можно ли сварить шпильку?",
             "ar": "هل يمكن لحام قضيب الخيط؟",
             "es": "¿Puedo soldar la varilla roscada?",
-            "fr": "Peut-on souder une tige filetée ?"
+            "fr": "Peut-on souder une tige filetée ?",
+            "pt": "Posso soldar a barra roscada?"
           },
           "a": {
             "en": "Carbon steel threaded rod can be welded using appropriate procedures. Remove any plating or coating before welding. Stainless rod requires specialized welding techniques.",
@@ -262,7 +271,8 @@
             "ru": "Шпильку из углеродистой стали можно сваривать по отработанной технологии, но перед сваркой удаляют гальванику или покрытие. Нержавеющая шпилька требует специальных режимов сварки и присадочной проволоки, иначе шов теряет стойкость и прочность.",
             "ar": "يمكن لحام قضيب الخيط من الفولاذ الكربوني باتباع الإجراءات المناسبة، مع إزالة أي طلاء زنك أو طبقة قبل اللحام، لأن دخان الطلاء يضعف المعدن الملحوم. أما قضيب الفولاذ المقاوم للصدأ فيحتاج تقنيات لحام متخصصة ومعدن تعبئة مناسب، ويستحسن مراجعة إجراء اللحام مع المهندس قبل التنفيذ في الوصلات الحاملة.",
             "es": "La varilla de acero al carbono puede soldarse con los procedimientos adecuados. Antes de soldar hay que retirar cualquier zincado o recubrimiento. La varilla inoxidable requiere técnicas de soldadura especializadas. En cargas estructurales, la unión soldada debe revisarse según el procedimiento de la obra.",
-            "fr": "La tige filetée en acier carbone peut être soudée avec les procédures adaptées. Retirer tout dépôt de zinc ou revêtement avant soudage. La tige inox exige des techniques de soudage spécialisées. On vérifie la compatibilité du matériau et l'état du traitement thermique avant de concevoir un assemblage soudé."
+            "fr": "La tige filetée en acier carbone peut être soudée avec les procédures adaptées. Retirer tout dépôt de zinc ou revêtement avant soudage. La tige inox exige des techniques de soudage spécialisées. On vérifie la compatibilité du matériau et l'état du traitement thermique avant de concevoir un assemblage soudé.",
+            "pt": "A barra roscada de aço-carbono pode ser soldada com procedimentos adequados. Remove-se qualquer galvanização ou revestimento antes da solda. A barra de inoxidável exige técnicas de solda especializadas. Em carga estrutural, a extensão por solda não é recomendada: prefere-se acoplamento roscado de mesma classe e diâmetro, e a junta soldada segue procedimento qualificado."
           }
         }
       ]
