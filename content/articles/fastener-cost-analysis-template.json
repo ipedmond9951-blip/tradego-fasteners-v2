@@ -146,7 +146,8 @@
             "ru": "Какие главные вопросы разбирает шаблон анализа стоимости крепежа?",
             "ar": "ما الاعتبارات الأساسية في نموذج تحليل تكلفة المثبتات؟",
             "es": "¿Qué incluye un análisis de coste real de fijaciones?",
-            "fr": "Quels points clés dans un modèle d'analyse de coût des fixations ?"
+            "fr": "Quels points clés dans un modèle d'analyse de coût des fixations ?",
+            "pt": "Quais pontos cobrir no modelo de análise de custo de fixadores?"
           },
           "a": {
             "en": "See the detailed analysis above for specifications, applications, and best practices for fastener cost analysis template.",
@@ -155,7 +156,8 @@
             "ru": "Шаблон помогает разложить цену по позициям и сравнить поставщиков по спецификации, области применения и практике закупок: от выбора класса прочности и покрытия до условий поставки, проверки качества и претензионной работы. Главное — свести в одну таблицу все затраты и критерии, а не опираться на одну лишь заявленную цену.",
             "ar": "يقوم التحليل على ثلاثة محاور: حساب التكلفة الحقيقية حتى وصول البضاعة، ومصفوفة مقارنة الموردين، وسبل خفض التكلفة دون المساس بالجودة. ويجب أن تشمل التكلفة الحقيقية سعر الوحدة والشحن والتأمين والرسوم والفحص، لا سعر FOB وحده. وتقارن الجهات على أساس التكلفة الإجمالية والالتزام بالمواصفات وسجل الرفض، أما خفض التكلفة فيكون بتوحيد المواصفات وتجميع الشحنات لا بإنزال الشهادات أو تقليل الطلاء.",
             "es": "El análisis de coste solo es útil si cuenta los costes que la cotización deja fuera. El precio unitario es una línea en una lista más larga, donde suele vivir la diferencia entre dos proveedores. La plantilla recoge precio de material, recargo de recubrimiento, embalaje, transporte, inspección y el coste de un lote fallido, de modo que dos ofertas se comparen sobre la misma base.",
-            "fr": "Une analyse de coût n'est utile que si elle compte les postes qu'un devis omet. Le prix unitaire cité n'est qu'une ligne d'une liste plus longue, et c'est là que se situe l'écart entre deux fournisseurs. Le modèle doit décomposer le coût arrivé complet, la qualité documentaire et le risque d'un lot défaillant, plutôt que retenir le seul prix affiché."
+            "fr": "Une analyse de coût n'est utile que si elle compte les postes qu'un devis omet. Le prix unitaire cité n'est qu'une ligne d'une liste plus longue, et c'est là que se situe l'écart entre deux fournisseurs. Le modèle doit décomposer le coût arrivé complet, la qualité documentaire et le risque d'un lot défaillant, plutôt que retenir le seul prix affiché.",
+            "pt": "Este guia reúne especificações, aplicações e boas práticas para o modelo de análise de custo de fixadores, conforme a análise acima. A análise parte do custo real landed, não do preço FOB isolado, e cobre frete, seguro, impostos, inspeção e o risco de lote rejeitado. Cada item de custo é conferido contra a cotação do fornecedor e a condição de embarque, para que a comparação entre propostas seja equivalente."
           }
         },
         {
@@ -166,7 +168,8 @@
             "ru": "Что входит в полную себестоимость крепежа при доставке?",
             "ar": "ماذا تدخل في التكلفة الإجمالية للمثبتات؟",
             "es": "¿Qué entra en el coste landed real de las fijaciones?",
-            "fr": "Qu'est-ce qu'un vrai coût arrivé des fixations ?"
+            "fr": "Qu'est-ce qu'un vrai coût arrivé des fixations ?",
+            "pt": "O que entra no custo landed real de fixadores?"
           },
           "a": {
             "en": "Unit price, ocean freight, insurance, duty and VAT, port charges and demurrage risk, inland haulage, inspection and testing, and the cost of a failed lot. Quotes that stop at FOB hide most of the number that matters.",
@@ -175,7 +178,8 @@
             "ru": "В свободную доставленную стоимость (landed cost) входят цена за единицу, морской фрахт, страховка, пошлина и НДС, портовые сборы и риск простоя, внутренняя перевозка до склада, инспекция и испытания, а также стоимость некондиционной партии. Котировки, ограниченные условием FOB, скрывают большую часть тех затрат, которые реально влияют на итоговую цифру.",
             "ar": "سعر الوحدة، والشحن البحري، والتأمين، والرسوم الجمركية وضريبة القيمة المضافة، ورسوم الميناء وخطر التأخير في الرسو، والنقل الداخلي، والفحص والاختبار، وتكلفة الدفعة الفاشلة. والعروض التي تتوقف عند FOB تخفي معظم الأرقام التي تهم فعلاً. ويُحسب كل بند حسب حجم الطلب ووسيلة الشحن، وتضاف مخاطرة الدفعة المعيبة عند تقييم المورد.",
             "es": "Precio unitario, flete marítimo, seguro, arancel e IVA, cargas portuarias y riesgo de demora, transporte interior, inspección y ensayo, y el coste de un lote fallido. Las cotizaciones que se quedan en FOB ocultan la mayor parte del número que importa. Por eso se compara el coste hasta obra, no el precio FOB de catálogo.",
-            "fr": "Prix unitaire, fret maritime, assurance, droit et TVA, frais portuaires et risque de surestarie, transport intérieur, inspection et essais, et le coût d'un lot raté. Les devis arrêtés au FOB masquent l'essentiel du nombre qui compte. Chaque poste doit être chiffré pour comparer deux offres sur la même base."
+            "fr": "Prix unitaire, fret maritime, assurance, droit et TVA, frais portuaires et risque de surestarie, transport intérieur, inspection et essais, et le coût d'un lot raté. Les devis arrêtés au FOB masquent l'essentiel du nombre qui compte. Chaque poste doit être chiffré pour comparer deux offres sur la même base.",
+            "pt": "Preço unitário, frete marítimo, seguro, imposto e IVA, tarifas portuárias e risco de sobreestadia, transporte interno, inspeção e ensaio, e o custo de um lote reprovado. Cotações que param no FOB escondem a maior parte do número que importa. A comparação entre fornecedores deve usar o custo landed por mil peças, e não o preço FOB unitário isolado."
           }
         },
         {
@@ -186,7 +190,8 @@
             "ru": "По каким параметрам сравнивают поставщиков в матрице?",
             "ar": "أي الأبعاد تستخدمها مصفوفة مقارنة الموردين؟",
             "es": "¿Qué dimensiones debe usar una matriz de comparación de proveedores?",
-            "fr": "Quels critères pour une matrice de comparaison fournisseurs ?"
+            "fr": "Quels critères pour une matrice de comparaison fournisseurs ?",
+            "pt": "Quais dimensões usar em uma matriz de comparação de fornecedores?"
           },
           "a": {
             "en": "Landed cost per thousand pieces, quoted lead time versus actual, certificate completeness, historical reject rate, response time on claims, and willingness to accept inspection. Weighting only price guarantees the cheapest compliant-looking bid wins.",
@@ -195,7 +200,8 @@
             "ru": "Сравнение ведут по себестоимости на тысячу штук, заявленному и фактическому сроку поставки, полноте сертификатов, историческому проценту брака, скорости ответа на претензии и готовности принять инспекцию. Если взвешивать только цену, побеждает самый дешёвый внешне подходящий тендер, а не самый надёжный.",
             "ar": "التكلفة الإجمالية لكل ألف قطعة، وزمن التسليم المعروض مقابل الفعلي، اكتمال الشهادات، معدل الرفض التاريخي، زمن الاستجابة للمطالبات، والاستعداد لقبول الفحص. وترجيح السعر وحده يضمن فوز العطاء الأرخص الذي يبدو مطابقاً فقط. ويجب أن تزن المصفوفة جودة المستندات وسجل التعادل مع السعر، لا أن تكتفي بالسعر الأدنى.",
             "es": "Coste landed por millar de piezas, plazo cotizado frente al real, completitud de certificados, tasa de rechazo histórica, tiempo de respuesta en reclamaciones y disposición a aceptar inspección. Ponderar solo el precio garantiza que gane la oferta más barata que parece cumplir, aunque luego falle en calidad o documento.",
-            "fr": "Coût arrivé par millier de pièces, délai annoncé vs réel, complétude des certificats, taux de rebut historique, temps de réponse aux réclamations et acceptation de l'inspection. Pondérer uniquement le prix garantit l'offre la moins chère d'apparence conforme qui l'emporte, au détriment de la fiabilité."
+            "fr": "Coût arrivé par millier de pièces, délai annoncé vs réel, complétude des certificats, taux de rebut historique, temps de réponse aux réclamations et acceptation de l'inspection. Pondérer uniquement le prix garantit l'offre la moins chère d'apparence conforme qui l'emporte, au détriment de la fiabilité.",
+            "pt": "Custo landed por mil peças, prazo cotado versus real, completude dos certificados, taxa histórica de rejeição, tempo de resposta a reclamações e disposição a aceitar inspeção. Ponderar apenas o preço garante que vença a proposta mais barata com aparência compatível. A matriz registra cada critério com peso, e o histórico de desempenho alimenta a avaliação do próximo pedido."
           }
         },
         {
@@ -206,7 +212,8 @@
             "ru": "Как снизить стоимость без потери качества?",
             "ar": "كيف أخفض التكلفة دون خفض الجودة؟",
             "es": "¿Cómo recortar coste sin recortar calidad?",
-            "fr": "Comment réduire le coût sans baisser la qualité ?"
+            "fr": "Comment réduire le coût sans baisser la qualité ?",
+            "pt": "Como cortar custo sem cortar qualidade?"
           },
           "a": {
             "en": "Reduce specification variety so factories run longer campaigns, drop coatings that exceed the actual environment, consolidate shipments to fill containers, and standardise on one thread tolerance. Removing certification or downgrading coating is not cost reduction, it is risk transfer.",
@@ -215,7 +222,8 @@
             "ru": "Сокращайте разнообразие спецификаций, чтобы заводы вели более длинные партии; откажитесь от покрытий, превышающих реальные условия среды; объединяйте отгрузки для наполнения контейнера и сведите резьбовые допуски к одному. Снятие сертификации или понижение класса покрытия — это не экономия, а перенос риска на заказчика.",
             "ar": "قلل تنوع المواصفات لتمكين المصانع من تشغيل حملات إنتاج أطول، وأسقط الطلاءات التي تتجاوز البيئة الفعلية، وجمّع الشحنات لملء الحاويات، ووحد تحمل الخيط على مستوى واحد. وإزالة الشهادة أو إنزال مستوى الطلاء ليس خفضاً للتكلفة بل تحويلاً للمخاطرة. ويوضح النموذج أن الادخار الحقيقي يأتي من حجم التشغيل والمتابعة لا من التنازل عن المتطلبات.",
             "es": "Reduzca la variedad de especificación para que las fábricas hagan campañas más largas, quite recubrimientos que superan el entorno real, consolide envíos para llenar contenedores y estandarice una tolerancia de rosca. Quitar certificación o bajar el recubrimiento no es reducción de coste, es transferencia de riesgo.",
-            "fr": "Réduire la variété de spécifications pour que les usines tournent de longues campagnes, retirer les revêtements au-delà du milieu réel, consolider les expéditions pour remplir les conteneurs, et standardiser une tolérance de filet. Retirer une certification ou déclasser un revêtement n'est pas une réduction de coût : c'est un transfert de risque."
+            "fr": "Réduire la variété de spécifications pour que les usines tournent de longues campagnes, retirer les revêtements au-delà du milieu réel, consolider les expéditions pour remplir les conteneurs, et standardiser une tolérance de filet. Retirer une certification ou déclasser un revêtement n'est pas une réduction de coût : c'est un transfert de risque.",
+            "pt": "Reduz-se a variedade de especificações para que as fábricas rodem campanhas mais longas, descartam revestimentos acima do ambiente real, consolidam embarques para completar contêineres, e padronizam uma tolerância de rosca. Remover certificação ou rebaixar revestimento não é redução de custo: é transferência de risco. A economia vem de padronização e volume, não de enfraquecer a especificação."
           }
         }
       ]
