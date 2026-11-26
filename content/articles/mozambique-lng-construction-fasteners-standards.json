@@ -297,7 +297,8 @@
             "hi": "LNG निर्माण फास्टनरों पर कौन-से मानक लागू होते हैं?",
             "ru": "Какие международные стандарты действуют для крепежа на строительстве СПГ в Мозамбике?",
             "ar": "ما المعايير الدولية المطبقة على مثبتات إنشاءات الغاز المسال بموزمبيق؟",
-            "es": "¿Qué normas aplican a fijaciones de obra LNG en Mozambique?"
+            "es": "¿Qué normas aplican a fijaciones de obra LNG en Mozambique?",
+            "fr": "Quelles normes pour les fixations du chantier LNG au Mozambique ?"
           },
           "a": {
             "en": "The core set is ISO 898-1 for mechanical properties, ISO 4014 and 4017 for hex bolt dimensions, and ISO 1461 for hot-dip galvanising. Cryogenic and sour service packages add ASTM A193 or A320 grades, often with NACE MR0175 for wet H2S.",
@@ -306,7 +307,8 @@
             "hi": "मुख्य सेट में यांत्रिक गुणों के लिए ISO 898-1, हेक्स बोल्ट माप के लिए ISO 4014 और 4017, हॉट-डिप गैल्वनाइज़िंग के लिए ISO 1461 शामिल हैं। क्रायोजेनिक और सॉर्स सर्विस पैकेज में ASTM A193 या A320 ग्रेड जुड़ते हैं, गीले H2S वाली स्थिति में अक्सर NACE MR0175 भी मांगा जाता है। ऑर्डर में मानक संख्या और ग्रेड दोनों स्पष्ट लिखें, ताकि सप्लायर वही सामान भेजे जो साइट की परियोजना विनिर्देश मांगता है।",
             "ru": "Основа набора: ISO 898-1 по механическим свойствам, ISO 4014 и 4017 по размерам болтов с шестигранной головкой, ISO 1461 по горячему цинкованию. Для криогенных и сернистых сред добавляют марки ASTM A193 или A320, часто с требованием NACE MR0175 для влажного H2S.",
             "ar": "المجموعة الأساسية هي ISO 898-1 للخواص الميكانيكية، وISO 4014 و4017 لأبعاد البراغي السداسية، وISO 1461 للجلفنة بالغمس الساخن. وتضيف باقات الخدمة المبردة والكبريتية درجات ASTM A193 أو A320، وغالبًا مع NACE MR0175 لظروف H2S الرطبة.",
-            "es": "El conjunto base es ISO 898-1 para propiedades mecánicas, ISO 4014 y 4017 para dimensiones de perno hexagonal, e ISO 1461 para galvanizado en caliente. Los paquetes de servicio criogénico y con ácido sulfídrico añaden grados ASTM A193 o A320, a menudo con NACE MR0175 para H2S húmedo. La norma se elige según el servicio y la temperatura de la unidad."
+            "es": "El conjunto base es ISO 898-1 para propiedades mecánicas, ISO 4014 y 4017 para dimensiones de perno hexagonal, e ISO 1461 para galvanizado en caliente. Los paquetes de servicio criogénico y con ácido sulfídrico añaden grados ASTM A193 o A320, a menudo con NACE MR0175 para H2S húmedo. La norma se elige según el servicio y la temperatura de la unidad.",
+            "fr": "L'ensemble de base est l'ISO 898-1 pour les propriétés mécaniques, l'ISO 4014 et 4017 pour les dimensions des boulons hexagonaux, et l'ISO 1461 pour la galvanisation à chaud. Les packages cryogéniques et service sulfureux ajoutent des grades ASTM A193 ou A320, souvent avec NACE MR0175 pour le H2S humide. Chaque norme couvre un aspect : matière, dimension ou protection. Les conditions de service imposent les compléments de grade."
           }
         },
         {
@@ -317,7 +319,8 @@
             "hi": "LNG साइट पर फास्टनर अनुरूपता कैसे जांची जाती है?",
             "ru": "Как проверяют соответствие крепежа на площадке СПГ?",
             "ar": "كيف يُتحقق من مطابقة المثبتات في موقع الغاز المسال؟",
-            "es": "¿Cómo se verifica el cumplimiento de fijaciones en un sitio LNG?"
+            "es": "¿Cómo se verifica el cumplimiento de fijaciones en un sitio LNG?",
+            "fr": "Comment vérifie-t-on la conformité sur un site LNG ?"
           },
           "a": {
             "en": "In three phases: incoming inspection on arrival, documentation and traceability review against heat numbers, and ongoing monitoring during operation. Each phase checks a different object, which is why missing mill certificates cannot be fixed later at site.",
@@ -326,7 +329,8 @@
             "hi": "तीन चरणों में: पहुंचने पर आने वाली माल का निरीक्षण, हीट नंबर के हिसाब से दस्तावेज़ और ट्रेसेबिलिटी की समीक्षा, तथा चल रहे परिचालन के दौरान लगातार निगरानी। हर चरण अलग चीज़ पर जांच करता है, इसलिए मिल सर्टिफिकेट की कमी साइट पर बाद में नहीं भरी जा सकती। निरीक्षण के दायरे और रिकॉर्ड फॉर्मेट को ऑर्डर से पहले ही तय करना बेहतर रहता है।",
             "ru": "В три этапа: входной контроль при поступлении, проверка документации и прослеживаемость по плавкам (heat numbers), а также текущее наблюдение в период эксплуатации. На каждом этапе проверяется свой объект, поэтому отсутствие заводских сертификатов потом на площадке уже не исправить.",
             "ar": "على ثلاث مراحل: فحص عند الوصول، ومراجعة المستندات وقابلية التتبع مقابل أرقام السباكة، والمراقبة المستمرة أثناء التشغيل. وتفحص كل مرحلة هدفًا مختلفًا، لذلك لا يمكن تعويض شهادات المصنع الناقصة لاحقًا في الموقع.",
-            "es": "En tres fases: inspección de entrada a la llegada, revisión de documentación y trazabilidad contra números de colada, y monitoreo continuo durante la operación. Cada fase revisa un objeto distinto, y por eso un certificado de fábrica faltante no se puede remediar después en obra. El seguimiento acompaña la pieza desde la llegada hasta el servicio."
+            "es": "En tres fases: inspección de entrada a la llegada, revisión de documentación y trazabilidad contra números de colada, y monitoreo continuo durante la operación. Cada fase revisa un objeto distinto, y por eso un certificado de fábrica faltante no se puede remediar después en obra. El seguimiento acompaña la pieza desde la llegada hasta el servicio.",
+            "fr": "En trois phases : inspection réception à l'arrivée, revue des documents et de la traçabilité contre les numéros de coulée, et surveillance continue en exploitation. Chaque phase contrôle un objet différent, c'est pourquoi des certificats matière manquants ne peuvent pas être rattrapés plus tard sur site. La traçabilité relie chaque boulon à son certificat. Une lacune en réception devient une non-conformité en service."
           }
         },
         {
@@ -337,7 +341,8 @@
             "hi": "मिल शुरू होने से पहले खरीद को क्या पक्का कर लेना चाहिए?",
             "ru": "Что закупке нужно зафиксировать до начала производства на заводе?",
             "ar": "ما الذي يثبته المشتري قبل بدء الإنتاج في المصنع؟",
-            "es": "¿Qué debe cerrar la compra antes de que arranque la fábrica?"
+            "es": "¿Qué debe cerrar la compra antes de que arranque la fábrica?",
+            "fr": "Que verrouiller avant le lancement de la fabrication ?"
           },
           "a": {
             "en": "Material grade and impact-testing temperature, coating system and thickness, marking and traceability format, and the third-party inspection scope. Fixing these before fabrication avoids re-work that an LNG schedule cannot absorb.",
@@ -346,7 +351,8 @@
             "hi": "मटेरियल ग्रेड और इम्पैक्ट टेस्टिंग तापमान, कोटिंग सिस्टम और मोटाई, मार्किंग तथा ट्रेसेबिलिटी का फॉर्मेट, और तीसरे पक्ष निरीक्षण का दायरा। फैब्रिकेशन से पहले ये चीज़ें तय कर लेने पर वह दोबारा काम नहीं पड़ता, जिसे LNG शेड्यूल में जगह नहीं होती। ऑर्डर दस्तावेज़ में हर बिंदु लिखित रूप से दर्ज करें, बाद में मौखिक सहमति पर भरोसा न करें।",
             "ru": "Марку стали и температуру ударных испытаний, систему покрытия и его толщину, формат маркировки и прослеживаемости, а также объём сторонней инспекции. Эти условия фиксируют до изготовления, чтобы избежать переделок, которые график проекта СПГ не позволяет.",
             "ar": "درجة المادة ودرجة حرارة اختبار الصدم، ونظام الطلاء وسمكه، وصيغة العلامة وقابلية التتبع، ونطاق فحص الطرف الثالث. وتثبيت هذه العناصر قبل التصنيع يجنب إعادة العمل التي لا تستوعبها جدولة مشاريع الغاز المسال.",
-            "es": "Grado de material y temperatura de ensayo de impacto, sistema y espesor de recubrimiento, formato de marcación y trazabilidad, y el alcance de la inspección de terceros. Fijar esto antes de la fabricación evita retrabajos que un calendario LNG no puede absorber. Los acuerdos previos dejan claro qué se acepta y cómo se verifica."
+            "es": "Grado de material y temperatura de ensayo de impacto, sistema y espesor de recubrimiento, formato de marcación y trazabilidad, y el alcance de la inspección de terceros. Fijar esto antes de la fabricación evita retrabajos que un calendario LNG no puede absorber. Los acuerdos previos dejan claro qué se acepta y cómo se verifica.",
+            "fr": "Le grade matière et la température d'essai de choc, le système de revêtement et son épaisseur, le format de marquage et de traçabilité, et le périmètre d'inspection tierce. Figer ces éléments avant la fabrication évite une reprise qu'un calendrier LNG ne peut absorber. Chaque décision se traduit sur le dessin et la commande. Un changement tardif remet en cause l'ensemble du lot. La revue de conception précède le lancement de production."
           }
         }
       ]
