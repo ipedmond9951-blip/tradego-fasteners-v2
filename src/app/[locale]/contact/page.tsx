@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { locales, type Locale } from '@/i18n'
 import { t } from '@/i18n'
+import LocalBusinessSchema from '@/components/LocalBusinessSchema'
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -56,6 +57,8 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
 
   return (
     <div className="min-h-screen bg-gray-50">
+      {/* LocalBusiness 仅在首页与联系页输出；Organization 由布局全站注入一次 */}
+      <LocalBusinessSchema locale={loc} />
       {/* Hero */}
       <section className="bg-gradient-to-br from-primary-800 to-primary-900 text-white py-12 md:py-16">
         <div className="container mx-auto px-4 sm:px-6">
