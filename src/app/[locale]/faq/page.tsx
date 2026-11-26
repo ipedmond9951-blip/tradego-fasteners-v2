@@ -57,7 +57,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description: descriptions[loc] || descriptions.en,
     alternates: {
       canonical: `${SITE}/${loc}/faq/`,
-      languages: Object.fromEntries(locales.map((l) => [l, `${SITE}/${l}/faq/`])),
+      // 2026-11-26 P2-2: 补 x-default 回退版本指向 en（与文章页写法对齐），共 10 语种 + x-default
+      languages: Object.fromEntries([
+        ['x-default', `${SITE}/en/faq/`],
+        ...locales.map((l) => [l, `${SITE}/${l}/faq/`]),
+      ]),
     },
   }
 }
