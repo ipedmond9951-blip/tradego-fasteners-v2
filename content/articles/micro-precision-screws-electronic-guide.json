@@ -136,7 +136,8 @@
             "es": "¿Cuál es el tornillo métrico más pequeño disponible?",
             "fr": "Quelle est la plus petite taille de vis métrique disponible ?",
             "pt": "Qual o menor tamanho de parafuso métrico disponível?",
-            "de": "Welche kleinste metrische Schraubengröße gibt es?"
+            "de": "Welche kleinste metrische Schraubengröße gibt es?",
+            "ja": "入手できる最小のメトリックねじ径は何ですか？"
           },
           "a": {
             "en": "Standard production goes down to M0.6 (0.6mm diameter) for precision instruments. M1 and M1.2 are more commonly stocked. Thread pitch decreases with size: M1×0.2 is standard coarse.",
@@ -147,7 +148,8 @@
             "es": "La producción estándar llega hasta M0.6 (0.6 mm de diámetro) para instrumentos de precisión. M1 y M1.2 son los más comunes en stock. El paso de rosca baja con el tamaño: M1×0.2 es el grueso estándar. Las medidas mínimas corresponden a instrumentos muy pequeños.",
             "fr": "La production standard descend à M0,6 (0,6 mm de diamètre) pour les instruments de précision. Le M1 et le M1,2 sont plus couramment tenus en stock. Le pas de filetage décroît avec la taille : le M1×0,2 est le gros pas standard. Ces micro-vis s'emploient sur des assemblages électroniques de petite dimension.",
             "pt": "A produção padrão chega a M0,6, com diâmetro de 0,6 mm, para instrumentos de precisão. M1 e M1,2 são mais comuns em estoque. O passo de rosca diminui com o tamanho: M1×0,2 é a rosca grossa padrão. A bitola segue o dispositivo eletrônico, e a ferramenta é conferida para a rosca escolhida.",
-            "de": "Die Serienfertigung reicht bei Präzisionsinstrumenten bis M0,6 (0,6 mm Durchmesser). M1 und M1,2 sind häufiger vorrätig. Die Gewindesteigung sinkt mit der Größe: M1×0,2 ist das Standard-Grobgewinde."
+            "de": "Die Serienfertigung reicht bei Präzisionsinstrumenten bis M0,6 (0,6 mm Durchmesser). M1 und M1,2 sind häufiger vorrätig. Die Gewindesteigung sinkt mit der Größe: M1×0,2 ist das Standard-Grobgewinde.",
+            "ja": "標準生産では精密機器向けに M0.6、つまり直径 0.6 mm まで可能です。M1 と M1.2 の方が一般に在庫されています。ねじピッチは径が小さくなるほど細くなり、M1×0.2 が標準の並びねじです。最小径を指定する前に、工具と検査の難しさも確認してください。"
           }
         },
         {
@@ -160,7 +162,8 @@
             "es": "¿Qué tipo de accionamiento es mejor para micro tornillos?",
             "fr": "Quel entraînement convient le mieux aux micro-vis ?",
             "pt": "Qual tipo de acionamento é melhor para micro parafusos?",
-            "de": "Welcher Antrieb ist bei Mikroschrauben am besten?"
+            "de": "Welcher Antrieb ist bei Mikroschrauben am besten?",
+            "ja": "微小ねじにはどの駆動形状が最適ですか？"
           },
           "a": {
             "en": "Hex socket (Allen key) is preferred for micro screws as it provides precise engagement without the cam-out risk of Phillips/Pozidriv in very small sizes.",
@@ -171,7 +174,8 @@
             "es": "La llave Allen de casquillo hexagonal se prefiere en micro tornillos porque da un engranaje preciso sin el riesgo de salida de la Phillips/Pozidriv en tamaños muy pequeños. El accionamiento debe engranar sin patinar en la cabeza diminuta.",
             "fr": "L'emmanchement six pans (clé Allen) est préféré pour les micro-vis, car il donne un engagement précis sans le risque de patinage des croisements Phillips/Pozidriv aux très petits calibres. La reprise de couple sur petite tête est plus sûre avec une clé six pans.",
             "pt": "O soquete hexadecimal (chave Allen) é preferido em micro parafusos, pois dá engaste preciso sem o risco de cam-out da Phillips ou Pozidriv em tamanhos muito pequenos. O acionamento segue o espaço da cabeça, e o bit é conferido contra a ficha do parafuso eletrônico.",
-            "de": "Der Sechskantantrieb (Inbusschlüssel) wird bei Mikroschrauben bevorzugt, weil er präzisen Eingriff bietet und das Ausdrehrisiko von Kreuz- oder Pozidriv-Antrieben bei sehr kleinen Größen vermeidet."
+            "de": "Der Sechskantantrieb (Inbusschlüssel) wird bei Mikroschrauben bevorzugt, weil er präzisen Eingriff bietet und das Ausdrehrisiko von Kreuz- oder Pozidriv-Antrieben bei sehr kleinen Größen vermeidet.",
+            "ja": "微小ねじには六角穴付き、すなわちアレンキーが好まれます。非常に小さいサイズでも正確なかかりが得られ、プラスやポジドライブにありがちなカムアウトのリスクを抑えられます。小ねじほど駆動形状の選択が締結の信頼性に影響するため、穴の形状を仕様に含めてください。"
           }
         },
         {
@@ -184,7 +188,8 @@
             "es": "¿Cuál es el tornillo métrico más pequeño comúnmente disponible?",
             "fr": "Quelle est la plus petite vis métrique couramment disponible ?",
             "pt": "Qual o menor parafuso métrico comum em produção?",
-            "de": "Welche kleinste metrische Schraube ist üblich verfügbar?"
+            "de": "Welche kleinste metrische Schraube ist üblich verfügbar?",
+            "ja": "一般に入手できる最小のメトリックねじは何ですか？"
           },
           "a": {
             "en": "Micro screws go down to around M1 and M1.2 in production volume, with M2 and M2.5 the practical working sizes for most electronic assemblies. Below M1.5, tooling and inspection costs rise sharply.",
@@ -195,7 +200,8 @@
             "es": "Los micro tornillos llegan hasta unas M1 y M1.2 en volumen de producción, con M2 y M2.5 los tamaños prácticos de trabajo para la mayoría de conjuntos electrónicos. Por debajo de M1.5, la herramienta y los costos de inspección suben de forma marcada. El tamaño productivo va según el montaje y la inspección disponibles.",
             "fr": "Les micro-vis descendent environ au M1 et M1,2 en volume de production, le M2 et M2,5 étant les dimensions pratiques pour la plupart des assemblages électroniques. En dessous de M1,5, les coûts d'outillage et d'inspection montent nettement. Le choix de taille doit tenir compte du coût de fabrication et de contrôle.",
             "pt": "Os micro parafusos chegam a cerca de M1 e M1,2 em volume de produção, com M2 e M2,5 sendo os tamanhos práticos de trabalho para a maioria dos conjuntos eletrônicos. Abaixo de M1,5, os custos de ferramental e inspeção sobem acentuadamente. A bitola segue o conjunto, e o MOQ é confirmado para tamanhos abaixo do padrão.",
-            "de": "Mikroschrauben reichen in Großserie etwa bis M1 und M1,2, wobei M2 und M2,5 die praktischen Arbeitsgrößen für die meisten Elektronikbaugruppen sind. Unter M1,5 steigen Werkzeug- und Prüfkosten stark an."
+            "de": "Mikroschrauben reichen in Großserie etwa bis M1 und M1,2, wobei M2 und M2,5 die praktischen Arbeitsgrößen für die meisten Elektronikbaugruppen sind. Unter M1,5 steigen Werkzeug- und Prüfkosten stark an.",
+            "ja": "量産では M1 と M1.2 付近までの微小ねじが作られますが、多くの電子組立で実際に使いやすいのは M2 と M2.5 です。M1.5 未満では治具と検査のコストが大きく上がります。用途と生産量を照らして、必要以上に細いねじを選ばないでください。"
           }
         }
       ],
