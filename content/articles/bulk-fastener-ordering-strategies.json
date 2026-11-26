@@ -163,7 +163,8 @@
             "es": "¿Cuál es la cantidad mínima para precio de contenedor?",
             "fr": "Quelle quantité pour un prix conteneur ?",
             "pt": "Qual a quantidade mínima para preço de contêiner?",
-            "de": "Welche Mindestmenge gibt es für Containerpreise?"
+            "de": "Welche Mindestmenge gibt es für Containerpreise?",
+            "ja": "コンテナ価格の最小数量はどのくらいですか？"
           },
           "a": {
             "en": "Full container loads (18+ tonnes) typically qualify for best pricing. Some suppliers offer LCL (less than container load) at higher per-unit cost. Consolidating with other buyers to fill a container is common.",
@@ -174,7 +175,8 @@
             "es": "Las cargas de contenedor completo (18+ toneladas) suelen optar al mejor precio. Algunos proveedores ofrecen LCL (carga consolidada) a un coste unitario más alto. Consolar con otros compradores para llenar un contenedor es una práctica habitual. El volumen exacto se confirma con el proveedor según clase, recubrimiento y destino.",
             "fr": "Les chargements complets de conteneur (18 tonnes et plus) ouvrent généralement le meilleur tarif. Certains fournisseurs proposent du LCL (chargement inférieur au conteneur) à un coût unitaire plus élevé. Regrouper avec d'autres acheteurs pour remplir un conteneur est courant. Le remplissage complet réduit les frais fixes par pièce. Évaluez aussi votre capacité de stockage avant de viser le conteneur.",
             "pt": "Cargas de contêiner cheio, 18 toneladas ou mais, costumam qualificar para o melhor preço. Alguns fornecedores oferecem LCL, carga consolidada, a custo unitário mais alto. Consolidar com outros compradores para completar um contêiner é prática comum. A quantidade mínima é definida por tamanho e revestimento, e o preço unitário depende do preenchimento do contêiner e do sortimento embarcado.",
-            "de": "Volle Containerladungen ab 18 Tonnen erreichen in der Regel den besten Preis. Manche Lieferanten bieten LCL (Ladung unter Containergröße) zu höherem Stückpreis an. Das Zusammenlegen mit anderen Käufern zum Füllen eines Containers ist üblich. Die volle Füllung senkt die Fixkosten pro Stück. Prüfen Sie auch Ihre Lagerkapazität, bevor Sie den Container anstreben."
+            "de": "Volle Containerladungen ab 18 Tonnen erreichen in der Regel den besten Preis. Manche Lieferanten bieten LCL (Ladung unter Containergröße) zu höherem Stückpreis an. Das Zusammenlegen mit anderen Käufern zum Füllen eines Containers ist üblich. Die volle Füllung senkt die Fixkosten pro Stück. Prüfen Sie auch Ihre Lagerkapazität, bevor Sie den Container anstreben.",
+            "ja": "コンテナ満載（18トン以上）が最良の価格条件になります。満載に満たない小口は混載（LCL）で単位コストが上がります。他の買い手と集約してコンテナを満たすことも一般的です。必要量と保管能力を見て発注形態を決めてください。用途ごとに仕様を分け、必要な品質を満たす範囲で選定してください。"
           }
         },
         {
@@ -187,7 +189,8 @@
             "es": "¿Cómo sé si el pedido al por mayor conviene a mi negocio?",
             "fr": "Comment savoir si l'approvisionnement groupé convient à mon activité ?",
             "pt": "Como saber se o pedido em volume serve ao meu negócio?",
-            "de": "Wann ist eine Großbestellung für mein Geschäft sinnvoll?"
+            "de": "Wann ist eine Großbestellung für mein Geschäft sinnvoll?",
+            "ja": "大口発注が自社に合うかどうかはどう判断しますか？"
           },
           "a": {
             "en": "Calculate your annual fastener spend. If over $10,000/year, bulk ordering likely saves money. Consider storage capacity and cash flow implications.",
@@ -198,7 +201,8 @@
             "es": "Calcule el gasto anual en fijaciones. Si supera un umbral anual alto, el pedido al por mayor probablemente ahorre dinero. Conviene considerar la capacidad de almacenamiento y la situación de tesorería. Antes de comprometer volumen, revise la rotación de cada referencia y el espacio disponible en el almacén.",
             "fr": "Calculez votre dépense annuelle en fixations. Si le volume annuel justifie un achat groupé, la commande en gros permet généralement d'économiser, mais il faut tenir compte de la capacité d'entreposage et de la trésorerie. Un stock trop important immobilise du cash et augmente le risque d'obsolescence. Mesurez d'abord la rotation réelle de chaque référence avant de grouper.",
             "pt": "Calcula-se o gasto anual com fixadores. Acima de um volume anual relevante, o pedido em volume tende a economizar. Consideram-se a capacidade de armazenamento e as implicações de fluxo de caixa. A análise compara economia de preço unitário com custo de estoque parado, e o pedido em volume é fechado quando a rotação dos itens e o caixa suportam o lote consolidado.",
-            "de": "Berechnen Sie Ihren jährlichen Befestigungsbedarf. Wenn das Jahresvolumen eine Sammelbestellung rechtfertigt, spart der Großeinkauf in der Regel, aber Lagerkapazität und Liquidität sind zu berücksichtigen. Ein zu großer Bestand bindet Kapital und erhöht das Risiko der Veraltung. Messen Sie zuerst den tatsächlichen Umschlag jeder Referenz, bevor Sie bündeln."
+            "de": "Berechnen Sie Ihren jährlichen Befestigungsbedarf. Wenn das Jahresvolumen eine Sammelbestellung rechtfertigt, spart der Großeinkauf in der Regel, aber Lagerkapazität und Liquidität sind zu berücksichtigen. Ein zu großer Bestand bindet Kapital und erhöht das Risiko der Veraltung. Messen Sie zuerst den tatsächlichen Umschlag jeder Referenz, bevor Sie bündeln.",
+            "ja": "年間の締結具支出を算出し、保管容量と資金繰りへの影響を考慮します。大口が妥当なのは回転の速い汎用品で、在庫を抱えられる場合に限ります。ゆっくり動く品番は小口に留め、仕様と在庫回転を年間計画で照合してください。現場の条件を記録し、同じ仕様を繰り返し使うことで、供給と管理を安定させられます。"
           }
         },
         {
@@ -211,7 +215,8 @@
             "es": "¿Y si el inventario cambia a mitad de contenedor?",
             "fr": "Que faire si mes besoins de stock changent en cours de conteneur ?",
             "pt": "E se a necessidade de estoque mudar no meio do contêiner?",
-            "de": "Was tun, wenn sich mein Lagerbedarf mittendrin ändert?"
+            "de": "Was tun, wenn sich mein Lagerbedarf mittendrin ändert?",
+            "ja": "コンテナの途中で在庫の必要が変わったらどうしますか？"
           },
           "a": {
             "en": "Communicate changes before container ships. Once loaded and shipped, changes are difficult. Build flexibility into initial order quantities.",
@@ -222,7 +227,8 @@
             "es": "Comunique los cambios antes de que el contenedor zarpe. Una vez cargado y enviado, los cambios son difíciles. Construya flexibilidad en las cantidades del pedido inicial, dejando margen para ajustar referencias antes del cierre de la producción.",
             "fr": "Communiquez les changements avant l'embarquement. Une fois chargé et expédié, les modifications sont difficiles. Construisez une souplesse dans les quantités initiales de la commande. Un mélange de références prévu dès le départ absorbe mieux les ajustements. Les évolutions après le départ du navire passent par une nouvelle commande.",
             "pt": "As mudanças são comunicadas antes do embarque do contêiner. Uma vez carregado e enviado, as alterações ficam difíceis. Flexibilidade é construída nas quantidades do pedido inicial. O sortimento deixa reserva para ajustes por fase da obra, e a comunicação com o fornecedor antecede o fechamento da carga, para evitar troca após o embarque.",
-            "de": "Teilen Sie Änderungen vor dem Verschiffen des Containers mit. Einmal geladen und verschifft, sind Änderungen schwierig. Bauen Sie Flexibilität in die ursprünglichen Bestellmengen ein. Ein von vornherein geplanter Referenzmix nimmt Anpassungen besser auf. Änderungen nach Abgang des Schiffes laufen über eine neue Bestellung."
+            "de": "Teilen Sie Änderungen vor dem Verschiffen des Containers mit. Einmal geladen und verschifft, sind Änderungen schwierig. Bauen Sie Flexibilität in die ursprünglichen Bestellmengen ein. Ein von vornherein geplanter Referenzmix nimmt Anpassungen besser auf. Änderungen nach Abgang des Schiffes laufen über eine neue Bestellung.",
+            "ja": "変更はコンテナが船積みになるに先立ち連絡します。一度積み込んで発送されると変更は困難です。初期の発注数量に柔軟幅を持たせ、品番の組替えは積込みに先立ち確定してください。環境と相手材を確認し、記録を残して手順を守ることで、後の不具合を減らせます。書類と現物を照合し、納品までの工程を整えておくと、現場の手間を抑えられます。"
           }
         },
         {
@@ -235,7 +241,8 @@
             "es": "¿Cómo tratar las referencias de fijación de rotación lenta?",
             "fr": "Comment traiter les références à rotation lente ?",
             "pt": "Como lidar com itens de fixador de giro lento?",
-            "de": "Wie gehe ich mit langsam drehenden Befestigungsartikeln um?"
+            "de": "Wie gehe ich mit langsam drehenden Befestigungsartikeln um?",
+            "ja": "動きの遅い締結具はどう扱いますか？"
           },
           "a": {
             "en": "Analyze usage rates before bulk ordering. Limit slow items to 3-6 month supply. Consider returning or exchanging unused stock with supplier if possible.",
@@ -246,7 +253,8 @@
             "es": "Analice las tasas de uso antes del pedido al por mayor. Limite las referencias lentas a un suministro de 3-6 meses. Si es posible, negocie con el proveedor la devolución o el cambio de stock sin usar. El almacén debe separar estas referencias para no mezclarlas con el consumo rápido.",
             "fr": "Analysez les taux d'usage avant toute commande groupée. Limitez les références lentes à un approvisionnement de trois à six mois. Si possible, prévoyez un retour ou un échange du stock inutilisé avec le fournisseur. Ne laissez pas un stock dormant occuper l'entrepôt au détriment des pièces tournantes. La rotation guide la quantité de chaque article.",
             "pt": "Analisam-se as taxas de uso antes do pedido em volume. Limita-se os itens lentos a um suprimento de 3 a 6 meses. Avalia-se a possibilidade de devolver ou trocar estoque não usado com o fornecedor, quando possível. Os itens de alto giro compõem o lote consolidado, enquanto os de baixa rotação entram em quantidade reduzida, evitando estoque parado e custo de armazenagem.",
-            "de": "Analysieren Sie die Verbrauchsraten vor der Großbestellung. Beschränken Sie langsame Artikel auf einen Vorrat von drei bis sechs Monaten. Vereinbaren Sie mit dem Lieferanten, wenn möglich, eine Rückgabe oder einen Umtausch des unbenutzten Bestands. Lassen Sie einen ruhenden Lagerbestand nicht die drehenden Teile verdrängen. Der Umschlag bestimmt die Menge jedes Artikels."
+            "de": "Analysieren Sie die Verbrauchsraten vor der Großbestellung. Beschränken Sie langsame Artikel auf einen Vorrat von drei bis sechs Monaten. Vereinbaren Sie mit dem Lieferanten, wenn möglich, eine Rückgabe oder einen Umtausch des unbenutzten Bestands. Lassen Sie einen ruhenden Lagerbestand nicht die drehenden Teile verdrängen. Der Umschlag bestimmt die Menge jedes Artikels.",
+            "ja": "大口発注に先立ち使用率を分析し、遅い品番は3〜6か月分の供給に留めます。不要在庫は仕入先と返品または交換できないか相談します。在庫回転と保管場所を管理し、停滞品を抱え込まないように数量を調整してください。用途ごとに仕様を分け、必要な品質を満たす範囲で選定してください。"
           }
         },
         {
@@ -259,7 +267,8 @@
             "es": "¿Debo negociar contratos anuales?",
             "fr": "Faut-il négocier des contrats annuels ?",
             "pt": "Devo negociar contratos anuais?",
-            "de": "Soll ich Jahresverträge aushandeln?"
+            "de": "Soll ich Jahresverträge aushandeln?",
+            "ja": "年間契約は結ぶべきですか？"
           },
           "a": {
             "en": "Yes, annual contracts with committed volumes typically earn additional 5-10% discount and priority production scheduling. Ensure you can meet committed volumes before signing.",
@@ -270,7 +279,8 @@
             "es": "Sí, los contratos anuales con volumen comprometido suelen dar una mejor posición de producción prioritaria. Asegúrese de poder cumplir el volumen comprometido antes de firmar. Las condiciones de precio y plazo se revisan en el contrato, y el compromiso debe ajustarse a la demanda real de los doce meses.",
             "fr": "Oui, les contrats annuels à volume engagé ouvrent généralement une priorité de planification de production et des termes préférentiels. Assurez-vous de pouvoir tenir les volumes engagés avant de signer. Un engagement trop élevé sans demande réelle crée du risque de stock. Le contrat doit porter les références, le volume prévu et les conditions de révision.",
             "pt": "Sim, contratos anuais com volume comprometido costumam render condição adicional e programação de produção prioritária. Confirma-se a capacidade de cumprir os volumes comprometidos antes de assinar. O contrato define sortimento, revestimento, tolerância e critérios de qualidade, e o volume é revisado periodicamente conforme o consumo real da obra.",
-            "de": "Ja, Jahresverträge mit verbindlichen Volumina bringen in der Regel eine bevorzugte Produktionsplanung und vorteilhafte Konditionen. Stellen Sie sicher, dass Sie die vereinbarten Volumina halten können, bevor Sie unterschreiben. Ein zu hoher verbindlicher Anteil ohne tatsächliche Nachfrage schafft Lagerrisiko. Der Vertrag sollte Referenzen, geplantes Volumen und die Überarbeitungsbedingungen festhalten."
+            "de": "Ja, Jahresverträge mit verbindlichen Volumina bringen in der Regel eine bevorzugte Produktionsplanung und vorteilhafte Konditionen. Stellen Sie sicher, dass Sie die vereinbarten Volumina halten können, bevor Sie unterschreiben. Ein zu hoher verbindlicher Anteil ohne tatsächliche Nachfrage schafft Lagerrisiko. Der Vertrag sollte Referenzen, geplantes Volumen und die Überarbeitungsbedingungen festhalten.",
+            "ja": "数量を確約できる見通しがあれば、年間契約で優先的な生産枠を得られます。ただし確約数量を満たせることを署名に先立ち確認してください。契約には品質基準、納期、クレーム対応を明記し、数量の変更条件も整えます。現場の条件を記録し、同じ仕様を繰り返し使うことで、供給と管理を安定させられます。"
           }
         }
       ],
