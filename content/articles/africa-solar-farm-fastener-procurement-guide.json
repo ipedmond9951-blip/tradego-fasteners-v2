@@ -261,7 +261,8 @@
             "es": "¿Qué fijaciones dominan la lista de montaje solar?",
             "fr": "Quelles fixations dominent la nomenclature d'un champ solaire ?",
             "pt": "Quais fixadores dominam a lista de material de montagem solar?",
-            "de": "Welche Teile dominieren die Stückliste einer Solarhalterung?"
+            "de": "Welche Teile dominieren die Stückliste einer Solarhalterung?",
+            "ja": "太陽光架台の部品表で主流となる留め具はどれですか？"
           },
           "a": {
             "en": "Foundation bolts and anchor assemblies, module clamps, rail-to-purlin fasteners, and structural bolts for torque-tube connections, mostly grade 8.8 with hot-dip galvanizing.",
@@ -272,7 +273,8 @@
             "es": "Pernos de cimentación y conjuntos de anclaje, abrazaderas de módulo, fijaciones de raíl a purlín y pernos estructurales para uniones de tubo de torsión, mayormente grado 8.8 con galvanizado en caliente. La lista cubre desde la base hasta el montaje del módulo, y el recubrimiento protege la estructura al exterior.",
             "fr": "Les boulons de fondation et ensembles d'ancrage, les brides de module, les fixations rail-panne, et les boulons structuraux pour les liaisons de tube porte-torque, principalement en classe 8.8 avec galvanisation à chaud. Ces éléments représentent l'essentiel des fixations du montage, sous le panneau et sur la structure porteuse.",
             "pt": "Parafusos de fundação e conjuntos de ancoragem, garras de módulo, fixadores trilho-terçado e parafusos estruturais para conexões de tubo toroidal, majoritariamente classe 8.8 com galvanização a quente. Cada grupo atende a uma função: ancoragem da estrutura, fixação do módulo e junta do trilho. A lista é conferida contra o projeto do suporte solar, e a classe e o revestimento ficam registrados no lote.",
-            "de": "Fundamentbolzen und Ankerbaugruppen, Modulklemmen, Schienen-Pfetten-Befestiger sowie Schrauben für Torquerohrverbindungen, meist Güte 8.8 mit Feuerverzinkung."
+            "de": "Fundamentbolzen und Ankerbaugruppen, Modulklemmen, Schienen-Pfetten-Befestiger sowie Schrauben für Torquerohrverbindungen, meist Güte 8.8 mit Feuerverzinkung.",
+            "ja": "基礎ボルトとアンカー組立品、モジュール用クランプ、レールから母屋への締結具、トルク管の接合に使う構造ボルトです。多くは 8.8 級で溶融亜鉛めっきが施されます。架台の各所に必要な品目をまとめ、強度と防食処理を仕様に合わせて選定してください。"
           }
         },
         {
@@ -285,7 +287,8 @@
             "es": "¿Por qué importa más la consistencia que la variedad?",
             "fr": "Pourquoi la régularité prime-t-elle sur la variété ?",
             "pt": "Por que a consistência importa mais que a variedade?",
-            "de": "Warum ist Gleichmäßigkeit wichtiger als Vielseitigkeit?"
+            "de": "Warum ist Gleichmäßigkeit wichtiger als Vielseitigkeit?",
+            "ja": "なぜ多様な品目よりも均一性が重要ですか？"
           },
           "a": {
             "en": "The item count is small but volumes are large. Bolts from different production runs can differ in coating thickness and thread fit, which shows up as stripped nuts during installation.",
@@ -296,7 +299,8 @@
             "es": "El número de artículos es pequeño, pero los volúmenes son grandes. Los pernos de distintas tandas de producción pueden diferir en espesor de recubrimiento y ajuste de rosca, lo que se ve como tuercas peladas durante el montaje. Una tanda uniforme evita ese desajuste en obra.",
             "fr": "Le nombre de références est faible mais les volumes sont importants. Des boulons issus de différentes séries de fabrication peuvent différer en épaisseur de revêtement et en ajustement de filetage, ce qui se traduit par des écrous filetés lors du montage. Une spécification stable d'un lot à l'autre évite ces écarts sur chantier.",
             "pt": "A contagem de itens é pequena, mas os volumes são grandes. Parafusos de lotes de produção diferentes podem variar em espessura de revestimento e ajuste de rosca, o que aparece como porcas escorregando durante a instalação. A padronização de lote e especificação reduz falhas de montagem, e a mesma referência é mantida ao longo do fornecimento do parque.",
-            "de": "Die Artikelzahl ist klein, die Mengen sind groß. Bolzen verschiedener Chargen können sich in Beschichtungsdicke und Gewindegang unterscheiden, was sich beim Einbau als abgenutze Muttern zeigt."
+            "de": "Die Artikelzahl ist klein, die Mengen sind groß. Bolzen verschiedener Chargen können sich in Beschichtungsdicke und Gewindegang unterscheiden, was sich beim Einbau als abgenutze Muttern zeigt.",
+            "ja": "品目数は少なくても数量が大きいためです。異なる生産ロットのボルトはめっき厚さやねじの嵌合に差が生じることがあり、施工時にナットが舐めてしまう形で現れます。同一仕様でそろえることで、現場での不具合を減らすことができます。ロットごとの仕様を事前に取り決め、受け入れ時にも同じ基準で照合してください。"
           }
         },
         {
@@ -309,7 +313,8 @@
             "es": "¿Deben enviarse las fijaciones en juegos por bloque?",
             "fr": "Faut-il expédier les fixations en kit par bloc ?",
             "pt": "Os fixadores devem ser embarcados em kit por bloco?",
-            "de": "Sollen Befestiger je Block verpackt versendet werden?"
+            "de": "Sollen Befestiger je Block verpackt versendet werden?",
+            "ja": "留め具はブロックごとにキット化して出荷すべきですか？"
           },
           "a": {
             "en": "Yes. Shipping in installation-block sequence with per-block kitting costs little at origin and avoids crew hours spent sorting mixed fasteners on site.",
@@ -320,7 +325,8 @@
             "es": "Sí. Enviar en la secuencia de bloque de montaje con juego preparado por bloque cuesta poco en origen y evita horas de cuadrilla separando fijaciones mezcladas en obra. El embalaje por bloque sigue el orden de instalación y acelera el montaje en el campo.",
             "fr": "Oui. Expédier dans l'ordre de montage des blocs avec un kit par bloc coûte peu à l'origine et évite les heures de main-d'œuvre passées à trier des fixations mélangées sur site. Le regroupement par bloc facilite aussi le contrôle sur place et réduit les erreurs de montage des équipes.",
             "pt": "Sim. Embarcar na sequência do bloco de instalação com kitagem por bloco custa pouco na origem e evita horas de equipe separando fixadores mistos no canteiro. O kit é montado conforme a estrutura do bloco, e a reserva de peças fica identificada junto ao material de montagem. A organização do embarque acompanha a fase da obra, não a conveniência do depósito.",
-            "de": "Ja. Versand in Einbaublock-Reihenfolge mit Blockkitting ist im Ursprung wenig aufwändig und erspart Stunden, die auf der Baustelle mit Sortieren gemischter Teile verbracht würden."
+            "de": "Ja. Versand in Einbaublock-Reihenfolge mit Blockkitting ist im Ursprung wenig aufwändig und erspart Stunden, die auf der Baustelle mit Sortieren gemischter Teile verbracht würden.",
+            "ja": "はい。施工ブロックの順序に合わせてブロック別にキット化して出荷すると、出荷元での手間は大きくなく、現場で混ざった留め具を仕分けする作業時間を省けます。現場の施工効率を考えると、まとめて荷揃えすることが望ましいです。荷札や梱包にブロック番号を記載し、施工側が迷わず取り出せるようにしておきます。"
           }
         },
         {
@@ -333,7 +339,8 @@
             "es": "¿Cuál es el punto de inspección más útil?",
             "fr": "Quel point de contrôle est le plus utile ?",
             "pt": "Qual o ponto de inspeção mais útil?",
-            "de": "Was ist der nützlichste Prüfpunkt?"
+            "de": "Was ist der nützlichste Prüfpunkt?",
+            "ja": "最も役立つ検査のポイントはどこですか？"
           },
           "a": {
             "en": "Torque behaviour during the first installation block. It reveals coating, lubricity, and thread tolerance combinations that dimensional reports alone cannot catch.",
@@ -344,7 +351,8 @@
             "es": "El comportamiento del par en el primer bloque de montaje. Revela combinaciones de recubrimiento, lubricidad y tolerancia de rosca que los informes dimensionales por sí solos no detectan. Esa primera unidad destapa lo que después aparecería como fallo en plena obra.",
             "fr": "Le comportement au couple lors du premier bloc de montage. Il révèle les combinaisons de revêtement, de lubrification et de tolérance de filet que les rapports dimensionnels seuls ne peuvent pas capter. Un essai sur les premières pièces met en évidence les défauts qu'un contrôle purement géométrique laisserait passer.",
             "pt": "O comportamento de torque no primeiro bloco de instalação. Ele revela combinações de revestimento, lubrificidade e tolerância de rosca que os relatórios dimensionais sozinhos não pegam. O bloco piloto é inspecionado antes do lote restante, e os ajustes de especificação são aplicados aos lotes seguintes da mesma obra.",
-            "de": "Das Drehmomentverhalten beim ersten Einbaublock. Es offenbart Kombinationen aus Beschichtung, Gleitverhalten und Gewindetoleranz, die reine Maßergebnisse nicht erfassen können."
+            "de": "Das Drehmomentverhalten beim ersten Einbaublock. Es offenbart Kombinationen aus Beschichtung, Gleitverhalten und Gewindetoleranz, die reine Maßergebnisse nicht erfassen können.",
+            "ja": "最初の施工ブロックでのトルクの挙動です。めっき状態、潤滑性、ねじの公差の組み合わせを確認でき、寸法報告書だけでは捉えられない問題を発見できます。初回の施工段階で状態を確認し、その後の数量に反映してください。その結果を記録しておけば、後のロットや追加発注の判断にも役立ちます。"
           }
         }
       ]
