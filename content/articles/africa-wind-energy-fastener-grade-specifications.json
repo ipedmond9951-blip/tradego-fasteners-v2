@@ -261,7 +261,8 @@
             "es": "¿El bulón eólico siempre necesita grado 10.9?",
             "fr": "Le grade 10.9 est-il toujours requis pour le boulonnage d'éolienne ?",
             "pt": "A classe 10.9 é sempre exigida nos parafusos de turbina eólica?",
-            "de": "Ist für das Turmbolzen einer Windkraftanlage immer Klasse 10.9 nötig?"
+            "de": "Ist für das Turmbolzen einer Windkraftanlage immer Klasse 10.9 nötig?",
+            "ja": "風力タービンのボルト締結に10.9級は必ず必要ですか？"
           },
           "a": {
             "en": "It is the common default for tower and foundation connections, with 8.8 used in secondary positions. The grade must be specified together with bolt size, joint geometry, and tensioning method.",
@@ -272,7 +273,8 @@
             "es": "Es el valor por defecto común en uniones de torre y cimentación, y el 8.8 se usa en posiciones secundarias. El grado debe especificarse junto con el tamaño de bulón, la geometría de la unión y el método de tensado. No basta indicar el grado aislado de la unión y el montaje.",
             "fr": "C'est le défaut courant pour les liaisons de tour et de fondation, le 8.8 servant les positions secondaires. Le grade doit être spécifié avec le boulon, la géométrie du joint et la méthode de tension. Aucun grade ne remplace la conception de la liaison. Chaque élément porte une charge et une exposition propres. La spécification se complète d'essais et de traçabilité.",
             "pt": "É o padrão comum para conexões de torre e fundação, com 8.8 usada em posições secundárias. A classe deve ser especificada junto ao tamanho do parafuso, à geometria da junta e ao método de tensionamento. A escolha é conferida contra o cálculo estrutural da ligação, e a classe fica registrada no certificado do lote e na inspeção da obra.",
-            "de": "Sie ist der übliche Standard für Turm- und Fundamentverbindungen, das 8.8 wird in sekundären Positionen eingesetzt. Die Klasse ist zusammen mit Bolzengröße, Gelenkgeometrie und Spannmethode zu spezifizieren. Keine Klasse ersetzt die Konstruktion der Verbindung. Jedes Bauteil trägt eine eigene Last und Einwirkung. Die Spezifikation wird um Prüfungen und Rückverfolgung ergänzt."
+            "de": "Sie ist der übliche Standard für Turm- und Fundamentverbindungen, das 8.8 wird in sekundären Positionen eingesetzt. Die Klasse ist zusammen mit Bolzengröße, Gelenkgeometrie und Spannmethode zu spezifizieren. Keine Klasse ersetzt die Konstruktion der Verbindung. Jedes Bauteil trägt eine eigene Last und Einwirkung. Die Spezifikation wird um Prüfungen und Rückverfolgung ergänzt.",
+            "ja": "塔体と基礎の接合では10.9級が標準の既定値で、二次的な位置に8.8級が使われます。等級はボルト径、継手形状、張力管理方法とセットで指定してください。部位の荷重を確認し、単独の等級表示だけで部品を定義しないでください。現場の条件を記録し、同じ仕様を繰り返し使うことで、供給と管理を安定させられます。"
           }
         },
         {
@@ -285,7 +287,8 @@
             "es": "¿Por qué importa la ruta del material aunque el grado sea el mismo?",
             "fr": "Pourquoi la route matière compte-t-elle si le grade est le même ?",
             "pt": "Por que a rota de material importa se a classe é a mesma?",
-            "de": "Warum spielt die Werkstoffroute eine Rolle bei gleicher Klasse?"
+            "de": "Warum spielt die Werkstoffroute eine Rolle bei gleicher Klasse?",
+            "ja": "同じ等級でも素材ルートがなぜ重要ですか？"
           },
           "a": {
             "en": "A 10.9 property class reached through a different alloy and heat treatment behaves differently under low-temperature impact, which matters at cold and high-altitude sites.",
@@ -296,7 +299,8 @@
             "es": "Una clase 10.9 alcanzada con otra aleación y otro tratamiento térmico se comporta distinto ante el impacto a baja temperatura, lo que pesa en emplazamientos fríos y de altura. El grado numérico no refleja por sí solo esa resistencia al impacto. La ruta de material se revisa según el clima y la altitud del sitio.",
             "fr": "Une classe de propriété 10.9 atteinte par un alliage et un traitement thermique différents se comporte différemment au choc à basse température, ce qui compte sur les sites froids et en altitude. La classe seule ne décrit pas toute la tenue mécanique. Le lot et sa trempe doivent être vérifiés. Un froid vif rend critique la résilience du matériau. Demandez les rapports d'essai d'impact.",
             "pt": "Uma propriedade 10.9 obtida por liga e tratamento térmico diferentes comporta-se de forma distinta sob impacto em baixa temperatura, o que importa em sítios frios e de altitude. A mesma classe numérica não garante o mesmo comportamento dúctil. A ficha de material e o ensaio de impacto devem acompanhar o lote, e a rota de aço é verificada na qualificação do fornecedor.",
-            "de": "Eine Klasse 10.9, erreicht über eine andere Legierung und Wärmebehandlung, verhält sich beim Tieftemperaturstoß anders, was an kalten und hochgelegenen Standorten zählt. Die Klasse allein beschreibt nicht die gesamte mechanische Haltbarkeit. Das Los und seine Härtung müssen geprüft werden. Ein kalter Wind macht die Zähigkeit des Werkstoffs kritisch. Fragen Sie nach den Stoßprüfberichten."
+            "de": "Eine Klasse 10.9, erreicht über eine andere Legierung und Wärmebehandlung, verhält sich beim Tieftemperaturstoß anders, was an kalten und hochgelegenen Standorten zählt. Die Klasse allein beschreibt nicht die gesamte mechanische Haltbarkeit. Das Los und seine Härtung müssen geprüft werden. Ein kalter Wind macht die Zähigkeit des Werkstoffs kritisch. Fragen Sie nach den Stoßprüfberichten.",
+            "ja": "異なる合金と熱処理で達成された10.9級は、低温衝撃の挙動が異なります。寒冷地や高地の現場ではこれが効きます。素材と熱処理の記録を確認し、低温での性能を証明できるロットを選んでください。環境と相手材を確認し、記録を残して手順を守ることで、後の不具合を減らせます。"
           }
         },
         {
@@ -309,7 +313,8 @@
             "es": "¿Qué método de tensado especificar?",
             "fr": "Quelle méthode de tension spécifier ?",
             "pt": "Que método de tensionamento deve ser especificado?",
-            "de": "Welche Spannmethode ist zu spezifizieren?"
+            "de": "Welche Spannmethode ist zu spezifizieren?",
+            "ja": "どの張力管理方法を指定すべきですか？"
           },
           "a": {
             "en": "Name the method - hydraulic tensioning, torque control, or direct tension indication - plus the acceptance window, and require sample verification, because each method produces different preload scatter.",
@@ -320,7 +325,8 @@
             "es": "Indique el procedimiento: tensado hidráulico, control por par o indicación directa de tensión, más la ventana de aceptación, y exija verificación de muestra, porque cada esquema da una dispersión de pretensado distinta. El procedimiento debe dejar claro cómo se aprieta y qué se acepta. Así el apriete es repetible entre cuadrillas.",
             "fr": "Nommez la méthode — tension hydraulique, contrôle de couple, ou indication directe de tension — plus la plage d'acceptation, et exigez une vérification sur échantillon, car chaque méthode produit une dispersion de précharge différente. La précharge visée doit être mesurable et contrôlable. Le serrage se documente poste par poste. Une méthode non suivie laisse un précharge incertain.",
             "pt": "Indica-se o tipo de tensionamento: hidráulico, controle de torque ou indicação direta de tensão, além da janela de aceitação, e exige-se verificação por amostra, pois cada tipo produz dispersão diferente de pré-carga. O procedimento de aperto deve ser repetível entre equipes, e os valores de aceitação ficam registrados no registro de montagem da junta.",
-            "de": "Nennen Sie die Methode – hydraulisches Spannen, Drehmomentkontrolle oder direkte Spannanzeige – plus das Annahmefenster, und fordern Sie eine Stichprobenprüfung, weil jede Methode eine andere Vorspannstreuung erzeugt. Die angestrebte Vorspannung muss messbar und prüfbar sein. Das Anziehen wird an Position für Position dokumentiert. Eine unkontrollierte Methode lässt die Vorspannung unsicher."
+            "de": "Nennen Sie die Methode – hydraulisches Spannen, Drehmomentkontrolle oder direkte Spannanzeige – plus das Annahmefenster, und fordern Sie eine Stichprobenprüfung, weil jede Methode eine andere Vorspannstreuung erzeugt. Die angestrebte Vorspannung muss messbar und prüfbar sein. Das Anziehen wird an Position für Position dokumentiert. Eine unkontrollierte Methode lässt die Vorspannung unsicher.",
+            "ja": "油圧張力、トルク管理、直接張力表示のいずれかを名称で挙げ、合否の幅を示し、サンプル検証を求めます。方法ごとに予張力のばらつきが異なるためです。施工者と方法を仕様書に明記し、記録を残してください。書類と現物を照合し、納品までの工程を整えておくと、現場の手間を抑えられます。"
           }
         },
         {
@@ -333,7 +339,8 @@
             "es": "¿Qué recubrimiento se usa en estructuras eólicas off-shore?",
             "fr": "Quel revêtement pour les structures éoliennes en mer ?",
             "pt": "Qual revestimento se usa em estruturas eólicas offshore?",
-            "de": "Welche Beschichtung wird für Offshore-Windstrukturen verwendet?"
+            "de": "Welche Beschichtung wird für Offshore-Windstrukturen verwendet?",
+            "ja": "洋上風力構造物にはどの被覆が使われますか？"
           },
           "a": {
             "en": "Hot-dip galvanizing with a defined minimum thickness is the baseline, often with a duplex topcoat where maintenance intervals are long. Thread coatings must be specified separately from the shank.",
@@ -344,7 +351,8 @@
             "es": "El galvanizado en caliente con espesor mínimo definido es la base, y a menudo se completa con una capa dúplex donde los intervalos de mantenimiento son largos. El recubrimiento de rosca se especifica por separado del vástago. El ambiente marino exige un sistema de protección previsto para largo servicio.",
             "fr": "La galvanisation à chaud avec épaisseur minimale définie est la base, souvent complétée par une surcouche duplex quand les intervalles de maintenance sont longs. Les revêtements de filetage doivent être spécifiés séparément de la tige. L'environnement marin accélère la corrosion sur toute la pièce. La protection du filetage évite le grippage au montage. Prévoyez l'inspection de revêtement à réception.",
             "pt": "A galvanização a quente com espessura mínima definida é a linha de base, muitas vezes com topcoat duplex onde os intervalos de manutenção são longos. Os revestimentos de rosca devem ser especificados separadamente da haste. A espessura e o tipo de revestimento seguem a exposição marinha da estrutura, e a verificação fica no certificado do lote entregue.",
-            "de": "Feuerverzinkung mit definierter Mindestdicke ist die Basis, oft ergänzt durch einen Duplex-Decklack bei langen Wartungsintervallen. Die Gewindebeschichtung ist getrennt vom Schaft anzugeben. Die Meeresumwelt beschleunigt die Korrosion an jedem Teil. Der Gewindeschutz verhindert das Fressen beim Einbau. Prüfen Sie die Beschichtung bei der Annahme."
+            "de": "Feuerverzinkung mit definierter Mindestdicke ist die Basis, oft ergänzt durch einen Duplex-Decklack bei langen Wartungsintervallen. Die Gewindebeschichtung ist getrennt vom Schaft anzugeben. Die Meeresumwelt beschleunigt die Korrosion an jedem Teil. Der Gewindeschutz verhindert das Fressen beim Einbau. Prüfen Sie die Beschichtung bei der Annahme.",
+            "ja": "最小厚さを定めた溶融亜鉛めっきが基本で、保守間隔の長い箇所ではデュプレックスの上塗りを併用することが多いです。ねじ部の被覆は軸部と別に指定します。暴露環境と保守頻度を確認し、被覆厚さを仕様に記載してください。用途ごとに仕様を分け、必要な品質を満たす範囲で選定してください。"
           }
         }
       ]
