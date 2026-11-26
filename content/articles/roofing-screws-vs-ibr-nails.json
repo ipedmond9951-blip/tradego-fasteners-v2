@@ -225,7 +225,8 @@
             "es": "¿Qué fijación agarra mejor contra el levantamiento por viento?",
             "fr": "Quelle fixation tient le mieux contre la reprise au vent ?",
             "pt": "Qual fixador segura melhor contra o içamento de vento?",
-            "de": "Welcher Befestiger hält besser gegen Windsog?"
+            "de": "Welcher Befestiger hält besser gegen Windsog?",
+            "ja": "風の吹き上げに対してどの留め具がより強く保持しますか？"
           },
           "a": {
             "en": "The screw, because it engages the purlin with a thread and the washer seals the hole. A nail relies on friction and can work loose under repeated wind loading, especially at sheet ends and ridge lines.",
@@ -236,7 +237,8 @@
             "es": "El tornillo, porque engrana el purlín con rosca y la arandela sella el hueco. El clavo depende de la fricción y puede aflojarse bajo carga de viento repetida, sobre todo en extremos de chapa y líneas de cumbrera. La rosca mantiene la sujeción frente a la oscilación del viento.",
             "fr": "La vis, car elle engage le panneau par un filet et la rondelle ferme le trou. Le clou repose sur le frottement et peut se desserrer sous chargement de vent répété, surtout aux abouts de feuille et sur les lignes de faîte. La liaison filetée retient mieux que le clou sous vent.",
             "pt": "O parafuso, porque engasta o terçado com a rosca e a arruela veda o furo. O prego depende de atrito e pode folgar sob carga de vento repetida, principalmente nas pontas das chapas e nas linhas de cumeeira. O tipo é escolhido pela exposição ao vento, e a arruela é inspecionada na manutenção da cobertura.",
-            "de": "Die Schraube, weil sie mit Gewinde in die Pfette eingreift und die Scheibe das Loch abdichtet. Der Nagel stützt sich auf Reibung und kann sich bei wiederholter Windlast lockern, besonders an Blechenden und Firstlinien."
+            "de": "Die Schraube, weil sie mit Gewinde in die Pfette eingreift und die Scheibe das Loch abdichtet. Der Nagel stützt sich auf Reibung und kann sich bei wiederholter Windlast lockern, besonders an Blechenden und Firstlinien.",
+            "ja": "ねじです。ねじ山が母屋にかみ合い、座金が穴を密閉するからです。釘は摩擦に頼るため、繰り返しの風の負荷で緩むことがあり、特にシート端部や棟のラインで起こりやすいです。風の強い箇所ではねじの保持力を考慮して選んでください。座金の状態と締め付けを確認し、長期的な保持を確保してください。"
           }
         },
         {
@@ -249,7 +251,8 @@
             "es": "¿Dónde tienen todavía sentido los clavos IBR?",
             "fr": "Où les clous IBR ont-ils encore leur place ?",
             "pt": "Onde os pregos IBR ainda fazem sentido?",
-            "de": "Wo sind IBR-Nägel noch sinnvoll?"
+            "de": "Wo sind IBR-Nägel noch sinnvoll?",
+            "ja": "IBR 釘が依然として適するのはどのような場面ですか？"
           },
           "a": {
             "en": "Low-rise, sheltered roofs with short spans, tight budgets, and repairs where speed matters more than service life. On exposed sites and long sheets the saving on nails is usually lost to call-backs.",
@@ -260,7 +263,8 @@
             "es": "En techos bajos y protegidos de poca luz, presupuestos ajustados y reparaciones donde la velocidad importa más que la vida útil. En sitios expuestos y chapas largas, el ahorro del clavo suele perderse en intervenciones de vuelta. El uso protegido y barato es lo que justifica el clavo.",
             "fr": "Toits bas et abrités de courte portée, budgets serrés, et réparations où la vitesse compte plus que la durée de service. Sur les sites exposés et les longues feuilles, l'économie sur les clous est généralement perdue en reprises. Le contexte d'usage décide du choix.",
             "pt": "Telhados baixos, protegidos, com vãos curtos, orçamento apertado, e reparos onde a velocidade pesa mais que a vida útil. Em sítios expostos e chapas longas, a economia com pregos costuma se perder em retrabalhos. O uso é conferido contra a exposição do telhado, e a durabilidade é comparada no projeto da cobertura.",
-            "de": "Bei niedrigen, geschützten Dächern mit kurzen Spannweiten, engen Budgets und Reparaturen, wo Tempo wichtiger ist als Lebensdauer. Auf freiliegenden Standorten und langen Bahnen geht die Ersparnis bei Nägeln meist in Rückrufen verloren."
+            "de": "Bei niedrigen, geschützten Dächern mit kurzen Spannweiten, engen Budgets und Reparaturen, wo Tempo wichtiger ist als Lebensdauer. Auf freiliegenden Standorten und langen Bahnen geht die Ersparnis bei Nägeln meist in Rückrufen verloren.",
+            "ja": "低層で囲われたスパンの短い屋根、費用を重視する箇所、施工の速さが耐用年数より重要な補修です。露出した現場や長いシートでは、釘で節約した分が手直しで失われることが多いです。屋根の環境と用途を踏まえて留め具を選定してください。環境が厳しい箇所では、耐用性を優先して適切な留め具を選ぶことが望ましいです。"
           }
         },
         {
@@ -273,7 +277,8 @@
             "es": "¿Qué debe especificar el pedido en uno u otro caso?",
             "fr": "Que doit préciser la commande dans les deux cas ?",
             "pt": "O que o pedido deve especificar em qualquer caso?",
-            "de": "Was soll die Bestellung in beiden Fällen angeben?"
+            "de": "Was soll die Bestellung in beiden Fällen angeben?",
+            "ja": "どちらの場合も発注には何を指定すべきですか？"
           },
           "a": {
             "en": "Fastener type and size, coating class, washer specification for screws, spacing pattern by wind zone, and a wastage allowance. Cost per 1000 pieces is meaningless without the spacing and the coating.",
@@ -284,7 +289,8 @@
             "es": "Tipo y tamaño de fijación, clase de recubrimiento, especificación de arandela para tornillos, patrón de espaciamiento por zona de viento, y una reserva de desperdicio. El costo por mil piezas no significa nada sin el espaciamiento y el recubrimiento. Los datos del pedido cuadran el gasto real de obra.",
             "fr": "Type et dimension de fixation, classe de revêtement, spécification de rondelle pour les vis, calepinage par zone de vent, et une marge de perte. Le coût aux 1000 pièces n'a pas de sens sans l'entraînement et le revêtement. Le calepinage et la finition comptent dans le coût réel.",
             "pt": "Tipo e tamanho do fixador, classe de revestimento, especificação da arruela para parafusos, padrão de espaçamento por zona de vento, e uma reserva de perda. O custo por mil peças não significa nada sem o espaçamento e o revestimento. As linhas do pedido são conferidas contra o desenho da cobertura antes do fechamento.",
-            "de": "Befestigertyp und Größe, Beschichtungsklasse, Scheibenspezifikation bei Schrauben, Abstandsmuster nach Windzone sowie ein Verschnittzuschlag. Der Preis je 1000 Stück ist ohne Abstand und Beschichtung bedeutungslos."
+            "de": "Befestigertyp und Größe, Beschichtungsklasse, Scheibenspezifikation bei Schrauben, Abstandsmuster nach Windzone sowie ein Verschnittzuschlag. Der Preis je 1000 Stück ist ohne Abstand und Beschichtung bedeutungslos.",
+            "ja": "留め具の種類とサイズ、被膜の区分、ねじの座金仕様、風の区域による間隔パターン、余剰分です。間隔と被膜がなければ、千個当たりの費用だけでは意味がありません。仕様書にこれらの条件を明記して発注してください。配置と被膜を含めた全体の仕様を確認し、費用と品質のバランスを判断してください。"
           }
         }
       ]
