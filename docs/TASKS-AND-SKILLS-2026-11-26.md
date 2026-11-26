@@ -92,3 +92,10 @@
 
 * 2026-11-26 已修：`ai.telegram-minimax.plist`（`StandardErrorPath` 的 `</string>` 误写）与 `com.glance.dashboard.plist`（`&&` 未转义），`plutil -lint` 均 OK；**未 bootstrap**（不主动起服务），原文件备份在 `/tmp/*.plist.bak`。
 * 认证「自述持证」句已清零并建基线（`content/cert-claims-baseline.json`），复核记录见 `docs/CERT-CLAIMS-REVIEW-2026-1126.md`；新增命中仍会被周检捕获。
+
+## 六、11-26 夜间补记（23:10 CST）
+
+* **GSC 快照补数**：`data/gsc-snapshot.json` 已覆盖为 2026-11-24 口径（点击 273 / 曝光 2.62 万 / CTR 1.0% / 均排名 13.1；已编入 1300、未编入 4050；站点地图 4101 成功），上版另存 `data/gsc-prev.json` 供周检环比。`data/` 在 `.gitignore` 内，仅本机生效，不随 push 走。
+* **发信闸门上线**（TradeBrain `server/src/services/email-service.ts`，commit `9e044006`）：发信前拦 `noreply/notification/automated` 类本地名 + 建站/客服网关域名（webador、zohodesk、tawkto、wix、shopify、zendesk…）。9 条用例全过（`support@webador.fr` 拦、`sales@afrimash.com` 放行）；`tsc`+`npm run build` 通过，`com.tradebrain.server` 已 kickstart 生效，cron 运行正常。
+* **上线包**：`98f3ad9f`（正文/FAQ 内链补尾斜杠）+ `606dedf5`、`caeba63e`（台账去重）共 3 个提交待推；本地 `deploy-preflight.sh` 体检通过（`next build` OK），当前不在部署窗口（09:00-11:00 / 17:00-19:00 CST）且今日预算 4/3，交由 `deploy-flush` 在下一个窗口自动推。
+* **邮箱收口**：通知类（`category:updates`）、推广类（`category:promotions`）、AliExpress 营销与退信已归档，收件箱未读 382 → 35；客户线程（Afrimash、Electrosales、Ngagne、Anthropic/Vercel 账号告警）保留未动。
