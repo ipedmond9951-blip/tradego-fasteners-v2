@@ -150,19 +150,6 @@ export function getAllSlugs(): string[] {
     .filter((s): s is string => s !== null)
 }
 
-export function getSlugDateMap(): Record<string, string> {
-  const map: Record<string, string> = {}
-  if (!fs.existsSync(articlesDir)) return map
-  for (const f of fs.readdirSync(articlesDir).filter(f => f.endsWith('.json'))) {
-    try {
-      const a = JSON.parse(fs.readFileSync(path.join(articlesDir, f), 'utf-8')) as Article
-      const slug = decodeURIComponent(f.replace('.json', ''))
-      map[slug] = a.updated || a.date || new Date().toISOString().slice(0, 10)
-    } catch {}
-  }
-  return map
-}
-
 /**
  * Get related articles by category (auto-recommendation).
  * Used as fallback when article.relatedArticles is empty.
