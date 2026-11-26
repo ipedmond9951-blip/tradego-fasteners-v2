@@ -264,7 +264,8 @@
             "es": "¿Qué diferencia hay entre remache pop y remache estructural?",
             "pt": "Qual a diferença entre rebite comum e rebite estrutural?",
             "fr": "Quelle différence entre rivet pop et rivet structural ?",
-            "de": "Was unterscheidet eine Blindniete von einer Strukturniete?"
+            "de": "Was unterscheidet eine Blindniete von einer Strukturniete?",
+            "ja": "ポップリベットと構造用リベットの違いは何ですか？"
           },
           "a": {
             "en": "Structural rivets (such as CherryMAX or Avdel rivets) are designed for load-bearing aerospace and industrial applications. They have higher shear strength (typically 700-1500 kg per rivet) and are installed with special pneumatic tools. Standard pop rivets (3.2-6.4mm) are for non-structural sheet metal joining. For critical structural connections, specify structural rivets or use bolts instead.",
@@ -275,7 +276,8 @@
             "es": "Los remaches estructurales, como los CherryMAX o Avdel, están pensados para uniones aeroespaciales e industriales portantes. Tienen mayor resistencia al cizallamiento, típicamente de 700 a 1500 kg por remache, y se instalan con herramienta neumática especial. Los remaches pop estándar, de 3.2 a 6.4mm, son para chapa no estructural. En uniones críticas, especifique remache estructural o use perno.",
             "pt": "Os rebites estruturais, como CherryMAX ou Avdel, são projetados para aplicações aeroespaciais e industriais de carga. Têm resistência ao cisalhamento mais alta, cerca de 700 a 1500 kg por rebite, e são instalados com ferramenta pneumática especial. Os rebites pop comuns, de 3,2 a 6,4 mm, servem para junção de chapa metálica não estrutural. Em conexões estruturais críticas, especificam-se rebites estruturais ou parafusos no lugar.",
             "fr": "Les rivets structuraux (comme CherryMAX ou Avdel) sont conçus pour les applications porteuses aéronautiques et industrielles. Ils offrent une résistance au cisaillement plus élevée (typiquement 700 à 1500 kg par rivet) et se posent avec des outils pneumatiques spéciaux. Les rivets pop standards (3,2 à 6,4 mm) servent aux tôles non structurelles. Pour les liaisons critiques, spécifiez des rivets structuraux ou utilisez des boulons.",
-            "de": "Strukturnieten, etwa CherryMAX- oder Avdel-Nieten, sind für tragende Luftfahrt- und Industrieanwendungen ausgelegt. Sie haben eine höhere Scherfestigkeit (üblicherweise 700–1500 kg je Niet) und werden mit Spezialdruckluftwerkzeugen gesetzt. Standard-Blindnieten von 3,2–6,4 mm dienen dem nicht tragenden Blechverbund. Für kritische Tragverbindungen sind Strukturnieten zu spezifizieren oder stattdessen Schrauben zu verwenden."
+            "de": "Strukturnieten, etwa CherryMAX- oder Avdel-Nieten, sind für tragende Luftfahrt- und Industrieanwendungen ausgelegt. Sie haben eine höhere Scherfestigkeit (üblicherweise 700–1500 kg je Niet) und werden mit Spezialdruckluftwerkzeugen gesetzt. Standard-Blindnieten von 3,2–6,4 mm dienen dem nicht tragenden Blechverbund. Für kritische Tragverbindungen sind Strukturnieten zu spezifizieren oder stattdessen Schrauben zu verwenden.",
+            "ja": "構造用リベットは耐力のある航空機・産業用途向けに設計され、せん断強度が高く専用の空圧工具で取り付けます。標準のポップリベットは非構造の板金接合向けです。重要な構造接続には構造用リベットを指定するか、ボルトを使ってください。用途の荷重と母材を確認し、リベットの種類を選定します。"
           }
         },
         {
@@ -288,7 +290,8 @@
             "es": "¿Puede quitarse un remache pop si hace falta?",
             "pt": "Os rebites pop podem ser removidos se for preciso?",
             "fr": "Les rivets pop peuvent-ils être retirés si besoin ?",
-            "de": "Können Blindnieten bei Bedarf wieder entfernt werden?"
+            "de": "Können Blindnieten bei Bedarf wieder entfernt werden?",
+            "ja": "ポップリベットは必要なら外せますか？"
           },
           "a": {
             "en": "Yes. Drill through the center of the rivet head with a bit slightly larger than the rivet body diameter — this destroys the rivet and allows the pieces to be removed. For closed-end rivets, drill completely through. Be aware this creates a hole that may need to be filled or used for a bolt replacement.",
@@ -299,7 +302,8 @@
             "es": "Sí. Taladre el centro de la cabeza con una broca algo mayor que el diámetro del cuerpo del remache; esto lo destruye y permite separar las piezas. En remaches cerrados, taladre por completo. Tenga en cuenta que queda un agujero que puede necesitar relleno o sustituirse por un perno. La retirada deja la zona preparada para otra fijación.",
             "pt": "Sim. Perfilia-se o centro da cabeça com broca levemente maior que o diâmetro do corpo do rebite, o que destrói o rebite e permite retirar as peças. Em rebites fechados, perfura-se completamente. Note-se que fica um furo que pode precisar ser preenchido ou usado para a troca por parafuso. A remoção é destrutiva e não permite reuso do rebite original.",
             "fr": "Oui. Percez au centre de la tête avec un foret légèrement plus gros que le diamètre du corps du rivet : cela détruit le rivet et permet de séparer les pièces. Pour les rivets fermés, percez complètement. Soyez conscient que cela crée un trou qui devra être rebouché ou utilisé pour un boulon de remplacement. Le retrait ne laisse pas un assemblage réutilisable.",
-            "de": "Ja. Bohren Sie mit einem etwas größeren Bohrer als dem Nietkörperdurchmesser durch die Mitte des Nietkopfs; dabei wird der Niet zerstört, sodass die Teile getrennt werden können. Bei geschlossenen Nieten ist vollständig durchzubohren. Beachten Sie, dass ein Loch entsteht, das später verschlossen oder für eine Schraubverbindung genutzt werden muss."
+            "de": "Ja. Bohren Sie mit einem etwas größeren Bohrer als dem Nietkörperdurchmesser durch die Mitte des Nietkopfs; dabei wird der Niet zerstört, sodass die Teile getrennt werden können. Bei geschlossenen Nieten ist vollständig durchzubohren. Beachten Sie, dass ein Loch entsteht, das später verschlossen oder für eine Schraubverbindung genutzt werden muss.",
+            "ja": "はい。リベット本体の径より少し大きいドリルで頭の中央を貫通すると、リベットが壊れて各部を取り外せます。クローズドエンドリベットは完全に貫通させます。外した後の穴は埋めるか、ボルトの置き換えに使うことになる点を見込んでください。再利用の可否は母材と穴の状態で判断します。"
           }
         },
         {
@@ -312,7 +316,8 @@
             "es": "¿Cuándo usar remaches pop de extremo cerrado?",
             "pt": "Quando usar rebites pop de fechamento fechado?",
             "fr": "Quand utiliser des rivets pop à bout fermé ?",
-            "de": "Wann sind geschlossene Blindniete einzusetzen?"
+            "de": "Wann sind geschlossene Blindniete einzusetzen?",
+            "ja": "クローズドエンドのポップリベットはいつ使いますか？"
           },
           "a": {
             "en": "Use closed-end (sealed) pop rivets when: the joint must be watertight (outdoor enclosures, marine applications); the application involves liquids or gases (tanks, pipes); corrosion prevention is critical (galvanic separation between materials); the rivet may be exposed to pressure differential. The sealed end prevents water ingress and eliminates galvanic corrosion between the mandrel and rivet body.",
@@ -323,7 +328,8 @@
             "es": "Use remaches cerrados (sellados) cuando: la unión debe ser estanca (cajas exteriores, aplicaciones marinas); haya líquidos o gases (depósitos, tuberías); la prevención de corrosión sea crítica (separación galvánica entre materiales); o el remache pueda estar sometido a presión distinta. El extremo sellado evita la entrada de agua y reduce la corrosión galvánica entre el mandril y el cuerpo.",
             "pt": "Usam-se rebites pop fechados, vedados, quando a junta precisa ser estanque, como gabinetes externos e aplicações marinhas; quando há líquidos ou gases, tanques e tubos; quando a prevenção de corrosão é crítica, na separação galvânica entre materiais; e quando o rebite pode ficar exposto a diferencial de pressão. A ponta vedada impede entrada de água e reduz corrosão entre o mandril e o corpo do rebite.",
             "fr": "Utilisez des rivets pop fermés (étanches) quand le joint doit être étanche (coffrets extérieurs, applications marines) ; quand l'usage implique des liquides ou des gaz (réservoirs, tuyauteries) ; quand la prévention de la corrosion est critique ; ou quand le rivet peut être exposé à une différence de pression. Le bout étanche empêche l'entrée d'eau et supprime la corrosion galvanique entre le mandrin et le corps.",
-            "de": "Geschlossene, abgedichtete Blindniete sind zu nutzen, wenn die Verbindung wasserdicht sein muss (Außengehäuse, Marineanwendungen), Flüssigkeiten oder Gase beteiligt sind (Tanks, Rohre), Korrosionsschutz entscheidend ist (galvanische Trennung der Werkstoffe) oder der Druckdifferenz ausgesetzt ist. Das Dichtende verhindert Wassereintritt und galvanische Korrosion zwischen Dorn und Nietkörper."
+            "de": "Geschlossene, abgedichtete Blindniete sind zu nutzen, wenn die Verbindung wasserdicht sein muss (Außengehäuse, Marineanwendungen), Flüssigkeiten oder Gase beteiligt sind (Tanks, Rohre), Korrosionsschutz entscheidend ist (galvanische Trennung der Werkstoffe) oder der Druckdifferenz ausgesetzt ist. Das Dichtende verhindert Wassereintritt und galvanische Korrosion zwischen Dorn und Nietkörper.",
+            "ja": "接続を水密にする必要がある屋外筐体や海洋用途、液体や気体を扱うタンク・配管、防食が重要な材料間の絶縁、圧力差にさらされる箇所で使います。密閉端は水の侵入を防ぎ、マンドレルと本体の間の電食を抑えます。用途の流体と暴露環境に合わせて端部の形式を選んでください。"
           }
         }
       ],
