@@ -15,6 +15,8 @@ import VideoSection from '@/components/VideoSection'
 import SocialLinksSection from '@/components/SocialLinksSection'
 import StatisticsSection from '@/components/StatisticsSection'
 import SourcesSection from '@/components/SourcesSection'
+import LocalBusinessSchema from '@/components/LocalBusinessSchema'
+import HomeVideoSchema from '@/components/HomeVideoSchema'
 import { navLabels, pick, schemaCopy, shareCopy } from '@/lib/uiCopy'
 import { productNames, productDescriptions, pick as pickPd } from '@/lib/productI18n'
 import { featuredSlugs } from '@/lib/productCategories'
@@ -107,6 +109,11 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
           }),
         }}
       />
+
+      {/* LocalBusiness 仅在首页与联系页输出；Organization 由布局全站注入一次 */}
+      <LocalBusinessSchema locale={locale} />
+      {/* VideoObject 仅首页输出，与 VideoSection 三条真实视频一一对应；其它页面零 VideoObject */}
+      <HomeVideoSchema locale={locale} />
 
       <HeroSection locale={locale} />
 
