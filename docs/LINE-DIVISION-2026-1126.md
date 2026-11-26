@@ -83,3 +83,4 @@ commit 成功后 `python3 scripts/article-claim.py release <slug> <owner>`；
 
 - 2026-11-26（B 线 T9i 轮起草）：建立 R1–R9；登记 A 线在 B 区的 20 个历史越界篇目与 26 笔提交；登记 5 篇在途文件与 3 篇 ru 缺口（20 条）；号段 168–175 已被 A 线占用，B 线顺延 176–180。
 - 2026-11-26（seo-geo-main 借调，红线合规）：经 R 线登记借调两篇，原因：用户实测命中合规红线（①PVoC 段写"上海"办公/发货地且列 USD 费用档位；②正文/Faq 出现"必须从通过 ISO 9001:2015 认证的制造商处采购"的持证越界表述）。借调 slug：`ghana-building-materials`、`angola-lng-project-fastener-procurement`；借调人 `seo-geo-main`；仅改红线句及其同语种同义越界句，不动其他字段；commit 号回填于本条第二笔登记（见下）。
+- 2026-11-26（第二笔回填，seo-geo-main）：两篇红线整改已落本地、未 push、未跑部署。`ghana-building-materials` 提交 `111c9c3e`（PVoC 段 10 语种去上海地名与 USD 档位）；`angola-lng-project-fastener-procurement` 提交 `45995e59`（section-5 与 FAQ Q1 认证口径 10 语种归一）；全库扫描清单落 `docs/compliance-redspots-2026-1126.md`，提交 `4e464b14`。借调登记首笔提交 `ac423d53`。
