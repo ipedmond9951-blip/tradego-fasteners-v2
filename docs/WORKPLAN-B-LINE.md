@@ -170,3 +170,27 @@ python3 -c "import sys;sys.path.insert(0,'scripts');import json_rewrite as jr;d=
 ## 7. 经验索引（`docs/CONTENT-CONTRACT.md`）
 
 70 半译要靠 token 比例量 / 71 修一篇要看全篇 / 72 先重构再译 / 73 闸门写增量 / 74 验拼接缝 / 75 按连续英文串量 / 76 字段语言别写错（script 计数会抓）/ 77 半译节多半是"混排+碎列表"一次收成段落 / 78 回写别引重复标签。
+
+### 0.5 T9i 轮（2026-11-26）收口后的排期与不变量
+
+**本轮做了什么**：落 A/B 边界共识 `docs/LINE-DIVISION-2026-1126.md`（R1–R9）；3 篇 ru 缺口按在途登记未碰；B 区 hi 短答 14 条 / 11 篇回补到 317–448 字符；B 区 ar 从 **212 篇 / 757 条** 收到 **4 篇**（全为在途阻塞）；交期答句 17 篇去模板化（6-gram ≥15 由 4 处归零）；六项终验全跑完；经验 176–180；CSV 重生成。
+
+**当前缺口（CSV 口径，`docs/faq-native-gap-2026-1125.csv`）**
+
+- 全库：`{zh:19, ru:58, ar:26, es:189, fr:189, de:214, pt:190, ja:192, hi:58}`（FAQ 文章 279、有缺口 223、问句异常 0）
+- B 区（非 A 区 39）：`{es:171, fr:172, de:180, pt:172, ja:164, ru:24, ar:4, zh:15, hi:22}`
+
+**下一轮顺序（建议不变）**
+
+1. **先等 4 篇解阻塞**：`africa-fastener-market-opportunities-2026`（ar 7 / ru 7）、`china-fasteners-zimbabwe-procurement-guide`（6/6）、`ghana-fastener-market-guide`（7/7）三篇保护名单 + `drc-diamond-mining-fasteners`（ar 12，归属待确认）。判据：`git status` 变干净 + 已提交后才动，**不 restore、不 checkout**。
+2. **ru 收尾**（B 区 24 篇，其中 20 条集中在上述 3 篇）+ **zh 15 篇 + hi 22 篇**，可合成一轮 3 语种小批。
+3. **es/fr/de/pt**：B 区 171/172/180/172，四语种同族可合并一轮，每批 6–8 篇（4 语种 ×N 条）。
+4. **ja 单独收尾**：B 区 164 篇，日文句法自成一套，放最后。
+
+**硬不变量（每批开工先核）**
+
+- 写锁 owner：B 线 = `今日头条分析`；**同 owner 可能有并行会话**，幂等按**逐条**判（经验 177）。
+- 每批：claim → 重读磁盘 → 写 → 判据脚本 → `content_gate --slug` → 单文件 `add`+`commit` 同行 → release；撞 `.git/index.lock` 只等 2 秒重试，**不许删锁**（stale 由 organizer `mv` 留档，经验 176）。
+- 只 commit 不 push；A 区 39 篇与别线在途文件（` M`）一律不 `add`、不改、不 restore。
+- 交期/付款/MOQ 三类模板句按篇轮换句式，数字不动（经验 180），批量写完必跑 `dedupe_*`。
+- 经验号段先 `grep` 再预约：本轮已占 **176–180**，下一轮从 **181** 起。
