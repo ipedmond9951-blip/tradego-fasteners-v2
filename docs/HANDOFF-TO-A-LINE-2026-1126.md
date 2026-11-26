@@ -96,3 +96,10 @@
 
 - 改动均在正文 body，FAQ 问答未动；每篇提交前 `content_gate.py --slug` 输出「✅ 闸门通过：没有新增 BLOCK」。
 - zh 无专用正文判据（check_zh 只校 FAQ），正文按结构自检：无 U+FFFD、无异种文字、汉字占比正常、无英文整句。
+
+## 7. R-T9l S4b `a.en` 占位句登记（2026-11-26，源文缺陷，交 A 线；B 线未改 en）
+
+- 判据：`a.en` 为 “See the detailed analysis above for specifications, applications, and best practices for …” 一类占位导航句，本身不含本篇可取材的事实；九语种 FAQ 译文随之无事实可依。
+- 明细：`docs/gsc-shortanswer-enresidue-2026-1126.csv` 中 `metric=en_placeholder` 行，共 **22 条，均为各篇 `#1`**。
+- 处置：请 A 线按本篇正文补齐 `a.en` 事实后，B 线下一轮再据新 en 重译各语种；本轮 B 线对这些条目只登记，**不改 en、不改其译文**。
+- 22 篇：`china-fastener-supplier-price-list-guide`、`china-hex-nuts-manufacturer`、`drywall-screws-bulk-price-africa-procurement`、`fastener-applications-construction-solar-telecom`、`fastener-common-problems-solutions`、`fastener-cost-analysis-template`、`fastener-quality-inspection-guide`、`fastener-selection-guide-african-construction`、`fastener-standards-din-iso-astm-comparison`、`fastener-supplier-verification-checklist`、`kenya-fastener-market-case-study`、`kenya-fastener-market-guide`、`m10-galvanized-bolt-fob-china-price`、`malawi-fastener-market-case-study`、`mining-fasteners-africa`、`nigeria-fastener-market-guide`、`self-drilling-tek-screws-price-list`、`solar-panel-mounting-fasteners-africa`、`south-africa-fastener-market-case-study`、`south-africa-fastener-market-guide`、`stainless-steel-fasteners-africa`、`zambia-fastener-market-case-study`。
