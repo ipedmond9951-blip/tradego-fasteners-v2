@@ -116,6 +116,13 @@
 - **怎么验**：批次 B 上线后，抽样 FAQ/产品详情/产品列表页 title、description 字符数回到阈值内；后续周期在效果报告观察对应页面标题展示完整度。预期：抽样 3 页超长项清零。
 - **依赖与风险**：仅压缩既有 meta，不改正文；非拉丁语种（ar/ru/hi/ja）长度按字符与可读宽度分别核。`需部署 批次：B`。
 
+#### 执行记录（A 线内容 / 技术兜底，2026-11-26）
+
+- **改动文件/字段**：`src/app/[locale]/faq/page.tsx`——① `titles` 表仅重写超 60 字符的 7 个语种（en/es/fr/pt/de/ru/ar），zh/ja/hi 原本达标未动；压缩时保留各语种核心名词（紧固件、FAQ、规格、采购、运输、非洲）与品牌尾缀 `| TradeGo`，未删语种词与规格词；② `generateMetadata` 的 `description` 统一包 `clampDescription(descriptions[loc] || descriptions.en)`（复用 `src/lib/seo.ts`，句末/词边界截断兜底），`descriptions` 原文案一字未改。未碰 `products/[slug]/page.tsx`、`products/page.tsx`（归其他线）。
+- **验证命令与结果**：`npx tsc --noEmit` 0 error；`python3 scripts/check-claims.py` 通过；dev 3101 curl 10 语种 `/<loc>/faq/` 去 HTML 实体后实测——title 全部 ≤60（60/30/60/59/56/57/55/32/60/57），description 全部 ≤155（152/74/155/153/153/145/154/83/155/155）。改前/改后长度对照表见 `artifacts/report-p26.md`。
+- **未处理项（留后续，本线未改对应模板）**：`/en/products/roofing-screws/` title 65；`/en/about/` description 193；`/en/documents/` title 65、description 225；`/en/products/` description 160 临界。原因：本条线只授权改 FAQ 模板，其余模板归对应责任线；盘点明细见报告。
+- **状态**：已改待发（批次 B）。commit `ee8cb749e1a892854fd50731137c80878fcd6d30`。
+
 ### P2-7 Organization / LocalBusiness 全站模板注入核对（对应 F7）
 
 - **要改什么**：核对 `src/app/[locale]/layout.tsx` 第 132–133 行布局级注入的 `<OrganizationSchema />` 与 `<LocalBusinessSchema />` 的输出范围。预期口径：LocalBusiness 仅在首页/联系页输出；文章页、产品列表/详情页保留 Organization 即可。若当前业务预期就是全站复用，保留现状并在本方案登记结论。
@@ -188,6 +195,12 @@
 - **谁改**：`A 线内容`
 - **怎么验**：改后两篇标题字符数进入合理区间且与页面内容对应。
 - **依赖与风险**：抽样 2 篇，其余样本 21–57 字符不动。`需部署 批次：B`（可选）。
+
+#### 执行记录（A 线内容，2026-11-26）
+
+- **改动文件/字段**：仅 `content/articles/self-drilling-screws-market-demand-and-procurement-guide.json` 的 `title.zh`、`title.ja` 两个字段——zh `自攻螺丝采购指南`（8）→ `自攻螺丝采购指南：规格参数与非洲市场供货`（20）；ja `自攻ねじ調達ガイド`（9）→ `自攻ねじ調達ガイド：仕様とアフリカ市場向け供給`（23，日文惯用写法，无英文词串）。经 `scripts/json_rewrite.py` 的 `jr.load` / `dump_same` 按原缩进回写；逐字段比对断言：除这两个标题外，`title.en`、`slug`、`sections`、`faqItems`、`description` 等其余字段与改前一致（文件末尾补了一个换行符，无内容改动）。
+- **验证命令与结果**：`npx tsc --noEmit` 0 error；`python3 scripts/check-claims.py` 通过；curl `/zh/industry/self-drilling-screws-market-demand-and-procurement-guide/` 与 `/ja/.../`，新标题同时出现在 `<title>` 与 `<h1>`（`getArticleTitle` 取 `article.title[locale]`，无副作用）；en 标题保持 38 字符未动。
+- **状态**：已改待发（批次 B）。commit `9326216dd2a92eb6817d1b4c1e1f1fe44fb4cb98`。
 
 ### OBS-4 分享图标锚文本 / aria-label（对应 F11）
 
