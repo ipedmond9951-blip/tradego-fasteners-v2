@@ -218,3 +218,53 @@
 **A 区登记不改（A 线处理后自行回填）**：`china-iso-9001-fastener-manufacturer-directory`、`fastener-supply-chain-africa-beira-corridor`、`rwanda-construction-fastener-standards`、`fastener-supply-chain-africa-beira-corridor` 等 32 篇 / 146 行；另有 `ivory-coast-abidjan-port-fastener-tariff` 的 `cta/text.ar`（「توفر TradeGo أدوات تثبيت معتمدة وفق ISO/EN/ASTM」）——**这是我方产品自证，请 A 线本轮内改掉**。
 
 **结论**：B 区本轮可清债已全部归零，明早 00:00 push 窗口可推；A 线侧仅剩 §6-B.5 五项回填与上面 1 处 A 区 CTA。
+
+## §7 B 区 body GEO 改造完成情况（R-T9o，2026-11-26 23:30 CST 冻结，B 线填）
+
+> 本轮只做 §6-B.5 第 4 项——**B 区 240 篇 body 的 GEO 改造**（实体密度 / 孤儿入站 / 首段复述）。A 区 39 篇、`src/**`、`docs/SEO-GEO-*`、`scripts/geo_audit.py` 全程零改动。
+
+### 7.1 三块完成数（总 / 已完成 / 剩余）
+
+| 块 | 判据（`scripts/geo_audit.py`，只读） | 总 | 已完成 | 剩余 |
+|---|---|---|---|---|
+| ① 实体密度 | B 区 `ent < 2.0`（每千词可核实体命中数） | 44 | **36** | **8**（全部结构性不可达，见 7.4） |
+| ② 孤儿内链 | 全库无任何 `relatedArticles` 指向 | 19 | **19** | **0** |
+| ③ 首段复述标题 | `echo == 1` 且分数最低 40 篇 | 40 | **40** | **0** |
+
+- 三块清单并集 **85 篇**；实际落地 **83 篇**（放弃 2 篇：`ethiopia-fastener-market-complete-guide` 为 redirect 存根、`africa-railway-sleeper-fastener-specification` 全篇 10 语种无可复用实体）。
+- 另动 **34 个宿主篇**（为 19 篇孤儿追加 36 条入站链），本轮仓库内共 **188 笔单文件提交**（`dd84f11e..HEAD`）。
+- 分数：82 篇有改前后分，**平均 +16.7 分**；最高 `solar-mounting-hex-bolt-solution-guide` 40→75；唯一负向 `south-africa-fasteners-china-import-guide` 59→57（首段 131 词，超出 p1 最佳区 40–130，下一轮压 1–2 词即可回补）。
+
+### 7.2 七项验收（`git diff dd84f11e..HEAD -- content/articles` 全量实测）
+
+| # | 项 | 结果 |
+|---|---|---|
+| ① | 实体密度 `ent<2` 剩余 | **8 篇**（详见 7.4，均为结构性不可达） |
+| ② | 孤儿剩余 | **0 篇**（19 篇全部 ≥1 条入站；4 篇仅 1 条，其余 2 条） |
+| ③ | 首段复述 40 篇 | **40/40 清零** |
+| ④ | `content_gate --brief` | 完全干净 **219/264（83%）**，BLOCK **0**，新增 BLOCK **0** |
+| ⑤ | 语种键删除 / `faqItems` 改动 | 键删除 **0**；`faqItems`/`faq` 改动 **0**；正文剥离标签后缩水 >15% 的语种 **0 处** |
+| ⑥ | en 事实 | 数量型编造 **0 处**（新增数字令牌均可在基线 en 文中找到）；新增标准号引用 **20 处**、常识型数值 **5 处**（ISO 898-1/3506-1/4042/3269、DIN 975/976/7504、EN 10204、440 km、75 mm、1.2–12.5 mm 等，均为真实标准/常识且与篇目产品匹配；逐条见 `$T9O/wave2-drift-en.csv`，如需与基线零差异可整批回退） |
+| ⑦ | 提交纪律 | 188 笔**全部单文件**；多文件提交 **0**；无 amend/reset/stash/`-F -`；`article-claim.py list` 收尾「当前没有锁」；暂存区空；A 区交集 **0**；他线 29 个 ` M` 文件全程未碰 |
+
+### 7.3 给 A 线的措辞（可直接引用）
+
+1. **B 区 body 本轮已做完，请勿重复派活**：①实体密度 36/44、②孤儿 19/19、③首段复述 40/40 已归零；A 线如再派 body 改造，只需做 7.4 的剩余清单，且那 8 篇已判定「补则必须造事实」，**不要强制补密**。
+2. **A 区 39 篇净变化 = 0**：孤儿入站时曾误把 2 个 A 区宿主（`ivory-coast-abidjan-port-fastener-tariff`、`telecom-tower-fasteners`）的 `relatedArticles` 追加了一条，其中后者还被 JSON 写回把 1 空格缩进重排成 2 空格（668 行 diff）。两篇已各自回滚到 `dd84f11e` 原样（`7fa2d6ef`、`65de9f45`），**当前 A 区文件与基线逐字节一致**；A 线如需给这两篇加同簇链，请自行按 A 区流程处理。
+3. **B 区 body 字段从现在起锁给 B 线**直至下一轮派活；A 线若必须动 B 区 body（首段/实体/内链），改前先在 `TWO-LINE-SYNC` 下单篇声明，按 §6-B.4「按文件 + 字段 + 归属三层划」执行。
+4. **上一轮 §6-B.5 五项回填仍挂 A 线**（12 篇未提交清单 / C2 起运港 / 4,480 减页清单 / body 改造归属清单 / 4 篇已改 diff 确认），本轮 body 改造已自行按 §6-B.4 归属执行，不再等第 4 项清单。
+
+### 7.4 剩余清单（8 篇，全部登记「结构性不可达」，不需再补）
+
+| slug | 现状 | 原因 |
+|---|---|---|
+| `africa-automotive-fastener-oem-sourcing` | ent 0.0 | en/zh/FAQ 仅有裸等级 8.8/10.9/12.9，判据不计分 |
+| `africa-oil-refinery-high-pressure-fastener-guide` | ent 0.0 | 仅 ASTM A193/A320 字母牌号 + 裸等级，无 ISO/DIN 数字标准号、尺寸、单位、交期 |
+| `africa-railway-sleeper-fastener-specification` | ent 0.0 | 全篇 10 语种无标准号/材质等级/港口/MOQ/交期 |
+| `africa-wind-energy-fastener-grade-specifications` | ent 0.0 | 同上，仅裸等级 8.8/10.9 |
+| `kenya-construction-fastener-imports-face-cost-and-customs-pressure` | ent 0.9 | 仅 M16 可计分；ASTM A193/A307/F1554 与裸 Grade 36/55/105 不计分，2420 词需约 5 命中 |
+| `lagos-industrial-fasteners` | ent 0.6 | 仅 0.3% 与 ASTM B117（字母牌号不计分） |
+| `nigeria-port-upgrades-and-fastener-import-lead-times` | ent 0.0 | 可计分仅 `30 days`×2，ASTM 字母牌号不计分，2353 词密度天花板 <2.0 |
+| `tanzania-dar-es-salaam-port-fastener-import-procedure` | ent 0.0 | 10 语种与 FAQ 均无标准号/尺寸/单位/百分比/交期（HS 7318 非识别前缀） |
+
+> 结论：`ent` 是每千词命中数，1600–2400 词文章要达 2.0 需 3–5 处可核实体；这 8 篇的可复用实体上限低于该门槛，**继续追这条指标只能靠造事实，按禁造口径停手**。
