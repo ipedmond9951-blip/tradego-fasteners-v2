@@ -175,7 +175,8 @@
             "es": "¿Qué longitud de varilla roscada debo pedir?",
             "fr": "Quelle longueur de tige filetée commander ?",
             "pt": "Que comprimento de barra roscada pedir?",
-            "de": "Welche Länge an Gewindestange soll ich bestellen?"
+            "de": "Welche Länge an Gewindestange soll ich bestellen?",
+            "ja": "ねじ付き棒はどの長さで注文すべきですか？"
           },
           "a": {
             "en": "Order slightly longer than needed, then cut to exact length on-site. Standard lengths of 1m, 2m, and 3m cover most requirements. For custom lengths, contact TradeGo for availability.",
@@ -186,7 +187,8 @@
             "es": "Pida una longitud algo mayor de la necesaria y corte después la medida exacta en obra. Las longitudes estándar de 1 m, 2 m y 3 m cubren la mayoría de necesidades. Para longitudes especiales, consulte la disponibilidad con TradeGo. La rosca debe protegerse en el corte para no dañar el tramo final.",
             "fr": "Commander une longueur légèrement supérieure au besoin, puis couper à la cote exacte sur place. Les longueurs standard de 1 m, 2 m et 3 m couvrent la plupart des besoins. Pour les longueurs sur mesure, on vérifie la disponibilité auprès du fournisseur avant commande. Une réserve de coupe évite une livraison trop courte impossible à rattraper.",
             "pt": "Pede-se um pouco mais longo que o necessário e corta-se no local ao comprimento exato. Comprimentos padrão de 1 m, 2 m e 3 m cobrem a maioria das necessidades. Para comprimentos personalizados, consulta-se a disponibilidade com o fornecedor. O excesso de haste é cortado antes da montagem, e a extremidade cortada recebe retocagem de revestimento quando aplicável.",
-            "de": "Bestellen Sie etwas länger als benötigt und schneiden Sie vor Ort auf das exakte Maß. Standardlängen von 1, 2 und 3 Metern decken die meisten Anforderungen ab. Für Sonderlängen fragen Sie die Verfügbarkeit bei TradeGo an."
+            "de": "Bestellen Sie etwas länger als benötigt und schneiden Sie vor Ort auf das exakte Maß. Standardlängen von 1, 2 und 3 Metern decken die meisten Anforderungen ab. Für Sonderlängen fragen Sie die Verfügbarkeit bei TradeGo an.",
+            "ja": "必要な長さより少し長めに注文し、現場で正確な長さに切断します。標準長さの1m、2m、3mで多くの要件を賄えます。特注長さが必要な場合は入手状況を供給元に確認してください。切断代を見込んで余裕を持たせ、現場の寸法に合わせて仕上げます。現場での切断代と端面処理を見込み、余裕のある長さで手配してください。"
           }
         },
         {
@@ -199,7 +201,8 @@
             "es": "¿Puede usarse la varilla roscada en sostenimiento minero subterráneo?",
             "fr": "La tige filetée peut-elle servir en soutènement minier souterrain ?",
             "pt": "A barra roscada serve para sustentação de mina subterrânea?",
-            "de": "Kann Gewindestange für Untertage-Bergbaustützen genutzt werden?"
+            "de": "Kann Gewindestange für Untertage-Bergbaustützen genutzt werden?",
+            "ja": "ねじ付き棒は地下鉱山の支保に使えますか？"
           },
           "a": {
             "en": "Yes, but use appropriate material for the environment. Hot-dip galvanized or stainless steel for humid underground conditions. Some mining applications require specialized corrosion-resistant coatings.",
@@ -210,7 +213,8 @@
             "es": "Sí, pero con el material adecuado para el entorno. En condiciones subterráneas húmedas se usa galvanizado en caliente o acero inoxidable. Algunas aplicaciones mineras requieren recubrimientos especiales resistentes a la corrosión. La clase de acero y el recubrimiento se fijan según el agua y el polvo de la galería.",
             "fr": "Oui, mais avec le matériau adapté au milieu. Galvanisé à chaud ou inox pour les conditions humides souterraines. Certaines applications minières exigent des revêtements résistants à la corrosion spécialisés. On spécifie la classe et le revêtement selon l'eau, l'humidité et les produits chimiques du site, et l'on contrôle la traçabilité matière du lot.",
             "pt": "Sim, mas usa-se material adequado ao ambiente. Galvanizado a quente ou inoxidável para condições subterrâneas úmidas. Algumas aplicações de mineração exigem revestimentos especiais resistentes à corrosão. A escolha segue a umidade, a infiltração e a vibração do trecho, e a rastreabilidade do lote deve permitir isolamento de peças defeituosas.",
-            "de": "Ja, aber der Werkstoff muss zur Umgebung passen. Für feuchte Untertageverhältnisse sind feuerverzinkter Stahl oder nichtrostender Stahl zu verwenden. Manche Bergbauanwendungen verlangen spezielle korrosionsbeständige Beschichtungen."
+            "de": "Ja, aber der Werkstoff muss zur Umgebung passen. Für feuchte Untertageverhältnisse sind feuerverzinkter Stahl oder nichtrostender Stahl zu verwenden. Manche Bergbauanwendungen verlangen spezielle korrosionsbeständige Beschichtungen.",
+            "ja": "はい使えますが、環境に合った材質を選びます。湿潤な地下環境には溶融亜鉛めっきまたはステンレス鋼を使います。一部の鉱山用途では専用の耐食被覆が必要です。地盤の水分と接触する岩石の種類を確認し、腐食を見込んだ材質と被覆を指定してください。地下水の程度と塩分を確認し、必要に応じて専用被覆を選定します。"
           }
         },
         {
@@ -223,7 +227,8 @@
             "es": "¿Qué diferencia hay entre rosca fina y rosca gruesa?",
             "fr": "Différence filetage fin et filetage gros ?",
             "pt": "Qual a diferença entre rosca fina e rosca grossa?",
-            "de": "Was unterscheidet Feingewinde und Grobgewinde?"
+            "de": "Was unterscheidet Feingewinde und Grobgewinde?",
+            "ja": "並目ねじと細目ねじの違いは何ですか？"
           },
           "a": {
             "en": "Coarse thread (standard metric) is easier to assemble and provides better fatigue resistance. Fine thread offers better adjustment precision and higher load capacity in the same diameter.",
@@ -234,7 +239,8 @@
             "es": "La rosca gruesa (métrica estándar) es más fácil de montar y da mejor resistencia a la fatiga. La rosca fina ofrece mayor precisión de ajuste y capacidad de carga en el mismo diámetro. La elección depende de la carga, del espacio de apriete y de la necesidad de regulación de la unión.",
             "fr": "Le filetage gros (métrique standard) est plus facile à assembler et offre une meilleure résistance en fatigue. Le filetage fin apporte une meilleure précision de réglage et une capacité de charge plus élevée dans le même diamètre. Le choix suit l'usage : assemblage rapide vs réglage fin et reprise de charge.",
             "pt": "A rosca grossa, métrica padrão, é mais fácil de montar e oferece melhor resistência à fadiga. A rosca fina dá melhor precisão de ajuste e capacidade de carga maior no mesmo diâmetro. A escolha depende da função da junta, do material base e da necessidade de regulagem, e a série de rosca é declarada na especificação do pedido.",
-            "de": "Das Grobgewinde (metrisch Standard) ist leichter zu montieren und bietet bessere Ermüdungsfestigkeit. Das Feingewinde erlaubt genauere Einstellung und höhere Tragfähigkeit bei gleichem Durchmesser."
+            "de": "Das Grobgewinde (metrisch Standard) ist leichter zu montieren und bietet bessere Ermüdungsfestigkeit. Das Feingewinde erlaubt genauere Einstellung und höhere Tragfähigkeit bei gleichem Durchmesser.",
+            "ja": "並目ねじ（標準メートルねじ）は組立てが容易で、疲労抵抗に優れます。細目ねじは調整精度が高く、同じ径でより高い荷重能力を持ちます。用途と調整のしやすさで選び、相手材の厚さと荷重を照合してください。ねじピッチは接合のかみ合わせに影響します。相手材の材質と必要な調整代を考慮し、ねじピッチを選んでください。"
           }
         },
         {
@@ -247,7 +253,8 @@
             "es": "¿Cómo se corta la varilla roscada en obra?",
             "fr": "Comment couper une tige filetée sur place ?",
             "pt": "Como cortar a barra roscada no local?",
-            "de": "Wie schneidet man Gewindestange vor Ort?"
+            "de": "Wie schneidet man Gewindestange vor Ort?",
+            "ja": "現場でねじ付き棒を切断するにはどうしますか？"
           },
           "a": {
             "en": "Use a hacksaw with fine-tooth blade, angle grinder with cutting disc, or pipe cutter for smaller diameters. Wear safety glasses and protect threads from debris.",
@@ -258,7 +265,8 @@
             "es": "Use una sierra de arco con hoja de diente fino, una radial con disco de corte, o un cortatubos para diámetros pequeños. Lleve gafas de protección y proteja la rosca frente a los restos de corte. Después del corte se revisa el extremo para eliminar rebabas antes del montaje.",
             "fr": "Utiliser une scie à métaux à lame fine, une meuleuse d'angle avec disque à tronçonner, ou un coupe-tube pour les petits diamètres. Porter des lunettes de protection et protéger les filets des copeaux. Après coupe, on ébavure l'extrémité et l'on contrôle que le filet reste engageable sur l'écrou.",
             "pt": "Usa-se serra manual com lâmina de dente fino, esmerilhadeira com disco de corte, ou cortador de tubo para diâmetros menores. Usa-se óculos de proteção e protegem-se as roscas de resíduos. Após o corte, a extremidade é limpa e o revestimento original é retocado, para que a ponta cortada não se torne o primeiro ponto de corrosão.",
-            "de": "Nutzen Sie eine Bügelsäge mit feinzahniger Blatt, eine Winkelschleifer mit Trennscheibe oder einen Rohrabschneider für kleinere Durchmesser. Tragen Sie eine Schutzbrille und schützen Sie das Gewinde vor Spänen."
+            "de": "Nutzen Sie eine Bügelsäge mit feinzahniger Blatt, eine Winkelschleifer mit Trennscheibe oder einen Rohrabschneider für kleinere Durchmesser. Tragen Sie eine Schutzbrille und schützen Sie das Gewinde vor Spänen.",
+            "ja": "細目の刃を付けた金ノコ、切断砥石付きアングルグラインダー、細い径にはパイプカッターを使います。安全眼鏡を着用し、ねじ山を切粉から保護してください。切断後は端面のばりを取り、ねじ山を損なわないよう保管します。切断面のばりを除き、ねじ山を保護した状態で現場保管します。"
           }
         },
         {
@@ -271,7 +279,8 @@
             "es": "¿Puedo soldar la varilla roscada?",
             "fr": "Peut-on souder une tige filetée ?",
             "pt": "Posso soldar a barra roscada?",
-            "de": "Kann man Gewindestange schweißen?"
+            "de": "Kann man Gewindestange schweißen?",
+            "ja": "ねじ付き棒は溶接できますか？"
           },
           "a": {
             "en": "Carbon steel threaded rod can be welded using appropriate procedures. Remove any plating or coating before welding. Stainless rod requires specialized welding techniques.",
@@ -282,7 +291,8 @@
             "es": "La varilla de acero al carbono puede soldarse con los procedimientos adecuados. Antes de soldar hay que retirar cualquier zincado o recubrimiento. La varilla inoxidable requiere técnicas de soldadura especializadas. En cargas estructurales, la unión soldada debe revisarse según el procedimiento de la obra.",
             "fr": "La tige filetée en acier carbone peut être soudée avec les procédures adaptées. Retirer tout dépôt de zinc ou revêtement avant soudage. La tige inox exige des techniques de soudage spécialisées. On vérifie la compatibilité du matériau et l'état du traitement thermique avant de concevoir un assemblage soudé.",
             "pt": "A barra roscada de aço-carbono pode ser soldada com procedimentos adequados. Remove-se qualquer galvanização ou revestimento antes da solda. A barra de inoxidável exige técnicas de solda especializadas. Em carga estrutural, a extensão por solda não é recomendada: prefere-se acoplamento roscado de mesma classe e diâmetro, e a junta soldada segue procedimento qualificado.",
-            "de": "Kohlenstoffstahl-Gewindestange lässt sich mit geeigneten Verfahren schweißen. Entfernen Sie vor dem Schweißen jede Verzinkung oder Beschichtung. Edelstahlstange erfordert spezielle Schweißverfahren."
+            "de": "Kohlenstoffstahl-Gewindestange lässt sich mit geeigneten Verfahren schweißen. Entfernen Sie vor dem Schweißen jede Verzinkung oder Beschichtung. Edelstahlstange erfordert spezielle Schweißverfahren.",
+            "ja": "炭素鋼のねじ付き棒は適切な手順で溶接できます。溶接に先立ちめっきや被覆を除去してください。ステンレスの棒は専用の溶接技術が必要です。材質に合った溶接棒と条件を選び、被覆の除去と後処理を記録してください。溶接部の後処理と強度確認を行い、被覆の再処理を忘れないでください。"
           }
         }
       ]
