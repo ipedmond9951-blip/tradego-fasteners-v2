@@ -2,19 +2,21 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { locales, type Locale, t } from '@/i18n'
 import { getFaq } from '@/lib/faqI18n'
+import { clampDescription } from '@/lib/seo'
 
 const SITE = 'https://www.tradego-fasteners.com'
 
+// P2-6 (F6): title 压到 ≤60 字符；保留各语种核心名词（紧固件/FAQ/规格/采购/运输/非洲）与品牌尾缀。
 const titles: Record<string, string> = {
-  en: 'Fastener FAQ - Sourcing, Specs and Shipping to Africa | TradeGo',
+  en: 'Fastener FAQ: Sourcing, Specs & Shipping to Africa | TradeGo',
   zh: '紧固件常见问答 - 采购、规格与非洲海运 | TradeGo',
-  es: 'Preguntas frecuentes sobre sujetadores - compras, especificaciones y envío a África | TradeGo',
-  fr: 'FAQ fixations - achats, spécifications et expédition vers l\'Afrique | TradeGo',
-  ar: 'الأسئلة الشائعة حول أدوات التثبيت - الشراء والمواصفات والشحن إلى أفريقيا | TradeGo',
-  pt: 'Perguntas frequentes sobre fixadores - compras, especificações e envio para África | TradeGo',
-  ru: 'Частые вопросы о крепеже - закупка, характеристики и доставка в Африку | TradeGo',
+  es: 'Sujetadores FAQ: especificaciones y envío a África | TradeGo',
+  fr: 'Fixations FAQ: spécif., expédition vers l\'Afrique | TradeGo',
+  ar: 'الأسئلة الشائعة للتثبيت: الشراء والشحن لأفريقيا | TradeGo',
+  pt: 'Fixadores FAQ: especificações e envio a África | TradeGo',
+  ru: 'Крепёж FAQ: закупка, характеристики, доставка | TradeGo',
   ja: '締結部品FAQ - 調達・仕様・アフリカ輸送 | TradeGo',
-  de: 'Befestigungselemente FAQ - Einkauf, Spezifikationen und Versand nach Afrika | TradeGo',
+  de: 'Befestigungselemente FAQ: Spez., Versand Afrika | TradeGo',
   hi: 'फास्टनर FAQ - खरीद, स्पेसिफिकेशन और अफ्रीका शिपिंग | TradeGo',
 }
 
@@ -54,7 +56,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
   return {
     title: titles[loc] || titles.en,
-    description: descriptions[loc] || descriptions.en,
+    // P2-6 (F6): 描述统一走 clampDescription 兜底截断（句末/词边界），原文案不改写。
+    description: clampDescription(descriptions[loc] || descriptions.en),
     alternates: {
       canonical: `${SITE}/${loc}/faq/`,
       // 2026-11-26 P2-2: 补 x-default 回退版本指向 en（与文章页写法对齐），共 10 语种 + x-default
