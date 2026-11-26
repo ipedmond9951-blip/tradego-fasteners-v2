@@ -242,7 +242,8 @@
             "hi": "ड्रॉप-इन एंकर से कौन सा स्क्रू मेल खाता है?",
             "ru": "Какой винт подходит к анкеру-заглушке?",
             "ar": "ما البرغي المناسب لمرساة الربط الداخلي؟",
-            "es": "¿Qué tornillo corresponde a un anclaje de expansión insertable?"
+            "es": "¿Qué tornillo corresponde a un anclaje de expansión insertable?",
+            "fr": "Quelle vis correspond à un ancrage à expansion chemisée ?"
           },
           "a": {
             "en": "A standard metric machine screw or bolt of the same thread size - M6, M8, M10 or M12. The fixture determines the anchor size, so specify from the bracket, not the other way round.",
@@ -250,7 +251,8 @@
             "hi": "उसी धागे के आकार का स्टैंडर्ड मीट्रिक मशीन स्क्रू या बोल्ट — M6, M8, M10 या M12। फिक्स्चर एंकर का आकार तय करता है, इसलिए ब्रैकेट से स्पेसिफिकेशन दें, उलटा नहीं।",
             "ru": "Подходит стандартный метрический машинный винт или болт того же размера резьбы: M6, M8, M10 либо M12. Размер анкера задаёт само крепление на конструкции, поэтому спецификацию начинают от кронштейна, а не обратным подбором под имеющийся анкер. Проверьте шаг резьбы и длину под стяжку: несовпадение оставляет узел на лишней высоте и мешает прижатию.",
             "ar": "برغي أو مسمار آلي متري عادي بنفس مقاس الخيط: M6 أو M8 أو M10 أو M12. التركيب هو ما يحدد مقاس المرساة، لذلك حدّد المقاس من القوس لا بالعكس. اجمع بين مقاس الخيط وسمك التثبيت وحمل الخدمة، وتحقق من تطابق القطر مع ثقب المرساة قبل الطلب.",
-            "es": "Un tornillo o perno de máquina métrico estándar del mismo tamaño de rosca: M6, M8, M10 o M12. El accesorio define el tamaño del anclaje, así que especifique desde el soporte, no al revés. El par se empareja por el diámetro y la rosca de la unión."
+            "es": "Un tornillo o perno de máquina métrico estándar del mismo tamaño de rosca: M6, M8, M10 o M12. El accesorio define el tamaño del anclaje, así que especifique desde el soporte, no al revés. El par se empareja por el diámetro y la rosca de la unión.",
+            "fr": "Une vis ou boulon machine métrique standard du même filetage : M6, M8, M10 ou M12. C'est la fixation qui détermine la taille de l'ancrage, donc spécifier depuis la bride et non l'inverse. La bride et son trou guident le diamètre d'ancrage retenu."
           }
         },
         {
@@ -260,7 +262,8 @@
             "hi": "ड्रॉप-इन एंकर सही तरीके से कैसे लगाया जाता है?",
             "ru": "Как правильно установить анкер-заглушку?",
             "ar": "كيف تُركَّب مرساة الربط الداخلي بشكل صحيح؟",
-            "es": "¿Cómo se coloca correctamente un anclaje insertable?"
+            "es": "¿Cómo se coloca correctamente un anclaje insertable?",
+            "fr": "Comment mettre correctement en place un ancrage chemisé ?"
           },
           "a": {
             "en": "Drill to the specified diameter and depth, clean the hole, insert the anchor flush with the surface, then drive the setting tool to expand the internal plug. Over-driving is the most common cause of premature failure.",
@@ -268,7 +271,8 @@
             "hi": "निर्धारित व्यास व गहराई तक ड्रिल करें, छेद साफ करें, एंकर को सतह के साथ फ्लश डालें, फिर सेटिंग टूल चलाकर आंतरिक प्लग फैलाएँ। ज़्यादा चलाना समय से पहले खराबी का सबसे आम कारण है।",
             "ru": "Сверлят отверстие заданного диаметра и глубины, вычищают его, вводят анкер заподлицо с поверхностью, затем установочным инструментом расклинивают внутреннюю гильзу. Перетягивание инструмента — самая частая причина раннего выхода анкера из строя: гильза разрушается, заделка теряет усилие. После установки проверяют, что анкер сидит ровно и не выступает, прежде чем вешать нагрузку.",
             "ar": "احفر بالمقاس والعمق المحددين، ونظف الثقب، أدخل المرساة مستوية مع السطح، ثم استخدم أداة التثبيت لتمديد السدادة الداخلية. الزيادة في الطرق هي السبب الأكثر شيوعًا للفشل المبكر. نظف الغبار تمامًا، واضبط عمق الأداة، واختبر التثبيت على عينة قبل تثبيت الأحمال.",
-            "es": "Taladre al diámetro y la profundidad especificados, limpie el hueco, inserte el anclaje al ras de la superficie, y luego accione la herramienta de colocación para expandir el tapón interno. Pasarse de largo es la causa más común de fallo prematuro. El hueco limpio y el golpe justo dejan el anclaje asentado."
+            "es": "Taladre al diámetro y la profundidad especificados, limpie el hueco, inserte el anclaje al ras de la superficie, y luego accione la herramienta de colocación para expandir el tapón interno. Pasarse de largo es la causa más común de fallo prematuro. El hueco limpio y el golpe justo dejan el anclaje asentado.",
+            "fr": "Percer au diamètre et à la profondeur prescrits, nettoyer le trou, insérer l'ancrage au ras de la surface, puis frapper l'outil de pose pour dilater la chemise interne. Le sur-enfoncement est la cause la plus fréquente de défaillance précoce. La pose calibrée assure l'expansion voulue."
           }
         },
         {
@@ -278,7 +282,8 @@
             "hi": "भार सीमा के लिए किन बातों का ध्यान रखें?",
             "ru": "Какие предельные нагрузки держать под контролем?",
             "ar": "ما حدود الحمل التي يجب الالتزام بها؟",
-            "es": "¿Qué límites de carga debo respetar?"
+            "es": "¿Qué límites de carga debo respetar?",
+            "fr": "Quelles limites de charge respecter ?"
           },
           "a": {
             "en": "Ratings are given in tension and shear for a specific substrate. Suspended services need a safety factor, and never load a drop-in anchor in tension beyond its published value in thin or cracked slabs.",
@@ -286,7 +291,8 @@
             "hi": "रेटिंग किसी खास सब्सट्रेट के लिए टेंशन और शियर में दी जाती है। लटकी सेवाओं के लिए सुरक्षा गुणक चाहिए, और पतली या दरार वाली स्लैब में ड्रॉप-इन एंकर को प्रकाशित मान से ज़्यादा टेंशन में कभी न लादें।",
             "ru": "Номиналы даны на растяжение и сдвиг для конкретного основания. Под подвешенные коммуникации вводят запас прочности, а в тонких или трещиноватых плитах не нагружают анкер-заглушку на растяжение выше опубликованного значения. Сравнивайте расчётное усилие узла с таблицей именно для вашего бетона; разные основания дают разное удержание, и общий запас по сдвигу не покрывает растяжение.",
             "ar": "القيم مصنفة في الشد والقص لركيزة معينة. الخدمات المعلقة تحتاج معامل أمان، ولا تحمّل مرساة الربط الداخلي شدًا يتجاوز قيمتها المنشورة في الألواح الرقيقة أو المتشققة. راجع نوع الركيزة وسمكها، وطبق عامل الأمان المناسب للتعليق، ولا تعتمد الحمل على مرساة واحدة في موضع ضعيف.",
-            "es": "Las clasificaciones se dan en tracción y cortante para un soporte concreto. Los servicios suspendidos necesitan un factor de seguridad, y nunca cargue un anclaje insertable en tracción por encima de su valor publicado en losas finas o agrietadas. El soporte y el tipo de carga definen hasta dónde se puede exigir el anclaje."
+            "es": "Las clasificaciones se dan en tracción y cortante para un soporte concreto. Los servicios suspendidos necesitan un factor de seguridad, y nunca cargue un anclaje insertable en tracción por encima de su valor publicado en losas finas o agrietadas. El soporte y el tipo de carga definen hasta dónde se puede exigir el anclaje.",
+            "fr": "Les valeurs sont données en traction et en cisaillement pour un support déterminé. Les services suspendus exigent un facteur de sécurité, et ne jamais charger en traction un ancrage chemisé au-delà de sa valeur publiée dans une dalle mince ou fissurée. La nature de la plafonnée limite la capacité admise."
           }
         }
       ]
