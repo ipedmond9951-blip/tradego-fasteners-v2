@@ -245,7 +245,8 @@
             "es": "¿Qué tornillo corresponde a un anclaje de expansión insertable?",
             "fr": "Quelle vis correspond à un ancrage à expansion chemisée ?",
             "pt": "Qual parafuso casa com uma âncora de encaixe?",
-            "de": "Welche Schraube passt zu einem Einnietdübel?"
+            "de": "Welche Schraube passt zu einem Einnietdübel?",
+            "ja": "ドロップインアンカーに合うねじは何ですか？"
           },
           "a": {
             "en": "A standard metric machine screw or bolt of the same thread size - M6, M8, M10 or M12. The fixture determines the anchor size, so specify from the bracket, not the other way round.",
@@ -256,7 +257,8 @@
             "es": "Un tornillo o perno de máquina métrico estándar del mismo tamaño de rosca: M6, M8, M10 o M12. El accesorio define el tamaño del anclaje, así que especifique desde el soporte, no al revés. El par se empareja por el diámetro y la rosca de la unión.",
             "fr": "Une vis ou boulon machine métrique standard du même filetage : M6, M8, M10 ou M12. C'est la fixation qui détermine la taille de l'ancrage, donc spécifier depuis la bride et non l'inverse. La bride et son trou guident le diamètre d'ancrage retenu.",
             "pt": "Um parafuso de máquina métrico padrão do mesmo tamanho de rosca — M6, M8, M10 ou M12. O acessório determina o tamanho da âncora, por isso se especifica a partir do suporte, não do contrário. A rosca é casada entre peças, e o diâmetro é conferido contra o desenho do suporte.",
-            "de": "Eine normale metrische Maschinenschraube oder ein Bolzen gleichen Gewindemaßes - M6, M8, M10 oder M12. Die Befestigung bestimmt die Dübelgröße, daher ist von der Halterung aus zu spezifizieren, nicht umgekehrt."
+            "de": "Eine normale metrische Maschinenschraube oder ein Bolzen gleichen Gewindemaßes - M6, M8, M10 oder M12. Die Befestigung bestimmt die Dübelgröße, daher ist von der Halterung aus zu spezifizieren, nicht umgekehrt.",
+            "ja": "同じねじ径の標準的なメートルねじ、またはボルトを使用します。M6、M8、M10、M12 などが該当します。取り付ける金具に合わせてアンカーのサイズを決めるため、逆ではなく金具側から仕様を決めてください。ねじ部が合わないと締め付けが甘くなり、後でゆるみの原因になりますので、下穴とねじの対応を確認してから注文してください。"
           }
         },
         {
@@ -269,7 +271,8 @@
             "es": "¿Cómo se coloca correctamente un anclaje insertable?",
             "fr": "Comment mettre correctement en place un ancrage chemisé ?",
             "pt": "Como uma âncora de encaixe é fixada corretamente?",
-            "de": "Wie wird ein Einnietdübel richtig gesetzt?"
+            "de": "Wie wird ein Einnietdübel richtig gesetzt?",
+            "ja": "ドロップインアンカーはどう正しく施工しますか？"
           },
           "a": {
             "en": "Drill to the specified diameter and depth, clean the hole, insert the anchor flush with the surface, then drive the setting tool to expand the internal plug. Over-driving is the most common cause of premature failure.",
@@ -280,7 +283,8 @@
             "es": "Taladre al diámetro y la profundidad especificados, limpie el hueco, inserte el anclaje al ras de la superficie, y luego accione la herramienta de colocación para expandir el tapón interno. Pasarse de largo es la causa más común de fallo prematuro. El hueco limpio y el golpe justo dejan el anclaje asentado.",
             "fr": "Percer au diamètre et à la profondeur prescrits, nettoyer le trou, insérer l'ancrage au ras de la surface, puis frapper l'outil de pose pour dilater la chemise interne. Le sur-enfoncement est la cause la plus fréquente de défaillance précoce. La pose calibrée assure l'expansion voulue.",
             "pt": "Perfura-se ao diâmetro e à profundidade especificados, limpa-se o furo, insere-se a âncora rente à superfície, depois aciona-se a ferramenta de fixação para expandir o plugue interno. Apertar demais é a causa mais comum de falha prematura. A profundidade é conferida após a perfuração, e o furo é limpo antes da inserção.",
-            "de": "Auf den angegebenen Durchmesser und die Tiefe bohren, das Loch reinigen, den Dübel bündig mit der Fläche einsetzen, dann das Setzwerkzeug antreiben, bis der innere Spreizkern aufgespreizt ist. Zu starkes Setzen ist die häufigste Ursache für frühen Ausfall."
+            "de": "Auf den angegebenen Durchmesser und die Tiefe bohren, das Loch reinigen, den Dübel bündig mit der Fläche einsetzen, dann das Setzwerkzeug antreiben, bis der innere Spreizkern aufgespreizt ist. Zu starkes Setzen ist die häufigste Ursache für frühen Ausfall.",
+            "ja": "指定された径と深さにドリルで穴を開け、穴の粉じんを清掃します。アンカーを面一に差し込み、専用の打ち込み工具で内部プラグを拡開させます。打ち込み過ぎは早期不具合の最も一般的な原因であり、逆に不足すると保持力が足りません。施工後はがたつきがないかを必ず確認してください。"
           }
         },
         {
@@ -293,7 +297,8 @@
             "es": "¿Qué límites de carga debo respetar?",
             "fr": "Quelles limites de charge respecter ?",
             "pt": "Quais limites de carga devo respeitar?",
-            "de": "Welche Lastgrenzen sind einzuhalten?"
+            "de": "Welche Lastgrenzen sind einzuhalten?",
+            "ja": "どのような荷重上限を守るべきですか？"
           },
           "a": {
             "en": "Ratings are given in tension and shear for a specific substrate. Suspended services need a safety factor, and never load a drop-in anchor in tension beyond its published value in thin or cracked slabs.",
@@ -304,7 +309,8 @@
             "es": "Las clasificaciones se dan en tracción y cortante para un soporte concreto. Los servicios suspendidos necesitan un factor de seguridad, y nunca cargue un anclaje insertable en tracción por encima de su valor publicado en losas finas o agrietadas. El soporte y el tipo de carga definen hasta dónde se puede exigir el anclaje.",
             "fr": "Les valeurs sont données en traction et en cisaillement pour un support déterminé. Les services suspendus exigent un facteur de sécurité, et ne jamais charger en traction un ancrage chemisé au-delà de sa valeur publiée dans une dalle mince ou fissurée. La nature de la plafonnée limite la capacité admise.",
             "pt": "As capacidades são dadas em tração e cisalhamento para um substrato específico. Serviços suspensos precisam de fator de segurança, e nunca se carrega uma âncora de encaixe em tração além do valor publicado em lajes finas ou fissuradas. A carga é conferida na ficha da âncora, e a base é inspecionada antes da instalação.",
-            "de": "Die Nennwerte gelten in Zug und Schub für einen bestimmten Untergrund. Hängende Anlagen brauchen einen Sicherheitsfaktor, und ein Einnietdübel darf in dünnen oder rissigen Platten nie über dem angegebenen Wert in Zug belastet werden."
+            "de": "Die Nennwerte gelten in Zug und Schub für einen bestimmten Untergrund. Hängende Anlagen brauchen einen Sicherheitsfaktor, und ein Einnietdübel darf in dünnen oder rissigen Platten nie über dem angegebenen Wert in Zug belastet werden.",
+            "ja": "許容荷重は特定の下地に対する引張とせん断で示されています。吊りものには安全率が必要であり、薄いコンクリートやひび割れのある版では、表示値を超える引張荷重をドロップインアンカーに掛けてはいけません。荷重の種類や下地の状態が仕様と異なる場合は、必ず設計者または施工業者に確認してください。"
           }
         }
       ]
