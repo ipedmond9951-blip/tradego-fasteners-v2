@@ -229,7 +229,8 @@
             "ar": "كيف أختار المثبت المناسب لمشروعي؟",
             "zh": "如何为项目选对紧固件？",
             "hi": "अपने प्रोजेक्ट के लिए सही फास्टनर कैसे चुनें?",
-            "ru": "Как подобрать крепёжное изделие под задачу проекта?"
+            "ru": "Как подобрать крепёжное изделие под задачу проекта?",
+            "ja": "案件に合った締結具をどう選べばよいですか？"
           },
           "a": {
             "en": "Consider the material being fastened, load requirements, environmental exposure, and applicable standards. Consult with a professional if unsure about specifications.",
@@ -240,7 +241,8 @@
             "ar": "يبدأ الاختيار من القطعة التي سيتم تثبيتها: ما المادة المراد ربطها، وما الحمل الذي يجب أن تتحمله المثبتة، وفي أي بيئة ستعمل، وأي معيار ينطبق على العمل الإنشائي. ثم يُحدَّد نوع الإجهاد السائد: الشد أو القص أو الاهتزاز أو تحميل إعادة التثبيت، مع مراعاة التعرض للرطوبة أو المواد الكيميائية أو التآكل. وتضع المعايير المعمول بها مثل ISO 898-1 لفولاذ الكربون والفولاذ السبائكي فئات خواص مثل 8.8 و10.9، بينما تتبع سبائك الفولاذ المقاوم للصدأ سلاسلها الخاصة. وعند عدم اليقين من المواصفات أو القطر من M8 إلى M30 أو عزم الشد بوحدة N·m، يجب استشارة مهندس أو مورد محترف بدل التعويض بمثبتة أكبر من اللازم.",
             "zh": "要综合考虑被连接件的材质、荷载要求、环境暴露条件以及适用的标准。规格拿不准时找专业人员确认。",
             "hi": "चयन में पहले वह सामग्री देखें जिसे जोड़ना है, फिर भार की आवश्यकता, पर्यावरणीय जोखिम (नमी, रसायन, बाहरी मौसम) और लागू मानकों को मिलाएं। स्पेसिफिकेशन पर भरोसा न हो तो किसी अनुभवी इंजीनियर या आपूर्तिकर्ता से पुष्टि कर लें; अकेले दिखावे या कम कीमत के आधार पर ग्रेड न तय करें।",
-            "ru": "Определите материал соединяемых деталей, расчётную нагрузку, воздействие внешней среды и применимый стандарт, затем по маркировке головки подберите класс прочности и исполнение изделия. Если спецификация неясна, обратитесь к специалисту по креплениям, чтобы не закладывать в узел изделие с неподтверждённой прочностью и не переделывать монтаж после сдачи."
+            "ru": "Определите материал соединяемых деталей, расчётную нагрузку, воздействие внешней среды и применимый стандарт, затем по маркировке головки подберите класс прочности и исполнение изделия. Если спецификация неясна, обратитесь к специалисту по креплениям, чтобы не закладывать в узел изделие с неподтверждённой прочностью и не переделывать монтаж после сдачи.",
+            "ja": "締結する材料、必要な荷重、環境への暴露、適用される規格を考慮します。木材か金属か、屋外か屋内か、腐食の懸念があるかによって材質と被覆が変わります。仕様に迷う場合は構造の専門家に相談し、図面の荷重条件と規格を確認してから発注してください。強度区分と被覆、材質を一緒に指定することが重要です。"
           }
         },
         {
@@ -253,7 +255,8 @@
             "ar": "ما المواد المتاحة لهذه البراغي؟",
             "zh": "这类紧固件有哪些材质可选？",
             "hi": "फास्टनरों के लिए कौन-कौन सी सामग्री उपलब्ध है?",
-            "ru": "Из каких материалов выпускается такой крепёж?"
+            "ru": "Из каких материалов выпускается такой крепёж?",
+            "ja": "これらの締結具にはどんな材質がありますか？"
           },
           "a": {
             "en": "Common materials include carbon steel, stainless steel, alloy steel, and specialty alloys. Each offers different strength, corrosion resistance, and cost characteristics.",
@@ -264,7 +267,8 @@
             "ar": "تشمل المواد الشائعة الفولاذ الكربوني والفولاذ المقاوم للصدأ والفولاذ السبائكي وسبائك متخصصة. يقدم الفولاذ الكربوني مقاومة ميكانيكية جيدة بتكلفة مضبوطة، لكنه يحتاج إلى حماية سطحية مثل الجلفنة أو الطلاء بالزنك لمقاومة الرطوبة. ويتصدى الفولاذ المقاوم للصدأ في سلسلتي A2-70 وA4-80 للتآكل بشكل أفضل مقابل صلابة وتكلفة مختلفتين. ويغطي الفولاذ السبائكي المعالجات الحرارية والفئات العالية مثل 10.9، بينما تلبي السبائك المتخصصة البيئات الحمضية أو درجات الحرارة العالية. ولكل مادة توزيع مختلف للقوة ومقاومة التآكل والتكلفة، لذلك ينبغي مطابقة ورقة المواصفات مع ظروف الموقع الفعلية.",
             "zh": "常见的有碳钢、不锈钢、合金钢和特种合金。它们在强度、耐蚀性和成本上各有取舍。",
             "hi": "आम सामग्रियों में कार्बन स्टील, स्टेनलेस स्टील, मिश्र धातु इस्पात और विशेष मिश्र धातुएं आती हैं। हर सामग्री की तनाव शक्ति, जंग रोधी क्षमता और लागत अलग होती है; बाहरी नमी वाली जगह के लिए स्टेनलेस या कोटेड विकल्प, भारी भार वाले जोड़ों के लिए मिश्र धातु ग्रेड ज़्यादा उपयुक्त होते हैं।",
-            "ru": "Распространённые материалы — углеродистая сталь, нержавеющая сталь, легированная сталь и специальные сплавы. У каждого свои прочность, устойчивость к коррозии и стоимость; выбор зависит от нагрузки в узле, климатической среды и бюджета проекта, а также от требований действующих стандартов на изделие."
+            "ru": "Распространённые материалы — углеродистая сталь, нержавеющая сталь, легированная сталь и специальные сплавы. У каждого свои прочность, устойчивость к коррозии и стоимость; выбор зависит от нагрузки в узле, климатической среды и бюджета проекта, а также от требований действующих стандартов на изделие.",
+            "ja": "一般的な材質には炭素鋼、ステンレス鋼、合金鋼、特殊合金があります。それぞれ強度、耐食性、コストの特性が異なります。炭素鋼は最も汎用的ですが、屋外では被覆が必要になります。ステンレス鋼は腐食環境に向き、合金鋼は高強度用途に使われます。使用環境と荷重を照らし合わせ、材質を選定してください。"
           }
         },
         {
@@ -277,7 +281,8 @@
             "ar": "كيف أقرأ العلامات على رأس برغي متري؟",
             "zh": "如何看懂公制螺栓头部的标记？",
             "hi": "मीट्रिक बोल्ट के हेड पर की निशानियां कैसे पढ़ें?",
-            "ru": "Как читать маркировку на головке метрического болта?"
+            "ru": "Как читать маркировку на головке метрического болта?",
+            "ja": "メートルボルトの頭部表示はどう読みますか？"
           },
           "a": {
             "en": "Two numbers such as 8.8 or 10.9 give the property class, where the first number is tensile strength in hundreds of MPa and the second is the yield ratio. Letters identify the manufacturer, and stainless bolts show A2-70 or A4-70 instead of a class number.",
@@ -288,7 +293,8 @@
             "ar": "على البرغي المتري يدل رقمان مثل 8.8 أو 10.9 على فئة الخواص: الرقم الأول يمثل مقاومة الشد بمئات الـ MPa، والثاني يعطي نسبة حد الخضوع إلى المقاومة. أما الحروف المحفورة فتعرف بالشركة المصنعة، ولا يحمل الفولاذ المقاوم للصدأ رقم فئة بل تسمية مثل A2-70 أو A4-70. وعند القراءة يُتحقق أولاً من ملاءمة الفئة للحمل المتوقع، ثم من مطابقة علامة الرأس لشهادة مادة الدفعة. وإذا كانت القراءة غير واضحة أو الرقم ممحواً أو العلامة معاد وشمها، فيجب إجراء اختبار صلابة وشد قبل الاستخدام.",
             "zh": "两个数字（如 8.8、10.9）表示性能等级：第一个数字是抗拉强度的百 MPa 值，第二个是屈强比。字母是制造商标识；不锈钢螺栓标注 A2-70 或 A4-70，而不是等级数字。",
             "hi": "हेड पर 8.8 या 10.9 जैसे दो अंक property class बताते हैं: पहला अंक सौ MPa में तनाव शक्ति है, दूसरा अंक उपज अनुपात है। अक्षर निर्माता की पहचान करते हैं, जबकि स्टेनलेस बोल्ट पर class नंबर की जगह A2-70 या A4-70 अंकित होता है। माल ऑर्डर करने से पहले इन निशानियों को प्रमाण-पत्र के साथ मिलाना चाहिए।",
-            "ru": "Два числа, например 8.8 или 10.9, обозначают класс прочности: первое — предел прочности в сотнях МПа, второе — отношение текучести. Буквы на головке указывают изготовителя, а у болтов из нержавейки вместо класса стоит марка A2-70 или A4-70. По такому клейму инженер заранее понимает, можно ли применять болт в расчётном узле."
+            "ru": "Два числа, например 8.8 или 10.9, обозначают класс прочности: первое — предел прочности в сотнях МПа, второе — отношение текучести. Буквы на головке указывают изготовителя, а у болтов из нержавейки вместо класса стоит марка A2-70 или A4-70. По такому клейму инженер заранее понимает, можно ли применять болт в расчётном узле.",
+            "ja": "8.8や10.9という二つの数字は機械的性質等級を表します。最初の数字は引張強さをMPaの100分の1で示し、二つ目は降伏比を表します。文字は製造元を識別する文字で、ステンレスボルトは等級数字の代わりにA2-70やA4-70と表示されます。表示が読めない、または欠けているボルトは構造用途に使わないでください。"
           }
         },
         {
@@ -301,7 +307,8 @@
             "zh": "螺栓头部完全没有标记怎么办？",
             "hi": "यदि बोल्ट के हेड पर कोई निशान ही न हो?",
             "ru": "Что делать, если на болте вообще нет маркировки?",
-            "de": "Was, wenn ein Bolzen keine Kopfmarkierung hat?"
+            "de": "Was, wenn ein Bolzen keine Kopfmarkierung hat?",
+            "ja": "頭部表示のまったくないボルトはどう扱いますか？"
           },
           "a": {
             "en": "Unmarked bolts must not go into structural or safety-critical work. Sample them for hardness and tensile testing, and reject lots whose origin cannot be traced. Legitimate structural bolts always carry grade and maker marks.",
@@ -312,7 +319,8 @@
             "zh": "无标记螺栓不得用于结构或安全关键部位。应抽样做硬度和拉伸试验，来源无法追溯的批次一律拒收。正规结构螺栓一定同时带等级和制造商标记。",
             "hi": "बिना निशान वाले बोल्ट संरचनात्मक या सुरक्षा-महत्वपूर्ण काम में कभी न लगाएं। ऐसी खेप के नमूने लेकर कठोरता और तनाव परीक्षण करें, और जिस खेप की उत्पत्ति न ट्रेस हो, उसे अस्वीकार कर दें। वास्तविक संरचनात्मक बोल्ट पर ग्रेड और निर्माता की निशानी हमेशा मौजूद होती है।",
             "ru": "Немаркированные болты нельзя применять в несущих или ответственных по безопасности соединениях. Отберите образцы на твёрдость и испытание на растяжение, а партию без прослеживаемого происхождения забракуйте. Легальные несущие болты всегда несут клеймо класса и изготовителя, и отсутствие меток при закупке должно сразу настораживать при приёмке.",
-            "de": "Unmarkierte Bolzen dürfen nicht in statische oder sicherheitskritische Verbindungen eingebaut werden. Entnehmen Sie Proben für Härte- und Zugversuche und weisen Sie Chargen zurück, deren Herkunft nicht nachverfolgt werden kann. Seriöse Stahlbaubolzen tragen immer eine Festigkeitsklasse und eine Herstellerkennzeichnung am Kopf."
+            "de": "Unmarkierte Bolzen dürfen nicht in statische oder sicherheitskritische Verbindungen eingebaut werden. Entnehmen Sie Proben für Härte- und Zugversuche und weisen Sie Chargen zurück, deren Herkunft nicht nachverfolgt werden kann. Seriöse Stahlbaubolzen tragen immer eine Festigkeitsklasse und eine Herstellerkennzeichnung am Kopf.",
+            "ja": "表示のないボルトは構造用や安全上重要な箇所に使ってはいけません。硬さ試験と引張試験のため抜き取り検査を行い、由来を追跡できないロットは受け入れません。正規の構造用ボルトには必ず等級と製造元の表示があります。現場では表示の有無を入荷時に確認し、不明なものを工事に混入させないようにしてください。"
           }
         },
         {
@@ -325,7 +333,8 @@
             "zh": "非洲项目供货里假冒螺栓有多普遍？",
             "hi": "अफ्रीकी प्रोजेक्ट आपूर्ति में नकली माल कितना आम है?",
             "ru": "Как часто встречается подделка в поставках на африканские проекты?",
-            "de": "Wie verbreitet ist Fälschung bei Projektlieferungen?"
+            "de": "Wie verbreitet ist Fälschung bei Projektlieferungen?",
+            "ja": "アフリカの案件供給で偽造表示はどの程度注意が必要ですか？"
           },
           "a": {
             "en": "Common enough that head marks alone are not accepted as proof. Verify the heat number on the certificate against the packing list, do third-party sampling on large lots, and re-check hardness because re-marked lower-grade bolts are a known failure source.",
@@ -336,7 +345,8 @@
             "zh": "普遍到不能只凭头部标记当真。要把质保书上的炉号与装箱单核对，大批量做第三方抽检，并复测硬度——改标低等级螺栓是已知的失效来源。",
             "hi": "हेड की निशानी अकेली प्रमाण नहीं मानी जा सकती; नकली या फिर से निशान लगे निचले ग्रेड के बोल्ट वास्तविक विफलता का जाना-पहचाना कारण हैं। प्रमाण-पत्र पर दर्ज heat number को पैकिंग लिस्ट से मिलाएं, बड़ी खेप पर तीसरे पक्ष से नमूना परीक्षण कराएं और कठोरता की दोबारा जांच कर लें।",
             "ru": "Достаточно часто, чтобы одной маркировки на головке не хватало как доказательства качества. Сверьте номер плавки в сертификате с упаковочным листом, для больших партий проводите сторонний отбор образцов и повторно проверяйте твёрдость: перемаркированные болты низшего класса — известный источник внезапных отказов в конструкциях.",
-            "de": "Verbreitet genug, dass Kopfmarkierungen allein nicht als Beweis gelten. Prüfen Sie die Wärmenummer auf dem Zeugnis gegen die Packliste, lassen Sie große Chargen durch Dritte beproben und kontrollieren Sie die Härte erneut. Ummarkierte Bolzen niedrigerer Klasse sind eine bekannte Ausfallursache im Projektbau."
+            "de": "Verbreitet genug, dass Kopfmarkierungen allein nicht als Beweis gelten. Prüfen Sie die Wärmenummer auf dem Zeugnis gegen die Packliste, lassen Sie große Chargen durch Dritte beproben und kontrollieren Sie die Härte erneut. Ummarkierte Bolzen niedrigerer Klasse sind eine bekannte Ausfallursache im Projektbau.",
+            "ja": "頭部表示だけでは証明として不十分なほど注意が必要です。証明書のヒートナンバーを梱包リストと照合し、大口ロットでは第三者抜き取り検査を行い、硬さを再確認します。等級表示を付け替えた下位ボルトは既知の故障原因です。製造元とロットを追跡できる記録を残し、表示だけを信じて受け入れないでください。"
           }
         },
         {
@@ -349,7 +359,8 @@
             "es": "¿Cómo se leen las marcas de grado de un perno?",
             "pt": "Como ler as marcações de classe em um parafuso?",
             "fr": "Comment lire la classe d'un boulon ?",
-            "de": "Wie lese ich die Festigkeitsklasse am Bolzenkopf?"
+            "de": "Wie lese ich die Festigkeitsklasse am Bolzenkopf?",
+            "ja": "ボルトの等級表示はどう読み解きますか？"
           },
           "a": {
             "en": "Metric bolt grades: Number on head = 1/100 of tensile strength in MPa. Example: 8.8 = 800 MPa tensile, 640 MPa yield. Two numbers: First (8) = tensile/100; Second (8) = yield ratio × 10. Imperial bolts: Grade 5 = 120,000 PSI; Grade 8 = 150,000 PSI. Look for manufacturer logo + grade marking on bolt head.",
@@ -360,7 +371,8 @@
             "es": "En los pernos métricos, el número de la cabeza es la centésima parte de la resistencia a tracción en MPa. Por ejemplo, un 8.8 da 800 MPa de tracción y 640 MPa de límite elástico. De las dos cifras, la primera (8) es tracción entre 100 y la segunda (8) es la relación elástica por 10. En los pernos imperiales, el Grado 5 llega a 120,000 PSI y el Grado 8 a 150,000 PSI. En la cabeza deben verse el logotipo del fabricante y la marca de grado.",
             "pt": "Nos parafusos métricos, o número na cabeça é 1/100 da resistência à tração em MPa. Exemplo: 8.8 dá 800 MPa de tração e 640 MPa de escoamento. Nos dois números, o primeiro é tração dividida por 100 e o segundo é a relação de escoamento vezes 10. Nos imperiais, Grau 5 é 120.000 PSI e Grau 8 é 150.000 PSI. Procure também o logotipo do fabricante junto à marcação de classe.",
             "fr": "Sur les boulons métriques, le numéro de tête vaut le centième de la traction en MPa. Exemple : 8.8 = 800 MPa de traction et 640 MPa d'élasticité. Le premier chiffre divisé par cent donne la traction ; le second multiplié par dix donne le ratio d'élasticité. Côté impérial, Grade 5 = 120 000 PSI, Grade 8 = 150 000 PSI. On repère aussi le logo fabricant sur la tête.",
-            "de": "Bei metrischen Bolzen ist die Zahl auf dem Kopf die Zugfestigkeit in MPa geteilt durch 100. Beispiel: 8.8 bedeutet 800 MPa Zugfestigkeit und 640 MPa Streckgrenze. Bei zwei Zahlen ist die erste die Zugfestigkeit/100, die zweite das Streckverhältnis mal 10. Zollbolzen: Grade 5 = 120.000 PSI, Grade 8 = 150.000 PSI. Achten Sie auf Herstellerlogo und Klassenmarkierung."
+            "de": "Bei metrischen Bolzen ist die Zahl auf dem Kopf die Zugfestigkeit in MPa geteilt durch 100. Beispiel: 8.8 bedeutet 800 MPa Zugfestigkeit und 640 MPa Streckgrenze. Bei zwei Zahlen ist die erste die Zugfestigkeit/100, die zweite das Streckverhältnis mal 10. Zollbolzen: Grade 5 = 120.000 PSI, Grade 8 = 150.000 PSI. Achten Sie auf Herstellerlogo und Klassenmarkierung.",
+            "ja": "メートルボルトの頭の数字は引張強さをMPaの100分の1で示します。例えば8.8は引張強さ800MPa、降伏強さ640MPaです。二つの数字のうち最初が引張強さ、二つ目が降伏比を10倍した値です。インチボルトではGrade 5とGrade 8があり、頭には製造元ロゴと等級表示が見られます。指示された等級と一致するか確認してください。"
           }
         },
         {
@@ -373,7 +385,8 @@
             "es": "¿Qué significan los números grabados en la cabeza del perno?",
             "pt": "O que significam os números na cabeça dos parafusos?",
             "fr": "Que signifient les chiffres de tête ?",
-            "de": "Was bedeuten die Zahlen auf den Bolzenköpfen?"
+            "de": "Was bedeuten die Zahlen auf den Bolzenköpfen?",
+            "ja": "ボルト頭の数字は何を意味しますか？"
           },
           "a": {
             "en": "Metric markings: 4.6, 8.8, 10.9, 12.9 are most common. First number ÷ 100 = tensile strength in MPa. Second number ÷ 10 = yield ratio (percentage of tensile before yielding). Imperial: Grade 2 (low), Grade 5 (medium), Grade 8 (high). Always match exact grade specified - mixing grades causes structural failure.",
@@ -384,7 +397,8 @@
             "es": "En métrico, los más comunes son 4.6, 8.8, 10.9 y 12.9. El primer número entre 100 da la resistencia a tracción en MPa, y el segundo entre 10 da la relación elástica, es decir el porcentaje de tracción antes de ceder. En imperial, el Grado 2 es bajo, el Grado 5 medio y el Grado 8 alto. Hay que respetar el grado exacto indicado, porque mezclar grados puede provocar un fallo estructural.",
             "pt": "Nas marcações métricas, 4.6, 8.8, 10.9 e 12.9 são as mais comuns. O primeiro número dividido por 100 dá a tração em MPa; o segundo dividido por 10 dá a relação de escoamento, ou a percentagem antes da deformação. No padrão imperial, Grau 2 é baixo, Grau 5 médio e Grau 8 alto. Deve-se usar exatamente a classe especificada, pois misturar classes causa falha estrutural.",
             "fr": "Les marquages métriques courants sont 4.6, 8.8, 10.9 et 12.9. Le premier chiffre divisé par cent donne la traction en MPa ; le second divisé par dix donne le ratio d'élasticité. Côté impérial, Grade 2 faible, Grade 5 moyen, Grade 8 élevé. Il faut respecter la classe exacte : mélanger les classes peut causer une rupture structurelle.",
-            "de": "Metrische Angaben wie 4.6, 8.8, 10.9 und 12.9 sind üblich. Die erste Zahl geteilt durch 100 gibt die Zugfestigkeit in MPa an, die zweite geteilt durch 10 das Streckverhältnis vor dem Fließen. Zollbolzen werden in Grade 2 (niedrig), 5 (mittel) und 8 (hoch) eingeteilt. Halten Sie sich an die exakt vorgeschriebene Klasse, denn das Mischen von Klassen kann baulich versagen."
+            "de": "Metrische Angaben wie 4.6, 8.8, 10.9 und 12.9 sind üblich. Die erste Zahl geteilt durch 100 gibt die Zugfestigkeit in MPa an, die zweite geteilt durch 10 das Streckverhältnis vor dem Fließen. Zollbolzen werden in Grade 2 (niedrig), 5 (mittel) und 8 (hoch) eingeteilt. Halten Sie sich an die exakt vorgeschriebene Klasse, denn das Mischen von Klassen kann baulich versagen.",
+            "ja": "メートル表示では4.6、8.8、10.9、12.9が一般的です。最初の数字を100で割ると引張強さMPaになり、二つ目の数字を10で割ると降伏比（降伏に達するまでの引張強さに対する比率）になります。インチではGrade 2が低強度、Grade 5が中強度、Grade 8が高強度です。等級を混ぜると構造上の故障を招くため、必ず指定等級に合わせてください。"
           }
         },
         {
@@ -397,7 +411,8 @@
             "es": "¿Cómo distinguir un perno métrico de uno imperial por su grado?",
             "pt": "Como distinguir parafusos métricos de imperiais?",
             "fr": "Métrique ou impérial, comment distinguer ?",
-            "de": "Wie unterscheide ich metrische und Zollklassen?"
+            "de": "Wie unterscheide ich metrische und Zollklassen?",
+            "ja": "メートルとインチのボルト等級はどう見分けますか？"
           },
           "a": {
             "en": "Metric bolts: Head shows class (8.8, 10.9, etc.) with manufacturer logo. Thread pitch is fine (1.0-1.5mm for M10). Imperial bolts: Head shows radial lines (Grade 5 = 3 lines at 120° intervals). Thread pitch is coarser (1.5-2.0mm for 3/8 inch). Measure with caliper: M10 = 10mm diameter; 3/8 inch = 9.525mm diameter.",
@@ -408,7 +423,8 @@
             "es": "El perno métrico muestra en la cabeza su clase (8.8, 10.9, etc.) junto al logotipo del fabricante, y su paso de rosca es fino (1,0 a 1,5 mm en el M10). El perno imperial muestra líneas radiales: el Grado 5 lleva tres líneas a 120°, y su paso es más grueso (1,5 a 2,0 mm en 3/8 de pulgada). Con calibre, el M10 mide 10 mm de diámetro, mientras que 3/8 de pulgada mide 9,525 mm.",
             "pt": "Nos métricos, a cabeça mostra a classe 8.8, 10.9 etc. junto ao logotipo, e o passo de rosca é fino, de 1,0 a 1,5 mm no M10. Nos imperiais, a cabeça traz linhas radiais, com três linhas a 120° no Grau 5, e o passo é mais grosso, de 1,5 a 2,0 mm em 3/8 de polegada. Com o paquímetro, o M10 tem 10 mm, e 3/8 de polegada dá 9,525 mm.",
             "fr": "Le boulon métrique porte sa classe (8.8, 10.9) et le logo, avec un pas fin (1,0 à 1,5 mm en M10). L'impérial porte des lignes radiales (Grade 5 : trois lignes à 120°) et un pas plus gros (1,5 à 2,0 mm en 3/8 de pouce). Au calibre : M10 fait 10 mm, le 3/8 de pouce fait 9,525 mm.",
-            "de": "Metrische Bolzen zeigen am Kopf die Klasse (8.8, 10.9 usw.) mit Herstellerlogo; die Gewindesteigung ist fein, bei M10 etwa 1,0 bis 1,5 mm. Zollbolzen tragen radiale Striche, Grade 5 = 3 Striche im 120°-Abstand, die Steigung ist grober, bei 3/8 Zoll etwa 1,5 bis 2,0 mm. Mit dem Messschieber: M10 = 10 mm, 3/8 Zoll = 9,525 mm."
+            "de": "Metrische Bolzen zeigen am Kopf die Klasse (8.8, 10.9 usw.) mit Herstellerlogo; die Gewindesteigung ist fein, bei M10 etwa 1,0 bis 1,5 mm. Zollbolzen tragen radiale Striche, Grade 5 = 3 Striche im 120°-Abstand, die Steigung ist grober, bei 3/8 Zoll etwa 1,5 bis 2,0 mm. Mit dem Messschieber: M10 = 10 mm, 3/8 Zoll = 9,525 mm.",
+            "ja": "メートルボルトは頭に等級（8.8、10.9など）と製造元ロゴがあり、ねじピッチは細めです。インチボルトは頭に放射状の線で等級を示し、ねじピッチは荒めです。ノギスで径を測れば判別でき、メートルのM10は10mm、3/8インチは約9.525mmです。ピッチと径を両方確認し、規格を混同しないようにしてください。"
           }
         },
         {
@@ -421,7 +437,8 @@
             "es": "¿Cuál es la resistencia a tracción de los pernos Grado 8.8?",
             "pt": "Qual é a resistência à tração dos parafusos Grau 8.8?",
             "fr": "Traction d'un boulon Grade 8.8 ?",
-            "de": "Wie hoch ist die Zugfestigkeit der Klasse 8.8?"
+            "de": "Wie hoch ist die Zugfestigkeit der Klasse 8.8?",
+            "ja": "Grade 8.8ボルトの引張強さはどのくらいですか？"
           },
           "a": {
             "en": "Grade 8.8 metric bolt: Tensile strength = 800 MPa (116,000 PSI); Yield strength = 640 MPa (92,800 PSI); Proof load = 580 MPa. This is intermediate strength - suitable for most construction and machinery applications. For critical structural work, specify Grade 10.9 (1000 MPa tensile) or Grade 12.9 (1200 MPa tensile).",
@@ -432,7 +449,8 @@
             "es": "El perno métrico Grado 8.8 tiene una resistencia a tracción de 800 MPa (116,000 PSI), un límite elástico de 640 MPa (92,800 PSI) y una carga de prueba de 580 MPa. Es una resistencia intermedia, apta para la mayoría de obras y máquinas. Para la obra estructural crítica se especifica el Grado 10.9 (1000 MPa de tracción) o el Grado 12.9 (1200 MPa de tracción).",
             "pt": "Um parafuso Grau 8.8 tem tração de 800 MPa, cerca de 116.000 PSI, escoamento de 640 MPa, cerca de 92.800 PSI, e carga de prova de 580 MPa. Trata-se de uma força intermediária, adequada à maioria das obras e máquinas. Em trabalhos críticos, especifica-se Grau 10.9, com 1000 MPa, ou Grau 12.9, com 1200 MPa.",
             "fr": "Le Grade 8.8 métrique donne 800 MPa de traction (116 000 PSI), 640 MPa d'élasticité (92 800 PSI) et 580 MPa de charge d'épreuve. C'est une résistance intermédiaire, adaptée à la plupart des constructions et machines. Pour le structural critique, on préfère le Grade 10.9 (1000 MPa) ou le Grade 12.9 (1200 MPa).",
-            "de": "Ein metrischer Bolzen der Klasse 8.8 hat eine Zugfestigkeit von 800 MPa (116.000 PSI), eine Streckgrenze von 640 MPa (92.800 PSI) und eine Prüflast von 580 MPa. Das ist eine mittlere Festigkeit, geeignet für die meisten Bau- und Maschinenanwendungen. Für kritische Stahlbauten sind Klasse 10.9 (1000 MPa) oder 12.9 (1200 MPa) vorzusehen."
+            "de": "Ein metrischer Bolzen der Klasse 8.8 hat eine Zugfestigkeit von 800 MPa (116.000 PSI), eine Streckgrenze von 640 MPa (92.800 PSI) und eine Prüflast von 580 MPa. Das ist eine mittlere Festigkeit, geeignet für die meisten Bau- und Maschinenanwendungen. Für kritische Stahlbauten sind Klasse 10.9 (1000 MPa) oder 12.9 (1200 MPa) vorzusehen.",
+            "ja": "Grade 8.8のメートルボルトは引張強さ800MPa、降伏強さ640MPa、保証荷重580MPaです。中程度の強度に位置し、多くの建設や機械用途に適します。重要な構造用途ではGrade 10.9（引張1000MPa）またはGrade 12.9（引張1200MPa）を指定します。荷重条件に見合う等級を選び、指定を満たさないボルトを混用せず、必要なら構造設計の仕様書で確認してください。"
           }
         },
         {
@@ -445,7 +463,8 @@
             "es": "¿Por qué importan las marcas en usos estructurales?",
             "pt": "Por que as marcações importam em aplicações estruturais?",
             "fr": "Pourquoi les marquages comptent en structure ?",
-            "de": "Warum sind Markierungen bei Stahlbaubolzen wichtig?"
+            "de": "Warum sind Markierungen bei Stahlbaubolzen wichtig?",
+            "ja": "構造用途でボルト表示が重要なのはなぜですか？"
           },
           "a": {
             "en": "Bolt markings ensure correct strength for load requirements. Using wrong grade causes: Under-specification = structural failure, collapse risk; Over-specification = cost waste, fitting problems. Critical factors: 1) Tensile strength (load capacity); 2) Yield strength (permanent deformation point); 3) Proof load (maximum before plastic deformation). Always verify markings match specification on engineering drawings.",
@@ -456,7 +475,8 @@
             "es": "Las marcas aseguran la resistencia correcta para la carga que debe soportar la unión. Un grado insuficiente puede llevar a un fallo estructural y al riesgo de colapso, mientras que un grado excesivo genera desperdicio de costo y problemas de ajuste. Los factores clave son la resistencia a tracción, el límite elástico y la carga de prueba. Siempre hay que comprobar que las marcas coincidan con la especificación de los planos de ingeniería.",
             "pt": "As marcações garantem a força correta para a carga. A classe errada traz dois riscos: abaixo da especificação, há falha estrutural e risco de colapso; acima dela, há desperdício de custo e problemas de encaixe. Os pontos críticos são a tração, o escoamento e a carga de prova, o limite antes da deformação plástica. Deve-se conferir se as marcações batem com a especificação dos desenhos.",
             "fr": "Les marquages garantissent la résistance adaptée à la charge. Une classe fausse donne deux écueils : sous-spécification, risque de rupture et d'effondrement ; sur-spécification, gaspillage et problèmes de montage. Trois facteurs : traction, limite d'élasticité et charge d'épreuve. On vérifie toujours que le marquage correspond à la spécification des plans.",
-            "de": "Die Markierungen sichern die passende Festigkeit für die Traglast. Eine zu niedrige Klasse führt zu baulichem Versagen und Kollapsrisiko, eine zu hohe verschwendet Kosten und kann Passprobleme verursachen. Wichtige Faktoren sind Zugfestigkeit, Streckgrenze und Prüflast. Vergleichen Sie die Kennzeichnung stets mit der Spezifikation auf den Konstruktionszeichnungen."
+            "de": "Die Markierungen sichern die passende Festigkeit für die Traglast. Eine zu niedrige Klasse führt zu baulichem Versagen und Kollapsrisiko, eine zu hohe verschwendet Kosten und kann Passprobleme verursachen. Wichtige Faktoren sind Zugfestigkeit, Streckgrenze und Prüflast. Vergleichen Sie die Kennzeichnung stets mit der Spezifikation auf den Konstruktionszeichnungen.",
+            "ja": "ボルト表示は荷重条件に合った強度を確保するために重要です。不適切な下位等級では構造の破損や崩落リスクにつながり、過剰等級ではコストの無駄や取り付けの不具合を生じます。確認すべき要素は引張強さ（負荷能力）、降伏強さ（永久変形の点）、保証荷重（塑性変形の最大値）です。図面の仕様と表示が一致するか必ず照合してください。"
           }
         }
       ],
