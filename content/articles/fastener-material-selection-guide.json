@@ -200,7 +200,8 @@
             "ru": "Можно ли ставить нержавеющий крепёж на детали из углеродистой стали?",
             "ar": "هل يمكن استخدام مثبتات الفولاذ المقاوم للصدأ مع قطع الفولاذ الكربوني؟",
             "es": "¿Puedo usar inoxidable con piezas de acero al carbono?",
-            "fr": "Peut-on associer des fixations inox à des pièces acier carbone ?"
+            "fr": "Peut-on associer des fixations inox à des pièces acier carbone ?",
+            "pt": "Posso usar fixadores de inoxidável com peças de aço-carbono?"
           },
           "a": {
             "en": "Yes, but be aware of galvanic corrosion when dissimilar metals are joined in presence of moisture. The less noble metal (carbon steel) will corrode faster. Using stainless steel throughout the connection is preferred for critical applications.",
@@ -209,7 +210,8 @@
             "ru": "Да, но учитывайте гальваническую коррозию при контакте разнородных металлов во влажной среде: менее благородный металл, то есть углеродистая сталь, будет корродировать быстрее. Для ответственных узлов предпочтительнее выполнить всё соединение из нержавеющей стали.",
             "ar": "نعم، لكن يجب الانتباه إلى التآكل الجلفاني عند ربط معادن مختلفة في وجود الرطوبة، فالمعدن الأقل نُبلًا وهو الفولاذ الكربوني يتآكل أسرع. ومن الأفضل استخدام الفولاذ المقاوم للصدأ في كامل الربط للتطبيقات الحرجة. وهذا الاختيار يحمي واجهة الربط من تسارع التلف الموضعي حتى في بيئة معتدلة الرطوبة.",
             "es": "Sí, pero conviene tener en cuenta la corrosión galvánica al unir metales distintos en presencia de humedad. El metal menos noble, el acero al carbono, se corroe más rápido. Para aplicaciones críticas es preferible usar inoxidable en toda la unión, evitando la mezcla de aceros que acelera el deterioro en zonas con condensación o lavados frecuentes.",
-            "fr": "Oui, mais en gardant à l'esprit la corrosion galvanique lorsque deux métaux dissemblables se rejoignent en présence d'humidité. Le métal le moins noble (l'acier carbone) corrodera plus vite. Pour les applications critiques, on préfère utiliser l'inox sur l'ensemble de l'assemblage, afin d'éviter le couple galvanique et la tenue dans le temps."
+            "fr": "Oui, mais en gardant à l'esprit la corrosion galvanique lorsque deux métaux dissemblables se rejoignent en présence d'humidité. Le métal le moins noble (l'acier carbone) corrodera plus vite. Pour les applications critiques, on préfère utiliser l'inox sur l'ensemble de l'assemblage, afin d'éviter le couple galvanique et la tenue dans le temps.",
+            "pt": "Sim, mas atenção à corrosão galvânica quando metais diferentes são unidos na presença de umidade. O metal menos nobre, o aço-carbono, corrói mais rápido. O uso de inoxidável em toda a conexão é preferido em aplicações críticas. Na prática, isola-se o inoxidável do aço com arruela plástica ou nylon, e a escolha do material segue a umidade e a exposição da obra."
           }
         },
         {
@@ -220,7 +222,8 @@
             "ru": "Чем отличается нержавеющая сталь 304 от 316?",
             "ar": "ما الفرق بين الفولاذ المقاوم للصدأ 304 و316؟",
             "es": "¿Qué diferencia hay entre el acero inoxidable 304 y el 316?",
-            "fr": "Quelle différence entre inox 304 et 316 ?"
+            "fr": "Quelle différence entre inox 304 et 316 ?",
+            "pt": "Qual a diferença entre inoxidável 304 e 316?"
           },
           "a": {
             "en": "316 contains molybdenum which significantly improves chloride corrosion resistance. For marine/coastal applications, 316 is essential. For inland applications, 304 provides excellent corrosion resistance at lower cost.",
@@ -229,7 +232,8 @@
             "ru": "Сталь 316 содержит молибден, который заметно повышает стойкость к хлоридной коррозии. Для морских и прибрежных условий, где воздух несёт соли, 316 необходима. На внутренних объектах в обычном воздухе 304 обеспечивает отличную коррозионную стойкость при более низкой цене, поэтому выбор между ними решает среда эксплуатации.",
             "ar": "يحتوي 316 على الموليبدينوم مما يحسن مقاومة التآكل بالكلوريدات بدرجة كبيرة، وهو ضروري في التطبيقات البحرية والساحلية. أما التطبيقات الداخلية فيوفر 304 مقاومة ممتازة للتآكل بتكلفة أقل. ويُعد اختيار الدرجة من أهم عناصر موازنة العمر الافتراضي والتكلفة في البيئة المستهدفة.",
             "es": "El 316 contiene molibdeno, lo que mejora de forma notable la resistencia a la corrosión por cloruros. En aplicaciones marinas o costeras el 316 es esencial. Para aplicaciones del interior, el 304 ofrece una excelente resistencia a un coste menor. La elección entre uno y otro depende de la exposición ambiental de la unión y de la presencia de sal o productos químicos en el entorno.",
-            "fr": "Le 316 contient du molybdène, qui améliore nettement la résistance à la corrosion chlorure. En milieu marin ou côtier, le 316 est indispensable. En zone intérieure, le 304 offre une excellente résistance à moindre coût. Le choix suit donc l'exposition : humidité, sel, produits chimiques, et la durée de vie attendue de l'assemblage."
+            "fr": "Le 316 contient du molybdène, qui améliore nettement la résistance à la corrosion chlorure. En milieu marin ou côtier, le 316 est indispensable. En zone intérieure, le 304 offre une excellente résistance à moindre coût. Le choix suit donc l'exposition : humidité, sel, produits chimiques, et la durée de vie attendue de l'assemblage.",
+            "pt": "O 316 contém molibdênio, que melhora expressivamente a resistência à corrosão por cloreto. Em aplicações marítimas e costeiras, o 316 é essencial. Em aplicações interiores, o 304 oferece boa resistência à corrosão a custo menor. A escolha entre os dois segue a proximidade do mar, a lavagem química e a manutenção prevista, e a família é registrada no certificado do lote."
           }
         },
         {
@@ -240,7 +244,8 @@
             "ru": "Как понять, достаточно ли крепёж прочный для задачи?",
             "ar": "كيف أعرف أن المثبت قوي بما يكفي؟",
             "es": "¿Cómo sé si una fijación es lo bastante resistente?",
-            "fr": "Comment savoir si une fixation est assez résistante ?"
+            "fr": "Comment savoir si une fixation est assez résistante ?",
+            "pt": "Como sei se um fixador é forte o bastante?"
           },
           "a": {
             "en": "Check the grade marking. Higher grades (8.8, 10.9, 12.9 for carbon steel) indicate higher strength. For critical applications, consult a structural engineer.",
@@ -249,7 +254,8 @@
             "ru": "Смотрите маркировку класса прочности. Выше классы 8.8, 10.9, 12.9 для углеродистой стали означают большую прочность. Для ответственных конструкций согласуйте выбор со строительным инженером до заказа партии.",
             "ar": "راجع علامة الدرجة، فالدرجات الأعلى للفولاذ الكربوني مثل 8.8 و10.9 و12.9 تدل على مقاومة أعلى. وفي التطبيقات الحرجة، استشر مهندس إنشاءات قبل الاعتماد على الدرجة المكتوبة وحدها، لأن الحمل المقصود ونوع التجميع يحددان الاختيار النهائي.",
             "es": "Se comprueba la marca de grado. Las clases superiores, 8.8, 10.9 y 12.9 en acero al carbono, indican mayor resistencia. Para aplicaciones críticas conviene consultar a un ingeniero estructural antes de fijar el grado. Las marcas de la cabeza deben coincidir con la clase indicada en el plano o el pliego del proyecto, y el certificado de material debe reflejar esa misma clasificación.",
-            "fr": "Vérifier la marque de classe. Les classes supérieures (8.8, 10.9, 12.9 pour l'acier carbone) indiquent une résistance plus élevée. Pour les applications critiques, on consulte l'ingénieur structural, qui dimensionne la classe selon la reprise de charge et les contraintes de l'assemblage. La seule apparence ne suffit pas à juger la capacité mécanique."
+            "fr": "Vérifier la marque de classe. Les classes supérieures (8.8, 10.9, 12.9 pour l'acier carbone) indiquent une résistance plus élevée. Pour les applications critiques, on consulte l'ingénieur structural, qui dimensionne la classe selon la reprise de charge et les contraintes de l'assemblage. La seule apparence ne suffit pas à juger la capacité mécanique.",
+            "pt": "Confere-se a marcação de classe. Classes mais altas, 8.8, 10.9 e 12.9 no aço-carbono, indicam maior resistência. Em aplicações críticas, consulta-se um engenheiro estrutural. A classe deve bater com a cabeça do fixador e com o certificado do lote, e a substituição por classe inferior não é aceita em junta de segurança."
           }
         },
         {
@@ -260,7 +266,8 @@
             "ru": "Допустимо ли смешивать разные классы крепежа в одном узле?",
             "ar": "هل يمكن خلط درجات المثبتات في مجموعة التجميع نفسها؟",
             "es": "¿Puedo mezclar grados de fijación en el mismo ensamblaje?",
-            "fr": "Peut-on mélanger des classes de fixation dans un même assemblage ?"
+            "fr": "Peut-on mélanger des classes de fixation dans un même assemblage ?",
+            "pt": "Posso misturar classes de fixadores no mesmo conjunto?"
           },
           "a": {
             "en": "It's generally acceptable if all fasteners meet or exceed the minimum strength requirement. However, for critical structural applications, use consistent grades throughout.",
@@ -269,7 +276,8 @@
             "ru": "В целом приемлемо, если каждый крепёж соответствует минимальному требованию по прочности или превышает его. Для ответственных строительных узлов класс по всему соединению держат единым, чтобы не получить слабое звено из-за разницы материалов и свойств.",
             "ar": "يُقبل ذلك عمومًا إذا استوفى جميع المثبتات الحد الأدنى لمتطلبات المقاومة أو تجاوزه، لكن في التطبيقات الإنشائية الحرجة يفضل توحيد الدرجات في كامل التجميع. والتوحيد يمنع أي واجهة تثبيت من أن تكون أضعف من باقي العناصر تحت الحمل نفسه.",
             "es": "En general es aceptable si todas las fijaciones cumplen o superan el requisito mínimo de resistencia. No obstante, en aplicaciones estructurales críticas conviene usar grados consistentes en toda la unión. La mezcla puede esconder errores de almacenamiento o de despacho, por lo que el lote debe revisarse antes del montaje y separarse según clase y diámetro.",
-            "fr": "C'est généralement acceptable si toutes les fixations atteignent ou dépassent l'exigence de résistance minimale. En revanche, pour les applications structurales critiques, on utilise des classes homogènes sur tout l'assemblage. Un mélange de classes peut créer des points de faiblesse ou des reprises de charge inégales, et compliquer le contrôle ultérieur."
+            "fr": "C'est généralement acceptable si toutes les fixations atteignent ou dépassent l'exigence de résistance minimale. En revanche, pour les applications structurales critiques, on utilise des classes homogènes sur tout l'assemblage. Un mélange de classes peut créer des points de faiblesse ou des reprises de charge inégales, et compliquer le contrôle ultérieur.",
+            "pt": "Em geral, é aceitável se todos os fixadores atenderem ou superarem o requisito mínimo de resistência. Porém, em aplicações estruturais críticas, usam-se classes consistentes em toda a junta. A mistura de classes pode gerar concentração de tensão nas peças mais fracas. Em junta sujeita a vibração ou carga pesada, padroniza-se uma única classe e revestimento."
           }
         },
         {
@@ -280,7 +288,8 @@
             "ru": "Какое покрытие лучше всего подходит для открытых условий Африки?",
             "ar": "ما أفضل طلاء للظروف الخارجية الأفريقية؟",
             "es": "¿Qué recubrimiento es mejor para las condiciones exteriores africanas?",
-            "fr": "Quel meilleur revêtement pour conditions extérieures africaines ?"
+            "fr": "Quel meilleur revêtement pour conditions extérieures africaines ?",
+            "pt": "Qual o melhor revestimento para condições externas africanas?"
           },
           "a": {
             "en": "Hot-dip galvanizing provides excellent long-term protection for most outdoor applications. In highly corrosive environments (coastal, mining), stainless steel or specialized coatings like Dacromet are recommended.",
@@ -289,7 +298,8 @@
             "ru": "Горячее цинкование (HDG) даёт отличную долгую защиту для большинства открытых применений. В агрессивной среде — на побережье, в добыче — рекомендуется нержавеющая сталь или специальные покрытия типа Dacromet.",
             "ar": "توفر الجلفنة بالغمس الساخن حماية طويلة الأجل ممتازة لمعظم التطبيقات الخارجية. وفي البيئات عالية التآكل كالساحلية والتعدينية، يوصى بالفولاذ المقاوم للصدأ أو طلاءات متخصصة مثل Dacromet. وتُقارن الخيارات حسب التعرض للرطوبة والملح والغبار لا حسب السعر الظاهري للقطعة.",
             "es": "El galvanizado en caliente ofrece una excelente protección a largo plazo en la mayoría de aplicaciones exteriores. En entornos muy corrosivos (costa, minería) se recomienda acero inoxidable o recubrimientos especializados tipo Dacromet. La elección se hace según la humedad, los cloruros y el polvo abrasivo de la ubicación de obra, y se verifica con el espesor de zinc medido sobre la pieza.",
-            "fr": "La galvanisation à chaud offre une excellente protection durable pour la plupart des usages extérieurs. Dans les milieux très corrosifs (côte, mine), on recommande l'inox ou des revêtements spécialisés type Dacromet. Le choix dépend de l'exposition à l'humidité, au sel et aux produits chimiques ; on évite de surspécifier un revêtement au-delà du besoin réel du site."
+            "fr": "La galvanisation à chaud offre une excellente protection durable pour la plupart des usages extérieurs. Dans les milieux très corrosifs (côte, mine), on recommande l'inox ou des revêtements spécialisés type Dacromet. Le choix dépend de l'exposition à l'humidité, au sel et aux produits chimiques ; on évite de surspécifier un revêtement au-delà du besoin réel du site.",
+            "pt": "A galvanização a quente oferece boa proteção de longo prazo na maioria das aplicações externas. Em ambientes altamente corrosivos, costeiros e de mineração, recomendam-se inoxidável ou revestimentos especiais como Dacromet. A escolha do revestimento segue a umidade, a névoa salina e a frequência de manutenção, e a espessura é conferida no certificado do lote."
           }
         }
       ]
