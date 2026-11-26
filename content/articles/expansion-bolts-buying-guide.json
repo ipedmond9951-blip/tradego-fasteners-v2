@@ -245,7 +245,8 @@
             "es": "¿Qué rango de tamaño es estándar y qué largo debe el perno?",
             "fr": "Quelle plage de diamètres standard, et quelle longueur de boulon ?",
             "pt": "Qual a faixa padrão de tamanho, e quão longo o parafuso?",
-            "de": "Welcher Größenbereich ist üblich, wie lang soll der Bolzen sein?"
+            "de": "Welcher Größenbereich ist üblich, wie lang soll der Bolzen sein?",
+            "ja": "標準的なサイズ範囲とボルトの長さはどう決めますか？"
           },
           "a": {
             "en": "Expansion bolts commonly run M6 to M24. Length is set by fixture thickness plus effective embedment plus the nut and washer stack, so specify the fixture thickness when ordering rather than the bolt length alone.",
@@ -256,7 +257,8 @@
             "es": "Los pernos de expansión van comúnmente de M6 a M24. La longitud la fija el grosor del accesorio más el empotramiento efectivo más el conjunto de tuerca y arandela, así que especifique el grosor del accesorio al pedir en vez de solo la longitud del perno. Las medidas de la pieza guían la longitud del bulón.",
             "fr": "Les boulons d'expansion courent habituellement du M6 au M24. La longueur se décompose en épaisseur de pièce + encastrement effectif + empilement écrou et rondelle. Il faut donc préciser l'épaisseur de la pièce à la commande plutôt que la seule longueur de boulon.",
             "pt": "Os parafusos de expansão comumente vão de M6 a M24. O comprimento é definido pela espessura do fixativo, mais a embebição efetiva, mais a pilha de porca e arruela, por isso especifica-se a espessura do fixativo ao pedir, e não apenas o comprimento do parafuso. O conjunto é dimensionado pela junta, e o furo no concreto segue a âncora escolhida.",
-            "de": "Dehnschrauben laufen üblicherweise von M6 bis M24. Die Länge richtet sich nach Befestigungsdicke plus wirksamer Einbettung zuzüglich Mutter- und Unterlegscheibenstapel; bei Bestellung ist daher die Befestigungsdicke anzugeben, nicht allein die Bolzenlänge."
+            "de": "Dehnschrauben laufen üblicherweise von M6 bis M24. Die Länge richtet sich nach Befestigungsdicke plus wirksamer Einbettung zuzüglich Mutter- und Unterlegscheibenstapel; bei Bestellung ist daher die Befestigungsdicke anzugeben, nicht allein die Bolzenlänge.",
+            "ja": "拡張ボルトは一般に M6〜M24 の範囲です。長さは取り付ける部材の厚さ、有効埋め込み長さ、ナットと座金の重なりを合わせて決めます。発注時はボルト長さだけでなく、部材の厚さを明示してください。用途と下地を踏まえて長さを照合することが重要です。"
           }
         },
         {
@@ -269,7 +271,8 @@
             "es": "¿Qué causa la mayoría de fallos de perno de expansión?",
             "fr": "Quelle est la cause principale des ruptures de boulon d'expansion ?",
             "pt": "O que causa a maioria das falhas de parafuso de expansão?",
-            "de": "Was verursacht die meisten Dehnschrauben-Ausfälle?"
+            "de": "Was verursacht die meisten Dehnschrauben-Ausfälle?",
+            "ja": "拡張ボルトの不具合で最も多い原因は何ですか？"
           },
           "a": {
             "en": "An oversized hole, embedment shorter than the rated value, a hole that was not cleaned of dust, and over-torqueing that spins the sleeve. Drill the specified diameter, blow out the hole and tighten to the stated torque.",
@@ -280,7 +283,8 @@
             "es": "Un hueco sobredimensionado, empotramiento más corto que el valor nominal, un hueco sin limpiar el polvo, y un apriete excesivo que hace girar el manguito. Taladre el diámetro especificado, sople el hueco y apriete al par indicado. La limpieza y el par justo evitan que el anclaje suelte en servicio.",
             "fr": "Un trou surdimensionné, un encastrement inférieur à la valeur nominale, un trou non nettoyé de la poussière, et un serrage excessif qui fait tourner la chemise. Percer au diamètre prescrit, souffler le trou et serrer au couple indiqué. Ces gestes simples éliminent la plupart des défauts de fixation.",
             "pt": "Furo oversized, embebição menor que o valor nominal, furo não limpo da poeira, e aperto excessivo que gira a bucha. Perfura-se o diâmetro especificado, sopra-se o furo e aperta-se ao torque indicado. A limpeza e a profundidade são conferidas antes do engaste, e o torque não ultrapassa o valor da ficha para não danificar a expansão.",
-            "de": "Ein zu großes Loch, kürzere Einbettung als Nennwert, ein vom Staub nicht gereinigtes Loch sowie Überdrehmoment, das die Hülse durchdreht. Bohren auf den angegebenen Durchmesser, das Loch auspusten und mit dem genannten Drehmoment anziehen."
+            "de": "Ein zu großes Loch, kürzere Einbettung als Nennwert, ein vom Staub nicht gereinigtes Loch sowie Überdrehmoment, das die Hülse durchdreht. Bohren auf den angegebenen Durchmesser, das Loch auspusten und mit dem genannten Drehmoment anziehen.",
+            "ja": "下穴が大きすぎること、定格値より短い埋め込み、粉塵の清掃が不十分なこと、スリーブを空回りさせる過剰なトルクです。指定の直径でドリル加工し、穴を吹き清掃して、規定トルクで締め付けてください。施工手順を守ることで保持力の低下を防ぎます。穴の状態と締め付けの管理を記録しておくと、後の点検にも役立ちます。"
           }
         },
         {
@@ -293,7 +297,8 @@
             "es": "¿Qué acabado debo elegir?",
             "fr": "Quelle finition choisir ?",
             "pt": "Acabamento qual devo escolher?",
-            "de": "Welche Oberfläche ist zu wählen?"
+            "de": "Welche Oberfläche ist zu wählen?",
+            "ja": "表面処理はどれを選べばよいですか？"
           },
           "a": {
             "en": "Yellow zinc for interior and dry service, hot-dip galvanising for outdoor structures, stainless A2 or A4 for coastal and wet areas. Mixing a zinc bolt into a stainless assembly creates a galvanic couple at the joint.",
@@ -304,7 +309,8 @@
             "es": "Zinc amarillo para interior y servicio seco, galvanizado en caliente para estructuras exteriores, inoxidable A2 o A4 para zonas costeras y húmedas. Mezclar un perno cincado en un conjunto inoxidable crea una pareja galvánica en la unión. El acabado se elige según la exposición y los metales de la unión.",
             "fr": "Zinc jaune pour l'intérieur et le service sec, galvanisation à chaud pour les structures extérieures, inox A2 ou A4 pour les zones côtières et humides. Introduire un boulon zingué dans un assemblage inox crée un couple galvanique au joint. La finition doit suivre l'environnement et le matériau voisin.",
             "pt": "Zinco amarelo para interior e serviço seco, galvanização a quente para estruturas externas, inoxidável A2 ou A4 para áreas costeiras e úmidas. Misturar um parafuso zincado em um conjunto inoxidável cria par galvânico na junta. O acabamento é escolhido pela exposição e casado com o restante dos fixadores da ligação.",
-            "de": "Gelbzink für Innenräume und trockenen Betrieb, Feuerverzinkung für Außenkonstruktionen, Edelstahl A2 oder A4 für Küsten- und Nassbereiche. Eine Zinkschraube in einer Edelstahlbaugruppe erzeugt an der Fuge ein galvanisches Paar."
+            "de": "Gelbzink für Innenräume und trockenen Betrieb, Feuerverzinkung für Außenkonstruktionen, Edelstahl A2 oder A4 für Küsten- und Nassbereiche. Eine Zinkschraube in einer Edelstahlbaugruppe erzeugt an der Fuge ein galvanisches Paar.",
+            "ja": "屋内と乾燥した用途には黄色亜鉛めっき、屋外構造物には溶融亜鉛めっき、海岸や湿潤箇所にはステンレス A2 または A4 を選びます。亜鉛めっきボルトをステンレスの組立品に混ぜると、接合部で電食の組み合わせになります。材料の組み合わせにも注意して処理を選定してください。"
           }
         }
       ]
