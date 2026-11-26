@@ -99,3 +99,13 @@
 * **发信闸门上线**（TradeBrain `server/src/services/email-service.ts`，commit `9e044006`）：发信前拦 `noreply/notification/automated` 类本地名 + 建站/客服网关域名（webador、zohodesk、tawkto、wix、shopify、zendesk…）。9 条用例全过（`support@webador.fr` 拦、`sales@afrimash.com` 放行）；`tsc`+`npm run build` 通过，`com.tradebrain.server` 已 kickstart 生效，cron 运行正常。
 * **上线包**：`98f3ad9f`（正文/FAQ 内链补尾斜杠）+ `606dedf5`、`caeba63e`（台账去重）共 3 个提交待推；本地 `deploy-preflight.sh` 体检通过（`next build` OK），当前不在部署窗口（09:00-11:00 / 17:00-19:00 CST）且今日预算 4/3，交由 `deploy-flush` 在下一个窗口自动推。
 * **邮箱收口**：通知类（`category:updates`）、推广类（`category:promotions`）、AliExpress 营销与退信已归档，收件箱未读 382 → 35；客户线程（Afrimash、Electrosales、Ngagne、Anthropic/Vercel 账号告警）保留未动。
+
+## 七、按规范做的一轮合规优化（11-27 00:20 CST）
+
+依据 `seo-geo-site-spec` §N10 + `references/05-claims-compliance.md`（价格只讲结构、认证只写按标准生产、不写市场规模装饰数字）：
+
+* **价格口径清零**：`harare-fastener-distributor-supplier-guide` 全文 11 个语种里的单件报价、每吨区间、整柜估算（合计 42 处价格语义金额）全部改写成「五层成本结构 + 按单询价」，含 FOB/海运/保险/关税/清关五层拆解与询价所需的五项信息；`check-money-claims.py` 价格语义从 42 → **0 处**。
+* **认证口径清零**：`fastener-supply-chain-africa-beira-corridor`（ZH/JA）、`angola-lng-project-fastener-procurement`（ZH）三处「从持有 ISO 9001 认证的制造商采购 / 認証を取得している」改为「按 ISO 9001 质量管理体系生产」；`check-cert-claims.py` 待复核 **0 处**（基线跳过 21 处）。
+* **删装饰数字**：PT 正文的全球市场规模（8.014 亿 / 11.199 亿 USD、CAGR）删除；英文补一段「询价五项信息」实质内容，使 EN 正文 1536 → **1611 词**，达 N5 的 1600 词底线。
+* **闸门结果**：`content_gate` 0 BLOCK（218 干净 + 45 只 WARN）；`check-claims.py` src/llms.txt 无过界表述；`check-article-schema.sh` 279 篇全通过；`link-orphans.py` 孤儿仅剩 1 篇且无空闲宿主；`check-template-filler` 仅 2 篇命中阈值。
+* **上线**：提交 `ee463244`，与前述 4 个提交合计 5 个待推，由 `deploy-flush` 在 09:00-11:00 窗口自动推。
