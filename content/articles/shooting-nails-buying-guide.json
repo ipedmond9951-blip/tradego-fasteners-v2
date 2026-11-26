@@ -270,7 +270,8 @@
             "es": "¿Cuándo evitar la fijación por pólvora?",
             "fr": "Quand éviter la fixation clouage poudre ?",
             "pt": "Quando evitar a fixação por póquer?",
-            "de": "Wann ist pulvergetriebetes Befestigen zu vermeiden?"
+            "de": "Wann ist pulvergetriebetes Befestigen zu vermeiden?",
+            "ja": "火薬駆動の留め具を避けるべき場面はいつですか？"
           },
           "a": {
             "en": "Whenever there is tensile uplift, vibration, fatigue or a structural load path - use mechanical or chemical anchors instead. Avoid thin steel, unknown base material and any use outside the tool's rated energy.",
@@ -281,7 +282,8 @@
             "es": "Siempre que haya levantamiento por tracción, vibración, fatiga o una ruta de carga estructural: use anclajes mecánicos o químicos en su lugar. Evite acero fino, material base desconocido y cualquier uso fuera de la energía clasificada de la herramienta. El estado del soporte y el tipo de carga definen si vale el sistema.",
             "fr": "Dès qu'il y a reprise de tension, vibration, fatigue ou cheminement de charge structurale : employer alors ancrages mécaniques ou chimiques. Éviter l'acier mince, le matériau de base inconnu et tout usage hors de l'énergie nominale de l'outil. La reprise de charge exclut le clouage poudre.",
             "pt": "Sempre que houver içamento por tração, vibração, fadiga ou um caminho de carga estrutural — usam-se âncoras mecânicas ou químicas no lugar. Evita-se aço fino, material base desconhecido, e qualquer uso fora da energia nominal da ferramenta. O tipo de fixação segue a carga e a base, e a ferramenta é conferida antes do disparo.",
-            "de": "Immer dann, wenn Zuglast, Vibration, Ermüdung oder ein tragender Lastpfad vorliegen; nutzen Sie stattdessen mechanische oder chemische Dübel. Vermeiden Sie dünnen Stahl, unbekannten Untergrund und jeden Einsatz außerhalb der Nennenergie des Geräts."
+            "de": "Immer dann, wenn Zuglast, Vibration, Ermüdung oder ein tragender Lastpfad vorliegen; nutzen Sie stattdessen mechanische oder chemische Dübel. Vermeiden Sie dünnen Stahl, unbekannten Untergrund und jeden Einsatz außerhalb der Nennenergie des Geräts.",
+            "ja": "引き上げ力を受ける箇所、振動、疲労、構造的な荷重経路がある場合は、機械式または接着系アンカーを代わりに使用してください。薄い鉄板、下地材が不明な箇所、工具の定格エネルギーを超える用途も避けます。荷重の種類を確認してから留め工法を選定してください。"
           }
         },
         {
@@ -294,7 +296,8 @@
             "es": "¿Qué significan los colores del collarín?",
             "fr": "Que signifient les couleurs des collerettes ?",
             "pt": "O que significam as cores da coleira?",
-            "de": "Was bedeuten die Farben der Hülsen?"
+            "de": "Was bedeuten die Farben der Hülsen?",
+            "ja": "カラーの色は何を表しますか？"
           },
           "a": {
             "en": "The collar colour codes pin length and application range for a specific tool. Using the wrong collar overdrives or underdrives the pin and can damage the base material.",
@@ -305,7 +308,8 @@
             "es": "El color del collarín codifica la longitud del perno y el rango de aplicación para una herramienta concreta. Usar el collarín equivocado sobre-marcha o sub-marcha el perno y puede dañar el material base. El collarín se empareja con el calibre de la herramienta y el largo del pasador.",
             "fr": "La couleur de collerette code la longueur de goujon et la plage d'application pour un outil donné. Employer la mauvaise collerette entraîne un sur ou sous-enfoncement du goujon et peut endommager le matériau de base. Le code couleur suit l'énergie et la longueur de l'outil.",
             "pt": "A cor da coleira codifica o comprimento do pino e a faixa de aplicação para uma ferramenta específica. Usar a coleira errada faz o pino ser cravado demais ou de menos, e pode danificar o material base. A cor é casada com a ferramenta e o pino, e a aplicação é verificada na ficha do equipamento.",
-            "de": "Die Hülsenfarbe codiert für ein bestimmtes Gerät die Stiftlänge und den Einsatzbereich. Eine falsche Hülse treibt den Stift zu stark oder zu wenig an und kann den Untergrund schädigen."
+            "de": "Die Hülsenfarbe codiert für ein bestimmtes Gerät die Stiftlänge und den Einsatzbereich. Eine falsche Hülse treibt den Stift zu stark oder zu wenig an und kann den Untergrund schädigen.",
+            "ja": "カラーの色は、その工具に対してピンの長さと適用範囲をコード化したものです。誤ったカラーを使うとピンの打ち込みが過剰または不足し、下地材を損傷することがあります。工具ごとに色と長さの対応を確認し、違う色を混用しないでください。色の組み合わせを誤ると打ち込み不良の原因になるため、取扱説明書の早見表を現場に置いてください。"
           }
         },
         {
@@ -318,7 +322,8 @@
             "es": "¿Cómo se envían los clavos disparados?",
             "fr": "Comment les clous de tir sont-ils expédiés ?",
             "pt": "Como os pregos de póquer são embarcados?",
-            "de": "Wie werden Schussnägel versandt?"
+            "de": "Wie werden Schussnägel versandt?",
+            "ja": "射釘はどのように輸送されますか？"
           },
           "a": {
             "en": "As hazardous-adjacent goods with powder charges packed separately under the applicable regulation, declared correctly on the shipping documents, and never mixed loose with general cargo.",
@@ -329,7 +334,8 @@
             "es": "Como mercancía cercana a peligrosa, con cargas de pólvora empacadas por separado bajo la norma aplicable, declarada correctamente en los documentos de envío, y nunca mezclada suelta con carga general. El embalaje separado cumple la norma de transporte de explosivos.",
             "fr": "Comme marchandises voisines du dangereux, avec charges de poudre emballées séparément selon la réglementation applicable, déclarées correctement sur les documents d'expédition, et jamais mélangées en vrac au fret général. Le transport des charges propulsives suit la règle spéciale.",
             "pt": "Como mercadoria adjacente a perigosa, com cargas de póquer embaladas separadas conforme a regulamentação aplicável, declaradas corretamente nos documentos de embarque, e nunca misturadas soltas com carga geral. A embalagem segue a norma de transporte, e a declaração é conferida antes do fechamento do contêiner.",
-            "de": "Als gefahrgutnahe Güter, wobei die Pulverladungen nach der geltenden Vorschrift getrennt verpackt und in den Versanddokumenten korrekt deklariert werden; mischen Sie sie niemals lose mit Allgemeingut."
+            "de": "Als gefahrgutnahe Güter, wobei die Pulverladungen nach der geltenden Vorschrift getrennt verpackt und in den Versanddokumenten korrekt deklariert werden; mischen Sie sie niemals lose mit Allgemeingut.",
+            "ja": "火薬類に近い物品として取り扱われ、火薬装薬は適用される規則に従って分離して梱包します。出荷書類に正しく記載し、一般貨物とばら積みで混載してはいけません。火薬装薬とピン本体の梱包を別々にし、輸送業者へ品名と規制区分を正確に伝えることが必要です。保管時も分離した状態を保ってください。"
           }
         }
       ]
