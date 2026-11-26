@@ -137,6 +137,14 @@ if [ "$WILL_BUILD" -eq 1 ] && [ -x scripts/vercel-promote-wait.sh ]; then
   echo "$LOG_PREFIX 已挂起 promote 等待进程（logs/promote.log）"
 fi
 
+# push 之后要有"人"去盯结果（2026-11-26 加）：构建失败 / 站点被停用 / 额度告警
+# 全都只出现在 Vercel 邮件里，2026-11-25 就吃过"构建 ERROR 十几个小时没人发现"的亏。
+# 这里只登记盯梢，实际巡检由 launchd 的 com.tradego.vercel-mail-watch 每 10 分钟跑。
+if [ "$WILL_BUILD" -eq 1 ] && [ -x scripts/vercel-mail-watch.py ]; then
+  python3 scripts/vercel-mail-watch.py --register "$(git rev-parse HEAD)" >/dev/null 2>&1 || true
+  echo "$LOG_PREFIX 已登记 push 后盯梢（logs/vercel-mail-watch.log）"
+fi
+
 # 纯 docs/scripts 推送：ignoreCommand 跳过构建，但 CANCELED 记录要十几秒后才落到 API。
 # 立刻 prune 抓不到它，线上就会短暂多一条，被审计计成"保留 4 条"。等记录落地后再收一次。
 if [ "$WILL_BUILD" -eq 0 ] && [ -x scripts/vercel-prune.sh ]; then

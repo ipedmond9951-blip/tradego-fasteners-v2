@@ -60,6 +60,17 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
         description: pickPd(productDescriptions[product.slug], locale),
         url: `${site}/${locale}/products/${product.slug}/`,
         brand: { '@type': 'Brand', name: 'TradeGo' },
+        // 2026-11-26 GSC「产品摘要缺 offers/review/aggregateRating」修复：
+        // ItemList 里的 Product 也是独立实体，没有 offers 会被判为严重问题（8 个语种首页共 8 条 URL）。
+        // 价格口径与 ProductSchema.tsx 一致（USD / 每件），不做促销语义。
+        offers: {
+          '@type': 'Offer',
+          url: `${site}/${locale}/products/${product.slug}/`,
+          priceCurrency: 'USD',
+          price: product.pricePerPiece.toFixed(3),
+          availability: 'https://schema.org/InStock',
+          itemCondition: 'https://schema.org/NewCondition',
+        },
       },
     }))
 

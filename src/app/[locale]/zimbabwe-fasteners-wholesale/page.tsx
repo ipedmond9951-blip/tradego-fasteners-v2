@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import type { Metadata } from 'next'
 import { type Locale } from '@/i18n'
 import { permanentRedirect } from 'next/navigation'
@@ -27,7 +28,13 @@ export default async function ZimbabweFastenersPage({ params }: { params: Promis
       <section className="relative bg-gradient-to-r from-[#0A3D62] to-[#1A5F7A] text-white py-16 px-4 min-h-[400px] flex items-center">
         {/* Background image */}
         <div className="absolute inset-0 z-0">
-          <img src="/images/zimbabwe-warehouse.webp" alt="Zimbabwe warehouse" className="w-full h-full object-cover opacity-30" />
+          <Image
+            src="/images/zimbabwe-warehouse.webp"
+            alt="Zimbabwe warehouse"
+            fill
+            sizes="100vw"
+            className="object-cover opacity-30"
+          />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0A3D62]/90 to-[#1A5F7A]/80"></div>
         </div>
         <div className="max-w-6xl mx-auto relative z-10">

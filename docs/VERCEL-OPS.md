@@ -449,3 +449,38 @@ curl -s "https://api.vercel.com/v4/aliases?limit=100" -H "Authorization: Bearer 
   `vercel-prune.sh --apply` 两次把部署收到 3 条，审计复跑 ✅ 通过。
 - **教训**：看到"预算已满"先核对读数来源——本地台账的 `count` 会把失败尝试计入；
   `vercel whoami` 能连上不代表 `auth.json` 里的 token 可用（CLI 会自己用 refreshToken 换新，文件是缓存）。
+
+## 规则：push 之后要有人盯结果（2026-11-26 新增，长期有效）
+
+**为什么**：2026-11-25 那次 favicon 构建失败，Vercel 当场就发了 `Production deployment failed` 邮件，
+但没人看邮箱，线上停在旧版本十几个小时；同期 GitHub Actions 的 AgentOps 连续 7 次红也没人发现。
+"推送成功" ≠ "上线成功"，也不等于"没有额度 / 账号 / 域名问题"。
+
+**怎么做（自动，不需要人记得）**：
+
+1. `scripts/deploy-flush.sh` 推成功且本次会触发构建（`WILL_BUILD=1`）时，调
+   `python3 scripts/vercel-mail-watch.py --register <sha>` 登记一条盯梢（默认盯 120 分钟）。
+2. `launchd` 的 `com.tradego.vercel-mail-watch` 每 10 分钟跑 `--check`；没有在盯的 push 就空跑退出，不联网。
+3. 两层检测：
+   - **层 1（总是可用）**：Vercel API 查这个 sha 的部署状态。`ERROR` / `CANCELED`，或 25 分钟还停在
+     `QUEUED|BUILDING|INITIALIZING`，都算异常。
+   - **层 2**：Gmail IMAP 读 `vercel.com` 的来信，按主题分级——
+     构建失败 / 部署被拒（作者非团队成员）/ 站点被停用 / 额度超限 / 函数与部署存储告警 / 域名验证提醒。
+     凭据复用 `~/Projects/tradebrain-v2/server/.env` 的 `SMTP_USER` / `SMTP_PASSWORD`（Gmail 应用专用密码），
+     也可用环境变量 `GMAIL_APP_PASSWORD` 或 `~/.config/tradego/gmail-app-password` 覆盖。
+4. 命中异常：写 `logs/vercel-mail-watch.log`，并发 Telegram（`--severity=P1`）。同一条只报一次；
+   push 窗口之外的历史邮件不重复计异常（避免每 10 分钟刷屏）。
+
+**手工入口**：
+
+```bash
+python3 scripts/vercel-mail-watch.py --status            # 当前在盯的 sha、邮箱层是否启用
+python3 scripts/vercel-mail-watch.py --check --backfill-hours 72   # 补查最近 3 天邮件（一次收口）
+python3 scripts/vercel-mail-watch.py --check --no-notify           # 只落日志，不发 Telegram
+```
+
+**plist（`~/Library/LaunchAgents/com.tradego.vercel-mail-watch.plist`）**：`StartInterval=600`，
+`RunAtLoad=true`，`WorkingDirectory` 指仓库根，解释器用 `/usr/bin/python3`（脚本只用标准库，不依赖 brew venv）。
+
+**判活**：`launchctl print gui/$(id -u)/com.tradego.vercel-mail-watch | grep -E 'state|runs|last exit'`，
+不要用 `launchctl list` 看。

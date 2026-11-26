@@ -32,12 +32,14 @@
 | com.tradego.ga4-monitor                                     | 900s                         | GA4 异常监控（流量看 GA4，不看 Web Analytics）    | 保留                                  |
 | com.tradego.vercel-alert                                    | 1800s                        | 部署 / 额度告警                             | 保留                                  |
 | com.tradego.vercel-audit                                    | 21600s                       | 每日合规审计（部署数 / 保留数 / CLI 直推）            | 保留（告警语义正确；08:30 看结果）                |
+| com.tradego.vercel-mail-watch | 600s | push 后盯 120 分钟：Vercel API 判部署状态 + Gmail 读 vercel.com 告警邮件，异常写日志并发 Telegram | **新装**（`scripts/vercel-mail-watch.py`，由 `deploy-flush.sh` 登记；规则见 `docs/VERCEL-OPS.md`） |
 | com.tradego.weekly-audit | 周日 17:00 PST = 周一 09:00 CST | SEO/GEO 周检（GSC / 技术 / 内容 / GEO / 合规 / 预算） | **新装**（只读；规范 `docs/WEEKLY-AUDIT-SPEC.md`，产物 `docs/reports/weekly-<日期>.md`；退出码 0/1/2 = 无问题 / 有 P1 / 有 P0） |
 | com.tradego.social.tick                                     | 每 10 分钟                      | 社媒发布队列                                | 保留                                  |
 | com.tradego.social-link-check                               | 17:05                        | 社媒链接死链检查                              | 保留                                  |
 | com.tradego.ai-news-local                                   | 每小时 :10                      | 行业资讯                                  | 保留                                  |
 | com.tradego.daily-leads-local                               | 每小时 :05                      | 线索日补量                                 | 保留                                  |
 | com.agentops.daily / content-contract / content-push / i18n | 16:30 / 16:35 / 600s / 17:10 | AgentOps 巡检与内容契约审计                    | 保留                                  |
+| com.tradebrain.inbox-digest | 16:00 每日 PST = 北京次日 08:00 | Gmail 收件箱每日只读摘要（不标已读 / 不删邮件，与 reply-watcher 职责不重叠） | 保留；脚本 `/Users/zhangming/Projects/tradebrain-v2/server/scripts/inbox-digest.js`，产物 `~/AgentOps/reports/inbox-digest/YYYY-MM-DD.md`，日志 `/Users/zhangming/Projects/tradebrain-v2/server/logs/inbox-digest.{out,err}.log` |
 
 **恢复方式**：`cp ~/Desktop/龙虾记忆/task-backups/2026-11-26/plists/<label>.plist.disabled ~/Library/LaunchAgents/<label>.plist && launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/<label>.plist`。
 
@@ -58,6 +60,7 @@
 | `gsc-master` / `gsc-cdp-verification` / `gsc-index-analysis`                                 | GSC 自动化提交、CDP 登录态、索引分因分析                           | 保留（脚本层，被 console 指针引用） |
 | `seo-universal-author`                                                                       | 文章结构标准（已订正「9 语言」与「meta keywords」两条旧口径）             | 保留                     |
 | `seo-subagent-article-generator` / `seo-deep-rewrite` / `seo-image-404-repair` / `seo-audit` | 批量写稿 SOP / 存量改写 / 图片 404 / 通用审计                    | 保留（存量批次用）              |
+| `tradego-inquiry-response`                                                                   | **客户询价闭环**：发现询盘 → 摘自动序列 → 规格/价格核对 → 报价邮件 → Resend 发送 → 回写 CRM；含 Afrimash 案例与 6 条踩坑 | 新增 2026-11-26          |
 
 **归档（2026-11-26，可原样恢复）**：`google-search-developer`（2026-05 二手整理，被 central 取代）、`tradego-site-builder`（`vercel --prod --force`、`trailingSlash:false`、schema 挂错页、873 pages 过期）、`nextjs-vercel-seo`（Next.js 14 + 免费层 + `unoptimized` 绕 402 + CLI 部署）、`gsc-sitemap-auto` / `gsc-sitemap-submit` / `google-seo-auth`（三个重叠的提交脚本，收口到 gsc-master）、`seo-triple-review-pipeline`（对应已停的日产流水线）、`seo-engine`（2024 入门整理，仅龙虾记忆侧存在）。
 

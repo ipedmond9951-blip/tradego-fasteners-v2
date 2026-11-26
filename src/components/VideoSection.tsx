@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { useState, useRef } from 'react'
 
 interface VideoSectionProps {
@@ -261,14 +262,13 @@ export default function VideoSection({ locale }: VideoSectionProps) {
                 onClick={handlePlay}
               >
                 {/* 封面图懒加载：不进首屏关键路径 */}
-                <img
+                <Image
                   src={activeVideoData.poster}
                   alt=""
                   aria-hidden="true"
-                  loading="lazy"
-                  decoding="async"
-                  fetchPriority="low"
-                  className="absolute inset-0 w-full h-full object-cover -z-10"
+                  fill
+                  sizes="100vw"
+                  className="object-cover -z-10"
                 />
                 <div className="text-center">
                   <button className="w-20 h-20 bg-white/90 hover:bg-white rounded-full flex items-center justify-center shadow-xl transition-all hover:scale-105 mb-4">
