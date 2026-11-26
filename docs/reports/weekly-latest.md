@@ -1,6 +1,6 @@
 # SEO/GEO 周检 2026-11-26
 
-生成：2026-11-26 15:45 CST｜站点 https://www.tradego-fasteners.com｜只读体检
+生成：2026-11-26 15:54 CST｜站点 https://www.tradego-fasteners.com｜只读体检
 
 规则：见 `docs/WEEKLY-AUDIT-SPEC.md`（每项都有阈值和处置动作）
 
@@ -44,7 +44,7 @@ zh 产品列表     200       17    76       11  FAIL  ← robots 缺 max-image-
 合计: FAIL 11 / WARN 0 / 共 12 项
 ```
 
-- **P1**：技术复核未通过，但本地有 1204 个未推提交 → 判定「待上线」，随下一次上线包修复；上线后必须重跑复验
+- **P1**：技术复核未通过，但本地有 1221 个未推提交 → 判定「待上线」，随下一次上线包修复；上线后必须重跑复验
 
 ## 3. 内容（闸门 / 模板文 / 语种混排 / 金额断言）
 
@@ -109,13 +109,9 @@ zh 产品列表     200       17    76       11  FAIL  ← robots 缺 max-image-
 - ✅ UI 与 llms.txt 无过界表述
 
 ```
-  mozambique-lng-construction-fasteners-standards      1
-      [ZH-持有] ISO 9001认证代表最低质量体系要求，尽管许多液化天然气项目要求紧固件制造商的测试实验室获得ISO 17025认证。
-  nigeria-lagos-fastener-import-wholesale-guide        1
-      [RU-持有] Разграничение прямых ISO-сертифицированных заводов крепежа от посреднических торговых компаний является единственным наиболее значимым решением по зак
+待复核 0 处，涉及 0 个文件（已复核基线跳过 32 处）
 ```
 
-- **P1**：文章里仍有 13 处「持有认证」类表述（按批次清，改完跑 check-cert-claims 复验）
 ```
   kenya-affordable-housing-fasteners-wholesale.json          金额  89  价格语义   0
   morocco-casablanca-port-fastener-import-procedure.json     金额  86  价格语义   0
@@ -126,18 +122,18 @@ zh 产品列表     200       17    76       11  FAIL  ← robots 缺 max-image-
 ## 6. 上线与部署预算
 
 ```
-未推提交: 1204
-工作区脏文件: 17
+未推提交: 1221
+工作区脏文件: 12
 ❌ 已达每日部署预算，本次 push 被拦下。
    原因: 每次部署都会新增 1–1.9GB 产物并重写全站预渲染缓存，Hobby 免费额度扛不住高频部署。
    把改动合并成一次提交再推；确需立即部署: DEPLOY_FORCE=1 git push
 审计: 2026-11-26T15:26:06+08:00 exit 1 连续失败 3
 ```
 
-- **P1**：未推提交 1204 个，超出单次上线合理包（应明确批次、一日只推一次）
+- **P1**：未推提交 1221 个，超出单次上线合理包（应明确批次、一日只推一次）
 
 ## 7. 本周行动
 
-共 **P0 0 条 / P1 4 条**。按 `docs/WEEKLY-AUDIT-SPEC.md` 处置：P0 当天、P1 本周内、P2 记录观察。
+共 **P0 0 条 / P1 3 条**。按 `docs/WEEKLY-AUDIT-SPEC.md` 处置：P0 当天、P1 本周内、P2 记录观察。
 
 每条的定位命令见上文各节；修完重跑 `bash scripts/weekly-audit.sh` 复验。

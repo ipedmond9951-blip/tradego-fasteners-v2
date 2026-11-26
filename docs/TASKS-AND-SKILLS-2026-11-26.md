@@ -86,3 +86,6 @@
 * `vercel-audit` 今日 `FAIL(2)` 已通过 prune 解除保留数问题，但「当日 = 4」会随日期翻页归零。
 
 * 107 篇存量合规红点、29 篇孤儿、P2-1 跨语种 FAQPage 未动。
+
+* 2026-11-26 已修：`ai.telegram-minimax.plist`（`StandardErrorPath` 的 `</string>` 误写）与 `com.glance.dashboard.plist`（`&&` 未转义），`plutil -lint` 均 OK；**未 bootstrap**（不主动起服务），原文件备份在 `/tmp/*.plist.bak`。
+* 认证「自述持证」句已清零并建基线（`content/cert-claims-baseline.json`），复核记录见 `docs/CERT-CLAIMS-REVIEW-2026-1126.md`；新增命中仍会被周检捕获。
