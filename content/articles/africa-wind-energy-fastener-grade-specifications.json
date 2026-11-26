@@ -258,7 +258,8 @@
       "hi": "विंड टरबाइन बोल्टिंग में हमेशा ग्रेड 10.9 चाहिए?",
       "ru": "Всегда ли для болтов ветрогенератора нужен класс 10.9?",
       "ar": "هل الدرجة 10.9 مطلوبة دائمًا لربط توربين الرياح؟",
-      "es": "¿El bulón eólico siempre necesita grado 10.9?"
+      "es": "¿El bulón eólico siempre necesita grado 10.9?",
+      "fr": "Le grade 10.9 est-il toujours requis pour le boulonnage d'éolienne ?"
      },
      "a": {
       "en": "It is the common default for tower and foundation connections, with 8.8 used in secondary positions. The grade must be specified together with bolt size, joint geometry, and tensioning method.",
@@ -266,7 +267,8 @@
       "hi": "टावर और फाउंडेशन कनेक्शन में 10.9 सामान्य डिफ़ॉल्ट ग्रेड है, द्वितीयक स्थानों में 8.8 चलता है। ग्रेड को बोल्ट साइज़, जोड़ की ज्यामिति और टेंशनिंग विधि के साथ मिलकर निर्दिष्ट करना चाहिए।",
       "ru": "10.9 — типовой вариант для соединений башни и фундамента, а на вторичных позициях применяют 8.8. Класс прочности задают не отдельно, а вместе с размером болта, геометрией узла и способом натяжения: без этих связок выбор класса на практике не работает.",
       "ar": "هي الافتراض الشائع لوصلات البرج والأساس، مع استخدام 8.8 في المواقع الثانوية. ويجب تحديد الدرجة مع قطر البرغي وهندسة الوصلة وطريقة الشد معًا.",
-      "es": "Es el valor por defecto común en uniones de torre y cimentación, y el 8.8 se usa en posiciones secundarias. El grado debe especificarse junto con el tamaño de bulón, la geometría de la unión y el método de tensado. No basta indicar el grado aislado de la unión y el montaje."
+      "es": "Es el valor por defecto común en uniones de torre y cimentación, y el 8.8 se usa en posiciones secundarias. El grado debe especificarse junto con el tamaño de bulón, la geometría de la unión y el método de tensado. No basta indicar el grado aislado de la unión y el montaje.",
+      "fr": "C'est le défaut courant pour les liaisons de tour et de fondation, le 8.8 servant les positions secondaires. Le grade doit être spécifié avec le boulon, la géométrie du joint et la méthode de tension. Aucun grade ne remplace la conception de la liaison. Chaque élément porte une charge et une exposition propres. La spécification se complète d'essais et de traçabilité."
      }
     },
     {
@@ -276,7 +278,8 @@
       "hi": "ग्रेड एक होने पर भी मटेरियल रूट क्यों मायने रखता है?",
       "ru": "Почему при одинаковом классе важен путь металла?",
       "ar": "لماذا يهم مسار المادة إن كانت الدرجة نفسها؟",
-      "es": "¿Por qué importa la ruta del material aunque el grado sea el mismo?"
+      "es": "¿Por qué importa la ruta del material aunque el grado sea el mismo?",
+      "fr": "Pourquoi la route matière compte-t-elle si le grade est le même ?"
      },
      "a": {
       "en": "A 10.9 property class reached through a different alloy and heat treatment behaves differently under low-temperature impact, which matters at cold and high-altitude sites.",
@@ -284,7 +287,8 @@
       "hi": "अलग अलॉय और हीट ट्रीटमेंट से प्राप्त 10.9 प्रॉपर्टी क्लास कम तापमान वाले इम्पैक्ट में अलग व्यवहार करता है; ठंडे और ऊंचाई वाले स्थलों पर यह अंतर अहम होता है।",
       "ru": "Класс 10.9 можно получить разным сплавом и режимом термообработки, и поведение при низкотемпературном ударе у таких вариантов разное. Для холодных и высокогорных площадок это прямо влияет на надёжность узла, поэтому один и тот же номер класса не заменяет проверку марки и испытаний на удар.",
       "ar": "فئة خواص 10.9 المحققة بسبيكة ومعالجة حرارية مختلفة تتصرف تحت صدمة الحرارة المنخفضة بصورة مختلفة، وهذا مهم في المواقع الباردة والمرتفعة.",
-      "es": "Una clase 10.9 alcanzada con otra aleación y otro tratamiento térmico se comporta distinto ante el impacto a baja temperatura, lo que pesa en emplazamientos fríos y de altura. El grado numérico no refleja por sí solo esa resistencia al impacto. La ruta de material se revisa según el clima y la altitud del sitio."
+      "es": "Una clase 10.9 alcanzada con otra aleación y otro tratamiento térmico se comporta distinto ante el impacto a baja temperatura, lo que pesa en emplazamientos fríos y de altura. El grado numérico no refleja por sí solo esa resistencia al impacto. La ruta de material se revisa según el clima y la altitud del sitio.",
+      "fr": "Une classe de propriété 10.9 atteinte par un alliage et un traitement thermique différents se comporte différemment au choc à basse température, ce qui compte sur les sites froids et en altitude. La classe seule ne décrit pas toute la tenue mécanique. Le lot et sa trempe doivent être vérifiés. Un froid vif rend critique la résilience du matériau. Demandez les rapports d'essai d'impact."
      }
     },
     {
@@ -294,7 +298,8 @@
       "hi": "कौन-सी टेंशनिंग विधि निर्दिष्ट करनी चाहिए?",
       "ru": "Какой способ натяжения болтов закладывать в спецификацию?",
       "ar": "أي طريقة شد تحدد في المواصفة؟",
-      "es": "¿Qué método de tensado especificar?"
+      "es": "¿Qué método de tensado especificar?",
+      "fr": "Quelle méthode de tension spécifier ?"
      },
      "a": {
       "en": "Name the method - hydraulic tensioning, torque control, or direct tension indication - plus the acceptance window, and require sample verification, because each method produces different preload scatter.",
@@ -302,7 +307,8 @@
       "hi": "विधि का नाम लिखें — हाइड्रॉलिक टेंशनिंग, टॉर्क कंट्रोल, या डायरेक्ट टेंशन इंडिकेशन — साथ में स्वीकृति विंडो भी, और नमूना सत्यापन अनिवार्य करें; हर विधि से प्री-लोड का बिखराव अलग तरह का आता है।",
       "ru": "Указывают метод: гидравлическая натяжка, контроль по моменту (torque) или прямой индикатор натяжения; вместе с ним — допустимый диапазон по затяжке и требование проверить выборку. Разные методы дают разный разброс предварительной затяжки (preload), поэтому способ и приёмка должны быть зафиксированы до монтажа.",
       "ar": "سَمِّ الطريقة: شد هيدروليكي، أو ضبط عزم، أو مؤشر شد مباشر، مع نافذة القبول، واطلب تحققًا عينيًا، فكل طريقة تنتج تباينًا مختلفًا في الشد المسبق.",
-      "es": "Indique el procedimiento: tensado hidráulico, control por par o indicación directa de tensión, más la ventana de aceptación, y exija verificación de muestra, porque cada esquema da una dispersión de pretensado distinta. El procedimiento debe dejar claro cómo se aprieta y qué se acepta. Así el apriete es repetible entre cuadrillas."
+      "es": "Indique el procedimiento: tensado hidráulico, control por par o indicación directa de tensión, más la ventana de aceptación, y exija verificación de muestra, porque cada esquema da una dispersión de pretensado distinta. El procedimiento debe dejar claro cómo se aprieta y qué se acepta. Así el apriete es repetible entre cuadrillas.",
+      "fr": "Nommez la méthode — tension hydraulique, contrôle de couple, ou indication directe de tension — plus la plage d'acceptation, et exigez une vérification sur échantillon, car chaque méthode produit une dispersion de précharge différente. La précharge visée doit être mesurable et contrôlable. Le serrage se documente poste par poste. Une méthode non suivie laisse un précharge incertain."
      }
     },
     {
@@ -312,7 +318,8 @@
       "hi": "ऑफ़शोर विंड संरचनाओं में कौन-सी कोटिंग लगती है?",
       "ru": "Какое покрытие используют для морских ветросооружений?",
       "ar": "ما الطلاء المستخدم لهياكل الرياح البحرية؟",
-      "es": "¿Qué recubrimiento se usa en estructuras eólicas off-shore?"
+      "es": "¿Qué recubrimiento se usa en estructuras eólicas off-shore?",
+      "fr": "Quel revêtement pour les structures éoliennes en mer ?"
      },
      "a": {
       "en": "Hot-dip galvanizing with a defined minimum thickness is the baseline, often with a duplex topcoat where maintenance intervals are long. Thread coatings must be specified separately from the shank.",
@@ -320,7 +327,8 @@
       "hi": "निर्दिष्ट न्यूनतम मोटाई वाली हॉट-डिप गैल्वनाइज़िंग बेसलाइन है; जहां रखरखाव अंतराल लंबे होते हैं, वहां अक्सर डुप्लेक्स टॉपकोट लगाया जाता है। धागे की कोटिंग को शैंक से अलग निर्दिष्ट करना चाहिए।",
       "ru": "Базовый вариант — горячее цинкование (HDG) с нормированной минимальной толщиной; где межремонтные интервалы длинные, сверху наносят дуплексное финишное покрытие. Покрытие резьбы задают отдельно от стержня: нарезанная часть работает на трении и при затяжке, поэтому общий слой там не подходит.",
       "ar": "الجلفنة بالغمس الساخن بسماكة دنيا محددة هي الأساس، وغالبًا مع طلاء سطحي مزدوج حيث فترات الصيانة طويلة. ويحدد طلاء الخيط منفصلاً عن ساق البرغي.",
-      "es": "El galvanizado en caliente con espesor mínimo definido es la base, y a menudo se completa con una capa dúplex donde los intervalos de mantenimiento son largos. El recubrimiento de rosca se especifica por separado del vástago. El ambiente marino exige un sistema de protección previsto para largo servicio."
+      "es": "El galvanizado en caliente con espesor mínimo definido es la base, y a menudo se completa con una capa dúplex donde los intervalos de mantenimiento son largos. El recubrimiento de rosca se especifica por separado del vástago. El ambiente marino exige un sistema de protección previsto para largo servicio.",
+      "fr": "La galvanisation à chaud avec épaisseur minimale définie est la base, souvent complétée par une surcouche duplex quand les intervalles de maintenance sont longs. Les revêtements de filetage doivent être spécifiés séparément de la tige. L'environnement marin accélère la corrosion sur toute la pièce. La protection du filetage évite le grippage au montage. Prévoyez l'inspection de revêtement à réception."
      }
     }
    ]
