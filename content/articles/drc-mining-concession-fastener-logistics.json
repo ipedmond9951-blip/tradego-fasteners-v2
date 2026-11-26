@@ -302,7 +302,8 @@
             "ru": "Почему снабжение крепежом рудных концессий ДРК затруднено?",
             "ar": "ما الذي يعقد توريد المثبتات لامتيازات التعدين في الكونغو؟",
             "es": "¿Qué dificulta el suministro a concesiones mineras de la RDC?",
-            "pt": "O que dificulta o abastecimento na mina da RDC?"
+            "pt": "O que dificulta o abastecimento na mina da RDC?",
+            "fr": "L'approvisionnement en fixations des mines en RDC est-il difficile ?"
           },
           "a": {
             "en": "Remote sites, long inland haulage from Dar es Salaam or Beira, and equipment fleets that mix several OEM brands, each with its own fastener standard. Customs variability on top of that is what turns a late shipment into a stopped production line.",
@@ -311,7 +312,8 @@
             "ru": "Удалённость площадок, длинное плечо доставки от Дар-эс-Салама или Бейры и парк техники, где смешаны несколько брендов OEM, у каждого со своим стандартом на крепёж. Поверх этого нестабильность таможенных процедур превращает опоздание отгрузки в остановленную производственную линию.",
             "ar": "المواقع النائية، والنقل الداخلي الطويل من دار السلام أو بيرا، وأساطيل المعدات التي تخلط عدة علامات مصنعية، لكل منها معيار مثبتات خاص. وفوق ذلك يضاف تباين الإجراءات الجمركية، وهو ما يحول الشحنة المتأخرة إلى خط إنتاج متوقف.",
             "es": "Emplazamientos remotos, transporte terrestre largo desde Dar es Salaam o Beira, y flotas de equipo que mezclan varias marcas OEM, cada una con su propia norma de fijación. La variabilidad aduanera, encima de eso, es lo que convierte un envío tardío en una línea de producción parada. La lejanía y la mezcla de marcas exigen previsión de stock.",
-            "pt": "Sítios remotos, transporte interno longo de Dar es Salaam ou Beira, e frotas de equipamento que misturam várias marcas OEM, cada uma com sua norma de fixador. A variabilidade alfandegária sobre isso é o que transforma um atraso de embarque em linha de produção parada. O planejamento leva em conta rota, estoque de segurança e compatibilidade de marcas do equipamento."
+            "pt": "Sítios remotos, transporte interno longo de Dar es Salaam ou Beira, e frotas de equipamento que misturam várias marcas OEM, cada uma com sua norma de fixador. A variabilidade alfandegária sobre isso é o que transforma um atraso de embarque em linha de produção parada. O planejamento leva em conta rota, estoque de segurança e compatibilidade de marcas do equipamento.",
+            "fr": "Sites reculés, long trajet intérieur depuis Dar es Salaam ou Beira, et parcs d'équipement qui mélangent plusieurs marques OEM, chacune avec sa propre norme de fixation. La variabilité douanière vient s'ajouter : c'est elle qui transforme une expédition tardive en ligne de production arrêtée. Chaque étape du trajet compte sur la tenue du délai. Les stocks doivent couvrir les pièces critiques jusqu'à l'arrivée du lot suivant."
           }
         },
         {
@@ -322,7 +324,8 @@
             "ru": "Как концессии планировать складской запас крепежа?",
             "ar": "كيف تخطط الامتياز لمخزون المثبتات؟",
             "es": "¿Cómo debe planificar una concesión su inventario de fijaciones?",
-            "pt": "Como uma concessão planeja o estoque de fixadores?"
+            "pt": "Como uma concessão planeja o estoque de fixadores?",
+            "fr": "Comment une concession planifie-t-elle son stock de fixations ?"
           },
           "a": {
             "en": "Build the list by equipment brand and assembly, split parts into critical and consumable, and hold buffer stock for critical items at the site warehouse while consumables run on scheduled replenishment from China.",
@@ -331,7 +334,8 @@
             "ru": "Перечень составляют по бренду техники и узлу сборки, детали делят на критичные и расходные. Для критичных позиций на площадном складе держат буферный запас, расходные пополняют по графику поставок из Китая.",
             "ar": "ابنِ القائمة حسب علامة المعدة وتجميعها، وقسّم القطع إلى حرجة واستهلاكية، واحتفظ برصيد احتياطي للبنود الحرجة في مستودع الموقع، بينما تدار المستهلكات بالتجديد المجدول من الصين.",
             "es": "Arme la lista por marca de equipo y montaje, divida piezas en críticas y consumibles, y mantenga stock de reserva para los artículos críticos en el almacén del sitio, mientras los consumibles van por reposición programada desde China. El plan separa lo que no puede faltar de lo que se renueva de forma periódica.",
-            "pt": "Monta-se a lista por marca de equipamento e conjunto, divide-se peças em críticas e consumíveis, e mantém-se estoque buffer dos itens críticos no depósito da mina, enquanto os consumíveis correm por reposição programada da China. O buffer cobre os itens de maior desgaste, e a reposição segue o consumo registrado em vez de calendário fixo."
+            "pt": "Monta-se a lista por marca de equipamento e conjunto, divide-se peças em críticas e consumíveis, e mantém-se estoque buffer dos itens críticos no depósito da mina, enquanto os consumíveis correm por reposição programada da China. O buffer cobre os itens de maior desgaste, e a reposição segue o consumo registrado em vez de calendário fixo.",
+            "fr": "Établissez la liste par marque d'équipement et par assemblage, séparez les pièces critiques des consommables, et tenez un stock tampon pour les articles critiques à l'entrepôt du site, tandis que les consommables suivent un réapprovisionnement planifié depuis la Chine. La rotation guide la quantité de chaque référence. Une pièce critique en rupture bloque l'engin concerné. Le réassort se calcule sur la consommation réelle du parc."
           }
         },
         {
@@ -342,7 +346,8 @@
             "ru": "Какие документы нужны для таможенного оформления в ДРК?",
             "ar": "ما المستندات الداعمة لتخليص الاستيراد في الكونغو الديمقراطية؟",
             "es": "¿Qué documentos apoyan el despacho de importación en la RDC?",
-            "pt": "Que documentos apoiam o desembaraço de importação na RDC?"
+            "pt": "Que documentos apoiam o desembaraço de importação na RDC?",
+            "fr": "Quels documents appuient le dédouanement en RDC ?"
           },
           "a": {
             "en": "Commercial invoice, packing list, bill of lading, certificate of origin and mill test reports; mining contracts often add a pre-shipment inspection certificate. Invoice values and HS codes must match exactly, because mismatches trigger manual review and demurrage.",
@@ -351,7 +356,8 @@
             "ru": "Коммерческий инвойс, упаковочный лист, коносамент, сертификат происхождения и сертификаты испытаний металла; по горным контрактам нередко добавляют сертификат предотгрузочной инспекции. Стоимость в инвойсе и коды HS должны совпадать точно: расхождение запускает ручной досмотр и демередж.",
             "ar": "الفاتورة التجارية وقائمة التغليف وسند الشحن وشهادة المنشأ وتقارير فحص المطحنة؛ وغالباً ما تضيف عقود التعدين شهادة فحص ما قبل الشحن. ويجب أن تتطابق قيم الفاتورة ورموز HS تماماً، لأن عدم التطابق يستدعي المراجعة اليدوية وتعطيل الرسو.",
             "es": "Factura comercial, lista de empaque, conocimiento de embarque, certificado de origen e informes de ensayo de fábrica; los contratos mineros suelen añadir un certificado de inspección previa al envío. Los valores de factura y los códigos HS deben coincidir exactamente, porque las discrepancias activan revisión manual y demora. La documentación cuadra con la carga para pasar la aduana.",
-            "pt": "Fatura comercial, lista de embalagem, conhecimento de embarque, certificado de origem e relatórios de ensaio de fábrica; contratos de mina frequentemente acrescentam certificado de inspeção pré-embarque. Os valores da fatura e os códigos HS devem bater exatamente, pois divergências acionam revisão manual e sobreestadia. A papelada é conferida linha a linha antes do fechamento da carga."
+            "pt": "Fatura comercial, lista de embalagem, conhecimento de embarque, certificado de origem e relatórios de ensaio de fábrica; contratos de mina frequentemente acrescentam certificado de inspeção pré-embarque. Os valores da fatura e os códigos HS devem bater exatamente, pois divergências acionam revisão manual e sobreestadia. A papelada é conferida linha a linha antes do fechamento da carga.",
+            "fr": "Facture commerciale, liste de colisage, connaissement, certificat d'origine et rapports d'essai matière ; les contrats miniers ajoutent souvent un certificat d'inspection avant expédition. Les valeurs facture et les codes HS doivent coïncider exactement, car un écart déclenche une revue manuelle et du surestoc. Chaque document suit la cargaison jusqu'à la remise en concession. Un dossier incomplet retarde la libération du conteneur."
           }
         }
       ]
