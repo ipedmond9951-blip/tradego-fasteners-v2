@@ -189,7 +189,8 @@
             "ar": "ما الفرق بين وصلة التحمل ووصلة الاحتكاك الحرجة للانزلاق؟",
             "es": "¿Qué diferencia hay entre junta por apoyo y junta por fricción?",
             "pt": "Qual a diferença entre ligação de apoio e ligação por atrito?",
-            "fr": "Assemblage par appui ou par friction (critique au glissement) ?"
+            "fr": "Assemblage par appui ou par friction (critique au glissement) ?",
+            "de": "Was unterscheidet tragende und reibschlüssige Verbindungen?"
           },
           "a": {
             "en": "In a bearing-type connection, the bolts carry the applied load by bearing against the connected plates — the bolt itself is in shear. The preload (clamp force) doesn't matter as much; the bolt just needs to be snug-tight. In a friction-type (slip-critical) connection, the applied load is transferred by friction between the connected plates, created by the bolt's preload. If the preload is insufficient, the joint slips — causing failure. Slip-critical connections require higher preload (verified by DTI washers or calibrated wrench), and the connected surfaces must be free of paint and mill scale (cleaned to bare metal) to achieve the specified coefficient of friction.",
@@ -199,7 +200,8 @@
             "ar": "في وصلة التحمل يحمل البرغي الحمولة بالتحمل ضد الصفائح الموصولة، فالبرغي معرض للقص، ولا أهمية كبيرة للشد المسبق ويكفي شده حتى التلامس. أما وصلة الاحتكاك الحرجة للانزلاق فتُنقل الحمولة بالاحتكاك بين الصفائح بفعل الشد المسبق للبرغي؛ ونقصه يسبب انزلاق الوصلة وفشلها. وتتطلب وصلات الاحتكاك شداً مسبقاً أعلى يُتحقق منه بغسالات DTI أو مفتاح عاير، ويجب أن تكون أسطح التلامس خالية من الطلاء وصدأ المطحنة نظيفة إلى المعدن المكشوف لبلوغ معامل الاحتكاك المحدد.",
             "es": "En junta por apoyo, el perno soporta la carga apoyándose contra las placas y va a cortante; la precarga pesa menos, basta apriete ajustado. En junta por fricción (anti-deslizamiento), la carga se transmite por rozamiento entre placas; si la precarga es insuficiente, la junta se desliza y falla. Requiere mayor precarga (arandela DTI o llave calibrada), y superficies sin pintura ni cascarilla, a metal desnudo, para el coeficiente previsto.",
             "pt": "Na ligação de apoio, os parafusos transmitem a carga por contato contra as chapas, ficando em cisalhamento; a pré-carga é menos crítica, bastando aperto firme. Na ligação por atrito, a carga passa pelo atrito entre chapas, gerado pela pré-carga: se ela é insuficiente, a junta desliza e falha. Exige-se pré-carga mais alta, verificada por arruelas DTI ou chave calibrada, e superfícies limpas, sem tinta nem casca, para o atrito especificado.",
-            "fr": "Dans l'assemblage par appui, les boulons reprennent la charge sur les plaques — en cisaillement ; la précharge importe peu. Dans l'assemblage par friction (critique au glissement), la charge passe par le frottement des plaques, créé par la précharge. Si elle est insuffisante, le joint glisse et rompt. Les joints critiques exigent une précharge plus élevée (rondelle DTI ou clé calibrée), et des surfaces nues, exemptes de peinture et calamine."
+            "fr": "Dans l'assemblage par appui, les boulons reprennent la charge sur les plaques — en cisaillement ; la précharge importe peu. Dans l'assemblage par friction (critique au glissement), la charge passe par le frottement des plaques, créé par la précharge. Si elle est insuffisante, le joint glisse et rompt. Les joints critiques exigent une précharge plus élevée (rondelle DTI ou clé calibrée), et des surfaces nues, exemptes de peinture et calamine.",
+            "de": "Bei tragender Verbindung trägt der Bolzen die Last durch Auflage gegen die Bleche, er steht auf Schub; die Vorspannung ist weniger entscheidend, handfest reicht. Bei reibschlüssiger Verbindung wird die Last über Blechreibung durch die Vorspannung übertragen; fehlt sie, gleitet die Fuge. Reibschlüssige Verbindungen brauchen höhere Vorspannung, geprüft über Scheiben oder kalibrierten Schlüssel; die Flächen müssen frei von Farbe und Zunder sein."
           }
         },
         {
@@ -211,7 +213,8 @@
             "ar": "لماذا توجد غسالات تحت رأس البرغي وصامولته في الوصلات الإنشائية؟",
             "es": "¿Por qué hay arandela bajo cabeza y tuerca del perno?",
             "pt": "Por que os parafusos estruturais levam arruela em ambos os lados?",
-            "fr": "Pourquoi des rondelles sous tête et écrou du boulon ?"
+            "fr": "Pourquoi des rondelles sous tête et écrou du boulon ?",
+            "de": "Warum liegen unter Kopf und Mutter Scheiben?"
           },
           "a": {
             "en": "Under the bolt head — distributes the load from the bolt head onto the connected plate, preventing localized bearing stress that could deform the plate; hardened washers are used with high-strength bolts to prevent embedding. Under the nut — serves the same purpose on the other side of the joint; the nut bearing surface is smaller than the head, so the washer is even more important here. For structural connections using high-strength bolts (Grade 8.8, 10.9), hardened washers (to HRC 38-45) are specified for both positions. Using standard (soft) washers with high-strength bolts can cause the washer to deform and lose preload.",
@@ -221,7 +224,8 @@
             "ar": "تحت رأس البرغي توزع الغسالة حمل الرأس على الصفائحة، فتمنع إجهاد التحمل الموضعي الذي يشوهها، وتستخدم غسالات مقسّاة مع البراغي عالية القوة لمنع الانغماس. وتؤدي الغسالة تحت الصامولة الوظيفة نفسها، وسطح تحمل الصامولة أصغر من الرأس فتصبح أهم هنا. وفي الوصلات الإنشائية ببراغي 8.8 أو 10.9 تُحدد غسالات مقسّاة حتى صلابة HRC 38-45 في الموضعين. واستخدام غسالة عادية ناعمة مع برغي عالي القوة قد يشوهها ويفقد الشد المسبق.",
             "es": "Bajo la cabeza, la arandela reparte la carga sobre la placa y evita el esfuerzo local que podría deformarla; con alta resistencia se usan arandelas endurecidas. Bajo la tuerca cumple el mismo fin; su superficie de apoyo es menor, así que la arandela es aquí más importante. En pernos 8.8 o 10.9 se especifican arandelas endurecidas HRC 38-45. Una arandela blanda con alta resistencia puede deformarse y perder precarga.",
             "pt": "Sob a cabeça, a arruela distribui a carga sobre a chapa, evitando tensão localizada que deforma a peça; com alta resistência, usam-se arruelas temperadas contra embutidura. Sob a porca, a função é a mesma, e como sua superfície de apoio é menor, a arruela é ainda mais importante. Em ligações com parafusos 8.8 ou 10.9, especificam-se arruelas temperadas nos dois lados; arruelas moles podem deformar e perder pré-carga.",
-            "fr": "Sous la tête, la rondelle répartit la charge sur la plaque, évitant un appui local sans la déformer ; avec les boulons haute résistance, on utilise des rondelles trempées. Sous l'écrou, elle remplit le même rôle ; l'appui de l'écrou étant plus petit, la rondelle y est encore plus importante. Pour les assemblages 8.8/10.9, des rondelles trempées sont spécifiées aux deux positions. Des rondelles molles peuvent se déformer et perdre la précharge."
+            "fr": "Sous la tête, la rondelle répartit la charge sur la plaque, évitant un appui local sans la déformer ; avec les boulons haute résistance, on utilise des rondelles trempées. Sous l'écrou, elle remplit le même rôle ; l'appui de l'écrou étant plus petit, la rondelle y est encore plus importante. Pour les assemblages 8.8/10.9, des rondelles trempées sont spécifiées aux deux positions. Des rondelles molles peuvent se déformer et perdre la précharge.",
+            "de": "Unter dem Kopf verteilt die Scheibe die Last auf das Blech und verhindert örtliche Verformung; bei hochfesten Bolzen dienen gehärtete Scheiben gegen Einprägung. Unter der Mutter gilt das Gleiche, deren Auflage kleiner als der Kopf ist, dort ist die Scheibe noch wichtiger. Bei hochfesten Bolzen (8.8, 10.9) sind gehärtete Scheiben (HRC 38–45) an beiden Stellen vorzusehen. Weiche Normalscheiben können verformen und die Vorspannung verlieren."
           }
         },
         {
@@ -233,7 +237,8 @@
             "ar": "ما أقصى تباعد بين البراغي في الوصلة الإنشائية؟",
             "es": "¿Cuál es la separación máxima entre pernos en una junta?",
             "pt": "Qual o espaçamento máximo entre parafusos numa ligação estrutural?",
-            "fr": "Écartement maximal des boulons en assemblage structural ?"
+            "fr": "Écartement maximal des boulons en assemblage structural ?",
+            "de": "Wie groß ist der maximale Schraubenabstand?"
           },
           "a": {
             "en": "Bolt spacing is governed by the structural design code (BS 5950, AISC, SANS, etc.) and the design loads. General guidelines: Minimum spacing — not less than 2.5× bolt diameter (to prevent edge splitting); Maximum spacing in tension — not more than 14× t (thinner connected plate) or 200mm; Maximum spacing in compression — not more than 24× t or 300mm; Edge distance — minimum edge distance varies from 1.5D to 2.0D depending on edge condition (sheared, rolled, etc.) and loading direction. Always follow the structural engineer's connection design — these are general guidelines only.",
@@ -243,7 +248,8 @@
             "ar": "يحكم التباعد كود التصميم الإنشائي مثل BS 5950 أو AISC أو SANS والأحمال التصميمية. والإرشادات العامة: التباعد الأدنى لا يقل عن 2.5× قطر البرغي لمنع تشقق الحافة؛ والتباعد الأقصى في الشد لا يزيد عن 14× سمك الصفائحة الأرفع أو 200 مم؛ وفي الضغط لا يزيد عن 24× السمك أو 300 مم؛ ومسافة الحافة الأدنى تتراوح من 1.5D إلى 2.0D حسب حالة الحافة واتجاه الحمل. واتبع دائماً تصميم الوصلة من مهندس الإنشاء، فهذه إرشادات عامة فقط.",
             "es": "La separación la fija el código de diseño (BS 5950, AISC, SANS, etc.) y las cargas. Guías: mínima no menor de 2.5 diámetros (evitar fisura en borde); máxima en tracción no más de 14 veces t o 200 mm; en compresión no más de 24 veces t o 300 mm; distancia al borde de 1.5D a 2.0D según estado del borde y dirección de carga. Siga el diseño del ingeniero; esto es solo orientación general.",
             "pt": "O espaçamento é definido pelo código estrutural, como BS 5950, AISC ou SANS, e pelas cargas. Como orientação, o mínimo não passa de 2,5 vezes o diâmetro do parafuso, contra fendilhamento de borda; no tração, o máximo é 14 vezes a espessura da chapa fina ou 200 mm; na compressão, 24 vezes ou 300 mm. A distância de borda mínima varia de 1,5D a 2,0D conforme a borda e a carga. O projeto do engenheiro prevalece sobre estas referências.",
-            "fr": "L'écartement relève du code de conception structural (BS 5950, AISC, SANS) et des charges. Recommandations : écartement minimal au moins 2,5× le diamètre (éviter l'éclatement de bord) ; en traction, pas plus de 14× t ou 200 mm ; en compression, pas plus de 24× t ou 300 mm ; distance de bord de 1,5D à 2,0D selon l'état du bord et le sens de charge. On suit toujours la conception de l'ingénieur ; ces valeurs sont générales."
+            "fr": "L'écartement relève du code de conception structural (BS 5950, AISC, SANS) et des charges. Recommandations : écartement minimal au moins 2,5× le diamètre (éviter l'éclatement de bord) ; en traction, pas plus de 14× t ou 200 mm ; en compression, pas plus de 24× t ou 300 mm ; distance de bord de 1,5D à 2,0D selon l'état du bord et le sens de charge. On suit toujours la conception de l'ingénieur ; ces valeurs sont générales.",
+            "de": "Der Abstand richtet sich nach Entwurfsnorm (BS 5950, AISC, SANS) und Lasten. Richtwerte: Mindestabstand nicht weniger als das 2,5-fache des Durchmessers gegen Randriss. Zug: höchstens 14× t oder 200 mm; Druck: höchstens 24× t oder 300 mm. Mindestrandabstand je Rand und Lastrichtung zwischen 1,5D und 2,0D. Maßgeblich bleibt die Planung des Tragwerksplaners; diese Werte sind nur Richtwerte."
           }
         }
       ],
