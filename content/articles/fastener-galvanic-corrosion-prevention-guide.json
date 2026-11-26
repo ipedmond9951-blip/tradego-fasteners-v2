@@ -326,7 +326,7 @@
           },
           "a": {
             "en": "Industry practice is 0.25 V maximum for general applications and 0.15 V maximum for wet, marine or critical service. These limits are derived from the work of ASTM G82 and NACE / AMPP SP0775. If the potential difference cannot be reduced by material choice, use isolation methods or a sacrificial coating on the more noble metal to bring the effective difference below the threshold.",
-            "zh": "行业惯例为一般应用最大0.25 V，潮湿、海洋或关键服务最大0.15 V。这些限制源自ASTM G82和NACE/AMPP SP0775的工作。如果电位差不能通过材料选择降低，使用隔离方法或更贵金属上的牺牲涂层以将有效差值降至阈值以下。",
+            "zh": "行业惯例为一般应用最大电位差 0.25 V，潮湿、海洋或关键服务最大 0.15 V；这些限值参考 ASTM G82 和 NACE/AMPP SP0775 的相关工作。若电位差无法通过材料选择降低，可采用隔离方法，或在较贵金属一侧加牺牲涂层，把有效差值降到阈值以下。评估连接副时把接触介质、湿度和是否外露一起考虑；干湿交替和含盐环境限值更严，关键部位整组选用相容金属，接触面加绝缘垫并保持排水通畅，减少长期电偶腐蚀风险。",
             "es": "La práctica de la industria es 0,25 V máximo para aplicaciones generales y 0,15 V máximo para servicio húmedo, marino o crítico. Estos límites se derivan del trabajo de ASTM G82 y NACE/AMPP SP0775.",
             "fr": "La pratique de l'industrie est de 0,25 V maximum pour les applications générales et de 0,15 V maximum pour le service humide, marin ou critique. Ces limites sont dérivées des travaux de l'ASTM G82 et NACE/AMPP SP0775.",
             "pt": "A prática da indústria é 0,25 V máximo para aplicações gerais e 0,15 V máximo para serviço húmido, marinho ou crítico. Estes limites derivam do trabalho da ASTM G82 e NACE/AMPP SP0775.",
