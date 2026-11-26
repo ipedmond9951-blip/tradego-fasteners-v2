@@ -351,7 +351,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-primary-900 to-primary-800 text-white py-12 md:py-16 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <Image src={optImagePath(article.image, 'hero')} alt={title} fill className="object-cover" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1200px" priority quality={80} />
+          {/* P2-5: 去掉 fill 模式（next/image 不输出 width/height），补显式尺寸避免 CLS；绝对定位铺满与 object-cover 保留 */}
+          <Image src={optImagePath(article.image, 'hero')} alt={title} width={1200} height={675} className="absolute inset-0 w-full h-full object-cover" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1200px" priority quality={80} />
         </div>
         <div className="container mx-auto px-4 sm:px-6 relative z-10 max-w-3xl">
           <Link href={`/${locale}/industry/`} className="inline-flex items-center gap-1 text-primary-200 hover:text-white text-sm mb-6 transition-colors">
