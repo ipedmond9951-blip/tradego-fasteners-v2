@@ -242,7 +242,8 @@
             "es": "¿Las arandelas de resorte evitan realmente el aflojamiento?",
             "fr": "Les rondelles ressort empêchent-elles vraiment le desserrement ?",
             "pt": "As arruelas de mola realmente evitam o afrouxamento?",
-            "de": "Verhindern Federringe das Loslockern wirklich?"
+            "de": "Verhindern Federringe das Loslockern wirklich?",
+            "ja": "ばね座金は本当にゆるみを防ぎますか？"
           },
           "a": {
             "en": "Spring washers provide limited vibration resistance. For critical connections, use nylon insert lock nuts or all-metal prevailing torque nuts. Spring washers are best for maintaining preload under thermal cycling.",
@@ -253,7 +254,8 @@
             "es": "Las arandelas de resorte dan una resistencia limitada a la vibración. Para uniones críticas, use tuercas autoblocantes de inserto de nailon o tuercas de par dominante de todo metal. Las arandelas de resorte sirven mejor para mantener el pretensado bajo ciclo térmico. El bloqueo real depende del tipo de tuerca, no de la arandela.",
             "fr": "Les rondelles ressort n'offrent qu'une résistance limitée à la vibration. Pour les liaisons critiques, on emploie des écrous freinants à insert nylon ou des écrous couple-préalable tout métal. La rondelle ressort convient surtout au maintien du précharge sous cyclage thermique. Son rôle reste complémentaire, jamais une solution de blocage à elle seule.",
             "pt": "As arruelas de mola fornecem resistência limitada à vibração. Para ligações críticas, usam-se porcas autoblocantes com inserção de nylon ou porcas metálicas de torque prevalente. As arruelas de mola são melhores para manter o pré-carregamento sob ciclos térmicos. O tipo segue a vibração da ligação, e a arruela é conferida no conjunto.",
-            "de": "Federringe bieten nur begrenzte Vibrationsbeständigkeit. Für kritische Verbindungen nutzen Sie Selbstsicherungsmuttern mit Nylonring oder Metall-Formschlussmuttern. Federringe eignen sich am besten, um die Vorspannung unter Temperaturwechsel zu halten."
+            "de": "Federringe bieten nur begrenzte Vibrationsbeständigkeit. Für kritische Verbindungen nutzen Sie Selbstsicherungsmuttern mit Nylonring oder Metall-Formschlussmuttern. Federringe eignen sich am besten, um die Vorspannung unter Temperaturwechsel zu halten.",
+            "ja": "ばね座金の耐振動性能は限られています。重要な接続には、ナイロン嵌め込みロックナットか全金属のトルク保持ナットを使用してください。ばね座金は、温度変化の繰り返しのもとで予圧を保つ用途に適しています。ゆるみ止めの主役を座金に任せず、ナット側の選定も検討してください。"
           }
         },
         {
@@ -266,7 +268,8 @@
             "es": "¿Qué arandela para un perno M10?",
             "fr": "Quelle rondelle pour un boulon M10 ?",
             "pt": "Que arruela para um parafuso M10?",
-            "de": "Welche Scheibengröße für eine M10-Schraube?"
+            "de": "Welche Scheibengröße für eine M10-Schraube?",
+            "ja": "M10 ボルトにはどのサイズの座金を使いますか？"
           },
           "a": {
             "en": "Standard M10 flat washer: 21mm ID × 40mm OD × 3mm thick (DIN 125 Form A). Heavy duty: 21mm ID × 60mm OD × 6mm thick.",
@@ -277,7 +280,8 @@
             "es": "Arandela plana M10 estándar: 21 mm de interior × 40 mm de exterior × 3 mm de grueso (DIN 125 Form A). Servicio pesado: 21 mm de interior × 60 mm de exterior × 6 mm de grueso. El tamaño exterior se elige según la carga y el material base de la unión.",
             "fr": "Rondelle plate standard M10 : alésage 21 mm × diamètre extérieur 40 mm × épaisseur 3 mm (DIN 125 forme A). Version à usage intensif : alésage 21 mm × extérieur 60 mm × épaisseur 6 mm. Le choix de la rondelle suit la reprise de charge et la surface d'appui voulue sur la pièce.",
             "pt": "A arruela plana padrão para M10 tem 21 mm de diâmetro interno e 40 mm de diâmetro externo com 3 mm de espessura (DIN 125 Forma A). No serviço pesado, são 21 mm interno, 60 mm externo e 6 mm de espessura. O tamanho segue a carga e a superfície de apoio, e a norma é conferida contra a ficha do conjunto.",
-            "de": "Die normale flache Scheibe für M10 misst 21 mm im Innenloch, 40 mm im Außendurchmesser und 3 mm in der Dicke nach DIN 125 Form A. Für die Schwerlastausführung gelten 21 mm Innenloch, 60 mm Außendurchmesser und 6 mm Dicke."
+            "de": "Die normale flache Scheibe für M10 misst 21 mm im Innenloch, 40 mm im Außendurchmesser und 3 mm in der Dicke nach DIN 125 Form A. Für die Schwerlastausführung gelten 21 mm Innenloch, 60 mm Außendurchmesser und 6 mm Dicke.",
+            "ja": "標準の M10 平座金は、内径 21 mm、外径 40 mm、厚み 3 mm の DIN 125 A 形です。重荷重用では内径 21 mm、外径 60 mm、厚み 6 mm の仕様があります。ボルト径だけでなく接合面の強度に合わせて標準と重荷重を選んでください。"
           }
         },
         {
@@ -290,7 +294,8 @@
             "es": "¿Cuándo uso una arandela plana extra grande?",
             "fr": "Quand employer une rondelle plate extra-large ?",
             "pt": "Quando usar uma arruela plana extra larga?",
-            "de": "Wann ist eine extra große Unterlegscheibe zu nutzen?"
+            "de": "Wann ist eine extra große Unterlegscheibe zu nutzen?",
+            "ja": "特大平座金はいつ使いますか？"
           },
           "a": {
             "en": "Where the base material is soft - timber, aluminium, thin sheet, insulation board - and the bolt would otherwise crush or pull through. Extra-large washers spread the load over a larger area, which is the whole point of the part.",
@@ -301,7 +306,8 @@
             "es": "Donde el material base es blando: madera, aluminio, chapa fina, tablero aislante, y el perno de otro modo aplastaría o atravesaría. Las arandelas extra grandes reparten la carga sobre un área mayor, que es el objetivo de la pieza. La superficie amplia protege el soporte blando bajo la cabeza.",
             "fr": "Lorsque le matériau de base est tendre : bois, aluminium, tôle fine, panneau isolant, et que le boulon risquerait d'écraser ou de tirer au travers. La rondelle extra-large répartit la charge sur une surface plus étendue, ce qui est précisément l'objet de la pièce. Elle protège le support mou de l'emprise de la tête ou de l'écrou.",
             "pt": "Onde o material base é macio — madeira, alumínio, chapa fina, painel de isolamento — e o parafuso, de outra forma, esmagaria ou passaria através. As arruelas extra largas espalham a carga em uma área maior, que é justamente a função da peça. O diâmetro segue a maciez da base, e o apoio é conferido antes do aperto.",
-            "de": "Wenn der Untergrund weich ist – Holz, Aluminium, dünnes Blech, Dämmplatte – und die Schraube sonst eindrücken oder durchziehen würde. Extra große Scheiben verteilen die Last auf einer größeren Fläche, genau das ist der Zweck des Teils."
+            "de": "Wenn der Untergrund weich ist – Holz, Aluminium, dünnes Blech, Dämmplatte – und die Schraube sonst eindrücken oder durchziehen würde. Extra große Scheiben verteilen die Last auf einer größeren Fläche, genau das ist der Zweck des Teils.",
+            "ja": "下地材が柔らかい場合、木材、アルミニウム、薄板、断熱板などで、ボルトがめり込んだり抜けたりする恐れがあるときに使います。特大座金は荷重を広い面積に分散させるのがこの部品の本来の目的です。柔らかい面への締結では座金の外径を十分に確認してください。"
           }
         }
       ],
