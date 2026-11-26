@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import { locales, type Locale } from '@/i18n'
 import { t } from '@/i18n'
 import { badgeCopy, certCardCopy, pick } from '@/lib/uiCopy'
+import { clampDescription } from '@/lib/seo'
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -15,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     en: 'About TradeGo Fasteners - China Manufacturer for Africa',
     zh: '关于TradeGo紧固件 - 中国对非制造商',
     es: 'Sobre TradeGo Fasteners - Fabricante de China para África',
-    fr: 'À Propos de TradeGo Fasteners - Fabricant Chinois pour l\'Afrique',
+    fr: 'À Propos TradeGo Fasteners: Fabricant Chinois pour l\'Afrique',
     ar: 'حول TradeGo Fasteners - شركة تصنيع صينية لأفريقيا',
     pt: 'Sobre TradeGo Fasteners - Fabricante da China para África',
     ru: 'О TradeGo Fasteners - Китайский Производитель для Африки',
@@ -40,7 +41,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
   return {
     title: titles[loc] || titles.en,
-    description: descriptions[loc] || descriptions.en,
+    // P2-6: 描述统一 clamp 兜底（句末/词边界），原文案不改写；事实词（制造商/中国/非洲/年限）保留。
+    description: clampDescription(descriptions[loc] || descriptions.en),
     alternates: {
       canonical: `${siteUrl}/${loc}/about/`,
       languages: Object.fromEntries([
