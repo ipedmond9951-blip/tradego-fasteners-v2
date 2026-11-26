@@ -123,6 +123,15 @@
 - **未处理项（留后续，本线未改对应模板）**：`/en/products/roofing-screws/` title 65；`/en/about/` description 193；`/en/documents/` title 65、description 225；`/en/products/` description 160 临界。原因：本条线只授权改 FAQ 模板，其余模板归对应责任线；盘点明细见报告。
 - **状态**：已改待发（批次 B）。commit `ee8cb749e1a892854fd50731137c80878fcd6d30`。
 
+##### 执行记录 · 第二轮补充（about / documents，2026-11-26）
+
+- **改动文件/字段**：
+  - `src/app/[locale]/about/page.tsx`：description 10 语种统一包 `clampDescription(...)`；fr title 64→60，其余 title 未动。en desc 193→112（句末截断，保留制造商/中国/非洲/20+ 年与 SABS 1195 / DIN / ISO 口径，未新增认证持有表述）。
+  - `src/app/[locale]/documents/page.tsx`：8 个超长 title 手改压缩（en/es/fr/pt/de/ru/hi/ar；zh/ja 原本达标），保留发票/箱单/提单/产地证/材质书/COC/SGS-BV 等单证类型词；description 10 语种统一包 `clampDescription(...)`；hi、ar 因 clamp 会词边界硬截，手改两句描述收束为完整句（hi 137、ar 125），保留 SGS/BV 与"证书按订单要求提供"口径。正文 cards/lead/note 未动。
+- **验证命令与结果**：`npx tsc --noEmit` 0 error；`python3 scripts/check-claims.py` 通过；curl 10 语种 `/about/`、`/documents/` 实测 title 全部 ≤60、description 全部 ≤155（改前→改后对照表见 `artifacts/report-p26.md` §7.1/§7.2）。about hreflang 11 条（含 x-default）完好。
+- **遗留观察（下一轮，本轮未授权不改码）**：`documents/page.tsx` 的 `alternates.languages` 仅 10 语种、缺 `x-default`，与 P2-2 修前同型；建议下一轮按 P2-2 写法补指向 `/en/documents/`。
+- **状态**：已改待发（批次 B）。commits `10c9a7dbccfc1536acac770650deb056072a0f70`（about）、`9e8f934175831f7a6fdcd1d296bfbfe2ff60802b`（documents）。
+
 ### P2-7 Organization / LocalBusiness 全站模板注入核对（对应 F7）
 
 - **要改什么**：核对 `src/app/[locale]/layout.tsx` 第 132–133 行布局级注入的 `<OrganizationSchema />` 与 `<LocalBusinessSchema />` 的输出范围。预期口径：LocalBusiness 仅在首页/联系页输出；文章页、产品列表/详情页保留 Organization 即可。若当前业务预期就是全站复用，保留现状并在本方案登记结论。
