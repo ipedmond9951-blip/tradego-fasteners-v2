@@ -68,7 +68,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     },
     description: clampDescription(descriptions[loc] || descriptions.en),
     // Meta keywords removed per modern SEO best practice
-    robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
+    // 2026-11-26: 放开大图预览与长摘要（Google 官方 robots 指令），googlebot 同步
+    robots: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
+    },
     openGraph: {
       type: 'website',
       locale: ({ en: 'en_US', zh: 'zh_CN', es: 'es_ES', fr: 'fr_FR', pt: 'pt_PT', ar: 'ar_AR', ru: 'ru_RU', ja: 'ja_JP', de: 'de_DE', hi: 'hi_IN' } as Record<string, string>)[loc] || 'en_US',
