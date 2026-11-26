@@ -260,7 +260,8 @@
             "ar": "ما الذي يجعل ربط مصفاة التكرير مختلفًا عن ربط البناء؟",
             "es": "¿En qué se diferencia el bulón de refinería del de construcción?",
             "pt": "O que torna a parafusaria de refinaria diferente da de construção?",
-            "fr": "Le boulonnage de raffinerie diffère-t-il du boulonnage courant ?"
+            "fr": "Le boulonnage de raffinerie diffère-t-il du boulonnage courant ?",
+            "de": "Worin unterscheidet sich das Raffineriebolzen vom Baubolzen?"
           },
           "a": {
             "en": "Pressure, temperature, cyclic loading, and in some units hydrogen or sour service. Material selection and bolting procedure are driven by design conditions rather than by price.",
@@ -270,7 +271,8 @@
             "ar": "الضغط ودرجة الحرارة والحمل الدوري، وفي بعض الوحدات خدمة الهيدروجين أو البيئة الكبريتية. ويعتمد اختيار المادة وإجراءات الربط على ظروف التصميم لا على السعر. وهذا يفرض وثائق تتبع ودرجات مقاومة تتفق مع وسط التشغيل، وليس مع معيار بناء عام.",
             "es": "Lo que cambia es la presión, la temperatura, la carga cíclica y, en algunas unidades, el servicio con hidrógeno o ácido sulfídrico. La elección del material y el procedimiento de bulonado se guían por las condiciones de diseño, no por el precio. El ambiente de la unidad manda sobre la pieza y el montaje.",
             "pt": "Pressão, temperatura, carga cíclica e, em algumas unidades, serviço com hidrogênio ou sulfeto. A seleção de material e o procedimento de parafusaria são orientados pelas condições de projeto, não pelo preço. A junta é dimensionada para o fluido e o regime de operação, e a escolha do fixador segue a ficha de projeto do equipamento.",
-            "fr": "Pression, température, chargement cyclique, et dans certaines unités service hydrogène ou sulfureux. Le choix matière et la procédure de boulonnage sont conduits par les conditions de conception plutôt que par le prix. Un joint de process ne se juge pas comme une fixation de chantier ordinaire. Chaque paramètre de service pèse sur le matériau retenu. La documentation suit aussi ces contraintes."
+            "fr": "Pression, température, chargement cyclique, et dans certaines unités service hydrogène ou sulfureux. Le choix matière et la procédure de boulonnage sont conduits par les conditions de conception plutôt que par le prix. Un joint de process ne se juge pas comme une fixation de chantier ordinaire. Chaque paramètre de service pèse sur le matériau retenu. La documentation suit aussi ces contraintes.",
+            "de": "Druck, Temperatur, wechselnde Belastung und in manchen Einheiten Wasserstoff- oder Schwefeleinsatz. Werkstoffwahl und Bolzenverfahren werden von den Konstruktionsbedingungen getrieben, nicht vom Preis. Ein Prozessanschluss wird nicht wie eine normale Baustellenbefestigung beurteilt. Jeder Serviceparameter wirkt auf den gewählten Werkstoff. Die Dokumentation folgt ebenfalls diesen Belastungen."
           }
         },
         {
@@ -282,7 +284,8 @@
             "ar": "ما المستندات المطلوبة عادة؟",
             "es": "¿Qué documentos se piden normalmente?",
             "pt": "Que documentos são normalmente exigidos?",
-            "fr": "Quels documents sont habituellement requis ?"
+            "fr": "Quels documents sont habituellement requis ?",
+            "de": "Welche Dokumente werden üblicherweise verlangt?"
           },
           "a": {
             "en": "Material certificates with heat numbers, mechanical test results, low-temperature impact testing where specified, non-destructive test reports, and marking that lets the certificate be tied to the delivered parts.",
@@ -292,7 +295,8 @@
             "ar": "شهادات مواد بأرقام السباكة، ونتائج الاختبار الميكانيكي، واختبار الصدم عند درجات الحرارة المنخفضة حيث يُشترط، وتقارير الفحص غير الإتلافي، وعلامة تمكن ربط الشهادة بالقطع المسلمة. ويجب أن تتطابق هذه المستندات مع الدفعة الفعلية في الموقع لقبول الفحص.",
             "es": "Certificados de material con número de colada, resultados de ensayo mecánico, ensayo de impacto a baja temperatura donde se especifique, informes de ensayo no destructivo y marcación que permita ligar el certificado con las piezas entregadas. Cada documento rastrea el lote hasta su colada. La trazabilidad es exigida por la inspección de la obra.",
             "pt": "Certificados de material com número de lingote, resultados de ensaio mecânico, ensaio de impacto em baixa temperatura quando especificado, relatórios de ensaio não destrutivo, e marcação que permita vincular o certificado às peças entregues. Cada documento deve rastrear o lote, e a marcação da cabeça bate com a fatura e o certificado da remessa.",
-            "fr": "Des certificats matière avec numéros de coulée, les résultats d'essais mécaniques, l'essai de choc à basse température quand il est spécifié, les rapports d'essai non destructifs, et un marquage qui relie le certificat aux pièces livrées. Chaque boulon doit rester traçable jusqu'à son lot d'origine. Les papiers sont vérifiés avant mise en service. Un certificat sans numéro de coulée ne prouve pas la matière livrée."
+            "fr": "Des certificats matière avec numéros de coulée, les résultats d'essais mécaniques, l'essai de choc à basse température quand il est spécifié, les rapports d'essai non destructifs, et un marquage qui relie le certificat aux pièces livrées. Chaque boulon doit rester traçable jusqu'à son lot d'origine. Les papiers sont vérifiés avant mise en service. Un certificat sans numéro de coulée ne prouve pas la matière livrée.",
+            "de": "Werkstoffzeugnisse mit Schmelznummern, mechanische Prüfergebnisse, Tieftemperaturstoßprüfung wo spezifiziert, Berichte zerstörungsfreier Prüfung, und eine Kennzeichnung, die das Zeugnis mit den gelieferten Teilen verbindet. Jeder Bolzen muss bis zu seinem Ursprungslos zurückverfolgbar sein. Die Papiere werden vor Inbetriebnahme geprüft. Ein Zeugnis ohne Schmelznummer beweist nicht den gelieferten Werkstoff."
           }
         },
         {
@@ -304,7 +308,8 @@
             "ar": "لماذا يهم اختيار مادة التشحيم؟",
             "es": "¿Por qué importa la elección del lubricante?",
             "pt": "Por que a escolha do lubrificante importa?",
-            "fr": "Pourquoi le choix du lubrifiant compte-t-il ?"
+            "fr": "Pourquoi le choix du lubrifiant compte-t-il ?",
+            "de": "Warum ist die Wahl des Schmierstoffs wichtig?"
           },
           "a": {
             "en": "For the same preload, different lubricants produce different effective torque. The tightening procedure must name the lubricant so the specified torque is repeatable across crews.",
@@ -314,7 +319,8 @@
             "ar": "عند الشد المسبق نفسه، تنتج مواد التشحيم المختلفة عزم ربط فعلي مختلف. ويجب أن يسمي إجراء الربط مادة التشحيم حتى يتكرر العزم المحدد عبر الفرق المختلفة في الموقع. وغياب هذا التحديد يترك هامش شد غير موثوق في الوحدة تحت الحمل الدوري.",
             "es": "Para el mismo pretensado, distintos lubricantes dan un par efectivo diferente. El procedimiento de apriete debe nombrar el lubricante para que el par especificado sea repetible entre cuadrillas. Sin esa indicación, el mismo par puede dejar una tensión real distinta. El lubricante forma parte del procedimiento de bulonado.",
             "pt": "Para a mesma pré-carga, lubrificantes diferentes produzem torque efetivo diferente. O procedimento de aperto deve nomear o lubrificante, para que o torque especificado seja repetível entre equipes. O atrito da rosca muda com o revestimento e a lubrificação, e o torque é calculado para a condição real da junta, não para uma superfície seca.",
-            "fr": "Pour une même précharge, des lubrifiants différents produisent un couple effectif différent. La procédure de serrage doit nommer le lubrifiant, afin que le couple spécifié soit reproductible d'équipe à équipe. Le frottement sous la tête et sur le filet change selon le produit utilisé. Un graissage non documenté rend le serrage difficile à vérifier. L'huile ou le pâte doit être précisée avec le couple."
+            "fr": "Pour une même précharge, des lubrifiants différents produisent un couple effectif différent. La procédure de serrage doit nommer le lubrifiant, afin que le couple spécifié soit reproductible d'équipe à équipe. Le frottement sous la tête et sur le filet change selon le produit utilisé. Un graissage non documenté rend le serrage difficile à vérifier. L'huile ou le pâte doit être précisée avec le couple.",
+            "de": "Bei gleicher Vorspannung erzeugen verschiedene Schmierstoffe ein unterschiedliches effektives Drehmoment. Das Anziehverfahren muss den Schmierstoff nennen, damit das angegebene Drehmoment zwischen den Mannschaften reproduzierbar bleibt. Die Reibung unter Kopf und Gewinde ändert sich mit dem verwendeten Mittel. Eine nicht dokumentierte Schmierung macht das Anziehen schwer prüfbar. Das Öl oder die Paste ist mit dem Drehmoment anzugeben."
           }
         },
         {
@@ -326,7 +332,8 @@
             "ar": "كيف تحمى هياكل المصفاة الساحلية؟",
             "es": "¿Cómo proteger las estructuras de refinería costera?",
             "pt": "Como proteger estruturas de refinaria costeira?",
-            "fr": "Comment protéger les structures d'une raffinerie côtière ?"
+            "fr": "Comment protéger les structures d'une raffinerie côtière ?",
+            "de": "Wie sind Küstenraffineriestrukturen zu schützen?"
           },
           "a": {
             "en": "Choose coatings by exposure: hot-dip galvanizing or zinc-rich systems for structural bolting, stainless or composite where chloride levels are high, and isolation between dissimilar metals.",
@@ -336,7 +343,8 @@
             "ar": "اختر الطلاء حسب التعرض: الجلفنة بالغمس الساخن أو الأنظمة الغنية بالزنك للربط الإنشائي، والفولاذ المقاوم للصدأ أو المركب حيث تركيز الكلوريدات مرتفع، والعزل بين المعادن المختلفة. وهذا الفصل يمنع التآكل الجلفاني الذي يسرع تلف الواجهة في الهواء البحري الرطب.",
             "es": "Elija el recubrimiento según la exposición: galvanizado en caliente o sistemas ricos en zinc para el bulonado estructural, inoxidable o compuesto donde el nivel de cloruros sea alto, y aislamiento entre metales distintos. El aire costero acelera la corrosión, así que la protección se elige por ambiente. El contacto de metales diferentes debe quedar separado.",
             "pt": "Escolhem-se revestimentos pela exposição: galvanização a quente ou sistemas ricos em zinco para parafusaria estrutural, inoxidável ou composto onde os níveis de cloreto são altos, e isolamento entre metais diferentes. A dissimilaridade de contato é tratada com arruela isolante, e o revestimento é conferido na inspeção de recebimento da unidade.",
-            "fr": "Choisissez le revêtement selon l'exposition : galvanisation à chaud ou systèmes riches en zinc pour le boulonnage structurel, inox ou composite là où les taux de chlorure sont élevés, et une isolation entre métaux dissemblables. L'air salé accélère la corrosion sur les assemblages soudés ou boulonnés. Les métaux différents en contact se dégradent plus vite. Une inspection de revêtement complète le montage."
+            "fr": "Choisissez le revêtement selon l'exposition : galvanisation à chaud ou systèmes riches en zinc pour le boulonnage structurel, inox ou composite là où les taux de chlorure sont élevés, et une isolation entre métaux dissemblables. L'air salé accélère la corrosion sur les assemblages soudés ou boulonnés. Les métaux différents en contact se dégradent plus vite. Une inspection de revêtement complète le montage.",
+            "de": "Wählen Sie die Beschichtung nach Einwirkung: Feuerverzinkung oder zinkreiche Systeme für das Strukturbolzen, Edelstahl oder Komposit wo die Chloridwerte hoch liegen, und Isolation zwischen ungleichartigen Metallen. Die Salzluft beschleunigt die Korrosion an geschweißten oder gebolzten Verbindungen. Verschiedene Metalle im Kontakt korrodieren schneller. Eine Beschichtungsprüfung ergänzt den Einbau."
           }
         }
       ]
