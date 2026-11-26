@@ -222,7 +222,8 @@
             "ar": "ما درجة البراغي المطلوبة لوصلات برج توربين الرياح؟",
             "es": "¿Qué grado de perno se requiere en uniones de torre eólica?",
             "fr": "Quelle classe de boulon pour les liaisons de tour d'éolienne ?",
-            "pt": "Que classe de parafuso é exigida nas conexões de torre de aerogerador?"
+            "pt": "Que classe de parafuso é exigida nas conexões de torre de aerogerador?",
+            "de": "Welche Schraubenklasse für Windrad-Türme?"
           },
           "a": {
             "en": "Utility-scale wind turbine towers typically require Grade 10.9 HDG hex bolts M36-M48 for main flange connections, specified by the tower manufacturer. SABS, IEC, or local structural codes may apply.",
@@ -232,7 +233,8 @@
             "ar": "تتطلب أبراج توربين الرياح على نطاق المرافق عادة براغي سداسية HDG درجة 10.9 بمقاس M36–M48 لوصلات الفلنجة الرئيسية، ويحددها مصنع البرج. وقد تنطبق معايير SABS أو IEC أو الأكواد الإنشائية المحلية، وتُصنع المثبتات وفق هذه المعايير.",
             "es": "Las torres eólicas de escala utilitaria requieren típicamente pernos hexagonales HDG grado 10.9 de M36 a M48 para las uniones de brida principales, especificados por el fabricante de la torre. Pueden aplicarse normas IEC o códigos estructurales locales. El grado lo fija el diseño del fabricante de la turbina.",
             "fr": "Les tours d'éolienne de grande échelle exigent typiquement des boulons hex HDG classe 10.9 du M36 au M48 pour les liaisons de bride principales, spécifiés par le fabricant de tour. Des référentiels SABS, IEC ou codes structuraux locaux peuvent s'appliquer. La classe suit la bride et le constructeur.",
-            "pt": "Torres de aerogerador de porte de serviço geralmente exigem parafusos sextavados classe 10.9 HDG M36 a M48 nas conexões de flange principal, especificados pelo fabricante da torre. Normas IEC ou códigos estruturais locais podem aplicar conforme o projeto. A classe é definida pelo OEM da turbina, e o certificado do lote acompanha a conexão."
+            "pt": "Torres de aerogerador de porte de serviço geralmente exigem parafusos sextavados classe 10.9 HDG M36 a M48 nas conexões de flange principal, especificados pelo fabricante da torre. Normas IEC ou códigos estruturais locais podem aplicar conforme o projeto. A classe é definida pelo OEM da turbina, e o certificado do lote acompanha a conexão.",
+            "de": "Für die Hauptflanschverbindungen großer Windräder werden üblicherweise Sechskantschrauben der Klasse 10.9 verwendet, die feuerverzinkt sind und in den Größen M36 bis M48 vorliegen; der Turmhersteller gibt die genaue Ausführung vor. Es können die SABS-, IEC- oder örtlichen Bauvorschriften gelten."
           }
         },
         {
@@ -244,7 +246,8 @@
             "ar": "لماذا تستخدم غسالات بيلفيل مع براغي الآلات؟",
             "es": "¿Por qué usar arandelas Belleville con pernos de maquinaria?",
             "fr": "Pourquoi employer des rondelles Belleville avec les boulons ?",
-            "pt": "Por que usar arruelas Belleville com parafusos de máquina?"
+            "pt": "Por que usar arruelas Belleville com parafusos de máquina?",
+            "de": "Warum Federscheiben (Belleville) mit Maschinenschrauben nutzen?"
           },
           "a": {
             "en": "Belleville spring washers provide controlled preload and maintain clamp force under vibration and thermal cycling better than standard flat washers, reducing loosening risk.",
@@ -254,7 +257,8 @@
             "ar": "توفر غسالات بيلفيل الزنبركية شدًا مسبقًا مضبوطًا وتحافظ على قوة التثبيت تحت الاهتزاز والدورة الحرارية أفضل من الغسالات المسطحة العادية، مما يقلل خطر الارتخاء. وهذا مهم في الوحدات التي تتعرض لاهتزاز مستمر وتغير في درجات الحرارة أثناء التشغيل.",
             "es": "Las arandelas de resorte Belleville dan un pretensado controlado y mantienen la fuerza de apriete bajo vibración y ciclo térmico mejor que las arandelas planas estándar, reduciendo el riesgo de aflojamiento. La forma elástica compensa la relajación de la unión en servicio.",
             "fr": "Les rondelles à ressort Belleville fournissent un précharge maîtrisé et maintiennent la force de bridage sous vibration et cyclage thermique mieux que les rondelles plates standard, réduisant le risque de desserrement. La rondelle conique compense les relâchements d'étanchéité dans les assemblages vibrants.",
-            "pt": "As arruelas de mola Belleville fornecem pré-carregamento controlado e mantêm a força de aperto sob vibração e ciclos térmicos melhor que as arruelas planas padrão, reduzindo o risco de afrouxamento. A arruela segue o regime de vibração da ligação, e a compatibilidade com o parafuso é conferida no conjunto."
+            "pt": "As arruelas de mola Belleville fornecem pré-carregamento controlado e mantêm a força de aperto sob vibração e ciclos térmicos melhor que as arruelas planas padrão, reduzindo o risco de afrouxamento. A arruela segue o regime de vibração da ligação, e a compatibilidade com o parafuso é conferida no conjunto.",
+            "de": "Belleville-Federscheiben liefern eine kontrollierte Vorspannung und halten die Klemmkraft unter Vibration und Temperaturwechsel besser als normale flache Scheiben, und senken so das Loslockerungsrisiko."
           }
         },
         {
@@ -266,7 +270,8 @@
             "ar": "ما درجة البراغي لوصلات برج توربين الرياح؟",
             "es": "¿Qué grado de perno para uniones de torre eólica?",
             "fr": "Quelle classe de boulon pour les liaisons de tour d'éolienne ?",
-            "pt": "Que classe de parafuso para conexões de torre de aerogerador?"
+            "pt": "Que classe de parafuso para conexões de torre de aerogerador?",
+            "de": "Welche Klasse für Windrad-Turmverbindungen?"
           },
           "a": {
             "en": "Class 10.9 is the common starting point for tower and flange connections, with the exact grade and preload set by the turbine OEM specification. Substituting a lower grade is never acceptable on a certified tower.",
@@ -276,7 +281,8 @@
             "ar": "الدرجة 10.9 هي نقطة البداية الشائعة لوصلات البرج والفلنجة، وتحدد الدرجة الدقيقة والشد المسبق وفق مواصفات الشركة المصنعة للتوربين. ولا يجوز أبدًا استبدال درجة أدنى في برج معتمد.",
             "es": "La clase 10.9 es el punto de partida común para uniones de torre y brida, y el grado y pretensado exactos los fija la especificación del OEM de la turbina. Sustituir una clase menor nunca es aceptable en una torre certificada. La clase no puede bajarse por conveniencia de suministro.",
             "fr": "La classe 10.9 est le point de départ courant pour les liaisons de tour et de bride, la classe exacte et le précharge étant fixés par la spécification de l'équipementier turbine. Substituer une classe inférieure n'est jamais acceptable sur une tour certifiée. La montée de classe est imposée par la certification.",
-            "pt": "A classe 10.9 é o ponto de partida comum para ligações de torre e flange, com a classe exata e o pré-carregamento definidos pela especificação do OEM da turbina. Substituir por uma classe menor nunca é aceitável em uma torre certificada. A classe é conferida na cabeça, e a ficha do lote vincula cada parafuso ao certificado."
+            "pt": "A classe 10.9 é o ponto de partida comum para ligações de torre e flange, com a classe exata e o pré-carregamento definidos pela especificação do OEM da turbina. Substituir por uma classe menor nunca é aceitável em uma torre certificada. A classe é conferida na cabeça, e a ficha do lote vincula cada parafuso ao certificado.",
+            "de": "Klasse 10.9 ist der übliche Ausgangspunkt für Turm- und Flanschverbindungen; die genaue Klasse und Vorspannung legt die Vorgabe des Turbineherstellers fest. Das Ersetzen durch eine niedrigere Klasse ist an einem zertifizierten Turm niemals zulässig."
           }
         }
       ],
