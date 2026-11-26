@@ -174,6 +174,17 @@ const nextConfig: NextConfig = {
         }
         return rules;
       }),
+      // 2026-11-26 OBS-2/F9: 无前缀行业文章路径固定 308 到 /en（x-default 语言）。
+      // 顺序刻意排在上面所有别名规则（content/articles/*.json 的 redirectTo）与 /products/:slug/、
+      // /articles/:slug* 等旧 slug 规则之后——Next redirects 首命中即停，宽泛通配放前面会吞掉别名。
+      // 取舍：proxy 的 307 是按 IP 国家选语种（临时语义正确），但爬虫侧重复产生 2,104 条自动重定向；
+      // 本规则只覆盖 /industry/:slug*/，把无前缀行业旧链永久归并到 en 以换取索引合并。代价是非英语国家
+      // 用户访问无前缀旧链会落到 en 而非本国语种；其它无前缀路径仍走 proxy 的 geo 逻辑，不在此规则内。
+      {
+        source: '/industry/:slug*/',
+        destination: '/en/industry/:slug*/',
+        permanent: true,
+      },
     ];
   },
   // 静态资源长缓存：优化衍生图与字体内容不变，可 immutable
