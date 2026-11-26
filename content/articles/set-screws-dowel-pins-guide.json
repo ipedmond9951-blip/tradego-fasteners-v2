@@ -242,7 +242,8 @@
             "ar": "لماذا يفك برغي التثبيت على العمود باستمرار؟",
             "es": "¿Qué pasa si un tornillo de fijación se afloja en el eje?",
             "pt": "O que fazer se um parafuso de pressão afrouxa no eixo?",
-            "fr": "Une vis sans tête continue de desserrer sur l'arbre ?"
+            "fr": "Une vis sans tête continue de desserrer sur l'arbre ?",
+            "de": "Was tun, wenn eine Stellschraube auf der Welle lockert?"
           },
           "a": {
             "en": "Set screw loosening on shafts is caused by: insufficient tightening torque — ensure you are using the correct socket size and applying adequate torque; a 3mm set screw requires only 0.5-1 N·m, while an M8 requires 5-10 N·m; vibration — specify cup point or knurled cup for vibration environments; consider adding a second set screw at 90 degrees to the first; soft shaft material — cup point set screws indent soft shafts over time; use a shaft with a drilled positioning hole (half-dog) or specify a harder shaft material; inadequate thread engagement — the set screw must thread fully into the component (minimum 1.5× diameter engagement); if the component is too thin, the set screw bottoms out before providing adequate clamping force.",
@@ -252,7 +253,8 @@
             "ar": "يعود ارتخاء برغي التثبيت إلى: عزم ربط غير كافٍ، فتأكد من مقبس المقاس الصحيح وعزم مناسب؛ فبرغي 3 ملم يحتاج 0.5–1 N·m، وM8 يحتاج 5–10 N·m. والاهتزاز عامل آخر، فاطلب رأسًا كوبيًا أو كوبًا مسننًا، وفكر في برغي ثانٍ بزاوية 90 درجة للأول. ومادة العمود اللينة تسبب ارتداد الرأس، فاستخدم عمودًا بثقب محفور أو مادة أصلب. وأخيرًا تعشيق الخيط غير الكافي؛ يجب دخول البرغي بالكامل بتعشيق لا يقل عن 1.5 ضعف القطر، وإلا لامس القاع قبل توفير قوة تثبيت.",
             "es": "La aflojadura se debe a: apriete insuficiente, use el dado y par correctos; un tornillo de 3 mm lleva 0.5 a 1 N·m y un M8 de 5 a 10 N·m. Vibración: use punta cónica ranurada y un segundo tornillo a 90 grados. Eje blando: la punta lo marca con el tiempo; use taladro de posición o un eje más duro. Rosca corta: el tornillo debe enroscar al menos 1.5 diámetros; si el componente es fino, toca fondo antes de apriete.",
             "pt": "O afrouxamento vem de torque insuficiente: use a bitola correta e torque adequado — um 3 mm pede 0,5 a 1 N·m, e um M8 pede 5 a 10 N·m. Vibração pede ponta de copo ou copo recortado, e pode-se pôr um segundo parafuso a 90 graus. Eixo mole faz o copo marcar o eixo: use eixo com furo de posicionamento ou material mais duro. O engate deve ser completo, no mínimo 1,5 vezes o diâmetro; peça fina faz o parafuso bater no fundo antes de apertar.",
-            "fr": "Le desserrement d'une vis sans tête vient de plusieurs causes. Couple insuffisant : utiliser la douille — une vis de 3 mm demande 0,5 à 1 N·m, une M8 demande 5 à 10 N·m. Vibration : prévoir une cup point ou cup moleté en milieu vibrant, et une seconde vis à 90°. Arbre tendre : la cup point marque l'arbre ; préférer un arbre à trou de positionnement ou un acier plus dur. Engagement insuffisant : la vis doit entrer pleinement, au moins 1,5D."
+            "fr": "Le desserrement d'une vis sans tête vient de plusieurs causes. Couple insuffisant : utiliser la douille — une vis de 3 mm demande 0,5 à 1 N·m, une M8 demande 5 à 10 N·m. Vibration : prévoir une cup point ou cup moleté en milieu vibrant, et une seconde vis à 90°. Arbre tendre : la cup point marque l'arbre ; préférer un arbre à trou de positionnement ou un acier plus dur. Engagement insuffisant : la vis doit entrer pleinement, au moins 1,5D.",
+            "de": "Ursache ist zuerst zu geringes Drehmoment: ausreichendes Anziehen sicherstellen; eine 3-mm-Stellschraube braucht nur 0,5–1 N·m, eine M8 5–10 N·m. Bei Vibrationen sind Kegel- oder gerändelte Kegelspitze vorzusehen. Weiche Wellen werden von der Spitze eingedrückt; eine Lagebohrung oder härtere Welle hilft. Das Gewinde muss mindestens das 1,5-fache des Durchmessers eingreifen, sonst schlägt die Schraube vor Erreichen der Klemmkraft auf."
           }
         },
         {
@@ -264,7 +266,8 @@
             "ar": "متى أستخدم الدبوس المدبب مقابل دبوس التثبيت المتوازي؟",
             "es": "¿Cuándo usar pasador cónico frente a pasador cilíndrico?",
             "pt": "Quando usar pino cônico versus pino de alinhamento paralelo?",
-            "fr": "Goupille conique ou goupille cylindrique ?"
+            "fr": "Goupille conique ou goupille cylindrique ?",
+            "de": "Wann Kegelstift statt Zylinderstift verwenden?"
           },
           "a": {
             "en": "Use taper pins for: permanent, high-accuracy positioning where the joint will not be disassembled; applications requiring very high positional accuracy (machine tool fixtures, precision instruments); joints where the pin must also transmit shear load. Use parallel dowel pins for: applications where components may need to be disassembled and reassembled; general precision alignment in machinery; where ease of assembly/disassembly is important. Taper pins require matching taper holes (reamed with a taper reamer) which are more expensive to produce than straight holes for parallel dowels.",
@@ -274,7 +277,8 @@
             "ar": "استخدم الدبابيس المدببة للتموضع الدائم عالي الدقة حيث لا تُفصل الوصلة، وللتطبيقات الدقيقة كمعادات الآلات، والوصلات التي ينقل فيها الدبوس حمل القص. أما الدبابيس المتوازية فتناسب ما قد يُفك ويعاد تركيبه، والمحاذاة الدقيقة العامة، وحيث سهولة الفك والتركيب مهمة. وتتطلب المدببة ثقوبًا مدببة تُشطب بمشطب مدبب، وهي أغلى من الثقوب المستقيمة للمتوازية.",
             "es": "Cónicos para posicionamiento permanente de alta precisión sin desmontaje, aplicaciones de mucha precisión y cuando el pasador transmite cortante. Paralelos para componentes que se desmontan y vuelven a montar, alineación general de maquinaria y facilidad de montaje. Los cónicos piden taladros cónicos escariados, más caros que los taladros rectos de los paralelos.",
             "pt": "Use pinos cônicos em posicionamento permanente de alta precisão, onde a junta não será desmontada, em ferramentaria e instrumentos de precisão, e quando o pino também transmite cisalhamento. Use paralelos onde os componentes podem ser desmontados e remontados, no alinhamento geral de máquinas e onde a montagem importa. Os cônicos exigem furos escariados com alargador cônico, mais caros que os furos retos dos paralelos.",
-            "fr": "La goupille conique sert le positionnement permanent de haute précision, pour l'assemblage non démonté, les outils de machine et instruments, et les joints qui transmettent une charge de cisaillement. La goupille cylindrique dowel sert les composants à démonter et remonter, l'alignement en machinerie, et les cas où la facilité de montage compte. Les coniques exigent un trou conique alésé, plus coûteux que les trous droits des dowels."
+            "fr": "La goupille conique sert le positionnement permanent de haute précision, pour l'assemblage non démonté, les outils de machine et instruments, et les joints qui transmettent une charge de cisaillement. La goupille cylindrique dowel sert les composants à démonter et remonter, l'alignement en machinerie, et les cas où la facilité de montage compte. Les coniques exigent un trou conique alésé, plus coûteux que les trous droits des dowels.",
+            "de": "Kegelstifte dienen der bleibenden, hochgenauen Positionierung ohne späteren Zerlegebedarf, für Spannvorrichtungen und Präzisionsinstrumente sowie wenn der Stift auch Schublast überträgt. Zylinderstifte eignen sich für wiederholte Demontage, allgemeine Präzisionsausrichtung im Maschinenbau und wo Montagefreundlichkeit zählt. Kegelstifte brauchen passende Kegelbohrungen, die mit einer Kegelreibahle hergestellt werden."
           }
         },
         {
@@ -286,7 +290,8 @@
             "ar": "ما الفرق بين دبوس الزنبرك ودبوس اللف؟",
             "es": "¿Qué diferencia hay entre pasador elástico y pasador enrollado?",
             "pt": "Qual a diferença entre pino elástico e pino enrolado?",
-            "fr": "Ressort élastique vs goupille à ressort enroulé ?"
+            "fr": "Ressort élastique vs goupille à ressort enroulé ?",
+            "de": "Was unterscheidet Federstift und Rollenstift?"
           },
           "a": {
             "en": "Spring pins (tension pins) and roll pins (coiled spring pins) are both split longitudinally to allow compression during insertion, but they differ in manufacture and performance: Spring pins are a single piece of spring steel with a longitudinal slit; roll pins are a coiled strip of steel — essentially a spring wound into a pin shape. Roll pins are significantly stronger than spring pins (approximately 3× the shear strength) and resist jamming better. Roll pins are the preferred choice for most industrial applications; spring pins are used where very precise control of expansion force is needed.",
@@ -296,7 +301,8 @@
             "ar": "كلاهما مشقوق طوليًا للسماح بالضغط أثناء الإدخال، لكنهما يختلفان في التصنيع والأداء. دبوس الزنبرك قطعة واحدة من فولاذ زنبركي بشق طولي، أما دبوس اللف فشريط فولاذي ملفوف، أي زنبرك ملفوف على شكل دبوس. ويفوق دبوس اللف دبوس الزنبرك في القوة بشكل ملحوظ، بنحو ثلاثة أضعاف مقاومة القص تقريبًا، ويقاوم الانحشار بدرجة أفضل. ودبوس اللف هو الخيار المفضل لمعظم التطبيقات الصناعية، بينما يستخدم دبوس الزنبرك حيث يلزم ضبط قوة التمدد بدقة عالية.",
             "es": "El elástico es una pieza de acero de muelle con ranura longitudinal; el enrollado es una banda de acero en espiral enrollada en forma de pasador. Ambos comprimen al insertarse, pero el enrollado es más fuerte, cerca de 3 veces la resistencia al cortante, y resiste mejor el atascamiento. El enrollado es preferido en la mayoría de usos industriales; el elástico se usa donde se precisa control muy preciso de la fuerza de expansión.",
             "pt": "Elásticos e enrolados são fendidos longitudinalmente para comprimir na inserção, mas diferem em fabricação e desempenho. O elástico é peça única de aço-mola com fenda; o enrolado é tira espiralada, uma mola em forma de pino. O enrolado é bem mais forte, cerca de 3 vezes o cisalhamento, e resiste melhor ao travamento. É a escolha preferida na maioria das aplicações; o elástico serve onde se precisa controle preciso da força de expansão.",
-            "fr": "Les goupilles ressort (tension) et roll (ressort enroulé) sont fendues pour se comprimer à l'insertion, mais diffèrent de fabrication. La ressort est une pièce unique d'acier fendue ; la roll est un feuillard enroulé, presque un ressort en goupille. La roll est nettement plus résistante (trois fois au cisaillement) et résiste mieux au coincement. Elle est préférable en industrie ; la ressort sert où l'on maîtrise la force d'expansion."
+            "fr": "Les goupilles ressort (tension) et roll (ressort enroulé) sont fendues pour se comprimer à l'insertion, mais diffèrent de fabrication. La ressort est une pièce unique d'acier fendue ; la roll est un feuillard enroulé, presque un ressort en goupille. La roll est nettement plus résistante (trois fois au cisaillement) et résiste mieux au coincement. Elle est préférable en industrie ; la ressort sert où l'on maîtrise la force d'expansion.",
+            "de": "Beide sind längs geschlitzt, um beim Einpressen zu komprimieren, unterscheiden sich aber in Herstellung und Leistung: Der Federstift ist ein einzelner Federstahlstreifen mit Längsschlitz; der Rollenstift ein gewickelter Stahlstreifen. Rollenstifte sind deutlich fester und klemmen weniger fest. Für die meisten Industrieanwendungen sind Rollenstifte bevorzugt; Federstifte dienen dort, wo die Spreizkraft sehr genau gesteuert werden muss."
           }
         }
       ],
