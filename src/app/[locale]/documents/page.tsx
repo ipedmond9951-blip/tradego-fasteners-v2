@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { locales, type Locale } from '@/i18n'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
+import { clampDescription } from '@/lib/seo'
 
 const SITE = 'https://www.tradego-fasteners.com'
 
@@ -22,7 +23,7 @@ type Copy = {
 
 const COPY: Record<string, Copy> = {
   en: {
-    title: 'Export Documents & Inspection - Mill Certs, COC, SGS/BV | TradeGo',
+    title: 'Export Docs & Inspection: Mill Certs, COC, SGS/BV | TradeGo',
     desc: 'What ships with every TradeGo fastener order: invoice, packing list, bill of lading, certificate of origin and mill test certificates. SGS/BV inspection, ISO 9001 and SABS approval are arranged against your order requirement.',
     h1: 'Documents & inspection',
     lead: 'Every fastener shipment leaves with a document set that clears customs and passes receiving inspection. Third-party inspection, and the approvals a tender asks for, are arranged per order; certificates are supplied against your order requirement.',
@@ -154,7 +155,7 @@ const COPY: Record<string, Copy> = {
     updated: '最后更新：2026 年 11 月 25 日',
   },
   es: {
-    title: 'Documentos de exportación e inspección - certificados de colada, COC, SGS/BV | TradeGo',
+    title: 'Documentos de exportación: colada, COC, SGS/BV | TradeGo',
     desc: 'Qué acompaña cada pedido de sujeciones TradeGo: factura, lista de bultos, conocimiento de embarque, certificado de origen y certificados de colada. Inspección SGS/BV, ISO 9001 y homologación SABS se tramitan según su pedido.',
     h1: 'Documentos e inspección',
     lead: 'Cada envío sale con el conjunto documental que despacha en aduana y pasa la inspección de recepción. La inspección de terceros y las homologaciones que exige un pliego se gestionan por pedido: no anunciamos certificaciones que no tenemos.',
@@ -173,7 +174,7 @@ const COPY: Record<string, Copy> = {
     updated: 'Última actualización: 25 de noviembre de 2026',
   },
   fr: {
-    title: 'Documents export et inspection - certificats matière, COC, SGS/BV | TradeGo',
+    title: 'Documents export: matière, COC, SGS/BV | TradeGo',
     desc: 'Ce qui accompagne chaque commande TradeGo : facture, liste de colisage, connaissement, certificat d origine et certificats matière. Inspection SGS/BV, ISO 9001 et homologation SABS sont engagées selon votre commande.',
     h1: 'Documents et inspection',
     lead: 'Chaque expédition part avec le dossier qui passe la douane et la réception. Inspection tierce et homologations exigées par un appel d offres sont engagées par commande ; les certificats sont fournis selon les exigences de votre commande.',
@@ -192,7 +193,7 @@ const COPY: Record<string, Copy> = {
     updated: 'Dernière mise à jour : 25 novembre 2026',
   },
   pt: {
-    title: 'Documentos de exportação e inspeção - certificados de aciaria, COC, SGS/BV | TradeGo',
+    title: 'Documentos exportação: aciaria, COC, SGS/BV | TradeGo',
     desc: 'O que acompanha cada pedido TradeGo: fatura, lista de volumes, conhecimento de embarque, certificado de origem e certificados de aciaria. Inspeção SGS/BV, ISO 9001 e homologação SABS são tratados conforme o seu pedido.',
     h1: 'Documentos e inspeção',
     lead: 'Cada embarque sai com o conjunto documental que desembaraça na alfândega e passa na recepção. Inspeção de terceiros e homologações exigidas em licitação são tratadas por pedido: não anunciamos certificações que não temos.',
@@ -211,7 +212,7 @@ const COPY: Record<string, Copy> = {
     updated: 'Última atualização: 25 de novembro de 2026',
   },
   de: {
-    title: 'Exportdokumente & Prüfung - Werkszeugnisse, COC, SGS/BV | TradeGo',
+    title: 'Exportdokumente: Werkszeugnis, COC, SGS/BV | TradeGo',
     desc: 'Was mit jeder TradeGo-Bestellung versandt wird: Rechnung, Packliste, Konossement, Ursprungszeugnis und Werkszeugnisse. SGS/BV-Prüfung, ISO 9001 und SABS-Zulassung werden auftragsbezogen beantragt.',
     h1: 'Dokumente & Prüfung',
     lead: 'Jede Sendung geht mit einem Dokumentensatz raus, der den Zoll und die Wareneingangsprüfung besteht. Fremdprüfung und Zulassungen aus Ausschreibungen werden je Auftrag beantragt – wir nennen keine Zertifikate, die wir nicht besitzen.',
@@ -230,7 +231,7 @@ const COPY: Record<string, Copy> = {
     updated: 'Zuletzt aktualisiert: 25. November 2026',
   },
   ru: {
-    title: 'Экспортные документы и инспекция - сертификаты качества, COC, SGS/BV | TradeGo',
+    title: 'Экспортные документы: сертификаты, COC, SGS/BV | TradeGo',
     desc: 'Что идёт с каждым заказом TradeGo: инвойс, упаковочный лист, коносамент, сертификат происхождения, сертификаты качества металла. Инспекция SGS/BV, ISO 9001 и одобрение SABS оформляются под конкретный заказ.',
     h1: 'Документы и инспекция',
     lead: 'Каждая партия уходит с комплектом, который проходит таможню и входной контроль. Независимая инспекция и одобрения, требуемые тендером, оформляются под заказ; сертификаты предоставляются под требования вашего заказа.',
@@ -268,8 +269,8 @@ const COPY: Record<string, Copy> = {
     updated: '最終更新：2026年11月25日',
   },
   ar: {
-    title: 'مستندات التصدير والفحص - شهادات المادة، COC، SGS/BV | TradeGo',
-    desc: 'ما يرافق كل طلب من TradeGo: الفاتورة وقائمة الحزم وبوليصة الشحن وشهادة المنشأ وشهادات المادة. فحص SGS/BV وشهادة ISO 9001 واعتماد SABS تُرتَّب حسب متطلبات طلبكم.',
+    title: 'مستندات التصدير: شهادات المادة، COC، SGS/BV | TradeGo',
+    desc: 'ما يرافق كل طلب من TradeGo: الفاتورة وقائمة الحزم وبوليصة الشحن وشهادة المنشأ وشهادات المادة. فحص SGS/BV والشهادات حسب الطلب.',
     h1: 'المستندات والفحص',
     lead: 'كل شحنة تخرج بمجموعة مستندات تجتاز الجمارك وفحص الاستلام. الفحص الخارجي والاعتمادات التي يطلبها المناقصة تُرتَّب لكل طلب؛ وتُقدَّم الشهادات وفق متطلبات طلبكم.',
     cards: [
@@ -287,8 +288,8 @@ const COPY: Record<string, Copy> = {
     updated: 'آخر تحديث: 25 نوفمبر 2026',
   },
   hi: {
-    title: 'निर्यात दस्तावेज़ और निरीक्षण - मिल सर्टिफिकेट, COC, SGS/BV | TradeGo',
-    desc: 'हर TradeGo ऑर्डर के साथ: इनवॉइस, पैकिंग लिस्ट, बिल ऑफ लेडिंग, सर्टिफिकेट ऑफ ओरिजिन और मिल सर्टिफिकेट। SGS/BV निरीक्षण, ISO 9001 और SABS प्रमाणन ऑर्डर के अनुसार आवेदन से।',
+    title: 'निर्यात दस्तावेज़: मिल सर्टिफिकेट, COC, SGS/BV | TradeGo',
+    desc: 'हर TradeGo ऑर्डर के साथ: इनवॉइस, पैकिंग लिस्ट, बिल ऑफ लेडिंग, सर्टिफिकेट ऑफ ओरिजिन और मिल सर्टिफिकेट। SGS/BV जाँच व प्रमाणन ऑर्डर अनुसार।',
     h1: 'दस्तावेज़ और निरीक्षण',
     lead: 'हर शिपमेंट के साथ वह दस्तावेज़ सेट जाता है जो कस्टम और रिसीविंग इंस्पेक्शन पास करे। तीसरे पक्ष का निरीक्षण और टेंडर में मांगे गए प्रमाणन ऑर्डर के अनुसार कराए जाते हैं — जो प्रमाणन हमारे पास नहीं, वह नहीं लिखते।',
     cards: [
@@ -340,7 +341,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const c = COPY[loc] || COPY.en
   return {
     title: c.title,
-    description: c.desc,
+    // P2-6: 描述统一 clamp 兜底（句末/词边界），原文案不改写；单证类型词保留。
+    description: clampDescription(c.desc),
     alternates: {
       canonical: `${SITE}/${loc}/documents/`,
       languages: Object.fromEntries(locales.map((l) => [l, `${SITE}/${l}/documents/`])),
