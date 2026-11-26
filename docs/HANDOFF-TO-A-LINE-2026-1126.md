@@ -184,3 +184,50 @@
 
 - 扫描面 279 篇 × 10 语种，41209 单元；FAIL 组 B 90 组 / 1291 篇次、A 39 组 / 222 篇次，全部 action=registered；B 线可改语种 rewrite 队列 **0 组**。
 - A 区 39 组仍归 A 线处置（见 §5、§6.1）；B 区 registered 含 en/ar 非本轮语种、样板导航、FAQ 同源段。
+
+## 10. R-T9l 收尾：技术层取证 + A 区内容登记 + 107 篇合规红点 B 区分因
+
+> 本轮 B 线只读代码与只登记，**未改任何 `src/**` 与 A 区 39 篇**。收尾 HEAD `6a905935`（起点 `8bbedfa5`，本地 383 笔未 push）。
+
+### 10.1 内容层技术项（五项，只读取证）
+
+| 项 | 结论 | 依据 | 归属与动作 |
+|---|---|---|---|
+| ① `x-default` 与 10 语种 hreflang | **已合规**：`alternates.languages` = 10 语种 + `x-default → /en/industry/<slug>/`，canonical 自指本语种 | `src/app/[locale]/industry/[slug]/page.tsx` generateMetadata L71–76 | 无需改；**不要为它立案返工** |
+| ② `title` 长度 | B 区 22 条 >70 已由 B 线压到 ≤70；残留 1 条在 A 区（`high-strength-bolts-8-8-10-9-12-9-grade-guide` ru 75 字符） | `docs/gsc-title-length-2026-1126.csv`（2,640 行，中位 en52/zh21/es58/fr57/pt54/de56/ru55/ja22/hi50/ar50） | 模板侧"再按 55 字符截断 + `...`"策略属 A 线观察，B 线不动模板 |
+| ③ sitemap `lastmod` | **文章页已合规**：用 `getFreshness(slug)?.modified \|\| article.updated \|\| article.date`（真实更新日），**不覆盖 H6 的 1,702 条** | `src/app/sitemap.xml/route.ts` L69–71 | 修 H6 时**只改**静态/产品/市场/标准/分类页（L40–114 仍 `lastmod: now`），别顺手把文章页刷成构建时间 |
+| ④ `noindex` / `nosnippet` | `isThinArticle`(<300 词) 命中 **0 篇**；`isThinForLocale`(本地正文 share <20%) 使 **246 个"篇×语种"页** noindex 且不进 sitemap（B 230 / A 16；zh 62 / ja 41 / ar 36 / hi 35 / es 16 / ru 16 / de 15 / pt 13 / fr 12；涉 87 篇）；`nosnippet/noarchive/data-nosnippet` 全仓 **0 处**；`layout.tsx` L75–76 已有 `max-image-preview:large` + `max-snippet:-1` | `src/lib/articles.ts` L60–107、`src/app/[locale]/layout.tsx` L75–76；清单 `$T9L/s5-locale-noindex.csv` | **设计性而非误加**。要动只有两条路：扩写正文（内容工程）或收缩索引范围（策略）；**不建议改阈值**。扩写排期 B 线按语种接 |
+| ⑤ `og:url` 尾斜杠 | `og:url` 无尾斜杠 vs `canonical` 有尾斜杠，不一致 | 同 ① 文件 L71 vs L73 | A 线统一（模板一处） |
+
+**附带预期（不是缺陷）**：本轮 B 线批量改动会让大量文章的 `modified` 集中在 2026-11-25/26，上线后 GSC 若显示"全站同日更新"属预期；`getFreshness` 读的是真实更新日，符合 R16。
+
+### 10.2 A 区内容登记（39 篇，B 线未碰）
+
+| 类 | 规模 | 明细来源 |
+|---|---|---|
+| S2 跨篇整段重复 | **A 区 39 组 / 222 篇次**（含 14 篇共用 `a.en` "Five prevention measures…"） | `docs/gsc-dup-paragraph-2026-1126.csv`（`zone=A` 行） |
+| S3 语言一致性 | `latin_sentence` **10 行**、`foreign_script` **1 行**（`harare-fastener-distributor-supplier-guide` ru 夹汉字）、`latin_title` **0** | `docs/gsc-lang-consistency-2026-1126.csv`、`-ruja-` 同名 CSV（`zone=A`） |
+| S3 ar 三组 | `q.ar` 嵌英文 0、`a.ar`>450 **122 条**、`a.ar`<120 0（只登记，B 线不改） | `lang_consistency.py ar-groups` 输出 |
+| S4 存量债 | 超长 >450 **539 条**（起点 445，经他线改动后上升）、短答 <120 **60 条**、英文残留 **9 条** | `docs/gsc-longanswer-2026-1126.csv`、`docs/gsc-shortanswer-enresidue-2026-1126.csv`（`zone=A`） |
+| `a.en` 占位句 | **22 条**（"See the detailed analysis above…"类源文占位，B/A 区均有） | `gsc-shortanswer-enresidue-2026-1126.csv`（`metric=en_placeholder`） |
+
+### 10.3 107 篇合规红点里属 B 区的部分（只算数，不替 A 线清）
+
+- 清单 `docs/compliance-redspots-2026-1126.md` 表内 distinct **109 篇**；文档小结写"剩余 107"，**与表内差 2，请 A 线对账**。
+- 按 `docs/seo-geo-main-owned-40-2026-1125.csv`（39 篇）分因：**B 区 96 篇 / A 区 13 篇**。
+- 分类命中（按行）：
+
+| 类 | B 区 | A 区 |
+|---|---|---|
+| A1 认证持证 | **64 篇 / 132 行** | 6 篇 / 16 行 |
+| B1 报价金额 | **44 篇 / 44 行** | 9 篇 / 9 行 |
+| C1 我方地名 | **2 篇 / 2 行** | 0 |
+
+- 建议处置顺序：认证（按四铁律改写为「按 SABS 1195/DIN/ISO 生产」或「证书按订单要求提供」）→ 地名 → **金额最后**（须等 G 类源文金额线统一口径，避免"半改"再次制造 439 条新纠缠）。
+- 本轮 B 线**未动**这 96 篇的合规表述，只做了 S1/S2/S3/S4 的内容层修复；处置决定待用户拍板后按批次清。
+
+### 10.4 B 线本轮未碰但已确认的边界
+
+- A 区 39 篇：`git log 8bbedfa5..HEAD --name-only` 与 A 名单交集 **0 篇**。
+- `docs/SEO-GEO-*`、`next.config.ts`、`scripts/geo_audit.py`、`src/**`：本线 **0 改动**（`docs/SEO-GEO-STRATEGY.md` 一笔改动来自 seo 线自己的提交 `1d5e3e1b`）。
+- 他线在途脏文件（11 个 `M`）本线未碰；写锁收尾为空。
