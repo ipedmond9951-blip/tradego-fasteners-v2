@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title,
     description,
-    keywords: [name, `${name} ${suffix}`, name],
+    // 2026-11-26: 不再输出 meta keywords（Google 忽略，属噪音）
     alternates: {
       canonical,
       languages: Object.fromEntries([
