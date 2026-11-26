@@ -244,7 +244,8 @@
             "ar": "ما نطاق المقاسات القياسي، وكم يبلغ طول البرغي؟",
             "es": "¿Qué rango de tamaño es estándar y qué largo debe el perno?",
             "fr": "Quelle plage de diamètres standard, et quelle longueur de boulon ?",
-            "pt": "Qual a faixa padrão de tamanho, e quão longo o parafuso?"
+            "pt": "Qual a faixa padrão de tamanho, e quão longo o parafuso?",
+            "de": "Welcher Größenbereich ist üblich, wie lang soll der Bolzen sein?"
           },
           "a": {
             "en": "Expansion bolts commonly run M6 to M24. Length is set by fixture thickness plus effective embedment plus the nut and washer stack, so specify the fixture thickness when ordering rather than the bolt length alone.",
@@ -254,7 +255,8 @@
             "ar": "تتراوح براغي التثبيت عادة من M6 إلى M24. ويحدد الطول من سماكة القطعة المثبتة وعمق التثبيت الفعلي وطبقة الصامولة والغسالة معاً؛ لذلك اذكر سماكة القطعة عند الطلب بدل الاكتفاء بطول البرغي. ومراجعة الطول مع رسم التركيب تمنع نقص التعشيق أو زيادة البروز على السطح.",
             "es": "Los pernos de expansión van comúnmente de M6 a M24. La longitud la fija el grosor del accesorio más el empotramiento efectivo más el conjunto de tuerca y arandela, así que especifique el grosor del accesorio al pedir en vez de solo la longitud del perno. Las medidas de la pieza guían la longitud del bulón.",
             "fr": "Les boulons d'expansion courent habituellement du M6 au M24. La longueur se décompose en épaisseur de pièce + encastrement effectif + empilement écrou et rondelle. Il faut donc préciser l'épaisseur de la pièce à la commande plutôt que la seule longueur de boulon.",
-            "pt": "Os parafusos de expansão comumente vão de M6 a M24. O comprimento é definido pela espessura do fixativo, mais a embebição efetiva, mais a pilha de porca e arruela, por isso especifica-se a espessura do fixativo ao pedir, e não apenas o comprimento do parafuso. O conjunto é dimensionado pela junta, e o furo no concreto segue a âncora escolhida."
+            "pt": "Os parafusos de expansão comumente vão de M6 a M24. O comprimento é definido pela espessura do fixativo, mais a embebição efetiva, mais a pilha de porca e arruela, por isso especifica-se a espessura do fixativo ao pedir, e não apenas o comprimento do parafuso. O conjunto é dimensionado pela junta, e o furo no concreto segue a âncora escolhida.",
+            "de": "Dehnschrauben laufen üblicherweise von M6 bis M24. Die Länge richtet sich nach Befestigungsdicke plus wirksamer Einbettung zuzüglich Mutter- und Unterlegscheibenstapel; bei Bestellung ist daher die Befestigungsdicke anzugeben, nicht allein die Bolzenlänge."
           }
         },
         {
@@ -266,7 +268,8 @@
             "ar": "ما أكثر أسباب فشل براغي التثبيت؟",
             "es": "¿Qué causa la mayoría de fallos de perno de expansión?",
             "fr": "Quelle est la cause principale des ruptures de boulon d'expansion ?",
-            "pt": "O que causa a maioria das falhas de parafuso de expansão?"
+            "pt": "O que causa a maioria das falhas de parafuso de expansão?",
+            "de": "Was verursacht die meisten Dehnschrauben-Ausfälle?"
           },
           "a": {
             "en": "An oversized hole, embedment shorter than the rated value, a hole that was not cleaned of dust, and over-torqueing that spins the sleeve. Drill the specified diameter, blow out the hole and tighten to the stated torque.",
@@ -276,7 +279,8 @@
             "ar": "الثقب أكبر من القطر المطلوب، أو التعشيق أقصر من القيمة المقدرة، أو ثقب لم يُنظف من الغبار، أو الشد الزائد فيدور الغلاف داخل الثقب. لذلك احفر القطر المحدد، ونظف الثقب بالنفخ، وشدّ بالعزم المذكور في المواصفات. والغبار داخل الثقب يمنع تمدد الغلاف ويقلل حمل التثبيت حتى مع برغي سليم.",
             "es": "Un hueco sobredimensionado, empotramiento más corto que el valor nominal, un hueco sin limpiar el polvo, y un apriete excesivo que hace girar el manguito. Taladre el diámetro especificado, sople el hueco y apriete al par indicado. La limpieza y el par justo evitan que el anclaje suelte en servicio.",
             "fr": "Un trou surdimensionné, un encastrement inférieur à la valeur nominale, un trou non nettoyé de la poussière, et un serrage excessif qui fait tourner la chemise. Percer au diamètre prescrit, souffler le trou et serrer au couple indiqué. Ces gestes simples éliminent la plupart des défauts de fixation.",
-            "pt": "Furo oversized, embebição menor que o valor nominal, furo não limpo da poeira, e aperto excessivo que gira a bucha. Perfura-se o diâmetro especificado, sopra-se o furo e aperta-se ao torque indicado. A limpeza e a profundidade são conferidas antes do engaste, e o torque não ultrapassa o valor da ficha para não danificar a expansão."
+            "pt": "Furo oversized, embebição menor que o valor nominal, furo não limpo da poeira, e aperto excessivo que gira a bucha. Perfura-se o diâmetro especificado, sopra-se o furo e aperta-se ao torque indicado. A limpeza e a profundidade são conferidas antes do engaste, e o torque não ultrapassa o valor da ficha para não danificar a expansão.",
+            "de": "Ein zu großes Loch, kürzere Einbettung als Nennwert, ein vom Staub nicht gereinigtes Loch sowie Überdrehmoment, das die Hülse durchdreht. Bohren auf den angegebenen Durchmesser, das Loch auspusten und mit dem genannten Drehmoment anziehen."
           }
         },
         {
@@ -288,7 +292,8 @@
             "ar": "أي تشطيب ينبغي اختياره؟",
             "es": "¿Qué acabado debo elegir?",
             "fr": "Quelle finition choisir ?",
-            "pt": "Acabamento qual devo escolher?"
+            "pt": "Acabamento qual devo escolher?",
+            "de": "Welche Oberfläche ist zu wählen?"
           },
           "a": {
             "en": "Yellow zinc for interior and dry service, hot-dip galvanising for outdoor structures, stainless A2 or A4 for coastal and wet areas. Mixing a zinc bolt into a stainless assembly creates a galvanic couple at the joint.",
@@ -298,7 +303,8 @@
             "ar": "زنك أصفر للداخلية والخدمة الجافة، وجلفنة بالغمس الساخن للهياكل الخارجية، وفولاذ مقاوم للصدأ A2 أو A4 للمناطق الساحلية والرطبة. وخلط برغي مجلفن في تجميع من الفولاذ المقاوم للصدأ يكوّن اقتراناً جلفانياً عند الوصلة، فيسرع التآكل في الماء. وحافظ على توافق التشطيبات في الوصلة الواحدة أو ضع عازلاً بين المعدنين.",
             "es": "Zinc amarillo para interior y servicio seco, galvanizado en caliente para estructuras exteriores, inoxidable A2 o A4 para zonas costeras y húmedas. Mezclar un perno cincado en un conjunto inoxidable crea una pareja galvánica en la unión. El acabado se elige según la exposición y los metales de la unión.",
             "fr": "Zinc jaune pour l'intérieur et le service sec, galvanisation à chaud pour les structures extérieures, inox A2 ou A4 pour les zones côtières et humides. Introduire un boulon zingué dans un assemblage inox crée un couple galvanique au joint. La finition doit suivre l'environnement et le matériau voisin.",
-            "pt": "Zinco amarelo para interior e serviço seco, galvanização a quente para estruturas externas, inoxidável A2 ou A4 para áreas costeiras e úmidas. Misturar um parafuso zincado em um conjunto inoxidável cria par galvânico na junta. O acabamento é escolhido pela exposição e casado com o restante dos fixadores da ligação."
+            "pt": "Zinco amarelo para interior e serviço seco, galvanização a quente para estruturas externas, inoxidável A2 ou A4 para áreas costeiras e úmidas. Misturar um parafuso zincado em um conjunto inoxidável cria par galvânico na junta. O acabamento é escolhido pela exposição e casado com o restante dos fixadores da ligação.",
+            "de": "Gelbzink für Innenräume und trockenen Betrieb, Feuerverzinkung für Außenkonstruktionen, Edelstahl A2 oder A4 für Küsten- und Nassbereiche. Eine Zinkschraube in einer Edelstahlbaugruppe erzeugt an der Fuge ein galvanisches Paar."
           }
         }
       ]
