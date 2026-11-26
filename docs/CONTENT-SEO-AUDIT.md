@@ -237,6 +237,7 @@ cd content/articles/ && grep -l -P '\p{Han}' *.json
 ## Quick Wins for SEO Impact
 
 1. **Add FAQ schema to article pages** — 16 articles already have FAQ sections, but the page needs to render them with proper FAQPage schema (some already do via article.sections[].faqItems rendering)
+   > 2026-11-26（R-T9l）口径更正：FAQ 富结果自 2026-05-07 起在 Google 搜索全站停用、官方文档已下线，官方不要求移除。**本条不再作为建议执行**：article 页现有 FAQPage 标记保留即可，不新增 schema，不以此为富结果/流量目标；FAQ 工作的价值定位改为「本地语种页面完整度 + AI 摘要取材」。
 2. **Hub-and-spoke internal link structure** — add 2-3 contextual links per article for top 20 articles
 3. **Add "Last updated" to article pages** — display both `date` and `updated` so Googlebot knows content is fresh
 4. **Zimbabwe page schema** — add local address, city-level areaServed, and Zimbabwe-specific pricing signals
