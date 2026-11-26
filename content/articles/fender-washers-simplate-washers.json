@@ -269,7 +269,8 @@
             "es": "¿Pongo arandela bajo la cabeza y bajo la tuerca?",
             "pt": "Uso arruela sob a cabeça e sob a porca?",
             "fr": "Faut-il une rondelle sous la tête et sous l'écrou ?",
-            "de": "Sollte unter Schraubenkopf und Mutter je eine Scheibe?"
+            "de": "Sollte unter Schraubenkopf und Mutter je eine Scheibe?",
+            "ja": "ボルト頭とナットの両方に座金を使うべきですか？"
           },
           "a": {
             "en": "Yes, for structural connections and any joint where the bearing surface may compress. Standard practice is: flat washer under the bolt head; flat washer under the nut (on the far side). This distributes the load on both sides of the joint. For thin material connections, use fender washers (larger OD) on both sides for maximum bearing area.",
@@ -280,7 +281,8 @@
             "es": "Sí, en uniones estructurales y en toda unión donde la superficie de apoyo pueda comprimirse. La práctica estándar es: arandela plana bajo la cabeza del perno y arandela plana bajo la tuerca, en el lado opuesto. Esto reparte la carga a ambos lados de la unión. En uniones de material fino, use arandelas anchas (mayor diámetro exterior) en ambos lados.",
             "pt": "Sim, em ligações estruturais e em qualquer junta onde a superfície de apoio possa comprimir. A prática padrão é arruela lisa sob a cabeça e arruela lisa sob a porca, no lado oposto. Isso distribui a carga nos dois lados da junta. Em ligações de material fino, usam-se arruelas grandes, maior diâmetro externo, dos dois lados para maximizar a área de apoio.",
             "fr": "Oui, pour les liaisons structurelles et tout joint où la surface d'appui peut se comprimer. La pratique standard : une rondelle plate sous la tête de boulon, et une rondelle plate sous l'écrou (côté opposé). Cela répartit la charge des deux côtés du joint. Pour les assemblages sur tôle fine, utilisez des rondelles fender (grand diamètre extérieur) des deux côtés pour une surface d'appui maximale.",
-            "de": "Ja, für Tragverbindungen und jede Verbindung, bei der die Auflagefläche zusammengedrückt werden kann. Üblich ist: eine flache Scheibe unter dem Kopf und eine flache Scheibe unter der Mutter auf der Gegenseite. So wird die Last auf beiden Seiten verteilt. Bei dünnen Werkstoffen nehmen Sie beidseitig Fenderscheiben mit größerem Außendurchmesser für maximale Auflagefläche."
+            "de": "Ja, für Tragverbindungen und jede Verbindung, bei der die Auflagefläche zusammengedrückt werden kann. Üblich ist: eine flache Scheibe unter dem Kopf und eine flache Scheibe unter der Mutter auf der Gegenseite. So wird die Last auf beiden Seiten verteilt. Bei dünnen Werkstoffen nehmen Sie beidseitig Fenderscheiben mit größerem Außendurchmesser für maximale Auflagefläche.",
+            "ja": "はい。構造接続や座面が圧縮される可能性のある継ぎ手では両側に使います。標準的な慣行は、ボルト頭の下に平座金、ナットの下（反対側）に平座金を入れることです。これで継ぎ手の両側に荷重を分散します。薄い材料の接続では、最大の座面積を得るため両側に外径の大きいフェンダー座金を使います。"
           }
         },
         {
@@ -293,7 +295,8 @@
             "es": "¿Cuándo usar arandelas endurecidas?",
             "pt": "Quando usar arruela endurecida?",
             "fr": "Quand utiliser des rondelles trempées ?",
-            "de": "Wann sind gehärtete Scheiben zu verwenden?"
+            "de": "Wann sind gehärtete Scheiben zu verwenden?",
+            "ja": "どんなときに焼入れ座金を使いますか？"
           },
           "a": {
             "en": "Use hardened washers (through-hardened to HRC 38-45) in high-strength structural connections (Grade 8.8, 10.9, 12.9 bolts). Standard (unhardened) washers can deform (embed) under the high contact pressure from high-strength bolts, reducing the effective clamp load. Hardened washers are also required when the bolt bearing surface is smaller than the washer ID — the hardened washer prevents the bolt from 'punching through' the washer under load.",
@@ -304,7 +307,8 @@
             "es": "Use arandelas endurecidas (temple total HRC 38-45) en uniones estructurales de alta resistencia (pernos 8.8, 10.9, 12.9). Las arandelas normales, sin endurecer, pueden deformarse o embeberse bajo la alta presión de contacto de pernos de alta resistencia, reduciendo el apriete útil. También hacen falta cuando la superficie de apoyo del perno es menor que el agujero de la arandela, para que el perno no traspase la arandela bajo carga.",
             "pt": "Usam-se arruelas endurecidas, têmpera total HRC 38-45, em ligações estruturais de alta resistência com parafusos 8.8, 10.9 e 12.9. As arruelas padrão, não endurecidas, podem deformar ou embutir sob a alta pressão de contato dos parafusos de alta resistência, reduzindo a carga de aperto efetiva. Também são exigidas quando a superfície de apoio é menor que o furo interno da arruela, para evitar rompimento sob carga.",
             "fr": "Utilisez des rondelles trempées (trempées à cœur HRC 38-45) dans les liaisons haute résistance (boulons 8.8, 10.9, 12.9). Les rondelles standard non trempées peuvent se déformer sous la forte pression de contact des boulons haute résistance, réduisant le serrage effectif. Les rondelles trempées sont aussi requises quand la surface d'appui est plus petite que l'alésage : elles empêchent le boulon de poinçonner sous charge.",
-            "de": "Gehärtete Scheiben, durchgehärtet auf HRC 38–45, gehören in hochfeste Tragverbindungen mit Bolzen der Güte 8.8, 10.9 oder 12.9. Normale, nicht gehärtete Scheiben können unter dem hohen Anpressdruck hochfester Bolzen verformen und die wirksame Spannkraft mindern. Gehärtete Scheiben sind auch nötig, wenn die Auflagefläche des Bolzens kleiner als der Scheibeninnendurchmesser ist, damit der Bolzen die Scheibe nicht durchschlägt."
+            "de": "Gehärtete Scheiben, durchgehärtet auf HRC 38–45, gehören in hochfeste Tragverbindungen mit Bolzen der Güte 8.8, 10.9 oder 12.9. Normale, nicht gehärtete Scheiben können unter dem hohen Anpressdruck hochfester Bolzen verformen und die wirksame Spannkraft mindern. Gehärtete Scheiben sind auch nötig, wenn die Auflagefläche des Bolzens kleiner als der Scheibeninnendurchmesser ist, damit der Bolzen die Scheibe nicht durchschlägt.",
+            "ja": "高強度構造接続（8.8、10.9、12.9ボルト）には全面焼入れした座金を使います。標準（非焼入れ）座金は高強度ボルトの高い面圧で変形して埋まり、有効なクランプ力を下げます。ボルトの座面が座金内径より小さい場合も、荷重でボルトが座金を打ち抜くのを防ぐため焼入れ座金が要ります。"
           }
         },
         {
@@ -317,7 +321,8 @@
             "es": "¿Son lo mismo arandela ancha y arandela de reparación?",
             "pt": "Arruela fender e arruela de reparo são a mesma coisa?",
             "fr": "Rondelles fender et rondelles de réparation sont-elles les mêmes ?",
-            "de": "Sind Fenderscheiben und Reparaturscheiben dasselbe?"
+            "de": "Sind Fenderscheiben und Reparaturscheiben dasselbe?",
+            "ja": "フェンダー座金と補修座金は同じものですか？"
           },
           "a": {
             "en": "Yes, fender washers and repair washers are the same product — washers with an oversized outer diameter relative to the inner hole. They are called 'fender washers' because they were originally used to repair automotive fenders (thin sheet metal). In construction, they are essential for any thin-sheet or soft-material connection to prevent pull-through of the fastener head or nut.",
@@ -328,7 +333,8 @@
             "es": "Sí, la arandela ancha y la de reparación son el mismo producto: arandelas con diámetro exterior sobredimensionado respecto al agujero interior. Se llaman así porque al principio se usaban para reparar guardabarros de automóvil, chapa fina. En construcción son imprescindibles en uniones de chapa fina o material blando, para evitar que la cabeza o la tuerca atraviesen la pieza.",
             "pt": "Sim, fender e repair washers são o mesmo produto: arruela com diâmetro externo sobredimensionado em relação ao furo interno. Chamam-se fender por terem sido usadas originalmente no reparo de para-lamas automotivos, chapa metálica fina. Na construção, são essenciais em ligações de chapa fina ou material macio, para evitar o arrancamento da cabeça ou da porca.",
             "fr": "Oui, les rondelles fender et les rondelles de réparation sont le même produit : des rondelles dont le diamètre extérieur est surdimensionné par rapport au trou intérieur. On les appelle fender parce qu'elles servaient à l'origine à réparer les ailes automobiles (tôle fine). En construction, elles sont essentielles pour toute liaison sur tôle fine ou matériau tendre, afin d'éviter le passage à travers de la tête ou de l'écrou.",
-            "de": "Ja, Fenderscheiben und Reparaturscheiben sind dasselbe Produkt: Scheiben mit gegenüber dem Innenloch übergrößem Außendurchmesser. Man nennt sie Fenderscheiben, weil sie ursprünglich zur Reparatur von Autokarosserien, dünnem Blech, dienten. Im Bau sind sie für jede Dünnblech- oder Weichstoffverbindung wichtig, um Durchreißen von Kopf oder Mutter zu verhindern."
+            "de": "Ja, Fenderscheiben und Reparaturscheiben sind dasselbe Produkt: Scheiben mit gegenüber dem Innenloch übergrößem Außendurchmesser. Man nennt sie Fenderscheiben, weil sie ursprünglich zur Reparatur von Autokarosserien, dünnem Blech, dienten. Im Bau sind sie für jede Dünnblech- oder Weichstoffverbindung wichtig, um Durchreißen von Kopf oder Mutter zu verhindern.",
+            "ja": "はい。フェンダー座金と補修座金は同じ製品で、内径に対し外径が大きい座金です。元々自動車のフェンダー（薄い板金）の補修に使われたことが呼び名の由来です。建設では薄板や柔らかい材料の接続で、頭部やナットの引き抜けを防ぐのに欠かせません。相手板の厚みを見て外径を選びます。相手板の厚みと荷重を見て、外径が十分な座金を選んでください。"
           }
         }
       ],
