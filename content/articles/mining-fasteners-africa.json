@@ -206,7 +206,7 @@
           },
           "a": {
             "en": "Conveyor structures take galvanized 8.8 structural bolts, skirt and chute liners take countersunk or hex bolts in stainless or heavy galvanized, and pulley lagging uses high-strength fasteners with controlled torque. Vibration is continuous, so specify lock nuts or wedge-lock washers rather than relying on spring washers.",
-            "zh": "输送机结构用镀锌 8.8 结构螺栓；溜槽与裙板衬板用沉头或六角螺栓，材质取不锈钢或厚镀锌；滚筒包胶用高强紧固件并控制扭矩。振动是持续的，应指定锁紧螺母或楔形防松垫圈，别指望弹垫。",
+            "zh": "输送机结构用镀锌 8.8 结构螺栓；溜槽与裙板衬板用沉头或六角螺栓，材质取不锈钢或厚镀锌；滚筒包胶用高强紧固件并控制扭矩。振动是持续的，应指定锁紧螺母或楔形防松垫圈，别指望弹垫。输送线按部位区分选型：机架连接用结构螺栓，衬板固定用沉头或内六角件便于表面平整，包胶滚筒处用高强件并按扭矩紧固；连续振动工况配锁紧螺母或楔形防松件，弹簧垫圈只作辅助，清单里注明标准、等级、镀层和扭矩要求，备件与主体同规格便于更换追溯。",
             "hi": "कन्वेयर फ्रेम के लिए गैल्वनाइज़्ड ग्रेड 8.8 संरचनात्मक बोल्ट लगते हैं; स्कर्ट और चूट लाइनर के लिए स्टेनलेस या भारी गैल्वनाइज़्ड काउंटरसंक या हेक्स बोल्ट चलते हैं, पुली लैगिंग में नियंत्रित टॉर्क वाले उच्च-शक्ति फास्टनर इस्तेमाल होते हैं। कंपन लगातार बनी रहती है, इसलिए स्प्रिंग वाशर पर भरोसा न करके लॉक नट या wedge-lock वाशर चुनें।",
             "ru": "Несущие конструкции конвейеров берут оцинкованные болты класса прочности 8.8; обкладки кожухов и желобов — потайные или шестигранные болты из нержавейки либо тяжело оцинкованные; на барабанной футеровке применяют высокопрочный крепёж с контролируемым моментом. Вибрация непрерывная, поэтому задают самостопорящиеся гайки или клиновые стопорные шайбы, а не полагаются на пружинные.",
             "ar": "تأخذ هياكل الناقلات براغي إنشائية مجلفنة من الدرجة 8.8، وتأخذ بطانات التنورات والقواديس براغي غاطسة أو سداسية من الفولاذ المقاوم للصدأ أو الجلفنة الثقيلة، ويستخدم لتبطين البكرات مثبتات عالية القوة بعزم مضبوط. وبسبب الاهتزاز المستمر، اطلب صواميل قفل أو وصلات قفل إسفينية بدل الاعتماد على نوابض الغسالات وحدها.",
@@ -232,7 +232,7 @@
           },
           "a": {
             "en": "Humidity and seepage mean electro-zinc fails fast; use hot-dip galvanized, zinc-flake or stainless. Underground codes may also require specific fire ratings for non-metallic components. Keep traceability per stope or shaft section so failed lots can be isolated.",
-            "zh": "井下潮湿渗水，电镀锌很快失效，应改用热浸镀锌、锌铝涂层或不锈钢。井下规程对非金属件还可能有阻燃等级要求。按采场或井段保留追溯记录，出问题能隔离批次。",
+            "zh": "井下潮湿渗水，电镀锌很快失效，应改用热浸镀锌、锌铝涂层或不锈钢。井下规程对非金属件还可能有阻燃等级要求。按采场或井段保留追溯记录，出问题能隔离批次。井下选型先评估渗水、高湿和腐蚀介质：普通潮湿件用热浸镀锌或锌铝涂层，强腐蚀部位用不锈钢；非金属嵌件或涂层按矿方规程核对阻燃要求。批次按采场、井段分开标识和记录，材质证明与批次对应，便于故障时追溯隔离；下井件清单注明防护等级和适用规程，避免普通地面件直接用于井下。",
             "hi": "भूमिगत जगह में नमी और रिसाव रहने से इलेक्ट्रो-जिंक तेज़ी से निकल जाता है; ऐसे में हॉट-डिप गैल्वनाइज़्ड, जिंक-फ्लेक या स्टेनलेस विकल्प लें। भूमिगत नियमों के तहत गैर-धातु भागों के लिए खास अग्नि रेटिंग भी अनिवार्य हो सकती है। हर स्टॉप या शाफ्ट खंड की ट्रेसेबिलिटी अलग रखें, ताकि खराब खेप को अलग करके बाकी काम जारी रखा जा सके।",
             "ru": "Влага и фильтрация быстро выводят из строя электроцинкование, поэтому применяют горячее цинкование, цинк-флаксовое покрытие или нержавеющую сталь. Подземные нормы могут также предъявлять огнестойкость к неметаллическим элементам. По каждому забою или участку ствола ведут прослеживаемость, чтобы бракованную партию можно было изолировать.",
             "ar": "الرطوبة وتسرب المياه تجعل الطلاء بالزنك الكهربائي يفشل سريعًا، فاستخدم الجلفنة بالغمس الساخن أو رقائق الزنك أو الفولاذ المقاوم للصدأ. وقد تشترط رموز المناجم الجوفية أيضًا درجات إطفاء حريق محددة للمكونات غير المعدنية. واحتفظ بإمكانية التتبع حسب منطقة التوقف أو بئر العمود، بحيث يمكن عزل التشغيلة الفاشلة.",
@@ -258,7 +258,7 @@
           },
           "a": {
             "en": "Name the standard, grade, coating thickness, thread tolerance, torque value and the test certificates required - usually EN 10204 3.1, with 3.2 where third-party witness is mandated. Mining houses audit these documents, so an incomplete spec becomes a rejected delivery.",
-            "zh": "要写清标准、等级、镀层厚度、螺纹公差、扭矩值以及所需证书——通常是 EN 10204 3.1，要求第三方见证时用 3.2。矿业公司会审这些文件，规范不完整就会导致到货被拒。",
+            "zh": "要写清标准、等级、镀层厚度、螺纹公差、扭矩值以及所需证书——通常是 EN 10204 3.1，要求第三方见证时用 3.2。矿业公司会审这些文件，规范不完整就会导致到货被拒。技术规范逐项写明执行标准、性能等级、镀层规格、螺纹公差、装配扭矩和文件要求：一般批次附 3.1 材质证明，第三方见证或合同要求时提供 3.2 文件；文件与批次、炉号对应可追溯，矿方审核时按规范核对，缺标准号、镀层或证书要求的清单应补齐后再下单，避免到货因资料不全被拒收。",
             "hi": "स्पेसिफिकेशन में मानक, ग्रेड, कोटिंग मोटाई, धागा सहनशीलता, टॉर्क मान और चाहिए जाने वाले परीक्षण प्रमाण-पत्र स्पष्ट लिखें; आम तौर पर EN 10204 3.1 प्रमाण-पत्र होता है, जहां तीसरे पक्ष की उपस्थिति अनिवार्य हो वहां 3.2 लगता है। खनन कंपनियां इन दस्तावेज़ों का ऑडिट करती हैं, अधूरा स्पेसिफिकेशन माल खेप खारिज करवा देता है।",
             "ru": "В спецификации указывают стандарт, класс прочности, толщину покрытия, допуск резьбы, момент затяжки и требуемые протоколы испытаний — обычно EN 10204 3.1, а 3.2 там, где требуется свидетель третьей стороны. Горные компании проверяют эти документы при аудите, и неполная спецификация ведёт к отклонению поставки.",
             "ar": "سمِّ المعيار ودرجة القوة وسمك الطلاء وتفاوت الخيط وقيمة العزم والشهادات المطلوبة، وعادة شهادة EN 10204 3.1، مع شهادة 3.2 حيث يُشترط شاهد طرف ثالث. فشركات التعدين تدقق هذه الوثائق، والمواصفات الناقصة تؤدي إلى رفض التسليم.",
@@ -284,7 +284,7 @@
           },
           "a": {
             "en": "Underground mining in Africa requires minimum Grade 8.8 structural bolts for general applications, Grade 10.9 for critical connections and dynamic loads, and Grade 12.9 for most demanding applications. All bolts should have corrosion protection due to humid underground conditions.",
-            "zh": "非洲地下采矿一般应用需要8.8级以上结构螺栓，关键连接和动态载荷需要10.9级，最苛刻应用需要12.9级。所有螺栓应具有防腐保护。",
+            "zh": "非洲地下采矿一般应用需要 8.8 级以上结构螺栓，关键连接和动态载荷需要 10.9 级，最苛刻应用需要 12.9 级。所有螺栓应具有防腐保护。等级按载荷类型选：静态普通结构用 8.8 级以上，受冲击、振动或关键承载节点升 10.9，承受最高强度要求的部位才用 12.9；井下高湿环境配合热浸镀锌、锌铝涂层或不锈钢防护，等级与镀层分别在清单注明。高强度件注意氢脆控制和装配扭矩，材质证明随批次留存，选型不能只看单价而降低结构等级。",
             "es": "En la minería subterránea africana se usan pernos estructurales de Grado 8.8 como mínimo para usos generales. Las conexiones críticas y cargas dinámicas requieren el Grado 10.9, y los servicios más severos el Grado 12.9. Por el ambiente húmedo del interior de la mina, todos los pernos llevan una protección anticorrosiva adaptada a la humedad y al polvo, para conservar su capacidad de agarre durante la campaña de trabajo.",
             "fr": "En mines souterraines africaines, les boulons structuraux de classe 8.8 constituent le minimum pour les usages courants. Les assemblages critiques et charges dynamiques demandent la classe 10.9, et les services les plus sévères la classe 12.9. Compte tenu de l'humidité souterraine, chaque boulon reçoit une protection anticorrosion adaptée à l'humidité et aux poussières, pour conserver sa capacité de serrage pendant l'exploitation.",
             "pt": "Na mineração subterrânea africana, os parafusos estruturais de Grau 8.8 são o mínimo para aplicações gerais. As conexões críticas e as cargas dinâmicas exigem o Grau 10.9, enquanto os serviços mais severos são resolvidos com o Grau 12.9. Dado o ambiente úmido no subsolo, todos os parafusos devem ter proteção contra corrosão adaptada ao contato com a umidade e a poeira, para manter a capacidade de fixação ao longo da campanha de trabalho.",
