@@ -207,7 +207,8 @@
             "ru": "На что смотреть при сравнении стандартов DIN, ISO, ASTM?",
             "ar": "ما أبرز الاعتبارات عند مقارنة معايير DIN وISO وASTM للمثبتات؟",
             "es": "¿Qué aspectos comparan las normas DIN, ISO y ASTM?",
-            "fr": "Quels points clés pour comparer les normes DIN, ISO, ASTM ?"
+            "fr": "Quels points clés pour comparer les normes DIN, ISO, ASTM ?",
+            "pt": "Quais pontos comparar entre normas DIN, ISO e ASTM?"
           },
           "a": {
             "en": "See the detailed analysis above for specifications, applications, and best practices for fastener standards din iso astm comparison.",
@@ -216,7 +217,8 @@
             "ru": "Разбор сравнения DIN, ISO, ASTM и ANSI построен вокруг четырёх сторон: системы стандартов крепёжных изделий, маркировка на головке, метрическая резьба против UNC/UNF и распространённые эквиваленты между сериями. При выборе позиции сверяют тип изделия, стандарт, класс прочности и покрытие, а решение по конкретному соединению фиксируют в спецификации, чтобы поставщик и монтаж работали по одной системе.",
             "ar": "تُقارن المعايير من ثلاث زوايا: الأبعاد والخيط، والخواص الميكانيكية ودرجة القوة، والعلامة على الرأس. حدد نظامًا واحدًا لكل وصلة في المشروع، وطابق البند مع ما ورد في الرسم والمواصفة. راجع مرادفات الأرقام بين الأنظمة، واطلب شهادة المطحنة مطابقة للدرجة المطلوبة، قبل خلط مصادر التوريد في موقع واحد.",
             "es": "La comparación distingue tres tipos de norma: la dimensional define la forma (ancho de cabeza, longitud de rosca, bisel, punta), la de material o propiedad fija clase y resistencia, y la de rosca define diámetro y paso. Las marcas de cabeza acompañan al producto y se leen primero en inspección. Rosca métrica y pulgada no son convertibles por dimensión, y las tablas de equivalencia sirven de índice, no de especificación.",
-            "fr": "Les normes de fixation remplissent trois rôles distincts : la cote dimensionnelle (forme, tête, filet, bout), l'exigence de matière et propriété mécanique, et le marquage de tête. Les confondre est la principale source d'erreur en achat inter-normes. Une liaison doit nommer un seul système de référence, et l'équivalence entre référentiels se vérifie sur dimensions, filet et propriétés, pas sur le seul nom du produit."
+            "fr": "Les normes de fixation remplissent trois rôles distincts : la cote dimensionnelle (forme, tête, filet, bout), l'exigence de matière et propriété mécanique, et le marquage de tête. Les confondre est la principale source d'erreur en achat inter-normes. Une liaison doit nommer un seul système de référence, et l'équivalence entre référentiels se vérifie sur dimensions, filet et propriétés, pas sur le seul nom du produit.",
+            "pt": "Este guia reúne especificações, aplicações e boas práticas para a comparação entre normas DIN, ISO e ASTM, conforme a análise acima. A comparação envolve dimensão, rosca, propriedades mecânicas e marcação de cabeça, não apenas o nome da norma. Cada conexão deve apontar um sistema de referência, e o certificado do lote deve declarar a norma e a classe efetivamente atendidas pelo fixador entregue."
           }
         },
         {
@@ -227,7 +229,8 @@
             "ru": "Чем практически различаются DIN, ISO, ASTM и ANSI?",
             "ar": "كيف تختلف معايير DIN وISO وASTM وANSI عمليًا؟",
             "es": "¿En la práctica, en qué difieren DIN, ISO, ASTM y ANSI?",
-            "fr": "DIN, ISO, ASTM et ANSI en pratique, quelle différence ?"
+            "fr": "DIN, ISO, ASTM et ANSI en pratique, quelle différence ?",
+            "pt": "Como DIN, ISO, ASTM e ANSI diferem na prática?"
           },
           "a": {
             "en": "DIN has largely been superseded by EN ISO for metric fasteners, so DIN 933 and ISO 4017 describe the same hex bolt. ASTM covers US industrial products (A325, A490, F436) while ANSI/ASME sets inch dimensional standards. A project should name one system per connection.",
@@ -236,7 +239,8 @@
             "ru": "Для метрического крепежа DIN во многом заменён на EN ISO: например, DIN 933 и ISO 4017 описывают один и тот же болт с шестигранной головкой. ASTM охватывает промышленную продукцию США — A325, A490, F436, а ANSI/ASME задаёт дюймовые размерные нормы. В каждом соединении проект должен называть одну систему; смешивать метрику и дюйм на одном узле не стоит.",
             "ar": "حلت EN ISO محل DIN إلى حد كبير للمثبتات المترية، لذا فإن DIN 933 وISO 4017 يصفان نفس برغي سداسي. أما ASTM فيغطي المنتجات الصناعية الأمريكية مثل A325 وA490 وF436، بينما تضع ANSI/ASME معايير الأبعاد بالبوصة. يجب أن يذكر المشروع نظامًا واحدًا لكل وصلة، ولا يخلط مرجعين في بند واحد.",
             "es": "DIN ha sido sustituida en gran medida por la EN ISO en fijaciones métricas, de modo que DIN 933 e ISO 4017 describen el mismo perno hexagonal. ASTM cubre productos industriales estadounidenses (A325, A490, F436), mientras que ANSI/ASME fija las dimensiones en pulgadas. Un proyecto debe nombrar un único sistema por unión.",
-            "fr": "DIN a été largement remplacé par l'EN ISO pour les fixations métriques : DIN 933 et ISO 4017 décrivent le même boulon hex. L'ASTM couvre les produits industriels américains (A325, A490, F436), tandis que l'ANSI/ASME fixe les cotes dimensionnelles en pouces. Un projet doit nommer un système par liaison, et éviter de mélanger les référentiels dans un même assemblage."
+            "fr": "DIN a été largement remplacé par l'EN ISO pour les fixations métriques : DIN 933 et ISO 4017 décrivent le même boulon hex. L'ASTM couvre les produits industriels américains (A325, A490, F436), tandis que l'ANSI/ASME fixe les cotes dimensionnelles en pouces. Un projet doit nommer un système par liaison, et éviter de mélanger les référentiels dans un même assemblage.",
+            "pt": "A DIN foi em grande parte substituída pela EN ISO nos fixadores métricos, de modo que DIN 933 e ISO 4017 descrevem o mesmo parafuso sextavado. A ASTM cobre produtos industriais dos EUA, A325, A490, F436, enquanto a ANSI/ASME define normas dimensionais em polegada. Um projeto deve nomear um sistema por conexão. A intercambiabilidade só é aceita após conferir dimensão, rosca e classe mecânica."
           }
         },
         {
@@ -247,7 +251,8 @@
             "ru": "Как различается маркировка головки в этих системах?",
             "ar": "كيف تختلف علامات الرأس بين هذه الأنظمة؟",
             "es": "¿Cómo difieren las marcas de cabeza entre estos sistemas?",
-            "fr": "Comment les marques de tête diffèrent entre systèmes ?"
+            "fr": "Comment les marques de tête diffèrent entre systèmes ?",
+            "pt": "Como as marcações de cabeça diferem entre esses sistemas?"
           },
           "a": {
             "en": "Metric bolts mark the property class (8.8, 10.9, A2-70), ASTM structural bolts mark the specification (A325, A490) plus the manufacturer, and inch commercial bolts mark grade (Grade 5, Grade 8) or nothing at all on low grades. Marking style tells you which system you are holding.",
@@ -256,7 +261,8 @@
             "ru": "Метрические болты метят классом прочности: 8.8, 10.9, A2-70. Конструкционные болты ASTM несут обозначение спецификации A325 или A490 плюс метку изготовителя. Дюймовые коммерческие болты маркируют классом Grade 5 или Grade 8, а низкие классы часто остаются без метки. По стилю маркировки сразу видно, какая система перед вами, и это же облегчает приёмку на объекте.",
             "ar": "البراغي المترية تُعلَّم بدرجة الخواص مثل 8.8 و10.9 وA2-70؛ وبراغي ASTM الإنشائية تُعلَّم بالمواصفة A325 أو A490 إضافة إلى المصنع؛ والبراغي التجارية بالبوصة تُعلَّم بالدرجة Grade 5 أو Grade 8، أو لا شيء في الدرجات المنخفضة. أسلوب العلامة يدلك على النظام الذي تمسكه.",
             "es": "Los pernos métricos marcan la clase de propiedad (8.8, 10.9, A2-70); los estructurales ASTM marcan la especificación (A325, A490) más el fabricante; los pernos comerciales en pulgada marcan grado (Grade 5, Grade 8) o no marcan nada en clases bajas. El estilo de marca indica qué sistema se tiene entre manos.",
-            "fr": "Les boulons métriques marquent la classe de propriété (8.8, 10.9, A2-70) ; les boulons structuraux ASTM marquent la spécification (A325, A490) plus le fabricant ; les boulons commerciaux en pouces marquent la classe (Grade 5, Grade 8), ou rien sur les basses classes. Le style de marquage indique le système auquel appartient la fixation tenue en main."
+            "fr": "Les boulons métriques marquent la classe de propriété (8.8, 10.9, A2-70) ; les boulons structuraux ASTM marquent la spécification (A325, A490) plus le fabricant ; les boulons commerciaux en pouces marquent la classe (Grade 5, Grade 8), ou rien sur les basses classes. Le style de marquage indique le système auquel appartient la fixation tenue en main.",
+            "pt": "Os parafusos métricos marcam a classe de propriedade, 8.8, 10.9, A2-70; os parafusos estruturais ASTM marcam a especificação, A325, A490, mais o fabricante; e os parafusos comerciais em polegada marcam a classe, Grade 5, Grade 8, ou nada nas classes baixas. O estilo da marcação indica qual sistema se está segurando. A marcação deve bater com o certificado do lote e a especificação do pedido."
           }
         },
         {
@@ -267,7 +273,8 @@
             "ru": "Можно ли заменить болт ISO болтом ASTM?",
             "ar": "هل أستطيع استبدال برغي ISO ببرغي ASTM؟",
             "es": "¿Puedo sustituir un perno ISO por uno ASTM?",
-            "fr": "Peut-on substituer un boulon ISO à un ASTM ?"
+            "fr": "Peut-on substituer un boulon ISO à un ASTM ?",
+            "pt": "Posso substituir um parafuso ISO por um ASTM?"
           },
           "a": {
             "en": "Only after checking dimensions, thread and mechanical properties. M20 ISO bolts are close to 3/4 inch but not interchangeable in a pre-drilled hole, and ASTM A325 has different proof load requirements from 8.8. Substitution needs engineering approval, not a supplier's assurance.",
@@ -276,7 +283,8 @@
             "ru": "Только после проверки размеров, резьбы и механических свойств. Болт M20 по ISO близок к дюймовому 3/4 дюйма, но в заранее просверленное отверстие они не взаимозаменяемы; у ASTM A325 другие требования по контролируемой нагрузке, чем у класса 8.8. Замену допускает инженерное заключение, а не заверение поставщика: без такого подтверждения подстановка меняет несущую способность соединения.",
             "ar": "فقط بعد فحص الأبعاد والخيط والخواص الميكانيكية. براغي M20 من ISO قريبة من 3/4 بوصة لكنها غير قابلة للتبديل في ثقب محفر مسبق، كما أن ASTM A325 يختلف في متطلب حمل الإثبات عن 8.8. الاستبدال يحتاج موافقة هندسية، لا مجرد تأكيد من المورّد.",
             "es": "Solo tras comprobar dimensiones, rosca y propiedades mecánicas. Un perno ISO M20 se acerca a 3/4 de pulgada, pero no es intercambiable en un taladro ya hecho, y el ASTM A325 exige otra carga de prueba que el 8.8. La sustitución necesita aprobación de ingeniería, no la garantía de un proveedor.",
-            "fr": "Seulement après vérification des dimensions, du filet et des propriétés mécaniques. Un boulon ISO M20 est proche du 3/4 de pouce mais non interchangeable dans un trou pré-percé, et l'ASTM A325 a des exigences de charge d'épreuve différentes du 8.8. La substitution nécessite une approbation d'ingénieur, et non une assurance du fournisseur."
+            "fr": "Seulement après vérification des dimensions, du filet et des propriétés mécaniques. Un boulon ISO M20 est proche du 3/4 de pouce mais non interchangeable dans un trou pré-percé, et l'ASTM A325 a des exigences de charge d'épreuve différentes du 8.8. La substitution nécessite une approbation d'ingénieur, et non une assurance du fournisseur.",
+            "pt": "Só depois de conferir dimensões, rosca e propriedades mecânicas. Um parafuso ISO M20 é próximo a 3/4 de polegada, mas não intercambiável em furo pré-perfurado, e o ASTM A325 tem requisitos de carga de prova diferentes do 8.8. A substituição precisa de aprovação de engenharia, não da garantia de um fornecedor. A ficha técnica original da junta deve ser atualizada caso a troca seja aprovada."
           }
         }
       ]
