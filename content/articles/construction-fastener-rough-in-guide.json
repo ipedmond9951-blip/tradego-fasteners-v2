@@ -251,7 +251,8 @@
             "es": "¿Qué debo fijar en la etapa de acero estructural?",
             "fr": "Que verrouiller dès la phase charpente métallique ?",
             "pt": "O que fixar na etapa de estrutura de aço?",
-            "de": "Was ist in der Stahlbaustufe zu fixieren?"
+            "de": "Was ist in der Stahlbaustufe zu fixieren?",
+            "ja": "構造締結具を先行配管に使ってよいですか？"
           },
           "a": {
             "en": "Fix bolt grade, coating and size per connection, and require mill test certificates with each heat. Record the torque and the wrench used for every structural node, because auditors check torque records before they check the bolts.",
@@ -262,7 +263,8 @@
             "es": "Fije el grado del perno, el recubrimiento y el tamaño por unión, y exija certificados de ensayo de fábrica con cada colada. Registre el par y la llave usados en cada nudo estructural, porque los auditores revisan los registros de par antes que los pernos. El apunte queda documentado para la inspección de la obra.",
             "fr": "Fixez le grade, le revêtement et la taille par liaison, et exigez les certificats d'essai matière avec chaque coulée. Enregistrez le couple et la clé utilisés pour chaque nœud structurel, car les auditeurs contrôlent d'abord les relevés de couple avant d'examiner les boulons. Chaque nœud garde sa trace de montage. Un relevé incomplet complique la réception. La préparation en amont évite les reprises sur chantier.",
             "pt": "Define-se classe, revestimento e tamanho do parafuso por conexão, e exigem-se certificados de ensaio de fábrica por cada lingote. Registram-se o torque e a chave usados em cada nó estrutural, pois os auditores conferem os registros de torque antes de verificar os parafusos. A documentação do nó acompanha a inspeção da estrutura, e a troca de classe fica bloqueada sem aprovação.",
-            "de": "Legen Sie Bolzenklasse, Beschichtung und Größe je Verbindung fest, und fordern Sie Werksprüfbescheinigungen zu jeder Schmelze. Halten Sie das Drehmoment und den verwendeten Schlüssel für jeden Strukturknoten fest, denn die Prüfer kontrollieren zuerst die Drehmomentprotokolle, bevor sie die Bolzen ansehen. Jeder Knoten trägt seine Montagespur. Die Vorbereitung am Vorgewerk vermeidet Reparaturen auf der Baustelle."
+            "de": "Legen Sie Bolzenklasse, Beschichtung und Größe je Verbindung fest, und fordern Sie Werksprüfbescheinigungen zu jeder Schmelze. Halten Sie das Drehmoment und den verwendeten Schlüssel für jeden Strukturknoten fest, denn die Prüfer kontrollieren zuerst die Drehmomentprotokolle, bevor sie die Bolzen ansehen. Jeder Knoten trägt seine Montagespur. Die Vorbereitung am Vorgewerk vermeidet Reparaturen auf der Baustelle.",
+            "ja": "いいえ。構造ボルトは骨組みの荷重を担う接合用で、配管や電路の支持には機械的に適した吊りボルトまたは支持金具を使います。用途と荷重を確認し、部品を取り違えないようにしてください。環境と相手材を確認し、記録を残して手順を守ることで、後の不具合を減らせます。"
           }
         },
         {
@@ -275,7 +277,8 @@
             "es": "¿Qué fijaciones van en la fase de cubierta y revestimiento?",
             "fr": "Quelles fixations appartiennent à la phase couverture et bardage ?",
             "pt": "Quais fixadores pertencem à fase de cobertura e revestimento?",
-            "de": "Welche Befestigungen gehören zur Bedachungs- und Fassadenphase?"
+            "de": "Welche Befestigungen gehören zur Bedachungs- und Fassadenphase?",
+            "ja": "先行段階でどんな締結具を手元に置きますか？"
           },
           "a": {
             "en": "Self-drilling screws with EPDM washers, coating at least AZ150 for coastal sites, plus stitch screws and bracing. Check screw length against purlin thickness: too short means no thread engagement, too long means the point pierces the profile and rusts.",
@@ -286,7 +289,8 @@
             "es": "Tornillos autoperforantes con arandela EPDM, recubrimiento al menos AZ150 en sitios costeros, más tornillos de amarre y arriostramiento. Compruebe la longitud del tornillo contra el grosor del purlín: demasiado corto no engancha rosca, demasiado largo hace que la punta atraviese el perfil y se oxide. La longitud se ajusta al espesor de la pieza.",
             "fr": "Des vis autoperceuses avec rondelle EPDM, un revêtement au moins AZ150 pour les sites côtiers, plus les vis de liaison et le contreventement. Vérifiez la longueur de vis contre l'épaisseur de panne : trop courte, l'engagement fileté manque ; trop longue, la perce perce le profil et rouille. La vis suit l'épaisseur et la nature du support. La rondelle assure l'étanchéité sous la tête. Un essai de vissage confirme la longueur retenue.",
             "pt": "Parafusos autoperfurantes com arruela EPDM, revestimento no mínimo AZ150 em sítios costeiros, além de parafusos de costura e contraventamento. Confere-se o comprimento do parafuso contra a espessura do terçado: curto demais não engasta a rosca, longo demais a ponta perfura o perfil e enferruja. A vedação da cobertura depende da arruela e da profundidade de acionamento corretas.",
-            "de": "Bohrschrauben mit EPDM-Scheibe, Beschichtung mindestens AZ150 für Küstenstandorte, dazu Verbindungsschrauben und Aussteifung. Prüfen Sie die Schraubenlänge gegen die Pfettenstärke: zu kurz fehlt der Gewindeeingriff, zu lang sticht die Spitze durch das Profil und rostet. Die Schraube folgt Stärke und Art des Trägers. Die Scheibe dichtet unter dem Kopf ab. Ein Versuch am Profil bestätigt die gewählte Länge."
+            "de": "Bohrschrauben mit EPDM-Scheibe, Beschichtung mindestens AZ150 für Küstenstandorte, dazu Verbindungsschrauben und Aussteifung. Prüfen Sie die Schraubenlänge gegen die Pfettenstärke: zu kurz fehlt der Gewindeeingriff, zu lang sticht die Spitze durch das Profil und rostet. Die Schraube folgt Stärke und Art des Trägers. Die Scheibe dichtet unter dem Kopf ab. Ein Versuch am Profil bestätigt die gewählte Länge.",
+            "ja": "骨組みの接合ボルト、屋根と外壁のねじ、下地アンカー、吊り支持用のねじとナットを呼び径別に整理してください。工事の順序に合わせて先に使う品番を手元に置き、保管場所を工程担当者と共有します。書類と現物を照合し、納品までの工程を整えておくと、現場の手間を抑えられます。"
           }
         },
         {
@@ -299,7 +303,8 @@
             "es": "¿Cómo estimar las cantidades de fijaciones en licitación?",
             "fr": "Comment estimer les quantités de fixations au stade appel d'offres ?",
             "pt": "Como estimar quantidades de fixador na fase de licitação?",
-            "de": "Wie schätzt man die Befestigungsmengen im Angebotstermin ab?"
+            "de": "Wie schätzt man die Befestigungsmengen im Angebotstermin ab?",
+            "ja": "先行段階で締結具を保護するにはどうしますか？"
           },
           "a": {
             "en": "Count nodes from the drawings rather than by floor area: bolts per connection, screws per square metre of roofing and per linear metre of partition. Add 3-5% for site loss and damage, and separate structural items from consumables so the quote stays readable.",
@@ -310,7 +315,8 @@
             "es": "Cuente los nudos del plano en vez de por superficie de planta: pernos por unión, tornillos por metro cuadrado de cubierta y por metro lineal de tabique. Sume un 3-5% para pérdidas y daños en obra, y separe los artículos estructurales de los consumibles para que la cotización sea clara. El conteo por dibujo da una base más fiable que el área.",
             "fr": "Comptez les nœuds d'après les dessins plutôt que par surface au sol : boulons par liaison, vis par mètre carré de couverture et par mètre linéaire de cloison. Ajoutez une marge pour perte et casse sur site, et séparez les articles structurels des consommables pour que le devis reste lisible. Un comptage par ouvrage précise mieux qu'une moyenne générale. Les consommables se recensent à part. Une révision des dessins met à jour les quantités.",
             "pt": "Contam-se os nós pelos desenhos, não por área de piso: parafusos por conexão, parafusos por metro quadrado de cobertura e por metro linear de divisória. Acrescentam-se de 3 a 5% para perda e dano em obra, e separam-se itens estruturais de consumíveis para a cotação continuar legível. A estimativa é revisada contra o detalhamento do projeto antes do fechamento do pedido.",
-            "de": "Zählen Sie die Knoten nach den Zeichnungen, nicht nach Geschossfläche: Bolzen je Verbindung, Schrauben je Quadratmeter Bedachung und je laufenden Meter Trennwand. Fügen Sie eine Marge für Verlust und Bruch auf der Baustelle hinzu, und trennen Sie die Strukturteile von den Verbrauchsmitteln, damit das Angebot lesbar bleibt. Ein Knotenbezug ist genauer als eine allgemeine Durchschnittsangabe. Die Verbrauchsteile werden gesondert aufgeführt."
+            "de": "Zählen Sie die Knoten nach den Zeichnungen, nicht nach Geschossfläche: Bolzen je Verbindung, Schrauben je Quadratmeter Bedachung und je laufenden Meter Trennwand. Fügen Sie eine Marge für Verlust und Bruch auf der Baustelle hinzu, und trennen Sie die Strukturteile von den Verbrauchsmitteln, damit das Angebot lesbar bleibt. Ein Knotenbezug ist genauer als eine allgemeine Durchschnittsangabe. Die Verbrauchsteile werden gesondert aufgeführt.",
+            "ja": "濡れを防ぐ覆いをかけ、塵やセメントが付かない場所に保管します。長期置き去りにすると被覆が劣化します。工程の進みに合わせて必要量だけを出し、残りは乾いた場所で保管してください。用途ごとに仕様を分け、必要な品質を満たす範囲で選定してください。現場の条件を記録し、同じ仕様を繰り返し使うことで、供給と管理を安定させられます。"
           }
         }
       ],
