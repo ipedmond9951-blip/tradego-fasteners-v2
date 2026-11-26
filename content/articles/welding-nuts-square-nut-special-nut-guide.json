@@ -163,7 +163,8 @@
             "es": "¿Qué es la proyección de soldadura en tuercas de brida?",
             "fr": "Que sont les bossages de soudage sur écrous à bride ?",
             "pt": "O que é a projeção de solda nas porcas de flange?",
-            "de": "Was ist der Schweißvorsprung an Flanschschweißmuttern?"
+            "de": "Was ist der Schweißvorsprung an Flanschschweißmuttern?",
+            "ja": "フランジ溶接ナットの溶接突起とは何ですか？"
           },
           "a": {
             "en": "Flange welding nuts (DIN 929) have 3-4 smallbumps (projections) on the underside of the flange that concentrate resistance welding current, ensuring fast, strong welds at lower current.",
@@ -174,7 +175,8 @@
             "es": "Las tuercas de brida para soldar (DIN 929) tienen 3-4 pequeñas protuberancias en la cara inferior de la brida que concentran la corriente de soldadura por resistencia, asegurando soldaduras rápidas y fuertes a menor corriente. La protuberancia reparte el punto de contacto para que la unión quede sólida.",
             "fr": "Les écrous à souder à bride (DIN 929) portent trois à quatre petits bossages sur la face inférieure de la bride qui concentrent le courant de soudage par résistance, assurant des soudures rapides et fortes à plus faible intensité. Ces reliefs guident l'arc et stabilisent le point de soudure sur la tôle.",
             "pt": "As porcas de flange para solda (DIN 929) têm 3 a 4 pequenos ressaltos na face inferior da flange que concentram a corrente da solda por resistência, garantindo soldas rápidas e fortes em corrente mais baixa. A projeção é o ponto de contato que funde à chapa, e sua altura casa com a espessura da chapa para a qual a porca foi projetada.",
-            "de": "Flanschschweißmuttern (DIN 929) haben drei bis vier kleine Erhebungen auf der Unterseite des Flansches, die den Widerstandsschweißstrom bündeln und so schnelle, feste Schweißungen bei geringerem Strom gewährleisten."
+            "de": "Flanschschweißmuttern (DIN 929) haben drei bis vier kleine Erhebungen auf der Unterseite des Flansches, die den Widerstandsschweißstrom bündeln und so schnelle, feste Schweißungen bei geringerem Strom gewährleisten.",
+            "ja": "フランジ溶接ナット（DIN 929）のフランジ裏側には 3〜4 個の小さな突起があり、抵抗溶接の電流を集中させて、低い電流でも速く強い溶接を確保します。突起は母材との溶け込みを安定させる役割を持ちます。形状と突起の状態を確認して使用してください。"
           }
         },
         {
@@ -187,7 +189,8 @@
             "es": "¿Puedo soldar directamente una tuerca hexagonal al acero?",
             "fr": "Peut-on souder directement un écrou hex standard sur l'acier ?",
             "pt": "Posso soldar uma porca sextavada padrão diretamente no aço?",
-            "de": "Kann man eine normale Sechskantmutter direkt an Stahl schweißen?"
+            "de": "Kann man eine normale Sechskantmutter direkt an Stahl schweißen?",
+            "ja": "普通の六角ナットを直接鋼材に溶接できますか？"
           },
           "a": {
             "en": "Standard hex nuts are not designed for welding—the steel composition and geometry are not optimized for weld strength. Use dedicated square welding nuts (DIN 928) or flange welding nuts (DIN 929).",
@@ -198,7 +201,8 @@
             "es": "Las tuercas hexagonales estándar no están diseñadas para soldar: la composición y la geometría del acero no están optimizadas para la resistencia de la soldadura. Use tuercas cuadradas de soldadura dedicadas (DIN 928) o tuercas de brida para soldar (DIN 929). El tipo de tuerca debe corresponder al proceso de unión.",
             "fr": "Les écrous hex standard ne sont pas conçus pour le soudage : la composition de l'acier et la géométrie ne sont pas optimisées pour la résistance de jointure. Utiliser des écrous carrés à souder dédiés (DIN 928) ou des écrous à bride à souder (DIN 929). Un produit dédié garantit une soudure tenue.",
             "pt": "As porcas sextavadas padrão não são projetadas para solda: a composição do aço e a geometria não são otimizadas para resistência de solda. Usam-se porcas quadradas de solda dedicadas (DIN 928) ou porcas de flange para solda (DIN 929). A escolha segue o processo de solda, e a peça é conferida contra a norma aplicável.",
-            "de": "Normale Sechskantmuttern sind nicht fürs Schweißen ausgelegt - Stahlzusammensetzung und Geometrie sind nicht auf Schweißfestigkeit abgestimmt. Stattdessen sind spezielle Quadratschweißmuttern (DIN 928) oder Flanschschweißmuttern (DIN 929) zu verwenden."
+            "de": "Normale Sechskantmuttern sind nicht fürs Schweißen ausgelegt - Stahlzusammensetzung und Geometrie sind nicht auf Schweißfestigkeit abgestimmt. Stattdessen sind spezielle Quadratschweißmuttern (DIN 928) oder Flanschschweißmuttern (DIN 929) zu verwenden.",
+            "ja": "普通の六角ナットは溶接向けに設計されていません。鋼の組成と形状が溶接強度に最適化されていないためです。専用の角形溶接ナット（DIN 928）またはフランジ溶接ナット（DIN 929）を使ってください。溶接用途に合ったナットを選定することが重要です。"
           }
         },
         {
@@ -211,7 +215,8 @@
             "es": "¿Qué es la proyección en una tuerca de brida para soldar?",
             "fr": "Quel est le bossage sur un écrou à bride à souder ?",
             "pt": "Qual a função da projeção de solda em uma porca de flange?",
-            "de": "Was ist der Vorsprung an einer Flanschschweißmutter?"
+            "de": "Was ist der Vorsprung an einer Flanschschweißmutter?",
+            "ja": "フランジ溶接ナットの溶接突起はどのようなものですか？"
           },
           "a": {
             "en": "The projection is the small collar that fuses into the sheet during resistance welding, and its height must match the sheet thickness range the nut is designed for. Too little projection welds weakly; too much melts through thin sheet.",
@@ -222,7 +227,8 @@
             "es": "La proyección es el pequeño collar que se funde con la chapa durante la soldadura por resistencia, y su altura debe coincidir con el rango de grosor de chapa para el que está diseñada la tuerca. Muy poca proyección solda débil; demasiada atraviesa la chapa fina. La altura se ajusta al grosor del material a unir.",
             "fr": "Le bossage est le petit rebord qui fusionne dans la tôle lors du soudage par résistance, et sa hauteur doit correspondre à la plage d'épaisseur de tôle pour laquelle l'écrou est conçu. Trop peu de bossage soude faiblement ; trop, il perce la tôle mince. L'adaptation à l'épaisseur assure la tenue.",
             "pt": "A projeção é o pequeno colar que se funde à chapa durante a solda por resistência, e sua altura deve casar com a faixa de espessura da chapa para a qual a porca foi projetada. Pouca projeção solda fraco; excessiva derrete a chapa fina. A altura é verificada no desenho da porca, e a espessura da chapa define a escolha.",
-            "de": "Der Vorsprung ist der kleine Kragen, der beim Widerstandsschweißen mit dem Blech verschmilzt; seine Höhe muss zum Blechdickenbereich passen, für den die Mutter ausgelegt ist. Zu wenig Vorsprung schweißt schwach, zu viel schmilzt durch dünnes Blech durch."
+            "de": "Der Vorsprung ist der kleine Kragen, der beim Widerstandsschweißen mit dem Blech verschmilzt; seine Höhe muss zum Blechdickenbereich passen, für den die Mutter ausgelegt ist. Zu wenig Vorsprung schweißt schwach, zu viel schmilzt durch dünnes Blech durch.",
+            "ja": "突起は抵抗溶接の際に薄板に溶け込む小さな環状の凸部で、その高さはナットが対象とする板厚範囲に合っている必要があります。突起が少なすぎると溶接が弱く、多すぎると薄板を溶け抜けてしまいます。板厚に合わせて突起の高さを確認してください。溶接後の溶け込み状態を確認し、板厚と突起が整合しているか点検してください。"
           }
         }
       ],
