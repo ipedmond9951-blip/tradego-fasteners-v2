@@ -223,7 +223,8 @@
             "ru": "Какой тип головки выбрать для машинного винта?",
             "ar": "أي نوع رأس لمسامير الماكينات أختار؟",
             "es": "¿Qué tipo de cabeza de tornillo de máquina debo usar?",
-            "fr": "Quel type de tête choisir pour une vis machine ?"
+            "fr": "Quel type de tête choisir pour une vis machine ?",
+            "pt": "Que tipo de cabeça de parafuso máquina usar?"
           },
           "a": {
             "en": "Hex heads suit high preload and where a wrench fits. Socket heads work in counterbores and tight spaces and tolerate higher torque. Pan heads are for visible or low-load joints, and countersunk heads where a flush surface is required. Match the drive to the tools actually available on site.",
@@ -233,7 +234,8 @@
             "ru": "Шестигранная головка подходит для высокой предварительной затяжки (preload), когда есть место под ключ. Внутренний шестигранник ставят в зенкованных отверстиях и тесных узлах, он выдерживает больший крутящий момент (torque). Полусферическая головка — для видимых или слабо нагруженных соединений, потайная — там, где нужна ровная поверхность. Тип привода подбирают под инструмент, который действительно используется на площадке.",
             "ar": "تناسب الرؤوس السداسية الشد العالٍ والأماكن التي يلائمها مفتاح الربط. وتعمل الرؤوس الداخلية السداسية في التجاويف والأماكن الضيقة وتتحمل عزم ربط أعلى. أما الرؤوس المستديرة فلوصلات ظاهرة أو منخفضة الحمل، والرؤوس الغاطسة حيث يلزم سطح مستوٍ. وطابق شكل محرك الربط مع الأدوات المتوفرة فعلاً في الموقع، وتجنب اختيار رأس يحتاج أداة غير موجودة عند فريق التركيب.",
             "es": "Las cabezas hexagonales van bien para alta precarga y donde cabe una llave. Las cabezas cilíndricas con llave Allen trabajan en escotes y espacios estrechos y admiten par más alto. Las cabezas redondas son para juntas visibles o de baja carga, y las avellanadas donde se necesita una superficie rasa. El accionamiento debe coincidir con las herramientas disponibles en obra.",
-            "fr": "La tête hexagonale convient au fort précharge et là où une clé passe. La tête cylindrique à six pans creux va dans les fraisages et les espaces serrés, et tolère un couple plus élevé. La tête bombée sert aux joints visibles ou à faible charge, et la tête fraisée là où une surface affleurante est exigée. Faites correspondre l'entraînement aux outils disponibles sur le chantier. La tête doit aussi laisser passer l'outil prévu."
+            "fr": "La tête hexagonale convient au fort précharge et là où une clé passe. La tête cylindrique à six pans creux va dans les fraisages et les espaces serrés, et tolère un couple plus élevé. La tête bombée sert aux joints visibles ou à faible charge, et la tête fraisée là où une surface affleurante est exigée. Faites correspondre l'entraînement aux outils disponibles sur le chantier. La tête doit aussi laisser passer l'outil prévu.",
+            "pt": "As cabeças sextavadas servem a alta pré-carga e onde cabe chave. As cabeças cilíndricas funcionam em rebaixos e espaços apertados e toleram torque maior. As cabeças pan são para juntas visíveis ou de baixa carga, e as cabeças escareadas onde se exige superfície nivelada. O acionamento deve bater com as ferramentas disponíveis no canteiro. A escolha combina tipo de cabeça, acesso e carga da junta."
           }
         },
         {
@@ -245,7 +247,8 @@
             "ru": "Как соотносятся классы прочности винтов и применение?",
             "ar": "كيف تقابل درجات مسامير الماكينات التطبيقات؟",
             "es": "¿Qué grado de tornillo de máquina va para cada uso?",
-            "fr": "Comment les grades de vis machine correspondent-ils aux usages ?"
+            "fr": "Comment les grades de vis machine correspondent-ils aux usages ?",
+            "pt": "Como as classes de parafuso máquina mapeiam as aplicações?"
           },
           "a": {
             "en": "4.8 and 8.8 carbon steel cover general machinery and fixtures. 10.9 and 12.9 alloy steel are for high load and vibration, and require controlled torque. Stainless 304/316 is for food, chemical and coastal service. Never mix stainless screws with galvanized nuts without isolation.",
@@ -255,7 +258,8 @@
             "ru": "Углеродистая сталь классов 4.8 и 8.8 закрывает общую механику и крепеж приспособлений. Легированные стали 10.9 и 12.9 берут для высоких нагрузок и вибрации, с обязательным контролируемым моментом затяжки. Нержавеющая сталь 304/316 — для пищевого, химического и прибрежного сервиса. Не стоит соединять нержавеющие винты с оцинкованными гайками без изоляции: контакт разнородных металлов ускоряет коррозию.",
             "ar": "يغطي الفولاذ الكربوني 4.8 و8.8 الآلات العامة والتثبيتات. أما 10.9 و12.9 من الفولاذ السبائكي فللأحمال العالية والاهتزاز، وتتطلب عزم ربط مضبوط. والفولاذ المقاوم للصدأ 304/316 مخصص لخدمات الأغذية والكيماويات والسواحل. لا تخلط أبداً مسامير مقاومة للصدأ مع صواميل مجلفنة دون عزل، فالتآكل الكهربائي يربط الوصلة ويصعب فكها مع مرور الخدمة.",
             "es": "El acero al carbono 4.8 y 8.8 cubre maquinaria general y fijaciones. El alloy 10.9 y 12.9 son para alta carga y vibración, y requieren par controlado. El inoxidable 304/316 es para servicio alimentario, químico y costero. Nunca mezcle tornillo inoxidable con tuerca galvanizada sin aislamiento.",
-            "fr": "Les aciers carbone 4.8 et 8.8 couvrent la machine générale et les fixations. Les aciers alliés 10.9 et 12.9 vont aux charges élevées et aux vibrations, et exigent un couple maîtrisé. L'inox 304/316 sert aux usages alimentaires, chimiques et côtiers. Ne mélangez jamais une vis inox avec un écrou galvanisé sans isolation. Le grade se confirme sur le marquage de tête et les rapports d'essai."
+            "fr": "Les aciers carbone 4.8 et 8.8 couvrent la machine générale et les fixations. Les aciers alliés 10.9 et 12.9 vont aux charges élevées et aux vibrations, et exigent un couple maîtrisé. L'inox 304/316 sert aux usages alimentaires, chimiques et côtiers. Ne mélangez jamais une vis inox avec un écrou galvanisé sans isolation. Le grade se confirme sur le marquage de tête et les rapports d'essai.",
+            "pt": "4.8 e 8.8 em aço-carbono cobrem máquinas e suportes em geral. 10.9 e 12.9 em aço-liga são para alta carga e vibração, e exigem torque controlado. Inoxidável 304/316 serve serviço alimentar, químico e costeiro. Nunca se misturam parafusos inoxidáveis com porcas galvanizadas sem isolamento. A classe é conferida na cabeça e no certificado do lote, e a substituição segue a mesma função estrutural."
           }
         },
         {
@@ -267,7 +271,8 @@
             "ru": "Почему машинный винт не заменяет листовой шуруп?",
             "ar": "لماذا لا تحل مسامير الماكينات محل مسامير الصاج أو الخشب؟",
             "es": "¿Por qué los tornillos de máquina no sustituyen a los chapa o madera?",
-            "fr": "Pourquoi une vis machine ne remplace-t-elle pas une vis tôle ou bois ?"
+            "fr": "Pourquoi une vis machine ne remplace-t-elle pas une vis tôle ou bois ?",
+            "pt": "Por que parafuso máquina não substitui parafuso de madeira?"
           },
           "a": {
             "en": "Machine screws have a uniform fine pitch and need a nut or a pre-tapped metal hole. Sheet metal and wood screws cut their own thread with a coarse pitch and sharp crest. Substituting them strips the thread, splits the material or leaves no reliable preload.",
@@ -277,7 +282,8 @@
             "ru": "Машинный винт имеет равномерный мелкий шаг и требует гайки либо заранее нарезанного металлического отверстия. Листовые и деревянные шурупы сами нарезают резьбу: у них грубый шаг и острая вершина. Подмена одного типа другим срывает резьбу, раскалывает материал и не даёт надёжной предварительной затяжки. Спецификацию подбирают по основанию и типу соединения до сверления или нарезания отверстия.",
             "ar": "لمسامير الماكينات خطوة دقيقة منتظمة، وتحتاج صامولة أو ثقباً معدنياً ممهداً مسبقاً. أما مسامير الصاج والخشب فتقطع خيطها الخاص بخطوة عريضة وقمة حادة. والاستعاضة بينها تؤدي إلى تآكل الخيط أو شق المادة أو عدم ترك شد مسبق موثوق. ولأن الخيط غير مصمم للنقر في المادة نفسها، يفقد المسمار قبضته سريعاً ولا يمكن الاعتماد عليه في حمل دائم.",
             "es": "Los tornillos de máquina tienen un paso fino uniforme y necesitan tuerca o rosca ya cortada en metal. Los de chapa y madera cortan su propia rosca con paso grueso y cresta afilada. Sustituirlos arranca la rosca, raja el material o no deja una precarga fiable. La elección debe seguir el tipo de base y el espesor de la pieza.",
-            "fr": "La vis machine a un pas fin uniforme et demande un écrou ou un trou métallique taraudé. Les vis tôle et bois taillent leur propre filetage avec un pas gros et une crête acérée. La substitution arrache le filetage, fend le matériau ou ne laisse aucun précharge fiable. Choisissez la vis correspondant au support : métal taraudé, tôle ou bois. Un usage détourné fait perdre l'ancrage recherché."
+            "fr": "La vis machine a un pas fin uniforme et demande un écrou ou un trou métallique taraudé. Les vis tôle et bois taillent leur propre filetage avec un pas gros et une crête acérée. La substitution arrache le filetage, fend le matériau ou ne laisse aucun précharge fiable. Choisissez la vis correspondant au support : métal taraudé, tôle ou bois. Un usage détourné fait perdre l'ancrage recherché.",
+            "pt": "Os parafusos máquina têm passo fino uniforme e precisam de porca ou furo metálico pré-roscado. Os parafusos de chapa e madeira cortam a própria rosca com passo grosso e crista afiada. Substituindo-os, a rosca escorrega, o material racha ou não resta pré-carga confiável. A escolha segue o material base e se há furo roscado, não apenas o diâmetro do fixador."
           }
         }
       ],
