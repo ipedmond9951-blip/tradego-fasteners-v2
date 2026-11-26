@@ -1,0 +1,170 @@
+slug,locale,field,item_no,value,chars,latin_share,label,reason,action
+african-ftz-fastener-import-procedures,hi,a,4,run=5;AfCFTA Batoka Gorge Hwange Mhondoro,447,0.21,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+bolt-markings-identify-grade,hi,a,9,run=5;MPa Grade MPa Grade MPa,323,0.14,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+bolt-types-applications-guide,hi,a,8,run=4;Grade MPa Grade MPa,293,0.08,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+dr-congo-drc-mining-fastener-market,hi,a,1,run=7;Mining Fastener Market Copper Belt Lubumbashi Kolwezi,130,0.45,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记；held=conflict slug,keep_registered
+fastener-selection-guide-african-construction,hi,a,6,run=6;Grade MPa Grade MPa Grade MPa,299,0.1,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+food-beverage-fastener-hygiene-standards,hi,a,1,run=6;Food and Beverage Industry Fastener Standards,132,0.43,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记；held=conflict slug,keep_registered
+malawi-fastener-market-case-study,hi,a,4,run=4;Beira Blantyre Shire Valley,280,0.12,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记；held=conflict slug,keep_registered
+malawi-fastener-market-case-study,hi,description,0,run=5;Shire Valley Transformation Beira Port,154,0.26,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记；held=conflict slug,keep_registered
+malawi-fastener-market-case-study,hi,metaDescription,0,run=5;Shire Valley Transformation Beira Port,154,0.26,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记；held=conflict slug,keep_registered
+nigeria-fastener-market-guide,hi,a,1,run=5;Lagos Abuja Port Harcourt Kano,317,0.13,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+rivets-blind-rivet-nut-guide,hi,a,1,run=4;CherryMAX Avdel kg mm,369,0.06,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+rivets-blind-rivets-guide,hi,a,2,run=8;mm kg mm kg mm kg mm kg,204,0.1,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+timber-construction-fasteners-africa,hi,a,2,run=4;coach screw lag screw,378,0.13,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+zambia-copper-mining-fasteners-grade-selection-2026,hi,a,6,run=4;Durban Copperbelt Kasumbalesa Grade,420,0.09,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+zambia-fastener-market-case-study,hi,description,0,run=7;Grade Beira Corridor Solwezi Kansanshi Copper Mine,158,0.34,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+zambia-fastener-market-case-study,hi,metaDescription,0,run=7;Grade Beira Corridor Solwezi Kansanshi Copper Mine,158,0.34,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+zim-construction-anchor-bolts-rfq-template-corrosion-resistance,hi,a,4,run=4;Grade ksi MPa Grade,348,0.09,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+zim-construction-anchor-bolts-supplier-evaluation-corrosion-resistance,hi,a,1,run=9;Grade yield strength ksi MPa Grade ksi MPa Grade,299,0.2,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+zimbabwe-construction-megaprojects-fastener-demand,hi,a,4,run=6;Hwange Harare Beira Batoka Gorge Bulawayo,393,0.15,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+angola-construction-boom-fastener-demand,hi,a,1,run=9;Angola Construction Boom Fastener Demand Forecast and Supply,150,0.51,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+angola-construction-boom-fastener-demand,hi,a,3,run=9;Angola Construction Boom Fastener Demand Forecast and Supply,146,0.58,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+angola-construction-boom-fastener-demand,hi,q,1,run=9;Angola Construction Boom Fastener Demand Forecast and Supply,112,0.69,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+angola-construction-boom-fastener-demand,hi,q,2,run=9;Angola Construction Boom Fastener Demand Forecast and Supply,122,0.65,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+angola-construction-boom-fastener-demand,hi,q,3,run=9;Angola Construction Boom Fastener Demand Forecast and Supply,112,0.68,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+automotive-fastener-grade-comparison,hi,a,1,run=4;Automotive Fastener Grade Comparison,141,0.51,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+automotive-fastener-grade-comparison,hi,a,3,run=4;Automotive Fastener Grade Comparison,137,0.59,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+automotive-fastener-grade-comparison,hi,q,1,run=4;Automotive Fastener Grade Comparison,103,0.71,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+automotive-fastener-grade-comparison,hi,q,2,run=4;Automotive Fastener Grade Comparison,113,0.66,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+automotive-fastener-grade-comparison,hi,q,3,run=4;Automotive Fastener Grade Comparison,103,0.7,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+dr-congo-drc-mining-fastener-market,hi,a,3,run=7;Mining Fastener Market Copper Belt Lubumbashi Kolwezi,126,0.53,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+dr-congo-drc-mining-fastener-market,hi,q,1,run=7;Mining Fastener Market Copper Belt Lubumbashi Kolwezi,92,0.64,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+dr-congo-drc-mining-fastener-market,hi,q,2,run=7;Mining Fastener Market Copper Belt Lubumbashi Kolwezi,102,0.6,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+dr-congo-drc-mining-fastener-market,hi,q,3,run=7;Mining Fastener Market Copper Belt Lubumbashi Kolwezi,92,0.63,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+fastener-failure-analysis-case-studies,hi,a,1,run=9;Fastener Failure Analysis Real-World Case Studies and Lesson,142,0.49,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+fastener-failure-analysis-case-studies,hi,a,3,run=9;Fastener Failure Analysis Real-World Case Studies and Lesson,138,0.57,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+fastener-failure-analysis-case-studies,hi,q,1,run=9;Fastener Failure Analysis Real-World Case Studies and Lesson,104,0.68,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+fastener-failure-analysis-case-studies,hi,q,2,run=9;Fastener Failure Analysis Real-World Case Studies and Lesson,114,0.64,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+fastener-failure-analysis-case-studies,hi,q,3,run=9;Fastener Failure Analysis Real-World Case Studies and Lesson,104,0.67,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+food-beverage-fastener-hygiene-standards,hi,a,3,run=6;Food and Beverage Industry Fastener Standards,128,0.51,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+food-beverage-fastener-hygiene-standards,hi,q,1,run=6;Food and Beverage Industry Fastener Standards,94,0.62,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+food-beverage-fastener-hygiene-standards,hi,q,2,run=6;Food and Beverage Industry Fastener Standards,104,0.58,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+food-beverage-fastener-hygiene-standards,hi,q,3,run=6;Food and Beverage Industry Fastener Standards,94,0.61,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+green-building-fastener-requirements,hi,a,1,run=4;Green Building Fastener Requirements,150,0.53,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+green-building-fastener-requirements,hi,a,3,run=4;Green Building Fastener Requirements,146,0.6,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+green-building-fastener-requirements,hi,q,1,run=4;Green Building Fastener Requirements,112,0.71,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+green-building-fastener-requirements,hi,q,2,run=4;Green Building Fastener Requirements,122,0.67,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+green-building-fastener-requirements,hi,q,3,run=4;Green Building Fastener Requirements,112,0.7,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+kenya-east-africa-fastener-distribution-hub,hi,a,1,run=10;Kenya East Africa Fastener Distribution Hub Mombasa Port and,160,0.53,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+kenya-east-africa-fastener-distribution-hub,hi,a,3,run=10;Kenya East Africa Fastener Distribution Hub Mombasa Port and,156,0.6,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+kenya-east-africa-fastener-distribution-hub,hi,q,1,run=10;Kenya East Africa Fastener Distribution Hub Mombasa Port and,122,0.71,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+kenya-east-africa-fastener-distribution-hub,hi,q,2,run=10;Kenya East Africa Fastener Distribution Hub Mombasa Port and,132,0.67,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+kenya-east-africa-fastener-distribution-hub,hi,q,3,run=10;Kenya East Africa Fastener Distribution Hub Mombasa Port and,122,0.7,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+mozambique-fastener-import-market-guide,hi,a,1,run=8;Mozambique Fastener Import Market Guide Ports Suppliers Regu,145,0.48,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+mozambique-fastener-import-market-guide,hi,a,3,run=8;Mozambique Fastener Import Market Guide Ports Suppliers Regu,141,0.55,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+mozambique-fastener-import-market-guide,hi,q,1,run=8;Mozambique Fastener Import Market Guide Ports Suppliers Regu,107,0.65,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+mozambique-fastener-import-market-guide,hi,q,2,run=8;Mozambique Fastener Import Market Guide Ports Suppliers Regu,117,0.61,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+mozambique-fastener-import-market-guide,hi,q,3,run=8;Mozambique Fastener Import Market Guide Ports Suppliers Regu,107,0.65,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+rwanda-construction-fastener-market-2026,hi,a,9,run=4;standard door-to-door transit time,80,0.43,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写,rewrite_next_round_clean
+solar-panel-mounting-fastener-requirements,hi,a,1,run=9;Solar Panel Mounting Fastener Requirements Wind Load and Cor,137,0.49,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+solar-panel-mounting-fastener-requirements,hi,a,3,run=9;Solar Panel Mounting Fastener Requirements Wind Load and Cor,133,0.57,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+solar-panel-mounting-fastener-requirements,hi,q,1,run=9;Solar Panel Mounting Fastener Requirements Wind Load and Cor,99,0.69,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+solar-panel-mounting-fastener-requirements,hi,q,2,run=9;Solar Panel Mounting Fastener Requirements Wind Load and Cor,109,0.65,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+solar-panel-mounting-fastener-requirements,hi,q,3,run=9;Solar Panel Mounting Fastener Requirements Wind Load and Cor,99,0.68,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+tanzania-fastener-market-opportunities-2026,hi,a,1,run=8;Tanzania Fastener Market Dar es Salaam Hub and,140,0.46,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+tanzania-fastener-market-opportunities-2026,hi,a,3,run=8;Tanzania Fastener Market Dar es Salaam Hub and,136,0.54,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+tanzania-fastener-market-opportunities-2026,hi,q,1,run=8;Tanzania Fastener Market Dar es Salaam Hub and,102,0.65,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+tanzania-fastener-market-opportunities-2026,hi,q,2,run=8;Tanzania Fastener Market Dar es Salaam Hub and,112,0.61,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+tanzania-fastener-market-opportunities-2026,hi,q,3,run=8;Tanzania Fastener Market Dar es Salaam Hub and,102,0.64,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+wind-energy-fastener-requirements-2026,hi,a,1,run=9;Wind Energy Fastener Requirements Standards for Wind Turbine,138,0.5,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+wind-energy-fastener-requirements-2026,hi,a,3,run=9;Wind Energy Fastener Requirements Standards for Wind Turbine,134,0.58,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+wind-energy-fastener-requirements-2026,hi,q,1,run=9;Wind Energy Fastener Requirements Standards for Wind Turbine,100,0.69,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+wind-energy-fastener-requirements-2026,hi,q,2,run=9;Wind Energy Fastener Requirements Standards for Wind Turbine,110,0.65,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+wind-energy-fastener-requirements-2026,hi,q,3,run=9;Wind Energy Fastener Requirements Standards for Wind Turbine,100,0.69,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+zimbabwe-agricultural-fastener-requirements,hi,a,1,run=9;Zimbabwe Agricultural Fastener Requirements Tobacco Cotton a,156,0.55,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+zimbabwe-agricultural-fastener-requirements,hi,a,3,run=9;Zimbabwe Agricultural Fastener Requirements Tobacco Cotton a,152,0.62,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+zimbabwe-agricultural-fastener-requirements,hi,q,1,run=9;Zimbabwe Agricultural Fastener Requirements Tobacco Cotton a,118,0.73,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+zimbabwe-agricultural-fastener-requirements,hi,q,2,run=9;Zimbabwe Agricultural Fastener Requirements Tobacco Cotton a,128,0.69,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+zimbabwe-agricultural-fastener-requirements,hi,q,3,run=9;Zimbabwe Agricultural Fastener Requirements Tobacco Cotton a,118,0.72,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+zimbabwe-bulawayo-construction-hardware-supply,hi,a,1,run=9;Bulawayo Construction Hardware Supply Fastener Stockists and,152,0.52,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+zimbabwe-bulawayo-construction-hardware-supply,hi,a,3,run=9;Bulawayo Construction Hardware Supply Fastener Stockists and,148,0.59,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+zimbabwe-bulawayo-construction-hardware-supply,hi,q,1,run=9;Bulawayo Construction Hardware Supply Fastener Stockists and,114,0.69,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+zimbabwe-bulawayo-construction-hardware-supply,hi,q,2,run=9;Bulawayo Construction Hardware Supply Fastener Stockists and,124,0.65,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+zimbabwe-bulawayo-construction-hardware-supply,hi,q,3,run=9;Bulawayo Construction Hardware Supply Fastener Stockists and,114,0.69,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+bolt-markings-identify-grade,ja,a,9,run=6;Grade MPa Grade MPa Grade MPa,194,0.16,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+bolt-types-applications-guide,ja,a,2,run=4;Grade MPa Grade MPa,157,0.1,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+bolt-types-applications-guide,ja,a,8,run=4;Grade MPa Grade MPa,167,0.12,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+drc-diamond-mining-fasteners,ja,a,12,run=7;rale des Douanes et Accises Mining Code,226,0.26,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记；held=conflict slug,keep_registered
+fastener-selection-guide-african-construction,ja,a,6,run=6;Grade MPa Grade MPa Grade MPa,135,0.18,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+ghana-fastener-market-guide,ja,a,4,run=4;Ahafo Akyem Obuasi Tarkwa,79,0.28,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记；held=conflict slug,keep_registered
+morocco-tangier-med-port-fastener-re-export,ja,a,1,run=4;Tangier Med Tangier Med,169,0.12,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+mozambique-lng-construction-fasteners-maputo,ja,description,0,run=4;Cabo Delgado Afungi TotalEnergies,160,0.23,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+nigeria-fastener-market-guide,ja,a,7,run=7;Apapa Ogun Tin Can Island Calabar Apapa,174,0.2,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+nigeria-lagos-fastener-import-wholesale-guide,ja,a,2,run=5;Apapa Tin Can Island Lekki,162,0.14,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+nigeria-lagos-fastener-import-wholesale-guide,ja,a,5,run=9;Alaba International Market Idumota Market Ikeja Oshodi Apapa,215,0.31,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+nigeria-port-upgrades-and-fastener-import-lead-times,ja,a,4,run=5;Apapa Tin Can Cross River,168,0.13,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+zambia-copper-mining-fasteners-grade-selection-2026,ja,a,4,run=5;Zambia Electronic Cargo Tracking System,288,0.22,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+zimbabwe-fastener-market-case-study,ja,description,0,run=5;Bindura Nickel Corporation Falcon Plant,158,0.34,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+zimbabwe-fastener-market-case-study,ja,metaDescription,0,run=5;Bindura Nickel Corporation Falcon Plant,158,0.34,mixed_residue,主体已是目标语种原生句，拉丁为嵌入的专名/等级号，保留登记,keep_registered
+africa-railway-modernization-fastener-demand,ja,a,1,run=5;Africa Railway Modernization Fastener Demand,116,0.64,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写,rewrite_next_round_clean
+africa-railway-modernization-fastener-demand,ja,a,3,run=5;Africa Railway Modernization Fastener Demand,120,0.62,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写,rewrite_next_round_clean
+angola-construction-boom-fastener-demand,ja,a,1,run=9;Angola Construction Boom Fastener Demand Forecast and Supply,111,0.65,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+angola-construction-boom-fastener-demand,ja,a,3,run=9;Angola Construction Boom Fastener Demand Forecast and Supply,115,0.62,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+angola-construction-boom-fastener-demand,ja,q,1,run=9;Angola Construction Boom Fastener Demand Forecast and Supply,98,0.74,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+angola-construction-boom-fastener-demand,ja,q,2,run=9;Angola Construction Boom Fastener Demand Forecast and Supply,107,0.69,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+angola-construction-boom-fastener-demand,ja,q,3,run=9;Angola Construction Boom Fastener Demand Forecast and Supply,98,0.74,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+automotive-fastener-grade-comparison,ja,a,1,run=4;Automotive Fastener Grade Comparison,102,0.66,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+automotive-fastener-grade-comparison,ja,a,3,run=4;Automotive Fastener Grade Comparison,106,0.64,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+automotive-fastener-grade-comparison,ja,q,1,run=4;Automotive Fastener Grade Comparison,89,0.77,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+automotive-fastener-grade-comparison,ja,q,2,run=4;Automotive Fastener Grade Comparison,98,0.71,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+automotive-fastener-grade-comparison,ja,q,3,run=4;Automotive Fastener Grade Comparison,89,0.77,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+dr-congo-drc-mining-fastener-market,ja,a,1,run=7;Mining Fastener Market Copper Belt Lubumbashi Kolwezi,91,0.6,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+dr-congo-drc-mining-fastener-market,ja,a,3,run=7;Mining Fastener Market Copper Belt Lubumbashi Kolwezi,95,0.57,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+dr-congo-drc-mining-fastener-market,ja,q,1,run=7;Mining Fastener Market Copper Belt Lubumbashi Kolwezi,78,0.7,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+dr-congo-drc-mining-fastener-market,ja,q,2,run=7;Mining Fastener Market Copper Belt Lubumbashi Kolwezi,87,0.65,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+dr-congo-drc-mining-fastener-market,ja,q,3,run=7;Mining Fastener Market Copper Belt Lubumbashi Kolwezi,78,0.7,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+fastener-failure-analysis-case-studies,ja,a,1,run=9;Fastener Failure Analysis Real-World Case Studies and Lesson,103,0.64,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+fastener-failure-analysis-case-studies,ja,a,3,run=9;Fastener Failure Analysis Real-World Case Studies and Lesson,107,0.61,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+fastener-failure-analysis-case-studies,ja,q,1,run=9;Fastener Failure Analysis Real-World Case Studies and Lesson,90,0.74,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+fastener-failure-analysis-case-studies,ja,q,2,run=9;Fastener Failure Analysis Real-World Case Studies and Lesson,99,0.69,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+fastener-failure-analysis-case-studies,ja,q,3,run=9;Fastener Failure Analysis Real-World Case Studies and Lesson,90,0.74,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+food-beverage-fastener-hygiene-standards,ja,a,1,run=6;Food and Beverage Industry Fastener Standards,93,0.58,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+food-beverage-fastener-hygiene-standards,ja,a,3,run=6;Food and Beverage Industry Fastener Standards,97,0.55,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+food-beverage-fastener-hygiene-standards,ja,q,1,run=6;Food and Beverage Industry Fastener Standards,80,0.68,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+food-beverage-fastener-hygiene-standards,ja,q,2,run=6;Food and Beverage Industry Fastener Standards,89,0.63,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+food-beverage-fastener-hygiene-standards,ja,q,3,run=6;Food and Beverage Industry Fastener Standards,80,0.68,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+gaskets-specialty-washers-high-temp-guide,ja,metaDescription,0,run=12;Gaskets Sealing Specialty Washers Complete Gui Gaskets Seali,139,0.67,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写,rewrite_next_round_clean
+green-building-fastener-requirements,ja,a,1,run=4;Green Building Fastener Requirements,111,0.67,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+green-building-fastener-requirements,ja,a,3,run=4;Green Building Fastener Requirements,115,0.64,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+green-building-fastener-requirements,ja,q,1,run=4;Green Building Fastener Requirements,98,0.77,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+green-building-fastener-requirements,ja,q,2,run=4;Green Building Fastener Requirements,107,0.72,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+green-building-fastener-requirements,ja,q,3,run=4;Green Building Fastener Requirements,98,0.77,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+kenya-east-africa-fastener-distribution-hub,ja,a,1,run=10;Kenya East Africa Fastener Distribution Hub Mombasa Port and,121,0.67,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+kenya-east-africa-fastener-distribution-hub,ja,a,3,run=10;Kenya East Africa Fastener Distribution Hub Mombasa Port and,125,0.65,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+kenya-east-africa-fastener-distribution-hub,ja,q,1,run=10;Kenya East Africa Fastener Distribution Hub Mombasa Port and,108,0.76,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+kenya-east-africa-fastener-distribution-hub,ja,q,2,run=10;Kenya East Africa Fastener Distribution Hub Mombasa Port and,117,0.71,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+kenya-east-africa-fastener-distribution-hub,ja,q,3,run=10;Kenya East Africa Fastener Distribution Hub Mombasa Port and,108,0.76,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+marine-fasteners-guide,ja,metaDescription,0,run=10;Marine Fasteners Guide Saltwater-Resistant Fasten Marine Fas,139,0.7,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写,rewrite_next_round_clean
+mozambique-fastener-import-market-guide,ja,a,1,run=8;Mozambique Fastener Import Market Guide Ports Suppliers Regu,106,0.61,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+mozambique-fastener-import-market-guide,ja,a,3,run=8;Mozambique Fastener Import Market Guide Ports Suppliers Regu,110,0.59,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+mozambique-fastener-import-market-guide,ja,q,1,run=8;Mozambique Fastener Import Market Guide Ports Suppliers Regu,93,0.71,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+mozambique-fastener-import-market-guide,ja,q,2,run=8;Mozambique Fastener Import Market Guide Ports Suppliers Regu,102,0.66,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+mozambique-fastener-import-market-guide,ja,q,3,run=8;Mozambique Fastener Import Market Guide Ports Suppliers Regu,93,0.71,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+non-standard-special-shape-screws-custom-guide,ja,metaDescription,0,run=12;Non-Standard Special Shape Screws Custom Manufa Non-Standard,139,0.67,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写,rewrite_next_round_clean
+solar-panel-mounting-fastener-requirements,ja,a,1,run=9;Solar Panel Mounting Fastener Requirements Wind Load and Cor,98,0.64,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+solar-panel-mounting-fastener-requirements,ja,a,3,run=9;Solar Panel Mounting Fastener Requirements Wind Load and Cor,102,0.62,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+solar-panel-mounting-fastener-requirements,ja,q,1,run=9;Solar Panel Mounting Fastener Requirements Wind Load and Cor,85,0.75,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+solar-panel-mounting-fastener-requirements,ja,q,2,run=9;Solar Panel Mounting Fastener Requirements Wind Load and Cor,94,0.7,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+solar-panel-mounting-fastener-requirements,ja,q,3,run=9;Solar Panel Mounting Fastener Requirements Wind Load and Cor,85,0.75,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+tanzania-fastener-market-opportunities-2026,ja,a,1,run=8;Tanzania Fastener Market Dar es Salaam Hub and,101,0.6,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+tanzania-fastener-market-opportunities-2026,ja,a,3,run=8;Tanzania Fastener Market Dar es Salaam Hub and,105,0.58,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+tanzania-fastener-market-opportunities-2026,ja,q,1,run=8;Tanzania Fastener Market Dar es Salaam Hub and,88,0.71,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+tanzania-fastener-market-opportunities-2026,ja,q,2,run=8;Tanzania Fastener Market Dar es Salaam Hub and,97,0.66,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+tanzania-fastener-market-opportunities-2026,ja,q,3,run=8;Tanzania Fastener Market Dar es Salaam Hub and,88,0.71,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+wind-energy-fastener-requirements-2026,ja,a,1,run=9;Wind Energy Fastener Requirements Standards for Wind Turbine,99,0.65,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+wind-energy-fastener-requirements-2026,ja,a,3,run=9;Wind Energy Fastener Requirements Standards for Wind Turbine,103,0.62,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+wind-energy-fastener-requirements-2026,ja,q,1,run=9;Wind Energy Fastener Requirements Standards for Wind Turbine,86,0.76,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+wind-energy-fastener-requirements-2026,ja,q,2,run=9;Wind Energy Fastener Requirements Standards for Wind Turbine,95,0.7,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+wind-energy-fastener-requirements-2026,ja,q,3,run=9;Wind Energy Fastener Requirements Standards for Wind Turbine,86,0.76,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+zim-construction-anchor-bolts-supplier-evaluation-corrosion-resistance,ja,a,1,run=8;Grade ksi MPa elius Grade ksi MPa Grade,136,0.33,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写,rewrite_next_round_clean
+zimbabwe-agricultural-fastener-requirements,ja,a,1,run=9;Zimbabwe Agricultural Fastener Requirements Tobacco Cotton a,117,0.69,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+zimbabwe-agricultural-fastener-requirements,ja,a,3,run=9;Zimbabwe Agricultural Fastener Requirements Tobacco Cotton a,121,0.66,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+zimbabwe-agricultural-fastener-requirements,ja,q,1,run=9;Zimbabwe Agricultural Fastener Requirements Tobacco Cotton a,104,0.78,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+zimbabwe-agricultural-fastener-requirements,ja,q,2,run=9;Zimbabwe Agricultural Fastener Requirements Tobacco Cotton a,113,0.73,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+zimbabwe-agricultural-fastener-requirements,ja,q,3,run=9;Zimbabwe Agricultural Fastener Requirements Tobacco Cotton a,104,0.78,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+zimbabwe-bulawayo-construction-hardware-supply,ja,a,1,run=9;Bulawayo Construction Hardware Supply Fastener Stockists and,113,0.65,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+zimbabwe-bulawayo-construction-hardware-supply,ja,a,3,run=9;Bulawayo Construction Hardware Supply Fastener Stockists and,117,0.63,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+zimbabwe-bulawayo-construction-hardware-supply,ja,q,1,run=9;Bulawayo Construction Hardware Supply Fastener Stockists and,100,0.75,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+zimbabwe-bulawayo-construction-hardware-supply,ja,q,2,run=9;Bulawayo Construction Hardware Supply Fastener Stockists and,109,0.7,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
+zimbabwe-bulawayo-construction-hardware-supply,ja,q,3,run=9;Bulawayo Construction Hardware Supply Fastener Stockists and,100,0.75,prose_residue,拉丁为成句或整段英文外壳，属真残留，下一轮按 en 整段重写；held=conflict slug,rewrite_held_conflict
