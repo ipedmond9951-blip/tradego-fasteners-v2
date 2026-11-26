@@ -8,7 +8,7 @@ export default function LocalBusinessSchema({}: LocalBusinessSchemaProps) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    '@id': 'https://www.tradego-fasteners.com/#business',
+    '@id': 'https://www.tradego-fasteners.com/#localbusiness',
     name: 'TradeGo Fasteners',
     image: {
       '@type': 'ImageObject',
