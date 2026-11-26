@@ -11,18 +11,19 @@ const heroProducts = [
   { key: 'product6', src: '/images/products/coach-screws-thumb.webp', nameKey: 'coach' },
 ]
 
-// H1 按语种本地化，并带上核心市场（津巴布韦 / 南部非洲），避免泛化词
-const heroH1: Record<string, { pre: string; hi: string; post: string; sub: string }> = {
-  en: { pre: 'Wholesale ', hi: 'Fastener', post: ' Manufacturer for Zimbabwe & Southern Africa', sub: 'Drywall screws, bolts, nuts, IBR nails, anchors and waterproofing' },
-  zh: { pre: '', hi: '紧固件', post: '批发厂家｜直供津巴布韦与南部非洲', sub: '干墙钉、螺栓螺母、IBR 屋面钉、锚栓与防水材料' },
-  es: { pre: 'Fabricante mayorista de ', hi: 'fijaciones', post: ' para Zimbabue y África Austral', sub: 'Tornillos, pernos, tuercas, clavos IBR, anclajes e impermeabilización' },
-  fr: { pre: 'Fabricant grossiste de ', hi: 'fixations', post: ' pour le Zimbabwe et l’Afrique australe', sub: 'Vis, boulons, écrous, clous IBR, ancrages et étanchéité' },
-  pt: { pre: 'Fabricante atacadista de ', hi: 'fixadores', post: ' para o Zimbabué e a África Austral', sub: 'Parafusos, pernos, porcas, pregos IBR, chumbadores e impermeabilização' },
-  ar: { pre: 'مصنع ', hi: 'مثبتات', post: ' بالجملة لزيمبابوي والجنوب الأفريقي', sub: 'براغي، براغي ربط، صواميل، مسامير IBR، مثبتات ومواد عزل' },
-  ru: { pre: 'Производитель ', hi: 'крепежа', post: ' оптом для Зимбабве и Юга Африки', sub: 'Винты, болты, гайки, гвозди IBR, анкеры и гидроизоляция' },
-  ja: { pre: 'ジンバブエ・南部アフリカ向け ', hi: 'ファスナー', post: ' 卸売メーカー', sub: 'ビス、ボルト、ナット、IBR釘、アンカー、防水材' },
-  de: { pre: 'Großhandelshersteller für ', hi: 'Verbindungselemente', post: ' in Simbabwe und im südlichen Afrika', sub: 'Schrauben, Bolzen, Muttern, IBR-Nägel, Anker und Abdichtung' },
-  hi: { pre: 'ज़िम्बाब्वे और दक्षिणी अफ्रीका के लिए ', hi: 'फास्टनर', post: ' थोक निर्माता', sub: 'स्क्रू, बोल्ट, नट, IBR कील, एंकर और वॉटरप्रूफिंग' },
+// H1 讲全球能力（不把站点写死成只做津巴布韦/南非），核心市场改到页脚式小字 note：
+// 大标题负责“能不能做全球”，小字保留地域关键词给搜索与 AI 抓取，视觉上不喧宾夺主。
+const heroH1: Record<string, { pre: string; hi: string; post: string; sub: string; note: string }> = {
+  en: { pre: 'Wholesale ', hi: 'Fastener', post: ' Manufacturer — SABS 1195 Spec, Ships Worldwide', sub: 'Drywall screws, bolts, nuts, IBR nails, anchors and waterproofing', note: 'Primary markets: Zimbabwe, South Africa, Zambia, Mozambique, Botswana — other regions welcome' },
+  zh: { pre: '', hi: '紧固件', post: '批发厂家｜按 SABS 1195 规格，全球发货', sub: '干墙钉、螺栓螺母、IBR 屋面钉、锚栓与防水材料', note: '主力市场：津巴布韦、南非、赞比亚、莫桑比克、博茨瓦纳；其他地区同样接单' },
+  es: { pre: 'Fabricante mayorista de ', hi: 'fijaciones', post: ' — según SABS 1195, envíos a todo el mundo', sub: 'Tornillos, pernos, tuercas, clavos IBR, anclajes e impermeabilización', note: 'Mercados principales: Zimbabue, Sudáfrica, Zambia, Mozambique y Botsuana; otras regiones bienvenidas' },
+  fr: { pre: 'Fabricant grossiste de ', hi: 'fixations', post: ' — selon SABS 1195, expédition mondiale', sub: 'Vis, boulons, écrous, clous IBR, ancrages et étanchéité', note: 'Marchés principaux : Zimbabwe, Afrique du Sud, Zambie, Mozambique, Botswana ; autres régions bienvenues' },
+  pt: { pre: 'Fabricante atacadista de ', hi: 'fixadores', post: ' — conforme SABS 1195, envio para todo o mundo', sub: 'Parafusos, pernos, porcas, pregos IBR, chumbadores e impermeabilização', note: 'Mercados principais: Zimbabué, África do Sul, Zâmbia, Moçambique e Botswana; outras regiões bem-vindas' },
+  ar: { pre: 'مصنع ', hi: 'مثبتات', post: ' بالجملة — وفق SABS 1195 وشحن عالمي', sub: 'براغي، براغي ربط، صواميل، مسامير IBR، مثبتات ومواد عزل', note: 'الأسواق الرئيسية: زيمبابوي وجنوب أفريقيا وزامبيا وموزمبيق وبوتسوانا، وسائر المناطق مرحب بها' },
+  ru: { pre: 'Производитель ', hi: 'крепежа', post: ' оптом — по SABS 1195, доставка по миру', sub: 'Винты, болты, гайки, гвозди IBR, анкеры и гидроизоляция', note: 'Основные рынки: Зимбабве, ЮАР, Замбия, Мозамбик, Ботсвана; другие регионы тоже' },
+  ja: { pre: '卸売', hi: 'ファスナー', post: 'メーカー — SABS 1195 規格、世界発送', sub: 'ビス、ボルト、ナット、IBR釘、アンカー、防水材', note: '主要市場：ジンバブエ、南アフリカ、ザンビア、モザンビーク、ボツワナ。その他の地域も対応' },
+  de: { pre: 'Großhandelshersteller für ', hi: 'Verbindungselemente', post: ' — nach SABS 1195, weltweiter Versand', sub: 'Schrauben, Bolzen, Muttern, IBR-Nägel, Anker und Abdichtung', note: 'Hauptmärkte: Simbabwe, Südafrika, Sambia, Mosambik, Botswana; andere Regionen willkommen' },
+  hi: { pre: 'थोक ', hi: 'फास्टनर', post: ' निर्माता — SABS 1195 मानक, दुनिया भर शिपिंग', sub: 'स्क्रू, बोल्ट, नट, IBR कील, एंकर और वॉटरप्रूफिंग', note: 'मुख्य बाज़ार: ज़िम्बाब्वे, दक्षिण अफ्रीका, ज़ाम्बिया, मोज़ाम्बिक, बोत्सवाना; अन्य क्षेत्र भी स्वागत' },
 }
 
 export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
@@ -64,6 +65,10 @@ export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
             </p>
             <p className="text-sm md:text-base lg:text-lg text-primary-100/90 mb-5 md:mb-7 leading-relaxed">
               {t(locale, 'hero.badge')}
+            </p>
+            {/* 核心市场用极小字保留：搜索与 AI 仍能读到地域实体，视觉上不把全球客户挡在门外 */}
+            <p className="text-[11px] md:text-xs text-primary-100/65 mb-5 md:mb-7 leading-relaxed">
+              {hh.note}
             </p>
             <div className="flex flex-wrap gap-x-4 gap-y-2 mb-6 md:mb-8">
               {[t(locale, 'hero.iso'), t(locale, 'hero.global'), t(locale, 'hero.experience')].map((label, i) => (
