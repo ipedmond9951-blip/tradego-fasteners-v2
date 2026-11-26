@@ -131,8 +131,8 @@
     {
       "id": "materials",
       "heading": {
-        "en": "Material Selection: The Decisions That Cannot Be Reversed",
-        "zh": "选材：不可逆的决定",
+        "en": "Which material family fits a high-temperature or sour refinery joint?",
+        "zh": "高温或含硫炼厂接头该选哪类材料？",
         "ar": "اختيار المادة: قرارات لا يمكن التراجع عنها",
         "es": "Selección de material: decisiones que no se pueden revertir",
         "fr": "Choix des matériaux : des décisions irréversibles",
@@ -158,8 +158,8 @@
     {
       "id": "bolting-practice",
       "heading": {
-        "en": "Bolting Practice: Torque, Tension, and What Gets Written Down",
-        "zh": "紧固工艺：扭矩、张紧与必须留档的东西",
+        "en": "How should a flanged pressure joint be tightened and recorded?",
+        "zh": "压力法兰接头如何紧固并留档？",
         "ar": "ممارسة الشد: العزم والشدّ وما يُكتب",
         "es": "Apriete: par, tensión y lo que queda por escrito",
         "fr": "Boulonnage : couple, tension et ce qui est écrit",
@@ -265,7 +265,7 @@
             "ja": "製油所のボルト締結は建設用と何が違いますか？"
           },
           "a": {
-            "en": "Pressure, temperature, cyclic loading, and in some units hydrogen or sour service. Material selection and bolting procedure are driven by design conditions rather than by price.",
+            "en": "Refinery bolting covers stud bolts, hex bolts and nuts on flanged joints under elevated temperature, pressure, cyclic loading, and sometimes hydrogen or sour service; construction bolting mainly carries static structural loads. Each joint records where the part sits and what fluid it contacts. Material and procedure follow the design condition — temperature, pressure and medium together — not price. The common alloy choice is ASTM A193 B7, with stainless or duplex reserved for wet, chloride-heavy units; the inquiry should state equipment, fluid, operating range and whether the service is sour.",
             "zh": "炼厂螺栓面对的是高温、高压和反复启停的循环载荷，部分装置还处于临氢或含硫酸性介质工况，连接一旦失效会影响装置连续运行。选型时要把设计压力、操作温度、介质成分和振动条件逐项核对，据此确定材质牌号、性能等级和紧固工艺；紧固扭矩、上紧顺序和复验程序同样由设计条件与适用标准决定，不能凭报价高低或照搬通用建筑螺栓的经验来替代。",
             "hi": "रिफाइनरी में दबाव, तापमान, बार-बार लगने वाला भार और कुछ यूनिटों में हाइड्रोजन या सॉर सर्विस की स्थिति होती है। इसलिए सामग्री चयन और बोल्टिंग प्रक्रिया डिजाइन की परिस्थितियों के अनुसार तय होती है, कीमत के हिसाब से नहीं।",
             "ru": "На нефтеперерабатывающем заводе действуют давление, температура, повторно-переменная нагрузка, а на части установок ещё водород или сернистая среда. Выбор материала и порядок затяжки болтовых соединений определяются проектными условиями, а не ценой, поэтому здесь нельзя брать обычный строительный крепёж по каталогу и рассчитывать на тот же запас прочности.",
@@ -291,7 +291,7 @@
             "ja": "どんな書類が一般的に必要ですか？"
           },
           "a": {
-            "en": "Material certificates with heat numbers, mechanical test results, low-temperature impact testing where specified, non-destructive test reports, and marking that lets the certificate be tied to the delivered parts.",
+            "en": "The package covers material certificates with heat numbers, mechanical property results, and non-destructive test reports where specified. For high-pressure service, low-temperature impact testing is frequently required, and the certificate must state the test temperature, not only the result. EN 10204 certificates record chemistry and mechanical properties, and the packing list must match grade, size, coating and quantity. Traceability runs both ways: the certificate identifies the batch, and the batch is identifiable on the parts by marking that survives coating. Third-party inspection, where required, is arranged before shipment and filed with the batch records.",
             "zh": "通常需要的文件包括：带炉号的材质证明，用以追溯每批材料的熔炼来源；力学性能试验结果；在设计有要求时提供的低温冲击试验报告；以及无损检测报告。零件本身还要有清晰标识，使材质证书和检验记录能够对应到实际交付的批次和单件，便于现场追溯和质量核对，避免仅凭外观或牌号判断连接件是否合格。",
             "hi": "मटीरियल प्रमाण-पत्र (heat number सहित), यांत्रिक परीक्षण परिणाम, जहां बताया गया हो वहां कम तापमान पर इम्पैक्ट परीक्षण, गैर-विनाशकारी परीक्षण रिपोर्ट, और ऐसी निशानी जिससे प्रमाण-पत्र को पहुंचे भागों से जोड़ा जा सके। ये कागज़ माल की पहचान और जांच का आधार बनते हैं।",
             "ru": "К партии нужны сертификаты на материал с номерами плавки, результаты механических испытаний, при требовании — испытания на удар при низкой температуре, протоколы неразрушающего контроля и маркировка, по которой сертификат привязывается к поставленным деталям. Такие документы оформляются по условиям заказа и идут вместе с грузом.",
@@ -317,7 +317,7 @@
             "ja": "潤滑剤の選択がなぜ重要ですか？"
           },
           "a": {
-            "en": "For the same preload, different lubricants produce different effective torque. The tightening procedure must name the lubricant so the specified torque is repeatable across crews.",
+            "en": "For the same preload, different lubricants produce different effective torque, so the procedure must name the lubricant rather than leave it to the crew. Lubrication changes the torque-to-load relationship, and leaving it unspecified lets one crew over-tighten while another under-tightens the joint. The record should list the lubricant used, the target torque or turn method, and the sequence around the flange. Tool calibration status is kept with the turn or torque values, because a correctly tightened but undocumented joint is usually re-torqued, and every re-torque consumes life. Reused critical-joint fasteners are inspected or replaced.",
             "zh": "在相同预紧力要求下，采用不同润滑剂会产生不同的有效扭矩，因此同样的扭矩读数在不同润滑条件下对应的实际夹紧力并不一致。紧固工艺文件必须明确写明所用润滑剂的种类、状态和涂抹方式，这样规定的扭矩值才能在不同施工班组之间重复执行，减少因润滑条件差异造成的预紧力偏差，保证连接副受力一致。",
             "hi": "एक ही प्री-लोड पर अलग लुब्रिकेंट अलग प्रभावी टॉर्क देते हैं। टाइटनिंग प्रक्रिया में लुब्रिकेंट का नाम लिखा होना चाहिए, ताकि तय टॉर्क अलग-अलग टीमों द्वारा बार-बार एक जैसा लगाया जा सके; चिकनाई बदलने पर टॉर्क मान दोबारा स्थापित करना पड़ता है।",
             "ru": "При одинаковой предварительной затяжке (preload) разные смазки дают разный эффективный момент (torque). В порядке затяжки смазку нужно указать прямо, чтобы заданный момент воспроизводился разными бригадами и предсказуемо давал нужное натяжение болта, а не разгонял разброс по резьбе.",
@@ -343,7 +343,7 @@
             "ja": "沿岸の製油所構造物はどう保護しますか？"
           },
           "a": {
-            "en": "Choose coatings by exposure: hot-dip galvanizing or zinc-rich systems for structural bolting, stainless or composite where chloride levels are high, and isolation between dissimilar metals.",
+            "en": "Coating follows the exposure, not tradition. Hot-dip galvanizing or zinc-rich systems suit structural bolting; stainless or composite systems are used where chloride levels are high, with isolation between dissimilar metals. Coastal and refinery atmospheres combine humidity, salt air, fumes and condensation, and failure usually appears at thread roots and under washers. Check the finish for a continuous surface before installation, and confirm the thread allowance after finishing; thick finishes can affect fit. Stainless in chloride service relies on passive resistance and is kept apart from carbon steel; store parts dry and off the damp floor.",
             "zh": "沿海或潮湿炼厂应按实际暴露条件选择防腐方案：结构螺栓可采用热浸镀锌或富锌涂层体系；在氯离子含量较高的部位，宜选用不锈钢或复合材料紧固件；当两种不同金属相互接触时，中间要加绝缘隔离层，避免电偶腐蚀加快连接件的损坏，延长在苛刻环境中的服役时间。",
             "hi": "कोटिंग पर्यावरणीय जोखिम के हिसाब से चुनें: संरचनात्मक बोल्टिंग के लिए HDG या जिंक-रिच सिस्टम, क्लोराइड की मात्रा ज़्यादा हो तो स्टेनलेस या कंपोजिट विकल्प। भिन्न धातुओं के बीच अलगाव रखें, ताकि गैल्वेनिक जंग न लगे।",
             "ru": "Покрытие выбирают по типу воздействия: для несущих болтовых соединений — горячее цинкование (HDG) или цинкнаполненные системы, при высоком содержании хлоридов — нержавеющую сталь или композиционные материалы, между разнородными металлами ставят изоляцию, чтобы исключить гальваническую пару.",
