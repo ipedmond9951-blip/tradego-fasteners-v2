@@ -189,3 +189,32 @@
 - 实测（按 `docs/compliance-redspots-2026-1126.md` 表格首列 slug 逐行解析）：§1 已整改表 **2 篇** + §3–§5 表 **203 行 / 去重 109 篇** = **总去重 111 篇**（A 区 14 / B 区 97）。
 - 差 2 的具体来源：§0 汇总行的「真违规 109 篇 / 剩余 107 篇」是**只减未加**——109 其实等于 §3–§5 的去重数，漏掉了 §1 已整改的 2 篇：**`ghana-building-materials`、`angola-lng-project-procurement`**。所以 107 是"剩余"，不是"总数"；差 2 就是这 2 篇已整改文章，**不存在两篇漏统计的新文章**。
 - 归属：A 区 14 篇（含 `angola-lng-project-procurement`）由 A 线处理；B 区 97 篇中 `ghana-building-materials` 已整改，余 96 篇为本轮 ar 认证清债对象（结果见 §6-C）。
+
+## §6-C B 线 R-T9n 执行结果（2026-11-26 21:00 CST 收口冻结）
+
+| 项 | 结果 | 证据 |
+|---|---|---|
+| 5 篇在途 82 条 | **全部清零**（另有 2 条顺手整改：zim ru 认证口径 1、ghana ja body 壳 1） | `$T9M/batch-r9n-5files.csv`（84 行） |
+| B 区 ar 认证 | **70 篇 / 99 处** 改完；KEEP 442 行；A 区登记 32 篇 / 146 行 + 1 处 CTA；**B 区残留 1 处**（见下） | `$T9M/batch-r9n-ar.csv`（78+2 行）、`ar-cert-audit.csv`、`ar-cert-remainder.csv` |
+| 翻译缺口 | rwanda zh+490/hi+1612；mozambique-standards zh 口径句；maputo `faq[0].a.ja` 误译修正 | `$T9M/batch-r9n-trans.csv` |
+| 红点 109 vs 107 | **差 2 = 已整改的 2 篇**（`ghana-building-materials`、`angola-lng-project-procurement`），非新增文章；总数实为 111（A 14 / B 97） | 本文件 §6-B.7 |
+| 收尾复核 | 240 篇 B 区判据全跑：超长 0 / 短答 0 / 占位 0 / 拉丁 13（全 keep_proper）；`content_gate` PASS、新增 BLOCK 0 | `$T9M/verify9-result.md` |
+
+**5 篇在途（B 线接手后提交，均单文件、均过闸门）**
+
+| slug | 清掉 | commit |
+|---|---|---|
+| `africa-fastener-market-opportunities-2026` | 13 短答（zh7/ja6） | `bd8bcdd3` |
+| `china-fasteners-zimbabwe-procurement-guide` | 10 短答（zh6/ja4）+ ru 认证 1 | `a435c689` |
+| `drc-diamond-mining-fasteners` | 超长 20 + 短答 12 + hi 拉丁 1 | `10d10927` |
+| `ghana-fastener-market-guide` | 13 短答（zh7/ja6）+ ja body 壳 1 | `291f5f05` |
+| `malawi-fastener-market-case-study` | 超长 5 + 短答 7 + `a.en` 占位 1 | `0e9a2bee` |
+
+- 5 篇 mtime 守护全部 pass，**未触发 external-write**；以磁盘现状为基准提交，未回退任何他线译文。
+- `ja` 23 条短答（verify9 清单里的 ja 缺口）全部在这 5 篇内，已随篇清零，无需另开批次。
+
+**ar 认证残留（唯一 1 处，判为保留）**：`china-hex-nuts-manufacturer` 的 `metaDescription.ar`「ابحث عن موردين حاصلين على شهادة ISO 9001」——主语是"寻找的第三方供应商"，属目录筛选语境，非我方持证自述；该篇 description 十语种已由 A 线改过（见 §6-B.6 第 1 条），B 线不回写。请 A 线在 §6-B.5 第 5 项一并确认这条保留判断。
+
+**A 区登记不改（A 线处理后自行回填）**：`china-iso-9001-fastener-manufacturer-directory`、`fastener-supply-chain-africa-beira-corridor`、`rwanda-construction-fastener-standards`、`fastener-supply-chain-africa-beira-corridor` 等 32 篇 / 146 行；另有 `ivory-coast-abidjan-port-fastener-tariff` 的 `cta/text.ar`（「توفر TradeGo أدوات تثبيت معتمدة وفق ISO/EN/ASTM」）——**这是我方产品自证，请 A 线本轮内改掉**。
+
+**结论**：B 区本轮可清债已全部归零，明早 00:00 push 窗口可推；A 线侧仅剩 §6-B.5 五项回填与上面 1 处 A 区 CTA。
