@@ -163,7 +163,8 @@
             "es": "¿Puedo usar una tuerca inoxidable en un perno de acero al carbono?",
             "fr": "Peut-on employer un écrou inox sur un boulon acier carbone ?",
             "pt": "Posso usar porca inoxidável em parafuso de aço-carbono?",
-            "de": "Kann ich eine Edelstahlmutter auf eine Stahlschraube setzen?"
+            "de": "Kann ich eine Edelstahlmutter auf eine Stahlschraube setzen?",
+            "ja": "炭素鋼ボルトにステンレスナットを使えますか？"
           },
           "a": {
             "en": "Yes, but be aware of galvanic corrosion in wet environments—the stainless nut on a carbon steel bolt creates a galvanic couple. In dry conditions this is acceptable.",
@@ -174,7 +175,8 @@
             "es": "Sí, pero preste atención a la corrosión galvánica en ambientes húmedos: la tuerca inoxidable sobre un perno de acero al carbono forma una pareja galvánica. En condiciones secas esto es aceptable. El contacto de metales distintos se revisa según la humedad del servicio.",
             "fr": "Oui, mais en gardant à l'esprit la corrosion galvanique en milieu humide : l'écrou inox sur boulon acier carbone forme un couple galvanique. En conditions sèches, l'association reste acceptable. En humidité, il vaut mieux harmoniser les matériaux ou prévoir une isolation entre les métaux dissemblables.",
             "pt": "Sim, mas atente para a corrosão galvânica em ambientes úmidos: a porca inoxidável no parafuso de aço-carbono forma um par galvânico. Em condições secas isso é aceitável. O par é conferido contra a umidade do ambiente, e os materiais são isolados quando dissimilar, conforme a ficha do projeto da ligação.",
-            "de": "Ja, doch achten Sie auf galvanische Korrosion in feuchter Umgebung – die Edelstahlmutter auf der Kohlenstoffstahlschraube bildet ein galvanisches Paar. Unter trockenen Bedingungen ist dies vertretbar."
+            "de": "Ja, doch achten Sie auf galvanische Korrosion in feuchter Umgebung – die Edelstahlmutter auf der Kohlenstoffstahlschraube bildet ein galvanisches Paar. Unter trockenen Bedingungen ist dies vertretbar.",
+            "ja": "使えますが、湿潤環境では電食に注意してください。炭素鋼ボルトにステンレスナットを組み合わせると異金属の組み合わせになります。乾燥した条件であれば許容できますが、水や塩分がかかる箇所では同種材料の組み合わせを検討してください。接続部の表面に水分がたまりやすい環境では、組み合わせの相性を事前に評価してください。"
           }
         },
         {
@@ -187,7 +189,8 @@
             "es": "¿Qué es la carga de prueba para tuercas hexagonales?",
             "fr": "Que représente la charge d'épreuve d'un écrou hex ?",
             "pt": "O que é carga de prova em porcas sextavadas?",
-            "de": "Was ist die Prüflast für Sechskantmuttern?"
+            "de": "Was ist die Prüflast für Sechskantmuttern?",
+            "ja": "六角ナットの保証荷重とは何ですか？"
           },
           "a": {
             "en": "Proof load is the maximum load a nut can withstand without thread stripping. For A4-80 (316 stainless), proof load is 800 MPa × stress area = the load at which permanent deformation occurs.",
@@ -198,7 +201,8 @@
             "es": "La carga de prueba es la carga máxima que una tuerca soporta sin pelar la rosca. Para A4-80 (inoxidable 316), la carga de prueba es 800 MPa por área de tensión = la carga a la que aparece la deformación permanente. Ese valor marca el límite antes de que la rosca falle.",
             "fr": "La charge d'épreuve est la charge maximale qu'un écrou supporte sans éraflure de filetage. Pour l'A4-80 (inox 316), la charge d'épreuve vaut 800 MPa multipliée par la surface de contrainte : c'est la charge à laquelle apparaît une déformation permanente. Cette valeur conditionne la sélection de l'écrou sous la reprise de charge prévue.",
             "pt": "A carga de prova é a carga máxima que uma porca suporta sem rasgar a rosca. No A4-80 (inoxidável 316), a carga de prova é 800 MPa multiplicado pela área de tensão, o limite em que ocorre deformação permanente. A carga é conferida na ficha da classe, e a porca é casada com o parafuso da mesma família inoxidável.",
-            "de": "Die Prüflast ist die Höchstlast, die eine Mutter aushält, ohne dass das Gewinde ausstreicht. Bei A4-80 (Edelstahl 316) ergibt sich die Prüflast aus 800 MPa × Spannungsquerschnitt, also der Last, bei der bleibende Verformung auftritt."
+            "de": "Die Prüflast ist die Höchstlast, die eine Mutter aushält, ohne dass das Gewinde ausstreicht. Bei A4-80 (Edelstahl 316) ergibt sich die Prüflast aus 800 MPa × Spannungsquerschnitt, also der Last, bei der bleibende Verformung auftritt.",
+            "ja": "保証荷重とは、ねじの崩れを起こさずにナットが耐えられる最大の荷重です。A4-80、つまり 316 ステンレスでは、保証荷重は 800 MPa に応力面積を掛けた値で、その荷重で永久変形が生じます。仕様書の荷重項目を確認し、接合の許容応力に照らして選定してください。"
           }
         },
         {
@@ -211,7 +215,8 @@
             "es": "¿Qué grado inoxidable para exposición costera o química?",
             "fr": "Quelle nuance inox pour l'exposition côtière ou chimique ?",
             "pt": "Qual grau inoxidável para exposição costeira ou química?",
-            "de": "Welche Edelstahlgüte für Küsten- oder Chemiebelastung?"
+            "de": "Welche Edelstahlgüte für Küsten- oder Chemiebelastung?",
+            "ja": "沿岸や薬液環境にはどのステンレス鋼種を使いますか？"
           },
           "a": {
             "en": "A4/316 for chloride, marine and most chemical service, A2/304 for general outdoor and food-adjacent work. The grade on the nut must match the bolt, otherwise the couple accelerates corrosion at the joint.",
@@ -222,7 +227,8 @@
             "es": "A4/316 para cloruros, servicio marino y la mayoría de medios químicos, A2/304 para exterior general y trabajo próximo a alimentos. El grado de la tuerca debe coincidir con el perno, de otro modo la pareja acelera la corrosión en la unión. El material se empareja entre las dos piezas.",
             "fr": "A4/316 pour le chlorure, le milieu marin et la plupart des services chimiques, A2/304 pour l'extérieur courant et les travaux au contact alimentaire. La nuance de l'écrou doit correspondre à celle du boulon, sinon le couple accélère la corrosion au joint. L'association inox/inox évite ce déséquilibre galvanique.",
             "pt": "A4/316 para cloreto, serviço marinho e a maioria dos meios químicos; A2/304 para exterior geral e trabalho adjacente a alimentos. O grau na porca deve casar com o parafuso, senão o par acelera a corrosão na junta. O material segue a exposição, e a compatibilidade é conferida no conjunto da ligação.",
-            "de": "A4/316 für Chlorid-, Marine- und die meisten Chemiebeanspruchungen, A2/304 für allgemeinen Außen- und lebensmittelnahen Einsatz. Die Güte der Mutter muss mit der Schraube übereinstimmen, sonst beschleunigt das Paar die Korrosion an der Verbindung."
+            "de": "A4/316 für Chlorid-, Marine- und die meisten Chemiebeanspruchungen, A2/304 für allgemeinen Außen- und lebensmittelnahen Einsatz. Die Güte der Mutter muss mit der Schraube übereinstimmen, sonst beschleunigt das Paar die Korrosion an der Verbindung.",
+            "ja": "塩化物、海洋、多くの化学薬品用途には A4 の 316、一般の屋外や食品に近い作業には A2 の 304 を使います。ナットの鋼種はボルトと一致させる必要があり、異なると接続部で腐食が加速します。水回りや海沿いでは特にこの組み合わせを確認してください。"
           }
         }
       ],
