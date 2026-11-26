@@ -224,7 +224,8 @@
             "ar": "كيف أحدد مقاس برغي الحرف U لأنبوب؟",
             "es": "¿Cómo se dimensiona un perno en U para una tubería?",
             "fr": "Comment dimensionner un étrier U pour une tuyauterie ?",
-            "pt": "Como dimensionar um parafuso U para um tubo?"
+            "pt": "Como dimensionar um parafuso U para um tubo?",
+            "de": "Wie wähle ich die U-Bolzen-Größe für ein Rohr?"
           },
           "a": {
             "en": "Size by the pipe's outside diameter, not the nominal bore. The U-bolt's inner width should be slightly larger than the pipe OD including insulation, and the leg length must cover bracket thickness plus two nuts and washers. On high-vibration lines such as mining slurry piping, add lock nuts or double nuts.",
@@ -235,7 +236,8 @@
             "ar": "حدده حسب القطر الخارجي للأنبوب لا التجويف الاسمي. ويجب أن يكون العرض الداخلي لبرغي U أكبر قليلاً من القطر الخارجي شاملاً العزل، وأن تغطي طول الرجل سماكة الحامل مع صامولتين وحلقتين غسالة. وفي الخطوط عالية الاهتزاز مثل أنابيب ملاط التعدين أضف صواميل قفل أو صامولتين.",
             "es": "Se toma el diámetro exterior del tubo, no el diámetro nominal interior. La anchura interior del perno en U debe ser ligeramente mayor que el OD del tubo incluyendo aislamiento, y la longitud del brazo debe cubrir el grosor de la brida más dos tuercas y arandelas. En líneas de alta vibración, como tuberías de lodo minero, se añaden tuercas autoblocantes o dobles.",
             "fr": "On dimensionne au diamètre extérieur du tube, pas au diamètre nominal. La largeur intérieure de l'étrier U doit être légèrement supérieure au diamètre extérieur isolation comprise, et la longueur des branches couvre l'épaisseur de bride plus deux écrous et rondelles. Sur les lignes très vibrantes type tuyauterie à lisier minière, on ajoute des écrous freinants ou un double écrou.",
-            "pt": "Dimensiona-se pelo diâmetro externo do tubo, não pelo diâmetro nominal interno. A largura interna do parafuso U deve ser ligeiramente maior que o diâmetro externo do tubo, incluindo isolamento, e o comprimento das pernas deve cobrir a espessura do suporte mais duas porcas e arruelas. Em linhas de alta vibração, como tubulação de polpa de mineração, adicionam-se porcas autoblocantes ou porcas duplas. O aperto segue o valor de torque do fabricante."
+            "pt": "Dimensiona-se pelo diâmetro externo do tubo, não pelo diâmetro nominal interno. A largura interna do parafuso U deve ser ligeiramente maior que o diâmetro externo do tubo, incluindo isolamento, e o comprimento das pernas deve cobrir a espessura do suporte mais duas porcas e arruelas. Em linhas de alta vibração, como tubulação de polpa de mineração, adicionam-se porcas autoblocantes ou porcas duplas. O aperto segue o valor de torque do fabricante.",
+            "de": "Bemessen wird nach dem Außendurchmesser des Rohrs, nicht nach der Nennbohrung. Die innere Breite des U-Bolzens sollte etwas größer sein als der Rohr-AD inklusive Isolierung, und die Schenkellänge muss die Brackettstärke plus zwei Muttern und Scheiben abdecken. Auf stark vibrierenden Leitungen wie Bergbau-Schlammleitungen sind Sicherungsmuttern oder Doppelmuttern vorzusehen."
           }
         },
         {
@@ -248,7 +250,8 @@
             "ar": "لماذا تفشل براغي U في أنابيب التعدين الأفريقية؟",
             "es": "¿Por qué fallan los pernos en U en tuberías mineras africanas?",
             "fr": "Pourquoi les étriers U échouent-ils en tuyauterie minière africaine ?",
-            "pt": "Por que parafusos U falham em tubulação de mineração africana?"
+            "pt": "Por que parafusos U falham em tubulação de mineração africana?",
+            "de": "Warum versagen U-Bolzen an afrikanischen Bergbau-Rohren?"
           },
           "a": {
             "en": "The usual causes are undersized bolts that leave a gap and allow movement, insufficient coating that rusts quickly in wet dusty conditions, and tightening without a torque wrench so vibration loosens the joint. Specify hot-dip galvanized or stainless U-bolts for mining service and tighten to the maker's torque value.",
@@ -259,7 +262,8 @@
             "ar": "الأسباب المعتادة: براغي ناقصة المقاس تترك فراغاً فتسمح بالحركة؛ وطلاء غير كافٍ فيصدأ بسرعة في الظروف الرطبة المتربة؛ والشد دون مفتاح عزم فيفك الوصل بالاهتزاز. وحدد براغي U مجلفنة بالغمس الساخن أو ستانلس لخدمة التعدين، وشدّ بقيمة العزم الموصى بها من الشركة المصنعة.",
             "es": "Las causas habituales son pernos de tamaño insuficiente que dejan holgura y movimiento, recubrimiento insuficiente que oxida pronto en húmedo y polvo, y apriete sin llave dinamométrica, de modo que la vibración afloja la unión. Se especifican pernos en U galvanizados en caliente o inoxidables para servicio minero, y se aprieta al valor de par del fabricante.",
             "fr": "Les causes habituelles sont des boulons sous-dimensionnés qui laissent un jeu et un mouvement, un revêtement insuffisant qui rouille vite en milieu humide et poussiéreux, et un serrage sans clé dynamométrique qui desserre le joint sous vibration. On spécifie des étriers U HDG ou inox pour le service minier, et l'on serre selon le couple indiqué par le fabricant.",
-            "pt": "As causas usuais são parafusos subdimensionados que deixam folga e permitem movimento, revestimento insuficiente que enferruja rápido em condição úmida e poeirenta, e aperto sem chave de torque, de modo que a vibração solta a junta. Especificam-se parafus U galvanizados a quente ou inoxidáveis para serviço de mineração e aperta-se ao valor de torque do fabricante. A inspeção periódica verifica folga e corrosão nos suportes."
+            "pt": "As causas usuais são parafusos subdimensionados que deixam folga e permitem movimento, revestimento insuficiente que enferruja rápido em condição úmida e poeirenta, e aperto sem chave de torque, de modo que a vibração solta a junta. Especificam-se parafus U galvanizados a quente ou inoxidáveis para serviço de mineração e aperta-se ao valor de torque do fabricante. A inspeção periódica verifica folga e corrosão nos suportes.",
+            "de": "Übliche Ursachen sind zu kleine Bolzen mit Spalt und Bewegungsspiel, unzureichende Beschichtung, die in feucht-staubiger Umgebung schnell rostet, und Anziehen ohne Drehmomentschlüssel, sodass Vibration die Verbindung lockert. Für den Bergbaueinsatz sind feuerverzinkte oder Edelstahl-U-Bolzen zu spezifizieren und nach dem Hersteller-Drehmomentwert anzuziehen."
           }
         },
         {
@@ -272,7 +276,8 @@
             "ar": "كيف يتكامل برغي U مع مشبك الأنبوب؟",
             "es": "¿Cómo trabajan juntos los pernos en U y las abrazaderas?",
             "fr": "Comment étrier U et collier tuyauterie travaillent ensemble ?",
-            "pt": "Como parafuso U e abraçadeira trabalham juntos?"
+            "pt": "Como parafuso U e abraçadeira trabalham juntos?",
+            "de": "Wie wirken U-Bolzen und Rohrschellen zusammen?"
           },
           "a": {
             "en": "A U-bolt provides transverse clamping, while a pipe clamp gives axial location and damping. At sliding supports use a clamp that allows axial movement; at anchor points the U-bolt plus bracket takes the axial thrust. Space supports per the piping support standard to avoid concentrated loads.",
@@ -283,7 +288,8 @@
             "ar": "يوفر برغي U التثبيت العرضي، بينما يمنح مشبك الأنبوب التموضع المحوري وترجيح الاهتزاز. وفي الدعامات المنزلقة استخدم مشبكاً يسمح بالحركة المحورية؛ وعند نقاط التثبيت يتحمل برغي U مع الحامل الدفع المحوري. ووزع الدعامات وفق معيار دعامات الأنابيب لتجنب الأحمال المركّزة.",
             "es": "El perno en U da sujeción transversal, mientras que la abrazadera de tubería aporta localización axial y amortiguación. En apoyos deslizantes se usa una abrazadera que permita el movimiento axial; en puntos anclados, el perno en U más la brida toman el empuje axial. Los apoyos se espacian según la norma de soportación de tuberías para evitar cargas concentradas.",
             "fr": "L'étrier U assure le bridage transversal, tandis que le collier tuyauterie donne la position axiale et l'amorti. Aux supports coulissants, on utilise un collier qui autorise le mouvement axial ; aux points d'ancrage, l'étrier U plus bride reprend la poussée axiale. On espace les supports selon le standard de supportage tuyauterie pour éviter les charges concentrées.",
-            "pt": "O parafuso U dá fixação transversal, enquanto a abraçadeira de tubo dá posicionamento axial e amortecimento. Em suportes deslizantes, usa-se uma abraçadeira que permita movimento axial; nos pontos de ancoragem, o parafuso U mais o suporte absorve o empuxo axial. Os suportes são espaçados conforme a norma de apoio de tubulação, para evitar cargas concentradas. A combinação é projetada pela direção do esforço na linha."
+            "pt": "O parafuso U dá fixação transversal, enquanto a abraçadeira de tubo dá posicionamento axial e amortecimento. Em suportes deslizantes, usa-se uma abraçadeira que permita movimento axial; nos pontos de ancoragem, o parafuso U mais o suporte absorve o empuxo axial. Os suportes são espaçados conforme a norma de apoio de tubulação, para evitar cargas concentradas. A combinação é projetada pela direção do esforço na linha.",
+            "de": "Der U-Bolzen sorgt für die Quer-Klemmung, die Rohrschelle für axiale Festlegung und Dämpfung. Bei Gleitstützen ist eine Schelle zu verwenden, die axiale Bewegung zulässt; an Verankerungspunkten tragen U-Bolzen plus Halterung den axialen Schub. Abstände der Stützen richten sich nach der Rohrstützen-Norm, um Einzellasten zu vermeiden."
           }
         }
       ],
