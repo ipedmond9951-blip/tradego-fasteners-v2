@@ -136,7 +136,8 @@
             "es": "¿Qué forma de pago conviene para pedidos de fijaciones desde China?",
             "fr": "Quel mode de paiement pour une première commande depuis la Chine ?",
             "pt": "Qual a condição de pagamento melhor no primeiro pedido da China?",
-            "de": "Welche Zahlungsbedingung ist bei Erstbestellungen aus China am besten?"
+            "de": "Welche Zahlungsbedingung ist bei Erstbestellungen aus China am besten?",
+            "ja": "初めてのファスナー注文で最も良い支払条件は何ですか？"
           },
           "a": {
             "en": "For first-time orders, use T/T 30% deposit + 70% against copy of BL (Bill of Lading). This protects the buyer — you only pay the balance when the goods are shipped and you receive proof. Avoid 100% T/T in advance for orders over $5,000. For established suppliers with a track record, you can negotiate T/T 30 days after B/L date.",
@@ -147,7 +148,8 @@
             "es": "En los primeros pedidos se usa T/T con 30% de depósito y 70% contra copia del conocimiento de embarque. Así se protege al comprador: el saldo se paga solo cuando la mercancía está enviada y se recibe la prueba. Conviene evitar el pago 100% por adelantado en pedidos de cierto volumen. Con proveedores de historial probado se puede negociar el pago a 30 días de la fecha de B/L.",
             "fr": "Pour une première commande, on retient généralement un T/T 30 % d'acompte et 70 % sur copie du connaissement (BL). Cela protège l'acheteur : le solde n'est réglé qu'à l'expédition et sur preuve de départ. On évite le 100 % T/T à l'avance pour les commandes importantes. Avec un fournisseur aux antécédents vérifiés, on peut négocier un T/T à 30 jours après la date de BL.",
             "pt": "No primeiro pedido, usa-se T/T 30% de depósito + 70% contra cópia do BL, conhecimento de embarque. Isso protege o comprador: só se paga o saldo quando a carga é embarcada e o comprovante é recebido. Evita-se T/T 100% antecipado em pedidos de valor elevado. Para fornecedores já estabelecidos com histórico, pode-se negociar T/T 30 dias após a data do B/L.",
-            "de": "Bei Erstbestellungen gilt T/T mit 30%-Anzahlung und 70% gegen Kopie des Frachtbriefs (B/L). Das schützt den Käufer: Den Rest zahlen Sie erst, wenn die Ware versandt ist und Sie den Nachweis erhalten. Bei größeren Erstbestellungen ist eine vollständige Vorkasse per T/T zu vermeiden. Bei eingespielten Lieferanten mit Nachweis lässt sich T/T 30 Tage nach B/L-Datum aushandeln."
+            "de": "Bei Erstbestellungen gilt T/T mit 30%-Anzahlung und 70% gegen Kopie des Frachtbriefs (B/L). Das schützt den Käufer: Den Rest zahlen Sie erst, wenn die Ware versandt ist und Sie den Nachweis erhalten. Bei größeren Erstbestellungen ist eine vollständige Vorkasse per T/T zu vermeiden. Bei eingespielten Lieferanten mit Nachweis lässt sich T/T 30 Tage nach B/L-Datum aushandeln.",
+            "ja": "初回の注文では、生産開始時の頭金と、船荷証券写しに対する残額支払いの流れを使います。これは買い手を守り、貨物が出荷され証拠を受け取るまで全額を渡しません。取引実績のある供給元では、船荷証券日から一定期間後の支払いも交渉できます。新しい供給元への全額一括支払いは避けてください。"
           }
         },
         {
@@ -160,7 +162,8 @@
             "es": "¿Qué ahorro da el pedido en contenedor completo?",
             "fr": "Quelle remise attendre sur commande en conteneur complet ?",
             "pt": "Que desconto se espera em pedidos de contêiner cheio?",
-            "de": "Welcher Preisvorteil ist bei Vollcontainer-Bestellungen zu erwarten?"
+            "de": "Welcher Preisvorteil ist bei Vollcontainer-Bestellungen zu erwarten?",
+            "ja": "フルコンテナで注文すると値引きはどのくらい期待できますか？"
           },
           "a": {
             "en": "Full container orders (20ft) typically get 15-25% lower pricing compared to less-than-container-load (LCL) orders. The discount increases with volume commitment — ordering 2-4 containers per order can achieve 20-30% savings. Annual volume commitments (100+ containers/year) can reach 25-40% discount from Chinese factories.",
@@ -171,7 +174,8 @@
             "es": "Los pedidos en contenedor completo suelen obtener un precio más bajo que los envíos consolidados LCL. La reducción aumenta con el compromiso de volumen: pedidos de varios contenedores por envío mejoran el precio frente a lotes pequeños. Los compromisos anuales de gran volumen permiten una negociación más favorable con las fábricas chinas; cada caso se confirma en el presupuesto, según clase, recubrimiento y destino.",
             "fr": "Les commandes en conteneur 20 ft bénéficient d'un prix nettement plus bas qu'un groupage LCL. L'avantage croît avec l'engagement de volume : plusieurs conteneurs par commande, puis un engagement annuel, permettent d'obtenir une baisse supplémentaire auprès des usines chinoises. Le niveau réel dépend de la matière, de la classe et du revêtement ; on compare le coût arrivé complet plutôt que la seule remise affichée.",
             "pt": "Pedidos de contêiner cheio, 20 pés, costumam ter preço mais baixo que pedidos LCL, carga consolidada. A economia cresce com o compromisso de volume: pedir mais de um contêiner por entrega melhora a condição, e o compromisso anual de volume pode abrir negociação com fábrica. O preço unitário também depende de classe, revestimento e embalagem, não apenas do volume embarcado.",
-            "de": "Vollcontainer-Bestellungen (20 Fuß) liegen preislich üblicherweise unter einer Sammelladung (LCL). Der Vorteil wächst mit der Mengenverpflichtung: Mehrere Container je Auftrag verbessern die Konditionen; jährliche Mengenverpflichtungen über viele Container je Jahr ermöglichen den Werksrabatt. Die tatsächliche Ersparnis hängt von Spezifikation, Menge und Vereinbarung ab."
+            "de": "Vollcontainer-Bestellungen (20 Fuß) liegen preislich üblicherweise unter einer Sammelladung (LCL). Der Vorteil wächst mit der Mengenverpflichtung: Mehrere Container je Auftrag verbessern die Konditionen; jährliche Mengenverpflichtungen über viele Container je Jahr ermöglichen den Werksrabatt. Die tatsächliche Ersparnis hängt von Spezifikation, Menge und Vereinbarung ab.",
+            "ja": "フルコンテナの注文は混載より仕入れ条件が良くなります。数量のまとまりが大きいほど条件の幅は広がり、年間を通じた数量の約束でさらに交渉余地が生まれます。値引き幅は数量、品番、被覆、梱包により変わるため、まとめて見積もりを取って比較してください。単価の額ではなく条件の構造を確認します。"
           }
         },
         {
@@ -184,7 +188,8 @@
             "es": "¿Qué documentos de calidad pedir a un proveedor chino?",
             "fr": "Quels documents qualité demander aux fournisseurs chinois ?",
             "pt": "Que documentação de qualidade pedir a um fornecedor chinês?",
-            "de": "Welche Qualitätsnachweise sind von Lieferanten zu fordern?"
+            "de": "Welche Qualitätsnachweise sind von Lieferanten zu fordern?",
+            "ja": "海外のファスナー供給元からどんな品質証明を求めるべきですか？"
           },
           "a": {
             "en": "Request: (1) Certificate of Origin (COO) for tariff verification; (2) Mill Test Reports (MTR) / Material Certificates showing steel grade and chemical composition; (3) ISO 9001:2015 certificate of the factory; (4) SGS or similar third-party inspection report for quality verification; (5) For specific standards (DIN, ISO, ASTM), request compliance documentation.",
@@ -195,7 +200,8 @@
             "es": "Conviene solicitar: (1) el certificado de origen para la verificación arancelaria; (2) los informes de ensayo de fábrica con grado de acero y composición química; (3) la documentación de cumplimiento según las normas DIN, ISO o ASTM aplicables; (4) un informe de inspección de terceros, tipo SGS, para la verificación de calidad. Los certificados de material se adjuntan según lo requerido por el proyecto o el pliego de importación.",
             "fr": "Demander : le certificat d'origine (COO) pour le contrôle tarifaire ; les rapports d'essai matière (MTR) ou certificats acier indiquant la classe et la composition chimique ; la documentation de conformité aux référentiels DIN, ISO ou ASTM applicables ; un rapport d'inspection tierce partie pour la vérification qualité. Les documents système sont fournis sur demande, sans être présentés comme une certification produit détenue par la fixation.",
             "pt": "Pede-se: certificado de origem, COO, para verificação tarifária; relatórios de ensaio de fábrica, MTR, ou certificados de material com classe de aço e composição química; relatório de inspeção de terceira parte, como SGS, para verificação de qualidade; e documentação de conformidade nas normas específicas, DIN, ISO ou ASTM. A ficha do lote deve referir o número de lingote e bater com a entrega.",
-            "de": "Zu verlangen sind: (1) Ursprungszeugnis (COO) für die Zollprüfung; (2) Werksprüfberichte (MTR) bzw. Werkstoffzeugnisse mit Stahlsorte und chemischer Zusammensetzung; (3) Dokumentation zum am ISO 9001:2015 ausgerichteten Qualitätssystem des Werks; (4) ein SGS- oder vergleichbarer Drittinspektionsbericht; (5) bei spezifischen Normen (DIN, ISO, ASTM) die Konformitätsunterlagen."
+            "de": "Zu verlangen sind: (1) Ursprungszeugnis (COO) für die Zollprüfung; (2) Werksprüfberichte (MTR) bzw. Werkstoffzeugnisse mit Stahlsorte und chemischer Zusammensetzung; (3) Dokumentation zum am ISO 9001:2015 ausgerichteten Qualitätssystem des Werks; (4) ein SGS- oder vergleichbarer Drittinspektionsbericht; (5) bei spezifischen Normen (DIN, ISO, ASTM) die Konformitätsunterlagen.",
+            "ja": "関税確認用の原産地証明書、鋼材等級と化学成分を示すミル試験報告書、工場の品質管理文書、第三者検査の報告書を求めます。DIN、ISO、ASTMなど特定規格への適合文書も用意してもらいます。証明は実際のロットと一致していることを確認し、保有をうたわず記録で示します。"
           }
         }
       ],
