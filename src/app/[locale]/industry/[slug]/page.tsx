@@ -11,6 +11,7 @@ import { optImagePath } from '@/lib/optImages'
 import { backToArticles, pick, articleCta, navLabels } from '@/lib/uiCopy'
 import { productNames } from '@/lib/productI18n'
 import { categoryLabel, categorySlug } from '@/lib/categoryLabels'
+import { getFreshness, resolveArticleDates } from '@/lib/freshness'
 
 const SITE_URL = 'https://www.tradego-fasteners.com'
 
@@ -35,6 +36,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     }
   }
 
+  // 发布日以 freshness 缓存为准（校正后只许比 JSON 原值更早）；缺失时回退 article.date
+  const freshPublished = getFreshness(article.slug)?.published || article.date
+
   const rawTitle = (article.title as Record<string, string>)[locale] || (article.title as Record<string, string>).en
   // Truncate title to 50-60 chars for SERP; add brand suffix only if room
   const title = rawTitle.length > 55 ? rawTitle.slice(0, 55).replace(/\s+\S*$/, '') + '...' : rawTitle
@@ -55,7 +59,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       description: rawDesc,
       url: `${SITE_URL}/${locale}/industry/${slug}`,
       type: 'article',
-      publishedTime: article.date,
+      publishedTime: freshPublished,
       authors: ['TradeGo Fasteners'],
       images: [{ url: `${SITE_URL}${article.image}`, width: 1200, height: 630, alt: rawTitle }],
     },
@@ -230,6 +234,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
     permanentRedirect(`/${locale}/industry/${article.redirectTo}`)
   }
 
+  // 新鲜度信号统一来自 freshness 缓存（scripts/content-freshness.py 生成）：
+  // modified = 真实最后改动日；published = 校正后发布日；resolveArticleDates 保证 modified ≥ published。
+  const { published: datePublished, modified: dateModified } = resolveArticleDates(
+    article.slug,
+    article.date,
+    article.updated,
+  )
+
   const title = localizedText(article.title, locale)
   const desc = localizedText(article.description, locale)
   // CTA 必须有该语种原生文案：文章 JSON 只有 en/zh 时回落本地化通用文案，
@@ -277,8 +289,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
     description: desc,
     inLanguage: locale === 'zh' ? 'zh-CN' : locale,
     articleSection: categoryLabel(article.category, locale),
-    datePublished: article.date,
-    dateModified: article.updated || article.date,
+    datePublished,
+    dateModified,
     image: `https://www.tradego-fasteners.com${article.image}`,
     // GEO: 给回答引擎一个明确的实体与主题锚点，避免被当成泛泛的"某篇文章"
     url: `https://www.tradego-fasteners.com/${locale}/industry/${slug}/`,
