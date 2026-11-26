@@ -215,7 +215,8 @@
             "es": "¿Qué diferencia hay entre junta y arandela?",
             "fr": "Quelle différence entre joint d'étanchéité et rondelle ?",
             "pt": "Qual a diferença entre uma junta e uma arruela?",
-            "de": "Was unterscheidet Dichtung und Unterlegscheibe?"
+            "de": "Was unterscheidet Dichtung und Unterlegscheibe?",
+            "ja": "ガスケットと座金の違いは何ですか？"
           },
           "a": {
             "en": "A washer is a load-spreading hardware component used with a bolt/nut. A gasket is a sealing element (often soft or compressible) used between two flat faces (like flanges) to prevent leakage.",
@@ -226,7 +227,8 @@
             "es": "Una arandela es un componente de reparto de carga que se usa con perno/tuerca. Una junta es un elemento de sellado (a menudo blando o compresible) entre dos caras planas, como bridas, para evitar fugas. La arandela reparte presión; la junta cierra el paso de fluido.",
             "fr": "La rondelle est un organe de répartition de charge utilisé avec boulon ou écrou. Le joint d'étanchéité est un élément d'étanchéité, souvent souple ou compressible, disposé entre deux faces planes (comme des brides) pour empêcher toute fuite. L'un protège l'assemblage mécanique, l'autre bloque le passage du fluide.",
             "pt": "A arruela é um componente de hardware que espalha carga, usado com parafuso ou porca. A junta é um elemento de vedação, muitas vezes macio ou compressível, colocado entre duas faces planas como flanges, para evitar vazamento. A peça segue sua função de apoio ou vedação, e a escolha é conferida contra a superfície de contato do equipamento.",
-            "de": "Eine Scheibe ist ein Last verteilendes Bauteil, das mit einer Schraube oder Mutter genutzt wird. Eine Dichtung ist ein Dichtelement (oft weich oder verformbar), das zwischen zwei ebenen Flächen wie Flanschen liegt, um Austritt zu verhindern."
+            "de": "Eine Scheibe ist ein Last verteilendes Bauteil, das mit einer Schraube oder Mutter genutzt wird. Eine Dichtung ist ein Dichtelement (oft weich oder verformbar), das zwischen zwei ebenen Flächen wie Flanschen liegt, um Austritt zu verhindern.",
+            "ja": "座金はボルトやナットに合わせて使う荷重分散用の金物部品です。ガスケットはフランジなど二つの平坦面の間に挟む密封要素で、多くは柔軟または圧縮可能な材料でできており、漏れを防ぐ目的で使われます。役割と挟み方が異なるため、用途に合わせて部品を選んでください。"
           }
         },
         {
@@ -239,7 +241,8 @@
             "es": "¿Pueden usarse arandelas plásticas a alta temperatura?",
             "fr": "Les rondelles plastiques tiennent-elles les hautes températures ?",
             "pt": "Arruelas plásticas servem em altas temperaturas?",
-            "de": "Können Kunststoffscheiben bei hoher Temperatur genutzt werden?"
+            "de": "Können Kunststoffscheiben bei hoher Temperatur genutzt werden?",
+            "ja": "樹脂座金は高温で使えますか？"
           },
           "a": {
             "en": "Standard nylon washers are limited to 105°C. For higher temperatures, use PTFE (260°C), PEEK (250°C), or graphite (450°C+) depending on the application.",
@@ -250,7 +253,8 @@
             "es": "Las arandelas de nailon estándar están limitadas a 105 °C. Para temperaturas mayores, use PTFE (260 °C), PEEK (250 °C) o grafito (450 °C o más) según la aplicación. El material se elige por la temperatura y el medio de la unión.",
             "fr": "Les rondelles nylon standard sont limitées à 105 °C. Pour des températures plus élevées, on emploie le PTFE (260 °C), le PEEK (250 °C) ou le graphite (450 °C et plus), selon l'application. Le matériau doit être choisi d'après la température de service réelle et le milieu environnant.",
             "pt": "As arruelas de nylon padrão estão limitadas a 105 °C. Para temperaturas mais altas, usam-se PTFE (260 °C), PEEK (250 °C) ou grafite (450 °C para cima), conforme a aplicação. O material segue a temperatura de serviço, e o limite é conferido na ficha do polímero antes da especificação do conjunto.",
-            "de": "Normale Nylonscheiben sind auf 105 °C begrenzt. Für höhere Temperaturen nutzen Sie je nach Anwendung PTFE (260 °C), PEEK (250 °C) oder Graphit (450 °C und darüber)."
+            "de": "Normale Nylonscheiben sind auf 105 °C begrenzt. Für höhere Temperaturen nutzen Sie je nach Anwendung PTFE (260 °C), PEEK (250 °C) oder Graphit (450 °C und darüber).",
+            "ja": "標準のナイロン座金は 105 ℃ までに限られます。それより高い温度では、用途に応じて PTFE の 260 ℃、PEEK の 250 ℃、黒鉛の 450 ℃ 以上を選択します。材料の耐熱温度と接触する流体をあわせて確認し、限界を超えた環境に標準樹脂を使わないでください。"
           }
         },
         {
@@ -263,7 +267,8 @@
             "es": "¿Qué material de junta para servicio de alta temperatura?",
             "fr": "Quel matériau de joint pour le service haute température ?",
             "pt": "Qual material de junta para serviço de alta temperatura?",
-            "de": "Welches Dichtungsmaterial für hohen Temperatureinsatz?"
+            "de": "Welches Dichtungsmaterial für hohen Temperatureinsatz?",
+            "ja": "高温用途のガスケット材料はどれを選びますか？"
           },
           "a": {
             "en": "Graphite gaskets for the highest temperatures and aggressive media, copper sealing gaskets for smaller joints and good thermal cycling, and fibre or rubber-based sheets for lower temperatures where cost dominates.",
@@ -274,7 +279,8 @@
             "es": "Juntas de grafito para las temperaturas más altas y medios agresivos, juntas de sellado de cobre para uniones menores y buen ciclo térmico, y láminas de fibra o base de goma para temperaturas menores donde manda el costo. El material sigue la temperatura y la agresividad del medio.",
             "fr": "Joints graphite pour les températures les plus élevées et les milieux agressifs, joints d'étanchéité cuivre pour les petites liaisons et le bon cyclage thermique, et feuilles fibre ou caoutchouc pour les basses températures où le coût domine. Le fluide et la plage de température orientent la matière du joint.",
             "pt": "Juntas de grafite para as temperaturas mais altas e meios agressivos; juntas de vedação de cobre para ligações menores e bom ciclo térmico; chapas de fibra ou borracha para temperaturas mais baixas onde o custo pesa. O material segue a temperatura e o meio, e a espessura é conferida contra a flange da ligação.",
-            "de": "Graphitdichtungen für die höchsten Temperaturen und aggressiven Medien, Kupferdichtungen für kleinere Verbindungen und guten Temperaturwechsel, sowie faser- oder gummibasierte Platten für niedrigere Temperaturen, wo der Aufwand entscheidet."
+            "de": "Graphitdichtungen für die höchsten Temperaturen und aggressiven Medien, Kupferdichtungen für kleinere Verbindungen und guten Temperaturwechsel, sowie faser- oder gummibasierte Platten für niedrigere Temperaturen, wo der Aufwand entscheidet.",
+            "ja": "最も高い温度と過酷な媒体には黒鉛ガスケット、小型の接続部と温度変化の繰り返しには銅製密封ガスケット、コストを優先する低温域には繊維またはゴム系シートを使います。温度と媒体、接続部の形状を照らし合わせて材料を決めてください。長期使用での経年変化も材料選びに反映してください。"
           }
         }
       ],
