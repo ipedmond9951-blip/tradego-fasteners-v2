@@ -270,7 +270,7 @@
             "fr": "Pour les projets de pipeline et de raffinerie, les fixations doivent être conformes à ISO 898-1:2013 et API 20E. Les connexions en acier structural nécessitent des boulons ASTM A325 ou BS 4604 galvanisés à chaud.",
             "pt": "Para projetos de dutos e refinaria, os fixadores devem cumprir ISO 898-1:2013 e API 20E. Conexões de aço estrutural requerem parafusos ASTM A325 ou BS 4604 galvanizados por imersão a quente.",
             "ru": "Для трубопроводных и нефтеперерабатывающих проектов крепежи должны соответствовать ISO 898-1:2013 и API 20E. Для конструкционных стальных соединений требуются болты ASTM A325.",
-            "ja": "パイプラインと精製所プロジェクトでは、ファスナーはISO 898-1:2013およびAPI 20Eに準拠する必要があります。構造 steel 接続にはASTM A325またはBS 4604溶融亜鉛めっきボルトが必要です。",
+            "ja": "パイプラインと精製所プロジェクトでは、ファスナーはISO 898-1:2013（等級8.8・10.9）と硫化水素環境向けのAPI 20Eに準拠する必要があります。構造鉄骨の接合にはASTM A325またはBS 4604の溶融亜鉛めっきボルトを使います。すべての部品にEN 10204 3.1のミル証明書とUNBSの輸入適合（または同等の認められた書類）を備えます。EPCによって独自材質仕様を指定する場合があるため、施工図（IFC）の記載を個別に確認してください。",
             "de": "Für Rohrleitungs- und Raffinerieprojekte müssen Befestigungsmittel ISO 898-1:2013 und API 20E erfüllen. Konstruktive Stahlverbindungen erfordern ASTM A325 oder feuerverzinkte BS 4604-Bolzen.",
             "hi": "पाइपलाइन और रिफाइनरी परियोजनाओं के लिए, फास्टनर को ISO 898-1:2013 और API 20E का अनुपालन करना होगा। संरचनात्मक इस्पात कनेक्शन के लिए ASTM A325 की आवश्यकता होती है।"
           }
@@ -296,7 +296,7 @@
             "fr": "Un conteneur de 20 pieds de boulons hexagonaux structurels (21 tonnes métriques) coûte environ 42 000 à 52 000 USD CFR Mombasa depuis la Chine. Avec le fret terrestre, les droits de douane (25%) et la TVA, le coût total livré se situe entre 68 570 et 86 520 USD.",
             "pt": "Um contêiner de 20 pés de pernos hexagonais estruturais (21 toneladas métricas) custa aproximadamente USD 42.000-52.000 CFR Mombasa da China. Com frete terrestre, direitos aduaneiros (25%) e IVA, o custo total entregue fica entre USD 68.570-86.520.",
             "ru": "Контейнер 20 футов конструкционных шестигранных болтов (21 метрическая тонна) стоит примерно 42 000–52 000 долларов CFR Момбаса из Китая. С учетом наземной доставки, таможенных пошлин (25%) и НДС общая стоимость доставки составляет 68 570–86 520 долларов.",
-            "ja": "建設用六角ボルト20フィートコンテナ（21トン）は中国からモombasaまでCFRで42,000〜52,000ドル。陆上輸送、関税（25％）、VAT（18％）込みで総着陆コストは68,570〜86,520ドル。",
+            "ja": "建設用六角ボルトを満載した20フィートコンテナ（約21トン）の場合、中国からモンバサ港までの運賃条件で約4万2,000〜5万2,000米ドルです。これに内陸までの運賃、関税、付加価値税、港での諸費を加えると、仕向け地までの着地コストは約6万8,500〜8万6,500米ドル、トン当たり約3,300〜4,100米ドルとなります。税率や免税の扱いは品目の分類によって変わるため、油ガス向けの原料では該当する関税分類と免税措置を発注前に税関代理店へ確認してください。",
             "de": "Ein 20-Fuß-Container Struktur-Sechskantbolzen (21 Tonnen) kostet ca. 42.000–52.000 USD CFR Mombasa aus China. Mit Fracht, Zoll (25%) und MwSt. belaufen sich die Gesamtkosten auf 68.570–86.520 USD.",
             "hi": "21 मीट्रिक टन संरचनात्मक हेक्स बोल्ट का 20 फुट कंटेनर चीन से CFR मोबासा में लगभग 42,000-52,000 डॉलर में आता है। कुल लैंडेड लागत 68,570-86,520 डॉलर तक पहुंचती है।"
           }
@@ -348,7 +348,7 @@
             "fr": "Oui, les fournisseurs chinois de fixations peuvent concurrencer efficacement les marques européennes dans le secteur pétrolier et gazier ougandais, à condition de respecter les normes internationales requises. L'avantage de coût est substantiel.",
             "pt": "Sim, fornecedores chineses de fixadores podem competir efetivamente contra marcas europeias no setor de petróleo e gás de Uganda, desde que atendam aos padrões internacionais exigidos. A vantagem de custo é substancial.",
             "ru": "Да, китайские поставщики крепежа могут эффективно конкурировать с европейскими брендами в нефтегазовом секторе Уганды, если соответствуют требуемым международным стандартам. Преимущество по стоимости существенно.",
-            "ja": "はい、中国のファスナーメーカーは、必要な国際基準を満たせば、ウガンダの石油·ガス部門でヨーロッパブランドと 효과적으로 경쟁できます。コスト面での有利性は大きいです。",
+            "ja": "はい、必要な国際規格を満たせば、中国のファスナー供給元はウガンダの石油・ガス部門で欧州ブランドと十分競争でき、採用されることも多いです。コスト差は大きく、ISO 898-1 10.9の六角ボルトはCFRモンバサでトン当たり約1,900〜2,400米ドル、欧州同等品は3,500〜4,800米ドルです。選定の鍵はEN 10204 3.1のミル証明書、第三者検査（SGSまたはBV）、元の溶鋼ヒートまでのトレーサビリティ、英語の技術書類です。現地代理店やEAC拠点の商社との連携も、ローカルコンテンツ要件への対応に関わります。",
             "de": "Ja, chinesische Befestigungsmittellieferanten können effektiv gegen europäische Marken im Öl- und Gassektor Ugandas konkurrieren, wenn sie die erforderlichen internationalen Normen erfüllen. Der Kostenunterschied ist erheblich.",
             "hi": "हां, चीनी फास्टनर आपूर्तिकर्ता युगांडा के तेल और गैस क्षेत्र में यूरोपीय ब्रांडों के खिलाफ प्रभावी ढंग से प्रतिस्पर्धा कर सकते हैं, बशर्ते वे आवश्यक अंतरराष्ट्रीय मानकों को पूरा करें। लागत लाभ महत्वपूर्ण है।"
           }
