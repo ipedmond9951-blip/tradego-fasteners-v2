@@ -61,8 +61,8 @@
     {
       "id": "coach-screw-size-chart",
       "heading": {
-        "en": "Coach Screw Size Chart: M6 to M12",
-        "zh": "马车螺丝尺寸表：M6至M12",
+        "en": "What sizes do coach screws come in and how do I choose one?",
+        "zh": "方头螺钉有哪些尺寸，该如何选择？",
         "ar": "جدول المقاسات: M6 إلى M12",
         "es": "Tabla de medidas: M6 a M12",
         "fr": "Tableau des tailles : M6 à M12",
@@ -115,8 +115,8 @@
     {
       "id": "coach-screw-load-capacity",
       "heading": {
-        "en": "Load Capacity in Withdrawal and Shear",
-        "zh": "抗拔和抗剪承载力",
+        "en": "How is withdrawal and shear capacity checked?",
+        "zh": "抗拉拔与抗剪承载力如何核查？",
         "ar": "مقاومة الانتزاع والقص",
         "es": "Resistencia a arranque y cizalladura",
         "fr": "Résistance à l'arrachement et au cisaillement",
@@ -249,7 +249,7 @@
             "ja": "コーチスクリューにはどのサイズがあり、どう選びますか？"
           },
           "a": {
-            "en": "Common sizes run M6 to M12 in lengths from about 50 to 200 mm. Pick the diameter by load and timber species, and the length so the threaded section fully engages the receiving member without breaking through the far side.",
+            "en": "Coach screws commonly run M6 to M12 in lengths from about 50 to 200 mm. Pick diameter by load and timber species, and length so the threaded section fully engages the receiving member without breaking through the far side. Softwood accepts a shorter embedment than dense hardwood, and exterior decking needs enough thread in the joist to resist withdrawal. DIN 571 is the common reference for hex head coach screws; the order should state diameter, length, thread length, head form and washer requirement. Check thread and shank on a sample before bulk release.",
             "zh": "常见规格为 M6–M12，长度约 50–200 mm。直径按受力大小和木材种类选取；长度要保证螺纹段完全拧入被连接件，同时不能从背面穿出。选直径时参考连接承受的拉力和剪切力，硬木可适当选小直径但要保证咬合，软木或重载部位选大直径；长度计算把被连接件厚度和旋入深度计入，背面留出少量螺杆伸出量但不穿透伤人。规格清单里注明螺纹制式、表面处理和头型，方便配对螺母和工具。",
             "hi": "आम आकार M6 से M12 तक हैं, लंबाई लगभग 50 से 200 मिमी तक। व्यास भार और लकड़ी की प्रजाति के हिसाब से चुनें, और लंबाई ऐसी रखें कि धागे वाला हिस्सा सामने वाले सदस्य में पूरी तरह जुड़ जाए पर दूसरी तरफ से न निकले।",
             "ru": "Распространённый диапазон — M6…M12, длина примерно 50–200 мм. Диаметр выбирают по нагрузке и породе древесины, а длину берут такой, чтобы резьбовая часть полностью вошла в принимаемый элемент, но не пробилась насквозь с обратной стороны.",
@@ -275,7 +275,7 @@
             "ja": "下穴の大きさはどの程度ですか？"
           },
           "a": {
-            "en": "For softwood, drill about 60 to 70 percent of the screw's core diameter; hardwood needs a slightly larger hole, roughly 70 to 80 percent, to avoid splitting. Always pre-drill near edges and ends of the timber.",
+            "en": "Drill a pilot hole to reduce splitting, installation torque and screw damage, especially near an end, edge or knot. For softwood, drill about 60 to 70 percent of the screw core diameter; hardwood needs a slightly larger hole, roughly 70 to 80 percent, to avoid splitting the grain. Drill the clearance hole through the attached member first where the joint must clamp tightly, then the pilot into the supporting timber. Always pre-drill near board edges and ends, where timber splits most easily. Test the hole in an offcut; do not brute-drive dry hardwood.",
             "zh": "软木按螺钉芯径的 60–70% 钻孔；硬木要略大，约 70–80%，防止木材劈裂。靠近板边和板端的位置一定要预先钻孔，否则拧入时木材容易沿纹理开裂。孔径要与木材密度、含水率和螺钉直径匹配：干燥致密的木材孔略大，潮湿松软的木材孔略小；孔深覆盖螺钉旋入段即可，过深会削弱握持。安装前试钻确认孔径，拧入过程中若阻力骤增或出现劈裂迹象，应停止并检查孔位和孔径。",
             "hi": "नरम लकड़ी में स्क्रू के कोर व्यास का लगभग 60–70 प्रतिशत छेद करें; सख्त लकड़ी में फटने से बचने के लिए थोड़ा बड़ा, लगभग 70–80 प्रतिशत छेद चाहिए। लकड़ी के किनारों और सिरों के पास हमेशा पहले से छेद करें।",
             "ru": "Для мягкой древесины сверлят отверстие около 60–70% от основного диаметра винта; твёрдая порода требует чуть большего — примерно 70–80% — чтобы не расколоть заготовку. У кромок и торцов дерева сверлят всегда, не полагаясь на самонарезание.",
@@ -301,7 +301,7 @@
             "ja": "屋外デッキには HDG と亜鉛めっきのどちらですか？"
           },
           "a": {
-            "en": "Hot-dip galvanising to ISO 1461 suits exposed decks, coastal sites and ground contact. Electroplated zinc is adequate indoors or in sheltered use, but it wears faster at cut ends and in damp timber.",
+            "en": "For outdoor decking, hot-dip galvanising to ISO 1461 suits exposed decks, coastal sites and ground contact, where moisture and sunlight attack thin plating. Electroplated zinc is adequate indoors or in sheltered use, but wears faster at cut ends and in damp timber, and a scratched finish exposes base steel. Choose HDG where the fixing touches ground, sits in coastal air, or stays wet between rains, and record the coating on the order. Avoid mixing galvanised coach screws with stainless brackets in bimetallic contact without a separator. Check coating continuity and head marking at receipt.",
             "zh": "外露露台、沿海场地或接触地面的场合，按 ISO 1461 做热浸镀锌（HDG）更耐用。电镀锌只适合室内或遮蔽环境；在切口处和潮湿木材中它的磨损更快。户外木结构还要考虑木材防腐剂对锌的侵蚀，含铜防腐剂处理过的木材应改用不锈钢或厚锌铝涂层。选型时把暴露时间、地面接触和防腐处理一起评估，镀层破损要及时补涂；螺钉入木处保持涂层完整，能显著延长户外连接的使用寿命。",
             "hi": "खुले डेक, तटीय जगहों और ज़मीनी संपर्क के लिए ISO 1461 के हिसाब से हॉट-डिप गैल्वनाइज़्ड चलता है। इलेक्ट्रोप्लेटेड ज़िंक अंदर या संरक्षित जगह पर पर्याप्त है, पर कटे सिरों और नम लकड़ी में जल्दी घिसता है।",
             "ru": "Горячее цинкование по ISO 1461 подходит для открытых настилов, прибрежных мест и контакта с грунтом. Гальванический цинк достаточен в помещении или под навесом, но на обрезанных концах и во влажной древесине изнашивается быстрее, поэтому для улицы его лучше не использовать.",
