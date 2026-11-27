@@ -484,3 +484,12 @@ python3 scripts/vercel-mail-watch.py --check --no-notify           # 只落日�
 
 **判活**：`launchctl print gui/$(id -u)/com.tradego.vercel-mail-watch | grep -E 'state|runs|last exit'`，
 不要用 `launchctl list` 看。
+
+## 2026-11-28 经验：站点"打不开"排查 / CI 红 / promote 缺位
+
+1. **先核对域名拼写**。真实域名是 `tradego-fasteners.com`（复数 s）；`tradego-fastener.com`（单数）从未注册，DoH 返回 `NXDOMAIN`。用户报"打不开"时，第一步把 URL 原样抄下来比对，不要先怀疑线上。
+2. **本机 DNS 不可信**。这台 Mac 走代理 fake-ip，任何域名（包括不存在的）都会解析成 `198.18.x.x`，`dig` 甚至 `dig @8.8.8.8` 都被劫持。判域名是否存在只能用 DoH：`curl -s "https://dns.google/resolve?name=<域名>&type=A"`，看 `Status`（0=存在，3=NXDOMAIN）。
+3. **失败邮件先看日期**。邮箱里 Vercel 的"Production deployment failed"可能是几天前的旧账（11-25 有两封：函数创建被限流、`next build` 退出 1）。当天的红要分两条线查：Vercel 看 `vercel_deployments.py` 的 `readyState`，CI 看 `gh run list` / `gh run view <id> --log-failed`。
+4. **CI 红多半是 lint 顶破阈值**。`eslint src --max-warnings 4` 下，新增一个 error 直接红。`react-hooks/set-state-in-effect` 的标准修法：把 effect 内的同步 `setState` 改成异步落地（`setTimeout(..., 0)` 并在 cleanup 里 `clearTimeout`），别用 `// eslint-disable`。
+5. **push ≠ 上线**。内容管线（AgentOps content-push）推出来的部署可能没人 promote，域名会停在上一版。每次 push 后跑一次 `bash scripts/vercel-promote.sh`（不带 `--apply` 只读）核对 alias 是否指向最新 READY；不对就 `--apply`。
+6. **窗口闸门拦白天推送是正常行为**。`deploy-flush.sh` 非窗口时段 exit 0 把提交攒本地；紧急上线用 `DEPLOY_WINDOW_FORCE=1`，别去改窗口配置本身。
