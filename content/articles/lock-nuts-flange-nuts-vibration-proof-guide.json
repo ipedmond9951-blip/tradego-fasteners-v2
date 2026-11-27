@@ -33,7 +33,7 @@
     {
       "id": "nylon-insert-nuts",
       "heading": {
-        "en": "Nylon Insert Lock Nuts (Nyloc): How They Work",
+        "en": "How does a nylon insert collar resist loosening on the bolt thread?",
         "es": "Tuercas de Seguridad con Inserto de Nylon (Nyloc): Cómo Funcionan",
         "ar": "صواميل القفل ذات الحلقة النايلون (نايلوك): كيف تعمل",
         "fr": "Écrous de sécurité à insert nylon (Nyloc) : fonctionnement",
@@ -42,7 +42,7 @@
         "ja": "ナイロンインサートロックナット（Nyloc）の仕組み",
         "de": "Nylon-Kontermuttern (Nyloc): Funktionsweise",
         "hi": "नायलॉन इन्सर्ट लॉक नट (नायलॉक): ये कैसे काम करते हैं",
-        "zh": "尼龙嵌入锁紧螺母的工作原理"
+        "zh": "尼龙圈是如何在螺纹上形成防松阻力的？"
       },
       "body": {
         "en": "<p>Nylon insert <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">lock nuts</a> (commonly called Nyloc <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nuts</a>, DIN 985 / ISO 10511) have a nylon collar inserted into the top of the nut that creates a friction lock against the bolt thread. When the bolt is installed, the nylon deforms around the thread roots, creating resistance to loosening. <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Factory supply</a> of nylon insert <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">lock nuts</a> covers grades from Grade 6 to Grade 10 in both zinc-plated carbon steel and stainless steel (A2-70, A4-80).</p>\n<p>Temperature range: standard nylon inserts are rated to approximately 120°C; high-temperature nylon inserts (nylon 6/6 with heat stabilizers) extend this to 200°C. For <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">mechanical equipment</a> experiencing vibration (pumps, compressors, gearboxes), Nyloc <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nuts</a> provide effective locking without special tools. The nylon insert is reusable up to 15-20 cycles before losing effectiveness. Related resources: <a href=\"/en/industry/high-tensile-bolts-grade-guide\">high-tensile bolts</a> <a href=\"/en/products/anchor-bolts\">anchor bolts</a> <a href=\"/en/industry/stainless-steel-bolts-africa-guide\">stainless steel fasteners</a> <a href=\"/en/industry/hex-bolt-dimensions-chart\">hex bolts</a> <a href=\"/en/products/nylon-lock-nuts\">lock nuts</a> <a href=\"/en/products/washers\">washers</a> <a href=\"/en/products/self-drilling-screws\">self-drilling screws</a> <a href=\"/en/products/allen-bolts\">socket screws</a>.</p>\n<p>The decision logic prioritizes quality consistency, supplier reliability, and total cost of ownership over short-term unit price. For B2B buyers in Africa, Latin America, and Southeast Asia, additional considerations include regional customs requirements, container consolidation options, and payment security mechanisms.</p>\n<p>Standardized specifications that travel across projects reduce training time, RFQ processing time, and supplier onboarding effort.</p><p>During incoming inspection, a nylon insert nut should thread freely onto a matched bolt for most of its travel before the collar engages, and it should not cross-thread or gall on the first turns. Buyers check that the nylon ring is seated concentrically, free of cracks or flash, and that the outer body shows a uniform plated or finished surface. Reused nyloc nuts are not recommended for critical joints: the collar deforms permanently on removal, so its prevailing torque drops on the second assembly. For outdoor or humid service, plated carbon steel nyloc nuts are paired with a bolt of compatible coating, while stainless A2-70 or A4-80 variants are chosen where corrosion resistance matters more than high clamp force. Markings on the body should match the purchased grade, and the mill or batch record should be available against the order.</p><p>Ordering these nuts in volume, buyers align the thread specification, grade and finish with the matching bolt rather than sourcing the nut separately. A loose nut on a tight bolt, or a plated nut on an unplated bolt, can cause galvanic mismatch or seized threads during assembly. Storage should keep the collars dry and away from high heat, which can age the nylon before installation. When a line replaces lock nuts after maintenance, the same thread size and prevailing torque class should be carried forward so the joint keeps its designed clamp.</p>",
@@ -114,7 +114,7 @@
     {
       "id": "spec-table",
       "heading": {
-        "en": "Lock Nut Type Selection Guide",
+        "en": "Which lock nut type suits general vibration, high temperature, and thin-sheet joints?",
         "es": "Guía de Selección del Tipo de Tuerca de Seguridad",
         "ar": "دليل اختيار نوع صامولة القفل",
         "fr": "Guide de sélection des types d'écrous de sécurité",
@@ -123,7 +123,7 @@
         "ja": "ロックナットタイプ選定ガイド",
         "de": "Auswahlhilfe für Kontermutter-Typen",
         "hi": "लॉक नट प्रकार चयन गाइड",
-        "zh": "锁紧螺母类型选择指南"
+        "zh": "一般振动、高温和薄板接合，各该选哪类锁紧螺母？"
       },
       "table": {
         "headers": [
@@ -220,7 +220,7 @@
             "ja": "ナイロン嵌め込みロックナットは再利用できますか？"
           },
           "a": {
-            "en": "Yes, nylon insert nuts can be reused approximately 15-20 times before the nylon loses its grip. Mark or discard after extended reuse cycles.",
+            "en": "Yes, but only within limits. A nylon insert lock nut (DIN 985 / ISO 10511) can be reused a limited number of times before the collar loses its grip on the thread; each assembly and disassembly deforms the insert further. Such prevailing-torque nuts are specified for a limited reuse count, beyond which the joint takes a new nut. Mark a nut after reuse cycles and discard it once the resistance drops, because a relaxed insert no longer maintains the needed prevailing torque. For a critical safety joint, use a fresh nut rather than assuming reuse.",
             "zh": "可以重复使用，但尼龙嵌件约可复用 15–20 次，之后尼龙失去抱紧力。经过多次重复使用的螺母应做标记或直接报废，不要再装到关键部位上。复用前检查尼龙环有无裂纹、变形或磨损，锁紧力矩不足或旋合变松就不再继续使用；受振动、安全相关的关键节点建议每次检修换装新螺母，避免依赖老化嵌件防松。可复用次数只是参考上限，实际以嵌件状态为准，标记已用次数便于追踪，达到寿命或外观异常的件直接更换。",
             "hi": "हां, नायलॉन इंसर्ट नट लगभग 15–20 बार चलाए जा सकते हैं, जब तक नायलॉन की पकड़ कमजोर नहीं होती। लंबे उपयोग के बाद इन्हें चिह्नित करें या हटा दें।",
             "ru": "Нейлоновую вставку допускается использовать примерно 15–20 раз, после чего нейлон теряет усилие захвата. После увеличенного числа циклов гайки помечают или выбрасывают: повторное применение с ослабленной вставкой не гарантирует стопорение от вибрации, и узел стоит укомплектовать новой гайкой.",
@@ -246,7 +246,7 @@
             "ja": "ナイロン嵌め込みナットは何度で性能が落ちますか？"
           },
           "a": {
-            "en": "Standard nylon insert nuts begin losing effectiveness above 120°C. High-temperature versions (with heat stabilizers) are good to 200°C.",
+            "en": "Standard nylon insert nuts begin losing effectiveness above about 120 °C, because the collar softens and the prevailing torque relaxes. The insert is a polymer, so its limit sits well below the metal fastener's temperature range, and continuous heat or thermal cycling accelerates the same relaxation. Heat-stabilised versions reach a higher service temperature, but the rated limit must be confirmed on supplier data rather than assumed from the shape. Near or above that limit, choose an all-metal lock nut, which locks through a deformed thread section rather than a polymer collar.",
             "zh": "尼龙嵌件螺母的防松能力来自嵌件的弹性压紧，温度升高后尼龙性能会下降。普通尼龙锁紧螺母在 120 摄氏度以上开始明显失效，加入耐热稳定剂的高温版本可承受到 200 摄氏度左右。超过这一范围，嵌件软化后便无法提供稳定锁紧阻力；排气、炉窑和高温机械等部位不应选用尼龙件，而应改用全金属锁紧螺母或其他机械防松方式。选型时还要核对介质与拆装频次，把温度上限写进采购技术要求，避免按通用件报价供货。",
             "hi": "साधारण नायलॉन इंसर्ट नट 120°C से ऊपर असर खोने लगते हैं, इसलिए लगातार गर्म जॉइंट में इन्हें मानक संस्करण न मानें; हीट स्टेबलाइज़र वाले उच्च-तापमान संस्करण 200°C तक चलते हैं, और असेंबली के समय निर्माता की तापमान सीमा को खरीद दस्तावेज़ में दर्ज करना चाहिए।",
             "ru": "Стандартные гайки с нейлоновой вставкой теряют эффективность выше 120°C. Высокотемпературные версии со стабилизаторами тепла выдерживают до 200°C; для горячих узлов подбирают исполнение по тепловому режиму и проверяют допустимую температуру в паспорте детали.",
@@ -272,7 +272,7 @@
             "ja": "ナイロン嵌め込みは何度で機能しなくなりますか？"
           },
           "a": {
-            "en": "Nylon softens well below metal limits, so lock nuts are not for hot service - exhaust, furnace and high-temperature machinery need all-metal lock nuts or a different locking method.",
+            "en": "Nylon softens well below metal limits, so polymer-insert lock nuts are not for hot service. Exhaust systems, furnaces, and high-temperature machinery call for all-metal lock nuts or another locking method rather than a Nyloc insert. All-metal lock nuts (DIN 980) lock through a deformed thread section and serve high-temperature work where inserts are not allowed; do not reuse them in critical joints, because each reuse erodes the interference. For automotive vibration duty, confirm the nut against the relevant profile, such as ISO 16130, and check it maintains preload through the stated temperature cycling and humidity.",
             "zh": "尼龙材料的软化温度远低于金属，因此尼龙锁紧螺母不适合高温服役。排气系统、炉窑和高温机械部位需要全金属锁紧螺母，或采用锁片、双螺母、螺纹锁固胶等其他防松手段。高温之外，潮湿环境还要关注镀层匹配，频繁拆装的部位不宜用一次性锁片。防松性能最终靠拆卸扭矩与振动试验验证，而不是看外观；订单中把防松型式、试验要求和材质等级写清楚，供应商才会按对应工艺生产，报价差异也才有可比性。",
             "hi": "नायलॉन धातु की सीमा से बहुत नीचे नरम हो जाता है, इसलिए लॉक नट गर्म सेवा के लिए नहीं हैं: एग्ज़ॉस्ट, भट्ठी और उच्च-तापमान मशीनरी में ऑल-मेटल लॉक नट या कोई दूसरी लॉकिंग विधि चाहिए।",
             "ru": "Нейлон размягчается задолго до пределов металла, поэтому такие гайки не предназначены для горячей службы: выпуск, печь и высокотемпературное оборудование требуют цельнометаллических стопорных гаек или другого способа стопорения, подобранного по нагрузке и температуре узла.",
