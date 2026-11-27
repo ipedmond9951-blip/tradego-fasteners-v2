@@ -12,6 +12,7 @@ import Analytics from '@/components/Analytics'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 const CookieConsent = dynamic(() => import('@/components/CookieConsent') )
 const WhatsAppCTA = dynamic(() => import('@/components/WhatsAppCTA') )
+const LeadCaptureModal = dynamic(() => import('@/components/LeadCaptureModal'))
 import OrganizationSchema from '@/components/OrganizationSchema'
 import NavigationSchema from '@/components/NavigationSchema'
 import WebSiteSchema from '@/components/WebSiteSchema'
@@ -140,6 +141,7 @@ export default async function LocaleLayout({
             <Footer locale={loc} />
             <AIChatWidget locale={loc} />
             <WhatsAppCTA locale={loc} />
+            <LeadCaptureModal locale={loc} />
             <Analytics />
             <SpeedInsights />
             <CookieConsent locale={locale} />
