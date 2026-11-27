@@ -60,7 +60,7 @@
     {
       "id": "din-hex-bolts",
       "heading": {
-        "en": "DIN Hex Bolts: The Industry Foundation",
+        "en": "What do DIN hex bolt standards cover?",
         "es": "Pernos Hexagonales DIN: La Base de la Industria",
         "ar": "البراغي السداسية DIN: أساس الصناعة",
         "fr": "Boulons hexagonaux DIN : Fondement de l'industrie",
@@ -69,7 +69,7 @@
         "ja": "DIN 六角ボルト：業界の基盤",
         "de": "DIN-Sechskantschrauben: Industriegrundlage",
         "hi": "DIN हेक्स बोल्ट: उद्योग की आधारशिला",
-        "zh": "DIN 六角螺栓：工业基础件"
+        "zh": "DIN 六角螺栓标准涵盖哪些内容？"
       },
       "body": {
         "en": "<p>DIN 931 is the partially threaded hexagon bolt and DIN 933 the fully threaded one, and the difference is not cosmetic. On a partially threaded bolt the unthreaded shank carries the load and the thread begins after the parts being joined, which is what a shear joint wants: the thread should not sit in the plane where the plates bear, because a thread there reduces the bearing area and gives the joint somewhere to slip.</p>\n<p>The fully threaded version exists for length flexibility. A fabricator who stocks one length of fully threaded bolt can cover a range of grip lengths, and a wholesaler can serve many customers from one line. The price of that flexibility is that the thread runs through the joint, so the specification has to say which case applies rather than leaving it to stock availability.</p>\n<p>Both standards belong to the same dimensional family, which is why a buyer used to one recognises the other immediately. What a buyer should not assume is that the head dimensions, the thread length or the tolerance class follow automatically from the designation: those are the details that change between editions and between the DIN and ISO families, and they are the details a drawing is usually precise about.</p>",
@@ -177,7 +177,7 @@
     {
       "id": "property-classes",
       "heading": {
-        "en": "Mechanical Property Classes Explained",
+        "en": "What do bolt property classes such as 8.8 mean?",
         "es": "Explicación de las clases de propiedades mecánicas",
         "ar": "شرح فئات الخواص الميكانيكية",
         "fr": "Explication des classes de propriétés mécaniques",
@@ -186,7 +186,7 @@
         "ja": "機械的性質区分の解説",
         "de": "Erläuterung der mechanischen Eigenschaftsklassen",
         "hi": "यांत्रिक गुण वर्गों की व्याख्या",
-        "zh": "机械性能等级详解"
+        "zh": "8.8 这类螺栓性能等级代表什么？"
       },
       "body": {
         "en": "<p>The property class system is the same in both families, which is the part of the standard most buyers do understand. In a class designation such as 8.8, the first number multiplied by a hundred gives the nominal minimum tensile strength in megapascals and the ratio of the two numbers gives the yield strength as a proportion of that tensile strength. The class is a statement about the material and the heat treatment, not about the geometry.</p>\n<p>What changes between 8.8 and 10.9 is the steel and the tempering, and what changes again at 12.9 is the margin. A very high class means a harder, more highly tempered part, which is more sensitive to hydrogen embrittlement when it is plated and more sensitive to the way it is tightened. That is why coating choice and tightening method belong in the same conversation as the class, and why a buyer who upgrades to 12.9 for \"extra safety\" can end up with a more fragile part.</p>\n<p>For structural steel work, 8.8 and 10.9 cover almost everything a project needs, and the choice between them is usually a design decision about the connection rather than a procurement preference. Where the connection is a bearing type, the class and the coating both affect the slip behaviour, and the specification should name the joint type as well as the bolt.</p>\n<p>Stainless fasteners sit outside this system entirely. Their classes are expressed as material and property combinations, and the strength comes from cold working rather than from alloying, so a class number transferred from a carbon steel table means nothing on a stainless drawing.</p>\n<p>When a batch arrives, match each carton marking against the mill certificate under EN 10204 before any part is driven into the structure. Carbon steel bolts and nuts should show the property class referenced to ISO 898-1, while the stainless line follows ISO 3506-1 and carries its A2-70 or A4-80 marking; common hex forms such as DIN 933 bolts and DIN 934 nuts should match the drawing geometry. A mismatch between the certificate and the part mark means the batch cannot be accepted on paperwork alone. Record the heat number alongside the retained sample so later questions about temper, coating, and traceability can be traced back to the original production run rather than guessed from a loose bag of fasteners.</p>",
@@ -352,7 +352,7 @@
             "ja": "DIN と ISO の留め具は互換性がありますか？"
           },
           "a": {
-            "en": "Yes, in most cases. DIN and ISO hex bolt standards are dimensionally identical. A DIN 931 bolt will fit an ISO 4014 application. However, always verify the property class and coating match the engineering specification.",
+            "en": "Yes, in most cases DIN and ISO hex bolt standards are dimensionally identical, and a DIN 931 bolt will fit an ISO 4014 application. The two families align on thread form, head size, and across-flats dimensions for common metric bolts, so nuts and washers from the matched series also interchange. Always verify the property class and coating match the engineering specification, because a same-diameter bolt in a lower class does not carry the same load. Standards editions are revised over time, so check the current edition referenced on the drawing. When mixing DIN and ISO components in one joint, keep the class and strength aligned, and record the standard and class on the packing list for traceability.",
             "zh": "多数情况下可以。DIN 与 ISO 的六角螺栓标准尺寸一致，DIN 931 螺栓可以装到 ISO 4014 的应用场合。但选用前仍须核对性能等级与涂层是否符合工程规范，不能只凭外形通用就直接替代。核对时连同螺纹长度、头型和相配螺母一起看；标准号相近但等级或表面处理不同时，承载和防腐表现会有差别。项目规范指定某一标准的，应按规范执行，混用替代需经设计或工程师确认。",
             "hi": "ज़्यादातर मामलों में हां: DIN और ISO हेक्स बोल्ट मानक आयामी रूप से एक जैसे होते हैं। DIN 931 बोल्ट ISO 4014 वाली जगह लग सकता है। फिर भी इंजीनियरिंग स्पेसिफिकेशन से प्रॉपर्टी क्लास और कोटिंग का मिलान अवश्य जांच लें।",
             "ru": "В большинстве случаев да: стандарты болтов DIN и ISO совпадают по размерам. Болт DIN 931 подходит под применение ISO 4014. Тем не менее класс прочности и покрытие всегда сверяют с инженерной спецификацией узла: совпадение габаритов не отменяет требования по механическим свойствам и защите от коррозии, особенно в несущем соединении.",
@@ -378,7 +378,7 @@
             "ja": "アフリカの構造用鋼材にはどの強度区分を用いるべきですか？"
           },
           "a": {
-            "en": "Property class 10.9 (ISO) or 8.8 (DIN) is standard for structural steel connections in most African building codes. For coastal or high-humidity environments, specify hot-dip galvanized 10.9 bolts. Always consult local SABS or equivalent standards.",
+            "en": "Property class 10.9 (ISO) or 8.8 is the standard choice for structural steel connections in most African building practice. For coastal or high-humidity environments, specify hot-dip galvanised bolts in the required class, and match nuts and washers to the same strength series. Local SABS or equivalent national standards may set additional acceptance rules, so check the project specification against the applicable code. Carbon steel classes follow ISO 898-1, where 8.8 means 800 MPa tensile and 10.9 means 1000 MPa tensile. Do not upgrade or downgrade the class on price; the selected class must be traceable through the certificate and head marking. For structural bolting, confirm whether an assembly standard such as EN 14399 applies to the connection.",
             "zh": "多数非洲建筑规范中，钢结构连接常用 10.9 级或 8.8 级螺栓。沿海或高湿度环境应指定热浸镀锌（HDG）的高强螺栓；具体还要对照当地 SABS 或同等标准执行。选型时把连接受力、环境暴露和规范要求一起确定：一般结构连接按规范选用常用等级，重载或受拉节点按计算提高等级；露天部位核对镀层厚度和耐蚀年限，螺栓与螺母、垫圈等级配套，到货材质证明与等级标注一致。",
             "hi": "ज़्यादातर अफ्रीकी बिल्डिंग कोड में स्ट्रक्चरल स्टील कनेक्शन के लिए क्लास 10.9 (ISO) या 8.8 (DIN) मानक है। तटीय या उच्च आर्द्रता वाले परिवेश में हॉट-डिप गैल्वनाइज़्ड 10.9 बोल्ट बताएं। स्थानीय SABS या समकक्ष मानक से मिलान हमेशा जांच लें।",
             "ru": "Для соединений стальных конструкций в большинстве строительных норм Африки стандартны класс 10.9 по ISO либо 8.8 по DIN. Для прибрежных районов и влажного климата закладывают болты 10.9 с горячим цинкованием (HDG). Местные требования по SABS или эквивалентному стандарту проверяют по проекту: нормы региона могут ужесточать класс либо покрытие.",
@@ -404,7 +404,7 @@
             "ja": "DIN ボルトと ISO ナットを組み合わせて使えますか？"
           },
           "a": {
-            "en": "Yes, DIN 934 nuts and ISO 4032 nuts are dimensionally identical and fully interchangeable. The same applies to washers (DIN 125 / ISO 7089). Mixing DIN and ISO components from the same property class is standard industry practice.",
+            "en": "Yes, DIN 934 nuts and ISO 4032 nuts are dimensionally identical and interchangeable, and the same applies to washers under DIN 125 and the ISO counterpart. Mixing DIN and ISO components from the same property class is standard industry practice, because the metric thread and bearing dimensions align across the two families. The key check is strength, not label: the nut proof load must match the bolt class, and a lower-class nut on a high-strength bolt strips first. Keep coating matched too, so a plated nut does not form a dissimilar couple with the bolt in outdoor service. Verify thread series and across-flats size on the drawing, and record both standard and class on the order so the supplier can certify the pair correctly.",
             "zh": "可以。DIN 934 与 ISO 4032 螺母尺寸一致、完全互换；垫圈也对应一致（DIN 125 与 ISO 7089）。只要性能等级相同，德标与 ISO 零件混合搭配是行业通行做法，采购时按等级核对即可。搭配时注意螺母等级不得低于相配螺栓，螺纹制式和公称直径要一致；镀层和表面处理也应与螺栓匹配，避免接触面电偶腐蚀。清单中分别标注标准号、等级和规格，便于仓库配对和现场领用。",
             "hi": "हां: DIN 934 और ISO 4032 नट आयामी रूप से एक जैसे और पूरी तरह बदले जा सकते हैं। यही बात वॉशर पर लागू होती है (DIN 125 / ISO 7089)। एक ही प्रॉपर्टी क्लास के DIN और ISO हिस्से मिलाना उद्योग का सामान्य चलन है।",
             "ru": "Да: гайки DIN 934 и ISO 4032 совпадают по размерам и полностью взаимозаменяемы; то же касается шайб DIN 125 и ISO 7089. Смешивать компоненты DIN и ISO одного класса прочности — обычная отраслевая практика. Контролируйте только класс: гайка должна соответствовать болту по нагрузке, а не только по размеру резьбы.",
