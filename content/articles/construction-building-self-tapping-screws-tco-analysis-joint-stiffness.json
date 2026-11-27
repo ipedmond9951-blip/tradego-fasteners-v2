@@ -233,7 +233,7 @@
             "hi": "निर्माण में सेल्फ टैपिंग स्क्रू: जोड़ की कठोरता और TCO ऑर्डर के लिए विशिष्ट लीड टाइम क्या है?"
           },
           "a": {
-            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "en": "The schedule is set by the consignment, not a published calendar. It depends whether these self-tapping screws for sheet and steel framing are a regular production size or a special form needing setup, and on the route to the distributor or contractor's nominated warehouse. For joint stiffness and framing assembly, the lot passes thread forming performance and drive fit on samples before release; allow for head form and thread specification across batches. Confirm spec, quantity and destination before booking; urgent orders can fly at higher freight, with timing quoted per order.",
             "zh": "屋面节点刚度取决于板厚匹配、钉距和施拧质量，下单时应把板厚组合与钉距写进规格，随箱附带扭矩表和检验记录。屋面工程可按施工分区拆批发运，减少现场二次倒运。交期按订单核算。",
             "es": "El plazo se cotiza por pedido.",
             "fr": "Le délai est établi par commande.",
@@ -259,7 +259,7 @@
             "hi": "निर्माण में सेल्फ टैपिंग स्क्रू: जोड़ की कठोरता और TCO के लिए न्यूनतम ऑर्डर मात्रा (MOQ) क्या है?"
           },
           "a": {
-            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
+            "en": "The minimum follows the production route and supplier scale, not one threshold. These self-tapping screws for sheet and steel framing in existing dies can usually run in modest lots; a special dimension or head form needs tooling and sets a higher minimum. For joint stiffness and framing assembly, grouping matched specs spreads setup overhead, and the lot passes thread forming performance and drive fit on samples. Mind head form and thread specification across batches in the first batch; the minimum is set once spec, packing and destination are settled, with a sample before bulk.",
             "zh": "螺钉多按规格和镀层凑批次，单一长度往往要够一批镀层量才开机，同一柜混多个长度可以接受，低于门槛会收小单附加费。选型应把施工效率、返修率和备件通用性并入总成本，规格收敛往往比压到最低价更省。起订量按生产路线确定。",
             "es": "La cantidad mínima depende de la ruta de producción.",
             "fr": "La quantité minimale dépend de la route de production.",
@@ -285,7 +285,7 @@
             "hi": "निर्माण में सेल्फ टैपिंग स्क्रू: जोड़ की कठोरता और TCO खरीद के लिए विशिष्ट भुगतान शर्तें क्या हैं?"
           },
           "a": {
-            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit arranged through the buyer's bank. The settlement route, documents and milestones should be agreed up front, and any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
+            "en": "The settlement route depends on programme size, trading history and local bank rules. A first order usually pairs a deposit against the proforma with a balance against shipping documents (bill of lading copy, packing list, inspection certificate); avoid full prepay before production. Repeat programmes may use an L/C through the bank. For the distributor or contractor's nominated warehouse, the settlement route, documents and milestones are agreed up front, with thread forming performance and drive fit on samples as release record. Given head form and thread specification across batches, confirm currency routing and handover before production.",
             "zh": "定金与尾款比例按订单核算，余款见到提单副本再结清。大额单子可开即期信用证。钉距过疏节点先滑移、过密板材被削弱，屋面一旦漏水，一次返修的人工与材料常超过整批螺钉采购额，因此尾款宜挂出厂检验记录、镀层抽检结果和施拧记录。凡是生产启动前要求全额预付的供方，风险偏高，不宜接受。付款条件按里程碑约定。",
             "es": "Las condiciones de pago se acuerdan por hitos.",
             "fr": "Les conditions de paiement sont convenues par jalons.",
