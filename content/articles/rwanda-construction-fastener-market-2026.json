@@ -448,7 +448,7 @@
           },
           "a": {
             "en": "The offer position is explained by the underlying cost structure rather than a single fixed figure: material grade, coating, manufacturing process, packaging, route and cargo plan all feed into the quotation. Routing and freight position are compared per enquiry, and small changes in specification or consolidation can move the unit position noticeably. Buyers should compare the full landed position rather than the headline unit figure alone, and ask the supplier to break down material, process, packaging and freight elements before deciding on the offer. Pricing is explained by cost structure, not a fixed figure.",
-            "zh": "是的——南非（SABS）和欧洲（EN）紧固件标准在卢旺达是被接受的，只要供应商提供来自认可检测机构的合格证书（CoC）。欧洲EN 14399和EN 15048被卢旺达咨询工程师广泛接受。然而，中国制造的符合ISO 898-1的紧固件在满足相同机械规格的同时。价格只讲成本结构，不给固定数字。",
+            "zh": "是的——南非（SABS）和欧洲（EN）紧固件标准在卢旺达是被接受的，只要供应商提供来自认可检测机构的合格证书（CoC）。欧洲EN 14399和EN 15048被卢旺达咨询工程师广泛接受。价格只讲成本结构，不给固定数字。",
             "es": "El precio se explica por la estructura de costes, no por una cifra fija.",
             "ar": "يُشرح السعر عبر هيكل التكلفة دون رقم ثابت.",
             "fr": "Le prix s'explique par la structure des coûts, sans chiffre fixe.",
@@ -503,14 +503,14 @@
         "hi": "चीन से किगाली तक फास्टनर भेजने में कितना समय लगता है?"
       },
       "answer": {
-        "en": "The typical door-to-door transit time for fasteners from China to Kigali is 35–50 days. Sea freight from Shanghai or Ningbo to Dar es Salaam takes 10–14 days. The overland transit from Dar es Salaam to Kigali via the TANZAM Highway (also known as the Zambia-Tanzania Highway, a segment of the Trans-African Highway) takes 18–25 days for truck transport. Customs clearance at the Rusumo border crossing (Rwanda-Tanzania) typically adds 2–5 days. TradeGo's logistics team provides real-time tracking via GPS-monitored trucks and consolidated customs documentation to minimize delays.",
-        "zh": "从中国到基加利门到门的典型过境时间为35-50天。海运从上海或宁波，到达累斯萨拉姆需要10-14天。从达累斯萨拉姆到基加利通过TANZAM公路的内陆运输需要18-25天。在卢旺达-坦桑尼亚边境的Rusumo过境点清关通常需要额外2-5天。",
-        "es": "El tiempo típico de puerta a puerta para sujetadores de China a Kigali es de 35 a 50 días. El transporte marítimo de Shanghai o Ningbo a Dar es Salaam toma de 10 a 14 días.",
+        "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+        "zh": "交期取决于规格是常备标准件还是来图定制、柜型（拼箱或整柜）以及清关进度；急件可走空运，运费相应更高。交期按订单核算。",
+        "es": "El plazo se cotiza por pedido.",
         "ar": "الزمن النموذجي من الباب إلى الباب لمثبتات من الصين إلى كيغالي يبلغ 35–50 يومًا. ويستغرق الشحن البحري من شنغهاي أو نينغبو إلى دار السلام 10–14 يومًا، ثم يقطع الطريق البري من دار السلام إلى كيغالي عبر طريق TANZAM 18–25 يومًا بالشاحنة. ويضيف التخليص في معبر روسومو الحدودي بين رواندا وتنزانيا يومين إلى خمسة أيام، ويوفر فريق اللوجستية تتبعًا مباشرًا بالشاحنات المراقبة GPS ومستندات جمركية مجمعة لتقليل التأخير.",
-        "fr": "Le temps de transit porte-à-porte typique pour les fixations de Chine à Kigali est de 35 à 50 jours.",
+        "fr": "Le délai est établi par commande.",
         "pt": "O tempo típico de porta a porta para fixadores da China para Kigali é de 35 a 50 dias.",
-        "ru": "Типичное время доставки от двери до двери крепежа из Китая в Кигали составляет 35–50 дней.",
-        "ja": "中国からキガリまでの標準的なドアツードアの輸送時間は35〜50日です。",
+        "ru": "Срок поставки рассчитывается по заказу.",
+        "ja": "納期はご注文ごとに算出します。",
         "de": "Die typische Lieferzeit von China nach Kigali beträgt 35–50 Tage.",
         "hi": "चीन से किगाली तक फास्टनर के लिए standard door-to-door transit time 35-50 दिन है।"
       }
@@ -555,10 +555,10 @@
         "hi": "क्या मैं रवांडा में दक्षिण अफ्रीकी या यूरोपीय फास्टनर मानकों का उपयोग कर सकता हूं?"
       },
       "answer": {
-        "en": "Yes — South African (SABS) and European (EN) fastener standards are accepted in Rwanda, provided the supplier provides a Certificate of Conformity (CoC) from an accredited testing agency. SABS SANS standards are closely aligned with ISO standards, making cross-compatibility straightforward. European EN 14399 (high-strength structural bolting) and EN 15048 (non-preloaded structural bolting) are widely accepted by Rwandan consulting engineers. However, Chinese-manufactured fasteners under ISO 898-1 offer a 25–40% cost advantage over South African and European equivalents while meeting identical mechanical specifications. TradeGo provides both ISO 9001-aligned Chinese fasteners and EN-standard products, allowing buyers to choose based on project specifications and budget requirements.",
-        "zh": "是的——南非（SABS）和欧洲（EN）紧固件标准在卢旺达是被接受的，只要供应商提供来自认可检测机构的合格证书（CoC）。欧洲EN 14399和EN 15048被卢旺达咨询工程师广泛接受。然而，中国制造的符合ISO 898-1的紧固件在满足相同机械规格的同时，比南非和欧洲同类产品具有25-40%的成本优势。",
+        "en": "The offer position is explained by the underlying cost structure rather than a single fixed figure: material grade, coating, manufacturing process, packaging, route and cargo plan all feed into the quotation. Routing and freight position are compared per enquiry, and small changes in specification or consolidation can move the unit position noticeably. Buyers should compare the full landed position rather than the headline unit figure alone, and ask the supplier to break down material, process, packaging and freight elements before deciding on the offer. Pricing is explained by cost structure, not a fixed figure.",
+        "zh": "报价位置取决于航线、运输方案与包装，而不是单一固定数字。价格只讲成本结构，不给固定数字。",
         "es": "Sí — los estándares de sujetadores sudafricanos (SABS) y europeos (EN) son aceptados en Ruanda con un CoC válido.",
-        "ar": "نعم، تُقبل معايير SABS الجنوب أفريقية وEN الأوروبية في رواندا متى قدّم المورد شهادة مطابقة CoC من جهة معتمدة. وتتوافق SANS مع ISO بشكل وثيق، وتُقبل EN 14399 للبراغي عالية المقاومة وEN 15048 للبراغي غير المشددة مسبقًا لدى المهندسين الروانديين. والمثبتات الصينية وفق ISO 898-1 تقدم ميزة كلفة 25–40% عن المكافئ الأوروبي والجنوب أفريقي مع المواصفات الميكانيكية ذاتها.",
+        "ar": "يُشرح السعر عبر هيكل التكلفة دون رقم ثابت.",
         "fr": "Oui — les normes de fixations sud-africaines (SABS) et européennes (EN) sont acceptées au Rwanda avec un CoC valide.",
         "pt": "Sim — padrões de fixadores sul-africanos (SABS) e europeus (EN) são aceitos em Ruanda com um CoC válido.",
         "ru": "Да — стандарты крепежа Южной Африки (SABS) и Европы (EN) принимаются в Руанде при наличии действующего CoC.",
