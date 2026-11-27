@@ -179,16 +179,16 @@
             "ja": "モンバサ向け出荷の標準納期はどのくらいですか？"
           },
           "a": {
-            "en": "Sea freight from China to Mombasa takes 25-35 days. Air freight is faster (5-7 days) but significantly more expensive.",
-            "zh": "从中国海运到蒙巴萨通常需要 25 到 35 天；空运更快，约五到七天，但费用明显更高。采购排期应结合货物紧急程度和内陆转运安排，海运批次提前预留清关与走廊运输时间，关键急用件才考虑空运。到岸成本里还包含港口操作、内陆运输和走廊清关费用，比较方案时不能只看运费。雨季和旺季延误应在交期上留出缓冲，单证在到港前完成预审，避免货物落地后因补证压港。",
-            "hi": "चीन से मोम्बासा तक समुद्री माल ढुलाई में 25–35 दिन लगते हैं। हवाई मालढुलाई तेज़ है, 5–7 दिन में पहुँच जाती है, पर काफ़ी महंगी होती है और ज़्यादा बजट वाली फुर्सत रहित खेप में ही चुनी जाती है। योजना बनाते समय बंदरगाह कस्टम और अंदरूनी परिवहन का समय अलग से रखें।",
-            "ru": "Морской фрахт из Китая в Момбасу занимает 25–35 дней. Авиадоставка быстрее, 5–7 дней, но обходится заметно дороже; для массового крепежа её выбирают под срочную позицию, а основной объём идёт морем. Срок считают от отгрузки с завода до прибытия в порт, внутренняя доставка до склада добавляется отдельно к этому циклу.",
-            "ar": "يستغرق الشحن البحري من الصين إلى مومباسا 25–35 يومًا حسب نوع الحاوية وظروف البحر. أما الشحن الجوي فأسرع، حيث يصل خلال 5–7 أيام، لكنه أغلى بكثير من حيث تكلفة الوحدة الواحدة، ولا يُستخدم عادة إلا للطلبات العاجلة أو القطع الصغيرة.",
-            "es": "El flete marítimo desde China hasta Mombasa tarda 25-35 días. El aéreo es más rápido (5-7 días), pero bastante más caro. La vía marítima es la base para pedidos normales, y el aéreo se reserva para urgencias. La elección del transporte equilibra plazo y costo del envío.",
-            "fr": "Le fret maritime depuis la Chine met 25 à 35 jours jusqu'à Mombasa. Le fret aérien est plus rapide (5 à 7 jours), mais il reste beaucoup plus coûteux. Le choix suit l'urgence de la pièce et le calendrier chantier. Les pièces critiques peuvent être expédiées par air en complément du lot maritime. Le transit dépend aussi du transbordement et du dédouanement. Anticipez le départ du navire pour tenir les jalons de montage.",
-            "pt": "O frete marítimo da China a Mombaça leva de 25 a 35 dias. O frete aéreo é mais rápido, de 5 a 7 dias, mas significativamente mais caro. O cronograma do projeto reserva contingência para desembaraço e transporte interno, e a escolha entre marítimo e aéreo segue a urgência e o valor da carga.",
-            "de": "Die Seefracht von China nach Mombasa beträgt 25–35 Tage. Luftfracht ist schneller (5–7 Tage), aber deutlich teurer. Für die Planung sind Seefracht, Hafenabfertigung und Inlandstransport als eigene Pufferphase vorzusehen.",
-            "ja": "海上輸送は中国からモンバサまで 25〜35 日かかります。航空輸送は 5〜7 日と速いですが、コストは大幅に高くなります。現地への配送と通関も含めた工程を事前に見込んでおくことが重要です。季節や港湾の混み具合で変動するため、余裕を持った手配が望ましいです。"
+            "en": "Ocean carriage from China to Mombasa and any onward inland leg are planned against the routing, transshipment schedule, port clearance and the corridor to the site, rather than a fixed published span. Air freight is available for urgent shortages but carries a clearly higher freight position. Align the production slot with the shipping mode and leave room for congestion and customs review; confirm the destination, specification and quantity before the order is booked, and keep shipping updates open through delivery. Lead time is quoted per order.",
+            "zh": "到蒙巴萨的海运及后续内陆段按航线、中转班期、港口清关和到工地走廊安排，不是固定天数；急用件可走空运，运费明显更高。排产与运输方式对齐，并为拥堵和清关查验预留缓冲；下单前确认目的地、规格和批量，发货后保持运输进度跟踪。交期按订单核算。",
+            "hi": "लीड टाइम ऑर्डर के अनुसार तय होता है।",
+            "ru": "Срок поставки рассчитывается по заказу.",
+            "ar": "يُحتسب موعد التسليم حسب الطلب.",
+            "es": "El plazo se cotiza por pedido.",
+            "fr": "Le délai est établi par commande.",
+            "pt": "O prazo é cotado por pedido.",
+            "de": "Die Lieferzeit wird pro Auftrag kalkuliert.",
+            "ja": "納期はご注文ごとに算出します。"
           }
         },
         {
