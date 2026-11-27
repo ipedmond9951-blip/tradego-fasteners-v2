@@ -60,8 +60,8 @@
     {
       "id": "african-standards",
       "heading": {
-        "en": "Understanding African Standards: SABS and DIN",
-        "zh": "了解非洲标准：SABS和DIN",
+        "en": "Do local or international standards govern acceptance?",
+        "zh": "本地标准与国际标准，验收以哪个为准？",
         "es": "Comprensión de las normas africanas: SABS y DIN",
         "ar": "فهم المعايير الأفريقية: SABS وDIN",
         "fr": "Comprendre les normes africaines : SABS et DIN",
@@ -87,8 +87,8 @@
     {
       "id": "climate-considerations",
       "heading": {
-        "en": "Climate Considerations: Tropical and Coastal Environments",
-        "zh": "气候考虑：热带和沿海环境",
+        "en": "What does tropical climate change in the specification?",
+        "zh": "热带气候会改变哪些规格要求？",
         "es": "Consideraciones climáticas: entornos tropicales y costeros",
         "ar": "اعتبارات المناخ: البيئات الاستوائية والساحلية",
         "fr": "Considérations climatiques : Environnements tropicaux et côtiers",
@@ -168,8 +168,8 @@
     {
       "id": "common-mistakes",
       "heading": {
-        "en": "Common Mistakes to Avoid",
-        "zh": "避免常见错误",
+        "en": "What should I check first when selecting fasteners for an African project?",
+        "zh": "非洲项目选型首先要核查什么？",
         "es": "Errores comunes a evitar",
         "ar": "الأخطاء الشائعة التي يجب تجنبها",
         "fr": "Erreurs courantes à éviter",
@@ -313,7 +313,7 @@
             "ja": "アフリカの案件で締結具を選ぶ際に最初に確認すべきことは何ですか？"
           },
           "a": {
-            "en": "Start with the corrosion category of the site, not the price: inland dry, coastal, industrial or mining service each rules out different coatings. Then confirm the load and the standards system the client's engineer will inspect against.",
+            "en": "Start with the site corrosion category, not price: inland dry, coastal, industrial and mining each rule out different coatings. Then confirm the joint load and the standards system the engineer inspects against. Read the drawing for class, thread series and coating, and check whether the product carries a regulated local mark. Common mistakes are zinc-plated parts outdoors, under-specified roofing pull-out, mixing plated and galvanised hardware, and thin thread engagement. Lock those basics in the specification, then compare suppliers on certificate and inspection evidence.",
             "fr": "Commencez par la catégorie de corrosion du site, pas par le prix : secs de l'intérieur, côtiers, industriels ou miniers éliminent des revêtements différents. Confirmez ensuite la charge — traction, cisaillement ou combinée — et le système de normes de l'ingénieur du client. Les boulons 8.8 ou 10.9 suivent ISO 898-1, les inoxydables ISO 3506-1 ; la spécification doit nommer norme, classe et revêtement.",
             "pt": "Comece pela categoria de corrosão do local, não pelo preço: secos do interior, costeiros, industriais ou de mineração descartam revestimentos diferentes. Depois confirme a carga — tração, cisalhamento ou combinada — e o sistema de normas do engenheiro do cliente. Os parafusos 8.8 ou 10.9 seguem ISO 898-1, os inoxidáveis ISO 3506-1; a especificação deve nomear norma, classe e revestimento.",
             "es": "Empiece por la categoría de corrosión del emplazamiento, no por el precio: secos del interior, costeros, industriales o mineros descartan recubrimientos distintos. Confirme después la carga — tracción, cortante o combinada — y el sistema de normas del ingeniero del cliente. Los pernos estructurales 8.8 o 10.9 se definen por ISO 898-1, los inoxidables por ISO 3506-1; la especificación debe nombrar norma, clase y recubrimiento.",
@@ -339,7 +339,7 @@
             "ja": "熱帯の気候は仕様をどう変えますか？"
           },
           "a": {
-            "en": "High humidity and heat accelerate zinc consumption and coating blistering, so move up one coating class: hot-dip or AZ150 instead of electro-zinc, 316 instead of 304 near the coast. Timber treated with copper-based preservatives also requires stainless or heavy coated fasteners.",
+            "en": "Humidity and heat accelerate zinc loss and coating blistering, so move up one coating class for exposed external steel: hot-dip galvanising or zinc-flake instead of thin electro-zinc, and 316 rather than 304 near the coast. Copper-preservative timber also needs stainless or heavily coated fasteners, since the preservative attacks plain steel. Record the exposure zone on the order, tie finish to destination climate, and separate dissimilar metals to limit galvanic action. A coating scratched in transit exposes base steel, so packing must avoid abrasion between parts.",
             "de": "Hohe Feuchte und Wärme beschleunigen den Zinkverbrauch und Blasenbildung, daher eine Beschichtungsklasse höher: feuerverzinkt oder AZ150 statt Elektrolytanzink, küstennah Edelstahl 316 statt 304. Kupferimprägniertes Holz braucht Edelstahl oder stark beschichtete Verbinder, da Kupfer dünne Zinkschichten angreift. Feuerverzinkung folgt ISO 1461, 316 fällt unter ISO 3506-1; Klasse, Norm und Überzug gehören ins Datenblatt.",
             "fr": "L'humidité élevée et la chaleur accélèrent la consommation du zinc et le cloquage ; montez d'une classe de protection : galvanisation à chaud ou AZ150 plutôt que zincage électrolytique, inox 316 au lieu du 304 près du littoral. Le bois traité au cuivre impose des fixations inoxydables ou lourdement revêtues. La galvanisation suit ISO 1461 et le 316 relève d'ISO 3506-1 ; classe, norme et revêtement sont portés sur la fiche.",
             "pt": "A umidade elevada e o calor aceleram o consumo do zinco e o empolamento; suba uma classe de proteção: galvanização a quente ou AZ150 em vez da zincagem eletrolítica, inox 316 no lugar do 304 perto do litoral. A madeira tratada com cobre exige fixadores inoxidáveis ou pesadamente revestidos. A galvanização segue ISO 1461 e o 316 se enquadra em ISO 3506-1; classe, norma e revestimento vão na ficha.",
@@ -365,7 +365,7 @@
             "ja": "受け入れの判断は現地規格と海外規格のどちらですか？"
           },
           "a": {
-            "en": "Regulated products need the local mark - SABS in South Africa, KEBS PVoC in Kenya, SONCAP in Nigeria - regardless of what the drawing says. For non-regulated items, ISO or DIN with a 3.1 mill certificate satisfies most consultants, but the project spec must name it.",
+            "en": "Regulated products need the local mark regardless of the drawing: SABS in South Africa, KEBS PVoC in Kenya, SONCAP in Nigeria, and comparable schemes elsewhere. For non-regulated items, ISO or DIN with a mill certificate satisfies most consultants, but the spec must name the standard and year. Confirm the destination regime before procurement, since a certificate accepted at one border may not satisfy another. Tie mark, standard and material record to each invoice line, and verify marking against the paperwork rather than accepting a copy alone.",
             "fr": "Les produits réglementés portent la marque locale, quel que soit le dessin : SABS en Afrique du Sud, KEBS PVoC au Kenya, SONCAP au Nigeria. Pour les articles non réglementés, ISO ou DIN avec certificat matière 3.1 satisfait la plupart des consultants, mais la spécification doit la désigner. Boulons et écrous portent leur marquage de classe, ex. 8.8 ou A2-70, pour rattacher chaque pièce à sa fiche au contrôle réception.",
             "pt": "Os produtos regulamentados levam a marca local, independentemente do desenho: SABS na África do Sul, KEBS PVoC no Quênia, SONCAP na Nigéria. Para itens não regulamentados, ISO ou DIN com certificado de material 3.1 atende à maioria dos consultores, mas a especificação deve nomeá-la. Parafusos e porcas trazem a marcação da classe, ex. 8.8 ou A2-70, para ligar cada peça à sua ficha na recepção.",
             "es": "Los productos regulados llevan la marca local, independientemente del plano: SABS en Sudáfrica, KEBS PVoC en Kenia, SONCAP en Nigeria. Para artículos no regulados, una referencia ISO o DIN con certificado de material 3.1 satisface a la mayoría de consultores, pero la especificación debe nombrarla. Pernos y tuercas marcan su clase, por ejemplo 8.8 o A2-70, para vincular cada pieza a su ficha en la recepción.",
@@ -391,7 +391,7 @@
             "fr": "Quels matériaux conviennent aux environnements côtiers africains ?"
           },
           "a": {
-            "en": "For coastal projects (within 5km of ocean): use 316 stainless steel (A4) for maximum corrosion resistance. HDG (hot-dip galvanized) fasteners acceptable for 10+ year projects 5-20km from coast. For most African construction, hot-dip galvanized Class 8.8 structural bolts provide best value. Avoid uncoated carbon steel in coastal zones.",
+            "en": "Close to the ocean, 316 stainless (A4) gives the strongest corrosion resistance; 304 (A2) suits milder inland-coastal exposure, and hot-dip galvanised 8.8 bolts suit general construction away from the salt zone. Avoid uncoated carbon steel in coastal air, where rust spreads at head and thread. Match the fastener family to the contact material, separate dissimilar metals, and check salt-spray references such as ASTM B117 or ISO 9227 NSS in the test report. A scratched plating loses protection quickly, so finish and handling matter as much as grade.",
             "ar": "للمشاريع الساحلية ضمن 5 km من المحيط استخدم الفولاذ المقاوم للصدأ 316 (A4) لأقصى مقاومة للتآكل. المثبتات المجلفنة بالغمس الساخن مقبولة لمشاريع تدوم 10 سنوات فأكثر على بعد 5–20 km من الساحل. في معظم الإنشاءات الأفريقية، توفر براغي إنشائية مجلفنة بالغمس الساخن درجة 8.8 أفضل وفرة. تجنب الفولاذ الكربوني غير المطلي في المناطق الساحلية، وطابق المادة مع مدة خدمة الوصلة.",
             "ru": "Для проектов в пределах 5 км от океана берите нержавеющую сталь 316 (A4) ради максимальной стойкости к коррозии. Крепеж HDG (горячее цинкование) подходит для объектов на срок 10+ лет в зоне 5–20 км от побережья. В большинстве африканских строительных объектов оптимальны структурные болты Class 8.8 горячего цинкования. Без покрытия углеродистую сталь в прибрежной зоне не используйте.",
             "zh": "沿海项目（距海 5 公里以内）应采用 316 不锈钢（A4）以获得最佳耐蚀性；距海 5 至 20 公里、设计年限十年以上的项目可接受热浸镀锌紧固件。多数非洲建筑中，热浸镀锌 8.8 级结构螺栓性价比最高。沿海地带应避免使用无镀层碳钢，盐雾会加速其锈蚀，选材时把距离海岸的远近与设计年限一并考虑。",
@@ -417,7 +417,7 @@
             "fr": "Quelle différence entre les boulons 4.8, 8.8 et 10.9 ?"
           },
           "a": {
-            "en": "Grade 4.8: Low-carbon steel, proof load 310 MPa, used for light structural and non-structural applications. Grade 8.8: Medium-carbon steel quenched and tempered, proof load 580 MPa, standard for African construction. Grade 10.9: Alloy steel, proof load 830 MPa, for high-load applications and heavy equipment mounting.",
+            "en": "4.8 is low-carbon steel for light, non-structural fixing. 8.8 is medium-carbon quenched and tempered, the usual default for general construction and most structural joints. 10.9 is alloy steel for high-load connections and heavy equipment mounting where compact preload matters. Match the class to the design load, not the stocked cheapest grade; 8.8, 10.9 and 12.9 look alike, so head marking and material check identify them. Verify delivered class against the certificate, and keep galvanised high-strength parts under hydrogen-embrittlement guidance.",
             "de": "Klasse 4.8: weicher Kohlenstoffstahl, Prüflast 310 MPa, für leichte tragende und nicht tragende Befestigungen. Klasse 8.8: mittelkohlenstoffhaltiger Stahl vergütet, 580 MPa, Standard im afrikanischen Bau. Klasse 10.9: legierter Stahl, 830 MPa, für hoch belastete Verbindungen und schwere Maschinen. Kopfprägung und Werksprüfzeugnis müssen zur bestellten Klasse passen; Abweichungen sperren die Charge.",
             "ar": "درجة 4.8 فولاذ منخفض الكربون، حمل إثبات 310 MPa، وتستخدم في التطبيقات الإنشائية الخفيفة وغير الإنشائية. درجة 8.8 فولاذ متوسط الكربون مُخمد ومقسّى، حمل إثبات 580 MPa، وهي المعيار في الإنشاءات الأفريقية. درجة 10.9 فولاذ سبيكي، حمل إثبات 830 MPa، للتطبيقات عالية الحمل وتركيب المعدات الثقيلة. اختر الدرجة حسب الحمل التصميمي، وراجع متطلب المهندس للوصلات الحرجة.",
             "ru": "Класс 4.8: низкоуглеродистая сталь, испытательная нагрузка 310 МПа, для лёгких структурных и ненесущих узлов. Класс 8.8: среднеуглеродистая сталь с закалкой и отпуском, испытательная нагрузка 580 МПа, стандарт для африканского строительства. Класс 10.9: легированная сталь, испытательная нагрузка 830 МПа, для высоконагруженных узлов и крепления тяжёлой техники.",
@@ -443,7 +443,7 @@
             "fr": "Comment les codes du bâtiment influencent-ils la spécification ?"
           },
           "a": {
-            "en": "South Africa: SANS 10162 (steel structures) specifies hex bolt installation. Kenya: KNBS standards for public infrastructure. Nigeria: NIS for construction materials. Most African codes derive from BS, EN, or ASTM standards. Confirm local authority requirements before procurement. Compulsory standards testing required for government projects.",
+            "en": "South Africa references SANS 10162 for steel-structure bolt installation; Kenya applies KNBS public-infrastructure rules, and Nigeria issues NIS construction-material requirements. Most African codes derive from BS, EN or ASTM bases, so the drawing should name the adopted standard before procurement. Government and tender projects commonly require compulsory standards testing, and regulated fasteners follow the destination conformity scheme. Confirm the local authority acceptance rules with the client engineer, keep standard editions aligned across the spec and certificate, and do not assume an ISO or DIN part alone satisfies a local mandatory mark.",
             "ar": "جنوب أفريقيا: SANS 10162 للمنشآت الفولاذية تحدد تركيب البراغي السداسية. كينيا: معايير KNBS للبنية التحتية العامة. نيجيريا: NIS لمواد البناء. معظم الأكواد الأفريقية مشتقة من BS أو EN أو ASTM. أكّد متطلبات الجهة المحلية قبل التوريد، والاختبار الإلزامي للمعايير مطلوب في المشاريع الحكومية. اذكر المرجع القياسي في مواصفة المشروع، واطلب شهادة مطحنة مطابقة للدرجة.",
             "ru": "ЮАР: SANS 10162 (стальные конструкции) задаёт монтаж шестигранных болтов. Кения: стандарты KNBS для общественной инфраструктуры. Нигерия: NIS для строительных материалов. Большинство африканских норм опираются на BS, EN или ASTM. Перед закупкой уточните требования местного органа. Для государственных проектов обязательна проверка по стандартам.",
             "zh": "南非以 SANS 10162（钢结构）规定六角螺栓安装；肯尼亚公共基础设施采用 KNBS 标准；尼日利亚建筑材料执行 NIS。多数非洲规范源自英国 BS、欧洲 EN 或 ASTM 标准。采购前应向当地主管部门确认要求，政府项目通常还需强制标准检测。跨区域供货时要核对目的地规范与出口标准的对应关系，避免等级或型式不被接受。",
@@ -469,7 +469,7 @@
             "fr": "Comment stocker les fixations sur un chantier africain ?"
           },
           "a": {
-            "en": "Storage requirements: 1) Indoor dry storage mandatory for stainless steel, 2) Elevated off ground (pallet minimum 150mm), 3) Original packaging preferred until use, 4) Humidity control (dehumidifier) for coastal locations, 5) FIFO inventory rotation, 6) Separate storage by grade/type to prevent mixing. Maximum outdoor storage: 6 months with visual inspection monthly.",
+            "en": "Store stainless steel indoors and dry, and keep all fixings off the ground on pallets rather than on damp slab. Keep original packaging until use, separate grades and types in their own bins, and rotate stock first-in-first-out so older coating does not fail first. In coastal and humid sites, control humidity and inspect exposed stock for deposit or rust before fitting. Set aside deformed threads and reused lock elements instead of retightening, and log any arrival-damaged lot against its reference before installation.",
             "de": "Edelstahl trocken innen lagern; alle Artikel auf Paletten mindestens 150 mm über dem Boden. Originalverpackung bis zum Einbau geschlossen, küstennahe Baustellen mit Entfeuchter, Lagerbestand nach FIFO umschlagen, Festigkeitsklassen und Typen getrennt lagern. Außenlagerung höchstens sechs Monate mit monatlicher Sichtprüfung; nasse oder verschmutzte Chargen werden separat geprüft, nicht in tragende Verbindungen eingebaut.",
             "ar": "متطلبات التخزين: تخزين داخلي جاف إلزامي للفولاذ المقاوم للصدأ؛ الرفع عن الأرض على منصة لا يقل ارتفاعها 150 mm؛ تفضيل العبوة الأصلية حتى الاستخدام؛ ضبط الرطوبة بجهاز مزيل للرطوبة في المواقع الساحلية؛ دوران مخزني FIFO؛ وفصل التخزين حسب الدرجة والنوع لمنع الخلط. أقصى تخزين خارجي 6 أشهر مع فحص بصري شهري، وافحص الصدأ والطلاء قبل سحب الدفعة إلى الموقع.",
             "ru": "Требования к хранению: 1) нержавеющая сталь обязательно в помещении и в сухости; 2) поднять над землёй — поддон минимум 150 мм; 3) до применения желательно держать в оригинальной упаковке; 4) в прибрежных местах контролировать влажность (осушитель); 5) ротация запасов по FIFO; 6) хранить отдельно по классу и типу, чтобы не смешивать. Максимум на открытом воздухе — 6 месяцев с осмотром каждый месяц.",
