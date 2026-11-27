@@ -178,16 +178,16 @@
             "ja": "中国からガボロネまでの配送にはどのくらいの時間がかかりますか？"
           },
           "a": {
-            "en": "Sea freight from China to Durban takes 25-30 days, then 7-10 days by road to Gaborone. Total lead time is typically 45-55 days from order confirmation. Air freight is available for urgent orders with 7-10 day delivery to Gaborone.",
-            "fr": "Le fret maritime depuis la Chine jusqu'à Durban prend 25 à 30 jours, puis 7 à 10 jours par route jusqu'à Gaborone ; le délai total est généralement de 45 à 55 jours après confirmation de commande. Pour les urgences, le transport aérien reste possible, avec livraison en 7 à 10 jours sur Gaborone.",
+            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "fr": "Le délai est établi par commande.",
             "pt": "O frete marítimo da China até Durban leva de 25 a 30 dias, depois mais 7 a 10 dias por estrada até Gaborone; o prazo total costuma ser de 45 a 55 dias após a confirmação do pedido. Para urgências, o transporte aéreo permanece disponível, com entrega em 7 a 10 dias em Gaborone.",
-            "es": "El flete marítimo de China a Durban tarda de 25 a 30 días, y luego de 7 a 10 días por carretera hasta Gaborone; el plazo total suele ser de 45 a 55 días desde la confirmación del pedido. Para pedidos urgentes existe transporte aéreo, con entrega en 7 a 10 días en Gaborone.",
+            "es": "El plazo se cotiza por pedido.",
             "ar": "يستغرق الشحن البحري من الصين إلى ديربان من 25 إلى 30 يوماً، ثم من 7 إلى 10 أيام براً إلى غابورون، ويقع إجمالي المهلة عادة بين 45 و55 يوماً من تأكيد الطلب؛ وللعاجل النقل الجوي متاح بتسليم 7 إلى 10 أيام. وتمر معظم الحاويات عبر ديربان ثم تصعد عبر جنوب أفريقيا إلى غابورون أو فرانسيستاون بمستندات العبور عند الحدود. وقد تطول المدد البرية في الذروة والتفتيش، فيُحسن مواءمة جدول المشروع مع المهلة البحرية بدل الاعتماد على المسار البري وحده.",
-            "zh": "海运从中国到德班约需 25–30 天，随后公路转运至哈博罗内需 7–10 天。从订单确认到送达，通常总周期为 45–55 天。急件可选用空运，7–10 天即可抵达哈博罗内。实际周期受船期、港口作业和清关进度影响，下单前应把生产排产、订舱和内陆转运时间一并核算；多规格拼柜要提前确认装箱方案，偏远工地还要预留提货和短途配送时间，交期以订单确认后的排产与物流计划为准。",
-            "ru": "Морской путь из Китая до Дурбана занимает 25–30 дней, затем 7–10 дней по автодороге до Габороне. В целом срок от подтверждения заказа до получения груза составляет 45–55 дней. Срочные партии можно отправить авиатранспортом — 7–10 дней до Габороне.",
+            "zh": "从订单确认到送达。急件可选用空运。实际周期受船期、港口作业和清关进度影响，下单前应把生产排产、订舱和内陆转运时间一并核算。多规格拼柜要提前确认装箱方案，偏远工地还要预留提货和短途配送时间，交期以订单确认后的排产与物流计划为准。交期按订单核算。",
+            "ru": "Срок поставки рассчитывается по заказу.",
             "de": "Der Seefrachttransport von China nach Durban dauert 25–30 Tage, anschließend benötigt der Straßentransport nach Gaborone 7–10 Tage. Die gesamte Lieferzeit beträgt daher in der Regel 45–55 Tage ab Auftragsbestätigung. Für eilige Bestellungen steht Luftfracht mit einer Lieferzeit von 7–10 Tagen nach Gaborone zur Verfügung.",
             "hi": "चीन से डरबन तक समुद्री माल ढुलाई 25–30 दिन लेती है, फिर सड़क मार्ग से गैबरोन तक 7–10 दिन; ऑर्डर की पुष्टि के बाद कुल लीड टाइम आम तौर पर 45–55 दिन रहता है। जरूरी ऑर्डर के लिए हवाई माल ढुलाई भी उपलब्ध है, जिसमें गैबरोन तक 7–10 दिन डिलीवरी होती है।",
-            "ja": "中国からダーバンまでの海上輸送に25～30日、その後ダーバンからガボロネまでの陸路輸送に7～10日かかります。発注確認から納品までの総所要時間は通常45～55日です。緊急注文の場合は航空便が利用可能で、ガボロネまで7～10日で配送されます。"
+            "ja": "納期はご注文ごとに算出します。"
           }
         },
         {
@@ -204,16 +204,16 @@
             "ja": "ボツワナへの最小発注数量はいくらですか？"
           },
           "a": {
-            "en": "Minimum order is 500kg for sea freight shipments. Full container loads (FCL 20ft) of 15-25 tonnes offer the best pricing. We accommodate mixed orders including various bolt sizes, nuts, washers, and specialized fasteners.",
-            "fr": "La commande minimum est de 500 kg pour les expéditions par mer. Les conteneurs complets FCL 20 ft, de 15 à 25 tonnes, offrent le meilleur tarif. Nous acceptons les commandes mixtes avec différents diamètres de boulons, des écrous, des rondelles et des fixations spéciales.",
-            "pt": "O pedido mínimo é de 500 kg para embarcações por mar. Os contêineres cheios FCL 20 ft, de 15 a 25 toneladas, apresentam o melhor preço. Aceitamos pedidos mistos com vários diâmetros de parafusos, porcas, arruelas e fixações especiais.",
-            "es": "El pedido mínimo es de 500 kg para envíos por mar. Los contenedores completos FCL 20 ft, de 15 a 25 toneladas, ofrecen el mejor precio. Aceptamos pedidos mixtos con distintos diámetros de pernos, tuercas, arandelas y fijaciones especiales.",
+            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
+            "fr": "La quantité minimale dépend de la route de production.",
+            "pt": "A quantidade mínima segue a rota de produção.",
+            "es": "La cantidad mínima depende de la ruta de producción.",
             "ar": "الحد الأدنى للطلب 500 كجم للشحن البحري، وتحقق حاويات 20 قدماً من 15 إلى 25 طناً أفضل شروط السعر. وتُقبل الطلبات المختلطة بأقطار مختلفة من البراغي والصواميل والغسالات ومثبتات خاصة، وقد تجمع نموذجياً براغي M10 وM12 وM16 وM24 وM30 من 8.8 أو 10.9 مع صواميل قفل وغسالات مطابقة. ويُحدد المراجع والدرجات والطلاءات في بطاقة الطلب قبل الإنتاج، وقطع الغيار الصغيرة تُدرس جدواها حالة بحالة لأن المناولة والمستندات تثقل الشحنة المجزأة.",
-            "zh": "海运起订量为 500 kg；20 尺整柜（FCL）15–25 吨价格最优。我们支持混合订单，可同时包含不同规格的螺栓、螺母、垫圈及特殊紧固件。起订量按规格和工艺不同有差异：标准通用件可凑拼柜批量，非标定制件开模和排产要求更高；拼柜时各规格分箱列明数量和唛头，方便到港分拣入库，具体可订数量按当期产能和包装方案确认。",
+            "zh": "我们支持混合订单，可同时包含不同规格的螺栓、螺母、垫圈及特殊紧固件。起订量按规格和工艺不同有差异：标准通用件可凑拼柜批量，非标定制件开模和排产要求更高。拼柜时各规格分箱列明数量和唛头，方便到港分拣入库，具体可订数量按当期产能和包装方案确认。起订量按生产路线确定。",
             "ru": "При морских поставках минимальный заказ — 500 кг. Наиболее выгодные цены получают на полные 20-футовые контейнеры (15–25 т). Мы принимаем сборные заказы: различные типоразмеры болтов, гаек, шайб и специального крепежа.",
-            "de": "Bei Seefrachtsendungen beträgt die Mindestbestellmenge 500 kg. Komplettcontainerladungen (20-Fuß-Container) mit 15–25 Tonnen bieten die besten Konditionen. Wir akzeptieren auch Mischbestellungen mit verschiedenen Bolzenabmessungen, Muttern, Unterlegscheiben und Spezialverbindern.",
-            "hi": "समुद्री शिपमेंट के लिए न्यूनतम ऑर्डर 500 kg है। 20 फुट पूरे कंटेनर (FCL) 15–25 टन में सर्वाधिक अनुकूल दरें मिलती हैं। एक ही ऑर्डर में अलग-अलग बोल्ट साइज़, नट, वॉशर और विशेष फास्टनर मिलाकर भेजे जा सकते हैं।",
-            "ja": "海上輸送の最小発注数量は500kgです。15〜25トンを積む20フィートのフルコンテナ（FCL）が最も単価の良い条件になります。ボルト、ナット、ワッシャー、特殊締結部品を複数サイズ混ぜた混合発注にも対応できます。初回の少量発注では単価が割高になるため、採算を見るならコンテナ単位のまとまりを前提に仕様を組む判断が必要です。"
+            "de": "Die Mindestbestellmenge richtet sich nach dem Produktionsweg.",
+            "hi": "न्यूनतम ऑर्डर मात्रा उत्पादन मार्ग पर निर्भर है।",
+            "ja": "最小発注量は生産ルートによって決まります。"
           }
         },
         {
@@ -256,16 +256,16 @@
             "fr": "Quelles conditions de paiement proposez-vous ?"
           },
           "a": {
-            "en": "Standard terms are 30% deposit T/T, balance against shipping documents. For established customers, we offer open account up to 60 days. Letter of Credit available for orders over USD 10,000.",
-            "zh": "标准条款为电汇 30% 订金，余款见船单付款；老客户可享最长 60 天赊销；订单金额超过 10 000 美元时，可使用信用证。付款方式在报价阶段就应与供应商确认清楚：新客户一般先按预付或比例订金操作，合作稳定后再申请账期；信用证要明确单证要求和有效期，避免交单不符造成收汇延误。具体条款以合同和银行安排为准。",
-            "ru": "Стандартные условия: 30 % предоплата банковским переводом, остаток — против отгрузочных документов. Для постоянных клиентов возможна отсрочка до 60 дней. При заказе свыше 10 000 USD оформляем аккредитив.",
-            "de": "Standardbedingungen sind 30 % Anzahlung per T/T und Restzahlung gegen Versanddokumente. Für Stammkunden gewähren wir offene Rechnung bis zu 60 Tage. Akkreditive sind bei Aufträgen über 10 000 USD möglich.",
-            "hi": "मानक शर्त T/T में 30% अग्रिम जमा, शेष राशि शिपिंग दस्तावेज़ों के खिलाफ। स्थापित ग्राहकों के लिए 60 दिन तक की ओपन अकाउंट सुविधा मिलती है; बड़े ऑर्डर पर L/C भी स्वीकार किया जा सकता है।",
-            "ja": "標準的な支払条件は、契約時に30%の前金を電信送金（T/T）で受け取り、残りは船積書類の提出時に支払われるというものです。既存のお客様には、最大60日間の掛け売り（アカウントオープン）も提供しております。10,000米ドルを超える注文では、信用状（L/C）の利用が可能です。",
-            "ar": "الشروط القياسية: عربون T/T بنسبة 30%، والرصيد مقابل مستندات الشحن. وللعملاء القدامى نوفر حساباً مفتوحاً حتى 60 يوماً. ويمكن قبول خطاب الاعتماد للصفقات الكبيرة. وتجنب الدفع الكامل مقدماً لمورد جديد قبل الإنتاج، ويُثبت الوضع الائتماني بعد طلبات ناجحة.",
-            "es": "Las condiciones estándar son un 30% de anticipo por T/T y el saldo contra documentos de embarque. Para clientes consolidados ofrecemos cuenta abierta hasta 60 días. La carta de crédito está disponible para pedidos de mayor cuantía.",
-            "pt": "As condições padrão são 30% de depósito por T/T e o saldo contra os documentos de embarque. Para clientes já estabelecidos, oferecemos conta aberta em até 60 dias. Carta de crédito disponível para pedidos acima do limite acordado.",
-            "fr": "Les conditions standard : 30 % d'acompte par virement T/T, solde sur documents d'expédition. Pour les clients établis, nous proposons un compte ouvert jusqu'à 60 jours. Un crédit documentaire est possible pour les commandes importantes. Les modalités se conviennent selon l'ancienneté relationnelle et la gestion du risque financier."
+            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit arranged through the buyer's bank. The settlement route, documents and milestones should be agreed up front, and any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
+            "zh": "余款见船单付款。可使用信用证。付款方式在报价阶段就应与供应商确认清楚：新客户一般先按预付或比例订金操作，合作稳定后再申请账期。信用证要明确单证要求和有效期，避免交单不符造成收汇延误。具体条款以合同和银行安排为准。付款条件按里程碑约定。",
+            "ru": "Условия оплаты согласуются по этапам.",
+            "de": "Zahlungsbedingungen werden je Meilenstein vereinbart.",
+            "hi": "भुगतान शर्तें माइलस्टोन के अनुसार तय होती हैं।",
+            "ja": "支払条件はマイルストーンごとに合意します。",
+            "ar": "تُتفق شروط الدفع حسب المراحل.",
+            "es": "Las condiciones de pago se acuerdan por hitos.",
+            "pt": "As condições de pagamento são acordadas por marcos.",
+            "fr": "Les conditions de paiement sont convenues par jalons."
           }
         },
         {
