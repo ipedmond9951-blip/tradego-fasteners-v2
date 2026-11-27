@@ -611,16 +611,16 @@
             "ar": "كم هو الحد الأدنى لكمية الطلب للتسليم إلى زيمبابوي؟"
           },
           "a": {
-            "en": "We recommend minimum 1 metric ton for trial orders. A 20ft container holds approximately 18-22 metric tons of standard fasteners, which is the most cost-efficient shipping option. For small quantities under 500kg, air freight to Harare can be arranged at higher cost.",
-            "zh": "试单建议起订量为1公吨。标准紧固件用20英尺集装箱装运，单柜约可装18至22公吨，是单位成本最划算的运输方式；数量越大，分摊到每吨的海运费、报关单证和内陆提货费用越低。若订货量不足500公斤，也可以安排空运到哈拉雷，但快递与货运单价明显高于海运，只适合紧急补单或样品验证阶段。下单前建议把目的仓地址、装卸条件和到货时间一并确认，避免分批运输增加额外费用。",
-            "hi": "ट्रायल ऑर्डर के लिए कम से कम 1 मीट्रिक टन की सिफ़ारिश की जाती है। 20 फुट कंटेनर में आम स्टील फास्टनर्स लगभग 18–22 मीट्रिक टन आते हैं, यह सबसे किफ़ायती शिपिंग विकल्प है। 500 kg से कम मात्रा के लिए हरारे तक हवाई माल ढुलाई की व्यवस्था हो सकती है, लेकिन उसकी लागत अधिक होती है।",
-            "es": "Recomendamos un mínimo de 1 tonelada métrica para pedidos de prueba. Un contenedor de 20 pies contiene aproximadamente 18-22 toneladas métricas de fijadores estándar, que es la opción de envío más rentable. Para cantidades pequeñas inferiores a 500 kg, se puede organizar transporte aéreo a Harare a un costo mayor.",
-            "ja": "試験発注の場合、1メートルトンを推奨いたします。20フィートコンテナには標準的な締結部品約18～22メートルトンが収容でき、最もコスト効率の高い輸送オプションです。500キログラム未満の小口数量の場合、ハラーレへの空輸を高コストで手配できます。",
-            "fr": "Nous recommandons un minimum de 1 tonne métrique pour les commandes d'essai. Un conteneur de 20 pieds contient environ 18-22 tonnes métriques de fixations standard, qui est l'option d'expédition la plus rentable. Pour les petites quantités inférieures à 500 kg, un fret aérien vers Harare peut être organisé à un coût plus élevé.",
-            "pt": "Recomendamos um mínimo de 1 tonelada métrica para encomendas de teste. Um contêiner de 20ft acomoda aproximadamente 18-22 toneladas métricas de fixadores padrão, que é a opção de envio mais econômica. Para pequenas quantidades abaixo de 500kg, é possível organizar frete aéreo para Harare a um custo maior.",
-            "de": "Wir empfehlen eine Mindestbestellmenge von 1 metrischer Tonne für Probebestellungen. Ein 20-Fuß-Container fasst etwa 18-22 metrische Tonnen Standardbefestigungselemente, was die kostengünstigste Versandoption ist. Für Mengen unter 500 kg kann Luftfracht nach Harare arrangiert werden, zu höheren Kosten.",
-            "ru": "Мы рекомендуем минимальный объем в 1 метрическую тонну для пробных заказов. Контейнер 20ft вмещает примерно 18-22 метрические тонны стандартных крепежных изделий, что является наиболее экономически выгодным вариантом доставки. Для небольших объемов менее 500 кг можно организовать авиаперевозку в Хараре, но по более высокой цене.",
-            "ar": "نوصي بحد أدنى طن واحد متري للطلبات التجريبية. تحتوي الحاوية 20 قدم على حوالي 18-22 طن متري من التجهيزات القياسية، وهي الخيار الأكثر كفاءة من حيث الشحن. للكميات الصغيرة أقل من 500 كجم، يمكن ترتيب الشحن الجوي إلى هراري بتكلفة أعلى."
+            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
+            "zh": "试单建议起订量为1公吨。标准紧固件用20英尺集装箱装运，单柜约可装18至22公吨，是单位成本最划算的运输方式。数量越大，分摊到每吨的海运费、报关单证和内陆提货费用越低。也可以安排空运到哈拉雷，但快递与货运单价明显高于海运，只适合紧急补单或样品验证阶段。下单前建议把目的仓地址、装卸条件和到货时间一并确认，避免分批运输增加额外费用。起订量按生产路线确定。",
+            "hi": "न्यूनतम ऑर्डर मात्रा उत्पादन मार्ग पर निर्भर है।",
+            "es": "La cantidad mínima depende de la ruta de producción.",
+            "ja": "最小発注量は生産ルートによって決まります。",
+            "fr": "La quantité minimale dépend de la route de production.",
+            "pt": "A quantidade mínima segue a rota de produção.",
+            "de": "Die Mindestbestellmenge richtet sich nach dem Produktionsweg.",
+            "ru": "Минимальный объём зависит от производственного маршрута.",
+            "ar": "تتبع الكمية الدنيا مسار الإنتاج."
           }
         },
         {
@@ -637,16 +637,16 @@
             "ar": "كم يستغرق الشحن من الصين إلى زيمبابوي؟"
           },
           "a": {
-            "en": "Sea freight from China to Beira port takes 14-20 days depending on departure port. After that, Beira clearance is 3-5 days, and road transit to Harare is typically 10-14 days. Total: 25-35 days from China port to Zimbabwe warehouse.",
-            "zh": "从中国港口到莫桑比克贝拉港的海运，依出发港口不同约14至20天；货物到港后在贝拉办理清关约3至5天，再由公路运往哈拉雷通常10至14天。三段合计，从中国港口到津巴布韦仓库全程约25至35天。雨季、口岸拥堵或文件不齐时，内陆段和清关时间可能延长，报交期时应预留缓冲，并提前确认装箱资料、产地证和符合性文件是否齐全，避免到港后压港产生滞港费用。",
-            "hi": "चीन से बेइरा बंदरगाह तक समुद्री माल ढुलाई में प्रस्थान बंदरगाह के हिसाब से 14–20 दिन लगते हैं। उसके बाद बेइरा में क्लीयरेंस 3–5 दिन, और हरारे तक सड़क मार्ग से आम तौर पर 10–14 दिन। चीन के बंदरगाह से ज़िम्बाब्वे के गोदाम तक कुल 25–35 दिन लगते हैं।",
-            "es": "El transporte marítimo desde China hasta el puerto de Beira tarda 14-20 días, dependiendo del puerto de salida. Posteriormente, la aduana en Beira toma 3-5 días, y el tránsito terrestre hasta Harare suele tardar 10-14 días. Total: 25-35 días desde el puerto de China hasta el almacén de Zimbabwe.",
-            "ja": "中国港からモザンビークのベイラ港までの海上輸送は、出港港により14〜20日かかります。港着後、ベイラでの通関に3〜5日、ハラーレまでの陸路輸送は通常10〜14日です。この三区間を合わせ、中国港からジンバブエの倉庫までの全行程は25〜35日となります。雨季、港湾混雑、書類不備の際は内陆・通関期間が延びることがあるため、納期見積もりには余裕を持たせ、船積書類、原産地証明、適合書類を事前に揃え、港での滞留費用を防いでください。",
-            "fr": "Le fret maritime de la Chine au port de Beira prend 14-20 jours selon le port de départ. Après cela, le dédouanement à Beira dure 3-5 jours, et le transit routier vers Harare est généralement de 10-14 jours. Total : 25-35 jours du port chinois à l'entrepôt du Zimbabwe.",
-            "pt": "O frete marítimo da China para o porto de Beira leva 14-20 dias, dependendo do porto de partida. Após isso, a liberação em Beira leva 3-5 dias, e o trânsito rodoviário para Harare é tipicamente de 10-14 dias. Total: 25-35 dias do porto chinês ao armazém no Zimbabwe.",
-            "de": "Die Seefracht von China nach Hafen Beira dauert je nach Abfahrtshafen 14-20 Tage. Danach dauert die Zollabfertigung in Beira 3-5 Tage, und die Straßenbeförderung nach Harare dauert in der Regel 10-14 Tage. Insgesamt: 25-35 Tage vom chinesischen Hafen zum Lager in Simbabwe.",
-            "ru": "Морские перевозки из Китая в порт Бейры занимают 14-20 дней в зависимости от порта отправления. После этого прохождение таможни в Бейре занимает 3-5 дней, а автомобильный транзит в Хараре обычно составляет 10-14 дней. Итого: 25-35 дней от порта Китая до склада в Зимбабве.",
-            "ar": "يستغرق الشحن البحري من الصين إلى ميناء بيرا 14-20 يومًا حسب ميناء المغادرة. بعد ذلك، يستغرق التخليص الجمركي في بيرا 3-5 أيام، والنقل البري إلى هراري عادة ما يستغرق 10-14 يومًا. المجموع: 25-35 يومًا من ميناء الصين إلى مستودع زيمبابوي."
+            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "zh": "从中国港口到莫桑比克贝拉港的海运。三段合计。雨季、口岸拥堵或文件不齐时，内陆段和清关时间可能延长，报交期时应预留缓冲，并提前确认装箱资料、产地证和符合性文件是否齐全，避免到港后压港产生滞港费用。交期按订单核算。",
+            "hi": "लीड टाइम ऑर्डर के अनुसार तय होता है।",
+            "es": "El plazo se cotiza por pedido.",
+            "ja": "納期はご注文ごとに算出します。",
+            "fr": "Le délai est établi par commande.",
+            "pt": "O prazo é cotado por pedido.",
+            "de": "Die Lieferzeit wird pro Auftrag kalkuliert.",
+            "ru": "Срок поставки рассчитывается по заказу.",
+            "ar": "يُحتسب موعد التسليم حسب الطلب."
           }
         },
         {
@@ -715,16 +715,16 @@
             "ar": "كيف يمكنني إجراء الدفع من زيمبابوي؟"
           },
           "a": {
-            "en": "Standard method is USD wire transfer (T/T) to our Hong Kong or UAE bank account. For orders over USD 20,000, we can discuss 30/70 or 50/50 payment terms for verified clients. All bank transfer fees are the sender's responsibility.",
-            "zh": "默认付款方式为美元电汇（T/T），汇入我方香港或阿联酋银行账户。对已完成资信核验的客户，订单金额超过2万美元时，可协商30/70或50/50的分期付款安排；新客户或首次合作仍以预付款加尾款的常规条款为准。所有银行转账手续费由付款方承担，中间行扣费也会影响到账金额，报价和收款时应注明币种、银行路径和费用承担方，避免到账差额影响发货排期。",
-            "hi": "सामान्य तरीका USD वायर ट्रांसफर (T/T) है, जो हमारे हांगकांग या UAE बैंक खाते में भेजा जाता है। सत्यापित ग्राहकों के बड़े ऑर्डर पर 30/70 या 50/50 भुगतान शर्तों पर बात की जा सकती है। बैंक ट्रांसफर की फीस भेजने वाले की ज़िम्मेदारी होती है।",
-            "es": "El método estándar es una transferencia bancaria en USD (T/T) a nuestra cuenta bancaria en Hong Kong o en los EAU. Para pedidos superiores a USD 20,000, podemos discutir condiciones de pago 30/70 o 50/50 para clientes verificados. Todos los gastos de transferencia bancaria son responsabilidad del remitente.",
-            "ja": "標準の支払い方法は米ドル送金（T/T）で、弊社の香港またはUAEの銀行口座へお振り込みいただきます。与信確認済みのお客様で、注文額が2万米ドルを超える場合、30/70または50/50の分割払い条件を協議できます。新規・初回取引には前払いと残金の従来条件が適用されます。銀行送金手数料はすべて送金者の負担で、中間行の手数料が入金額から控除されることもあるため、見積もりと受取時に通貨、銀行ルート、費用負担を明記し、入金差額が出荷手配に影響しないようにします。",
-            "fr": "La méthode standard est un virement en USD (T/T) vers notre compte bancaire à Hong Kong ou aux Émirats arabes unis. Pour les commandes supérieures à 20 000 USD, nous pouvons discuter de conditions de paiement 30/70 ou 50/50 pour les clients vérifiés. Tous les frais de transfert bancaire sont à la charge de l'expéditeur.",
-            "pt": "O método padrão é transferência bancária em USD (T/T) para nossa conta bancária em Hong Kong ou nos Emirados Árabes Unidos. Para encomendas acima de USD 20.000, podemos discutir termos de pagamento de 30/70 ou 50/50 para clientes verificados. Todas as taxas de transferência bancária são responsabilidade do remetente.",
-            "de": "Die Standardmethode ist eine USD-Überweisung (T/T) auf unser Hongkonger oder UAE-Konto. Für Bestellungen über USD 20.000 können wir bei geprüften Kunden Zahlungsbedingungen wie 30/70 oder 50/50 besprechen. Alle Bankgebühren gehen zu Lasten des Absenders.",
-            "ru": "Стандартный метод - перевод в долларах США (T/T) на наш банковский счет в Гонконге или ОАЭ. Для заказов свыше 20 000 долларов США мы можем обсудить условия оплаты 30/70 или 50/50 для проверенных клиентов. Все комиссии за банковские переводы несет отправитель.",
-            "ar": "الطريقة القياسية هي تحويل بالتحويل المصرفي بالدولار الأمريكي (T/T) إلى حسابنا في هونغ كونغ أو الإمارات العربية المتحدة. للطلبات التي تزيد عن 20,000 دولار أمريكي، يمكننا مناقشة شروط الدفع 30/70 أو 50/50 للعملاء المحددين. مسؤولية جميع رسوم التحويل المصرفية تقع على المرسل."
+            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit arranged through the buyer's bank. The settlement route, documents and milestones should be agreed up front, and any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
+            "zh": "默认付款方式为美元电汇（T/T），汇入我方香港或阿联酋银行账户。对已完成资信核验的客户，可协商30/70或50/50的分期付款安排。新客户或首次合作仍以预付款加尾款的常规条款为准。所有银行转账手续费由付款方承担，中间行扣费也会影响到账金额，报价和收款时应注明币种、银行路径和费用承担方，避免到账差额影响发货排期。付款条件按里程碑约定。",
+            "hi": "भुगतान शर्तें माइलस्टोन के अनुसार तय होती हैं।",
+            "es": "Las condiciones de pago se acuerdan por hitos.",
+            "ja": "支払条件はマイルストーンごとに合意します。",
+            "fr": "Les conditions de paiement sont convenues par jalons.",
+            "pt": "As condições de pagamento são acordadas por marcos.",
+            "de": "Zahlungsbedingungen werden je Meilenstein vereinbart.",
+            "ru": "Условия оплаты согласуются по этапам.",
+            "ar": "تُتفق شروط الدفع حسب المراحل."
           }
         },
         {
@@ -741,16 +741,16 @@
             "ar": "هل تقدمون عينات قبل الطلب بالجملة؟"
           },
           "a": {
-            "en": "Yes. We can send samples (1-5kg) by DHL/FedEx for quality verification before bulk order. Sample cost and express shipping are charged separately. For orders over USD 5,000, sample cost can be credited against bulk order.",
-            "zh": "可以提供样品。大货下单前，可通过DHL或FedEx寄送1至5公斤样品供质量核验；样品费与快递运费单独收取，不计入大货单价。订单金额超过5,000美元时，已付样品费可在大货订单中抵扣。建议样品阶段一并核对规格、材质、表面处理和包装标识，确认与正式订单要求一致，避免批量交货后再因牌号或镀层差异返工。",
-            "hi": "हाँ, थोक ऑर्डर से पहले गुणवत्ता जाँच के लिए DHL/FedEx से 1–5 kg नमूना भेजा जा सकता है। नमूना लागत और एक्सप्रेस शिपिंग अलग से ली जाती है; बड़े थोक ऑर्डर पर नमूना लागत थोक कीमत में समायोजित की जा सकती है।",
-            "es": "Sí. Podemos enviar muestras (1-5 kg) por DHL/FedEx para verificación de calidad antes del pedido al por mayor. El costo de la muestra y el envío exprés se cobran por separado. Para pedidos superiores a USD 5,000, el costo de la muestra puede ser abonado en el pedido al por mayor.",
-            "ja": "サンプルの提供が可能です。大量発注前にDHLまたはFedExで1〜5キログラムのサンプルを送付し、品質を確認いただけます。サンプル費用と速達運賃は別途請求で、大口単価には含まれません。注文額が5,000米ドルを超える場合、支払済みのサンプル費用を大口注文に充当できます。サンプル段階で仕様、材質、表面処理、包装表示を併せて確認し、本番注文の要求と一致させておくと、量産後の品種・めっき違いによる手戻りを防げます。",
-            "fr": "Oui. Nous pouvons envoyer des échantillons (1-5 kg) par DHL/FedEx pour vérification de la qualité avant une commande en gros. Le coût des échantillons et l'expédition express sont facturés séparément. Pour les commandes supérieures à 5 000 USD, le coût des échantillons peut être crédité sur la commande en gros.",
-            "pt": "Sim. Podemos enviar amostras (1-5kg) por DHL/FedEx para verificação de qualidade antes da encomenda em grande quantidade. O custo da amostra e o envio expresso são cobrados separadamente. Para encomendas acima de USD 5.000, o custo da amostra pode ser creditado contra a encomenda em grande quantidade.",
-            "de": "Ja. Wir können Muster (1-5 kg) per DHL/FedEx zur Qualitätsprüfung vor der Großbestellung senden. Musterkosten und Expressversand werden separat berechnet. Für Bestellungen über USD 5.000 können die Musterkosten auf die Großbestellung angerechnet werden.",
-            "ru": "Да. Мы можем отправить образцы (1-5 кг) через DHL/FedEx для проверки качества перед оптовым заказом. Стоимость образцов и экспресс-доставка оплачиваются отдельно. Для заказов свыше 5 000 долларов США стоимость образцов может быть зачтена при оптовом заказе.",
-            "ar": "نعم. يمكننا إرسال عينات (1-5 كجم) عبر DHL/FedEx للتحقق من الجودة قبل الطلب بالجملة. يتم تحميل تكلفة العينة وشحن البريد السريع بشكل منفصل. للطلبات التي تزيد عن 5,000 دولار أمريكي، يمكن خصم تكلفة العينة من الطلب بالجملة."
+            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
+            "zh": "可以提供样品。大货下单前。样品费与快递运费单独收取，不计入大货单价。订单金额超过5，已付样品费可在大货订单中抵扣。建议样品阶段一并核对规格、材质、表面处理和包装标识，确认与正式订单要求一致，避免批量交货后再因牌号或镀层差异返工。起订量按生产路线确定。",
+            "hi": "न्यूनतम ऑर्डर मात्रा उत्पादन मार्ग पर निर्भर है।",
+            "es": "La cantidad mínima depende de la ruta de producción.",
+            "ja": "最小発注量は生産ルートによって決まります。",
+            "fr": "La quantité minimale dépend de la route de production.",
+            "pt": "A quantidade mínima segue a rota de produção.",
+            "de": "Die Mindestbestellmenge richtet sich nach dem Produktionsweg.",
+            "ru": "Минимальный объём зависит от производственного маршрута.",
+            "ar": "تتبع الكمية الدنيا مسار الإنتاج."
           }
         }
       ],
