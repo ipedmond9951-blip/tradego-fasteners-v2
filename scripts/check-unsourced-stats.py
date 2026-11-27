@@ -22,6 +22,9 @@ SOURCE = re.compile(
     re.I)
 CTX = re.compile(r'(MPa|HV|µm|um\b|mm\b|TPI|°C|HRC|kN|Nm|N·m|grade|class|property class)', re.I)
 # 运营事实：航线/清关时效与整柜载重属可现场核对的作业量，不是市场统计（见 CONTENT-CONTRACT 254/260）
+# 工程性能比例与自有评分权重：前者是物理事实（承载力/寿命/啮合率），后者是我方评分卡自定权重，均非市场统计
+ENGG = re.compile(r'(capacity|strength|lifespan|service life|pull-out|clamp|engagement|core diameter|nominal size|taper|clearance)', re.I)
+OWN = re.compile(r'(scorecard|weighted metrics|权重|评分卡|deposit|before shipment|T/T|L/C|down payment)', re.I)
 OPS = re.compile(r'(\b\d+[-–]\d+\s?(days|hours)\b|\btransit\b|\bteu\b|\b\d+\s?(tonnes|tons)\s?(net|gross|per container)?|24 tonnes)', re.I)
 # 法定项：关税/增值税/附加税/保险费率由税则与税法直接规定，正文只要锚定到法规即可（见 260）
 STATUTE_RATE = re.compile(r'^(\d+(\.\d+)?%|\d+(\.\d+)?\s?%|110%|100%)$')
@@ -58,7 +61,7 @@ def audit(path, locale):
                         continue
                     total += 1
                     tok = m.group(0).strip()
-                    if OPS.search(sent):
+                    if OPS.search(sent) or ENGG.search(sent) or OWN.search(sent):
                         ops += 1
                         continue
                     ctx = sent + ' ' + (sents[i - 1] if i else '')
