@@ -159,7 +159,7 @@
     },
     {
       "heading": {
-        "en": "Base Plate and Anchor Bolt Specifications for Tanzania SGR",
+        "en": "Which grade, coating and pull-out basis apply to SGR base plates and anchor bolts?",
         "es": "Especificaciones de Placa Base y Pernos de Anclaje para Tanzania SGR",
         "ar": "مواصفات الصفائح الأساسية وبراغي التثبيت لمشروع SGR في تنزانيا",
         "fr": "Spécifications des plaques de base et des boulons d'ancrage pour le SGR de Tanzanie",
@@ -168,7 +168,7 @@
         "ja": "タンザニアSGR用ベースプレートとアンカーボルト仕様",
         "de": "Grundplatten- und Ankerbolzenspezifikationen für Tansania SGR",
         "hi": "तंजानिया SGR के लिए बेस प्लेट और एंकर बोल्ट विशिष्टियाँ",
-        "zh": "坦桑尼亚SGR底板和锚栓规格"
+        "zh": "SGR 底板与地脚螺栓适用何种等级、镀层与抗拔基准？"
       },
       "body": {
         "en": "<p>Base plates for Tanzania SGR applications require dimensional precision ensuring proper rail seat alignment and load distribution to concrete sleepers. Standard SGR base plates measure 150mm × 300mm × 20mm, featuring four pre-drilled anchor bolt holes on 140mm × 200mm centers. The plate surface incorporates anti-skid texture preventing lateral plate movement under dynamic loads. Material specification requires Grade 250 minimum yield strength steel, typically ASTM A36 or equivalent EN 10025 S275JR, with hot-dip galvanizing after fabrication [3].</p>\n<p>Anchor bolt specifications for SGR concrete sleeper installations require Grade 8.8 minimum tensile properties with embedding lengths determined by pull-out resistance calculations. Standard specifications mandate 500mm minimum embedment in M50-grade concrete, achieving minimum 150 kN pull-out resistance per bolt. The anchor cage design employs four bolts per sleeper at standard spacing of 600mm, providing aggregate anchor resistance exceeding calculated longitudinal and lateral track forces [2][4].</p>\n<p>Load transfer mechanisms in SGR fastening systems involve composite action between rail, clips, base plate, <a href=\"/en/products/anchor-bolts\">anchor bolts</a>, and concrete sleeper. The base plate functions as a load-spreading element reducing bearing stress on concrete from approximately 80 MPa at the rail seat to 8-10 MPa at the plate-concrete interface. This stress reduction prevents concrete crushing and maintains gauge geometry over millions of load cycles. Quality inspection criteria require dimensional verification of plate flatness (maximum 0.5mm deviation) and hole position tolerance (±1mm from specification) [3].</p>\n<p>Procurement specifications for Tanzania SGR base plates should include requirements for matched anchor bolt sets, as mismatched thread specifications cause installation delays. Supplier documentation must confirm bolt-to-plate hole compatibility, preferably through assembly verification at origin before shipping to Tanzania. Dar es Salaam Port clearance and inland transportation to construction sites demands packaging specifications preventing galvanizing damage during handling and transport [1].</p>",
@@ -215,7 +215,7 @@
     },
     {
       "heading": {
-        "en": "Tanzania SGR Fastener Quality Assurance and Testing",
+        "en": "What batch tests and first-article checks assure SGR fasteners before shipment?",
         "es": "Aseguramiento de Calidad y Pruebas de Sujetadores Tanzania SGR",
         "ar": "ضمان الجودة والاختبار لمثبتات SGR في تنزانيا",
         "fr": "Assurance qualité et essais des fixations SGR de Tanzanie",
@@ -224,7 +224,7 @@
         "ja": "タンザニアSGR締結装置の品質保証と試験",
         "de": "Qualitätssicherung und Prüfung von Tansania SGR-Befestigern",
         "hi": "तंजानिया SGR फास्टनर गुणवत्ता आश्वासन और परीक्षण",
-        "zh": "坦桑尼亚SGR紧固件质量保证与测试"
+        "zh": "发运前 SGR 紧固件有哪些批次检测与首件核验？"
       },
       "body": {
         "en": "<p>Material testing requirements for Tanzania SGR railway fasteners establish verification protocols ensuring each batch meets specification before installation. Chemical composition analysis using optical emission spectrometry confirms alloying element percentages within specified ranges. Carbon content critically affects hardness and strength development—Grade 8.8 bolts typically contain 0.25-0.40% carbon, while Grade 10.9 requires 0.30-0.50% carbon with appropriate manganese additions [3].</p>\n<p>Dimensional inspection procedures follow standardized sampling plans accepting or rejecting lots based on measured characteristics. Critical dimensions including thread pitch, major diameter, and overall length undergo 100% inspection for first article samples, transitioning to reduced sampling (AQL 1.0) for production lots. Thread gauge verification using GO/NO-GO gauges provides efficient functional testing confirming thread compatibility with mating components. Surface finish inspection verifies galvanizing coverage and thickness using magnetic induction gauges calibrated to ASTM E376 standards.</p>\n<p>Mechanical property verification methods include tensile testing determining ultimate tensile strength, yield strength, and elongation percentage. Hardness testing using Rockwell or Vickers methods provides rapid quality indication, with Grade 8.8 requiring 23-32 HRC and Grade 10.9 requiring 33-39 HRC. Proof load testing applies specified axial load without plastic deformation, confirming thread strength adequate for installation stresses. Impact testing at -20°C assesses low-temperature toughness, relevant for highland sections where overnight temperatures drop below 10°C.</p>\n<p>Fatigue testing considerations for SGR applications simulate millions of load cycles representing service conditions over fastener design life. Standard fatigue tests apply cyclic loading at 70-80% of proof load for 2 million cycles minimum, with acceptance requiring no failure. Projects specifying AREMA standards require 5 million cycles at reduced load levels. The Tanzania SGR specification mandates 2 million cycle testing with documentation, simulating the heavy axle load traffic projected for the corridor [2][4].</p>\n<p>Certification requirements for Tanzania projects demand documentation packages including mill test reports, heat numbers, manufacturing records, and third-party inspection certificates. Tanzania Bureau of Standards (TBS) certification may be required for locally delivered fasteners, while project-specific quality plans establish hold points requiring inspection agency approval before release to construction [1][6]. Third-party inspection services operating at Chinese manufacturing facilities provide cost-effective quality verification, typically charging $300-500 per inspection day plus travel expenses.</p>",
@@ -298,7 +298,7 @@
             "ja": "タンザニア SGR ではどの締結システムが使われますか？"
           },
           "a": {
-            "en": "Elastic rail clip systems with base plates and anchor bolts dominate, specified to project standards derived from UIC and EN practice. Clips, pads and insulators are supplied as matched sets rather than as individual parts.",
+            "en": "Elastic rail clip systems with base plates and anchor bolts dominate, specified to project standards derived from UIC and EN practice. Clips, pads and insulators are matched sets so track stiffness stays consistent along the sleeper. The system holds rail to sleeper through clip toe load, resisting longitudinal movement while allowing controlled rail expansion. Identify clip family, pad and insulator for the sleeper type, and keep same-system components together rather than mixing makes. Record standard, clip model and base-plate reference on the procurement list, and confirm the set matches the track design before manufacture.",
             "zh": "坦桑尼亚 SGR 以弹性弹条扣件体系为主，配合底板和锚栓，按源自 UIC 和 EN 实践的项目标准供货。弹条、垫板和绝缘件成套匹配，系统性能取决于各部件配合。选型按轨道条件、钢轨类型和设计标准确定，材质等级和镀层满足线路环境。订单中写明项目标准、部件清单和检验要求，供应商按体系配套生产；到货核对弹条、垫板和锚栓的规格标记与批次，结构部件保留质保记录，避免部件错配影响扣压力和绝缘性能。",
             "hi": "बेस प्लेट और एंकर बोल्ट के साथ इलास्टिक रेल क्लिप सिस्टम प्रमुख हैं, जिनकी स्पेसिफिकेशन UIC और EN पद्धति से ली गई परियोजना मानकों पर आधारित है। क्लिप, पैड और इंसुलेटर अलग-अलग पुर्जों की जगह मेल किए हुए सेट के रूप में आपूर्ति किए जाते हैं।",
             "ru": "Преобладают эластичные рельсовые прижимы (elastic rail clip) с подкладными плитами и анкерными болтами; решения заданы проектными стандартами, унаследованными от практики UIC и EN. Прижимы, подкладки и изоляторы поставляются согласованным комплектом, а не отдельными деталями вперемешку.",
@@ -324,7 +324,7 @@
             "ja": "購入時にレールクリップとアンカーボルトの仕様で確認すべき点は何ですか？"
           },
           "a": {
-            "en": "Clip toe load, pad stiffness, bolt grade and coating, and the anchor bolt's pull-out performance in the sleeper. A mismatched clip and pad combination changes track stiffness, so they should be bought as one system.",
+            "en": "Check clip toe load, pad stiffness, bolt grade and coating, and the anchor bolt's pull-out performance in the sleeper. A mismatched clip and pad changes track stiffness, so the pair is specified as a set rather than chosen separately. Bolt mechanical properties follow ISO 898-1, with coating checked against exposure and the route standard. Verify dimensions, thread and marking against the base-plate drawing, and keep certificate and heat number tied to batch. Where the sleeper is concrete or steel, confirm embedment and anchor bond with the track engineer before release.",
             "zh": "弹条和锚栓规格要核对：弹条趾部载荷、垫板刚度、螺栓等级和镀层，以及锚栓在轨枕中的抗拔性能。弹条与垫板匹配不当会改变整体扣压表现；锚栓抗拔不足会影响轨道固定。选型按线路荷载、道床条件和标准要求判断，成套部件等级和涂层对应。订单中写明各项参数和检验项目，供应商提供测试数据；到货核对规格、镀层和批次，关键部件抽样验证，避免弹条、垫板或锚栓单一部件不匹配造成线路隐患。",
             "hi": "क्लिप की टो लोड, पैड की कठोरता, बोल्ट ग्रेड और कोटिंग, तथा स्लीपर में एंकर बोल्ट का पुल-आउट प्रदर्शन देखें। बेमेल क्लिप और पैड का जोड़ ट्रैक कठोरता बदल देता है, इसलिए इन्हें एक ही सिस्टम के रूप में खरीदना चाहिए।",
             "ru": "Нагрузку носка прижима, жёсткость подкладки, класс и покрытие болта, а также вытягивающую способность анкерного болта в шпале. Несогласованная пара «прижим + подкладка» меняет жёсткость пути, поэтому их закупают одной системой под проектный профиль рельса.",
@@ -350,7 +350,7 @@
             "ja": "出荷前の品質はどのように保証されますか？"
           },
           "a": {
-            "en": "Sample testing for toe load and fatigue, dimensional checks on base plates, coating thickness on anchors, and a first-article inspection approved by the track engineer before volume production starts.",
+            "en": "Before shipment, assurance covers sample testing for toe load and fatigue, dimensional checks on base plates, coating thickness on anchors, and a first-article inspection approved by the track engineer before volume production. Chemical and mechanical tests verify the material meets specification, and batch records tie test evidence to the lot. Check marking, thread and finish on samples, and hold non-conforming parts until they match the certificate. Keep test method, sample count and approval record on file, and repeat the check where grade changes. Align the QA schedule with production so inspection happens before dispatch.",
             "zh": "发货前保证质量的方式：对趾部载荷和疲劳做抽样测试，核对底板尺寸，检查锚栓镀层厚度，并通过轨道工程方认可的首件检验。测试项目和放行标准在订单中写明，供应商按批次留样并保留记录。结构批次的炉号、标记与装箱映射清楚，混装规格分列清单。首件确认合格后再批量发运；到货按文件核对实物，发现测试记录不全或尺寸、镀层不达标的批次拒收或复检，确保上线部件质量一致。",
             "hi": "टो लोड और थकान के लिए नमूना परीक्षण, बेस प्लेटों का आयामी माप, एंकरों पर कोटिंग मोटाई जांच, और वॉल्यूम उत्पादन शुरू होने से पहले ट्रैक इंजीनियर से अनुमोदित फर्स्ट-आर्टिकल निरीक्षण शामिल हैं। बैच के हिसाब से रिकॉर्ड रखे जाते हैं ताकि बाद की डिलीवरी पर मापदंड का मिलान किया जा सके।",
             "ru": "Испытывают образцы на нагрузку носка и усталость, проверяют размеры подкладных плит, толщину покрытия анкеров, а до старта серийного выпуска проходит контроль первой партии, утверждённый инженером пути. Данные испытаний и замеров остаются в приёмочной документации.",
