@@ -136,7 +136,7 @@
     },
     {
       "heading": {
-        "en": "SABS Fastener Audit Process and Compliance Requirements",
+        "en": "What does the SABS fastener audit process cover?",
         "es": "Proceso de Auditoría de Sujetadores SABS y Requisitos de Cumplimiento",
         "ar": "عملية تدقيق SABS للمثبتات ومتطلبات الامتثال",
         "fr": "Processus d'audit des fixations SABS et exigences de conformité",
@@ -145,7 +145,7 @@
         "ja": "SABSファスナー監査プロセスとコンプライアンス要件",
         "de": "SABS-Befestigungselement-Audit-Prozess und Compliance-Anforderungen",
         "hi": "SABS फास्टनर ऑडिट प्रक्रिया और अनुपालन आवश्यकताएं",
-        "zh": "SABS紧固件审核流程与合规要求"
+        "zh": "SABS 紧固件审核流程包含哪些环节？"
       },
       "body": {
         "en": "<p>The SABS fastener audit process follows a structured methodology designed to verify that manufacturing facilities consistently produce fasteners meeting specified requirements [1]. For international manufacturers, understanding this workflow prevents costly delays and ensures efficient resource allocation during the certification journey. The process initiates with formal application submission to SABS, including product technical files, manufacturing process descriptions, and facility documentation. Application fees typically range from ZAR 5,000 for straightforward product categories to ZAR 25,000 for complex assemblies involving multiple fastener types [1]. Following application acceptance, SABS assigns a technical reviewer who conducts preliminary documentation assessment—an evaluation that typically spans 4 to 6 weeks depending on submission completeness.</p>\n<p>Factory inspection constitutes the audit's substantive component. SABS auditors examine incoming material controls, verifying that stainless steel coil and bar stock originates from mills providing certified chemical compositions and heat numbers traceable to specific melts. Production equipment calibration records undergo scrutiny, particularly for thread rolling machines, heat treatment furnaces, and dimensional inspection apparatus. Auditors observe actual production runs, assessing operator competency through work instruction adherence and technique consistency.</p>\n<p>Product testing protocols evaluate mechanical properties through tensile testing to destruction, measuring yield strength, ultimate tensile strength, and elongation against SANS requirements. For stainless steel fasteners, corrosion resistance testing in simulated coastal or industrial atmospheres verifies surface passivation effectiveness. Testing occurs at SABS-accredited laboratories or approved third-party facilities meeting ISO 17025 requirements [7]. The complete audit cycle—from initial application through certification decision—typically spans 3 to 6 months, contingent upon whether non-conformances require remediation [1]. Common failure points include inadequate traceability documentation linking raw material batches to finished product lots, insufficient in-process inspection records demonstrating statistical process control, and incomplete corrective action documentation following internal quality incidents. Manufacturers addressing these gaps proactively reduce audit duration and eliminate repeat visit charges that can add 15 to 25 percent to total certification costs.</p>",
@@ -192,7 +192,7 @@
     },
     {
       "heading": {
-        "en": "Stainless Steel Fastener Specifications Under SABS Review",
+        "en": "Which stainless grades and properties are reviewed?",
         "es": "Especificaciones de Sujetadores de Acero Inoxidable Bajo Revisión SABS",
         "ar": "مواصفات المثبتات المصنوعة من الفولاذ المقاوم للصدأ تحت مراجعة SABS",
         "fr": "Spécifications des fixations en acier inoxydable sous revue SABS",
@@ -201,7 +201,7 @@
         "ja": "SABS監査下でのステンレススチールファスナー仕様",
         "de": "Edelstahl-Befestigungselement-Spezifikationen unter SABS-Prüfung",
         "hi": "SABS समीक्षा के तहत स्टेनलेस स्टील फास्टनर विनिर्देश",
-        "zh": "南非SABS不锈钢紧固件审查规范"
+        "zh": "审查涉及哪些不锈钢牌号与性能？"
       },
       "body": {
         "en": "<p>SABS standards establish specific requirements for stainless steel fastener specifications that procurement managers must understand to ensure material suitability for intended applications [2]. These requirements address chemical composition, mechanical properties, dimensional tolerances, and surface finish characteristics. Chemical composition requirements differentiate between austenitic, ferritic, and martensitic stainless steel families approved for fastener applications. Austenitic grades including A2 (304/304L) and A4 (316/316L) provide corrosion resistance suitable for general outdoor applications, while A4 (316) with its 2-3 percent molybdenum content offers enhanced resistance to chloride-induced pitting corrosion—essential for coastal installations within 5 kilometers of the Atlantic or Indian Oceans. Grade comparison for <a href=\"/en/industry/stainless-steel-fasteners-304-316\">stainless steel fasteners</a> is covered in the 304 and 316 selection guide. Ferritic grades such as A1 (430) serve indoor applications where corrosion resistance requirements are moderate.</p>\n<p>Mechanical property requirements specify minimum values for yield strength, tensile strength, and elongation that vary by fastener property class [7]. Property class 70 (minimum 450 MPa tensile) applies to standard austenitic fasteners, while property class 80 (minimum 800 MPa tensile) requires specific heat treatment conditions and is restricted to certain bolt sizes due to reduced ductility concerns. Procurement specifications must clearly identify required property classes to ensure appropriate material selection.</p>\n<p>Dimensional tolerances per SANS 1365 specify requirements for body diameter, head dimensions, thread pitch, and overall length that align with ISO general purpose fastener specifications [7]. Critical dimensions include thread major diameter within ±0.05mm for metric coarse threads, key engagement depths for hex socket heads, and drive recess dimensions for torx or pozidriv configurations. Suppliers must demonstrate capability to consistently produce within these tolerances through gauge calibration records and measurement system analysis documentation.</p>\n<p>Surface finish requirements address both aesthetic considerations and corrosion protection. For stainless steel fasteners, passivation treatment per ASTM A380 removes free iron and other surface contaminants through nitric or citric acid application, restoring the chromium oxide layer providing corrosion resistance [7]. Alternative surface treatments such as electrolytic polishing provide enhanced corrosion resistance but require specific documentation demonstrating treatment parameters and rinse procedures preventing contamination.</p>",
@@ -303,7 +303,7 @@
             "ja": "ステンレス締結具の SABS 認証には何が求められますか？"
           },
           "a": {
-            "en": "Compliance with the relevant SANS or ISO product standard, a documented quality system, product marking, and a successful audit of the manufacturing process. Certification is granted to the facility, not to a single shipment.",
+            "en": "An audit-ready supplier works to the relevant SANS and ISO standards, with mechanical properties referenced to ISO 3506-1 for stainless and ISO 898-1 for alloy groups, and keeps a documented quality system, batch marking and traceability. Grades such as A2-70, A4-70, 304 and 316 are recorded against heat numbers, with finish and salt-spray method, such as ASTM B117 or ISO 9227 NSS, noted in the test record. Any certificate is issued for the facility or order, not assumed for a single shipment; buyers verify grade, marking and report rather than rely on a stamp.",
             "zh": "不锈钢紧固件申请 SABS 认证前，应具备：符合相关 SANS 或 ISO 产品标准、有文件化的质量体系、产品标记，以及生产过程通过审核。证书颁发后还需按周期监督审核。采购和供货层面，可先按相关产品标准组织生产，准备好材质记录、批次标记和检验文件；符合性证书按订单要求提供，不以尚未取得的认证作为供货承诺。订单中写明适用标准、等级和检验范围，供应商配合审核所需文件；结构批次保留炉号和质保记录，便于认证申请和到货追溯。",
             "hi": "प्रासंगिक SANS या ISO उत्पाद मानक का अनुपालन, दस्तावेज़ित गुणवत्ता प्रणाली, उत्पाद पर चिह्नांकन और निर्माण प्रक्रिया का सफल ऑडिट। प्रमाणन सुविधा यानी फैक्ट्री को दिया जाता है, किसी एक शिपमेंट को नहीं; उत्पाद SABS 1195/DIN/ISO मानक के अनुसार उत्पादित होता है और प्रमाण-पत्र ऑर्डर पर उपलब्ध कराए जाते हैं।",
             "ru": "Оценка предполагает соответствие действующему стандарту SANS или ISO, документированную систему качества, маркировку изделий и успешный аудит производственного процесса. Допуск выдаётся предприятию, а не отдельной отгрузке: одна проверенная партия не переносит статус на другую. Крепёж при этом производится по стандарту SABS 1195/DIN/ISO.",
@@ -329,7 +329,7 @@
             "ja": "審査のサイクルはどのように進みますか？"
           },
           "a": {
-            "en": "Initial certification covers application, documentation review and factory audit; surveillance audits then recur on a defined cycle. Lapsed or suspended certificates are common in the market, so buyers should verify current status rather than accept a certificate copy.",
+            "en": "An initial audit covers application, documentation review and on-site assessment of material storage, production, testing and record control. Once approved, surveillance audits recur on a defined cycle to confirm the system still holds, with marking and traceability checked at each visit. Copies in the market can be lapsed or suspended, so verify current status with the issuing body rather than accept an old scan. Between audits retain mill test reports and nonconformance records, and raise any material or process change before it reaches a batch.",
             "zh": "认证审核周期分为初次认证和后续监督。初次认证包括申请、文件评审和工厂审核；取得证书后按规定周期开展监督审核。证书失效或被暂停期间，相关合规承诺不能继续沿用。供货排期应把审核和文件办理时间提前计入，不要等到量产或发货后才补办。订单中写明认证状态要求和节点安排，供应商提前准备样品、批次记录和生产资料；结构批次在证书覆盖范围内供货，文件与批次对应，避免审核滞后影响项目验收。",
             "hi": "शुरुआती प्रमाणन में आवेदन, दस्तावेज़ समीक्षा और फैक्ट्री ऑडिट होता है; उसके बाद तय चक्र पर निगरानी ऑडिट दोबारा होते रहते हैं। बाजार में अस्थगित या निलंबित प्रमाण-पत्र आम हैं, इसलिए खरीदार को केवल कॉपी स्वीकार करने की जगह मौजूदा स्थिति की पुष्टि करनी चाहिए।",
             "ru": "Первичная оценка включает заявку, разбор документации и аудит завода; далее периодические проверки идут по установленному циклу. На рынке встречаются просроченные и приостановленные сертификаты, поэтому покупателю стоит проверять актуальный статус, а не принимать на верную копию документа.",
@@ -355,7 +355,7 @@
             "ja": "SABS 認証の出荷に添えるべき書類は何ですか？"
           },
           "a": {
-            "en": "Certificate of conformity, mill test reports with heat numbers, marking photographs and the audit or surveillance reference. Keep each document tied to an invoice line item so a customs or customer query can be answered quickly.",
+            "en": "Expect a certificate of conformity or audit reference, mill test reports tied to heat numbers, grade and class marking, and records of the marking on the parts. Where corrosion resistance is in scope, include the test method reference, such as ASTM B117 or ISO 9227 NSS, without quoting a guarantee the report does not carry. Keep each document linked to an invoice line so a query traces to the actual batch. Check that the report matches shipped grade, finish and quantity, and that certificate status is current before release.",
             "zh": "认证批次应随附符合性证书、带炉号的钢厂质保报告、标记照片以及审核或监督记录参考。每份文件都应对应到具体发票行和批次，便于到货核对和追溯。结构批次的炉号、头部标记和装箱映射保持一致，混装规格分列装箱单。订单中写明文件清单和批次对应要求，供应商按批次整理归档；到货核对证书、质保书与实物标记，文件无法对应的批次单独标识，不投入结构部位，后续补齐追溯资料再使用。",
             "hi": "सर्टिफिकेट ऑफ कॉन्फॉर्मिटी, हीट नंबर वाली मिल टेस्ट रिपोर्ट, चिह्नांकन की तस्वीरें और ऑडिट या निगरानी का संदर्भ। हर दस्तावेज़ को इनवॉइस की लाइन आइटम से जोड़कर रखें, ताकि कस्टम या ग्राहक का पूछने पर तुरंत जवाब दिया जा सके।",
             "ru": "В комплект входят сертификат соответствия, протоколы испытаний материала с номерами плавки, фотографии маркировки и ссылка на аудит или периодическую проверку. Каждый документ привязывают к строке счёта, чтобы вопрос таможни или заказчика можно было закрыть сразу, не поднимая архив по всей партии.",
