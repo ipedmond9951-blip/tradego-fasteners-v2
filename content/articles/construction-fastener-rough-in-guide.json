@@ -33,7 +33,7 @@
     {
       "id": "structural-phase",
       "heading": {
-        "en": "Phase 1: Structural Steel Connection",
+        "en": "What must be locked in at the structural steel connection stage?",
         "es": "Fase 1: Conexión de acero estructural",
         "ar": "المرحلة 1: توصيل الفولاذ الإنشائي",
         "fr": "Phase 1 : Assemblage de la charpente métallique",
@@ -42,7 +42,7 @@
         "ja": "フェーズ1：構造鉄骨接合",
         "de": "Phase 1: Anschluss von Baustahl",
         "hi": "चरण 1: संरचनात्मक इस्पात कनेक्शन",
-        "zh": "阶段1：钢结构连接"
+        "zh": "钢结构连接阶段需要锁定哪些紧固件条件？"
       },
       "body": {
         "en": "<p>Structural phase <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a> are load-bearing and critical to building safety: <a href=\"/products#anchor-bolts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Anchor bolts</a> (J-<a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a>, L-<a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a>) — M20/M24 for column base plates; embed in concrete during pour; specify HDG or 316 SS for coastal; quantity = 4 per column minimum. Structural <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">hex bolts</a> — M16/M20 Grade 10.9 for beam-to-column, beam-to-beam connections; specify HDG for outdoor exposed; quantity = per connection design (typically 4-8 per splice).</p><p>Related connection references cover the <a href=\"/en/industry/construction-fastener-standards-comparison\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">construction fastener standards comparison</a>, the <a href=\"/en/industry/structural-steel-connections-guide\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">structural steel connection guide</a> and the <a href=\"/en/industry/botswana-fastener-supplier\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Botswana fastener supplier reference</a>.</p>\n<p>Base plate shims — thin steel plates for leveling steel columns before grouting; size to match base plate. Shear studs — M19×100 Nelson studs for composite steel-deck floors; welded to beam flanges before deck installation. High-strength F1554 Grade 55 or 105 for <a href=\"/products#anchor-bolts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">anchor bolts</a> in seismic zones. Related resources: <a href=\"/en/products/high-tensile-bolts\">high-tensile bolts</a> <a href=\"/en/products/anchor-bolts\">anchor bolts</a> <a href=\"/en/products/stainless-bolts\">stainless steel fasteners</a> <a href=\"/en/products/hex-bolts\">hex bolts</a> <a href=\"/en/products/lock-nuts\">lock nuts</a> <a href=\"/en/products/washers\">washers</a> <a href=\"/en/products/self-drilling-screws\">self-drilling screws</a> <a href=\"/en/products/socket-screws\">socket screws</a>.</p>\n<p>This procurement framework applies to fastener sourcing for construction, mining, energy, automotive, and general industrial applications. The decision logic prioritizes quality consistency, supplier reliability, and total cost of ownership over short-term unit price. For B2B buyers in Africa, Latin America, and Southeast Asia, additional considerations include regional customs requirements, container consolidation options, and payment security mechanisms.</p>\n<p>Standardized specifications that travel across projects reduce training time, RFQ processing time, and supplier onboarding effort.</p>",
@@ -60,7 +60,7 @@
     {
       "id": "roofing-phase",
       "heading": {
-        "en": "Phase 2: Roofing and Cladding",
+        "en": "Which fasteners belong to the roofing and cladding phase?",
         "es": "Fase 2: Techado y revestimiento",
         "ar": "المرحلة 2: التسقيف والكسوة",
         "fr": "Phase 2 : Toiture et bardage",
@@ -69,7 +69,7 @@
         "ja": "フェーズ2：屋根および外壁材",
         "de": "Phase 2: Dach- und Verkleidungsarbeiten",
         "hi": "चरण 2: छत और क्लैडिंग",
-        "zh": "阶段2：屋面与覆层"
+        "zh": "屋面与覆层阶段使用哪些紧固件？"
       },
       "body": {
         "en": "<p>Roofing <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a> must resist wind uplift and provide weather sealing: IBR/Trapezoidal roofing screws — #3 drill point, hex head with EPDM <a href=\"/products#washers\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">washer</a>; 6mm (for 0.5mm sheet) or 8mm (for 0.8mm sheet) drill point; quantity = 4-6 per m² for roofs, 6-8 per m² for walls; always calculate based on wind zone. Side-lap screws — #2 drill point, pan head, 50mm long; one per lap rib at 500mm intervals.</p>\n<p>Ridge cap screws — same as roofing screws; install at both sides of ridge. Flashing nails — ring shank nails for securing flashing; hot-dip galvanized. For coastal areas (within 10km of ocean), specify stainless steel 304 roofing screws. For color-matched sheeting, specify polymer-coated in the correct RAL color — typically 500+ hours salt spray resistance. Standards-based procurement requires continuous learning as ISO, ASTM, DIN, and GB standards are revised every 3-5 years.</p>\n<p>Subscribe to standards update notifications and review specifications annually. The most common standards used in international fastener trade are ISO 898-1 (mechanical properties), ISO 3506-1 (stainless), ISO 3269 (acceptance inspection), ISO 4042 (coatings), and ISO 1502 (thread gauges). For B2B buyers, building a standards reference library with at least the top 20 standards relevant to your product mix is essential.</p>",
@@ -255,7 +255,7 @@
             "ja": "構造締結具を先行配管に使ってよいですか？"
           },
           "a": {
-            "en": "Fix bolt grade, coating and size per connection, and require mill test certificates with each heat. Record the torque and the wrench used for every structural node, because auditors check torque records before they check the bolts.",
+            "en": "At the structural steel stage, fix the bolt property class, coating and size for each connection before fabrication, and require mill test documentation with every heat delivered. For beam-to-column and splice connections, typical parts are M16/M20 class 10.9 hex bolts, hot-dip galvanized for outdoor exposure; column base plates use J- or L-anchor bolts in M20/M24, embedded during the concrete pour. Record torque and wrench at every structural node, since auditors check torque records before the bolts. Classes follow ISO 898-1, acceptance references ISO 3269, and batch marks stay in the project file.",
             "zh": "结构钢阶段应逐节点锁定螺栓等级、镀层与规格，并要求随批提供材质证明。每个结构节点都要记录扭矩值和所用扳手，审核通常先看扭矩记录，再查螺栓本身。下料前把节点清单上的规格、等级和表面处理与图纸核对一致，避免现场混用不同等级；扭矩按工艺规定分初拧、终拧，记录可追溯到具体节点和批次，便于验收和后期复核。",
             "hi": "हर कनेक्शन के लिए बोल्ट ग्रेड, कोटिंग और साइज़ पहले ही तय करें, और प्रत्येक हीट के साथ मिल टेस्ट सर्टिफिकेट माँगें। हर संरचनात्मक नोड पर टॉर्क और इस्तेमाल की गई रिंच दर्ज करें—लेखा-परीक्षण करने वाले बोल्ट देखने से पहले टॉर्क रिकॉर्ड जाँचते हैं।",
             "ru": "По каждому соединению фиксируют класс болта, покрытие и размер, а к каждой плавке требуют заводские протоколы испытаний. Для каждого конструктивного узла записывают момент затяжки и ключ, которым он выполнен: аудиторы в первую очередь проверяют записи момента, а не сами болты.",
@@ -281,7 +281,7 @@
             "ja": "先行段階でどんな締結具を手元に置きますか？"
           },
           "a": {
-            "en": "Self-drilling screws with EPDM washers, coating at least AZ150 for coastal sites, plus stitch screws and bracing. Check screw length against purlin thickness: too short means no thread engagement, too long means the point pierces the profile and rusts.",
+            "en": "The roofing and cladding phase mainly uses self-drilling screws with bonded EPDM sealing washers, plus stitch screws and bracing fixings. For coastal sites, specify a coating of at least AZ150 on the steel strip, and stainless 304 or 316 screws where the structure sits within about 10 km of the ocean. Check screw length against the purlin and sheet thickness: too short leaves no thread engagement, while too long lets the point pierce the profile and rust at the tip. Ring-shank flashing nails are hot-dip galvanized; polymer-coated screws match sheet color, checked at inspection.",
             "zh": "屋面与围护阶段备带 EPDM 垫圈的自钻螺钉，沿海项目镀层至少 AZ150，另配拉结钉与支撑件。螺钉长度要对檩条厚度核算：太短没有有效螺纹，太长钉尖穿透型材成为锈源。选型时把板型厚度、檩条材质和当地风荷载一起核对，垫圈与钉头配套保证密封；外露沿海部位还要检查镀层和密封垫耐老化情况，到货后按规格抽检钻尖、螺纹和垫圈完整性。",
             "hi": "EPDM वॉशर वाले सेल्फ-ड्रिलिंग स्क्रू, तटीय साइटों के लिए कम से कम AZ150 कोटिंग, साथ में स्टिच स्क्रू और ब्रेसिंग इस्तेमाल होते हैं। पर्लिन की मोटाई से स्क्रू की लंबाई मिलाएँ: बहुत छोटा धागा नहीं पकड़ेगा, बहुत लंबा पॉइंट प्रोफाइल छेद कर जंग पकड़ लेता है।",
             "ru": "Сверлящие саморезы с шайбами EPDM, для прибрежных площадок покрытие не ниже AZ150, плюс пристрелочные саморезы и крепление раскоса. Длину самореза сверяют по толщине прогона: слишком короткая даёт неполное вхождение резьбы, слишком длинная — наконечник протыкает профиль и ржавеет.",
@@ -307,7 +307,7 @@
             "ja": "先行段階で締結具を保護するにはどうしますか？"
           },
           "a": {
-            "en": "Count nodes from the drawings rather than by floor area: bolts per connection, screws per square metre of roofing and per linear metre of partition. Add 3-5% for site loss and damage, and separate structural items from consumables so the quote stays readable.",
+            "en": "Estimate fastener quantities from the drawings node by node, not from floor area alone: bolts per connection, screws per square metre of roofing, and screws or nails per linear metre of partition and cladding. Add a 3–5% allowance for site loss and damage, and keep structural items separate from consumables so the quote stays readable. Anchor bolts are counted per column and base plate; roofing screws follow sheet coverage and lap detail; drywall fixings follow stud spacing. Separate structural hardware, consumables and stainless in the take-off, so substitutions track without mixing sizes or grades.",
             "zh": "投标阶段按图纸节点统计用量，而不是按建筑面积拍数：每个连接点的螺栓数、屋面每平方米钉数、隔墙每延米的螺钉数。再加 3–5% 现场损耗，并把结构件与耗材分列，报价才清楚。统计时区分结构连接件和围护自攻件两类，分别汇总规格和数量；图纸节点不清的部位先留余量并在后续深化时核对，损耗比例按施工经验和现场条件调整，清单口径与最终采购清单保持一致。",
             "hi": "फर्श क्षेत्र से नहीं, ड्राइंग से नोड गिनें: हर कनेक्शन में बोल्ट, रूफिंग के प्रति वर्ग मीटर और विभाजन के प्रति लीनियर मीटर स्क्रू। साइट पर होने वाले नुकसान और टूट-फूट के लिए 3–5% जोड़ें। संरचनात्मक मदों को खपत वाली मदों से अलग रखें ताकि कोटेशन स्पष्ट बना रहे।",
             "ru": "Считают узлы по чертежам, а не по площади этажа: болтов на соединение, саморезов на квадратный метр кровли и на погонный метр перегородки. На потери и бой на площадке добавляют 3–5%, несущие позиции отделяют от расходных, чтобы смета оставалась читаемой и корректировалась вместе с проектом.",
