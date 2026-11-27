@@ -87,8 +87,8 @@
     {
       "id": "case-1",
       "heading": {
-        "en": "Case 1: Quality / Manufacturing Defect in Fastener Failure Analysis: 5 Real-World Case Studies and Lessons Learned",
-        "zh": "案例 1：Fastener Failure Analysis: 5 Real-World Case Studies and Lessons Learned 中的Quality / Manufacturing Defect",
+        "en": "What evidence separates a manufacturing-defect batch from a single recoverable part?",
+        "zh": "哪些证据能区分制造缺陷批次与可返工单件？",
         "es": "Caso 1: Calidad / defecto de fabricación — Análisis de fallas en fijaciones: 5 casos y lecciones",
         "ar": "الحالة 1: عيوب الجودة والتصنيع — تحليل أعطال المثبتات: 5 دراسات حالة ودروس عملية",
         "fr": "Cas 1: Qualité / défaut de fabrication — Défaillances des fixations : 5 études de cas et enseignements",
@@ -195,8 +195,8 @@
     {
       "id": "case-5",
       "heading": {
-        "en": "Case 5: Procurement / Supplier Fraud in Fastener Failure Analysis: 5 Real-World Case Studies and Lessons Learned",
-        "zh": "案例 5：Fastener Failure Analysis: 5 Real-World Case Studies and Lessons Learned 中的Procurement / Supplier Fraud",
+        "en": "How does a certificate-to-parts audit expose supplier misrepresentation?",
+        "zh": "单证与实物比对如何暴露供应商虚报？",
         "es": "Caso 5: Fraude de proveedor / compras — Análisis de fallas en fijaciones: 5 casos y lecciones",
         "ar": "الحالة 5: احتيال المورد والمشتريات — تحليل أعطال المثبتات: 5 دراسات حالة ودروس عملية",
         "fr": "Cas 5: Fraude fournisseur / achats — Défaillances des fixations : 5 études de cas et enseignements",
@@ -260,7 +260,7 @@
             "hi": "फास्टनरों में सबसे आम विफलता मोड क्या है?"
           },
           "a": {
-            "en": "The most common failure mode in Fastener Failure Analysis: 5 Real-World Case Studies and Lessons Learned is supplier-side quality control deficiency, accounting for over 60% of documented cases. Contributing factors include: missing ISO 9001 certification, inadequate mill test certificates, lack of pre-shipment third-party inspection, and incorrect grade marking. B2B buyers should require documentation before payment release and engage independent testing agencies for batch verification.",
+            "en": "The most frequent recurring pattern in the recorded field incidents is supplier-side quality control deficiency: weak mill test certificates, poor production-lot control, no pre-shipment third-party inspection and incorrect grade marking. The five modes are manufacturing defect, corrosion, overload, grade mismatch and supply fraud, each linking a symptom to the specification, material, coating and documentation questions settled before shipment. Require documentation before payment release and use an independent inspection agency for batch verification. Sectioning, metallographic examination, dimensional checks and head-marking comparison against the mill record separate a batch-wide problem from a single-part defect.",
             "zh": "紧固件送分析时，最常踩的坑是把表象当成根因。断口形貌尚未判读清楚，就凭裂纹出现的位置归为单纯过载；氢脆引起的延迟断裂与应力腐蚀开裂在初看时形态相近，前者多与金相、回火和氢含量有关，后者则伴随腐蚀介质与拉应力共同作用，混淆二者会把整改方向带偏。垫圈面、螺纹根部、头部圆角的划痕与加工缺陷也要逐项排除。分析时保留失效件、留样和装配受力记录，必要时可委托第三方机构复核断口形貌与金相组织，先分清断裂性质再下结论，别把误判写进下一版采购规格。",
             "es": "El modo de falla más común en Fastener Failure Analysis: 5 Real-World Case Studies and Lessons Learned es la deficiencia de control de calidad del lado del proveedor.",
             "fr": "Le mode de défaillance le plus courant dans Fastener Failure Analysis: 5 Real-World Case Studies and Lessons Learned est la déficience du contrôle qualité côté fournisseur.",
@@ -286,7 +286,7 @@
             "hi": "B2B खरीदार फास्टनर विफलताओं को कैसे रोक सकते हैं?"
           },
           "a": {
-            "en": "Five prevention measures: 1) Specify ISO 9001 certification and original mill test certificates in purchase orders, 2) Engage third-party inspection agencies (SGS, Bureau Veritas, Intertek) for pre-shipment verification, 3) Conduct independent lab testing on samples before payment release, 4) Match fastener grades to application requirements, 5) Train procurement teams on fastener specifications and standards. For African infrastructure projects, see the <a href=\"/en/industry/south-africa-sabs-fastener-import-requirements\">South Africa SABS import requirements</a> for documentation specifics.",
+            "en": "Five prevention measures close the common routes: specify mill test certificates and quality-system documents in the purchase order; engage a third-party agency such as SGS, Bureau Veritas or Intertek for pre-shipment verification; test independent samples before payment release; match grades to the assembly duty; and brief procurement on grades and standards. Review suppliers batch by batch on arrival, acceptance and landed performance. For structural or vibrating joints, add fatigue checks and salt-spray exposure to incoming qualification, and keep certificate, heat number and head marking tied to the same lot so a substitution cannot pass unseen.",
             "zh": "失效分析不能只交一份报告，断口形貌、氢脆和应力腐蚀查出的根因，要回到采购链条里堵住同类问题。先把失效件与留样封存档，必要时送独立实验室做断口复验；再按反推出的受力与腐蚀工况修正材质和等级选型，不沿用旧配置；采购经理把上轮案例暴露的条款缺口补进下一版订单，同步锁定供方 ISO 9001 质量证书与原始材质单；质检、采购和维修岗人员轮番受训，认得断口特征、氢脆与应力腐蚀迹象，并把现场反馈带回评审；出货前委托第三方验货机构赴厂抽检。每轮分析后更新一次条款，同类根因才不会在下一批货上重演。",
             "es": "Cinco medidas de prevención: 1) Especificar ISO 9001, 2) Inspección de terceros, 3) Pruebas de laboratorio independientes, 4) Especificaciones coincidentes, 5) Capacitación.",
             "fr": "Cinq mesures de prévention : 1) Spécifier ISO 9001, 2) Inspection tierce, 3) Tests laboratoire indépendants, 4) Spécifications correspondantes, 5) Formation.",
