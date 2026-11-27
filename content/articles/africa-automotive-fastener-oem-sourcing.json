@@ -131,8 +131,8 @@
     {
       "id": "requirements",
       "heading": {
-        "en": "What an Automotive Buyer Actually Audits",
-        "zh": "汽车买家真正审什么",
+        "en": "Which certificates, dimensional reports and process evidence does an automotive audit ask for?",
+        "zh": "汽车紧固件审核要哪些证书、尺寸报告与过程证据？",
         "ar": "ما يدقّقه مشتري السيارات فعليًا",
         "es": "Qué audita de verdad un comprador de automoción",
         "fr": "Ce qu'un acheteur automobile audite vraiment",
@@ -185,8 +185,8 @@
     {
       "id": "sourcing-model",
       "heading": {
-        "en": "How to Structure the Supplier Relationship",
-        "zh": "供应商关系怎么搭",
+        "en": "How should volume parts and low-volume service parts be split across supplier agreements?",
+        "zh": "量产件与小批量服务件分别怎么签供应商协议？",
         "ar": "كيف تُبنى علاقة المورد",
         "es": "Cómo estructurar la relación con el proveedor",
         "fr": "Comment structurer la relation fournisseur",
@@ -265,7 +265,7 @@
             "ja": "自動車の買い手はどんな品質書類を求めますか？"
           },
           "a": {
-            "en": "Material certificates tied to heat numbers, dimensional reports against the drawing, process evidence for heat treatment and plating, thread inspection records, and first-article inspection reports before volume supply.",
+            "en": "Automotive buyers expect material certificates tied to heat numbers, dimensional reports against the drawing, and process evidence covering heat treatment, plating thickness and thread inspection. First-article inspection reports are required before volume supply, and thread inspection records should accompany the batch. IATF-style quality system expectations are common even where formal certification is not demanded, so the supplier should show the quality contact and corrective-action route. Keep the documentation tied to the drawing revision and tolerances, and record the test methods stated for material and coating rather than a general compliance statement.",
             "zh": "汽车客户通常会索要与炉号对应的材质证明，以便把每一批材料追溯到熔炼记录；同时需要按图纸出具的尺寸检验报告，核对关键尺寸与公差。热处理和电镀等表面处理环节要保留过程记录，螺纹要有专门的检验记录。在批量供货之前，还应提供首件检验报告，确认样品尺寸、性能与表面处理均符合要求后，再安排量产发货。",
             "hi": "हीट नंबर से जुड़े मटेरियल प्रमाण-पत्र, ड्राइंग के मुकाबले आयामी रिपोर्ट, हीट ट्रीटमेंट और प्लेटिंग की प्रक्रिया का प्रमाण, थ्रेड निरीक्षण रिकॉर्ड, और बड़े पैमाने पर आपूर्ति से पहले का फर्स्ट-आर्टिकल निरीक्षण रिपोर्ट। ये दस्तावेज़ भाग की ट्रेसेबिलिटी बनाए रखते हैं; कागज़ अधूरा हो तो बैच रिलीज़ पर रोक की बात पहले ही तय कर लें।",
             "ru": "Сертификаты материала с привязкой к номерам плавки, отчёты по размерам относительно чертежа, подтверждение процесса термообработки и покрытия, записи контроля резьбы и отчёты о приёмке первого образца до начала серийной поставки. Такой пакет позволяет проследить каждую партию от плавки до сборки узла.",
@@ -291,7 +291,7 @@
             "ja": "アフリカの自動車用途で一般的な等級は何ですか？"
           },
           "a": {
-            "en": "Grades 8.8 and 10.9 dominate chassis, suspension, and body applications, with 12.9 used for specific high-load parts. Coating choice is driven by corrosion cycles rather than by grade alone.",
+            "en": "Grades 8.8 and 10.9 dominate chassis, suspension and body applications, with 12.9 reserved for specific high-load parts. The recurring list covers hex flange bolts and nuts for chassis and suspension, studs and welded fasteners, trim self-tapping screws, and precision-turned parts. Coating choice is driven by corrosion cycles rather than grade alone, and mechanical properties follow ISO 898-1 with inspection under ISO 3269. Match the grade to the joint load and the drawing, and do not substitute a higher class without re-approval against the assembly requirement.",
             "zh": "底盘、悬架和车身等部位以 8.8 级和 10.9 级螺栓为主，12.9 级只用于个别高载荷零件。表面处理方式应根据使用环境的腐蚀循环次数来选择，而不能只看强度等级；不同部位接触的湿度、盐分和振动条件不同，防护要求也随之区别对待。选型时应同时核对强度等级与所处环境，避免仅凭标号决定表面处理方案。",
             "hi": "चेसिस, सस्पेंशन और बॉडी जोड़ों में ग्रेड 8.8 और 10.9 प्रमुख हैं; 12.9 का इस्तेमाल खास उच्च-भाग वाले हिस्सों में होता है। कोटिंग का चुनाव ग्रेड से अलग, जंग लगने के चक्रों से तय होता है, इसलिए सिर्फ ग्रेड देखकर कोटिंग न चुनें।",
             "ru": "Классы 8.8 и 10.9 преобладают в раме, подвеске и кузове, а 12.9 применяют для отдельных высоконагруженных деталей. Выбор покрытия диктуется циклами коррозии в эксплуатации, а не только классом прочности: деталь под солёной дорожной средой требует отдельной защиты независимо от марки стали.",
@@ -317,7 +317,7 @@
             "ja": "なぜ価格より変更管理が重要ですか？"
           },
           "a": {
-            "en": "A silent process change - a new heat-treatment subcontractor or plating line - keeps the part number identical while altering performance. Documented notification and first-article approval protect the assembly line.",
+            "en": "A silent process change — a new heat-treatment subcontractor or plating line — keeps the part number identical while altering performance. Documented notification and first-article approval protect the assembly line, because a line stoppage costs far more than a unit-price saving. Define the change-notification clause explicitly before awarding the part, and require the supplier to notify any change in material, heat treatment, plating or thread process. Hold a named quality contact and a defined response time for corrective actions, and keep first-article approval on file so no substitution enters the line without review.",
             "zh": "一次未经通知的工艺变更——例如更换热处理分包方或电镀线——零件号保持不变，零件性能却可能已经改变。因此供应商在工艺、材料或表面处理发生变化时，必须书面通知整车厂，并通过首件确认后方可继续供货；书面通知加上首件批准，才能保护装配线的一致性和装车质量。",
             "hi": "चुपचाप हुआ प्रक्रिया बदलाव — नया हीट-ट्रीटमेंट सबकॉन्ट्रैक्टर या प्लेटिंग लाइन — पार्ट नंबर तो वही रखता है, पर प्रदर्शन बदल देता है। लिखित सूचना और फर्स्ट-आर्टिकल मंजूरी असेंबली लाइन को बचाती है; बिना सूचना के बदली चलने पर लाइन पर विफलता आने का खतरा रहता है।",
             "ru": "Незаметная смена процесса — другой подрядчик термообработки или линия покрытия — сохраняет артикул, но меняет характеристики детали. Документированное уведомление об изменении и согласование первого образца защищают сборочную линию от выхода нештатной детали, которую не отличить по внешнему виду.",
@@ -343,7 +343,7 @@
             "ja": "工場は直接輸入すべきですか、それとも地域卸から買うべきですか？"
           },
           "a": {
-            "en": "Smaller markets usually work better through a regional distributor holding stock under a supplier agreement, which keeps lead time in days and concentrates the audit burden.",
+            "en": "Smaller markets usually work better through a regional distributor holding stock under a supplier agreement, which keeps lead time in days and concentrates the audit burden. Volume parts can sit on long-term agreements with fixed pricing and quarterly reviews, while low-volume service parts run on annual blanket orders with call-offs. The split depends on part volume and line-stoppage risk: direct import suits high-volume standard parts, distribution suits service and replenishment stock. In either route, keep the material certificate, first-article report and packaging standard — returnable bins or defined carton quantity — agreed under the supplier agreement.",
             "zh": "市场规模较小时，通过签订供货协议、保有库存的区域经销商采购通常更合适。经销商本地备库可以把交期压缩到以天计算，紧急补货不必等待整批海运；同时质量体系审核和供应商管理的负担集中在一家经销商身上，整车厂的对接与追溯也更简单。对于需求量不稳定、单笔批量不大的市场，这种模式还能降低备货与库存压力。",
             "hi": "छोटे बाज़ारों में आम तौर पर क्षेत्रीय वितरक बेहतर चलता है, जो सप्लायर समझौते के तहत स्टॉक रखता है। इससे डिलीवरी का समय दिनों में रहता है और ऑडिट का बोझ एक ही जगह केंद्रित रहता है। बड़े या नियमित ऑर्डर पर सीधा स्रोत भी देखा जा सकता है, पर बाज़ार के आकार और मांग की स्थिरता के हिसाब से फैसला लें।",
             "ru": "На небольших рынках обычно лучше через регионального дистрибьютора, держущего склад по договору с поставщиком: срок поставки измеряется днями, а аудиторская нагрузка сосредоточена на одном контрагенте. Прямой импорт оправдан при крупных регулярных объёмах, где завод может принять условия аудита и входного контроля.",
