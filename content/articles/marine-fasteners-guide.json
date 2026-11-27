@@ -33,8 +33,8 @@
     {
       "id": "overview",
       "heading": {
-        "en": "Marine Environment Challenges",
-        "zh": "海洋环境挑战",
+        "en": "What corrosion challenges do fasteners face in marine environments?",
+        "zh": "海洋环境对紧固件构成哪些腐蚀挑战？",
         "es": "Desafíos del Entorno Marino",
         "ar": "تحديات البيئة البحرية",
         "fr": "Défis de l'environnement marin",
@@ -60,8 +60,8 @@
     {
       "id": "materials",
       "heading": {
-        "en": "Marine-Grade Materials",
-        "zh": "海洋级材料",
+        "en": "Which materials are considered marine-grade fasteners?",
+        "zh": "哪些材料属于海洋级紧固件？",
         "es": "Materiales de Grado Marino",
         "ar": "مواد من الدرجة البحرية",
         "fr": "Matériaux de qualité marine",
@@ -206,7 +206,7 @@
             "ja": "海洋環境でステンレス締結具がかじるのはなぜですか？"
           },
           "a": {
-            "en": "Stainless steel is prone to galling (thread seizure) when installed without lubrication or with excessive torque. Always use marine-grade lubricant during installation.",
+            "en": "Stainless steel fasteners are prone to galling, a form of thread seizure, because their protective chromium oxide film can weld between contacting surfaces under pressure and sliding. In chloride-rich marine air the effect is worse: surface films break down, threads seize, and the bolt can twist off before reaching target torque. Use a marine-grade anti-seize lubricant on A2-70 and A4-70 threads, run the joint at the torque listed on the drawing, and avoid repeated reassembly of the same threads. Property classes follow ISO 898-1 for carbon steel and ISO 3506-1 for stainless fasteners.",
             "de": "Edelstahl neigt zum Fressen der Gewinde, wenn er ohne Schmiermittel oder mit überhöhtem Drehmoment eingebaut wird. Verwenden Sie beim Einbau stets ein geeignetes Marinschmiermittel, um ein Verkleben der Gewinde zu verhindern. Diese Maßnahme mindert die Bruchgefahr und erleichtert den späteren Ausbau der Befestigung.",
             "fr": "L'inox est sujet au grippage des filets lorsqu'il est monté sans lubrifiant ou avec un couple excessif. Lors du montage, utilisez toujours un lubrifiant adapté au milieu marin pour éviter que les filets ne se coincent sous pression. Cette précaution limite le risque de casse et facilite le démontage ultérieur de la pièce.",
             "pt": "O aço inoxidável tende a galvanejar as roscas quando montado sem lubrificante ou com aperto excessivo. Na instalação, use sempre um lubrificante adequado ao ambiente marinho para evitar que as roscas travem sob pressão. Essa medida reduz o risco de ruptura e facilita a desmontagem posterior do elemento.",
@@ -232,7 +232,7 @@
             "ja": "水中に亜鉛めっき締結具を使えますか？"
           },
           "a": {
-            "en": "Not recommended. HDG works above water but rapidly degrades in saltwater immersion. Use A4 stainless or super duplex for underwater applications.",
+            "en": "Hot-dip galvanized fasteners are meant for above-water service, not immersion. In saltwater, the zinc sacrificial layer corrodes far faster than it would in air, the coating blisters and peels, and exposed carbon steel underneath can rust through the joint. For underwater or splash-zone fixing, specify A4-70 (316) stainless steel, or super duplex stainless for offshore and demanding service. Any galvanized steel in marine contact should be limited to protected, intermittently dry areas, with coating condition recorded at incoming inspection and checked against the ASTM B117 or ISO 9227 NSS salt-spray method agreed in the specification.",
             "de": "Nicht empfohlen. Feuerverzinkung funktioniert oberhalb der Wasserlinie, baut aber in Salzwassertauchung schnell ab. Setzen Sie für Unterwasseranwendungen A4-Edelstahl oder Superduplex ein, die die Tauchung über längere Zeit besser vertragen.",
             "fr": "Déconseillé. La galvanisation à chaud fonctionne hors de l'eau, mais se dégrade rapidement en immersion dans l'eau salée. Pour les applications sous-marines, préférez l'inox A4 ou le superduplex, qui supportent mieux l'immersion prolongée.",
             "pt": "Não recomendado. A galvanização a quente funciona acima da água, mas se degrada rapidamente em imersão em água salgada. Para aplicações submarinas, use inoxidável A4 ou superdúplex, que resistem melhor à imersão prolongada.",
@@ -258,7 +258,7 @@
             "ja": "海洋用途の304と316ステンレスの違いは何ですか？"
           },
           "a": {
-            "en": "316 contains molybdenum which significantly improves chloride corrosion resistance. Use 304 only for protected indoor marine environments. Always use 316 for outdoor marine exposure.",
+            "en": "Grade 316 (A4) contains roughly 2% molybdenum added to the chromium-nickel alloy, which stabilizes the passive film against chloride pitting and crevice corrosion; grade 304 (A2) lacks this element and develops rust staining in coastal or splash-zone exposure. For protected indoor equipment and dry inland fittings, A2-70 is sufficient and more economical. For outdoor coastal structures, splash zones, washdown areas and any salt contact, specify A4-70, and use super duplex for critical offshore platforms. Stainless mechanical properties are referenced to ISO 3506-1, while property class markings must match the order certificate.",
             "de": "Der 316 enthält Molybdän und verbessert damit die Chloridkorrosionsbeständigkeit deutlich. 304 darf nur in geschützten Innenmarinbereichen eingesetzt werden. Für Außenmeereskontakt verwenden Sie stets Stahl 316.",
             "fr": "Le 316 contient du molybdène, ce qui améliore nettement la résistance à la corrosion par chlorures. Le 304 ne convient qu'aux environnements marins intérieurs protégés. Pour une exposition marine extérieure, utilisez toujours de l'acier 316.",
             "pt": "O 316 contém molibdênio, o que melhora a resistência à corrosão por cloretos de forma notável. O 304 deve ser usado apenas em ambientes marinos internos protegidos. Para exposição marinha externa, use sempre o aço 316.",
@@ -284,7 +284,7 @@
             "ja": "海洋締結具はどのくらいの頻度で点検しますか？"
           },
           "a": {
-            "en": "Annual inspection is minimum. More frequent inspection (6 months) for critical structures and harsh environments. Inspect for corrosion, loosening, and fatigue cracks.",
+            "en": "Inspection frequency follows exposure and consequence, not a fixed shop rule. On protected indoor structures, a yearly visual check is the minimum; on coastal, splash-zone, submerged or load-critical marine structures, inspect every six months. At each visit check for rust staining, white corrosion product, fretting at the nut, visible loosening, fatigue cracks at the thread runout, and any missing seal or washer. Record the date, location, torque check and findings in the maintenance log, and replace any fastener that shows crevice corrosion or plastic deformation before the next service interval.",
             "fr": "Le contrôle annuel est un minimum. Pour les structures critiques et les environnements agressifs, inspectez l'état des fixations tous les six mois. À chaque contrôle on vérifie la corrosion, le desserrage du filetage et l'apparition de fissures de fatigue.",
             "pt": "A inspeção anual é o mínimo. Em estruturas críticas e ambientes agressivos, revise o estado dos elementos a cada seis meses. A cada revisão são verificados a corrosão, o afrouxamento da rosca e o surgimento de trincas por fadiga.",
             "es": "La inspección anual es el mínimo. En estructuras críticas y entornos agresivos conviene revisar el estado de los elementos cada seis meses. En cada revisión se comprueba la corrosión, el aflojamiento de la rosca y la aparición de fisuras por fatiga.",
@@ -310,7 +310,7 @@
             "ja": "ステンレス締結具の上に塗装できますか？"
           },
           "a": {
-            "en": "Not necessary and not recommended. Paint won't adhere well to stainless and may hide corrosion problems. Leave stainless fasteners unpainted.",
+            "en": "Painting over stainless fasteners is neither necessary nor recommended. Stainless resists corrosion through its passive chromium oxide film, which needs air to stay intact; a paint film can trap moisture and salts against the surface and hide pitting that would otherwise be visible. Paint also adheres poorly to smooth stainless and peels under vibration. Where appearance matching is required, leave the stainless head and nut exposed, or coat only the base material around the joint. Record the exposed finish in the batch file so later maintenance does not cover the fastener by mistake.",
             "fr": "Inutile et déconseillé. La peinture n'adhère pas bien à l'acier inoxydable et peut masquer des problèmes de corrosion qu'il faut détecter à temps. On laisse donc les éléments en inox sans peinture.",
             "pt": "Não é necessário nem recomendado. A tinta não adere bem ao aço inoxidável e pode ocultar problemas de corrosão que convém detectar a tempo. Por isso os elementos inoxidáveis são deixados sem pintura.",
             "es": "No es necesario ni recomendado. La pintura no adhiere bien sobre el acero inoxidable y puede llegar a ocultar problemas de corrosión que conviene detectar a tiempo. Por ello se dejan los elementos inoxidables sin pintar.",
