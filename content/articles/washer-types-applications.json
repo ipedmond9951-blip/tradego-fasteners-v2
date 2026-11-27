@@ -218,7 +218,7 @@
             "de": "Wozu dienen Flach- und Federscheiben im Bau?"
           },
           "a": {
-            "en": "Flat washers spread the clamp load, protect the base material surface and increase bearing area, so they suit timber, aluminium sheet and softer substrates. Spring washers add elastic rebound to resist vibration-induced loosening on machinery. They are not interchangeable: a flat washer alone often loosens under vibration, while a spring washer alone can crush a soft substrate.",
+            "en": "Flat washers spread the clamp load, protect the base material surface, and increase bearing area, so they suit timber, aluminum sheet, and softer substrates. Spring washers add elastic rebound to resist vibration-induced loosening on machinery and moving equipment. The two are not interchangeable: a flat washer alone often loosens under sustained vibration, while a spring washer alone can crush a soft substrate because its contact face is narrow. In mixed joints the flat washer distributes load and the spring washer supplies rebound, so both may be needed.",
             "zh": "平垫圈分散夹紧载荷、保护基材表面并增大承压面积，适合木材、铝板和较软基材；弹簧垫圈用于防松，在振动场合提供一定弹力补偿。选型按基材硬度、载荷和振动条件搭配：软基材加大平垫圈，振动连接配弹簧垫圈或对应防松垫圈。垫圈规格与螺栓直径匹配，不同功能垫圈不互相替代。订单中写明连接部位和垫圈用途，供应商配套型式；到货核对材质和尺寸，安装后检查垫圈贴合状态，避免平垫受压面不足或防松垫圈错用。",
             "ja": "平ワッシャーは締付力を分散し、被締結材の表面を保護して受圧面積を広げるため、木材やアルミ板、軟質材に向きます。スプリングワッシャーは弾性反発で振動による緩みに抵抗し、機械の振動部に使われます。互換はできません。振動下で平ワッシャーだけでは緩みやすく、軟質材にスプリングワッシャーだけを使うと表面が圧壊します。",
             "hi": "फ्लैट वॉशर क्लैंप भार फैलाते हैं, आधार सामग्री की सतह बचाते हैं और दबाव क्षेत्र बढ़ाते हैं, इसलिए लकड़ी, अल्युमीनियम शीट और नरम आधार सामग्री पर चलते हैं। स्प्रिंग वॉशर लोचदार पलटाव जोड़ते हैं और मशीनरी में कंपन से ढीलेपन को रोकते हैं। दोनों बदलकर इस्तेमाल नहीं होते: अकेला फ्लैट वॉशर कंपन में अक्सर ढीला हो जाता है, जबकि अकेला स्प्रिंग वॉशर नरम आधार को कुचल सकता है।",
@@ -244,7 +244,7 @@
             "de": "Welches Scheibenmaterial für feuchte und küstennahe Projekte?"
           },
           "a": {
-            "en": "For coastal and high-humidity sites, specify 304/316 stainless washers, or hot-dip galvanized washers matching the bolt coating. Standard electro-zinc washers typically show red rust within 2-5 years at 1-2 km from the coast. Stainless and galvanized parts must be isolated with plastic or nylon washers to avoid galvanic corrosion.",
+            "en": "For coastal and high-humidity sites, specify 304 or 316 stainless washers, or hot-dip galvanized washers matched to the bolt coating. Standard electro-zinc washers tend to show corrosion sooner near the coast, where salt-laden air reaches the fastener. Stainless and galvanized parts should be isolated with plastic or nylon washers to avoid galvanic corrosion between dissimilar metals. Match washer grade and finish to the bolt, and record the material in the joint spec rather than relying on a generic zinc plated part outdoors.",
             "zh": "沿海和高湿项目选 304/316 不锈钢垫圈，或与螺栓镀层一致的热浸镀锌垫圈；普通电镀锌垫圈不耐腐蚀。选型按距海距离、湿度和接触金属判断，沿海优先不锈钢，镀锌连接配套同镀层垫圈。不同金属接触注意电偶隔离，垫圈材质与螺栓体系匹配。订单中写明暴露环境和螺栓材质，供应商配套垫圈牌号；到货核对表面和标记，沿海部位定期复查锈蚀，避免低防腐垫圈先于螺栓失效造成松动。",
             "ja": "沿岸・高湿環境では304/316ステンレスワッシャー、またはボルトの皮膜に合わせた溶融亜鉛めっきワッシャーを指定します。一般的な電気亜鉛めっきは海岸から1〜2kmで通常2〜5年で赤錆が出ます。ステンレスと亜鉛めっきを接触させる場合はプラスチックやナイロンの絶縁ワッシャーで電食を防ぎます。",
             "hi": "तटीय और उच्च आर्द्रता वाली जगहों पर 304/316 स्टेनलेस वॉशर, या बोल्ट की कोटिंग से मेल खाने वाले हॉट-डिप गैल्वनाइज़्ड वॉशर निर्दिष्ट करें। समुद्र से 1–2 किमी के भीतर सामान्य इलेक्ट्रो-ज़िंक वॉशर में आमतौर पर 2–5 वर्ष में लाल जंग दिखने लगती है। स्टेनलेस और गैल्वनाइज़्ड हिस्सों के बीच गैल्वेनिक संक्षारण से बचने के लिए प्लास्टिक या नायलॉन वॉशर से अलग रखना चाहिए।",
@@ -270,7 +270,7 @@
             "de": "Wie passt die Scheibengröße zu Schraube und Einsatz?"
           },
           "a": {
-            "en": "Inner diameter follows the bolt's nominal size (M10 washer for an M10 bolt). Outer diameter follows the bearing area: standard series for metal contact surfaces, oversized fender washers for timber, plastic and thin sheet. Thickness matters too - an undersized washer collapses under high preload, so check thickness against a standard such as ISO 7089 for critical joints.",
+            "en": "Inner diameter follows the bolt's nominal size: an M10 washer pairs with an M10 bolt. Outer diameter follows the bearing area, with the standard series for metal contact surfaces and oversized fender washers for timber, plastic, and thin sheet. Thickness matters too, because an undersized washer collapses under high preload, so check thickness against a standard such as ISO 7089 for critical joints. Measure substrate hardness and clamp load, choose the series that spreads pressure without burying in, and confirm dimensions against the drawing before ordering bolt and washer as a set.",
             "zh": "内径按螺栓公称直径选（M10 螺栓配 M10 垫圈）。外径按承压面积选：金属承压面用标准系列，木结构、塑料与薄板用加大外径（fender washer）。厚度同样关键——厚度不足会在高预紧力下压塌，重要连接建议按 ISO 7089 等标准核对厚度。选配时分三步：内径匹配杆径不卡螺纹，外径按基材硬度和承压需要放大，厚度按预紧力和基材校核；软、薄基材选加大加厚垫圈分散压力。订货注明标准号、内径外径和厚度，验收核对尺寸、表面处理与螺栓螺母成套匹配。",
             "ja": "内径はボルトの呼び径に合わせます（M10ボルトにM10ワッシャー）。外径は受圧面積で選び、金属接触面は標準シリーズ、木材・樹脂・薄板は大径のフェンダーワッシャーを使います。厚さも重要で、薄いと高締付力で変形します。重要接合ではISO 7089などの規格で厚さを確認してください。",
             "hi": "अंदर का व्यास बोल्ट के नाममात्र आकार का होता है: M10 बोल्ट के लिए M10 वॉशर। बाहरी व्यास दबाव क्षेत्र पर निर्भर है: धातु संपर्क सतहों के लिए मानक श्रेणी, लकड़ी, प्लास्टिक और पतली शीट के लिए बड़ा फेंडर वॉशर। मोटाई भी मायने रखती है — कम मोटाई वाली वॉशर ऊँचे प्री-लोड में दबकर बिगड़ जाती है, इसलिए कठिन जोड़ों के लिए ISO 7089 जैसे मानक से मोटाई जाँच लें।",
@@ -324,23 +324,23 @@
   "faqItems": [
     {
       "question": "What are the different types of washers and their uses?",
-      "answer": "Main washer types: Flat washers (DIN 125/ISO 7089) - distribute load over larger area; Spring washers (DIN 127) - maintain bolt preload under vibration; Lock washers (external/internal DIN 7927/7935) - prevent loosening; Flange washers (DIN 6926) - combine load distribution with locking. Each serves specific load distribution or anti-loosening purposes."
+      "answer": "The main washer types cover different roles in a joint. Flat washers to DIN 125 or ISO 7089 distribute load over a larger bearing area and protect the surface. Spring washers to DIN 127 maintain bolt preload under vibration, while lock washers of external or internal type to DIN 7927 or 7935 resist loosening. Flange washers to DIN 6926 combine load distribution with an integrated locking or seating face. Match the washer to whether the joint needs bearing spread, vibration resistance, or both, and confirm finish against the bolt spec."
     },
     {
       "question": "How do spring washers prevent bolt loosening?",
-      "answer": "Spring washers (split lock washers) work by: 1) The split creates spring tension that maintains preload; 2) When vibration tries to loosen the nut, the spring absorbs the movement; 3) The angled edges grip the nut and mounting surface. For African mining and heavy machinery applications, always use spring washers or consider nylon insert lock nuts (Nyloc) for critical connections."
+      "answer": "Spring washers, or split lock washers, work through the split's spring tension, which maintains preload in the joint. When vibration tries to loosen the nut, the washer absorbs part of the movement, and the angled edges grip the nut and mounting surface to resist rotation. In mining and heavy machinery connections, spring washers or a nylon insert lock nut (Nyloc) are used on critical joints. Note that a spring washer supplies elastic rebound rather than a wide bearing face, so on soft substrates it may need a flat washer underneath to prevent crushing."
     },
     {
       "question": "When should flat washers vs flange washers be used?",
-      "answer": "Use flat washers when: Standard load distribution is needed; Soft materials (wood, aluminum) that compress easily; Surface is flat and even. Use flange washers when: Bearing capacity of the material is low; Bolt head or nut bears on soft material; Extra grip and load distribution needed; High-vibration environments where standard washers might shift."
+      "answer": "Flat washers suit standard load distribution on flat, even surfaces, and on soft materials such as wood or aluminum that compress under the bolt head. Flange washers are chosen where the bearing capacity of the material is low, the head or nut sits on soft material, extra grip and distribution are needed, or vibration could shift a plain washer. The decision rests on substrate hardness, bearing pressure, and movement in the joint. On timber or thin sheet use an oversized or flanged washer; on rigid steel a standard flat washer usually suffices."
     },
     {
       "question": "What washer materials are best for outdoor African environments?",
-      "answer": "For outdoor African conditions: Hot-dip galvanized (HDG) steel washers for general outdoor construction - matches HDG bolts; Stainless steel 304 washers for mining areas and humid coastal regions; Stainless steel 316 for marine and chemical environments with high chloride exposure; Always match washer material to bolt material to prevent galvanic corrosion."
+      "answer": "Outdoor African conditions call for washer material matched to exposure. Hot-dip galvanized (HDG) steel washers suit general outdoor construction and match HDG bolts. Stainless steel 304 works for mining and humid inland areas, while 316 stainless is for marine and chemical settings with high chloride exposure. Always match washer material to the bolt material to avoid galvanic corrosion between dissimilar metals. Where stainless and galvanized parts meet, use an isolating plastic or nylon washer, and check the coating system as a set rather than selecting the washer in isolation."
     },
     {
       "question": "How do I select the right washer size for my bolt?",
-      "answer": "Washer selection rules: Inner diameter should match bolt nominal size (M10 washer fits M10 bolt); Outer diameter should be 2-3x bolt diameter for load distribution; Thickness should provide adequate stiffness without being too thick. For structural applications, use standard dimensional washers per DIN 125 (flat) or DIN 127 (spring) specifications."
+      "answer": "Washer size follows the bolt rather than a separate rule. The inner diameter should match the bolt nominal size, so an M10 washer fits an M10 bolt, and the outer diameter provides the required bearing spread, commonly two to three times the bolt diameter for load distribution. Thickness should give adequate stiffness without becoming too thick for the joint. For structural applications, use standard dimensional washers per DIN 125 for flat or DIN 127 for spring types, and verify dimensions against the standard when the joint carries high preload or a soft substrate."
     }
   ],
   "imageAlt": {
