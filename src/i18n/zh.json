@@ -273,5 +273,27 @@
     "message": "需求说明",
     "messagePlaceholder": "标准、材质、镀层、数量、目的港",
     "submit": "提交询价"
+  },
+  "search": {
+    "title": "站内搜索",
+    "placeholder": "搜索产品与文章…",
+    "button": "搜索",
+    "resultsFor": "“{q}” 的搜索结果",
+    "noResults": "没有找到匹配内容",
+    "noResultsHint": "换个关键词试试，或浏览产品品类，也可以直接向我们询价。",
+    "groupProducts": "产品",
+    "groupArticles": "文章",
+    "hint": "在本站内搜索产品名称、规格与选购指南。",
+    "browseProducts": "浏览全部产品"
+  },
+  "lead": {
+    "title": "紧固件询盘，快速获得回复",
+    "desc": "留下邮箱或 WhatsApp 号码，我们的销售团队会联系您。",
+    "placeholder": "邮箱或 WhatsApp 号码",
+    "cta": "获取报价",
+    "note": "WhatsApp 号码已转为国际格式，发送前请核对。",
+    "success": "感谢！我们的销售团队会尽快与您联系。",
+    "error": "请输入有效的邮箱或 WhatsApp 号码。",
+    "close": "关闭"
   }
 }
