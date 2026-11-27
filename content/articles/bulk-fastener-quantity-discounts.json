@@ -33,7 +33,7 @@
     {
       "id": "quantity-breaks",
       "heading": {
-        "en": "Understanding Quantity Break Pricing",
+        "en": "Why does the unit price step down at larger order quantities?",
         "es": "Entendiendo precios por volumen",
         "ar": "فهم تسعير فئات الكمية",
         "fr": "Comprendre la tarification par paliers de quantité",
@@ -42,7 +42,7 @@
         "ja": "数量区切り価格設定の理解",
         "de": "Verständnis der Mengenpreisgestaltung",
         "hi": "मात्रा ब्रेक मूल्य निर्धारण को समझना",
-        "zh": "理解数量阶梯定价"
+        "zh": "为什么订量越大单价越低？"
       },
       "body": {
         "en": "<p>Quantity breaks in fasteners are not a negotiating courtesy; they are a cost structure showing through. A supplier's price steps down at certain quantities because certain costs are fixed per order rather than per piece: the tooling run, the setup on the machine, the inspection of one lot, the packing line, the documentation and the space in a container. Understanding which cost is being amortised tells a buyer where the real break is and where a discount is just a number in a table.</p>\n<p>The breaks cluster at boundaries that already exist in production and logistics: the carton, the pallet, the pallet layer, the container. A price that drops at a quantity which happens to equal a full pallet is a price reflecting handling, not generosity. A price that drops at a quantity matching nothing is usually a marketing step, and it is worth asking what happens if the order lands slightly below it.</p>\n<p>The second thing to read in a break quote is what is being held constant. A break that steps down because the specification was quietly relaxed — a lower coating class, a coarser tolerance, a different packing — is not a discount on the same article. The comparison only works if specification, packing, inspection level and delivery term are identical across the steps.</p>\n<p>The third is where the price is measured. A unit price quoted free-on-board and a unit price quoted delivered are not on the same ladder, and mixing the two across suppliers is the most common way a buyer concludes that one source is cheaper when it is only quoted differently.</p>\n<p>Finally, the quantity in a fastener break is usually expressed in pieces while the cost driver is in kilograms and cubic metres. A break written for a light item and a break written for a heavy one do not respond to the same volume of money, which is why comparing percentage discounts across product families compares things that cannot be compared.</p>\n<p>One question belongs at the end of the first enquiry, before any price is discussed: which of these steps is a handling step and which is a production step. A supplier who can answer that is showing its cost model, and a buyer who asks it stops comparing tables and starts comparing structures.</p>",
@@ -126,7 +126,7 @@
     {
       "id": "supplier-strategy",
       "heading": {
-        "en": "Supplier Negotiation Strategies",
+        "en": "What quantity ladder should a buyer request before comparing supplier quotes?",
         "es": "Estrategias de negociación con proveedores",
         "ar": "استراتيجيات التفاوض مع الموردين",
         "fr": "Stratégies de négociation avec les fournisseurs",
@@ -135,7 +135,7 @@
         "ja": "サプライヤー交渉戦略",
         "de": "Lieferanten-Verhandlungsstrategien",
         "hi": "आपूर्तिकर्ता मोलभाव रणनीतियाँ",
-        "zh": "供应商谈判策略"
+        "zh": "比价前应向供应商要怎样的数量阶梯报价？"
       },
       "body": {
         "en": "<p>The most useful thing a buyer can ask for is not a discount but a ladder: the same article quoted at several quantities, all on the same delivery term, so the cost structure becomes visible. A supplier who can produce that ladder is a supplier who knows its own cost drivers, and the shape of the ladder tells the buyer where the real steps are.</p>\n<p>Negotiation then has something to trade other than price. Lead time is one: a longer, planned delivery slot lets a factory combine orders and is worth more than a percentage. Payment terms are another. Specification simplification is the largest of all — fewer sizes, coatings and packing variants reduce setup, changeover and inspection cost, and a supplier can usually give back more on a simplified order than on a negotiated one.</p>\n<p>What does not work is asking for a discount without changing anything. A supplier already at material and process cost will either refuse or take the difference out of something the buyer cannot see: the coating class, the packing, the inspection sample size, the delivery date. That is the mechanism behind the order that arrives to the same specification and performs worse.</p>\n<p>The honest position, which a good supplier will state, is that fastener prices move mostly with steel, coating and freight, and that the room inside a given specification is small. The room that does exist is in order design: fewer variants, fuller containers, longer planning horizons, and documentation agreed once rather than negotiated per shipment.</p>\n<p>A buyer should therefore compare suppliers on the ladder and on the order design they propose, not only on the top-line unit price. Two suppliers quoting the same number can be offering very different amounts of work, and the one who has thought about the loading plan is usually the cheaper one at the end of the year.</p>\n<p>One negotiating habit is worth keeping: ask for the ladder first, then choose the step. Buyers who start from a target price and work backwards tend to arrive at the step that matches their budget rather than the step that matches their needs, and the difference shows up in stock that sits.</p>",
