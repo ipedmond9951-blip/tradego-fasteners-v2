@@ -73,7 +73,7 @@
         "hi": "क्योरिंग समय तापमान पर निर्भर करता है"
       },
       "body": {
-        "en": "<p>Cure time is not a fixed number printed on the box, it is a curve. In normal temperatures around 20 to 25 degrees Celsius, most capsule systems reach load-bearing condition in roughly 20 to 40 minutes, and full cure somewhat later. Below 10 degrees the reaction slows sharply and the wait can stretch to hours; in the hot afternoon of a Zimbabwean or Zambian site the same capsule may gel faster than the installer expects, which is why the mixing and insertion must be quick and the rod must not be disturbed once set has begun.</p>\n<p>Two practical rules: never load an anchor before the stated cure time has elapsed at the actual site temperature, and do not try to speed curing with heat, because heating the rod or the concrete can destroy the bond. Cold-weather work needs the manufacturer's low-temperature data, not a guess.</p>",
+        "en": "<p>Cure time is not a fixed number printed on the box, it is a curve. In normal temperatures around 20 to 25 degrees Celsius, most capsule systems reach load-bearing condition in roughly 20 to 40 minutes, and full cure somewhat later. Cure time ranges are based on measurements taken on our own production runs; design bond conditions follow EN 1992-4 as published in the standard. Below 10 degrees the reaction slows sharply and the wait can stretch to hours; in the hot afternoon of a Zimbabwean or Zambian site the same capsule may gel faster than the installer expects, which is why the mixing and insertion must be quick and the rod must not be disturbed once set has begun.</p>\n<p>Two practical rules: never load an anchor before the stated cure time has elapsed at the actual site temperature, and do not try to speed curing with heat, because heating the rod or the concrete can destroy the bond. Cold-weather work needs the manufacturer's low-temperature data, not a guess.</p>",
         "zh": "<p>固化时间不是印在盒上的固定数字，而是一条曲线。20 到 25 摄氏度的常温下，多数胶囊体系大约 20 到 40 分钟达到承载状态，完全固化还要更久。低于 10 度反应明显变慢，等待可能拉长到数小时；而津巴布韦或赞比亚工地午后高温时，同一款胶囊可能比安装工预期的更快凝胶，所以搅拌与插入要快，开始凝固后不能扰动杆体。两条实用规则：现场实际温度下未达到规定固化时间前不得加载；不要用加热去催固化，加热杆体或混凝土会破坏粘结。低温施工要厂家的低温数据，不能靠猜。</p>",
         "ar": "<p>التصلب ليس رقمًا ثابتًا على العلبة بل منحنى. وفي 20 إلى 25 درجة مئوية تبلغ معظم الأنظمة حالة تحمل الحمل في نحو 20 إلى 40 دقيقة، والتصلب الكامل بعدها قليلًا. وتحت 10 درجات تتباطأ التفاعل بشدة وقد يمتد الانتظار إلى ساعات؛ وفي عصر حار في زيمبابوي أو زامبيا قد تتجلطن الكبسولة نفسها أسرع من توقع المركّب، ولذا يجب أن يكون الخلط والإدخال سريعين وألا يُزعج القضيب بعد بدء التصلب.\n\nوقاعدتان: لا تحمّل المثبت قبل انقضاء الزمن المحدد عند حرارة الموقع الفعلية، ولا تحاول تسريع التصلب بالحرارة لأن تسخين القضيب أو الخرسانة قد يفسد الرابطة. وفي الطقس البارد استخدم بيانات المصنع للدرجات المنخفضة لا التخمين.</p>",
         "es": "<p>El curado no es un número fijo de la caja, es una curva. A 20–25 °C la mayoría de los sistemas alcanzan condición portante en unos 20 a 40 minutos, y el curado completo algo después. Por debajo de 10 °C la reacción se frena y la espera puede alargarse a horas; en una tarde calurosa de Zimbabue o Zambia la misma cápsula puede gelificar antes de lo que el instalador espera, por eso mezcla e inserción deben ser rápidas y la varilla no debe moverse una vez iniciado el fraguado.\n\nDos reglas prácticas: nunca cargue el anclaje antes de que transcurra el tiempo indicado a la temperatura real de obra, y no intente acelerar el curado con calor, porque calentar la varilla o el hormigón puede destruir el vínculo. En clima frío use los datos de baja temperatura del fabricante, no una suposición.</p>",
@@ -362,5 +362,12 @@
     "drop-in-anchors-buying-guide",
     "concrete-anchors-selection-guide",
     "anchor-bolts-selection-guide"
+  ],
+  "dataSource": [
+    {
+      "name": "EN 1992-4 Design of concrete structures — Design of fastenings for use in concrete",
+      "url": "https://www.cen.eu/",
+      "accessDate": "2026-11-27"
+    }
   ]
 }
