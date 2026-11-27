@@ -60,8 +60,8 @@
     {
       "id": "supplier-selection",
       "heading": {
-        "en": "Supplier Selection: Why China Sourced Fasteners Won the Contract",
-        "zh": "供应商选择：为何中国采购的紧固件赢得合同",
+        "en": "What criteria separated local, European and Chinese suppliers in the Durban fastener evaluation?",
+        "zh": "德班紧固件评选中本地、欧洲、中国供应商按哪些标准区分？",
         "es": "Selección de proveedores: Por qué los sujetadores de origen chino ganaron el contrato",
         "fr": "Sélection des fournisseurs : Pourquoi les fixations sourcées en Chine ont obtenu le contrat",
         "pt": "Seleção de Fornecedores: Por Que os Fixadores de Origem Chinesa Vencedores do Contrato",
@@ -174,8 +174,8 @@
     {
       "id": "import-compliance",
       "heading": {
-        "en": "Import Regulations and Compliance for South Africa",
-        "zh": "南非进口法规与合规要求",
+        "en": "Which SABS and documentation requirements apply to imported South African structural fasteners?",
+        "zh": "进口南非结构紧固件需满足哪些 SABS 与单证要求？",
         "es": "Regulaciones de importación y cumplimiento para Sudáfrica",
         "fr": "Réglementations d'importation et conformité pour l'Afrique du Sud",
         "pt": "Regulamentos de Importação e Conformidade para África do Sul",
@@ -346,7 +346,7 @@
             "ja": "沿岸の南ア工場ではなぜ亜鉛めっきよりステンレスが良いですか？"
           },
           "a": {
-            "en": "Chloride loading near the coast reduces hot-dip galvanized life to a few years on exposed parts, while 316 handles it with routine washing. Where the budget forces galvanized, specify 85 microns minimum and add a barrier coat.",
+            "en": "Chloride near the coast shortens HDG life on exposed parts, while 316 stainless handles exposure with routine washing. Where galvanized is forced, specify a heavier zinc coating and monitor exposed heads and bearing faces for rust. Match fastener family to coastal distance and humidity: A4/316 stainless for chloride-prone plant, HDG for inland or sheltered joints. Check grade marking and finish against specification, and record the exposure basis with the batch. Do not use bright zinc or thin plating on coastal structure, and inspect mixed stainless-carbon joints for galvanic contact.",
             "zh": "南非沿海工厂多用不锈钢而不是镀锌件，原因在于近岸氯化物负荷会把热浸镀锌外露件的寿命压缩到数年，而 316 配合常规清洗可以承受该环境。预算受限必须用镀锌时，应把它安排在干燥、有遮挡的部位，并加厚镀层、定期检查。选型按氯化物暴露、湿度和位置区分：潮湿沿海用不锈钢，干燥内陆可用镀锌。不锈钢与镀锌接触注意电偶隔离。订单中写明暴露环境和材质要求，供应商匹配牌号；到货核对批次和表面，沿海部位定期复查锈蚀和镀层消耗。",
             "hi": "तट के पास क्लोराइड की मात्रा ज़्यादा होने से खुले हिस्सों पर हॉट-डिप गैल्वनाइज़्ड की उम्र कुछ साल रह जाती है, जबकि 316 सामान्य धुलाई से उसे संभाल लेता है। बजट मजबूर करे तो गैल्वनाइज़्ड चुनते समय न्यूनतम 85 माइक्रोन का लेखा-जोखा करें और ऊपर बैरियर कोट डलवाएं।",
             "ru": "У побережья высокое содержание хлоридов сокращает срок горячего цинкования открытых деталей до нескольких лет, тогда как нержавеющая сталь 316 выдерживает такие условия при регулярной промывке. Если бюджет вынуждает ограничиться цинкованием, закладывают покрытие не менее 85 микрон и дополнительный барьерный слой.",
@@ -372,7 +372,7 @@
             "ja": "案件発注のSABS適合にはどのくらいかかりますか？"
           },
           "a": {
-            "en": "Plan on several weeks for testing and paperwork, and start before production because samples must be drawn from the actual lot. Buyers who discover the requirement at the port usually pay for air freight or storage.",
+            "en": "Plan conformity ahead of production because samples must come from the actual lot; raising it late delays acceptance. The process covers testing, documentation and marking against the SABS specification, with certificate tied to batch and heat number. Confirm listed standard, grade and finish with the certification body early, and keep reports and packing aligned to the lot. Track sample submission, test result and document approval as milestones, and hold non-conforming material until the record matches parts. Align the compliance schedule with production and delivery rather than starting it after manufacture.",
             "zh": "项目订单做南非符合性，应预留数周用于测试和文件准备，并在投产前启动，因为样品必须取自实际批次。买家若在生产后才发现该要求，往往赶不上交期。流程上先确定适用标准和检验范围，批次留样送验，证书与批次对应；产品按 SANS/ISO 相关标准组织生产，符合性证书按订单要求提供。订单中写明标准、等级和认证节点，供应商配合取样和文件；结构批次保留质保记录，避免到港或验收时证书与货物无法对应。",
             "hi": "परीक्षण और कागज़ात के लिए कई हफ्ते अलग रखें; उत्पादन से पहले शुरू करें, क्योंकि सैंपल असली लॉट से लिए जाने होते हैं। जो खरीदार आवश्यकता बंदरगाह पर पहुंचने पर पता लगाते हैं, वे आम तौर पर एयर फ्रेट या स्टोरेज का खर्च खुद उठाते हैं।",
             "ru": "Заложите несколько недель на испытания и оформление документов и начните процедуру до производства: образцы берут из фактической партии. Если требование обнаруживается уже в порту, заказчику приходится оплачивать авиаперевозку или хранение. Заблаговременная подготовка образцов и протоколов не сдвигает график отгрузки.",
