@@ -18,7 +18,12 @@ interface InquiryData {
   message?: string;
   country?: string;
   locale?: string;
+  source?: string;
 }
+
+// 轻量格式校验：只做基本形态判断，严格反垃圾仍由蜜罐 / 时长 / 限频 / 链接检查负责
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+const PHONE_E164_RE = /^\+[1-9]\d{7,14}$/
 
 // ---- 反滥用：蜜罐 + 提交时长 + 频率限制 ----
 // 说明：进程内计数在 serverless 上是"每实例一份"，只能算第一道拦网（挡掉不针对目标的批量脚本）。
@@ -130,7 +135,7 @@ async function saveLeadToFile(data: InquiryData & { is_high_value: boolean }): P
     ...data,
     id: generateId(),
     created_at: new Date().toISOString(),
-    source: 'website_form',
+    source: data.source || 'website_form',
     lead_score: data.is_high_value ? 50 : 10, // High value leads start with higher score
     lead_status: 'new',
     tags: ['website_inquiry', data.products].filter(Boolean),
@@ -164,7 +169,7 @@ async function sendToCRM(lead: LeadRecord): Promise<boolean> {
       phone: lead.phone || '',
       country: lead.country || '',
       target_products: lead.products,
-      source: 'website_form',
+      source: lead.source || 'website_form',
       notes: lead.message || '',
       lead_score: lead.lead_score,
       lead_status: lead.lead_status,
@@ -206,14 +211,14 @@ async function sendEmail(data: InquiryData, isHighValue: boolean): Promise<boole
       body: JSON.stringify({
         from: 'TradeGo Inquiry <inquiry@tradego-fasteners.com>',
         to: INQUIRY_EMAIL,
-        replyTo: data.email,
+        replyTo: data.email || undefined,
         subject: `${isHighValue ? '⭐ HIGH VALUE ' : ''}${/certificate request|随订单附.*证书|要求.*证书/i.test(data.message || '') ? '[CERT] ' : ''}Inquiry from ${data.company || data.name} (${data.country || 'Unknown'})`,
         html: `
           <h2>New Inquiry from TradeGo Website</h2>
           <table style="border-collapse: collapse; width: 100%;">
             <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Time</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${new Date().toISOString()}</td></tr>
             <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Name</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(data.name)}</td></tr>
-            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Email</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(data.email)}</td></tr>
+            <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Email</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(data.email || 'N/A')}</td></tr>
             <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Company</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(data.company || 'N/A')}</td></tr>
             <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Phone</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(data.phone || 'N/A')}</td></tr>
             <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Products</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(data.products)}</td></tr>
@@ -222,7 +227,7 @@ async function sendEmail(data: InquiryData, isHighValue: boolean): Promise<boole
             <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Message</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(data.message || 'N/A')}</td></tr>
             <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Value</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${isHighValue ? '⭐ HIGH VALUE' : 'Normal'}</td></tr>
           </table>
-          <p style="margin-top: 20px;">Reply to: <a href="mailto:${escapeHtml(data.email)}">${escapeHtml(data.email)}</a></p>
+          <p style="margin-top: 20px;">Reply to: ${data.email ? `<a href="mailto:${escapeHtml(data.email)}">${escapeHtml(data.email)}</a>` : 'N/A (WhatsApp lead, reach out via the phone above)'}</p>
         `,
       }),
     });
@@ -311,7 +316,7 @@ async function sendWhatsAppNotification(data: InquiryData, isHighValue: boolean)
       ? `⭐ HIGH VALUE INQUIRY!\n`
       : `📦 New Inquiry\n`;
     const text = `${msg}From: ${data.name}${data.company ? ` (${data.company})` : ''}\n` +
-      `Email: ${data.email}\n` +
+      `Email: ${data.email || 'N/A'}\n` +
       `Phone: ${data.phone || 'N/A'}\n` +
       `Products: ${data.products}\n` +
       `Quantity: ${data.quantity || 'N/A'}\n` +
@@ -335,7 +340,7 @@ async function sendWebhookAlert(data: InquiryData, isHighValue: boolean): Promis
   if (!INQUIRY_WEBHOOK_URL) return false;
 
   const summary = `${isHighValue ? '⭐ HIGH VALUE ' : ''}New inquiry from ${data.company || data.name} (${data.country || 'Unknown'})\n`
-    + `Name: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone || 'N/A'}\n`
+    + `Name: ${data.name}\nEmail: ${data.email || 'N/A'}\nPhone: ${data.phone || 'N/A'}\n`
     + `Products: ${data.products}\nQuantity: ${data.quantity || 'N/A'}\n`
     + (data.message ? `Message: ${data.message}` : '');
 
@@ -376,10 +381,28 @@ export async function POST(request: NextRequest) {
     };
     const { _honeypot, _elapsed, ...data } = payload;
 
-    if (!data.name || !data.email || !data.products) {
-      return NextResponse.json({ 
-        error: 'Missing required fields: name, email, products' 
+    // 留资弹框（source=lead_modal）允许只留 WhatsApp：缺邮箱但有合法 phone 即放行；
+    // 其余老路径（站内询盘表单）行为完全不变：name / email / products 必填。
+    const isLeadModal = data.source === 'lead_modal';
+    if (!data.name || !data.products) {
+      return NextResponse.json({
+        error: 'Missing required fields: name, products'
       }, { status: 400 });
+    }
+    if (!isLeadModal) {
+      if (!data.email) {
+        return NextResponse.json({
+          error: 'Missing required fields: name, email, products'
+        }, { status: 400 });
+      }
+    } else {
+      const emailOk = Boolean(data.email) && EMAIL_RE.test(data.email);
+      const phoneOk = Boolean(data.phone) && PHONE_E164_RE.test(data.phone || '');
+      if (!emailOk && !phoneOk) {
+        return NextResponse.json({
+          error: 'Provide a valid email or WhatsApp number'
+        }, { status: 400 });
+      }
     }
 
     // 0b. 机器特征（第二道）：蜜罐被填 / 表单填得太快 / 正文塞满链接
@@ -419,7 +442,7 @@ export async function POST(request: NextRequest) {
         ...data,
         id: generateId(),
         created_at: new Date().toISOString(),
-        source: 'website_form',
+        source: data.source || 'website_form',
         lead_score: isHighValue ? 50 : 10,
         lead_status: 'new',
         tags: ['website_inquiry', data.products].filter(Boolean),
@@ -436,8 +459,8 @@ export async function POST(request: NextRequest) {
     const emailSent = await sendEmail(data, isHighValue);
     console.log(`Email to sales: ${emailSent}`);
 
-    // 4. Send confirmation email to customer
-    const confirmationSent = await sendConfirmationEmail(data);
+    // 4. Send confirmation email to customer（无邮箱的 WhatsApp lead 不发，避免发空地址报错）
+    const confirmationSent = data.email ? await sendConfirmationEmail(data) : false;
     console.log(`Confirmation email: ${confirmationSent}`);
 
     // 5. Send WhatsApp notification (non-blocking)
