@@ -233,7 +233,7 @@
             "hi": "ज़िम्बाब्वे लॉक वॉशर TCO और तनाव दरार विश्लेषण ऑर्डर के लिए विशिष्ट लीड टाइम क्या है?"
           },
           "a": {
-            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "en": "The schedule is set by the consignment, not a published calendar. It depends whether these lock washers and spring lock units are a regular production size or a special form needing setup, and on the route to Zimbabwe maintenance and construction stock. For Zimbabwe joints subject to vibration, the lot passes hardness, material and stress-cracking check before release; allow for hardness match and environment-related embrittlement. Confirm spec, quantity and destination before booking; urgent orders can fly at higher freight, with timing quoted per order.",
             "zh": "垫圈虽小，应力松弛与氢脆要在选型阶段考虑：配合 10.9 级及以上件须控制镀锌氢脆，镀层按 ISO 4042 核对。规格（M10、M12）、材质与镀层等级下单时写清，免得临到装配才换型，把货期顺延一个批次，齿形方向与贴合面状态也在图纸上标注。交期按订单核算。",
             "es": "El plazo se cotiza por pedido.",
             "fr": "Le délai est établi par commande.",
@@ -259,7 +259,7 @@
             "hi": "ज़िम्बाब्वे लॉक वॉशर TCO और तनाव दरार विश्लेषण के लिए न्यूनतम ऑर्डर मात्रा (MOQ) क्या है?"
           },
           "a": {
-            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
+            "en": "The minimum follows the production route and supplier scale, not one threshold. These lock washers and spring lock units in existing dies can usually run in modest lots; a special dimension or head form needs tooling and sets a higher minimum. For Zimbabwe joints subject to vibration, grouping matched specs spreads setup overhead, and the lot passes hardness, material and stress-cracking check. Mind hardness match and environment-related embrittlement in the first batch; the minimum is set once spec, packing and destination are settled, with a sample before bulk.",
             "zh": "总拥有成本要把垫圈单价、镀层成本、松动失效后的停机返工与更换人工一并计入。同级 M10、M12 规格合并批量以减少换产。每批留存 ASTM B117 盐雾与硬度记录，后期追溯有据可查，弹簧钢的回火状态与表面硬度批次可比对。起订量按生产路线确定。",
             "es": "La cantidad mínima depende de la ruta de producción.",
             "fr": "La quantité minimale dépend de la route de production.",
@@ -285,7 +285,7 @@
             "hi": "ज़िम्बाब्वे लॉक वॉशर TCO और तनाव दरार विश्लेषण खरीद के लिए विशिष्ट भुगतान शर्तें क्या हैं?"
           },
           "a": {
-            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit arranged through the buyer's bank. The settlement route, documents and milestones should be agreed up front, and any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
+            "en": "The settlement route depends on programme size, trading history and local bank rules. A first order usually pairs a deposit against the proforma with a balance against shipping documents (bill of lading copy, packing list, inspection certificate); avoid full prepay before production. Repeat programmes may use an L/C through the bank. For Zimbabwe maintenance and construction stock, the settlement route, documents and milestones are agreed up front, with hardness, material and stress-cracking check as release record. Given hardness match and environment-related embrittlement, confirm currency routing and handover before production.",
             "zh": "垫圈订单结算方式：定金与尾款比例按订单核算，余款凭提单副本结清。大额开即期信用证。部分西非银行惯例要即期信用证，拒绝生产前全款到账。成本结构纳入库存持有成本、在途资金占用与不合格批次索赔代价，而不是只看单价。垫圈与螺栓、螺母同批配供，材质证明随货，检验按 ISO 3269 批次执行，防松性能的抽样复核比例在订单备注中写明。付款条件按里程碑约定。",
             "es": "Las condiciones de pago se acuerdan por hitos.",
             "fr": "Les conditions de paiement sont convenues par jalons.",
