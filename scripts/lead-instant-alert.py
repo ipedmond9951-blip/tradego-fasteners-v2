@@ -169,6 +169,10 @@ def parse_leads(recs):
                            ("Webhook alert: false", "站外 webhook 未触发")):
             if any(bad in m for m in msgs):
                 flags.append(label)
+        # 站内直推已经成功（新部署会打 "Telegram alert: true"）时不再重复推，
+        # 这个轮询器只在站内推送失败或老部署（没这行日志）时补一刀。
+        if any(m.strip() == "Telegram alert: true" for m in msgs):
+            lead["_inapp"] = True
         if flags:
             lead["_warn"] = "、".join(flags)
         if any("HIGH VALUE" in m for m in msgs):
@@ -228,6 +232,33 @@ def save_state(state):
     json.dump(state, open(STATE_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 
+ARCHIVE_FILE = os.path.join(ROOT, "logs", "leads-archive.jsonl")
+
+
+def archive(leads, state):
+    """把每条线索按 lead id 追加到本地 jsonl 台账（不依赖 Vercel / CRM / 隧道）。
+
+    站点侧 serverless 写不了盘、CRM 隧道也断过，这份本地台账是"线索最后一定留得下"的
+    那层；后续要补录到 Postgres，照这个文件回放即可。
+    """
+    seen = set(state.get("archived", []))
+    rows = []
+    for l in leads:
+        if l["id"] in seen:
+            continue
+        seen.add(l["id"])
+        rows.append({k: v for k, v in l.items()
+                     if k == "id" or (not k.startswith("_") and any(k.startswith(fk) for fk in FIELD_KEYS))})
+    if not rows:
+        return 0
+    os.makedirs(os.path.dirname(ARCHIVE_FILE), exist_ok=True)
+    with open(ARCHIVE_FILE, "a", encoding="utf-8") as f:
+        for r in rows:
+            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+    state["archived"] = list(seen)[-1000:]
+    return len(rows)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--once", action="store_true")
@@ -245,9 +276,13 @@ def main():
         return 0
     leads = parse_leads(recs)
     state = load_state()
+    n_arc = archive(leads, state)
+    if n_arc:
+        save_state(state)
+        log("本地台账新增 %d 条 → %s" % (n_arc, ARCHIVE_FILE))
     sent = set(state.get("sent", []))
-    new = [l for l in leads if l["id"] not in sent]
-    log("inquiry 日志 %d 条 → 线索 %d 条，新 %d 条" % (len(recs), len(leads), len(new)))
+    new = [l for l in leads if l["id"] not in sent and not l.get("_inapp")]
+    log("inquiry 日志 %d 条 → 线索 %d 条，需补推 %d 条" % (len(recs), len(leads), len(new)))
 
     if a.bootstrap:
         sent.update(l["id"] for l in new)
