@@ -248,16 +248,16 @@
             "hi": "अफ्रीकी बाजारों के लिए न्यूनतम ऑर्डर मात्रा क्या है?"
           },
           "a": {
-            "en": "Most Chinese manufacturers accept orders starting from 1-5 tons per specification. For mixed container orders (LCL), the minimum is typically $5,000-$10,000 USD total value. Some suppliers offer smaller trial orders of 500-1000 kg for new customers in African markets.",
-            "zh": "大多数制造商接受每个规格 1–5 吨起订；拼箱订单有最低货值要求，按供应商当期政策确认。部分供应商为非洲市场新客户提供 500–1000 公斤的试订单。下单前把规格、材质和镀层汇总成清单，通用件凑整批量更有利，小众规格单独起订可能有附加费用；试单适合先验证质量和交付节奏，后续返单再按项目用量安排，具体起订量以供应商确认的订单方案为准。",
-            "es": "La mayoría de los fabricantes chinos aceptan pedidos desde 1-5 toneladas por especificación. Para pedidos en contenedores consolidados (LCL), el mínimo es típicamente $5,000-$10,000 USD. Algunos proveedores ofrecen pedidos de prueba más pequeños de 500-1000 kg para nuevos clientes.",
-            "ar": "يقبل معظم المصنّعين الصينيين طلبات تبدأ من 1-5 أطنان لكل مواصفة. للطلبات المختلطة (LCL)، الحد الأدنى عادة 5,000-10,000 دولار. بعض الموردين يقدمون طلبات تجريبية 500-1000 كجم.",
-            "fr": "La plupart des fabricants chinois acceptent des commandes à partir de 1-5 tonnes par spécification. Pour les conteneurs groupés (LCL), le minimum est typiquement de 5 000 à 10 000 USD.",
-            "pt": "A maioria dos fabricantes chineses aceita pedidos a partir de 1-5 toneladas por especificação. Para contêineres consolidados (LCL), o mínimo é tipicamente 5.000-10.000 USD.",
-            "ru": "Большинство китайских производителей принимают заказы от 1-5 тонн на спецификацию. Для сборных контейнеров (LCL) минимум обычно 5000-10000 долларов США.",
-            "ja": "中国の製造業者の多くは、仕様ごとに1〜5トンからの注文を受け付けます。混載コンテナ（LCL）の場合は、受注額の最低ラインが通常5,000〜10,000米ドルです。新規のアフリカ向け顧客には、500〜1,000kgの試験的な小ロットに対応する供給元もあります。初回は実績づくりの小ロットから始め、仕様と品質を確認してからコンテナ単位に増やす段取りが現実的です。",
-            "de": "Die meisten chinesischen Hersteller akzeptieren Bestellungen ab 1-5 Tonnen pro Spezifikation. Für Sammelcontainer (LCL) liegt das Minimum typischerweise bei 5.000-10.000 USD.",
-            "hi": "अधिकांश चीनी निर्माता प्रति विशिष्टता 1-5 टन से ऑर्डर स्वीकार करते हैं। मिश्रित कंटेनर (LCL) के लिए न्यूनतम आमतौर पर 5,000-10,000 अमेरिकी डॉलर है।"
+            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
+            "zh": "拼箱订单有最低货值要求，按供应商当期政策确认。下单前把规格、材质和镀层汇总成清单，通用件凑整批量更有利，小众规格单独起订可能有附加费用。试单适合先验证质量和交付节奏，后续返单再按项目用量安排，具体起订量以供应商确认的订单方案为准。起订量按生产路线确定。",
+            "es": "La cantidad mínima depende de la ruta de producción.",
+            "ar": "تتبع الكمية الدنيا مسار الإنتاج.",
+            "fr": "La quantité minimale dépend de la route de production.",
+            "pt": "A quantidade mínima segue a rota de produção.",
+            "ru": "Минимальный объём зависит от производственного маршрута.",
+            "ja": "最小発注量は生産ルートによって決まります。",
+            "de": "Die Mindestbestellmenge richtet sich nach dem Produktionsweg.",
+            "hi": "न्यूनतम ऑर्डर मात्रा उत्पादन मार्ग पर निर्भर है।"
           }
         },
         {
@@ -274,16 +274,16 @@
             "hi": "चीन से पूर्वी अफ्रीका तक शिपिंग में कितना समय लगता है?"
           },
           "a": {
-            "en": "Standard sea freight from major Chinese ports (Shanghai, Ningbo, Shenzhen) to Mombasa takes 25-30 days, to Dar es Salaam 30-35 days, and to Durban 35-45 days. Express air freight is available for urgent orders (5-7 days) but costs 5-8x more than sea freight. Transit time includes customs clearance at the destination port.",
-            "zh": "从中国主要港口到蒙巴萨的标准海运约 25–30 天，到达累斯萨拉姆 30–35 天，到德班 35–45 天；紧急订单可加急空运，约 5–7 天，但成本明显高于海运。运输时间通常含目的港清关，实际还受船期和港口排队影响。内陆国家到港后还要再接陆运，备货时把港到工地的时间计入；急用规格可先行排产发运，避免整批等待影响施工，具体时效以订舱和物流安排为准。",
-            "es": "El flete marítimo estándar desde los principales puertos chinos a Mombasa toma 25-30 días, a Dar es Salaam 30-35 días, y a Durban 35-45 días. El flete aéreo urgente está disponible para pedidos urgentes (5-7 días) pero cuesta 5-8 veces más.",
-            "ar": "الشحن البحري القياسي من الموانئ الصينية الرئيسية إلى مومباسا 25-30 يوماً، إلى دار السلام 30-35 يوماً، إلى ديربان 35-45 يوماً. الشحن الجوي السريع متاح (5-7 أيام) لكنه يكلف 5-8 أضعاف.",
-            "fr": "Le fret maritime standard des principaux ports chinois vers Mombasa prend 25-30 jours, vers Dar es Salaam 30-35 jours, et vers Durban 35-45 jours.",
-            "pt": "O frete marítimo padrão dos principais portos chineses para Mombaça leva 25-30 dias, para Dar es Salaam 30-35 dias, e para Durban 35-45 dias.",
-            "ru": "Стандартная морская перевозка из крупных китайских портов в Момбасу занимает 25-30 дней, в Дар-эс-Салам 30-35 дней, в Дурбан 35-45 дней.",
-            "ja": "中国の主要港（上海、寧波、深セン）からモンバサまでの標準海運は25〜30日、ダルエスサラームまで30〜35日、ダーバンまで35〜45日です。緊急注文には航空便もあり、5〜7日で届きますが海運の5〜8倍のコストになります。輸送時間には仕向け港での通関が含まれます。部品が工事の工程に間に合うかどうかは、港と通関の混み具合も含めて日程を逆算してください。",
-            "de": "Standard-Seefracht von großen chinesischen Häfen nach Mombasa dauert 25-30 Tage, nach Dar es Salaam 30-35 Tage, und nach Durban 35-45 Tage.",
-            "hi": "प्रमुख चीनी बंदरगाहों से मोम्बासा तक मानक समुद्री माल ढुलाई में 25-30 दिन, दार एस सलाम तक 30-35 दिन, और डरबन तक 35-45 दिन लगते हैं।"
+            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "zh": "紧急订单可加急空运，但成本明显高于海运。运输时间通常含目的港清关，实际还受船期和港口排队影响。内陆国家到港后还要再接陆运，备货时把港到工地的时间计入。急用规格可先行排产发运，避免整批等待影响施工，具体时效以订舱和物流安排为准。交期按订单核算。",
+            "es": "El plazo se cotiza por pedido.",
+            "ar": "يُحتسب موعد التسليم حسب الطلب.",
+            "fr": "Le délai est établi par commande.",
+            "pt": "O prazo é cotado por pedido.",
+            "ru": "Срок поставки рассчитывается по заказу.",
+            "ja": "納期はご注文ごとに算出します。",
+            "de": "Die Lieferzeit wird pro Auftrag kalkuliert.",
+            "hi": "लीड टाइम ऑर्डर के अनुसार तय होता है।"
           }
         },
         {
@@ -300,16 +300,16 @@
             "hi": "अफ्रीकी खरीदारों के लिए कौन से भुगतान शर्तें स्वीकार की जाती हैं?"
           },
           "a": {
-            "en": "Common payment terms for African fastener imports: (1) T/T (Telegraphic Transfer) - 30% deposit, 70% balance before shipment, (2) L/C (Letter of Credit) at sight or 30/60/90 days, (3) D/P (Documents against Payment), (4) OA (Open Account) for established customers. New customers typically start with T/T or L/C, with credit terms available after 6-12 months of successful orders.",
-            "zh": "非洲紧固件进口常见付款方式包括：电汇（T/T），通常 30% 定金、发货前付清余款；即期或 30/60/90 天信用证（L/C）；付款交单（D/P）；以及合作稳定后的赊销（OA）。新客户一般从 T/T 或 L/C 开始，积累若干次成功交易后再申请信用条款。选用方式时核对双方风险承受和银行安排：信用证要明确单证要求和有效期，赊销只适用于已建立信用的长期客户，合同中写清定金节点、尾款条件和所需单据。",
-            "es": "Términos de pago comunes: (1) T/T - 30% depósito, 70% saldo antes del envío, (2) L/C a la vista o 30/60/90 días, (3) D/P, (4) Cuenta abierta para clientes establecidos.",
-            "ar": "شروط الدفع الشائعة: (1) تحويل مصرفي - 30% عربون، 70% قبل الشحن، (2) خطاب اعتماد، (3) دفع مقابل المستندات، (4) حساب مفتوح للعملاء الدائمين.",
-            "fr": "Termes de paiement courants : (1) Virement - 30% d'acompte, 70% avant expédition, (2) Lettre de crédit, (3) Documents contre paiement, (4) Compte ouvert.",
-            "pt": "Termos comuns: (1) T/T - 30% de depósito, 70% antes do envio, (2) Carta de crédito, (3) Documentos contra pagamento, (4) Conta aberta.",
-            "ru": "Общие условия: (1) Банковский перевод - 30% депозит, 70% перед отгрузкой, (2) Аккредитив, (3) Документы против платежа, (4) Открытый счет.",
-            "ja": "アフリカ向けファスナー輸入の一般的な支払い条件は、T/Tが頭金30%、出荷前に残金70%、L/Cは一覧または30/60/90日手形、D/P、確立した顧客向けのオープンアカウントです。新規顧客はまずT/TかL/Cから始め、6〜12か月の順調な取引の後に与信条件が検討されます。初回は前払いと書類条件を明確にし、信用状の条件も輸出前に確認してください。",
-            "de": "Häufige Zahlungsbedingungen: (1) T/T - 30% Anzahlung, 70% vor Versand, (2) Akkreditiv, (3) Dokumente gegen Zahlung, (4) Offenes Konto.",
-            "hi": "सामान्य भुगतान शर्तें: (1) T/T - 30% जमा, शिपमेंट से पहले 70%, (2) L/C sight या 30/60/90 दिन, (3) D/P, (4) स्थापित ग्राहकों के लिए खुला खाता।"
+            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit arranged through the buyer's bank. The settlement route, documents and milestones should be agreed up front, and any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
+            "zh": "非洲紧固件进口常见付款方式包括：电汇（T/T）。付款交单（D/P）。以及合作稳定后的赊销（OA）。新客户一般从 T/T 或 L/C 开始，积累若干次成功交易后再申请信用条款。选用方式时核对双方风险承受和银行安排：信用证要明确单证要求和有效期，赊销只适用于已建立信用的长期客户，合同中写清定金节点、尾款条件和所需单据。付款条件按里程碑约定。",
+            "es": "Las condiciones de pago se acuerdan por hitos.",
+            "ar": "تُتفق شروط الدفع حسب المراحل.",
+            "fr": "Les conditions de paiement sont convenues par jalons.",
+            "pt": "As condições de pagamento são acordadas por marcos.",
+            "ru": "Условия оплаты согласуются по этапам.",
+            "ja": "支払条件はマイルストーンごとに合意します。",
+            "de": "Zahlungsbedingungen werden je Meilenstein vereinbart.",
+            "hi": "भुगतान शर्तें माइलस्टोन के अनुसार तय होती हैं।"
           }
         },
         {
@@ -378,16 +378,16 @@
             "ja": "流通業者はこれらの市場の在庫をどう計画すべきですか"
           },
           "a": {
-            "en": "Hold the fast-moving sizes locally and import project quantities against confirmed orders, because inland transit from Mombasa or Dar es Salaam adds weeks. Landlocked destinations need an extra 10-14 days beyond port clearance.",
-            "zh": "分销商应在本地常备高周转规格，项目用量按确认订单再进口，因为从蒙巴萨或达累斯萨拉姆到内陆要走数周；内陆国家在清关后通常还要再加 10–14 天陆运。库存规划分两层：通用常用规格保持安全库存，专用件和大项目数量等订单落实后再发。结合内陆转运周期设置补货提前期，临近港口的市场周转更快，偏远内陆则要多留缓冲；定期核对库存周转和消耗，避免积压冷门规格。",
-            "hi": "तेज़ी से चलने वाले साइज़ स्थानीय स्तर पर रखें, परियोजना मात्रा पक्के ऑर्डर के आधार पर ही आयात करें; मोम्बासा या दार एस सलाम से अंदर तक की आवाजाही में हफ़्ते लग जाते हैं। भूमि-बंद गंतव्यों के लिए बंदरगाह निकासी के बाद अतिरिक्त 10–14 दिन और चाहिए होते हैं।",
-            "ru": "Ходовые размеры держат локально, а проектные объёмы завозят под подтверждённый заказ: внутренний транзит из Момбасы или Дар-эс-Салама добавляет недели. Для точек без выхода к морю сверх таможенного оформления в порту закладывают ещё 10–14 дней на доставку до конечного склада.",
-            "ar": "احتفظ بالمقاسات سريعة الحركة محلياً، واستورد كميات المشاريع حسب الطلبات المؤكدة، لأن النقل الداخلي من مومباسا أو دار السلام يضيف أسابيع. وتحتاج الوجهات غير الساحلية إلى 10–14 يوماً إضافياً بعد التخليص في الميناء.",
-            "es": "Lo que conviene tener en stock local son las medidas de mayor rotación; el resto se importa contra pedidos confirmados. El tránsito desde Mombasa o Dar es Salaam suma semanas, y los destinos sin litoral necesitan 10 a 14 días extra tras el puerto. Un inventario conservador evita el exceso de existencias y las demoras al cliente.",
-            "fr": "Gardez localement les tailles qui tournent vite, et importez les quantités de projet sur commande confirmée, car le transit intérieur depuis Mombasa ou Dar es Salaam ajoute des semaines. Les destinations enclavées nécessitent dix à quatorze jours de plus après le dédouanement portuaire. Le stock local couvre le détail, le reste suit l'ordre du projet.",
-            "de": "Die Größen mit hohem Umsatz hält man vor Ort, während Projektmengen erst gegen bestätigte Aufträge importiert werden, weil der Inlandstransport ab Mombasa oder Dar es Salaam Wochen hinzufügt. Für Binnenländer kommen nach der Zollabfertigung am Hafen noch 10 bis 14 Tage hinzu, und die Vorhaltung sollte sich an den bestätigten Projekten orientieren.",
-            "pt": "Mantenham-se localmente as bitolas de giro rápido, e as quantidades de projeto importam-se contra pedidos confirmados, pois o trânsito interno de Mombaça ou Dar es Salaam acrescenta semanas. Destinos sem litoral precisam de 10 a 14 dias extras após a liberação portuária. O estoque separa o consumo regular, que justifica reposição local, dos volumes de obra, que seguem o cronograma do projeto.",
-            "ja": "動きの速いサイズは現地に在庫し、プロジェクト数量は確定注文に対して輸入します。モンバサまたはダルエスサラームからの内陸輸送は週単位の時間を要するためです。内陸の仕向け地には港通関後の追加期間を見込み、在庫回転と大口注文のバランスを取ってください。"
+            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "zh": "分销商应在本地常备高周转规格，项目用量按确认订单再进口，因为从蒙巴萨或达累斯萨拉姆到内陆要走数周。库存规划分两层：通用常用规格保持安全库存，专用件和大项目数量等订单落实后再发。结合内陆转运周期设置补货提前期，临近港口的市场周转更快，偏远内陆则要多留缓冲。定期核对库存周转和消耗，避免积压冷门规格。交期按订单核算。",
+            "hi": "लीड टाइम ऑर्डर के अनुसार तय होता है।",
+            "ru": "Срок поставки рассчитывается по заказу.",
+            "ar": "يُحتسب موعد التسليم حسب الطلب.",
+            "es": "El plazo se cotiza por pedido.",
+            "fr": "Le délai est établi par commande.",
+            "de": "Die Lieferzeit wird pro Auftrag kalkuliert.",
+            "pt": "O prazo é cotado por pedido.",
+            "ja": "納期はご注文ごとに算出します。"
           }
         }
       ],
