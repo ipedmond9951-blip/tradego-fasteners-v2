@@ -411,16 +411,16 @@
             "ar": "ما هو الحد الأدنى لكمية الطلوبات للأسواق الأفريقية؟"
           },
           "a": {
-            "en": "Distributors typically expect 20ft container loads (18-25 tons). For initial orders, some distributors accept 10ft or LCL shipments, but unit costs increase 15-25%. Start with a full container of your best-selling product line.",
-            "zh": "经销商通常以20英尺整柜为采购单位，单柜载重约18至25吨。初次合作时，部分经销商可接受10英尺柜或拼箱（LCL）发货，但拆柜后单价会上浮15%至25%，物流与报关成本也会相应增加。建议先用自己最畅销的产品线装满一个整柜试单，既能拿到更有竞争力的出厂价，也便于核对对方的仓储条件、付款周期与销售反馈，再逐步扩大品类和订单批量。",
-            "ja": "現地の流通業者は通常、20フィートコンテナ単位（18〜25トン）の荷受けを想定しています。初回の取引に限り、10フィートコンテナまたは混載（LCL）を受け入れる業者もいますが、小口になるほど単価が15〜25%上昇し、通関や倉庫手配の手間も増えます。まずは主力の品種でフルコンテナを組み、価格競争力と相手先の販売実績を確認してから、品目と数量を段階的に広げるのが堅実です。",
-            "hi": "वितरक आम तौर पर 20ft कंटेनर भर 18–25 टन उम्मीद करते हैं। पहले ऑर्डर में कुछ वितरक 10ft या LCL शिपमेंट लेते हैं, पर ऐसे शिपमेंट में यूनिट लागत ऊपर रहती है। बेहतर यह है कि अपनी सबसे ज़्यादा बिकने वाली प्रोडक्ट लाइन का पूरा कंटेनर शुरुआत के तौर पर भेजा जाए।",
-            "de": "Händler erwarten typischerweise 20ft-Containerladungen (18-25 Tonnen). Bei Erstbestellungen akzeptieren einige Händler auch 10ft-Container oder LCL-Lieferungen (Less than Container Load), aber die Stückkosten steigen um 15-25%. Beginnen Sie mit einem vollen Container Ihrer bestsellingen Produktlinie.",
-            "es": "Los distribuidores generalmente esperan cargas de contenedores de 20 pies (18-25 toneladas). Para pedidos iniciales, algunos distribuidores aceptan envíos de 10 pies o LCL, pero los costos unitarios aumentan un 15-25%. Comience con un contenedor completo de su línea de productos más vendida.",
-            "fr": "Les distributeurs attendent généralement des conteneurs de 20 pieds (18-25 tonnes). Pour les commandes initiales, certains acceptent des expéditions de 10 pieds ou LCL, mais les coûts unitaires augmentent de 15-25%. Commencez avec un conteneur complet de votre ligne de produits les plus vendus.",
-            "pt": "Os distribuidores geralmente esperam cargas de contêiner de 20 pés (18-25 toneladas). Para encomendas iniciais, alguns distribuidores aceitam remessas de 10 pés ou LCL, mas os custos unitários aumentam 15-25%. Comece com um contêiner completo da sua linha de produtos mais vendidos.",
-            "ru": "Дистрибьюторы обычно ожидают поставки полных 20-футовых контейнеров (18-25 тонн). Для первоначальных заказов некоторые дистрибьюторы принимают поставки 10-футовыми контейнерами или сборными грузами (LCL), но удельная стоимость возрастает на 15-25%. Начните с полного контейнера вашего самого продаваемого продукта.",
-            "ar": "عادة ما يتوقع الموزعون حمولات حاويات 20 قدم (18-25 طن). للطلوبات الأولية، يقبب بعض الموزعون شحنات 10 قدم أو شحنات LCL، لكن تكلفة الوحدة تزداد بنسبة 15-25%. ابدأ بحاوية كاملة من سطر المنتجات الأكثر مبيعًا لك."
+            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
+            "zh": "经销商通常以20英尺整柜为采购单位。初次合作时，部分经销商可接受10英尺柜或拼箱（LCL）发货，物流与报关成本也会相应增加。建议先用自己最畅销的产品线装满一个整柜试单，既能拿到更有竞争力的出厂价，也便于核对对方的仓储条件、付款周期与销售反馈，再逐步扩大品类和订单批量。起订量按生产路线确定。",
+            "ja": "最小発注量は生産ルートによって決まります。",
+            "hi": "न्यूनतम ऑर्डर मात्रा उत्पादन मार्ग पर निर्भर है।",
+            "de": "Die Mindestbestellmenge richtet sich nach dem Produktionsweg.",
+            "es": "La cantidad mínima depende de la ruta de producción.",
+            "fr": "La quantité minimale dépend de la route de production.",
+            "pt": "A quantidade mínima segue a rota de produção.",
+            "ru": "Минимальный объём зависит от производственного маршрута.",
+            "ar": "تتبع الكمية الدنيا مسار الإنتاج."
           }
         },
         {
@@ -437,16 +437,16 @@
             "ar": "هل أحتاج إلى وكيل محلي للبيع في أفريقيا؟"
           },
           "a": {
-            "en": "Not legally required in most countries, but highly recommended. A good agent handles customs clearance, local certification, distributor relationships, and payment collection. Commission rates are typically 3-8% depending on market and product.",
-            "zh": "在大多数国家，聘请本地代理在法律上并非强制要求，但从实操角度看强烈建议。靠谱的代理可以代办清关手续、跟进本地认证与符合性文件、维护经销商关系，并协助回收货款，减少出口商直接面对陌生市场的沟通风险。佣金通常按成交金额的3%至8%计算，具体比例取决于目标市场、产品品类和代理承担的工作量；初次合作前应明确代理的授权范围、客户归属和结算周期。",
-            "ja": "多くの国では現地代理店の起用が法律で義務付けられているわけではありませんが、実務上は強く推奨されます。信頼できる代理店は通関手続き、現地での認証や適合書類のフォロー、流通業者との関係構築、代金回収までを担い、輸出側が不慣れな市場と直接やり取りするリスクを減らせます。手数料は取引額の3〜8%が一般的で、市場・品目・代理店の担当業務量によって変わります。起用前に権限範囲、顧客帰属、決済サイクルを明確にしておきましょう。",
-            "hi": "ज़्यादातर देशों में कानूनन एजेंट अनिवार्य नहीं, पर सलाह दी जाती है। अच्छा एजेंट सीमा शुल्क निकासी, स्थानीय मानकों से जुड़े दस्तावेज, वितरक संपर्क और भुगतान वसूली संभालता है। कमीशन दर बाजार और उत्पाद के हिसाब से तय होती है, इसलिए पहले शर्तें स्पष्ट कर लें।",
-            "de": "In den meisten Ländern ist dies nicht gesetzlich vorgeschrieben, wird aber dringend empfohlen. Ein guter Vertreter übernimmt die Zollabwicklung, die lokale Zertifizierung, die Betreuung der Händlerbeziehungen und die Eintreibung der Zahlungen. Die Provisionssätze betragen typischerweise 3-8%, je nach Markt und Produkt.",
-            "es": "No es legalmente requerido en la mayoría de los países, pero es altamente recomendable. Un buen agente se encarga de la desaduanaización, certificación local, relaciones con distribuidores y cobro de pagos. Las tasas de comisión suelen ser del 3-8% dependiendo del mercado y el producto.",
-            "fr": "Ce n'est pas légalement requis dans la plupart des pays, mais fortement recommandé. Un bon agent gère le dédouanement, la certification locale, les relations avec les distributeurs et le recouvrement des paiements. Les taux de commission sont généralement de 3-8% selon le marché et le produit.",
-            "pt": "Não é legalmente obrigatório na maioria dos países, mas altamente recomendado. Um bom agente lida com despacho aduaneiro, certificação local, relacionamento com distribuidores e cobrança. As taxas de comissão são tipicamente de 3-8%, dependendo do mercado e do produto.",
-            "ru": "Юридически это не требуется в большинстве стран, но настоятельно рекомендуется. Хороший агент занимается таможенным оформлением, местной сертификацией, отношениями с дистрибьюторами и сбором платежей. Размер комиссионных обычно составляет 3-8% в зависимости от рынка и продукта.",
-            "ar": "ليس مطلوبًا قانونيًا في معظم الدول، لكنه موصى به بشدة. الوكيل الجيد يتعامل مع التخليص الجمركي والشهادات المحلية وعلاقات الموزعين وجمع المدفوعات. تتراوح نسب العمولات عادة بين 3-8% حسب السوق والمنتج."
+            "en": "The offer position is explained by the underlying cost structure rather than a single fixed figure: material grade, coating, manufacturing process, packaging, route and cargo plan all feed into the quotation. Routing and freight position are compared per enquiry, and small changes in specification or consolidation can move the unit position noticeably. Buyers should compare the full landed position rather than the headline unit figure alone, and ask the supplier to break down material, process, packaging and freight elements before deciding on the offer. Pricing is explained by cost structure, not a fixed figure.",
+            "zh": "在大多数国家，聘请本地代理在法律上并非强制要求，但从实操角度看强烈建议。靠谱的代理可以代办清关手续、跟进本地认证与符合性文件、维护经销商关系，并协助回收货款，减少出口商直接面对陌生市场的沟通风险。具体比例取决于目标市场、产品品类和代理承担的工作量。初次合作前应明确代理的授权范围、客户归属和结算周期。价格只讲成本结构，不给固定数字。",
+            "ja": "価格はコスト構造で説明し、固定の数字は示しません。",
+            "hi": "मूल्य लागत संरचना से समझाया जाता है, निश्चित संख्या से नहीं।",
+            "de": "Der Preis wird über die Kostenstruktur erklärt, ohne feste Zahl.",
+            "es": "El precio se explica por la estructura de costes, no por una cifra fija.",
+            "fr": "Le prix s'explique par la structure des coûts, sans chiffre fixe.",
+            "pt": "O preço é explicado pela estrutura de custos, sem valor fixo.",
+            "ru": "Цена объясняется структурой затрат, без фиксированной цифры.",
+            "ar": "يُشرح السعر عبر هيكل التكلفة دون رقم ثابت."
           }
         },
         {
@@ -463,16 +463,16 @@
             "ar": "كم تستغرق الحصول على شهادة SABS؟"
           },
           "a": {
-            "en": "8-12 weeks for standard fasteners. You'll need to submit samples for testing (4-6 weeks), factory documentation, and quality system evidence. Using a local consultant reduces this to 6-8 weeks.",
-            "zh": "标准紧固件从询价到完成市场准入，通常需要8至12周。期间要寄送样品供当地实验室测试，测试环节约4至6周，同时需提交工厂资料、产品规格书和质量体系证明文件；若产品属于受管制品类，还可能补充现场审核或符合性注册。聘请熟悉本地流程的顾问，可把准备周期压缩到6至8周，避免因文件退回或标准理解偏差而反复耽误时间。",
-            "ja": "標準的なファスナーの場合、引き合いから市場准入まで通常8〜12週間を要します。まず現地ラボ向けにサンプルを送付して試験を受ける必要があり、試験工程だけで4〜6週間、工場資料、製品仕様書、品質管理体制の証明も提出します。規制品目に該当する場合は現地審査や適合登録が追加されることもあります。現地事情に詳しいコンサルタントを活用すれば、準備期間を6〜8週間に短縮でき、書類の差戻しや基準解釈のずれによる手戻りを防げます。",
-            "hi": "स्टैंडर्ड फास्टनरों के लिए आम तौर पर 8–12 सप्ताह लगते हैं: परीक्षण के लिए नमूने 4–6 सप्ताह, फैक्ट्री दस्तावेज और गुणवत्ता प्रणाली के प्रमाण जमा करने होते हैं। स्थानीय सलाहकार की मदद से यह अवधि 6–8 सप्ताह तक घट सकती है। आवश्यक प्रमाण-पत्र ऑर्डर पर उपलब्ध कराए जाते हैं।",
-            "de": "Für Standard-Befestigungselemente sind es 8-12 Wochen. Sie müssen Muster zur Prüfung einreichen (4-6 Wochen), Dokumentation des Betriebs und Nachweise über das Qualitätssystem. Die Einbindung eines lokalen Beraters reduziert diese Zeit auf 6-8 Wochen.",
-            "es": "8-12 semanas para tornillería estándar. Deberá enviar muestras para pruebas (4-6 semanas), documentación de fábrica y evidencia del sistema de calidad. Utilizar un consultor local reduce este plazo a 6-8 semanas.",
-            "fr": "8-12 semaines pour les pièces standard. Vous devrez soumettre des échantillons pour tests (4-6 semaines), la documentation d'usine et des preuves du système qualité. L'utilisation d'un consultant local réduit ce délai à 6-8 semaines.",
-            "pt": "8-12 semanas para parafusos padrão. Você precisará enviar amostras para teste (4-6 semanas), documentação da fábrica e evidências do sistema de qualidade. Usar um consultor local reduz isso para 6-8 semanas.",
-            "ru": "8-12 недель для стандартных крепежных изделий. Вам необходимо предоставить образцы для испытаний (4-6 недель), документацию на завод и доказательства наличия системы качества. Использование местного консультанта сокращает этот срок до 6-8 недель.",
-            "ar": "8-12 أسبوعًا للمثبتات القياسية. ستحتاج إلى تقديم عينات للاختبار (4-6 أسابيع)، ووثائق المصنع، ودليل على نظام الجودة. استخدام مستشار محلي يقلل هذا إلى 6-8 أسابيع."
+            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "zh": "标准紧固件从询价到完成市场准入。期间要寄送样品供当地实验室测试，同时需提交工厂资料、产品规格书和质量体系证明文件。若产品属于受管制品类，还可能补充现场审核或符合性注册。聘请熟悉本地流程的顾问，避免因文件退回或标准理解偏差而反复耽误时间。交期按订单核算。",
+            "ja": "納期はご注文ごとに算出します。",
+            "hi": "लीड टाइम ऑर्डर के अनुसार तय होता है।",
+            "de": "Die Lieferzeit wird pro Auftrag kalkuliert.",
+            "es": "El plazo se cotiza por pedido.",
+            "fr": "Le délai est établi par commande.",
+            "pt": "O prazo é cotado por pedido.",
+            "ru": "Срок поставки рассчитывается по заказу.",
+            "ar": "يُحتسب موعد التسليم حسب الطلب."
           }
         },
         {
@@ -489,16 +489,16 @@
             "ar": "طرق الدفع الأكثر أمانًا للتصدير إلى أفريقيا؟"
           },
           "a": {
-            "en": "For new relationships: Irrevocable Letter of Credit (LC) at sight. After 3+ successful transactions: 30% advance + 70% against Bill of Lading. For established partners: Open account with credit insurance (Euler Hermes, Coface).",
-            "zh": "初次合作建议采用即期不可撤销信用证（LC），单证相符后付款，风险相对可控。完成3笔以上顺利交易后，可改为30%预付款加70%凭提单付款的方式，减轻对方资金压力。对长期稳定的合作伙伴，可在购买出口信用保险（如Euler Hermes、Coface）的前提下接受赊销账期；即便如此，也应定期核查买方信用额度和所在国的收汇风险，避免账期过长导致坏账。",
-            "ja": "新規取引では、書類条件が整った時点で支払われる取消不能の信用状（LC）が推奨されます。3回以上の良好な取引実績を経てから、30%前払い・70%船荷証券対象の支払いへ移行し、買い手の資金負担を軽くすることも可能です。長期安定した相手先には、信用保険（Euler HermesやCofaceなど）を付けた掛け取引も選択肢になります。その場合も与信枠や所在国の回収リスクを定期的に確認し、長期与信による貸倒れを防ぎます。",
-            "hi": "नए संपर्क के लिए दृष्टि पत्र (L/C) सबसे सुरक्षित है। तीन से ज़्यादा सफल लेनदेन के बाद 30% अग्रिम और 70% बिल ऑफ लेडिंग के सामने देने की शर्त अपनाई जा सकती है। पुराने स्थापित भागीदारों के लिए क्रेडिट बीमा कवर के साथ ओपन अकाउंट चलाया जा सकता है; बिना कवर के खाता खोलना जोखिम भरा है।",
-            "de": "Bei neuen Geschäftsbeziehungen: Unwiderrufliche Akkreditivzahlung (Sight-LC). Nach 3 oder mehr erfolgreichen Transaktionen: 30% Anzahlung + 70% gegen Vorlage des Konnossements. Bei etablierten Partnern: Offenes Konto mit Kreditversicherung (z.B. Euler Hermes, Coface).",
-            "es": "Para nuevas relaciones: Carta de Crédito Irrevocable (LC) a la vista. Después de 3+ transacciones exitosas: 30% de anticipo + 70% contra Conocimiento de Embarque. Para socios establecidos: Cuenta abierta con seguro de crédito (Euler Hermes, Coface).",
-            "fr": "Pour les nouvelles relations : Crédit irrévocable (LC) à vue. Après 3 transactions réussies : 30% d'acompte + 70% contre connaissement. Pour les partenaires établis : Compte ouvert avec assurance crédit (Euler Hermes, Coface).",
-            "pt": "Para novas relações: Carta de Crédito Irrevogável (LC) à vista. Após 3+ transações bem-sucedidas: 30% adiantado + 70% contra Conhecimento de Embarque. Para parceiros estabelecidos: Conta aberta com seguro de crédito (Euler Hermes, Coface).",
-            "ru": "Для новых отношений: безотзывный аккредитив (LC) по предъявлении. После 3 и более успешных сделок: 30% предоплата + 70% против коносамента. Для установившихся партнеров: открытый счет со страховкой кредитов (Euler Hermes, Coface).",
-            "ar": "للعلاقات الجديدة: خطاب ائتمان غير قابل للإلغاء (LC) عند الطلب. بعد 3+ معاملات ناجحة: 30% مقدمًا + 70% مقابل بوليصة الشحن. للشركاء المؤسسين: حساب مفتوح بضمان ائتماني (Euler Hermes, Coface)."
+            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit arranged through the buyer's bank. The settlement route, documents and milestones should be agreed up front, and any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
+            "zh": "初次合作建议采用即期不可撤销信用证（LC），单证相符后付款，风险相对可控。完成3笔以上顺利交易后，减轻对方资金压力。对长期稳定的合作伙伴，可在购买出口信用保险（如Euler Hermes、Coface）的前提下接受赊销账期。即便如此，也应定期核查买方信用额度和所在国的收汇风险，避免账期过长导致坏账。付款条件按里程碑约定。",
+            "ja": "支払条件はマイルストーンごとに合意します。",
+            "hi": "भुगतान शर्तें माइलस्टोन के अनुसार तय होती हैं।",
+            "de": "Zahlungsbedingungen werden je Meilenstein vereinbart.",
+            "es": "Las condiciones de pago se acuerdan por hitos.",
+            "fr": "Les conditions de paiement sont convenues par jalons.",
+            "pt": "As condições de pagamento são acordadas por marcos.",
+            "ru": "Условия оплаты согласуются по этапам.",
+            "ar": "تُتفق شروط الدفع حسب المراحل."
           }
         },
         {
@@ -670,7 +670,18 @@
     },
     {
       "q": "What is the typical minimum order quantity for Africa-bound fasteners?",
-      "a": "MOQs typically range from 5,000-20,000 pieces per order, depending on the product type and supplier. Bulk orders often qualify for volume discounts of 10-30%."
+      "a": {
+        "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
+        "zh": "起订量随供方规模、开机调试成本以及整柜或拼柜方式变化。起订量按生产路线确定。",
+        "es": "La cantidad mínima depende de la ruta de producción.",
+        "fr": "La quantité minimale dépend de la route de production.",
+        "pt": "A quantidade mínima segue a rota de produção.",
+        "ru": "Минимальный объём зависит от производственного маршрута.",
+        "ja": "最小発注量は生産ルートによって決まります。",
+        "de": "Die Mindestbestellmenge richtet sich nach dem Produktionsweg.",
+        "ar": "تتبع الكمية الدنيا مسار الإنتاج.",
+        "hi": "न्यूनतम ऑर्डर मात्रा उत्पादन मार्ग पर निर्भर है।"
+      }
     }
   ],
   "relatedArticles": [
