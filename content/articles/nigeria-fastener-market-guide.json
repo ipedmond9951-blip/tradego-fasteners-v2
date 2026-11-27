@@ -60,7 +60,7 @@
     {
       "id": "import-procedures",
       "heading": {
-        "en": "Import Procedures and SONCAP",
+        "en": "How do SONCAP and the product clearance documents work for fastener imports into Nigeria?",
         "es": "Procedimientos de Importación y SONCAP",
         "ar": "إجراءات الاستيراد وبرنامج SONCAP",
         "fr": "Procédures d'importation et SONCAP",
@@ -69,7 +69,7 @@
         "ja": "輸入手続きとSONCAP",
         "de": "Einfuhrverfahren und SONCAP",
         "hi": "आयात प्रक्रियाएं और SONCAP",
-        "zh": "进口流程与 SONCAP"
+        "zh": "紧固件进口尼日利亚，SONCAP 与清关单证要怎么走？"
       },
       "body": {
         "en": "<p>Nigeria requires SONCAP (Standards Organization of Nigeria Conformity Assessment Programme) for imported goods:</p>\n<p><strong>SONCAP Process</strong>: 1. Request for Product Certificate (RFC) from buyer\n2. Apply for SONCAP Certificate (SC) via authorized agent\n3. Present SC at Nigerian ports for clearance\n4. Products may be inspected at port</p>\n<p><strong>Documents Required</strong>: - Proforma Invoice\n- Bill of Lading\n- Packing List\n- Manufacturer's Quality Certificate\n- SONCAP Certificate (pre-import)</p>\n<p><strong>Important</strong>: SONCAP must be obtained BEFORE shipment. Products without SONCAP may be refused entry or face significant delays. Standards-based procurement requires continuous learning as ISO, ASTM, DIN, and GB standards are revised every 3-5 years. Subscribe to standards update notifications and review specifications annually. The most common standards used in international fastener trade are ISO 898-1 (mechanical properties), ISO 3506-1 (stainless), ISO 3269 (acceptance inspection), ISO 4042 (coatings), and ISO 1502 (thread gauges). For B2B buyers, building a standards reference library with at least the top 20 standards relevant to your product mix is essential.</p>",
@@ -114,7 +114,7 @@
     {
       "id": "distribution",
       "heading": {
-        "en": "Distribution Channels",
+        "en": "Where do Nigerian contractors and operators source fasteners across the market?",
         "es": "Canales de Distribución",
         "ar": "قنوات التوزيع",
         "fr": "Canaux de distribution",
@@ -123,7 +123,7 @@
         "ja": "流通チャネル",
         "de": "Vertriebskanäle",
         "hi": "वितरण चैनल",
-        "zh": "分销渠道"
+        "zh": "尼日利亚承包商与业主主要从哪些渠道采购紧固件？"
       },
       "body": {
         "en": "<p>Nigeria <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a> distribution structure:</p>\n<p><strong>1. Importers/Wholesalers</strong>: Based in Lagos, import directly from China\n2. Regional Distributors: Cover geopolitical zones\n3. Hardware Retailers: Final mile to contractors\n4. Project Suppliers: Direct to construction sites</p>\n<p><strong>Key Distribution Centers</strong>: - Alaba Market (Lagos): Largest electronics/hardware market in West Africa\n- Ariaria Market (Abuja): Growing hardware hub\n- Relief Market (Port Harcourt): Oil and gas supplies</p>\n<p>TradeGo works with established Nigerian distributors who have:\n- Warehousing capacity in Lagos\n- Delivery fleet for last-mile distribution\n- Credit relationships with major contractors The verification checklist applies to both initial supplier qualification and ongoing batch inspection.</p><p>The verification checklist applies to both initial supplier qualification and ongoing batch inspection. For high-risk applications (load-bearing structural, pressure vessels, mining, marine), add fatigue testing, salt-spray testing (ASTM B117), torque-tension testing, and post-installation inspection.</p><p>The cost of additional verification is 0.1-0.3% of order value, while undetected quality failures can be 10-100x the order value in damages.</p><p>For the Nigerian reseller channel, pack size and label decide whether an importer can move the stock: cartons carry diameter, standard, class and coating on the mark, and bulk lines are split into shelf-sized units where the importer requests it. A first-lot sample, the dimensional check and the packing label are retained for the repeat order, so a second batch can be verified against the approval set instead of renegotiating the specification. Importer and reseller stock are kept in separate marked batches, and any coating or class deviation is recorded with the carton mark before the lot is released.</p>",
@@ -232,7 +232,7 @@
             "ja": "ナイジェリアへの締結具輸入で SONCAP はどのように機能しますか"
           },
           "a": {
-            "en": "Register the product and get a SONCAP certificate before shipment, then obtain a Certificate of Conformity (COC) for each consignment from an accredited body. Arriving without a COC means the goods are held at the port, and demurrage usually exceeds the value of the fasteners.",
+            "en": "SONCAP is completed before shipment. The buyer registers the product category, and the supplier applies for the SONCAP certificate through an authorised agent with manufacturer test and quality records. For each consignment an accredited body issues a Certificate of Conformity, presented at the Nigerian port with invoice, packing list, bill of lading and HS classification. A load arriving without a valid COC is held, and storage charges build up while the paperwork is sorted. Match declared grade, coating and standard to the test file, and book the conformity step ahead of the production schedule.",
             "zh": "尼日利亚 SONCAP 对紧固件的执行流程是：发货前完成产品注册并取得 SONCAP 证书，然后为每一批次从认可机构取得符合性证书 COC。货物到港时若没有 COC，会被港区扣留，产生滞港等额外成本。产品先归类到对应品类，按要求完成测试和文件审核；批次证书与发货批次对应，品名、规格和等级保持一致。建议在生产排期前对接认证机构，把检验安排在发货前完成；订单中写明认证要求和随货证书，避免到港后补办，影响项目工期。",
             "hi": "शिपमेंट से पहले उत्पाद रजिस्टर कराकर SONCAP प्रमाण-पत्र लें, फिर हर खेप के लिए मान्यता प्राप्त संस्था से अनुरूपता प्रमाण-पत्र (COC) बनवाएं। COC के बिना माल बंदरगाह पर रोक दिया जाता है, और डिमरेज़ शुल्क आम तौर पर फास्टनरों की कीमत से भी ज़्यादा हो जाता है।",
             "ru": "До отгрузки продукцию регистрируют и получают сертификат SONCAP, затем на каждую партию оформляют сертификат соответствия (COC) у аккредитованного органа. Прибытие без COC означает задержку груза в порту, а плата за простой обычно превышает стоимость самого крепежа, поэтому документы закрывают заранее, до прибытия судна.",
@@ -258,7 +258,7 @@
             "ja": "ナイジェリアの締結具にはどのような関税・税がかかりますか"
           },
           "a": {
-            "en": "HS 7318 fasteners typically attract 10-20% duty depending on the subheading, plus 7.5% VAT and a port levy. Confirm the exact HS code with your broker before quoting, because the subheading drives both duty and whether SONCAP applies.",
+            "en": "Fasteners sit under Customs Chapter 73, mainly heading 7318, with duty, VAT and any port levy assessed by subheading rather than one flat rate. Bolts, nuts, washers and anchors can fall under different codes, so the invoice must state material, property class, coating and form. The exact treatment follows the current tariff schedule and any applicable scheme, confirmed with a broker before landed cost is quoted. Keep invoice, packing list and description consistent with the HS code, and retain the origin record; a misdescribed line commonly triggers re-assessment at the gate.",
             "zh": "HS 7318 紧固件按子目征收关税，另加增值税与港口附加费；报价前让报关行确认准确 HS 编码——子目既决定税率，也决定是否适用 SONCAP 符合性评定。关税和附加费按当期税则和具体子目核定，不同螺栓、螺丝、螺母、垫圈归类有别；清关前核对品名、规格与编码一致，规管类货物提前准备 SONCAP 所需资料。到岸成本应把关税、增值税、港口杂费和检验费用一并测算，具体费率以海关核定和报关行确认为准。",
             "hi": "HS 7318 फास्टनरों पर उपशीर्षक के अनुसार आम तौर पर 10–20% सीमा शुल्क लगता है, साथ में 7.5% VAT और एक पोर्ट लेवी भी। कोटेशन से पहले ब्रोकर से सटीक HS कोड पक्का कर लें, क्योंकि उपशीर्षक ही शुल्क और SONCAP लागू होना तय करता है।",
             "ru": "Крепёж по коду HS 7318 обычно облагается пошлиной 10–20% в зависимости от подкода, плюс НДС 7.5% и портовый сбор. Точный код согласуйте с брокером до выставления цены: от подкода зависят и пошлина, и применение SONCAP, а итоговая стоимость партии складывается из товара, пошлин и логистики.",
@@ -284,7 +284,7 @@
             "ja": "ナイジェリアの購入者は実際にどこから締結具を調達しますか"
           },
           "a": {
-            "en": "Lagos industrial markets around Ladipo and Oshodi handle most retail and small-project volume, while oil and gas operators buy through approved vendor lists with full traceability. Project supply direct from China works for large orders, but local stock still wins on urgent consumables.",
+            "en": "Nigerian buyers split between city markets, approved vendor lists and direct project supply. In Lagos, Ladipo and Oshodi handle most retail and small-project volume, serving hardware shops and contractors picking up standard bolts, nuts, screws and washers. Oil, gas and large construction operators buy through approved vendor lists requiring full traceability, mill test certificates and consistent grade records. Large project orders can be sourced direct from manufacturing markets abroad, while urgent consumables rely on local stock. Compare landed cost, documentation and after-sales support rather than unit price alone.",
             "zh": "尼日利亚买家的采购渠道分层次：拉各斯 Ladipo、Oshodi 一带的工业市场承担多数零售和小批量项目用量；油气运营商则通过合格供应商名录采购，要求完整可追溯文件。大额项目可直接从中国供货，但小批量急件仍依赖本地市场补货。工业项目更看重材质证明、批次编号和检验记录齐全，验收时才不易被监理卡住。采购时按项目规模选择渠道：结构批次走直供并保留追溯文件，常用备件通过本地渠道周转；报价和供货条款结合渠道特点约定，平衡交期与文件能力。",
             "hi": "लागोस के लादीपो और ओशोदी आसपास के औद्योगिक बाजार खुदरा और छोटे प्रोजेक्ट का अधिकांश कारोबार संभालते हैं; तेल और गैस संचालक पूर्ण ट्रेसेबिलिटी वाली स्वीकृत विक्रेता सूची से खरीदते हैं। बड़े ऑर्डर के लिए चीन सीधे प्रोजेक्ट आपूर्ति ठीक चलती है, पर तत्काल खपत की चीजों में स्थानीय स्टॉक ही आगे रहता है।",
             "ru": "Промышленные рынки Лагоса вокруг Ладипо и Ошоди покрывают большую часть розницы и малых проектов; операторы нефтегазовой отрасли покупают через утверждённые списки поставщиков с полной прослеживаемостью. Прямые поставки из Китая работают для крупных заказов, но по срочным расходным материалам выигрывает местный склад.",
@@ -336,7 +336,7 @@
             "ja": "ナイジェリアの締結具輸入関税はどのくらいですか"
           },
           "a": {
-            "en": "Nigeria's import duty for fasteners (HS Code 7318) ranges from 10% to 35% depending on type and end-use. Construction fasteners typically face 20% duty plus 7.5% levy and 7.5% CID. Industrial-grade fasteners may qualify for lower rates under the Nigeria Industrial Revolution Plan (NIRP). All imports attract 7.5% VAT.",
+            "en": "Import duty on fasteners depends on the HS 7318 subheading, product form and declared end-use, not one published band for all hardware. Finished and unfinished parts, and standard versus higher-strength grades, can be classified separately, so the broker checks the code against specification and drawing before entry. VAT and any levy follow the current schedule, and any industrial-scheme relief needs valid eligibility and origin evidence rather than assumption. Confirm the full treatment with a clearing agent before quoting landed cost, and record grade, standard and coating on each line; a clear description cuts reclassification checks.",
             "zh": "尼日利亚紧固件归入海关编码 7318，关税按类型和最终用途对应子目计征，建筑件与工业件适用的归类和费率可能不同；所有进口商品还需缴纳增值税，部分规管类目另涉附加费和符合性评定。报价和清关前先确认 HS 子目、用途归类和是否在 SONCAP 目录内，工业用途是否适用优惠安排以当地规定为准。税率随税则调整，具体金额以海关核定为准，单证上的货物描述、材质和规格要与申报编码对应，避免归类争议延误提货。",
             "es": "El arancel de Nigeria para fijadores (HS 7318) va del 10 % al 35 % según tipo y uso. Los de construcción pagan típicamente un 20 % más gravamen del 7,5 % y CID del 7,5 %. Los industriales pueden bajar por el Plan NIRP. Todas las importaciones suman el 7,5 % de IVA. Confirme la partida y el tipo con el agente aduanero antes del envío.",
             "fr": "Le droit du Nigeria pour les fixations (HS 7318) va de 10 % à 35 % selon le type et l'usage. Les fixations de construction supportent un 20 % plus taxe de 7,5 % et CID de 7,5 %. Les industrielles peuvent être réduites par le Plan NIRP. Toutes les importations ajoutent 7,5 % de TVA. Confirmez la position et le taux avec l'agent douanier avant l'expédition.",
