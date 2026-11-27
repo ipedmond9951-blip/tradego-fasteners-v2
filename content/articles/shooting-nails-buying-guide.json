@@ -86,8 +86,8 @@
     {
       "id": "base-material-limits-steel-thickness-and-concrete-grade",
       "heading": {
-        "en": "Base Material Limits: Steel Thickness and Concrete Grade",
-        "zh": "基材限制：钢板厚度与混凝土强度等级",
+        "en": "How do concrete grade, steel plate grade and thickness set a safe pin selection?",
+        "zh": "混凝土强度、钢板等级与厚度怎么决定射钉选用？",
         "ar": "حدود المادة الأساسية: سماكة الفولاذ ودرجة الخرسانة",
         "es": "Límites del material base: espesor de acero y clase de hormigón",
         "fr": "Limites du matériau support : épaisseur d’acier et classe de béton",
@@ -221,8 +221,8 @@
     {
       "id": "when-to-choose-an-anchor-instead",
       "heading": {
-        "en": "When to Choose an Anchor Instead",
-        "zh": "何时改选锚栓",
+        "en": "Which load conditions call for a mechanical or chemical anchor over a shooting pin?",
+        "zh": "哪些荷载工况应改用机械或化学锚栓而非射钉？",
         "ar": "متى تختار مرساة بدلًا من ذلك",
         "es": "Cuándo elegir un anclaje en su lugar",
         "fr": "Quand choisir un cheville à la place",
@@ -274,7 +274,7 @@
             "ja": "火薬駆動の留め具を避けるべき場面はいつですか？"
           },
           "a": {
-            "en": "Whenever there is tensile uplift, vibration, fatigue or a structural load path - use mechanical or chemical anchors instead. Avoid thin steel, unknown base material and any use outside the tool's rated energy.",
+            "en": "Use powder-actuated pins only for rapid light-duty attachment into concrete or steel plate. Avoid the method wherever there is tensile uplift, vibration, fatigue or a structural load path, where an anchor is safer. Also avoid thin steel, unknown base material, and use outside the tool's rated energy; shallow pin pull-out is low compared with a through-bolted or wedge anchor. Check base strength and thickness first, verify plate grade against EN 10025 or ASTM A36, and match pin load rating before driving. If the joint carries uplift or repeated movement, do not specify a shooting pin.",
             "zh": "以下场合不应使用射钉紧固：存在抗拉上拔力、振动、疲劳或结构受力路径时，应改用机械锚栓或化学锚栓。薄板钢材、未知基材以及产品规程范围之外的用途也应避免。射钉适合快速固定次要构件和饰面，不承担主要受力。选型先判断连接是受力固定还是轻固定，核对基材类型和厚度；结构连接按锚栓方案设计。订单中写明用途和基材，供应商匹配射钉规格；现场不要把射钉用于抗拉或振动部位，避免钉体松脱或基材开裂。",
             "hi": "जहाँ खिंचाव से ऊपर उठने का भार, कंपन, थकान या संरचनात्मक लोड पथ हो, वहाँ पाउडर-सक्रिय फास्टनिंग की बजाय मैकेनिकल या केमिकल एंकर इस्तेमाल करें। पतले स्टील, अनजान आधार सामग्री और टूल की रेटेड ऊर्जा से बाहर के किसी भी प्रयोग से बचें।",
             "ru": "Всегда, когда есть выдергивающая нагрузка, вибрация, усталость или несущий силовой путь: здесь ставят механический либо химический анкер. Избегают тонкой стали, неизвестного основания и любого использования вне расчётной энергии инструмента; такие условия не компенсируются сменой гильзы или более длинным штифтом.",
@@ -300,7 +300,7 @@
             "ja": "カラーの色は何を表しますか？"
           },
           "a": {
-            "en": "The collar colour codes pin length and application range for a specific tool. Using the wrong collar overdrives or underdrives the pin and can damage the base material.",
+            "en": "The collar colour codes pin length and application range for a specific tool, matching the guide collar and shank design to steel plate or concrete. Red collar nails commonly guide standard concrete and steel pins, with typical shank diameters around 2.7 to 4.5 mm. The wrong collar overdrives or underdrives the pin and can damage the substrate, so match collar to tool rating. For steel plate, shorter hardened pins around 19 to 27 mm suit a plate of at least 6 mm; confirm colour and pin length against the tool manual before ordering.",
             "zh": "弹筒颜色用于编码钉长和适用范围，对应特定工具型号。使用不匹配的弹筒会导致射钉击发不到位或过度击发，并可能损伤基材。选型核对工具型号、钉长和固定厚度，弹筒与钉成套使用；不要跨工具混用颜色编码。安装前核对钉杆长度和基材条件，击发后检查钉体进入深度。订单中写明工具型号和应用场合，供应商配套弹筒与钉；现场按颜色编码取用，错码批次分开退换，避免误伤构件或固定不可靠。",
             "hi": "कॉलर का रंग किसी खास टूल के लिए पिन की लंबाई और उपयोग सीमा बताता है। गलत कॉलर से पिन ज़्यादा या कम घुसता है और आधार सामग्री को नुकसान पहुंच सकता है।",
             "ru": "Цвет гильзы кодирует длину штифта и диапазон применения для конкретного инструмента. Неправильная гильза ведёт к недо- или перезабиванию штифта и может повредить основание; набор подбирают под модель монтажного пистолета и материал базы, а не по общему списку совместимости без привязки к инструменту.",
@@ -326,7 +326,7 @@
             "ja": "射釘はどのように輸送されますか？"
           },
           "a": {
-            "en": "As hazardous-adjacent goods with powder charges packed separately under the applicable regulation, declared correctly on the shipping documents, and never mixed loose with general cargo.",
+            "en": "Shooting nails are hardened steel fasteners, not explosives, but orders placed alongside power charges are treated as hazardous-adjacent goods. Pack powder charges separately under the applicable regulation, declare the goods correctly on the shipping documents, and never mix loose charges with general cargo. Bare pins made to ISO 898-1 move under ordinary fastener handling, while charged items follow separate transport rules. Keep the packing list and declaration aligned to the regulation, and separate pins from charges in the carton so the consignment clears without a hazardous-goods review.",
             "zh": "射钉和弹药按危险品邻近货物运输：火药弹筒按适用规程单独包装，在运输单证上如实申报，绝不与普通货物混装散放。发货前核对承运方对危险品邻近货物的要求，包装、标记和申报方式符合规定。订单中写明运输方式和目的地合规要求，供应商按规程分装；混装会带来装卸和查验风险。到货后弹筒与射钉分开存放，按规程保管；项目使用和剩余物料登记清楚，避免违规混运或存放造成安全隐患。",
             "hi": "ये खतरनाक-निकट श्रेणी का माल है; पाउडर चार्ज लागू नियम के तहत अलग पैक किए जाते हैं, शिपिंग दस्तावेजों पर सही घोषणा की जाती है, और सामान्य माल के साथ खुला मिलाकर कभी नहीं भेजा जाता।",
             "ru": "Грузят как товары повышенной опасности: пороховые заряды упаковывают отдельно по действующему регламенту, корректно объявляют в перевозочных документах и никогда не смешивают россыпью с генеральным грузом. Декларацию и маркировку сверяют до подачи судна, чтобы при приёмке перевозчик не забраковал партию.",
