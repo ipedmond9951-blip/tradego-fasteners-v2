@@ -233,7 +233,7 @@
             "hi": "ज़िम्बाब्वे यू-बोल्ट आपूर्तिकर्ता और गैल्वैनिक जंग ऑर्डर के लिए विशिष्ट लीड टाइम क्या है?"
           },
           "a": {
-            "en": "Lead time depends on whether the item is a standard specification or a custom one, on the shipping mode (LCL or FCL), and on customs clearance efficiency; urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
             "zh": "先看防腐匹配：U 型螺栓与管材、支架若为异种金属，潮湿环境下会形成电偶腐蚀回路，较活泼的一方先被吃掉，弯曲处应力与腐蚀叠加最易失效。选材按配对金属定：不锈钢管路配 A4-70 不锈钢件，镀锌结构配热浸镀锌件，螺母垫圈同级配套。交期按订单核算。",
             "es": "El plazo se cotiza por pedido.",
             "fr": "Le délai est établi par commande.",
@@ -259,7 +259,7 @@
             "hi": "ज़िम्बाब्वे यू-बोल्ट आपूर्तिकर्ता और गैल्वैनिक जंग के लिए न्यूनतम ऑर्डर मात्रा (MOQ) क्या है?"
           },
           "a": {
-            "en": "MOQ varies by supplier scale, setup costs and whether the order is consolidated into a full container or shipped as LCL. Minimum order quantity follows the production route.",
+            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
             "zh": "批量经济性要结合防腐配套一起谈：U 型螺栓、螺母、垫圈若镀层不一致，腐蚀会转移到保护层最薄的螺母面上，接头寿命取决于最弱的一件，弯头受压处尤其要同级配套。起订量按生产路线确定。",
             "es": "La cantidad mínima depende de la ruta de producción.",
             "fr": "La quantité minimale dépend de la route de production.",
@@ -285,7 +285,7 @@
             "hi": "ज़िम्बाब्वे यू-बोल्ट आपूर्तिकर्ता और गैल्वैनिक जंग खरीद के लिए विशिष्ट भुगतान शर्तें क्या हैं?"
           },
           "a": {
-            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market; any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
+            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit arranged through the buyer's bank. The settlement route, documents and milestones should be agreed up front, and any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
             "zh": "付款风险要和供应商对电偶腐蚀的判断能力一起评估：能按配对金属给出 ISO 898-1 等级与镀层方案的一方，可信度高于只报“镀锌”的报价方。津巴布韦、肯尼亚、尼日利亚当地银行多要求即期信用证。投产前就要全款预付的供方应剔除。付款条件按里程碑约定。",
             "es": "Las condiciones de pago se acuerdan por hitos.",
             "fr": "Les conditions de paiement sont convenues par jalons.",
