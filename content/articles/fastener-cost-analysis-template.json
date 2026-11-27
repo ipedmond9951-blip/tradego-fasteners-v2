@@ -12,9 +12,9 @@
     "fr": "Modèle d’analyse du coût réel des fixations",
     "pt": "Modelo de análise de custos de fixadores: custo real",
     "ru": "Шаблон анализа затрат на крепёж: расчет полной стоимости",
-    "ja": "ファスナーコスト分析テンプレート：ファスナーの真のコストを計算する",
+    "ja": "ファスナー原価分析テンプレート",
     "de": "Vorlage zur Kostenanalyse von Verbindungselementen",
-    "hi": "फास्टनर लागत विश्लेषण टेम्पलेट: फास्टनर की वास्तविक लागत की गणना करें"
+    "hi": "फास्टनर लागत विश्लेषण टेम्पलेट"
   },
   "description": {
     "en": "Use this template to calculate true fastener cost: 1. PRODUCT COST (FOB China) Unit Price: $___/kg or $___/pc Order Quantity: ___ kg or pcs Subtotal: $___ 2.",
@@ -339,7 +339,7 @@
   "region": "global",
   "updated": "2026-11-24",
   "metaDescription": {
-    "en": "Use this template to calculate true fastener cost: 1. PRODUCT COST (FOB China) Unit Price: $___/kg or $___/pc Order Quantity: ___ kg or pcs Subtotal: $___ 2.",
+    "en": "Template to calculate true fastener cost: product cost FOB China, unit price per kg/pc, order quantity and subtotal, plus logistics and quality.",
     "zh": "面向买家的紧固件成本分析模板。了解如何计算紧固件的真实到岸成本，包括FOB、运费、关税和处理费用，以做出更好的采购决策。",
     "es": "Plantilla de análisis de costos para compradores de sujetadores. Aprenda cómo calcular el costo real landed de sujetadores.",
     "ar": "قالب تحليل تكلفة المثبتات للمشترين. تعلم كيفية حساب التكلفة الحقيقية للمثبتات بما في ذلك FOB والشحن والرسوم الجمركية.",
