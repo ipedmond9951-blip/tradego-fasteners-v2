@@ -12,6 +12,8 @@ content_gate 只查 content/articles，UI 文案（i18n json / tsx / llms.txt）
   2. geo       地名超出 China 口径（含非拉丁写法）
   3. dupgeo    批量替换留下的重复残句（中国中国 / China (China) / China, na China）
   4. factory   工厂直供式产权表述（factory direct / 工厂直供 / 工場直送）
+              例外：hero H1 的 h1line1 / h1line2 两行（2026-11-27 用户确认
+              TradeGo 为工厂直供、符合事实，其余位置仍按原规则拦）
   5. markup    "无贸易加价"这类对贸易商站不住的表述
 
 用法：
@@ -40,6 +42,11 @@ ALLOW = re.compile(r"(可按订单|请办理|按订单申请|申請|ご注文|ag
 
 RULES = [("cert", CERT), ("cert-avail", CERT_AVAIL), ("cert-neg", NEG), ("geo", GEO), ("dupgeo", DUP), ("factory", FACTORY), ("markup", MARKUP)]
 
+# 2026-11-27 用户确认：TradeGo 就是工厂直供（自有工厂直供口径，符合事实）。
+# 只放行首页 hero H1 的两行文案键（h1line1 / h1line2），其他任何位置的
+# factory-direct 表述仍按原规则拦下，避免把这条例外扩散成通用许可。
+HERO_DIRECT = re.compile(r'^\s*"h1line[12]"\s*:')
+
 
 def iter_files():
     for t in TARGETS:
@@ -64,6 +71,8 @@ def main():
             continue
         for i, line in enumerate(lines, 1):
             if ALLOW.search(line):
+                continue
+            if HERO_DIRECT.search(line) and FACTORY.search(line):
                 continue
             for name, rgx in RULES:
                 m = rgx.search(line)
