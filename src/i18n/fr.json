@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "Principal fournisseur chinois de fixations pour l'Afrique",
+    "title": "Fabricant de fixations en Chine — selon SABS 1195, expédition mondiale",
     "subtitle": "Fixations de qualité de la Chine vers l'Afrique — 20+ ans spécialisés dans le marché de la construction africain. Vis IBR, vis de toiture et fixations conformes SABS.",
     "cta": "Demander un devis",
     "ctaSecondary": "Voir les produits",
@@ -268,5 +268,27 @@
     "message": "Message",
     "messagePlaceholder": "Norme, matière, finition, quantité, port de destination",
     "submit": "Envoyer la demande"
+  },
+  "search": {
+    "title": "Recherche sur le site",
+    "placeholder": "Rechercher produits et articles…",
+    "button": "Rechercher",
+    "resultsFor": "Résultats pour « {q} »",
+    "noResults": "Aucun résultat correspondant",
+    "noResultsHint": "Essayez un autre mot-clé, parcourez les catégories de produits ou envoyez-nous votre demande directement.",
+    "groupProducts": "Produits",
+    "groupArticles": "Articles",
+    "hint": "Recherchez les noms de produits, spécifications et guides sur ce site.",
+    "browseProducts": "Voir tous les produits"
+  },
+  "lead": {
+    "title": "Obtenez une réponse rapide à votre demande de fixations",
+    "desc": "Laissez votre e-mail ou votre numéro WhatsApp : notre équipe commerciale vous contactera.",
+    "placeholder": "E-mail ou numéro WhatsApp",
+    "cta": "Demander un devis",
+    "note": "Le numéro WhatsApp est affiché au format international. Vérifiez avant d’envoyer.",
+    "success": "Merci ! Notre équipe commerciale vous contactera rapidement.",
+    "error": "Veuillez saisir un e-mail ou un numéro WhatsApp valide.",
+    "close": "Fermer"
   }
 }
