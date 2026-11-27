@@ -88,8 +88,8 @@
     {
       "id": "astm-standards",
       "heading": {
-        "en": "ASTM F1554 Standards for Anchor Bolts: Grade 36, 55, and 105",
-        "zh": "锚栓ASTM F1554标准：Grade 36、55和105",
+        "en": "Which F1554 yield grade suits a general structural connection versus a heavily loaded joint?",
+        "zh": "一般结构连接与重载节点分别该选哪个 F1554 屈服等级？",
         "es": "Normas ASTM F1554 para Pernos de Anclaje: Grado 36, 55 y 105",
         "ar": "معايير ASTM F1554 للبولتات المرساة: الدرجات 36 و55 و105",
         "fr": "Normes ASTM F1554 pour les boulons d'ancrage : Grade 36, 55 et 105",
@@ -142,8 +142,8 @@
     {
       "id": "import-tariffs",
       "heading": {
-        "en": "Import Regulations and SADC Preferential Tariffs",
-        "zh": "进口法规和SADC优惠关税",
+        "en": "What origin documentation lets SADC anchor bolts clear Zimbabwe duty-free?",
+        "zh": "哪些原产地单证能让 SADC 锚栓免税清关进入津巴布韦？",
         "es": "Regulaciones de Importación y Aranceles Preferenciales SADC",
         "ar": "اللوائح الاستيرادية والتعريفات التفضيلية لتجمع جنوب أفريقيا للتنمية",
         "fr": "Réglementation des importations et tarifs préférentiels de la SADC",
@@ -222,7 +222,7 @@
             "ja": "ジンバブエの案件でASTM F1554のどの等級を指定すべきですか？"
           },
           "a": {
-            "en": "Grade 36 for general anchoring, grade 55 where higher strength is needed, and grade 105 only for heavily loaded or compact connections. Grade 105 also brings weldability and embrittlement constraints.",
+            "en": "ASTM F1554 covers anchor bolts at three yield strengths. Specify Grade 36 for general anchoring; its minimum yield is 36 ksi (248 MPa), a carbon steel suited to most structural uses. Choose Grade 55 where higher strength is needed, with a minimum yield of 55 ksi (379 MPa). Reserve Grade 105 for heavily loaded or compact connections, and note that Grade 105 carries weldability and embrittlement constraints that must be checked with the design. Confirm the design loads with the structural engineer before fixing the grade in the inquiry.",
             "zh": "一般锚固用 36 级；需要更高强度用 55 级；105 级只用于重载或紧凑连接，且在可焊性和脆性方面有额外限制。选型按锚固载荷、连接紧凑程度和焊接要求确定等级，螺栓螺母垫板成套匹配。高强度等级注意热处理和氢脆风险，不随意套用。订单中写明载荷、标准和适用部位，供应商匹配等级并提供质保记录；到货核对等级标记和试验结果，结构锚固按规范选型，避免低等级用于重载部位。",
             "hi": "सामान्य ऐंकरिंग के लिए ग्रेड 36, अधिक ताकत की जगहों पर ग्रेड 55, और केवल भारी भार या कॉम्पैक्ट कनेक्शन में ग्रेड 105 लगता है। ग्रेड 105 में वेल्डेबिलिटी और भंगुरता की सीमाएं भी आती हैं।",
             "ru": "Для общего анкеровки берут класс 36, там, где нужна выше прочность, — класс 55, а класс 105 применяют только при тяжёлой нагрузке или компактных соединениях. У класса 105 дополнительные ограничения по свариваемости и склонности к хрупкому водородному охрупчиванию, поэтому выбор фиксируют расчётом соединения.",
@@ -248,7 +248,7 @@
             "ja": "ジンバブエのアンカーボルトの腐食保護はどうしますか？"
           },
           "a": {
-            "en": "Hot-dip galvanising to ISO 1461 for most exposed foundations, and stainless or a duplex system for aggressive ground or coastal conditions. Coating must be applied before the bolt is bent or threaded.",
+            "en": "Hot-dip galvanizing per ASTM F2329 creates a metallurgically bonded zinc-iron alloy layer rated for 30+ years in typical atmospheric environments; the zinc acts as a sacrificial anode and corrodes first to protect the underlying steel. Mechanical galvanizing under ASTM B695 offers a 20-35 year range as an alternative. For aggressive ground or coastal conditions, use stainless steel or a duplex system, with stainless variants referenced to the relevant standard. Apply the coating before the bolt is bent or threaded, and record the finish and exposure class with the inquiry.",
             "zh": "多数外露基础按 ISO 1461 做热浸镀锌；腐蚀性强的土壤或沿海条件用不锈钢或双重防腐体系。涂层须在螺栓弯曲或套丝之前完成，避免成型后损伤镀层。选型按土壤腐蚀、地下水和距海距离确定防腐方案，不同镀层分开标注。订单中写明基础环境和涂层规格，供应商按对应工艺供货；到货核对镀层厚度和标记，腐蚀性部位定期复查锈蚀，必要时升级耐蚀体系。",
             "hi": "ज़्यादातर खुले फाउंडेशन के लिए ISO 1461 के अनुसार हॉट-डिप गैल्वनाइज़िंग; आक्रामक मिट्टी या तटीय स्थितियों में स्टेनलेस या डुप्लेक्स सिस्टम। कोटिंग बोल्ट को मोड़ने या धागा काटने से पहले लगानी चाहिए।",
             "ru": "Для большинства открытых фундаментов подходит горячее цинкование по ISO 1461; в агрессивном грунте или прибрежных условиях — нержавеющая сталь либо дуплекс-система. Покрытие наносят до того, как болт изогнут или нарезана резьба, иначе слой на кромках и резьбе будет неполным.",
@@ -274,7 +274,7 @@
             "ja": "アンカーボルトのRFQには何を含めるべきですか？"
           },
           "a": {
-            "en": "Grade and standard, diameter and total length, thread length, bend or hook geometry, coating specification, test certificates required, packing and delivery port. A quote without these cannot be compared.",
+            "en": "The RFQ should list each item's description and quantity, the ASTM grade and standard, diameter and total length, thread length, bend or hook geometry, and the coating specification. Add the base material, threads and testing requirements, the test certificates required, packing, the delivery address and timeline, and the pricing reference. A quote without these fields cannot be compared on an equal basis, and omitting the grade or coating leaves the supplier guessing at the exposure class. Keep the format in a table so suppliers answer the same row set.",
             "zh": "锚栓询价单应包含：等级与标准、直径与总长度、螺纹长度、弯钩或弯折几何、涂层规格、所需测试证书、包装和交货港口。缺这些字段，各家报价无法横向比较。订单把参数与图纸、清单对应起来，供应商按规格组织生产并附批次记录；结构件写明埋深和焊接要求。到货核对直径、长度、弯折几何和涂层，现场按订单参数安装，避免参数不清导致锚固深度不足或型式错配。",
             "hi": "ग्रेड और मानक, व्यास और कुल लंबाई, धागे की लंबाई, मोड़ या हुक की ज्यामिति, कोटिंग स्पेसिफिकेशन, आवश्यक टेस्ट सर्टिफिकेट, पैकिंग और डिलीवरी बंदरगाह। इनके बिना दी गई कोट्स की तुलना नहीं की जा सकती।",
             "ru": "В запросе (RFQ) указывают класс и стандарт, диаметр и полную длину, длину резьбы, геометрию изгиба или крюка, спецификацию покрытия, нужные сертификаты испытаний, упаковку и порт поставки. Без этих данных предложения между собой не сравнить: неполный запрос даёт разные по конструкции болты под одной и той же позицией.",
@@ -300,7 +300,7 @@
             "ja": "高速道路の防護柵アンカーボルトにはどのASTM等級を指定すべきですか？"
           },
           "a": {
-            "en": "For highway guardrail installations, ASTM F1554 Grade 36 is typically sufficient and cost-effective. Grade 36 provides adequate yield strength (36 ksi / 248 MPa) with good ductility. However, in high-load crash barriers or variable soil conditions, consider Grade 55 for additional safety margin. Always verify design loads with the structural engineer.",
+            "en": "For highway guardrail installations, ASTM F1554 Grade 36 is typically sufficient and cost-effective: it provides adequate yield strength at 36 ksi (248 MPa) with good ductility. In high-load crash barriers or variable soil conditions, move to Grade 55 for an additional safety margin rather than jumping straight to Grade 105, since higher grades carry weldability and embrittlement limits. Verify the design loads with the structural engineer, and match the coating to roadside moisture and de-icing exposure. Record the approved grade against each layout drawing before placing the order.",
             "zh": "对于公路护栏安装，ASTM F1554 Grade 36 通常足够且经济。Grade 36 提供足够的屈服强度（36 ksi / 248 MPa），具有良好的延展性。然而，在高荷载护栏或土质条件多变的路段，可考虑 Grade 55 以增加安全余度，最终等级务必与结构工程师确认设计荷载。选型按护栏荷载、基础土质和锚固条件判定：一般道路护栏用 36 级即可，高碰撞荷载或软弱地基升 55 级；锚栓规格、埋深和镀层随结构图确定，材质证明按炉号留存，进场前核对等级标记与订单一致。",
             "ar": "لتركيب حواجز الطرق السريعة، تكفي عادة ASTM F1554 الدرجة 36 وهي فعالة الكلفة. وتوفر الدرجة 36 قوة خضوع كافية 36 ksi أي 248 MPa مع ليونة جيدة. أما حواجز التصادم عالية الحمل أو ظروف التربة المتغيرة، فانظر في الدرجة 55 لهامش أمان إضافي. وتحقق دائمًا من أحمال التصميم مع المهندس الإنشائي.",
             "ru": "Для установки ограждений на автотрассе обычно достаточно и экономично ASTM F1554 Grade 36. Grade 36 даёт нужный предел текучести (36 ksi / 248 МПа) при хорошей пластичности. Но в высоконагруженных оградительных барьерах или при неоднородном грунте ради запаса прочности рассмотрите Grade 55. Расчётные нагрузки всегда сверяют с конструктором.",
@@ -326,7 +326,7 @@
             "ja": "腐食環境でGrade 105アンカーボルトは使えますか？"
           },
           "a": {
-            "en": "Yes, Grade 105 anchor bolts can be galvanized. However, hydrogen embrittlement risk increases with tensile strengths above 150 ksi. For most galvanizing operations, the risk is low, but verify with the manufacturer that proper post-galvanizing baking is performed. For highly corrosive environments, consider stainless steel Grade 316 (A4) as an alternative.",
+            "en": "Grade 105 anchor bolts can be galvanized, but hydrogen embrittlement risk rises with tensile strengths above 150 ksi, so this grade needs careful handling. For most galvanizing operations the risk is low, but verify with the manufacturer that proper post-galvanizing baking is performed, and keep the coated stock away from late bending or threading. In highly corrosive environments, consider stainless steel Grade 316 (A4) as an alternative, referenced to the stainless standard rather than the carbon-steel F1554 range. Confirm the exposure class and finish with the engineer before the inquiry.",
             "zh": "105 级锚栓可以镀锌，但抗拉强度超过 150 ksi 时氢脆风险增加。多数常规镀锌条件下风险较低，应核实制造商是否在镀锌后做了适当烘烤处理；高腐蚀环境可考虑用 316（A4）不锈钢作为替代。选型按强度、腐蚀环境和镀锌工艺判断，高强度件从严控制镀层和烘烤。订单中写明等级、涂层和热处理要求，供应商提供材质和工艺记录；到货核对试验结果与镀层状态，氢脆敏感批次按规范复验。",
             "ar": "نعم، يمكن جلفنة براغي الدرجة 105. لكن خطر هشاشة الهيدروجين يزداد مع مقاومة الشد فوق 150 ksi. ومعظم عمليات الجلفنة يكون الخطر فيها منخفضًا، لكن تحقق من المصنع من إجراء الخبز اللازم بعد الجلفنة. وللبيئات شديدة التآكل، فكر في الفولاذ المقاوم للصدأ الدرجة 316 أي A4 كبديل.",
             "ru": "Да, болты Grade 105 можно оцинковать. Однако риск водородного охрупчивания растёт при временном сопротивлении выше 150 ksi. Для большинства оцинковывающих операций риск невелик, но у изготовителя нужно подтвердить, что после цинкования проводится правильный отжиг. Для сильно коррозионной среды рассмотрите альтернативу — нержавеющую сталь Grade 316 (A4).",
@@ -352,7 +352,7 @@
             "ja": "アンカーボルトがASTM F1554を満たすかどうかはどう確認しますか？"
           },
           "a": {
-            "en": "Request mill test certificates from the supplier, which should include heat number, chemical composition, tensile test results, and coating thickness verification. Ensure testing is performed by an ISO 17025 accredited laboratory. For critical applications, consider third-party inspection at the manufacturer's facility before shipment.",
+            "en": "Request mill test certificates from the supplier; each certificate should carry the heat number, chemical composition, tensile test results, and coating thickness verification. Ensure testing is performed by an ISO 17025 accredited laboratory, and keep the certificate traceable to the delivered batch. For critical applications, arrange third-party inspection at the manufacturer's facility before shipment, checking grade marking, coating condition and dimensions against the purchase specification. Reject any lot whose certificate cannot be matched to the heat number on the delivered fasteners.",
             "zh": "验证锚栓符合 ASTM F1554，应向供应商索取工厂测试证书，包括炉号、化学成分、拉伸试验结果和涂层厚度验证；测试由 ISO 17025 认可实验室完成。关键应用可在装运前到制造商设施做第三方检验。证书与批次、发票行对应，结构批次保留炉号和可追溯记录。订单中写明证书项目和检验机构要求，供应商按批次整理文件；到货核对标记、证书与实物一致，记录不全的批次复检或隔离，不投入结构锚固。",
             "ar": "اطلب من المورد شهادات اختبار المصنع، التي يجب أن تتضمن رقم الصهر والتركيب الكيميائي ونتائج اختبار الشد والتحقق من سمك الطلاء. وتأكد من إجراء الفحص في مختبر معتمد ISO 17025. وللتطبيقات الحرجة، اعتبر فحص طرف ثالث في منشأة المصنع قبل الشحن.",
             "ru": "У поставщика запрашивают заводские испытательные сертификаты: номер плавки, химический состав, результаты испытаний на растяжение и проверку толщины покрытия. Испытания должна проводить лаборатория с аккредитацией ISO 17025. Для ответственных узлов до отгрузки заказывают инспекцию третьей стороны на производственной площадке изготовителя.",
@@ -404,7 +404,7 @@
             "ja": "締結具輸入のSADC原産証明の要件は厳しいですか？"
           },
           "a": {
-            "en": "Yes, SADC Rules of Origin requirements are enforced by ZIMRA. To qualify for duty-free treatment, minimum 35% local content or value addition must be achieved, and the product must be substantially transformed. A valid Certificate of Origin must accompany the shipment. False claims can result in penalties and cargo seizure.",
+            "en": "Yes, SADC Rules of Origin are enforced by ZIMRA. To qualify for duty-free treatment under the SADC Trade Protocol, the goods must meet a minimum 35% local content or value addition and be substantially transformed; a valid Certificate of Origin must accompany the shipment. Anchor bolts are classified under HS Code 7318.15, and without the origin document the MFN duty of 10-15% ad valorem plus 15% VAT applies. False origin claims can result in penalties and cargo seizure, so verify the supplier's origin evidence before clearance.",
             "zh": "是的，ZIMRA 执行 SADC 原产地规则。要享受优惠关税待遇，必须达到规定的当地含量或增值比例，且产品经过实质性改造；有效原产地证书须随货同行，虚假申报可能导致处罚和货物扣押。发货前核对货物是否符合 SADC 原产地条件，证书由授权签发机构出具并与批次、发票对应；清关时证书、发票和装箱单内容一致。原产地资格以规则认定为准，资料不齐或申报不符可能影响优惠税率，甚至被扣关，建议委托熟悉当地规则的报关行办理。",
             "ar": "نعم، تفرض سلطة ZIMRA قواعد منشأ SADC. وللحصول على المعاملة المعفاة من الرسوم، يجب تحقيق محتوى محلي أو قيمة مضافة لا تقل عن 35%، وأن يكون المنتج قد خضع لتحويل جوهري. ويجب أن تصطحب الشحنة شهادة منشأ صالحة. والادعاءات الكاذبة قد تؤدي إلى غرامات واحتجاز البضاعة.",
             "ru": "Да, Правила происхождения SADC контролирует ZIMRA. Для беспошлинного режима нужно минимум 35% местного содержания или добавленной стоимости и существенная переработка продукта. На груз должна приходить действующая справка о происхождении. Неверные сведения ведут к штрафам и изъятию груза.",
