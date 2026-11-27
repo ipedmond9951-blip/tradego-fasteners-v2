@@ -60,7 +60,7 @@
     {
       "id": "torque-basics",
       "heading": {
-        "en": "The Torque Equation and K-Factor",
+        "en": "How do the torque equation and K-factor translate into achieved clamp load?",
         "es": "La ecuación de torque y el factor K",
         "ar": "معادلة عزم الدوران وعامل K",
         "fr": "L'équation du couple et le facteur K",
@@ -69,7 +69,7 @@
         "ja": "トルク方程式とKファクター",
         "de": "Die Drehmomentgleichung und der K-Faktor",
         "hi": "टॉर्क समीकरण और K-फैक्टर",
-        "zh": "扭矩公式与K系数"
+        "zh": "扭矩公式与 K 系数如何换算成实际预紧力？"
       },
       "body": {
         "en": "<p>The basic torque equation: T = K × D × F, where T = torque (N·m), K = torque coefficient (dimensionless), D = nominal bolt diameter (m), F = clamp load (N). The K-factor (torque coefficient) is critical and varies with: Lubrication condition — bare steel (K≈0.20), light oil (K≈0.15), wax/anti-seize (K≈0.12); surface condition — galvanized (K≈0.17), phosphate/oil (K≈0.14); material combination — under-head friction varies with head type and bearing surface.</p>\n<p>Using the wrong K-factor is the most common source of torque error. Always verify the lubrication condition matches the K-factor used in your torque specification. If the <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a> is lubricated when the specification assumes dry, you will over-torque; if dry when specified as lubricated, you will under-torque. Standards-based procurement requires continuous learning as ISO, ASTM, DIN, and GB standards are revised every 3-5 years.</p>\n<p>Subscribe to standards update notifications and review specifications annually. The most common standards used in international fastener trade are ISO 898-1 (mechanical properties), ISO 3506-1 (stainless), ISO 3269 (acceptance inspection), ISO 4042 (coatings), and ISO 1502 (thread gauges). For B2B buyers, building a standards reference library with at least the top 20 standards relevant to your product mix is essential.</p>",
@@ -126,7 +126,7 @@
     {
       "id": "torque-wrench-types",
       "heading": {
-        "en": "Torque Wrench Types and Selection",
+        "en": "Which torque wrench type suits a given joint and accuracy requirement?",
         "es": "Tipos de llaves dinamométricas y selección",
         "ar": "أنواع مفاتيح عزم الدوران وكيفية اختيارها",
         "fr": "Types de clés dynamométriques et sélection",
@@ -135,7 +135,7 @@
         "ja": "トルクレンチの種類と選定",
         "de": "Drehmomentschlüssel: Typen und Auswahl",
         "hi": "टॉर्क रिंच के प्रकार और चयन",
-        "zh": "扭矩扳手类型及选型"
+        "zh": "不同节点与精度要求该选哪种扭矩扳手？"
       },
       "body": {
         "en": "<p>Different torque wrench types have different accuracy and applications: Click-type (deflection beam) — most common; produces an audible click when preset torque is reached; accuracy ±4% of reading; good for general production and field work; requires periodic calibration. Break-over (slipper) — deflects and 'breaks over' at preset torque; very accurate (±3%); used in production environments. Dial indicator — analog dial shows torque; easy to read but more fragile; accuracy ±5% of reading.</p>\n<p>Electronic/digital — highest accuracy (±1-2%) and can log data; expensive; required for aerospace and critical automotive. Hydraulically-assisted (torque multipliers) — for large <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a> (M36 and above); manually impractical to achieve required torque; hydraulic wrench with torque gauge provides consistent results. For construction work, a quality click-type wrench (CDI, Snap-on, or equivalent) is the standard choice. The comparison methodology above uses typical ranges from industry data and TradeGo procurement experience 2018-2024.</p>\n<p>Actual market prices fluctuate with raw material costs (steel, zinc, nickel), energy costs, labor costs, and currency exchange rates. For accurate comparison, request identical RFQs from 3-5 qualified suppliers and compare landed cost (product + shipping + insurance + duties). The lowest unit price is rarely the lowest total cost of ownership.</p>",
