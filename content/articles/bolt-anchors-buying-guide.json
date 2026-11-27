@@ -86,8 +86,8 @@
     {
       "id": "choosing-diameter-for-base-plates",
       "heading": {
-        "en": "Choosing Diameter for Base Plates",
-        "zh": "为基板选择锚栓直径",
+        "en": "Which metric diameter should be sized from the design shear and tension rather than hole size?",
+        "zh": "该按设计剪切与拉力还是孔径来选公称直径？",
         "ar": "اختيار القطر للصفائح القاعدية",
         "es": "Elegir diámetro para placas base",
         "fr": "Choisir le diamètre pour une platine",
@@ -194,8 +194,8 @@
     {
       "id": "load-data-and-safety-factors",
       "heading": {
-        "en": "Load Data and Safety Factors",
-        "zh": "载荷数据与安全系数",
+        "en": "How are geometry, concrete strength and safety factors matched to the structural loads?",
+        "zh": "几何尺寸、混凝土强度与安全系数如何对到结构荷载？",
         "ar": "بيانات الحمل ومعاملات الأمان",
         "es": "Datos de carga y coeficientes de seguridad",
         "fr": "Données de charge et coefficients de sécurité",
@@ -274,7 +274,7 @@
             "ja": "底板の径はどのように選びますか？"
           },
           "a": {
-            "en": "Work back from the base plate hole and the design load: the anchor diameter must match the hole with the specified clearance, and the embedment depth grows with diameter. If the hole is oversized, use a plate with the correct hole rather than a thinner anchor.",
+            "en": "Select diameter from the structural shear and tension loads in the anchor supplier design calculation, rather than guessing from hole size alone. Common metric options are M10, M12, M16 and M20, with M12 widely used for light-to-medium steel brackets. The anchor diameter must match the base plate hole with the specified clearance, and embedment depth grows with diameter. If the hole is oversized, use a plate with the correct hole rather than thinning the anchor, and confirm base grade, edge distance and spacing so cracked-concrete derating enters the calculation.",
             "zh": "底板锚栓直径要从底板孔径和设计荷载倒推确定：锚栓直径应与孔径在规定间隙内相匹配，埋深也随直径相应加大。若底板孔开得过大，正确做法是更换孔径相符的底板，而不是改用更细的锚栓去迁就大孔。孔径与直径不匹配会影响受力和螺母压紧，安装前应核对底板孔位、锚栓规格和预埋位置是否一致。",
             "hi": "बेस प्लेट के छेद और डिज़ाइन लोड से पीछे की ओर हिसाब करें: एंकर का व्यास निर्दिष्ट क्लीयरेंस के साथ छेद से मेल खाना चाहिए, और घुसाव की गहराई व्यास के साथ बढ़ती है। अगर छेद बड़ा है, तो पतला एंकर लेने के बजाय सही छेद वाली प्लेट इस्तेमाल करें।",
             "ru": "Исходят из отверстия плиты и расчётной нагрузки: диаметр анкера совпадает с отверстием с заданным зазором, а глубина заделки растёт вместе с диаметром. Если отверстие увеличено, лучше взять плиту с правильным отверстием, чем уменьшать анкер. Расчёт ведут от усилия на узел, а подбор диаметра и заделки подтверждают проектом основания до сверления бетона.",
@@ -300,7 +300,7 @@
             "ja": "埋め込み深さと縁距離はどの程度必要ですか？"
           },
           "a": {
-            "en": "Embedment typically runs four to six times the anchor diameter for full load, and edge distance should be at least 1.5 times the embedment depth in uncracked concrete. Closer to an edge, the anchor must be derated.",
+            "en": "Embedment typically runs four to six times the anchor diameter for full load capacity, and edge distance should be at least 1.5 times the embedment depth in uncracked concrete. Closer to an edge, the anchor must be derated, because nearby edges reduce the concrete's effective bearing area. A heavy-duty wedge or drop-in anchor transfers tension and shear deeper than a shallower expansion bolt, though values depend on anchor design and concrete strength. Verify concrete strength, curing age and spacing before fixing, and treat cracked concrete under EN 1992-4 or ACI 318 as reduced holding.",
             "zh": "要发挥锚栓全部承载力，埋深一般取锚栓直径的 4 至 6 倍；在未开裂混凝土中，边距至少达到埋深的 1.5 倍。当锚栓布置靠近构件边缘时，混凝土容易沿边崩裂，必须按锚栓厂家资料和规范对允许荷载进行折减。边距、间距不足时不能满荷使用，应调整布置或选用更小规格，并由设计确认取值。",
             "hi": "पूरे भार के लिए घुसाव आम तौर पर एंकर व्यास का चार से छह गुना होता है; बिना दरार वाले कंक्रीट में किनारे से दूरी घुसाव गहराई की कम से कम 1.5 गुना होनी चाहिए। किनारे के ज़्यादा पास होने पर एंकर की क्षमता घटाकर इस्तेमाल करनी पड़ती है।",
             "ru": "Для полной несущей способности глубина заделки (embedment) составляет обычно четыре-шесть диаметров анкера. Расстояние до края в нерастрескавшемся бетоне берут не менее 1.5 глубины заделки. Ближе к кромке несущую способность анкера снижают по расчёту. Параметры сверяют с проектом основания: осадка, трещиностойкость и армирование в зоне установки меняют итоговые цифры.",
@@ -326,7 +326,7 @@
             "ja": "屋外や海岸付近にはどの表面処理が適しますか？"
           },
           "a": {
-            "en": "Hot-dip galvanising to ISO 1461 for general outdoor work, A4/316 stainless for coastal and chemical exposure, zinc plating for dry interior installation only.",
+            "en": "Standard thin electro-zinc plating under ISO 4042 suits dry indoor work only; outdoor structural steel, base plate mounts and expansion assemblies need heavier protection. Hot-dip galvanizing to ISO 1461 covers general outdoor work, while A4/316 stainless is reserved for coastal and chemical exposure. Match the finish to chloride and weather exposure at the site, keep the coating specification separate from the thread fit, and record the finish with the anchor grade and embedment data in the consignment packing list.",
             "zh": "户外一般工程可按 ISO 1461 标准做热浸镀锌处理；沿海环境和有化学品暴露的部位选用 A4，即 316 不锈钢；电镀锌只适合室内干燥安装，不能用于外露或潮湿环境。表面处理要结合使用环境的湿度、盐分和腐蚀介质选择，临海露天结构应避免采用普通镀锌件，以防过早锈蚀影响锚固可靠性。",
             "hi": "सामान्य बाहरी काम के लिए ISO 1461 के अनुसार हॉट-डिप गैल्वनाइज़िंग; तटीय और रासायनिक संपर्क वाली जगहों के लिए A4/316 स्टेनलेस; ज़िंक प्लेटिंग केवल सूखी अंदरूनी इंस्टॉलेशन के लिए है। पर्यावरण के जंग चक्र के हिसाब से फिनिश चुनें, सिर्फ दिखावे पर भरोसा न करें।",
             "ru": "Для общей уличной эксплуатации применяют горячее цинкование по ISO 1461. На побережье и в химически агрессивной среде ставят нержавеющую сталь A4/316. Цинковое покрытие подходит только для сухого внутреннего монтажа. Выход за пределы сухого помещения с простым цинком ведёт к быстрой коррозии, поэтому отделку фиксируют по климату и соседству с агрессивными производствами.",
