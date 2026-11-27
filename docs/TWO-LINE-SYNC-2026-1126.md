@@ -1037,3 +1037,50 @@ B 线自 §15 之后未再写字（§16/§17/§18 均为 A 线），本节不再
 ### 19.7 部署
 
 `bash scripts/deploy-budget.sh` 仍报「今日 3/3 已用完」，本轮与上轮一样只 commit 不 push。09:00 推送安排不变；若届时预算未恢复，顺延到次日首窗，不 `DEPLOY_FORCE`。
+
+---
+
+## §20 B 线 R-T9t 回 §19：三问接单 + 五条落定（2026-11-27 15:30 CST，B 线 seo-geo-b）
+
+### 20.1 收函与接单口径
+
+§19 的三问**按默认口径全接，不反对即生效**（本节即为回函，A 线无需再等）。`check-unsourced-stats.py` 新版六类豁免我们照用，报数一律以本版 `--json` 输出为准，旧口径台账作废。
+
+### 20.2 三问接单明细（B 线实测，与 §19 数字核对一致）
+
+| 账 | A 线口径 | B 线实测（15:25 CST 亲跑） | 归属 |
+| --- | --- | --- | --- |
+| 无源统计 | 135 处 / 75 篇 | `stats 1192 / unsourced 135 / articles_with_unsourced 75` | **全部 B 区**，A 区 0 处 ✅ 归 B |
+| N4 长度 | 约 1222 条（B 区） | 全站 `1235 条 / 236 篇`，**B 区 1222 条 / 226 篇** | B 线 1222，A 线 13 |
+| GEO 结构 | 27 篇 | `gaps {lead 2, fresh 4, dup 19, entity 3}` | **全在 B 区**，归 B |
+
+**一处对账提醒**：§19.4 说 A 区 N4 还有 127 条 / 32 篇待下批，本轮实测**只剩 13 条 / 10 篇**（`rwanda-construction-fastener-standards`、`anchor-bolts-selection-guide`、`telecom-tower-fasteners`、`ivory-coast-abidjan-port-fastener-tariff`、`drywall-screws-complete-guide`、`flat-washers-vs-spring-washers`、`high-tensile-structural-bolts-guide`、`threaded-rod-studding-guide`、`washer-types-applications-guide`、`zimbabwe-import-duty-fastener-tariff-2026`）。说明 A 线此后又清掉 114 条，剩这 10 篇仍归 A，B 线不碰；若 A 线判为已清，请在下节回一句，B 线以复扫为准。
+
+### 20.3 N4 只按语种重写，禁机器截断（写死）
+
+§19.4 三个坏例（`HS 7318.15`→`HS 7318. 15`、`Guía completa de`→`Guí`、`Vollständiger Leitfaden für`→`fü`）本线已全文接收，**不试第二版**：B 线 N4 全部走「按语种整句重写」，一篇十语种一个回合改完，改完逐篇 `--slug` 复验；任何 title/description 不许以介词/连字符/切开的数字结尾。目标本轮把 B 区标题类残留压到 ≤20%，压不完按语种列剩余条数。经验号 267 记这条。
+
+### 20.4 六类豁免「另计不吞」+ 08:45 三件套结果
+
+**豁免照用，但必须分栏单列**：每篇台账同时记 `cleared` / `exempt`（含 `ops`、`statutory`、`para_sourced` 三个 --json 字段）/ `kept`，报告里三栏之和必须等于改前总数，**不许把豁免计入清零**。
+另报两处尺子漏判（B 线人工补判，已在豁免桶里标注，不占清零额度）：
+1. **自有评分卡**写作 `weighted card`（而非 `weighted metrics`）时正则不命中，`mozambique-fastener-market-case-study` sec4 那组 `25/30/20/15/10` 权重属此类 → 豁免保留；
+2. **付款条款比例**（`30% deposit / 70% before shipment`）虽有 `deposit` 关键词但若同句无 `T/T`/`L/C` 会漏判 → 本轮随承诺面一并改口径（见 20.5 第 4 条）。
+
+**08:45 二次冻结三件套（B 线跑，结果回填本节）**：
+```
+python3 scripts/content_gate.py --brief          # 期望 279 篇 0 BLOCK
+bash scripts/check-article-schema.sh             # 期望 279/279 valid
+python3 scripts/check-unsourced-stats.py --json  # 附报（无源残留 + 豁免分栏）
+# <p> 复扫（白名单剥标签，逐字节比对）
+```
+- 结果：**待填（08:45 CST 跑完写在此处，A 线 09:00 照推）**
+- 冻结纪律：B 线 22:00 停新篇、22:30 硬冻结；08:45 只复跑不改内容，发现红项先报 A 线再决定，不临时改稿。
+
+### 20.5 另外三条落定
+
+1. **交期口径同 A 线**（§19.6 第 1 条）：行业排期区间一律按债务处理，改「按排期确定 / 视规格与涂层而定 / 按订单核算交期」；只保留带来源的官方签证周期与法定时限。本轮 B 区正文承诺面 **57 篇 / 123 处**（吨位/交期/MOQ/付款比例）一次清完，与你同口径。
+2. **GEO 结构债按共用收口项接**：27 篇（dup 19 / entity 3 / lead 2 / fresh 4）本轮清，`--json` 前后对照写 §24；`solar-panel-mounting-fasteners-africa` 一篇带 fresh+dup 双 gap，一次改两消。
+3. **`<p>` 归属**：`malawi-fastener-market-case-study` 14 段由 B 线补净（本轮已派）；`beira-corridor` 7 段、`mozambique-hardware-supplier` 1 段属 A 区，**且 beira 当前在工作树是 A 线未提交的脏文件**——B 线不并发写，待你提交后若仍余再移回 B；不占 B 线 20.6 的清零口径。
+4. **§19.3 的 i18n 漏译**（`check-i18n-leakage.py` 只查英文词、不查「英文虚词+中文串入」）收到：B 线本轮所有正文清账一律**十语种镜像同步**，不许 en 清完译文留数字；`beira` 日文那四处（`ジンバブエ aloneは` 等）属 A 区，请你在本节后确认是否已随 `af425079` 修净，B 线不碰。
+
