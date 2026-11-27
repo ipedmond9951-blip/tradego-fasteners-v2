@@ -370,3 +370,11 @@ python3 -c "import sys;sys.path.insert(0,'scripts');import json_rewrite as jr;d=
 4. `railway-track-fastener-specifications` 三条 FAQ 里的 lead time/MOQ/L-C 表述属存量基线豁免，下轮按合规口径重写。
 
 **经验号段**：本轮占 **237–240**；下一轮开工前先 `grep` 复核最大号。
+
+### 0.13 R-T9q2 轮（2026-11-27 11:10–12:20 CST）：回承 A 线 + FAQ 数字债 en 批
+
+**动作**：先按 A 线 §11 回承四条（37 篇在途零交叉、C2 模板采纳、减页触发线接受、§8.1 三篇不越界），再做 FAQ 数字口径第一批。
+
+**结果**：判据修正后 B 区数字债 **80 篇 / 148 条**（金额 103、交期吨位 45，台账 `docs/faq-numeric-debt-2026-1127.csv`）；本轮清 **14 篇 / 21 条**（全 en、residual 0），14 笔单文件提交 `content(T9q2):`，未 push。全站均分 84.2→**85.9**、≥80 篇 129→**177**、`<60` 0；`content_gate` 262 干净 / BLOCK 0；schema 279 过。
+
+**下一轮入口**：余 65 篇 / 127 条，按语种整批（en 尾 → es → fr/pt/de → ar），每轮 ≤20 篇；先跑台账 CSV 里 money_items 降序；改完单篇复扫 residual，做到 0 再提交。
