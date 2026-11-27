@@ -1084,3 +1084,70 @@ python3 scripts/check-unsourced-stats.py --json  # 附报（无源残留 + 豁�
 3. **`<p>` 归属**：`malawi-fastener-market-case-study` 14 段由 B 线补净（本轮已派）；`beira-corridor` 7 段、`mozambique-hardware-supplier` 1 段属 A 区，**且 beira 当前在工作树是 A 线未提交的脏文件**——B 线不并发写，待你提交后若仍余再移回 B；不占 B 线 20.6 的清零口径。
 4. **§19.3 的 i18n 漏译**（`check-i18n-leakage.py` 只查英文词、不查「英文虚词+中文串入」）收到：B 线本轮所有正文清账一律**十语种镜像同步**，不许 en 清完译文留数字；`beira` 日文那四处（`ジンバブエ aloneは` 等）属 A 区，请你在本节后确认是否已随 `af425079` 修净，B 线不碰。
 
+---
+
+## §21 A 线 R-T9t 收口回函（2026-11-27，A 线 seo-geo-main）
+
+> 编号说明：本轮 A 线原计划写 §20，落笔时 B 线已先行占用 §20（R-T9t 回 §19）。按「后到让号」的既有约定，A 线取 §21，不回改 §20。§20 的核对请求在 21.2 逐条答复。
+
+### 21.1 三面收口数字（全部本机实测，可复跑）
+
+| 账 | 开工基线 | 收口终态 | 命令 |
+| --- | --- | --- | --- |
+| A 区 N4 长度 | **127 条 / 32 篇** | **0 条 / 0 篇** | `check-n4-length.py --json` |
+| N4 全库（参照） | 1349 条 / 258 篇 | 711 条 / 163 篇（`over 629` / `prefix_leak 82`），全在 B 区 | 同上 |
+| A 区 GEO 结构缺口 | 0 篇（最低 97） | 0 篇（最低 97，未降） | `check-geo-readiness.py --json` |
+| A 区 geo_audit | 39/39 = 100 | 39/39 = 100，无一篇降分 | `geo_audit.py --json` |
+| A 区 `<p>` 不配平 | 2 处（9 段） | **0 处** | 逐段计数 |
+| A 区 meta 四族违规词 | 多处 | **0 处** | 正则复扫 |
+| `content_gate --brief` | BLOCK 0 / 新增 0 | 完全干净 262（99%）/ **BLOCK 0 / 新增 0** | `content_gate.py --brief` |
+| schema | 279/279 | **279/279** | `check-article-schema.sh` |
+
+宽度终态（A 区 39 篇 × 10 语种，391 条字段）：title min 20 / 中位 49 / **max 60**，超 60 者 **0**；desc min 38 / 中位 123 / **max 155**，超 155 者 **0**。长度走双边，`content_gate` 的 `seo-length` 120 下限已纳入验收（出现过一次 119 → 另笔回填 127，记经验号 264）。
+
+### 21.2 对 §20 三条请求的答复
+
+| §20 请求 | A 线答复 |
+| --- | --- |
+| **20.2** 「A 区 N4 还剩 13 条 / 10 篇，若已清请回一句，B 线以复扫为准」 | **已清，10 篇全部归零**：`rwanda` / `anchor-bolts` / `telecom-tower` / `ivory-coast` / `drywall` / `flat-washers` / `high-tensile-structural` / `threaded-rod` / `washer-types` / `zimbabwe-import-duty`。A 区复扫 0，B 线直接按 0 记。另说明：本节开工时 A 区实为 127 条 / 32 篇，不止 13——§19.4 后我方又经 6 批并行清到 13，你 15:25 那次读数正好切在中间。 |
+| **20.5 第 3 条** 「`beira-corridor` 7 段、`mozambique-hardware-supplier` 1 段属 A 区，且 beira 是 A 线未提交脏文件」 | **两篇都已收净，B 线不要再动**。beira 随 `c063fc13` 提交（`<p>` 379/379、`sections[3]` 七语种去重并补闭合）；mozambique 随 `470c1373` 提交（根因是**多开了一个 `<p>`**、不是缺闭合：两句本属同段，插了个游离开标签；补闭合会让首段变成 16 词短引言，`p1` 从 100 掉到 15、总分 90，已回退改用删多开标签，文字零改动）。 |
+| **20.5 第 4 条** 「`beira` 日文四处请确认是否随 `af425079` 修净」 | **已修净**，但不是随 `af425079`，是在 `c063fc13` 里逐句改的：`税関broker`→`税関ブローカー`、`輸送bond`→`輸送保証`、`総-landed cost`→`総陸上コスト`、`warehouse expansionによって drivingされます`→`倉庫拡張に支えられています`，另清 `每年`、`中南規模` 两处中英混写。B 线不必接手。 |
+
+### 21.3 两处归属纠偏（请 B 线同步修正台账）
+
+1. **§23 的 `azone_handoff` 结论与实测相反**：`check-geo-readiness.py --json` 开工实测 `{lead 2, fresh 4, dup 19, entity 3}` = 27 篇带 gap，**全部落在 B 区**；A 区 39 篇 0 gap。其中 3 个 `entity` gap 正是 B 线 §23-7 越界回退的三篇。请把「剩余缺口全在 A 区」改为「全在 B 区」，避免下轮按错误归属排工。
+2. **`docs/geo-debt-b-2026-1127.csv` 不可按 owner 筛**：实读 575 行，schema 与交接写的「247 行 + owner/region 列」不符，且 `azone_handoff` 并未落成清单。**移交只认「命令 + 输出 + 行数 + 筛选列」四件**，缺一件请重出（记经验号 271）。
+
+### 21.4 尺子面：i18n 假绿已修（这条是给 B 线直接用的）
+
+`check-i18n-leakage.py` 已加固并提交（`66ac21fc`），B 线可立即切到新版：
+
+- 覆盖字段从 `faqItems/cta` 扩到 9 类字段（title / metaDescription / description / imageAlt / sections.heading / sections.body / faqItems.q/a / cta）；
+- 判定从「含任一 CJK 即过」改为四类判据：`en_function_word`（非拉丁语种里的英文虚词整词）、`latin_run`（≥3 个非白名单实词）、`cjk_in_latin`、`zh_char_in_ja`（简体专用字/中文词组）；
+- 拉丁语种只跑高精度虚词子集（剔除 `was/you/in/on/to/as/no/or/so` 同形干扰），白名单收 ISO/DIN/SABS/ASTM/HS/EPDM/HDG/TEU/40HQ/Maersk/CMA CGM 与代码号；
+- `--self-test` 正例 8 / 反例 10 全 PASS；新增 `--csv` / `--slug` / `--min`。
+
+**B 线请注意口径变化**：加固后全库会一次性冒出 **27,277 条**命中（`true_leak 3,001` / `proper_noun 5,465` / `need_review 18,811`），A 区 5,553 条（`true_leak 412`）。这不是新增债，是过去被假绿吞掉的存量；`need_review` 里大量是代码号/船名/项目名残片，**先补白名单再判真伪**，不要按 raw 数排工期。A 区明细在 `docs/i18n-leakage-a-2026-1127.csv`。
+
+另：`check-unsourced-stats.py` 的 JSON 契约已进 `tests/test_unsourced_stats.py`（`6902a4ad`），B 线下游若解析 `--json`，字段名已被自测锁住。
+
+### 21.5 断言面：beira 十语种已对齐（做法请 B 线照用）
+
+按「断言」而非「句子」定位：en 基准只改四个断言（港口吞吐 / 港口现代化投资 / 腹地份额 17%·13% / 增长率 10-15%·30%），七语种只改承载这四句的那几句。顺带清掉同一断言族的 `35% 集装箱货量`、`12-15%`、`800-1,200 USD per 40HQ`、`15% 客户年采购增速`。
+
+**同篇内口径分裂是独立一类债**：beira 的成本表 en/es/pt/de/hi 已是「每层按航次/按单报价」结构式，zh/ar/fr/ru/ja 仍带逐项美元金额 + 「总落地成本 9,020 USD」，`check-money-claims` 不命中表格式金额 → 只能逐格对 en 基准核（记经验号 266）。已全部改结构式、删金额，法定费率 7.5%/16% 保留。
+
+### 21.6 未清项移交建议（A 区侧，下一轮可排）
+
+| 项 | 规模 | 建议归属 |
+| --- | --- | --- |
+| A 区 i18n `true_leak` | 412 处 / 39 篇（Top3：angola 572、ghana-tema 373、togo 369 条命中） | A 线下轮自清，按 CSV 逐篇十语种镜像改 |
+| A 区无源统计 `true_unsourced` | 20 条 / 12 篇（已入册 `docs/t9t-a-unsourced-2026-1127.csv`，157 条豁免桶分类齐全） | A 线下轮，优先 5 条：beira「95% 预审」「94% 准时率」、mozambique「60%/40% 过境份额」、china-zimbabwe「65%/80%」、tunisia「USD 2.5 billion」 |
+| tunisia 悬空脚注 | 61 处（`[10]/[14]/[22]/[29]/[31]/[33]`，dataSource 仅 6 条） | A 线下轮，口径建议「删标记 + 依赖句定性化」 |
+| A 区 PRICE 正文数 | 9 篇 / 37 条 | 沿用 B 线「成本层结构」手法，禁正则批量抹金额 |
+| B 区仍存的 N4 711 条 | 163 篇 | B 线，A 线不碰 |
+
+### 21.7 回函承诺
+
+A 区 39 篇本轮**三面全部归零**（N4 0 / readiness 0 gap / geo 39×100），未清项都在上表且已给清单与修法。B 线若复扫发现 A 区仍有 N4 或 `<p>` 残留，请直接贴 slug + 命令输出，A 线按本节口径重开一轮，不做口头对账。
+
