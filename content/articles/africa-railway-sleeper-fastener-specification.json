@@ -131,8 +131,8 @@
     {
       "id": "system-types",
       "heading": {
-        "en": "Which Sleeper System Are You Actually Specifying For?",
-        "zh": "你实际是在为哪种轨枕系统做规范",
+        "en": "Which fastening logic applies to concrete, timber and steel sleepers respectively?",
+        "zh": "混凝土枕、木枕和钢枕分别适用什么紧固件逻辑？",
         "ar": "لأي نظام عوارض تحدد المواصفة فعلًا؟",
         "es": "¿Para qué sistema de traviesa especifica realmente?",
         "fr": "Pour quel système de traverse spécifiez-vous vraiment ?",
@@ -212,8 +212,8 @@
     {
       "id": "procurement",
       "heading": {
-        "en": "Procurement Notes for African Rail Projects",
-        "zh": "非洲铁路项目的采购要点",
+        "en": "Which governing standard must be identified before quoting an African rail fastening?",
+        "zh": "给非洲轨道紧固件报价前要先确定哪份主管标准？",
         "ar": "ملاحظات الشراء لمشاريع السكك الأفريقية",
         "es": "Notas de compra para proyectos ferroviarios africanos",
         "fr": "Notes d'achat pour projets ferroviaires africains",
@@ -265,7 +265,7 @@
             "ja": "異なる枕木システムの留め付け部品を混用できますか？"
           },
           "a": {
-            "en": "No. A clip dimensioned for one shoulder will not seat correctly in another system, and mixing components is a common cause of track geometry problems in new construction.",
+            "en": "No. A clip dimensioned for one shoulder will not seat in another system, and mixing causes track geometry problems in new construction. Concrete sleepers use cast-in shoulders or inserts with elastic clips; timber sleepers rely on screw spikes, drive spikes or base plates; steel sleepers use clips or bolts through the sleeper. Each system carries its own pad and insert, so order the set to the sleeper type rather than sharing across lines. Keep spare clips and insulators at the installed ratio, since one missing part can hold up the possession.",
             "zh": "不可以互换。为某一承座尺寸设计的弹条，放到另一套扣件系统中无法正确就位，因为各部件的尺寸、弧度和接触关系都是按配套系统单独设计的。不同系统之间混用零件，是新建线路出现轨道几何偏差、轨距或高低不平顺的常见原因。施工和更换时必须按原系统成套取用，不能把不同来源的扣件零件混装在一起。",
             "hi": "नहीं। एक शोल्डर के लिए डाइमेंशन किया गया क्लिप दूसरे सिस्टम में सही ढंग से बैठ नहीं पाता; हिस्से मिलाना नई लाइन में ट्रैक ज्यामिति समस्याओं का आम कारण है।",
             "ru": "Смешивать детали разных систем нельзя. Клемма рассчитана на конкретную боковину рельсового скрепления и в чужой системе не садится как надо: размеры посадочных мест, усилие прижатия и форма контакта не совпадают. На новом пути такая замена нередко даёт сбой геометрии рельсовой колеи, поэтому комплекты заказывают под одну утверждённую систему и не дополняют её деталями с другого проекта.",
@@ -291,7 +291,7 @@
             "ja": "トルクだけで適正な施工と判断できますか？"
           },
           "a": {
-            "en": "No. Elastic fastenings are specified by toe load, so the installed gap, a toe load sample test, and the condition of the pad and insulator must also be checked and recorded.",
+            "en": "No. Elastic fastenings are specified by toe load rather than torque alone, and the two relate through clip geometry and the pad. A clip to the specified torque but on a damaged pad reads correct on the wrench and wrong on the track. The installed gap, a toe load sample test, and the pad and insulator condition must also be checked and recorded. Record each check against the governing track standard, and do not rely on the wrench once the pad or insulator shows damage or misalignment.",
             "zh": "不能只靠扭矩来确认安装到位。弹性扣件是按扣压力来验收的，除扭矩外，安装后还要检查并记录安装间隙、扣压力抽检结果，以及垫板和绝缘件的完好状态。只有这些项目都检查合格并留有记录，才能确认扣件安装到位，防止后期出现松旷、扣压力不足或轨距变化等问题。",
             "hi": "नहीं। इलास्टिक फास्टनिंग्स की निर्दिष्टी टो लोड से होती है, इसलिए लगा हुआ गैप, टो लोड का नमूना परीक्षण, और पैड व इंसुलेटर की स्थिति भी जांचकर दर्ज करनी चाहिए।",
             "ru": "Одного момента недостаточно. Упругие скрепления нормируются по усилию прижатия к подошве (toe load), а не по величине затяжки болта. После монтажа проверяют установленный зазор, делают выборочный контроль усилия прижатия и осматривают состояние подкладки и изолятора; все результаты записывают.",
@@ -317,7 +317,7 @@
             "ja": "レール締結具には通常どのような被膜が用いられますか？"
           },
           "a": {
-            "en": "Hot-dip galvanizing covers general service. Heavy-duty and coastal corridors often require thicker coatings or stainless components at the clip and insulator interface.",
+            "en": "Rail fastenings live outdoors for decades and are routinely wet, so coating matters more than base steel grade in most climates. Hot-dip galvanizing covers general service, while heavy-duty and coastal corridors need thicker coatings or stainless components at the clip and insulator interface. Match the finish to corridor climate and exposure, and record the coating with the set. The governing railway or donor standard may set the corrosion requirement, so confirm thickness against that document before shipment rather than defaulting to general HDG.",
             "zh": "一般线路工况采用热浸镀锌即可满足防腐要求；重载货运线、长大坡道和沿海盐雾路段通常要求更厚的热浸镀锌层，并在弹条、扣件与绝缘件接触面改用不锈钢零件，避免电偶腐蚀和锈污卡阻。选型时先核对线路等级、所处气候带和检修周期，再确定镀层种类与厚度，镀层厚度应按相应标准验收，安装后还应检查扣件绝缘垫是否完好。",
             "hi": "सामान्य सेवा में हॉट-डिप गैल्वनाइज़िंग काफी है। हैवी-ड्यूटी और तटीय कॉरिडोर में अक्सर मोटी कोटिंग, या क्लिप व इंसुलेटर इंटरफ़ेस पर स्टेनलेस हिस्से चाहिए होते हैं।",
             "ru": "В стандартной службе ограничиваются горячим цинкованием. На нагруженных участках и прибрежных коридорах закладывают более толстый слой покрытия или нержавеющие детали там, где клемма контактирует с изолятором; подбор согласуют с условиями среды на трассе.",
@@ -343,7 +343,7 @@
             "ja": "鉄道工事では締結具をどのように出荷すべきですか？"
           },
           "a": {
-            "en": "Match the installation sequence rather than factory convenience, and keep spare clips and insulators at the same ratio as installed quantities, because a shortage stops the whole possession.",
+            "en": "Match shipping to the installation sequence rather than factory convenience, and keep spare clips and insulators at the installed ratio, because a shortage stops the possession. Group the set by sleeper type and installation point so clips, pads, inserts and bolts are not split across cartons, and keep lot and coating records traceable. Rail projects are inspected against a named standard — a railway specification, UIC-derived document or donor standard — so labels and certificates should reference it. Establish which standard governs before quoting, since approval of an equivalent alternative is slow and sometimes refused.",
             "zh": "发货应按照现场安装顺序配套组箱，而不是图工厂装柜方便随意混放。备件弹条和绝缘件要按安装数量的同一比例配齐，因为封锁施工期间缺少任何一个小件，都可能导致整段作业停顿。按区块齐套发运后，施工班组可以直接取用对应位置的零件，减少现场翻找、分拣和错装的时间。",
             "hi": "फैक्ट्री की सुविधा की बजाय इंस्टॉलेशन क्रम से मिलाकर शिप करें; अतिरिक्त क्लिप और इंसुलेटर लगाई गई मात्रा के समान अनुपात में रखें, क्योंकि एक हिस्से की कमी पूरा पज़ेशन रोक देती है।",
             "ru": "Упаковку и комплектацию ведут под очерёдность монтажа, а не под удобство завода; запасные клеммы и изоляторы держат в том же соотношении, что и установленные количества, потому что нехватка одного комплекта останавливает всю путевую работу.",
