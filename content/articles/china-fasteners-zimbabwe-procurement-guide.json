@@ -611,7 +611,7 @@
             "ar": "كم هو الحد الأدنى لكمية الطلب للتسليم إلى زيمبابوي؟"
           },
           "a": {
-            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
+            "en": "Order minimum is set by how the item is made rather than a fixed level. These construction and structural fasteners in existing dies can usually run in modest lots; a special dimension or head form needs tooling and sets a higher minimum. For Zimbabwe building, mining and maintenance procurement, grouping matched specs spreads setup overhead, and the lot passes mill certificate, grade mark and coating record. Mind inland corridor congestion and customs documentation in the first batch; the minimum is set once spec, packing and destination are settled, with a sample before bulk.",
             "zh": "试单建议起订量为1公吨。标准紧固件用20英尺集装箱装运，单柜约可装18至22公吨，是单位成本最划算的运输方式。数量越大，分摊到每吨的海运费、报关单证和内陆提货费用越低。也可以安排空运到哈拉雷，但快递与货运单价明显高于海运，只适合紧急补单或样品验证阶段。下单前建议把目的仓地址、装卸条件和到货时间一并确认，避免分批运输增加额外费用。起订量按生产路线确定。",
             "hi": "न्यूनतम ऑर्डर मात्रा उत्पादन मार्ग पर निर्भर है।",
             "es": "La cantidad mínima depende de la ruta de producción.",
@@ -637,7 +637,7 @@
             "ar": "كم يستغرق الشحن من الصين إلى زيمبابوي؟"
           },
           "a": {
-            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "en": "The schedule is set by the consignment, not a published calendar. It depends whether these construction and structural fasteners are a regular production size or a special form needing setup, and on the route to Zimbabwe via the Beira corridor or Durban–Johannesburg. For Zimbabwe building, mining and maintenance procurement, the lot passes mill certificate, grade mark and coating record before release; allow for inland corridor congestion and customs documentation. Confirm spec, quantity and destination before booking; urgent orders can fly at higher freight, with timing quoted per order.",
             "zh": "从中国港口到莫桑比克贝拉港的海运。三段合计。雨季、口岸拥堵或文件不齐时，内陆段和清关时间可能延长，报交期时应预留缓冲，并提前确认装箱资料、产地证和符合性文件是否齐全，避免到港后压港产生滞港费用。交期按订单核算。",
             "hi": "लीड टाइम ऑर्डर के अनुसार तय होता है।",
             "es": "El plazo se cotiza por pedido.",
@@ -715,7 +715,7 @@
             "ar": "كيف يمكنني إجراء الدفع من زيمبابوي؟"
           },
           "a": {
-            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit arranged through the buyer's bank. The settlement route, documents and milestones should be agreed up front, and any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
+            "en": "Terms are negotiated per programme rather than fixed for every buyer. A first order usually pairs a deposit against the proforma with a balance against shipping documents (bill of lading copy, packing list, inspection certificate); avoid full prepay before production. Repeat programmes may use an L/C through the bank. For Zimbabwe via the Beira corridor or Durban–Johannesburg, the settlement route, documents and milestones are agreed up front, with mill certificate, grade mark and coating record as release record. Given inland corridor congestion and customs documentation, confirm currency routing and handover before production.",
             "zh": "默认付款方式为美元电汇（T/T），汇入我方香港或阿联酋银行账户。对已完成资信核验的客户，可协商30/70或50/50的分期付款安排。新客户或首次合作仍以预付款加尾款的常规条款为准。所有银行转账手续费由付款方承担，中间行扣费也会影响到账金额，报价和收款时应注明币种、银行路径和费用承担方，避免到账差额影响发货排期。付款条件按里程碑约定。",
             "hi": "भुगतान शर्तें माइलस्टोन के अनुसार तय होती हैं।",
             "es": "Las condiciones de pago se acuerdan por hitos.",
@@ -741,7 +741,7 @@
             "ar": "هل تقدمون عينات قبل الطلب بالجملة؟"
           },
           "a": {
-            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
+            "en": "The minimum follows the production route and supplier scale, not one threshold. These construction and structural fasteners in existing dies can usually run in modest lots; a special dimension or head form needs tooling and sets a higher minimum. For Zimbabwe building, mining and maintenance procurement, grouping matched specs spreads setup overhead, and the lot passes mill certificate, grade mark and coating record. Mind inland corridor congestion and customs documentation in the first batch; the minimum is set once spec, packing and destination are settled, with a sample before bulk.",
             "zh": "可以提供样品。大货下单前。样品费与快递运费单独收取，不计入大货单价。订单金额超过5，已付样品费可在大货订单中抵扣。建议样品阶段一并核对规格、材质、表面处理和包装标识，确认与正式订单要求一致，避免批量交货后再因牌号或镀层差异返工。起订量按生产路线确定。",
             "hi": "न्यूनतम ऑर्डर मात्रा उत्पादन मार्ग पर निर्भर है।",
             "es": "La cantidad mínima depende de la ruta de producción.",
