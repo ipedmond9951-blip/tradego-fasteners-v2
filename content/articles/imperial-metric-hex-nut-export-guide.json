@@ -33,7 +33,7 @@
     {
       "id": "imperial-nuts",
       "heading": {
-        "en": "Imperial Standard Hex Nuts: UNC/UNF for Export",
+        "en": "Which UNC and UNF thread choices apply to inch-series nuts for export?",
         "es": "Tuercas Hexagonales Estándar Imperiales: UNC/UNF para Exportación",
         "ar": "الصواميل السداسية المعيارية الإمبراطورية: UNC/UNF للتصدير",
         "fr": "Écrous hex. standards impériaux : UNC/UNF pour l'export",
@@ -42,7 +42,7 @@
         "ja": "インチ規格六角ナット：輸出用UNC/UNF",
         "de": "Imperial Standard Sechskantmuttern: UNC/UNF für den Export",
         "hi": "इम्पीरियल स्टैंडर्ड हेक्स नट्स: निर्यात के लिए UNC/UNF",
-        "zh": "英制六角螺母：UNC/UNF 出口规格"
+        "zh": "出口英制螺母对应哪些 UNC/UNF 螺纹选择？"
       },
       "body": {
         "en": "<p>This page explains how threaded fasteners are ordered for overseas projects when the drawing calls for either inch-series or international-series threads. It walks through the thread forms, reference codes and grade matching that decide whether a part fits the bolt and the application, so a buyer can write a comparable specification and inspect the arriving batch. The notes apply to plain, locking and flange pieces sold for construction, machinery and maintenance markets.</p><p>Imperial standard hex <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nuts</a> for export include UNC (Unified National Coarse) and UNF (Unified National Fine) thread forms in fractional sizes from 1/4\" through 1-1/2\". <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Export</a> to markets using American standards (North America, Caribbean, Gulf states) requires <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nuts</a> conforming to ASME B18.2.2 dimensions. Key sizes in stock: 1/4\"-20 UNC, 5/16\"-18 UNC, 3/8\"-16 UNC, 7/16\"-14 UNC, 1/2\"-13 UNC, 5/8\"-11 UNC, 3/4\"-10 UNC, 7/8\"-9 UNC, 1\"-8 UNC/UNF.</p>\n<p>Our <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">wholesale export</a> line includes zinc-plated carbon steel, HDG carbon steel, and 304/316 stainless steel. Always match nut grade to bolt grade: Grade A194 2H (for ASTM A193 B7 <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a>) is the standard heavy hex nut for high-temperature and pressure-containing applications. Related resources: <a href=\"/en/industry/high-tensile-bolts-grade-guide\">high-tensile bolts</a> <a href=\"/en/products/anchor-bolts\">anchor bolts</a> <a href=\"/en/industry/stainless-steel-bolts-africa-guide\">stainless steel fasteners</a> <a href=\"/en/industry/hex-bolt-dimensions-chart\">hex bolts</a> <a href=\"/en/products/nylon-lock-nuts\">lock nuts</a> <a href=\"/en/products/washers\">washers</a> <a href=\"/en/products/self-drilling-screws\">self-drilling screws</a> <a href=\"/en/products/allen-bolts\">socket screws</a>.</p>\n<p>The decision logic prioritizes quality consistency, supplier reliability, and total cost of ownership over short-term unit price. For B2B buyers in Africa, Latin America, and Southeast Asia, additional considerations include regional customs requirements, container consolidation options, and payment security mechanisms.</p>\n<p>Standardized specifications that travel across projects reduce training time, RFQ processing time, and supplier onboarding effort.</p><p>Thread series is checked before size. UNC and UNF differ in threads per inch for the same nominal diameter, so a nut tapped for one series will not engage cleanly on a bolt of the other. The buyer records the nominal fraction, the series, the finish and the material on the inquiry, and the maker verifies the thread with the appropriate gauge. Fractional sizes are written with the inch designation rather than converted loosely to millimeters, because mixing the two series on the same joint causes stripped threads or a loose fit. Plated nuts in the inch series are specified with the coating system referenced to the finish requirement, and the thread allowance is checked after plating. Common materials for export inch-series nuts include carbon steel with zinc or zinc-flake finish, and stainless grades for corrosive exposure.</p><p>Size verification for inch-series parts relies on the nominal fraction and the thread count rather than a metric equivalent. A buyer should confirm whether the drawing calls for coarse or fine thread, because the two are not interchangeable on the same hole. The maker checks the tapped hole with a thread gauge and inspects the across-flats width, chamfer and face finish before packing. Rust-preventive oil or a dry protective coating is applied where the parts will spend time in transit, and the boxes are labelled with the series, size and material so the warehouse can pick the correct item without opening every carton. Common defects caught at this stage include over-tapped holes, damaged corners and plating that piles up in the thread root.</p><p>Packing for export separates different thread series and finishes so they do not rub together in the container. Nuts of the same size and grade are bagged or boxed together, with the specification printed on the label, and counts are checked against the packing list before sealing. A small sample set is kept aside for the buyer's incoming inspection, showing the finish, marking and thread condition of the lot. When the destination market works in inch measurements, the order record keeps the inch designation intact rather than rewriting it in metric on the invoice, which avoids confusion at the receiving warehouse.</p>",
@@ -87,7 +87,7 @@
     {
       "id": "matching-guide",
       "heading": {
-        "en": "Hex Nut and Bolt Grade Matching Chart",
+        "en": "How are bolt property classes matched to nut proof loads on a joint?",
         "es": "Tabla de Correspondencia de Grados de Tuercas y Pernos Hexagonales",
         "ar": "جدول مطابقة درجات الصواميل السداسية والبراغي",
         "fr": "Tableau de correspondance des classes d'écrous et boulons hex.",
@@ -96,7 +96,7 @@
         "ja": "六角ナット・ボルト強度区分適合表",
         "de": "Sechskantmutter- und Schrauben-Güteabstimmungstabelle",
         "hi": "हेक्स नट और बोल्ट ग्रेड मिलान चार्ट",
-        "zh": "六角螺母与螺栓等级匹配表"
+        "zh": "螺栓性能等级如何与螺母保证载荷配对？"
       },
       "table": {
         "headers": [
@@ -198,7 +198,7 @@
             "ja": "8.8 ボルトに合うナットクラスは何ですか？"
           },
           "a": {
-            "en": "Grade 8 (proof load 890 MPa) is the minimum match for 8.8 bolts. Heavy hex Grade 8 is preferred for structural connections.",
+            "en": "Grade 8 (proof load 890 MPa) is the minimum match for an 8.8 bolt, with heavy hex Grade 8 preferred for structural connections. ISO 898-2 pairs 8.8 bolts with class 8 nuts, 10.9 with class 10, 12.9 with class 12; a lower-class nut strips before the bolt reaches preload. Match nut proof load to bolt class on the drawing, keep bolt, nut and washer in one family, and record nut grade on certificate and marking. For structural, pressure, mining or marine work, add fatigue and salt-spray checks and post-install inspection.",
             "zh": "与 8.8 级螺栓相配，最低应选 8 级螺母（保证载荷 890 MPa）；结构连接场合优先采用重型 8 级螺母，承载裕度更足。选配时核对螺母等级、保证载荷和螺纹公差，使其与螺栓匹配；受拉结构节点螺母不得低于螺栓等级，必要时选重型螺母以保证接头整体强度。订货注明螺母等级、型式和对应标准，验收时核对头部或侧面标记与订单一致。",
             "hi": "ग्रेड 8 (प्रूफ लोड 890 MPa) 8.8 बोल्ट के लिए न्यूनतम मिलान ग्रेड है। संरचनात्मक जोड़ों में हैवी हेक्स ग्रेड 8 को प्राथमिकता दी जाती है; नट की शक्ति बोल्ट से कम नहीं होनी चाहिए, वरना जोड़ नट में ही खराब हो सकता है।",
             "ru": "Минимальное соответствие болту 8.8 — гайка класса 8 (контрольная нагрузка 890 МПа). Для конструкционных соединений предпочитают тяжёлую шестигранную гайку класса 8. Подбирая пару, сверяйте и стандарт, и класс: гайка ниже болта по прочности разрушается раньше резьбы болта.",
@@ -224,7 +224,7 @@
             "ja": "GB と DIN のナットは互換性がありますか？"
           },
           "a": {
-            "en": "Yes, GB and DIN metric nuts are harmonized under the ISO agreement and are dimensionally interchangeable. ISO 4032 replaces both DIN 934 and GB/T 6170.",
+            "en": "GB and DIN metric nuts are harmonized under the ISO agreement and dimensionally interchangeable for the same size: ISO 4032 replaces both DIN 934 and GB/T 6170. DIN 934 covers the standard hex nut, DIN 6925 the flange nut, and the metric pitch must be stated coarse or fine. Check counterpart standard, property class and thread tolerance before substituting series. Keep marking, certificate and thread class aligned to the cited standard, and quote the series the project named. For structural bolting, confirm nut grade against bolt class under the relevant EN or ASTM reference.",
             "zh": "可以。GB 与 DIN 公制螺母在 ISO 协议下已经协调一致，安装尺寸可以互换；ISO 4032 同时替代了 DIN 934 与 GB/T 6170 两个旧标准，订货时按对应标准号选规格即可。互换前仍以图纸标注的标准版本为准，新旧编号对照用于识别同一系列；核对螺纹规格、对边宽度和厚度公差，材料证明上的标准号与采购要求对应，避免把英寸制螺母误当公制件。",
             "hi": "हां, GB और DIN मीट्रिक नट ISO समझौते के तहत सामंजस्य में हैं और आयामी रूप से एक-दूसरे की जगह चल सकते हैं। ISO 4032, DIN 934 और GB/T 6170 दोनों का स्थान लेता है; बदलते समय धागा और फेस का मिलान जरूर कर लें।",
             "ru": "Да: метрические гайки GB и DIN согласованы по соглашению с ISO и совпадают по размерам. ISO 4032 заменяет одновременно DIN 934 и GB/T 6170. При этом сохраните единый класс прочности в узле и проверьте стандарт приёмки на стороне покупателя, чтобы обозначение GB не вызвало вопросов на складе.",
@@ -250,7 +250,7 @@
             "ja": "米国とカリブ市場にはどのねじ形式ですか？"
           },
           "a": {
-            "en": "UNC for general coarse work and UNF where finer pitch is specified, in fractional sizes from 1/4 inch upward. Mixing UNC nuts with metric bolts is the most common import error in this segment.",
+            "en": "UNC suits general coarse work, UNF a finer pitch, in fractional sizes from 1/4 inch upward. The UNC profile uses a 60-degree rounded-root angle, and neither series mixes with metric hardware. Mixing UNC nuts with metric bolts is the most common import error here: diameters and pitches differ, threads strip and the joint seizes. Match thread form on the drawing, pair bolt and nut to the same series, and source imperial fasteners separately for American-spec equipment. State thread series, size and finish on the enquiry so a metric line cannot fit an imperial drawing.",
             "zh": "一般粗牙工况用 UNC，要求更细螺距时用 UNF，规格为 1/4 英寸起的分数尺寸。这一品类最常见的进口差错，就是把 UNC 螺母和公制螺栓混配；选型时螺纹制式必须与螺栓一致，不能凭外径近似互换。面向美国和加勒比市场报价前，先确认图纸或设备要求的螺纹制式：粗牙选 UNC，细牙选 UNF，尺寸按分数英寸标注；螺母、螺栓和垫圈按同一制式成套订货，到货后用螺纹规核对牙型和螺距。",
             "hi": "आम मोटे धागे के काम के लिए UNC, बारीक पिच बताए जाने पर UNF चुनें; फ्रैक्शनल साइज़ 1/4 इंच से ऊपर तक मिलती है। UNC नट को मीट्रिक बोल्ट के साथ मिलाना इस खंड में सबसे आम आयात गलती है, इसलिए धागा प्रणाली एक जैसी रखें।",
             "ru": "UNC берут для обычной крупной резьбы, UNF — там, где задан более мелкий шаг; размеры дюймовые, начиная с 1/4 дюйма и выше. Самая частая ошибка импортной поставки в этом сегменте — гайки UNC в паре с метрическими болтами. Перед отгрузкой сверяйте обозначение резьбы по обеим сторонам соединения: дюймовая и метрическая линии не пересекаются.",
