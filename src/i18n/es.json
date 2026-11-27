@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "Principal proveedor de sujetadores de China para África",
+    "title": "Fabricante de fijaciones en China — según SABS 1195, envíos a todo el mundo",
     "subtitle": "Fijaciones de calidad de China a África — 20+ años especializándose en el mercado de construcción africano. Tornillos IBR, tornillos para techo y sujetadores SABS.",
     "cta": "Solicitar cotización",
     "ctaSecondary": "Ver productos",
@@ -268,5 +268,27 @@
     "message": "Mensaje",
     "messagePlaceholder": "Norma, material, acabado, cantidad, puerto de destino",
     "submit": "Enviar consulta"
+  },
+  "search": {
+    "title": "Búsqueda en el sitio",
+    "placeholder": "Buscar productos y artículos…",
+    "button": "Buscar",
+    "resultsFor": "Resultados de “{q}”",
+    "noResults": "Sin resultados",
+    "noResultsHint": "Prueba otra palabra clave, explora las categorías de productos o envíanos tu consulta directamente.",
+    "groupProducts": "Productos",
+    "groupArticles": "Artículos",
+    "hint": "Busca nombres de productos, especificaciones y guías en este sitio.",
+    "browseProducts": "Ver todos los productos"
+  },
+  "lead": {
+    "title": "Reciba una respuesta rápida para su consulta de fijaciones",
+    "desc": "Deje su correo o número de WhatsApp: nuestro equipo de ventas le contactará.",
+    "placeholder": "Correo o número de WhatsApp",
+    "cta": "Solicitar presupuesto",
+    "note": "El número de WhatsApp se muestra en formato internacional. Revíselo antes de enviar.",
+    "success": "¡Gracias! Nuestro equipo de ventas se pondrá en contacto con usted en breve.",
+    "error": "Introduzca un correo o un número de WhatsApp válido.",
+    "close": "Cerrar"
   }
 }
