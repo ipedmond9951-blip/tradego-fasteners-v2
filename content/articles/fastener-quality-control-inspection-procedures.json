@@ -233,7 +233,7 @@
             "hi": "फास्टनर गुणवत्ता नियंत्रण: निरीक्षण और स्वीकृति मानदंड ऑर्डर के लिए विशिष्ट लीड टाइम क्या है?"
           },
           "a": {
-            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "en": "The schedule is set by the consignment, not a published calendar. It depends whether these fastener batches subject to acceptance inspection are a regular production size or a special form needing setup, and on the route to the buyer's receiving inspection point. For incoming quality control and lot acceptance, the lot passes dimensions, hardness, proof load and coating per sample before release; allow for acceptance sampling and documentation for retained lots. Confirm spec, quantity and destination before booking; urgent orders can fly at higher freight, with timing quoted per order.",
             "zh": "检验本质是抽样决定，下单前先界定什么算一批：同一炉号、同一班次、同一镀层、同一次包装，混在一起的样本代表不了整批。缺陷在供方货场发现只需返工补货，到目的港要加运费关税堆存，到现场则是停工，检验的意义就是把发现尽量往上游推。装船前检验趁货还在工厂时做，纠正成本最低。急件可空运，运费为海运 3–5 倍。交期按订单核算。",
             "es": "El plazo se cotiza por pedido.",
             "fr": "Le délai est établi par commande.",
@@ -259,7 +259,7 @@
             "hi": "फास्टनर गुणवत्ता नियंत्रण: निरीक्षण और स्वीकृति मानदंड के लिए न्यूनतम ऑर्डर मात्रा (MOQ) क्या है?"
           },
           "a": {
-            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
+            "en": "The minimum follows the production route and supplier scale, not one threshold. These fastener batches subject to acceptance inspection in existing dies can usually run in modest lots; a special dimension or head form needs tooling and sets a higher minimum. For incoming quality control and lot acceptance, grouping matched specs spreads setup overhead, and the lot passes dimensions, hardness, proof load and coating per sample. Mind acceptance sampling and documentation for retained lots in the first batch; the minimum is set once spec, packing and destination are settled, with a sample before bulk.",
             "zh": "抽样水平应由买方写进订单，而不是留给供方一句“按标准检验”。每批抽多少、怎么抽、判定数多少，都要与规格一并固定。四道常规检查依次为证书对头部标记、镀层厚度或锌层质量、螺纹与专用件尺寸、便携式合金分析仪核材质身份，都能在货场装柜前完成，不需要实验室。起订量按生产路线确定。",
             "es": "La cantidad mínima depende de la ruta de producción.",
             "fr": "La quantité minimale dépend de la route de production.",
@@ -285,7 +285,7 @@
             "hi": "फास्टनर गुणवत्ता नियंत्रण: निरीक्षण और स्वीकृति मानदंड खरीद के लिए विशिष्ट भुगतान शर्तें क्या हैं?"
           },
           "a": {
-            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit arranged through the buyer's bank. The settlement route, documents and milestones should be agreed up front, and any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
+            "en": "The settlement route depends on programme size, trading history and local bank rules. A first order usually pairs a deposit against the proforma with a balance against shipping documents (bill of lading copy, packing list, inspection certificate); avoid full prepay before production. Repeat programmes may use an L/C through the bank. For the buyer's receiving inspection point, the settlement route, documents and milestones are agreed up front, with dimensions, hardness, proof load and coating per sample as release record. Given acceptance sampling and documentation for retained lots, confirm currency routing and handover before production.",
             "zh": "余款凭提单副本结清。大额订单开即期信用证。到货处置分整批拒收、全检挑选、让步接收三种，挑货人与做货人必须无关，挑完数量要与原数对得上。让步接收只在偏差被量化、有权限的人签字时成立。尾款绑定炉号材质书、镀层报告和装箱标记，不合格批次要隔离挂牌。投产前全款预付的条件不建议接受。付款条件按里程碑约定。",
             "es": "Las condiciones de pago se acuerdan por hitos.",
             "fr": "Les conditions de paiement sont convenues par jalons.",
