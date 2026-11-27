@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { sendTelegramLead } from '@/lib/lead-telegram';
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { join } from 'path';
 
@@ -455,8 +456,12 @@ export async function POST(request: NextRequest) {
     const crmSent = await sendToCRM(lead);
     console.log(`CRM sync: ${crmSent ? 'SUCCESS' : 'FAILED (using local file)'}`);
 
-    // 3. Send email notification to sales team
-    const emailSent = await sendEmail(data, isHighValue);
+    // 3. 手机推送（最快通道）+ 销售邮件并行，Telegram 正常 1 秒内到手机
+    const [tgSent, emailSent] = await Promise.all([
+      sendTelegramLead(data, lead, isHighValue),
+      sendEmail(data, isHighValue),
+    ]);
+    console.log(`Telegram alert: ${tgSent}`);
     console.log(`Email to sales: ${emailSent}`);
 
     // 4. Send confirmation email to customer（无邮箱的 WhatsApp lead 不发，避免发空地址报错）
@@ -471,10 +476,10 @@ export async function POST(request: NextRequest) {
     const webhookSent = (emailSent || waSent) ? false : await sendWebhookAlert(data, isHighValue);
     console.log(`Webhook alert: ${webhookSent}`);
 
-    const alerted = emailSent || waSent || webhookSent || crmSent;
+    const alerted = tgSent || emailSent || waSent || webhookSent || crmSent;
     if (!alerted) {
       // 一条询盘都可能没被任何人看到，必须显眼地留在 Vercel 日志里
-      console.error(`[CRITICAL] Inquiry ${lead.id} was NOT delivered to any channel. Configure RESEND_API_KEY or INQUIRY_WEBHOOK_URL. Payload: ${JSON.stringify(data)}`);
+      console.error(`[CRITICAL] Inquiry ${lead.id} was NOT delivered to any channel. Configure TELEGRAM_BOT_TOKEN/CHAT_ID or RESEND_API_KEY. Payload: ${JSON.stringify(data)}`);
     }
 
     // 预览/开发环境没有投递凭据时必须显式失败，否则测试会以为“提交成功”，线上却是空的
@@ -495,6 +500,7 @@ export async function POST(request: NextRequest) {
       highValue: isHighValue,
       delivered: alerted,
       crm_synced: crmSent,
+      telegram_sent: tgSent,
       email_sent: emailSent,
       webhook_sent: webhookSent,
     });
