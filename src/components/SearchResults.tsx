@@ -80,10 +80,13 @@ export default function SearchResults({ locale }: SearchResultsProps) {
   const [loadError, setLoadError] = useState(false)
 
   // q 纯客户端读取（window.location.search），页面壳保持 SSG，不依赖服务端注入 query
+  // 用微任务异步落地，避免在 effect 体内同步 setState 触发级联渲染（react-hooks/set-state-in-effect）
   useEffect(() => {
     if (typeof window === 'undefined') return
     const params = new URLSearchParams(window.location.search)
-    setQuery(params.get('q') ?? '')
+    const next = params.get('q') ?? ''
+    const timer = setTimeout(() => setQuery(next), 0)
+    return () => clearTimeout(timer)
   }, [])
 
   useEffect(() => {
