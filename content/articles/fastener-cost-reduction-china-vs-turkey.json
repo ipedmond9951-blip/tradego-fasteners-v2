@@ -233,7 +233,7 @@
             "hi": "चीन बनाम तुर्की: फास्टनर लागत और गुणवत्ता तुलना 2026 ऑर्डर के लिए विशिष्ट लीड टाइम क्या है?"
           },
           "a": {
-            "en": "Lead time depends on whether the item is a standard specification or a custom one, on the shipping mode (LCL or FCL), and on customs clearance efficiency; urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
             "zh": "比产地不能只看单价，紧固件货重，运费和操作费占到岸成本很大一块，距离、航线、中转、港口滞留和内陆段都随产地变化。订单成本还分材料、加工、镀层、包装检验和运费五块，材料由世界行情定，加工按变体计，到岸段才是地理真正显形的地方。交期按订单核算。",
             "es": "El plazo se cotiza por pedido.",
             "fr": "Le délai est établi par commande.",
@@ -259,7 +259,7 @@
             "hi": "चीन बनाम तुर्की: फास्टनर लागत और गुणवत्ता तुलना 2026 के लिए न्यूनतम ऑर्डर मात्रा (MOQ) क्या है?"
           },
           "a": {
-            "en": "MOQ varies by supplier scale, setup costs and whether the order is consolidated into a full container or shipped as LCL. Minimum order quantity follows the production route.",
+            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
             "zh": "土耳其行业体量较小，起订量更灵活，可选品类相对窄。把几个品项并成一票，让柜子按重量装满而不是装半箱空气，是规格之后最大的运费杠杆。减少变体、简化涂层、不重复检验，这些动作与落在哪个国家关系不大。起订量按生产路线确定。",
             "es": "La cantidad mínima depende de la ruta de producción.",
             "fr": "La quantité minimale dépend de la route de production.",
@@ -285,7 +285,7 @@
             "hi": "चीन बनाम तुर्की: फास्टनर लागत और गुणवत्ता तुलना 2026 खरीद के लिए विशिष्ट भुगतान शर्तें क्या हैं?"
           },
           "a": {
-            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market; any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
+            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit arranged through the buyer's bank. The settlement route, documents and milestones should be agreed up front, and any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
             "zh": "电汇三成作为定金，余款凭提单副本付讫。大额单子走即期信用证。也可定金三成加信用证七成。更换产地会重置文件、检验和供应关系，这些成本头一张发票上看不出来，付款节点应挂上材质书、批次记录和装船前检验。换产地前先核实规格等效、样品批次证据、包装航线和目的地单证四件事。投产前全款预付的条件不建议采纳。付款条件按里程碑约定。",
             "es": "Las condiciones de pago se acuerdan por hitos.",
             "fr": "Les conditions de paiement sont convenues par jalons.",
