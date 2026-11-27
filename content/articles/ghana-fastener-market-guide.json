@@ -60,8 +60,8 @@
     {
       "id": "shipping",
       "heading": {
-        "en": "Shipping to Ghana",
-        "zh": "发往加纳的运输",
+        "en": "Which port handles most fastener imports into Ghana?",
+        "zh": "哪个港口承担加纳大部分紧固件进口？",
         "es": "Envíos a Ghana",
         "ar": "الشحن إلى غانا",
         "fr": "Expédition vers le Ghana",
@@ -87,8 +87,8 @@
     {
       "id": "products",
       "heading": {
-        "en": "Fastener Products for Ghana",
-        "zh": "加纳紧固件产品",
+        "en": "Which fastener grades and sizes do Ghanaian projects most often specify?",
+        "zh": "加纳项目最常指定哪些紧固件等级与规格？",
         "es": "Productos de Fijaciones para Ghana",
         "ar": "منتجات المثبتات لغانا",
         "fr": "Produits de fixation pour le Ghana",
@@ -152,7 +152,7 @@
             "ar": "ما هي رسوم الاستيراد في غانا على المثبتات؟"
           },
           "a": {
-            "en": "Import duties on fasteners range from 10-20% depending on product type. Ghana uses the ECOWAS common external tariff. Our invoices include detailed HS code classifications for customs purposes.",
+            "en": "Import duty on fasteners follows the ECOWAS common external tariff, with the rate depending on the HS heading for the product rather than one fixed figure. Bolts, nuts, washers and anchors differ in subheading, so the invoice should carry the HS classification. Duty and any import tax are assessed by the destination under the declared classification, so verify the current treatment with a clearing agent before budgeting. Confirm material, property class and finish, since these can affect the heading applied. Keep invoice, packing list and description consistent, retain the classification reference with the file.",
             "ja": "製品の種類により締結部品の輸入関税は10〜20%程度で、ECOWAS（西アフリカ諸国経済共同体）の共通外部関税が適用されます。当社のインボイスには通関用の詳細なHSコード分類を記載しており、輸入者が口岸で品目番号を照合し、関税を計算して通関手続きを進められます。見積もり時には材質、強度等級、表面処理に対応する税則項目を確認し、入港後の分類不一致による追徴や放行遅れを防ぎます。",
             "zh": "加纳紧固件进口关税按产品品类在10%至20%之间，执行西非国家经济共同体（ECOWAS）共同对外关税税则。我方发票会列明详细的HS商品编码归类，便于进口商在口岸核对税号、核算税费并办理清关；报价阶段建议按材质、强度等级和表面处理确认对应税则条目，避免到港后因归类不一致补税或延误放行。",
             "hi": "घाना में फास्टनरों पर आयात शुल्क उत्पाद के प्रकार के हिसाब से 10–20% के बीच रहता है। घाना ECOWAS के साझा बाहरी टैरिफ का इस्तेमाल करता है। हमारे इनवॉइस में सीमा शुल्क के लिए विस्तृत HS कोड वर्गीकरण दिया जाता है, ताकि कस्टम में घोषणा आसानी से हो सके।",
@@ -204,7 +204,7 @@
             "ar": "هل تتوافق مثبتاتكم مع متطلبات هيئة المعايير الغانية؟"
           },
           "a": {
-            "en": "We supply fasteners meeting ISO, DIN, and BS standards accepted in Ghana. For GSA compliance verification, we provide documentation packages including mill test certificates and quality declarations.",
+            "en": "Fasteners are supplied to ISO, DIN and BS standards accepted in Ghana; the GSA verification package includes mill test certificates and quality declarations where the project requires them. The offer should state the standard number, property class and finish per line, so an inspector at Tema can match carton marks to the certificate. Test certificates follow the order spec; if the tender names third-party inspection or a document template, raise it at enquiry. Keep the MTR tied to heat number and lot, and align declared grade and coating with the test report.",
             "ja": "ISO、DIN、BSなどガーナで通用する規格に沿って締結部品を生産しています。ガーナ標準庁（GSA）への適合確認が必要な場合、材料試験成績書、品質宣言書を含む書類一式をご用意でき、試験証明書や書類は注文に応じて提供します。見積もり時に対応規格番号、強度等級、表面処理を明記できます。第三者検査や指定書式がある場合は引き合い段階でお知らせいただくと、出荷書類を揃えやすく、納入後の書類補完の手間を減らせます。",
             "zh": "我方按ISO、DIN、BS等在加纳通行的标准组织生产紧固件。需向加纳标准局（GSA）核实合规性时，可提供材质化验单、质量声明等成套文件；测试证书与单证按订单要求提供。报价时可注明对应标准号、强度等级和表面处理，若项目指定第三方检验或文件模板，建议在询价阶段提出，便于随货配齐资料，减少到货后补做文件的时间。",
             "hi": "हम ISO, DIN और BS मानकों के अनुसार बने फास्टनर सप्लाई करते हैं, जो घाना में स्वीकार्य हैं। GSA अनुपालन की जांच के लिए हम मिल टेस्ट सर्टिफिकेट और गुणवत्ता घोषणा सहित दस्तावेज़ पैकेज उपलब्ध कराते हैं; प्रमाण-पत्र ऑर्डर पर मांग के अनुसार उपलब्ध कराए जाते हैं।",
@@ -230,7 +230,7 @@
             "ar": "هل يمكنكم التوصيل إلى مواقع التعدين في المناطق النائية؟"
           },
           "a": {
-            "en": "Yes. We coordinate with freight forwarders for delivery to mining sites in Ahafo, Akyem, Obuasi, Tarkwa, and other locations. Additional transport costs apply for remote areas.",
+            "en": "Yes, remote mining-site delivery is coordinated through freight forwarders, covering Ahafo, Akyem, Obuasi, Tarkwa and other producing areas. Remote sites may need transshipment, a vehicle change or smaller road transport; extra inland freight and port charges are quoted separately. On enquiry, give site location, road limits and unloading condition so the forwarder plans route and vehicle. Confirm the handover point and who arranges the inland leg, and keep batch marks, packing list and MTR aligned through each relay. Packing should survive the road leg, with coating and lot records kept for site receipt.",
             "ja": "可能です。フォワーダーと連携し、アハフォ、アキエム、オブアシ、タルクアなどの鉱山やその他の作業現場へ配送します。遠隔地では積み替えや小型車での乗り継ぎが必要になることがあり、追加の内陆運賃や口岸諸費用は別途計算されます。引き合い時に鉱山の所在地、道路の通行制限、荷降ろし条件をお知らせいただくと、輸送方案を立てやすく、雨季の道路状況が納期に与える影響も予測できます。",
             "zh": "可以。我方配合货运代理，把货物送到阿哈福、阿基姆、奥布阿西、塔夸等矿区及其他作业地点。偏远点位可能需要中转、换装或小型车辆接驳，额外内陆运费和口岸杂费单独核算；询价时建议提供矿区具体位置、道路通行限制和卸货条件，便于货代核算运输方案，并预判雨季路况对到货时间的影响。",
             "hi": "हां, हम फ्रेट फॉरवर्डर के साथ मिलकर अहाफो, अक्येम, ओबुआसी, तार्कवा और अन्य जगहों की खनन साइटों तक डिलीवरी का प्रबंध करते हैं। दूर-दराज के इलाकों के लिए अतिरिक्त परिवहन लागू होती है, जो साइट की दूरी और रूट के हिसाब से तय होती है।",
@@ -256,7 +256,7 @@
             "ar": "كيف تتم عملية الاستيراد في غانا للمثبتات؟"
           },
           "a": {
-            "en": "Ghana uses a destination inspection model: goods clear at Tema or Takoradi with invoice, packing list, bill of lading, certificate of origin and the Ghana Standards Authority conformity documents where applicable. Duty and VAT are assessed at entry, and valuation disputes are the usual delay.",
+            "en": "Ghana applies a destination inspection model: goods clear at Tema or Takoradi against invoice, packing list, bill of lading, certificate of origin and, where applicable, GSA conformity documents. Duty and import tax are assessed at entry, and valuation disputes are the most common delay. Before dispatch, check declared value, description and HS heading match contract and invoice, and keep pricing evidence ready for customs. Confirm whether the line needs a conformity certificate, and align the MTR, grade and coating record with the declared specification, so clearance is not held on a documentation mismatch.",
             "zh": "加纳采用目的港检验模式：货物在特马港或塔科拉迪港清关，需备发票、装箱单、提单、原产地证，适用时另附加纳标准局符合性文件。关税与增值税在入境时核定，估价争议是最常见的延误原因；发货前应核对申报价格、品名和HS编码与合同、发票一致，保留成交凭证，避免到港后因估价认定反复补料，影响提货和内陆配送安排。",
             "ja": "目的地検査方式を採用しており、テマ港またはタコラディ港で通関します。必要書類はインボイス、パッキングリスト、船荷証券、原産地証明書および必要に応じてGSA適合書類です。関税・VATは入港時に査定され、価格評価で紛争が起きやすいため、余裕を持ったスケジュール設定が必要です。",
             "hi": "घाना डेस्टिनेशन निरीक्षण मॉडल अपनाता है: सामान टेमा या ताकोरादी में इनवॉइस, पैकिंग लिस्ट, बिल ऑफ लैडिंग, सर्टिफिकेट ऑफ ओरिजिन और जहां जरूरत हो वहां GSA अनुरूपता दस्तावेजों के साथ क्लियर होता है। शुल्क और VAT प्रवेश पर लगाया जाता है, और कीमत-मूल्यांकन पर विवाद ही सबसे आम देरी की वजह बनता है।",
@@ -282,7 +282,7 @@
             "ar": "ما هي المنتجات الأكثر مبيعاً للمشترين الغانيين؟"
           },
           "a": {
-            "en": "Roofing screws, galvanized structural bolts for warehouses and mining camps, concrete anchors and drywall screws for fit-out work. The oil and gas sector buys stainless and coated hardware with full documentation.",
+            "en": "Roofing screws, galvanized structural bolts for warehouses and mining camps, concrete anchors and drywall screws for fit-out work move most often in Ghana. The oil and gas segment buys stainless and coated hardware backed by full quality documentation. Match the product to the environment: dry interior fit-out uses general-purpose lines, while mining, outdoor and oil and gas exposure call for the specified material, coating class and test documents. On enquiry, record grade, finish and application, and keep standard reference and inspection record with the batch. A focused family repeat settles faster than spreading across commodities.",
             "zh": "需求品类包括屋面螺钉、仓库与矿区营地用镀锌结构螺栓、混凝土锚栓和装修用干墙螺钉。油气行业则采购不锈钢件和带涂层五金，并要求随附完整质量文档。报价时可按使用环境区分：干燥室内装修以通用件为主，矿区、户外和油气环境需明确材质、镀层等级和检测单证，避免只按表面相近的低价件替换导致早期锈蚀或验收不过。",
             "ja": "屋根用ビス、倉庫や鉱山キャンプ向けの亜鉛めっき構造ボルト、コンクリートアンカー、内装工事用の石膏ボードビスが需要品目です。石油・ガス分野ではステンレス品や表面処理金具を、完全な品質書類付きで調達します。見積もり時は使用環境で区分できます。屋内の乾燥した内装には汎用品が中心ですが、鉱山、屋外、石油ガス環境では材質、めっき等級、検査書類を明確にし、外観の似た安価な代替品による早期錆や検査不合格を避けてください。",
             "hi": "रूफिंग स्क्रू, गोदामों और खनन शिविरों के लिए गैल्वनाइज्ड स्ट्रक्चरल बोल्ट, कंक्रीट एंकर और फिट-आउट के काम के लिए ड्राईवॉल स्क्रू सबसे ज़्यादा चलते हैं। तेल और गैस क्षेत्र स्टेनलेस तथा कोटेड हार्डवेयर पूरे दस्तावेज़ के साथ खरीदता है।",
@@ -308,7 +308,7 @@
             "ar": "أي ميناء ومسار يجب أن أخطط له؟"
           },
           "a": {
-            "en": "Tema handles most container traffic for Accra and the north, Takoradi serves the western mining belt. Port congestion and demurrage at Tema are seasonal, so add buffer time to the schedule rather than assuming a fixed transit.",
+            "en": "Tema handles most container traffic for Accra and the northern corridor, while Takoradi serves the western mining belt. Congestion and demurrage at Tema are seasonal, so build buffer time rather than assuming a fixed transit. The inland leg and berth waiting can stretch in rainy periods, concentrated mining seasons and tight sailings, so confirm gateway and vessel schedule at order confirmation. Match port to location: Accra and northern works through Tema, western mines through Takoradi. Keep documents ready before arrival, and align packing marks and delivery address to the chosen corridor.",
             "zh": "特马港承担阿克拉及北部地区大部分集装箱货量，塔科拉迪港服务西部矿区带。特马的港口拥堵和滞港费具有季节性，排期时应预留缓冲时间，不要按固定转运天数估算；雨季、矿区出货集中期和船期紧张时，内陆段与等候靠泊都会拉长，建议在订单确认时锁定港口、船期和卸货计划，并跟踪到港状态以便及时清关提货。",
             "ja": "テマ港はアクラおよび北部地域へのコンテナ貨物の大半を扱い、タコラディ港は西部の鉱山地帯を支えています。テマ港の混雑やデマレージは季節的に発生するため、スケジュールには余裕を持たせ、固定の輸送日数で見積もらないでください。雨季、鉱山出荷の集中期、船腹逼迫時には内陆区間や接岸待ちが伸びます。注文確定時に港、船期、荷降ろし計画を固め、入港状況を追跡して速やかに通関・引き取りできるようにします。",
             "hi": "टेमा बंदरगाह अक्रा और उत्तरी इलाकों का अधिकांश कंटेनर ट्रैफिक संभालता है, जबकि ताकोरादी पश्चिमी खनन पट्टी को सेवा देता है। टेमा में बंदरगाह भीड़भाड़ और डिम्यरेज मौसमी होती है, इसलिए निश्चित पारगमन समय मानने की जगह शेड्यूल में अतिरिक्त समय रखें।",
