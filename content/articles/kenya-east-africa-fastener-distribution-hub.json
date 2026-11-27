@@ -114,8 +114,8 @@
     {
       "id": "case-2",
       "heading": {
-        "en": "Case 2: Environmental / Corrosion Failure in Kenya East Africa Fastener Distribution Hub 2026: Mombasa Port and Inland Container Depots",
-        "zh": "案例 2：肯尼亚东非紧固件分销枢纽：蒙巴萨港与内陆仓2026 中的Environmental / Corrosion Failure",
+        "en": "Where does corrosion affect port-side and depot-held fastener stock first?",
+        "zh": "锈蚀最先影响港口与仓库存放的哪批紧固件？",
         "es": "Caso 2: Fallo por corrosión ambiental — Kenia, centro de distribución de fijaciones en África Oriental 2026",
         "ar": "الحالة 2: العطل البيئي أو التآكل — محور توزيع المثبتات بكينيا",
         "fr": "Cas 2: Défaillance par corrosion — Kenya, plaque tournante des fixations : port de Mombasa en 2026",
@@ -222,8 +222,8 @@
     {
       "id": "summary",
       "heading": {
-        "en": "Summary: Key Takeaways for Kenya East Africa Fastener Distribution Hub 2026: Mombasa Port and Inland Container Depots Buyers",
-        "zh": "总结：肯尼亚东非紧固件分销枢纽：蒙巴萨港与内陆仓2026 买家的关键要点",
+        "en": "Which specification and acceptance checks catch a hub failure before installation?",
+        "zh": "哪些规格与验收检查能在安装前拦下枢纽批次问题？",
         "es": "Resumen: Conclusiones clave para compradores de Kenia, centro de distribución de fijaciones en África Oriental 2026",
         "ar": "ملخص: النقاط الرئيسية لمشتري مركز توزيع أدوات التثبيت في كينيا وأفريقيا الشرقية 2026: ميناء مومباسا ومستودعات الحاويات الداخلية",
         "fr": "Résumé : Points clés pour le hub de distribution de fixations du Kenya en Afrique de l'Est 2026 : Acheteurs du port de Mombasa et des dépôts de conteneurs intérieurs",
@@ -260,7 +260,7 @@
             "hi": "फास्टनरों में सबसे आम विफलता मोड क्या है?"
           },
           "a": {
-            "en": "The most common failure mode in Kenya East Africa Fastener Distribution Hub 2026: Mombasa Port and Inland Container Depots is supplier-side quality control deficiency, accounting for over 60% of documented cases. Contributing factors include: missing ISO 9001 certification, inadequate mill test certificates, lack of pre-shipment third-party inspection, and incorrect grade marking. B2B buyers should require documentation before payment release and engage independent testing agencies for batch verification.",
+            "en": "Distribution-hub cases follow five failure patterns: a manufacturing defect in depot-held stock; corrosion on port-side and stored fastener stock; mechanical overload on a hub-held structural fixing; a grade and specification mismatch in the mixed distributor package; and a mismatch between the mill certificate and the distributor lot. Verification covers material checks against ASTM reference methods, salt-spray testing, tensile and fatigue checks, grade checks against the purchase specification, and a mill certificate audit. Release payment only after independent batch verification, the same checklist for distributor approval and repeat-batch acceptance through the inland depot.",
             "zh": "到港清关之后，整柜拉进内罗毕、纳瓦沙一带的内陆场站拆零分销，问题往往在二次分拣时才浮出来：螺栓表面的等级钢印与随货材质书批次对不上，有的件规格相近却被归到同一份清单里。这类错货多源于出厂前没有逐批核对标记与单据，供应商把不同等级的库存混装发货；分销端再靠仓管肉眼甄别，既难追批次，也无法在零售分装前拦住。买家若在付款前完成留样复检与单据核对，隐患就不会拖到内陆拆箱环节才暴露。",
             "es": "El modo de falla más común en Kenya East Africa Fastener Distribution Hub 2026: Mombasa Port and Inland Container Depots es la deficiencia de control de calidad del lado del proveedor.",
             "fr": "Le mode de défaillance le plus courant dans Kenya East Africa Fastener Distribution Hub 2026: Mombasa Port and Inland Container Depots est la déficience du contrôle qualité côté fournisseur.",
@@ -286,7 +286,7 @@
             "hi": "B2B खरीदार फास्टनर विफलताओं को कैसे रोक सकते हैं?"
           },
           "a": {
-            "en": "Five prevention measures: 1) Specify ISO 9001 certification and original mill test certificates in purchase orders, 2) Engage third-party inspection agencies (SGS, Bureau Veritas, Intertek) for pre-shipment verification, 3) Conduct independent lab testing on samples before payment release, 4) Match fastener grades to application requirements, 5) Train procurement teams on fastener specifications and standards. For African infrastructure projects, see the <a href=\"/en/industry/south-africa-sabs-fastener-import-requirements\">South Africa SABS import requirements</a> for documentation specifics.",
+            "en": "The preventive sequence for hub distributors runs in five steps. Write ISO-aligned quality documentation and mill test certificate requirements into the purchase order, bring in a third-party inspection agency for pre-shipment checks, test samples independently before payment, brief procurement staff on fastener grades and standards, and keep document control through depot storage. On stored stock, check the finish and corrosion condition before release; on structural fixings, verify the load category and grade marking. Keep the certificate traceable to the distributor lot. For East African projects, see the <a href=\"/en/industry/south-africa-sabs-fastener-import-requirements\">South Africa SABS import requirements</a> for documentation specifics.",
             "zh": "分销枢纽最容易犯的错，是把抽检放在拆箱分销之后。可行的做法有五条：采购订单先写死供应商须提供 ISO 9001 体系证书与原始材质书，货到蒙巴萨再补就没意义了；装运前请 SGS、Bureau Veritas、Intertek 这类机构到厂验货；付款前对留样做独立实验室复检；按用途定等级，分销备货不要一个等级打天下；仓管与订单员要看得懂等级标记和材质书批次号。整柜抵蒙巴萨后进内罗毕、纳瓦沙的内陆集装箱场站拆零，真正能验的窗口只在工厂这一端。",
             "es": "Cinco medidas de prevención: 1) Especificar ISO 9001, 2) Inspección de terceros, 3) Pruebas de laboratorio independientes, 4) Especificaciones coincidentes, 5) Capacitación.",
             "fr": "Cinq mesures de prévention : 1) Spécifier ISO 9001, 2) Inspection tierce, 3) Tests laboratoire indépendants, 4) Spécifications correspondantes, 5) Formation.",
