@@ -60,8 +60,8 @@
     {
       "id": "packaging",
       "heading": {
-        "en": "Packaging Types and Standards",
-        "zh": "包装类型和标准",
+        "en": "How should fasteners be packaged to prevent ocean-route corrosion?",
+        "zh": "紧固件如何包装才能防止海运途中锈蚀？",
         "es": "Tipos y Normas de Embalaje",
         "ar": "أنواع التغليف والمعايير",
         "fr": "Types et normes d'emballage",
@@ -114,8 +114,8 @@
     {
       "id": "documentation",
       "heading": {
-        "en": "Shipping Documentation",
-        "zh": "运输文件",
+        "en": "Which shipping documents prevent customs delays on fastener exports?",
+        "zh": "哪些运输单证能避免紧固件出口清关延误？",
         "es": "Documentación de Envío",
         "ar": "وثائق الشحن",
         "fr": "Documentation d'expédition",
@@ -206,7 +206,7 @@
             "de": "Was ist die Mindestbestellung für Seefracht?"
           },
           "a": {
-            "en": "Minimum is typically 500kg for sea freight, but 1000kg+ is more economical. Full container loads (15-25 tonnes) offer the best unit shipping cost.",
+            "en": "Sea-freight volume is planned against container route and product mix rather than one fixed minimum. Smaller consignments may consolidate as less-than-container cargo, while a full container load packs out across one voyage. The split depends on size mix, packing density and destination route, so record product range, finish and estimated volume before the loading plan is set. Standard catalog items consolidate more readily than mixed specials, and batch identity must stay legible through consolidation. Confirm carton count and packing configuration with the forwarder, and keep quantity condition and packing record aligned to the booked cargo.",
             "zh": "海运通常 500 公斤起运，1000 公斤以上更经济；整柜（15–25 吨）的单位运费最低。选择运输方式时核对货量、交付时间和库存能力：小批量样品或急件可走空运快递，常规批量走海运拼箱，长期稳定用量凑整柜摊薄运费。拼箱与整柜的计费口径不同，报价时按重量、体积和柜型分别核算；装箱前核对各规格数量和包装，避免柜内空间浪费或超重。",
             "ja": "海上輸送の最小は通常500kgですが、1,000kg以上の方が単価面でより経済的です。15〜25トンのフルコンテナが輸送単価を最も低く抑えられます。少量では混載便の割増しと手配コストが上乗せされるため、発注数量は荷姿と港混載の条件を含めて見積もりと照らし合わせてください。",
             "hi": "समुद्री शिपमेंट की न्यूनतम मात्रा आम तौर पर 500 किलोग्राम होती है, लेकिन 1000 किलोग्राम से ज़्यादा भराव ज़्यादा किफ़ायती रहता है। पूरे कंटेनर लोड (15–25 टन) पर इकाई ढुलाई लागत सबसे कम आती है; छोटी मात्रा के हिसाब से कुल खरीद तभी निश्चित करें जब वजन और गंतव्य दोनों तय हों, वरना इकाई भाव में बड़ा फर्क आ सकता है।",
@@ -232,7 +232,7 @@
             "de": "Wie verhindere ich Korrosion während der Seefracht?"
           },
           "a": {
-            "en": "Use VCI (Vapor Corrosion Inhibitor) packaging materials, desiccant packs, and ensure fasteners are completely dry before packing. For highly corrosive environments, specify hot-dip galvanized or stainless steel fasteners.",
+            "en": "Corrosion prevention in ocean shipping starts with a dry part and a sealed inner barrier. Use VCI packaging and desiccant packs where the route or season warrants, and ensure fasteners are dry before packing. For corrosive outdoor or coastal environments, specify hot-dip galvanized or stainless fasteners rather than relying on packaging alone. Label cartons with grade, finish and lot number, and keep coated, stainless and plated lines segregated so finish is not mixed on the shelf. Check the inner seal, moisture barrier and marks before the container closes, retain the coating certificate with the batch.",
             "zh": "海运防锈可使用 VCI（气相防锈）包装材料与干燥剂，并确保紧固件在包装前完全干燥。高腐蚀环境下应直接指定热浸镀锌或不锈钢紧固件。包装时按规格分隔，避免金属件在柜内摩擦损伤镀层；集装箱内保持干燥，干燥剂放置到位，外包装防潮破损要修补。到货后先检查包装状态和表面有无锈点，长期海运或露天堆放的货物适当增加防锈措施，入库前擦干残留潮气。",
             "ja": "海上輸送中の腐食を防ぐには、VCI（気化性防錆）の包装材と乾燥剤を使い、梱包前にファスナーを完全に乾かします。腐食環境が強い荷向けでは、溶融亜鉛めっき品またはステンレス鋼品を指定します。梱包内の湿度を抑え、結露の原因となる温度変化を避けることで、港到着後の赤錆発生を減らせます。",
             "hi": "VCI (वाष्प जंग अवरोधक) पैकिंग सामग्री और सूखा-अवशोषक पैकेट इस्तेमाल करें, और पैकिंग से पहले फास्टनर पूरी तरह सूखे होने चाहिए। ज्यादा संक्षारक वाले वातावरण के लिए हॉट-डिप गैल्वनाइज़्ड या स्टेनलेस स्टील फास्टनर चुनें; सतह और पैकिंग दोनों परिस्थिति के हिसाब से तय करें, ताकि पहुंचने पर सतह पर दाग या जंग न दिखे।",
@@ -258,7 +258,7 @@
             "de": "Können Sie die Spedition zu afrikanischen Häfen organisieren?"
           },
           "a": {
-            "en": "Yes. TradeGo works with experienced international freight forwarders who handle African port clearance and inland transport. We can quote CIF (Cost, Insurance, Freight) to destination port or FCA (Free Carrier) from Chinese port.",
+            "en": "Freight forwarding to African ports can be arranged through an experienced forwarder who handles clearance and inland transport. The supplier can quote to the destination port or hand over at the Chinese origin port, what the buyer manages. Confirm the Incoterm, gateway port and inland destination before booking, and keep invoice, packing list and bill of lading aligned to the routed cargo. For landlocked works, clarify the border crossing and onward haulage as a separate leg from the ocean crossing. Confirm loading, document release and clearance contacts early, with batch marks readable through each handover.",
             "zh": "可以安排。我方与经验丰富的国际货代合作，可处理非洲港口清关与内陆运输；可报目的港 CIF 价，或中国港 FCA 价。选择术语时先确认买方在目的港的清关能力和收货安排：希望供应商统筹到港的用 CIF，买方自行安排货代和清关的用 FCA。报价中列明费用分界、单证责任和目的港对接方式，内陆配送范围提前核对；货运方案按目的港和货量确认，避免术语和责任划分含糊。",
             "ja": "はい。経験豊富な国際フォワーダーと提携し、アフリカ港の通関と内陸輸送を手配します。仕向け港渡しのCIFか、中国港渡しのFCAの条件で見積もれます。港と内陸の経路、必要な書類を前もって確認し、通関での手戻りが出ないよう荷姿と書類を整えます。貨物の品名と総重量を連絡いただければ、経路と費用の目安をまとめられます。",
             "hi": "हां। हम अनुभवी अंतरराष्ट्रीय फ्रेट फारवर्डर के साथ काम करते हैं, जो अफ्रीकी बंदरगाह पर कस्टम्स निकासी और अंदरूनी परिवहन संभालते हैं। गंतव्य बंदरगाह तक सीआईएफ (लागत, बीमा, माल ढुलाई) भाव दिया जा सकता है, या चीनी बंदरगाह से एफसीए (फ्री कैरियर) शर्त पर। व्यापार शर्त और बीमा सीमा ऑर्डर के अनुसार पहले तय कर लें, ताकि भाव में कौन-सा खर्च शामिल है यह साफ रहे।",
@@ -284,7 +284,7 @@
             "de": "Was passiert, wenn Befestiger beschädigt ankommen?"
           },
           "a": {
-            "en": "Document any damage with photos at time of receipt. File claims with the shipping line within their specified time limits (typically 24-48 hours for visible damage). TradeGo assists with claims documentation and coordinates with freight partners.",
+            "en": "If fasteners arrive damaged, document the condition with photos at receipt and record the carton and lot numbers affected. Raise the claim with the carrier within the limits specified for visible damage, and keep packing list, bill of lading and inspection record with the claim file. The supplier assists with claims documents and coordinates with the freight partner, supplying MTR and packing record. Check whether the damage points to moisture, impact, mixed loading or packaging failure, and segregate the affected batch from usable stock. Resolve the claim and replacement lot before damaged parts enter installation.",
             "zh": "到货如发现损坏，收货时立即拍照留证，记录外箱、唛头和货物状态。按船公司规定的时限内提出索赔，外观破损通常需在 24–48 小时内申报；可协助整理索赔资料并对接货运合作方。清点时核对数量、规格和包装，短装、错装也一并记录在到货验收单上。索赔资料包括发票、装箱单、提单和现场照片，破损件单独存放；责任分清是运输、包装还是生产环节后，再安排补发或补货，尽量减少对现场施工的影响。",
             "ja": "到着時の破損は受け取り時に写真で証拠を残します。船社が定める期限（外観破損は通常24〜48時間）内にクレームを申請してください。当方はクレーム書類の作成を支援し、運送会社やフォワーダーとの調整を行います。破損範囲と数量を記録し、引渡し状にも記載しておくと請求の根拠が明確になります。",
             "hi": "माल मिलते ही किसी भी नुकसान की तस्वीरें लेकर दस्तावेज़ बना लें। शिपिंग लाइन की बताई समय-सीमा (दिखने वाले नुकसान के लिए आम तौर पर 24–48 घंटे) के भीतर दावा दर्ज कराएं। हम दावे के कागज़ात तैयार करने में मदद करते हैं और माल ढुलाई भागीदारों से समन्वय करते हैं; तस्वीरें और पैकिंग सूची संभालकर रखें, वरना दावा रुक सकता है।",
@@ -310,7 +310,7 @@
             "de": "Brauche ich einen Spediteur?"
           },
           "a": {
-            "en": "For small orders under 500kg, air freight or courier may be more practical despite higher per-unit cost. For larger orders, a freight forwarder optimizes costs and handles documentation. We can recommend experienced forwarders for African destinations.",
+            "en": "Whether a forwarder is needed depends on order size and destination handling complexity. Small consignments may move by air or courier where speed matters, while larger shipments use a forwarder to optimize loading and manage documents. A forwarder coordinates booking, port handling, clearance and inland transport, which matters most for first-time markets and landlocked destinations. The buyer still keeps control of specification, grade and batch records, which sit outside freight handling. Confirm route, documents and delivery address before choosing the shipping arrangement, and match consolidation to the mix so batch identity stays clean.",
             "zh": "500 公斤以下的小单，空运或快递虽然单价更高但更实用；大批量则由货代优化成本并处理单证。可推荐适合非洲目的地的货代。选择时综合货量、交期和库存：样品、急件走空运，常规批量走海运，长期订单由货代统筹订舱和清关。货代熟悉目的港流程和当地代理时，能减少单证延误和滞港风险；合作前核对其覆盖港口、内陆线路和费用口径，再确定运输安排。",
             "ja": "500kg未満の小口は、単位コストが高くても航空便やクーリエが現実的です。大口ではフォワーダーがコストの最適化と書類対応を担います。アフリカ向けの仕向け地に慣れたフォワーダーを紹介できます。小口か大口かで輸送手段と書類が変わるため、重量と納期を先に伝えてください。",
             "hi": "500 किलोग्राम से छोटे ऑर्डर के लिए हवाई ढुलाई या कूरियर, इकाई लागत ज़्यादा होने पर भी, ज़्यादा व्यावहारिक रहता है। बड़े ऑर्डर में फ्रेट फारवर्डर खर्च अनुकूल करता है और दस्तावेज़ संभालता है। अफ्रीकी गंतव्यों के लिए अनुभवी फारवर्डर की सिफारिश भी की जा सकती है; छोटे और बड़े ऑर्डर का खर्च ढांचा अलग होता है, इसलिए मात्रा के हिसाब से तरीका चुनें।",
@@ -336,7 +336,7 @@
             "de": "Wie zuverlässig sind Transitzeit-Schätzungen?"
           },
           "a": {
-            "en": "Base transit times are reliable, but add 5-10 days for African ports to account for potential congestion, customs clearance delays, and inland transport. Port delays are common at Durban, Lagos, and some other African ports.",
+            "en": "Base transit estimates are reasonable for planning, but African ports can shift on congestion, clearance and inland transport. Build margin for port dwell, customs release and the road leg to site, rather than treating base sailing time as a fixed delivery date. Gateways such as Durban, Lagos and other African ports differ in clearance speed, and landlocked routes add an onward leg. Confirm carrier schedule and clearance contacts with the forwarder, and keep the document file ready before arrival so delays do not compound. Track through each handover and hold a realistic delivery window.",
             "zh": "基础航程时间相对可靠，但发往非洲港口建议再加 5–10 天，以应对拥堵、清关延误和内陆运输；德班、拉各斯等港口延误较常见。排交货计划时不要按最短航程倒排工期，留出缓冲给港口排队和清关。内陆国家到港后还要接陆运，偏远目的地再预留转运时间；旺季和舱位紧张时段提前订舱，到货进度保持跟踪，发现延误及时调整后续批次发运节奏。",
             "ja": "基本の輸送日数は信頼できますが、アフリカ港では混雑、通関遅延、内陸輸送を見込んで5〜10日を上乗せしてください。ダーバンやラゴスなどの港では遅延がよく発生します。工事の工程に間に合わせるには、港の混み具合と通関書類の準備状況を含めて日程を逆算してください。",
             "hi": "आधारभूत यात्रा समय भरोसेमंद है, लेकिन अफ्रीकी बंदरगाहों के लिए संभावित भीड़भाड़, कस्टम्स निकासी में देरी और अंदरूनी परिवहन के लिए 5–10 दिन और जोड़ लें। डरबन, लागोस और कुछ दूसरे अफ्रीकी बंदरगाहों पर रुकावट आम है; स्थान पहुंचने की योजना इसी बफर के साथ बनाएं, ताकि उतारने का काम अटके नहीं।",
