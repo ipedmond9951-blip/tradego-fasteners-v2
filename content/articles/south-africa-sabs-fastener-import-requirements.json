@@ -233,7 +233,7 @@
             "hi": "दक्षिण अफ्रीका SABS फास्टनर आयात आवश्यकताएं: 2026 गाइड ऑर्डर के लिए विशिष्ट लीड टाइम क्या है?"
           },
           "a": {
-            "en": "Lead time depends on whether the item is a standard specification or a custom one, on the shipping mode (LCL or FCL), and on customs clearance efficiency; urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
             "zh": "进口拖期往往不在生产环节，而在证书与实物对不上：炉号、规格、镀层等级要在订单上写死，对照 SABS 1195 或相应 ISO、DIN 标准版本核对，批次材质证明发货前备齐，免得在港口来回补发函件，项目投标引用的标准年号也要一并标注清楚。交期按订单核算。",
             "es": "El plazo se cotiza por pedido.",
             "fr": "Le délai est établi par commande.",
@@ -259,7 +259,7 @@
             "hi": "दक्षिण अफ्रीका SABS फास्टनर आयात आवश्यकताएं: 2026 गाइड के लिए न्यूनतम ऑर्डर मात्रा (MOQ) क्या है?"
           },
           "a": {
-            "en": "MOQ varies by supplier scale, setup costs and whether the order is consolidated into a full container or shipped as LCL. Minimum order quantity follows the production route.",
+            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
             "zh": "建议把同标准（ISO 898-1 或 DIN 931）的 M10、M12 规格合并，包装与批次号统一。受规管品类发货前确认当地标志要求，非规管件凭 ISO、DIN 标准与 3.1 材质证明随货通行，目的港的报关品名与 HS 子目也要在箱单上保持一致。起订量按生产路线确定。",
             "es": "La cantidad mínima depende de la ruta de producción.",
             "fr": "La quantité minimale dépend de la route de production.",
@@ -285,7 +285,7 @@
             "hi": "दक्षिण अफ्रीका SABS फास्टनर आयात आवश्यकताएं: 2026 गाइड खरीद के लिए विशिष्ट भुगतान शर्तें क्या हैं?"
           },
           "a": {
-            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market; any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
+            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit arranged through the buyer's bank. The settlement route, documents and milestones should be agreed up front, and any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
             "zh": "大额走即期信用证。也可定金三成、信用证七成搭配。三层证据分开看：工厂自检记录、独立实验室抽样报告、买方到港验货。SGS、Bureau Veritas 属第三方验货机构，装船前检验不等于产品合格认证，合同里分别列明，抽样比例与判定标准写入采购附录。付款条件按里程碑约定。",
             "es": "Las condiciones de pago se acuerdan por hitos.",
             "fr": "Les conditions de paiement sont convenues par jalons.",
