@@ -60,7 +60,7 @@
     {
       "id": "sizes-specs",
       "heading": {
-        "en": "Sizes and Specifications",
+        "en": "Which diameter, length, and thread specs should a lag screw connection match?",
         "es": "Tamaños y especificaciones",
         "ar": "الأحجام والمواصفات",
         "fr": "Tailles et spécifications",
@@ -69,7 +69,7 @@
         "ja": "サイズと仕様",
         "de": "Größen und Spezifikationen",
         "hi": "आकार और विनिर्देश",
-        "zh": "尺寸与规格"
+        "zh": "木螺钉连接要匹配哪些直径、长度与螺纹规格？"
       },
       "body": {
         "en": "<p><a href=\"/products#coach-screws\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Lag screws</a> range from 1/4\" to 1\" diameter and 1\" to 16\" length. The larger the diameter and length, the higher the load capacity. For structural timber connections in African construction, M8-M12 (5/16\"-1/2\") diameter is most common. Length selection depends on: at least 2x the side member thickness should penetrate the receiving member, plus adequate thread engagement in the main member. Standards-based procurement requires continuous learning as ISO, ASTM, DIN, and GB standards are revised every 3-5 years. Subscribe to standards update notifications and review specifications annually. The most common standards used in international fastener trade are ISO 898-1 (mechanical properties), ISO 3506-1 (stainless), ISO 3269 (acceptance inspection), ISO 4042 (coatings), and ISO 1502 (thread gauges). For B2B buyers, building a standards reference library with at least the top 20 standards relevant to your product mix is essential.</p><p>Sizes are quoted by diameter and length, and the useful ratio is the thread length to the shank: a longer unthreaded shank lets the head clamp the upper member without the thread trying to jack it away, so for two-part joints the threaded portion should sit entirely in the lower member. Diameter selection follows the load and the timber: 8 to 10 mm for decking and light framing, 12 mm and above for sleepers, bearers and structural posts. Length should reach at least two thirds into the receiving member, and nothing less than 40 mm engagement in softwood.</p>\n<p>Head style decides how the fixing is finished. Hex heads take a socket or spanner and transmit high torque, which suits structural work; countersunk heads leave a flush surface on decking and platform work; wafer and pan heads spread load on thin panels. Wherever the head will be visible or walked on, specify the head form explicitly, because a hex head left proud on a deck becomes a trip point and a rust trap within a season.</p>",
@@ -133,7 +133,7 @@
     {
       "id": "material-coatings",
       "heading": {
-        "en": "Materials and Coatings",
+        "en": "Which material and coating suit an exterior timber joint?",
         "es": "Materiales y revestimientos",
         "ar": "المواد والطلاءات",
         "fr": "Matériaux et revêtements",
@@ -142,7 +142,7 @@
         "ja": "材質とコーティング",
         "de": "Materialien und Beschichtungen",
         "hi": "सामग्री और कोटिंग्स",
-        "zh": "材料与涂层"
+        "zh": "户外木节点该选哪种材料与镀层？"
       },
       "body": {
         "en": "<p>Coating thickness should be stated rather than assumed. A \"galvanised\" screw may carry anywhere between 20 and 80 microns depending on process, and the difference is a service life measured in years. On long-life structures we also recommend a defined thread form, because a coarse thread in a hard timber splits more readily than a fine one and the split is not visible until the deck starts to move.</p>",
