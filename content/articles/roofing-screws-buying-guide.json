@@ -60,8 +60,8 @@
     {
       "id": "length-and-penetration",
       "heading": {
-        "en": "Length: Sheet Plus Purlin Plus 25 mm",
-        "zh": "长度：板厚加檩条再留 25 mm",
+        "en": "How is the correct roofing screw length calculated for sheet and purlin?",
+        "zh": "屋面螺钉适用长度如何按板材与檩条计算？",
         "es": "Longitud: chapa más correa más 25 mm",
         "fr": "Longueur : tôle + panne + 25 mm",
         "pt": "Comprimento: chapa mais terça mais 25 mm",
@@ -114,8 +114,8 @@
     {
       "id": "coating-choice",
       "heading": {
-        "en": "Coating: Ruspert, HDG or Plain Zinc",
-        "zh": "镀层：Ruspert、热镀锌还是普通镀锌",
+        "en": "Which coating class matches coastal, industrial and inland exposure?",
+        "zh": "沿海、工业与内陆工况各选何种镀层等级？",
         "es": "Recubrimiento: Ruspert, galvanizado en caliente o zinc simple",
         "fr": "Revêtement : Ruspert, galvanisé à chaud ou zinc simple",
         "pt": "Revestimento: Ruspert, galvanizado a quente ou zinco simples",
@@ -248,7 +248,7 @@
             "ja": "屋根ねじの長さはどのくらいにすべきですか？"
           },
           "a": {
-            "en": "Length equals sheet thickness plus purlin or batten penetration plus about 25 mm of driving allowance. Too short and the thread never fully engages the purlin; too long and the point breaks through where it can be seen or catch.",
+            "en": "Length equals sheet thickness plus purlin or batten penetration plus about 25 mm of driving allowance. Too short and the thread never fully engages the purlin; too long wastes steel and can interfere with the sheet. Confirm the engaged thread in the main member, not the total shank, and match the screw to the sheet profile and purlin gauge. Record sheet thickness, purlin material and length on the order, and keep spare thread clear of the working face. If purlin spacing or wind zone changes, recheck length rather than carrying one size across the roof.",
             "zh": "屋面钉长度等于板厚加檩条或龙骨咬合深度，再加约二十五毫米的打入余量。过短则螺纹无法完全咬住檩条，过长则钉尖穿出背面。选型按屋面板厚、檩条规格和固定位置计算长度，不能凭经验取通用尺寸；屋脊、板端和风大部位加密固定点。螺钉直径和间距按板型与载荷确定，配对应垫圈。订单中写明板厚、檩条规格和屋面条件，供应商匹配钉长；到货按长度分箱标注，现场安装核对咬合深度，避免短钉滑出或长钉穿透防水层。",
             "hi": "लंबाई = शीट की मोटाई + परलिन या बैटन में घुसाव + लगभग 25 mm ड्राइविंग भत्ता। बहुत छोटा होने पर धागा परलिन में पूरी तरह नहीं जमता; बहुत लंबा होने पर पॉइंट उस जगह से निकल जाता है जहां वह दिखता है या चीज़ों में अटकता है।",
             "ru": "Длина равна толщине листа плюс заглубление в прогонину или обрешётку плюс около 25 мм запаса на завинчивание. Слишком короткий — резьба не зацепит прогонину целиком; слишком длинный — наконечник пробивает наружу, где его видно или за что он цепляет.",
@@ -274,7 +274,7 @@
             "ja": "座金は本当に防水の役割を果たしますか？"
           },
           "a": {
-            "en": "Yes. The EPDM washer under the screw head seals the hole, and it only works if the screw is driven to the correct depth - over-driving crushes the washer, under-driving leaves a gap. Replace cracked washers rather than reusing them.",
+            "en": "Yes. The EPDM washer under the head seals the hole, and it works only if the screw is driven to the correct depth. Over-driving crushes the washer and splits the seal; under-driving leaves a gap around the hole that water tracks through. Match washer material and seal to coating and climate, and inspect the seat after driving for a clean flattened ring without tearing. Replace crushed or brittle washers on the line, and use the correct bit and driver speed. Check ridge, lap and edge fixings first, where wind and water concentrate.",
             "zh": "垫圈确实负责防水：螺钉头下的 EPDM 垫圈封住钻孔，但只有拧到正确深度才有效——拧过头会压溃垫圈，拧不到位则留下缝隙。开裂、老化的垫圈应及时更换，不能靠紧固螺钉补偿。选型匹配螺钉直径和屋面材料，垫圈材质按日晒和温度环境选择；安装扭矩控制到位，使垫圈贴合而不压烂。订单中写明垫圈材质和配套数量，供应商随钉配齐；屋面定期检查垫圈老化和渗漏点，发现硬化开裂及时换钉，避免雨水沿孔渗入造成板下锈蚀。",
             "hi": "हां, स्क्रू के सिरे के नीचे लगा EPDM वॉशर छेद को सील करता है, और यह तभी चलता है जब स्क्रू सही गहराई तक लगाया जाए। ज्यादा कसने से वॉशर कुचल जाता है, कम कसने पर गैप रह जाता है। फटा वॉशर दोबारा लगाने के बजाय बदल दें।",
             "ru": "Да. Уплотнительная шайба EPDM под головкой самореза запечатывает отверстие и работает только при правильной глубине завинчивания: перетяжка давит шайбу, недотяжка оставляет зазор. Треснувшие шайбы меняют, а не ставят повторно.",
@@ -300,7 +300,7 @@
             "ja": "海岸沿いの屋根にはどのめっきが適しますか？"
           },
           "a": {
-            "en": "Ruspert or comparable multilayer coatings and hot-dip galvanising both hold up on coastal roofs; plain thin zinc does not. Match the coating class to the distance from the sea, and specify it explicitly because the same screw is sold in several coating grades.",
+            "en": "Ruspert or comparable multilayer coatings and hot-dip galvanising both hold up on coastal roofs; plain thin zinc does not. Match the class to exposure: inland sheltered frames can use a lighter finish, while coastal, wet or industrial air needs heavier zinc or a multilayer system. Reference the galvanizing standard and coating thickness on the order, and match washers and pins to the same class. Avoid mixing dissimilar finishes on one joint where corrosion contact is possible. Confirm the coating basis against local climate and the data sheet before selecting the line.",
             "zh": "沿海屋面可选用 Ruspert 类多层涂层或热浸镀锌，普通薄锌层不耐沿海环境。涂层等级按距海距离匹配，并在规格书中明确写出。沿海湿度、盐雾和降雨对镀层消耗快，外露屋面不宜用薄镀层；不锈钢可作为高腐蚀部位的补充。选型区分屋面朝向、距海远近和通风条件，镀层厚度和表面处理写入订单；不同镀层、等级分开装箱。供应商按对应防腐工艺供货，到货核对镀层标记和批次；沿海项目定期检查锈点和镀层破损，及时补涂或更换，延长屋面连接寿命。",
             "hi": "Ruspert या इस जैसी बहु-परत कोटिंग और हॉट-डिप गैल्वनाइज़िंग दोनों तटीय छतों पर टिकी रहती हैं; सादा पतला जिंक नहीं चलता। कोटिंग श्रेणी समुद्र से दूरी के अनुसार चुनें, और उसे स्पष्ट लिखें, क्योंकि एक ही स्क्रू कई कोटिंग ग्रेड में बिकता है।",
             "ru": "Многослойное покрытие типа Ruspert или аналогичное и горячее цинкование держатся на прибрежных крышах; простой тонкий цинк — нет. Класс покрытия подбирают по расстоянию до моря и прописывают явно, поскольку один и тот же саморез продаётся в нескольких степенях покрытия.",
