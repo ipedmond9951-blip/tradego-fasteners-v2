@@ -516,3 +516,10 @@ python3 scripts/content_gate.py --slug X # 单篇
 239. **FAQ 答案补长的正确姿势是"补可核细节到 80–95 词"，不是把句子拉长；已 ≥80 词的答案别动。** 判据：本轮 20 篇 en 均长从 23–69 补到 87–94，补的全是标准号/性能等级/镀层与盐雾小时/单证类别/检验节点；反过来，若把一条 145 词的答案也"顺手压到 95"，会丢事实且拉低均长口径下的分项。做法：逐条量词数，只动 <80 的；每条补 1–2 个可核细节，落到 80–95；自报"均长 108"要能解释成"另有一条原本就长的没动"。规则：**长度是结果，可核细节才是内容**。
 
 240. **补回被删内容一律"段尾追加"，且补之前先过合规筛。** 判据：本轮 5 处补回全部是段尾追加 1 句（包装 4 语种 25kg 与捆扎、供应商 ASTM B117），补后 `content_gate` 无新增 BLOCK、分不降；而三张 `zim-construction` 对比表虽然也"被删"，表里是 `Cost per kg (USD) 2.50–4.00` 与 `4–6 weeks`，按红线宁可不补。规则：**"恢复原状"不等于"恢复原文"，先问这句能不能上线**。
+
+241. **港口城市名只出现在航线/Incoterm/时效语境，绝不作产地表述。** 判据：全库扫 14 个中国港口城市（Shanghai/Qingdao/Ningbo/Tianjin/Shenzhen/Xiamen/Guangzhou/Lianyungang/Yantian/Shekou/Fuzhou/Dalian/Nansha/Qinggang）得 32 篇 / 458 处，其中区位表述正则（`based in|located in|our factory in|位于X|坐落于X` + 城市名）命中 0；现有 458 处全是 `Shanghai/Ningbo → Beira: 22-26 days`、`FOB Shanghai/Ningbo`。做法：航线端点可写；报价条件写 `FOB <中国港口>` 或更稳的 `FOB a Chinese port nominated in the offer`；我方位置一律 `China`（各语种写法），禁 `Shanghai, China`、`located in Ningbo`。规则：**港名是物流坐标，不是产地**。
+
+242. **FAQ 模板题（typical lead time / MOQ / payment terms）是数字最高发区：答案只写流程与结构，不写周数、吨位、单价、百分比。** 判据：全库 148 条命中里，`Typical lead time for …`、`MOQ for …`、`payment terms for …` 三类占七成以上，形态高度一致（"4-6 weeks … add 3-4 weeks … 5-7 days at 3-5x freight"）。做法：交期换倒排链（现场日期→生产排期→订舱→清关→内陆），MOQ 换模具摊销/拼单，付款换"款项挂可验证里程碑（检验放行/订舱/单证齐）并与检验条款同文确认"。规则：**删的是数字，不是事实；每条仍要能回答"多久/多少/怎么付"**。
+
+243. **数字债扫描正则必须要求数字前置，否则台账虚高。** 判据：`USD\s?[\d,.]+` 会把 `many customers cannot access USD.` 判成金额（字符类里含 `.`），按它出的是 96 篇 / 182 条，改成 `USD\s?\d`、`\$\s?\d`、`\d+(\.\d+)?\s?%\s?(higher|lower|more)`、`\d+\s?[-–]\s?\d+\s?(weeks|tons|tonnes)` 复扫为 80 篇 / 148 条。规则：**先验收判据再出清单，误判一条会连带改坏一句正确表述**。
+244. **多文件逐笔提交撞上 `.git/index.lock` 时等 8–10 秒重试，不删 lock。** 判据：本轮 14 笔提交里 7 笔首跑报 `index.lock: File exists`（并发线正在提交），等 8 秒后全部成功；期间 `git status` 仍是那 37 条他人 ` M`，未被误扫。做法：逐笔提交用固定 msg 文件 + 显式路径，失败按 slug 复检状态再补；**任何情况下不用 `git add -A`**。规则：**并发仓库里的"提交失败"先当作锁竞争，不是数据问题**。
