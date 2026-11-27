@@ -86,8 +86,8 @@
     {
       "id": "weight-ranges-and-what-each-is-for",
       "heading": {
-        "en": "Weight Ranges and What Each Is For",
-        "zh": "克重范围与各自用途",
+        "en": "Which gsm weight suits waterproofing carrier, reinforcement and geotextile separation?",
+        "zh": "防水载体、加筋与土工隔离各选多少克重无纺布？",
         "ar": "نطاقات الوزن واستخدام كل منها",
         "es": "Gamas de peso y uso de cada una",
         "fr": "Gammes de grammage et usage de chacune",
@@ -221,8 +221,8 @@
     {
       "id": "sourcing-and-quality-checks",
       "heading": {
-        "en": "Sourcing and Quality Checks",
-        "zh": "采购与质量检查",
+        "en": "Which tolerances and test values should be locked on a non-woven fabric order?",
+        "zh": "无纺布订单应锁定哪些公差与测试指标？",
         "ar": "المصادر وفحوصات الجودة",
         "es": "Aprovisionamiento y controles de calidad",
         "fr": "Approvisionnement et contrôles qualité",
@@ -274,7 +274,7 @@
             "ja": "防水用途ではどの目付を指定しますか？"
           },
           "a": {
-            "en": "60 to 80 gsm as a carrier and separator under membranes, 100 to 150 gsm where mechanical reinforcement or puncture protection is needed. Heavier grades belong to geotextile filtration and civil works.",
+            "en": "Specify 60–80 gsm as carrier and separator under membranes, 100–150 gsm where mechanical reinforcement or puncture protection is needed. Heavier grades belong to geotextile and filtration, not thin waterproofing carriers. Match gsm to load: separation under membrane needs the lighter carrier, drainage or stabilization the heavier geotextile. Record weight, roll width and role on the specification, and confirm tensile and elongation basis. Do not over-specify heavy fabric for a carrier role, and do not carry a light carrier into drainage or roadbed filtration.",
             "zh": "防水工程无纺布的克重按用途选择。作为垫层和隔离层，常用六十到八十克每平方米；需要机械加强或防穿刺的部位选一百到一百五十克每平方米；更重的等级属于土工布过滤和土建工程范畴。选型先看铺设位置是隔离、加强还是过滤，再对应克重，不能把重型规格一律用在普通垫层。铺设方向、搭接宽度和固定方式随基层条件确定；现场裁切和卷宽要与卷材排布匹配。订单中把克重、幅宽、卷长和用途写明，便于验收时核对强度与重量是否达到该部位要求。",
             "hi": "झिल्ली के नीचे कैरियर और अलग करने वाली परत के लिए 60 से 80 GSM; जहां यांत्रिक सुदृढ़ीकरण या पंचर सुरक्षा चाहिए, वहां 100 से 150 GSM। ज़्यादा मोटी श्रेणियां भू-टेक्सटाइल छाननी और सिविल कामों के लिए हैं, वॉटरप्रूफिंग की तह के लिए उस स्तर तक ज़रूरी नहीं; परत का काम और नीचे की सतह देखकर ही वजन चुनें।",
             "ru": "60–80 г/м² берут как подложку и разделитель под мембранами; 100–150 г/м² — там, где нужна механическая армирующая роль или защита от прокола. Более плотные марки относятся к фильтрационным геотекстильным материалам и гражданским работам, в гидроизоляцию их закладывают по отдельному расчёту.",
@@ -300,7 +300,7 @@
             "ja": "不織布には紫外線安定化が必要ですか？"
           },
           "a": {
-            "en": "For exposed covers and temporary outdoor use yes - specify a stabilised grade. Buried or covered applications do not require it, and paying for it there is wasted cost.",
+            "en": "For exposed covers and temporary outdoor use, yes, specify a UV-stabilised grade; buried or covered applications do not need it, and paying for stabilisation there is wasted cost. Unstabilised polypropylene degrades under intense sun and heat, with chalking, embrittlement and loss of tear strength before the cover reaches its service life. Match the stabilisation to whether the fabric sees direct sunlight, and record the UV grade on exposed outdoor rolls. Keep buried geotextile or membrane separators on the plain grade, and inspect any exposed fabric for brittleness or surface powdering before reuse.",
             "zh": "无纺布是否做抗紫外线处理取决于暴露程度。外露覆盖和临时户外使用应选用稳定化等级；埋入或被覆盖的应用不需要抗紫外处理，在这类部位额外付费属于浪费。选型核对材料牌号和稳定剂添加情况，长期外露件优先选稳定化产品；覆土或封闭环境按普通等级即可。交付时区分外露与隐蔽批次，避免混用造成成本虚高或过早老化。规格书中写明使用位置和暴露时间，供应商据此提供对应等级，现场铺贴后按暴露条件安排检查和维护。",
             "hi": "खुली ढकन और अस्थाई बाहरी उपयोग के लिए हां: स्थिरीकृत ग्रेड बताएं। जमीन के नीचे या ढके हुए काम में इसकी जरूरत नहीं होती, और वहां इस पर पैसा देना बर्बादी है। यह देखें कि फैब्रिक सूरज की रोशनी में खुला रहेगा या नहीं; उसी हिसाब से स्टेबिलाइज़्ड या सामान्य ग्रेड लें, ताकि बाद में धूप से कमजोर न हो।",
             "ru": "Для открытых покрытий и временного уличного использования — да, закладывают марку со стабилизатором. При захоронении или закрытом применении УФ-стабилизация не требуется, и платить за неё в таком случае незачем: это лишняя статья расходов.",
@@ -326,7 +326,7 @@
             "ja": "注文前にどの公差を確定しておくべきですか？"
           },
           "a": {
-            "en": "Polymer grade, weight tolerance, tensile strength in machine and cross direction, elongation, roll width, roll length and packing. These are the values that decide whether the roll performs on site.",
+            "en": "Lock polymer grade, weight tolerance, tensile strength in machine and cross direction, elongation, roll width, length and packing before ordering. These values decide whether the fabric works as carrier, separator or filtration layer, and belong in the enquiry rather than the supplier's standard range. State gsm target and tolerance, tensile test direction and roll format for site handling. Keep the test record tied to batch, and reject a lot where weight or strength falls outside range. Confirm packing protects rolls from moisture and sunlight in storage and transit.",
             "zh": "下单前应锁定的公差指标包括原料牌号、重量偏差、纵向和横向拉伸强度、延伸率、卷宽、卷长和包装。这些数值决定卷材在现场能否正常铺设和受力。方向强度要分别标注，避免只给一个笼统强度；卷宽卷长与基层排布对应，减少拼接浪费。验收时按批次核对克重和强度记录，外观缺陷、撕裂和破损卷应挑出。采购订单把指标、测试方式和抽样要求写清，供应商按对应牌号供货；到货后按幅宽和卷长堆放，保持干燥，避免受潮影响使用。",
             "hi": "पॉलिमर ग्रेड, वजन सहनशीलता, मशीन व क्रॉस दिशा में तनाव शक्ति, बढ़ाव, रोल की चौड़ाई, रोल की लंबाई और पैकिंग। ये वह मान हैं जो तय करते हैं कि रोल साइट पर चलेगा या नहीं। ऑर्डर से पहले हर मान खरीद विशिष्टता में लिखें, और नमूने पर ये बातें मिलाकर जांच लें, ताकि डिलीवरी के बाद फर्क न निकले।",
             "ru": "До заказа фиксируют марку полимера, допуск по весу, прочность на растяжение вдоль и поперёк основы, относительное удлинение, ширину и длину рулона, упаковку. Именно эти значения определяют, отработает ли рулон на площадке, а не общие слова о качестве материала.",
