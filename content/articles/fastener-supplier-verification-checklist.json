@@ -60,7 +60,7 @@
     {
       "id": "5-core-questions",
       "heading": {
-        "en": "The 5 Core Verification Questions",
+        "en": "Which five questions separate a real factory from a trading intermediary?",
         "es": "Las 5 Preguntas Clave de Verificación",
         "ar": "الأسئلة الخمسة الأساسية للتحقق",
         "fr": "Les 5 questions essentielles de vérification",
@@ -69,7 +69,7 @@
         "ja": "5つの核心的な検証質問",
         "de": "Die 5 zentralen Verifizierungsfragen",
         "hi": "5 मुख्य सत्यापन प्रश्न",
-        "zh": "五个核心验证问题"
+        "zh": "哪五个问题能区分真工厂与贸易中间商？"
       },
       "body": {
         "en": "<p>Any legitimate <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a> supplier should be able to answer these five questions definitively:\n\n1. WHO are your actual manufacturing facilities? (Request factory address, photos, video tour)\n2. WHAT quality management system do you operate? (ISO 9001, factory audit reports)\n3. HOW do you ensure consistent quality? (In-house testing, third-party inspection options)\n4. WHAT is your export track record? (References from other countries, especially in your region)\n5. PROOF of claims? (Business license, export licenses, bank statements, client references) Standards-based procurement requires continuous learning as ISO, ASTM, DIN, and GB standards are revised every 3-5 years. Standards-based procurement requires continuous learning as ISO, ASTM, DIN, and GB standards are revised every 3-5 years. Subscribe to standards update notifications and review specifications annually. The most common standards used in international fastener trade are ISO 898-1 (mechanical properties), ISO 3506-1 (stainless), ISO 3269 (acceptance inspection), ISO 4042 (coatings), and ISO 1502 (thread gauges). For B2B buyers, building a standards reference library with at least the top 20 standards relevant to your product mix is essential.</p>",
@@ -156,7 +156,7 @@
     {
       "id": "red-flags",
       "heading": {
-        "en": "Red Flags to Watch For",
+        "en": "Which supplier warning signs should stop a verification order?",
         "es": "Señales de Alerta a Tener en Cuenta",
         "ar": "علامات التحذير التي يجب الانتباه إليها",
         "fr": "Signaux d'alarme à surveiller",
@@ -165,7 +165,7 @@
         "ja": "注意すべき危険信号（レッドフラッグ）",
         "de": "Warnsignale, auf die zu achten ist",
         "hi": "ध्यान देने योग्य खतरे के संकेत",
-        "zh": "需要警惕的危险信号"
+        "zh": "哪些供应商警示信号应叫停验厂订单？"
       },
       "body": {
         "en": "<p>These warning signs indicate potential problems:\n\n1. Factory refuses to provide physical address or uses virtual office\n2. Unusually low prices (30%+ below market)\n3. Requests full payment before production or sample approval\n4. No verifiable export history to Africa or your target region\n5. Communication via free email services (Gmail, Hotmail) instead of company domain\n6. Reluctance to provide references from existing clients\n7. Quality certifications are only photos - cannot verify with issuing organization\n8. Pressure to rush decision or limited-time discounts\n9. Factory photos that don't match described production capabilities\n10. No clear return policy or quality guarantee The verification checklist applies to both initial supplier qualification and ongoing batch inspection. The verification checklist applies to both initial supplier qualification and ongoing batch inspection. For high-risk applications (load-bearing structural, pressure vessels, mining, marine), add fatigue testing, salt-spray testing (ASTM B117), torque-tension testing, and post-installation inspection. The cost of additional verification is 0.1-0.3% of order value, while undetected quality failures can be 10-100x the order value in damages.</p>",
@@ -301,7 +301,7 @@
             "ja": "新しいファスナー供給元に聞く核心的な質問は何ですか？"
           },
           "a": {
-            "en": "Which standard and grade do you actually produce, what coating thickness do you control, can you show a mill test certificate tied to the heat number, what is your reject rate, and who are your three largest customers. Vague answers to these are the fastest way to spot a trader posing as a factory.",
+            "en": "Ask which standard and grade the supplier produces, the coating thickness it controls, whether an MTR tied to the heat number can be shown, the reject rate, and three largest customers. Vague answers spot a trader posing as a factory. Require standard, class and finish on the enquiry, and check the certificate matches grade and batch. Ask for export record and regional references, and follow up named customers directly. A supplier that cannot tie mark, MTR and lot together is an intermediary. Record answers in writing before any order.",
             "zh": "实际按什么标准与等级生产、控制的镀层厚度是多少、能否提供对应炉号的材质证明、不良率多少、最大的三个客户是谁。这几个问题答得含糊，基本可判断是贸易商冒充工厂。询价阶段就要求对方注明执行标准、性能等级和镀层规格，并提供与批次对应的炉号材质证明；能说明产线、检测设备和主要服务行业的，通常更接近自产工厂，回答只给笼统价格而回避标准与证书的应谨慎。",
             "hi": "पूछें: आप असल में कौन सा मानक और ग्रेड बनाते हैं; कोटिंग मोटाई किस हद तक नियंत्रित करते हैं; हीट नंबर से जुड़ी मिल टेस्ट सर्टिफिकेट दिखा सकते हैं; अस्वीकार दर कितनी है; और आपके सबसे बड़े तीन ग्राहक कौन हैं। इन सवालों पर धुंधला जवाब ट्रेडर के फैक्ट्री बत कर आने का सबसे तेज़ संकेत है।",
             "ru": "По какому стандарту и классу он реально делает продукцию, какую толщину покрытия контролирует, может ли показать сертификат завода-изготовителя с номером плавки, каков процент брака и кто три его крупнейших заказчика. Размытые ответы на эти пункты — самый быстрый признак того, что перед вами торговец, выдающий себя за завод.",
@@ -327,7 +327,7 @@
             "ja": "工場点検では実際に何を確認すべきですか？"
           },
           "a": {
-            "en": "Raw material traceability from wire rod to finished lot, heat-treatment and coating lines with recorded parameters, gauges and hardness testers in calibration, and packing checks. Walk the warehouse: mixed grades on one shelf is a systemic risk, not a small housekeeping issue.",
+            "en": "Check raw material traceability from rod to finished lot, heat-treatment and coating lines with recorded parameters, calibrated gauges and hardness testers, and packing. Walk the warehouse: mixed grades on one shelf is a systemic risk, not housekeeping. Follow rod through forming, heat treatment, coating and finished stock, keeping batch identity at each stage. Confirm tools are calibrated and records link to the lot. Look for segregated storage by grade and coating, and check labels, packing and moisture protection at dispatch. Record findings by area, and hold gaps open until records or line are shown.",
             "zh": "从线材到成品的追溯、热处理与镀层产线的参数记录、量具与硬度计是否在校准有效期内、包装检验。要去仓库看——不同等级混放同一货架是系统性风险，不是小卫生问题。现场审核沿原料仓、成型、热处理、表面处理到成品仓走一遍，核对每道工序是否有记录和留样；计量器具应贴校准标签，仓库分区清晰、批次可追溯，发现等级混放或记录断档应列为整改项。",
             "hi": "वायर रॉड से लेकर तैयार लॉट तक माल की ट्रेसेबिलिटी, हीट-ट्रीटमेंट और कोटिंग लाइन के दर्ज पैरामीटर, कैलिब्रेशन में गेज और हार्डनेस टेस्टर, और पैकिंग जांच। गोदाम में घूम कर देखें: एक ही शेल्फ पर अलग-अलग ग्रेड रखना छोटी सफाई-समस्या नहीं, बल्कि प्रणालीगत जोखिम है।",
             "ru": "Прослеживаемость сырья от катанки до готовой партии, линии термообработки и покрытия с записанными параметрами, калиброванные калибры и твердомеры, проверку упаковки. Обойдите склад: смешанные классы на одной полке — это системный риск, а не мелкий бытовой порядок.",
@@ -353,7 +353,7 @@
             "ja": "注文を止めるべき危険兆候は何ですか？"
           },
           "a": {
-            "en": "Refusing a factory visit, quoting a grade they cannot certify, offering to 'adjust' head markings, no fixed address or only a trading licence, and pressure for full prepayment to a personal account. Any one of these justifies walking away.",
+            "en": "Refusing a factory visit, quoting a grade they cannot certify, offering to 'adjust' head markings, no fixed address or only a trading licence, and pressure for full prepayment to a personal account are warning signs. Any one justifies walking away. A certificate sent as a photo only, free-email contact, or unreachable references count the same. Check registered address against the claimed site, and verify licence and export status independently. A short deadline or pressure to skip documentation is another flag. Record each sign on the file, and do not bulk-order while a flag remains.",
             "zh": "拒绝参观工厂、报的等级无法出证、提出可以“改打”头部标记、没有固定厂址只有贸易执照、以及催促全款打到个人账户。任一条都足以放弃这笔订单。合同阶段还应核对对方营业执照厂址与实际生产场地是否一致，材质证明能否按炉号提供；凡是允许随意更换标记、回避第三方检验或要求绕开对公付款的，都属于应直接停止合作的风险信号。",
             "hi": "फैक्ट्री विजिट से इनकार; ऐसे ग्रेड का उद्धरण देना जिसके दस्तावेज नहीं बन सकते; हेड मार्किंग बदलने की पेशकश; निश्चित पता न होना या सिर्फ ट्रेडिंग लाइसेंस; और पूरी अग्रिम रकम निजी अकाउंट में डालने का दबाव। इनमें से कोई एक भी मौजूद हो तो वहां से हट जाना उचित है।",
             "ru": "Отказ в визите на завод, объявление класса, который невозможно подтвердить, предложение «поправить» маркировку головки, отсутствие постоянного адреса или только торговое свидетельство, давление на полную предоплату на личный счёт. Любого из этих признаков достаточно, чтобы уйти.",
