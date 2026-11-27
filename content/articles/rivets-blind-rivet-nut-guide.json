@@ -127,7 +127,7 @@
     {
       "id": "rivet-grip-material",
       "heading": {
-        "en": "Rivet Material and Coating Selection",
+        "en": "Which rivet material and coating match the joined sheets and exposure?",
         "es": "Selección de Material y Recubrimiento del Remache",
         "ar": "اختيار مادة البرشام والطلاء",
         "fr": "Choix du matériau et du revêtement des rivets",
@@ -136,7 +136,7 @@
         "ja": "リベット材質と表面処理の選定",
         "de": "Niete Material- und Beschichtungsauswahl",
         "hi": "रिवेट सामग्री और कोटिंग चयन",
-        "zh": "铆钉材料与涂层选择"
+        "zh": "铆钉材料与镀层如何匹配被连接板件与工况？"
       },
       "body": {
         "en": "<p>Rivet material must be compatible with the sheet materials and environment: Aluminum rivets (most common) — lightweight, corrosion-resistant, suitable for aluminum and steel sheets; use with aluminum or steel sheets. Steel rivets — stronger than aluminum, use in steel structures where galvanic corrosion is not a concern; hot-dip galvanized for outdoor use. Stainless steel rivets — maximum corrosion resistance for marine environments, food processing, chemical plants. For African coastal applications (Mombasa, Lagos, Durban), always use stainless steel 316 pop rivets with stainless steel sheets or matched aluminum with closed-end aluminum rivets. Actual market prices fluctuate with raw material costs (steel, zinc, nickel), energy costs, labor costs, and currency exchange rates. For accurate comparison, request identical RFQs from 3-5 qualified suppliers and compare landed cost (product + shipping + insurance + duties). The lowest unit price is rarely the lowest total cost of ownership.</p><p>Material pairing follows galvanic logic as much as strength. Aluminium bodies with aluminium or zinc-plated steel mandrels are standard for aluminium sheet, but a steel mandrel left in place inside an aluminium structure is a small galvanic cell and will corrode in humid service. Stainless rivets suit stainless and coated steel, and are the right answer for coastal and wash-down work. Copper and brass rivets appear in electrical and decorative work rather than structural applications.</p>\n<p>Coating on rivets is thinner than on bolts by nature, because the body must deform. That means a coated rivet in an aggressive environment has a shorter life than the same coating on a bolt, and specifying a heavier coating class or a stainless body is the more reliable route. For a roof or a façade, the visible head should also match the sheet colour, and painted heads should be ordered with the paint reference rather than matched on site.</p> <p>Joint preparation is checked before the rivet is set. Hole diameter matches the body size, the combined sheet thickness sits inside the grip range, and a trial setting on a scrap piece confirms the tool pull stroke and the formed dome. On closed-end bodies the rear seal and the head washer are inspected after setting, since a rivet that looks sound from the front can leave water access at the back. Body and mandrel material are matched to the sheet to avoid a galvanic couple, and installed samples are checked for full clamp and a clean break of the mandrel.</p>",
@@ -154,7 +154,7 @@
     {
       "id": "rivet-nuts",
       "heading": {
-        "en": "Rivet Nuts (Threaded Inserts): Adding Threads to Sheet Metal",
+        "en": "When does a rivet nut add a strong threaded point to sheet metal?",
         "es": "Tuercas Remachables (Insertos Roscados): Añadiendo Roscas a la Chapa Metálica",
         "ar": "صواميل البرشام (الإدخالات الملولبة): إضافة ملولبات إلى الصفائح المعدنية",
         "fr": "Écrous à sertir (inserts filetés) : ajouter un filetage à la tôle",
@@ -163,7 +163,7 @@
         "ja": "リベットナット（Threaded Insert）：薄板への雌ねじ形成",
         "de": "Nietmuttern (Gewindeeinsätze): Gewinde in Blech hinzufügen",
         "hi": "रिवेट नट्स (थ्रेडेड इंसर्ट्स): शीट मेटल में थ्रेड जोड़ना",
-        "zh": "压铆螺母：在薄板上做出螺纹"
+        "zh": "何时用铆螺母在薄板上形成可靠螺纹孔？"
       },
       "body": {
         "en": "<p>Rivet <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nuts</a> (also called threaded inserts or nut inserts) solve the problem of creating a strong threaded attachment point in thin sheet metal. Installation: insert the rivet nut into a drilled hole from one side; use a specialized tool to compress (spin) the nut, forming a flange on the blind side. The result is a female thread in the sheet — M3 to M12 or #6-1/2\" threads are common sizes. Rivet <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nuts</a> are widely used in: Electrical enclosures and switchboards; HVAC equipment and air handling units; Automotive and commercial vehicle body building; Solar inverter and controller mounting. For high-risk applications (load-bearing structural, pressure vessels, mining, marine), add fatigue testing, salt-spray testing (ASTM B117), torque-tension testing, and post-installation inspection. The cost of additional verification is 0.1-0.3% of order value, while undetected quality failures can be 10-100x the order value in damages.</p><p>A rivet nut, or threaded insert, converts a thin sheet into a threaded fixing point. It is installed by pulling a mandrel that expands the collar against the far side of the sheet, leaving a thread on the near side that accepts a normal bolt. That makes it the correct answer wherever a component must be removable and the sheet is too thin for a tapped thread: covers, brackets, panels, equipment housings, and any assembly that will be serviced.</p>\n<p>Installation quality decides whether the insert holds. The hole must be the specified size and round, the sheet must be within the insert's thickness range, and the setting tool must be adjusted for that insert rather than for the last job. An insert set with too little stroke spins in the hole; one set with too much distorts the sheet around it. Both failures look identical from the outside, which is why a sample setting on the actual sheet, checked by torqueing a bolt into the insert, is worth doing before a production run.</p>",
@@ -268,7 +268,7 @@
             "ja": "ポップリベットと構造用リベットの違いは何ですか？"
           },
           "a": {
-            "en": "Structural rivets (such as CherryMAX or Avdel rivets) are designed for load-bearing aerospace and industrial applications. They have higher shear strength (typically 700-1500 kg per rivet) and are installed with special pneumatic tools. Standard pop rivets (3.2-6.4mm) are for non-structural sheet metal joining. For critical structural connections, specify structural rivets or use bolts instead.",
+            "en": "Structural rivets such as CherryMAX or Avdel are for load-bearing aerospace and industrial use. They have a sealed bulb, higher clamp and shear, and a retained mandrel; standard pop rivets are lighter sheet-to-sheet fasteners for general assembly. Compare clamp, shear and peel before choosing: structural rivets carry the joint load, pop rivets suit lighter non-structural panels. Match material and coating to the sheets and exposure, and record rivet type, grip range and body diameter on the order. For vibration or load-bearing joints, verify the structural designation and certification rather than a general blind rivet.",
             "zh": "结构铆钉（如 CherryMAX、Avdel 等类型）面向承载的航空和工业应用，抗剪强度较高，单钉通常可达较高载荷，工艺和材料要求也更严格；抽芯铆钉一般用于单面可达、非关键非结构的连接。选型先判断连接是否受力、是否需要可拆卸以及装配空间。结构部位按载荷选结构铆钉，普通薄板连接用抽芯铆钉；铆钉直径、长度和夹持范围与板厚匹配。订单中写明基材板厚、预计载荷和装配条件，供应商匹配铆钉类型；到货核对强度等级和批次，避免把普通抽芯钉用于结构连接。",
             "hi": "स्ट्रक्चरल रिवेट्स (जैसे CherryMAX या Avdel) लोड-बेयरिंग एयरोस्पेस और औद्योगिक कामों के लिए बने होते हैं; इनकी शियर ताकत अधिक होती है, आम तौर पर प्रति रिवेट 700–1500 kg, और इन्हें खास न्यूमेटिक टूल से लगाया जाता है। सामान्य पॉप रिवेट (3.2–6.4 mm) गैर-स्ट्रक्चरल शीट मेटल जोड़ने के लिए है। महत्वपूर्ण स्ट्रक्चरल कनेक्शन में स्ट्रक्चरल रिवेट चुनें या बोल्ट का उपयोग करें।",
             "ru": "Конструкционные заклёпки, например CherryMAX или Avdel, рассчитаны на несущие авиационные и промышленные соединения. У них выше прочность на срез, обычно 700–1500 кг на заклёпку, монтаж идёт специальным пневмоинструментом. Обычные pop-заклёпки диаметром 3.2–6.4 мм служат для ненесущего соединения листового металла. Для ответственных несущих узлов берут конструкционные заклёпки либо заменяют их болтами.",
@@ -294,7 +294,7 @@
             "ja": "ポップリベットは必要なら外せますか？"
           },
           "a": {
-            "en": "Yes. Drill through the center of the rivet head with a bit slightly larger than the rivet body diameter — this destroys the rivet and allows the pieces to be removed. For closed-end rivets, drill completely through. Be aware this creates a hole that may need to be filled or used for a bolt replacement.",
+            "en": "Yes. Drill through the rivet head center with a bit slightly larger than the body diameter, destroying the rivet so the parts separate. The removed rivet cannot be reused, so inspect the hole and fit a new rivet of the same grip and material. Protect the sheet from drill wander, and deburr the hole before refitting. On painted or coated panels, check finish damage and touch up after reassembly. Record grip range and body diameter so the replacement matches the original joint, and do not oversize the hole beyond the body.",
             "zh": "抽芯铆钉可以拆下：用略大于铆钉本体直径的钻头从钉头中心钻穿，破坏铆钉后即可取下构件。封闭型铆钉的钻除方式按其结构操作，钻孔时控制直径，避免损伤母材。拆卸属于破坏性工序，取下后原铆钉不能重复使用，须换新。钻孔定位在钉头中心，钻头尺寸和转速按材料选择；薄板构件注意固定，防止钻孔变形。更换前核对新铆钉的直径、长度和夹持范围与原连接一致；保留旧钉和板材检查记录，判断是否存在松动或腐蚀原因，避免同类失效重复出现。",
             "hi": "हाँ, रिवेट बॉडी के व्यास से थोड़े बड़े ड्रिल बिट से रिवेट हेड के बीच से ड्रिल करें; इससे रिवेट नष्ट हो जाता है और टुकड़े अलग किए जा सकते हैं। क्लोज़्ड-एंड रिवेट के लिए पूरी तरह से ड्रिल करें। ध्यान रहे कि इससे एक छेद रह जाता है, जिसे भरना पड़ सकता है या बोल्ट लगाने के काम में लाया जा सकता है।",
             "ru": "Да. Через центр шляпки сверлят сверлом чуть больше диаметра тела заклёпки: так заклёпка разрушается и детали разделяются. У закрытых заклёпок сверлят насквозь. Нужно учитывать, что остаётся отверстие, которое потом заделывают или используют под болт на замену.",
@@ -320,7 +320,7 @@
             "ja": "クローズドエンドのポップリベットはいつ使いますか？"
           },
           "a": {
-            "en": "Use closed-end (sealed) pop rivets when: the joint must be watertight (outdoor enclosures, marine applications); the application involves liquids or gases (tanks, pipes); corrosion prevention is critical (galvanic separation between materials); the rivet may be exposed to pressure differential. The sealed end prevents water ingress and eliminates galvanic corrosion between the mandrel and rivet body.",
+            "en": "Use closed-end, sealed pop rivets when the joint must be watertight, such as outdoor enclosures, marine panels or weather-exposed sheets. A sealed body keeps moisture out of the blind side, while open-end rivets let water and air through the hollow stem. Match material to the sheet and environment, and check grip range against combined sheet thickness. Closed-end rivets also suit electrical enclosures where dust or moisture must not enter, where the back side is inaccessible. Record sealed type, body diameter, grip and coating on the order, and confirm the seal basis for the exposure.",
             "zh": "以下场合使用封闭型（密封）抽芯铆钉：接头必须水密（外露箱体、船舶应用）；涉及液体或气体（罐体、管路）；对防腐要求高、需要阻止水汽和颗粒进入连接内部。封闭型钉端密封，适合潮湿和户外环境；普通开口型用于一般干燥连接。选型区分是否要求密封、介质种类和暴露条件；板厚与钉长夹持范围匹配。订单中写明应用环境和密封要求，供应商配套封闭型铆钉；到货检查钉端密封形态和表面处理，安装后抽查密封性，避免开口钉用在潮湿部位导致锈蚀。",
             "hi": "क्लोज़्ड-एंड (सील्ड) पॉप रिवेट तब लगाएँ जब जोड़ में पानी न घुसे: बाहरी एनक्लोज़र, समुद्री अनुप्रयोग; तरल या गैस वाले काम (टैंक, पाइप); जंग से बचाव ज़रूरी हो (सामग्रियों का गैल्वेनिक अलगाव); या रिवेट दबाव अंतर के संपर्क में हो। सील्ड सिरा पानी रोकता है और मैंड्रल व रिवेट बॉडी के बीच गैल्वेनिक जंग रोकता है।",
             "ru": "Закрытые (герметичные) заклёпки ставят, когда стык должен быть водонепроницаемым (уличные корпуса, морские условия), когда работа идёт с жидкостями или газами (баки, трубы), когда важна защита от коррозии и гальваническая развязка материалов, либо если заклёпка подвержена перепаду давления. Герметичный торец не пускает воду и убирает гальваническую коррозию между сердечником и телом заклёпки.",
