@@ -87,8 +87,8 @@
     {
       "id": "case-1",
       "heading": {
-        "en": "Case 1: Quality / Manufacturing Defect in Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion",
-        "zh": "案例 1：太阳能板支架紧固件要求：抗风载与防腐选型 中的Quality / Manufacturing Defect",
+        "en": "How does a manufacturing or material defect appear in the racking hardware batch?",
+        "zh": "支架五金批次里，制造或材料缺陷如何显现？",
         "es": "Caso 1: Calidad / defecto de fabricación — Fijaciones para paneles solares: viento y corrosión",
         "ar": "عيب الجودة أو عيب التصنيع في متطلبات مثبتات تركيب الألواح الشمسية",
         "fr": "Cas 1: Qualité / défaut de fabrication — Fixations pour panneaux solaires : vent et corrosion",
@@ -222,8 +222,8 @@
     {
       "id": "summary",
       "heading": {
-        "en": "Summary: Key Takeaways for Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion Buyers",
-        "zh": "总结：太阳能板支架紧固件要求：抗风载与防腐选型 买家的关键要点",
+        "en": "Which document and inspection checks separate a consistent solar mounting batch?",
+        "zh": "哪些单证与检验检查能筛出稳定的光伏安装批次？",
         "es": "Resumen: Conclusiones clave para compradores de Fijaciones para paneles solares: viento y corrosión",
         "ar": "ملخص: أبرز النقاط لمتطلبات مثبتات تركيب الألواح الشمسية",
         "fr": "Résumé : Points clés à retenir pour les exigences de fixation des panneaux solaires : charge due au vent et corrosion à l'intention des acheteurs",
@@ -260,7 +260,7 @@
             "hi": "फास्टनरों में सबसे आम विफलता मोड क्या है?"
           },
           "a": {
-            "en": "The most common failure mode in Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion is supplier-side quality control deficiency, accounting for over 60% of documented cases. Contributing factors include: missing ISO 9001 certification, inadequate mill test certificates, lack of pre-shipment third-party inspection, and incorrect grade marking. B2B buyers should require documentation before payment release and engage independent testing agencies for batch verification.",
+            "en": "Solar mounting cases follow five failure patterns: a manufacturing or material defect in the racking hardware; corrosion under chloride and weather exposure on the rooftop; wind-uplift overload on racking joints; a grade and specification mismatch across the mixed racking order; and a procurement discrepancy between the mill certificate and delivered batch. Verification covers ASTM material checks, salt-spray testing under ASTM G44, tensile and fatigue checks, grade verification against the purchase specification, and an audit of the mill test certificate. Release payment only after independent batch verification, the same checklist for supplier approval and repeat-batch acceptance.",
             "zh": "沿海场地空气含盐量大，支架长期承受盐雾侵蚀，镀层偏薄或附着力不足时，表面会先出现起泡、锈点，螺杆与垫片配合处也容易锈蚀咬死；大风工况下，连接件若扭矩配套不到位、垫圈规格与等级不匹配，风载反复作用后螺纹连接逐步松动，支架节点出现位移。成因上，多数是选型时按内陆通用件配了沿海工况，出厂前又没核对镀层外观与扭矩配套，问题往往在支架竖起、经历几轮大风之后才暴露出来。",
             "es": "El modo de falla más común en Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion es la deficiencia de control de calidad del lado del proveedor.",
             "fr": "Le mode de défaillance le plus courant dans Solar Panel Mounting Fastener Requirements: Wind Load and Corrosion est la déficience du contrôle qualité côté fournisseur.",
@@ -286,7 +286,7 @@
             "hi": "B2B खरीदार फास्टनर विफलताओं को कैसे रोक सकते हैं?"
           },
           "a": {
-            "en": "Five prevention measures: 1) Specify ISO 9001 certification and original mill test certificates in purchase orders, 2) Engage third-party inspection agencies (SGS, Bureau Veritas, Intertek) for pre-shipment verification, 3) Conduct independent lab testing on samples before payment release, 4) Match fastener grades to application requirements, 5) Train procurement teams on fastener specifications and standards. For African infrastructure projects, see the <a href=\"/en/industry/south-africa-sabs-fastener-import-requirements\">South Africa SABS import requirements</a> for documentation specifics.",
+            "en": "The preventive sequence runs in five steps. Write ISO-aligned quality system documentation and mill test certificate requirements into the purchase order, bring in a third-party inspection agency for pre-shipment checks, test samples independently before payment, brief procurement staff on bolt grades and mounting standards, and follow document control through delivery. On uplift joints, add fatigue and tensile checks; for rooftop stock, record the finish and salt-spray condition. Review the supplier on delivery record rather than once at onboarding. For African solar markets, see the <a href=\"/en/industry/south-africa-sabs-fastener-import-requirements\">South Africa SABS import requirements</a> for documentation specifics.",
             "zh": "沿海支架常年顶着盐雾和大风，选型验收要把防线前置到工厂一端。等级与镀层体系先按沿海盐雾和风载工况选配，内陆通用件不能顶替；下单时就把供应商须提供的 ISO 9001 体系证书与原始材质书写进条款，批次号随货同行；出厂前安排 SGS、Bureau Veritas、Intertek 到厂，核对扭矩配套垫圈与镀层外观；放款前把批次连接件留样外送独立实验室，复检镀层状态与力学性能；采购、仓管和安装班组都要认得等级标记、垫圈配套与镀层报告。材质书与镀层报告逐批核对，问题留在工厂端解决，支架架到现场后再换件，代价会成倍放大。",
             "es": "Cinco medidas de prevención: 1) Especificar ISO 9001, 2) Inspección de terceros, 3) Pruebas de laboratorio independientes, 4) Especificaciones coincidentes, 5) Capacitación.",
             "fr": "Cinq mesures de prévention : 1) Spécifier ISO 9001, 2) Inspection tierce, 3) Tests laboratoire indépendants, 4) Spécifications correspondantes, 5) Formation.",
