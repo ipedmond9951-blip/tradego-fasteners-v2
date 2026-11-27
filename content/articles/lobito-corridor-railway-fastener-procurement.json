@@ -59,8 +59,8 @@
     {
       "id": "core-concepts-railway-fastener-standards-and-mat",
       "heading": {
-        "en": "Core Concepts: Railway Fastener Standards and Material Requirements",
-        "zh": "铁路紧固件标准与材料要求概览",
+        "en": "Which components make up the load-transferring rail fastening assembly?",
+        "zh": "传递轨道荷载的紧固件总成由哪些部件组成？",
         "es": "Conceptos básicos: normas de fijaciones ferroviarias y requisitos de materiales",
         "ar": "المفاهيم الأساسية: معايير مثبتات السكك الحديدية ومتطلبات المواد",
         "fr": "Concepts clés : normes de fixation ferroviaire et exigences matériaux",
@@ -635,8 +635,8 @@
     {
       "id": "how-to-specify-lobito-corridor-railway-fasteners",
       "heading": {
-        "en": "How-To: Specify Lobito Corridor Railway Fasteners in Five Steps",
-        "zh": "五步确定 Lobito 走廊铁路紧固件规格",
+        "en": "Which five specification steps reduce substitution and site rejection on a Lobito order?",
+        "zh": "洛比托订单上哪五步规格能减少替代与现场拒收？",
         "es": "Guía: especificación de fijaciones del corredor de Lobito en cinco pasos",
         "ar": "الدليل: تحديد مواصفات مثبتات ممر لوبيتو للسكك الحديدية في خمس خطوات",
         "fr": "Guide : spécifier les fixations ferroviaires du corridor de Lobito en cinq étapes",
@@ -700,7 +700,7 @@
             "ja": "ロビト回廊沿いの案件でなぜ段階的供給が重要ですか？"
           },
           "a": {
-            "en": "Track and structural connections typically use ISO 898-1 class 8.8 and 10.9, with 10.9 dominant where fatigue loading is high. Specify the coating together with the grade, because hydrogen embrittlement risk rises as strength goes up.",
+            "en": "Track and structural connections typically use ISO 898-1 class 8.8 and 10.9, with 10.9 dominant where fatigue loading is high. Specify the coating together with the grade, because hydrogen embrittlement risk rises as strength goes up, and high-strength bolts pair better with a non-electrolytic zinc-flake finish. Evaluate the complete fastening assembly rather than individual bolt prices, matching class to function, exposure, mechanical loading and maintenance strategy. Record the property class on the mill certificate and head marking, and confirm the chosen class against the approved railway application before the order is released.",
             "zh": "轨道与结构连接通常采用 ISO 898-1 的 8.8 级和 10.9 级，疲劳载荷较高的部位以 10.9 级为主。强度等级越高，氢脆风险越大，因此镀层必须与等级配套选定，不能只按防腐要求随意搭配。采购时应把等级、镀层与适用工况一起写进技术规格：振动与疲劳部位优先保证韧性与表面处理匹配，关键接头还要核对头部标记与批次记录，便于现场追溯到对应炉号和检验结果。",
             "hi": "ट्रैक और संरचनात्मक जोड़ों में आम तौर पर ISO 898-1 क्लास 8.8 और 10.9 इस्तेमाल होते हैं, थका देने वाला भार ज़्यादा होने पर 10.9 प्रमुख रहता है। कोटिंग का चयन ग्रेड के साथ ही करें, क्योंकि शक्ति बढ़ने पर हाइड्रोजन भंगुरता का जोखिम भी बढ़ता है।",
             "ru": "Путейские и структурные соединения обычно выполняют болтами по ISO 898-1 классов 8.8 и 10.9; там, где высока знакопеременная нагрузка, преобладает класс 10.9. Покрытие задают вместе с классом стали: с ростом прочности повышается риск водородной хрупкости (hydrogen embrittlement). В заказе объединяют класс, покрытие и режим нанесения, чтобы последующая гальваника не ослабляла высокопрочный крепеж.",
@@ -726,7 +726,7 @@
             "ja": "道路と線路の締結具で被覆をどう分けますか？"
           },
           "a": {
-            "en": "HDG to ISO 1461 suits exposed structural connections where the coating thickness can be accommodated in the thread fit. Zinc flake to ISO 10683 is the better choice for class 10.9 and 12.9 bolts, because the non-electrolytic process limits hydrogen embrittlement.",
+            "en": "HDG to ISO 1461 suits exposed structural connections where the coating thickness can be accommodated in the thread fit. Zinc flake to ISO 10683 is the better choice for class 10.9 and 12.9 bolts, because the non-electrolytic process limits hydrogen embrittlement. The choice depends on strength, exposure and assembly; plated or HDG stock can thread-seize or embrittle at high classes. Match the finish to the strength grade and the climate along the corridor, and state the standard and coating thickness on each line so the supplier cannot substitute an unsuitable finish.",
             "zh": "两种涂层各有适用场合。热浸镀锌按 ISO 1461 执行，适合外露结构连接，前提是螺纹配合能容纳镀层厚度；10.9 级和 12.9 级螺栓更宜采用 ISO 10683 锌片涂层，因为非电解工艺可以限制氢脆风险。选型时要把强度等级、装配间隙与服役环境一并考虑，镀层过厚影响螺纹拧入，工艺不当又会在高强钢上引入氢脆隐患，最终以批次盐雾与装配验证结果为准。",
             "hi": "खुले संरचनात्मक जोड़ों में, जहाँ धागे के फिट में कोटिंग मोटाई समाई हो, ISO 1461 के अनुसार HDG ठीक है। क्लास 10.9 और 12.9 बोल्ट के लिए ISO 10683 का ज़िंक फ्लेक बेहतर विकल्प है: गैर-इलेक्ट्रोलाइटिक प्रक्रिया हाइड्रोजन भंगुरता को सीमित रखती है।",
             "ru": "Горячее цинкование по ISO 1461 подходит для открытых структурных соединений, если толщина покрытия помещается в посадку резьбы. Цинковый флак по ISO 10683 — предпочтительный вариант для болтов классов 10.9 и 12.9: неэлектролитический процесс ограничивает водородную хрупкость. Решение зависит от класса прочности, наружности узла и допусков резьбы, а не только от цены покрытия.",
@@ -752,7 +752,7 @@
             "ja": "鉄道関連の書類はどのように整えますか？"
           },
           "a": {
-            "en": "Heat numbers on the mill certificate matched to the marking on each bolt, batch records for the coating, and a packing list that maps cartons to installation sections. Without that mapping the site team cannot prove which batch went into which connection.",
+            "en": "Traceability runs from the mill certificate to the installed connection: heat numbers on the certificate matched to the marking on each bolt, coating batch records, and a packing list mapping cartons to installation sections. Without that mapping the site team cannot prove which batch went into which connection. Keep material and coating records tied to carton and section so failures trace back to the correct lot. Across Angola, the DRC and Zambia, keep the same lot-mapping through stocking, and hold certificates and batch records for the governing railway or donor body.",
             "zh": "铁路项目的可追溯性要求贯穿证书、标记与装箱三个环节。钢厂质保书上的炉号要与每颗螺栓的头部标记对应，涂层批次留存记录，装箱单还要把每箱货物对应到安装区段；缺少这种对应关系，现场团队就无法证明哪一批次进入了哪一处连接。验收时按批次抽查标记、质保书与装箱映射，出现混装或标记缺失的批次应拒收，避免后期排查疲劳断裂时无法回溯责任批次。",
             "hi": "मिल सर्टिफ़िकेट पर हीट नंबर हर बोल्ट की निशानी से मेल खाए, कोटिंग के लॉट रिकॉर्ड बने रहें, और पैकिंग लिस्ट कार्टनों को लगाव वाले खंडों से जोड़े। इस जोड़ के बिना साइट टीम यह नहीं साबित कर सकती कि कौन सा लॉट किस जोड़ में गया।",
             "ru": "В сертификате завода указывают плавки (heat number), сопоставленные с маркировкой на каждом болте; ведутся партийные записи по покрытию и упаковочный лист, в котором коробки привязаны к участкам монтажа. Без такой привязки монтажная бригада не докажет, какая партия попала в то или иное соединение. Для рельсового проекта комплект прослеживаемости проверяют до приемки, а не после выявления дефекта в узле.",
