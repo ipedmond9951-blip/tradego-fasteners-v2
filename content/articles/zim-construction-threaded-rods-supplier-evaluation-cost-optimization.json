@@ -233,7 +233,7 @@
             "hi": "ज़िम्बाब्वे थ्रेडेड रॉड आपूर्तिकर्ता और लागत अनुकूलन ऑर्डर के लिए विशिष्ट लीड टाइम क्या है?"
           },
           "a": {
-            "en": "Lead time depends on whether the item is a standard specification or a custom one, on the shipping mode (LCL or FCL), and on customs clearance efficiency; urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
             "zh": "供应商评估表把产能排程、常备规格（M8 至 M24）与等级（4.6、8.8，按 ISO 898-1）列为打分项。承诺货期时区分常备现货与新开机批次，常备规格通常仓内可发，定制杆长需排队开机，防止询价把定制件按现货口径报出，牙条直度与螺纹通长缺陷在出厂前逐条过规。交期按订单核算。",
             "es": "El plazo se cotiza por pedido.",
             "fr": "Le délai est établi par commande.",
@@ -259,7 +259,7 @@
             "hi": "ज़िम्बाब्वे थ्रेडेड रॉड आपूर्तिकर्ता और लागत अनुकूलन के लिए न्यूनतम ऑर्डर मात्रा (MOQ) क्या है?"
           },
           "a": {
-            "en": "MOQ varies by supplier scale, setup costs and whether the order is consolidated into a full container or shipped as LCL. Minimum order quantity follows the production route.",
+            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
             "zh": "降本靠收敛规格种类、合并同等级订单与滚动备货，而非压单价。对比矩阵按每千支到岸成本、实际货期、证书完整度与历史不良率加权，空白单元格不记为节约，常备杆长与定尺杆长的库存策略分开评估。起订量按生产路线确定。",
             "es": "La cantidad mínima depende de la ruta de producción.",
             "fr": "La quantité minimale dépend de la route de production.",
@@ -285,7 +285,7 @@
             "hi": "ज़िम्बाब्वे थ्रेडेड रॉड आपूर्तिकर्ता और लागत अनुकूलन खरीद के लिए विशिष्ट भुगतान शर्तें क्या हैं?"
           },
           "a": {
-            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market; any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
+            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit arranged through the buyer's bank. The settlement route, documents and milestones should be agreed up front, and any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
             "zh": "牙条采购结算条款：先付三成电汇定金，余款七成凭提单副本结算。大额订单即期信用证。定金与信用证各按三成七成搭配。计价结构分段列出产品基础价、包装唛头、内陆与海运费、保险关税、在途资金与批次返工风险。EN 10204 3.1 材质证明随货，第三方验货按订单要求安排，定尺切割的端头倒角与螺纹保护在包装要求中注明。付款条件按里程碑约定。",
             "es": "Las condiciones de pago se acuerdan por hitos.",
             "fr": "Les conditions de paiement sont convenues par jalons.",
