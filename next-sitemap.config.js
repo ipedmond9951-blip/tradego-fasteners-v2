@@ -6,14 +6,21 @@ const nextSitemapConfig = {
   changefreq: 'weekly',
   priority: 0.7,
   sitemapSize: 5000,
-  exclude: ['/api/*'],
+  exclude: [
+    '/api/*',
+    // 站内搜索结果页（noindex 过滤型薄页面）与 public/search/*.json 索引产物，不进 sitemap
+    '/search/*',
+    '/search/**',
+    '/*/search/*',
+  ],
   robotsTxtOptions: {
     policies: [
       {
         userAgent: '*',
         allow: '/',
         // 2026-11-26: 去掉 /_next/ —— CSS/JS chunk 在 /_next/static 下，不能挡
-        disallow: ['/api/'],
+        // /search/ 同时覆盖结果页与 /search/*.json 索引产物，省抓取预算
+        disallow: ['/api/', '/search/'],
       },
     ],
     additionalSitemaps: [
