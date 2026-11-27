@@ -317,16 +317,16 @@
             "ja": "コトヌー港の通関はどのくらいかかりますか？"
           },
           "a": {
-            "en": "A clean, correctly declared fastener container typically clears in a few working days, but mis-declared weights, missing packing lists, or conformity queries can add a week or more. Allow 10–20 days of buffer on a first shipment.",
-            "de": "Ein korrekt deklarierter, anstandsloser Container wird in wenigen Werktagen abgefertigt; falsch deklariertes Gewicht, fehlende Packlisten oder Konformitätsfragen können eine Woche oder mehr hinzufügen. Planen Sie bei einer Erstlieferung einen Puffer von 10 bis 20 Tagen ein.",
-            "fr": "Un conteneur déclaré correctement et sans anomalie est dédouané en quelques jours ouvrables; un poids mal déclaré, une liste de colisage manquante ou une demande de conformité peuvent ajouter une semaine ou plus. Prévoyez une marge de 10 à 20 jours pour un premier envoi.",
-            "pt": "Um contêiner declarado corretamente e sem pendências é liberado em poucos dias úteis; peso declarado errado, lista de embalagem faltante ou consulta de conformidade podem somar uma semana ou mais. Para o primeiro envio, reserve uma margem de 10 a 20 dias.",
-            "es": "Un contenedor declarado correctamente y sin incidencias se despacha en pocos días laborables; pesos mal declarados, listas de embalaje faltantes o consultas de conformidad pueden sumar una semana o más. Para un primer envío conviene dejar un margen de 10 a 20 días.",
-            "ar": "حاوية المثبتات المعلنة إعلاناً صحيحاً بوزن دقيق وقائمة تعبئة كاملة تمر في أيام عمل قليلة بمحطة كوتونو. أما الوزن الخاطئ أو القائمة الناقصة أو استفسار المطابقة فيضيف أسبوعاً أو أكثر مع رسوم توقيف، وفي أول شحنة اترك هامشاً 10 إلى 20 يوماً. وتتبع المثبتات HS 7318 بإجراء مباشر، لكن الفئة المنظمة تحتاج وثائق المطابقة قبل وصول البضاعة. واحتفظ بالفاتورة وقائمة التعبئة وشهادة المنشأ في العبور الداخلي، واطلب من الوسيط مراجعة اكتمال الملف قبل رسو السفينة.",
-            "zh": "申报规范、单据齐全的紧固件货柜通常几个工作日即可完成清关；若重量申报不符、缺少装箱单，或被海关要求做合规性核查，放行时间可能再多拖一周以上。因此首票到科托努的货物建议预留 10 至 20 天的清关缓冲，提前备齐发票、装箱单和产品说明，并在发货前核对申报重量与品名，减少退单和查验带来的延误。",
-            "hi": "साफ-सुथरे और सही घोषित फास्टनर कंटेनर की निकासी कुछ कार्य दिवसों में हो जाती है, लेकिन गलत वजन घोषणा, पैकिंग लिस्ट की कमी या अनुरूपता पूछताछ में एक हफ्ता या उससे ज़्यादा लग सकता है। पहली खेप पर 10–20 दिन का अतिरिक्त बफर रखें; दस्तावेज़ पहले से मिलाकर भेजें ताकि कस्टम्स में रुकावट न आए।",
-            "ru": "Контейнер с корректной декларацией и без замечаний проходит таможню за несколько рабочих дней; неверно заявленный вес, отсутствие упаковочного листа или вопросы по соответствию добавляют неделю или больше. На первую отправку заложите запас 10–20 дней.",
-            "ja": "申告が正しく書類の揃った締結具コンテナは通常数営業日で通関しますが、重量の申告誤り、梱包リストの欠落、適合の問合せで一週間以上延びることがあります。初回貨物には10〜20日の緩衝を見込んでください。書類を積込みに先立ち照合し、港湾滞留を防ぎます。用途ごとに仕様を分け、必要な品質を満たす範囲で選定してください。"
+            "en": "A correctly declared fastener container with complete documents clears through Cotonou more readily, while weight mismatches, missing packing lists or conformity queries can extend clearance. The first shipment should carry a clearance buffer, with the invoice, packing list and product description checked against the declared weight and goods before dispatch to reduce re-entry and inspection delays. Clearance efficiency also depends on the broker, the conformity route and the port queue, so the schedule should be confirmed with the supplier and clearing agent rather than quoted as a fixed number. Lead time is quoted per order.",
+            "de": "Die Lieferzeit wird pro Auftrag kalkuliert.",
+            "fr": "Le délai est établi par commande.",
+            "pt": "O prazo é cotado por pedido.",
+            "es": "El plazo se cotiza por pedido.",
+            "ar": "يُحتسب موعد التسليم حسب الطلب.",
+            "zh": "申报规范、单据齐全的货柜在科托努更易放行；重量申报不符、缺装箱单或合规核查会延长清关。首票货预留清关缓冲，发货前把发票、装箱单和产品说明与申报重量、品名核对一致，减少退单和查验延误。清关效率还取决于报关行、符合性路线和港口排队，进度应与供方和清关代理确认，不能按固定天数报价。交期按订单核算。",
+            "hi": "लीड टाइम ऑर्डर के अनुसार तय होता है।",
+            "ru": "Срок поставки рассчитывается по заказу.",
+            "ja": "納期はご注文ごとに算出します。"
           }
         },
         {
