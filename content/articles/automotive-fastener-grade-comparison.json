@@ -87,8 +87,8 @@
     {
       "id": "case-1",
       "heading": {
-        "en": "Case 1: Quality / Manufacturing Defect in Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications",
-        "zh": "案例 1：汽车紧固件等级对比：主机厂与售后规格差异 中的Quality / Manufacturing Defect",
+        "en": "How does a manufacturing or material defect show up in an OEM-grade vehicle bolt batch?",
+        "zh": "OEM 级车用量螺栓批次里，制造或材料缺陷如何显现？",
         "es": "Caso 1: Calidad / defecto de fabricación — Comparación de grados de fijaciones para automoción",
         "ar": "الحالة 1: عيب الجودة / عيب التصنيع",
         "fr": "Cas 1: Qualité / défaut de fabrication — Classes de fixations automobiles : comparaison des normes",
@@ -222,8 +222,8 @@
     {
       "id": "summary",
       "heading": {
-        "en": "Summary: Key Takeaways for Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications Buyers",
-        "zh": "总结：汽车紧固件等级对比：主机厂与售后规格差异 买家的关键要点",
+        "en": "Which verification steps separate a compliant automotive batch from a mismatched one?",
+        "zh": "哪些核验步骤能把合规车用批次与错配批次分开？",
         "es": "Resumen: Conclusiones clave para compradores de Comparación de grados de fijaciones para automoción",
         "ar": "ملخص: النقاط الرئيسية لمقارنة درجات المثبتات السيارات: مواصفات المصنع الأصلي (OEM) مقابل مواصفات ما بعد البيع للمشترين",
         "fr": "Résumé : points clés pour les acheteurs comparant les fixations automobiles : spécifications OEM et après-vente",
@@ -260,7 +260,7 @@
             "hi": "फास्टनरों में सबसे आम विफलता मोड क्या है?"
           },
           "a": {
-            "en": "The most common failure mode in Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications is supplier-side quality control deficiency, accounting for over 60% of documented cases. Contributing factors include: missing ISO 9001 certification, inadequate mill test certificates, lack of pre-shipment third-party inspection, and incorrect grade marking. B2B buyers should require documentation before payment release and engage independent testing agencies for batch verification.",
+            "en": "Automotive cases follow five failure patterns: a manufacturing or material defect in the OEM-grade bolt or washer batch; corrosion and surface-treatment loss on road-exposed fasteners; mechanical overload on a load-bearing joint; a grade mismatch in the mixed OEM or aftermarket batch; and a mismatch between the mill certificate and delivered batch. Verification covers ASTM material checks, salt-spray testing under ASTM G44, tensile and fatigue testing, grade checks against the purchase specification, and an audit of the mill test certificate. Release payment only after independent batch verification, the same checklist for supplier approval and repeat-batch acceptance.",
             "zh": "汽车供应链里高发的差错，是拿售后渠道的目录件去替代图纸列明的规格件：目录号看似通用，直径、强度等级、表面处理与公差却未必对应整车厂要求，装到总成上出现紧固力矩不匹配、共振松动。采购若对着通用目录选件而非对照整车厂图纸与设备手册，首件确认环节又没把尺寸、标记与批次报告核齐，偏差就会随批量件流入装配线。整车级应用对连接件一致性要求高，错件混入后影响的不只是单台车。",
             "es": "El modo de falla más común en Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications es la deficiencia de control de calidad del lado del proveedor.",
             "fr": "Le mode de défaillance le plus courant dans Automotive Fastener Grade Comparison: OEM vs Aftermarket Specifications est la déficience du contrôle qualité côté fournisseur.",
@@ -286,7 +286,7 @@
             "hi": "B2B खरीदार फास्टनर विफलताओं को कैसे रोक सकते हैं?"
           },
           "a": {
-            "en": "Five prevention measures: 1) Specify ISO 9001 certification and original mill test certificates in purchase orders, 2) Engage third-party inspection agencies (SGS, Bureau Veritas, Intertek) for pre-shipment verification, 3) Conduct independent lab testing on samples before payment release, 4) Match fastener grades to application requirements, 5) Train procurement teams on fastener specifications and standards. For African infrastructure projects, see the <a href=\"/en/industry/south-africa-sabs-fastener-import-requirements\">South Africa SABS import requirements</a> for documentation specifics.",
+            "en": "The preventive sequence runs in five steps. Write ISO-aligned quality documentation and mill test certificate requirements into the purchase order, engage a third-party inspection agency for pre-shipment verification, test samples independently before payment, match fastener grades to the application, and train procurement staff on specifications. On heavily loaded joints, add fatigue and tensile checks; for road-exposed stock, record the surface treatment and salt-spray condition with the batch file. Review the supplier on delivery record rather than passing once at onboarding. For African infrastructure projects, see the <a href=\"/en/industry/south-africa-sabs-fastener-import-requirements\">South Africa SABS import requirements</a> for documentation specifics.",
             "zh": "汽车件最容易出的错，是拿售后通用目录件顶替整车厂图纸规格件，等级锚点必须是整车厂图纸与设备手册，不能对着目录号选。首件要完成图纸、尺寸与等级标记的确认，批次报告随货留档；请 SGS、Bureau Veritas、Intertek 到厂把首件确认与批次报告一起核对，第三方验货机构逐项过一遍图纸标记与批次记录；合同里约定供货方提交材质书原件与 ISO 9001 体系凭证，避免到货补不出凭据；付款前按图纸批次留封样送外部实验室，核验规格与等级标识，对照整车厂要求；采购、技术与售后班组要认得图纸标注、等级标记与批次链路。",
             "es": "Cinco medidas de prevención: 1) Especificar ISO 9001, 2) Inspección de terceros, 3) Pruebas de laboratorio independientes, 4) Especificaciones coincidentes, 5) Capacitación.",
             "fr": "Cinq mesures de prévention : 1) Spécifier ISO 9001, 2) Inspection tierce, 3) Tests laboratoire indépendants, 4) Spécifications correspondantes, 5) Formation.",
