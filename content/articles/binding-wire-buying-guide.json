@@ -61,8 +61,8 @@
     {
       "id": "diameter-choice",
       "heading": {
-        "en": "Diameter by Bar Size",
-        "zh": "按钢筋直径选线径",
+        "en": "Which wire diameter goes with which rebar size?",
+        "zh": "钢筋规格如何对应绑扎丝直径？",
         "ar": "القطر حسب مقاس القضيب",
         "es": "Diámetro según el tamaño de barra",
         "fr": "Diamètre selon la taille des barres",
@@ -249,7 +249,7 @@
             "ja": "鉄筋の径に対してどの針金径を使いますか？"
           },
           "a": {
-            "en": "Common diameters run 0.8 to 1.6 mm, with 1.2 mm covering most rebar up to about 25 mm and heavier wire used for large bar and tight spacing. Confirm against the tying pattern rather than a single rule.",
+            "en": "Common tying-wire diameters run 0.8 to 1.6 mm, with 1.2 mm covering most rebar up to about 25 mm; heavier wire suits large bar and tight spacing. Dense grids and hand tying consume stronger wire, while wide grids on large bar use less. Confirm the choice against tying pattern and bar spacing rather than one rule. The wire carries no design load after the pour, so the spec is about workability and secure fixing. Check coil gauge on a sample at receipt, since drawn wire varies between batches.",
             "zh": "绑扎丝常用直径在 0.8 至 1.6 毫米之间，1.2 毫米基本可用于 25 毫米以下的钢筋；大直径钢筋或排布密集、绑扎扣受力大的部位，选用更粗的丝。具体规格要结合绑扎方式和钢筋间距确定，不能只套一条单一标准。丝径过细容易拉断或扣不紧，过粗则弯折费力、绑扎效率低，应按现场实际搭配选择。",
             "hi": "आम व्यास 0.8 से 1.6mm तक होते हैं; 1.2mm तार लगभग 25mm तक की ज़्यादातर रीबार के लिए चलता है, बड़ी छड़ और घनी स्पेसिंग के लिए भारी तार इस्तेमाल होता है। एक ही नियम पर चलने के बजाय बाइंडिंग पैटर्न के हिसाब से व्यास पक्का करें।",
             "ru": "Ходовые диаметры — 0,8–1,6 мм; 1,2 мм закрывает большинство стержней до примерно 25 мм, для толстой арматуры и плотного шага берут более тяжёлую проволоку. Точную линию сверяют по схеме вязки на объекте, а не по одному универсальному правилу: плотность армирования и диаметр стержня сдвигают выбор в ту или другую сторону.",
@@ -275,7 +275,7 @@
             "ja": "焼きなましと亜鉛めっき、どの結束線を選びますか？"
           },
           "a": {
-            "en": "Annealed black wire is softer, easier to handle and standard for site tying. Galvanised wire costs more but resists rust in humid storage and in exposed temporary work.",
+            "en": "Annealed black wire is softer and easier to twist by hand, the standard choice for site tying where the tie will be embedded in concrete. Light surface rust on black annealed wire is not a defect once it goes into the pour, because the wire is not a structural element. Electro-galvanised wire costs more but resists rust in humid storage and exposed temporary work before casting. Choose galvanised where storage is damp, the tie stays visible, or the spec calls for protection. Keep the two finishes separate on site.",
             "zh": "退火黑丝质地更软、弯折顺手，是现场绑扎钢筋和构件的常规选择；镀锌丝价格高一些，但在潮湿堆放环境和外露的临时工程中不易生锈。选择时先看存放条件和使用时长：室内干燥、短期绑扎用退火黑丝即可；露天堆放、雨季周转或接触潮气的部位优先镀锌丝，避免绑扎后很快锈蚀污染材料。丝径应按被扎构件的粗细和绑扎力度选定，到货后核对表面是否均匀、有无断丝和锈斑。",
             "hi": "एनीलेड काला तार नरम होता है, हाथ में आसान रहता है और साइट बाइंडिंग का स्टैंडर्ड विकल्प है। गैल्वनाइज़्ड तार महंगा पड़ता है, पर नम भंडारण और खुली अस्थायी जगह में जंग से बचाता है। चुनाव भंडारण की नमी और काम खुले में है या ढकी जगह, इस पर करें।",
             "ru": "Чёрная отожжённая проволока мягче, удобнее в работе и стандарт для площадочной вязки. Оцинкованная дороже, но противостоит ржавчине во влажном хранении и на открытых временных конструкциях. Выбор зависит от условий склада и того, как долго узлы стоят перед бетонированием: зимний или влажный период смещает его в сторону оцинкованной позиции.",
@@ -301,7 +301,7 @@
             "ja": "現場ではどの程度の針金を消費しますか？"
           },
           "a": {
-            "en": "Budget roughly 5 to 10 kg per tonne of rebar as a planning reference, then verify against actual tying on the first pour. Coil weight and tolerance matter as much as the rate, because short coils waste time on site.",
+            "en": "As a planning reference, binding wire runs roughly 5 to 10 kg per tonne of rebar for ordinary building work, but verify against actual tying on the first pour. Dense spacing, small bar and hand tying push consumption higher, while large bar on wide grids uses less. Coil weight and tolerance matter as much as the rate, because short coils waste crew time on repeated changes. Budget by tying pattern, not a single average, and record actual consumption on the first pour to adjust the next order. Check coil weight on a scale at receipt.",
             "zh": "做用料计划时，可按每吨钢筋 5 至 10 千克绑扎丝作为参考量，首仓浇筑完成后再按实际绑扎用量校正后续备货。除了单位用量，卷重和公差也很重要：短卷在现场会频繁换卷、接头增多，浪费绑扎时间。采购时应关注整卷重量稳定、丝径公差达标，避免因卷材过短或偏差过大影响现场施工进度。",
             "hi": "योजना के लिए रीबार के हर टन पर लगभग 5 से 10 kg तार का हिसाब रखें, फिर पहले ढलाई पर असली बाइंडिंग से मिलाकर पुष्टि करें। तार का वजन और सहनशीलता भी दर के बराबर मायने रखती है, क्योंकि छोटी कुंडलियां साइट पर समय बर्बाद करती हैं।",
             "ru": "Планировочно закладывают примерно 5–10 кг на тонну арматуры, затем уточняют по фактической вязке на первом бетоне. Вес и допуск бухты важны не меньше нормы расхода: короткие бухты отнимают время на объекте на смену катушки, и расход по весу легко недосчитать из-за размотки остатка.",
