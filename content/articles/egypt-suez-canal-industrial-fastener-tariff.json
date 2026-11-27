@@ -136,12 +136,12 @@
     },
     {
       "heading": {
-        "en": "Egypt Suez Canal Industrial Fastener Tariff by HS Code",
+        "en": "How does the correct Egyptian tariff line get chosen across bolts, screws, nuts, and washers?",
         "ar": "الرسوم المصرية لمثبتات صناعية حسب البند HS",
         "es": "Arancel egipcio de fijaciones industriales por partida HS",
         "fr": "Tarif égyptien des fixations industrielles par position HS",
         "pt": "Tarifa egípcia de fixações industriais por código HS",
-        "zh": "按 HS 编码划分的埃及苏伊士运河工业紧固件关税",
+        "zh": "螺栓、螺钉、螺母和垫圈，埃及税号如何按实物归类？",
         "de": "Ägyptischer Zolltarif für industrielle Befestigungselemente nach HS-Code",
         "hi": "HS कोड के अनुसार मिस्र स्वेज़ नहर औद्योगिक फास्टनर टैरिफ",
         "ja": "HSコード別エジプト・スエズ運河工業用ファスナー関税",
@@ -248,12 +248,12 @@
     },
     {
       "heading": {
-        "en": "Import Documents and Clearance at Suez Canal Ports",
+        "en": "Which files must accompany a fastener shipment through Suez Canal ports?",
         "ar": "مستندات الاستيراد والتخليص في موانئ قناة السويس",
         "es": "Documentos de importación y despacho en los puertos del Canal de Suez",
         "fr": "Documents d'importation et dédouanement dans les ports du canal de Suez",
         "pt": "Documentos de importação e despacho nos portos do Canal de Suez",
-        "zh": "苏伊士运河港口的进口单证与清关",
+        "zh": "紧固件货过苏伊士运河港口，需要随附哪些文件？",
         "de": "Importdokumente und Zollabfertigung an den Suezkanalhäfen",
         "hi": "स्वेज़ नहर बंदरगाहों पर आयात दस्तावेज़ और क्लीयरेंस",
         "ja": "スエズ運河港における輸入書類と通関",
@@ -331,7 +331,7 @@
             "ja": "エジプトに輸入する工業用締結具にはどの HS コードがよく使われますか"
           },
           "a": {
-            "en": "Many iron or steel industrial fasteners fall under HS heading 7318, covering screws, bolts, nuts, washers, rivets, and similar articles. The correct Egyptian tariff line may vary by product design, material, finish, and use, so importers should verify the full code through Nafeza or Customs. [1] <a href=\"https://www.nafeza.gov.eg/en/tariff\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nafeza.gov.eg</a>",
+            "en": "Many iron or steel industrial fasteners fall under HS heading 7318, covering screws, bolts, nuts, washers, rivets, and similar articles. The correct Egyptian tariff line depends on the physical product rather than its marketing name: hexagon, flange, carriage, and U-bolts, machine and self-tapping screws, prevailing-torque and special nuts, and plain or spring washers can each sit under a different line. Importers should verify the full code through Nafeza or Customs before booking, because classification drives duty, VAT, and the document check at entry. [1] <a href=\"https://www.nafeza.gov.eg/en/tariff\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nafeza.gov.eg</a>",
             "ar": "كثير من المثبتات الصناعية من الحديد أو الصلب يندرج تحت البند 7318 الذي يغطي البراغي والصواميل والحلقات والمسامير والقطع المشابهة. قد يختلف بند التعريفة المصري بحسب التصميم والمادة والتشطيب والاستخدام، لذا يجب التحقق من الرمز الكامل عبر نافذة أو مصلحة الجمارك. [1] (nafeza.gov.eg)",
             "zh": "大量钢铁制工业紧固件归入 HS 编码 7318，涵盖螺钉、螺栓、螺母、垫圈、铆钉及类似零件。确切的埃及税号会随产品结构、材料、表面处理和用途变化，进口商应通过 Nafeza 平台或海关核对完整编码。归类时把产品材质、螺纹形式、表面处理和用途逐项列明，避免笼统按紧固件大类申报；同一批混装不同零件时，分别核对对应税号。准确归类直接影响关税和清关效率，发货前以海关或报关行核实的编码为准。",
             "hi": "लोहे या इस्पात के कई औद्योगिक फास्टनर HS शीर्षक 7318 के अंतर्गत आते हैं, जिसमें पेंच, बोल्ट, नट, वॉशर, रिवेट और इसी तरह के सामान शामिल हैं। सही मिस्री टैरिफ लाइन उत्पाद की बनावट, सामग्री, कोटिंग और उपयोग के हिसाब से बदल सकती है, इसलिए आयातकर्ता को पूरा कोड Nafeza या सीमा शुल्क विभाग से जरूर मिला लेना चाहिए।",
@@ -357,7 +357,7 @@
             "ja": "スエズ運河自体が輸入締結具に関税を課しますか"
           },
           "a": {
-            "en": "No. Suez Canal transit fees are separate from Egyptian import customs duties. Fasteners entering Egypt are assessed under the national customs tariff, while qualifying projects inside SCZONE may receive special customs treatment subject to zone rules, approvals, and whether goods are re-exported or sold locally. [3] [4] <a href=\"https://sczone.eg/rules-regulations/\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">sczone.eg</a>",
+            "en": "No. Suez Canal transit fees are separate from Egyptian import customs duties. Fasteners entering Egypt are assessed under the national customs tariff; the canal charge covers passage through the waterway, while the customs entry is set by the tariff line and the goods value. Qualifying projects inside SCZONE may receive special customs treatment, but this depends on zone rules, approvals, and whether goods are re-exported or sold into the local market. Treat the transit fee, the duty, and any zone concession as three separate calculations rather than one headline charge. [3] [4] <a href=\"https://sczone.eg/rules-regulations/\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">sczone.eg</a>",
             "ar": "لا. رسوم عبور قناة السويس منفصلة عن الرسوم الجمركية المصرية. تُقيَّم المثبتات الداخلة إلى مصر وفق التعريفة الجمركية الوطنية، بينما قد تحصل المشاريع المؤهلة داخل المنطقة الاقتصادية لقناة السويس على معاملة جمركية خاصة وفق قواعد المنطقة والموافقات وما إذا كانت البضائع تُعاد تصديرها أو تُباع محلياً. [3] [4] (sczone.eg)",
             "zh": "不收。运河过境费与埃及进口关税是两笔费用。进入埃及的紧固件按国家海关税则计征；苏伊士运河经济区（SCZONE）内符合条件的项目可能享受特殊海关待遇，但要看园区规则、审批情况，以及货物是复出口还是在当地销售。",
             "hi": "नहर का ट्रांज़िट शुल्क मिस्र की आयात सीमा शुल्क से अलग होता है। मिस्र में आने वाले फास्टनर राष्ट्रीय सीमा शुल्क टैरिफ के तहत आंके जाते हैं; SCZONE के भीतर योग्य परियोजनाओं को विशेष सीमा शुल्क व्यवस्था मिल सकती है, जो ज़ोन के नियमों, मंजूरियों और माल के पुनः निर्यात या स्थानीय बिक्री पर निर्भर करती है।",
@@ -383,7 +383,7 @@
             "ja": "SCZONE の工業プロジェクトは締結具を免税で輸入できますか"
           },
           "a": {
-            "en": "Potentially, but duty treatment depends on the project status, import regime, product use, documentation, and whether the goods remain in the zone, enter production, are re-exported, or move into Egypt’s local market. The investor should obtain confirmation from SCZONE and the relevant customs authority before shipment. [3] [4] <a href=\"https://sczone.eg/rules-regulations/\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">sczone.eg</a>",
+            "en": "Potentially, but duty treatment depends on project status, import regime, product use, documentation, and whether goods remain in the zone, enter production, are re-exported, or move into Egypt's local market. SCZONE guidance says customs duties on imports into the zone are none, while goods sold into the local market are charged customs on the foreign components rather than the final product value. The investor should obtain written confirmation from SCZONE and customs before shipment, because approved status and intended movement decide the charge. [3] [4] <a href=\"https://sczone.eg/rules-regulations/\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">sczone.eg</a>",
             "ar": "ممكن، لكن المعاملة تعتمد على وضع المشروع ونظام الاستيراد واستخدام المنتج والمستندات، وعلى ما إذا كانت البضائع تبقى في المنطقة أو تدخل الإنتاج أو تُعاد تصديرها أو تُنقل إلى السوق المحلي. يجب الحصول على تأكيد من المنطقة الاقتصادية والسلطة الجمركية قبل الشحن. [3] [4] (sczone.eg)",
             "zh": "有可能，但免税待遇取决于项目资质、进口制度、产品用途、单证齐全度，以及货物留在园区、投入生产、复出口还是进入埃及本地市场。发货前，投资者应向 SCZONE 和相关海关机构取得书面确认。办理前先把项目批文、货物清单和流向说明备齐，区分园区内生产用料和转入本地销售的货物；不同流向的关税待遇不同，未经书面确认不宜按免税口径报价或发货，避免到港后补税或滞留。",
             "hi": "संभव है, पर शुल्क छूट परियोजना की स्थिति, आयात व्यवस्था, उत्पाद के उपयोग, दस्तावेज़ और इस बात पर निर्भर करती है कि माल ज़ोन में ही रहे, उत्पादन में लगे, पुनः निर्यात हो, या मिस्र के स्थानीय बाज़ार में चला जाए। शिपमेंट से पहले निवेशक को SCZONE और संबंधित सीमा शुल्क प्राधिकरण से पुष्टि ले लेनी चाहिए।",
@@ -409,7 +409,7 @@
             "ja": "エジプトの港で締結具を通関させるにはどの書類が必要ですか"
           },
           "a": {
-            "en": "Typical documents include the commercial invoice, packing list, bill of lading, certificate of origin, importer details, tariff classification, ACID or ACI information, and technical specifications. Additional certificates may apply depending on product requirements, buyer sector, origin, customs regime, or inspection instructions. <a href=\"https://www.nafeza.gov.eg/en/pages/16\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nafeza.gov.eg</a>",
+            "en": "The core file normally includes the commercial invoice, packing list, bill of lading, certificate of origin, importer registration details, tariff classification, ACID or ACI information, and technical specifications. The invoice should identify each product separately: exact description, HS code, grade, dimensions, finish, and quantity, rather than one generic hardware line. Additional conformity or inspection certificates may apply by product requirements, origin, regime, or inspection instructions. Missing documents usually mean extra review or re-testing at the buyer's cost, so the set should be complete before the container reaches the gateway. <a href=\"https://www.nafeza.gov.eg/en/pages/16\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nafeza.gov.eg</a>",
             "ar": "تشمل عادةً الفاتورة التجارية وقائمة التعبئة وبوليصة الشحن وشهادة المنشأ وبيانات المستورد وتصنيف التعريفة وبيانات ACID أو ACI والمواصفات الفنية، وقد تُطلب شهادات إضافية حسب متطلبات المنتج وقطاع المشتري والمنشأ والنظام الجمركي وتعليمات الفحص. (nafeza.gov.eg)",
             "zh": "常见单证包括商业发票、装箱单、提单、产地证、进口商信息、税则归类、ACID 或 ACI 信息以及技术规格书。根据产品要求、采购行业、原产国、海关制度或检验指令，还可能需要补充其他证书。发货前核对单证上的品名、规格、数量和申报归类一致，发票、装箱单和提单信息互相吻合；技术规格书写明标准、材质和表面处理，按目的港要求提前办理进口登记和检验手续，减少到港后补件改单。",
             "hi": "आम दस्तावेज़ों में कमर्शियल इनवॉइस, पैकिंग लिस्ट, बिल ऑफ लैडिंग, मूल-प्रमाण-पत्र, आयातकर्ता का विवरण, टैरिफ वर्गीकरण, ACID या ACI जानकारी और तकनीकी स्पेसिफिकेशन शामिल हैं। उत्पाद की जरूरत, खरीदार का क्षेत्र, मूल देश, सीमा शुल्क व्यवस्था या निरीक्षण शर्तों के अनुसार अतिरिक्त प्रमाण-पत्र भी मांगे जा सकते हैं।",
@@ -435,7 +435,7 @@
             "ja": "締結具輸出業者はエジプトの陸着コストをどう正確に見積もれますか"
           },
           "a": {
-            "en": "Provide exact HS classification, steel grade, dimensions, coating, quantity, net and gross weight, country of origin, Incoterm, freight, insurance, and port destination. Ask the Egyptian importer or broker to validate duty, VAT, and clearance charges before issuing a firm delivered-price quotation.",
+            "en": "Ask for a tariff-ready quotation rather than a generic CIF offer. Each line should state exact HS classification, standard, steel grade, diameter, length, thread pitch, coating, nut and washer configuration, quantity, net and gross weight, origin, Incoterm, freight, insurance, and port destination. Landed cost builds from ex works price, inland haulage, export clearance, ocean freight, and insurance, then adds duty on CIF, VAT, service and inspection charges, port and terminal costs, broker fees, and inland transport. Have the Egyptian importer or broker validate duty, VAT, and clearance charges before any firm delivered-price quote.",
             "ar": "قدّم التصنيف الجمركي الدقيق ودرجة الصلب والأبعاد والطلاء والكمية والوزن الصافي والإجمالي وبلد المنشأ وشرط التجارة الدولية والشحن والتأمين وميناء الوصول، واطلب من المستورد أو المخلّص المصري التحقق من الرسوم والضريبة وتكاليف التخليص قبل إصدار عرض سعر نهائي.",
             "zh": "报价时要给出准确的 HS 归类、钢号、尺寸、涂层、数量、净重与毛重、原产国、贸易术语（Incoterm）、运费、保险费和目的港。在给出确定的到货价之前，应让埃及进口商或报关行先核实关税、增值税（VAT）和清关费用。到岸成本拆分清楚后再比较不同报价，避免只看离岸单价；归类、重量和术语口径不一致会让到货价失去可比性。关税和税费以目的国海关核定为准，报价中注明适用的价格构成和有效期。",
             "hi": "HS वर्गीकरण, इस्पात ग्रेड, माप, कोटिंग, मात्रा, सकल और शुद्ध वजन, मूल देश, Incoterm, माल ढुलाई, बीमा और गंतव्य बंदरगाह जैसी सटीक जानकारी दें। ठोस डिलीवरी-मूल्य उद्धृत करने से पहले मिस्र के आयातकर्ता या ब्रोकर से शुल्क, VAT और क्लीयरेंस खर्च सत्यापित कर लें; इनकी गणना ऑर्डर की शर्तों पर तय होती है।",
