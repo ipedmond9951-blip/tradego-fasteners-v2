@@ -33,7 +33,7 @@
     {
       "id": "wood-screws",
       "heading": {
-        "en": "Coarse Thread Wood Screws for Furniture",
+        "en": "Which thread form and point should a wood screw use for timber-to-timber fixing?",
         "es": "Tornillos para madera de rosca gruesa para muebles",
         "ar": "براغي خشب ذات سن خشن للأثاث",
         "fr": "Vis à bois à filetage grossier pour meubles",
@@ -42,7 +42,7 @@
         "ja": "家具用粗目木ネジ",
         "de": "Grobgewinde-Holzschrauben für Möbel",
         "hi": "फर्नीचर के लिए मोटे थ्रेड वाले वुड स्क्रू",
-        "zh": "家具用粗牙木螺丝"
+        "zh": "木材连接的木螺钉应采用何种螺纹与尖端？"
       },
       "body": {
         "en": "<p>This guide compares two common threaded fasteners used in panel and assembly work, separating the kind that cuts its own path in timber from the kind that mates with a nut or tapped hole. It covers thread form, material and finish choices, hardware compatibility in manufactured board, and the specification and verification steps a buyer records before ordering, so the right type is matched to each joint and the two lots do not get mixed on the line.</p>\n\n<p><a href=\"/products#coach-screws\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Coarse thread wood screws</a> are designed for fast, secure fastening in wood and wood-based materials. The aggressive thread profile with large pitch bites deeply into wood fibers, providing excellent pull-out resistance. For <a href=\"/products#coach-screws\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">furniture</a> applications, common sizes are #6 × 1-1/4\", #8 × 1-5/8\", and #10 × 2\" for frame joints, drawer runners, and tabletop attachments. <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Stainless steel</a> wood screws are essential for <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">anticorrosive wood</a> (ACQ or MCA pressure treated lumber) which contains copper compounds highly corrosive to standard steel.</p>\n<p>For outdoor furniture, marine-grade 316 stainless is recommended. <a href=\"/products#coach-screws\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Coach screws</a> (<a href=\"/products#coach-screws\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">lag screws</a>) with hex heads provide heavy-duty wood-to-wood connections for deck framing and load-bearing furniture where shear and withdrawal loads are significant. Related resources: <a href=\"/en/industry/high-tensile-bolts-grade-guide\">high-tensile bolts</a> <a href=\"/en/products/anchor-bolts\">anchor bolts</a> <a href=\"/en/industry/stainless-steel-bolts-africa-guide\">stainless steel fasteners</a> <a href=\"/en/industry/hex-bolt-dimensions-chart\">hex bolts</a> <a href=\"/en/products/nylon-lock-nuts\">lock nuts</a> <a href=\"/en/products/washers\">washers</a> <a href=\"/en/products/self-drilling-screws\">self-drilling screws</a> <a href=\"/en/products/allen-bolts\">socket screws</a>. This procurement framework applies to fastener sourcing for construction, mining, energy, automotive, and general industrial applications.</p>\n<p>The decision logic prioritizes quality consistency, supplier reliability, and total cost of ownership over short-term unit price. For B2B buyers in Africa, Latin America, and Southeast Asia, additional considerations include regional customs requirements, container consolidation options, and payment security mechanisms. Standardized specifications that travel across projects reduce training time, RFQ processing time, and supplier onboarding effort.</p>\n\n<p>Threaded parts driven into timber rely on the profile and depth of engagement rather than a matched nut. Coarse, sharply formed threads grip wood fibers, while a tapered point guides the part into the pilot hole. Material choice tracks the exposure: plain or plated steel suits dry indoor joinery, 304 stainless handles general atmospheric exposure, and 316 stainless is chosen where chloride or coastal conditions appear. Pressure-treated timber contains copper compounds that accelerate corrosion on ordinary steel, so the finish on those joints should be selected with that chemistry in mind rather than assumed from a standard indoor finish.</p>\n\n<p>Drive type matters for both production speed and final appearance. Phillips, Pozidriv, slotted and combination heads suit different production tools, and a head that cams out early drives up rework and leaves damaged recesses. Pre-drilling near edges and in dense board reduces splitting, and controlled tightening avoids crushing the fibers or stripping the engagement. Keep the two fastener families coded separately in the packing list so assembly does not substitute a threaded-in part where a nut-mating one is required.</p>\n\n<p>Match the washer or anchor to the same material and finish so the full connection holds together without a galvanic mismatch at the contact surface.</p>",
@@ -114,7 +114,7 @@
     {
       "id": "spec-table",
       "heading": {
-        "en": "Wood Screw vs Machine Screw Selection",
+        "en": "How are wood screws and machine screws selected for different panel and tapped-hole joints?",
         "es": "Selección de tornillo para madera vs. tornillo de máquina",
         "ar": "اختيار براغي الخشب مقابل البراغي الآلية",
         "fr": "Sélection entre vis à bois et vis mécaniques",
@@ -123,7 +123,7 @@
         "ja": "木ネジと小ねじの選定",
         "de": "Holzschraube vs. Maschinenschraube Auswahl",
         "hi": "वुड स्क्रू बनाम मशीन स्क्रू चयन",
-        "zh": "木螺丝与机螺丝的选择"
+        "zh": "木螺钉与机螺钉如何按板材与攻丝孔选型？"
       },
       "table": {
         "headers": [
@@ -211,7 +211,7 @@
             "ja": "機械ネジを木材に使えますか？"
           },
           "a": {
-            "en": "Not effectively. Machine screws are not designed to cut threads in wood and will either not engage properly or split the wood. Use wood screws for wood.",
+            "en": "Not effectively. Machine screws carry a uniform metric thread meant to mate with a pre-tapped hole or nut, not to cut a path in timber; driven into wood they fail to engage properly or split the grain. Use coarse-thread wood screws for wood-to-wood and wood-to-panel joints, with a sharp point and tapered thread that grips fibres. Pre-drill near board edges to prevent splitting, and match diameter and length to the panel thickness and withdrawal load. Keep machine screws for cabinet, chassis and tapped-hole assembly where the thread engages a nut or pre-tapped metal insert.",
             "zh": "机器螺丝拧进木头效果不好。机器螺丝不是为在木头上切削螺纹设计的，要么咬不住，要么把木头撑裂；木结构固定还是用木螺丝。选型按连接对象判断：木材之间用木螺丝，金属之间用机螺钉；薄板附在木上的轻载才考虑对应自攻件。螺纹体系和头部形式随基材匹配。订单中写明基材组合和用途，供应商匹配螺钉；到货区分木螺丝与机螺钉装箱标注，现场不把机螺钉攻入木材，避免咬合失效或木材劈裂。",
             "hi": "ठीक से नहीं। मशीन स्क्रू लकड़ी में धागा काटने के लिए बने नहीं होते; या तो ये सही तरह जुड़ते नहीं या लकड़ी फाड़ देते हैं। लकड़ी के काम में वुड स्क्रू ही इस्तेमाल करें।",
             "ru": "Эффективно нет. Машиностроительные винты не предназначены нарезать резьбу в древесине: они либо не нащупают нормального сцепления, либо расколют дерево. Для дерева применяют деревянные шурупы.",
@@ -237,7 +237,7 @@
             "ja": "防腐処理木材にはどのネジを使いますか？"
           },
           "a": {
-            "en": "Always use stainless steel screws (304 minimum, 316 for coastal/outdoor) with pressure treated wood. Standard zinc-plated screws will corrode rapidly.",
+            "en": "Pressure-treated timber should be fixed with stainless steel screws, minimum 304, or 316 for coastal and outdoor exposure; bright and thin zinc-plated screws corrode rapidly against the treatment chemicals. The preservative accelerates corrosion of ordinary finishes, so choose A2 or A4 stainless or a hot-dip galvanised coating suited to the wood. Select a coarse thread that holds in soft treated timber, and pre-drill near ends and edges. Record the finish and exposure on the specification, and inspect exposed heads for corrosion where the treated wood contacts metal.",
             "zh": "防腐处理木材一律用不锈钢螺丝，下限 304，沿海或户外环境用 316；普通镀锌螺丝在防腐木里会很快腐蚀。选型按防腐药剂种类、距海距离和湿度确定牌号，不同牌号分开标注。防腐木化学药剂会加速亮锌和薄镀层消耗，不能用普通镀锌件。订单中写明木材处理方式和暴露环境，供应商匹配不锈钢牌号；到货核对材质标记和批次，安装后复查锈点，腐蚀部位不使用低牌号螺丝。",
             "hi": "प्रेशर ट्रीटेड लकड़ी में हमेशा स्टेनलेस स्टील स्क्रू चलाएँ — न्यूनतम 304, तटीय/बाहरी के लिए 316। सामान्य ज़िंक-प्लेटेड स्क्रू तेज़ी से जंग खा जाएँगे।",
             "ru": "Для такой древесины всегда берут нержавеющие шурупы: минимум сталь 304, для побережья и открытого воздуха — 316. Обычный оцинкованный шуруп в пропитке быстро корродирует.",
@@ -263,7 +263,7 @@
             "ja": "防腐処理材にはどのネジが適しますか？"
           },
           "a": {
-            "en": "Hot-dip galvanised or stainless screws, because the treatment chemicals accelerate corrosion of bright and thin zinc coatings. Coarse thread wood screws hold better in soft treated timber than fine thread.",
+            "en": "For treated timber, hot-dip galvanised or stainless screws are preferred because treatment chemicals accelerate corrosion of bright and thin zinc coatings. Coarse-thread wood screws hold better in soft treated timber than fine machine threads, which do not bite into fibres. Size the screw so the thread engages the main timber body, not just the surface, and clearance near the end avoids splitting. For exterior or near-coastal joints, move up to 316 stainless, and match the screw to preservative type and exposure on the drawing rather than an indoor zinc screw.",
             "zh": "防腐木材选热浸镀锌或不锈钢螺丝，因为防腐处理药剂会加速光面和薄锌层镀层的腐蚀。松软的防腐木材里，粗牙木螺丝的握钉力优于细牙。选型按木材硬度、干燥程度和防腐药剂选镀层与牙型，硬木配合导向孔。螺钉长度和直径随构件厚度确定，不同牙型不混装。订单中写明木材种类和连接部位，供应商匹配镀层和螺纹；到货核对镀层标记，现场安装避免拧入过深造成木材开裂。",
             "hi": "हॉट-डिप गैल्वनाइज़्ड या स्टेनलेस स्क्रू, क्योंकि उपचार रसायन चमकदार और पतली ज़िंक कोटिंग की जंग तेज़ करते हैं। नरम उपचारित टिम्बर में महीन धागे से मोटा धागा वुड स्क्रू बेहतर पकड़ता है।",
             "ru": "Берут горячеоцинкованные или нержавеющие шурупы, потому что химия пропитки ускоряет коррозию светлых и тонко оцинкованных покрытий. В мягкой пропитанной древесине шуруп с крупной резьбой держит лучше, чем с мелкой.",
