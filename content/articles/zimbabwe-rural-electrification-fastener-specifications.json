@@ -233,7 +233,7 @@
             "hi": "जिम्बाब्वे ग्रामीण विद्युतीकरण फास्टनर विनिर्देश: सौर ऊर्जा ऑर्डर के लिए विशिष्ट लीड टाइम क्या है?"
           },
           "a": {
-            "en": "Lead time depends on whether the item is a standard specification or a custom one, on the shipping mode (LCL or FCL), and on customs clearance efficiency; urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
             "zh": "野外线路多处于高降雨或白蚁多发地带，杆塔金具、导线线夹、接地附件与结构螺栓用量零散，镀层等级要按现场暴露条件指定，不能沿用承包商默认的薄锌层。接地螺栓薄锌层会在导线之前先失效。结构螺栓可按 ISO 898-1 8.8 级，户外件配热浸镀锌，不锈钢件按 ISO 3506-1 的 A2-70、A4-80 区分。交期按订单核算。",
             "es": "El plazo se cotiza por pedido.",
             "fr": "Le délai est établi par commande.",
@@ -259,7 +259,7 @@
             "hi": "जिम्बाब्वे ग्रामीण विद्युतीकरण फास्टनर विनिर्देश: सौर ऊर्जा के लिए न्यूनतम ऑर्डर मात्रा (MOQ) क्या है?"
           },
           "a": {
-            "en": "MOQ varies by supplier scale, setup costs and whether the order is consolidated into a full container or shipped as LCL. Minimum order quantity follows the production route.",
+            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
             "zh": "计件成本是农村工程的隐性支出：杆塔金具与线夹按线路领料，纸箱应按每杆套数而非每百件打包，并标注覆盖的杆塔编号段，避免现场点数损耗。长线路上人工清点散件耗掉的天数，材料预算里往往看不出来。起订量按生产路线确定。",
             "es": "La cantidad mínima depende de la ruta de producción.",
             "fr": "La quantité minimale dépend de la route de production.",
@@ -285,7 +285,7 @@
             "hi": "जिम्बाब्वे ग्रामीण विद्युतीकरण फास्टनर विनिर्देश: सौर ऊर्जा खरीद के लिए विशिष्ट भुगतान शर्तें क्या हैं?"
           },
           "a": {
-            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market; any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
+            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit arranged through the buyer's bank. The settlement route, documents and milestones should be agreed up front, and any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
             "zh": "谈付款时同时锁定镀层规范与包装分套方案：螺母、垫圈与螺栓同批同级，线夹挂板也按杆套配齐，接地件镀层厚度须在到货时逐批抽检，而不是只看发票描述。当地银行常只认即期信用证。未投产先收全款的供方不予考虑。付款条件按里程碑约定。",
             "es": "Las condiciones de pago se acuerdan por hitos.",
             "fr": "Les conditions de paiement sont convenues par jalons.",
