@@ -87,8 +87,8 @@
     {
       "id": "metal",
       "heading": {
-        "en": "Machine Screws and Self-Tapping Screws",
-        "zh": "机螺丝和自攻螺丝",
+        "en": "Which screw type engages metal: machine screw, thread-forming or self-drilling?",
+        "zh": "金属连接应选机螺钉、挤压螺钉还是自钻螺钉？",
         "es": "Tornillos para Máquina y Tornillos Autorroscantes",
         "ar": "براغي الماكينات والبراغي ذاتية اللولبة",
         "fr": "Vis mécaniques et vis autotaraudeuses",
@@ -114,8 +114,8 @@
     {
       "id": "concrete",
       "heading": {
-        "en": "Concrete and Masonry Anchors",
-        "zh": "混凝土和砖石锚",
+        "en": "Which anchor principle and type suits concrete, brick and masonry fixing?",
+        "zh": "混凝土、砖与砌体固定适用何种锚固原理与锚栓？",
         "es": "Anclajes para Hormigón y Mampostería",
         "ar": "مثبتات الخرسانة والمونة",
         "fr": "Ancrages pour béton et maçonnerie",
@@ -206,7 +206,7 @@
             "ja": "木ねじと石膏ボードねじの違いは何ですか？"
           },
           "a": {
-            "en": "Drywall screws have fine threads for holding drywall to steel or wood studs. They are brittle and can snap under stress. Wood screws have coarse threads for wood-to-wood connections and are more ductile.",
+            "en": "Drywall screws carry fine threads for holding drywall to steel or wood studs, and are brittle and can snap under stress; wood screws use coarse threads for wood-to-wood joints and are more ductile. The thread form follows the substrate: coarse bites fibres, fine grips thin panel or stud. Match the screw to base material rather than reusing one line, and check head type and point for the application. Do not drive a brittle drywall screw into structural timber where withdrawal and bending load apply, and keep the ranges separated on the job.",
             "zh": "木螺丝和干墙螺钉的区别在于螺纹和用途。干墙螺钉是细牙，用于把石膏板固定到钢或木龙骨上，材质偏脆，受力时容易折断；木螺丝是粗牙，用于木材之间连接，韧性和咬合表现适合木结构。选型按基材和连接对象判断，不要用干墙螺钉替代受力木连接件。石膏板罩面用干墙螺钉，木结构和露台用木螺丝；金属连接则另选机螺钉或自攻钉。订单中写明基材、连接方式和载荷，供应商匹配螺纹与材质；到货区分两类螺钉装箱标注，现场按部位选用，避免误用造成断裂或咬合不足。",
             "hi": "ड्राईवॉल स्क्रू का थ्रेड महीन होता है और यह ड्राईवॉल को स्टील या वुड स्टड से जोड़ने के लिए होता है; यह भंगुर होता है और दबाव में टूट सकता है। वुड स्क्रू का थ्रेड मोटा होता है, यह लकड़ी-लकड़ी जोड़ के लिए बनता है और ज़्यादा नमनीय होने से कम भंगुर है।",
             "ru": "Гипсокартонные винты имеют мелкую резьбу для крепления листов к стальным или деревянным стойкам, но материал у них хрупкий: под нагрузкой винт может сломаться. Деревянные шурупы идут с крупной резьбой на соединения дерево-дерево и заметно пластичнее, поэтому они держат узлы из древесины, а не обшивку по стойкам.",
@@ -232,7 +232,7 @@
             "ja": "木ねじを金属に使えますか？"
           },
           "a": {
-            "en": "No - wood screws are not designed for metal. Use machine screws or self-tapping screws for metal connections.",
+            "en": "No. Wood screws are not for metal; their coarse sharp-thread form and point cut into timber fibres and will not hold in a tapped or drilled metal hole. Use machine screws with a pre-tapped hole or nut, or self-tapping screws that form or cut their own thread in sheet metal. Match hardness and thread to the metal gauge, and check whether the joint needs disassembly or clamping. Never substitute a wood screw for a metal fastener on a frame, bracket or machine mount, and state substrate and thread basis on the parts list.",
             "zh": "木螺丝不能拧进金属，它不是为金属连接设计的。金属连接应使用机螺钉或自攻螺钉，按板材厚度和螺纹体系选择。木螺丝粗牙和头部形式针对木材咬合，进入金属容易滑牙、断裂或攻不进螺纹。选型先判断连接件是木材、石膏板还是金属，再对应螺钉类型；薄板金属用自攻钉，厚件配合螺母用机螺钉。订单中写明金属厚度和连接方式，供应商匹配螺钉；现场不要把木螺丝强行攻入金属孔位，避免螺钉损坏或连接不可靠。",
             "hi": "नहीं, वुड स्क्रू धातु के लिए डिज़ाइन नहीं होते। धातु जोड़ के लिए मशीन स्क्रू या सेल्फ-टैपिंग स्क्रू इस्तेमाल करें; वरना थ्रेड ठीक से काट नहीं पाता, पकड़ कम रहती है और स्क्रू स्लिप या निकल सकता है।",
             "ru": "Нет, деревянные шурупы для металла не рассчитаны: у них резьба и форма под дерево, а в стали они не создают надёжного зацепления. Для соединений с металлом берут машинные винты или самонарезающие (self-tapping) винты под конкретный тонкий лист или профиль; если металл толстый, резьбу под посадку сверляют и нарезают отдельно.",
@@ -258,7 +258,7 @@
             "ja": "木ねじの下穴はどの径にしますか？"
           },
           "a": {
-            "en": "Match the hole to the screw's core diameter (before threads). For hard woods, use a slightly smaller hole. For soft woods, the full core diameter is fine.",
+            "en": "Match the pilot hole to the screw core diameter, before the thread: for hardwood use a slightly smaller hole to hold the thread, for soft wood the full core diameter is acceptable. Near edges and in dense or treated timber, drill closer to prevent splitting, and clear chips before driving. The diameter keeps the thread engaged without crushing the grain, and the screw seats without forcing or cracking the surface. Test the hole on an offcut of the same timber where the joint is critical, and record gauge, length and pilot size with the specification.",
             "zh": "木螺丝导向孔按螺钉芯径（螺纹以下部分）匹配。硬木用略小一点的孔，软木用满芯径即可。孔径过大咬合不足，过小拧入费力甚至劈裂木材。钻孔位置避开木节和裂纹，孔深与拧入深度对应；不同木材硬度调节孔径。组装前先在边角料试钻试拧，确认配合顺畅。订单或现场把木材种类、螺钉规格写清，钻头按芯径配套；安装时控制拧入进度，不要强行攻入，防止木材开裂或螺纹损伤。",
             "hi": "होल को स्क्रू के कोर डायमीटर, थ्रेड से पहले का डंडा, से मिलाएं। हार्डवुड के लिए थोड़ा छोटा होल लें; सॉफ्टवुड में पूरा कोर डायमीटर ठीक रहता है। होल बहुत छोटा हो तो लकड़ी फट सकती है, बहुत बड़ा हो तो पकड़ने की शक्ति कम रह जाती है।",
             "ru": "Отверстие подбирают по диаметру стержня шурупа до резьбы. Для твёрдых пород дерева берут чуть меньшее отверстие, чтобы резьба врезалась плотнее; для мягких пород достаточно отверстия по полному диаметру стержня. Слишком узкое отверстие раскалывает древесину, слишком широкое — не даёт резьбе держать, поэтому размер сверла согласуют с породой и влажностью.",
@@ -284,7 +284,7 @@
             "ja": "コンクリートではなくレンガに固定するにはどうしますか？"
           },
           "a": {
-            "en": "Use sleeve anchors or brick anchors specifically rated for masonry. Standard concrete anchors may not hold in brick. Check that your anchor is approved for the specific brick type.",
+            "en": "For brick use sleeve or brick anchors specifically rated for masonry; standard concrete expansion anchors may not hold in softer brick because the base cracks rather than grips. Check the anchor is approved for the brick type and condition, and match the expansion principle to solid brick, block or concrete. In hollow or soft masonry, choose a fixing that bonds or engages deeper rather than relying on wedge expansion. Confirm edge distance, embedment and base strength with the specifier, and do not load a brick fixing designed only for solid concrete.",
             "zh": "砖墙固定应使用专门为砌体评定的套管锚栓或砖用锚栓。普通混凝土锚栓在砖体上未必能锚固可靠。选型核对砖体类型、砂浆强度和固定物重量，并确认锚栓适用于该砖种；轻质砖和空心砖还要换用对应的空心锚固件。钻孔直径和深度按锚栓要求操作，避开灰缝和砖面缺陷。重载设备不要用普通胀管固定。订单中注明基材类型和载荷，供应商匹配锚栓等级；现场试装确认锚固力，结构连接保留安装记录，必要时请专业人员复核。",
             "hi": "ऐसे स्लीव एंकर या ब्रिक एंकर इस्तेमाल करें जो खास तौर पर चिनाई मेसनरी के लिए रेटेड हों। साधारण कंक्रीट एंकर ईंट में पकड़ नहीं बना सकता। चुनने से पहले यह जांच लें कि एंकर उसी प्रकार की ईंट के लिए स्वीकृत है।",
             "ru": "В кирпич ставят анкеры-распорки или кирпичные анкеры, рассчитанные на каменную кладку. Обычные анкеры для бетона в кирпиче могут не удержать: материал кирпича рыхлее и по-другому передаёт нагрузку. Проверьте, что анкер допущен именно под ваш тип кирпича, и не полагайтесь на стандартную бетонную номинальную нагрузку при приёмке.",
@@ -310,7 +310,7 @@
             "ja": "アフリカの屋外デッキに最適なねじは何ですか？"
           },
           "a": {
-            "en": "Stainless steel (A4/316) deck screws or hot-dip galvanized screws. Coarse thread for hardwoods. Spacing should account for wood movement with humidity changes.",
+            "en": "For outdoor decking use A4/316 stainless deck screws or hot-dip galvanised screws, with coarse thread for hardwoods; spacing should allow for wood movement with humidity changes. The finish must resist the climate, and coastal or high-humidity sites call for stainless rather than thin zinc. Match screw length to the joist thickness so the thread engages the main joist, not just the board, and pre-drill near board ends to prevent splitting. Keep deck screws corrosion-compatible with any metal railings or fixings, and record grade, finish and spacing on the deck specification.",
             "zh": "非洲户外露台宜用不锈钢 A4/316 露台螺钉或热浸镀锌螺钉；硬木配粗牙螺纹。间距要考虑木材随湿度变化的伸缩，预留调整余量。沿海或高湿部位优先不锈钢，内陆有遮挡区域可用加厚镀锌。选型区分木材硬度、暴露程度和腐蚀环境，螺钉头部形式和垫圈按台面要求选择。订单中写明木材种类、暴露条件和镀层要求，供应商匹配材质与螺纹；到货核对镀层和批次，安装后定期检查松动和锈蚀，及时更换老化螺钉。",
             "hi": "स्टेनलेस स्टील A4/316 डेक स्क्रू या हॉट-डिप गैल्वनाइज़्ड स्क्रू चुनें। हार्डवुड के लिए कोर्स थ्रेड लें। नमी बदलने पर लकड़ी के फैलाव-संकोचन को ध्यान में रखते हुए स्पेसिंग तय करें ताकि जगह बची रहे।",
             "ru": "Для уличного настила подходят винты из нержавеющей стали A4/316 либо винты горячего цинкования (HDG). Под твёрдые породы древесины берут крупную резьбу, а шаг крепления учитывает расширение и усадку дерева при смене влажности воздуха. Для прибрежных или хлористых сред предпочтительнее A4/316; в сухом внутреннем районе рабочим вариантом остаётся HDG.",
