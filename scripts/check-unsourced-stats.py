@@ -38,8 +38,8 @@ def field_text(v):
     return v if isinstance(v, str) else ''
 
 
-def audit(path, locale):
-    d = json.load(open(path))
+def audit_document(d, locale):
+    """对已加载的文章 dict 跑无源统计检查；返回稳定字段的结果字典。"""
     hits, total, ops, stat_ok, para_ok = [], 0, 0, 0, 0
     for si, s in enumerate(d.get('sections') or []):
         body = field_text((s.get('body') or {}).get(locale))
@@ -77,6 +77,12 @@ def audit(path, locale):
     has_src = bool(ds)
     return {'slug': d['slug'], 'stats': total, 'unsourced': len(hits), 'ops': ops,
             'statutory': stat_ok, 'para_sourced': para_ok, 'hasDataSource': has_src, 'items': hits}
+
+
+def audit(path, locale):
+    with open(path, encoding='utf-8') as f:
+        d = json.load(f)
+    return audit_document(d, locale)
 
 
 def main():
