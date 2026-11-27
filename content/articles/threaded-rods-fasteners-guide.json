@@ -60,7 +60,7 @@
     {
       "id": "specifications",
       "heading": {
-        "en": "Specifications",
+        "en": "What specifications govern threaded rod?",
         "es": "Especificaciones",
         "ar": "المواصفات",
         "fr": "Spécifications",
@@ -69,7 +69,7 @@
         "ja": "仕様",
         "de": "Spezifikationen",
         "hi": "विनिर्देश (Specifications)",
-        "zh": "技术规格"
+        "zh": "螺纹拉杆的规格由哪些内容确定？"
       },
       "body": {
         "en": "<p>Specification of a threaded rod is a list of six items. Diameter and pitch set the strength and the fit. The thread form decides whether the rod is rolled or cut and whether the thread is coarse or fine. The property class or material grade sets what it can carry. The coating class sets its service life. The length and the end treatment decide how it can be used.</p>\n<p>Rolled thread and cut thread are not interchangeable in the way buyers assume. A rolled thread is formed by displacing material, which strengthens the thread region and leaves a continuous grain flow; a cut thread removes material and leaves a stress concentration at the thread roots. Both are legitimate products, and a specification that does not say which one it requires has left the decision to the supplier.</p>\n<p>Material and class need the same discipline as on any bolt. Carbon steel in a defined class is the default; stainless in a defined grade is the answer for chemical, marine and food environments, where the strength is lower and the corrosion resistance is the point. Where a rod will be cut on site, the cut end exposes uncoated material, so the coating choice has to account for a termination that cannot be protected in the factory.</p>\n<p>Length and end treatment are the items most often left vague. A rod supplied in a standard length that is cut on site loses the end treatment the factory applied, so the store has to know whether it will be fitted with a nut, a coupler, a welded plate or a forged eye. Each of those has a different requirement for the thread length at the end, and each is a line on the purchase order rather than a decision for the fitter.</p>",
@@ -160,7 +160,7 @@
     {
       "id": "installation",
       "heading": {
-        "en": "Installation Best Practices",
+        "en": "How should threaded rod be installed safely?",
         "es": "Mejores prácticas de instalación",
         "ar": "أفضل ممارسات التركيب",
         "fr": "Meilleures pratiques d'installation",
@@ -169,7 +169,7 @@
         "ja": "取り付けのベストプラクティス",
         "de": "Best Practices für die Montage",
         "hi": "इंस्टॉलेशन के सर्वोत्तम अभ्यास",
-        "zh": "安装最佳实践"
+        "zh": "螺纹拉杆应如何安全安装？"
       },
       "body": {
         "en": "<p>Installation of a threaded rod is simple enough that it is rarely supervised, which is why most of its failures are installation failures. The rod should be fixed at the top with a component that engages the full thread length available, not with two turns and a prayer; the nut at the bottom should carry a washer that spreads load on the supported item; and the whole assembly should be checked for plumb before load is applied.</p>\n<p>The length beyond the fixing matters more than it looks. A rod that protrudes far beyond the nut is a rod that will be damaged, and one that protrudes too little is a nut that may not be fully engaged. Both are visible at inspection, and both are correctable at installation and not afterwards.</p>\n<p>Where a rod is cut on site, the cut should be made with a method that does not deform the thread beyond it, and the end should be dressed so that a nut will run on. A cut that leaves a burr is a cut that will be forced, and a forced nut damages the thread that carries the load. Where the rod is coated, the cut end should be given a repair coating as part of the installation rather than as a later maintenance item.</p>\n<p>Preload on a threaded rod is a question of purpose rather than of torque. A hanger needs the nut tight enough to remove slack and no more; a restraint needs a defined preload with a defined lubricant; a connection needs both. Applying a structural preload to a hanger, or hanger torque to a tie-down, are the two failures that come from treating one product as another.</p>",
@@ -267,7 +267,7 @@
             "de": "Welche Gewindestangenklasse soll ich für Hänger wählen?"
           },
           "a": {
-            "en": "General suspension work can use 4.8 zinc-plated rod; fire-protection and seismic bracing normally requires 8.8; corrosive sites need 304/316 stainless or hot-dip galvanized rod. Size the rod for the hanger spacing and remember each threaded joint needs a coupling of the same grade and size.",
+            "en": "General suspension work can use 4.8 zinc-plated rod, while fire-protection and seismic bracing normally requires 8.8, and corrosive sites call for 304 or 316 stainless or hot-dip galvanised rod. Size the rod for the hanger spacing and the suspended load, and remember each threaded joint needs a coupling of the same grade and size. Carbon steel classes follow ISO 898-1, and stainless rod follows ISO 3506-1 where applicable. Match the nut and coupling strength to the rod, because a lower-class coupling strips before the rod carries load. Record the grade, coating, and thread size on the hanger schedule so replacements match the original assembly.",
             "zh": "吊挂用全螺纹牙条按等级选择：一般吊挂用 4.8 级镀锌牙条；消防抗震支撑通常用 8.8 级；腐蚀部位用 304/316 不锈钢或热浸镀锌。选型按载荷、消防抗震要求和环境腐蚀条件判断，等级与配套螺母、连接件匹配。订单中写明用途、等级和镀层，供应商按对应材质供货；到货核对标记和批次，吊挂和抗震部位不使用低等级牙条，安装后抽查紧固和防腐状态。",
             "ja": "一般的な吊り支持は4.8級の亜鉛めっきロッドで足りますが、消防用や耐震ブレースは通常8.8級が必要です。腐食環境では304/316ステンレスまたは溶融亜鉛めっきロッドを使います。吊り間隔に応じてサイズを決め、継手ごとに同グレード・同サイズのカップリングを使用します。",
             "hi": "सामान्य सस्पेंशन काम में 4.8 ज़िंक-प्लेटेड रॉड चलती है; अग्नि सुरक्षा और सिस्मिक ब्रेसिंग में आमतौर पर 8.8 चाहिए; जंग-ग्रस्त स्थल पर 304/316 स्टेनलेस या हॉट-डिप गैल्वनाइज़्ड रॉड लें। रॉड का आकार हैंगर की दूरी के हिसाब से रखें, और हर थ्रेडेड जोड़ पर उसी ग्रेड व आकार का कपलिंग लगाना याद रखें।",
@@ -293,7 +293,7 @@
             "de": "Wie verlängert man eine Gewindestange sicher?"
           },
           "a": {
-            "en": "Use a full-thread coupling of matching size and grade, with at least one thread diameter engaged at each end. Never weld a load-bearing rod to extend it: welding destroys the coating and creates a brittle zone. Add a lock nut at hanger points so the assembly cannot back off.",
+            "en": "Extend threaded rod with a full-thread coupling of matching size and grade, engaging at least one thread diameter at each end. Never weld a load-bearing rod to extend it: welding destroys the coating and creates a brittle heat-affected zone that can fracture under vibration. Add a lock nut at hanger points so the assembly cannot back off, and check the coupling engagement is visible on both sides. Keep cut ends straight and re-coat any bare cut with zinc-rich paint in service areas. Where seismic bracing is involved, use components rated for that duty rather than a field-made extension, and document the splice location for inspection.",
             "zh": "牙条接长应使用同规格、同等级的全螺纹接套，每端至少啮合一个螺纹直径的长度。受力牙条绝不能靠焊接接长：焊接会改变材质性能，形成隐患。选型核对接套规格与牙条等级一致，啮合长度和扣紧方式符合要求；接长节点作为受力部位检查。订单中写明接长方案和配套接套，供应商提供同等级连接件；到货核对接套与牙条匹配，现场不焊接受力杆，避免焊缝脆性或疲劳造成断裂。",
             "ja": "同サイズ・同グレードの全ねじカップリングを使い、両端にそれぞれねじ径1本分以上をねじ込みます。耐荷重ロッドを溶接で延長してはいけません。溶接は皮膜を破壊し、熱影響部に脆化域を作ります。吊り点には緩み止めナットを追加してください。延長箇所のねじかかり長さと同心度を確認し、振動部では二重ナットまたはロック剤を併用します。",
             "hi": "मिलते हुए आकार व ग्रेड का फुल-थ्रेड कपलिंग इस्तेमाल करें, हर छोर पर कम से कम एक धागे का व्यास लगा रहे। भार उठाने वाली रॉड को बढ़ाने के लिए कभी वेल्ड न करें: वेल्ड कोटिंग नष्ट करती है और भंगुर क्षेत्र बनाती है। हैंगर बिंदुओं पर लॉक नट लगाएं ताकि असेंबली ढीली न हो।",
@@ -319,7 +319,7 @@
             "de": "Welche Stangenbeschichtung passt zu afrikanischen Projektbedingungen?"
           },
           "a": {
-            "en": "Interior dry areas can use electro-zinc. Outdoor, tunnel and coastal work needs hot-dip galvanized. Chemical plants and heavy coastal corrosion call for 316. Cut ends must be re-coated with zinc-rich paint, otherwise the bare cut becomes the first rust point.",
+            "en": "Interior dry areas can use electro-zinc rod, while outdoor, tunnel, and coastal work needs hot-dip galvanised finish. Chemical plants and heavy coastal corrosion call for 316 stainless. Cut ends must be re-coated with zinc-rich paint, otherwise the bare cut becomes the first rust point and corrosion spreads along the thread. In high-humidity or wash-down areas, check the coupling and nut finish as well, since a dissimilar couple accelerates rust at the joint. Store rod under cover and keep threads clean, and specify the coating system on the hanger list so the delivered finish matches the exposure zone rather than the cheapest available plate.",
             "zh": "非洲项目牙条镀层按环境选择：室内干燥部位可用电镀锌；室外、隧道和沿海用热浸镀锌；化工厂和重腐蚀沿海用 316 不锈钢。选型区分干燥室内、户外、隧道和化工介质，不能把室内薄镀层用在高腐蚀部位。不同镀层和材质分开装箱标注，结构件核对等级和质保记录。订单中写明暴露环境和镀层要求，供应商按对应工艺供货；到货核对镀层标记，户外和腐蚀部位定期复查锈蚀，必要时更换耐蚀等级更高的牙条。",
             "ja": "屋内の乾燥区域は電気亜鉛めっきで足ります。屋外、トンネル、沿岸部は溶融亜鉛めっきが必要です。化学プラントや厳しい沿岸腐食環境では316を選びます。切断面はジンクリッチペイントで補修してください。切断面は最初に錆びる箇所になります。腐食の程度は湿度、酸性度、飛沫の有無で変わるため、現地環境を照らしてめっき種を決めます。",
             "hi": "भीतर के शुष्क क्षेत्र में इलेक्ट्रो-ज़िंक चलता है; बाहरी, सुरंग और तटीय काम के लिए हॉट-डिप गैल्वनाइज़्ड चाहिए; रासायनिक संयंत्र और भारी तटीय जंग में 316 लें। कटे सिरों पर ज़िंक-रिच पेंट से दोबारा कोटिंग करें, वरना नंगा कट पहला जंग बिंदु बन जाता है।",
