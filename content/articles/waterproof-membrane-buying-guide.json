@@ -140,8 +140,8 @@
     {
       "id": "thickness-selection-3-4-and-5-mm",
       "heading": {
-        "en": "Thickness Selection: 3, 4 and 5 mm",
-        "zh": "厚度选择：3毫米、4毫米与5毫米",
+        "en": "Which membrane thickness matches protected roof, exposed roof and puncture-risk conditions?",
+        "zh": "保护层屋面、外露屋面与高穿刺风险各选多厚卷材？",
         "ar": "اختيار السماكة: 3 و4 و5 مم",
         "es": "Selección de grosor: 3, 4 y 5 mm",
         "fr": "Choix d'épaisseur : 3, 4 et 5 mm",
@@ -167,8 +167,8 @@
     {
       "id": "lap-details-and-installation-sequence",
       "heading": {
-        "en": "Lap Details and Installation Sequence",
-        "zh": "搭接细部与施工顺序",
+        "en": "What lap width and seam sequence keep SBS, PVC and TPO membrane joints watertight?",
+        "zh": "SBS、PVC、TPO 卷材搭接宽度与工序如何保证接缝不渗？",
         "ar": "تفاصيل التداخل وتسلسل التركيب",
         "es": "Detalles de solape y secuencia de instalación",
         "fr": "Détails de recouvrement et séquence de pose",
@@ -274,7 +274,7 @@
             "ja": "厚みは 3、4、5 mm のどれを選びますか？"
           },
           "a": {
-            "en": "3 mm for protected roofs and detail work, 4 mm as the common exposed-roof standard, 5 mm where puncture risk is high - traffic areas, ballasted roofs and basement tanking.",
+            "en": "Choose thickness by exposure and puncture risk: 3 mm for protected roofs and detail work, 4 mm the common exposed-roof standard, 5 mm where puncture risk is high, such as traffic areas, ballasted roofs and basement tanking. Match gauge to structural movement, substrate and installation method, and check tear and puncture basis for the service condition. Thinner sheet suits a protected build-up; exposed or trafficked decks need the heavier grade. Record thickness, roll width and seam type on the specification, and confirm membrane type before ordering rather than one gauge for every roof.",
             "zh": "卷材厚度按部位选择：三毫米用于保护层下屋面和细部；四毫米是外露屋面常用标准；五毫米用于穿刺风险高的部位，如行车区、压载屋面。选型按使用部位、荷载和穿刺风险确定厚度，外露和易受机械损伤的部位加厚。卷材与基层、搭接和固定方式配套。订单中写明部位和厚度要求，供应商匹配规格；到货核对厚度和批次，屋面按铺设方向和搭接宽度施工，避免厚度不足在使用中被刺穿。",
             "hi": "3 मिमी संरक्षित छत और डिटेल कार्य के लिए; 4 मिमी सामान्य एक्सपोज़्ड छत का चलता-फिरता मानक; 5 मिमी वहां जहां पंक्चर का खतरा अधिक है — पैदल मार्ग, बैलेस्टेड छत और बेसमेंट टैंकिंग।",
             "ru": "3 мм берут для защищённых кровель и узловых деталей; 4 мм — распространённый стандарт для открытой кровли; 5 мм идёт туда, где высока вероятность прокола: пешеходные зоны, кровли с балластом и гидроизоляция подвала. Толщину выбирают по условиям эксплуатации, а не по одной цене рулона.",
@@ -300,7 +300,7 @@
             "ja": "SBS 改質アスファルト、PVC、TPO のどれを選びますか？"
           },
           "a": {
-            "en": "SBS suits torch-on and self-adhesive detailing at low material cost. PVC and TPO single-ply systems suit large roofs, high exposure and projects that want welded seams and solvent resistance.",
+            "en": "SBS bitumen suits torch-on and self-adhesive detailing, with cold-weather flexibility and elongation from polymer-modified asphalt. PVC and TPO single-ply systems suit large roofs, high exposure and heat-welded seams without open flame. Choose the system from roof size, exposure, installation method and maintenance plan: SBS for detail and torch or adhesive work, PVC/TPO for welded membrane fields. Check seam weld or bond compatibility, lap detail and grade against substrate and climate. Record system, thickness and fixing or ballast method together, and confirm UV and heat basis for the local roof.",
             "zh": "SBS 改性沥青适合热熔和自粘细部，材料成本较低；PVC 和 TPO 单层卷材适合大屋面、高暴露以及对耐久和焊接要求高的项目。选型按屋面面积、暴露程度、维护条件和基层配合判断，不同卷材的焊接方式、耐紫外和伸缩表现不同。订单中写明屋面条件和系统要求，供应商配套卷材及配件；到货核对材质和批次，安装按对应工艺搭接焊接，避免系统材料混用影响整体性。",
             "hi": "SBS कम मटेरियल लागत पर टॉर्च-ऑन और सेल्फ-एडहेसिव डिटेल के लिए उपयुक्त है। PVC और TPO सिंगल-प्लाई सिस्टम बड़ी छतों, अधिक एक्सपोज़र, और वेल्डेड सीम तथा विलायक रोधन चाहने वाली परियोजनाओं के लिए चलते हैं।",
             "ru": "Битум с модификацией SBS подходит для наплавляемых и самоклеящихся узлов при невысокой себестоимости материала. Однокомпонентные системы PVC и TPO используют на больших кровлях, при высоком атмосферном воздействии и там, где нужны сварные швы и стойкость к растворителям.",
@@ -326,7 +326,7 @@
             "ja": "地下室と屋根で同じ防水膜を使いますか？"
           },
           "a": {
-            "en": "Not normally. Basement tanking prioritises puncture resistance and hydrostatic performance, roof exposure prioritises UV and heat resistance. Specify per application rather than one product for both.",
+            "en": "Not normally. Basement tanking prioritises puncture resistance and hydrostatic performance against groundwater pressure; roof exposure prioritises UV, heat resistance and standing rain. Specify per application rather than one membrane across both, and match sheet to outward hydrostatic head or surface weathering. For basements, check lap sealing, protection layer and ground contact; for roofs, check UV stability, thermal cycling and seam weld or bond strength. Record exposure, thickness and lap detail by zone, and do not move a roof-grade sheet into buried tanking without confirming hydrostatic and puncture basis.",
             "zh": "地下室和屋面一般不使用同一种卷材。地下室防水优先抗穿刺和耐静水压力性能，屋面暴露优先耐紫外和耐热老化性能。选型分别按地下水压、土中接触和屋面日晒温差确定；材料等级、厚度和配套细部节点各自对应。订单中写明两个部位的使用条件，供应商分别匹配卷材；到货分开批次标注，地下和屋面材料不混放混用，施工按各自规范处理搭接和收口，避免一侧性能不达标造成渗漏。",
             "hi": "आम तौर पर नहीं। बेसमेंट टैंकिंग में पंक्चर रोधन और हाइड्रोस्टेटिक प्रदर्शन प्राथमिक है; छत के एक्सपोज़र में यूवी और गर्मी रोधन आगे आता है। दोनों के लिए एक ही उत्पाद की बजाय उपयोग के अनुसार स्पेसिफाई करें।",
             "ru": "Обычно нет. Гидроизоляция подвала в первую очередь опирается на стойкость к проколу и работу против гидростатического давления; кровельный материал защищает от ультрафиолета и нагрева. Спецификацию задают под каждый узел отдельно, не пытаясь закрыть оба направления одним рулоном.",
