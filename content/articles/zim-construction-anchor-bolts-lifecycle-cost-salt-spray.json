@@ -233,7 +233,7 @@
             "hi": "ज़िम्बाब्वे एंकर बोल्ट जीवनचक्र लागत और नमक छिड़काव ऑर्डर के लिए विशिष्ट लीड टाइम क्या है?"
           },
           "a": {
-            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "en": "The schedule is set by the consignment, not a published calendar. It depends whether these anchor bolts for concrete fixing are a regular production size or a special form needing setup, and on the route to Zimbabwe construction and maintenance sites. For Zimbabwe structures exposed to moisture, the lot passes embedment note, grade and corrosion test record before release; allow for coating life versus exposed environmental conditions. Confirm spec, quantity and destination before booking; urgent orders can fly at higher freight, with timing quoted per order.",
             "zh": "锚栓可选 ASTM F1554 36/55/105 级，或按 ISO 898-1 定 8.8 级。户外锚栓镀层下单时定死：电镀锌、热浸镀锌或 304/316 不锈钢，耐盐雾表现按 ASTM B117 记录。排期评估必须把镀层加工与复检时间算进去，不能只按裸件工序估算交期，基础锚固的埋深与弯钩尺寸也要在图纸阶段冻结。交期按订单核算。",
             "es": "El plazo se cotiza por pedido.",
             "fr": "Le délai est établi par commande.",
@@ -259,7 +259,7 @@
             "hi": "ज़िम्बाब्वे एंकर बोल्ट जीवनचक्र लागत और नमक छिड़काव के लिए न्यूनतम ऑर्डर मात्रा (MOQ) क्या है?"
           },
           "a": {
-            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
+            "en": "The minimum follows the production route and supplier scale, not one threshold. These anchor bolts for concrete fixing in existing dies can usually run in modest lots; a special dimension or head form needs tooling and sets a higher minimum. For Zimbabwe structures exposed to moisture, grouping matched specs spreads setup overhead, and the lot passes embedment note, grade and corrosion test record. Mind coating life versus exposed environmental conditions in the first batch; the minimum is set once spec, packing and destination are settled, with a sample before bulk.",
             "zh": "比较方案看全生命周期：镀层等级、盐雾小时数、更换周期与库存持有成本一起算，不能只比单件报价。同级同镀层的 M12、M16、M20 锚栓合并下单，换产批次与重复包装费用随之下降，混凝土基材的钻孔直径与锚固深度在询价表里注明。起订量按生产路线确定。",
             "es": "La cantidad mínima depende de la ruta de producción.",
             "fr": "La quantité minimale dépend de la route de production.",
@@ -285,7 +285,7 @@
             "hi": "ज़िम्बाब्वे एंकर बोल्ट जीवनचक्र लागत और नमक छिड़काव खरीद के लिए विशिष्ट भुगतान शर्तें क्या हैं?"
           },
           "a": {
-            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit arranged through the buyer's bank. The settlement route, documents and milestones should be agreed up front, and any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
+            "en": "The settlement route depends on programme size, trading history and local bank rules. A first order usually pairs a deposit against the proforma with a balance against shipping documents (bill of lading copy, packing list, inspection certificate); avoid full prepay before production. Repeat programmes may use an L/C through the bank. For Zimbabwe construction and maintenance sites, the settlement route, documents and milestones are agreed up front, with embedment note, grade and corrosion test record as release record. Given coating life versus exposed environmental conditions, confirm currency routing and handover before production.",
             "zh": "锚栓订单结算：定金与尾款比例按订单核算，余款凭提单副本结算。大额开即期信用证。津巴布韦及周边银行常要求即期信用证，全额开工前预付应避开。核算到岸成本时，把付款周期占用的资金成本、在途库存与不合格批次返工代价都计入。EN 10204 3.1 材质证明随货，镀层与机械性能按批次逐项核对，现场拉拔试验的批次划分与留样要求在合同中明确。付款条件按里程碑约定。",
             "es": "Las condiciones de pago se acuerdan por hitos.",
             "fr": "Les conditions de paiement sont convenues par jalons.",
