@@ -248,7 +248,7 @@
             "hi": "अफ्रीकी बाजारों के लिए न्यूनतम ऑर्डर मात्रा क्या है?"
           },
           "a": {
-            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
+            "en": "Order minimum is set by how the item is made rather than a fixed level. These construction bolt, screw and anchor ranges in existing dies can usually run in modest lots; a special dimension or head form needs tooling and sets a higher minimum. For Kenya, Tanzania and neighbouring East African, grouping matched specs spreads setup overhead, and the lot passes grade markings, dimensions and packing on arrival. Mind port congestion and inland transit in the first batch; the minimum is set once spec, packing and destination are settled, with a sample before bulk.",
             "zh": "拼箱订单有最低货值要求，按供应商当期政策确认。下单前把规格、材质和镀层汇总成清单，通用件凑整批量更有利，小众规格单独起订可能有附加费用。试单适合先验证质量和交付节奏，后续返单再按项目用量安排，具体起订量以供应商确认的订单方案为准。起订量按生产路线确定。",
             "es": "La cantidad mínima depende de la ruta de producción.",
             "ar": "تتبع الكمية الدنيا مسار الإنتاج.",
@@ -274,7 +274,7 @@
             "hi": "चीन से पूर्वी अफ्रीका तक शिपिंग में कितना समय लगता है?"
           },
           "a": {
-            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "en": "The schedule is set by the consignment, not a published calendar. It depends whether these construction bolt, screw and anchor ranges are a regular production size or a special form needing setup, and on the route to Mombasa and Dar es Salaam, then inland. For Kenya, Tanzania and neighbouring East African, the lot passes grade markings, dimensions and packing on arrival before release; allow for port congestion and inland transit. Confirm spec, quantity and destination before booking; urgent orders can fly at higher freight, with timing quoted per order.",
             "zh": "紧急订单可加急空运，但成本明显高于海运。运输时间通常含目的港清关，实际还受船期和港口排队影响。内陆国家到港后还要再接陆运，备货时把港到工地的时间计入。急用规格可先行排产发运，避免整批等待影响施工，具体时效以订舱和物流安排为准。交期按订单核算。",
             "es": "El plazo se cotiza por pedido.",
             "ar": "يُحتسب موعد التسليم حسب الطلب.",
@@ -300,7 +300,7 @@
             "hi": "अफ्रीकी खरीदारों के लिए कौन से भुगतान शर्तें स्वीकार की जाती हैं?"
           },
           "a": {
-            "en": "Payment terms depend on order size, buyer credit history, and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit through the buyer's bank. The settlement route, documents, and release milestones are agreed, and a supplier demanding full payment before production should be avoided. Terms are settled per milestone, each tied to a delivery or document stage, with the invoice and document set matched to that stage.",
+            "en": "Terms depend on order size, the buyer's standing and the destination bank's practice. A first order usually pairs a deposit against the proforma with a balance against shipping documents (bill of lading copy, packing list, inspection certificate); avoid full prepay before production. Repeat programmes may use an L/C through the bank. For Mombasa and Dar es Salaam, then inland, the settlement route, documents and milestones are agreed up front, with grade markings, dimensions and packing on arrival as release record. Given port congestion and inland transit, confirm currency routing and handover before production.",
             "zh": "非洲紧固件进口常见付款方式包括：电汇（T/T）。付款交单（D/P）。以及合作稳定后的赊销（OA）。新客户一般从 T/T 或 L/C 开始，积累若干次成功交易后再申请信用条款。选用方式时核对双方风险承受和银行安排：信用证要明确单证要求和有效期，赊销只适用于已建立信用的长期客户，合同中写清定金节点、尾款条件和所需单据。付款条件按里程碑约定。",
             "es": "Las condiciones de pago se acuerdan por hitos.",
             "ar": "تُتفق شروط الدفع حسب المراحل.",
@@ -378,7 +378,7 @@
             "ja": "流通業者はこれらの市場の在庫をどう計画すべきですか"
           },
           "a": {
-            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "en": "Delivery is planned per order rather than against a fixed timetable. It depends whether these construction bolt, screw and anchor ranges are a regular production size or a special form needing setup, and on the route to Mombasa and Dar es Salaam, then inland. For Kenya, Tanzania and neighbouring East African, the lot passes grade markings, dimensions and packing on arrival before release; allow for port congestion and inland transit. Confirm spec, quantity and destination before booking; urgent orders can fly at higher freight, with timing quoted per order.",
             "zh": "分销商应在本地常备高周转规格，项目用量按确认订单再进口，因为从蒙巴萨或达累斯萨拉姆到内陆要走数周。库存规划分两层：通用常用规格保持安全库存，专用件和大项目数量等订单落实后再发。结合内陆转运周期设置补货提前期，临近港口的市场周转更快，偏远内陆则要多留缓冲。定期核对库存周转和消耗，避免积压冷门规格。交期按订单核算。",
             "hi": "लीड टाइम ऑर्डर के अनुसार तय होता है।",
             "ru": "Срок поставки рассчитывается по заказу.",
