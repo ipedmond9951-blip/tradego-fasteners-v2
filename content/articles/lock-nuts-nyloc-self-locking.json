@@ -60,7 +60,7 @@
     {
       "id": "nyloc-nuts",
       "heading": {
-        "en": "Nylon Insert Lock Nuts (Nyloc)",
+        "en": "How do nylon insert lock nuts build prevailing torque?",
         "es": "Tuercas de Seguridad con Inserto de Nylon (Nyloc)",
         "ar": "صواميل القفل ذات الحلقة النايلونية (Nyloc)",
         "fr": "Écrous Freins à Bague Nylon (Nyloc)",
@@ -69,7 +69,7 @@
         "ja": "ナイロンインサートロックナット（ナイロンナット）",
         "de": "Nylonring-Kontermuttern (Nyloc)",
         "hi": "नायलॉन इंसर्ट लॉक नट्स (नायलॉक)",
-        "zh": "尼龙嵌件锁紧螺母（Nyloc）"
+        "zh": "尼龙嵌件锁紧螺母如何形成预紧力矩？"
       },
       "body": {
         "en": "<p>The nylon insert nut is the most common answer and the easiest to get wrong. A collar of nylon sits in the top of the nut and is slightly smaller than the thread, so the bolt deforms it as it passes through. That deformation produces prevailing torque — resistance that exists before the nut seats and continues after it — and it is that resistance, not the seating friction, that keeps the nut from backing off.</p>\n<p>The behaviour that surprises buyers is the free running. Until the bolt reaches the collar, the nut spins on with almost no resistance, and an installer who judges by feel will think the nut is loose. The tightening torque has to be measured past the collar, and a torque-controlled tightening sequence has to account for the extra resistance the collar adds, or the joint ends up under-preloaded.</p>\n<p>The insert sets the limits. Nylon softens with heat, so a nylon insert nut is a moderate-temperature part and has no business in an exhaust, a furnace area or a plant room next to a steam line. Nylon is also attacked by some solvents and by prolonged exposure to certain chemicals, which matters in a chemical plant even at ambient temperature. And the insert is a one-shot device in principle: a nut that has been run on and off many times loses the interference that made it work, so reuse should be limited and specified rather than assumed.</p>\n<p>The advantages are real: the nut is free-running until it seats, it can be removed and refitted a limited number of times, it does not damage the thread, and it is cheap. That combination is why it dominates general machinery, automotive and light structural work — and why it should not be pushed into high temperature or into a joint that is dismantled weekly.</p>\n\n<p>One ordering detail matters more than it looks: the insert material and the coating have to be specified together, because a nut galvanised after the insert is fitted, or a nut whose insert sits behind a coating too thick for the thread, is a nut whose prevailing torque no longer matches the drawing.</p>",
@@ -188,7 +188,7 @@
     {
       "id": "selection-guide",
       "heading": {
-        "en": "Selection Guide for African Applications",
+        "en": "Which lock nut type suits African field conditions?",
         "es": "Guía de Selección para Aplicaciones Africanas",
         "ar": "دليل الاختيار للتطبيقات الأفريقية",
         "fr": "Guide de Sélection pour les Applications Africaines",
@@ -197,7 +197,7 @@
         "ja": "アフリカ用途の選定ガイド",
         "de": "Auswahlleitfaden für afrikanische Anwendungen",
         "hi": "अफ्रीकी अनुप्रयोगों के लिए चयन गाइड",
-        "zh": "非洲应用选型指南"
+        "zh": "哪种锁紧螺母更适合非洲现场工况？"
       },
       "body": {
         "en": "<p>In African project work, the choice usually follows the vibration environment rather than the product catalogue. Mining equipment underground and on plant: continuous transverse vibration plus dust, and the fasteners are often re-torqued on a maintenance schedule, so an all-metal nut that survives heat and repeated work is the usual answer, with the bolt thread treated as a consumable. Haul trucks and trailers: high vibration and frequent wheel changes, which pushes towards nylon insert nuts on the smaller sizes and all-metal where the joint runs hot.</p>\n<p>Solar mounting and steel structures: thermal cycling rather than vibration, and the locking requirement is modest compared with the corrosion requirement. A correctly preloaded joint with a coated nut and a flat washer usually outperforms an exotic lock nut on a joint that was never preloaded properly. Port and cargo handling equipment: shock loading and salt, which makes coating compatibility with the locking element the deciding question — a nylon insert behind a hot-dip galvanised nut is a pairing that has to be checked, not assumed.</p>\n<p>Agricultural machinery is the case that gets mis-specified most often: a nylon insert nut is cheap, familiar and available, and it is also the part that fails first when the machine works in dust and heat with weekly maintenance. The honest specification asks three questions — what temperature, how many times will it be undone, and is the vibration continuous or occasional — and the answers usually pick the family without further debate.</p>\n<p>Whatever is chosen, the specification should state the property class of the nut with the bolt — referenced to ISO 898-1 for carbon steel and ISO 3506-1 for stainless — the coating, the insert material where relevant, and whether a prevailing torque figure has to be demonstrated. A nut ordered as \"lock nut, M12\" leaves all four to the supplier.</p>\n\n<p>For export projects, the question that settles most orders is availability by size and coating rather than technical superiority. The family that can be supplied in the sizes, classes and finishes a project actually needs, with consistent coating, is usually the right answer.</p>",
@@ -268,7 +268,7 @@
             "ja": "ナイロックナットは再利用できますか？"
           },
           "a": {
-            "en": "Yes, Nyloc nuts can typically be reused 5-10 times before significant degradation of the nylon insert. For critical applications (safety, heavy vibration), replace with a new Nyloc nut each service interval. If the nylon insert appears cracked, deformed, or glazed, replace immediately.",
+            "en": "Yes, a nylon insert lock nut can be reused a limited number of times before the insert loses its interference fit, but service conditions decide the limit. On a critical joint in safety equipment, a conveyor frame, or sustained vibration, fit a new nut at each service interval. If the insert is cracked, deformed, glazed, or heat-hardened, replace it immediately. The collar softens at elevated temperature and can be attacked by solvents, so a nut from a hot or chemical environment should not be reused. Record reuse against the part rather than assuming the nut still fits the joint.",
             "zh": "一般可重复使用 5 至 10 次，之后尼龙嵌件的锁紧性能会明显下降。安全件、强振动等关键用途应在每次检修时更换新的尼龙嵌件螺母；若尼龙环出现裂纹、变形或光滑发亮，应立即更换，不要继续复用。判断能否再用看嵌件状态：抱紧力下降、旋合旷量增大或尼龙环发脆发亮即报废；普通低载荷场合可按次数控制复用，关键连接和长期振动环境不重复使用，拆装后检查螺纹和嵌件，配合标记管理复用批次，防止老化螺母进入关键节点。",
             "hi": "हाँ, नाइलॉक नट आमतौर पर नाइलॉन इन्सर्ट में बड़ी कमज़ोरी आने तक 5–10 बार दोबारा चल सकते हैं। सुरक्षा, भारी कंपन जैसे कठिन कामों में हर रखरखाव अंतराल पर नया नाइलॉक नट लगाएँ। नाइलॉन इन्सर्ट पर दरार, विकृति या चमकीली परत दिखे तो तुरंत बदल दें।",
             "ru": "Гайки Nyloc обычно допускают 5–10 повторных использований до заметной деградации нейлоновой вставки. В ответственных узлах — безопасность, сильная вибрация — на каждом сервисном интервале ставьте новую гайку. Если вставка потрескалась, деформирована или покрылась глянцевым налётом, замените немедленно.",
@@ -294,7 +294,7 @@
             "ja": "ナイロックとばね付きロック座金はどちらが良いですか？"
           },
           "a": {
-            "en": "For vibration applications, lock nuts outperform spring washers significantly. Spring washers (split lock washers) rely on spring tension and can lose effectiveness under sustained vibration. Nyloc nuts provide consistent prevailing torque throughout the joint's life. For critical joints, use both: Nyloc nut + flat washer.",
+            "en": "Under sustained vibration, a lock nut generally outperforms a split spring lock washer: the washer's spring tension relaxes over cycles, while the nut maintains prevailing torque through joint life. A split washer resists loosening only on the seating face and cannot restore lost preload. On a critical joint, combine a Nyloc nut with a flat washer rather than stacking washers alone. Match the nut coating to the bolt, for example ISO 4042 plated fasteners on indoor machinery, and respect the insert's temperature and solvent limits. If the joint has lost preload, fix the clamp stiffness instead of changing the locking element.",
             "zh": "在振动工况下，锁紧螺母的防松表现明显优于弹簧垫圈。开口弹簧垫圈依靠簧片弹力提供防松，在持续振动下弹力容易衰减，长期松动后便失去约束作用；尼龙嵌件螺母则在整个连接寿命内保持稳定的预紧扭矩，减振效果更可靠。选型时应把振动强度、是否反复拆装和工作温度一起考虑：高频振动部位优先选嵌件或全金属锁紧结构，而不是只靠弹簧垫圈承压；订单中写明防松型式与试验要求，供应商才会按对应工艺供货。",
             "hi": "कंपन वाले कामों में लॉक नट स्प्रिंग वॉशर से काफी बेहतर प्रदर्शन करते हैं। स्प्लिट स्प्रिंग वॉशर स्प्रिंग तनाव पर टिके होते हैं और लगातार कंपन में असर खो सकते हैं। नाइलॉक नट जोड़ की पूरी जीवन अवधि में एकसमान प्रीवेलिंग टॉर्क देते हैं। कठिन जोड़ों में दोनों लगाएँ: नाइलॉक नट और फ्लैट वॉशर।",
             "ru": "При вибрационных нагрузках стопорные гайки заметно превосходят пружинные шайбы. Разрезные пружинные шайбы держатся на упругой растяжке и под длительной вибрацией теряют эффективность. Гайка Nyloc обеспечивает стабильный момент трения (prevailing torque) на всём сроке службы соединения. Для ответного узла используют оба элемента: гайку Nyloc плюс плоскую шайбу.",
@@ -320,7 +320,7 @@
             "ja": "戻り止めトルクとは何ですか？"
           },
           "a": {
-            "en": "Prevailing torque is the torque required to rotate the nut onto the bolt before the main tightening torque is applied. It is measured as the torque needed to overcome the locking mechanism's resistance. A quality Nyloc nut typically has prevailing torque of 0.5-2.0 N·m depending on size. This value must be verified in the product datasheet for engineering applications.",
+            "en": "Prevailing torque is the torque needed to rotate the nut onto the bolt before it seats: the resistance the locking mechanism adds ahead of the main tightening torque. It is measured separately from seating torque, and on a quality Nyloc nut it sits in a stated range that varies with thread size. A fitter judging by feel may think the free-running nut is loose, because before reaching the collar the nut spins with almost no resistance. Check the prevailing torque range against the datasheet, and let the tightening sequence account for the extra collar resistance; ignoring it can leave the joint under-preloaded.",
             "zh": "预紧力矩（prevailing torque）指在施加主拧紧扭矩之前，把螺母旋到螺栓上所需克服锁紧机构阻力的扭矩。合格 Nyloc 螺母的预紧力矩通常按规格在 0.5 至 2.0 N·m 之间；工程选用时要以产品数据表中的实测范围为准，不能凭经验定值。",
             "hi": "प्रीवेलिंग टॉर्क वह टॉर्क है जो मुख्य कसाव टॉर्क लगने से पहले नट को बोल्ट पर घुमाने के लिए चाहिए होता है; इसे लॉकिंग तंत्र के प्रतिरोध पर काबू पाने के लिए आवश्यक टॉर्क के रूप में मापा जाता है। अच्छे नाइलॉक नट का प्रीवेलिंग टॉर्क आकार के हिसाब से आमतौर पर 0.5–2.0 N·m होता है। इंजीनियरिंग कामों में यह मान उत्पाद डेटाशीट में अवश्य जाँच लेना चाहिए।",
             "ru": "Prevailing torque — момент, требуемый для навинчивания гайки на болт до приложения основного затягивающего момента; это сопротивление стопорного механизма. У качественной гайки Nyloc он составляет 0,5–2,0 Н·м в зависимости от размера. Для инженерных применений значение проверяют по паспорту изделия.",
