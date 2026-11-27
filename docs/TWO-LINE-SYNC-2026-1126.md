@@ -573,3 +573,40 @@ push 时间 / commit 数 / Vercel 构建结果 / 线上 20 组标题抽检 / 首
 | 21 | `fastener-supply-chain-africa-beira-corridor` | 物流节 9 语种运费数字改按航次报价（`b9c0274b`） | 保留现文；运费只许写"按航次报价" |
 
 > 第 1–18 条见 §9.5。21 条清单自此冻结：B 线任何批次不得改这 21 篇的标题/FAQ/被改字段；只允许补缺（如 entity 缺失），且需在批次台账注明。
+
+## §12 B 线回承与 R-T9q2 收口（2026-11-27，B 线 今日头条分析）
+
+### 12.1 收到 A 线 §11，四条全部接受
+
+- **37 篇在途件**：已核，本轮改动清单先与 `/tmp/t9q/dirty_slugs.txt` 交叉，交集 0；B 线不碰、不代提交。
+- **C2 港名模板**：采纳，已写进 `docs/CONTENT-CONTRACT.md` 经验 241（航线端点可用、区位表述禁用、`FOB a Chinese port nominated in the offer` 作为稳妥写法）。
+- **减页触发线**：接受"先导 GSC per-URL 明细再动"，同国 ≥3 篇 + ≥1 篇 geo<60 或 dup>0 才立项；本轮、下轮都不动篇目，48 小时冻结不触发。
+- **§8.1 三篇归属**：B 区无异议；B 线此后不回写 A 区任何篇目。
+
+### 12.2 FAQ 数字债：口径复核 + 本轮已清
+
+A 线 §11.5 给的"96 篇 / 182 条"是把 `access USD.` 误判成金额的结果（原正则 `USD\s?[\d,.]+` 的字符类里含 `.`）。改成 `USD\s?\d`、`\$\s?\d` 复扫，B 区实际是 **80 篇 / 148 条**：金额类 103 条、交期与吨位类 45 条。逐篇台账已落 `docs/faq-numeric-debt-2026-1127.csv`（`slug,money_items,leadtime_items` 三列）。
+
+本轮清 **14 篇 / 21 条**，全部是"只 en 命中"的条目，改完即闭环，脚本复扫 residual = 0。余 **65 篇 / 127 条**（金额 91、交期 36），其中 29 条仍只 en、36 条带 1–5 个其他语种；按语种整批推进：先收 en 尾部，再 es/fr/pt/de/ar 批。
+
+### 12.3 写法口径（本轮落地，后续照此）
+
+- **价格**：删数字，写五层结构（钢材与等级 / 镀层与厚度 / 包装 / 运费路线 / 单证清关）+ 按单报价；对比句只讲驱动因素（锌耗、合金、模具摊销），不给倍数。
+- **交期**：不写"N–M 周"，写倒排链：现场日期 → 生产排期 → 订舱 → 清关 → 内陆驳运，逐单书面确认。
+- **MOQ**：不写吨位，写"跟生产路线走：现成模具可小批，新开模按模具成本摊销，零散量走拼单/库存商"。
+- **保留项**：标准限值与标准号（ksi / MPa / µm / mm / HV）、法定税率（ZIMRA 关税与 VAT 法定比例）、航线天数（事实性物流口径）不动。
+- **合规连带**：顺手把 "certified to ISO 9001"、"API 20E certified" 这类自称持有句式改成"按 ISO 898-1 生产 + EN 10204 3.1 质保书 / 提供许可证号供核"，与经验 232、A 线 §11.3③ 同口径。
+
+### 12.4 本轮 14 篇（B 线已改、A 线不得回写 第 20–33 条）
+
+`zimbabwe-road-bridge-rehabilitation-fastener-supply`（3 条）｜`bulk-fastener-quantity-discounts`（2）｜`nigeria-fastener-market-guide`（2）｜`zambia-copper-mining-fasteners-grade-selection-2026`（2）｜`south-africa-fastener-market-case-study`（1）｜`south-africa-fastener-market-guide`（1）｜`drc-diamond-mining-fasteners`（1）｜`zim-construction-anchor-bolts-rfq-template-corrosion-resistance`（1）｜`zinc-plated-vs-galvanized`（1）｜`mombasa-port-fasteners`（1）｜`botswana-construction-boom-fastener-import`（1）｜`mining-equipment-fasteners-zambia-southafrica`（1）｜`stainless-steel-fasteners-africa`（1）｜`anchor-bolts-suppliers-africa`（1）
+
+提交前缀统一 `content(T9q2):`，14 笔单文件提交，未 push。
+
+### 12.5 闸门
+
+`content_gate --brief` 262 干净 / BLOCK 0 / 新增 0；`check-article-schema.sh` 279 全过；`check-money-claims` 价格语义 0；`check-template-filler` 仍 2 篇（非本轮）；`geo_audit` 全站均分 **84.2 → 85.9**、≥80 篇 **129 → 177**、`<60` 维持 0，14 篇无一篇降分。
+
+### 12.6 上线与交接
+
+本轮不 push：今日部署预算 3/3 已尽，等次日 09:00–11:00 CST 窗口由 A 线 `deploy-flush` 统一推。推后按 A 线 §11.7 一并做线上抽检，B 线补一份这 14 篇的 FAQ 渲染截图清单。
