@@ -87,7 +87,7 @@
     {
       "id": "bulk-pricing",
       "heading": {
-        "en": "Bulk Order Discounts",
+        "en": "Which fixed and variable costs make up a volume order's unit basis?",
         "es": "Descuentos por Pedidos al por Mayor",
         "ar": "خصومات الطلبات بالجملة",
         "fr": "Remises sur les commandes en gros",
@@ -96,7 +96,7 @@
         "ja": "大口注文割引",
         "de": "Mengenrabatte",
         "hi": "बल्क ऑर्डर छूट",
-        "zh": "批量订单折扣"
+        "zh": "批量订单的单价由哪些固定与可变成本构成？"
       },
       "body": {
         "en": "<p>Volume pricing in this trade is not a discount schedule printed on a page; it is a negotiation about how much of the fixed cost the buyer is willing to absorb. The fixed costs are the setup, the tooling if the part is non-standard, the packing run, the documentation and the booking. Spread over a small order they dominate the unit price; spread over a container they nearly disappear, which is why two quotes for the same screw can differ by a factor that has nothing to do with the screw.</p>\n<p>The practical hierarchy is straightforward. A full container of one line is the cheapest per unit, because setup and packing are amortised over the largest quantity and the loading is simple. A mixed container of several lines is slightly more expensive per unit but far more useful to a distributor, because it delivers a range rather than a stock problem. A part-container or an LCL shipment is the most expensive per unit and is worth it only when the alternative is a stopped line.</p>\n<p>Three habits make a volume negotiation work. Consolidate the sizes so that the order is deep rather than wide. Fix the specification — diameter, length, point, thread, coating class, washer — before the price is discussed, so that both sides are pricing the same part. And separate the price from the terms: a lower unit price on advance payment and a higher one on terms are different offers, and the comparison should be landed cost against a named Incoterm and a named payment condition.</p>\n<p>The last point is the one buyers most often skip: ask what is not included. Certification, third-party inspection, pallet marking, a specific carton print, or a sealing washer to a defined hardness are all items that a quotation can leave out quietly, and each of them comes back as a cost at the moment the goods are ready to ship.</p>",
@@ -114,7 +114,7 @@
     {
       "id": "specs",
       "heading": {
-        "en": "TEK Screw Specifications",
+        "en": "Which diameter, point, thread and washer define a TEK screw specification?",
         "es": "Especificaciones de los Tornillos TEK",
         "ar": "مواصفات براغي تيك",
         "fr": "Spécifications des vis TEK",
@@ -123,7 +123,7 @@
         "ja": "テックスねじ仕様",
         "de": "Technische Daten der TEK-Schrauben",
         "hi": "TEK स्क्रू विशिष्टताएं",
-        "zh": "TEK螺钉规格参数"
+        "zh": "哪些直径、钻尾、螺纹与垫圈决定 TEK 螺钉规格？"
       },
       "body": {
         "en": "<p>The specification of a TEK screw is a short list, but every item on it changes what the part will do. Diameter and length define the mass and the reach. The drill point number defines the steel thickness the screw can penetrate. The thread — coarse for timber and thin sheet, fine for metal-to-metal — defines the grip. The head form defines the drive, the bearing surface and whether a sealing washer can be fitted. The coating class defines the corrosion life, and the base material defines the strength.</p>\n<p>Strength is usually declared through the case hardness of the point and the core strength of the body, because a self-drilling screw has to be hard enough to cut and tough enough not to snap. A part that is hard all the way through drills well and fails brittle; a part that is soft drills badly and strips. The heat treatment is therefore the quality control that matters most, and it is the one a buyer cannot see. Asking for the hardness range in the certificate is the practical way to make it visible.</p>\n<p>Dimensional tolerances matter for the same reason they do on any threaded part: a screw that is at the top of the diameter tolerance will not enter a hole that a screw at the bottom of it will, and on automated equipment that difference stops a line. Where a project specifies a standard, the supplier should confirm which standard and which tolerance class, and where it does not, the buyer should expect the supplier's house tolerance rather than assume a default.</p>\n<p>Testing is proportionate. A dimensional check, a point hardness check, a coating thickness measurement and a drive test into the specified steel thickness will confirm a shipment faster than any document review, and they can be done with the tools already on site. The certificate then becomes a record of what was tested rather than a substitute for testing.</p>\n\n<p>One more specification habit worth keeping: write the point number and the coating class on the purchase order, not in an email, because those two items are what a buyer will need to prove when a shipment arrives that drills badly or rusts early.</p>",
@@ -205,7 +205,7 @@
             "ja": "セルフドリリングねじの価格を左右する要因は何ですか？"
           },
           "a": {
-            "en": "Coating is the biggest variable: AZ150 or higher adds real cost over thin electro-zinc, and stainless multiplies it again. Then diameter and length, head type, and whether the order is a full container or a mixed pallet.",
+            "en": "Coating is the biggest variable: AZ150 or higher adds cost over thin electro-zinc, and stainless multiplies it again. Diameter, length and head type also matter, as does whether the order is a full container or mixed pallet. The spec sets the base: mass from size, point and pitch from tooling, finish from coating chemistry. Head form, washer and colour add items, and packing changes the build. Compare on the same spec, coating and packing, not a bare unit figure. Fix size, point, thread, coating and washer before quoting.",
             "zh": "自钻螺钉的成本主要由镀层决定：AZ150 及更高涂层相对薄电镀锌有明显成本增加，不锈钢再上一个台阶；此外还有直径、长度、头部型式，以及订单是整柜常规规格还是零散定制。选型先明确使用环境和板厚，避免为不需要的高防腐等级付费；常规规格集中采购便于分摊工装和批次成本。订单中写明规格、镀层和用途，供应商据此核算；不同镀层、等级分开装箱标注。比较方案时把材质、镀层和包装一并考虑，而不只看名义单价，避免到货后因等级不足再换批次。",
             "hi": "कोटिंग सबसे बड़ा बदलाव वाला पहलू है: पतले इलेक्ट्रो-ज़िंक के मुकाबले AZ150 या उससे ऊपर कोटिंग में असली खर्च आता है, और स्टेनलेस स्टील उस पर फिर एक दर ज़्यादा करता है। इसके बाद व्यास व लंबाई, हेड का प्रकार, और ऑर्डर पूरे कंटेनर का है या मिला-जुला पैलेट, ये बातें भी भाव में बदलाव लाती हैं; कीमत इन्हीं पर मिलकर बनती है, इसलिए पहले स्पेसिफिकेशन साफ करें।",
             "ru": "Больше всего колеблет себестоимость покрытие: AZ150 и выше заметно дороже тонкого электролитического цинка, а нержавеющая сталь умножает цену ещё раз. Дальше в порядке влияния идут диаметр и длина, тип головки и характер заказа — полный контейнер или сборный паллет. Конкретная ставка фиксируется после согласования спецификации и объёма партии.",
@@ -231,7 +231,7 @@
             "ja": "インコタームズは見積もり価格にどう影響しますか？"
           },
           "a": {
-            "en": "FOB excludes ocean freight and destination charges; CIF adds freight and insurance to a named port, which for African routes can be a meaningful share of the unit price on heavy screws. Compare landed cost per thousand pieces, not per unit FOB.",
+            "en": "FOB excludes ocean freight and destination charges; CIF adds freight and insurance to a named port, which on heavy screws can share the unit price on African routes. Compare landed cost per thousand, not per unit FOB. The Incoterm shifts who books and pays freight, insurance, clearance and handling, so the ex-works basis changes under FOB, CIF or landed terms. State port, route and delivery basis, and separate goods cost from freight and destination charges. Confirm whether packing and insurance sit inside the basis, and compare like terms between suppliers.",
             "zh": "FOB 不含海运费与目的港费用；CIF 加运费与保险到指定港，非洲航线对偏重的螺钉来说这部分占比不小。要按每千支的到岸成本比价，而不是比 FOB 单价。报价前先对齐贸易术语：FOB 价只反映出厂和出口环节，海运费、保险、目的港杂费和清关费另计；CIF 由卖方安排到指定港的运费和保险。不同术语下的报价口径不同，应换算到同一到岸成本再比较，螺钉偏重时海运段对总成本影响明显，清单里注明术语和费用划分。",
             "hi": "एफओबी में समुद्री ढुलाई और गंतव्य शुल्क शामिल नहीं होते; सीआईएफ में बताए गए बंदरगाह तक माल ढुलाई व बीमा जुड़ जाता है, और अफ्रीका रूट पर भारी स्क्रू में यह हिस्सा इकाई भाव का बड़ा अंश हो सकता है। तुलना प्रति हजार पीस की लैंडेड लागत से करें, सिर्फ एफओबी इकाई भाव से नहीं; बीमा व बंदरगाह खर्च भी गिनने पर ही असली फर्क दिखता है।",
             "ru": "FOB не включает морскую перевозку и платежи в порту назначения; CIF добавляет фрахт и страховку до указанного порта, и на африканских направлениях у тяжёлых саморезов эта доля в цене единицы заметна. Сравнивать предложения нужно по привозной стоимости на тысячу штук, а не по цене за штуку на условиях FOB.",
@@ -257,7 +257,7 @@
             "ja": "大口注文は本当に単価を下げますか？"
           },
           "a": {
-            "en": "Partly. Set-up and coating batch costs are spread over more pieces, but steel and zinc costs scale linearly. The biggest savings come from standardising a few lengths and coatings so the factory runs longer campaigns, not from pushing quantity alone.",
+            "en": "Partly. Set-up and coating batch costs spread over more pieces, but steel and zinc costs scale linearly. Savings come from standardising a few lengths and coatings for longer factory campaigns, not from quantity alone. Fixed costs like set-up, tooling and bath prep divide across the lot, while material and coating volume rise with each piece. A full container simplifies packing over mixed pallets or LCL. Consolidate sizes, points and finishes where the joint allows, and separate fixed spread from material cost. Volume alone does not help with many one-off sizes and coatings.",
             "zh": "大批量对成本的影响要分部分看：工装和镀层批次成本可以分摊到更多件上，但钢材和锌料成本随用量近似线性增长。最实在的节省来自把少数几种长度和镀层规格标准化，使面料、镀层和包装方式统一。采购前先梳理实际使用规格，合并同用途尺寸，减少零散定制；框架订单便于供应商排产和备料。订单中写明标准化规格和批次划分，供应商按集中方案组织生产；具体报价以订单规格和当期材料行情为准，长期项目可通过稳定规格和复购节奏优化整体采购成本。",
             "hi": "कुछ हद तक। सेट-अप और कोटिंग बैच की लागत ज़्यादा पीस में बंट जाती है, लेकिन स्टील और ज़िंक का खर्च सीधे मात्रा के अनुपात में बढ़ता है। सबसे बड़ी बचत कुछ लंबाई व कोटिंग को एकरूप करके मिलती है, ताकि फैक्ट्री लंबे बैच चला सके; अकेले मात्रा बढ़ाने से वह बचत नहीं आती, इसलिए स्पेसिफिकेशन की मानकीकरण योजना पहले बनाएं।",
             "ru": "Частично. Наладка и стоимость партии покрытия распределяются на большее число изделий, но сталь и цинк растут пропорционально весу. Главная экономика даёт не сам объём, а стандартизация нескольких длин и покрытий: тогда завод ведёт длинные производственные кампании, и себестоимость позиции падает.",
