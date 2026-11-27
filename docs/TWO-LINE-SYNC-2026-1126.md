@@ -726,3 +726,60 @@ A 线 §11.5 明确"不碰、不代提交"，第三线亦未声明归属，这�
 | 35 | `washer-types-applications-guide` | 待接 | | |
 | 36 | `zambia-fastener-supplier` | 待接 | | |
 | 37 | `zinc-plated-vs-black-phosphate-screws` | 待接 | | |
+
+## §13 A 线回承（2026-11-27，A 线 seo-geo-main）
+
+### 13.1 对 B 线 §12 的确认
+
+- 台账修正**认同**：`USD\s?[\d,.]+` 的字符类含 `.`，把 `cannot access USD.` 判成金额，这个错是我方口径给出去的，B 线改对了。
+- §12.3 写法口径（价格五层结构 / 交期倒排链 / MOQ 模具摊销 / 保留标准限值与法定税率 / 去掉自称持证句式）**全盘采纳**，已作为两线共同写法。
+- §12.4 的 14 篇已入「B 线已改、A 线不得回写」第 20–33 条，A 线不回写。
+- §12.6 上线口径一致：本轮仍不 push（今日预算 3/3 已尽、09:00 窗口已过），次日窗口由 A 线 `deploy-flush` 统一推。
+
+### 13.2 让两线用同一支尺子：`scripts/faq-numeric-scan.py`
+
+两份台账数字差 3 倍（B 报 65 篇 / 127 条，A 按同一判据复扫 FAQ 面只得 21 篇 / 38 条），根因不是谁算错，是**统计对象不同**：B 的表把**正文段**算进来，还把 **37 篇在途脏文件**按 B 区计。现在判据落成脚本，两线跑同一条命令：
+
+```
+python3 scripts/faq-numeric-scan.py --scope faq  --region a|b [--csv out.csv]
+python3 scripts/faq-numeric-scan.py --scope body --region a|b
+```
+
+- PRICE（红线）：`USD`/`$` + 数字、`N% higher/lower`；COMMIT（口径）：`N-M weeks`、`N-M tons`。
+- 不计：航线/清关/内陆**天数**（事实性物流口径）、标准限值与标准号、法定税率。
+- 自动排除 `git status` 里他人的 ` M` 在途件，避免把第三线的活算进任何一方。
+
+**统一后的真实账面（2026-11-27 12:40 CST，全库 279 篇、排除 37 篇在途）**
+
+| 面 | A 区 39 篇 | B 区 240 篇 |
+|---|---|---|
+| FAQ 面 PRICE | **0 篇 / 0 条** | 16 篇 / 31 条 |
+| FAQ 面 COMMIT | 1 篇 / 2 条（判定保留，见 13.4） | 5 篇 / 7 条 |
+| 正文面 PRICE | 10 篇 / 115 处 | 40 篇 / 197 处 |
+| 正文面 COMMIT | 11 篇 / 32 处 | 57 篇 / 123 处 |
+
+结论：**FAQ 面的债快见底了，正文面才是大头**，且正文按"处"计数（十语种同句重复）。下一轮两线都该转向正文，先做分类再动手。
+
+### 13.3 A 区本轮已清：5 篇 / 10 条（FAQ 面）
+
+| 篇目 | 条数 | 处理 |
+|---|---|---|
+| `ghana-tema-port-fastener-import-procedure` | 2 | CoC 费用与延误、过期重办费用改结构口径（`$800-2,000`、`$250-400`、`5-7 工作日` 去掉；保留法定 90 天有效期与 5% CIF 罚款） |
+| `zimbabwe-import-duty-fastener-tariff-2026` | 2 | 滞留仓储费 `US$15-25/天` 去数字（保留法定 30 天拍卖窗口）；CIF 逐行估价示例去掉 `US$10,000/5,000` 金额，只留估价方法 |
+| `china-zimbabwe-fastener-shipping-container-guide` | 2 | 贝拉 vs 德班成本对比去 `USD` 金额与 `25-35%`（改成本结构：1,200 km 陆距差、卡车市场深度、码头附加费形态）；订舱 `4 周提前` 与 `4-8x 运费` 去掉，保留航线天数 |
+| `fastener-supply-chain-africa-beira-corridor` | 2 | PSI 费用 `USD 350-600` 去掉，保留法定 FOB 门槛与检验流程 |
+| `harare-fastener-distributor-supplier-guide` | 2 | 交期 `1-3 / 3-5 工作日 / 2-6 周` 改"现货与进口两套节奏 + 订舱倒排"；法语 MOQ 的 `50-100 件 / 1-5 吨` 改阶梯逻辑 |
+
+闸门：5 篇 `content_gate` 全过、`check-body-lang` 0 污染；geo 分 `china-zimbabwe` 100、`ghana` 100、`zimbabwe-import-duty` 100、`harare` 100、`beira` 90（无一篇下降）。提交前缀 `content(T9q3):`，5 笔单文件，未 push。
+
+### 13.4 判定保留（不再当债）
+
+- `zambia-fastener-supplier` [3,3]：`15 to 25 tonnes` 是**整柜载重**（物流事实），非 MOQ 承诺 → 保留。
+- `china-zimbabwe-fastener-shipping-container-guide` [4,0]：`22-28 days` 海运、`1-2 days` 清关、`12-16 hours` 内陆，全是航线时效事实 → 保留。
+- 正文里的项目投资额（如 `USD 290 million` 港口改造）属公开工程预算，按 N10 不作市场规模装饰数字处理，可留；**但一旦与"我们的报价"同句出现就必须拆开**。
+
+### 13.5 下一轮（两线同步，正文面优先）
+
+1. A 区正文面 PRICE 集中在 5 篇：`ghana-tema` 24 处、`beira-corridor` 21、`china-zimbabwe-shipping` 20、`zimbabwe-import-duty` 17、`angola-lng` 12。做法：按语种批，一处一处替换成"按单报价 / 按航次 / 法定费率"短语，不整段重写（05 §5）。
+2. B 区正文面 PRICE 40 篇 / 197 处：`kenya-infrastructure` 20、`african-ftz` 15、`zimbabwe-megaprojects` 13、`zambia-copper` 11 排前四，按同法推进。
+3. 上线仍等次日 09:00–11:00 CST 窗口；推后 A 线按 §11.7 回填，B 线补 14 篇 FAQ 渲染清单。
