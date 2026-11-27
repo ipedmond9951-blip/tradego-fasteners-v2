@@ -33,8 +33,8 @@
     {
       "id": "overview",
       "heading": {
-        "en": "Benefits of Bulk Ordering",
-        "zh": "批量订购的好处",
+        "en": "What are the cost and handling benefits of ordering fasteners by the container?",
+        "zh": "按柜批量采购紧固件在成本与操作上有哪些好处？",
         "es": "Beneficios de pedidos al por mayor",
         "ar": "فوائد الطلب بالجملة",
         "fr": "Avantages de la commande en vrac",
@@ -114,8 +114,8 @@
     {
       "id": "inventory",
       "heading": {
-        "en": "Inventory Management for Bulk Orders",
-        "zh": "批量订购的库存管理",
+        "en": "How should slow-moving and seasonal fastener stock be planned under a bulk order?",
+        "zh": "批量订单下慢动件与季节性库存怎么规划？",
         "es": "Gestión de inventario para pedidos grandes",
         "ar": "إدارة المخزون لأوامر الجملة",
         "fr": "Gestion des stocks pour les commandes en vrac",
@@ -167,7 +167,7 @@
             "ja": "コンテナ価格の最小数量はどのくらいですか？"
           },
           "a": {
-            "en": "Full container loads (18+ tonnes) typically qualify for best pricing. Some suppliers offer LCL (less than container load) at higher per-unit cost. Consolidating with other buyers to fill a container is common.",
+            "en": "Full container loads qualify for the best per-unit pricing, while LCL shipments carry a higher per-unit cost from consolidation. A 20ft container settles by mass before volume for most carbon steel fasteners, so the mix of diameters and lengths should be planned against payload rather than box count. If your volume sits below a full container, the common route is to consolidate several sizes or group buyers to fill the box. State size list, packing form and structural grades on the enquiry, and ask how the load will be stacked and counted before booking.",
             "zh": "整柜（18 吨以上）通常能拿到最优价格；部分供应商提供拼箱，但单价更高；与其他买家拼柜凑整柜很常见。判断走整柜还是拼柜时，先统计常用规格的年用量和库存周转：长期稳定消耗、仓储容量够的规格凑整柜更划算；用量小、周转慢的规格拼柜即可，避免为摊薄单价积压过多库存。装箱前核对各规格重量和体积，确保柜内排布和承重符合运输要求。",
             "hi": "पूरा कंटेनर भार (FCL, 18+ टन) आमतौर पर सबसे अनुकूल दर के लिए योग्य होता है। LCL (कंटेनर से कम भार) में प्रति-इकाई लागत अधिक रहती है। कंटेनर भरने के लिए दूसरे खरीदारों के साथ मात्रा मिलाना एक आम तरीका है।",
             "ru": "Полная контейнерная загрузка (FCL, от 18 тонн) обычно позволяет получить лучшую цену. Часть поставщиков предлагает перевозку LCL (неполный контейнер) по более высокой удельной стоимости. Распространённая практика — объединение груза с другими покупателями для заполнения контейнера.",
@@ -193,7 +193,7 @@
             "ja": "大口発注が自社に合うかどうかはどう判断しますか？"
           },
           "a": {
-            "en": "Calculate your annual fastener spend. If over $10,000/year, bulk ordering likely saves money. Consider storage capacity and cash flow implications.",
+            "en": "Bulk ordering suits buyers with steady repeated demand and the storage and cash-flow space to hold stock; it is weaker where demand is sporadic or the range changes often. Start from annual usage by size, check storage capacity on site or at the distributor, and compare landed cost against holding cost rather than the unit price alone. Fasteners that move regularly earn the bulk position; slow items stay at smaller lots. Keep forecast, seasonal slow periods and pipeline in view, and review bulk versus replenishment stock each round.",
             "zh": "先算年度紧固件支出：超过 1 万美元/年，批量订货通常更省；同时要考虑仓储容量和现金流占用。评估时还应拆开看规格结构：哪些是常年消耗的通用件，哪些是偶发项目件，前者适合批量备货，后者随项目单订更灵活。批量订货前确认仓库堆放条件、防潮能力和分批领用安排，避免大量到货后无处存放或占用过多资金。",
             "hi": "अपना वार्षिक फास्टनर खर्च हिसाब करें। जहाँ साल भर की खपत बड़ी हो, वहाँ बल्क ऑर्डर से बचत होने की संभावना अधिक होती है। साथ ही भंडारण क्षमता और नकदी प्रवाह पर भी गौर करें—बल्क स्टॉक जगह और पूंजी दोनों रोकता है।",
             "ru": "Посчитайте годовой расход на крепёж. Если годовая потребность велика, оптовая закупка, скорее всего, даст экономию. Учтите также ёмкость склада и влияние на денежный поток.",
@@ -219,7 +219,7 @@
             "ja": "コンテナの途中で在庫の必要が変わったらどうしますか？"
           },
           "a": {
-            "en": "Communicate changes before container ships. Once loaded and shipped, changes are difficult. Build flexibility into initial order quantities.",
+            "en": "Changes should be raised before the container ships, because once loaded and booked the cargo is fixed and adjustments become expensive. Build flexibility into the initial order quantities, grouping sizes that can be substituted within the same production run. Communicate any revised mix to the supplier in writing, with the specification, finish and count per carton confirmed, before the production slot is closed. Where a size must change after booking, treat it as a separate replenishment order rather than a mid-shipment swap, and record the substitution against the original lot for inspection traceability.",
             "zh": "货柜一旦装船出运，再改数量、规格或收货人都会非常困难，因此需求调整必须在装柜发货之前沟通清楚。首批订货时应在用量预测基础上留出弹性，避免一次性把品种和数量订死。临近装船若设计或计划有变动，要尽早联系供应商和货代冻结或调整订单，减少改配、退运产生的麻烦。",
             "hi": "बदलाव कंटेनर रवाना होने से पहले बताएँ। एक बार लदकर चल दिए जाने के बाद बदलाव मुश्किल हो जाता है, इसलिए शुरुआती ऑर्डर मात्रा में कुछ लचीलापन रखें ताकि बाद की जरूरतें समायोजित हो सकें।",
             "ru": "Изменения согласуйте до отправки контейнера. После погрузки и отправки внести правки трудно, поэтому в первоначальные объёмы закладывайте запас гибкости.",
@@ -245,7 +245,7 @@
             "ja": "動きの遅い締結具はどう扱いますか？"
           },
           "a": {
-            "en": "Analyze usage rates before bulk ordering. Limit slow items to 3-6 month supply. Consider returning or exchanging unused stock with supplier if possible.",
+            "en": "Analyse usage rates before deciding bulk quantities, and limit slow items to a short working supply rather than a full container position. Split the range into fast-moving standard lines, seasonal project items and long-tail specials, and keep the specials on replenishment orders with the catalogued size and finish recorded. If unused stock builds up, check exchange against matching future orders, and label cartons by size and grade so old and new stock do not mix. Review slow-moving lines each round and cut the bulk size where usage does not recover.",
             "zh": "批量下单前先分析各品种的实际动销速率，慢动销品种只保持 3 至 6 个月左右的用量即可，避免占用过多仓储和资金。对长期不用的库存，可事先与供应商协商是否允许退货或调换。备货结构上应把常用快销品与少量常备慢销件分开管理，定期盘点周转，及时清理呆滞规格。",
             "hi": "बल्क ऑर्डर से पहले खपत दरों का विश्लेषण करें। धीमे चलने वाली मदों को 3–6 महीने की आपूर्ति तक ही सीमित रखें। यदि आपूर्तिकर्ता की नीति मुमकिन बनाती है, तो इस्तेमाल न बचा स्टॉक वापस करने या अदला-बदली की व्यवस्था भी देखें।",
             "ru": "До оптовой закупки проанализируйте скорость расхода. Медленные позиции держите в объёме 3–6 месяцев потребления. Если правила поставщика позволяют, обсудите возврат или обмен неиспользованного запаса.",
@@ -271,7 +271,7 @@
             "ja": "年間契約は結ぶべきですか？"
           },
           "a": {
-            "en": "Yes, annual contracts with committed volumes typically earn additional 5-10% discount and priority production scheduling. Ensure you can meet committed volumes before signing.",
+            "en": "An annual contract with committed volume can secure priority production scheduling and a stable price ladder, but the committed volumes must be realistic before it is signed. Match the commitment to a forecast that separates steady demand, seasonal work and one-off projects, and keep flexibility for sizes that move only on specific jobs. Align the contract to written specifications: grade, property class, coating, packing and certificate requirement, with the same inspection basis repeated each batch. Review each round against on-time arrival, batch acceptance and landed price, and renegotiate volume rather than committing beyond proven usage.",
             "zh": "要。带承诺量的年度合同通常再降 5–10%，并优先排产；签约前先确认自己能完成承诺量。谈年度合同时把规格范围、质量标准、交货批次和价格调整条件写清楚，承诺量要留有余地，防止实际需求波动导致提货不足；合同期内定期核对消耗进度，接近承诺量时再安排后续批次，兼顾价格优惠和库存压力。",
             "hi": "हाँ, निश्चित मात्रा वाले वार्षिक अनुबंध पर आमतौर पर अतिरिक्त मात्रा-आधारित छूट और प्राथमिकता उत्पादन शेड्यूल मिलता है। पर हस्ताक्षर करने से पहले पक्का कर लें कि आप वादा की गई मात्रा पूरी कर पाएँगे।",
             "ru": "Да, годовой контракт с фиксированным объёмом обычно даёт дополнительную скидку, привязанную к объёму партии и спецификации, а также приоритет в производственном графике. Перед подписанием убедитесь, что вы сможете выбрать зафиксированный объём.",
