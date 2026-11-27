@@ -60,8 +60,8 @@
     {
       "id": "warehouse",
       "heading": {
-        "en": "Warehouse Storage Best Practices",
-        "zh": "仓库储存最佳实践",
+        "en": "How should fasteners be stored in the warehouse?",
+        "zh": "仓库内应如何储存紧固件？",
         "es": "Mejores prácticas de almacenamiento en almacén",
         "ar": "أفضل ممارسات التخزين في المستودعات",
         "fr": "Meilleures pratiques de stockage en entrepôt",
@@ -87,8 +87,8 @@
     {
       "id": "handling",
       "heading": {
-        "en": "Handling Procedures",
-        "zh": "处理程序",
+        "en": "What handling procedures protect fasteners in storage?",
+        "zh": "储存中的搬运程序有哪些防护要求？",
         "es": "Procedimientos de manipulación",
         "ar": "إجراءات المناولة",
         "fr": "Procédures de manutention",
@@ -206,7 +206,7 @@
             "ja": "締結具はどのくらい保管できますか？"
           },
           "a": {
-            "en": "Properly stored in original packaging in controlled conditions, most fasteners have an indefinite shelf life. Coated fasteners (zinc-plated, galvanized) may show gradual coating degradation over years but remain functional.",
+            "en": "Fasteners stored in original packaging under controlled conditions do not have a fixed expiry date; the main limits come from packaging damage, moisture and coating aging. Zinc-plated and galvanized parts may show gradual coating degradation over years in damp stock, while stainless parts are more tolerant but can still stain in chloride air. Keep stock in a dry, ventilated area on pallets or shelving off the concrete floor, follow first-in-first-out rotation, and inspect older lots for rust, broken packaging or damage before issue. Record receipt date, batch and material so rotation and traceability stay possible.",
             "zh": "保持原包装、仓储条件受控时，多数紧固件没有明确保质期，可长期存放。镀锌等带镀层紧固件的镀层在数年间可能逐渐老化，但使用功能通常仍在；关键是防潮、防包装破损和防止混料。长期存放批次应先进先出，出库前检查包装是否受潮、镀层有无白锈或起泡；放置超过预期周期的批次，装配前先核对外观和螺纹状态，确认没有锈蚀和混料再投入使用。",
             "hi": "मूल पैकिंग में नियंत्रित परिस्थितियों में रखे जाएँ तो ज़्यादातर फास्टनरों की शेल्फ़ लाइफ़ अनिश्चितकालीन होती है। कोटेड फास्टनर, ज़िंक-प्लेटेड या गैल्वेनाइज़्ड, पर सालों में कोटिंग धीरे-धीरे घट सकती है, पर काम करने लायक बने रहते हैं।",
             "ru": "При хранении в заводской упаковке и стабильных условиях у большинства изделий срок годности по сути не ограничен. Оцинкованные и гальванически покрытые позиции за годы могут показать постепенное старение покрытия, но остаются пригодными к применению; ключевое требование — не нарушать упаковку до выдачи на объект.",
@@ -232,7 +232,7 @@
             "ja": "ステンレス鋼の保管に最適な場所はどこですか？"
           },
           "a": {
-            "en": "Store indoors in dry conditions. Stainless steel is corrosion-resistant but not immune to staining in humid or chloride-rich environments. Keep in original packaging until use.",
+            "en": "Store stainless fasteners indoors in dry conditions, separated from carbon steel and from products that release chloride or acid vapors. Stainless resists corrosion through its passive film, but can stain in humid, salt-rich air; contact with carbon steel transfers iron particles that rust on the surface. Leave parts in original packaging until use, keep them away from standing water and condensation, and use dividers between material groups. Check stored stainless for brown spots or dirt at inspection, and do not store A2/A4 stainless on an open dock or coastal shed without cover.",
             "zh": "放在室内干燥处。不锈钢只是耐蚀，并不意味着在潮湿或含氯环境下不会出现表面色斑；未用完前尽量保留原包装，避免长期裸露堆放。存放位置应远离酸洗、镀槽等含氯或含酸碱作业区，与碳钢件分架存放；库房保持通风干燥，不锈钢件表面若出现褐色锈斑，应先判断是游离铁污染还是本体锈蚀，再决定是否继续使用。",
             "hi": "सूखी अंदरूनी जगह में रखें। स्टेनलेस स्टील जंग-रोधी है, पर नम या क्लोराइड भरे वातावरण में धब्बों से पूरी तरह बचा नहीं जा सकता। इस्तेमाल तक मूल पैकिंग में ही रखें।",
             "ru": "Размещайте внутри помещения, в сухих условиях. Нержавеющая сталь стойка к коррозии, но не застрахована от пятен во влажной или насыщенной хлоридами среде; до самого применения изделия держат в оригинальной упаковке, не раскладывая открыто по стеллажам.",
@@ -258,7 +258,7 @@
             "ja": "種類の違う締結具を一緒に保管できますか？"
           },
           "a": {
-            "en": "Generally yes, but segregate by material to prevent galvanic concerns and by size to prevent mix-ups. Keep stainless separate from carbon steel.",
+            "en": "Different fastener types can share a warehouse, but they should be segregated by material and size to prevent galvanic confusion and assembly mix-ups. Keep stainless separate from carbon steel, plated parts from unplated, and heavy large-diameter stock from small precision hardware. Use labeled bins or divided shelving, record material class and coating on each label, and avoid stacking bins so high that lower items crush or damage threads. Where dissimilar materials sit near each other, put cardboard or plastic dividers between them; the goal is traceability at pick time, not a mixed pile.",
             "zh": "一般可以，但应按材质分开以防电偶腐蚀，按规格分开以防错用。不锈钢件必须与碳钢件隔离存放；混堆不仅增加分拣成本，还可能造成材质混用。货架和料盒按材质、规格、等级分区张贴标识，批次之间用包装隔开；发料时按标识核对牌号和等级，避免不同不锈钢牌号或镀锌件与不锈钢件混装到同一连接节点。",
             "hi": "आम तौर पर हाँ, पर गैल्वेनिक चिंता से बचने के लिए सामग्री के हिसाब से और गड़बड़ी से बचने के लिए साइज़ के हिसाब से अलग रखें। स्टेनलेस को कार्बन स्टील से अलग रखें।",
             "ru": "В целом да, но разделяйте по материалам, чтобы исключить гальванический контакт, и по размерам, чтобы не спутать позиции. Нержавеющую сталь держат отдельно от углеродистой: при контакте и влаге между ними возможна та же коррозия, которую хотели предотвратить.",
@@ -284,7 +284,7 @@
             "ja": "保管中のねじ山の損傷を防ぐにはどうしますか？"
           },
           "a": {
-            "en": "Keep fasteners in original packaging or use protective caps. Don't over-pack containers causing pressure on threads. Handle precision fasteners with extra care.",
+            "en": "Protect threads during storage by keeping fasteners in original packaging or using protective caps, tubes or divided boxes. Do not over-pack containers so parts press against one another and flatten threads or heads; loose large bolts can damage smaller hardware in the same bin. Precision screws, threaded rods and finish-machined parts need extra care, and plated or coated threads should not be scraped against rough edges. Handle stock by the batch label, separate damaged items for inspection, and reject any fastener whose thread is deformed, stripped or rust-coated before it reaches the assembly line.",
             "zh": "尽量保留原包装或加装保护帽；容器不要装得过满、挤压螺纹。精密紧固件搬运要更小心，螺纹受损后拧入时容易卡死或咬死。堆叠时把螺纹端朝向一致，避免互相磕碰；装箱数量按容器容量留出间隙，运输和装卸过程中避免抛掷。出库前用通规抽查螺纹，出现碰伤、牙型缺损的件挑出单独处理，不得直接装入接头。",
             "hi": "फास्टनर मूल पैकिंग में रखें या सुरक्षा कैप लगाएँ। कंटेनर में इतना भराव न करें कि धागों पर दबाव पड़े। सटीक फास्टनरों को ज़्यादा संभाल कर रखें।",
             "ru": "Оставляйте изделия в заводской упаковке или надевайте защитные колпачки. Не набивайте тару сверх меры: давление на резьбу вызывает замятие витков. Точная фурнитура требует отдельного обращения, без общей кучи с крупными болтами и гайками.",
@@ -310,7 +310,7 @@
             "ja": "電気亜鉛めっき締結具の白い染みは何ですか？"
           },
           "a": {
-            "en": "White staining is typically zinc oxide or zinc hydroxide from moisture exposure. It doesn't significantly affect fastener performance. Heavy white buildup may indicate extended moisture exposure.",
+            "en": "White staining on zinc-plated fasteners is usually zinc oxide or zinc hydroxide formed when moisture reaches the coating; it appears as a dull white or gray film rather than red rust. Light staining does not significantly affect performance, but heavy white buildup means the parts saw prolonged moisture exposure and the coating should be inspected more closely. Check for under-rusting at scratches, keep stock dry, and review packaging and ventilation where staining recurs. Record condition at incoming and outgoing inspection, and move affected batches to drier shelving rather than the floor.",
             "zh": "白色斑迹通常是受潮后生成的氧化锌或氢氧化锌，对紧固件性能影响不大；如果白色附着物很厚，说明受潮时间较长，应检查包装防潮是否失效。轻度白锈可先清洁后核对镀层剩余厚度和螺纹状态；若镀层大面积起泡、漏镀或基底已出现红锈，则不再适用于防腐节点。存放批次应记录入库时间和防潮条件，便于追溯受潮来源。",
             "hi": "सफ़ेद धब्बे आम तौर पर नमी लगने से बना ज़िंक ऑक्साइड या ज़िंक हाइड्रॉक्साइड होते हैं। इससे फास्टनर की कार्यक्षमता पर खास असर नहीं पड़ता। भारी सफ़ेद जमाव लंबे समय तक नमी में रहने का संकेत हो सकता है।",
             "ru": "Белый налёт обычно представляет собой оксид или гидроксид цинка, выделившийся при контакте с влагой. На работоспособность крепёжа он влияет незначительно. Массивные белые отложения говорят о длительном воздействии сырости, и такую партию перед монтажом стоит осмотреть ближе.",
