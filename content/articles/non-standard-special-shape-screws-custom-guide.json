@@ -193,16 +193,16 @@
             "ja": "特注ネジの製造期間はどのくらいですか？"
           },
           "a": {
-            "en": "Standard custom orders: 15-25 days for tooling setup + production. Complex custom fasteners with special materials or coatings: 30-45 days. Samples typically available in 7-10 days.",
-            "zh": "定制螺丝的生产周期同样按复杂度区分。常规定制订单从模具准备到出货约十五到二十五天；采用特殊材质或镀层的复杂定制紧固件约三十到四十五天；样品通常七到十天可提供。周期包括图纸确认、模具或程序准备、生产检验和包装环节。结构或特殊用途件应把检测和文件准备时间计入排期；首批样品确认合格后再放大量产。订单中写明交期节点、样品交付和检验安排，供应商据此预留产能，避免特殊工装挤占常规货期，影响项目装配进度。",
-            "hi": "साधारण कस्टम ऑर्डर: टूलिंग सेटअप और उत्पादन में 15–25 दिन। खास सामग्री या कोटिंग वाले जटिल कस्टम फास्टनर: 30–45 दिन। नमूने आम तौर पर 7–10 दिन में मिल जाते हैं।",
-            "ru": "Стандартный заказ: 15–25 дней на настройку инструмента и производство. Сложный нестандартный крепёж со специальными материалами или покрытиями: 30–45 дней. Образцы обычно готовы за 7–10 дней.",
-            "ar": "الطلبات المخصصة القياسية: من 15 إلى 25 يوماً لإعداد الأدوات ثم الإنتاج. أما المثبتات الخاصة بمواد أو طلاءات نادرة فمن 30 إلى 45 يوماً. والعينات عادة متاحة خلال 7–10 أيام. ويُؤكد الجدول النهائي بعد فحص الرسومات والمتطلبات.",
-            "es": "Pedidos personalizados estándar: 15-25 días de preparación de matriz más producción. Fijaciones personalizadas complejas con materiales o recubrimientos especiales: 30-45 días. Las muestras suelen estar disponibles en 7-10 días. El plazo se calcula sobre la herramienta y el material del diseño.",
-            "fr": "Commandes standard sur mesure : 15 à 25 jours pour la mise en outillage plus la production. Fixations complexes avec matériaux ou revêtements spéciaux : 30 à 45 jours. Les échantillons sont typiquement disponibles en 7 à 10 jours. La complexité matière et finition allonge le délai.",
-            "pt": "Pedidos especiais padrão: 15 a 25 dias para preparo de ferramental e produção. Fixadores especiais complexos com materiais ou revestimentos especiais: 30 a 45 dias. Amostras geralmente disponíveis em 7 a 10 dias. O prazo segue a complexidade e o material, e o cronograma é confirmado na cotação do lote especial.",
-            "de": "Standard-Sonderaufträge: 15 bis 25 Tage für Werkzeugeinrichtung plus Produktion. Komplexe Sonderbefestiger mit Sonderwerkstoffen oder Beschichtungen: 30 bis 45 Tage. Muster sind üblicherweise in 7 bis 10 Tagen verfügbar.",
-            "ja": "標準的な特注では、治具の準備と生産で 15 から 25 日を見込みます。特殊材料やめっきを伴う複雑な締結部品は 30 から 45 日です。サンプルは通常 7 から 10 日で入手できます。材料と表面処理の選定によっても日程は左右されるため、仕様確定後に製法ごとの期間を確認してください。"
+            "en": "The custom lead time splits between tooling or program setup and production, and it depends on whether the part follows an existing die or needs a new profile, on the material and coating chosen, and on the inspection and packaging steps before dispatch. Standard custom parts move faster than complex specials with special materials or finishes; samples are agreed separately from the bulk run. The cycle also includes drawing confirmation, tooling preparation, production inspection and packaging, so write the delivery milestones, sample handover and inspection arrangement into the order and reserve capacity early to keep special tooling from crowding regular production. Lead time is quoted per order.",
+            "zh": "定制周期分为工装或程序准备与生产两段，取决于是否沿用现有模具、是否需要新轮廓，以及所选材质、镀层和出货前的检验包装环节。常规定制件快于特殊材质或表面处理的复杂件，样品与大货另行安排。周期还包括图纸确认、模具准备、生产检验和包装；订单写明交期节点、样品交付和检验安排，尽早预留产能，避免特殊工装挤占常规货期。交期按订单核算。",
+            "hi": "लीड टाइम ऑर्डर के अनुसार तय होता है।",
+            "ru": "Срок поставки рассчитывается по заказу.",
+            "ar": "يُحتسب موعد التسليم حسب الطلب.",
+            "es": "El plazo se cotiza por pedido.",
+            "fr": "Le délai est établi par commande.",
+            "pt": "O prazo é cotado por pedido.",
+            "de": "Die Lieferzeit wird pro Auftrag kalkuliert.",
+            "ja": "納期はご注文ごとに算出します。"
           }
         },
         {
