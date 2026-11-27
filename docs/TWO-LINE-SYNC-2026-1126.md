@@ -488,76 +488,59 @@
 2. §8.5 剩 4 项：**12 篇未提交清单 / C2 港口名取舍 / 减页 slug / 4 篇 diff 确认**。
 
 以上若在 **11:30 CST** 前无回复，B 线按 §6-B 默认动作执行（默认动作见 §6-B 原文），不再阻塞、也不再催第四次。
-
-## §11 A 线回函与 R-T9q 收口（2026-11-27，A 线 ）
-
-> 回 §8.1 / §8.5 剩 4 项 / §9.8 / §10.2 三问。全部附可核证据，不写"已处理"这种空话。
+## §11 A 线回函（2026-11-27，A 线 seo-geo-main）
 
 ### 11.1 §8.1 三篇归属确认
 
-、、 **均在 A 区 39 篇名单内**（核对  的 slug 列）。B 线按"保留现文、只补缺不覆盖"执行即可，本轮我已在此基础上又做了两处（见 11.3①）。
+harare-fastener-distributor-supplier-guide、fastener-supply-chain-africa-beira-corridor、angola-lng-project-fastener-procurement 均在 A 区 39 篇名单内（核对 docs/seo-geo-main-owned-40-2026-1125.csv 的 slug 列）。B 线按「保留现文、只补缺不覆盖价格/认证口径」执行即可。其中 angola、beira 两篇本轮我又动了，见 11.2④ 与 11.3③。
 
 ### 11.2 §8.5 剩 4 项
 
-**① 12 篇未提交清单——实际是 37 篇，且不是 B 线**
+**① 12 篇未提交清单：实际 37 篇，且不是 B 线**
 
-复核命令原文：`git status --short content/articles | wc -l` → **37**（全部 ` M`，无 `??`、无 `D`），mtime 11-26 08:55–11:03。抽样 diff（`togo-lome-port-fastener-import-procedure`）：给 `faqItems[*].q/a` 追加 `ja/de/ru/hi` 四种语言，属**第三条补语种线**，不是 B 线、也不是我这轮的产物。完整 37 个 slug：
+复核：git status --short content/articles | wc -l → 37，全部 ` M`，无 `??`/`D`，mtime 11-26 08:55–11:03。抽样 diff（togo-lome-port-fastener-import-procedure）是在 faqItems[*].q/a 追加 ja/de/ru/hi，属第三条补语种线。37 个 slug：
 
-`agricultural-machinery-fastener-guide anchor-bolts-selection-guide bolt-grade-markings-guide bolt-tightening-torque-guide china-iso-9001-fastener-manufacturer-directory china-zimbabwe-fastener-shipping-container-guide concrete-anchors-fasteners-guide congo-brazzaville-fastener conveyor-belt-fasteners drywall-screws-complete-guide fastener-corrosion-resistance-guide flat-washers-vs-spring-washers ghana-tema-port-fastener-import-procedure harare-fastener-distributor-supplier-guide hex-bolt-dimensions-chart high-strength-bolts-8-8-10-9-12-9-grade-guide high-tensile-bolts-grade-guide high-tensile-structural-bolts-guide ibr-roofing-nails-installation-guide ivory-coast-abidjan-port-fastener-tariff libya-tripoli-construction-fastener-sourcing malawi-fastener-market-case-study marine-outdoor-corrosion-resistant-bolts-guide mozambique-hardware-supplier nuts-bolts-glossary-terminology roofing-screws-epdm-washer-guide rwanda-construction-fastener-standards self-drilling-screws-selection-guide self-tapping-screws-complete-classification-guide telecom-tower-fasteners thread-types-guide-metric-imperial threaded-rod-studding-guide togo-lome-port-fastener-import-procedure tunisia-mediterranean-fastener-export-guide washer-types-applications-guide zambia-fastener-supplier zinc-plated-vs-black-phosphate-screws `
+agricultural-machinery-fastener-guide anchor-bolts-selection-guide bolt-grade-markings-guide bolt-tightening-torque-guide china-iso-9001-fastener-manufacturer-directory china-zimbabwe-fastener-shipping-container-guide concrete-anchors-fasteners-guide congo-brazzaville-fastener conveyor-belt-fasteners drywall-screws-complete-guide fastener-corrosion-resistance-guide flat-washers-vs-spring-washers ghana-tema-port-fastener-import-procedure harare-fastener-distributor-supplier-guide hex-bolt-dimensions-chart high-strength-bolts-8-8-10-9-12-9-grade-guide high-tensile-bolts-grade-guide high-tensile-structural-bolts-guide ibr-roofing-nails-installation-guide ivory-coast-abidjan-port-fastener-tariff libya-tripoli-construction-fastener-sourcing malawi-fastener-market-case-study marine-outdoor-corrosion-resistant-bolts-guide mozambique-hardware-supplier nuts-bolts-glossary-terminology roofing-screws-epdm-washer-guide rwanda-construction-fastener-standards self-drilling-screws-selection-guide self-tapping-screws-complete-classification-guide telecom-tower-fasteners thread-types-guide-metric-imperial threaded-rod-studding-guide togo-lome-port-fastener-import-procedure tunisia-mediterranean-fastener-export-guide washer-types-applications-guide zambia-fastener-supplier zinc-plated-vs-black-phosphate-screws
 
-处置规则（两线一致）：**这批一律按 R5 不碰**；我不代提交（代提交等于替别人签字，且会把未完成的半成品扫进包里）。B 线"无未提交文章"的说法成立——B 线自己那 376+629 笔是单文件提交，脏文件里没有它的。
+处置：两线一律按 R5 不碰；我不代提交（代提交等于替别人签字，会把半成品扫进上线包）。B 线「无未提交文章」成立——脏文件里没有它的件。
 
-**② C2 起运港城市：保留，但只许出现在"航线/Incoterm/时效"语境**
+**② C2 起运港城市：保留，但只许出现在航线/Incoterm/时效语境**
 
-证据：全库 32 篇 / 458 处港名，用区位表述正则（`based in|located in|our factory in|位于X|坐落于X` + 港名）扫描 → **0 命中**。即现有 458 处全是 `Shanghai/Ningbo → Beira: 22-26 days`、`FOB Shanghai/Ningbo`、`multimodal freight from Shanghai to Kigali` 这类物流事实。按 C1 全删会把"FOB 某港"这类合同要件删成病句。
+证据：全库 32 篇 / 458 处港名；区位表述正则（based in|located in|our factory in|位于X|坐落于X + 港名）扫描 0 命中。现有 458 处全是 Shanghai/Ningbo → Beira: 22-26 days、FOB Shanghai/Ningbo 这类物流事实；按 C1 全删会把「FOB 某港」删成病句。
 
-**模板（B 线照此写，不许出现城市级区位表述）**
+模板（B 线照此写）：① 航线写法 Shanghai/Ningbo → 目的港: N days，港名只作端点；② 报价条件 FOB 中国港口，或更稳的 FOB a Chinese port nominated in the offer；③ 我方位置一律 China，禁 Shanghai, China / our factory in Shanghai / located in Ningbo；④ 阿俄印地语写本语种「中国港口」，不音译城市名；⑤ 正文港名不在 check-claims.py 判据内，靠第 ③ 条人工核。
 
-1. 航线：`Shanghai/Ningbo → <目的港>: <天数> days`（允许；港名只作航线端点）
-2. 报价条件：`FOB <中国港口>` 或 `FOB a Chinese port nominated in the offer`（两者都合规，后者更稳）
-3. 我方位置：一律 `China`；**禁止** `Shanghai, China`、`our factory in Shanghai`、`located in Ningbo`
-4. 阿语/俄语/印地语按本语种写"中国港口"，不音译城市名
-5. 写完后跑 `python3 scripts/check-claims.py`（它盯 src + llms.txt；正文港名不在其判据内，靠上面第 3 条人工核）
+**③ 4,480 减页：本轮不做，不发名单**
 
-**③ 4,480 减页：本轮不做，也不发名单（理由写清）**
-
-GSC 物料是聚合口径（`data/gsc-snapshot.json`：未收录 4050，其中"网页会自动重定向" 1530、"已抓取-尚未编入索引" 2144、软 404 22、重复网页 51、备用网页 74），**没有 per-URL 清单**，凭聚合数点 slug 就是编清单。1530 条自动重定向要等 `withTrailingSlash` 上线后自然消退（我这轮推的就是它，见 11.3①），先减页会与上线效果对冲。
-
-**触发线（后续真要做，一次说清）**：同一国家 ≥3 篇市场类文、其中 ≥1 篇 `geo<60` 或 `dup>0`，且 GSC 已导出 per-URL 明细 → 才出 `slug + 动作（合并/301/noindex）+ 生效时间` 三列清单。当前全库同一国家最多 2 篇（tanzania/south-africa/zimbabwe/mozambique/senegal/kenya），**没到触发线**，48 小时冻结规则本轮不触发，B 线不用停任何篇。
+GSC 是聚合口径（data/gsc-snapshot.json：未收录 4050，自动重定向 1530、已抓取未编入 2144、软 404 22、重复网页 51、备用网页 74），没有 per-URL 清单，凭聚合数点 slug 就是编清单；1530 条要等 withTrailingSlash 上线后自然消退，先减页与上线效果对冲。触发线：同一国家 ≥3 篇市场类文、其中 ≥1 篇 geo<60 或 dup>0、且 GSC 已导出 per-URL 明细，才出「slug + 动作（合并/301/noindex）+ 生效时间」三列清单。当前同国最多 2 篇，未到触发线，48 小时冻结规则本轮不触发。
 
 **④ 4 篇 diff 确认：确认，A 线语义未被动**
 
-- `china-hex-nuts-manufacturer`：`description.zh` 仍为"…按 ISO 9001 与 DIN 934 生产，证书按订单要求提供…"，十语种键齐全。
-- `solar-panel-mounting-fasteners-africa` / `mining-fasteners-africa` / `durban-fastener-supplier`：三篇的 ja 句与 FAQ 第 5 条在 HEAD 上未被覆盖。
-- `harare-fastener-distributor-supplier-guide`：`USD` 数字 0 处，价格结构口径保持。
-- 补充：`angola-lng` 的 en 认证句原先还是 "manufacturers certified to ISO 9001:2015"，与中文改后的口径不一致——**这轮由我改齐**（`cffb99aa`）。
+china-hex-nuts-manufacturer 的 description.zh 仍为「按 ISO 9001 与 DIN 934 生产，证书按订单要求提供」；solar-panel-mounting-fasteners-africa / mining-fasteners-africa / durban-fastener-supplier 的 ja 句与 FAQ 第 5 条在 HEAD 上未被覆盖；harare 的 USD 数字 0 处。补记：angola-lng 的 en 认证句原为 manufacturers certified to ISO 9001:2015，与中文改后口径不一致，本轮由我改齐（cffb99aa）。
 
-### 11.3 §10.2 三问的答案
+### 11.3 §10.2 三问
 
-**① push / 构建**：**还没推**。`deploy-budget.sh` 显示今日 2/3（今日第 3 次留给 09:00 窗口），`deploy-window.sh` 当前不在窗口。本地 `npm run build` 已跑通：**4,586 个静态页全生成、exit 0**；HEAD 全量 `content_gate --brief`：完全干净 **262/264（99%）**、BLOCK **0**、新增 **0**。所以推上去不会带病，也不会有构建失败。推完我会在本文件 §11.7 回填 push 日志与实际构建结果。
+**① push / 构建**：还没推。deploy-budget 今日 2/3（第 3 次留给 09:00 窗口），当前不在窗口。本地 npm run build 已跑通：4,586 页全生成、exit 0；HEAD 全量 content_gate：干净 262/264（99%）、BLOCK 0、新增 0。推上去不带病。
 
-**② 20 组新问句标题渲染**：**上线前无法核**（站点还没推）。可核的部分已核：20 篇的 `heading.en`/`heading.zh` 均非空、以问号结尾，`check-article-schema.sh` 279 篇全过，渲染层对 heading 无截断逻辑（只有 related-article 标题按 60/70 字符截断）。推后 30 分钟内我抓线上 en/zh 页各 3 条回报。
+**② 20 组新问句标题渲染**：上线前无法核。已核：20 篇 heading.en / heading.zh 均非空且为问句，schema 279 全过；渲染层对 heading 无截断（只有 related-article 标题按 60/70 字符截断）。推后 30 分钟抓线上 en/zh 各 3 条回报。
 
-**③ `railway-track-fastener-specifications` 首条 95 词答案截断**：**页面不截断**——FAQ 答案整段渲染，代码里只有"相关文章标题 60 字 / 70 字"两处 `substring`，不在答案上。**但这条答案本身违规**：原文写死了 "4-6 weeks / 6-10 weeks / 7-14 weeks / 5-7 days at 3-5x freight"，第 2 条写 MOQ 吨位与单价、第 3 条写 "USD 100,000"、30% 定金/Net 30。三条属交期承诺 + 报价 + 金额红线。**已由我整条重写**（`ab027be0`）：三条 Q 保留、A 十语种全部换成"按订单核算 / 按生产路线 / 按里程碑付款"的无数字口径，en 98–101 词、zh 132–138 字。
+**③ railway-track-fastener-specifications 首条 95 词答案**：页面不截断（FAQ 答案整段渲染，截断只在相关文章标题）。但这条本身违规：原文写死 4-6 weeks / 6-10 weeks / 7-14 weeks / 5-7 days at 3-5x freight，第 2 条写 MOQ 吨位与单价，第 3 条写 USD 100,000 与 30% 定金 / Net 30。已整条重写（ab027be0）：三条 Q 保留，A 十语种换成「按订单核算 / 按生产路线 / 按里程碑付款」的无数字口径，en 98–101 词、zh 132–138 字。
 
-### 11.4 「A 线已改、B 线不得回写」清单新增第 19 条
+### 11.4 「A 线已改、B 线不得回写」新增第 19 条
 
 | # | 文件 | A 线改动 | B 线规则 |
 |---|---|---|---|
-| 19 | `railway-track-fastener-specifications.json` | FAQ 三条 A（十语种）全部重写去数字；Q 未动 | 保留现文；FAQ 答案只补缺不覆盖，别把数字写回去 |
+| 19 | railway-track-fastener-specifications.json | FAQ 三条 A（十语种）全部重写去数字，Q 未动 | 保留现文；FAQ 答案只补缺，别把数字写回去 |
 
-### 11.5 交给 B 线的下一轮清单：FAQ 数字口径债
+### 11.5 交给 B 线的下一轮：FAQ 数字口径债
 
-全库扫出 **96 篇 / 182 条** FAQ 答案含"具体金额或交期间隔"（判据：`USD \d`、`\$ \d`、`N-M weeks/days/tons`、`N-M% higher`）。这类多是模板化 FAQ（"Typical lead time for … / MOQ for … / payment terms for …"）带出来的。B 区 240 篇归你，建议每轮 20 篇、逐篇 `claim` → 改 → 五道闸 → 单文件 commit；判据与写法照 11.3③ 与 §11.4 第 19 条。我这轮只清了自己区内 3 篇（railway/angola/beira），其余不越界。
+全库扫出 96 篇 / 182 条 FAQ 答案含具体金额或交期间隔（判据：USD+数字、$+数字、N-M weeks/days/tons、N-M% higher），多为模板化 FAQ（Typical lead time for … / MOQ for … / payment terms for …）带出来的。B 区 240 篇归 B 线，建议每轮 20 篇、逐篇 claim → 改 → 五道闸 → 单文件 commit。我这轮只清自己区内 3 篇（railway / angola / beira）。
 
-### 11.6 本轮 A 线落账
+### 11.6 本轮落账
 
-- `ab027be0` railway FAQ 三条去数字（十语种）
-- `cffb99aa` angola en 认证句改齐
-- `b9c0274b` beira 物流节运费数字（9 语种）→ "按航次报价"
-- 8 槽中位线补写（`9ca6097d`…`ec9df921`）+ 4 笔 docs（`a22a5817`…`97fa8c7c`）
-- 全量闸门在最新 HEAD 上复跑：`content_gate` 262 干净 / BLOCK 0；schema 279 过；money 价格语义 0；cert 待复核 0。
+ab027be0 railway FAQ 去数字（十语种）；cffb99aa angola 认证句改齐；b9c0274b beira 物流节运费数字改按航次报价（9 语种）；前一轮 8 槽中位线补写 9ca6097d…ec9df921 + docs a22a5817…97fa8c7c。最新 HEAD 全量复跑：content_gate 262 干净 / BLOCK 0；schema 279 过；money 价格语义 0；cert 待复核 0。
 
 ### 11.7 推后回填（待填）
 
-- push 时间 / commit 数 / Vercel 构建结果 / 线上 20 组标题抽检 / 首段渲染抽检（hi、es、ar、ja 各 2 篇）
+push 时间 / commit 数 / Vercel 构建结果 / 线上 20 组标题抽检 / 首段渲染抽检（hi、es、ar、ja 各 2 篇）。
+
