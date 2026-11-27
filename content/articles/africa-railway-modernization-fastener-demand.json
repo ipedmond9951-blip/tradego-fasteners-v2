@@ -114,8 +114,8 @@
     {
       "id": "case-2",
       "heading": {
-        "en": "Case 2: Environmental / Corrosion Failure in Africa Railway Modernization Fastener Demand 2026: SGR, Metros, and Freight Corridors",
-        "zh": "案例 2：非洲铁路现代化项目紧固件需求与采购重点2026 中的Environmental / Corrosion Failure",
+        "en": "Where does corrosion show up first on exposed rail fasteners in a corridor?",
+        "zh": "露天走廊里，锈蚀最先出现在哪些外露铁路紧固件上？",
         "es": "Caso 2: Fallo por corrosión ambiental — Modernización ferroviaria de África: demanda de fijaciones 2026",
         "ar": "العطل البيئي أو التلف الناتج عن التآكل في مشاريع تحديث السكك الحديدية بأفريقيا 2026",
         "fr": "Cas 2: Défaillance par corrosion — Demande de fixations ferroviaires en Afrique en 2026",
@@ -222,8 +222,8 @@
     {
       "id": "summary",
       "heading": {
-        "en": "Summary: Key Takeaways for Africa Railway Modernization Fastener Demand 2026: SGR, Metros, and Freight Corridors Buyers",
-        "zh": "总结：非洲铁路现代化项目紧固件需求与采购重点2026 买家的关键要点",
+        "en": "What document and inspection sequence prevents repeated rail fastener failures?",
+        "zh": "哪些单证与检验流程能防止铁路紧固件反复失效？",
         "es": "Resumen: Conclusiones clave para compradores de Modernización ferroviaria de África: demanda de fijaciones 2026",
         "ar": "ملخص: النقاط الرئيسية لمشتري طلب مثبتات تحديث السكك الحديدية في أفريقيا 2026: SGR والمترو",
         "fr": "Résumé : Points clés pour la demande de fixations dans la modernisation des chemins de fer africains 2026 : SGR, métros et corridors de fret pour les acheteurs",
@@ -260,7 +260,7 @@
             "hi": "अफ्रीका रेल आधुनिकीकरण फास्टनर मांग 2026: SGR और माल गलियारे में सबसे आम विफलता मोड क्या है?"
           },
           "a": {
-            "en": "The most common failure mode in Africa Railway Modernization Fastener Demand 2026: SGR, Metros, and Freight Corridors is supplier-side quality control deficiency, accounting for over 60% of documented cases. Contributing factors include: missing ISO 9001 certification, inadequate mill test certificates, lack of pre-shipment third-party inspection, and incorrect grade marking. B2B buyers should require documentation before payment release and engage independent testing agencies for batch verification.",
+            "en": "Rail cases follow five failure patterns: a manufacturing and material defect in the installed fastener population; corrosion on exposed rail fasteners in the outdoor corridor; mechanical overload on a fastening under traffic load; a grade and specification mismatch in the mixed rail package; and a certificate-trail discrepancy. Verification covers ASTM material checks, salt-spray testing, tensile and fatigue checks under traffic loading, grade checks against the purchase specification, and a mill certificate audit. Release payment only after independent batch verification, the same checklist for supplier approval and repeat-batch track acceptance.",
             "zh": "轨道交通线路按标段分批交货，前后批次一旦对不上，问题最先落在轨枕与连接部位。扣件等级、材质、镀层状态和螺纹配合在各批之间漂移，与既有轨枕、垫板及相邻节点匹配不上，装上后出现松动、磨耗不均或拆装困难；长期列车振动和日晒雨淋下，连接处疲劳与锈蚀风险加快上升。根因多在供货组织：供方不同炉号混发、逐批追溯记录缺失、进场复检只看数量不看材质与规格。进场先核批次号、材质单与外观，按 ISO 898、ISO 3506 核对性能与不锈钢材质，未通过复检的批次不得进入轨枕与桥梁连接部位。",
             "es": "El modo de falla más común en Africa Railway Modernization Fastener Demand 2026: SGR, Metros, and Freight Corridors es la deficiencia de control de calidad del lado del proveedor.",
             "fr": "Le mode de défaillance le plus courant dans Africa Railway Modernization Fastener Demand 2026: SGR, Metros, and Freight Corridors est la déficience du contrôle qualité côté fournisseur.",
@@ -286,7 +286,7 @@
             "hi": "B2B खरीदार रेल परियोजनाओं में फास्टनर विफलताओं को कैसे रोक सकते हैं?"
           },
           "a": {
-            "en": "Five prevention measures: 1) Specify ISO 9001 certification and original mill test certificates in purchase orders, 2) Engage third-party inspection agencies (SGS, Bureau Veritas, Intertek) for pre-shipment verification, 3) Conduct independent lab testing on samples before payment release, 4) Match fastener grades to application requirements, 5) Train procurement teams on fastener specifications and standards. For African infrastructure projects, see the <a href=\"/en/industry/south-africa-sabs-fastener-import-requirements\">South Africa SABS import requirements</a> for documentation specifics.",
+            "en": "The preventive sequence runs in five steps. Write ISO-aligned quality documentation and mill test certificate requirements into the purchase order, bring in a third-party inspection agency for pre-shipment checks, test samples independently before payment, brief procurement staff on fastener grades and standards, and follow documented QC through delivery. On fastenings under repeated traffic load, add fatigue and tensile checks; for corridor stock, record the finish and corrosion condition. Review the supplier on delivery record rather than passing once at onboarding. For African rail programmes, see the <a href=\"/en/industry/south-africa-sabs-fastener-import-requirements\">South Africa SABS import requirements</a> for documentation specifics.",
             "zh": "按标段分批交货，最怕前后批次对不上，到现场再挑换扣件就晚了。出货前先请 SGS、Bureau Veritas、Intertek 这类第三方机构逐批见证验货，核对规格、镀层与外观状态；每批抽取样品封存，付款前送独立实验室复验；扣件等级和材质按轨枕、桥梁连接与长期振动疲劳工况选配，不同部位互不顶替；采购、现场验收与线路维修班组共同受训，认得出等级刻印、批次号和进场复检节点；采购经理最后把供方 ISO 9001 体系证书、材质追溯单和逐批追溯要求压进订单条款。进场先核批次与材质单，复检不过的批次不进入轨枕与桥梁部位。",
             "es": "Cinco medidas de prevención: 1) Especificar ISO 9001, 2) Inspección de terceros, 3) Pruebas de laboratorio independientes, 4) Especificaciones coincidentes, 5) Capacitación.",
             "fr": "Cinq mesures de prévention : 1) Spécifier ISO 9001, 2) Inspection tierce, 3) Tests laboratoire indépendants, 4) Spécifications correspondantes, 5) Formation.",
