@@ -153,8 +153,8 @@
     {
       "id": "galvanic-basics",
       "heading": {
-        "en": "Galvanic Corrosion Fundamentals: The Anodic Index and Why Fasteners Fail",
-        "zh": "电偶腐蚀基础：阳极指数及紧固件失效原因",
+        "en": "What causes galvanic corrosion between fastener and base metal?",
+        "zh": "紧固件与母材之间为何发生电偶腐蚀？",
         "es": "Fundamentos de la Corrosión Galvánica: El Índice Anódico y Por Qué Fallan los Sujetadores",
         "ar": "أساسيات التآكل الجلفاني: مؤشر الأنود ولماذا تفشل المثبتات",
         "fr": "Fondamentaux de la Corrosion Galvanique : L'Indice Anodique et Pourquoi les Fixations Échouent",
@@ -180,8 +180,8 @@
     {
       "id": "material-selection",
       "heading": {
-        "en": "Material Selection Strategies: Compatible Fastener-Base Metal Pairings",
-        "zh": "材料选择策略：兼容的紧固件-母材配对",
+        "en": "Which fastener-base metal pairings stay corrosion-compatible?",
+        "zh": "哪些紧固件与母材配对耐腐蚀？",
         "es": "Estrategias de Selección de Materiales: Emparejamientos Compatibles Sujetador-Metal Base",
         "ar": "استراتيجيات اختيار المواد: التزاوج المتوافق بين المثبت والمعدن الأساسي",
         "fr": "Stratégies de Sélection des Matériaux : Appariements Compatibles Fixation-Métal de Base",
@@ -299,7 +299,7 @@
             "hi": "क्या मैं अल्युमीनियम में स्टेनलेस स्टील बोल्ट को बिना अलगाव के उपयोग कर सकता हूँ?"
           },
           "a": {
-            "en": "No, this is a classic galvanic corrosion risk. The 0.70 V potential difference between stainless steel 316 and aluminum 6061-T6 will cause the aluminum to pit and eventually perforate if the joint is exposed to moisture. Use EPDM isolation washers (1-3 mm thick) under both the bolt head and the nut, plus a nylon or PTFE sleeve if the shank passes through an aluminum wall. TradeGo can supply complete isolation kits pre-assembled to the bolt.",
+            "en": "No, this is a classic galvanic corrosion risk. The potential difference between stainless 316 and aluminum 6061-T6 is about 0.70 V, so the aluminum acts as the anode, pits and can perforate whenever moisture or salt film forms on the joint. Use EPDM isolation washers 1–3 mm thick under both the bolt head and the nut, plus a nylon or PTFE sleeve where the shank passes through an aluminum wall. Stainless grades are referenced to ISO 3506-1. TradeGo can supply pre-assembled isolation kits matched to the diameter; inspect the insulation before weather exposure.",
             "zh": "不，这是经典的电偶腐蚀风险。如果接头暴露于潮湿，不锈钢316和铝6061-T6之间的0.70 V电位差将导致铝点蚀并最终穿孔。在螺栓头和螺母下都使用EPDM隔离垫圈（1-3毫米厚），如果杆穿过铝壁，还要加尼龙或PTFE套管。TradeGo可以提供预先组装到螺栓的完整隔离套件。",
             "es": "No, este es un riesgo clásico de corrosión galvánica. La diferencia de potencial de 0.70 V entre el acero inoxidable 316 y el aluminio 6061-T6 causará picadura y eventual perforación del aluminio si la junta está expuesta a la humedad. Use arandelas de aislamiento EPDM (1-3 mm de espesor).",
             "fr": "Non, c'est un risque classique de corrosion galvanique. La différence de potentiel de 0,70 V entre l'acier inoxydable 316 et l'aluminium 6061-T6 provoquera une piqûration et éventuellement une perforation de l'aluminium si le joint est exposé à l'humidité. Utilisez des rondelles d'isolation EPDM (1-3 mm d'épaisseur).",
@@ -325,7 +325,7 @@
             "hi": "फास्टनर जोड़े के लिए अधिकतम सुरक्षित क्षमता अंतर क्या है?"
           },
           "a": {
-            "en": "Industry practice is 0.25 V maximum for general applications and 0.15 V maximum for wet, marine or critical service. These limits are derived from the work of ASTM G82 and NACE / AMPP SP0775. If the potential difference cannot be reduced by material choice, use isolation methods or a sacrificial coating on the more noble metal to bring the effective difference below the threshold.",
+            "en": "Industry practice sets 0.25 V as the maximum potential difference for general applications, and 0.15 V for wet, marine or critical service. These limits are drawn from ASTM G82 and NACE / AMPP SP0775 guidance on galvanic couples. If the difference cannot be reduced by choosing a more compatible material, break the electrical path with isolation washers, sleeves or sealants, or apply a sacrificial coating to the more noble metal so the effective difference falls below the threshold. Record the material pair, isolation method and coating in the joint file.",
             "zh": "行业惯例为一般应用最大电位差 0.25 V，潮湿、海洋或关键服务最大 0.15 V；这些限值参考 ASTM G82 和 NACE/AMPP SP0775 的相关工作。若电位差无法通过材料选择降低，可采用隔离方法，或在较贵金属一侧加牺牲涂层，把有效差值降到阈值以下。评估连接副时把接触介质、湿度和是否外露一起考虑；干湿交替和含盐环境限值更严，关键部位整组选用相容金属，接触面加绝缘垫并保持排水通畅，减少长期电偶腐蚀风险。",
             "es": "La práctica de la industria es 0,25 V máximo para aplicaciones generales y 0,15 V máximo para servicio húmedo, marino o crítico. Estos límites se derivan del trabajo de ASTM G82 y NACE/AMPP SP0775.",
             "fr": "La pratique de l'industrie est de 0,25 V maximum pour les applications générales et de 0,15 V maximum pour le service humide, marin ou critique. Ces limites sont dérivées des travaux de l'ASTM G82 et NACE/AMPP SP0775.",
@@ -377,7 +377,7 @@
             "hi": "क्या TradeGo पूर्ण फास्टनर-अलगाव वॉशर किट प्रदान करता है?"
           },
           "a": {
-            "en": "Yes. TradeGo assembles kitted fastener packages with matched EPDM isolation washers, sealing washers, and bushings, supplied in sealed bags with a kit identification label. The kits are popular for solar PV, curtain wall, and marine applications where on-site kitting is impractical. Standard kit configurations cover M6-M20 in 30 mm, 50 mm and 70 mm bolt lengths; custom configurations are available on request.",
+            "en": "Yes. TradeGo assembles kitted fastener packages with matched EPDM isolation washers, sealing washers and bushings, supplied in sealed bags with a kit identification label. The kits are used for solar PV, curtain wall and marine applications where on-site kitting is impractical or error-prone. Standard configurations cover M6–M20 in 30 mm, 50 mm and 70 mm bolt lengths; custom configurations are available on request, with washer material and thickness chosen for the base metal pair. Each kit follows the order specification, with documentation per the purchase order and batch identity kept with the packing list.",
             "zh": "是的。TradeGo组装配套紧固件包，配有匹配的EPDM隔离垫圈、密封垫圈和衬套，供应时采用密封袋包装，附套件识别标签。该套件在太阳能PV、幕墙和海洋应用中很受欢迎，因为现场配套不切实际。标准套件配置涵盖M6-M20的30毫米、50毫米和70毫米螺栓长度；可根据要求提供定制配置。",
             "es": "Sí. TradeGo ensambla paquetes de sujetadores en kit con arandelas de aislamiento EPDM, arandelas de sellado y casquillos coincidentes, suministrados en bolsas selladas con una etiqueta de identificación del kit.",
             "fr": "Oui. TradeGo assemble des kits de fixations avec des rondelles d'isolation EPDM, des rondelles d'étanchéité et des bagues assorties, fournis dans des sacs scellés avec une étiquette d'identification du kit.",
