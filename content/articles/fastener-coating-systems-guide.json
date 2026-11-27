@@ -60,8 +60,8 @@
     {
       "id": "zinc",
       "heading": {
-        "en": "Zinc Plating and Electroplating",
-        "zh": "镀锌和电镀",
+        "en": "What finish does zinc plating provide?",
+        "zh": "电镀锌提供怎样的表面保护层？",
         "es": "Zincado y Galvanoplastia",
         "ar": "طلاء الزنك والطلاء الكهربائي",
         "fr": "Zingage et galvanoplastie",
@@ -87,8 +87,8 @@
     {
       "id": "galvanizing",
       "heading": {
-        "en": "Hot-Dip Galvanizing",
-        "zh": "热镀锌",
+        "en": "When is hot-dip galvanizing the right outdoor finish?",
+        "zh": "何种场合应选用热镀锌户外镀层？",
         "es": "Galvanizado por Inmersión en Caliente",
         "ar": "الجلفنة بالغمس الساخن",
         "fr": "Galvanisation à chaud",
@@ -206,7 +206,7 @@
             "ja": "亜鉛めっきにはどんな種類がありますか？"
           },
           "a": {
-            "en": "Hot-dip galvanizing provides the best value for general outdoor use in African climates. For harsh environments (coastal, mining), consider Dacromet or stainless steel.",
+            "en": "For general outdoor use in African climates, hot-dip galvanizing usually gives the best balance of protection and cost on carbon steel fasteners. It forms a thick zinc-iron alloy layer that acts both as a barrier and as a sacrificial anode if the steel is scratched. In coastal, mining or other harsh exposure, compare zinc-flake coatings such as Dacromet or GEOMET, or A2/A4 stainless fasteners, before settling on plain galvanizing. The choice follows humidity, chloride exposure, metal contact and service record; thickness and test method are agreed in the specification, with documentation kept per batch.",
             "zh": "非洲户外一般工况下，热浸镀锌（HDG）性价比最高，能在干燥到中等暴露环境提供长期防护；沿海、矿山等严酷环境，可考虑锌铝片涂层（达克罗类）或不锈钢。选型时核对当地湿度、盐雾、接触化学品和检修周期：内陆露天用厚镀锌即可，高腐蚀部位提高镀层等级或直接用耐蚀材质。涂层方案要与连接副材质相容，到货后按标准抽检镀层厚度和外观。",
             "hi": "अफ्रीकी जलवायु में आम बाहरी काम के लिए हॉट-डिप गैल्वनाइज़्ड सबसे अच्छा मूल्य देता है। कठोर वातावरण—तटीय या खनिज स्थल—में डैक्रोमेट या स्टेनलेस स्टील पर विचार करें।",
             "ru": "Для обычной открытой эксплуатации в африканском климате лучшее соотношение цена–защита даёт горячее цинкование (HDG). В агрессивных средах — у побережья, на рудниках — рассмотрите цинк-ламельное покрытие Dacromet или нержавеющую сталь.",
@@ -232,7 +232,7 @@
             "ja": "溶融亜鉛めっきボルトとステンレスを混ぜて使えますか？"
           },
           "a": {
-            "en": "Generally no - stainless steel's corrosion resistance comes from the material itself, not a coating. Coatings on stainless are unnecessary and may cause issues.",
+            "en": "Generally no. A2 (304) and A4 (316) stainless fasteners resist corrosion through their passive chromium oxide film, not through an applied coating, so plating or painting the surface is unnecessary. Coatings on stainless can trap moisture, interfere with the passive film, and cause discoloration rather than improve protection. Where stainless fasteners are used in contact with aluminum or other dissimilar metals, the solution is an isolation washer or sleeve, not a coating on the stainless itself. Stainless property classes follow ISO 3506-1, and the grade marking should match the certificate supplied with the order.",
             "zh": "一般不需要。不锈钢的耐腐蚀性能来自材料本身的钝化膜，而非表面涂层；在不锈钢上再加涂层没有必要，涂层破损后反而可能掩盖表面缺陷、影响装配。只有在特殊电偶隔离或标识需求下才考虑表面处理，且应选用不影响螺纹配合和基材耐蚀性的方式。普通场合保持不锈钢表面清洁干燥即可，不同金属接触面另做隔离处理。",
             "hi": "आम तौर पर नहीं: स्टेनलेस स्टील का जंग प्रतिरोध सामग्री की मिश्रधातु से खुद आता है, किसी बाहरी कोटिंग से नहीं। स्टेनलेस पर कोटिंग अनावश्यक होती है, धागे का फिट बिगाड़ सकती है और कुछ मामलों में आसंजन या कफ़्लशन समस्या खड़ी कर सकती है।",
             "ru": "Обычно нет: стойкость нержавеющей стали к коррозии обеспечивает сам материал, а не покрытие. Покрытие на нержавейке излишне и может создать дополнительные проблемы, например затруднить посадку резьбы.",
@@ -258,7 +258,7 @@
             "ja": "なぜ被覆の厚さを測りますか？"
           },
           "a": {
-            "en": "Zinc plating is smooth and thin (5-15μm). Zinc flake (Dacromet/GEOMET) is thicker (8-12μm) with a textured surface providing superior corrosion resistance.",
+            "en": "Zinc plating, or electroplating, is a smooth thin film typically 5–15 µm thick, suited to dry interior applications and appearance use, with limited outdoor corrosion resistance. Zinc-flake coatings such as Dacromet or GEOMET are thicker, around 8–12 µm, with a textured zinc-flake layer that gives better corrosion resistance and lower hydrogen embrittlement risk on high-strength parts. Check thread fit after coating, since added thickness can reduce clearance; specify oversize threads or minimum engagement for heavy finishes. Coatings reference ISO 4042, and 10.9 and above should be checked for embrittlement relief after plating.",
             "zh": "电镀锌表面光滑、镀层薄，约 5–15μm，适合室内干燥环境；锌片涂层（达克罗、GEOMET 类）镀层更厚，表面呈纹理状，耐腐蚀性能优于电镀锌，适合户外和中等腐蚀场合。两者工艺和耐蚀周期不同，选型时按暴露环境确定，不能只看外观光亮程度。锌片涂层对氢脆更友好，高强紧固件选用时还要核对工艺适用性，镀层厚度按相应标准验收。",
             "hi": "ज़िंक प्लेटिंग चिकनी व पतली (5–15μm) होती है। ज़िंक फ्लेक (डैक्रोमेट/जियोमेट) ज़्यादा मोटी (8–12μm) है और बनावटी सतह के साथ बेहतर जंग प्रतिरोध देती है।",
             "ru": "Гальваническое цинкование тонкое и гладкое, слой 5–15 мкм. Цинк-ламельное покрытие (Dacromet, GEOMET) толще — 8–12 мкм, имеет шероховатую текстуру и даёт лучшую защиту от коррозии.",
@@ -284,7 +284,7 @@
             "ja": "亜鉛めっきの上に塗装できますか？"
           },
           "a": {
-            "en": "Coatings add thickness that can affect thread fit. Specify oversize threads or minimum thread engagement where coating thickness is significant.",
+            "en": "Coatings add material thickness to the thread profile, which can change thread fit and clamp engagement if the finish is heavy. On plated or flake-coated fasteners, check the thread with the correct gauge after coating, and specify oversize threads, a coating allowance, or minimum engagement where the layer is significant. A coated bolt that cannot engage the nut fully can loosen under vibration, while an over-tapped fit loses shear strength. Keep coating type and thickness on the drawing; do not assume plated fasteners interchange with unplated ones of the same nominal size.",
             "zh": "涂层会增加厚度，从而影响螺纹配合。镀层较厚时，应注明加大螺纹或保证最小螺纹旋合长度。订货时把涂层种类和厚度写进规格，螺纹公差按镀层后的状态核对；厚镀层螺栓与螺母装配时可能需要适当旋合余量，避免拧不到位或卡滞。到货后用通止规检查镀层后的螺纹，配合过紧或过松都应反馈供应商调整。",
             "hi": "कोटिंग अतिरिक्त मोटाई जोड़ती है जो धागे के फिट और पेंच लगाने की जगह को प्रभावित कर सकती है। जहां कोटिंग की मोटाई महत्वपूर्ण हो, वहां ओवरसाइज़ धागा स्पेसिफाई करें या न्यूनतम धागा संलग्नता की मांग रखें, ताकि जोड़ ढीला न रहे।",
             "ru": "Покрытие добавляет толщину и может менять посадку резьбы. Если слой заметный, закладывают резьбу увеличенного профиля или минимальное гарантированное вхождение резьбы в сопрягаемой детали.",
@@ -310,7 +310,7 @@
             "ja": "黒酸化被覆は屋外に向きますか？"
           },
           "a": {
-            "en": "Avoid mixing significantly different metals. Coated carbon steel fasteners are generally compatible with each other.",
+            "en": "Avoid mixing fasteners made from significantly different metals in one joint, because dissimilar contact in the presence of moisture sets up galvanic corrosion. Coated carbon steel fasteners are generally compatible with one another, and stainless groups with stainless; the caution applies to couples such as stainless against aluminum, or galvanized steel against copper alloys. Where different metals must meet, use an isolation washer, sleeve or sealant to break the electrical path, and record the pair in the joint file. Review finish compatibility whenever the base material, coating or climate exposure changes.",
             "zh": "应避免金属性质差异很大的材料混装，否则在潮湿环境中可能形成电偶腐蚀；同样经过涂层处理的碳钢紧固件之间，一般可以配合使用。同一连接副的螺栓、螺母、垫圈应选用相容的材质和镀层，不锈钢与镀锌件直接接触时加隔离垫。混用不同材质前先评估接触介质和暴露条件，关键部位整组统一材质和表面处理，便于控制腐蚀和验收。",
             "hi": "बहुत अलग धातुएं आपस में मिलाने से बचें, क्योंकि असमान धातु जंग त्वरण का कारण बन सकती है। कोटेड कार्बन स्टील फास्टनर आमतौर पर आपस में संगत रहते हैं; जोड़ में धातु बदलने पर स्थानीय परिस्थिति के हिसाब से संपर्क जांचें।",
             "ru": "Избегайте сочетания резко разных металлов. Покрытые изделия из углеродистой стали между собой обычно совместимы, а разнородные металлы стоит разводить, чтобы не ускорять электрохимическую коррозию.",
