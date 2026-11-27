@@ -7,6 +7,7 @@ import { productNames, productDescriptions, pick } from '@/lib/productI18n'
 import { productGuides } from '@/lib/productGuides'
 import { productCategories, featuredSlugs } from '@/lib/productCategories'
 import { productGridCopy } from '@/lib/uiCopy'
+import ProductSearchBox from './ProductSearchBox'
 
 interface ProductGridProps { locale?: Locale }
 
@@ -74,6 +75,9 @@ export default function ProductGrid({ locale = 'en' }: ProductGridProps) {
   return (
     <section id="products" className="py-12 md:py-16 lg:py-20">
       <div className="container mx-auto px-4 sm:px-6">
+        <div className="mb-8">
+          <ProductSearchBox locale={locale} />
+        </div>
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-3 md:mb-4">{t(locale, 'products.title')}</h2>
         <p className="text-gray-600 text-center mb-6 md:mb-8 max-w-2xl mx-auto text-sm md:text-base">{t(locale, 'products.subtitle')}</p>
 
