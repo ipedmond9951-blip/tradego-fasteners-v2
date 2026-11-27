@@ -1,0 +1,97 @@
+slug,locale,field,check_id,verdict,detail
+roofing-screws-epdm-washer-guide,ru,title,A,warn,title 当量宽度 60，无余量（目标 ≤58）
+hex-bolt-dimensions-chart,ar,title,A,warn,title 当量宽度 59，无余量（目标 ≤58）
+hex-bolt-dimensions-chart,ru,title,A,warn,title 当量宽度 60，无余量（目标 ≤58）
+hex-bolt-dimensions-chart,hi,description,A,warn,desc 当量宽度 154，无余量（目标 ≤152）
+zinc-plated-vs-black-phosphate-screws,en,description,A,warn,desc 当量宽度 155，无余量（目标 ≤152）
+bolt-grade-markings-guide,fr,description,A,warn,desc 当量宽度 154，无余量（目标 ≤152）
+ibr-roofing-nails-installation-guide,es,description,A,warn,desc 当量宽度 155，无余量（目标 ≤152）
+anchor-bolts-selection-guide,fr,title,A,warn,in_flight_c5; title 当量宽度 60，无余量（目标 ≤58）
+fastener-corrosion-resistance-guide,fr,title,A,warn,in_flight_c5; title 当量宽度 60，无余量（目标 ≤58）
+marine-outdoor-corrosion-resistant-bolts-guide,en,title,A,warn,title 当量宽度 59，无余量（目标 ≤58）
+marine-outdoor-corrosion-resistant-bolts-guide,ru,description,A,warn,desc 当量宽度 155，无余量（目标 ≤152）
+self-drilling-screws-selection-guide,ru,title,A,warn,title 当量宽度 60，无余量（目标 ≤58）
+nuts-bolts-glossary-terminology,de,title,A,warn,title 当量宽度 60，无余量（目标 ≤58）
+self-tapping-screws-complete-classification-guide,pt,title,A,warn,title 当量宽度 59，无余量（目标 ≤58）
+congo-brazzaville-fastener,ru,description,A,warn,desc 当量宽度 153，无余量（目标 ≤152）
+thread-types-guide-metric-imperial,en,description,A,warn,desc 当量宽度 153，无余量（目标 ≤152）
+thread-types-guide-metric-imperial,hi,title,A,warn,title 当量宽度 60，无余量（目标 ≤58）
+libya-tripoli-construction-fastener-sourcing,de,title,A,warn,title 当量宽度 59，无余量（目标 ≤58）
+fastener-supply-chain-africa-beira-corridor,pt,title,A,warn,title 当量宽度 59，无余量（目标 ≤58）
+fastener-supply-chain-africa-beira-corridor,hi,title,A,warn,title 当量宽度 60，无余量（目标 ≤58）
+angola-lng-project-fastener-procurement,en,description,E,fail,片段残留：snippet 末尾带引用标记 [1]（正文引用编号被抄进 metaDescription）；现文 “...Congo River estuary [1].”；建议删去 [1]，把地点锚点并入采购句
+thread-types-guide-metric-imperial,en,description,E,fail,"句子截断：悬置左括号未闭合，“...the imperial system (Unified thread” 后半句丢失；建议补全为 “(Unified Thread, UNC/UNF)” 并整句重写到 ≤152"
+mozambique-hardware-supplier,zh,description,F,fail,越界口径：“工厂价格”（贸易商身份禁用 factory price/工厂直供，05 §4）；现文含“工厂价格，INNOQ 合规文件支持”；建议改为“证书/材质书按订单提供”，删去工厂价格表述
+zambia-fastener-supplier,zh,description,F,fail,越界口径：“工厂直供价格”（05 §4 工厂直供/工厂价格禁用）；建议改为按规格与批量报价的结构表述，不给直供/价格层级承诺
+congo-brazzaville-fastener,zh,description,F,fail,越界口径：“工厂直供价格”（05 §4）；建议删去直供价格表述，保留需求行业与物流要点
+congo-brazzaville-fastener,en,description,F,fail,"无源装饰数字/N10：“third-largest oil producer, production exceeding 300,000 barrels per day” 在 en 正文首段及 en 全文均无出处（仅 ar/hi 正文出现）；建议删去排名与产量数字，回到紧固件需求场景"
+togo-lome-port-fastener-import-procedure,fr,description,F,warn,"数字待核：“plus de 1,2 million d’EVP par an” 港口吞吐量；fr 正文复述该数，但 en 正文对应句为残句 “over 1.a containerised throughput measured in millions of TEUs”，出处需核实后再保留"
+mozambique-hardware-supplier,zh,description,G,fail,主张强度不一致：zh “领先的五金供应商”（leading），en/其他语种为中性供货描述；建议改为中性“面向建筑/采矿/农业的紧固件供应”
+congo-brazzaville-fastener,en,description,G,fail,主张强度不一致：en 用 “third-largest” 排名级表述，es/fr/pt/de/ja 等为中性按标准供货描述；建议统一为中性口径
+fastener-supply-chain-africa-beira-corridor,en,description,G,fail,无依据最高级：“most cost-effective maritime gateway” 属比较级最高级且无出处；建议改为“a maritime gateway via Beira”一类中性表述
+ivory-coast-abidjan-port-fastener-tariff,ar,description,G,warn,in_flight_c5; 越界承诺：“سلاسل الإمداد المربحة”（盈利供应链）收益承诺，en 为中性关税/单证口径；建议改为中性清关与成本核算表述
+ivory-coast-abidjan-port-fastener-tariff,ru,description,G,warn,in_flight_c5; 框架漂移：“Укрепляйте закупки промышленного крепежа” 销售鼓动，en 无对应；建议对齐 en 的“核对税则/单证/到岸成本”口径
+ivory-coast-abidjan-port-fastener-tariff,ja,description,G,warn,in_flight_c5; 越界承诺：“産業案件の利益向上を支援”（助力利润提升），en 无收益承诺；建议删去利益表述
+ivory-coast-abidjan-port-fastener-tariff,hi,description,G,warn,in_flight_c5; 越界承诺：“लाभ बढ़ाएं”（提高利润），en 无对应；建议改为中性到岸成本与采购核对表述
+high-tensile-bolts-grade-guide,hi,title+description,G,warn,in_flight_c5; 等级实体不一致：hi 仅列 8.8/10.9，zh/es/ar/fr/pt/de/ja 均含 12.9；建议与其他语种统一等级集合
+high-tensile-bolts-grade-guide,ru,title,G,warn,"in_flight_c5; 等级表述漂移：ru 标题 “8.8, 10.9 и выше”（及以上），其余语种为固定等级集合；建议固定为 8.8/10.9/12.9"
+high-tensile-bolts-grade-guide,en,description,G,warn,in_flight_c5; 锚点缺失：en desc 为通用定义句，未列 8.8/10.9/12.9 等级锚点，与其他语种不一致；建议补入等级与应用锚点
+anchor-bolts-selection-guide,es,description,C,warn,in_flight_c5; 整句仅“非洲建筑完整指南”，无锚栓类型/承载力/埋深等可核对锚点；en/zh/ja 已有类型与载荷锚点应对齐
+anchor-bolts-selection-guide,ar,description,C,warn,in_flight_c5; 整句仅“非洲建筑完整指南”，无锚栓类型/承载力/埋深等可核对锚点；en/zh/ja 已有类型与载荷锚点应对齐
+anchor-bolts-selection-guide,fr,description,C,warn,in_flight_c5; 整句仅“非洲建筑完整指南”，无锚栓类型/承载力/埋深等可核对锚点；en/zh/ja 已有类型与载荷锚点应对齐
+anchor-bolts-selection-guide,pt,description,C,warn,in_flight_c5; 整句仅“非洲建筑完整指南”，无锚栓类型/承载力/埋深等可核对锚点；en/zh/ja 已有类型与载荷锚点应对齐
+anchor-bolts-selection-guide,ru,description,C,warn,in_flight_c5; 整句仅“非洲建筑完整指南”，无锚栓类型/承载力/埋深等可核对锚点；en/zh/ja 已有类型与载荷锚点应对齐
+anchor-bolts-selection-guide,de,description,C,warn,in_flight_c5; 整句仅“非洲建筑完整指南”，无锚栓类型/承载力/埋深等可核对锚点；en/zh/ja 已有类型与载荷锚点应对齐
+anchor-bolts-selection-guide,hi,description,C,warn,in_flight_c5; 整句仅“非洲建筑完整指南”，无锚栓类型/承载力/埋深等可核对锚点；en/zh/ja 已有类型与载荷锚点应对齐
+telecom-tower-fasteners,es,description,C,warn,in_flight_c5; 整句仅“通信塔专用紧固件要求”，无塔型/镀层/锁紧锚点；en/zh/ja 已有单极/格构与镀层要点应对齐
+telecom-tower-fasteners,ar,description,C,warn,in_flight_c5; 整句仅“通信塔专用紧固件要求”，无塔型/镀层/锁紧锚点；en/zh/ja 已有单极/格构与镀层要点应对齐
+telecom-tower-fasteners,fr,description,C,warn,in_flight_c5; 整句仅“通信塔专用紧固件要求”，无塔型/镀层/锁紧锚点；en/zh/ja 已有单极/格构与镀层要点应对齐
+telecom-tower-fasteners,pt,description,C,warn,in_flight_c5; 整句仅“通信塔专用紧固件要求”，无塔型/镀层/锁紧锚点；en/zh/ja 已有单极/格构与镀层要点应对齐
+telecom-tower-fasteners,ru,description,C,warn,in_flight_c5; 整句仅“通信塔专用紧固件要求”，无塔型/镀层/锁紧锚点；en/zh/ja 已有单极/格构与镀层要点应对齐
+telecom-tower-fasteners,de,description,C,warn,in_flight_c5; 整句仅“通信塔专用紧固件要求”，无塔型/镀层/锁紧锚点；en/zh/ja 已有单极/格构与镀层要点应对齐
+telecom-tower-fasteners,hi,description,C,warn,in_flight_c5; 整句仅“通信塔专用紧固件要求”，无塔型/镀层/锁紧锚点；en/zh/ja 已有单极/格构与镀层要点应对齐
+nuts-bolts-glossary-terminology,es,description,C,warn,整句仅“采购术语表”，无螺纹/等级/镀层等术语锚点；en/zh/ja 已有 8.8–12.9、螺纹 M/UNC 等锚点
+nuts-bolts-glossary-terminology,ar,description,C,warn,整句仅“采购术语表”，无螺纹/等级/镀层等术语锚点；en/zh/ja 已有 8.8–12.9、螺纹 M/UNC 等锚点
+nuts-bolts-glossary-terminology,fr,description,C,warn,整句仅“采购术语表”，无螺纹/等级/镀层等术语锚点；en/zh/ja 已有 8.8–12.9、螺纹 M/UNC 等锚点
+nuts-bolts-glossary-terminology,pt,description,C,warn,整句仅“采购术语表”，无螺纹/等级/镀层等术语锚点；en/zh/ja 已有 8.8–12.9、螺纹 M/UNC 等锚点
+nuts-bolts-glossary-terminology,ru,description,C,warn,整句仅“采购术语表”，无螺纹/等级/镀层等术语锚点；en/zh/ja 已有 8.8–12.9、螺纹 M/UNC 等锚点
+nuts-bolts-glossary-terminology,de,description,C,warn,整句仅“采购术语表”，无螺纹/等级/镀层等术语锚点；en/zh/ja 已有 8.8–12.9、螺纹 M/UNC 等锚点
+nuts-bolts-glossary-terminology,hi,description,C,warn,整句仅“采购术语表”，无螺纹/等级/镀层等术语锚点；en/zh/ja 已有 8.8–12.9、螺纹 M/UNC 等锚点
+threaded-rod-studding-guide,es,description,C,warn,in_flight_c5; desc 缺 4.6–12.9 等级与 M6–M64 规格锚点，其余 9 语种均有；建议补入等级/尺寸区间
+bolt-grade-markings-guide,pt,description,C,warn,desc 缺 ISO 898 与 ASTM A325/A490 锚点，其余语种均带；建议补入标准锚点
+high-tensile-structural-bolts-guide,ru,description,C,warn,in_flight_c5; desc 缺紧固工艺/镀锌限制/M20–M24 锚点，en/zh/es/ar/fr/pt/hi 已带；建议对齐锚点
+high-tensile-structural-bolts-guide,ja,description,C,warn,in_flight_c5; desc 缺紧固工艺/镀锌限制/M20–M24 锚点，en/zh/es/ar/fr/pt/hi 已带；建议对齐锚点
+high-tensile-structural-bolts-guide,de,description,C,warn,in_flight_c5; desc 缺紧固工艺/镀锌限制/M20–M24 锚点，en/zh/es/ar/fr/pt/hi 已带；建议对齐锚点
+libya-tripoli-construction-fastener-sourcing,ar,description,C,warn,desc 缺 ISO 898-1 与热浸镀锌锚点，en/es/fr/pt/de 已带；建议补入等级/镀层锚点
+libya-tripoli-construction-fastener-sourcing,ru,description,C,warn,desc 缺 ISO 898-1 与热浸镀锌锚点，en/es/fr/pt/de 已带；建议补入等级/镀层锚点
+libya-tripoli-construction-fastener-sourcing,ja,description,C,warn,desc 缺 ISO 898-1 与热浸镀锌锚点，en/es/fr/pt/de 已带；建议补入等级/镀层锚点
+libya-tripoli-construction-fastener-sourcing,hi,description,C,warn,desc 缺 ISO 898-1 与热浸镀锌锚点，en/es/fr/pt/de 已带；建议补入等级/镀层锚点
+tunisia-mediterranean-fastener-export-guide,zh,description,C,warn,desc 缺 ISO 898-1 与 M8–M20 锚点，en/es/fr/pt/de 已带；建议补入标准/规格锚点
+tunisia-mediterranean-fastener-export-guide,ar,description,C,warn,desc 缺 ISO 898-1 与 M8–M20 锚点，en/es/fr/pt/de 已带；建议补入标准/规格锚点
+tunisia-mediterranean-fastener-export-guide,ru,description,C,warn,desc 缺 ISO 898-1 与 M8–M20 锚点，en/es/fr/pt/de 已带；建议补入标准/规格锚点
+tunisia-mediterranean-fastener-export-guide,ja,description,C,warn,desc 缺 ISO 898-1 与 M8–M20 锚点，en/es/fr/pt/de 已带；建议补入标准/规格锚点
+tunisia-mediterranean-fastener-export-guide,hi,description,C,warn,desc 缺 ISO 898-1 与 M8–M20 锚点，en/es/fr/pt/de 已带；建议补入标准/规格锚点
+angola-lng-project-fastener-procurement,es,description,C,warn,desc 缺 ASTM A193 B7/B8、A320 L7 材料等级锚点（zh 已带），仅保留 NACE MR0175；建议对齐材料等级
+angola-lng-project-fastener-procurement,ar,description,C,warn,desc 缺 ASTM A193 B7/B8、A320 L7 材料等级锚点（zh 已带），仅保留 NACE MR0175；建议对齐材料等级
+angola-lng-project-fastener-procurement,fr,description,C,warn,desc 缺 ASTM A193 B7/B8、A320 L7 材料等级锚点（zh 已带），仅保留 NACE MR0175；建议对齐材料等级
+angola-lng-project-fastener-procurement,pt,description,C,warn,desc 缺 ASTM A193 B7/B8、A320 L7 材料等级锚点（zh 已带），仅保留 NACE MR0175；建议对齐材料等级
+angola-lng-project-fastener-procurement,ru,description,C,warn,desc 缺 ASTM A193 B7/B8、A320 L7 材料等级锚点（zh 已带），仅保留 NACE MR0175；建议对齐材料等级
+angola-lng-project-fastener-procurement,ja,description,C,warn,desc 缺 ASTM A193 B7/B8、A320 L7 材料等级锚点（zh 已带），仅保留 NACE MR0175；建议对齐材料等级
+angola-lng-project-fastener-procurement,de,description,C,warn,desc 缺 ASTM A193 B7/B8、A320 L7 材料等级锚点（zh 已带），仅保留 NACE MR0175；建议对齐材料等级
+angola-lng-project-fastener-procurement,hi,description,C,warn,desc 缺 ASTM A193 B7/B8、A320 L7 材料等级锚点（zh 已带），仅保留 NACE MR0175；建议对齐材料等级
+marine-outdoor-corrosion-resistant-bolts-guide,en,description,C,warn,desc 为腐蚀机理定义句，缺 316/HDG/涂层材料锚点，zh/es/fr/pt/ja/de 已带；建议补入材料锚点
+concrete-anchors-fasteners-guide,zh,description,C,warn,in_flight_c5; desc 仅列类型/载荷/安装类目，无可核对锚点；建议补入化学/膨胀/螺钉式与埋深要点
+drywall-screws-complete-guide,zh,description,C,warn,in_flight_c5; desc 仅列类型/尺寸/牙型类目，缺规格或标准锚点；建议补入板厚/基材匹配锚点
+drywall-screws-complete-guide,ar,description,C,warn,in_flight_c5; desc 仅列类型/尺寸/牙型类目，缺规格或标准锚点；建议补入板厚/基材匹配锚点
+drywall-screws-complete-guide,ja,description,C,warn,in_flight_c5; desc 仅列类型/尺寸/牙型类目，缺规格或标准锚点；建议补入板厚/基材匹配锚点
+flat-washers-vs-spring-washers,ar,description,C,warn,in_flight_c5; desc 仅讲选用场景，缺载荷分布/防松/标准锚点；建议对齐 en/zh/es/fr/pt/ru/de 口径
+flat-washers-vs-spring-washers,ja,description,C,warn,in_flight_c5; desc 仅讲选用场景，缺载荷分布/防松/标准锚点；建议对齐 en/zh/es/fr/pt/ru/de 口径
+flat-washers-vs-spring-washers,hi,description,C,warn,in_flight_c5; desc 仅讲选用场景，缺载荷分布/防松/标准锚点；建议对齐 en/zh/es/fr/pt/ru/de 口径
+self-drilling-screws-selection-guide,zh,description,C,warn,desc 缺 #1–#5 钻尖锚点，en/es/fr/pt/de/ar/ja/hi 已带；建议补入钻尖号数
+libya-tripoli-construction-fastener-sourcing,en,description,C,warn,双动作堆叠：“compare logistics and request a matched quote” 两个祈使行动；建议保留一个轻 CTA，比较并入价值句
+hex-bolt-dimensions-chart,hi,description,C,warn,desc 与 title 逐字重复：首句 “हेक्स बोल्ट आयाम चार्ट: मीट्रिक और इम्पीरियल आकार” 即 title，第二句再次复述；按 3.2 不得与 title 逐字重复，建议换句式给出头/螺纹/长度核对锚点
+rwanda-construction-fastener-standards,zh,description,C,warn,desc 以 title 整句起头（“卢旺达建筑紧固件标准指南：”）；建议去掉重复标题前缀，直接给 RSB/MININFRA/EAC 锚点
+libya-tripoli-construction-fastener-sourcing,zh,description,C,warn,desc 以 title 整句起头（“利比亚的黎波里建筑紧固件采购指南：”）；建议去前缀直接给物流路径与风控要点
+congo-brazzaville-fastener,en,description,I,fail,承诺越界/主题漂移：desc 通篇为国家石油产量画像，未自证紧固件供给；en 首段讲四类需求中心与涂层/不锈钢螺栓。建议 desc 回到油气/采矿/建筑紧固件锚点
+angola-lng-project-fastener-procurement,en,description,I,warn,desc 仅为项目地点描述（Soyo/Zaire/250 km），未带紧固件采购锚点；地点事实正文可核，建议补入材料等级/NACE 采购锚点
+togo-lome-port-fastener-import-procedure,fr,description,I,warn,吞吐量数字与正文一致性待核：见 F 行；en 正文对应句残句，需先修正文再定 desc 数字
