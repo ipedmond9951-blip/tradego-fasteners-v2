@@ -61,8 +61,8 @@
     {
       "id": "size-chart-matching-screws",
       "heading": {
-        "en": "Size Chart and Matching Screws",
-        "zh": "规格表与匹配螺钉",
+        "en": "What screw matches a drop-in anchor?",
+        "zh": "哪种螺钉与内膨胀锚栓匹配？",
         "ar": "جدول المقاسات والبراغي المتوافقة",
         "es": "Tabla de medidas y tornillos compatibles",
         "fr": "Tableau des tailles et vis compatibles",
@@ -142,8 +142,8 @@
     {
       "id": "load-limits-tension-shear",
       "heading": {
-        "en": "Load Limits in Tension and Shear",
-        "zh": "拉力与剪力承载限制",
+        "en": "What load limits should I respect?",
+        "zh": "应遵守哪些拉力与剪力限值？",
         "ar": "حدود الحمل في الشد والقص",
         "es": "Límites de carga a tracción y cortante",
         "fr": "Limites de charge en traction et cisaillement",
@@ -249,7 +249,7 @@
             "ja": "ドロップインアンカーに合うねじは何ですか？"
           },
           "a": {
-            "en": "A standard metric machine screw or bolt of the same thread size - M6, M8, M10 or M12. The fixture determines the anchor size, so specify from the bracket, not the other way round.",
+            "en": "A drop-in anchor pairs with a metric machine screw or bolt of the same thread size, commonly M6, M8, M10 or M12. The fixture and bolt determine anchor size, so specify from the bracket thread and load rather than choosing the anchor first. Match internal thread, screw gauge and washer face; a mismatched screw will not seat in the expanded plug. Record anchor type, thread diameter and setting tool on the order. In a mixed bin, thread size cannot be read from appearance, so head marking and the label are the identifiers.",
             "zh": "配用同螺纹规格的公制机螺钉或螺栓，常见 M6、M8、M10、M12。锚栓规格由被固定挂件决定，先按支架螺纹需求选锚栓，不要反过来配。选规格时把挂件荷载、基材类型和钻孔条件一起核对，螺钉长度要保证足够啮合且不超出锚栓行程；不同公称直径的螺钉和锚栓不能混用，配套件应来自同一适用体系，到货后核对螺纹和胀紧件是否匹配。",
             "hi": "उसी धागे के आकार का स्टैंडर्ड मीट्रिक मशीन स्क्रू या बोल्ट — M6, M8, M10 या M12। फिक्स्चर एंकर का आकार तय करता है, इसलिए ब्रैकेट से स्पेसिफिकेशन दें, उलटा नहीं।",
             "ru": "Подходит стандартный метрический машинный винт или болт того же размера резьбы: M6, M8, M10 либо M12. Размер анкера задаёт само крепление на конструкции, поэтому спецификацию начинают от кронштейна, а не обратным подбором под имеющийся анкер. Проверьте шаг резьбы и длину под стяжку: несовпадение оставляет узел на лишней высоте и мешает прижатию.",
@@ -275,7 +275,7 @@
             "ja": "ドロップインアンカーはどう正しく施工しますか？"
           },
           "a": {
-            "en": "Drill to the specified diameter and depth, clean the hole, insert the anchor flush with the surface, then drive the setting tool to expand the internal plug. Over-driving is the most common cause of premature failure.",
+            "en": "Set the anchor in sequence: drill to the specified diameter and depth, clean out dust, insert the anchor flush with the concrete, then drive the dedicated setting tool to expand the plug. The tool must match the thread size, such as an M8 tool for an M8 anchor; a punch or improvised rod can damage the thread or leave the cone partly expanded. Over-driving is the most common premature failure, and a dust-filled hole gives the plug nothing to grip. Mark bit depth and clear dust before loading the fixing.",
             "zh": "按规定直径和深度钻孔并清孔，把锚栓敲至与混凝土表面齐平，再用配套胀紧工具把内部塞芯撑开。敲击过量是锚栓过早失效最常见的原因。安装前确认孔内无粉尘、积水和油污，孔径、孔深与锚栓规格一致；胀紧使用配套工具，不要用普通敲砸代替。安装后检查锚栓是否贴紧基面、有无歪斜，承重部位按要求做拉拔或抽检，记录钻孔和安装条件备查。",
             "hi": "निर्धारित व्यास व गहराई तक ड्रिल करें, छेद साफ करें, एंकर को सतह के साथ फ्लश डालें, फिर सेटिंग टूल चलाकर आंतरिक प्लग फैलाएँ। ज़्यादा चलाना समय से पहले खराबी का सबसे आम कारण है।",
             "ru": "Сверлят отверстие заданного диаметра и глубины, вычищают его, вводят анкер заподлицо с поверхностью, затем установочным инструментом расклинивают внутреннюю гильзу. Перетягивание инструмента — самая частая причина раннего выхода анкера из строя: гильза разрушается, заделка теряет усилие. После установки проверяют, что анкер сидит ровно и не выступает, прежде чем вешать нагрузку.",
@@ -301,7 +301,7 @@
             "ja": "どのような荷重上限を守るべきですか？"
           },
           "a": {
-            "en": "Ratings are given in tension and shear for a specific substrate. Suspended services need a safety factor, and never load a drop-in anchor in tension beyond its published value in thin or cracked slabs.",
+            "en": "Published ratings are tension and shear for a specific substrate and embedment, so a catalogue figure is not a universal load. Suspended services such as conduit, tray and pipe need a safety factor on service weight, including tray, insulation and cable fill where relevant. Never tension a drop-in anchor beyond its published value in thin or cracked slab, where edge distance and spacing reduce capacity. Identify concrete strength, cracked condition and load direction before sizing, and keep combined tension and shear inside the charted envelope.",
             "zh": "额定载荷分抗拉与抗剪，且对应特定基材条件。悬吊类构件必须预留安全系数；薄楼板或开裂混凝土中，抗拉载荷不得超过公布的限值。取值时核对基材强度、厚度和有无裂缝，边距、间距也要满足厂家要求；不同基材和安装条件下容许荷载不同，不能直接套用理想混凝土上的数值。重要悬吊连接按设计荷载选锚栓并留有余量，荷载超限或基材存疑时改用其他锚固方式。",
             "hi": "रेटिंग किसी खास सब्सट्रेट के लिए टेंशन और शियर में दी जाती है। लटकी सेवाओं के लिए सुरक्षा गुणक चाहिए, और पतली या दरार वाली स्लैब में ड्रॉप-इन एंकर को प्रकाशित मान से ज़्यादा टेंशन में कभी न लादें।",
             "ru": "Номиналы даны на растяжение и сдвиг для конкретного основания. Под подвешенные коммуникации вводят запас прочности, а в тонких или трещиноватых плитах не нагружают анкер-заглушку на растяжение выше опубликованного значения. Сравнивайте расчётное усилие узла с таблицей именно для вашего бетона; разные основания дают разное удержание, и общий запас по сдвигу не покрывает растяжение.",
