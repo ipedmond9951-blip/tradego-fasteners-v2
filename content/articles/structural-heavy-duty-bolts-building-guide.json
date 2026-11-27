@@ -87,7 +87,7 @@
     {
       "id": "heavy-hex-bolts",
       "heading": {
-        "en": "Extra Large & Heavy Duty Hex Bolts: Dimensions and Selection",
+        "en": "What is the difference between heavy hex and standard hex bolts?",
         "es": "Pernos hexagonales extra grandes y de alta resistencia: dimensiones y selección",
         "ar": "مسامير سداسية كبيرة وشديدة التحمل: الأبعاد والاختيار",
         "fr": "Boulons hexagonaux extra-larges et haute résistance : dimensions et sélection",
@@ -96,7 +96,7 @@
         "ja": "特大高力六角ボルト：寸法と選定",
         "de": "Besonders große und hochfeste Sechskantschrauben: Abmessungen und Auswahl",
         "hi": "अतिरिक्त बड़े और हेवी ड्यूटी हेक्स बोल्ट: आयाम और चयन",
-        "zh": "特大规格重型六角螺栓：尺寸与选型"
+        "zh": "重型六角螺栓与普通六角螺栓有什么区别？"
       },
       "body": {
         "en": "<p>Extra large heavy duty <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">hex bolts</a> (M24 to M72) are specified for the most demanding structural connections in bridges, stadium structures, and industrial plants. Heavy <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">hex bolts</a> (ASME B18.2.1 / DIN 931) have a larger bearing surface than standard <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">hex bolts</a>, providing improved distribution of load on the connected material—critical for bolted steel connections where the hole-diameter-to-bolt-diameter ratio approaches 1.5. The <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">extra thick head</a> design (also called \"fat head\" or \"frame <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a>\") provides additional bearing area for slotted or oversized holes. Grade A325 or Grade 490 (10.9 equivalent, ASTM F3125) are the standard structural grades for heavy <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">hex bolts</a> in North American practice, while EN 14399-1 defines the European system. The comparison methodology above uses typical ranges from industry data and TradeGo procurement experience 2018-2024. Actual market prices fluctuate with raw material costs (steel, zinc, nickel), energy costs, labor costs, and currency exchange rates. For accurate comparison, request identical RFQs from 3-5 qualified suppliers and compare landed cost (product + shipping + insurance + duties).</p><p>Extra large and heavy duty hex bolts differ from the commercial series in one important way: their head dimensions and nut heights are proportioned for structural bearing rather than for general assembly, so a heavy series bolt will not fit a spanner sized for the commercial series of the same thread. When a drawing cites a heavy series, the spanner and the washer must be specified with it, otherwise the site will improvise, and an improvised combination is where rounding and under-tightening begin.</p>\n<p>Dimension selection follows three values: the thread diameter required by the design, the grip length that covers the plies plus the washer and nut, and the head and nut series that the structure's drawings specify. Ordering by diameter and length alone, as if the head series were a cosmetic choice, is the pattern behind most \"the bolts do not fit the socket\" complaints, and it is resolved by putting the standard number on the order alongside the size.</p><p>The lowest unit price is rarely the lowest total cost of ownership.</p><p>and heavy duty hex bolts differ from the commercial series in one important way: their head dimensions and nut heights are proportioned for structural bearing rather than for general assembly, so a heavy series bolt will not fit a spanner sized for the commercial series of the same thread.</p>",
@@ -141,7 +141,7 @@
     {
       "id": "spec-table",
       "heading": {
-        "en": "Heavy Duty Bolt Selection by Application",
+        "en": "Which property class suits steel structure connections?",
         "es": "Selección de pernos de alta resistencia según la aplicación",
         "ar": "اختيار المسامير شديدة التحمل حسب التطبيق",
         "fr": "Sélection de boulons haute résistance selon l'application",
@@ -150,7 +150,7 @@
         "ja": "用途別高力ボルトの選定",
         "de": "Auswahl hochfester Schrauben nach Anwendung",
         "hi": "अनुप्रयोग द्वारा हेवी ड्यूटी बोल्ट का चयन",
-        "zh": "重型螺栓应用选型"
+        "zh": "钢结构连接应选用哪个性能等级？"
       },
       "table": {
         "headers": [
@@ -247,7 +247,7 @@
             "ja": "大型六角ボルトと普通の六角ボルトの違いは何ですか？"
           },
           "a": {
-            "en": "Heavy hex bolts have a larger bearing surface (wider across flats and a thicker head) than standard hex bolts. This provides better load distribution for structural connections with oversized holes.",
+            "en": "Heavy hex bolts have a wider across-flats head than standard hex bolts, spreading clamping load over a bigger area in joints with oversized holes. They match heavy hex nuts and washers so contact pressure stays within the plate or flange. Standard hex bolts suit lighter fixings; heavy hex forms go into I-beam flanges, column splices and other shear or preload joints. Match head form, nut and washer to the connection, and check the class against ISO 898-1 or the relevant structural standard. Reject mixed heads in one bin, since appearance cannot tell the class apart.",
             "zh": "重型六角螺栓与普通六角螺栓的区别在于承压面：重型螺栓对角宽度更大、头部更厚，结构连接时载荷分布更好。普通六角螺栓用于一般连接，结构受力部位选重型规格。选型按连接载荷、板厚和装配空间判断，螺栓与螺母等级配套；结构件保留质保书和批次标记。订单中写明标准、等级和规格，供应商按对应型式供货；到货核对头部尺寸和标记，安装按扭矩规范控制，避免用普通螺栓替代结构重型连接。",
             "hi": "हैवी हेक्स बोल्ट की बेयरिंग सतह स्टैंडर्ड हेक्स बोल्ट से बड़ी होती है: फ्लैट के पार चौड़ाई ज्यादा और सिर भी मोटा होता है। इससे ओवरसाइज्ड होल वाले स्ट्रक्चरल जोड़ों में भार बेहतर तरीके से बंटता है।",
             "ru": "У тяжёлого шестигранного болта опорная поверхность больше: шире под ключ и толще головка. Это лучше распределяет нагрузку в несущих соединениях с отверстиями увеличенного размера, где у обычной головки возможна концентрация усилия на кромке или смятие прилегающей детали.",
@@ -273,7 +273,7 @@
             "ja": "カーテンウォールの固定にはどのボルトを使いますか？"
           },
           "a": {
-            "en": "Curtain wall fixing typically uses M12 or M16 Grade 8.8 HDG hex bolts or specialized stainless steel刺客螺栓 with nylon anchors for concrete backup. Spec depends on wind load calculations.",
+            "en": "Curtain wall fixing combines a structure anchor with a slotted bracket and a bolt tightened after alignment, so the bracket absorbs slab movement without stressing the glass. Common fixings are M12 or M16 class 8.8 HDG hex bolts, or stainless where moisture exposes the joint. Diameter and embedment follow the wind-load calculation and bracket detail, not a catalogue rule. Verify anchor depth and edge distance, keep matching washers under the head, and record the alignment bolt torque. A wrongly sized rigid bolt without an adjustment zone transfers movement to the mullion and needs redesign.",
             "zh": "幕墙固定通常用 M12 或 M16、8.8 级热浸镀锌六角螺栓，或专用不锈钢件，混凝土背面配合尼龙锚栓；具体规格取决于幕墙体系和荷载计算。选型核对面板材质、基材、风载和装配空间，螺栓螺母等级配套，镀层按室外腐蚀环境选择。结构连接以计算和规范为准，不凭经验选尺寸。订单中写明幕墙部位、基材和等级要求，供应商匹配紧固件；到货核对规格、镀层和批次，安装后抽查紧固和密封状态，避免幕墙节点松动或渗水。",
             "hi": "कर्टेन वॉल फिक्सिंग में आम तौर पर M12 या M16 ग्रेड 8.8 HDG हेक्स बोल्ट, या कंक्रीट बैकअप के लिए नायलॉन एंकर वाले विशेष स्टेनलेस स्टील फास्टनर इस्तेमाल होते हैं। स्पेसिफिकेशन हवा भार गणना पर निर्भर करती है।",
             "ru": "Для крепления навесного фасада обычно берут болты M12 или M16 класса 8.8 с HDG-покрытием либо специальные нержавеющие болты с нейлоновыми анкерами под бетонное основание. Спецификация зависит от расчёта ветровой нагрузки и типа несущего основания; фасадный узел должен подтверждаться проектом.",
@@ -299,7 +299,7 @@
             "ja": "鉄骨構造の接合にはどの強度区分を使いますか？"
           },
           "a": {
-            "en": "ISO 898-1 class 8.8 is the general structural default, with 10.9 where the connection is compact and preload matters. Class 8.8 in a large assembly is often more practical than 10.9 because of hydrogen embrittlement risk in coating.",
+            "en": "ISO 898-1 class 8.8 is the general structural default; class 10.9 is chosen where the joint is compact and preload matters, such as splices and dynamic joints. In large assemblies 8.8 is often more practical, because high-strength coated parts carry a hydrogen-embrittlement risk after galvanising and are more sensitive to over-tightening. 10.9 frame connections may follow EN 14399-3 and use a calibrated wrench; shear-only joints can stay on 8.8. Check each batch head-mark and certificate against the drawing, with torque-tension verification where required, and replace deformed lock elements.",
             "zh": "钢结构连接的性能等级，一般结构默认 ISO 898-1 的 8.8 级；连接紧凑、需要预紧力的部位用 10.9 级。大型装配中 8.8 级通常更易配套和控制，10.9 级用于空间受限或高预紧要求的连接。选型按载荷、预紧和板厚判断，螺栓螺母垫圈成套匹配；高强度螺栓注意装配扭矩和摩擦面处理。订单中写明等级、标准和检验要求，供应商按对应热处理生产；到货核对等级标记和质保书，结构批次可追溯到安装区段，避免等级错配。",
             "hi": "ISO 898-1 क्लास 8.8 आम स्ट्रक्चरल डिफॉल्ट है, और जहां जोड़ संकरा हो तथा प्री-लोड महत्वपूर्ण हो, वहां 10.9 लिया जाता है। बड़े असेंबली में कोटिंग में हाइड्रोजन भंगुरता के जोखिम की वजह से क्लास 8.8 अकसर 10.9 से ज्यादा व्यावहारिक होता है।",
             "ru": "Класс 8.8 по ISO 898-1 — общий конструктивный по умолчанию, 10.9 применяют там, где узел плотный и важна предварительная затяжка (preload). В крупной сборке класс 8.8 часто практичнее 10.9 из-за риска водородного охрупчивания покрытия при высокой прочности стали.",
