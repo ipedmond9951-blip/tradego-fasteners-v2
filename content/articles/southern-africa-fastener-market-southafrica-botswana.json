@@ -578,15 +578,15 @@
         "hi": "अफ्रीकी बाजारों के लिए न्यूनतम ऑर्डर मात्रा क्या है?"
       },
       "answer": {
-        "en": "Most Chinese manufacturers accept orders starting from 1-5 tons per specification. For mixed container orders (LCL), the minimum is typically $5,000-$10,000 USD total value. Some suppliers offer smaller trial orders of 500-1000 kg for new customers in African markets.",
-        "zh": "大多数中国制造商接受每个规格1-5吨起订。拼箱订单（LCL）最低总价通常为5,000-10,000美元。一些供应商为非洲市场新客户提供500-1000公斤的试订单。",
-        "es": "La mayoría de los fabricantes chinos aceptan pedidos desde 1-5 toneladas por especificación. Para pedidos en contenedores consolidados (LCL), el mínimo es típicamente $5,000-$10,000 USD. Algunos proveedores ofrecen pedidos de prueba más pequeños de 500-1000 kg para nuevos clientes.",
+        "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
+        "zh": "起订量随供方规模、开机调试成本以及整柜或拼柜方式变化。起订量按生产路线确定。",
+        "es": "La cantidad mínima depende de la ruta de producción.",
         "ar": "يقبل معظم المصنّعين الصينيين طلبات تبدأ من 1-5 أطنان لكل مواصفة. للطلبات المختلطة (LCL)، الحد الأدنى عادة 5,000-10,000 دولار. بعض الموردين يقدمون طلبات تجريبية 500-1000 كجم.",
-        "fr": "La plupart des fabricants chinois acceptent des commandes à partir de 1-5 tonnes par spécification. Pour les conteneurs groupés (LCL), le minimum est typiquement de 5 000 à 10 000 USD.",
-        "pt": "A maioria dos fabricantes chineses aceita pedidos a partir de 1-5 toneladas por especificação. Para contêineres consolidados (LCL), o mínimo é tipicamente 5.000-10.000 USD.",
+        "fr": "La quantité minimale dépend de la route de production.",
+        "pt": "A quantidade mínima segue a rota de produção.",
         "ru": "Большинство китайских производителей принимают заказы от 1-5 тонн на спецификацию. Для сборных контейнеров (LCL) минимум обычно 5000-10000 долларов США.",
-        "ja": "ほとんどの中国メーカーは仕様ごとに1〜5トンからの注文を受け付けます。混載（LCL）の場合、最低でも通常5,000〜10,000米ドルです。",
-        "de": "Die meisten chinesischen Hersteller akzeptieren Bestellungen ab 1-5 Tonnen pro Spezifikation. Für Sammelcontainer (LCL) liegt das Minimum typischerweise bei 5.000-10.000 USD.",
+        "ja": "最小発注量は生産ルートによって決まります。",
+        "de": "Die Mindestbestellmenge richtet sich nach dem Produktionsweg.",
         "hi": "अधिकांश चीनी निर्माता प्रति विशिष्टता 1-5 टन से ऑर्डर स्वीकार करते हैं। मिश्रित कंटेनर (LCL) के लिए न्यूनतम आमतौर पर 5,000-10,000 अमेरिकी डॉलर है।"
       }
     },
@@ -604,14 +604,14 @@
         "hi": "चीन से पूर्वी अफ्रीका तक शिपिंग में कितना समय लगता है?"
       },
       "answer": {
-        "en": "Standard sea freight from major Chinese ports (Shanghai, Ningbo, Shenzhen) to Mombasa takes 25-30 days, to Dar es Salaam 30-35 days, and to Durban 35-45 days. Express air freight is available for urgent orders (5-7 days) but costs 5-8x more than sea freight. Transit time includes customs clearance at the destination port.",
-        "zh": "从中国主要港口（上海、宁波、深圳）到蒙巴萨的标准海运需要25-30天，到达累斯萨拉姆30-35天，到德班35-45天。紧急订单可加急空运（5-7天），但成本是海运的5-8倍。运输时间包括目的港清关。",
-        "es": "El flete marítimo estándar desde los principales puertos chinos a Mombasa toma 25-30 días, a Dar es Salaam 30-35 días, y a Durban 35-45 días. El flete aéreo urgente está disponible para pedidos urgentes (5-7 días) pero cuesta 5-8 veces más.",
+        "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+        "zh": "交期取决于规格是常备标准件还是来图定制、柜型（拼箱或整柜）以及清关进度；急件可走空运，运费相应更高。交期按订单核算。",
+        "es": "El plazo se cotiza por pedido.",
         "ar": "الشحن البحري القياسي من الموانئ الصينية الرئيسية إلى مومباسا 25-30 يوماً، إلى دار السلام 30-35 يوماً، إلى ديربان 35-45 يوماً. الشحن الجوي السريع متاح (5-7 أيام) لكنه يكلف 5-8 أضعاف.",
-        "fr": "Le fret maritime standard des principaux ports chinois vers Mombasa prend 25-30 jours, vers Dar es Salaam 30-35 jours, et vers Durban 35-45 jours.",
+        "fr": "Le délai est établi par commande.",
         "pt": "O frete marítimo padrão dos principais portos chineses para Mombaça leva 25-30 dias, para Dar es Salaam 30-35 dias, e para Durban 35-45 dias.",
-        "ru": "Стандартная морская перевозка из крупных китайских портов в Момбасу занимает 25-30 дней, в Дар-эс-Салам 30-35 дней, в Дурбан 35-45 дней.",
-        "ja": "中国の主要港からモンバサへの標準海運は25〜30日、ダルエスサラーム30〜35日、ダーバン35〜45日です。緊急航空便は5〜7日ですが、5〜8倍のコストがかかります。",
+        "ru": "Срок поставки рассчитывается по заказу.",
+        "ja": "納期はご注文ごとに算出します。",
         "de": "Standard-Seefracht von großen chinesischen Häfen nach Mombasa dauert 25-30 Tage, nach Dar es Salaam 30-35 Tage, und nach Durban 35-45 Tage.",
         "hi": "प्रमुख चीनी बंदरगाहों से मोम्बासा तक मानक समुद्री माल ढुलाई में 25-30 दिन, दार एस सलाम तक 30-35 दिन, और डरबन तक 35-45 दिन लगते हैं।"
       }
@@ -630,16 +630,16 @@
         "hi": "अफ्रीकी खरीदारों के लिए कौन से भुगतान शर्तें स्वीकार की जाती हैं?"
       },
       "answer": {
-        "en": "Common payment terms for African fastener imports: (1) T/T (Telegraphic Transfer) - 30% deposit, 70% balance before shipment, (2) L/C (Letter of Credit) at sight or 30/60/90 days, (3) D/P (Documents against Payment), (4) OA (Open Account) for established customers. New customers typically start with T/T or L/C, with credit terms available after 6-12 months of successful orders.",
-        "zh": "非洲紧固件进口的常见付款方式：(1) T/T（电汇）- 30%定金，发货前付清70%余款，(2) 即期或30/60/90天信用证（L/C），(3) D/P（付款交单），(4) 老客户的OA（赊销）。新客户通常从T/T或L/C开始，成功下单6-12个月后可获得信用条款。",
-        "es": "Términos de pago comunes: (1) T/T - 30% depósito, 70% saldo antes del envío, (2) L/C a la vista o 30/60/90 días, (3) D/P, (4) Cuenta abierta para clientes establecidos.",
-        "ar": "شروط الدفع الشائعة: (1) تحويل مصرفي - 30% عربون، 70% قبل الشحن، (2) خطاب اعتماد، (3) دفع مقابل المستندات، (4) حساب مفتوح للعملاء الدائمين.",
-        "fr": "Termes de paiement courants : (1) Virement - 30% d'acompte, 70% avant expédition, (2) Lettre de crédit, (3) Documents contre paiement, (4) Compte ouvert.",
-        "pt": "Termos comuns: (1) T/T - 30% de depósito, 70% antes do envio, (2) Carta de crédito, (3) Documentos contra pagamento, (4) Conta aberta.",
-        "ru": "Общие условия: (1) Банковский перевод - 30% депозит, 70% перед отгрузкой, (2) Аккредитив, (3) Документы против платежа, (4) Открытый счет.",
-        "ja": "一般的な支払い条件：(1) T/T - 30%の頭金、出荷前に70%、(2) L/C一覧または30/60/90日、(3) D/P、(4) 確立された顧客のオープンアカウント。",
-        "de": "Häufige Zahlungsbedingungen: (1) T/T - 30% Anzahlung, 70% vor Versand, (2) Akkreditiv, (3) Dokumente gegen Zahlung, (4) Offenes Konto.",
-        "hi": "सामान्य भुगतान शर्तें: (1) T/T - 30% जमा, शिपमेंट से पहले 70%, (2) L/C sight या 30/60/90 दिन, (3) D/P, (4) स्थापित ग्राहकों के लिए खुला खाता।"
+        "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit arranged through the buyer's bank. The settlement route, documents and milestones should be agreed up front, and any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
+        "zh": "付款条件取决于订单规模、买方信用记录以及目的国银行要求；投产前要求全款预付的供方应予避开。付款条件按里程碑约定。",
+        "es": "Las condiciones de pago se acuerdan por hitos.",
+        "ar": "تُتفق شروط الدفع حسب المراحل.",
+        "fr": "Les conditions de paiement sont convenues par jalons.",
+        "pt": "As condições de pagamento são acordadas por marcos.",
+        "ru": "Условия оплаты согласуются по этапам.",
+        "ja": "支払条件はマイルストーンごとに合意します。",
+        "de": "Zahlungsbedingungen werden je Meilenstein vereinbart.",
+        "hi": "भुगतान शर्तें माइलस्टोन के अनुसार तय होती हैं।"
       }
     }
   ],
