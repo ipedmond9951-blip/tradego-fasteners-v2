@@ -60,7 +60,7 @@
     {
       "id": "visual-inspection",
       "heading": {
-        "en": "Visual Inspection Checklist",
+        "en": "What surface and marking defects should a visual inspection catch?",
         "es": "Lista de Verificación de Inspección Visual",
         "ar": "قائمة فحص الفحص البصري",
         "fr": "Liste de contrôle pour l'inspection visuelle",
@@ -69,7 +69,7 @@
         "ja": "外観検査チェックリスト",
         "de": "Checkliste zur Sichtprüfung",
         "hi": "दृश्य निरीक्षण चेकलिस्ट",
-        "zh": "外观检查清单"
+        "zh": "外观检验应查出哪些表面与标志缺陷？"
       },
       "body": {
         "en": "<p>Visual inspection is the first line of quality verification:\n\n1. Surface Defects: Check for cracks, seams, laps, or burrs\n2. Head Defects: Verify proper head formation, no flash or fins\n3. Thread Defects: Check for torn threads, stripped threads, or die lines\n4. Coating Quality: Verify uniform coating, no bare spots or peeling\n5. Marking Verification: Confirm grade marking matches specifications\n6. Packaging: Check for proper labeling and moisture protection\n\nUse 10x magnification for detailed thread inspection.</p>\n\n<p>Subscribe to standards update notifications and review specifications annually. The most common standards used in international fastener trade are ISO 898-1 (mechanical properties), ISO 3506-1 (stainless), ISO 3269 (acceptance inspection), ISO 4042 (coatings), and ISO 1502 (thread gauges). For B2B buyers, building a standards reference library with at least the top 20 standards relevant to your product mix is essential.</p><p>Visual inspection is cheap and catches more than buyers expect. Look for laps and seams on the thread flank, cracks at the head-to-shank transition, folds from a badly cut thread, and burrs at the point that prevent the screw from seating. Look for damaged coating at the corners of a head, because that is where a barrel-to-barrel collision shows up. Look for the class marking and the maker's mark, because an unmarked bolt cannot be traced and should be rejected regardless of its appearance.</p>\n<p>Do the visual pass under adequate light, with a defined sample size and a written list of what constitutes a defect versus a cosmetic variation. Without the written list, two inspectors will disagree, and the disagreement becomes a commercial argument. A simple three-tier classification, critical, major and minor, with an acceptance number for each, is enough for most fastener lines and much better than a general instruction to check the goods.</p>",
@@ -114,7 +114,7 @@
     {
       "id": "mechanical-testing",
       "heading": {
-        "en": "Mechanical Testing",
+        "en": "Which hardness, proof-load and embrittlement tests screen imported fasteners?",
         "es": "Ensayos Mecánicos",
         "ar": "الاختبارات الميكانيكية",
         "fr": "Essais mécaniques",
@@ -123,7 +123,7 @@
         "ja": "機械的特性試験",
         "de": "Mechanische Prüfung",
         "hi": "यांत्रिक परीक्षण",
-        "zh": "机械性能测试"
+        "zh": "进口紧固件需做哪些硬度、保证载荷与脆化检测？"
       },
       "body": {
         "en": "<p>Mechanical properties require specialized testing:\n\n1. Hardness Testing: Use Rockwell or Vickers hardness tester\n- Carbon steel: HRC 25-45 typical\n- Case hardened: HRC 58-62 surface\n\n2. Tensile Testing: Break specimen in universal testing machine\n- Proof load test: Applied load without permanent set\n- Ultimate tensile strength: Load at failure\n\n3. Torque Testing: Apply torque to failure or specified torque\n\n4. Impact Testing: Charpy V-notch for ductility\n\nTradeGo provides mill test certificates (EN 10204 3.1) with each shipment confirming mechanical properties. For high-risk applications (load-bearing structural, pressure vessels, mining, marine), add fatigue testing, salt-spray testing (ASTM B117), torque-tension testing, and post-installation inspection. The cost of additional verification is 0.1-0.3% of order value, while undetected quality failures can be 10-100x the order value in damages.</p><p>Mechanical testing proves what the marking claims. Tensile testing on a sample establishes the ultimate load and, with an extensometer, the elongation that distinguishes a ductile bolt from a brittle one. Proof load testing is the more useful routine check for production, since it detects under-strength or badly heat-treated bolts without destroying the sample's usefulness as evidence. Hardness testing on a defined location, usually a third of the radius in from the end, is a fast proxy for strength and is the test most commonly falsified by omission.</p>\n<p>For high-strength fasteners, hydrogen embrittlement deserves a deliberate check rather than an assumption, usually by a sustained load test after plating. For structural bolts, impact or wedge testing reveals the toughness that a tensile test alone will not. The practical rule is to match the test to the failure mode that matters in service, not to run the cheapest test and call the batch approved.</p>",
@@ -259,7 +259,7 @@
             "ja": "試験に先立ち外観検査で捉えるべき欠陥は何ですか？"
           },
           "a": {
-            "en": "Thread damage and laps, cracks at head-to-shank transition, coating blistering or bare patches, and illegible or missing head marks. These are the defects that cause rejection at destination, and they are visible without any instrument.",
+            "en": "Thread damage and laps, cracks at the head-to-shank transition, coating blistering or bare patches, and illegible or missing head marks are the defects visual inspection catches. These cause rejection at destination, and they are visible without any instrument. Check head face, shank and thread root for seams, laps and burrs, and confirm the grade mark matches the spec. Look for bare spots, peeling or rust, and reject deformed heads or stripped threads. Record defect type and sample count, and keep the visual checklist tied to drawing and grade mark before any mechanical test.",
             "zh": "螺纹损伤与叠牙、头杆过渡处裂纹、镀层起泡或漏镀、头部标记模糊或缺失。这些正是到货被拒的原因，而且不需要仪器就能看出来。外观检验要在尺寸和机械测试之前完成：先把表面缺陷挑出，避免带伤样品进入后续测试；抽查时连同包装和随附材质证明一起核对，头部标记与订单等级不符的批次应单独登记退回。",
             "hi": "धागे की क्षति और लैप, सिर-शैंक जोड़ पर दरारें, कोटिंग का बुलबुला या नंगे धब्बे, और सिर के अवैध या गायब निशान। ये ऐसी क्षतियां हैं जो मंज़िल पर अस्वीकृति का कारण बनती हैं, और बिना किसी उपकरण के दिख जाती हैं।",
             "ru": "Повреждения и надрывы резьбы, трещины в переходе головки к стержню, вспучивание или голые пятна покрытия, неразборчивую или отсутствующую маркировку головки. Это дефекты, из-за которых партию забракуют в пункте назначения, и все они видны без приборов.",
@@ -285,7 +285,7 @@
             "ja": "寸法検査はどう正しく行いますか？"
           },
           "a": {
-            "en": "Use go/no-go thread gauges matched to the tolerance class, plus calipers for head diameter, head height, length and thread length against the drawing. Sample per lot and record the readings; a single 'looks fine' is not an inspection.",
+            "en": "Use go/no-go thread gauges matched to the tolerance class, plus calipers for head diameter, head height, length and thread length against the drawing. Sample per lot and record readings; a single 'looks fine' is not an inspection. Measure across-flats and across-corners on hex parts, check washer seat and thread length, and tie readings to the batch record. Recheck dimensions against tolerance class and drawing, and hold out-of-limit parts for review. Record gauge type, sample count and readings on the inspection sheet, and do not release a lot failing the gauges.",
             "zh": "按公差等级配通止规，再用卡尺量头径、头高、长度与螺纹长度并与图纸比对。按批次抽样并记录读数——只写“看着没问题”不算检验。通止规应能通过合格螺纹、挡住超差螺纹；每个抽测件读数记入检验表并留档，关键尺寸超差时复测加倍抽样，仍不合格则整批判退。",
             "hi": "टॉलरेंस क्लास से मिले गो/नो-गो थ्रेड गेज इस्तेमाल करें, और हेड व्यास, हेड ऊंचाई, लंबाई व धागा लंबाई के लिए कैलिपर से ड्राइंग से मिलाएं। हर लॉट से नमूना लें और रीडिंग दर्ज करें; केवल दिखने में ठीक है कह देना निरीक्षण नहीं होता।",
             "ru": "Применяют резьбовые калибры проход-непроход, подобранные к классу допуска, плюс штангенциркуль для диаметра головки, высоты головки, длины и длины резьбы по чертежу. Отбор образцов ведут по партии, показания фиксируют; одного впечатления, что всё в порядке, инспекцией не считается.",
@@ -311,7 +311,7 @@
             "ja": "輸入ロットで最も重要な機械試験は何ですか？"
           },
           "a": {
-            "en": "Hardness first as a cheap screen, then proof load or tensile on samples, wedge test for structural bolts, and hydrogen embrittlement checks for 10.9 and above. Salt spray belongs to coating verification, not to strength assessment.",
+            "en": "Hardness comes first as a cheap screen, then proof load or tensile on samples, wedge test for structural bolts, and hydrogen embrittlement checks for 10.9 and above. Salt spray is coating verification, not strength assessment. Test lot samples to the relevant ISO 898-1 class, recording hardness, proof or tensile result and any wedge or impact finding. High-strength plated parts need embrittlement review, as plating can introduce hydrogen cracking. Tie result to batch or heat number, rejecting or retesting out-of-limit samples. Keep test method and sample basis on the inspection report for the audit.",
             "zh": "先做硬度作为低成本筛查，再做抽样保证载荷或抗拉、结构螺栓楔负载，10.9 及以上加氢脆检查。盐雾试验属于镀层验证，与强度评估是两件事。机械测试须按对应标准取样并保留试样编号，保证载荷或抗拉结果低于等级下限即判不合格；高强度紧固件还应核对热处理记录，确认材料牌号与订单一致后再放行。",
             "hi": "पहले सस्ती जांच के तौर पर हार्डनेस, फिर नमूनों पर प्रूफ लोड या तनाव परख, स्ट्रक्चरल बोल्ट के लिए वेज परख, और 10.9 व उससे ऊपर के लिए हाइड्रोजन भंगुरता जांच। साल्ट स्प्रे कोटिंग सत्यापन का हिस्सा है, ताकत आकलन का नहीं।",
             "ru": "Сначала твёрдость как дешёвый отсев, потом проверка напряжения под нагрузкой или прочность на образцах, клиновые испытания для конструкционных болтов и контроль водородной хрупкости для класса 10.9 и выше. Солевой туман относится к проверке покрытия, а не к оценке прочности.",
