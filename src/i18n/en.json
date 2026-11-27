@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "Leading China Fastener Supplier for Africa",
+    "title": "Fastener Manufacturer in China — SABS 1195 Spec, Ships Worldwide",
     "subtitle": "Quality fasteners from China to Africa — 20+ years specializing in African construction market. SABS 1195 spec IBR nails, roofing screws, and construction fasteners.",
     "cta": "Get a Quote",
     "ctaSecondary": "View Products",
@@ -281,5 +281,27 @@
     "message": "Message",
     "messagePlaceholder": "Standard, material, finish, quantity, destination port",
     "submit": "Send inquiry"
+  },
+  "search": {
+    "title": "Site search",
+    "placeholder": "Search products and articles…",
+    "button": "Search",
+    "resultsFor": "Results for “{q}”",
+    "noResults": "No matching results",
+    "noResultsHint": "Try a different keyword, browse the product categories, or send us your inquiry directly.",
+    "groupProducts": "Products",
+    "groupArticles": "Articles",
+    "hint": "Search product names, specifications and guides in this site.",
+    "browseProducts": "Browse all products"
+  },
+  "lead": {
+    "title": "Get a fast reply on your fastener inquiry",
+    "desc": "Leave your email or WhatsApp number — our sales team will contact you.",
+    "placeholder": "Email or WhatsApp number",
+    "cta": "Request a quote",
+    "note": "WhatsApp numbers are shown in international format. Check before sending.",
+    "success": "Thank you! Our sales team will contact you shortly.",
+    "error": "Please enter a valid email or WhatsApp number.",
+    "close": "Close"
   }
 }
