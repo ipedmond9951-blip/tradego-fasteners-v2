@@ -31,6 +31,7 @@
 | com.tradego.daily-publish                                   | 09:00                        | 队列文章发布（`content/queue`）               | 保留（改由人 / Agent 放队列，不自动写稿）           |
 | com.tradego.ga4-monitor                                     | 900s                         | GA4 异常监控（流量看 GA4，不看 Web Analytics）    | 保留                                  |
 | com.tradego.vercel-alert                                    | 1800s                        | 部署 / 额度告警                             | 保留                                  |
+| com.tradego.lead-alert | 120s | 官网留资分钟级兜底：读生产 runtime logs 抓 `=== NEW INQUIRY ===`，站内 Telegram 已推成功的不重复；同时把线索写本地 `logs/leads-archive.jsonl` 台账、并直连 TradeBrain Postgres `customer_leads`（source=`tradego_website`，`json_id`=lead id 去重） | **新装**（`scripts/lead-instant-alert.py`，`--backfill` 可补历史；内部 QA 线索不入库） |
 | com.tradego.vercel-audit                                    | 21600s                       | 每日合规审计（部署数 / 保留数 / CLI 直推）            | 保留（告警语义正确；08:30 看结果）                |
 | com.tradego.vercel-mail-watch | 600s | push 后盯 120 分钟：Vercel API 判部署状态 + Gmail 读 vercel.com 告警邮件，异常写日志并发 Telegram | **新装**（`scripts/vercel-mail-watch.py`，由 `deploy-flush.sh` 登记；规则见 `docs/VERCEL-OPS.md`） |
 | com.tradego.weekly-audit | 周日 17:00 PST = 周一 09:00 CST | SEO/GEO 周检（GSC / 技术 / 内容 / GEO / 合规 / 预算） | **新装**（只读；规范 `docs/WEEKLY-AUDIT-SPEC.md`，产物 `docs/reports/weekly-<日期>.md`；退出码 0/1/2 = 无问题 / 有 P1 / 有 P0） |

@@ -259,13 +259,105 @@ def archive(leads, state):
     return len(rows)
 
 
+DB_ENV = "/Users/zhangming/Projects/tradebrain-v2/.env"
+PSQL = "/opt/homebrew/bin/psql"
+
+
+def db_url():
+    if os.environ.get("DATABASE_URL"):
+        return os.environ["DATABASE_URL"]
+    try:
+        for line in open(DB_ENV, encoding="utf-8"):
+            if line.startswith("DATABASE_URL="):
+                return line.split("=", 1)[1].strip().strip('"')
+    except Exception:
+        pass
+    return ""
+
+
+def q(v):
+    return "'" + str(v).replace("'", "''") + "'"
+
+
+def is_test_lead(l):
+    """内部自测（QA/自检）不往 CRM 里灌，只留在本地台账。"""
+    blob = " ".join(str(l.get(k, "")) for k in ("Name", "Message", "Email"))
+    return bool(re.search(r"\bQA[:：]|test-alert@|lead-instant-alert 自检", blob))
+
+
+def db_sync(leads, state):
+    """把线索写进 TradeBrain 的 customer_leads（本机直连 Postgres，不走公网隧道）。
+
+    站点 serverless 写不了盘、CRM 隧道也常断，所以落库这一步放在本机定时器里做，
+    以 json_id = lead id 去重，重复跑不会出重复行。
+    """
+    url = db_url()
+    if not url:
+        log("DB 同步跳过：没找到 DATABASE_URL")
+        return 0
+    done = set(state.get("db", []))
+    todo = [l for l in leads if l["id"] not in done and not is_test_lead(l)]
+    if not todo:
+        return 0
+
+    inserted = 0
+    for l in todo:
+        wa = re.sub(r"\D", "", l.get("Phone") or "")
+        email = (l.get("Email") or "").strip()
+        if not wa and not email:
+            continue
+        sql = f"""
+INSERT INTO customer_leads
+  (contact_name, email, phone, whatsapp, country, source, lead_status, lead_stage,
+   lead_score, lead_grade, product_interest, notes, tags, json_id, created_at)
+SELECT {q(l.get('Name') or 'Website lead')}, {q(email)}, {q(l.get('Phone') or '')},
+       {q(wa)}, {q((l.get('Country') or '').replace('Unknown',''))},
+       'tradego_website', 'new', 'identified', {50 if l.get('_high') else 10}, 'C',
+       {q((l.get('Products') or '').replace('lead_modal','') or 'Website lead modal')},
+       {q('TradeGo 官网留资 · ' + ('首页弹框' if (l.get('Products') == 'lead_modal') else '询盘表单')
+          + ' · lead_id=' + l['id'] + ((' · ' + (l.get('Message') or '')[:200]) if l.get('Message') else ''))},
+       ARRAY['website_inquiry','tradego_site'], {q(l['id'])}, now()
+WHERE NOT EXISTS (SELECT 1 FROM customer_leads c WHERE c.json_id = {q(l['id'])})
+RETURNING id;
+"""
+        try:
+            r = subprocess.run([PSQL, url, "-q", "-tAc", sql], capture_output=True, text=True, timeout=30)
+            if r.returncode != 0:
+                log("DB 写入失败 %s: %s" % (l["id"], (r.stderr or "").strip()[:150]))
+                continue
+            if not (r.stdout or "").strip():
+                # NOT EXISTS 挡住了重复，本来就有这行；也算已处理，别每轮重试
+                done.add(l["id"])
+                continue
+            inserted += 1
+            done.add(l["id"])
+        except Exception as e:
+            log("DB 写入异常 %s: %s" % (l["id"], type(e).__name__))
+    if inserted:
+        state["db"] = list(done)[-1000:]
+        save_state(state)
+        log("CRM 落库新增 %d 条（customer_leads）" % inserted)
+    return inserted
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--once", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--bootstrap", action="store_true")
     ap.add_argument("--test", action="store_true")
+    ap.add_argument("--backfill", action="store_true", help="把本地台账里还没入库的线索补进 CRM")
     a = ap.parse_args()
+
+    if a.backfill:
+        state = load_state()
+        try:
+            rows = [json.loads(x) for x in open(ARCHIVE_FILE, encoding="utf-8") if x.strip()]
+        except Exception:
+            rows = []
+        log("补录：台账 %d 条" % len(rows))
+        db_sync(rows, state)
+        return 0
 
     if a.test:
         print("发送结果:", tg_send("✅ lead-instant-alert 自检：通道正常"))
@@ -280,6 +372,7 @@ def main():
     if n_arc:
         save_state(state)
         log("本地台账新增 %d 条 → %s" % (n_arc, ARCHIVE_FILE))
+    db_sync(leads, state)
     sent = set(state.get("sent", []))
     new = [l for l in leads if l["id"] not in sent and not l.get("_inapp")]
     log("inquiry 日志 %d 条 → 线索 %d 条，需补推 %d 条" % (len(recs), len(leads), len(new)))
