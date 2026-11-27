@@ -370,7 +370,7 @@
             "ja": "木構造で丸頭ボルトにワッシャーは必要ですか？"
           },
           "a": {
-            "en": "Yes, washers are essential with carriage bolts in timber construction. Use a flat washer under the nut, and optionally under the head in softwoods, to distribute load and stop the square neck from pulling into the wood. For outdoor African applications, use hot-dip galvanised or stainless washers matched to the bolt finish to avoid galvanic corrosion between dissimilar metals. A spring washer may be added under the nut for vibration resistance, but it does not replace the flat bearing washer.",
+            "en": "Yes, washers are essential with carriage bolts in timber construction. Place a flat washer under the nut, and optionally under the head in softwoods, to distribute the clamping load and stop the square neck from pulling into the wood over time. For outdoor African applications, use hot-dip galvanized or stainless washers matched to the bolt finish so dissimilar metals do not set up galvanic corrosion. A wide timber washer or fence washer gives extra bearing area in softwood; without it, the collar can sink in and loosen the joint as the timber dries and moves.",
             "zh": "是的，在木结构中垫圈对于马车螺栓至关重要。在螺母下使用平垫圈（对于软木也可在头下使用）以分配载荷并防止方形颈部拉入木材。对于非洲户外应用，使用热浸镀锌或不锈钢垫圈以匹配马车螺栓表面处理并防止电偶腐蚀。可以添加弹簧垫圈在螺母下方以提高抗振动能力。",
             "es": "Sí, las arandelas son esenciales con pernos de mostaza en madera. Ponga una arandela plana bajo la tuerca (y opcionalmente bajo la cabeza en maderas blandas) para repartir la carga y evitar que el cuello cuadrado se hunda en la madera. En exteriores africanos, use arandelas galvanizadas en caliente o inoxidables a juego con el acabado para evitar corrosión galvánica. Puede añadir una arandela elástica bajo la tuerca contra vibraciones.",
             "fr": "Oui, les rondelles sont indispensables avec les boulons de carriage dans le bois. Placez une rondelle plate sous l'écrou (et éventuellement sous la tête en bois tendre) pour répartir la charge et empêcher le col carré de s'enfoncer. En extérieur africain, utilisez des rondelles galvanisées à chaud ou inoxydées assorties au fini pour éviter la corrosion galvanique. Une rondelle élastique sous l'écrou limite les vibrations.",
@@ -554,23 +554,23 @@
   "faqItems": [
     {
       "question": "What is the difference between carriage bolts and hex bolts?",
-      "answer": "Carriage bolts (DIN 603) have a round head with a square collar below the head that locks into wood - preventing rotation when nuts are tightened from the opposite side. Hex bolts have a six-sided head and require wrench access from the bolt side. Carriage bolts provide a smooth, finished appearance on one side."
+      "answer": "Carriage bolts to DIN 603 have a round head with a square collar below it that locks into wood and prevents rotation when the nut is tightened from the opposite side. Hex bolts have a six-sided head and need wrench access on the bolt side. Carriage bolts leave a smooth, flush face where the head sits, suiting timber where one side must stay clean, while hex bolts grip with a wrench on both sides. Use carriage bolts for timber and one-sided assembly, and hex bolts for steel frames where head-side access is available."
     },
     {
       "question": "How do I install carriage bolts in wood?",
-      "answer": "Installation steps: 1) Drill a pilot hole slightly larger than the bolt shank; 2) Insert bolt from the smooth-side (visible side); 3) The square collar prevents rotation; 4) Add washer and hex nut from opposite side; 5) Tighten with wrench. For hardwoods, pre-drilling is essential to prevent wood splitting."
+      "answer": "Install carriage bolts in wood in a fixed sequence. First drill a pilot hole slightly larger than the bolt shank, especially in hardwood; second insert the bolt from the smooth, visible side; the square collar then locks against the wood and stops rotation; third add a flat washer and hex nut on the opposite side, and tighten with a wrench. Do not over-tighten into softwood, because the collar can pull through and the joint can compress over time. Match hole diameter to shank so the bolt seats straight, and recheck torque after the wood settles."
     },
     {
       "question": "What are the applications for carriage bolts in African construction?",
-      "answer": "Carriage bolts are ideal for: Timber frame construction - widely used in roof trusses and wooden structures across Africa; Agricultural structures - barns, storage facilities; Playground equipment - smooth head prevents injury; Furniture assembly - clean finished appearance; Bridge decking where one-sided access is common."
+      "answer": "Carriage bolts suit several African construction settings. Timber frame and roof truss work is the main use, where the smooth head keeps the face clean; agricultural buildings, barns, and storage structures rely on the same one-sided fixing; playground equipment benefits from a rounded head that cannot cut skin; furniture and paneling take the clean finished look; and bridge and deck fixings use them where the exposed head must stay unobtrusive. In outdoor service, specify HDG or stainless to match the humidity and coastal exposure, and pair with a matching washer and nut."
     },
     {
       "question": "What is the difference between zinc-plated and hot-dip galvanized carriage bolts?",
-      "answer": "Zinc-plated carriage bolts have 5-15μm electroplated zinc coating - suitable for indoor and dry environments. Hot-dip galvanized (HDG) bolts have 45-85μm zinc coating applied by dipping in molten zinc - essential for outdoor African construction, mining areas, and humid coastal regions. HDG provides 5-10x more corrosion protection."
+      "answer": "Zinc-plated carriage bolts carry an electroplated zinc coat, around 5 to 15 μm, suited to indoor and dry environments. Hot-dip galvanized bolts are dipped in molten zinc to reach a thicker 45 to 85 μm coat and are the usual choice for outdoor construction, mining areas, and humid coastal regions. Electroplated parts are smoother and cheaper to finish but corrode faster outdoors, while HDG parts are rougher but resist atmospheric exposure longer. For African outdoor projects, choose HDG or stainless 316 for high humidity, and record the coating class and minimum thickness on the specification."
     },
     {
       "question": "How do I choose between different lengths of carriage bolts?",
-      "answer": "Choose carriage bolt length by: 1) Material thickness being fastened - bolt should pass through with 2-3 threads extending beyond nut; 2) General rule: minimum 3 threads engagement in nut; 3) For timber, consider wood compression over time; 4) Longer is not always better - excess length reduces shear capacity. Standard lengths available: 20mm to 300mm for DIN 603."
+      "answer": "Choose carriage bolt length from the joint stack rather than a single rule. The bolt should pass through the material with two to three threads extending beyond the nut, and the nut needs at least three full threads in engagement. For timber, allow for wood compression over time, and do not rely on an over-long bolt that leaves protruding threads catching people or trapping moisture. Measure the combined thickness of timber, panels, and any washers, then pick the nearest standard length, and check the head seats without the collar bottoming out in a soft material."
     }
   ],
   "imageAlt": {
