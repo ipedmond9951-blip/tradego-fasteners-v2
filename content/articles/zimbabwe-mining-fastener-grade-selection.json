@@ -233,7 +233,7 @@
             "hi": "जिम्बाब्वे खनन फास्टनर ग्रेड चयन: प्लैटिनम, सोना, क्रोम ऑर्डर के लिए विशिष्ट लीड टाइम क्या है?"
           },
           "a": {
-            "en": "Lead time depends on whether the item is a standard specification or a custom one, on the shipping mode (LCL or FCL), and on customs clearance efficiency; urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
             "ar": "يُحتسب موعد التسليم حسب الطلب.",
             "zh": "井下酸性渗水工况下，先按选型把防护路线定下来：硫化岩氧化产生的酸性水经集水坑、管道法兰与回风道喷淋渗漏，电镀锌在这种环境消耗很快。热浸镀锌用于大气与中等潮湿件，不锈钢 A4-70 用于长期浸水或含氯化物部位，高强件如 8.8、10.9 级按载荷单独选，不能靠提高等级解决腐蚀。交期按订单核算。",
             "es": "El plazo se cotiza por pedido.",
@@ -259,7 +259,7 @@
             "hi": "जिम्बाब्वे खनन फास्टनर ग्रेड चयन: प्लैटिनम, सोना, क्रोम के लिए न्यूनतम ऑर्डर मात्रा (MOQ) क्या है?"
           },
           "a": {
-            "en": "MOQ varies by supplier scale, setup costs and whether the order is consolidated into a full container or shipped as LCL. Minimum order quantity follows the production route.",
+            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
             "ar": "تتبع الكمية الدنيا مسار الإنتاج.",
             "zh": "进场验收要按炉号追溯：材质证明须对应实际炉号、等级与标准，头部标记缺失的件无法核验，应隔离批次。螺纹用通止规抽检每箱样品，镀层厚度逐批测，防止电镀件冒充热浸镀锌。起订量按生产路线确定。",
             "es": "La cantidad mínima depende de la ruta de producción.",
@@ -285,7 +285,7 @@
             "hi": "जिम्बाब्वे खनन फास्टनर ग्रेड चयन: प्लैटिनम, सोना, क्रोम खरीद के लिए विशिष्ट भुगतान शर्तें क्या हैं?"
           },
           "a": {
-            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market; any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
+            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit arranged through the buyer's bank. The settlement route, documents and milestones should be agreed up front, and any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
             "ar": "تُتفق شروط الدفع حسب المراحل.",
             "zh": "区分真实供应商与中间商，重点看能否按批次出镀层检测报告、能否两年后补发某批材质证明，而不是只看报价。这些非洲国家的当地银行常指定即期信用证。拒绝分批结算、要求先付全款的不要合作。付款条件按里程碑约定。",
             "es": "Las condiciones de pago se acuerdan por hitos.",
