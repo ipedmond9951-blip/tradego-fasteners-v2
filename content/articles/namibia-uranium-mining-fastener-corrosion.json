@@ -131,7 +131,7 @@
     },
     {
       "heading": {
-        "en": "Corrosion-Resistant Fastener Materials for Uranium Operations",
+        "en": "Which materials hold up in uranium processing service?",
         "es": "Materiales de Sujetadores Resistentes a la Corrosión para Operaciones de Uranio",
         "ar": "مواد المثبتات المقاومة للتآكل لعمليات اليورانيوم",
         "fr": "Matériaux de Fixations Résistants à la Corrosion pour les Opérations d'Uranium",
@@ -140,7 +140,7 @@
         "ja": "ウラン操業用の腐食耐性ファスナー材料",
         "de": "Korrosionsbeständige Befestigungsmaterialien für Urananlagen",
         "hi": "यूरेनियम संचालन के लिए जंग-रोधी फास्टनर सामग्री",
-        "zh": "铀矿作业用耐腐蚀紧固件材料"
+        "zh": "铀矿作业中哪些材料能保持耐用？"
       },
       "body": {
         "en": "<p>Selecting appropriate fastener materials for uranium processing requires evaluating performance under acidic conditions with chloride presence—a combination that eliminates many standard corrosion-resistant alloys. ASTM A193 Grade B8M Class 2 stainless steel fasteners, specified for nuclear applications, demonstrate superior resistance to intergranular corrosion following exposure to uranium processing chemistries [4]. The molybdenum addition in 316L stainless steel (2-3% Mo content) provides critical protection against chloride-induced pitting that would compromise standard 304 grades within months.</p>\n<p>Coating technologies present viable alternatives where base metal substitution proves cost-prohibitive. Zinc-nickel electroplating achieving 15-25μm thickness provides cathodic protection in mild acid exposure but fails in high-chloride uranium processing environments. For processing plant applications, thermally applied zinc-aluminum-magnesium coatings (trade designations including Magni 565 and Delta Protekt) demonstrate corrosion resistance three times superior to traditional HDG in accelerated salt spray testing (5% NaCl, 1000+ hours to white rust) [2]. Ceramic coating systems using aluminum oxide or titanium nitride overlays provide chemical inertness but require substrate surface preparation to Ra 0.8μm minimum, with surface-preparation costs depending on part geometry and batch volume; no fixed per-unit processing figure is published.</p>\n<p>Nickel-based fasteners using Alloy 625 (UNS N06625) deliver exceptional performance in extreme pH environments from pH 0 to pH 14, with documented service life exceeding 15 years in aggressive chemical processing applications [6]. However, procurement managers must calculate total cost of ownership: Alloy 625 fasteners command 8-12x the price of equivalent 316L stainless steel components, with extended procurement lead times of 12-16 weeks versus 3-4 weeks for stock sizes.</p>\n<p>Titanium Grade 2 fasteners offer another extreme-environment solution with exceptional strength-to-weight ratio and immunity to chloride stress corrosion cracking. At uranium processing temperatures exceeding 85°C, titanium maintains mechanical properties where 316L stainless experiences reduced creep resistance. The trade-off remains procurement cost (4-6x stainless steel pricing) and limited availability in standard mining hardware configurations. For most Namibian uranium applications, procurement managers should specify ASTM A193 B8M Class 2 for critical process piping and tankage, with thermally applied Zn-Al-Mg coatings for structural applications where full alloy substitution proves uneconomical.</p>",
@@ -215,7 +215,7 @@
     },
     {
       "heading": {
-        "en": "Quality Standards for Uranium Mining Fasteners in Namibia",
+        "en": "Which quality standards govern mining fasteners in Namibia?",
         "es": "Estándares de Calidad para Sujetadores de Minería de Uranio en Namibia",
         "ar": "معايير الجودة لمثبتات تعدين اليورانيوم في ناميبيا",
         "fr": "Normes de Qualité pour les Fixations Minières d'Uranium en Namibie",
@@ -224,7 +224,7 @@
         "ja": "ナミビアにおけるウラン採掘ファスナーの品質基準",
         "de": "Qualitätsnormen für Befestigungselemente im namibischen Uranbergbau",
         "hi": "नामीबिया में यूरेनियम खनन फास्टनरों के लिए गुणवत्ता मानक",
-        "zh": "纳米比亚铀矿紧固件质量标准"
+        "zh": "纳米比亚矿业紧固件受哪些质量标准约束？"
       },
       "body": {
         "en": "<p>Compliance with applicable quality standards protects procurement managers from liability exposure while ensuring fastener performance in demanding applications. Namibia's regulatory framework incorporates South African Bureau of Standards (SABS) requirements through the Standards Act, with additional nuclear industry requirements governing uranium operations [2]. SANS 135 (fasteners for structural applications) and SANS 1709 (fasteners for high-temperature applications) establish minimum mechanical property requirements for mining hardware in Southern African Development Community nations. Procurement specifications should require supplier declaration of SABS certification or equivalent third-party verification—self-certification declarations do not satisfy procurement quality assurance requirements for nuclear-linked applications [2].</p>\n<p>An ISO 9001-aligned quality system of fastener manufacturers indicates quality management system effectiveness but does not guarantee product performance in specific applications [6]. Procurement managers must request supplementary documentation including: material heat numbers traceable to mill certificates, batch testing results for hardness and tensile properties, and dimensional verification against drawing specifications. For critical process piping applications, additional ASTM F1470 sampling plans specifying 0.65% Acceptable Quality Level (AQL) provide statistical confidence in lot conformance.</p>\n<p>Nuclear application suitability requires fastener documentation exceeding standard industrial requirements. The International Atomic Energy Agency guidance recommends source traceability to uranium mining fastener documentation including: melt practice certification (argon-oxygen decarburization or similar vacuum processing), radiation dose rate verification for naturally occurring radioactive materials (NORM) content, and chemical composition confirmation for elements potentially activating under neutron exposure [4]. Procurement managers should establish supplier qualification requirements including capability to provide nuclear-grade documentation packages with 30-year retention.</p>\n<p>Material traceability for corrosion-resistant alloys requires particular attention—procurement specifications should mandate actual chemical analysis rather than material grade designation alone. Documented cases exist where 316 stainless steel fasteners failed prematurely due to molybdenum content below specified minimums (actual 1.8% Mo versus required 2.0% minimum), causing crevice corrosion in uranium leaching environments within 8 months of installation [1].</p>",
@@ -298,7 +298,7 @@
             "ja": "ナミビアのウラン鉱山の留め具で腐食が深刻なのはなぜですか？"
           },
           "a": {
-            "en": "Acid leach circuits, chloride-bearing dust and abrasive ore handling attack zinc coatings quickly. A failed fastener in a conveyor or tank anchorage can stop a processing line, so corrosion is a production risk rather than a cosmetic one.",
+            "en": "Corrosion is severe in Namibian uranium service because acid leach circuits, chloride-bearing dust, and abrasive ore handling attack zinc coatings quickly, with coastal saline air on top. A failed fastener in a conveyor frame, support tower, or tank anchorage can stop a processing line, so corrosion here is a production risk rather than a cosmetic one. Zinc plating alone cannot keep up in wet acid areas, and damaged coating edges on cut points become the first rust locations. Check coating condition and thread engagement on leach-zone anchorages, and match replacements to the original material and finish rather than a lower zinc-coated grade.",
             "zh": "纳米比亚铀矿现场腐蚀偏重，源于酸性浸出回路、含氯化物粉尘以及矿石搬运中的磨蚀作用，这些因素会迅速破坏锌镀层。输送机或储罐锚固处的紧固件一旦失效，可能迫使加工线停机，因此这里的腐蚀是生产风险，而不只是外观问题。选材不能只看普通镀锌等级，应按介质酸度、氯化物含量和暴露位置评估耐蚀方案。连接部位还要关注缝隙、沉积和干湿交替环境，定期检查镀层与表面状态，把腐蚀迹象纳入预防性维护，避免断裂后再被动更换。",
             "hi": "एसिड लीच सर्किट, क्लोराइड वाली धूल और अपघर्षक अयस्क हैंडलिंग ज़िंक कोटिंग पर जल्दी हमला करते हैं। कन्वेयर या टैंक एंकरेज में खराब फास्टनर प्रोसेसिंग लाइन रोक सकता है, इसलिए जंग यह सिर्फ दिखावे की समस्या नहीं, उत्पादन जोखिम है।",
             "ru": "Кислотные выщелачивающие контуры, пыль с хлоридами и абразивная руда быстро разрушают цинковые покрытия. Выход из строя крепежа на конвейере или анкерах бака может остановить технологическую линию, поэтому коррозия здесь риск для производства, а не косметический дефект.",
@@ -324,7 +324,7 @@
             "ja": "ウラン処理で耐えられる材料はどれですか？"
           },
           "a": {
-            "en": "316 stainless for wet acid and chloride exposure, duplex 2205 where chloride stress corrosion cracking is a concern, and hot-dip galvanised or zinc-flake carbon steel only in dry, sheltered areas.",
+            "en": "For wet acid and chloride exposure, specify 316 stainless (A4), and move to duplex 2205 where chloride stress corrosion cracking is a concern. Hot-dip galvanised or zinc-flake carbon steel belong only in dry, sheltered areas away from leach circuits and wash-down zones. Stainless grades follow ISO 3506-1, carbon classes ISO 898-1, and surface preparation before coating follows ISO 8501-1. Verify the molybdenum content on 316, because some commercial 316 does not hold the 2-3% Mo range. Keep the same material family across nut, bolt, and washer, since a dissimilar couple accelerates local corrosion.",
             "zh": "耐得住铀矿加工现场的材质按工况区分：潮湿酸性和含氯暴露部位用 316 不锈钢；存在氯化物应力腐蚀开裂风险的部位用双相钢 2205；碳钢热浸镀锌或锌片涂层只适合干燥、有遮挡的区域。选型时核对介质成分、湿度和通风条件，不能把干燥区的镀层方案套用到潮湿回路。不锈钢与碳钢连接注意电偶腐蚀和绝缘隔离；镀层厚度和不锈钢牌号写入规格书，关键设备紧固件按批次留存检验记录，便于现场更换时保持材质一致。",
             "hi": "गीले एसिड व क्लोराइड संपर्क में 316 स्टेनलेस; जहाँ क्लोराइड स्ट्रेस कॉरोशन क्रैकिंग की चिंता हो वहाँ डुप्लेक्स 2205; हॉट-डिप गैल्वनाइज़्ड या ज़िंक-फ्लेक्स कार्बन स्टील केवल सूखी, आश्रय वाली जगहों पर।",
             "ru": "Во влажных средах с кислотой и хлоридами используют нержавеющую сталь 316; там, где вероятно коррозионное растрескивание под напряжением от хлоридов, — дуплексную сталь 2205. Углеродистую сталь горячего цинкования или с цинк-ламельным покрытием применяют только в сухих закрытых зонах.",
@@ -350,7 +350,7 @@
             "ja": "遠隔地向けの供給を調達でどのように確保しますか？"
           },
           "a": {
-            "en": "Qualify two sources, hold critical spares at the mine, and set replenishment triggers by consumption instead of the calendar. Remote Namibian sites can wait weeks for a reorder that was planned too late.",
+            "en": "For remote Namibian sites, qualify two sources where volume allows, hold critical spares at the mine, and set replenishment triggers by measured consumption rather than the calendar. A reorder planned too late can wait weeks through port clearance and inland haulage, leaving a line short of anchorages or conveyor fasteners. Store spares under cover, kept by grade and coating, and rotate stock so it does not age in open dust. Documentation should travel with the batch: certificates traceable to heat numbers, coating thickness records, and inspection certificates the order requires. Cover the maintenance window and the route's demonstrated lead time rather than an assumed schedule.",
             "zh": "偏远矿区保障供应的做法是资格化两个供货来源，在矿上常备关键备件，并按实际消耗设定补货触发点，而不是按固定日历订货。纳米比亚偏远站点若计划过晚，重新订货可能要等待数周。常用规格和易损件按设备台数配比备货，关键机型宁可多备一箱，也好过检修班等件。双来源便于在一方交期受阻时切换；库存台账记录批次和消耗，补货阈值与现场消耗挂钩。包装和标记适应长途运输与仓储，避免备件到货后锈蚀或分拣不清。",
             "hi": "दो स्रोतों को योग्य बनाएँ, खदान पर महत्वपूर्ण स्पेयर रखें, और कैलेंडर की बजाय खपत के हिसाब से पुनःपूर्ति ट्रिगर तय करें। नामीबिया की दूर की साइटों पर देर से योजना बनाए गए पुनः ऑर्डर का इंतज़ार हफ्तों तक लग सकता है।",
             "ru": "Подтвердите две взаимозаменяемые точки поставки, держите критический запас на руднике и задавайте пополнение по фактическому расходу, а не по календарю. Удалённые площадки Намибии могут ждать заказанную партию неделями, если повторный заказ планировали слишком поздно.",
