@@ -139,7 +139,7 @@
     {
       "id": "grade-selection",
       "heading": {
-        "en": "Grade Selection: Matching Nuts to Bolts",
+        "en": "How do you pair a nut's property class with the bolt it serves?",
         "es": "Selección de grado: Emparejar tuercas con tornillos",
         "ar": "تحديد الدرجة: مطابقة الصواميل مع البراغي",
         "fr": "Sélection de la classe : Associer écrous et boulons",
@@ -148,7 +148,7 @@
         "ja": "強度区分の選定：ボルトとナットの適合",
         "de": "Festigkeitsklasse: Abstimmung von Muttern und Schrauben",
         "hi": "ग्रेड चयन: बोल्ट के साथ नट्स का मिलान",
-        "zh": "等级选择：螺母与螺栓的匹配"
+        "zh": "螺母性能等级该如何与所配螺栓对应？"
       },
       "body": {
         "en": "<p>Nut grade is chosen to match the bolt, and the rule is one sentence: the nut must be at least as strong as the bolt it serves, and stronger is waste. In the ISO system a class 8 nut is the normal partner for a class 8.8 bolt, a class 10 nut suits a 10.9 bolt, and a class 12 nut suits a 12.9 bolt. A lower class nut becomes the limiting element: the joint fails by stripping the nut rather than by breaking the bolt, which is a less predictable failure and a worse one in a structure.</p>\n<p>The reason the rule matters is that the two failure modes look identical from outside. A joint that has lost preload may have lost it because the bolt stretched or because the nut stripped, and the remedy is different in each case. Specifying the nut class makes the nut the stronger element by design, so the bolt — the element that was analysed — remains the element that governs. That is a deliberate choice, not a margin left to a supplier.</p>\n<p>Stainless changes the rule because the scale is different. An A2 or A4 nut carries a strength designation that is not comparable with a carbon steel property class, and a stainless assembly is generally designed with more fasteners rather than stronger ones. The pairing that matters in stainless is the grade family: an A4 nut on an A2 bolt does not upgrade the joint, and an A2 nut on an A4 bolt moves the corrosion to the nut through a small galvanic couple.</p>\n<p>Where a nut is used on a stud or a threaded rod rather than on a bolt, the class rule still applies to the rod. And where the nut is the element that will be adjusted in service — an alignment or a leveling application — the thread class and the coating matter more than the property class, because repeated adjustment wears the thread and seizes the joint long before strength becomes the issue.</p>",
@@ -194,7 +194,7 @@
     {
       "id": "surface-finishes",
       "heading": {
-        "en": "Surface Finishes for African Environments",
+        "en": "Which finish suits coastal, humid-interior, and dry-interior service in Africa?",
         "es": "Acabados superficiales para entornos africanos",
         "ar": "التشطيبات السطحية للبيئات الأفريقية",
         "fr": "Finitions de surface pour les environnements africains",
@@ -203,7 +203,7 @@
         "ja": "アフリカの環境に適した表面処理",
         "de": "Oberflächenbehandlungen für afrikanische Umgebungen",
         "hi": "अफ़्रीकी वातावरण के लिए सतही फिनिश",
-        "zh": "面向非洲环境的表面处理"
+        "zh": "沿海、湿润内陆和干燥内陆，非洲环境各选哪种镀层？"
       },
       "body": {
         "en": "<p>African service environments divide into three corrosion bands, and the coating should be chosen per band rather than per project. The coastal band, within reach of salt spray, requires hot-dip galvanising, zinc flake or stainless; the humid interior band, with a long wet season and high overnight humidity, requires at minimum a functional zinc or zinc flake coating with a stated thickness; the dry interior band tolerates a thinner coating, but only if the store is actually dry. A single coating specified for the whole country will be over-specified in one place and under-specified in another.</p>\n<p>The coating class must be stated as a process with a thickness range, because a product name is not a specification. \"Galvanised\" can mean a hot-dip coating measured in tens of micrometres or an electroplated one measured in single digits, and the two behave completely differently in a coastal yard. A buyer who accepts the word without the thickness has accepted whatever the supplier's default is, and the default is usually the cheapest option that passes a visual check.</p>\n<p>Coating interacts with the thread fit, and that is where assembly problems begin. Hot-dip galvanising thickens the thread, which is why galvanised nuts are often supplied with an oversized thread or are tapped after coating; a nut that is correct in the dry state will not run onto a galvanised bolt. Specifying the pair — bolt coating class and nut thread class together — is what prevents the situation where every part is compliant and nothing assembles.</p>\n<p>Where dissimilar metals meet, the coating decision extends to the whole assembly. A galvanised nut on a stainless bolt, or a stainless nut on a plain steel bolt, creates a couple that concentrates at the thread, the least accessible place to inspect. Matching the material across the joint, or isolating where matching is impossible, costs little at specification and saves the joint that would otherwise fail at the thread rather than at the surface.</p>",
@@ -274,7 +274,7 @@
             "ja": "ナットをボルトと合わせる要点は何ですか？"
           },
           "a": {
-            "en": "Match property class to the bolt: an 8.8 bolt takes a class 8 nut, a 10.9 bolt takes class 10. A weaker nut strips first and destroys the joint. Also confirm thread tolerance (6H nut on 6g bolt) so the pair assembles without excessive play.",
+            "en": "Match the property class to the bolt: the nut must be at least as strong as the bolt it serves, and stronger is waste. Under ISO, a class 8 nut partners a class 8.8 bolt, a class 10 nut suits a 10.9 bolt, and a class 12 nut suits a 12.9 bolt. A lower-class nut becomes the limiting element, and the joint fails by stripping the nut rather than breaking the bolt. Also confirm thread tolerance, a 6H nut on a 6g bolt, so the pair assembles without play or binding.",
             "zh": "按性能等级配对：8.8 螺栓配 8 级螺母，10.9 螺栓配 10 级。螺母弱于螺栓会先滑扣、毁掉整个接头。同时确认螺纹公差（6H 螺母配 6g 螺栓），避免配合过松。选配时螺母承载能力不低于螺栓等级，受拉节点还要核对螺母保证载荷；螺纹配合公差过松会降低啮合扣数，装配后检查旋合是否顺畅、有无旷量。等级和公差都写进订单，避免用低等级螺母配高强度螺栓。",
             "hi": "प्रॉपर्टी क्लास बोल्ट से मिलाएं: 8.8 बोल्ट में क्लास 8 नट, 10.9 बोल्ट में क्लास 10 नट। कमज़ोर नट पहले घिसकर जोड़ खराब कर देता है। धागा सहनशीलता भी पक्की करें—6g बोल्ट पर 6H नट—ताकि जोड़ ज़्यादा खेल के बिना लगे।",
             "ru": "Класс совпадает с болтом: болту 8.8 нужна гайка класса 8, болту 10.9 — класса 10. Слабая гайка сорвётся первой и разрушит соединение, даже если болт ещё держит. Проверьте и допуск резьбы: гайка 6H на болте 6g собирается без излишнего люфта и без перетяжки посадочных поверхностей.",
@@ -300,7 +300,7 @@
             "ja": "ナットの高さはどう選びますか？"
           },
           "a": {
-            "en": "Thin nuts are only for jam nuts and low-load locking, not for primary connections. Heavy hex nuts (ASTM A563 style) suit structural bolting where the nut must develop the full bolt strength. Standard hex nuts cover general machinery and construction.",
+            "en": "Thin nuts are only for jam nuts and low-load locking, not for primary connections; on a main joint they cannot carry the full clamp load. Heavy hex nuts, ASTM A563 style, suit structural bolting where the nut must develop the bolt's full strength and the bearing area matters. Standard hex nuts cover general machinery and construction assembly. When ordering, state the nut style, property class, thread tolerance, and finish alongside the bolt, because a thin nut substituted into a structural joint is not caught by a visual check of the carton.",
             "zh": "薄螺母只用于锁紧副螺母和低载荷防松，不能做主连接。加厚六角螺母（ASTM A563 型）用于结构螺栓连接，要能发挥螺栓全部强度。标准六角螺母适合一般机械与建筑。主连接节点按螺栓强度选对应厚度的螺母，受剪或受拉结构件优先重型螺母；薄螺母只能在双螺母防松中作锁紧件使用。订货时注明螺母型式、等级和厚度要求，避免用薄螺母替代结构螺母。",
             "hi": "पतले नट केवल जैम नट और कम भार वाली लॉकिंग के लिए हैं, मुख्य कनेक्शन में नहीं। भारी हेक्स नट (ASTM A563 शैली) स्ट्रक्चरल बोल्टिंग में चलते हैं, जहां नट को बोल्ट की पूरी ताकत विकसित करनी हो। साधारण हेक्स नट सामान्य मशीनरी और निर्माण के लिए हैं।",
             "ru": "Тонкие гайки идут только как контргайки и для низконагруженной фиксации, не для основных соединений. Тяжёлые шестигранные гайки (тип ASTM A563) подходят для монтажного болтового узла, где гайка должна реализовать полную прочность болта. Обычные шестигранные гайки закрывают общее машиностроение и рядовое строительство без повышенных требований к узлу.",
@@ -326,7 +326,7 @@
             "ja": "緩み止めナットにはどんな種類がありますか？"
           },
           "a": {
-            "en": "Hot-dip galvanized for outdoor and coastal, with nuts tapped oversize after galvanizing so they still fit. Zinc-flake coating for 10.9 assemblies to avoid embrittlement. Stainless for marine and chemical. Electro-zinc is only for dry interior work.",
+            "en": "African service divides into three corrosion bands, and the finish is chosen per band. The coastal band, within reach of salt spray, requires hot-dip galvanising, zinc flake, or stainless; galvanised nuts are tapped oversize after galvanizing so they still fit. The humid interior band, with a long wet season and high humidity, needs at minimum a functional zinc or zinc flake coating with stated thickness; zinc flake also serves 10.9 assemblies to avoid hydrogen embrittlement. The dry interior band tolerates a thinner coating, and electro-zinc is reserved for dry interior work.",
             "zh": "室外与沿海用热浸镀锌，螺母在镀后攻丝（加大公差）才能装配。10.9 组合用锌铝涂层避免氢脆。海洋与化工用不锈钢。电镀锌只适合室内干燥。表面处理按使用环境选：干燥室内电镀锌即可，外露和沿海选热浸镀锌或厚锌层，高强度件避开易致氢脆的镀层工艺；镀层后螺母需复测螺纹适配性，不锈钢件与碳钢件分开存放，防止表面污染和电偶腐蚀。",
             "hi": "बाहरी और तटीय काम के लिए हॉट-डिप गैल्वनाइज़्ड; गैल्वनाइज़िंग के बाद नट को ओवरसाइज़ टैप करें ताकि फिट रहे। 10.9 असेंबली में भंगुरता बचाने के लिए ज़िंक-फ्लेक कोटिंग लें। समुद्री और रासायनिक काम में स्टेनलेस, इलेक्ट्रो-ज़िन्क केवल शुष्क अंदरूनी काम के लिए।",
             "ru": "На открытом воздухе и у побережья — горячее цинкование, гайки после цинкования нарезают с увеличенным размером, чтобы они садились на резьбу. Для сборок 10.9 используют цинк-ламельное покрытие против водородного охрупчивания. Для морских и химических сред берут нержавейку. Электроцинк годится только для сухих внутренних работ.",
