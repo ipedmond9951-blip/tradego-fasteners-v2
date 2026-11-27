@@ -246,15 +246,15 @@
             "ja": "大口ファスナー注文の最小発注数量（MOQ）はどのくらいですか？"
           },
           "a": {
-            "en": "Typical MOQ ranges from 100-500 kg per size, with total order of 1-5 tons for mixed product orders. Some manufacturers accept smaller MOQ for standard sizes with price premiums. Custom specifications typically require higher MOQ.",
-            "zh": "典型为每规格 100–500 kg，混装订单总量 1–5 吨；标准规格有些厂家接受更小起订但加价；非标规格起订量更高。下单前先把需要的规格、材质、等级和表面处理列成清单，通用标准件容易凑到批量，定制件因模具和排产要求起订量更高。起订量会随当期产能和包装方案变化，过小批量通常有单价上浮，具体数量按供应商确认的订单方案执行。",
+            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
+            "zh": "标准规格有些厂家接受更小起订但加价。非标规格起订量更高。下单前先把需要的规格、材质、等级和表面处理列成清单，通用标准件容易凑到批量，定制件因模具和排产要求起订量更高。起订量会随当期产能和包装方案变化，过小批量通常有单价上浮，具体数量按供应商确认的订单方案执行。起订量按生产路线确定。",
             "hi": "आम तौर पर हर साइज़ की न्यूनतम मात्रा 100–500 किलोग्राम होती है, मिश्रित उत्पादों के ऑर्डर में कुल 1–5 टन तक की माँग होती है। मानक साइज़ के लिए कुछ निर्माता छोटी मात्रा भी लेते हैं, जिस पर कीमत अधिक होती है; कस्टम स्पेसिफिकेशन के लिए न्यूनतम मात्रा ज़्यादा रहती है।",
             "ru": "Обычно минимальный заказ составляет 100–500 кг на один размер, а смешанный заказ — 1–5 тонн; по стандартным размерам некоторые производители принимают меньший объём с надбавкой в цене. По нестандартным спецификациям минимальный заказ обычно выше.",
             "ar": "يتراوح الحد الأدنى النموذجي للطلب من 100–500 كجم لكل مقاس، وبإجمالي طلب 1–5 أطنان للطلبات المختلطة المنتجات. وقد تقبل بعض المصانع حدًا أدنى أصغر للمقاسات القياسية مع علاوة سعرية، وعادة ما تتطلب المواصفات الخاصة حدًا أدنى أعلى.",
-            "es": "El MOQ típico va de 100 a 500 kg por medida, con un pedido total de 1 a 5 toneladas en pedidos mezclados de varios productos. Algunos fabricantes aceptan MOQ menor en medidas estándar, con recargo de precio. Las especificaciones a medida suelen requerir un MOQ más alto. La cantidad final depende de la referencia y del tipo de pedido.",
-            "pt": "O MOQ típico varia de 100 a 500 kg por medida, com pedido total de 1 a 5 toneladas para pedidos mistos de produtos. Alguns fabricantes aceitam MOQ menor em medidas padrão, com prêmio de preço. Especificações personalizadas costumam exigir MOQ mais alto. Para projetos grandes, o contêiner cheio dá o melhor preço unitário, e o sortimento pode ser organizado por tipo e bitola.",
-            "fr": "La MOQ typique va de 100 à 500 kg par taille, avec une commande totale de 1 à 5 tonnes pour les commandes mélangées. Certains fabricants acceptent une MOQ plus faible pour les tailles standard, avec un supplément de prix. Les spécifications sur mesure exigent généralement une MOQ plus élevée. La quantité se discute selon le produit et le volume annuel prévu.",
-            "de": "Übliche MOQ liegen bei 100–500 kg pro Größe, bei gemischten Artikeln insgesamt 1–5 Tonnen. Manche Hersteller akzeptieren für Standardgrößen eine kleinere MOQ mit Preisaufschlag. Kundenspezifische Spezifikationen erfordern in der Regel eine höhere Mindestmenge.",
+            "es": "La cantidad mínima depende de la ruta de producción.",
+            "pt": "A quantidade mínima segue a rota de produção.",
+            "fr": "La quantité minimale dépend de la route de production.",
+            "de": "Die Mindestbestellmenge richtet sich nach dem Produktionsweg.",
             "ja": "標準ではサイズごとに重量ベースの最小数量があり、複数品目を混ぜた注文では合計の重量幅が設定されます。標準サイズでは小さめの数量を受ける場合もありますが、特注仕様ではより大きな数量が要ります。品番ごとの数量と混載条件を仕様とあわせて確認してください。"
           }
         },
@@ -298,14 +298,14 @@
             "ja": "出荷元からのファスナー注文の標準納期はどのくらいですか？"
           },
           "a": {
-            "en": "Production takes 15-30 days depending on order size and complexity. Sea freight to African ports adds 20-35 days depending on destination. Total lead time: 5-10 weeks from order confirmation to port arrival.",
-            "zh": "生产 15–30 天（视订单量与复杂度），海运到非洲港口另加 20–35 天，从确认订单到到港共 5–10 周。排产周期受规格数量、是否定制和当期订单饱和程度影响；海运时间还要看目的港和船期。下单前把生产、订舱、清关和内陆转运的缓冲一并计入，项目急用的规格可先排产先发，避免整批等待影响现场进度，具体交期以订单确认后排产表为准。",
+            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "zh": "排产周期受规格数量、是否定制和当期订单饱和程度影响。海运时间还要看目的港和船期。下单前把生产、订舱、清关和内陆转运的缓冲一并计入，项目急用的规格可先排产先发，避免整批等待影响现场进度，具体交期以订单确认后排产表为准。交期按订单核算。",
             "hi": "उत्पादन में ऑर्डर के आकार और जटिलता के हिसाब से 15–30 दिन लगते हैं। अफ़्रीकी बंदरगाहों तक समुद्री माल ढुलाई में गंतव्य के अनुसार 20–35 दिन और जुड़ते हैं; ऑर्डर पक्का होने से बंदरगाह पर पहुँचने तक कुल अवधि 5–10 सप्ताह होती है।",
-            "ru": "Производство занимает 15–30 дней в зависимости от объёма и сложности заказа; морская перевозка до портов Африки добавляет 20–35 дней по направлению. Общий срок от подтверждения заказа до прибытия в порт — 5–10 недель.",
+            "ru": "Срок поставки рассчитывается по заказу.",
             "ar": "يستغرق الإنتاج 15–30 يومًا حسب حجم الطلب وتعقيده، ويضيف الشحن البحري إلى الموانئ الأفريقية 20–35 يومًا حسب الوجهة. ويكون الزمن الكامل من تأكيد الطلب إلى وصول الميناء 5–10 أسابيع.",
-            "es": "La producción tarda de 15 a 30 días según el tamaño y la complejidad del pedido. El flete marítimo a puertos africanos suma de 20 a 35 días según el destino. El plazo total es de 5 a 10 semanas desde la confirmación del pedido hasta la llegada al puerto. La producción se cierra primero y el tramo marítimo y de puerto completa el calendario.",
+            "es": "El plazo se cotiza por pedido.",
             "pt": "A produção leva de 15 a 30 dias, conforme tamanho e complexidade do pedido. O frete marítimo aos portos africanos acrescenta de 20 a 35 dias, conforme o destino. O prazo total fica de 5 a 10 semanas da confirmação do pedido até a chegada ao porto. Devem-se somar ainda desembaraço e transporte interno, e o pedido deve ser antecipado em relação à data da obra.",
-            "fr": "La production prend 15 à 30 jours selon la taille et la complexité de la commande. Le fret maritime vers les ports africains ajoute 20 à 35 jours selon la destination. Le délai total est de 5 à 10 semaines entre la confirmation de commande et l'arrivée au port. La production d'abord, puis le transport : calagez le planning du projet sur ces deux paliers.",
+            "fr": "Le délai est établi par commande.",
             "de": "Die Fertigung dauert je nach Bestellgröße und Komplexität 15–30 Tage. Die Seefracht zu afrikanischen Häfen addiert je Zielort 20–35 Tage. Insgesamt liegt die Lieferzeit von Auftragsbestätigung bis Hafenankunft bei 5–10 Wochen.",
             "ja": "生産は注文の大きさと複雑さに応じた期間を要し、アフリカ港までの海上輸送が仕向地による日数を加えます。発注確認から港到着までの総期間を両者で見積もり、工事日程に間に合うよう逆算してください。現地で入手しやすい標準品を基本に、特注品は用途を絞って選びます。"
           }
@@ -324,15 +324,15 @@
             "ja": "FOBとCIFの価格はどう違い、標準的な支払条件は何ですか？"
           },
           "a": {
-            "en": "FOB (Free on Board) price includes the product cost and packaging and excludes freight, insurance and port handling. CIF price includes cost, insurance and freight to your destination port. Common terms: 30% deposit, 70% balance against copy of Bill of Lading (TT). For established relationships, some suppliers offer open account or letter of credit (L/C) terms. New customers typically pay 100% upfront or 30/70.",
-            "zh": "FOB 含产品成本与包装，不含运费、保险和港口操作费；CIF 含到目的港的成本、保险与运费。常用付款：30% 定金、70% 见提单副本电汇（TT）；长期合作可谈赊账或信用证，新客户多为全款预付或 30/70。两种术语下买方承担的风险和费用分界不同，报价比对时要折算到同一口径再比较；付款方式应在合同中写明定金比例、尾款节点和所需单证，新客户优先选择对双方风险都较清晰的比例付款安排。",
-            "hi": "FOB में उत्पाद की कीमत व पैकिंग शामिल होती है, माल ढुलाई, बीमा और बंदरगाह हैंडलिंग अलग रहती है; CIF में गंतव्य बंदरगाह तक लागत, बीमा और भाड़ा शामिल होता है। आम शर्त 30% डिपॉजिट और बिल ऑफ़ लेडिंग की कॉपी पर 70% शेष भुगतान (TT) है; पुराने संबंधों में ओपन अकाउंट या L/C शर्त भी मिल सकती है, नए ग्राहक आम तौर पर 30/70 या अग्रिम भुगतान करते हैं।",
-            "ru": "Цена FOB (Free on Board) включает стоимость товара и упаковку, но не фрахт, страховку и портовую переработку; цена CIF включает стоимость, страховку и фрахт до порта назначения. Обычные условия: предоплата 30%, остаток 70% против копии коносамента по TT; для установленных отношений возможны открытый счёт или аккредитив (L/C), новые клиенты обычно платят 100% предоплатой либо по схеме 30/70.",
-            "ar": "يشمل سعر FOB تكلفة المنتج والتعبئة ويستبعد الشحن والتأمين ومناولة الميناء، بينما يشمل سعر CIF التكلفة والتأمين والشحن إلى ميناء الوجهة. ومن الشروط الشائعة دفعة مقدمة 30% ورصيد 70% مقابل نسخة سند الشحن T/T. وللعلاقات الراسخة، يعرض بعض الموردين حسابًا مفتوحًا أو اعتمادًا مستنديًا L/C، وعادة يدفع العملاء الجدد كامل المبلغ مقدمًا أو بنسبة 30/70.",
-            "es": "El precio FOB (libre a bordo) incluye el producto y el embalaje, pero excluye flete, seguro y manipulación portuaria. El precio CIF incluye coste, seguro y flete hasta su puerto de destino. Las condiciones comunes son: 30% de depósito y 70% de saldo contra copia del conocimiento de embarque (T/T). En relaciones consolidadas se ofrece cuenta abierta o L/C; los clientes nuevos suelen pagar por adelantado o en 30/70.",
-            "pt": "O preço FOB, Free on Board, inclui custo do produto e embalagem, e exclui frete, seguro e manuseio portuário. O preço CIF inclui custo, seguro e frete até o porto de destino. As condições comuns: depósito de 30%, saldo de 70% contra cópia do conhecimento de embarque, T/T. Em relações estabelecidas, alguns fornecedores oferecem conta aberta ou L/C; clientes novos costumam pagar 30/70.",
-            "fr": "Le prix FOB (franco à bord) inclut le coût produit et l'emballage, mais exclut fret, assurance et manutention portuaire. Le prix CIF inclut coût, assurance et fret jusqu'à votre port de destination. Termes courants : 30 % d'acompte, 70 % de solde sur présentation du connaissement (virement). Pour les relations établies, certains fournisseurs proposent compte ouvert ou L/C. Les nouveaux clients règlent généralement 100 % d'avance ou en 30/70.",
-            "de": "Der FOB-Preis (Frei an Bord) umfasst Produktkosten und Verpackung, aber nicht Fracht, Versicherung und Hafenumschlag. Der CIF-Preis schließt Kosten, Versicherung und Fracht bis zu Ihrem Zielhafen ein. Üblich ist eine 30%-Anzahlung und 70% Restzahlung gegen Frachtkopie per T/T. Bei eingespielten Beziehungen bieten manche Lieferanten Open Account oder Akkreditiv an. Neukunden zahlen meist vollständig im Voraus oder 30/70.",
+            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit arranged through the buyer's bank. The settlement route, documents and milestones should be agreed up front, and any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
+            "zh": "FOB 含产品成本与包装，不含运费、保险和港口操作费。CIF 含到目的港的成本、保险与运费。长期合作可谈赊账或信用证。两种术语下买方承担的风险和费用分界不同，报价比对时要折算到同一口径再比较。付款方式应在合同中写明定金比例、尾款节点和所需单证，新客户优先选择对双方风险都较清晰的比例付款安排。付款条件按里程碑约定。",
+            "hi": "भुगतान शर्तें माइलस्टोन के अनुसार तय होती हैं।",
+            "ru": "Условия оплаты согласуются по этапам.",
+            "ar": "تُتفق شروط الدفع حسب المراحل.",
+            "es": "Las condiciones de pago se acuerdan por hitos.",
+            "pt": "As condições de pagamento são acordadas por marcos.",
+            "fr": "Les conditions de paiement sont convenues par jalons.",
+            "de": "Zahlungsbedingungen werden je Meilenstein vereinbart.",
             "ja": "FOB価格には製品コストと包装が含まれ、運賃、保険、港湾荷役は含まれません。CIF価格は仕向港までのコスト、保険、運賃を含みます。支払いは頭金と船荷証券写しに対する残額の流れが一般的で、関係のできた供給元では信用状などの条件もあります。新しい取引先の条件は書面で確認してください。"
           }
         }
