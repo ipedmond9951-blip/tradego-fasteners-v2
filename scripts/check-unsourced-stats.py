@@ -21,6 +21,13 @@ SOURCE = re.compile(
     r'(according to|per\s|reported by|data from|source:|据|统计|报告|世界银行|World Bank|AfDB|African Development|IMF|ISO\s?\d|DIN\s?\d|ASTM|EN\s?\d|JIS|GB/T?)',
     re.I)
 CTX = re.compile(r'(MPa|HV|µm|um\b|mm\b|TPI|°C|HRC|kN|Nm|N·m|grade|class|property class)', re.I)
+# 运营事实：航线/清关时效与整柜载重属可现场核对的作业量，不是市场统计（见 CONTENT-CONTRACT 254/260）
+OPS = re.compile(r'(\b\d+[-–]\d+\s?(days|hours)\b|\btransit\b|\bteu\b|\b\d+\s?(tonnes|tons)\s?(net|gross|per container)?|24 tonnes)', re.I)
+# 法定项：关税/增值税/附加税/保险费率由税则与税法直接规定，正文只要锚定到法规即可（见 260）
+STATUTE_RATE = re.compile(r'^(\d+(\.\d+)?%|\d+(\.\d+)?\s?%|110%|100%)$')
+STATUTE_ANCHOR = re.compile(
+    r'(tariff notice|customs (and excise )?(tariff|act)|value added tax act|c[oó]digo do iva|pauta aduaneira|'
+    r'finance act|statutory instrument|GRA|ICUMS|ZIMRA|ZIDA|HS\s?\d{4}|chapter \d+|act \d{3,4})', re.I)
 SENT = re.compile(r'(?<=[.!?。！？])\s?')
 
 
@@ -30,28 +37,43 @@ def field_text(v):
 
 def audit(path, locale):
     d = json.load(open(path))
-    hits, total = [], 0
+    hits, total, ops, stat_ok, para_ok = [], 0, 0, 0, 0
     for si, s in enumerate(d.get('sections') or []):
         body = field_text((s.get('body') or {}).get(locale))
         if not body:
             continue
-        plain = TAG.sub(' ', body)
-        sents = SENT.split(plain)
-        for i, sent in enumerate(sents):
-            sent = sent.strip()
-            if not sent:
-                continue
-            for m in STAT.finditer(sent):
-                # 工程参数语境（标准限值/尺寸）不算统计数字
-                if CTX.search(sent):
+        sec_anchor = bool(STATUTE_ANCHOR.search(TAG.sub(' ', body)))
+        # 段落级归属：同一段里出现过来源线索，整段数字视为有归属（表格式引用不逐句重复）
+        paras = [p for p in re.split(r'(?<=</p>)', body) if p.strip()]
+        for pi, para in enumerate(paras):
+            para_plain = TAG.sub(' ', para)
+            para_has_src = bool(SOURCE.search(para_plain))
+            sents = SENT.split(para_plain)
+            for i, sent in enumerate(sents):
+                sent = sent.strip()
+                if not sent:
                     continue
-                total += 1
-                ctx = sent + ' ' + (sents[i - 1] if i else '')
-                if not SOURCE.search(ctx):
-                    hits.append({'section': si, 'stat': m.group(0).strip(), 'sentence': sent[:160]})
+                for m in STAT.finditer(sent):
+                    if CTX.search(sent):
+                        continue
+                    total += 1
+                    tok = m.group(0).strip()
+                    if OPS.search(sent):
+                        ops += 1
+                        continue
+                    ctx = sent + ' ' + (sents[i - 1] if i else '')
+                    if SOURCE.search(ctx) or para_has_src:
+                        if para_has_src and not SOURCE.search(ctx):
+                            para_ok += 1
+                        continue
+                    if sec_anchor and STATUTE_RATE.match(tok.replace(' ', '')):
+                        stat_ok += 1
+                        continue
+                    hits.append({'section': si, 'stat': tok, 'sentence': sent[:160]})
     ds = d.get('dataSource') or []
     has_src = bool(ds)
-    return {'slug': d['slug'], 'stats': total, 'unsourced': len(hits), 'hasDataSource': has_src, 'items': hits}
+    return {'slug': d['slug'], 'stats': total, 'unsourced': len(hits), 'ops': ops,
+            'statutory': stat_ok, 'para_sourced': para_ok, 'hasDataSource': has_src, 'items': hits}
 
 
 def main():
@@ -74,8 +96,11 @@ def main():
                           'unsourced': tot_u, 'articles_with_unsourced': art_u, 'items': rows},
                          ensure_ascii=False, indent=1))
         return
-    print('%s：%d 篇有统计数字，共 %d 处；其中 %d 处无来源（涉及 %d 篇）'
-          % (args.locale, len(rows), tot_s, tot_u, art_u))
+    print('%s：%d 篇有统计数字，共 %d 处；无来源 %d 处（涉及 %d 篇）；'
+          '运作事实 %d 处、法定费率 %d 处、段落已归属 %d 处另计'
+          % (args.locale, len(rows), tot_s, tot_u, art_u,
+             sum(r.get('ops', 0) for r in rows), sum(r.get('statutory', 0) for r in rows),
+             sum(r.get('para_sourced', 0) for r in rows)))
     for r in rows[:args.top]:
         print('  %3d 处无源 / %3d 处   %s' % (r['unsourced'], r['stats'], r['slug']))
         for it in r['items'][:1]:
