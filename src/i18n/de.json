@@ -268,5 +268,27 @@
     "message": "Nachricht",
     "messagePlaceholder": "Norm, Werkstoff, Oberfläche, Menge, Bestimmungshafen",
     "submit": "Anfrage senden"
+  },
+  "search": {
+    "title": "Suche",
+    "placeholder": "Produkte und Artikel suchen…",
+    "button": "Suchen",
+    "resultsFor": "Ergebnisse für „{q}“",
+    "noResults": "Keine passenden Ergebnisse",
+    "noResultsHint": "Versuchen Sie ein anderes Stichwort, sehen Sie die Produktkategorien durch oder senden Sie uns direkt Ihre Anfrage.",
+    "groupProducts": "Produkte",
+    "groupArticles": "Artikel",
+    "hint": "Sucht Produktnamen, Spezifikationen und Anleitungen auf dieser Seite.",
+    "browseProducts": "Alle Produkte ansehen"
+  },
+  "lead": {
+    "title": "Schnelle Antwort auf Ihre Verbindungselement-Anfrage",
+    "desc": "Hinterlassen Sie Ihre E-Mail oder WhatsApp-Nummer — unser Vertriebsteam meldet sich.",
+    "placeholder": "E-Mail oder WhatsApp-Nummer",
+    "cta": "Angebot anfragen",
+    "note": "Die WhatsApp-Nummer wird im internationalen Format angezeigt. Bitte vor dem Senden prüfen.",
+    "success": "Danke! Unser Vertriebsteam meldet sich in Kürze bei Ihnen.",
+    "error": "Bitte eine gültige E-Mail oder WhatsApp-Nummer eingeben.",
+    "close": "Schließen"
   }
 }
