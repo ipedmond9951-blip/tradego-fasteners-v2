@@ -60,7 +60,7 @@
     {
       "id": "full-vs-half",
       "heading": {
-        "en": "Full Thread vs Half Thread Hex Bolts: When to Use Each",
+        "en": "When should a full-thread or half-thread hex bolt be chosen?",
         "es": "Pernos Hexagonales de Rosca Completa vs Media Rosca: Cuándo Usar Cada Uno",
         "ar": "براغي سداسية بسن كامل مقابل نصف سن: متى تستخدم كل منها",
         "fr": "Boulons Hexagonaux à Filetage Complet vs Demi-Filetage : Quand Utiliser Chaque Type",
@@ -69,7 +69,7 @@
         "ja": "全ねじvs半ねじ六角ボルト：それぞれの使用タイミング",
         "de": "Vollgewinde- vs. Teilgewinde-Sechskantschrauben: Wann welche verwendet werden",
         "hi": "पूर्ण थ्रेड बनाम आधा थ्रेड हेक्स बोल्ट: प्रत्येक का उपयोग कब करें",
-        "zh": "全螺纹与半螺纹六角螺栓选用"
+        "zh": "全螺纹与半螺纹六角螺栓应如何选用？"
       },
       "body": {
         "en": "<p>Choose full thread <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">hex bolts</a> when: the bolt passes completely through the base material and engages a nut on the far side, when maximum clamping force is needed along the full bolt length, or when thebase material thickness varies (full thread adapts to any thickness). Choose half thread <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">hex bolts</a> when: the bolt engages a tapped hole in the base material itself (not a nut), when shear strength of the unthreaded shank is needed (higher than thread shear), or when the connection is primarily in single shear and the thread would be in the shear plane.</p>\n<p>Long <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">hex bolts</a> with extended full thread are available for applications requiring deep engagement—such as machinery frames where bolt length must span multiple plate layers. Standards-based procurement requires continuous learning as ISO, ASTM, DIN, and GB standards are revised every 3-5 years. Subscribe to standards update notifications and review specifications annually. The most common standards used in international fastener trade are ISO 898-1 (mechanical properties), ISO 3506-1 (stainless), ISO 3269 (acceptance inspection), ISO 4042 (coatings), and ISO 1502 (thread gauges).</p>\n<p>For B2B buyers, building a standards reference library with at least the top 20 standards relevant to your product mix is essential.</p>",
@@ -87,7 +87,7 @@
     {
       "id": "coarse-vs-fine",
       "heading": {
-        "en": "Coarse vs Fine Thread: Application Selection Guide",
+        "en": "When is a coarse thread preferred over a fine thread?",
         "es": "Rosca Gruesa vs Rosca Fina: Guía de Selección de Aplicaciones",
         "ar": "السن الخشن مقابل السن الدقيق: دليل اختيار التطبيق",
         "fr": "Pas Gros vs Pas Fin : Guide de Sélection d'Application",
@@ -96,7 +96,7 @@
         "ja": "粗ねじvs細ねじ：用途選択ガイド",
         "de": "Grob- vs. Feingewinde: Anwendungs-Auswahlleitfaden",
         "hi": "मोटे बनाम बारीक थ्रेड: अनुप्रयोग चयन गाइड",
-        "zh": "粗牙与细牙螺纹选型指南"
+        "zh": "何种情况下选用粗牙螺纹？"
       },
       "body": {
         "en": "<p>The <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">coarse thread vs fine thread</a> decision depends on the application. Coarse threads (UNC for inch, metric coarse as default): faster assembly (fewer revolutions to engage), better resistance to cross-threading during installation, less sensitive to thread wear in production, preferred for tapped holes in low-strength base materials (aluminum, cast iron). Fine threads: better fatigue resistance under dynamic loading (larger stress concentration at root is offset by more threads sharing load), more Thread engagement in thin base materials, easier to tune exact preload with fine adjustment, preferred for precision machinery, automotive cylinder heads, and thin-walled tubes.</p>\n<p>Our fine thread stainless steel <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a> are available in M3 to M36 in both 304 and 316 grades with custom lengths. The comparison methodology above uses typical ranges from industry data and TradeGo procurement experience 2018-2024. Actual market prices fluctuate with raw material costs (steel, zinc, nickel), energy costs, labor costs, and currency exchange rates.</p>\n<p>For accurate comparison, request identical RFQs from 3-5 qualified suppliers and compare landed cost (product + shipping + insurance + duties). The lowest unit price is rarely the lowest total cost of ownership.</p>",
@@ -228,7 +228,7 @@
             "ja": "細ねじのナットを並びねじのボルトに使えますか？"
           },
           "a": {
-            "en": "No. Coarse and fine threads have different pitches and are not interchangeable. M12×1.75 coarse bolt requires M12×1.75 nut; M12×1.25 fine bolt requires M12×1.25 nut.",
+            "en": "No. Coarse and fine threads in the same nominal diameter use different pitches and are not interchangeable. An M12×1.75 coarse bolt must pair with an M12×1.75 nut, while an M12×1.25 fine bolt needs its matching M12×1.25 nut; forcing a mismatch strips the threads, loosens under load and can break the joint. Metric dimensions follow ISO references, and UNC/UNF inch series follow ASME B18.2.1; never mix UNC and UNF in one joint, and confirm replacement pitch against the original drawing.",
             "zh": "不能。粗牙与细牙螺距不同，两者不能互换。M12×1.75 粗牙螺栓必须配 M12×1.75 螺母；M12×1.25 细牙螺栓必须配 M12×1.25 螺母，螺母与螺栓按同一规格配对。配对前先看螺栓和螺母上标注的螺距或标准号，螺纹牙型、直径和螺距一致才能旋合；混用会出现滑牙、啮合扣数不足或装配卡死，连接时应按同一规格配套领用。",
             "hi": "नहीं। कोर्स और फाइन धागों की पिच अलग होती है, ये आपस में बदले नहीं जा सकते। M12×1.75 कोर्स बोल्ट के लिए M12×1.75 नट चाहिए; M12×1.25 फाइन बोल्ट के लिए M12×1.25 नट ही लगेगा।",
             "ru": "Нет. Крупная и мелкая резьбы имеют разный шаг и не взаимозаменяемы. Болт M12×1.75 крупной резьбы требует гайки M12×1.75, а болт M12×1.25 мелкой резьбы — гайки M12×1.25. Смешивать пары нельзя: резьба быстро сорвётся, и соединение не даст нужного прижатия.",
@@ -254,7 +254,7 @@
             "ja": "全ねじボルトを指定するのはいつですか？"
           },
           "a": {
-            "en": "Specify full thread when母材 thickness is variable, when bolt passes through the母材 and engages a nut beyond, or when maximum clamping range is needed along the bolt length.",
+            "en": "Specify a full-thread bolt when the clamped thickness varies, when the bolt passes through the member and engages a nut beyond, or when maximum threaded engagement is needed along the bolt length. Full thread leaves no unthreaded shank, so it suits thin stacked plates, adjustable clamp lengths and through-bolted joints where the grip cannot be fixed in advance. In steel-to-steel connections, engagement of roughly one diameter in the nut is the usual minimum for reaching proof load; in aluminum, cast iron or thin sheet, longer engagement or a nut and insert must be used.",
             "zh": "被连接件厚度不固定、螺栓贯穿母材后在另一侧拧螺母，或需要沿螺杆全长获得最大夹紧行程时，指定全螺纹螺栓。全螺纹螺杆上没有光杆段，适合穿透多层薄板、可调距离或受拉为主的连接；当被连接件厚度变化范围较大、需要靠旋合深度调整夹紧位置时，全螺纹更容易适配，订货时注明螺纹规格、长度和表面处理要求。",
             "hi": "तब जब आधार सामग्री की मोटाई बदलती हो, जब बोल्ट आधार सामग्री से होकर गुजरे और आगे नट में लगे, या जब बोल्ट की पूरी लंबाई में अधिकतम क्लैम्पिंग रेंज चाहिए हो।",
             "ru": "Полную резьбу заказывают, когда толщина соединяемых деталей непостоянна, когда болт проходит сквозь деталь и гайка накручивается за её пределами, либо когда по длине стержня нужен максимальный диапазон зажима. В этих случаях резьба по всей длине исключает участок без затяжки.",
@@ -280,7 +280,7 @@
             "ja": "半ねじボルトの利点は何ですか？"
           },
           "a": {
-            "en": "The unthreaded shank carries shear across the joint and resists bearing pressure at the hole, while the thread only needs to cover the nut and washer. That is why structural connections usually specify half thread.",
+            "en": "A half-thread, or partial-thread, bolt leaves an unthreaded shank between the head and the thread start. That shank carries shear across the joint and bears against the hole wall without the stress concentration of a thread running under the head, which is why structural steel connections usually specify half thread. The threaded portion only needs to cover the nut and washer stack, while the shank diameter controls shear and bearing. Full thread suits thin members; choose half thread for beam-to-column and splice connections where shear and bearing govern, checking shank length against thickness.",
             "zh": "无螺纹的光杆段承担接头处的剪切载荷并抵抗孔壁承压，螺纹只需覆盖螺母和垫圈的旋合范围，因此结构连接通常指定半螺纹螺栓。受剪节点优先选带光杆的半螺纹件，让光杆段对准接合面，避免螺纹进入剪切面削弱截面；螺栓长度按被连接件总厚加螺母、垫圈和伸出量核算，订货时注明半螺纹段长度或标准对应的螺纹长度要求。",
             "hi": "बिना धागे वाली डंडी जोड़ के आर-पार शीयर उठाती है और छेद पर भार-दबाव का विरोध करती है; धागे को सिर्फ नट और वॉशर तक ही जाना पड़ता है। इसी वजह से संरचनात्मक जोड़ों में आमतौर पर हाफ थ्रेड बताया जाता है।",
             "ru": "Гладкая часть стержня без резьбы воспринимает сдвиг через узел и держит опорное давление у отверстия, а резьба нужна только под гайку и шайбу. Поэтому в структурных соединениях обычно указывают частичную резьбу: нарезанный участок не ослабляет сечение стержня там, где идёт сдвиг.",
