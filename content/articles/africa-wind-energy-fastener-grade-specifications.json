@@ -131,8 +131,8 @@
     {
       "id": "grades",
       "heading": {
-        "en": "Grade Selection: 10.9 Is a Starting Point, Not a Rule",
-        "zh": "等级选择：10.9 是起点，不是铁律",
+        "en": "Which property class fits tower connections versus secondary wind structure positions?",
+        "zh": "塔筒连接与风机次要结构位置分别适用哪个性能等级？",
         "ar": "الصنف 10.9 نقطة بداية لا قاعدة",
         "es": "Clase 10.9: punto de partida, no regla",
         "fr": "Nuance 10.9 : un point de départ, pas une règle",
@@ -212,8 +212,8 @@
     {
       "id": "evidence",
       "heading": {
-        "en": "Evidence the Buyer Should Hold Before Installation",
-        "zh": "安装前买家应持有的证据",
+        "en": "Which certificate and calibration records should a buyer hold before installation?",
+        "zh": "安装前买方应留存哪些证书与校准记录？",
         "ar": "الأدلة التي يجب أن يحفظها المشتري قبل التركيب",
         "es": "Evidencia que el comprador debe guardar antes del montaje",
         "fr": "Preuves à conserver avant le montage",
@@ -265,7 +265,7 @@
             "ja": "風力タービンのボルト締結に10.9級は必ず必要ですか？"
           },
           "a": {
-            "en": "It is the common default for tower and foundation connections, with 8.8 used in secondary positions. The grade must be specified together with bolt size, joint geometry, and tensioning method.",
+            "en": "Grade 10.9 is the common default for tower and foundation connections, while 8.8 is used in secondary structural positions, with higher grades selected where the design demands it. The grade must be specified together with bolt size, joint geometry and the tensioning method, because those three interact with class in deciding load capacity. Naming 10.9 alone, without the size, geometry and tightening route, leaves the instruction incomplete. Check the design drawing for each joint location rather than applying one class to the whole turbine.",
             "zh": "塔筒和基础连接通常默认采用 10.9 级螺栓，次要连接部位可使用 8.8 级。确定强度等级时，必须与螺栓规格、接头几何形式和张拉方法一并规定，不能单独只看等级；不同连接部位的受力大小和装配条件各不相同，选材与规格都要对应具体设计条件，避免等级与实际受力不匹配。",
             "hi": "टावर और फाउंडेशन कनेक्शन में 10.9 सामान्य डिफ़ॉल्ट ग्रेड है, द्वितीयक स्थानों में 8.8 चलता है। ग्रेड को बोल्ट साइज़, जोड़ की ज्यामिति और टेंशनिंग विधि के साथ मिलकर निर्दिष्ट करना चाहिए।",
             "ru": "10.9 — типовой вариант для соединений башни и фундамента, а на вторичных позициях применяют 8.8. Класс прочности задают не отдельно, а вместе с размером болта, геометрией узла и способом натяжения: без этих связок выбор класса на практике не работает.",
@@ -291,7 +291,7 @@
             "ja": "同じ等級でも素材ルートがなぜ重要ですか？"
           },
           "a": {
-            "en": "A 10.9 property class reached through a different alloy and heat treatment behaves differently under low-temperature impact, which matters at cold and high-altitude sites.",
+            "en": "A 10.9 property class reached through a different alloy and heat treatment behaves differently under low-temperature impact, which matters at cold and high-altitude sites. Two bolts with the same class marking can still differ in toughness and notch sensitivity, so the material certificate should carry the heat number, chemical composition and mechanical properties, including low-temperature impact where relevant. Review the material route against the site climate rather than matching the class label alone, and keep the certificate traceable to the delivered batch for installation acceptance.",
             "zh": "同样达到 10.9 性能等级，若采用不同的合金成分和热处理路线，材料在低温冲击下的表现并不相同。在寒冷地区或高海拔场址，低温韧性尤为关键，不能只凭性能等级数字判定适用性，还应核对对应的材质成分、热处理状态和低温冲击要求，保证螺栓在低温环境下不发生脆断。",
             "hi": "अलग अलॉय और हीट ट्रीटमेंट से प्राप्त 10.9 प्रॉपर्टी क्लास कम तापमान वाले इम्पैक्ट में अलग व्यवहार करता है; ठंडे और ऊंचाई वाले स्थलों पर यह अंतर अहम होता है।",
             "ru": "Класс 10.9 можно получить разным сплавом и режимом термообработки, и поведение при низкотемпературном ударе у таких вариантов разное. Для холодных и высокогорных площадок это прямо влияет на надёжность узла, поэтому один и тот же номер класса не заменяет проверку марки и испытаний на удар.",
@@ -317,7 +317,7 @@
             "ja": "どの張力管理方法を指定すべきですか？"
           },
           "a": {
-            "en": "Name the method - hydraulic tensioning, torque control, or direct tension indication - plus the acceptance window, and require sample verification, because each method produces different preload scatter.",
+            "en": "Name the method — hydraulic tensioning, torque control, or direct tension indication — plus the acceptance window, and require sample verification, because each method produces different preload scatter. In wind service the joint must stay closed under fatigue load, so preload has to be high enough and consistent enough that the bolt never sees the full external load cycle. Tensioning method is therefore part of the engineering, not a site preference. Keep calibration records for the tensioning equipment and a sample preload verification report from the supplier's procedure trial.",
             "zh": "应在文件中明确写明张拉方法，包括液压张拉、扭矩控制或直接拉伸指示，并给出对应的合格范围，同时要求做抽样验证。不同张拉方法产生的预紧力离散度各不相同，如果方法不统一，各连接副的夹紧力就难以相互对照。因此工艺文件要把张拉方法和验收指标一起固定下来，便于现场统一执行和复核。",
             "hi": "विधि का नाम लिखें — हाइड्रॉलिक टेंशनिंग, टॉर्क कंट्रोल, या डायरेक्ट टेंशन इंडिकेशन — साथ में स्वीकृति विंडो भी, और नमूना सत्यापन अनिवार्य करें; हर विधि से प्री-लोड का बिखराव अलग तरह का आता है।",
             "ru": "Указывают метод: гидравлическая натяжка, контроль по моменту (torque) или прямой индикатор натяжения; вместе с ним — допустимый диапазон по затяжке и требование проверить выборку. Разные методы дают разный разброс предварительной затяжки (preload), поэтому способ и приёмка должны быть зафиксированы до монтажа.",
@@ -343,7 +343,7 @@
             "ja": "洋上風力構造物にはどの被覆が使われますか？"
           },
           "a": {
-            "en": "Hot-dip galvanizing with a defined minimum thickness is the baseline, often with a duplex topcoat where maintenance intervals are long. Thread coatings must be specified separately from the shank.",
+            "en": "Onshore towers in coastal zones and all offshore structures face chloride exposure that ordinary zinc plating cannot survive. Hot-dip galvanizing with a defined minimum thickness is the baseline, with duplex systems — galvanizing plus a sealed topcoat — where the maintenance interval is long. Threaded components need the coating specified separately from the shank, because thread fit and coating thickness interact. Record the coating thickness measurements with the material certificate, and match the finish to the chloride and weather condition at the site.",
             "zh": "海上风电结构以规定最小镀层厚度的热浸镀锌作为基线，在维护周期较长、难以频繁检修的部位，常采用锌层加面漆的双涂层防护体系。螺纹部位的涂层要求应与螺杆杆体分开规定，避免镀层过厚影响螺纹配合，或镀层过薄削弱防护能力，保证连接件既能防锈又能正常装配。",
             "hi": "निर्दिष्ट न्यूनतम मोटाई वाली हॉट-डिप गैल्वनाइज़िंग बेसलाइन है; जहां रखरखाव अंतराल लंबे होते हैं, वहां अक्सर डुप्लेक्स टॉपकोट लगाया जाता है। धागे की कोटिंग को शैंक से अलग निर्दिष्ट करना चाहिए।",
             "ru": "Базовый вариант — горячее цинкование (HDG) с нормированной минимальной толщиной; где межремонтные интервалы длинные, сверху наносят дуплексное финишное покрытие. Покрытие резьбы задают отдельно от стержня: нарезанная часть работает на трении и при затяжке, поэтому общий слой там не подходит.",
