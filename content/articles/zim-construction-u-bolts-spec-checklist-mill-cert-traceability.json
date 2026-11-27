@@ -233,7 +233,7 @@
             "hi": "ज़िम्बाब्वे यू-बोल्ट विशिष्टता और मिल प्रमाणपत्र चेकलिस्ट ऑर्डर के लिए विशिष्ट लीड टाइम क्या है?"
           },
           "a": {
-            "en": "Lead time depends on whether the item is a standard specification or a custom one, on the shipping mode (LCL or FCL), and on customs clearance efficiency; urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
             "zh": "下单前完成清单核对：杆径 M10、M12，内宽、螺纹段长度与弯曲半径对照图纸，等级按 ISO 898-1 标注。尺寸一旦变更可能重开模具，货期按变更后重新估算，卡箍接触面的弧度与管子外径逐档匹配，两边螺纹段等长与否也要在图上注明。交期按订单核算。",
             "es": "El plazo se cotiza por pedido.",
             "fr": "Le délai est établi par commande.",
@@ -259,7 +259,7 @@
             "hi": "ज़िम्बाब्वे यू-बोल्ट विशिष्टता और मिल प्रमाणपत्र चेकलिस्ट के लिए न्यूनतम ऑर्डर मात्रा (MOQ) क्या है?"
           },
           "a": {
-            "en": "MOQ varies by supplier scale, setup costs and whether the order is consolidated into a full container or shipped as LCL. Minimum order quantity follows the production route.",
+            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
             "zh": "追溯链条上，每批 U 型螺栓带炉号、批次号与 EN 10204 3.1 材质证明，弯制件与镀锌件分开记录。同规格跨距合并下单减少模具套数，包装注明杆径与内宽，方便现场清点，每根 U 型件的螺纹段长度与弯头开口方向按图分批。起订量按生产路线确定。",
             "es": "La cantidad mínima depende de la ruta de producción.",
             "fr": "La quantité minimale dépend de la route de production.",
@@ -285,7 +285,7 @@
             "hi": "ज़िम्बाब्वे यू-बोल्ट विशिष्टता और मिल प्रमाणपत्र चेकलिस्ट खरीद के लिए विशिष्ट भुगतान शर्तें क्या हैं?"
           },
           "a": {
-            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market; any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
+            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit arranged through the buyer's bank. The settlement route, documents and milestones should be agreed up front, and any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
             "zh": "U 型件通行结算：三成电汇定金起步，七成余额见提单副本后付。大额开即期信用证。三成定金走电汇、余款走即期信用证。部分非洲银行要即期信用证，投产前全额预付避开。订单条款写清图纸版本、镀层厚度与验收标准：ISO 3269 抽样、ISO 1502 螺纹通止。材质书与批次追溯记录随货，第三方验货按订单委托，不替代产品合格证明，弯制回弹后的内宽复测列入到货验收项目。付款条件按里程碑约定。",
             "es": "Las condiciones de pago se acuerdan por hitos.",
             "fr": "Les conditions de paiement sont convenues par jalons.",
