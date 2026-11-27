@@ -1,0 +1,329 @@
+batch,type,slug,before,after,status,left_tail,commit
+W1/W1b/W1c dup,dup,botswana-fastener-supplier,89,92,left_tail,"""1 段 43 词与全库他篇逐字相同（高风险应用复检/成本倍数模板段），非篇内重复；保留以维持 std 锚点与词数。""",5b2f8d7c
+W1/W1b/W1c dup,dup,solar-mounting-hex-bolt-solution-guide,89,92,left_tail,"""1 段 59 词跨篇共享（高风险应用复检模板段）；非篇内重复，保留。""",d12e9f0f
+W1/W1b/W1c dup,dup,imperial-metric-hex-nut-export-guide,89,92,left_tail,"""2 段（40/51 词）与 lock-nuts、timber-screws 篇共享的标准选型模板段；非篇内重复，保留 std 锚点。""",a667471d
+W1/W1b/W1c dup,dup,east-africa-construction-fastener-market,89,92,left_tail,"""4 段（56/60/33/56 词）为东非国家/需求驱动旧模板段，与多篇非洲篇共享；非篇内重复，保留市场信息与 std 锚点。""",c5bc8d9e
+W1/W1b/W1c dup,dup,kenya-fastener-market-guide,82,92,left_tail,"""1 段 59 词跨篇共享复检模板段；非篇内重复，保留。""",de479a97
+W1/W1b/W1c dup,dup,green-building-fastener-requirements,89,92,left_tail,"""无 ≥20 词跨篇逐字段；篇内重复链接清单已清。""",8baa4e77
+W1/W1b/W1c dup,dup,bulk-fastener-ordering-strategies,89,92,left_tail,"""无 ≥20 词跨篇逐字段；篇内重复链接清单已清。""",033a687d
+W1/W1b/W1c dup,dup,food-beverage-fastener-hygiene-standards,89,92,left_tail,"""无 ≥20 词跨篇逐字段；篇内重复链接清单已清。""",d0f60c7e
+W1/W1b/W1c dup,dup,fastener-failure-analysis-case-studies,84,87,left_tail,"""无 ≥20 词跨篇逐字段；篇内重复链接清单已清。""",0157882c
+W1/W1b/W1c dup,dup,wind-energy-fastener-requirements-2026,89,92,left_tail,"""无 ≥20 词跨篇逐字段；篇内重复链接清单已清。""",7eb48c38
+W1/W1b/W1c dup,dup,dr-congo-drc-mining-fastener-market,89,92,left_tail,"""1 段 28 词五步骤预防模板段与 automotive-fastener-grade-comparison 共享；非篇内重复，保留。""",320f8536
+W1/W1b/W1c dup,dup,welding-nuts-square-nut-special-nut-guide,89,92,left_tail,"""1 段 59 词跨篇共享复检模板段；非篇内重复，保留。""",5b68521e
+W1/W1b/W1c dup,dup,structural-heavy-duty-bolts-building-guide,88,97,fixed,,87e09387
+W1/W1b/W1c dup,dup,south-africa-fastener-market-guide,87,97,fixed,,1f385156
+W1/W1b/W1c dup,dup,timber-screws-construction-guide,94,97,fixed,,50f68b80
+W1/W1b/W1c dup,dup,concrete-screws-anchors-guide,88,97,fixed,,a3c7909d
+W1/W1b/W1c dup,dup,fastener-export-china-to-africa-guide,87,97,fixed,,111e6645
+W1/W1b/W1c dup,dup,construction-fastener-standards-comparison,94,97,fixed,,d23259f0
+W1/W1b/W1c dup,dup,nigeria-fastener-market-guide,87,97,fixed,,8f3db885
+W1/W1b/W1c dup,dup,rivets-blind-rivets-guide,97,97,left_tail,"""他线 t9r-w5 已清理，本包领锁时 dup 已为 0，未改动；geo/词数保持现状。""",
+W1/W1b/W1c dup,dup,threaded-rod-applications-guide,97,97,left_tail,"""他线 t9r-w5 已清理，本包领锁时 dup 已为 0，未改动；geo/词数保持现状。""",
+W1/W1b/W1c dup,dup,wood-screws-machine-screws-furniture-guide,94,97,fixed,,ff911c09
+W1/W1b/W1c dup,dup,mombasa-port-fasteners,87,97,fixed,,9cd3c9ce
+W1/W1b/W1c dup,dup,tanzania-fastener-market-opportunities-2026,94,97,fixed,,18579ff0
+W1/W1b/W1c dup,dup,fastener-coating-systems-guide,94,97,fixed,,21a58711
+W1/W1b/W1c dup,dup,construction-fastener-rough-in-guide,94,97,fixed,,12d20071
+W1/W1b/W1c dup,dup,automotive-fasteners-guide,94,97,fixed,,0bc3b097
+W1/W1b/W1c dup,dup,gb-din-ansi-fastener-standards-export-guide,69,72,fixed,,cfd9199c
+W1/W1b/W1c dup,dup,ghana-building-materials,87,97,fixed,,b21cc2a7
+W1/W1b/W1c dup,dup,m10-galvanized-bolt-fob-china-price,87,87,left_tail,"""余量仅 12 词（1612，红线 1600）：§2 定价结构块 4 句（41/36/14/17 词）+ §5 链接清单共 5 处重复，删除任一整句即跌破 1600；按留尾规则全部保留原句，仅追加 101 词检验/装箱实质内容，dup 5→5 未升。补充段无我方价格数字、无交期承诺，价格只讲结构。""",11741656
+W1/W1b/W1c dup,dup,marine-fasteners-guide,94,94,left_tail,"""余量仅 2 词（1602，红线 1600）：§5 链接清单 1 处重复（18 词），删除即跌破 1600；按留尾规则保留，仅追加 100 词安装/检验实质内容，dup 1→1 未升。""",2e922cbf
+W1/W1b/W1c dup,dup,fastener-quality-inspection-guide,94,97,fixed,,eb8f2aab
+W1/W1b/W1c dup,dup,china-fasteners-zimbabwe-procurement-guide,94,97,fixed,,29a7ac77
+W1/W1b/W1c dup,dup,fender-washers-simplate-washers,97,100,fixed,,055c152e
+W1/W1b/W1c dup,dup,fastener-supplier-verification-checklist,87,97,fixed,,a18d103f
+W1/W1b/W1c dup,dup,lag-screws-timber-connections,97,100,fixed,,6402c68c
+W2/W2b/W2c entity+std,entity_std,binding-wire-buying-guide,82,82,fixed,,f824eac
+W2/W2b/W2c entity+std,entity_std,roofing-screws-vs-ibr-nails,85,87,fixed,,7997d2e
+W2/W2b/W2c entity+std,entity_std,plastic-anchors-buying-guide,90,90,fixed,,2f25e07
+W2/W2b/W2c entity+std,entity_std,self-drilling-tek-screws-price-list,73,75,fixed,,b19442c
+W2/W2b/W2c entity+std,entity_std,marine-grade-fastener-selection-guide,75,82,fixed,,dfd25da
+W2/W2b/W2c entity+std,entity_std,coach-screws-buying-guide,75,75,fixed,,e2a37e6
+W2/W2b/W2c entity+std,entity_std,drop-in-anchors-buying-guide,75,75,fixed,,c010ec5
+W2/W2b/W2c entity+std,entity_std,chemical-anchors-buying-guide,78,86,fixed,,bb569c3
+W2/W2b/W2c entity+std,entity_std,fastener-warehouse-management-best-practices,79,85,fixed,,e803c63
+W2/W2b/W2c entity+std,entity_std,chipboard-screws-buying-guide,82,82,fixed,,6f0890e
+W2/W2b/W2c entity+std,entity_std,roofing-screws-buying-guide,82,82,fixed,,60cdcf0
+W2/W2b/W2c entity+std,entity_std,expansion-bolts-buying-guide,82,82,fixed,,c7fd66d
+W2/W2b/W2c entity+std,entity_std,asphalt-flash-band-buying-guide,98,100,fixed,,9bcb540
+W2/W2b/W2c entity+std,entity_std,waterproof-coating-buying-guide,75,75,fixed,,a0e6cda
+W2/W2b/W2c entity+std,entity_std,non-woven-fabric-buying-guide,75,75,fixed,,bab29da
+W2/W2b/W2c entity+std,entity_std,waterproof-membrane-buying-guide,75,75,fixed,,cb35024
+W2/W2b/W2c entity+std,entity_std,stainless-steel-fasteners-africa,82,88,fixed,,c739e0d
+W2/W2b/W2c entity+std,entity_std,fastener-quality-control-inspection-procedures,83,86,fixed,,1efe301
+W2/W2b/W2c entity+std,entity_std,fastener-preload-torque-calculation-methods,88,90,fixed,,d1ca12f
+W2/W2b/W2c entity+std,entity_std,timber-fasteners-guide,88,90,fixed,,0baa2b0
+W2/W2b/W2c entity+std,entity_std,fastener-cost-analysis-template,92,94,fixed,,7f0b92c
+W2/W2b/W2c entity+std,entity_std,ivory-coast-fastener-market-complete-guide,92,96,fixed,,0abd5e2
+W2/W2b/W2c entity+std,entity_std,senegal-fastener-market,92,96,fixed,,17ead6f
+W2/W2b/W2c entity+std,entity_std,bolt-types-applications-guide,92,96,fixed,,523bd10
+W2/W2b/W2c entity+std,entity_std,africa-informal-construction-fastener-demand,85,85,fixed,,1cf0687
+W2/W2b/W2c entity+std,entity_std,drywall-screws-bulk-price-africa-procurement,85,85,fixed,,d61c2db
+W2/W2b/W2c entity+std,entity_std,zim-construction-lock-nuts-rfq-template-bolt-pattern,85,85,fixed,,527e0e0
+W2/W2b/W2c entity+std,entity_std,fastener-quality-certification-comparison,85,85,fixed,,c4abd13
+W2/W2b/W2c entity+std,entity_std,zimbabwe-construction-megaprojects-fastener-demand,97,97,fixed,,490d955
+W2/W2b/W2c entity+std,entity_std,uganda-construction-fastener-market-2026,100,100,fixed,,3ec3060
+W2/W2b/W2c entity+std,entity_std,zimbabwe-bulawayo-construction-hardware-supply,75,75,fixed,,a321b27
+W2/W2b/W2c entity+std,entity_std,fastener-glossary-africa-procurement,75,75,left_tail,"""基线 readiness 无 entity/std 缺口，无需改动""",
+W2/W2b/W2c entity+std,entity_std,timber-construction-fasteners-africa,79,82,fixed,,5613921
+W2/W2b/W2c entity+std,entity_std,frp-grp-composite-fasteners,79,85,fixed,,c1e6df5
+W2/W2b/W2c entity+std,entity_std,j-bolts-buying-guide,82,82,fixed,,d82a7f7
+W2/W2b/W2c entity+std,entity_std,duplex-nails-buying-guide,82,82,fixed,,cbea7f3
+W2/W2b/W2c entity+std,entity_std,clout-nails-buying-guide,82,82,fixed,,962cbf3
+W2/W2b/W2c entity+std,entity_std,concrete-nails-buying-guide,90,90,fixed,,0b60c27
+W2/W2b/W2c entity+std,entity_std,south-africa-fasteners-china-import-guide,92,92,fixed,,5456ff9
+W2/W2b/W2c entity+std,entity_std,fastener-standards-din-iso-astm-comparison,94,94,fixed,,eb0d078
+W2/W2b/W2c entity+std,entity_std,china-hex-nuts-manufacturer,98,98,fixed,,6d7fe65
+W3/W3b/W3c link+src,link_src,uganda-oil-refinery-fastener-requirements,87,97,fixed,,aceef5ba
+W3/W3b/W3c link+src,link_src,nigeria-lagos-fastener-import-wholesale-guide,87,97,fixed,,74a91144
+W3/W3b/W3c link+src,link_src,ethiopia-industrial-park-fastener-sourcing,87,97,fixed,,c3fbc3a6
+W3/W3b/W3c link+src,link_src,tanzania-sgr-railway-fastener-specifications,87,97,fixed,,db4b76e2
+W3/W3b/W3c link+src,link_src,south-africa-sabs-stainless-steel-fastener-audit,87,97,fixed,,619a9737
+W3/W3b/W3c link+src,link_src,offshore-fasteners-fire-protection-and-certification,87,97,fixed,,fb0817b3
+W3/W3b/W3c link+src,link_src,sleeve-anchors-buying-guide,82,97,fixed,,c4bcdc62
+W3/W3b/W3c link+src,link_src,zambia-copper-mining-fasteners-grade-selection-2026,87,97,fixed,,ca349465
+W3/W3b/W3c link+src,link_src,self-drilling-screws-market-demand-and-procurement-guide,90,100,fixed,,a0b61a19
+W3/W3b/W3c link+src,link_src,emergency-2026-07-06-fastener-sourcing-guide,85,100,fixed,,3566349c
+W3/W3b/W3c link+src,link_src,common-nails-buying-guide,67,82,left_tail,"[""std""]",bdc2b335
+W3/W3b/W3c link+src,link_src,egypt-cairo-construction-fastener-wholesale,82,92,left_tail,"[""entity""]",17369874
+W3/W3b/W3c link+src,link_src,benin-cotonou-fastener-wholesale-market,84,94,left_tail,"[""dup""]",70425ae2
+W3/W3b/W3c link+src,link_src,butyl-tape-buying-guide,77,92,left_tail,"[""entity""]",f5357084
+W3/W3b/W3c link+src,link_src,drywall-anchors-buying-guide,67,82,left_tail,"[""std""]",2f48469b
+W3/W3b/W3c link+src,link_src,tanzania-ibr-roofing-fasteners-dar-es-salaam,77,92,left_tail,"[""entity""]",11a3ce5a
+W3/W3b/W3c link+src,link_src,anchor-bolts-suppliers-africa,80,90,left_tail,"[""dup""]",94248e4f
+W3/W3b/W3c link+src,link_src,mozambique-fastener-market-case-study,85,95,left_tail,"[""entity""]",3184b5c4
+W3/W3b/W3c link+src,link_src,binding-wire-buying-guide,82,97,fixed,,fc29139d
+W3/W3b/W3c link+src,link_src,roofing-screws-vs-ibr-nails,82,97,fixed,,53730845
+W3/W3b/W3c link+src,link_src,plastic-anchors-buying-guide,72,97,fixed,,f91e3dc8
+W3/W3b/W3c link+src,link_src,asphalt-flash-band-buying-guide,85,100,fixed,,92a737e6
+W3/W3b/W3c link+src,link_src,self-drilling-tek-screws-price-list,87,97,fixed,,bb808d37
+W3/W3b/W3c link+src,link_src,waterproof-coating-buying-guide,82,97,fixed,,d968a7d4
+W3/W3b/W3c link+src,link_src,non-woven-fabric-buying-guide,82,97,fixed,,1deb9ebd
+W3/W3b/W3c link+src,link_src,waterproof-membrane-buying-guide,82,97,fixed,,0ef0a927
+W3/W3b/W3c link+src,link_src,coach-screws-buying-guide,82,97,fixed,,ee70660b
+W3/W3b/W3c link+src,link_src,drop-in-anchors-buying-guide,82,97,fixed,,c1c8f7d6
+W3/W3b/W3c link+src,link_src,chemical-anchors-buying-guide,82,97,fixed,,e65fb187
+W3/W3b/W3c link+src,link_src,chipboard-screws-buying-guide,82,97,fixed,,431eca61
+W3/W3b/W3c link+src,link_src,roofing-screws-buying-guide,82,97,fixed,,0aa6f401
+W3/W3b/W3c link+src,link_src,expansion-bolts-buying-guide,82,97,fixed,,22df60ea
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,fastener-lubrication-thread-locking-guide,92,95,left_tail,"[""entity""]",cc058014b0
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,machine-screws-specifications,85,85,left_tail,"[""std""]",58ae6f90d3
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,nigeria-abuja-construction-fastener-standards,97,100,fixed,,5140a17a08
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,morocco-tangier-med-port-fastener-re-export,97,100,fixed,,15238f5fca
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,nigeria-port-upgrades-and-fastener-import-lead-times,97,100,fixed,,d913449d7b
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,payment-terms-international-fastener-trade,97,100,fixed,,ccde796a6c
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,agricultural-fasteners-for-implements-sheds-and-irrigation,97,100,fixed,,e6f859f5f5
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,egypt-suez-canal-industrial-fastener-tariff,97,100,fixed,,29752a9664
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,hex-nuts-selection-guide,100,100,fixed,,e87de28719
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,lock-nuts-flange-nuts-vibration-proof-guide,89,92,left_tail,"[""entity"", ""dup""]",4a4574fc16
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,zimbabwe-agricultural-fastener-requirements,92,95,left_tail,"[""entity""]",4a6f155773
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,mozambique-fastener-import-market-guide,94,97,left_tail,"[""dup""]",1b7a4761e1
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,zambia-fastener-market-case-study,92,95,left_tail,"[""entity""]",0cb6ef0c78
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,mozambique-lng-construction-fasteners-maputo,94,97,left_tail,"[""dup""]",17f026397f
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,automotive-fastener-grade-comparison,92,95,left_tail,"[""entity""]",9bd40ade76
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,concrete-anchors-selection-guide,92,95,left_tail,"[""entity""]",f8f97127c0
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,solar-panel-mounting-fastener-requirements,92,95,left_tail,"[""entity""]",aadcc00dbb
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,zim-construction-anchor-bolts-rfq-template-corrosion-resistance,92,95,left_tail,"[""entity""]",1ba3ec815b
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,stainless-steel-fasteners-304-316,95,95,left_tail,"[""entity""]",15138fe728
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,africa-railway-modernization-fastener-demand,97,100,fixed,,0d2601bfba
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,africa-wind-energy-fastener-grade-specifications,97,100,fixed,,98a7adf137
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,algeria-algiers-oil-gas-fastener-specifications,97,100,fixed,,deb0b117e5
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,angola-construction-boom-fastener-demand,97,100,fixed,,d30104bde6
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,bolt-anchors-buying-guide,97,100,fixed,,774a1e5018
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,drc-mining-concession-fastener-logistics,97,100,fixed,,24c97cf942
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,extended-length-self-tapping-screws-guide,97,100,fixed,,a58d89818f
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,kenya-affordable-housing-fasteners-wholesale,97,100,fixed,,8682c70aae
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,kenya-east-africa-fastener-distribution-hub,97,100,fixed,,0d4876414e
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,lock-nuts-nyloc-self-locking,75,90,fixed,,948ed23f content(T9r-qh-faq3): lock-nuts-nyloc-self-locking
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,micro-precision-screws-electronic-guide,75,100,fixed,,ac9052fa content(T9r-qh-faq3): micro-precision-screws-electronic-guide
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,mozambique-lng-construction-fasteners-standards,75,100,fixed,,6a32ba87 content(T9r-qh-faq3): mozambique-lng-construction-fasteners-standards
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,namibia-uranium-mining-fastener-corrosion,75,100,fixed,,ea48edea content(T9r-qh-faq3): namibia-uranium-mining-fastener-corrosion
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,stainless-steel-hex-nuts-304-316-heavy-guide,75,100,fixed,,70784b1e content(T9r-qh-faq3): stainless-steel-hex-nuts-304-316-heavy-guide
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,carriage-bolts-guide,77,92,fixed,,9be069e9 content(T9r-qh-faq3): carriage-bolts-guide
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,threaded-rods-fasteners-guide,77,93,fixed,,01707119 content(T9r-qh-faq3): threaded-rods-fasteners-guide
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,u-bolts-pipe-clamps-guide,78,88,fixed,,c1ea3f0f content(T9r-qh-faq3): u-bolts-pipe-clamps-guide
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,bolt-markings-identify-grade,80,90,fixed,,86becb07 content(T9r-qh-faq3): bolt-markings-identify-grade
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,africa-solar-farm-fastener-procurement-guide,82,92,fixed,,11861a2e content(T9r-qh-faq3): africa-solar-farm-fastener-procurement-guide
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,coil-nails-buying-guide,82,100,fixed,,cb91e47a content(T9r-qh-faq3): coil-nails-buying-guide
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,set-anchors-buying-guide,82,100,fixed,,3f22dff1 content(T9r-qh-faq3): set-anchors-buying-guide
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,wedge-anchors-buying-guide,82,100,fixed,,50735bad content(T9r-qh-faq3): wedge-anchors-buying-guide
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,kenya-construction-fastener-imports-face-cost-and-customs-pressure,83,83,fixed,,e84153e5 content(T9r-qh-faq3): kenya-construction-fastener-imports-face-cost-and-customs-pressure
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,din-iso-fastener-standards-guide,84,100,fixed,,9d5d8fd3 content(T9r-qh-faq3): din-iso-fastener-standards-guide
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,automotive-commercial-vehicle-fasteners,85,100,fixed,,8993beae content(T9r-qh-faq3): automotive-commercial-vehicle-fasteners
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,agrifastener-water-infrastructure,97,100,fixed,,29e9f5ce94
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,kenya-mombasa-port-fastener-warehouse-guide,97,100,fixed,,130bdb9b05
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,madagascar-antananarivo-fastener-sourcing,97,100,fixed,,6f457aa239
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,africa-railway-sleeper-fastener-specification,100,100,fixed,,60f8cdad12
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,anchor-bolts-foundation-guide,100,100,already_clean,,
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,fastener-quality-control-iso9001,100,100,already_clean,,
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,africa-automotive-fastener-oem-sourcing,97,100,fixed,,6fda10f2de
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,lobito-corridor-railway-fastener-procurement,97,100,fixed,,ebee97a7ea
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,shooting-nails-buying-guide,97,100,fixed,,663d5e0324
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,lock-nuts-selflocking-nuts-guide,100,100,already_clean,,
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,galvanized-vs-stainless-steel-fasteners,100,100,already_clean,,
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,africa-oil-refinery-high-pressure-fastener-guide,100,100,already_clean,,
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,structural-steel-connections-guide,100,100,already_clean,,
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,nairobi-construction-hardware,100,100,already_clean,,
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,stainless-steel-hex-bolt-304-316-guide,60,60,already_clean,,
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,gb-din-ansi-fastener-standards-export-guide,72,75,left_tail,"[""lead""]",ff02a9d7d8
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,drywall-anchors-buying-guide,82,85,left_tail,"[""std""]",6884f71d70
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,common-nails-buying-guide,82,85,left_tail,"[""std""]",bc3d5b6527
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,bulk-fastener-quantity-discounts,82,85,left_tail,"[""std""]",aab62bf126
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,stainless-steel-bolts-africa-guide,85,85,left_tail,"[""std""]",1fab6690f8
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,drywall-screws-bulk-price-africa-procurement,87,90,left_tail,"[""dup""]",d015a64aba
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,m10-galvanized-bolt-fob-china-price,87,90,left_tail,"[""dup""]",aa1664415d
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,fastener-failure-analysis-case-studies,87,90,left_tail,"[""fresh"", ""entity""]",4bbd49df68
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,fastener-quality-certification-comparison,87,90,left_tail,"[""dup""]",56bd8e7a55
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,construction-building-self-tapping-screws-tco-analysis-joint-stiffness,87,90,left_tail,"[""dup""]",08d29b1b62
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,africa-solar-energy-fastener-procurement-guide,87,90,left_tail,"[""dup""]",b5ee0957c2
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,zim-construction-anchor-bolts-lifecycle-cost-salt-spray,87,90,left_tail,"[""dup""]",e0fad9fdf2
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,zimbabwe-rural-electrification-fastener-specifications,87,90,left_tail,"[""dup""]",181fd616b8
+W4/W4b/W4c/W4d/W4e/W4f qh+FAQ,qh_faq,construction-building-self-tapping-screws-tco-analysis-uv-degradation,87,90,left_tail,"[""dup""]",a552cf6d7b
+W5/W5b/W5c dup+reuse,dup_reuse,drc-diamond-mining-fasteners,75,75,left_tail,"""跨篇模板段未在本轮清理；非 w5 槽，留待后续复用批次""",e0cde9db
+W5/W5b/W5c dup+reuse,dup_reuse,ghana-fastener-market-guide,75,75,left_tail,"""跨篇模板段未在本轮清理；非 w5 槽，留待后续复用批次""",74a096d9
+W5/W5b/W5c dup+reuse,dup_reuse,mining-fasteners-africa,75,75,left_tail,"""跨篇模板段未在本轮清理；非 w5 槽，留待后续复用批次""",46426c6d
+W5/W5b/W5c dup+reuse,dup_reuse,africa-fastener-market-opportunities-2026,75,75,left_tail,"""跨篇模板段未在本轮清理；非 w5 槽，留待后续复用批次""",632a96f7
+W5/W5b/W5c dup+reuse,dup_reuse,zim-construction-threaded-rods-supplier-evaluation-cost-optimization,85,85,left_tail,"""残留单句偶合(run=1)，未达连续≥3句/≥120字符阈值，按判据不改""",035370a3
+W5/W5b/W5c dup+reuse,dup_reuse,zim-construction-u-bolts-spec-checklist-mill-cert-traceability,85,85,left_tail,"""残留单句偶合(run=1)，未达连续≥3句/≥120字符阈值，按判据不改""",48e60ba2
+W5/W5b/W5c dup+reuse,dup_reuse,zim-construction-lock-washers-tco-analysis-stress-cracking,85,85,left_tail,"""残留单句偶合(run=1)，未达连续≥3句/≥120字符阈值，按判据不改""",1d8c7ad5
+W5/W5b/W5c dup+reuse,dup_reuse,zim-construction-u-bolts-supplier-evaluation-galvanic-corrosion,85,85,left_tail,"""残留单句偶合(run=1)，未达连续≥3句/≥120字符阈值，按判据不改""",549306dd
+W5/W5b/W5c dup+reuse,dup_reuse,rivets-blind-rivets-guide,75,75,left_tail,"""残留单句偶合(run=1)，未达连续≥3句/≥120字符阈值，按判据不改""",30e1b9d5
+W5/W5b/W5c dup+reuse,dup_reuse,fastener-glossary-africa-procurement,75,75,left_tail,"""残留单句偶合(run=1)，未达连续≥3句/≥120字符阈值，按判据不改""",7def488f
+W5/W5b/W5c dup+reuse,dup_reuse,threaded-rod-applications-guide,75,75,left_tail,"""残留单句偶合(run=1)，未达连续≥3句/≥120字符阈值，按判据不改""",a0d40a70
+W5/W5b/W5c dup+reuse,dup_reuse,zimbabwe-fastener-supplier,75,75,left_tail,"""残留单句偶合(run=1)，未达连续≥3句/≥120字符阈值，按判据不改""",c28801aa
+W5/W5b/W5c dup+reuse,dup_reuse,republic-of-congo-fastener-supplier,94,97,left_tail,"""首现跨篇模板句（方法论/检验/评价框架/标准库）作为 std 锚点保留，非篇内重复；未触发 1600 词破线，无留尾破线项。""",3c4ba58e
+W5/W5b/W5c dup+reuse,dup_reuse,nylon-nuts-bolts-guide,94,97,left_tail,"""首现跨篇模板句（方法论/检验/评价框架/标准库）作为 std 锚点保留，非篇内重复；未触发 1600 词破线，无留尾破线项。""",abc0cadf
+W5/W5b/W5c dup+reuse,dup_reuse,zinc-plated-vs-galvanized,94,97,left_tail,"""首现跨篇模板句（方法论/检验/评价框架/标准库）作为 std 锚点保留，非篇内重复；未触发 1600 词破线，无留尾破线项。""",c9408be3
+W5/W5b/W5c dup+reuse,dup_reuse,zimbabwe-fastener-market-case-study,87,97,left_tail,"""首现跨篇模板句（方法论/检验/评价框架/标准库）作为 std 锚点保留，非篇内重复；未触发 1600 词破线，无留尾破线项。""",105eff16
+W5/W5b/W5c dup+reuse,dup_reuse,southern-africa-fastener-market-southafrica-botswana,94,97,left_tail,"""首现跨篇模板句（方法论/检验/评价框架/标准库）作为 std 锚点保留，非篇内重复；未触发 1600 词破线，无留尾破线项。""",689ccde0
+W5/W5b/W5c dup+reuse,dup_reuse,fastener-material-selection-guide,94,97,left_tail,"""首现跨篇模板句（方法论/检验/评价框架/标准库）作为 std 锚点保留，非篇内重复；未触发 1600 词破线，无留尾破线项。""",df1f98c8
+W5/W5b/W5c dup+reuse,dup_reuse,rivets-blind-rivet-nut-guide,94,97,left_tail,"""首现跨篇模板句（方法论/检验/评价框架/标准库）作为 std 锚点保留，非篇内重复；未触发 1600 词破线，无留尾破线项。""",12d19b6c
+W5/W5b/W5c dup+reuse,dup_reuse,fastener-selection-guide-african-construction,94,97,left_tail,"""首现跨篇模板句（方法论/检验/评价框架/标准库）作为 std 锚点保留，非篇内重复；未触发 1600 词破线，无留尾破线项。""",85cdb12e
+W5/W5b/W5c dup+reuse,dup_reuse,fastener-common-problems-solutions,87,97,left_tail,"""首现跨篇模板句（方法论/检验/评价框架/标准库）作为 std 锚点保留，非篇内重复；未触发 1600 词破线，无留尾破线项。""",a2696a1e
+W5/W5b/W5c dup+reuse,dup_reuse,screws-different-materials-guide,94,97,left_tail,"""首现跨篇模板句（方法论/检验/评价框架/标准库）作为 std 锚点保留，非篇内重复；未触发 1600 词破线，无留尾破线项。""",fb29f4ff
+W5/W5b/W5c dup+reuse,dup_reuse,fastener-packaging-shipping-guide,88,97,left_tail,"""首现跨篇模板句（方法论/检验/评价框架/标准库）作为 std 锚点保留，非篇内重复；未触发 1600 词破线，无留尾破线项。""",451c45b8
+W5/W5b/W5c dup+reuse,dup_reuse,rwanda-construction-fastener-market-2026,94,97,left_tail,"""首现跨篇模板句（方法论/检验/评价框架/标准库）作为 std 锚点保留，非篇内重复；未触发 1600 词破线，无留尾破线项。""",a15ac2c1
+W5/W5b/W5c dup+reuse,dup_reuse,fastener-storage-handling-guide,94,97,left_tail,"""首现跨篇模板句作为 std 锚点保留，非篇内重复；未触发 1600 词破线。""",6d5032aa
+W5/W5b/W5c dup+reuse,dup_reuse,structural-steel-connection-fasteners,94,97,left_tail,"""首现跨篇模板句作为 std 锚点保留，非篇内重复；未触发 1600 词破线。""",88bc820d
+W5/W5b/W5c dup+reuse,dup_reuse,fastener-testing-quality-certification,94,97,left_tail,"""首现跨篇模板句作为 std 锚点保留，非篇内重复；未触发 1600 词破线。""",5d179983
+W5/W5b/W5c dup+reuse,dup_reuse,socket-head-cap-screws-guide,97,100,left_tail,"""首现跨篇模板句作为 std 锚点保留，非篇内重复；未触发 1600 词破线。""",725e10a7
+W5/W5b/W5c dup+reuse,dup_reuse,china-fastener-supplier-price-list-guide,97,100,left_tail,"""首现跨篇模板句作为 std 锚点保留，非篇内重复；未触发 1600 词破线。""",094e40c0
+W5/W5b/W5c dup+reuse,dup_reuse,galvanic-corrosion-fastener-selection,97,100,fixed,,d32616fe
+W5/W5b/W5c dup+reuse,dup_reuse,torque-tensioning-critical-fasteners,94,97,fixed,,1c927718
+W5/W5b/W5c dup+reuse,dup_reuse,set-screws-dowel-pins-guide,94,97,left_tail,"""首现跨篇模板句作为 std 锚点保留，非篇内重复；未触发 1600 词破线。""",7033f814
+W5d A线已改只补缺,gap_aowned,lagos-industrial-fasteners,85,100,fixed,,dc723a52
+W5d A线已改只补缺,gap_aowned,railway-track-fastener-specifications,95,100,fixed,,0cc4d2da
+W5d A线已改只补缺,gap_aowned,nigeria-lekki-port-construction-fastener-logistics,95,95,left_tail,"""entity 残因：首段 110 词窗口内缺产品名词，位于 A 线已改 sec0，禁止改写/前插，按 left_tail 登记""",f0f532dc
+W5d A线已改只补缺,gap_aowned,gaskets-specialty-washers-high-temp-guide,70,75,left_tail,"""lead 残因：属 A 线保护字段，不在本批补缺范围；entity 已清""",1ce5fa8a
+W6 数字债首批,money,ethiopia-industrial-park-fastener-supply,85,85,left_tail,"{""4"": {""locales"": [""ar"", ""de"", ""en"", ""es"", ""fr"", ""hi"", ""pt"", ""ru"", ""zh""], ""reason"": ""external_tariff_schedule: ESA/HS tariff range is a regulatory market fact, not our quote""}, ""7"": {""locales"": [""ar"", ""de"", ""en"", ""es"", """,[main 4b2388af] content(T9r-money): ethiopia-industrial-park-fastener-supply
+W6 数字债首批,money,zimbabwe-mining-fastener-grade-selection,87,87,fixed,,[main 39c64286] content(T9r-money): zimbabwe-mining-fastener-grade-selection
+W6 数字债首批,money,zimbabwe-rural-electrification-fastener-specifications,85,85,fixed,,[main 1cd180c7] content(T9r-money): zimbabwe-rural-electrification-fastener-specifications
+W6 数字债首批,money,high-strength-bolting-structural-steel,85,85,fixed,,[main 535a009d] content(T9r-money): high-strength-bolting-structural-steel
+W6 数字债首批,money,zim-construction-threaded-rods-supplier-evaluation-cost-optimization,85,85,fixed,,[main 4f93093e] content(T9r-money): zim-construction-threaded-rods-supplier-evaluation-cost-optimization
+W6 数字债首批,money,zim-construction-u-bolts-spec-checklist-mill-cert-traceability,85,85,fixed,,[main c8f5997d] content(T9r-money): zim-construction-u-bolts-spec-checklist-mill-cert-traceability
+W6 数字债首批,money,zim-construction-u-bolts-supplier-evaluation-galvanic-corrosion,85,85,fixed,,[main b3d1f39b] content(T9r-money): zim-construction-u-bolts-supplier-evaluation-galvanic-corrosion
+W6 数字债首批,money,zimbabwe-warehousing-racking-fastener-safety,85,85,fixed,,[main c66f4dd7] content(T9r-money): zimbabwe-warehousing-racking-fastener-safety
+W6 数字债首批,money,construction-building-self-tapping-screws-tco-analysis-joint-stiffness,85,85,fixed,,[main 39f4d265] content(T9r-money): construction-building-self-tapping-screws-tco-analysis-joint-stiffness
+W6 数字债首批,money,construction-building-self-tapping-screws-tco-analysis-uv-degradation,85,85,fixed,,[main 69ae0197] content(T9r-money): construction-building-self-tapping-screws-tco-analysis-uv-degradation
+W6 数字债首批,money,fastener-packaging-export-requirements,87,87,fixed,,[main a1096c77] content(T9r-money): fastener-packaging-export-requirements
+W6 数字债首批,money,precast-concrete-fastener-applications,87,87,fixed,,[main 285324fb] content(T9r-money): precast-concrete-fastener-applications
+W6 数字债首批,money,south-africa-sabs-fastener-import-requirements,88,88,fixed,,[main 814edc08] content(T9r-money): south-africa-sabs-fastener-import-requirements
+W6 数字债首批,money,zim-construction-anchor-bolts-lifecycle-cost-salt-spray,85,85,fixed,,[main 0425b967] content(T9r-money): zim-construction-anchor-bolts-lifecycle-cost-salt-spray
+W6 数字债首批,money,zim-construction-flat-washers-standard-explainer-lead-time,85,85,fixed,,[main d8306d05] content(T9r-money): zim-construction-flat-washers-standard-explainer-lead-time
+W6 数字债首批,money,zim-construction-lock-washers-tco-analysis-stress-cracking,85,85,fixed,,[main 6a348f35] content(T9r-money): zim-construction-lock-washers-tco-analysis-stress-cracking
+W6 数字债首批,money,fastener-cost-reduction-china-vs-turkey,92,92,fixed,,[main 6210c04c] content(T9r-money): fastener-cost-reduction-china-vs-turkey
+W6 数字债首批,money,africa-solar-energy-fastener-procurement-guide,85,85,fixed,,[main aea361ad] content(T9r-money): africa-solar-energy-fastener-procurement-guide
+W6 数字债首批,money,zimbabwe-road-bridge-rehabilitation-fastener-supply,85,85,fixed,,[main 2cf38135] content(T9r-money): zimbabwe-road-bridge-rehabilitation-fastener-supply
+W6 数字债首批,money,african-ftz-fastener-import-procedures,85,85,left_tail,"{""0"": {""locales"": [""ar"", ""en"", ""ja"", ""zh""], ""reason"": ""external_tariff_schedule: AfCFTA preferential tariff bands are published market facts""}, ""1"": {""locales"": [""ar"", ""en"", ""hi"", ""ja"", ""zh""], ""reason"": ""external_rule_rv",[main 02d09bec] content(T9r-money): african-ftz-fastener-import-procedures
+W6zh zh付款口径,money_zh,high-strength-bolting-structural-steel,85,85,fixed,,[main 8289f646] content(T9s-money-zh): high-strength-bolting-structural-steel
+W6zh zh付款口径,money_zh,zim-construction-threaded-rods-supplier-evaluation-cost-optimization,85,85,fixed,,[main 0e3ea4dd] content(T9s-money-zh): zim-construction-threaded-rods-supplier-evaluation-cost-optimization
+W6zh zh付款口径,money_zh,zim-construction-u-bolts-spec-checklist-mill-cert-traceability,85,85,fixed,,[main 3ef8cca9] content(T9s-money-zh): zim-construction-u-bolts-spec-checklist-mill-cert-traceability
+W6zh zh付款口径,money_zh,south-africa-sabs-fastener-import-requirements,88,88,fixed,,[main 067721ba] content(T9s-money-zh): south-africa-sabs-fastener-import-requirements
+W6zh zh付款口径,money_zh,zim-construction-anchor-bolts-lifecycle-cost-salt-spray,85,85,fixed,,[main 85267ea4] content(T9s-money-zh): zim-construction-anchor-bolts-lifecycle-cost-salt-spray
+W6zh zh付款口径,money_zh,zim-construction-lock-washers-tco-analysis-stress-cracking,85,85,fixed,,[main a7b7d1db] content(T9s-money-zh): zim-construction-lock-washers-tco-analysis-stress-cracking
+W6zh zh付款口径,money_zh,fastener-cost-reduction-china-vs-turkey,92,92,fixed,,[main 6b8da101] content(T9s-money-zh): fastener-cost-reduction-china-vs-turkey
+W7 数字债第二批,money,zimbabwe-bolts-screws-b2b-construction-exports-2026,97,97,left_tail,"{""s8#1"": {""en"": [""qty""], ""zh"": [""qty""], ""es"": [""qty""], ""fr"": [""qty""], ""pt"": [""qty""], ""ru"": [""qty""], ""ja"": [""qty""], ""de"": [""qty""], ""ar"": [""qty""], ""hi"": [""qty""]}}",ed3e13ad
+W7 数字债第二批,money,zim-construction-anchor-bolts-supplier-evaluation-corrosion-resistance,97,97,left_tail,"{""faq#0"": {""en"": [""qty""]}, ""faq#3"": {""zh"": [""qty""], ""es"": [""qty""], ""fr"": [""qty""], ""pt"": [""qty""], ""ru"": [""qty""], ""ja"": [""qty""], ""de"": [""qty""], ""ar"": [""qty""], ""hi"": [""qty""]}}",7aad241c
+W7 数字债第二批,money,kenya-infrastructure-fastener-demand,94,94,left_tail,"{""faq#3"": {""en"": [""qty""], ""es"": [""qty""], ""fr"": [""qty""], ""pt"": [""qty""], ""ru"": [""qty""], ""ja"": [""qty""], ""de"": [""qty""], ""ar"": [""qty""], ""hi"": [""qty""]}}",04e52972
+W7 数字债第二批,money,uganda-construction-fastener-market-2026,94,94,left_tail,"{""faq#2"": {""en"": [""money""], ""de"": [""money""]}}",8cc1f8c0
+W7 数字债第二批,money,fastener-quality-control-inspection-procedures,97,97,fixed,,456d1e48
+W7 数字债第二批,money,fastener-lubrication-thread-locking-guide,95,95,fixed,,1d92b9ac
+W7 数字债第二批,money,fastener-warehouse-management-best-practices,97,97,fixed,,06b5917d
+W7 数字债第二批,money,marine-grade-fastener-selection-guide,97,97,fixed,,b2afb6cd
+W7 数字债第二批,money,zim-construction-lock-nuts-rfq-template-bolt-pattern,87,87,fixed,,310db335
+W7 数字债第二批,money,fastener-preload-torque-calculation-methods,97,97,fixed,,b55d0dee
+W7 数字债第二批,money,africa-railway-modernization-fastener-demand,100,100,left_tail,"{""summary#0"": {""ru"": [""qty""], ""ar"": [""qty""]}}",92d4835c
+W7 数字债第二批,money,dr-congo-drc-mining-fastener-market,92,92,left_tail,"{""summary#0"": {""en"": [""qty""], ""ru"": [""qty""], ""ar"": [""qty""]}}",ad36fd8b
+W7 数字债第二批,money,food-beverage-fastener-hygiene-standards,92,92,left_tail,"{""summary#0"": {""en"": [""qty""], ""ru"": [""qty""], ""ar"": [""qty""]}}",1338fad3
+W7 数字债第二批,money,china-fasteners-zimbabwe-procurement-guide,97,97,fixed,,8129be7a
+W7 数字债第二批,money,east-africa-construction-fastener-market,92,92,fixed,,2eba63fb
+W7 数字债第二批,money,automotive-fastener-grade-comparison,95,95,left_tail,"{""summary#0"": {""ru"": [""qty""], ""ar"": [""qty""]}}",c27a634c
+W7 数字债第二批,money,africa-fastener-market-opportunities-2026,97,97,left_tail,"{""top#0"": {""en"": [""money""]}}",23fe8c09
+W7 数字债第二批,money,angola-construction-boom-fastener-demand,100,100,left_tail,"{""summary#0"": {""ru"": [""qty""], ""ar"": [""qty""]}}",856fee57
+W7 数字债第二批,money,green-building-fastener-requirements,92,92,left_tail,"{""summary#0"": {""en"": [""qty""], ""ru"": [""qty""], ""ar"": [""qty""]}}",e0f8eb93
+W7 数字债第二批,money,kenya-east-africa-fastener-distribution-hub,100,100,left_tail,"{""summary#0"": {""ru"": [""qty""], ""ar"": [""qty""]}}",ed20fab4
+W8 数字债第三批,money,mozambique-fastener-import-market-guide,100,100,fixed,,
+W8 数字债第三批,money,solar-panel-mounting-fastener-requirements,100,100,fixed,,
+W8 数字债第三批,money,tanzania-fastener-market-opportunities-2026,75,75,fixed,,
+W8 数字债第三批,money,wind-energy-fastener-requirements-2026,75,75,fixed,,
+W8 数字债第三批,money,zimbabwe-agricultural-fastener-requirements,100,100,fixed,,
+W8 数字债第三批,money,zimbabwe-bulawayo-construction-hardware-supply,75,75,fixed,,
+W8 数字债第三批,money,botswana-fastener-supplier,75,75,fixed,,
+W8 数字债第三批,money,rwanda-construction-fastener-market-2026,75,75,fixed,,
+W8 数字债第三批,money,fastener-export-china-to-africa-guide,75,75,fixed,,
+W8 数字债第三批,money,zimbabwe-construction-megaprojects-fastener-demand,97,97,fixed,,
+W8 数字债第三批,money,zambia-copper-mining-fasteners-grade-selection-2026,85,85,fixed,,
+W8 数字债第三批,money,drc-diamond-mining-fasteners,75,75,fixed,,
+W8 数字债第三批,money,southern-africa-fastener-market-southafrica-botswana,75,75,fixed,,
+W8 数字债第三批,money,africa-informal-construction-fastener-demand,85,85,fixed,,
+W8 数字债第三批,money,botswana-construction-boom-fastener-import,85,85,fixed,,
+W8 数字债第三批,money,zimbabwe-fastener-supplier,75,75,fixed,,
+W8 数字债第三批,money,ghana-building-materials,75,75,fixed,,
+W8 数字债第三批,money,buy-construction-fasteners-wholesale-china,85,85,fixed,,
+W8 数字债第三批,money,ghana-fastener-market-guide,75,75,fixed,,
+W8 数字债第三批,money,zim-construction-anchor-bolts-rfq-template-corrosion-resistance,100,100,fixed,,
+W7 material-selection ja,ja,before,,,fixed,,
+W7 material-selection ja,ja,sections_before,,,fixed,,
+W7 material-selection ja,ja,after,,,fixed,,
+W7 material-selection ja,ja,sections_after,,,fixed,,
+W7 material-selection ja,ja,gates,,,fixed,,
+W7 material-selection ja,ja,notes,,,fixed,,
+W3 接手1-19,adopt37,agricultural-machinery-fastener-guide,,,done,无缺槽；收编第三线在途 faq 语种补全，过闸,06ec02da2287daa2eeb3ae758659b749a6c400be
+W3 接手1-19,adopt37,anchor-bolts-selection-guide,,,done,补 FAQ 小节 zh 正文槽；其余在途改动收编,bafe873061bccce5fd40e0824d4ba3ffef12ffe1
+W3 接手1-19,adopt37,bolt-grade-markings-guide,,,done,补 FAQ 小节 zh 正文槽（8 段）,ff0a5fbbc58a7a9391a6dc013db28c61858c82be
+W3 接手1-19,adopt37,bolt-tightening-torque-guide,,,done,无缺槽；收编在途改动，过闸,ecfd129388fbaf6a28bc1c44b4f6429cd4f62131
+W3 接手1-19,adopt37,china-iso-9001-fastener-manufacturer-directory,,,done,补 FAQ 小节 zh 正文槽（5 段）,3801106c6672c4fcaac35e38ba7e0c36095969a2
+W3 接手1-19,adopt37,china-zimbabwe-fastener-shipping-container-guide,,,done,工作树与 HEAD 一致，无在途改动；仅过闸确认，未提交,
+W3 接手1-19,adopt37,concrete-anchors-fasteners-guide,,,done,无缺槽；收编在途改动，过闸,360bc1c4e56c9f0f3f36194a9600cecd178eaf63
+W3 接手1-19,adopt37,congo-brazzaville-fastener,,,done,无缺槽；收编在途改动，en 未改，过闸,8f29ba18acb2a087d1d386bcdb8a0425f0eef12d
+W3 接手1-19,adopt37,conveyor-belt-fasteners,,,done,补 FAQ 小节 zh 正文槽；en 未改,59a60784587869da1940e17f57b491a83ee60641
+W3 接手1-19,adopt37,drywall-screws-complete-guide,,,done,无缺槽（8 小节齐全）；收编在途改动，过闸,381726494c34591825afc9aae2f4be2a60a87f23
+W3 接手1-19,adopt37,fastener-corrosion-resistance-guide,,,done,无缺槽；收编在途改动，en 未改,2a0988dd1da966517420665ea9a024ee8662b98d
+W3 接手1-19,adopt37,flat-washers-vs-spring-washers,,,done,无缺槽；收编在途改动，过闸,72d8affe4a9bf34ba3a1b760470292ed097860ff
+W3 接手1-19,adopt37,ghana-tema-port-fastener-import-procedure,,,done,工作树与 HEAD 一致，无在途改动；仅过闸确认，未提交,
+W3 接手1-19,adopt37,harare-fastener-distributor-supplier-guide,,,done,补 sec0 faqItems[1] 的 ja 答案槽（按 en 原文直译，店名/Net 30–60 原样）；其余在途改动无。补后四道闸全过,9b1ea364bfaf08ba124b5a5d22b8a65969fe3276
+W3 接手1-19,adopt37,hex-bolt-dimensions-chart,,,done,补 FAQ 小节 zh 正文槽；en 未改,ece72f77e0dcae55ce8073259a7f1177db654051
+W3 接手1-19,adopt37,high-strength-bolts-8-8-10-9-12-9-grade-guide,,,done,补 FAQ 小节 zh 正文槽；en 未改,987456970bf0009ef679c5bc2dbaca9a25bb201a
+W3 接手1-19,adopt37,high-tensile-bolts-grade-guide,,,done,补 FAQ 小节 zh 正文槽；en 未改,e48749fb6fcbd77207e52028443e1939c83e4f3e
+W3 接手1-19,adopt37,high-tensile-structural-bolts-guide,,,done,补 FAQ 小节 zh 正文槽,54e2aa2977e165583cd237d7637b6caff68433aa
+W3 接手1-19,adopt37,ibr-roofing-nails-installation-guide,,,done,补 FAQ 小节 zh 正文槽,d98b6502469f50051e66caab8c49e32922c22701
+W2 接手20-37,adopt37,ivory-coast-abidjan-port-fastener-tariff,0,,done,无缺槽：确认+过闸+收编提交；补槽0,5e9c969a9
+W2 接手20-37,adopt37,libya-tripoli-construction-fastener-sourcing,0,,done,无缺槽：确认+过闸+收编提交；补槽0,10518159c
+W2 接手20-37,adopt37,malawi-fastener-market-case-study,0,,done,无缺槽：确认+过闸+收编提交；补槽0,5f48736fb
+W2 接手20-37,adopt37,marine-outdoor-corrosion-resistant-bolts-guide,1,,done,；补槽1,6efaa7009
+W2 接手20-37,adopt37,mozambique-hardware-supplier,16,,done,；补槽16,a07891aef
+W2 接手20-37,adopt37,nuts-bolts-glossary-terminology,0,,done,无缺槽：确认+过闸+收编提交；补槽0,d874966ab
+W2 接手20-37,adopt37,roofing-screws-epdm-washer-guide,0,,done,无缺槽：确认+过闸+收编提交；补槽0,2572e029a
+W2 接手20-37,adopt37,rwanda-construction-fastener-standards,0,,done,无缺槽：确认+过闸+收编提交；补槽0,57e19fd78
+W2 接手20-37,adopt37,self-drilling-screws-selection-guide,1,,done,；补槽1,6ed0a5629
+W2 接手20-37,adopt37,self-tapping-screws-complete-classification-guide,0,,done,无缺槽：确认+过闸+收编提交；补槽0,c5bf637b4
+W2 接手20-37,adopt37,telecom-tower-fasteners,5,,done,；补槽5,f6ae4e84a
+W2 接手20-37,adopt37,thread-types-guide-metric-imperial,4,,done,；补槽4,44f851439
+W2 接手20-37,adopt37,threaded-rod-studding-guide,5,,done,；补槽5,bd320269c
+W2 接手20-37,adopt37,togo-lome-port-fastener-import-procedure,0,,done,无缺槽：确认+过闸+收编提交；补槽0,0ea97dab4
+W2 接手20-37,adopt37,tunisia-mediterranean-fastener-export-guide,0,,done,无缺槽：确认+过闸+收编提交；补槽0,8d46dc6f0
+W2 接手20-37,adopt37,washer-types-applications-guide,81,,done,；补槽81,51eae2a58
+W2 接手20-37,adopt37,zambia-fastener-supplier,4,,done,；补槽4,809796030
+W2 接手20-37,adopt37,zinc-plated-vs-black-phosphate-screws,4,,done,；补槽4,6e5e72e36
