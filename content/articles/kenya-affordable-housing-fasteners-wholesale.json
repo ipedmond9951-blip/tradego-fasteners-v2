@@ -350,16 +350,16 @@
             "ja": "輸送ルートと納期はどの程度ですか？"
           },
           "a": {
-            "en": "Bulk fasteners move by sea freight to Mombasa, operated by the Kenya Ports Authority, which handles over 95% of Kenya's fastener imports. FCL transit from Shanghai is typically 28 to 35 days, plus port clearance and inland delivery to the site; average vessel transit from major Chinese ports runs 25-35 days. Booking early protects the schedule when several sites need material in the same month. Plan the inland leg and clearance alongside the sea transit, and keep the certificate and packing list ready so the shipment clears without manual review.",
-            "zh": "海运到蒙巴萨，从中国主要港口整箱（FCL）通常 28–35 天，另加清关和内陆配送。多个工地同月要料时要提前订舱，才能护住项目工期。排产和订舱按安装窗口倒推：生产周期、海运班期、清关和内陆运输分别预留时间；同一月份多个工地集中要料时提前锁定舱位，散货拼箱与整箱的在途时间不同，交期在合同里按运输方式写明，到货前与货代核对清关资料是否齐全。",
-            "hi": "मोंबासा बंदरगाह तक समुद्री मार्ग है; चीन से FCL माल ढुलाई आम तौर पर 28–35 दिन लेती है, उसके बाद निकासी और अंतर्देशीय डिलीवरी। एक ही महीने में कई साइटों को सामान चाहिए तो समय पर बुकिंग से प्रोजेक्ट शेड्यूल सुरक्षित रहता है।",
-            "ru": "Морская перевозка в Момбазу: контейнерный рейс из Китая обычно идёт 28–35 дней, плюс таможенная очистка и доставка по суше. Бронирование заранее страхует график объекта, когда материал в один и тот же месяц нужен на нескольких площадках.",
-            "ar": "الشحن البحري إلى مومباسا، ويستغرق عبور FCL من شنغهاي عادة 28–35 يومًا إضافة إلى التخليص والتسليم الداخلي. والحجز المبكر يحمي جدول المشروع عندما تحتاج عدة مواقع إلى المواد في الشهر نفسه.",
-            "es": "Flete marítimo a Mombasa, con tránsito FCL desde Shanghai típicamente de 28 a 35 días más despacho y entrega terrestre. Reservar con antelación protege el calendario del proyecto cuando varios sitios necesitan material en el mismo mes. El plan de envío se cierra según la fecha de obra de cada sitio.",
-            "fr": "Fret maritime vers Mombasa, transit FCL depuis Shanghai typiquement de 28 à 35 jours, plus dédouanement et livraison intérieure. Réserver tôt protège le calendrier du projet lorsque plusieurs sites ont besoin de matériel dans le même mois. Le délai portuaire doit être planifié en amont.",
-            "pt": "Frete marítimo para Mombaça, com trânsito FCL de Xangai tipicamente de 28 a 35 dias, mais liberação e entrega interna. Reservar cedo protege o cronograma do projeto quando vários canteiros precisam de material no mesmo mês. A rota é confirmada com o despachante, e o trecho terrestre entra no prazo de entrega ao canteiro.",
-            "de": "Seefracht nach Mombasa, FCL-Transit von China typisch 28 bis 35 Tage zuzüglich Zollabwicklung und Binnenzustellung. Frühzeitige Buchung schützt den Projektplan, wenn mehrere Standorte im selben Monat Material brauchen.",
-            "ja": "モンバサまでの海上貨物で、上海からの FCL 輸送は通常 28〜35 日、その後通関と内陸配送が加わります。同月に複数現場へ資材が必要な場合は、早めの手配で工程を守れます。輸送と通関の日程を見込んで発注計画を立ててください。港の混み状況や通関手続きも含め、余裕を持った日程で手配することが望ましいです。"
+            "en": "Bulk fasteners move by sea freight to Mombasa, under the Kenya Ports Authority, which handles the dominant share of the country's fastener imports. The transit position depends on the Chinese port of departure, the vessel schedule, transshipment, port clearance and the inland leg to the site, rather than a fixed published span; full container and consolidated loads move on different timings. Booking early protects the schedule when several sites need material in the same month. Plan the inland leg and clearance alongside the sea transit, keep the certificate and packing list ready so the shipment clears without manual review, and confirm the production slot and shipping mode with the supplier before the order is booked. Lead time is quoted per order.",
+            "zh": "海运到蒙巴萨，由肯尼亚港务局操作，承担该国紧固件进口的主要份额。在途位置取决于中国起运港、船期、中转、清关和到工地的内陆段，不是固定天数；整箱与拼箱节奏不同。多个工地同月要料时提前订舱护住工期；内陆段和清关与海运一并安排，备齐证书和装箱单以便顺利放行；下单前与供方确认排产和运输方式。交期按订单核算。",
+            "hi": "लीड टाइम ऑर्डर के अनुसार तय होता है।",
+            "ru": "Срок поставки рассчитывается по заказу.",
+            "ar": "يُحتسب موعد التسليم حسب الطلب.",
+            "es": "El plazo se cotiza por pedido.",
+            "fr": "Le délai est établi par commande.",
+            "pt": "O prazo é cotado por pedido.",
+            "de": "Die Lieferzeit wird pro Auftrag kalkuliert.",
+            "ja": "納期はご注文ごとに算出します。"
           }
         }
       ]
