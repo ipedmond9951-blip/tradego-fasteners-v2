@@ -87,7 +87,7 @@
     {
       "id": "sabs-standards",
       "heading": {
-        "en": "SABS Standards for Fasteners",
+        "en": "Which SABS and adopted international standards govern South African fasteners?",
         "es": "Normas SABS para Elementos de Fijación",
         "ar": "معايير SABS لأدوات التثبيت",
         "fr": "Normes SABS pour les fixations",
@@ -96,7 +96,7 @@
         "ja": "ファスナー向けSABS規格",
         "de": "SABS-Normen für Verbindungselemente",
         "hi": "फास्टनरों के लिए SABS मानक",
-        "zh": "SABS紧固件标准"
+        "zh": "哪些 SABS 及采纳的国际标准规范南非紧固件？"
       },
       "body": {
         "en": "<p>South African Bureau of Standards (SABS) regulates <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a> standards: <strong>Adopted International Standards</strong>: - SABS/ISO 4017: <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Hex bolts</a> (equivalent to DIN 933)\n- SABS/ISO 4032: Hex <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">nuts</a> (equivalent to DIN 934)\n- SABS/ISO 7089: Plain <a href=\"/products#washers\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">washers</a> (equivalent to DIN 125)\n- SABS ISO 14582: High-strength structural <a href=\"/products#bolts-nuts\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">bolts</a></p>\n<p><strong>Local Standards</strong>: - SABS 1575: <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Fasteners</a> for use in power transmissions\n- SABS 1709: <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Fasteners</a> for residential construction</p>\n<p>Actual market prices fluctuate with raw material costs (steel, zinc, nickel), energy costs, labor costs, and currency exchange rates.</p><p>For accurate comparison, request identical RFQs from 3-5 qualified suppliers and compare landed cost (product + shipping + insurance + duties). The lowest unit price is rarely the lowest total cost of ownership.</p>",
@@ -114,7 +114,7 @@
     {
       "id": "import-procedures",
       "heading": {
-        "en": "Import Procedures",
+        "en": "What documents and steps bring fasteners through South African import procedures?",
         "es": "Procedimientos de Importación",
         "ar": "إجراءات الاستيراد",
         "fr": "Procédures d'importation",
@@ -123,7 +123,7 @@
         "ja": "輸入手続き",
         "de": "Einfuhverfahren",
         "hi": "आयात प्रक्रियाएं",
-        "zh": "进口程序"
+        "zh": "紧固件进口南非要经过哪些单据与流程？"
       },
       "body": {
         "en": "<p>Importing <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a> to South Africa:</p>\n<p><strong>Documentation</strong>: - Bill of Entry (SAD 500) for customs\n- Commercial invoice and packing list\n- Certificate of Origin (for duty calculation)\n- Import permit (if required for certain products)</p>\n<p><strong>Customs Duties</strong>: - Chapter 73 (Iron and Steel products): 10% base duty\n- Some specialty <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a> may have different rates\n- VAT: 15%</p>\n<p><strong>Key Ports</strong>: - Durban: Largest and most common\n- Cape Town: For Western Cape deliveries\n- Port Elizabeth: For Eastern Cape</p>\n<p><strong>Tip</strong>: Use experienced customs broker familiar with Chapter 73 classifications. For high-risk applications (load-bearing structural, pressure vessels, mining, marine), add fatigue testing, salt-spray testing (ASTM B117), torque-tension testing, and post-installation inspection. The cost of additional verification is 0.1-0.3% of order value, while undetected quality failures can be 10-100x the order value in damages.</p><h3>Documentation and incoming inspection</h3>\n<p>Beyond the customs set, industrial buyers in South Africa expect the fastener lot to carry its own traceability: the mill record per EN 10204 3.1 with heat number and mechanical tests, a packing list matched to carton marks, and a statement of the SANS or ISO reference the product meets. Mining houses in particular add their own incoming checks on structural lines, and a batch whose certificate cannot be matched to the lot is held at the receiving bay rather than accepted against the invoice. Pre-loading inspection, where required, samples packed cartons for dimensions, coating and thread fit, and records the sealed container with its seal number so the delivered goods can be compared against the approved sample.</p>",
