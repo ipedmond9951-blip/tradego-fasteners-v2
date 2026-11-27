@@ -60,7 +60,7 @@
     {
       "id": "material-test-reports",
       "heading": {
-        "en": "Understanding Material Test Reports (MTRs)",
+        "en": "What does a material test report record for a delivered fastener batch?",
         "es": "Comprensión de los Informes de Pruebas de Materiales (MTR)",
         "ar": "فهم تقارير اختبار المواد (MTRs)",
         "fr": "Comprendre les rapports d'essais de matériaux (MTR)",
@@ -69,7 +69,7 @@
         "ja": "材料試験報告書(MTR)の理解",
         "de": "Verständnis von Werksprüfzeugnissen (MTRs)",
         "hi": "सामग्री परीक्षण रिपोर्ट (MTR) को समझना",
-        "zh": "理解材料试验报告（MTR）"
+        "zh": "材质证明记录了交付紧固件批次的哪些内容？"
       },
       "body": {
         "en": "<p>A Material Test Report (MTR) is a certified document that provides the actual test results for a specific batch of <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a>. An MTR should include: Heat/batch number — traces the <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a> to the specific heat of steel it was made from; Manufacturing date — tracks when the batch was produced; Chemical composition — actual percentages of carbon, manganese, chromium, nickel, molybdenum, etc.; Mechanical properties — tensile strength, yield strength, elongation, reduction of area; Hardness — measured in Rockwell or Brinell; Surface treatment/coating — type and thickness of any coating applied.</p>\n<p>Always verify that the MTR values meet or exceed the specified grade requirements. For example, a Grade 10.9 bolt requires tensile ≥1000 MPa and yield ≥900 MPa — the MTR must show actual measured values, not just 'meets specification.' MTRs from manufacturer working to ISO 9001-aligned quality proceduress typically show actual values, not just 'complies.' Standards-based procurement requires continuous learning as ISO, ASTM, DIN, and GB standards are revised every 3-5 years.</p>\n<p>Subscribe to standards update notifications and review specifications annually. The most common standards used in international fastener trade are ISO 898-1 (mechanical properties), ISO 3506-1 (stainless), ISO 3269 (acceptance inspection), ISO 4042 (coatings), and ISO 1502 (thread gauges). For B2B buyers, building a standards reference library with at least the top 20 standards relevant to your product mix is essential.</p>\n<p>Standards-based procurement requires continuous learning as ISO, ASTM, DIN, and GB standards are revised every 3-5 years.</p>",
@@ -87,7 +87,7 @@
     {
       "id": "tensile-testing",
       "heading": {
-        "en": "Mechanical Testing Methods",
+        "en": "Which tensile, hardness and wedge tests verify a fastener's mechanical grade?",
         "es": "Métodos de Pruebas Mecánicas",
         "ar": "طرق الاختبار الميكانيكي",
         "fr": "Méthodes d'essais mécaniques",
@@ -96,7 +96,7 @@
         "ja": "機械的試験方法",
         "de": "Mechanische Prüfverfahren",
         "hi": "यांत्रिक परीक्षण विधियां",
-        "zh": "机械试验方法"
+        "zh": "哪些抗拉、硬度与楔负载试验核验紧固件机械等级？"
       },
       "body": {
         "en": "<p>Mechanical testing verifies the strength characteristics of <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a>: Tensile test — applies pulling force until the <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a> breaks; measures ultimate tensile strength, yield strength, elongation; the primary strength verification. Proof load test — applies a specified tensile load without causing permanent set; verifies the <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a> can carry its rated load without plastic deformation; less destructive than tensile testing.</p>\n<p>Hardness test — measures resistance to indentation; can be done on finished parts without destroying them; converted to tensile strength for comparison. Impact (Charpy) test — measures toughness (resistance to sudden loading); important for structural <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a> in cold or dynamic loading conditions. Wedge tensile test — applies tensile load at an angle to simulate eccentric loading; used for structural bolting system qualification.</p>\n<p>The comparison methodology above uses typical ranges from industry data and TradeGo procurement experience 2018-2024. Actual market prices fluctuate with raw material costs (steel, zinc, nickel), energy costs, labor costs, and currency exchange rates. For accurate comparison, request identical RFQs from 3-5 qualified suppliers and compare landed cost (product + shipping + insurance + duties). The lowest unit price is rarely the lowest total cost of ownership.</p> <p>A test report is read against the ordered specification, not only for a passing mark: the property class, heat number, sample size and test method on the MTR should match the purchase line, and any blank or hand-filled entry is checked with the mill before the lot is accepted. Tensile proof load, hardness and thread gauge results are retained per batch, and retained samples are kept with the lot record so a later failure can be re-tested against the original production. Where the destination requires an outside witness, the inspection body, report reference and date are recorded alongside the MTR, so the document chain can be followed from the certificate to the carton delivered to site.</p>",
