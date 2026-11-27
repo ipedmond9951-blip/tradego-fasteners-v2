@@ -233,7 +233,7 @@
             "hi": "जिम्बाब्वे गोदाम रैक फास्टनर सुरक्षा: भार परीक्षण ऑर्डर के लिए विशिष्ट लीड टाइम क्या है?"
           },
           "a": {
-            "en": "Lead time depends on whether the item is a standard specification or a custom one, on the shipping mode (LCL or FCL), and on customs clearance efficiency; urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
             "zh": "货架在满载与叉车碰撞下长期承受振动，连接松动是主要失效模式，而不是螺栓拉断。横梁连接螺栓须写明性能等级与扭矩值，降等级替代会吃掉设计预留裕度。地脚锚栓由楼板决定，要按该板厚与混凝土强度的实测拔出值选型，不能只翻样本。连接副可按 ISO 898-1 8.8 级配防松垫圈，锚栓按 ASTM F1554 Grade 36/55/105 核对。交期按订单核算。",
             "es": "El plazo se cotiza por pedido.",
             "fr": "Le délai est établi par commande.",
@@ -259,7 +259,7 @@
             "hi": "जिम्बाब्वे गोदाम रैक फास्टनर सुरक्षा: भार परीक्षण के लिए न्यूनतम ऑर्डर मात्रा (MOQ) क्या है?"
           },
           "a": {
-            "en": "MOQ varies by supplier scale, setup costs and whether the order is consolidated into a full container or shipped as LCL. Minimum order quantity follows the production route.",
+            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
             "zh": "验收要点是预紧力而非断裂：首个满载季后按巡检周期抽查连接螺栓扭矩，目检底板是否翘起，发现松动仍属维护问题，拖到坍塌报告就晚了。横梁与立柱连接件应按架型配套打包，标签注明适用横梁型号。地脚锚栓与底板成套发货，避免现场配错规格。起订量按生产路线确定。",
             "es": "La cantidad mínima depende de la ruta de producción.",
             "fr": "La quantité minimale dépend de la route de production.",
@@ -285,7 +285,7 @@
             "hi": "जिम्बाब्वे गोदाम रैक फास्टनर सुरक्षा: भार परीक्षण खरीद के लिए विशिष्ट भुगतान शर्तें क्या हैं?"
           },
           "a": {
-            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market; any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
+            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit arranged through the buyer's bank. The settlement route, documents and milestones should be agreed up front, and any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
             "zh": "付款审核应结合供应商对连接副扭矩与锚栓拔出数据的掌握程度：能提供等级标记、扭矩参考值与材质证明的一方更稳妥。验厂时核对冷镦、滚丝与表面处理产线，量具和扭矩扳手是否在校准有效期内，仓库有无不同等级混放。所在国银行多要即期信用证。验厂拒绝、全款预付、个人账户收款任一条都应放弃。付款条件按里程碑约定。",
             "es": "Las condiciones de pago se acuerdan por hitos.",
             "fr": "Les conditions de paiement sont convenues par jalons.",
