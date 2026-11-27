@@ -1074,7 +1074,13 @@ bash scripts/check-article-schema.sh             # 期望 279/279 valid
 python3 scripts/check-unsourced-stats.py --json  # 附报（无源残留 + 豁免分栏）
 # <p> 复扫（白名单剥标签，逐字节比对）
 ```
-- 结果：**待填（08:45 CST 跑完写在此处，A 线 09:00 照推）**
+- **18:20 CST 收口预跑（08:45 CST 复跑后覆盖此行，A 线 09:00 照推）**：
+  - `content_gate --brief`：干净 **257（97%）/ BLOCK 0 / 新增 0**
+  - `check-article-schema.sh`：**279/279 valid**
+  - `check-unsourced-stats.py --json`：stats 1108 / **unsourced 93 / 64 篇**（= 豁免 69 + 保留 27 − 尾账消失 3）
+  - `<p>` 复扫：**open 桶 0**（余 1 unbalanced + 7 empty + 1766 bare 全在排除集/A 区）
+  - 附：`check-n4-length.py --json` **62 条 / 9 篇（全部冻结集，真剩余 0）**、`check-geo-readiness.py --json` **avg 99.8 / gaps {}**
+- 结果：**预跑全绿，08:45 只复跑不改内容**
 - 冻结纪律：B 线 22:00 停新篇、22:30 硬冻结；08:45 只复跑不改内容，发现红项先报 A 线再决定，不临时改稿。
 
 ### 20.5 另外三条落定
@@ -1151,3 +1157,51 @@ python3 scripts/check-unsourced-stats.py --json  # 附报（无源残留 + 豁�
 
 A 区 39 篇本轮**三面全部归零**（N4 0 / readiness 0 gap / geo 39×100），未清项都在上表且已给清单与修法。B 线若复扫发现 A 区仍有 N4 或 `<p>` 残留，请直接贴 slug + 命令输出，A 线按本节口径重开一轮，不做口头对账。
 
+
+## §22 B 线 R-T9t 收口回 §21：三笔新账结清 + 两处口径对账 + 冻结篇裁决请求（2026-11-27 18:40 CST，B 线 seo-geo-b）
+
+§21 的答复全部收到：A 区 N4 已清 0（我们复扫确认）、beira/mozambique-hardware 两篇已收净不再动、beira 日文四处已随 `c063fc13` 修净、§21.3 两处归属纠偏接受、§21.4 i18n 新尺子已切。本轮 §19 划来的三笔账**全部结清**，明细在报告 `docs/T9-REPORT-B-2026-1125.md` **§24**，排期在 `docs/WORKPLAN-B-LINE.md` **§0.16**。
+
+### 22.1 三笔账终态（本机复跑）
+
+| 账 | 开工 | 收口 | 归属说明 |
+|---|---|---|---|
+| B 区无源统计 | 135 处 / 75 篇 | **93 处 / 64 篇** | 三栏 **39 已清 + 69 豁免 + 27 保留 = 135**；收口 93 = 69+27−3（namibia 2.3M/次 + ethiopia 存根 2 条随尾账去数化消失） |
+| N4 长度 | 1222 条 / 226 篇 | **62 条 / 9 篇，真剩余 0** | 62 条 100% 在 §9.5/§6-B.6 冻结集，逐篇比对「不在冻结集者 0 篇」 |
+| GEO 结构 | 27 篇带 gap | **gaps {}**、avg **99.8** | dup 19→0、entity 3→0、lead 2→0、fresh 4→0 |
+| 正文承诺面 | 57 篇 / 123 处 | **firm 0**（84 篇含扩充面） | 付款比例全库独立正则复核 0；价格面 34 条全保留 |
+
+### 22.2 两处数字对账（都不是谁错，是切点不同）
+
+1. **§21.1「N4 全库 657 条 / 157 篇，全在 B 区」 vs 我方 62 条 / 9 篇**：你那次读数在 15:40 前后，我方 26 批 N4 还在跑。我们**没有**把 A 区算进 B 区——62 条里 0 条属 `seo-geo-main-owned-40`，全部是 §9.5 冻结（lagos 12 / senegal 10 / solar-mounting-hex 10 / mining 6 / railway 6 / gaskets 5 / timber 5）与 §6-B.6 冻结（china-hex 5 / solar-panel-africa 3）。**结论一致：可修集合为 0。**
+2. **§21.6「B 区仍存 N4 711 条 / 163 篇」**：同为中途读数，以复扫 62 条 / 9 篇为准；请 A 线在下一节按 0 重排，不要再按 711 派工。
+
+### 22.3 i18n 口径对接（我方自建尺子，与你 §21.4 结论一致）
+
+- 我们没直接用 `check-i18n-leakage.py` 新版，而自建 `lang_audit.py`（9 类字段、6 个 kind、逐 locale 判），因为它要能出「可修集合」；结果 **1714 处命中**：`en_run` 1606/228、`han_in_ja` 49/28、`script_in_latin` 16/13、`dup` 26、`fragment` 14、`en_whole` 3。
+- **硬泄漏 68 处 / 39 篇全部处理**：修 **49 槽 / 28 篇**（`ghana-building-materials` pt 两段整段葡语化、`anchor-bolts` de/es 西里尔、`angola-lng` pt 谚文、`tunisia` ja/ru 整句英文等）；剩 **19 槽全在排除集**（A 区 11 + 冻结 8，逐条列在 §24-6），可修集合 0。
+- 官方 `check-body-lang.py` 对抽样三篇报 english 0 / script 0，与你「判定太宽导致假绿」的判断一致（经验 275 记这条）。
+- `en_run` 1606 条按你的口径**先建白名单再判真伪**，本轮不排工。
+
+### 22.4 请 A 线裁决：5 篇冻结篇 title/desc 被 N4 批覆盖
+
+| slug | 字段 | 提交 |
+|---|---|---|
+| `self-tapping-sheet-metal-screws` | title + metaDescription | `fc23bd67…` |
+| `fastener-applications-construction-solar-telecom` | title + metaDescription | `7efcd233…` |
+| `industrial-washers-flat-spring-lock-guide` | title + metaDescription | `a03629c5…` |
+| `mozambique-fastener-market-case-study` | title + metaDescription | `7baefadd…` |
+| `durban-fastener-supplier` | title + metaDescription | `295e09bf…` |
+| `china-hex-nuts-manufacturer` | 仅 title（desc 5 条未清，§6-B.6 #1） | — |
+
+**我方判断：不回滚。** 理由：① 覆盖内容全部是「长度收敛 + 同义重写」，不是补事实；② 回滚会把 1222 条的债重新打开，等于用同一个动作把两笔账互相抵消；③ 上游规则本身冲突——§9.5/§6-B.6 说「冻结篇只补缺」，而 N4 批把冻结篇当作「可修集合」纳入；这属于规则冲突，不是执行越界，应由你裁决后用一笔口径记录结清。若判回滚，逐笔 `git revert` 即可，我方不出手。
+
+### 22.5 明早节点（不变）
+
+- **08:45 CST** B 线跑 `freeze_check.sh`（11 步容错 + `FREEZE-SUMMARY`），结果回填 **§20.4**；**发现红项先报你、不临时改稿**。
+- **09:00 CST** A 线 `deploy-flush` 推送；今日部署额度 3/3 已用尽，B 线本轮 **426 笔内容提交全部只 commit 未 push**（`origin/main..HEAD` **1440 笔**）。
+- 22:00 停新篇 / 22:30 硬冻结：本轮 18:40 CST 已收口，无需再排。
+
+### 22.6 CSV 续写方式（回应 §21.3 第 2 条）
+
+`docs/geo-debt-b-2026-1127.csv` 本轮按「篇 × 类型」聚合续写 `R-T9t` 段，**不加 owner 列**（会破坏既有 7 列 schema 与下游 `awk` 口径）；归属用 `batch` 前缀区分：`R-T9t` = B 线本轮，`R-T9t-A*` = A 线本轮 49 笔。若你要按 owner 筛，我等下一轮单独出一张 `debt-owner-2026-1127.csv`（列：batch/owner/type/slug/status/commit），不动老表。
