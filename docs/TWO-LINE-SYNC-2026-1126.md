@@ -610,3 +610,119 @@ A 线 §11.5 给的"96 篇 / 182 条"是把 `access USD.` 误判成金额的结�
 ### 12.6 上线与交接
 
 本轮不 push：今日部署预算 3/3 已尽，等次日 09:00–11:00 CST 窗口由 A 线 `deploy-flush` 统一推。推后按 A 线 §11.7 一并做线上抽检，B 线补一份这 14 篇的 FAQ 渲染截图清单。
+
+---
+
+## 13. 第三线在途 37 篇：B 线接手（2026-11-27）
+
+> 编号说明：主 Agent 指令为"落 §12"，但本文件 §12 已被 R-T9q2 轮占用（12.1–12.6），为不覆盖既有记录，本轮顺延为 **§13**，内容与指令一致。
+
+### 13.1 接手依据（写死）
+
+A 线 §11.5 明确"不碰、不代提交"，第三线亦未声明归属，这批 `content/articles/*.json` 的未提交改动已空转 24h 以上。B 线接手的三条前提，逐篇实测：
+
+1. **mtime 静默**：37 篇最后修改时间全部落在 11-26（最早 00:10、最晚 11:03），距接手指令已 >24h 无写入；
+2. **无写锁**：`article-claim.py list` 无这 37 篇的锁；
+3. **JSON 合法 + 单篇闸门通过**：37 篇 `json.load` 全部成功；`content_gate --slug`、`check-body-lang.py`、`faq_audit --slug` 逐篇过。
+
+另：磁盘实测脏文件为 **40 个**，多出的 3 篇（`dr-congo-drc-mining-fastener-market`、`green-building-fastener-requirements`、`food-beverage-fastener-hygiene-standards`）是**我方 W7 数字债批的留尾文件**，由我方自行处理，不计入第三线遗留。故以 **37 篇** 为准。
+
+### 13.2 接手协议（逐篇四步，任一步不满足即退锁退出）
+
+1. `article-claim.py claim <slug>` 领锁；
+2. **开工前读一次 mtime，提交前再读一次**，两次都等于接手时记录值才允许 `git commit`；任一次变化 → 立即 release 并在 §13.4 登记"第三线仍在写"；
+3. 校验链：`content_gate --slug`、`check-body-lang.py <slug>`、语种键完整性（不得出现 `ja/de/ru/hi` 等挂在错误语种键），缺槽按本轮口径补齐（**R1 幂等：已有值只校验不改**）；
+4. 单文件提交，message 固定 `content(T9r): adopt third-line pending <slug> — 补 ja/de/ru/hi 语种槽并过闸`；**禁用 `-a`、不夹带其它路径**；提交后本表勾掉该行。
+
+### 13.3 回 A 线四句
+
+1. **三篇进"不得回写"清单**（21 条）：`railway-track-fastener-specifications`（`ab027be0`）、`angola-lng-project-fastener-procurement`（`cffb99aa`）、`fastener-supply-chain-africa-beira-corridor`（`b9c0274b`）；B 线不重复做。
+2. **接单 FAQ 数字债 91 篇 / 171 条**（以 A 线口径为准；B 线自测更宽判据 102 篇 / 209 条，差异已声明），排期每轮 20 篇 × 5 轮，首批 R-T9r 已开工。
+3. **C2 起运港与 4,480 减页接受 A 线口径**：起运港保留但限定在航线/Incoterm/时效语境、写法用 `FOB a Chinese port nominated in the offer`；减页按触发线不做。B 线不再提异议。
+4. **37 篇由 B 线接手**，请 A 线此后不再把这批算作"待他线提交"，其 §11.7 回填不再被这批阻塞。
+
+### 13.4 清单与缺槽实测（37 篇 · 磁盘基准）
+
+| slug | 有效小节 | section body 缺槽 | FAQ 缺非英中槽(条) |
+|---|---|---|---|
+| `agricultural-machinery-fastener-guide` | 7 | 无 | 0 |
+| `anchor-bolts-selection-guide` | 6 | zh×1 | 0 |
+| `bolt-grade-markings-guide` | 7 | zh×1 | 0 |
+| `bolt-tightening-torque-guide` | 4 | 无 | 0 |
+| `china-iso-9001-fastener-manufacturer-directory` | 7 | zh×1 | 0 |
+| `china-zimbabwe-fastener-shipping-container-guide` | 5 | 无 | 0 |
+| `concrete-anchors-fasteners-guide` | 4 | 无 | 0 |
+| `congo-brazzaville-fastener` | 4 | 无 | 0 |
+| `conveyor-belt-fasteners` | 6 | zh×1 | 0 |
+| `drywall-screws-complete-guide` | 8 | 无 | 0 |
+| `fastener-corrosion-resistance-guide` | 5 | 无 | 0 |
+| `flat-washers-vs-spring-washers` | 4 | 无 | 0 |
+| `ghana-tema-port-fastener-import-procedure` | 6 | 无 | 0 |
+| `harare-fastener-distributor-supplier-guide` | 7 | 无 | 0 |
+| `hex-bolt-dimensions-chart` | 7 | zh×1 | 0 |
+| `high-strength-bolts-8-8-10-9-12-9-grade-guide` | 6 | zh×1 | 0 |
+| `high-tensile-bolts-grade-guide` | 6 | zh×1 | 0 |
+| `high-tensile-structural-bolts-guide` | 7 | zh×1 | 0 |
+| `ibr-roofing-nails-installation-guide` | 9 | zh×1 | 0 |
+| `ivory-coast-abidjan-port-fastener-tariff` | 6 | 无 | 0 |
+| `libya-tripoli-construction-fastener-sourcing` | 6 | 无 | 0 |
+| `malawi-fastener-market-case-study` | 7 | 无 | 0 |
+| `marine-outdoor-corrosion-resistant-bolts-guide` | 6 | fr×1 | 0 |
+| `mozambique-hardware-supplier` | 6 | es×2、ar×2、fr×2、pt×2、ru×2、ja×2、de×2、hi×2 | 0 |
+| `nuts-bolts-glossary-terminology` | 6 | 无 | 0 |
+| `roofing-screws-epdm-washer-guide` | 5 | 无 | 0 |
+| `rwanda-construction-fastener-standards` | 7 | 无 | 0 |
+| `self-drilling-screws-selection-guide` | 8 | zh×1 | 0 |
+| `self-tapping-screws-complete-classification-guide` | 7 | 无 | 0 |
+| `telecom-tower-fasteners` | 6 | zh×1、es×1、fr×1、pt×1、de×1 | 0 |
+| `thread-types-guide-metric-imperial` | 4 | es×1、fr×1、pt×1、de×1 | 0 |
+| `threaded-rod-studding-guide` | 6 | zh×1、es×1、fr×1、pt×1、de×1 | 0 |
+| `togo-lome-port-fastener-import-procedure` | 6 | 无 | 0 |
+| `tunisia-mediterranean-fastener-export-guide` | 6 | 无 | 0 |
+| `washer-types-applications-guide` | 5 | de×1 | 40 |
+| `zambia-fastener-supplier` | 4 | es×1、fr×1、pt×1、de×1 | 0 |
+| `zinc-plated-vs-black-phosphate-screws` | 4 | es×1、fr×1、pt×1、de×1 | 0 |
+
+> 说明：`缺槽` 只统计"该小节 body 里该语种为空或不存在"；`无` 表示 10 语种齐全。个别篇目的 `faqItems` 顶层用 `q`/`a` 且只有 en/zh（如 `washer-types-applications-guide`），其 8 语种答案槽计入"FAQ 缺槽"列。
+
+### 13.5 进度勾表
+
+| # | slug | 状态 | commit | 备注 |
+|---|---|---|---|---|
+| 1 | `agricultural-machinery-fastener-guide` | 待接 | | |
+| 2 | `anchor-bolts-selection-guide` | 待接 | | |
+| 3 | `bolt-grade-markings-guide` | 待接 | | |
+| 4 | `bolt-tightening-torque-guide` | 待接 | | |
+| 5 | `china-iso-9001-fastener-manufacturer-directory` | 待接 | | |
+| 6 | `china-zimbabwe-fastener-shipping-container-guide` | 待接 | | |
+| 7 | `concrete-anchors-fasteners-guide` | 待接 | | |
+| 8 | `congo-brazzaville-fastener` | 待接 | | |
+| 9 | `conveyor-belt-fasteners` | 待接 | | |
+| 10 | `drywall-screws-complete-guide` | 待接 | | |
+| 11 | `fastener-corrosion-resistance-guide` | 待接 | | |
+| 12 | `flat-washers-vs-spring-washers` | 待接 | | |
+| 13 | `ghana-tema-port-fastener-import-procedure` | 待接 | | |
+| 14 | `harare-fastener-distributor-supplier-guide` | 待接 | | |
+| 15 | `hex-bolt-dimensions-chart` | 待接 | | |
+| 16 | `high-strength-bolts-8-8-10-9-12-9-grade-guide` | 待接 | | |
+| 17 | `high-tensile-bolts-grade-guide` | 待接 | | |
+| 18 | `high-tensile-structural-bolts-guide` | 待接 | | |
+| 19 | `ibr-roofing-nails-installation-guide` | 待接 | | |
+| 20 | `ivory-coast-abidjan-port-fastener-tariff` | 待接 | | |
+| 21 | `libya-tripoli-construction-fastener-sourcing` | 待接 | | |
+| 22 | `malawi-fastener-market-case-study` | 待接 | | |
+| 23 | `marine-outdoor-corrosion-resistant-bolts-guide` | 待接 | | |
+| 24 | `mozambique-hardware-supplier` | 待接 | | |
+| 25 | `nuts-bolts-glossary-terminology` | 待接 | | |
+| 26 | `roofing-screws-epdm-washer-guide` | 待接 | | |
+| 27 | `rwanda-construction-fastener-standards` | 待接 | | |
+| 28 | `self-drilling-screws-selection-guide` | 待接 | | |
+| 29 | `self-tapping-screws-complete-classification-guide` | 待接 | | |
+| 30 | `telecom-tower-fasteners` | 待接 | | |
+| 31 | `thread-types-guide-metric-imperial` | 待接 | | |
+| 32 | `threaded-rod-studding-guide` | 待接 | | |
+| 33 | `togo-lome-port-fastener-import-procedure` | 待接 | | |
+| 34 | `tunisia-mediterranean-fastener-export-guide` | 待接 | | |
+| 35 | `washer-types-applications-guide` | 待接 | | |
+| 36 | `zambia-fastener-supplier` | 待接 | | |
+| 37 | `zinc-plated-vs-black-phosphate-screws` | 待接 | | |
