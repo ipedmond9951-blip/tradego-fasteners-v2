@@ -33,7 +33,7 @@
     {
       "id": "types",
       "heading": {
-        "en": "Types of Concrete Anchors",
+        "en": "Which anchor types are used in concrete construction?",
         "es": "Tipos de anclajes para concreto",
         "ar": "أنواع مرساة الخرسانة",
         "fr": "Types d'ancrages béton",
@@ -42,7 +42,7 @@
         "ja": "コンクリートアンカーの種類",
         "de": "Arten von Betonankern",
         "hi": "कंक्रीट एंकर के प्रकार",
-        "zh": "混凝土锚固件类型"
+        "zh": "混凝土施工中使用哪几类锚固件？"
       },
       "body": {
         "en": "<p>Fixings into masonry and solid base material are chosen by drill depth, edge distance, and substrate condition, with finish and corrosion checks referenced to ISO 4042 for plated systems. This overview helps B2B buyers compare mating hardware, supplier records, and inspection evidence before ordering. It separates heavy base fixings from light panel mounting and keeps standards, material, and acceptance steps traceable across batches.</p><p>Concrete anchors come in several types: concrete screws (like Tapcon) are self-threading screws that tap their own threads into concrete; drop-in anchors are sleeve-type anchors that expand against the concrete when a bolt is inserted; shield anchors feature an internal plug that expands a metal shield against the hole wall; and wedge anchors expand against the concrete as the bolt is tightened.</p>\n<p>For more information, see our <a href=\"/en/industry/fastener-glossary-africa-procurement\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">Fastener Glossary Africa Procurement</a> guide and <a href=\"/en/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">browse our product catalog</a>. Related resources: <a href=\"/en/products/high-tensile-bolts\">high-tensile bolts</a> <a href=\"/en/products/anchor-bolts\">anchor bolts</a> <a href=\"/en/products/stainless-bolts\">stainless steel fasteners</a> <a href=\"/en/products/hex-bolts\">hex bolts</a> <a href=\"/en/products/lock-nuts\">lock nuts</a> <a href=\"/en/products/washers\">washers</a> <a href=\"/en/products/self-drilling-screws\">self-drilling screws</a> <a href=\"/en/products/socket-screws\">socket screws</a>. The decision logic prioritizes quality consistency, supplier reliability, and total cost of ownership over short-term unit price. For B2B buyers in Africa, Latin America, and Southeast Asia, additional considerations include regional customs requirements, container consolidation options, and payment security mechanisms. Standardized specifications that travel across projects reduce training time, RFQ processing time, and supplier onboarding effort.</p>",
@@ -94,7 +94,7 @@
     {
       "id": "concrete-screws",
       "heading": {
-        "en": "Concrete Screws (Tapcon-style)",
+        "en": "Where do concrete screws provide adequate holding?",
         "es": "Tornillos para concreto (estilo Tapcon)",
         "ar": "مسامير الخرسانة (نمط تابكون)",
         "fr": "Vis à béton (style Tapcon)",
@@ -103,7 +103,7 @@
         "ja": "コンクリートネジ（タップコン式）",
         "de": "Betonschrauben (Tapcon-Stil)",
         "hi": "कंक्रीट स्क्रू (टैपकॉन स्टाइल)",
-        "zh": "混凝土螺钉（Tapcon型）"
+        "zh": "混凝土螺钉在哪些场合能提供可靠握持？"
       },
       "body": {
         "en": "<p>Concrete screws are the easiest to install and work well for medium-duty applications. They require a pre-drilled hole (using a masonry drill bit the same diameter as the screw) and are driven like a wood screw. They are not recommended for overhead applications or in cracked concrete. The blue coating (for Tapcon brand) indicates proper hardness for concrete fastening.</p>\n<p>For more information, see our <a href=\"/en/industry/east-africa-construction-fastener-market\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">East Africa Construction Fastener Market</a> guide and <a href=\"/en/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">browse our product catalog</a>. Subscribe to standards update notifications and review specifications annually. The most common standards used in international fastener trade are ISO 898-1 (mechanical properties), ISO 3506-1 (stainless), ISO 3269 (acceptance inspection), ISO 4042 (coatings), and ISO 1502 (thread gauges). For B2B buyers, building a standards reference library with at least the top 20 standards relevant to your product mix is essential.</p>",
@@ -255,7 +255,7 @@
             "ja": "コンクリートねじはどこに適し、どこに適しませんか？"
           },
           "a": {
-            "en": "They suit light to medium loads up to about M10 in solid concrete or block - brackets, fixtures, framing anchors. They are not approved for cracked concrete, overhead tension loads, or seismic bracing, where a qualified mechanical or chemical anchor is required.",
+            "en": "Concrete screws suit light to medium loads up to about M10 in solid concrete or block: brackets, fixture plates, framing anchors, conduit clips and wall-mounted hardware. They are not approved for cracked concrete, overhead tension loads, or seismic bracing, where a qualified mechanical expansion anchor or chemical anchor must be used instead. Capacity depends on hole diameter, drilled depth, concrete strength, edge distance and spacing; nearby holes reduce the concrete's bearing area. Match the screw to the drawing base material and record the load case; refer anchor tests to ASTM E488 where documentation is required.",
             "zh": "混凝土螺钉适用于实体混凝土或砌块上 M10 以内的轻中载荷，如支架、设备固定、龙骨锚固。开裂混凝土、顶部受拉荷载、抗震支撑不能用，必须改用有认证的机械锚栓或化学锚栓。选型前核对基材是否密实、荷载方向是受压还是受拉，以及是否处于抗震节点；超出适用范围时不能靠加大螺钉规格解决。螺钉规格、埋深和间距按厂家参数表确定，重要固定点应保留安装记录并做必要的拉拔核验。",
             "hi": "ठोस कंक्रीट या ब्लॉक में M10 तक के हल्के से मध्यम भार के लिए ये उपयुक्त हैं: ब्रैकेट, फिक्सचर, फ्रेमिंग एंकर। फटे कंक्रीट, ऊपर की ओर खिंचाव वाले भार, या भूकंपीय ब्रेसिंग के लिए ये स्वीकृत नहीं हैं; ऐसी जगह योग्य यांत्रिक या केमिकल एंकर इस्तेमाल करना ज़रूरी है। साइट की हालत और भार को देखकर ही एंकर का प्रकार चुनें, वरना जोड़ ढीला पड़ सकता है।",
             "ru": "Они годятся для лёгких и средних нагрузок примерно до M10 в монолитном бетоне или блоке: кронштейны, приборы, анкеры обвязки. Их не используют в треснувшем бетоне, при растягивающих нагрузках сверху над головой и в сейсмических связях — там нужен квалифицированный механический или химический анкер.",
@@ -281,7 +281,7 @@
             "ja": "コンクリートねじを効かせる穿孔の手順は何ですか？"
           },
           "a": {
-            "en": "Use the exact bit diameter specified for the screw, drill to the required depth, and clean the hole by blowing and brushing. Drive with a torque-controlled driver, not an impact gun, and stop before the screw strips its own thread in the concrete.",
+            "en": "Concrete screws hold only when the hole is prepared to the screw maker's specification. Use the exact bit diameter listed for the screw size, drill to the required depth, then clean the hole by brushing and blowing out dust before driving. Install with a torque-controlled driver rather than an impact gun, and stop before the screw strips its own thread in the concrete. A hole too large leaves the anchor loose; a shallow hole leaves it standing proud; dust left in the bore reduces grip.",
             "zh": "用厂家指定的精确钻头直径、钻到规定深度，吹孔并刷孔清灰。用带扭矩控制的电钻而不是冲击扳手，拧到螺钉即将在混凝土中滑扣前就停。钻孔直径偏差会直接影响螺纹咬合：钻头过粗握裹不足，过细拧入阻力大甚至断钉。清孔要把粉尘刷净吹尽，孔内不留碎屑和积水；拧入时控制转速和扭矩，避免反复进退损伤混凝土螺纹。安装后检查螺钉头部贴紧基面，无歪斜和松动。",
             "hi": "स्क्रू के लिए बताए गए ठीक ड्रिल बिट व्यास का इस्तेमाल करें, ज़रूरी गहराई तक छेद करें, और छेद को फूंक कर व ब्रश साफ करके धूल निकाल दें। टॉर्क-नियंत्रित ड्राइवर से चलाएं, इम्पैक्ट गन से नहीं; कंक्रीट में स्क्रू का धागा घिसकर फिसलने से पहले रुक जाएं। छेद गंदा या गहराई गलत हो तो पकड़ कमजोर होती है, इसलिए दोनों जांच लें।",
             "ru": "Берите сверло точно указанного для винта диаметра, сверлите нужную глубину и очищайте отверстие продувкой и щёткой. Закручивайте приводом с регулируемым моментом, а не ударным гайковёртом, и останавливайтесь до того, как винт срежет собственную резьбу в бетоне.",
@@ -307,7 +307,7 @@
             "ja": "コンクリートねじはウェッジアンカーとどう違いますか？"
           },
           "a": {
-            "en": "Concrete screws are easier to install, removable and repositionable, but carry lower load ratings and poorer fatigue performance. Wedge anchors develop higher capacity and are certified for cracked concrete and seismic use. Choose by load, inspection requirement and whether the fixture may move.",
+            "en": "Concrete screws install easily, are removable and repositionable, but carry lower ratings and poorer fatigue performance than expansion anchors. Wedge anchors develop higher capacity in solid concrete and can be qualified for cracked concrete and seismic use, while sleeve anchors suit general-purpose fixing in concrete, hollow masonry and grout-filled block. Choose by load level, inspection requirement and whether the fixture may need to move later. Expansion grip and bearing capacity depend on an intact hole wall and clean, dry borehole; removable screw-type anchors should not be reused in a cracked or compromised base without re-qualification.",
             "zh": "混凝土螺钉安装方便、可拆卸复位，但承载力较低、疲劳性能差。楔形锚栓承载力更高，并有开裂混凝土与抗震认证。选型时按载荷大小、验收要求以及设备是否需要移位来权衡：轻量、经常拆装的固定点可用混凝土螺钉；长期承载、受拉或抗震部位选对应认证的机械或化学锚栓。两种体系的钻孔工艺和容许荷载不同，清单中应注明锚栓型式、标准和适用基材，不能在同一受力连接上混用替代。",
             "hi": "कंक्रीट स्क्रू लगाने में आसान, निकालने और दोबारा जगह बदलने लायक होते हैं, लेकिन भार रेटिंग कम और थकान प्रदर्शन कमज़ोर रहता है। वेज एंकर क्षमता ज़्यादा देते हैं और फटे कंक्रीट व भूकंपीय उपयोग के लिए मानक के अनुसार तैयार होते हैं; जांच-पड़ताल की जरूरत, भार, और फिक्सचर हिल सकता है या नहीं, इन आधार पर चुनाव करें, प्रमाण-पत्र ऑर्डर पर उपलब्ध कराए जाते हैं।",
             "ru": "Бетонные шурупы проще монтировать, их можно снять и переставить, но у них ниже расчётная нагрузка и хуже усталостная стойкость. Клиновые анкеры развивают большую несущую способность и применяются для треснувшего бетона и сейсмических узлов. Выбор делают по нагрузке, требованиям к инспекции и возможности перемещения закрепляемого изделия.",
