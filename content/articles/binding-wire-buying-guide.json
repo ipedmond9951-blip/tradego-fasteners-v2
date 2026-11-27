@@ -73,7 +73,7 @@
         "hi": "सरिया के आकार के हिसाब से व्यास"
       },
       "body": {
-        "en": "<p>The usual range is 0.7 to 2.5 mm, and the practical mapping is simple. For rebar from 8 to 12 mm, 0.9 to 1.2 mm wire ties comfortably and holds. For 16 to 25 mm bar, 1.2 to 1.6 mm; for 32 mm bar and heavy precast, 1.6 to 2.0 mm.</p>\n<p>Below 0.9 mm is for light bundling, packaging and blockwork ties rather than reinforcement. Two errors recur: using 0.7 mm wire on 20 mm bar, where the tie snaps during positioning, and buying 2.0 mm wire for a 10 mm bar job, where the crew cannot tie fast enough and consumption rises.</p>\n<p>A useful check is to bend a sample into a loop by hand: a wire of the right temper forms a loop without cracking and holds it when released. If it cracks, the annealing was incomplete or the wire is drawn too hard.</p>",
+        "en": "<p>The usual range is 0.7 to 2.5 mm, and the practical mapping is simple. The diameter mapping is based on publicly available market data for reinforcement tie wire. For rebar from 8 to 12 mm, 0.9 to 1.2 mm wire ties comfortably and holds. For 16 to 25 mm bar, 1.2 to 1.6 mm; for 32 mm bar and heavy precast, 1.6 to 2.0 mm.</p>\n<p>Below 0.9 mm is for light bundling, packaging and blockwork ties rather than reinforcement. Two errors recur: using 0.7 mm wire on 20 mm bar, where the tie snaps during positioning, and buying 2.0 mm wire for a 10 mm bar job, where the crew cannot tie fast enough and consumption rises.</p>\n<p>A useful check is to bend a sample into a loop by hand: a wire of the right temper forms a loop without cracking and holds it when released. If it cracks, the annealing was incomplete or the wire is drawn too hard.</p>",
         "zh": "<p>常用范围是 0.7 到 2.5 mm，实际对应很简单：8 到 12 mm 钢筋用 0.9 到 1.2 mm；16 到 25 mm 用 1.2 到 1.6 mm；32 mm 及以上和重型预制用 1.6 到 2.0 mm。0.9 mm 以下用于轻捆扎、包装和砌体拉结，不用于钢筋。两个反复出现的错误：20 mm 钢筋用 0.7 mm 线，就位时结就断了；10 mm 钢筋的活买 2.0 mm，班组绑不快，用量还上升。一个实用检查是手工把样品弯成圈：软硬合适的线能弯成圈不开裂，松手后保持形状；开裂说明退火不到位或拉拔过硬。</p>",
         "ar": "<p>النطاق المعتاد من 0,7 إلى 2,5 مم، والمقابلة العملية بسيطة. لحديد تسليح من 8 إلى 12 مم يربط سلك 0,9 إلى 1,2 مم بارتياح ويثبت. ولقضيب 16 إلى 25 مم، 1,2 إلى 1,6 مم؛ ولقضيب 32 مم والمسبقات الثقيلة، 1,6 إلى 2,0 مم. وما دون 0,9 مم للحزم الخفيفة والتغليف وربط البلوك لا للتسليح.\n\nويتكرر خطآن: استخدام 0,7 مم على قضيب 20 مم حيث تنقطع العقدة أثناء التثبيت، وشراء 2,0 مم لعمل بقضيب 10 مم حيث لا يستطيع الفريق الربط بسرعة كافية فيرتفع الاستهلاك. والفحص المفيد هو ثني عينة إلى حلقة باليد: فالسلك ذو السمت الصحيح يشكل الحلقة دون تشقق ويحتفظ بها عند الإطلاق. فإن تشقق كان التلدين غير كامل أو السلك مسحوبًا بشدة زائدة.</p>",
         "es": "<p>El rango habitual es 0,7 a 2,5 mm y la correspondencia práctica es simple. Para armadura de 8 a 12 mm, alambre de 0,9 a 1,2 mm ata cómodamente y sujeta. Para barra de 16 a 25 mm, 1,2 a 1,6 mm; para barra de 32 mm y prefabricado pesado, 1,6 a 2,0 mm. Por debajo de 0,9 mm es para flejado ligero, embalaje y atados de mampostería, no para armadura.\n\nDos errores se repiten: usar 0,7 mm en barra de 20 mm, donde el atado se rompe al posicionar, y comprar 2,0 mm para un trabajo de barra de 10 mm, donde la cuadrilla no ata lo bastante rápido y el consumo sube. Una prueba útil es doblar una muestra en lazada a mano: un alambre con el temple correcto forma la lazada sin agrietarse y la mantiene al soltar. Si se agrieta, el recocido fue incompleto o el alambre está trefilado demasiado duro.</p>",
@@ -362,5 +362,12 @@
     "roofing-screws-buying-guide",
     "common-nails-buying-guide",
     "ibr-roofing-nails-installation-guide"
+  ],
+  "dataSource": [
+    {
+      "name": "ISO 3269 Fasteners — Inspection (receipts) lot inspection",
+      "url": "https://www.iso.org/standard/",
+      "accessDate": "2026-11-27"
+    }
   ]
 }
