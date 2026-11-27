@@ -1095,12 +1095,12 @@ python3 scripts/check-unsourced-stats.py --json  # 附报（无源残留 + 豁�
 | 账 | 开工基线 | 收口终态 | 命令 |
 | --- | --- | --- | --- |
 | A 区 N4 长度 | **127 条 / 32 篇** | **0 条 / 0 篇** | `check-n4-length.py --json` |
-| N4 全库（参照） | 1349 条 / 258 篇 | 711 条 / 163 篇（`over 629` / `prefix_leak 82`），全在 B 区 | 同上 |
+| N4 全库（参照） | 1349 条 / 258 篇 | **657 条 / 157 篇**（`over 580` / `prefix_leak 77`），全在 B 区 | 同上 |
 | A 区 GEO 结构缺口 | 0 篇（最低 97） | 0 篇（最低 97，未降） | `check-geo-readiness.py --json` |
 | A 区 geo_audit | 39/39 = 100 | 39/39 = 100，无一篇降分 | `geo_audit.py --json` |
 | A 区 `<p>` 不配平 | 2 处（9 段） | **0 处** | 逐段计数 |
 | A 区 meta 四族违规词 | 多处 | **0 处** | 正则复扫 |
-| `content_gate --brief` | BLOCK 0 / 新增 0 | 完全干净 262（99%）/ **BLOCK 0 / 新增 0** | `content_gate.py --brief` |
+| `content_gate --brief` | BLOCK 0 / 新增 0 | 完全干净 261（脚本自报 99%）/ **BLOCK 0 / 新增 0**，退出码 0 | `content_gate.py --brief` |
 | schema | 279/279 | **279/279** | `check-article-schema.sh` |
 
 宽度终态（A 区 39 篇 × 10 语种，391 条字段）：title min 20 / 中位 49 / **max 60**，超 60 者 **0**；desc min 38 / 中位 123 / **max 155**，超 155 者 **0**。长度走双边，`content_gate` 的 `seo-length` 120 下限已纳入验收（出现过一次 119 → 另笔回填 127，记经验号 264）。
