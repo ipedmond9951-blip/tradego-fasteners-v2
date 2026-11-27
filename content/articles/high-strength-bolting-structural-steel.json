@@ -233,7 +233,7 @@
             "hi": "संरचनात्मक स्टील के लिए उच्च शक्ति बोल्ट: AISC और Eurocode 3 ऑर्डर के लिए विशिष्ट लीड टाइम क्या है?"
           },
           "a": {
-            "en": "Lead time depends on whether the item is a standard specification or a custom one, on the shipping mode (LCL or FCL), and on customs clearance efficiency; urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
+            "en": "Lead time is set by the order rather than by a published calendar. It depends on whether the item is a standard specification held in regular production or a custom dimension that needs new tooling, on the shipping mode chosen for the consignment (consolidated LCL or a full FCL container), and on customs clearance efficiency at the destination port. The specification, quantity and delivery address should be confirmed with the supplier before the production slot is booked, and urgent shipments may move by air at a higher freight position. Lead time is quoted per order.",
             "zh": "结构钢连接常用 8.8、10.9 级螺栓，例如 M12×60 这一档，性能按 ISO 898-1 定级。询价阶段就把 AISC 或 Eurocode 3 对应的等级、DIN 931 杆型与表面处理写清楚，避免临近投产才补规格导致排期重排，结构节点的螺栓批次还要与节点图一并核对。交期按订单核算。",
             "es": "El plazo se cotiza por pedido.",
             "fr": "Le délai est établi par commande.",
@@ -259,7 +259,7 @@
             "hi": "संरचनात्मक स्टील के लिए उच्च शक्ति बोल्ट: AISC और Eurocode 3 के लिए न्यूनतम ऑर्डर मात्रा (MOQ) क्या है?"
           },
           "a": {
-            "en": "MOQ varies by supplier scale, setup costs and whether the order is consolidated into a full container or shipped as LCL. Minimum order quantity follows the production route.",
+            "en": "Minimum order quantity varies by supplier scale, the setup and tooling costs involved, and whether the order can be consolidated into a full container or has to ship as a less-than-container load. Sizes already running in existing dies can usually be supplied in modest lots, while a non-standard dimension or special head form needs new tooling, so the economic minimum is set by that production route. Combining matching specifications in one shipment helps reduce per-unit setup overhead. Minimum order quantity follows the production route.",
             "zh": "建议把同级（如 10.9 级）、同镀层的 M10 至 M20 规格凑到一张询价里，出厂按 ISO 3269 分批验收，零散批次各自复检的费用就能省下来，同节点的螺母与垫圈也并入同一批次配齐。起订量按生产路线确定。",
             "es": "La cantidad mínima depende de la ruta de producción.",
             "fr": "La quantité minimale dépend de la route de production.",
@@ -285,7 +285,7 @@
             "hi": "संरचनात्मक स्टील के लिए उच्च शक्ति बोल्ट: AISC और Eurocode 3 खरीद के लिए विशिष्ट भुगतान शर्तें क्या हैं?"
           },
           "a": {
-            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market; any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
+            "en": "Payment terms depend on order size, the buyer's credit history and the bank's requirement in the destination market. On a first order the usual structure is a deposit against the proforma with the balance settled against shipping documents, while larger programmes may move under a letter of credit arranged through the buyer's bank. The settlement route, documents and milestones should be agreed up front, and any supplier demanding full payment before production should be avoided. Payment terms are agreed per milestone.",
             "zh": "大额订单可开即期信用证。折中为三成电汇定金配七成即期信用证。合同条款写明头部等级标记、ISO 898-1 性能要求和随货 EN 10204 3.1 材质证明，尾款节点与到货外观、硬度抽检结果挂钩，批次炉号与订单号一一对应备查。付款条件按里程碑约定。",
             "es": "Las condiciones de pago se acuerdan por hitos.",
             "fr": "Les conditions de paiement sont convenues par jalons.",
