@@ -87,8 +87,8 @@
     {
       "id": "case-1",
       "heading": {
-        "en": "Case 1: Quality / Manufacturing Defect in Angola Construction Boom 2026: Fastener Demand Forecast and Supply Opportunities",
-        "zh": "案例 1：Angola Construction Boom 2026: Fastener Demand Forecast and Supply Opportunities 中的Quality / Manufacturing Defect",
+        "en": "How do head marking and certificate disagree on an out-of-class anchor bolt lot?",
+        "zh": "锚栓批次的头部标记与证书在什么情况下对不上等级？",
         "es": "Caso 1: Calidad / defecto de fabricación — Angola: auge de la construcción y demanda de fijaciones 2026",
         "ar": "عيب الجودة أو عيب التصنيع في طفرة البناء بأنغولا 2026",
         "fr": "Cas 1: Qualité / défaut de fabrication — Demande de fixations liée au boom du bâtiment en Angola en 2026",
@@ -222,8 +222,8 @@
     {
       "id": "summary",
       "heading": {
-        "en": "Summary: Key Takeaways for Angola Construction Boom 2026: Fastener Demand Forecast and Supply Opportunities Buyers",
-        "zh": "总结：Angola Construction Boom 2026: Fastener Demand Forecast and Supply Opportunities 买家的关键要点",
+        "en": "Which pre-loading checks keep an Angola-bound container's lot under control?",
+        "zh": "装柜前哪些核查能管住发往安哥拉的批次？",
         "es": "Resumen: Conclusiones clave para compradores de Angola Construction Boom 2026: Fastener Demand Forecast and Supply Opportunities",
         "ar": "ملخص: النقاط الرئيسية للازدهار في قطاع البناء بأنغولا 2026: توقعات الطلب على السحابات وفرص التوريد للمشترين",
         "fr": "Résumé : Points clés pour les acheteurs de la flambée de la construction en Angola 2026 : Prévisions de la demande de fixations et opportunités d'approvisionnement",
@@ -260,7 +260,7 @@
             "hi": "फास्टनरों में सबसे आम विफलता मोड क्या है?"
           },
           "a": {
-            "en": "The most common failure mode in Angola Construction Boom 2026: Fastener Demand Forecast and Supply Opportunities is supplier-side quality control deficiency, accounting for over 60% of documented cases. Contributing factors include: missing ISO 9001 certification, inadequate mill test certificates, lack of pre-shipment third-party inspection, and incorrect grade marking. B2B buyers should require documentation before payment release and engage independent testing agencies for batch verification.",
+            "en": "Angola construction cases follow five failure patterns: head marking and certificate disagreeing on an out-of-class anchor bolt lot; coastal salt humidity around Luanda, Lobito and Cabinda meeting an unmatched coating and base material; vibration overload on conveyor or generator mounts from an under-tightened or undersized fastener; the drawing, PO and packing list naming three different classes; and marks, certificate and HS description disagreeing over the inland corridor. Verification runs class checks against ISO 898-1 and head marking, tensile and fatigue testing, pre-loading corrosion checks, and a mill certificate audit against lot number.",
             "zh": "安哥拉的项目多在罗安达港上岸，港口压港排队时，采购方往往是拆箱后才发现问题：螺栓等级钢印与材质书对不上、镀层在潮湿环境下已经发暗起皮，或是关键连接件用了通用库存件顶替结构件。这类问题多半在出厂前就存在，只是没被验货环节拦住；货到港口再核对规格与文件，工期与船期都已经被卡住，现场只能挑出不合格批次另作处理，剩余可用件也得重新分拣配套。",
             "es": "El modo de falla más común en Angola Construction Boom 2026: Fastener Demand Forecast and Supply Opportunities es la deficiencia de control de calidad del lado del proveedor.",
             "fr": "Le mode de défaillance le plus courant dans Angola Construction Boom 2026: Fastener Demand Forecast and Supply Opportunities est la déficience du contrôle qualité côté fournisseur.",
@@ -286,7 +286,7 @@
             "hi": "B2B खरीदार फास्टनर विफलताओं को कैसे रोक सकते हैं?"
           },
           "a": {
-            "en": "Five prevention measures: 1) Specify ISO 9001 certification and original mill test certificates in purchase orders, 2) Engage third-party inspection agencies (SGS, Bureau Veritas, Intertek) for pre-shipment verification, 3) Conduct independent lab testing on samples before payment release, 4) Match fastener grades to application requirements, 5) Train procurement teams on fastener specifications and standards. For African infrastructure projects, see the <a href=\"/en/industry/south-africa-sabs-fastener-import-requirements\">South Africa SABS import requirements</a> for documentation specifics.",
+            "en": "The prevention sequence before a container loads runs in five steps. Specify ISO-aligned quality documentation and mill test certificates in the purchase order, engage a third-party inspection agency for pre-shipment verification, test samples independently, and match grades to the load category. On vibration mounts, check tightening and size against the load category; for coastal stock, match coating and base material to salt humidity. Keep document control over drawing, PO and packing list so the class matches on all three. For African projects, see the <a href=\"/en/industry/south-africa-sabs-fastener-import-requirements\">South Africa SABS import requirements</a> for documentation specifics.",
             "zh": "罗安达港压港时间长，叠加外汇审批排队，货到港才查出不合格，退货返工都会滚成工期罚款，检验只能往工厂端挪。请 SGS、Bureau Veritas、Intertek 赴厂逐批验货，第三方验货机构把节点留在装船前，别等压港期间才发现货不合格；放尾款前从备货整柜取封样外送检测，核对实物与材质书是否一致，不拿厂方自检替代结论；合同写清材质书原件随货、并附 ISO 9001 体系凭证，否则滞港争议时缺少依据；等级按项目结构用途匹配，通用库存件不得顶替关键连接件；采购、现场收货与仓管人员要能辨认等级钢印和批次溯源标记。",
             "es": "Cinco medidas de prevención: 1) Especificar ISO 9001, 2) Inspección de terceros, 3) Pruebas de laboratorio independientes, 4) Especificaciones coincidentes, 5) Capacitación.",
             "fr": "Cinq mesures de prévention : 1) Spécifier ISO 9001, 2) Inspection tierce, 3) Tests laboratoire indépendants, 4) Spécifications correspondantes, 5) Formation.",
