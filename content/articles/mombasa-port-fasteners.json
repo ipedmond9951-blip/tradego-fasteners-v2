@@ -60,8 +60,8 @@
     {
       "id": "import",
       "heading": {
-        "en": "Import Process Through Mombasa",
-        "zh": "通过蒙巴萨的进口流程",
+        "en": "What documentation starts the Mombasa fastener import clearance?",
+        "zh": "蒙巴萨紧固件进口清关需要先备好哪些单证？",
         "es": "Proceso de importación a través de Mombasa",
         "ar": "عملية الاستيراد عبر ميناء ممباسا",
         "fr": "Processus d'importation via Mombasa",
@@ -114,8 +114,8 @@
     {
       "id": "standards",
       "heading": {
-        "en": "Standards and Requirements",
-        "zh": "标准和要求",
+        "en": "Which Kenyan and ISO standards apply to imported fasteners?",
+        "zh": "进口紧固件适用哪些肯尼亚与 ISO 标准？",
         "es": "Normas y requisitos",
         "ar": "المعايير والمتطلبات",
         "fr": "Normes et exigences",
@@ -205,7 +205,7 @@
             "ja": "ケニアの締結具にはどの輸入税がかかりますか？"
           },
           "a": {
-            "en": "Import duty is typically 25% for iron and steel hardware under HS Chapter 73. VAT at 16% applies on CIF value plus duty. Additional levies may apply.",
+            "en": "Fasteners under HS Chapter 73 for iron and steel hardware attract import duty and tax on entry to Kenya, assessed by customs on the declared value and classification. Treatment differs between bolt, nut, washer and anchor subheadings, so confirm the exact HS heading with a clearing agent rather than one blanket rate. Prepare invoice, packing list and description to support the classification, and keep the HS reference consistent across documents. Verify material, grade and finish, since these affect the heading, and retain the customs file.",
             "zh": "HS 第 73 章钢铁五金件进口需缴纳关税和增值税，增值税按到岸价（CIF）加关税后的金额计征，此外还可能有其他附加税费。测算到岸成本时要把这些税费一并计入。具体关税税率按 HS 子目和当期税则核定，不同螺栓、螺母、垫圈子目归类不同；报价前让报关行确认准确编码和适用税率，把关税、增值税、港口费用和清关杂费纳入成本核算，避免只按货价估算造成到岸超支。",
             "hi": "HS अध्याय 73 के लोहे-स्टील हार्डवेयर पर आयात शुल्क आम तौर पर 25% है। CIF मूल्य और शुल्क मिलाकर उस पर 16% VAT लगता है। अतिरिक्त उपक्षय भी लागू हो सकते हैं।",
             "ru": "Для металлических изделий под главой HS 73 пошлина обычно 25%. НДС 16% начисляется на сумму CIF плюс пошлина; могут действовать дополнительные сборы. Точную ставку по коду HS проговаривают с таможенным брокером до расчёта landed cost, чтобы не завысить расходы на завоз и заложить их в коммерческое предложение.",
@@ -231,7 +231,7 @@
             "ja": "モンバサでウガンダ向けの貨物を通関できますか？"
           },
           "a": {
-            "en": "Yes, goods can be customs-cleared in Mombasa for transit to Uganda under bond. Work with a customs agent experienced in transit procedures.",
+            "en": "Yes, goods can clear in Mombasa and continue to Uganda under a bonded transit arrangement, handled by an agent experienced in transit procedures. Handover responsibility should be in the contract: the seller's responsibility ends at the Mombasa port or a named depot, while the inland leg is buyer-arranged, so the release point is clear. Transit documents match the main shipping set, with grade, tensile class and coating aligned line by line. Keep bond paperwork and batch records ready for transit inspection, confirm corridor and carrier before dispatch. Coordinate clearance contacts at both ends.",
             "zh": "货物可以在蒙巴萨清关后以保税转运方式发往乌干达，需熟悉转运流程的报关行操作。交接责任点要在合同中写明，卖方责任通常止于蒙巴萨港口或指定场站，内陆段由买家安排时尤其要分清。转运单据与主单证保持一致，材质等级、抗拉强度和镀层描述逐条对应；保税过境的证书、装箱单和运输记录应齐备。提前确认目的地清关要求，避免在走廊段因单据不符产生滞留，整柜拼箱时把转运责任和费用归属写清楚。",
             "hi": "हाँ, बंधक यानी बॉन्ड के तहत माल मोम्बासा में कस्टम निकालकर यूगांडा ट्रांज़िट किया जा सकता है। ट्रांज़िट प्रक्रियाओं में अनुभवी कस्टम एजेंट के साथ काम करें।",
             "ru": "Да: груз оформляют в Момбасе с таможенной привязкой под транзит в Уганду (bond). Работают с таможенным агентом, опытным в процедурах транзита: сопровождение, залог и переход границы оформляются по местным правилам, иначе партию не выпустят дальше по коридору через Кению вглубь континента.",
@@ -257,7 +257,7 @@
             "ja": "KEBS 認証にはどの書類が必要ですか？"
           },
           "a": {
-            "en": "KEBS clearance needs the import permit application, product test reports, technical specifications and quality certificates. Elapsed time depends on the laboratory queue and the inspection booking, so it is confirmed per application once the product category and test scope are agreed. Prepare the permit and the test file before the goods leave the factory, keep the declared specification consistent with the test reports, and allow for re-inspection where the two do not match.",
+            "en": "KEBS clearance needs the import permit application, product test reports, technical specifications and quality certificates. Processing time is confirmed per application once category and test scope are agreed, not a fixed published span. Prepare the permit and test file before the goods leave the factory, and keep the declared specification consistent with the test reports; on mismatch, allow for re-inspection. The certificate covers material grade, property class and coating, matched to carton marks. Submit through an approved channel and book inspection early, retaining MTR and test record with the batch file.",
             "zh": "KEBS 进口所需单证包括进口许可申请、产品测试报告、技术规格书和质量证书，认证办理周期通常为两到四周。证书内容应覆盖材质等级、强度和镀层要求，与装箱实物逐条对应。发货前通过认可渠道提交资料，并安排 SGS、Bureau Veritas 或 Intertek 等第三方检验，按批次留存钢厂质保文件。包装标签标注批号、等级、厂名与产地，便于蒙巴萨港查验。小批量拼箱时不同规格分开列明，避免证书与货物混装后无法核对。",
             "hi": "KEBS आयात परमिट आवेदन, उत्पाद परीक्षण रिपोर्टें, तकनीकी स्पेसिफ़िकेशन और गुणवत्ता दस्तावेज़। सर्टिफ़िकेशन की अवधि आम तौर पर 2–4 सप्ताह होती है।",
             "ru": "Заявление на импортное разрешение KEBS, протоколы испытаний продукции, технические спецификации и сертификаты качества. Срок оформления сертификации обычно 2–4 недели; проверку запускают до отгрузки, чтобы документ успел к прибытию партии и не стал причиной задержки при таможенной приёмке.",
@@ -283,7 +283,7 @@
             "ja": "モンバサには税関倉庫がありますか？"
           },
           "a": {
-            "en": "Yes, licensed warehouses are available for temporary storage. This is useful if you need time to arrange inland transport or complete documentation.",
+            "en": "Yes, licensed Mombasa warehouses allow temporary storage, useful when inland transport still needs arranging or documentation has to be completed. Port-side storage is charged per day and rises after the free period, while outside-port warehouses are usually cheaper but towing and second handling are counted separately, with rainy-season roads factored in. Pre-review clearance documents before arrival and move the cargo out within a short planned window to cut port storage charges. Confirm warehouse access, handling charges and the onward carrier ahead of time, and keep packing marks and delivery address aligned to the nominated depot.",
             "zh": "蒙巴萨港设有持牌仓库可供临时存储，适合需要时间安排内陆运输或补齐单证的情况。港区内堆存按天计费，超期后费率上升；港区外仓库租金较低，但拖车与二次装卸另计，还要考虑雨季路面条件。合理做法是清关文件到港前预审，货物落地后三到五天内提走，减少港区堆存费。仓储期间注意防潮防锈，纸箱无内衬或货物未包裹时，潮湿堆场几周就可能生锈；交接点和仓储责任应在合同中约定清楚。",
             "hi": "हाँ, अस्थायी भंडारण के लिए लाइसेंस प्राप्त गोदाम उपलब्ध हैं। यह तब काम आता है जब अंदरूनी परिवहन का इंतज़ाम करने या दस्तावेज़ पूरे करने के लिए समय चाहिए।",
             "ru": "Да, лицензированные склады принимают груз на временное хранение. Это помогает, если нужно время договорить внутреннюю доставку до склада покупателя или дополнить пакет документов; за хранение начисляется плата, поэтому сроки вывоза планируют заранее и не оставляют партию на складе до последнего дня.",
