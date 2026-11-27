@@ -359,23 +359,23 @@
   "faqItems": [
     {
       "question": "What fasteners are used in commercial vehicle manufacturing?",
-      "answer": "Commercial vehicles use specialized fasteners: Wheel nuts and hub bolts (Grade 10.9-12.9); Chassis bolts (Grade 10.9 with prevailing torque nuts); Engine mount bolts (Grade 12.9, often torque-to-yield); Suspension fasteners (Grade 10.9 with vibration-resistant locking). These require specific fatigue resistance, preload retention, and corrosion protection."
+      "answer": "Commercial vehicles use specialized fasteners for chassis, wheel, engine, and suspension loads. Wheel nuts and hub bolts run in high grades such as 10.9 to 12.9, chassis bolts pair grade 10.9 with prevailing torque nuts, engine mount bolts may be grade 12.9 and torque-to-yield, and suspension fasteners use vibration-resistant locking. These parts must hold preload under vibration, cyclic loading, and road-salt corrosion. Selection follows fatigue demand, preload retention, and protection, and uses the grade and locking method specified by the assembly drawing rather than a general nut and bolt."
     },
     {
       "question": "How do wheel nuts differ from standard hex nuts?",
-      "answer": "Wheel nuts are specifically designed for wheel attachment: 1) Tapered seat (60° or 90°) for secure wheel mounting; 2) Hardened steel (HRc 38-45) for durability; 3) Extended threads for multiple wheel disc thicknesses; 4) Often serrated or flanged for vibration resistance; 5) Specific hex sizes per vehicle manufacturer (17mm, 19mm, 21mm, 22mm, 24mm)."
+      "answer": "Wheel nuts are made for wheel attachment, not general fastening. They use a tapered seat, commonly 60 or 90 degrees, to center and clamp the wheel, are hardened for durability, and often carry extended threads for different disc thicknesses. Many are serrated or flanged for vibration resistance, and hex sizes follow vehicle specifications. Seat type, thread pitch, and hex size must match the hub and stud, since a mismatch seats unevenly and can loosen under rotation. Check thread condition, seat damage, and free spinning before installation."
     },
     {
       "question": "What is the torque specification for automotive hub bolts?",
-      "answer": "Hub bolt torque specifications: Light trucks/SUVs: 90-120 Nm (66-88 ft-lb); Heavy trucks: 300-450 Nm (220-330 ft-lb); Buses: 350-500 Nm (260-370 ft-lb). Critical: Always use calibrated torque wrench, follow star pattern tightening sequence, and re-torque after 100km (wheel settling). Over-tightening causes bolt yield or wheel stud failure."
+      "answer": "Hub bolt torque follows the vehicle or hub specification: light trucks and SUVs, heavy trucks, and buses each have their own range, and the exact figure comes from the workshop manual. Use a calibrated torque wrench, follow the star-pattern sequence so the wheel clamps evenly, and re-check after initial running as the wheel settles. Over-tightening can yield the bolt or stud, while under-tightening allows loosening under vibration. Treat torque values as technical reference for planning; final tightening follows the approved service procedure and joint condition."
     },
     {
       "question": "Why are automotive fasteners subject to strict quality standards?",
-      "answer": "Automotive fasteners face extreme conditions: Vibration (engine, road); Cyclic loading (wheel rotation); Corrosion (road salt, moisture); Temperature extremes (-40°C to +150°C). Failure consequences are severe (wheel detachment). Standards: ISO 898 (mechanical properties); IATF 16949 (quality management); SAE J1199 (dimensional specs). Every fastener must meet traceability requirements."
+      "answer": "Automotive fasteners face vibration, cyclic wheel loading, road-salt and moisture corrosion, and wide temperature extremes. A wheel or chassis failure has severe safety consequences, so the industry applies strict standards. ISO 898 covers mechanical properties, IATF 16949 the quality system, and SAE J1199 dimensional requirements. Every fastener should be traceable to lot, grade, and heat treatment, so a defective part can be identified and isolated. Request material and traceability records for safety-critical joints rather than relying on appearance alone, and keep the records with the assembly file."
     },
     {
       "question": "How to maintain and inspect vehicle fasteners?",
-      "answer": "Inspection schedule: Every 10,000 km: Check wheel nuts with torque wrench; Every 20,000 km: Inspect chassis fasteners; Every 50,000 km: Full underbody fastener audit. Look for: Loosening (mark position with paint pen); Corrosion (replace immediately); Stretching (measure length vs new bolt); Cracking (visual inspection). Never reuse locking fasteners (prevailing torque nuts, lock washers)."
+      "answer": "Vehicle fasteners are inspected on schedule: wheel nuts are torque-checked at routine intervals, chassis fasteners are inspected for looseness, and a full underbody audit covers suspension and mount joints. Look for loosening, marked with a paint witness line, corrosion warranting replacement, stretching measured against a new bolt, and cracking. Prevailing torque nuts and lock washers should not be reused once removed, since the locking element is spent. Record the joints checked, and replace any part showing deformation, corrosion beyond limits, or thread damage before service."
     }
   ],
   "updated": "2026-11-24",
