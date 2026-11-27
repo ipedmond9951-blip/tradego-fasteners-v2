@@ -60,7 +60,7 @@
     {
       "id": "types-properties",
       "heading": {
-        "en": "Types and Mechanical Properties",
+        "en": "Which composite fastener types exist, and how do their properties compare?",
         "es": "Tipos y propiedades mecánicas",
         "ar": "الأنواع والخصائص الميكانيكية",
         "fr": "Types et propriétés mécaniques",
@@ -69,7 +69,7 @@
         "ja": "種類と機械的特性",
         "de": "Typen und mechanische Eigenschaften",
         "hi": "प्रकार और यांत्रिक गुण",
-        "zh": "类型与机械性能"
+        "zh": "复合材料紧固件有哪些类型，机械性能各有什么差别？"
       },
       "body": {
         "en": "<p>Composites reach the market in three forms, and each has a different set of properties. Pultruded rod is the most common: continuous glass roving is pulled through a resin bath and a heated die, giving a straight profile with fibres running along its length. Threads are then cut into the rod, which is the important detail — machining interrupts the fibres at the thread, so the thread is the weakest section of the part rather than the strongest.</p>\n<p>Moulded parts are made by placing fibre into a mould and injecting or infusing resin. They can be shaped — a hex head, a square nut, a custom bracket — but the fibre orientation is less controlled, so strength varies with the design of the mould rather than with the drawing.</p>\n<p>Mechanically, the useful way to think about these parts is by comparison with the steel they replace rather than by absolute strength. Stiffness is a small fraction of steel's, so a composite stud elongates noticeably more under the same load; strength along the fibre is respectable, but strength across it and at the thread is not. The consequence for design is that composite joints should be loaded in shear and tension along the fastener axis, sized with more margin than a steel joint, and detailed so that the washer bears on a flat, adequate area.</p>\n<p>The property that buyers underrate is electrical and thermal behaviour. Composites do not conduct, they do not couple galvanically with a steel or aluminium structure, and they insulate thermally — three characteristics that no coating can reproduce and that decide more installations than strength does.</p>\n\n<p>Accessories decide whether the joint works. A composite stud with a steel washer has reintroduced the metal contact the part was bought to remove, and a steel nut on a composite thread will damage it. Nuts, washers and, where used, backing plates should be composite as well, and the resin of the accessory should match the fastener.</p>\n\n<p>Availability shapes design more than it should. Composite studs are made in a limited range of diameters compared with steel, and long lengths are harder to find than short ones, so a drawing that assumes the steel size range will usually be redrawn around what the mill pultrudes.</p>",
@@ -143,7 +143,7 @@
     {
       "id": "limitations",
       "heading": {
-        "en": "Limitations and Design Considerations",
+        "en": "Where should a composite fastener not be specified, and what must the design check?",
         "es": "Limitaciones y consideraciones de diseño",
         "ar": "القيود واعتبارات التصميم",
         "fr": "Limitations et considérations de conception",
@@ -152,7 +152,7 @@
         "ja": "制限事項と設計上の考慮事項",
         "de": "Einschränkungen und Konstruktionsüberlegungen",
         "hi": "सीमाएं और डिज़ाइन विचार",
-        "zh": "局限性及设计注意事项"
+        "zh": "哪些场合不宜选用复合材料紧固件，设计时要核对什么？"
       },
       "body": {
         "en": "<p>The limitations are real and specific, and they are the reason a composite fastener should never be specified as a drop-in replacement for a steel one. The first is stiffness: because the part elongates more, a joint that relied on the bolt to hold two plates tight will relax as the composite stretches, and a preload set like a steel bolt will not be maintained. Joints should be designed around bearing and shear, with a defined clamping arrangement, rather than around bolt tension.</p>\n<p>The second is creep. Under sustained load, a thermoset composite will continue to deform slowly, more so at higher temperature and in the presence of water. A hanging load held by a composite rod for years is a different proposition from a short-term structural connection, and the design should say which one it is.</p>\n<p>The third is the thread. Cut threads in pultruded rod have interrupted fibres, so the thread strips before the shank breaks and the tightening torque that a steel fastener tolerates will damage a composite one. Coarse threads, thread inserts and a controlled installation method — often a torque value supplied by the manufacturer rather than taken from a steel table — are part of the product, not accessories.</p>\n<p>Two further points belong in the specification. Temperature: standard resin systems have a service ceiling well below metal's, and a plant area near a steam line is outside it. Environment: ultraviolet exposure degrades resin unless the part is protected or the resin is formulated for it, and strong alkalis or particular solvents can attack even vinyl ester. A buyer who states the chemical, the temperature and the load duration gets a part that works; one who states only the diameter gets a part that fits.</p>\n\n<p>Installation practice follows from those limits. Impact tools are out, because they shear threads that were cut rather than rolled; tightening is slow and even; clearance holes are sized for the washer rather than the shank; and the joint is checked once after the first thermal cycle, since the composite and the structure expand differently.</p>\n\n<p>Inspection is visual and simple, which is one of the practical advantages: a composite part shows surface cracks, resin whitening from ultraviolet exposure and crushed washer seats without needing a coating thickness gauge or a rust survey.</p>",
