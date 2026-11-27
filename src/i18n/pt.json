@@ -268,5 +268,27 @@
     "message": "Mensagem",
     "messagePlaceholder": "Norma, material, acabamento, quantidade, porto de destino",
     "submit": "Enviar consulta"
+  },
+  "search": {
+    "title": "Busca no site",
+    "placeholder": "Buscar produtos e artigos…",
+    "button": "Buscar",
+    "resultsFor": "Resultados para “{q}”",
+    "noResults": "Nenhum resultado encontrado",
+    "noResultsHint": "Tente outra palavra-chave, navegue pelas categorias de produtos ou envie sua consulta diretamente.",
+    "groupProducts": "Produtos",
+    "groupArticles": "Artigos",
+    "hint": "Busque nomes de produtos, especificações e guias neste site.",
+    "browseProducts": "Ver todos os produtos"
+  },
+  "lead": {
+    "title": "Receba uma resposta rápida para sua consulta de fixadores",
+    "desc": "Deixe seu e-mail ou número de WhatsApp; nossa equipe de vendas entrará em contato.",
+    "placeholder": "E-mail ou número de WhatsApp",
+    "cta": "Solicitar orçamento",
+    "note": "O número do WhatsApp aparece no formato internacional. Confira antes de enviar.",
+    "success": "Obrigado! Nossa equipe de vendas entrará em contato em breve.",
+    "error": "Digite um e-mail ou número de WhatsApp válido.",
+    "close": "Fechar"
   }
 }
