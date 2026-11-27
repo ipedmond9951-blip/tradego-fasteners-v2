@@ -60,7 +60,7 @@
     {
       "id": "anodic-index",
       "heading": {
-        "en": "The Anodic Index: Understanding Metal Compatibility",
+        "en": "How does the anodic index show which metals can be joined safely?",
         "es": "El Índice Anódico: comprensión de la compatibilidad de metales",
         "ar": "مؤشر الأنود: فهم توافق المعادن",
         "fr": "L’indice anodique : Comprendre la compatibilité des métaux",
@@ -69,7 +69,7 @@
         "ja": "アノード指数：金属適合性の理解",
         "de": "Der Anodische Index: Metallverträglichkeit verstehen",
         "hi": "एनोडिक इंडेक्स: धातु संगतता को समझना",
-        "zh": "阳极指数：理解金属相容性"
+        "zh": "阳极指数如何判断哪些金属可以安全搭配？"
       },
       "body": {
         "en": "<p>The Anodic Index (AI) is a ranking of metals by their electrochemical potential in seawater. Metals with a larger difference in AI are more likely to experience galvanic corrosion when coupled. As a rule of thumb: AI difference < 0.15V — negligible galvanic risk; 0.15-0.25V — slight risk, monitor in harsh environments; 0.25-0.50V — moderate to high risk, use insulation; > 0.50V — severe risk, avoid direct coupling. For fasteners, the practical implication is that using a steel bolt on a copper pipe, or a stainless steel bolt on aluminum in a humid environment, can cause rapid fastener failure.</p>\n<p>Standards-based procurement requires continuous learning as ISO, ASTM, DIN, and GB standards are revised every 3-5 years. Subscribe to standards update notifications and review specifications annually. The most common standards used in international fastener trade are ISO 898-1 (mechanical properties), ISO 3506-1 (stainless), ISO 3269 (acceptance inspection), ISO 4042 (coatings), and ISO 1502 (thread gauges).</p>\n<p>For B2B buyers, building a standards reference library with at least the top 20 standards relevant to your product mix is essential.</p>",
@@ -166,7 +166,7 @@
     {
       "id": "prevention-methods",
       "heading": {
-        "en": "Prevention Methods: Isolation and Material Selection",
+        "en": "How do you isolate dissimilar metals or choose a compatible fastener pair?",
         "es": "Métodos de prevención: aislamiento y selección de materiales",
         "ar": "طرق الوقاية: العزل واختيار المواد",
         "fr": "Méthodes de prévention : Isolation et sélection des matériaux",
@@ -175,7 +175,7 @@
         "ja": "防止方法：絶縁と材料選定",
         "de": "Präventionsmethoden: Isolation und Materialauswahl",
         "hi": "रोकथाम के तरीके: अलगाव और सामग्री चयन",
-        "zh": "预防方法：隔离与材料选择"
+        "zh": "不同金属之间如何隔离，或如何选择相容的紧固件配对？"
       },
       "body": {
         "en": "<p>When dissimilar metals must be used together, several mitigation strategies exist: Electrical isolation — the most reliable method; separate the two metals with a non-conductive material (plastic <a href=\"/products#washers\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">washer</a>, rubber gasket, bushing) at all contact points. The isolation must be complete — any metal-to-metal contact defeats the isolation. Organic coatings — paint or powder coating on one or both surfaces creates a barrier; but any coating holiday (pinhole) creates a localized galvanic cell and accelerates pitting.</p>\n<p>Greases and sealants — petroleum jelly or specialized dielectric grease reduces ion flow but is not a permanent solution; grease washes away over time. Cathodic protection — make the anodic material the sacrificial anode (more active metal that corrodes preferentially); used in buried pipelines and marine applications. Material selection — the simplest solution: select <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fasteners</a> made of the same material as the parent, or use a material with a compatible anodic index.</p>\n<p>The verification checklist applies to both initial supplier qualification and ongoing batch inspection. For high-risk applications (load-bearing structural, pressure vessels, mining, marine), add fatigue testing, salt-spray testing (ASTM B117), torque-tension testing, and post-installation inspection. The cost of additional verification is 0.1-0.3% of order value, while undetected quality failures can be 10-100x the order value in damages.</p> <p>At assembly, the isolation gap is checked along the whole contact line, not only at the visible edge: bushings under the head, washers on the nut side and any stand-off spacer all count toward separating the two metals. Where paint or a coating breaks through on the parent surface, the exposed metal at the hole edge should be touched up after the fastener is fitted, because a scratched coat at the contact point restarts the cell. Record the paired materials and the isolation method on the joint schedule, so a maintenance refill replaces the fastener with the same compatible combination rather than the nearest catalogue grade.</p>",
