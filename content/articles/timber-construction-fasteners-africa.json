@@ -60,7 +60,7 @@
     {
       "id": "roof-truss-fasteners",
       "heading": {
-        "en": "Roof Truss Connection Hardware",
+        "en": "Which hardware connects roof trusses and timber frames?",
         "es": "Herrajes para conexión de cerchas de techo",
         "ar": "أدوات ربط جملونات الأسقف",
         "fr": "Matériel de connexion pour fermes de toit",
@@ -69,7 +69,7 @@
         "ja": "屋根トラス接続用ハードウェア",
         "de": "Verbindungselemente für Dachfachwerke",
         "hi": "रूफ ट्रस कनेक्शन हार्डवेयर",
-        "zh": "屋架连接五金件"
+        "zh": "屋架和木框架连接用哪些五金件？"
       },
       "body": {
         "en": "<p>Roof truss hardware is where light structures meet heavy weather, and the failure is almost always uplift rather than gravity. A truss is tied to the wall by clips, straps and hold-downs, and those small items — not the truss members — are what resist the wind pulling the roof off. In cyclonic and coastal regions of southern and eastern Africa, that load is the design case.</p>\n<p>The products divide by function. Truss clips and toe-nail plates transfer shear at the nodes and keep members located; they are not moment connections and should not be asked to be. Gusset plates carry the node forces where the geometry creates a bending demand, and their capacity comes from the plate's own design rather than from the number of teeth. Hold-downs and straps anchor the truss to the wall plate and carry the uplift, and their capacity depends on the fixing into the wall as much as on the strap.</p>\n<p>What fails in practice is installation, not product. A plate pressed short of full embedment loses capacity that the design assumed; a strap fixed with the wrong nails, or with nails that missed the truss, carries a fraction of its rating. The check that matters is depth of embedment and the correct fixing pattern, and both are visible to a site inspector in a way that a bolt's class is not.</p>\n<p>Coating is the second issue, and it is a coastal one. Roof trusses in a saline atmosphere, or under a roof covering that collects and releases moisture, put galvanised plates in a condensing environment. Zinc consumption at a plate edge is slow but it is the edge teeth that hold the load, so a plate that has lost its coating at the teeth has lost capacity before it has lost appearance.</p>\n<p>Where a project needs an engineered truss but the site is fabricating its own, the risk is not the hardware — it is that no design exists. Nailing a truss on site with the right plate and no calculation produces a structure that looks like an engineered truss and behaves like a guess. The specification should name the design, not only the plate.</p>",
@@ -87,7 +87,7 @@
     {
       "id": "treated-timber",
       "heading": {
-        "en": "Fasteners for Treated Timber: ACQ and CCA",
+        "en": "Which fasteners hold up against ACQ and CCA treated timber?",
         "es": "Fijaciones para madera tratada: ACQ y CCA",
         "ar": "مثبتات الأخشاب المعالجة: ACQ و CCA",
         "fr": "Fixations pour bois traité : ACQ et CCA",
@@ -96,7 +96,7 @@
         "ja": "防腐処理木材用締結部品（ACQ・CCA）",
         "de": "Befestigungsmittel für behandeltes Holz: ACQ und CCA",
         "hi": "उपचारित लकड़ी के लिए फास्टनर: ACQ और CCA",
-        "zh": "处理木材用紧固件：ACQ 与 CCA"
+        "zh": "哪种紧固件能适配 ACQ 与 CCA 防腐木材？"
       },
       "body": {
         "en": "<p>Treated timber is standard in African construction, and the treatment is the reason the fastener corrodes rather than the wood. Preservation chemicals are salts, and salts in the presence of moisture are an electrolyte sitting permanently against the fastener, which is why a coating that would last decades in dry timber can fail in a few seasons in a treated member.</p>\n<p>The chemistry decides the aggressiveness. The alkaline copper-based treatments are harder on zinc than the older arsenic-based ones, so a galvanised fastener that is adequate for one treatment is marginal for another. The practical answer in exposed or damp service is hot-dip galvanising with a coating thick enough to be specified, or stainless where the member is wet and the joint cannot be inspected. Electroplated fasteners in treated outdoor timber are the pairing that most often fails first.</p>\n<p>The connector problem is the same problem wearing a different shape. A metal plate or hanger in treated timber is a large area of metal in permanent contact with the chemical, and the corrosion appears at the edges and at the fastener holes. Where a treated member meets a stainless or aluminium component, the couple adds to it, and the joint becomes the place where the assembly corrodes rather than the place where it carries load.</p>\n<p>The specification should therefore treat the treatment as part of the environment, not part of the wood. It should say which treatment class the member carries, what coating the fastener needs for that class and exposure, and whether the fasteners are to be supplied hot-dip galvanised to a named standard. A purchase order that says \"galvanised screws\" for treated outdoor timber has not specified the thing that will fail.</p>\n<p>One further detail belongs here: the fastener must not be the only coated item in the joint. Where the timber is treated and the connector is plain steel, the connector will corrode at the interface and take the appearance of the failure, which then gets blamed on the screws.</p>\n\n<p>Timber treatment certificates belong with the fastener certificate in the project file, because a claim about corrosion cannot be settled unless both are known.</p>",
@@ -167,7 +167,7 @@
             "ja": "ACQ 処理材に標準の HDG ボルトを使ってもよいですか"
           },
           "a": {
-            "en": "No — ACQ (Alkaline Copper Quaternary) treated timber will rapidly corrode standard hot-dip galvanized fasteners. The high alkalinity of ACQ accelerates zinc corrosion, and once the zinc is consumed, the underlying steel corrodes. For outdoor ACQ-treated timber applications, specify stainless steel 316 or specialized ACQ-compatible coated fasteners. For indoor ACQ-treated timber (above ground, protected from direct moisture), some manufacturers claim HDG works, but SS316 remains the safer choice.",
+            "en": "No, standard hot-dip galvanized bolts are not a safe match for ACQ-treated timber. ACQ (Alkaline Copper Quaternary) has high alkalinity that accelerates zinc corrosion; once the zinc is consumed, the steel corrodes quickly. For outdoor ACQ timber, specify stainless steel 316 or a coating documented as ACQ-compatible. Indoors above ground and protected from moisture, some manufacturers accept HDG, but SS316 remains the lower-risk choice. State treatment type and exposure on the enquiry, and keep grade and coating records with the batch; the preservative-zinc combination is the failure point to watch.",
             "zh": "不能。ACQ（碱性铜季铵盐）处理木碱性较高，会加速镀锌层腐蚀，镀层耗尽后内部钢材随即锈蚀。户外 ACQ 防腐木应选用 316 不锈钢，或与 ACQ 兼容的专用涂层紧固件；室内离地、不直接受潮的 ACQ 木材，部分厂家认为热浸镀锌可用，但 316 不锈钢仍是更稳妥的选择。",
             "hi": "नहीं — ACQ उपचारित लकड़ी सामान्य हॉट-डिप गैल्वनाइज़्ड (HDG) फास्टनरों को जल्दी खराब कर देती है। ACQ की अधिक क्षारीयता जिंक को तेज़ी से खा देती है और जिंक खत्म होते ही भीतरी स्टील भी जंग खाने लगता है। बाहरी ACQ लकड़ी के लिए स्टेनलेस स्टील 316 या ACQ-अनुकूल कोटिंग वाले फास्टनर चुनें; जमीन से ऊपर, सीधी नमी से बची आंतरिक लकड़ी में कुछ निर्माता HDG चलने योग्य बताते हैं, पर SS316 ज़्यादा सुरक्षित रहता है।",
             "ru": "Нет. Пропитанная составом ACQ древесина быстро разрушает обычное горячее цинкование (HDG): щелочность ускоряет коррозию цинка, после чего ржавеет сама сталь. Для наружных изделий из такой древесины заказывайте нержавеющую сталь 316 либо покрытие, совместимое с ACQ. В помещении, выше земли и без прямого увлажнения, часть производителей допускает HDG, но 316 остаётся безопаснее.",
@@ -193,7 +193,7 @@
             "ja": "コーチスクリューとラグスクリューの違いは何ですか"
           },
           "a": {
-            "en": "Technically, 'coach screw' and 'lag screw' are the same thing — a heavy wood screw with a hex head. In the UK and much of Africa, they are called coach screws; in North America, they are called lag screws. Both have a coarse thread designed for wood and require pre-drilling. The hex head is driven with a spanner or socket wrench. They are used for heavy timber connections where bolts are impractical.",
+            "en": "Coach screw and lag screw are the same part: a heavy hex-head wood screw with a coarse timber thread. In the UK and much of Africa it is a coach screw; in North America it is a lag screw. The coarse thread bites into wood and needs a pre-drilled pilot hole, with the hex head driven by spanner or socket wrench. They suit heavy timber connections where a full bolt and nut is impractical. Across regions, treat both names as one group, and confirm thread, head size and material grade rather than the regional label.",
             "zh": "从技术上讲，coach screw 和 lag screw 是同一种紧固件——六角头的重型木螺丝。在英国和非洲多数地区习惯称 coach screw，其他地区称 lag screw，指的都是用于木材之间连接的重型六角木螺丝。选型按木材厚度、连接载荷和装配空间确定，粗牙螺纹适配木材咬合；硬木需预钻导向孔。订单中写明木材种类、规格和镀层要求，供应商匹配型式；到货核对头部型式和螺纹标记，避免把普通细牙木螺钉与重型马车螺丝混用。",
             "hi": "तकनीकी तौर पर coach screw और lag screw एक ही उत्पाद हैं — हेक्स हेड वाला भारी लकड़ी स्क्रू। UK और अफ्रीका के कई हिस्सों में इसे coach screw कहते हैं, उत्तरी अमेरिका में lag screw नाम चलता है। दोनों का मोटा धागा लकड़ी के लिए बना होता है और पहले पायलट छेद करना पड़ता है; हेक्स हेड पर स्पैनर या सॉकेट रिंच चलता है। ये भारी लकड़ी जोड़ों में लगते हैं जहां बोल्ट व्यावहारिक नहीं होते।",
             "ru": "Технически coach screw и lag screw — одно и то же: тяжёлый винт для дерева с шестигранной головкой. В Великобритании и большей части Африки его называют coach screw, в Северной Америке — lag screw. У обоих крупная резьба под древесину, отверстие под них сверлят заранее, а головку тянут ключом или торцевой головкой. Такие винты ставят в тяжёлых деревянных узлах, где болт неудобен.",
