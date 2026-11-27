@@ -60,8 +60,8 @@
     {
       "id": "materials",
       "heading": {
-        "en": "Materials and Coatings",
-        "zh": "材料和镀层",
+        "en": "Which threaded rod material and finish suits indoor, outdoor and underground conditions?",
+        "zh": "室内、户外与地下工况各选何种螺杆材料与镀层？",
         "es": "Materiales y recubrimientos",
         "ar": "المواد والتشطيبات",
         "fr": "Matériaux et Revêtements",
@@ -114,8 +114,8 @@
     {
       "id": "load",
       "heading": {
-        "en": "Load Ratings and Engineering",
-        "zh": "负载额定值和工程",
+        "en": "How is threaded rod strength matched to the joint's tensile load and safety basis?",
+        "zh": "螺杆强度如何匹配接头拉力载荷与安全系数？",
         "es": "Cargas nominales e ingeniería",
         "ar": "تصنيفات الحمل والهندسة",
         "fr": "Capacités de Charge et Ingénierie",
@@ -179,7 +179,7 @@
             "ja": "ねじ付き棒はどの長さで注文すべきですか？"
           },
           "a": {
-            "en": "Order slightly longer than needed, then cut to exact length on-site. Standard lengths of 1m, 2m, and 3m cover most requirements. For custom lengths, contact TradeGo for availability.",
+            "en": "Order rod slightly longer than needed and cut to exact length on site; standard 1m, 2m and 3m bars cover most needs, special lengths cut to drawing. State diameter, thread class, material and finish on the enquiry, and allow extra length for engagement, nuts and cut-off waste. Measure engagement into the tapped hole or nut, and keep the cut end burr-free. Record grade and finish on the lot, and match rod, nut and washer in one family so the joint does not mix incompatible classes.",
             "zh": "螺杆订料时略长于实际需要，到现场再截成精确长度。一到三米的标准长度可覆盖多数需求；特殊长度联系供应商定制。选型按连接长度、载荷和螺纹体系确定，截断后去除毛刺并保护螺纹。订单中写明标准长度或定制尺寸、等级和材质，供应商按对应规格供货；到货核对直径、长度和螺纹状态，现场切割后清理铁屑，避免碎屑损伤螺纹或连接面。",
             "hi": "ज़रूरत से थोड़ी लंबी रॉड ऑर्डर करें और साइट पर ही सही लंबाई काट लें। आम ज़रूरतें 1m, 2m और 3m की मानक लंबाइयों से पूरी हो जाती हैं। कस्टम लंबाई चाहिए तो उपलब्धता के लिए हमसे संपर्क करें।",
             "ru": "Берут немного длиннее расчётной величины, а точный размер режут уже на объекте. Стандартные длины 1 м, 2 м и 3 м закрывают большинство задач. Нестандартную длину уточняют у поставщика перед заказом, чтобы не закладывать лишний металл или недолёт по монтажу.",
@@ -205,7 +205,7 @@
             "ja": "ねじ付き棒は地下鉱山の支保に使えますか？"
           },
           "a": {
-            "en": "Yes, but use appropriate material for the environment. Hot-dip galvanized or stainless steel for humid underground conditions. Some mining applications require specialized corrosion-resistant coatings.",
+            "en": "Yes, with the right material. Hot-dip galvanised or stainless rod suits humid underground conditions; for aggressive groundwater or chemicals, choose a corrosion-resistant coating or A2/A4 stainless grade to the environment. Check rod class against the load basis, and do not rely on zinc plating for a damp or buried application. Record material, coating and test record with the support design, and inspect rod and nuts for corrosion after installation. For support or anchor systems, confirm specification and proof-load basis with the engineer before release.",
             "zh": "地下矿山支护可以用螺杆，但要选用适应环境的材质。潮湿井下条件用热浸镀锌或不锈钢；部分矿山工况对材质和防腐有专门要求，应按项目规范确认。选型核对湿度、腐蚀介质和受力情况，锚杆或支护螺杆与垫板、螺母成套匹配。结构受力部位不按普通吊挂螺杆选型。订单中写明井下工况和材质要求，供应商匹配防腐等级；到货核对批次和镀层，井下安装后复查紧固状态，避免腐蚀造成连接松动。",
             "hi": "हां, लेकिन पर्यावरण के हिसाब से उपयुक्त सामग्री चुनना जरूरी है। नम भूमिगत हालात के लिए हॉट-डिप गैल्वनाइज़्ड (HDG) या स्टेनलेस स्टील की रॉड इस्तेमाल करें; कुछ खनन अनुप्रयोगों में विशेष जंग-रोधी कोटिंग वाली रॉड की आवश्यकता होती है, इसलिए साइट की नमी और रसायन के हिसाब से ग्रेड तय करें।",
             "ru": "Да, но материал подбирают под среду: для влажных подземных условий — горячее цинкование (HDG) или нержавеющая сталь. Отдельные горные применения требуют специальных антикоррозионных покрытий, рассчитанных на агрессивную среду выработки.",
@@ -231,7 +231,7 @@
             "ja": "並目ねじと細目ねじの違いは何ですか？"
           },
           "a": {
-            "en": "Coarse thread (standard metric) is easier to assemble and provides better fatigue resistance. Fine thread offers better adjustment precision and higher load capacity in the same diameter.",
+            "en": "Coarse thread, the standard metric pitch, assembles faster, tolerates damage and dirt better, and has good fatigue resistance. Fine thread gives finer adjustment and a higher load area in the same diameter, suiting precision machinery and thin-wall nuts. Choose pitch from the assembly task, adjustment need and load condition, and match rod, nut and tap to the same thread series. Never mix coarse and fine on one joint, and state pitch and class on the drawing and certificate. Coarse is the safer default where corrosion or speed matters; fine where adjustment and stress area dominate.",
             "zh": "细牙和粗牙的区别：粗牙（标准公制）装配更容易，疲劳抗性更好；细牙调整精度更高、承载能力更强。选型按用途判断：一般连接和快速装配用粗牙，需要精密调节或高载荷的部位用细牙。螺纹直径、螺距和配套螺母在订单中写明，两种牙型不要混装。到货核对螺纹规格和配合状态，结构连接按载荷和装配要求选牙型，避免牙型错配造成调节困难或强度不足。",
             "hi": "कोर्स थ्रेड (मानक मीट्रिक) असेंबल करने में आसान है और बेहतर थका-रोध प्रतिरोध देता है। फाइन थ्रेड एक ही व्यास में बेहतर एडजस्टमेंट सटीकता और ज़्यादा भार क्षमता प्रदान करता है।",
             "ru": "Крупная резьба (стандартная метрическая) проще собирается и лучше сопротивляется усталостным нагрузкам. Мелкая обеспечивает более точную регулировку и при том же диаметре несёт повышенную нагрузку; выбор резьбы решает сопряжение с гайками и муфтами в узле.",
@@ -257,7 +257,7 @@
             "ja": "現場でねじ付き棒を切断するにはどうしますか？"
           },
           "a": {
-            "en": "Use a hacksaw with fine-tooth blade, angle grinder with cutting disc, or pipe cutter for smaller diameters. Wear safety glasses and protect threads from debris.",
+            "en": "Cut rod on site with a fine-tooth hacksaw, an angle grinder cutting disc, or a pipe cutter for small diameters; wear safety glasses and protect threads from debris. Remove burrs, clean chips from the thread, and check the nut still runs freely along the remaining length. Hold the rod steady so the cut does not bend or score threads, and mark the cut length against required engagement. Recheck thread class and finish after cutting, and label off-cuts so grade and coating stay traceable to the original bar.",
             "zh": "现场切断螺杆可用细齿钢锯、带切割片的角磨机，或小直径用管割刀。作业时戴护目镜，并保护螺纹不受碎屑损伤。切割后去除切口毛刺，清理铁屑，检查螺纹和杆端状态；直径较大的杆件注意固定和切割安全。切断长度按现场实测确定，保留端面平整以便配合螺母。订单中注明现场截切需求，供应商可预留余量；现场工具和防护到位，切下的杆件分类堆放，避免螺纹损伤或碎屑进入连接部位。",
             "hi": "साइट पर रॉड काटने के लिए महीन दांतों वाली हैकसॉ ब्लेड, कटिंग डिस्क लगी एंगल ग्राइंडर, या छोटे व्यास की रॉड के लिए पाइप कटर इस्तेमाल किया जा सकता है। कटाई के दौरान सुरक्षा चश्मा पहनें और कटे हुए थ्रेड्स को धूल-मलबे से बचाएं, ताकि बाद में नट और जोड़ सुचारू रूप से लगें।",
             "ru": "Применяют ножовку с полотном по металлу, болгарку с отрезным диском либо труборез для малых диаметров. Обязательны защитные очки, резьбу закрывают от стружки и абразива, после резки зачищают кромку и обрабатывают срез против коррозии.",
@@ -283,7 +283,7 @@
             "ja": "ねじ付き棒は溶接できますか？"
           },
           "a": {
-            "en": "Carbon steel threaded rod can be welded using appropriate procedures. Remove any plating or coating before welding. Stainless rod requires specialized welding techniques.",
+            "en": "Carbon steel rod can be welded under a qualified procedure, but plating or coating must be removed first; zinc fumes and contaminants weaken the weld. Stainless rod needs specialised technique and filler matched to the stainless grade. Confirm material and class before welding, and do not weld a rod that stays a threaded joint without reviewing the thread and heat-affected zone. Record weld procedure, filler and inspection basis, and recheck thread run and condition after welding. For load-critical rods, leave the welding decision to the engineer rather than improvising on site.",
             "zh": "碳钢螺杆在合适工艺下可以焊接，但焊接前应去除镀层或涂层；不锈钢螺杆需要专用焊接工艺，不能按碳钢方式处理。选型核对材料牌号和焊接可行性，镀锌件焊接会破坏镀层，焊后需重新防腐处理。结构受力焊接连接应由专业工艺评定，不现场随意焊接受力件。订单中写明材质和是否涉及焊接，供应商提供材料数据；需要焊接的部位在制造阶段确定方案，现场只做装配连接，避免焊接不当降低螺杆强度或引入腐蚀隐患。",
             "hi": "कार्बन स्टील थ्रेडेड रॉड को उपयुक्त वेल्डिंग प्रक्रिया से जोड़ा जा सकता है। वेल्डिंग शुरू करने से पहले सतह से कोई भी जस्ता प्लेटिंग या कोटिंग हटा देनी चाहिए, वरना वेल्ड जोड़ कमजोर पड़ सकता है। स्टेनलेस रॉड के लिए अलग विशेष वेल्डिंग तकनीक अपनानी होती है।",
             "ru": "Шпильку из углеродистой стали можно сваривать по отработанной технологии, но перед сваркой удаляют гальванику или покрытие. Нержавеющая шпилька требует специальных режимов сварки и присадочной проволоки, иначе шов теряет стойкость и прочность.",
