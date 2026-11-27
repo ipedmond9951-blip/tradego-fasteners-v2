@@ -114,8 +114,8 @@
     {
       "id": "comparison",
       "heading": {
-        "en": "Segregation: Size, Grade, Coating, Batch",
-        "zh": "隔离：尺寸、等级、镀层、批次",
+        "en": "How should stock be split by size, grade, coating and batch?",
+        "zh": "库存该按规格、牌号、镀层和批次怎么分区？",
         "es": "Segregación: medida, grado, revestimiento, lote",
         "fr": "Séparation : taille, nuance, revêtement, lot",
         "pt": "Segregação: tamanho, grau, revestimento, lote",
@@ -141,8 +141,8 @@
     {
       "id": "checklist",
       "heading": {
-        "en": "Lot Control and FIFO Without a System",
-        "zh": "没有系统也能做批次控制与先进先出",
+        "en": "How do you keep lot control and FIFO order without a warehouse system?",
+        "zh": "没有仓储系统时怎么管好批次追溯与先进先出？",
         "es": "Control de lote y FIFO sin sistema",
         "fr": "Contrôle de lot et FIFO sans système",
         "pt": "Controle de lote e FIFO sem sistema",
