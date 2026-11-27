@@ -33,7 +33,7 @@
     {
       "id": "shipping-routes",
       "heading": {
-        "en": "Major Shipping Routes from China to Africa",
+        "en": "Which Chinese-origin to African gateway routes serve fastener shipments?",
         "es": "Rutas marítimas principales desde China hacia África",
         "ar": "مسارات الشحن الرئيسية من الصين إلى أفريقيا",
         "fr": "Principales routes maritimes de la Chine vers l'Afrique",
@@ -42,7 +42,7 @@
         "ja": "中国からアフリカへの主要配送ルート",
         "de": "Wichtige Versandrouten von China nach Afrika",
         "hi": "चीन से अफ्रीका के लिए मुख्य नौवहन मार्ग",
-        "zh": "从中国到非洲的主要海运航线"
+        "zh": "从中国工厂到非洲各港口有哪些紧固件运输航线？"
       },
       "body": {
         "en": "<p>Container movement of threaded parts between manufacturing origins and destination works relies on packing records, material marks, and batch documentation matched to the order, with standards referenced to ISO 898-1. This overview helps purchasing teams compare vendor evidence and inspection records before arranging shipment. It separates retained local stock onward routing and keeps batch identity and finish traceable. Repeat batches are checked against the supplied drawing before delivery.</p><p>Containerized fastener cargo out of Shanghai/Ningbo reaches southern and East Africa on weekly and bi-weekly sailings: Durban in 20–25 days, Lagos/Apapa in 28–35 days with possible 7–14 days of Nigerian port congestion, and Mombasa in 18–22 days for Kenya, Uganda, Rwanda, Burundi and South Sudan.</p>\n<p><strong>Route 1</strong>: Shanghai/Ningbo → Durban (South Africa)\n- Transit time: 20-25 days\n- Frequency: Weekly sailings\n- Major carriers: Maersk, MSC, CMA CGM</p>\n<p><strong>Route 2</strong>: Shanghai/Ningbo → Lagos/Apapa (Nigeria)\n- Transit time: 28-35 days\n- Frequency: Bi-weekly sailings\n- Note: Nigerian port congestion can add 7-14 days</p>\n<p><strong>Route 3</strong>: Shanghai/Ningbo → Mombasa (Kenya)\n- Transit time: 18-22 days\n- Frequency: Weekly sailings\n- Serves Kenya, Uganda, Rwanda, Burundi, South Sudan</p>\n<p><strong>Route 4</strong>: Shanghai/Ningbo → Dar es Salaam (Tanzania)\n- Transit time: 20-25 days\n- Frequency: Weekly sailings\n- Serves Tanzania, Zambia, Malawi, DRC</p>\n<p><strong>Route 5</strong>: Shanghai/Ningbo → Djibouti → Addis Ababa (Ethiopia)\n- Transit time: 18-22 days to Djibouti\n- Overland: 2-3 days by truck Related resources: <a href=\"/en/products/high-tensile-bolts\">high-tensile bolts</a> <a href=\"/en/products/anchor-bolts\">anchor bolts</a> <a href=\"/en/products/stainless-bolts\">stainless steel fasteners</a> <a href=\"/en/products/hex-bolts\">hex bolts</a> <a href=\"/en/products/lock-nuts\">lock nuts</a> <a href=\"/en/products/washers\">washers</a> <a href=\"/en/products/self-drilling-screws\">self-drilling screws</a> <a href=\"/en/products/socket-screws\">socket screws</a>. This procurement framework applies to fastener sourcing for construction, mining, energy, automotive, and general industrial applications. The decision logic prioritizes quality consistency, supplier reliability, and total cost of ownership over short-term unit price. For B2B buyers in Africa, Latin America, and Southeast Asia, additional considerations include regional customs requirements, container consolidation options, and payment security mechanisms. Standardized specifications that travel across projects reduce training time, RFQ processing time, and supplier onboarding effort.</p>",
@@ -87,7 +87,7 @@
     {
       "id": "documentation",
       "heading": {
-        "en": "Required Export/Import Documentation",
+        "en": "Which export and import documents must travel with a fastener shipment?",
         "es": "Documentación requerida para exportación e importación",
         "ar": "وثائق التصدير والاستيراد المطلوبة",
         "fr": "Documentation requise pour l'exportation/importation",
@@ -96,7 +96,7 @@
         "ja": "必要とされる輸出入書類",
         "de": "Erforderliche Export-/Importdokumentation",
         "hi": "आवश्यक निर्यात/आयात दस्तावेज़",
-        "zh": "进出口所需单证"
+        "zh": "紧固件出口货件需要随附哪些进出口单证？"
       },
       "body": {
         "en": "<p>Standard documentation for China to Africa <a href=\"/products\" class=\"text-primary-600 hover:text-primary-800 underline underline-offset-2\">fastener</a> shipments: Export Documents (from China):\n1. Commercial Invoice (detailed itemized)\n2. Packing List\n3. Bill of Lading (B/L) - Sea waybill or original B/L\n4. Certificate of Origin (Form E for Africa trade agreements)\n5. Fumigation Certificate (if wood packaging used)\n6. Container Security Seal (CSS) certificate\n7. Mill Test Certificates (EN 10204 3.1 or 3.2)\n8. Export Declaration</p>\n<p>Import Documents (into Africa):\n1. Import Declaration\n2. Bill of Entry\n3. Import License (if required)\n4. SONCAP (Nigeria) or equivalent\n5. SABS Certificate of Conformity (South Africa)\n6. Tax Identification Number (TIN)\n7. Importer's Declaration The comparison methodology above uses typical ranges from industry data and TradeGo procurement experience 2018-2024.</p><p>The comparison methodology above uses typical ranges from industry data and TradeGo procurement experience 2018-2024. Actual market prices fluctuate with raw material costs (steel, zinc, nickel), energy costs, labor costs, and currency exchange rates.</p><p>For accurate comparison, request identical RFQs from 3-5 qualified suppliers and compare landed cost (product + shipping + insurance + duties). The lowest unit price is rarely the lowest total cost of ownership.</p>",
@@ -206,7 +206,7 @@
             "ja": "出荷元からアフリカへの主な航路は何ですか？"
           },
           "a": {
-            "en": "Key routes: Shanghai/Ningbo → Durban (20-25 days), → Lagos/Nigeria (28-35 days), → Mombasa/Kenya (18-22 days), → Dar es Salaam/Tanzania (20-25 days), → Djibouti/Ethiopia (18-22 days sea + 2-3 days overland).",
+            "en": "Main routes from Chinese origins serve the African gateways: Durban for Southern Africa, Lagos for West Africa, Mombasa for Kenya and the East African hinterland, Dar es Salaam for Tanzania, and Djibouti for Ethiopia and landlocked transit. Port choice depends on the destination works, carrier schedule and inland connection after arrival. Confirm the gateway with the forwarder against the delivery address, and keep packing marks and documents aligned to the port of discharge. For landlocked projects, check the border and inland leg separately from the ocean crossing, not one fixed route.",
             "zh": "主要航线与参考时效：从中国主要港口到德班 20–25 天；到拉各斯（尼日利亚）28–35 天；到蒙巴萨（肯尼亚）18–22 天；到达累斯萨拉姆（坦桑尼亚）20–25 天；到吉布提（衔接埃塞俄比亚）海运 18–22 天，再加 2–3 天内陆运输。选航线时结合目的港和内陆最终交付地，港口拥堵和清关进度会影响实际到货；内陆国家还要核算港到工地的陆运时间，订舱前把这些环节纳入交货计划。",
             "hi": "मुख्य मार्ग ये हैं: शंघाई/निंगबो से डरबन तक 20–25 दिन, लागोस/नाइजीरिया तक 28–35 दिन, मोम्बासा/केन्या तक 18–22 दिन, दार एस सलाम/तंजानिया तक 20–25 दिन, और जिबूती/इथियोपिया तक 18–22 दिन समुद्री माल ढुलाई के साथ 2–3 दिन का स्थलीय सफर।",
             "ru": "Ключевые направления: Шанхай и Нинбо → Дурбан 20–25 дней; → Лагос, Нигерия, 28–35 дней; → Момбаса, Кения, 18–22 дня; → Дар-эс-Салам, Танзания, 20–25 дней; → Джибути, Эфиопия, 18–22 дня морем плюс 2–3 дня сухопутного плеча.",
@@ -232,7 +232,7 @@
             "ja": "アフリカ向けコンテナ一個あたりの輸送費はどう決まりますか？"
           },
           "a": {
-            "en": "Ocean freight is quoted per container type (20ft or 40ft), cargo volume and carrier schedule; rates vary by season, fuel surcharges, and destination port. Durban and Mombasa routes are typically more affordable than West African ports.",
+            "en": "Ocean freight is quoted per container type, cargo volume and carrier schedule, and moves with season, fuel surcharge and destination port. Separate the ocean leg, marine insurance, port handling and inland haulage rather than folding them into one shelf figure. Durban and Mombasa routes differ from West African ports on the inland leg, so confirm route and cargo plan before budgeting. Packing density and size mix affect container fit and the per-unit freight share. Assemble the landed figure from actual quotations for the specified container, route and cargo, keep each element documented.",
             "zh": "20 尺柜与 40 尺柜运价不同，随季节、燃油附加费和目的港浮动；德班、蒙巴萨航线通常比西非港口便宜。运费报价要按柜型、货量和船期单独询价，不能只看单柜标价。比价时把柜型、装箱量、起运港和目的港口径对齐，区分整柜与拼箱的费用构成；旺季和舱位紧张时段要提前订舱，运费变动在报价有效期内注明，避免临出货时再议价影响交期。",
             "hi": "दर मौसम, ईंधन अधिभार और गंतव्य बंदरगाह के हिसाब से बदलती है; डरबन और मोम्बासा के मार्ग आम तौर पर पश्चिमी अफ्रीकी बंदरगाहों की तुलना में किफ़ायती रहते हैं। ठोस राशि कंटेनर के आकार, माल की मात्रा और रूट पर तय होती है, इसलिए ऑर्डर करने से पहले चालू भाड़ा दरें जरूर मांग लें।",
             "ru": "Ставка зависит от сезона, топливных доплат и порта назначения, разделяется по типу контейнера и объёму партии; маршруты Durban и Mombasa обычно обходятся дешевле западноафриканских портов. Конкретная цифра фиксируется в коммерческом предложении после согласования спецификации, упаковки и сроков отгрузки.",
@@ -258,7 +258,7 @@
             "ja": "出荷元からアフリカ港までの海上輸送にはどのくらい日数がかかりますか？"
           },
           "a": {
-            "en": "Transit times: Durban 20-25 days, Lagos 28-35 days (port congestion may add 7-14 days), Mombasa 18-22 days, Dar es Salaam 20-25 days, Djibouti 18-22 days to port.",
+            "en": "Transit reliability depends on carrier schedule, port congestion, clearance processing and the inland leg after discharge. Separate vessel sailing, port handling, customs clearance and onward transport, each of which can shift independently. Gateways such as Durban and Mombasa connect to East and Southern African hinterlands, while West African and Red Sea ports feed their own corridors. Confirm handover points with the forwarder rather than relying on one promised date, and leave margin for clearance and road conditions. Keep the document file ready before vessel arrival so the cargo clears and moves on schedule.",
             "zh": "各航线海运时效参考如下：到德班 20–25 天；到拉各斯 28–35 天，遇港口拥堵可能再延误 7–14 天；到蒙巴萨 18–22 天；到达累斯萨拉姆 20–25 天；到吉布提 18–22 天到港。订舱时要把拥堵余量算进交货计划，避免用最短时效倒排工期。内陆目的地在到港后还要接陆运，项目排产应留出清关和转运缓冲；急料可分批发运或核对快班方案，实际到港时间以船期和港口作业情况为准。",
             "hi": "पारगमन समय: डरबन 20–25 दिन, लागोस 28–35 दिन (बंदरगाह भीड़भाड़ से 7–14 दिन और जुड़ सकते हैं), मोम्बासा 18–22 दिन, दार एस सलाम 20–25 दिन, और जिबूती बंदरगाह तक 18–22 दिन। बंदरगाह पर इंतजार की संभावना को शेड्यूल में अलग से जगह दें।",
             "ru": "Сроки транзита: Дурбан 20–25 дней, Лагос 28–35 дней (заторы в порту добавляют 7–14 дней), Момбаса 18–22 дня, Дар-эс-Салам 20–25 дней, Джибути 18–22 дня до порта прибытия.",
@@ -284,7 +284,7 @@
             "ja": "アフリカへファスナーを輸入する際に必要な書類は何ですか？"
           },
           "a": {
-            "en": "Required: Commercial Invoice, Packing List, Bill of Lading (B/L), Certificate of Origin (Form E for preferential tariffs), Mill Test Certificates (EN 10204 3.1), Fumigation Certificate (if wood packaging), Import Declaration, SONCAP (Nigeria) or SABS CoC (South Africa).",
+            "en": "Import documents for fasteners into Africa generally include commercial invoice, packing list, bill of lading, certificate of origin, mill test certificate to EN 10204 3.1, and fumigation certificate for wood packaging. Product conformity adds SONCAP for Nigeria, a SABS or CoC document for South Africa, and the destination's import declaration. Invoice and packing list must match item for item, grade, size, coating and mark aligned to cargo. Keep the MTR tied to heat number and lot, and check whether a pre-shipment conformity certificate is required before dispatch. Certificates travel with the batch they describe.",
             "zh": "进口非洲通常必备商业发票、装箱单、提单（B/L）、产地证（Form E 可享优惠关税）、材质书（EN 10204 3.1）；木质包装需熏蒸证书；另办进口申报，尼日利亚走 SONCAP，南非办 SABS 符合性证书（CoC）。文件随货或按目的国要求在装船前办妥。发货前核对目的国准入要求和证书项目，发票、装箱单与提单的品名、数量、重量一致；证书与到货炉批号、规格对应，避免到港后补件延误清关。",
             "hi": "ज़रूरी दस्तावेज़: कमर्शियल इनवॉइस, पैकिंग लिस्ट, बिल ऑफ लैडिंग (B/L), सर्टिफिकेट ऑफ ओरिजिन (तरजीही टैरिफ के लिए Form E), मिल टेस्ट सर्टिफिकेट (EN 10204 3.1), लकड़ी की पैकिंग हो तो फ्यूमिगेशन सर्टिफिकेट, आयात घोषणा, और नाइजीरिया के लिए SONCAP या दक्षिण अफ्रीका के लिए SABS CoC।",
             "ru": "Требуются коммерческий счёт, упаковочный лист, коносамент B/L, сертификат происхождения (форма E для преференциальной ставки), заводские сертификаты испытаний по EN 10204 3.1, сертификат фумигации при деревянной упаковке, импортная декларация, а также SONCAP для Нигерии или сертификат соответствия SABS для ЮАР.",
@@ -310,7 +310,7 @@
             "ja": "アフリカ向け輸入の着地コストはどう計算しますか？"
           },
           "a": {
-            "en": "Landed cost = FOB + Freight + Insurance + Port handling + Customs duties (varies by country, typically 10-25% for steel products) + Import VAT (varies) + Inland transport to your location. Port handling and inland transport are quoted per operation and distance; budget the landed cost from the actual quotations rather than a fixed FOB multiplier.",
+            "en": "Landed cost assembles material and forming price, ocean freight, insurance, port handling, customs duty, import tax and inland transport to site. Duty and tax are set by the destination under the declared HS classification, so verify the current treatment with a clearing agent rather than a fixed multiplier. Port handling and inland haulage are quoted per operation and distance, and packed volume affects the freight share. Budget from actual quotations for specification, container, route and cargo plan, keep each element documented. Confirm the HS heading, conformity document and delivery address before compiling the landed figure.",
             "zh": "到岸成本 = 出厂价（FOB）+ 海运费 + 保险 + 港口操作费 + 进口关税（钢铁制品各国通常 10–25%）+ 进口增值税（按各国规定）+ 目的地内陆运输。做预算时应按上述各分项实际报价汇总完整到岸成本，不用固定倍数套用。核算时先按目的国归类确认关税和增值税口径，港口杂费和内陆运费单独列项；不同国家税费差异较大，预算应按实际目的港拆分，不能用一个系数套所有市场。",
             "hi": "लैंडेड लागत = FOB + माल ढुलाई + बीमा + बंदरगाह हैंडलिंग + सीमा शुल्क शुल्क (देश के हिसाब से, स्टील उत्पादों पर आम तौर पर 10–25%) + आयात VAT (देश के हिसाब से बदलता है) + आपकी जगह तक अंतर्देशीय परिवहन। पूरी लैंडेड लागत के लिए ऊपर दिए गए घटकों के वास्तविक उद्धरणों से बजट बनाएं, निश्चित FOB गुणक से नहीं।",
             "ru": "Полная стоимость складывается из цены FOB, фрахта, страховки, портовых сборов, таможенных пошлин (зависят от страны, для стальных изделий обычно 10–25%), импортного НДС по ставке страны и внутрисухопутной доставки до объекта. Закладывайте также погранпереход и плечо до склада, а не только морской фрахт; скидка и условия зависят от объёма партии и спецификации.",
