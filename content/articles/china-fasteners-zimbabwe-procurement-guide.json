@@ -396,13 +396,13 @@
         ],
         "rows": [
           [
-            "T/T 30% Deposit",
-            "30% to order, 70% before shipment",
+            "T/T milestone payment",
+            "Deposit at order; balance per contract milestones, against B/L copy",
             "Orders under USD 10,000"
           ],
           [
-            "T/T 50/50",
-            "50% to order, 50% against B/L copy",
+            "T/T by milestones",
+            "Deposit and balance per contract, against B/L copy",
             "Medium orders; balance risk mitigation"
           ],
           [
@@ -716,7 +716,7 @@
           },
           "a": {
             "en": "Terms are negotiated per programme rather than fixed for every buyer. A first order usually pairs a deposit against the proforma with a balance against shipping documents (bill of lading copy, packing list, inspection certificate); avoid full prepay before production. Repeat programmes may use an L/C through the bank. For Zimbabwe via the Beira corridor or Durban–Johannesburg, the settlement route, documents and milestones are agreed up front, with mill certificate, grade mark and coating record as release record. Given inland corridor congestion and customs documentation, confirm currency routing and handover before production.",
-            "zh": "默认付款方式为美元电汇（T/T），汇入我方香港或阿联酋银行账户。对已完成资信核验的客户，可协商30/70或50/50的分期付款安排。新客户或首次合作仍以预付款加尾款的常规条款为准。所有银行转账手续费由付款方承担，中间行扣费也会影响到账金额，报价和收款时应注明币种、银行路径和费用承担方，避免到账差额影响发货排期。付款条件按里程碑约定。",
+            "zh": "默认付款方式为美元电汇（T/T），汇入我方香港或阿联酋银行账户。对已完成资信核验的客户，可按里程碑协商分期付款安排，定金与余款比例按合同约定。新客户或首次合作仍以预付款加尾款的常规条款为准。所有银行转账手续费由付款方承担，中间行扣费也会影响到账金额，报价和收款时应注明币种、银行路径和费用承担方，避免到账差额影响发货排期。付款条件按里程碑约定。",
             "hi": "भुगतान शर्तें माइलस्टोन के अनुसार तय होती हैं।",
             "es": "Las condiciones de pago se acuerdan por hitos.",
             "ja": "支払条件はマイルストーンごとに合意します。",
