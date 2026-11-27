@@ -116,7 +116,7 @@
     {
       "id": "price-factors",
       "heading": {
-        "en": "Factors Affecting M10 Galvanized Bolt Prices",
+        "en": "Which material, coating and order factors move the M10 galvanized bolt quote?",
         "es": "Factores que Afectan los Precios de los Pernos Galvanizados M10",
         "ar": "العوامل المؤثرة على أسعار المسامير المجلفنة M10",
         "fr": "Facteurs influençant les prix des boulons galvanisés M10",
@@ -125,7 +125,7 @@
         "ja": "M10亜鉛メッキボルトの価格に影響を与える要因",
         "de": "Faktoren, die die Preise für M10 verzinkte Schrauben beeinflussen",
         "hi": "M10 गैल्वनाइज्ड बोल्ट की कीमतों को प्रभावित करने वाले कारक",
-        "zh": "影响M10镀锌螺栓价格的因素"
+        "zh": "哪些材料、镀层与订单因素影响 M10 镀锌螺栓报价？"
       },
       "body": {
         "en": "<p>Understanding price factors helps buyers time their purchases optimally:\n\nA quotation for this product is built from a structure, not from a price list. Each lot price combines the base price for material and forming, the surcharge for surface finish and coating class, packing and accessory supply, inland transport to the port, ocean freight and export documents, and adjustments for order quantity and payment terms. The inputs that move the price most are steel, zinc, energy and freight rates, and they are re-priced per lot; any figure published on a page is a slice of one week, not a tradable price. Comparisons hold only at the same specification, the same Incoterm and the same packing. Give us size, coating, packing, quantity, destination port and Incoterm, and we will build a verifiable quotation. 1. Steel Raw Material Costs: Hot-rolled coil (HRC) prices fluctuate with global commodity markets.\n\n2. Zinc Coating Costs: Zinc prices on LME affect hot-dip galvanizing costs.\n\n3. Manufacturing Efficiency: Automated production lines offer better pricing than small-scale manufacturers.\n\n4. Quality Standards: TradeGo's documented production controls ensures consistent quality with proper heat treatment.\n\n5. Logistics: Port congestion and shipping rates affect total landed cost. The comparison methodology above uses typical ranges from industry data and TradeGo procurement experience 2018-2024. Actual market prices fluctuate with raw material costs (steel, zinc, nickel), energy costs, labor costs, and currency exchange rates. For accurate comparison, request identical RFQs from 3-5 qualified suppliers and compare landed cost (product + shipping + insurance + duties). The lowest unit price is rarely the lowest total cost of ownership.</p><p>The variables that move an M10 galvanised bolt price, in rough order of impact, are class, coating thickness, length, quantity and packing. Going from class 4.6 to 8.8 changes the steel grade and the heat treatment, and it changes the price more than most buyers expect. Coating thickness is the second lever: a standard hot-dip coating and a heavy coating for a coastal or chemical environment are different products, and quoting the thinner one against the thicker one is the most common misleading comparison in this segment.</p>\n<p>Length and quantity interact because of tooling and packing. A single length in a large quantity is cheaper per piece than a mixed range, and a mixed range in modest quantities carries a sorting and labelling cost that appears in the quotation as a handling charge. Packing matters too: a carton sized for retail and a palletised carton for project delivery are different costs, and a buyer who does not state the packing is often quoted the cheaper one and then charged for the other.</p>",
@@ -143,7 +143,7 @@
     {
       "id": "specifications",
       "heading": {
-        "en": "Standard Specifications for M10 Galvanized Bolts",
+        "en": "Which inspection basis should be stated on the M10 bolt specification and order?",
         "es": "Especificaciones Estándar para Pernos Galvanizados M10",
         "ar": "المواصفات القياسية للمسامير المجلفنة M10",
         "fr": "Spécifications standard des boulons galvanisés M10",
@@ -152,7 +152,7 @@
         "ja": "M10亜鉛メッキボルトの標準仕様",
         "de": "Standardspezifikationen für M10 verzinkte Schrauben",
         "hi": "M10 गैल्वनाइज्ड बोल्ट के लिए मानक विशिष्टताएं",
-        "zh": "M10镀锌螺栓标准规格"
+        "zh": "M10 螺栓规格与订单上应写明哪些检验依据？"
       },
       "body": {
         "en": "<p>It is also worth stating the inspection basis: whether the coating thickness will be checked by a magnetic gauge, whether thread gauging will be done with go and no-go gauges, and what sample size applies. These three statements convert a price into a deliverable and prevent the situation where a consignment is accepted on appearance and rejected on measurement.</p><p>The inspection basis for an M10 lot should be stated on the order: coating thickness checked by magnetic gauge, thread fit checked with go and no-go gauges, and the sample size named for acceptance. Head class marking, length and thread pitch are verified against the drawing before cartons are sealed, and retained samples are linked to the batch number so a repeat lot can be compared against the approved set. Packing records keep class, coating and carton quantity together, which lets a wholesaler split the container without mixing batches and lets the receiving inspector match the paperwork to the delivered stock.</p>",
@@ -261,7 +261,7 @@
             "ja": "M10亜鉛めっきボルトの見積もりを最も左右する要素は何ですか？"
           },
           "a": {
-            "en": "Zinc and wire-rod prices set the floor, then coating thickness - hot-dip at 50 microns costs clearly more than electro-zinc at 8-12 microns. Order size, packing (cartons vs pallets) and grade (4.8 vs 8.8) account for most of the remaining spread between quotes.",
+            "en": "Zinc and wire-rod prices set the floor, then coating thickness moves the spread: hot-dip galvanizing at the heavier coating costs clearly more than electro-zinc at the thin 8 to 12 micron finish. Order size, packing form (cartons versus pallets) and grade (4.8 versus 8.8) account for most of the remaining difference between quotes. The specification also sets inspection basis: magnetic-gauge coating thickness, go/no-go thread gauges and the sample size. Compare only at the same grade, coating and packing, and state the standard so a thinner coating is not read as equal.",
             "zh": "M10 镀锌螺栓的报价差异，首先来自原材料与镀层两道基础因素。锌价和线材价格决定成本下限，镀层厚度的影响也很直接：热浸镀锌镀层明显厚于电镀锌，防腐等级更高，加工成本随之上升。除此之外，订货批量、包装方式（纸箱或托盘）和强度等级（4.8 级与 8.8 级）是报价之间剩余差距的主要来源。采购时应把镀层规格、螺纹公差、等级和包装要求写成书面条款，先拿产前样品确认，再比较不同供应商的报价，避免仅凭单件低价判断综合成本。",
             "hi": "ज़िंक और वायर-रॉड की कीमतें आधार तय करती हैं, फिर कोटिंग की मोटाई आती है: 50 माइक्रोन वाला हॉट-डिप कोटिंग 8–12 माइक्रोन वाले इलेक्ट्रो-ज़िंक साफ़ तौर पर महंगा पड़ता है। ऑर्डर की मात्रा, पैकिंग (कार्टन बनाम पैलेट) और ग्रेड (4.8 बनाम 8.8) उद्धरणों के बीच बचा हुआ अंतर ज़्यादातर इन्हीं से आता है।",
             "ru": "Пол цен задают цены на цинк и проволоку, дальше идёт толщина покрытия: горячее цинкование при 50 µm заметно дороже электролитического цинка при 8–12 µm. Остальную часть разброса между котировками дают размер заказа, упаковка (картонные коробки против поддонов) и класс прочности 4.8 против 8.8.",
@@ -287,7 +287,7 @@
             "ja": "同じM10ボルトで供給元の見積もりが大きく違うのはなぜですか？"
           },
           "a": {
-            "en": "Usually they are not quoting the same thing: check coating type and thickness, thread tolerance, whether washers and nuts are included, packing, and the Incoterm. A quote 20% cheaper often means thin electro-zinc and bulk cartons rather than coated parts with matched nuts.",
+            "en": "Usually the suppliers are not quoting the same thing: check coating type and thickness, thread tolerance, whether washers and nuts are included, the packing form, and the Incoterm. A cheaper quote often means thin electro-zinc and bulk cartons rather than coated parts with matched nuts and washers. Align diameter, 1.5 mm pitch, DIN 933/ISO 4017 series, class and certificate before comparing. Quote the same standard, finish, packing and delivery term across suppliers, and keep the MTC heat number on structural lots for traceability.",
             "zh": "通常不是同一个东西：要核对镀层种类与厚度、螺纹公差、是否含螺母垫圈、包装以及贸易术语。报价明显偏低时，往往意味着薄电镀锌和散装纸箱，而不是配套螺母的镀层件。比价前先把规格口径对齐：标准号、性能等级、镀层、螺纹公差、是否成套配螺母垫圈、包装方式和交货条件逐项列入比对表；不同口径的报价不能直接比单价，薄镀层、简包装或不含配套件都会拉低报价，到货验收时按对齐后的规格核对实物和单证。",
             "hi": "आम तौर पर वे एक चीज़ उद्धृत नहीं कर रहे होते: कोटिंग का प्रकार व मोटाई, थ्रेड टॉलरेंस, वाशर-नट शामिल हैं या नहीं, पैकिंग और Incoterm जाँचें। काफी सस्ता उद्धरण अक्सर पतले इलेक्ट्रो-ज़िंक और थोक कार्टन का होता है, कोटेड पार्ट्स और मैच किए नट वाला नहीं।",
             "ru": "Обычно они котируют не одно и то же: проверьте тип и толщину покрытия, допуск резьбы, входят ли в комплект шайбы и гайки, упаковку и условия Incoterm. Заметно более дешёвая котировка часто означает тонкий электролитический цинк и массовую картонную упаковку вместо деталей с покрытием и подобранными гайками.",
@@ -313,7 +313,7 @@
             "ja": "大口の買い手はM10の注文をどう組み立てるべきですか？"
           },
           "a": {
-            "en": "Fix the coating spec and thread tolerance in writing, require a pre-production sample, and split shipment so the first container can be inspected before the rest is released. Keep the same heat number on structural lots so certificates stay traceable.",
+            "en": "Fix the coating specification and thread tolerance in writing, require a pre-production sample, and split shipment so the first container can be inspected before the rest is released. Keep the same heat number on structural lots so mill certificates stay traceable. Consolidate sizes, standardise on DIN 933/ISO 4017, and match nuts and washers to the same finish. On arrival, run the dimensional, thread-gauge and coating checks stated in the order, and retain one sealed sample carton per lot. Confirm spec, quantity and address before the production slot, and record substitution as a written change.",
             "zh": "批量买家组织 M10 订单时，应先把镀层规格和螺纹公差固定下来，要求供应商提供产前样品确认。发货宜分批安排，第一集装箱在放行其余货物前完成检验。结构批次保留同一炉号，使质保书与实物可追溯。订单中还应明确装箱方式、批次标记和随货文件，便于到货后按批次验收；混装多种规格时，装箱单按规格分列，避免现场分拣与查验时出现单据和实物不符。",
             "hi": "कोटिंग स्पेसिफिकेशन और थ्रेड टॉलरेंस लिखित रूप में तय करें, प्री-प्रोडक्शन नमूना माँगें, और शिपमेंट बाँटें ताकि बाकी छोड़ने से पहले पहले कंटेनर की जाँच हो सके। स्ट्रक्चरल लॉट में एक ही हीट नंबर रखें ताकि प्रमाण-पत्र ट्रेस करने योग्य बने रहें।",
             "ru": "Зафиксируйте на бумаге спецификацию покрытия и допуск резьбы, запросите предсерийный образец и разбейте отгрузку так, чтобы первый контейнер прошёл инспекцию до выпуска остальной партии. Для конструкционных партий держите один номер плавки, чтобы сертификаты оставались прослеживаемыми.",
