@@ -61,8 +61,8 @@
     {
       "id": "size-range-and-length-choice",
       "heading": {
-        "en": "Size Range M6 to M24 and Length Choice",
-        "zh": "M6 至 M24 规格范围与长度选择",
+        "en": "What size range is standard, and how long should the bolt be?",
+        "zh": "标准尺寸范围是多少，螺栓长度如何确定？",
         "ar": "نطاق المقاسات من M6 إلى M24 واختيار الطول",
         "es": "Rango de medidas M6 a M24 y elección de la longitud",
         "fr": "Gamme de tailles M6 à M24 et choix de la longueur",
@@ -249,7 +249,7 @@
             "ja": "標準的なサイズ範囲とボルトの長さはどう決めますか？"
           },
           "a": {
-            "en": "Expansion bolts commonly run M6 to M24. Length is set by fixture thickness plus effective embedment plus the nut and washer stack, so specify the fixture thickness when ordering rather than the bolt length alone.",
+            "en": "Expansion bolts commonly run M6 to M24. Length is set by fixture thickness plus effective embedment plus the nut and washer stack, so specify fixture thickness and substrate condition rather than bolt length alone. M6 and M8 suit light brackets and cable supports, while M10, M12 and larger cover medium to heavy equipment; oversized holes and thin slab reduce grip regardless of diameter. Check the anchor chart for base material, cracked state, edge distance and spacing before fixing. Keep mixed sizes labelled so the correct sleeve and thread go into each hole.",
             "zh": "膨胀螺栓常见规格为 M6 至 M24。长度由被固定件厚度、有效埋深以及螺母和垫圈叠厚共同决定，所以订货时应提供被固定件厚度，而不是只报一个螺栓长度。选直径时结合挂件荷载和基材条件，埋深要达到额定要求；清单中写明规格、材质、表面处理和配套螺母垫圈，便于供应商核算长度。不同基材和安装条件下的容许埋深不同，定货前把被连接件厚度、钻孔条件和荷载用途说明清楚。",
             "hi": "एक्सपेंशन बोल्ट आम तौर पर M6 से M24 तक आते हैं। लंबाई फिक्सचर की मोटाई, असरदार घुसाव, और नट व वॉशर के स्टैक से मिलकर तय होती है, इसलिए ऑर्डर करते समय सिर्फ बोल्ट की लंबाई न बताएं, फिक्सचर की मोटाई ज़रूर स्पष्ट करें। इसी से सही एम्बेडमेंट मिल पाता है।",
             "ru": "Анкерные болты обычно идут M6–M24. Длина складывается из толщины крепляемой детали, эффективной заделки в основание и высоты пакета гайки с шайбой; при заказе указывайте толщину детали и условия монтажа, а не только голую длину болта, чтобы анкер не оказался слишком коротким.",
@@ -275,7 +275,7 @@
             "ja": "拡張ボルトの不具合で最も多い原因は何ですか？"
           },
           "a": {
-            "en": "An oversized hole, embedment shorter than the rated value, a hole that was not cleaned of dust, and over-torqueing that spins the sleeve. Drill the specified diameter, blow out the hole and tighten to the stated torque.",
+            "en": "Most expansion failures come from installation rather than the bolt: an oversized hole, short embedment, a dust-filled hole, or over-torqueing that spins the sleeve instead of expanding it. Drill the specified diameter, blow out and brush until dust stops coming out, and tighten to the stated torque rather than pulling hard by feel. Dust coats the wall and the wedge beds on debris instead of concrete, so the anchor slips under load. Check edge distance and spacing against the chart, and stop if the hole reaches a crack or reinforcement.",
             "zh": "常见原因有：孔径过大、埋深达不到额定值、孔内粉尘未清干净，以及扭矩过大导致套管旋滑。应按规定直径钻孔、吹净孔内粉尘，并按给定扭矩拧紧。安装前核对孔径、孔深与锚栓规格一致，清孔后再置入；胀紧扭矩按厂家规定控制，过拧或欠拧都会影响握裹力。基材疏松、有裂缝或边距不足时不宜选用该类锚栓，安装后承重部位可做拉拔抽检，记录钻孔条件和紧固情况备查。",
             "hi": "मोटा बना हुआ होल, रेटेड मान से कम घुसाव, धूल साफ न किया हुआ होल, और ज़्यादा टॉर्क जिससे स्लीव घूमने लगती है। निर्दिष्ट व्यास से ड्रिल करें, होल को उड़ाकर साफ करें, और बताए गए टॉर्क पर ही कसें। ये चारों कारण मिलकर एंकर की पकड़ घटाते हैं, इसलिए इंस्टॉलेशन के हर चरण पर ध्यान दें।",
             "ru": "Сверхнормативное отверстие, заделка короче расчётной, отверстие без выдувки пыли и перетяжка, при которой провернётся гильза. Сверлите заданный диаметр, продуйте отверстие от цементной пыли и затягивайте на указанном моменте: большинство отказов связаны не с самим анкером, а с качеством подготовки отверстия.",
@@ -301,7 +301,7 @@
             "ja": "表面処理はどれを選べばよいですか？"
           },
           "a": {
-            "en": "Yellow zinc for interior and dry service, hot-dip galvanising for outdoor structures, stainless A2 or A4 for coastal and wet areas. Mixing a zinc bolt into a stainless assembly creates a galvanic couple at the joint.",
+            "en": "Choose finish by exposure, not appearance alone. Yellow electro-zinc suits interior and dry service; hot-dip galvanising is the usual outdoor choice, while A2 or A4 stainless goes to coastal and wet areas where zinc cannot hold. Mixing a zinc bolt into a stainless assembly creates a galvanic couple, and bimetallic contact accelerates corrosion in damp conditions. Match finish to connected material and local humidity, and record coating and standard on the order. On coastal or washed-down plant, check salt-spray references such as ASTM B117 or ISO 9227 NSS, and protect scratches in transit.",
             "zh": "室内干燥环境选黄锌，户外结构选热浸镀锌，沿海和潮湿区域选不锈钢 A2 或 A4。镀锌螺栓与不锈钢件混装，会在连接处形成电偶腐蚀。表面处理按暴露环境选择：干燥室内用薄镀锌即可，露天和接触雨水的部位用厚镀层，高腐蚀场合用不锈钢。同一连接副的镀层和材质应相容，避免锌与不锈钢直接接触形成电偶对；户外安装后检查镀层破损并补涂，埋入段和外露端都要保证防腐完整。",
             "hi": "अंदरूनी और सूखी जगह के लिए येलो ज़िंक; बाहरी संरचनाओं के लिए हॉट-डिप गैल्वनाइज़िंग; तटीय और नम इलाकों के लिए स्टेनलेस A2 या A4। स्टेनलेस असेंबली में ज़िंक बोल्ट मिलाने पर जोड़ पर गैल्वेनिक कपल बन जाता है, इसलिए सामग्री मेल पहले से तय कर लें।",
             "ru": "Жёлтый цинк — для внутренних и сухих условий, горячее цинкование — для наружных конструкций, нержавейка A2 или A4 — для побережья и влажных мест. Цинковый болт в нержавеющей сборке создаёт гальваническую пару в узле, поэтому металлы соединений подбирают с учётом совместной работы во влажной среде.",
