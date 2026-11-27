@@ -130,8 +130,8 @@
     },
     {
       "heading": {
-        "en": "Essential Documentation for Morocco Casablanca Port Fastener Import Procedure",
-        "zh": "摩洛哥卡萨布兰卡港紧固件进口手续必备文件",
+        "en": "Which documents does Casablanca customs expect with a fastener shipment?",
+        "zh": "卡萨布兰卡清关要求紧固件货件随附哪些单证？",
         "ja": "モロッコ・カサブランカ港ファスナー輸入手続き必須書類",
         "de": "Erforderliche Dokumentation für das Morokko Casablanca Hafen Schraubenimportverfahren",
         "ru": "Необходимая документация для процедуры импорта крепежных изделий через порт Касабланки, Марокко",
@@ -184,8 +184,8 @@
     },
     {
       "heading": {
-        "en": "Compliance and Quality Standards for Fastener Imports",
-        "zh": "紧固件进口的合规与质量标准",
+        "en": "Which conformity and quality requirements apply to imported fasteners in Morocco?",
+        "zh": "进口摩洛哥的紧固件需满足哪些合规与质量要求？",
         "ja": "ファスナー輸入のコンプライアンスと品質基準",
         "de": "Compliance und Qualitätsstandards für Befestigungselement-Importe",
         "ru": "Соответствие требованиям и стандарты качества для импорта крепежных изделий",
@@ -304,7 +304,7 @@
             "ja": "カサブランカ港での締結具輸入手続きの最初の段階は何ですか？"
           },
           "a": {
-            "en": "The first step is verifying your importer's tax registration and ensuring all commercial documents are correctly registered on the PORTNET platform, which serves as the mandatory digital single-window system for all customs processing and logistics operations at the Port of Casablanca [1].",
+            "en": "The opening step is confirming the importer's tax registration and entering the commercial documents on PORTNET, the digital single-window for Casablanca customs and logistics. Check that invoice, packing list and bill of lading match the declared HS heading, and that the importer record can receive the electronic entry. Documents disagreeing with the cargo are the most common reason an entry is held, so align description, grade and coating with carton marks before filing. A broker who knows the platform can prepare the declaration in advance, with registration and conformity reference ready before booking.",
             "zh": "进口卡萨布兰卡的第一步，是核实进口商的税务登记，并把全部商业单证在 PORTNET 平台上正确登记。PORTNET 是摩洛哥港口所有海关业务必须使用的数字化单一窗口，进口商、船公司、港务和海关都通过该平台交接资料。发货前应先确认登记主体资格和单证格式，使发票、装箱单与货物描述一致；平台资料不全或信息不符，到港后容易被要求补充澄清，拖慢放行。建议委托熟悉当地流程的报关行提前预审单证，避免到港后再逐项补录。",
             "hi": "पहला कदम आयातकर्ता के कर पंजीकरण की पुष्टि करना है, और सभी वाणिज्यिक दस्तावेज़ PORTNET प्लेटफ़ॉर्म पर सही ढंग से दर्ज हों। यही वह अनिवार्य डिजिटल सिंगल-विंडो है जिसके जरिए कसाब्लांका बंदरगाह पर सीमा शुल्क कार्यवाही और लॉजिस्टिक्स का काम चलता है।",
             "ru": "Первый шаг — подтвердить налоговую регистрацию импортёра и убедиться, что все коммерческие документы корректно заведены в системе PORTNET: это обязательный цифровой единый канал для всех таможенных и логистических операций в порту Касабланки. Без корректной регистрации документов дальнейшее оформление не начинается.",
@@ -330,7 +330,7 @@
             "ja": "モロッコに締結具を輸入するのに特定の品質証明書は必要ですか？"
           },
           "a": {
-            "en": "Yes, importers must provide conformity certificates proving the fasteners meet Moroccan or relevant international industrial standards. These are verified by authorized inspection bodies during customs clearance to ensure the safety and structural integrity of the industrial hardware being imported into the country [4].",
+            "en": "Yes. Imported fasteners need conformity evidence showing they meet Moroccan or accepted international industrial standards. The file carries the mill test certificate for composition and mechanical properties, plus a quality declaration tied to heat number and lot. Authorized inspection bodies verify these records at clearance, checking grade, property class and coating against the certificate. For structural or outdoor work, state the standard reference, class and finish on the enquiry, and keep the test report aligned to the batch. Arrange any named third-party inspection before shipment; a missing certificate at the gate slows release.",
             "zh": "进口紧固件需要提供符合性证书，证明产品符合摩洛哥标准或相关国际工业标准。清关时由授权检验机构核验这些文件，确认连接的安全性与强度等级与申报一致。证书应覆盖材质等级、力学性能和镀层要求，并与批次实物对应；结构件随附钢厂质保文件。采购订单中把执行标准、等级和检验要求写明，供应商才能按对应文件供货；到港前备齐符合性证明，可减少查验环节的反复补证，使工地验收有统一依据。",
             "hi": "हां, आयातकर्ता को अनुरूपता प्रमाण-पत्र देने होते हैं जो दिखाते हैं कि फास्टनर मोरक्को या संबंधित अंतरराष्ट्रीय औद्योगिक मानकों के अनुसार उत्पादित हैं। निकासी के दौरान अधिकृत निरीक्षण संस्थाएं इनकी जांच करती हैं, ताकि आयातित औद्योगिक हार्डवेयर की सुरक्षा और संरचनात्मक मजबूती बनी रहे।",
             "ru": "Да, импортёру нужны документы о соответствии, подтверждающие, что крепеж отвечает марокканскому или применимому международному промышленному стандарту. На таможенном оформлении их проверяет уполномоченный инспекционный орган, чтобы убедиться в безопасности и прочности ввозимой промышленной фурнитуры; конкретные сертификаты предоставляются по запросу к заказу.",
@@ -356,7 +356,7 @@
             "ja": "カサブランカ港の平均的な通関時間はどのくらいですか？"
           },
           "a": {
-            "en": "While it varies based on documentation accuracy and cargo inspection status, efficient clearance for properly documented B2B industrial shipments typically takes between three to seven business days. Using a professional local customs broker is highly recommended to expedite the entire clearance process [2].",
+            "en": "Clearance time rests on documentation accuracy and whether the cargo is inspected, not one fixed span for every shipment. A declaration with matching invoice, packing list, bill of lading and conformity file moves through the digital window smoothly, while a mismatched description or missing certificate can hold the entry for review. Engage a broker who works the Casablanca terminal regularly, and file before the vessel arrives. Leave margin for inspection and amendment, and confirm the importer record and HS heading before booking. Plan from document readiness and clearance contacts, not a published transit figure.",
             "zh": "卡萨布兰卡港的清关时间取决于单证准确程度和货物查验状态。单证齐全规范的 B2B 工业货物，通常三到五个工作日即可完成清关；使用专业本地报关行能加快资料对接和查验安排。若证书不符、申报描述不清或需要开箱查验，放行时间会相应延长。雨季、旺季和港口排队也会影响节奏，首批订单应在交期上预留缓冲；发货前完成单证预审，货物到港后按计划提走，可降低滞港风险和堆存成本。",
             "hi": "समय दस्तावेज़ों की सही-सही पूर्ति और कार्गो निरीक्षण की स्थिति पर निर्भर करता है; सही दस्तावेज़ वाले बी2बी औद्योगिक शिपमेंट की निकासी आमतौर पर तीन से सात कार्य दिवसों में हो जाती है। पूरी प्रक्रिया तेज़ करने के लिए स्थानीय पेशेवर कस्टम ब्रोकर की मदद लेनी चाहिए।",
             "ru": "Срок зависит от аккуратности документов и статуса досмотра груза; при корректно оформленной промышленной партии B2B обычно укладываются в три–семь рабочих дней. Для ускорения всего процесса таможенного прохода настоятельно рекомендуют привлекать местного профессионального таможенного брокера.",
@@ -382,7 +382,7 @@
             "ja": "モロッコの締結具輸入にはどんな税や関税がかかりますか？"
           },
           "a": {
-            "en": "Fastener imports are subject to standard import customs duties and VAT. Rates depend on the product classification code under the Harmonized System. You should consult a customs expert to determine your specific tariff rate and potential eligibility for duty reductions under existing trade agreements [2].",
+            "en": "Fastener imports carry standard customs duty and import VAT, set by the Harmonized System classification for the product. Bolts, nuts, washers and anchors can fall under different headings, so the invoice should state the precise HS code, material, grade and finish to support classification. Duty and tax are assessed by the destination under that heading, and any trade-agreement reduction must be checked against origin evidence, not assumed. Verify the treatment with a customs specialist before budgeting the landed figure. Keep invoice, packing list and description consistent, and retain the classification reference with the file.",
             "zh": "紧固件进口需缴纳常规进口关税和增值税，具体税率按海关协调制度的商品归类编码确定。不同材质、等级和用途的紧固件归类可能不同，适用税率也有差别，应咨询报关专家核对税则号列和可能的减免条件。报价比较时不能只看出厂价格，还要把关税、增值税、港口操作和内陆配送一并计入到岸成本。订单中写明品名、材质与用途，便于准确归类；归类依据和随货证书在发货前确认，避免到港后因税号争议延误放行。",
             "hi": "आयात पर मानक सीमा शुल्क ड्यूटी और वैट (VAT) लगता है। दरें हार्मोनाइज्ड सिस्टम (HS) कोड के तहत उत्पाद के वर्गीकरण पर निर्भर करती हैं। अपने खास टैरिफ दर और मौजूदा व्यापार समझौतों के तहत छूट की संभावना जानने के लिए सीमा शुल्क विशेषज्ञ से परामर्श करें।",
             "ru": "Импорт крепежа облагается стандартной ввозной таможенной пошлиной и НДС. Ставки зависят от кода товара по Гармонизированной системе (HS); конкретную ставку и возможные льготы по действующим торговым соглашениям лучше уточнять у таможенного эксперта, так как процент зависит от классификации товара.",
@@ -408,7 +408,7 @@
             "ja": "PORTNETシステムはすべての輸入者に義務付けられていますか？"
           },
           "a": {
-            "en": "Yes, PORTNET is mandatory for all trade operations at Moroccan ports. It streamlines the Morocco Casablanca port fastener import procedure by digitizing documentation between importers, shipping lines, port authorities, and customs, significantly reducing physical paperwork and administrative bottlenecks during the import cycle [1].",
+            "en": "Yes, PORTNET is mandatory for every trade operation at Moroccan ports, and fastener shipments enter through the same electronic window. The platform connects importer, shipping line, terminal and customs, so declaration, document set and cargo record are exchanged digitally rather than on paper. The importer registration must be active, and invoice, packing list and bill of lading must match the system format. Align the HS heading and product marks with the uploaded files, since the window flags mismatches before the gate. A broker can manage the lodgement, and a consistent record reduces admin bottlenecks.",
             "zh": "PORTNET 平台对摩洛哥港口的所有贸易操作都是强制使用的。它把进口商、船公司、港务当局和海关之间的单证交接数字化，显著简化卡萨布兰卡港的紧固件进口流程。进口商须在平台完成登记并维护商业文件，平台记录与提单、发票、装箱单保持一致。未通过平台提交或资料录入错误，会影响报关受理和货物放行。建议在发货前与报关行核对平台账号、单证模板和录入口径，确保到港后流程顺畅，而不是到港后再补登修正。",
             "hi": "हां, मोरक्को के सभी बंदरगाहों पर व्यापार के हर काम के लिए PORTNET अनिवार्य है। यह आयातकर्ता, शिपिंग लाइनों, बंदरगाह प्रशासन और सीमा शुल्क के बीच दस्तावेज़ों को डिजिटल रूप से जोड़ता है, जिससे कागजी काम और प्रशासनिक अड़चनें काफी कम हो जाती हैं।",
             "ru": "Да, PORTNET обязательна для всех торговых операций в марокканских портах. Она оцифровывает документооборот между импортёром, судоходными линиями, портовой администрацией и таможней и заметно сокращает объём бумажных документов и административные задержки в течение импортного цикла.",
@@ -434,7 +434,7 @@
             "hi": "मोरक्को के कासाब्लांका बंदरगाह फास्टनर आयात प्रक्रिया का पहला चरण क्या है?"
           },
           "a": {
-            "en": "The first step is verifying your importer's tax registration and ensuring all commercial documents are correctly registered on the PORTNET platform, which serves as the mandatory digital single-window system for all customs processing and logistics operations at the Port of Casablanca.",
+            "en": "The first action is to verify the importer's tax registration and register the commercial papers on PORTNET, the single electronic window for Casablanca port operations. The supplier should send a clean invoice, packing list and bill of lading whose description, grade and finish match the physical shipment, so the declaration files without amendment. Confirm the consignee's tax number is active and can receive the online entry. Attach any conformity certificate to the same file rather than separately. Sorting records before departure avoids correcting documents at the port, and leaves a traceable set for customs review.",
             "zh": "第一步是核实进口商的税务登记状态，并确保所有商业单据在 PORTNET 平台上正确登记。PORTNET 是卡萨布兰卡港所有海关手续和物流操作必须使用的数字化单一窗口，进口商、船公司、港务与海关之间的单证流转都经该系统处理。手续启动前先完成平台登记，才能避免后续清关节点被卡住。",
             "ja": "最初のステップは、輸入業者が有効な納税識別番号を保有し、PORTNETプラットフォームに登録されていることを確認することです。PORTNETはカサブランカ港でのすべての税関処理と物流業務のための義務的なデジタル単一窓口システムであり、この登録がない場合、税関は輸入申告を処理できず、コンテナ遅延とデマレージ料金が発生します。",
             "de": "Der erste Schritt ist die Überprüfung der Steuernummer-Registrierung Ihres Importeurs und die Sicherstellung, dass alle Handelsdokumente korrekt auf der PORTNET-Plattform registriert sind, die als obligatorisches digitales Einheitsfenstersystem für alle Zollabfertigungs- und Logistikoperationen im Hafen von Casablanca dient.",
@@ -460,7 +460,7 @@
             "hi": "क्या मोरक्को में फास्टनर आयात के लिए कोई विशेष गुणवत्ता प्रमाण-पत्र चाहिए?"
           },
           "a": {
-            "en": "Yes, importers must provide conformity certificates proving the fasteners meet Moroccan or relevant international industrial standards. These are verified by authorized inspection bodies during customs clearance to ensure the safety and structural integrity of the industrial hardware being imported into the country.",
+            "en": "Conformity certificates show the hardware meets Moroccan or international standards. This means a mill test record for composition and strength, a lot quality declaration, and any conformity reference the destination expects. An authorized body reviews the paperwork at clearance and compares it with the material marks, so declared class, coating and standard must line up with the MTR. Record the standard number and finish on each line, and retain the batch record for inbound inspection. Where a tender specifies an inspection house, request it early; a document set matching the cargo clears with less re-checking.",
             "zh": "需要。进口商须提供合格证书，证明紧固件符合摩洛哥或相关国际工业标准。清关时这些证书由授权检验机构核验，以保障进口工业五金件的安全性与结构完整性。建议在询价阶段就向供方确认可提供的材质与合格文件，避免到港后因证书不齐而延误放行。缺少有效合格证书的货物，可能被要求补办检验或退运，进而影响项目工期安排。",
             "ja": "はい、輸入者はファスナーがモロッコまたは関連する国際産業規格を満たしていることを証明する適合性証明書を提供する必要があります。構造用ファスナーはNM規格またはISO/EN基準への適合性が必要であり、耐食性ファスナーはASTM A276または塩水噴霧試験による同等性能の証明が必要です。これらは税関クリアランス時にモ roche産業貿易省に登録された認定検査機関によって検証され、国に輸入される産業用ハードウェアの安全性と構造的完全性を確保します。",
             "de": "Ja, Importeure müssen Konformitätszertifikate bereitstellen, die beweisen, dass die Befestigungselemente marokkanischen oder relevanten internationalen Industriestandards entsprechen. Diese werden von autorisierten Inspektionsstellen während der Zollabfertigung überprüft, um die Sicherheit und strukturelle Integrität der importierten industriellen Hardware zu gewährleisten.",
@@ -486,7 +486,7 @@
             "hi": "कासाब्लांका बंदरगाह पर औसत सीमा शुल्क निकासी में कितना समय लगता है?"
           },
           "a": {
-            "en": "While it varies based on documentation accuracy and cargo inspection status, efficient clearance for properly documented B2B industrial shipments typically takes between three to seven business days. Using a professional local customs broker is highly recommended to expedite the entire clearance process.",
+            "en": "How long clearance takes depends on how complete the papers are and whether customs opens the cargo, not one average for all B2B loads. When invoice, packing list, bill of lading and conformity certificate agree with the shipment, the declaration processes through PORTNET without delay; gaps trigger review and extra handling. A local broker can lodge ahead of arrival and chase amendments. Build buffer around inspection, verify HS code and importer details up front, keep batch and test documents with the file. Plan the window from clearance status, not a fixed date.",
             "zh": "清关时长因单据准确程度和货物查验状态而异。文件齐全的 B2B 工业货物，在手续顺畅时一般需要三至七个工作日。建议聘请专业的本地报关行代理，以加快整个清关流程。进口商应提前核对归类编码、随附证书与申报信息，减少现场补单和查验带来的额外时间。申报一次准确、归类编码无误时，查验环节通常更顺利；反之则可能产生补单和滞港等额外耗时。",
             "ja": "書類の正確性とcargo検査ステータスによって状況は異なりますが、適切に文書化されたB2B産業出荷の効率的なクリアランスは通常3〜7営業日かかります。低リスク出荷はグリーンchannelクリアランス（同日リリース）を受け、中リスク出荷は1〜3営業日、高リスク出荷は3〜7営業日の物理検査が必要です。プロフェッショナルな地元の税関ブローカーを使用してentireクリアランスプロセスを迅速化することを強くおすすめします。",
             "de": "Obwohl dies je nach Dokumentationsgenauigkeit und Inspektionsstatus variiert, dauert eine effiziente Abfertigung für ordnungsgemäß dokumentierte B2B-Industriesendungen typischerweise zwischen drei und sieben Werktagen. Die Verwendung eines professionellen lokalen Zollspediteurs wird dringend empfohlen, um den gesamten Abfertigungsprozess zu beschleunigen.",
@@ -512,7 +512,7 @@
             "hi": "मोरक्को में फास्टनर आयात पर कौन-से कर और शुल्क लगते हैं?"
           },
           "a": {
-            "en": "Fastener imports are subject to standard import customs duties and VAT. Rates depend on the product classification code under the Harmonized System. You should consult a customs expert to determine your specific tariff rate and potential eligibility for duty reductions under existing trade agreements.",
+            "en": "Duty and VAT follow the HS heading applied to the imported item, not one flat rate for the fastener group. Finished and unfinished parts, and different forms, can sit under separate subheadings; the broker confirms the code against the specification and drawing. Any concession under a trade arrangement depends on valid origin documentation, so the certificate of origin must match where goods were made. Confirm the treatment with a clearing agent before quoting landed cost, and record grade, coating and standard on the invoice. Keep the classification file with the consignment.",
             "zh": "紧固件进口需缴纳常规进口关税和增值税，税率取决于商品在协调制度下的归类编码。具体关税税率以及能否依据现有贸易协定享受减免，应咨询报关专业人士确认。下单前建议按 HS 编码核算税费成本，并保留归类依据，避免完税价格和税率判定出现争议。报价阶段宜把税费与港杂费用分开列示，便于比较不同供货条款下的实际到岸成本。",
             "ja": "ファスナー輸入にはMFN税率10〜20%の標準的な輸入関税と20%のVATが適用されます。HSコード7318のサブヘッドによって税率が異なりますが、EU-モロッコ連合協定などの優先貿易協定を利用すると、関税を0〜5%に削減できます。特定の関税率と既存の貿易協定に基づく関税削減の資格があるかどうかを判断するには、税関専門家に相談して陸上コスト計算を最適化することをおすすめです。",
             "de": "Befestigungselement-Importe unterliegen Standard-Importzöllen und MwSt. Die Sätze hängen vom Produktklassifizierungscode im Harmonisierten System ab. Sie sollten einen Zollexperten konsultieren, um Ihren spezifischen Tarifsatz und mögliche Berechtigung für Zollreduzierungen unter bestehenden Handelsabkommen zu bestimmen.",
@@ -538,7 +538,7 @@
             "hi": "क्या PORTNET प्रणाली सभी आयातकों के लिए अनिवार्य है?"
           },
           "a": {
-            "en": "Yes, PORTNET is mandatory for all trade operations at Moroccan ports. It streamlines the Morocco Casablanca port fastener import procedure by digitizing documentation between importers, shipping lines, port authorities, and customs, significantly reducing physical paperwork and administrative bottlenecks during the import cycle.",
+            "en": "PORTNET applies to all imports through Moroccan ports, including fastener consignments; there is no separate paper route for hardware. The single window links importer, carrier, terminal and customs, moving the declaration and documents online and cutting paper delays. Before filing, the consignee's tax registration must be set up, and invoice, packing list and bill of lading must match the shipment. Upload conformity and test records alongside the entry, and make sure grade, finish and carton marks agree with the heading. Keeping every document aligned in advance keeps clearance moving rather than stalling on corrections.",
             "zh": "是的，PORTNET 对摩洛哥港口的所有贸易操作都是强制使用的。它把进口商、船公司、港务当局和海关之间的单证流转数字化，显著减少进口周期中的纸质单据和行政瓶颈。所有相关申报与交互都应通过该平台完成，进口商需先开通账户并完成主体登记，才能在卡萨布兰卡港办理进出口手续。",
             "ja": "はい、PORTNETは2015年からモロッコ港でのすべての貿易業務に義務的になりました。輸入業者、船会社、港当局、税関間の文書をデジタルsingularwindowシステムを通じて電子的に交換することで、モロッコ・カサブランカ港ファスナー輸入手続きを合理化し、輸入サイクル中の物理的な書類と管理ボトルネックを大幅に削減し、clearance時間を40〜60%短縮できます。",
             "de": "Ja, PORTNET ist für alle Handelsoperationen in marokkanischen Häfen obligatorisch. Es rationalisiert das Morokko Casablanca Hafen Schraubenimportverfahren durch Digitalisierung der Dokumentation zwischen Importeuren, Reedereien, Hafenbehörden und Zoll, wodurch physische Papierarbeit und administrative Engpässe während des Importzyklus erheblich reduziert werden.",
