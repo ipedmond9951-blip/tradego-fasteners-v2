@@ -412,16 +412,16 @@
             "ja": "大口のセルフドリリングねじ注文の納期はどのくらいですか？"
           },
           "a": {
-            "en": "Standard bulk self-drilling screw orders carry a 4–8 week production lead time; large infrastructure project orders should be planned on a 12–16 week window to cover production, shipping and customs clearance. With just-in-time delivery, confirm early whether the supplier can hold the schedule through port handling and border clearance, and align the delivery date with the erection sequence. Around the January 2027 tariff changes, large buyers may use forward-purchasing agreements to secure supply, while smaller projects can time procurement to expected cost movement; confirm the final schedule in the written order.",
-            "zh": "常规模批量订单生产周期通常四到八周；大型基础设施项目还需计入海运和清关，按十二到十六周规划，尤其是新规格或首批合作。交期由生产、检验、出口准备、海运、港口操作和内陆配送构成，结构批次提前锁定产能与证书。订单中写明分批计划、交期节点和单证清单，供应商反馈产能和检验进度；首批发货跑通清关通道后再放量。旺季或新规格提前排产，项目安装节点与生产、运输环节对齐，避免某一环节滞后拖累整批到货。",
-            "hi": "सामान्य थोक ऑर्डर में उत्पादन के लिए आम तौर पर 4–8 सप्ताह लगते हैं। बड़ी इंफ्रास्ट्रक्चर परियोजनाओं के लिए शिपिंग और सीमा शुल्क निकासी समेत 12–16 सप्ताह का अनुमान रखें, खासकर 2027 में नई टैरिफ व्यवस्था लागू होने पर।",
-            "ru": "Стандартный оптовый заказ занимает 4–8 недель производства. Для крупных инфраструктурных проектов закладывают 12–16 недель с учетом морской перевозки и таможенного оформления, особенно в условиях введения новых тарифов 2027 года. Срок уточняется по номенклатуре, объёму партии и порту назначения; срочные позиции стоит выделить отдельной строкой, чтобы производство и отгрузка не задерживали монтаж.",
-            "ar": "الطلبات بالجملة القياسية تحتاج عادة 4-8 أسابيع للإنتاج. ولمشاريع البنية التحتية الكبيرة، خطط لمدة 12-16 أسبوعًا لتشمل الشحن والتخليص الجمركي، خصوصًا مع تطبيقات الرسوم الجمركية الجديدة في 2027. افصل زمن الإنتاج عن زمن النقل، وأدرج احتياطيًا للتخليص في برنامج المشروع.",
-            "es": "Los pedidos mayoristas estándar suelen necesitar de 4 a 8 semanas de producción. Para proyectos de infraestructura grandes, prevea de 12 a 16 semanas para contar el envío y el despacho aduanero, sobre todo con las nuevas tarifas de 2027. La producción se organiza primero y el trayecto marítimo y el puerto suman el resto del plazo.",
-            "pt": "Pedidos em volume padrão costumam levar de 4 a 8 semanas de produção. Para grandes projetos de infraestrutura, planeja-se de 12 a 16 semanas considerando frete e desembaraço aduaneiro, especialmente com as novas tarifas de 2027. Recomenda-se lançar a cotação e o pedido antes do cronograma de instalação da obra.",
-            "fr": "Pour les commandes groupées standard, comptez typiquement 4 à 8 semaines de production. Pour les grands projets d'infrastructure, prévoyez 12 à 16 semaines afin de tenir compte du fret et du dédouanement, surtout avec les nouvelles mesures tarifaires de 2027. La production d'abord, puis le transport maritime, et enfin la réception : calagez le planning du projet sur ces deux paliers. Une commande anticipée évite l'attente portuaire.",
-            "de": "Standard-Großbestellungen benötigen üblicherweise 4 bis 8 Wochen Fertigungszeit. Für große Infrastrukturprojekte sind 12 bis 16 Wochen einzuplanen, um Fracht und Zollabfertigung zu berücksichtigen, besonders bei den neuen Zollregeln ab 2027.",
-            "ja": "標準的な大口注文では生産期間を見込みます。大型インフラ案件では、輸送と通関を含めてさらに長い期間を計画してください。新しい関税の施行時期も工程に反映します。発注時期を工事の必要日から逆算し、生産と海上輸送の余裕を残してください。仕様と数量を早めに伝え、生産と輸送の両方の工程に余裕を持たせてください。"
+            "en": "Bulk self-drilling screw orders are planned around production readiness, inspection, export preparation, ocean carriage, port handling and inland delivery; large infrastructure programmes add the shipping and clearance leg on top of production, especially for new specifications or a first collaboration. Confirm early whether the supplier can hold the schedule through port handling and border clearance, and align the delivery date with the erection sequence. Write the split plan, delivery milestones and document list into the order, lock capacity and certificates ahead of peak season, and run the clearance route on the first shipment before scaling the rest of the programme. Lead time is quoted per order.",
+            "zh": "常规模批量订单按生产、检验、出口准备、海运、港口操作和内陆配送排期；大型基建项目在生产之外还要计入海运和清关，新规格或首批合作尤需预留。尽早确认供方能否穿过港口操作和边境清关守住进度，交期与安装顺序对齐。订单写明分批计划、交期节点和单证清单，旺季前锁定产能与证书，首批发货跑通清关通道后再放量。交期按订单核算。",
+            "hi": "लीड टाइम ऑर्डर के अनुसार तय होता है।",
+            "ru": "Срок поставки рассчитывается по заказу.",
+            "ar": "يُحتسب موعد التسليم حسب الطلب.",
+            "es": "El plazo se cotiza por pedido.",
+            "pt": "O prazo é cotado por pedido.",
+            "fr": "Le délai est établi par commande.",
+            "de": "Die Lieferzeit wird pro Auftrag kalkuliert.",
+            "ja": "納期はご注文ごとに算出します。"
           }
         }
       ]
