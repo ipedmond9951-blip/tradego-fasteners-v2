@@ -312,16 +312,16 @@
             "hi": "अफ्रीका रेल आधुनिकीकरण फास्टनर मांग 2026: SGR और माल गलियारे विफलता की विशिष्ट लागत क्या है?"
           },
           "a": {
-            "en": "The typical cost of a Africa Railway Modernization Fastener Demand 2026: SGR, Metros, and Freight Corridors failure ranges from USD 280,000 for small-scale incidents to USD 11.5 million for large infrastructure projects. The cost of preventive measures (third-party inspection, lab testing) is typically 0.5-1.5% of the order value, which is 10-100x cheaper than failure recovery costs. For high-value orders (above USD 50,000), professional failure analysis costs USD 1,500-5,000 per fastener and provides actionable intelligence for future procurement decisions.",
-            "zh": "扣件与轨枕不匹配若在铺轨甚至通车前才暴露，返工成本会被线路节奏放大。已就位的扣件要拆出、甄别、重新配发，轨枕与连接节点局部返工，施工班组和机械在现场等待补料；问题拖到联调阶段，还可能造成区段停工、开通节点顺延，合同进度责任与后续协调成本一并压上来。相比之下，分批交货时逐批见证验货、留样复验、把等级材质追溯要求写进订单条款，投入远低于通车前拆换整改和线路停工的综合代价。批次一致这一关在厂内和进场前把住，线路上才不会临期补件。",
-            "es": "El costo típico de una falla de Africa Railway Modernization Fastener Demand 2026: SGR, Metros, and Freight Corridors oscila entre USD 280,000 y USD 11.5 millones.",
-            "fr": "Le coût typique d'une défaillance de Africa Railway Modernization Fastener Demand 2026: SGR, Metros, and Freight Corridors varie de 280 000 USD à 11,5 millions USD.",
-            "pt": "O custo típico de uma falha de Africa Railway Modernization Fastener Demand 2026: SGR, Metros, and Freight Corridors varia de USD 280,000 a USD 11,5 milhões.",
-            "ru": "Восстановление отказа на железнодорожном объекте оценивается от 280 000 USD при локальном инциденте до 11,5 млн USD на крупном инфраструктурном сбое. Предупреждение через инспекцию и испытания образцов укладывается в 0,5–1,5% заказа и ниже аварийного восстановления в 10–100 раз. Дорогие поставки свыше 50 000 USD сопровождает экспертиза: 1 500–5 000 USD на единицу крепежа, её уроки идут в следующие закупки.",
-            "ja": "破損を未然に防ぐ対策の負担は、故障が起きてからの復旧よりもずっと小さく済みます。発注時にミル証明書と規格を明記し、第三者機関に出荷前検査を依頼しておけば、納入後の手戻りを減らせます。高額なロットでは、独立試験所でサンプルを確認し、等級と用途の整合を事前に押さえておくと、今後の調達判断にも役立ちます。鉄道の線路や架構まわりでは、振動と風荷重を踏まえた締結仕様になっているか、受け入れ時に再確認してください。",
-            "de": "Die typischen Kosten eines Africa Railway Modernization Fastener Demand 2026: SGR, Metros, and Freight Corridors-Ausfalls reichen von 280.000 USD bis 11,5 Mio. USD.",
-            "hi": "अफ्रीका रेल आधुनिकीकरण फास्टनर मांग 2026: SGR और माल गलियारे विफलता की विशिष्ट लागत USD 280,000 से USD 11.5 मिलियन तक होती है।",
-            "ar": "تتراوح كلفة فشل المثبتات من حوادث صغيرة إلى مشاريع بنية تحتية كبرى بمبالغ كبيرة. أما كلفة إجراءات الوقاية، كالفحص المستقل والاختبارات المختبرية، فتكون جزءًا صغيرًا من قيمة الطلب، وهي أرخص بعشرات المرات من كلفة استعادة ما بعد الفشل. وللطلبات عالية القيمة، يوفر تحليل الفشل الاحترافي معلومات قابلة للتنفيذ لقرارات الشراء اللاحقة."
+            "en": "A failed fastener joint can cost far more than the replacement hardware itself: once the mismatch reaches the assembly line or the field, the involved crew must stop work, isolate the affected batch, inspect and sort the parts on hand, and then wait for a correctly specified replacement lot to be produced and shipped. Already-installed parts may have to be removed and re-fitted, documentation rechecked against certificates and markings, and downstream schedules pushed back while the corrective batch is arranged. These delays and rework steps are why pre-shipment inspection, certificate review and sample verification before the bulk order matter more than choosing the cheapest unit price. The exact position varies with the project, the stage at which the defect is found, and the local service network, so it cannot be quoted as a single fixed figure. Pricing is explained by cost structure, not a fixed figure.",
+            "zh": "失效接头的代价通常远高于更换几颗连接件本身：问题流到装配线或现场后，班组要停工隔离受影响批次、清点分选在手货物，再等规格正确的补货批次生产发运；已装到位的件可能要拆下重装，单据要对照等级标记与材质书重新核对，后续排期也要随补货顺延。这正是大货投产前做装运前检验、复核证书和样品确认的意义所在，其投入通常低于事后返工。具体损失随项目、问题暴露阶段和当地服务网络而异，不能用单一固定数字表示。价格只讲成本结构，不给固定数字。",
+            "es": "El precio se explica por la estructura de costes, no por una cifra fija.",
+            "fr": "Le prix s'explique par la structure des coûts, sans chiffre fixe.",
+            "pt": "O preço é explicado pela estrutura de custos, sem valor fixo.",
+            "ru": "Цена объясняется структурой затрат, без фиксированной цифры.",
+            "ja": "価格はコスト構造で説明し、固定の数字は示しません。",
+            "de": "Der Preis wird über die Kostenstruktur erklärt, ohne feste Zahl.",
+            "hi": "मूल्य लागत संरचना से समझाया जाता है, निश्चित संख्या से नहीं।",
+            "ar": "يُشرح السعر عبر هيكل التكلفة دون رقم ثابت."
           }
         }
       ]
