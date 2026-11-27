@@ -49,11 +49,26 @@
     "credentials": "Materials engineering background, fastener sourcing and inspection specialist"
   },
   "dataSource": [
-    "https://www.astm.org/f1940-21.html",
-    "https://www.iso.org/standard/63501.html",
-    "https://www.asminternational.org/technical-articles/",
-    "https://www.boltscience.com/pages/failure.htm",
-    "https://www.engineersedge.com/analysis_failure.htm"
+    {
+      "name": "ASTM F1940 Fastener Failure Test Method",
+      "url": "https://www.astm.org/f1940-21.html"
+    },
+    {
+      "name": "ISO 63501 Fastener Standard",
+      "url": "https://www.iso.org/standard/63501.html"
+    },
+    {
+      "name": "ASM International Technical Articles",
+      "url": "https://www.asminternational.org/technical-articles/"
+    },
+    {
+      "name": "Bolt Science Fastener Failure Reference",
+      "url": "https://www.boltscience.com/pages/failure.htm"
+    },
+    {
+      "name": "Engineers Edge Failure Analysis Reference",
+      "url": "https://www.engineersedge.com/analysis_failure.htm"
+    }
   ],
   "reviewedBy": "TradeGo Engineering Team",
   "sections": [
@@ -374,7 +389,7 @@
     "publisher": "TradeGo Fasteners",
     "datePublished": "2026-06-11"
   },
-  "updated": "2026-05-23",
+  "updated": "2026-11-27",
   "metaDescription": {
     "en": "Fastener Failure Analysis: 5 Real-World Case Studies and Lessons Learned is a critical concern for B2B fastener buyers sourcing from global suppliers.",
     "zh": "紧固件失效分析：五类故障原因与采购改进：案例研究，包含 5 个真实工业示例。",
