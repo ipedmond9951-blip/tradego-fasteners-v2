@@ -59,8 +59,8 @@
     {
       "id": "liquid-membranes-pu-rubber-asphalt-acrylic",
       "heading": {
-        "en": "Liquid Membranes: PU, Rubber Asphalt, Acrylic",
-        "zh": "液体防水卷材：聚氨酯、橡胶沥青、丙烯酸",
+        "en": "Which liquid coating type suits exposed roofs, walls and basement detailing?",
+        "zh": "外露屋面、墙面与地下室细部各选何种液态涂料？",
         "ar": "الأغشية السائلة: بولي يوريثان، أسفلت مطاطي، أكريليك",
         "es": "Membranas líquidas: PU, asfalto de caucho, acrílico",
         "fr": "Membranes liquides : PU, asphalte caoutchouté, acrylique",
@@ -194,8 +194,8 @@
     {
       "id": "common-failures-and-repair",
       "heading": {
-        "en": "Common Failures and Repair",
-        "zh": "常见失效与修复",
+        "en": "Which preparation, coat and detail errors cause most coating failures?",
+        "zh": "哪些基面、涂刷与细部错误最常导致涂层失效？",
         "ar": "الأعطال الشائعة والإصلاح",
         "es": "Fallos frecuentes y reparación",
         "fr": "Défauts courants et réparation",
@@ -274,7 +274,7 @@
             "ja": "ポリウレタン、アクリル、ゴムアスファルトのどれを選びますか？"
           },
           "a": {
-            "en": "PU for exposed roofs and ponding areas where elasticity matters, acrylic as a UV-stable topcoat on roofs and walls at lower cost, rubber asphalt for basements and detail work where adhesion to damp substrates is needed.",
+            "en": "PU suits exposed roofs and ponding areas where elasticity matters; acrylic is a UV-stable topcoat for roofs and walls; rubber asphalt suits basements and detail work needing bituminous flexibility. Choose from exposure, substrate and movement: PU for standing water and thermal movement, acrylic for UV and wall finish, rubber asphalt for below-ground and joint detail. Match coats and reinforcement to substrate, and confirm temperature and UV basis for the climate. Record type, layer build and detail treatment on the specification, and do not mix incompatible bases on one joint.",
             "zh": "聚氨酯（PU）用于外露屋面和有积水、要求弹性的部位；丙烯酸作为耐紫外表面涂层，用于屋面和墙面，成本相对较低；橡胶沥青用于基础、地下等不透水和变形适应部位。选型按使用位置、是否外露、变形和基层条件区分，不同涂层的弹性、耐候和附着表现各有侧重。订单中写明基层、暴露条件和设计寿命，供应商匹配材料类型；到货核对产品批次和技术说明，施工按配套底漆和层次要求执行，避免单一涂层套用所有部位。",
             "hi": "पीयू (PU) खुली छतों और पानी टिकने वाले इलाकों के लिए, जहां लोच जरूरी है; ऐक्रेलिक कम लागत पर छत और दीवारों की UV-स्थिर टॉपकोट के रूप में; रबर एस्फाल्ट बेसमेंट और डिटेल काम के लिए, जहां नम सब्सट्रेट से चिपकाव चाहिए।",
             "ru": "Полиуретан берут для открытых кровель и участков со стоячей водой, где важна эластичность; акрил — устойчивый к ультрафиолету верхний слой для кровель и стен при меньшей стоимости; резиновый битум подходит под подвалы и узловые работы, где нужно прилипание к влажному основанию. Выбор идёт по условию эксплуатации и состоянию основания, а не по виду упаковки.",
@@ -300,7 +300,7 @@
             "ja": "1 回の塗り付けでどの程度の塗面積を見込みますか？"
           },
           "a": {
-            "en": "Coverage depends on the wet film thickness in the technical data sheet, not the label on the pail. Most roofs need two coats plus detail reinforcement, so plan consumption from m2 per coat rather than from the container size.",
+            "en": "Coverage follows the wet film thickness in the technical data sheet, not the pail label. Most roofs need two coats plus detail reinforcement, so consumption is estimated by area, WFT and coat count, with reinforcement at upstands, corners and drains. Read dry film and recoat interval for the product, and account for substrate porosity and seam overlap. State area, coat count and reinforcement on the enquiry, and keep the data sheet tied to the product. Recheck coverage on a trial bay where substrate is unusually porous before ordering the full quantity.",
             "zh": "每遍涂布量按技术数据表中的湿膜厚度估算，而不是按桶上标签。多数屋面需要两遍涂层，外加细部加强处理。选型核对基层吸收、湿膜厚度和设计道数，涂布量过薄达不到防水效果，过厚则易开裂起泡。订单中写明部位和涂膜厚度要求，供应商提供配套材料和用量说明；施工记录每遍厚度和干燥间隔，验收对照湿膜与成品状态，避免道数不足或局部漏涂造成渗漏。",
             "hi": "कवरेज तकनीकी डेटा शीट की वेट फिल्म मोटाई पर निर्भर करती है, डिब्बे के लेबल पर नहीं। ज्यादातर छतों में दो कोट और डिटेल मजबूतीकरण चाहिए, इसलिए खपत कंटेनर के आकार से नहीं, प्रति कोट m2 से तय करें।",
             "ru": "Расход определяют по толщине мокрой плёнки в техническом паспорте, а не по этикетке на ведре. Большинство кровель требуют двух слоёв плюс армирование на узлах, поэтому расход считают в квадратных метрах на слой, а не исходя из объёма тары. Завышенный или заниженный расчёт ведёт либо к недокрытию, либо к лишней покупке.",
@@ -326,7 +326,7 @@
             "ja": "塗膜の不具合の最も多い原因は何ですか？"
           },
           "a": {
-            "en": "Poor surface preparation, too few coats, missing reinforcement at upstands, corners and drains, and application in rain or below the minimum temperature.",
+            "en": "Most failures come from poor preparation, too few coats, missing reinforcement at upstands, corners and drains, and application in rain or below minimum temperature. Trapped moisture blisters the film, movement across cracks opens leaks, and UV chalking breaks the surface down. Prepare and prime to the product requirement, reinforce details before main field coats, and respect drying and recoat windows. Inspect seam, upstand and drain junctions after curing, and record temperature and weather at application. Where a leak appears, trace it to preparation, coat count or detail rather than another thin topcoat over the base.",
             "zh": "涂膜失效最常见的原因：基层处理不到位、涂布道数不足、立边、阴阳角和排水口缺少加强处理，以及在雨天或低于最低施工温度时施工。选型和施工按基层状况、天气条件安排，细部节点先做加强层。订单中写明基层要求和节点处理方案，供应商提供配套底漆和加强材料；施工避开降雨和低温，干燥后再涂下一遍。验收检查基层清洁、道数和节点覆盖，发现起泡、开裂或漏涂部位返工，避免防水层早期失效。",
             "hi": "सतह की तैयारी खराब होना, कोट कम होना, ऊपर उठी दीवारों, कोनों और नालियों पर मजबूतीकरण न लगना, तथा बारिश में या न्यूनतम तापमान से नीचे कोटिंग लगा देना।",
             "ru": "Основные причины: плохая подготовка основания, недостаточное число слоёв, пропущенное армирование на подъёмах, углах и водосточных воронках, а также нанесение в дождь или ниже минимальной рабочей температуры. Контроль ведут по влажности основания, числу слоёв и погодным условиям на каждый проход.",
