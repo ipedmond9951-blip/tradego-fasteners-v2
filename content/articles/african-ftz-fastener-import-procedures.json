@@ -50,11 +50,26 @@
     "credentials": "Materials engineering background, fastener sourcing and inspection specialist"
   },
   "dataSource": [
-    "https://www.un.org/development/desa/dpad/project-select/units-and-commodities/afcfta",
-    "https://www.iso.org/standard/11511.html",
-    "https://www.astm.org/standards/a325.html",
-    "https://www.trade.gov/country-commercial-guides/south-africa-market-approaches",
-    "https://wits.worldbank.org/CountryProfile/en/Country/AFQ/Year/2024/TradeFlow/IMPEXP"
+    {
+      "name": "AfCFTA Units and Commodities (UN DESA)",
+      "url": "https://www.un.org/development/desa/dpad/project-select/units-and-commodities/afcfta"
+    },
+    {
+      "name": "ISO 11511 Fastener Standard",
+      "url": "https://www.iso.org/standard/11511.html"
+    },
+    {
+      "name": "ASTM A325 Structural Bolts Standard",
+      "url": "https://www.astm.org/standards/a325.html"
+    },
+    {
+      "name": "U.S. Commercial Service South Africa Market Approaches",
+      "url": "https://www.trade.gov/country-commercial-guides/south-africa-market-approaches"
+    },
+    {
+      "name": "World Bank WITS Africa Trade Flow Profile",
+      "url": "https://wits.worldbank.org/CountryProfile/en/Country/AFQ/Year/2024/TradeFlow/IMPEXP"
+    }
   ],
   "reviewedBy": "Chen Wei",
   "sections": [
@@ -438,7 +453,7 @@
   },
   "ogImage": "/images/articles/african-ftz-fastener-import-procedures-og.jpg",
   "schema": "Article",
-  "updated": "2026-04-08",
+  "updated": "2026-11-27",
   "metaDescription": {
     "en": "The African Continental Free Trade Area (AfCFTA) officially launched on January 1, 2021, creating the world's largest free trade area by number of",
     "zh": "AfCFTA框架下向非洲自由贸易区国家进口螺栓的完整指南。学习原产地规则、HS编码7318关税税率、港口物流及2025年海关单证。",
