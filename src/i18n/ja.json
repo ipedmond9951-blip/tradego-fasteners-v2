@@ -268,5 +268,27 @@
     "message": "内容",
     "messagePlaceholder": "規格、材質、表面処理、数量、仕向港",
     "submit": "送信する"
+  },
+  "search": {
+    "title": "サイト内検索",
+    "placeholder": "製品と記事を検索…",
+    "button": "検索",
+    "resultsFor": "「{q}」の検索結果",
+    "noResults": "該当する結果がありません",
+    "noResultsHint": "別のキーワードを試すか、製品カテゴリをご覧ください。直接お問い合わせも可能です。",
+    "groupProducts": "製品",
+    "groupArticles": "記事",
+    "hint": "このサイト内の製品名・仕様・ガイドを検索します。",
+    "browseProducts": "すべての製品を見る"
+  },
+  "lead": {
+    "title": "ファスナーのお問い合わせに素早くお返事します",
+    "desc": "メールアドレスまたは WhatsApp 番号をご記入ください。営業チームよりご連絡します。",
+    "placeholder": "メールアドレスまたは WhatsApp 番号",
+    "cta": "見積もりを依頼",
+    "note": "WhatsApp 番号は国際形式で表示されます。送信前にご確認ください。",
+    "success": "ありがとうございます。営業チームより折り返しご連絡いたします。",
+    "error": "有効なメールアドレスまたは WhatsApp 番号を入力してください。",
+    "close": "閉じる"
   }
 }
